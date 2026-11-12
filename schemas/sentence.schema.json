@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://italiano-contrastivo/schemas/sentence.schema.json",
+  "title": "Sentence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "source",
+    "it",
+    "es",
+    "cefr_estimate",
+    "review_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "enum": [
+        "tatoeba",
+        "opus",
+        "authored"
+      ]
+    },
+    "source_id": {
+      "type": "string",
+      "description": "Id de la oración IT en Tatoeba/OPUS."
+    },
+    "author": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string"
+    },
+    "it": {
+      "type": "string",
+      "minLength": 1
+    },
+    "es": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cefr_estimate": {
+      "$ref": "common.schema.json#/$defs/Cefr"
+    },
+    "error_codes": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/ErrorCodeRef"
+      }
+    },
+    "lexeme_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "audio": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{12}$",
+      "description": "Hash sha1[0..12] del clip Piper."
+    },
+    "review_status": {
+      "$ref": "common.schema.json#/$defs/ReviewStatus"
+    },
+    "es_source_id": {
+      "type": "string",
+      "description": "Id de la traducción ES directa en Tatoeba/OPUS."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "source": {
+            "enum": [
+              "tatoeba",
+              "opus"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "source_id",
+          "license"
+        ]
+      }
+    }
+  ]
+}

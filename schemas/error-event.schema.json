@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://italiano-contrastivo/schemas/error-event.schema.json",
+  "title": "ErrorEvent",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "error_code", "detector", "occurred_at"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "error_code": { "$ref": "common.schema.json#/$defs/ErrorCodeRef" },
+    "detector": { "$ref": "common.schema.json#/$defs/Detector" },
+    "input": { "type": "string" },
+    "start_char": { "type": "integer", "minimum": 0 },
+    "end_char": { "type": "integer", "minimum": 1 },
+    "replacement": { "type": "string" },
+    "item_id": { "type": "string" },
+    "occurred_at": { "type": "string", "format": "date-time" }
+  }
+}

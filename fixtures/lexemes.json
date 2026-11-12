@@ -1,0 +1,70 @@
+[
+  {
+    "id": "lx_famiglia",
+    "lemma_it": "famiglia",
+    "gloss_es": "familia",
+    "pos": "noun",
+    "gender": "f",
+    "lexical_type": "cognate",
+    "stress": "paroxytone",
+    "cefr": "A1",
+    "review_status": "needs_review"
+  },
+  {
+    "id": "lx_mangiare",
+    "lemma_it": "mangiare",
+    "gloss_es": "comer",
+    "pos": "verb",
+    "lexical_type": "neutral",
+    "sieves": [
+      2
+    ],
+    "stress": "paroxytone",
+    "cefr": "A1",
+    "review_status": "needs_review"
+  },
+  {
+    "id": "lx_burro",
+    "lemma_it": "burro",
+    "gloss_es": "mantequilla",
+    "pos": "noun",
+    "gender": "m",
+    "lexical_type": "false_friend",
+    "stress": "paroxytone",
+    "cefr": "A1",
+    "error_codes": [
+      "ERR_FALSE_FRIEND"
+    ],
+    "review_status": "needs_review"
+  },
+  {
+    "id": "lx_burocrazia",
+    "lemma_it": "burocrazia",
+    "gloss_es": "burocracia",
+    "pos": "noun",
+    "gender": "f",
+    "lexical_type": "cognate",
+    "stress": "paroxytone",
+    "heterotonic": true,
+    "cefr": "B1",
+    "error_codes": [
+      "ERR_HETEROTONIC"
+    ],
+    "review_status": "needs_review"
+  },
+  {
+    "id": "lx_nonno",
+    "lemma_it": "nonno",
+    "gloss_es": "abuelo",
+    "pos": "noun",
+    "gender": "m",
+    "lexical_type": "neutral",
+    "stress": "paroxytone",
+    "has_geminate": true,
+    "cefr": "A1",
+    "error_codes": [
+      "ERR_GEMINATE"
+    ],
+    "review_status": "needs_review"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "s_719442",
+    "source": "tatoeba",
+    "source_id": "719442",
+    "author": "Guybrush88",
+    "license": "CC BY 2.0 FR",
+    "it": "Sono andato.",
+    "es": "Yo he ido.",
+    "es_source_id": "1757165",
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_AUX_ESSERE"
+    ],
+    "lexeme_ids": [],
+    "review_status": "needs_review"
+  },
+  {
+    "id": "s_3255442",
+    "source": "tatoeba",
+    "source_id": "3255442",
+    "author": "Guybrush88",
+    "license": "CC BY 2.0 FR",
+    "it": "Vedi il mio libro?",
+    "es": "¿Ves mi libro?",
+    "es_source_id": "2105569",
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_POSSESSIVE_ARTICLE"
+    ],
+    "lexeme_ids": [],
+    "review_status": "needs_review"
+  },
+  {
+    "id": "s_3860754",
+    "source": "tatoeba",
+    "source_id": "3860754",
+    "author": "Guybrush88",
+    "license": "CC BY 2.0 FR",
+    "it": "Sto aiutando mio nonno.",
+    "es": "Estoy ayudando a mi abuelo.",
+    "es_source_id": "1661411",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_POSSESSIVE_ARTICLE",
+      "ERR_GEMINATE"
+    ],
+    "lexeme_ids": [
+      "lx_nonno"
+    ],
+    "review_status": "needs_review"
+  }
+]

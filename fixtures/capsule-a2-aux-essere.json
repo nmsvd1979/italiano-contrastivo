@@ -1,0 +1,112 @@
+{
+  "id": "cap_a2_aux_essere",
+  "cefr": "A2",
+  "title_es": "Essere o avere con verbos de movimiento",
+  "target_error_codes": [
+    "ERR_AUX_ESSERE",
+    "ERR_PARTICIPLE_AGREEMENT"
+  ],
+  "estimated_seconds": 240,
+  "review_status": "needs_review",
+  "trigger": {
+    "id": "cap_a2_aux_essere.t",
+    "requires_server": false,
+    "target_error_codes": [
+      "ERR_AUX_ESSERE"
+    ],
+    "review_status": "needs_review",
+    "type": "translate_es_it",
+    "source_es": "Ha nacido hoy.",
+    "accepted_it": [
+      "È nato oggi."
+    ]
+  },
+  "explanation": {
+    "text_es": "En español todos los tiempos compuestos usan «haber». En italiano, los verbos de movimiento con meta, de cambio de estado y los reflexivos usan «essere»: Sono andato a Roma. Con «essere» el participio concuerda con el sujeto: Maria è andata."
+  },
+  "retrieval": [
+    {
+      "id": "cap_a2_aux_essere.r1",
+      "requires_server": false,
+      "target_error_codes": [
+        "ERR_AUX_ESSERE"
+      ],
+      "review_status": "needs_review",
+      "type": "choice_l1_distractor",
+      "prompt_es": "Completa: Ieri Marco ___ a Roma per lavoro ed è tornato la sera.",
+      "options": [
+        {
+          "text": "ha andato",
+          "correct": false,
+          "error_code": "ERR_AUX_ESSERE",
+          "distractor_kind": "l1_calque"
+        },
+        {
+          "text": "è andato",
+          "correct": true
+        },
+        {
+          "text": "è andata",
+          "correct": false,
+          "error_code": "ERR_PARTICIPLE_AGREEMENT",
+          "distractor_kind": "morphological"
+        },
+        {
+          "text": "ha venuto",
+          "correct": false,
+          "error_code": "ERR_AUX_ESSERE",
+          "distractor_kind": "hypercorrection"
+        }
+      ]
+    },
+    {
+      "id": "cap_a2_aux_essere.r2",
+      "requires_server": false,
+      "target_error_codes": [
+        "ERR_AUX_ESSERE"
+      ],
+      "review_status": "needs_review",
+      "type": "cloze",
+      "text": "Maria ___ andata a Roma.",
+      "answers": [
+        "è"
+      ],
+      "hint_es": "auxiliar"
+    },
+    {
+      "id": "cap_a2_aux_essere.r3",
+      "requires_server": false,
+      "target_error_codes": [
+        "ERR_AUX_ESSERE"
+      ],
+      "review_status": "needs_review",
+      "type": "reorder",
+      "prompt_es": "Ordena: Las chicas han venido.",
+      "tokens": [
+        "sono",
+        "venute",
+        "Le",
+        "ragazze"
+      ],
+      "answer": [
+        "Le",
+        "ragazze",
+        "sono",
+        "venute"
+      ]
+    },
+    {
+      "id": "cap_a2_aux_essere.r4",
+      "requires_server": false,
+      "target_error_codes": [
+        "ERR_AUX_ESSERE"
+      ],
+      "review_status": "needs_review",
+      "type": "translate_es_it",
+      "source_es": "María ha ido a Roma.",
+      "accepted_it": [
+        "Maria è andata a Roma."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://italiano-contrastivo/schemas/lexeme.schema.json",
+  "title": "Lexeme",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "lemma_it", "gloss_es", "pos", "lexical_type", "cefr", "review_status"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "lemma_it": { "type": "string", "minLength": 1 },
+    "gloss_es": { "type": "string", "minLength": 1 },
+    "pos": { "enum": ["noun", "verb", "adj", "adv", "prep", "pron", "conj", "det", "other"] },
+    "gender": { "enum": ["m", "f", "mf"] },
+    "lexical_type": { "$ref": "common.schema.json#/$defs/LexicalType" },
+    "sieves": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/Sieve" } },
+    "stress": { "enum": ["paroxytone", "oxytone", "proparoxytone"], "description": "Acento italiano; marcar si difiere del español (heterotónica)." },
+    "heterotonic": { "type": "boolean" },
+    "has_geminate": { "type": "boolean" },
+    "freq_rank": { "type": "integer", "minimum": 1 },
+    "cefr": { "$ref": "common.schema.json#/$defs/Cefr" },
+    "error_codes": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/ErrorCodeRef" } },
+    "review_status": { "$ref": "common.schema.json#/$defs/ReviewStatus" }
+  }
+}

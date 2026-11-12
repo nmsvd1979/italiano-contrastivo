@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://italiano-contrastivo/schemas/slm-feedback.schema.json",
+  "title": "SlmFeedback",
+  "description": "Salida estricta del SLM local (decodificación guiada). Alineado con el esquema de la fuente NotebookLM 5f4ef3d8 §3.2. Solo errores a nivel de token; nunca reescribe. El servidor debe comprobar además que flagged_tokens == text_evaluated[start_char:end_char].",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "text_evaluated",
+    "is_correct",
+    "errors"
+  ],
+  "properties": {
+    "text_evaluated": {
+      "type": "string"
+    },
+    "is_correct": {
+      "type": "boolean"
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "error_id",
+          "start_char",
+          "end_char",
+          "flagged_tokens",
+          "suggested_correction",
+          "error_category",
+          "cefr_level",
+          "explanation_l1"
+        ],
+        "properties": {
+          "error_id": {
+            "type": "string"
+          },
+          "start_char": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end_char": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "flagged_tokens": {
+            "type": "string"
+          },
+          "suggested_correction": {
+            "type": "string"
+          },
+          "error_category": {
+            "enum": [
+              "L1_SINTACTIC_CALQUE",
+              "L1_FALSE_FRIEND",
+              "LEXICAL_CHOICE",
+              "GENDER_NUMBER_AGREEMENT",
+              "PREPOSITIONAL_GOVERNANCE"
+            ]
+          },
+          "cefr_level": {
+            "enum": [
+              "A1",
+              "A2",
+              "B1",
+              "B2"
+            ]
+          },
+          "explanation_l1": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

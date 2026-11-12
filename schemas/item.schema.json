@@ -1,0 +1,341 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://italiano-contrastivo/schemas/item.schema.json",
+  "title": "Item",
+  "description": "Ejercicio. Unión discriminada por `type`.",
+  "$defs": {
+    "Base": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "requires_server",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "requires_server": {
+          "type": "boolean",
+          "description": "true si necesita el Mac (LT/SLM/ASR)."
+        },
+        "target_error_codes": {
+          "type": "array",
+          "items": {
+            "$ref": "common.schema.json#/$defs/ErrorCodeRef"
+          }
+        },
+        "sentence_id": {
+          "type": "string"
+        },
+        "review_status": {
+          "$ref": "common.schema.json#/$defs/ReviewStatus"
+        }
+      }
+    },
+    "Option": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "correct"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "correct": {
+          "type": "boolean"
+        },
+        "error_code": {
+          "$ref": "common.schema.json#/$defs/ErrorCodeRef"
+        },
+        "distractor_kind": {
+          "enum": [
+            "l1_calque",
+            "hypercorrection",
+            "morphological",
+            "omission",
+            "tense_mismatch",
+            "aspect_mismatch"
+          ]
+        }
+      },
+      "if": {
+        "properties": {
+          "correct": {
+            "const": false
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "error_code",
+          "distractor_kind"
+        ]
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "allOf": [
+        {
+          "$ref": "#/$defs/Base"
+        }
+      ],
+      "type": "object",
+      "required": [
+        "prompt_es",
+        "options"
+      ],
+      "properties": {
+        "type": {
+          "const": "choice_l1_distractor"
+        },
+        "prompt_es": {
+          "type": "string",
+          "minLength": 1
+        },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 4,
+          "items": {
+            "$ref": "#/$defs/Option"
+          },
+          "contains": {
+            "type": "object",
+            "required": [
+              "correct"
+            ],
+            "properties": {
+              "correct": {
+                "const": true
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        "requires_server": {
+          "const": false
+        }
+      }
+    },
+    {
+      "allOf": [
+        {
+          "$ref": "#/$defs/Base"
+        }
+      ],
+      "type": "object",
+      "required": [
+        "prompt_es",
+        "tokens",
+        "answer"
+      ],
+      "properties": {
+        "type": {
+          "const": "reorder"
+        },
+        "prompt_es": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tokens": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "answer": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "requires_server": {
+          "const": false
+        }
+      }
+    },
+    {
+      "allOf": [
+        {
+          "$ref": "#/$defs/Base"
+        }
+      ],
+      "type": "object",
+      "required": [
+        "text",
+        "answers"
+      ],
+      "properties": {
+        "type": {
+          "const": "cloze"
+        },
+        "text": {
+          "type": "string",
+          "pattern": "^[^_]*___[^_]*$",
+          "description": "Exactamente un ___."
+        },
+        "answers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "hint_es": {
+          "type": "string"
+        },
+        "requires_server": {
+          "const": false
+        }
+      }
+    },
+    {
+      "allOf": [
+        {
+          "$ref": "#/$defs/Base"
+        }
+      ],
+      "type": "object",
+      "required": [
+        "source_es",
+        "accepted_it"
+      ],
+      "properties": {
+        "type": {
+          "const": "translate_es_it"
+        },
+        "source_es": {
+          "type": "string",
+          "minLength": 1
+        },
+        "accepted_it": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "requires_server": {
+          "type": "boolean"
+        }
+      }
+    },
+    {
+      "allOf": [
+        {
+          "$ref": "#/$defs/Base"
+        }
+      ],
+      "type": "object",
+      "required": [
+        "audio_a",
+        "audio_b",
+        "word_a",
+        "word_b",
+        "play"
+      ],
+      "properties": {
+        "type": {
+          "const": "minimal_pair_audio"
+        },
+        "audio_a": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{12}$"
+        },
+        "audio_b": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{12}$"
+        },
+        "word_a": {
+          "type": "string",
+          "minLength": 1
+        },
+        "word_b": {
+          "type": "string",
+          "minLength": 1
+        },
+        "play": {
+          "enum": [
+            "a",
+            "b"
+          ]
+        },
+        "requires_server": {
+          "const": false
+        }
+      }
+    },
+    {
+      "allOf": [
+        {
+          "$ref": "#/$defs/Base"
+        }
+      ],
+      "type": "object",
+      "required": [
+        "target_it",
+        "metric"
+      ],
+      "properties": {
+        "type": {
+          "const": "speak"
+        },
+        "target_it": {
+          "type": "string",
+          "minLength": 1
+        },
+        "metric": {
+          "enum": [
+            "geminate_ratio",
+            "stress_position",
+            "phoneme_match"
+          ]
+        },
+        "requires_server": {
+          "const": true
+        }
+      }
+    },
+    {
+      "allOf": [
+        {
+          "$ref": "#/$defs/Base"
+        }
+      ],
+      "type": "object",
+      "required": [
+        "prompt_es"
+      ],
+      "properties": {
+        "type": {
+          "const": "write"
+        },
+        "prompt_es": {
+          "type": "string",
+          "minLength": 1
+        },
+        "min_chars": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "requires_server": {
+          "const": true
+        }
+      }
+    }
+  ]
+}

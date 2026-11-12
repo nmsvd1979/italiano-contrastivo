@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://italiano-contrastivo/schemas/error-code.schema.json",
+  "title": "ErrorCode",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "code",
+    "category",
+    "cefr_min",
+    "explanation_es",
+    "example_wrong",
+    "example_right",
+    "detectors",
+    "source"
+  ],
+  "properties": {
+    "code": {
+      "$ref": "common.schema.json#/$defs/ErrorCodeRef"
+    },
+    "category": {
+      "enum": [
+        "L1_SINTACTIC_CALQUE",
+        "L1_FALSE_FRIEND",
+        "LEXICAL_CHOICE",
+        "GENDER_NUMBER_AGREEMENT",
+        "PREPOSITIONAL_GOVERNANCE",
+        "PHONETIC"
+      ]
+    },
+    "sieve": {
+      "oneOf": [
+        {
+          "$ref": "common.schema.json#/$defs/Sieve"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "cefr_min": {
+      "$ref": "common.schema.json#/$defs/Cefr"
+    },
+    "explanation_es": {
+      "type": "string",
+      "minLength": 1
+    },
+    "example_wrong": {
+      "type": "string",
+      "minLength": 1
+    },
+    "example_right": {
+      "type": "string",
+      "minLength": 1
+    },
+    "detectors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "common.schema.json#/$defs/Detector"
+      }
+    },
+    "source": {
+      "type": "string",
+      "description": "Fuente (NotebookLM) de donde sale el código.",
+      "minLength": 1
+    },
+    "review_status": {
+      "$ref": "common.schema.json#/$defs/ReviewStatus"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

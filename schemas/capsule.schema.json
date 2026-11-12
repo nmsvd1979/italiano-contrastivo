@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://italiano-contrastivo/schemas/capsule.schema.json",
+  "title": "Capsule",
+  "description": "Micro-cápsula de 3-5 min: trigger (garden path) → explicación atómica → recuperación activa → cierre.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "cefr", "target_error_codes", "trigger", "explanation", "retrieval", "estimated_seconds", "review_status"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "cefr": { "$ref": "common.schema.json#/$defs/Cefr" },
+    "title_es": { "type": "string" },
+    "target_error_codes": { "type": "array", "minItems": 1, "items": { "$ref": "common.schema.json#/$defs/ErrorCodeRef" } },
+    "trigger": { "$ref": "item.schema.json", "description": "Ítem garden path (0:00-0:30)." },
+    "explanation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text_es"],
+      "properties": {
+        "text_es": { "type": "string", "minLength": 1 },
+        "audio": { "type": "string", "pattern": "^[0-9a-f]{12}$" }
+      }
+    },
+    "retrieval": { "type": "array", "minItems": 4, "maxItems": 6, "items": { "$ref": "item.schema.json" } },
+    "estimated_seconds": { "type": "integer", "minimum": 180, "maximum": 300 },
+    "review_status": { "$ref": "common.schema.json#/$defs/ReviewStatus" }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://italiano-contrastivo/schemas/card.schema.json",
+  "title": "Card",
+  "description": "Tarjeta de repaso espaciado (estado del usuario, en IndexedDB). El estado FSRS es el de ts-fsrs serializado.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "subject",
+    "lexical_type",
+    "calibration",
+    "fsrs"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "ref"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "lexeme",
+            "error_code"
+          ]
+        },
+        "ref": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "lexical_type": {
+      "enum": [
+        "cognate",
+        "neutral",
+        "false_friend",
+        "not_applicable"
+      ]
+    },
+    "calibration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "delta_d",
+        "gamma_s"
+      ],
+      "properties": {
+        "delta_d": {
+          "type": "number"
+        },
+        "gamma_s": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "fsrs": {
+      "type": "object",
+      "description": "Card de ts-fsrs 6.0.0 serializada a JSON (fechas ISO 8601). elapsed_days está obsoleto en esa versión y es opcional.",
+      "required": [
+        "due",
+        "stability",
+        "difficulty",
+        "scheduled_days",
+        "reps",
+        "lapses",
+        "learning_steps",
+        "state"
+      ],
+      "properties": {
+        "due": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "stability": {
+          "type": "number",
+          "minimum": 0
+        },
+        "difficulty": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "elapsed_days": {
+          "type": "number",
+          "minimum": 0
+        },
+        "scheduled_days": {
+          "type": "number",
+          "minimum": 0
+        },
+        "reps": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "lapses": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "state": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "last_review": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "learning_steps": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

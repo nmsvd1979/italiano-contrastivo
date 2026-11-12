@@ -1,0 +1,234 @@
+[
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "En italiano el posesivo lleva artículo (il mio libro), salvo con parentesco singular (mio fratello). El español 'mi libro' no lo lleva, y 'mi hermano' tampoco, lo que induce a omitirlo o a sobreusarlo.",
+    "example_wrong": "mio libro",
+    "example_right": "il mio libro",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §4.1",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_NEG_IMPERATIVE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "El imperativo negativo de 2ª persona singular usa non + infinitivo; el español usa subjuntivo (no hables).",
+    "example_wrong": "Non parli!",
+    "example_right": "Non parlare!",
+    "detectors": [
+      "lt",
+      "slm",
+      "autocheck"
+    ],
+    "source": "NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1) (Garden Path)",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "El español usa solo 'haber'; en italiano los verbos de movimiento con meta, cambio de estado y reflexivos piden essere.",
+    "example_wrong": "Ho andato a Roma",
+    "example_right": "Sono andato a Roma",
+    "detectors": [
+      "autocheck",
+      "slm"
+    ],
+    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §4.3; NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1)",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_PARTICIPLE_AGREEMENT",
+    "category": "GENDER_NUMBER_AGREEMENT",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Con essere el participio concuerda en género y número con el sujeto.",
+    "example_wrong": "Marco è andata a Roma",
+    "example_right": "Marco è andato a Roma",
+    "detectors": [
+      "autocheck",
+      "slm"
+    ],
+    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §4.3; NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1)",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "category": "PREPOSITIONAL_GOVERNANCE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "El español marca el objeto directo animado con 'a'; el italiano no.",
+    "example_wrong": "Io cerco a Maria",
+    "example_right": "Io cerco Maria",
+    "detectors": [
+      "lt",
+      "slm"
+    ],
+    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §2.2 (regla IT_ES_PERSONAL_A)",
+    "review_status": "needs_review",
+    "notes": "Nivel CEFR no indicado en la fuente; A2 es estimación."
+  },
+  {
+    "code": "ERR_PREP_PENSARE",
+    "category": "PREPOSITIONAL_GOVERNANCE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "'Pensar en' se dice pensare a.",
+    "example_wrong": "Io penso in te",
+    "example_right": "Io penso a te",
+    "detectors": [
+      "lt",
+      "slm"
+    ],
+    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §2.2 (regla IT_ES_PENSARE_IN)",
+    "review_status": "needs_review",
+    "notes": "Nivel CEFR no indicado en la fuente; A2 es estimación."
+  },
+  {
+    "code": "ERR_FALSE_FRIEND",
+    "category": "L1_FALSE_FRIEND",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Palabra de forma semejante y significado distinto: salire=subir (salir=uscire), burro=mantequilla, largo=ancho, guardare=mirar, aceto=vinagre, officina=taller, caldo=caliente, spalla=hombro, asilo=guardería.",
+    "example_wrong": "Lui sale dalla stanza",
+    "example_right": "Lui esce dalla stanza",
+    "detectors": [
+      "lt",
+      "slm",
+      "autocheck"
+    ],
+    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §2.2; NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1) (falsos amigos semánticos)",
+    "review_status": "needs_review",
+    "notes": "Nivel CEFR no indicado en la fuente."
+  },
+  {
+    "code": "ERR_CONGIUNTIVO_OPINION",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "B1",
+    "explanation_es": "Credere, pensare, ritenere y parere piden congiuntivo; el español usa indicativo (creo que tiene).",
+    "example_wrong": "Credo che Giovanni ha ragione",
+    "example_right": "Credo che Giovanni abbia ragione",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1) (taxonomía)",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_CONGIUNTIVO_CONCESSIVE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "B2",
+    "explanation_es": "Sebbene y benché exigen congiuntivo; 'aunque' admite indicativo en español.",
+    "example_wrong": "Sebbene Marco ha studiato molto, non ha superato l'esame",
+    "example_right": "Sebbene Marco abbia studiato molto, non ha superato l'esame",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §4.3; NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1)",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_CLITIC_COMBINED",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "B1",
+    "explanation_es": "Dativo + acusativo se funden: gli/le + le = gliele; el español 'se las' no se calca.",
+    "example_wrong": "Sì, se le ho già date",
+    "example_right": "Sì, gliele ho già date",
+    "detectors": [
+      "autocheck",
+      "slm"
+    ],
+    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §4.3 (ítem 2)",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_CLITIC_CI",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "B1",
+    "explanation_es": "Ci sustituye complementos de lugar con a/in/su y de 'pensare a'; el español no tiene un clítico equivalente.",
+    "example_wrong": "Penso a questo",
+    "example_right": "Ci penso",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1) (Ci y Ne)",
+    "review_status": "needs_review",
+    "notes": "Duda: 'Penso a questo' es italiano gramatical; el error real es no pronominalizar donde se espera. Ver docs/dudas-italiano.md."
+  },
+  {
+    "code": "ERR_CLITIC_NE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "B2",
+    "explanation_es": "Ne partitivo: obliga a repetir la cantidad y el participio concuerda con el objeto.",
+    "example_wrong": "Ho comprato due",
+    "example_right": "Ne ho comprate due",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1) (Ci y Ne)",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_CLITIC_CE_NE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "B2",
+    "explanation_es": "Ci + ne se convierte en ce ne.",
+    "example_wrong": "Ci ne sono molti",
+    "example_right": "Ce ne sono molti",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1) (Ci y Ne)",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_GEMINATE",
+    "category": "PHONETIC",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "La duración de la consonante cambia el significado (nono/nonno, pala/palla, copia/coppia); el hablante de español tiende a simplificar la doble.",
+    "example_wrong": "nono (por nonno)",
+    "example_right": "nonno",
+    "detectors": [
+      "asr",
+      "autocheck"
+    ],
+    "source": "NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1) (geminadas)",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_HETEROTONIC",
+    "category": "PHONETIC",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Misma grafía casi idéntica pero distinta sílaba tónica: burocrazia, oceano, periferia.",
+    "example_wrong": "burocrazia con acento en -cra-",
+    "example_right": "burocrazia con acento en -zi-",
+    "detectors": [
+      "asr",
+      "autocheck"
+    ],
+    "source": "NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1) (heterotónicas)",
+    "review_status": "needs_review",
+    "notes": "No usar la fila atmosfera/atmósfera de la fuente: tiene los acentos invertidos."
+  }
+]

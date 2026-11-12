@@ -1,0 +1,23 @@
+{
+  "name": "italiano-contrastivo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run && .venv/bin/python -m pytest tests/py -q",
+    "test:js": "vitest run",
+    "test:py": ".venv/bin/python -m pytest tests/py -q",
+    "schemas:ts": "node scripts/gen-types.mjs",
+    "schemas:py": ".venv/bin/python scripts/gen_models.py",
+    "schemas": "npm run schemas:ts && npm run schemas:py",
+    "typecheck": "tsc -p web/tsconfig.json"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "json-schema-to-typescript": "^16.0.0",
+    "ts-fsrs": "6.0.0",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}

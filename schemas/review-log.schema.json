@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://italiano-contrastivo/schemas/review-log.schema.json",
+  "title": "ReviewLog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["card_id", "rating", "reviewed_at", "origin"],
+  "properties": {
+    "card_id": { "type": "string", "minLength": 1 },
+    "rating": { "type": "integer", "minimum": 1, "maximum": 4 },
+    "reviewed_at": { "type": "string", "format": "date-time" },
+    "origin": { "enum": ["capsule", "review"] },
+    "capsule_id": { "type": "string" }
+  }
+}

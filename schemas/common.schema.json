@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://italiano-contrastivo/schemas/common.schema.json",
+  "$defs": {
+    "ErrorCodeRef": { "type": "string", "pattern": "^ERR_[A-Z0-9_]+$" },
+    "Cefr": { "enum": ["A1", "A2", "B1", "B2"] },
+    "Sieve": { "type": "integer", "minimum": 1, "maximum": 7 },
+    "ReviewStatus": { "enum": ["draft", "needs_review", "validated", "rejected"] },
+    "LexicalType": { "enum": ["cognate", "neutral", "false_friend"] },
+    "Detector": { "enum": ["lt", "slm", "asr", "autocheck"] }
+  }
+}
