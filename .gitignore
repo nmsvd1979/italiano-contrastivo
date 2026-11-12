@@ -5,3 +5,5 @@ __pycache__/
 *.onnx
 .DS_Store
 dist/
+data/raw/
+data/work/
