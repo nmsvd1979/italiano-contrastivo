@@ -1,0 +1,6 @@
+spacy==3.8.*
+wordfreq==3.1.1
+PyYAML>=6
+pytest
+pydantic
+jsonschema
