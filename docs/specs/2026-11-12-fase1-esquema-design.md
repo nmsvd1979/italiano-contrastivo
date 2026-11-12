@@ -17,7 +17,7 @@ Estado: implementado y probado en local; **pendiente de tu revisión** antes de 
 
 | Esquema | Para qué |
 |---|---|
-| `error-code` + `data/error-codes.json` | Catálogo de 15 códigos de error contrastivo con ejemplo, nivel, detector y fuente |
+| `error-code` + `data/error-codes.json` | Catálogo de 30 códigos de error contrastivo con ejemplo, nivel, detector y fuente |
 | `lexeme` | Léxico con `lexical_type` (cognate/neutral/false_friend), heterotónica, geminada |
 | `sentence` | Oración Tatoeba/OPUS/propia; Tatoeba exige `source_id`, autor y licencia |
 | `item` | 7 tipos de ejercicio; todo distractor lleva `error_code` y `distractor_kind` |
@@ -32,7 +32,7 @@ Estado: implementado y probado en local; **pendiente de tu revisión** antes de 
 - Ids, autor y traducción directa de las 3 oraciones Tatoeba (719442, 3255442, 3860754) se leyeron de la API de Tatoeba.
 
 ## Límites que debes conocer
-1. **Taxonomía parcial.** Las consultas a NotebookLM (`notebook_query`) se agotaron por tiempo; los 15 códigos salen de leer el texto crudo de **2 de las 99 fuentes** (5f4ef3d8 y 79103ab3). Falta revisar el resto (p. ej. preposiciones, artículos, falsos amigos más allá de la tabla).
+1. **Taxonomía parcial.** Las consultas a NotebookLM (`notebook_query`) se agotaron por tiempo; los 30 códigos salen de leer el texto crudo de **6 de las 99 fuentes** (5f4ef3d8, 79103ab3, a3d81c5f, 2c06bfeb, 667a65f8, 7bb78aa1). Siguen sin leerse las fuentes académicas (subjuntivo contrastivo, sistema pronominal de Oviedo, errores léxicos, fonética para italófonos).
 2. **Todo el contenido está `needs_review`.** Nada se marcó `validated`; los niveles CEFR de 5 códigos son estimaciones (anotado en `notes`).
 3. **Errores en las fuentes**, listados en `docs/dudas-italiano.md` (acentos invertidos en atmosfera, adesso/adrede, "Penso a questo"…). No se copiaron.
 4. Un cambio al diseño inicial: la fuente trae un esquema de SLM más completo que el mío; se adoptó el de la fuente. El servidor debe además comprobar que `flagged_tokens == text_evaluated[start:end]` (JSON Schema no puede).

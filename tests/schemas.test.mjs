@@ -88,6 +88,15 @@ describe("catálogo error-codes.json", () => {
   it("los códigos son únicos", () => {
     expect(new Set(codes.map((c) => c.code)).size).toBe(codes.length);
   });
+  it("los códigos fonéticos se detectan solo con asr/autocheck y los demás nunca con asr", () => {
+    for (const c of codes) {
+      if (c.category === "PHONETIC") for (const d of c.detectors) expect(["asr", "autocheck"], c.code).toContain(d);
+      else expect(c.detectors, c.code).not.toContain("asr");
+    }
+  });
+  it("todo código tiene fuente identificable", () => {
+    for (const c of codes) expect(c.source.length, c.code).toBeGreaterThan(10);
+  });
   it("ningún ejemplo erróneo coincide con el correcto", () => {
     for (const c of codes) expect(c.example_wrong).not.toBe(c.example_right);
   });

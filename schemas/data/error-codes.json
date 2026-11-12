@@ -65,14 +65,14 @@
     "category": "PREPOSITIONAL_GOVERNANCE",
     "sieve": null,
     "cefr_min": "A2",
-    "explanation_es": "El español marca el objeto directo animado con 'a'; el italiano no.",
+    "explanation_es": "El español marca el objeto directo animado con 'a'; el italiano no. Verbos típicos: cercare, chiamare, aspettare, vedere, aiutare.",
     "example_wrong": "Io cerco a Maria",
     "example_right": "Io cerco Maria",
     "detectors": [
       "lt",
       "slm"
     ],
-    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §2.2 (regla IT_ES_PERSONAL_A)",
+    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §2.2 (regla IT_ES_PERSONAL_A); Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #17,#41,#42",
     "review_status": "needs_review",
     "notes": "Nivel CEFR no indicado en la fuente; A2 es estimación."
   },
@@ -97,7 +97,7 @@
     "category": "L1_FALSE_FRIEND",
     "sieve": null,
     "cefr_min": "A1",
-    "explanation_es": "Palabra de forma semejante y significado distinto: salire=subir (salir=uscire), burro=mantequilla, largo=ancho, guardare=mirar, aceto=vinagre, officina=taller, caldo=caliente, spalla=hombro, asilo=guardería.",
+    "explanation_es": "Palabra de forma semejante y significado distinto: salire=subir (salir=uscire), burro=mantequilla, largo=ancho, guardare=mirar, aceto=vinagre, officina=taller, caldo=caliente, spalla=hombro, asilo=guardería. También: gamba=pierna, carta=papel, pretendere=exigir, pronto=listo (presto=pronto), allora=entonces (≠ahora), imbarazzata=avergonzada (incinta=embarazada), ritardato (ofensivo; 'retrasado' = in ritardo).",
     "example_wrong": "Lui sale dalla stanza",
     "example_right": "Lui esce dalla stanza",
     "detectors": [
@@ -105,9 +105,9 @@
       "slm",
       "autocheck"
     ],
-    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §2.2; NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1) (falsos amigos semánticos)",
+    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §2.2; NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1) (falsos amigos semánticos); Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #1-10,#70,#72; Italianamente (fuente NotebookLM 2c06bfeb) §1",
     "review_status": "needs_review",
-    "notes": "Nivel CEFR no indicado en la fuente."
+    "notes": "Nivel CEFR no indicado en la fuente. Descartado de las fuentes: attualmente (igual que 'actualmente'), assistere (ambiguo), sopportare/supportare (error de angloparlantes)."
   },
   {
     "code": "ERR_CONGIUNTIVO_OPINION",
@@ -230,5 +230,239 @@
     "source": "NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1) (heterotónicas)",
     "review_status": "needs_review",
     "notes": "No usar la fila atmosfera/atmósfera de la fuente: tiene los acentos invertidos."
+  },
+  {
+    "code": "ERR_GENDER_DIVERGENCE",
+    "category": "GENDER_NUMBER_AGREEMENT",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Algunas palabras cambian de género respecto al español: il fiore (la flor), la caviglia (el tobillo). Aprender siempre el artículo con la palabra.",
+    "example_wrong": "la fiore",
+    "example_right": "il fiore",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "Italianamente (fuente NotebookLM 2c06bfeb) §2",
+    "review_status": "needs_review",
+    "notes": "Forma errónea construida por nosotros; la fuente solo da los géneros correctos."
+  },
+  {
+    "code": "ERR_PLURAL_VOWEL",
+    "category": "GENDER_NUMBER_AGREEMENT",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "El plural italiano cambia la vocal final (il gatto → i gatti); el español agrega -s.",
+    "example_wrong": "i gattos",
+    "example_right": "i gatti",
+    "detectors": [
+      "lt",
+      "autocheck"
+    ],
+    "source": "PoliLingua (fuente NotebookLM 667a65f8; fiabilidad baja, el dato es gramática estándar)",
+    "review_status": "needs_review",
+    "notes": "Forma errónea construida por nosotros."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "category": "PREPOSITIONAL_GOVERNANCE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Con ciudades se usa a (vivo a Roma, arrivo a Roma); con países y regiones, in (vado in Italia). El español usa 'en' para vivir y 'a' para ir sin distinguir ciudad de país.",
+    "example_wrong": "Vivo in Roma",
+    "example_right": "Vivo a Roma",
+    "detectors": [
+      "lt",
+      "slm",
+      "autocheck"
+    ],
+    "source": "Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #11,#12,#19",
+    "review_status": "needs_review",
+    "notes": "Otros ejemplos de la fuente: 'Domani vado a Italia' → 'in Italia'."
+  },
+  {
+    "code": "ERR_PREP_FIXED_GOV",
+    "category": "PREPOSITIONAL_GOVERNANCE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Régimen preposicional fijo que no coincide con el español: dipendere da (depender de), venire da (venir de), essere interessato a (interesado en).",
+    "example_wrong": "Dipende di te",
+    "example_right": "Dipende da te",
+    "detectors": [
+      "lt",
+      "slm"
+    ],
+    "source": "Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #13,#14,#16",
+    "review_status": "needs_review",
+    "notes": "Otros ejemplos de la fuente: 'Vengo di Madrid' → 'da Madrid'; 'Sono interessato in questo corso' → 'a questo corso'."
+  },
+  {
+    "code": "ERR_CE_AGREEMENT",
+    "category": "GENDER_NUMBER_AGREEMENT",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "C'è se usa con singular y ci sono con plural; el español 'hay' no varía.",
+    "example_wrong": "C'è molte persone alla festa",
+    "example_right": "Ci sono molte persone alla festa",
+    "detectors": [
+      "lt",
+      "autocheck"
+    ],
+    "source": "Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #39",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_CLITIC_DIRECT_INDIRECT",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Los pronombres de objeto directo (lo, la) y los de objeto indirecto (gli, le) no se intercambian.",
+    "example_wrong": "Gli vedo ogni giorno",
+    "example_right": "Lo vedo ogni giorno",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #43,#44",
+    "review_status": "needs_review",
+    "notes": "Segundo ejemplo de la fuente: 'Le chiamo ogni sera' → 'La chiamo'. La hipótesis de transferencia del leísmo español es nuestra, no de la fuente."
+  },
+  {
+    "code": "ERR_COLLOCATION_CALQUE",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Colocaciones traducidas palabra por palabra: darse cuenta → rendersi conto, poner atención → fare attenzione, dar un paseo → fare una passeggiata.",
+    "example_wrong": "Mi sono dato conto dell'errore",
+    "example_right": "Mi sono reso conto dell'errore",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #63,#66,#67",
+    "review_status": "needs_review",
+    "notes": "Otros: 'Metti attenzione' → 'Fai attenzione'; 'dare una passeggiata' → 'fare'. Menos claros (poco naturales, no incorrectos): 'Non posso aspettare' → 'Non vedo l'ora', 'prendo colazione' → 'faccio colazione'."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "'Tener' del español corresponde a avere (hai ragione), no a tenere (sostener, mantener).",
+    "example_wrong": "Tieni ragione",
+    "example_right": "Hai ragione",
+    "detectors": [
+      "lt",
+      "slm",
+      "autocheck"
+    ],
+    "source": "Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #62",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_PRONOMINAL_VERB",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "B1",
+    "explanation_es": "Verbos pronominales sin equivalente en español (farcela, cavarsela, andarsene) o con partículas obligatorias; accorgersi lleva pronombre reflexivo y essere.",
+    "example_wrong": "Non ce faccio più",
+    "example_right": "Non ce la faccio più",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #86-89",
+    "review_status": "needs_review",
+    "notes": "Otros: 'Ho accorto che…' → 'Mi sono accorto che…'; 'Mi cavo bene' → 'Me la cavo bene'."
+  },
+  {
+    "code": "ERR_LEXICAL_LEAK",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Palabra española usada tal cual o italianizada sin existir en italiano ('pregunta', en italiano domanda).",
+    "example_wrong": "Posso farti una pregunta?",
+    "example_right": "Posso farti una domanda?",
+    "detectors": [
+      "lt",
+      "slm"
+    ],
+    "source": "Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #61; Italianamente (fuente NotebookLM 2c06bfeb) §6",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_MANCARE",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "'Extrañar a alguien' usa mancare con estructura invertida: el sujeto es quien es extrañado (Mi manchi = te extraño).",
+    "example_wrong": "Ti perdo molto",
+    "example_right": "Mi manchi molto",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #29",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_SC_PALATAL",
+    "category": "PHONETIC",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Sc ante i/e es un único sonido /ʃ/ (geminado entre vocales), no s + c.",
+    "example_wrong": "pesce pronunciado con s y c separadas",
+    "example_right": "pesce /ˈpeʃ.ʃe/",
+    "detectors": [
+      "asr"
+    ],
+    "source": "LearnAmo «Sonidos difíciles» (fuente NotebookLM 7bb78aa1)",
+    "review_status": "needs_review",
+    "notes": "El error está descrito, no transcrito, en la fuente. Verificar IPA con un diccionario antes de validar."
+  },
+  {
+    "code": "ERR_GLI_PALATAL",
+    "category": "PHONETIC",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Gli es la lateral palatal /ʎ/ (geminada entre vocales); muchos hispanohablantes la reducen a /li/ o la separan en g + l.",
+    "example_wrong": "famiglia pronunciada con /li/",
+    "example_right": "famiglia /faˈmiʎ.ʎa/",
+    "detectors": [
+      "asr"
+    ],
+    "source": "LearnAmo «Sonidos difíciles» (fuente NotebookLM 7bb78aa1)",
+    "review_status": "needs_review",
+    "notes": "En español con yeísmo (p. ej. Chile) /ʎ/ no existe: confirmar el patrón de error real con audio antes de validar."
+  },
+  {
+    "code": "ERR_C_G_PALATAL",
+    "category": "PHONETIC",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "C y g ante e/i son /tʃ/ y /dʒ/; el español las pronuncia /θ/ o /s/ (c) y /x/ (g).",
+    "example_wrong": "cena pronunciada con /s/ o /θ/",
+    "example_right": "cena /ˈtʃe.na/",
+    "detectors": [
+      "asr"
+    ],
+    "source": "NotebookLM (tamiz 4, Grafías y pronunciación; citado de 79103ab3 y b9e115d6)",
+    "review_status": "needs_review",
+    "notes": "Ejemplo de /dʒ/ pendiente de fuente."
+  },
+  {
+    "code": "ERR_Z_AFFRICATE",
+    "category": "PHONETIC",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "La z italiana es africada (/ts/ o /dz/); el sonido [θ] del español de España no existe en italiano y en Latinoamérica la z se pronuncia /s/.",
+    "example_wrong": "pizza pronunciada con /s/ o /θ/",
+    "example_right": "pizza /ˈpit.tsa/",
+    "detectors": [
+      "asr"
+    ],
+    "source": "PoliLingua (fuente NotebookLM 667a65f8; fiabilidad baja, el dato es gramática estándar); LearnAmo «Sonidos difíciles» (fuente NotebookLM 7bb78aa1) (quiz)",
+    "review_status": "needs_review",
+    "notes": "La fuente solo confirma /ts/ en pizza/pezzo/prezzo; cuándo es /dz/ queda pendiente."
   }
 ]
