@@ -25,7 +25,8 @@
         "LEXICAL_CHOICE",
         "GENDER_NUMBER_AGREEMENT",
         "PREPOSITIONAL_GOVERNANCE",
-        "PHONETIC"
+        "PHONETIC",
+        "ORTHOGRAPHIC"
       ]
     },
     "sieve": {

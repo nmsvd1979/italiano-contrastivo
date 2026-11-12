@@ -42,8 +42,9 @@
       "autocheck",
       "slm"
     ],
-    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §4.3; NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1)",
-    "review_status": "needs_review"
+    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §4.3; NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1); Lancione daedf2c6",
+    "review_status": "needs_review",
+    "notes": "Errores reales de aprendices hispanohablantes: 'abbiamo stato a*' → 'siamo stati a' (Lancione)."
   },
   {
     "code": "ERR_PARTICIPLE_AGREEMENT",
@@ -57,8 +58,9 @@
       "autocheck",
       "slm"
     ],
-    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §4.3; NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1)",
-    "review_status": "needs_review"
+    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §4.3; NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1); Oviedo 09f91a6f",
+    "review_status": "needs_review",
+    "notes": "En español el participio es invariable; en italiano concuerda con essere (Oviedo)."
   },
   {
     "code": "ERR_PERSONAL_A",
@@ -72,9 +74,9 @@
       "lt",
       "slm"
     ],
-    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §2.2 (regla IT_ES_PERSONAL_A); Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #17,#41,#42",
+    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §2.2 (regla IT_ES_PERSONAL_A); Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #17,#41,#42; Oviedo 09f91a6f; Lancione daedf2c6",
     "review_status": "needs_review",
-    "notes": "Nivel CEFR no indicado en la fuente; A2 es estimación."
+    "notes": "Nivel CEFR no indicado en la fuente; A2 es estimación. Respaldado por la fuente de Oviedo: en italiano nunca se usa 'a' con complemento directo. Error real de aprendiz: 'io no ho visto a la moglie*' → 'io non ho visto mia moglie'."
   },
   {
     "code": "ERR_PREP_PENSARE",
@@ -97,7 +99,7 @@
     "category": "L1_FALSE_FRIEND",
     "sieve": null,
     "cefr_min": "A1",
-    "explanation_es": "Palabra de forma semejante y significado distinto: salire=subir (salir=uscire), burro=mantequilla, largo=ancho, guardare=mirar, aceto=vinagre, officina=taller, caldo=caliente, spalla=hombro, asilo=guardería. También: gamba=pierna, carta=papel, pretendere=exigir, pronto=listo (presto=pronto), allora=entonces (≠ahora), imbarazzata=avergonzada (incinta=embarazada), ritardato (ofensivo; 'retrasado' = in ritardo).",
+    "explanation_es": "Palabra de forma semejante y significado distinto: salire=subir (salir=uscire), burro=mantequilla, largo=ancho, guardare=mirar, aceto=vinagre, officina=taller, caldo=caliente, spalla=hombro, asilo=guardería. También: gamba=pierna, carta=papel, pretendere=exigir, pronto=listo (presto=pronto), allora=entonces (≠ahora), imbarazzata=avergonzada (incinta=embarazada), ritardato (ofensivo; 'retrasado' = in ritardo). Más: andar=camminare (andare=ir), espalda=schiena (spalla=hombro).",
     "example_wrong": "Lui sale dalla stanza",
     "example_right": "Lui esce dalla stanza",
     "detectors": [
@@ -105,9 +107,9 @@
       "slm",
       "autocheck"
     ],
-    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §2.2; NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1) (falsos amigos semánticos); Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #1-10,#70,#72; Italianamente (fuente NotebookLM 2c06bfeb) §1",
+    "source": "NotebookLM 5f4ef3d8 (Motor de evaluación, SRS y análisis de errores) §2.2; NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1) (falsos amigos semánticos); Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #1-10,#70,#72; Italianamente (fuente NotebookLM 2c06bfeb) §1; Lancione daedf2c6",
     "review_status": "needs_review",
-    "notes": "Nivel CEFR no indicado en la fuente. Descartado de las fuentes: attualmente (igual que 'actualmente'), assistere (ambiguo), sopportare/supportare (error de angloparlantes)."
+    "notes": "Nivel CEFR no indicado en la fuente. Descartado de las fuentes: attualmente (igual que 'actualmente'), assistere (ambiguo), sopportare/supportare (error de angloparlantes). Pares adicionales reportados en Lancione (cita a Maggioni 2010)."
   },
   {
     "code": "ERR_CONGIUNTIVO_OPINION",
@@ -212,8 +214,9 @@
       "asr",
       "autocheck"
     ],
-    "source": "NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1) (geminadas)",
-    "review_status": "needs_review"
+    "source": "NotebookLM 79103ab3 (Modelos pedagógicos y didáctica contrastiva A1-C1) (geminadas); Pandolfi 88ea1c0a",
+    "review_status": "needs_review",
+    "notes": "Estudio con 42 hablantes de español (Buenos Aires): además de la degeminación, confunden [n:] con [ɲ]; ver ERR_GEMINATE_NASAL_CONFUSION. Patrón de hablantes chilenos sin confirmar."
   },
   {
     "code": "ERR_HETEROTONIC",
@@ -243,9 +246,9 @@
       "slm",
       "autocheck"
     ],
-    "source": "Italianamente (fuente NotebookLM 2c06bfeb) §2",
+    "source": "Italianamente (fuente NotebookLM 2c06bfeb) §2; Lancione daedf2c6",
     "review_status": "needs_review",
-    "notes": "Forma errónea construida por nosotros; la fuente solo da los géneros correctos."
+    "notes": "Forma errónea construida por nosotros; la fuente solo da los géneros correctos. Par con cambio de vocal que mezcla género y significado: pianta (planta) / pianto (llanto); error real 'le piccoli pianti*' (Lancione)."
   },
   {
     "code": "ERR_PLURAL_VOWEL",
@@ -276,9 +279,9 @@
       "slm",
       "autocheck"
     ],
-    "source": "Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #11,#12,#19",
+    "source": "Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #11,#12,#19; Lancione daedf2c6",
     "review_status": "needs_review",
-    "notes": "Otros ejemplos de la fuente: 'Domani vado a Italia' → 'in Italia'."
+    "notes": "Otros ejemplos de la fuente: 'Domani vado a Italia' → 'in Italia'. Error real de aprendiz: 'vado a Italia*' → 'vado in Italia'; 'en' español se usa para estar y el italiano reparte in/a según el complemento (Lancione). Las preposiciones persisten como error incluso en niveles avanzados."
   },
   {
     "code": "ERR_PREP_FIXED_GOV",
@@ -323,9 +326,9 @@
       "slm",
       "autocheck"
     ],
-    "source": "Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #43,#44",
+    "source": "Un Italiano Vero, «100 errores comunes» (fuente NotebookLM a3d81c5f) #43,#44; Oviedo 09f91a6f",
     "review_status": "needs_review",
-    "notes": "Segundo ejemplo de la fuente: 'Le chiamo ogni sera' → 'La chiamo'. La hipótesis de transferencia del leísmo español es nuestra, no de la fuente."
+    "notes": "Segundo ejemplo de la fuente: 'Le chiamo ogni sera' → 'La chiamo'. La hipótesis de transferencia del leísmo español es nuestra, no de la fuente. La hipótesis queda respaldada: Oviedo documenta el leísmo español (le/les con valor de complemento directo) y que en español 'a' acompaña tanto al directo animado como al indirecto, lo que dificulta separarlos."
   },
   {
     "code": "ERR_COLLOCATION_CALQUE",
@@ -464,5 +467,311 @@
     "source": "PoliLingua (fuente NotebookLM 667a65f8; fiabilidad baja, el dato es gramática estándar); LearnAmo «Sonidos difíciles» (fuente NotebookLM 7bb78aa1) (quiz)",
     "review_status": "needs_review",
     "notes": "La fuente solo confirma /ts/ en pizza/pezzo/prezzo; cuándo es /dz/ queda pendiente."
+  },
+  {
+    "code": "ERR_CONGIUNTIVO_IMPERSONAL",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "B1",
+    "explanation_es": "Con expresiones impersonales de opinión o duda (sembra che, si dice che) el italiano pide congiuntivo; el español usa indicativo (parece que ha sido).",
+    "example_wrong": "Sembra che la festa è stata rimandata",
+    "example_right": "Sembra che la festa sia stata rimandata",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "Aula Fácil «Differenze… congiuntivo» (fuente NotebookLM 6b81be03) a.3",
+    "review_status": "needs_review",
+    "notes": "El indicativo aparece en el habla coloquial; el ítem debe decir 'estándar formal', no 'incorrecto'."
+  },
+  {
+    "code": "ERR_CONGIUNTIVO_SUPERLATIVE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "B2",
+    "explanation_es": "Tras un superlativo relativo (la più… che) la norma pide congiuntivo; el español usa indicativo (he conocido).",
+    "example_wrong": "Anna è la persona più interessante che io ho mai conosciuto",
+    "example_right": "Anna è la persona più interessante che io abbia mai conosciuto",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "Aula Fácil «Differenze… congiuntivo» (fuente NotebookLM 6b81be03) a.5",
+    "review_status": "needs_review",
+    "notes": "Norma formal; el indicativo es frecuente. Revisar con gramática normativa antes de validar."
+  },
+  {
+    "code": "ERR_CONGIUNTIVO_OVERUSE_FORSE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Hipercorrección inversa: el español usa subjuntivo tras 'quizás' (quizás salga), pero forse va con indicativo.",
+    "example_wrong": "Forse domani esca",
+    "example_right": "Forse domani esco",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "Aula Fácil «Differenze… congiuntivo» (fuente NotebookLM 6b81be03) b.1",
+    "review_status": "needs_review",
+    "notes": "Forma errónea construida por nosotros a partir del contraste que describe la fuente."
+  },
+  {
+    "code": "ERR_CONGIUNTIVO_OVERUSE_TEMPORAL",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "B1",
+    "explanation_es": "En temporales de futuro el español usa subjuntivo (cuando haya terminado) y el italiano indicativo, normalmente futuro anterior o futuro (quando avrò finito).",
+    "example_wrong": "Uscirò quando abbia finito",
+    "example_right": "Uscirò quando avrò finito",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "Aula Fácil «Differenze… congiuntivo» (fuente NotebookLM 6b81be03) b.2",
+    "review_status": "needs_review",
+    "notes": "Forma errónea construida por nosotros. Resuelve el candidato 'Quando + futuro' que estaba en docs/dudas-italiano.md (#10)."
+  },
+  {
+    "code": "ERR_CONGIUNTIVO_OVERUSE_RELATIVE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "B1",
+    "explanation_es": "En relativas libres y comparativas de modo (lo que quieras, como prefieras, hasta que pueda) el español usa subjuntivo y el italiano indicativo (quello che vuoi, come preferisci, finché posso).",
+    "example_wrong": "Puoi fare quello che tu voglia",
+    "example_right": "Puoi fare quello che vuoi",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "Aula Fácil «Differenze… congiuntivo» (fuente NotebookLM 6b81be03) b.3",
+    "review_status": "needs_review",
+    "notes": "Forma errónea construida por nosotros."
+  },
+  {
+    "code": "ERR_MAGARI_TENSE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "B2",
+    "explanation_es": "'Ojalá venga' usa presente de subjuntivo; magari se construye siempre con imperfecto o pluscuamperfecto (magari venisse, magari fosse venuto).",
+    "example_wrong": "Magari venga",
+    "example_right": "Magari venisse",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "Arias Bedoya 2021, «El subjuntivo en español e italiano» (fuente NotebookLM df243994; cita a Falcinelli 2015)",
+    "review_status": "needs_review",
+    "notes": "Cita de Falcinelli (2015) dentro del artículo; los ejemplos numerados del artículo no vienen en el texto."
+  },
+  {
+    "code": "ERR_CLITIC_DOUBLING",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "El español duplica el pronombre (a mí me gusta, se lo digo a Juan); el italiano estándar usa una sola forma (a me piace).",
+    "example_wrong": "A me mi piace il gelato",
+    "example_right": "A me piace il gelato",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "El Sistema Pronominal Italiano, U. de Oviedo (fuente NotebookLM 09f91a6f); Lancione 2025, análisis contrastivo de errores italófonos/hispanófonos (fuente NotebookLM daedf2c6; corpus de aprendices reales, * = forma errónea)",
+    "review_status": "needs_review",
+    "notes": "Error real de aprendiz: 'vi vado a raccontare a voi*' → 'vi racconto' (reduplicación por hipercorrección). El ejemplo de arriba lo construimos nosotros."
+  },
+  {
+    "code": "ERR_INDIRECT_PRONOUN_GENDER",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "El español tiene un solo 'le' para el indirecto; el italiano distingue gli (él), le (ella) y loro (ellos).",
+    "example_wrong": "Le telefono a Marco",
+    "example_right": "Gli telefono",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "El Sistema Pronominal Italiano, U. de Oviedo (fuente NotebookLM 09f91a6f)",
+    "review_status": "needs_review",
+    "notes": "Ejemplo construido por nosotros a partir de la diferencia que describe la fuente."
+  },
+  {
+    "code": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+    "category": "GENDER_NUMBER_AGREEMENT",
+    "sieve": null,
+    "cefr_min": "B1",
+    "explanation_es": "Con avere, el participio concuerda con el clítico de objeto directo de 3.ª persona (le ho viste); el español nunca concuerda.",
+    "example_wrong": "Le ho visto",
+    "example_right": "Le ho viste",
+    "detectors": [
+      "autocheck",
+      "slm"
+    ],
+    "source": "El Sistema Pronominal Italiano, U. de Oviedo (fuente NotebookLM 09f91a6f); NotebookLM 79103ab3 (Le ho vist-e)",
+    "review_status": "needs_review",
+    "notes": "Ejemplo construido sobre el patrón que citan ambas fuentes."
+  },
+  {
+    "code": "ERR_GEMINATE_NASAL_CONFUSION",
+    "category": "PHONETIC",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Al escuchar [n:] (nonno), hispanohablantes no solo la acortan: la confunden con la palatal [ɲ] (ñ), porque perciben la mayor constricción alveolar como palatalización.",
+    "example_wrong": "nonno percibido como /ˈnoɲ.ɲo/ o como nono",
+    "example_right": "nonno /ˈnon.no/",
+    "detectors": [
+      "autocheck",
+      "asr"
+    ],
+    "source": "Pandolfi 2026, «¿Qué perciben los hispanohablantes al escuchar una geminada nasal del italiano?» (fuente NotebookLM 88ea1c0a; solo resumen leído)",
+    "review_status": "needs_review",
+    "notes": "Resultado de percepción en 42 hablantes de Buenos Aires; solo se leyó el resumen. Servirse para ítems de discriminación auditiva."
+  },
+  {
+    "code": "ERR_GEMINATE_SPELLING",
+    "category": "ORTHOGRAPHIC",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Falta o exceso de consonante doble al escribir: degeminación (maggio → magio) o geminación incorrecta (ricevuto → ricevutto).",
+    "example_wrong": "magio",
+    "example_right": "maggio",
+    "detectors": [
+      "lt",
+      "autocheck"
+    ],
+    "source": "Lancione 2025, análisis contrastivo de errores italófonos/hispanófonos (fuente NotebookLM daedf2c6; corpus de aprendices reales, * = forma errónea)",
+    "review_status": "needs_review",
+    "notes": "Otros reales: ricevutto*, apare*, aparizione*, aprezzato*."
+  },
+  {
+    "code": "ERR_ACCENT_TRANSFER",
+    "category": "ORTHOGRAPHIC",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Tildes puestas por analogía con el español: en italiano las palabras llanas no llevan tilde (perdere, no pérdere); solo se escribe acento en la vocal final de las agudas (parlerò, città).",
+    "example_wrong": "pérdere",
+    "example_right": "perdere",
+    "detectors": [
+      "lt",
+      "autocheck"
+    ],
+    "source": "Lancione 2025, análisis contrastivo de errores italófonos/hispanófonos (fuente NotebookLM daedf2c6; corpus de aprendices reales, * = forma errónea)",
+    "review_status": "needs_review",
+    "notes": "Formas reales de aprendices: 'parlaró*' (correcto: parlerò, con acento grave) y 'pérdere*'. Confirmar con diccionario antes de validar."
+  },
+  {
+    "code": "ERR_POSSESSIVE_SPELLING",
+    "category": "ORTHOGRAPHIC",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "El posesivo español 'mi' se escribe mio en italiano cuando es masculino singular.",
+    "example_wrong": "mi fratello",
+    "example_right": "mio fratello",
+    "detectors": [
+      "lt",
+      "autocheck"
+    ],
+    "source": "Lancione 2025, análisis contrastivo de errores italófonos/hispanófonos (fuente NotebookLM daedf2c6; corpus de aprendices reales, * = forma errónea)",
+    "review_status": "needs_review",
+    "notes": "La fuente lo menciona sin dar ejemplo exacto ('mi en lugar de mio'); el ejemplo es nuestro."
+  },
+  {
+    "code": "ERR_ARTICLE_OMISSION",
+    "category": "GENDER_NUMBER_AGREEMENT",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "El español admite 'otro perro' o 'es solo su reflejo' sin artículo; el italiano exige un altro cane, è solo il suo riflesso.",
+    "example_wrong": "vede che c'è altro cane",
+    "example_right": "vede che c'è un altro cane",
+    "detectors": [
+      "slm",
+      "autocheck"
+    ],
+    "source": "Lancione 2025, análisis contrastivo de errores italófonos/hispanófonos (fuente NotebookLM daedf2c6; corpus de aprendices reales, * = forma errónea)",
+    "review_status": "needs_review",
+    "notes": "Error real de aprendiz hispanohablante. También 'solo è suo riflesso*' → 'è solo il suo riflesso'."
+  },
+  {
+    "code": "ERR_ARTICLE_ALLOMORPH",
+    "category": "GENDER_NUMBER_AGREEMENT",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Elección il / lo / l': il studente, il stesso Dante e il amore son errores frecuentes de hispanohablantes.",
+    "example_wrong": "il studente",
+    "example_right": "lo studente",
+    "detectors": [
+      "lt",
+      "autocheck"
+    ],
+    "source": "Lancione 2025, análisis contrastivo de errores italófonos/hispanófonos (fuente NotebookLM daedf2c6; corpus de aprendices reales, * = forma errónea)",
+    "review_status": "needs_review",
+    "notes": "Reales: 'il stesso Dante*' → 'lo stesso Dante'; 'il amore*' → 'l'amore'."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "category": "PREPOSITIONAL_GOVERNANCE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "El italiano funde preposición y artículo (in + la = nella); el español deja 'en la' separado.",
+    "example_wrong": "in la bocca",
+    "example_right": "nella bocca",
+    "detectors": [
+      "lt",
+      "autocheck"
+    ],
+    "source": "Lancione 2025, análisis contrastivo de errores italófonos/hispanófonos (fuente NotebookLM daedf2c6; corpus de aprendices reales, * = forma errónea)",
+    "review_status": "needs_review",
+    "notes": "Real: 'In la boca*' → 'nella bocca'. 'boca' es español; en el ítem se usa bocca."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "En el segundo término de una comparación entre nombres o pronombres el italiano usa di; el español usa 'que'.",
+    "example_wrong": "Era più grande che il suo",
+    "example_right": "Era più grande del suo",
+    "detectors": [
+      "lt",
+      "slm",
+      "autocheck"
+    ],
+    "source": "Lancione 2025, análisis contrastivo de errores italófonos/hispanófonos (fuente NotebookLM daedf2c6; corpus de aprendices reales, * = forma errónea)",
+    "review_status": "needs_review",
+    "notes": "Error real y frecuente en el corpus de aprendices hispanohablantes."
+  },
+  {
+    "code": "ERR_AUX_OVERGENERALIZATION",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Hipercorrección: tras aprender que el italiano usa essere, se extiende a verbos que piden avere.",
+    "example_wrong": "Sono camminata per molte ore",
+    "example_right": "Ho camminato per molte ore",
+    "detectors": [
+      "autocheck",
+      "slm"
+    ],
+    "source": "Lancione 2025, análisis contrastivo de errores italófonos/hispanófonos (fuente NotebookLM daedf2c6; corpus de aprendices reales, * = forma errónea)",
+    "review_status": "needs_review",
+    "notes": "Real. La propia fuente dice que el mal uso de los auxiliares es el error más frecuente en morfología verbal."
+  },
+  {
+    "code": "ERR_REFLEXIVE_AUX",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Los reflexivos forman los tiempos compuestos con essere (mi sono sentito); el español usa siempre haber (me he sentido).",
+    "example_wrong": "Mi ho sentito",
+    "example_right": "Mi sono sentito",
+    "detectors": [
+      "lt",
+      "autocheck",
+      "slm"
+    ],
+    "source": "Lancione 2025, análisis contrastivo de errores italófonos/hispanófonos (fuente NotebookLM daedf2c6; corpus de aprendices reales, * = forma errónea)",
+    "review_status": "needs_review",
+    "notes": "Error real de aprendiz."
   }
 ]

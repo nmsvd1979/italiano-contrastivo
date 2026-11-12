@@ -8,7 +8,8 @@ export interface ErrorCode {
     | "LEXICAL_CHOICE"
     | "GENDER_NUMBER_AGREEMENT"
     | "PREPOSITIONAL_GOVERNANCE"
-    | "PHONETIC";
+    | "PHONETIC"
+    | "ORTHOGRAPHIC";
   sieve?: number | null;
   cefr_min: "A1" | "A2" | "B1" | "B2";
   explanation_es: string;
