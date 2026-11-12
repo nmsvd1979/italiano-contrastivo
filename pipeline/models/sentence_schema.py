@@ -17,6 +17,11 @@ class Source(Enum):
     authored = 'authored'
 
 
+class TranslationKind(Enum):
+    direct = 'direct'
+    pivot = 'pivot'
+
+
 class Sentence(BaseModel):
     model_config = ConfigDict(
         extra='forbid',
@@ -40,4 +45,17 @@ class Sentence(BaseModel):
     review_status: common_schema.ReviewStatus
     es_source_id: Annotated[
         str | None, Field(description='Id de la traducción ES directa en Tatoeba/OPUS.')
+    ] = None
+    translation_kind: Annotated[
+        TranslationKind | None,
+        Field(description='direct = enlace Tatoeba ita-spa; pivot = ita→eng→spa.'),
+    ] = None
+    pivot_via: Annotated[
+        str | None, Field(description='Id Tatoeba de la oración inglesa puente.')
+    ] = None
+    cefr_confidence: Annotated[float | None, Field(ge=0.0, le=1.0)] = None
+    qa_flags: list[str] | None = None
+    tag_rules: Annotated[
+        dict[str, str] | None,
+        Field(description='código de error → id de la regla que lo etiquetó'),
     ] = None

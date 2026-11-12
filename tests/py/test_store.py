@@ -77,3 +77,8 @@ def test_modelos_pydantic_aceptan_los_fixtures():
         Lexeme.model_validate(d)
     for d in load("fixtures/sentences.json"):
         Sentence.model_validate(d)
+
+
+def test_review_tables_exist(con):
+    names = {r[0] for r in con.execute("SELECT name FROM sqlite_master WHERE type='table'")}
+    assert {"tag_reviews", "level_reviews"} <= names

@@ -62,3 +62,18 @@ CREATE TABLE IF NOT EXISTS reviews (
   reviewed_at TEXT NOT NULL,
   note TEXT
 );
+
+-- Fase 2: señales de la revisión humana (alimentan el informe de precisión y acuerdo de nivel).
+CREATE TABLE IF NOT EXISTS tag_reviews (
+  sentence_id TEXT NOT NULL,
+  code TEXT NOT NULL,
+  rule_id TEXT NOT NULL,
+  accepted INTEGER NOT NULL CHECK (accepted IN (0,1)),
+  reviewed_at TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS level_reviews (
+  sentence_id TEXT NOT NULL,
+  estimated TEXT NOT NULL CHECK (estimated IN ('A1','A2','B1','B2')),
+  corrected TEXT NOT NULL CHECK (corrected IN ('A1','A2','B1','B2')),
+  reviewed_at TEXT NOT NULL
+);

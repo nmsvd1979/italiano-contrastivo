@@ -68,6 +68,35 @@
     "es_source_id": {
       "type": "string",
       "description": "Id de la traducción ES directa en Tatoeba/OPUS."
+    },
+    "translation_kind": {
+      "enum": [
+        "direct",
+        "pivot"
+      ],
+      "description": "direct = enlace Tatoeba ita-spa; pivot = ita→eng→spa."
+    },
+    "pivot_via": {
+      "type": "string",
+      "description": "Id Tatoeba de la oración inglesa puente."
+    },
+    "cefr_confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "qa_flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tag_rules": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "código de error → id de la regla que lo etiquetó"
     }
   },
   "allOf": [
