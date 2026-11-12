@@ -24,7 +24,7 @@ Convertir Tatoeba en un banco de oraciones ita↔spa con nivel CEFR estimado y c
 ## Flujo (7 etapas, cada una un comando idempotente)
 `work.db` (SQLite, ignorada por git) guarda el estado intermedio; el resultado de revisión se promueve a la base de autoría de la Fase 1 (`sentences`, `reviews`).
 
-1. **ingest** — carga solo las oraciones ita/spa que participan en algún par y sus enlaces. Tablas: `raw_sentences(id, lang, text, author, added, modified)`, `pairs(ita_id, spa_id, kind, via_eng_id)`.
+1. **ingest** — carga todas las oraciones ita/spa de los exports por idioma (≈1,4 M filas; la participación en pares se deriva de `pairs`, así el pivote no relee los TSV) y los enlaces directos. Tablas: `raw_sentences(id, lang, text, author, added, modified)`, `pairs(ita_id, spa_id, kind, via_eng_id)`.
 2. **pivot** — recorre `links.tar.bz2` en dos pasadas en streaming (ita→eng, eng→spa) y agrega pares `kind='pivot'` con el id del puente. Reporta cuántos pares nuevos y cuántas oraciones italianas nuevas aporta.
 3. **filter** — descarta con razón registrada: duplicados (texto normalizado), largo fuera de 2–25 palabras, dígitos/URLs/emails, proporción de largo ita/spa fuera de 0,4–2,5, sin verbo según spaCy, comillas o puntuación desbalanceadas. **Marca sin descartar** (`qa_flags`): avisos de LanguageTool `it` (opcional), traducción pivote, un solo traductor para varias variantes.
 4. **annotate** — nivel CEFR + confianza (ver abajo).
