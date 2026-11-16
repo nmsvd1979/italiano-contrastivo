@@ -27,6 +27,8 @@ length_bands:           # palabras (sin puntuación); el primer tramo con n <= m
   - {max: 16,  level: B1}
   - {max: 999, level: B2}
 
+length_only_cap: B1       # el largo solo no sube de este nivel; para más hace falta un rasgo gramatical de ese nivel o más
+
 rarity:                 # si el percentil indicado de Zipf (wordfreq 'it') de los lemas cae bajo el umbral, sube un nivel
   percentile: 90
   zipf_below: 3.5

@@ -1,5 +1,6 @@
 name: gender_divergence
-description: Palabras cuyo género o vocal final difiere del español.
+description: 'Palabras cuyo género o vocal final difiere del español. ''pianto/pianti'' se detecta por regex en la regla (no como participio de piangere: ''hanno
+  pianto'').'
 entries:
 - form: fiore
   gloss_es: la flor (m.)
@@ -18,10 +19,4 @@ entries:
   source: Lancione 2025 (NotebookLM daedf2c6)
 - form: piante
   gloss_es: plantas
-  source: Lancione 2025 (NotebookLM daedf2c6)
-- form: pianto
-  gloss_es: llanto
-  source: Lancione 2025 (NotebookLM daedf2c6)
-- form: pianti
-  gloss_es: llantos
   source: Lancione 2025 (NotebookLM daedf2c6)

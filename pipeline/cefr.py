@@ -101,8 +101,8 @@ def _grammar_features(doc, rules: dict) -> list[str]:
                 add("futuro")
             elif mood == "Imp" and exclaim:
                 add("imperativo")
-        elif form == "Inf" and exclaim and t.i > 0 and doc[t.i - 1].lower_ == "non" and t.dep_ == "ROOT":
-            add("imperativo")
+        elif form == "Inf" and t.i > 0 and doc[t.i - 1].lower_ == "non" and t.dep_ == "ROOT" and (exclaim or t.i == 1):
+            add("imperativo")  # "Non parlare!" o, sin "!", "Non" abre la oración ("Non viziare tuo figlio.")
         elif form == "Ger" and t.pos_ == "VERB" and _is_absolute_gerund(doc, t) and not _is_progressive(t):
             add("gerundio_assoluto")
 
@@ -141,11 +141,16 @@ def estimate(doc, rules: dict | None = None, zipf=None) -> CefrEstimate:
     grammar_count = len(scored)
 
     n_words = sum(1 for t in doc if not (t.is_punct or t.is_space))
+    grammar_max = max((LEVELS.index(lv) for _, lv in scored), default=0)
+    cap = LEVELS.index(rules.get("length_only_cap", LEVELS[-1]))
     prev_max = 0
     for band in rules["length_bands"]:
         if n_words <= band["max"]:
             if band["level"] != LEVELS[0]:
-                scored.append((f"len>{prev_max}", band["level"]))
+                lv = LEVELS.index(band["level"])
+                if lv > cap and grammar_max < cap:  # largo solo: no pasa del tope sin un rasgo gramatical de ese nivel
+                    lv = cap
+                scored.append((f"len>{prev_max}", LEVELS[lv]))
             break
         prev_max = band["max"]
 

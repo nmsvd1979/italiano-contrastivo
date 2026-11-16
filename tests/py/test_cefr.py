@@ -74,7 +74,7 @@ def test_short_passato_prossimo_floor_a2_and_not_high_confidence():
 def test_length_bands():
     assert est("Mi piace molto vedere un bel film insieme a te.").level == "A2"            # 10 palabras
     assert est("Mi piace molto vedere un bel film insieme a te e ai miei amici.").level == "B1"  # 14
-    assert est(" ".join(["Mi piace il gelato"] * 5)).level == "B2"                          # 20
+    assert est(" ".join(["Mi piace il gelato"] * 5)).level == "B1"   # 20 palabras sin rasgo gramatical: el largo solo llega a B1
 
 
 def test_rare_vocab_raises_one_level():
@@ -120,3 +120,20 @@ def test_future_and_imperfect_are_a2_not_a1(text):
 def test_trapassato_prossimo_is_detected_at_b1():
     e = est("Avevo già mangiato.")
     assert "trapassato_prossimo" in e.features and e.level == "B1"
+
+
+def test_length_alone_never_makes_b2_but_length_plus_b1_grammar_does():
+    simple = "Ho pianto come un bambino quando il ragazzo e il suo cane si sono riuniti alla fine del film."  # A2 + largo
+    assert est(simple).level == "B1"
+    hard = "Credo che Giovanni abbia ragione quando dice che il nostro vecchio amico non verrà mai alla festa di domani."
+    assert est(hard).level == "B2"
+
+
+@pytest.mark.parametrize("text", ["Non viziare tuo figlio.", "Non pensarci due volte, Tom.", "Non mostrare le tue emozioni."])
+def test_negative_imperative_without_exclamation_is_a2(text):
+    e = est(text)
+    assert "imperativo" in e.features and e.level == "A2"
+
+
+def test_non_plus_modal_infinitive_is_not_an_imperative():
+    assert "imperativo" not in est("Non voglio parlare.").features

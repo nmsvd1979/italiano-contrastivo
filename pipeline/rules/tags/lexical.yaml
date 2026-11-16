@@ -58,6 +58,7 @@
   source: Italianamente (NotebookLM 2c06bfeb); Lancione 2025 (NotebookLM daedf2c6)
   it:
   - lemmas: gender_divergence
+  - regex: (?<!\bho )(?<!\bha )(?<!\bhai )(?<!\bhanno )(?<!\babbiamo )(?<!\bavete )(?<!\bavevo )(?<!\baveva )(?<!\bavevano )(?<!\babbia )\bpiant[oi]\b
   examples:
     positive:
     - text: Il fiore è blu.
@@ -79,6 +80,15 @@
     - text: Il gatto mi ha spaventato.
       es: El gato me asustó.
       source: tatoeba:1638178
+    - text: Dicono che non hanno pianto.
+      es: Dicen que no han llorado.
+      source: tatoeba:10802388
+    - text: Il film era così triste che tutti hanno pianto.
+      es: La película era tan triste que todos lloraron.
+      source: tatoeba:381874
+    - text: Ho pianto come un bambino quando il ragazzo e il suo cane si sono riuniti alla fine del film.
+      es: Lloré como un bebé cuando el niño y su perro se reencontraron al final de la película.
+      source: tatoeba:653710
 - id: eterotonica
   code: ERR_HETEROTONIC
   tier: lexical

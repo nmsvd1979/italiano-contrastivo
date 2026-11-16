@@ -752,7 +752,10 @@
   code: ERR_ARTICLE_ALLOMORPH
   tier: grammar
   it:
-  - regex: \b(?:lo|uno|gli)\s+(?:s[^aeiou\W\d]|z|gn|ps|x|y)\w*|\bl'\s*[aeiouh]\w*
+  - regex: \b(?:lo|uno|gli)\s+(?:s[^aeiou\W\d]|z|gn|ps|x|y)\w*
+  - matcher:
+    - LOWER: l'
+      POS: DET
   examples:
     positive:
     - text: Gli studenti si sono offerti volontari per il servizio alla comunità.
@@ -774,6 +777,15 @@
     - text: Il sogno è diventato realtà.
       es: El sueño se ha hecho realidad.
       source: tatoeba:1275110
+    - text: Mi è piaciuta la tua idea e l'ho adottata.
+      es: Me gustó tu idea y la adopté.
+      source: tatoeba:2143646
+    - text: Una palla l'ha colpita sulla gamba destra.
+      es: Una pelota le pegó en la pierna derecha.
+      source: tatoeba:1524239
+    - text: Lui non le ha regalato un ramo di rose però l'ha invitata a prendere un caffè e ha parlato con lei.
+      es: Él no le regaló un ramo de rosas pero la invitó a tomar un café y habló con ella.
+      source: tatoeba:791088
 - id: preposizione_articolata_in_su
   code: ERR_PREP_ARTICLE_CONTRACTION
   tier: grammar
@@ -804,7 +816,7 @@
   code: ERR_CE_AGREEMENT
   tier: grammar
   it:
-  - regex: \bc'è\b|\bc'era\b|\bc'erano\b|\bci\s+sono\b|\bci\s+saranno\b|\bci\s+sarà\b
+  - regex: \bc'è\b|\bc'era\b|\bc'erano\b|\bci\s+saranno\b|\bci\s+sarà\b|\bci\s+sono\b(?!\s+(?:(?:già|mai|spesso|sempre|poi)\s+)?(?:(?:andat|venut|arrivat|tornat|rimast|entrat|uscit|salit)[oaie]|stat[oa])\b)
   examples:
     positive:
     - text: Ci sono molti pesci in quel lago.
@@ -826,6 +838,15 @@
     - text: Noi ci siamo separate.
       es: Nos separamos.
       source: tatoeba:5348153
+    - text: I miei genitori sono andati in casa, ma io non ci sono andato.
+      es: Mis padres fueron a la iglesia, pero yo no fui.
+      source: tatoeba:6143262
+    - text: I miei genitori sono andati in casa, ma io non ci sono andata.
+      es: Mis padres fueron a la iglesia, pero yo no fui.
+      source: tatoeba:6143264
+    - text: I miei genitori sono andati in casa, però io non ci sono andato.
+      es: Mis padres fueron a la iglesia, pero yo no fui.
+      source: tatoeba:6143265
 - id: comparativo_con_di
   code: ERR_COMPARATIVE_DI
   tier: grammar
@@ -856,7 +877,7 @@
   code: ERR_PERSONAL_A
   tier: grammar
   it:
-  - regex: \b(?:aspett|cerc|chiam|ved|aiut|ascolt|conosc|incontr|visit|abbracc|invit)\w*\b(?!\s+(?:a|di|da|in|con|per|su)\b)
+  - regex: \b(?:aspett|cerc|chiam|ved|aiut|conosc|incontr|abbracc|invit)\w*\b(?!\s+(?:a|di|da|in|con|per|su)\b)
   es:
   - regex: \b(?:espero|busco|llamo|veo|ayudo|escucho|conozco|encuentro|visito|abrazo|invito|espera|busca|llama|ve|ayuda|escucha|conoce|encuentra|visita|esperamos|buscamos|llamamos|vemos|ayudamos|esperan|buscan|llaman|ven|ayudan|esperando|buscando|llamando|viendo|ayudando|escuchando)\s+a\s+(?:mi|tu|su|mis|tus|sus|la|el|los|las|un|una|Tom|Mary|María|Maria|Juan|Pedro|Ana|Paco)\b
   examples:
@@ -880,6 +901,15 @@
     - text: Abbiamo imparato un sacco di cose!
       es: ¡Hemos aprendido un montón de cosas!
       source: tatoeba:2825610
+    - text: Faccio visita ai miei nonni due volte alla settimana.
+      es: Visito a mis abuelos dos veces a la semana.
+      source: tatoeba:828427
+    - text: Ha ascoltato la mia opinione.
+      es: Escuchó mi opinión.
+      source: tatoeba:377551
+    - text: Sto ascoltando l'ultima canzone di Björk.
+      es: Estoy escuchando la última canción de Björk.
+      source: tatoeba:511338
 - id: pensare_a
   code: ERR_PREP_PENSARE
   tier: grammar
