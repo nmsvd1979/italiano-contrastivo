@@ -9,6 +9,8 @@ from pipeline.db import store
 
 LEVELS = ("A1", "A2", "B1", "B2")
 STATUS = {"approve": "validated", "reject": "rejected", "doubt": "needs_review"}
+# Las traducciones por pivote (vía inglés) pierden género, número y persona (37% de rechazo en la auditoría): no se sirven nunca.
+SERVED_KINDS = ("direct", "llm")
 
 
 def load_coverage() -> dict:
@@ -17,11 +19,12 @@ def load_coverage() -> dict:
 
 def select_batch(work_con, authoring_con, size: int = 20, coverage: dict | None = None, mode: str = "pending") -> list[dict]:
     """mode="pending": oraciones `needs_review` sin ninguna revisión, por déficit de cobertura (mayor primero) y, a igual
-    déficit, menor confianza; se alternan traducciones directas y por pivote para que el lote sea representativo.
+    déficit, menor confianza; se alternan traducciones directas y generadas desde el italiano (llm) para que el lote sea representativo.
     mode="doubts": oraciones cuya última decisión fue "duda"."""
     if mode == "doubts":
         ids = [r[0] for r in authoring_con.execute(
-            "SELECT s.id FROM sentences s WHERE s.review_status = 'needs_review' AND EXISTS ("
+            "SELECT s.id FROM sentences s WHERE s.review_status = 'needs_review' "
+            "AND COALESCE(json_extract(s.body, '$.translation_kind'), 'direct') IN ('direct', 'llm') AND EXISTS ("
             "SELECT 1 FROM reviews r WHERE r.entity = 'sentences' AND r.entity_id = s.id AND r.status = 'needs_review' "
             "AND r.id = (SELECT MAX(id) FROM reviews WHERE entity = 'sentences' AND entity_id = s.id)) ORDER BY s.id LIMIT ?", (size,))]
         return [_item(work_con, authoring_con, sid) for sid in ids]
@@ -35,7 +38,7 @@ def select_batch(work_con, authoring_con, size: int = 20, coverage: dict | None 
         "SELECT s.id, s.cefr_estimate, json_extract(s.body, '$.cefr_confidence'), GROUP_CONCAT(sec.code), "
         "json_extract(s.body, '$.translation_kind') "
         "FROM sentences s LEFT JOIN sentence_error_codes sec ON sec.sentence_id = s.id "
-        "WHERE s.review_status = 'needs_review' "
+        "WHERE s.review_status = 'needs_review' AND COALESCE(json_extract(s.body, '$.translation_kind'), 'direct') IN ('direct', 'llm') "
         "AND NOT EXISTS (SELECT 1 FROM reviews r WHERE r.entity = 'sentences' AND r.entity_id = s.id) GROUP BY s.id"
     ).fetchall()
     scored = []
@@ -44,10 +47,10 @@ def select_batch(work_con, authoring_con, size: int = 20, coverage: dict | None 
         deficit = sum(max(0, cov["per_code"] - val_code.get(c, 0)) for c in codes) + max(0, cov["per_level"] - val_level.get(level, 0))
         scored.append((-deficit, 1.0 if conf is None else conf, sid, kind or "direct"))
     scored.sort()
-    queues = {"direct": [t for t in scored if t[3] == "direct"], "pivot": [t for t in scored if t[3] == "pivot"]}
-    order = ["pivot", "direct"] if scored and scored[0][3] == "pivot" else ["direct", "pivot"]
+    queues = {"direct": [t for t in scored if t[3] == "direct"], "llm": [t for t in scored if t[3] == "llm"]}
+    order = ["llm", "direct"] if scored and scored[0][3] == "llm" else ["direct", "llm"]
     picked: list[str] = []
-    while len(picked) < size and (queues["direct"] or queues["pivot"]):
+    while len(picked) < size and (queues["direct"] or queues["llm"]):
         for kind in order:
             if queues[kind] and len(picked) < size:
                 picked.append(queues[kind].pop(0)[2])

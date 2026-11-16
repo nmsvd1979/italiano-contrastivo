@@ -20,6 +20,7 @@ class Source(Enum):
 class TranslationKind(Enum):
     direct = 'direct'
     pivot = 'pivot'
+    llm = 'llm'
 
 
 class Sentence(BaseModel):
@@ -48,7 +49,9 @@ class Sentence(BaseModel):
     ] = None
     translation_kind: Annotated[
         TranslationKind | None,
-        Field(description='direct = enlace Tatoeba ita-spa; pivot = ita→eng→spa.'),
+        Field(
+            description='direct = enlace directo ita-spa de Tatoeba; pivot = vía inglés (NO se usa: pierde género/número/persona); llm = español generado por IA a partir del italiano.'
+        ),
     ] = None
     pivot_via: Annotated[
         str | None, Field(description='Id Tatoeba de la oración inglesa puente.')

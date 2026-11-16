@@ -64,15 +64,15 @@ def test_export_empty_is_valid(auth, tmp_path):
 
 
 def test_export_groups_by_corrected_level_and_counts(auth, tmp_path):
-    put(auth, doc(1, "A1", [AUX]), doc(2, "A2", [AUX, POSS], author="otro"), doc(3, "A2", [], kind="pivot"))
+    put(auth, doc(1, "A1", [AUX]), doc(2, "A2", [AUX, POSS], author="otro"), doc(3, "A2", [], kind="llm"))
     batch.record_decision(auth, "s_1", {"action": "approve", "cefr": "B1"})
     batch.record_decision(auth, "s_2", {"action": "approve"})
-    batch.record_decision(auth, "s_3", {"action": "approve", "translation_ok": True})
+    batch.record_decision(auth, "s_3", {"action": "approve"})
     m = export.export(auth, tmp_path)
     assert [d["id"] for d in read(tmp_path, "B1")] == ["s_1"] and [d["id"] for d in read(tmp_path, "A2")] == ["s_2", "s_3"]
     assert m["levels"] == {"A1": 0, "A2": 2, "B1": 1, "B2": 0}
     assert m["codes"] == {AUX: 2, POSS: 1}
-    assert m["translation_kind"] == {"direct": 2, "pivot": 1}
+    assert m["translation_kind"] == {"direct": 2, "llm": 1}
     assert m["authors"] == {"Guybrush88": 2, "otro": 1}
 
 
@@ -130,3 +130,12 @@ def test_manifest_counts_who_made_the_last_validating_decision(auth, tmp_path):
     batch.record_decision(auth, "s_2", {"action": "approve"}, reviewer="llm-audit")
     batch.record_decision(auth, "s_3", {"action": "approve"}, reviewer="llm-audit")
     assert export.export(auth, tmp_path)["reviewers"] == {"llm-audit": 2, "me": 1}
+
+
+def test_pivot_translations_are_never_exported_even_if_validated(auth, tmp_path):
+    put(auth, doc(1, "A1", [AUX], kind="pivot"), doc(2, "A1", [AUX]))
+    batch.record_decision(auth, "s_1", {"action": "approve", "translation_ok": True})
+    batch.record_decision(auth, "s_2", {"action": "approve"})
+    m = export.export(auth, tmp_path)
+    assert [d["id"] for d in read(tmp_path, "A1")] == ["s_2"] and m["excluded_pivot"] == ["s_1"]
+    assert "s_1" not in (tmp_path / "ATTRIBUZIONI-tatoeba.md").read_text(encoding="utf8")

@@ -72,9 +72,10 @@
     "translation_kind": {
       "enum": [
         "direct",
-        "pivot"
+        "pivot",
+        "llm"
       ],
-      "description": "direct = enlace Tatoeba ita-spa; pivot = ita→eng→spa."
+      "description": "direct = enlace directo ita-spa de Tatoeba; pivot = vía inglés (NO se usa: pierde género/número/persona); llm = español generado por IA a partir del italiano."
     },
     "pivot_via": {
       "type": "string",

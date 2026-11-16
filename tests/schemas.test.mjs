@@ -75,6 +75,9 @@ describe("sentence: campos de procedencia de la Fase 2", () => {
   it("acepta es_author (autor de la traducción española, exigido por CC BY)", () => {
     expect(check("sentence", { ...base, es_author: "arh" }), JSON.stringify(ajv.errors)).toBe(true);
   });
+  it("acepta translation_kind llm (traducción generada desde el italiano)", () => {
+    expect(check("sentence", { ...base, translation_kind: "llm" })).toBe(true);
+  });
   it("rechaza translation_kind inválido y cefr_confidence fuera de 0-1", () => {
     const v = ajv.getSchema(schemaId("sentence"));
     expect(v({ ...base, translation_kind: "x" })).toBe(false);

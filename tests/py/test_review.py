@@ -146,7 +146,7 @@ def live(tmp_path):
     w, a = tmp_path / "w.db", tmp_path / "a.db"
     wc, ac = workdb.connect(w), store.connect(a)
     promote.ensure_catalog(ac)
-    put(ac, doc(1, "A2", [AUX]), doc(2, "A1", [POSS], kind="pivot"))
+    put(ac, doc(1, "A2", [AUX]), doc(2, "A1", [POSS], kind="llm"))
     wc.commit(); wc.close(); ac.close()
     srv = server.make_server(w, a, port=0)
     t = threading.Thread(target=srv.serve_forever, daemon=True)
@@ -189,12 +189,12 @@ def test_post_decision_updates_database(live):
     assert store.connect(a).execute("SELECT review_status FROM sentences WHERE id='s_1'").fetchone()[0] == "validated"
 
 
-def test_post_decision_400_on_invalid_and_pivot_without_translation_ok(live):
+def test_post_decision_400_on_invalid_action_and_missing_id(live):
     srv, _ = live
-    status, body = call(srv, "POST", "/api/decision", {"id": "s_2", "decision": {"action": "approve"}})
-    assert status == 400 and "traducción" in json.loads(body)["error"]
     assert call(srv, "POST", "/api/decision", {"id": "s_1", "decision": {"action": "xx"}})[0] == 400
     assert call(srv, "POST", "/api/decision", {"decision": {"action": "approve"}})[0] == 400
+    status, body = call(srv, "POST", "/api/decision", {"id": "s_999", "decision": {"action": "approve"}})
+    assert status == 400 and "no existe" in json.loads(body)["error"]
 
 
 def test_post_with_malformed_json_is_400_not_500(live):
@@ -271,10 +271,17 @@ def test_doubts_mode_lists_sentences_whose_last_decision_is_doubt(work, auth):
     assert [b["id"] for b in batch.select_batch(work, auth, 20, COV)] == ["s_3"]
 
 
-def test_batch_mixes_direct_and_pivot_instead_of_only_the_biggest_deficit(work, auth):
-    put(auth, *[doc(i, "A2", [POSS, AUX], kind="pivot") for i in range(1, 11)], doc(20, "A1", [], kind="direct"), doc(21, "A1", [], kind="direct"))
+def test_batch_never_serves_pivot_translations(work, auth):
+    put(auth, doc(1, "A1", [AUX], kind="pivot"), doc(2, "A1", [AUX], kind="direct"))
+    assert [b["id"] for b in batch.select_batch(work, auth, 20, COV)] == ["s_2"]
+    batch.record_decision(auth, "s_1", {"action": "doubt"})
+    assert batch.select_batch(work, auth, 20, COV, mode="doubts") == []
+
+
+def test_batch_mixes_direct_and_llm_translations_instead_of_only_the_biggest_deficit(work, auth):
+    put(auth, *[doc(i, "A2", [POSS, AUX], kind="llm") for i in range(1, 11)], doc(20, "A1", [], kind="direct"), doc(21, "A1", [], kind="direct"))
     kinds = [b["translation_kind"] for b in batch.select_batch(work, auth, 4, COV)]
-    assert kinds.count("direct") == 2 and kinds.count("pivot") == 2
+    assert kinds.count("direct") == 2 and kinds.count("llm") == 2
 
 
 def test_server_exposes_last_decided_and_doubts_mode(live):
