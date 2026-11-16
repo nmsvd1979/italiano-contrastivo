@@ -1,0 +1,36 @@
+name: geminate_pairs
+description: Pares mínimos de geminada de las fuentes; solo el miembro geminado o raro. Excluidos casa/caro/cane por ubicuos.
+entries:
+- form: nonno
+  gloss_es: abuelo
+  source: NotebookLM 79103ab3 (Modelos pedagógicos, tablas de divergencias)
+- form: nono
+  gloss_es: noveno
+  source: NotebookLM 79103ab3 (Modelos pedagógicos, tablas de divergencias)
+- form: palla
+  gloss_es: pelota
+  source: LearnAmo «Sonidos difíciles» (NotebookLM 7bb78aa1)
+- form: pala
+  gloss_es: pala
+  source: LearnAmo «Sonidos difíciles» (NotebookLM 7bb78aa1)
+- form: carro
+  gloss_es: carro
+  source: LearnAmo «Sonidos difíciles» (NotebookLM 7bb78aa1)
+- form: cassa
+  gloss_es: caja
+  source: LearnAmo «Sonidos difíciles» (NotebookLM 7bb78aa1)
+- form: ecco
+  gloss_es: aquí está
+  source: LearnAmo «Sonidos difíciles» (NotebookLM 7bb78aa1)
+- form: eco
+  gloss_es: eco
+  source: LearnAmo «Sonidos difíciles» (NotebookLM 7bb78aa1)
+- form: coppia
+  gloss_es: pareja
+  source: NotebookLM 79103ab3 (Modelos pedagógicos, tablas de divergencias)
+- form: copia
+  gloss_es: copia
+  source: NotebookLM 79103ab3 (Modelos pedagógicos, tablas de divergencias)
+- form: canne
+  gloss_es: cañas
+  source: Pandolfi 2026 (NotebookLM 88ea1c0a, solo resumen)

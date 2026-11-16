@@ -1,0 +1,27 @@
+name: gender_divergence
+description: Palabras cuyo género o vocal final difiere del español.
+entries:
+- form: fiore
+  gloss_es: la flor (m.)
+  source: Italianamente (NotebookLM 2c06bfeb)
+- form: fiori
+  gloss_es: las flores (m.)
+  source: Italianamente (NotebookLM 2c06bfeb)
+- form: caviglia
+  gloss_es: el tobillo (f.)
+  source: Italianamente (NotebookLM 2c06bfeb)
+- form: caviglie
+  gloss_es: los tobillos (f.)
+  source: Italianamente (NotebookLM 2c06bfeb)
+- form: pianta
+  gloss_es: planta
+  source: Lancione 2025 (NotebookLM daedf2c6)
+- form: piante
+  gloss_es: plantas
+  source: Lancione 2025 (NotebookLM daedf2c6)
+- form: pianto
+  gloss_es: llanto
+  source: Lancione 2025 (NotebookLM daedf2c6)
+- form: pianti
+  gloss_es: llantos
+  source: Lancione 2025 (NotebookLM daedf2c6)

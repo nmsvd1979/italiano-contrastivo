@@ -1,0 +1,99 @@
+name: false_friends
+description: Falsos amigos semánticos español→italiano (solo los de las fuentes leídas).
+entries:
+- form: burro
+  gloss_es: mantequilla
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: gamba
+  gloss_es: pierna
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: gambe
+  gloss_es: piernas
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: carta
+  gloss_es: papel
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: carte
+  gloss_es: papeles
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: pretendere
+  gloss_es: exigir
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: pretendo
+  gloss_es: exijo
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: pretende
+  gloss_es: exige
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: salire
+  gloss_es: subir
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: salgo
+  gloss_es: subo
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: salgono
+  gloss_es: suben
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: guardare
+  gloss_es: mirar
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: largo
+  gloss_es: ancho
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: larga
+  gloss_es: ancha
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: larghi
+  gloss_es: anchos
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: larghe
+  gloss_es: anchas
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: caldo
+  gloss_es: caliente
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: calda
+  gloss_es: caliente
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: caldi
+  gloss_es: calientes
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: aceto
+  gloss_es: vinagre
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: officina
+  gloss_es: taller
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: officine
+  gloss_es: talleres
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: spalla
+  gloss_es: hombro
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: spalle
+  gloss_es: hombros
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: asilo
+  gloss_es: guardería
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: pronto
+  gloss_es: listo
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: pronta
+  gloss_es: lista
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: pronti
+  gloss_es: listos
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: allora
+  gloss_es: entonces
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: imbarazzata
+  gloss_es: avergonzada
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: imbarazzato
+  gloss_es: avergonzado
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: ritardato
+  gloss_es: retrasado mental (ofensivo)
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
