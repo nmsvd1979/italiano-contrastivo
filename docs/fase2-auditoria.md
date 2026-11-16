@@ -20,3 +20,14 @@
 - La validación **no es de un hablante nativo**: es una persona que no sabe italiano más un auditor IA. Declarado así en los datos (`reviewer`) y en el manifiesto del export.
 - Un solo auditor por oración, sin acuerdo entre auditores. No se mide el error del propio auditor.
 - La precisión por regla sale de 200 oraciones con muestras pequeñas por regla (5–120).
+
+## Tanda 1 de traducción desde el italiano (plan híbrido)
+**Decisión:** solo con traducciones directas no alcanza (12 códigos con <20 oraciones directas, 123 B2 directos). Para lo que falta se toma la oración **italiana** de Tatoeba y se **traduce al español desde el italiano** (conserva género, número, persona y formalidad); el español del pivote no se usa nunca. El sistema ya no sirve ni exporta pares `pivot` (`translation_kind: "llm"` para las traducidas).
+- Tanda 1: 175 oraciones de 14 códigos escasos (`scripts/translate_pack.py` → agente traductor/auditor → `scripts/translate_apply.py`). Resultado: 152 aprobadas (`reviewer = llm-audit`), 14 rechazadas por no cubrir ningún código escaso, 4 rechazadas (interrogativas que no son subordinadas, etc.), 5 en duda.
+- Criterio: una oración solo entra si el auditor confirma el italiano y al menos un código escaso aplica. Lo dudoso no entra.
+- Costo medido: ~126 mil tokens por 175 oraciones (~720 por oración) en formato compacto.
+
+## Lo que NO está resuelto
+- **Cantidad validada:** hoy hay ~240 oraciones validadas utilizables (directas + llm) frente a ~17 mil directas pendientes. Validar ~40 por código para los 47 códigos (~1.900 oraciones) costaría del orden de 1,4 millones de tokens.
+- **Nada es verificación nativa.** Las traducciones y los veredictos son de IA; el italiano de Tatoeba no está garantizado (algunas oraciones lo escriben aprendices).
+- **Reglas de baja precisión** sin corregir todavía (ver lista arriba) y pares pivote ya validados (62) que quedan fuera del export.
