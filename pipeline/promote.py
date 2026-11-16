@@ -30,21 +30,21 @@ def promote(work, auth) -> dict[str, int]:
     for ita_id, code, rule_id in work.execute("SELECT ita_id, code, rule_id FROM tags ORDER BY ita_id, code"):
         tags.setdefault(ita_id, []).append((code, rule_id))
     rows = work.execute(
-        "SELECT c.ita_id, c.spa_id, c.kind, c.flags, i.text, i.author, s.text, a.cefr, a.confidence, p.via_eng_id "
+        "SELECT c.ita_id, c.spa_id, c.kind, c.flags, i.text, i.author, s.text, a.cefr, a.confidence, p.via_eng_id, s.author "
         "FROM candidates c JOIN annotations a ON a.ita_id = c.ita_id "
         "JOIN raw_sentences i ON i.id = c.ita_id JOIN raw_sentences s ON s.id = c.spa_id "
         "JOIN pairs p ON p.ita_id = c.ita_id AND p.spa_id = c.spa_id "
         "WHERE c.status = 'ok' ORDER BY c.ita_id"
     ).fetchall()
     promoted = skipped = 0
-    for ita_id, spa_id, kind, flags, it, author, es, cefr, conf, via in rows:
+    for ita_id, spa_id, kind, flags, it, author, es, cefr, conf, via, es_author in rows:
         sid = f"s_{ita_id}"
         if _locked(auth, sid):
             skipped += 1
             continue
         doc = {
             "id": sid, "source": "tatoeba", "source_id": str(ita_id), "author": author, "license": config.LICENSE,
-            "it": filters.normalize(it), "es": filters.normalize(es), "es_source_id": str(spa_id),
+            "it": filters.normalize(it), "es": filters.normalize(es), "es_source_id": str(spa_id), "es_author": es_author,
             "translation_kind": kind, "cefr_estimate": cefr, "cefr_confidence": conf,
             "qa_flags": json.loads(flags), "error_codes": [c for c, _ in tags.get(ita_id, [])],
             "tag_rules": {c: r for c, r in tags.get(ita_id, [])}, "review_status": "needs_review",

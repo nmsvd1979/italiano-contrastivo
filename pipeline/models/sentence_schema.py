@@ -59,3 +59,9 @@ class Sentence(BaseModel):
         dict[str, str] | None,
         Field(description='código de error → id de la regla que lo etiquetó'),
     ] = None
+    es_author: Annotated[
+        str | None,
+        Field(
+            description='Autor de la oración española (CC BY exige atribuir también la traducción).'
+        ),
+    ] = None

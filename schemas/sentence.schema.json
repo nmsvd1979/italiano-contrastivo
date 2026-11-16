@@ -97,6 +97,10 @@
         "type": "string"
       },
       "description": "código de error → id de la regla que lo etiquetó"
+    },
+    "es_author": {
+      "type": "string",
+      "description": "Autor de la oración española (CC BY exige atribuir también la traducción)."
     }
   },
   "allOf": [

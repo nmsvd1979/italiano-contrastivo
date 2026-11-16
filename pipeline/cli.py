@@ -4,11 +4,11 @@ import json
 import sys
 from pathlib import Path
 
-from pipeline import cefr, config, filters, ingest, nlp, pivot, promote, workdb
+from pipeline import cefr, config, export, filters, ingest, nlp, pivot, promote, workdb
 from pipeline.db import store
 from pipeline.tagging import engine
 
-STAGES = ["ingest", "pivot", "filter", "annotate", "tag", "promote", "all", "review"]
+STAGES = ["ingest", "pivot", "filter", "annotate", "tag", "promote", "all", "review", "export"]
 
 
 def _ok_candidates(con):
@@ -99,6 +99,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--work-db", type=Path, default=config.WORK_DB)
     ap.add_argument("--authoring-db", type=Path, default=config.AUTHORING_DB)
     ap.add_argument("--model", default=nlp.MODEL_NAME)
+    ap.add_argument("--out-dir", type=Path, default=config.ROOT / "content", help="carpeta de salida del export")
     ap.add_argument("--port", type=int, default=8765, help="puerto del servidor de revisión (solo localhost)")
     ap.add_argument("--no-pivot", action="store_true", help="en `all`, omite el pivote por inglés")
     args = ap.parse_args(argv)
@@ -131,6 +132,9 @@ def main(argv: list[str] | None = None) -> int:
             elif st == "promote":
                 auth = store.connect(args.authoring_db)
                 report(st, promote.promote(work, auth))
+            elif st == "export":
+                m = export.export(store.connect(args.authoring_db), args.out_dir)
+                report(st, {**{f"nivel {k}": v for k, v in m["levels"].items()}, "excluidas sin atribución": len(m["excluded_missing_attribution"])})
             elif st == "review":
                 from pipeline.review import server
 

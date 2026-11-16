@@ -76,6 +76,7 @@ def test_stages_end_to_end_on_tiny_corpus(stages):
     assert (s1["it"], s1["es"], s1["es_source_id"], s1["translation_kind"]) == ("Sono andato a Roma.", "Fui a Roma ayer.", "10", "direct")
     assert s1["cefr_estimate"] == "A2" and "ERR_AUX_ESSERE" in s1["error_codes"]
     assert s1["tag_rules"]["ERR_AUX_ESSERE"] == "aux_essere_movimento"
+    assert s1["es_author"] == "autor"
     assert "pivot_via" not in s1
 
 
@@ -148,3 +149,11 @@ def test_cli_missing_model_prints_clear_message_not_traceback(tmp_path, capsys):
     cli.main(["ingest", *base])
     assert cli.main(["filter", "--model", "it_modelo_que_no_existe", *base]) == 2
     assert "python -m spacy download it_modelo_que_no_existe" in capsys.readouterr().err
+
+
+def test_cli_export_stage_writes_files_and_reports(tmp_path, capsys):
+    a, out = tmp_path / "a.db", tmp_path / "content"
+    store.connect(a).close()
+    assert cli.main(["export", "--authoring-db", str(a), "--work-db", str(tmp_path / "w.db"), "--out-dir", str(out)]) == 0
+    assert (out / "manifest.json").exists() and (out / "sentences" / "B2.json").exists()
+    assert "export" in capsys.readouterr().out

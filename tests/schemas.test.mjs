@@ -72,6 +72,9 @@ describe("sentence: campos de procedencia de la Fase 2", () => {
     const s = { ...base, translation_kind: "pivot", pivot_via: "100", cefr_confidence: 0.6, qa_flags: ["pivot"], tag_rules: { ERR_AUX_ESSERE: "aux_essere_motion" } };
     expect(check("sentence", s), JSON.stringify(ajv.errors)).toBe(true);
   });
+  it("acepta es_author (autor de la traducción española, exigido por CC BY)", () => {
+    expect(check("sentence", { ...base, es_author: "arh" }), JSON.stringify(ajv.errors)).toBe(true);
+  });
   it("rechaza translation_kind inválido y cefr_confidence fuera de 0-1", () => {
     const v = ajv.getSchema(schemaId("sentence"));
     expect(v({ ...base, translation_kind: "x" })).toBe(false);

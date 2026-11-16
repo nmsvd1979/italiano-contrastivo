@@ -39,4 +39,8 @@ export type Sentence = {
   tag_rules?: {
     [k: string]: string;
   };
+  /**
+   * Autor de la oración española (CC BY exige atribuir también la traducción).
+   */
+  es_author?: string;
 };
