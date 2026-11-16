@@ -146,12 +146,15 @@ def catalog_categories() -> dict[str, str]:
     return {c["code"]: c["category"] for c in json.loads(CATALOG.read_text(encoding="utf8"))}
 
 
-def cap_surface_tags(tags: list[Tag], max_n: int = 3, categories: dict[str, str] | None = None) -> list[Tag]:
-    """Deja todos los códigos gramaticales/léxicos y, como máximo, max_n fonéticos u ortográficos (en orden de regla)."""
+def cap_surface_tags(tags: list[Tag], max_n: int = 3, categories: dict[str, str] | None = None,
+                     surface_rule_ids: set[str] | None = None) -> list[Tag]:
+    """Deja todos los códigos gramaticales/léxicos y, como máximo, max_n de superficie (en orden de regla).
+    Es de superficie un código de categoría fonética/ortográfica del catálogo O etiquetado por una regla tier=surface."""
     cats = categories if categories is not None else catalog_categories()
+    surface_ids = surface_rule_ids or set()
     out, surface = [], 0
     for t in tags:
-        if cats.get(t.code) in SURFACE_CATEGORIES:
+        if cats.get(t.code) in SURFACE_CATEGORIES or t.rule_id in surface_ids:
             if surface >= max_n:
                 continue
             surface += 1
@@ -170,4 +173,4 @@ def tag_sentence(doc, es_text: str, rules: list[Rule], lexicons=None, cap: bool 
         if evidence is not None:
             tags.append(Tag(rule.code, rule.id, evidence))
             done.add(rule.code)
-    return cap_surface_tags(tags, 3, categories) if cap else tags
+    return cap_surface_tags(tags, 3, categories, {r.id for r in rules if r.tier == "surface"}) if cap else tags

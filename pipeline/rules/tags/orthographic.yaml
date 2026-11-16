@@ -1,0 +1,247 @@
+- id: nasale_geminata_o_palatale
+  code: ERR_GEMINATE_NASAL_CONFUSION
+  tier: surface
+  source: 'LearnAmo/79103ab3/Pandolfi/Lancione (ver docs/dudas-italiano.md #14, #18)'
+  it:
+  - regex: \w*(?:nn|gn)\w*
+  examples:
+    positive:
+    - text: Non vanno a costruire università in Grecia?
+      es: ¿No van a construir una universidad en Grecia?
+      source: tatoeba:7632212
+    - text: Sì, parlo spagnolo.
+      es: Sí, yo hablo español.
+      source: tatoeba:729585
+    - text: È una brava insegnante.
+      es: Ella es una buena maestra.
+      source: tatoeba:13134111
+    negative:
+    - text: Un cratere sul lato oscuro della luna prende il nome da Giordano Bruno.
+      es: Un cráter en el lado oscuro de la Luna lleva el nombre de Giordano Bruno.
+      source: tatoeba:3210101
+    - text: Mi metta la mano sulla spalla.
+      es: Pon tu mano en mi hombro.
+      source: tatoeba:7116597
+    - text: Ho un cane nero e un cane bianco.
+      es: Tengo un perro negro y uno blanco.
+      source: tatoeba:715571
+- id: geminata_ortografia
+  code: ERR_GEMINATE_SPELLING
+  tier: surface
+  source: 'LearnAmo/79103ab3/Pandolfi/Lancione (ver docs/dudas-italiano.md #14, #18)'
+  it:
+  - regex: \w*([bcdfglmnprstvz])\1\w*
+  examples:
+    positive:
+    - text: Lui mi raccontò una storia interessante.
+      es: Me contó una historia interesante.
+      source: tatoeba:3237805
+    - text: La conobbi mentre tornavo a casa.
+      es: Me la encontré de camino a casa.
+      source: tatoeba:1574235
+    - text: Ecco un libro da fare leggere a sua madre.
+      es: He aquí un libro para que lo lea tu madre.
+      source: tatoeba:3709007
+    negative:
+    - text: Non solo parla bene l'inglese, ma anche il francese.
+      es: No sólo habla bien el inglés, sino que también el francés.
+      source: tatoeba:3541413
+    - text: Ho un altro amico in Cina.
+      es: Tengo otro amigo en China.
+      source: tatoeba:841973
+    - text: Parla molto bene il francese.
+      es: Tú hablas francés muy bien.
+      source: tatoeba:3053840
+- id: accento_finale
+  code: ERR_ACCENT_TRANSFER
+  tier: surface
+  source: 'LearnAmo/79103ab3/Pandolfi/Lancione (ver docs/dudas-italiano.md #14, #18)'
+  it:
+  - regex: \b\w+[àèéìòù]\b
+  examples:
+    positive:
+    - text: Il telefono può essere un fastidio.
+      es: El teléfono puede ser una molestia.
+      source: tatoeba:4470856
+    - text: È morto all'età di settant'anni.
+      es: Él murió a la edad de setenta años.
+      source: tatoeba:1275032
+    - text: Sono qui da già due anni.
+      es: Ya hace dos años que estoy aquí.
+      source: tatoeba:2169664
+    negative:
+    - text: Alcune persone pensano che il francese sia veramente difficile da imparare.
+      es: Algunas personas piensan que el francés es realmente difícil de aprender.
+      source: tatoeba:3345147
+    - text: Stava per bussare a una porta che le avrebbe cambiato la vita.
+      es: Estaba a punto de llamar a una puerta que le habría cambiado la vida.
+      source: tatoeba:11800802
+    - text: Ho sentito che Tom deve tornare a Boston per Natale.
+      es: Oí que Tom ha regresado a Boston para navidad.
+      source: tatoeba:12935647
+- id: gli_palatale
+  code: ERR_GLI_PALATAL
+  tier: surface
+  source: 'LearnAmo/79103ab3/Pandolfi/Lancione (ver docs/dudas-italiano.md #14, #18)'
+  it:
+  - regex: \w*gli[aeiou]\w*
+  examples:
+    positive:
+    - text: La sua è una grande famiglia.
+      es: La suya es una gran familia.
+      source: tatoeba:1326290
+    - text: Il genio è fuori dalla bottiglia.
+      es: El genio está fuera de la botella.
+      source: tatoeba:11709833
+    - text: L’esito della battaglia fu ancora una volta disastroso per le nostre truppe.
+      es: El resultado de la batalla, una vez más fue desastroso para nuestras tropas.
+      source: tatoeba:1178036
+    negative:
+    - text: Tatoeba è uno strumento che può essere usato con gli studenti in classe.
+      es: Tatoeba es una herramienta que se puede utilizar con los alumnos en clase.
+      source: tatoeba:2147999
+    - text: Accettano gli studenti come Tom.
+      es: Ellos aceptan estudiantes como Tom.
+      source: tatoeba:5821323
+    - text: Gli studenti non hanno dei posti economici in cui comprare del cibo.
+      es: Los estudiantes no tienen lugares baratos donde comprar comida.
+      source: tatoeba:2485830
+- id: sc_palatale
+  code: ERR_SC_PALATAL
+  tier: surface
+  source: 'LearnAmo/79103ab3/Pandolfi/Lancione (ver docs/dudas-italiano.md #14, #18)'
+  it:
+  - regex: \w*sc[ei]\w*
+  examples:
+    positive:
+    - text: Stava per uscire.
+      es: Ella estaba a punto de salir.
+      source: tatoeba:718089
+    - text: La scimmia bevve acqua dopo aver mangiato una banana.
+      es: El mono bebió agua después de comer un plátano.
+      source: tatoeba:13668237
+    - text: Tom non riesce a decidere.
+      es: Tom no se puede decidir.
+      source: tatoeba:2193169
+    negative:
+    - text: Voi andate a scuola, vero?
+      es: Vas a la escuela, ¿verdad?
+      source: tatoeba:1664880
+    - text: Tom lo scoprirà.
+      es: Tom lo descubrirá.
+      source: tatoeba:5348779
+    - text: L'ha messo nella scatola.
+      es: Ella lo puso en la caja.
+      source: tatoeba:2512577
+- id: z_africata
+  code: ERR_Z_AFFRICATE
+  tier: surface
+  source: 'LearnAmo/79103ab3/Pandolfi/Lancione (ver docs/dudas-italiano.md #14, #18)'
+  it:
+  - regex: \w*z\w*
+  examples:
+    positive:
+    - text: Lui è nato in Svizzera.
+      es: Él nació en Suiza.
+      source: tatoeba:2277958
+    - text: Jimmy ha insistito che io lo portassi allo zoo.
+      es: Jimmy insistió en que le llevara al zoo.
+      source: tatoeba:2788721
+    - text: La metterete in imbarazzo.
+      es: La vas a hacer pasar vergüenza.
+      source: tatoeba:6206877
+    negative:
+    - text: Parlo il francese bene come Tom.
+      es: Hablo bien el francés como Tom.
+      source: tatoeba:3834158
+    - text: Tom è venuto a casa molto tardi.
+      es: Tom llegó a casa muy tarde.
+      source: tatoeba:6905549
+    - text: Non siamo restate a casa ieri.
+      es: Ayer no nos quedamos en casa.
+      source: tatoeba:3116667
+- id: c_g_palatale
+  code: ERR_C_G_PALATAL
+  tier: surface
+  source: 'LearnAmo/79103ab3/Pandolfi/Lancione (ver docs/dudas-italiano.md #14, #18)'
+  it:
+  - regex: \w*[cg][ei]\w*
+  examples:
+    positive:
+    - text: Io vorrei scrivere centinaia di frasi su Tatoeba, però ho altre cose da fare.
+      es: Me encantaría escribir cientos de frases en Tatoeba, pero tengo cosas que hacer.
+      source: tatoeba:2147896
+    - text: Ai bambini ora piacerebbe giocare fuori.
+      es: A los niños ahora les gustaría jugar fuera.
+      source: tatoeba:14027131
+    - text: Tango abita con un ragazzino in un piccolo villaggio.
+      es: Tango vive con un pequeño muchacho en una pueblo pequeño.
+      source: tatoeba:2407639
+    negative:
+    - text: Di che colore sono gli occhi di sua moglie?
+      es: ¿De qué color son los ojos de tu esposa?
+      source: tatoeba:3965094
+    - text: Chi semina vento raccoglie tempesta.
+      es: Quien siembra vientos, recoge tempestades.
+      source: tatoeba:7138211
+    - text: Tom ha detto a Mary che era grassa e brutta.
+      es: Tom le dijo a Mary que era gorda y fea.
+      source: tatoeba:7207341
+- id: possessivo_grafia
+  code: ERR_POSSESSIVE_SPELLING
+  tier: surface
+  source: 'LearnAmo/79103ab3/Pandolfi/Lancione (ver docs/dudas-italiano.md #14, #18)'
+  it:
+  - regex: \b(?:mio|mia|miei|mie|tuo|tua|tuoi|tue|suo|sua|suoi|sue)\b
+  examples:
+    positive:
+    - text: Il suo computer si riavvierà più volte durante l'installazione.
+      es: Su computador se reiniciará varias veces durante la instalación.
+      source: tatoeba:12039785
+    - text: Mi è piaciuta la sua storia.
+      es: Me ha gustado tu historia.
+      source: tatoeba:2020224
+    - text: Il suo posto è al mio fianco.
+      es: Su puesto es a mi lado.
+      source: tatoeba:4805751
+    negative:
+    - text: La casa sta bruciando.
+      es: La casa está ardiendo.
+      source: tatoeba:387541
+    - text: Il libro costa quindici dollari.
+      es: El libro cuesta quince dólares.
+      source: tatoeba:1701465
+    - text: La casa ha una sala da pranzo?
+      es: ¿La casa tiene comedor?
+      source: tatoeba:726378
+- id: plurale_vocale
+  code: ERR_PLURAL_VOWEL
+  tier: surface
+  source: 'LearnAmo/79103ab3/Pandolfi/Lancione (ver docs/dudas-italiano.md #14, #18)'
+  it:
+  - matcher:
+    - POS: NOUN
+      MORPH:
+        IS_SUPERSET:
+        - Number=Plur
+  examples:
+    positive:
+    - text: Queste macchine sono molto pericolose.
+      es: Estas máquinas son muy peligrosas.
+      source: tatoeba:10209075
+    - text: A metà della mia classe piacciono i cani.
+      es: A la mitad de mi clase le gustan los perros.
+      source: tatoeba:1467011
+    - text: Lascia la chiave nella cassetta delle lettere.
+      es: Deja la llave en el buzón.
+      source: tatoeba:14050472
+    negative:
+    - text: Vorrei un libro.
+      es: Quisiera un libro.
+      source: tatoeba:1518507
+    - text: Il gatto è corso via.
+      es: El gato se escapó.
+      source: tatoeba:3276228
+    - text: Io scrissi il libro.
+      es: Escribí el libro.
+      source: tatoeba:1903740

@@ -135,3 +135,22 @@ def test_mine_filters_by_regex_on_it_and_es():
     assert mine.mine(con, r"\bsono andato\b") == [(1, "Sono andato a Roma.", "Fui a Roma.")]
     assert mine.mine(con, r"\w+", es_regex=r"^Comí") == [(3, "Ho mangiato.", "Comí.")]
     assert len(mine.mine(con, r"\w+", n=1)) == 1
+
+
+def test_real_rules_cap_surface_tags_at_three_and_keep_grammar():
+    rules = engine.load_rules()
+    surface_ids = {r.id for r in rules if r.tier == "surface"}
+    # Oración con muchas grafías de superficie (z, sc, gli, geminadas, acento, posesivo, plural) y estructura gramatical.
+    doc = NLP("Mi sono accorto che la famiglia di mia sorella è andata a Venezia con gli zii già ieri.")
+    tags = engine.tag_sentence(doc, "", rules)
+    uncapped = engine.tag_sentence(doc, "", rules, cap=False)
+    assert sum(t.rule_id in surface_ids for t in tags) == 3
+    assert sum(t.rule_id in surface_ids for t in uncapped) > 3
+    assert any(t.rule_id not in surface_ids for t in tags)
+
+
+def test_cap_counts_tier_surface_rules_even_if_catalog_category_is_not_surface():
+    # ERR_PLURAL_VOWEL es GENDER_NUMBER_AGREEMENT en el catálogo pero el spec lo cuenta como superficie.
+    tags = [engine.Tag(f"ERR_X{i}", f"r{i}", {}) for i in range(5)]
+    out = engine.cap_surface_tags(tags, 3, {}, surface_rule_ids={"r0", "r1", "r2", "r3", "r4"})
+    assert [t.rule_id for t in out] == ["r0", "r1", "r2"]

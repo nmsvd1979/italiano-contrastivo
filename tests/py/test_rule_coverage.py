@@ -44,11 +44,10 @@ def test_groups_cover_exactly_the_taggable_catalog():
     assert {k: len(v) for k, v in GROUPS.items()} == {"grammar": 28, "lexical": 10, "orthographic": 9}
 
 
-# Quitar el xfail de cada grupo al cerrar su tarea (T8: grammar, T9: lexical, T10: orthographic).
 @pytest.mark.parametrize("group", [
     "grammar",
     "lexical",
-    pytest.param("orthographic", marks=pytest.mark.xfail(strict=False, reason="T10 pendiente")),
+    "orthographic",
 ])
 def test_rule_coverage(group):
     problems = []
@@ -69,10 +68,9 @@ def test_non_taggable_codes_have_no_rules():
     assert [r.id for r in RULES if r.code in NON_TAGGABLE] == []
 
 
-def test_surface_tier_only_for_phonetic_or_orthographic_codes():
-    # `tier` dice cómo se detecta; el tope de 3 usa la categoría del catálogo (p. ej. ERR_GEMINATE es fonético
-    # pero se detecta con léxico). Por eso solo se exige: tier surface => categoría fonética u ortográfica.
-    bad = [r.id for r in RULES if r.tier == "surface" and CATALOG[r.code]["category"] not in engine.SURFACE_CATEGORIES]
+def test_orthographic_group_rules_are_surface_tier():
+    # `tier` dice cómo se detecta Y si cuenta para el tope de 3: los 9 códigos del grupo de superficie del spec lo son.
+    bad = [r.id for r in RULES if r.code in GROUPS["orthographic"] and r.tier != "surface"]
     assert bad == []
 
 
