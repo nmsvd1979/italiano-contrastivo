@@ -4,11 +4,11 @@ import json
 import sys
 from pathlib import Path
 
-from pipeline import cefr, config, export, filters, ingest, nlp, pivot, promote, workdb
+from pipeline import cefr, config, export, filters, ingest, nlp, pivot, promote, report as report_mod, workdb
 from pipeline.db import store
 from pipeline.tagging import engine
 
-STAGES = ["ingest", "pivot", "filter", "annotate", "tag", "promote", "all", "review", "export"]
+STAGES = ["ingest", "pivot", "filter", "annotate", "tag", "promote", "all", "review", "export", "report"]
 
 
 def _ok_candidates(con):
@@ -135,6 +135,8 @@ def main(argv: list[str] | None = None) -> int:
             elif st == "export":
                 m = export.export(store.connect(args.authoring_db), args.out_dir)
                 report(st, {**{f"nivel {k}": v for k, v in m["levels"].items()}, "excluidas sin atribución": len(m["excluded_missing_attribution"])})
+            elif st == "report":
+                print(report_mod.format_report(report_mod.build_report(store.connect(args.authoring_db))))
             elif st == "review":
                 from pipeline.review import server
 
