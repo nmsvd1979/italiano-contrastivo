@@ -8,7 +8,7 @@ from pipeline import cefr, config, filters, ingest, nlp, pivot, promote, workdb
 from pipeline.db import store
 from pipeline.tagging import engine
 
-STAGES = ["ingest", "pivot", "filter", "annotate", "tag", "promote", "all"]
+STAGES = ["ingest", "pivot", "filter", "annotate", "tag", "promote", "all", "review"]
 
 
 def _ok_candidates(con):
@@ -99,12 +99,13 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--work-db", type=Path, default=config.WORK_DB)
     ap.add_argument("--authoring-db", type=Path, default=config.AUTHORING_DB)
     ap.add_argument("--model", default=nlp.MODEL_NAME)
+    ap.add_argument("--port", type=int, default=8765, help="puerto del servidor de revisión (solo localhost)")
     ap.add_argument("--no-pivot", action="store_true", help="en `all`, omite el pivote por inglés")
     args = ap.parse_args(argv)
 
     work = workdb.connect(args.work_db)
     try:
-        stages = STAGES[:-1] if args.stage == "all" else [args.stage]
+        stages = ["ingest", "pivot", "filter", "annotate", "tag", "promote"] if args.stage == "all" else [args.stage]
         if args.stage == "all" and args.no_pivot:
             stages.remove("pivot")
         done: set[str] = set()
@@ -130,6 +131,17 @@ def main(argv: list[str] | None = None) -> int:
             elif st == "promote":
                 auth = store.connect(args.authoring_db)
                 report(st, promote.promote(work, auth))
+            elif st == "review":
+                from pipeline.review import server
+
+                srv = server.make_server(args.work_db, args.authoring_db, port=args.port)
+                print(f"Revisión en http://127.0.0.1:{srv.server_address[1]}  (Ctrl+C para salir)")
+                try:
+                    srv.serve_forever()
+                except KeyboardInterrupt:
+                    pass
+                finally:
+                    srv.server_close()
     except nlp.ModelMissingError as e:
         print(str(e), file=sys.stderr)
         return 2

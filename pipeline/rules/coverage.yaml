@@ -1,0 +1,3 @@
+# Objetivo de cobertura para ordenar los lotes de revisión (spec §Revisión humana).
+per_code: 20     # oraciones validadas deseadas por código de error
+per_level: 300   # oraciones validadas deseadas por nivel CEFR
