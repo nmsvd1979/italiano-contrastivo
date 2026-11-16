@@ -36,8 +36,12 @@ def build_report(auth) -> dict:
 
     pivot = [latest[sid] for sid, in auth.execute("SELECT id FROM sentences WHERE json_extract(body, '$.translation_kind') = 'pivot'")
              if latest.get(sid) in ("validated", "rejected")]
+    reviewers = dict(auth.execute(
+        "SELECT r.reviewer, COUNT(*) FROM reviews r WHERE r.entity = 'sentences' "
+        "AND r.id = (SELECT MAX(id) FROM reviews WHERE entity = 'sentences' AND entity_id = r.entity_id) GROUP BY r.reviewer"))
     return {
         "reviewed": len(latest),
+        "reviewers": reviewers,
         "decisions": decisions,
         "tag_precision": dict(sorted(precision.items())),
         "level_agreement": {"matrix": matrix, "agreement": agree / total if total else 0.0},
@@ -46,7 +50,7 @@ def build_report(auth) -> dict:
 
 
 def format_report(r: dict) -> str:
-    lines = [f"revisadas: {r['reviewed']}  (validadas {r['decisions']['validated']}, rechazadas {r['decisions']['rejected']}, dudas {r['decisions']['doubt']})", "", "precisión por regla:"]
+    lines = [f"revisores (última decisión): {r['reviewers']}", f"revisadas: {r['reviewed']}  (validadas {r['decisions']['validated']}, rechazadas {r['decisions']['rejected']}, dudas {r['decisions']['doubt']})", "", "precisión por regla:"]
     for rule_id, e in sorted(r["tag_precision"].items(), key=lambda kv: (kv[1]["precision"], kv[0])):
         lines.append(f"  {rule_id} ({e['code']}): {e['precision']:.0%}  [{e['accepted']} aceptados, {e['rejected']} rechazados]")
     la = r["level_agreement"]

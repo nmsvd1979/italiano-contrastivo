@@ -33,7 +33,7 @@ def put(con, *docs):
 
 def test_report_with_no_reviews_is_zeroed(auth):
     r = report.build_report(auth)
-    assert r == {"reviewed": 0, "decisions": {"validated": 0, "rejected": 0, "doubt": 0}, "tag_precision": {},
+    assert r == {"reviewed": 0, "reviewers": {}, "decisions": {"validated": 0, "rejected": 0, "doubt": 0}, "tag_precision": {},
                  "level_agreement": {"matrix": {}, "agreement": 0.0}, "pivot_rejection_rate": 0.0}
 
 
@@ -92,3 +92,12 @@ def test_double_approval_does_not_fake_level_agreement(auth):
     batch.record_decision(auth, "s_1", {"action": "approve", "cefr": "B1"})
     batch.record_decision(auth, "s_1", {"action": "approve", "cefr": "B1"})
     assert report.build_report(auth)["level_agreement"] == {"matrix": {"A2": {"B1": 1}}, "agreement": 0.0}
+
+
+def test_report_breaks_down_by_reviewer_using_the_latest_decision(auth):
+    put(auth, doc(1), doc(2), doc(3))
+    batch.record_decision(auth, "s_1", {"action": "approve"}, reviewer="me")
+    batch.record_decision(auth, "s_2", {"action": "approve"}, reviewer="me")
+    batch.record_decision(auth, "s_2", {"action": "reject"}, reviewer="llm-audit")  # la última decisión es del auditor
+    batch.record_decision(auth, "s_3", {"action": "doubt"}, reviewer="llm-audit")
+    assert report.build_report(auth)["reviewers"] == {"me": 1, "llm-audit": 2}

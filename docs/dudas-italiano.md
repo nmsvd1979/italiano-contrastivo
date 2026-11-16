@@ -30,3 +30,6 @@ Cosas de las fuentes de NotebookLM que no se deben copiar sin verificar. Cada un
 20. **Pandolfi 2026 y Barbasán 2021**: solo se leyó el resumen. Pandolfi estudió hablantes de Buenos Aires; el patrón en hablantes chilenos no está confirmado. Barbasán propone clasificar los errores léxicos como interlingüísticos/intralingüísticos y de forma/de significado; es un posible campo futuro, no se agregó.
 21. **Oviedo**: es un libro de ~720 mil caracteres; se leyeron solo los pasajes que comparan con el español (búsqueda por palabras clave), no el libro completo.
 22. **Fuentes sin leer**: Partículas/Particelle (0a34e3e6), componente fónico para italófonos (e81bdbbc), "Por qué mi español suena a italiano" (5e7eade4; es italófono→español), f3cfa69f (aparente duplicado de daedf2c6) y el resto.
+
+23. **`oceano` como heterotónica (fuente 79103ab3 y catálogo)**: dos auditores IA independientes y el revisor final indican que *oceano* [oˈtʃɛano] y *océano* [oˈθe.a.no] llevan el acento en la misma sílaba (*ce*), así que no sería heterotónica. Sin confirmar con un diccionario; mientras tanto la regla `eterotonica` tiene 1 de 8 aceptadas.
+24. **Auditoría IA, no nativa**: ver `docs/fase2-auditoria.md`.

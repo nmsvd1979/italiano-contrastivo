@@ -44,6 +44,10 @@ def export(auth, out_dir: Path) -> dict:
         "codes": dict(sorted(Counter(c for d in docs for c in d.get("error_codes", [])).items())),
         "translation_kind": dict(sorted(Counter(d.get("translation_kind", "direct") for d in docs).items())),
         "authors": dict(sorted(Counter(d["author"] for d in docs).items())),
+        # Quién tomó la última decisión validante: permite distinguir lo revisado por una persona de lo auditado por IA.
+        "reviewers": dict(sorted(Counter(
+            auth.execute("SELECT reviewer FROM reviews WHERE entity='sentences' AND entity_id=? AND status='validated' ORDER BY id DESC LIMIT 1", (d["id"],)).fetchone()[0]
+            for d in docs).items())),
         "excluded_missing_attribution": excluded,
     }
     _write_json(out / "manifest.json", manifest)

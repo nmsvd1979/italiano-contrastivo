@@ -121,3 +121,12 @@ def test_reject_after_approve_leaves_export(auth, tmp_path):
     batch.record_decision(auth, "s_1", {"action": "reject", "reason": "error"})
     export.export(auth, tmp_path)
     assert read(tmp_path, "A1") == []
+
+
+def test_manifest_counts_who_made_the_last_validating_decision(auth, tmp_path):
+    put(auth, doc(1, "A1", [AUX]), doc(2, "A1", [AUX]), doc(3, "A2", []))
+    batch.record_decision(auth, "s_1", {"action": "approve"}, reviewer="me")
+    batch.record_decision(auth, "s_2", {"action": "approve"}, reviewer="me")
+    batch.record_decision(auth, "s_2", {"action": "approve"}, reviewer="llm-audit")
+    batch.record_decision(auth, "s_3", {"action": "approve"}, reviewer="llm-audit")
+    assert export.export(auth, tmp_path)["reviewers"] == {"llm-audit": 2, "me": 1}
