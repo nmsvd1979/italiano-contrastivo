@@ -46,7 +46,7 @@ def test_groups_cover_exactly_the_taggable_catalog():
 
 # Quitar el xfail de cada grupo al cerrar su tarea (T8: grammar, T9: lexical, T10: orthographic).
 @pytest.mark.parametrize("group", [
-    pytest.param("grammar", marks=pytest.mark.xfail(strict=False, reason="T8 pendiente")),
+    "grammar",
     pytest.param("lexical", marks=pytest.mark.xfail(strict=False, reason="T9 pendiente")),
     pytest.param("orthographic", marks=pytest.mark.xfail(strict=False, reason="T10 pendiente")),
 ])
