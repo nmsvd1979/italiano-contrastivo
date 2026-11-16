@@ -1,7 +1,7 @@
 # Fase 2 — Resultados de la corrida real
 
 Corrida del 2026-11-12 sobre los exports de Tatoeba (`python -m pipeline all --no-pivot`, 7 min 30 s; el pivote se midió antes, 105 s).
-Estado de la compuerta de 200: **pendiente de tu revisión** (ver al final).
+Estado de la compuerta de 200: **pendiente de tu revisión** (ver al final). Después de la corrida se aplicó el pase de arreglos de la revisión independiente (ver `docs/fase2-decisiones.md`).
 
 ## Conteos por etapa
 | Etapa | Resultado |
@@ -10,14 +10,14 @@ Estado de la compuerta de 200: **pendiente de tu revisión** (ver al final).
 | pivot | 251.148 pares pivote; 184.028 oraciones ita nuevas (202.716 con algún par) |
 | filter | 202.716 entradas → **190.246 ok** (17.415 directas, 172.831 pivote); 12.470 rechazadas |
 | rechazos | no_verb 8.184 · length 2.134 · digits_url 1.752 · ratio 651 · duplicate 15 · punct_unbalanced 15 (una oración puede tener varias razones) |
-| annotate | A1 94.435 · A2 74.521 · B1 19.313 · B2 1.977 |
+| annotate | A1 83.887 · A2 83.839 · B1 20.480 · B2 2.040 (recalculado tras corregir futuro/imperfetto/trapassato; antes A1 94.435 · A2 74.521) |
 | tag | 162.298 oraciones con algún código; 357.705 códigos asignados |
-| promote | 190.246 oraciones `needs_review` en la base de autoría (todas con `es_author`) |
+| promote | 190.246 oraciones en la base de autoría con `es_author`; en el recálculo se respetaron las 8 ya revisadas |
 
 ## Qué hay para revisar
-- **Nivel × tipo de traducción:** A1 9.149 directas / 85.286 pivote · A2 6.308 / 68.213 · B1 1.711 / 17.602 · B2 247 / 1.730.
+- **Nivel × tipo de traducción** (tras el recálculo): A1 8.294 directas / 75.593 pivote · A2 7.089 / 76.750 · B1 1.782 / 18.698 · B2 250 / 1.790.
 - **El 91% de los candidatos son por pivote** (traducción indirecta, no medida todavía): la revisión de 200 debe mezclar directas y pivote para estimar su tasa de rechazo.
-- **Confianza del nivel:** 0,3 en 128.305 oraciones (67%: sin rasgos gramaticales, por diseño del spec), 0,6 en 45.965 y 0,9 en 15.976.
+- **Confianza del nivel:** alta proporción con 0,3 (oraciones sin rasgos gramaticales, por diseño del spec); las cifras exactas cambiaron con el recálculo.
 - **Cobertura de códigos** (meta: 20 validadas por código): 46 de 47 códigos etiquetables tienen ≥20 oraciones disponibles. Los más escasos: `ERR_MAGARI_TENSE` 7 (no alcanza la meta), `ERR_CONGIUNTIVO_CONCESSIVE` 24, `ERR_CLITIC_CE_NE` 47, `ERR_CONGIUNTIVO_SUPERLATIVE` 63, `ERR_HETEROTONIC` 64, `ERR_CLITIC_DOUBLING` 111. `ERR_LEXICAL_LEAK` y `ERR_ARTICLE_OMISSION` no son etiquetables (se cubrirán con ítems escritos).
 - Los patrones de superficie dominan el etiquetado (`ERR_GEMINATE_SPELLING` 100.681, `ERR_C_G_PALATAL` 57.295); el tope de 3 por oración evita que tapen los gramaticales.
 
