@@ -11,7 +11,9 @@ CATALOG = ROOT / "schemas" / "data" / "error-codes.json"
 def ensure_catalog(auth) -> None:
     """Los códigos de error deben existir en la base de autoría (clave foránea de sentence_error_codes)."""
     for entry in json.loads(CATALOG.read_text(encoding="utf8")):
-        store.upsert(auth, "error_codes", entry)
+        row = auth.execute("SELECT review_status FROM error_codes WHERE code=?", (entry["code"],)).fetchone()
+        # Re-ejecutar promote no puede deshacer una decisión humana sobre un código: se conserva su estado.
+        store.upsert(auth, "error_codes", dict(entry, review_status=row[0]) if row else entry)
 
 
 def _locked(auth, sentence_id: str) -> bool:

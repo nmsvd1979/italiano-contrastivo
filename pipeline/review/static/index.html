@@ -27,18 +27,23 @@
   .approve { border-color:var(--ok); color:var(--ok); } .reject { border-color:var(--bad); color:var(--bad); }
   kbd { font:inherit; font-size:.75rem; border:1px solid var(--line); border-radius:4px; padding:0 .3rem; margin-left:.3rem; color:var(--muted); }
   input[type=text], select { font:inherit; padding:.4rem .5rem; border-radius:6px; border:1px solid var(--line); background:var(--card); color:var(--fg); }
+  .toolbar { display:flex; gap:1rem; align-items:center; margin-top:.5rem; font-size:.9rem; } .toolbar button { min-height:36px; padding:.3rem .7rem; }
+  .chip.note { color:var(--accent); border-color:var(--accent); }
   #msg { min-height:1.5rem; margin-top:.75rem; color:var(--bad); } a { color:var(--accent); }
 </style>
 </head>
 <body>
 <main>
-  <header><strong>Revisión de oraciones</strong><span id="progress" aria-live="polite"></span></header>
+  <header><strong id="title">Revisión de oraciones</strong><span id="progress" aria-live="polite"></span></header>
+  <div class="toolbar"><button id="undo" type="button">Deshacer la última decisión</button><a id="modelink" href="?mode=doubts">Ver las que dejé en duda</a></div>
   <div id="app" class="card" aria-live="polite">Cargando…</div>
   <div id="msg" role="alert"></div>
 </main>
 <script>
 const app = document.getElementById("app"), msg = document.getElementById("msg"), progress = document.getElementById("progress");
 const LEVELS = ["A1", "A2", "B1", "B2"];
+const MODE = new URLSearchParams(location.search).get("mode") === "doubts" ? "doubts" : "pending";
+const seen = new Set();
 let queue = [], current = null, busy = false;
 
 const el = (tag, props = {}, ...kids) => {
@@ -56,15 +61,26 @@ async function loadStats() {
 
 async function nextItem() {
   msg.textContent = "";
-  if (!queue.length) queue = await (await fetch("/api/batch?size=20")).json();
-  current = queue.shift();
+  if (!queue.length) queue = (await (await fetch(`/api/batch?size=20&mode=${MODE}`)).json()).filter(i => !seen.has(i.id));
+  current = queue.shift() || null;
+  if (current) seen.add(current.id);
   loadStats();
+  render();
+}
+
+async function undo() {
+  if (busy) return;
+  msg.textContent = "";
+  const last = await (await fetch("/api/last")).json();
+  if (!last) { msg.textContent = "Todavía no has decidido ninguna oración."; return; }
+  if (current && current.id !== last.id) queue.unshift(current);
+  current = last; seen.add(last.id);
   render();
 }
 
 function render() {
   app.replaceChildren();
-  if (!current) { app.append("No quedan oraciones por revisar."); return; }
+  if (!current) { app.append(MODE === "doubts" ? "No tienes oraciones en duda." : "No quedan oraciones por revisar."); return; }
   const c = current;
   app.append(el("p", { className: "it", lang: "it" }, c.it), el("p", { className: "es", lang: "es" }, c.es));
   const meta = el("div", { className: "meta" },
@@ -72,13 +88,14 @@ function render() {
     el("span", { className: "chip" }, `Autor: ${c.author || "?"}`),
     el("a", { className: "chip", href: c.source_url, target: "_blank", rel: "noopener" }, "Ver en Tatoeba"));
   if (c.translation_kind === "pivot") meta.append(el("span", { className: "chip warn" }, "Traducción por pivote (indirecta)"));
+  if (c.status !== "needs_review") meta.append(el("span", { className: "chip note" }, `Decisión anterior: ${c.status === "validated" ? "aprobada" : "rechazada"} (puedes cambiarla)`));
   for (const f of c.qa_flags) if (f !== "pivot") meta.append(el("span", { className: "chip warn" }, f));
   app.append(meta);
 
   if (c.tags.length) {
     const fs = el("fieldset", {}, el("legend", {}, "Códigos de error detectados (desmarca los que no apliquen)"));
     for (const t of c.tags) {
-      const cb = el("input", { type: "checkbox", checked: true, name: "tag", value: t.code });
+      const cb = el("input", { type: "checkbox", checked: t.accepted !== false, name: "tag", value: t.code });
       const ev = Object.entries(t.evidence).map(([k, v]) => `${k}: «${v}»`).join(" · ");
       fs.append(el("label", {}, cb, el("span", {}, t.code, el("br"), el("code", {}, `${t.rule_id}${ev ? " — " + ev : ""}`))));
     }
@@ -110,10 +127,13 @@ async function decide(action) {
 }
 
 document.addEventListener("keydown", e => {
-  if (e.ctrlKey || e.metaKey || e.altKey || ["INPUT", "SELECT", "TEXTAREA"].includes(document.activeElement.tagName) && document.activeElement.type === "text") return;
+  const t = document.activeElement, tag = t && t.tagName;
+  if (e.ctrlKey || e.metaKey || e.altKey || tag === "SELECT" || tag === "TEXTAREA" || (tag === "INPUT" && t.type === "text")) return;
   const k = { a: "approve", r: "reject", d: "doubt" }[e.key.toLowerCase()];
   if (k) { e.preventDefault(); decide(k); }
 });
+document.getElementById("undo").addEventListener("click", undo);
+if (MODE === "doubts") { document.getElementById("title").textContent = "Oraciones en duda"; const l = document.getElementById("modelink"); l.href = "."; l.textContent = "Volver a la revisión"; }
 nextItem();
 </script>
 </body>

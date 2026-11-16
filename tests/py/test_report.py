@@ -85,3 +85,10 @@ def test_cli_report_stage_prints_the_three_gate_numbers(tmp_path, capsys):
     assert cli.main(["report", "--authoring-db", str(a), "--work-db", str(tmp_path / "w.db")]) == 0
     out = capsys.readouterr().out
     assert "precisión por regla" in out and "acuerdo de nivel" in out and "rechazo del pivote" in out and f"r_{AUX}" in out
+
+
+def test_double_approval_does_not_fake_level_agreement(auth):
+    put(auth, doc(1, "A2"))
+    batch.record_decision(auth, "s_1", {"action": "approve", "cefr": "B1"})
+    batch.record_decision(auth, "s_1", {"action": "approve", "cefr": "B1"})
+    assert report.build_report(auth)["level_agreement"] == {"matrix": {"A2": {"B1": 1}}, "agreement": 0.0}

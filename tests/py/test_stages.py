@@ -157,3 +157,13 @@ def test_cli_export_stage_writes_files_and_reports(tmp_path, capsys):
     assert cli.main(["export", "--authoring-db", str(a), "--work-db", str(tmp_path / "w.db"), "--out-dir", str(out)]) == 0
     assert (out / "manifest.json").exists() and (out / "sentences" / "B2.json").exists()
     assert "export" in capsys.readouterr().out
+
+
+def test_promote_does_not_reset_the_review_status_of_error_codes():
+    auth = store.connect(":memory:")
+    promote.ensure_catalog(auth)
+    auth.execute("UPDATE error_codes SET review_status='validated', body=json_set(body,'$.review_status','validated') WHERE code='ERR_AUX_ESSERE'")
+    promote.ensure_catalog(auth)
+    assert auth.execute("SELECT review_status FROM error_codes WHERE code='ERR_AUX_ESSERE'").fetchone()[0] == "validated"
+    assert json.loads(auth.execute("SELECT body FROM error_codes WHERE code='ERR_AUX_ESSERE'").fetchone()[0])["review_status"] == "validated"
+    assert auth.execute("SELECT COUNT(*) FROM error_codes").fetchone()[0] == 49

@@ -4,7 +4,9 @@ levels: [A1, A2, B1, B2]
 
 features:               # rasgo → nivel mínimo
   passato_prossimo: A2
-  passato_finito: A2            # imperfetto / passato remoto / futuro (spaCy los marca todos Tense=Past)
+  passato_finito: A2            # passato remoto (Tense=Past finito)
+  imperfetto: A2                # Tense=Imp
+  futuro: A2                    # Tense=Fut
   condizionale_presente: A2
   imperativo: A2
   condizionale_passato: B1

@@ -81,7 +81,7 @@ def _grammar_features(doc, rules: dict) -> list[str]:
                     add("condizionale_passato")
                 elif am.get("VerbForm") == "Ger":
                     add("gerundio_assoluto")
-                elif am.get("Mood") == "Ind" and am.get("Tense") == "Past":
+                elif am.get("Mood") == "Ind" and am.get("Tense") in {"Past", "Imp"}:
                     add("trapassato_prossimo")
                 else:
                     add("passato_prossimo")
@@ -95,6 +95,10 @@ def _grammar_features(doc, rules: dict) -> list[str]:
                 add("condizionale_presente")
             elif mood == "Ind" and tense == "Past":
                 add("passato_finito")
+            elif mood == "Ind" and tense == "Imp":
+                add("imperfetto")
+            elif mood == "Ind" and tense == "Fut":
+                add("futuro")
             elif mood == "Imp" and exclaim:
                 add("imperativo")
         elif form == "Inf" and exclaim and t.i > 0 and doc[t.i - 1].lower_ == "non" and t.dep_ == "ROOT":

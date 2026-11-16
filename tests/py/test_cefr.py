@@ -110,3 +110,13 @@ def test_progressive_and_endo_present_are_not_absolute_gerund(text):
 def test_absolute_gerund_is_detected():
     e = est("Camminando per strada, ho visto Maria.")
     assert "gerundio_assoluto" in e.features and e.level == "B2"
+
+
+@pytest.mark.parametrize("text", ["Parlerò con lui domani.", "Ero stanco.", "Non cambierà niente.", "Lui dormiva tutto il giorno."])
+def test_future_and_imperfect_are_a2_not_a1(text):
+    assert est(text).level >= "A2", est(text)
+
+
+def test_trapassato_prossimo_is_detected_at_b1():
+    e = est("Avevo già mangiato.")
+    assert "trapassato_prossimo" in e.features and e.level == "B1"

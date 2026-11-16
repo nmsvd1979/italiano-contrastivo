@@ -15,9 +15,16 @@ def load_coverage() -> dict:
     return yaml.safe_load((config.RULES_DIR / "coverage.yaml").read_text(encoding="utf8"))
 
 
-def select_batch(work_con, authoring_con, size: int = 20, coverage: dict | None = None) -> list[dict]:
-    """Oraciones `needs_review` sin ninguna revisión, ordenadas por déficit de cobertura (mayor primero) y,
-    a igual déficit, por menor confianza de nivel."""
+def select_batch(work_con, authoring_con, size: int = 20, coverage: dict | None = None, mode: str = "pending") -> list[dict]:
+    """mode="pending": oraciones `needs_review` sin ninguna revisión, por déficit de cobertura (mayor primero) y, a igual
+    déficit, menor confianza; se alternan traducciones directas y por pivote para que el lote sea representativo.
+    mode="doubts": oraciones cuya última decisión fue "duda"."""
+    if mode == "doubts":
+        ids = [r[0] for r in authoring_con.execute(
+            "SELECT s.id FROM sentences s WHERE s.review_status = 'needs_review' AND EXISTS ("
+            "SELECT 1 FROM reviews r WHERE r.entity = 'sentences' AND r.entity_id = s.id AND r.status = 'needs_review' "
+            "AND r.id = (SELECT MAX(id) FROM reviews WHERE entity = 'sentences' AND entity_id = s.id)) ORDER BY s.id LIMIT ?", (size,))]
+        return [_item(work_con, authoring_con, sid) for sid in ids]
     cov = coverage or load_coverage()
     val_code = dict(authoring_con.execute(
         "SELECT sec.code, COUNT(*) FROM sentence_error_codes sec JOIN sentences s ON s.id = sec.sentence_id "
@@ -25,32 +32,52 @@ def select_batch(work_con, authoring_con, size: int = 20, coverage: dict | None 
     val_level = dict(authoring_con.execute(
         "SELECT cefr_estimate, COUNT(*) FROM sentences WHERE review_status = 'validated' GROUP BY cefr_estimate"))
     rows = authoring_con.execute(
-        "SELECT s.id, s.cefr_estimate, json_extract(s.body, '$.cefr_confidence'), GROUP_CONCAT(sec.code) "
+        "SELECT s.id, s.cefr_estimate, json_extract(s.body, '$.cefr_confidence'), GROUP_CONCAT(sec.code), "
+        "json_extract(s.body, '$.translation_kind') "
         "FROM sentences s LEFT JOIN sentence_error_codes sec ON sec.sentence_id = s.id "
         "WHERE s.review_status = 'needs_review' "
         "AND NOT EXISTS (SELECT 1 FROM reviews r WHERE r.entity = 'sentences' AND r.entity_id = s.id) GROUP BY s.id"
     ).fetchall()
     scored = []
-    for sid, level, conf, codes in rows:
+    for sid, level, conf, codes, kind in rows:
         codes = codes.split(",") if codes else []
         deficit = sum(max(0, cov["per_code"] - val_code.get(c, 0)) for c in codes) + max(0, cov["per_level"] - val_level.get(level, 0))
-        scored.append((-deficit, 1.0 if conf is None else conf, sid))
+        scored.append((-deficit, 1.0 if conf is None else conf, sid, kind or "direct"))
     scored.sort()
-    return [_item(work_con, authoring_con, sid) for _, _, sid in scored[:size]]
+    queues = {"direct": [t for t in scored if t[3] == "direct"], "pivot": [t for t in scored if t[3] == "pivot"]}
+    order = ["pivot", "direct"] if scored and scored[0][3] == "pivot" else ["direct", "pivot"]
+    picked: list[str] = []
+    while len(picked) < size and (queues["direct"] or queues["pivot"]):
+        for kind in order:
+            if queues[kind] and len(picked) < size:
+                picked.append(queues[kind].pop(0)[2])
+    return [_item(work_con, authoring_con, sid) for sid in picked]
+
+
+def item_for(work_con, authoring_con, sentence_id: str) -> dict:
+    return _item(work_con, authoring_con, sentence_id)
+
+
+def last_decided(work_con, authoring_con) -> dict | None:
+    """La oración de la revisión más reciente (para "Deshacer": se puede decidir de nuevo, la última decisión gana)."""
+    row = authoring_con.execute("SELECT entity_id FROM reviews WHERE entity = 'sentences' ORDER BY id DESC LIMIT 1").fetchone()
+    return _item(work_con, authoring_con, row[0]) if row else None
 
 
 def _item(work_con, authoring_con, sentence_id: str) -> dict:
     d = json.loads(authoring_con.execute("SELECT body FROM sentences WHERE id=?", (sentence_id,)).fetchone()[0])
+    kept = set(d.get("error_codes", []))
+    # Se ofrecen todos los códigos etiquetados por el pipeline; los ya desmarcados en una decisión previa vienen sin marcar.
     tags = [
-        {"code": code, "rule_id": rule_id, "evidence": json.loads(evidence)}
+        {"code": code, "rule_id": rule_id, "evidence": json.loads(evidence), "accepted": code in kept}
         for code, rule_id, evidence in work_con.execute(
             "SELECT code, rule_id, evidence FROM tags WHERE ita_id = ? ORDER BY code", (int(d["source_id"]),))
-        if code in d.get("error_codes", [])
     ]
     return {
         "id": d["id"], "it": d["it"], "es": d["es"], "translation_kind": d.get("translation_kind", "direct"),
         "author": d.get("author"), "source_url": f"https://tatoeba.org/en/sentences/show/{d['source_id']}",
         "cefr": d["cefr_estimate"], "cefr_confidence": d.get("cefr_confidence"), "tags": tags, "qa_flags": d.get("qa_flags", []),
+        "status": d.get("review_status", "needs_review"),
     }
 
 
@@ -70,7 +97,9 @@ def record_decision(con, sentence_id: str, decision: dict, reviewer: str = "me")
     if level is not None and level not in LEVELS:
         raise ValueError(f"nivel inválido: {level!r}")
     tags = decision.get("tags") or {}
-    unknown = [c for c in tags if c not in doc.get("error_codes", [])]
+    previous = dict(con.execute("SELECT code, rule_id FROM tag_reviews WHERE sentence_id = ?", (sentence_id,)).fetchall())
+    rules = {**previous, **doc.get("tag_rules", {})}  # códigos ya desmarcados antes siguen siendo reactivables
+    unknown = [c for c in tags if c not in rules]
     if unknown:
         raise ValueError(f"códigos que la oración no tiene etiquetados: {unknown}")
 
@@ -78,14 +107,18 @@ def record_decision(con, sentence_id: str, decision: dict, reviewer: str = "me")
     status = STATUS[action]
     con.execute("INSERT INTO reviews(entity, entity_id, status, reviewer, reviewed_at, note) VALUES ('sentences', ?, ?, ?, ?, ?)",
                 (sentence_id, status, reviewer, now, decision.get("reason")))
-    for code, accepted in tags.items():
-        con.execute("INSERT INTO tag_reviews VALUES (?, ?, ?, ?, ?)", (sentence_id, code, doc["tag_rules"][code], int(bool(accepted)), now))
     new = dict(doc, review_status=status)
     if action == "approve":
-        estimated = doc["cefr_estimate"]
-        corrected = level or estimated
+        # Solo al aprobar tiene sentido medir la precisión de las reglas: al rechazar, las casillas sin tocar no son un juicio.
+        for code, accepted in tags.items():
+            con.execute("INSERT INTO tag_reviews VALUES (?, ?, ?, ?, ?)", (sentence_id, code, rules[code], int(accepted is True), now))
+        # La estimación automática original es la de la primera revisión; aprobar de nuevo no la reemplaza por la corregida.
+        first = con.execute("SELECT estimated FROM level_reviews WHERE sentence_id = ? ORDER BY rowid LIMIT 1", (sentence_id,)).fetchone()
+        estimated = first[0] if first else doc["cefr_estimate"]
+        corrected = level or doc["cefr_estimate"]
         con.execute("INSERT INTO level_reviews VALUES (?, ?, ?, ?)", (sentence_id, estimated, corrected, now))
-        keep = [c for c in doc.get("error_codes", []) if tags.get(c, True)]
-        new.update(error_codes=keep, tag_rules={c: doc["tag_rules"][c] for c in keep}, cefr_estimate=corrected)
+        current = set(doc.get("error_codes", []))
+        keep = sorted(c for c in rules if tags.get(c, c in current) is True or (c not in tags and c in current))
+        new.update(error_codes=keep, tag_rules={c: rules[c] for c in keep}, cefr_estimate=corrected)
     store.upsert(con, "sentences", new)
     con.commit()

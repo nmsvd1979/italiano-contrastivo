@@ -47,10 +47,18 @@ class _Handler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(body)
         elif url.path == "/api/batch":
-            size = int(parse_qs(url.query).get("size", ["20"])[0])
+            q = parse_qs(url.query)
+            size = int(q.get("size", ["20"])[0])
+            mode = "doubts" if q.get("mode", [""])[0] == "doubts" else "pending"
             work, auth = workdb.connect(self.work_db), store.connect(self.authoring_db)
             try:
-                self._json(200, batch.select_batch(work, auth, max(1, min(size, 100))))
+                self._json(200, batch.select_batch(work, auth, max(1, min(size, 100)), mode=mode))
+            finally:
+                work.close(); auth.close()
+        elif url.path == "/api/last":
+            work, auth = workdb.connect(self.work_db), store.connect(self.authoring_db)
+            try:
+                self._json(200, batch.last_decided(work, auth))
             finally:
                 work.close(); auth.close()
         elif url.path == "/api/stats":
