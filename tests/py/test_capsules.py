@@ -119,3 +119,12 @@ def test_oraciones_casi_duplicadas_se_cuentan_una_vez():
     dup = sent(9, "Io ho fame adesso?", "¿Yo tengo hambre ahora?")
     assert [x["id"] for x in capsules.usable_sentences(CODE, [S2, dup])] == ["s_2"]
     assert capsules.build_capsule(CAT, [S1, S2, dup]) is None  # solo 2 distintas
+
+
+def test_el_paquete_lleva_el_id_de_audio_de_cada_texto(pack):
+    from pipeline.tts.ids import clip_id
+
+    out, _ = pack
+    for name, field in (("sentences.json", "it"), ("lexemes.json", "form")):
+        rows = json.loads((out / name).read_text(encoding="utf8"))
+        assert rows and all(r["audio"] == clip_id(r[field]) for r in rows), name

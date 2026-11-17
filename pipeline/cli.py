@@ -8,7 +8,7 @@ from pipeline import cefr, config, export, filters, ingest, nlp, pivot, promote,
 from pipeline.db import store
 from pipeline.tagging import engine
 
-STAGES = ["ingest", "pivot", "filter", "annotate", "tag", "promote", "all", "review", "export", "report", "capsules"]
+STAGES = ["ingest", "pivot", "filter", "annotate", "tag", "promote", "all", "review", "export", "report", "capsules", "tts"]
 
 
 def _ok_candidates(con):
@@ -101,6 +101,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--model", default=nlp.MODEL_NAME)
     ap.add_argument("--out-dir", type=Path, default=config.ROOT / "content", help="carpeta de salida del export")
     ap.add_argument("--pack-dir", type=Path, default=config.ROOT / "web" / "public" / "content", help="salida del paquete de la app")
+    ap.add_argument("--tts-model", default=str(Path.home() / "Downloads" / "it_IT-serena-high.onnx"), help="modelo Piper para la etapa tts")
+    ap.add_argument("--audio-dir", type=Path, default=config.ROOT / "web" / "public" / "audio", help="salida de los clips de la etapa tts")
     ap.add_argument("--port", type=int, default=8765, help="puerto del servidor de revisión (solo localhost)")
     ap.add_argument("--no-pivot", action="store_true", help="en `all`, omite el pivote por inglés")
     args = ap.parse_args(argv)
@@ -143,6 +145,20 @@ def main(argv: list[str] | None = None) -> int:
                 for code, info in m["codes"].items():
                     print(f"  {code}: {info['usable']} utilizables → {'cápsula' if info['capsule'] else 'sin cápsula (' + info['reason'] + ')'}")
                 print(f"  cápsulas: {len(m['capsules'])}, oraciones usadas: {m['sentences_used']}")
+            elif st == "tts":
+                from pipeline.tts import generate as tts_generate, piper_lote
+
+                model = Path(args.tts_model)
+                if not model.exists():
+                    print(f"No encuentro el modelo de voz {model}. Indícalo con --tts-model <ruta a it_IT-serena-high.onnx>.", file=sys.stderr)
+                    return 2
+                texts = tts_generate.texts_for_pack(args.pack_dir)
+                index_file = args.audio_dir / "index.json"
+                prev = json.loads(index_file.read_text(encoding="utf8")) if index_file.exists() else []
+                pending = len(tts_generate.plan_clips(texts, prev, args.audio_dir)["generate"])
+                idx = tts_generate.generate(args.pack_dir, args.audio_dir, piper_lote.make_synthesizer(model) if pending else None, piper_lote.lame_to_mp3)
+                (args.audio_dir / "ATTRIBUZIONI-audio.md").write_text(tts_generate.ATTRIBUTION, encoding="utf8")
+                print(f"  clips generados: {pending} de {len(idx)}; carpeta {args.audio_dir}")
             elif st == "report":
                 print(report_mod.format_report(report_mod.build_report(store.connect(args.authoring_db))))
             elif st == "review":

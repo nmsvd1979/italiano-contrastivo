@@ -1,0 +1,471 @@
+[
+  {
+    "id": "00fec3a929da",
+    "sha1": "00fec3a929da37553bd8039a79ef6dee197e5cd1",
+    "text": "officine",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "0385bf8fbd60",
+    "sha1": "0385bf8fbd608cf9d14db255c9476157ac4271c0",
+    "text": "guardare",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "0aa9dded062e",
+    "sha1": "0aa9dded062e6f1b81eb5a917636ce38bfb64dd0",
+    "text": "asilo",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "168246ca6822",
+    "sha1": "168246ca682271bbc37c564c0a445ac36f1c887b",
+    "text": "Mi è piaciuta la tua idea e l'ho adottata.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "16a1f51a71a7",
+    "sha1": "16a1f51a71a7022ce659955a57b9f0ad0f8bbf0b",
+    "text": "caldi",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "17d3c52c11d7",
+    "sha1": "17d3c52c11d7747376a1af433fc6735917d3f1cd",
+    "text": "gambe",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "18bb8ca9081d",
+    "sha1": "18bb8ca9081d71f8a4f32424fc6efc750ecb50bf",
+    "text": "Zwina non ha ragione.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "1f7e32f84a68",
+    "sha1": "1f7e32f84a689264f998e23f604df4e46791bcaf",
+    "text": "Non andare nella mia stanza.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "2726bab396d8",
+    "sha1": "2726bab396d8ad823ac9be522c935006d1578cf2",
+    "text": "pronto",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "29501a62c4bf",
+    "sha1": "29501a62c4bfc599229112d2a76ac4fa2842767b",
+    "text": "So che avete ragione.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "29a5e542fcd1",
+    "sha1": "29a5e542fcd1fdf5fe6c5f77227d3098de60a661",
+    "text": "caldo",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "337a9fe17421",
+    "sha1": "337a9fe17421dbfd73ff614c941fbeeb6a41ceaf",
+    "text": "Ci sono molti fiori nel giardino?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "42ab9caa8a85",
+    "sha1": "42ab9caa8a85e7f0a8bf1fac54974b6df963ab6f",
+    "text": "L'uomo ha ragione.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "4cf096243e32",
+    "sha1": "4cf096243e32b76642193c89047152b49a393a19",
+    "text": "Fino a quando continueremo a credere che siamo nati per sterminarci a vicenda e che lo sterminio reciproco sia il nostro destino?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "4d142da4be68",
+    "sha1": "4d142da4be68c2db0a899654a9e4af0b1c74bb03",
+    "text": "Vado a Parigi domani.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "4d72d0d5e24e",
+    "sha1": "4d72d0d5e24e920c90429788e804cc80891a45bb",
+    "text": "Tom non conosce i suoi vicini.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "4d9ca6d38278",
+    "sha1": "4d9ca6d382782e8032e7a3694b2db61a7495b738",
+    "text": "Io abito a Parigi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "5a14bd529a52",
+    "sha1": "5a14bd529a520028a1ceccf369f40a5b5d8fec30",
+    "text": "Il gazebo, o pergolato, è uno spazio, di solito rotondo, che solitamente si trova nei giardini, circondato da piante o alberi e panchine.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "5b275184497a",
+    "sha1": "5b275184497ae5e60f12717ef87bc7004bb5463a",
+    "text": "salgo",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "5d9c652337a9",
+    "sha1": "5d9c652337a942068d5fffaacb837d6285e937c3",
+    "text": "aceto",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "5e11eb4ff1cf",
+    "sha1": "5e11eb4ff1cfa86ebdb4814b0367c0cb7fd1e1ce",
+    "text": "largo",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "5eebf4bae41a",
+    "sha1": "5eebf4bae41ad883f52df4f1176cb933708a001d",
+    "text": "pretendere",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "64889a03fbf5",
+    "sha1": "64889a03fbf552afefb993eaaa769458c7c952aa",
+    "text": "spalla",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "65ecc9b68f2f",
+    "sha1": "65ecc9b68f2fe3c8cad074098926dfbb5dbcd93d",
+    "text": "allora",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "66fd2228eddc",
+    "sha1": "66fd2228eddc47b66bc21ee148721cba4ef043d2",
+    "text": "imbarazzato",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "688fb7fba7f6",
+    "sha1": "688fb7fba7f60c47ad5fd5c7fa56a96554825bbc",
+    "text": "Mio zio vive a Londra.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "6b6f4d0d6e22",
+    "sha1": "6b6f4d0d6e2275c69abda768e2e07f7c9146b33c",
+    "text": "Vedrete che ho ragione.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "6b878212ab23",
+    "sha1": "6b878212ab230c767154b3c504e556d3aa442e67",
+    "text": "Nel mezzo della discussione si è alzato ed è uscito.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "7c0b65540b99",
+    "sha1": "7c0b65540b99c25199ac956e50f90476a6c92505",
+    "text": "officina",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "7d9175cd5396",
+    "sha1": "7d9175cd53964eee465e30282846314593ca03a2",
+    "text": "La forza ha ragione.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "829a9c1acf84",
+    "sha1": "829a9c1acf849bcb7763ca1371bdb7a1fd044ee0",
+    "text": "Nonostante Tom sia ammalato, ha intenzione di finire in tempo i suoi compiti.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "87211957afa1",
+    "sha1": "87211957afa1f3f405c1f5b0cbf46549233851cf",
+    "text": "larghi",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "8c4d9d9c09ab",
+    "sha1": "8c4d9d9c09ab067f5ffeb8326d68297decd8879e",
+    "text": "So che hai ragione.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "9463e927d5dc",
+    "sha1": "9463e927d5dcb45359020fe3c44d658409897ddc",
+    "text": "pronti",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "94b7732bf9fe",
+    "sha1": "94b7732bf9feb0c1fb9bb9abcf5fb5ba78fb395e",
+    "text": "salgono",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "95eb576e0c23",
+    "sha1": "95eb576e0c23fa601bc800f7d5fa148bf2064233",
+    "text": "gamba",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "99b294a6b1ad",
+    "sha1": "99b294a6b1ad517bef8d20b3efdb426536b3d5ba",
+    "text": "salire",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "9b078b05f2fd",
+    "sha1": "9b078b05f2fd942e8edd1b37071b1cda777a6c78",
+    "text": "larga",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "9d903fb0f665",
+    "sha1": "9d903fb0f665b2516e5789b46bfd1201ec903fca",
+    "text": "È venuto nonostante gli avessi detto di non farlo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "a3f2fe4070a8",
+    "sha1": "a3f2fe4070a80dbb0790f33bfa9e615536af64f0",
+    "text": "pronta",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "a8c1a8aee384",
+    "sha1": "a8c1a8aee3847c780e20bbf3f97c26022592ba4c",
+    "text": "Nel giardino ci sono molti fiori.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "a9ceb969a547",
+    "sha1": "a9ceb969a547de2c155c991c123dba8febd54374",
+    "text": "imbarazzata",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "abc0047a2e18",
+    "sha1": "abc0047a2e180ed0aeeabcd292b3f4f93d189166",
+    "text": "Nel mondo ci sono quattro oceani.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "ad1928208acd",
+    "sha1": "ad1928208acd6050c470530550f3427704574e5c",
+    "text": "Vedrai che ho ragione.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "af7117a1f961",
+    "sha1": "af7117a1f961de6bac2e23a23324980f4a0865e0",
+    "text": "pretende",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "b0ca8fb27901",
+    "sha1": "b0ca8fb279018923e457c0a5dd32025db68942af",
+    "text": "La mia sorella maggiore ha i capelli che le cadono sulle spalle.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "b0f8e771d839",
+    "sha1": "b0f8e771d8392757f2e727a48fc082f7c9919de3",
+    "text": "carta",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "b71748dd4329",
+    "sha1": "b71748dd4329c289a7ac31c999d084f5e5bc7453",
+    "text": "So che ha ragione.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bea555d60b51",
+    "sha1": "bea555d60b519bfd36d36b2626fb55cbbb2faebf",
+    "text": "ritardato",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "c5852eaa0f63",
+    "sha1": "c5852eaa0f631f7bfe34f4fd7863ffed87c0c25c",
+    "text": "Forse hai ragione.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "c6ba45f1b6cc",
+    "sha1": "c6ba45f1b6cc5ef0d2d5f4a16c8d39d36ecc4fe9",
+    "text": "burro",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "cabadce6b2ad",
+    "sha1": "cabadce6b2adfe0ec39d93028b28cf6851666040",
+    "text": "L'uomo che ha dato la sua busta paga alla moglie è stato più saggio di quello che l'ha data all'amante.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "ccf5c524d68e",
+    "sha1": "ccf5c524d68edafeacd9e7222f332fc8abc03b9d",
+    "text": "La mia famiglia va in Italia tutti gli anni.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "cebbe06f66f6",
+    "sha1": "cebbe06f66f6f5f314e5174ccf9c94e2aa0e6aa3",
+    "text": "spalle",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "d30578273cf3",
+    "sha1": "d30578273cf3d8969a92301de0be07d5715f188b",
+    "text": "pretendo",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "d46c686f884b",
+    "sha1": "d46c686f884b46fdd59300ecf8bf66065860bfca",
+    "text": "Per me è finita con le feste, il mio corpo malato non ce la fa più.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "d72e1a0e94be",
+    "sha1": "d72e1a0e94be98443d7216937093d9b68b91ce3c",
+    "text": "La donna ha ragione.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "d75da932f229",
+    "sha1": "d75da932f22920dfe20bff43cec64835998a6e21",
+    "text": "Forse pioverà nel pomeriggio.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "d8913cd75866",
+    "sha1": "d8913cd758663ebf3a2ad4f6c977ce5af10e908e",
+    "text": "larghe",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "dea1dee7230d",
+    "sha1": "dea1dee7230d4677e7dd49e6478ed3bb563b4787",
+    "text": "Devo segnarmi il suo indirizzo prima che me lo scordi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "e44a85357e57",
+    "sha1": "e44a85357e5794cc9ab4fe20473a7319d76932a6",
+    "text": "Ha lavorato senza pausa per mantenere i suoi figli fino a che si sono sposati.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "e4804a9f9358",
+    "sha1": "e4804a9f9358502921d64005d3fd8a716c569e56",
+    "text": "Nonostante Tom sia malato, ha intenzione di finire in tempo i suoi compiti.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "ed01d047f247",
+    "sha1": "ed01d047f2477ecf620aab8683bc2779d6236851",
+    "text": "Parlando in generale, Tom ha ragione.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "f8a850b042e4",
+    "sha1": "f8a850b042e4b065e181ea6e1c615a31844f03b0",
+    "text": "Vedrà che ho ragione.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "fa7b875b0c26",
+    "sha1": "fa7b875b0c26aa92ebadca693a0fd91dca8b1d47",
+    "text": "carte",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "fca2c1ce38c8",
+    "sha1": "fca2c1ce38c84819f15c86df9df52b8392e9eb83",
+    "text": "calda",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "feefbdf05074",
+    "sha1": "feefbdf05074da23810a15a136517fd0b1d2d0c8",
+    "text": "Domani vado a Parigi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  }
+]

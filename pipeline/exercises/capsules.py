@@ -9,6 +9,7 @@ import yaml
 
 from pipeline import config
 from pipeline.exercises.calques import CALQUE_CODES, find_calque
+from pipeline.tts.ids import clip_id
 from pipeline.exercises.items import build_choice, build_cloze, build_reorder, build_translate
 
 LEVELS = ["A1", "A2", "B1", "B2"]
@@ -94,9 +95,10 @@ def build_pack(content_dir: Path, out_dir: Path) -> dict:
     ordered = [caps[c] for c in curriculum_order([catalog[c] for c in caps])]
 
     fa = yaml.safe_load((config.LEXICONS_DIR / "false_friends.yaml").read_text(encoding="utf8"))["entries"]
-    lexemes = [{"id": f"lx_{e['form']}", "form": e["form"], "gloss_es": e["gloss_es"], "lexical_type": "false_friend", "source": e["source"]}
+    lexemes = [{"id": f"lx_{e['form']}", "form": e["form"], "gloss_es": e["gloss_es"], "lexical_type": "false_friend", "source": e["source"],
+                "audio": clip_id(e["form"])}
                for e in sorted(fa, key=lambda e: e["form"])]
-    used_sentences = [{k: s[k] for k in SENTENCE_FIELDS if k in s} for s in sentences if s["id"] in used]
+    used_sentences = [{**{k: s[k] for k in SENTENCE_FIELDS if k in s}, "audio": clip_id(s["it"])} for s in sentences if s["id"] in used]
 
     _dump(out_dir / "capsules.json", ordered)
     _dump(out_dir / "items_by_code.json", items_by_code)

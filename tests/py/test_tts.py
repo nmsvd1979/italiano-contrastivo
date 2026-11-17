@@ -95,3 +95,20 @@ def test_generate_con_exceso_de_peso_lanza_y_no_escribe_indice(tmp_path):
     with pytest.raises(ValueError, match="peso"):
         gen.generate(pack, out, lambda t, w: w.write_bytes(b"w"), lambda w, d: d.write_bytes(b"x" * 20), max_bytes=10)
     assert not (out / "index.json").exists()
+
+
+def test_cli_tts_sin_modelo_falla_claro_y_sin_indice(tmp_path, capsys):
+    from pipeline import cli
+
+    rc = cli.main(["tts", "--tts-model", str(tmp_path / "no_existe.onnx"), "--audio-dir", str(tmp_path / "audio")])
+    assert rc != 0
+    assert "no_existe.onnx" in capsys.readouterr().err
+    assert not (tmp_path / "audio" / "index.json").exists()
+
+
+def test_lame_to_mp3_sin_lame_da_error_claro(tmp_path, monkeypatch):
+    from pipeline.tts import piper_lote
+
+    monkeypatch.setattr(piper_lote.shutil, "which", lambda _: None)
+    with pytest.raises(RuntimeError, match="lame"):
+        piper_lote.lame_to_mp3(tmp_path / "a.wav", tmp_path / "a.mp3")

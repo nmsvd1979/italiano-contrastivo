@@ -12,6 +12,12 @@ from typing import Callable
 from pipeline.tts.ids import LICENSE, VOICE, clip_id, sha1
 
 MAX_BYTES = 3_000_000
+ATTRIBUTION = (
+    "# Atribuciones de audio\n\n"
+    "## Voz sintética (clips de oraciones y palabras)\n\n"
+    "Voz sintética Piper `it_IT-serena-high` (conjunto de datos CC BY 4.0, committa/serena-synthetic-it-27h), "
+    "generada automáticamente; no es una grabación de una persona.\n"
+)
 
 
 def texts_for_pack(pack_dir: Path) -> list[str]:
