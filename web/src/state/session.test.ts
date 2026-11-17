@@ -1,0 +1,107 @@
+import { describe, expect, it } from "vitest";
+import type { Capsule } from "../generated/capsule";
+import type { Card } from "../generated/card";
+import type { Item } from "../generated/item";
+import type { ContentPack, Lexeme } from "../content/load";
+import { afterCapsule, afterReview, closeCapsule, normalizeDay, pickItem, planToday, ratingFromAnswer, reviewQueue } from "./session";
+import { newCard } from "./srs";
+import { localDate } from "./store";
+
+const NOW = new Date("2026-11-16T15:00:00.000Z");
+const TODAY = localDate(NOW);
+const cap = (code: string): Capsule => ({
+  id: `cap_${code.toLowerCase()}`, cefr: "A1", target_error_codes: [code],
+  trigger: { id: "t", type: "translate_es_it", source_es: "x", accepted_it: ["y"], requires_server: false, review_status: "validated" },
+  explanation: { text_es: "e" }, retrieval: Array.from({ length: 4 }, (_, i) => ({ id: `${code}_r${i}`, type: "cloze", text: "a ___ b", answers: ["c"], requires_server: false, review_status: "validated" })),
+  estimated_seconds: 240, review_status: "validated",
+}) as unknown as Capsule;
+const lex = (n: number): Lexeme[] => Array.from({ length: n }, (_, i) => ({ id: `lx_${i}`, form: `f${i}`, gloss_es: `g${i}`, lexical_type: "false_friend", source: "s" }));
+const pack = (lexemes = lex(5)): ContentPack => ({
+  capsules: [cap("ERR_A"), cap("ERR_B")], itemsByCode: {}, lexemes, sentences: [],
+  manifest: { capsules: ["cap_err_a", "cap_err_b"], codes: {}, levels: {}, reviewers: {}, sentences_used: 0, translation_kind: {} },
+});
+const errCard = (code: string, due = NOW.toISOString()): Card => {
+  const c = newCard({ kind: "error_code", ref: code }, "not_applicable", NOW);
+  return { ...c, fsrs: { ...c.fsrs, due } };
+};
+const emptyDay = { date: TODAY, reviewsDone: 0, capsulesDone: [] as string[] };
+
+describe("planToday", () => {
+  it("sin tarjetas: nada vencido, primera cápsula del currículo, hasta 3 léxicos nuevos", () => {
+    const p = planToday({ pack: pack(), cards: [], day: emptyDay, now: NOW });
+    expect(p.review).toEqual({ due: 0, newAvailable: 3, doneToday: 0, cap: 12 });
+    expect(p.nextCapsule?.id).toBe("cap_err_a");
+    expect(p.allCapsulesDone).toBe(false);
+  });
+  it("una cápsula hecha (tarjeta de su código) pasa a la siguiente; todas hechas → sin cápsula", () => {
+    expect(planToday({ pack: pack(), cards: [errCard("ERR_A")], day: emptyDay, now: NOW }).nextCapsule?.id).toBe("cap_err_b");
+    const all = planToday({ pack: pack(), cards: [errCard("ERR_A"), errCard("ERR_B")], day: emptyDay, now: NOW });
+    expect(all.nextCapsule).toBeNull();
+    expect(all.allCapsulesDone).toBe(true);
+  });
+  it("cuenta solo las tarjetas vencidas y no mezcla el progreso de otro día", () => {
+    const cards = [errCard("ERR_A"), errCard("ERR_B", "2026-11-20T00:00:00.000Z")];
+    const p = planToday({ pack: pack([]), cards, day: { date: "2026-11-15", reviewsDone: 9, capsulesDone: ["cap_x"] }, now: NOW });
+    expect(p.review).toEqual({ due: 1, newAvailable: 0, doneToday: 0, cap: 12 });
+  });
+  it("hacer solo repaso no marca la cápsula como hecha", () => {
+    const day = afterReview(emptyDay);
+    expect(day).toEqual({ date: TODAY, reviewsDone: 1, capsulesDone: [] });
+    expect(planToday({ pack: pack(), cards: [], day, now: NOW }).nextCapsule?.id).toBe("cap_err_a");
+  });
+});
+
+describe("día", () => {
+  it("normalizeDay devuelve un día vacío si la fecha no es la de hoy", () => {
+    expect(normalizeDay({ date: "2026-11-15", reviewsDone: 4, capsulesDone: ["a"] }, NOW)).toEqual(emptyDay);
+    expect(normalizeDay(emptyDay, NOW)).toBe(emptyDay);
+  });
+  it("afterCapsule no duplica", () => {
+    expect(afterCapsule(afterCapsule(emptyDay, "cap_x"), "cap_x").capsulesDone).toEqual(["cap_x"]);
+  });
+});
+
+describe("reviewQueue", () => {
+  it("vencidas primero (máx. 12) y luego hasta 3 léxicos nuevos si sobra cupo", () => {
+    const due = Array.from({ length: 10 }, (_, i) => errCard(`ERR_${i}`, `2026-11-1${i % 5}T00:00:00.000Z`));
+    const q = reviewQueue({ pack: pack(), cards: [...due, errCard("ERR_FUT", "2026-12-01T00:00:00.000Z")], now: NOW });
+    expect(q.length).toBe(12);
+    expect(q.filter((e) => "card" in e).length).toBe(10);
+    expect(q.filter((e) => "lexeme" in e).length).toBe(2);
+  });
+  it("no repite léxicos que ya tienen tarjeta", () => {
+    const have = newCard({ kind: "lexeme", ref: "lx_0" }, "false_friend", NOW);
+    const q = reviewQueue({ pack: pack(lex(1)), cards: [{ ...have, fsrs: { ...have.fsrs, due: "2026-12-01T00:00:00.000Z" } }], now: NOW });
+    expect(q).toEqual([]);
+  });
+});
+
+describe("pickItem y calificación", () => {
+  const items = ["a", "b", "c"].map((id) => ({ id })) as unknown as Item[];
+  it("rota por repeticiones y evita repetir el último ítem", () => {
+    expect(pickItem(items, 0).id).toBe("a");
+    expect(pickItem(items, 1).id).toBe("b");
+    expect(pickItem(items, 0, "a").id).toBe("b");
+    expect(pickItem([items[0]], 0, "a").id).toBe("a");
+  });
+  it("acierto → 3, fallo → 1", () => {
+    expect(ratingFromAnswer(true)).toBe(3);
+    expect(ratingFromAnswer(false)).toBe(1);
+  });
+});
+
+describe("closeCapsule", () => {
+  const c = cap("ERR_A");
+  const answers = (n: number) => Object.fromEntries(c.retrieval.map((it, i) => [it.id, i < n]));
+  it("crea y repasa la tarjeta del código con origen cápsula; la nota sale del acierto", () => {
+    const hi = closeCapsule(c, { phase: "closing", index: 0, answers: answers(4) }, [], NOW)!;
+    expect(hi.card.id).toBe("error_code:ERR_A");
+    expect(hi.card.fsrs.reps).toBe(1);
+    expect(hi.log).toMatchObject({ rating: 3, origin: "capsule", capsule_id: c.id });
+    expect(closeCapsule(c, { phase: "closing", index: 0, answers: answers(2) }, [], NOW)!.log.rating).toBe(2);
+    expect(closeCapsule(c, { phase: "closing", index: 0, answers: answers(1) }, [], NOW)!.log.rating).toBe(1);
+  });
+  it("si la tarjeta del código ya existe no hace nada", () => {
+    expect(closeCapsule(c, { phase: "closing", index: 0, answers: answers(4) }, [errCard("ERR_A")], NOW)).toBeNull();
+  });
+});
