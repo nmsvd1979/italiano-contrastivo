@@ -15,7 +15,7 @@ export function Translate({ item, onDone }: { item: TranslateItem; onDone: () =>
   return (
     <div className="item">
       <p>Traduce al italiano: «{item.source_es}»</p>
-      <textarea aria-label="Tu traducción" value={attempt} rows={2} disabled={shown} autoCapitalize="off" autoCorrect="off" onChange={(e) => setAttempt(e.target.value)} />
+      <textarea lang="it" aria-label="Tu traducción" value={attempt} rows={2} disabled={shown} autoCapitalize="off" autoCorrect="off" onChange={(e) => setAttempt(e.target.value)} />
       {!shown ? (
         <p><button type="button" onClick={() => setShown(true)}>Ver la respuesta</button></p>
       ) : (

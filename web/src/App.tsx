@@ -7,6 +7,7 @@ import { normalizeDay, planToday } from "./state/session";
 import { type DayProgress, localDate, memoryStore, openStore, type Store, StoreUnavailableError } from "./state/store";
 import { AboutScreen } from "./ui/AboutScreen";
 import { CapsuleScreen } from "./ui/CapsuleScreen";
+import { SettingsScreen } from "./ui/SettingsScreen";
 import { ReviewScreen } from "./ui/ReviewScreen";
 import { TodayScreen } from "./ui/TodayScreen";
 import { WriteScreen } from "./ui/WriteScreen";
@@ -26,12 +27,18 @@ function useHash() {
 
 function Today({ pack, store, storeError }: Ready) {
   const [data, setData] = useState<{ cards: Card[]; day: DayProgress } | null>(null);
+  const [tick, setTick] = useState(0);
+  useEffect(() => { // al volver a la app (p. ej. otro día) se recalcula la sesión de hoy
+    const on = () => document.visibilityState === "visible" && setTick((t) => t + 1);
+    document.addEventListener("visibilitychange", on);
+    return () => document.removeEventListener("visibilitychange", on);
+  }, []);
   useEffect(() => {
     const now = new Date();
     Promise.all([store.allCards(), store.getDay(localDate(now))]).then(([cards, day]) => setData({ cards, day: normalizeDay(day, now) }));
-  }, [store]);
+  }, [store, tick]);
   if (!data) return <p>Cargando…</p>;
-  return <TodayScreen plan={planToday({ pack, cards: data.cards, day: data.day, now: new Date() })} day={data.day} storeError={storeError} />;
+  return <TodayScreen plan={planToday({ pack, cards: data.cards, day: data.day, now: new Date() })} day={data.day} storeError={storeError} firstTime={data.cards.length === 0 && data.day.reviewsDone === 0} />;
 }
 
 export function App() {
@@ -40,6 +47,7 @@ export function App() {
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
     (async () => {
+      navigator.storage?.persist?.().catch(() => undefined); // pide que el sistema no borre el progreso
       const [pack, audio, words] = await Promise.all([loadContent(), loadAudioIndex(), loadNativeWords()]);
       try {
         setReady({ pack, audio, words, store: await openStore(), storeError: null });
@@ -54,9 +62,10 @@ export function App() {
   const capsule = hash.startsWith("#/capsula/") ? ready.pack.capsules.find((c) => c.id === hash.slice("#/capsula/".length)) : undefined;
   return (
     <AudioProvider pack={ready.pack} index={ready.audio} words={ready.words}>
-      <nav><a href="#/">Hoy</a> <a href="#/repaso">Repaso</a> <a href="#/escribir">Escribir</a> <a href="#/acerca">Acerca de</a></nav>
+      <nav><a href="#/">Hoy</a> <a href="#/repaso">Repaso</a> <a href="#/escribir">Escribir</a> <a href="#/ajustes">Ajustes</a> <a href="#/acerca">Acerca de</a></nav>
       {hash === "#/repaso" ? <ReviewScreen pack={ready.pack} store={ready.store} />
         : hash === "#/escribir" ? <WriteScreen />
+        : hash === "#/ajustes" ? <SettingsScreen store={ready.store} memoryOnly={ready.storeError !== null} />
         : hash === "#/acerca" ? <AboutScreen manifest={ready.pack.manifest} sentences={ready.pack.sentences} />
         : capsule ? <CapsuleScreen key={capsule.id} capsule={capsule} store={ready.store} />
         : <Today {...ready} />}

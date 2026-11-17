@@ -11,6 +11,7 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
   const [queue, setQueue] = useState<ReviewEntry[] | null>(null);
   const [i, setI] = useState(0);
   const [revealed, setRevealed] = useState(false);
+  const [saveError, setSaveError] = useState(false);
   const busy = useRef(false); // un segundo toque mientras se guarda no debe calificar dos veces
   useEffect(() => {
     store.allCards().then((cards) => setQueue(reviewQueue({ pack, cards, now: now ?? new Date() })));
@@ -27,6 +28,16 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
   const grade = async (rating: 1 | 2 | 3 | 4) => {
     if (busy.current) return;
     busy.current = true;
+    try {
+      await save(rating);
+      setSaveError(false);
+    } catch {
+      setSaveError(true); // no se avanza: la tarjeta sigue pendiente y se puede reintentar
+    } finally {
+      busy.current = false;
+    }
+  };
+  const save = async (rating: 1 | 2 | 3 | 4) => {
     const at = now ?? new Date();
     const base = card ?? newCard({ kind: "lexeme", ref: lexeme!.id }, "false_friend", at);
     const { card: updated, log } = review(base, rating, at);
@@ -36,16 +47,16 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
     await store.putDay(afterReview(day));
     setRevealed(false);
     setI(i + 1);
-    busy.current = false;
   };
 
   if (!lexeme && !(items && items.length)) return <main><p>Este repaso no tiene ejercicios todavía.</p><button type="button" onClick={() => setI(i + 1)}>Saltar</button></main>;
   return (
     <main>
       <p><small>Repaso {i + 1} de {queue.length}</small></p>
+      {saveError && <p role="alert" className="alert">No se pudo guardar tu respuesta. Inténtalo de nuevo.</p>}
       {lexeme ? (
         <section>
-          <h2>{lexeme.form}</h2>
+          <h2 lang="it">{lexeme.form}</h2>
           <SpeakButton text={lexeme.form} />
           {!revealed ? (
             <p><button type="button" onClick={() => setRevealed(true)}>Mostrar significado</button></p>

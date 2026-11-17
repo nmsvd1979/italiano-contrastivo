@@ -16,6 +16,9 @@ export interface Store {
   addReviewLog(l: ReviewLog): Promise<void>;
   allLogs(): Promise<ReviewLog[]>;
   getDay(date: string): Promise<DayProgress>;
+  allDays(): Promise<DayProgress[]>;
+  /** Borra tarjetas, registros, días y progreso de cápsulas (solo para restaurar una copia de seguridad). */
+  clearAll(): Promise<void>;
   putDay(d: DayProgress): Promise<void>;
   getCapsuleProgress(id: string): Promise<CapsuleProgress | undefined>;
   putCapsuleProgress(p: CapsuleProgress): Promise<void>;
@@ -84,8 +87,12 @@ export async function openStore(name = "italiano-contrastivo"): Promise<Store> {
     async getDay(date) {
       return (await wrap<DayProgress | undefined>(os("days").get(date))) ?? { date, reviewsDone: 0, capsulesDone: [] };
     },
+    allDays: () => wrap<DayProgress[]>(os("days").getAll()),
     async putDay(d) {
       await wrap(os("days", "readwrite").put(d));
+    },
+    async clearAll() {
+      for (const name of Object.keys(STORES) as (keyof typeof STORES)[]) await wrap(os(name, "readwrite").clear());
     },
     getCapsuleProgress: (id) => wrap<CapsuleProgress | undefined>(os("capsules").get(id)),
     async putCapsuleProgress(p) {
@@ -110,7 +117,14 @@ export function memoryStore(): Store {
     addReviewLog: async (l) => void logs.push(l),
     allLogs: async () => [...logs],
     getDay: async (date) => days.get(date) ?? { date, reviewsDone: 0, capsulesDone: [] },
+    allDays: async () => [...days.values()],
     putDay: async (d) => void days.set(d.date, d),
+    clearAll: async () => {
+      cards.clear();
+      logs.length = 0;
+      days.clear();
+      caps.clear();
+    },
     getCapsuleProgress: async (id) => caps.get(id),
     putCapsuleProgress: async (p) => void caps.set(p.capsuleId, p),
     clearCapsuleProgress: async (id) => void caps.delete(id),

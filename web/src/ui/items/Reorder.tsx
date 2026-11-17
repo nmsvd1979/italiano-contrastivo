@@ -12,12 +12,12 @@ export function Reorder({ item, onAnswer }: { item: ReorderItem; onAnswer: (corr
       <p>{item.prompt_es}</p>
       <p className="built" aria-label="Tu orden">
         {chosen.map((idx, pos) => (
-          <button key={pos} type="button" disabled={result !== null} onClick={() => setChosen(chosen.filter((_, p) => p !== pos))}>{item.tokens[idx]}</button>
+          <button key={pos} type="button" lang="it" disabled={result !== null} onClick={() => setChosen(chosen.filter((_, p) => p !== pos))}>{item.tokens[idx]}</button>
         ))}
       </p>
       <p className="bank">
         {item.tokens.map((t, i) => (
-          <button key={i} type="button" disabled={result !== null || chosen.includes(i)} onClick={() => setChosen([...chosen, i])}>{t}</button>
+          <button key={i} type="button" lang="it" disabled={result !== null || chosen.includes(i)} onClick={() => setChosen([...chosen, i])}>{t}</button>
         ))}
       </p>
       {result === null ? (

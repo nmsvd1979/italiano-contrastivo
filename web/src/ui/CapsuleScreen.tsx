@@ -8,6 +8,7 @@ import { Translate, type TranslateItem } from "./items/Translate";
 
 export function CapsuleScreen({ capsule, store, now }: { capsule: Capsule; store: Store; now?: Date }) {
   const [state, setState] = useState<CapsuleState | null>(null);
+  const [saveError, setSaveError] = useState(false);
   const busy = useRef(false); // un segundo toque mientras se guarda no debe registrar dos veces
   useEffect(() => {
     store.getCapsuleProgress(capsule.id).then((saved) => setState(initialState(capsule, saved)));
@@ -23,6 +24,16 @@ export function CapsuleScreen({ capsule, store, now }: { capsule: Capsule; store
   const finish = async () => {
     if (busy.current) return;
     busy.current = true;
+    try {
+      await close();
+      setSaveError(false);
+    } catch {
+      setSaveError(true); // el progreso de la cápsula sigue guardado: se puede volver a pulsar «Terminar»
+    } finally {
+      busy.current = false;
+    }
+  };
+  const close = async () => {
     const at = now ?? new Date();
     const res = closeCapsule(capsule, state, await store.allCards(), at);
     if (res) {
@@ -58,6 +69,7 @@ export function CapsuleScreen({ capsule, store, now }: { capsule: Capsule; store
           <h2>Cierre</h2>
           <p>Acertaste {correct} de {total}.</p>
           <p><small>Este tema volverá en tus repasos.</small></p>
+          {saveError && <p role="alert" className="alert">No se pudo guardar. Inténtalo de nuevo.</p>}
           <button type="button" onClick={finish}>Terminar</button>
         </section>
       )}

@@ -25,7 +25,7 @@ export function Choice({ item, onAnswer }: { item: ChoiceItem; onAnswer: (correc
       <ul className="options">
         {item.options.map((o, i) => (
           <li key={i}>
-            <button type="button" data-state={stateOf(i)} disabled={answered} onClick={() => setPicked(i)}>{o.text}</button>
+            <button type="button" lang="it" data-state={stateOf(i)} disabled={answered} onClick={() => setPicked(i)}>{o.text}</button>
           </li>
         ))}
       </ul>
