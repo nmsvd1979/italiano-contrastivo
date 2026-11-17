@@ -5,63 +5,65 @@
     "cap_err_prep_article_contraction",
     "cap_err_prep_place",
     "cap_err_tenere_avere",
-    "cap_err_aux_essere"
+    "cap_err_aux_essere",
+    "cap_err_comparative_di",
+    "cap_err_personal_a"
   ],
   "codes": {
     "ERR_AUX_ESSERE": {
       "capsule": true,
       "reason": null,
-      "usable": 3
+      "usable": 20
     },
     "ERR_CE_AGREEMENT": {
       "capsule": true,
       "reason": null,
-      "usable": 3
+      "usable": 20
     },
     "ERR_COMPARATIVE_DI": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 18
     },
     "ERR_PERSONAL_A": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 21
     },
     "ERR_POSSESSIVE_ARTICLE": {
       "capsule": true,
       "reason": null,
-      "usable": 8
+      "usable": 26
     },
     "ERR_PREP_ARTICLE_CONTRACTION": {
       "capsule": true,
       "reason": null,
-      "usable": 7
+      "usable": 25
     },
     "ERR_PREP_PLACE": {
       "capsule": true,
       "reason": null,
-      "usable": 5
+      "usable": 23
     },
     "ERR_TENERE_AVERE": {
       "capsule": true,
       "reason": null,
-      "usable": 12
+      "usable": 29
     }
   },
   "levels": {
-    "A1": 48,
-    "A2": 90,
-    "B1": 97,
+    "A1": 112,
+    "A2": 159,
+    "B1": 108,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 215,
+    "llm-audit": 359,
     "me": 27
   },
-  "sentences_used": 35,
+  "sentences_used": 179,
   "translation_kind": {
-    "direct": 18,
-    "llm": 17
+    "direct": 143,
+    "llm": 36
   }
 }
