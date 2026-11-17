@@ -90,7 +90,8 @@ def build_pack(content_dir: Path, out_dir: Path) -> dict:
         if cap:
             caps[code] = cap
             items_by_code[code] = [it for i, s in enumerate(usable) for it in
-                                   (build_choice(s, find_calque(code, s["it"]), seed=i), build_cloze(s, find_calque(code, s["it"]))) if it]
+                                   (build_choice(s, find_calque(code, s["it"]), seed=i), build_cloze(s, find_calque(code, s["it"])),
+                                    build_reorder(s, seed=i, code=code)) if it]
             used |= {s["id"] for s in usable}
     ordered = [caps[c] for c in curriculum_order([catalog[c] for c in caps])]
 
@@ -100,6 +101,8 @@ def build_pack(content_dir: Path, out_dir: Path) -> dict:
                for e in sorted(fa, key=lambda e: e["form"])]
     used_sentences = [{**{k: s[k] for k in SENTENCE_FIELDS if k in s}, "audio": clip_id(s["it"])} for s in sentences if s["id"] in used]
 
+    from pipeline.exercises.course import write_course  # import local: course.py usa usable_sentences de este módulo
+    write_course(out_dir, sentences, catalog)
     _dump(out_dir / "capsules.json", ordered)
     _dump(out_dir / "items_by_code.json", items_by_code)
     _dump(out_dir / "lexemes.json", lexemes)

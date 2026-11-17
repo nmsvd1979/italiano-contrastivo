@@ -1,10 +1,10 @@
 import type { Card } from "../generated/card";
 import type { ReviewLog } from "../generated/review-log";
 import { schemaValidator } from "../content/schemas";
-import type { DayProgress, Store } from "./store";
+import type { DayProgress, Store, UnitProgress } from "./store";
 
 export const BACKUP_APP = "italiano-contrastivo";
-export type Backup = { app: typeof BACKUP_APP; version: 1; exportedAt: string; cards: Card[]; logs: ReviewLog[]; days: DayProgress[] };
+export type Backup = { app: typeof BACKUP_APP; version: 1; exportedAt: string; cards: Card[]; logs: ReviewLog[]; days: DayProgress[]; units?: UnitProgress[] };
 
 export class BackupError extends Error {
   constructor(message: string) {
@@ -14,14 +14,20 @@ export class BackupError extends Error {
 }
 
 export async function exportBackup(store: Store, now: Date): Promise<Backup> {
-  const [cards, logs, days] = await Promise.all([store.allCards(), store.allLogs(), store.allDays()]);
-  return { app: BACKUP_APP, version: 1, exportedAt: now.toISOString(), cards, logs, days };
+  const [cards, logs, days, units] = await Promise.all([store.allCards(), store.allLogs(), store.allDays(), store.allUnits()]);
+  return { app: BACKUP_APP, version: 1, exportedAt: now.toISOString(), cards, logs, days, units };
 }
 
 const isDay = (d: unknown): d is DayProgress => {
   const x = d as DayProgress;
   return typeof x?.date === "string" && /^\d{4}-\d{2}-\d{2}$/.test(x.date) && Number.isInteger(x.reviewsDone) && x.reviewsDone >= 0
     && Array.isArray(x.capsulesDone) && x.capsulesDone.every((c) => typeof c === "string");
+};
+
+const isUnit = (u: unknown): u is UnitProgress => {
+  const x = u as UnitProgress;
+  return typeof x?.unitId === "string" && typeof x.completed === "boolean" && typeof x.done === "object" && x.done !== null
+    && (x.testBest === null || typeof x.testBest === "number");
 };
 
 /** Valida el texto de una copia de seguridad entero antes de tocar nada; lanza BackupError con un mensaje claro. */
@@ -41,6 +47,7 @@ export function parseBackup(text: string): Backup {
   if (badCard >= 0) throw new BackupError(`La tarjeta ${badCard + 1} de la copia está dañada; no se importó nada.`);
   if (data.logs.some((l) => !log(l))) throw new BackupError("Hay registros de repaso dañados en la copia; no se importó nada.");
   if (!data.days.every(isDay)) throw new BackupError("Hay días dañados en la copia; no se importó nada.");
+  if (data.units !== undefined && !(Array.isArray(data.units) && data.units.every(isUnit))) throw new BackupError("Hay unidades dañadas en la copia; no se importó nada.");
   return data as Backup;
 }
 
@@ -50,4 +57,5 @@ export async function restoreBackup(store: Store, backup: Backup): Promise<void>
   for (const c of backup.cards) await store.putCard(c);
   for (const l of backup.logs) await store.addReviewLog(l);
   for (const d of backup.days) await store.putDay(d);
+  for (const u of backup.units ?? []) await store.putUnit(u);
 }

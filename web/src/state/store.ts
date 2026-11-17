@@ -2,7 +2,17 @@ import type { Card } from "../generated/card";
 import type { ReviewLog } from "../generated/review-log";
 import { schemaValidator } from "../content/schemas";
 
-export type DayProgress = { date: string; reviewsDone: number; capsulesDone: string[] };
+export type DayProgress = { date: string; reviewsDone: number; capsulesDone: string[]; stepsDone?: string[] };
+export type StepId = "descubre" | "capsula" | "practica" | "escucha" | "prueba";
+/** Avance de una unidad: pasos hechos (fecha ISO), mejor nota de la prueba y si quedó completada. */
+export type UnitProgress = {
+  unitId: string;
+  done: Partial<Record<StepId, string>>;
+  testBest: number | null;
+  completed: boolean;
+  completedAt?: string;
+  mastery?: "prueba" | "ubicacion";
+};
 export type CapsuleProgress = {
   capsuleId: string;
   phase: "trigger" | "explanation" | "retrieval" | "closing";
@@ -20,6 +30,9 @@ export interface Store {
   /** Borra tarjetas, registros, días y progreso de cápsulas (solo para restaurar una copia de seguridad). */
   clearAll(): Promise<void>;
   putDay(d: DayProgress): Promise<void>;
+  getUnit(id: string): Promise<UnitProgress | undefined>;
+  putUnit(p: UnitProgress): Promise<void>;
+  allUnits(): Promise<UnitProgress[]>;
   getCapsuleProgress(id: string): Promise<CapsuleProgress | undefined>;
   putCapsuleProgress(p: CapsuleProgress): Promise<void>;
   clearCapsuleProgress(id: string): Promise<void>;
@@ -37,20 +50,20 @@ export function localDate(now: Date, timeZone?: string): string {
   return new Intl.DateTimeFormat("en-CA", { timeZone, year: "numeric", month: "2-digit", day: "2-digit" }).format(now);
 }
 
-const STORES = { cards: "id", logs: undefined, days: "date", capsules: "capsuleId" } as const;
+const STORES = { cards: "id", logs: undefined, days: "date", capsules: "capsuleId", units: "unitId" } as const;
 
 function open(name: string): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
     if (typeof indexedDB === "undefined" || !indexedDB) return reject(new StoreUnavailableError());
     let req: IDBOpenDBRequest;
     try {
-      req = indexedDB.open(name, 1);
+      req = indexedDB.open(name, 2);
     } catch {
       return reject(new StoreUnavailableError());
     }
     req.onupgradeneeded = () => {
-      for (const [store, keyPath] of Object.entries(STORES)) {
-        req.result.createObjectStore(store, keyPath ? { keyPath } : { autoIncrement: true });
+      for (const [store, keyPath] of Object.entries(STORES)) { // v1→v2 solo agrega lo que falta: no toca los datos existentes
+        if (!req.result.objectStoreNames.contains(store)) req.result.createObjectStore(store, keyPath ? { keyPath } : { autoIncrement: true });
       }
     };
     req.onsuccess = () => resolve(req.result);
@@ -94,6 +107,11 @@ export async function openStore(name = "italiano-contrastivo"): Promise<Store> {
     async clearAll() {
       for (const name of Object.keys(STORES) as (keyof typeof STORES)[]) await wrap(os(name, "readwrite").clear());
     },
+    getUnit: (id) => wrap<UnitProgress | undefined>(os("units").get(id)),
+    async putUnit(p) {
+      await wrap(os("units", "readwrite").put(p));
+    },
+    allUnits: () => wrap<UnitProgress[]>(os("units").getAll()),
     getCapsuleProgress: (id) => wrap<CapsuleProgress | undefined>(os("capsules").get(id)),
     async putCapsuleProgress(p) {
       await wrap(os("capsules", "readwrite").put(p));
@@ -110,7 +128,11 @@ export function memoryStore(): Store {
   const logs: ReviewLog[] = [];
   const days = new Map<string, DayProgress>();
   const caps = new Map<string, CapsuleProgress>();
+  const units = new Map<string, UnitProgress>();
   return {
+    getUnit: async (id) => units.get(id),
+    putUnit: async (p) => void units.set(p.unitId, p),
+    allUnits: async () => [...units.values()],
     getCard: async (id) => cards.get(id),
     putCard: async (c) => void cards.set(c.id, c),
     allCards: async () => [...cards.values()],
@@ -124,6 +146,7 @@ export function memoryStore(): Store {
       logs.length = 0;
       days.clear();
       caps.clear();
+      units.clear();
     },
     getCapsuleProgress: async (id) => caps.get(id),
     putCapsuleProgress: async (p) => void caps.set(p.capsuleId, p),

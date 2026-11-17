@@ -4,10 +4,16 @@ import { type AudioIndex, loadAudioIndex, loadNativeWords } from "./audio/clips"
 import { type ContentPack, loadContent } from "./content/load";
 import type { Card } from "./generated/card";
 import { normalizeDay, planToday } from "./state/session";
-import { type DayProgress, localDate, memoryStore, openStore, type Store, StoreUnavailableError } from "./state/store";
+import { type DayProgress, localDate, memoryStore, openStore, type StepId, type Store, StoreUnavailableError, type UnitProgress } from "./state/store";
+import { loadSamples } from "./state/timing";
+import { unitViews } from "./state/course";
 import { AboutScreen } from "./ui/AboutScreen";
 import { CapsuleScreen } from "./ui/CapsuleScreen";
 import { SettingsScreen } from "./ui/SettingsScreen";
+import { PlacementScreen } from "./ui/PlacementScreen";
+import { RouteScreen } from "./ui/RouteScreen";
+import { StepScreen } from "./ui/StepScreen";
+import { UnitScreen } from "./ui/UnitScreen";
 import { ReviewScreen } from "./ui/ReviewScreen";
 import { TodayScreen } from "./ui/TodayScreen";
 import { WriteScreen } from "./ui/WriteScreen";
@@ -26,7 +32,7 @@ function useHash() {
 }
 
 function Today({ pack, store, storeError }: Ready) {
-  const [data, setData] = useState<{ cards: Card[]; day: DayProgress } | null>(null);
+  const [data, setData] = useState<{ cards: Card[]; day: DayProgress; units: UnitProgress[] } | null>(null);
   const [tick, setTick] = useState(0);
   useEffect(() => { // al volver a la app (p. ej. otro día) se recalcula la sesión de hoy
     const on = () => document.visibilityState === "visible" && setTick((t) => t + 1);
@@ -35,10 +41,32 @@ function Today({ pack, store, storeError }: Ready) {
   }, []);
   useEffect(() => {
     const now = new Date();
-    Promise.all([store.allCards(), store.getDay(localDate(now))]).then(([cards, day]) => setData({ cards, day: normalizeDay(day, now) }));
+    Promise.all([store.allCards(), store.getDay(localDate(now)), store.allUnits()]).then(([cards, day, units]) => setData({ cards, day: normalizeDay(day, now), units }));
   }, [store, tick]);
   if (!data) return <p>Cargando…</p>;
-  return <TodayScreen plan={planToday({ pack, cards: data.cards, day: data.day, now: new Date() })} day={data.day} storeError={storeError} firstTime={data.cards.length === 0 && data.day.reviewsDone === 0} />;
+  return <TodayScreen plan={planToday({ pack, cards: data.cards, day: data.day, now: new Date(), units: data.units, samples: loadSamples() })} day={data.day} storeError={storeError} firstTime={data.cards.length === 0 && data.units.length === 0 && data.day.reviewsDone === 0} />;
+}
+
+function useViews(ready: Ready, hash: string) {
+  const [views, setViews] = useState<ReturnType<typeof unitViews> | null>(null);
+  useEffect(() => {
+    let live = true;
+    ready.store.allUnits().then((u) => live && setViews(unitViews(ready.pack.course, u)));
+    return () => { live = false; };
+  }, [ready, hash]);
+  return views;
+}
+
+function Routes({ ready, hash }: { ready: Ready; hash: string }) {
+  const views = useViews(ready, hash);
+  const m = hash.match(/^#\/unidad\/(u\d+)(?:\/(\w+))?$/);
+  if (hash === "#/ubicacion") return <PlacementScreen pack={ready.pack} store={ready.store} units={ready.pack.course.units} />;
+  if (!views) return <p>Cargando…</p>;
+  if (hash === "#/ruta") return <RouteScreen views={views} pack={ready.pack} />;
+  if (m && m[2]) return <StepScreen key={hash} unitId={m[1]} step={m[2] as StepId} pack={ready.pack} store={ready.store} />;
+  const view = m && views.find((v) => v.unit.id === m[1]);
+  if (view) return <UnitScreen view={view} pack={ready.pack} />;
+  return <main><p>No encontré esa pantalla.</p><p><a className="button" href="#/ruta">Ir a la ruta</a></p></main>;
 }
 
 export function App() {
@@ -62,11 +90,12 @@ export function App() {
   const capsule = hash.startsWith("#/capsula/") ? ready.pack.capsules.find((c) => c.id === hash.slice("#/capsula/".length)) : undefined;
   return (
     <AudioProvider pack={ready.pack} index={ready.audio} words={ready.words}>
-      <nav><a href="#/">Hoy</a> <a href="#/repaso">Repaso</a> <a href="#/escribir">Escribir</a> <a href="#/ajustes">Ajustes</a> <a href="#/acerca">Acerca de</a></nav>
+      <nav><a href="#/">Hoy</a> <a href="#/ruta">Ruta</a> <a href="#/repaso">Repaso</a> <a href="#/escribir">Escribir</a> <a href="#/ajustes">Ajustes</a> <a href="#/acerca">Acerca de</a></nav>
       {hash === "#/repaso" ? <ReviewScreen pack={ready.pack} store={ready.store} />
         : hash === "#/escribir" ? <WriteScreen />
         : hash === "#/ajustes" ? <SettingsScreen store={ready.store} memoryOnly={ready.storeError !== null} />
         : hash === "#/acerca" ? <AboutScreen manifest={ready.pack.manifest} sentences={ready.pack.sentences} />
+        : hash === "#/ruta" || hash === "#/ubicacion" || hash.startsWith("#/unidad/") ? <Routes ready={ready} hash={hash} />
         : capsule ? <CapsuleScreen key={capsule.id} capsule={capsule} store={ready.store} />
         : <Today {...ready} />}
     </AudioProvider>
