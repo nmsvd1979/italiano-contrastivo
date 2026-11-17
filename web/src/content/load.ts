@@ -1,7 +1,6 @@
-import Ajv2020 from "ajv/dist/2020";
-import addFormats from "ajv-formats";
 import type { Capsule } from "../generated/capsule";
 import type { Item } from "../generated/item";
+import { schemaValidator } from "./schemas";
 
 export type Lexeme = { id: string; form: string; gloss_es: string; lexical_type: "false_friend"; source: string };
 export type PackSentence = {
@@ -31,16 +30,6 @@ export class ContentError extends Error {
   }
 }
 
-const schemaFiles = import.meta.glob("../../../schemas/*.schema.json", { eager: true, import: "default" }) as Record<string, object>;
-const SCHEMA = (name: string) => `https://italiano-contrastivo/schemas/${name}.schema.json`;
-
-function makeAjv() {
-  const ajv = new Ajv2020({ strict: false, allErrors: true });
-  addFormats(ajv);
-  for (const s of Object.values(schemaFiles)) ajv.addSchema(s);
-  return ajv;
-}
-
 type Fetcher = (url: string) => Promise<Response>;
 
 async function getJson<T>(fetcher: Fetcher, base: string, file: string): Promise<T> {
@@ -66,9 +55,8 @@ export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: stri
     getJson<PackSentence[]>(fetcher, base, "sentences.json"),
     getJson<Manifest>(fetcher, base, "manifest.json"),
   ]);
-  const ajv = makeAjv();
-  const vCapsule = ajv.getSchema(SCHEMA("capsule"))!;
-  const vItem = ajv.getSchema(SCHEMA("item"))!;
+  const vCapsule = schemaValidator("capsule");
+  const vItem = schemaValidator("item");
   for (const c of capsules) {
     if (!vCapsule(c)) throw new ContentError(`La cápsula ${c.id} no cumple el esquema.`);
   }
