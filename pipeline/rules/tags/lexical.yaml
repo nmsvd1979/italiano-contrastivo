@@ -64,12 +64,15 @@
     - text: Il fiore è blu.
       es: La flor es azul.
       source: tatoeba:10060197
-    - text: L'amicizia è una pianta che si deve annaffiare costantemente.
-      es: La amistad es como una planta que ha de regarse sin falta.
-      source: tatoeba:1341731
     - text: L'ultima volta che aveva ricevuto dei fiori era poco più che una ragazzina.
       es: La última vez que había recibido flores era poco más que una niña.
       source: tatoeba:3234671
+    - text: Questo è un fiore?
+      es: ¿Esto es una flor?
+      source: tatoeba:1187342
+    - text: Questo fiore è bello, vero?
+      es: Esta flor es bonita, ¿no?
+      source: tatoeba:399972
     negative:
     - text: Guarda il gatto.
       es: Mira al gato.
@@ -89,6 +92,15 @@
     - text: Ho pianto come un bambino quando il ragazzo e il suo cane si sono riuniti alla fine del film.
       es: Lloré como un bebé cuando el niño y su perro se reencontraron al final de la película.
       source: tatoeba:653710
+    - text: Le piante devono essere morte perché nessuno le ha annaffiate.
+      es: Las plantas se deben haber secado porque nadie las regó.
+      source: tatoeba:1012710
+    - text: Non dimenticare di annaffiare le piante.
+      es: Que no se te olvide regar las plantas.
+      source: tatoeba:2415617
+    - text: Dai l'acqua alle piante prima di fare colazione.
+      es: Riega las plantas antes de desayunar.
+      source: tatoeba:984718
 - id: eterotonica
   code: ERR_HETEROTONIC
   tier: lexical
@@ -97,15 +109,18 @@
   - lemmas: heterotonic
   examples:
     positive:
-    - text: Io riesco a sentire l'odore dell'oceano.
-      es: Puedo oler el océano.
-      source: tatoeba:5395680
     - text: È in gioco la legittimità dei regimi democratici.
       es: Está en juego la legitimidad de los regímenes democráticos.
       source: tatoeba:979578
-    - text: Sento già l'odore salato dell'oceano.
-      es: Ya huelo el salado olor del océano.
-      source: tatoeba:14034621
+    - text: L'obiettivo è ridurre la burocrazia.
+      es: El objetivo es reducir la burocracia.
+      source: tatoeba:979584
+    - text: Odio la burocrazia.
+      es: Odio la burocracia.
+      source: tatoeba:12922326
+    - text: Durante la Seconda Guerra Mondiale l'Europa era dominata dal regime hitleriano.
+      es: Durante la Segunda Guerra Mundial, Europa era dominada por el régimen hitleriano.
+      source: tatoeba:777529
     negative:
     - text: Il telefono è rotto.
       es: El teléfono está roto.
@@ -116,6 +131,21 @@
     - text: Tom ha spento il suo telefono cellulare.
       es: Tom apagó su móvil.
       source: tatoeba:10143389
+    - text: Nel mondo ci sono quattro oceani.
+      es: En el mundo hay cuatro océanos.
+      source: tatoeba:1015680
+    - text: Voglio andare in una regione dove c'è l'oceano.
+      es: Quiero ir a una región donde esté el océano.
+      source: tatoeba:10681671
+    - text: Sento già l'odore salato dell'oceano.
+      es: Ya huelo el salado olor del océano.
+      source: tatoeba:14034621
+    - text: L'oceano Atlantico separa l'America dall'Europa.
+      es: El Océano Atlántico separa a América de Europa.
+      source: tatoeba:377645
+    - text: Oggi è caldo, così possiamo fare il bagno nell'oceano.
+      es: Hoy está caluroso, entonces podemos nadar en el océano.
+      source: tatoeba:3343541
 - id: verbo_pronominale
   code: ERR_PRONOMINAL_VERB
   tier: lexical
@@ -230,7 +260,7 @@
   tier: lexical
   source: 'Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f) #29'
   it:
-  - regex: \b(?:mi|ti|gli|le|ci|vi)\s+manc(?:a|ano|hi|o|hiamo|ate|ava|avano|herà)\b
+  - regex: \b(?:mi|ti|ci|vi)\s+manc(?:a|ano|hi|o|hiamo|ate|ava|avano|herà)\b|\b(?:gli|le)\s+manc\w+\s+(?:molto|tanto|così tanto|la sua|il suo|i suoi|le sue)\b
   examples:
     positive:
     - text: Mi manchi tanto, amore!
@@ -239,9 +269,12 @@
     - text: Mi manca l'estate!
       es: ¡Extraño el verano!
       source: tatoeba:1362615
-    - text: Gli manca la sua famiglia.
-      es: Él echa de menos a su familia.
-      source: tatoeba:383301
+    - text: Parigi mi manca così tanto.
+      es: Extraño tanto París.
+      source: tatoeba:3151866
+    - text: So che ti mancano i tuoi amici.
+      es: Sé que echas de menos a tus amigos.
+      source: tatoeba:9437957
     negative:
     - text: In questo libro mancano due pagine.
       es: En este libro faltan dos páginas.
@@ -252,6 +285,15 @@
     - text: Manca un coltello.
       es: Falta un cuchillo.
       source: tatoeba:476259
+    - text: Le manca esperienza, no?
+      es: ¿Le falta experiencia, no?
+      source: tatoeba:1330585
+    - text: Per essere perfetta le mancava solo un difetto.
+      es: Para ser perfecta sólo le faltaba un defecto.
+      source: tatoeba:4413
+    - text: Gli manca la disciplina.
+      es: Le hace falta disciplina.
+      source: tatoeba:646997
 - id: geminata_pares_minimos
   code: ERR_GEMINATE
   tier: lexical

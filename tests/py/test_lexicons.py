@@ -7,9 +7,10 @@ from pipeline.tagging import engine
 FILES = sorted(LEXICONS_DIR.glob("*.yaml"))
 # Lo que docs/dudas-italiano.md dice que NO se debe usar, por léxico.
 FORBIDDEN = {
-    "heterotonic": {"atmosfera", "telefono"},
+    "heterotonic": {"atmosfera", "telefono", "oceano", "oceani"},
     "false_friends": {"adesso", "adrede", "attualmente", "assistere", "sopportare", "supportare"},
     "geminate_pairs": {"siete", "sette", "casa", "caro", "cane"},
+    "gender_divergence": {"pianta", "piante"},
 }
 
 

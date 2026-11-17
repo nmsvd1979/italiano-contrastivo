@@ -3,18 +3,21 @@
   tier: surface
   source: 'LearnAmo/79103ab3/Pandolfi/Lancione (ver docs/dudas-italiano.md #14, #18)'
   it:
-  - regex: \w*(?:nn|gn)\w*
+  - regex: \w*nn\w*
   examples:
     positive:
     - text: Non vanno a costruire università in Grecia?
       es: ¿No van a construir una universidad en Grecia?
       source: tatoeba:7632212
-    - text: Sì, parlo spagnolo.
-      es: Sí, yo hablo español.
-      source: tatoeba:729585
-    - text: È una brava insegnante.
-      es: Ella es una buena maestra.
-      source: tatoeba:13134111
+    - text: Facevo compagnia a mia nonna.
+      es: Yo hacía compañía a mi abuela.
+      source: tatoeba:4383889
+    - text: Tom e Mary hanno una piccola fattoria.
+      es: Tom y Mary tienen una granja pequeña.
+      source: tatoeba:7921390
+    - text: Lui è un donnaiolo.
+      es: Es un mujeriego.
+      source: tatoeba:2020234
     negative:
     - text: Un cratere sul lato oscuro della luna prende il nome da Giordano Bruno.
       es: Un cráter en el lado oscuro de la Luna lleva el nombre de Giordano Bruno.
@@ -25,6 +28,18 @@
     - text: Ho un cane nero e un cane bianco.
       es: Tengo un perro negro y uno blanco.
       source: tatoeba:715571
+    - text: Se le cose non le capisci da solo, la vita te le insegna.
+      es: Si no entendés las cosas por tu cuenta, la vida te las enseña.
+      source: tatoeba:1000808
+    - text: Dentro ogni uomo ce ne sono migliaia.
+      es: Dentro de cada hombre hay miles.
+      source: tatoeba:12337626
+    - text: Di recente, ci sono stati segnali che l'economia sta riprendendo vigore.
+      es: Recientemente, ha habido señales de que la economía está tomando vuelo.
+      source: tatoeba:2003332
+    - text: Oggi è caldo, così possiamo fare il bagno nell'oceano.
+      es: Hoy está caluroso, entonces podemos nadar en el océano.
+      source: tatoeba:3343541
 - id: geminata_ortografia
   code: ERR_GEMINATE_SPELLING
   tier: surface
@@ -57,18 +72,21 @@
   tier: surface
   source: 'LearnAmo/79103ab3/Pandolfi/Lancione (ver docs/dudas-italiano.md #14, #18)'
   it:
-  - regex: \b\w+[àèéìòù]\b
+  - regex: \b(?!(?:è|più|può|già|giù|sì|là|lì|né|ciò|ché|dì|tè|dà)\b)\w+[àèéìòù]\b
   examples:
     positive:
-    - text: Il telefono può essere un fastidio.
-      es: El teléfono puede ser una molestia.
-      source: tatoeba:4470856
     - text: È morto all'età di settant'anni.
       es: Él murió a la edad de setenta años.
       source: tatoeba:1275032
-    - text: Sono qui da già due anni.
-      es: Ya hace dos años que estoy aquí.
-      source: tatoeba:2169664
+    - text: Tom se ne andò dal ristorante.
+      es: Tom se fue del restaurante.
+      source: tatoeba:6851690
+    - text: Sono sicura che abbandonerà il suo lavoro.
+      es: Estoy seguro de que él va a dejar su trabajo.
+      source: tatoeba:3357362
+    - text: La povertà è alla radice di tutti i mali.
+      es: La pobreza es la raíz de todo mal.
+      source: tatoeba:4082155
     negative:
     - text: Alcune persone pensano che il francese sia veramente difficile da imparare.
       es: Algunas personas piensan que el francés es realmente difícil de aprender.
@@ -79,6 +97,18 @@
     - text: Ho sentito che Tom deve tornare a Boston per Natale.
       es: Oí que Tom ha regresado a Boston para navidad.
       source: tatoeba:12935647
+    - text: Questo fiore è più bello di quello.
+      es: Esta flor es más linda que aquella.
+      source: tatoeba:12764376
+    - text: Per me è finita con le feste, il mio corpo malato non ce la fa più.
+      es: Se terminaron para mí todas las farras, mi cuerpo enfermo no resiste más.
+      source: tatoeba:13694648
+    - text: Il telefono può essere un fastidio.
+      es: El teléfono puede ser una molestia.
+      source: tatoeba:4470856
+    - text: Sono qui da già due anni.
+      es: Ya hace dos años que estoy aquí.
+      source: tatoeba:2169664
 - id: gli_palatale
   code: ERR_GLI_PALATAL
   tier: surface
@@ -192,18 +222,21 @@
   tier: surface
   source: 'LearnAmo/79103ab3/Pandolfi/Lancione (ver docs/dudas-italiano.md #14, #18)'
   it:
-  - regex: \b(?:mio|mia|miei|mie|tuo|tua|tuoi|tue|suo|sua|suoi|sue)\b
+  - regex: \b(?:mio|tuo|suo)\b
   examples:
     positive:
     - text: Il suo computer si riavvierà più volte durante l'installazione.
       es: Su computador se reiniciará varias veces durante la instalación.
       source: tatoeba:12039785
-    - text: Mi è piaciuta la sua storia.
-      es: Me ha gustado tu historia.
-      source: tatoeba:2020224
     - text: Il suo posto è al mio fianco.
       es: Su puesto es a mi lado.
       source: tatoeba:4805751
+    - text: Mio fratello minore sta guardando la TV.
+      es: Mi hermano pequeño está viendo la televisión.
+      source: tatoeba:1740613
+    - text: Bill è il mio migliore amico.
+      es: Bill es mi mejor amigo.
+      source: tatoeba:401676
     negative:
     - text: La casa sta bruciando.
       es: La casa está ardiendo.
@@ -214,6 +247,21 @@
     - text: La casa ha una sala da pranzo?
       es: ¿La casa tiene comedor?
       source: tatoeba:726378
+    - text: Le manca la sua famiglia.
+      es: Ella echa de menos a su familia.
+      source: tatoeba:10665401
+    - text: Tienilo fermo mentre tua moglie chiama la polizia.
+      es: Sujétalo mientras tu mujer llama a la policía.
+      source: tatoeba:1333103
+    - text: La mia sorella maggiore ha i capelli che le cadono sulle spalle.
+      es: A mi hermana mayor el cabello le llega hasta los hombros.
+      source: tatoeba:1802972
+    - text: Mi è piaciuta la tua idea e l'ho adottata.
+      es: Me gustó tu idea y la adopté.
+      source: tatoeba:2143646
+    - text: Ha lavorato senza pausa per mantenere i suoi figli fino a che si sono sposati.
+      es: Trabajó sin descanso para mantener a sus hijos hasta que se casaron.
+      source: tatoeba:2229973
 - id: plurale_vocale
   code: ERR_PLURAL_VOWEL
   tier: surface

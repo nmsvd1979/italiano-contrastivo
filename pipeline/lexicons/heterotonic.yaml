@@ -1,17 +1,12 @@
 name: heterotonic
-description: 'Heterotónicas y falsos amigos prosódicos (acento distinto del español). Excluidas: atmosfera (IPA invertida en la fuente), telefono (misma sílaba tónica).'
+description: 'Heterotónicas y falsos amigos prosódicos (acento distinto del español). Excluidas: atmosfera (IPA invertida en la fuente), telefono (misma sílaba tónica). ''oceano'' se retiró: auditores IA
+  indican que comparte sílaba tónica con ''océano'' (docs/dudas-italiano.md #23).'
 entries:
 - form: burocrazia
   gloss_es: burocracia
   source: NotebookLM 79103ab3 (Modelos pedagógicos, tablas de divergencias)
 - form: burocrazie
   gloss_es: burocracias
-  source: NotebookLM 79103ab3 (Modelos pedagógicos, tablas de divergencias)
-- form: oceano
-  gloss_es: océano
-  source: NotebookLM 79103ab3 (Modelos pedagógicos, tablas de divergencias)
-- form: oceani
-  gloss_es: océanos
   source: NotebookLM 79103ab3 (Modelos pedagógicos, tablas de divergencias)
 - form: periferia
   gloss_es: periferia
