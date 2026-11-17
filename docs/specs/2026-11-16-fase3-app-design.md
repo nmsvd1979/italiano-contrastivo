@@ -35,6 +35,9 @@ El alcance elegido por el usuario (cápsulas + repaso + Piper + corrección con 
 4. **PWA** (Vite + React 19 + TS + vite-plugin-pwa, como el proyecto anterior): pantalla de sesión (bloque ① luego ②), tarjeta FSRS, cápsula en 4 fases, progreso y ajustes. Estado solo en IndexedDB; esquemas validados al cargar; sin cuentas ni rastreo.
 5. **Orden del currículo**: por `cefr_min` del código y su tamiz (3 y 4 fonética/grafía primero, luego morfosintaxis); los códigos de mayor divergencia reaparecen con intervalos cortos.
 
+## Sesión fraccionable (decisión del usuario, 2026-11-16)
+Los 30 min diarios son un **tope**, no un bloque obligatorio. Cada bloque (①, ②) y cada cápsula (3–5 min) se puede hacer por separado en cualquier momento del día (p. ej. 5 min en la mañana, 10 en la tarde). El progreso cuenta igual: el avance de la «sesión del día» se acumula por bloque y se guarda en IndexedDB; cerrar la app a mitad de una cápsula no pierde lo ya respondido y la cápsula retoma desde su última fase completa. Razón: repetición espaciada y práctica distribuida rinden más que una sola sesión larga.
+
 ## Prueba técnica previa a M3 (no se decide a ojo)
 - Que el iPhone alcance el Mac por HTTPS (Tailscale `serve` frente a certificado local), por el bloqueo de contenido mixto.
 - LanguageTool reciente necesita Java 17+ (hay Java 16).
