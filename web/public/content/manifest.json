@@ -1,0 +1,67 @@
+{
+  "capsules": [
+    "cap_err_possessive_article",
+    "cap_err_ce_agreement",
+    "cap_err_prep_article_contraction",
+    "cap_err_prep_place",
+    "cap_err_tenere_avere",
+    "cap_err_aux_essere"
+  ],
+  "codes": {
+    "ERR_AUX_ESSERE": {
+      "capsule": true,
+      "reason": null,
+      "usable": 3
+    },
+    "ERR_CE_AGREEMENT": {
+      "capsule": true,
+      "reason": null,
+      "usable": 3
+    },
+    "ERR_COMPARATIVE_DI": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
+    "ERR_PERSONAL_A": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
+    "ERR_POSSESSIVE_ARTICLE": {
+      "capsule": true,
+      "reason": null,
+      "usable": 8
+    },
+    "ERR_PREP_ARTICLE_CONTRACTION": {
+      "capsule": true,
+      "reason": null,
+      "usable": 6
+    },
+    "ERR_PREP_PLACE": {
+      "capsule": true,
+      "reason": null,
+      "usable": 5
+    },
+    "ERR_TENERE_AVERE": {
+      "capsule": true,
+      "reason": null,
+      "usable": 12
+    }
+  },
+  "levels": {
+    "A1": 48,
+    "A2": 90,
+    "B1": 97,
+    "B2": 7
+  },
+  "reviewers": {
+    "llm-audit": 215,
+    "me": 27
+  },
+  "sentences_used": 34,
+  "translation_kind": {
+    "direct": 17,
+    "llm": 17
+  }
+}

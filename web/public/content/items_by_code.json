@@ -1,0 +1,1420 @@
+{
+  "ERR_AUX_ESSERE": [
+    {
+      "id": "it_choice_s_1082726_ERR_AUX_ESSERE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Nel mezzo della discussione si è alzato ed è uscito."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_AUX_ESSERE",
+          "text": "Nel mezzo della discussione si è alzato ed ha uscito."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1082726",
+      "target_error_codes": [
+        "ERR_AUX_ESSERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "è"
+      ],
+      "hint_es": "En medio de la discusión se levantó y se fue.",
+      "id": "it_cloze_s_1082726_ERR_AUX_ESSERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1082726",
+      "target_error_codes": [
+        "ERR_AUX_ESSERE"
+      ],
+      "text": "Nel mezzo della discussione si è alzato ed ___ uscito.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_705357_ERR_AUX_ESSERE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_AUX_ESSERE",
+          "text": "Ha venuto nonostante gli avessi detto di non farlo."
+        },
+        {
+          "correct": true,
+          "text": "È venuto nonostante gli avessi detto di non farlo."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_705357",
+      "target_error_codes": [
+        "ERR_AUX_ESSERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "È"
+      ],
+      "hint_es": "Vino aunque le había dicho que no lo hiciera.",
+      "id": "it_cloze_s_705357_ERR_AUX_ESSERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_705357",
+      "target_error_codes": [
+        "ERR_AUX_ESSERE"
+      ],
+      "text": "___ venuto nonostante gli avessi detto di non farlo.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_13894907_ERR_AUX_ESSERE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Fino a quando continueremo a credere che siamo nati per sterminarci a vicenda e che lo sterminio reciproco sia il nostro destino?"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_AUX_ESSERE",
+          "text": "Fino a quando continueremo a credere che abbiamo nati per sterminarci a vicenda e che lo sterminio reciproco sia il nostro destino?"
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13894907",
+      "target_error_codes": [
+        "ERR_AUX_ESSERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "siamo"
+      ],
+      "hint_es": "¿Hasta cuándo seguiremos creyendo que nacimos para el exterminio mutuo y que el exterminio mutuo es nuestro destino?",
+      "id": "it_cloze_s_13894907_ERR_AUX_ESSERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13894907",
+      "target_error_codes": [
+        "ERR_AUX_ESSERE"
+      ],
+      "text": "Fino a quando continueremo a credere che ___ nati per sterminarci a vicenda e che lo sterminio reciproco sia il nostro destino?",
+      "type": "cloze"
+    }
+  ],
+  "ERR_CE_AGREEMENT": [
+    {
+      "id": "it_choice_s_1015680_ERR_CE_AGREEMENT",
+      "options": [
+        {
+          "correct": true,
+          "text": "Nel mondo ci sono quattro oceani."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_CE_AGREEMENT",
+          "text": "Nel mondo c'è quattro oceani."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1015680",
+      "target_error_codes": [
+        "ERR_CE_AGREEMENT"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "ci sono"
+      ],
+      "hint_es": "En el mundo hay cuatro océanos.",
+      "id": "it_cloze_s_1015680_ERR_CE_AGREEMENT",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1015680",
+      "target_error_codes": [
+        "ERR_CE_AGREEMENT"
+      ],
+      "text": "Nel mondo ___ quattro oceani.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_1086143_ERR_CE_AGREEMENT",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_CE_AGREEMENT",
+          "text": "C'è molti fiori nel giardino?"
+        },
+        {
+          "correct": true,
+          "text": "Ci sono molti fiori nel giardino?"
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1086143",
+      "target_error_codes": [
+        "ERR_CE_AGREEMENT"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Ci sono"
+      ],
+      "hint_es": "¿Hay muchas flores en el jardín?",
+      "id": "it_cloze_s_1086143_ERR_CE_AGREEMENT",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1086143",
+      "target_error_codes": [
+        "ERR_CE_AGREEMENT"
+      ],
+      "text": "___ molti fiori nel giardino?",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_384874_ERR_CE_AGREEMENT",
+      "options": [
+        {
+          "correct": true,
+          "text": "Nel giardino ci sono molti fiori."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_CE_AGREEMENT",
+          "text": "Nel giardino c'è molti fiori."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_384874",
+      "target_error_codes": [
+        "ERR_CE_AGREEMENT"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "ci sono"
+      ],
+      "hint_es": "En el jardín hay muchas flores.",
+      "id": "it_cloze_s_384874_ERR_CE_AGREEMENT",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_384874",
+      "target_error_codes": [
+        "ERR_CE_AGREEMENT"
+      ],
+      "text": "Nel giardino ___ molti fiori.",
+      "type": "cloze"
+    }
+  ],
+  "ERR_POSSESSIVE_ARTICLE": [
+    {
+      "id": "it_choice_s_2845274_ERR_POSSESSIVE_ARTICLE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Tom non conosce i suoi vicini."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "omission",
+          "error_code": "ERR_POSSESSIVE_ARTICLE",
+          "text": "Tom non conosce suoi vicini."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2845274",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "i suoi"
+      ],
+      "hint_es": "Tom no conoce a sus vecinos.",
+      "id": "it_cloze_s_2845274_ERR_POSSESSIVE_ARTICLE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2845274",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "text": "Tom non conosce ___ vicini.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_2143646_ERR_POSSESSIVE_ARTICLE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "omission",
+          "error_code": "ERR_POSSESSIVE_ARTICLE",
+          "text": "Mi è piaciuta tua idea e l'ho adottata."
+        },
+        {
+          "correct": true,
+          "text": "Mi è piaciuta la tua idea e l'ho adottata."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2143646",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "la tua"
+      ],
+      "hint_es": "Me gustó tu idea y la adopté.",
+      "id": "it_cloze_s_2143646_ERR_POSSESSIVE_ARTICLE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2143646",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "text": "Mi è piaciuta ___ idea e l'ho adottata.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_941983_ERR_POSSESSIVE_ARTICLE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Devo segnarmi il suo indirizzo prima che me lo scordi."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "omission",
+          "error_code": "ERR_POSSESSIVE_ARTICLE",
+          "text": "Devo segnarmi suo indirizzo prima che me lo scordi."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_941983",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "il suo"
+      ],
+      "hint_es": "Tengo que apuntar la dirección de él antes de que se me olvide.",
+      "id": "it_cloze_s_941983_ERR_POSSESSIVE_ARTICLE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_941983",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "text": "Devo segnarmi ___ indirizzo prima che me lo scordi.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_13694648_ERR_POSSESSIVE_ARTICLE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "omission",
+          "error_code": "ERR_POSSESSIVE_ARTICLE",
+          "text": "Per me è finita con le feste, mio corpo malato non ce la fa più."
+        },
+        {
+          "correct": true,
+          "text": "Per me è finita con le feste, il mio corpo malato non ce la fa più."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13694648",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "il mio"
+      ],
+      "hint_es": "Se terminaron para mí todas las farras, mi cuerpo enfermo no resiste más.",
+      "id": "it_cloze_s_13694648_ERR_POSSESSIVE_ARTICLE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13694648",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "text": "Per me è finita con le feste, ___ corpo malato non ce la fa più.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_2970987_ERR_POSSESSIVE_ARTICLE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Nonostante Tom sia malato, ha intenzione di finire in tempo i suoi compiti."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "omission",
+          "error_code": "ERR_POSSESSIVE_ARTICLE",
+          "text": "Nonostante Tom sia malato, ha intenzione di finire in tempo suoi compiti."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2970987",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "i suoi"
+      ],
+      "hint_es": "Aunque Tom está enfermo, tiene la intención de terminar a tiempo sus tareas.",
+      "id": "it_cloze_s_2970987_ERR_POSSESSIVE_ARTICLE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2970987",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "text": "Nonostante Tom sia malato, ha intenzione di finire in tempo ___ compiti.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_2970988_ERR_POSSESSIVE_ARTICLE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "omission",
+          "error_code": "ERR_POSSESSIVE_ARTICLE",
+          "text": "Nonostante Tom sia ammalato, ha intenzione di finire in tempo suoi compiti."
+        },
+        {
+          "correct": true,
+          "text": "Nonostante Tom sia ammalato, ha intenzione di finire in tempo i suoi compiti."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2970988",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "i suoi"
+      ],
+      "hint_es": "Aunque Tom está enfermo, tiene la intención de terminar a tiempo sus tareas.",
+      "id": "it_cloze_s_2970988_ERR_POSSESSIVE_ARTICLE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2970988",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "text": "Nonostante Tom sia ammalato, ha intenzione di finire in tempo ___ compiti.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_2229973_ERR_POSSESSIVE_ARTICLE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Ha lavorato senza pausa per mantenere i suoi figli fino a che si sono sposati."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "omission",
+          "error_code": "ERR_POSSESSIVE_ARTICLE",
+          "text": "Ha lavorato senza pausa per mantenere suoi figli fino a che si sono sposati."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2229973",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "i suoi"
+      ],
+      "hint_es": "Trabajó sin descanso para mantener a sus hijos hasta que se casaron.",
+      "id": "it_cloze_s_2229973_ERR_POSSESSIVE_ARTICLE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2229973",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "text": "Ha lavorato senza pausa per mantenere ___ figli fino a che si sono sposati.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_3021027_ERR_POSSESSIVE_ARTICLE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "omission",
+          "error_code": "ERR_POSSESSIVE_ARTICLE",
+          "text": "L'uomo che ha dato sua busta paga alla moglie è stato più saggio di quello che l'ha data all'amante."
+        },
+        {
+          "correct": true,
+          "text": "L'uomo che ha dato la sua busta paga alla moglie è stato più saggio di quello che l'ha data all'amante."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3021027",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "la sua"
+      ],
+      "hint_es": "El hombre que le dio su cheque de pago a su esposa fue más sabio que el que se lo dio a su amante.",
+      "id": "it_cloze_s_3021027_ERR_POSSESSIVE_ARTICLE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3021027",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "text": "L'uomo che ha dato ___ busta paga alla moglie è stato più saggio di quello che l'ha data all'amante.",
+      "type": "cloze"
+    }
+  ],
+  "ERR_PREP_ARTICLE_CONTRACTION": [
+    {
+      "id": "it_choice_s_1015680_ERR_PREP_ARTICLE_CONTRACTION",
+      "options": [
+        {
+          "correct": true,
+          "text": "Nel mondo ci sono quattro oceani."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PREP_ARTICLE_CONTRACTION",
+          "text": "In il mondo ci sono quattro oceani."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1015680",
+      "target_error_codes": [
+        "ERR_PREP_ARTICLE_CONTRACTION"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Nel"
+      ],
+      "hint_es": "En el mundo hay cuatro océanos.",
+      "id": "it_cloze_s_1015680_ERR_PREP_ARTICLE_CONTRACTION",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1015680",
+      "target_error_codes": [
+        "ERR_PREP_ARTICLE_CONTRACTION"
+      ],
+      "text": "___ mondo ci sono quattro oceani.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_1086143_ERR_PREP_ARTICLE_CONTRACTION",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PREP_ARTICLE_CONTRACTION",
+          "text": "Ci sono molti fiori in il giardino?"
+        },
+        {
+          "correct": true,
+          "text": "Ci sono molti fiori nel giardino?"
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1086143",
+      "target_error_codes": [
+        "ERR_PREP_ARTICLE_CONTRACTION"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "nel"
+      ],
+      "hint_es": "¿Hay muchas flores en el jardín?",
+      "id": "it_cloze_s_1086143_ERR_PREP_ARTICLE_CONTRACTION",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1086143",
+      "target_error_codes": [
+        "ERR_PREP_ARTICLE_CONTRACTION"
+      ],
+      "text": "Ci sono molti fiori ___ giardino?",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_384874_ERR_PREP_ARTICLE_CONTRACTION",
+      "options": [
+        {
+          "correct": true,
+          "text": "Nel giardino ci sono molti fiori."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PREP_ARTICLE_CONTRACTION",
+          "text": "In il giardino ci sono molti fiori."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_384874",
+      "target_error_codes": [
+        "ERR_PREP_ARTICLE_CONTRACTION"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Nel"
+      ],
+      "hint_es": "En el jardín hay muchas flores.",
+      "id": "it_cloze_s_384874_ERR_PREP_ARTICLE_CONTRACTION",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_384874",
+      "target_error_codes": [
+        "ERR_PREP_ARTICLE_CONTRACTION"
+      ],
+      "text": "___ giardino ci sono molti fiori.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_2527205_ERR_PREP_ARTICLE_CONTRACTION",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PREP_ARTICLE_CONTRACTION",
+          "text": "Non andare in la mia stanza."
+        },
+        {
+          "correct": true,
+          "text": "Non andare nella mia stanza."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2527205",
+      "target_error_codes": [
+        "ERR_PREP_ARTICLE_CONTRACTION"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "nella"
+      ],
+      "hint_es": "No vayas a mi cuarto.",
+      "id": "it_cloze_s_2527205_ERR_PREP_ARTICLE_CONTRACTION",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2527205",
+      "target_error_codes": [
+        "ERR_PREP_ARTICLE_CONTRACTION"
+      ],
+      "text": "Non andare ___ mia stanza.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_3050344_ERR_PREP_ARTICLE_CONTRACTION",
+      "options": [
+        {
+          "correct": true,
+          "text": "Forse pioverà nel pomeriggio."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PREP_ARTICLE_CONTRACTION",
+          "text": "Forse pioverà in il pomeriggio."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3050344",
+      "target_error_codes": [
+        "ERR_PREP_ARTICLE_CONTRACTION"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "nel"
+      ],
+      "hint_es": "Quizás lloverá por la tarde.",
+      "id": "it_cloze_s_3050344_ERR_PREP_ARTICLE_CONTRACTION",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3050344",
+      "target_error_codes": [
+        "ERR_PREP_ARTICLE_CONTRACTION"
+      ],
+      "text": "Forse pioverà ___ pomeriggio.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_1802972_ERR_PREP_ARTICLE_CONTRACTION",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PREP_ARTICLE_CONTRACTION",
+          "text": "La mia sorella maggiore ha i capelli che le cadono su le spalle."
+        },
+        {
+          "correct": true,
+          "text": "La mia sorella maggiore ha i capelli che le cadono sulle spalle."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1802972",
+      "target_error_codes": [
+        "ERR_PREP_ARTICLE_CONTRACTION"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "sulle"
+      ],
+      "hint_es": "A mi hermana mayor el cabello le llega hasta los hombros.",
+      "id": "it_cloze_s_1802972_ERR_PREP_ARTICLE_CONTRACTION",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1802972",
+      "target_error_codes": [
+        "ERR_PREP_ARTICLE_CONTRACTION"
+      ],
+      "text": "La mia sorella maggiore ha i capelli che le cadono ___ spalle.",
+      "type": "cloze"
+    }
+  ],
+  "ERR_PREP_PLACE": [
+    {
+      "id": "it_choice_s_13267842_ERR_PREP_PLACE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Io abito a Parigi."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_PREP_PLACE",
+          "text": "Io abito in Parigi."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13267842",
+      "target_error_codes": [
+        "ERR_PREP_PLACE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "a"
+      ],
+      "hint_es": "Yo vivo en París.",
+      "id": "it_cloze_s_13267842_ERR_PREP_PLACE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13267842",
+      "target_error_codes": [
+        "ERR_PREP_PLACE"
+      ],
+      "text": "Io abito ___ Parigi.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_1082492_ERR_PREP_PLACE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_PREP_PLACE",
+          "text": "Domani vado in Parigi."
+        },
+        {
+          "correct": true,
+          "text": "Domani vado a Parigi."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1082492",
+      "target_error_codes": [
+        "ERR_PREP_PLACE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "a"
+      ],
+      "hint_es": "Mañana voy a París.",
+      "id": "it_cloze_s_1082492_ERR_PREP_PLACE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1082492",
+      "target_error_codes": [
+        "ERR_PREP_PLACE"
+      ],
+      "text": "Domani vado ___ Parigi.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_13267986_ERR_PREP_PLACE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Vado a Parigi domani."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_PREP_PLACE",
+          "text": "Vado in Parigi domani."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13267986",
+      "target_error_codes": [
+        "ERR_PREP_PLACE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "a"
+      ],
+      "hint_es": "Voy a París mañana.",
+      "id": "it_cloze_s_13267986_ERR_PREP_PLACE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13267986",
+      "target_error_codes": [
+        "ERR_PREP_PLACE"
+      ],
+      "text": "Vado ___ Parigi domani.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_376530_ERR_PREP_PLACE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_PREP_PLACE",
+          "text": "Mio zio vive in Londra."
+        },
+        {
+          "correct": true,
+          "text": "Mio zio vive a Londra."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_376530",
+      "target_error_codes": [
+        "ERR_PREP_PLACE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "a"
+      ],
+      "hint_es": "Mi tío vive en Londres.",
+      "id": "it_cloze_s_376530_ERR_PREP_PLACE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_376530",
+      "target_error_codes": [
+        "ERR_PREP_PLACE"
+      ],
+      "text": "Mio zio vive ___ Londra.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_387491_ERR_PREP_PLACE",
+      "options": [
+        {
+          "correct": true,
+          "text": "La mia famiglia va in Italia tutti gli anni."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_PREP_PLACE",
+          "text": "La mia famiglia va a Italia tutti gli anni."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_387491",
+      "target_error_codes": [
+        "ERR_PREP_PLACE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "in"
+      ],
+      "hint_es": "Mi familia va a Italia todos los años.",
+      "id": "it_cloze_s_387491_ERR_PREP_PLACE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_387491",
+      "target_error_codes": [
+        "ERR_PREP_PLACE"
+      ],
+      "text": "La mia famiglia va ___ Italia tutti gli anni.",
+      "type": "cloze"
+    }
+  ],
+  "ERR_TENERE_AVERE": [
+    {
+      "id": "it_choice_s_2023103_ERR_TENERE_AVERE",
+      "options": [
+        {
+          "correct": true,
+          "text": "So che ha ragione."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_TENERE_AVERE",
+          "text": "So che tiene ragione."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2023103",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "ha"
+      ],
+      "hint_es": "Sé que tiene razón.",
+      "id": "it_cloze_s_2023103_ERR_TENERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2023103",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "text": "So che ___ ragione.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_2762874_ERR_TENERE_AVERE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_TENERE_AVERE",
+          "text": "L'uomo tiene ragione."
+        },
+        {
+          "correct": true,
+          "text": "L'uomo ha ragione."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2762874",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "ha"
+      ],
+      "hint_es": "El hombre tiene razón.",
+      "id": "it_cloze_s_2762874_ERR_TENERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2762874",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "text": "L'uomo ___ ragione.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_390103_ERR_TENERE_AVERE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Forse hai ragione."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_TENERE_AVERE",
+          "text": "Forse tieni ragione."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_390103",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "hai"
+      ],
+      "hint_es": "Puede que tengas razón.",
+      "id": "it_cloze_s_390103_ERR_TENERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_390103",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "text": "Forse ___ ragione.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_2023101_ERR_TENERE_AVERE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_TENERE_AVERE",
+          "text": "So che tieni ragione."
+        },
+        {
+          "correct": true,
+          "text": "So che hai ragione."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2023101",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "hai"
+      ],
+      "hint_es": "Sé que tienes razón.",
+      "id": "it_cloze_s_2023101_ERR_TENERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2023101",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "text": "So che ___ ragione.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_13300838_ERR_TENERE_AVERE",
+      "options": [
+        {
+          "correct": true,
+          "text": "La donna ha ragione."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_TENERE_AVERE",
+          "text": "La donna tiene ragione."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13300838",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "ha"
+      ],
+      "hint_es": "La mujer tiene razón.",
+      "id": "it_cloze_s_13300838_ERR_TENERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13300838",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "text": "La donna ___ ragione.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_13437351_ERR_TENERE_AVERE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_TENERE_AVERE",
+          "text": "La forza tiene ragione."
+        },
+        {
+          "correct": true,
+          "text": "La forza ha ragione."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13437351",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "ha"
+      ],
+      "hint_es": "La fuerza tiene razón.",
+      "id": "it_cloze_s_13437351_ERR_TENERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13437351",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "text": "La forza ___ ragione.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_12434343_ERR_TENERE_AVERE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Zwina non ha ragione."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_TENERE_AVERE",
+          "text": "Zwina non tiene ragione."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_12434343",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "ha"
+      ],
+      "hint_es": "Zwina no tiene razón.",
+      "id": "it_cloze_s_12434343_ERR_TENERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_12434343",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "text": "Zwina non ___ ragione.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_2023105_ERR_TENERE_AVERE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_TENERE_AVERE",
+          "text": "So che tenete ragione."
+        },
+        {
+          "correct": true,
+          "text": "So che avete ragione."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2023105",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "avete"
+      ],
+      "hint_es": "Sé que tienen razón.",
+      "id": "it_cloze_s_2023105_ERR_TENERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2023105",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "text": "So che ___ ragione.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_13382887_ERR_TENERE_AVERE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Vedrà che ho ragione."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_TENERE_AVERE",
+          "text": "Vedrà che tengo ragione."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13382887",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "ho"
+      ],
+      "hint_es": "Verá que tengo razón.",
+      "id": "it_cloze_s_13382887_ERR_TENERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13382887",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "text": "Vedrà che ___ ragione.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_13382886_ERR_TENERE_AVERE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_TENERE_AVERE",
+          "text": "Vedrai che tengo ragione."
+        },
+        {
+          "correct": true,
+          "text": "Vedrai che ho ragione."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13382886",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "ho"
+      ],
+      "hint_es": "Verás que tengo razón.",
+      "id": "it_cloze_s_13382886_ERR_TENERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13382886",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "text": "Vedrai che ___ ragione.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_13382888_ERR_TENERE_AVERE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Vedrete che ho ragione."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_TENERE_AVERE",
+          "text": "Vedrete che tengo ragione."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13382888",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "ho"
+      ],
+      "hint_es": "Verán que tengo razón.",
+      "id": "it_cloze_s_13382888_ERR_TENERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13382888",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "text": "Vedrete che ___ ragione.",
+      "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_4973103_ERR_TENERE_AVERE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "l1_calque",
+          "error_code": "ERR_TENERE_AVERE",
+          "text": "Parlando in generale, Tom tiene ragione."
+        },
+        {
+          "correct": true,
+          "text": "Parlando in generale, Tom ha ragione."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4973103",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "ha"
+      ],
+      "hint_es": "Hablando en general, Tom tiene razón.",
+      "id": "it_cloze_s_4973103_ERR_TENERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4973103",
+      "target_error_codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "text": "Parlando in generale, Tom ___ ragione.",
+      "type": "cloze"
+    }
+  ]
+}

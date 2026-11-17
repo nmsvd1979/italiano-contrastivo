@@ -60,3 +60,8 @@ Registro (extraído del ledger de ejecución) de cada decisión que se tomó por
 - M12 la UI no muestra autor/enlace de la oración española ni del puente (pivot_via) al juzgar un par pivote
 - M13 ATTRIBUZIONI no enlaza el texto de la licencia ni avisa que el texto se normalizó
 - M14 un \r dentro de una oración parte la fila y la descarta en silencio (0 casos reales: los conteos calzan)
+
+## Fase 3 · M1: currículo y generadores de calcos
+- Los 49 códigos del catálogo tienen `sieve: null`, así que el currículo de la app se ordena por `cefr_min`, luego por categoría (fonética y ortografía primero) y por código.
+- Solo 8 códigos tienen un calco mecánico seguro (`pipeline/exercises/calques.py`). Con el export actual salen 6 cápsulas (AUX_ESSERE, PREP_PLACE, CE_AGREEMENT, POSSESSIVE_ARTICLE, PREP_ARTICLE_CONTRACTION, TENERE_AVERE); PERSONAL_A y COMPARATIVE_DI no tienen ninguna oración utilizable. El umbral es de 3 oraciones por cápsula y no se baja: la salida es validar más oraciones.
+- Un posesivo sin artículo tras una forma de *essere* es italiano válido («è mio dovere»); por eso ese caso no genera calco.

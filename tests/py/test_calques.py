@@ -87,3 +87,13 @@ def test_ningun_calco_aparece_en_el_corpus_validado():
             else:
                 assert not re.search(r"(?<!\w)" + re.escape(phrase), corpus.lower()), (code, phrase)
     assert hits > 0
+
+
+@pytest.mark.parametrize("it", [
+    "Lo sterminio reciproco sia il nostro destino.",
+    "Era il suo dovere e lo fece.",
+    "Non è la mia intenzione offenderti.",
+])
+def test_posesivo_tras_copula_no_genera_calco(it):
+    # «è mio dovere», «sia nostro destino» son italiano válido (predicativo): quitar el artículo no es un error.
+    assert find_calque("ERR_POSSESSIVE_ARTICLE", it) is None

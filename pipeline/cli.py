@@ -8,7 +8,7 @@ from pipeline import cefr, config, export, filters, ingest, nlp, pivot, promote,
 from pipeline.db import store
 from pipeline.tagging import engine
 
-STAGES = ["ingest", "pivot", "filter", "annotate", "tag", "promote", "all", "review", "export", "report"]
+STAGES = ["ingest", "pivot", "filter", "annotate", "tag", "promote", "all", "review", "export", "report", "capsules"]
 
 
 def _ok_candidates(con):
@@ -100,6 +100,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--authoring-db", type=Path, default=config.AUTHORING_DB)
     ap.add_argument("--model", default=nlp.MODEL_NAME)
     ap.add_argument("--out-dir", type=Path, default=config.ROOT / "content", help="carpeta de salida del export")
+    ap.add_argument("--pack-dir", type=Path, default=config.ROOT / "web" / "public" / "content", help="salida del paquete de la app")
     ap.add_argument("--port", type=int, default=8765, help="puerto del servidor de revisión (solo localhost)")
     ap.add_argument("--no-pivot", action="store_true", help="en `all`, omite el pivote por inglés")
     args = ap.parse_args(argv)
@@ -135,6 +136,13 @@ def main(argv: list[str] | None = None) -> int:
             elif st == "export":
                 m = export.export(store.connect(args.authoring_db), args.out_dir)
                 report(st, {**{f"nivel {k}": v for k, v in m["levels"].items()}, "excluidas sin atribución": len(m["excluded_missing_attribution"])})
+            elif st == "capsules":
+                from pipeline.exercises import capsules
+
+                m = capsules.build_pack(args.out_dir, args.pack_dir)
+                for code, info in m["codes"].items():
+                    print(f"  {code}: {info['usable']} utilizables → {'cápsula' if info['capsule'] else 'sin cápsula (' + info['reason'] + ')'}")
+                print(f"  cápsulas: {len(m['capsules'])}, oraciones usadas: {m['sentences_used']}")
             elif st == "report":
                 print(report_mod.format_report(report_mod.build_report(store.connect(args.authoring_db))))
             elif st == "review":

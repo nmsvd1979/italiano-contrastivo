@@ -37,6 +37,9 @@ KIN = {"padre", "madre", "fratello", "sorella", "figlio", "figlia", "nonno", "no
 SG_PLURAL_Q = {"due", "tre", "quattro", "cinque", "sei", "sette", "otto", "nove", "dieci", "molti", "molte", "pochi",
                "poche", "tanti", "tante", "dei", "delle", "degli", "i", "le", "gli", "alcuni", "alcune"}
 SG_DET = {"un", "una", "uno", "il", "la", "lo"}
+# Tras una forma de essere el posesivo sin artículo es válido («è mio dovere», «sia nostro destino»).
+COPULA = {"è", "era", "sia", "sono", "siano", "fu", "sarà", "sarebbe", "fosse", "essere", "stato", "stata", "siamo", "siete",
+          "sei", "ero", "eri", "eravamo", "erano", "sarebbero", "saranno", "foste", "fossero"}
 
 AUX_SWAP = {"è": "ha", "È": "Ha", "sei": "hai", "Sei": "Hai", "siamo": "abbiamo", "Siamo": "Abbiamo",
             "siete": "avete", "Siete": "Avete"}
@@ -94,7 +97,8 @@ def _possessive_article(it: str):
     found = [m for m in _POSS.finditer(it)
              if not (m.group(2) in ("mio", "mia", "tuo", "tua", "suo", "sua", "nostro", "nostra", "vostro", "vostra")
                      and m.group(3) in KIN)
-             and m.group(3) not in KIN]
+             and m.group(3) not in KIN
+             and ((it[:m.start(1)].split() or [""])[-1].lower() not in COPULA)]
     if len(found) != 1:
         return None
     m = found[0]
