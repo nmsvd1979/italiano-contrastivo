@@ -36,7 +36,7 @@
     "ERR_PREP_ARTICLE_CONTRACTION": {
       "capsule": true,
       "reason": null,
-      "usable": 6
+      "usable": 7
     },
     "ERR_PREP_PLACE": {
       "capsule": true,
@@ -59,9 +59,9 @@
     "llm-audit": 215,
     "me": 27
   },
-  "sentences_used": 34,
+  "sentences_used": 35,
   "translation_kind": {
-    "direct": 17,
+    "direct": 18,
     "llm": 17
   }
 }

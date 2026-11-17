@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Capsule } from "../generated/capsule";
 import { type CapsuleState, initialState, next, score, toProgress, type CapsuleEvent } from "../state/capsuleMachine";
 import { afterCapsule, closeCapsule, normalizeDay } from "../state/session";
@@ -8,6 +8,7 @@ import { Translate, type TranslateItem } from "./items/Translate";
 
 export function CapsuleScreen({ capsule, store, now }: { capsule: Capsule; store: Store; now?: Date }) {
   const [state, setState] = useState<CapsuleState | null>(null);
+  const busy = useRef(false); // un segundo toque mientras se guarda no debe registrar dos veces
   useEffect(() => {
     store.getCapsuleProgress(capsule.id).then((saved) => setState(initialState(capsule, saved)));
   }, [capsule, store]);
@@ -20,6 +21,8 @@ export function CapsuleScreen({ capsule, store, now }: { capsule: Capsule; store
     if (p) await store.putCapsuleProgress(p);
   };
   const finish = async () => {
+    if (busy.current) return;
+    busy.current = true;
     const at = now ?? new Date();
     const res = closeCapsule(capsule, state, await store.allCards(), at);
     if (res) {

@@ -5,7 +5,7 @@ import { SpeakButton } from "../SpeakButton";
 export type ChoiceItem = Extract<Item, { type?: "choice_l1_distractor" }>;
 
 const WHY: Record<string, string> = {
-  l1_calque: "Esa versión es un calco del español.",
+  l1_calque: "Esa versión es un error típico de hispanohablantes.",
   omission: "Esa versión omite algo que el italiano exige.",
   morphological: "Esa forma no existe en italiano.",
   hypercorrection: "Esa versión corrige de más.",

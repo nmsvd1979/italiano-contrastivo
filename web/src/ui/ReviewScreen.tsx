@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { ContentPack, Lexeme } from "../content/load";
 import type { Card } from "../generated/card";
 import { afterReview, normalizeDay, pickItem, ratingFromAnswer, reviewQueue, type ReviewEntry } from "../state/session";
@@ -11,6 +11,7 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
   const [queue, setQueue] = useState<ReviewEntry[] | null>(null);
   const [i, setI] = useState(0);
   const [revealed, setRevealed] = useState(false);
+  const busy = useRef(false); // un segundo toque mientras se guarda no debe calificar dos veces
   useEffect(() => {
     store.allCards().then((cards) => setQueue(reviewQueue({ pack, cards, now: now ?? new Date() })));
   }, [pack, store, now]);
@@ -24,6 +25,8 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
   const items = card?.subject.kind === "error_code" ? pack.itemsByCode[card.subject.ref] : undefined;
 
   const grade = async (rating: 1 | 2 | 3 | 4) => {
+    if (busy.current) return;
+    busy.current = true;
     const at = now ?? new Date();
     const base = card ?? newCard({ kind: "lexeme", ref: lexeme!.id }, "false_friend", at);
     const { card: updated, log } = review(base, rating, at);
@@ -33,6 +36,7 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
     await store.putDay(afterReview(day));
     setRevealed(false);
     setI(i + 1);
+    busy.current = false;
   };
 
   if (!lexeme && !(items && items.length)) return <main><p>Este repaso no tiene ejercicios todavía.</p><button type="button" onClick={() => setI(i + 1)}>Saltar</button></main>;

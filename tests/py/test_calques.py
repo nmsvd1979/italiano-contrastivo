@@ -97,3 +97,20 @@ def test_ningun_calco_aparece_en_el_corpus_validado():
 def test_posesivo_tras_copula_no_genera_calco(it):
     # «è mio dovere», «sia nostro destino» son italiano válido (predicativo): quitar el artículo no es un error.
     assert find_calque("ERR_POSSESSIVE_ARTICLE", it) is None
+
+
+@pytest.mark.parametrize("it", ["Tom è alto.", "Il piatto è delizioso.", "Mi piace l'altro libro."])
+def test_contraccion_dentro_de_una_palabra_no_cuenta(it):
+    # «al» en «alto», «del» en «delizioso» no son contracciones: el distractor sería basura («a ilto»).
+    assert find_calque("ERR_PREP_ARTICLE_CONTRACTION", it) is None
+
+
+def test_contraccion_ignora_palabras_que_empiezan_igual_y_encuentra_la_real():
+    c = find_calque("ERR_PREP_ARTICLE_CONTRACTION", "Sono nella stanza con un altro amico.")
+    assert c and c.correct == "nella" and c.wrong == "in la"
+
+
+@pytest.mark.parametrize("it", ["Tom è sempre il mio amico.", "Lui è diventato il mio amico.", "Sembra il suo dovere."])
+def test_posesivo_con_copula_cercana_no_genera_calco(it):
+    # «è sempre mio amico», «è diventato mio amico»: el predicativo sin artículo es válido aunque la cópula no esté pegada.
+    assert find_calque("ERR_POSSESSIVE_ARTICLE", it) is None

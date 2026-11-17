@@ -765,6 +765,44 @@
       ],
       "text": "La mia sorella maggiore ha i capelli che le cadono ___ spalle.",
       "type": "cloze"
+    },
+    {
+      "id": "it_choice_s_3329302_ERR_PREP_ARTICLE_CONTRACTION",
+      "options": [
+        {
+          "correct": true,
+          "text": "Il gazebo, o pergolato, è uno spazio, di solito rotondo, che solitamente si trova nei giardini, circondato da piante o alberi e panchine."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PREP_ARTICLE_CONTRACTION",
+          "text": "Il gazebo, o pergolato, è uno spazio, di solito rotondo, che solitamente si trova in i giardini, circondato da piante o alberi e panchine."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3329302",
+      "target_error_codes": [
+        "ERR_PREP_ARTICLE_CONTRACTION"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "nei"
+      ],
+      "hint_es": "Glorieta o cenador es un espacio, generalmente redondo, que suele haber en los jardines, cercado por plantas o árboles y con bancos.",
+      "id": "it_cloze_s_3329302_ERR_PREP_ARTICLE_CONTRACTION",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3329302",
+      "target_error_codes": [
+        "ERR_PREP_ARTICLE_CONTRACTION"
+      ],
+      "text": "Il gazebo, o pergolato, è uno spazio, di solito rotondo, che solitamente si trova ___ giardini, circondato da piante o alberi e panchine.",
+      "type": "cloze"
     }
   ],
   "ERR_PREP_PLACE": [

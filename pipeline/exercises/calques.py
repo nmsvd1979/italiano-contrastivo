@@ -39,7 +39,9 @@ SG_PLURAL_Q = {"due", "tre", "quattro", "cinque", "sei", "sette", "otto", "nove"
 SG_DET = {"un", "una", "uno", "il", "la", "lo"}
 # Tras una forma de essere el posesivo sin artículo es válido («è mio dovere», «sia nostro destino»).
 COPULA = {"è", "era", "sia", "sono", "siano", "fu", "sarà", "sarebbe", "fosse", "essere", "stato", "stata", "siamo", "siete",
-          "sei", "ero", "eri", "eravamo", "erano", "sarebbero", "saranno", "foste", "fossero"}
+          "sei", "ero", "eri", "eravamo", "erano", "sarebbero", "saranno", "foste", "fossero",
+          "diventato", "diventata", "diventati", "diventate", "diventare", "diventa", "diventava", "sembra", "sembrava", "sembrano",
+          "resta", "restava", "restato", "rimane", "rimaneva", "rimasto", "rimasta"}
 
 AUX_SWAP = {"è": "ha", "È": "Ha", "sei": "hai", "Sei": "Hai", "siamo": "abbiamo", "Siamo": "Abbiamo",
             "siete": "avete", "Siete": "Avete"}
@@ -52,12 +54,23 @@ CONTRACTIONS = {
     "al": "a il", "allo": "a lo", "alla": "a la", "all'": "a l'", "agli": "a gli", "alle": "a le",
 }
 
+ADVERBS = {"sempre", "ancora", "anche", "già", "solo", "proprio", "davvero", "ormai", "mai", "non", "più", "ora", "adesso"}
+
+
+def _after_copula(before: str) -> bool:
+    """¿La palabra que gobierna (saltando adverbios) es una forma de essere o un verbo copulativo?"""
+    words = re.findall(r"[\w']+", before.lower())
+    while words and words[-1] in ADVERBS:
+        words.pop()
+    return bool(words) and words[-1] in COPULA
+
+
 _AUX = re.compile(r"\b(è|È|sei|Sei|siamo|Siamo|siete|Siete)(?= (?:andat|venut|arrivat|partit|uscit|entrat|nat|mort|salit|sces)[oaie]\b)")
 _PLACE = re.compile(rf"\b(a|A) (?=(?:{CITIES})\b)|\b(in|In) (?=(?:{COUNTRIES})\b)")
 _CE = re.compile(r"\b(Ci sono|ci sono|C['’]è|c['’]è) ([\w']+)")
 _PERSONAL = re.compile(rf"\b(?:{PEOPLE_VERBS}) ((?!(?:{CITIES}|{COUNTRIES})\b)[A-Z]\w+)")
 _POSS = re.compile(r"\b(il|Il|la|La|i|I|le|Le) ((?:mi|tu|su|nostr|vostr)[oaie]|miei|tuoi|suoi|loro|mie|tue|sue)(?= (\w+))")
-_CONTR = re.compile(r"\b(" + "|".join(sorted(CONTRACTIONS, key=len, reverse=True)).replace("'", "['’]") + r")(?=\b|\w)", re.I)
+_CONTR = re.compile(r"\b(" + "|".join(sorted(CONTRACTIONS, key=len, reverse=True)).replace("'", "['’]") + r")\b", re.I)
 _COMP = re.compile(r"\b(?:più|meno) \w+ (di) (?=(?:me|te|lui|lei|noi|voi|loro|[A-Z]\w+)\b)")
 _TENERE = re.compile(r"\b(ho|hai|ha|abbiamo|avete|hanno|Ho|Hai|Ha|Abbiamo|Avete|Hanno) (?=(?:fame|sete|sonno|freddo|caldo|paura|ragione|fretta|\d+ anni)\b)")
 
@@ -98,7 +111,7 @@ def _possessive_article(it: str):
              if not (m.group(2) in ("mio", "mia", "tuo", "tua", "suo", "sua", "nostro", "nostra", "vostro", "vostra")
                      and m.group(3) in KIN)
              and m.group(3) not in KIN
-             and ((it[:m.start(1)].split() or [""])[-1].lower() not in COPULA)]
+             and not _after_copula(it[:m.start(1)])]
     if len(found) != 1:
         return None
     m = found[0]

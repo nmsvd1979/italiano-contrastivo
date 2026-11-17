@@ -35,7 +35,7 @@ describe("Choice", () => {
     fireEvent.click(screen.getByText("Vedrai che tengo ragione."));
     expect(screen.getByText("Vedrai che tengo ragione.").getAttribute("data-state")).toBe("wrong");
     expect(screen.getByText("Vedrai che ho ragione.").getAttribute("data-state")).toBe("correct");
-    expect(screen.getByRole("status").textContent).toContain("calco del español");
+    expect(screen.getByRole("status").textContent).toContain("error típico de hispanohablantes");
     fireEvent.click(screen.getByText("Continuar"));
     expect(onAnswer).toHaveBeenCalledWith(false);
   });
@@ -168,6 +168,32 @@ describe("CapsuleScreen", () => {
     await store.putCapsuleProgress({ capsuleId: "cap_err_tenere_avere", phase: "retrieval", answers: { r1: true, r2: false } });
     render(<CapsuleScreen capsule={cap()} store={store} now={NOW} />);
     expect(await screen.findByText(/Práctica: 3 de 4/)).toBeTruthy();
+  });
+});
+
+describe("doble toque", () => {
+  it("Terminar dos veces seguidas registra una sola vez la cápsula", async () => {
+    const store = memoryStore();
+    await store.putCapsuleProgress({ capsuleId: "cap_err_tenere_avere", phase: "closing", answers: { r1: true, r2: true, r3: true, r4: true } });
+    render(<CapsuleScreen capsule={cap()} store={store} now={NOW} />);
+    const b = await screen.findByText("Terminar");
+    fireEvent.click(b);
+    fireEvent.click(b);
+    await screen.findByText(/Cápsula completada/);
+    expect(await store.allLogs()).toHaveLength(1);
+    expect((await store.getDay(localDate(NOW))).capsulesDone).toEqual(["cap_err_tenere_avere"]);
+  });
+  it("Continuar dos veces seguidas en un repaso lo cuenta una sola vez", async () => {
+    const store = memoryStore();
+    await store.putCard(newCard({ kind: "error_code", ref: "ERR_TENERE_AVERE" }, "not_applicable", NOW));
+    render(<ReviewScreen pack={pack({ lexemes: [] })} store={store} now={NOW} />);
+    fireEvent.click(await screen.findByText("Vedrai che ho ragione."));
+    const b = screen.getByText("Continuar");
+    fireEvent.click(b);
+    fireEvent.click(b);
+    await screen.findByText(/Terminaste esta tanda/);
+    expect(await store.allLogs()).toHaveLength(1);
+    expect((await store.getDay(localDate(NOW))).reviewsDone).toBe(1);
   });
 });
 
