@@ -392,6 +392,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "ValentinaM",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PREP_PLACE"
+    ],
+    "es": "La estatua fue construida en Francia.",
+    "es_author": "Khelm",
+    "es_source_id": "1891620",
+    "id": "s_1272068",
+    "it": "La statua fu costruita in Francia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1272068",
+    "tag_rules": {
+      "ERR_PREP_PLACE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "B1",
@@ -640,6 +662,28 @@
       "ERR_PLURAL_VOWEL": "plurale_vocale"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PREP_ARTICLE_CONTRACTION"
+    ],
+    "es": "África del Norte adopta el monofisismo en señal de protesta.",
+    "es_author": "hayastan",
+    "es_source_id": "2585640",
+    "id": "s_1948370",
+    "it": "L'Africa del Nord adotta il monofisismo in segno di protesta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1948370",
+    "tag_rules": {
+      "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -1210,6 +1254,51 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
     "error_codes": [
+      "ERR_PERSONAL_A"
+    ],
+    "es": "¿Quiere que llame a Tom?",
+    "es_author": "IA (Claude)",
+    "id": "s_3175523",
+    "it": "Vuole che chiami Tom?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3175523",
+    "tag_rules": {
+      "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_AUX_ESSERE"
+    ],
+    "es": "Has estado drogado desde que naciste.",
+    "es_author": "Lakeseayesno",
+    "es_source_id": "3556939",
+    "id": "s_3176709",
+    "it": "Tu sei drogato da quando sei nato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3176709",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
       "ERR_CONGIUNTIVO_SUPERLATIVE",
       "ERR_GEMINATE_SPELLING",
       "ERR_GLI_PALATAL"
@@ -1395,6 +1484,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "No deberías olvidar que es más joven que tú.",
+    "es_author": "Shishir",
+    "es_source_id": "2364840",
+    "id": "s_3358101",
+    "it": "Devi tenere in mente che lei è molto più giovane di te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3358101",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
     "error_codes": [
@@ -1495,6 +1608,51 @@
       "ERR_PRONOMINAL_VERB": "verbo_pronominale"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PERSONAL_A"
+    ],
+    "es": "Tom piensa que yo amo a Mary.",
+    "es_author": "IA (Claude)",
+    "id": "s_3547954",
+    "it": "Tom pensa che io ami Mary.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3547954",
+    "tag_rules": {
+      "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_AUX_ESSERE"
+    ],
+    "es": "Esta es mi amiga Rachel, fuimos al instituto juntos.",
+    "es_author": "Shishir",
+    "es_source_id": "2808",
+    "id": "s_3585064",
+    "it": "Questa è la mia amica Rachel. Siamo andati alle superiori assieme.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3585064",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -1887,6 +2045,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_AUX_ESSERE"
+    ],
+    "es": "Ella se marchó.",
+    "es_author": "hundo",
+    "es_source_id": "957010",
+    "id": "s_529375",
+    "it": "Se ne è andata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "529375",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
@@ -2121,6 +2301,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Valdast",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Él teme decirle a sus padres que es homosexual.",
+    "es_author": "baudelaire",
+    "es_source_id": "5962103",
+    "id": "s_5962421",
+    "it": "Lui ha paura di dire ai suoi genitori che è omosessuale.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5962421",
+    "tag_rules": {
+      "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "B1",
@@ -2263,6 +2465,28 @@
     "tag_rules": {
       "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_POSSESSIVE_ARTICLE"
+    ],
+    "es": "Su inglés mejoró bastante.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "2924725",
+    "id": "s_677396",
+    "it": "Il suo inglese è migliorato molto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "677396",
+    "tag_rules": {
+      "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -2443,6 +2667,28 @@
     "source_id": "7739847",
     "tag_rules": {
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PREP_ARTICLE_CONTRACTION"
+    ],
+    "es": "Una cuerda fue tirada al agua.",
+    "es_author": "hundo",
+    "es_source_id": "951155",
+    "id": "s_809253",
+    "it": "Una corda è stata gettata nell'acqua.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "809253",
+    "tag_rules": {
+      "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
     },
     "translation_kind": "direct"
   },

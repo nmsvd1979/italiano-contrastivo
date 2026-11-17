@@ -19,6 +19,14 @@ export async function speakItalian(text: string): Promise<"ok" | "no_voice"> {
 let current: HTMLAudioElement | null = null;
 let seq = 0; // cada `say` toma un turno: si llega otro antes de que el primero arranque, el primero se descarta
 
+/** Detiene lo que esté sonando y descarta cualquier `say` aún por arrancar. */
+export function stopSay(): void {
+  seq++;
+  current?.pause();
+  current = null;
+  if (typeof window !== "undefined") window.speechSynthesis?.cancel?.();
+}
+
 /** Reproduce un texto: grabación nativa → clip precalculado → voz del sistema → "no_voice". Un nuevo `say` detiene el audio anterior. */
 export async function say(text: string, opts: { nativeFile?: string; clipId?: string; index?: AudioIndex; base?: string } = {}): Promise<SpeakResult> {
   const turn = ++seq;

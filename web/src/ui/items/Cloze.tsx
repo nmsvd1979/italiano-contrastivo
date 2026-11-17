@@ -14,7 +14,7 @@ export function Cloze({ item, onAnswer }: { item: ClozeItem; onAnswer: (correct:
       {item.hint_es && <p><small>Pista: {item.hint_es}</small></p>}
       <p>
         {before}
-        <input aria-label="Respuesta" value={value} disabled={result !== null} autoCapitalize="off" autoCorrect="off"
+        <input lang="it" aria-label="Respuesta" value={value} disabled={result !== null} autoCapitalize="off" autoCorrect="off"
           onChange={(e) => setValue(e.target.value)} />
         {after}
       </p>

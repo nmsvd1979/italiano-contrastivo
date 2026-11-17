@@ -38,7 +38,7 @@ const CONTRACT: Record<string, Record<string, string>> = {
   di: { il: "del", lo: "dello", la: "della", i: "dei", gli: "degli", le: "delle", "l'": "dell'" },
 };
 
-const DET = new Set(["il", "lo", "la", "i", "gli", "le", "l", "un", "uno", "una", "questo", "questa", "questi", "queste", "quel", "quello", "quella", "quei", "quegli", "quelle", "ogni", "altro", "altra", "altri", "altre", "tutto", "tutta", "tutti", "tutte", "due", "tre", "quattro", "cinque", "molti", "molte", "pochi", "poche", "tanti", "tante", "alcuni", "alcune", "ciascun", "ciascuna", "nessun", "nessuna", "mamma", "dio", "madonna",
+const DET = new Set(["il", "lo", "la", "i", "gli", "le", "l", "un", "uno", "una", "questo", "questa", "questi", "queste", "quel", "quello", "quella", "quei", "quegli", "quelle", "ogni", "altro", "altra", "altri", "altre", "due", "tre", "quattro", "cinque", "molti", "molte", "pochi", "poche", "tanti", "tante", "alcuni", "alcune", "ciascun", "ciascuna", "nessun", "nessuna", "mamma", "dio", "madonna",
   ...Object.values(CONTRACT).flatMap((m) => Object.values(m)), "col", "coi"]);
 
 const cap = (s: string, like: string) => (/^\p{Lu}/u.test(like) ? s[0].toUpperCase() + s.slice(1) : s);

@@ -50,6 +50,10 @@ def test_sin_patron_devuelve_none(code):
     ("ERR_CE_AGREEMENT", "Ci sono andata ieri."),  # «ci sono» + participio no es existencial
     ("ERR_POSSESSIVE_ARTICLE", "Vedo la mia famiglia."),  # familia exige artículo y está excluida por seguridad
     ("ERR_PERSONAL_A", "Io cerco il libro."),  # sin nombre propio
+    ("ERR_PERSONAL_A", "Io mi chiamo Ludwig."),  # reflexivo: no hay objeto directo
+    ("ERR_PERSONAL_A", "La sorella di Joao si chiama Joana."),
+    ("ERR_PERSONAL_A", "Tom sa quanto lo ama Mary."),  # clítico de objeto: Mary es el sujeto
+    ("ERR_PERSONAL_A", "Lui conosce New York come le sue tasche."),  # lugar, no persona
 ])
 def test_casos_ambiguos_o_validos_devuelven_none(code, it):
     assert find_calque(code, it) is None
@@ -81,11 +85,14 @@ def test_ningun_calco_aparece_en_el_corpus_validado():
             assert frag not in [x["it"] for x in docs]
             after = re.match(r"\s*\S+", d["it"][c.end:])
             phrase = (c.wrong + (after.group(0) if after else "")).lower()
+            if code == "ERR_COMPARATIVE_DI":  # «che me» solo es calco tras «più/meno + adjetivo»; «prima che me lo scordi» es otra cosa
+                phrase = r"(?:più|meno) \w+ " + re.escape(phrase)
             if c.kind == "omission":  # «tua idea» está dentro de «la tua idea»: solo cuenta si no lleva artículo antes
                 bare = re.search(r"(?<!il )(?<!la )(?<!le )(?<!lo )(?<!i )(?<!gli )" + re.escape(phrase), corpus.lower())
                 assert not bare, (code, phrase)
             else:
-                assert not re.search(r"(?<!\w)" + re.escape(phrase), corpus.lower()), (code, phrase)
+                pattern = phrase if code == "ERR_COMPARATIVE_DI" else re.escape(phrase)
+                assert not re.search(r"(?<!\w)" + pattern, corpus.lower()), (code, phrase)
     assert hits > 0
 
 

@@ -81,6 +81,74 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_POSSESSIVE_ARTICLE"
+    ],
+    "es": "Sus calcetines son grises.",
+    "es_author": "lukaszpp",
+    "es_source_id": "435089",
+    "id": "s_1019631",
+    "it": "Le sue calze sono grigie.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1019631",
+    "tag_rules": {
+      "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_POSSESSIVE_ARTICLE"
+    ],
+    "es": "Puedo hacerlo sin tu ayuda.",
+    "es_author": "Shishir",
+    "es_source_id": "1003054",
+    "id": "s_1021338",
+    "it": "Posso farlo senza il tuo aiuto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1021338",
+    "tag_rules": {
+      "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Es más famosa que él.",
+    "es_author": "saverius",
+    "es_source_id": "10231945",
+    "id": "s_10231935",
+    "it": "È più famosa di lui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10231935",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_GEMINATE_SPELLING",
       "ERR_PREP_FIXED_GOV"
     ],
@@ -97,6 +165,28 @@
     "tag_rules": {
       "ERR_GEMINATE_SPELLING": "geminata_ortografia",
       "ERR_PREP_FIXED_GOV": "preposizione_governo_fisso"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Tienen miedo de ellos.",
+    "es_author": "saverius",
+    "es_source_id": "10462188",
+    "id": "s_10461724",
+    "it": "Hanno paura di loro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10461724",
+    "tag_rules": {
+      "ERR_TENERE_AVERE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -179,6 +269,53 @@
     "translation_kind": "direct"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CE_AGREEMENT"
+    ],
+    "es": "Hay muchas lenguas en el mundo.",
+    "es_author": "Adelpa",
+    "es_source_id": "11030617",
+    "id": "s_11030586",
+    "it": "Ci sono molte lingue nel mondo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11030586",
+    "tag_rules": {
+      "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PERSONAL_A"
+    ],
+    "es": "Sami conoce a Layla desde la secundaria.",
+    "es_author": "IA (Claude)",
+    "id": "s_11039020",
+    "it": "Sami conosce Layla dalle medie.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11039020",
+    "tag_rules": {
+      "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -199,6 +336,28 @@
     "tag_rules": {
       "ERR_GEMINATE_SPELLING": "geminata_ortografia",
       "ERR_PREP_FIXED_GOV": "preposizione_governo_fisso"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Tom es más alto que yo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1520611",
+    "id": "s_1110030",
+    "it": "Tom è più alto di me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1110030",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -320,6 +479,30 @@
     "translation_kind": "llm"
   },
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_PLACE"
+    ],
+    "es": "Ahora trabaja en Francia.",
+    "es_author": "Shishir",
+    "es_source_id": "1134036",
+    "id": "s_1133603",
+    "it": "Ora lavora in Francia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1133603",
+    "tag_rules": {
+      "ERR_PREP_PLACE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -412,6 +595,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_PERSONAL_A"
+    ],
+    "es": "Tom conoce a Mary desde hace mucho tiempo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1217325",
+    "it": "Tom conosce Mary da molto tempo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1217325",
+    "tag_rules": {
+      "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PREP_PLACE"
     ],
     "es": "¿Tom vive en Boston?",
@@ -456,6 +662,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_ARTICLE_CONTRACTION"
+    ],
+    "es": "La Semana Santa está a la vuelta de la esquina.",
+    "es_author": "carlosalberto",
+    "es_source_id": "12531925",
+    "id": "s_12531932",
+    "it": "La Pasqua è alle porte.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12531932",
+    "tag_rules": {
+      "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -474,6 +702,28 @@
     "source_id": "1265972",
     "tag_rules": {
       "ERR_PREP_FIXED_GOV": "preposizione_governo_fisso"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_ARTICLE_CONTRACTION"
+    ],
+    "es": "Él es el autor del artículo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1457762",
+    "id": "s_1272203",
+    "it": "Lui è l'autore dell'articolo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1272203",
+    "tag_rules": {
+      "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -501,6 +751,74 @@
       "ERR_TENERE_AVERE": "tener_ragione"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_PLACE"
+    ],
+    "es": "Ella vive en Londres.",
+    "es_author": "Shishir",
+    "es_source_id": "1160492",
+    "id": "s_1311901",
+    "it": "Lei abita a Londra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1311901",
+    "tag_rules": {
+      "ERR_PREP_PLACE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_ARTICLE_CONTRACTION"
+    ],
+    "es": "A menudo voy al parque.",
+    "es_author": "UccelloRosso",
+    "es_source_id": "13232540",
+    "id": "s_13186007",
+    "it": "Di solito vado al parco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13186007",
+    "tag_rules": {
+      "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_ARTICLE_CONTRACTION"
+    ],
+    "es": "Yo le temo a la oscuridad.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1155880",
+    "id": "s_1325776",
+    "it": "Io ho paura delle tenebre.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1325776",
+    "tag_rules": {
+      "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -656,6 +974,95 @@
     "translation_kind": "llm"
   },
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_AUX_ESSERE"
+    ],
+    "es": "¿Saliste anoche?",
+    "es_author": "ildefonk",
+    "es_source_id": "869936",
+    "id": "s_1371033",
+    "it": "Sei uscito ieri sera?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1371033",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "al_ex_an_der",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_ARTICLE_CONTRACTION"
+    ],
+    "es": "La culpa es del gobierno.",
+    "es_author": "Shishir",
+    "es_source_id": "1554233",
+    "id": "s_1459263",
+    "it": "La colpa è del governo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1459263",
+    "tag_rules": {
+      "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PERSONAL_A"
+    ],
+    "es": "Tom conoce muy bien a Mary.",
+    "es_author": "IA (Claude)",
+    "id": "s_1469188",
+    "it": "Tom conosce Mary molto bene.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1469188",
+    "tag_rules": {
+      "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "hitori37",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_PLACE"
+    ],
+    "es": "Barcelona está en España.",
+    "es_author": "lukaszpp",
+    "es_source_id": "434301",
+    "id": "s_1607342",
+    "it": "Barcellona è in Spagna.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1607342",
+    "tag_rules": {
+      "ERR_PREP_PLACE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -680,6 +1087,94 @@
       "ERR_C_G_PALATAL": "c_g_palatale",
       "ERR_GEMINATE_SPELLING": "geminata_ortografia",
       "ERR_PREP_FIXED_GOV": "preposizione_governo_fisso"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CE_AGREEMENT"
+    ],
+    "es": "Hay algunos huevos en la caja.",
+    "es_author": "hayastan",
+    "es_source_id": "1687762",
+    "id": "s_1687767",
+    "it": "Ci sono alcune uova nella scatola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1687767",
+    "tag_rules": {
+      "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_PLACE"
+    ],
+    "es": "Todo es caro en Londres.",
+    "es_author": "Shishir",
+    "es_source_id": "1686406",
+    "id": "s_1701493",
+    "it": "Tutto è caro a Londra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1701493",
+    "tag_rules": {
+      "ERR_PREP_PLACE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Tokio es más grande que Yokohama.",
+    "es_author": "Shishir",
+    "es_source_id": "587343",
+    "id": "s_1701591",
+    "it": "Tokyo è più grande di Yokohama.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1701591",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Shadd",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Es evidente que él tiene razón.",
+    "es_author": "tatoerique",
+    "es_source_id": "356214",
+    "id": "s_1912844",
+    "it": "È ovvio che ha ragione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1912844",
+    "tag_rules": {
+      "ERR_TENERE_AVERE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -766,6 +1261,76 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_PERSONAL_A"
+    ],
+    "es": "Amo tanto a Mary.",
+    "es_author": "IA (Claude)",
+    "id": "s_2023151",
+    "it": "Io amo Mary così tanto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2023151",
+    "tag_rules": {
+      "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PERSONAL_A"
+    ],
+    "es": "Conozco a Tom en persona.",
+    "es_author": "IA (Claude)",
+    "id": "s_2041876",
+    "it": "Io conosco Tom di persona.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2041876",
+    "tag_rules": {
+      "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PERSONAL_A"
+    ],
+    "es": "No veo a Tom desde hace meses.",
+    "es_author": "IA (Claude)",
+    "id": "s_2084399",
+    "it": "Io non vedo Tom da mesi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2084399",
+    "tag_rules": {
+      "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PLURAL_VOWEL",
       "ERR_PREP_PENSARE"
     ],
@@ -785,6 +1350,76 @@
       "ERR_PREP_PENSARE": "pensare_a"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PERSONAL_A"
+    ],
+    "es": "¿Desde hace cuánto tiempo conoces a Judy?",
+    "es_author": "IA (Claude)",
+    "id": "s_2455002",
+    "it": "Da quanto tempo conosci Judy?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2455002",
+    "tag_rules": {
+      "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PERSONAL_A"
+    ],
+    "es": "No amo a Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_2560818",
+    "it": "Io non amo Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2560818",
+    "tag_rules": {
+      "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Soy más rápido que ustedes.",
+    "es_author": "cueyayotl",
+    "es_source_id": "2879255",
+    "id": "s_2578620",
+    "it": "Sono più veloce di voi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2578620",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -983,6 +1618,76 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_AUX_ESSERE"
+    ],
+    "es": "Llegaste a tiempo.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "2924596",
+    "id": "s_2914399",
+    "it": "Sei arrivato in tempo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2914399",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "¿Tú no tienes calor?",
+    "es_author": "cueyayotl",
+    "es_source_id": "4487590",
+    "id": "s_2972706",
+    "it": "Tu non hai caldo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2972706",
+    "tag_rules": {
+      "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "¿Usted no tiene calor?",
+    "es_author": "cueyayotl",
+    "es_source_id": "4487593",
+    "id": "s_2972708",
+    "it": "Lei non ha caldo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2972708",
+    "tag_rules": {
+      "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_GEMINATE_SPELLING",
       "ERR_PREP_FIXED_GOV"
     ],
@@ -1003,6 +1708,98 @@
       "ERR_PREP_FIXED_GOV": "preposizione_governo_fisso"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CE_AGREEMENT"
+    ],
+    "es": "¿Hay algún problema, Tom?",
+    "es_author": "ulymarrero",
+    "es_source_id": "3445633",
+    "id": "s_3132020",
+    "it": "C'è un problema, Tom?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3132020",
+    "tag_rules": {
+      "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PERSONAL_A"
+    ],
+    "es": "¿Estás seguro de que conoces a Tom?",
+    "es_author": "IA (Claude)",
+    "id": "s_3322046",
+    "it": "Sei sicuro che conosci Tom?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3322046",
+    "tag_rules": {
+      "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PERSONAL_A"
+    ],
+    "es": "¿Estás segura de que conoces a Tom?",
+    "es_author": "IA (Claude)",
+    "id": "s_3322047",
+    "it": "Sei sicura che conosci Tom?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3322047",
+    "tag_rules": {
+      "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PERSONAL_A"
+    ],
+    "es": "¿Conoces a Tom en persona?",
+    "es_author": "IA (Claude)",
+    "id": "s_3322085",
+    "it": "Tu conosci Tom di persona?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3322085",
+    "tag_rules": {
+      "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -1034,6 +1831,51 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_PERSONAL_A"
+    ],
+    "es": "Veo a Dana y a Corina.",
+    "es_author": "IA (Claude)",
+    "id": "s_3580504",
+    "it": "Io vedo Dana e Corina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3580504",
+    "tag_rules": {
+      "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_ARTICLE_CONTRACTION"
+    ],
+    "es": "Yo necesito primeros auxilios.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1143708",
+    "id": "s_3590343",
+    "it": "Ho bisogno del primo soccorso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3590343",
+    "tag_rules": {
+      "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_CONGIUNTIVO_OVERUSE_FORSE",
       "ERR_C_G_PALATAL"
     ],
@@ -1054,6 +1896,76 @@
       "ERR_C_G_PALATAL": "c_g_palatale"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Tienen miedo de Tom.",
+    "es_author": "DJ_Saidez",
+    "es_source_id": "10028863",
+    "id": "s_3700270",
+    "it": "Hanno paura di Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3700270",
+    "tag_rules": {
+      "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_POSSESSIVE_ARTICLE"
+    ],
+    "es": "La música alimenta nuestra imaginación.",
+    "es_author": "Shishir",
+    "es_source_id": "495357",
+    "id": "s_373744",
+    "it": "La musica nutre la nostra immaginazione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "373744",
+    "tag_rules": {
+      "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_PLACE"
+    ],
+    "es": "Roma queda en Italia.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1327949",
+    "id": "s_375345",
+    "it": "Roma è in Italia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "375345",
+    "tag_rules": {
+      "ERR_PREP_PLACE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Pharamp",
@@ -1118,6 +2030,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Tom habla más lentamente que Bill.",
+    "es_author": "darinmex",
+    "es_source_id": "505963",
+    "id": "s_381163",
+    "it": "Tom parla più lentamente di Bill.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "381163",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_CE_AGREEMENT",
       "ERR_C_G_PALATAL",
       "ERR_GENDER_DIVERGENCE",
@@ -1172,6 +2108,54 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Él es más inteligente que ellos.",
+    "es_author": "catakaoe",
+    "es_source_id": "398982",
+    "id": "s_399099",
+    "it": "Lui è più intelligente di loro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "399099",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Nancy tiene miedo a los perros.",
+    "es_author": "yorickvidal",
+    "es_source_id": "355715",
+    "id": "s_409559",
+    "it": "Nancy ha paura dei cani.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "409559",
+    "tag_rules": {
+      "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -1194,6 +2178,50 @@
       "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Tengo miedo de caer.",
+    "es_author": "hayastan",
+    "es_source_id": "394306",
+    "id": "s_4483",
+    "it": "Ho paura di cadere.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4483",
+    "tag_rules": {
+      "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_PLACE"
+    ],
+    "es": "Todos los caminos llevan a Roma.",
+    "es_author": "lukaszpp",
+    "es_source_id": "434187",
+    "id": "s_4574",
+    "it": "Tutte le strade portano a Roma.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4574",
+    "tag_rules": {
+      "ERR_PREP_PLACE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -1219,6 +2247,442 @@
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Comed, porque tenéis hambre.",
+    "es_author": "Shishir",
+    "es_source_id": "760130",
+    "id": "s_531427",
+    "it": "Mangiate, perché avete fame.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "531427",
+    "tag_rules": {
+      "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Tom no te tiene miedo.",
+    "es_author": "SrTortuga",
+    "es_source_id": "3781760",
+    "id": "s_5685568",
+    "it": "Tom non ha paura di te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5685568",
+    "tag_rules": {
+      "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_POSSESSIVE_ARTICLE"
+    ],
+    "es": "Su novio es turco.",
+    "es_author": "Shishir",
+    "es_source_id": "571808",
+    "id": "s_571371",
+    "it": "Il suo ragazzo è turco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "571371",
+    "tag_rules": {
+      "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Pekín es más grande que Roma.",
+    "es_author": "nancy",
+    "es_source_id": "1191722",
+    "id": "s_611876",
+    "it": "Pechino è più grande di Roma.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "611876",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CE_AGREEMENT"
+    ],
+    "es": "Hay un gato sobre la silla.",
+    "es_author": "Shishir",
+    "es_source_id": "531769",
+    "id": "s_641855",
+    "it": "C'è un gatto sulla sedia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "641855",
+    "tag_rules": {
+      "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PERSONAL_A"
+    ],
+    "es": "Por favor, llama a Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_6476779",
+    "it": "Per favore, chiama Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6476779",
+    "tag_rules": {
+      "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Son mucho más altos que nosotros.",
+    "es_author": "Shishir",
+    "es_source_id": "1871380",
+    "id": "s_663540",
+    "it": "Sono molto più alti di noi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "663540",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "¿Por qué no tienes miedo?",
+    "es_author": "arh",
+    "es_source_id": "6813222",
+    "id": "s_6891292",
+    "it": "Perché non hai paura?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6891292",
+    "tag_rules": {
+      "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_PLACE"
+    ],
+    "es": "No quieren ir a Alemania.",
+    "es_author": "Seael",
+    "es_source_id": "7996486",
+    "id": "s_6988135",
+    "it": "Non vogliono andare in Germania.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6988135",
+    "tag_rules": {
+      "ERR_PREP_PLACE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Tom tiene miedo de nosotros, ¿verdad?",
+    "es_author": "mervert1",
+    "es_source_id": "13885036",
+    "id": "s_7050017",
+    "it": "Tom ha paura di noi, vero?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7050017",
+    "tag_rules": {
+      "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PERSONAL_A"
+    ],
+    "es": "Tom sabe que Mary ama a John.",
+    "es_author": "IA (Claude)",
+    "id": "s_7129294",
+    "it": "Tom sa che Mary ama John.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7129294",
+    "tag_rules": {
+      "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CE_AGREEMENT"
+    ],
+    "es": "Hay muchas fábricas en Kawasaki.",
+    "es_author": "darinmex",
+    "es_source_id": "907171",
+    "id": "s_714475",
+    "it": "Ci sono molte fabbriche a Kawasaki.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "714475",
+    "tag_rules": {
+      "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Él tiene miedo de cometer errores.",
+    "es_author": "leoruilova",
+    "es_source_id": "780168",
+    "id": "s_716408",
+    "it": "Ha paura di fare errori.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "716408",
+    "tag_rules": {
+      "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CE_AGREEMENT"
+    ],
+    "es": "En el universo hay muchas galaxias.",
+    "es_author": "Shishir",
+    "es_source_id": "1248510",
+    "id": "s_717912",
+    "it": "Ci sono molte galassie nell'universo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "717912",
+    "tag_rules": {
+      "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CE_AGREEMENT"
+    ],
+    "es": "¡Ah, allí hay una mariposa!",
+    "es_author": "Shishir",
+    "es_source_id": "2534",
+    "id": "s_760699",
+    "it": "Oh, là c'è una farfalla!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "760699",
+    "tag_rules": {
+      "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_AUX_ESSERE"
+    ],
+    "es": "¿Fuiste a la iglesia el domingo pasado?",
+    "es_author": "saverius",
+    "es_source_id": "10144453",
+    "id": "s_7670813",
+    "it": "Sei andata in chiesa domenica scorsa?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7670813",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "A ella le dan miedo los truenos.",
+    "es_author": "hundo",
+    "es_source_id": "956739",
+    "id": "s_868697",
+    "it": "Lei ha paura dei tuoni.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "868697",
+    "tag_rules": {
+      "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Soy más bajo que tú.",
+    "es_author": "Shishir",
+    "es_source_id": "545203",
+    "id": "s_916627",
+    "it": "Sono più basso di te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "916627",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Soy más baja que tú.",
+    "es_author": "Shishir",
+    "es_source_id": "545206",
+    "id": "s_916628",
+    "it": "Sono più bassa di te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "916628",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "riccioberto",

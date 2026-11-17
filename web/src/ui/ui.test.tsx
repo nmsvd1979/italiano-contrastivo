@@ -13,6 +13,7 @@ import { TodayScreen } from "./TodayScreen";
 import { ItemView } from "./items/ItemView";
 import { Translate, type TranslateItem } from "./items/Translate";
 import { speakItalian } from "./speech";
+import { SettingsScreen } from "./SettingsScreen";
 import { WriteScreen } from "./WriteScreen";
 import { AudioProvider } from "../audio/AudioContext";
 
@@ -274,6 +275,17 @@ describe("etiqueta de la voz", () => {
     fireEvent.click(screen.getByText("Vedrai che ho ragione."));
     expect(screen.getByText(/voz del sistema/)).toBeTruthy();
   });
+  it("al desmontar el botón se detiene el audio que sonaba", async () => {
+    const pause = vi.fn();
+    vi.stubGlobal("Audio", class { play() { return Promise.resolve(); } pause() { pause(); } });
+    const { unmount } = render(<AudioProvider pack={audioPack} index={new Set(["111111111111"])}><ItemView item={choice} onAnswer={() => {}} /></AudioProvider>);
+    fireEvent.click(screen.getByText("Vedrai che ho ragione."));
+    fireEvent.click(screen.getByText(/Escuchar/));
+    await screen.findByText(/voz sintética/);
+    pause.mockClear();
+    unmount();
+    expect(pause).toHaveBeenCalled();
+  });
   it("la opción incorrecta nunca tiene botón de voz ni clip", () => {
     render(<AudioProvider pack={audioPack} index={new Set(["111111111111"])}><ItemView item={choice} onAnswer={() => {}} /></AudioProvider>);
     expect(screen.queryByText(/Escuchar/)).toBeNull();
@@ -340,5 +352,78 @@ describe("WriteScreen", () => {
   it("no deja revisar un texto vacío", () => {
     render(<WriteScreen />);
     expect((screen.getByRole("button", { name: "Revisar" }) as HTMLButtonElement).disabled).toBe(true);
+  });
+});
+
+describe("recuperación ante errores de guardado", () => {
+  it("el repaso avisa y deja reintentar si falla el guardado", async () => {
+    const store = memoryStore();
+    const c = newCard({ kind: "error_code", ref: "ERR_TENERE_AVERE" }, "not_applicable", NOW);
+    await store.putCard(c);
+    const put = store.putCard;
+    store.putCard = vi.fn().mockRejectedValueOnce(new Error("disco lleno")).mockImplementation(put);
+    render(<ReviewScreen pack={pack({ lexemes: [] })} store={store} now={NOW} />);
+    fireEvent.click(await screen.findByText("Vedrai che ho ragione."));
+    fireEvent.click(screen.getByText("Continuar"));
+    expect((await screen.findByRole("alert")).textContent).toMatch(/No se pudo guardar/);
+    expect(screen.queryByText(/Terminaste esta tanda/)).toBeNull();
+    fireEvent.click(screen.getByText("Continuar"));
+    await screen.findByText(/Terminaste esta tanda/);
+    expect((await store.getCard(c.id))?.fsrs.reps).toBe(1);
+  });
+  it("la cápsula deja reintentar «Terminar» y no duplica la tarjeta", async () => {
+    const store = memoryStore();
+    const putDay = store.putDay;
+    store.putDay = vi.fn().mockRejectedValueOnce(new Error("fallo")).mockImplementation(putDay);
+    render(<CapsuleScreen capsule={cap()} store={store} now={NOW} />);
+    await screen.findByText(/Traduce al italiano/);
+    fireEvent.click(screen.getByText("Ver la respuesta"));
+    fireEvent.click(screen.getByText("Continuar"));
+    fireEvent.click(screen.getByText("Entendido"));
+    for (let i = 0; i < 4; i++) {
+      fireEvent.change(await screen.findByLabelText("Respuesta"), { target: { value: "ho" } });
+      fireEvent.click(screen.getByText("Comprobar"));
+      fireEvent.click(screen.getByText("Continuar"));
+    }
+    await screen.findByText(/Acertaste 4 de 4/);
+    fireEvent.click(screen.getByText("Terminar"));
+    expect((await screen.findByRole("alert")).textContent).toMatch(/No se pudo guardar/);
+    fireEvent.click(screen.getByText("Terminar"));
+    await screen.findByText(/Cápsula completada/);
+    expect((await store.allLogs()).length).toBe(1);
+    expect((await store.getDay(localDate(NOW))).capsulesDone).toEqual(["cap_err_tenere_avere"]);
+  });
+});
+
+describe("TodayScreen", () => {
+  it("muestra cómo empezar solo la primera vez", () => {
+    const plan = planToday({ pack: pack(), cards: [], day: { date: localDate(NOW), reviewsDone: 0, capsulesDone: [] }, now: NOW });
+    const day = { date: localDate(NOW), reviewsDone: 0, capsulesDone: [] };
+    const { rerender } = render(<TodayScreen plan={plan} day={day} firstTime />);
+    expect(screen.getByText("Cómo empezar")).toBeTruthy();
+    rerender(<TodayScreen plan={plan} day={day} />);
+    expect(screen.queryByText("Cómo empezar")).toBeNull();
+  });
+});
+
+describe("SettingsScreen", () => {
+  it("restaura una copia válida y rechaza una dañada sin tocar el progreso", async () => {
+    const store = memoryStore();
+    vi.stubGlobal("confirm", () => true);
+    render(<SettingsScreen store={store} memoryOnly={false} />);
+    const input = screen.getByLabelText("Restaurar desde una copia") as HTMLInputElement;
+    const bad = new File(["{"], "malo.json", { type: "application/json" });
+    Object.defineProperty(bad, "text", { value: async () => "{" });
+    fireEvent.change(input, { target: { files: [bad] } });
+    expect((await screen.findByRole("alert")).textContent).toMatch(/no es una copia/i);
+    const good = new File([""], "bien.json");
+    Object.defineProperty(good, "text", { value: async () => JSON.stringify({ app: "italiano-contrastivo", version: 1, exportedAt: "x", cards: [], logs: [], days: [{ date: "2026-11-17", reviewsDone: 3, capsulesDone: [] }] }) });
+    fireEvent.change(input, { target: { files: [good] } });
+    await screen.findByText(/Progreso restaurado/);
+    expect((await store.getDay("2026-11-17")).reviewsDone).toBe(3);
+  });
+  it("avisa si el progreso solo vive en memoria", () => {
+    render(<SettingsScreen store={memoryStore()} memoryOnly />);
+    expect(screen.getByRole("alert").textContent).toMatch(/se perderá/);
   });
 });

@@ -15,6 +15,7 @@ describe("detectErrors: errores típicos del español", () => {
     ["C'è due libri sul tavolo.", "ERR_CE_AGREEMENT"],
     ["Vedo a Marco ogni giorno.", "ERR_PERSONAL_A"],
     ["Mia casa è grande.", "ERR_POSSESSIVE_ARTICLE"],
+    ["Ha perso tutti suoi soldi.", "ERR_POSSESSIVE_ARTICLE"],
     ["Vado a la scuola.", "ERR_PREP_ARTICLE_CONTRACTION"],
     ["Il libro è in il cassetto.", "ERR_PREP_ARTICLE_CONTRACTION"],
     ["Sono più alto che lui.", "ERR_COMPARATIVE_DI"],
@@ -34,7 +35,7 @@ describe("detectErrors: no marca italiano correcto", () => {
     "Sono andato a casa.", "Vado a Roma.", "Vivo in Italia.", "C'è un gatto.", "Ci sono due libri.",
     "Vedo Marco.", "La mia casa è grande.", "Mio fratello è alto.", "Questo è mio.", "Vado alla scuola.",
     "Il libro è nel cassetto.", "Sono più alto di lui.", "Ho fame.", "Ho mangiato la pizza.", "Ha salito le scale.",
-    "È più bello che utile.", "Casa mia è grande.", "Ho un amico mio che vive a Roma.", "Mamma mia che bello.", "Dio mio!", "Di là c'è un bar.",
+    "È più bello che utile.", "Casa mia è grande.", "Tutti i miei amici sono qui.", "Ho due miei amici a casa.", "Ho un amico mio che vive a Roma.", "Mamma mia che bello.", "Dio mio!", "Di là c'è un bar.",
   ])("%s", (t) => expect(detectErrors(t)).toEqual([]));
 
   it("ninguna oración validada del paquete sale marcada", () => {

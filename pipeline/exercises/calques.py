@@ -68,7 +68,9 @@ def _after_copula(before: str) -> bool:
 _AUX = re.compile(r"\b(è|È|sei|Sei|siamo|Siamo|siete|Siete)(?= (?:andat|venut|arrivat|partit|uscit|entrat|nat|mort|salit|sces)[oaie]\b)")
 _PLACE = re.compile(rf"\b(a|A) (?=(?:{CITIES})\b)|\b(in|In) (?=(?:{COUNTRIES})\b)")
 _CE = re.compile(r"\b(Ci sono|ci sono|C['’]è|c['’]è) ([\w']+)")
-_PERSONAL = re.compile(rf"\b(?:{PEOPLE_VERBS}) ((?!(?:{CITIES}|{COUNTRIES})\b)[A-Z]\w+)")
+_PERSONAL = re.compile(rf"\b({PEOPLE_VERBS}) ((?!(?:{CITIES}|{COUNTRIES}|New|San|Santa)\b)[A-Z]\w+)")
+# Con estos pronombres delante el verbo es reflexivo («mi chiamo Ludwig») o el objeto ya está dicho («lo ama Mary»).
+_CLITIC_BEFORE = {"mi", "ti", "si", "ci", "vi", "lo", "la", "li", "le", "ne", "gli"}
 _POSS = re.compile(r"\b(il|Il|la|La|i|I|le|Le) ((?:mi|tu|su|nostr|vostr)[oaie]|miei|tuoi|suoi|loro|mie|tue|sue)(?= (\w+))")
 _CONTR = re.compile(r"\b(" + "|".join(sorted(CONTRACTIONS, key=len, reverse=True)).replace("'", "['’]") + r")\b", re.I)
 _COMP = re.compile(r"\b(?:più|meno) \w+ (di) (?=(?:me|te|lui|lei|noi|voi|loro|[A-Z]\w+)\b)")
@@ -102,8 +104,11 @@ def _ce_agreement(it: str):
 
 
 def _personal_a(it: str):
-    m = _only(_PERSONAL, it)
-    return m and Calque("ERR_PERSONAL_A", m.start(1), m.end(1), m.group(1), "a " + m.group(1), "l1_calque")
+    found = [m for m in _PERSONAL.finditer(it) if (re.findall(r"[\w']+", it[:m.start(1)].lower()) or [""])[-1] not in _CLITIC_BEFORE]
+    if len(found) != 1:
+        return None
+    m = found[0]
+    return Calque("ERR_PERSONAL_A", m.start(2), m.end(2), m.group(2), "a " + m.group(2), "l1_calque")
 
 
 def _possessive_article(it: str):
