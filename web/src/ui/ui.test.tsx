@@ -290,3 +290,13 @@ describe("etiqueta de grabación nativa", () => {
     expect(screen.getByText(/grabación de un hablante nativo/)).toBeTruthy();
   });
 });
+
+describe("AboutScreen: voces", () => {
+  it("declara la voz sintética Piper (CC BY 4.0) y las grabaciones nativas (CC BY-SA 4.0)", () => {
+    render(<AboutScreen manifest={pack().manifest} sentences={[]} />);
+    const piper = screen.getByText(/Piper/);
+    expect(piper.textContent).toMatch(/voz sintética/);
+    expect(piper.textContent).toMatch(/CC BY 4\.0/);
+    expect(screen.getByText(/Lingua Libre/).textContent).toMatch(/CC BY-SA 4\.0/);
+  });
+});
