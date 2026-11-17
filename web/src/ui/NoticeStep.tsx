@@ -1,13 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import type { ContentPack, Unit } from "../content/load";
-import { meaningQuestions, noticeCards } from "../state/steps";
+import { meaningQuestions, noticeCards, unitSentences } from "../state/steps";
 import { recordSample } from "../state/timing";
 import { SpeakButton } from "./SpeakButton";
 
 /** «Descubre»: ejemplos reales con el punto clave resaltado, y dos preguntas de inferencia de significado. */
 export function NoticeStep({ unit, pack, onFinish }: { unit: Unit; pack: ContentPack; onFinish: () => void }) {
   const cards = noticeCards(unit, pack);
-  const questions = meaningQuestions(cards);
+  const questions = meaningQuestions(cards, unitSentences(unit, pack));
   const [i, setI] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const started = useRef(Date.now());

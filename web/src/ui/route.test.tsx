@@ -95,10 +95,10 @@ describe("pantallas de la ruta con el contenido real", () => {
     const store = memoryStore();
     await finishTest(store, "u01", 10, 10, NOW);
     render(<RouteScreen views={unitViews(pack.course, await store.allUnits())} pack={pack} />);
-    expect(screen.getByText(/1 de 8 unidades completadas/)).toBeTruthy();
+    expect(screen.getByText(/1 de 12 unidades completadas/)).toBeTruthy();
     expect(screen.getByText("Completada")).toBeTruthy();
     expect(screen.getByText(/Siguiente: Descubre/)).toBeTruthy();
-    expect(screen.getAllByText("Se abre al completar la anterior").length).toBe(6);
+    expect(screen.getAllByText("Se abre al completar la anterior").length).toBe(10);
     expect(screen.getByText("Consonantes dobles")).toBeTruthy();
     expect(screen.getAllByText(/próximamente/).length).toBe(pack.course.planned.length);
   });

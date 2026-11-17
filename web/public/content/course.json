@@ -112,6 +112,91 @@
     {
       "id": "u02",
       "level": "A1",
+      "title": "Escribir mio, tuo, suo (no mi, tu, su)",
+      "goal_es": "El posesivo italiano cambia de forma: il mio libro, la tua casa, i suoi amici; «mi», «tu» y «su» son formas del español.",
+      "codes": [
+        "ERR_POSSESSIVE_SPELLING"
+      ],
+      "why_here": "Va justo después del artículo con posesivo: es la misma estructura vista por su forma.",
+      "status": "active",
+      "explanation_es": "El posesivo español 'mi' se escribe mio en italiano cuando es masculino singular.",
+      "parts": {
+        "descubre": [
+          "s_10152075",
+          "s_377545",
+          "s_374617",
+          "s_13976565"
+        ],
+        "practica": [
+          "s_10152075",
+          "s_377545",
+          "s_374617",
+          "s_13976565",
+          "s_6039237",
+          "s_1083499",
+          "s_1195313",
+          "s_2758388",
+          "s_6612336",
+          "s_11816160",
+          "s_1126956",
+          "s_9723298",
+          "s_1482371",
+          "s_2448704",
+          "s_6613691",
+          "s_3106543",
+          "s_1141626",
+          "s_7833887",
+          "s_389110"
+        ],
+        "escucha": [
+          "s_10152075",
+          "s_374617",
+          "s_6039237",
+          "s_1195313",
+          "s_6612336",
+          "s_1126956",
+          "s_1482371",
+          "s_6613691"
+        ],
+        "prueba": [
+          "s_1005627",
+          "s_1306655",
+          "s_2841533",
+          "s_4347087",
+          "s_4656878",
+          "s_13694648"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_10152075",
+          "start": 3,
+          "end": 6,
+          "wrong": "mis"
+        },
+        {
+          "id": "s_377545",
+          "start": 10,
+          "end": 13,
+          "wrong": "tu"
+        },
+        {
+          "id": "s_374617",
+          "start": 12,
+          "end": 16,
+          "wrong": "mis"
+        },
+        {
+          "id": "s_13976565",
+          "start": 16,
+          "end": 19,
+          "wrong": "mi"
+        }
+      ]
+    },
+    {
+      "id": "u03",
+      "level": "A1",
       "title": "Hay: c'è y ci sono",
       "goal_es": "Elegir c'è (uno) o ci sono (varios): el español «hay» no cambia.",
       "codes": [
@@ -190,7 +275,7 @@
       ]
     },
     {
-      "id": "u03",
+      "id": "u04",
       "level": "A1",
       "title": "Tener no es «tenere»: ho fame",
       "goal_es": "Sensaciones y edad con avere (ho fame, ho paura), no con tenere.",
@@ -279,7 +364,7 @@
       ]
     },
     {
-      "id": "u04",
+      "id": "u05",
       "level": "A1",
       "title": "Ciudades y países: a / in",
       "goal_es": "Vivo a Roma, vivo in Italia: ciudades con a, países con in.",
@@ -362,7 +447,7 @@
       ]
     },
     {
-      "id": "u05",
+      "id": "u06",
       "level": "A1",
       "title": "Preposición + artículo: nel, sul, dal",
       "goal_es": "Fundir preposición y artículo: nella, no «in la».",
@@ -447,7 +532,89 @@
       ]
     },
     {
-      "id": "u06",
+      "id": "u07",
+      "level": "A1",
+      "title": "Il, lo, l' y gli, i: elegir el artículo",
+      "goal_es": "Ante s+consonante, z, gn o ps se usa lo (lo studente) y gli (gli studenti), no il / i.",
+      "codes": [
+        "ERR_ARTICLE_ALLOMORPH"
+      ],
+      "why_here": "Cierra los artículos de A1 una vez vistas las contracciones.",
+      "status": "active",
+      "explanation_es": "Elección il / lo / l': il studente, il stesso Dante e il amore son errores frecuentes de hispanohablantes.",
+      "parts": {
+        "descubre": [
+          "s_10636288",
+          "s_2457911",
+          "s_3343673",
+          "s_708790"
+        ],
+        "practica": [
+          "s_10636288",
+          "s_2457911",
+          "s_3343673",
+          "s_708790",
+          "s_12026400",
+          "s_3669699",
+          "s_719226",
+          "s_984709",
+          "s_690617",
+          "s_1239005",
+          "s_1433807",
+          "s_1127638",
+          "s_1017047",
+          "s_1021057",
+          "s_2282212",
+          "s_797199"
+        ],
+        "escucha": [
+          "s_10636288",
+          "s_3343673",
+          "s_12026400",
+          "s_719226",
+          "s_690617",
+          "s_1433807",
+          "s_1017047",
+          "s_2282212"
+        ],
+        "prueba": [
+          "s_3236013",
+          "s_425792",
+          "s_388782",
+          "s_3627155",
+          "s_3161121",
+          "s_13894907"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_10636288",
+          "start": 10,
+          "end": 13,
+          "wrong": "i"
+        },
+        {
+          "id": "s_2457911",
+          "start": 8,
+          "end": 11,
+          "wrong": "i"
+        },
+        {
+          "id": "s_3343673",
+          "start": 15,
+          "end": 18,
+          "wrong": "i"
+        },
+        {
+          "id": "s_708790",
+          "start": 17,
+          "end": 20,
+          "wrong": "i"
+        }
+      ]
+    },
+    {
+      "id": "u08",
       "level": "A2",
       "title": "Sono andato: el auxiliar essere",
       "goal_es": "Verbos de movimiento y cambio piden essere: sono andato, no «ho andato».",
@@ -527,7 +694,91 @@
       ]
     },
     {
-      "id": "u07",
+      "id": "u09",
+      "level": "A2",
+      "title": "Siamo andati: el participio concuerda",
+      "goal_es": "Con essere el participio concuerda con el sujeto: siamo andati / andate, nunca «siamo andato».",
+      "codes": [
+        "ERR_PARTICIPLE_AGREEMENT"
+      ],
+      "why_here": "Continúa la unidad del auxiliar essere.",
+      "status": "active",
+      "explanation_es": "Con essere el participio concuerda en género y número con el sujeto.",
+      "parts": {
+        "descubre": [
+          "s_1152789",
+          "s_529428",
+          "s_529432",
+          "s_3174439"
+        ],
+        "practica": [
+          "s_1152789",
+          "s_529428",
+          "s_529432",
+          "s_3174439",
+          "s_950173",
+          "s_1082620",
+          "s_7681452",
+          "s_7681454",
+          "s_1442900",
+          "s_529191",
+          "s_418435",
+          "s_1210737",
+          "s_1358832",
+          "s_7844546",
+          "s_965625",
+          "s_398002",
+          "s_1367022",
+          "s_1501957"
+        ],
+        "escucha": [
+          "s_1152789",
+          "s_529432",
+          "s_950173",
+          "s_7681452",
+          "s_1442900",
+          "s_418435",
+          "s_1358832",
+          "s_965625"
+        ],
+        "prueba": [
+          "s_5805500",
+          "s_10819798",
+          "s_14000522",
+          "s_861399",
+          "s_3585065",
+          "s_13894907"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1152789",
+          "start": 6,
+          "end": 12,
+          "wrong": "venuto"
+        },
+        {
+          "id": "s_529428",
+          "start": 18,
+          "end": 22,
+          "wrong": "nato"
+        },
+        {
+          "id": "s_529432",
+          "start": 18,
+          "end": 22,
+          "wrong": "nato"
+        },
+        {
+          "id": "s_3174439",
+          "start": 10,
+          "end": 16,
+          "wrong": "andato"
+        }
+      ]
+    },
+    {
+      "id": "u10",
       "level": "A2",
       "title": "Sin «a» personal",
       "goal_es": "Veo a Marco → vedo Marco: el italiano no marca el objeto directo de persona con a.",
@@ -608,7 +859,7 @@
       ]
     },
     {
-      "id": "u08",
+      "id": "u11",
       "level": "A2",
       "title": "Más alto di me: comparativos",
       "goal_es": "Con nombres o pronombres el segundo término lleva di, no che.",
@@ -684,6 +935,86 @@
           "wrong": "che"
         }
       ]
+    },
+    {
+      "id": "u12",
+      "level": "B1",
+      "title": "Congiuntivo tras creer y pensar",
+      "goal_es": "Credo che sia, no «credo che è»: los verbos de opinión piden congiuntivo.",
+      "codes": [
+        "ERR_CONGIUNTIVO_OPINION"
+      ],
+      "why_here": "Primer punto del B1 según las fuentes (el español usa indicativo con «creo que»).",
+      "status": "active",
+      "explanation_es": "Credere, pensare, ritenere y parere piden congiuntivo; el español usa indicativo (creo que tiene).",
+      "parts": {
+        "descubre": [
+          "s_399292",
+          "s_380758",
+          "s_380817",
+          "s_850864"
+        ],
+        "practica": [
+          "s_399292",
+          "s_380758",
+          "s_380817",
+          "s_850864",
+          "s_3176207",
+          "s_1246391",
+          "s_401195",
+          "s_1038767",
+          "s_3001298",
+          "s_1271110",
+          "s_3865880",
+          "s_780573",
+          "s_4631750",
+          "s_614240"
+        ],
+        "escucha": [
+          "s_399292",
+          "s_380758",
+          "s_380817",
+          "s_850864",
+          "s_3176207",
+          "s_1246391",
+          "s_401195",
+          "s_1038767"
+        ],
+        "prueba": [
+          "s_4420797",
+          "s_6832144",
+          "s_762905",
+          "s_4631751",
+          "s_10461738",
+          "s_977536"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_399292",
+          "start": 10,
+          "end": 13,
+          "wrong": "è"
+        },
+        {
+          "id": "s_380758",
+          "start": 10,
+          "end": 13,
+          "wrong": "è"
+        },
+        {
+          "id": "s_380817",
+          "start": 10,
+          "end": 13,
+          "wrong": "è"
+        },
+        {
+          "id": "s_850864",
+          "start": 10,
+          "end": 13,
+          "wrong": "è"
+        }
+      ]
     }
   ],
   "planned": [
@@ -711,11 +1042,6 @@
       "level": "A2",
       "title": "Ci y ne",
       "reason": "Sin generador fiable todavía."
-    },
-    {
-      "level": "B1",
-      "title": "Congiuntivo tras creer y pensar",
-      "reason": "Faltan oraciones validadas en B1."
     },
     {
       "level": "B1",

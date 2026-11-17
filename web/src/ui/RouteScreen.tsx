@@ -1,6 +1,7 @@
 import type { ContentPack } from "../content/load";
 import { STEP_LABEL, STEPS, summary, type UnitView } from "../state/course";
 import { stepSeconds } from "../state/steps";
+import { STEPS as ALL_STEPS } from "../state/course";
 import { formatDuration, loadSamples } from "../state/timing";
 
 const ICON = { completed: "✓", current: "▶", locked: "🔒" } as const;
@@ -20,7 +21,11 @@ export function RouteScreen({ views, pack }: { views: UnitView[]; pack: ContentP
         return (
           <section key={level.id}>
             <h2>{level.title}</h2>
-            <p><small>Referencia de las fuentes: {level.guided_hours}.</small></p>
+            <p><small>
+              En la app hoy: {units.length} {units.length === 1 ? "unidad" : "unidades"}
+              {units.length ? ` (${formatDuration(units.reduce((t, v) => t + ALL_STEPS.reduce((a, s) => a + stepSeconds(v.unit, s, pack, samples), 0), 0))} de pasos, sin contar repasos)` : ""}.
+              Referencia de las fuentes para llegar al nivel: {level.guided_hours}.
+            </small></p>
             <ul className="route">
               {units.map((v) => (
                 <li key={v.unit.id} data-state={v.state}>

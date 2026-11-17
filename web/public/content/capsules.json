@@ -3,6 +3,164 @@
     "cefr": "A1",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "El posesivo español 'mi' se escribe mio en italiano cuando es masculino singular."
+    },
+    "id": "cap_err_possessive_spelling",
+    "retrieval": [
+      {
+        "id": "it_choice_s_377545_ERR_POSSESSIVE_SPELLING",
+        "options": [
+          {
+            "correct": true,
+            "text": "Qual è la tua opinione?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_POSSESSIVE_SPELLING",
+            "text": "Qual è la tu opinione?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_377545",
+        "target_error_codes": [
+          "ERR_POSSESSIVE_SPELLING"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "miei"
+        ],
+        "hint_es": "¿Dónde están mis gafas?",
+        "id": "it_cloze_s_374617_ERR_POSSESSIVE_SPELLING",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_374617",
+        "target_error_codes": [
+          "ERR_POSSESSIVE_SPELLING"
+        ],
+        "text": "Dove sono i ___ occhiali?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Non",
+          "mi",
+          "piace",
+          "il",
+          "mio",
+          "aspetto."
+        ],
+        "id": "it_reorder_s_13976565_ERR_POSSESSIVE_SPELLING",
+        "prompt_es": "Ordena las palabras: «No me gusta mi apariencia.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_13976565",
+        "target_error_codes": [
+          "ERR_POSSESSIVE_SPELLING"
+        ],
+        "tokens": [
+          "mi",
+          "Non",
+          "piace",
+          "il",
+          "aspetto.",
+          "mio"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_6039237_ERR_POSSESSIVE_SPELLING",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_POSSESSIVE_SPELLING",
+            "text": "Dov'è il tu altro orecchino?"
+          },
+          {
+            "correct": true,
+            "text": "Dov'è il tuo altro orecchino?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_6039237",
+        "target_error_codes": [
+          "ERR_POSSESSIVE_SPELLING"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "miei"
+        ],
+        "hint_es": "Quiero verlo con mis ojos.",
+        "id": "it_cloze_s_1083499_ERR_POSSESSIVE_SPELLING",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1083499",
+        "target_error_codes": [
+          "ERR_POSSESSIVE_SPELLING"
+        ],
+        "text": "Voglio vederlo con i ___ occhi.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Dovreste",
+          "vedere",
+          "il",
+          "mio",
+          "gatto",
+          "ora."
+        ],
+        "id": "it_reorder_s_1195313_ERR_POSSESSIVE_SPELLING",
+        "prompt_es": "Ordena las palabras: «Deberías ver a mi gato ahora.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1195313",
+        "target_error_codes": [
+          "ERR_POSSESSIVE_SPELLING"
+        ],
+        "tokens": [
+          "mio",
+          "vedere",
+          "ora.",
+          "il",
+          "Dovreste",
+          "gatto"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Le mie sono peggio."
+      ],
+      "id": "it_translate_s_10152075_ERR_POSSESSIVE_SPELLING",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_10152075",
+      "source_es": "Las mías son peores.",
+      "target_error_codes": [
+        "ERR_POSSESSIVE_SPELLING"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "En italiano el posesivo lleva artículo (il mio libro), salvo con parentesco singular (mio fratello). El español 'mi libro' no lo lleva, y 'mi hermano' tampoco, lo que induce a omitirlo o a sobreusarlo."
     },
     "id": "cap_err_possessive_article",
@@ -153,6 +311,162 @@
       "source_es": "Su novio es turco.",
       "target_error_codes": [
         "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Elección il / lo / l': il studente, il stesso Dante e il amore son errores frecuentes de hispanohablantes."
+    },
+    "id": "cap_err_article_allomorph",
+    "retrieval": [
+      {
+        "id": "it_choice_s_2457911_ERR_ARTICLE_ALLOMORPH",
+        "options": [
+          {
+            "correct": true,
+            "text": "Mary ha gli occhi grandi."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_ARTICLE_ALLOMORPH",
+            "text": "Mary ha i occhi grandi."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2457911",
+        "target_error_codes": [
+          "ERR_ARTICLE_ALLOMORPH"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "gli"
+        ],
+        "hint_es": "Me gustan los relojes.",
+        "id": "it_cloze_s_3343673_ERR_ARTICLE_ALLOMORPH",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3343673",
+        "target_error_codes": [
+          "ERR_ARTICLE_ALLOMORPH"
+        ],
+        "text": "A me piacciono ___ orologi.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Il",
+          "ragazzo",
+          "porta",
+          "gli",
+          "occhiali."
+        ],
+        "id": "it_reorder_s_708790_ERR_ARTICLE_ALLOMORPH",
+        "prompt_es": "Ordena las palabras: «El muchacho usa anteojos.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_708790",
+        "target_error_codes": [
+          "ERR_ARTICLE_ALLOMORPH"
+        ],
+        "tokens": [
+          "porta",
+          "gli",
+          "occhiali.",
+          "ragazzo",
+          "Il"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_12026400_ERR_ARTICLE_ALLOMORPH",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_ARTICLE_ALLOMORPH",
+            "text": "I elefanti bevono molta acqua."
+          },
+          {
+            "correct": true,
+            "text": "Gli elefanti bevono molta acqua."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_12026400",
+        "target_error_codes": [
+          "ERR_ARTICLE_ALLOMORPH"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Gli"
+        ],
+        "hint_es": "¡Los animales no son juguetes!",
+        "id": "it_cloze_s_3669699_ERR_ARTICLE_ALLOMORPH",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3669699",
+        "target_error_codes": [
+          "ERR_ARTICLE_ALLOMORPH"
+        ],
+        "text": "___ animali non sono giocattoli!",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Gli",
+          "italiani",
+          "non",
+          "bevono",
+          "mai",
+          "caffè."
+        ],
+        "id": "it_reorder_s_719226_ERR_ARTICLE_ALLOMORPH",
+        "prompt_es": "Ordena las palabras: «Los italianos no beben nunca café.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_719226",
+        "target_error_codes": [
+          "ERR_ARTICLE_ALLOMORPH"
+        ],
+        "tokens": [
+          "caffè.",
+          "non",
+          "italiani",
+          "Gli",
+          "mai",
+          "bevono"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Dove sono gli ascensori?"
+      ],
+      "id": "it_translate_s_10636288_ERR_ARTICLE_ALLOMORPH",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_10636288",
+      "source_es": "¿Dónde están los ascensores?",
+      "target_error_codes": [
+        "ERR_ARTICLE_ALLOMORPH"
       ],
       "type": "translate_es_it"
     }
@@ -1081,6 +1395,160 @@
     "cefr": "A2",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Con essere el participio concuerda en género y número con el sujeto."
+    },
+    "id": "cap_err_participle_agreement",
+    "retrieval": [
+      {
+        "id": "it_choice_s_529428_ERR_PARTICIPLE_AGREEMENT",
+        "options": [
+          {
+            "correct": true,
+            "text": "In che anno siete nate?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PARTICIPLE_AGREEMENT",
+            "text": "In che anno siete nato?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_529428",
+        "target_error_codes": [
+          "ERR_PARTICIPLE_AGREEMENT"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "nati"
+        ],
+        "hint_es": "¿En qué año nacisteis?",
+        "id": "it_cloze_s_529432_ERR_PARTICIPLE_AGREEMENT",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_529432",
+        "target_error_codes": [
+          "ERR_PARTICIPLE_AGREEMENT"
+        ],
+        "text": "In che anno siete ___?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Non",
+          "siamo",
+          "andati",
+          "a",
+          "Torino."
+        ],
+        "id": "it_reorder_s_3174439_ERR_PARTICIPLE_AGREEMENT",
+        "prompt_es": "Ordena las palabras: «No fuimos a Turín.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3174439",
+        "target_error_codes": [
+          "ERR_PARTICIPLE_AGREEMENT"
+        ],
+        "tokens": [
+          "andati",
+          "siamo",
+          "Non",
+          "Torino.",
+          "a"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_950173_ERR_PARTICIPLE_AGREEMENT",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PARTICIPLE_AGREEMENT",
+            "text": "Siete venuto troppo tardi."
+          },
+          {
+            "correct": true,
+            "text": "Siete venuti troppo tardi."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_950173",
+        "target_error_codes": [
+          "ERR_PARTICIPLE_AGREEMENT"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "usciti"
+        ],
+        "hint_es": "Salimos por la ventana.",
+        "id": "it_cloze_s_1082620_ERR_PARTICIPLE_AGREEMENT",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1082620",
+        "target_error_codes": [
+          "ERR_PARTICIPLE_AGREEMENT"
+        ],
+        "text": "Siamo ___ dalla finestra.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Siamo",
+          "nati",
+          "nello",
+          "stesso",
+          "anno."
+        ],
+        "id": "it_reorder_s_7681452_ERR_PARTICIPLE_AGREEMENT",
+        "prompt_es": "Ordena las palabras: «Nacimos el mismo año.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_7681452",
+        "target_error_codes": [
+          "ERR_PARTICIPLE_AGREEMENT"
+        ],
+        "tokens": [
+          "nati",
+          "Siamo",
+          "nello",
+          "anno.",
+          "stesso"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Siete venute in città?"
+      ],
+      "id": "it_translate_s_1152789_ERR_PARTICIPLE_AGREEMENT",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1152789",
+      "source_es": "¿Vinisteis a la ciudad?",
+      "target_error_codes": [
+        "ERR_PARTICIPLE_AGREEMENT"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "El español marca el objeto directo animado con 'a'; el italiano no. Verbos típicos: cercare, chiamare, aspettare, vedere, aiutare."
     },
     "id": "cap_err_personal_a",
@@ -1243,6 +1711,158 @@
       "source_es": "No amo a Tom.",
       "target_error_codes": [
         "ERR_PERSONAL_A"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "B1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Credere, pensare, ritenere y parere piden congiuntivo; el español usa indicativo (creo que tiene)."
+    },
+    "id": "cap_err_congiuntivo_opinion",
+    "retrieval": [
+      {
+        "id": "it_choice_s_380758_ERR_CONGIUNTIVO_OPINION",
+        "options": [
+          {
+            "correct": true,
+            "text": "Credo che sia felice."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_CONGIUNTIVO_OPINION",
+            "text": "Credo che è felice."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_380758",
+        "target_error_codes": [
+          "ERR_CONGIUNTIVO_OPINION"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "sia"
+        ],
+        "hint_es": "Creo que ella está enferma.",
+        "id": "it_cloze_s_380817_ERR_CONGIUNTIVO_OPINION",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_380817",
+        "target_error_codes": [
+          "ERR_CONGIUNTIVO_OPINION"
+        ],
+        "text": "Credo che ___ malata.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Penso",
+          "che",
+          "sia",
+          "felice."
+        ],
+        "id": "it_reorder_s_850864_ERR_CONGIUNTIVO_OPINION",
+        "prompt_es": "Ordena las palabras: «Creo que él es feliz.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_850864",
+        "target_error_codes": [
+          "ERR_CONGIUNTIVO_OPINION"
+        ],
+        "tokens": [
+          "che",
+          "sia",
+          "Penso",
+          "felice."
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_3176207_ERR_CONGIUNTIVO_OPINION",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_CONGIUNTIVO_OPINION",
+            "text": "Credi che deve farlo?"
+          },
+          {
+            "correct": true,
+            "text": "Credi che debba farlo?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3176207",
+        "target_error_codes": [
+          "ERR_CONGIUNTIVO_OPINION"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "sia"
+        ],
+        "hint_es": "Creo que él está enojado.",
+        "id": "it_cloze_s_1246391_ERR_CONGIUNTIVO_OPINION",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1246391",
+        "target_error_codes": [
+          "ERR_CONGIUNTIVO_OPINION"
+        ],
+        "text": "Penso che ___ arrabbiato.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Non",
+          "penso",
+          "che",
+          "sia",
+          "felice."
+        ],
+        "id": "it_reorder_s_401195_ERR_CONGIUNTIVO_OPINION",
+        "prompt_es": "Ordena las palabras: «No creo que ella esté feliz.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_401195",
+        "target_error_codes": [
+          "ERR_CONGIUNTIVO_OPINION"
+        ],
+        "tokens": [
+          "sia",
+          "penso",
+          "che",
+          "Non",
+          "felice."
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Penso che sia meglio non essere maleducati."
+      ],
+      "id": "it_translate_s_399292_ERR_CONGIUNTIVO_OPINION",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_399292",
+      "source_es": "Creo que lo mejor es no ser maleducado.",
+      "target_error_codes": [
+        "ERR_CONGIUNTIVO_OPINION"
       ],
       "type": "translate_es_it"
     }

@@ -71,6 +71,10 @@ export const dictationSentences = (unit: Unit, pack: ContentPack): PackSentence[
 };
 
 export type NoticeCard = { sentence: PackSentence; start: number; end: number; wrong: string };
+export const unitSentences = (unit: Unit, pack: ContentPack): PackSentence[] => {
+  const idx = sentenceIndex(pack);
+  return unit.parts.practica.map((id) => idx.get(id)).filter((x): x is PackSentence => !!x);
+};
 export const noticeCards = (unit: Unit, pack: ContentPack): NoticeCard[] => {
   const idx = sentenceIndex(pack);
   return unit.divergences.flatMap((d) => {
@@ -80,11 +84,18 @@ export const noticeCards = (unit: Unit, pack: ContentPack): NoticeCard[] => {
 };
 
 export type MeaningQuestion = { sentence: PackSentence; options: string[]; answer: number };
-/** Preguntas de inferencia: «¿qué significa?» con 3 traducciones (la real y dos de otras oraciones de la unidad). */
-export function meaningQuestions(cards: NoticeCard[], count = 2): MeaningQuestion[] {
-  const all = cards.map((c) => c.sentence);
-  return all.slice(0, count).map((sentence, qi) => {
-    const others = all.filter((s) => s.id !== sentence.id && s.es !== sentence.es).slice(0, 2).map((s) => s.es);
+/**
+ * Preguntas de inferencia: «¿qué significa?» con 3 traducciones (la real y dos de otras oraciones de la unidad con
+ * traducción distinta). Los distractores salen de toda la unidad, no solo de las tarjetas mostradas.
+ */
+export function meaningQuestions(cards: NoticeCard[], pool: PackSentence[] = [], count = 2): MeaningQuestion[] {
+  const universe = [...cards.map((c) => c.sentence), ...pool];
+  return cards.slice(0, count).map(({ sentence }, qi) => {
+    const others: string[] = [];
+    for (const s of universe) {
+      if (others.length >= 2) break;
+      if (s.es !== sentence.es && !others.includes(s.es)) others.push(s.es);
+    }
     const options = [...others];
     const answer = (qi + 1) % (others.length + 1);
     options.splice(answer, 0, sentence.es);

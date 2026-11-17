@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import type { ContentPack } from "../content/load";
 import type { Item } from "../generated/item";
-import { dictationSentences, kindOf, meaningQuestions, noticeCards, practiceItems, stepSeconds, testItems, TEST_ITEMS } from "./steps";
+import { dictationSentences, kindOf, meaningQuestions, noticeCards, practiceItems, stepSeconds, testItems, TEST_ITEMS, unitSentences } from "./steps";
 import { estimateSeconds } from "./timing";
 
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
@@ -44,7 +44,7 @@ describe.each(pack.course.units.map((u) => [u.id, u] as const))("unidad %s con e
     expect(dict.every((s) => !!s.audio)).toBe(true);
   });
   it("las preguntas de significado tienen la respuesta correcta en su lugar y opciones distintas", () => {
-    for (const q of meaningQuestions(noticeCards(unit, pack))) {
+    for (const q of meaningQuestions(noticeCards(unit, pack), unitSentences(unit, pack))) {
       expect(q.options[q.answer]).toBe(q.sentence.es);
       expect(new Set(q.options).size).toBe(q.options.length);
       expect(q.options.length).toBe(3);

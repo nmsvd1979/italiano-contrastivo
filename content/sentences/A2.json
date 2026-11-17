@@ -4,6 +4,72 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "Su negocio está siempre lleno de clientes.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1202406",
+    "id": "s_1005627",
+    "it": "Il suo negozio è sempre pieno di clienti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1005627",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "El escándalo arruinó su carrera.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1287655",
+    "id": "s_1017047",
+    "it": "Lo scandalo ha rovinato la sua carriera.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1017047",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "El fútbol es el deporte más popular de todos.",
+    "es_author": "Shishir",
+    "es_source_id": "1020918",
+    "id": "s_1021057",
+    "it": "Il calcio è lo sport più popolare di tutti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1021057",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_GEMINATE_SPELLING",
       "ERR_PREP_FIXED_GOV"
     ],
@@ -124,6 +190,28 @@
       "ERR_AUX_OVERGENERALIZATION": "avere_con_verbo_inergativo",
       "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Salimos por la ventana.",
+    "es_author": "hayastan",
+    "es_source_id": "1082626",
+    "id": "s_1082620",
+    "it": "Siamo usciti dalla finestra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1082620",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -324,6 +412,30 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "Perdí mis anteojos.",
+    "es_author": "nancy",
+    "es_source_id": "1158831",
+    "id": "s_1126956",
+    "it": "Ho perso i miei occhiali.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1126956",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_POSSESSIVE_ARTICLE"
     ],
     "es": "Perdí mi corona.",
@@ -338,6 +450,50 @@
     "source_id": "1126958",
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "Los árboles no crecen hasta el cielo.",
+    "es_author": "hayastan",
+    "es_source_id": "1127983",
+    "id": "s_1127638",
+    "it": "Gli alberi non crescono fino al cielo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1127638",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "¡Hoy no es mi día de suerte!",
+    "es_author": "nancy",
+    "es_source_id": "1141636",
+    "id": "s_1141626",
+    "it": "Oggi non è il mio giorno fortunato!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1141626",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -366,6 +522,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Vinisteis a la ciudad?",
+    "es_author": "Shishir",
+    "es_source_id": "916764",
+    "id": "s_1152789",
+    "it": "Siete venute in città?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1152789",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Adelpa",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -386,6 +566,28 @@
     "source_id": "11642390",
     "tag_rules": {
       "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Estuvimos en Londres dos semanas.",
+    "es_author": "lukaszpp",
+    "es_source_id": "434733",
+    "id": "s_1210737",
+    "it": "Siamo stati a Londra per due settimane.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1210737",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -418,6 +620,28 @@
       "ERR_PARTICIPLE_AGREEMENT": "participio_concuerda_con_essere"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "Los árboles pronto quedarán desnudos.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1331001",
+    "id": "s_1239005",
+    "it": "Gli alberi saranno presto spogli.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1239005",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -611,6 +835,28 @@
       "ERR_MANCARE": "mancare"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "Su asistencia es indispensable para nosotros.",
+    "es_author": "Shishir",
+    "es_source_id": "1333058",
+    "id": "s_1306655",
+    "it": "La sua assistenza è indispensabile per noi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1306655",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Bibi81",
@@ -891,6 +1137,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Llegamos a la oficina a tiempo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1440055",
+    "id": "s_1358832",
+    "it": "Noi siamo arrivati in tempo all'ufficio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1358832",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "carlosalberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -938,6 +1206,28 @@
       "ERR_MANCARE": "mancare"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "De hecho no fuimos testigos de ese accidente.",
+    "es_author": "BraveSentry",
+    "es_source_id": "777274",
+    "id": "s_1367022",
+    "it": "Di fatto non siamo stati testimoni di questo incidente.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1367022",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "riccioberto",
@@ -1013,6 +1303,94 @@
       "ERR_MANCARE": "mancare"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "nancy",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "Los insectos tienen tres pares de patas.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1279333",
+    "id": "s_1433807",
+    "it": "Gli insetti hanno tre paia di zampe.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1433807",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Vinimos aquí para divertirnos.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1439969",
+    "id": "s_1442900",
+    "it": "Siamo venuti qui per divertirci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1442900",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "Su respuesta fue lógica.",
+    "es_author": "darinmex",
+    "es_source_id": "778990",
+    "id": "s_1482371",
+    "it": "La sua risposta era logica.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1482371",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Virgilia",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Las nubes amenazantes se estaban acercando, así que entramos.",
+    "es_author": "Virgilia",
+    "es_source_id": "1501961",
+    "id": "s_1501957",
+    "it": "Le nubi minacciose si stavano avvicinando, così siamo entrati.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1501957",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -1756,6 +2134,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "¡Es exactamente el mismo principio que ésta!",
+    "es_author": "saverius",
+    "es_source_id": "10799331",
+    "id": "s_2282212",
+    "it": "È esattamente lo stesso principio di questa!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2282212",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CE_AGREEMENT"
     ],
     "es": "Hay un pequeño jardín frente a mi casa.",
@@ -1819,6 +2219,28 @@
       "ERR_TENERE_AVERE": "tener_ragione"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "Ella exhibió sus talentos.",
+    "es_author": "darinmex",
+    "es_source_id": "592576",
+    "id": "s_2448704",
+    "it": "Ha mostrato i suoi talenti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2448704",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -2179,6 +2601,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "Ese restaurante es famoso por sus especialidades.",
+    "es_author": "saverius",
+    "es_source_id": "11857980",
+    "id": "s_2841533",
+    "it": "Questo ristorante è rinomato per le sue specialità.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2841533",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -2461,6 +2905,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "Mi opinión era irrelevante.",
+    "es_author": "marcelostockle",
+    "es_source_id": "3106539",
+    "id": "s_3106543",
+    "it": "La mia opinione era irrilevante.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3106543",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -2525,6 +2991,50 @@
     "source_id": "3133312",
     "tag_rules": {
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "No fuimos a Turín.",
+    "es_author": "Seael",
+    "es_source_id": "11728566",
+    "id": "s_3174439",
+    "it": "Non siamo andati a Torino.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3174439",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "En español usamos más que en otros idiomas los artículos.",
+    "es_author": "carlosalberto",
+    "es_source_id": "3236008",
+    "id": "s_3236013",
+    "it": "Usiamo gli articoli più in spagnolo che in altre lingue.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3236013",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3051,6 +3561,72 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "¡Mi idioma no se encuentra en la lista!",
+    "es_author": "anassara",
+    "es_source_id": "715760",
+    "id": "s_389110",
+    "it": "La mia lingua non si trova nella lista!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "389110",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Después de una hora en coche, llegamos al aeropuerto.",
+    "es_author": "hundo",
+    "es_source_id": "987433",
+    "id": "s_398002",
+    "it": "Dopo un'ora di macchina, siamo arrivati all'aeroporto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "398002",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "Creo que lo mejor es no ser maleducado.",
+    "es_author": "Shishir",
+    "es_source_id": "2563",
+    "id": "s_399292",
+    "it": "Penso che sia meglio non essere maleducati.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "399292",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -3069,6 +3645,28 @@
     "source_id": "4078263",
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Fuimos a Londres el año pasado.",
+    "es_author": "Shishir",
+    "es_source_id": "2948",
+    "id": "s_418435",
+    "it": "Siamo andati a Londra l'anno scorso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "418435",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3285,6 +3883,76 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Todos nos hemos hecho comunistas.",
+    "es_author": "Shishir",
+    "es_source_id": "531501",
+    "id": "s_529191",
+    "it": "Siamo diventati tutti comunisti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "529191",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿En qué año nacisteis?",
+    "es_author": "Shishir",
+    "es_source_id": "528812",
+    "id": "s_529428",
+    "it": "In che anno siete nate?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "529428",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿En qué año nacisteis?",
+    "es_author": "Shishir",
+    "es_source_id": "528812",
+    "id": "s_529432",
+    "it": "In che anno siete nati?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "529432",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "dnnywld",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -3475,6 +4143,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "¿Mi amigo era tailandés?",
+    "es_author": "saverius",
+    "es_source_id": "10805406",
+    "id": "s_6613691",
+    "it": "Il mio amico era thailandese?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6613691",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "dnnywld",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -3520,6 +4210,28 @@
       "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "Lincoln liberó a los esclavos.",
+    "es_author": "hayastan",
+    "es_source_id": "1731622",
+    "id": "s_690617",
+    "it": "Lincoln liberò gli schiavi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "690617",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Heracleum",
@@ -3688,6 +4400,50 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Nacimos el mismo año.",
+    "es_author": "Seael",
+    "es_source_id": "10692943",
+    "id": "s_7681452",
+    "it": "Siamo nati nello stesso anno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7681452",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Nacimos el mismo año.",
+    "es_author": "Seael",
+    "es_source_id": "10692943",
+    "id": "s_7681454",
+    "it": "Siamo nate nello stesso anno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7681454",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -3764,6 +4520,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "Estaba visitando a su madre adoptiva.",
+    "es_author": "cueyayotl",
+    "es_source_id": "2253218",
+    "id": "s_7833887",
+    "it": "Stava visitando la sua madre adottiva.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7833887",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_AUX_ESSERE"
     ],
     "es": "Ayer fuimos al centro comercial.",
@@ -3778,6 +4556,50 @@
     "source_id": "7844545",
     "tag_rules": {
       "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Ayer fuimos al centro comercial.",
+    "es_author": "Seael",
+    "es_source_id": "13538651",
+    "id": "s_7844546",
+    "it": "Siamo andate al centro commerciale ieri.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7844546",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "La riqueza no hace más sabios a los hombres.",
+    "es_author": "hayastan",
+    "es_source_id": "1015148",
+    "id": "s_797199",
+    "it": "Le ricchezze non rendono più saggi gli uomini.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "797199",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3877,6 +4699,52 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Vinisteis demasiado tarde.",
+    "es_author": "ecorralest101",
+    "es_source_id": "8730761",
+    "id": "s_950173",
+    "it": "Siete venuti troppo tardi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "950173",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¡Un pequeño esfuerzo más y hemos llegado!",
+    "es_author": "hayastan",
+    "es_source_id": "992249",
+    "id": "s_965625",
+    "it": "Ancora un piccolo sforzo e siamo arrivati!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "965625",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -3904,6 +4772,28 @@
       "ERR_GEMINATE_SPELLING": "geminata_ortografia",
       "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
       "ERR_PREP_PENSARE": "pensare_a"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "¡Mantén tu promesa!",
+    "es_author": "solmyrbcn",
+    "es_source_id": "5853562",
+    "id": "s_9723298",
+    "it": "Mantieni la tua promessa!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9723298",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
     },
     "translation_kind": "direct"
   },

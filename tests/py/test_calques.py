@@ -25,6 +25,19 @@ POSITIVES = [
     ("ERR_COMPARATIVE_DI", "È più alto di me.", "È più alto che me.", "di", "l1_calque"),
     ("ERR_TENERE_AVERE", "Vedrai che ho ragione.", "Vedrai che tengo ragione.", "ho", "l1_calque"),
     ("ERR_TENERE_AVERE", "Ho fame.", "Tengo fame.", "Ho", "l1_calque"),
+    ("ERR_ARTICLE_ALLOMORPH", "Lo studente legge un libro.", "Il studente legge un libro.", "Lo", "morphological"),
+    ("ERR_ARTICLE_ALLOMORPH", "Ho visto lo zio ieri.", "Ho visto il zio ieri.", "lo", "morphological"),
+    ("ERR_ARTICLE_ALLOMORPH", "Gli amici sono arrivati.", "I amici sono arrivati.", "Gli", "morphological"),
+    ("ERR_ARTICLE_ALLOMORPH", "Conosco gli studenti.", "Conosco i studenti.", "gli", "morphological"),
+    ("ERR_PARTICIPLE_AGREEMENT", "Noi siamo andati a casa.", "Noi siamo andato a casa.", "andati", "morphological"),
+    ("ERR_PARTICIPLE_AGREEMENT", "Voi siete arrivate tardi.", "Voi siete arrivato tardi.", "arrivate", "morphological"),
+    ("ERR_PARTICIPLE_AGREEMENT", "Siamo stati a Roma.", "Siamo stato a Roma.", "stati", "morphological"),
+    ("ERR_POSSESSIVE_SPELLING", "Il mio libro è sul tavolo.", "Il mi libro è sul tavolo.", "mio", "morphological"),
+    ("ERR_POSSESSIVE_SPELLING", "La tua casa è bella.", "La tu casa è bella.", "tua", "morphological"),
+    ("ERR_POSSESSIVE_SPELLING", "Ho visto i suoi amici.", "Ho visto i sus amici.", "suoi", "morphological"),
+    ("ERR_CONGIUNTIVO_OPINION", "Penso che sia vero.", "Penso che è vero.", "sia", "l1_calque"),
+    ("ERR_CONGIUNTIVO_OPINION", "Credo che abbiano ragione.", "Credo che hanno ragione.", "abbiano", "l1_calque"),
+    ("ERR_CONGIUNTIVO_OPINION", "Non credo che vada a Roma.", "Non credo che va a Roma.", "vada", "l1_calque"),
 ]
 
 
@@ -54,6 +67,17 @@ def test_sin_patron_devuelve_none(code):
     ("ERR_PERSONAL_A", "La sorella di Joao si chiama Joana."),
     ("ERR_PERSONAL_A", "Tom sa quanto lo ama Mary."),  # clítico de objeto: Mary es el sujeto
     ("ERR_PERSONAL_A", "Lui conosce New York come le sue tasche."),  # lugar, no persona
+    ("ERR_ARTICLE_ALLOMORPH", "Il libro è sul tavolo."),  # il + consonante normal
+    ("ERR_ARTICLE_ALLOMORPH", "Lo studente e lo zio sono qui."),  # dos casos
+    ("ERR_ARTICLE_ALLOMORPH", "Vedo l'amico."),  # elisión: no se cubre
+    ("ERR_PARTICIPLE_AGREEMENT", "Marco è andato a casa."),  # ya masculino singular
+    ("ERR_PARTICIPLE_AGREEMENT", "Maria è andata a casa."),  # «è andato» puede ser válido (impersonal, otro sujeto)
+    ("ERR_PARTICIPLE_AGREEMENT", "Ci sono stata."),  # «sono stato» es válido si habla un hombre
+    ("ERR_PARTICIPLE_AGREEMENT", "Ho mangiato la pizza."),  # avere
+    ("ERR_POSSESSIVE_SPELLING", "Mio fratello è alto."),  # sin artículo antes
+    ("ERR_POSSESSIVE_SPELLING", "Il mio libro e il tuo libro."),  # dos casos
+    ("ERR_CONGIUNTIVO_OPINION", "So che è vero."),  # no es verbo de opinión
+    ("ERR_CONGIUNTIVO_OPINION", "Penso che Marco parli bene."),  # forma fuera de la lista cerrada
 ])
 def test_casos_ambiguos_o_validos_devuelven_none(code, it):
     assert find_calque(code, it) is None
@@ -62,8 +86,12 @@ def test_casos_ambiguos_o_validos_devuelven_none(code, it):
 def test_los_codigos_cubiertos():
     assert set(calques.CALQUE_CODES) == {
         "ERR_AUX_ESSERE", "ERR_PREP_PLACE", "ERR_CE_AGREEMENT", "ERR_PERSONAL_A",
-        "ERR_POSSESSIVE_ARTICLE", "ERR_PREP_ARTICLE_CONTRACTION", "ERR_COMPARATIVE_DI", "ERR_TENERE_AVERE"}
+        "ERR_POSSESSIVE_ARTICLE", "ERR_PREP_ARTICLE_CONTRACTION", "ERR_COMPARATIVE_DI", "ERR_TENERE_AVERE",
+        "ERR_ARTICLE_ALLOMORPH", "ERR_PARTICIPLE_AGREEMENT", "ERR_POSSESSIVE_SPELLING", "ERR_CONGIUNTIVO_OPINION"}
     assert find_calque("ERR_NO_EXISTE", "Ho fame.") is None
+
+
+NEW_CODES = {"ERR_ARTICLE_ALLOMORPH", "ERR_PARTICIPLE_AGREEMENT", "ERR_POSSESSIVE_SPELLING", "ERR_CONGIUNTIVO_OPINION"}
 
 
 def test_ningun_calco_aparece_en_el_corpus_validado():
@@ -85,6 +113,9 @@ def test_ningun_calco_aparece_en_el_corpus_validado():
             assert frag not in [x["it"] for x in docs]
             after = re.match(r"\s*\S+", d["it"][c.end:])
             phrase = (c.wrong + (after.group(0) if after else "")).lower()
+            if code in NEW_CODES:  # su calco solo es error dentro de su contexto («siamo stato», «che è», «il mi»): se busca con la palabra anterior
+                before = re.search(r"(\S+)\s*$", d["it"][:c.start])
+                phrase = ((before.group(1) + " ") if before else "").lower() + phrase
             if code == "ERR_COMPARATIVE_DI":  # «che me» solo es calco tras «più/meno + adjetivo»; «prima che me lo scordi» es otra cosa
                 phrase = r"(?:più|meno) \w+ " + re.escape(phrase)
             if c.kind == "omission":  # «tua idea» está dentro de «la tua idea»: solo cuenta si no lleva artículo antes
