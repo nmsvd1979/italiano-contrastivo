@@ -18,9 +18,11 @@ _SERENA = (
     "# Atribuciones de audio\n\n"
     "## Voz sintética (clips de oraciones y palabras)\n\n"
     "Voz sintética Piper `it_IT-serena-high` (conjunto de datos CC BY 4.0, committa/serena-synthetic-it-27h), "
-    "generada automáticamente; no es una grabación de una persona.\n"
+    "generada automáticamente; no es una grabación de una persona.\n\n"
+    "- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)\n"
+    "- Conjunto de datos: https://huggingface.co/datasets/committa/serena-synthetic-it-27h\n"
+    "- Modelo: https://huggingface.co/rhasspy/piper-voices (it/it_IT/serena/high)\n"
 )
-DEFAULT_NATIVE_DIR = Path("/Users/administrador/Desktop/Claude/Italiano/.claude/worktrees/italian-learning-app-rebuild-8bb9f0/public/audio")
 
 
 def attribution_text(words: list[dict]) -> str:
@@ -92,15 +94,21 @@ def generate(pack_dir: Path, out_dir: Path, synthesize: Callable[[str, Path], No
     with tempfile.TemporaryDirectory() as tmp:
         for t in plan["generate"]:
             wav = Path(tmp) / f"{clip_id(t)}.wav"
+            partial = tts / f"{clip_id(t)}.mp3.tmp"
             synthesize(t, wav)
-            to_mp3(wav, tts / f"{clip_id(t)}.mp3")
-    for oid in plan["orphans"]:
-        (tts / f"{oid}.mp3").unlink(missing_ok=True)
-    total = sum(p.stat().st_size for p in tts.glob("*.mp3"))
+            try:
+                to_mp3(wav, partial)
+                os.replace(partial, tts / f"{clip_id(t)}.mp3")  # un mp3 a medias nunca queda con el nombre final
+            finally:
+                partial.unlink(missing_ok=True)
+    orphans = set(plan["orphans"])
+    total = sum(p.stat().st_size for p in tts.glob("*.mp3") if p.stem not in orphans)
     if total > max_bytes:
         raise ValueError(f"El peso del audio ({total} bytes) supera el tope de {max_bytes} bytes; decídelo antes de seguir.")
     index = sorted(({"id": clip_id(t), "sha1": sha1(t), "text": t, "voice": VOICE, "license": LICENSE} for t in texts), key=lambda e: e["id"])
     tmp_index = out_dir / "index.json.tmp"
     tmp_index.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
     os.replace(tmp_index, out_dir / "index.json")
+    for oid in plan["orphans"]:  # solo después de escribir el índice: disco e índice quedan coherentes
+        (tts / f"{oid}.mp3").unlink(missing_ok=True)
     return index

@@ -51,6 +51,36 @@ describe("say", () => {
   });
 });
 
+describe("say superpuestos", () => {
+  it("dos say sin esperar: solo suena el último y el primero queda detenido", async () => {
+    const delays = [50, 10];
+    let n = 0;
+    const orig = FakeAudio.prototype.play;
+    FakeAudio.prototype.play = function () { return new Promise<void>((r) => setTimeout(r, delays[n++])); };
+    const index = new Set(["a00000000000", "b00000000000"]);
+    const [r1, r2] = await Promise.all([
+      say("uno", { clipId: "a00000000000", index, base: "/" }),
+      say("dos", { clipId: "b00000000000", index, base: "/" }),
+    ]);
+    FakeAudio.prototype.play = orig;
+    expect(r2).toBe("clip");
+    expect(r1).toBe("superseded");
+    expect(FakeAudio.made[0].paused).toBe(true);
+    expect(FakeAudio.made[1].paused).toBe(false);
+  });
+  it("un say reemplazado cuyo clip falla no cae a la voz del sistema", async () => {
+    voices([{ lang: "it-IT" }]);
+    const orig = FakeAudio.prototype.play;
+    let n = 0;
+    FakeAudio.prototype.play = function () { return n++ === 0 ? new Promise((_, rej) => setTimeout(() => rej(new Error("x")), 30)) : Promise.resolve(); };
+    const index = new Set(["a00000000000", "b00000000000"]);
+    const [r1, r2] = await Promise.all([say("uno", { clipId: "a00000000000", index, base: "/" }), say("dos", { clipId: "b00000000000", index, base: "/" })]);
+    FakeAudio.prototype.play = orig;
+    expect([r1, r2]).toEqual(["superseded", "clip"]);
+    expect((speechSynthesis.speak as unknown as { mock: { calls: unknown[] } }).mock.calls).toHaveLength(0);
+  });
+});
+
 describe("grabación nativa", () => {
   it("se prueba primero la nativa, luego el clip y luego el sistema", async () => {
     const opts = { nativeFile: "burro--ana.mp3", clipId: "abc123abc123", index: new Set(["abc123abc123"]), base: "/" };

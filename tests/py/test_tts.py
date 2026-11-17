@@ -152,3 +152,74 @@ def test_native_words_reales_tienen_atribucion_y_licencia():
         assert all(w["attribution"].startswith("- `") and (Path(d) / w["file"]).exists() for w in got)
     assert "CC BY-SA 4.0" in gen.attribution_text(got)
     assert "it_IT-serena-high" in gen.attribution_text([])
+
+
+def _built(tmp_path, texts=("Ho fame.", "Ho sete.")):
+    out = tmp_path / "audio"
+    pack = fake_pack(tmp_path, list(texts))
+    gen.generate(pack, out, lambda t, w: w.write_bytes(b"w"), lambda w, d: d.write_bytes(b"mp3"))
+    return pack, out
+
+
+def test_mp3_parcial_no_queda_como_bueno(tmp_path):
+    out = tmp_path / "audio"
+    pack = fake_pack(tmp_path, ["Uno."])
+
+    def to_mp3(wav, dst):
+        dst.write_bytes(b"PARCIAL")
+        raise RuntimeError("lame falló")
+
+    with pytest.raises(RuntimeError):
+        gen.generate(pack, out, lambda t, w: w.write_bytes(b"w"), to_mp3)
+    assert not (out / "tts" / f"{clip_id('Uno.')}.mp3").exists()
+    assert gen.plan_clips(["Uno."], [], out)["generate"] == ["Uno."]
+
+
+def test_exceso_de_peso_deja_indice_y_archivos_anteriores_intactos(tmp_path):
+    pack, out = _built(tmp_path)
+    before = (out / "index.json").read_text(encoding="utf8")
+    pack2 = fake_pack(tmp_path / "otro", ["Ho fame.", "Texto nuevo largo."])
+    with pytest.raises(ValueError, match="peso"):
+        gen.generate(pack2, out, lambda t, w: w.write_bytes(b"w"), lambda w, d: d.write_bytes(b"x" * 50), max_bytes=40)
+    assert (out / "index.json").read_text(encoding="utf8") == before
+    assert (out / "tts" / f"{clip_id('Ho sete.')}.mp3").exists()  # el huérfano aún no se borra
+
+
+def _cli_audio(tmp_path):
+    from pipeline import cli
+
+    pack, out = _built(tmp_path)
+    (pack / "lexemes.json").write_text(json.dumps([{"id": "lx_burro", "form": "burro", "audio": clip_id("burro")}]), encoding="utf8")
+    (out / "words").mkdir()
+    (out / "words" / "burro--ana.mp3").write_bytes(b"n")
+    (out / "words" / "viejo--zed.mp3").write_bytes(b"n")
+    (out / "words.json").write_text(json.dumps([{"form": "burro", "file": "burro--ana.mp3", "speaker": "ana",
+                                                  "attribution": "- `burro--ana.mp3` — «burro», voz de Ana — https://c/ana"}]), encoding="utf8")
+    return cli, pack, out
+
+
+def test_tts_sin_native_dir_conserva_palabras_y_atribuciones(tmp_path):
+    cli, pack, out = _cli_audio(tmp_path)
+    # el texto «burro» aún no tiene clip: se pide el modelo solo si hay algo que generar → damos un modelo falso que falla
+    gen.generate(pack, out, lambda t, w: w.write_bytes(b"w"), lambda w, d: d.write_bytes(b"mp3"))
+    rc = cli.main(["tts", "--pack-dir", str(pack), "--audio-dir", str(out), "--tts-model", str(tmp_path / "no_hace_falta.onnx")])
+    assert rc == 0
+    assert "https://c/ana" in (out / "ATTRIBUZIONI-audio.md").read_text(encoding="utf8")
+    assert (out / "words" / "burro--ana.mp3").exists()
+    assert not (out / "words" / "viejo--zed.mp3").exists()  # sin atribución → no se distribuye
+    assert [w["form"] for w in json.loads((out / "words.json").read_text(encoding="utf8"))] == ["burro"]
+
+
+def test_tts_con_native_dir_inexistente_falla_y_no_toca_nada(tmp_path, capsys):
+    cli, pack, out = _cli_audio(tmp_path)
+    before = (out / "words.json").read_text(encoding="utf8")
+    rc = cli.main(["tts", "--pack-dir", str(pack), "--audio-dir", str(out), "--native-dir", str(tmp_path / "no_existe"),
+                   "--tts-model", str(tmp_path / "x.onnx")])
+    assert rc != 0 and "no_existe" in capsys.readouterr().err
+    assert (out / "words.json").read_text(encoding="utf8") == before
+
+
+def test_atribucion_de_serena_enlaza_licencia_y_fuentes():
+    t = gen.attribution_text([])
+    for url in ("https://creativecommons.org/licenses/by/4.0/", "huggingface.co/datasets/committa/serena-synthetic-it-27h", "huggingface.co/rhasspy/piper-voices"):
+        assert url in t
