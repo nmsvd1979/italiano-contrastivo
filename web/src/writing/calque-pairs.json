@@ -1,0 +1,192 @@
+[
+  {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "Nel mondo ci sono quattro oceani.",
+    "wrong": "Nel mondo c'è quattro oceani."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Nel mondo ci sono quattro oceani.",
+    "wrong": "In il mondo ci sono quattro oceani."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Domani vado a Parigi.",
+    "wrong": "Domani vado in Parigi."
+  },
+  {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "Ci sono molti fiori nel giardino?",
+    "wrong": "C'è molti fiori nel giardino?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ci sono molti fiori nel giardino?",
+    "wrong": "Ci sono molti fiori in il giardino?"
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Zwina non ha ragione.",
+    "wrong": "Zwina non tiene ragione."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Io abito a Parigi.",
+    "wrong": "Io abito in Parigi."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Vado a Parigi domani.",
+    "wrong": "Vado in Parigi domani."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "La donna ha ragione.",
+    "wrong": "La donna tiene ragione."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "La forza ha ragione.",
+    "wrong": "La forza tiene ragione."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "So che hai ragione.",
+    "wrong": "So che tieni ragione."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "So che ha ragione.",
+    "wrong": "So che tiene ragione."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "So che avete ragione.",
+    "wrong": "So che tenete ragione."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "L'uomo ha ragione.",
+    "wrong": "L'uomo tiene ragione."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Tom non conosce i suoi vicini.",
+    "wrong": "Tom non conosce suoi vicini."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Mio zio vive a Londra.",
+    "wrong": "Mio zio vive in Londra."
+  },
+  {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "Nel giardino ci sono molti fiori.",
+    "wrong": "Nel giardino c'è molti fiori."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Nel giardino ci sono molti fiori.",
+    "wrong": "In il giardino ci sono molti fiori."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Forse hai ragione.",
+    "wrong": "Forse tieni ragione."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Nel mezzo della discussione si è alzato ed è uscito.",
+    "wrong": "Nel mezzo della discussione si è alzato ed ha uscito."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Vedrai che ho ragione.",
+    "wrong": "Vedrai che tengo ragione."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Vedrà che ho ragione.",
+    "wrong": "Vedrà che tengo ragione."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Vedrete che ho ragione.",
+    "wrong": "Vedrete che tengo ragione."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La mia sorella maggiore ha i capelli che le cadono sulle spalle.",
+    "wrong": "La mia sorella maggiore ha i capelli che le cadono su le spalle."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Mi è piaciuta la tua idea e l'ho adottata.",
+    "wrong": "Mi è piaciuta tua idea e l'ho adottata."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Non andare nella mia stanza.",
+    "wrong": "Non andare in la mia stanza."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Forse pioverà nel pomeriggio.",
+    "wrong": "Forse pioverà in il pomeriggio."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "La mia famiglia va in Italia tutti gli anni.",
+    "wrong": "La mia famiglia va a Italia tutti gli anni."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Per me è finita con le feste, il mio corpo malato non ce la fa più.",
+    "wrong": "Per me è finita con le feste, mio corpo malato non ce la fa più."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Ha lavorato senza pausa per mantenere i suoi figli fino a che si sono sposati.",
+    "wrong": "Ha lavorato senza pausa per mantenere suoi figli fino a che si sono sposati."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Nonostante Tom sia malato, ha intenzione di finire in tempo i suoi compiti.",
+    "wrong": "Nonostante Tom sia malato, ha intenzione di finire in tempo suoi compiti."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Nonostante Tom sia ammalato, ha intenzione di finire in tempo i suoi compiti.",
+    "wrong": "Nonostante Tom sia ammalato, ha intenzione di finire in tempo suoi compiti."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "L'uomo che ha dato la sua busta paga alla moglie è stato più saggio di quello che l'ha data all'amante.",
+    "wrong": "L'uomo che ha dato sua busta paga alla moglie è stato più saggio di quello che l'ha data all'amante."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il gazebo, o pergolato, è uno spazio, di solito rotondo, che solitamente si trova nei giardini, circondato da piante o alberi e panchine.",
+    "wrong": "Il gazebo, o pergolato, è uno spazio, di solito rotondo, che solitamente si trova in i giardini, circondato da piante o alberi e panchine."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Parlando in generale, Tom ha ragione.",
+    "wrong": "Parlando in generale, Tom tiene ragione."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Devo segnarmi il suo indirizzo prima che me lo scordi.",
+    "wrong": "Devo segnarmi suo indirizzo prima che me lo scordi."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Fino a quando continueremo a credere che siamo nati per sterminarci a vicenda e che lo sterminio reciproco sia il nostro destino?",
+    "wrong": "Fino a quando continueremo a credere che abbiamo nati per sterminarci a vicenda e che lo sterminio reciproco sia il nostro destino?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "È venuto nonostante gli avessi detto di non farlo.",
+    "wrong": "Ha venuto nonostante gli avessi detto di non farlo."
+  }
+]

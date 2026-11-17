@@ -15,3 +15,17 @@ MacBook Pro 2018, Intel i5-8259U, 8 GB RAM, sin GPU, 35 GB libres. Un SLM de 7B 
 
 ## NO verificado todavía
 Conexión HTTPS iPhone→Mac, tamaño/velocidad del SLM, umbrales de geminadas.
+
+## Detector de escritura con reglas propias (hecho)
+- `web/src/writing/detect.ts`: inversa de `pipeline/exercises/calques.py`; 8 códigos (AUX_ESSERE, PREP_PLACE, CE_AGREEMENT, PERSONAL_A, POSSESSIVE_ARTICLE, PREP_ARTICLE_CONTRACTION, COMPARATIVE_DI, TENERE_AVERE). Corre en el teléfono, sin Mac ni conexión: M3 ya no depende de la prueba iPhone–Mac para esta parte.
+- Pantalla `#/escribir`: textarea + «Revisar»; el texto no se guarda ni sale del dispositivo.
+- Pruebas: 12 errores típicos detectados; 21 frases correctas sin marcar; las 35 oraciones validadas del paquete salen sin marcas; los 38 calcos generados del corpus se detectan, salvo «ha uscito/entrato/salito» (válidos como transitivos, excluidos a propósito).
+- `tests/py/test_calque_pairs.py` vigila que `calque-pairs.json` y `explanations.json` coincidan con el corpus y el catálogo.
+- Verificado en el navegador de escritorio (texto con 3 errores → 3 avisos con explicación).
+
+## Límites conocidos (no verificados en uso real)
+- Posesivo sin artículo: heurística; no marca todos los casos y puede errar con posposición rara («amico mio» + verbo no listado).
+- «loro» no se revisa (es también pronombre).
+- Solo 8 patrones: «sin avisos» NO significa texto correcto. No revisa ortografía (LanguageTool queda pendiente como capa opcional en el Mac).
+- Probado solo con oraciones propias y del corpus, no con escritura real de un hispanohablante; faltan falsos positivos/negativos con textos reales.
+- iPhone real y sin conexión: sin probar.

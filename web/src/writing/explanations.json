@@ -1,0 +1,10 @@
+{
+  "ERR_AUX_ESSERE": "El español usa solo 'haber'; en italiano los verbos de movimiento con meta, cambio de estado y reflexivos piden essere.",
+  "ERR_CE_AGREEMENT": "C'è se usa con singular y ci sono con plural; el español 'hay' no varía.",
+  "ERR_COMPARATIVE_DI": "En el segundo término de una comparación entre nombres o pronombres el italiano usa di; el español usa 'que'.",
+  "ERR_PERSONAL_A": "El español marca el objeto directo animado con 'a'; el italiano no. Verbos típicos: cercare, chiamare, aspettare, vedere, aiutare.",
+  "ERR_POSSESSIVE_ARTICLE": "En italiano el posesivo lleva artículo (il mio libro), salvo con parentesco singular (mio fratello). El español 'mi libro' no lo lleva, y 'mi hermano' tampoco, lo que induce a omitirlo o a sobreusarlo.",
+  "ERR_PREP_ARTICLE_CONTRACTION": "El italiano funde preposición y artículo (in + la = nella); el español deja 'en la' separado.",
+  "ERR_PREP_PLACE": "Con ciudades se usa a (vivo a Roma, arrivo a Roma); con países y regiones, in (vado in Italia). El español usa 'en' para vivir y 'a' para ir sin distinguir ciudad de país.",
+  "ERR_TENERE_AVERE": "'Tener' del español corresponde a avere (hai ragione), no a tenere (sostener, mantener)."
+}
