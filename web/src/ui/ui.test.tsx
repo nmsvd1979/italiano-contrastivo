@@ -13,6 +13,7 @@ import { TodayScreen } from "./TodayScreen";
 import { ItemView } from "./items/ItemView";
 import { Translate, type TranslateItem } from "./items/Translate";
 import { speakItalian } from "./speech";
+import { AudioProvider } from "../audio/AudioContext";
 
 afterEach(() => {
   cleanup();
@@ -256,5 +257,26 @@ describe("speakItalian", () => {
     vi.stubGlobal("SpeechSynthesisUtterance", class { constructor(public text: string) {} });
     expect(await speakItalian("Ciao")).toBe("ok");
     expect(speak).toHaveBeenCalledOnce();
+  });
+});
+
+describe("etiqueta de la voz", () => {
+  const audioPack = { sentences: [{ id: "s1", it: "Vedrai che ho ragione.", es: "x", cefr_estimate: "A1", audio: "111111111111" }], lexemes: [] };
+  it("con clip disponible el botón dice «voz sintética»", () => {
+    render(<AudioProvider pack={audioPack} index={new Set(["111111111111"])}><ItemView item={choice} onAnswer={() => {}} /></AudioProvider>);
+    fireEvent.click(screen.getByText("Vedrai che ho ragione."));
+    expect(screen.getByText(/voz sintética/)).toBeTruthy();
+    expect(screen.queryByText(/voz del sistema/)).toBeNull();
+  });
+  it("sin clip dice «voz del sistema»", () => {
+    render(<AudioProvider pack={audioPack} index={new Set()}><ItemView item={choice} onAnswer={() => {}} /></AudioProvider>);
+    fireEvent.click(screen.getByText("Vedrai che ho ragione."));
+    expect(screen.getByText(/voz del sistema/)).toBeTruthy();
+  });
+  it("la opción incorrecta nunca tiene botón de voz ni clip", () => {
+    render(<AudioProvider pack={audioPack} index={new Set(["111111111111"])}><ItemView item={choice} onAnswer={() => {}} /></AudioProvider>);
+    expect(screen.queryByText(/Escuchar/)).toBeNull();
+    fireEvent.click(screen.getByText("Vedrai che tengo ragione."));
+    expect(screen.getAllByText(/Escuchar/)).toHaveLength(1);
   });
 });

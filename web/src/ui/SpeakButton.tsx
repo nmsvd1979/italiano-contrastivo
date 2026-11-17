@@ -1,13 +1,14 @@
 import { useState } from "react";
-import { speakItalian } from "./speech";
+import { useSay } from "../audio/AudioContext";
 
 export function SpeakButton({ text }: { text: string }) {
-  const [status, setStatus] = useState<"idle" | "ok" | "no_voice">("idle");
+  const { source, play } = useSay(text);
+  const [noVoice, setNoVoice] = useState(false);
   return (
     <span className="speak">
-      <button type="button" onClick={async () => setStatus(await speakItalian(text))}>🔊 Escuchar</button>
-      <small> voz del sistema</small>
-      {status === "no_voice" && <small role="status"> Tu iPhone no tiene voz italiana instalada.</small>}
+      <button type="button" onClick={async () => setNoVoice((await play()) === "no_voice")}>🔊 Escuchar</button>
+      <small> {source === "clip" ? "voz sintética" : "voz del sistema"}</small>
+      {noVoice && <small role="status"> Tu iPhone no tiene voz italiana instalada.</small>}
     </span>
   );
 }
