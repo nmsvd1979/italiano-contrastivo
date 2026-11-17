@@ -8,7 +8,7 @@ from pipeline import cefr, config, export, filters, ingest, nlp, pivot, promote,
 from pipeline.db import store
 from pipeline.tagging import engine
 
-STAGES = ["ingest", "pivot", "filter", "annotate", "tag", "promote", "all", "review", "export", "report", "capsules"]
+STAGES = ["ingest", "pivot", "filter", "annotate", "tag", "promote", "all", "review", "export", "report", "capsules", "tts"]
 
 
 def _ok_candidates(con):
@@ -101,6 +101,9 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--model", default=nlp.MODEL_NAME)
     ap.add_argument("--out-dir", type=Path, default=config.ROOT / "content", help="carpeta de salida del export")
     ap.add_argument("--pack-dir", type=Path, default=config.ROOT / "web" / "public" / "content", help="salida del paquete de la app")
+    ap.add_argument("--tts-model", default=str(Path.home() / "Downloads" / "it_IT-serena-high.onnx"), help="modelo Piper para la etapa tts")
+    ap.add_argument("--native-dir", type=Path, default=None, help="carpeta con grabaciones nativas existentes (<palabra>--<voz>.mp3 + ATTRIBUZIONI.md); sin ella se conservan las palabras ya copiadas")
+    ap.add_argument("--audio-dir", type=Path, default=config.ROOT / "web" / "public" / "audio", help="salida de los clips de la etapa tts")
     ap.add_argument("--port", type=int, default=8765, help="puerto del servidor de revisión (solo localhost)")
     ap.add_argument("--no-pivot", action="store_true", help="en `all`, omite el pivote por inglés")
     args = ap.parse_args(argv)
@@ -143,6 +146,35 @@ def main(argv: list[str] | None = None) -> int:
                 for code, info in m["codes"].items():
                     print(f"  {code}: {info['usable']} utilizables → {'cápsula' if info['capsule'] else 'sin cápsula (' + info['reason'] + ')'}")
                 print(f"  cápsulas: {len(m['capsules'])}, oraciones usadas: {m['sentences_used']}")
+            elif st == "tts":
+                from pipeline.tts import generate as tg, piper_lote
+
+                if args.native_dir is not None and not args.native_dir.exists():
+                    print(f"No encuentro la carpeta de grabaciones nativas {args.native_dir}.", file=sys.stderr)
+                    return 2
+                texts = tg.texts_for_pack(args.pack_dir)
+                index_file = args.audio_dir / "index.json"
+                prev = json.loads(index_file.read_text(encoding="utf8")) if index_file.exists() else []
+                pending = len(tg.plan_clips(texts, prev, args.audio_dir)["generate"])
+                model = Path(args.tts_model)
+                if pending and not model.exists():
+                    print(f"No encuentro el modelo de voz {model}. Indícalo con --tts-model <ruta a it_IT-serena-high.onnx>.", file=sys.stderr)
+                    return 2
+                idx = tg.generate(args.pack_dir, args.audio_dir, piper_lote.make_synthesizer(model) if pending else None, piper_lote.lame_to_mp3)
+                lexemes = json.loads((args.pack_dir / "lexemes.json").read_text(encoding="utf8"))
+                words_file = args.audio_dir / "words.json"
+                if args.native_dir is not None:
+                    words = tg.native_words(lexemes, args.native_dir, args.audio_dir / "words")
+                else:  # sin carpeta de origen se conservan las ya copiadas que sigan en el paquete
+                    forms = {l["form"] for l in lexemes}
+                    words = [w for w in (json.loads(words_file.read_text(encoding="utf8")) if words_file.exists() else []) if w["form"] in forms]
+                keep = {w["file"] for w in words}
+                for f in (args.audio_dir / "words").glob("*.mp3"):  # sin atribución no se distribuye
+                    if f.name not in keep:
+                        f.unlink()
+                words_file.write_text(json.dumps(words, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
+                (args.audio_dir / "ATTRIBUZIONI-audio.md").write_text(tg.attribution_text(words), encoding="utf8")
+                print(f"  clips generados: {pending} de {len(idx)}; palabras nativas: {len(words)}; carpeta {args.audio_dir}")
             elif st == "report":
                 print(report_mod.format_report(report_mod.build_report(store.connect(args.authoring_db))))
             elif st == "review":

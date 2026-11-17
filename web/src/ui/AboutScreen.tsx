@@ -13,6 +13,9 @@ export function AboutScreen({ manifest, sentences }: { manifest: Manifest; sente
         ))}
       </ul>
       <p>Algunas oraciones tienen la traducción al español generada por IA (se marcan «traducción de IA»).</p>
+      <h2>Voces</h2>
+      <p>Las oraciones se escuchan con una voz sintética: Piper «it_IT-serena-high» (datos de entrenamiento CC BY 4.0), generada automáticamente; no es una persona.</p>
+      <p>Algunas palabras sueltas usan grabaciones de hablantes nativos de Lingua Libre (CC BY-SA 4.0). Si falta el clip, suena la voz del sistema. Licencias y hablantes: <a href={`${import.meta.env.BASE_URL ?? "./"}audio/ATTRIBUZIONI-audio.md`}>Atribuciones de audio</a>.</p>
       <h2>Atribuciones</h2>
       <p>Las oraciones provienen de Tatoeba (tatoeba.org) bajo la licencia CC BY 2.0 FR.</p>
       <ul className="attributions">

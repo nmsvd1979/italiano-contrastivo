@@ -13,6 +13,7 @@ import { TodayScreen } from "./TodayScreen";
 import { ItemView } from "./items/ItemView";
 import { Translate, type TranslateItem } from "./items/Translate";
 import { speakItalian } from "./speech";
+import { AudioProvider } from "../audio/AudioContext";
 
 afterEach(() => {
   cleanup();
@@ -256,5 +257,69 @@ describe("speakItalian", () => {
     vi.stubGlobal("SpeechSynthesisUtterance", class { constructor(public text: string) {} });
     expect(await speakItalian("Ciao")).toBe("ok");
     expect(speak).toHaveBeenCalledOnce();
+  });
+});
+
+describe("etiqueta de la voz", () => {
+  const audioPack = { sentences: [{ id: "s1", it: "Vedrai che ho ragione.", es: "x", cefr_estimate: "A1", audio: "111111111111" }], lexemes: [] };
+  it("con clip disponible el botón dice «voz sintética»", () => {
+    render(<AudioProvider pack={audioPack} index={new Set(["111111111111"])}><ItemView item={choice} onAnswer={() => {}} /></AudioProvider>);
+    fireEvent.click(screen.getByText("Vedrai che ho ragione."));
+    expect(screen.getByText(/voz sintética/)).toBeTruthy();
+    expect(screen.queryByText(/voz del sistema/)).toBeNull();
+  });
+  it("sin clip dice «voz del sistema»", () => {
+    render(<AudioProvider pack={audioPack} index={new Set()}><ItemView item={choice} onAnswer={() => {}} /></AudioProvider>);
+    fireEvent.click(screen.getByText("Vedrai che ho ragione."));
+    expect(screen.getByText(/voz del sistema/)).toBeTruthy();
+  });
+  it("la opción incorrecta nunca tiene botón de voz ni clip", () => {
+    render(<AudioProvider pack={audioPack} index={new Set(["111111111111"])}><ItemView item={choice} onAnswer={() => {}} /></AudioProvider>);
+    expect(screen.queryByText(/Escuchar/)).toBeNull();
+    fireEvent.click(screen.getByText("Vedrai che tengo ragione."));
+    expect(screen.getAllByText(/Escuchar/)).toHaveLength(1);
+  });
+});
+
+describe("etiqueta de grabación nativa", () => {
+  it("una palabra con grabación nativa muestra «hablante nativo»", async () => {
+    const pk = pack();
+    render(<AudioProvider pack={{ sentences: [], lexemes: [{ ...pk.lexemes[0], audio: "222222222222" }] }} index={new Set(["222222222222"])} words={new Map([["burro", "burro--ana.mp3"]])}>
+      <ReviewScreen pack={pk} store={memoryStore()} now={NOW} /></AudioProvider>);
+    expect(await screen.findByText("burro")).toBeTruthy();
+    expect(screen.getByText(/grabación de un hablante nativo/)).toBeTruthy();
+  });
+});
+
+describe("AboutScreen: voces", () => {
+  it("declara la voz sintética Piper (CC BY 4.0) y las grabaciones nativas (CC BY-SA 4.0)", () => {
+    render(<AboutScreen manifest={pack().manifest} sentences={[]} />);
+    const piper = screen.getByText(/Piper/);
+    expect(piper.textContent).toMatch(/voz sintética/);
+    expect(piper.textContent).toMatch(/CC BY 4\.0/);
+    expect(screen.getByText(/Lingua Libre/).textContent).toMatch(/CC BY-SA 4\.0/);
+  });
+});
+
+describe("etiqueta según lo que suena", () => {
+  it("si el clip falla y suena la voz del sistema, la etiqueta lo dice", async () => {
+    vi.stubGlobal("Audio", class { play() { return Promise.reject(new Error("x")); } pause() {} });
+    vi.stubGlobal("speechSynthesis", { getVoices: () => [{ lang: "it-IT" }], speak: vi.fn(), cancel: vi.fn() });
+    vi.stubGlobal("SpeechSynthesisUtterance", class {});
+    const audioPack = { sentences: [{ id: "s1", it: "Vedrai che ho ragione.", es: "x", cefr_estimate: "A1", audio: "111111111111" }], lexemes: [] };
+    render(<AudioProvider pack={audioPack} index={new Set(["111111111111"])}><ItemView item={choice} onAnswer={() => {}} /></AudioProvider>);
+    fireEvent.click(screen.getByText("Vedrai che ho ragione."));
+    expect(screen.getByText(/voz sintética/)).toBeTruthy();
+    fireEvent.click(screen.getByText(/Escuchar/));
+    await waitFor(() => expect(screen.getByText(/voz del sistema/)).toBeTruthy());
+    expect(screen.queryByText(/voz sintética/)).toBeNull();
+  });
+});
+
+describe("AboutScreen: enlace a las atribuciones de audio", () => {
+  it("enlaza el archivo de atribuciones de audio", () => {
+    render(<AboutScreen manifest={pack().manifest} sentences={[]} />);
+    const a = screen.getByText("Atribuciones de audio") as HTMLAnchorElement;
+    expect(a.getAttribute("href")).toContain("audio/ATTRIBUZIONI-audio.md");
   });
 });
