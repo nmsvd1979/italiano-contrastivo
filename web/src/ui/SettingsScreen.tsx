@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { audioUrls, cachedCount, cacheSupported, downloadAudio } from "../audio/offline";
+import { buildInfo, checkForUpdate, repairApp } from "../pwa";
 import { BackupError, exportBackup, parseBackup, restoreBackup } from "../state/backup";
 import { localDate, type Store } from "../state/store";
 
@@ -11,6 +13,29 @@ export function SettingsScreen({ store, memoryOnly }: { store: Store; memoryOnly
     navigator.storage?.persisted?.().then(setProtectedStorage).catch(() => setProtectedStorage(null));
   }, []);
 
+  const [audio, setAudio] = useState<{ have: number; total: number; busy: boolean; failed: number } | null>(null);
+  useEffect(() => {
+    if (!cacheSupported()) return;
+    audioUrls().then(async (urls) => setAudio({ have: await cachedCount(urls), total: urls.length, busy: false, failed: 0 })).catch(() => undefined);
+  }, []);
+  const getAudio = async () => {
+    try {
+      const urls = await audioUrls();
+      setAudio({ have: 0, total: urls.length, busy: true, failed: 0 });
+      const r = await downloadAudio(urls, (have, total) => setAudio({ have, total, busy: true, failed: 0 }));
+      setAudio({ have: r.saved, total: urls.length, busy: false, failed: r.failed });
+    } catch {
+      setNotice({ kind: "error", text: "No se pudo descargar el audio. Revisa tu conexión e inténtalo de nuevo." });
+    }
+  };
+  const update = async () => {
+    try {
+      const r = await checkForUpdate();
+      setNotice({ kind: "ok", text: r === "downloading" ? "Hay una versión nueva descargándose; la app se reiniciará sola." : r === "unsupported" ? "Este navegador no guarda la app para uso sin conexión." : "Ya tienes la última versión." });
+    } catch {
+      setNotice({ kind: "error", text: "No se pudo buscar actualización (¿sin conexión?)." });
+    }
+  };
   const save = async () => {
     try {
       const now = new Date();
@@ -54,6 +79,20 @@ export function SettingsScreen({ store, memoryOnly }: { store: Store; memoryOnly
       <p><button type="button" onClick={save}>Guardar copia</button></p>
       <label htmlFor="restore-file">Restaurar desde una copia</label>
       <input id="restore-file" type="file" accept="application/json,.json" onChange={(e) => { void restore(e.target.files?.[0]); e.target.value = ""; }} />
+      <h2>Audio sin conexión</h2>
+      {audio ? (
+        <>
+          <p>{audio.have} de {audio.total} clips guardados en este teléfono. {audio.have >= audio.total ? "Todo el audio funciona sin conexión." : "Sin conexión solo suena lo que ya escuchaste; baja el resto con internet."}</p>
+          {audio.busy && <progress max={audio.total} value={audio.have} aria-label="Descarga de audio" />}
+          {audio.failed > 0 && <p role="alert" className="alert">No se pudieron bajar {audio.failed} clips; inténtalo de nuevo.</p>}
+          <p><button type="button" disabled={audio.busy || audio.have >= audio.total} onClick={getAudio}>{audio.busy ? "Descargando…" : "Descargar el audio"}</button></p>
+        </>
+      ) : <p><small>Este navegador no guarda audio para uso sin conexión.</small></p>}
+      <h2>Versión de la app</h2>
+      <p>Versión <strong>{buildInfo().id}</strong>{buildInfo().date ? ` · ${buildInfo().date}` : ""}.</p>
+      <p><button type="button" onClick={update}>Buscar actualización</button></p>
+      <p><small>Si algo se ve desactualizado o raro, «Reparar la app» borra la copia guardada y la baja de nuevo. Tu progreso no se toca.</small></p>
+      <p><button type="button" onClick={() => { if (window.confirm("Se borrará la copia guardada de la app y se recargará. Tu progreso se conserva. ¿Continuar?")) void repairApp(); }}>Reparar la app</button></p>
       {notice && <p role={notice.kind === "error" ? "alert" : "status"} className={notice.kind === "error" ? "alert" : undefined}>{notice.text}</p>}
     </main>
   );
