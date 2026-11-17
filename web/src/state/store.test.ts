@@ -69,3 +69,15 @@ describe("localDate", () => {
     expect(localDate(new Date("2026-11-17T03:30:00Z"), "America/Santiago")).toBe("2026-11-17");
   });
 });
+
+describe("memoryStore", () => {
+  it("guarda y recupera como el store real", async () => {
+    const { memoryStore } = await import("./store");
+    const s = memoryStore();
+    await s.putCard(card());
+    await s.putDay({ date: "2026-11-16", reviewsDone: 2, capsulesDone: [] });
+    expect((await s.getCard("c1"))?.id).toBe("c1");
+    expect((await s.getDay("2026-11-16")).reviewsDone).toBe(2);
+    expect((await s.getDay("2026-11-17")).reviewsDone).toBe(0);
+  });
+});

@@ -96,3 +96,23 @@ export async function openStore(name = "italiano-contrastivo"): Promise<Store> {
     },
   };
 }
+
+/** Store en memoria: se usa cuando IndexedDB no está disponible (el progreso no sobrevive al cerrar la app). */
+export function memoryStore(): Store {
+  const cards = new Map<string, Card>();
+  const logs: ReviewLog[] = [];
+  const days = new Map<string, DayProgress>();
+  const caps = new Map<string, CapsuleProgress>();
+  return {
+    getCard: async (id) => cards.get(id),
+    putCard: async (c) => void cards.set(c.id, c),
+    allCards: async () => [...cards.values()],
+    addReviewLog: async (l) => void logs.push(l),
+    allLogs: async () => [...logs],
+    getDay: async (date) => days.get(date) ?? { date, reviewsDone: 0, capsulesDone: [] },
+    putDay: async (d) => void days.set(d.date, d),
+    getCapsuleProgress: async (id) => caps.get(id),
+    putCapsuleProgress: async (p) => void caps.set(p.capsuleId, p),
+    clearCapsuleProgress: async (id) => void caps.delete(id),
+  };
+}
