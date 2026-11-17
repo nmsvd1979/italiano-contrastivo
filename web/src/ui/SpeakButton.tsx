@@ -7,7 +7,7 @@ export function SpeakButton({ text }: { text: string }) {
   return (
     <span className="speak">
       <button type="button" onClick={async () => setNoVoice((await play()) === "no_voice")}>🔊 Escuchar</button>
-      <small> {source === "clip" ? "voz sintética" : "voz del sistema"}</small>
+      <small> {source === "native" ? "grabación de un hablante nativo" : source === "clip" ? "voz sintética" : "voz del sistema"}</small>
       {noVoice && <small role="status"> Tu iPhone no tiene voz italiana instalada.</small>}
     </span>
   );

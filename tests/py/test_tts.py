@@ -112,3 +112,43 @@ def test_lame_to_mp3_sin_lame_da_error_claro(tmp_path, monkeypatch):
     monkeypatch.setattr(piper_lote.shutil, "which", lambda _: None)
     with pytest.raises(RuntimeError, match="lame"):
         piper_lote.lame_to_mp3(tmp_path / "a.wav", tmp_path / "a.mp3")
+
+
+def _source(tmp_path):
+    src = tmp_path / "old"
+    src.mkdir()
+    for f in ("burro--zed.mp3", "burro--ana.mp3", "caldo--bo.mp3", "gatto--cy.mp3"):
+        (src / f).write_bytes(b"mp3-" + f.encode())
+    (src / "ATTRIBUZIONI.md").write_text(
+        "# Atribuciones de audio\n\n- `burro--ana.mp3` — «burro», voz de Ana — https://c/ana\n"
+        "- `burro--zed.mp3` — «burro», voz de Zed — https://c/zed\n- `caldo--bo.mp3` — «caldo», voz de Bo — https://c/bo\n"
+        "- `gatto--cy.mp3` — «gatto», voz de Cy — https://c/cy\n", encoding="utf8")
+    return src
+
+
+def test_native_words_elige_la_primera_voz_copia_y_atribuye(tmp_path):
+    src, dest = _source(tmp_path), tmp_path / "words"
+    got = gen.native_words([{"form": "burro"}, {"form": "caldo"}, {"form": "pronto"}], src, dest)
+    assert [(w["form"], w["file"], w["speaker"]) for w in got] == [("burro", "burro--ana.mp3", "ana"), ("caldo", "caldo--bo.mp3", "bo")]
+    assert (dest / "burro--ana.mp3").read_bytes() == b"mp3-burro--ana.mp3"
+    assert not (dest / "burro--zed.mp3").exists() and not (dest / "gatto--cy.mp3").exists()
+    assert "https://c/ana" in got[0]["attribution"] and "voz de Bo" in got[1]["attribution"]
+
+
+def test_native_words_sin_carpeta_origen_no_falla(tmp_path):
+    assert gen.native_words([{"form": "burro"}], tmp_path / "no_existe", tmp_path / "w") == []
+
+
+def test_native_words_reales_tienen_atribucion_y_licencia():
+    src = Path("/Users/administrador/Desktop/Claude/Italiano/.claude/worktrees/italian-learning-app-rebuild-8bb9f0/public/audio")
+    if not src.exists():
+        pytest.skip("no está la carpeta de grabaciones de la app anterior")
+    lex = json.loads((PACK / "lexemes.json").read_text(encoding="utf8"))
+    import tempfile
+
+    with tempfile.TemporaryDirectory() as d:
+        got = gen.native_words(lex, src, Path(d))
+        assert {w["form"] for w in got} == {"allora", "burro", "caldo", "guardare", "pronto", "salire"}
+        assert all(w["attribution"].startswith("- `") and (Path(d) / w["file"]).exists() for w in got)
+    assert "CC BY-SA 4.0" in gen.attribution_text(got)
+    assert "it_IT-serena-high" in gen.attribution_text([])

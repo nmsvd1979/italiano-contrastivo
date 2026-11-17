@@ -102,6 +102,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--out-dir", type=Path, default=config.ROOT / "content", help="carpeta de salida del export")
     ap.add_argument("--pack-dir", type=Path, default=config.ROOT / "web" / "public" / "content", help="salida del paquete de la app")
     ap.add_argument("--tts-model", default=str(Path.home() / "Downloads" / "it_IT-serena-high.onnx"), help="modelo Piper para la etapa tts")
+    ap.add_argument("--native-dir", type=Path, default=Path("/Users/administrador/Desktop/Claude/Italiano/.claude/worktrees/italian-learning-app-rebuild-8bb9f0/public/audio"), help="grabaciones nativas existentes (Lingua Libre)")
     ap.add_argument("--audio-dir", type=Path, default=config.ROOT / "web" / "public" / "audio", help="salida de los clips de la etapa tts")
     ap.add_argument("--port", type=int, default=8765, help="puerto del servidor de revisión (solo localhost)")
     ap.add_argument("--no-pivot", action="store_true", help="en `all`, omite el pivote por inglés")
@@ -157,7 +158,10 @@ def main(argv: list[str] | None = None) -> int:
                 prev = json.loads(index_file.read_text(encoding="utf8")) if index_file.exists() else []
                 pending = len(tts_generate.plan_clips(texts, prev, args.audio_dir)["generate"])
                 idx = tts_generate.generate(args.pack_dir, args.audio_dir, piper_lote.make_synthesizer(model) if pending else None, piper_lote.lame_to_mp3)
-                (args.audio_dir / "ATTRIBUZIONI-audio.md").write_text(tts_generate.ATTRIBUTION, encoding="utf8")
+                lexemes = json.loads((args.pack_dir / "lexemes.json").read_text(encoding="utf8"))
+                words = tts_generate.native_words(lexemes, args.native_dir, args.audio_dir / "words")
+                (args.audio_dir / "words.json").write_text(json.dumps(words, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
+                (args.audio_dir / "ATTRIBUZIONI-audio.md").write_text(tts_generate.attribution_text(words), encoding="utf8")
                 print(f"  clips generados: {pending} de {len(idx)}; carpeta {args.audio_dir}")
             elif st == "report":
                 print(report_mod.format_report(report_mod.build_report(store.connect(args.authoring_db))))

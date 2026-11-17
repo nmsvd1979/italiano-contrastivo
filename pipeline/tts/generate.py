@@ -5,6 +5,8 @@ Layout: `<out_dir>/tts/<id>.mp3` e `<out_dir>/index.json`. Solo se sintetizan te
 """
 import json
 import os
+import re
+import shutil
 import tempfile
 from pathlib import Path
 from typing import Callable
@@ -12,12 +14,47 @@ from typing import Callable
 from pipeline.tts.ids import LICENSE, VOICE, clip_id, sha1
 
 MAX_BYTES = 3_000_000
-ATTRIBUTION = (
+_SERENA = (
     "# Atribuciones de audio\n\n"
     "## Voz sintética (clips de oraciones y palabras)\n\n"
     "Voz sintética Piper `it_IT-serena-high` (conjunto de datos CC BY 4.0, committa/serena-synthetic-it-27h), "
     "generada automáticamente; no es una grabación de una persona.\n"
 )
+DEFAULT_NATIVE_DIR = Path("/Users/administrador/Desktop/Claude/Italiano/.claude/worktrees/italian-learning-app-rebuild-8bb9f0/public/audio")
+
+
+def attribution_text(words: list[dict]) -> str:
+    out = _SERENA
+    if words:
+        out += (
+            "\n## Grabaciones de hablantes nativos (palabras sueltas)\n\n"
+            "Grabaciones de [Lingua Libre](https://lingualibre.org/), publicadas en Wikimedia Commons bajo licencia "
+            "[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).\n\n" + "\n".join(w["attribution"] for w in words) + "\n"
+        )
+    return out
+
+
+def native_words(lexemes: list[dict], source_dir: Path, dest_dir: Path) -> list[dict]:
+    """Por cada palabra con grabación nativa (`<palabra>--<voz>.mp3`) toma la primera voz por orden alfabético y la copia."""
+    source_dir, dest_dir = Path(source_dir), Path(dest_dir)
+    if not source_dir.exists():
+        return []
+    lines = {}
+    att = source_dir / "ATTRIBUZIONI.md"
+    for line in (att.read_text(encoding="utf8").splitlines() if att.exists() else []):
+        m = re.match(r"- `([^`]+\.mp3)`", line)
+        if m:
+            lines[m.group(1)] = line
+    out = []
+    for form in sorted({l["form"] for l in lexemes}):
+        files = sorted(p.name for p in source_dir.glob(f"{form}--*.mp3") if p.name in lines)
+        if not files:
+            continue
+        name = files[0]
+        dest_dir.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(source_dir / name, dest_dir / name)
+        out.append({"form": form, "file": name, "speaker": name[:-4].split("--", 1)[1], "attribution": lines[name]})
+    return out
 
 
 def texts_for_pack(pack_dir: Path) -> list[str]:

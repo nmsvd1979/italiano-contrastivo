@@ -280,3 +280,13 @@ describe("etiqueta de la voz", () => {
     expect(screen.getAllByText(/Escuchar/)).toHaveLength(1);
   });
 });
+
+describe("etiqueta de grabación nativa", () => {
+  it("una palabra con grabación nativa muestra «hablante nativo»", async () => {
+    const pk = pack();
+    render(<AudioProvider pack={{ sentences: [], lexemes: [{ ...pk.lexemes[0], audio: "222222222222" }] }} index={new Set(["222222222222"])} words={new Map([["burro", "burro--ana.mp3"]])}>
+      <ReviewScreen pack={pk} store={memoryStore()} now={NOW} /></AudioProvider>);
+    expect(await screen.findByText("burro")).toBeTruthy();
+    expect(screen.getByText(/grabación de un hablante nativo/)).toBeTruthy();
+  });
+});

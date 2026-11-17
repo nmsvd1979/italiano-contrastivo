@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { AudioProvider } from "./audio/AudioContext";
-import { type AudioIndex, loadAudioIndex } from "./audio/clips";
+import { type AudioIndex, loadAudioIndex, loadNativeWords } from "./audio/clips";
 import { type ContentPack, loadContent } from "./content/load";
 import type { Card } from "./generated/card";
 import { normalizeDay, planToday } from "./state/session";
@@ -11,7 +11,7 @@ import { ReviewScreen } from "./ui/ReviewScreen";
 import { TodayScreen } from "./ui/TodayScreen";
 import "./styles.css";
 
-type Ready = { pack: ContentPack; store: Store; storeError: string | null; audio: AudioIndex };
+type Ready = { pack: ContentPack; store: Store; storeError: string | null; audio: AudioIndex; words: Map<string, string> };
 
 function useHash() {
   const [hash, setHash] = useState(window.location.hash || "#/");
@@ -39,12 +39,12 @@ export function App() {
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
     (async () => {
-      const [pack, audio] = await Promise.all([loadContent(), loadAudioIndex()]);
+      const [pack, audio, words] = await Promise.all([loadContent(), loadAudioIndex(), loadNativeWords()]);
       try {
-        setReady({ pack, audio, store: await openStore(), storeError: null });
+        setReady({ pack, audio, words, store: await openStore(), storeError: null });
       } catch (e) {
         if (!(e instanceof StoreUnavailableError)) throw e;
-        setReady({ pack, audio, store: memoryStore(), storeError: e.message });
+        setReady({ pack, audio, words, store: memoryStore(), storeError: e.message });
       }
     })().catch((e: Error) => setError(e.message));
   }, []);
@@ -52,7 +52,7 @@ export function App() {
   if (!ready) return <p>Cargando…</p>;
   const capsule = hash.startsWith("#/capsula/") ? ready.pack.capsules.find((c) => c.id === hash.slice("#/capsula/".length)) : undefined;
   return (
-    <AudioProvider pack={ready.pack} index={ready.audio}>
+    <AudioProvider pack={ready.pack} index={ready.audio} words={ready.words}>
       <nav><a href="#/">Hoy</a> <a href="#/repaso">Repaso</a> <a href="#/acerca">Acerca de</a></nav>
       {hash === "#/repaso" ? <ReviewScreen pack={ready.pack} store={ready.store} />
         : hash === "#/acerca" ? <AboutScreen manifest={ready.pack.manifest} sentences={ready.pack.sentences} />

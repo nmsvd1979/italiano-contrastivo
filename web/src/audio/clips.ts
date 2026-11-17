@@ -21,3 +21,18 @@ export async function loadAudioIndex(
 export function audioIdFor(text: string, pack: Pick<ContentPack, "sentences" | "lexemes">): string | undefined {
   return pack.sentences.find((s) => s.it === text)?.audio ?? pack.lexemes.find((l) => l.form === text)?.audio;
 }
+
+/** Palabra → archivo de grabación nativa (`audio/words/<archivo>`). Sin el archivo o sin red: vacío. */
+export async function loadNativeWords(
+  fetcher: (url: string) => Promise<Response> = (u) => fetch(u),
+  base: string = import.meta.env.BASE_URL ?? "/",
+): Promise<Map<string, string>> {
+  try {
+    const res = await fetcher(`${base}audio/words.json`);
+    if (!res.ok) return new Map();
+    const rows = (await res.json()) as { form: string; file: string }[];
+    return new Map(rows.map((r) => [r.form, r.file]));
+  } catch {
+    return new Map();
+  }
+}

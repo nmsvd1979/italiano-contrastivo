@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import { audioIdFor, loadAudioIndex } from "./clips";
+import { audioIdFor, loadAudioIndex, loadNativeWords } from "./clips";
 import { say } from "../ui/speech";
 
 class FakeAudio {
@@ -48,6 +48,27 @@ describe("say", () => {
     await say("dos", opts("b00000000000"));
     expect(FakeAudio.made[0].paused).toBe(true);
     expect(FakeAudio.made[1].paused).toBe(false);
+  });
+});
+
+describe("grabación nativa", () => {
+  it("se prueba primero la nativa, luego el clip y luego el sistema", async () => {
+    const opts = { nativeFile: "burro--ana.mp3", clipId: "abc123abc123", index: new Set(["abc123abc123"]), base: "/" };
+    expect(await say("burro", opts)).toBe("native");
+    expect(FakeAudio.made[0].src).toBe("/audio/words/burro--ana.mp3");
+    FakeAudio.made = [];
+    let calls = 0;
+    FakeAudio.failPlay = false;
+    const orig = FakeAudio.prototype.play;
+    FakeAudio.prototype.play = function () { return calls++ === 0 ? Promise.reject(new Error("x")) : orig.call(this); };
+    expect(await say("burro", opts)).toBe("clip");
+    expect(FakeAudio.made.map((a) => a.src)).toEqual(["/audio/words/burro--ana.mp3", "/audio/tts/abc123abc123.mp3"]);
+    FakeAudio.prototype.play = orig;
+  });
+  it("loadNativeWords devuelve forma → archivo y tolera la descarga fallida", async () => {
+    const f = async () => new Response(JSON.stringify([{ form: "burro", file: "burro--ana.mp3" }]));
+    expect([...(await loadNativeWords(f, "/")).entries()]).toEqual([["burro", "burro--ana.mp3"]]);
+    expect((await loadNativeWords(async () => new Response("no", { status: 404 }), "/")).size).toBe(0);
   });
 });
 
