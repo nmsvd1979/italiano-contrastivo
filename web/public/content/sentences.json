@@ -1,5 +1,18 @@
 [
   {
+    "audio": "373bde0c4fee",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Las mías son peores.",
+    "es_author": "saverius",
+    "es_source_id": "10152201",
+    "id": "s_10152075",
+    "it": "Le mie sono peggio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10152075",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "abc0047a2e18",
     "author": "riccioberto",
     "cefr_estimate": "A1",
@@ -65,6 +78,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "08a2ca457e45",
+    "author": "Gloria7",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde están los ascensores?",
+    "es_author": "Seael",
+    "es_source_id": "10636293",
+    "id": "s_10636288",
+    "it": "Dove sono gli ascensori?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10636288",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "feefbdf05074",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -75,6 +101,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1082492",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "66c00c3fc2a5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Quiero verlo con mis ojos.",
+    "es_author": "nancy",
+    "es_source_id": "1160703",
+    "id": "s_1083499",
+    "it": "Voglio vederlo con i miei occhi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1083499",
+    "translation_kind": "direct"
   },
   {
     "audio": "337a9fe17421",
@@ -138,6 +177,45 @@
     "it": "Ora lavora in Francia.",
     "license": "CC BY 2.0 FR",
     "source_id": "1133603",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "4a18ffea557b",
+    "author": "Nuel",
+    "cefr_estimate": "A1",
+    "es": "Todos nosotros reconocemos tu inteligencia.",
+    "es_author": "saverius",
+    "es_source_id": "11816423",
+    "id": "s_11816160",
+    "it": "Tutti noi riconosciamo la tua intelligenza.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11816160",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "4079b5cfd66a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Deberías ver a mi gato ahora.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1195968",
+    "id": "s_1195313",
+    "it": "Dovreste vedere il mio gatto ora.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1195313",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0764b0c927a9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Los elefantes beben mucha agua.",
+    "es_author": "Adelpa",
+    "es_source_id": "12026767",
+    "id": "s_12026400",
+    "it": "Gli elefanti bevono molta acqua.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12026400",
     "translation_kind": "direct"
   },
   {
@@ -288,6 +366,19 @@
     "it": "Sei uscito ieri sera?",
     "license": "CC BY 2.0 FR",
     "source_id": "1371033",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0f50562ab343",
+    "author": "unforgiven95",
+    "cefr_estimate": "A1",
+    "es": "No me gusta mi apariencia.",
+    "es_author": "DJ_Saidez",
+    "es_source_id": "10478653",
+    "id": "s_13976565",
+    "it": "Non mi piace il mio aspetto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13976565",
     "translation_kind": "direct"
   },
   {
@@ -465,6 +556,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "460173719392",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Mary tiene los ojos grandes.",
+    "es_author": "Shishir",
+    "es_source_id": "2032441",
+    "id": "s_2457911",
+    "it": "Mary ha gli occhi grandi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2457911",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "36f16d96541f",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -487,6 +591,19 @@
     "it": "Sono più veloce di voi.",
     "license": "CC BY 2.0 FR",
     "source_id": "2578620",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "16c268c3b836",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Mi vestido viejo es azul.",
+    "es_author": "lukaszpp",
+    "es_source_id": "456458",
+    "id": "s_2758388",
+    "it": "Il mio vecchio vestito è azzurro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2758388",
     "translation_kind": "direct"
   },
   {
@@ -603,6 +720,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "fe29ae1e3194",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me gustan los relojes.",
+    "es_author": "hayastan",
+    "es_source_id": "947269",
+    "id": "s_3343673",
+    "it": "A me piacciono gli orologi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3343673",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "70c2c767e561",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -625,6 +755,19 @@
     "it": "Ho bisogno del primo soccorso.",
     "license": "CC BY 2.0 FR",
     "source_id": "3590343",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d160290c1198",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡Los animales no son juguetes!",
+    "es_author": "cueyayotl",
+    "es_source_id": "4473220",
+    "id": "s_3669699",
+    "it": "Gli animali non sono giocattoli!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3669699",
     "translation_kind": "direct"
   },
   {
@@ -654,6 +797,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "8b4020ba9a57",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde están mis gafas?",
+    "es_author": "tatoerique",
+    "es_source_id": "329729",
+    "id": "s_374617",
+    "it": "Dove sono i miei occhiali?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "374617",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f4ce2711de10",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -677,6 +833,19 @@
     "it": "Mio zio vive a Londra.",
     "license": "CC BY 2.0 FR",
     "source_id": "376530",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "9402929f859d",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "¿Cuál es tu opinión?",
+    "es_author": "Adelpa",
+    "es_source_id": "6379017",
+    "id": "s_377545",
+    "it": "Qual è la tua opinione?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "377545",
     "translation_kind": "direct"
   },
   {
@@ -810,6 +979,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ef9f85fef5a4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde está tu otro pendiente?",
+    "es_author": "Seael",
+    "es_source_id": "11742000",
+    "id": "s_6039237",
+    "it": "Dov'è il tuo altro orecchino?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6039237",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "6ab27394c411",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -846,6 +1028,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "6476779",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "837eca52b491",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Mi mejor amigo es filipino.",
+    "es_author": "saverius",
+    "es_source_id": "10331138",
+    "id": "s_6612336",
+    "it": "Il mio migliore amico è filippino.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6612336",
+    "translation_kind": "direct"
   },
   {
     "audio": "5f7c89084bca",
@@ -900,6 +1095,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "38043ec019f2",
+    "author": "Heracleum",
+    "cefr_estimate": "A1",
+    "es": "El muchacho usa anteojos.",
+    "es_author": "Leono",
+    "es_source_id": "552554",
+    "id": "s_708790",
+    "it": "Il ragazzo porta gli occhiali.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "708790",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3c296afaa06c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -948,6 +1156,19 @@
     "it": "Ci sono molte galassie nell'universo.",
     "license": "CC BY 2.0 FR",
     "source_id": "717912",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "89131c1c2496",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Los italianos no beben nunca café.",
+    "es_author": "Shishir",
+    "es_source_id": "817809",
+    "id": "s_719226",
+    "it": "Gli italiani non bevono mai caffè.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "719226",
     "translation_kind": "direct"
   },
   {
@@ -1016,6 +1237,58 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "82169f136027",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "Los pájaros están cantando en los árboles.",
+    "es_author": "Shishir",
+    "es_source_id": "558644",
+    "id": "s_984709",
+    "it": "Gli uccelli stanno cantando sugli alberi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "984709",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0b1381b6b27a",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "Su negocio está siempre lleno de clientes.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1202406",
+    "id": "s_1005627",
+    "it": "Il suo negozio è sempre pieno di clienti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1005627",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "cc0fe6074664",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El escándalo arruinó su carrera.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1287655",
+    "id": "s_1017047",
+    "it": "Lo scandalo ha rovinato la sua carriera.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1017047",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ddee70bc69f8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El fútbol es el deporte más popular de todos.",
+    "es_author": "Shishir",
+    "es_source_id": "1020918",
+    "id": "s_1021057",
+    "it": "Il calcio è lo sport più popolare di tutti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1021057",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "19579d1797b7",
     "author": "carlosalberto",
     "cefr_estimate": "A2",
@@ -1026,6 +1299,19 @@
     "it": "Ho cercato di conoscere la mia anima.",
     "license": "CC BY 2.0 FR",
     "source_id": "10273528",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "4d0b1291421f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Salimos por la ventana.",
+    "es_author": "hayastan",
+    "es_source_id": "1082626",
+    "id": "s_1082620",
+    "it": "Siamo usciti dalla finestra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1082620",
     "translation_kind": "direct"
   },
   {
@@ -1081,6 +1367,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "efa122b9ee09",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Perdí mis anteojos.",
+    "es_author": "nancy",
+    "es_source_id": "1158831",
+    "id": "s_1126956",
+    "it": "Ho perso i miei occhiali.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1126956",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "237f34f32c2a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -1091,6 +1390,32 @@
     "it": "Ho perso la mia corona.",
     "license": "CC BY 2.0 FR",
     "source_id": "1126958",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ca7ae84081ab",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "Los árboles no crecen hasta el cielo.",
+    "es_author": "hayastan",
+    "es_source_id": "1127983",
+    "id": "s_1127638",
+    "it": "Gli alberi non crescono fino al cielo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1127638",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ee0ed26cb064",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡Hoy no es mi día de suerte!",
+    "es_author": "nancy",
+    "es_source_id": "1141636",
+    "id": "s_1141626",
+    "it": "Oggi non è il mio giorno fortunato!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1141626",
     "translation_kind": "direct"
   },
   {
@@ -1107,6 +1432,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1591800e9b03",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Vinisteis a la ciudad?",
+    "es_author": "Shishir",
+    "es_source_id": "916764",
+    "id": "s_1152789",
+    "it": "Siete venute in città?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1152789",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "b6a57dc25894",
     "author": "Adelpa",
     "cefr_estimate": "A2",
@@ -1117,6 +1455,45 @@
     "it": "Il diavolo è morto.",
     "license": "CC BY 2.0 FR",
     "source_id": "11642390",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b9fba08b0368",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estuvimos en Londres dos semanas.",
+    "es_author": "lukaszpp",
+    "es_source_id": "434733",
+    "id": "s_1210737",
+    "it": "Siamo stati a Londra per due settimane.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1210737",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "92bb158169ce",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Los árboles pronto quedarán desnudos.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1331001",
+    "id": "s_1239005",
+    "it": "Gli alberi saranno presto spogli.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1239005",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b79f5012c702",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Su asistencia es indispensable para nosotros.",
+    "es_author": "Shishir",
+    "es_source_id": "1333058",
+    "id": "s_1306655",
+    "it": "La sua assistenza è indispensabile per noi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1306655",
     "translation_kind": "direct"
   },
   {
@@ -1195,6 +1572,32 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "99957145fc71",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Llegamos a la oficina a tiempo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1440055",
+    "id": "s_1358832",
+    "it": "Noi siamo arrivati in tempo all'ufficio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1358832",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "452993426413",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "De hecho no fuimos testigos de ese accidente.",
+    "es_author": "BraveSentry",
+    "es_source_id": "777274",
+    "id": "s_1367022",
+    "it": "Di fatto non siamo stati testimoni di questo incidente.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1367022",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "afd30d00f57a",
     "author": "riccioberto",
     "cefr_estimate": "A2",
@@ -1205,6 +1608,58 @@
     "it": "Sono un po' più alto di te.",
     "license": "CC BY 2.0 FR",
     "source_id": "1394655",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "4a8726985225",
+    "author": "nancy",
+    "cefr_estimate": "A2",
+    "es": "Los insectos tienen tres pares de patas.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1279333",
+    "id": "s_1433807",
+    "it": "Gli insetti hanno tre paia di zampe.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1433807",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "61f69c4694d3",
+    "author": "rado",
+    "cefr_estimate": "A2",
+    "es": "Vinimos aquí para divertirnos.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1439969",
+    "id": "s_1442900",
+    "it": "Siamo venuti qui per divertirci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1442900",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ced2aad00f37",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Su respuesta fue lógica.",
+    "es_author": "darinmex",
+    "es_source_id": "778990",
+    "id": "s_1482371",
+    "it": "La sua risposta era logica.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1482371",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "acb59ef12ab8",
+    "author": "Virgilia",
+    "cefr_estimate": "A2",
+    "es": "Las nubes amenazantes se estaban acercando, así que entramos.",
+    "es_author": "Virgilia",
+    "es_source_id": "1501961",
+    "id": "s_1501957",
+    "it": "Le nubi minacciose si stavano avvicinando, così siamo entrati.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1501957",
     "translation_kind": "direct"
   },
   {
@@ -1377,6 +1832,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "41e67152466a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡Es exactamente el mismo principio que ésta!",
+    "es_author": "saverius",
+    "es_source_id": "10799331",
+    "id": "s_2282212",
+    "it": "È esattamente lo stesso principio di questa!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2282212",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "65d99c405ed8",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -1400,6 +1868,19 @@
     "it": "Ha paura di perdere influenza e attenzione.",
     "license": "CC BY 2.0 FR",
     "source_id": "2399430",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "bf6b014f325b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ella exhibió sus talentos.",
+    "es_author": "darinmex",
+    "es_source_id": "592576",
+    "id": "s_2448704",
+    "it": "Ha mostrato i suoi talenti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2448704",
     "translation_kind": "direct"
   },
   {
@@ -1480,6 +1961,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7711f60ef507",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ese restaurante es famoso por sus especialidades.",
+    "es_author": "saverius",
+    "es_source_id": "11857980",
+    "id": "s_2841533",
+    "it": "Questo ristorante è rinomato per le sue specialità.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2841533",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "63d306fba933",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -1517,6 +2011,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "78c4df905268",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Mi opinión era irrelevante.",
+    "es_author": "marcelostockle",
+    "es_source_id": "3106539",
+    "id": "s_3106543",
+    "it": "La mia opinione era irrilevante.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3106543",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "5d5207cabcb1",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -1540,6 +2047,32 @@
     "it": "Qual è il nome della sua migliore amica?",
     "license": "CC BY 2.0 FR",
     "source_id": "3133312",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "aee09324c0f9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No fuimos a Turín.",
+    "es_author": "Seael",
+    "es_source_id": "11728566",
+    "id": "s_3174439",
+    "it": "Non siamo andati a Torino.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3174439",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2099455d1836",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "En español usamos más que en otros idiomas los artículos.",
+    "es_author": "carlosalberto",
+    "es_source_id": "3236008",
+    "id": "s_3236013",
+    "it": "Usiamo gli articoli più in spagnolo che in altre lingue.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3236013",
     "translation_kind": "direct"
   },
   {
@@ -1698,6 +2231,45 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "5a8c33e94bf0",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "¡Mi idioma no se encuentra en la lista!",
+    "es_author": "anassara",
+    "es_source_id": "715760",
+    "id": "s_389110",
+    "it": "La mia lingua non si trova nella lista!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "389110",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "37cabd0f2d1e",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Después de una hora en coche, llegamos al aeropuerto.",
+    "es_author": "hundo",
+    "es_source_id": "987433",
+    "id": "s_398002",
+    "it": "Dopo un'ora di macchina, siamo arrivati all'aeroporto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "398002",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c7d9250365c5",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Creo que lo mejor es no ser maleducado.",
+    "es_author": "Shishir",
+    "es_source_id": "2563",
+    "id": "s_399292",
+    "it": "Penso che sia meglio non essere maleducati.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "399292",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "80322cb43634",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -1708,6 +2280,19 @@
     "it": "Lui abbreviava i suoi discorsi.",
     "license": "CC BY 2.0 FR",
     "source_id": "4078263",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "4bb31dd41350",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Fuimos a Londres el año pasado.",
+    "es_author": "Shishir",
+    "es_source_id": "2948",
+    "id": "s_418435",
+    "it": "Siamo andati a Londra l'anno scorso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "418435",
     "translation_kind": "direct"
   },
   {
@@ -1747,6 +2332,45 @@
     "it": "Io sono abituato al dolore adesso.",
     "license": "CC BY 2.0 FR",
     "source_id": "5190121",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3fb91d0fff43",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Todos nos hemos hecho comunistas.",
+    "es_author": "Shishir",
+    "es_source_id": "531501",
+    "id": "s_529191",
+    "it": "Siamo diventati tutti comunisti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "529191",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "cedc51969e99",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "¿En qué año nacisteis?",
+    "es_author": "Shishir",
+    "es_source_id": "528812",
+    "id": "s_529428",
+    "it": "In che anno siete nate?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "529428",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "cf27cbc23c62",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "¿En qué año nacisteis?",
+    "es_author": "Shishir",
+    "es_source_id": "528812",
+    "id": "s_529432",
+    "it": "In che anno siete nati?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "529432",
     "translation_kind": "direct"
   },
   {
@@ -1828,6 +2452,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c89cc892ff04",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Mi amigo era tailandés?",
+    "es_author": "saverius",
+    "es_source_id": "10805406",
+    "id": "s_6613691",
+    "it": "Il mio amico era thailandese?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6613691",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "652a3cb07524",
     "author": "dnnywld",
     "cefr_estimate": "A2",
@@ -1838,6 +2475,19 @@
     "it": "Lei ha paura che tu ti perda.",
     "license": "CC BY 2.0 FR",
     "source_id": "6841369",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "03750cbd1661",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Lincoln liberó a los esclavos.",
+    "es_author": "hayastan",
+    "es_source_id": "1731622",
+    "id": "s_690617",
+    "it": "Lincoln liberò gli schiavi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "690617",
     "translation_kind": "direct"
   },
   {
@@ -1919,6 +2569,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4738c85641d6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Nacimos el mismo año.",
+    "es_author": "Seael",
+    "es_source_id": "10692943",
+    "id": "s_7681452",
+    "it": "Siamo nati nello stesso anno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7681452",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2652e4dfa383",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Nacimos el mismo año.",
+    "es_author": "Seael",
+    "es_source_id": "10692943",
+    "id": "s_7681454",
+    "it": "Siamo nate nello stesso anno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7681454",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "e56c4b2a748e",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -1958,6 +2634,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "0a0b36d5f4cf",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estaba visitando a su madre adoptiva.",
+    "es_author": "cueyayotl",
+    "es_source_id": "2253218",
+    "id": "s_7833887",
+    "it": "Stava visitando la sua madre adottiva.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7833887",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "369b212117f7",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -1968,6 +2657,32 @@
     "it": "Siamo andati al centro commerciale ieri.",
     "license": "CC BY 2.0 FR",
     "source_id": "7844545",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "20d63c946977",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ayer fuimos al centro comercial.",
+    "es_author": "Seael",
+    "es_source_id": "13538651",
+    "id": "s_7844546",
+    "it": "Siamo andate al centro commerciale ieri.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7844546",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e531b365de55",
+    "author": "rado",
+    "cefr_estimate": "A2",
+    "es": "La riqueza no hace más sabios a los hombres.",
+    "es_author": "hayastan",
+    "es_source_id": "1015148",
+    "id": "s_797199",
+    "it": "Le ricchezze non rendono più saggi gli uomini.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "797199",
     "translation_kind": "direct"
   },
   {
@@ -2010,6 +2725,45 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "edf1a9a53f4a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Vinisteis demasiado tarde.",
+    "es_author": "ecorralest101",
+    "es_source_id": "8730761",
+    "id": "s_950173",
+    "it": "Siete venuti troppo tardi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "950173",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "872b8643dab2",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "¡Un pequeño esfuerzo más y hemos llegado!",
+    "es_author": "hayastan",
+    "es_source_id": "992249",
+    "id": "s_965625",
+    "it": "Ancora un piccolo sforzo e siamo arrivati!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "965625",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "475cb51bd70a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡Mantén tu promesa!",
+    "es_author": "solmyrbcn",
+    "es_source_id": "5853562",
+    "id": "s_9723298",
+    "it": "Mantieni la tua promessa!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9723298",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "e177274155ef",
     "author": "riccioberto",
     "cefr_estimate": "A2",
@@ -2020,6 +2774,71 @@
     "it": "La polizia lo seguì a Parigi.",
     "license": "CC BY 2.0 FR",
     "source_id": "998145",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "27c1bd1c0f59",
+    "author": "elgranjuego",
+    "cefr_estimate": "B1",
+    "es": "No creo que se haya ido.",
+    "es_author": "Shishir",
+    "es_source_id": "1292049",
+    "id": "s_1038767",
+    "it": "Non penso che sia partito.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1038767",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b8e302c00744",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Pienso que es imposible que derrotemos a Tom.",
+    "es_author": "saverius",
+    "es_source_id": "10462170",
+    "id": "s_10461738",
+    "it": "Penso che sia impossibile per noi battere Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10461738",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "6ac9912944b9",
+    "author": "Bethanielle",
+    "cefr_estimate": "B1",
+    "es": "Nos hemos quedado atascados en un ascensor durante una hora.",
+    "es_author": "saverius",
+    "es_source_id": "10822407",
+    "id": "s_10819798",
+    "it": "Siamo stati bloccati nell'ascensore per un'ora.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10819798",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "bb99bb6b1a1c",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Creo que él está enojado.",
+    "es_author": "aka_aj",
+    "es_source_id": "1678590",
+    "id": "s_1246391",
+    "it": "Penso che sia arrabbiato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1246391",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "88faa1bb5d0b",
+    "author": "riccioberto",
+    "cefr_estimate": "B1",
+    "es": "Parece que ha ocurrido algo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1271108",
+    "id": "s_1271110",
+    "it": "Sembra che sia successo qualcosa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1271110",
     "translation_kind": "direct"
   },
   {
@@ -2046,6 +2865,19 @@
     "it": "Per me è finita con le feste, il mio corpo malato non ce la fa più.",
     "license": "CC BY 2.0 FR",
     "source_id": "13694648",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "dfc60790458e",
+    "author": "unforgiven95",
+    "cefr_estimate": "B1",
+    "es": "Fuimos a un sitio más elevado para tener mejores vistas.",
+    "es_author": "Alba",
+    "es_source_id": "1567035",
+    "id": "s_14000522",
+    "it": "Siamo andati in un posto più alto per avere una vista migliore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14000522",
     "translation_kind": "direct"
   },
   {
@@ -2099,6 +2931,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "185299839176",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Parece que va a nevar.",
+    "es_author": "IA (Claude)",
+    "id": "s_3001298",
+    "it": "Sembra che stia per nevicare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3001298",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "cabadce6b2ad",
     "author": "Guybrush88",
     "cefr_estimate": "B1",
@@ -2112,6 +2956,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "8ec99c57c98f",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Aníbal, mientras estaba por atravesar los Alpes, reforzó los ánimos de los soldados.",
+    "es_author": "gianich73",
+    "es_source_id": "3299421",
+    "id": "s_3161121",
+    "it": "Annibale, mentre stava per superare le Alpi, rafforzò gli animi dei soldati.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3161121",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "5fedce285429",
     "author": "Guybrush88",
     "cefr_estimate": "B1",
@@ -2122,6 +2979,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3175523",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "620bcc16feca",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "¿Crees que debería hacerlo?",
+    "es_author": "Seael",
+    "es_source_id": "3762272",
+    "id": "s_3176207",
+    "it": "Credi che debba farlo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3176207",
+    "translation_kind": "direct"
   },
   {
     "audio": "c68179b32d92",
@@ -2188,6 +3058,173 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "353626b634f1",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Esta es mi amiga Rachel, fuimos al instituto juntos.",
+    "es_author": "Shishir",
+    "es_source_id": "2808",
+    "id": "s_3585065",
+    "it": "Questa è la mia amica Rachel. Siamo andate alle superiori assieme.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3585065",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "66c4913a7be6",
+    "author": "rado",
+    "cefr_estimate": "B1",
+    "es": "No podemos ver la luz ultravioleta, pero los insectos sí.",
+    "es_author": "carlosalberto",
+    "es_source_id": "3627576",
+    "id": "s_3627155",
+    "it": "Noi non riusciamo a vedere la luce ultravioletta, ma gli insetti sì.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3627155",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e31c4ea6f042",
+    "author": "Pharamp",
+    "cefr_estimate": "B1",
+    "es": "Yo creo que él es feliz.",
+    "es_author": "hayastan",
+    "es_source_id": "1016221",
+    "id": "s_380758",
+    "it": "Credo che sia felice.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "380758",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "acfbcaf8c9aa",
+    "author": "Pharamp",
+    "cefr_estimate": "B1",
+    "es": "Creo que ella está enferma.",
+    "es_author": "Shishir",
+    "es_source_id": "537735",
+    "id": "s_380817",
+    "it": "Credo che sia malata.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "380817",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "efd54b759d7f",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "¿Crees que todavía quiere casarse conmigo?",
+    "es_author": "IA (Claude)",
+    "id": "s_3865880",
+    "it": "Pensi che voglia ancora sposarmi?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3865880",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "02d1e40ed712",
+    "author": "Pharamp",
+    "cefr_estimate": "B1",
+    "es": "Cuando hablas con los demás, lo haces con los brazos cruzados.",
+    "es_author": "Shishir",
+    "es_source_id": "3008",
+    "id": "s_388782",
+    "it": "Quando parli con gli altri, lo fai con le braccia incrociate.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "388782",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3898efc786bb",
+    "author": "Pharamp",
+    "cefr_estimate": "B1",
+    "es": "No creo que ella esté feliz.",
+    "es_author": "manufrutos",
+    "es_source_id": "858828",
+    "id": "s_401195",
+    "it": "Non penso che sia felice.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "401195",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ed21de6bb79e",
+    "author": "Pharamp",
+    "cefr_estimate": "B1",
+    "es": "El español es hablado en México.",
+    "es_author": "arashi_29",
+    "es_source_id": "609744",
+    "id": "s_425792",
+    "it": "Lo spagnolo è parlato in Messico.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "425792",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "4311e010e13d",
+    "author": "saverius",
+    "cefr_estimate": "B1",
+    "es": "Me gusta mucho tu vestido afollado.",
+    "es_author": "saverius",
+    "es_source_id": "4343032",
+    "id": "s_4347087",
+    "it": "Mi piace molto il tuo vestito piegato in forma di soffietto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4347087",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d902fa319d55",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Creo que es lo correcto.",
+    "es_author": "IA (Claude)",
+    "id": "s_4420797",
+    "it": "Penso che sia la cosa giusta da fare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4420797",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "17158a6ffdfe",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Pienso que no es culpa de nadie.",
+    "es_author": "saverius",
+    "es_source_id": "4632564",
+    "id": "s_4631750",
+    "it": "Penso che non sia colpa di nessuno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4631750",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "584eb6ee6a69",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Yo pienso que no es culpa de nadie.",
+    "es_author": "saverius",
+    "es_source_id": "4632562",
+    "id": "s_4631751",
+    "it": "Io penso che non sia colpa di nessuno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4631751",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "6d7cfe583fae",
+    "author": "erraticfaerie",
+    "cefr_estimate": "B1",
+    "es": "Mi perro me está esperando cuando llego a casa de la escuela.",
+    "es_author": "gianich73",
+    "es_source_id": "3300451",
+    "id": "s_4656878",
+    "it": "Il mio cane mi sta aspettando quando torno a casa da scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4656878",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ed01d047f247",
     "author": "Guybrush88",
     "cefr_estimate": "B1",
@@ -2214,6 +3251,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2150a86c4046",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Se os ha pagado, ¿verdad?",
+    "es_author": "saverius",
+    "es_source_id": "11816453",
+    "id": "s_5805500",
+    "it": "Siete stati pagati, vero?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5805500",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3fa3f565e0d3",
     "author": "Valdast",
     "cefr_estimate": "B1",
@@ -2224,6 +3274,19 @@
     "it": "Lui ha paura di dire ai suoi genitori che è omosessuale.",
     "license": "CC BY 2.0 FR",
     "source_id": "5962421",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "add060246c3b",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "El parece haber vivido en España.",
+    "es_author": "quarzoliquido",
+    "es_source_id": "480193",
+    "id": "s_614240",
+    "it": "Sembra che abbia vissuto in Spagna.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "614240",
     "translation_kind": "direct"
   },
   {
@@ -2240,6 +3303,45 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "d95dfe051850",
+    "author": "dnnywld",
+    "cefr_estimate": "B1",
+    "es": "Por ahora no creo que sea necesario.",
+    "es_author": "saverius",
+    "es_source_id": "10802711",
+    "id": "s_6832144",
+    "it": "Per ora non penso che sia necessario.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6832144",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0be4ca087814",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Me parece que es de Inglaterra.",
+    "es_author": "noams",
+    "es_source_id": "1667568",
+    "id": "s_762905",
+    "it": "Mi sembra che venga dall'Inghilterra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "762905",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3c315adccb88",
+    "author": "rado",
+    "cefr_estimate": "B1",
+    "es": "No creo que sea una buena idea.",
+    "es_author": "hundo",
+    "es_source_id": "951182",
+    "id": "s_780573",
+    "it": "Non penso che sia una buona idea.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "780573",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "7390173f3816",
     "author": "Guybrush88",
     "cefr_estimate": "B1",
@@ -2253,6 +3355,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9e6a58d4241c",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Creo que él es feliz.",
+    "es_author": "hundo",
+    "es_source_id": "988300",
+    "id": "s_850864",
+    "it": "Penso che sia felice.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "850864",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e009562316fc",
+    "author": "dpu",
+    "cefr_estimate": "B1",
+    "es": "No sólo fuimos a París, sino que también visitamos Roma.",
+    "es_author": "tatoerique",
+    "es_source_id": "358285",
+    "id": "s_861399",
+    "it": "Non solo siamo andati a Parigi, ma abbiamo anche visitato Roma.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "861399",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "dea1dee7230d",
     "author": "riccioberto",
     "cefr_estimate": "B1",
@@ -2263,6 +3391,19 @@
     "it": "Devo segnarmi il suo indirizzo prima che me lo scordi.",
     "license": "CC BY 2.0 FR",
     "source_id": "941983",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "492f0bb53443",
+    "author": "riccioberto",
+    "cefr_estimate": "B1",
+    "es": "Personalmente, no creo que marque ninguna diferencia quién gane las elecciones.",
+    "es_author": "fran_trujillo",
+    "es_source_id": "855365",
+    "id": "s_977536",
+    "it": "Personalmente, non credo che faccia alcuna differenza chi vince le elezioni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "977536",
     "translation_kind": "direct"
   },
   {

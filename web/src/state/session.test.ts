@@ -6,6 +6,7 @@ import type { ContentPack, Lexeme } from "../content/load";
 import { afterCapsule, afterReview, closeCapsule, normalizeDay, pickItem, planToday, ratingFromAnswer, reviewQueue } from "./session";
 import { newCard } from "./srs";
 import { localDate } from "./store";
+import { masterByPlacement, emptyProgress } from "./course";
 
 const NOW = new Date("2026-11-16T15:00:00.000Z");
 const TODAY = localDate(NOW);
@@ -16,7 +17,10 @@ const cap = (code: string): Capsule => ({
   estimated_seconds: 240, review_status: "validated",
 }) as unknown as Capsule;
 const lex = (n: number): Lexeme[] => Array.from({ length: n }, (_, i) => ({ id: `lx_${i}`, form: `f${i}`, gloss_es: `g${i}`, lexical_type: "false_friend", source: "s" }));
+const unit = (id: string, code: string) => ({ id, level: "A1", title: `Unidad ${id}`, goal_es: "g", why_here: "w", codes: [code], status: "active" as const, explanation_es: "e",
+  parts: { descubre: [], practica: [], escucha: [], prueba: [] }, divergences: [] });
 const pack = (lexemes = lex(5)): ContentPack => ({
+  course: { version: 1, levels: [{ id: "A1", title: "A1", guided_hours: "x" }], units: [unit("u01", "ERR_A"), unit("u02", "ERR_B")], planned: [] },
   capsules: [cap("ERR_A"), cap("ERR_B")], itemsByCode: {}, lexemes, sentences: [],
   manifest: { capsules: ["cap_err_a", "cap_err_b"], codes: {}, levels: {}, reviewers: {}, sentences_used: 0, translation_kind: {} },
 });
@@ -27,27 +31,35 @@ const errCard = (code: string, due = NOW.toISOString()): Card => {
 const emptyDay = { date: TODAY, reviewsDone: 0, capsulesDone: [] as string[] };
 
 describe("planToday", () => {
-  it("sin tarjetas: nada vencido, primera cápsula del currículo, hasta 3 léxicos nuevos", () => {
+  it("sin tarjetas: nada vencido, primera unidad en su primer paso, hasta 3 léxicos nuevos y su duración", () => {
     const p = planToday({ pack: pack(), cards: [], day: emptyDay, now: NOW });
-    expect(p.review).toEqual({ due: 0, newAvailable: 3, doneToday: 0, cap: 12 });
-    expect(p.nextCapsule?.id).toBe("cap_err_a");
-    expect(p.allCapsulesDone).toBe(false);
+    expect(p.review).toMatchObject({ due: 0, newAvailable: 3, doneToday: 0, cap: 12 });
+    expect(p.review.seconds).toBe(45); // 3 tarjetas × 15 s a priori
+    expect(p.unit?.view.unit.id).toBe("u01");
+    expect(p.unit?.step).toBe("descubre");
+    expect(p.route).toEqual({ done: 0, total: 2 });
   });
-  it("una cápsula hecha (tarjeta de su código) pasa a la siguiente; todas hechas → sin cápsula", () => {
-    expect(planToday({ pack: pack(), cards: [errCard("ERR_A")], day: emptyDay, now: NOW }).nextCapsule?.id).toBe("cap_err_b");
-    const all = planToday({ pack: pack(), cards: [errCard("ERR_A"), errCard("ERR_B")], day: emptyDay, now: NOW });
-    expect(all.nextCapsule).toBeNull();
-    expect(all.allCapsulesDone).toBe(true);
+  it("una unidad completada pasa a la siguiente; todas completadas → sin unidad", () => {
+    const u1 = masterByPlacement(emptyProgress("u01"), NOW);
+    expect(planToday({ pack: pack(), cards: [], day: emptyDay, now: NOW, units: [u1] }).unit?.view.unit.id).toBe("u02");
+    const all = planToday({ pack: pack(), cards: [], day: emptyDay, now: NOW, units: [u1, masterByPlacement(emptyProgress("u02"), NOW)] });
+    expect(all.unit).toBeNull();
+    expect(all.route.done).toBe(2);
   });
   it("cuenta solo las tarjetas vencidas y no mezcla el progreso de otro día", () => {
     const cards = [errCard("ERR_A"), errCard("ERR_B", "2026-11-20T00:00:00.000Z")];
-    const p = planToday({ pack: pack([]), cards, day: { date: "2026-11-15", reviewsDone: 9, capsulesDone: ["cap_x"] }, now: NOW });
-    expect(p.review).toEqual({ due: 1, newAvailable: 0, doneToday: 0, cap: 12 });
+    const p = planToday({ pack: pack([]), cards, day: { date: "2026-11-15", reviewsDone: 9, capsulesDone: ["cap_x"], stepsDone: ["u01:descubre"] }, now: NOW });
+    expect(p.review).toMatchObject({ due: 1, newAvailable: 0, doneToday: 0, cap: 12 });
+    expect(p.stepsToday).toBe(0);
   });
-  it("hacer solo repaso no marca la cápsula como hecha", () => {
+  it("los repasos no avanzan la unidad", () => {
     const day = afterReview(emptyDay);
     expect(day).toEqual({ date: TODAY, reviewsDone: 1, capsulesDone: [] });
-    expect(planToday({ pack: pack(), cards: [], day, now: NOW }).nextCapsule?.id).toBe("cap_err_a");
+    expect(planToday({ pack: pack(), cards: [], day, now: NOW }).unit?.step).toBe("descubre");
+  });
+  it("el tiempo del repaso usa lo medido cuando existe", () => {
+    const p = planToday({ pack: pack(), cards: [], day: emptyDay, now: NOW, samples: { flashcard: [5, 5, 5, 5, 5] } });
+    expect(p.review.seconds).toBe(15);
   });
 });
 

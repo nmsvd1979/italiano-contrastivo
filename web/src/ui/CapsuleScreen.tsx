@@ -6,7 +6,7 @@ import { localDate, type Store } from "../state/store";
 import { ItemView } from "./items/ItemView";
 import { Translate, type TranslateItem } from "./items/Translate";
 
-export function CapsuleScreen({ capsule, store, now }: { capsule: Capsule; store: Store; now?: Date }) {
+export function CapsuleScreen({ capsule, store, now, embedded = false, onComplete }: { capsule: Capsule; store: Store; now?: Date; embedded?: boolean; onComplete?: () => void }) {
   const [state, setState] = useState<CapsuleState | null>(null);
   const [saveError, setSaveError] = useState(false);
   const busy = useRef(false); // un segundo toque mientras se guarda no debe registrar dos veces
@@ -27,6 +27,7 @@ export function CapsuleScreen({ capsule, store, now }: { capsule: Capsule; store
     try {
       await close();
       setSaveError(false);
+      onComplete?.();
     } catch {
       setSaveError(true); // el progreso de la cápsula sigue guardado: se puede volver a pulsar «Terminar»
     } finally {
@@ -47,8 +48,9 @@ export function CapsuleScreen({ capsule, store, now }: { capsule: Capsule; store
   };
 
   const { correct, total } = score(state, capsule);
+  const Wrapper = embedded ? "div" : "main";
   return (
-    <main>
+    <Wrapper>
       {state.phase === "trigger" && <Translate item={capsule.trigger as TranslateItem} onDone={() => advance({ type: "continue" })} />}
       {state.phase === "explanation" && (
         <section>
@@ -79,6 +81,6 @@ export function CapsuleScreen({ capsule, store, now }: { capsule: Capsule; store
           <p><a className="button" href="#/">Volver a Hoy</a></p>
         </section>
       )}
-    </main>
+    </Wrapper>
   );
 }

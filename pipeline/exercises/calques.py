@@ -77,6 +77,52 @@ _COMP = re.compile(r"\b(?:più|meno) \w+ (di) (?=(?:me|te|lui|lei|noi|voi|loro|[
 _TENERE = re.compile(r"\b(ho|hai|ha|abbiamo|avete|hanno|Ho|Hai|Ha|Abbiamo|Avete|Hanno) (?=(?:fame|sete|sonno|freddo|caldo|paura|ragione|fretta|\d+ anni)\b)")
 
 
+IMPURE = r"(?:s[^\W\daeiou_]|z|gn|ps|x|y|pn)"
+_ART = re.compile(rf"\b(lo|Lo) (?={IMPURE}\w*)|\b(gli|Gli) (?=(?:[aeiou]|{IMPURE})\w*)", re.I)
+# Solo «siamo/siete» (plurales): con «sono/sei/è» el participio en -o puede ser válido (hablante masculino, impersonal).
+_PART = re.compile(r"\b(?:[Ss]iamo|[Ss]iete) (?:non )?((?:andat|venut|arrivat|partit|uscit|nat|mort|rimast|stat|cadut|diventat|tornat|entrat)[ie])\b")
+_SPELL = re.compile(r"\b(il|Il|la|La|i|I|le|Le|un|Un|una|Una) (mio|mia|miei|mie|tuo|tua|tuoi|tue|suo|sua|suoi|sue)\b")
+SPELL_ES = {"mio": "mi", "mia": "mi", "miei": "mis", "mie": "mis", "tuo": "tu", "tua": "tu", "tuoi": "tus", "tue": "tus",
+            "suo": "su", "sua": "su", "suoi": "sus", "sue": "sus"}
+SUBJ_TO_IND = {"sia": "è", "siano": "sono", "abbia": "ha", "abbiano": "hanno", "faccia": "fa", "facciano": "fanno", "vada": "va", "vadano": "vanno",
+               "venga": "viene", "vengano": "vengono", "possa": "può", "possano": "possono", "voglia": "vuole", "vogliano": "vogliono",
+               "debba": "deve", "debbano": "devono", "sappia": "sa", "sappiano": "sanno", "stia": "sta", "stiano": "stanno", "dica": "dice", "dicano": "dicono"}
+_OPINION = re.compile(r"\b(?:[Cc]redo|[Pp]enso|[Rr]itengo|[Cc]redi|[Pp]ensi|[Cc]rede|[Pp]ensa|[Rr]itiene|[Pp]are|[Ss]embra) che (?:non )?(" + "|".join(SUBJ_TO_IND) + r")\b")
+
+
+def _article_allomorph(it: str):
+    found = list(_ART.finditer(it))
+    if len(found) != 1:
+        return None
+    m = found[0]
+    g = 1 if m.group(1) else 2
+    art = m.group(g)
+    wrong = _cap("il" if g == 1 else "i", art)
+    return Calque("ERR_ARTICLE_ALLOMORPH", m.start(g), m.end(g), art, wrong, "morphological")
+
+
+def _participle_agreement(it: str):
+    m = _only(_PART, it)
+    if not m:
+        return None
+    return Calque("ERR_PARTICIPLE_AGREEMENT", m.start(1), m.end(1), m.group(1), m.group(1)[:-1] + "o", "morphological")
+
+
+def _possessive_spelling(it: str):
+    m = _only(_SPELL, it)
+    if not m:
+        return None
+    poss = m.group(2)
+    return Calque("ERR_POSSESSIVE_SPELLING", m.start(2), m.end(2), poss, SPELL_ES[poss], "morphological")
+
+
+def _congiuntivo_opinion(it: str):
+    m = _only(_OPINION, it)
+    if not m:
+        return None
+    return Calque("ERR_CONGIUNTIVO_OPINION", m.start(1), m.end(1), m.group(1), SUBJ_TO_IND[m.group(1)], "l1_calque")
+
+
 def _aux_essere(it: str):
     m = _only(_AUX, it)
     return m and Calque("ERR_AUX_ESSERE", m.start(1), m.end(1), m.group(1), AUX_SWAP[m.group(1)], "l1_calque")
@@ -152,6 +198,10 @@ _GENERATORS: dict[str, Callable[[str], Calque | None]] = {
     "ERR_PREP_ARTICLE_CONTRACTION": _prep_article_contraction,
     "ERR_COMPARATIVE_DI": _comparative_di,
     "ERR_TENERE_AVERE": _tenere_avere,
+    "ERR_ARTICLE_ALLOMORPH": _article_allomorph,
+    "ERR_PARTICIPLE_AGREEMENT": _participle_agreement,
+    "ERR_POSSESSIVE_SPELLING": _possessive_spelling,
+    "ERR_CONGIUNTIVO_OPINION": _congiuntivo_opinion,
 }
 CALQUE_CODES: tuple[str, ...] = tuple(_GENERATORS)
 

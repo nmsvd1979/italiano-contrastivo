@@ -4,17 +4,22 @@ import type { Card } from "../generated/card";
 import type { Item } from "../generated/item";
 import type { ReviewLog } from "../generated/review-log";
 import { score, type CapsuleState } from "./capsuleMachine";
+import { currentView, summary, unitViews, type UnitView } from "./course";
 import { dueCards, newCard, review } from "./srs";
-import { type DayProgress, localDate } from "./store";
+import { stepSeconds } from "./steps";
+import { estimateSeconds, type Samples } from "./timing";
+import { type DayProgress, localDate, type StepId, type UnitProgress } from "./store";
 
 export const REVIEW_CAP = 12; // ≈5 min por tanda
 export const NEW_LEXEMES_PER_BATCH = 3;
 
 export type ReviewEntry = { card: Card } | { lexeme: Lexeme };
 export type TodayPlan = {
-  review: { due: number; newAvailable: number; doneToday: number; cap: number };
-  nextCapsule: Capsule | null;
-  allCapsulesDone: boolean;
+  review: { due: number; newAvailable: number; doneToday: number; cap: number; seconds: number };
+  /** Unidad actual y su siguiente paso (null si no queda ninguna unidad por hacer). */
+  unit: { view: UnitView; step: StepId; seconds: number } | null;
+  route: { done: number; total: number };
+  stepsToday: number;
 };
 
 /** El progreso de otra fecha local equivale a un día vacío (la sesión cambia a medianoche local). */
@@ -32,17 +37,21 @@ const unseenLexemes = (pack: ContentPack, cards: Card[]) => {
   return pack.lexemes.filter((l) => !have.has(`lexeme:${l.id}`));
 };
 
-export function planToday(input: { pack: ContentPack; cards: Card[]; day: DayProgress; now: Date }): TodayPlan {
-  const { pack, cards, now } = input;
+export function planToday(input: { pack: ContentPack; cards: Card[]; day: DayProgress; now: Date; units?: UnitProgress[]; samples?: Samples }): TodayPlan {
+  const { pack, cards, now, units = [], samples = {} } = input;
   const day = normalizeDay(input.day, now);
   const due = dueCards(cards, now, Infinity).length;
   const room = Math.max(0, REVIEW_CAP - Math.min(due, REVIEW_CAP));
-  const have = new Set(cards.map((c) => c.id));
-  const nextCapsule = pack.capsules.find((c) => !have.has(`error_code:${c.target_error_codes[0]}`)) ?? null;
+  const queue = reviewQueue({ pack, cards, now });
+  const seconds = queue.reduce((t, e) => t + estimateSeconds("card" in e && e.card.subject.kind === "error_code" ? "choice" : "flashcard", samples), 0);
+  const views = unitViews(pack.course, units);
+  const cur = currentView(views);
+  const step = cur?.next ?? null;
   return {
-    review: { due, newAvailable: Math.min(NEW_LEXEMES_PER_BATCH, room, unseenLexemes(pack, cards).length), doneToday: day.reviewsDone, cap: REVIEW_CAP },
-    nextCapsule,
-    allCapsulesDone: nextCapsule === null,
+    review: { due, newAvailable: Math.min(NEW_LEXEMES_PER_BATCH, room, unseenLexemes(pack, cards).length), doneToday: day.reviewsDone, cap: REVIEW_CAP, seconds },
+    unit: cur && step ? { view: cur, step, seconds: stepSeconds(cur.unit, step, pack, samples) } : null,
+    route: { done: summary(views).done, total: views.length },
+    stepsToday: (day.stepsDone ?? []).length,
   };
 }
 

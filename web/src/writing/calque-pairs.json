@@ -1,5 +1,10 @@
 [
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Le mie sono peggio.",
+    "wrong": "Mie sono peggio."
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "Nel mondo ci sono quattro oceani.",
     "wrong": "Nel mondo c'è quattro oceani."
@@ -33,6 +38,11 @@
     "code": "ERR_PREP_PLACE",
     "correct": "Domani vado a Parigi.",
     "wrong": "Domani vado in Parigi."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Voglio vederlo con i miei occhi.",
+    "wrong": "Voglio vederlo con miei occhi."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -73,6 +83,16 @@
     "code": "ERR_PREP_PLACE",
     "correct": "Ora lavora in Francia.",
     "wrong": "Ora lavora a Francia."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Tutti noi riconosciamo la tua intelligenza.",
+    "wrong": "Tutti noi riconosciamo tua intelligenza."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Dovreste vedere il mio gatto ora.",
+    "wrong": "Dovreste vedere mio gatto ora."
   },
   {
     "code": "ERR_PERSONAL_A",
@@ -138,6 +158,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Sei uscito ieri sera?",
     "wrong": "Hai uscito ieri sera?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Non mi piace il mio aspetto.",
+    "wrong": "Non mi piace mio aspetto."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -223,6 +248,11 @@
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Sono più veloce di voi.",
     "wrong": "Sono più veloce che voi."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio vecchio vestito è azzurro.",
+    "wrong": "Mio vecchio vestito è azzurro."
   },
   {
     "code": "ERR_TENERE_AVERE",
@@ -355,6 +385,11 @@
     "wrong": "Suo ragazzo è turco."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Dov'è il tuo altro orecchino?",
+    "wrong": "Dov'è tuo altro orecchino?"
+  },
+  {
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Pechino è più grande di Roma.",
     "wrong": "Pechino è più grande che Roma."
@@ -373,6 +408,11 @@
     "code": "ERR_PERSONAL_A",
     "correct": "Per favore, chiama Tom.",
     "wrong": "Per favore, chiama a Tom."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio migliore amico è filippino.",
+    "wrong": "Mio migliore amico è filippino."
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -445,9 +485,34 @@
     "wrong": "Sono più bassa che te."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Gli uccelli stanno cantando sugli alberi.",
+    "wrong": "Gli uccelli stanno cantando su gli alberi."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il suo negozio è sempre pieno di clienti.",
+    "wrong": "Suo negozio è sempre pieno di clienti."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Lo scandalo ha rovinato la sua carriera.",
+    "wrong": "Lo scandalo ha rovinato sua carriera."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Ho cercato di conoscere la mia anima.",
     "wrong": "Ho cercato di conoscere mia anima."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Siamo usciti dalla finestra.",
+    "wrong": "Abbiamo usciti dalla finestra."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Siamo usciti dalla finestra.",
+    "wrong": "Siamo usciti da la finestra."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -476,8 +541,18 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Ho perso i miei occhiali.",
+    "wrong": "Ho perso miei occhiali."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Ho perso la mia corona.",
     "wrong": "Ho perso mia corona."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Gli alberi non crescono fino al cielo.",
+    "wrong": "Gli alberi non crescono fino a il cielo."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -486,8 +561,23 @@
   },
   {
     "code": "ERR_AUX_ESSERE",
+    "correct": "Siete venute in città?",
+    "wrong": "Avete venute in città?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
     "correct": "Il diavolo è morto.",
     "wrong": "Il diavolo ha morto."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Siamo stati a Londra per due settimane.",
+    "wrong": "Siamo stati in Londra per due settimane."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La sua assistenza è indispensabile per noi.",
+    "wrong": "Sua assistenza è indispensabile per noi."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -520,9 +610,34 @@
     "wrong": "Vedrete che tengo ragione."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Noi siamo arrivati in tempo all'ufficio.",
+    "wrong": "Noi abbiamo arrivati in tempo all'ufficio."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Noi siamo arrivati in tempo all'ufficio.",
+    "wrong": "Noi siamo arrivati in tempo a l'ufficio."
+  },
+  {
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Sono un po' più alto di te.",
     "wrong": "Sono un po' più alto che te."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Siamo venuti qui per divertirci.",
+    "wrong": "Abbiamo venuti qui per divertirci."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La sua risposta era logica.",
+    "wrong": "Sua risposta era logica."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Le nubi minacciose si stavano avvicinando, così siamo entrati.",
+    "wrong": "Le nubi minacciose si stavano avvicinando, così abbiamo entrati."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -611,6 +726,11 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Ha mostrato i suoi talenti.",
+    "wrong": "Ha mostrato suoi talenti."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Lei ha mostrato i suoi talenti.",
     "wrong": "Lei ha mostrato suoi talenti."
   },
@@ -640,6 +760,11 @@
     "wrong": "Lei ha distrutto suoi nemici."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Questo ristorante è rinomato per le sue specialità.",
+    "wrong": "Questo ristorante è rinomato per sue specialità."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Si può dire che è morto felice.",
     "wrong": "Si può dire che ha morto felice."
@@ -655,6 +780,11 @@
     "wrong": "Forse pioverà in il pomeriggio."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La mia opinione era irrilevante.",
+    "wrong": "Mia opinione era irrilevante."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Qual è il nome del vostro migliore amico?",
     "wrong": "Qual è il nome di il vostro migliore amico?"
@@ -663,6 +793,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Qual è il nome della sua migliore amica?",
     "wrong": "Qual è il nome di la sua migliore amica?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Non siamo andati a Torino.",
+    "wrong": "Non abbiamo andati a Torino."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Non siamo andati a Torino.",
+    "wrong": "Non siamo andati in Torino."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -741,8 +881,38 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La mia lingua non si trova nella lista!",
+    "wrong": "Mia lingua non si trova nella lista!"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La mia lingua non si trova nella lista!",
+    "wrong": "La mia lingua non si trova in la lista!"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Dopo un'ora di macchina, siamo arrivati all'aeroporto.",
+    "wrong": "Dopo un'ora di macchina, abbiamo arrivati all'aeroporto."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Dopo un'ora di macchina, siamo arrivati all'aeroporto.",
+    "wrong": "Dopo un'ora di macchina, siamo arrivati a l'aeroporto."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Lui abbreviava i suoi discorsi.",
     "wrong": "Lui abbreviava suoi discorsi."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Siamo andati a Londra l'anno scorso.",
+    "wrong": "Abbiamo andati a Londra l'anno scorso."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Siamo andati a Londra l'anno scorso.",
+    "wrong": "Siamo andati in Londra l'anno scorso."
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -763,6 +933,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io sono abituato al dolore adesso.",
     "wrong": "Io sono abituato a il dolore adesso."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "In che anno siete nate?",
+    "wrong": "In che anno avete nate?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "In che anno siete nati?",
+    "wrong": "In che anno avete nati?"
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -798,6 +978,11 @@
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Lei è molto più alta di me.",
     "wrong": "Lei è molto più alta che me."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio amico era thailandese?",
+    "wrong": "Mio amico era thailandese?"
   },
   {
     "code": "ERR_TENERE_AVERE",
@@ -841,6 +1026,26 @@
   },
   {
     "code": "ERR_AUX_ESSERE",
+    "correct": "Siamo nati nello stesso anno.",
+    "wrong": "Abbiamo nati nello stesso anno."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Siamo nati nello stesso anno.",
+    "wrong": "Siamo nati in lo stesso anno."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Siamo nate nello stesso anno.",
+    "wrong": "Abbiamo nate nello stesso anno."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Siamo nate nello stesso anno.",
+    "wrong": "Siamo nate in lo stesso anno."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
     "correct": "Quell'uomo è morto.",
     "wrong": "Quell'uomo ha morto."
   },
@@ -865,6 +1070,16 @@
     "wrong": "Siamo andati a il centro commerciale ieri."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Siamo andate al centro commerciale ieri.",
+    "wrong": "Abbiamo andate al centro commerciale ieri."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Siamo andate al centro commerciale ieri.",
+    "wrong": "Siamo andate a il centro commerciale ieri."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Lui arrivò prima del solito.",
     "wrong": "Lui arrivò prima di il solito."
@@ -880,9 +1095,29 @@
     "wrong": "Ci sono un cagnolino marrone sotto quel tavolo."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Siete venuti troppo tardi.",
+    "wrong": "Avete venuti troppo tardi."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Ancora un piccolo sforzo e siamo arrivati!",
+    "wrong": "Ancora un piccolo sforzo e abbiamo arrivati!"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Mantieni la tua promessa!",
+    "wrong": "Mantieni tua promessa!"
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "La polizia lo seguì a Parigi.",
     "wrong": "La polizia lo seguì in Parigi."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Siamo stati bloccati nell'ascensore per un'ora.",
+    "wrong": "Siamo stati bloccati in l'ascensore per un'ora."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -893,6 +1128,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Per me è finita con le feste, il mio corpo malato non ce la fa più.",
     "wrong": "Per me è finita con le feste, mio corpo malato non ce la fa più."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Siamo andati in un posto più alto per avere una vista migliore.",
+    "wrong": "Abbiamo andati in un posto più alto per avere una vista migliore."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -955,6 +1195,31 @@
     "wrong": "Questa è la mia amica Rachel. Siamo andati a le superiori assieme."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Questa è la mia amica Rachel. Siamo andate alle superiori assieme.",
+    "wrong": "Questa è la mia amica Rachel. Abbiamo andate alle superiori assieme."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Questa è la mia amica Rachel. Siamo andate alle superiori assieme.",
+    "wrong": "Questa è la mia amica Rachel. Siamo andate a le superiori assieme."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Lo spagnolo è parlato in Messico.",
+    "wrong": "Lo spagnolo è parlato a Messico."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Mi piace molto il tuo vestito piegato in forma di soffietto.",
+    "wrong": "Mi piace molto tuo vestito piegato in forma di soffietto."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio cane mi sta aspettando quando torno a casa da scuola.",
+    "wrong": "Mio cane mi sta aspettando quando torno a casa da scuola."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Parlando in generale, Tom ha ragione.",
     "wrong": "Parlando in generale, Tom tiene ragione."
@@ -970,14 +1235,34 @@
     "wrong": "Lui tiene paura di dire ai suoi genitori che è omosessuale."
   },
   {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Sembra che abbia vissuto in Spagna.",
+    "wrong": "Sembra che abbia vissuto a Spagna."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il suo inglese è migliorato molto.",
     "wrong": "Suo inglese è migliorato molto."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Mi sembra che venga dall'Inghilterra.",
+    "wrong": "Mi sembra che venga da l'Inghilterra."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Una corda è stata gettata nell'acqua.",
     "wrong": "Una corda è stata gettata in l'acqua."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Non solo siamo andati a Parigi, ma abbiamo anche visitato Roma.",
+    "wrong": "Non solo abbiamo andati a Parigi, ma abbiamo anche visitato Roma."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Non solo siamo andati a Parigi, ma abbiamo anche visitato Roma.",
+    "wrong": "Non solo siamo andati in Parigi, ma abbiamo anche visitato Roma."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",

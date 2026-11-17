@@ -15,7 +15,15 @@ export type Manifest = {
   sentences_used: number;
   translation_kind: Record<string, number>;
 };
+export type Unit = {
+  id: string; level: string; title: string; goal_es: string; why_here: string; codes: string[]; status: "active"; explanation_es: string;
+  parts: { descubre: string[]; practica: string[]; escucha: string[]; prueba: string[] };
+  divergences: { id: string; start: number; end: number; wrong: string }[];
+};
+export type PlannedUnit = { level: string; title: string; reason: string };
+export type Course = { version: number; levels: { id: string; title: string; guided_hours: string }[]; units: Unit[]; planned: PlannedUnit[] };
 export type ContentPack = {
+  course: Course;
   capsules: Capsule[];
   itemsByCode: Record<string, Item[]>;
   lexemes: Lexeme[];
@@ -48,12 +56,13 @@ async function getJson<T>(fetcher: Fetcher, base: string, file: string): Promise
 }
 
 export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: string = import.meta.env.BASE_URL ?? "/"): Promise<ContentPack> {
-  const [capsules, itemsByCode, lexemes, sentences, manifest] = await Promise.all([
+  const [capsules, itemsByCode, lexemes, sentences, manifest, course] = await Promise.all([
     getJson<Capsule[]>(fetcher, base, "capsules.json"),
     getJson<Record<string, Item[]>>(fetcher, base, "items_by_code.json"),
     getJson<Lexeme[]>(fetcher, base, "lexemes.json"),
     getJson<PackSentence[]>(fetcher, base, "sentences.json"),
     getJson<Manifest>(fetcher, base, "manifest.json"),
+    getJson<Course>(fetcher, base, "course.json"),
   ]);
   const vCapsule = schemaValidator("capsule");
   const vItem = schemaValidator("item");
@@ -64,5 +73,11 @@ export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: stri
     for (const it of items) if (!vItem(it)) throw new ContentError(`El ítem ${it.id} del código ${code} no cumple el esquema.`);
   }
   if (!Array.isArray(manifest.capsules)) throw new ContentError("El manifiesto del contenido está incompleto.");
-  return { capsules, itemsByCode, lexemes, sentences, manifest };
+  if (!Array.isArray(course.units) || !Array.isArray(course.levels)) throw new ContentError("La ruta del curso está incompleta.");
+  const known = new Set(sentences.map((x) => x.id));
+  for (const u of course.units) {
+    for (const id of Object.values(u.parts).flat()) if (!known.has(id)) throw new ContentError(`La unidad ${u.id} usa una oración que no está en el paquete (${id}).`);
+    if (!capsules.some((c) => c.target_error_codes[0] === u.codes[0])) throw new ContentError(`La unidad ${u.id} no tiene cápsula.`);
+  }
+  return { capsules, itemsByCode, lexemes, sentences, manifest, course };
 }

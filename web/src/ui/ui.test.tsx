@@ -6,6 +6,7 @@ import type { Item } from "../generated/item";
 import { newCard } from "../state/srs";
 import { localDate, memoryStore } from "../state/store";
 import { planToday } from "../state/session";
+import { emptyProgress, masterByPlacement } from "../state/course";
 import { AboutScreen } from "./AboutScreen";
 import { CapsuleScreen } from "./CapsuleScreen";
 import { ReviewScreen } from "./ReviewScreen";
@@ -109,7 +110,10 @@ const cap = (code = "ERR_TENERE_AVERE"): Capsule => ({
   retrieval: [1, 2, 3, 4].map((n) => ({ ...base, id: `r${n}`, type: "cloze", text: "Io ___ fame.", answers: ["ho"] })),
   estimated_seconds: 240, review_status: "validated",
 }) as unknown as Capsule;
+const unit01 = { id: "u01", level: "A1", title: "Tener no es tenere", goal_es: "g", why_here: "w", codes: ["ERR_TENERE_AVERE"], status: "active" as const, explanation_es: "e",
+  parts: { descubre: [], practica: [], escucha: [], prueba: [] }, divergences: [] };
 const pack = (over: Partial<ContentPack> = {}): ContentPack => ({
+  course: { version: 1, levels: [{ id: "A1", title: "A1", guided_hours: "x" }], units: [unit01], planned: [] },
   capsules: [cap()], itemsByCode: { ERR_TENERE_AVERE: [choice, cloze] },
   lexemes: [{ id: "lx_burro", form: "burro", gloss_es: "mantequilla", lexical_type: "false_friend", source: "fuente" }], sentences: [],
   manifest: { capsules: ["cap_err_tenere_avere"], codes: {}, levels: {}, reviewers: { me: 10, "llm-audit": 30 }, sentences_used: 40, translation_kind: { direct: 30, llm: 10 } }, ...over,
@@ -117,25 +121,25 @@ const pack = (over: Partial<ContentPack> = {}): ContentPack => ({
 
 describe("TodayScreen", () => {
   const day = { date: localDate(NOW), reviewsDone: 2, capsulesDone: ["cap_x"] };
-  it("muestra los dos bloques por separado con su avance", () => {
+  it("muestra tu unidad con el siguiente paso y los minutos, y el repaso aparte", () => {
     const plan = planToday({ pack: pack(), cards: [], day, now: NOW });
     render(<TodayScreen plan={plan} day={day} />);
-    expect(screen.getByText(/Repaso/)).toBeTruthy();
-    expect(screen.getByText(/Cápsula del día/)).toBeTruthy();
-    expect((screen.getByText("Hacer una cápsula") as HTMLAnchorElement).getAttribute("href")).toBe("#/capsula/cap_err_tenere_avere");
+    expect(screen.getByText("Tu unidad")).toBeTruthy();
+    expect(screen.getByText("Tener no es tenere")).toBeTruthy();
+    expect((screen.getByText("Empezar") as HTMLAnchorElement).getAttribute("href")).toBe("#/unidad/u01/descubre");
+    expect(screen.getByText("Repaso")).toBeTruthy();
     expect(screen.getByText(/2 repasos/)).toBeTruthy();
-    expect(screen.getByText(/1 cápsula/)).toBeTruthy();
+    expect(screen.getByText(/Tienes 1 para repasar \(menos de 1 min\)/)).toBeTruthy();
   });
   it("sin repasos pendientes lo dice", () => {
     const plan = planToday({ pack: pack({ lexemes: [] }), cards: [], day, now: NOW });
     render(<TodayScreen plan={plan} day={day} />);
-    expect(screen.getByText("No tienes repasos pendientes ahora.")).toBeTruthy();
+    expect(screen.getByText(/No tienes repasos pendientes ahora/)).toBeTruthy();
   });
-  it("con el currículo agotado lo dice", () => {
-    const cards = [newCard({ kind: "error_code", ref: "ERR_TENERE_AVERE" }, "not_applicable", NOW)];
-    const plan = planToday({ pack: pack(), cards, day, now: NOW });
+  it("con todas las unidades completas lo dice", () => {
+    const plan = planToday({ pack: pack(), cards: [], day, now: NOW, units: [masterByPlacement(emptyProgress("u01"), NOW)] });
     render(<TodayScreen plan={plan} day={day} />);
-    expect(screen.getByText(/Completaste las cápsulas disponibles/)).toBeTruthy();
+    expect(screen.getByText(/Completaste todas las unidades disponibles/)).toBeTruthy();
   });
   it("avisa si no se puede guardar el progreso", () => {
     const plan = planToday({ pack: pack(), cards: [], day, now: NOW });

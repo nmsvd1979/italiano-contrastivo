@@ -1,5 +1,20 @@
-# Uso y contenido (2026-11-17)
+# Uso y contenido (actualizado 2026-11-17 — ruta guiada)
 
+## Ruta guiada (lo nuevo)
+- **12 unidades activas** en `schemas/data/course.json` (A1: 7 · A2: 4 · B1: 1) + 9 unidades **«próximamente»** visibles en la ruta con la razón por la que aún no existen (sonidos, consonantes dobles, passato prossimo/imperfetto, imperativo negativo, ci/ne, pronombres combinados, consecutio, concesivas). Una unidad solo es «activa» si tiene ≥18 oraciones validadas utilizables (`pipeline/exercises/course.py`; si no, baja a «próximamente»).
+- **Cada unidad = 5 pasos** (ciclo ANTES/DURANTE/DESPUÉS/REVISIÓN de las fuentes): Descubre → Cápsula → Práctica → Escucha → Prueba de la unidad. Se hacen en orden; cada paso se puede dejar para otro día. La prueba usa oraciones **reservadas** (no salen en la práctica); **≥80 % completa la unidad** y abre la siguiente (umbral nuestro). Si no se llega, hay que rehacer la práctica.
+- **Hoy**: «Tu unidad» (siguiente paso + minutos) y «Repaso» (+ minutos). **Ruta** (`#/ruta`): completadas ✓, actual ▶, bloqueadas 🔒, próximamente ⋯. **Prueba de ubicación** (`#/ubicacion`): 3 preguntas por unidad; si aciertas las 3 la unidad queda dominada y entra al repaso.
+- **Tiempos**: ya no son una fórmula. Cada paso suma segundos por tipo de ejercicio (elección 12, hueco 20, orden 30, traducir 45, dictado 50, descubrimiento 25, tarjeta 15) que son **valores a priori**; la app mide cuánto tardas tú y, con 5 mediciones por tipo, usa tu mediana. Mientras tanto los minutos son estimaciones, no mediciones.
+  - Estimación actual por unidad: Descubre ≈2 · Cápsula ≈3 · Práctica ≈6 · Escucha ≈7 · Prueba ≈2–3 min (≈21 min por unidad; ≈4 h en total en las 12).
+  - Frente a las fuentes (A1 40–50 h guiadas, A2 90–100 h…) la app cubre una fracción: la ruta lo dice por nivel («En la app hoy: …»).
+- Bloques de la sesión de 30 min de las fuentes → pasos disponibles: ① repaso = Repaso; ② gimnasio sintáctico = Cápsula + Práctica; ③ voz = Escucha (**solo dictado con Serena**, sin ASR: no mide geminadas ni acento); ④ intercomprensión/reconstrucción = Descubre (inferencia de significado con el punto clave resaltado) + huecos de la Práctica. **Faltan** ③ real (ASR en el Mac), ④ con textos y los 7 tamices, y B2.
+
+## Contenido
+- **267 oraciones validadas utilizables** (de 35 al inicio del día), **299 clips** de Serena (3,4 MB de audio aprox.), 12 cápsulas, 32 falsos amigos.
+- Códigos con generador: 12 de 47 (se agregaron ARTICLE_ALLOMORPH, PARTICIPLE_AGREEMENT [solo siamo/siete: con sono/sei/è el participio en -o puede ser válido], POSSESSIVE_SPELLING, CONGIUNTIVO_OPINION [lista cerrada, solo 3.ª persona: se rechazaron oraciones con sujeto de 1.ª/2.ª]).
+- Auditoría IA (`scripts/capsule_pack.py` + `scripts/capsule_apply.py`): 258 revisadas en total, 232 aprobadas. **No es verificación nativa.**
+
+## Estado anterior (sigue vigente en lo no reemplazado)
 ## Qué hay
 - **8 cápsulas** (AUX_ESSERE, PREP_PLACE, CE_AGREEMENT, PERSONAL_A, POSSESSIVE_ARTICLE, PREP_ARTICLE_CONTRACTION, COMPARATIVE_DI, TENERE_AVERE), **179 oraciones** (de 35), 32 falsos amigos, **211 clips** de Serena (2,2 MB de audio).
 - Pantallas: Hoy · Repaso (FSRS) · Escribir (detector local de los 8 errores) · Ajustes (copia de seguridad) · Acerca de.

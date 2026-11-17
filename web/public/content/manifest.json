@@ -1,15 +1,24 @@
 {
   "capsules": [
+    "cap_err_possessive_spelling",
     "cap_err_possessive_article",
+    "cap_err_article_allomorph",
     "cap_err_ce_agreement",
     "cap_err_prep_article_contraction",
     "cap_err_prep_place",
     "cap_err_tenere_avere",
     "cap_err_aux_essere",
     "cap_err_comparative_di",
-    "cap_err_personal_a"
+    "cap_err_participle_agreement",
+    "cap_err_personal_a",
+    "cap_err_congiuntivo_opinion"
   ],
   "codes": {
+    "ERR_ARTICLE_ALLOMORPH": {
+      "capsule": true,
+      "reason": null,
+      "usable": 22
+    },
     "ERR_AUX_ESSERE": {
       "capsule": true,
       "reason": null,
@@ -25,6 +34,16 @@
       "reason": null,
       "usable": 18
     },
+    "ERR_CONGIUNTIVO_OPINION": {
+      "capsule": true,
+      "reason": null,
+      "usable": 20
+    },
+    "ERR_PARTICIPLE_AGREEMENT": {
+      "capsule": true,
+      "reason": null,
+      "usable": 24
+    },
     "ERR_PERSONAL_A": {
       "capsule": true,
       "reason": null,
@@ -34,6 +53,11 @@
       "capsule": true,
       "reason": null,
       "usable": 26
+    },
+    "ERR_POSSESSIVE_SPELLING": {
+      "capsule": true,
+      "reason": null,
+      "usable": 25
     },
     "ERR_PREP_ARTICLE_CONTRACTION": {
       "capsule": true,
@@ -52,18 +76,18 @@
     }
   },
   "levels": {
-    "A1": 112,
-    "A2": 159,
-    "B1": 108,
+    "A1": 130,
+    "A2": 199,
+    "B1": 138,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 359,
+    "llm-audit": 447,
     "me": 27
   },
-  "sentences_used": 179,
+  "sentences_used": 267,
   "translation_kind": {
-    "direct": 143,
-    "llm": 36
+    "direct": 228,
+    "llm": 39
   }
 }

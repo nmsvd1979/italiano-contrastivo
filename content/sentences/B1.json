@@ -56,6 +56,50 @@
     "translation_kind": "direct"
   },
   {
+    "author": "elgranjuego",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "No creo que se haya ido.",
+    "es_author": "Shishir",
+    "es_source_id": "1292049",
+    "id": "s_1038767",
+    "it": "Non penso che sia partito.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1038767",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "Pienso que es imposible que derrotemos a Tom.",
+    "es_author": "saverius",
+    "es_source_id": "10462170",
+    "id": "s_10461738",
+    "it": "Penso che sia impossibile per noi battere Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10461738",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "carlosalberto",
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
@@ -137,6 +181,28 @@
       "ERR_C_G_PALATAL": "c_g_palatale"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Bethanielle",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Nos hemos quedado atascados en un ascensor durante una hora.",
+    "es_author": "saverius",
+    "es_source_id": "10822407",
+    "id": "s_10819798",
+    "it": "Siamo stati bloccati nell'ascensore per un'ora.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10819798",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Bethanielle",
@@ -392,6 +458,50 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "Creo que él está enojado.",
+    "es_author": "aka_aj",
+    "es_source_id": "1678590",
+    "id": "s_1246391",
+    "it": "Penso che sia arrabbiato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1246391",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "Parece que ha ocurrido algo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1271108",
+    "id": "s_1271110",
+    "it": "Sembra che sia successo qualcosa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1271110",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "ValentinaM",
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
@@ -547,6 +657,28 @@
       "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
       "ERR_POSSESSIVE_SPELLING": "possessivo_grafia",
       "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "unforgiven95",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Fuimos a un sitio más elevado para tener mejores vistas.",
+    "es_author": "Alba",
+    "es_source_id": "1567035",
+    "id": "s_14000522",
+    "it": "Siamo andati in un posto più alto per avere una vista migliore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14000522",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1142,6 +1274,30 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
     "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "Parece que va a nevar.",
+    "es_author": "IA (Claude)",
+    "id": "s_3001298",
+    "it": "Sembra che stia per nevicare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3001298",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
       "ERR_ARTICLE_ALLOMORPH",
       "ERR_AUX_ESSERE",
       "ERR_GEMINATE_SPELLING",
@@ -1228,6 +1384,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
     "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "Aníbal, mientras estaba por atravesar los Alpes, reforzó los ánimos de los soldados.",
+    "es_author": "gianich73",
+    "es_source_id": "3299421",
+    "id": "s_3161121",
+    "it": "Annibale, mentre stava per superare le Alpi, rafforzò gli animi dei soldati.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3161121",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
       "ERR_ACCENT_TRANSFER",
       "ERR_GEMINATE_SPELLING",
       "ERR_MAGARI_TENSE"
@@ -1271,6 +1449,28 @@
       "ERR_PERSONAL_A": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "¿Crees que debería hacerlo?",
+    "es_author": "Seael",
+    "es_source_id": "3762272",
+    "id": "s_3176207",
+    "it": "Credi che debba farlo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3176207",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -1656,6 +1856,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Esta es mi amiga Rachel, fuimos al instituto juntos.",
+    "es_author": "Shishir",
+    "es_source_id": "2808",
+    "id": "s_3585065",
+    "it": "Questa è la mia amica Rachel. Siamo andate alle superiori assieme.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3585065",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "B1",
     "error_codes": [
@@ -1703,6 +1925,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "rado",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "No podemos ver la luz ultravioleta, pero los insectos sí.",
+    "es_author": "carlosalberto",
+    "es_source_id": "3627576",
+    "id": "s_3627155",
+    "it": "Noi non riusciamo a vedere la luce ultravioletta, ma gli insetti sì.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3627155",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
@@ -1723,6 +1967,97 @@
     "tag_rules": {
       "ERR_CONGIUNTIVO_OPINION": "congiuntivo_dopo_opinione",
       "ERR_GLI_PALATAL": "gli_palatale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "Yo creo que él es feliz.",
+    "es_author": "hayastan",
+    "es_source_id": "1016221",
+    "id": "s_380758",
+    "it": "Credo che sia felice.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "380758",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "Creo que ella está enferma.",
+    "es_author": "Shishir",
+    "es_source_id": "537735",
+    "id": "s_380817",
+    "it": "Credo che sia malata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "380817",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "¿Crees que todavía quiere casarse conmigo?",
+    "es_author": "IA (Claude)",
+    "id": "s_3865880",
+    "it": "Pensi che voglia ancora sposarmi?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3865880",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "Cuando hablas con los demás, lo haces con los brazos cruzados.",
+    "es_author": "Shishir",
+    "es_source_id": "3008",
+    "id": "s_388782",
+    "it": "Quando parli con gli altri, lo fai con le braccia incrociate.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "388782",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1779,6 +2114,28 @@
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "No creo que ella esté feliz.",
+    "es_author": "manufrutos",
+    "es_source_id": "858828",
+    "id": "s_401195",
+    "it": "Non penso che sia felice.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "401195",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -1855,6 +2212,52 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "El español es hablado en México.",
+    "es_author": "arashi_29",
+    "es_source_id": "609744",
+    "id": "s_425792",
+    "it": "Lo spagnolo è parlato in Messico.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "425792",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "saverius",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "Me gusta mucho tu vestido afollado.",
+    "es_author": "saverius",
+    "es_source_id": "4343032",
+    "id": "s_4347087",
+    "it": "Mi piace molto il tuo vestito piegato in forma di soffietto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4347087",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
@@ -1878,6 +2281,29 @@
       "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
       "ERR_GEMINATE_SPELLING": "geminata_ortografia",
       "ERR_GLI_PALATAL": "gli_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "Creo que es lo correcto.",
+    "es_author": "IA (Claude)",
+    "id": "s_4420797",
+    "it": "Penso che sia la cosa giusta da fare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4420797",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -1963,6 +2389,54 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "Pienso que no es culpa de nadie.",
+    "es_author": "saverius",
+    "es_source_id": "4632564",
+    "id": "s_4631750",
+    "it": "Penso che non sia colpa di nessuno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4631750",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "Yo pienso que no es culpa de nadie.",
+    "es_author": "saverius",
+    "es_source_id": "4632562",
+    "id": "s_4631751",
+    "it": "Io penso che non sia colpa di nessuno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4631751",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "valealb",
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
@@ -1987,6 +2461,28 @@
       "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
       "ERR_C_G_PALATAL": "c_g_palatale",
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "erraticfaerie",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "Mi perro me está esperando cuando llego a casa de la escuela.",
+    "es_author": "gianich73",
+    "es_source_id": "3300451",
+    "id": "s_4656878",
+    "it": "Il mio cane mi sta aspettando quando torno a casa da scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4656878",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -2197,6 +2693,28 @@
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Se os ha pagado, ¿verdad?",
+    "es_author": "saverius",
+    "es_source_id": "11816453",
+    "id": "s_5805500",
+    "it": "Siete stati pagati, vero?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5805500",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -2423,6 +2941,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
     "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "El parece haber vivido en España.",
+    "es_author": "quarzoliquido",
+    "es_source_id": "480193",
+    "id": "s_614240",
+    "it": "Sembra che abbia vissuto in Spagna.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "614240",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
       "ERR_CONGIUNTIVO_CONCESSIVE",
       "ERR_Z_AFFRICATE"
     ],
@@ -2567,6 +3107,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "dnnywld",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "Por ahora no creo que sea necesario.",
+    "es_author": "saverius",
+    "es_source_id": "10802711",
+    "id": "s_6832144",
+    "it": "Per ora non penso che sia necessario.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6832144",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Heracleum",
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
@@ -2651,6 +3213,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
     "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "Me parece que es de Inglaterra.",
+    "es_author": "noams",
+    "es_source_id": "1667568",
+    "id": "s_762905",
+    "it": "Mi sembra che venga dall'Inghilterra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "762905",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
       "ERR_GEMINATE_SPELLING"
     ],
     "es": "Acabo de hablar con ellos de eso.",
@@ -2667,6 +3251,28 @@
     "source_id": "7739847",
     "tag_rules": {
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "No creo que sea una buena idea.",
+    "es_author": "hundo",
+    "es_source_id": "951182",
+    "id": "s_780573",
+    "it": "Non penso che sia una buona idea.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "780573",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -2718,6 +3324,52 @@
       "ERR_C_G_PALATAL": "c_g_palatale"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "Creo que él es feliz.",
+    "es_author": "hundo",
+    "es_source_id": "988300",
+    "id": "s_850864",
+    "it": "Penso che sia felice.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "850864",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dpu",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "No sólo fuimos a París, sino que también visitamos Roma.",
+    "es_author": "tatoerique",
+    "es_source_id": "358285",
+    "id": "s_861399",
+    "it": "Non solo siamo andati a Parigi, ma abbiamo anche visitato Roma.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "861399",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -2799,6 +3451,28 @@
       "ERR_C_G_PALATAL": "c_g_palatale",
       "ERR_GEMINATE_SPELLING": "geminata_ortografia",
       "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION"
+    ],
+    "es": "Personalmente, no creo que marque ninguna diferencia quién gane las elecciones.",
+    "es_author": "fran_trujillo",
+    "es_source_id": "855365",
+    "id": "s_977536",
+    "it": "Personalmente, non credo che faccia alcuna differenza chi vince le elezioni.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "977536",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
     },
     "translation_kind": "direct"
   }

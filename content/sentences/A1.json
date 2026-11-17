@@ -1,5 +1,27 @@
 [
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "Las mías son peores.",
+    "es_author": "saverius",
+    "es_source_id": "10152201",
+    "id": "s_10152075",
+    "it": "Le mie sono peggio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10152075",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -191,6 +213,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Gloria7",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "¿Dónde están los ascensores?",
+    "es_author": "Seael",
+    "es_source_id": "10636293",
+    "id": "s_10636288",
+    "it": "Dove sono gli ascensori?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10636288",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -237,6 +281,30 @@
       "ERR_PREP_PLACE": "preposizione_luogo"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "Quiero verlo con mis ojos.",
+    "es_author": "nancy",
+    "es_source_id": "1160703",
+    "id": "s_1083499",
+    "it": "Voglio vederlo con i miei occhi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1083499",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "riccioberto",
@@ -559,6 +627,72 @@
       "ERR_Z_AFFRICATE": "z_africata"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Nuel",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "Todos nosotros reconocemos tu inteligencia.",
+    "es_author": "saverius",
+    "es_source_id": "11816423",
+    "id": "s_11816160",
+    "it": "Tutti noi riconosciamo la tua intelligenza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11816160",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "Deberías ver a mi gato ahora.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1195968",
+    "id": "s_1195313",
+    "it": "Dovreste vedere il mio gatto ora.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1195313",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "Los elefantes beben mucha agua.",
+    "es_author": "Adelpa",
+    "es_source_id": "12026767",
+    "id": "s_12026400",
+    "it": "Gli elefanti bevono molta acqua.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12026400",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Adelpa",
@@ -996,6 +1130,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "unforgiven95",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "No me gusta mi apariencia.",
+    "es_author": "DJ_Saidez",
+    "es_source_id": "10478653",
+    "id": "s_13976565",
+    "it": "Non mi piace il mio aspetto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13976565",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "al_ex_an_der",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -1379,6 +1535,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "Mary tiene los ojos grandes.",
+    "es_author": "Shishir",
+    "es_source_id": "2032441",
+    "id": "s_2457911",
+    "it": "Mary ha gli occhi grandi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2457911",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PERSONAL_A"
     ],
     "es": "No amo a Tom.",
@@ -1529,6 +1709,28 @@
       "ERR_CLITIC_DOUBLING": "duplicazione_pronominale",
       "ERR_C_G_PALATAL": "c_g_palatale",
       "ERR_SC_PALATAL": "sc_palatale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "Mi vestido viejo es azul.",
+    "es_author": "lukaszpp",
+    "es_source_id": "456458",
+    "id": "s_2758388",
+    "it": "Il mio vecchio vestito è azzurro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2758388",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1806,6 +2008,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "Me gustan los relojes.",
+    "es_author": "hayastan",
+    "es_source_id": "947269",
+    "id": "s_3343673",
+    "it": "A me piacciono gli orologi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3343673",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_CONGIUNTIVO_OVERUSE_FORSE",
       "ERR_GEMINATE_SPELLING"
     ],
@@ -1902,6 +2126,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "¡Los animales no son juguetes!",
+    "es_author": "cueyayotl",
+    "es_source_id": "4473220",
+    "id": "s_3669699",
+    "it": "Gli animali non sono giocattoli!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3669699",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_TENERE_AVERE"
     ],
     "es": "Tienen miedo de Tom.",
@@ -1940,6 +2186,30 @@
     "source_id": "373744",
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "¿Dónde están mis gafas?",
+    "es_author": "tatoerique",
+    "es_source_id": "329729",
+    "id": "s_374617",
+    "it": "Dove sono i miei occhiali?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "374617",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1994,6 +2264,30 @@
       "ERR_POSSESSIVE_SPELLING": "possessivo_grafia",
       "ERR_PREP_PLACE": "preposizione_luogo",
       "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "¿Cuál es tu opinión?",
+    "es_author": "Adelpa",
+    "es_source_id": "6379017",
+    "id": "s_377545",
+    "it": "Qual è la tua opinione?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "377545",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -2323,6 +2617,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "¿Dónde está tu otro pendiente?",
+    "es_author": "Seael",
+    "es_source_id": "11742000",
+    "id": "s_6039237",
+    "it": "Dov'è il tuo altro orecchino?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6039237",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_COMPARATIVE_DI"
     ],
     "es": "Pekín es más grande que Roma.",
@@ -2386,6 +2704,28 @@
       "ERR_PERSONAL_A": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_POSSESSIVE_SPELLING"
+    ],
+    "es": "Mi mejor amigo es filipino.",
+    "es_author": "saverius",
+    "es_source_id": "10331138",
+    "id": "s_6612336",
+    "it": "Il mio migliore amico è filippino.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6612336",
+    "tag_rules": {
+      "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "rado",
@@ -2472,6 +2812,30 @@
     "source_id": "7050017",
     "tag_rules": {
       "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Heracleum",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "El muchacho usa anteojos.",
+    "es_author": "Leono",
+    "es_source_id": "552554",
+    "id": "s_708790",
+    "it": "Il ragazzo porta gli occhiali.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "708790",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -2567,6 +2931,28 @@
     "source_id": "717912",
     "tag_rules": {
       "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "Los italianos no beben nunca café.",
+    "es_author": "Shishir",
+    "es_source_id": "817809",
+    "id": "s_719226",
+    "it": "Gli italiani non bevono mai caffè.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "719226",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -2709,6 +3095,28 @@
       "ERR_C_G_PALATAL": "c_g_palatale",
       "ERR_FALSE_FRIEND": "falso_amigo_lexicon",
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH"
+    ],
+    "es": "Los pájaros están cantando en los árboles.",
+    "es_author": "Shishir",
+    "es_source_id": "558644",
+    "id": "s_984709",
+    "it": "Gli uccelli stanno cantando sugli alberi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "984709",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
     },
     "translation_kind": "direct"
   }
