@@ -1,0 +1,2559 @@
+[
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_COMBINED",
+      "ERR_CLITIC_DIRECT_INDIRECT",
+      "ERR_SC_PALATAL"
+    ],
+    "es": "Si no entendés las cosas por tu cuenta, la vida te las enseña.",
+    "es_author": "hayastan",
+    "es_source_id": "1001756",
+    "id": "s_1000808",
+    "it": "Se le cose non le capisci da solo, la vita te le insegna.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1000808",
+    "tag_rules": {
+      "ERR_CLITIC_COMBINED": "pronomi_combinati",
+      "ERR_CLITIC_DIRECT_INDIRECT": "clitico_diretto_indiretto",
+      "ERR_SC_PALATAL": "sc_palatale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_DIRECT_INDIRECT",
+      "ERR_GEMINATE_NASAL_CONFUSION",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PARTICIPLE_AGREEMENT_CLITIC"
+    ],
+    "es": "Las plantas se deben haber secado porque nadie las regó.",
+    "es_author": "hayastan",
+    "es_source_id": "1406044",
+    "id": "s_1012710",
+    "it": "Le piante devono essere morte perché nessuno le ha annaffiate.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1012710",
+    "tag_rules": {
+      "ERR_CLITIC_DIRECT_INDIRECT": "clitico_diretto_indiretto",
+      "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PARTICIPLE_AGREEMENT_CLITIC": "participio_concuerda_con_clitico"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_AUX_OVERGENERALIZATION",
+      "ERR_GEMINATE_NASAL_CONFUSION",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Me lo contaron y lo olvidé; lo vi y lo entendí; lo hice y lo aprendí.",
+    "es_author": "Adelpa",
+    "es_source_id": "10580378",
+    "id": "s_10582587",
+    "it": "Me ne hanno parlato e l'ho dimenticato; l'ho visto e l'ho capito; l'ho fatto e l'ho imparato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10582587",
+    "tag_rules": {
+      "ERR_AUX_OVERGENERALIZATION": "avere_con_verbo_inergativo",
+      "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Gloria7",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH",
+      "ERR_CLITIC_DIRECT_INDIRECT",
+      "ERR_CONGIUNTIVO_CONCESSIVE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PLURAL_VOWEL"
+    ],
+    "es": "El inglés sigue siendo un idioma extranjero para mí, aunque lo hable todos los días.",
+    "es_author": "DJ_Saidez",
+    "es_source_id": "10632711",
+    "id": "s_10632756",
+    "it": "Nonostante lo parli tutti i giorni, l'inglese continua ad essere una lingua straniera per me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10632756",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
+      "ERR_CLITIC_DIRECT_INDIRECT": "clitico_diretto_indiretto",
+      "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PLURAL_VOWEL": "plurale_vocale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Hay unos veinte.",
+    "es_author": "IA (Claude)",
+    "id": "s_1081411",
+    "it": "Ce ne sono una ventina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1081411",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Bethanielle",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_AUX_OVERGENERALIZATION",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "¿Has hablado de ello con un abogado?",
+    "es_author": "saverius",
+    "es_source_id": "10822405",
+    "id": "s_10819800",
+    "it": "Ne hai parlato con un avvocato?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10819800",
+    "tag_rules": {
+      "ERR_AUX_OVERGENERALIZATION": "avere_con_verbo_inergativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "El que escucha por primera vez su voz grabada, tiene la sensación de estar escuchando a un extraño.",
+    "es_author": "hayastan",
+    "es_source_id": "1123041",
+    "id": "s_1105386",
+    "it": "Chi ascolta per la prima volta la propria voce registrata ha l'impressione di ascoltare un estraneo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1105386",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE"
+    ],
+    "es": "Quizás perdió el tren.",
+    "es_author": "IA (Claude)",
+    "id": "s_1105417",
+    "it": "Forse perse il treno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1105417",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "¿No se va?",
+    "es_author": "IA (Claude)",
+    "id": "s_11144614",
+    "it": "Non se ne va?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11144614",
+    "tag_rules": {
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Este es el bolso más caro que he comprado jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_11312187",
+    "it": "Questa è la borsa più costosa che abbia mai comprato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11312187",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "Thomas no puede irse.",
+    "es_author": "IA (Claude)",
+    "id": "s_11646475",
+    "it": "Thomas non può andarsene.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11646475",
+    "tag_rules": {
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH",
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Es el hombre más alto que he visto jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_1231432",
+    "it": "È l'uomo più alto che abbia mai visto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1231432",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH",
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Es el hombre más alto que yo he visto jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_1231433",
+    "it": "È l'uomo più alto che io abbia mai visto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1231433",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH",
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Él es el hombre más alto que he visto jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_1231434",
+    "it": "Lui è l'uomo più alto che abbia mai visto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1231434",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_COMBINED",
+      "ERR_CLITIC_DIRECT_INDIRECT",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_GLI_PALATAL",
+      "ERR_SC_PALATAL"
+    ],
+    "es": "Quiero una pizza, pero no tengo ganas de salir, y a esta hora los egipcios de la pizzería de la esquina no me la traen.",
+    "es_author": "hayastan",
+    "es_source_id": "1245234",
+    "id": "s_1244879",
+    "it": "Io voglio la pizza, ma non ho voglia di uscire, e a quest'ora gli egiziani della pizzeria all'angolo non me la portano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1244879",
+    "tag_rules": {
+      "ERR_CLITIC_COMBINED": "pronomi_combinati",
+      "ERR_CLITIC_DIRECT_INDIRECT": "clitico_diretto_indiretto",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_GLI_PALATAL": "gli_palatale",
+      "ERR_SC_PALATAL": "sc_palatale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PRONOMINAL_VERB",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "Puedo lograrlo sin esto.",
+    "es_author": "IA (Claude)",
+    "id": "s_12765971",
+    "it": "Posso farcela senza questo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12765971",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Nos iremos en cuanto llegue.",
+    "es_author": "IA (Claude)",
+    "id": "s_12815453",
+    "it": "Ce ne andremo appena arriva.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12815453",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_NE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PLURAL_VOWEL"
+    ],
+    "es": "He visto muchísimos conciertos.",
+    "es_author": "Shishir",
+    "es_source_id": "1352654",
+    "id": "s_1297195",
+    "it": "Io ne ho visti tantissimi di concerti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1297195",
+    "tag_rules": {
+      "ERR_CLITIC_NE": "ne_pronome",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PLURAL_VOWEL": "plurale_vocale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Esa es la cosa más bonita que he visto jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_1333611",
+    "it": "Quella è la cosa più carina che abbia mai visto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1333611",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_POSSESSIVE_ARTICLE",
+      "ERR_POSSESSIVE_SPELLING",
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "Se terminaron para mí todas las farras, mi cuerpo enfermo no resiste más.",
+    "es_author": "carlosalberto",
+    "es_source_id": "13694612",
+    "id": "s_13694648",
+    "it": "Per me è finita con le feste, il mio corpo malato non ce la fa più.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13694648",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
+      "ERR_POSSESSIVE_SPELLING": "possessivo_grafia",
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "marco87",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_SC_PALATAL"
+    ],
+    "es": "¡Él era la persona más enojona que tuve la mala suerte de conocer!",
+    "es_author": "marcelostockle",
+    "es_source_id": "1515276",
+    "id": "s_1516085",
+    "it": "Lui era la persona più suscettibile che io abbia avuto la sfortuna di conoscere!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1516085",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_SC_PALATAL": "sc_palatale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PLURAL_VOWEL"
+    ],
+    "es": "Corrige los errores, si los hay.",
+    "es_author": "IA (Claude)",
+    "id": "s_1521722",
+    "it": "Correggi gli errori, se ce ne sono.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1521722",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PLURAL_VOWEL": "plurale_vocale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PLURAL_VOWEL"
+    ],
+    "es": "Corrijan los errores, si los hay.",
+    "es_author": "IA (Claude)",
+    "id": "s_1521723",
+    "it": "Correggete gli errori, se ce ne sono.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1521723",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PLURAL_VOWEL": "plurale_vocale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PLURAL_VOWEL"
+    ],
+    "es": "Corrija los errores, si los hay.",
+    "es_author": "IA (Claude)",
+    "id": "s_1521724",
+    "it": "Corregga gli errori, se ce ne sono.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1521724",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PLURAL_VOWEL": "plurale_vocale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "No puedo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2001625",
+    "it": "Non ce la faccio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2001625",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GLI_PALATAL"
+    ],
+    "es": "Tú eres lo mejor que me ha pasado jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_2006193",
+    "it": "Tu sei la cosa migliore che mi sia mai capitata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2006193",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GLI_PALATAL": "gli_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "AYDYL84",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING",
+      "ERR_MAGARI_TENSE"
+    ],
+    "es": "Ojalá Jim se portara bien.",
+    "es_author": "darinmex",
+    "es_source_id": "609166",
+    "id": "s_2028802",
+    "it": "Magari Jim si comportasse bene.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2028802",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_MAGARI_TENSE": "magari_con_congiuntivo"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING",
+      "ERR_MAGARI_TENSE"
+    ],
+    "es": "¡Ojalá fuera cierto!",
+    "es_author": "darinmex",
+    "es_source_id": "771090",
+    "id": "s_2036387",
+    "it": "Magari fosse vero!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2036387",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_MAGARI_TENSE": "magari_con_congiuntivo"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Sirio60",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_CONGIUNTIVO_CONCESSIVE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Pese a ser joven, es un médico notable.",
+    "es_author": "Shishir",
+    "es_source_id": "1747144",
+    "id": "s_2055834",
+    "it": "Benché sia giovane, è un ottimo medico.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2055834",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Sirio60",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_IMPERSONAL"
+    ],
+    "es": "Al parecer Jack está enfermo.",
+    "es_author": "kylecito",
+    "es_source_id": "336317",
+    "id": "s_2055945",
+    "it": "Pare che Jack sia malato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2055945",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_IMPERSONAL": "congiuntivo_impersonale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "miccap",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH",
+      "ERR_CONGIUNTIVO_CONCESSIVE",
+      "ERR_GEMINATE_NASAL_CONFUSION",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PLURAL_VOWEL"
+    ],
+    "es": "No hablo bien inglés, aunque lo he estudiado durante seis años en la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_2227882",
+    "it": "Non parlo bene l'inglese, sebbene l'abbia studiato per sei anni a scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2227882",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
+      "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
+      "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PLURAL_VOWEL": "plurale_vocale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "JLGQ_",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_AUX_OVERGENERALIZATION",
+      "ERR_PARTICIPLE_AGREEMENT",
+      "ERR_PLURAL_VOWEL",
+      "ERR_POSSESSIVE_ARTICLE",
+      "ERR_REFLEXIVE_AUX",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "Trabajó sin descanso para mantener a sus hijos hasta que se casaron.",
+    "es_author": "JLGQ_",
+    "es_source_id": "2229889",
+    "id": "s_2229973",
+    "it": "Ha lavorato senza pausa per mantenere i suoi figli fino a che si sono sposati.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2229973",
+    "tag_rules": {
+      "ERR_AUX_OVERGENERALIZATION": "avere_con_verbo_inergativo",
+      "ERR_PARTICIPLE_AGREEMENT": "participio_concuerda_con_essere",
+      "ERR_PLURAL_VOWEL": "plurale_vocale",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
+      "ERR_REFLEXIVE_AUX": "riflessivo_con_essere",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PLURAL_VOWEL"
+    ],
+    "es": "Son los zapatos más feos que yo he visto jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_2484142",
+    "it": "Sono le scarpe più brutte che io abbia mai visto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2484142",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PLURAL_VOWEL": "plurale_vocale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "No nos importa un carajo.",
+    "es_author": "gianich73",
+    "es_source_id": "3307513",
+    "id": "s_2795896",
+    "it": "Non ce ne frega un cazzo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2795896",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_COMBINED",
+      "ERR_CLITIC_DIRECT_INDIRECT"
+    ],
+    "es": "¿Me dejas que la pruebe?",
+    "es_author": "saverius",
+    "es_source_id": "10802678",
+    "id": "s_2829539",
+    "it": "Me la fai provare?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2829539",
+    "tag_rules": {
+      "ERR_CLITIC_COMBINED": "pronomi_combinati",
+      "ERR_CLITIC_DIRECT_INDIRECT": "clitico_diretto_indiretto"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Nos iremos dentro de una hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_2833299",
+    "it": "Ce ne andremo tra un'ora.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2833299",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Nosotros nos iremos dentro de una hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_2833300",
+    "it": "Noi ce ne andremo tra un'ora.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2833300",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "Él está a punto de irse.",
+    "es_author": "IA (Claude)",
+    "id": "s_2849004",
+    "it": "Lui sta per andarsene.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2849004",
+    "tag_rules": {
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "Sé que puedo lograrlo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2883145",
+    "it": "So che posso farcela.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2883145",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_CONCESSIVE",
+      "ERR_PLURAL_VOWEL",
+      "ERR_POSSESSIVE_ARTICLE",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "Aunque Tom está enfermo, tiene la intención de terminar a tiempo sus tareas.",
+    "es_author": "IA (Claude)",
+    "id": "s_2970987",
+    "it": "Nonostante Tom sia malato, ha intenzione di finire in tempo i suoi compiti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2970987",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
+      "ERR_PLURAL_VOWEL": "plurale_vocale",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_CONCESSIVE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_POSSESSIVE_ARTICLE",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "Aunque Tom está enfermo, tiene la intención de terminar a tiempo sus tareas.",
+    "es_author": "IA (Claude)",
+    "id": "s_2970988",
+    "it": "Nonostante Tom sia ammalato, ha intenzione di finire in tempo i suoi compiti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2970988",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH",
+      "ERR_AUX_ESSERE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_GLI_PALATAL",
+      "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+      "ERR_POSSESSIVE_ARTICLE"
+    ],
+    "es": "El hombre que le dio su cheque de pago a su esposa fue más sabio que el que se lo dio a su amante.",
+    "es_author": "carlosalberto",
+    "es_source_id": "8844975",
+    "id": "s_3021027",
+    "it": "L'uomo che ha dato la sua busta paga alla moglie è stato più saggio di quello che l'ha data all'amante.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3021027",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
+      "ERR_AUX_ESSERE": "aux_essere_movimento",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_GLI_PALATAL": "gli_palatale",
+      "ERR_PARTICIPLE_AGREEMENT_CLITIC": "participio_concuerda_con_clitico",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "Nos iremos sin él.",
+    "es_author": "IA (Claude)",
+    "id": "s_3040606",
+    "it": "Ce ne andremo senza di lui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3040606",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "Nosotros nos iremos sin él.",
+    "es_author": "IA (Claude)",
+    "id": "s_3040607",
+    "it": "Noi ce ne andremo senza di lui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3040607",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_MAGARI_TENSE"
+    ],
+    "es": "¡Ojalá fuera realmente así!",
+    "es_author": "carlosalberto",
+    "es_source_id": "12211090",
+    "id": "s_3165434",
+    "it": "Magari fosse davvero così!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3165434",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_MAGARI_TENSE": "magari_con_congiuntivo"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_GLI_PALATAL"
+    ],
+    "es": "Es el mejor libro que he leído jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_3233436",
+    "it": "È il libro migliore che abbia mai letto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3233436",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_GLI_PALATAL": "gli_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_GLI_PALATAL"
+    ],
+    "es": "Es el mejor libro que yo he leído jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_3233437",
+    "it": "È il libro migliore che io abbia mai letto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3233437",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_GLI_PALATAL": "gli_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Es la cosa más difícil que yo he hecho jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_3241446",
+    "it": "È la cosa più difficile che io abbia mai fatto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3241446",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Es la cosa más dura que yo he hecho jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_3241447",
+    "it": "È la cosa più dura che io abbia mai fatto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3241447",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH",
+      "ERR_C_G_PALATAL",
+      "ERR_PLURAL_VOWEL",
+      "ERR_PREP_ARTICLE_CONTRACTION",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "Glorieta o cenador es un espacio, generalmente redondo, que suele haber en los jardines, cercado por plantas o árboles y con bancos.",
+    "es_author": "emigonza",
+    "es_source_id": "3329293",
+    "id": "s_3329302",
+    "it": "Il gazebo, o pergolato, è uno spazio, di solito rotondo, che solitamente si trova nei giardini, circondato da piante o alberi e panchine.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3329302",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_PLURAL_VOWEL": "plurale_vocale",
+      "ERR_PREP_ARTICLE_CONTRACTION": "preposizione_articolata_in_su",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "¿Cuántos más hay?",
+    "es_author": "IA (Claude)",
+    "id": "s_3354002",
+    "it": "Quanti ce ne sono in più?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3354002",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "¿Cuántas más hay?",
+    "es_author": "IA (Claude)",
+    "id": "s_3354003",
+    "it": "Quante ce ne sono in più?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3354003",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Había muchos otros.",
+    "es_author": "IA (Claude)",
+    "id": "s_3410483",
+    "it": "Ce n'erano molti altri.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3410483",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Había muchas otras.",
+    "es_author": "IA (Claude)",
+    "id": "s_3410484",
+    "it": "Ce n'erano molte altre.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3410484",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "Ya no puedo hacer esto.",
+    "es_author": "Shishir",
+    "es_source_id": "2194809",
+    "id": "s_3411330",
+    "it": "Non ce la faccio più.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3411330",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "¿Por qué debería irse él?",
+    "es_author": "IA (Claude)",
+    "id": "s_3415922",
+    "it": "Perché lui dovrebbe andarsene?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3415922",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "Ella está a punto de irse.",
+    "es_author": "IA (Claude)",
+    "id": "s_3590780",
+    "it": "Lei sta per andarsene.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3590780",
+    "tag_rules": {
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Es la idea más absurda que yo he oído jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_3615537",
+    "it": "È l'idea più assurda che io abbia mai sentito.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3615537",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION",
+      "ERR_GLI_PALATAL"
+    ],
+    "es": "Creo que esta es la mejor parte de la película.",
+    "es_author": "lawka",
+    "es_source_id": "4637590",
+    "id": "s_3770405",
+    "it": "Penso che questa sia la parte migliore del film.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3770405",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "congiuntivo_dopo_opinione",
+      "ERR_GLI_PALATAL": "gli_palatale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_NASAL_CONFUSION",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Eres la mujer más bella que yo he visto jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_3998490",
+    "it": "Sei la donna più bella che io abbia mai visto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3998490",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_NASAL_CONFUSION",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Es la mujer más bella que yo he visto jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_3998493",
+    "it": "È la donna più bella che io abbia mai visto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3998493",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "He visto irse a Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_4073726",
+    "it": "Ho visto Tom andarsene.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4073726",
+    "tag_rules": {
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "Yo vi irse a Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_4073730",
+    "it": "Io vidi Tom andarsene.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4073730",
+    "tag_rules": {
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH",
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Es el elefante más grande que yo he visto jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_4155074",
+    "it": "È l'elefante più grosso che io abbia mai visto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4155074",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_GLI_PALATAL"
+    ],
+    "es": "Es el mejor nombre que yo he oído jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_4402316",
+    "it": "È il nome migliore che io abbia mai sentito.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4402316",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_GLI_PALATAL": "gli_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH",
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Este es el edificio más alto que he visto jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_4430255",
+    "it": "Questo è l'edificio più alto che abbia mai visto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4430255",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "Es hora de irse.",
+    "es_author": "IA (Claude)",
+    "id": "s_4515467",
+    "it": "È ora di andarsene.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4515467",
+    "tag_rules": {
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "Nos vamos de Boston mañana por la mañana.",
+    "es_author": "saverius",
+    "es_source_id": "10804976",
+    "id": "s_4612450",
+    "it": "Noi ce ne andiamo da Boston domani mattina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4612450",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "valealb",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_CONCESSIVE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Pese a ser joven, es muy atento.",
+    "es_author": "saverius",
+    "es_source_id": "4652795",
+    "id": "s_4652738",
+    "it": "Nonostante sia giovane è molto attento.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4652738",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Hablando en general, Tom tiene razón.",
+    "es_author": "saverius",
+    "es_source_id": "10802981",
+    "id": "s_4973103",
+    "it": "Parlando in generale, Tom ha ragione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4973103",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Por eso, la gente empezó a cuchichear que el rey estaba desnudo y él comprendió que tenían razón, pero terminó el desfile con la cabeza bien alta.",
+    "es_author": "hayastan",
+    "es_source_id": "523839",
+    "id": "s_524249",
+    "it": "La gente cominciò per questo a sussurrare che il re era nudo e lui capì che avevano ragione, ma continuò la sfilata a testa alta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "524249",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Deberíamos irnos.",
+    "es_author": "IA (Claude)",
+    "id": "s_5565924",
+    "it": "Ce ne dovremmo andare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5565924",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Nosotros deberíamos irnos.",
+    "es_author": "IA (Claude)",
+    "id": "s_5565925",
+    "it": "Noi ce ne dovremmo andare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5565925",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_IMPERSONAL",
+      "ERR_C_G_PALATAL",
+      "ERR_SC_PALATAL"
+    ],
+    "es": "Parece que no haya modo de salir de aquí.",
+    "es_author": "Seael",
+    "es_source_id": "13845749",
+    "id": "s_5709274",
+    "it": "Sembra che non ci sia modo di uscire da qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5709274",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_IMPERSONAL": "congiuntivo_impersonale",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_SC_PALATAL": "sc_palatale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Es el arquitecto más grande que ha vivido jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_5769125",
+    "it": "È il più grande architetto che abbia mai vissuto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5769125",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Él es el arquitecto más grande que ha vivido jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_5769126",
+    "it": "Lui è il più grande architetto che abbia mai vissuto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5769126",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Nos estamos yendo de Boston.",
+    "es_author": "IA (Claude)",
+    "id": "s_5872407",
+    "it": "Ce ne stiamo andando da Boston.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5872407",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Nosotros nos estamos yendo de Boston.",
+    "es_author": "IA (Claude)",
+    "id": "s_5872409",
+    "it": "Noi ce ne stiamo andando da Boston.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5872409",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Valdast",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_IMPERSONAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Parecía que estabas ocupado.",
+    "es_author": "baudelaire",
+    "es_source_id": "5898120",
+    "id": "s_5898637",
+    "it": "Sembrava che fossi occupato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5898637",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_IMPERSONAL": "congiuntivo_impersonale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_NASAL_CONFUSION",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Eres la mujer más bella que yo he visto jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_5913131",
+    "it": "Sei la più bella donna che io abbia mai visto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5913131",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "Tom tuvo que irse.",
+    "es_author": "IA (Claude)",
+    "id": "s_5997173",
+    "it": "Tom è dovuto andarsene.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5997173",
+    "tag_rules": {
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Tom no ha hablado de ello con nadie.",
+    "es_author": "saverius",
+    "es_source_id": "10803503",
+    "id": "s_6047086",
+    "it": "Tom non ne ha parlato con nessuno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6047086",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_CONCESSIVE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Aunque ella sea pobre, está satisfecha.",
+    "es_author": "hundo",
+    "es_source_id": "956818",
+    "id": "s_612108",
+    "it": "Nonostante sia povera, è soddisfatta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "612108",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_SUPERLATIVE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_SC_PALATAL"
+    ],
+    "es": "Es la chica más aburrida que yo he conocido jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_613807",
+    "it": "È la ragazza più noiosa che io abbia mai conosciuto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "613807",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_SUPERLATIVE": "congiuntivo_superlativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_SC_PALATAL": "sc_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_CONCESSIVE",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "A pesar de ser anciano él es fuerte.",
+    "es_author": "hayastan",
+    "es_source_id": "1251462",
+    "id": "s_617538",
+    "it": "Nonostante sia anziano, è forte.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "617538",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "gltapps",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_CONCESSIVE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Aunque estaba cansada, siguió trabajando.",
+    "es_author": "Shishir",
+    "es_source_id": "531663",
+    "id": "s_636159",
+    "it": "Sebbene fosse stanca, ha continuato a lavorare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "636159",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "No hay.",
+    "es_author": "IA (Claude)",
+    "id": "s_6788649",
+    "it": "Non ce ne sono.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6788649",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Nos iremos mañana.",
+    "es_author": "IA (Claude)",
+    "id": "s_6816440",
+    "it": "Ce ne andremo domani.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6816440",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Nosotros nos iremos mañana.",
+    "es_author": "IA (Claude)",
+    "id": "s_6816441",
+    "it": "Noi ce ne andremo domani.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6816441",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Heracleum",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "Vayámonos tan pronto como él vuelva.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1445298",
+    "id": "s_701161",
+    "it": "Appena ritorna ce ne andiamo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "701161",
+    "tag_rules": {
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING",
+      "ERR_GLI_PALATAL",
+      "ERR_SC_PALATAL"
+    ],
+    "es": "La mejor manera de realmente conocer a una persona es ver cómo se comporta cuando es absolutamente libre de elegir.",
+    "es_author": "hayastan",
+    "es_source_id": "1023232",
+    "id": "s_719266",
+    "it": "Il modo migliore di conoscere davvero una persona è vedere come si comporta quando è assolutamente libera di scegliere.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "719266",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_GLI_PALATAL": "gli_palatale",
+      "ERR_SC_PALATAL": "sc_palatale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OPINION",
+      "ERR_GEMINATE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Creo que la pareja se enfrenta a una prueba que tienen que superar juntos.",
+    "es_author": "hayastan",
+    "es_source_id": "671877",
+    "id": "s_747029",
+    "it": "Penso che la coppia si trovi di fronte a una prova da superare insieme.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "747029",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OPINION": "congiuntivo_dopo_opinione",
+      "ERR_GEMINATE": "geminata_pares_minimos",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Acabo de hablar con ellos de eso.",
+    "es_author": "arh",
+    "es_source_id": "7745782",
+    "id": "s_7739847",
+    "it": "Ne ho appena parlato con loro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7739847",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_CLITIC_CE_NE",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Nos iremos el lunes.",
+    "es_author": "IA (Claude)",
+    "id": "s_8405636",
+    "it": "Ce ne andremo lunedì.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8405636",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_CLITIC_CE_NE": "ce_ne",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "Me voy el lunes.",
+    "es_author": "IA (Claude)",
+    "id": "s_8925903",
+    "it": "Me ne vado lunedì.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8925903",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CLITIC_COMBINED",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_POSSESSIVE_ARTICLE",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "Tengo que apuntar la dirección de él antes de que se me olvide.",
+    "es_author": "tatoerique",
+    "es_source_id": "346576",
+    "id": "s_941983",
+    "it": "Devo segnarmi il suo indirizzo prima che me lo scordi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "941983",
+    "tag_rules": {
+      "ERR_CLITIC_COMBINED": "pronomi_combinati",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "hundo",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_CONGIUNTIVO_CONCESSIVE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PRONOMINAL_VERB"
+    ],
+    "es": "La madre entra en la habitación de Peter, y a pesar de que están las ventanas abiertas, se da cuenta de que Peter ha fumado.",
+    "es_author": "hundo",
+    "es_source_id": "976587",
+    "id": "s_976534",
+    "it": "La mamma entra in camera di Peter, e benché ci siano le finestre spalancate, si accorge che Peter ha fumato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "976534",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PRONOMINAL_VERB": "verbo_pronominale"
+    },
+    "translation_kind": "direct"
+  }
+]

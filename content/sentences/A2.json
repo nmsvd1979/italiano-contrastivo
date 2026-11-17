@@ -1,0 +1,2397 @@
+[
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PREP_FIXED_GOV"
+    ],
+    "es": "La economía de esa isla depende de la pesca.",
+    "es_author": "hayastan",
+    "es_source_id": "1395780",
+    "id": "s_1022991",
+    "it": "L'economia di quell'isola dipende dalla pesca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1022991",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PREP_FIXED_GOV": "preposizione_governo_fisso"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "saverius",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GEMINATE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_NEG_IMPERATIVE",
+      "ERR_PLURAL_VOWEL"
+    ],
+    "es": "¡No me toques los huevos!",
+    "es_author": "enteka",
+    "es_source_id": "1286977",
+    "id": "s_10285528",
+    "it": "Non rompere le palle!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10285528",
+    "tag_rules": {
+      "ERR_GEMINATE": "geminata_pares_minimos",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_NEG_IMPERATIVE": "imperativo_negativo",
+      "ERR_PLURAL_VOWEL": "plurale_vocale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_HETEROTONIC"
+    ],
+    "es": "¿Hay algo más estúpido y odioso que la burocracia universitaria?",
+    "es_author": "nancy",
+    "es_source_id": "1160850",
+    "id": "s_1072949",
+    "it": "Esiste qualcosa di più stupido e odioso della burocrazia universitaria?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1072949",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_HETEROTONIC": "eterotonica"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AUX_OVERGENERALIZATION",
+      "ERR_GEMINATE_NASAL_CONFUSION",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Dicen que no han llorado.",
+    "es_author": "saverius",
+    "es_source_id": "10802573",
+    "id": "s_10802388",
+    "it": "Dicono che non hanno pianto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10802388",
+    "tag_rules": {
+      "ERR_AUX_OVERGENERALIZATION": "avere_con_verbo_inergativo",
+      "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AUX_ESSERE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PREP_ARTICLE_CONTRACTION",
+      "ERR_REFLEXIVE_AUX",
+      "ERR_SC_PALATAL",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "En medio de la discusión se levantó y se fue.",
+    "es_author": "nancy",
+    "es_source_id": "1170593",
+    "id": "s_1082726",
+    "it": "Nel mezzo della discussione si è alzato ed è uscito.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1082726",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "aux_essere_movimento",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PREP_ARTICLE_CONTRACTION": "preposizione_articolata_in_su",
+      "ERR_REFLEXIVE_AUX": "riflessivo_con_essere",
+      "ERR_SC_PALATAL": "sc_palatale",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PREP_PLACE"
+    ],
+    "es": "Tom tiene un amigo que vive en Boston.",
+    "es_author": "hayastan",
+    "es_source_id": "1122108",
+    "id": "s_1122088",
+    "it": "Tom ha un amico che vive a Boston.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1122088",
+    "tag_rules": {
+      "ERR_PREP_PLACE": "preposizione_luogo"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_MANCARE"
+    ],
+    "es": "¡Yo también te extraño!",
+    "es_author": "IA (Claude)",
+    "id": "s_1125710",
+    "it": "Anche tu mi manchi!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1125710",
+    "tag_rules": {
+      "ERR_MANCARE": "mancare"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_MANCARE"
+    ],
+    "es": "¡Yo también los extraño!",
+    "es_author": "IA (Claude)",
+    "id": "s_1125711",
+    "it": "Anche voi mi mancate!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1125711",
+    "tag_rules": {
+      "ERR_MANCARE": "mancare"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_MANCARE"
+    ],
+    "es": "¡A ella también la extraño!",
+    "es_author": "IA (Claude)",
+    "id": "s_1125712",
+    "it": "Anche lei mi manca!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1125712",
+    "tag_rules": {
+      "ERR_MANCARE": "mancare"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AUX_ESSERE",
+      "ERR_CLITIC_CI",
+      "ERR_C_G_PALATAL",
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Fui allí ayer.",
+    "es_author": "IA (Claude)",
+    "id": "s_1211449",
+    "it": "Ci sono andata ieri.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1211449",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "aux_essere_movimento",
+      "ERR_CLITIC_CI": "ci_locativo",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_PARTICIPLE_AGREEMENT": "participio_concuerda_con_essere"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AUX_ESSERE",
+      "ERR_CLITIC_CI",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Confía en mí, he estado allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1264182",
+    "it": "Fidati, ci sono stato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1264182",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "aux_essere_movimento",
+      "ERR_CLITIC_CI": "ci_locativo",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AUX_ESSERE",
+      "ERR_CLITIC_CI",
+      "ERR_C_G_PALATAL",
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Confía en mí, he estado allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1264183",
+    "it": "Fidati, ci sono stata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1264183",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "aux_essere_movimento",
+      "ERR_CLITIC_CI": "ci_locativo",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_PARTICIPLE_AGREEMENT": "participio_concuerda_con_essere"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AUX_ESSERE",
+      "ERR_CLITIC_CI",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Confíen en mí, he estado allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1264186",
+    "it": "Fidatevi, ci sono stato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1264186",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "aux_essere_movimento",
+      "ERR_CLITIC_CI": "ci_locativo",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AUX_ESSERE",
+      "ERR_CLITIC_CI",
+      "ERR_C_G_PALATAL",
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Confíen en mí, he estado allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1264187",
+    "it": "Fidatevi, ci sono stata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1264187",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "aux_essere_movimento",
+      "ERR_CLITIC_CI": "ci_locativo",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_PARTICIPLE_AGREEMENT": "participio_concuerda_con_essere"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COLLOCATION_CALQUE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "¡Ten cuidado, un perro!",
+    "es_author": "IA (Claude)",
+    "id": "s_12763379",
+    "it": "Fai attenzione, un cane!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12763379",
+    "tag_rules": {
+      "ERR_COLLOCATION_CALQUE": "colocacion_calcada",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COLLOCATION_CALQUE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "¡Tengan cuidado, un perro!",
+    "es_author": "IA (Claude)",
+    "id": "s_12763381",
+    "it": "Fate attenzione, un cane!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12763381",
+    "tag_rules": {
+      "ERR_COLLOCATION_CALQUE": "colocacion_calcada",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_MANCARE"
+    ],
+    "es": "Extraño Italia.",
+    "es_author": "IA (Claude)",
+    "id": "s_1301484",
+    "it": "Mi manca l'Italia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1301484",
+    "tag_rules": {
+      "ERR_MANCARE": "mancare"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_DIRECT_INDIRECT",
+      "ERR_INDIRECT_PRONOUN_GENDER",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "¿Le falta experiencia, no?",
+    "es_author": "aliamondano",
+    "es_source_id": "1136524",
+    "id": "s_1330585",
+    "it": "Le manca esperienza, no?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1330585",
+    "tag_rules": {
+      "ERR_CLITIC_DIRECT_INDIRECT": "clitico_diretto_indiretto",
+      "ERR_INDIRECT_PRONOUN_GENDER": "pronome_indiretto_genere",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GLI_PALATAL",
+      "ERR_PERSONAL_A",
+      "ERR_POSSESSIVE_ARTICLE",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "Sujétalo mientras tu mujer llama a la policía.",
+    "es_author": "Kiraness",
+    "es_source_id": "1333101",
+    "id": "s_1333103",
+    "it": "Tienilo fermo mentre tua moglie chiama la polizia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1333103",
+    "tag_rules": {
+      "ERR_GLI_PALATAL": "gli_palatale",
+      "ERR_PERSONAL_A": "a_personale",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING",
+      "ERR_POSSESSIVE_ARTICLE",
+      "ERR_PREP_PENSARE"
+    ],
+    "es": "Piensa en tu hermano.",
+    "es_author": "IA (Claude)",
+    "id": "s_13351710",
+    "it": "Pensa a tuo fratello.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13351710",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
+      "ERR_PREP_PENSARE": "pensare_a"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING",
+      "ERR_POSSESSIVE_ARTICLE",
+      "ERR_PREP_PENSARE"
+    ],
+    "es": "Piense en su hermano.",
+    "es_author": "IA (Claude)",
+    "id": "s_13351711",
+    "it": "Pensi a suo fratello.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13351711",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
+      "ERR_PREP_PENSARE": "pensare_a"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PREP_PENSARE"
+    ],
+    "es": "Piensen en su hermano.",
+    "es_author": "IA (Claude)",
+    "id": "s_13351712",
+    "it": "Pensate a vostro fratello.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13351712",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PREP_PENSARE": "pensare_a"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Verás que tengo razón.",
+    "es_author": "IA (Claude)",
+    "id": "s_13382886",
+    "it": "Vedrai che ho ragione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13382886",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_C_G_PALATAL",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Verá que tengo razón.",
+    "es_author": "IA (Claude)",
+    "id": "s_13382887",
+    "it": "Vedrà che ho ragione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13382887",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Verán que tengo razón.",
+    "es_author": "IA (Claude)",
+    "id": "s_13382888",
+    "it": "Vedrete che ho ragione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13382888",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_DOUBLING",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Ese lunar que tienes, cielito lindo, junto a la boca, no se lo des a nadie, cielito lindo, que a mí me toca.",
+    "es_author": "carlosalberto",
+    "es_source_id": "13604242",
+    "id": "s_13604270",
+    "it": "Quel neo che hai, tesoro mio, vicino alla bocca, non darlo a nessuno, tesoro mio, perché tocca a me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13604270",
+    "tag_rules": {
+      "ERR_CLITIC_DOUBLING": "duplicazione_pronominale",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_MANCARE"
+    ],
+    "es": "¡Extraño el verano!",
+    "es_author": "IA (Claude)",
+    "id": "s_1362615",
+    "it": "Mi manca l'estate!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1362615",
+    "tag_rules": {
+      "ERR_MANCARE": "mancare"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "unforgiven95",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_ARTICLE_ALLOMORPH",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Ya huelo el salado olor del océano.",
+    "es_author": "marcelostockle",
+    "es_source_id": "3302353",
+    "id": "s_14034621",
+    "it": "Sento già l'odore salato dell'oceano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14034621",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_MANCARE"
+    ],
+    "es": "Lo extrañaré para siempre.",
+    "es_author": "IA (Claude)",
+    "id": "s_1415205",
+    "it": "Mi mancherà per sempre.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1415205",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_MANCARE": "mancare"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COLLOCATION_CALQUE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "Acabo de desayunar.",
+    "es_author": "IA (Claude)",
+    "id": "s_1541093",
+    "it": "Ho appena fatto colazione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1541093",
+    "tag_rules": {
+      "ERR_COLLOCATION_CALQUE": "colocacion_calcada",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PREP_PENSARE"
+    ],
+    "es": "Piensen en su futuro.",
+    "es_author": "IA (Claude)",
+    "id": "s_1545233",
+    "it": "Pensate al vostro futuro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1545233",
+    "tag_rules": {
+      "ERR_PREP_PENSARE": "pensare_a"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PREP_PENSARE"
+    ],
+    "es": "Piense en su futuro.",
+    "es_author": "IA (Claude)",
+    "id": "s_1545234",
+    "it": "Pensi al suo futuro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1545234",
+    "tag_rules": {
+      "ERR_PREP_PENSARE": "pensare_a"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "No piense demasiado en eso.",
+    "es_author": "IA (Claude)",
+    "id": "s_1664661",
+    "it": "Non ci pensi troppo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1664661",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "ci_locativo",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE"
+    ],
+    "es": "Quizás no se hará famoso.",
+    "es_author": "IA (Claude)",
+    "id": "s_1738889",
+    "it": "Forse non diventerà famoso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1738889",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Quizás he bebido demasiado.",
+    "es_author": "IA (Claude)",
+    "id": "s_1802925",
+    "it": "Forse ho bevuto troppo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1802925",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_DIRECT_INDIRECT",
+      "ERR_C_G_PALATAL",
+      "ERR_FALSE_FRIEND",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_INDIRECT_PRONOUN_GENDER",
+      "ERR_POSSESSIVE_ARTICLE",
+      "ERR_PREP_ARTICLE_CONTRACTION"
+    ],
+    "es": "A mi hermana mayor el cabello le llega hasta los hombros.",
+    "es_author": "tatoerique",
+    "es_source_id": "338836",
+    "id": "s_1802972",
+    "it": "La mia sorella maggiore ha i capelli che le cadono sulle spalle.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1802972",
+    "tag_rules": {
+      "ERR_CLITIC_DIRECT_INDIRECT": "clitico_diretto_indiretto",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_FALSE_FRIEND": "falso_amigo_lexicon",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_INDIRECT_PRONOUN_GENDER": "pronome_indiretto_genere",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
+      "ERR_PREP_ARTICLE_CONTRACTION": "preposizione_articolata_in_su"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "enzolon",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_RELATIVE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Coma lo que quiera.",
+    "es_author": "IA (Claude)",
+    "id": "s_1860927",
+    "it": "Mangi quello che vuole.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1860927",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_RELATIVE": "relativa_libera_indicativo",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "enzolon",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_RELATIVE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Coman lo que quieran.",
+    "es_author": "IA (Claude)",
+    "id": "s_1860933",
+    "it": "Mangiate quello che volete.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1860933",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_RELATIVE": "relativa_libera_indicativo",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_RELATIVE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Come lo que quieras.",
+    "es_author": "IA (Claude)",
+    "id": "s_1860945",
+    "it": "Mangia quello che vuoi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1860945",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_RELATIVE": "relativa_libera_indicativo",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_MANCARE"
+    ],
+    "es": "Te extraño, Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_2001781",
+    "it": "Tu mi manchi, Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2001781",
+    "tag_rules": {
+      "ERR_MANCARE": "mancare"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Tienes que verlo para creerlo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2020254",
+    "it": "Devi vederlo per crederci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2020254",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "ci_locativo",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Tienen que verlo para creerlo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2020257",
+    "it": "Dovete vederlo per crederci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2020257",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "ci_locativo",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Tiene que verlo para creerlo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2020258",
+    "it": "Deve vederlo per crederci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2020258",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "ci_locativo",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "AYDYL84",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_DIRECT_INDIRECT",
+      "ERR_C_G_PALATAL",
+      "ERR_FALSE_FRIEND",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_GLI_PALATAL",
+      "ERR_PARTICIPLE_AGREEMENT_CLITIC"
+    ],
+    "es": "Piqué las cebollas y las puse en una cacerola con mantequilla y aceite.",
+    "es_author": "topofabi",
+    "es_source_id": "2022153",
+    "id": "s_2022155",
+    "it": "Ho tagliato le cipolle e le ho messe in una casseruola con burro e olio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2022155",
+    "tag_rules": {
+      "ERR_CLITIC_DIRECT_INDIRECT": "clitico_diretto_indiretto",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_FALSE_FRIEND": "falso_amigo_lexicon",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_GLI_PALATAL": "gli_palatale",
+      "ERR_PARTICIPLE_AGREEMENT_CLITIC": "participio_concuerda_con_clitico"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Trato de no pensar en eso.",
+    "es_author": "IA (Claude)",
+    "id": "s_2074004",
+    "it": "Cerco di non pensarci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2074004",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "ci_locativo",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Sirio60",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AUX_ESSERE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PARTICIPLE_AGREEMENT",
+      "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+      "ERR_POSSESSIVE_ARTICLE"
+    ],
+    "es": "Me gustó tu idea y la adopté.",
+    "es_author": "tatoerique",
+    "es_source_id": "359750",
+    "id": "s_2143646",
+    "it": "Mi è piaciuta la tua idea e l'ho adottata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2143646",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "aux_essere_movimento",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PARTICIPLE_AGREEMENT": "participio_concuerda_con_essere",
+      "ERR_PARTICIPLE_AGREEMENT_CLITIC": "participio_concuerda_con_clitico",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "graphite",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AUX_ESSERE",
+      "ERR_CE_AGREEMENT",
+      "ERR_C_G_PALATAL",
+      "ERR_PARTICIPLE_AGREEMENT",
+      "ERR_PLURAL_VOWEL"
+    ],
+    "es": "Hubo dos asesinatos este mes.",
+    "es_author": "arashi_29",
+    "es_source_id": "1003131",
+    "id": "s_2198710",
+    "it": "Questo mese ci sono stati due omicidi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2198710",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "aux_essere_movimento",
+      "ERR_CE_AGREEMENT": "ce_ci_sono",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_PARTICIPLE_AGREEMENT": "participio_concuerda_con_essere",
+      "ERR_PLURAL_VOWEL": "plurale_vocale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Desafortunadamente, Nancy tenía razón.",
+    "es_author": "IA (Claude)",
+    "id": "s_2426336",
+    "it": "Sfortunatamente, Nancy aveva ragione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2426336",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH",
+      "ERR_AUX_ESSERE",
+      "ERR_CE_AGREEMENT",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_NASAL_CONFUSION",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Hubo muchos homicidios el año pasado.",
+    "es_author": "gianich73",
+    "es_source_id": "3307563",
+    "id": "s_2454976",
+    "it": "Ci sono stati molti omicidi l'anno scorso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2454976",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
+      "ERR_AUX_ESSERE": "aux_essere_movimento",
+      "ERR_CE_AGREEMENT": "ce_ci_sono",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PARTICIPLE_AGREEMENT": "participio_concuerda_con_essere"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING",
+      "ERR_NEG_IMPERATIVE",
+      "ERR_PREP_ARTICLE_CONTRACTION",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "No vayas a mi cuarto.",
+    "es_author": "cueyayotl",
+    "es_source_id": "3886294",
+    "id": "s_2527205",
+    "it": "Non andare nella mia stanza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2527205",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_NEG_IMPERATIVE": "imperativo_negativo",
+      "ERR_PREP_ARTICLE_CONTRACTION": "preposizione_articolata_in_su",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GLI_PALATAL",
+      "ERR_MANCARE",
+      "ERR_POSSESSIVE_ARTICLE"
+    ],
+    "es": "Extraño a mi esposa.",
+    "es_author": "IA (Claude)",
+    "id": "s_2556097",
+    "it": "Mi manca mia moglie.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2556097",
+    "tag_rules": {
+      "ERR_GLI_PALATAL": "gli_palatale",
+      "ERR_MANCARE": "mancare",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GLI_PALATAL",
+      "ERR_MANCARE",
+      "ERR_POSSESSIVE_ARTICLE"
+    ],
+    "es": "Extraño a mi esposa.",
+    "es_author": "IA (Claude)",
+    "id": "s_2556099",
+    "it": "Mia moglie mi manca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2556099",
+    "tag_rules": {
+      "ERR_GLI_PALATAL": "gli_palatale",
+      "ERR_MANCARE": "mancare",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Tenía razón después de todo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2681756",
+    "it": "Aveva ragione dopo tutto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2681756",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Tom no quiere ir allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_2702417",
+    "it": "Tom non vuole andarci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2702417",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "ci_locativo",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Tú tenías razón antes.",
+    "es_author": "IA (Claude)",
+    "id": "s_2736369",
+    "it": "Tu avevi ragione prima.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2736369",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Ella tenía razón antes.",
+    "es_author": "IA (Claude)",
+    "id": "s_2736371",
+    "it": "Lei aveva ragione prima.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2736371",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Ustedes tenían razón antes.",
+    "es_author": "IA (Claude)",
+    "id": "s_2736373",
+    "it": "Voi avevate ragione prima.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2736373",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_RELATIVE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Di lo que quieras.",
+    "es_author": "IA (Claude)",
+    "id": "s_2932701",
+    "it": "Di' quello che vuoi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2932701",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_RELATIVE": "relativa_libera_indicativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_RELATIVE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Diga lo que quiera.",
+    "es_author": "IA (Claude)",
+    "id": "s_2932703",
+    "it": "Dica quello che vuole.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2932703",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_RELATIVE": "relativa_libera_indicativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_RELATIVE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Digan lo que quieran.",
+    "es_author": "IA (Claude)",
+    "id": "s_2932705",
+    "it": "Dite quello che volete.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2932705",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_RELATIVE": "relativa_libera_indicativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING",
+      "ERR_GLI_PALATAL",
+      "ERR_PREP_PENSARE"
+    ],
+    "es": "Piensa en tu familia.",
+    "es_author": "IA (Claude)",
+    "id": "s_3012821",
+    "it": "Pensa alla tua famiglia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3012821",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_GLI_PALATAL": "gli_palatale",
+      "ERR_PREP_PENSARE": "pensare_a"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING",
+      "ERR_GLI_PALATAL",
+      "ERR_PREP_PENSARE"
+    ],
+    "es": "Piense en su familia.",
+    "es_author": "IA (Claude)",
+    "id": "s_3012822",
+    "it": "Pensi alla sua famiglia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3012822",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_GLI_PALATAL": "gli_palatale",
+      "ERR_PREP_PENSARE": "pensare_a"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING",
+      "ERR_GLI_PALATAL",
+      "ERR_PREP_PENSARE"
+    ],
+    "es": "Piensen en su familia.",
+    "es_author": "IA (Claude)",
+    "id": "s_3012823",
+    "it": "Pensate alla vostra famiglia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3012823",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_GLI_PALATAL": "gli_palatale",
+      "ERR_PREP_PENSARE": "pensare_a"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PREP_ARTICLE_CONTRACTION"
+    ],
+    "es": "Quizás lloverá por la tarde.",
+    "es_author": "IA (Claude)",
+    "id": "s_3050344",
+    "it": "Forse pioverà nel pomeriggio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3050344",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PREP_ARTICLE_CONTRACTION": "preposizione_articolata_in_su"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_RELATIVE"
+    ],
+    "es": "Quien quiera puede tomarlo.",
+    "es_author": "IA (Claude)",
+    "id": "s_3102440",
+    "it": "Chi vuole può prenderlo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3102440",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_RELATIVE": "relativa_libera_indicativo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_RELATIVE"
+    ],
+    "es": "Quien quiera puede tomarla.",
+    "es_author": "IA (Claude)",
+    "id": "s_3102441",
+    "it": "Chi vuole può prenderla.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3102441",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_RELATIVE": "relativa_libera_indicativo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "No logro pensar en eso.",
+    "es_author": "IA (Claude)",
+    "id": "s_3132782",
+    "it": "Non riesco a pensarci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3132782",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "ci_locativo",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI",
+      "ERR_C_G_PALATAL",
+      "ERR_GLI_PALATAL"
+    ],
+    "es": "Yo no quiero pensar en eso.",
+    "es_author": "IA (Claude)",
+    "id": "s_3437762",
+    "it": "Io non voglio pensarci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3437762",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "ci_locativo",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GLI_PALATAL": "gli_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "martin",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GLI_PALATAL",
+      "ERR_NEG_IMPERATIVE",
+      "ERR_POSSESSIVE_ARTICLE",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "No malcríes a tu hijo.",
+    "es_author": "hayastan",
+    "es_source_id": "1985488",
+    "id": "s_350634",
+    "it": "Non viziare tuo figlio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "350634",
+    "tag_rules": {
+      "ERR_GLI_PALATAL": "gli_palatale",
+      "ERR_NEG_IMPERATIVE": "imperativo_negativo",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_MANCARE"
+    ],
+    "es": "Te extraño tanto.",
+    "es_author": "IA (Claude)",
+    "id": "s_3637742",
+    "it": "Mi manchi così tanto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3637742",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_MANCARE": "mancare"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_MANCARE"
+    ],
+    "es": "Lo extraño tanto.",
+    "es_author": "IA (Claude)",
+    "id": "s_3637744",
+    "it": "Mi manca così tanto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3637744",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_MANCARE": "mancare"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_MANCARE"
+    ],
+    "es": "Los extraño tanto.",
+    "es_author": "IA (Claude)",
+    "id": "s_3637746",
+    "it": "Mi mancate così tanto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3637746",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_MANCARE": "mancare"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Quizás hemos pasado algo por alto.",
+    "es_author": "IA (Claude)",
+    "id": "s_3703802",
+    "it": "Forse abbiamo trascurato qualcosa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3703802",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "El Océano Atlántico separa a América de Europa.",
+    "es_author": "hayastan",
+    "es_source_id": "1594311",
+    "id": "s_377645",
+    "it": "L'oceano Atlantico separa l'America dall'Europa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "377645",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_GEMINATE_NASAL_CONFUSION",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "La película era tan triste que todos lloraron.",
+    "es_author": "kylecito",
+    "es_source_id": "337098",
+    "id": "s_381874",
+    "it": "Il film era così triste che tutti hanno pianto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "381874",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GEMINATE",
+      "ERR_GEMINATE_NASAL_CONFUSION",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PERSONAL_A",
+      "ERR_POSSESSIVE_ARTICLE"
+    ],
+    "es": "Estoy ayudando a mi abuelo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1661411",
+    "id": "s_3860754",
+    "it": "Sto aiutando mio nonno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3860754",
+    "tag_rules": {
+      "ERR_GEMINATE": "geminata_pares_minimos",
+      "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PERSONAL_A": "a_personale",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GEMINATE_NASAL_CONFUSION",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_GLI_PALATAL",
+      "ERR_POSSESSIVE_ARTICLE",
+      "ERR_PREP_PLACE"
+    ],
+    "es": "Mi familia va a Italia todos los años.",
+    "es_author": "quarzoliquido",
+    "es_source_id": "480316",
+    "id": "s_387491",
+    "it": "La mia famiglia va in Italia tutti gli anni.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "387491",
+    "tag_rules": {
+      "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_GLI_PALATAL": "gli_palatale",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
+      "ERR_PREP_PLACE": "preposizione_luogo"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_MANCARE"
+    ],
+    "es": "Extraño mucho a Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_4209586",
+    "it": "Mi manca molto Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4209586",
+    "tag_rules": {
+      "ERR_MANCARE": "mancare"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PREP_PENSARE"
+    ],
+    "es": "Estaba pensando en ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_4366866",
+    "it": "Stavo pensando a lei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4366866",
+    "tag_rules": {
+      "ERR_PREP_PENSARE": "pensare_a"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PREP_PENSARE"
+    ],
+    "es": "Estaba pensando en ti.",
+    "es_author": "IA (Claude)",
+    "id": "s_4366874",
+    "it": "Stavo pensando a te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4366874",
+    "tag_rules": {
+      "ERR_PREP_PENSARE": "pensare_a"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PREP_PENSARE"
+    ],
+    "es": "Estaba pensando en ustedes.",
+    "es_author": "IA (Claude)",
+    "id": "s_4366876",
+    "it": "Stavo pensando a voi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4366876",
+    "tag_rules": {
+      "ERR_PREP_PENSARE": "pensare_a"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_DIRECT_INDIRECT",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_INDIRECT_PRONOUN_GENDER"
+    ],
+    "es": "Para ser perfecta sólo le faltaba un defecto.",
+    "es_author": "Shishir",
+    "es_source_id": "2813",
+    "id": "s_4413",
+    "it": "Per essere perfetta le mancava solo un difetto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4413",
+    "tag_rules": {
+      "ERR_CLITIC_DIRECT_INDIRECT": "clitico_diretto_indiretto",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_INDIRECT_PRONOUN_GENDER": "pronome_indiretto_genere"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Tomás es más rápido de lo que pensás.",
+    "es_author": "don_ramon",
+    "es_source_id": "5147589",
+    "id": "s_5090190",
+    "it": "Tom è più veloce di quello che pensi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5090190",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_FALSE_FRIEND",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_GLI_PALATAL"
+    ],
+    "es": "Lo que quiero ahora es una taza de café caliente.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1418943",
+    "id": "s_625156",
+    "it": "Ciò che voglio adesso è una tazza di caffè caldo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "625156",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_FALSE_FRIEND": "falso_amigo_lexicon",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_GLI_PALATAL": "gli_palatale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_DIRECT_INDIRECT",
+      "ERR_INDIRECT_PRONOUN_GENDER",
+      "ERR_SC_PALATAL"
+    ],
+    "es": "Le hace falta disciplina.",
+    "es_author": "darinmex",
+    "es_source_id": "646315",
+    "id": "s_646997",
+    "it": "Gli manca la disciplina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "646997",
+    "tag_rules": {
+      "ERR_CLITIC_DIRECT_INDIRECT": "clitico_diretto_indiretto",
+      "ERR_INDIRECT_PRONOUN_GENDER": "pronome_indiretto_genere",
+      "ERR_SC_PALATAL": "sc_palatale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE"
+    ],
+    "es": "Quizás escribiré un libro.",
+    "es_author": "IA (Claude)",
+    "id": "s_6859347",
+    "it": "Forse scriverò un libro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6859347",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Heracleum",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH",
+      "ERR_AUX_ESSERE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PARTICIPLE_AGREEMENT",
+      "ERR_SC_PALATAL"
+    ],
+    "es": "Consiguió atravesar el océano Pacífico en barca.",
+    "es_author": "Shishir",
+    "es_source_id": "1292181",
+    "id": "s_711452",
+    "it": "È riuscita ad attraversare l'oceano Pacifico in barca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "711452",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
+      "ERR_AUX_ESSERE": "aux_essere_movimento",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PARTICIPLE_AGREEMENT": "participio_concuerda_con_essere",
+      "ERR_SC_PALATAL": "sc_palatale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GEMINATE",
+      "ERR_GEMINATE_NASAL_CONFUSION",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Visito a mis abuelos dos veces a la semana.",
+    "es_author": "catakaoe",
+    "es_source_id": "450212",
+    "id": "s_828427",
+    "it": "Faccio visita ai miei nonni due volte alla settimana.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "828427",
+    "tag_rules": {
+      "ERR_GEMINATE": "geminata_pares_minimos",
+      "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_DIRECT_INDIRECT",
+      "ERR_GEMINATE",
+      "ERR_GEMINATE_NASAL_CONFUSION",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_POSSESSIVE_ARTICLE",
+      "ERR_PREP_PENSARE"
+    ],
+    "es": "Cuando le veo, pienso en mi abuelo.",
+    "es_author": "hundo",
+    "es_source_id": "967675",
+    "id": "s_967672",
+    "it": "Quando lo vedo, penso a mio nonno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "967672",
+    "tag_rules": {
+      "ERR_CLITIC_DIRECT_INDIRECT": "clitico_diretto_indiretto",
+      "ERR_GEMINATE": "geminata_pares_minimos",
+      "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
+      "ERR_PREP_PENSARE": "pensare_a"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH",
+      "ERR_COLLOCATION_CALQUE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PLURAL_VOWEL",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "Riega las plantas antes de desayunar.",
+    "es_author": "Shishir",
+    "es_source_id": "757599",
+    "id": "s_984718",
+    "it": "Dai l'acqua alle piante prima di fare colazione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "984718",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
+      "ERR_COLLOCATION_CALQUE": "colocacion_calcada",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PLURAL_VOWEL": "plurale_vocale",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  }
+]
