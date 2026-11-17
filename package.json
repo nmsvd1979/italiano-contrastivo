@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "test": "vitest run && .venv/bin/python -m pytest tests/py -q",
+    "test": "vitest run && npm --prefix web test && .venv/bin/python -m pytest tests/py -q",
     "test:js": "vitest run",
     "test:py": ".venv/bin/python -m pytest tests/py -q",
     "schemas:ts": "node scripts/gen-types.mjs",
     "schemas:py": ".venv/bin/python scripts/gen_models.py",
     "schemas": "npm run schemas:ts && npm run schemas:py",
-    "typecheck": "tsc -p web/tsconfig.json"
+    "typecheck": "tsc -p web/tsconfig.json",
+    "test:web": "npm --prefix web test"
   },
   "devDependencies": {
     "ajv": "^8.20.0",
