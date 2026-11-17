@@ -1,0 +1,16 @@
+name: gender_divergence
+description: 'Palabras cuyo género o vocal final difiere del español. ''pianto/pianti'' se detecta por regex en la regla (no como participio de piangere: ''hanno pianto''). ''pianta/piante'' se retiraron:
+  mismo género que ''planta''; ''pianto'' (sustantivo) se detecta por regla.'
+entries:
+- form: fiore
+  gloss_es: la flor (m.)
+  source: Italianamente (NotebookLM 2c06bfeb)
+- form: fiori
+  gloss_es: las flores (m.)
+  source: Italianamente (NotebookLM 2c06bfeb)
+- form: caviglia
+  gloss_es: el tobillo (f.)
+  source: Italianamente (NotebookLM 2c06bfeb)
+- form: caviglie
+  gloss_es: los tobillos (f.)
+  source: Italianamente (NotebookLM 2c06bfeb)

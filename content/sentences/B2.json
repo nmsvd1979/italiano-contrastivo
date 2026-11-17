@@ -1,0 +1,201 @@
+[
+  {
+    "author": "jacopofar",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B2",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_CONCESSIVE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Aunque Tom hablaba con acento, tenía un vocabulario notable.",
+    "es_author": "IA (Claude)",
+    "id": "s_10674734",
+    "it": "Nonostante Tom parlasse con un accento, aveva un vocabolario notevole.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10674734",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B2",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH",
+      "ERR_AUX_ESSERE",
+      "ERR_C_G_PALATAL",
+      "ERR_PARTICIPLE_AGREEMENT",
+      "ERR_POSSESSIVE_ARTICLE"
+    ],
+    "es": "¿Hasta cuándo seguiremos creyendo que nacimos para el exterminio mutuo y que el exterminio mutuo es nuestro destino?",
+    "es_author": "carlosalberto",
+    "es_source_id": "13894882",
+    "id": "s_13894907",
+    "it": "Fino a quando continueremo a credere che siamo nati per sterminarci a vicenda e che lo sterminio reciproco sia il nostro destino?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13894907",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
+      "ERR_AUX_ESSERE": "aux_essere_movimento",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_PARTICIPLE_AGREEMENT": "participio_concuerda_con_essere",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "skywatcher",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER",
+      "ERR_CONGIUNTIVO_CONCESSIVE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Fue al trabajo aunque tenía un resfriado.",
+    "es_author": "IA (Claude)",
+    "id": "s_1598271",
+    "it": "Andò al lavoro sebbene avesse il raffreddore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1598271",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "accento_finale",
+      "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B2",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_CONCESSIVE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PLURAL_VOWEL"
+    ],
+    "es": "Aunque no me gustaban las matemáticas, tenía que estudiar los logaritmos.",
+    "es_author": "IA (Claude)",
+    "id": "s_1948225",
+    "it": "Nonostante non mi piacesse la matematica, dovevo studiare i logaritmi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1948225",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PLURAL_VOWEL": "plurale_vocale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B2",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_CONCESSIVE",
+      "ERR_GEMINATE_NASAL_CONFUSION",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_SC_PALATAL"
+    ],
+    "es": "Aunque eran pobres, criaron a siete hijos.",
+    "es_author": "IA (Claude)",
+    "id": "s_382189",
+    "it": "Nonostante fossero poveri, hanno cresciuto sette figli.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "382189",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
+      "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_SC_PALATAL": "sc_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Heracleum",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "B2",
+    "error_codes": [
+      "ERR_AUX_ESSERE",
+      "ERR_CLITIC_DIRECT_INDIRECT",
+      "ERR_CONGIUNTIVO_CONCESSIVE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_INDIRECT_PRONOUN_GENDER"
+    ],
+    "es": "Vino aunque le había dicho que no lo hiciera.",
+    "es_author": "IA (Claude)",
+    "id": "s_705357",
+    "it": "È venuto nonostante gli avessi detto di non farlo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "705357",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "aux_essere_movimento",
+      "ERR_CLITIC_DIRECT_INDIRECT": "clitico_diretto_indiretto",
+      "ERR_CONGIUNTIVO_CONCESSIVE": "congiuntivo_concessiva",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_INDIRECT_PRONOUN_GENDER": "pronome_indiretto_genere"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Valdast",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B2",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_MAGARI_TENSE"
+    ],
+    "es": "Ojalá hubiera sabido hablar francés.",
+    "es_author": "Shishir",
+    "es_source_id": "2482363",
+    "id": "s_8890731",
+    "it": "Magari avessi saputo parlare francese.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8890731",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_MAGARI_TENSE": "magari_con_congiuntivo"
+    },
+    "translation_kind": "direct"
+  }
+]

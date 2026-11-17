@@ -23,4 +23,24 @@ export type Sentence = {
    * Id de la traducción ES directa en Tatoeba/OPUS.
    */
   es_source_id?: string;
+  /**
+   * direct = enlace directo ita-spa de Tatoeba; pivot = vía inglés (NO se usa: pierde género/número/persona); llm = español generado por IA a partir del italiano.
+   */
+  translation_kind?: "direct" | "pivot" | "llm";
+  /**
+   * Id Tatoeba de la oración inglesa puente.
+   */
+  pivot_via?: string;
+  cefr_confidence?: number;
+  qa_flags?: string[];
+  /**
+   * código de error → id de la regla que lo etiquetó
+   */
+  tag_rules?: {
+    [k: string]: string;
+  };
+  /**
+   * Autor de la oración española (CC BY exige atribuir también la traducción).
+   */
+  es_author?: string;
 };

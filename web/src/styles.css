@@ -1,0 +1,21 @@
+:root { color-scheme: light dark; --bg: #fbfaf7; --fg: #1d2228; --accent: #1b4965; --ok: #2d6a4f; --bad: #b23a48; --card: #fff; --line: #d8d4cc; }
+@media (prefers-color-scheme: dark) { :root { --bg: #14171a; --fg: #eceae5; --accent: #8ecae6; --ok: #74c69d; --bad: #ff8f9c; --card: #1d2125; --line: #353b41; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.5 -apple-system, system-ui, sans-serif; }
+nav { display: flex; gap: 16px; padding: 12px 16px; border-bottom: 1px solid var(--line); }
+nav a { color: var(--accent); text-decoration: none; font-weight: 600; }
+main, #root > p { max-width: 640px; margin: 0 auto; padding: 16px; }
+section { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; margin: 12px 0; }
+button, a.button { font: inherit; min-height: 44px; padding: 8px 16px; border-radius: 10px; border: 1px solid var(--accent); background: var(--card); color: var(--accent); cursor: pointer; text-decoration: none; display: inline-block; }
+button:disabled { opacity: .55; }
+button[data-state="correct"] { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 18%, var(--card)); }
+button[data-state="wrong"] { border-color: var(--bad); background: color-mix(in srgb, var(--bad) 18%, var(--card)); }
+[role="status"][data-state="wrong"] { color: var(--bad); }
+[role="status"][data-state="correct"] { color: var(--ok); }
+.options { list-style: none; padding: 0; display: grid; gap: 8px; }
+.options button { width: 100%; text-align: left; }
+.built, .bank { display: flex; flex-wrap: wrap; gap: 8px; min-height: 44px; }
+.alert { border: 1px solid var(--bad); border-radius: 10px; padding: 8px 12px; color: var(--bad); }
+input, textarea { font: inherit; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--fg); max-width: 100%; }
+mark { background: color-mix(in srgb, var(--accent) 30%, transparent); color: inherit; border-radius: 4px; }
+.attributions { font-size: 14px; }

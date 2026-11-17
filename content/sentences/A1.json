@@ -1,0 +1,1251 @@
+[
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CE_AGREEMENT",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PREP_ARTICLE_CONTRACTION"
+    ],
+    "es": "En el mundo hay cuatro océanos.",
+    "es_author": "tatoerique",
+    "es_source_id": "346354",
+    "id": "s_1015680",
+    "it": "Nel mondo ci sono quattro oceani.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1015680",
+    "tag_rules": {
+      "ERR_CE_AGREEMENT": "ce_ci_sono",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PREP_ARTICLE_CONTRACTION": "preposizione_articolata_in_su"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PREP_FIXED_GOV"
+    ],
+    "es": "Somos de Francia.",
+    "es_author": "lukaszpp",
+    "es_source_id": "464349",
+    "id": "s_1016644",
+    "it": "Noi veniamo dalla Francia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1016644",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PREP_FIXED_GOV": "preposizione_governo_fisso"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_PLACE"
+    ],
+    "es": "Voy a América mañana.",
+    "es_author": "IA (Claude)",
+    "id": "s_1018858",
+    "it": "Vado in America domani.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1018858",
+    "tag_rules": {
+      "ERR_PREP_PLACE": "preposizione_luogo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PREP_FIXED_GOV"
+    ],
+    "es": "Está interesado en las matemáticas.",
+    "es_author": "saverius",
+    "es_source_id": "10255878",
+    "id": "s_10251668",
+    "it": "È interessato alla matematica.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10251668",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PREP_FIXED_GOV": "preposizione_governo_fisso"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_FIXED_GOV"
+    ],
+    "es": "Vengo de Milán.",
+    "es_author": "Shishir",
+    "es_source_id": "1237208",
+    "id": "s_1082247",
+    "it": "Vengo da Milano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1082247",
+    "tag_rules": {
+      "ERR_PREP_FIXED_GOV": "preposizione_governo_fisso"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_PREP_PLACE"
+    ],
+    "es": "Mañana voy a París.",
+    "es_author": "IA (Claude)",
+    "id": "s_1082492",
+    "it": "Domani vado a Parigi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1082492",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_PREP_PLACE": "preposizione_luogo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CE_AGREEMENT",
+      "ERR_C_G_PALATAL",
+      "ERR_GENDER_DIVERGENCE",
+      "ERR_PLURAL_VOWEL",
+      "ERR_PREP_ARTICLE_CONTRACTION"
+    ],
+    "es": "¿Hay muchas flores en el jardín?",
+    "es_author": "hayastan",
+    "es_source_id": "1086356",
+    "id": "s_1086143",
+    "it": "Ci sono molti fiori nel giardino?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1086143",
+    "tag_rules": {
+      "ERR_CE_AGREEMENT": "ce_ci_sono",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GENDER_DIVERGENCE": "genere_divergente",
+      "ERR_PLURAL_VOWEL": "plurale_vocale",
+      "ERR_PREP_ARTICLE_CONTRACTION": "preposizione_articolata_in_su"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PREP_FIXED_GOV"
+    ],
+    "es": "Tom está interesado en las matemáticas.",
+    "es_author": "Shishir",
+    "es_source_id": "922596",
+    "id": "s_1109938",
+    "it": "Tom è interessato alla matematica.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1109938",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PREP_FIXED_GOV": "preposizione_governo_fisso"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_GLI_PALATAL",
+      "ERR_PREP_PLACE"
+    ],
+    "es": "La familia de Tom vive en Boston.",
+    "es_author": "Shishir",
+    "es_source_id": "1876514",
+    "id": "s_1119414",
+    "it": "La famiglia di Tom vive a Boston.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1119414",
+    "tag_rules": {
+      "ERR_GLI_PALATAL": "gli_palatale",
+      "ERR_PREP_PLACE": "preposizione_luogo"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_PLACE"
+    ],
+    "es": "Tom vive en Boston.",
+    "es_author": "IA (Claude)",
+    "id": "s_1122033",
+    "it": "Tom vive a Boston.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1122033",
+    "tag_rules": {
+      "ERR_PREP_PLACE": "preposizione_luogo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PLURAL_VOWEL",
+      "ERR_PREP_PLACE"
+    ],
+    "es": "Tom tiene dos hijos. Ambos viven en Boston.",
+    "es_author": "hayastan",
+    "es_source_id": "1122062",
+    "id": "s_1122049",
+    "it": "Tom ha due figli. Entrambi vivono a Boston.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1122049",
+    "tag_rules": {
+      "ERR_PLURAL_VOWEL": "plurale_vocale",
+      "ERR_PREP_PLACE": "preposizione_luogo"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE"
+    ],
+    "es": "Quizás soy un amigo.",
+    "es_author": "IA (Claude)",
+    "id": "s_11237667",
+    "it": "Forse sono un amico.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11237667",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE"
+    ],
+    "es": "Quizás soy una amiga.",
+    "es_author": "IA (Claude)",
+    "id": "s_11237668",
+    "it": "Forse sono un'amica.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11237668",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COLLOCATION_CALQUE",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "Desayuno todas las mañanas.",
+    "es_author": "IA (Claude)",
+    "id": "s_11728273",
+    "it": "Faccio colazione ogni mattina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11728273",
+    "tag_rules": {
+      "ERR_COLLOCATION_CALQUE": "colocacion_calcada",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COLLOCATION_CALQUE",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "Desayunamos en la cocina.",
+    "es_author": "IA (Claude)",
+    "id": "s_11728461",
+    "it": "Facciamo colazione in cucina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11728461",
+    "tag_rules": {
+      "ERR_COLLOCATION_CALQUE": "colocacion_calcada",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Adelpa",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CE_AGREEMENT",
+      "ERR_C_G_PALATAL",
+      "ERR_GENDER_DIVERGENCE",
+      "ERR_PLURAL_VOWEL",
+      "ERR_PREP_ARTICLE_CONTRACTION"
+    ],
+    "es": "Hay muchas flores en el jardín.",
+    "es_author": "Shishir",
+    "es_source_id": "1087342",
+    "id": "s_12039854",
+    "it": "Ci sono molti fiori nel giardino.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12039854",
+    "tag_rules": {
+      "ERR_CE_AGREEMENT": "ce_ci_sono",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GENDER_DIVERGENCE": "genere_divergente",
+      "ERR_PLURAL_VOWEL": "plurale_vocale",
+      "ERR_PREP_ARTICLE_CONTRACTION": "preposizione_articolata_in_su"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_PLACE"
+    ],
+    "es": "¿Tom vive en Boston?",
+    "es_author": "IA (Claude)",
+    "id": "s_12382715",
+    "it": "Tom abita a Boston?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12382715",
+    "tag_rules": {
+      "ERR_PREP_PLACE": "preposizione_luogo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Zwina no tiene razón.",
+    "es_author": "IA (Claude)",
+    "id": "s_12434343",
+    "it": "Zwina non ha ragione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12434343",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PREP_FIXED_GOV"
+    ],
+    "es": "Tom depende de Mary.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1296887",
+    "id": "s_1265972",
+    "it": "Tom dipende da Mary.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1265972",
+    "tag_rules": {
+      "ERR_PREP_FIXED_GOV": "preposizione_governo_fisso"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Obviamente él está equivocado.",
+    "es_author": "IA (Claude)",
+    "id": "s_1300997",
+    "it": "Ovviamente lui ha torto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1300997",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_PREP_PLACE"
+    ],
+    "es": "Yo vivo en París.",
+    "es_author": "IA (Claude)",
+    "id": "s_13267842",
+    "it": "Io abito a Parigi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13267842",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_PREP_PLACE": "preposizione_luogo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_PREP_PLACE"
+    ],
+    "es": "Voy a París mañana.",
+    "es_author": "IA (Claude)",
+    "id": "s_13267986",
+    "it": "Vado a Parigi domani.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13267986",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_PREP_PLACE": "preposizione_luogo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE"
+    ],
+    "es": "Quizás esto es amor.",
+    "es_author": "IA (Claude)",
+    "id": "s_13298167",
+    "it": "Forse questo è amore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13298167",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_NASAL_CONFUSION",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "La mujer tiene razón.",
+    "es_author": "IA (Claude)",
+    "id": "s_13300838",
+    "it": "La donna ha ragione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13300838",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_TENERE_AVERE",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "La fuerza tiene razón.",
+    "es_author": "IA (Claude)",
+    "id": "s_13437351",
+    "it": "La forza ha ragione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13437351",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_TENERE_AVERE": "tener_ragione",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE"
+    ],
+    "es": "Quizás es el destino.",
+    "es_author": "IA (Claude)",
+    "id": "s_1345131",
+    "it": "Forse è il destino.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1345131",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PREP_FIXED_GOV"
+    ],
+    "es": "Yo soy de Noruega.",
+    "es_author": "quarzoliquido",
+    "es_source_id": "483142",
+    "id": "s_1680620",
+    "it": "Io vengo dalla Norvegia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1680620",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PREP_FIXED_GOV": "preposizione_governo_fisso"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Sé que tienes razón.",
+    "es_author": "IA (Claude)",
+    "id": "s_2023101",
+    "it": "So che hai ragione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2023101",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Sé que tiene razón.",
+    "es_author": "IA (Claude)",
+    "id": "s_2023103",
+    "it": "So che ha ragione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2023103",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Sé que tienen razón.",
+    "es_author": "IA (Claude)",
+    "id": "s_2023105",
+    "it": "So che avete ragione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2023105",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PLURAL_VOWEL",
+      "ERR_PREP_PENSARE"
+    ],
+    "es": "Pienso en mis niños.",
+    "es_author": "IA (Claude)",
+    "id": "s_2213776",
+    "it": "Penso ai miei bambini.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2213776",
+    "tag_rules": {
+      "ERR_PLURAL_VOWEL": "plurale_vocale",
+      "ERR_PREP_PENSARE": "pensare_a"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COLLOCATION_CALQUE",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "Tom no desayuna.",
+    "es_author": "IA (Claude)",
+    "id": "s_2622264",
+    "it": "Tom non fa colazione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2622264",
+    "tag_rules": {
+      "ERR_COLLOCATION_CALQUE": "colocacion_calcada",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CLITIC_DOUBLING",
+      "ERR_C_G_PALATAL",
+      "ERR_GEMINATE_SPELLING",
+      "ERR_SC_PALATAL"
+    ],
+    "es": "A mí me gusta de veras el pescado.",
+    "es_author": "cueyayotl",
+    "es_source_id": "3227012",
+    "id": "s_2681918",
+    "it": "A me piace davvero il pesce.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2681918",
+    "tag_rules": {
+      "ERR_CLITIC_DOUBLING": "duplicazione_pronominale",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_SC_PALATAL": "sc_palatale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CLITIC_DOUBLING",
+      "ERR_C_G_PALATAL",
+      "ERR_SC_PALATAL"
+    ],
+    "es": "A mí me gusta verdaderamente el pescado.",
+    "es_author": "cueyayotl",
+    "es_source_id": "3227014",
+    "id": "s_2681921",
+    "it": "A me piace veramente il pesce.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2681921",
+    "tag_rules": {
+      "ERR_CLITIC_DOUBLING": "duplicazione_pronominale",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_SC_PALATAL": "sc_palatale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CLITIC_DOUBLING",
+      "ERR_C_G_PALATAL",
+      "ERR_SC_PALATAL"
+    ],
+    "es": "A mí me gusta mucho el pescado.",
+    "es_author": "cueyayotl",
+    "es_source_id": "3227016",
+    "id": "s_2681923",
+    "it": "A me piace molto il pesce.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2681923",
+    "tag_rules": {
+      "ERR_CLITIC_DOUBLING": "duplicazione_pronominale",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_SC_PALATAL": "sc_palatale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ARTICLE_ALLOMORPH",
+      "ERR_C_G_PALATAL",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "El hombre tiene razón.",
+    "es_author": "IA (Claude)",
+    "id": "s_2762874",
+    "it": "L'uomo ha ragione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2762874",
+    "tag_rules": {
+      "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Quizás ellos son felices.",
+    "es_author": "IA (Claude)",
+    "id": "s_2808377",
+    "it": "Forse loro sono felici.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2808377",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_PERSONAL_A",
+      "ERR_POSSESSIVE_ARTICLE",
+      "ERR_SC_PALATAL"
+    ],
+    "es": "Tom no conoce a sus vecinos.",
+    "es_author": "termito2nd",
+    "es_source_id": "1585306",
+    "id": "s_2845274",
+    "it": "Tom non conosce i suoi vicini.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2845274",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_PERSONAL_A": "a_personale",
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
+      "ERR_SC_PALATAL": "sc_palatale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_GEMINATE_SPELLING",
+      "ERR_PREP_FIXED_GOV"
+    ],
+    "es": "Soy de Dinamarca.",
+    "es_author": "Shishir",
+    "es_source_id": "1715056",
+    "id": "s_3099699",
+    "it": "Vengo dalla Danimarca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3099699",
+    "tag_rules": {
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia",
+      "ERR_PREP_FIXED_GOV": "preposizione_governo_fisso"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Quizás yo puedo ayudar.",
+    "es_author": "IA (Claude)",
+    "id": "s_3393449",
+    "it": "Forse io posso aiutare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3393449",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE",
+      "ERR_C_G_PALATAL"
+    ],
+    "es": "Quizás no es joven.",
+    "es_author": "IA (Claude)",
+    "id": "s_3630534",
+    "it": "Forse non è giovane.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3630534",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo",
+      "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_POSSESSIVE_ARTICLE",
+      "ERR_POSSESSIVE_SPELLING",
+      "ERR_PREP_PLACE",
+      "ERR_Z_AFFRICATE"
+    ],
+    "es": "Mi tío vive en Londres.",
+    "es_author": "Shishir",
+    "es_source_id": "1797010",
+    "id": "s_376530",
+    "it": "Mio zio vive a Londra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "376530",
+    "tag_rules": {
+      "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
+      "ERR_POSSESSIVE_SPELLING": "possessivo_grafia",
+      "ERR_PREP_PLACE": "preposizione_luogo",
+      "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_FALSE_FRIEND",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "¿Quién quiere chocolate caliente?",
+    "es_author": "Shishir",
+    "es_source_id": "2872",
+    "id": "s_379726",
+    "it": "Chi vuole una cioccolata calda?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "379726",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_FALSE_FRIEND": "falso_amigo_lexicon",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CE_AGREEMENT",
+      "ERR_C_G_PALATAL",
+      "ERR_GENDER_DIVERGENCE",
+      "ERR_PLURAL_VOWEL",
+      "ERR_PREP_ARTICLE_CONTRACTION"
+    ],
+    "es": "En el jardín hay muchas flores.",
+    "es_author": "tatoerique",
+    "es_source_id": "339050",
+    "id": "s_384874",
+    "it": "Nel giardino ci sono molti fiori.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "384874",
+    "tag_rules": {
+      "ERR_CE_AGREEMENT": "ce_ci_sono",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_GENDER_DIVERGENCE": "genere_divergente",
+      "ERR_PLURAL_VOWEL": "plurale_vocale",
+      "ERR_PREP_ARTICLE_CONTRACTION": "preposizione_articolata_in_su"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE",
+      "ERR_C_G_PALATAL",
+      "ERR_TENERE_AVERE"
+    ],
+    "es": "Puede que tengas razón.",
+    "es_author": "Shishir",
+    "es_source_id": "543932",
+    "id": "s_390103",
+    "it": "Forse hai ragione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "390103",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo",
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE"
+    ],
+    "es": "Quizás Tom es estúpido.",
+    "es_author": "IA (Claude)",
+    "id": "s_4482390",
+    "it": "Forse Tom è stupido.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4482390",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "Quizás es una trampa.",
+    "es_author": "IA (Claude)",
+    "id": "s_5218162",
+    "it": "Forse è una trappola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5218162",
+    "tag_rules": {
+      "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_C_G_PALATAL",
+      "ERR_FALSE_FRIEND",
+      "ERR_GEMINATE_SPELLING"
+    ],
+    "es": "¿Quién quiere una chocolatada caliente?",
+    "es_author": "hayastan",
+    "es_source_id": "978801",
+    "id": "s_978795",
+    "it": "Chi vuole della cioccolata calda?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "978795",
+    "tag_rules": {
+      "ERR_C_G_PALATAL": "c_g_palatale",
+      "ERR_FALSE_FRIEND": "falso_amigo_lexicon",
+      "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  }
+]

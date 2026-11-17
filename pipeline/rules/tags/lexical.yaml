@@ -1,0 +1,323 @@
+- id: falso_amigo_lexicon
+  code: ERR_FALSE_FRIEND
+  tier: lexical
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f); Italianamente (NotebookLM 2c06bfeb); Lancione 2025 (NotebookLM daedf2c6)
+  it:
+  - lemmas: false_friends
+  examples:
+    positive:
+    - text: Sei pronta a fare questo?
+      es: ¿Estás listo para hacer esto?
+      source: tatoeba:5712747
+    - text: La carta, il vetro e la plastica sono materiali riciclabili.
+      es: El papel, el vidrio y el plástico son materiales reciclables.
+      source: tatoeba:3863713
+    - text: Chi vuole della cioccolata calda?
+      es: ¿Quién quiere una chocolatada caliente?
+      source: tatoeba:978795
+    negative:
+    - text: Adesso mi aiuti.
+      es: Ahora ayúdame.
+      source: tatoeba:3621500
+    - text: Ho visto una balena viva.
+      es: He visto una ballena viva.
+      source: tatoeba:10278918
+    - text: Ho visto il mio nome nell'elenco.
+      es: Vi mi nombre en la lista.
+      source: tatoeba:7106050
+- id: colocacion_calcada
+  code: ERR_COLLOCATION_CALQUE
+  tier: lexical
+  source: 'Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f) #63-69'
+  it:
+  - regex: \b(?:mi\s+sono|ti\s+sei|si\s+è|ci\s+siamo|vi\s+siete|si\s+sono)\s+res[oai]\w*\s+conto\b|\brend(?:o|i|e|iamo|ete|ono)\s+conto\b|\b(?:fa(?:re|ccio|i|nno|cciamo|te)|fatto)\s+attenzione\b|\b(?:far|fare|faccio|fai|fa|facciamo|fate|fanno)\s+(?:una\s+)?passeggiata\b|\bnon\s+vedo\s+l'ora\b|\b(?:faccio|fai|fa|facciamo|fate|fanno|fare|fatto)\s+colazione\b
+  examples:
+    positive:
+    - text: Mi piace fare colazione con voi.
+      es: Me gusta desayunar con ustedes.
+      source: tatoeba:1426794
+    - text: Fate attenzione, un cane!
+      es: ¡Cuidado! Un perro.
+      source: tatoeba:12763381
+    - text: È andata a fare una passeggiata.
+      es: Ella se fue a dar un paseo.
+      source: tatoeba:709301
+    negative:
+    - text: Io faccio degli incubi.
+      es: Tengo pesadillas.
+      source: tatoeba:3499147
+    - text: Io faccio sport quasi ogni giorno.
+      es: Practico deportes casi todos los días.
+      source: tatoeba:1740706
+    - text: Non ce la faccio.
+      es: No puedo hacerlo.
+      source: tatoeba:2001625
+- id: genere_divergente
+  code: ERR_GENDER_DIVERGENCE
+  tier: lexical
+  source: Italianamente (NotebookLM 2c06bfeb); Lancione 2025 (NotebookLM daedf2c6)
+  it:
+  - lemmas: gender_divergence
+  - regex: (?<!\bho )(?<!\bha )(?<!\bhai )(?<!\bhanno )(?<!\babbiamo )(?<!\bavete )(?<!\bavevo )(?<!\baveva )(?<!\bavevano )(?<!\babbia )\bpiant[oi]\b
+  examples:
+    positive:
+    - text: Il fiore è blu.
+      es: La flor es azul.
+      source: tatoeba:10060197
+    - text: L'ultima volta che aveva ricevuto dei fiori era poco più che una ragazzina.
+      es: La última vez que había recibido flores era poco más que una niña.
+      source: tatoeba:3234671
+    - text: Questo è un fiore?
+      es: ¿Esto es una flor?
+      source: tatoeba:1187342
+    - text: Questo fiore è bello, vero?
+      es: Esta flor es bonita, ¿no?
+      source: tatoeba:399972
+    negative:
+    - text: Guarda il gatto.
+      es: Mira al gato.
+      source: tatoeba:374220
+    - text: Hai letto il libro che ti ho regalato?
+      es: ¿Leíste el libro que te regalé?
+      source: tatoeba:682810
+    - text: Il gatto mi ha spaventato.
+      es: El gato me asustó.
+      source: tatoeba:1638178
+    - text: Dicono che non hanno pianto.
+      es: Dicen que no han llorado.
+      source: tatoeba:10802388
+    - text: Il film era così triste che tutti hanno pianto.
+      es: La película era tan triste que todos lloraron.
+      source: tatoeba:381874
+    - text: Ho pianto come un bambino quando il ragazzo e il suo cane si sono riuniti alla fine del film.
+      es: Lloré como un bebé cuando el niño y su perro se reencontraron al final de la película.
+      source: tatoeba:653710
+    - text: Le piante devono essere morte perché nessuno le ha annaffiate.
+      es: Las plantas se deben haber secado porque nadie las regó.
+      source: tatoeba:1012710
+    - text: Non dimenticare di annaffiare le piante.
+      es: Que no se te olvide regar las plantas.
+      source: tatoeba:2415617
+    - text: Dai l'acqua alle piante prima di fare colazione.
+      es: Riega las plantas antes de desayunar.
+      source: tatoeba:984718
+- id: eterotonica
+  code: ERR_HETEROTONIC
+  tier: lexical
+  source: NotebookLM 79103ab3 (Modelos pedagógicos, tablas de divergencias)
+  it:
+  - lemmas: heterotonic
+  examples:
+    positive:
+    - text: È in gioco la legittimità dei regimi democratici.
+      es: Está en juego la legitimidad de los regímenes democráticos.
+      source: tatoeba:979578
+    - text: L'obiettivo è ridurre la burocrazia.
+      es: El objetivo es reducir la burocracia.
+      source: tatoeba:979584
+    - text: Odio la burocrazia.
+      es: Odio la burocracia.
+      source: tatoeba:12922326
+    - text: Durante la Seconda Guerra Mondiale l'Europa era dominata dal regime hitleriano.
+      es: Durante la Segunda Guerra Mundial, Europa era dominada por el régimen hitleriano.
+      source: tatoeba:777529
+    negative:
+    - text: Il telefono è rotto.
+      es: El teléfono está roto.
+      source: tatoeba:890876
+    - text: La luce delle candele crea una piacevole atmosfera per una notte d'inverno.
+      es: La luz de las velas crea una agradable atmósfera para una noche de invierno.
+      source: tatoeba:3352818
+    - text: Tom ha spento il suo telefono cellulare.
+      es: Tom apagó su móvil.
+      source: tatoeba:10143389
+    - text: Nel mondo ci sono quattro oceani.
+      es: En el mundo hay cuatro océanos.
+      source: tatoeba:1015680
+    - text: Voglio andare in una regione dove c'è l'oceano.
+      es: Quiero ir a una región donde esté el océano.
+      source: tatoeba:10681671
+    - text: Sento già l'odore salato dell'oceano.
+      es: Ya huelo el salado olor del océano.
+      source: tatoeba:14034621
+    - text: L'oceano Atlantico separa l'America dall'Europa.
+      es: El Océano Atlántico separa a América de Europa.
+      source: tatoeba:377645
+    - text: Oggi è caldo, così possiamo fare il bagno nell'oceano.
+      es: Hoy está caluroso, entonces podemos nadar en el océano.
+      source: tatoeba:3343541
+- id: verbo_pronominale
+  code: ERR_PRONOMINAL_VERB
+  tier: lexical
+  source: 'Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f) #86-90'
+  it:
+  - lemmas: pronominal_verbs
+  - regex: \b(?:ce|me|te|se|ve)\s+la\s+(?:faccio|fai|fa|facciamo|fate|fanno|cavo|cavi|cava|caviamo|cavate|cavano|sento|senti|sente)\b|\b(?:me|te|se|ce|ve)\s+ne\s+(?:vado|vai|va|andiamo|andate|vanno)\b
+  examples:
+    positive:
+    - text: Non me la cavo con la matematica.
+      es: No se me dan bien las matemáticas.
+      source: tatoeba:10803857
+    - text: Vediamo se riusciamo a farcela senza alcun aiuto.
+      es: Veamos si podemos hacerlo sin ayuda.
+      source: tatoeba:4362499
+    - text: Non ce la faccio.
+      es: No puedo hacerlo.
+      source: tatoeba:2001625
+    negative:
+    - text: Mi sento in cima al mondo.
+      es: Me siento en la cima del mundo.
+      source: tatoeba:1865451
+    - text: Ha deciso di andare all'estero.
+      es: Decidió irse al extranjero.
+      source: tatoeba:6827476
+    - text: Io voglio andare all'estero l'anno prossimo.
+      es: Quiero viajar al exterior el próximo año.
+      source: tatoeba:4740023
+- id: preposizione_governo_fisso
+  code: ERR_PREP_FIXED_GOV
+  tier: lexical
+  source: 'Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f) #13,#14,#16'
+  it:
+  - regex: \bdipend(?:e|o|i|iamo|ete|ono|ere|endo)\s+(?:da|dal|dalla|dallo|dai|dagli|dalle|dall')|\bven(?:go|gono|ite|iamo|i|e)\s+(?:da|dal|dalla|dallo|dall')|\binteressat[oaie]\s+(?:a|al|alla|allo|ai|agli|alle|all')\b
+  examples:
+    positive:
+    - text: Tom dipende da Mary.
+      es: Tom depende de Mary.
+      source: tatoeba:1265972
+    - text: Io vengo dal Giappone.
+      es: Yo vengo de Japón.
+      source: tatoeba:836586
+    - text: Lei è interessata al Buddismo?
+      es: ¿Estás interesado en el budismo?
+      source: tatoeba:3277527
+    negative:
+    - text: Lei mi raccontò una storia interessante.
+      es: Me contó una historia interesante.
+      source: tatoeba:3237807
+    - text: Questo libro non è per nulla interessante.
+      es: Este libro no es nada interesante.
+      source: tatoeba:3050505
+    - text: Non era interessante.
+      es: No era interesante.
+      source: tatoeba:7554457
+- id: preposizione_luogo
+  code: ERR_PREP_PLACE
+  tier: lexical
+  source: 'Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f) #11,#12,#19; Lancione 2025 (NotebookLM daedf2c6)'
+  it:
+  - regex: \b(?:vivo|abito|vivi|abiti|vive|abita|viviamo|abitiamo|vivono|abitano|vado|vai|va|andiamo|andate|vanno|arrivo|arrivi|arriva|arriviamo|arrivate|arrivano)\s+(?:a|in)\s+(?:Roma|Milano|Napoli|Torino|Firenze|Venezia|Parigi|Londra|Madrid|Tokyo|Boston|Italia|Francia|Germania|Spagna|Giappone|Cina|America|Svizzera|Brasile|Argentina|Cile)\b
+  examples:
+    positive:
+    - text: Andiamo in Spagna?
+      es: ¿Vamos a España?
+      source: tatoeba:6722439
+    - text: Siamo arrivate a Londra ieri.
+      es: Llegamos a Londres ayer.
+      source: tatoeba:9071746
+    - text: Sono andate in America lo scorso mese.
+      es: Se fueron a Estados Unidos el mes pasado.
+      source: tatoeba:908547
+    negative:
+    - text: Vado a fare il bagno.
+      es: Voy a bañarme.
+      source: tatoeba:4619
+    - text: Io di solito vado a scuola in autobus.
+      es: Suelo ir al colegio en autobús.
+      source: tatoeba:2735721
+    - text: Vado a commettere il mio primo atto di vandalismo.
+      es: Voy a hacer mi primera gamberrada.
+      source: tatoeba:1332753
+- id: tener_ragione
+  code: ERR_TENERE_AVERE
+  tier: lexical
+  source: 'Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f) #62'
+  it:
+  - regex: \b(?:ho|hai|ha|abbiamo|avete|hanno|avevo|avevi|aveva|avevamo|avevate|avevano)\s+(?:ragione|torto)\b
+  examples:
+    positive:
+    - text: Anche tu avevi ragione.
+      es: También tenías razón.
+      source: tatoeba:3323286
+    - text: Forse hai ragione.
+      es: Puede que tengas razón.
+      source: tatoeba:390103
+    - text: Ovviamente lui ha torto.
+      es: Obviamente, él está equivocado.
+      source: tatoeba:1300997
+    negative:
+    - text: Conosco la vera ragione per la sua assenza.
+      es: Sé la verdadera razón por la que se ausenta.
+      source: tatoeba:845344
+    - text: Per quale ragione Tom è così infelice?
+      es: ¿Por qué es Tom tan infeliz?
+      source: tatoeba:3322830
+    - text: Quella è la ragione più importante.
+      es: Esa es la razón más importante.
+      source: tatoeba:5014036
+- id: mancare
+  code: ERR_MANCARE
+  tier: lexical
+  source: 'Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f) #29'
+  it:
+  - regex: \b(?:mi|ti|ci|vi)\s+manc(?:a|ano|hi|o|hiamo|ate|ava|avano|herà)\b|\b(?:gli|le)\s+manc\w+\s+(?:molto|tanto|così tanto|la sua|il suo|i suoi|le sue)\b
+  examples:
+    positive:
+    - text: Mi manchi tanto, amore!
+      es: ¡Te extraño mucho, amor!
+      source: tatoeba:3239425
+    - text: Mi manca l'estate!
+      es: ¡Extraño el verano!
+      source: tatoeba:1362615
+    - text: Parigi mi manca così tanto.
+      es: Extraño tanto París.
+      source: tatoeba:3151866
+    - text: So che ti mancano i tuoi amici.
+      es: Sé que echas de menos a tus amigos.
+      source: tatoeba:9437957
+    negative:
+    - text: In questo libro mancano due pagine.
+      es: En este libro faltan dos páginas.
+      source: tatoeba:381204
+    - text: In questa insalata di patate mancano delle uova bollite.
+      es: Le falta huevo duro a esta ensalada rusa.
+      source: tatoeba:5402342
+    - text: Manca un coltello.
+      es: Falta un cuchillo.
+      source: tatoeba:476259
+    - text: Le manca esperienza, no?
+      es: ¿Le falta experiencia, no?
+      source: tatoeba:1330585
+    - text: Per essere perfetta le mancava solo un difetto.
+      es: Para ser perfecta sólo le faltaba un defecto.
+      source: tatoeba:4413
+    - text: Gli manca la disciplina.
+      es: Le hace falta disciplina.
+      source: tatoeba:646997
+- id: geminata_pares_minimos
+  code: ERR_GEMINATE
+  tier: lexical
+  source: NotebookLM 79103ab3 (Modelos pedagógicos, tablas de divergencias); LearnAmo «Sonidos difíciles» (NotebookLM 7bb78aa1); Pandolfi 2026 (NotebookLM 88ea1c0a, solo resumen)
+  it:
+  - lemmas: geminate_pairs
+  examples:
+    positive:
+    - text: Dov'è la pala?
+      es: ¿Dónde está la pala?
+      source: tatoeba:13383820
+    - text: Per favore, paga alla cassa.
+      es: Pague en la caja, por favor.
+      source: tatoeba:1871486
+    - text: Mio nonno è un operaio instancabile.
+      es: Mi abuelo es un trabajador incansable.
+      source: tatoeba:1000571
+    negative:
+    - text: Io devo raggiungere casa.
+      es: Debo ir a casa.
+      source: tatoeba:2020180
+    - text: Ero a casa fino a mezzogiorno ieri.
+      es: Ayer yo llegué a mi casa al mediodía.
+      source: tatoeba:2611914
+    - text: Si sente a suo agio a casa loro.
+      es: Se siente cómoda en su casa.
+      source: tatoeba:13979082

@@ -19,7 +19,8 @@ Convertir Tatoeba en un banco de oraciones ita↔spa con nivel CEFR estimado y c
 - Largo (palabras): mediana 5, p90 9; ≤8 palabras: 16.290 (87%). Cubre A1–A2; B1–B2 casi no existe en directos.
 - Autoría: 11.136 de 18.688 (60%) de un solo usuario; ninguna sin autor; 0 textos duplicados; 158 con dígitos; 7 sin puntuación final.
 - El export por idioma **no trae licencia por oración** (de ahí la regla CC BY 2.0 FR para todas).
-- Desconocido hasta la etapa 2: cuántos pares aporta el pivote. Si el rendimiento es bajo o el ruido alto, se revisa esta decisión con datos.
+- **Pivote medido (2026-11-12, `links.tar.bz2` + ids de `eng_sentences.tsv.bz2`, 105 s):** 251.148 pares pivote; **184.028 oraciones italianas nuevas** que no tenían traducción directa (202.716 oraciones italianas con algún par en total). Las nuevas siguen siendo cortas: mediana 5 palabras, p90 8; 17.863 tienen más de 8 palabras, 3.319 más de 12 y 1.392 más de 16. Volumen suficiente para B1 (8–16 palabras); para B2 largo habrá pocas, y la calidad de las traducciones por pivote (no medida aún) se mide en la revisión de 200.
+- Para identificar el inglés se necesitó además `eng_sentences.tsv.bz2` (25 MB): `links.tar.bz2` no trae idioma por oración.
 
 ## Flujo (7 etapas, cada una un comando idempotente)
 `work.db` (SQLite, ignorada por git) guarda el estado intermedio; el resultado de revisión se promueve a la base de autoría de la Fase 1 (`sentences`, `reviews`).

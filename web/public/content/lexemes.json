@@ -1,0 +1,226 @@
+[
+  {
+    "form": "aceto",
+    "gloss_es": "vinagre",
+    "id": "lx_aceto",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "allora",
+    "gloss_es": "entonces",
+    "id": "lx_allora",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "asilo",
+    "gloss_es": "guardería",
+    "id": "lx_asilo",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "burro",
+    "gloss_es": "mantequilla",
+    "id": "lx_burro",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "calda",
+    "gloss_es": "caliente",
+    "id": "lx_calda",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "caldi",
+    "gloss_es": "calientes",
+    "id": "lx_caldi",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "caldo",
+    "gloss_es": "caliente",
+    "id": "lx_caldo",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "carta",
+    "gloss_es": "papel",
+    "id": "lx_carta",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "carte",
+    "gloss_es": "papeles",
+    "id": "lx_carte",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "gamba",
+    "gloss_es": "pierna",
+    "id": "lx_gamba",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "gambe",
+    "gloss_es": "piernas",
+    "id": "lx_gambe",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "guardare",
+    "gloss_es": "mirar",
+    "id": "lx_guardare",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "imbarazzata",
+    "gloss_es": "avergonzada",
+    "id": "lx_imbarazzata",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "imbarazzato",
+    "gloss_es": "avergonzado",
+    "id": "lx_imbarazzato",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "larga",
+    "gloss_es": "ancha",
+    "id": "lx_larga",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "larghe",
+    "gloss_es": "anchas",
+    "id": "lx_larghe",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "larghi",
+    "gloss_es": "anchos",
+    "id": "lx_larghi",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "largo",
+    "gloss_es": "ancho",
+    "id": "lx_largo",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "officina",
+    "gloss_es": "taller",
+    "id": "lx_officina",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "officine",
+    "gloss_es": "talleres",
+    "id": "lx_officine",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "pretende",
+    "gloss_es": "exige",
+    "id": "lx_pretende",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "pretendere",
+    "gloss_es": "exigir",
+    "id": "lx_pretendere",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "pretendo",
+    "gloss_es": "exijo",
+    "id": "lx_pretendo",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "pronta",
+    "gloss_es": "lista",
+    "id": "lx_pronta",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "pronti",
+    "gloss_es": "listos",
+    "id": "lx_pronti",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "pronto",
+    "gloss_es": "listo",
+    "id": "lx_pronto",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "ritardato",
+    "gloss_es": "retrasado mental (ofensivo)",
+    "id": "lx_ritardato",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "salgo",
+    "gloss_es": "subo",
+    "id": "lx_salgo",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "salgono",
+    "gloss_es": "suben",
+    "id": "lx_salgono",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "salire",
+    "gloss_es": "subir",
+    "id": "lx_salire",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "spalla",
+    "gloss_es": "hombro",
+    "id": "lx_spalla",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  },
+  {
+    "form": "spalle",
+    "gloss_es": "hombros",
+    "id": "lx_spalle",
+    "lexical_type": "false_friend",
+    "source": "Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)"
+  }
+]

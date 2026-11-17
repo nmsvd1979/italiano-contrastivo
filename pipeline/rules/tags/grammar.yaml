@@ -1,0 +1,1177 @@
+- id: aux_essere_movimento
+  code: ERR_AUX_ESSERE
+  tier: grammar
+  it:
+  - regex: \b(?:sono|sei|è|siamo|siete|ero|eri|era|eravamo|eravate|erano|sarò|sarai|sarà|saremo|sarete|saranno|sarei|saresti|sarebbe|saremmo|sareste|sarebbero|fui|fu|fummo|furono)\s+(?:(?:non|già|appena|mai|sempre|ancora|poi|più|subito|spesso|quasi)\s+)?(?:andat|venut|partit|arrivat|tornat|ritornat|uscit|entrat|salit|scesi|scend|cadut|nat|mort|rimast|diventat|stat|successo|cresciut|piaciut|costat|riuscit|sparit|fuggit|passat)[oaie]\b
+  examples:
+    positive:
+    - text: È andata a fare acquisti.
+      es: Ella fue de compras.
+      source: tatoeba:2991318
+    - text: Il tuo cane è nato quest'anno.
+      es: Tu perro nació este año.
+      source: tatoeba:1272066
+    - text: Sono entrate.
+      es: Entraron.
+      source: tatoeba:5717481
+    negative:
+    - text: Mi hai beccato.
+      es: Me has pescado.
+      source: tatoeba:3356709
+    - text: Ha cominciato a imparare l'esperanto.
+      es: Él ha comenzado a aprender el Esperanto.
+      source: tatoeba:1097835
+    - text: Abbiamo imparato un sacco di cose!
+      es: ¡Hemos aprendido un montón de cosas!
+      source: tatoeba:2825610
+- id: participio_concuerda_con_essere
+  code: ERR_PARTICIPLE_AGREEMENT
+  tier: grammar
+  it:
+  - regex: \b(?:sono|sei|è|siamo|siete|ero|eri|era|eravamo|eravate|erano|sarò|sarai|sarà|saremo|sarete|saranno|sarei|saresti|sarebbe|saremmo|sareste|sarebbero|fui|fu|fummo|furono)\s+(?:(?:non|già|appena|mai|sempre|ancora|poi|più|subito|spesso|quasi)\s+)?(?:andat|venut|partit|arrivat|tornat|ritornat|uscit|entrat|salit|scesi|scend|cadut|nat|mort|rimast|diventat|stat|successo|cresciut|piaciut|costat|riuscit|sparit|fuggit|passat|\w+[ai]t|\w+[ui]t)[aei]\b
+  examples:
+    positive:
+    - text: La giuria era stata imparziale.
+      es: El jurado fue imparcial.
+      source: tatoeba:3348646
+    - text: Mi siete mancate.
+      es: Te eché de menos.
+      source: tatoeba:2180670
+    - text: Quanto lontano siete andate?
+      es: ¿Hasta dónde llegaste?
+      source: tatoeba:6482717
+    negative:
+    - text: Ieri sono andato a pescare al fiume.
+      es: Fui a pescar al río ayer.
+      source: tatoeba:503315
+    - text: Sono andato allo zoo.
+      es: Fui al zoológico.
+      source: tatoeba:632259
+    - text: Sono andato a camminare al parco.
+      es: Fui al parque a darme un paseo.
+      source: tatoeba:1648187
+- id: participio_concuerda_con_clitico
+  code: ERR_PARTICIPLE_AGREEMENT_CLITIC
+  tier: grammar
+  it:
+  - regex: \b(?:lo|la|li|le|l'|ne)\s*(?:ho|hai|ha|abbiamo|avete|hanno|avevo|avevi|aveva|avevamo|avevate|avevano|avrò|avrai|avrà|avremo|avrete|avranno|avrei|avresti|avrebbe|avremmo|avreste|avrebbero)\s+(?:(?:non|già|appena|mai|sempre|ancora|poi|più|subito|spesso|quasi)\s+)?\w+(?:t|s)[aei]\b
+  examples:
+    positive:
+    - text: Le ho viste oggi.
+      es: Los he visto hoy.
+      source: tatoeba:5723048
+    - text: Perché l'ha lasciata da sola?
+      es: ¿Por qué la dejaste sola?
+      source: tatoeba:5677971
+    - text: L'abbiamo studiata approfonditamente.
+      es: Lo estudiamos a fondo.
+      source: tatoeba:3108073
+    negative:
+    - text: Non ho visto il film e non voglio farlo.
+      es: No he visto la película ni quiero hacerlo.
+      source: tatoeba:1447225
+    - text: Non ha visto nessuno.
+      es: No ha visto a nadie.
+      source: tatoeba:375386
+    - text: Per cena ho mangiato solo un po' di frutta.
+      es: Para cenar sólo tomé un poco de fruta.
+      source: tatoeba:9440740
+- id: avere_con_verbo_inergativo
+  code: ERR_AUX_OVERGENERALIZATION
+  tier: grammar
+  it:
+  - regex: \b(?:ho|hai|ha|abbiamo|avete|hanno|avevo|avevi|aveva|avevamo|avevate|avevano|avrò|avrai|avrà|avremo|avrete|avranno|avrei|avresti|avrebbe|avremmo|avreste|avrebbero)\s+(?:(?:non|già|appena|mai|sempre|ancora|poi|più|subito|spesso|quasi)\s+)?(?:camminat|dormit|lavorat|viaggiat|nuotat|passeggiat|corso)[oaie]?\b
+  examples:
+    positive:
+    - text: Per quanto tempo hai lavorato a Boston?
+      es: ¿Por cuánto tiempo has trabajado en Boston?
+      source: tatoeba:3696356
+    - text: Non hanno viaggiato con loro a Werga.
+      es: No viajaron con ellos a Werga.
+      source: tatoeba:14000525
+    - text: Lei ha dormito bene?
+      es: ¿Has dormido bien?
+      source: tatoeba:2941986
+    - text: Lui ha viaggiato a bordo di un treno speciale.
+      es: Viajó en un tren especial.
+      source: tatoeba:3984992
+    - text: Ha mai nuotato in questo lago?
+      es: ¿Ha nadado alguna vez en este lago?
+      source: tatoeba:8161467
+    negative:
+    - text: Tom è andato a fare la spesa con Mary lo scorso fine settimana.
+      es: Tom fue de compras con Mary el fin de semana.
+      source: tatoeba:3354707
+    - text: Sono arrivato alla stazione stamattina.
+      es: Llegué a la estación esta mañana.
+      source: tatoeba:5135149
+    - text: È andato a casa tre ore dopo.
+      es: Se fue a casa tres horas después.
+      source: tatoeba:1517011
+    - text: Il film era così triste che tutti hanno pianto.
+      es: La película era tan triste que todos lloraron.
+      source: tatoeba:381874
+    - text: Tom non ne ha parlato con nessuno.
+      es: Tom no ha hablado de ello con nadie.
+      source: tatoeba:6047086
+    - text: Ho pianto come un bambino quando il ragazzo e il suo cane si sono riuniti alla fine del film.
+      es: Lloré como un bebé cuando el niño y su perro se reencontraron al final de la película.
+      source: tatoeba:653710
+    - text: Ne ho appena parlato con loro.
+      es: Acabo de hablar con ellos de eso.
+      source: tatoeba:7739847
+- id: riflessivo_con_essere
+  code: ERR_REFLEXIVE_AUX
+  tier: grammar
+  it:
+  - regex: \b(?:mi|ti|si|vi)\s+(?:sono|sei|è|siamo|siete|ero|eri|era|eravamo|eravate|erano|sarò|sarai|sarà|saremo|sarete|saranno|sarei|saresti|sarebbe|saremmo|sareste|sarebbero|fui|fu|fummo|furono)\s+(?:(?:non|già|appena|mai|sempre|ancora|poi|più|subito|spesso|quasi)\s+)?(?!stat[oaie]\b)(?!piaciut|mancat|sembrat|capitat|bastat|servit|volut)\w+(?:at|ut|it)[oaie]\b|\bci\s+(?:siamo|eravamo|saremo|saremmo|fummo)\s+(?:(?:non|già|appena|mai|sempre|ancora|poi|più|subito|spesso|quasi)\s+)?(?!stat[oaie]\b)(?!piaciut|mancat|sembrat|capitat|bastat|servit|volut)\w+(?:at|ut|it)[oaie]\b
+  examples:
+    positive:
+    - text: Tom si è dimenticato.
+      es: A Tom se le olvidó.
+      source: tatoeba:2191175
+    - text: Lui si è innamorato di una donna più giovane.
+      es: Se enamoró de una mujer más joven.
+      source: tatoeba:3683231
+    - text: Vi siete divertiti?
+      es: ¿Lo pasasteis bien?
+      source: tatoeba:2004952
+    negative:
+    - text: Quante mele ci sono?
+      es: ¿Cuántas manzanas hay?
+      source: tatoeba:1254517
+    - text: Io ho affrontato il campione.
+      es: Me enfrenté al campeón.
+      source: tatoeba:1653863
+    - text: Io ho studiato inglese per cinque anni.
+      es: He estudiado inglés durante cinco años.
+      source: tatoeba:375227
+    - text: Ci sono stati molti colpi di scena nella storia, ma finalmente abbiamo risolto il problema.
+      es: Hubo muchos vuelcos y giros a la historia, pero finalmente resolvimos el problema.
+      source: tatoeba:1851309
+    - text: Di recente, ci sono stati segnali che l'economia sta riprendendo vigore.
+      es: Recientemente, ha habido señales de que la economía está tomando vuelo.
+      source: tatoeba:2003332
+    - text: Mi è piaciuta la tua idea e l'ho adottata.
+      es: Me gustó tu idea y la adopté.
+      source: tatoeba:2143646
+    - text: '"Sei mai stata a New York?" "Sì, ci sono stata un paio di volte."'
+      es: '"¿Estuviste alguna vez en Nueva York?" "Si, estuve allí un par de veces."'
+      source: tatoeba:2148295
+    - text: '"È mai stata a New York?" "Sì, ci sono stata un paio di volte."'
+      es: '"¿Estuviste alguna vez en Nueva York?" "Si, estuve allí un par de veces."'
+      source: tatoeba:2148297
+    - text: Questo mese ci sono stati due omicidi.
+      es: Hubo dos asesinatos este mes.
+      source: tatoeba:2198710
+    - text: Le ci sono voluti sei anni per trovare il coraggio di dirgli che non le piaceva più.
+      es: Le tomó seis años reunir el coraje para decirle que ya no le gustaba.
+      source: tatoeba:3713296
+    - text: I miei genitori sono andati in casa, ma io non ci sono andato.
+      es: Mis padres fueron a la iglesia, pero yo no fui.
+      source: tatoeba:6143262
+    - text: I miei genitori sono andati in casa, ma io non ci sono andata.
+      es: Mis padres fueron a la iglesia, pero yo no fui.
+      source: tatoeba:6143264
+    - text: I miei genitori sono andati in casa, però io non ci sono andato.
+      es: Mis padres fueron a la iglesia, pero yo no fui.
+      source: tatoeba:6143265
+- id: pronomi_combinati
+  code: ERR_CLITIC_COMBINED
+  tier: grammar
+  it:
+  - regex: \b(?:glie(?:lo|la|li|le|ne)|(?:me|te|ve)\s+(?:lo|la|li|le))\b
+  examples:
+    positive:
+    - text: Me lo hai già chiesto tre volte.
+      es: Me lo has preguntado ya tres veces.
+      source: tatoeba:5338900
+    - text: Dicono che se te lo sgrulli più di tre volte stai facendo un'altra cosa.
+      es: Dicen que si te lo sacudes más de tres veces estás haciendo otra cosa.
+      source: tatoeba:4045519
+    - text: Glielo darò domani.
+      es: Se lo daré mañana.
+      source: tatoeba:844334
+    - text: Te la sto dando gratuitamente.
+      es: Te lo doy gratis.
+      source: tatoeba:4649388
+    negative:
+    - text: Io non lo vedo da molto tempo.
+      es: Hace mucho tiempo que no lo veo.
+      source: tatoeba:2851744
+    - text: Non mi piace più il Natale.
+      es: Ya no me gusta la Navidad.
+      source: tatoeba:4684722
+    - text: Mi piace come sorridi.
+      es: Me gusta cómo sonríes.
+      source: tatoeba:600303
+    - text: Dentro ogni uomo ce ne sono migliaia.
+      es: Dentro de cada hombre hay miles.
+      source: tatoeba:12337626
+    - text: Ce ne andiamo dal Giappone il mese prossimo.
+      es: Nos vamos de Japón el mes próximo.
+      source: tatoeba:12899533
+    - text: Per me è finita con le feste, il mio corpo malato non ce la fa più.
+      es: Se terminaron para mí todas las farras, mi cuerpo enfermo no resiste más.
+      source: tatoeba:13694648
+    - text: Che ora sarebbe quando ce ne andiamo dal ristorante?
+      es: ¿Qué hora sería cuando salimos del restaurante?
+      source: tatoeba:1839408
+    - text: Me ne hanno parlato e l'ho dimenticato; l'ho visto e l'ho capito; l'ho fatto e l'ho imparato.
+      es: Me lo contaron y lo olvidé; lo vi y lo entendí; lo hice y lo aprendí.
+      source: tatoeba:10582587
+    - text: Non ce ne frega un cazzo.
+      es: No nos importa un carajo.
+      source: tatoeba:2795896
+- id: ci_locativo
+  code: ERR_CLITIC_CI
+  tier: grammar
+  it:
+  - regex: \bci\s+(?:vado|vai|va|andiamo|andate|vanno|penso|pensi|pensa|pensiamo|pensate|pensano|credo|crede|metto|mette|torno|tornano|resto|resta|rimane|rimango)\b|\b(?:andarci|pensarci|crederci|starci|metterci|tornarci|restarci)\b|\bci\s+(?:sono\s+(?:(?:già|mai)\s+)?(?:stat[oa]|andat[oaie])|(?:siamo|siete|sei|è)\s+(?:(?:già|mai)\s+)?(?:stat[oaie]|andat[oaie]))\b
+  examples:
+    positive:
+    - text: Credo che dovremmo andarci.
+      es: Creo que deberíamos ir allí.
+      source: tatoeba:2305628
+    - text: Vai a scuola a piedi o ci vai in bicicletta?
+      es: ¿Vas a la escuela caminando o en bicicleta?
+      source: tatoeba:1912825
+    - text: Non pensarci neanche a mangiare la mia cioccolata!
+      es: ¡Ni siquiera pienses en comerte mi chocolate!
+      source: tatoeba:724343
+    negative:
+    - text: Non ci sono limiti.
+      es: No hay límite.
+      source: tatoeba:2523791
+    - text: Ci siamo divertiti.
+      es: Nos divertimos.
+      source: tatoeba:3345480
+    - text: In Giappone ci sono quattro stagioni.
+      es: En Japón hay cuatro estaciones.
+      source: tatoeba:969345
+    - text: Ci sono stati molti colpi di scena nella storia, ma finalmente abbiamo risolto il problema.
+      es: Hubo muchos vuelcos y giros a la historia, pero finalmente resolvimos el problema.
+      source: tatoeba:1851309
+    - text: Di recente, ci sono stati segnali che l'economia sta riprendendo vigore.
+      es: Recientemente, ha habido señales de que la economía está tomando vuelo.
+      source: tatoeba:2003332
+    - text: Questo mese ci sono stati due omicidi.
+      es: Hubo dos asesinatos este mes.
+      source: tatoeba:2198710
+    - text: Ci sono stati molti omicidi l'anno scorso.
+      es: Hubo muchos homicidios el año pasado.
+      source: tatoeba:2454976
+- id: ne_pronome
+  code: ERR_CLITIC_NE
+  tier: grammar
+  it:
+  - regex: (?<!\bse )(?<!\bce )(?<!\bme )(?<!\bte )(?<!\bve )(?<!\bsi )(?<!\bmi )(?<!\bti )(?<!\bci )(?<!\bvi )\bne\s+(?:\w+\s+){1,2}?(?:un|uno|una|due|tre|quattro|cinque|alcuni|alcune|molti|molte|tanti|tante|tantissimi|tantissime|poco|poca|pochi|poche|abbastanza|troppo|troppi|tutti|tutte|nessuno|nessuna|parecchi|parecchie)\b
+  - regex: (?<!\bse )(?<!\bce )(?<!\bme )(?<!\bte )(?<!\bve )(?<!\bsi )(?<!\bmi )(?<!\bti )(?<!\bci )(?<!\bvi )\bne\s+(?:ho|hai|ha|abbiamo|avete|hanno)\s+(?:(?:già|mai|appena)\s+)?\w+(?:t|s)[aei]\b
+  examples:
+    positive:
+    - text: Ne ho vista una oggi.
+      es: Hoy vi uno.
+      source: tatoeba:6776227
+    - text: Ne abbiamo un sacco.
+      es: Tenemos bastante.
+      source: tatoeba:6551096
+    - text: Ne ho mangiato uno.
+      es: Me comí uno.
+      source: tatoeba:4204715
+    - text: Ne comprerò uno.
+      es: Voy a comprar uno.
+      source: tatoeba:4527444
+    negative:
+    - text: Quanti piani ha questo edificio?
+      es: ¿Cuántos pisos tiene este edificio?
+      source: tatoeba:1534880
+    - text: Io ho tre cugini.
+      es: Tengo tres primos.
+      source: tatoeba:1307429
+    - text: Non ci sono vie d'uscita.
+      es: No hay salida.
+      source: tatoeba:3542330
+    - text: Ne hai parlato con un avvocato?
+      es: ¿Has hablado de ello con un abogado?
+      source: tatoeba:10819800
+    - text: Cosa ne dici di uscire a fare una passeggiata dopo cena?
+      es: ¿Qué te parece dar un paseo después de cenar?
+      source: tatoeba:2506978
+    - text: Cosa ne dice di uscire a fare una passeggiata dopo cena?
+      es: ¿Qué te parece dar un paseo después de cenar?
+      source: tatoeba:2506980
+    - text: Cosa ne dite di uscire a fare una passeggiata dopo cena?
+      es: ¿Qué te parece dar un paseo después de cenar?
+      source: tatoeba:2506981
+    - text: Tom non ne ha parlato con nessuno.
+      es: Tom no ha hablado de ello con nadie.
+      source: tatoeba:6047086
+    - text: Ne ho appena parlato con loro.
+      es: Acabo de hablar con ellos de eso.
+      source: tatoeba:7739847
+- id: ce_ne
+  code: ERR_CLITIC_CE_NE
+  tier: grammar
+  it:
+  - regex: \bce\s+ne\b|\bce\s+n'
+  examples:
+    positive:
+    - text: Ce ne sono più fuori che dentro.
+      es: Hay más fuera que dentro.
+      source: tatoeba:6587148
+    - text: Ce ne andiamo domani pomeriggio.
+      es: Partimos mañana por la tarde.
+      source: tatoeba:5528254
+    - text: Noi ce ne andiamo da Boston domani mattina.
+      es: Nos vamos de Boston mañana por la mañana.
+      source: tatoeba:4612450
+    negative:
+    - text: Non ci sono differenze.
+      es: No hay diferencia.
+      source: tatoeba:2523778
+    - text: Ci sono molti strumenti nella scatola.
+      es: Hay muchas herramientas en la caja.
+      source: tatoeba:3696208
+    - text: Ci sono molti libri in biblioteca.
+      es: Hay muchos libros en la biblioteca.
+      source: tatoeba:1260543
+- id: clitico_diretto_indiretto
+  code: ERR_CLITIC_DIRECT_INDIRECT
+  tier: grammar
+  it:
+  - matcher:
+    - LOWER:
+        IN:
+        - lo
+        - la
+        - li
+        - gli
+        - le
+      POS: PRON
+    - POS:
+        IN:
+        - VERB
+        - AUX
+  examples:
+    positive:
+    - text: Dato che lo vedrò domani, posso dargli un messaggio se vuoi.
+      es: Ya que lo voy a ver mañana, le puedo dar un mensaje si tú quieres.
+      source: tatoeba:6687519
+    - text: Quando li ha visti per la prima volta?
+      es: ¿Cuándo los vio por primera vez?
+      source: tatoeba:1213071
+    - text: Gli manca la disciplina.
+      es: Le hace falta disciplina.
+      source: tatoeba:646997
+    negative:
+    - text: La casa che Tom ha costruito è meravigliosa.
+      es: La casa que Tom construyó es maravillosa.
+      source: tatoeba:1064165
+    - text: Non mi piace bere caffè.
+      es: No me gusta beber café.
+      source: tatoeba:1002997
+    - text: Mi piace il cibo egiziano.
+      es: Me gusta la comida egipcia.
+      source: tatoeba:999974
+- id: pronome_indiretto_genere
+  code: ERR_INDIRECT_PRONOUN_GENDER
+  tier: grammar
+  it:
+  - matcher:
+    - LOWER:
+        IN:
+        - gli
+        - le
+      POS: PRON
+    - POS:
+        IN:
+        - VERB
+        - AUX
+  examples:
+    positive:
+    - text: Gli manca la disciplina.
+      es: Le hace falta disciplina.
+      source: tatoeba:646997
+    - text: Mi ha detto che le piaceva la mia idea.
+      es: Me dijo que le gustaba mi idea.
+      source: tatoeba:8409122
+    - text: Mary mi disse che le piaceva questo tipo di musica.
+      es: Mary me dijo que le gustaba este tipo de música.
+      source: tatoeba:13019680
+    - text: Gli piace l'avventura.
+      es: Le gustan las aventuras.
+      source: tatoeba:4637175
+    - text: Gli ho fatto accettare il mio aiuto.
+      es: Le hice aceptar mi ayuda.
+      source: tatoeba:620980
+    negative:
+    - text: Mi piacciono gli animali, ad esempio i gatti e i cani.
+      es: Me gustan los animales, por ejemplo, los gatos y perros.
+      source: tatoeba:380354
+    - text: Gli uomini hanno fame.
+      es: Los hombres tienen hambre.
+      source: tatoeba:3564495
+    - text: Gli animali sono tenuti in gabbie molto piccole.
+      es: Dejan a los animales en jaulas muy pequeñas.
+      source: tatoeba:4928010
+    - text: Se le cose non le capisci da solo, la vita te le insegna.
+      es: Si no entendés las cosas por tu cuenta, la vida te las enseña.
+      source: tatoeba:1000808
+    - text: Le piante devono essere morte perché nessuno le ha annaffiate.
+      es: Las plantas se deben haber secado porque nadie las regó.
+      source: tatoeba:1012710
+    - text: Ho tagliato le cipolle e le ho messe in una casseruola con burro e olio.
+      es: Piqué las cebollas y las puse en una cacerola con mantequilla y aceite.
+      source: tatoeba:2022155
+    - text: Non preoccuparti, non le ho comprate.
+      es: No te preocupes, no los he comprado.
+      source: tatoeba:2788432
+  es:
+  - regex: \b(?:le|les)\b
+- id: duplicazione_pronominale
+  code: ERR_CLITIC_DOUBLING
+  tier: grammar
+  it:
+  - regex: \ba\s+(?:me|te|lui|lei|noi|voi|loro)\b
+  es:
+  - regex: \ba\s+(?:mí|ti|él|ella|usted|ustedes|nosotros|nosotras|vosotros|vosotras|ellos|ellas)\s+(?:no\s+)?(?:me|te|le|nos|os|les|se)\b
+  examples:
+    positive:
+    - text: A lui piace guardare la TV.
+      es: A él le gusta ver televisión.
+      source: tatoeba:4800777
+    - text: A lei non piace il calcio.
+      es: A ella no le gusta el fútbol.
+      source: tatoeba:691678
+    - text: A loro piace pescare, vero?
+      es: A ellos les gusta pescar, ¿verdad?
+      source: tatoeba:9222663
+    negative:
+    - text: Mi piace il formaggio.
+      es: Me gusta el queso.
+      source: tatoeba:5840599
+    - text: Non mi piace molto il caffè.
+      es: No me gusta mucho el café.
+      source: tatoeba:529382
+    - text: A me piacerebbe essere cinese.
+      es: Me gustaría ser chino.
+      source: tatoeba:4489845
+- id: congiuntivo_dopo_opinione
+  code: ERR_CONGIUNTIVO_OPINION
+  tier: grammar
+  it:
+  - matcher:
+    - LOWER:
+        IN:
+        - credo
+        - crede
+        - credi
+        - crediamo
+        - credete
+        - credono
+        - penso
+        - pensi
+        - pensa
+        - pensiamo
+        - pensate
+        - pensano
+        - ritengo
+        - ritiene
+        - immagino
+        - suppongo
+        - ritieni
+    - LOWER: che
+    - OP: '{0,3}'
+    - &id001
+      MORPH:
+        IS_SUPERSET:
+        - Mood=Sub
+  examples:
+    positive:
+    - text: Penso che sia impossibile per noi sconfiggere Tom.
+      es: Pienso que es imposible para nosotros vencer a Tom.
+      source: tatoeba:10461739
+    - text: Penso che lei sia l'unica a cui importa.
+      es: Creo que usted es la única a la que le importa.
+      source: tatoeba:2459056
+    - text: Penso che voi stiate facendo un errore.
+      es: Creo que estás cometiendo un error.
+      source: tatoeba:2789000
+    negative:
+    - text: Penso di essere sbronzo.
+      es: Creo que estoy borracho.
+      source: tatoeba:3950297
+    - text: Penso di aver fatto un grosso errore.
+      es: Creo que he cometido un gran error.
+      source: tatoeba:2477571
+    - text: Penso di aver capito.
+      es: Yo creo que comprendí.
+      source: tatoeba:335156
+- id: congiuntivo_concessiva
+  code: ERR_CONGIUNTIVO_CONCESSIVE
+  tier: grammar
+  it:
+  - matcher:
+    - LOWER:
+        IN:
+        - sebbene
+        - benché
+        - benche
+        - nonostante
+        - malgrado
+    - OP: '{0,5}'
+    - *id001
+  examples:
+    positive:
+    - text: Benché sia giovane, è un ottimo medico.
+      es: Pese a ser joven, es un médico notable.
+      source: tatoeba:2055834
+    - text: Nonostante sia giovane è molto attento.
+      es: Pese a ser joven, es muy atento.
+      source: tatoeba:4652738
+    - text: Sebbene le battute di Mary siano molto creative, non hanno grazia.
+      es: Aunque los chistes de Mary son muy creativos, no tienen gracia.
+      source: tatoeba:11706853
+    negative:
+    - text: Ha iniziato nonostante la pioggia.
+      es: Empezó a pesar de la lluvia.
+      source: tatoeba:2800920
+    - text: La vittoria è possibile, benché poco probabile.
+      es: La victoria es posible, aunque poco probable.
+      source: tatoeba:1310191
+    - text: Nonostante la sua età, egli è in salute e attivo.
+      es: A pesar de su edad, él es sano y activo.
+      source: tatoeba:5873705
+- id: congiuntivo_impersonale
+  code: ERR_CONGIUNTIVO_IMPERSONAL
+  tier: grammar
+  it:
+  - matcher:
+    - LOWER:
+        IN:
+        - sembra
+        - pare
+        - sembrava
+        - pareva
+        - sembrerebbe
+    - LOWER: che
+    - OP: '{0,3}'
+    - *id001
+  - matcher:
+    - LOWER: è
+    - LOWER:
+        IN:
+        - possibile
+        - probabile
+        - necessario
+        - importante
+        - meglio
+        - strano
+        - giusto
+    - LOWER: che
+    - OP: '{0,3}'
+    - *id001
+  examples:
+    positive:
+    - text: Sembra che sia successo qualcosa.
+      es: Parece que ha ocurrido algo.
+      source: tatoeba:1271110
+    - text: Sembra che abbia torto.
+      es: Parece que él está equivocado.
+      source: tatoeba:9706381
+    - text: Sembra che ci sia sempre qualcosa da fare.
+      es: Parece que siempre hay algo para hacer.
+      source: tatoeba:1561435
+    negative:
+    - text: Sembra favolosa!
+      es: Te ves impresionante.
+      source: tatoeba:1438342
+    - text: Non sembra molto forte.
+      es: No pareces muy fuerte.
+      source: tatoeba:6464053
+    - text: Lo so che sembra sciocco.
+      es: Sé que suena tonto.
+      source: tatoeba:4230220
+- id: congiuntivo_superlativo
+  code: ERR_CONGIUNTIVO_SUPERLATIVE
+  tier: grammar
+  it:
+  - matcher:
+    - LOWER:
+        IN:
+        - il
+        - la
+        - lo
+        - i
+        - le
+        - gli
+        - delle
+        - dei
+        - degli
+        - dello
+        - della
+        - uno
+        - una
+    - OP: '{0,3}'
+    - LOWER:
+        IN:
+        - più
+        - meno
+    - OP: '{0,3}'
+    - LOWER: che
+    - OP: '{0,3}'
+    - MORPH:
+        IS_SUPERSET:
+        - Mood=Sub
+  examples:
+    positive:
+    - text: Sei la più bella donna che io abbia mai visto.
+      es: Eres la chica más guapa que he visto en mi vida.
+      source: tatoeba:5913131
+    - text: È la cosa più stupida che abbia mai detto.
+      es: Es la cosa más estúpida que he dicho nunca.
+      source: tatoeba:384904
+    - text: Sei una delle persone più intelligenti che io conosca.
+      es: Eres una de las personas más listas que conozco.
+      source: tatoeba:11370562
+    negative:
+    - text: Corri più veloce che puoi.
+      es: Corre lo más rápido que puedas.
+      source: tatoeba:633493
+    - text: Fumare le fa più male che bene.
+      es: Fumar te hace más daño que bien.
+      source: tatoeba:4138031
+    - text: Il colore è più viola che rosa.
+      es: El color es más púrpura que rosado.
+      source: tatoeba:350514
+    - text: È più intelligente di quello che pensi.
+      es: Ella es más inteligente de lo que crees.
+      source: tatoeba:1640264
+    - text: Lei è più intelligente di quello che pensi.
+      es: Ella es más inteligente de lo que crees.
+      source: tatoeba:1640265
+    - text: Tom è più giovane di quel che pensi.
+      es: Tom es más joven de lo que piensas.
+      source: tatoeba:2780893
+    - text: È più difficile di quello che pensi.
+      es: Es más difícil de lo que crees.
+      source: tatoeba:4676
+    - text: Tom è più veloce di quello che pensi.
+      es: Tomás es más rápido de lo que pensás.
+      source: tatoeba:5090190
+- id: forse_con_indicativo
+  code: ERR_CONGIUNTIVO_OVERUSE_FORSE
+  tier: grammar
+  it:
+  - matcher:
+    - LOWER: forse
+    - OP: '{0,4}'
+    - POS:
+        IN:
+        - VERB
+        - AUX
+      MORPH:
+        IS_SUPERSET:
+        - Mood=Ind
+  - matcher:
+    - POS:
+        IN:
+        - VERB
+        - AUX
+      MORPH:
+        IS_SUPERSET:
+        - Mood=Ind
+    - OP: '{0,3}'
+    - LOWER: forse
+  examples:
+    positive:
+    - text: Forse l'ha fatto Tom.
+      es: Quizás lo hizo Tom.
+      source: tatoeba:13949326
+    - text: Forse è vero.
+      es: Tal vez es verdad.
+      source: tatoeba:866991
+    - text: Forse non mi hai sentito.
+      es: Puede que no me hayas oído.
+      source: tatoeba:5531371
+    negative:
+    - text: Forse noi dovremmo parlare.
+      es: Tal vez deberíamos hablar.
+      source: tatoeba:4657308
+    - text: Forse dovremmo aspettare.
+      es: Tal vez deberíamos esperar.
+      source: tatoeba:4067893
+    - text: Forse dovremmo chiamarli.
+      es: Quizás deberíamos llamarlos.
+      source: tatoeba:5728659
+- id: temporale_futuro_indicativo
+  code: ERR_CONGIUNTIVO_OVERUSE_TEMPORAL
+  tier: grammar
+  it:
+  - regex: \b(?:quando|appena|non appena)\b(?<!\bfino a quando)(?<!\bda quando)(?![^?]*\?)[^.?!]{0,40}?\b(?:\w+(?:erò|irò|erà|irà|erai|irai|eremo|iremo|erete|irete|eranno|iranno)|(?:andr|verr|vedr|potr|dovr|vorr|sapr|vivr|dar|far|star)(?:ò|à|ai|emo|ete|anno)|(?:avr|sar)(?:ò|à|ai|emo|ete|anno))\b
+  examples:
+    positive:
+    - text: Quando te ne andrai mi mancherai.
+      es: Cuando te vayas, te voy a extrañar.
+      source: tatoeba:475702
+    - text: Lo faremo quando avremo tempo.
+      es: Lo haremos cuando tengamos tiempo.
+      source: tatoeba:503138
+    - text: Quando mi alzerò domattina, il sole brillerà e gli uccelli staranno cantando.
+      es: Cuando me levante mañana por la mañana, el sol estará brillando y los pájaros estarán cantando.
+      source: tatoeba:991720
+    negative:
+    - text: Ha imparato il francese quando era giovane.
+      es: Aprendió francés cuando era joven.
+      source: tatoeba:633518
+    - text: L'ho usato quando ero in Cina la scorsa estate.
+      es: Yo lo usaba cuando estaba en China el verano pasado.
+      source: tatoeba:1199428
+    - text: Questa foto mi ricorda di quando ero studente.
+      es: Esta foto me recuerda a mi época de estudiante.
+      source: tatoeba:1109174
+    - text: Quando sarai pronta a partire?
+      es: ¿Cuándo estarás listo para salir?
+      source: tatoeba:1505772
+    - text: Quando sarete pronti a partire?
+      es: ¿Cuándo estarás listo para salir?
+      source: tatoeba:1505774
+    - text: Quando sarete pronte a partire?
+      es: ¿Cuándo estarás listo para salir?
+      source: tatoeba:1505775
+    - text: Quando sarai pronto a partire?
+      es: ¿Cuándo estarás listo para salir?
+      source: tatoeba:449081
+    - text: Quando sarà pronto il pranzo?
+      es: ¿Cuándo estará lista la comida?
+      source: tatoeba:5346690
+    - text: Fino a quando continueremo a credere che siamo nati per sterminarci a vicenda e che lo sterminio reciproco sia il nostro destino?
+      es: ¿Hasta cuándo seguiremos creyendo que nacimos para el exterminio mutuo y que el exterminio mutuo es nuestro destino?
+      source: tatoeba:13894907
+- id: relativa_libera_indicativo
+  code: ERR_CONGIUNTIVO_OVERUSE_RELATIVE
+  tier: grammar
+  it:
+  - regex: \b(?:quello che|ciò che|come|quanto)\s+(?:vuoi|vuole|volete|vogliono|voglio|preferisci|preferisce|desideri|desidera)\b|\bfinché\s+(?:posso|puoi|può|possiamo|potete|possono)\b
+  examples:
+    positive:
+    - text: Puoi prendere tutto quello che vuoi.
+      es: Podés agarrar todo lo que quieras.
+      source: tatoeba:1126972
+    - text: Puoi andare o restare, come vuoi.
+      es: Podés irte o quedarte, como quieras.
+      source: tatoeba:411034
+    - text: Oggi puoi mangiare quanto vuoi.
+      es: Hoy puedes comer tanto como quieras.
+      source: tatoeba:3459945
+    - text: Tom e Mary possono fare quello che vogliono.
+      es: Tom y Mary pueden hacer lo que quieran.
+      source: tatoeba:10996738
+    - text: Dormi quanto vuoi.
+      es: Duerme cuanto quieras.
+      source: tatoeba:6009322
+    negative:
+    - text: Come sono sfortunato!
+      es: ¡Qué mala suerte tengo!
+      source: tatoeba:3977238
+    - text: Quanto tempo è restato?
+      es: ¿Cuánto tiempo estuviste?
+      source: tatoeba:1008369
+    - text: Perché non ti candidi come presidente?
+      es: ¿Por qué no te haces candidato a presidente?
+      source: tatoeba:1730294
+    - text: Chi vuole un po' di cioccolata calda?
+      es: ¿Quién quiere chocolate caliente?
+      source: tatoeba:2488441
+    - text: Chi vuole una cioccolata calda?
+      es: ¿Quién quiere chocolate caliente?
+      source: tatoeba:379726
+    - text: Chi vuole della cioccolata calda?
+      es: ¿Quién quiere una chocolatada caliente?
+      source: tatoeba:978795
+    - text: Forse quello che voglio non importa più.
+      es: Quizás lo que yo quiero ya no importa.
+      source: tatoeba:5732486
+    - text: Forse ciò che voglio non importa più.
+      es: Quizás lo que yo quiero ya no importa.
+      source: tatoeba:5732487
+    - text: Ciò che voglio adesso è una tazza di caffè caldo.
+      es: Lo que quiero ahora es una taza de café caliente.
+      source: tatoeba:625156
+  es:
+  - regex: \b(?:lo que|como|cuanto|cuanta|hasta que|donde|quien(?:es)?)\s+(?:quiera|quieras|quieran|quieráis|prefieras|prefiera|desees|desee|pueda|puedas|puedan)\b
+- id: magari_con_congiuntivo
+  code: ERR_MAGARI_TENSE
+  tier: grammar
+  it:
+  - matcher:
+    - LOWER: magari
+    - OP: '{0,4}'
+    - *id001
+  examples:
+    positive:
+    - text: Magari fosse davvero così!
+      es: ¡Ojalá fuera realmente así!
+      source: tatoeba:3165434
+    - text: Magari avessi saputo parlare francese.
+      es: Ojalá hubiera sabido hablar francés.
+      source: tatoeba:8890731
+    - text: Magari Jim si comportasse bene.
+      es: Ojalá Jim se portara bien.
+      source: tatoeba:2028802
+    negative:
+    - text: Magari è ora di ammetterlo.
+      es: Quizás sea hora de admitirlo.
+      source: tatoeba:4061140
+    - text: Penso che sia impossibile per noi sconfiggere Tom.
+      es: Pienso que es imposible para nosotros vencer a Tom.
+      source: tatoeba:10461739
+    - text: Penso che lei sia l'unica a cui importa.
+      es: Creo que usted es la única a la que le importa.
+      source: tatoeba:2459056
+- id: imperativo_negativo
+  code: ERR_NEG_IMPERATIVE
+  tier: grammar
+  it:
+  - matcher:
+    - LOWER: non
+      IS_SENT_START: true
+    - MORPH:
+        IS_SUPERSET:
+        - VerbForm=Inf
+  examples:
+    positive:
+    - text: Non parlare!
+      es: ¡No hables!
+      source: tatoeba:1313627
+    - text: Non essere così critico.
+      es: No seas tan crítico.
+      source: tatoeba:1578353
+    - text: Non preoccuparti, sii felice!
+      es: ¡No te preocupes, sé feliz!
+      source: tatoeba:1237807
+    negative:
+    - text: Non faccio niente.
+      es: No hago nada.
+      source: tatoeba:4549063
+    - text: Non voglio il tuo aiuto.
+      es: No quiero tu ayuda.
+      source: tatoeba:3014752
+    - text: Non potete fare niente per fermarle?
+      es: ¿No puedes hacer nada para detenerlos?
+      source: tatoeba:2731203
+- id: possessivo_con_articolo
+  code: ERR_POSSESSIVE_ARTICLE
+  tier: grammar
+  it:
+  - matcher:
+    - LOWER:
+        IN:
+        - il
+        - la
+        - lo
+        - i
+        - le
+        - gli
+        - un
+        - una
+        - l'
+    - LOWER:
+        IN:
+        - mio
+        - mia
+        - miei
+        - mie
+        - tuo
+        - tua
+        - tuoi
+        - tue
+        - suo
+        - sua
+        - suoi
+        - sue
+        - nostro
+        - nostra
+        - nostri
+        - nostre
+        - vostro
+        - vostra
+        - vostri
+        - vostre
+        - loro
+  - matcher:
+    - LOWER:
+        IN:
+        - mio
+        - mia
+        - tuo
+        - tua
+        - suo
+        - sua
+    - LOWER:
+        IN:
+        - padre
+        - madre
+        - fratello
+        - sorella
+        - nonno
+        - nonna
+        - figlio
+        - figlia
+        - zio
+        - zia
+        - marito
+        - moglie
+        - cugino
+        - cugina
+  examples:
+    positive:
+    - text: Tom non conosce i suoi vicini.
+      es: Tom no conoce a sus vecinos.
+      source: tatoeba:2845274
+    - text: Non è il tuo nemico.
+      es: No es tu enemigo.
+      source: tatoeba:11240358
+    - text: Chi è il tuo insegnante di francese?
+      es: ¿Quién es tu profesor de francés?
+      source: tatoeba:5837129
+    negative:
+    - text: Non faccio niente.
+      es: No hago nada.
+      source: tatoeba:4549063
+    - text: Non dissi nulla.
+      es: No dije nada.
+      source: tatoeba:2041831
+    - text: Non potete fare niente per fermarle?
+      es: ¿No puedes hacer nada para detenerlos?
+      source: tatoeba:2731203
+- id: articolo_lo_gli_l
+  code: ERR_ARTICLE_ALLOMORPH
+  tier: grammar
+  it:
+  - regex: \b(?:lo|uno|gli)\s+(?:s[^aeiou\W\d]|z|gn|ps|x|y)\w*
+  - matcher:
+    - LOWER: l'
+      POS: DET
+    - MORPH:
+        IS_SUPERSET:
+        - Gender=Masc
+  examples:
+    positive:
+    - text: Gli studenti si sono offerti volontari per il servizio alla comunità.
+      es: Los estudiantes se ofrecieron voluntarios para hacer servicios a la comunidad.
+      source: tatoeba:7904353
+    - text: L'elefante è stato ucciso dal cacciatore.
+      es: El cazador mató al elefante.
+      source: tatoeba:423795
+    - text: La guerra esisterà sempre, finché l'uomo non conoscerà finalmente se stesso.
+      es: La guerra siempre existirá, hasta que el hombre finalmente se conozca a sí mismo.
+      source: tatoeba:11627078
+    negative:
+    - text: Il sole è più grande della luna.
+      es: El sol es más grande que la luna.
+      source: tatoeba:877662
+    - text: Vedo il suo gatto in giardino.
+      es: Veo a tu gato en el jardín.
+      source: tatoeba:3154556
+    - text: Il sogno è diventato realtà.
+      es: El sueño se ha hecho realidad.
+      source: tatoeba:1275110
+    - text: Mi è piaciuta la tua idea e l'ho adottata.
+      es: Me gustó tu idea y la adopté.
+      source: tatoeba:2143646
+    - text: Una palla l'ha colpita sulla gamba destra.
+      es: Una pelota le pegó en la pierna derecha.
+      source: tatoeba:1524239
+    - text: Lui non le ha regalato un ramo di rose però l'ha invitata a prendere un caffè e ha parlato con lei.
+      es: Él no le regaló un ramo de rosas pero la invitó a tomar un café y habló con ella.
+      source: tatoeba:791088
+    - text: L'economia di quell'isola dipende dalla pesca.
+      es: La economía de esa isla depende de la pesca.
+      source: tatoeba:1022991
+    - text: Chi ascolta per la prima volta la propria voce registrata ha l’impressione di ascoltare un estraneo.
+      es: El que escucha por primera vez su voz grabada, tiene la sensación de estar escuchando a un extraño.
+      source: tatoeba:1105386
+    - text: I tacchini della fattoria di mio nonno sono molto rumorosi, non vedo l'ora che loro vengano mangiati.
+      es: Los pavos de la granja de mi abuelo son muy ruidosos, estoy deseando que se los coman.
+      source: tatoeba:2151552
+- id: preposizione_articolata_in_su
+  code: ERR_PREP_ARTICLE_CONTRACTION
+  tier: grammar
+  it:
+  - regex: \b(?:nel|nello|nella|nell'|nei|negli|nelle|sul|sullo|sulla|sull'|sui|sugli|sulle)\b
+  examples:
+    positive:
+    - text: Vorrei vivere nei sobborghi di Kobe.
+      es: Me gustaría vivir en las afueras de Kobe.
+      source: tatoeba:2773896
+    - text: Io visitai Roma per la prima volta nella mia vita.
+      es: Visité Roma por primera vez en mi vida.
+      source: tatoeba:2745224
+    - text: Perché l'autunno si chiama "fall" negli Stati Uniti?
+      es: ¿Por qué al otoño lo llaman "fall" en Estados Unidos?
+      source: tatoeba:2930105
+    negative:
+    - text: Lei vuole vivere in città.
+      es: Quiere vivir en la ciudad.
+      source: tatoeba:1867359
+    - text: Vogliamo affittare un appartamento in città.
+      es: Queremos alquilar un departamento en la ciudad.
+      source: tatoeba:2615830
+    - text: Ci sono molte case in città.
+      es: En la ciudad hay muchas casas.
+      source: tatoeba:12688115
+- id: ce_ci_sono
+  code: ERR_CE_AGREEMENT
+  tier: grammar
+  it:
+  - regex: \bc'è\b|\bc'era\b|\bc'erano\b|\bci\s+saranno\b|\bci\s+sarà\b|\bci\s+sono\b(?!\s+(?:(?:già|mai|spesso|sempre|poi)\s+)?(?:(?:andat|venut|arrivat|tornat|rimast|entrat|uscit|salit)[oaie]|stat[oa])\b)
+  examples:
+    positive:
+    - text: Ci sono molti pesci in quel lago.
+      es: Hay muchos peces en ese lago.
+      source: tatoeba:1123800
+    - text: Non c'è alcuna cura per la stupidità.
+      es: No hay cura para la estupidez.
+      source: tatoeba:3658683
+    - text: Ci sono cinque declinazioni in latino.
+      es: Hay cinco declinaciones en el latín.
+      source: tatoeba:1512381
+    negative:
+    - text: Ci siamo lasciate.
+      es: Nos separamos.
+      source: tatoeba:5336426
+    - text: Quando ci siamo svegliati, eravamo alla deriva in mare aperto.
+      es: Cuando nos despertamos, estábamos a la deriva en mar abierto.
+      source: tatoeba:14027457
+    - text: Noi ci siamo separate.
+      es: Nos separamos.
+      source: tatoeba:5348153
+    - text: I miei genitori sono andati in casa, ma io non ci sono andato.
+      es: Mis padres fueron a la iglesia, pero yo no fui.
+      source: tatoeba:6143262
+    - text: I miei genitori sono andati in casa, ma io non ci sono andata.
+      es: Mis padres fueron a la iglesia, pero yo no fui.
+      source: tatoeba:6143264
+    - text: I miei genitori sono andati in casa, però io non ci sono andato.
+      es: Mis padres fueron a la iglesia, pero yo no fui.
+      source: tatoeba:6143265
+- id: comparativo_con_di
+  code: ERR_COMPARATIVE_DI
+  tier: grammar
+  it:
+  - regex: \b(?:è|sei|sono|era|eri|siamo|siete|erano|sembra|sembrano|sembrava|diventa|sia|siano|fosse|fossero)\s+(?:molto\s+|ancora\s+|sempre\s+)?(?:più|meno)\s+\w+\s+(?:di|del|della|dello|dei|degli|delle|dell')(?!\s*(?:quello|quel|ciò)\s+che\b)(?!\s+quanto\b)\s*\w+|\b(?:è|sei|sono|era|eri|siamo|siete|erano|sembra|sembrano|sembrava|diventa|sia|siano|fosse|fossero)\s+(?:molto\s+)?(?:maggiore|minore|migliore|peggiore)\s+(?:di|del|della|dello|dei|degli|delle|dell')(?!\s*(?:quello|quel|ciò)\s+che\b)\s*\w+
+  examples:
+    positive:
+    - text: Il sole è molto più grande di Giove.
+      es: El sol es mucho más grande que Júpiter.
+      source: tatoeba:6949974
+    - text: Pechino è più grande di Roma.
+      es: Pekín es más grande que Roma.
+      source: tatoeba:611876
+    - text: Il vostro piano sembra migliore del mio.
+      es: Tu plan parece mejor que el mío.
+      source: tatoeba:6901805
+    negative:
+    - text: Lei è più bella che intelligente.
+      es: Ella es más bella que inteligente.
+      source: tatoeba:1134844
+    - text: La sua calma è più apparente che reale.
+      es: Su calma es más apariencia que realidad.
+      source: tatoeba:1864662
+    - text: Tu sei il più alto.
+      es: Tú eres el más alto.
+      source: tatoeba:675684
+    - text: È più intelligente di quello che pensi.
+      es: Ella es más inteligente de lo que crees.
+      source: tatoeba:1640264
+    - text: Lei è più intelligente di quello che pensi.
+      es: Ella es más inteligente de lo que crees.
+      source: tatoeba:1640265
+    - text: Tom è più giovane di quel che pensi.
+      es: Tom es más joven de lo que piensas.
+      source: tatoeba:2780893
+    - text: È più difficile di quello che pensi.
+      es: Es más difícil de lo que crees.
+      source: tatoeba:4676
+    - text: Tom è più veloce di quello che pensi.
+      es: Tomás es más rápido de lo que pensás.
+      source: tatoeba:5090190
+    - text: Penso che questa sia la parte migliore del film.
+      es: Creo que esta es la mejor parte de la película.
+      source: tatoeba:3770405
+- id: a_personale
+  code: ERR_PERSONAL_A
+  tier: grammar
+  it:
+  - regex: \b(?:aspett|cerc|chiam|ved|aiut|conosc|incontr|abbracc|invit)\w*\b(?!\s+(?:a|di|da|in|con|per|su)\b)
+  es:
+  - regex: \b(?:espero|busco|llamo|veo|ayudo|escucho|conozco|encuentro|visito|abrazo|invito|espera|busca|llama|ve|ayuda|escucha|conoce|encuentra|visita|esperamos|buscamos|llamamos|vemos|ayudamos|esperan|buscan|llaman|ven|ayudan|esperando|buscando|llamando|viendo|ayudando|escuchando)\s+a\s+(?:mi|tu|su|mis|tus|sus|la|el|los|las|un|una|Tom|Mary|María|Maria|Juan|Pedro|Ana|Paco)\b
+  examples:
+    positive:
+    - text: Vedo Tom ogni giorno.
+      es: Veo a Tom todos los días.
+      source: tatoeba:2023154
+    - text: Tom sta cercando suo figlio.
+      es: Tom está buscando a su hijo.
+      source: tatoeba:6678726
+    - text: Io sto aspettando il mio fidanzato.
+      es: Estoy esperando a mi novio.
+      source: tatoeba:2034841
+    negative:
+    - text: Io ho chiesto aiuto a Bob.
+      es: Le pedí ayuda a Bob.
+      source: tatoeba:4871799
+    - text: Non ho visto il film e non voglio farlo.
+      es: No he visto la película ni quiero hacerlo.
+      source: tatoeba:1447225
+    - text: Abbiamo imparato un sacco di cose!
+      es: ¡Hemos aprendido un montón de cosas!
+      source: tatoeba:2825610
+    - text: Faccio visita ai miei nonni due volte alla settimana.
+      es: Visito a mis abuelos dos veces a la semana.
+      source: tatoeba:828427
+    - text: Ha ascoltato la mia opinione.
+      es: Escuchó mi opinión.
+      source: tatoeba:377551
+    - text: Sto ascoltando l'ultima canzone di Björk.
+      es: Estoy escuchando la última canción de Björk.
+      source: tatoeba:511338
+- id: pensare_a
+  code: ERR_PREP_PENSARE
+  tier: grammar
+  it:
+  - regex: \bpens(?:o|i|a|iamo|ate|ano|are|ando|avo|avi|ava|ò)\s+(?:a|alla|al|allo|ai|agli|alle|all')\b
+  examples:
+    positive:
+    - text: Vorrei poter pensare a qualcosa da dire.
+      es: Ojalá pudiera pensar en algo que decir.
+      source: tatoeba:701430
+    - text: Pensiamo alla strage?
+      es: ¿Pensamos en la masacre?
+      source: tatoeba:2134602
+    - text: Non posso pensare a tutto.
+      es: No puedo pensar en todo.
+      source: tatoeba:634416
+    negative:
+    - text: Penso di aver fatto un grosso errore.
+      es: Creo que he cometido un gran error.
+      source: tatoeba:2477571
+    - text: Io penso che Tom potrebbe avere finalmente una buona idea.
+      es: Creo que Tom podría tener una buena idea finalmente.
+      source: tatoeba:4963908
+    - text: Pensate che dovrei fermarla?
+      es: ¿Crees que debería detenerla?
+      source: tatoeba:6292704
+    - text: Non pensarci troppo.
+      es: No pienses demasiado al respecto.
+      source: tatoeba:1664658
+    - text: Non pensarci neanche.
+      es: Ni lo pienses.
+      source: tatoeba:2741408
+    - text: Non pensarci due volte, Tom.
+      es: No te lo pienses dos veces, Tom.
+      source: tatoeba:3050258
+    - text: Non pensarci ora.
+      es: No piense ahora en eso.
+      source: tatoeba:3334689

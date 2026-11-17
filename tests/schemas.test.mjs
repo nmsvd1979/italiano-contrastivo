@@ -66,6 +66,27 @@ describe("sentence", () => {
   });
 });
 
+describe("sentence: campos de procedencia de la Fase 2", () => {
+  const base = { id: "s1", source: "tatoeba", source_id: "1", license: "CC BY 2.0 FR", it: "Sono andato.", es: "Yo he ido.", cefr_estimate: "A2", review_status: "needs_review" };
+  it("acepta translation_kind, pivot_via, cefr_confidence, qa_flags y tag_rules", () => {
+    const s = { ...base, translation_kind: "pivot", pivot_via: "100", cefr_confidence: 0.6, qa_flags: ["pivot"], tag_rules: { ERR_AUX_ESSERE: "aux_essere_motion" } };
+    expect(check("sentence", s), JSON.stringify(ajv.errors)).toBe(true);
+  });
+  it("acepta es_author (autor de la traducción española, exigido por CC BY)", () => {
+    expect(check("sentence", { ...base, es_author: "arh" }), JSON.stringify(ajv.errors)).toBe(true);
+  });
+  it("acepta translation_kind llm (traducción generada desde el italiano)", () => {
+    expect(check("sentence", { ...base, translation_kind: "llm" })).toBe(true);
+  });
+  it("rechaza translation_kind inválido y cefr_confidence fuera de 0-1", () => {
+    const v = ajv.getSchema(schemaId("sentence"));
+    expect(v({ ...base, translation_kind: "x" })).toBe(false);
+    expect(v.errors.map((e) => e.keyword)).toContain("enum");
+    expect(v({ ...base, cefr_confidence: 1.5 })).toBe(false);
+    expect(v.errors.map((e) => e.keyword)).toContain("maximum");
+  });
+});
+
 describe("slm-feedback", () => {
   const err = { error_id: "ERR_01", start_char: 5, end_char: 18, flagged_tokens: "a la mia casa", suggested_correction: "a casa mia",
     error_category: "L1_SINTACTIC_CALQUE", cefr_level: "A2", explanation_l1: "Calco del español." };

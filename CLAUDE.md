@@ -17,3 +17,8 @@ Fuente de diseño: cuaderno NotebookLM "App para aprender italiano" (id 231c3dc2
 - No marcar como verificado lo que no se probó (audio, iPhone).
 - Git: nunca push directo a `main`; ramas `feat/…` o `fix/…` + PR; un tema por PR; commits en español.
 - Interfaz y explicaciones: español neutro con tuteo.
+
+## Revisión y verificación (transparencia)
+- Quien revisa el italiano en este proyecto no es hablante nativo ni domina el idioma. La "validación" combina esa revisión con un auditor IA (`reviewer = "llm-audit"` en `reviews`). **No equivale a verificación de un hablante nativo**: el export lo desglosa por revisor y la app debe declararlo.
+- Una compuerta de revisión que da 100% en todo no es una medición: contrastarla con una auditoría independiente antes de confiar en ella.
+- Las traducciones por pivote (vía inglés) pierden género, número y persona: tasa de rechazo medida 37%. No usar pares pivote sin verificarlos uno a uno.

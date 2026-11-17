@@ -1,0 +1,30 @@
+name: pronominal_verbs
+description: Verbos pronominales sin equivalente en español (formas del infinitivo y participio).
+entries:
+- form: farcela
+  gloss_es: lograrlo
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: cavarsela
+  gloss_es: arreglárselas
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: andarsene
+  gloss_es: irse
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: accorgersi
+  gloss_es: darse cuenta
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: sentirsela
+  gloss_es: sentirse capaz
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: accorto
+  gloss_es: (mi sono) accorto
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: accorta
+  gloss_es: (mi sono) accorta
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: accorgo
+  gloss_es: (mi) accorgo
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
+- form: accorge
+  gloss_es: (si) accorge
+  source: Un Italiano Vero, «100 errores comunes» (NotebookLM a3d81c5f)
