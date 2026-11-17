@@ -8,7 +8,7 @@
 - **Pruebas automáticas:** Python (ids, plan, idempotencia, errores, palabras nativas) y web (orden nativa → clip → sistema, caída ante fallo, audio anterior detenido, etiquetas) en verde.
 
 ## NO verificado
-- **Nadie ha escuchado los clips.** Que no haya errores técnicos no demuestra que suenen bien. Escucha estos 10 y anota si alguno tiene cortes, ruido, voz robótica o se entiende mal:
+- **Escuchados por el usuario (2026-11-17):** los 10 clips de abajo suenan bien (sin cortes, ruido ni voz ilegible). El usuario no sabe italiano: esto confirma calidad técnica y naturalidad, NO que la pronunciación sea correcta para un nativo (geminadas y sílaba tónica siguen sin verificar). Lista escuchada: Escucha estos 10 y anota si alguno tiene cortes, ruido, voz robótica o se entiende mal:
 1. `web/public/audio/tts/42ab9caa8a85.mp3` — «L'uomo ha ragione.»
 2. `web/public/audio/tts/8c4d9d9c09ab.mp3` — «So che hai ragione.»
 3. `web/public/audio/tts/29501a62c4bf.mp3` — «So che avete ragione.»
