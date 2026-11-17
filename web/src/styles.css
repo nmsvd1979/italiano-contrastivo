@@ -19,3 +19,6 @@ button[data-state="wrong"] { border-color: var(--bad); background: color-mix(in 
 input, textarea { font: inherit; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--fg); max-width: 100%; }
 mark { background: color-mix(in srgb, var(--accent) 30%, transparent); color: inherit; border-radius: 4px; }
 .attributions { font-size: 14px; }
+
+textarea { display: block; width: 100%; box-sizing: border-box; margin: 4px 0 12px; font: inherit; padding: 8px; }
+label[for="write-text"] { display: block; font-weight: 600; }

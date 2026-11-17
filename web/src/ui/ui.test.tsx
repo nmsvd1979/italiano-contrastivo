@@ -13,6 +13,7 @@ import { TodayScreen } from "./TodayScreen";
 import { ItemView } from "./items/ItemView";
 import { Translate, type TranslateItem } from "./items/Translate";
 import { speakItalian } from "./speech";
+import { WriteScreen } from "./WriteScreen";
 import { AudioProvider } from "../audio/AudioContext";
 
 afterEach(() => {
@@ -321,5 +322,23 @@ describe("AboutScreen: enlace a las atribuciones de audio", () => {
     render(<AboutScreen manifest={pack().manifest} sentences={[]} />);
     const a = screen.getByText("Atribuciones de audio") as HTMLAnchorElement;
     expect(a.getAttribute("href")).toContain("audio/ATTRIBUZIONI-audio.md");
+  });
+});
+
+describe("WriteScreen", () => {
+  it("marca el calco con su explicación y no marca italiano correcto", () => {
+    render(<WriteScreen />);
+    const box = screen.getByLabelText("Tu texto en italiano");
+    fireEvent.change(box, { target: { value: "Ho andato a casa." } });
+    fireEvent.click(screen.getByRole("button", { name: "Revisar" }));
+    expect(screen.getByText("«Ho»")).toBeTruthy();
+    expect(screen.getByText(/verbos de movimiento/)).toBeTruthy();
+    fireEvent.change(box, { target: { value: "Sono andato a casa." } });
+    fireEvent.click(screen.getByRole("button", { name: "Revisar" }));
+    expect(screen.getByText(/No encontré ninguno/)).toBeTruthy();
+  });
+  it("no deja revisar un texto vacío", () => {
+    render(<WriteScreen />);
+    expect((screen.getByRole("button", { name: "Revisar" }) as HTMLButtonElement).disabled).toBe(true);
   });
 });

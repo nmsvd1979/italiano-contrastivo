@@ -9,6 +9,7 @@ import { AboutScreen } from "./ui/AboutScreen";
 import { CapsuleScreen } from "./ui/CapsuleScreen";
 import { ReviewScreen } from "./ui/ReviewScreen";
 import { TodayScreen } from "./ui/TodayScreen";
+import { WriteScreen } from "./ui/WriteScreen";
 import "./styles.css";
 
 type Ready = { pack: ContentPack; store: Store; storeError: string | null; audio: AudioIndex; words: Map<string, string> };
@@ -53,8 +54,9 @@ export function App() {
   const capsule = hash.startsWith("#/capsula/") ? ready.pack.capsules.find((c) => c.id === hash.slice("#/capsula/".length)) : undefined;
   return (
     <AudioProvider pack={ready.pack} index={ready.audio} words={ready.words}>
-      <nav><a href="#/">Hoy</a> <a href="#/repaso">Repaso</a> <a href="#/acerca">Acerca de</a></nav>
+      <nav><a href="#/">Hoy</a> <a href="#/repaso">Repaso</a> <a href="#/escribir">Escribir</a> <a href="#/acerca">Acerca de</a></nav>
       {hash === "#/repaso" ? <ReviewScreen pack={ready.pack} store={ready.store} />
+        : hash === "#/escribir" ? <WriteScreen />
         : hash === "#/acerca" ? <AboutScreen manifest={ready.pack.manifest} sentences={ready.pack.sentences} />
         : capsule ? <CapsuleScreen key={capsule.id} capsule={capsule} store={ready.store} />
         : <Today {...ready} />}
