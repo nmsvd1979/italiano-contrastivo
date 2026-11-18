@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { audioUrls, cachedCount, cacheSupported, downloadAudio } from "../audio/offline";
+import { isPreview, setPreview } from "../state/preview";
 import { buildInfo, checkForUpdate, repairApp } from "../pwa";
 import { BackupError, exportBackup, parseBackup, restoreBackup } from "../state/backup";
 import { localDate, type Store } from "../state/store";
@@ -89,6 +90,12 @@ export function SettingsScreen({ store, memoryOnly }: { store: Store; memoryOnly
           <p><button type="button" disabled={audio.busy || audio.have >= audio.total} onClick={getAudio}>{audio.busy ? "Descargando…" : "Descargar el audio"}</button></p>
         </>
       ) : <p><small>Este navegador no guarda audio para uso sin conexión.</small></p>}
+      <h2>Modo de prueba</h2>
+      <p>Para revisar el contenido sin esperar a desbloquearlo: abre todas las unidades y todos los pasos, y guarda el avance en un lugar aparte. Tu progreso real no cambia.</p>
+      <p>
+        <button type="button" onClick={() => { setPreview(!isPreview()); window.location.reload(); }}>{isPreview() ? "Salir del modo de prueba" : "Activar el modo de prueba"}</button>{" "}
+        {isPreview() && <button type="button" onClick={async () => { if (window.confirm("Se borra solo el avance del modo de prueba. ¿Continuar?")) { await store.clearAll(); window.location.reload(); } }}>Reiniciar la prueba</button>}
+      </p>
       <h2>Versión de la app</h2>
       <p>Versión <strong>{buildInfo().id}</strong>{buildInfo().date ? ` · ${buildInfo().date}` : ""}.</p>
       <p><button type="button" onClick={update}>Buscar actualización</button></p>
