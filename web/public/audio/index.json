@@ -567,9 +567,30 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "1c3dd188697d",
+    "sha1": "1c3dd188697d8de46a449bbf4272576ede030242",
+    "text": "Perché non vieni a trovarci?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "1c4bf8b81a5f",
     "sha1": "1c4bf8b81a5f19546b6c8a0ce42d37f82d80334d",
     "text": "Loro sono miei amici.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "1cb291ae9649",
+    "sha1": "1cb291ae9649d8c78ca0cfbbad0528356b3d7e09",
+    "text": "Dove vive il tuo migliore amico?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "1cc653a1bf72",
+    "sha1": "1cc653a1bf72f9ef0209f65a5f1835a1fe39c974",
+    "text": "Chi vuole un pezzo di torta?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -868,6 +889,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "2960868a67be",
+    "sha1": "2960868a67be62e4f7d3d54a1feb6d51503a84dd",
+    "text": "Quando si mangia? Ho fame!",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "297ef4b29e07",
     "sha1": "297ef4b29e073c8f6ce3d68c269c85e402258c0b",
     "text": "Tutto è pronto per venerdì.",
@@ -1106,6 +1134,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "35f1ebbf4b55",
+    "sha1": "35f1ebbf4b55058865fa501062f7c920faf100e7",
+    "text": "Quanto costa un uovo?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "361ed1293637",
     "sha1": "361ed1293637392aba19fe94b518d7face0a95be",
     "text": "L'ho sentito alla radio.",
@@ -1200,6 +1235,13 @@
     "id": "39d20349e95e",
     "sha1": "39d20349e95ea11e86b264b7742c1d06803e932a",
     "text": "Dormire è la migliore meditazione.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "39ee0cdcbf7b",
+    "sha1": "39ee0cdcbf7b54ccb581e0bc888e80b3eff2a617",
+    "text": "Dove sono le docce?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -1354,6 +1396,13 @@
     "id": "41e67152466a",
     "sha1": "41e67152466a78ebe8f97a8ff2858ce84b5f78f1",
     "text": "È esattamente lo stesso principio di questa!",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "41ea359e1860",
+    "sha1": "41ea359e1860e11a337d8bc985ba798485f6aeb2",
+    "text": "Dove posso trovare una cabina telefonica?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -1666,6 +1715,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "502a2f5feae1",
+    "sha1": "502a2f5feae1f9bbc7ac038faade97f02e13ba2d",
+    "text": "Cosa si può mangiare qui?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "50857090839e",
     "sha1": "50857090839e58e671198c4251f9087060920f16",
     "text": "Loro lavorano con Marie.",
@@ -1676,6 +1732,13 @@
     "id": "5134ec9a3603",
     "sha1": "5134ec9a3603b2e3ae30ab5b57ded70986b3533e",
     "text": "Cosa fai dopo la scuola?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "5172ab92ca50",
+    "sha1": "5172ab92ca50e52b62ce50df82d1b5acb6bc0ec0",
+    "text": "Lui come lo sa?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -2114,6 +2177,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "65fd4fb095ae",
+    "sha1": "65fd4fb095ae41afd503146c7f9e5195b31ce569",
+    "text": "Come si dice \"grazie\" in giapponese?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "65fdf9dcc6ec",
     "sha1": "65fdf9dcc6ec1a7acbea24af6097bb05cac8ebe9",
     "text": "Lui ha pochi soldi.",
@@ -2257,6 +2327,13 @@
     "id": "6ab27394c411",
     "sha1": "6ab27394c411c28acea0e5d74839372b5403d241",
     "text": "Pechino è più grande di Roma.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "6abb99ff519f",
+    "sha1": "6abb99ff519ff5ed9d72f5d7ed39244ad2b9b1e2",
+    "text": "Perché siete così taccagne?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -2464,9 +2541,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "75c6699f4a06",
+    "sha1": "75c6699f4a06435429619406ec74ec637a321639",
+    "text": "Come vanno gli affari?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "75ee12f9e6d1",
     "sha1": "75ee12f9e6d1060bc215d45a33dcaeed595892b1",
     "text": "Domani io non vado al cinema.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "760e0d3b46fa",
+    "sha1": "760e0d3b46fabbba607f1ba9e3e1d3446fb042a1",
+    "text": "Perché mi fai soffrire così tanto?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -2513,6 +2604,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "78610dc15ffc",
+    "sha1": "78610dc15ffc41255a0661378700ff0c6350b15c",
+    "text": "Che cosa non ti piace?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "789321ed499b",
     "sha1": "789321ed499bf0a52e47373b81f4f2411f7fa421",
     "text": "Tu non hai caldo?",
@@ -2537,6 +2635,13 @@
     "id": "7972f76c5379",
     "sha1": "7972f76c537952d6e3e5967790170b1691623694",
     "text": "Lei abita a Londra.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "7a0228c14763",
+    "sha1": "7a0228c147637adebfdad0214a17259078dc9e16",
+    "text": "Quanto costa questo sofà?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -2688,6 +2793,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "81ef89ba4fd3",
+    "sha1": "81ef89ba4fd39c48ef41728cae6e10acce41f574",
+    "text": "Lui come si chiama?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "82169f136027",
     "sha1": "82169f1360276562364fe2067cd34f30f364fc3d",
     "text": "Gli uccelli stanno cantando sugli alberi.",
@@ -2789,6 +2901,13 @@
     "id": "85e66739c688",
     "sha1": "85e66739c68805ce31057dff5e69e0b70bbb1809",
     "text": "È la ragazza più noiosa che io abbia mai conosciuto.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "8659e6a8de97",
+    "sha1": "8659e6a8de97f768540038e6245c017fbffdd7ce",
+    "text": "Quanto costano questi pantaloni?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -3244,6 +3363,13 @@
     "id": "94c484bf721c",
     "sha1": "94c484bf721cc5071414b75d2c63638c3e110cb6",
     "text": "Tu, John, conosci molti paesi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "94e369f28a50",
+    "sha1": "94e369f28a509d402430f8bffeeed754bf4e1853",
+    "text": "Dove sono i ragazzi?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -3766,6 +3892,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "af1d56cffe64",
+    "sha1": "af1d56cffe641712992c81f2536e05ba9bcbc39a",
+    "text": "Perché non utilizza la sua lingua?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "af38d384c0a5",
     "sha1": "af38d384c0a5d6f0d503f08d98cb45030e055c87",
     "text": "Ho due fratelli e una sorella.",
@@ -4095,6 +4228,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "bf7f9f922758",
+    "sha1": "bf7f9f9227588871afb256599ab041c0d184944a",
+    "text": "Voi cosa dovete fare?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "bfbabc88edd7",
     "sha1": "bfbabc88edd70aff00907f3b4c94ce3e0fc6a002",
     "text": "Tu vuoi solo la potenza.",
@@ -4375,6 +4515,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "cf38a5d307fa",
+    "sha1": "cf38a5d307fa24e425d84b4cb4f07eced73c7873",
+    "text": "Quando posso restituire il libro?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "d0a1a8e951bd",
     "sha1": "d0a1a8e951bd0be317281b00d00e6388c768ab93",
     "text": "La statua fu costruita in Francia.",
@@ -4480,6 +4627,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "d4cdbb678e9b",
+    "sha1": "d4cdbb678e9b6d57cf7b970d092a1fb80de83688",
+    "text": "Quale è la temperatura del ghiaccio?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "d6cb9e7dce5e",
     "sha1": "d6cb9e7dce5e702ec854d7692ad5edac10d68ee4",
     "text": "Tom ha paura di noi, vero?",
@@ -4511,6 +4665,13 @@
     "id": "d80f9bea10c9",
     "sha1": "d80f9bea10c9f07a03353644836d9dea42c41709",
     "text": "Nonostante fossero poveri, hanno cresciuto sette figli.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "d84b93777447",
+    "sha1": "d84b937774477358636a4c1a04153759b24bc28f",
+    "text": "Cosa diresti in questo contesto?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -4865,6 +5026,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "e82f8bf0bea2",
+    "sha1": "e82f8bf0bea22004cfb7ef58e7eb07b68ddc6661",
+    "text": "Cosa non ti piace?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "e8c17dc499b3",
     "sha1": "e8c17dc499b374ea9fc97f15a820c99aa2fa2b3c",
     "text": "Lui ha le gambe lunghe.",
@@ -5008,6 +5176,13 @@
     "id": "eedcfbb8efef",
     "sha1": "eedcfbb8efefa6d094aaff9f23ca05f5080a8276",
     "text": "I leoni sono animali territoriali.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "eeffe8e76b8b",
+    "sha1": "eeffe8e76b8b9f46dced53c81eccc236eadf8fce",
+    "text": "Chi sono i tuoi nemici?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -5176,6 +5351,13 @@
     "id": "f5ee3b4ca821",
     "sha1": "f5ee3b4ca821e023f9d37db45958c2e4ef1869cd",
     "text": "Io voglio poter parlare inglese.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "f5f6cb1c5e44",
+    "sha1": "f5f6cb1c5e443211d174d223bc8947378ecd6232",
+    "text": "Chi vuole tradurre questo articolo?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },

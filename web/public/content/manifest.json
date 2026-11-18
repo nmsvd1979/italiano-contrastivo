@@ -21,6 +21,7 @@
     "cap_err_voc_citta",
     "cap_err_voc_corpo",
     "cap_err_voc_familia",
+    "cap_err_voc_interrog",
     "cap_err_voc_lavoro",
     "cap_err_voc_numeri",
     "cap_err_voc_tempo",
@@ -161,6 +162,11 @@
       "reason": null,
       "usable": 25
     },
+    "ERR_VOC_INTERROG": {
+      "capsule": true,
+      "reason": null,
+      "usable": 26
+    },
     "ERR_VOC_LAVORO": {
       "capsule": true,
       "reason": null,
@@ -178,18 +184,18 @@
     }
   },
   "levels": {
-    "A1": 539,
+    "A1": 565,
     "A2": 199,
     "B1": 138,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 856,
+    "llm-audit": 882,
     "me": 27
   },
-  "sentences_used": 732,
+  "sentences_used": 758,
   "translation_kind": {
-    "direct": 664,
+    "direct": 690,
     "llm": 68
   }
 }

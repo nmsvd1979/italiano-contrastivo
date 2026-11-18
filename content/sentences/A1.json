@@ -2382,6 +2382,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Cómo va el negocio?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1279970",
+    "id": "s_1330875",
+    "it": "Come vanno gli affari?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1330875",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_FAMILIA"
     ],
     "es": "Tu hijo es un ángel.",
@@ -2918,6 +2940,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Cómo se llama?",
+    "es_author": "Shishir",
+    "es_source_id": "461028",
+    "id": "s_1441832",
+    "it": "Lui come si chiama?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1441832",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_MODAL"
     ],
     "es": "Solo podemos enseñar.",
@@ -3095,6 +3141,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Cómo se dice \"gracias\" en japonés?",
+    "es_author": "Shishir",
+    "es_source_id": "580612",
+    "id": "s_1504754",
+    "it": "Come si dice \"grazie\" in giapponese?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1504754",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "marco87",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -3179,6 +3247,28 @@
     "source_id": "1512719",
     "tag_rules": {
       "ERR_SC_PALATAL": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "marco87",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Qué dirías en este contexto?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1515278",
+    "id": "s_1516083",
+    "it": "Cosa diresti in questo contesto?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1516083",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3881,6 +3971,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "al_ex_an_der",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Qué se puede comer acá?",
+    "es_author": "hayastan",
+    "es_source_id": "1859917",
+    "id": "s_1859908",
+    "it": "Cosa si può mangiare qui?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1859908",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "hitori37",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -4107,6 +4219,50 @@
     "source_id": "1985431",
     "tag_rules": {
       "ERR_PRESENT_ERE_IRE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Qué no te gusta?",
+    "es_author": "Shishir",
+    "es_source_id": "2074795",
+    "id": "s_1989130",
+    "it": "Cosa non ti piace?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1989130",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Por qué me haces sufrir tanto?",
+    "es_author": "fgreco",
+    "es_source_id": "2444428",
+    "id": "s_1999027",
+    "it": "Perché mi fai soffrire così tanto?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1999027",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5678,6 +5834,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Dónde vive tu mejor amigo?",
+    "es_author": "Shishir",
+    "es_source_id": "3350297",
+    "id": "s_2845495",
+    "it": "Dove vive il tuo migliore amico?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2845495",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_TEMPO"
     ],
     "es": "Hoy ya es lunes.",
@@ -5784,6 +5962,30 @@
     "source_id": "2870294",
     "tag_rules": {
       "ERR_VOC_FAMILIA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Vosotros qué debéis hacer?",
+    "es_author": "cueyayotl",
+    "es_source_id": "3373388",
+    "id": "s_2885543",
+    "it": "Voi cosa dovete fare?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2885543",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5924,6 +6126,28 @@
     "source_id": "2972708",
     "tag_rules": {
       "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Cómo sabe él eso?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1898725",
+    "id": "s_2975152",
+    "it": "Lui come lo sa?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2975152",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -7110,6 +7334,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Cuánto cuesta un huevo?",
+    "es_author": "marcelostockle",
+    "es_source_id": "3697450",
+    "id": "s_3697122",
+    "it": "Quanto costa un uovo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3697122",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_TENERE_AVERE"
     ],
     "es": "Tienen miedo de Tom.",
@@ -7644,6 +7890,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "ver",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Cuánto cuesta este sofá?",
+    "es_author": "Shishir",
+    "es_source_id": "491168",
+    "id": "s_381212",
+    "it": "Quanto costa questo sofà?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "381212",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -7948,6 +8216,50 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Cuándo comemos? ¡Tengo hambre!",
+    "es_author": "Shishir",
+    "es_source_id": "2963",
+    "id": "s_388805",
+    "it": "Quando si mangia? Ho fame!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "388805",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Quién quiere traducir este artículo?",
+    "es_author": "rodolforr",
+    "es_source_id": "2907450",
+    "id": "s_3892338",
+    "it": "Chi vuole tradurre questo articolo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3892338",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_CONGIUNTIVO_OVERUSE_FORSE",
       "ERR_C_G_PALATAL",
       "ERR_TENERE_AVERE"
@@ -8220,6 +8532,28 @@
     "source_id": "409559",
     "tag_rules": {
       "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "shoras",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Cuál es la temperatura del hielo?",
+    "es_author": "hayastan",
+    "es_source_id": "1396133",
+    "id": "s_414476",
+    "it": "Quale è la temperatura del ghiaccio?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "414476",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -8616,6 +8950,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Dónde están las duchas?",
+    "es_author": "Shishir",
+    "es_source_id": "2838",
+    "id": "s_4434",
+    "it": "Dove sono le docce?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4434",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_GLI_PALATAL"
     ],
     "es": "Esta es mi esposa.",
@@ -8632,6 +8988,30 @@
     "source_id": "4461392",
     "tag_rules": {
       "ERR_GLI_PALATAL": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Quiénes son tus enemigos?",
+    "es_author": "cueyayotl",
+    "es_source_id": "5070179",
+    "id": "s_4463569",
+    "it": "Chi sono i tuoi nemici?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4463569",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -8934,6 +9314,30 @@
     "source_id": "4574",
     "tag_rules": {
       "ERR_PREP_PLACE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Quién quiere un poco de torta?",
+    "es_author": "hayastan",
+    "es_source_id": "1322954",
+    "id": "s_4577451",
+    "it": "Chi vuole un pezzo di torta?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4577451",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -9431,6 +9835,28 @@
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Cuánto cuestan estos pantalones?",
+    "es_author": "lukaszpp",
+    "es_source_id": "436170",
+    "id": "s_524147",
+    "it": "Quanto costano questi pantaloni?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "524147",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Adelpa",
@@ -11223,6 +11649,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "DeSha",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Qué no te gusta?",
+    "es_author": "Shishir",
+    "es_source_id": "2074795",
+    "id": "s_738768",
+    "it": "Che cosa non ti piace?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "738768",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -11725,6 +12173,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Por qué sois tan tacañas?",
+    "es_author": "Seael",
+    "es_source_id": "13871875",
+    "id": "s_8081497",
+    "it": "Perché siete così taccagne?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8081497",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_LAVORO"
     ],
     "es": "Es muy bueno en su trabajo.",
@@ -11829,6 +12301,28 @@
     "source_id": "851715",
     "tag_rules": {
       "ERR_VOC_LAVORO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Cuándo puedo devolver el libro?",
+    "es_author": "marcelostockle",
+    "es_source_id": "974439",
+    "id": "s_851744",
+    "it": "Quando posso restituire il libro?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "851744",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -11945,6 +12439,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Por qué no utiliza su idioma?",
+    "es_author": "eltacodemex",
+    "es_source_id": "9177852",
+    "id": "s_8867140",
+    "it": "Perché non utilizza la sua lingua?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8867140",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -12041,6 +12557,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Dónde están los chicos?",
+    "es_author": "Shishir",
+    "es_source_id": "671740",
+    "id": "s_922822",
+    "it": "Dove sono i ragazzi?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "922822",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_ERE_IRE"
     ],
     "es": "¿Ella responde a las preguntas?",
@@ -12055,6 +12593,30 @@
     "source_id": "929180",
     "tag_rules": {
       "ERR_PRESENT_ERE_IRE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿Por qué no vienes a visitarnos?",
+    "es_author": "Raimondi",
+    "es_source_id": "2644",
+    "id": "s_935010",
+    "it": "Perché non vieni a trovarci?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "935010",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -12101,6 +12663,28 @@
     "source_id": "951720",
     "tag_rules": {
       "ERR_SC_PALATAL": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "es": "¿En dónde puedo encontrar una cabina telefónica?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1854903",
+    "id": "s_955459",
+    "it": "Dove posso trovare una cabina telefonica?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "955459",
+    "tag_rules": {
+      "ERR_VOC_INTERROG": "capsule_calque"
     },
     "translation_kind": "direct"
   },

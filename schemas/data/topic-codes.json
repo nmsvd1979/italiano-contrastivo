@@ -194,5 +194,19 @@
     ],
     "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
     "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_INTERROG",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Las palabras para preguntar: dove (dónde), quando (cuándo), perché (por qué y también «porque»), come (cómo), chi (quién), quanto (cuánto), quale (cuál), cosa (qué). Ojo: en italiano no hay signo de apertura (¿) y «perché» sirve para preguntar y para responder.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
   }
 ]

@@ -415,6 +415,11 @@
     "wrong": "Tom non conosce suoi vicini."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Dove vive il tuo migliore amico?",
+    "wrong": "Dove vive tuo migliore amico?"
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Sei arrivato in tempo.",
     "wrong": "Hai arrivato in tempo."
@@ -546,6 +551,11 @@
   },
   {
     "code": "ERR_TENERE_AVERE",
+    "correct": "Quando si mangia? Ho fame!",
+    "wrong": "Quando si mangia? Tengo fame!"
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
     "correct": "Forse hai ragione.",
     "wrong": "Forse tieni ragione."
   },
@@ -563,6 +573,11 @@
     "code": "ERR_TENERE_AVERE",
     "correct": "Nancy ha paura dei cani.",
     "wrong": "Nancy tiene paura dei cani."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Quale è la temperatura del ghiaccio?",
+    "wrong": "Quale è la temperatura di il ghiaccio?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -788,6 +803,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "L'ingresso alla biblioteca è libero.",
     "wrong": "L'ingresso a la biblioteca è libero."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Perché non utilizza la sua lingua?",
+    "wrong": "Perché non utilizza sua lingua?"
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",

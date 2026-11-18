@@ -253,3 +253,12 @@ topics:
     - "cinquanta|-|-|cincuenta"
     - "cento|-|-|cien"
     - "mille|-|-|mil"
+  ERR_VOC_INTERROG:
+    - "dove|-|-|dónde"
+    - "quando|-|-|cuándo"
+    - "perché|-|-|por qué"
+    - "come|-|-|cómo"
+    - "chi|-|-|quién"
+    - "quanto|-|-|cuánto"
+    - "quale|-|-|cuál"
+    - "cosa|-|-|qué"

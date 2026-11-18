@@ -3235,6 +3235,158 @@
     "cefr": "A1",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Las palabras para preguntar: dove (dónde), quando (cuándo), perché (por qué y también «porque»), come (cómo), chi (quién), quanto (cuánto), quale (cuál), cosa (qué). Ojo: en italiano no hay signo de apertura (¿) y «perché» sirve para preguntar y para responder."
+    },
+    "id": "cap_err_voc_interrog",
+    "retrieval": [
+      {
+        "id": "it_choice_s_1989130_ERR_VOC_INTERROG",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Cosa non ti piace?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_INTERROG",
+            "text": "Come non ti piace?"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1989130",
+        "target_error_codes": [
+          "ERR_VOC_INTERROG"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "come"
+        ],
+        "hint_es": "¿Cómo se llama?",
+        "id": "it_cloze_s_1441832_ERR_VOC_INTERROG",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1441832",
+        "target_error_codes": [
+          "ERR_VOC_INTERROG"
+        ],
+        "text": "Lui ___ si chiama?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Dove",
+          "sono",
+          "le",
+          "docce?"
+        ],
+        "id": "it_reorder_s_4434_ERR_VOC_INTERROG",
+        "prompt_es": "Ordena las palabras: «¿Dónde están las duchas?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4434",
+        "target_error_codes": [
+          "ERR_VOC_INTERROG"
+        ],
+        "tokens": [
+          "sono",
+          "le",
+          "docce?",
+          "Dove"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_922822_ERR_VOC_INTERROG",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_INTERROG",
+            "text": "Quando sono i ragazzi?"
+          },
+          {
+            "correct": true,
+            "text": "Dove sono i ragazzi?"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_922822",
+        "target_error_codes": [
+          "ERR_VOC_INTERROG"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "cosa"
+        ],
+        "hint_es": "¿Vosotros qué debéis hacer?",
+        "id": "it_cloze_s_2885543_ERR_VOC_INTERROG",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2885543",
+        "target_error_codes": [
+          "ERR_VOC_INTERROG"
+        ],
+        "text": "Voi ___ dovete fare?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Quanto",
+          "costa",
+          "un",
+          "uovo?"
+        ],
+        "id": "it_reorder_s_3697122_ERR_VOC_INTERROG",
+        "prompt_es": "Ordena las palabras: «¿Cuánto cuesta un huevo?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3697122",
+        "target_error_codes": [
+          "ERR_VOC_INTERROG"
+        ],
+        "tokens": [
+          "un",
+          "uovo?",
+          "Quanto",
+          "costa"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_INTERROG"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Lui come lo sa?"
+      ],
+      "id": "it_translate_s_2975152_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2975152",
+      "source_es": "¿Cómo sabe él eso?",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "Libro, penna, classe, studente, lavoro, ufficio, medico… Las profesiones suelen tener forma masculina y femenina: lo studente / la studentessa, il professore / la professoressa."
     },
     "id": "cap_err_voc_lavoro",

@@ -530,6 +530,92 @@
       ]
     },
     {
+      "id": "u30",
+      "level": "A1",
+      "title": "Vocabulario: preguntar (dove, quando, perché…)",
+      "goal_es": "Dove, quando, perché, come, chi, quanto, quale, cosa: reconocerlas al oírlas y usarlas en preguntas reales.",
+      "codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "why_here": "Con ellas ya se pueden hacer preguntas desde el primer día.",
+      "status": "active",
+      "explanation_es": "Las palabras para preguntar: dove (dónde), quando (cuándo), perché (por qué y también «porque»), come (cómo), chi (quién), quanto (cuánto), quale (cuál), cosa (qué). Ojo: en italiano no hay signo de apertura (¿) y «perché» sirve para preguntar y para responder.",
+      "parts": {
+        "descubre": [
+          "s_2975152",
+          "s_1989130",
+          "s_1441832",
+          "s_4434"
+        ],
+        "practica": [
+          "s_2975152",
+          "s_1989130",
+          "s_1441832",
+          "s_4434",
+          "s_922822",
+          "s_2885543",
+          "s_3697122",
+          "s_1330875",
+          "s_738768",
+          "s_4463569",
+          "s_1859908",
+          "s_381212",
+          "s_388805",
+          "s_8081497",
+          "s_4577451",
+          "s_935010",
+          "s_1516083",
+          "s_2845495",
+          "s_524147",
+          "s_851744"
+        ],
+        "escucha": [
+          "s_2975152",
+          "s_1441832",
+          "s_922822",
+          "s_3697122",
+          "s_738768",
+          "s_1859908",
+          "s_388805",
+          "s_4577451"
+        ],
+        "prueba": [
+          "s_1999027",
+          "s_8867140",
+          "s_3892338",
+          "s_1504754",
+          "s_414476",
+          "s_955459"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2975152",
+          "start": 4,
+          "end": 8,
+          "wrong": "quanto"
+        },
+        {
+          "id": "s_1989130",
+          "start": 0,
+          "end": 4,
+          "wrong": "Come"
+        },
+        {
+          "id": "s_1441832",
+          "start": 4,
+          "end": 8,
+          "wrong": "cosa"
+        },
+        {
+          "id": "s_4434",
+          "start": 0,
+          "end": 4,
+          "wrong": "Chi"
+        }
+      ]
+    },
+    {
       "id": "u04",
       "level": "A1",
       "title": "Tener no es «tenere»: ho fame",

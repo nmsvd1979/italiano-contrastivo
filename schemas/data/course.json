@@ -75,6 +75,16 @@
       "why_here": "Primer vocabulario: hablar de ti y de tu gente."
     },
     {
+      "id": "u30",
+      "level": "A1",
+      "title": "Vocabulario: preguntar (dove, quando, perché…)",
+      "goal_es": "Dove, quando, perché, come, chi, quanto, quale, cosa: reconocerlas al oírlas y usarlas en preguntas reales.",
+      "codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "why_here": "Con ellas ya se pueden hacer preguntas desde el primer día."
+    },
+    {
       "id": "u04",
       "level": "A1",
       "title": "Tener no es «tenere»: ho fame",

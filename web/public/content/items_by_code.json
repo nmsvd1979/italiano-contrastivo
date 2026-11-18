@@ -46568,6 +46568,2418 @@
       "type": "choice_l1_distractor"
     }
   ],
+  "ERR_VOC_INTERROG": [
+    {
+      "id": "it_choice_s_2975152_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": true,
+          "text": "Lui come lo sa?"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Lui quanto lo sa?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2975152",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "come"
+      ],
+      "hint_es": "¿Cómo sabe él eso?",
+      "id": "it_cloze_s_2975152_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2975152",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "Lui ___ lo sa?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Lui",
+        "come",
+        "lo",
+        "sa?"
+      ],
+      "id": "it_reorder_s_2975152_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Cómo sabe él eso?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2975152",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "lo",
+        "sa?",
+        "come",
+        "Lui"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1989130_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Come non ti piace?"
+        },
+        {
+          "correct": true,
+          "text": "Cosa non ti piace?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1989130",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Cosa"
+      ],
+      "hint_es": "¿Qué no te gusta?",
+      "id": "it_cloze_s_1989130_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1989130",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ non ti piace?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Cosa",
+        "non",
+        "ti",
+        "piace?"
+      ],
+      "id": "it_reorder_s_1989130_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Qué no te gusta?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1989130",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "piace?",
+        "non",
+        "Cosa",
+        "ti"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1441832_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": true,
+          "text": "Lui come si chiama?"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Lui cosa si chiama?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1441832",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "come"
+      ],
+      "hint_es": "¿Cómo se llama?",
+      "id": "it_cloze_s_1441832_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1441832",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "Lui ___ si chiama?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Lui",
+        "come",
+        "si",
+        "chiama?"
+      ],
+      "id": "it_reorder_s_1441832_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Cómo se llama?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1441832",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "si",
+        "come",
+        "Lui",
+        "chiama?"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_4434_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Chi sono le docce?"
+        },
+        {
+          "correct": true,
+          "text": "Dove sono le docce?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4434",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Dove"
+      ],
+      "hint_es": "¿Dónde están las duchas?",
+      "id": "it_cloze_s_4434_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4434",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ sono le docce?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Dove",
+        "sono",
+        "le",
+        "docce?"
+      ],
+      "id": "it_reorder_s_4434_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Dónde están las duchas?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4434",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "le",
+        "docce?",
+        "Dove",
+        "sono"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_922822_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": true,
+          "text": "Dove sono i ragazzi?"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Quando sono i ragazzi?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_922822",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Dove"
+      ],
+      "hint_es": "¿Dónde están los chicos?",
+      "id": "it_cloze_s_922822_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_922822",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ sono i ragazzi?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Dove",
+        "sono",
+        "i",
+        "ragazzi?"
+      ],
+      "id": "it_reorder_s_922822_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Dónde están los chicos?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_922822",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "i",
+        "Dove",
+        "sono",
+        "ragazzi?"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_2885543_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Voi dove dovete fare?"
+        },
+        {
+          "correct": true,
+          "text": "Voi cosa dovete fare?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2885543",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "cosa"
+      ],
+      "hint_es": "¿Vosotros qué debéis hacer?",
+      "id": "it_cloze_s_2885543_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2885543",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "Voi ___ dovete fare?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Voi",
+        "cosa",
+        "dovete",
+        "fare?"
+      ],
+      "id": "it_reorder_s_2885543_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Vosotros qué debéis hacer?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2885543",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "cosa",
+        "Voi",
+        "dovete",
+        "fare?"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_3697122_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": true,
+          "text": "Quanto costa un uovo?"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Chi costa un uovo?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3697122",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Quanto"
+      ],
+      "hint_es": "¿Cuánto cuesta un huevo?",
+      "id": "it_cloze_s_3697122_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3697122",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ costa un uovo?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Quanto",
+        "costa",
+        "un",
+        "uovo?"
+      ],
+      "id": "it_reorder_s_3697122_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Cuánto cuesta un huevo?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3697122",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "costa",
+        "Quanto",
+        "un",
+        "uovo?"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1330875_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Cosa vanno gli affari?"
+        },
+        {
+          "correct": true,
+          "text": "Come vanno gli affari?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1330875",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Come"
+      ],
+      "hint_es": "¿Cómo va el negocio?",
+      "id": "it_cloze_s_1330875_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1330875",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ vanno gli affari?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Come",
+        "vanno",
+        "gli",
+        "affari?"
+      ],
+      "id": "it_reorder_s_1330875_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Cómo va el negocio?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1330875",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "vanno",
+        "gli",
+        "affari?",
+        "Come"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_738768_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": true,
+          "text": "Che cosa non ti piace?"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Che perché non ti piace?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_738768",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "cosa"
+      ],
+      "hint_es": "¿Qué no te gusta?",
+      "id": "it_cloze_s_738768_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_738768",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "Che ___ non ti piace?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Che",
+        "cosa",
+        "non",
+        "ti",
+        "piace?"
+      ],
+      "id": "it_reorder_s_738768_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Qué no te gusta?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_738768",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "Che",
+        "piace?",
+        "ti",
+        "non",
+        "cosa"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_4463569_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Cosa sono i tuoi nemici?"
+        },
+        {
+          "correct": true,
+          "text": "Chi sono i tuoi nemici?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4463569",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Chi"
+      ],
+      "hint_es": "¿Quiénes son tus enemigos?",
+      "id": "it_cloze_s_4463569_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4463569",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ sono i tuoi nemici?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Chi",
+        "sono",
+        "i",
+        "tuoi",
+        "nemici?"
+      ],
+      "id": "it_reorder_s_4463569_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Quiénes son tus enemigos?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4463569",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "i",
+        "Chi",
+        "nemici?",
+        "sono",
+        "tuoi"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1859908_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": true,
+          "text": "Cosa si può mangiare qui?"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Perché si può mangiare qui?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1859908",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Cosa"
+      ],
+      "hint_es": "¿Qué se puede comer acá?",
+      "id": "it_cloze_s_1859908_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1859908",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ si può mangiare qui?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Cosa",
+        "si",
+        "può",
+        "mangiare",
+        "qui?"
+      ],
+      "id": "it_reorder_s_1859908_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Qué se puede comer acá?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1859908",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "può",
+        "qui?",
+        "mangiare",
+        "si",
+        "Cosa"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_381212_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Quale costa questo sofà?"
+        },
+        {
+          "correct": true,
+          "text": "Quanto costa questo sofà?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_381212",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Quanto"
+      ],
+      "hint_es": "¿Cuánto cuesta este sofá?",
+      "id": "it_cloze_s_381212_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_381212",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ costa questo sofà?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Quanto",
+        "costa",
+        "questo",
+        "sofà?"
+      ],
+      "id": "it_reorder_s_381212_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Cuánto cuesta este sofá?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_381212",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "questo",
+        "costa",
+        "sofà?",
+        "Quanto"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_388805_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": true,
+          "text": "Quando si mangia? Ho fame!"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Dove si mangia? Ho fame!"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_388805",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Quando"
+      ],
+      "hint_es": "¿Cuándo comemos? ¡Tengo hambre!",
+      "id": "it_cloze_s_388805_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_388805",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ si mangia? Ho fame!",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Quando",
+        "si",
+        "mangia?",
+        "Ho",
+        "fame!"
+      ],
+      "id": "it_reorder_s_388805_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Cuándo comemos? ¡Tengo hambre!»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_388805",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "fame!",
+        "Ho",
+        "si",
+        "Quando",
+        "mangia?"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_8081497_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Chi siete così taccagne?"
+        },
+        {
+          "correct": true,
+          "text": "Perché siete così taccagne?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_8081497",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Perché"
+      ],
+      "hint_es": "¿Por qué sois tan tacañas?",
+      "id": "it_cloze_s_8081497_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_8081497",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ siete così taccagne?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Perché",
+        "siete",
+        "così",
+        "taccagne?"
+      ],
+      "id": "it_reorder_s_8081497_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Por qué sois tan tacañas?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_8081497",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "così",
+        "siete",
+        "taccagne?",
+        "Perché"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_4577451_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": true,
+          "text": "Chi vuole un pezzo di torta?"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Quanto vuole un pezzo di torta?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4577451",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Chi"
+      ],
+      "hint_es": "¿Quién quiere un poco de torta?",
+      "id": "it_cloze_s_4577451_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4577451",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ vuole un pezzo di torta?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Chi",
+        "vuole",
+        "un",
+        "pezzo",
+        "di",
+        "torta?"
+      ],
+      "id": "it_reorder_s_4577451_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Quién quiere un poco de torta?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4577451",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "un",
+        "pezzo",
+        "Chi",
+        "vuole",
+        "torta?",
+        "di"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_935010_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Dove non vieni a trovarci?"
+        },
+        {
+          "correct": true,
+          "text": "Perché non vieni a trovarci?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_935010",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Perché"
+      ],
+      "hint_es": "¿Por qué no vienes a visitarnos?",
+      "id": "it_cloze_s_935010_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_935010",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ non vieni a trovarci?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Perché",
+        "non",
+        "vieni",
+        "a",
+        "trovarci?"
+      ],
+      "id": "it_reorder_s_935010_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Por qué no vienes a visitarnos?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_935010",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "Perché",
+        "trovarci?",
+        "vieni",
+        "non",
+        "a"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1516083_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": true,
+          "text": "Cosa diresti in questo contesto?"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Chi diresti in questo contesto?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1516083",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Cosa"
+      ],
+      "hint_es": "¿Qué dirías en este contexto?",
+      "id": "it_cloze_s_1516083_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1516083",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ diresti in questo contesto?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Cosa",
+        "diresti",
+        "in",
+        "questo",
+        "contesto?"
+      ],
+      "id": "it_reorder_s_1516083_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Qué dirías en este contexto?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1516083",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "contesto?",
+        "Cosa",
+        "questo",
+        "diresti",
+        "in"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_2845495_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Come vive il tuo migliore amico?"
+        },
+        {
+          "correct": true,
+          "text": "Dove vive il tuo migliore amico?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2845495",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Dove"
+      ],
+      "hint_es": "¿Dónde vive tu mejor amigo?",
+      "id": "it_cloze_s_2845495_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2845495",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ vive il tuo migliore amico?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Dove",
+        "vive",
+        "il",
+        "tuo",
+        "migliore",
+        "amico?"
+      ],
+      "id": "it_reorder_s_2845495_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Dónde vive tu mejor amigo?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2845495",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "migliore",
+        "amico?",
+        "il",
+        "Dove",
+        "tuo",
+        "vive"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_524147_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": true,
+          "text": "Quanto costano questi pantaloni?"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Chi costano questi pantaloni?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_524147",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Quanto"
+      ],
+      "hint_es": "¿Cuánto cuestan estos pantalones?",
+      "id": "it_cloze_s_524147_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_524147",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ costano questi pantaloni?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Quanto",
+        "costano",
+        "questi",
+        "pantaloni?"
+      ],
+      "id": "it_reorder_s_524147_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Cuánto cuestan estos pantalones?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_524147",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "pantaloni?",
+        "Quanto",
+        "costano",
+        "questi"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_851744_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Perché posso restituire il libro?"
+        },
+        {
+          "correct": true,
+          "text": "Quando posso restituire il libro?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_851744",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Quando"
+      ],
+      "hint_es": "¿Cuándo puedo devolver el libro?",
+      "id": "it_cloze_s_851744_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_851744",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ posso restituire il libro?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Quando",
+        "posso",
+        "restituire",
+        "il",
+        "libro?"
+      ],
+      "id": "it_reorder_s_851744_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Cuándo puedo devolver el libro?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_851744",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "Quando",
+        "posso",
+        "il",
+        "restituire",
+        "libro?"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1999027_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": true,
+          "text": "Perché mi fai soffrire così tanto?"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Quando mi fai soffrire così tanto?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1999027",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Perché"
+      ],
+      "hint_es": "¿Por qué me haces sufrir tanto?",
+      "id": "it_cloze_s_1999027_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1999027",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ mi fai soffrire così tanto?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Perché",
+        "mi",
+        "fai",
+        "soffrire",
+        "così",
+        "tanto?"
+      ],
+      "id": "it_reorder_s_1999027_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Por qué me haces sufrir tanto?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1999027",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "tanto?",
+        "mi",
+        "fai",
+        "così",
+        "soffrire",
+        "Perché"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_8867140_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Dove non utilizza la sua lingua?"
+        },
+        {
+          "correct": true,
+          "text": "Perché non utilizza la sua lingua?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_8867140",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Perché"
+      ],
+      "hint_es": "¿Por qué no utiliza su idioma?",
+      "id": "it_cloze_s_8867140_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_8867140",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ non utilizza la sua lingua?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Perché",
+        "non",
+        "utilizza",
+        "la",
+        "sua",
+        "lingua?"
+      ],
+      "id": "it_reorder_s_8867140_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Por qué no utiliza su idioma?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_8867140",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "utilizza",
+        "Perché",
+        "lingua?",
+        "non",
+        "la",
+        "sua"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_3892338_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": true,
+          "text": "Chi vuole tradurre questo articolo?"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Quanto vuole tradurre questo articolo?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3892338",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Chi"
+      ],
+      "hint_es": "¿Quién quiere traducir este artículo?",
+      "id": "it_cloze_s_3892338_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3892338",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ vuole tradurre questo articolo?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Chi",
+        "vuole",
+        "tradurre",
+        "questo",
+        "articolo?"
+      ],
+      "id": "it_reorder_s_3892338_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Quién quiere traducir este artículo?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3892338",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "vuole",
+        "Chi",
+        "questo",
+        "articolo?",
+        "tradurre"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1504754_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Quale si dice \"grazie\" in giapponese?"
+        },
+        {
+          "correct": true,
+          "text": "Come si dice \"grazie\" in giapponese?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1504754",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Come"
+      ],
+      "hint_es": "¿Cómo se dice \"gracias\" en japonés?",
+      "id": "it_cloze_s_1504754_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1504754",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ si dice \"grazie\" in giapponese?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Come",
+        "si",
+        "dice",
+        "\"grazie\"",
+        "in",
+        "giapponese?"
+      ],
+      "id": "it_reorder_s_1504754_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Cómo se dice \"gracias\" en japonés?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1504754",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "\"grazie\"",
+        "giapponese?",
+        "dice",
+        "si",
+        "Come",
+        "in"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_414476_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": true,
+          "text": "Quale è la temperatura del ghiaccio?"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Come è la temperatura del ghiaccio?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_414476",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Quale"
+      ],
+      "hint_es": "¿Cuál es la temperatura del hielo?",
+      "id": "it_cloze_s_414476_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_414476",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ è la temperatura del ghiaccio?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Quale",
+        "è",
+        "la",
+        "temperatura",
+        "del",
+        "ghiaccio?"
+      ],
+      "id": "it_reorder_s_414476_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿Cuál es la temperatura del hielo?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_414476",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "ghiaccio?",
+        "del",
+        "temperatura",
+        "è",
+        "Quale",
+        "la"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_955459_ERR_VOC_INTERROG",
+      "listen": true,
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "Chi posso trovare una cabina telefonica?"
+        },
+        {
+          "correct": true,
+          "text": "Dove posso trovare una cabina telefonica?"
+        }
+      ],
+      "prompt_es": "Escucha la frase y elige cómo se escribe.",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_955459",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "Dove"
+      ],
+      "hint_es": "¿En dónde puedo encontrar una cabina telefónica?",
+      "id": "it_cloze_s_955459_ERR_VOC_INTERROG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_955459",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "text": "___ posso trovare una cabina telefonica?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Dove",
+        "posso",
+        "trovare",
+        "una",
+        "cabina",
+        "telefonica?"
+      ],
+      "id": "it_reorder_s_955459_ERR_VOC_INTERROG",
+      "prompt_es": "Ordena las palabras: «¿En dónde puedo encontrar una cabina telefónica?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_955459",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "tokens": [
+        "una",
+        "trovare",
+        "cabina",
+        "Dove",
+        "posso",
+        "telefonica?"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_meaning_s_2975152_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuánto"
+        },
+        {
+          "correct": true,
+          "text": "cómo"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuál"
+        }
+      ],
+      "prompt_es": "En «Lui come lo sa?», ¿qué significa «come»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2975152",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_1989130_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cómo"
+        },
+        {
+          "correct": true,
+          "text": "qué"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "quién"
+        }
+      ],
+      "prompt_es": "En «Cosa non ti piace?», ¿qué significa «cosa»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1989130",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_1441832_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuál"
+        },
+        {
+          "correct": true,
+          "text": "cómo"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "quién"
+        }
+      ],
+      "prompt_es": "En «Lui come si chiama?», ¿qué significa «come»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1441832",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_4434_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuál"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "quién"
+        },
+        {
+          "correct": true,
+          "text": "dónde"
+        }
+      ],
+      "prompt_es": "En «Dove sono le docce?», ¿qué significa «dove»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4434",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_922822_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": true,
+          "text": "dónde"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuál"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuánto"
+        }
+      ],
+      "prompt_es": "En «Dove sono i ragazzi?», ¿qué significa «dove»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_922822",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_2885543_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "dónde"
+        },
+        {
+          "correct": true,
+          "text": "qué"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "por qué"
+        }
+      ],
+      "prompt_es": "En «Voi cosa dovete fare?», ¿qué significa «cosa»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2885543",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_3697122_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "qué"
+        },
+        {
+          "correct": true,
+          "text": "cuánto"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuál"
+        }
+      ],
+      "prompt_es": "En «Quanto costa un uovo?», ¿qué significa «quanto»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3697122",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_1330875_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuánto"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "dónde"
+        },
+        {
+          "correct": true,
+          "text": "cómo"
+        }
+      ],
+      "prompt_es": "En «Come vanno gli affari?», ¿qué significa «come»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1330875",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_738768_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "por qué"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cómo"
+        },
+        {
+          "correct": true,
+          "text": "qué"
+        }
+      ],
+      "prompt_es": "En «Che cosa non ti piace?», ¿qué significa «cosa»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_738768",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_4463569_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": true,
+          "text": "quién"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuánto"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "dónde"
+        }
+      ],
+      "prompt_es": "En «Chi sono i tuoi nemici?», ¿qué significa «chi»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4463569",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_1859908_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuándo"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuál"
+        },
+        {
+          "correct": true,
+          "text": "qué"
+        }
+      ],
+      "prompt_es": "En «Cosa si può mangiare qui?», ¿qué significa «cosa»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1859908",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_381212_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": true,
+          "text": "cuánto"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "dónde"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "quién"
+        }
+      ],
+      "prompt_es": "En «Quanto costa questo sofà?», ¿qué significa «quanto»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_381212",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_388805_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "qué"
+        },
+        {
+          "correct": true,
+          "text": "cuándo"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuál"
+        }
+      ],
+      "prompt_es": "En «Quando si mangia? Ho fame!», ¿qué significa «quando»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_388805",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_8081497_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuándo"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "qué"
+        },
+        {
+          "correct": true,
+          "text": "por qué"
+        }
+      ],
+      "prompt_es": "En «Perché siete così taccagne?», ¿qué significa «perché»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_8081497",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_4577451_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cómo"
+        },
+        {
+          "correct": true,
+          "text": "quién"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuándo"
+        }
+      ],
+      "prompt_es": "En «Chi vuole un pezzo di torta?», ¿qué significa «chi»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4577451",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_935010_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "dónde"
+        },
+        {
+          "correct": true,
+          "text": "por qué"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "quién"
+        }
+      ],
+      "prompt_es": "En «Perché non vieni a trovarci?», ¿qué significa «perché»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_935010",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_1516083_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "dónde"
+        },
+        {
+          "correct": true,
+          "text": "qué"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuánto"
+        }
+      ],
+      "prompt_es": "En «Cosa diresti in questo contesto?», ¿qué significa «cosa»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1516083",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_2845495_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "qué"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuándo"
+        },
+        {
+          "correct": true,
+          "text": "dónde"
+        }
+      ],
+      "prompt_es": "En «Dove vive il tuo migliore amico?», ¿qué significa «dove»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2845495",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_524147_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": true,
+          "text": "cuánto"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "dónde"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "por qué"
+        }
+      ],
+      "prompt_es": "En «Quanto costano questi pantaloni?», ¿qué significa «quanto»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_524147",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_851744_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": true,
+          "text": "cuándo"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "quién"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuánto"
+        }
+      ],
+      "prompt_es": "En «Quando posso restituire il libro?», ¿qué significa «quando»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_851744",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_1999027_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "dónde"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "qué"
+        },
+        {
+          "correct": true,
+          "text": "por qué"
+        }
+      ],
+      "prompt_es": "En «Perché mi fai soffrire così tanto?», ¿qué significa «perché»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1999027",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_8867140_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": true,
+          "text": "por qué"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuánto"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuál"
+        }
+      ],
+      "prompt_es": "En «Perché non utilizza la sua lingua?», ¿qué significa «perché»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_8867140",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_3892338_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": true,
+          "text": "quién"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "qué"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cómo"
+        }
+      ],
+      "prompt_es": "En «Chi vuole tradurre questo articolo?», ¿qué significa «chi»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3892338",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_1504754_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuánto"
+        },
+        {
+          "correct": true,
+          "text": "cómo"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "quién"
+        }
+      ],
+      "prompt_es": "En «Come si dice \"grazie\" in giapponese?», ¿qué significa «come»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1504754",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_414476_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cuándo"
+        },
+        {
+          "correct": true,
+          "text": "cuál"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cómo"
+        }
+      ],
+      "prompt_es": "En «Quale è la temperatura del ghiaccio?», ¿qué significa «quale»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_414476",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "id": "it_meaning_s_955459_ERR_VOC_INTERROG",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "cómo"
+        },
+        {
+          "correct": true,
+          "text": "dónde"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "different_word",
+          "error_code": "ERR_VOC_INTERROG",
+          "text": "qué"
+        }
+      ],
+      "prompt_es": "En «Dove posso trovare una cabina telefonica?», ¿qué significa «dove»?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_955459",
+      "target_error_codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "type": "choice_l1_distractor"
+    }
+  ],
   "ERR_VOC_LAVORO": [
     {
       "id": "it_choice_s_428047_ERR_VOC_LAVORO",

@@ -6,13 +6,14 @@
     "Bibi81": 2,
     "Cero": 2,
     "Cocorico": 1,
+    "DeSha": 1,
     "Gloria7": 2,
-    "Guybrush88": 584,
+    "Guybrush88": 603,
     "Heracleum": 6,
     "IdiomHunter": 1,
     "JLGQ_": 1,
     "Nuel": 2,
-    "Pharamp": 92,
+    "Pharamp": 94,
     "Ricardo14": 3,
     "Rovo": 2,
     "Safari": 1,
@@ -26,7 +27,7 @@
     "WM3DAS": 1,
     "Zaghawa": 1,
     "_Martina_": 1,
-    "al_ex_an_der": 5,
+    "al_ex_an_der": 6,
     "alexmarcelo": 7,
     "aliceinwire": 1,
     "carlosalberto": 13,
@@ -44,7 +45,7 @@
     "hundo": 1,
     "jacopofar": 1,
     "leonardo": 2,
-    "marco87": 6,
+    "marco87": 7,
     "martin": 5,
     "miccap": 1,
     "mraz": 1,
@@ -55,11 +56,11 @@
     "rul": 1,
     "samir_t": 1,
     "saverius": 2,
-    "shoras": 1,
+    "shoras": 2,
     "skywatcher": 1,
     "unforgiven95": 7,
     "valealb": 2,
-    "ver": 1,
+    "ver": 2,
     "zhou24": 1
   },
   "codes": {
@@ -119,6 +120,7 @@
     "ERR_VOC_CITTA": 24,
     "ERR_VOC_CORPO": 24,
     "ERR_VOC_FAMILIA": 25,
+    "ERR_VOC_INTERROG": 26,
     "ERR_VOC_LAVORO": 24,
     "ERR_VOC_NUMERI": 23,
     "ERR_VOC_TEMPO": 24,
@@ -190,17 +192,17 @@
     "s_9981034"
   ],
   "levels": {
-    "A1": 539,
+    "A1": 565,
     "A2": 199,
     "B1": 138,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 856,
+    "llm-audit": 882,
     "me": 27
   },
   "translation_kind": {
-    "direct": 709,
+    "direct": 735,
     "llm": 174
   }
 }

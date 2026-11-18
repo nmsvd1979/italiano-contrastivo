@@ -60,6 +60,8 @@ def _pick(seq, key: str):
 
 def find_vocab(code: str, it: str):
     """(start, end, palabra, sustituta, glosa, distractores) o None. Exactamente una palabra del tema en la oración."""
+    if code == "ERR_VOC_INTERROG" and "?" not in it:  # solo como pregunta («come» también es «como»)
+        return None
     entries = topics()[code]
     by_form = {e.form.lower(): e for e in entries}
     hits = [m for m in re.finditer(r"[\wàèéìòùÀ-Ü]+", it) if m.group(0).lower() in by_form]
