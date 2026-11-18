@@ -1,4 +1,5 @@
 import { STEP_LABEL } from "../state/course";
+import { BLOCKS, type SessionBlock } from "../state/dayplan";
 import type { TodayPlan } from "../state/session";
 import type { DayProgress } from "../state/store";
 import { formatDuration } from "../state/timing";
@@ -11,11 +12,11 @@ export function nextAction(plan: TodayPlan): { href: string; label: string } {
   const pending = plan.review.due + plan.review.newAvailable;
   if (plan.review.due > 0) return { href: "#/repaso", label: `Repaso · ${formatDuration(plan.review.seconds)}` };
   if (plan.unit) return { href: `#/unidad/${plan.unit.view.unit.id}/${plan.unit.step}`, label: `${STEP_LABEL[plan.unit.step]} · ${formatDuration(plan.unit.seconds)}` };
-  if (pending > 0) return { href: "#/repaso", label: `Repaso · ${formatDuration(plan.review.seconds)}` };
+  if (pending + plan.review.filler > 0) return { href: "#/repaso", label: `Repaso · ${formatDuration(plan.review.seconds)}` };
   return { href: "#/ruta", label: "Ver la ruta" };
 }
 
-export function TodayScreen({ plan, day, storeError, firstTime, streak }: { plan: TodayPlan; day: DayProgress; storeError?: string | null; firstTime?: boolean; streak?: Streak }) {
+export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks }: { plan: TodayPlan; day: DayProgress; storeError?: string | null; firstTime?: boolean; streak?: Streak; blocks?: SessionBlock[] }) {
   const pending = plan.review.due + plan.review.newAvailable;
   const { unit, route } = plan;
   const action = nextAction(plan);
@@ -47,26 +48,22 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak }: { plan
         ) : (
           <div className="title">Completaste todas las unidades disponibles. <a href="#/ruta">Ver la ruta</a></div>
         )}
-        <div className="bar seg" aria-hidden="true">
-          <i style={{ flex: 5, background: reviewDone ? "var(--b1)" : "var(--line)" }} />
-          <i style={{ flex: 10, background: unitDone ? "var(--b2)" : "var(--line)" }} />
-          <i style={{ flex: 8, background: "var(--line)", opacity: .5 }} />
-          <i style={{ flex: 7, background: "var(--line)", opacity: .5 }} />
-        </div>
-        <ul className="blocks">
-          <li data-done={reviewDone} data-next={action.href === "#/repaso"}>
-            <span className="dot" style={{ background: "var(--b1)" }} />
-            <span className="t"><b>① Repaso</b><small>{pending > 0 ? `Tienes ${pending} para repasar` : "No tienes repasos pendientes ahora."}</small></span>
-            <span className="min">{pending > 0 ? formatDuration(plan.review.seconds) : "✓"}</span>
-          </li>
-          <li data-done={unitDone} data-next={!!unit && action.href.startsWith("#/unidad")}>
-            <span className="dot" style={{ background: "var(--b2)" }} />
-            <span className="t"><b>② Tu unidad</b><small>{unit ? `${STEP_LABEL[unit.step]} · paso siguiente` : "Sin pasos pendientes"}</small></span>
-            <span className="min">{unit ? formatDuration(unit.seconds) : "—"}</span>
-          </li>
-          <li data-soon="true"><span className="dot" style={{ background: "var(--b3)" }} /><span className="t"><b>③ Sonidos y voz</b><small>Próximamente</small></span><span className="min">8 min</span></li>
-          <li data-soon="true"><span className="dot" style={{ background: "var(--b4)" }} /><span className="t"><b>④ Lectura</b><small>Próximamente</small></span><span className="min">7 min</span></li>
-        </ul>
+        {blocks && (
+          <>
+            <div className="bar seg" aria-hidden="true">
+              {blocks.map((b, i) => <i key={i} style={{ flex: Math.max(1, Math.round(b.seconds / 60)), background: b.done ? BLOCKS[b.key].color : "var(--line)" }} />)}
+            </div>
+            <ul className="blocks">
+              {blocks.map((b, i) => (
+                <li key={`${b.key}-${b.step ?? "r"}-${i}`} data-done={b.done} data-next={!b.done && blocks.findIndex((x) => !x.done) === i}>
+                  <span className="dot" style={{ background: BLOCKS[b.key].color }} />
+                  <span className="t"><b>{BLOCKS[b.key].n} {b.title}</b><small>{b.subtitle}</small></span>
+                  <span className="min">{b.done ? "✓" : formatDuration(b.seconds)}</span>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
         <p><small>Hoy llevas {plural(plan.stepsToday, "paso", "pasos")} y {plural(day.reviewsDone, "repaso", "repasos")}. Cada bloque se puede hacer por separado.</small></p>
       </div>
       <div className="actions-bottom above-tabs">

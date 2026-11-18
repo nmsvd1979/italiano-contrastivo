@@ -20,6 +20,7 @@ import { ReviewScreen } from "./ui/ReviewScreen";
 import { TodayScreen } from "./ui/TodayScreen";
 import { TabBar, isFocusRoute } from "./ui/kit/TabBar";
 import { computeStreak } from "./state/streak";
+import { planSession } from "./state/dayplan";
 import { WriteScreen } from "./ui/WriteScreen";
 import "./styles.css";
 
@@ -48,7 +49,9 @@ function Today({ pack, store, storeError }: Ready) {
     Promise.all([store.allCards(), store.getDay(localDate(now)), store.allUnits(), store.allDays()]).then(([cards, day, units, days]) => setData({ cards, day: normalizeDay(day, now), units, days }));
   }, [store, tick]);
   if (!data) return <p>Cargando…</p>;
-  return <TodayScreen plan={planToday({ pack, cards: data.cards, day: data.day, now: new Date(), units: data.units, samples: loadSamples() })} day={data.day} storeError={storeError} firstTime={data.cards.length === 0 && data.units.length === 0 && data.day.reviewsDone === 0} streak={computeStreak(data.days, localDate(new Date()))} />;
+  const samples = loadSamples();
+  const plan = planToday({ pack, cards: data.cards, day: data.day, now: new Date(), units: data.units, samples });
+  return <TodayScreen plan={plan} blocks={planSession({ plan, day: data.day, pack, samples })} day={data.day} storeError={storeError} firstTime={data.cards.length === 0 && data.units.length === 0 && data.day.reviewsDone === 0} streak={computeStreak(data.days, localDate(new Date()))} />;
 }
 
 function useViews(ready: Ready, hash: string) {

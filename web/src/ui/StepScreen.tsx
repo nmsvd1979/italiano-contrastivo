@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import type { ContentPack } from "../content/load";
 import { canDoStep, STEP_LABEL, STEPS, unitViews, type UnitView } from "../state/course";
 import { finishStep, finishTest } from "../state/progress";
-import { dictationSentences, practiceItems, stepSeconds, testItems } from "../state/steps";
+import { practiceItems, reconstructionItems, stepSeconds, testItems, voiceItems } from "../state/steps";
 import type { StepId, Store } from "../state/store";
 import { formatDuration, loadSamples } from "../state/timing";
 import { CapsuleScreen } from "./CapsuleScreen";
-import { fromDictations, fromItems, ItemRunner, type RunResult } from "./ItemRunner";
+import { fromItems, fromVoice, ItemRunner, type RunResult } from "./ItemRunner";
 import { Ring } from "./kit/Ring";
 import { NoticeStep } from "./NoticeStep";
 
@@ -15,6 +15,7 @@ type Done = { passed?: boolean; correct?: number; total?: number };
 export function StepScreen({ unitId, step, pack, store }: { unitId: string; step: StepId; pack: ContentPack; store: Store }) {
   const [views, setViews] = useState<UnitView[] | null>(null);
   const [done, setDone] = useState<Done | null>(null);
+  const [phase, setPhase] = useState<"notice" | "rebuild">("notice");
   useEffect(() => {
     store.allUnits().then((all) => setViews(unitViews(pack.course, all)));
   }, [store, pack, done]);
@@ -40,10 +41,15 @@ export function StepScreen({ unitId, step, pack, store }: { unitId: string; step
   const run = { exitHref: exit, why: unit.explanation_es };
   return (
     <main className="focus">
-      {step === "descubre" && <NoticeStep unit={unit} pack={pack} exitHref={exit} onFinish={() => void finish()} />}
+      {step === "descubre" && phase === "notice" && (
+        <NoticeStep unit={unit} pack={pack} exitHref={exit} onFinish={() => (reconstructionItems(unit, pack, samples).length ? setPhase("rebuild") : void finish())} />
+      )}
+      {step === "descubre" && phase === "rebuild" && (
+        <ItemRunner {...run} persistKey={`${unitId}:descubre`} items={fromItems(reconstructionItems(unit, pack, samples))} requeueWrong onFinish={(r) => void finish(r)} />
+      )}
       {step === "capsula" && <CapsuleScreen capsule={pack.capsules.find((c) => c.target_error_codes[0] === unit.codes[0])!} store={store} embedded exitHref={exit} onComplete={() => void finish()} />}
       {step === "practica" && <ItemRunner {...run} persistKey={`${unitId}:practica`} items={fromItems(practiceItems(unit, pack, samples))} requeueWrong onFinish={(r) => void finish(r)} />}
-      {step === "escucha" && <ItemRunner {...run} persistKey={`${unitId}:escucha`} items={fromDictations(dictationSentences(unit, pack))} onFinish={(r) => void finish(r)} />}
+      {step === "escucha" && <ItemRunner {...run} persistKey={`${unitId}:escucha`} items={fromVoice(voiceItems(unit, pack, samples))} onFinish={(r) => void finish(r)} />}
       {step === "prueba" && <ItemRunner {...run} persistKey={`${unitId}:prueba`} items={fromItems(testItems(unit, pack))} onFinish={(r) => void finish(r)} />}
     </main>
   );

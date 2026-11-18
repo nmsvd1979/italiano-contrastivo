@@ -4,7 +4,7 @@ import { afterEach, describe, expect, it } from "vitest";
 import type { ContentPack } from "../content/load";
 import type { Item } from "../generated/item";
 import { unitViews } from "../state/course";
-import { testItems } from "../state/steps";
+import { reconstructionItems, testItems } from "../state/steps";
 import { markStep } from "../state/course";
 import { emptyProgress } from "../state/course";
 import { finishStep, finishTest, placeUnits } from "../state/progress";
@@ -119,17 +119,36 @@ describe("pantallas de la ruta con el contenido real", () => {
 });
 
 describe("flujo completo de una unidad en la interfaz", () => {
-  it("Descubre: 4 tarjetas y 2 preguntas llevan a «Paso completado» y guardan el paso", async () => {
+  const solve = async (item: Item) => {
+    if (item.type === "choice_l1_distractor") {
+      const good = (item as unknown as { options: { text: string; correct: boolean }[] }).options.find((o) => o.correct)!.text;
+      fireEvent.click(await screen.findByText(good));
+    } else if (item.type === "cloze") {
+      fireEvent.change(await screen.findByLabelText("Respuesta"), { target: { value: (item as unknown as { answers: string[] }).answers[0] } });
+      fireEvent.click(screen.getByText("Comprobar"));
+    } else {
+      await screen.findByText("Comprobar");
+      for (const t of (item as unknown as { answer: string[] }).answer) {
+        const btn = [...document.querySelectorAll(".bank button")].find((b) => b.textContent === t && !(b as HTMLButtonElement).disabled)!;
+        fireEvent.click(btn);
+      }
+      fireEvent.click(screen.getByText("Comprobar"));
+    }
+    fireEvent.click(await screen.findByText("Continuar"));
+  };
+
+  it("Descubre (bloque de lectura): tarjetas, preguntas de significado y reconstrucción llevan a «Paso completado»", async () => {
     const store = memoryStore();
     render(<StepScreen unitId="u01" step="descubre" pack={pack} store={store} />);
     for (let i = 0; i < 4; i++) fireEvent.click(await screen.findByText("Siguiente"));
     for (let q = 0; q < 2; q++) {
-      const question = pack.course.units[0];
-      expect(question).toBeTruthy();
       const first = (await screen.findAllByRole("button")).find((b) => b.closest("ul.options"))!;
       fireEvent.click(first);
       fireEvent.click(screen.getByText(/Continuar|Terminar/));
     }
+    const items = reconstructionItems(pack.course.units[0], pack);
+    expect(await screen.findByText(new RegExp(`Ejercicio 1 de ${items.length}`))).toBeTruthy();
+    for (const item of items) await solve(item);
     await screen.findByText("Paso completado ✓");
     expect((await store.getUnit("u01"))?.done.descubre).toBeTruthy();
   });

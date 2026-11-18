@@ -6,11 +6,14 @@ import { kindOf } from "../state/steps";
 import { estimateSeconds, formatDuration, type Kind, loadSamples, recordSample } from "../state/timing";
 import { DictationItem } from "./DictationItem";
 import { ItemView } from "./items/ItemView";
+import { SpeakItem } from "./SpeakItem";
 import { FocusHead } from "./kit/FocusHead";
 import { RunProvider } from "./kit/RunContext";
 
-export type RunItem = { id: string; kind: Kind; item?: Item; dictation?: PackSentence };
+export type RunItem = { id: string; kind: Kind; item?: Item; dictation?: PackSentence; shadow?: PackSentence };
 export const fromItems = (items: Item[]): RunItem[] => items.map((item) => ({ id: item.id, kind: kindOf(item), item }));
+export const fromVoice = (v: { kind: "dictation" | "shadow"; sentence: PackSentence }[]): RunItem[] =>
+  v.map((x) => (x.kind === "dictation" ? { id: `dict_${x.sentence.id}`, kind: "dictation" as const, dictation: x.sentence } : { id: `shadow_${x.sentence.id}`, kind: "shadow" as const, shadow: x.sentence }));
 export const fromDictations = (s: PackSentence[]): RunItem[] => s.map((dictation) => ({ id: `dict_${dictation.id}`, kind: "dictation", dictation }));
 
 export type RunResult = { correct: number; total: number; answers: boolean[] };
@@ -71,7 +74,9 @@ export function ItemRunner({ items, requeueWrong = false, onFinish, exitHref = "
       {streak > 0 && streak % 5 === 0 && <p className="cheer" role="note">¡{streak} aciertos seguidos!</p>}
       {current.dictation
         ? <DictationItem key={`${idx}-${pos}`} sentence={current.dictation} onAnswer={answer} />
-        : <ItemView key={`${idx}-${pos}`} item={current.item!} onAnswer={answer} />}
+        : current.shadow
+          ? <SpeakItem key={`${idx}-${pos}`} sentence={current.shadow} onAnswer={answer} />
+          : <ItemView key={`${idx}-${pos}`} item={current.item!} onAnswer={answer} />}
     </RunProvider>
   );
 }

@@ -4,6 +4,10 @@ import type { Kind, Samples } from "./timing";
 import { estimateSeconds } from "./timing";
 
 export const PRACTICE_TARGET_SECONDS = 6 * 60;
+/** Presupuesto de cada bloque de la sesión de las fuentes (segundos): lectura 7 min, voz 8 min. */
+export const LECTURA_SECONDS = 7 * 60;
+export const VOZ_SECONDS = 8 * 60;
+export const DICTATIONS_IN_VOICE = 5;
 export const TEST_ITEMS = 10;
 export const PRACTICE_MAX = 30;
 
@@ -66,6 +70,50 @@ export function testItems(unit: Unit, pack: ContentPack): Item[] {
   return out.slice(0, TEST_ITEMS);
 }
 
+/**
+ * Reconstrucción (andamiaje inverso): huecos solo en el punto de divergencia, sobre las oraciones de la unidad, hasta llenar
+ * lo que le queda al bloque de lectura (7 min menos las tarjetas y preguntas de «Descubre»). Prefiere hueco, luego orden y elección.
+ */
+export function reconstructionItems(unit: Unit, pack: ContentPack, samples: Samples = {}): Item[] {
+  const t = (k: Kind, n = 1) => estimateSeconds(k, samples) * n;
+  const target = LECTURA_SECONDS - (t("notice", unit.parts.descubre.length) + t("choice", 2));
+  const order = [...new Set([...unit.parts.descubre, ...unit.parts.escucha, ...unit.parts.practica])];
+  const bySentence = unitItems(unit, pack, order);
+  const out: Item[] = [];
+  let seconds = 0;
+  for (const type of ["cloze", "reorder", "choice_l1_distractor"]) {
+    for (const id of order) {
+      if (seconds >= target || out.length >= 18) break;
+      const it = bySentence.get(id)?.find((x) => x.type === type);
+      if (it) { out.push(it); seconds += estimateSeconds(kindOf(it), samples); }
+    }
+  }
+  return out;
+}
+
+/** Frases para repetir en voz alta: cortas y distintas de las del dictado. */
+export function shadowSentences(unit: Unit, pack: ContentPack, n = 8): PackSentence[] {
+  const idx = sentenceIndex(pack);
+  const heard = new Set(unit.parts.escucha.slice(0, DICTATIONS_IN_VOICE));
+  const words = (x: PackSentence) => x.it.split(/\s+/).length;
+  return unit.parts.practica.filter((id) => !heard.has(id)).map((id) => idx.get(id)).filter((x): x is PackSentence => !!x && !!x.audio && words(x) <= 9)
+    .sort((a, b) => words(a) - words(b)).slice(0, n);
+}
+
+export type VoiceItem = { kind: "dictation"; sentence: PackSentence } | { kind: "shadow"; sentence: PackSentence };
+/** Bloque «Sonidos y voz»: dictados y luego repetir en voz alta, hasta ≈8 min. */
+export function voiceItems(unit: Unit, pack: ContentPack, samples: Samples = {}): VoiceItem[] {
+  const dict: VoiceItem[] = dictationSentences(unit, pack).slice(0, DICTATIONS_IN_VOICE).map((sentence) => ({ kind: "dictation", sentence }));
+  let seconds = dict.length * estimateSeconds("dictation", samples);
+  const out = [...dict];
+  for (const sentence of shadowSentences(unit, pack)) {
+    if (seconds >= VOZ_SECONDS) break;
+    out.push({ kind: "shadow", sentence });
+    seconds += estimateSeconds("shadow", samples);
+  }
+  return out;
+}
+
 export const dictationSentences = (unit: Unit, pack: ContentPack): PackSentence[] => {
   const idx = sentenceIndex(pack);
   return unit.parts.escucha.map((id) => idx.get(id)).filter((s): s is PackSentence => !!s);
@@ -108,13 +156,13 @@ export function meaningQuestions(cards: NoticeCard[], pool: PackSentence[] = [],
 export function stepSeconds(unit: Unit, step: "descubre" | "capsula" | "practica" | "escucha" | "prueba", pack: ContentPack, samples: Samples = {}): number {
   const t = (k: Kind, n = 1) => estimateSeconds(k, samples) * n;
   switch (step) {
-    case "descubre": return t("notice", unit.parts.descubre.length) + t("choice", 2);
+    case "descubre": return t("notice", unit.parts.descubre.length) + t("choice", 2) + reconstructionItems(unit, pack, samples).reduce((a, it) => a + estimateSeconds(kindOf(it), samples), 0);
     case "capsula": {
       const cap = pack.capsules.find((c) => c.target_error_codes[0] === unit.codes[0]);
       return t("translate") + 20 + (cap?.retrieval.reduce((s, it) => s + estimateSeconds(kindOf(it as Item), samples), 0) ?? 0);
     }
     case "practica": return practiceItems(unit, pack, samples).reduce((s, it) => s + estimateSeconds(kindOf(it), samples), 0);
-    case "escucha": return t("dictation", unit.parts.escucha.length);
+    case "escucha": return voiceItems(unit, pack, samples).reduce((a, v) => a + estimateSeconds(v.kind, samples), 0);
     case "prueba": return testItems(unit, pack).reduce((s, it) => s + estimateSeconds(kindOf(it), samples), 0);
   }
 }

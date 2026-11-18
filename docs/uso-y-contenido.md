@@ -20,6 +20,13 @@
 - Códigos con generador: 12 de 47 (se agregaron ARTICLE_ALLOMORPH, PARTICIPLE_AGREEMENT [solo siamo/siete: con sono/sei/è el participio en -o puede ser válido], POSSESSIVE_SPELLING, CONGIUNTIVO_OPINION [lista cerrada, solo 3.ª persona: se rechazaron oraciones con sujeto de 1.ª/2.ª]).
 - Auditoría IA (`scripts/capsule_pack.py` + `scripts/capsule_apply.py`): 258 revisadas en total, 232 aprobadas. **No es verificación nativa.**
 
+## Sesión de 4 bloques (2026-11-18)
+- «Hoy» muestra la **sesión de hoy** con los bloques de las fuentes y sus minutos: ① Repaso (5) · ② Gimnasio sintáctico (cápsula + práctica + prueba) · ③ Sonidos y voz (8) · ④ Lectura y reconstrucción (7). Cada paso de la unidad es un bloque; se listan los pasos que siguen hasta llenar ≈25–30 min, respetando el ciclo (lectura → gimnasio → voz → prueba). Cada bloque se puede hacer por separado.
+- **④ Lectura y reconstrucción** = tarjetas con el punto clave resaltado + preguntas de significado + huecos solo en el punto de divergencia (andamiaje inverso), llenado a ≈7 min por ítems × segundos.
+- **③ Sonidos y voz** = 5 dictados + **escuchar y repetir** (te grabas en el teléfono, te escuchas y te autoevalúas; la grabación no sale ni se guarda). **No mide pronunciación** (no hay análisis de voz); la nota es del usuario y no cuenta para la prueba.
+- **① Repaso** se llena a ≈5 min con práctica de recuperación de unidades ya completadas; si aún no hay ninguna, dura lo que dura (honesto: no inventa relleno).
+- Sin verificar: grabación con micrófono en iPhone real (permisos de Safari/PWA), tiempos reales hasta medirlos con uso.
+
 ## Estado anterior (sigue vigente en lo no reemplazado)
 ## Qué hay
 - **8 cápsulas** (AUX_ESSERE, PREP_PLACE, CE_AGREEMENT, PERSONAL_A, POSSESSIVE_ARTICLE, PREP_ARTICLE_CONTRACTION, COMPARATIVE_DI, TENERE_AVERE), **179 oraciones** (de 35), 32 falsos amigos, **211 clips** de Serena (2,2 MB de audio).

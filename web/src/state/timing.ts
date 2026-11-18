@@ -1,7 +1,7 @@
 /** Cuánto tarda cada tipo de ejercicio. Valores a priori conservadores que se reemplazan por lo MEDIDO en el uso real. */
-export type Kind = "choice" | "cloze" | "reorder" | "translate" | "dictation" | "notice" | "flashcard";
+export type Kind = "choice" | "cloze" | "reorder" | "translate" | "dictation" | "notice" | "flashcard" | "shadow";
 
-export const PRIORS: Record<Kind, number> = { choice: 12, cloze: 20, reorder: 30, translate: 45, dictation: 50, notice: 25, flashcard: 15 };
+export const PRIORS: Record<Kind, number> = { choice: 12, cloze: 20, reorder: 30, translate: 45, dictation: 50, notice: 25, flashcard: 15, shadow: 40 };
 export type Samples = Partial<Record<Kind, number[]>>;
 const MAX_SAMPLES = 30;
 const FULL_WEIGHT = 5; // con 5 mediciones la estimación depende solo de ellas
