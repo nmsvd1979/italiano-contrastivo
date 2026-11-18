@@ -4,6 +4,7 @@ import type { Card } from "../generated/card";
 import { afterReview, normalizeDay, pickItem, ratingFromAnswer, reviewQueue, type ReviewEntry } from "../state/session";
 import { newCard, review } from "../state/srs";
 import { localDate, type Store } from "../state/store";
+import { loadSamples } from "../state/timing";
 import { SpeakButton } from "./SpeakButton";
 import { ItemView } from "./items/ItemView";
 import { FocusHead } from "./kit/FocusHead";
@@ -17,7 +18,7 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
   const [saveError, setSaveError] = useState(false);
   const busy = useRef(false); // un segundo toque mientras se guarda no debe calificar dos veces
   useEffect(() => {
-    store.allCards().then((cards) => setQueue(reviewQueue({ pack, cards, now: now ?? new Date() })));
+    Promise.all([store.allCards(), store.allUnits()]).then(([cards, units]) => setQueue(reviewQueue({ pack, cards, now: now ?? new Date(), units, samples: loadSamples() })));
   }, [pack, store, now]);
   if (!queue) return <p>Cargando…</p>;
   if (queue.length === 0) return <main><p>No tienes repasos pendientes ahora.</p><p><a className="button" href="#/">Volver a Hoy</a></p></main>;
@@ -27,6 +28,25 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
   const card: Card | null = "card" in entry ? entry.card : null;
   const lexeme: Lexeme | undefined = "lexeme" in entry ? entry.lexeme : card?.subject.kind === "lexeme" ? pack.lexemes.find((l) => l.id === card.subject.ref) : undefined;
   const items = card?.subject.kind === "error_code" ? pack.itemsByCode[card.subject.ref] : undefined;
+
+  if ("filler" in entry) {
+    const code = (entry.filler as { target_error_codes?: string[] }).target_error_codes?.[0];
+    const advance = async () => {
+      const at = now ?? new Date();
+      const day = normalizeDay(await store.getDay(localDate(at)), at);
+      await store.putDay(afterReview(day));
+      setI(i + 1);
+    };
+    return (
+      <main className="focus">
+        <RunProvider value={{ why: pack.capsules.find((c) => c.target_error_codes[0] === code)?.explanation.text_es }}>
+          <FocusHead progress={i / Math.max(1, queue.length)} exitHref="#/" />
+          <p className="runner-meta">Práctica de unidades anteriores · {i + 1} de {queue.length}</p>
+          <ItemView key={`${entry.filler.id}-${i}`} item={entry.filler} onAnswer={() => void advance()} />
+        </RunProvider>
+      </main>
+    );
+  }
 
   const grade = async (rating: 1 | 2 | 3 | 4) => {
     if (busy.current) return;

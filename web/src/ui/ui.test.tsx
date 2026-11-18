@@ -6,6 +6,7 @@ import type { Item } from "../generated/item";
 import { newCard } from "../state/srs";
 import { localDate, memoryStore } from "../state/store";
 import { planToday } from "../state/session";
+import { planSession } from "../state/dayplan";
 import { emptyProgress, masterByPlacement } from "../state/course";
 import { AboutScreen } from "./AboutScreen";
 import { CapsuleScreen } from "./CapsuleScreen";
@@ -121,14 +122,12 @@ const pack = (over: Partial<ContentPack> = {}): ContentPack => ({
 
 describe("TodayScreen", () => {
   const day = { date: localDate(NOW), reviewsDone: 2, capsulesDone: ["cap_x"] };
-  it("muestra los bloques con sus minutos y un solo botón «Continuar» hacia el siguiente paso", () => {
+  it("muestra los bloques de hoy con sus minutos y un solo botón «Continuar» hacia el siguiente paso", () => {
     const plan = planToday({ pack: pack(), cards: [], day, now: NOW });
-    render(<TodayScreen plan={plan} day={day} />);
-    expect(screen.getByText("② Tu unidad")).toBeTruthy();
+    render(<TodayScreen plan={plan} day={day} blocks={planSession({ plan, day, pack: pack() })} />);
     expect(screen.getByText("Tener no es tenere")).toBeTruthy();
     expect(screen.getByText("① Repaso")).toBeTruthy();
-    expect(screen.getByText("③ Sonidos y voz")).toBeTruthy();
-    expect(screen.getAllByText("Próximamente").length).toBe(2);
+    expect(screen.getByText("④ Lectura y reconstrucción")).toBeTruthy();
     const go = screen.getByText(/^Continuar · Descubre/) as HTMLAnchorElement;
     expect(go.getAttribute("href")).toBe("#/unidad/u01/descubre");
     expect(screen.getByText(/2 repasos/)).toBeTruthy();
@@ -146,7 +145,7 @@ describe("TodayScreen", () => {
   });
   it("sin repasos pendientes lo dice", () => {
     const plan = planToday({ pack: pack({ lexemes: [] }), cards: [], day, now: NOW });
-    render(<TodayScreen plan={plan} day={day} />);
+    render(<TodayScreen plan={plan} day={day} blocks={planSession({ plan, day, pack: pack({ lexemes: [] }) })} />);
     expect(screen.getByText(/No tienes repasos pendientes ahora/)).toBeTruthy();
   });
   it("con todas las unidades completas lo dice", () => {

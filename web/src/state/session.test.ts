@@ -3,7 +3,7 @@ import type { Capsule } from "../generated/capsule";
 import type { Card } from "../generated/card";
 import type { Item } from "../generated/item";
 import type { ContentPack, Lexeme } from "../content/load";
-import { afterCapsule, afterReview, closeCapsule, normalizeDay, pickItem, planToday, ratingFromAnswer, reviewQueue } from "./session";
+import { afterCapsule, afterReview, closeCapsule, entrySeconds, normalizeDay, pickItem, planToday, ratingFromAnswer, reviewQueue } from "./session";
 import { newCard } from "./srs";
 import { localDate } from "./store";
 import { masterByPlacement, emptyProgress } from "./course";
@@ -56,6 +56,23 @@ describe("planToday", () => {
     const day = afterReview(emptyDay);
     expect(day).toEqual({ date: TODAY, reviewsDone: 1, capsulesDone: [] });
     expect(planToday({ pack: pack(), cards: [], day, now: NOW }).unit?.step).toBe("descubre");
+  });
+  it("sin unidades completadas el repaso no inventa relleno y dura lo que dura", () => {
+    const q = reviewQueue({ pack: pack(), cards: [], now: NOW, units: [] });
+    expect(q.every((e) => !("filler" in e))).toBe(true);
+  });
+  it("con una unidad completada el repaso se llena a ≈5 min con práctica de esa unidad, sin repetir ítems", () => {
+    const items = Array.from({ length: 30 }, (_, i) => ({ id: `z${i}`, type: "cloze", sentence_id: `s${i}`, text: "a ___ b", answers: ["c"], requires_server: false, review_status: "validated" }));
+    const p = pack([]);
+    p.itemsByCode = { ERR_A: items as unknown as Item[] };
+    p.course.units[0].parts.practica = items.map((i) => i.sentence_id);
+    const done = masterByPlacement(emptyProgress("u01"), NOW);
+    const q = reviewQueue({ pack: p, cards: [], now: NOW, units: [done] });
+    const secs = q.reduce((t, e) => t + entrySeconds(e), 0);
+    expect(secs).toBeGreaterThanOrEqual(300);
+    expect(secs).toBeLessThan(330);
+    expect(new Set(q.map((e) => ("filler" in e ? e.filler.id : ""))).size).toBe(q.length);
+    expect(planToday({ pack: p, cards: [], day: emptyDay, now: NOW, units: [done] }).review.filler).toBe(q.length);
   });
   it("el tiempo del repaso usa lo medido cuando existe", () => {
     const p = planToday({ pack: pack(), cards: [], day: emptyDay, now: NOW, samples: { flashcard: [5, 5, 5, 5, 5] } });

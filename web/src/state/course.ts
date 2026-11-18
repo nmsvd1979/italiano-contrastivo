@@ -6,10 +6,10 @@ export const STEP_LABEL: Record<StepId, string> = {
   descubre: "Descubre", capsula: "Cápsula", practica: "Práctica", escucha: "Escucha", prueba: "Prueba de la unidad",
 };
 export const STEP_PURPOSE: Record<StepId, string> = {
-  descubre: "Mira ejemplos reales con el punto clave resaltado y adivina el significado.",
-  capsula: "Una explicación corta y práctica guiada de un solo punto.",
+  descubre: "Bloque de lectura: ejemplos reales con el punto clave resaltado, significado y huecos solo donde el italiano difiere.",
+  capsula: "Gimnasio sintáctico: una explicación corta y práctica guiada de un solo punto.",
   practica: "Ejercicios variados; lo que falles vuelve una vez más.",
-  escucha: "Escucha frases y escríbelas: entrena el oído.",
+  escucha: "Bloque de sonidos y voz: escribe lo que oyes y repite frases en voz alta.",
   prueba: "Frases que no viste en la práctica. Con 80 % o más, completas la unidad.",
 };
 export const PASS_RATIO = 0.8;
