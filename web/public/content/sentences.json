@@ -26,6 +26,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1f70a7314789",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Somos de Francia.",
+    "es_author": "lukaszpp",
+    "es_source_id": "464349",
+    "id": "s_1016644",
+    "it": "Noi veniamo dalla Francia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1016644",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ba1c268f3f27",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -36,6 +49,19 @@
     "it": "Le sue calze sono grigie.",
     "license": "CC BY 2.0 FR",
     "source_id": "1019631",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "36b0448be13d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "La llave está sobre el escritorio.",
+    "es_author": "Shishir",
+    "es_source_id": "1020919",
+    "id": "s_1021056",
+    "it": "La chiave è sulla scrivania.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1021056",
     "translation_kind": "direct"
   },
   {
@@ -62,6 +88,19 @@
     "it": "È più famosa di lui.",
     "license": "CC BY 2.0 FR",
     "source_id": "10231935",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "f2dcc6ebf96b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Los tickets son costosos.",
+    "es_author": "saverius",
+    "es_source_id": "10451995",
+    "id": "s_10451845",
+    "it": "I biglietti sono costosi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10451845",
     "translation_kind": "direct"
   },
   {
@@ -101,6 +140,19 @@
     "it": "Lui vive vicino a casa mia.",
     "license": "CC BY 2.0 FR",
     "source_id": "1073661",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "1ea63cabdad4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Su tía parece joven.",
+    "es_author": "Shishir",
+    "es_source_id": "1077557",
+    "id": "s_1078515",
+    "it": "Sua zia sembra giovane.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1078515",
     "translation_kind": "direct"
   },
   {
@@ -245,6 +297,44 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "6b6c19ec03a2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Es sólo un consejo.",
+    "es_author": "nancy",
+    "es_source_id": "1158504",
+    "id": "s_1155617",
+    "it": "È solo un consiglio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1155617",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ab6abdae2c12",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Desayunamos en la cocina.",
+    "es_author": "IA (Claude)",
+    "id": "s_11728461",
+    "it": "Facciamo colazione in cucina.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11728461",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "40119e2f6cd9",
+    "author": "WM3DAS",
+    "cefr_estimate": "A1",
+    "es": "Abuja es la capital de Nigeria.",
+    "es_author": "Adelpa",
+    "es_source_id": "12020579",
+    "id": "s_11735147",
+    "it": "Abuja è la capitale della Nigeria.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11735147",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "4a18ffea557b",
     "author": "Nuel",
     "cefr_estimate": "A1",
@@ -255,6 +345,45 @@
     "it": "Tutti noi riconosciamo la tua intelligenza.",
     "license": "CC BY 2.0 FR",
     "source_id": "11816160",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "994fdd67ca65",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No queremos guerra.",
+    "es_author": "Adelpa",
+    "es_source_id": "12120463",
+    "id": "s_11871336",
+    "it": "Non vogliamo la guerra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11871336",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5d55ad742467",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Te deja sin aliento.",
+    "es_author": "nancy",
+    "es_source_id": "1191623",
+    "id": "s_1191467",
+    "it": "Ti toglie il fiato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1191467",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7bdd905c29b8",
+    "author": "Rovo",
+    "cefr_estimate": "A1",
+    "es": "Entiende cómo te sientes.",
+    "es_author": "saverius",
+    "es_source_id": "11950408",
+    "id": "s_11949804",
+    "it": "Capisce come ti senti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11949804",
     "translation_kind": "direct"
   },
   {
@@ -281,6 +410,19 @@
     "it": "Gli elefanti bevono molta acqua.",
     "license": "CC BY 2.0 FR",
     "source_id": "12026400",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "9a98d73f6d74",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "Es carne de mono.",
+    "es_author": "Shishir",
+    "es_source_id": "1119551",
+    "id": "s_1215046",
+    "it": "È carne di scimmia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1215046",
     "translation_kind": "direct"
   },
   {
@@ -331,6 +473,19 @@
     "it": "La Pasqua è alle porte.",
     "license": "CC BY 2.0 FR",
     "source_id": "12531932",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7827ce97fbdc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tiene un hijo y dos hijas.",
+    "es_author": "chinopinyin",
+    "es_source_id": "778676",
+    "id": "s_1255377",
+    "it": "Ha un figlio e due figlie.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1255377",
     "translation_kind": "direct"
   },
   {
@@ -412,6 +567,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a1a2700f4356",
+    "author": "Nuel",
+    "cefr_estimate": "A1",
+    "es": "Su personalidad es fascinante.",
+    "es_author": "UccelloRosso",
+    "es_source_id": "13232563",
+    "id": "s_12980466",
+    "it": "La sua personalità è affascinante.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12980466",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "7972f76c5379",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -435,6 +603,19 @@
     "it": "Di solito vado al parco.",
     "license": "CC BY 2.0 FR",
     "source_id": "13186007",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "bed5113d1fa1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Qué hago todo el día?",
+    "es_author": "Shishir",
+    "es_source_id": "1321955",
+    "id": "s_1321950",
+    "it": "Cosa faccio tutto il giorno?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1321950",
     "translation_kind": "direct"
   },
   {
@@ -500,6 +681,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9b8c7c34005b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Le tengo fobia a los payasos.",
+    "es_author": "hayastan",
+    "es_source_id": "1340003",
+    "id": "s_1333588",
+    "it": "Io ho la fobia dei pagliacci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1333588",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "00c0bed66bac",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -513,6 +707,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "8edc48a9f119",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El francés es muy difícil.",
+    "es_author": "Seael",
+    "es_source_id": "13435157",
+    "id": "s_13435159",
+    "it": "Il francese è molto difficile.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13435159",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "7d9175cd5396",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -523,6 +730,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "13437351",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "15834d0136b9",
+    "author": "marco87",
+    "cefr_estimate": "A1",
+    "es": "Mi hijo cree en Papá Noel.",
+    "es_author": "Shishir",
+    "es_source_id": "779873",
+    "id": "s_1343993",
+    "it": "Mio figlio crede a Babbo Natale.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1343993",
+    "translation_kind": "direct"
   },
   {
     "audio": "dd8c7d4fe030",
@@ -564,6 +784,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ac4d4cc92583",
+    "author": "unforgiven95",
+    "cefr_estimate": "A1",
+    "es": "En el basurero municipal abundan las ratas.",
+    "es_author": "Seael",
+    "es_source_id": "7907938",
+    "id": "s_14054451",
+    "it": "I ratti abbondano nella discarica municipale.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14054451",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "702663d09efb",
+    "author": "unforgiven95",
+    "cefr_estimate": "A1",
+    "es": "Si me equivoco, por favor, corrígeme.",
+    "es_author": "Amastan",
+    "es_source_id": "11850150",
+    "id": "s_14054462",
+    "it": "Se mi sbaglio, per favore, correggimi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14054462",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "4dca902bdef6",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -587,6 +833,19 @@
     "it": "La colpa è del governo.",
     "license": "CC BY 2.0 FR",
     "source_id": "1459263",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "80d4e25fd277",
+    "author": "rado",
+    "cefr_estimate": "A1",
+    "es": "¿Puedes arreglar nuestro lavaplatos?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1386344",
+    "id": "s_1467605",
+    "it": "Puoi riparare la nostra lavastoviglie?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1467605",
     "translation_kind": "direct"
   },
   {
@@ -628,6 +887,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c986cdc94df5",
+    "author": "Shadd",
+    "cefr_estimate": "A1",
+    "es": "A ella se le da bien cantar.",
+    "es_author": "Shishir",
+    "es_source_id": "986539",
+    "id": "s_1512719",
+    "it": "Cantare le riesce bene.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1512719",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "10351f67030c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Es más fácil morir que amar.",
+    "es_author": "Shishir",
+    "es_source_id": "1771588",
+    "id": "s_1538943",
+    "it": "È più facile morire che amare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1538943",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "a5848c32a7ac",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -664,6 +949,19 @@
     "it": "Oggi noi andiamo a ballare.",
     "license": "CC BY 2.0 FR",
     "source_id": "1554589",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "6896ef7076fb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "De los dos, él es el más diligente.",
+    "es_author": "darinmex",
+    "es_source_id": "638335",
+    "id": "s_1574083",
+    "it": "È il più diligente dei due.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1574083",
     "translation_kind": "direct"
   },
   {
@@ -729,6 +1027,32 @@
     "it": "Lei è una ragazza intelligente.",
     "license": "CC BY 2.0 FR",
     "source_id": "1679179",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "21fdba4f781d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Él es un gran científico.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1335578",
+    "id": "s_1679194",
+    "it": "Lui è un grande scienziato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1679194",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5aeaaf221eed",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo soy de Noruega.",
+    "es_author": "quarzoliquido",
+    "es_source_id": "483142",
+    "id": "s_1680620",
+    "it": "Io vengo dalla Norvegia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1680620",
     "translation_kind": "direct"
   },
   {
@@ -810,6 +1134,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "26b7e7fd1d0c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Es difícil entender su teoría.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1406454",
+    "id": "s_1834619",
+    "it": "È difficile comprendere la sua teoria.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1834619",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "1565b9385165",
     "author": "hitori37",
     "cefr_estimate": "A1",
@@ -859,6 +1196,32 @@
     "it": "Io voglio andare sulla luna.",
     "license": "CC BY 2.0 FR",
     "source_id": "1926329",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3b4a31d52280",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estoy mejor.",
+    "es_author": "Shishir",
+    "es_source_id": "2075084",
+    "id": "s_1945187",
+    "it": "Mi sto sentendo meglio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1945187",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "17fb411f4da0",
+    "author": "Zaghawa",
+    "cefr_estimate": "A1",
+    "es": "Él sabe la verdad.",
+    "es_author": "Shishir",
+    "es_source_id": "1687080",
+    "id": "s_1970624",
+    "it": "Lui conosce la verità.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1970624",
     "translation_kind": "direct"
   },
   {
@@ -976,6 +1339,19 @@
     "it": "Io sto andando con Tom.",
     "license": "CC BY 2.0 FR",
     "source_id": "2020811",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "484f8cbc4ec2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Déjame hablar con Tom.",
+    "es_author": "Julio",
+    "es_source_id": "3795269",
+    "id": "s_2020815",
+    "it": "Lasciami parlare con Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2020815",
     "translation_kind": "direct"
   },
   {
@@ -1270,6 +1646,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4e05fe5461d7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Esto es un vaso de agua.",
+    "es_author": "cueyayotl",
+    "es_source_id": "3716181",
+    "id": "s_2749378",
+    "it": "Questo è un bicchiere d'acqua.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2749378",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "16c268c3b836",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1321,6 +1710,31 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "73ed29c6d3f4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Quizás ellos son felices.",
+    "es_author": "IA (Claude)",
+    "id": "s_2808377",
+    "it": "Forse loro sono felici.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2808377",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e753ed584e73",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El precio de la gasolina sube.",
+    "es_author": "BraveSentry",
+    "es_source_id": "789495",
+    "id": "s_2810522",
+    "it": "Il prezzo della benzina sta crescendo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2810522",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "4d72d0d5e24e",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1331,6 +1745,19 @@
     "it": "Tom non conosce i suoi vicini.",
     "license": "CC BY 2.0 FR",
     "source_id": "2845274",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "80d0654e164d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Responder a esa pregunta es fácil.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "2924600",
+    "id": "s_2860164",
+    "it": "Rispondere a quella domanda è facile.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2860164",
     "translation_kind": "direct"
   },
   {
@@ -1399,6 +1826,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b261bcf12d32",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Quieren cambiar la ley.",
+    "es_author": "cueyayotl",
+    "es_source_id": "3701560",
+    "id": "s_3112095",
+    "it": "Vogliono cambiare la legge.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3112095",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "825f81419897",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella está usando un suéter de lana.",
+    "es_author": "hayastan",
+    "es_source_id": "3481762",
+    "id": "s_3128415",
+    "it": "Lei indossa un maglione di lana.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3128415",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f0e62b27cebf",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1425,6 +1878,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "89c4f0c7b569",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Siempre tiene una justificación.",
+    "es_author": "gianich73",
+    "es_source_id": "4047505",
+    "id": "s_3194239",
+    "it": "Ha sempre una giustificazione.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3194239",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "1b26f0ac5dad",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1435,6 +1901,32 @@
     "it": "Lui non capisce la tecnologia moderna.",
     "license": "CC BY 2.0 FR",
     "source_id": "3202879",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "94c484bf721c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tú, John, conoces muchos países.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1569423",
+    "id": "s_3212574",
+    "it": "Tu, John, conosci molti paesi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3212574",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "258c4703f9a2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "La Tierra es un planeta maravilloso.",
+    "es_author": "gianich73",
+    "es_source_id": "3298420",
+    "id": "s_3298422",
+    "it": "La Terra è un pianeta meraviglioso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3298422",
     "translation_kind": "direct"
   },
   {
@@ -1513,6 +2005,32 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "07c1c88a6fde",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Conocéis la ley de Murphy?",
+    "es_author": "cueyayotl",
+    "es_source_id": "3764345",
+    "id": "s_3326122",
+    "it": "Conoscete la legge di Murphy?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3326122",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "89eda1440dbb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom tiene un boleto.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4598048",
+    "id": "s_3334124",
+    "it": "Tom ha un biglietto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3334124",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "af9645e74958",
     "author": "Ricardo14",
     "cefr_estimate": "A1",
@@ -1536,6 +2054,32 @@
     "it": "A me piacciono gli orologi.",
     "license": "CC BY 2.0 FR",
     "source_id": "3343673",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3e3f1ae8ebe2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ese no es mi hijo.",
+    "es_author": "hayastan",
+    "es_source_id": "3041634",
+    "id": "s_3401520",
+    "it": "Questo non è mio figlio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3401520",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c57a165aaabc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Su piel es lisa.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1728790",
+    "id": "s_3410486",
+    "it": "La sua pelle è liscia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3410486",
     "translation_kind": "direct"
   },
   {
@@ -1591,6 +2135,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "0e6dd5a18f90",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Lo siento, no puedo beber alcohol.",
+    "es_author": "saverius",
+    "es_source_id": "10805671",
+    "id": "s_3497513",
+    "it": "Spiacente, io non posso bere alcolici.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3497513",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "eeae60d5d203",
+    "author": "martin",
+    "cefr_estimate": "A1",
+    "es": "Mi hijo juega bajo la lluvia.",
+    "es_author": "Virgilia",
+    "es_source_id": "1502962",
+    "id": "s_350854",
+    "it": "Mio figlio gioca sotto la pioggia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "350854",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3f943d3eb003",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1640,6 +2210,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3590343",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "22c58e629b0c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Quizás no es joven.",
+    "es_author": "IA (Claude)",
+    "id": "s_3630534",
+    "it": "Forse non è giovane.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3630534",
+    "translation_kind": "llm"
   },
   {
     "audio": "453422be11a5",
@@ -1772,6 +2354,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "64498300a1f5",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Maria entiende chino.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1386730",
+    "id": "s_379137",
+    "it": "Mary capisce il cinese.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "379137",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c32b2ace5499",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "¿Quién quiere chocolate caliente?",
+    "es_author": "Shishir",
+    "es_source_id": "2872",
+    "id": "s_379726",
+    "it": "Chi vuole una cioccolata calda?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "379726",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "e1ebd6d58b61",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -1782,6 +2390,19 @@
     "it": "Tom parla più lentamente di Bill.",
     "license": "CC BY 2.0 FR",
     "source_id": "381163",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "55752d164749",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "A Jon le apasiona la música pop.",
+    "es_author": "wallebot",
+    "es_source_id": "1365140",
+    "id": "s_381789",
+    "it": "John impazzisce per la musica pop.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "381789",
     "translation_kind": "direct"
   },
   {
@@ -1808,6 +2429,32 @@
     "it": "Loro lavorano con Marie.",
     "license": "CC BY 2.0 FR",
     "source_id": "3828344",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "753833f3757a",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Roma es una ciudad antigua.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1176713",
+    "id": "s_382866",
+    "it": "Roma è una città antica.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "382866",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3bda734dc23f",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Necesito tu consejo.",
+    "es_author": "Shishir",
+    "es_source_id": "3067",
+    "id": "s_384502",
+    "it": "Ho bisogno di un tuo consiglio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "384502",
     "translation_kind": "direct"
   },
   {
@@ -1863,6 +2510,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "267b28ea250e",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Comiendo se abre el apetito.",
+    "es_author": "felipeselles",
+    "es_source_id": "862778",
+    "id": "s_393847",
+    "it": "L'appetito vien mangiando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "393847",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "972dacc2e050",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -1876,6 +2536,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a86395f144e1",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Él conoce bien al señor Davidson.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1673607",
+    "id": "s_398782",
+    "it": "Conosce bene il Sig. Davidson.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "398782",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "39918e8aaa3a",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -1886,6 +2559,19 @@
     "it": "Lui è più intelligente di loro.",
     "license": "CC BY 2.0 FR",
     "source_id": "399099",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "19bc6b8e2e22",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tu mujer no te ama más.",
+    "es_author": "hayastan",
+    "es_source_id": "4050780",
+    "id": "s_4024799",
+    "it": "Tua moglie non ti ama più.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4024799",
     "translation_kind": "direct"
   },
   {
@@ -1967,6 +2653,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2e398f465a9b",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Yo no sé nada acerca de Japón.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1296482",
+    "id": "s_425756",
+    "it": "Non conosco niente sul Giappone.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "425756",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "243921f3202d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1977,6 +2676,19 @@
     "it": "Noi viviamo in una società democratica.",
     "license": "CC BY 2.0 FR",
     "source_id": "4356628",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c760f4afcd50",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "La nieve se derrite.",
+    "es_author": "Seael",
+    "es_source_id": "3793801",
+    "id": "s_4383741",
+    "it": "La neve si scioglie.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4383741",
     "translation_kind": "direct"
   },
   {
@@ -2003,6 +2715,19 @@
     "it": "Lui capisce il francese.",
     "license": "CC BY 2.0 FR",
     "source_id": "4430302",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2d7dae3b48f2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Esta es mi esposa.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1901940",
+    "id": "s_4461392",
+    "it": "Questa è mia moglie.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4461392",
     "translation_kind": "direct"
   },
   {
@@ -2058,6 +2783,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "939103ca59c9",
+    "author": "Sirio60",
+    "cefr_estimate": "A1",
+    "es": "¿Realmente quieres aquello en tu consciencia?",
+    "es_author": "mervert1",
+    "es_source_id": "4282454",
+    "id": "s_4484720",
+    "it": "Vuoi veramente avere questo sulla coscienza?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4484720",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "1c4bf8b81a5f",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2068,6 +2806,19 @@
     "it": "Loro sono miei amici.",
     "license": "CC BY 2.0 FR",
     "source_id": "4510989",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "85822d0b6868",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Bien está lo que bien acaba.",
+    "es_author": "deniko",
+    "es_source_id": "1601499",
+    "id": "s_4561967",
+    "it": "Tutto è bene quando finisce bene.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4561967",
     "translation_kind": "direct"
   },
   {
@@ -2149,6 +2900,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "d949bb6d5ef7",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "No tengo ganas de ayudarte.",
+    "es_author": "Kokoo",
+    "es_source_id": "855901",
+    "id": "s_511140",
+    "it": "Non ho voglia di aiutarti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "511140",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "39d20349e95e",
+    "author": "Adelpa",
+    "cefr_estimate": "A1",
+    "es": "Dormir es la mejor meditación.",
+    "es_author": "cueyayotl",
+    "es_source_id": "5181620",
+    "id": "s_5181633",
+    "it": "Dormire è la migliore meditazione.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5181633",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "1f9fe89bc3bd",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -2227,6 +3004,45 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "6806e35cd9ae",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Doce es un número par.",
+    "es_author": "darinmex",
+    "es_source_id": "495084",
+    "id": "s_544917",
+    "it": "Dodici è un numero pari.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "544917",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7d457be3cf4a",
+    "author": "dnnywld",
+    "cefr_estimate": "A1",
+    "es": "Esperaba sorprenderte.",
+    "es_author": "Seael",
+    "es_source_id": "10371932",
+    "id": "s_5477057",
+    "it": "Speravo di coglierti di sorpresa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5477057",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "dcd893151478",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "A Tom le gusta la ciencia ficción.",
+    "es_author": "DJ_Saidez",
+    "es_source_id": "10028476",
+    "id": "s_5563569",
+    "it": "A Tom piace la fantascienza.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5563569",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "1bb0c01edf1f",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2266,6 +3082,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "f503f2fd50c4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No soy un adolescente.",
+    "es_author": "DJ_Saidez",
+    "es_source_id": "9816909",
+    "id": "s_5903125",
+    "it": "Non sono un adolescente.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5903125",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "8f6cd2e33289",
+    "author": "Valdast",
+    "cefr_estimate": "A1",
+    "es": "El espíritu del demonio se despierta.",
+    "es_author": "baudelaire",
+    "es_source_id": "5930963",
+    "id": "s_5932215",
+    "it": "Lo spirito del demonio si risveglia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5932215",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ef9f85fef5a4",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2279,6 +3121,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "5243029890ff",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Se me rompió la botella.",
+    "es_author": "lukaszpp",
+    "es_source_id": "456408",
+    "id": "s_610158",
+    "it": "La mia bottiglia si è rotta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "610158",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "6ab27394c411",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2289,6 +3144,45 @@
     "it": "Pechino è più grande di Roma.",
     "license": "CC BY 2.0 FR",
     "source_id": "611876",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2c7f4aa4c53c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "La imagen se ve mejor de lejos.",
+    "es_author": "kylecito",
+    "es_source_id": "336527",
+    "id": "s_626875",
+    "it": "L'immagine rende meglio da lontano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "626875",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "68fa8cbfcfc2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Quién no conoce este problema?",
+    "es_author": "chinopinyin",
+    "es_source_id": "2857",
+    "id": "s_632849",
+    "it": "Chi non conosce questo problema?!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "632849",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "07223a5c0c1e",
+    "author": "rado",
+    "cefr_estimate": "A1",
+    "es": "Diciembre tiene treinta y un días.",
+    "es_author": "Shishir",
+    "es_source_id": "664035",
+    "id": "s_634395",
+    "it": "Dicembre ha trentuno giorni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "634395",
     "translation_kind": "direct"
   },
   {
@@ -2328,6 +3222,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "6476779",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "57ad5d31545b",
+    "author": "rado",
+    "cefr_estimate": "A1",
+    "es": "Esta fábrica produce piezas para automóviles.",
+    "es_author": "karenm2s",
+    "es_source_id": "1112548",
+    "id": "s_658416",
+    "it": "Questa fabbrica produce pezzi per automobili.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "658416",
+    "translation_kind": "direct"
   },
   {
     "audio": "837eca52b491",
@@ -2482,6 +3389,19 @@
     "it": "Ci sono molte fabbriche a Kawasaki.",
     "license": "CC BY 2.0 FR",
     "source_id": "714475",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "6b221445b9a8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Prefiero la historia a la geografía.",
+    "es_author": "Shishir",
+    "es_source_id": "1057698",
+    "id": "s_714573",
+    "it": "Preferisco la storia alla geografia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "714573",
     "translation_kind": "direct"
   },
   {
@@ -2732,6 +3652,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "0a4e215557b1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Él espera visitar París.",
+    "es_author": "Shishir",
+    "es_source_id": "1869750",
+    "id": "s_839307",
+    "it": "Lui spera di visitare Parigi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "839307",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ad0270b3194e",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "Debemos ser leales a nuestros principios.",
+    "es_author": "nancy",
+    "es_source_id": "2834730",
+    "id": "s_841278",
+    "it": "Dobbiamo essere fedeli ai nostri principi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "841278",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "330dadbb4d6a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2742,6 +3688,32 @@
     "it": "Lei ha paura dei tuoni.",
     "license": "CC BY 2.0 FR",
     "source_id": "868697",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "6d136d6be125",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella es la esposa de Alain.",
+    "es_author": "Shishir",
+    "es_source_id": "524713",
+    "id": "s_872892",
+    "it": "Lei è la moglie di Alain.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "872892",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "25d405f26a2c",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "La naturaleza es fascinante.",
+    "es_author": "carlosalberto",
+    "es_source_id": "8779579",
+    "id": "s_8779576",
+    "it": "La natura è affascinante.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8779576",
     "translation_kind": "direct"
   },
   {
@@ -2797,6 +3769,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "f294dafe70ef",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Mi conciencia está limpia.",
+    "es_author": "Adelpa",
+    "es_source_id": "12390261",
+    "id": "s_951720",
+    "it": "La mia coscienza è pulita.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "951720",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b00e40cc74af",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "Cuatro familias murieron en el incendio.",
+    "es_author": "darinmex",
+    "es_source_id": "740557",
+    "id": "s_977112",
+    "it": "Quattro famiglie sono morte nell'incendio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "977112",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3c5911436f0c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2807,6 +3805,19 @@
     "it": "Lui porta gli occhiali.",
     "license": "CC BY 2.0 FR",
     "source_id": "977762",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7fe286fad756",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "¿Quién quiere una chocolatada caliente?",
+    "es_author": "hayastan",
+    "es_source_id": "978801",
+    "id": "s_978795",
+    "it": "Chi vuole della cioccolata calda?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "978795",
     "translation_kind": "direct"
   },
   {
@@ -2833,6 +3844,19 @@
     "it": "Loro abitano in una casa affittata.",
     "license": "CC BY 2.0 FR",
     "source_id": "993617",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "8d4b25e1a01a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No me gusta salir cuando llueve.",
+    "es_author": "hayastan",
+    "es_source_id": "2346615",
+    "id": "s_995972",
+    "it": "Non mi piace uscire quando piove.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "995972",
     "translation_kind": "direct"
   },
   {
@@ -3109,6 +4133,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "5a031e0f4b96",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Sujétalo mientras tu mujer llama a la policía.",
+    "es_author": "Kiraness",
+    "es_source_id": "1333101",
+    "id": "s_1333103",
+    "it": "Tienilo fermo mentre tua moglie chiama la polizia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1333103",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "1890eda29acc",
     "author": "marco87",
     "cefr_estimate": "A2",
@@ -3168,6 +4205,19 @@
     "it": "Noi siamo arrivati in tempo all'ufficio.",
     "license": "CC BY 2.0 FR",
     "source_id": "1358832",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "899bb2c0e7bb",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Ese lunar que tienes, cielito lindo, junto a la boca, no se lo des a nadie, cielito lindo, que a mí me toca.",
+    "es_author": "carlosalberto",
+    "es_source_id": "13604242",
+    "id": "s_13604270",
+    "it": "Quel neo che hai, tesoro mio, vicino alla bocca, non darlo a nessuno, tesoro mio, perché tocca a me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13604270",
     "translation_kind": "direct"
   },
   {
@@ -3366,6 +4416,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "61d41ea2e5cb",
+    "author": "enzolon",
+    "cefr_estimate": "A2",
+    "es": "Coman lo que quieran.",
+    "es_author": "IA (Claude)",
+    "id": "s_1860933",
+    "it": "Mangiate quello che volete.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1860933",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1056cf930182",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Come lo que quieras.",
+    "es_author": "IA (Claude)",
+    "id": "s_1860945",
+    "it": "Mangia quello che vuoi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1860945",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "9309e885ea1e",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -3377,6 +4451,67 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1948343",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "8526408e025b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tienes que verlo para creerlo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2020254",
+    "it": "Devi vederlo per crederci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2020254",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "ac98d6d77e19",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tienen que verlo para creerlo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2020257",
+    "it": "Dovete vederlo per crederci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2020257",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "143b67595b76",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tiene que verlo para creerlo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2020258",
+    "it": "Deve vederlo per crederci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2020258",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "8f34d0fa57ea",
+    "author": "AYDYL84",
+    "cefr_estimate": "A2",
+    "es": "Piqué las cebollas y las puse en una cacerola con mantequilla y aceite.",
+    "es_author": "topofabi",
+    "es_source_id": "2022153",
+    "id": "s_2022155",
+    "it": "Ho tagliato le cipolle e le ho messe in una casseruola con burro e olio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2022155",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3897974da0eb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Trato de no pensar en eso.",
+    "es_author": "IA (Claude)",
+    "id": "s_2074004",
+    "it": "Cerco di non pensarci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2074004",
+    "translation_kind": "llm"
   },
   {
     "audio": "168246ca6822",
@@ -3415,6 +4550,19 @@
     "it": "Finché c'è un obiettivo, c'è speranza.",
     "license": "CC BY 2.0 FR",
     "source_id": "2180426",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "947ea466ea8e",
+    "author": "graphite",
+    "cefr_estimate": "A2",
+    "es": "Hubo dos asesinatos este mes.",
+    "es_author": "arashi_29",
+    "es_source_id": "1003131",
+    "id": "s_2198710",
+    "it": "Questo mese ci sono stati due omicidi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2198710",
     "translation_kind": "direct"
   },
   {
@@ -3457,6 +4605,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "16d6b6f11ccf",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Desafortunadamente, Nancy tenía razón.",
+    "es_author": "IA (Claude)",
+    "id": "s_2426336",
+    "it": "Sfortunatamente, Nancy aveva ragione.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2426336",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "bf6b014f325b",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -3480,6 +4640,19 @@
     "it": "Lei ha mostrato i suoi talenti.",
     "license": "CC BY 2.0 FR",
     "source_id": "2448705",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5fcad86dfd92",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Hubo muchos homicidios el año pasado.",
+    "es_author": "gianich73",
+    "es_source_id": "3307563",
+    "id": "s_2454976",
+    "it": "Ci sono stati molti omicidi l'anno scorso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2454976",
     "translation_kind": "direct"
   },
   {
@@ -3521,6 +4694,54 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a5535ea4a9bb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Extraño a mi esposa.",
+    "es_author": "IA (Claude)",
+    "id": "s_2556097",
+    "it": "Mi manca mia moglie.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2556097",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "fadd41cdbcb8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Extraño a mi esposa.",
+    "es_author": "IA (Claude)",
+    "id": "s_2556099",
+    "it": "Mia moglie mi manca.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2556099",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "434c27358013",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tenía razón después de todo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2681756",
+    "it": "Aveva ragione dopo tutto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2681756",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e6160745feba",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom no quiere ir allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_2702417",
+    "it": "Tom non vuole andarci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2702417",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "804b9a8f4bd9",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -3545,6 +4766,42 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2719442",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "9f32dd9b3d8c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tú tenías razón antes.",
+    "es_author": "IA (Claude)",
+    "id": "s_2736369",
+    "it": "Tu avevi ragione prima.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2736369",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "9787eb5e9a83",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ella tenía razón antes.",
+    "es_author": "IA (Claude)",
+    "id": "s_2736371",
+    "it": "Lei aveva ragione prima.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2736371",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "5dbfce0cf23b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ustedes tenían razón antes.",
+    "es_author": "IA (Claude)",
+    "id": "s_2736373",
+    "it": "Voi avevate ragione prima.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2736373",
+    "translation_kind": "llm"
   },
   {
     "audio": "7711f60ef507",
@@ -3608,6 +4865,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3106543",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "8d97dc9a9779",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No logro pensar en eso.",
+    "es_author": "IA (Claude)",
+    "id": "s_3132782",
+    "it": "Non riesco a pensarci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3132782",
+    "translation_kind": "llm"
   },
   {
     "audio": "5d5207cabcb1",
@@ -3675,6 +4944,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "8acf8c74e6dd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo no quiero pensar en eso.",
+    "es_author": "IA (Claude)",
+    "id": "s_3437762",
+    "it": "Io non voglio pensarci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3437762",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "ee7cd507b3ba",
     "author": "martin",
     "cefr_estimate": "A2",
@@ -3685,6 +4966,19 @@
     "it": "È arrivato prima del solito.",
     "license": "CC BY 2.0 FR",
     "source_id": "350270",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2e896a53d587",
+    "author": "martin",
+    "cefr_estimate": "A2",
+    "es": "No malcríes a tu hijo.",
+    "es_author": "hayastan",
+    "es_source_id": "1985488",
+    "id": "s_350634",
+    "it": "Non viziare tuo figlio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "350634",
     "translation_kind": "direct"
   },
   {
@@ -3908,6 +5202,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ca9722665f75",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tomás es más rápido de lo que pensás.",
+    "es_author": "don_ramon",
+    "es_source_id": "5147589",
+    "id": "s_5090190",
+    "it": "Tom è più veloce di quello che pensi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5090190",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3ebd5c0f8d13",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -4038,6 +5345,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "be54537c7969",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Le hace falta disciplina.",
+    "es_author": "darinmex",
+    "es_source_id": "646315",
+    "id": "s_646997",
+    "it": "Gli manca la disciplina.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "646997",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "c89cc892ff04",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -4087,6 +5407,19 @@
     "it": "Riesci a distinguere l'argento dallo stagno?",
     "license": "CC BY 2.0 FR",
     "source_id": "704976",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "05de105f42b7",
+    "author": "Heracleum",
+    "cefr_estimate": "A2",
+    "es": "Consiguió atravesar el océano Pacífico en barca.",
+    "es_author": "Shishir",
+    "es_source_id": "1292181",
+    "id": "s_711452",
+    "it": "È riuscita ad attraversare l'oceano Pacifico in barca.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "711452",
     "translation_kind": "direct"
   },
   {
@@ -4363,6 +5696,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a99265c1e24e",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Si no entendés las cosas por tu cuenta, la vida te las enseña.",
+    "es_author": "hayastan",
+    "es_source_id": "1001756",
+    "id": "s_1000808",
+    "it": "Se le cose non le capisci da solo, la vita te le insegna.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1000808",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "27c1bd1c0f59",
     "author": "elgranjuego",
     "cefr_estimate": "B1",
@@ -4389,6 +5735,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "54ed7ce8a261",
+    "author": "Gloria7",
+    "cefr_estimate": "B1",
+    "es": "El inglés sigue siendo un idioma extranjero para mí, aunque lo hable todos los días.",
+    "es_author": "DJ_Saidez",
+    "es_source_id": "10632711",
+    "id": "s_10632756",
+    "it": "Nonostante lo parli tutti i giorni, l'inglese continua ad essere una lingua straniera per me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10632756",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "6ac9912944b9",
     "author": "Bethanielle",
     "cefr_estimate": "B1",
@@ -4399,6 +5758,32 @@
     "it": "Siamo stati bloccati nell'ascensore per un'ora.",
     "license": "CC BY 2.0 FR",
     "source_id": "10819798",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "9b9a7fe79f01",
+    "author": "rado",
+    "cefr_estimate": "B1",
+    "es": "El que escucha por primera vez su voz grabada, tiene la sensación de estar escuchando a un extraño.",
+    "es_author": "hayastan",
+    "es_source_id": "1123041",
+    "id": "s_1105386",
+    "it": "Chi ascolta per la prima volta la propria voce registrata ha l'impressione di ascoltare un estraneo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1105386",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5e2d5ae6aec9",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Quiero una pizza, pero no tengo ganas de salir, y a esta hora los egipcios de la pizzería de la esquina no me la traen.",
+    "es_author": "hayastan",
+    "es_source_id": "1245234",
+    "id": "s_1244879",
+    "it": "Io voglio la pizza, ma non ho voglia di uscire, e a quest'ora gli egiziani della pizzeria all'angolo non me la portano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1244879",
     "translation_kind": "direct"
   },
   {
@@ -4441,6 +5826,31 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "d0a89f9b3bd7",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Puedo lograrlo sin esto.",
+    "es_author": "IA (Claude)",
+    "id": "s_12765971",
+    "it": "Posso farcela senza questo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12765971",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "470f5520fa86",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "He visto muchísimos conciertos.",
+    "es_author": "Shishir",
+    "es_source_id": "1352654",
+    "id": "s_1297195",
+    "it": "Io ne ho visti tantissimi di concerti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1297195",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d46c686f884b",
     "author": "carlosalberto",
     "cefr_estimate": "B1",
@@ -4467,6 +5877,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ef8759bded88",
+    "author": "marco87",
+    "cefr_estimate": "B1",
+    "es": "¡Él era la persona más enojona que tuve la mala suerte de conocer!",
+    "es_author": "marcelostockle",
+    "es_source_id": "1515276",
+    "id": "s_1516085",
+    "it": "Lui era la persona più suscettibile che io abbia avuto la sfortuna di conoscere!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1516085",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "70400db15b62",
     "author": "Guybrush88",
     "cefr_estimate": "B1",
@@ -4477,6 +5900,31 @@
     "it": "L'Africa del Nord adotta il monofisismo in segno di protesta.",
     "license": "CC BY 2.0 FR",
     "source_id": "1948370",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "1c386a58065f",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Tú eres lo mejor que me ha pasado jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_2006193",
+    "it": "Tu sei la cosa migliore che mi sia mai capitata.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2006193",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "01ba4f1e7e45",
+    "author": "Sirio60",
+    "cefr_estimate": "B1",
+    "es": "Pese a ser joven, es un médico notable.",
+    "es_author": "Shishir",
+    "es_source_id": "1747144",
+    "id": "s_2055834",
+    "it": "Benché sia giovane, è un ottimo medico.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2055834",
     "translation_kind": "direct"
   },
   {
@@ -4491,6 +5939,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2229973",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "beb5df4951ff",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Sé que puedo lograrlo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2883145",
+    "it": "So che posso farcela.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2883145",
+    "translation_kind": "llm"
   },
   {
     "audio": "e4804a9f9358",
@@ -4593,6 +6053,42 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "bd4001b8ad6d",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Es el mejor libro que he leído jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_3233436",
+    "it": "È il libro migliore che abbia mai letto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3233436",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b39a7c493ed6",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Es el mejor libro que yo he leído jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_3233437",
+    "it": "È il libro migliore che io abbia mai letto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3233437",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a4e441c245a1",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Es la cosa más difícil que yo he hecho jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_3241446",
+    "it": "È la cosa più difficile che io abbia mai fatto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3241446",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "5a14bd529a52",
     "author": "Guybrush88",
     "cefr_estimate": "B1",
@@ -4667,6 +6163,19 @@
     "it": "Noi non riusciamo a vedere la luce ultravioletta, ma gli insetti sì.",
     "license": "CC BY 2.0 FR",
     "source_id": "3627155",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d356b6401061",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Creo que esta es la mejor parte de la película.",
+    "es_author": "lawka",
+    "es_source_id": "4637590",
+    "id": "s_3770405",
+    "it": "Penso che questa sia la parte migliore del film.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3770405",
     "translation_kind": "direct"
   },
   {
@@ -4760,6 +6269,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e7e4b39eda54",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Es el mejor nombre que yo he oído jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_4402316",
+    "it": "È il nome migliore che io abbia mai sentito.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4402316",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "d902fa319d55",
     "author": "Guybrush88",
     "cefr_estimate": "B1",
@@ -4798,6 +6319,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "321a32af39d9",
+    "author": "valealb",
+    "cefr_estimate": "B1",
+    "es": "Pese a ser joven, es muy atento.",
+    "es_author": "saverius",
+    "es_source_id": "4652795",
+    "id": "s_4652738",
+    "it": "Nonostante sia giovane è molto attento.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4652738",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "6d7cfe583fae",
     "author": "erraticfaerie",
     "cefr_estimate": "B1",
@@ -4824,6 +6358,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4d248f9fa789",
+    "author": "Pharamp",
+    "cefr_estimate": "B1",
+    "es": "Por eso, la gente empezó a cuchichear que el rey estaba desnudo y él comprendió que tenían razón, pero terminó el desfile con la cabeza bien alta.",
+    "es_author": "hayastan",
+    "es_source_id": "523839",
+    "id": "s_524249",
+    "it": "La gente cominciò per questo a sussurrare che il re era nudo e lui capì che avevano ragione, ma continuò la sfilata a testa alta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "524249",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "44015e99248e",
     "author": "Pharamp",
     "cefr_estimate": "B1",
@@ -4834,6 +6381,19 @@
     "it": "Se ne è andata.",
     "license": "CC BY 2.0 FR",
     "source_id": "529375",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ab2141aa831c",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Parece que no haya modo de salir de aquí.",
+    "es_author": "Seael",
+    "es_source_id": "13845749",
+    "id": "s_5709274",
+    "it": "Sembra che non ci sia modo di uscire da qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5709274",
     "translation_kind": "direct"
   },
   {
@@ -4861,6 +6421,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "5962421",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "85e66739c688",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Es la chica más aburrida que yo he conocido jamás.",
+    "es_author": "IA (Claude)",
+    "id": "s_613807",
+    "it": "È la ragazza più noiosa che io abbia mai conosciuto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "613807",
+    "translation_kind": "llm"
   },
   {
     "audio": "add060246c3b",
@@ -4899,6 +6471,19 @@
     "it": "Per ora non penso che sia necessario.",
     "license": "CC BY 2.0 FR",
     "source_id": "6832144",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7b4b641b832f",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "La mejor manera de realmente conocer a una persona es ver cómo se comporta cuando es absolutamente libre de elegir.",
+    "es_author": "hayastan",
+    "es_source_id": "1023232",
+    "id": "s_719266",
+    "it": "Il modo migliore di conoscere davvero una persona è vedere come si comporta quando è assolutamente libera di scegliere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "719266",
     "translation_kind": "direct"
   },
   {
@@ -4980,6 +6565,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7a56fa8c3e62",
+    "author": "hundo",
+    "cefr_estimate": "B1",
+    "es": "La madre entra en la habitación de Peter, y a pesar de que están las ventanas abiertas, se da cuenta de que Peter ha fumado.",
+    "es_author": "hundo",
+    "es_source_id": "976587",
+    "id": "s_976534",
+    "it": "La mamma entra in camera di Peter, e benché ci siano le finestre spalancate, si accorge che Peter ha fumato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "976534",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "492f0bb53443",
     "author": "riccioberto",
     "cefr_estimate": "B1",
@@ -5006,6 +6604,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "49baf2b5b701",
+    "author": "Guybrush88",
+    "cefr_estimate": "B2",
+    "es": "Aunque no me gustaban las matemáticas, tenía que estudiar los logaritmos.",
+    "es_author": "IA (Claude)",
+    "id": "s_1948225",
+    "it": "Nonostante non mi piacesse la matematica, dovevo studiare i logaritmi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1948225",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d80f9bea10c9",
+    "author": "Pharamp",
+    "cefr_estimate": "B2",
+    "es": "Aunque eran pobres, criaron a siete hijos.",
+    "es_author": "IA (Claude)",
+    "id": "s_382189",
+    "it": "Nonostante fossero poveri, hanno cresciuto sette figli.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "382189",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "9d903fb0f665",
     "author": "Heracleum",
     "cefr_estimate": "B2",
@@ -5016,5 +6638,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "705357",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "78b75f886cba",
+    "author": "Valdast",
+    "cefr_estimate": "B2",
+    "es": "Ojalá hubiera sabido hablar francés.",
+    "es_author": "Shishir",
+    "es_source_id": "2482363",
+    "id": "s_8890731",
+    "it": "Magari avessi saputo parlare francese.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8890731",
+    "translation_kind": "direct"
   }
 ]

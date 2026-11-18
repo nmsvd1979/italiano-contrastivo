@@ -3,6 +3,462 @@
     "cefr": "A1",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "C y g ante e/i son /tʃ/ y /dʒ/; el español las pronuncia /θ/ o /s/ (c) y /x/ (g)."
+    },
+    "id": "cap_err_c_g_palatal",
+    "retrieval": [
+      {
+        "id": "it_choice_s_2023103_ERR_C_G_PALATAL",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "So che ha ragione."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_C_G_PALATAL",
+            "text": "So che ha raghione."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2023103",
+        "target_error_codes": [
+          "ERR_C_G_PALATAL"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "ragione"
+        ],
+        "hint_es": "El hombre tiene razón.",
+        "id": "it_cloze_s_2762874_ERR_C_G_PALATAL",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2762874",
+        "target_error_codes": [
+          "ERR_C_G_PALATAL"
+        ],
+        "text": "L'uomo ha ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Forse",
+          "hai",
+          "ragione."
+        ],
+        "id": "it_reorder_s_390103_ERR_C_G_PALATAL",
+        "prompt_es": "Ordena las palabras: «Puede que tengas razón.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_390103",
+        "target_error_codes": [
+          "ERR_C_G_PALATAL"
+        ],
+        "tokens": [
+          "ragione.",
+          "Forse",
+          "hai"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_2023101_ERR_C_G_PALATAL",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_C_G_PALATAL",
+            "text": "So che hai raghione."
+          },
+          {
+            "correct": true,
+            "text": "So che hai ragione."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2023101",
+        "target_error_codes": [
+          "ERR_C_G_PALATAL"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "ragione"
+        ],
+        "hint_es": "La mujer tiene razón.",
+        "id": "it_cloze_s_13300838_ERR_C_G_PALATAL",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_13300838",
+        "target_error_codes": [
+          "ERR_C_G_PALATAL"
+        ],
+        "text": "La donna ha ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "La",
+          "forza",
+          "ha",
+          "ragione."
+        ],
+        "id": "it_reorder_s_13437351_ERR_C_G_PALATAL",
+        "prompt_es": "Ordena las palabras: «La fuerza tiene razón.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_13437351",
+        "target_error_codes": [
+          "ERR_C_G_PALATAL"
+        ],
+        "tokens": [
+          "ha",
+          "La",
+          "ragione.",
+          "forza"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_C_G_PALATAL"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Io abito a Parigi."
+      ],
+      "id": "it_translate_s_13267842_ERR_C_G_PALATAL",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13267842",
+      "source_es": "Yo vivo en París.",
+      "target_error_codes": [
+        "ERR_C_G_PALATAL"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Gli es la lateral palatal /ʎ/ (geminada entre vocales); muchos hispanohablantes la reducen a /li/ o la separan en g + l."
+    },
+    "id": "cap_err_gli_palatal",
+    "retrieval": [
+      {
+        "id": "it_choice_s_1155617_ERR_GLI_PALATAL",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "È solo un consiglio."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_GLI_PALATAL",
+            "text": "È solo un consillio."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1155617",
+        "target_error_codes": [
+          "ERR_GLI_PALATAL"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "biglietto"
+        ],
+        "hint_es": "Tom tiene un boleto.",
+        "id": "it_cloze_s_3334124_ERR_GLI_PALATAL",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3334124",
+        "target_error_codes": [
+          "ERR_GLI_PALATAL"
+        ],
+        "text": "Tom ha un ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Questa",
+          "è",
+          "mia",
+          "moglie."
+        ],
+        "id": "it_reorder_s_4461392_ERR_GLI_PALATAL",
+        "prompt_es": "Ordena las palabras: «Esta es mi esposa.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4461392",
+        "target_error_codes": [
+          "ERR_GLI_PALATAL"
+        ],
+        "tokens": [
+          "mia",
+          "è",
+          "Questa",
+          "moglie."
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_11871336_ERR_GLI_PALATAL",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_GLI_PALATAL",
+            "text": "Non volliamo la guerra."
+          },
+          {
+            "correct": true,
+            "text": "Non vogliamo la guerra."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11871336",
+        "target_error_codes": [
+          "ERR_GLI_PALATAL"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "meglio"
+        ],
+        "hint_es": "Estoy mejor.",
+        "id": "it_cloze_s_1945187_ERR_GLI_PALATAL",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1945187",
+        "target_error_codes": [
+          "ERR_GLI_PALATAL"
+        ],
+        "text": "Mi sto sentendo ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Questo",
+          "non",
+          "è",
+          "mio",
+          "figlio."
+        ],
+        "id": "it_reorder_s_3401520_ERR_GLI_PALATAL",
+        "prompt_es": "Ordena las palabras: «Ese no es mi hijo.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3401520",
+        "target_error_codes": [
+          "ERR_GLI_PALATAL"
+        ],
+        "tokens": [
+          "non",
+          "mio",
+          "figlio.",
+          "Questo",
+          "è"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_GLI_PALATAL"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Ti toglie il fiato."
+      ],
+      "id": "it_translate_s_1191467_ERR_GLI_PALATAL",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1191467",
+      "source_es": "Te deja sin aliento.",
+      "target_error_codes": [
+        "ERR_GLI_PALATAL"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Sc ante i/e es un único sonido /ʃ/ (geminado entre vocales), no s + c."
+    },
+    "id": "cap_err_sc_palatal",
+    "retrieval": [
+      {
+        "id": "it_choice_s_4383741_ERR_SC_PALATAL",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "La neve si scioglie."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_SC_PALATAL",
+            "text": "La neve si schioglie."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4383741",
+        "target_error_codes": [
+          "ERR_SC_PALATAL"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Capisce"
+        ],
+        "hint_es": "Entiende cómo te sientes.",
+        "id": "it_cloze_s_11949804_ERR_SC_PALATAL",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11949804",
+        "target_error_codes": [
+          "ERR_SC_PALATAL"
+        ],
+        "text": "___ come ti senti.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Lui",
+          "conosce",
+          "la",
+          "verità."
+        ],
+        "id": "it_reorder_s_1970624_ERR_SC_PALATAL",
+        "prompt_es": "Ordena las palabras: «Él sabe la verdad.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1970624",
+        "target_error_codes": [
+          "ERR_SC_PALATAL"
+        ],
+        "tokens": [
+          "verità.",
+          "conosce",
+          "la",
+          "Lui"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_3410486_ERR_SC_PALATAL",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_SC_PALATAL",
+            "text": "La sua pelle è lischia."
+          },
+          {
+            "correct": true,
+            "text": "La sua pelle è liscia."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3410486",
+        "target_error_codes": [
+          "ERR_SC_PALATAL"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "riesce"
+        ],
+        "hint_es": "A ella se le da bien cantar.",
+        "id": "it_cloze_s_1512719_ERR_SC_PALATAL",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1512719",
+        "target_error_codes": [
+          "ERR_SC_PALATAL"
+        ],
+        "text": "Cantare le ___ bene.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Mary",
+          "capisce",
+          "il",
+          "cinese."
+        ],
+        "id": "it_reorder_s_379137_ERR_SC_PALATAL",
+        "prompt_es": "Ordena las palabras: «Maria entiende chino.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_379137",
+        "target_error_codes": [
+          "ERR_SC_PALATAL"
+        ],
+        "tokens": [
+          "cinese.",
+          "capisce",
+          "il",
+          "Mary"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_SC_PALATAL"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "È carne di scimmia."
+      ],
+      "id": "it_translate_s_1215046_ERR_SC_PALATAL",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1215046",
+      "source_es": "Es carne de mono.",
+      "target_error_codes": [
+        "ERR_SC_PALATAL"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "El posesivo español 'mi' se escribe mio en italiano cuando es masculino singular."
     },
     "id": "cap_err_possessive_spelling",

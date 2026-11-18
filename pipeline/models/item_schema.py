@@ -74,6 +74,12 @@ class Item1(Base):
     requires_server: Annotated[
         Literal[False], Field(description='true si necesita el Mac (LT/SLM/ASR).')
     ]
+    listen: Annotated[
+        bool | None,
+        Field(
+            description='Si es true, el enunciado es el audio de la opción correcta: se escucha y se elige lo que se oyó.'
+        ),
+    ] = None
 
 
 class Item2(Base):

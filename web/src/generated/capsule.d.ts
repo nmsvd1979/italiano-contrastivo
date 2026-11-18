@@ -13,6 +13,10 @@ export type Item =
        */
       options: [Option, Option] | [Option, Option, Option] | [Option, Option, Option, Option];
       requires_server?: false;
+      /**
+       * Si es true, el enunciado es el audio de la opción correcta: se escucha y se elige lo que se oyó.
+       */
+      listen?: boolean;
     })
   | (Base & {
       type?: "reorder";
@@ -83,6 +87,10 @@ export type Item1 =
        */
       options: [Option, Option] | [Option, Option, Option] | [Option, Option, Option, Option];
       requires_server?: false;
+      /**
+       * Si es true, el enunciado es el audio de la opción correcta: se escucha y se elige lo que se oyó.
+       */
+      listen?: boolean;
     })
   | (Base & {
       type?: "reorder";

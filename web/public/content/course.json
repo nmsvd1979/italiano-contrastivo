@@ -24,6 +24,342 @@
   ],
   "units": [
     {
+      "id": "u18",
+      "level": "A1",
+      "title": "Sonidos: c y g (ce, ci, che, chi)",
+      "goal_es": "Ante e/i la c y la g suenan suaves (ce = «che» /tʃe/, gi = «yi» /dʒi/) y con h suenan duras (che = /ke/, ghi = /gi/). Se aprende escuchando.",
+      "codes": [
+        "ERR_C_G_PALATAL"
+      ],
+      "why_here": "Las fuentes ponen la fonética primero: es lo que más confunde al empezar.",
+      "status": "active",
+      "explanation_es": "C y g ante e/i son /tʃ/ y /dʒ/; el español las pronuncia /θ/ o /s/ (c) y /x/ (g).",
+      "parts": {
+        "descubre": [
+          "s_13267842",
+          "s_2023103",
+          "s_2762874",
+          "s_390103"
+        ],
+        "practica": [
+          "s_13267842",
+          "s_2023103",
+          "s_2762874",
+          "s_390103",
+          "s_2023101",
+          "s_13300838",
+          "s_13437351",
+          "s_3630534",
+          "s_1082492",
+          "s_12434343",
+          "s_13267986",
+          "s_2023105",
+          "s_1078515",
+          "s_2808377",
+          "s_1680620",
+          "s_382866",
+          "s_544917",
+          "s_1016644",
+          "s_393847",
+          "s_1574083",
+          "s_1021056",
+          "s_1321950",
+          "s_634395",
+          "s_11728461",
+          "s_839307",
+          "s_13435159",
+          "s_1538943",
+          "s_2749378",
+          "s_2845274",
+          "s_3194239",
+          "s_379726",
+          "s_425756",
+          "s_1015680",
+          "s_1086143",
+          "s_384874",
+          "s_978795",
+          "s_11735147",
+          "s_350854",
+          "s_714573",
+          "s_2860164",
+          "s_1834619",
+          "s_3497513",
+          "s_841278",
+          "s_14054451",
+          "s_658416",
+          "s_13382887",
+          "s_13382886",
+          "s_2074004",
+          "s_2702417",
+          "s_3132782",
+          "s_13382888",
+          "s_1860945",
+          "s_2736369",
+          "s_3437762",
+          "s_2736371",
+          "s_2681756",
+          "s_2020254",
+          "s_2020258",
+          "s_2736373",
+          "s_1860933",
+          "s_2020257",
+          "s_2426336",
+          "s_5090190",
+          "s_2198710",
+          "s_2143646",
+          "s_2454976",
+          "s_2022155",
+          "s_13604270",
+          "s_2883145",
+          "s_12765971",
+          "s_4973103",
+          "s_1297195",
+          "s_2055834",
+          "s_4652738",
+          "s_3241446",
+          "s_10632756",
+          "s_1105386"
+        ],
+        "escucha": [
+          "s_13267842",
+          "s_12434343",
+          "s_393847",
+          "s_2749378",
+          "s_11735147",
+          "s_13382887",
+          "s_2736371",
+          "s_2198710"
+        ],
+        "prueba": [
+          "s_976534",
+          "s_524249",
+          "s_3329302",
+          "s_8890731",
+          "s_1948225",
+          "s_13894907"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_13267842",
+          "start": 11,
+          "end": 17,
+          "wrong": "Parighi"
+        },
+        {
+          "id": "s_2023103",
+          "start": 10,
+          "end": 17,
+          "wrong": "raghione"
+        },
+        {
+          "id": "s_2762874",
+          "start": 10,
+          "end": 17,
+          "wrong": "raghione"
+        },
+        {
+          "id": "s_390103",
+          "start": 10,
+          "end": 17,
+          "wrong": "raghione"
+        }
+      ]
+    },
+    {
+      "id": "u19",
+      "level": "A1",
+      "title": "Sonidos: sce, sci y sche, schi",
+      "goal_es": "Sce y sci suenan /ʃe/, /ʃi/ (como «sh»); sche y schi suenan /ske/, /ski/. El español no tiene el sonido /ʃ/.",
+      "codes": [
+        "ERR_SC_PALATAL"
+      ],
+      "why_here": "Sigue a c y g: mismo mecanismo de e/i con la h que endurece.",
+      "status": "active",
+      "explanation_es": "Sc ante i/e es un único sonido /ʃ/ (geminado entre vocales), no s + c.",
+      "parts": {
+        "descubre": [
+          "s_1215046",
+          "s_4383741",
+          "s_11949804",
+          "s_1970624"
+        ],
+        "practica": [
+          "s_1215046",
+          "s_4383741",
+          "s_11949804",
+          "s_1970624",
+          "s_3410486",
+          "s_1512719",
+          "s_379137",
+          "s_5903125",
+          "s_2020815",
+          "s_8779576",
+          "s_951720",
+          "s_1679194",
+          "s_5563569",
+          "s_3326122",
+          "s_2845274",
+          "s_3212574",
+          "s_398782",
+          "s_4561967",
+          "s_632849",
+          "s_995972",
+          "s_12980466",
+          "s_381789",
+          "s_2810522",
+          "s_4484720",
+          "s_646997",
+          "s_1082726",
+          "s_711452",
+          "s_5709274"
+        ],
+        "escucha": [
+          "s_1215046",
+          "s_1970624",
+          "s_379137",
+          "s_8779576",
+          "s_5563569",
+          "s_3212574",
+          "s_632849",
+          "s_381789"
+        ],
+        "prueba": [
+          "s_613807",
+          "s_1000808",
+          "s_1516085",
+          "s_1244879",
+          "s_719266",
+          "s_382189"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1215046",
+          "start": 11,
+          "end": 18,
+          "wrong": "schimmia"
+        },
+        {
+          "id": "s_4383741",
+          "start": 11,
+          "end": 19,
+          "wrong": "schioglie"
+        },
+        {
+          "id": "s_11949804",
+          "start": 0,
+          "end": 7,
+          "wrong": "Capische"
+        },
+        {
+          "id": "s_1970624",
+          "start": 4,
+          "end": 11,
+          "wrong": "conosche"
+        }
+      ]
+    },
+    {
+      "id": "u20",
+      "level": "A1",
+      "title": "Sonidos: gli (figlio, famiglia)",
+      "goal_es": "Gli suena como una «ll» muy palatal /ʎ/ (figlio, famiglia, meglio); no es «gl» ni «li».",
+      "codes": [
+        "ERR_GLI_PALATAL"
+      ],
+      "why_here": "Tercer sonido que el español no tiene como tal; aparece en palabras de familia y cotidianas.",
+      "status": "active",
+      "explanation_es": "Gli es la lateral palatal /ʎ/ (geminada entre vocales); muchos hispanohablantes la reducen a /li/ o la separan en g + l.",
+      "parts": {
+        "descubre": [
+          "s_1191467",
+          "s_1155617",
+          "s_3334124",
+          "s_4461392"
+        ],
+        "practica": [
+          "s_1191467",
+          "s_1155617",
+          "s_3334124",
+          "s_4461392",
+          "s_11871336",
+          "s_1945187",
+          "s_3401520",
+          "s_10451845",
+          "s_872892",
+          "s_1255377",
+          "s_4024799",
+          "s_511140",
+          "s_3112095",
+          "s_610158",
+          "s_1333588",
+          "s_384502",
+          "s_1343993",
+          "s_3128415",
+          "s_5477057",
+          "s_5181633",
+          "s_3298422",
+          "s_626875",
+          "s_5932215",
+          "s_14054462",
+          "s_1467605",
+          "s_977112",
+          "s_2556097",
+          "s_2556099",
+          "s_350634",
+          "s_1333103",
+          "s_2022155",
+          "s_3233436",
+          "s_3233437"
+        ],
+        "escucha": [
+          "s_1191467",
+          "s_11871336",
+          "s_872892",
+          "s_3112095",
+          "s_1343993",
+          "s_3298422",
+          "s_1467605",
+          "s_350634"
+        ],
+        "prueba": [
+          "s_4402316",
+          "s_2006193",
+          "s_3770405",
+          "s_3021027",
+          "s_1244879",
+          "s_719266"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1191467",
+          "start": 3,
+          "end": 9,
+          "wrong": "tolie"
+        },
+        {
+          "id": "s_1155617",
+          "start": 10,
+          "end": 19,
+          "wrong": "consillio"
+        },
+        {
+          "id": "s_3334124",
+          "start": 10,
+          "end": 19,
+          "wrong": "bilietto"
+        },
+        {
+          "id": "s_4461392",
+          "start": 13,
+          "end": 19,
+          "wrong": "molie"
+        }
+      ]
+    },
+    {
       "id": "u13",
       "level": "A1",
       "title": "Essere y avere: sono, ho",
@@ -1442,8 +1778,8 @@
   "planned": [
     {
       "level": "A1",
-      "title": "Sonidos que engañan: c/ch, g/gh, gli, gn, sc",
-      "reason": "Necesita audio revisado por un nativo y ejercicios de escucha por fonema."
+      "title": "Sonidos: gn y z",
+      "reason": "Falta un generador de ejercicios fiable (la z africada no se puede comprobar sin audio nativo)."
     },
     {
       "level": "A1",

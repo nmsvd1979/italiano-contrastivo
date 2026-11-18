@@ -15,9 +15,19 @@
     "wrong": "In il mondo ci sono quattro oceani."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Noi veniamo dalla Francia.",
+    "wrong": "Noi veniamo da la Francia."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Le sue calze sono grigie.",
     "wrong": "Sue calze sono grigie."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La chiave è sulla scrivania.",
+    "wrong": "La chiave è su la scrivania."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -95,6 +105,11 @@
     "wrong": "Ora lavora a Francia."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Abuja è la capitale della Nigeria.",
+    "wrong": "Abuja è la capitale di la Nigeria."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Tutti noi riconosciamo la tua intelligenza.",
     "wrong": "Tutti noi riconosciamo tua intelligenza."
@@ -123,6 +138,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Lui è l'autore dell'articolo.",
     "wrong": "Lui è l'autore di l'articolo."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La sua personalità è affascinante.",
+    "wrong": "Sua personalità è affascinante."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -176,8 +196,18 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "I ratti abbondano nella discarica municipale.",
+    "wrong": "I ratti abbondano in la discarica municipale."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La colpa è del governo.",
     "wrong": "La colpa è di il governo."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Puoi riparare la nostra lavastoviglie?",
+    "wrong": "Puoi riparare nostra lavastoviglie?"
   },
   {
     "code": "ERR_PERSONAL_A",
@@ -205,6 +235,11 @@
     "wrong": "Io voglio vivere a Italia."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Io vengo dalla Norvegia.",
+    "wrong": "Io vengo da la Norvegia."
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "Ci sono alcune uova nella scatola.",
     "wrong": "C'è alcune uova nella scatola."
@@ -223,6 +258,11 @@
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Tokyo è più grande di Yokohama.",
     "wrong": "Tokyo è più grande che Yokohama."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "È difficile comprendere la sua teoria.",
+    "wrong": "È difficile comprendere sua teoria."
   },
   {
     "code": "ERR_TENERE_AVERE",
@@ -305,6 +345,11 @@
     "wrong": "L'uomo tiene ragione."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il prezzo della benzina sta crescendo.",
+    "wrong": "Il prezzo di la benzina sta crescendo."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Tom non conosce i suoi vicini.",
     "wrong": "Tom non conosce suoi vicini."
@@ -348,6 +393,11 @@
     "code": "ERR_PERSONAL_A",
     "correct": "Tu conosci Tom di persona?",
     "wrong": "Tu conosci a Tom di persona?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La sua pelle è liscia.",
+    "wrong": "Sua pelle è liscia."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -425,6 +475,11 @@
     "wrong": "Loro abitano lontano da l'aeroporto."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Non conosco niente sul Giappone.",
+    "wrong": "Non conosco niente su il Giappone."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Io vedo la mia corona.",
     "wrong": "Io vedo mia corona."
@@ -433,6 +488,11 @@
     "code": "ERR_TENERE_AVERE",
     "correct": "Ho paura di cadere.",
     "wrong": "Tengo paura di cadere."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Vuoi veramente avere questo sulla coscienza?",
+    "wrong": "Vuoi veramente avere questo su la coscienza?"
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -460,9 +520,19 @@
     "wrong": "Suo ragazzo è turco."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Lo spirito del demonio si risveglia.",
+    "wrong": "Lo spirito di il demonio si risveglia."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Dov'è il tuo altro orecchino?",
     "wrong": "Dov'è tuo altro orecchino?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La mia bottiglia si è rotta.",
+    "wrong": "Mia bottiglia si è rotta."
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -525,6 +595,11 @@
     "wrong": "C'è molte fabbriche a Kawasaki."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Preferisco la storia alla geografia.",
+    "wrong": "Preferisco la storia a la geografia."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Ha paura di fare errori.",
     "wrong": "Tiene paura di fare errori."
@@ -578,6 +653,21 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Lei risponde alle domande?",
     "wrong": "Lei risponde a le domande?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La mia coscienza è pulita.",
+    "wrong": "Mia coscienza è pulita."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Quattro famiglie sono morte nell'incendio.",
+    "wrong": "Quattro famiglie sono morte in l'incendio."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Chi vuole della cioccolata calda?",
+    "wrong": "Chi vuole di la cioccolata calda?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -713,6 +803,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Noi siamo arrivati in tempo all'ufficio.",
     "wrong": "Noi siamo arrivati in tempo a l'ufficio."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Quel neo che hai, tesoro mio, vicino alla bocca, non darlo a nessuno, tesoro mio, perché tocca a me.",
+    "wrong": "Quel neo che hai, tesoro mio, vicino a la bocca, non darlo a nessuno, tesoro mio, perché tocca a me."
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -1298,6 +1393,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Questa è la mia amica Rachel. Siamo andate alle superiori assieme.",
     "wrong": "Questa è la mia amica Rachel. Siamo andate a le superiori assieme."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Penso che questa sia la parte migliore del film.",
+    "wrong": "Penso che questa sia la parte migliore di il film."
   },
   {
     "code": "ERR_PREP_PLACE",

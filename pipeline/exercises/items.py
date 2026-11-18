@@ -23,8 +23,11 @@ def build_choice(sentence: dict, calque: Calque, seed: int) -> dict:
     bad = {"text": it[:calque.start] + calque.wrong + it[calque.end:], "correct": False,
            "error_code": calque.code, "distractor_kind": calque.kind}
     options = [bad, good] if seed % 2 else [good, bad]
-    return {**_base("choice", sentence, calque.code), "type": "choice_l1_distractor",
-            "prompt_es": "¿Cuál es la frase correcta en italiano?", "options": options}
+    item = {**_base("choice", sentence, calque.code), "type": "choice_l1_distractor",
+            "prompt_es": "Escucha la frase y elige cómo se escribe." if calque.listen else "¿Cuál es la frase correcta en italiano?", "options": options}
+    if calque.listen:
+        item["listen"] = True
+    return item
 
 
 def build_cloze(sentence: dict, calque: Calque) -> dict | None:

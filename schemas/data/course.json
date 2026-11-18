@@ -25,6 +25,36 @@
   ],
   "units": [
     {
+      "id": "u18",
+      "level": "A1",
+      "title": "Sonidos: c y g (ce, ci, che, chi)",
+      "goal_es": "Ante e/i la c y la g suenan suaves (ce = «che» /tʃe/, gi = «yi» /dʒi/) y con h suenan duras (che = /ke/, ghi = /gi/). Se aprende escuchando.",
+      "codes": [
+        "ERR_C_G_PALATAL"
+      ],
+      "why_here": "Las fuentes ponen la fonética primero: es lo que más confunde al empezar."
+    },
+    {
+      "id": "u19",
+      "level": "A1",
+      "title": "Sonidos: sce, sci y sche, schi",
+      "goal_es": "Sce y sci suenan /ʃe/, /ʃi/ (como «sh»); sche y schi suenan /ske/, /ski/. El español no tiene el sonido /ʃ/.",
+      "codes": [
+        "ERR_SC_PALATAL"
+      ],
+      "why_here": "Sigue a c y g: mismo mecanismo de e/i con la h que endurece."
+    },
+    {
+      "id": "u20",
+      "level": "A1",
+      "title": "Sonidos: gli (figlio, famiglia)",
+      "goal_es": "Gli suena como una «ll» muy palatal /ʎ/ (figlio, famiglia, meglio); no es «gl» ni «li».",
+      "codes": [
+        "ERR_GLI_PALATAL"
+      ],
+      "why_here": "Tercer sonido que el español no tiene como tal; aparece en palabras de familia y cotidianas."
+    },
+    {
       "id": "u13",
       "level": "A1",
       "title": "Essere y avere: sono, ho",
@@ -198,8 +228,8 @@
   "planned": [
     {
       "level": "A1",
-      "title": "Sonidos que engañan: c/ch, g/gh, gli, gn, sc",
-      "reason": "Necesita audio revisado por un nativo y ejercicios de escucha por fonema."
+      "title": "Sonidos: gn y z",
+      "reason": "Falta un generador de ejercicios fiable (la z africada no se puede comprobar sin audio nativo)."
     },
     {
       "level": "A1",

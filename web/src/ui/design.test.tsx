@@ -47,6 +47,18 @@ describe("hoja de retroalimentación", () => {
   });
 });
 
+describe("escucha y elige", () => {
+  const listen = { ...base, id: "l1", type: "choice_l1_distractor", listen: true, prompt_es: "Escucha la frase y elige cómo se escribe.", options: [
+    { text: "Questo non è mio figlio.", correct: true }, { text: "Questo non è mio fillio.", correct: false, error_code: "ERR_GLI_PALATAL", distractor_kind: "morphological" }] } as unknown as Item;
+  it("ofrece el audio antes de responder y no lo duplica en la hoja de respuesta", () => {
+    render(<ItemRunner items={fromItems([listen])} onFinish={() => undefined} />);
+    expect(screen.getAllByText(/Escuchar/)).toHaveLength(1);
+    fireEvent.click(screen.getByText("Questo non è mio fillio."));
+    expect(screen.getAllByText(/Escuchar/)).toHaveLength(1);
+    expect(screen.getByRole("status").querySelector("mark")?.textContent).toBe("figlio.");
+  });
+});
+
 describe("modo concentrado", () => {
   it("la barra sube con el acierto y se estanca con el error", () => {
     render(<ItemRunner items={fromItems([choice(1), choice(2)])} requeueWrong onFinish={() => undefined} />);
