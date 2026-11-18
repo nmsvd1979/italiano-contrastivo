@@ -12,10 +12,10 @@ export function AudioProvider({ pack, index, words = new Map(), children }: { pa
 }
 
 /** Cómo sonará un texto: con clip (voz sintética) o con la voz del sistema, y la función que lo reproduce. */
-export function useSay(text: string): { source: "native" | "clip" | "system"; play: () => Promise<SpeakResult> } {
+export function useSay(text: string): { source: "native" | "clip" | "system"; play: (rate?: number) => Promise<SpeakResult> } {
   const ctx = useContext(Ctx);
   const clipId = ctx ? audioIdFor(text, ctx.pack) : undefined;
   const hasClip = !!clipId && !!ctx?.index.has(clipId);
   const nativeFile = ctx?.words.get(text);
-  return { source: nativeFile ? "native" : hasClip ? "clip" : "system", play: () => say(text, { nativeFile, clipId, index: ctx?.index }) };
+  return { source: nativeFile ? "native" : hasClip ? "clip" : "system", play: (rate = 1) => say(text, { nativeFile, clipId, index: ctx?.index, rate }) };
 }

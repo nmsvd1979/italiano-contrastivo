@@ -1,5 +1,7 @@
 import { useState } from "react";
 import type { Item } from "../../generated/item";
+import { fillSegments } from "../kit/diff";
+import { Feedback, Marked } from "../kit/Feedback";
 
 export type ClozeItem = Extract<Item, { type?: "cloze" }>;
 
@@ -12,19 +14,19 @@ export function Cloze({ item, onAnswer }: { item: ClozeItem; onAnswer: (correct:
   return (
     <div className="item">
       {item.hint_es && <p><small>Pista: {item.hint_es}</small></p>}
-      <p>
+      <p className="big" lang="it">
         {before}
-        <input lang="it" aria-label="Respuesta" value={value} disabled={result !== null} autoCapitalize="off" autoCorrect="off"
+        <input lang="it" aria-label="Respuesta" value={value} disabled={result !== null} autoCapitalize="off" autoCorrect="off" size={Math.max(5, value.length + 1)}
           onChange={(e) => setValue(e.target.value)} />
         {after}
       </p>
       {result === null ? (
-        <button type="button" disabled={!value.trim()} onClick={() => setResult(item.answers.some((a) => norm(a) === norm(value)))}>Comprobar</button>
-      ) : (
-        <div role="status" data-state={result ? "correct" : "wrong"}>
-          <p>{result ? "¡Correcto!" : `La respuesta era «${item.answers[0]}».`}</p>
-          <button type="button" onClick={() => onAnswer(result)}>Continuar</button>
+        <div className="actions-bottom">
+          <button type="button" className="primary block" disabled={!value.trim()} onClick={() => setResult(item.answers.some((a) => norm(a) === norm(value)))}>Comprobar</button>
         </div>
+      ) : (
+        <Feedback ok={result} answer={result ? undefined : <Marked segs={fillSegments(item.text, item.answers[0])} />}
+          why={result ? undefined : `La respuesta era «${item.answers[0]}».`} onContinue={() => onAnswer(result)} />
       )}
     </div>
   );

@@ -121,15 +121,28 @@ const pack = (over: Partial<ContentPack> = {}): ContentPack => ({
 
 describe("TodayScreen", () => {
   const day = { date: localDate(NOW), reviewsDone: 2, capsulesDone: ["cap_x"] };
-  it("muestra tu unidad con el siguiente paso y los minutos, y el repaso aparte", () => {
+  it("muestra los bloques con sus minutos y un solo botón «Continuar» hacia el siguiente paso", () => {
     const plan = planToday({ pack: pack(), cards: [], day, now: NOW });
     render(<TodayScreen plan={plan} day={day} />);
-    expect(screen.getByText("Tu unidad")).toBeTruthy();
+    expect(screen.getByText("② Tu unidad")).toBeTruthy();
     expect(screen.getByText("Tener no es tenere")).toBeTruthy();
-    expect((screen.getByText("Empezar") as HTMLAnchorElement).getAttribute("href")).toBe("#/unidad/u01/descubre");
-    expect(screen.getByText("Repaso")).toBeTruthy();
+    expect(screen.getByText("① Repaso")).toBeTruthy();
+    expect(screen.getByText("③ Sonidos y voz")).toBeTruthy();
+    expect(screen.getAllByText("Próximamente").length).toBe(2);
+    const go = screen.getByText(/^Continuar · Descubre/) as HTMLAnchorElement;
+    expect(go.getAttribute("href")).toBe("#/unidad/u01/descubre");
     expect(screen.getByText(/2 repasos/)).toBeTruthy();
-    expect(screen.getByText(/Tienes 1 para repasar \(menos de 1 min\)/)).toBeTruthy();
+    expect(screen.getByText(/Tienes 1 para repasar/)).toBeTruthy();
+  });
+  it("con tarjetas vencidas «Continuar» lleva primero al repaso", () => {
+    const plan = planToday({ pack: pack(), cards: [newCard({ kind: "error_code", ref: "ERR_TENERE_AVERE" }, "not_applicable", new Date("2026-11-01T00:00:00Z"))], day, now: NOW });
+    render(<TodayScreen plan={plan} day={day} />);
+    expect((screen.getByText(/^Continuar · Repaso/) as HTMLAnchorElement).getAttribute("href")).toBe("#/repaso");
+  });
+  it("muestra la racha y avisa si hoy aún no se estudió", () => {
+    const plan = planToday({ pack: pack(), cards: [], day, now: NOW });
+    render(<TodayScreen plan={plan} day={day} streak={{ streak: 4, studiedToday: false, protectorUsed: false }} />);
+    expect(screen.getByText(/4 días · estudia hoy/)).toBeTruthy();
   });
   it("sin repasos pendientes lo dice", () => {
     const plan = planToday({ pack: pack({ lexemes: [] }), cards: [], day, now: NOW });

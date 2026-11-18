@@ -17,12 +17,12 @@ export function Translate({ item, onDone }: { item: TranslateItem; onDone: () =>
       <p>Traduce al italiano: «{item.source_es}»</p>
       <textarea lang="it" aria-label="Tu traducción" value={attempt} rows={2} disabled={shown} autoCapitalize="off" autoCorrect="off" onChange={(e) => setAttempt(e.target.value)} />
       {!shown ? (
-        <p><button type="button" onClick={() => setShown(true)}>Ver la respuesta</button></p>
+        <p><button type="button" className="primary block" onClick={() => setShown(true)}>Ver la respuesta</button></p>
       ) : (
         <div role="status">
-          <p>En italiano se dice: {words(target).map((w, i) => (mine.has(clean(w)) ? <span key={i}>{w} </span> : <mark key={i}>{w} </mark>))}</p>
+          <p className="big">En italiano se dice: {words(target).map((w, i) => (mine.has(clean(w)) ? <span key={i}>{w} </span> : <mark key={i}>{w} </mark>))}</p>
           <p><small>Lo resaltado es lo que tu intento no tenía.</small></p>
-          <button type="button" onClick={onDone}>Continuar</button>
+          <button type="button" className="primary block" onClick={onDone}>Continuar</button>
         </div>
       )}
     </div>

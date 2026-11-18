@@ -41,7 +41,8 @@ export function practiceItems(unit: Unit, pack: ContentPack, samples: Samples = 
       if (seconds >= targetSeconds || out.length >= PRACTICE_MAX) break;
     }
   }
-  return out;
+  // Andamiaje: de reconocer (elección) a recordar (hueco) y a producir (orden); dentro de cada tipo se conserva el orden.
+  return out.map((it, i) => ({ it, i })).sort((a, b) => (ORDER[a.it.type ?? ""] ?? 9) - (ORDER[b.it.type ?? ""] ?? 9) || a.i - b.i).map((x) => x.it);
 }
 
 /** Prueba: solo oraciones reservadas (no están en la práctica). Una elección por oración y huecos/orden para completar 10. */

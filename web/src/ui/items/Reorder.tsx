@@ -1,5 +1,7 @@
 import { useState } from "react";
 import type { Item } from "../../generated/item";
+import { diffWords } from "../kit/diff";
+import { Feedback, Marked } from "../kit/Feedback";
 
 export type ReorderItem = Extract<Item, { type?: "reorder" }>;
 
@@ -21,12 +23,12 @@ export function Reorder({ item, onAnswer }: { item: ReorderItem; onAnswer: (corr
         ))}
       </p>
       {result === null ? (
-        <button type="button" disabled={chosen.length !== item.tokens.length} onClick={() => setResult(built.join(" ") === item.answer.join(" "))}>Comprobar</button>
-      ) : (
-        <div role="status" data-state={result ? "correct" : "wrong"}>
-          <p>{result ? "¡Correcto!" : `El orden correcto era «${item.answer.join(" ")}».`}</p>
-          <button type="button" onClick={() => onAnswer(result)}>Continuar</button>
+        <div className="actions-bottom">
+          <button type="button" className="primary block" disabled={chosen.length !== item.tokens.length} onClick={() => setResult(built.join(" ") === item.answer.join(" "))}>Comprobar</button>
         </div>
+      ) : (
+        <Feedback ok={result} answer={result ? undefined : <Marked segs={diffWords(item.answer.join(" "), built.join(" "))} />}
+          why={result ? undefined : `El orden correcto era «${item.answer.join(" ")}».`} onContinue={() => onAnswer(result)} />
       )}
     </div>
   );

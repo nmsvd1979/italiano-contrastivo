@@ -72,11 +72,12 @@ export function SettingsScreen({ store, memoryOnly }: { store: Store; memoryOnly
   return (
     <main>
       <h1>Ajustes</h1>
+      <p><a href="#/acerca">Acerca de, licencias y cómo se revisó el contenido</a></p>
       <h2>Tu progreso</h2>
       <p>Tu progreso vive solo en este teléfono. Si borras los datos del navegador o desinstalas la app, se pierde. Haz una copia de vez en cuando.</p>
       {memoryOnly && <p role="alert" className="alert">Este navegador no permite guardar el progreso: se perderá al cerrar la app.</p>}
       {protectedStorage === false && <p><small>El sistema aún no marcó tu almacenamiento como protegido; instalar la app en la pantalla de inicio ayuda.</small></p>}
-      <p><button type="button" onClick={save}>Guardar copia</button></p>
+      <p><button type="button" className="primary" onClick={save}>Guardar copia</button></p>
       <label htmlFor="restore-file">Restaurar desde una copia</label>
       <input id="restore-file" type="file" accept="application/json,.json" onChange={(e) => { void restore(e.target.files?.[0]); e.target.value = ""; }} />
       <h2>Audio sin conexión</h2>

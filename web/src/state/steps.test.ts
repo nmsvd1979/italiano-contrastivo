@@ -21,6 +21,11 @@ describe.each(pack.course.units.map((u) => [u.id, u] as const))("unidad %s con e
     expect(seconds).toBeLessThanOrEqual(7.5 * 60);
     expect(items.every((i) => unit.parts.practica.includes(sid(i)))).toBe(true);
   });
+  it("la práctica va de reconocer a producir (elección → hueco → orden)", () => {
+    const rank = { choice_l1_distractor: 0, cloze: 1, reorder: 2 } as Record<string, number>;
+    const ranks = practiceItems(unit, pack).map((i) => rank[i.type ?? ""]);
+    expect(ranks).toEqual([...ranks].sort((a, b) => a - b));
+  });
   it("la prueba tiene 10 ítems, solo con oraciones reservadas, y ninguno aparece en la práctica", () => {
     const test = testItems(unit, pack);
     expect(test.length).toBe(TEST_ITEMS);

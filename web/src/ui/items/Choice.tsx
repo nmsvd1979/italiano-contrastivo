@@ -1,6 +1,8 @@
 import { useState } from "react";
 import type { Item } from "../../generated/item";
 import { SpeakButton } from "../SpeakButton";
+import { diffWords } from "../kit/diff";
+import { Feedback, Marked } from "../kit/Feedback";
 
 export type ChoiceItem = Extract<Item, { type?: "choice_l1_distractor" }>;
 
@@ -30,11 +32,9 @@ export function Choice({ item, onAnswer }: { item: ChoiceItem; onAnswer: (correc
         ))}
       </ul>
       {chosen && (
-        <div role="status">
-          <p>{chosen.correct ? "¡Correcto!" : `${WHY[chosen.distractor_kind ?? ""] ?? "Esa opción es un error típico."} La correcta es «${right.text}».`}</p>
-          <SpeakButton text={right.text} />
-          <p><button type="button" onClick={() => onAnswer(chosen.correct)}>Continuar</button></p>
-        </div>
+        <Feedback ok={chosen.correct} answer={chosen.correct ? undefined : <Marked segs={diffWords(right.text, chosen.text)} />}
+          why={chosen.correct ? undefined : WHY[chosen.distractor_kind ?? ""] ?? "Esa opción es un error típico."}
+          extra={<SpeakButton text={right.text} />} onContinue={() => onAnswer(chosen.correct)} />
       )}
     </div>
   );
