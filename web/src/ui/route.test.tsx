@@ -11,7 +11,7 @@ import { finishStep, finishTest, placeUnits } from "../state/progress";
 import { memoryStore } from "../state/store";
 import { judgeDictation } from "./DictationItem";
 import { fromItems, ItemRunner } from "./ItemRunner";
-import { placementPlan, PLACEMENT_PER_UNIT } from "./PlacementScreen";
+import { PlacementScreen, placementPlan, PLACEMENT_PER_UNIT, shouldStop } from "./PlacementScreen";
 import { RouteScreen } from "./RouteScreen";
 import { StepScreen } from "./StepScreen";
 import { UnitScreen } from "./UnitScreen";
@@ -90,6 +90,48 @@ describe("persistencia de la ruta", () => {
   });
   it("el plan de ubicación pide 3 preguntas por unidad", () => {
     for (const p of placementPlan(pack.course.units, pack)) expect(p.items.length).toBe(PLACEMENT_PER_UNIT);
+  });
+});
+
+describe("prueba de ubicación adaptativa", () => {
+  it("se detiene tras dos unidades seguidas no dominadas", () => {
+    expect(shouldStop([])).toBe(false);
+    expect(shouldStop([true, false])).toBe(false);
+    expect(shouldStop([true, false, false])).toBe(true);
+    expect(shouldStop([false, true, false])).toBe(false);
+  });
+  it("empezando de cero: pregunta 2 unidades, no marca nada y dice dónde empiezas", async () => {
+    const store = memoryStore();
+    render(<PlacementScreen pack={pack} store={store} units={pack.course.units} />);
+    fireEvent.click(screen.getByText("Empezar"));
+    const plan = placementPlan(pack.course.units, pack).filter((p) => p.items.length === PLACEMENT_PER_UNIT);
+    for (const p of plan.slice(0, 2)) {
+      for (const item of p.items) {
+        const bad = (item as unknown as { options: { text: string; correct: boolean }[] }).options.find((o) => !o.correct)!.text;
+        fireEvent.click(await screen.findByText(bad));
+        fireEvent.click(await screen.findByText("Continuar"));
+      }
+    }
+    expect(await screen.findByText("Tu punto de partida")).toBeTruthy();
+    expect(screen.getByText(/Ninguna unidad salió dominada/)).toBeTruthy();
+    expect((await store.allUnits()).length).toBe(0);
+    expect(screen.getByText(new RegExp(pack.course.units[0].title.slice(0, 12)))).toBeTruthy();
+  });
+  it("si dominas la primera unidad la completa y sigue con la segunda", async () => {
+    const store = memoryStore();
+    render(<PlacementScreen pack={pack} store={store} units={pack.course.units} />);
+    fireEvent.click(screen.getByText("Empezar"));
+    const plan = placementPlan(pack.course.units, pack).filter((p) => p.items.length === PLACEMENT_PER_UNIT);
+    for (const [k, p] of plan.slice(0, 3).entries()) {
+      for (const item of p.items) {
+        const opts = (item as unknown as { options: { text: string; correct: boolean }[] }).options;
+        const pick = k === 0 ? opts.find((o) => o.correct)! : opts.find((o) => !o.correct)!;
+        fireEvent.click(await screen.findByText(pick.text));
+        fireEvent.click(await screen.findByText("Continuar"));
+      }
+    }
+    await screen.findByText("Tu punto de partida");
+    expect((await store.allUnits()).map((u) => u.unitId)).toEqual([plan[0].unit.id]);
   });
 });
 

@@ -10,7 +10,8 @@ import yaml
 from pipeline import config
 from pipeline.exercises.calques import CALQUE_CODES, find_calque
 from pipeline.tts.ids import clip_id
-from pipeline.exercises.items import build_choice, build_cloze, build_reorder, build_translate
+from pipeline.exercises.items import build_choice, build_cloze, build_meaning, build_reorder, build_translate
+from pipeline.exercises.vocab import VOCAB_CODES, find_vocab
 
 LEVELS = ["A1", "A2", "B1", "B2"]
 CATEGORY_PRIORITY = ["PHONETIC", "ORTHOGRAPHIC", "L1_SINTACTIC_CALQUE", "GENDER_NUMBER_AGREEMENT",
@@ -95,6 +96,10 @@ def build_pack(content_dir: Path, out_dir: Path) -> dict:
             items_by_code[code] = [it for i, s in enumerate(usable) for it in
                                    (build_choice(s, find_calque(code, s["it"]), seed=i), build_cloze(s, find_calque(code, s["it"])),
                                     build_reorder(s, seed=i, code=code)) if it]
+            if code in VOCAB_CODES:  # vocabulario: además, el significado de la palabra del tema
+                for i, s in enumerate(usable):
+                    hit = find_vocab(code, s["it"])
+                    items_by_code[code].append(build_meaning(s, hit[2], code, hit[4], hit[5], seed=i))
             used |= {s["id"] for s in usable}
     ordered = [caps[c] for c in curriculum_order([catalog[c] for c in caps])]
 

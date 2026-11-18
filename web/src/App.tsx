@@ -12,6 +12,7 @@ import { UpdateBanner } from "./ui/UpdateBanner";
 import { AboutScreen } from "./ui/AboutScreen";
 import { CapsuleScreen } from "./ui/CapsuleScreen";
 import { SettingsScreen } from "./ui/SettingsScreen";
+import { MilestoneScreen } from "./ui/MilestoneScreen";
 import { PlacementScreen } from "./ui/PlacementScreen";
 import { RouteScreen } from "./ui/RouteScreen";
 import { StepScreen } from "./ui/StepScreen";
@@ -67,10 +68,13 @@ function useViews(ready: Ready, hash: string) {
 
 function Routes({ ready, hash }: { ready: Ready; hash: string }) {
   const views = useViews(ready, hash);
+  const [hito, setHito] = useState<Record<string, { completed: boolean; best: number | null }>>({});
+  useEffect(() => { ready.store.allUnits().then((u) => setHito(Object.fromEntries(u.filter((x) => x.unitId.startsWith("hito:")).map((x) => [x.unitId, { completed: x.completed, best: x.testBest }])))); }, [ready, hash]);
   const m = hash.match(/^#\/unidad\/(u\d+)(?:\/(\w+))?$/);
+  if (hash === "#/hito/A1") return <MilestoneScreen pack={ready.pack} store={ready.store} level="A1" />;
   if (hash === "#/ubicacion") return <PlacementScreen pack={ready.pack} store={ready.store} units={ready.pack.course.units} />;
   if (!views) return <p>Cargando…</p>;
-  if (hash === "#/ruta") return <RouteScreen views={views} pack={ready.pack} />;
+  if (hash === "#/ruta") return <RouteScreen views={views} pack={ready.pack} hito={hito} />;
   if (m && m[2]) return <StepScreen key={hash} unitId={m[1]} step={m[2] as StepId} pack={ready.pack} store={ready.store} />;
   const view = m && views.find((v) => v.unit.id === m[1]);
   if (view) return <UnitScreen view={view} pack={ready.pack} />;
@@ -109,7 +113,7 @@ export function App() {
         : hash === "#/escribir" ? <WriteScreen />
         : hash === "#/ajustes" ? <SettingsScreen store={ready.store} memoryOnly={ready.storeError !== null} />
         : hash === "#/acerca" ? <AboutScreen manifest={ready.pack.manifest} sentences={ready.pack.sentences} />
-        : hash === "#/ruta" || hash === "#/ubicacion" || hash.startsWith("#/unidad/") ? <Routes ready={ready} hash={hash} />
+        : hash === "#/ruta" || hash === "#/ubicacion" || hash === "#/hito/A1" || hash.startsWith("#/unidad/") ? <Routes ready={ready} hash={hash} />
         : capsule ? <CapsuleScreen key={capsule.id} capsule={capsule} store={ready.store} />
         : <Today {...ready} />}
     {!isFocusRoute(hash) && <footer className="version"><small>Versión {buildInfo().id}</small></footer>}

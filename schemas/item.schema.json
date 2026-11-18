@@ -60,7 +60,8 @@
             "morphological",
             "omission",
             "tense_mismatch",
-            "aspect_mismatch"
+            "aspect_mismatch",
+            "different_word"
           ]
         }
       },

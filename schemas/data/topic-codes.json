@@ -7,7 +7,9 @@
     "explanation_es": "Los verbos en -are hacen el presente con -o, -i, -a, -iamo, -ate, -ano. El español dice -as, -amos, -áis, -an: «parlas», «parlamos» o «parlan» no existen en italiano (tu parli, noi parliamo, voi parlate, loro parlano).",
     "example_wrong": "tu parlas",
     "example_right": "tu parli",
-    "detectors": ["autocheck"],
+    "detectors": [
+      "autocheck"
+    ],
     "source": "Proyecto italiano-contrastivo, unidades de presente A1 (el cuaderno de fuentes incluye el presente de verbos regulares en A1).",
     "review_status": "needs_review"
   },
@@ -19,7 +21,9 @@
     "explanation_es": "Los verbos en -ere hacen -o, -i, -e, -iamo, -ete, -ono y los en -ire -o, -i, -e, -iamo, -ite, -ono (algunos añaden -isc-: finisco, finisci, finisce, finiamo, finite, finiscono). El español -es, -emos, -en, -imos no existe: leggi, leggiamo, leggono.",
     "example_wrong": "noi leggemos",
     "example_right": "noi leggiamo",
-    "detectors": ["autocheck"],
+    "detectors": [
+      "autocheck"
+    ],
     "source": "Proyecto italiano-contrastivo, unidades de presente A1 (el cuaderno de fuentes incluye el presente de verbos regulares en A1).",
     "review_status": "needs_review"
   },
@@ -31,7 +35,9 @@
     "explanation_es": "Essere y avere son irregulares: sono, sei, è, siamo, siete, sono / ho, hai, ha, abbiamo, avete, hanno. Ojo: «sono» sirve para «yo soy» y «ellos son», y la h de ho, hai, ha, hanno no se pronuncia.",
     "example_wrong": "io è",
     "example_right": "io sono",
-    "detectors": ["autocheck"],
+    "detectors": [
+      "autocheck"
+    ],
     "source": "Proyecto italiano-contrastivo, unidades de presente A1 (el cuaderno de fuentes incluye essere y avere en A1).",
     "review_status": "needs_review"
   },
@@ -43,7 +49,9 @@
     "explanation_es": "Andare, fare, stare, venire, dare, dire, sapere y uscire son irregulares y no siguen la regla: vado, vai, va, andiamo, andate, vanno. Hay que aprender cada forma; la persona la marca la terminación, no solo el sujeto.",
     "example_wrong": "io vai",
     "example_right": "io vado",
-    "detectors": ["autocheck"],
+    "detectors": [
+      "autocheck"
+    ],
     "source": "Proyecto italiano-contrastivo, unidades de presente A1 (el cuaderno de fuentes incluye andare, fare y stare en A1).",
     "review_status": "needs_review"
   },
@@ -55,8 +63,150 @@
     "explanation_es": "Volere, potere y dovere son irregulares y muy frecuentes: voglio, vuoi, vuole, vogliamo, volete, vogliono / posso, puoi, può, possiamo, potete, possono / devo, devi, deve, dobbiamo, dovete, devono. Van con un infinitivo: voglio mangiare.",
     "example_wrong": "io vuole",
     "example_right": "io voglio",
-    "detectors": ["autocheck"],
+    "detectors": [
+      "autocheck"
+    ],
     "source": "Proyecto italiano-contrastivo, unidades de presente A1 (el cuaderno de fuentes incluye los modales en A1/A2).",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_FAMILIA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Madre, padre, hermano, hijo, amigo… Fíjate en el género y el artículo: il padre / la madre, i figli / le figlie. «Genitori» significa «los padres» (madre y padre), no «parientes».",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_CIBO",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Pane, latte, acqua, mela, pesce… Ojo con los falsos amigos: «burro» es mantequilla, no el animal; «torta» es pastel, no una torta de pan. Casi todas las palabras de comida tienen artículo: il pane, la carne, l'acqua.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_CASA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Stanza, cucina, camera, bagno, porta, finestra… «Camera» es dormitorio (no cámara) y «tavolo» es la mesa. Con vocal inicial el artículo se apostrofa: l'appartamento, l'armadio.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_CITTA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Città, strada, piazza, chiesa, stazione, mare, fiume… Muchas palabras en -e son masculinas o femeninas sin que se note: il ponte, il mare, il fiume, pero la stazione, la città.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_TEMPO",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Giorno, settimana, mese, anno; lunedì, martedì…; estate, inverno. Los días de la semana (salvo domenica) son masculinos y no llevan mayúscula: il lunedì, di sabato.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_CORPO",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Testa, mano, occhio, braccio, sangue… Ojo con el género y con los plurales raros: la mano → le mani, l'occhio → gli occhi, il braccio → le braccia, il sangue (masculino, a diferencia del español «la sangre»).",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_ANIMALI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Cane, gatto, cavallo, uccello, mucca, tigre… Plural en -i (i cani, i gatti, gli uccelli). Ojo: «la tigre» es femenino y «scimmia» es el mono (femenino en italiano).",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_LAVORO",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Libro, penna, classe, studente, lavoro, ufficio, medico… Las profesiones suelen tener forma masculina y femenina: lo studente / la studentessa, il professore / la professoressa.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_NUMERI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Due, tre, quattro… venti, cento, mille. «Sei» (6) se escribe igual que «tú eres» y «uno» cambia (un libro, una casa). Los números del 11 al 16 terminan en -dici (undici, dodici, tredici…).",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_INTERROG",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Las palabras para preguntar: dove (dónde), quando (cuándo), perché (por qué y también «porque»), come (cómo), chi (quién), quanto (cuánto), quale (cuál), cosa (qué). Ojo: en italiano no hay signo de apertura (¿) y «perché» sirve para preguntar y para responder.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
     "review_status": "needs_review"
   }
 ]

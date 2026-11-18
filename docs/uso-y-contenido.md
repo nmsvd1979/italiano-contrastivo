@@ -20,6 +20,12 @@
 - Códigos con generador: 12 de 47 (se agregaron ARTICLE_ALLOMORPH, PARTICIPLE_AGREEMENT [solo siamo/siete: con sono/sei/è el participio en -o puede ser válido], POSSESSIVE_SPELLING, CONGIUNTIVO_OPINION [lista cerrada, solo 3.ª persona: se rechazaron oraciones con sujeto de 1.ª/2.ª]).
 - Auditoría IA (`scripts/capsule_pack.py` + `scripts/capsule_apply.py`): 258 revisadas en total, 232 aprobadas. **No es verificación nativa.**
 
+## A1 casi completo (2026-11-18, tarde)
+- **30 unidades activas (25 A1 · 4 A2 · 1 B1)** + **Examen de hito A1** (40 preguntas: 35 % léxico / 65 % gramática y sonidos; aprueba con ≥65 % total y ≥50 % en cada parte, como piden las fuentes; se abre al completar A1, o en modo de prueba). 758 oraciones, 790 clips.
+- **10 unidades de vocabulario** (`pipeline/vocab/vocab_a1.yaml`, ≈270 palabras): familia, comida, casa, ciudad y naturaleza, tiempo, cuerpo, animales, escuela/trabajo, números e interrogativos. Cada oración tiene exactamente una palabra del tema; ejercicios: escucha y elige (la palabra se cambia por otra del tema con el mismo género, número y artículo), hueco, orden y «¿qué significa?». Las glosas son traducciones básicas escritas por el proyecto (no de un diccionario); las oraciones salen de Tatoeba y se auditaron con IA.
+- **Prueba de ubicación adaptativa** (`#/ubicacion`): 3 preguntas por unidad en el orden de la ruta; se detiene tras dos unidades seguidas sin dominar; marca como completadas las dominadas y dice dónde empiezas. Mide solo lo que enseña la app, NO el nivel CEFR (para eso, un test externo).
+- **Sigue faltando para A1 completo:** plural y género como reglas, colores, consonantes dobles, gn y z, números 21+ y hora/fecha, comprensión lectora con textos, producción hablada medida, y volumen (≈9 h de pasos frente a las 40–50 h guiadas de las fuentes).
+
 ## A1 en construcción (2026-11-18)
 - **20 unidades activas (15 A1 · 4 A2 · 1 B1), ≈7 h de pasos**, 517 oraciones, 549 clips. Orden A1: sonidos (c/g, sc, gli) → essere/avere → tener (ho fame) → verbos en -are → -ere/-ire → irregulares (andare, fare, stare, venire) → modales → posesivo con artículo → mio/tuo/suo → il/lo → c'è/ci sono → a/in → nel/sul.
 - **Unidades de presente** (`pipeline/exercises/present.py`): el error se genera solo con pronombre explícito delante («tu parli» → «tu parlas» calcado del español; o una persona que no concuerda). Tablas cerradas de gramática estándar (13 irregulares, 59 regulares sin -iare). Objetivos de tema en `schemas/data/topic-codes.json` (aparte del catálogo de errores de las fuentes).

@@ -189,5 +189,11 @@ export interface Option {
   correct: boolean;
   error_code?: string;
   distractor_kind?:
-    "l1_calque" | "hypercorrection" | "morphological" | "omission" | "tense_mismatch" | "aspect_mismatch";
+    | "l1_calque"
+    | "hypercorrection"
+    | "morphological"
+    | "omission"
+    | "tense_mismatch"
+    | "aspect_mismatch"
+    | "different_word";
 }

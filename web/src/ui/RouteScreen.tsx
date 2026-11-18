@@ -3,10 +3,12 @@ import { STEP_LABEL, STEPS, summary, type UnitView } from "../state/course";
 import { stepSeconds } from "../state/steps";
 import { STEPS as ALL_STEPS } from "../state/course";
 import { formatDuration, loadSamples } from "../state/timing";
+import { hitoId, milestoneOpen } from "../state/milestone";
+import { isPreview } from "../state/preview";
 
 const ICON = { completed: "✓", current: "▶", locked: "🔒" } as const;
 
-export function RouteScreen({ views, pack }: { views: UnitView[]; pack: ContentPack }) {
+export function RouteScreen({ views, pack, hito }: { views: UnitView[]; pack: ContentPack; hito?: Record<string, { completed: boolean; best: number | null }> }) {
   const { done, total } = summary(views);
   const samples = loadSamples();
   return (
@@ -40,6 +42,20 @@ export function RouteScreen({ views, pack }: { views: UnitView[]; pack: ContentP
                   </span>
                 </li>
               ))}
+              {level.id === "A1" && units.length > 0 && (() => {
+                const done = new Set(views.filter((v) => v.state === "completed").map((v) => v.unit.id));
+                const open = milestoneOpen(pack, done, "A1", isPreview());
+                const h = hito?.[hitoId("A1")];
+                return (
+                  <li data-state={h?.completed ? "completed" : open ? "current" : "locked"}>
+                    <span className="node" aria-hidden="true">{h?.completed ? "★" : open ? "★" : "🔒"}</span>
+                    <span className="label">
+                      {open ? <a href="#/hito/A1"><strong>Examen de hito A1</strong></a> : <strong>Examen de hito A1</strong>}
+                      <small>{h?.completed ? `Aprobado${h.best !== null ? ` (${Math.round(h.best * 100)} %)` : ""}` : open ? "Listo: 40 preguntas de todo A1" : "Se abre al completar todas las unidades de A1"}</small>
+                    </span>
+                  </li>
+                );
+              })()}
               {planned.map((p) => (
                 <li key={p.title} data-state="planned">
                   <span className="node" aria-hidden="true">⋯</span>

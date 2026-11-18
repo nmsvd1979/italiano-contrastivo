@@ -16,7 +16,8 @@ def test_topic_codes_cumplen_el_esquema_y_no_pisan_el_catalogo():
     v = jsonschema.Draft202012Validator(schema, registry=_REG)
     for t in topics:
         v.validate(t)
-    assert {t["code"] for t in topics} == set(present.PRESENT_CODES)
+    from pipeline.exercises import vocab
+    assert {t["code"] for t in topics} == set(present.PRESENT_CODES) | set(vocab.VOCAB_CODES)
     assert not catalog & {t["code"] for t in topics}
 
 
@@ -48,3 +49,32 @@ def test_sonidos_nunca_ofrecen_una_palabra_real_como_error():
             hit = phonetics.find_phonetic(code, it)
             if hit:
                 assert not phonetics.is_word(hit[3]), hit
+
+
+def test_vocabulario_consistente():
+    from pipeline.exercises import vocab
+    topics = json.loads((ROOT / "schemas/data/topic-codes.json").read_text(encoding="utf8"))
+    codes = {t["code"] for t in topics}
+    assert set(vocab.VOCAB_CODES) <= codes
+    seen: dict[str, str] = {}
+    for code, entries in vocab.topics().items():
+        forms = [e.form for e in entries]
+        assert len(forms) == len(set(forms)), code
+        for e in entries:
+            assert e.gender in "mf-" and e.num in "sp-" and e.gloss.strip(), e
+            assert seen.setdefault(e.form, code) == code, f"{e.form} está en dos temas"
+        glosses = [e.gloss for e in entries]
+        assert len(glosses) == len(set(glosses)), f"glosas repetidas en {code}"
+
+
+def test_vocabulario_solo_con_una_palabra_y_con_el_mismo_articulo():
+    from pipeline.exercises import vocab
+    assert vocab.find_vocab("ERR_VOC_FAMILIA", "L'amico di mio padre è qui.") is None  # dos palabras del tema
+    start, end, word, repl, gloss, others = vocab.find_vocab("ERR_VOC_FAMILIA", "Mia madre è brava.")
+    assert (word, gloss) == ("madre", "la madre")
+    ents = {e.form: e for e in vocab.topics()["ERR_VOC_FAMILIA"]}
+    assert (ents[repl].gender, ents[repl].num) == ("f", "s") and vocab.art_class(ents[repl]) == vocab.art_class(ents["madre"])
+    assert gloss not in others and len(set(others)) == 2
+    # clase de artículo: «lo zio» y «lo studente» comparten artículo; «il padre» no
+    assert vocab.art_class(ents["zio"]) == "S" and vocab.art_class(ents["padre"]) == "C" and vocab.art_class(ents["uomo"]) == "V"
+    assert vocab.find_vocab("ERR_VOC_FAMILIA", "Zio Tom è qui.") is None  # «zio» es la única con «lo»: sin sustituta con el mismo artículo no se genera

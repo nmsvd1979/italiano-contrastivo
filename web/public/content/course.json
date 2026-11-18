@@ -445,6 +445,177 @@
       ]
     },
     {
+      "id": "u21",
+      "level": "A1",
+      "title": "Vocabulario: la familia y las personas",
+      "goal_es": "Madre, padre, hermano, hijo, amigo… con su artículo y su género.",
+      "codes": [
+        "ERR_VOC_FAMILIA"
+      ],
+      "why_here": "Primer vocabulario: hablar de ti y de tu gente.",
+      "status": "active",
+      "explanation_es": "Madre, padre, hermano, hijo, amigo… Fíjate en el género y el artículo: il padre / la madre, i figli / le figlie. «Genitori» significa «los padres» (madre y padre), no «parientes».",
+      "parts": {
+        "descubre": [
+          "s_2870294",
+          "s_382052",
+          "s_2905863",
+          "s_3437358"
+        ],
+        "practica": [
+          "s_2870294",
+          "s_382052",
+          "s_2905863",
+          "s_3437358",
+          "s_3601695",
+          "s_1535842",
+          "s_608992",
+          "s_1107219",
+          "s_13313121",
+          "s_569539",
+          "s_6612777",
+          "s_365723",
+          "s_373499",
+          "s_706307",
+          "s_2395367",
+          "s_377164",
+          "s_4629",
+          "s_1669726",
+          "s_2733860"
+        ],
+        "escucha": [
+          "s_2870294",
+          "s_2905863",
+          "s_3601695",
+          "s_608992",
+          "s_13313121",
+          "s_6612777",
+          "s_373499",
+          "s_2395367"
+        ],
+        "prueba": [
+          "s_2699649",
+          "s_547094",
+          "s_616075",
+          "s_7713808",
+          "s_993178",
+          "s_1000571"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2870294",
+          "start": 10,
+          "end": 16,
+          "wrong": "cugino"
+        },
+        {
+          "id": "s_382052",
+          "start": 9,
+          "end": 17,
+          "wrong": "ragazzo"
+        },
+        {
+          "id": "s_2905863",
+          "start": 13,
+          "end": 18,
+          "wrong": "uomo"
+        },
+        {
+          "id": "s_3437358",
+          "start": 13,
+          "end": 18,
+          "wrong": "zia"
+        }
+      ]
+    },
+    {
+      "id": "u30",
+      "level": "A1",
+      "title": "Vocabulario: preguntar (dove, quando, perché…)",
+      "goal_es": "Dove, quando, perché, come, chi, quanto, quale, cosa: reconocerlas al oírlas y usarlas en preguntas reales.",
+      "codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "why_here": "Con ellas ya se pueden hacer preguntas desde el primer día.",
+      "status": "active",
+      "explanation_es": "Las palabras para preguntar: dove (dónde), quando (cuándo), perché (por qué y también «porque»), come (cómo), chi (quién), quanto (cuánto), quale (cuál), cosa (qué). Ojo: en italiano no hay signo de apertura (¿) y «perché» sirve para preguntar y para responder.",
+      "parts": {
+        "descubre": [
+          "s_2975152",
+          "s_1989130",
+          "s_1441832",
+          "s_4434"
+        ],
+        "practica": [
+          "s_2975152",
+          "s_1989130",
+          "s_1441832",
+          "s_4434",
+          "s_922822",
+          "s_2885543",
+          "s_3697122",
+          "s_1330875",
+          "s_738768",
+          "s_4463569",
+          "s_1859908",
+          "s_381212",
+          "s_388805",
+          "s_8081497",
+          "s_4577451",
+          "s_935010",
+          "s_1516083",
+          "s_2845495",
+          "s_524147",
+          "s_851744"
+        ],
+        "escucha": [
+          "s_2975152",
+          "s_1441832",
+          "s_922822",
+          "s_3697122",
+          "s_738768",
+          "s_1859908",
+          "s_388805",
+          "s_4577451"
+        ],
+        "prueba": [
+          "s_1999027",
+          "s_8867140",
+          "s_3892338",
+          "s_1504754",
+          "s_414476",
+          "s_955459"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2975152",
+          "start": 4,
+          "end": 8,
+          "wrong": "quanto"
+        },
+        {
+          "id": "s_1989130",
+          "start": 0,
+          "end": 4,
+          "wrong": "Come"
+        },
+        {
+          "id": "s_1441832",
+          "start": 4,
+          "end": 8,
+          "wrong": "cosa"
+        },
+        {
+          "id": "s_4434",
+          "start": 0,
+          "end": 4,
+          "wrong": "Chi"
+        }
+      ]
+    },
+    {
       "id": "u04",
       "level": "A1",
       "title": "Tener no es «tenere»: ho fame",
@@ -617,6 +788,91 @@
       ]
     },
     {
+      "id": "u22",
+      "level": "A1",
+      "title": "Vocabulario: comida y bebida",
+      "goal_es": "Pane, latte, acqua, mela, pesce, caffè… y los falsos amigos burro y torta.",
+      "codes": [
+        "ERR_VOC_CIBO"
+      ],
+      "why_here": "Vocabulario de uso inmediato para pedir y hablar de lo que comes.",
+      "status": "active",
+      "explanation_es": "Pane, latte, acqua, mela, pesce… Ojo con los falsos amigos: «burro» es mantequilla, no el animal; «torta» es pastel, no una torta de pan. Casi todas las palabras de comida tienen artículo: il pane, la carne, l'acqua.",
+      "parts": {
+        "descubre": [
+          "s_2697097",
+          "s_1310129",
+          "s_1317747",
+          "s_3156369"
+        ],
+        "practica": [
+          "s_2697097",
+          "s_1310129",
+          "s_1317747",
+          "s_3156369",
+          "s_6618046",
+          "s_426183",
+          "s_653794",
+          "s_3834673",
+          "s_4525882",
+          "s_5248697",
+          "s_1308196",
+          "s_635782",
+          "s_12411058",
+          "s_2687784",
+          "s_529382",
+          "s_475622",
+          "s_691473",
+          "s_1426794",
+          "s_2750322"
+        ],
+        "escucha": [
+          "s_2697097",
+          "s_1317747",
+          "s_6618046",
+          "s_653794",
+          "s_4525882",
+          "s_1308196",
+          "s_12411058",
+          "s_529382"
+        ],
+        "prueba": [
+          "s_3665114",
+          "s_3676865",
+          "s_12411222",
+          "s_12400777",
+          "s_423820",
+          "s_6571325"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2697097",
+          "start": 2,
+          "end": 7,
+          "wrong": "pera"
+        },
+        {
+          "id": "s_1310129",
+          "start": 12,
+          "end": 17,
+          "wrong": "gelato"
+        },
+        {
+          "id": "s_1317747",
+          "start": 3,
+          "end": 8,
+          "wrong": "pane"
+        },
+        {
+          "id": "s_3156369",
+          "start": 12,
+          "end": 17,
+          "wrong": "vino"
+        }
+      ]
+    },
+    {
       "id": "u15",
       "level": "A1",
       "title": "Verbos en -ere e -ire: leggo, dormo, finisco",
@@ -698,6 +954,87 @@
           "start": 4,
           "end": 9,
           "wrong": "leggono"
+        }
+      ]
+    },
+    {
+      "id": "u23",
+      "level": "A1",
+      "title": "Vocabulario: la casa",
+      "goal_es": "Stanza, cucina, camera, bagno, porta, finestra, tavolo… y el artículo con vocal inicial (l'appartamento).",
+      "codes": [
+        "ERR_VOC_CASA"
+      ],
+      "why_here": "Describir dónde vives, con los verbos de presente ya vistos.",
+      "status": "active",
+      "explanation_es": "Stanza, cucina, camera, bagno, porta, finestra… «Camera» es dormitorio (no cámara) y «tavolo» es la mesa. Con vocal inicial el artículo se apostrofa: l'appartamento, l'armadio.",
+      "parts": {
+        "descubre": [
+          "s_7716415",
+          "s_2714862",
+          "s_3776429",
+          "s_9754030"
+        ],
+        "practica": [
+          "s_7716415",
+          "s_2714862",
+          "s_3776429",
+          "s_9754030",
+          "s_1104199",
+          "s_2831900",
+          "s_426481",
+          "s_6617778",
+          "s_3070810",
+          "s_6617780",
+          "s_736833",
+          "s_993614",
+          "s_4598063",
+          "s_740426",
+          "s_10877061"
+        ],
+        "escucha": [
+          "s_7716415",
+          "s_2714862",
+          "s_3776429",
+          "s_9754030",
+          "s_1104199",
+          "s_2831900",
+          "s_426481",
+          "s_6617778"
+        ],
+        "prueba": [
+          "s_3373184",
+          "s_385095",
+          "s_6142727",
+          "s_11969555",
+          "s_398670",
+          "s_9180675"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_7716415",
+          "start": 12,
+          "end": 16,
+          "wrong": "lampada"
+        },
+        {
+          "id": "s_2714862",
+          "start": 7,
+          "end": 11,
+          "wrong": "stanza"
+        },
+        {
+          "id": "s_3776429",
+          "start": 10,
+          "end": 14,
+          "wrong": "parete"
+        },
+        {
+          "id": "s_9754030",
+          "start": 12,
+          "end": 18,
+          "wrong": "tavolo"
         }
       ]
     },
@@ -787,6 +1124,90 @@
       ]
     },
     {
+      "id": "u24",
+      "level": "A1",
+      "title": "Vocabulario: la ciudad y la naturaleza",
+      "goal_es": "Città, strada, piazza, stazione, mare, fiume, montagna…",
+      "codes": [
+        "ERR_VOC_CITTA"
+      ],
+      "why_here": "Moverse y preguntar por lugares; prepara las preposiciones a / in.",
+      "status": "active",
+      "explanation_es": "Città, strada, piazza, chiesa, stazione, mare, fiume… Muchas palabras en -e son masculinas o femeninas sin que se note: il ponte, il mare, il fiume, pero la stazione, la città.",
+      "parts": {
+        "descubre": [
+          "s_506018",
+          "s_13576911",
+          "s_1496938",
+          "s_1098077"
+        ],
+        "practica": [
+          "s_506018",
+          "s_13576911",
+          "s_1496938",
+          "s_1098077",
+          "s_2618316",
+          "s_423352",
+          "s_1253962",
+          "s_712887",
+          "s_4581507",
+          "s_374491",
+          "s_376163",
+          "s_791273",
+          "s_600922",
+          "s_610311",
+          "s_3430568",
+          "s_1002616",
+          "s_2860619",
+          "s_4898950"
+        ],
+        "escucha": [
+          "s_506018",
+          "s_1496938",
+          "s_2618316",
+          "s_1253962",
+          "s_4581507",
+          "s_376163",
+          "s_600922",
+          "s_3430568"
+        ],
+        "prueba": [
+          "s_880380",
+          "s_380459",
+          "s_2823744",
+          "s_719331",
+          "s_1708367",
+          "s_948354"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_506018",
+          "start": 9,
+          "end": 14,
+          "wrong": "scuola"
+        },
+        {
+          "id": "s_13576911",
+          "start": 12,
+          "end": 16,
+          "wrong": "cinema"
+        },
+        {
+          "id": "s_1496938",
+          "start": 9,
+          "end": 17,
+          "wrong": "albergo"
+        },
+        {
+          "id": "s_1098077",
+          "start": 3,
+          "end": 10,
+          "wrong": "supermercato"
+        }
+      ]
+    },
+    {
       "id": "u17",
       "level": "A1",
       "title": "Volere, potere, dovere: voglio, posso, devo",
@@ -867,6 +1288,173 @@
           "start": 3,
           "end": 9,
           "wrong": "vogliamo"
+        }
+      ]
+    },
+    {
+      "id": "u25",
+      "level": "A1",
+      "title": "Vocabulario: días, meses y estaciones",
+      "goal_es": "Giorno, settimana, mese, anno, lunedì…domenica, estate, inverno.",
+      "codes": [
+        "ERR_VOC_TEMPO"
+      ],
+      "why_here": "Hablar de rutinas y planes.",
+      "status": "active",
+      "explanation_es": "Giorno, settimana, mese, anno; lunedì, martedì…; estate, inverno. Los días de la semana (salvo domenica) son masculinos y no llevan mayúscula: il lunedì, di sabato.",
+      "parts": {
+        "descubre": [
+          "s_2858225",
+          "s_1506141",
+          "s_2023154",
+          "s_7565805"
+        ],
+        "practica": [
+          "s_2858225",
+          "s_1506141",
+          "s_2023154",
+          "s_7565805",
+          "s_13965505",
+          "s_1870526",
+          "s_2160163",
+          "s_1068329",
+          "s_2771720",
+          "s_2917410",
+          "s_376573",
+          "s_3589270",
+          "s_4508978",
+          "s_4701",
+          "s_13718438",
+          "s_475672",
+          "s_1083201",
+          "s_1828200"
+        ],
+        "escucha": [
+          "s_2858225",
+          "s_2023154",
+          "s_13965505",
+          "s_2160163",
+          "s_2771720",
+          "s_376573",
+          "s_4508978",
+          "s_13718438"
+        ],
+        "prueba": [
+          "s_1233817",
+          "s_1740705",
+          "s_691868",
+          "s_1506238",
+          "s_2706126",
+          "s_1488418"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2858225",
+          "start": 6,
+          "end": 12,
+          "wrong": "minuto"
+        },
+        {
+          "id": "s_1506141",
+          "start": 13,
+          "end": 19,
+          "wrong": "mesi"
+        },
+        {
+          "id": "s_2023154",
+          "start": 14,
+          "end": 20,
+          "wrong": "pomeriggio"
+        },
+        {
+          "id": "s_7565805",
+          "start": 0,
+          "end": 7,
+          "wrong": "Mercoledì"
+        }
+      ]
+    },
+    {
+      "id": "u26",
+      "level": "A1",
+      "title": "Vocabulario: los números",
+      "goal_es": "Due, tre, quattro… venti, cento, mille, en oraciones reales (hora, edad, cantidades).",
+      "codes": [
+        "ERR_VOC_NUMERI"
+      ],
+      "why_here": "Edad, hora y precios aparecen desde el primer día.",
+      "status": "active",
+      "explanation_es": "Due, tre, quattro… venti, cento, mille. «Sei» (6) se escribe igual que «tú eres» y «uno» cambia (un libro, una casa). Los números del 11 al 16 terminan en -dici (undici, dodici, tredici…).",
+      "parts": {
+        "descubre": [
+          "s_1577912",
+          "s_1307429",
+          "s_4729152",
+          "s_12655939"
+        ],
+        "practica": [
+          "s_1577912",
+          "s_1307429",
+          "s_4729152",
+          "s_12655939",
+          "s_1523829",
+          "s_1278688",
+          "s_13385164",
+          "s_13385230",
+          "s_2620039",
+          "s_3378467",
+          "s_3935687",
+          "s_7803047",
+          "s_1708375",
+          "s_14008531",
+          "s_378137",
+          "s_603418",
+          "s_541873"
+        ],
+        "escucha": [
+          "s_1577912",
+          "s_4729152",
+          "s_1523829",
+          "s_13385164",
+          "s_2620039",
+          "s_3935687",
+          "s_1708375",
+          "s_378137"
+        ],
+        "prueba": [
+          "s_6606234",
+          "s_664277",
+          "s_2079902",
+          "s_3421963",
+          "s_13227706",
+          "s_969345"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1577912",
+          "start": 6,
+          "end": 9,
+          "wrong": "sette"
+        },
+        {
+          "id": "s_1307429",
+          "start": 6,
+          "end": 9,
+          "wrong": "venti"
+        },
+        {
+          "id": "s_4729152",
+          "start": 8,
+          "end": 12,
+          "wrong": "quindici"
+        },
+        {
+          "id": "s_12655939",
+          "start": 8,
+          "end": 13,
+          "wrong": "tre"
         }
       ]
     },
@@ -1042,6 +1630,90 @@
       ]
     },
     {
+      "id": "u27",
+      "level": "A1",
+      "title": "Vocabulario: el cuerpo",
+      "goal_es": "Testa, mano, occhio, braccio, sangue… con sus plurales raros y el género distinto al español.",
+      "codes": [
+        "ERR_VOC_CORPO"
+      ],
+      "why_here": "Salud y descripciones; ejercita el género y el plural.",
+      "status": "active",
+      "explanation_es": "Testa, mano, occhio, braccio, sangue… Ojo con el género y con los plurales raros: la mano → le mani, l'occhio → gli occhi, il braccio → le braccia, il sangue (masculino, a diferencia del español «la sangre»).",
+      "parts": {
+        "descubre": [
+          "s_396055",
+          "s_2576250",
+          "s_5167448",
+          "s_1300584"
+        ],
+        "practica": [
+          "s_396055",
+          "s_2576250",
+          "s_5167448",
+          "s_1300584",
+          "s_13185468",
+          "s_749858",
+          "s_1177705",
+          "s_3237814",
+          "s_607500",
+          "s_14060016",
+          "s_422360",
+          "s_6021598",
+          "s_12645218",
+          "s_375025",
+          "s_12644969",
+          "s_13381185",
+          "s_2809151",
+          "s_1741284"
+        ],
+        "escucha": [
+          "s_396055",
+          "s_5167448",
+          "s_13185468",
+          "s_1177705",
+          "s_607500",
+          "s_422360",
+          "s_12645218",
+          "s_12644969"
+        ],
+        "prueba": [
+          "s_481811",
+          "s_13071592",
+          "s_2268811",
+          "s_375783",
+          "s_1506608",
+          "s_876751"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_396055",
+          "start": 10,
+          "end": 16,
+          "wrong": "bocca"
+        },
+        {
+          "id": "s_2576250",
+          "start": 5,
+          "end": 10,
+          "wrong": "capelli"
+        },
+        {
+          "id": "s_5167448",
+          "start": 5,
+          "end": 12,
+          "wrong": "piedi"
+        },
+        {
+          "id": "s_1300584",
+          "start": 15,
+          "end": 20,
+          "wrong": "piedi"
+        }
+      ]
+    },
+    {
       "id": "u07",
       "level": "A1",
       "title": "Il, lo, l' y gli, i: elegir el artículo",
@@ -1200,6 +1872,91 @@
           "start": 0,
           "end": 7,
           "wrong": "C'è"
+        }
+      ]
+    },
+    {
+      "id": "u28",
+      "level": "A1",
+      "title": "Vocabulario: los animales",
+      "goal_es": "Cane, gatto, cavallo, uccello, tigre… y sus plurales (i cani, gli uccelli).",
+      "codes": [
+        "ERR_VOC_ANIMALI"
+      ],
+      "why_here": "Refuerza el plural en -i y el artículo gli.",
+      "status": "active",
+      "explanation_es": "Cane, gatto, cavallo, uccello, mucca, tigre… Plural en -i (i cani, i gatti, gli uccelli). Ojo: «la tigre» es femenino y «scimmia» es el mono (femenino en italiano).",
+      "parts": {
+        "descubre": [
+          "s_374218",
+          "s_1061083",
+          "s_7794216",
+          "s_3259078"
+        ],
+        "practica": [
+          "s_374218",
+          "s_1061083",
+          "s_7794216",
+          "s_3259078",
+          "s_5495932",
+          "s_12037505",
+          "s_12938268",
+          "s_2168544",
+          "s_4384477",
+          "s_4508567",
+          "s_13629687",
+          "s_12762772",
+          "s_14059925",
+          "s_3535222",
+          "s_3860828",
+          "s_11770374",
+          "s_6914546",
+          "s_7307206",
+          "s_1254118"
+        ],
+        "escucha": [
+          "s_374218",
+          "s_7794216",
+          "s_5495932",
+          "s_12938268",
+          "s_4384477",
+          "s_13629687",
+          "s_14059925",
+          "s_3860828"
+        ],
+        "prueba": [
+          "s_2728604",
+          "s_7804465",
+          "s_12601865",
+          "s_13049441",
+          "s_4849925",
+          "s_7529340"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_374218",
+          "start": 7,
+          "end": 12,
+          "wrong": "leone"
+        },
+        {
+          "id": "s_1061083",
+          "start": 12,
+          "end": 16,
+          "wrong": "maiale"
+        },
+        {
+          "id": "s_7794216",
+          "start": 5,
+          "end": 9,
+          "wrong": "gatto"
+        },
+        {
+          "id": "s_3259078",
+          "start": 12,
+          "end": 17,
+          "wrong": "maiale"
         }
       ]
     },
@@ -1368,6 +2125,90 @@
           "start": 12,
           "end": 17,
           "wrong": "di le"
+        }
+      ]
+    },
+    {
+      "id": "u29",
+      "level": "A1",
+      "title": "Vocabulario: la escuela y el trabajo",
+      "goal_es": "Libro, penna, studente, professore, lavoro, ufficio, medico…",
+      "codes": [
+        "ERR_VOC_LAVORO"
+      ],
+      "why_here": "Cierra el vocabulario base de A1 con profesiones y objetos de estudio.",
+      "status": "active",
+      "explanation_es": "Libro, penna, classe, studente, lavoro, ufficio, medico… Las profesiones suelen tener forma masculina y femenina: lo studente / la studentessa, il professore / la professoressa.",
+      "parts": {
+        "descubre": [
+          "s_428047",
+          "s_851715",
+          "s_1516677",
+          "s_3148899"
+        ],
+        "practica": [
+          "s_428047",
+          "s_851715",
+          "s_1516677",
+          "s_3148899",
+          "s_390623",
+          "s_717857",
+          "s_726371",
+          "s_380192",
+          "s_762997",
+          "s_10018876",
+          "s_2001783",
+          "s_428859",
+          "s_5973709",
+          "s_603423",
+          "s_1586367",
+          "s_1931400",
+          "s_2866390",
+          "s_2068107"
+        ],
+        "escucha": [
+          "s_428047",
+          "s_1516677",
+          "s_390623",
+          "s_726371",
+          "s_762997",
+          "s_2001783",
+          "s_5973709",
+          "s_1586367"
+        ],
+        "prueba": [
+          "s_4571414",
+          "s_8258572",
+          "s_386199",
+          "s_479753",
+          "s_651167",
+          "s_1836168"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_428047",
+          "start": 9,
+          "end": 14,
+          "wrong": "cameriere"
+        },
+        {
+          "id": "s_851715",
+          "start": 3,
+          "end": 8,
+          "wrong": "professore"
+        },
+        {
+          "id": "s_1516677",
+          "start": 13,
+          "end": 19,
+          "wrong": "dottore"
+        },
+        {
+          "id": "s_3148899",
+          "start": 7,
+          "end": 12,
+          "wrong": "cuoco"
         }
       ]
     },

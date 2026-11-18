@@ -26,7 +26,8 @@ def test_textos_solo_de_oraciones_y_lexemas_y_nunca_un_distractor():
     assert texts and len(texts) == len(set(texts)) and texts == sorted(texts)
     assert set(texts) == sentences | forms
     wrong = {o["text"] for items in json.loads((PACK / "items_by_code.json").read_text(encoding="utf8")).values()
-             for it in items for o in it.get("options", []) if not o["correct"]}
+             for it in items for o in it.get("options", [])
+             if not o["correct"] and o.get("distractor_kind") != "different_word"}  # en vocabulario la «otra palabra» es italiano válido (otra oración del paquete): el audio la distingue y la UI solo reproduce la correcta
     assert wrong and not (set(texts) & wrong)
 
 
