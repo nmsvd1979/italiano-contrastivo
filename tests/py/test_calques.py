@@ -66,7 +66,7 @@ def test_calque_aplica_el_calco_exacto(code, it, wrong_sentence, correct, kind):
 
 @pytest.mark.parametrize("code", calques.CALQUE_CODES)
 def test_sin_patron_devuelve_none(code):
-    assert find_calque(code, "Mi piace molto la pizza.") is None
+    assert find_calque(code, "Mi piace molto qui.") is None
 
 
 @pytest.mark.parametrize("code,it", [
@@ -111,7 +111,8 @@ def test_los_codigos_cubiertos():
         "ERR_POSSESSIVE_ARTICLE", "ERR_PREP_ARTICLE_CONTRACTION", "ERR_COMPARATIVE_DI", "ERR_TENERE_AVERE",
         "ERR_ARTICLE_ALLOMORPH", "ERR_PARTICIPLE_AGREEMENT", "ERR_POSSESSIVE_SPELLING", "ERR_CONGIUNTIVO_OPINION",
         "ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL",
-        "ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL"}
+        "ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL",
+        "ERR_VOC_FAMILIA", "ERR_VOC_CIBO", "ERR_VOC_CASA", "ERR_VOC_CITTA", "ERR_VOC_TEMPO", "ERR_VOC_CORPO", "ERR_VOC_ANIMALI", "ERR_VOC_LAVORO", "ERR_VOC_NUMERI"}
     assert find_calque("ERR_NO_EXISTE", "Ho fame.") is None
 
 
@@ -129,7 +130,7 @@ def test_ningun_calco_aparece_en_el_corpus_validado():
     corpus = " ".join(d["it"] for d in docs)
     hits = 0
     for d in docs:
-        for code in calques.CALQUE_CODES:
+        for code in (c for c in calques.CALQUE_CODES if not c.startswith("ERR_VOC_")):  # en vocabulario la palabra sustituta es válida en otros contextos: la diferencia la marca el audio
             c = find_calque(code, d["it"])
             if not c:
                 continue
@@ -140,8 +141,9 @@ def test_ningun_calco_aparece_en_el_corpus_validado():
             after = re.match(r"\s*\S+", d["it"][c.end:])
             phrase = (c.wrong + (after.group(0) if after else "")).lower()
             if code in NEW_CODES:  # su calco solo es error dentro de su contexto («siamo stato», «che è», «il mi»): se busca con la palabra anterior
-                before = re.search(r"(\S+)\s*$", d["it"][:c.start])
-                phrase = ((before.group(1) + " ") if before else "").lower() + phrase
+                n = 2 if code.startswith("ERR_PRESENT_") else 1  # presente: pronombre + (non) + verbo
+                before = re.search(r"((?:\S+\s+){0,%d}\S+)\s*$" % (n - 1), d["it"][:c.start])
+                phrase = (before.group(0).strip() + " " if before else "").lower() + phrase
             if code == "ERR_COMPARATIVE_DI":  # «che me» solo es calco tras «più/meno + adjetivo»; «prima che me lo scordi» es otra cosa
                 phrase = r"(?:più|meno) \w+ " + re.escape(phrase)
             if c.kind == "omission":  # «tua idea» está dentro de «la tua idea»: solo cuenta si no lleva artículo antes

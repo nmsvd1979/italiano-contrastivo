@@ -13,6 +13,7 @@ const WHY: Record<string, string> = {
   hypercorrection: "Esa versión corrige de más.",
   tense_mismatch: "El tiempo verbal no corresponde.",
   aspect_mismatch: "El aspecto verbal no corresponde.",
+  different_word: "Esa opción es otra palabra: no coincide con lo que se pregunta u oye.",
 };
 
 export function Choice({ item, onAnswer }: { item: ChoiceItem; onAnswer: (correct: boolean) => void }) {

@@ -1,6 +1,11 @@
 [
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Voglio fare il tuo lavoro.",
+    "wrong": "Voglio fare tuo lavoro."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Le mie sono peggio.",
     "wrong": "Mie sono peggio."
   },
@@ -95,6 +100,11 @@
     "wrong": "Sami conosce Layla da le medie."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "L'uomo mangiò del pane.",
+    "wrong": "L'uomo mangiò di il pane."
+  },
+  {
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Tom è più alto di me.",
     "wrong": "Tom è più alto che me."
@@ -120,6 +130,16 @@
     "wrong": "Dovreste vedere mio gatto ora."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Hanno molti fiori nel loro giardino?",
+    "wrong": "Hanno molti fiori in il loro giardino?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il tuo cane non è qui.",
+    "wrong": "Tuo cane non è qui."
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Tom conosce Mary da molto tempo.",
     "wrong": "Tom conosce a Mary da molto tempo."
@@ -143,6 +163,16 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "La sua personalità è affascinante.",
     "wrong": "Sua personalità è affascinante."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "È una pugnalata alla schiena.",
+    "wrong": "È una pugnalata a la schiena."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Io non bevo dell'acqua.",
+    "wrong": "Io non bevo di l'acqua."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -196,6 +226,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ho un appuntamento alle tre.",
+    "wrong": "Ho un appuntamento a le tre."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "I ratti abbondano nella discarica municipale.",
     "wrong": "I ratti abbondano in la discarica municipale."
   },
@@ -218,6 +253,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Domani io non vado al cinema.",
     "wrong": "Domani io non vado a il cinema."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Puoi venire alle nove?",
+    "wrong": "Puoi venire a le nove?"
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -300,6 +340,11 @@
     "wrong": "Io conosco a Tom di persona."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Devo andare al lavoro adesso.",
+    "wrong": "Devo andare a il lavoro adesso."
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Io non vedo Tom da mesi.",
     "wrong": "Io non vedo a Tom da mesi."
@@ -308,6 +353,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Lui non abita nel mio quartiere.",
     "wrong": "Lui non abita in il mio quartiere."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Peter vive con il suo amico.",
+    "wrong": "Peter vive con suo amico."
   },
   {
     "code": "ERR_PERSONAL_A",
@@ -336,6 +386,11 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Loro chiamarono il loro cane Rex.",
+    "wrong": "Loro chiamarono loro cane Rex."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il mio vecchio vestito è azzurro.",
     "wrong": "Mio vecchio vestito è azzurro."
   },
@@ -348,6 +403,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Il prezzo della benzina sta crescendo.",
     "wrong": "Il prezzo di la benzina sta crescendo."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Immaginati sulla cima di una montagna.",
+    "wrong": "Immaginati su la cima di una montagna."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -378,6 +438,16 @@
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è un problema, Tom?",
     "wrong": "Ci sono un problema, Tom?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il suo libro è rosso.",
+    "wrong": "Suo libro è rosso."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il tuo sangue è rosso.",
+    "wrong": "Tuo sangue è rosso."
   },
   {
     "code": "ERR_PERSONAL_A",
@@ -415,6 +485,16 @@
     "wrong": "Ho bisogno di il primo soccorso."
   },
   {
+    "code": "ERR_PREP_PLACE",
+    "correct": "In Italia si mangia molta pasta.",
+    "wrong": "A Italia si mangia molta pasta."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Lui vuole del burro di arachidi.",
+    "wrong": "Lui vuole di il burro di arachidi."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Hanno paura di Tom.",
     "wrong": "Tengono paura di Tom."
@@ -425,9 +505,19 @@
     "wrong": "La musica nutre nostra immaginazione."
   },
   {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "C'è un gatto.",
+    "wrong": "Ci sono un gatto."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Roma è in Italia.",
     "wrong": "Roma è a Italia."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Mi accompagnò all'ospedale.",
+    "wrong": "Mi accompagnò a l'ospedale."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -448,6 +538,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Nel giardino ci sono molti fiori.",
     "wrong": "In il giardino ci sono molti fiori."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Questo è un libro sulle stelle.",
+    "wrong": "Questo è un libro su le stelle."
   },
   {
     "code": "ERR_TENERE_AVERE",
@@ -476,6 +571,16 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Al mare non piove mai.",
+    "wrong": "A il mare non piove mai."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Mi piace mangiare della zuppa calda.",
+    "wrong": "Mi piace mangiare di la zuppa calda."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Non conosco niente sul Giappone.",
     "wrong": "Non conosco niente su il Giappone."
   },
@@ -498,6 +603,16 @@
     "code": "ERR_PREP_PLACE",
     "correct": "Tutte le strade portano a Roma.",
     "wrong": "Tutte le strade portano in Roma."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Non sono contento del mio lavoro.",
+    "wrong": "Non sono contento di il mio lavoro."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sono alla stazione di Tokyo adesso.",
+    "wrong": "Sono a la stazione di Tokyo adesso."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -535,9 +650,24 @@
     "wrong": "Mia bottiglia si è rotta."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Tutta la città è al corrente.",
+    "wrong": "Tutta la città è a il corrente."
+  },
+  {
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Pechino è più grande di Roma.",
     "wrong": "Pechino è più grande che Roma."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il tuo giardino è davvero piccolo.",
+    "wrong": "Tuo giardino è davvero piccolo."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "I miei genitori non mi capiscono.",
+    "wrong": "Miei genitori non mi capiscono."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -558,6 +688,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il mio migliore amico è filippino.",
     "wrong": "Mio migliore amico è filippino."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio amico è calabrese.",
+    "wrong": "Mio amico è calabrese."
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -615,6 +750,16 @@
     "wrong": "Ci sono molte galassie in l'universo."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Casa mia è vicina alla chiesa.",
+    "wrong": "Casa mia è vicina a la chiesa."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Alcuni animali si riproducono negli zoo.",
+    "wrong": "Alcuni animali si riproducono in gli zoo."
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "Oh, là c'è una farfalla!",
     "wrong": "Oh, là ci sono una farfalla!"
@@ -626,6 +771,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "È molto bravo nel suo lavoro.",
+    "wrong": "È molto bravo in il suo lavoro."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io vengo dal Giappone.",
     "wrong": "Io vengo da il Giappone."
   },
@@ -633,6 +783,11 @@
     "code": "ERR_TENERE_AVERE",
     "correct": "Lei ha paura dei tuoni.",
     "wrong": "Lei tiene paura dei tuoni."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "L'ingresso alla biblioteca è libero.",
+    "wrong": "L'ingresso a la biblioteca è libero."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -660,6 +815,11 @@
     "wrong": "Mia coscienza è pulita."
   },
   {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "In Giappone ci sono quattro stagioni.",
+    "wrong": "In Giappone c'è quattro stagioni."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Quattro famiglie sono morte nell'incendio.",
     "wrong": "Quattro famiglie sono morte in l'incendio."
@@ -673,6 +833,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Gli uccelli stanno cantando sugli alberi.",
     "wrong": "Gli uccelli stanno cantando su gli alberi."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio migliore amico è marocchino.",
+    "wrong": "Mio migliore amico è marocchino."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",

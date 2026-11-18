@@ -53,3 +53,13 @@ def build_reorder(sentence: dict, seed: int, code: str | None = None) -> dict | 
 def build_translate(sentence: dict, code: str | None = None) -> dict:
     return {**_base("translate", sentence, code), "type": "translate_es_it",
             "source_es": sentence["es"], "accepted_it": [sentence["it"]]}
+
+
+def build_meaning(sentence: dict, correct_text: str, code: str, gloss: str, others: tuple[str, str], seed: int) -> dict:
+    """Vocabulario: «¿qué significa X?» con la glosa correcta y dos de otras palabras del tema (errores por construcción)."""
+    options = [{"text": gloss, "correct": True}] + [
+        {"text": g, "correct": False, "error_code": code, "distractor_kind": "different_word"} for g in others]
+    rng = random.Random(zlib.crc32(f"{seed}:{sentence['id']}".encode()))
+    rng.shuffle(options)
+    return {**_base("meaning", sentence, code), "type": "choice_l1_distractor",
+            "prompt_es": f"En «{sentence['it']}», ¿qué significa «{correct_text.lower()}»?", "options": options}

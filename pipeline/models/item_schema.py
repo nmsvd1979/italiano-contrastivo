@@ -55,6 +55,7 @@ class DistractorKind(Enum):
     omission = 'omission'
     tense_mismatch = 'tense_mismatch'
     aspect_mismatch = 'aspect_mismatch'
+    different_word = 'different_word'
 
 
 class Option(BaseModel):

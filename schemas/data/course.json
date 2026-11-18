@@ -65,6 +65,16 @@
       "why_here": "Son la base de casi todo lo demás: presentarse, describir y los tiempos compuestos."
     },
     {
+      "id": "u21",
+      "level": "A1",
+      "title": "Vocabulario: la familia y las personas",
+      "goal_es": "Madre, padre, hermano, hijo, amigo… con su artículo y su género.",
+      "codes": [
+        "ERR_VOC_FAMILIA"
+      ],
+      "why_here": "Primer vocabulario: hablar de ti y de tu gente."
+    },
+    {
       "id": "u04",
       "level": "A1",
       "title": "Tener no es «tenere»: ho fame",
@@ -85,6 +95,16 @@
       "why_here": "Es el grupo más grande de verbos y donde más pesa el calco de las terminaciones."
     },
     {
+      "id": "u22",
+      "level": "A1",
+      "title": "Vocabulario: comida y bebida",
+      "goal_es": "Pane, latte, acqua, mela, pesce, caffè… y los falsos amigos burro y torta.",
+      "codes": [
+        "ERR_VOC_CIBO"
+      ],
+      "why_here": "Vocabulario de uso inmediato para pedir y hablar de lo que comes."
+    },
+    {
       "id": "u15",
       "level": "A1",
       "title": "Verbos en -ere e -ire: leggo, dormo, finisco",
@@ -93,6 +113,16 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "why_here": "Completa los dos grupos regulares tras los verbos en -are."
+    },
+    {
+      "id": "u23",
+      "level": "A1",
+      "title": "Vocabulario: la casa",
+      "goal_es": "Stanza, cucina, camera, bagno, porta, finestra, tavolo… y el artículo con vocal inicial (l'appartamento).",
+      "codes": [
+        "ERR_VOC_CASA"
+      ],
+      "why_here": "Describir dónde vives, con los verbos de presente ya vistos."
     },
     {
       "id": "u16",
@@ -105,6 +135,16 @@
       "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques."
     },
     {
+      "id": "u24",
+      "level": "A1",
+      "title": "Vocabulario: la ciudad y la naturaleza",
+      "goal_es": "Città, strada, piazza, stazione, mare, fiume, montagna…",
+      "codes": [
+        "ERR_VOC_CITTA"
+      ],
+      "why_here": "Moverse y preguntar por lugares; prepara las preposiciones a / in."
+    },
+    {
       "id": "u17",
       "level": "A1",
       "title": "Volere, potere, dovere: voglio, posso, devo",
@@ -113,6 +153,26 @@
         "ERR_PRESENT_MODAL"
       ],
       "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación."
+    },
+    {
+      "id": "u25",
+      "level": "A1",
+      "title": "Vocabulario: días, meses y estaciones",
+      "goal_es": "Giorno, settimana, mese, anno, lunedì…domenica, estate, inverno.",
+      "codes": [
+        "ERR_VOC_TEMPO"
+      ],
+      "why_here": "Hablar de rutinas y planes."
+    },
+    {
+      "id": "u26",
+      "level": "A1",
+      "title": "Vocabulario: los números",
+      "goal_es": "Due, tre, quattro… venti, cento, mille, en oraciones reales (hora, edad, cantidades).",
+      "codes": [
+        "ERR_VOC_NUMERI"
+      ],
+      "why_here": "Edad, hora y precios aparecen desde el primer día."
     },
     {
       "id": "u01",
@@ -135,6 +195,16 @@
       "why_here": "Va justo después del artículo con posesivo: es la misma estructura vista por su forma."
     },
     {
+      "id": "u27",
+      "level": "A1",
+      "title": "Vocabulario: el cuerpo",
+      "goal_es": "Testa, mano, occhio, braccio, sangue… con sus plurales raros y el género distinto al español.",
+      "codes": [
+        "ERR_VOC_CORPO"
+      ],
+      "why_here": "Salud y descripciones; ejercita el género y el plural."
+    },
+    {
       "id": "u07",
       "level": "A1",
       "title": "Il, lo, l' y gli, i: elegir el artículo",
@@ -155,6 +225,16 @@
       "why_here": "Estructura de uso inmediato en las primeras frases."
     },
     {
+      "id": "u28",
+      "level": "A1",
+      "title": "Vocabulario: los animales",
+      "goal_es": "Cane, gatto, cavallo, uccello, tigre… y sus plurales (i cani, gli uccelli).",
+      "codes": [
+        "ERR_VOC_ANIMALI"
+      ],
+      "why_here": "Refuerza el plural en -i y el artículo gli."
+    },
+    {
       "id": "u05",
       "level": "A1",
       "title": "Ciudades y países: a / in",
@@ -173,6 +253,16 @@
         "ERR_PREP_ARTICLE_CONTRACTION"
       ],
       "why_here": "Se apoya en las preposiciones de la unidad anterior."
+    },
+    {
+      "id": "u29",
+      "level": "A1",
+      "title": "Vocabulario: la escuela y el trabajo",
+      "goal_es": "Libro, penna, studente, professore, lavoro, ufficio, medico…",
+      "codes": [
+        "ERR_VOC_LAVORO"
+      ],
+      "why_here": "Cierra el vocabulario base de A1 con profesiones y objetos de estudio."
     },
     {
       "id": "u08",
