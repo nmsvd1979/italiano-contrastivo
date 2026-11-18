@@ -6,6 +6,9 @@ import { newCard, review } from "../state/srs";
 import { localDate, type Store } from "../state/store";
 import { SpeakButton } from "./SpeakButton";
 import { ItemView } from "./items/ItemView";
+import { FocusHead } from "./kit/FocusHead";
+import { Ring } from "./kit/Ring";
+import { RunProvider } from "./kit/RunContext";
 
 export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: Store; now?: Date }) {
   const [queue, setQueue] = useState<ReviewEntry[] | null>(null);
@@ -18,7 +21,7 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
   }, [pack, store, now]);
   if (!queue) return <p>Cargando…</p>;
   if (queue.length === 0) return <main><p>No tienes repasos pendientes ahora.</p><p><a className="button" href="#/">Volver a Hoy</a></p></main>;
-  if (i >= queue.length) return <main><h2>Terminaste esta tanda.</h2><p><a className="button" href="#/">Volver a Hoy</a></p></main>;
+  if (i >= queue.length) return <main className="center"><Ring /><h2>Terminaste esta tanda.</h2><div className="actions-bottom"><a className="button primary block" href="#/">Volver a Hoy</a></div></main>;
 
   const entry = queue[i];
   const card: Card | null = "card" in entry ? entry.card : null;
@@ -50,16 +53,19 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
   };
 
   if (!lexeme && !(items && items.length)) return <main><p>Este repaso no tiene ejercicios todavía.</p><button type="button" onClick={() => setI(i + 1)}>Saltar</button></main>;
+  const why = card?.subject.kind === "error_code" ? pack.capsules.find((c) => c.target_error_codes[0] === card.subject.ref)?.explanation.text_es : undefined;
   return (
-    <main>
-      <p><small>Repaso {i + 1} de {queue.length}</small></p>
+    <main className="focus">
+      <RunProvider value={{ why }}>
+      <FocusHead progress={i / Math.max(1, queue.length)} exitHref="#/" />
+      <p className="runner-meta">Repaso {i + 1} de {queue.length}</p>
       {saveError && <p role="alert" className="alert">No se pudo guardar tu respuesta. Inténtalo de nuevo.</p>}
       {lexeme ? (
         <section>
           <h2 lang="it">{lexeme.form}</h2>
           <SpeakButton text={lexeme.form} />
           {!revealed ? (
-            <p><button type="button" onClick={() => setRevealed(true)}>Mostrar significado</button></p>
+            <p><button type="button" className="primary block" onClick={() => setRevealed(true)}>Mostrar significado</button></p>
           ) : (
             <div>
               <p>{lexeme.gloss_es}</p>
@@ -75,6 +81,7 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
       ) : (
         <ItemView key={`${card!.id}-${i}`} item={pickItem(items!, card!.fsrs.reps)} onAnswer={(c) => grade(ratingFromAnswer(c))} />
       )}
+      </RunProvider>
     </main>
   );
 }

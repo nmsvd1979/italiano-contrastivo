@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useSay } from "../audio/AudioContext";
+import { Feedback } from "./kit/Feedback";
 import type { PackSentence } from "../content/load";
 
 const strip = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "");
@@ -38,20 +39,20 @@ export function DictationItem({ sentence, onAnswer }: { sentence: PackSentence; 
   const [value, setValue] = useState("");
   const [verdict, setVerdict] = useState<DictationVerdict | null>(null);
   return (
-    <section>
+    <section className="item">
       <p>Escucha la frase y escríbela en italiano.</p>
-      <p><button type="button" onClick={() => void play()}>🔊 Escuchar</button></p>
+      <p className="speak">
+        <button type="button" onClick={() => void play(1)}>🔊 Escuchar</button>
+        <button type="button" aria-label="Escuchar más lento" onClick={() => void play(0.7)}>🐢 Lento</button>
+      </p>
       <textarea lang="it" rows={2} aria-label="Lo que escuchaste" value={value} disabled={verdict !== null} autoCapitalize="off" autoCorrect="off" spellCheck={false}
         onChange={(e) => setValue(e.target.value)} />
       {verdict === null ? (
-        <button type="button" disabled={!value.trim()} onClick={() => setVerdict(judgeDictation(value, sentence.it))}>Comprobar</button>
-      ) : (
-        <div>
-          <p role="status" data-state={verdict === "wrong" ? "wrong" : "correct"}>{NOTE[verdict]}</p>
-          <p>Era: <strong lang="it">{sentence.it}</strong></p>
-          <p><small>{sentence.es}</small></p>
-          <button type="button" onClick={() => onAnswer(verdict !== "wrong")}>Continuar</button>
+        <div className="actions-bottom">
+          <button type="button" className="primary block" disabled={!value.trim()} onClick={() => setVerdict(judgeDictation(value, sentence.it))}>Comprobar</button>
         </div>
+      ) : (
+        <Feedback ok={verdict !== "wrong"} answer={sentence.it} extra={<p><small>{NOTE[verdict]} {sentence.es}</small></p>} onContinue={() => onAnswer(verdict !== "wrong")} />
       )}
     </section>
   );

@@ -18,6 +18,8 @@ import { StepScreen } from "./ui/StepScreen";
 import { UnitScreen } from "./ui/UnitScreen";
 import { ReviewScreen } from "./ui/ReviewScreen";
 import { TodayScreen } from "./ui/TodayScreen";
+import { TabBar, isFocusRoute } from "./ui/kit/TabBar";
+import { computeStreak } from "./state/streak";
 import { WriteScreen } from "./ui/WriteScreen";
 import "./styles.css";
 
@@ -34,7 +36,7 @@ function useHash() {
 }
 
 function Today({ pack, store, storeError }: Ready) {
-  const [data, setData] = useState<{ cards: Card[]; day: DayProgress; units: UnitProgress[] } | null>(null);
+  const [data, setData] = useState<{ cards: Card[]; day: DayProgress; units: UnitProgress[]; days: DayProgress[] } | null>(null);
   const [tick, setTick] = useState(0);
   useEffect(() => { // al volver a la app (p. ej. otro día) se recalcula la sesión de hoy
     const on = () => document.visibilityState === "visible" && setTick((t) => t + 1);
@@ -43,10 +45,10 @@ function Today({ pack, store, storeError }: Ready) {
   }, []);
   useEffect(() => {
     const now = new Date();
-    Promise.all([store.allCards(), store.getDay(localDate(now)), store.allUnits()]).then(([cards, day, units]) => setData({ cards, day: normalizeDay(day, now), units }));
+    Promise.all([store.allCards(), store.getDay(localDate(now)), store.allUnits(), store.allDays()]).then(([cards, day, units, days]) => setData({ cards, day: normalizeDay(day, now), units, days }));
   }, [store, tick]);
   if (!data) return <p>Cargando…</p>;
-  return <TodayScreen plan={planToday({ pack, cards: data.cards, day: data.day, now: new Date(), units: data.units, samples: loadSamples() })} day={data.day} storeError={storeError} firstTime={data.cards.length === 0 && data.units.length === 0 && data.day.reviewsDone === 0} />;
+  return <TodayScreen plan={planToday({ pack, cards: data.cards, day: data.day, now: new Date(), units: data.units, samples: loadSamples() })} day={data.day} storeError={storeError} firstTime={data.cards.length === 0 && data.units.length === 0 && data.day.reviewsDone === 0} streak={computeStreak(data.days, localDate(new Date()))} />;
 }
 
 function useViews(ready: Ready, hash: string) {
@@ -93,7 +95,6 @@ export function App() {
   return (
     <AudioProvider pack={ready.pack} index={ready.audio} words={ready.words}>
       <UpdateBanner />
-      <nav><a href="#/">Hoy</a> <a href="#/ruta">Ruta</a> <a href="#/repaso">Repaso</a> <a href="#/escribir">Escribir</a> <a href="#/ajustes">Ajustes</a> <a href="#/acerca">Acerca de</a></nav>
       {hash === "#/repaso" ? <ReviewScreen pack={ready.pack} store={ready.store} />
         : hash === "#/escribir" ? <WriteScreen />
         : hash === "#/ajustes" ? <SettingsScreen store={ready.store} memoryOnly={ready.storeError !== null} />
@@ -101,7 +102,8 @@ export function App() {
         : hash === "#/ruta" || hash === "#/ubicacion" || hash.startsWith("#/unidad/") ? <Routes ready={ready} hash={hash} />
         : capsule ? <CapsuleScreen key={capsule.id} capsule={capsule} store={ready.store} />
         : <Today {...ready} />}
-    <footer className="version"><small>Versión {buildInfo().id}</small></footer>
+    {!isFocusRoute(hash) && <footer className="version"><small>Versión {buildInfo().id}</small></footer>}
+    {!isFocusRoute(hash) && <TabBar hash={hash} />}
     </AudioProvider>
   );
 }

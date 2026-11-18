@@ -1,10 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import type { PackSentence } from "../content/load";
 import type { Item } from "../generated/item";
+import { clearRun, loadRun, saveRun, signature } from "../state/runState";
 import { kindOf } from "../state/steps";
 import { estimateSeconds, formatDuration, type Kind, loadSamples, recordSample } from "../state/timing";
 import { DictationItem } from "./DictationItem";
 import { ItemView } from "./items/ItemView";
+import { FocusHead } from "./kit/FocusHead";
+import { RunProvider } from "./kit/RunContext";
 
 export type RunItem = { id: string; kind: Kind; item?: Item; dictation?: PackSentence };
 export const fromItems = (items: Item[]): RunItem[] => items.map((item) => ({ id: item.id, kind: kindOf(item), item }));
@@ -13,45 +16,62 @@ export const fromDictations = (s: PackSentence[]): RunItem[] => s.map((dictation
 export type RunResult = { correct: number; total: number; answers: boolean[] };
 
 /**
- * Recorre una lista de ejercicios mostrando avance y tiempo restante. Mide cuánto tarda cada uno (para que los minutos
- * mostrados se vuelvan reales). Con `requeueWrong`, lo fallado vuelve una vez al final; la nota cuenta solo el primer intento.
+ * Recorre una lista de ejercicios en modo concentrado: salir (×), barra que sube con cada acierto y se estanca con el error,
+ * y tiempo restante. Mide cuánto tarda cada ejercicio. Con `requeueWrong`, lo fallado vuelve una vez al final; la nota
+ * cuenta solo el primer intento. Con `persistKey` se puede retomar a la mitad.
  */
-export function ItemRunner({ items, requeueWrong = false, onFinish }: { items: RunItem[]; requeueWrong?: boolean; onFinish: (r: RunResult) => void }) {
-  const [queue, setQueue] = useState<number[]>(() => items.map((_, i) => i));
-  const [pos, setPos] = useState(0);
-  const first = useRef<(boolean | undefined)[]>(items.map(() => undefined));
-  const requeued = useRef(new Set<number>());
+export function ItemRunner({ items, requeueWrong = false, onFinish, exitHref = "#/", why, persistKey }: {
+  items: RunItem[]; requeueWrong?: boolean; onFinish: (r: RunResult) => void; exitHref?: string; why?: string; persistKey?: string;
+}) {
+  const ids = items.map((i) => i.id);
+  const saved = useRef(persistKey ? loadRun(persistKey, ids) : null).current;
+  const [queue, setQueue] = useState<number[]>(() => saved?.queue ?? items.map((_, i) => i));
+  const [pos, setPos] = useState(saved?.pos ?? 0);
+  const [done, setDone] = useState<number[]>(saved?.done ?? []);
+  const [streak, setStreak] = useState(saved?.streak ?? 0);
+  const first = useRef<(boolean | null)[]>(saved?.first ?? items.map(() => null));
+  const requeued = useRef(new Set<number>(saved?.requeued ?? []));
   const started = useRef(Date.now());
   useEffect(() => { started.current = Date.now(); }, [pos]);
 
   const idx = queue[pos];
   const current = items[idx];
   const answer = (correct: boolean) => {
-    if (first.current[idx] === undefined) {
+    if (first.current[idx] === null) {
       first.current[idx] = correct;
       recordSample(current.kind, (Date.now() - started.current) / 1000);
     }
     let q = queue;
-    if (!correct && requeueWrong && !requeued.current.has(idx)) {
+    const willRequeue = !correct && requeueWrong && !requeued.current.has(idx);
+    if (willRequeue) {
       requeued.current.add(idx);
       q = [...queue, idx];
       setQueue(q);
     }
+    const nextDone = correct || !willRequeue ? [...new Set([...done, idx])] : done;
+    const nextStreak = correct ? streak + 1 : 0;
+    setDone(nextDone);
+    setStreak(nextStreak);
     if (pos + 1 >= q.length) {
+      if (persistKey) clearRun(persistKey);
       const answers = first.current.map((a) => a === true);
       onFinish({ correct: answers.filter(Boolean).length, total: items.length, answers });
-    } else setPos(pos + 1);
+    } else {
+      setPos(pos + 1);
+      if (persistKey) saveRun(persistKey, { sig: signature(ids), queue: q, pos: pos + 1, first: first.current, requeued: [...requeued.current], done: nextDone, streak: nextStreak });
+    }
   };
 
   const samples = loadSamples();
   const remaining = queue.slice(pos).reduce((s, i) => s + estimateSeconds(items[i].kind, samples), 0);
   return (
-    <div>
-      <p className="runner-head"><small>Ejercicio {pos + 1} de {queue.length} · quedan {formatDuration(remaining)}</small></p>
-      <progress max={queue.length} value={pos} aria-label="Avance" />
+    <RunProvider value={{ why, requeue: requeueWrong && !requeued.current.has(idx) }}>
+      <FocusHead progress={items.length ? done.length / items.length : 0} exitHref={exitHref} />
+      <p className="runner-meta">Ejercicio {pos + 1} de {queue.length} · quedan {formatDuration(remaining)}{saved && pos === saved.pos && pos > 0 ? " · retomado" : ""}</p>
+      {streak > 0 && streak % 5 === 0 && <p className="cheer" role="note">¡{streak} aciertos seguidos!</p>}
       {current.dictation
         ? <DictationItem key={`${idx}-${pos}`} sentence={current.dictation} onAnswer={answer} />
         : <ItemView key={`${idx}-${pos}`} item={current.item!} onAnswer={answer} />}
-    </div>
+    </RunProvider>
   );
 }
