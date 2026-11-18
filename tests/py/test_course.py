@@ -39,7 +39,7 @@ def test_curso_real_es_consistente():
     sentences = {s["id"]: s for s in json.loads((PACK / "sentences.json").read_text(encoding="utf8"))}
     assert course["units"], "el curso real no tiene unidades activas"
     ids = [u["id"] for u in course["units"]]
-    assert ids == sorted(ids) and len(set(ids)) == len(ids)
+    assert len(set(ids)) == len(ids)  # el orden lo da la lista, no el número del id (los ids guardan progreso y no se renumeran)
     levels = [l["id"] for l in course["levels"]]
     assert [levels.index(u["level"]) for u in course["units"]] == sorted(levels.index(u["level"]) for u in course["units"])
     items = json.loads((PACK / "items_by_code.json").read_text(encoding="utf8"))

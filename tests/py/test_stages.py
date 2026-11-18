@@ -166,4 +166,6 @@ def test_promote_does_not_reset_the_review_status_of_error_codes():
     promote.ensure_catalog(auth)
     assert auth.execute("SELECT review_status FROM error_codes WHERE code='ERR_AUX_ESSERE'").fetchone()[0] == "validated"
     assert json.loads(auth.execute("SELECT body FROM error_codes WHERE code='ERR_AUX_ESSERE'").fetchone()[0])["review_status"] == "validated"
-    assert auth.execute("SELECT COUNT(*) FROM error_codes").fetchone()[0] == 49
+    topics = len(json.loads((promote.ROOT / "schemas/data/topic-codes.json").read_text(encoding="utf8")))
+    catalog = len(json.loads((promote.ROOT / "schemas/data/error-codes.json").read_text(encoding="utf8")))
+    assert auth.execute("SELECT COUNT(*) FROM error_codes").fetchone()[0] == catalog + topics

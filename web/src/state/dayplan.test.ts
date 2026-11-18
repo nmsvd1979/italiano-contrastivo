@@ -8,6 +8,7 @@ import type { DayProgress } from "./store";
 
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
 const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
+const U1 = pack.course.units[0].id;
 const NOW = new Date("2026-11-18T12:00:00.000Z");
 const day: DayProgress = { date: "2026-11-18", reviewsDone: 0, capsulesDone: [] };
 const sessionFor = (units = [] as ReturnType<typeof emptyProgress>[], d: DayProgress = day) =>
@@ -29,8 +30,8 @@ describe("sesión de hoy", () => {
     expect(total).toBeLessThanOrEqual(SESSION_BUDGET_SECONDS + 8 * 60);
   });
   it("los pasos hechos hoy aparecen como hechos y los demás continúan", () => {
-    const u = markStep(emptyProgress("u01"), "descubre", NOW);
-    const d = { ...day, stepsDone: ["u01:descubre"] };
+    const u = markStep(emptyProgress(U1), "descubre", NOW);
+    const d = { ...day, stepsDone: [`${U1}:descubre`] };
     const b = sessionFor([u], d);
     expect(b.find((x) => x.step === "descubre")).toMatchObject({ done: true });
     expect(b.find((x) => x.step === "capsula")).toMatchObject({ done: false });

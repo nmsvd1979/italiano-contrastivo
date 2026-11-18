@@ -40,6 +40,16 @@
     "wrong": "Domani vado in Parigi."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Io ho paura degli orsi.",
+    "wrong": "Io ho paura di gli orsi."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Io ho paura degli orsi.",
+    "wrong": "Io tengo paura degli orsi."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Voglio vederlo con i miei occhi.",
     "wrong": "Voglio vederlo con miei occhi."
@@ -175,9 +185,24 @@
     "wrong": "Tom conosce a Mary molto bene."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Domani io non vado al cinema.",
+    "wrong": "Domani io non vado a il cinema."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Tu puoi utilizzare la mia bicicletta.",
+    "wrong": "Tu puoi utilizzare mia bicicletta."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Barcellona è in Spagna.",
     "wrong": "Barcellona è a Spagna."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Io voglio vivere in Italia.",
+    "wrong": "Io voglio vivere a Italia."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -203,6 +228,11 @@
     "code": "ERR_TENERE_AVERE",
     "correct": "È ovvio che ha ragione.",
     "wrong": "È ovvio che tiene ragione."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Io voglio andare sulla luna.",
+    "wrong": "Io voglio andare su la luna."
   },
   {
     "code": "ERR_TENERE_AVERE",
@@ -235,9 +265,19 @@
     "wrong": "Io non vedo a Tom da mesi."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Lui non abita nel mio quartiere.",
+    "wrong": "Lui non abita in il mio quartiere."
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Da quanto tempo conosci Judy?",
     "wrong": "Da quanto tempo conosci a Judy?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Io voglio vivere nel paese.",
+    "wrong": "Io voglio vivere in il paese."
   },
   {
     "code": "ERR_PERSONAL_A",
@@ -248,6 +288,11 @@
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Sono più veloce di voi.",
     "wrong": "Sono più veloce che voi."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Io voglio della pizza!",
+    "wrong": "Io voglio di la pizza!"
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -280,6 +325,11 @@
     "wrong": "Lei non tiene caldo?"
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Io non voglio il tuo aiuto.",
+    "wrong": "Io non voglio tuo aiuto."
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è un problema, Tom?",
     "wrong": "Ci sono un problema, Tom?"
@@ -298,6 +348,11 @@
     "code": "ERR_PERSONAL_A",
     "correct": "Tu conosci Tom di persona?",
     "wrong": "Tu conosci a Tom di persona?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Tu credi in cose del genere?",
+    "wrong": "Tu credi in cose di il genere?"
   },
   {
     "code": "ERR_PERSONAL_A",
@@ -350,6 +405,11 @@
     "wrong": "Forse tieni ragione."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Io so il tuo nome.",
+    "wrong": "Io so tuo nome."
+  },
+  {
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Lui è più intelligente di loro.",
     "wrong": "Lui è più intelligente che loro."
@@ -360,6 +420,16 @@
     "wrong": "Nancy tiene paura dei cani."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Loro abitano lontano dall'aeroporto.",
+    "wrong": "Loro abitano lontano da l'aeroporto."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Io vedo la mia corona.",
+    "wrong": "Io vedo mia corona."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Ho paura di cadere.",
     "wrong": "Tengo paura di cadere."
@@ -368,6 +438,11 @@
     "code": "ERR_PREP_PLACE",
     "correct": "Tutte le strade portano a Roma.",
     "wrong": "Tutte le strade portano in Roma."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Io non credo nella sua religione.",
+    "wrong": "Io non credo in la sua religione."
   },
   {
     "code": "ERR_TENERE_AVERE",
@@ -430,6 +505,11 @@
     "wrong": "Non vogliono andare a Germania."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Lei sta mangiando degli spaghetti.",
+    "wrong": "Lei sta mangiando di gli spaghetti."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Tom ha paura di noi, vero?",
     "wrong": "Tom tiene paura di noi, vero?"
@@ -470,9 +550,19 @@
     "wrong": "Hai andata in chiesa domenica scorsa?"
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Io vengo dal Giappone.",
+    "wrong": "Io vengo da il Giappone."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Lei ha paura dei tuoni.",
     "wrong": "Lei tiene paura dei tuoni."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Lei non parla la nostra lingua.",
+    "wrong": "Lei non parla nostra lingua."
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -483,6 +573,11 @@
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Sono più bassa di te.",
     "wrong": "Sono più bassa che te."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Lei risponde alle domande?",
+    "wrong": "Lei risponde a le domande?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",

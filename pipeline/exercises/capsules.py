@@ -67,8 +67,11 @@ def _dump(path: Path, obj) -> None:
 
 
 def _catalog() -> list[dict]:
-    d = json.loads((config.ROOT / "schemas" / "data" / "error-codes.json").read_text(encoding="utf8"))
-    return d if isinstance(d, list) else d["error_codes"]
+    out = []
+    for name in ("error-codes.json", "topic-codes.json"):  # errores contrastivos + objetivos de tema (presente, etc.)
+        d = json.loads((config.ROOT / "schemas" / "data" / name).read_text(encoding="utf8"))
+        out += d if isinstance(d, list) else d["error_codes"]
+    return out
 
 
 SENTENCE_FIELDS = ("id", "it", "es", "author", "es_author", "license", "source_id", "es_source_id", "translation_kind", "cefr_estimate")

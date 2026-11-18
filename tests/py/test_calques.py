@@ -38,6 +38,17 @@ POSITIVES = [
     ("ERR_CONGIUNTIVO_OPINION", "Penso che sia vero.", "Penso che è vero.", "sia", "l1_calque"),
     ("ERR_CONGIUNTIVO_OPINION", "Credo che abbiano ragione.", "Credo che hanno ragione.", "abbiano", "l1_calque"),
     ("ERR_CONGIUNTIVO_OPINION", "Non credo che vada a Roma.", "Non credo che va a Roma.", "vada", "l1_calque"),
+    ("ERR_PRESENT_ARE", "Tu parli troppo.", "Tu parlas troppo.", "parli", "morphological"),
+    ("ERR_PRESENT_ARE", "Noi parliamo italiano.", "Noi parlamos italiano.", "parliamo", "morphological"),
+    ("ERR_PRESENT_ARE", "Loro lavorano qui.", "Loro lavoran qui.", "lavorano", "morphological"),
+    ("ERR_PRESENT_ARE", "Io non parlo spagnolo.", "Io non parliamo spagnolo.", "parlo", "morphological"),
+    ("ERR_PRESENT_ERE_IRE", "Voi leggete molto.", "Voi leggeis molto.", "leggete", "morphological"),
+    ("ERR_PRESENT_ERE_IRE", "Tu dormi tardi.", "Tu dormes tardi.", "dormi", "morphological"),
+    ("ERR_PRESENT_ERE_IRE", "Lei finisce presto.", "Lei finiscono presto.", "finisce", "morphological"),
+    ("ERR_PRESENT_ESSERE_AVERE", "Io sono stanco.", "Io siamo stanco.", "sono", "morphological"),
+    ("ERR_PRESENT_ESSERE_AVERE", "Lei ha fame.", "Lei hanno fame.", "ha", "morphological"),
+    ("ERR_PRESENT_IRREGULAR", "Lei va a casa.", "Lei vanno a casa.", "va", "morphological"),
+    ("ERR_PRESENT_MODAL", "Loro vogliono mangiare.", "Loro vuole mangiare.", "vogliono", "morphological"),
 ]
 
 
@@ -78,6 +89,12 @@ def test_sin_patron_devuelve_none(code):
     ("ERR_POSSESSIVE_SPELLING", "Il mio libro e il tuo libro."),  # dos casos
     ("ERR_CONGIUNTIVO_OPINION", "So che è vero."),  # no es verbo de opinión
     ("ERR_CONGIUNTIVO_OPINION", "Penso che Marco parli bene."),  # forma fuera de la lista cerrada
+    ("ERR_PRESENT_ARE", "Parlo italiano."),  # sin pronombre explícito la persona no está asegurada
+    ("ERR_PRESENT_ARE", "Per lei parla Marco."),  # el pronombre no es el sujeto
+    ("ERR_PRESENT_ARE", "Io parlo e tu parli."),  # dos casos
+    ("ERR_PRESENT_ARE", "Io mangio."),  # verbo fuera de la lista cerrada
+    ("ERR_PRESENT_IRREGULAR", "Io sono andato."),  # essere pertenece a otro grupo
+    ("ERR_PRESENT_MODAL", "Tu vai a casa."),  # andare no es modal
 ])
 def test_casos_ambiguos_o_validos_devuelven_none(code, it):
     assert find_calque(code, it) is None
@@ -87,11 +104,13 @@ def test_los_codigos_cubiertos():
     assert set(calques.CALQUE_CODES) == {
         "ERR_AUX_ESSERE", "ERR_PREP_PLACE", "ERR_CE_AGREEMENT", "ERR_PERSONAL_A",
         "ERR_POSSESSIVE_ARTICLE", "ERR_PREP_ARTICLE_CONTRACTION", "ERR_COMPARATIVE_DI", "ERR_TENERE_AVERE",
-        "ERR_ARTICLE_ALLOMORPH", "ERR_PARTICIPLE_AGREEMENT", "ERR_POSSESSIVE_SPELLING", "ERR_CONGIUNTIVO_OPINION"}
+        "ERR_ARTICLE_ALLOMORPH", "ERR_PARTICIPLE_AGREEMENT", "ERR_POSSESSIVE_SPELLING", "ERR_CONGIUNTIVO_OPINION",
+        "ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL"}
     assert find_calque("ERR_NO_EXISTE", "Ho fame.") is None
 
 
-NEW_CODES = {"ERR_ARTICLE_ALLOMORPH", "ERR_PARTICIPLE_AGREEMENT", "ERR_POSSESSIVE_SPELLING", "ERR_CONGIUNTIVO_OPINION"}
+NEW_CODES = {"ERR_ARTICLE_ALLOMORPH", "ERR_PARTICIPLE_AGREEMENT", "ERR_POSSESSIVE_SPELLING", "ERR_CONGIUNTIVO_OPINION",
+             "ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL"}
 
 
 def test_ningun_calco_aparece_en_el_corpus_validado():

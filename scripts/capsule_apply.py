@@ -17,6 +17,9 @@ from pipeline.review import batch  # noqa: E402
 
 REVIEWER = "llm-audit"
 auth = store.connect(ROOT / "data" / "work" / "authoring.db")
+from pipeline.promote import ensure_catalog  # noqa: E402
+ensure_catalog(auth)  # los códigos de tema también deben existir en la base (clave foránea)
+auth.commit()
 verdicts = json.loads((ROOT / "data/work/capsules/verdicts.json").read_text(encoding="utf8"))
 words = lambda t: len(re.findall(r"\w+", t))
 summary = Counter()

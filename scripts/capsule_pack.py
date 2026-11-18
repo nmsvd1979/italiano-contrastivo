@@ -20,6 +20,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 auth = sqlite3.connect(f"file:{ROOT/'data/work/authoring.db'}?mode=ro", uri=True)
 reviewed = {r[0] for r in auth.execute("SELECT entity_id FROM reviews WHERE entity='sentences'")}
 rng = random.Random(7)
+LEVEL_RANK = {"A1": 0, "A2": 1, "B1": 2, "B2": 3}  # para A1 se prefieren las oraciones de nivel más bajo
 pool = {c: [] for c in ONLY}
 seen = set()
 for sid, body in auth.execute("SELECT id, body FROM sentences WHERE review_status='needs_review'"):
@@ -37,7 +38,7 @@ for sid, body in auth.execute("SELECT id, body FROM sentences WHERE review_statu
             break
 items = []
 for code, lst in pool.items():
-    lst.sort(key=lambda t: (not t[0], rng.random()))
+    lst.sort(key=lambda t: (not t[0], LEVEL_RANK.get(t[2]["cefr_estimate"], 9), rng.random()))
     for direct, sid, d in lst[:PER_CODE]:
         items.append({"id": sid, "codigo": code, "italiano": d["it"], "espanol_tatoeba": d["es"] if direct else None,
                       "nivel_estimado": d["cefr_estimate"], "directa": direct})

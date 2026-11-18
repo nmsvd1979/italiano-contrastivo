@@ -25,6 +25,66 @@
   ],
   "units": [
     {
+      "id": "u13",
+      "level": "A1",
+      "title": "Essere y avere: sono, ho",
+      "goal_es": "Conjugar los dos verbos base: sono, sei, è, siamo, siete, sono / ho, hai, ha, abbiamo, avete, hanno.",
+      "codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "why_here": "Son la base de casi todo lo demás: presentarse, describir y los tiempos compuestos."
+    },
+    {
+      "id": "u04",
+      "level": "A1",
+      "title": "Tener no es «tenere»: ho fame",
+      "goal_es": "Sensaciones y edad con avere (ho fame, ho paura), no con tenere.",
+      "codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "why_here": "Léxico básico de A1 con calco muy frecuente."
+    },
+    {
+      "id": "u14",
+      "level": "A1",
+      "title": "Verbos en -are: parlo, parli, parla",
+      "goal_es": "Terminaciones del presente de los verbos en -are; el español -as, -amos, -an no existe en italiano.",
+      "codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "why_here": "Es el grupo más grande de verbos y donde más pesa el calco de las terminaciones."
+    },
+    {
+      "id": "u15",
+      "level": "A1",
+      "title": "Verbos en -ere e -ire: leggo, dormo, finisco",
+      "goal_es": "Terminaciones de -ere (leggo, leggi, legge…) y de -ire, con -isc- en finire, capire, preferire.",
+      "codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "why_here": "Completa los dos grupos regulares tras los verbos en -are."
+    },
+    {
+      "id": "u16",
+      "level": "A1",
+      "title": "Andare, fare, stare, venire: vado, faccio",
+      "goal_es": "Las formas irregulares más usadas: vado, faccio, sto, vengo, do, dico, so, esco.",
+      "codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques."
+    },
+    {
+      "id": "u17",
+      "level": "A1",
+      "title": "Volere, potere, dovere: voglio, posso, devo",
+      "goal_es": "Los tres modales irregulares y su uso con un infinitivo: voglio mangiare, posso venire, devo studiare.",
+      "codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación."
+    },
+    {
       "id": "u01",
       "level": "A1",
       "title": "El posesivo lleva artículo",
@@ -45,6 +105,16 @@
       "why_here": "Va justo después del artículo con posesivo: es la misma estructura vista por su forma."
     },
     {
+      "id": "u07",
+      "level": "A1",
+      "title": "Il, lo, l' y gli, i: elegir el artículo",
+      "goal_es": "Ante s+consonante, z, gn o ps se usa lo (lo studente) y gli (gli studenti), no il / i.",
+      "codes": [
+        "ERR_ARTICLE_ALLOMORPH"
+      ],
+      "why_here": "Cierra los artículos de A1 una vez vistas las contracciones."
+    },
+    {
       "id": "u03",
       "level": "A1",
       "title": "Hay: c'è y ci sono",
@@ -53,16 +123,6 @@
         "ERR_CE_AGREEMENT"
       ],
       "why_here": "Estructura de uso inmediato en las primeras frases."
-    },
-    {
-      "id": "u04",
-      "level": "A1",
-      "title": "Tener no es «tenere»: ho fame",
-      "goal_es": "Sensaciones y edad con avere (ho fame, ho paura), no con tenere.",
-      "codes": [
-        "ERR_TENERE_AVERE"
-      ],
-      "why_here": "Léxico básico de A1 con calco muy frecuente."
     },
     {
       "id": "u05",
@@ -83,16 +143,6 @@
         "ERR_PREP_ARTICLE_CONTRACTION"
       ],
       "why_here": "Se apoya en las preposiciones de la unidad anterior."
-    },
-    {
-      "id": "u07",
-      "level": "A1",
-      "title": "Il, lo, l' y gli, i: elegir el artículo",
-      "goal_es": "Ante s+consonante, z, gn o ps se usa lo (lo studente) y gli (gli studenti), no il / i.",
-      "codes": [
-        "ERR_ARTICLE_ALLOMORPH"
-      ],
-      "why_here": "Cierra los artículos de A1 una vez vistas las contracciones."
     },
     {
       "id": "u08",
