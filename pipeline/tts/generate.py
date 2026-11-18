@@ -13,7 +13,7 @@ from typing import Callable
 
 from pipeline.tts.ids import LICENSE, VOICE, clip_id, sha1
 
-MAX_BYTES = 3_000_000
+MAX_BYTES = 20_000_000
 _SERENA = (
     "# Atribuciones de audio\n\n"
     "## Voz sintética (clips de oraciones y palabras)\n\n"

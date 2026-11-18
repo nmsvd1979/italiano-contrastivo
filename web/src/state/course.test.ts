@@ -56,4 +56,12 @@ describe("ruta", () => {
     const done = masterByPlacement(emptyProgress("u01"), NOW);
     expect(canDoStep(unitViews(course, [done])[0], "practica")).toBe(true);
   });
+  it("modo de prueba: todas las unidades abiertas y cualquier paso permitido", () => {
+    const v = unitViews(course, [], true);
+    expect(v.map((x) => x.state)).toEqual(["current", "current", "current"]);
+    expect(canDoStep(v[2], "prueba")).toBe(true);
+  });
+  it("sin modo de prueba el candado sigue", () => {
+    expect(unitViews(course, [], false).map((x) => x.state)).toEqual(["current", "locked", "locked"]);
+  });
 });

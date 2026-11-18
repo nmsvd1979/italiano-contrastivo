@@ -24,6 +24,7 @@ export function Choice({ item, onAnswer }: { item: ChoiceItem; onAnswer: (correc
   return (
     <div className="item">
       <p>{item.prompt_es}</p>
+      {item.listen && <p><SpeakButton text={right.text} /></p>}
       <ul className="options">
         {item.options.map((o, i) => (
           <li key={i}>
@@ -34,7 +35,7 @@ export function Choice({ item, onAnswer }: { item: ChoiceItem; onAnswer: (correc
       {chosen && (
         <Feedback ok={chosen.correct} answer={chosen.correct ? undefined : <Marked segs={diffWords(right.text, chosen.text)} />}
           why={chosen.correct ? undefined : WHY[chosen.distractor_kind ?? ""] ?? "Esa opción es un error típico."}
-          extra={<SpeakButton text={right.text} />} onContinue={() => onAnswer(chosen.correct)} />
+          extra={item.listen ? undefined : <SpeakButton text={right.text} />} onContinue={() => onAnswer(chosen.correct)} />
       )}
     </div>
   );

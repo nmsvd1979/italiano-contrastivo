@@ -24,6 +24,853 @@
   ],
   "units": [
     {
+      "id": "u18",
+      "level": "A1",
+      "title": "Sonidos: c y g (ce, ci, che, chi)",
+      "goal_es": "Ante e/i la c y la g suenan suaves (ce = «che» /tʃe/, gi = «yi» /dʒi/) y con h suenan duras (che = /ke/, ghi = /gi/). Se aprende escuchando.",
+      "codes": [
+        "ERR_C_G_PALATAL"
+      ],
+      "why_here": "Las fuentes ponen la fonética primero: es lo que más confunde al empezar.",
+      "status": "active",
+      "explanation_es": "C y g ante e/i son /tʃ/ y /dʒ/; el español las pronuncia /θ/ o /s/ (c) y /x/ (g).",
+      "parts": {
+        "descubre": [
+          "s_13267842",
+          "s_2023103",
+          "s_2762874",
+          "s_390103"
+        ],
+        "practica": [
+          "s_13267842",
+          "s_2023103",
+          "s_2762874",
+          "s_390103",
+          "s_2023101",
+          "s_13300838",
+          "s_13437351",
+          "s_3630534",
+          "s_1082492",
+          "s_12434343",
+          "s_13267986",
+          "s_2023105",
+          "s_1078515",
+          "s_2808377",
+          "s_1680620",
+          "s_382866",
+          "s_544917",
+          "s_1016644",
+          "s_393847",
+          "s_1574083",
+          "s_1021056",
+          "s_1321950",
+          "s_634395",
+          "s_11728461",
+          "s_839307",
+          "s_13435159",
+          "s_1538943",
+          "s_2749378",
+          "s_2845274",
+          "s_3194239",
+          "s_379726",
+          "s_425756",
+          "s_1015680",
+          "s_1086143",
+          "s_384874",
+          "s_978795",
+          "s_11735147",
+          "s_350854",
+          "s_714573",
+          "s_2860164",
+          "s_1834619",
+          "s_3497513",
+          "s_841278",
+          "s_14054451",
+          "s_658416",
+          "s_13382887",
+          "s_13382886",
+          "s_2074004",
+          "s_2702417",
+          "s_3132782",
+          "s_13382888",
+          "s_1860945",
+          "s_2736369",
+          "s_3437762",
+          "s_2736371",
+          "s_2681756",
+          "s_2020254",
+          "s_2020258",
+          "s_2736373",
+          "s_1860933",
+          "s_2020257",
+          "s_2426336",
+          "s_5090190",
+          "s_2198710",
+          "s_2143646",
+          "s_2454976",
+          "s_2022155",
+          "s_13604270",
+          "s_2883145",
+          "s_12765971",
+          "s_4973103",
+          "s_1297195",
+          "s_2055834",
+          "s_4652738",
+          "s_3241446",
+          "s_10632756",
+          "s_1105386"
+        ],
+        "escucha": [
+          "s_13267842",
+          "s_12434343",
+          "s_393847",
+          "s_2749378",
+          "s_11735147",
+          "s_13382887",
+          "s_2736371",
+          "s_2198710"
+        ],
+        "prueba": [
+          "s_976534",
+          "s_524249",
+          "s_3329302",
+          "s_8890731",
+          "s_1948225",
+          "s_13894907"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_13267842",
+          "start": 11,
+          "end": 17,
+          "wrong": "Parighi"
+        },
+        {
+          "id": "s_2023103",
+          "start": 10,
+          "end": 17,
+          "wrong": "raghione"
+        },
+        {
+          "id": "s_2762874",
+          "start": 10,
+          "end": 17,
+          "wrong": "raghione"
+        },
+        {
+          "id": "s_390103",
+          "start": 10,
+          "end": 17,
+          "wrong": "raghione"
+        }
+      ]
+    },
+    {
+      "id": "u19",
+      "level": "A1",
+      "title": "Sonidos: sce, sci y sche, schi",
+      "goal_es": "Sce y sci suenan /ʃe/, /ʃi/ (como «sh»); sche y schi suenan /ske/, /ski/. El español no tiene el sonido /ʃ/.",
+      "codes": [
+        "ERR_SC_PALATAL"
+      ],
+      "why_here": "Sigue a c y g: mismo mecanismo de e/i con la h que endurece.",
+      "status": "active",
+      "explanation_es": "Sc ante i/e es un único sonido /ʃ/ (geminado entre vocales), no s + c.",
+      "parts": {
+        "descubre": [
+          "s_1215046",
+          "s_4383741",
+          "s_11949804",
+          "s_1970624"
+        ],
+        "practica": [
+          "s_1215046",
+          "s_4383741",
+          "s_11949804",
+          "s_1970624",
+          "s_3410486",
+          "s_1512719",
+          "s_379137",
+          "s_5903125",
+          "s_2020815",
+          "s_8779576",
+          "s_951720",
+          "s_1679194",
+          "s_5563569",
+          "s_3326122",
+          "s_2845274",
+          "s_3212574",
+          "s_398782",
+          "s_4561967",
+          "s_632849",
+          "s_995972",
+          "s_12980466",
+          "s_381789",
+          "s_2810522",
+          "s_4484720",
+          "s_646997",
+          "s_1082726",
+          "s_711452",
+          "s_5709274"
+        ],
+        "escucha": [
+          "s_1215046",
+          "s_1970624",
+          "s_379137",
+          "s_8779576",
+          "s_5563569",
+          "s_3212574",
+          "s_632849",
+          "s_381789"
+        ],
+        "prueba": [
+          "s_613807",
+          "s_1000808",
+          "s_1516085",
+          "s_1244879",
+          "s_719266",
+          "s_382189"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1215046",
+          "start": 11,
+          "end": 18,
+          "wrong": "schimmia"
+        },
+        {
+          "id": "s_4383741",
+          "start": 11,
+          "end": 19,
+          "wrong": "schioglie"
+        },
+        {
+          "id": "s_11949804",
+          "start": 0,
+          "end": 7,
+          "wrong": "Capische"
+        },
+        {
+          "id": "s_1970624",
+          "start": 4,
+          "end": 11,
+          "wrong": "conosche"
+        }
+      ]
+    },
+    {
+      "id": "u20",
+      "level": "A1",
+      "title": "Sonidos: gli (figlio, famiglia)",
+      "goal_es": "Gli suena como una «ll» muy palatal /ʎ/ (figlio, famiglia, meglio); no es «gl» ni «li».",
+      "codes": [
+        "ERR_GLI_PALATAL"
+      ],
+      "why_here": "Tercer sonido que el español no tiene como tal; aparece en palabras de familia y cotidianas.",
+      "status": "active",
+      "explanation_es": "Gli es la lateral palatal /ʎ/ (geminada entre vocales); muchos hispanohablantes la reducen a /li/ o la separan en g + l.",
+      "parts": {
+        "descubre": [
+          "s_1191467",
+          "s_1155617",
+          "s_3334124",
+          "s_4461392"
+        ],
+        "practica": [
+          "s_1191467",
+          "s_1155617",
+          "s_3334124",
+          "s_4461392",
+          "s_11871336",
+          "s_1945187",
+          "s_3401520",
+          "s_10451845",
+          "s_872892",
+          "s_1255377",
+          "s_4024799",
+          "s_511140",
+          "s_3112095",
+          "s_610158",
+          "s_1333588",
+          "s_384502",
+          "s_1343993",
+          "s_3128415",
+          "s_5477057",
+          "s_5181633",
+          "s_3298422",
+          "s_626875",
+          "s_5932215",
+          "s_14054462",
+          "s_1467605",
+          "s_977112",
+          "s_2556097",
+          "s_2556099",
+          "s_350634",
+          "s_1333103",
+          "s_2022155",
+          "s_3233436",
+          "s_3233437"
+        ],
+        "escucha": [
+          "s_1191467",
+          "s_11871336",
+          "s_872892",
+          "s_3112095",
+          "s_1343993",
+          "s_3298422",
+          "s_1467605",
+          "s_350634"
+        ],
+        "prueba": [
+          "s_4402316",
+          "s_2006193",
+          "s_3770405",
+          "s_3021027",
+          "s_1244879",
+          "s_719266"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1191467",
+          "start": 3,
+          "end": 9,
+          "wrong": "tolie"
+        },
+        {
+          "id": "s_1155617",
+          "start": 10,
+          "end": 19,
+          "wrong": "consillio"
+        },
+        {
+          "id": "s_3334124",
+          "start": 10,
+          "end": 19,
+          "wrong": "bilietto"
+        },
+        {
+          "id": "s_4461392",
+          "start": 13,
+          "end": 19,
+          "wrong": "molie"
+        }
+      ]
+    },
+    {
+      "id": "u13",
+      "level": "A1",
+      "title": "Essere y avere: sono, ho",
+      "goal_es": "Conjugar los dos verbos base: sono, sei, è, siamo, siete, sono / ho, hai, ha, abbiamo, avete, hanno.",
+      "codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "why_here": "Son la base de casi todo lo demás: presentarse, describir y los tiempos compuestos.",
+      "status": "active",
+      "explanation_es": "Essere y avere son irregulares: sono, sei, è, siamo, siete, sono / ho, hai, ha, abbiamo, avete, hanno. Ojo: «sono» sirve para «yo soy» y «ellos son», y la h de ho, hai, ha, hanno no se pronuncia.",
+      "parts": {
+        "descubre": [
+          "s_3569180",
+          "s_374011",
+          "s_759977",
+          "s_13594619"
+        ],
+        "practica": [
+          "s_3569180",
+          "s_374011",
+          "s_759977",
+          "s_13594619",
+          "s_1984303",
+          "s_2556071",
+          "s_4176581",
+          "s_7727077",
+          "s_2928259",
+          "s_675684",
+          "s_1255726",
+          "s_2557059",
+          "s_4510989",
+          "s_1260451",
+          "s_1271068",
+          "s_1082986",
+          "s_1332710",
+          "s_2515854",
+          "s_1547614"
+        ],
+        "escucha": [
+          "s_3569180",
+          "s_759977",
+          "s_1984303",
+          "s_4176581",
+          "s_2928259",
+          "s_1255726",
+          "s_4510989",
+          "s_1271068"
+        ],
+        "prueba": [
+          "s_7727092",
+          "s_1727425",
+          "s_8037532",
+          "s_1679179",
+          "s_3309704",
+          "s_1128428"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_3569180",
+          "start": 3,
+          "end": 5,
+          "wrong": "abbiamo"
+        },
+        {
+          "id": "s_374011",
+          "start": 8,
+          "end": 9,
+          "wrong": "sono"
+        },
+        {
+          "id": "s_759977",
+          "start": 4,
+          "end": 5,
+          "wrong": "sono"
+        },
+        {
+          "id": "s_13594619",
+          "start": 3,
+          "end": 6,
+          "wrong": "siete"
+        }
+      ]
+    },
+    {
+      "id": "u04",
+      "level": "A1",
+      "title": "Tener no es «tenere»: ho fame",
+      "goal_es": "Sensaciones y edad con avere (ho fame, ho paura), no con tenere.",
+      "codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "why_here": "Léxico básico de A1 con calco muy frecuente.",
+      "status": "active",
+      "explanation_es": "'Tener' del español corresponde a avere (hai ragione), no a tenere (sostener, mantener).",
+      "parts": {
+        "descubre": [
+          "s_2972706",
+          "s_2972708",
+          "s_2023103",
+          "s_2762874"
+        ],
+        "practica": [
+          "s_2972706",
+          "s_2972708",
+          "s_2023103",
+          "s_2762874",
+          "s_390103",
+          "s_2023101",
+          "s_3700270",
+          "s_4483",
+          "s_10461724",
+          "s_13300838",
+          "s_13437351",
+          "s_12434343",
+          "s_2023105",
+          "s_6891292",
+          "s_1912844",
+          "s_5685568",
+          "s_868697",
+          "s_409559",
+          "s_716408",
+          "s_7050017",
+          "s_531427",
+          "s_13382887",
+          "s_13382886"
+        ],
+        "escucha": [
+          "s_2972706",
+          "s_2023103",
+          "s_390103",
+          "s_3700270",
+          "s_10461724",
+          "s_13437351",
+          "s_2023105",
+          "s_1912844"
+        ],
+        "prueba": [
+          "s_13382888",
+          "s_6841369",
+          "s_876842",
+          "s_2399430",
+          "s_4973103",
+          "s_5962421"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2972706",
+          "start": 7,
+          "end": 10,
+          "wrong": "tieni"
+        },
+        {
+          "id": "s_2972708",
+          "start": 8,
+          "end": 10,
+          "wrong": "tiene"
+        },
+        {
+          "id": "s_2023103",
+          "start": 7,
+          "end": 9,
+          "wrong": "tiene"
+        },
+        {
+          "id": "s_2762874",
+          "start": 7,
+          "end": 9,
+          "wrong": "tiene"
+        }
+      ]
+    },
+    {
+      "id": "u14",
+      "level": "A1",
+      "title": "Verbos en -are: parlo, parli, parla",
+      "goal_es": "Terminaciones del presente de los verbos en -are; el español -as, -amos, -an no existe en italiano.",
+      "codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "why_here": "Es el grupo más grande de verbos y donde más pesa el calco de las terminaciones.",
+      "status": "active",
+      "explanation_es": "Los verbos en -are hacen el presente con -o, -i, -a, -iamo, -ate, -ano. El español dice -as, -amos, -áis, -an: «parlas», «parlamos» o «parlan» no existen en italiano (tu parli, noi parliamo, voi parlate, loro parlano).",
+      "parts": {
+        "descubre": [
+          "s_3440351",
+          "s_2019946",
+          "s_4473727",
+          "s_758881"
+        ],
+        "practica": [
+          "s_3440351",
+          "s_2019946",
+          "s_4473727",
+          "s_758881",
+          "s_2575149",
+          "s_529194",
+          "s_2001704",
+          "s_2796586",
+          "s_373511",
+          "s_2315649",
+          "s_3161600",
+          "s_3306091",
+          "s_707287",
+          "s_977762",
+          "s_1863858",
+          "s_3828344",
+          "s_3827503"
+        ],
+        "escucha": [
+          "s_3440351",
+          "s_4473727",
+          "s_2575149",
+          "s_2001704",
+          "s_373511",
+          "s_3161600",
+          "s_707287",
+          "s_1863858"
+        ],
+        "prueba": [
+          "s_5399318",
+          "s_4642906",
+          "s_894222",
+          "s_2187361",
+          "s_993617",
+          "s_4166822"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_3440351",
+          "start": 3,
+          "end": 6,
+          "wrong": "amiamo"
+        },
+        {
+          "id": "s_2019946",
+          "start": 4,
+          "end": 9,
+          "wrong": "abitano"
+        },
+        {
+          "id": "s_4473727",
+          "start": 3,
+          "end": 6,
+          "wrong": "amiamo"
+        },
+        {
+          "id": "s_758881",
+          "start": 4,
+          "end": 9,
+          "wrong": "abitano"
+        }
+      ]
+    },
+    {
+      "id": "u15",
+      "level": "A1",
+      "title": "Verbos en -ere e -ire: leggo, dormo, finisco",
+      "goal_es": "Terminaciones de -ere (leggo, leggi, legge…) y de -ire, con -isc- en finire, capire, preferire.",
+      "codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "why_here": "Completa los dos grupos regulares tras los verbos en -are.",
+      "status": "active",
+      "explanation_es": "Los verbos en -ere hacen -o, -i, -e, -iamo, -ete, -ono y los en -ire -o, -i, -e, -iamo, -ite, -ono (algunos añaden -isc-: finisco, finisci, finisce, finiamo, finite, finiscono). El español -es, -emos, -en, -imos no existe: leggi, leggiamo, leggono.",
+      "parts": {
+        "descubre": [
+          "s_723305",
+          "s_2019943",
+          "s_2019957",
+          "s_724510"
+        ],
+        "practica": [
+          "s_723305",
+          "s_2019943",
+          "s_2019957",
+          "s_724510",
+          "s_4465187",
+          "s_2019970",
+          "s_534944",
+          "s_1872701",
+          "s_635700",
+          "s_4465222",
+          "s_3867801",
+          "s_4430302",
+          "s_3564577",
+          "s_714339",
+          "s_929180",
+          "s_1073661",
+          "s_1985431",
+          "s_3435223",
+          "s_3341513"
+        ],
+        "escucha": [
+          "s_723305",
+          "s_2019957",
+          "s_4465187",
+          "s_534944",
+          "s_635700",
+          "s_3867801",
+          "s_3564577",
+          "s_929180"
+        ],
+        "prueba": [
+          "s_2516185",
+          "s_1664909",
+          "s_5093561",
+          "s_10831886",
+          "s_3202879",
+          "s_4356628"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_723305",
+          "start": 3,
+          "end": 8,
+          "wrong": "crediamo"
+        },
+        {
+          "id": "s_2019943",
+          "start": 4,
+          "end": 8,
+          "wrong": "vivono"
+        },
+        {
+          "id": "s_2019957",
+          "start": 4,
+          "end": 8,
+          "wrong": "vivono"
+        },
+        {
+          "id": "s_724510",
+          "start": 4,
+          "end": 9,
+          "wrong": "leggono"
+        }
+      ]
+    },
+    {
+      "id": "u16",
+      "level": "A1",
+      "title": "Andare, fare, stare, venire: vado, faccio",
+      "goal_es": "Las formas irregulares más usadas: vado, faccio, sto, vengo, do, dico, so, esco.",
+      "codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques.",
+      "status": "active",
+      "explanation_es": "Andare, fare, stare, venire, dare, dire, sapere y uscire son irregulares y no siguen la regla: vado, vai, va, andiamo, andate, vanno. Hay que aprender cada forma; la persona la marca la terminación, no solo el sujeto.",
+      "parts": {
+        "descubre": [
+          "s_529480",
+          "s_4204662",
+          "s_395876",
+          "s_1258226"
+        ],
+        "practica": [
+          "s_529480",
+          "s_4204662",
+          "s_395876",
+          "s_1258226",
+          "s_717772",
+          "s_836586",
+          "s_2020811",
+          "s_2411939",
+          "s_520740",
+          "s_3473741",
+          "s_7730518",
+          "s_1341750",
+          "s_1554589",
+          "s_5692682",
+          "s_2016164",
+          "s_1504380",
+          "s_1689003",
+          "s_3306088",
+          "s_4420703"
+        ],
+        "escucha": [
+          "s_529480",
+          "s_395876",
+          "s_717772",
+          "s_2020811",
+          "s_520740",
+          "s_7730518",
+          "s_1554589",
+          "s_2016164"
+        ],
+        "prueba": [
+          "s_10820356",
+          "s_4196837",
+          "s_1740706",
+          "s_7017591",
+          "s_1584459",
+          "s_3647103"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_529480",
+          "start": 3,
+          "end": 6,
+          "wrong": "sapete"
+        },
+        {
+          "id": "s_4204662",
+          "start": 7,
+          "end": 9,
+          "wrong": "sappiamo"
+        },
+        {
+          "id": "s_395876",
+          "start": 3,
+          "end": 5,
+          "wrong": "sappiamo"
+        },
+        {
+          "id": "s_1258226",
+          "start": 4,
+          "end": 7,
+          "wrong": "stanno"
+        }
+      ]
+    },
+    {
+      "id": "u17",
+      "level": "A1",
+      "title": "Volere, potere, dovere: voglio, posso, devo",
+      "goal_es": "Los tres modales irregulares y su uso con un infinitivo: voglio mangiare, posso venire, devo studiare.",
+      "codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación.",
+      "status": "active",
+      "explanation_es": "Volere, potere y dovere son irregulares y muy frecuentes: voglio, vuoi, vuole, vogliamo, volete, vogliono / posso, puoi, può, possiamo, potete, possono / devo, devi, deve, dobbiamo, dovete, devono. Van con un infinitivo: voglio mangiare.",
+      "parts": {
+        "descubre": [
+          "s_7727081",
+          "s_4043175",
+          "s_2722184",
+          "s_1233789"
+        ],
+        "practica": [
+          "s_7727081",
+          "s_4043175",
+          "s_2722184",
+          "s_1233789",
+          "s_2762217",
+          "s_3847022",
+          "s_4703335",
+          "s_736718",
+          "s_7728791",
+          "s_2458199",
+          "s_1295792",
+          "s_1623104",
+          "s_2477543",
+          "s_3014754",
+          "s_3485622",
+          "s_1454035",
+          "s_1926329",
+          "s_7568042"
+        ],
+        "escucha": [
+          "s_7727081",
+          "s_2722184",
+          "s_2762217",
+          "s_4703335",
+          "s_7728791",
+          "s_1295792",
+          "s_2477543",
+          "s_3485622"
+        ],
+        "prueba": [
+          "s_2020912",
+          "s_2669986",
+          "s_4915676",
+          "s_1471842",
+          "s_4725368",
+          "s_1547426"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_7727081",
+          "start": 3,
+          "end": 9,
+          "wrong": "vogliamo"
+        },
+        {
+          "id": "s_4043175",
+          "start": 3,
+          "end": 8,
+          "wrong": "possiamo"
+        },
+        {
+          "id": "s_2722184",
+          "start": 3,
+          "end": 9,
+          "wrong": "vogliamo"
+        },
+        {
+          "id": "s_1233789",
+          "start": 3,
+          "end": 9,
+          "wrong": "vogliamo"
+        }
+      ]
+    },
+    {
       "id": "u01",
       "level": "A1",
       "title": "El posesivo lleva artículo",
@@ -195,6 +1042,88 @@
       ]
     },
     {
+      "id": "u07",
+      "level": "A1",
+      "title": "Il, lo, l' y gli, i: elegir el artículo",
+      "goal_es": "Ante s+consonante, z, gn o ps se usa lo (lo studente) y gli (gli studenti), no il / i.",
+      "codes": [
+        "ERR_ARTICLE_ALLOMORPH"
+      ],
+      "why_here": "Cierra los artículos de A1 una vez vistas las contracciones.",
+      "status": "active",
+      "explanation_es": "Elección il / lo / l': il studente, il stesso Dante e il amore son errores frecuentes de hispanohablantes.",
+      "parts": {
+        "descubre": [
+          "s_10636288",
+          "s_2457911",
+          "s_3343673",
+          "s_708790"
+        ],
+        "practica": [
+          "s_10636288",
+          "s_2457911",
+          "s_3343673",
+          "s_708790",
+          "s_12026400",
+          "s_3669699",
+          "s_719226",
+          "s_984709",
+          "s_690617",
+          "s_1239005",
+          "s_1433807",
+          "s_1127638",
+          "s_1017047",
+          "s_1021057",
+          "s_2282212",
+          "s_797199"
+        ],
+        "escucha": [
+          "s_10636288",
+          "s_3343673",
+          "s_12026400",
+          "s_719226",
+          "s_690617",
+          "s_1433807",
+          "s_1017047",
+          "s_2282212"
+        ],
+        "prueba": [
+          "s_3236013",
+          "s_425792",
+          "s_388782",
+          "s_3627155",
+          "s_3161121",
+          "s_13894907"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_10636288",
+          "start": 10,
+          "end": 13,
+          "wrong": "i"
+        },
+        {
+          "id": "s_2457911",
+          "start": 8,
+          "end": 11,
+          "wrong": "i"
+        },
+        {
+          "id": "s_3343673",
+          "start": 15,
+          "end": 18,
+          "wrong": "i"
+        },
+        {
+          "id": "s_708790",
+          "start": 17,
+          "end": 20,
+          "wrong": "i"
+        }
+      ]
+    },
+    {
       "id": "u03",
       "level": "A1",
       "title": "Hay: c'è y ci sono",
@@ -271,95 +1200,6 @@
           "start": 0,
           "end": 7,
           "wrong": "C'è"
-        }
-      ]
-    },
-    {
-      "id": "u04",
-      "level": "A1",
-      "title": "Tener no es «tenere»: ho fame",
-      "goal_es": "Sensaciones y edad con avere (ho fame, ho paura), no con tenere.",
-      "codes": [
-        "ERR_TENERE_AVERE"
-      ],
-      "why_here": "Léxico básico de A1 con calco muy frecuente.",
-      "status": "active",
-      "explanation_es": "'Tener' del español corresponde a avere (hai ragione), no a tenere (sostener, mantener).",
-      "parts": {
-        "descubre": [
-          "s_2972706",
-          "s_2972708",
-          "s_2023103",
-          "s_2762874"
-        ],
-        "practica": [
-          "s_2972706",
-          "s_2972708",
-          "s_2023103",
-          "s_2762874",
-          "s_390103",
-          "s_2023101",
-          "s_3700270",
-          "s_4483",
-          "s_10461724",
-          "s_13300838",
-          "s_13437351",
-          "s_12434343",
-          "s_2023105",
-          "s_6891292",
-          "s_1912844",
-          "s_5685568",
-          "s_868697",
-          "s_409559",
-          "s_716408",
-          "s_7050017",
-          "s_531427",
-          "s_13382887",
-          "s_13382886"
-        ],
-        "escucha": [
-          "s_2972706",
-          "s_2023103",
-          "s_390103",
-          "s_3700270",
-          "s_10461724",
-          "s_13437351",
-          "s_2023105",
-          "s_1912844"
-        ],
-        "prueba": [
-          "s_13382888",
-          "s_6841369",
-          "s_876842",
-          "s_2399430",
-          "s_4973103",
-          "s_5962421"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_2972706",
-          "start": 7,
-          "end": 10,
-          "wrong": "tieni"
-        },
-        {
-          "id": "s_2972708",
-          "start": 8,
-          "end": 10,
-          "wrong": "tiene"
-        },
-        {
-          "id": "s_2023103",
-          "start": 7,
-          "end": 9,
-          "wrong": "tiene"
-        },
-        {
-          "id": "s_2762874",
-          "start": 7,
-          "end": 9,
-          "wrong": "tiene"
         }
       ]
     },
@@ -528,88 +1368,6 @@
           "start": 12,
           "end": 17,
           "wrong": "di le"
-        }
-      ]
-    },
-    {
-      "id": "u07",
-      "level": "A1",
-      "title": "Il, lo, l' y gli, i: elegir el artículo",
-      "goal_es": "Ante s+consonante, z, gn o ps se usa lo (lo studente) y gli (gli studenti), no il / i.",
-      "codes": [
-        "ERR_ARTICLE_ALLOMORPH"
-      ],
-      "why_here": "Cierra los artículos de A1 una vez vistas las contracciones.",
-      "status": "active",
-      "explanation_es": "Elección il / lo / l': il studente, il stesso Dante e il amore son errores frecuentes de hispanohablantes.",
-      "parts": {
-        "descubre": [
-          "s_10636288",
-          "s_2457911",
-          "s_3343673",
-          "s_708790"
-        ],
-        "practica": [
-          "s_10636288",
-          "s_2457911",
-          "s_3343673",
-          "s_708790",
-          "s_12026400",
-          "s_3669699",
-          "s_719226",
-          "s_984709",
-          "s_690617",
-          "s_1239005",
-          "s_1433807",
-          "s_1127638",
-          "s_1017047",
-          "s_1021057",
-          "s_2282212",
-          "s_797199"
-        ],
-        "escucha": [
-          "s_10636288",
-          "s_3343673",
-          "s_12026400",
-          "s_719226",
-          "s_690617",
-          "s_1433807",
-          "s_1017047",
-          "s_2282212"
-        ],
-        "prueba": [
-          "s_3236013",
-          "s_425792",
-          "s_388782",
-          "s_3627155",
-          "s_3161121",
-          "s_13894907"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_10636288",
-          "start": 10,
-          "end": 13,
-          "wrong": "i"
-        },
-        {
-          "id": "s_2457911",
-          "start": 8,
-          "end": 11,
-          "wrong": "i"
-        },
-        {
-          "id": "s_3343673",
-          "start": 15,
-          "end": 18,
-          "wrong": "i"
-        },
-        {
-          "id": "s_708790",
-          "start": 17,
-          "end": 20,
-          "wrong": "i"
         }
       ]
     },
@@ -1020,8 +1778,8 @@
   "planned": [
     {
       "level": "A1",
-      "title": "Sonidos que engañan: c/ch, g/gh, gli, gn, sc",
-      "reason": "Necesita audio revisado por un nativo y ejercicios de escucha por fonema."
+      "title": "Sonidos: gn y z",
+      "reason": "Falta un generador de ejercicios fiable (la z africada no se puede comprobar sin audio nativo)."
     },
     {
       "level": "A1",

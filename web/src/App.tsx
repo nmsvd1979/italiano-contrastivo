@@ -21,6 +21,7 @@ import { TodayScreen } from "./ui/TodayScreen";
 import { TabBar, isFocusRoute } from "./ui/kit/TabBar";
 import { computeStreak } from "./state/streak";
 import { planSession } from "./state/dayplan";
+import { isPreview, PREVIEW_DB, REAL_DB, setPreview } from "./state/preview";
 import { WriteScreen } from "./ui/WriteScreen";
 import "./styles.css";
 
@@ -85,7 +86,7 @@ export function App() {
       navigator.storage?.persist?.().catch(() => undefined); // pide que el sistema no borre el progreso
       const [pack, audio, words] = await Promise.all([loadContent(), loadAudioIndex(), loadNativeWords()]);
       try {
-        setReady({ pack, audio, words, store: await openStore(), storeError: null });
+        setReady({ pack, audio, words, store: await openStore(isPreview() ? PREVIEW_DB : REAL_DB), storeError: null });
       } catch (e) {
         if (!(e instanceof StoreUnavailableError)) throw e;
         setReady({ pack, audio, words, store: memoryStore(), storeError: e.message });
@@ -98,6 +99,12 @@ export function App() {
   return (
     <AudioProvider pack={ready.pack} index={ready.audio} words={ready.words}>
       <UpdateBanner />
+      {isPreview() && (
+        <p role="status" className="banner">
+          Modo de prueba: todo abierto y con progreso aparte (tu progreso real no se toca).{" "}
+          <button type="button" style={{ minHeight: 32, padding: "2px 10px" }} onClick={() => { setPreview(false); window.location.reload(); }}>Salir</button>
+        </p>
+      )}
       {hash === "#/repaso" ? <ReviewScreen pack={ready.pack} store={ready.store} />
         : hash === "#/escribir" ? <WriteScreen />
         : hash === "#/ajustes" ? <SettingsScreen store={ready.store} memoryOnly={ready.storeError !== null} />

@@ -17,6 +17,7 @@ class Calque:
     correct: str
     wrong: str
     kind: str  # distractor_kind del esquema de ítems
+    listen: bool = False  # el ítem de elección se presenta como audio («escucha y elige»)
 
 
 def _cap(wrong: str, correct: str) -> str:
@@ -189,6 +190,24 @@ def _tenere_avere(it: str):
     return m and Calque("ERR_TENERE_AVERE", m.start(1), m.end(1), m.group(1), _cap(TENERE[m.group(1).lower()], m.group(1)), "l1_calque")
 
 
+def _present_for(code: str) -> Callable[[str], Calque | None]:
+    from pipeline.exercises.present import find_present  # import local: present.py no depende de calques.py
+
+    def gen(it: str) -> Calque | None:
+        hit = find_present(code, it)
+        return Calque(code, hit[0], hit[1], hit[2], hit[3], "morphological") if hit else None
+    return gen
+
+
+def _phonetic_for(code: str) -> Callable[[str], Calque | None]:
+    from pipeline.exercises.phonetics import find_phonetic
+
+    def gen(it: str) -> Calque | None:
+        hit = find_phonetic(code, it)
+        return Calque(code, hit[0], hit[1], hit[2], hit[3], "morphological", listen=True) if hit else None
+    return gen
+
+
 _GENERATORS: dict[str, Callable[[str], Calque | None]] = {
     "ERR_AUX_ESSERE": _aux_essere,
     "ERR_PREP_PLACE": _prep_place,
@@ -202,6 +221,8 @@ _GENERATORS: dict[str, Callable[[str], Calque | None]] = {
     "ERR_PARTICIPLE_AGREEMENT": _participle_agreement,
     "ERR_POSSESSIVE_SPELLING": _possessive_spelling,
     "ERR_CONGIUNTIVO_OPINION": _congiuntivo_opinion,
+    **{c: _phonetic_for(c) for c in ("ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL")},
+    **{c: _present_for(c) for c in ("ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL")},
 }
 CALQUE_CODES: tuple[str, ...] = tuple(_GENERATORS)
 

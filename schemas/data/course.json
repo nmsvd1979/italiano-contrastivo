@@ -25,6 +25,96 @@
   ],
   "units": [
     {
+      "id": "u18",
+      "level": "A1",
+      "title": "Sonidos: c y g (ce, ci, che, chi)",
+      "goal_es": "Ante e/i la c y la g suenan suaves (ce = «che» /tʃe/, gi = «yi» /dʒi/) y con h suenan duras (che = /ke/, ghi = /gi/). Se aprende escuchando.",
+      "codes": [
+        "ERR_C_G_PALATAL"
+      ],
+      "why_here": "Las fuentes ponen la fonética primero: es lo que más confunde al empezar."
+    },
+    {
+      "id": "u19",
+      "level": "A1",
+      "title": "Sonidos: sce, sci y sche, schi",
+      "goal_es": "Sce y sci suenan /ʃe/, /ʃi/ (como «sh»); sche y schi suenan /ske/, /ski/. El español no tiene el sonido /ʃ/.",
+      "codes": [
+        "ERR_SC_PALATAL"
+      ],
+      "why_here": "Sigue a c y g: mismo mecanismo de e/i con la h que endurece."
+    },
+    {
+      "id": "u20",
+      "level": "A1",
+      "title": "Sonidos: gli (figlio, famiglia)",
+      "goal_es": "Gli suena como una «ll» muy palatal /ʎ/ (figlio, famiglia, meglio); no es «gl» ni «li».",
+      "codes": [
+        "ERR_GLI_PALATAL"
+      ],
+      "why_here": "Tercer sonido que el español no tiene como tal; aparece en palabras de familia y cotidianas."
+    },
+    {
+      "id": "u13",
+      "level": "A1",
+      "title": "Essere y avere: sono, ho",
+      "goal_es": "Conjugar los dos verbos base: sono, sei, è, siamo, siete, sono / ho, hai, ha, abbiamo, avete, hanno.",
+      "codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "why_here": "Son la base de casi todo lo demás: presentarse, describir y los tiempos compuestos."
+    },
+    {
+      "id": "u04",
+      "level": "A1",
+      "title": "Tener no es «tenere»: ho fame",
+      "goal_es": "Sensaciones y edad con avere (ho fame, ho paura), no con tenere.",
+      "codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "why_here": "Léxico básico de A1 con calco muy frecuente."
+    },
+    {
+      "id": "u14",
+      "level": "A1",
+      "title": "Verbos en -are: parlo, parli, parla",
+      "goal_es": "Terminaciones del presente de los verbos en -are; el español -as, -amos, -an no existe en italiano.",
+      "codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "why_here": "Es el grupo más grande de verbos y donde más pesa el calco de las terminaciones."
+    },
+    {
+      "id": "u15",
+      "level": "A1",
+      "title": "Verbos en -ere e -ire: leggo, dormo, finisco",
+      "goal_es": "Terminaciones de -ere (leggo, leggi, legge…) y de -ire, con -isc- en finire, capire, preferire.",
+      "codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "why_here": "Completa los dos grupos regulares tras los verbos en -are."
+    },
+    {
+      "id": "u16",
+      "level": "A1",
+      "title": "Andare, fare, stare, venire: vado, faccio",
+      "goal_es": "Las formas irregulares más usadas: vado, faccio, sto, vengo, do, dico, so, esco.",
+      "codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques."
+    },
+    {
+      "id": "u17",
+      "level": "A1",
+      "title": "Volere, potere, dovere: voglio, posso, devo",
+      "goal_es": "Los tres modales irregulares y su uso con un infinitivo: voglio mangiare, posso venire, devo studiare.",
+      "codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación."
+    },
+    {
       "id": "u01",
       "level": "A1",
       "title": "El posesivo lleva artículo",
@@ -45,6 +135,16 @@
       "why_here": "Va justo después del artículo con posesivo: es la misma estructura vista por su forma."
     },
     {
+      "id": "u07",
+      "level": "A1",
+      "title": "Il, lo, l' y gli, i: elegir el artículo",
+      "goal_es": "Ante s+consonante, z, gn o ps se usa lo (lo studente) y gli (gli studenti), no il / i.",
+      "codes": [
+        "ERR_ARTICLE_ALLOMORPH"
+      ],
+      "why_here": "Cierra los artículos de A1 una vez vistas las contracciones."
+    },
+    {
       "id": "u03",
       "level": "A1",
       "title": "Hay: c'è y ci sono",
@@ -53,16 +153,6 @@
         "ERR_CE_AGREEMENT"
       ],
       "why_here": "Estructura de uso inmediato en las primeras frases."
-    },
-    {
-      "id": "u04",
-      "level": "A1",
-      "title": "Tener no es «tenere»: ho fame",
-      "goal_es": "Sensaciones y edad con avere (ho fame, ho paura), no con tenere.",
-      "codes": [
-        "ERR_TENERE_AVERE"
-      ],
-      "why_here": "Léxico básico de A1 con calco muy frecuente."
     },
     {
       "id": "u05",
@@ -83,16 +173,6 @@
         "ERR_PREP_ARTICLE_CONTRACTION"
       ],
       "why_here": "Se apoya en las preposiciones de la unidad anterior."
-    },
-    {
-      "id": "u07",
-      "level": "A1",
-      "title": "Il, lo, l' y gli, i: elegir el artículo",
-      "goal_es": "Ante s+consonante, z, gn o ps se usa lo (lo studente) y gli (gli studenti), no il / i.",
-      "codes": [
-        "ERR_ARTICLE_ALLOMORPH"
-      ],
-      "why_here": "Cierra los artículos de A1 una vez vistas las contracciones."
     },
     {
       "id": "u08",
@@ -148,8 +228,8 @@
   "planned": [
     {
       "level": "A1",
-      "title": "Sonidos que engañan: c/ch, g/gh, gli, gn, sc",
-      "reason": "Necesita audio revisado por un nativo y ejercicios de escucha por fonema."
+      "title": "Sonidos: gn y z",
+      "reason": "Falta un generador de ejercicios fiable (la z africada no se puede comprobar sin audio nativo)."
     },
     {
       "level": "A1",

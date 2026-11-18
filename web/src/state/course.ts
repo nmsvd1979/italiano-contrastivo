@@ -1,4 +1,5 @@
 import type { Course, Unit } from "../content/load";
+import { isPreview } from "./preview";
 import type { StepId, UnitProgress } from "./store";
 
 export const STEPS: StepId[] = ["descubre", "capsula", "practica", "escucha", "prueba"];
@@ -23,19 +24,19 @@ export function nextStep(p: UnitProgress): StepId | null {
 }
 
 export type UnitState = "completed" | "current" | "locked";
-export type UnitView = { unit: Unit; state: UnitState; progress: UnitProgress; next: StepId | null; index: number };
+export type UnitView = { unit: Unit; state: UnitState; progress: UnitProgress; next: StepId | null; index: number; preview?: boolean };
 
 /** Estado de cada unidad: la primera sin completar es la actual; las siguientes quedan bloqueadas. */
-export function unitViews(course: Course, all: UnitProgress[]): UnitView[] {
+export function unitViews(course: Course, all: UnitProgress[], unlockAll: boolean = isPreview()): UnitView[] {
   const byId = new Map(all.map((p) => [p.unitId, p]));
   let currentFound = false;
   return course.units.map((unit, index) => {
     const progress = byId.get(unit.id) ?? emptyProgress(unit.id);
     let state: UnitState;
     if (progress.completed) state = "completed";
-    else if (!currentFound) { state = "current"; currentFound = true; }
+    else if (!currentFound || unlockAll) { state = "current"; currentFound = true; }
     else state = "locked";
-    return { unit, state, progress, next: state === "current" ? nextStep(progress) : null, index };
+    return { unit, state, progress, next: state === "current" ? nextStep(progress) : null, index, preview: unlockAll };
   });
 }
 
@@ -43,6 +44,7 @@ export const currentView = (views: UnitView[]): UnitView | undefined => views.fi
 
 /** Un paso solo se puede hacer si es el siguiente de la unidad actual (o repetir uno ya hecho de una unidad desbloqueada). */
 export function canDoStep(view: UnitView, step: StepId): boolean {
+  if (view.preview) return true; // modo de prueba: cualquier paso de cualquier unidad
   if (view.state === "locked") return false;
   if (view.state === "completed") return true;
   const idx = STEPS.indexOf(step);

@@ -6,11 +6,12 @@ from pipeline.config import ROOT
 from pipeline.db import store
 
 CATALOG = ROOT / "schemas" / "data" / "error-codes.json"
+TOPICS = ROOT / "schemas" / "data" / "topic-codes.json"  # objetivos de tema (no son errores catalogados por las fuentes)
 
 
 def ensure_catalog(auth) -> None:
     """Los códigos de error deben existir en la base de autoría (clave foránea de sentence_error_codes)."""
-    for entry in json.loads(CATALOG.read_text(encoding="utf8")):
+    for entry in json.loads(CATALOG.read_text(encoding="utf8")) + json.loads(TOPICS.read_text(encoding="utf8")):
         row = auth.execute("SELECT review_status FROM error_codes WHERE code=?", (entry["code"],)).fetchone()
         # Re-ejecutar promote no puede deshacer una decisión humana sobre un código: se conserva su estado.
         store.upsert(auth, "error_codes", dict(entry, review_status=row[0]) if row else entry)

@@ -122,6 +122,10 @@
         },
         "requires_server": {
           "const": false
+        },
+        "listen": {
+          "type": "boolean",
+          "description": "Si es true, el enunciado es el audio de la opción correcta: se escucha y se elige lo que se oyó."
         }
       }
     },

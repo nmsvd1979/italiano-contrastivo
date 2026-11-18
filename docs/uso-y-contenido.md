@@ -20,6 +20,15 @@
 - Códigos con generador: 12 de 47 (se agregaron ARTICLE_ALLOMORPH, PARTICIPLE_AGREEMENT [solo siamo/siete: con sono/sei/è el participio en -o puede ser válido], POSSESSIVE_SPELLING, CONGIUNTIVO_OPINION [lista cerrada, solo 3.ª persona: se rechazaron oraciones con sujeto de 1.ª/2.ª]).
 - Auditoría IA (`scripts/capsule_pack.py` + `scripts/capsule_apply.py`): 258 revisadas en total, 232 aprobadas. **No es verificación nativa.**
 
+## A1 en construcción (2026-11-18)
+- **20 unidades activas (15 A1 · 4 A2 · 1 B1), ≈7 h de pasos**, 517 oraciones, 549 clips. Orden A1: sonidos (c/g, sc, gli) → essere/avere → tener (ho fame) → verbos en -are → -ere/-ire → irregulares (andare, fare, stare, venire) → modales → posesivo con artículo → mio/tuo/suo → il/lo → c'è/ci sono → a/in → nel/sul.
+- **Unidades de presente** (`pipeline/exercises/present.py`): el error se genera solo con pronombre explícito delante («tu parli» → «tu parlas» calcado del español; o una persona que no concuerda). Tablas cerradas de gramática estándar (13 irregulares, 59 regulares sin -iare). Objetivos de tema en `schemas/data/topic-codes.json` (aparte del catálogo de errores de las fuentes).
+- **Unidades de sonidos** (`phonetics.py`): «escucha y elige»: suena la frase correcta y se elige entre ella y otra con UNA palabra mal escrita; solo se ofrece como error una forma que no es palabra italiana ni española (wordfreq = 0). La calidad de la voz de Serena no está verificada por un nativo.
+- **Modo de prueba** (Ajustes): abre todas las unidades y pasos con el progreso en otra base de datos (el real no se toca) para revisar el contenido sin esperar a desbloquearlo.
+- Tope de audio subido a 20 MB y del precache a 5 MB (el contenido crece; el audio sigue fuera del precache).
+- **Falta para dar A1 por listo:** vocabulario por temas (~700 palabras), plural y género, interrogativos, números/hora/fecha, consonantes dobles, gn y z, y el examen de hito A1. Hoy equivale a una fracción de las 40–50 h guiadas de las fuentes.
+- Auditoría IA acumulada: 454 oraciones revisadas, 426 aprobadas (no es verificación de un nativo).
+
 ## Sesión de 4 bloques (2026-11-18)
 - «Hoy» muestra la **sesión de hoy** con los bloques de las fuentes y sus minutos: ① Repaso (5) · ② Gimnasio sintáctico (cápsula + práctica + prueba) · ③ Sonidos y voz (8) · ④ Lectura y reconstrucción (7). Cada paso de la unidad es un bloque; se listan los pasos que siguen hasta llenar ≈25–30 min, respetando el ciclo (lectura → gimnasio → voz → prueba). Cada bloque se puede hacer por separado.
 - **④ Lectura y reconstrucción** = tarjetas con el punto clave resaltado + preguntas de significado + huecos solo en el punto de divergencia (andamiaje inverso), llenado a ≈7 min por ítems × segundos.

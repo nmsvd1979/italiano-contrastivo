@@ -21,6 +21,9 @@ const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8
 const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"),
   manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
 const NOW = new Date("2026-11-17T12:00:00.000Z");
+const U1 = pack.course.units[0].id; // el orden lo da course.json: no se fija «u01»
+const U2 = pack.course.units[1].id;
+const TOTAL = pack.course.units.length;
 
 describe("dictado", () => {
   it.each([
@@ -63,16 +66,16 @@ describe("ItemRunner", () => {
 describe("persistencia de la ruta", () => {
   it("un paso hecho queda guardado y cuenta en el día; repetirlo no cambia la fecha", async () => {
     const store = memoryStore();
-    const p = await finishStep(store, "u01", "descubre", NOW);
-    const again = await finishStep(store, "u01", "descubre", new Date("2026-11-18T12:00:00.000Z"));
+    const p = await finishStep(store, U1, "descubre", NOW);
+    const again = await finishStep(store, U1, "descubre", new Date("2026-11-18T12:00:00.000Z"));
     expect(again.done.descubre).toBe(p.done.descubre);
-    expect((await store.getDay("2026-11-17")).stepsDone).toEqual(["u01:descubre"]);
+    expect((await store.getDay("2026-11-17")).stepsDone).toEqual([`${U1}:descubre`]);
   });
   it("aprobar la prueba desbloquea la siguiente unidad; reprobar no", async () => {
     const store = memoryStore();
-    expect((await finishTest(store, "u01", 7, 10, NOW)).passed).toBe(false);
+    expect((await finishTest(store, U1, 7, 10, NOW)).passed).toBe(false);
     expect(unitViews(pack.course, await store.allUnits())[0].state).toBe("current");
-    expect((await finishTest(store, "u01", 9, 10, NOW)).passed).toBe(true);
+    expect((await finishTest(store, U1, 9, 10, NOW)).passed).toBe(true);
     const v = unitViews(pack.course, await store.allUnits());
     expect(v[0].state).toBe("completed");
     expect(v[1].state).toBe("current");
@@ -93,12 +96,12 @@ describe("persistencia de la ruta", () => {
 describe("pantallas de la ruta con el contenido real", () => {
   it("la ruta muestra completada, actual, bloqueada y próximamente con su razón", async () => {
     const store = memoryStore();
-    await finishTest(store, "u01", 10, 10, NOW);
+    await finishTest(store, U1, 10, 10, NOW);
     render(<RouteScreen views={unitViews(pack.course, await store.allUnits())} pack={pack} />);
-    expect(screen.getByText(/1 de 12 unidades completadas/)).toBeTruthy();
+    expect(screen.getByText(new RegExp(`1 de ${TOTAL} unidades completadas`))).toBeTruthy();
     expect(screen.getByText("Completada")).toBeTruthy();
     expect(screen.getByText(/Siguiente: Descubre/)).toBeTruthy();
-    expect(screen.getAllByText("Se abre al completar la anterior").length).toBe(10);
+    expect(screen.getAllByText("Se abre al completar la anterior").length).toBe(TOTAL - 2);
     expect(screen.getByText("Consonantes dobles")).toBeTruthy();
     expect(screen.getAllByText(/próximamente/).length).toBe(pack.course.planned.length);
   });
@@ -109,11 +112,11 @@ describe("pantallas de la ruta con el contenido real", () => {
     expect(screen.getAllByRole("link", { name: /Empezar|Hacer|Repetir/ }).length).toBe(1);
   });
   it("un paso que no toca todavía no se abre", async () => {
-    render(<StepScreen unitId="u01" step="prueba" pack={pack} store={memoryStore()} />);
+    render(<StepScreen unitId={U1} step="prueba" pack={pack} store={memoryStore()} />);
     expect(await screen.findByText(/Todavía no puedes hacer este paso/)).toBeTruthy();
   });
   it("una unidad bloqueada tampoco", async () => {
-    render(<StepScreen unitId="u02" step="descubre" pack={pack} store={memoryStore()} />);
+    render(<StepScreen unitId={U2} step="descubre" pack={pack} store={memoryStore()} />);
     expect(await screen.findByText(/Todavía no puedes hacer este paso/)).toBeTruthy();
   });
 });
@@ -139,7 +142,7 @@ describe("flujo completo de una unidad en la interfaz", () => {
 
   it("Descubre (bloque de lectura): tarjetas, preguntas de significado y reconstrucción llevan a «Paso completado»", async () => {
     const store = memoryStore();
-    render(<StepScreen unitId="u01" step="descubre" pack={pack} store={store} />);
+    render(<StepScreen unitId={U1} step="descubre" pack={pack} store={store} />);
     for (let i = 0; i < 4; i++) fireEvent.click(await screen.findByText("Siguiente"));
     for (let q = 0; q < 2; q++) {
       const first = (await screen.findAllByRole("button")).find((b) => b.closest("ul.options"))!;
@@ -150,16 +153,16 @@ describe("flujo completo de una unidad en la interfaz", () => {
     expect(await screen.findByText(new RegExp(`Ejercicio 1 de ${items.length}`))).toBeTruthy();
     for (const item of items) await solve(item);
     await screen.findByText("Paso completado ✓");
-    expect((await store.getUnit("u01"))?.done.descubre).toBeTruthy();
+    expect((await store.getUnit(U1))?.done.descubre).toBeTruthy();
   });
 
   it("Prueba contestada bien: completa la unidad y avisa que se abrió la siguiente", async () => {
     const store = memoryStore();
-    let p = emptyProgress("u01");
+    let p = emptyProgress(U1);
     for (const s of ["descubre", "capsula", "practica", "escucha"] as const) p = markStep(p, s, NOW);
     await store.putUnit(p);
     const unit = pack.course.units[0];
-    render(<StepScreen unitId="u01" step="prueba" pack={pack} store={store} />);
+    render(<StepScreen unitId={U1} step="prueba" pack={pack} store={store} />);
     for (const item of testItems(unit, pack)) {
       if (item.type === "choice_l1_distractor") {
         const good = (item as unknown as { options: { text: string; correct: boolean }[] }).options.find((o) => o.correct)!.text;
@@ -185,10 +188,10 @@ describe("flujo completo de una unidad en la interfaz", () => {
 
   it("Prueba contestada mal: no completa, pide volver a la práctica y conserva lo demás", async () => {
     const store = memoryStore();
-    let p = emptyProgress("u01");
+    let p = emptyProgress(U1);
     for (const s of ["descubre", "capsula", "practica", "escucha"] as const) p = markStep(p, s, NOW);
     await store.putUnit(p);
-    render(<StepScreen unitId="u01" step="prueba" pack={pack} store={store} />);
+    render(<StepScreen unitId={U1} step="prueba" pack={pack} store={store} />);
     for (let i = 0; i < 10; i++) {
       const wrong = (await screen.findAllByRole("button")).find((b) => b.closest("ul.options"));
       if (wrong) {
@@ -208,7 +211,7 @@ describe("flujo completo de una unidad en la interfaz", () => {
       fireEvent.click(await screen.findByText("Continuar"));
     }
     await screen.findByText("Casi");
-    const saved = await store.getUnit("u01");
+    const saved = await store.getUnit(U1);
     expect(saved?.completed).toBe(false);
     expect(saved?.done.practica).toBeUndefined();
     expect(saved?.done.descubre).toBeTruthy();

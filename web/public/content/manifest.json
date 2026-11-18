@@ -1,7 +1,15 @@
 {
   "capsules": [
+    "cap_err_c_g_palatal",
+    "cap_err_gli_palatal",
+    "cap_err_sc_palatal",
     "cap_err_possessive_spelling",
     "cap_err_possessive_article",
+    "cap_err_present_are",
+    "cap_err_present_ere_ire",
+    "cap_err_present_essere_avere",
+    "cap_err_present_irregular",
+    "cap_err_present_modal",
     "cap_err_article_allomorph",
     "cap_err_ce_agreement",
     "cap_err_prep_article_contraction",
@@ -39,6 +47,16 @@
       "reason": null,
       "usable": 20
     },
+    "ERR_C_G_PALATAL": {
+      "capsule": true,
+      "reason": null,
+      "usable": 83
+    },
+    "ERR_GLI_PALATAL": {
+      "capsule": true,
+      "reason": null,
+      "usable": 39
+    },
     "ERR_PARTICIPLE_AGREEMENT": {
       "capsule": true,
       "reason": null,
@@ -69,6 +87,36 @@
       "reason": null,
       "usable": 23
     },
+    "ERR_PRESENT_ARE": {
+      "capsule": true,
+      "reason": null,
+      "usable": 23
+    },
+    "ERR_PRESENT_ERE_IRE": {
+      "capsule": true,
+      "reason": null,
+      "usable": 25
+    },
+    "ERR_PRESENT_ESSERE_AVERE": {
+      "capsule": true,
+      "reason": null,
+      "usable": 25
+    },
+    "ERR_PRESENT_IRREGULAR": {
+      "capsule": true,
+      "reason": null,
+      "usable": 25
+    },
+    "ERR_PRESENT_MODAL": {
+      "capsule": true,
+      "reason": null,
+      "usable": 24
+    },
+    "ERR_SC_PALATAL": {
+      "capsule": true,
+      "reason": null,
+      "usable": 34
+    },
     "ERR_TENERE_AVERE": {
       "capsule": true,
       "reason": null,
@@ -76,18 +124,18 @@
     }
   },
   "levels": {
-    "A1": 130,
+    "A1": 324,
     "A2": 199,
     "B1": 138,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 447,
+    "llm-audit": 641,
     "me": 27
   },
-  "sentences_used": 267,
+  "sentences_used": 517,
   "translation_kind": {
-    "direct": 228,
-    "llm": 39
+    "direct": 449,
+    "llm": 68
   }
 }

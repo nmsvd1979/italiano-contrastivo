@@ -1,0 +1,62 @@
+[
+  {
+    "code": "ERR_PRESENT_ARE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Los verbos en -are hacen el presente con -o, -i, -a, -iamo, -ate, -ano. El español dice -as, -amos, -áis, -an: «parlas», «parlamos» o «parlan» no existen en italiano (tu parli, noi parliamo, voi parlate, loro parlano).",
+    "example_wrong": "tu parlas",
+    "example_right": "tu parli",
+    "detectors": ["autocheck"],
+    "source": "Proyecto italiano-contrastivo, unidades de presente A1 (el cuaderno de fuentes incluye el presente de verbos regulares en A1).",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_PRESENT_ERE_IRE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Los verbos en -ere hacen -o, -i, -e, -iamo, -ete, -ono y los en -ire -o, -i, -e, -iamo, -ite, -ono (algunos añaden -isc-: finisco, finisci, finisce, finiamo, finite, finiscono). El español -es, -emos, -en, -imos no existe: leggi, leggiamo, leggono.",
+    "example_wrong": "noi leggemos",
+    "example_right": "noi leggiamo",
+    "detectors": ["autocheck"],
+    "source": "Proyecto italiano-contrastivo, unidades de presente A1 (el cuaderno de fuentes incluye el presente de verbos regulares en A1).",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_PRESENT_ESSERE_AVERE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Essere y avere son irregulares: sono, sei, è, siamo, siete, sono / ho, hai, ha, abbiamo, avete, hanno. Ojo: «sono» sirve para «yo soy» y «ellos son», y la h de ho, hai, ha, hanno no se pronuncia.",
+    "example_wrong": "io è",
+    "example_right": "io sono",
+    "detectors": ["autocheck"],
+    "source": "Proyecto italiano-contrastivo, unidades de presente A1 (el cuaderno de fuentes incluye essere y avere en A1).",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_PRESENT_IRREGULAR",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Andare, fare, stare, venire, dare, dire, sapere y uscire son irregulares y no siguen la regla: vado, vai, va, andiamo, andate, vanno. Hay que aprender cada forma; la persona la marca la terminación, no solo el sujeto.",
+    "example_wrong": "io vai",
+    "example_right": "io vado",
+    "detectors": ["autocheck"],
+    "source": "Proyecto italiano-contrastivo, unidades de presente A1 (el cuaderno de fuentes incluye andare, fare y stare en A1).",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_PRESENT_MODAL",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Volere, potere y dovere son irregulares y muy frecuentes: voglio, vuoi, vuole, vogliamo, volete, vogliono / posso, puoi, può, possiamo, potete, possono / devo, devi, deve, dobbiamo, dovete, devono. Van con un infinitivo: voglio mangiare.",
+    "example_wrong": "io vuole",
+    "example_right": "io voglio",
+    "detectors": ["autocheck"],
+    "source": "Proyecto italiano-contrastivo, unidades de presente A1 (el cuaderno de fuentes incluye los modales en A1/A2).",
+    "review_status": "needs_review"
+  }
+]
