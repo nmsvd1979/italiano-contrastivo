@@ -1,5 +1,11 @@
 # Uso y contenido (actualizado 2026-11-17 — ruta guiada)
 
+## Actualizaciones y audio sin conexión (corrección del mismo día)
+- **Problema visto:** tras publicar, la app instalada seguía mostrando versiones viejas. Causa: el service worker precacheaba ~326 archivos (con 170+ mp3); su instalación era lenta y se aborta si la app se cierra o falla un archivo, y aun instalada, la página no se recargaba sola.
+- **Arreglo:** el precache ahora es solo la app y el contenido (21 archivos, 1,2 MB; `check-precache.mjs` lo exige y prohíbe mp3). El audio va a la caché `audio-v1` (CacheFirst con soporte de rangos): se guarda al escuchar y **Ajustes → «Descargar el audio»** baja todo. La app avisa «Descargando una versión nueva…» y se recarga sola al activarse; busca actualización al volver a abrirla.
+- **Ver qué versión es:** pie de página «Versión xxxxxxx» (hash del commit) y Ajustes → «Buscar actualización» / «Reparar la app» (borra la copia guardada, **no** el progreso).
+- **Consecuencia:** el audio sin conexión ya no viene incluido: hay que pulsar «Descargar el audio» una vez con internet.
+
 ## Ruta guiada (lo nuevo)
 - **12 unidades activas** en `schemas/data/course.json` (A1: 7 · A2: 4 · B1: 1) + 9 unidades **«próximamente»** visibles en la ruta con la razón por la que aún no existen (sonidos, consonantes dobles, passato prossimo/imperfetto, imperativo negativo, ci/ne, pronombres combinados, consecutio, concesivas). Una unidad solo es «activa» si tiene ≥18 oraciones validadas utilizables (`pipeline/exercises/course.py`; si no, baja a «próximamente»).
 - **Cada unidad = 5 pasos** (ciclo ANTES/DURANTE/DESPUÉS/REVISIÓN de las fuentes): Descubre → Cápsula → Práctica → Escucha → Prueba de la unidad. Se hacen en orden; cada paso se puede dejar para otro día. La prueba usa oraciones **reservadas** (no salen en la práctica); **≥80 % completa la unidad** y abre la siguiente (umbral nuestro). Si no se llega, hay que rehacer la práctica.

@@ -6,7 +6,9 @@ import type { Card } from "./generated/card";
 import { normalizeDay, planToday } from "./state/session";
 import { type DayProgress, localDate, memoryStore, openStore, type StepId, type Store, StoreUnavailableError, type UnitProgress } from "./state/store";
 import { loadSamples } from "./state/timing";
+import { buildInfo } from "./pwa";
 import { unitViews } from "./state/course";
+import { UpdateBanner } from "./ui/UpdateBanner";
 import { AboutScreen } from "./ui/AboutScreen";
 import { CapsuleScreen } from "./ui/CapsuleScreen";
 import { SettingsScreen } from "./ui/SettingsScreen";
@@ -90,6 +92,7 @@ export function App() {
   const capsule = hash.startsWith("#/capsula/") ? ready.pack.capsules.find((c) => c.id === hash.slice("#/capsula/".length)) : undefined;
   return (
     <AudioProvider pack={ready.pack} index={ready.audio} words={ready.words}>
+      <UpdateBanner />
       <nav><a href="#/">Hoy</a> <a href="#/ruta">Ruta</a> <a href="#/repaso">Repaso</a> <a href="#/escribir">Escribir</a> <a href="#/ajustes">Ajustes</a> <a href="#/acerca">Acerca de</a></nav>
       {hash === "#/repaso" ? <ReviewScreen pack={ready.pack} store={ready.store} />
         : hash === "#/escribir" ? <WriteScreen />
@@ -98,6 +101,7 @@ export function App() {
         : hash === "#/ruta" || hash === "#/ubicacion" || hash.startsWith("#/unidad/") ? <Routes ready={ready} hash={hash} />
         : capsule ? <CapsuleScreen key={capsule.id} capsule={capsule} store={ready.store} />
         : <Today {...ready} />}
+    <footer className="version"><small>Versión {buildInfo().id}</small></footer>
     </AudioProvider>
   );
 }
