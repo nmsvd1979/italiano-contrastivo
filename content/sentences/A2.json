@@ -1871,6 +1871,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_PRESENT_ERE_IRE"
+    ],
+    "es": "Él vive en el bosque solo.",
+    "es_author": "massama",
+    "es_source_id": "1547834",
+    "id": "s_1993864",
+    "it": "Lui vive completamente da solo nei boschi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1993864",
+    "tag_rules": {
+      "ERR_PRESENT_ERE_IRE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_MANCARE"
     ],
     "es": "Te extraño, Tom.",

@@ -22183,17 +22183,78 @@
   ],
   "ERR_PRESENT_ARE": [
     {
-      "id": "it_choice_s_3440351_ERR_PRESENT_ARE",
+      "id": "it_choice_s_10617953_ERR_PRESENT_ARE",
       "options": [
         {
           "correct": true,
-          "text": "Io amo l'amore."
+          "text": "Io penso a te."
         },
         {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ARE",
+          "text": "Io pensiamo a te."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_10617953",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "penso"
+      ],
+      "hint_es": "Pienso en ti.",
+      "id": "it_cloze_s_10617953_ERR_PRESENT_ARE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_10617953",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "text": "Io ___ a te.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "penso",
+        "a",
+        "te."
+      ],
+      "id": "it_reorder_s_10617953_ERR_PRESENT_ARE",
+      "prompt_es": "Ordena las palabras: «Pienso en ti.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_10617953",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "tokens": [
+        "a",
+        "penso",
+        "Io",
+        "te."
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_3440351_ERR_PRESENT_ARE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ARE",
           "text": "Io amiamo l'amore."
+        },
+        {
+          "correct": true,
+          "text": "Io amo l'amore."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -22220,9 +22281,147 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
+        "amo",
         "l'amore.",
+        "Io"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_2126345_ERR_PRESENT_ARE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Io amo i viaggi."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ARE",
+          "text": "Io amiamo i viaggi."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2126345",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answer": [
         "Io",
-        "amo"
+        "amo",
+        "i",
+        "viaggi."
+      ],
+      "id": "it_reorder_s_2126345_ERR_PRESENT_ARE",
+      "prompt_es": "Ordena las palabras: «Me encantan los viajes.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2126345",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "tokens": [
+        "Io",
+        "viaggi.",
+        "amo",
+        "i"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_4525880_ERR_PRESENT_ARE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ARE",
+          "text": "Io amiamo la birra."
+        },
+        {
+          "correct": true,
+          "text": "Io amo la birra."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4525880",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answer": [
+        "Io",
+        "amo",
+        "la",
+        "birra."
+      ],
+      "id": "it_reorder_s_4525880_ERR_PRESENT_ARE",
+      "prompt_es": "Ordena las palabras: «Yo amo la cerveza.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4525880",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "tokens": [
+        "Io",
+        "birra.",
+        "amo",
+        "la"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_916304_ERR_PRESENT_ARE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Lui ama il caffè."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ARE",
+          "text": "Lui amano il caffè."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_916304",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answer": [
+        "Lui",
+        "ama",
+        "il",
+        "caffè."
+      ],
+      "id": "it_reorder_s_916304_ERR_PRESENT_ARE",
+      "prompt_es": "Ordena las palabras: «Le encanta el café.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_916304",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "tokens": [
+        "il",
+        "Lui",
+        "caffè.",
+        "ama"
       ],
       "type": "reorder"
     },
@@ -22265,10 +22464,10 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
-        "a",
-        "abita",
+        "Osaka.",
         "Lui",
-        "Osaka."
+        "abita",
+        "a"
       ],
       "type": "reorder"
     },
@@ -22355,10 +22554,56 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
-        "a",
         "Lei",
+        "Kyoto.",
         "abita",
-        "Kyoto."
+        "a"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1714805_ERR_PRESENT_ARE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Io amo lo spagnolo!"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ARE",
+          "text": "Io amiamo lo spagnolo!"
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1714805",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answer": [
+        "Io",
+        "amo",
+        "lo",
+        "spagnolo!"
+      ],
+      "id": "it_reorder_s_1714805_ERR_PRESENT_ARE",
+      "prompt_es": "Ordena las palabras: «¡Me encanta el español!»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1714805",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "tokens": [
+        "spagnolo!",
+        "Io",
+        "lo",
+        "amo"
       ],
       "type": "reorder"
     },
@@ -22366,14 +22611,14 @@
       "id": "it_choice_s_2575149_ERR_PRESENT_ARE",
       "options": [
         {
-          "correct": true,
-          "text": "Io amo il francese."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ARE",
           "text": "Io amiamo il francese."
+        },
+        {
+          "correct": true,
+          "text": "Io amo il francese."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -22401,10 +22646,56 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
-        "amo",
-        "francese.",
         "il",
+        "francese.",
+        "amo",
         "Io"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_4477263_ERR_PRESENT_ARE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Io amo gli animali."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ARE",
+          "text": "Io amiamo gli animali."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4477263",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answer": [
+        "Io",
+        "amo",
+        "gli",
+        "animali."
+      ],
+      "id": "it_reorder_s_4477263_ERR_PRESENT_ARE",
+      "prompt_es": "Ordena las palabras: «Amo los animales.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4477263",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "tokens": [
+        "gli",
+        "Io",
+        "amo",
+        "animali."
       ],
       "type": "reorder"
     },
@@ -22447,9 +22738,55 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
-        "canta",
-        "non",
         "bene.",
+        "Lui",
+        "canta",
+        "non"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1324839_ERR_PRESENT_ARE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Lui abita in Marocco."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ARE",
+          "text": "Lui abitano in Marocco."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1324839",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answer": [
+        "Lui",
+        "abita",
+        "in",
+        "Marocco."
+      ],
+      "id": "it_reorder_s_1324839_ERR_PRESENT_ARE",
+      "prompt_es": "Ordena las palabras: «Él vive en Marruecos.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1324839",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "tokens": [
+        "abita",
+        "in",
+        "Marocco.",
         "Lui"
       ],
       "type": "reorder"
@@ -22458,14 +22795,14 @@
       "id": "it_choice_s_2001704_ERR_PRESENT_ARE",
       "options": [
         {
-          "correct": true,
-          "text": "Io amo questo lavoro."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ARE",
           "text": "Io amiamo questo lavoro."
+        },
+        {
+          "correct": true,
+          "text": "Io amo questo lavoro."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -22493,10 +22830,10 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
+        "amo",
         "Io",
-        "lavoro.",
         "questo",
-        "amo"
+        "lavoro."
       ],
       "type": "reorder"
     },
@@ -22504,14 +22841,14 @@
       "id": "it_choice_s_2796586_ERR_PRESENT_ARE",
       "options": [
         {
+          "correct": true,
+          "text": "Lui canta molto bene."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ARE",
           "text": "Lui cantano molto bene."
-        },
-        {
-          "correct": true,
-          "text": "Lui canta molto bene."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -22541,8 +22878,54 @@
       "tokens": [
         "bene.",
         "molto",
-        "canta",
-        "Lui"
+        "Lui",
+        "canta"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_5119223_ERR_PRESENT_ARE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ARE",
+          "text": "Lei parlano tre lingue."
+        },
+        {
+          "correct": true,
+          "text": "Lei parla tre lingue."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5119223",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answer": [
+        "Lei",
+        "parla",
+        "tre",
+        "lingue."
+      ],
+      "id": "it_reorder_s_5119223_ERR_PRESENT_ARE",
+      "prompt_es": "Ordena las palabras: «Ella habla tres idiomas.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5119223",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "tokens": [
+        "tre",
+        "lingue.",
+        "Lei",
+        "parla"
       ],
       "type": "reorder"
     },
@@ -22585,10 +22968,56 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
-        "suona",
         "la",
-        "Lei",
-        "chitarra."
+        "suona",
+        "chitarra.",
+        "Lei"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1003044_ERR_PRESENT_ARE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ARE",
+          "text": "Lui parlano dieci lingue."
+        },
+        {
+          "correct": true,
+          "text": "Lui parla dieci lingue."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1003044",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answer": [
+        "Lui",
+        "parla",
+        "dieci",
+        "lingue."
+      ],
+      "id": "it_reorder_s_1003044_ERR_PRESENT_ARE",
+      "prompt_es": "Ordena las palabras: «Habla diez lenguas.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1003044",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "tokens": [
+        "Lui",
+        "dieci",
+        "parla",
+        "lingue."
       ],
       "type": "reorder"
     },
@@ -22596,14 +23025,14 @@
       "id": "it_choice_s_2315649_ERR_PRESENT_ARE",
       "options": [
         {
+          "correct": true,
+          "text": "Lei parla il filippino?"
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ARE",
           "text": "Lei parlano il filippino?"
-        },
-        {
-          "correct": true,
-          "text": "Lei parla il filippino?"
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -22633,8 +23062,69 @@
       "tokens": [
         "parla",
         "Lei",
-        "filippino?",
-        "il"
+        "il",
+        "filippino?"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_2714088_ERR_PRESENT_ARE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ARE",
+          "text": "Io non parliamo irlandese."
+        },
+        {
+          "correct": true,
+          "text": "Io non parlo irlandese."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2714088",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "parlo"
+      ],
+      "hint_es": "No hablo irlandés.",
+      "id": "it_cloze_s_2714088_ERR_PRESENT_ARE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2714088",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "text": "Io non ___ irlandese.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "non",
+        "parlo",
+        "irlandese."
+      ],
+      "id": "it_reorder_s_2714088_ERR_PRESENT_ARE",
+      "prompt_es": "Ordena las palabras: «No hablo irlandés.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2714088",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "tokens": [
+        "non",
+        "irlandese.",
+        "Io",
+        "parlo"
       ],
       "type": "reorder"
     },
@@ -22694,10 +23184,10 @@
       ],
       "tokens": [
         "abito",
+        "questa",
         "in",
-        "Io",
         "via.",
-        "questa"
+        "Io"
       ],
       "type": "reorder"
     },
@@ -22755,9 +23245,9 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
-        "di",
-        "musica.",
         "parlano",
+        "musica.",
+        "di",
         "Loro"
       ],
       "type": "reorder"
@@ -22801,10 +23291,10 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
-        "dieci",
+        "Lei",
         "lingue.",
-        "parla",
-        "Lei"
+        "dieci",
+        "parla"
       ],
       "type": "reorder"
     },
@@ -22847,10 +23337,10 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
+        "porta",
         "occhiali.",
         "Lui",
-        "gli",
-        "porta"
+        "gli"
       ],
       "type": "reorder"
     },
@@ -22896,9 +23386,9 @@
       "tokens": [
         "a",
         "andare",
-        "teatro.",
+        "Lui",
         "ama",
-        "Lui"
+        "teatro."
       ],
       "type": "reorder"
     },
@@ -22956,10 +23446,56 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
-        "con",
-        "Loro",
         "Marie.",
-        "lavorano"
+        "lavorano",
+        "con",
+        "Loro"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_622120_ERR_PRESENT_ARE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Lui parla cinque lingue."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ARE",
+          "text": "Lui parlano cinque lingue."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_622120",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answer": [
+        "Lui",
+        "parla",
+        "cinque",
+        "lingue."
+      ],
+      "id": "it_reorder_s_622120_ERR_PRESENT_ARE",
+      "prompt_es": "Ordena las palabras: «Él habla cinco idiomas.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_622120",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "tokens": [
+        "cinque",
+        "parla",
+        "Lui",
+        "lingue."
       ],
       "type": "reorder"
     },
@@ -22967,14 +23503,14 @@
       "id": "it_choice_s_3827503_ERR_PRESENT_ARE",
       "options": [
         {
-          "correct": true,
-          "text": "Io parlo molto velocemente."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ARE",
           "text": "Io parliamo molto velocemente."
+        },
+        {
+          "correct": true,
+          "text": "Io parlo molto velocemente."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -23017,10 +23553,10 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
-        "molto",
         "velocemente.",
         "parlo",
-        "Io"
+        "Io",
+        "molto"
       ],
       "type": "reorder"
     },
@@ -23028,14 +23564,14 @@
       "id": "it_choice_s_5399318_ERR_PRESENT_ARE",
       "options": [
         {
+          "correct": true,
+          "text": "Io non ricordo esattamente."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ARE",
           "text": "Io non ricordiamo esattamente."
-        },
-        {
-          "correct": true,
-          "text": "Io non ricordo esattamente."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -23078,10 +23614,10 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
+        "non",
         "Io",
-        "ricordo",
         "esattamente.",
-        "non"
+        "ricordo"
       ],
       "type": "reorder"
     },
@@ -23089,14 +23625,14 @@
       "id": "it_choice_s_4642906_ERR_PRESENT_ARE",
       "options": [
         {
-          "correct": true,
-          "text": "Lui parla inglese e tedesco."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ARE",
           "text": "Lui parlano inglese e tedesco."
+        },
+        {
+          "correct": true,
+          "text": "Lui parla inglese e tedesco."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -23125,11 +23661,59 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
+        "inglese",
+        "tedesco.",
         "Lui",
         "e",
-        "tedesco.",
-        "parla",
-        "inglese"
+        "parla"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_5073572_ERR_PRESENT_ARE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Io amo questa musica romantica."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ARE",
+          "text": "Io amiamo questa musica romantica."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5073572",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answer": [
+        "Io",
+        "amo",
+        "questa",
+        "musica",
+        "romantica."
+      ],
+      "id": "it_reorder_s_5073572_ERR_PRESENT_ARE",
+      "prompt_es": "Ordena las palabras: «Me encanta esta música romántica.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5073572",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "tokens": [
+        "romantica.",
+        "questa",
+        "musica",
+        "Io",
+        "amo"
       ],
       "type": "reorder"
     },
@@ -23174,12 +23758,12 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
+        "la",
+        "parla",
+        "nostra",
         "non",
         "lingua.",
-        "parla",
-        "la",
-        "Lei",
-        "nostra"
+        "Lei"
       ],
       "type": "reorder"
     },
@@ -23224,11 +23808,59 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
-        "nel",
-        "non",
         "quartiere.",
-        "mio",
+        "nel",
         "Lui",
+        "mio",
+        "abita",
+        "non"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_719220_ERR_PRESENT_ARE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ARE",
+          "text": "Lei non abitano vicino all'ufficio."
+        },
+        {
+          "correct": true,
+          "text": "Lei non abita vicino all'ufficio."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_719220",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answer": [
+        "Lei",
+        "non",
+        "abita",
+        "vicino",
+        "all'ufficio."
+      ],
+      "id": "it_reorder_s_719220_ERR_PRESENT_ARE",
+      "prompt_es": "Ordena las palabras: «Ella no vive cerca de la oficina.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_719220",
+      "target_error_codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "tokens": [
+        "non",
+        "all'ufficio.",
+        "Lei",
+        "vicino",
         "abita"
       ],
       "type": "reorder"
@@ -23237,14 +23869,14 @@
       "id": "it_choice_s_993617_ERR_PRESENT_ARE",
       "options": [
         {
+          "correct": true,
+          "text": "Loro abitano in una casa affittata."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ARE",
           "text": "Loro abitan in una casa affittata."
-        },
-        {
-          "correct": true,
-          "text": "Loro abitano in una casa affittata."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -23289,12 +23921,12 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
-        "in",
         "una",
-        "abitano",
         "casa",
+        "Loro",
         "affittata.",
-        "Loro"
+        "in",
+        "abitano"
       ],
       "type": "reorder"
     },
@@ -23302,14 +23934,14 @@
       "id": "it_choice_s_4166822_ERR_PRESENT_ARE",
       "options": [
         {
-          "correct": true,
-          "text": "Loro abitano lontano dall'aeroporto."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ARE",
           "text": "Loro abitan lontano dall'aeroporto."
+        },
+        {
+          "correct": true,
+          "text": "Loro abitano lontano dall'aeroporto."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -23352,10 +23984,10 @@
         "ERR_PRESENT_ARE"
       ],
       "tokens": [
-        "lontano",
-        "Loro",
+        "abitano",
         "dall'aeroporto.",
-        "abitano"
+        "lontano",
+        "Loro"
       ],
       "type": "reorder"
     }
@@ -23545,17 +24177,200 @@
       "type": "reorder"
     },
     {
-      "id": "it_choice_s_724510_ERR_PRESENT_ERE_IRE",
+      "id": "it_choice_s_1311899_ERR_PRESENT_ERE_IRE",
       "options": [
         {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ERE_IRE",
-          "text": "Lui leggono l'arabo."
+          "text": "Lei vivono a Londra."
         },
         {
           "correct": true,
+          "text": "Lei vive a Londra."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1311899",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "vive"
+      ],
+      "hint_es": "Ella vive en Londres.",
+      "id": "it_cloze_s_1311899_ERR_PRESENT_ERE_IRE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1311899",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "text": "Lei ___ a Londra.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Lei",
+        "vive",
+        "a",
+        "Londra."
+      ],
+      "id": "it_reorder_s_1311899_ERR_PRESENT_ERE_IRE",
+      "prompt_es": "Ordena las palabras: «Ella vive en Londres.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1311899",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "tokens": [
+        "Lei",
+        "vive",
+        "Londra.",
+        "a"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_2927168_ERR_PRESENT_ERE_IRE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Lei apre la porta."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ERE_IRE",
+          "text": "Lei aprono la porta."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2927168",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "apre"
+      ],
+      "hint_es": "Ella abre la puerta.",
+      "id": "it_cloze_s_2927168_ERR_PRESENT_ERE_IRE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2927168",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "text": "Lei ___ la porta.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Lei",
+        "apre",
+        "la",
+        "porta."
+      ],
+      "id": "it_reorder_s_2927168_ERR_PRESENT_ERE_IRE",
+      "prompt_es": "Ordena las palabras: «Ella abre la puerta.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2927168",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "tokens": [
+        "apre",
+        "la",
+        "porta.",
+        "Lei"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_4465190_ERR_PRESENT_ERE_IRE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ERE_IRE",
+          "text": "Io vediamo la corona."
+        },
+        {
+          "correct": true,
+          "text": "Io vedo la corona."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4465190",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "vedo"
+      ],
+      "hint_es": "Veo la corona.",
+      "id": "it_cloze_s_4465190_ERR_PRESENT_ERE_IRE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4465190",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "text": "Io ___ la corona.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "vedo",
+        "la",
+        "corona."
+      ],
+      "id": "it_reorder_s_4465190_ERR_PRESENT_ERE_IRE",
+      "prompt_es": "Ordena las palabras: «Veo la corona.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4465190",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "tokens": [
+        "Io",
+        "corona.",
+        "la",
+        "vedo"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_724510_ERR_PRESENT_ERE_IRE",
+      "options": [
+        {
+          "correct": true,
           "text": "Lui legge l'arabo."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ERE_IRE",
+          "text": "Lui leggono l'arabo."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -23598,8 +24413,8 @@
       ],
       "tokens": [
         "l'arabo.",
-        "legge",
-        "Lui"
+        "Lui",
+        "legge"
       ],
       "type": "reorder"
     },
@@ -23607,14 +24422,14 @@
       "id": "it_choice_s_4465187_ERR_PRESENT_ERE_IRE",
       "options": [
         {
-          "correct": true,
-          "text": "Io vedo una corona."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ERE_IRE",
           "text": "Io vediamo una corona."
+        },
+        {
+          "correct": true,
+          "text": "Io vedo una corona."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -23657,10 +24472,132 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "tokens": [
+        "corona.",
         "una",
-        "Io",
         "vedo",
-        "corona."
+        "Io"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_960343_ERR_PRESENT_ERE_IRE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Io non leggo libri."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ERE_IRE",
+          "text": "Io non leggiamo libri."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_960343",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "leggo"
+      ],
+      "hint_es": "No leo libros.",
+      "id": "it_cloze_s_960343_ERR_PRESENT_ERE_IRE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_960343",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "text": "Io non ___ libri.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "non",
+        "leggo",
+        "libri."
+      ],
+      "id": "it_reorder_s_960343_ERR_PRESENT_ERE_IRE",
+      "prompt_es": "Ordena las palabras: «No leo libros.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_960343",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "tokens": [
+        "leggo",
+        "libri.",
+        "Io",
+        "non"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1324837_ERR_PRESENT_ERE_IRE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ERE_IRE",
+          "text": "Lui vivono in Marocco."
+        },
+        {
+          "correct": true,
+          "text": "Lui vive in Marocco."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1324837",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "vive"
+      ],
+      "hint_es": "Él vive en Marruecos.",
+      "id": "it_cloze_s_1324837_ERR_PRESENT_ERE_IRE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1324837",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "text": "Lui ___ in Marocco.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Lui",
+        "vive",
+        "in",
+        "Marocco."
+      ],
+      "id": "it_reorder_s_1324837_ERR_PRESENT_ERE_IRE",
+      "prompt_es": "Ordena las palabras: «Él vive en Marruecos.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1324837",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "tokens": [
+        "in",
+        "Lui",
+        "Marocco.",
+        "vive"
       ],
       "type": "reorder"
     },
@@ -23668,14 +24605,14 @@
       "id": "it_choice_s_2019970_ERR_PRESENT_ERE_IRE",
       "options": [
         {
+          "correct": true,
+          "text": "Lui vive a Nagasaki."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ERE_IRE",
           "text": "Lui vivono a Nagasaki."
-        },
-        {
-          "correct": true,
-          "text": "Lui vive a Nagasaki."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -23718,10 +24655,10 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "tokens": [
-        "Nagasaki.",
+        "a",
         "vive",
         "Lui",
-        "a"
+        "Nagasaki."
       ],
       "type": "reorder"
     },
@@ -23729,14 +24666,14 @@
       "id": "it_choice_s_534944_ERR_PRESENT_ERE_IRE",
       "options": [
         {
-          "correct": true,
-          "text": "Lei vive a New York."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ERE_IRE",
           "text": "Lei vivono a New York."
+        },
+        {
+          "correct": true,
+          "text": "Lei vive a New York."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -23780,10 +24717,10 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "tokens": [
+        "Lei",
         "vive",
         "a",
         "York.",
-        "Lei",
         "New"
       ],
       "type": "reorder"
@@ -23792,14 +24729,14 @@
       "id": "it_choice_s_1872701_ERR_PRESENT_ERE_IRE",
       "options": [
         {
+          "correct": true,
+          "text": "Io leggo una lettera."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ERE_IRE",
           "text": "Io leggiamo una lettera."
-        },
-        {
-          "correct": true,
-          "text": "Io leggo una lettera."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -23843,9 +24780,9 @@
       ],
       "tokens": [
         "lettera.",
-        "Io",
         "leggo",
-        "una"
+        "una",
+        "Io"
       ],
       "type": "reorder"
     },
@@ -23853,14 +24790,14 @@
       "id": "it_choice_s_635700_ERR_PRESENT_ERE_IRE",
       "options": [
         {
-          "correct": true,
-          "text": "Lei non crede in Dio."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ERE_IRE",
           "text": "Lei non credono in Dio."
+        },
+        {
+          "correct": true,
+          "text": "Lei non crede in Dio."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -23904,11 +24841,11 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "tokens": [
+        "crede",
         "Dio.",
         "Lei",
-        "in",
         "non",
-        "crede"
+        "in"
       ],
       "type": "reorder"
     },
@@ -23916,14 +24853,14 @@
       "id": "it_choice_s_4465222_ERR_PRESENT_ERE_IRE",
       "options": [
         {
+          "correct": true,
+          "text": "Io vedo la mia corona."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ERE_IRE",
           "text": "Io vediamo la mia corona."
-        },
-        {
-          "correct": true,
-          "text": "Io vedo la mia corona."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -23967,11 +24904,72 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "tokens": [
-        "mia",
         "Io",
-        "vedo",
+        "mia",
         "la",
-        "corona."
+        "corona.",
+        "vedo"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1572986_ERR_PRESENT_ERE_IRE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ERE_IRE",
+          "text": "Lui scrivono una lettera."
+        },
+        {
+          "correct": true,
+          "text": "Lui scrive una lettera."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1572986",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "scrive"
+      ],
+      "hint_es": "Él escribe una carta.",
+      "id": "it_cloze_s_1572986_ERR_PRESENT_ERE_IRE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1572986",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "text": "Lui ___ una lettera.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Lui",
+        "scrive",
+        "una",
+        "lettera."
+      ],
+      "id": "it_reorder_s_1572986_ERR_PRESENT_ERE_IRE",
+      "prompt_es": "Ordena las palabras: «Él escribe una carta.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1572986",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "tokens": [
+        "lettera.",
+        "una",
+        "Lui",
+        "scrive"
       ],
       "type": "reorder"
     },
@@ -24029,10 +25027,10 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "tokens": [
+        "ipocrisia.",
         "tanta",
-        "vedo",
         "Io",
-        "ipocrisia."
+        "vedo"
       ],
       "type": "reorder"
     },
@@ -24090,10 +25088,134 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "tokens": [
-        "francese.",
-        "capisce",
+        "il",
         "Lui",
-        "il"
+        "francese.",
+        "capisce"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_2681907_ERR_PRESENT_ERE_IRE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Io non capisco l'inglese."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ERE_IRE",
+          "text": "Io non capiamo l'inglese."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2681907",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "capisco"
+      ],
+      "hint_es": "No entiendo inglés.",
+      "id": "it_cloze_s_2681907_ERR_PRESENT_ERE_IRE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2681907",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "text": "Io non ___ l'inglese.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "non",
+        "capisco",
+        "l'inglese."
+      ],
+      "id": "it_reorder_s_2681907_ERR_PRESENT_ERE_IRE",
+      "prompt_es": "Ordena las palabras: «No entiendo inglés.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2681907",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "tokens": [
+        "capisco",
+        "Io",
+        "l'inglese.",
+        "non"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_3554225_ERR_PRESENT_ERE_IRE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ERE_IRE",
+          "text": "Io scriviamo ciò che voglio."
+        },
+        {
+          "correct": true,
+          "text": "Io scrivo ciò che voglio."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3554225",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "scrivo"
+      ],
+      "hint_es": "Yo escribo lo que quiero.",
+      "id": "it_cloze_s_3554225_ERR_PRESENT_ERE_IRE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3554225",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "text": "Io ___ ciò che voglio.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "scrivo",
+        "ciò",
+        "che",
+        "voglio."
+      ],
+      "id": "it_reorder_s_3554225_ERR_PRESENT_ERE_IRE",
+      "prompt_es": "Ordena las palabras: «Yo escribo lo que quiero.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3554225",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "tokens": [
+        "ciò",
+        "voglio.",
+        "Io",
+        "scrivo",
+        "che"
       ],
       "type": "reorder"
     },
@@ -24152,11 +25274,11 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "tokens": [
-        "notizia.",
         "capisco",
-        "la",
         "Io",
-        "non"
+        "la",
+        "non",
+        "notizia."
       ],
       "type": "reorder"
     },
@@ -24214,10 +25336,10 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "tokens": [
-        "Lui",
-        "sempre",
         "prende",
-        "appunti."
+        "appunti.",
+        "Lui",
+        "sempre"
       ],
       "type": "reorder"
     },
@@ -24277,8 +25399,8 @@
       "tokens": [
         "risponde",
         "Lei",
-        "domande?",
-        "alle"
+        "alle",
+        "domande?"
       ],
       "type": "reorder"
     },
@@ -24338,12 +25460,12 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "tokens": [
+        "a",
         "Lui",
-        "casa",
-        "vive",
         "vicino",
+        "casa",
         "mia.",
-        "a"
+        "vive"
       ],
       "type": "reorder"
     },
@@ -24404,11 +25526,11 @@
       ],
       "tokens": [
         "New",
-        "York",
-        "Io",
-        "leggo",
         "Times.",
-        "il"
+        "leggo",
+        "il",
+        "Io",
+        "York"
       ],
       "type": "reorder"
     },
@@ -24469,11 +25591,11 @@
       ],
       "tokens": [
         "in",
-        "cose",
-        "credi",
-        "del",
         "Tu",
-        "genere?"
+        "genere?",
+        "credi",
+        "cose",
+        "del"
       ],
       "type": "reorder"
     },
@@ -24533,10 +25655,10 @@
       ],
       "tokens": [
         "quartiere.",
-        "in",
+        "questo",
         "vive",
         "Lui",
-        "questo"
+        "in"
       ],
       "type": "reorder"
     },
@@ -24596,11 +25718,11 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "tokens": [
-        "in",
-        "casa",
-        "vivono",
         "grande.",
+        "casa",
+        "in",
         "una",
+        "vivono",
         "Loro"
       ],
       "type": "reorder"
@@ -24661,12 +25783,12 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "tokens": [
+        "sola",
         "un",
-        "in",
         "vive",
-        "appartamento.",
+        "in",
         "Lei",
-        "sola"
+        "appartamento."
       ],
       "type": "reorder"
     },
@@ -24726,12 +25848,77 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "tokens": [
+        "religione.",
         "Io",
         "sua",
         "non",
-        "religione.",
-        "credo",
-        "nella"
+        "nella",
+        "credo"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_993615_ERR_PRESENT_ERE_IRE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Loro vivono in una casa affittata."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ERE_IRE",
+          "text": "Loro viven in una casa affittata."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_993615",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "vivono"
+      ],
+      "hint_es": "Viven en una casa alquilada.",
+      "id": "it_cloze_s_993615_ERR_PRESENT_ERE_IRE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_993615",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "text": "Loro ___ in una casa affittata.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Loro",
+        "vivono",
+        "in",
+        "una",
+        "casa",
+        "affittata."
+      ],
+      "id": "it_reorder_s_993615_ERR_PRESENT_ERE_IRE",
+      "prompt_es": "Ordena las palabras: «Viven en una casa alquilada.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_993615",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "tokens": [
+        "vivono",
+        "affittata.",
+        "Loro",
+        "in",
+        "una",
+        "casa"
       ],
       "type": "reorder"
     },
@@ -24739,14 +25926,14 @@
       "id": "it_choice_s_10831886_ERR_PRESENT_ERE_IRE",
       "options": [
         {
-          "correct": true,
-          "text": "Loro vivono abbastanza in isolamento."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ERE_IRE",
           "text": "Loro viven abbastanza in isolamento."
+        },
+        {
+          "correct": true,
+          "text": "Loro vivono abbastanza in isolamento."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -24790,11 +25977,76 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "tokens": [
-        "in",
-        "abbastanza",
         "vivono",
         "Loro",
-        "isolamento."
+        "isolamento.",
+        "abbastanza",
+        "in"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1018003_ERR_PRESENT_ERE_IRE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Lei soffre di una malattia contagiosa."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ERE_IRE",
+          "text": "Lei soffrono di una malattia contagiosa."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1018003",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "soffre"
+      ],
+      "hint_es": "Ella padece una enfermedad contagiosa.",
+      "id": "it_cloze_s_1018003_ERR_PRESENT_ERE_IRE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1018003",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "text": "Lei ___ di una malattia contagiosa.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Lei",
+        "soffre",
+        "di",
+        "una",
+        "malattia",
+        "contagiosa."
+      ],
+      "id": "it_reorder_s_1018003_ERR_PRESENT_ERE_IRE",
+      "prompt_es": "Ordena las palabras: «Ella padece una enfermedad contagiosa.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1018003",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "tokens": [
+        "una",
+        "di",
+        "soffre",
+        "malattia",
+        "Lei",
+        "contagiosa."
       ],
       "type": "reorder"
     },
@@ -24854,12 +26106,12 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "tokens": [
+        "capisce",
         "non",
-        "moderna.",
-        "tecnologia",
         "Lui",
-        "la",
-        "capisce"
+        "tecnologia",
+        "moderna.",
+        "la"
       ],
       "type": "reorder"
     },
@@ -24919,12 +26171,79 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "tokens": [
+        "in",
+        "società",
         "viviamo",
         "una",
-        "in",
-        "Noi",
-        "società",
-        "democratica."
+        "democratica.",
+        "Noi"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1993864_ERR_PRESENT_ERE_IRE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ERE_IRE",
+          "text": "Lui vivono completamente da solo nei boschi."
+        },
+        {
+          "correct": true,
+          "text": "Lui vive completamente da solo nei boschi."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1993864",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "vive"
+      ],
+      "hint_es": "Él vive en el bosque solo.",
+      "id": "it_cloze_s_1993864_ERR_PRESENT_ERE_IRE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1993864",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "text": "Lui ___ completamente da solo nei boschi.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Lui",
+        "vive",
+        "completamente",
+        "da",
+        "solo",
+        "nei",
+        "boschi."
+      ],
+      "id": "it_reorder_s_1993864_ERR_PRESENT_ERE_IRE",
+      "prompt_es": "Ordena las palabras: «Él vive en el bosque solo.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1993864",
+      "target_error_codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "tokens": [
+        "da",
+        "solo",
+        "Lui",
+        "boschi.",
+        "vive",
+        "completamente",
+        "nei"
       ],
       "type": "reorder"
     }
@@ -25114,17 +26433,200 @@
       "type": "reorder"
     },
     {
-      "id": "it_choice_s_13594619_ERR_PRESENT_ESSERE_AVERE",
+      "id": "it_choice_s_1086273_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
-          "text": "Tu siete mia figlia."
+          "text": "Io abbiamo due libri."
         },
         {
           "correct": true,
+          "text": "Io ho due libri."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1086273",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "ho"
+      ],
+      "hint_es": "Tengo dos libros.",
+      "id": "it_cloze_s_1086273_ERR_PRESENT_ESSERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1086273",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "text": "Io ___ due libri.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "ho",
+        "due",
+        "libri."
+      ],
+      "id": "it_reorder_s_1086273_ERR_PRESENT_ESSERE_AVERE",
+      "prompt_es": "Ordena las palabras: «Tengo dos libros.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1086273",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "tokens": [
+        "Io",
+        "due",
+        "ho",
+        "libri."
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1452076_ERR_PRESENT_ESSERE_AVERE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Lui è mio padre."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ESSERE_AVERE",
+          "text": "Lui sono mio padre."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1452076",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "è"
+      ],
+      "hint_es": "Él es mi padre.",
+      "id": "it_cloze_s_1452076_ERR_PRESENT_ESSERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1452076",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "text": "Lui ___ mio padre.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Lui",
+        "è",
+        "mio",
+        "padre."
+      ],
+      "id": "it_reorder_s_1452076_ERR_PRESENT_ESSERE_AVERE",
+      "prompt_es": "Ordena las palabras: «Él es mi padre.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1452076",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "tokens": [
+        "Lui",
+        "padre.",
+        "è",
+        "mio"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1496045_ERR_PRESENT_ESSERE_AVERE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ESSERE_AVERE",
+          "text": "Io abbiamo un camion."
+        },
+        {
+          "correct": true,
+          "text": "Io ho un camion."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1496045",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "ho"
+      ],
+      "hint_es": "Tengo un camión.",
+      "id": "it_cloze_s_1496045_ERR_PRESENT_ESSERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1496045",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "text": "Io ___ un camion.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "ho",
+        "un",
+        "camion."
+      ],
+      "id": "it_reorder_s_1496045_ERR_PRESENT_ESSERE_AVERE",
+      "prompt_es": "Ordena las palabras: «Tengo un camión.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1496045",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "tokens": [
+        "Io",
+        "camion.",
+        "ho",
+        "un"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_13594619_ERR_PRESENT_ESSERE_AVERE",
+      "options": [
+        {
+          "correct": true,
           "text": "Tu sei mia figlia."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ESSERE_AVERE",
+          "text": "Tu siete mia figlia."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -25167,10 +26669,10 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
+        "Tu",
         "mia",
         "sei",
-        "figlia.",
-        "Tu"
+        "figlia."
       ],
       "type": "reorder"
     },
@@ -25178,14 +26680,14 @@
       "id": "it_choice_s_1984303_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
-          "correct": true,
-          "text": "Io ho un computer."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
           "text": "Io abbiamo un computer."
+        },
+        {
+          "correct": true,
+          "text": "Io ho un computer."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -25228,9 +26730,9 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
-        "computer.",
         "Io",
         "ho",
+        "computer.",
         "un"
       ],
       "type": "reorder"
@@ -25239,14 +26741,14 @@
       "id": "it_choice_s_2556071_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
+          "correct": true,
+          "text": "Io ho la piantina."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
           "text": "Io abbiamo la piantina."
-        },
-        {
-          "correct": true,
-          "text": "Io ho la piantina."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -25289,10 +26791,71 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
-        "Io",
-        "la",
         "ho",
+        "la",
+        "Io",
         "piantina."
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_3154113_ERR_PRESENT_ESSERE_AVERE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ESSERE_AVERE",
+          "text": "Io abbiamo molti libri."
+        },
+        {
+          "correct": true,
+          "text": "Io ho molti libri."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3154113",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "ho"
+      ],
+      "hint_es": "Tengo muchos libros.",
+      "id": "it_cloze_s_3154113_ERR_PRESENT_ESSERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3154113",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "text": "Io ___ molti libri.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "ho",
+        "molti",
+        "libri."
+      ],
+      "id": "it_reorder_s_3154113_ERR_PRESENT_ESSERE_AVERE",
+      "prompt_es": "Ordena las palabras: «Tengo muchos libros.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3154113",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "tokens": [
+        "ho",
+        "Io",
+        "molti",
+        "libri."
       ],
       "type": "reorder"
     },
@@ -25350,10 +26913,71 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
-        "è",
-        "una",
+        "ragazza.",
         "Lei",
-        "ragazza."
+        "una",
+        "è"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_4256076_ERR_PRESENT_ESSERE_AVERE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ESSERE_AVERE",
+          "text": "Lui sono il campione."
+        },
+        {
+          "correct": true,
+          "text": "Lui è il campione."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4256076",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "è"
+      ],
+      "hint_es": "Es el campeón.",
+      "id": "it_cloze_s_4256076_ERR_PRESENT_ESSERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4256076",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "text": "Lui ___ il campione.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Lui",
+        "è",
+        "il",
+        "campione."
+      ],
+      "id": "it_reorder_s_4256076_ERR_PRESENT_ESSERE_AVERE",
+      "prompt_es": "Ordena las palabras: «Es el campeón.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4256076",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "tokens": [
+        "il",
+        "Lui",
+        "campione.",
+        "è"
       ],
       "type": "reorder"
     },
@@ -25361,14 +26985,14 @@
       "id": "it_choice_s_7727077_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
+          "correct": true,
+          "text": "Io sono lo stesso."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
           "text": "Io siamo lo stesso."
-        },
-        {
-          "correct": true,
-          "text": "Io sono lo stesso."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -25412,9 +27036,9 @@
       ],
       "tokens": [
         "stesso.",
+        "Io",
         "lo",
-        "sono",
-        "Io"
+        "sono"
       ],
       "type": "reorder"
     },
@@ -25422,14 +27046,14 @@
       "id": "it_choice_s_2928259_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
-          "correct": true,
-          "text": "Lui ha pochi soldi."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
           "text": "Lui hanno pochi soldi."
+        },
+        {
+          "correct": true,
+          "text": "Lui ha pochi soldi."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -25457,10 +27081,10 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
-        "Lui",
         "soldi.",
-        "ha",
-        "pochi"
+        "pochi",
+        "Lui",
+        "ha"
       ],
       "type": "reorder"
     },
@@ -25468,14 +27092,14 @@
       "id": "it_choice_s_675684_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
+          "correct": true,
+          "text": "Tu sei il più alto."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
           "text": "Tu siete il più alto."
-        },
-        {
-          "correct": true,
-          "text": "Tu sei il più alto."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -25520,10 +27144,10 @@
       ],
       "tokens": [
         "sei",
-        "il",
         "alto.",
-        "Tu",
-        "più"
+        "il",
+        "più",
+        "Tu"
       ],
       "type": "reorder"
     },
@@ -25531,14 +27155,14 @@
       "id": "it_choice_s_1255726_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
-          "correct": true,
-          "text": "Lui è troppo vecchio."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
           "text": "Lui sono troppo vecchio."
+        },
+        {
+          "correct": true,
+          "text": "Lui è troppo vecchio."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -25581,10 +27205,10 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
-        "vecchio.",
-        "è",
         "Lui",
-        "troppo"
+        "troppo",
+        "vecchio.",
+        "è"
       ],
       "type": "reorder"
     },
@@ -25592,14 +27216,14 @@
       "id": "it_choice_s_2557059_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
+          "correct": true,
+          "text": "Tu non sei d'accordo?"
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
           "text": "Tu non siete d'accordo?"
-        },
-        {
-          "correct": true,
-          "text": "Tu non sei d'accordo?"
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -25642,10 +27266,10 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
-        "sei",
-        "Tu",
         "non",
-        "d'accordo?"
+        "d'accordo?",
+        "Tu",
+        "sei"
       ],
       "type": "reorder"
     },
@@ -25653,14 +27277,14 @@
       "id": "it_choice_s_4510989_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
-          "correct": true,
-          "text": "Loro sono miei amici."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
           "text": "Loro è miei amici."
+        },
+        {
+          "correct": true,
+          "text": "Loro sono miei amici."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -25703,10 +27327,10 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
-        "sono",
-        "miei",
+        "Loro",
         "amici.",
-        "Loro"
+        "miei",
+        "sono"
       ],
       "type": "reorder"
     },
@@ -25714,14 +27338,14 @@
       "id": "it_choice_s_1260451_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
+          "correct": true,
+          "text": "Lei è una vera strega!"
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
           "text": "Lei sono una vera strega!"
-        },
-        {
-          "correct": true,
-          "text": "Lei è una vera strega!"
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -25766,9 +27390,9 @@
       ],
       "tokens": [
         "vera",
+        "è",
         "Lei",
         "strega!",
-        "è",
         "una"
       ],
       "type": "reorder"
@@ -25777,14 +27401,14 @@
       "id": "it_choice_s_1271068_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
-          "correct": true,
-          "text": "Ora lei è in pericolo."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
           "text": "Ora lei sono in pericolo."
+        },
+        {
+          "correct": true,
+          "text": "Ora lei è in pericolo."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -25828,11 +27452,74 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
-        "è",
-        "lei",
         "Ora",
+        "lei",
+        "in",
         "pericolo.",
-        "in"
+        "è"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_714437_ERR_PRESENT_ESSERE_AVERE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Lui è un ragazzo alto."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ESSERE_AVERE",
+          "text": "Lui sono un ragazzo alto."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_714437",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "è"
+      ],
+      "hint_es": "Él es un chico alto.",
+      "id": "it_cloze_s_714437_ERR_PRESENT_ESSERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_714437",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "text": "Lui ___ un ragazzo alto.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Lui",
+        "è",
+        "un",
+        "ragazzo",
+        "alto."
+      ],
+      "id": "it_reorder_s_714437_ERR_PRESENT_ESSERE_AVERE",
+      "prompt_es": "Ordena las palabras: «Él es un chico alto.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_714437",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "tokens": [
+        "Lui",
+        "è",
+        "ragazzo",
+        "un",
+        "alto."
       ],
       "type": "reorder"
     },
@@ -25891,11 +27578,11 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
-        "degli",
-        "ho",
         "paura",
+        "ho",
+        "orsi.",
         "Io",
-        "orsi."
+        "degli"
       ],
       "type": "reorder"
     },
@@ -25954,11 +27641,11 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
-        "sono",
-        "Io",
         "esperto.",
+        "sono",
+        "non",
         "un",
-        "non"
+        "Io"
       ],
       "type": "reorder"
     },
@@ -26016,10 +27703,136 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
-        "amiche.",
         "molte",
+        "Voi",
         "avete",
-        "Voi"
+        "amiche."
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1253841_ERR_PRESENT_ESSERE_AVERE",
+      "options": [
+        {
+          "correct": true,
+          "text": "Tu non sei uno studente."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ESSERE_AVERE",
+          "text": "Tu non siete uno studente."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1253841",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "sei"
+      ],
+      "hint_es": "Tú no eres un estudiante.",
+      "id": "it_cloze_s_1253841_ERR_PRESENT_ESSERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1253841",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "text": "Tu non ___ uno studente.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Tu",
+        "non",
+        "sei",
+        "uno",
+        "studente."
+      ],
+      "id": "it_reorder_s_1253841_ERR_PRESENT_ESSERE_AVERE",
+      "prompt_es": "Ordena las palabras: «Tú no eres un estudiante.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1253841",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "tokens": [
+        "Tu",
+        "studente.",
+        "sei",
+        "non",
+        "uno"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_411802_ERR_PRESENT_ESSERE_AVERE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ESSERE_AVERE",
+          "text": "Lui sono un famoso pittore."
+        },
+        {
+          "correct": true,
+          "text": "Lui è un famoso pittore."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_411802",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "è"
+      ],
+      "hint_es": "Él es un pintor famoso.",
+      "id": "it_cloze_s_411802_ERR_PRESENT_ESSERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_411802",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "text": "Lui ___ un famoso pittore.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Lui",
+        "è",
+        "un",
+        "famoso",
+        "pittore."
+      ],
+      "id": "it_reorder_s_411802_ERR_PRESENT_ESSERE_AVERE",
+      "prompt_es": "Ordena las palabras: «Él es un pintor famoso.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_411802",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "tokens": [
+        "famoso",
+        "pittore.",
+        "un",
+        "è",
+        "Lui"
       ],
       "type": "reorder"
     },
@@ -26077,10 +27890,58 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
-        "sono",
-        "Io",
         "abbastanza",
+        "Io",
+        "sono",
         "stanco."
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1326288_ERR_PRESENT_ESSERE_AVERE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ESSERE_AVERE",
+          "text": "Lui hanno una grande famiglia."
+        },
+        {
+          "correct": true,
+          "text": "Lui ha una grande famiglia."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1326288",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answer": [
+        "Lui",
+        "ha",
+        "una",
+        "grande",
+        "famiglia."
+      ],
+      "id": "it_reorder_s_1326288_ERR_PRESENT_ESSERE_AVERE",
+      "prompt_es": "Ordena las palabras: «Él tiene una familia grande.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1326288",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "tokens": [
+        "Lui",
+        "famiglia.",
+        "ha",
+        "una",
+        "grande"
       ],
       "type": "reorder"
     },
@@ -26088,14 +27949,14 @@
       "id": "it_choice_s_7727092_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
+          "correct": true,
+          "text": "Loro sono tutti gli stessi."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
           "text": "Loro è tutti gli stessi."
-        },
-        {
-          "correct": true,
-          "text": "Loro sono tutti gli stessi."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -26139,11 +28000,11 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
-        "Loro",
-        "tutti",
-        "gli",
         "sono",
-        "stessi."
+        "stessi.",
+        "gli",
+        "Loro",
+        "tutti"
       ],
       "type": "reorder"
     },
@@ -26151,14 +28012,14 @@
       "id": "it_choice_s_1727425_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
-          "correct": true,
-          "text": "Noi siamo in una biblioteca."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
           "text": "Noi sono in una biblioteca."
+        },
+        {
+          "correct": true,
+          "text": "Noi siamo in una biblioteca."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -26202,11 +28063,124 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
+        "in",
+        "Noi",
         "una",
         "biblioteca.",
-        "Noi",
-        "in",
         "siamo"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_4297945_ERR_PRESENT_ESSERE_AVERE",
+      "options": [
+        {
+          "correct": true,
+          "text": "È perché tu sei una ragazza."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ESSERE_AVERE",
+          "text": "È perché tu siete una ragazza."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4297945",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "sei"
+      ],
+      "hint_es": "Eso es porque eres una chica.",
+      "id": "it_cloze_s_4297945_ERR_PRESENT_ESSERE_AVERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4297945",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "text": "È perché tu ___ una ragazza.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "È",
+        "perché",
+        "tu",
+        "sei",
+        "una",
+        "ragazza."
+      ],
+      "id": "it_reorder_s_4297945_ERR_PRESENT_ESSERE_AVERE",
+      "prompt_es": "Ordena las palabras: «Eso es porque eres una chica.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4297945",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "tokens": [
+        "sei",
+        "ragazza.",
+        "una",
+        "perché",
+        "tu",
+        "È"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_2028803_ERR_PRESENT_ESSERE_AVERE",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_ESSERE_AVERE",
+          "text": "Lui hanno delle strane abitudini."
+        },
+        {
+          "correct": true,
+          "text": "Lui ha delle strane abitudini."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2028803",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answer": [
+        "Lui",
+        "ha",
+        "delle",
+        "strane",
+        "abitudini."
+      ],
+      "id": "it_reorder_s_2028803_ERR_PRESENT_ESSERE_AVERE",
+      "prompt_es": "Ordena las palabras: «Él tiene extrañas costumbres.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2028803",
+      "target_error_codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "tokens": [
+        "strane",
+        "Lui",
+        "delle",
+        "ha",
+        "abitudini."
       ],
       "type": "reorder"
     },
@@ -26214,14 +28188,14 @@
       "id": "it_choice_s_8037532_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
+          "correct": true,
+          "text": "Io ho bisogno di più caffeina."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
           "text": "Io abbiamo bisogno di più caffeina."
-        },
-        {
-          "correct": true,
-          "text": "Io ho bisogno di più caffeina."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -26266,12 +28240,12 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
-        "Io",
         "ho",
         "più",
-        "bisogno",
         "di",
-        "caffeina."
+        "bisogno",
+        "caffeina.",
+        "Io"
       ],
       "type": "reorder"
     },
@@ -26279,14 +28253,14 @@
       "id": "it_choice_s_1679179_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
-          "correct": true,
-          "text": "Lei è una ragazza intelligente."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
           "text": "Lei sono una ragazza intelligente."
+        },
+        {
+          "correct": true,
+          "text": "Lei è una ragazza intelligente."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -26330,11 +28304,11 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
-        "è",
-        "Lei",
         "una",
+        "è",
+        "ragazza",
         "intelligente.",
-        "ragazza"
+        "Lei"
       ],
       "type": "reorder"
     },
@@ -26342,14 +28316,14 @@
       "id": "it_choice_s_3309704_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
+          "correct": true,
+          "text": "Lui ha una macchina giapponese."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
           "text": "Lui hanno una macchina giapponese."
-        },
-        {
-          "correct": true,
-          "text": "Lui ha una macchina giapponese."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -26378,11 +28352,11 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "tokens": [
-        "macchina",
-        "una",
-        "ha",
+        "giapponese.",
         "Lui",
-        "giapponese."
+        "ha",
+        "macchina",
+        "una"
       ],
       "type": "reorder"
     },
@@ -26390,14 +28364,14 @@
       "id": "it_choice_s_1128428_ERR_PRESENT_ESSERE_AVERE",
       "options": [
         {
-          "correct": true,
-          "text": "Tutti noi abbiamo sogni e ambizioni."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_ESSERE_AVERE",
           "text": "Tutti noi ho sogni e ambizioni."
+        },
+        {
+          "correct": true,
+          "text": "Tutti noi abbiamo sogni e ambizioni."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -26443,11 +28417,11 @@
       ],
       "tokens": [
         "noi",
-        "ambizioni.",
-        "abbiamo",
-        "Tutti",
         "e",
-        "sogni"
+        "abbiamo",
+        "sogni",
+        "ambizioni.",
+        "Tutti"
       ],
       "type": "reorder"
     }
@@ -26513,17 +28487,80 @@
       "type": "reorder"
     },
     {
-      "id": "it_choice_s_4204662_ERR_PRESENT_IRREGULAR",
+      "id": "it_choice_s_1687759_ERR_PRESENT_IRREGULAR",
       "options": [
         {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_IRREGULAR",
-          "text": "Io non sappiamo niente."
+          "text": "Io sappiamo che lei sa."
         },
         {
           "correct": true,
+          "text": "Io so che lei sa."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1687759",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "so"
+      ],
+      "hint_es": "Sé que ella sabe.",
+      "id": "it_cloze_s_1687759_ERR_PRESENT_IRREGULAR",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1687759",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "text": "Io ___ che lei sa.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "so",
+        "che",
+        "lei",
+        "sa."
+      ],
+      "id": "it_reorder_s_1687759_ERR_PRESENT_IRREGULAR",
+      "prompt_es": "Ordena las palabras: «Sé que ella sabe.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1687759",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "tokens": [
+        "lei",
+        "sa.",
+        "so",
+        "che",
+        "Io"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_4204662_ERR_PRESENT_IRREGULAR",
+      "options": [
+        {
+          "correct": true,
           "text": "Io non so niente."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_IRREGULAR",
+          "text": "Io non sappiamo niente."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -26566,10 +28603,73 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
+        "Io",
         "niente.",
         "non",
-        "Io",
         "so"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_2968348_ERR_PRESENT_IRREGULAR",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_IRREGULAR",
+          "text": "Io stiamo da mia zia."
+        },
+        {
+          "correct": true,
+          "text": "Io sto da mia zia."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2968348",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "sto"
+      ],
+      "hint_es": "Estoy en casa de mi tía.",
+      "id": "it_cloze_s_2968348_ERR_PRESENT_IRREGULAR",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2968348",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "text": "Io ___ da mia zia.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "sto",
+        "da",
+        "mia",
+        "zia."
+      ],
+      "id": "it_reorder_s_2968348_ERR_PRESENT_IRREGULAR",
+      "prompt_es": "Ordena las palabras: «Estoy en casa de mi tía.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2968348",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "tokens": [
+        "Io",
+        "zia.",
+        "mia",
+        "sto",
+        "da"
       ],
       "type": "reorder"
     },
@@ -26628,11 +28728,72 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "Io",
-        "tuo",
-        "nome.",
         "il",
-        "so"
+        "nome.",
+        "so",
+        "Io",
+        "tuo"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_2486027_ERR_PRESENT_IRREGULAR",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_IRREGULAR",
+          "text": "Noi so chi è."
+        },
+        {
+          "correct": true,
+          "text": "Noi sappiamo chi è."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2486027",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "sappiamo"
+      ],
+      "hint_es": "Nosotros sabemos quién es.",
+      "id": "it_cloze_s_2486027_ERR_PRESENT_IRREGULAR",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2486027",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "text": "Noi ___ chi è.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Noi",
+        "sappiamo",
+        "chi",
+        "è."
+      ],
+      "id": "it_reorder_s_2486027_ERR_PRESENT_IRREGULAR",
+      "prompt_es": "Ordena las palabras: «Nosotros sabemos quién es.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2486027",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "tokens": [
+        "Noi",
+        "sappiamo",
+        "è.",
+        "chi"
       ],
       "type": "reorder"
     },
@@ -26640,14 +28801,14 @@
       "id": "it_choice_s_1258226_ERR_PRESENT_IRREGULAR",
       "options": [
         {
+          "correct": true,
+          "text": "Lui sta nuotando ora."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_IRREGULAR",
           "text": "Lui stanno nuotando ora."
-        },
-        {
-          "correct": true,
-          "text": "Lui sta nuotando ora."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -26679,6 +28840,54 @@
         "nuotando",
         "Lui",
         "ora."
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_5432019_ERR_PRESENT_IRREGULAR",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_IRREGULAR",
+          "text": "Lei non sanno cosa fare."
+        },
+        {
+          "correct": true,
+          "text": "Lei non sa cosa fare."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5432019",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answer": [
+        "Lei",
+        "non",
+        "sa",
+        "cosa",
+        "fare."
+      ],
+      "id": "it_reorder_s_5432019_ERR_PRESENT_IRREGULAR",
+      "prompt_es": "Ordena las palabras: «No sabe lo que está haciendo.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5432019",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "tokens": [
+        "cosa",
+        "non",
+        "fare.",
+        "Lei",
+        "sa"
       ],
       "type": "reorder"
     },
@@ -26722,11 +28931,11 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "sa",
         "fare.",
+        "non",
+        "sa",
         "cosa",
-        "Lui",
-        "non"
+        "Lui"
       ],
       "type": "reorder"
     },
@@ -26784,8 +28993,8 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "vengo",
         "Io",
+        "vengo",
         "Giappone.",
         "dal"
       ],
@@ -26846,11 +29055,72 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "Tom.",
+        "andando",
         "sto",
         "Io",
-        "andando",
-        "con"
+        "con",
+        "Tom."
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1484065_ERR_PRESENT_IRREGULAR",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_IRREGULAR",
+          "text": "Io stiamo mangiando frutta."
+        },
+        {
+          "correct": true,
+          "text": "Io sto mangiando frutta."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1484065",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "sto"
+      ],
+      "hint_es": "Estoy comiendo fruta.",
+      "id": "it_cloze_s_1484065_ERR_PRESENT_IRREGULAR",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1484065",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "text": "Io ___ mangiando frutta.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "sto",
+        "mangiando",
+        "frutta."
+      ],
+      "id": "it_reorder_s_1484065_ERR_PRESENT_IRREGULAR",
+      "prompt_es": "Ordena las palabras: «Estoy comiendo fruta.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1484065",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "tokens": [
+        "Io",
+        "sto",
+        "frutta.",
+        "mangiando"
       ],
       "type": "reorder"
     },
@@ -26858,14 +29128,14 @@
       "id": "it_choice_s_2411939_ERR_PRESENT_IRREGULAR",
       "options": [
         {
+          "correct": true,
+          "text": "Io so che John è onesto."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_IRREGULAR",
           "text": "Io sappiamo che John è onesto."
-        },
-        {
-          "correct": true,
-          "text": "Io so che John è onesto."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -26910,12 +29180,77 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "che",
-        "è",
         "onesto.",
         "John",
+        "che",
+        "Io",
+        "è",
+        "so"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_2846518_ERR_PRESENT_IRREGULAR",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_IRREGULAR",
+          "text": "Io non sappiamo niente di Tom."
+        },
+        {
+          "correct": true,
+          "text": "Io non so niente di Tom."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2846518",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "so"
+      ],
+      "hint_es": "Yo no sé nada de Tom.",
+      "id": "it_cloze_s_2846518_ERR_PRESENT_IRREGULAR",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2846518",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "text": "Io non ___ niente di Tom.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "non",
         "so",
-        "Io"
+        "niente",
+        "di",
+        "Tom."
+      ],
+      "id": "it_reorder_s_2846518_ERR_PRESENT_IRREGULAR",
+      "prompt_es": "Ordena las palabras: «Yo no sé nada de Tom.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2846518",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "tokens": [
+        "Io",
+        "niente",
+        "so",
+        "di",
+        "non",
+        "Tom."
       ],
       "type": "reorder"
     },
@@ -26964,8 +29299,8 @@
         "a",
         "va",
         "piedi.",
-        "a",
-        "scuola"
+        "scuola",
+        "a"
       ],
       "type": "reorder"
     },
@@ -27024,11 +29359,11 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "dieci",
-        "tra",
         "minuti.",
+        "Io",
         "esco",
-        "Io"
+        "tra",
+        "dieci"
       ],
       "type": "reorder"
     },
@@ -27087,11 +29422,11 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "leggere",
+        "la",
         "musica?",
-        "Tu",
         "sai",
-        "la"
+        "leggere",
+        "Tu"
       ],
       "type": "reorder"
     },
@@ -27134,8 +29469,8 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "l'arabo.",
         "sta",
+        "l'arabo.",
         "insegnando",
         "Lui"
       ],
@@ -27196,11 +29531,76 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "ballare.",
         "Oggi",
-        "a",
+        "ballare.",
+        "noi",
         "andiamo",
-        "noi"
+        "a"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_3133978_ERR_PRESENT_IRREGULAR",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_IRREGULAR",
+          "text": "Io stiamo lavorando, ma tu no."
+        },
+        {
+          "correct": true,
+          "text": "Io sto lavorando, ma tu no."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3133978",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "sto"
+      ],
+      "hint_es": "Yo estoy trabajando pero tú no.",
+      "id": "it_cloze_s_3133978_ERR_PRESENT_IRREGULAR",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3133978",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "text": "Io ___ lavorando, ma tu no.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "sto",
+        "lavorando,",
+        "ma",
+        "tu",
+        "no."
+      ],
+      "id": "it_reorder_s_3133978_ERR_PRESENT_IRREGULAR",
+      "prompt_es": "Ordena las palabras: «Yo estoy trabajando pero tú no.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3133978",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "tokens": [
+        "ma",
+        "no.",
+        "sto",
+        "tu",
+        "lavorando,",
+        "Io"
       ],
       "type": "reorder"
     },
@@ -27208,14 +29608,14 @@
       "id": "it_choice_s_5692682_ERR_PRESENT_IRREGULAR",
       "options": [
         {
+          "correct": true,
+          "text": "Lei sta mangiando una pera."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_IRREGULAR",
           "text": "Lei stanno mangiando una pera."
-        },
-        {
-          "correct": true,
-          "text": "Lei sta mangiando una pera."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -27244,11 +29644,11 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "sta",
+        "mangiando",
         "una",
+        "sta",
         "pera.",
-        "Lei",
-        "mangiando"
+        "Lei"
       ],
       "type": "reorder"
     },
@@ -27256,14 +29656,14 @@
       "id": "it_choice_s_2016164_ERR_PRESENT_IRREGULAR",
       "options": [
         {
-          "correct": true,
-          "text": "Io sto leggendo una lettera."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_IRREGULAR",
           "text": "Io stiamo leggendo una lettera."
+        },
+        {
+          "correct": true,
+          "text": "Io sto leggendo una lettera."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -27307,11 +29707,120 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "lettera.",
-        "una",
         "leggendo",
-        "Io",
-        "sto"
+        "una",
+        "sto",
+        "lettera.",
+        "Io"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_7017593_ERR_PRESENT_IRREGULAR",
+      "options": [
+        {
+          "correct": true,
+          "text": "Lei sta mangiando spaghetti."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_IRREGULAR",
+          "text": "Lei stanno mangiando spaghetti."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_7017593",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answer": [
+        "Lei",
+        "sta",
+        "mangiando",
+        "spaghetti."
+      ],
+      "id": "it_reorder_s_7017593_ERR_PRESENT_IRREGULAR",
+      "prompt_es": "Ordena las palabras: «Ella se está comiendo espaguetis.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_7017593",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "tokens": [
+        "sta",
+        "mangiando",
+        "Lei",
+        "spaghetti."
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_758758_ERR_PRESENT_IRREGULAR",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_IRREGULAR",
+          "text": "Se lui vengono, vengo anch'io."
+        },
+        {
+          "correct": true,
+          "text": "Se lui viene, vengo anch'io."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_758758",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "viene"
+      ],
+      "hint_es": "Si él viene, yo también.",
+      "id": "it_cloze_s_758758_ERR_PRESENT_IRREGULAR",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_758758",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "text": "Se lui ___, vengo anch'io.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Se",
+        "lui",
+        "viene,",
+        "vengo",
+        "anch'io."
+      ],
+      "id": "it_reorder_s_758758_ERR_PRESENT_IRREGULAR",
+      "prompt_es": "Ordena las palabras: «Si él viene, yo también.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_758758",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "tokens": [
+        "vengo",
+        "viene,",
+        "anch'io.",
+        "Se",
+        "lui"
       ],
       "type": "reorder"
     },
@@ -27319,14 +29828,14 @@
       "id": "it_choice_s_1504380_ERR_PRESENT_IRREGULAR",
       "options": [
         {
+          "correct": true,
+          "text": "Domani io non vado al cinema."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_IRREGULAR",
           "text": "Domani io non andiamo al cinema."
-        },
-        {
-          "correct": true,
-          "text": "Domani io non vado al cinema."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -27371,12 +29880,75 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "al",
-        "non",
-        "Domani",
         "vado",
+        "Domani",
+        "non",
         "cinema.",
+        "al",
         "io"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1647793_ERR_PRESENT_IRREGULAR",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_IRREGULAR",
+          "text": "Noi sto piantando dei semi."
+        },
+        {
+          "correct": true,
+          "text": "Noi stiamo piantando dei semi."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1647793",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "stiamo"
+      ],
+      "hint_es": "Estamos plantando semillas.",
+      "id": "it_cloze_s_1647793_ERR_PRESENT_IRREGULAR",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1647793",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "text": "Noi ___ piantando dei semi.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Noi",
+        "stiamo",
+        "piantando",
+        "dei",
+        "semi."
+      ],
+      "id": "it_reorder_s_1647793_ERR_PRESENT_IRREGULAR",
+      "prompt_es": "Ordena las palabras: «Estamos plantando semillas.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1647793",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "tokens": [
+        "Noi",
+        "piantando",
+        "stiamo",
+        "dei",
+        "semi."
       ],
       "type": "reorder"
     },
@@ -27434,8 +30006,8 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "Naturalmente",
         "sto",
+        "Naturalmente",
         "scherzando!",
         "io"
       ],
@@ -27496,10 +30068,10 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "di",
-        "parlando",
-        "Loro",
         "musica.",
+        "Loro",
+        "parlando",
+        "di",
         "stanno"
       ],
       "type": "reorder"
@@ -27560,10 +30132,10 @@
       ],
       "tokens": [
         "Io",
-        "sto",
-        "proteggerti.",
+        "di",
         "cercando",
-        "di"
+        "sto",
+        "proteggerti."
       ],
       "type": "reorder"
     },
@@ -27607,10 +30179,10 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "colazione.",
-        "preparando",
         "la",
+        "preparando",
         "sta",
+        "colazione.",
         "Lei"
       ],
       "type": "reorder"
@@ -27734,12 +30306,12 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "sport",
+        "Io",
         "ogni",
+        "giorno.",
         "quasi",
         "faccio",
-        "giorno.",
-        "Io"
+        "sport"
       ],
       "type": "reorder"
     },
@@ -27783,11 +30355,76 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "mangiando",
         "degli",
-        "Lei",
         "spaghetti.",
+        "mangiando",
+        "Lei",
         "sta"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_3297612_ERR_PRESENT_IRREGULAR",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_IRREGULAR",
+          "text": "Io stiamo cercando una minigonna bianca!"
+        },
+        {
+          "correct": true,
+          "text": "Io sto cercando una minigonna bianca!"
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3297612",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "sto"
+      ],
+      "hint_es": "¡Yo estoy buscando una minifalda blanca!",
+      "id": "it_cloze_s_3297612_ERR_PRESENT_IRREGULAR",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3297612",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "text": "Io ___ cercando una minigonna bianca!",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "sto",
+        "cercando",
+        "una",
+        "minigonna",
+        "bianca!"
+      ],
+      "id": "it_reorder_s_3297612_ERR_PRESENT_IRREGULAR",
+      "prompt_es": "Ordena las palabras: «¡Yo estoy buscando una minifalda blanca!»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3297612",
+      "target_error_codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "tokens": [
+        "sto",
+        "una",
+        "Io",
+        "bianca!",
+        "minigonna",
+        "cercando"
       ],
       "type": "reorder"
     },
@@ -27795,14 +30432,14 @@
       "id": "it_choice_s_1584459_ERR_PRESENT_IRREGULAR",
       "options": [
         {
+          "correct": true,
+          "text": "Noi andiamo a pescare occasionalmente."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_IRREGULAR",
           "text": "Noi vado a pescare occasionalmente."
-        },
-        {
-          "correct": true,
-          "text": "Noi andiamo a pescare occasionalmente."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -27847,9 +30484,9 @@
       ],
       "tokens": [
         "occasionalmente.",
-        "pescare",
-        "a",
         "andiamo",
+        "a",
+        "pescare",
         "Noi"
       ],
       "type": "reorder"
@@ -27858,14 +30495,14 @@
       "id": "it_choice_s_3647103_ERR_PRESENT_IRREGULAR",
       "options": [
         {
-          "correct": true,
-          "text": "Noi stiamo facendo tutto il possibile."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_IRREGULAR",
           "text": "Noi sto facendo tutto il possibile."
+        },
+        {
+          "correct": true,
+          "text": "Noi stiamo facendo tutto il possibile."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -27910,12 +30547,12 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "tokens": [
-        "il",
         "possibile.",
+        "il",
         "Noi",
-        "tutto",
         "facendo",
-        "stiamo"
+        "stiamo",
+        "tutto"
       ],
       "type": "reorder"
     }
@@ -28105,17 +30742,78 @@
       "type": "reorder"
     },
     {
-      "id": "it_choice_s_1233789_ERR_PRESENT_MODAL",
+      "id": "it_choice_s_812434_ERR_PRESENT_MODAL",
       "options": [
         {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_MODAL",
-          "text": "Io vogliamo una chitarra."
+          "text": "Tu volete essere onesto."
         },
         {
           "correct": true,
+          "text": "Tu vuoi essere onesto."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_812434",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "vuoi"
+      ],
+      "hint_es": "Quieres ser honesto.",
+      "id": "it_cloze_s_812434_ERR_PRESENT_MODAL",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_812434",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "text": "Tu ___ essere onesto.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Tu",
+        "vuoi",
+        "essere",
+        "onesto."
+      ],
+      "id": "it_reorder_s_812434_ERR_PRESENT_MODAL",
+      "prompt_es": "Ordena las palabras: «Quieres ser honesto.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_812434",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "tokens": [
+        "onesto.",
+        "vuoi",
+        "Tu",
+        "essere"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1233789_ERR_PRESENT_MODAL",
+      "options": [
+        {
+          "correct": true,
           "text": "Io voglio una chitarra."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_MODAL",
+          "text": "Io vogliamo una chitarra."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -28158,10 +30856,10 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
-        "Io",
-        "una",
         "chitarra.",
-        "voglio"
+        "Io",
+        "voglio",
+        "una"
       ],
       "type": "reorder"
     },
@@ -28169,14 +30867,14 @@
       "id": "it_choice_s_2762217_ERR_PRESENT_MODAL",
       "options": [
         {
-          "correct": true,
-          "text": "Io non voglio il denaro."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_MODAL",
           "text": "Io non vogliamo il denaro."
+        },
+        {
+          "correct": true,
+          "text": "Io non voglio il denaro."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -28222,9 +30920,9 @@
       "tokens": [
         "denaro.",
         "il",
+        "Io",
         "voglio",
-        "non",
-        "Io"
+        "non"
       ],
       "type": "reorder"
     },
@@ -28232,14 +30930,14 @@
       "id": "it_choice_s_3847022_ERR_PRESENT_MODAL",
       "options": [
         {
+          "correct": true,
+          "text": "Tu vuoi solo la potenza."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_MODAL",
           "text": "Tu volete solo la potenza."
-        },
-        {
-          "correct": true,
-          "text": "Tu vuoi solo la potenza."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -28283,11 +30981,11 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
-        "solo",
-        "potenza.",
         "la",
         "vuoi",
-        "Tu"
+        "potenza.",
+        "Tu",
+        "solo"
       ],
       "type": "reorder"
     },
@@ -28295,14 +30993,14 @@
       "id": "it_choice_s_4703335_ERR_PRESENT_MODAL",
       "options": [
         {
-          "correct": true,
-          "text": "Noi non vogliamo questa."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_MODAL",
           "text": "Noi non voglio questa."
+        },
+        {
+          "correct": true,
+          "text": "Noi non vogliamo questa."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -28345,10 +31043,10 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
-        "non",
-        "Noi",
         "questa.",
-        "vogliamo"
+        "vogliamo",
+        "Noi",
+        "non"
       ],
       "type": "reorder"
     },
@@ -28356,14 +31054,14 @@
       "id": "it_choice_s_736718_ERR_PRESENT_MODAL",
       "options": [
         {
+          "correct": true,
+          "text": "Io voglio essere onesto."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_MODAL",
           "text": "Io vogliamo essere onesto."
-        },
-        {
-          "correct": true,
-          "text": "Io voglio essere onesto."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -28406,10 +31104,10 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
-        "Io",
         "voglio",
         "onesto.",
-        "essere"
+        "essere",
+        "Io"
       ],
       "type": "reorder"
     },
@@ -28417,14 +31115,14 @@
       "id": "it_choice_s_7728791_ERR_PRESENT_MODAL",
       "options": [
         {
-          "correct": true,
-          "text": "Noi vogliamo la libertà."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_MODAL",
           "text": "Noi voglio la libertà."
+        },
+        {
+          "correct": true,
+          "text": "Noi vogliamo la libertà."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -28467,10 +31165,71 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
-        "libertà.",
-        "la",
         "vogliamo",
-        "Noi"
+        "libertà.",
+        "Noi",
+        "la"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_5252118_ERR_PRESENT_MODAL",
+      "options": [
+        {
+          "correct": true,
+          "text": "Io non voglio ingannarti."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_MODAL",
+          "text": "Io non vogliamo ingannarti."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5252118",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "voglio"
+      ],
+      "hint_es": "No quiero engañarte.",
+      "id": "it_cloze_s_5252118_ERR_PRESENT_MODAL",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5252118",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "text": "Io non ___ ingannarti.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "non",
+        "voglio",
+        "ingannarti."
+      ],
+      "id": "it_reorder_s_5252118_ERR_PRESENT_MODAL",
+      "prompt_es": "Ordena las palabras: «No quiero engañarte.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5252118",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "tokens": [
+        "non",
+        "Io",
+        "ingannarti.",
+        "voglio"
       ],
       "type": "reorder"
     },
@@ -28529,11 +31288,74 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
-        "può",
-        "lui",
-        "Perché",
         "venire?",
-        "non"
+        "Perché",
+        "lui",
+        "non",
+        "può"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_2574881_ERR_PRESENT_MODAL",
+      "options": [
+        {
+          "correct": true,
+          "text": "Io voglio il suo rispetto."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_MODAL",
+          "text": "Io vogliamo il suo rispetto."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2574881",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "voglio"
+      ],
+      "hint_es": "Quiero su respeto.",
+      "id": "it_cloze_s_2574881_ERR_PRESENT_MODAL",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2574881",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "text": "Io ___ il suo rispetto.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "voglio",
+        "il",
+        "suo",
+        "rispetto."
+      ],
+      "id": "it_reorder_s_2574881_ERR_PRESENT_MODAL",
+      "prompt_es": "Ordena las palabras: «Quiero su respeto.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2574881",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "tokens": [
+        "Io",
+        "il",
+        "suo",
+        "voglio",
+        "rispetto."
       ],
       "type": "reorder"
     },
@@ -28541,14 +31363,14 @@
       "id": "it_choice_s_1295792_ERR_PRESENT_MODAL",
       "options": [
         {
-          "correct": true,
-          "text": "Io voglio andare a Seattle."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_MODAL",
           "text": "Io vogliamo andare a Seattle."
+        },
+        {
+          "correct": true,
+          "text": "Io voglio andare a Seattle."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -28592,11 +31414,11 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
-        "Io",
-        "a",
-        "voglio",
+        "andare",
         "Seattle.",
-        "andare"
+        "voglio",
+        "Io",
+        "a"
       ],
       "type": "reorder"
     },
@@ -28604,14 +31426,14 @@
       "id": "it_choice_s_1623104_ERR_PRESENT_MODAL",
       "options": [
         {
+          "correct": true,
+          "text": "Io voglio vivere in Italia."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_MODAL",
           "text": "Io vogliamo vivere in Italia."
-        },
-        {
-          "correct": true,
-          "text": "Io voglio vivere in Italia."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -28655,9 +31477,9 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
+        "Io",
         "vivere",
         "Italia.",
-        "Io",
         "in",
         "voglio"
       ],
@@ -28667,14 +31489,14 @@
       "id": "it_choice_s_2477543_ERR_PRESENT_MODAL",
       "options": [
         {
-          "correct": true,
-          "text": "Io voglio vivere nel paese."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_MODAL",
           "text": "Io vogliamo vivere nel paese."
+        },
+        {
+          "correct": true,
+          "text": "Io voglio vivere nel paese."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -28718,11 +31540,11 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
-        "Io",
-        "paese.",
         "vivere",
-        "voglio",
-        "nel"
+        "paese.",
+        "nel",
+        "Io",
+        "voglio"
       ],
       "type": "reorder"
     },
@@ -28730,14 +31552,14 @@
       "id": "it_choice_s_3014754_ERR_PRESENT_MODAL",
       "options": [
         {
+          "correct": true,
+          "text": "Io non voglio il tuo aiuto."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_MODAL",
           "text": "Io non vogliamo il tuo aiuto."
-        },
-        {
-          "correct": true,
-          "text": "Io non voglio il tuo aiuto."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -28782,12 +31604,12 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
-        "aiuto.",
-        "tuo",
         "voglio",
-        "il",
         "non",
-        "Io"
+        "il",
+        "Io",
+        "aiuto.",
+        "tuo"
       ],
       "type": "reorder"
     },
@@ -28795,14 +31617,14 @@
       "id": "it_choice_s_3485622_ERR_PRESENT_MODAL",
       "options": [
         {
-          "correct": true,
-          "text": "Io voglio rimanere da sola!"
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_MODAL",
           "text": "Io vogliamo rimanere da sola!"
+        },
+        {
+          "correct": true,
+          "text": "Io voglio rimanere da sola!"
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -28848,8 +31670,8 @@
       "tokens": [
         "voglio",
         "da",
-        "rimanere",
         "Io",
+        "rimanere",
         "sola!"
       ],
       "type": "reorder"
@@ -28858,14 +31680,14 @@
       "id": "it_choice_s_1454035_ERR_PRESENT_MODAL",
       "options": [
         {
+          "correct": true,
+          "text": "Noi possiamo solo insegnare."
+        },
+        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_MODAL",
           "text": "Noi posso solo insegnare."
-        },
-        {
-          "correct": true,
-          "text": "Noi possiamo solo insegnare."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -28908,9 +31730,9 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
-        "possiamo",
         "insegnare.",
         "solo",
+        "possiamo",
         "Noi"
       ],
       "type": "reorder"
@@ -28919,14 +31741,14 @@
       "id": "it_choice_s_1926329_ERR_PRESENT_MODAL",
       "options": [
         {
-          "correct": true,
-          "text": "Io voglio andare sulla luna."
-        },
-        {
           "correct": false,
           "distractor_kind": "morphological",
           "error_code": "ERR_PRESENT_MODAL",
           "text": "Io vogliamo andare sulla luna."
+        },
+        {
+          "correct": true,
+          "text": "Io voglio andare sulla luna."
         }
       ],
       "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -28971,10 +31793,73 @@
       ],
       "tokens": [
         "Io",
-        "andare",
         "voglio",
         "luna.",
+        "andare",
         "sulla"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_4347362_ERR_PRESENT_MODAL",
+      "options": [
+        {
+          "correct": true,
+          "text": "Io posso farmi un tatuaggio?"
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_MODAL",
+          "text": "Io possiamo farmi un tatuaggio?"
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4347362",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "posso"
+      ],
+      "hint_es": "¿Puedo hacerme un tatuaje?",
+      "id": "it_cloze_s_4347362_ERR_PRESENT_MODAL",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4347362",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "text": "Io ___ farmi un tatuaggio?",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "posso",
+        "farmi",
+        "un",
+        "tatuaggio?"
+      ],
+      "id": "it_reorder_s_4347362_ERR_PRESENT_MODAL",
+      "prompt_es": "Ordena las palabras: «¿Puedo hacerme un tatuaje?»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4347362",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "tokens": [
+        "un",
+        "posso",
+        "Io",
+        "tatuaggio?",
+        "farmi"
       ],
       "type": "reorder"
     },
@@ -29032,10 +31917,136 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
-        "devo",
         "studiare",
-        "Io",
-        "l'italiano."
+        "l'italiano.",
+        "devo",
+        "Io"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_7727142_ERR_PRESENT_MODAL",
+      "options": [
+        {
+          "correct": true,
+          "text": "Noi vogliamo la stessa cosa."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_MODAL",
+          "text": "Noi voglio la stessa cosa."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_7727142",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "vogliamo"
+      ],
+      "hint_es": "Queremos la misma cosa.",
+      "id": "it_cloze_s_7727142_ERR_PRESENT_MODAL",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_7727142",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "text": "Noi ___ la stessa cosa.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Noi",
+        "vogliamo",
+        "la",
+        "stessa",
+        "cosa."
+      ],
+      "id": "it_reorder_s_7727142_ERR_PRESENT_MODAL",
+      "prompt_es": "Ordena las palabras: «Queremos la misma cosa.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_7727142",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "tokens": [
+        "vogliamo",
+        "la",
+        "cosa.",
+        "Noi",
+        "stessa"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_1261696_ERR_PRESENT_MODAL",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_MODAL",
+          "text": "Lui vogliono una nuova macchina."
+        },
+        {
+          "correct": true,
+          "text": "Lui vuole una nuova macchina."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1261696",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "vuole"
+      ],
+      "hint_es": "Él quiere un coche nuevo.",
+      "id": "it_cloze_s_1261696_ERR_PRESENT_MODAL",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1261696",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "text": "Lui ___ una nuova macchina.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Lui",
+        "vuole",
+        "una",
+        "nuova",
+        "macchina."
+      ],
+      "id": "it_reorder_s_1261696_ERR_PRESENT_MODAL",
+      "prompt_es": "Ordena las palabras: «Él quiere un coche nuevo.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1261696",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "tokens": [
+        "vuole",
+        "nuova",
+        "una",
+        "Lui",
+        "macchina."
       ],
       "type": "reorder"
     },
@@ -29094,11 +32105,137 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
-        "vuole",
-        "sposare",
-        "Lui",
         "mia",
-        "figlia."
+        "Lui",
+        "figlia.",
+        "sposare",
+        "vuole"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_3388037_ERR_PRESENT_MODAL",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_MODAL",
+          "text": "Io non dobbiamo niente a nessuno."
+        },
+        {
+          "correct": true,
+          "text": "Io non devo niente a nessuno."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3388037",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "devo"
+      ],
+      "hint_es": "No le debo nada a nadie.",
+      "id": "it_cloze_s_3388037_ERR_PRESENT_MODAL",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3388037",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "text": "Io non ___ niente a nessuno.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "non",
+        "devo",
+        "niente",
+        "a",
+        "nessuno."
+      ],
+      "id": "it_reorder_s_3388037_ERR_PRESENT_MODAL",
+      "prompt_es": "Ordena las palabras: «No le debo nada a nadie.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3388037",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "tokens": [
+        "nessuno.",
+        "non",
+        "Io",
+        "devo",
+        "niente",
+        "a"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_14036523_ERR_PRESENT_MODAL",
+      "options": [
+        {
+          "correct": true,
+          "text": "Lui vuole un'automobile rossa."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_MODAL",
+          "text": "Lui vogliono un'automobile rossa."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_14036523",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "vuole"
+      ],
+      "hint_es": "Él quiere un coche rojo.",
+      "id": "it_cloze_s_14036523_ERR_PRESENT_MODAL",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_14036523",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "text": "Lui ___ un'automobile rossa.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Lui",
+        "vuole",
+        "un'automobile",
+        "rossa."
+      ],
+      "id": "it_reorder_s_14036523_ERR_PRESENT_MODAL",
+      "prompt_es": "Ordena las palabras: «Él quiere un coche rojo.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_14036523",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "tokens": [
+        "un'automobile",
+        "rossa.",
+        "Lui",
+        "vuole"
       ],
       "type": "reorder"
     },
@@ -29157,11 +32294,11 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
-        "vuole",
-        "una",
-        "essere",
         "cantante.",
-        "Lei"
+        "vuole",
+        "Lei",
+        "essere",
+        "una"
       ],
       "type": "reorder"
     },
@@ -29220,11 +32357,11 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
-        "possiamo",
         "lasciarli",
-        "Noi",
         "non",
-        "qui."
+        "Noi",
+        "qui.",
+        "possiamo"
       ],
       "type": "reorder"
     },
@@ -29284,10 +32421,140 @@
       ],
       "tokens": [
         "inglese.",
-        "parlare",
         "Io",
+        "parlare",
         "poter",
         "voglio"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_3783839_ERR_PRESENT_MODAL",
+      "options": [
+        {
+          "correct": true,
+          "text": "Io voglio un materasso ad acqua."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_MODAL",
+          "text": "Io vogliamo un materasso ad acqua."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3783839",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "voglio"
+      ],
+      "hint_es": "Yo quiero un colchón de agua.",
+      "id": "it_cloze_s_3783839_ERR_PRESENT_MODAL",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3783839",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "text": "Io ___ un materasso ad acqua.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "voglio",
+        "un",
+        "materasso",
+        "ad",
+        "acqua."
+      ],
+      "id": "it_reorder_s_3783839_ERR_PRESENT_MODAL",
+      "prompt_es": "Ordena las palabras: «Yo quiero un colchón de agua.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3783839",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "tokens": [
+        "acqua.",
+        "voglio",
+        "materasso",
+        "un",
+        "ad",
+        "Io"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_3626019_ERR_PRESENT_MODAL",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_MODAL",
+          "text": "Io non vogliamo studiare il tedesco."
+        },
+        {
+          "correct": true,
+          "text": "Io non voglio studiare il tedesco."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3626019",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "voglio"
+      ],
+      "hint_es": "No quiero estudiar alemán.",
+      "id": "it_cloze_s_3626019_ERR_PRESENT_MODAL",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3626019",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "text": "Io non ___ studiare il tedesco.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Io",
+        "non",
+        "voglio",
+        "studiare",
+        "il",
+        "tedesco."
+      ],
+      "id": "it_reorder_s_3626019_ERR_PRESENT_MODAL",
+      "prompt_es": "Ordena las palabras: «No quiero estudiar alemán.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3626019",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "tokens": [
+        "tedesco.",
+        "non",
+        "studiare",
+        "voglio",
+        "Io",
+        "il"
       ],
       "type": "reorder"
     },
@@ -29347,12 +32614,12 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
-        "verdure.",
-        "voglio",
         "Io",
         "mangiare",
-        "e",
-        "carne"
+        "carne",
+        "voglio",
+        "verdure.",
+        "e"
       ],
       "type": "reorder"
     },
@@ -29412,12 +32679,142 @@
         "ERR_PRESENT_MODAL"
       ],
       "tokens": [
+        "la",
         "mia",
-        "utilizzare",
         "bicicletta.",
-        "puoi",
+        "utilizzare",
         "Tu",
-        "la"
+        "puoi"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_5034579_ERR_PRESENT_MODAL",
+      "options": [
+        {
+          "correct": true,
+          "text": "Noi dobbiamo uscire da questa tempesta."
+        },
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_MODAL",
+          "text": "Noi devo uscire da questa tempesta."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5034579",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "dobbiamo"
+      ],
+      "hint_es": "Debemos salir de esta tempestad.",
+      "id": "it_cloze_s_5034579_ERR_PRESENT_MODAL",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5034579",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "text": "Noi ___ uscire da questa tempesta.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Noi",
+        "dobbiamo",
+        "uscire",
+        "da",
+        "questa",
+        "tempesta."
+      ],
+      "id": "it_reorder_s_5034579_ERR_PRESENT_MODAL",
+      "prompt_es": "Ordena las palabras: «Debemos salir de esta tempestad.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5034579",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "tokens": [
+        "questa",
+        "dobbiamo",
+        "Noi",
+        "tempesta.",
+        "da",
+        "uscire"
+      ],
+      "type": "reorder"
+    },
+    {
+      "id": "it_choice_s_5074038_ERR_PRESENT_MODAL",
+      "options": [
+        {
+          "correct": false,
+          "distractor_kind": "morphological",
+          "error_code": "ERR_PRESENT_MODAL",
+          "text": "Noi devo recuperare il tempo perso."
+        },
+        {
+          "correct": true,
+          "text": "Noi dobbiamo recuperare il tempo perso."
+        }
+      ],
+      "prompt_es": "¿Cuál es la frase correcta en italiano?",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5074038",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "type": "choice_l1_distractor"
+    },
+    {
+      "answers": [
+        "dobbiamo"
+      ],
+      "hint_es": "Tenemos que recuperar el tiempo perdido.",
+      "id": "it_cloze_s_5074038_ERR_PRESENT_MODAL",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5074038",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "text": "Noi ___ recuperare il tempo perso.",
+      "type": "cloze"
+    },
+    {
+      "answer": [
+        "Noi",
+        "dobbiamo",
+        "recuperare",
+        "il",
+        "tempo",
+        "perso."
+      ],
+      "id": "it_reorder_s_5074038_ERR_PRESENT_MODAL",
+      "prompt_es": "Ordena las palabras: «Tenemos que recuperar el tiempo perdido.»",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5074038",
+      "target_error_codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "tokens": [
+        "dobbiamo",
+        "recuperare",
+        "Noi",
+        "tempo",
+        "il",
+        "perso."
       ],
       "type": "reorder"
     }

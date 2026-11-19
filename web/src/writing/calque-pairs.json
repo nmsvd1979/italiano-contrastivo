@@ -176,6 +176,11 @@
   },
   {
     "code": "ERR_PREP_PLACE",
+    "correct": "Lei vive a Londra.",
+    "wrong": "Lei vive in Londra."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
     "correct": "Lei abita a Londra.",
     "wrong": "Lei abita in Londra."
   },
@@ -335,6 +340,11 @@
     "wrong": "Io amo a Mary così tanto."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Lui ha delle strane abitudini.",
+    "wrong": "Lui ha di le strane abitudini."
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Io conosco Tom di persona.",
     "wrong": "Io conosco a Tom di persona."
@@ -373,6 +383,11 @@
     "code": "ERR_PERSONAL_A",
     "correct": "Io non amo Tom.",
     "wrong": "Io non amo a Tom."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Io voglio il suo rispetto.",
+    "wrong": "Io voglio suo rispetto."
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -766,6 +781,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Lei non abita vicino all'ufficio.",
+    "wrong": "Lei non abita vicino a l'ufficio."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Casa mia è vicina alla chiesa.",
     "wrong": "Casa mia è vicina a la chiesa."
   },
@@ -1068,6 +1088,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "È venuto a Berlino come insegnante.",
     "wrong": "Ha venuto a Berlino come insegnante."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Lui vive completamente da solo nei boschi.",
+    "wrong": "Lui vive completamente da solo in i boschi."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
