@@ -35,7 +35,7 @@
     "ERR_ARTICLE_ALLOMORPH": {
       "capsule": true,
       "reason": null,
-      "usable": 22
+      "usable": 31
     },
     "ERR_AUX_ESSERE": {
       "capsule": true,
@@ -45,7 +45,7 @@
     "ERR_CE_AGREEMENT": {
       "capsule": true,
       "reason": null,
-      "usable": 20
+      "usable": 31
     },
     "ERR_COMPARATIVE_DI": {
       "capsule": true,
@@ -80,22 +80,22 @@
     "ERR_POSSESSIVE_ARTICLE": {
       "capsule": true,
       "reason": null,
-      "usable": 26
+      "usable": 37
     },
     "ERR_POSSESSIVE_SPELLING": {
       "capsule": true,
       "reason": null,
-      "usable": 25
+      "usable": 35
     },
     "ERR_PREP_ARTICLE_CONTRACTION": {
       "capsule": true,
       "reason": null,
-      "usable": 25
+      "usable": 38
     },
     "ERR_PREP_PLACE": {
       "capsule": true,
       "reason": null,
-      "usable": 23
+      "usable": 31
     },
     "ERR_PRESENT_ARE": {
       "capsule": true,
@@ -130,72 +130,72 @@
     "ERR_TENERE_AVERE": {
       "capsule": true,
       "reason": null,
-      "usable": 29
+      "usable": 42
     },
     "ERR_VOC_ANIMALI": {
       "capsule": true,
       "reason": null,
-      "usable": 25
+      "usable": 37
     },
     "ERR_VOC_CASA": {
       "capsule": true,
       "reason": null,
-      "usable": 21
+      "usable": 33
     },
     "ERR_VOC_CIBO": {
       "capsule": true,
       "reason": null,
-      "usable": 25
+      "usable": 37
     },
     "ERR_VOC_CITTA": {
       "capsule": true,
       "reason": null,
-      "usable": 24
+      "usable": 36
     },
     "ERR_VOC_CORPO": {
       "capsule": true,
       "reason": null,
-      "usable": 24
+      "usable": 36
     },
     "ERR_VOC_FAMILIA": {
       "capsule": true,
       "reason": null,
-      "usable": 25
+      "usable": 37
     },
     "ERR_VOC_INTERROG": {
       "capsule": true,
       "reason": null,
-      "usable": 26
+      "usable": 35
     },
     "ERR_VOC_LAVORO": {
       "capsule": true,
       "reason": null,
-      "usable": 24
+      "usable": 33
     },
     "ERR_VOC_NUMERI": {
       "capsule": true,
       "reason": null,
-      "usable": 23
+      "usable": 37
     },
     "ERR_VOC_TEMPO": {
       "capsule": true,
       "reason": null,
-      "usable": 24
+      "usable": 33
     }
   },
   "levels": {
-    "A1": 622,
+    "A1": 810,
     "A2": 200,
     "B1": 138,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 940,
+    "llm-audit": 1128,
     "me": 27
   },
-  "sentences_used": 816,
+  "sentences_used": 1004,
   "translation_kind": {
-    "direct": 748,
+    "direct": 936,
     "llm": 68
   }
 }
