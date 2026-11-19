@@ -64,7 +64,9 @@ def build_capsule(code: dict, sentences: list[dict]) -> dict | None:
 
 
 def _dump(path: Path, obj) -> None:
-    path.write_text(json.dumps(obj, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf8")
+    # items_by_code es el archivo más grande del precache: compacto (sin sangrías) para no pasar el límite de 2 MiB de workbox
+    compact = path.name == "items_by_code.json"
+    path.write_text(json.dumps(obj, ensure_ascii=False, sort_keys=True, **({"separators": (",", ":")} if compact else {"indent": 2})) + "\n", encoding="utf8")
 
 
 def _catalog() -> list[dict]:
