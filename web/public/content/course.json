@@ -4195,6 +4195,338 @@
       ]
     },
     {
+      "id": "u50",
+      "level": "A1",
+      "title": "Vocabulario: ideas y sentimientos",
+      "goal_es": "Amore, amicizia, idea, problema, verità, libertà… y su género (la verità, il problema).",
+      "codes": [
+        "ERR_VOC_ASTRATTI"
+      ],
+      "why_here": "Hablar de lo que piensas y sientes con las palabras más comunes.",
+      "status": "active",
+      "explanation_es": "Amore, amicizia, idea, problema, storia, verità, libertà… Las palabras en -ia y -tà son femeninas (la amicizia, la libertà, la verità); «problema» y «sistema» son masculinos aunque terminen en -a: il problema.",
+      "parts": {
+        "descubre": [
+          "s_4485",
+          "s_4513254",
+          "s_1697390",
+          "s_1136232"
+        ],
+        "practica": [
+          "s_4485",
+          "s_4513254",
+          "s_1697390",
+          "s_1136232",
+          "s_1610237",
+          "s_707236",
+          "s_1124849",
+          "s_4387316",
+          "s_7610911",
+          "s_1279006",
+          "s_2822073",
+          "s_1653528",
+          "s_2395267",
+          "s_13108587",
+          "s_3787217",
+          "s_5403465",
+          "s_2217351",
+          "s_3883769",
+          "s_521401",
+          "s_2577045",
+          "s_386190",
+          "s_4711126",
+          "s_666750",
+          "s_2437315"
+        ],
+        "escucha": [
+          "s_4485",
+          "s_1136232",
+          "s_1124849",
+          "s_1279006",
+          "s_2395267",
+          "s_5403465",
+          "s_521401",
+          "s_4711126"
+        ],
+        "prueba": [
+          "s_3778730",
+          "s_890913",
+          "s_1512398",
+          "s_3518897",
+          "s_569259",
+          "s_634680"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_4485",
+          "start": 10,
+          "end": 16,
+          "wrong": "speranza"
+        },
+        {
+          "id": "s_4513254",
+          "start": 10,
+          "end": 17,
+          "wrong": "successo"
+        },
+        {
+          "id": "s_1697390",
+          "start": 3,
+          "end": 7,
+          "wrong": "notizia"
+        },
+        {
+          "id": "s_1136232",
+          "start": 15,
+          "end": 19,
+          "wrong": "storia"
+        }
+      ]
+    },
+    {
+      "id": "u51",
+      "level": "A1",
+      "title": "Vocabulario: la naturaleza",
+      "goal_es": "Bosco, collina, deserto, sentiero, pietra, erba, terra, fuoco…",
+      "codes": [
+        "ERR_VOC_NATURA"
+      ],
+      "why_here": "Describir el paisaje, con el clima y la ciudad ya vistos.",
+      "status": "active",
+      "explanation_es": "Bosco, collina, valle, sentiero, sabbia, onda, terra… «Bosco» es un bosque pequeño y «foresta», uno grande y espeso. «Terra» es la tierra y también el suelo.",
+      "parts": {
+        "descubre": [
+          "s_3901366",
+          "s_2838597",
+          "s_3325845",
+          "s_1032569"
+        ],
+        "practica": [
+          "s_3901366",
+          "s_2838597",
+          "s_3325845",
+          "s_1032569",
+          "s_8011650",
+          "s_11282512",
+          "s_2804011",
+          "s_6585533",
+          "s_1313570",
+          "s_379732",
+          "s_763066",
+          "s_7709089",
+          "s_691871",
+          "s_1475704",
+          "s_2163408",
+          "s_7751123",
+          "s_691870"
+        ],
+        "escucha": [
+          "s_3901366",
+          "s_3325845",
+          "s_8011650",
+          "s_2804011",
+          "s_1313570",
+          "s_763066",
+          "s_691871",
+          "s_2163408"
+        ],
+        "prueba": [
+          "s_715269",
+          "s_1607132",
+          "s_500247",
+          "s_1642441",
+          "s_776158",
+          "s_12908379"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_3901366",
+          "start": 2,
+          "end": 6,
+          "wrong": "onda"
+        },
+        {
+          "id": "s_2838597",
+          "start": 3,
+          "end": 8,
+          "wrong": "campo"
+        },
+        {
+          "id": "s_3325845",
+          "start": 3,
+          "end": 8,
+          "wrong": "roccia"
+        },
+        {
+          "id": "s_1032569",
+          "start": 3,
+          "end": 8,
+          "wrong": "Collina"
+        }
+      ]
+    },
+    {
+      "id": "u52",
+      "level": "A1",
+      "title": "Vocabulario: la cocina y las comidas",
+      "goal_es": "Pentola, forno, cibo, cena, pranzo, sapore… y «cena» como sustantivo y como verbo.",
+      "codes": [
+        "ERR_VOC_CUCINA"
+      ],
+      "why_here": "Hablar de cocinar y comer, con la comida ya vista.",
+      "status": "active",
+      "explanation_es": "Pentola, padella, forno, frigorifero, tovaglia… La «pentola» es la olla y la «padella», la sartén. «Forno» es el horno y también la panadería. «Cena» (la cena) y «pranzo» (el almuerzo) son sustantivos y también formas verbales: io ceno, io pranzo.",
+      "parts": {
+        "descubre": [
+          "s_2523788",
+          "s_380183",
+          "s_2512421",
+          "s_1322188"
+        ],
+        "practica": [
+          "s_2523788",
+          "s_380183",
+          "s_2512421",
+          "s_1322188",
+          "s_399109",
+          "s_1261712",
+          "s_996806",
+          "s_5098701",
+          "s_999974",
+          "s_1859910",
+          "s_948351",
+          "s_1730298",
+          "s_2268210",
+          "s_5346626"
+        ],
+        "escucha": [
+          "s_2523788",
+          "s_380183",
+          "s_2512421",
+          "s_1322188",
+          "s_399109",
+          "s_1261712",
+          "s_996806",
+          "s_5098701"
+        ],
+        "prueba": [
+          "s_1274677",
+          "s_6766324",
+          "s_569347",
+          "s_642952",
+          "s_1166613",
+          "s_1134387"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2523788",
+          "start": 8,
+          "end": 12,
+          "wrong": "sapore"
+        },
+        {
+          "id": "s_380183",
+          "start": 3,
+          "end": 7,
+          "wrong": "porzione"
+        },
+        {
+          "id": "s_2512421",
+          "start": 11,
+          "end": 17,
+          "wrong": "cucchiaino"
+        },
+        {
+          "id": "s_1322188",
+          "start": 14,
+          "end": 19,
+          "wrong": "frigorifero"
+        }
+      ]
+    },
+    {
+      "id": "u53",
+      "level": "A1",
+      "title": "Vocabulario: el idioma y el estudio",
+      "goal_es": "Frase, parola, lingua, pagina, voto, maestro… y «lingua» = idioma.",
+      "codes": [
+        "ERR_VOC_SCUOLA"
+      ],
+      "why_here": "Hablar de estudiar y de idiomas, con las nacionalidades ya vistas.",
+      "status": "active",
+      "explanation_es": "Lavagna, voto, corso, maestro, parola, frase, lingua… «Voto» es la nota de un examen (y también el voto político). «Lingua» es el idioma y también la lengua del cuerpo. «Laurea» es el título universitario.",
+      "parts": {
+        "descubre": [
+          "s_1064966",
+          "s_4711129",
+          "s_1516106",
+          "s_4406017"
+        ],
+        "practica": [
+          "s_1064966",
+          "s_4711129",
+          "s_1516106",
+          "s_4406017",
+          "s_11460685",
+          "s_6111292",
+          "s_374060",
+          "s_571355",
+          "s_1528510",
+          "s_379708",
+          "s_758752",
+          "s_6069808",
+          "s_2006280"
+        ],
+        "escucha": [
+          "s_1064966",
+          "s_4711129",
+          "s_1516106",
+          "s_4406017",
+          "s_11460685",
+          "s_6111292",
+          "s_374060",
+          "s_571355"
+        ],
+        "prueba": [
+          "s_4107759",
+          "s_1075406",
+          "s_5021301",
+          "s_11463129",
+          "s_955204",
+          "s_2038714"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1064966",
+          "start": 16,
+          "end": 21,
+          "wrong": "lavagna"
+        },
+        {
+          "id": "s_4711129",
+          "start": 16,
+          "end": 21,
+          "wrong": "traduzione"
+        },
+        {
+          "id": "s_1516106",
+          "start": 16,
+          "end": 22,
+          "wrong": "compagna"
+        },
+        {
+          "id": "s_4406017",
+          "start": 16,
+          "end": 22,
+          "wrong": "grammatica"
+        }
+      ]
+    },
+    {
       "id": "u08",
       "level": "A2",
       "title": "Sono andato: el auxiliar essere",

@@ -549,6 +549,46 @@
       "why_here": "Nombrar lo que usas y llevas a diario."
     },
     {
+      "id": "u50",
+      "level": "A1",
+      "title": "Vocabulario: ideas y sentimientos",
+      "goal_es": "Amore, amicizia, idea, problema, verità, libertà… y su género (la verità, il problema).",
+      "codes": [
+        "ERR_VOC_ASTRATTI"
+      ],
+      "why_here": "Hablar de lo que piensas y sientes con las palabras más comunes."
+    },
+    {
+      "id": "u51",
+      "level": "A1",
+      "title": "Vocabulario: la naturaleza",
+      "goal_es": "Bosco, collina, deserto, sentiero, pietra, erba, terra, fuoco…",
+      "codes": [
+        "ERR_VOC_NATURA"
+      ],
+      "why_here": "Describir el paisaje, con el clima y la ciudad ya vistos."
+    },
+    {
+      "id": "u52",
+      "level": "A1",
+      "title": "Vocabulario: la cocina y las comidas",
+      "goal_es": "Pentola, forno, cibo, cena, pranzo, sapore… y «cena» como sustantivo y como verbo.",
+      "codes": [
+        "ERR_VOC_CUCINA"
+      ],
+      "why_here": "Hablar de cocinar y comer, con la comida ya vista."
+    },
+    {
+      "id": "u53",
+      "level": "A1",
+      "title": "Vocabulario: el idioma y el estudio",
+      "goal_es": "Frase, parola, lingua, pagina, voto, maestro… y «lingua» = idioma.",
+      "codes": [
+        "ERR_VOC_SCUOLA"
+      ],
+      "why_here": "Hablar de estudiar y de idiomas, con las nacionalidades ya vistas."
+    },
+    {
       "id": "u08",
       "level": "A2",
       "title": "Sono andato: el auxiliar essere",

@@ -331,6 +331,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il pane è nel forno.",
+    "wrong": "Il pane è in il forno."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io ho paura dell'oscurità.",
     "wrong": "Io ho paura di l'oscurità."
   },
@@ -423,6 +428,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Domani io non vado al cinema.",
     "wrong": "Domani io non vado a il cinema."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Mi piace la mia lingua.",
+    "wrong": "Mi piace mia lingua."
   },
   {
     "code": "ERR_TENERE_AVERE",
@@ -595,6 +605,11 @@
     "wrong": "Io non vedo a Tom da mesi."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Amo fare passeggiate nel bosco.",
+    "wrong": "Amo fare passeggiate in il bosco."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Io non ho fame.",
     "wrong": "Io non tengo fame."
@@ -603,6 +618,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Lui non abita nel mio quartiere.",
     "wrong": "Lui non abita in il mio quartiere."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il pane sta cuocendo nel forno.",
+    "wrong": "Il pane sta cuocendo in il forno."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -658,6 +678,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Io voglio il suo rispetto.",
     "wrong": "Io voglio suo rispetto."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Io studio storia dell'arte.",
+    "wrong": "Io studio storia di l'arte."
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -1120,6 +1145,11 @@
     "wrong": "Non credo a gli extraterrestri."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La mia vita è noiosa.",
+    "wrong": "Mia vita è noiosa."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Preferisco il caffè al tè.",
     "wrong": "Preferisco il caffè a il tè."
@@ -1241,6 +1271,11 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Non voglio rischiare la mia vita.",
+    "wrong": "Non voglio rischiare mia vita."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il suo ragazzo è turco.",
     "wrong": "Suo ragazzo è turco."
   },
@@ -1348,6 +1383,16 @@
     "code": "ERR_TENERE_AVERE",
     "correct": "Perché non hai paura?",
     "wrong": "Perché non tieni paura?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La Luna gira intorno alla Terra.",
+    "wrong": "La Luna gira intorno a la Terra."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La Terra gira intorno al Sole.",
+    "wrong": "La Terra gira intorno a il Sole."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -1473,6 +1518,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Ci sono molte uova nella scatola.",
     "wrong": "Ci sono molte uova in la scatola."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "I beduini vivono nel deserto.",
+    "wrong": "I beduini vivono in il deserto."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -1768,6 +1818,11 @@
     "code": "ERR_PREP_PLACE",
     "correct": "Siamo stati a Londra per due settimane.",
     "wrong": "Siamo stati in Londra per due settimane."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ieri abbiamo visto un grosso lupo nel bosco.",
+    "wrong": "Ieri abbiamo visto un grosso lupo in il bosco."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -2236,6 +2291,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "L'esercito avanzò sulla collina.",
+    "wrong": "L'esercito avanzò su la collina."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "C'era qualcuno nel bar?",
     "wrong": "C'era qualcuno in il bar?"
   },
@@ -2278,6 +2338,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Quell'uomo è morto.",
     "wrong": "Quell'uomo ha morto."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sono l'uomo più felice della terra.",
+    "wrong": "Sono l'uomo più felice di la terra."
   },
   {
     "code": "ERR_PREP_PLACE",

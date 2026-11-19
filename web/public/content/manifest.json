@@ -19,6 +19,7 @@
     "cap_err_voc_abiti",
     "cap_err_voc_aggettivi",
     "cap_err_voc_animali",
+    "cap_err_voc_astratti",
     "cap_err_voc_avverbi",
     "cap_err_voc_bar",
     "cap_err_voc_casa",
@@ -27,6 +28,7 @@
     "cap_err_voc_clima",
     "cap_err_voc_colori",
     "cap_err_voc_corpo",
+    "cap_err_voc_cucina",
     "cap_err_voc_denaro",
     "cap_err_voc_dimostrativi",
     "cap_err_voc_familia",
@@ -34,6 +36,7 @@
     "cap_err_voc_igiene",
     "cap_err_voc_interrog",
     "cap_err_voc_lavoro",
+    "cap_err_voc_natura",
     "cap_err_voc_nazionalita",
     "cap_err_voc_negozi",
     "cap_err_voc_numeri",
@@ -41,6 +44,7 @@
     "cap_err_voc_quantita",
     "cap_err_voc_salute",
     "cap_err_voc_saluti",
+    "cap_err_voc_scuola",
     "cap_err_voc_tempo",
     "cap_err_voc_tempolibero",
     "cap_err_voc_trasporti",
@@ -171,6 +175,11 @@
       "reason": null,
       "usable": 37
     },
+    "ERR_VOC_ASTRATTI": {
+      "capsule": true,
+      "reason": null,
+      "usable": 30
+    },
     "ERR_VOC_AVVERBI": {
       "capsule": true,
       "reason": null,
@@ -211,6 +220,11 @@
       "reason": null,
       "usable": 36
     },
+    "ERR_VOC_CUCINA": {
+      "capsule": true,
+      "reason": null,
+      "usable": 20
+    },
     "ERR_VOC_DENARO": {
       "capsule": true,
       "reason": null,
@@ -245,6 +259,11 @@
       "capsule": true,
       "reason": null,
       "usable": 33
+    },
+    "ERR_VOC_NATURA": {
+      "capsule": true,
+      "reason": null,
+      "usable": 23
     },
     "ERR_VOC_NAZIONALITA": {
       "capsule": true,
@@ -281,6 +300,11 @@
       "reason": null,
       "usable": 29
     },
+    "ERR_VOC_SCUOLA": {
+      "capsule": true,
+      "reason": null,
+      "usable": 19
+    },
     "ERR_VOC_TEMPO": {
       "capsule": true,
       "reason": null,
@@ -298,18 +322,18 @@
     }
   },
   "levels": {
-    "A1": 1289,
-    "A2": 233,
+    "A1": 1371,
+    "A2": 243,
     "B1": 138,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 1640,
+    "llm-audit": 1732,
     "me": 27
   },
-  "sentences_used": 1516,
+  "sentences_used": 1608,
   "translation_kind": {
-    "direct": 1386,
+    "direct": 1478,
     "llm": 130
   }
 }

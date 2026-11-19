@@ -2,7 +2,7 @@
 
 Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiempos a priori (no medidos). Objetivo por unidad: **57 min** (descubre 7 · lectura 10 · capsula 4 · practica 10 · escucha 12 · practica2 10 · prueba 4); 40 oraciones con audio; 1 lectura.
 
-**A1 hoy: 44 unidades, 35.9 h de pasos** (objetivo 50 h con repasos y examen de hito; 5.9 h por producir en las unidades existentes, más las unidades nuevas del currículo).
+**A1 hoy: 48 unidades, 38.5 h de pasos** (objetivo 50 h con repasos y examen de hito; 7.1 h por producir en las unidades existentes, más las unidades nuevas del currículo).
 
 | Unidad | Nivel | Oraciones | Ítems | descubre | lectura | capsula | practica | escucha | practica2 | prueba | Total (min) | Falta (min) | Lectura |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -50,6 +50,10 @@ Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiem
 | u47 Vocabulario: tiendas y comercios | A1 | 20 | 80 | 7.2 | — | 3.2 | 10.4 | 10.3 | 2.5 | 2.5 | 36.1 | 20.9 | no |
 | u48 Vocabulario: higiene personal | A1 | 22 | 88 | 7.1 | — | 3.2 | 10.2 | 11.7 | 4.6 | 2.5 | 39.3 | 17.7 | no |
 | u49 Vocabulario: objetos de todos los días | A1 | 33 | 132 | 7.1 | — | 3.2 | 10.4 | 12.3 | 10.2 | 2.5 | 45.7 | 11.3 | no |
+| u50 Vocabulario: ideas y sentimientos | A1 | 30 | 120 | 7.1 | — | 3.2 | 10.1 | 12.3 | 10 | 2.5 | 45.2 | 11.8 | no |
+| u51 Vocabulario: la naturaleza | A1 | 23 | 92 | 7.1 | — | 3.2 | 10.1 | 12.3 | 5.5 | 2.5 | 40.7 | 16.3 | no |
+| u52 Vocabulario: la cocina y las comidas | A1 | 20 | 80 | 7.2 | — | 3.2 | 10.4 | 10.3 | 2.5 | 2.5 | 36.1 | 20.9 | no |
+| u53 Vocabulario: el idioma y el estudio | A1 | 19 | 76 | 7.4 | — | 3.2 | 10.1 | 9.7 | 1.8 | 2.5 | 34.7 | 22.3 | no |
 | u08 Sono andato: el auxiliar essere | A2 | 20 | 57 | 7.2 | — | 3.2 | 10.1 | 10.3 | 4.3 | 2.5 | 37.6 | 19.4 | no |
 | u09 Siamo andati: el participio concuerda | A2 | 24 | 68 | 7.1 | — | 3.2 | 10.1 | 12.3 | 8.5 | 2.5 | 43.7 | 13.3 | no |
 | u10 Sin «a» personal | A2 | 21 | 41 | 7.1 | — | 3.2 | 10 | 11 | 0.5 | 3.2 | 35 | 22 | no |

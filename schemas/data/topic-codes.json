@@ -474,5 +474,61 @@
     ],
     "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
     "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_ASTRATTI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Amore, amicizia, idea, problema, storia, verità, libertà… Las palabras en -ia y -tà son femeninas (la amicizia, la libertà, la verità); «problema» y «sistema» son masculinos aunque terminen en -a: il problema.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_NATURA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Bosco, collina, valle, sentiero, sabbia, onda, terra… «Bosco» es un bosque pequeño y «foresta», uno grande y espeso. «Terra» es la tierra y también el suelo.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_CUCINA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Pentola, padella, forno, frigorifero, tovaglia… La «pentola» es la olla y la «padella», la sartén. «Forno» es el horno y también la panadería. «Cena» (la cena) y «pranzo» (el almuerzo) son sustantivos y también formas verbales: io ceno, io pranzo.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_SCUOLA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Lavagna, voto, corso, maestro, parola, frase, lingua… «Voto» es la nota de un examen (y también el voto político). «Lingua» es el idioma y también la lengua del cuerpo. «Laurea» es el título universitario.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
   }
 ]

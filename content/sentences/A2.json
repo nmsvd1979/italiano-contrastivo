@@ -520,6 +520,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "nancy",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_CUCINA"
+    ],
+    "es": "Esta comida es suficiente para tres personas.",
+    "es_author": "tatoerique",
+    "es_source_id": "359398",
+    "id": "s_1134387",
+    "it": "Questo cibo è sufficiente per tre persone.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1134387",
+    "tag_rules": {
+      "ERR_VOC_CUCINA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -610,6 +632,28 @@
     "source_id": "11642390",
     "tag_rules": {
       "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_CUCINA"
+    ],
+    "es": "A Tom le gusta mucho la comida japonesa.",
+    "es_author": "hayastan",
+    "es_source_id": "1567572",
+    "id": "s_1166613",
+    "it": "A Tom piace molto il cibo giapponese.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1166613",
+    "tag_rules": {
+      "ERR_VOC_CUCINA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -879,6 +923,28 @@
       "ERR_Z_AFFRICATE": "z_africata"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Adelpa",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NATURA"
+    ],
+    "es": "Ayer vimos un gran lobo en el bosque.",
+    "es_author": "baudelaire",
+    "es_source_id": "6679224",
+    "id": "s_12908379",
+    "it": "Ieri abbiamo visto un grosso lupo nel bosco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12908379",
+    "tag_rules": {
+      "ERR_VOC_NATURA": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -1666,6 +1732,50 @@
     "source_id": "1559218",
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NATURA"
+    ],
+    "es": "Quiero ver la tierra y el sol.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1546438",
+    "id": "s_1607132",
+    "it": "Voglio vedere la terra e il sole.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1607132",
+    "tag_rules": {
+      "ERR_VOC_NATURA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NATURA"
+    ],
+    "es": "La Tierra tiene la forma de una esfera.",
+    "es_author": "hayastan",
+    "es_source_id": "1705711",
+    "id": "s_1642441",
+    "it": "La terra ha la forma di una sfera.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1642441",
+    "tag_rules": {
+      "ERR_VOC_NATURA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4326,6 +4436,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NATURA"
+    ],
+    "es": "El monte Aso es un volcán activo.",
+    "es_author": "nancy",
+    "es_source_id": "1151635",
+    "id": "s_500247",
+    "it": "Il monte Aso è un vulcano attivo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "500247",
+    "tag_rules": {
+      "ERR_VOC_NATURA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -4489,6 +4621,30 @@
     "source_id": "529432",
     "tag_rules": {
       "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_CUCINA"
+    ],
+    "es": "¿Hay comida suficiente para todos?",
+    "es_author": "darinmex",
+    "es_source_id": "569068",
+    "id": "s_569347",
+    "it": "C'è cibo a sufficienza per tutti?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "569347",
+    "tag_rules": {
+      "ERR_VOC_CUCINA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4675,6 +4831,28 @@
     "source_id": "627271",
     "tag_rules": {
       "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_CUCINA"
+    ],
+    "es": "La pizza es mi comida favorita.",
+    "es_author": "tatoerique",
+    "es_source_id": "329973",
+    "id": "s_642952",
+    "it": "La pizza è il mio cibo preferito.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "642952",
+    "tag_rules": {
+      "ERR_VOC_CUCINA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4944,6 +5122,30 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_NATURA"
+    ],
+    "es": "El ejército avanzó subiendo por la colina.",
+    "es_author": "Seael",
+    "es_source_id": "7934720",
+    "id": "s_715269",
+    "it": "L'esercito avanzò sulla collina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "715269",
+    "tag_rules": {
+      "ERR_VOC_NATURA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_VOC_BAR"
     ],
     "es": "¿Había alguien en el bar?",
@@ -5094,6 +5296,30 @@
     "source_id": "772483",
     "tag_rules": {
       "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NATURA"
+    ],
+    "es": "Soy el hombre más feliz de la tierra.",
+    "es_author": "hundo",
+    "es_source_id": "1010867",
+    "id": "s_776158",
+    "it": "Sono l'uomo più felice della terra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "776158",
+    "tag_rules": {
+      "ERR_VOC_NATURA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
