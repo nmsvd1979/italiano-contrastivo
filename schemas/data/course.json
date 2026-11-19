@@ -131,7 +131,10 @@
       "codes": [
         "ERR_PRESENT_ERE_IRE"
       ],
-      "why_here": "Completa los dos grupos regulares tras los verbos en -are."
+      "why_here": "Completa los dos grupos regulares tras los verbos en -are.",
+      "readings": [
+        "rd_tempolibero"
+      ]
     },
     {
       "id": "u23",
@@ -141,7 +144,10 @@
       "codes": [
         "ERR_VOC_CASA"
       ],
-      "why_here": "Describir dónde vives, con los verbos de presente ya vistos."
+      "why_here": "Describir dónde vives, con los verbos de presente ya vistos.",
+      "readings": [
+        "rd_casa"
+      ]
     },
     {
       "id": "u16",
@@ -164,7 +170,10 @@
       "codes": [
         "ERR_VOC_CITTA"
       ],
-      "why_here": "Moverse y preguntar por lugares; prepara las preposiciones a / in."
+      "why_here": "Moverse y preguntar por lugares; prepara las preposiciones a / in.",
+      "readings": [
+        "rd_firenze"
+      ]
     },
     {
       "id": "u17",

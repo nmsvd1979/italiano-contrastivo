@@ -890,6 +890,9 @@
         "ERR_PRESENT_ERE_IRE"
       ],
       "why_here": "Completa los dos grupos regulares tras los verbos en -are.",
+      "readings": [
+        "rd_tempolibero"
+      ],
       "status": "active",
       "explanation_es": "Los verbos en -ere hacen -o, -i, -e, -iamo, -ete, -ono y los en -ire -o, -i, -e, -iamo, -ite, -ono (algunos añaden -isc-: finisco, finisci, finisce, finiamo, finite, finiscono). El español -es, -emos, -en, -imos no existe: leggi, leggiamo, leggono.",
       "parts": {
@@ -975,6 +978,9 @@
         "ERR_VOC_CASA"
       ],
       "why_here": "Describir dónde vives, con los verbos de presente ya vistos.",
+      "readings": [
+        "rd_casa"
+      ],
       "status": "active",
       "explanation_es": "Stanza, cucina, camera, bagno, porta, finestra… «Camera» es dormitorio (no cámara) y «tavolo» es la mesa. Con vocal inicial el artículo se apostrofa: l'appartamento, l'armadio.",
       "parts": {
@@ -1144,6 +1150,9 @@
         "ERR_VOC_CITTA"
       ],
       "why_here": "Moverse y preguntar por lugares; prepara las preposiciones a / in.",
+      "readings": [
+        "rd_firenze"
+      ],
       "status": "active",
       "explanation_es": "Città, strada, piazza, chiesa, stazione, mare, fiume… Muchas palabras en -e son masculinas o femeninas sin que se note: il ponte, il mare, il fiume, pero la stazione, la città.",
       "parts": {

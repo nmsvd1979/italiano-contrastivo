@@ -1,5 +1,379 @@
 [
   {
+    "id": "rd_casa",
+    "title": "Cercare casa",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-cercare-casa/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿En qué ciudad busca casa Marta?",
+        "options": [
+          "Florencia",
+          "Siena",
+          "Roma"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta el alquiler al mes?",
+        "options": [
+          "Tres mil euros",
+          "Mil euros",
+          "Trescientos euros"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿En qué piso está el apartamento?",
+        "options": [
+          "En el segundo",
+          "En el primero",
+          "En el quinto"
+        ],
+        "answer": 0,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Tiene ascensor el edificio?",
+        "options": [
+          "No",
+          "Sí",
+          "No se dice"
+        ],
+        "answer": 0,
+        "evidence": 11
+      },
+      {
+        "prompt_es": "¿Qué tiene además el apartamento?",
+        "options": [
+          "Aire acondicionado, balcón y vista al Duomo",
+          "Jardín y garaje",
+          "Piscina"
+        ],
+        "answer": 0,
+        "evidence": 17
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_casa_00",
+        "it": "Marta cerca da tempo un appartamento o un monolocale a Firenze.",
+        "es": "Marta busca desde hace tiempo un apartamento o un estudio en Florencia.",
+        "audio": "a14e9e3afc6a"
+      },
+      {
+        "id": "rd_casa_01",
+        "it": "Vuole abitare in centro, ma gli appartamenti a Firenze sono molto cari.",
+        "es": "Quiere vivir en el centro, pero los apartamentos en Florencia son muy caros.",
+        "audio": "6975eedae2ed"
+      },
+      {
+        "id": "rd_casa_02",
+        "it": "Quanto costa l'affitto?",
+        "es": "¿Cuánto cuesta el alquiler?",
+        "speaker": "Barbara",
+        "audio": "fb701f2504c0"
+      },
+      {
+        "id": "rd_casa_03",
+        "it": "Tremila euro al mese.",
+        "es": "Tres mil euros al mes.",
+        "speaker": "Marta",
+        "audio": "e7508d23c888"
+      },
+      {
+        "id": "rd_casa_04",
+        "it": "È troppo caro.",
+        "es": "Es demasiado caro.",
+        "speaker": "Barbara",
+        "audio": "fbbb05023257"
+      },
+      {
+        "id": "rd_casa_05",
+        "it": "E quante stanze ha?",
+        "es": "¿Y cuántas habitaciones tiene?",
+        "speaker": "Barbara",
+        "audio": "6be0a1e7fe35"
+      },
+      {
+        "id": "rd_casa_06",
+        "it": "Due camere, il salotto, più due bagni e la cucina.",
+        "es": "Dos dormitorios, el salón, además de dos baños y la cocina.",
+        "speaker": "Marta",
+        "audio": "d74064560ff6"
+      },
+      {
+        "id": "rd_casa_07",
+        "it": "È molto grande!",
+        "es": "¡Es muy grande!",
+        "speaker": "Barbara",
+        "audio": "67ebc296aa2c"
+      },
+      {
+        "id": "rd_casa_08",
+        "it": "In quale zona è?",
+        "es": "¿En qué zona está?",
+        "speaker": "Barbara",
+        "audio": "ded94b1d678c"
+      },
+      {
+        "id": "rd_casa_09",
+        "it": "In centro, al secondo piano di un palazzo vicino al Duomo.",
+        "es": "En el centro, en el segundo piso de un edificio cerca del Duomo.",
+        "speaker": "Marta",
+        "audio": "a07e22ded64a"
+      },
+      {
+        "id": "rd_casa_10",
+        "it": "C'è l'ascensore?",
+        "es": "¿Hay ascensor?",
+        "speaker": "Barbara",
+        "audio": "7e9cc2fab48c"
+      },
+      {
+        "id": "rd_casa_11",
+        "it": "No, l'ascensore non c'è…ma è solo al secondo piano!",
+        "es": "No, no hay ascensor… ¡pero es solo un segundo piso!",
+        "speaker": "Marta",
+        "audio": "31c23436a461"
+      },
+      {
+        "id": "rd_casa_12",
+        "it": "Non c'è bisogno dell'ascensore!",
+        "es": "¡No hace falta ascensor!",
+        "speaker": "Marta",
+        "audio": "f474df0487c2"
+      },
+      {
+        "id": "rd_casa_13",
+        "it": "Non mi piace fare le scale.",
+        "es": "No me gusta subir escaleras.",
+        "speaker": "Barbara",
+        "audio": "4e206e632053"
+      },
+      {
+        "id": "rd_casa_14",
+        "it": "Insomma, ti interessa quest'appartamento?",
+        "es": "En fin, ¿te interesa este apartamento?",
+        "speaker": "Marta",
+        "audio": "91a917647593"
+      },
+      {
+        "id": "rd_casa_15",
+        "it": "C'è l'aria condizionata?",
+        "es": "¿Hay aire acondicionado?",
+        "speaker": "Barbara",
+        "audio": "daf62fa71cb8"
+      },
+      {
+        "id": "rd_casa_16",
+        "it": "Sì, c'è l'aria condizionata!",
+        "es": "¡Sí, hay aire acondicionado!",
+        "speaker": "Marta",
+        "audio": "55fb04ffc44d"
+      },
+      {
+        "id": "rd_casa_17",
+        "it": "Ha anche un grande balcone e la vista del Duomo…una vista bellissima!",
+        "es": "¡También tiene un gran balcón y vista al Duomo… una vista preciosa!",
+        "speaker": "Marta",
+        "audio": "7bda05740637"
+      },
+      {
+        "id": "rd_casa_18",
+        "it": "Va bene, va bene…mi hai convinta!",
+        "es": "Está bien, está bien… ¡me convenciste!",
+        "speaker": "Barbara",
+        "audio": "769b776d80d5"
+      },
+      {
+        "id": "rd_casa_19",
+        "it": "Andiamo a vedere questo appartamento.",
+        "es": "Vamos a ver este apartamento.",
+        "speaker": "Barbara",
+        "audio": "b6f9d90cc738"
+      }
+    ]
+  },
+  {
+    "id": "rd_firenze",
+    "title": "Firenze",
+    "level": "A1",
+    "kind": "lectura",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-firenze/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿En qué región está Florencia?",
+        "options": [
+          "Toscana",
+          "Lacio",
+          "Véneto"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Cuántas estaciones de tren hay en Florencia?",
+        "options": [
+          "Cuatro",
+          "Una",
+          "Diez"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué obra famosa está en el Museo de la Academia?",
+        "options": [
+          "El David de Miguel Ángel",
+          "La Mona Lisa",
+          "La Venus"
+        ],
+        "answer": 0,
+        "evidence": 11
+      },
+      {
+        "prompt_es": "¿Cuál es el museo más famoso de la ciudad?",
+        "options": [
+          "Los Uffizi",
+          "La Academia",
+          "El Duomo"
+        ],
+        "answer": 0,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿Cuántos escalones hay hasta la cúpula del Duomo?",
+        "options": [
+          "463",
+          "146",
+          "1.000"
+        ],
+        "answer": 0,
+        "evidence": 15
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_firenze_00",
+        "it": "Firenze è una bella città nella regione Toscana in Italia.",
+        "es": "Florencia es una hermosa ciudad en la región de la Toscana, en Italia.",
+        "audio": "63ea35ab8351"
+      },
+      {
+        "id": "rd_firenze_01",
+        "it": "È considerata luogo d'origine del Rinascimento ed è parte del patrimonio dell'umanità UNESCO dal 1982.",
+        "es": "Se considera el lugar de origen del Renacimiento y es Patrimonio de la Humanidad de la UNESCO desde 1982.",
+        "audio": "990adbbafeee"
+      },
+      {
+        "id": "rd_firenze_02",
+        "it": "Firenze è un importante centro universitario.",
+        "es": "Florencia es un importante centro universitario.",
+        "audio": "d7e8c16e9c82"
+      },
+      {
+        "id": "rd_firenze_03",
+        "it": "C'è una grande università: l'Università degli Studi di Firenze.",
+        "es": "Hay una gran universidad: la Universidad de Florencia.",
+        "audio": "7b92c7ef3040"
+      },
+      {
+        "id": "rd_firenze_04",
+        "it": "Puoi arrivare a Firenze sia in treno che in aereo.",
+        "es": "Puedes llegar a Florencia tanto en tren como en avión.",
+        "audio": "cc40056bf958"
+      },
+      {
+        "id": "rd_firenze_05",
+        "it": "Ci sono quattro stazioni ferroviarie e un aeroporto.",
+        "es": "Hay cuatro estaciones de tren y un aeropuerto.",
+        "audio": "5b3baafa2655"
+      },
+      {
+        "id": "rd_firenze_06",
+        "it": "Firenze è famosa per la sua arte.",
+        "es": "Florencia es famosa por su arte.",
+        "audio": "b5d3d0f94716"
+      },
+      {
+        "id": "rd_firenze_07",
+        "it": "Ci sono molti musei a Firenze.",
+        "es": "Hay muchos museos en Florencia.",
+        "audio": "d950d51c093d"
+      },
+      {
+        "id": "rd_firenze_08",
+        "it": "Il museo più famoso è il Museo degli Uffizi.",
+        "es": "El museo más famoso es el Museo de los Uffizi.",
+        "audio": "640b9023a259"
+      },
+      {
+        "id": "rd_firenze_09",
+        "it": "Questo museo è in centro, vicino a Piazza della Signoria.",
+        "es": "Este museo está en el centro, cerca de la Piazza della Signoria.",
+        "audio": "1904cdc3048b"
+      },
+      {
+        "id": "rd_firenze_10",
+        "it": "Un altro famoso museo a Firenze è il Museo dell'Accademia.",
+        "es": "Otro museo famoso de Florencia es el Museo de la Academia.",
+        "audio": "fedf5067edec"
+      },
+      {
+        "id": "rd_firenze_11",
+        "it": "Questo museo è importante perché ha il David di Michelangelo.",
+        "es": "Este museo es importante porque tiene el David de Miguel Ángel.",
+        "audio": "a756f092183f"
+      },
+      {
+        "id": "rd_firenze_12",
+        "it": "Altri posti da visitare a Firenze sono le molte chiese.",
+        "es": "Otros lugares para visitar en Florencia son las muchas iglesias.",
+        "audio": "9e7b60b95bda"
+      },
+      {
+        "id": "rd_firenze_13",
+        "it": "La chiesa principale è la cattedrale del Duomo.",
+        "es": "La iglesia principal es la catedral del Duomo.",
+        "audio": "c088c5aa934d"
+      },
+      {
+        "id": "rd_firenze_14",
+        "it": "Il Duomo di Firenze è molto bello e puoi salire sulla cupola.",
+        "es": "El Duomo de Florencia es muy hermoso y puedes subir a la cúpula.",
+        "audio": "6ad5aca0c1b7"
+      },
+      {
+        "id": "rd_firenze_15",
+        "it": "Ci sono 463 scalini, ma la vista dalla cupola è meravigliosa!",
+        "es": "Hay 463 escalones, ¡pero la vista desde la cúpula es maravillosa!",
+        "audio": "6b3f70352f1f"
+      },
+      {
+        "id": "rd_firenze_16",
+        "it": "Puoi vedere tutta la città!!!",
+        "es": "¡Puedes ver toda la ciudad!",
+        "audio": "28ab187c1757"
+      }
+    ]
+  },
+  {
     "id": "rd_giornata",
     "title": "La giornata di Francesco",
     "level": "A1",
@@ -626,6 +1000,167 @@
         "es": "¡Camarero!",
         "speaker": "Francesco",
         "audio": "a4eb1d24e825"
+      }
+    ]
+  },
+  {
+    "id": "rd_tempolibero",
+    "title": "Un incontro (parte 2)",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-un-incontro-parte-2/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué le gusta hacer a Francesco en su tiempo libre?",
+        "options": [
+          "Leer, jugar al baloncesto y salir con amigos",
+          "Ir al cine y yoga",
+          "Cocinar"
+        ],
+        "answer": 0,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Qué prefiere hacer Elena en el gimnasio?",
+        "options": [
+          "Pesas o yoga",
+          "Correr",
+          "Nadar"
+        ],
+        "answer": 0,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Adónde van normalmente Francesco y sus amigos?",
+        "options": [
+          "Al cine o al pub",
+          "A la biblioteca",
+          "Al gimnasio"
+        ],
+        "answer": 0,
+        "evidence": 10
+      },
+      {
+        "prompt_es": "¿Qué pub prefieren?",
+        "options": [
+          "El «San Paolo»",
+          "El «Duomo»",
+          "Ninguno"
+        ],
+        "answer": 0,
+        "evidence": 13
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_tempolibero_00",
+        "it": "Francesco e Elena continuano la loro conversazione…",
+        "es": "Francesco y Elena continúan su conversación…",
+        "audio": "45da1d134d6a"
+      },
+      {
+        "id": "rd_tempolibero_01",
+        "it": "Cosa preferisci fare nel tempo libero?",
+        "es": "¿Qué prefieres hacer en tu tiempo libre?",
+        "speaker": "Francesco",
+        "audio": "572e18d833eb"
+      },
+      {
+        "id": "rd_tempolibero_02",
+        "it": "Preferisco andare in palestra, andare al cinema o fare una passeggiata.",
+        "es": "Prefiero ir al gimnasio, ir al cine o dar un paseo.",
+        "speaker": "Elena",
+        "audio": "4a3dcc997d05"
+      },
+      {
+        "id": "rd_tempolibero_03",
+        "it": "E tu?",
+        "es": "¿Y tú?",
+        "speaker": "Elena",
+        "audio": "095541f22c96"
+      },
+      {
+        "id": "rd_tempolibero_04",
+        "it": "Preferisco leggere un buon libro, giocare a basket o uscire con gli amici.",
+        "es": "Prefiero leer un buen libro, jugar al baloncesto o salir con los amigos.",
+        "speaker": "Francesco",
+        "audio": "135c134bc413"
+      },
+      {
+        "id": "rd_tempolibero_05",
+        "it": "Vado spesso anche in palestra.",
+        "es": "También voy a menudo al gimnasio.",
+        "speaker": "Francesco",
+        "audio": "3d206b74da36"
+      },
+      {
+        "id": "rd_tempolibero_06",
+        "it": "Cosa preferisci fare quando vai in palestra?",
+        "es": "¿Qué prefieres hacer cuando vas al gimnasio?",
+        "speaker": "Francesco",
+        "audio": "bc1ce4f2fb63"
+      },
+      {
+        "id": "rd_tempolibero_07",
+        "it": "Preferisco fare sollevamento pesi o seguire un corso di yoga.",
+        "es": "Prefiero levantar pesas o hacer un curso de yoga.",
+        "speaker": "Elena",
+        "audio": "fa9147d85eb6"
+      },
+      {
+        "id": "rd_tempolibero_08",
+        "it": "Preferisco correre e sollevare pesi.",
+        "es": "Prefiero correr y levantar pesas.",
+        "speaker": "Francesco",
+        "audio": "254fc9e23866"
+      },
+      {
+        "id": "rd_tempolibero_09",
+        "it": "Dove vai quando esci con gli amici?",
+        "es": "¿Adónde vas cuando sales con los amigos?",
+        "speaker": "Elena",
+        "audio": "646c57da729d"
+      },
+      {
+        "id": "rd_tempolibero_10",
+        "it": "Di solito andiamo al cinema o al pub.",
+        "es": "Normalmente vamos al cine o al pub.",
+        "speaker": "Francesco",
+        "audio": "62821b6a7225"
+      },
+      {
+        "id": "rd_tempolibero_11",
+        "it": "Qualche volta facciamo una passeggiata in centro?",
+        "es": "A veces damos un paseo por el centro.",
+        "speaker": "Francesco",
+        "audio": "c1f12b9e4053"
+      },
+      {
+        "id": "rd_tempolibero_12",
+        "it": "Dove preferite andare quando andate al pub?",
+        "es": "¿Adónde preferís ir cuando vais al pub?",
+        "speaker": "Elena",
+        "audio": "9f1a177dcf30"
+      },
+      {
+        "id": "rd_tempolibero_13",
+        "it": "Preferiamo il Pub «San Paolo» in Piazza del Campo.",
+        "es": "Preferimos el pub «San Paolo» de la Piazza del Campo.",
+        "speaker": "Francesco",
+        "audio": "3eab1462153b"
+      },
+      {
+        "id": "rd_tempolibero_14",
+        "it": "La birra è buona e fanno anche dei buoni panini.",
+        "es": "La cerveza es buena y también hacen buenos bocadillos.",
+        "speaker": "Francesco",
+        "audio": "8cd5189b3b4a"
       }
     ]
   },

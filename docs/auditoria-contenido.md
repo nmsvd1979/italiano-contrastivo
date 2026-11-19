@@ -2,7 +2,7 @@
 
 Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiempos a priori (no medidos). Objetivo por unidad: **57 min** (descubre 7 · lectura 10 · capsula 4 · practica 10 · escucha 12 · practica2 10 · prueba 4); 40 oraciones con audio; 1 lectura.
 
-**A1 hoy: 25 unidades, 18.4 h de pasos** (objetivo 50 h con repasos y examen de hito; 5.3 h por producir en las unidades existentes, más las unidades nuevas del currículo).
+**A1 hoy: 25 unidades, 18.8 h de pasos** (objetivo 50 h con repasos y examen de hito; 4.9 h por producir en las unidades existentes, más las unidades nuevas del currículo).
 
 | Unidad | Nivel | Oraciones | Ítems | descubre | lectura | capsula | practica | escucha | practica2 | prueba | Total (min) | Falta (min) | Lectura |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -15,10 +15,10 @@ Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiem
 | u04 Tener no es «tenere»: ho fame | A1 | 29 | 86 | 7.1 | — | 3.2 | 10.2 | 12.3 | 10.3 | 2.5 | 45.6 | 11.4 | no |
 | u14 Verbos en -are: parlo, parli, parla | A1 | 23 | 53 | 7.4 | — | 3.2 | 10.5 | 12.3 | 2.8 | 3 | 39.2 | 17.8 | no |
 | u22 Vocabulario: comida y bebida | A1 | 25 | 100 | 7.1 | 13.5 | 3.2 | 10.4 | 12.3 | 7.2 | 2.5 | 56.2 | 0.8 | sí |
-| u15 Verbos en -ere e -ire: leggo, dormo, finisco | A1 | 25 | 75 | 7.1 | — | 3.2 | 10.3 | 12.3 | 9.3 | 2.5 | 44.7 | 12.3 | no |
-| u23 Vocabulario: la casa | A1 | 21 | 84 | 7.1 | — | 3.2 | 10 | 11 | 3.9 | 2.5 | 37.7 | 19.3 | no |
+| u15 Verbos en -ere e -ire: leggo, dormo, finisco | A1 | 25 | 75 | 7.1 | 7.1 | 3.2 | 10.3 | 12.3 | 9.3 | 2.5 | 51.8 | 5.2 | sí |
+| u23 Vocabulario: la casa | A1 | 21 | 84 | 7.1 | 9.3 | 3.2 | 10 | 11 | 3.9 | 2.5 | 47 | 10 | sí |
 | u16 Andare, fare, stare, venire: vado, faccio | A1 | 25 | 68 | 7.2 | 5.6 | 3.2 | 10 | 12.3 | 7.9 | 2.9 | 49.1 | 7.9 | sí |
-| u24 Vocabulario: la ciudad y la naturaleza | A1 | 24 | 95 | 7.1 | — | 3.2 | 10.2 | 12.3 | 6.4 | 2.5 | 41.7 | 15.3 | no |
+| u24 Vocabulario: la ciudad y la naturaleza | A1 | 24 | 95 | 7.1 | 8.1 | 3.2 | 10.2 | 12.3 | 6.4 | 2.5 | 49.8 | 7.2 | sí |
 | u17 Volere, potere, dovere: voglio, posso, devo | A1 | 24 | 72 | 7.1 | — | 3.2 | 10.1 | 12.3 | 8.5 | 2.5 | 43.7 | 13.3 | no |
 | u25 Vocabulario: días, meses y estaciones | A1 | 24 | 96 | 7.1 | — | 3.2 | 10.1 | 12.3 | 6.5 | 2.5 | 41.7 | 15.3 | no |
 | u26 Vocabulario: los números | A1 | 23 | 90 | 7.1 | — | 3.2 | 10.2 | 12.3 | 5.7 | 2.5 | 41 | 16 | no |
