@@ -1,0 +1,148 @@
+{
+  "id": "rd_faccende",
+  "title": "Le faccende domestiche",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/3-3-le-faccende-domestiche/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes.",
+  "sentences": [
+    {
+      "id": "rd_faccende_00",
+      "it": "Com'è la tua vita in famiglia?",
+      "es": "¿Cómo es tu vida en familia?",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_faccende_01",
+      "it": "Io vado a scuola e mia madre si occupa delle faccende.",
+      "es": "Yo voy al colegio y mi madre se ocupa de las tareas de la casa.",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_faccende_02",
+      "it": "Io pulisco la mia stanza, faccio il mio letto e passo l'aspirapolvere.",
+      "es": "Yo limpio mi pieza, hago mi cama y paso la aspiradora.",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_faccende_03",
+      "it": "Mia madre fa la spesa, prepara da mangiare e fa la lavatrice.",
+      "es": "Mi madre hace las compras, prepara la comida y pone la lavadora.",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_faccende_04",
+      "it": "Io lavo i piatti, spolvero e lavo il pavimento.",
+      "es": "Yo lavo los platos, sacudo el polvo y lavo el piso.",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_faccende_05",
+      "it": "E a casa tua?",
+      "es": "¿Y en tu casa?",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_faccende_06",
+      "it": "Io lavoro tutto il giorno e ho una signora che viene a fare le pulizie.",
+      "es": "Yo trabajo todo el día y tengo una señora que viene a hacer el aseo.",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_faccende_07",
+      "it": "Amo l'ordine.",
+      "es": "Amo el orden.",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_faccende_08",
+      "it": "Oggi a casa abbiamo bisogno di pulire la cucina.",
+      "es": "Hoy en casa necesitamos limpiar la cocina.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_faccende_09",
+      "it": "In cucina c'è un po' di disordine.",
+      "es": "En la cocina hay un poco de desorden.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_faccende_10",
+      "it": "Hai ragione. Andiamo a casa, ci vediamo più tardi!",
+      "es": "Tienes razón. Vamos a casa, ¡nos vemos más tarde!",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_faccende_11",
+      "it": "Va bene, magari stasera per un gelato?",
+      "es": "Está bien, ¿quizás esta noche para un helado?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_faccende_12",
+      "it": "Buona idea! Ci sentiamo dopo!",
+      "es": "¡Buena idea! ¡Hablamos después!",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_faccende_13",
+      "it": "A dopo, ti mando un messaggio su whatsapp.",
+      "es": "Hasta luego, te mando un mensaje por WhatsApp.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_faccende_14",
+      "it": "Ciao!",
+      "es": "¡Chao!",
+      "speaker": "Michelangelo"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Quién hace las compras en casa de Giuditta?",
+      "options": [
+        "Su madre",
+        "Giuditta",
+        "Tommaso"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Quién hace el aseo en casa de Tommaso?",
+      "options": [
+        "Él mismo",
+        "Una señora que viene a limpiar",
+        "Su madre"
+      ],
+      "answer": 1,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Qué necesitan limpiar hoy en casa de Michelangelo?",
+      "options": [
+        "El baño",
+        "El garaje",
+        "La cocina"
+      ],
+      "answer": 2,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿Qué proponen hacer esta noche?",
+      "options": [
+        "Tomar un helado",
+        "Ir al cine",
+        "Estudiar"
+      ],
+      "answer": 0,
+      "evidence": 11
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

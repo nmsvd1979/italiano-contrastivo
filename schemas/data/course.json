@@ -88,7 +88,10 @@
       "codes": [
         "ERR_VOC_INTERROG"
       ],
-      "why_here": "Con ellas ya se pueden hacer preguntas desde el primer día."
+      "why_here": "Con ellas ya se pueden hacer preguntas desde el primer día.",
+      "readings": [
+        "rd_dovesei"
+      ]
     },
     {
       "id": "u04",
@@ -98,7 +101,10 @@
       "codes": [
         "ERR_TENERE_AVERE"
       ],
-      "why_here": "Léxico básico de A1 con calco muy frecuente."
+      "why_here": "Léxico básico de A1 con calco muy frecuente.",
+      "readings": [
+        "rd_faccende"
+      ]
     },
     {
       "id": "u14",
@@ -108,7 +114,10 @@
       "codes": [
         "ERR_PRESENT_ARE"
       ],
-      "why_here": "Es el grupo más grande de verbos y donde más pesa el calco de las terminaciones."
+      "why_here": "Es el grupo más grande de verbos y donde más pesa el calco de las terminaciones.",
+      "readings": [
+        "rd_routine"
+      ]
     },
     {
       "id": "u22",
@@ -183,7 +192,10 @@
       "codes": [
         "ERR_PRESENT_MODAL"
       ],
-      "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación."
+      "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación.",
+      "readings": [
+        "rd_poste"
+      ]
     },
     {
       "id": "u25",
@@ -193,7 +205,10 @@
       "codes": [
         "ERR_VOC_TEMPO"
       ],
-      "why_here": "Hablar de rutinas y planes."
+      "why_here": "Hablar de rutinas y planes.",
+      "readings": [
+        "rd_materie"
+      ]
     },
     {
       "id": "u26",
@@ -203,7 +218,10 @@
       "codes": [
         "ERR_VOC_NUMERI"
       ],
-      "why_here": "Edad, hora y precios aparecen desde el primer día."
+      "why_here": "Edad, hora y precios aparecen desde el primer día.",
+      "readings": [
+        "rd_bargello"
+      ]
     },
     {
       "id": "u01",
@@ -213,7 +231,10 @@
       "codes": [
         "ERR_POSSESSIVE_ARTICLE"
       ],
-      "why_here": "Las fuentes piden frenar este calco desde el primer día."
+      "why_here": "Las fuentes piden frenar este calco desde el primer día.",
+      "readings": [
+        "rd_comesei"
+      ]
     },
     {
       "id": "u02",
@@ -223,7 +244,10 @@
       "codes": [
         "ERR_POSSESSIVE_SPELLING"
       ],
-      "why_here": "Va justo después del artículo con posesivo: es la misma estructura vista por su forma."
+      "why_here": "Va justo después del artículo con posesivo: es la misma estructura vista por su forma.",
+      "readings": [
+        "rd_dati"
+      ]
     },
     {
       "id": "u27",
@@ -233,7 +257,10 @@
       "codes": [
         "ERR_VOC_CORPO"
       ],
-      "why_here": "Salud y descripciones; ejercita el género y el plural."
+      "why_here": "Salud y descripciones; ejercita el género y el plural.",
+      "readings": [
+        "rd_aspetto"
+      ]
     },
     {
       "id": "u07",
@@ -243,7 +270,10 @@
       "codes": [
         "ERR_ARTICLE_ALLOMORPH"
       ],
-      "why_here": "Cierra los artículos de A1 una vez vistas las contracciones."
+      "why_here": "Cierra los artículos de A1 una vez vistas las contracciones.",
+      "readings": [
+        "rd_passatempi"
+      ]
     },
     {
       "id": "u03",
@@ -253,7 +283,10 @@
       "codes": [
         "ERR_CE_AGREEMENT"
       ],
-      "why_here": "Estructura de uso inmediato en las primeras frases."
+      "why_here": "Estructura de uso inmediato en las primeras frases.",
+      "readings": [
+        "rd_viviamo"
+      ]
     },
     {
       "id": "u28",
@@ -273,7 +306,10 @@
       "codes": [
         "ERR_PREP_PLACE"
       ],
-      "why_here": "Preposiciones simples de A1."
+      "why_here": "Preposiciones simples de A1.",
+      "readings": [
+        "rd_spese"
+      ]
     },
     {
       "id": "u06",
@@ -283,7 +319,10 @@
       "codes": [
         "ERR_PREP_ARTICLE_CONTRACTION"
       ],
-      "why_here": "Se apoya en las preposiciones de la unidad anterior."
+      "why_here": "Se apoya en las preposiciones de la unidad anterior.",
+      "readings": [
+        "rd_signoria"
+      ]
     },
     {
       "id": "u29",
@@ -293,7 +332,10 @@
       "codes": [
         "ERR_VOC_LAVORO"
       ],
-      "why_here": "Cierra el vocabulario base de A1 con profesiones y objetos de estudio."
+      "why_here": "Cierra el vocabulario base de A1 con profesiones y objetos de estudio.",
+      "readings": [
+        "rd_lavoro"
+      ]
     },
     {
       "id": "u08",

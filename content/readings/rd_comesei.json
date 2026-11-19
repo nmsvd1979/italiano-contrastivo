@@ -1,0 +1,229 @@
+{
+  "id": "rd_comesei",
+  "title": "Come sei?",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/2-5-come-sei-lettura/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes. Se omiten las últimas líneas del diálogo.",
+  "sentences": [
+    {
+      "id": "rd_comesei_00",
+      "it": "Michelangelo telefona a Artemisia.",
+      "es": "Michelangelo llama por teléfono a Artemisia."
+    },
+    {
+      "id": "rd_comesei_01",
+      "it": "Pronto, chi parla?",
+      "es": "¿Aló, quién habla?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_comesei_02",
+      "it": "Sono Michelangelo.",
+      "es": "Soy Michelangelo.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_comesei_03",
+      "it": "Ciao Michelangelo, come stai?",
+      "es": "Hola, Michelangelo, ¿cómo estás?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_comesei_04",
+      "it": "Bene. Dove ci incontriamo oggi e a che ora?",
+      "es": "Bien. ¿Dónde nos encontramos hoy y a qué hora?",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_comesei_05",
+      "it": "Va bene in piazza Duomo davanti al Campanile di Giotto? Alle ore 10?",
+      "es": "¿Te parece bien en la plaza del Duomo, frente al Campanile de Giotto? ¿A las 10?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_comesei_06",
+      "it": "Va bene. Sei da sola?",
+      "es": "Está bien. ¿Estás sola?",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_comesei_07",
+      "it": "No, c'è mia sorella minore Giuditta. Va bene?",
+      "es": "No, está mi hermana menor Giuditta. ¿Está bien?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_comesei_08",
+      "it": "Sì, c'è anche il mio ragazzo, Tommaso.",
+      "es": "Sí, también está mi novio, Tommaso.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_comesei_09",
+      "it": "Sei fidanzato?",
+      "es": "¿Tienes pareja?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_comesei_10",
+      "it": "Non ancora. Tommaso abita a Roma.",
+      "es": "Todavía no. Tommaso vive en Roma.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_comesei_11",
+      "it": "Com'è Tommaso?",
+      "es": "¿Cómo es Tommaso?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_comesei_12",
+      "it": "Tommaso ha ventotto anni.",
+      "es": "Tommaso tiene veintiocho años.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_comesei_13",
+      "it": "È giovane, alto, magro.",
+      "es": "Es joven, alto, delgado.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_comesei_14",
+      "it": "Ha i capelli bruni e ricci e un bel sorriso.",
+      "es": "Tiene el pelo castaño y rizado y una linda sonrisa.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_comesei_15",
+      "it": "È molto affettuoso.",
+      "es": "Es muy cariñoso.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_comesei_16",
+      "it": "È un avvocato.",
+      "es": "Es abogado.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_comesei_17",
+      "it": "E com'è tua sorella Giuditta?",
+      "es": "¿Y cómo es tu hermana Giuditta?",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_comesei_18",
+      "it": "Mia sorella Giuditta ha 15 anni: è piccola.",
+      "es": "Mi hermana Giuditta tiene 15 años: es pequeña.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_comesei_19",
+      "it": "Lei non è alta, ma non è bassa.",
+      "es": "Ella no es alta, pero tampoco es baja.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_comesei_20",
+      "it": "Ha i capelli lunghi e biondi.",
+      "es": "Tiene el pelo largo y rubio.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_comesei_21",
+      "it": "Ama l'arte come me.",
+      "es": "Ama el arte como yo.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_comesei_22",
+      "it": "Lei è studentessa al liceo artistico.",
+      "es": "Ella es estudiante en el liceo artístico.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_comesei_23",
+      "it": "Com'è la tua famiglia?",
+      "es": "¿Cómo es tu familia?",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_comesei_24",
+      "it": "La mia famiglia non è unita.",
+      "es": "Mi familia no está unida.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_comesei_25",
+      "it": "Mia madre e mia sorella abitano a Roma.",
+      "es": "Mi madre y mi hermana viven en Roma.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_comesei_26",
+      "it": "Adesso io abito a Firenze perché studio qui.",
+      "es": "Ahora yo vivo en Florencia porque estudio aquí.",
+      "speaker": "Artemisia"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Dónde se van a encontrar?",
+      "options": [
+        "En la plaza del Duomo",
+        "En el museo",
+        "En casa de Tommaso"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Cuántos años tiene Tommaso?",
+      "options": [
+        "Quince",
+        "Veintiocho",
+        "Treinta"
+      ],
+      "answer": 1,
+      "evidence": 12
+    },
+    {
+      "prompt_es": "¿Dónde vive Tommaso?",
+      "options": [
+        "En Florencia",
+        "En Siria",
+        "En Roma"
+      ],
+      "answer": 2,
+      "evidence": 10
+    },
+    {
+      "prompt_es": "¿Cómo es el pelo de Giuditta?",
+      "options": [
+        "Largo y rubio",
+        "Corto y rizado",
+        "Castaño"
+      ],
+      "answer": 0,
+      "evidence": 20
+    },
+    {
+      "prompt_es": "¿Por qué vive Artemisia en Florencia?",
+      "options": [
+        "Porque trabaja allí",
+        "Porque estudia allí",
+        "Porque su novio vive allí"
+      ],
+      "answer": 1,
+      "evidence": 26
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

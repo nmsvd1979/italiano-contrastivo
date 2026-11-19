@@ -1,0 +1,118 @@
+{
+  "id": "rd_spese",
+  "title": "Fare le spese",
+  "level": "A1",
+  "kind": "lectura",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-fare-le-spese/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y el paréntesis con la lista de objetos.",
+  "sentences": [
+    {
+      "id": "rd_spese_00",
+      "it": "Gli italiani fanno le spese al centro commerciale, in rete e ai mercati all'aperto.",
+      "es": "Los italianos hacen sus compras en el centro comercial, por internet y en los mercados al aire libre."
+    },
+    {
+      "id": "rd_spese_01",
+      "it": "Molti fanno le spese in rete, ma altri preferiscono fare le spese al centro commerciale o al mercato perché preferiscono provare i vestiti o preferiscono pagare in contanti invece che usare la carta di credito o la carta bancomat.",
+      "es": "Muchos compran por internet, pero otros prefieren comprar en el centro comercial o en el mercado porque prefieren probarse la ropa o pagar en efectivo en vez de usar la tarjeta de crédito o la tarjeta de débito."
+    },
+    {
+      "id": "rd_spese_02",
+      "it": "In tutte le città italiane c'è la tradizione dei mercati all'aperto.",
+      "es": "En todas las ciudades italianas existe la tradición de los mercados al aire libre."
+    },
+    {
+      "id": "rd_spese_03",
+      "it": "Un giorno alla settimana i venditori ambulanti arrivano in una piazza o una strada della città e montano i loro banchi.",
+      "es": "Un día a la semana los vendedores ambulantes llegan a una plaza o a una calle de la ciudad y arman sus puestos."
+    },
+    {
+      "id": "rd_spese_04",
+      "it": "In questi mercati si vende un po' di tutto: abbigliamento, scarpe, oggetti per la casa, frutta, verdura, salumi e formaggi, eccetera.",
+      "es": "En estos mercados se vende un poco de todo: ropa, zapatos, objetos para la casa, fruta, verdura, fiambres, quesos, etcétera."
+    },
+    {
+      "id": "rd_spese_05",
+      "it": "I mercati all'aperto sono molto popolari perché i prezzi sono più bassi dei prezzi dei negozi e dei centri commerciali.",
+      "es": "Los mercados al aire libre son muy populares porque los precios son más bajos que los de las tiendas y los centros comerciales."
+    },
+    {
+      "id": "rd_spese_06",
+      "it": "Per gli alimentari gli italiani fanno la spesa al supermercato o nei piccoli negozi di alimentari.",
+      "es": "Para los alimentos, los italianos compran en el supermercado o en las pequeñas tiendas de alimentos."
+    },
+    {
+      "id": "rd_spese_07",
+      "it": "In Italia ci sono ancora molti piccoli negozi di alimentari, forni e negozi di frutta e verdura.",
+      "es": "En Italia todavía hay muchas tiendas pequeñas de alimentos, panaderías y verdulerías."
+    },
+    {
+      "id": "rd_spese_08",
+      "it": "I prezzi sono più alti dei prezzi al supermercato, ma i negozi sono spesso locati nel centro della città ed è facile fare la spesa a piedi.",
+      "es": "Los precios son más altos que en el supermercado, pero las tiendas suelen estar en el centro de la ciudad y es fácil hacer las compras a pie."
+    },
+    {
+      "id": "rd_spese_09",
+      "it": "Molti italiani amano fare la spesa quasi tutti i giorni e comprare cibo fresco quando ne hanno bisogno.",
+      "es": "A muchos italianos les gusta hacer las compras casi todos los días y comprar comida fresca cuando la necesitan."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cuándo llegan los vendedores ambulantes a la plaza?",
+      "options": [
+        "Un día a la semana",
+        "Todos los días",
+        "Una vez al mes"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Por qué son populares los mercados al aire libre?",
+      "options": [
+        "Porque son más modernos",
+        "Porque los precios son más bajos",
+        "Porque abren de noche"
+      ],
+      "answer": 1,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Qué se vende en esos mercados?",
+      "options": [
+        "Solo fruta",
+        "Solo ropa",
+        "Un poco de todo"
+      ],
+      "answer": 2,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Cómo son los precios de las tiendas pequeñas de alimentos comparados con el supermercado?",
+      "options": [
+        "Más altos",
+        "Más bajos",
+        "Iguales"
+      ],
+      "answer": 0,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿Cada cuánto compran comida fresca muchos italianos?",
+      "options": [
+        "Una vez a la semana",
+        "Casi todos los días",
+        "Una vez al mes"
+      ],
+      "answer": 1,
+      "evidence": 9
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

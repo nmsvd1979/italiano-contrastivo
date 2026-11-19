@@ -567,6 +567,9 @@
         "ERR_VOC_INTERROG"
       ],
       "why_here": "Con ellas ya se pueden hacer preguntas desde el primer día.",
+      "readings": [
+        "rd_dovesei"
+      ],
       "status": "active",
       "explanation_es": "Las palabras para preguntar: dove (dónde), quando (cuándo), perché (por qué y también «porque»), come (cómo), chi (quién), quanto (cuánto), quale (cuál), cosa (qué). Ojo: en italiano no hay signo de apertura (¿) y «perché» sirve para preguntar y para responder.",
       "parts": {
@@ -662,6 +665,9 @@
         "ERR_TENERE_AVERE"
       ],
       "why_here": "Léxico básico de A1 con calco muy frecuente.",
+      "readings": [
+        "rd_faccende"
+      ],
       "status": "active",
       "explanation_es": "'Tener' del español corresponde a avere (hai ragione), no a tenere (sostener, mantener).",
       "parts": {
@@ -764,6 +770,9 @@
         "ERR_PRESENT_ARE"
       ],
       "why_here": "Es el grupo más grande de verbos y donde más pesa el calco de las terminaciones.",
+      "readings": [
+        "rd_routine"
+      ],
       "status": "active",
       "explanation_es": "Los verbos en -are hacen el presente con -o, -i, -a, -iamo, -ate, -ano. El español dice -as, -amos, -áis, -an: «parlas», «parlamos» o «parlan» no existen en italiano (tu parli, noi parliamo, voi parlate, loro parlano).",
       "parts": {
@@ -1353,6 +1362,9 @@
         "ERR_PRESENT_MODAL"
       ],
       "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación.",
+      "readings": [
+        "rd_poste"
+      ],
       "status": "active",
       "explanation_es": "Volere, potere y dovere son irregulares y muy frecuentes: voglio, vuoi, vuole, vogliamo, volete, vogliono / posso, puoi, può, possiamo, potete, possono / devo, devi, deve, dobbiamo, dovete, devono. Van con un infinitivo: voglio mangiare.",
       "parts": {
@@ -1449,6 +1461,9 @@
         "ERR_VOC_TEMPO"
       ],
       "why_here": "Hablar de rutinas y planes.",
+      "readings": [
+        "rd_materie"
+      ],
       "status": "active",
       "explanation_es": "Giorno, settimana, mese, anno; lunedì, martedì…; estate, inverno. Los días de la semana (salvo domenica) son masculinos y no llevan mayúscula: il lunedì, di sabato.",
       "parts": {
@@ -1542,6 +1557,9 @@
         "ERR_VOC_NUMERI"
       ],
       "why_here": "Edad, hora y precios aparecen desde el primer día.",
+      "readings": [
+        "rd_bargello"
+      ],
       "status": "active",
       "explanation_es": "Due, tre, quattro… venti, cento, mille. «Sei» (6) se escribe igual que «tú eres» y «uno» cambia (un libro, una casa). Los números del 11 al 16 terminan en -dici (undici, dodici, tredici…).",
       "parts": {
@@ -1639,6 +1657,9 @@
         "ERR_POSSESSIVE_ARTICLE"
       ],
       "why_here": "Las fuentes piden frenar este calco desde el primer día.",
+      "readings": [
+        "rd_comesei"
+      ],
       "status": "active",
       "explanation_es": "En italiano el posesivo lleva artículo (il mio libro), salvo con parentesco singular (mio fratello). El español 'mi libro' no lo lleva, y 'mi hermano' tampoco, lo que induce a omitirlo o a sobreusarlo.",
       "parts": {
@@ -1736,6 +1757,9 @@
         "ERR_POSSESSIVE_SPELLING"
       ],
       "why_here": "Va justo después del artículo con posesivo: es la misma estructura vista por su forma.",
+      "readings": [
+        "rd_dati"
+      ],
       "status": "active",
       "explanation_es": "El posesivo español 'mi' se escribe mio en italiano cuando es masculino singular.",
       "parts": {
@@ -1831,6 +1855,9 @@
         "ERR_VOC_CORPO"
       ],
       "why_here": "Salud y descripciones; ejercita el género y el plural.",
+      "readings": [
+        "rd_aspetto"
+      ],
       "status": "active",
       "explanation_es": "Testa, mano, occhio, braccio, sangue… Ojo con el género y con los plurales raros: la mano → le mani, l'occhio → gli occhi, il braccio → le braccia, il sangue (masculino, a diferencia del español «la sangre»).",
       "parts": {
@@ -1927,6 +1954,9 @@
         "ERR_ARTICLE_ALLOMORPH"
       ],
       "why_here": "Cierra los artículos de A1 una vez vistas las contracciones.",
+      "readings": [
+        "rd_passatempi"
+      ],
       "status": "active",
       "explanation_es": "Elección il / lo / l': il studente, il stesso Dante e il amore son errores frecuentes de hispanohablantes.",
       "parts": {
@@ -2018,6 +2048,9 @@
         "ERR_CE_AGREEMENT"
       ],
       "why_here": "Estructura de uso inmediato en las primeras frases.",
+      "readings": [
+        "rd_viviamo"
+      ],
       "status": "active",
       "explanation_es": "C'è se usa con singular y ci sono con plural; el español 'hay' no varía.",
       "parts": {
@@ -2206,6 +2239,9 @@
         "ERR_PREP_PLACE"
       ],
       "why_here": "Preposiciones simples de A1.",
+      "readings": [
+        "rd_spese"
+      ],
       "status": "active",
       "explanation_es": "Con ciudades se usa a (vivo a Roma, arrivo a Roma); con países y regiones, in (vado in Italia). El español usa 'en' para vivir y 'a' para ir sin distinguir ciudad de país.",
       "parts": {
@@ -2297,6 +2333,9 @@
         "ERR_PREP_ARTICLE_CONTRACTION"
       ],
       "why_here": "Se apoya en las preposiciones de la unidad anterior.",
+      "readings": [
+        "rd_signoria"
+      ],
       "status": "active",
       "explanation_es": "El italiano funde preposición y artículo (in + la = nella); el español deja 'en la' separado.",
       "parts": {
@@ -2395,6 +2434,9 @@
         "ERR_VOC_LAVORO"
       ],
       "why_here": "Cierra el vocabulario base de A1 con profesiones y objetos de estudio.",
+      "readings": [
+        "rd_lavoro"
+      ],
       "status": "active",
       "explanation_es": "Libro, penna, classe, studente, lavoro, ufficio, medico… Las profesiones suelen tener forma masculina y femenina: lo studente / la studentessa, il professore / la professoressa.",
       "parts": {

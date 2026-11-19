@@ -1,0 +1,148 @@
+{
+  "id": "rd_passatempi",
+  "title": "I passatempi degli italiani",
+  "level": "A1",
+  "kind": "lectura",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-i-passatempi-degli-italiani/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se resumió el texto a sus ideas principales.",
+  "sentences": [
+    {
+      "id": "rd_passatempi_00",
+      "it": "Quali sono gli hobby degli italiani nel tempo libero?",
+      "es": "¿Cuáles son los pasatiempos de los italianos en su tiempo libre?"
+    },
+    {
+      "id": "rd_passatempi_01",
+      "it": "Ecco alcuni dei passatempi preferiti degli italiani!",
+      "es": "¡Aquí hay algunos de los pasatiempos favoritos de los italianos!"
+    },
+    {
+      "id": "rd_passatempi_02",
+      "it": "Lo sport.",
+      "es": "El deporte."
+    },
+    {
+      "id": "rd_passatempi_03",
+      "it": "Sei italiani su dieci hanno dichiarato di praticare regolarmente un'attività sportiva, come per esempio fare ciclismo, andare in palestra, seguire un corso, giocare a calcio o a tennis con gli amici.",
+      "es": "Seis de cada diez italianos declararon practicar regularmente una actividad deportiva, como andar en bicicleta, ir al gimnasio, hacer un curso, jugar fútbol o tenis con amigos."
+    },
+    {
+      "id": "rd_passatempi_04",
+      "it": "Gli italiani amano anche guardare sport alla TV.",
+      "es": "A los italianos también les gusta ver deporte en la televisión."
+    },
+    {
+      "id": "rd_passatempi_05",
+      "it": "Lo sport preferito degli italiani è il calcio.",
+      "es": "El deporte favorito de los italianos es el fútbol."
+    },
+    {
+      "id": "rd_passatempi_06",
+      "it": "Guardare la TV.",
+      "es": "Ver televisión."
+    },
+    {
+      "id": "rd_passatempi_07",
+      "it": "L'86% degli italiani guarda la TV ogni giorno.",
+      "es": "El 86 % de los italianos ve televisión todos los días."
+    },
+    {
+      "id": "rd_passatempi_08",
+      "it": "Cinema e teatro.",
+      "es": "Cine y teatro."
+    },
+    {
+      "id": "rd_passatempi_09",
+      "it": "Andare al cinema è uno degli hobby preferiti dagli italiani.",
+      "es": "Ir al cine es uno de los pasatiempos favoritos de los italianos."
+    },
+    {
+      "id": "rd_passatempi_10",
+      "it": "Circa il 50% degli italiani va al cinema regolarmente.",
+      "es": "Alrededor del 50 % de los italianos va al cine regularmente."
+    },
+    {
+      "id": "rd_passatempi_11",
+      "it": "Questo hobby è soprattutto amato dai giovani tra i 18 e i 25 anni.",
+      "es": "Este pasatiempo gusta sobre todo a los jóvenes de entre 18 y 25 años."
+    },
+    {
+      "id": "rd_passatempi_12",
+      "it": "Solo il 20% degli italiani va regolarmente a teatro.",
+      "es": "Solo el 20 % de los italianos va regularmente al teatro."
+    },
+    {
+      "id": "rd_passatempi_13",
+      "it": "Cucinare.",
+      "es": "Cocinar."
+    },
+    {
+      "id": "rd_passatempi_14",
+      "it": "La cucina italiana è conosciuta in tutto il mondo.",
+      "es": "La cocina italiana es conocida en todo el mundo."
+    },
+    {
+      "id": "rd_passatempi_15",
+      "it": "Gli italiani cucinano molto e cucinare è un'abitudine quotidiana.",
+      "es": "Los italianos cocinan mucho y cocinar es un hábito diario."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cuál es el deporte favorito de los italianos?",
+      "options": [
+        "El fútbol",
+        "El tenis",
+        "El baloncesto"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Cuántos italianos ven televisión todos los días?",
+      "options": [
+        "El 50 %",
+        "El 86 %",
+        "El 20 %"
+      ],
+      "answer": 1,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿A quiénes les gusta sobre todo ir al cine?",
+      "options": [
+        "A los niños",
+        "A los mayores de 60",
+        "A los jóvenes de 18 a 25 años"
+      ],
+      "answer": 2,
+      "evidence": 11
+    },
+    {
+      "prompt_es": "¿Qué porcentaje va regularmente al teatro?",
+      "options": [
+        "El 20 %",
+        "El 50 %",
+        "El 86 %"
+      ],
+      "answer": 0,
+      "evidence": 12
+    },
+    {
+      "prompt_es": "¿De qué es famosa la cocina italiana?",
+      "options": [
+        "Es solo para fiestas",
+        "Es conocida en todo el mundo",
+        "Es poco popular"
+      ],
+      "answer": 1,
+      "evidence": 14
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

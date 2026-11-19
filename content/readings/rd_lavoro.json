@@ -1,0 +1,111 @@
+{
+  "id": "rd_lavoro",
+  "title": "Cercare lavoro",
+  "level": "A2",
+  "kind": "lectura",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-cercare-lavoro/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se tomó solo el comienzo (los avisos de trabajo no se incluyen).",
+  "sentences": [
+    {
+      "id": "rd_lavoro_00",
+      "it": "Laura e Marco hanno finito l'università e ora cercano un lavoro.",
+      "es": "Laura y Marco terminaron la universidad y ahora buscan trabajo."
+    },
+    {
+      "id": "rd_lavoro_01",
+      "it": "Laura ha fatto qualche colloquio di lavoro, ma nessun colloquio era per un lavoro a tempo pieno.",
+      "es": "Laura tuvo algunas entrevistas de trabajo, pero ninguna era para un trabajo de jornada completa."
+    },
+    {
+      "id": "rd_lavoro_02",
+      "it": "Erano tutti colloqui per tirocini.",
+      "es": "Todas eran entrevistas para prácticas."
+    },
+    {
+      "id": "rd_lavoro_03",
+      "it": "Laura vuole un lavoro a tempo pieno, con un buono stipendio.",
+      "es": "Laura quiere un trabajo de jornada completa, con un buen sueldo."
+    },
+    {
+      "id": "rd_lavoro_04",
+      "it": "Non vuole né un tirocinio né un lavoro part-time.",
+      "es": "No quiere ni una práctica ni un trabajo de media jornada."
+    },
+    {
+      "id": "rd_lavoro_05",
+      "it": "Marco ha appena cominciato a cercare lavoro ed è pronto a prendere qualsiasi lavoro nel suo campo, ma vuole rimanere a Siena.",
+      "es": "Marco acaba de empezar a buscar trabajo y está dispuesto a aceptar cualquier trabajo de su área, pero quiere quedarse en Siena."
+    },
+    {
+      "id": "rd_lavoro_06",
+      "it": "Oggi Laura e Marco hanno deciso di controllare di nuovo gli annunci di offerta di lavoro in rete.",
+      "es": "Hoy Laura y Marco decidieron revisar de nuevo los avisos de ofertas de trabajo en internet."
+    },
+    {
+      "id": "rd_lavoro_07",
+      "it": "Laurea in Economia e Commercio, Università di Siena.",
+      "es": "Título en Economía y Comercio, Universidad de Siena.",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_lavoro_08",
+      "it": "Lingue straniere: inglese (fluente), francese (fluente), spagnolo (base).",
+      "es": "Idiomas extranjeros: inglés (fluido), francés (fluido), español (básico).",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_lavoro_09",
+      "it": "Laurea in Infermieristica, Università di Siena.",
+      "es": "Título en Enfermería, Universidad de Siena.",
+      "speaker": "Marco"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué tipo de trabajo quiere Laura?",
+      "options": [
+        "Jornada completa con buen sueldo",
+        "Media jornada",
+        "Una práctica"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Dónde quiere quedarse Marco?",
+      "options": [
+        "En Roma",
+        "En Siena",
+        "En Florencia"
+      ],
+      "answer": 1,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Qué idioma sabe Laura solo a nivel básico?",
+      "options": [
+        "Inglés",
+        "Francés",
+        "Español"
+      ],
+      "answer": 2,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿Qué estudió Marco?",
+      "options": [
+        "Enfermería",
+        "Economía",
+        "Medicina"
+      ],
+      "answer": 0,
+      "evidence": 9
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}
