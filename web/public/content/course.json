@@ -368,6 +368,9 @@
         "ERR_PRESENT_ESSERE_AVERE"
       ],
       "why_here": "Son la base de casi todo lo demás: presentarse, describir y los tiempos compuestos.",
+      "readings": [
+        "rd_zaino"
+      ],
       "status": "active",
       "explanation_es": "Essere y avere son irregulares: sono, sei, è, siamo, siete, sono / ho, hai, ha, abbiamo, avete, hanno. Ojo: «sono» sirve para «yo soy» y «ellos son», y la h de ho, hai, ha, hanno no se pronuncia.",
       "parts": {
@@ -453,6 +456,9 @@
         "ERR_VOC_FAMILIA"
       ],
       "why_here": "Primer vocabulario: hablar de ti y de tu gente.",
+      "readings": [
+        "rd_incontro"
+      ],
       "status": "active",
       "explanation_es": "Madre, padre, hermano, hijo, amigo… Fíjate en el género y el artículo: il padre / la madre, i figli / le figlie. «Genitori» significa «los padres» (madre y padre), no «parientes».",
       "parts": {
@@ -796,6 +802,9 @@
         "ERR_VOC_CIBO"
       ],
       "why_here": "Vocabulario de uso inmediato para pedir y hablar de lo que comes.",
+      "readings": [
+        "rd_ristorante"
+      ],
       "status": "active",
       "explanation_es": "Pane, latte, acqua, mela, pesce… Ojo con los falsos amigos: «burro» es mantequilla, no el animal; «torta» es pastel, no una torta de pan. Casi todas las palabras de comida tienen artículo: il pane, la carne, l'acqua.",
       "parts": {
@@ -1047,6 +1056,9 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques.",
+      "readings": [
+        "rd_giornata"
+      ],
       "status": "active",
       "explanation_es": "Andare, fare, stare, venire, dare, dire, sapere y uscire son irregulares y no siguen la regla: vado, vai, va, andiamo, andate, vanno. Hay que aprender cada forma; la persona la marca la terminación, no solo el sujeto.",
       "parts": {

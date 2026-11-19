@@ -164,7 +164,7 @@ export function meaningQuestions(cards: NoticeCard[], pool: PackSentence[] = [],
   });
 }
 
-/** Segundos estimados de cada paso de la unidad (la cápsula cuenta explicación + trigger + sus ítems). */
+/** Lectura asignada a la unidad (si la tiene y el paquete la trae). */
 export function readingOf(unit: Unit, pack: ContentPack) {
   return (pack.readings ?? []).find((r) => unit.readings?.includes(r.id));
 }

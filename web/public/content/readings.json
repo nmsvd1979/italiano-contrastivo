@@ -1,0 +1,765 @@
+[
+  {
+    "id": "rd_giornata",
+    "title": "La giornata di Francesco",
+    "level": "A1",
+    "kind": "lectura",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-la-giornata-di-francesco/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué día es hoy?",
+        "options": [
+          "Lunes",
+          "Martes",
+          "Domingo"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Con quién come Francesco a las 12:30?",
+        "options": [
+          "Con sus amigos",
+          "Solo",
+          "Con Elena"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Dónde estudia con Elena?",
+        "options": [
+          "En la biblioteca",
+          "En casa",
+          "En el gimnasio"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué hace en el gimnasio?",
+        "options": [
+          "Corre y levanta pesas",
+          "Juega al fútbol",
+          "Nada"
+        ],
+        "answer": 0,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿A qué hora se acuesta?",
+        "options": [
+          "A medianoche",
+          "A las 22:00",
+          "A las 19:00"
+        ],
+        "answer": 0,
+        "evidence": 9
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_giornata_00",
+        "it": "Oggi è lunedì e Francesco ha molto da fare.",
+        "es": "Hoy es lunes y Francesco tiene mucho que hacer.",
+        "audio": "b38f43b17839"
+      },
+      {
+        "id": "rd_giornata_01",
+        "it": "Alle 8:30 ha lezione di matematica.",
+        "es": "A las 8:30 tiene clase de matemáticas.",
+        "audio": "45342a71c26f"
+      },
+      {
+        "id": "rd_giornata_02",
+        "it": "Dopo la lezione di matematica, dalle 10:00 alle 12:00, deve incontrare il professore di macroeconomia per dare un esame.",
+        "es": "Después de la clase de matemáticas, de 10:00 a 12:00, debe encontrarse con el profesor de macroeconomía para dar un examen.",
+        "audio": "6ced4dd76d5b"
+      },
+      {
+        "id": "rd_giornata_03",
+        "it": "Alle 12:30 va alla paninoteca in centro per mangiare un panino con gli amici.",
+        "es": "A las 12:30 va a la sandwichería del centro para comer un bocadillo con los amigos.",
+        "audio": "5ba747773fb0"
+      },
+      {
+        "id": "rd_giornata_04",
+        "it": "Dopo pranzo ha lezione di chimica dalle 14:00 alle 15:20.",
+        "es": "Después del almuerzo tiene clase de química de 14:00 a 15:20.",
+        "audio": "5d2c25150764"
+      },
+      {
+        "id": "rd_giornata_05",
+        "it": "Alle 16:00 incontra Elena in biblioteca per studiare e fare i compiti.",
+        "es": "A las 16:00 se encuentra con Elena en la biblioteca para estudiar y hacer las tareas.",
+        "audio": "4dcad0c7feb0"
+      },
+      {
+        "id": "rd_giornata_06",
+        "it": "Alle 19:00 va in palestra a fare esercizio: corre per trenta minuti e poi solleva pesi.",
+        "es": "A las 19:00 va al gimnasio a hacer ejercicio: corre treinta minutos y luego levanta pesas.",
+        "audio": "7106d73ccc6c"
+      },
+      {
+        "id": "rd_giornata_07",
+        "it": "Dopo va a casa e prepara la cena.",
+        "es": "Después va a casa y prepara la cena.",
+        "audio": "76ead2aaed2d"
+      },
+      {
+        "id": "rd_giornata_08",
+        "it": "Dopo cena guarda un po' di TV e poi legge un libro.",
+        "es": "Después de la cena mira un poco de televisión y luego lee un libro.",
+        "audio": "77caa459004b"
+      },
+      {
+        "id": "rd_giornata_09",
+        "it": "A mezzanotte va a letto.",
+        "es": "A medianoche se va a la cama.",
+        "audio": "6d4d6275f463"
+      },
+      {
+        "id": "rd_giornata_10",
+        "it": "È molto stanco!!",
+        "es": "¡Está muy cansado!",
+        "audio": "5828bb667be1"
+      }
+    ]
+  },
+  {
+    "id": "rd_incontro",
+    "title": "Un incontro",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-un-incontro/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿De dónde es Francesco?",
+        "options": [
+          "De Florencia",
+          "De Siena",
+          "De Roma"
+        ],
+        "answer": 0,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Cuántos años tiene Elena?",
+        "options": [
+          "Veintiuno",
+          "Veintitrés",
+          "Veinte"
+        ],
+        "answer": 0,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Con quién vive Elena?",
+        "options": [
+          "Con su familia",
+          "Con un amigo",
+          "Sola"
+        ],
+        "answer": 0,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Cuántas hermanas tiene Francesco?",
+        "options": [
+          "Una",
+          "Dos",
+          "Tres"
+        ],
+        "answer": 1,
+        "evidence": 11
+      },
+      {
+        "prompt_es": "¿Dónde viven los abuelos de Elena?",
+        "options": [
+          "Fuera de la ciudad",
+          "En el centro",
+          "En Florencia"
+        ],
+        "answer": 0,
+        "evidence": 15
+      },
+      {
+        "prompt_es": "¿Con quién alquila Francesco su apartamento?",
+        "options": [
+          "Con un amigo",
+          "Con su familia",
+          "Con Elena"
+        ],
+        "answer": 0,
+        "evidence": 17
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_incontro_00",
+        "it": "Ciao!",
+        "es": "¡Hola!",
+        "speaker": "Francesco",
+        "audio": "30301a6382b2"
+      },
+      {
+        "id": "rd_incontro_01",
+        "it": "Mi chiamo Francesco.",
+        "es": "Me llamo Francesco.",
+        "speaker": "Francesco",
+        "audio": "e7c6d4a58067"
+      },
+      {
+        "id": "rd_incontro_02",
+        "it": "Sono di Firenze e ho ventitré anni.",
+        "es": "Soy de Florencia y tengo veintitrés años.",
+        "speaker": "Francesco",
+        "audio": "88b9cdc193d8"
+      },
+      {
+        "id": "rd_incontro_03",
+        "it": "Ciao, mi chiamo Elena.",
+        "es": "Hola, me llamo Elena.",
+        "speaker": "Elena",
+        "audio": "8d21524852c8"
+      },
+      {
+        "id": "rd_incontro_04",
+        "it": "Ho ventuno anni e sono di Siena.",
+        "es": "Tengo veintiún años y soy de Siena.",
+        "speaker": "Elena",
+        "audio": "5b60fd533e8c"
+      },
+      {
+        "id": "rd_incontro_05",
+        "it": "Da quanto tempo studi all'Università di Siena?",
+        "es": "¿Desde hace cuánto tiempo estudias en la Universidad de Siena?",
+        "speaker": "Francesco",
+        "audio": "7995e013820c"
+      },
+      {
+        "id": "rd_incontro_06",
+        "it": "Studio a Siena da un anno e tu?",
+        "es": "Estudio en Siena desde hace un año, ¿y tú?",
+        "speaker": "Elena",
+        "audio": "0b8e851db411"
+      },
+      {
+        "id": "rd_incontro_07",
+        "it": "Studio a Siena da due anni.",
+        "es": "Estudio en Siena desde hace dos años.",
+        "speaker": "Francesco",
+        "audio": "480021f95540"
+      },
+      {
+        "id": "rd_incontro_08",
+        "it": "Abiti a casa con la tua famiglia?",
+        "es": "¿Vives en casa con tu familia?",
+        "speaker": "Francesco",
+        "audio": "3f6e10e5d327"
+      },
+      {
+        "id": "rd_incontro_09",
+        "it": "Sì, abito con la mia famiglia: mio padre, mia madre, mio fratello Nicola e mia sorella Michela.",
+        "es": "Sí, vivo con mi familia: mi padre, mi madre, mi hermano Nicola y mi hermana Michela.",
+        "speaker": "Elena",
+        "audio": "3f577a60b87e"
+      },
+      {
+        "id": "rd_incontro_10",
+        "it": "Tu hai fratelli o sorelle?",
+        "es": "¿Tú tienes hermanos o hermanas?",
+        "speaker": "Elena",
+        "audio": "6f4bc4286ae8"
+      },
+      {
+        "id": "rd_incontro_11",
+        "it": "Sì, ho due sorelle.",
+        "es": "Sí, tengo dos hermanas.",
+        "speaker": "Francesco",
+        "audio": "75d923f256f4"
+      },
+      {
+        "id": "rd_incontro_12",
+        "it": "Si chiamano Antonella e Daniela.",
+        "es": "Se llaman Antonella y Daniela.",
+        "speaker": "Francesco",
+        "audio": "8dd2c9ff87a9"
+      },
+      {
+        "id": "rd_incontro_13",
+        "it": "Hai molti parenti in città?",
+        "es": "¿Tienes muchos parientes en la ciudad?",
+        "speaker": "Francesco",
+        "audio": "1cd40c6679cd"
+      },
+      {
+        "id": "rd_incontro_14",
+        "it": "Sì, ho tre zii, due zie e molti cugini.",
+        "es": "Sí, tengo tres tíos, dos tías y muchos primos.",
+        "speaker": "Elena",
+        "audio": "ab60249317f2"
+      },
+      {
+        "id": "rd_incontro_15",
+        "it": "I miei nonni abitano fuori città.",
+        "es": "Mis abuelos viven fuera de la ciudad.",
+        "speaker": "Elena",
+        "audio": "325830113359"
+      },
+      {
+        "id": "rd_incontro_16",
+        "it": "Tu affitti un appartamento in città?",
+        "es": "¿Tú alquilas un apartamento en la ciudad?",
+        "speaker": "Elena",
+        "audio": "3c328432ba6c"
+      },
+      {
+        "id": "rd_incontro_17",
+        "it": "Sì, affitto un appartamento in centro con un amico.",
+        "es": "Sí, alquilo un apartamento en el centro con un amigo.",
+        "speaker": "Francesco",
+        "audio": "cf5dd01913e8"
+      },
+      {
+        "id": "rd_incontro_18",
+        "it": "L'appartamento è in quel grande palazzo grigio vicino alla biblioteca.",
+        "es": "El apartamento está en aquel gran edificio gris cerca de la biblioteca.",
+        "speaker": "Francesco",
+        "audio": "c6b5f7c0c932"
+      },
+      {
+        "id": "rd_incontro_19",
+        "it": "Ci sono due camere, un bagno, un grande salotto e una piccola cucina.",
+        "es": "Hay dos habitaciones, un baño, un gran salón y una pequeña cocina.",
+        "speaker": "Francesco",
+        "audio": "70764d4fe772"
+      },
+      {
+        "id": "rd_incontro_20",
+        "it": "Amo il nostro appartamento!",
+        "es": "¡Amo nuestro apartamento!",
+        "speaker": "Francesco",
+        "audio": "57ee5ec08a14"
+      }
+    ]
+  },
+  {
+    "id": "rd_ristorante",
+    "title": "Al ristorante",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-al-ristorante/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Quién ofrece pagar la cuenta?",
+        "options": [
+          "Elena",
+          "Francesco",
+          "El camarero"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Qué pide Elena de segundo plato?",
+        "options": [
+          "Asado de cerdo",
+          "Pescado",
+          "Pollo"
+        ],
+        "answer": 0,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Por qué Francesco pide solo una ensalada?",
+        "options": [
+          "No tiene mucha hambre",
+          "No le gusta la pasta",
+          "No tiene dinero"
+        ],
+        "answer": 0,
+        "evidence": 15
+      },
+      {
+        "prompt_es": "¿Qué desayunó Francesco?",
+        "options": [
+          "Huevos, pan tostado con mantequilla, yogur y jugo de naranja",
+          "Solo un café",
+          "Nada"
+        ],
+        "answer": 0,
+        "evidence": 17
+      },
+      {
+        "prompt_es": "¿Qué agua prefiere Elena?",
+        "options": [
+          "Natural",
+          "Con gas",
+          "Ninguna"
+        ],
+        "answer": 0,
+        "evidence": 25
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_ristorante_00",
+        "it": "Francesco ha incontrato Elena al ristorante in centro per pranzo.",
+        "es": "Francesco se encontró con Elena en el restaurante del centro para almorzar.",
+        "audio": "f5c0757a1f1f"
+      },
+      {
+        "id": "rd_ristorante_01",
+        "it": "Elena ha offerto di pagare il conto.",
+        "es": "Elena ofreció pagar la cuenta.",
+        "audio": "0cda082fc8f7"
+      },
+      {
+        "id": "rd_ristorante_02",
+        "it": "Il cameriere gli ha portato due menù.",
+        "es": "El camarero les trajo dos menús.",
+        "audio": "5bef369f149f"
+      },
+      {
+        "id": "rd_ristorante_03",
+        "it": "Francesco e Elena li hanno letti e ora decidono cosa ordinare.",
+        "es": "Francesco y Elena los leyeron y ahora deciden qué pedir.",
+        "audio": "741abf05a3a5"
+      },
+      {
+        "id": "rd_ristorante_04",
+        "it": "Cosa prendi?",
+        "es": "¿Qué tomas?",
+        "speaker": "Francesco",
+        "audio": "03e333a8310e"
+      },
+      {
+        "id": "rd_ristorante_05",
+        "it": "Un primo, un secondo e un contorno.",
+        "es": "Un primer plato, un segundo y una guarnición.",
+        "speaker": "Elena",
+        "audio": "15d90f28d1dd"
+      },
+      {
+        "id": "rd_ristorante_06",
+        "it": "Voglio la pasta al pesto e l'arrosto di maiale.",
+        "es": "Quiero la pasta al pesto y el asado de cerdo.",
+        "speaker": "Elena",
+        "audio": "2a435ec3754f"
+      },
+      {
+        "id": "rd_ristorante_07",
+        "it": "Per contorno prendo un'insalata.",
+        "es": "De guarnición tomo una ensalada.",
+        "speaker": "Elena",
+        "audio": "71aecabce0f1"
+      },
+      {
+        "id": "rd_ristorante_08",
+        "it": "Ho molta fame.",
+        "es": "Tengo mucha hambre.",
+        "speaker": "Elena",
+        "audio": "b524991a14c7"
+      },
+      {
+        "id": "rd_ristorante_09",
+        "it": "Stamattina non ho avuto tempo di fare colazione!",
+        "es": "¡Esta mañana no tuve tiempo de desayunar!",
+        "speaker": "Elena",
+        "audio": "c3eb1814bce8"
+      },
+      {
+        "id": "rd_ristorante_10",
+        "it": "Ho bevuto solo un caffè!",
+        "es": "¡Solo bebí un café!",
+        "speaker": "Elena",
+        "audio": "751a33bef608"
+      },
+      {
+        "id": "rd_ristorante_11",
+        "it": "Tu cosa prendi?",
+        "es": "¿Y tú qué tomas?",
+        "speaker": "Elena",
+        "audio": "a0e2ecf9c419"
+      },
+      {
+        "id": "rd_ristorante_12",
+        "it": "Prendo solo un'insalata.",
+        "es": "Tomo solo una ensalada.",
+        "speaker": "Francesco",
+        "audio": "b1beccba68eb"
+      },
+      {
+        "id": "rd_ristorante_13",
+        "it": "Così poco!",
+        "es": "¡Tan poco!",
+        "speaker": "Elena",
+        "audio": "3da70000f00e"
+      },
+      {
+        "id": "rd_ristorante_14",
+        "it": "Perché?",
+        "es": "¿Por qué?",
+        "speaker": "Elena",
+        "audio": "57db5051fa65"
+      },
+      {
+        "id": "rd_ristorante_15",
+        "it": "Non ho molta fame.",
+        "es": "No tengo mucha hambre.",
+        "speaker": "Francesco",
+        "audio": "37c00d1af057"
+      },
+      {
+        "id": "rd_ristorante_16",
+        "it": "Stamattina ho fatto una bella colazione.",
+        "es": "Esta mañana desayuné muy bien.",
+        "speaker": "Francesco",
+        "audio": "bfbeed506010"
+      },
+      {
+        "id": "rd_ristorante_17",
+        "it": "Ho mangiato due uova, una fetta di pane tostato con burro, uno yogurt e una spremuta d'arancia.",
+        "es": "Comí dos huevos, una rebanada de pan tostado con mantequilla, un yogur y un jugo de naranja exprimido.",
+        "speaker": "Francesco",
+        "audio": "0ecf21676e11"
+      },
+      {
+        "id": "rd_ristorante_18",
+        "it": "Cosa vuoi bere?",
+        "es": "¿Qué quieres beber?",
+        "speaker": "Elena",
+        "audio": "c2018f6bd657"
+      },
+      {
+        "id": "rd_ristorante_19",
+        "it": "Io prendo solo l'acqua minerale.",
+        "es": "Yo tomo solo agua mineral.",
+        "speaker": "Elena",
+        "audio": "1552f0ca5696"
+      },
+      {
+        "id": "rd_ristorante_20",
+        "it": "Anch'io voglio un bicchiere d'acqua, ma prendo anche un tè freddo.",
+        "es": "Yo también quiero un vaso de agua, pero tomo además un té frío.",
+        "speaker": "Francesco",
+        "audio": "3c073231069d"
+      },
+      {
+        "id": "rd_ristorante_21",
+        "it": "Vuoi dividere una bottiglia d'acqua minerale?",
+        "es": "¿Quieres compartir una botella de agua mineral?",
+        "speaker": "Elena",
+        "audio": "8cff1512ed06"
+      },
+      {
+        "id": "rd_ristorante_22",
+        "it": "Sì, va bene.",
+        "es": "Sí, está bien.",
+        "speaker": "Francesco",
+        "audio": "56d4022d22e8"
+      },
+      {
+        "id": "rd_ristorante_23",
+        "it": "La preferisci naturale o gassata?",
+        "es": "¿La prefieres natural o con gas?",
+        "speaker": "Francesco",
+        "audio": "13ba7c9a705e"
+      },
+      {
+        "id": "rd_ristorante_24",
+        "it": "Per me non fa differenza.",
+        "es": "Para mí no hay diferencia.",
+        "speaker": "Francesco",
+        "audio": "26fd6b60c554"
+      },
+      {
+        "id": "rd_ristorante_25",
+        "it": "Non mi piace l'acqua gassata, la preferisco naturale, se per te va bene.",
+        "es": "No me gusta el agua con gas, la prefiero natural, si te parece bien.",
+        "speaker": "Elena",
+        "audio": "d02a38dc4f5a"
+      },
+      {
+        "id": "rd_ristorante_26",
+        "it": "Perfetto!",
+        "es": "¡Perfecto!",
+        "speaker": "Francesco",
+        "audio": "b459126f0e14"
+      },
+      {
+        "id": "rd_ristorante_27",
+        "it": "Allora siamo pronti…",
+        "es": "Entonces estamos listos…",
+        "speaker": "Francesco",
+        "audio": "a8cca99ded18"
+      },
+      {
+        "id": "rd_ristorante_28",
+        "it": "Scusi!",
+        "es": "¡Disculpe!",
+        "speaker": "Francesco",
+        "audio": "884b69587405"
+      },
+      {
+        "id": "rd_ristorante_29",
+        "it": "Cameriere!",
+        "es": "¡Camarero!",
+        "speaker": "Francesco",
+        "audio": "a4eb1d24e825"
+      }
+    ]
+  },
+  {
+    "id": "rd_zaino",
+    "title": "Lo zaino di Elena",
+    "level": "A1",
+    "kind": "lectura",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/1034/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cuántos años tiene Elena?",
+        "options": [
+          "Veintiuno",
+          "Veintitrés",
+          "Doce"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿De qué color es la mochila de Elena?",
+        "options": [
+          "Negra",
+          "Roja",
+          "Verde"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Cuántos cuadernos hay en la mochila?",
+        "options": [
+          "Tres",
+          "Dos",
+          "Cinco"
+        ],
+        "answer": 0,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Cómo es el profesor de francés?",
+        "options": [
+          "Simpático",
+          "Aburrido",
+          "Inteligente"
+        ],
+        "answer": 1,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Dónde está la mochila?",
+        "options": [
+          "Sobre la mesa",
+          "Sobre la silla",
+          "En el suelo"
+        ],
+        "answer": 1,
+        "evidence": 10
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_zaino_00",
+        "it": "Elena è una studentessa.",
+        "es": "Elena es una estudiante.",
+        "audio": "6e66ebca3f68"
+      },
+      {
+        "id": "rd_zaino_01",
+        "it": "Ha ventuno anni.",
+        "es": "Tiene veintiún años.",
+        "audio": "44aa3c3f7205"
+      },
+      {
+        "id": "rd_zaino_02",
+        "it": "È bassa e magra e ha i capelli lunghi e lisci.",
+        "es": "Es baja y delgada y tiene el pelo largo y liso.",
+        "audio": "6d4cb9d7e6cf"
+      },
+      {
+        "id": "rd_zaino_03",
+        "it": "Ha gli occhi verdi.",
+        "es": "Tiene los ojos verdes.",
+        "audio": "758f70ccfe40"
+      },
+      {
+        "id": "rd_zaino_04",
+        "it": "Elena ha uno zaino nuovo.",
+        "es": "Elena tiene una mochila nueva.",
+        "audio": "7c92934471ce"
+      },
+      {
+        "id": "rd_zaino_05",
+        "it": "Lo zaino è nero.",
+        "es": "La mochila es negra.",
+        "audio": "2a0ae64a1bb8"
+      },
+      {
+        "id": "rd_zaino_06",
+        "it": "Nello zaino ci sono tre quaderni, una penna rossa, una penna blu, una penna nera e due matite.",
+        "es": "En la mochila hay tres cuadernos, un bolígrafo rojo, un bolígrafo azul, un bolígrafo negro y dos lápices.",
+        "audio": "fb60f31083e7"
+      },
+      {
+        "id": "rd_zaino_07",
+        "it": "Nello zaino ci sono anche un libro di italiano e un libro di francese.",
+        "es": "En la mochila también hay un libro de italiano y un libro de francés.",
+        "audio": "46febd35f3bb"
+      },
+      {
+        "id": "rd_zaino_08",
+        "it": "La professoressa di italiano è simpatica e intelligente.",
+        "es": "La profesora de italiano es simpática e inteligente.",
+        "audio": "6bf515239915"
+      },
+      {
+        "id": "rd_zaino_09",
+        "it": "Il professore di francese è noioso.",
+        "es": "El profesor de francés es aburrido.",
+        "audio": "49419a020077"
+      },
+      {
+        "id": "rd_zaino_10",
+        "it": "Lo zaino di Elena è sulla sedia vicino al tavolo.",
+        "es": "La mochila de Elena está sobre la silla, cerca de la mesa.",
+        "audio": "71994da9274d"
+      }
+    ]
+  }
+]

@@ -1,8 +1,8 @@
-import type { Manifest, PackSentence } from "../content/load";
+import type { Manifest, PackSentence, Reading } from "../content/load";
 
 const REVIEWER: Record<string, string> = { me: "revisadas por ti (sin conocimientos de italiano)", "llm-audit": "auditadas por IA" };
 
-export function AboutScreen({ manifest, sentences }: { manifest: Manifest; sentences: PackSentence[] }) {
+export function AboutScreen({ manifest, sentences, readings = [] }: { manifest: Manifest; sentences: PackSentence[]; readings?: Reading[] }) {
   return (
     <main>
       <h1>Cómo se revisó este contenido</h1>
@@ -18,6 +18,17 @@ export function AboutScreen({ manifest, sentences }: { manifest: Manifest; sente
       <p>Algunas palabras sueltas usan grabaciones de hablantes nativos de Lingua Libre (CC BY-SA 4.0). Si falta el clip, suena la voz del sistema. Licencias y hablantes: <a href={`${import.meta.env.BASE_URL ?? "./"}audio/ATTRIBUZIONI-audio.md`}>Atribuciones de audio</a>.</p>
       <h2>Atribuciones</h2>
       <p>Las oraciones provienen de Tatoeba (tatoeba.org) bajo la licencia CC BY 2.0 FR.</p>
+      {readings.length > 0 && (
+        <>
+          <h2>Lecturas y diálogos</h2>
+          <p>Los textos italianos de las lecturas son de libros abiertos (licencias CC BY-NC). La traducción al español es de IA y no fue revisada por un nativo; las preguntas están escritas en español.</p>
+          <ul className="attributions">
+            {readings.map((r) => (
+              <li key={r.id}>«{r.title}» — <a href={r.source.url}>{r.source.book}</a>, {r.source.authors} ({r.source.license})</li>
+            ))}
+          </ul>
+        </>
+      )}
       <ul className="attributions">
         {sentences.map((s) => (
           <li key={s.id}>

@@ -62,7 +62,10 @@
       "codes": [
         "ERR_PRESENT_ESSERE_AVERE"
       ],
-      "why_here": "Son la base de casi todo lo demás: presentarse, describir y los tiempos compuestos."
+      "why_here": "Son la base de casi todo lo demás: presentarse, describir y los tiempos compuestos.",
+      "readings": [
+        "rd_zaino"
+      ]
     },
     {
       "id": "u21",
@@ -72,7 +75,10 @@
       "codes": [
         "ERR_VOC_FAMILIA"
       ],
-      "why_here": "Primer vocabulario: hablar de ti y de tu gente."
+      "why_here": "Primer vocabulario: hablar de ti y de tu gente.",
+      "readings": [
+        "rd_incontro"
+      ]
     },
     {
       "id": "u30",
@@ -112,7 +118,10 @@
       "codes": [
         "ERR_VOC_CIBO"
       ],
-      "why_here": "Vocabulario de uso inmediato para pedir y hablar de lo que comes."
+      "why_here": "Vocabulario de uso inmediato para pedir y hablar de lo que comes.",
+      "readings": [
+        "rd_ristorante"
+      ]
     },
     {
       "id": "u15",
@@ -142,7 +151,10 @@
       "codes": [
         "ERR_PRESENT_IRREGULAR"
       ],
-      "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques."
+      "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques.",
+      "readings": [
+        "rd_giornata"
+      ]
     },
     {
       "id": "u24",

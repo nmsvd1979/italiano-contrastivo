@@ -1,0 +1,204 @@
+{
+  "id": "rd_incontro",
+  "title": "Un incontro",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-un-incontro/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Se quitaron las notas de vocabulario en inglés y se separaron los nombres de los hablantes.",
+  "sentences": [
+    {
+      "id": "rd_incontro_00",
+      "it": "Ciao!",
+      "es": "¡Hola!",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_incontro_01",
+      "it": "Mi chiamo Francesco.",
+      "es": "Me llamo Francesco.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_incontro_02",
+      "it": "Sono di Firenze e ho ventitré anni.",
+      "es": "Soy de Florencia y tengo veintitrés años.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_incontro_03",
+      "it": "Ciao, mi chiamo Elena.",
+      "es": "Hola, me llamo Elena.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_incontro_04",
+      "it": "Ho ventuno anni e sono di Siena.",
+      "es": "Tengo veintiún años y soy de Siena.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_incontro_05",
+      "it": "Da quanto tempo studi all'Università di Siena?",
+      "es": "¿Desde hace cuánto tiempo estudias en la Universidad de Siena?",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_incontro_06",
+      "it": "Studio a Siena da un anno e tu?",
+      "es": "Estudio en Siena desde hace un año, ¿y tú?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_incontro_07",
+      "it": "Studio a Siena da due anni.",
+      "es": "Estudio en Siena desde hace dos años.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_incontro_08",
+      "it": "Abiti a casa con la tua famiglia?",
+      "es": "¿Vives en casa con tu familia?",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_incontro_09",
+      "it": "Sì, abito con la mia famiglia: mio padre, mia madre, mio fratello Nicola e mia sorella Michela.",
+      "es": "Sí, vivo con mi familia: mi padre, mi madre, mi hermano Nicola y mi hermana Michela.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_incontro_10",
+      "it": "Tu hai fratelli o sorelle?",
+      "es": "¿Tú tienes hermanos o hermanas?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_incontro_11",
+      "it": "Sì, ho due sorelle.",
+      "es": "Sí, tengo dos hermanas.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_incontro_12",
+      "it": "Si chiamano Antonella e Daniela.",
+      "es": "Se llaman Antonella y Daniela.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_incontro_13",
+      "it": "Hai molti parenti in città?",
+      "es": "¿Tienes muchos parientes en la ciudad?",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_incontro_14",
+      "it": "Sì, ho tre zii, due zie e molti cugini.",
+      "es": "Sí, tengo tres tíos, dos tías y muchos primos.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_incontro_15",
+      "it": "I miei nonni abitano fuori città.",
+      "es": "Mis abuelos viven fuera de la ciudad.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_incontro_16",
+      "it": "Tu affitti un appartamento in città?",
+      "es": "¿Tú alquilas un apartamento en la ciudad?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_incontro_17",
+      "it": "Sì, affitto un appartamento in centro con un amico.",
+      "es": "Sí, alquilo un apartamento en el centro con un amigo.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_incontro_18",
+      "it": "L'appartamento è in quel grande palazzo grigio vicino alla biblioteca.",
+      "es": "El apartamento está en aquel gran edificio gris cerca de la biblioteca.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_incontro_19",
+      "it": "Ci sono due camere, un bagno, un grande salotto e una piccola cucina.",
+      "es": "Hay dos habitaciones, un baño, un gran salón y una pequeña cocina.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_incontro_20",
+      "it": "Amo il nostro appartamento!",
+      "es": "¡Amo nuestro apartamento!",
+      "speaker": "Francesco"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿De dónde es Francesco?",
+      "options": [
+        "De Florencia",
+        "De Siena",
+        "De Roma"
+      ],
+      "answer": 0,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Cuántos años tiene Elena?",
+      "options": [
+        "Veintiuno",
+        "Veintitrés",
+        "Veinte"
+      ],
+      "answer": 0,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Con quién vive Elena?",
+      "options": [
+        "Con su familia",
+        "Con un amigo",
+        "Sola"
+      ],
+      "answer": 0,
+      "evidence": 9
+    },
+    {
+      "prompt_es": "¿Cuántas hermanas tiene Francesco?",
+      "options": [
+        "Una",
+        "Dos",
+        "Tres"
+      ],
+      "answer": 1,
+      "evidence": 11
+    },
+    {
+      "prompt_es": "¿Dónde viven los abuelos de Elena?",
+      "options": [
+        "Fuera de la ciudad",
+        "En el centro",
+        "En Florencia"
+      ],
+      "answer": 0,
+      "evidence": 15
+    },
+    {
+      "prompt_es": "¿Con quién alquila Francesco su apartamento?",
+      "options": [
+        "Con un amigo",
+        "Con su familia",
+        "Con Elena"
+      ],
+      "answer": 0,
+      "evidence": 17
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

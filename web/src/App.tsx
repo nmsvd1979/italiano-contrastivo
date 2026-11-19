@@ -112,7 +112,7 @@ export function App() {
       {hash === "#/repaso" ? <ReviewScreen pack={ready.pack} store={ready.store} />
         : hash === "#/escribir" ? <WriteScreen />
         : hash === "#/ajustes" ? <SettingsScreen store={ready.store} memoryOnly={ready.storeError !== null} />
-        : hash === "#/acerca" ? <AboutScreen manifest={ready.pack.manifest} sentences={ready.pack.sentences} />
+        : hash === "#/acerca" ? <AboutScreen manifest={ready.pack.manifest} sentences={ready.pack.sentences} readings={ready.pack.readings} />
         : hash === "#/ruta" || hash === "#/ubicacion" || hash === "#/hito/A1" || hash.startsWith("#/unidad/") ? <Routes ready={ready} hash={hash} />
         : capsule ? <CapsuleScreen key={capsule.id} capsule={capsule} store={ready.store} />
         : <Today {...ready} />}
