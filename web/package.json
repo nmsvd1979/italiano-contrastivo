@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest run",
+    "audit:content": "AUDIT_WRITE=1 vitest run src/state/audit",
     "postbuild": "node scripts/check-precache.mjs"
   },
   "dependencies": {
