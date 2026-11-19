@@ -72,4 +72,4 @@ Sonidos y fórmulas de contacto primero (SA1, PL, LG U1); luego cosas, adjetivos
 ## Qué falta decidir antes de construir
 1. Si «Passato prossimo (introducción)» entra en A1: el sillabo lo cuenta como A1 «aun como participio» y los libros lo ponen en el primer año; el A2 lo profundiza (u08/u09).
 2. Reflexivos: A2 en el sillabo, A1 en los libros. Propuesta: introducirlos al final de A1.
-3. Que cada unidad tenga ≥ 2 fuentes: todas las filas citan al menos una oficial y un libro; las unidades de calco las respaldan además los estudios contrastivos.
+3. Criterio de ≥ 2 fuentes por unidad: casi todas lo cumplen (oficial + libro); **las que hoy tienen una sola** (p. ej. Animales, Pedir aclaraciones, Alfabeto y vocales) se refuerzan con Tutt* a tavola!, Cotto e mangiato o Le giornate italiane cuando se lean sus índices, o quedan como «próximamente». Las unidades de calco las respaldan además los estudios contrastivos.
