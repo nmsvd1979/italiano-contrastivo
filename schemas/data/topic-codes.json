@@ -208,5 +208,89 @@
     ],
     "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
     "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_ABITI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Camicia, maglia, giacca, gonna, scarpe, pantaloni… «Maglia» es una prenda de punto (camiseta o jersey), no una «malla». Pantaloni y occhiali se usan casi siempre en plural: i pantaloni, gli occhiali.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_COLORI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Rosso, bianco, nero, giallo, grigio y azzurro cambian con el género y el número (una gonna rossa, due gonne rosse). Blu, rosa y viola no cambian nunca (due gonne blu). Azzurro es el azul claro (el cielo); blu, el azul oscuro.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_CLIMA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Pioggia, vento, neve, sole, nuvola, temporale… Para el tiempo se dice «fa caldo», «fa freddo» (con fare, no «è caldo»), y «piove», «nevica» son verbos sin sujeto, como «llueve», «nieva».",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_TRASPORTI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Treno, autobus, aereo, macchina, bicicletta, biglietto, fermata… Se viaja «in treno», «in autobus», «in macchina», «in aereo» (con «in»), pero «a piedi». Biglietto es el boleto (de transporte o la entrada).",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_BAR",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Menù, conto, tazza, panino, spaghetti, mancia… «Il conto, per favore» es como se pide la cuenta. Menù y tè no cambian en plural (due menù, due tè) y llevan acento.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_TEMPOLIBERO",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Calcio, tennis, musica, film, canzone, festa, concerto… Con «giocare» se dice «giocare a calcio, a tennis» (con «a»). Film, sport y hobby no cambian en plural (i film, gli sport).",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
   }
 ]

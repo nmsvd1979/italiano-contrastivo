@@ -2028,6 +2028,184 @@
     ]
   },
   {
+    "id": "rd_moda",
+    "title": "La moda italiana",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Leggiamo (Long Beach City College)",
+      "authors": "Rossella Pescatori y colaboradores",
+      "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/3-4-la-vita-quotidiana-e-la-moda/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿A qué hora salen del museo?",
+        "options": [
+          "A las dieciséis",
+          "A las diez",
+          "A las veintiuna"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Qué le gusta hacer a la hija del señor Mattarella?",
+        "options": [
+          "Cocinar",
+          "Ir de compras",
+          "Estudiar"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué ciudad tuvo el primer desfile de moda?",
+        "options": [
+          "Roma",
+          "Milán",
+          "Florencia"
+        ],
+        "answer": 2,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Adónde puede ir la señora Winfrey con el señor Mattarella?",
+        "options": [
+          "A la via de' Tornabuoni, con tiendas",
+          "Al museo",
+          "A la estación"
+        ],
+        "answer": 0,
+        "evidence": 11
+      },
+      {
+        "prompt_es": "¿Puede la señora Winfrey ir hoy a las tiendas?",
+        "options": [
+          "Sí, de inmediato",
+          "No, hoy no puede",
+          "No se dice"
+        ],
+        "answer": 1,
+        "evidence": 12
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_moda_00",
+        "it": "Sono le ore sedici e il signor Mattarella e la signora Winfrey escono dal museo.",
+        "es": "Son las dieciséis horas y el señor Mattarella y la señora Winfrey salen del museo.",
+        "audio": "26ab5b554d9b"
+      },
+      {
+        "id": "rd_moda_01",
+        "it": "Grazie mille! Cosa fa adesso, signor Mattarella?",
+        "es": "¡Muchas gracias! ¿Qué hace ahora, señor Mattarella?",
+        "speaker": "Signora Winfrey",
+        "audio": "813d406384a0"
+      },
+      {
+        "id": "rd_moda_02",
+        "it": "Vado in albergo e poi incontro mia figlia.",
+        "es": "Voy al hotel y después me encuentro con mi hija.",
+        "speaker": "Signor Mattarella",
+        "audio": "a469cd92dcfe"
+      },
+      {
+        "id": "rd_moda_03",
+        "it": "Mia figlia ama fare spese.",
+        "es": "A mi hija le encanta ir de compras.",
+        "speaker": "Signor Mattarella",
+        "audio": "bceae2c29f74"
+      },
+      {
+        "id": "rd_moda_04",
+        "it": "Qui a Firenze ci sono dei negozi molto belli.",
+        "es": "Aquí en Florencia hay tiendas muy bonitas.",
+        "speaker": "Signor Mattarella",
+        "audio": "9f1961c3cc9a"
+      },
+      {
+        "id": "rd_moda_05",
+        "it": "Mi piace molto la moda italiana.",
+        "es": "Me gusta mucho la moda italiana.",
+        "speaker": "Signora Winfrey",
+        "audio": "a04fa098537d"
+      },
+      {
+        "id": "rd_moda_06",
+        "it": "Tutti gli italiani sono molto eleganti.",
+        "es": "Todos los italianos son muy elegantes.",
+        "speaker": "Signora Winfrey",
+        "audio": "5c6d52c91cbd"
+      },
+      {
+        "id": "rd_moda_07",
+        "it": "Firenze è la città dove c'è stata la prima sfilata di moda.",
+        "es": "Florencia es la ciudad donde hubo el primer desfile de moda.",
+        "speaker": "Signor Mattarella",
+        "audio": "d0c74b2450ee"
+      },
+      {
+        "id": "rd_moda_08",
+        "it": "Quale stilista preferisce?",
+        "es": "¿Qué diseñador prefiere?",
+        "speaker": "Signor Mattarella",
+        "audio": "b859ca4bbac9"
+      },
+      {
+        "id": "rd_moda_09",
+        "it": "È difficile scegliere…",
+        "es": "Es difícil elegir…",
+        "speaker": "Signora Winfrey",
+        "audio": "ab72d108bcae"
+      },
+      {
+        "id": "rd_moda_10",
+        "it": "Se vuole, posso stare un po' con Lei.",
+        "es": "Si quiere, puedo estar un rato con usted.",
+        "speaker": "Signor Mattarella",
+        "audio": "1dd8754e0622"
+      },
+      {
+        "id": "rd_moda_11",
+        "it": "Possiamo andare in via de' Tornabuoni, dove ci sono dei negozi molto belli.",
+        "es": "Podemos ir a la via de' Tornabuoni, donde hay tiendas muy bonitas.",
+        "speaker": "Signor Mattarella",
+        "audio": "abaa4ae26669"
+      },
+      {
+        "id": "rd_moda_12",
+        "it": "È molto gentile, ma oggi non posso.",
+        "es": "Es muy amable, pero hoy no puedo.",
+        "speaker": "Signora Winfrey",
+        "audio": "9ea661b39c75"
+      },
+      {
+        "id": "rd_moda_13",
+        "it": "Va bene, da che parte va?",
+        "es": "Está bien, ¿hacia dónde va?",
+        "speaker": "Signor Mattarella",
+        "audio": "2e955aca797c"
+      },
+      {
+        "id": "rd_moda_14",
+        "it": "Verso San Marco.",
+        "es": "Hacia San Marcos.",
+        "speaker": "Signora Winfrey",
+        "audio": "00ea161a79bf"
+      },
+      {
+        "id": "rd_moda_15",
+        "it": "Allora faccio un po' di strada con Lei.",
+        "es": "Entonces hago un trecho del camino con usted.",
+        "speaker": "Signor Mattarella",
+        "audio": "fab6aed0bd5f"
+      }
+    ]
+  },
+  {
     "id": "rd_passatempi",
     "title": "I passatempi degli italiani",
     "level": "A1",
@@ -2187,6 +2365,111 @@
         "it": "Gli italiani cucinano molto e cucinare è un'abitudine quotidiana.",
         "es": "Los italianos cocinan mucho y cocinar es un hábito diario.",
         "audio": "449ce1ea6e0a"
+      }
+    ]
+  },
+  {
+    "id": "rd_pasticceria",
+    "title": "In pasticceria",
+    "level": "A1",
+    "kind": "lectura",
+    "source": {
+      "book": "Leggiamo (Long Beach City College)",
+      "authors": "Rossella Pescatori y colaboradores",
+      "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/2-1-lettura/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cómo se llama la pastelería?",
+        "options": [
+          "Dolci di Firenze",
+          "Il Duomo",
+          "Caffè Roma"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Cuántos vendedores hay en el mostrador?",
+        "options": [
+          "Uno",
+          "Dos",
+          "Cinco"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Qué pregunta Mattarella a la cajera?",
+        "options": [
+          "Cuánto cuesta el café",
+          "Dónde está el baño",
+          "Si pueden sentarse en esa mesa"
+        ],
+        "answer": 2,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué piden?",
+        "options": [
+          "Un café, dos capuchinos y pasteles",
+          "Solo agua",
+          "Una pizza"
+        ],
+        "answer": 0,
+        "evidence": 7
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_pasticceria_00",
+        "it": "I signori attraversano la strada e entrano nella pasticceria «Dolci di Firenze».",
+        "es": "Los señores cruzan la calle y entran en la pastelería «Dolci di Firenze».",
+        "audio": "fb545befa846"
+      },
+      {
+        "id": "rd_pasticceria_01",
+        "it": "In quella pasticceria ci sono molte paste, dolci e prodotti tipici di Firenze.",
+        "es": "En esa pastelería hay muchos pasteles, dulces y productos típicos de Florencia.",
+        "audio": "8b16010d162a"
+      },
+      {
+        "id": "rd_pasticceria_02",
+        "it": "Al bancone ci sono due commessi e alla cassa una cassiera.",
+        "es": "En el mostrador hay dos vendedores y en la caja una cajera.",
+        "audio": "69bee9adb618"
+      },
+      {
+        "id": "rd_pasticceria_03",
+        "it": "Mattarella va dalla cassiera e domanda: «Possiamo sederci in quel tavolo lì?»",
+        "es": "Mattarella va donde la cajera y pregunta: «¿Podemos sentarnos en esa mesa de allá?»",
+        "audio": "0e163eea8987"
+      },
+      {
+        "id": "rd_pasticceria_04",
+        "it": "La signora risponde: «Sì, potete accomodarvi».",
+        "es": "La señora responde: «Sí, pueden acomodarse».",
+        "audio": "4fe3bf7a53c2"
+      },
+      {
+        "id": "rd_pasticceria_05",
+        "it": "Il signor Mattarella e la signora Winfrey si siedono e guardano il menù.",
+        "es": "El señor Mattarella y la señora Winfrey se sientan y miran el menú.",
+        "audio": "19687184af99"
+      },
+      {
+        "id": "rd_pasticceria_06",
+        "it": "Iniziano a parlare.",
+        "es": "Empiezan a conversar.",
+        "audio": "d47098a5d8d2"
+      },
+      {
+        "id": "rd_pasticceria_07",
+        "it": "Il signor Mattarella e la signora Winfrey ordinano un caffè, due cappuccini e delle paste.",
+        "es": "El señor Mattarella y la señora Winfrey piden un café, dos capuchinos y unos pasteles.",
+        "audio": "8e436e5dee20"
       }
     ]
   },

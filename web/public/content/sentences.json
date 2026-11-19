@@ -1,5 +1,18 @@
 [
   {
+    "audio": "a655102cf661",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me encanta el clima estival.",
+    "es_author": "hayastan",
+    "es_source_id": "1002825",
+    "id": "s_1000555",
+    "it": "Io adoro il clima estivo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1000555",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "024eb0644bc4",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -65,6 +78,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "770cd7c60038",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "La flor es azul.",
+    "es_author": "Shishir",
+    "es_source_id": "10059958",
+    "id": "s_10060197",
+    "it": "Il fiore è blu.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10060197",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "649038098e14",
     "author": "riccioberto",
     "cefr_estimate": "A1",
@@ -75,6 +101,19 @@
     "it": "C'è un ristorante qui.",
     "license": "CC BY 2.0 FR",
     "source_id": "1008292",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "44f2ad9473e0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "A ella le gustan los vestidos azules.",
+    "es_author": "Shishir",
+    "es_source_id": "704382",
+    "id": "s_1012605",
+    "it": "A lei piacciono i vestiti blu.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1012605",
     "translation_kind": "direct"
   },
   {
@@ -130,6 +169,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "d3dc97b887fd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me encanta el sol.",
+    "es_author": "laszchamachla",
+    "es_source_id": "745261",
+    "id": "s_1018977",
+    "it": "Mi piace il sole.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1018977",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ba1c268f3f27",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -140,6 +192,19 @@
     "it": "Le sue calze sono grigie.",
     "license": "CC BY 2.0 FR",
     "source_id": "1019631",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "8726f100c374",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella nunca se viste de verde.",
+    "es_author": "Shishir",
+    "es_source_id": "1045046",
+    "id": "s_1019957",
+    "it": "Non si veste mai di verde.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1019957",
     "translation_kind": "direct"
   },
   {
@@ -286,6 +351,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "43eef1c2ebc4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "La bandera es azul.",
+    "es_author": "saverius",
+    "es_source_id": "10462171",
+    "id": "s_10461736",
+    "it": "La bandiera è blu.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10461736",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "2171dd369de7",
     "author": "leonardo",
     "cefr_estimate": "A1",
@@ -322,6 +400,19 @@
     "it": "Dove sono gli ascensori?",
     "license": "CC BY 2.0 FR",
     "source_id": "10636288",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b17064ea183e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El papel es blanco.",
+    "es_author": "abu3",
+    "es_source_id": "853334",
+    "id": "s_1065017",
+    "it": "La carta è bianca.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1065017",
     "translation_kind": "direct"
   },
   {
@@ -364,6 +455,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "8240541d5b76",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Quiere una taza de café?",
+    "es_author": "Shishir",
+    "es_source_id": "475558",
+    "id": "s_1073992",
+    "it": "Vuole una tazza di caffè?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1073992",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "1ea63cabdad4",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -374,6 +478,19 @@
     "it": "Sua zia sembra giovane.",
     "license": "CC BY 2.0 FR",
     "source_id": "1078515",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "bd6fbe444955",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estoy leyendo el periódico.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1079845",
+    "id": "s_1079844",
+    "it": "Sto leggendo il giornale.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1079844",
     "translation_kind": "direct"
   },
   {
@@ -545,6 +662,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "75a379d5a218",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "¿Tenemos que tomar el autobús?",
+    "es_author": "darinmex",
+    "es_source_id": "493774",
+    "id": "s_1103424",
+    "it": "Dobbiamo prendere l'autobus?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1103424",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "e271621aff05",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -570,6 +700,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "08e504628c26",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tomo el té sin azúcar.",
+    "es_author": "hundo",
+    "es_source_id": "976257",
+    "id": "s_1105352",
+    "it": "Prendo il tè senza zucchero.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1105352",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "aae37834148d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -583,6 +726,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "5d26a1e0cadc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El gato es negro.",
+    "es_author": "Espi",
+    "es_source_id": "1107288",
+    "id": "s_1107279",
+    "it": "Il gatto è nero.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1107279",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "6b54aea97ee1",
     "author": "riccioberto",
     "cefr_estimate": "A1",
@@ -593,6 +749,19 @@
     "it": "Tom è più alto di me.",
     "license": "CC BY 2.0 FR",
     "source_id": "1110030",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "30d61724ee55",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Le gusta el té.",
+    "es_author": "Shishir",
+    "es_source_id": "1118759",
+    "id": "s_1118828",
+    "it": "Gli piace il tè.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1118828",
     "translation_kind": "direct"
   },
   {
@@ -648,6 +817,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "03e57ca0c6eb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Esta es mi bicicleta vieja.",
+    "es_author": "lukaszpp",
+    "es_source_id": "463319",
+    "id": "s_1132156",
+    "it": "Questa è la mia vecchia bicicletta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1132156",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "58471d75a0df",
     "author": "riccioberto",
     "cefr_estimate": "A1",
@@ -671,6 +853,19 @@
     "it": "Alcune delle palline sono gialle.",
     "license": "CC BY 2.0 FR",
     "source_id": "1134530",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "42061cb59664",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella tiene una fotografía.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1258414",
+    "id": "s_1137563",
+    "it": "Lei ha una fotografia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1137563",
     "translation_kind": "direct"
   },
   {
@@ -881,6 +1076,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b409b9f06cd4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No estoy escuchando música.",
+    "es_author": "saverius",
+    "es_source_id": "11967669",
+    "id": "s_11963774",
+    "it": "Non sto ascoltando musica.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11963774",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "a97306591ebc",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -917,6 +1125,19 @@
     "it": "Gli elefanti bevono molta acqua.",
     "license": "CC BY 2.0 FR",
     "source_id": "12026400",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "26346c46b2c1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No me gusta este sombrero.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1276982",
+    "id": "s_1203630",
+    "it": "Non mi piace questo cappello.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1203630",
     "translation_kind": "direct"
   },
   {
@@ -969,6 +1190,32 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1217325",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "7cefeff6b4c9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Este sombrero es mío.",
+    "es_author": "Shishir",
+    "es_source_id": "540348",
+    "id": "s_1221313",
+    "it": "Questo cappello è mio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1221313",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0ec3338bbd68",
+    "author": "Rovo",
+    "cefr_estimate": "A1",
+    "es": "Ésta es una bonita chaqueta.",
+    "es_author": "saverius",
+    "es_source_id": "12316122",
+    "id": "s_12311936",
+    "it": "Questa è una bella giacca.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12311936",
+    "translation_kind": "direct"
   },
   {
     "audio": "e9c89cb1efbc",
@@ -1149,6 +1396,32 @@
     "it": "Lui è troppo vecchio.",
     "license": "CC BY 2.0 FR",
     "source_id": "1255726",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "356efd27e21f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Hay un bus aquí.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1547961",
+    "id": "s_12559888",
+    "it": "C'è un autobus qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12559888",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b27068deac0e",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "No tengo coche.",
+    "es_author": "opor",
+    "es_source_id": "856269",
+    "id": "s_1257658",
+    "it": "Non ho la macchina.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1257658",
     "translation_kind": "direct"
   },
   {
@@ -1347,6 +1620,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "15228118c384",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Mi perro es marrón.",
+    "es_author": "Shishir",
+    "es_source_id": "13358417",
+    "id": "s_12763276",
+    "it": "Il mio cane è marrone.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12763276",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "daadb4cc4d87",
     "author": "Shishir",
     "cefr_estimate": "A1",
@@ -1464,6 +1750,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e0e6b6370bd1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El pan es blanco.",
+    "es_author": "Seael",
+    "es_source_id": "13685842",
+    "id": "s_13041908",
+    "it": "Il pane è bianco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13041908",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "88a58f3ee60b",
     "author": "Adelpa",
     "cefr_estimate": "A1",
@@ -1513,6 +1812,19 @@
     "it": "Io non bevo dell'acqua.",
     "license": "CC BY 2.0 FR",
     "source_id": "1308196",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0fc654e14131",
+    "author": "Bibi81",
+    "cefr_estimate": "A1",
+    "es": "Ahora estoy tocando el piano.",
+    "es_author": "darinmex",
+    "es_source_id": "711945",
+    "id": "s_1309894",
+    "it": "Adesso sto suonando il pianoforte.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1309894",
     "translation_kind": "direct"
   },
   {
@@ -1825,6 +2137,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "99e020fec9bb",
+    "author": "Adelpa",
+    "cefr_estimate": "A1",
+    "es": "Mi loro es verde.",
+    "es_author": "Adelpa",
+    "es_source_id": "13385378",
+    "id": "s_13385376",
+    "it": "Il mio pappagallo è verde.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13385376",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d525cb2694e9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Este muro está muy frío.",
+    "es_author": "Shishir",
+    "es_source_id": "1646599",
+    "id": "s_1339117",
+    "it": "Questo muro è molto freddo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1339117",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "00c0bed66bac",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2058,6 +2396,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1db8831f3cac",
+    "author": "unforgiven95",
+    "cefr_estimate": "A1",
+    "es": "Hoy no hace tanto calor como ayer.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1667374",
+    "id": "s_14049592",
+    "it": "Oggi non fa caldo come ieri.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14049592",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ac4d4cc92583",
     "author": "unforgiven95",
     "cefr_estimate": "A1",
@@ -2252,6 +2603,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7698dd99e2a4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Esta es mi película favorita.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1496840",
+    "id": "s_1494553",
+    "it": "Questo è il mio film preferito.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1494553",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "6adeda6a2c19",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2343,6 +2707,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "39d2e2211207",
+    "author": "Shadd",
+    "cefr_estimate": "A1",
+    "es": "El perro de Ken es blanco.",
+    "es_author": "enteka",
+    "es_source_id": "1288042",
+    "id": "s_1511150",
+    "it": "Il cane di Ken è bianco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1511150",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "c986cdc94df5",
     "author": "Shadd",
     "cefr_estimate": "A1",
@@ -2366,6 +2743,32 @@
     "it": "Non è un pesce.",
     "license": "CC BY 2.0 FR",
     "source_id": "1513672",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "22630a9113ca",
+    "author": "marco87",
+    "cefr_estimate": "A1",
+    "es": "El refresco es muy delicioso.",
+    "es_author": "tatianangel",
+    "es_source_id": "1515849",
+    "id": "s_1515977",
+    "it": "La bibita è davvero deliziosa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1515977",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d2ab962a39d1",
+    "author": "marco87",
+    "cefr_estimate": "A1",
+    "es": "Hace mucho calor hoy, ¿no?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1515481",
+    "id": "s_1516068",
+    "it": "Fa molto caldo oggi, no?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1516068",
     "translation_kind": "direct"
   },
   {
@@ -2499,6 +2902,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "370e571ee79e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me gusta el sonido del piano.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1107357",
+    "id": "s_1541088",
+    "it": "Mi piace il suono del pianoforte.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1541088",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "a5848c32a7ac",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2512,6 +2928,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "583e86e00911",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Él no sabe tocar guitarra.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1439794",
+    "id": "s_1547493",
+    "it": "Non sa suonare la chitarra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1547493",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "e8273c7cdf42",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2522,6 +2951,19 @@
     "it": "Io sono abbastanza stanco.",
     "license": "CC BY 2.0 FR",
     "source_id": "1547614",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "f79d42992b35",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Mary toca el piano.",
+    "es_author": "Shishir",
+    "es_source_id": "844001",
+    "id": "s_1551257",
+    "it": "Mary suona il pianoforte.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1551257",
     "translation_kind": "direct"
   },
   {
@@ -2694,6 +3136,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "016ee208d8f6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Mary quiere comprar un vestido.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1386218",
+    "id": "s_1652103",
+    "it": "Mary vuole comprare un vestito.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1652103",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "782541b8a3da",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2811,6 +3266,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "fd207dc845e5",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A1",
+    "es": "Esta camisa cuesta diez dólares.",
+    "es_author": "metalserfo",
+    "es_source_id": "950791",
+    "id": "s_1701463",
+    "it": "Questa camicia costa dieci dollari.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1701463",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "979f136ca6e1",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A1",
+    "es": "El té cuesta dos euros.",
+    "es_author": "lukaszpp",
+    "es_source_id": "462951",
+    "id": "s_1701473",
+    "it": "Il tè costa due euro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1701473",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ccfe47c83cc6",
     "author": "alexmarcelo",
     "cefr_estimate": "A1",
@@ -2834,6 +3315,32 @@
     "it": "Il nostro cibo è economico.",
     "license": "CC BY 2.0 FR",
     "source_id": "1701505",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "57ebdc734839",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A1",
+    "es": "Este coche es rápido.",
+    "es_author": "lukaszpp",
+    "es_source_id": "463265",
+    "id": "s_1701558",
+    "it": "Questa macchina è veloce.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1701558",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "fda4cab5dd2c",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A1",
+    "es": "El coche es lento.",
+    "es_author": "Shishir",
+    "es_source_id": "1020626",
+    "id": "s_1701563",
+    "it": "La macchina è lenta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1701563",
     "translation_kind": "direct"
   },
   {
@@ -2941,6 +3448,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a02cf564fce9",
+    "author": "Shadd",
+    "cefr_estimate": "A1",
+    "es": "Estoy buscando mi reloj.",
+    "es_author": "BlueDecember",
+    "es_source_id": "1466542",
+    "id": "s_1740931",
+    "it": "Sto cercando il mio orologio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1740931",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "1d39b002a608",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2964,6 +3484,19 @@
     "it": "Non mi piace il gelato.",
     "license": "CC BY 2.0 FR",
     "source_id": "1794866",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3c20c59cf380",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tus ojos son como estrellas.",
+    "es_author": "Shishir",
+    "es_source_id": "5549043",
+    "id": "s_1816669",
+    "it": "I tuoi occhi sono come stelle.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1816669",
     "translation_kind": "direct"
   },
   {
@@ -3214,6 +3747,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "60b72986857b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde está mi té?",
+    "es_author": "Shishir",
+    "es_source_id": "2008094",
+    "id": "s_1999830",
+    "it": "Dov'è il mio tè?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1999830",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "56109514b9e5",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3224,6 +3770,19 @@
     "it": "Dov'è la mia auto?",
     "license": "CC BY 2.0 FR",
     "source_id": "1999832",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "8f6afe254ab2",
+    "author": "hitori37",
+    "cefr_estimate": "A1",
+    "es": "Ella lleva un sombrero magnífico.",
+    "es_author": "Shishir",
+    "es_source_id": "2624640",
+    "id": "s_2001267",
+    "it": "Lei indossa un cappello meraviglioso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2001267",
     "translation_kind": "direct"
   },
   {
@@ -3315,6 +3874,19 @@
     "it": "Lui vive a Nagasaki.",
     "license": "CC BY 2.0 FR",
     "source_id": "2019970",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7feb38070b47",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ve a esperar en el auto.",
+    "es_author": "fgreco",
+    "es_source_id": "2444254",
+    "id": "s_2020018",
+    "it": "Vai ad aspettare in macchina.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2020018",
     "translation_kind": "direct"
   },
   {
@@ -3444,6 +4016,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "0b379765fe51",
+    "author": "AYDYL84",
+    "cefr_estimate": "A1",
+    "es": "Mi padre puede pilotar un avión.",
+    "es_author": "danieru",
+    "es_source_id": "717016",
+    "id": "s_2028811",
+    "it": "Mio padre può pilotare un aereo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2028811",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f35a7311dc02",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3505,6 +4090,19 @@
     "it": "Marte ha due satelliti naturali.",
     "license": "CC BY 2.0 FR",
     "source_id": "2079902",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "53e6da9bc8ab",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No puedo hacerlo con este calor.",
+    "es_author": "nancy",
+    "es_source_id": "2214135",
+    "id": "s_2083690",
+    "it": "Non posso farlo con questo caldo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2083690",
     "translation_kind": "direct"
   },
   {
@@ -3611,6 +4209,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1bc3aa2b822c",
+    "author": "miccap",
+    "cefr_estimate": "A1",
+    "es": "El clima mediterráneo es muy agradable.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2299486",
+    "id": "s_2196504",
+    "it": "Il clima mediterraneo è molto piacevole.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2196504",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "59f81186e9ab",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3650,6 +4261,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "3107f93a2eec",
+    "author": "hitori37",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde está mi anillo?",
+    "es_author": "Shishir",
+    "es_source_id": "10029021",
+    "id": "s_2286939",
+    "it": "Dov'è il mio anello?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2286939",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e1b8b0b87589",
+    "author": "hitori37",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde está mi maleta?",
+    "es_author": "BEASY8",
+    "es_source_id": "4220013",
+    "id": "s_2286944",
+    "it": "Dov'è la mia valigia?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2286944",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "fb53e8b87d17",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3686,6 +4323,19 @@
     "it": "Tom è in giardino.",
     "license": "CC BY 2.0 FR",
     "source_id": "2353797",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "a1e0b902ec5a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me gusta tu corbata.",
+    "es_author": "tatoerique",
+    "es_source_id": "345237",
+    "id": "s_2377787",
+    "it": "Mi piace la tua cravatta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2377787",
     "translation_kind": "direct"
   },
   {
@@ -3741,6 +4391,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "29fc76631bf7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me gusta el azul.",
+    "es_author": "ulymarrero",
+    "es_source_id": "3445611",
+    "id": "s_2433370",
+    "it": "A me piace il blu.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2433370",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "60b0262255b3",
     "author": "al_ex_an_der",
     "cefr_estimate": "A1",
@@ -3751,6 +4414,32 @@
     "it": "La pronuncia dell'esperanto è facile.",
     "license": "CC BY 2.0 FR",
     "source_id": "2436421",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c6288f328919",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡Yo quiero ojos azules!",
+    "es_author": "cueyayotl",
+    "es_source_id": "3875914",
+    "id": "s_2437683",
+    "it": "Io voglio gli occhi blu!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2437683",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "fd3d411c5649",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Éste libro es rojo.",
+    "es_author": "HikkiSakura",
+    "es_source_id": "2454612",
+    "id": "s_2448486",
+    "it": "Questo libro è rosso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2448486",
     "translation_kind": "direct"
   },
   {
@@ -3841,6 +4530,19 @@
     "it": "Il cane è tuo.",
     "license": "CC BY 2.0 FR",
     "source_id": "2507180",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "62b74a4db0a0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me gustan mucho las frutas rojas.",
+    "es_author": "hayastan",
+    "es_source_id": "2125737",
+    "id": "s_2511079",
+    "it": "Mi piace molto la frutta rossa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2511079",
     "translation_kind": "direct"
   },
   {
@@ -3973,6 +4675,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "d039f0d0d7b0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tengo un coche rosado.",
+    "es_author": "sobrehumano",
+    "es_source_id": "3718873",
+    "id": "s_2581705",
+    "it": "Ho una macchina rosa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2581705",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "56ee3dcad9a1",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4051,6 +4766,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "361908d5db1c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "La música es el idioma internacional.",
+    "es_author": "carlosalberto",
+    "es_source_id": "3554375",
+    "id": "s_2694982",
+    "it": "La musica è la lingua internazionale.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2694982",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5a1d17adbea7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Hace mucho calor hoy.",
+    "es_author": "Adelpa",
+    "es_source_id": "12170896",
+    "id": "s_2696820",
+    "it": "Fa molto caldo oggi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2696820",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ff0ba9565e06",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4061,6 +4802,19 @@
     "it": "È carne di ratto.",
     "license": "CC BY 2.0 FR",
     "source_id": "2697097",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "adf9714c0e1d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El mar es azul.",
+    "es_author": "Seael",
+    "es_source_id": "3667145",
+    "id": "s_2698938",
+    "it": "Il mare è blu.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2698938",
     "translation_kind": "direct"
   },
   {
@@ -4271,6 +5025,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a1a3fe7f66c9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Mi padre escucha música clásica.",
+    "es_author": "cueyayotl",
+    "es_source_id": "2782448",
+    "id": "s_2780694",
+    "it": "Mio padre ascolta musica classica.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2780694",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d37d3f9258c9",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4281,6 +5048,19 @@
     "it": "Lui canta molto bene.",
     "license": "CC BY 2.0 FR",
     "source_id": "2796586",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "bfe3a65a99b6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tu falda es bonita.",
+    "es_author": "Seael",
+    "es_source_id": "13679816",
+    "id": "s_2808114",
+    "it": "È carina la tua gonna.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2808114",
     "translation_kind": "direct"
   },
   {
@@ -4322,6 +5102,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "8dfa2b7eb3b3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El precio de la gasolina sube.",
+    "es_author": "BraveSentry",
+    "es_source_id": "789495",
+    "id": "s_2810519",
+    "it": "Il prezzo della benzina aumenta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2810519",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "e753ed584e73",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4345,6 +5138,19 @@
     "it": "Immaginati sulla cima di una montagna.",
     "license": "CC BY 2.0 FR",
     "source_id": "2823744",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ad4aab5a7596",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Hoy no hace frío.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1923239",
+    "id": "s_2825371",
+    "it": "Non c'è freddo oggi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2825371",
     "translation_kind": "direct"
   },
   {
@@ -4410,6 +5216,19 @@
     "it": "È già lunedì oggi.",
     "license": "CC BY 2.0 FR",
     "source_id": "2858225",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "f6008f7915fa",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Qué hay en la maleta?",
+    "es_author": "alexmarcelo",
+    "es_source_id": "2924603",
+    "id": "s_2859883",
+    "it": "Cosa c'è nella valigia?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2859883",
     "translation_kind": "direct"
   },
   {
@@ -4504,6 +5323,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c55c0e6b1c7f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El perro está durmiendo en el auto.",
+    "es_author": "hayastan",
+    "es_source_id": "1943857",
+    "id": "s_2916132",
+    "it": "Il cane sta dormendo in macchina.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2916132",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "59fbc05ce8e9",
     "author": "alexmarcelo",
     "cefr_estimate": "A1",
@@ -4514,6 +5346,19 @@
     "it": "Mi piacciono le mie amiche.",
     "license": "CC BY 2.0 FR",
     "source_id": "2917130",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "676035c472af",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A1",
+    "es": "Ya no tengo auto.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2917293",
+    "id": "s_2917306",
+    "it": "Non ho più una macchina.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2917306",
     "translation_kind": "direct"
   },
   {
@@ -4566,6 +5411,19 @@
     "it": "Lui ha pochi soldi.",
     "license": "CC BY 2.0 FR",
     "source_id": "2928259",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2732fa4eb5e5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Su tapete es completamente blanco.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4535021",
+    "id": "s_2930658",
+    "it": "Il loro tappeto è completamente bianco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2930658",
     "translation_kind": "direct"
   },
   {
@@ -4631,6 +5489,19 @@
     "it": "Lui come lo sa?",
     "license": "CC BY 2.0 FR",
     "source_id": "2975152",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "89e67e51661e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El gato es marrón.",
+    "es_author": "Shishir",
+    "es_source_id": "2038361",
+    "id": "s_2977327",
+    "it": "Il gatto è marrone.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2977327",
     "translation_kind": "direct"
   },
   {
@@ -5073,6 +5944,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "0e8542b89ab3",
+    "author": "bailujia",
+    "cefr_estimate": "A1",
+    "es": "Hoy hace calor, ¿cierto?",
+    "es_author": "baudelaire",
+    "es_source_id": "6084294",
+    "id": "s_3343545",
+    "it": "Fa caldo oggi, vero?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3343545",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "fe29ae1e3194",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -5083,6 +5967,19 @@
     "it": "A me piacciono gli orologi.",
     "license": "CC BY 2.0 FR",
     "source_id": "3343673",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d8e53070db16",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde está el coche?",
+    "es_author": "Shishir",
+    "es_source_id": "2216295",
+    "id": "s_3361717",
+    "it": "Dov'è la macchina?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3361717",
     "translation_kind": "direct"
   },
   {
@@ -5294,6 +6191,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "bfa6ca6b681f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Esos trenes parten cada tres minutos.",
+    "es_author": "labatteg",
+    "es_source_id": "2119577",
+    "id": "s_3475325",
+    "it": "Quei treni partono ogni tre minuti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3475325",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "9a0ed9251ada",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -5317,6 +6227,19 @@
     "it": "Spiacente, io non posso bere alcolici.",
     "license": "CC BY 2.0 FR",
     "source_id": "3497513",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "58dafeb9e3ed",
+    "author": "martin",
+    "cefr_estimate": "A1",
+    "es": "Sé tocar la guitarra.",
+    "es_author": "darinmex",
+    "es_source_id": "1115635",
+    "id": "s_350296",
+    "it": "So suonare la chitarra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "350296",
     "translation_kind": "direct"
   },
   {
@@ -5488,6 +6411,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1cdfc3b46822",
+    "author": "alberto",
+    "cefr_estimate": "A1",
+    "es": "¿De quién es esta guitarra?",
+    "es_author": "Shishir",
+    "es_source_id": "502113",
+    "id": "s_359410",
+    "it": "Di chi è questa chitarra?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "359410",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "090446580adf",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -5498,6 +6434,32 @@
     "it": "Dov'è vostra madre?",
     "license": "CC BY 2.0 FR",
     "source_id": "3601695",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "bf2e569ba460",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Cuánto cuesta este vestido?",
+    "es_author": "Shishir",
+    "es_source_id": "12531903",
+    "id": "s_3613046",
+    "it": "Quanto costa questo vestito?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3613046",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7701e484c190",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El teléfono azul está encima de la mesa.",
+    "es_author": "Shishir",
+    "es_source_id": "12531891",
+    "id": "s_3625664",
+    "it": "Il telefono blu è sul tavolo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3625664",
     "translation_kind": "direct"
   },
   {
@@ -5643,6 +6605,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a9935935cf81",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "¿Cuál es tu guitarra?",
+    "es_author": "Shishir",
+    "es_source_id": "491132",
+    "id": "s_373505",
+    "it": "Qual è la tua chitarra?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "373505",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "9dbeae156a0b",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "¿Quién está tocando la guitarra?",
+    "es_author": "Shishir",
+    "es_source_id": "540312",
+    "id": "s_373508",
+    "it": "Chi sta suonando la chitarra?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "373508",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "92442fa08619",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -5653,6 +6641,32 @@
     "it": "Lei suona la chitarra.",
     "license": "CC BY 2.0 FR",
     "source_id": "373511",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "a778a9f86006",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "No me gusta este reloj.",
+    "es_author": "tatoerique",
+    "es_source_id": "360415",
+    "id": "s_373517",
+    "it": "Non mi piace questo orologio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "373517",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "434763aec1d0",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Te gusta la lluvia, ¿verdad?",
+    "es_author": "Shishir",
+    "es_source_id": "445704",
+    "id": "s_373641",
+    "it": "Ti piace la pioggia, vero?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "373641",
     "translation_kind": "direct"
   },
   {
@@ -5679,6 +6693,45 @@
     "it": "La musica nutre la nostra immaginazione.",
     "license": "CC BY 2.0 FR",
     "source_id": "373744",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "83caab16684b",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Es un viejo piano.",
+    "es_author": "Shishir",
+    "es_source_id": "559840",
+    "id": "s_373819",
+    "it": "È un vecchio pianoforte.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "373819",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "8230bf6f2539",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Alguien está tocando el piano.",
+    "es_author": "Shishir",
+    "es_source_id": "959598",
+    "id": "s_373822",
+    "it": "Qualcuno sta suonando il pianoforte.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "373822",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5993db6754d5",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Este periódico es gratuito.",
+    "es_author": "Shishir",
+    "es_source_id": "779892",
+    "id": "s_373964",
+    "it": "Questo giornale è gratuito.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "373964",
     "translation_kind": "direct"
   },
   {
@@ -5825,6 +6878,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c55b312393b0",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Me gusta pasear bajo la lluvia.",
+    "es_author": "Angfarmar",
+    "es_source_id": "855869",
+    "id": "s_377103",
+    "it": "Mi piace camminare sotto la pioggia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "377103",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e6d51cbdf713",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Los días de lluvia me deprimen.",
+    "es_author": "hayastan",
+    "es_source_id": "1413600",
+    "id": "s_377116",
+    "it": "I giorni di pioggia mi deprimono.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "377116",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "51f242d90f3b",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -5903,6 +6982,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "89bc0bb954f2",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "El reloj no funciona.",
+    "es_author": "Leono",
+    "es_source_id": "642346",
+    "id": "s_378176",
+    "it": "L'orologio non funziona.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "378176",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "4a5c868f0376",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -5916,6 +7008,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b8dfaf21c133",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Éste es mi coche.",
+    "es_author": "Shishir",
+    "es_source_id": "603320",
+    "id": "s_378847",
+    "it": "Questa è la mia macchina.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "378847",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "64498300a1f5",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -5926,6 +7031,19 @@
     "it": "Mary capisce il cinese.",
     "license": "CC BY 2.0 FR",
     "source_id": "379137",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7654afbaf94d",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Es mi canción favorita.",
+    "es_author": "Shishir",
+    "es_source_id": "495331",
+    "id": "s_379635",
+    "it": "È la mia canzone preferita.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "379635",
     "translation_kind": "direct"
   },
   {
@@ -6098,6 +7216,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "625b2252bd27",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "El deporte es bueno para la salud.",
+    "es_author": "Ramses",
+    "es_source_id": "329764",
+    "id": "s_383033",
+    "it": "Lo sport fa bene alla salute.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "383033",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "403a0ef1e285",
     "author": "valealb",
     "cefr_estimate": "A1",
@@ -6267,6 +7398,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "fdc1fc60d595",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "El cielo es azul.",
+    "es_author": "Shishir",
+    "es_source_id": "539388",
+    "id": "s_386850",
+    "it": "Il cielo è blu.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "386850",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "571eea07bb1a",
+    "author": "valealb",
+    "cefr_estimate": "A1",
+    "es": "Hoy hace mucho más calor.",
+    "es_author": "Seael",
+    "es_source_id": "13627637",
+    "id": "s_3873574",
+    "it": "Oggi fa molto più caldo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3873574",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "bd46d61574eb",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -6277,6 +7434,19 @@
     "it": "Passa un buon fine settimana!",
     "license": "CC BY 2.0 FR",
     "source_id": "387483",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "1eca8631e35e",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "¿Cuál es su maleta?",
+    "es_author": "Fanki",
+    "es_source_id": "3027",
+    "id": "s_388482",
+    "it": "Qual è la vostra valigia?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "388482",
     "translation_kind": "direct"
   },
   {
@@ -6345,6 +7515,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2ea9cc0b081b",
+    "author": "valealb",
+    "cefr_estimate": "A1",
+    "es": "Está en el bolsillo de mi chaqueta.",
+    "es_author": "darinmex",
+    "es_source_id": "730093",
+    "id": "s_3935345",
+    "it": "È nella tasca della mia giacca.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3935345",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "9df2482d221a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -6397,6 +7580,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "150a01bd2613",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El carro es amarillo.",
+    "es_author": "cueyayotl",
+    "es_source_id": "6172275",
+    "id": "s_3966973",
+    "it": "L'auto è gialla.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3966973",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "730b4b3dd05c",
     "author": "ver",
     "cefr_estimate": "A1",
@@ -6436,6 +7632,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "be8a1ec57de3",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "El próximo lunes es feriado.",
+    "es_author": "catakaoe",
+    "es_source_id": "399110",
+    "id": "s_399112",
+    "it": "Lunedì prossimo è festa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "399112",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "25594a262416",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -6446,6 +7655,19 @@
     "it": "Tom è il mio dentista.",
     "license": "CC BY 2.0 FR",
     "source_id": "3996278",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5c874d7d5ea5",
+    "author": "ver",
+    "cefr_estimate": "A1",
+    "es": "La puerta de la oficina es amarilla.",
+    "es_author": "hayastan",
+    "es_source_id": "1664837",
+    "id": "s_399699",
+    "it": "La porta dell'ufficio è gialla.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "399699",
     "translation_kind": "direct"
   },
   {
@@ -6524,6 +7746,19 @@
     "it": "Il serpente è vivo o morto?",
     "license": "CC BY 2.0 FR",
     "source_id": "409445",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "6ba499d6da9c",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Ésta no es mi bolsa.",
+    "es_author": "darinmex",
+    "es_source_id": "727558",
+    "id": "s_409513",
+    "it": "Questa non è la mia borsa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "409513",
     "translation_kind": "direct"
   },
   {
@@ -6670,6 +7905,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "f1df846fab0b",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Sólo tenemos té.",
+    "es_author": "Shishir",
+    "es_source_id": "562092",
+    "id": "s_423815",
+    "it": "Abbiamo solo del tè.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "423815",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "1f990982ddf6",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -6787,6 +8035,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c6fa13bf30db",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "¿Cuánto vale este anillo?",
+    "es_author": "nancy",
+    "es_source_id": "1148450",
+    "id": "s_428814",
+    "it": "Quanto vale questo anello?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "428814",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "0fb5db7549e5",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -6862,6 +8123,19 @@
     "it": "Che cane grande che è!",
     "license": "CC BY 2.0 FR",
     "source_id": "4384477",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "890e22c6ebd7",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Prefiero beber café que té.",
+    "es_author": "andresevargas",
+    "es_source_id": "699492",
+    "id": "s_439940",
+    "it": "Preferisco il caffè al tè.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "439940",
     "translation_kind": "direct"
   },
   {
@@ -7060,6 +8334,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a1b967025bdb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom quiere una bicicleta.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4503489",
+    "id": "s_4503480",
+    "it": "Tom vuole una bicicletta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4503480",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "00de5c3532d2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde está su corbata?",
+    "es_author": "Seael",
+    "es_source_id": "8014825",
+    "id": "s_4504233",
+    "it": "Dov'è la sua cravatta?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4504233",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d4488ee0cbe0",
     "author": "Ricardo14",
     "cefr_estimate": "A1",
@@ -7083,19 +8383,6 @@
     "it": "Quando inizia la primavera?",
     "license": "CC BY 2.0 FR",
     "source_id": "4508978",
-    "translation_kind": "direct"
-  },
-  {
-    "audio": "1c4bf8b81a5f",
-    "author": "Guybrush88",
-    "cefr_estimate": "A1",
-    "es": "Ellos son mis amigos.",
-    "es_author": "cueyayotl",
-    "es_source_id": "5057686",
-    "id": "s_4510989",
-    "it": "Loro sono miei amici.",
-    "license": "CC BY 2.0 FR",
-    "source_id": "4510989",
     "translation_kind": "direct"
   },
   {
@@ -7164,6 +8451,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "53e134fe8950",
+    "author": "JeanM",
+    "cefr_estimate": "A1",
+    "es": "El automóvil corre rápido.",
+    "es_author": "Leono",
+    "es_source_id": "503274",
+    "id": "s_4565946",
+    "it": "La macchina corre veloce.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4565946",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "fabf872a0c41",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7174,6 +8474,19 @@
     "it": "Per favore, legga quel libro.",
     "license": "CC BY 2.0 FR",
     "source_id": "4571414",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ede77ad400f3",
+    "author": "ianna",
+    "cefr_estimate": "A1",
+    "es": "Cierro la ventana porque hace frío.",
+    "es_author": "ianna",
+    "es_source_id": "5050710",
+    "id": "s_4573741",
+    "it": "Chiudo la finestra perché fa freddo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4573741",
     "translation_kind": "direct"
   },
   {
@@ -7346,6 +8659,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "35e500b51938",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No tengo guitarra.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4735825",
+    "id": "s_4739616",
+    "it": "Non ho una chitarra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4739616",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "4f78a2668ac2",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -7463,6 +8789,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "90856de5d7b0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tenemos la intención de ir en tren.",
+    "es_author": "uptonpark1973",
+    "es_source_id": "5754115",
+    "id": "s_4918210",
+    "it": "Abbiamo intenzione di andare in treno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4918210",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e68bd577a535",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "La música es importante para mí.",
+    "es_author": "Shishir",
+    "es_source_id": "4989269",
+    "id": "s_4984431",
+    "it": "La musica è importante per me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4984431",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "4ca40f23b695",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7515,6 +8867,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2440897918bb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No quiero tu corbata.",
+    "es_author": "diegohn",
+    "es_source_id": "6772805",
+    "id": "s_5074250",
+    "it": "Io non voglio la tua cravatta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5074250",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "388d2c9accb9",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7525,6 +8890,19 @@
     "it": "Io non credo nella sua religione.",
     "license": "CC BY 2.0 FR",
     "source_id": "5093561",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "076d72a58a97",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Es blanca como la nieve.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1610013",
+    "id": "s_5099783",
+    "it": "È bianca come la neve.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5099783",
     "translation_kind": "direct"
   },
   {
@@ -7593,6 +8971,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7d496a9ffaf3",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "¿Me queda bien este vestido?",
+    "es_author": "Shishir",
+    "es_source_id": "521056",
+    "id": "s_521083",
+    "it": "Mi sta bene questo vestito?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "521083",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d14ace04ae94",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -7642,6 +9033,19 @@
     "it": "Io non voglio ingannarti.",
     "license": "CC BY 2.0 FR",
     "source_id": "5252118",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7328421fd1e5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom toca la guitarra.",
+    "es_author": "Shishir",
+    "es_source_id": "9685183",
+    "id": "s_5284250",
+    "it": "Tom suona la chitarra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5284250",
     "translation_kind": "direct"
   },
   {
@@ -7736,6 +9140,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "061c48d9815e",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "El clima está cambiando.",
+    "es_author": "Shishir",
+    "es_source_id": "538624",
+    "id": "s_538625",
+    "it": "Il clima sta cambiando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "538625",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "154f49430294",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -7759,6 +9176,19 @@
     "it": "Io non ricordo esattamente.",
     "license": "CC BY 2.0 FR",
     "source_id": "5399318",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3161dd2622e5",
+    "author": "dnnywld",
+    "cefr_estimate": "A1",
+    "es": "Las rosas azules son muy hermosas.",
+    "es_author": "Arraroak",
+    "es_source_id": "981067",
+    "id": "s_5415900",
+    "it": "Le rose blu sono molto belle.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5415900",
     "translation_kind": "direct"
   },
   {
@@ -7957,6 +9387,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "63fff65cc3cf",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom tiene una bicicleta.",
+    "es_author": "saverius",
+    "es_source_id": "10802617",
+    "id": "s_5709386",
+    "it": "Tom ha una bicicletta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5709386",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "70c3441802cf",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "¿Cuál es tu deporte favorito?",
+    "es_author": "Shishir",
+    "es_source_id": "571797",
+    "id": "s_571363",
+    "it": "Qual è il tuo sport preferito?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "571363",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "dfdac4b14628",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -7967,6 +9423,19 @@
     "it": "Il suo ragazzo è turco.",
     "license": "CC BY 2.0 FR",
     "source_id": "571371",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "95fa1d1b8342",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Para quién es la fiesta?",
+    "es_author": "saverius",
+    "es_source_id": "10802799",
+    "id": "s_5766148",
+    "it": "Per chi è la festa?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5766148",
     "translation_kind": "direct"
   },
   {
@@ -8113,6 +9582,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "11c8d50f0667",
+    "author": "dnnywld",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde están mis pantalones?",
+    "es_author": "ignacio",
+    "es_source_id": "9211760",
+    "id": "s_6043040",
+    "it": "Dove sono i miei pantaloni?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6043040",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "f4d899aa8b9d",
+    "author": "rado",
+    "cefr_estimate": "A1",
+    "es": "No quiero esta camisa.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1832370",
+    "id": "s_607094",
+    "it": "Non voglio questa camicia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "607094",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "241de5aabcf2",
     "author": "rado",
     "cefr_estimate": "A1",
@@ -8149,6 +9644,19 @@
     "it": "La mia bottiglia si è rotta.",
     "license": "CC BY 2.0 FR",
     "source_id": "610158",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "04783b683882",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Hoy hace un calor horrible.",
+    "es_author": "tatoerique",
+    "es_source_id": "347023",
+    "id": "s_610262",
+    "it": "È terribilmente caldo oggi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "610262",
     "translation_kind": "direct"
   },
   {
@@ -8256,6 +9764,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "aa0f2863cd69",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Este reloj es eléctrico.",
+    "es_author": "tatoerique",
+    "es_source_id": "347487",
+    "id": "s_631232",
+    "it": "Questo orologio è elettrico.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "631232",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "e45ad74cd43f",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -8295,6 +9816,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2c6b76e4b09c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El perro es blanco.",
+    "es_author": "Shishir",
+    "es_source_id": "858085",
+    "id": "s_635268",
+    "it": "Il cane è bianco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "635268",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ce5b6264b892",
     "author": "Cero",
     "cefr_estimate": "A1",
@@ -8318,6 +9852,19 @@
     "it": "Quanto costa una birra?",
     "license": "CC BY 2.0 FR",
     "source_id": "635782",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d0e9d6a7cabc",
+    "author": "rado",
+    "cefr_estimate": "A1",
+    "es": "No conozco esta canción.",
+    "es_author": "Shishir",
+    "es_source_id": "1104036",
+    "id": "s_637221",
+    "it": "Non conosco questa canzone.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "637221",
     "translation_kind": "direct"
   },
   {
@@ -8408,6 +9955,19 @@
     "it": "Studia il francese da tre anni.",
     "license": "CC BY 2.0 FR",
     "source_id": "6606234",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b42743521628",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Este cuaderno es azul.",
+    "es_author": "saverius",
+    "es_source_id": "10799262",
+    "id": "s_6609111",
+    "it": "Questo quaderno è blu?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6609111",
     "translation_kind": "direct"
   },
   {
@@ -8515,6 +10075,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "13f0e2669ae5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Hace calor aquí.",
+    "es_author": "Shishir",
+    "es_source_id": "610310",
+    "id": "s_663087",
+    "it": "C'è caldo qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "663087",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "5f7c89084bca",
     "author": "rado",
     "cefr_estimate": "A1",
@@ -8564,6 +10137,19 @@
     "it": "Tu sei il più alto.",
     "license": "CC BY 2.0 FR",
     "source_id": "675684",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ffc6ca935422",
+    "author": "rado",
+    "cefr_estimate": "A1",
+    "es": "¿Por qué es blanca la nieve?",
+    "es_author": "hundo",
+    "es_source_id": "994772",
+    "id": "s_677748",
+    "it": "Perché la neve è bianca?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "677748",
     "translation_kind": "direct"
   },
   {
@@ -8658,6 +10244,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c93053c7445a",
+    "author": "Ricardo14",
+    "cefr_estimate": "A1",
+    "es": "Tengo un gato negro.",
+    "es_author": "Ricardo14",
+    "es_source_id": "6942213",
+    "id": "s_6942216",
+    "it": "Ho un gatto nero.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6942216",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "29ab81fe4cd8",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8668,6 +10267,19 @@
     "it": "Non vogliono andare in Germania.",
     "license": "CC BY 2.0 FR",
     "source_id": "6988135",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c9cf4d4ad486",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tu reloj está sobre la mesa.",
+    "es_author": "darinmex",
+    "es_source_id": "702435",
+    "id": "s_700874",
+    "it": "Il tuo orologio è sul tavolo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "700874",
     "translation_kind": "direct"
   },
   {
@@ -8694,6 +10306,19 @@
     "it": "Lei sta mangiando spaghetti.",
     "license": "CC BY 2.0 FR",
     "source_id": "7017593",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0b8f05c43b7a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Mi camisa no es marrón.",
+    "es_author": "Shishir",
+    "es_source_id": "10030120",
+    "id": "s_7019221",
+    "it": "La mia camicia non è marrone.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7019221",
     "translation_kind": "direct"
   },
   {
@@ -8746,6 +10371,19 @@
     "it": "Lei parla dieci lingue.",
     "license": "CC BY 2.0 FR",
     "source_id": "707287",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ae6c07fafc90",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Este té es muy bueno.",
+    "es_author": "darinmex",
+    "es_source_id": "740605",
+    "id": "s_708295",
+    "it": "Questo tè è molto buono.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "708295",
     "translation_kind": "direct"
   },
   {
@@ -8956,6 +10594,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a0380feb990d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Qué fruta es verde?",
+    "es_author": "lukaszpp",
+    "es_source_id": "464571",
+    "id": "s_724498",
+    "it": "Che frutto è verde?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "724498",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f3c769d79701",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8979,6 +10630,19 @@
     "it": "Questo libro non è mio.",
     "license": "CC BY 2.0 FR",
     "source_id": "726371",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "1e593dfbacf4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Esa bicicleta no es suya.",
+    "es_author": "darinmex",
+    "es_source_id": "750212",
+    "id": "s_726372",
+    "it": "Quella bicicletta non è sua.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "726372",
     "translation_kind": "direct"
   },
   {
@@ -9086,6 +10750,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4eb5368a6622",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella tiene un gato blanco.",
+    "es_author": "Shishir",
+    "es_source_id": "811341",
+    "id": "s_749876",
+    "it": "Lei ha un gatto bianco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "749876",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "c7441d296426",
     "author": "Valdast",
     "cefr_estimate": "A1",
@@ -9125,6 +10802,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "cf1f49595486",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No me gusta el tráfico.",
+    "es_author": "cronopio",
+    "es_source_id": "14087014",
+    "id": "s_7579645",
+    "it": "Non mi piace il traffico.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7579645",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "82fc9b72cf8a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9148,6 +10838,19 @@
     "it": "Lei abita a Kyoto.",
     "license": "CC BY 2.0 FR",
     "source_id": "758881",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b3b3180d73cc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El clima está agradable.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2127177",
+    "id": "s_759913",
+    "it": "Il clima è piacevole.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "759913",
     "translation_kind": "direct"
   },
   {
@@ -9268,6 +10971,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "f222376cd9c6",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "¿Te gusta la lluvia?",
+    "es_author": "Shishir",
+    "es_source_id": "566126",
+    "id": "s_772645",
+    "it": "Ti piace la pioggia?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "772645",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d477975eafd3",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9343,6 +11059,19 @@
     "it": "Noi abbiamo lo stesso compleanno.",
     "license": "CC BY 2.0 FR",
     "source_id": "7727148",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "73950f9fa3cd",
+    "author": "User82312",
+    "cefr_estimate": "A1",
+    "es": "El sombrero de Tom es rojo.",
+    "es_author": "User82312",
+    "es_source_id": "7728359",
+    "id": "s_7728348",
+    "it": "Il cappello di Tom è rosso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7728348",
     "translation_kind": "direct"
   },
   {
@@ -9476,6 +11205,45 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "3dc6aa7b3417",
+    "author": "piuccio",
+    "cefr_estimate": "A1",
+    "es": "Esta es la bicicleta de Mike.",
+    "es_author": "tatoerique",
+    "es_source_id": "356090",
+    "id": "s_791339",
+    "it": "Questa è la bicicletta di Mike.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "791339",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ef456608fdfc",
+    "author": "ciampix",
+    "cefr_estimate": "A1",
+    "es": "No hay gente en la luna.",
+    "es_author": "cueyayotl",
+    "es_source_id": "8630163",
+    "id": "s_7924240",
+    "it": "Non c'è gente sulla luna.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7924240",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "9cd9d8550eb4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No puedo comprarte la bicicleta.",
+    "es_author": "hayastan",
+    "es_source_id": "949207",
+    "id": "s_795228",
+    "it": "Non posso comprarti la bicicletta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "795228",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d619f24b49bd",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9580,6 +11348,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1085d6ac5d30",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "A ella no le gusta el fútbol.",
+    "es_author": "qweruiop",
+    "es_source_id": "1070551",
+    "id": "s_819785",
+    "it": "Non le piace il calcio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "819785",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "6efd6d7dc533",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9671,6 +11452,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "19d6e841df20",
+    "author": "miravalles",
+    "cefr_estimate": "A1",
+    "es": "Me gusta el futbol.",
+    "es_author": "Jose_Gomez",
+    "es_source_id": "669354",
+    "id": "s_858099",
+    "it": "Mi piace il calcio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "858099",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "330dadbb4d6a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9723,6 +11517,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a1ba6a499488",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El avión está por despegar.",
+    "es_author": "darinmex",
+    "es_source_id": "669709",
+    "id": "s_876862",
+    "it": "L'aereo sta per decollare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "876862",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "4bece4b716cd",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -9746,6 +11553,19 @@
     "it": "La natura è affascinante.",
     "license": "CC BY 2.0 FR",
     "source_id": "8779576",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "bc64c1786c7e",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "Tengo una revista en mi cuarto.",
+    "es_author": "cueyayotl",
+    "es_source_id": "3192858",
+    "id": "s_878860",
+    "it": "Ho una rivista nella mia stanza.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "878860",
     "translation_kind": "direct"
   },
   {
@@ -9811,6 +11631,19 @@
     "it": "Ti consiglio di tornare a casa.",
     "license": "CC BY 2.0 FR",
     "source_id": "897647",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7dacbe03cce6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "La casa está pintada de blanco.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2880054",
+    "id": "s_916274",
+    "it": "La casa è pitturata di bianco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "916274",
     "translation_kind": "direct"
   },
   {
@@ -9892,6 +11725,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "bd0893909fbd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "La colina siempre es verde.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1797618",
+    "id": "s_930216",
+    "it": "La collina è sempre verde.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "930216",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d4892ad63ad1",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9915,6 +11761,32 @@
     "it": "Perché non vieni a trovarci?",
     "license": "CC BY 2.0 FR",
     "source_id": "935010",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "8631a7f08a8f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Cada manzana es roja.",
+    "es_author": "hayastan",
+    "es_source_id": "945479",
+    "id": "s_935201",
+    "it": "Ogni mela è rossa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "935201",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "871b022b32e0",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "Me gusta tocar la guitarra.",
+    "es_author": "darinmex",
+    "es_source_id": "627149",
+    "id": "s_938030",
+    "it": "Mi piace suonare la chitarra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "938030",
     "translation_kind": "direct"
   },
   {
@@ -9993,6 +11865,19 @@
     "it": "Io non leggo libri.",
     "license": "CC BY 2.0 FR",
     "source_id": "960343",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e1f8c764a5f9",
+    "author": "Cero",
+    "cefr_estimate": "A1",
+    "es": "Tom adora estudiar música.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1386462",
+    "id": "s_962438",
+    "it": "Tom ama studiare musica.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "962438",
     "translation_kind": "direct"
   },
   {
@@ -10100,6 +11985,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "6ee003b522f4",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "Es sensible al calor.",
+    "es_author": "fgreco",
+    "es_source_id": "2444302",
+    "id": "s_987826",
+    "it": "È sensibile al caldo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "987826",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c68f23c30387",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "Hoy no hace mucho viento.",
+    "es_author": "darinmex",
+    "es_source_id": "576080",
+    "id": "s_989675",
+    "it": "Oggi non tira molto vento.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "989675",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3c3b3bc4ce59",
     "author": "riccioberto",
     "cefr_estimate": "A1",
@@ -10110,6 +12021,19 @@
     "it": "Guardate tutti alla lavagna.",
     "license": "CC BY 2.0 FR",
     "source_id": "989905",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0d71b8d9c9f7",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "Él no sabe conducir un auto.",
+    "es_author": "hayastan",
+    "es_source_id": "990398",
+    "id": "s_990389",
+    "it": "Non sa guidare una macchina.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "990389",
     "translation_kind": "direct"
   },
   {
@@ -10188,6 +12112,19 @@
     "it": "Il suo negozio è sempre pieno di clienti.",
     "license": "CC BY 2.0 FR",
     "source_id": "1005627",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "a680bd0d5940",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Hoy ya he tomado una taza de café.",
+    "es_author": "saverius",
+    "es_source_id": "10154278",
+    "id": "s_10154263",
+    "it": "Ho già preso una tazza di caffè oggi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10154263",
     "translation_kind": "direct"
   },
   {
@@ -10422,6 +12359,19 @@
     "it": "La sua assistenza è indispensabile per noi.",
     "license": "CC BY 2.0 FR",
     "source_id": "1306655",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "56eaf60c1474",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Querría tomar un poco de té o café.",
+    "es_author": "hayastan",
+    "es_source_id": "1443625",
+    "id": "s_1308149",
+    "it": "Vorrei bere un po' di tè o di caffè.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1308149",
     "translation_kind": "direct"
   },
   {
@@ -11275,6 +13225,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "bcdf09cf9ef5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Encontré a mis amigos en el café.",
+    "es_author": "enteka",
+    "es_source_id": "1291231",
+    "id": "s_3414320",
+    "it": "Ho incontrato i miei amici al bar.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3414320",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "8acf8c74e6dd",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -11323,6 +13286,19 @@
     "it": "La popolazione dell'Uganda è in rapida crescita.",
     "license": "CC BY 2.0 FR",
     "source_id": "3537415",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "df7d9634801c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El bebé todavía no puede usar una cuchara.",
+    "es_author": "kylecito",
+    "es_source_id": "336791",
+    "id": "s_3590886",
+    "it": "Il bebè non può ancora usare un cucchiaio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3590886",
     "translation_kind": "direct"
   },
   {
@@ -11468,6 +13444,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "663ef2aa0e28",
+    "author": "ver",
+    "cefr_estimate": "A2",
+    "es": "¿Quieres beber té o café?",
+    "es_author": "Shishir",
+    "es_source_id": "496810",
+    "id": "s_398303",
+    "it": "Vuoi bere del tè o del caffè?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "398303",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "c7d9250365c5",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -11530,6 +13519,19 @@
     "it": "C'è un ostello della gioventù qui vicino?",
     "license": "CC BY 2.0 FR",
     "source_id": "4433",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "fbdb17d9a507",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Dónde está el té con leche?",
+    "es_author": "Shishir",
+    "es_source_id": "574211",
+    "id": "s_470153",
+    "it": "Dov'è il tè con il latte?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "470153",
     "translation_kind": "direct"
   },
   {
@@ -11621,6 +13623,19 @@
     "it": "La tua bicicletta è migliore della mia.",
     "license": "CC BY 2.0 FR",
     "source_id": "600300",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ef4973cb29a0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Esta mañana bebí té en vez de café.",
+    "es_author": "catakaoe",
+    "es_source_id": "572473",
+    "id": "s_609633",
+    "it": "Ho bevuto del tè invece del caffè questa mattina.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "609633",
     "translation_kind": "direct"
   },
   {
@@ -11780,6 +13795,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "0baa9e60e555",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Había alguien en el bar?",
+    "es_author": "Shishir",
+    "es_source_id": "4432779",
+    "id": "s_7247845",
+    "it": "C'era qualcuno nel bar?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7247845",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "361ed1293637",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -11933,6 +13961,19 @@
     "it": "Le ricchezze non rendono più saggi gli uomini.",
     "license": "CC BY 2.0 FR",
     "source_id": "797199",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "51b68987e8af",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "Quisiera pagar la cuenta, por favor.",
+    "es_author": "quarzoliquido",
+    "es_source_id": "480298",
+    "id": "s_836040",
+    "it": "Vorrei pagare il conto, per favore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "836040",
     "translation_kind": "direct"
   },
   {

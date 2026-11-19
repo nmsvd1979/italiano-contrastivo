@@ -2293,6 +2293,160 @@
     "cefr": "A1",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Camicia, maglia, giacca, gonna, scarpe, pantaloni… «Maglia» es una prenda de punto (camiseta o jersey), no una «malla». Pantaloni y occhiali se usan casi siempre en plural: i pantaloni, gli occhiali."
+    },
+    "id": "cap_err_voc_abiti",
+    "retrieval": [
+      {
+        "id": "it_choice_s_1221313_ERR_VOC_ABITI",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Questo cappello è mio."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_ABITI",
+            "text": "Questo guanto è mio."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1221313",
+        "target_error_codes": [
+          "ERR_VOC_ABITI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "gonna"
+        ],
+        "hint_es": "Tu falda es bonita.",
+        "id": "it_cloze_s_2808114_ERR_VOC_ABITI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2808114",
+        "target_error_codes": [
+          "ERR_VOC_ABITI"
+        ],
+        "text": "È carina la tua ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Dov'è",
+          "la",
+          "sua",
+          "cravatta?"
+        ],
+        "id": "it_reorder_s_4504233_ERR_VOC_ABITI",
+        "prompt_es": "Ordena las palabras: «¿Dónde está su corbata?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4504233",
+        "target_error_codes": [
+          "ERR_VOC_ABITI"
+        ],
+        "tokens": [
+          "la",
+          "sua",
+          "Dov'è",
+          "cravatta?"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_378176_ERR_VOC_ABITI",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_ABITI",
+            "text": "L'anello non funziona."
+          },
+          {
+            "correct": true,
+            "text": "L'orologio non funziona."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_378176",
+        "target_error_codes": [
+          "ERR_VOC_ABITI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "cravatta"
+        ],
+        "hint_es": "Me gusta tu corbata.",
+        "id": "it_cloze_s_2377787_ERR_VOC_ABITI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2377787",
+        "target_error_codes": [
+          "ERR_VOC_ABITI"
+        ],
+        "text": "Mi piace la tua ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Questa",
+          "è",
+          "una",
+          "bella",
+          "giacca."
+        ],
+        "id": "it_reorder_s_12311936_ERR_VOC_ABITI",
+        "prompt_es": "Ordena las palabras: «Ésta es una bonita chaqueta.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_12311936",
+        "target_error_codes": [
+          "ERR_VOC_ABITI"
+        ],
+        "tokens": [
+          "è",
+          "giacca.",
+          "una",
+          "Questa",
+          "bella"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Dov'è il mio anello?"
+      ],
+      "id": "it_translate_s_2286939_ERR_VOC_ABITI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2286939",
+      "source_es": "¿Dónde está mi anillo?",
+      "target_error_codes": [
+        "ERR_VOC_ABITI"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "Cane, gatto, cavallo, uccello, mucca, tigre… Plural en -i (i cani, i gatti, gli uccelli). Ojo: «la tigre» es femenino y «scimmia» es el mono (femenino en italiano)."
     },
     "id": "cap_err_voc_animali",
@@ -2437,6 +2591,162 @@
       "source_es": "Hay un gato.",
       "target_error_codes": [
         "ERR_VOC_ANIMALI"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Menù, conto, tazza, panino, spaghetti, mancia… «Il conto, per favore» es como se pide la cuenta. Menù y tè no cambian en plural (due menù, due tè) y llevan acento."
+    },
+    "id": "cap_err_voc_bar",
+    "retrieval": [
+      {
+        "id": "it_choice_s_1999830_ERR_VOC_BAR",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Dov'è il mio tè?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_BAR",
+            "text": "Dov'è il mio succo?"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1999830",
+        "target_error_codes": [
+          "ERR_VOC_BAR"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "tè"
+        ],
+        "hint_es": "Sólo tenemos té.",
+        "id": "it_cloze_s_423815_ERR_VOC_BAR",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_423815",
+        "target_error_codes": [
+          "ERR_VOC_BAR"
+        ],
+        "text": "Abbiamo solo del ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Il",
+          "tè",
+          "costa",
+          "due",
+          "euro."
+        ],
+        "id": "it_reorder_s_1701473_ERR_VOC_BAR",
+        "prompt_es": "Ordena las palabras: «El té cuesta dos euros.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1701473",
+        "target_error_codes": [
+          "ERR_VOC_BAR"
+        ],
+        "tokens": [
+          "due",
+          "Il",
+          "euro.",
+          "tè",
+          "costa"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_708295_ERR_VOC_BAR",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_BAR",
+            "text": "Questo menù è molto buono."
+          },
+          {
+            "correct": true,
+            "text": "Questo tè è molto buono."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_708295",
+        "target_error_codes": [
+          "ERR_VOC_BAR"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "tazza"
+        ],
+        "hint_es": "¿Quiere una taza de café?",
+        "id": "it_cloze_s_1073992_ERR_VOC_BAR",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1073992",
+        "target_error_codes": [
+          "ERR_VOC_BAR"
+        ],
+        "text": "Vuole una ___ di caffè?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Preferisco",
+          "il",
+          "caffè",
+          "al",
+          "tè."
+        ],
+        "id": "it_reorder_s_439940_ERR_VOC_BAR",
+        "prompt_es": "Ordena las palabras: «Prefiero beber café que té.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_439940",
+        "target_error_codes": [
+          "ERR_VOC_BAR"
+        ],
+        "tokens": [
+          "tè.",
+          "al",
+          "caffè",
+          "Preferisco",
+          "il"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Gli piace il tè."
+      ],
+      "id": "it_translate_s_1118828_ERR_VOC_BAR",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1118828",
+      "source_es": "Le gusta el té.",
+      "target_error_codes": [
+        "ERR_VOC_BAR"
       ],
       "type": "translate_es_it"
     }
@@ -2895,6 +3205,310 @@
       "source_es": "¿Dónde está el banco?",
       "target_error_codes": [
         "ERR_VOC_CITTA"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Pioggia, vento, neve, sole, nuvola, temporale… Para el tiempo se dice «fa caldo», «fa freddo» (con fare, no «è caldo»), y «piove», «nevica» son verbos sin sujeto, como «llueve», «nieva»."
+    },
+    "id": "cap_err_voc_clima",
+    "retrieval": [
+      {
+        "id": "it_choice_s_1018977_ERR_VOC_CLIMA",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Mi piace il sole."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CLIMA",
+            "text": "Mi piace il ghiaccio."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1018977",
+        "target_error_codes": [
+          "ERR_VOC_CLIMA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "caldo"
+        ],
+        "hint_es": "Hace mucho calor hoy.",
+        "id": "it_cloze_s_2696820_ERR_VOC_CLIMA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2696820",
+        "target_error_codes": [
+          "ERR_VOC_CLIMA"
+        ],
+        "text": "Fa molto ___ oggi.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Non",
+          "c'è",
+          "freddo",
+          "oggi."
+        ],
+        "id": "it_reorder_s_2825371_ERR_VOC_CLIMA",
+        "prompt_es": "Ordena las palabras: «Hoy no hace frío.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2825371",
+        "target_error_codes": [
+          "ERR_VOC_CLIMA"
+        ],
+        "tokens": [
+          "oggi.",
+          "freddo",
+          "c'è",
+          "Non"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_3343545_ERR_VOC_CLIMA",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CLIMA",
+            "text": "Fa freddo oggi, vero?"
+          },
+          {
+            "correct": true,
+            "text": "Fa caldo oggi, vero?"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3343545",
+        "target_error_codes": [
+          "ERR_VOC_CLIMA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "pioggia"
+        ],
+        "hint_es": "¿Te gusta la lluvia?",
+        "id": "it_cloze_s_772645_ERR_VOC_CLIMA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_772645",
+        "target_error_codes": [
+          "ERR_VOC_CLIMA"
+        ],
+        "text": "Ti piace la ___?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Il",
+          "clima",
+          "è",
+          "piacevole."
+        ],
+        "id": "it_reorder_s_759913_ERR_VOC_CLIMA",
+        "prompt_es": "Ordena las palabras: «El clima está agradable.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_759913",
+        "target_error_codes": [
+          "ERR_VOC_CLIMA"
+        ],
+        "tokens": [
+          "clima",
+          "piacevole.",
+          "è",
+          "Il"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "C'è caldo qui."
+      ],
+      "id": "it_translate_s_663087_ERR_VOC_CLIMA",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_663087",
+      "source_es": "Hace calor aquí.",
+      "target_error_codes": [
+        "ERR_VOC_CLIMA"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Rosso, bianco, nero, giallo, grigio y azzurro cambian con el género y el número (una gonna rossa, due gonne rosse). Blu, rosa y viola no cambian nunca (due gonne blu). Azzurro es el azul claro (el cielo); blu, el azul oscuro."
+    },
+    "id": "cap_err_voc_colori",
+    "retrieval": [
+      {
+        "id": "it_choice_s_10060197_ERR_VOC_COLORI",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Il fiore è blu."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_COLORI",
+            "text": "Il fiore è verde."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_10060197",
+        "target_error_codes": [
+          "ERR_VOC_COLORI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "blu"
+        ],
+        "hint_es": "El cielo es azul.",
+        "id": "it_cloze_s_386850_ERR_VOC_COLORI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_386850",
+        "target_error_codes": [
+          "ERR_VOC_COLORI"
+        ],
+        "text": "Il cielo è ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Il",
+          "gatto",
+          "è",
+          "nero."
+        ],
+        "id": "it_reorder_s_1107279_ERR_VOC_COLORI",
+        "prompt_es": "Ordena las palabras: «El gato es negro.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1107279",
+        "target_error_codes": [
+          "ERR_VOC_COLORI"
+        ],
+        "tokens": [
+          "Il",
+          "è",
+          "nero.",
+          "gatto"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_3966973_ERR_VOC_COLORI",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_COLORI",
+            "text": "L'auto è nera."
+          },
+          {
+            "correct": true,
+            "text": "L'auto è gialla."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3966973",
+        "target_error_codes": [
+          "ERR_VOC_COLORI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "bianco"
+        ],
+        "hint_es": "El pan es blanco.",
+        "id": "it_cloze_s_13041908_ERR_VOC_COLORI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_13041908",
+        "target_error_codes": [
+          "ERR_VOC_COLORI"
+        ],
+        "text": "Il pane è ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Il",
+          "cane",
+          "è",
+          "bianco."
+        ],
+        "id": "it_reorder_s_635268_ERR_VOC_COLORI",
+        "prompt_es": "Ordena las palabras: «El perro es blanco.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_635268",
+        "target_error_codes": [
+          "ERR_VOC_COLORI"
+        ],
+        "tokens": [
+          "bianco.",
+          "cane",
+          "è",
+          "Il"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Il mare è blu."
+      ],
+      "id": "it_translate_s_2698938_ERR_VOC_COLORI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2698938",
+      "source_es": "El mar es azul.",
+      "target_error_codes": [
+        "ERR_VOC_COLORI"
       ],
       "type": "translate_es_it"
     }
@@ -3813,6 +4427,312 @@
       "source_es": "Hoy ya es lunes.",
       "target_error_codes": [
         "ERR_VOC_TEMPO"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Calcio, tennis, musica, film, canzone, festa, concerto… Con «giocare» se dice «giocare a calcio, a tennis» (con «a»). Film, sport y hobby no cambian en plural (i film, gli sport)."
+    },
+    "id": "cap_err_voc_tempolibero",
+    "retrieval": [
+      {
+        "id": "it_choice_s_858099_ERR_VOC_TEMPOLIBERO",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Mi piace il calcio."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_TEMPOLIBERO",
+            "text": "Mi piace il hobby."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_858099",
+        "target_error_codes": [
+          "ERR_VOC_TEMPOLIBERO"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "chitarra"
+        ],
+        "hint_es": "No tengo guitarra.",
+        "id": "it_cloze_s_4739616_ERR_VOC_TEMPOLIBERO",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4739616",
+        "target_error_codes": [
+          "ERR_VOC_TEMPOLIBERO"
+        ],
+        "text": "Non ho una ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Lei",
+          "ha",
+          "una",
+          "fotografia."
+        ],
+        "id": "it_reorder_s_1137563_ERR_VOC_TEMPOLIBERO",
+        "prompt_es": "Ordena las palabras: «Ella tiene una fotografía.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1137563",
+        "target_error_codes": [
+          "ERR_VOC_TEMPOLIBERO"
+        ],
+        "tokens": [
+          "Lei",
+          "ha",
+          "fotografia.",
+          "una"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_5284250_ERR_VOC_TEMPOLIBERO",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_TEMPOLIBERO",
+            "text": "Tom suona la rivista."
+          },
+          {
+            "correct": true,
+            "text": "Tom suona la chitarra."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5284250",
+        "target_error_codes": [
+          "ERR_VOC_TEMPOLIBERO"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "chitarra"
+        ],
+        "hint_es": "Sé tocar la guitarra.",
+        "id": "it_cloze_s_350296_ERR_VOC_TEMPOLIBERO",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_350296",
+        "target_error_codes": [
+          "ERR_VOC_TEMPOLIBERO"
+        ],
+        "text": "So suonare la ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Qual",
+          "è",
+          "la",
+          "tua",
+          "chitarra?"
+        ],
+        "id": "it_reorder_s_373505_ERR_VOC_TEMPOLIBERO",
+        "prompt_es": "Ordena las palabras: «¿Cuál es tu guitarra?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_373505",
+        "target_error_codes": [
+          "ERR_VOC_TEMPOLIBERO"
+        ],
+        "tokens": [
+          "chitarra?",
+          "Qual",
+          "la",
+          "tua",
+          "è"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Per chi è la festa?"
+      ],
+      "id": "it_translate_s_5766148_ERR_VOC_TEMPOLIBERO",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5766148",
+      "source_es": "¿Para quién es la fiesta?",
+      "target_error_codes": [
+        "ERR_VOC_TEMPOLIBERO"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Treno, autobus, aereo, macchina, bicicletta, biglietto, fermata… Se viaja «in treno», «in autobus», «in macchina», «in aereo» (con «in»), pero «a piedi». Biglietto es el boleto (de transporte o la entrada)."
+    },
+    "id": "cap_err_voc_trasporti",
+    "retrieval": [
+      {
+        "id": "it_choice_s_12559888_ERR_VOC_TRASPORTI",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "C'è un autobus qui."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_TRASPORTI",
+            "text": "C'è un aereo qui."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_12559888",
+        "target_error_codes": [
+          "ERR_VOC_TRASPORTI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "macchina"
+        ],
+        "hint_es": "No tengo coche.",
+        "id": "it_cloze_s_1257658_ERR_VOC_TRASPORTI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1257658",
+        "target_error_codes": [
+          "ERR_VOC_TRASPORTI"
+        ],
+        "text": "Non ho la ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "La",
+          "macchina",
+          "è",
+          "lenta."
+        ],
+        "id": "it_reorder_s_1701563_ERR_VOC_TRASPORTI",
+        "prompt_es": "Ordena las palabras: «El coche es lento.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1701563",
+        "target_error_codes": [
+          "ERR_VOC_TRASPORTI"
+        ],
+        "tokens": [
+          "è",
+          "La",
+          "macchina",
+          "lenta."
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_2286944_ERR_VOC_TRASPORTI",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_TRASPORTI",
+            "text": "Dov'è la mia fermata?"
+          },
+          {
+            "correct": true,
+            "text": "Dov'è la mia valigia?"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2286944",
+        "target_error_codes": [
+          "ERR_VOC_TRASPORTI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "bicicletta"
+        ],
+        "hint_es": "Tom tiene una bicicleta.",
+        "id": "it_cloze_s_5709386_ERR_VOC_TRASPORTI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5709386",
+        "target_error_codes": [
+          "ERR_VOC_TRASPORTI"
+        ],
+        "text": "Tom ha una ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Cosa",
+          "c'è",
+          "nella",
+          "valigia?"
+        ],
+        "id": "it_reorder_s_2859883_ERR_VOC_TRASPORTI",
+        "prompt_es": "Ordena las palabras: «¿Qué hay en la maleta?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2859883",
+        "target_error_codes": [
+          "ERR_VOC_TRASPORTI"
+        ],
+        "tokens": [
+          "valigia?",
+          "nella",
+          "Cosa",
+          "c'è"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Dov'è la macchina?"
+      ],
+      "id": "it_translate_s_3361717_ERR_VOC_TRASPORTI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3361717",
+      "source_es": "¿Dónde está el coche?",
+      "target_error_codes": [
+        "ERR_VOC_TRASPORTI"
       ],
       "type": "translate_es_it"
     }

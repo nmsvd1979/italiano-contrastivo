@@ -26,6 +26,28 @@
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "Hoy ya he tomado una taza de café.",
+    "es_author": "saverius",
+    "es_source_id": "10154278",
+    "id": "s_10154263",
+    "it": "Ho già preso una tazza di caffè oggi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10154263",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_ARTICLE_ALLOMORPH"
     ],
     "es": "El escándalo arruinó su carrera.",
@@ -855,6 +877,28 @@
     "source_id": "1306655",
     "tag_rules": {
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "Querría tomar un poco de té o café.",
+    "es_author": "hayastan",
+    "es_source_id": "1443625",
+    "id": "s_1308149",
+    "it": "Vorrei bere un po' di tè o di caffè.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1308149",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3084,6 +3128,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "Encontré a mis amigos en el café.",
+    "es_author": "enteka",
+    "es_source_id": "1291231",
+    "id": "s_3414320",
+    "it": "Ho incontrato i miei amici al bar.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3414320",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -3180,6 +3246,28 @@
     "source_id": "3537415",
     "tag_rules": {
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "El bebé todavía no puede usar una cuchara.",
+    "es_author": "kylecito",
+    "es_source_id": "336791",
+    "id": "s_3590886",
+    "it": "Il bebè non può ancora usare un cucchiaio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3590886",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3627,6 +3715,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "ver",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "¿Quieres beber té o café?",
+    "es_author": "Shishir",
+    "es_source_id": "496810",
+    "id": "s_398303",
+    "it": "Vuoi bere del tè o del caffè?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "398303",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -3856,6 +3966,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "¿Dónde está el té con leche?",
+    "es_author": "Shishir",
+    "es_source_id": "574211",
+    "id": "s_470153",
+    "it": "Dov'è il tè con il latte?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "470153",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -4017,6 +4149,28 @@
     "source_id": "600300",
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "Esta mañana bebí té en vez de café.",
+    "es_author": "catakaoe",
+    "es_source_id": "572473",
+    "id": "s_609633",
+    "it": "Ho bevuto del tè invece del caffè questa mattina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "609633",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4358,6 +4512,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "¿Había alguien en el bar?",
+    "es_author": "Shishir",
+    "es_source_id": "4432779",
+    "id": "s_7247845",
+    "it": "C'era qualcuno nel bar?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7247845",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PREP_ARTICLE_CONTRACTION"
     ],
     "es": "Lo escuché en la radio.",
@@ -4648,6 +4824,28 @@
       "ERR_GEMINATE": "geminata_pares_minimos",
       "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "Quisiera pagar la cuenta, por favor.",
+    "es_author": "quarzoliquido",
+    "es_source_id": "480298",
+    "id": "s_836040",
+    "it": "Vorrei pagare il conto, per favore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "836040",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
     },
     "translation_kind": "direct"
   },

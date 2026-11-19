@@ -398,7 +398,6 @@
           "s_675684",
           "s_1255726",
           "s_2557059",
-          "s_4510989",
           "s_1260451",
           "s_1271068",
           "s_714437",
@@ -419,8 +418,8 @@
           "s_3154113",
           "s_7727077",
           "s_1255726",
-          "s_1260451",
-          "s_1082986"
+          "s_1271068",
+          "s_1332710"
         ],
         "prueba": [
           "s_4297945",
@@ -2518,6 +2517,530 @@
           "start": 13,
           "end": 19,
           "wrong": "dottore"
+        }
+      ]
+    },
+    {
+      "id": "u31",
+      "level": "A1",
+      "title": "Vocabulario: la ropa",
+      "goal_es": "Camicia, gonna, scarpe, pantaloni, giacca… y qué artículo lleva cada palabra (il cappotto, lo stivale, gli occhiali).",
+      "codes": [
+        "ERR_VOC_ABITI"
+      ],
+      "why_here": "Hablar de lo que llevas puesto y de las compras, con los posesivos y c'è / ci sono ya vistos.",
+      "readings": [
+        "rd_moda"
+      ],
+      "status": "active",
+      "explanation_es": "Camicia, maglia, giacca, gonna, scarpe, pantaloni… «Maglia» es una prenda de punto (camiseta o jersey), no una «malla». Pantaloni y occhiali se usan casi siempre en plural: i pantaloni, gli occhiali.",
+      "parts": {
+        "descubre": [
+          "s_2286939",
+          "s_1221313",
+          "s_2808114",
+          "s_4504233"
+        ],
+        "practica": [
+          "s_2286939",
+          "s_1221313",
+          "s_2808114",
+          "s_4504233",
+          "s_378176",
+          "s_2377787",
+          "s_12311936",
+          "s_409513",
+          "s_428814",
+          "s_607094",
+          "s_521083",
+          "s_6043040",
+          "s_7728348",
+          "s_3613046",
+          "s_631232",
+          "s_1203630",
+          "s_1740931",
+          "s_373517",
+          "s_700874"
+        ],
+        "escucha": [
+          "s_2286939",
+          "s_2808114",
+          "s_378176",
+          "s_12311936",
+          "s_428814",
+          "s_521083",
+          "s_7728348",
+          "s_631232"
+        ],
+        "prueba": [
+          "s_7019221",
+          "s_5074250",
+          "s_1652103",
+          "s_3935345",
+          "s_1701463",
+          "s_2001267"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2286939",
+          "start": 13,
+          "end": 19,
+          "wrong": "orologio"
+        },
+        {
+          "id": "s_1221313",
+          "start": 7,
+          "end": 15,
+          "wrong": "guanto"
+        },
+        {
+          "id": "s_2808114",
+          "start": 16,
+          "end": 21,
+          "wrong": "giacca"
+        },
+        {
+          "id": "s_4504233",
+          "start": 13,
+          "end": 21,
+          "wrong": "sciarpa"
+        }
+      ]
+    },
+    {
+      "id": "u32",
+      "level": "A1",
+      "title": "Vocabulario: los colores",
+      "goal_es": "Rosso, bianco, nero, giallo, verde, blu… y cómo cambian con el género (rossa) o no cambian (blu, rosa).",
+      "codes": [
+        "ERR_VOC_COLORI"
+      ],
+      "why_here": "Describir cosas y personas con colores que concuerdan con lo que describen.",
+      "status": "active",
+      "explanation_es": "Rosso, bianco, nero, giallo, grigio y azzurro cambian con el género y el número (una gonna rossa, due gonne rosse). Blu, rosa y viola no cambian nunca (due gonne blu). Azzurro es el azul claro (el cielo); blu, el azul oscuro.",
+      "parts": {
+        "descubre": [
+          "s_2698938",
+          "s_10060197",
+          "s_386850",
+          "s_1107279"
+        ],
+        "practica": [
+          "s_2698938",
+          "s_10060197",
+          "s_386850",
+          "s_1107279",
+          "s_3966973",
+          "s_13041908",
+          "s_635268",
+          "s_6942216",
+          "s_10461736",
+          "s_1065017",
+          "s_2433370",
+          "s_935201",
+          "s_2977327",
+          "s_724498",
+          "s_2448486",
+          "s_2581705",
+          "s_12763276",
+          "s_5099783",
+          "s_6609111",
+          "s_749876",
+          "s_1511150",
+          "s_2437683",
+          "s_677748",
+          "s_1019957",
+          "s_13385376",
+          "s_930216",
+          "s_3625664"
+        ],
+        "escucha": [
+          "s_2698938",
+          "s_1107279",
+          "s_635268",
+          "s_1065017",
+          "s_2977327",
+          "s_2581705",
+          "s_6609111",
+          "s_2437683"
+        ],
+        "prueba": [
+          "s_5415900",
+          "s_1012605",
+          "s_916274",
+          "s_2511079",
+          "s_399699",
+          "s_2930658"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2698938",
+          "start": 10,
+          "end": 13,
+          "wrong": "marrone"
+        },
+        {
+          "id": "s_10060197",
+          "start": 11,
+          "end": 14,
+          "wrong": "verde"
+        },
+        {
+          "id": "s_386850",
+          "start": 11,
+          "end": 14,
+          "wrong": "marrone"
+        },
+        {
+          "id": "s_1107279",
+          "start": 11,
+          "end": 15,
+          "wrong": "giallo"
+        }
+      ]
+    },
+    {
+      "id": "u33",
+      "level": "A1",
+      "title": "Vocabulario: el tiempo y el clima",
+      "goal_es": "Pioggia, sole, vento, neve, nuvola… y «fa caldo», «fa freddo» (con fare), como en tener hambre se usa avere.",
+      "codes": [
+        "ERR_VOC_CLIMA"
+      ],
+      "why_here": "Hablar del tiempo con fare, ya vistos en los verbos irregulares.",
+      "status": "active",
+      "explanation_es": "Pioggia, vento, neve, sole, nuvola, temporale… Para el tiempo se dice «fa caldo», «fa freddo» (con fare, no «è caldo»), y «piove», «nevica» son verbos sin sujeto, como «llueve», «nieva».",
+      "parts": {
+        "descubre": [
+          "s_663087",
+          "s_1018977",
+          "s_2696820",
+          "s_2825371"
+        ],
+        "practica": [
+          "s_663087",
+          "s_1018977",
+          "s_2696820",
+          "s_2825371",
+          "s_3343545",
+          "s_772645",
+          "s_759913",
+          "s_987826",
+          "s_538625",
+          "s_1516068",
+          "s_3873574",
+          "s_1000555",
+          "s_7924240",
+          "s_373641",
+          "s_989675",
+          "s_1339117",
+          "s_610262",
+          "s_14049592"
+        ],
+        "escucha": [
+          "s_663087",
+          "s_2696820",
+          "s_3343545",
+          "s_759913",
+          "s_538625",
+          "s_3873574",
+          "s_7924240",
+          "s_989675"
+        ],
+        "prueba": [
+          "s_1816669",
+          "s_2083690",
+          "s_377116",
+          "s_377103",
+          "s_4573741",
+          "s_2196504"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_663087",
+          "start": 4,
+          "end": 9,
+          "wrong": "cielo"
+        },
+        {
+          "id": "s_1018977",
+          "start": 12,
+          "end": 16,
+          "wrong": "ghiaccio"
+        },
+        {
+          "id": "s_2696820",
+          "start": 9,
+          "end": 14,
+          "wrong": "sole"
+        },
+        {
+          "id": "s_2825371",
+          "start": 8,
+          "end": 14,
+          "wrong": "fulmine"
+        }
+      ]
+    },
+    {
+      "id": "u34",
+      "level": "A1",
+      "title": "Vocabulario: transportes y viajes",
+      "goal_es": "Treno, autobus, aereo, macchina, biglietto, fermata… y «in treno», «in macchina», pero «a piedi».",
+      "codes": [
+        "ERR_VOC_TRASPORTI"
+      ],
+      "why_here": "Moverte por la ciudad y viajar, con las preposiciones de lugar ya vistas.",
+      "status": "active",
+      "explanation_es": "Treno, autobus, aereo, macchina, bicicletta, biglietto, fermata… Se viaja «in treno», «in autobus», «in macchina», «in aereo» (con «in»), pero «a piedi». Biglietto es el boleto (de transporte o la entrada).",
+      "parts": {
+        "descubre": [
+          "s_3361717",
+          "s_12559888",
+          "s_1257658",
+          "s_1701563"
+        ],
+        "practica": [
+          "s_3361717",
+          "s_12559888",
+          "s_1257658",
+          "s_1701563",
+          "s_2286944",
+          "s_5709386",
+          "s_2859883",
+          "s_2917306",
+          "s_1701558",
+          "s_378847",
+          "s_388482",
+          "s_4503480",
+          "s_4565946",
+          "s_7579645",
+          "s_876862",
+          "s_1103424",
+          "s_726372",
+          "s_990389",
+          "s_2020018",
+          "s_791339",
+          "s_2028811"
+        ],
+        "escucha": [
+          "s_3361717",
+          "s_1257658",
+          "s_2286944",
+          "s_2859883",
+          "s_1701558",
+          "s_388482",
+          "s_4565946",
+          "s_876862"
+        ],
+        "prueba": [
+          "s_2810519",
+          "s_2916132",
+          "s_795228",
+          "s_1132156",
+          "s_3475325",
+          "s_4918210"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_3361717",
+          "start": 9,
+          "end": 17,
+          "wrong": "barca"
+        },
+        {
+          "id": "s_12559888",
+          "start": 7,
+          "end": 14,
+          "wrong": "aereo"
+        },
+        {
+          "id": "s_1257658",
+          "start": 10,
+          "end": 18,
+          "wrong": "metropolitana"
+        },
+        {
+          "id": "s_1701563",
+          "start": 3,
+          "end": 11,
+          "wrong": "benzina"
+        }
+      ]
+    },
+    {
+      "id": "u35",
+      "level": "A1",
+      "title": "Vocabulario: bar y restaurante",
+      "goal_es": "Menù, conto, tazza, panino, tè… y cómo pedir: «il conto, per favore».",
+      "codes": [
+        "ERR_VOC_BAR"
+      ],
+      "why_here": "Pedir en un bar o restaurante con la comida y la bebida ya vistas.",
+      "readings": [
+        "rd_pasticceria"
+      ],
+      "status": "active",
+      "explanation_es": "Menù, conto, tazza, panino, spaghetti, mancia… «Il conto, per favore» es como se pide la cuenta. Menù y tè no cambian en plural (due menù, due tè) y llevan acento.",
+      "parts": {
+        "descubre": [
+          "s_1118828",
+          "s_1999830",
+          "s_423815",
+          "s_1701473"
+        ],
+        "practica": [
+          "s_1118828",
+          "s_1999830",
+          "s_423815",
+          "s_1701473",
+          "s_708295",
+          "s_1073992",
+          "s_439940",
+          "s_1105352",
+          "s_1515977",
+          "s_7247845",
+          "s_470153",
+          "s_398303"
+        ],
+        "escucha": [
+          "s_1118828",
+          "s_1999830",
+          "s_423815",
+          "s_1701473",
+          "s_708295",
+          "s_1073992",
+          "s_439940",
+          "s_1105352"
+        ],
+        "prueba": [
+          "s_3414320",
+          "s_836040",
+          "s_1308149",
+          "s_10154263",
+          "s_3590886",
+          "s_609633"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1118828",
+          "start": 13,
+          "end": 15,
+          "wrong": "menù"
+        },
+        {
+          "id": "s_1999830",
+          "start": 13,
+          "end": 15,
+          "wrong": "succo"
+        },
+        {
+          "id": "s_423815",
+          "start": 17,
+          "end": 19,
+          "wrong": "succo"
+        },
+        {
+          "id": "s_1701473",
+          "start": 3,
+          "end": 5,
+          "wrong": "cucchiaio"
+        }
+      ]
+    },
+    {
+      "id": "u36",
+      "level": "A1",
+      "title": "Vocabulario: tiempo libre",
+      "goal_es": "Calcio, musica, film, canzone, festa… y «giocare a calcio» (con «a»).",
+      "codes": [
+        "ERR_VOC_TEMPOLIBERO"
+      ],
+      "why_here": "Contar qué haces en tu tiempo libre con los verbos de presente.",
+      "status": "active",
+      "explanation_es": "Calcio, tennis, musica, film, canzone, festa, concerto… Con «giocare» se dice «giocare a calcio, a tennis» (con «a»). Film, sport y hobby no cambian en plural (i film, gli sport).",
+      "parts": {
+        "descubre": [
+          "s_5766148",
+          "s_858099",
+          "s_4739616",
+          "s_1137563"
+        ],
+        "practica": [
+          "s_5766148",
+          "s_858099",
+          "s_4739616",
+          "s_1137563",
+          "s_5284250",
+          "s_350296",
+          "s_373505",
+          "s_819785",
+          "s_373819",
+          "s_399112",
+          "s_962438",
+          "s_1079844",
+          "s_1551257",
+          "s_359410",
+          "s_11963774",
+          "s_1547493",
+          "s_373964",
+          "s_379635",
+          "s_637221",
+          "s_373508",
+          "s_383033",
+          "s_938030",
+          "s_4984431",
+          "s_571363",
+          "s_1494553"
+        ],
+        "escucha": [
+          "s_5766148",
+          "s_1137563",
+          "s_373505",
+          "s_399112",
+          "s_1551257",
+          "s_1547493",
+          "s_637221",
+          "s_938030"
+        ],
+        "prueba": [
+          "s_878860",
+          "s_1541088",
+          "s_1309894",
+          "s_2780694",
+          "s_373822",
+          "s_2694982"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_5766148",
+          "start": 13,
+          "end": 18,
+          "wrong": "chitarra"
+        },
+        {
+          "id": "s_858099",
+          "start": 12,
+          "end": 18,
+          "wrong": "hobby"
+        },
+        {
+          "id": "s_4739616",
+          "start": 11,
+          "end": 19,
+          "wrong": "partita"
+        },
+        {
+          "id": "s_1137563",
+          "start": 11,
+          "end": 21,
+          "wrong": "musica"
         }
       ]
     },

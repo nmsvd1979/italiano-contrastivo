@@ -338,6 +338,72 @@
       ]
     },
     {
+      "id": "u31",
+      "level": "A1",
+      "title": "Vocabulario: la ropa",
+      "goal_es": "Camicia, gonna, scarpe, pantaloni, giacca… y qué artículo lleva cada palabra (il cappotto, lo stivale, gli occhiali).",
+      "codes": [
+        "ERR_VOC_ABITI"
+      ],
+      "why_here": "Hablar de lo que llevas puesto y de las compras, con los posesivos y c'è / ci sono ya vistos.",
+      "readings": [
+        "rd_moda"
+      ]
+    },
+    {
+      "id": "u32",
+      "level": "A1",
+      "title": "Vocabulario: los colores",
+      "goal_es": "Rosso, bianco, nero, giallo, verde, blu… y cómo cambian con el género (rossa) o no cambian (blu, rosa).",
+      "codes": [
+        "ERR_VOC_COLORI"
+      ],
+      "why_here": "Describir cosas y personas con colores que concuerdan con lo que describen."
+    },
+    {
+      "id": "u33",
+      "level": "A1",
+      "title": "Vocabulario: el tiempo y el clima",
+      "goal_es": "Pioggia, sole, vento, neve, nuvola… y «fa caldo», «fa freddo» (con fare), como en tener hambre se usa avere.",
+      "codes": [
+        "ERR_VOC_CLIMA"
+      ],
+      "why_here": "Hablar del tiempo con fare, ya vistos en los verbos irregulares."
+    },
+    {
+      "id": "u34",
+      "level": "A1",
+      "title": "Vocabulario: transportes y viajes",
+      "goal_es": "Treno, autobus, aereo, macchina, biglietto, fermata… y «in treno», «in macchina», pero «a piedi».",
+      "codes": [
+        "ERR_VOC_TRASPORTI"
+      ],
+      "why_here": "Moverte por la ciudad y viajar, con las preposiciones de lugar ya vistas."
+    },
+    {
+      "id": "u35",
+      "level": "A1",
+      "title": "Vocabulario: bar y restaurante",
+      "goal_es": "Menù, conto, tazza, panino, tè… y cómo pedir: «il conto, per favore».",
+      "codes": [
+        "ERR_VOC_BAR"
+      ],
+      "why_here": "Pedir en un bar o restaurante con la comida y la bebida ya vistas.",
+      "readings": [
+        "rd_pasticceria"
+      ]
+    },
+    {
+      "id": "u36",
+      "level": "A1",
+      "title": "Vocabulario: tiempo libre",
+      "goal_es": "Calcio, musica, film, canzone, festa… y «giocare a calcio» (con «a»).",
+      "codes": [
+        "ERR_VOC_TEMPOLIBERO"
+      ],
+      "why_here": "Contar qué haces en tu tiempo libre con los verbos de presente."
+    },
+    {
       "id": "u08",
       "level": "A2",
       "title": "Sono andato: el auxiliar essere",

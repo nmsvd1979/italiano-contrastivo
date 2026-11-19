@@ -1,0 +1,163 @@
+{
+  "id": "rd_moda",
+  "title": "La moda italiana",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/3-4-la-vita-quotidiana-e-la-moda/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes. Se omite el final.",
+  "sentences": [
+    {
+      "id": "rd_moda_00",
+      "it": "Sono le ore sedici e il signor Mattarella e la signora Winfrey escono dal museo.",
+      "es": "Son las dieciséis horas y el señor Mattarella y la señora Winfrey salen del museo."
+    },
+    {
+      "id": "rd_moda_01",
+      "it": "Grazie mille! Cosa fa adesso, signor Mattarella?",
+      "es": "¡Muchas gracias! ¿Qué hace ahora, señor Mattarella?",
+      "speaker": "Signora Winfrey"
+    },
+    {
+      "id": "rd_moda_02",
+      "it": "Vado in albergo e poi incontro mia figlia.",
+      "es": "Voy al hotel y después me encuentro con mi hija.",
+      "speaker": "Signor Mattarella"
+    },
+    {
+      "id": "rd_moda_03",
+      "it": "Mia figlia ama fare spese.",
+      "es": "A mi hija le encanta ir de compras.",
+      "speaker": "Signor Mattarella"
+    },
+    {
+      "id": "rd_moda_04",
+      "it": "Qui a Firenze ci sono dei negozi molto belli.",
+      "es": "Aquí en Florencia hay tiendas muy bonitas.",
+      "speaker": "Signor Mattarella"
+    },
+    {
+      "id": "rd_moda_05",
+      "it": "Mi piace molto la moda italiana.",
+      "es": "Me gusta mucho la moda italiana.",
+      "speaker": "Signora Winfrey"
+    },
+    {
+      "id": "rd_moda_06",
+      "it": "Tutti gli italiani sono molto eleganti.",
+      "es": "Todos los italianos son muy elegantes.",
+      "speaker": "Signora Winfrey"
+    },
+    {
+      "id": "rd_moda_07",
+      "it": "Firenze è la città dove c'è stata la prima sfilata di moda.",
+      "es": "Florencia es la ciudad donde hubo el primer desfile de moda.",
+      "speaker": "Signor Mattarella"
+    },
+    {
+      "id": "rd_moda_08",
+      "it": "Quale stilista preferisce?",
+      "es": "¿Qué diseñador prefiere?",
+      "speaker": "Signor Mattarella"
+    },
+    {
+      "id": "rd_moda_09",
+      "it": "È difficile scegliere…",
+      "es": "Es difícil elegir…",
+      "speaker": "Signora Winfrey"
+    },
+    {
+      "id": "rd_moda_10",
+      "it": "Se vuole, posso stare un po' con Lei.",
+      "es": "Si quiere, puedo estar un rato con usted.",
+      "speaker": "Signor Mattarella"
+    },
+    {
+      "id": "rd_moda_11",
+      "it": "Possiamo andare in via de' Tornabuoni, dove ci sono dei negozi molto belli.",
+      "es": "Podemos ir a la via de' Tornabuoni, donde hay tiendas muy bonitas.",
+      "speaker": "Signor Mattarella"
+    },
+    {
+      "id": "rd_moda_12",
+      "it": "È molto gentile, ma oggi non posso.",
+      "es": "Es muy amable, pero hoy no puedo.",
+      "speaker": "Signora Winfrey"
+    },
+    {
+      "id": "rd_moda_13",
+      "it": "Va bene, da che parte va?",
+      "es": "Está bien, ¿hacia dónde va?",
+      "speaker": "Signor Mattarella"
+    },
+    {
+      "id": "rd_moda_14",
+      "it": "Verso San Marco.",
+      "es": "Hacia San Marcos.",
+      "speaker": "Signora Winfrey"
+    },
+    {
+      "id": "rd_moda_15",
+      "it": "Allora faccio un po' di strada con Lei.",
+      "es": "Entonces hago un trecho del camino con usted.",
+      "speaker": "Signor Mattarella"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿A qué hora salen del museo?",
+      "options": [
+        "A las dieciséis",
+        "A las diez",
+        "A las veintiuna"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Qué le gusta hacer a la hija del señor Mattarella?",
+      "options": [
+        "Cocinar",
+        "Ir de compras",
+        "Estudiar"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Qué ciudad tuvo el primer desfile de moda?",
+      "options": [
+        "Roma",
+        "Milán",
+        "Florencia"
+      ],
+      "answer": 2,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Adónde puede ir la señora Winfrey con el señor Mattarella?",
+      "options": [
+        "A la via de' Tornabuoni, con tiendas",
+        "Al museo",
+        "A la estación"
+      ],
+      "answer": 0,
+      "evidence": 11
+    },
+    {
+      "prompt_es": "¿Puede la señora Winfrey ir hoy a las tiendas?",
+      "options": [
+        "Sí, de inmediato",
+        "No, hoy no puede",
+        "No se dice"
+      ],
+      "answer": 1,
+      "evidence": 12
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

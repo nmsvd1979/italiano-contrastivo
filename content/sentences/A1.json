@@ -4,6 +4,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Me encanta el clima estival.",
+    "es_author": "hayastan",
+    "es_source_id": "1002825",
+    "id": "s_1000555",
+    "it": "Io adoro il clima estivo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1000555",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_FAMILIA"
     ],
     "es": "Mi abuelo es un trabajador incansable.",
@@ -114,6 +136,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "La flor es azul.",
+    "es_author": "Shishir",
+    "es_source_id": "10059958",
+    "id": "s_10060197",
+    "it": "Il fiore è blu.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10060197",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -132,6 +176,30 @@
     "source_id": "1008292",
     "tag_rules": {
       "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "A ella le gustan los vestidos azules.",
+    "es_author": "Shishir",
+    "es_source_id": "704382",
+    "id": "s_1012605",
+    "it": "A lei piacciono i vestiti blu.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1012605",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -263,6 +331,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Me encanta el sol.",
+    "es_author": "laszchamachla",
+    "es_source_id": "745261",
+    "id": "s_1018977",
+    "it": "Mi piace il sole.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1018977",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_POSSESSIVE_ARTICLE"
     ],
     "es": "Sus calcetines son grises.",
@@ -279,6 +369,28 @@
     "source_id": "1019631",
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "Ella nunca se viste de verde.",
+    "es_author": "Shishir",
+    "es_source_id": "1045046",
+    "id": "s_1019957",
+    "it": "Non si veste mai di verde.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1019957",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -551,6 +663,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "La bandera es azul.",
+    "es_author": "saverius",
+    "es_source_id": "10462171",
+    "id": "s_10461736",
+    "it": "La bandiera è blu.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10461736",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "leonardo",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -617,6 +751,28 @@
     "source_id": "10636288",
     "tag_rules": {
       "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "El papel es blanco.",
+    "es_author": "abu3",
+    "es_source_id": "853334",
+    "id": "s_1065017",
+    "it": "La carta è bianca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1065017",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -693,6 +849,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "¿Quiere una taza de café?",
+    "es_author": "Shishir",
+    "es_source_id": "475558",
+    "id": "s_1073992",
+    "it": "Vuole una tazza di caffè?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1073992",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_C_G_PALATAL"
     ],
     "es": "Su tía parece joven.",
@@ -707,6 +887,28 @@
     "source_id": "1078515",
     "tag_rules": {
       "ERR_C_G_PALATAL": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Estoy leyendo el periódico.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1079845",
+    "id": "s_1079844",
+    "it": "Sto leggendo il giornale.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1079844",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1039,6 +1241,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "¿Tenemos que tomar el autobús?",
+    "es_author": "darinmex",
+    "es_source_id": "493774",
+    "id": "s_1103424",
+    "it": "Dobbiamo prendere l'autobus?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1103424",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -1088,6 +1312,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "Tomo el té sin azúcar.",
+    "es_author": "hundo",
+    "es_source_id": "976257",
+    "id": "s_1105352",
+    "it": "Prendo il tè senza zucchero.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1105352",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_FAMILIA"
     ],
     "es": "El hombre comió pan.",
@@ -1102,6 +1350,28 @@
     "source_id": "1107219",
     "tag_rules": {
       "ERR_VOC_FAMILIA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "El gato es negro.",
+    "es_author": "Espi",
+    "es_source_id": "1107288",
+    "id": "s_1107279",
+    "it": "Il gatto è nero.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1107279",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1148,6 +1418,30 @@
     "source_id": "1110030",
     "tag_rules": {
       "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "Le gusta el té.",
+    "es_author": "Shishir",
+    "es_source_id": "1118759",
+    "id": "s_1118828",
+    "it": "Gli piace il tè.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1118828",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1359,6 +1653,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "Esta es mi bicicleta vieja.",
+    "es_author": "lukaszpp",
+    "es_source_id": "463319",
+    "id": "s_1132156",
+    "it": "Questa è la mia vecchia bicicletta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1132156",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -1401,6 +1717,28 @@
     "source_id": "1134530",
     "tag_rules": {
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Ella tiene una fotografía.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1258414",
+    "id": "s_1137563",
+    "it": "Lei ha una fotografia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1137563",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1797,6 +2135,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "No estoy escuchando música.",
+    "es_author": "saverius",
+    "es_source_id": "11967669",
+    "id": "s_11963774",
+    "it": "Non sto ascoltando musica.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11963774",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_CASA"
     ],
     "es": "¿Hay muchas flores en su jardín?",
@@ -1855,6 +2215,28 @@
     "source_id": "12026400",
     "tag_rules": {
       "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "No me gusta este sombrero.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1276982",
+    "id": "s_1203630",
+    "it": "Non mi piace questo cappello.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1203630",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1976,6 +2358,50 @@
       "ERR_PERSONAL_A": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "Este sombrero es mío.",
+    "es_author": "Shishir",
+    "es_source_id": "540348",
+    "id": "s_1221313",
+    "it": "Questo cappello è mio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1221313",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Rovo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "Ésta es una bonita chaqueta.",
+    "es_author": "saverius",
+    "es_source_id": "12316122",
+    "id": "s_12311936",
+    "it": "Questa è una bella giacca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12311936",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -2318,6 +2744,52 @@
     "source_id": "1255726",
     "tag_rules": {
       "ERR_PRESENT_ESSERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "Hay un bus aquí.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1547961",
+    "id": "s_12559888",
+    "it": "C'è un autobus qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12559888",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "No tengo coche.",
+    "es_author": "opor",
+    "es_source_id": "856269",
+    "id": "s_1257658",
+    "it": "Non ho la macchina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1257658",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -2684,6 +3156,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "Mi perro es marrón.",
+    "es_author": "Shishir",
+    "es_source_id": "13358417",
+    "id": "s_12763276",
+    "it": "Il mio cane è marrone.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12763276",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Shishir",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -2909,6 +3403,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "El pan es blanco.",
+    "es_author": "Seael",
+    "es_source_id": "13685842",
+    "id": "s_13041908",
+    "it": "Il pane è bianco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13041908",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Adelpa",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -2993,6 +3509,28 @@
     "source_id": "1308196",
     "tag_rules": {
       "ERR_VOC_CIBO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Bibi81",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Ahora estoy tocando el piano.",
+    "es_author": "darinmex",
+    "es_source_id": "711945",
+    "id": "s_1309894",
+    "it": "Adesso sto suonando il pianoforte.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1309894",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3568,6 +4106,52 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Adelpa",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "Mi loro es verde.",
+    "es_author": "Adelpa",
+    "es_source_id": "13385378",
+    "id": "s_13385376",
+    "it": "Il mio pappagallo è verde.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13385376",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Este muro está muy frío.",
+    "es_author": "Shishir",
+    "es_source_id": "1646599",
+    "id": "s_1339117",
+    "it": "Questo muro è molto freddo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1339117",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -3996,6 +4580,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Hoy no hace tanto calor como ayer.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1667374",
+    "id": "s_14049592",
+    "it": "Oggi non fa caldo come ieri.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14049592",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "unforgiven95",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_C_G_PALATAL"
     ],
     "es": "En el basurero municipal abundan las ratas.",
@@ -4329,6 +4935,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Esta es mi película favorita.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1496840",
+    "id": "s_1494553",
+    "it": "Questo è il mio film preferito.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1494553",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_ESSERE_AVERE"
     ],
     "es": "Tengo un camión.",
@@ -4487,6 +5115,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "El perro de Ken es blanco.",
+    "es_author": "enteka",
+    "es_source_id": "1288042",
+    "id": "s_1511150",
+    "it": "Il cane di Ken è bianco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1511150",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Shadd",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_SC_PALATAL"
     ],
     "es": "A ella se le da bien cantar.",
@@ -4525,6 +5175,50 @@
     "source_id": "1513672",
     "tag_rules": {
       "ERR_VOC_CIBO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "marco87",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "El refresco es muy delicioso.",
+    "es_author": "tatianangel",
+    "es_source_id": "1515849",
+    "id": "s_1515977",
+    "it": "La bibita è davvero deliziosa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1515977",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "marco87",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Hace mucho calor hoy, ¿no?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1515481",
+    "id": "s_1516068",
+    "it": "Fa molto caldo oggi, no?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1516068",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4759,6 +5453,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Me gusta el sonido del piano.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1107357",
+    "id": "s_1541088",
+    "it": "Mi piace il suono del pianoforte.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1541088",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_MODAL"
     ],
     "es": "Puedes usar mi bicicleta.",
@@ -4783,6 +5499,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Él no sabe tocar guitarra.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1439794",
+    "id": "s_1547493",
+    "it": "Non sa suonare la chitarra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1547493",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_ESSERE_AVERE"
     ],
     "es": "Estoy bastante cansado.",
@@ -4799,6 +5539,28 @@
     "source_id": "1547614",
     "tag_rules": {
       "ERR_PRESENT_ESSERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Mary toca el piano.",
+    "es_author": "Shishir",
+    "es_source_id": "844001",
+    "id": "s_1551257",
+    "it": "Mary suona il pianoforte.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1551257",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5093,6 +5855,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "Mary quiere comprar un vestido.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1386218",
+    "id": "s_1652103",
+    "it": "Mary vuole comprare un vestito.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1652103",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_POSSESSIVE_ARTICLE"
     ],
     "es": "Odio a sus padres.",
@@ -5297,6 +6081,50 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "Esta camisa cuesta diez dólares.",
+    "es_author": "metalserfo",
+    "es_source_id": "950791",
+    "id": "s_1701463",
+    "it": "Questa camicia costa dieci dollari.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1701463",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "El té cuesta dos euros.",
+    "es_author": "lukaszpp",
+    "es_source_id": "462951",
+    "id": "s_1701473",
+    "it": "Il tè costa due euro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1701473",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PREP_PLACE"
     ],
     "es": "Todo es caro en Londres.",
@@ -5335,6 +6163,50 @@
     "source_id": "1701505",
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "Este coche es rápido.",
+    "es_author": "lukaszpp",
+    "es_source_id": "463265",
+    "id": "s_1701558",
+    "it": "Questa macchina è veloce.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1701558",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "El coche es lento.",
+    "es_author": "Shishir",
+    "es_source_id": "1020626",
+    "id": "s_1701563",
+    "it": "La macchina è lenta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1701563",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5519,6 +6391,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Shadd",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "Estoy buscando mi reloj.",
+    "es_author": "BlueDecember",
+    "es_source_id": "1466542",
+    "id": "s_1740931",
+    "it": "Sto cercando il mio orologio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1740931",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -5561,6 +6455,28 @@
     "source_id": "1794866",
     "tag_rules": {
       "ERR_VOC_CIBO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Tus ojos son como estrellas.",
+    "es_author": "Shishir",
+    "es_source_id": "5549043",
+    "id": "s_1816669",
+    "it": "I tuoi occhi sono come stelle.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1816669",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -6001,6 +6917,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "¿Dónde está mi té?",
+    "es_author": "Shishir",
+    "es_source_id": "2008094",
+    "id": "s_1999830",
+    "it": "Dov'è il mio tè?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1999830",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_POSSESSIVE_ARTICLE"
     ],
     "es": "¿Dónde está mi coche?",
@@ -6017,6 +6955,28 @@
     "source_id": "1999832",
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "hitori37",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "Ella lleva un sombrero magnífico.",
+    "es_author": "Shishir",
+    "es_source_id": "2624640",
+    "id": "s_2001267",
+    "it": "Lei indossa un cappello meraviglioso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2001267",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -6173,6 +7133,28 @@
     "source_id": "2019970",
     "tag_rules": {
       "ERR_PRESENT_ERE_IRE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "Ve a esperar en el auto.",
+    "es_author": "fgreco",
+    "es_source_id": "2444254",
+    "id": "s_2020018",
+    "it": "Vai ad aspettare in macchina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2020018",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -6411,6 +7393,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "AYDYL84",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "Mi padre puede pilotar un avión.",
+    "es_author": "danieru",
+    "es_source_id": "717016",
+    "id": "s_2028811",
+    "it": "Mio padre può pilotare un aereo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2028811",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -6522,6 +7526,30 @@
     "source_id": "2079902",
     "tag_rules": {
       "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "No puedo hacerlo con este calor.",
+    "es_author": "nancy",
+    "es_source_id": "2214135",
+    "id": "s_2083690",
+    "it": "Non posso farlo con questo caldo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2083690",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -6709,6 +7737,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "miccap",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "El clima mediterráneo es muy agradable.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2299486",
+    "id": "s_2196504",
+    "it": "Il clima mediterraneo è molto piacevole.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2196504",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -6804,6 +7854,50 @@
     "translation_kind": "direct"
   },
   {
+    "author": "hitori37",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "¿Dónde está mi anillo?",
+    "es_author": "Shishir",
+    "es_source_id": "10029021",
+    "id": "s_2286939",
+    "it": "Dov'è il mio anello?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2286939",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "hitori37",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "¿Dónde está mi maleta?",
+    "es_author": "BEASY8",
+    "es_source_id": "4220013",
+    "id": "s_2286944",
+    "it": "Dov'è la mia valigia?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2286944",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -6868,6 +7962,28 @@
     "source_id": "2353797",
     "tag_rules": {
       "ERR_VOC_CASA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "Me gusta tu corbata.",
+    "es_author": "tatoerique",
+    "es_source_id": "345237",
+    "id": "s_2377787",
+    "it": "Mi piace la tua cravatta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2377787",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -6962,6 +8078,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "Me gusta el azul.",
+    "es_author": "ulymarrero",
+    "es_source_id": "3445611",
+    "id": "s_2433370",
+    "it": "A me piace il blu.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2433370",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "al_ex_an_der",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -6980,6 +8118,52 @@
     "source_id": "2436421",
     "tag_rules": {
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "¡Yo quiero ojos azules!",
+    "es_author": "cueyayotl",
+    "es_source_id": "3875914",
+    "id": "s_2437683",
+    "it": "Io voglio gli occhi blu!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2437683",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "Éste libro es rojo.",
+    "es_author": "HikkiSakura",
+    "es_source_id": "2454612",
+    "id": "s_2448486",
+    "it": "Questo libro è rosso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2448486",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -7141,6 +8325,28 @@
     "source_id": "2507180",
     "tag_rules": {
       "ERR_VOC_ANIMALI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "Me gustan mucho las frutas rojas.",
+    "es_author": "hayastan",
+    "es_source_id": "2125737",
+    "id": "s_2511079",
+    "it": "Mi piace molto la frutta rossa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2511079",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -7374,6 +8580,30 @@
     "source_id": "2578620",
     "tag_rules": {
       "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "Tengo un coche rosado.",
+    "es_author": "sobrehumano",
+    "es_source_id": "3718873",
+    "id": "s_2581705",
+    "it": "Ho una macchina rosa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2581705",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -7629,6 +8859,52 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "La música es el idioma internacional.",
+    "es_author": "carlosalberto",
+    "es_source_id": "3554375",
+    "id": "s_2694982",
+    "it": "La musica è la lingua internazionale.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2694982",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Hace mucho calor hoy.",
+    "es_author": "Adelpa",
+    "es_source_id": "12170896",
+    "id": "s_2696820",
+    "it": "Fa molto caldo oggi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2696820",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_CIBO"
     ],
     "es": "Es carne de rata.",
@@ -7643,6 +8919,28 @@
     "source_id": "2697097",
     "tag_rules": {
       "ERR_VOC_CIBO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "El mar es azul.",
+    "es_author": "Seael",
+    "es_source_id": "3667145",
+    "id": "s_2698938",
+    "it": "Il mare è blu.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2698938",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -8017,6 +9315,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Mi padre escucha música clásica.",
+    "es_author": "cueyayotl",
+    "es_source_id": "2782448",
+    "id": "s_2780694",
+    "it": "Mio padre ascolta musica classica.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2780694",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_ARE"
     ],
     "es": "Él canta muy bien.",
@@ -8031,6 +9351,28 @@
     "source_id": "2796586",
     "tag_rules": {
       "ERR_PRESENT_ARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "Tu falda es bonita.",
+    "es_author": "Seael",
+    "es_source_id": "13679816",
+    "id": "s_2808114",
+    "it": "È carina la tua gonna.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2808114",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -8108,6 +9450,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "El precio de la gasolina sube.",
+    "es_author": "BraveSentry",
+    "es_source_id": "789495",
+    "id": "s_2810519",
+    "it": "Il prezzo della benzina aumenta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2810519",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_SC_PALATAL"
     ],
     "es": "El precio de la gasolina sube.",
@@ -8144,6 +9508,28 @@
     "source_id": "2823744",
     "tag_rules": {
       "ERR_VOC_CITTA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Hoy no hace frío.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1923239",
+    "id": "s_2825371",
+    "it": "Non c'è freddo oggi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2825371",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -8262,6 +9648,28 @@
     "source_id": "2858225",
     "tag_rules": {
       "ERR_VOC_TEMPO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "¿Qué hay en la maleta?",
+    "es_author": "alexmarcelo",
+    "es_source_id": "2924603",
+    "id": "s_2859883",
+    "it": "Cosa c'è nella valigia?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2859883",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -8428,6 +9836,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "El perro está durmiendo en el auto.",
+    "es_author": "hayastan",
+    "es_source_id": "1943857",
+    "id": "s_2916132",
+    "it": "Il cane sta dormendo in macchina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2916132",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "alexmarcelo",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -8448,6 +9878,28 @@
     "source_id": "2917130",
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "Ya no tengo auto.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2917293",
+    "id": "s_2917306",
+    "it": "Non ho più una macchina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2917306",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -8538,6 +9990,30 @@
     "source_id": "2928259",
     "tag_rules": {
       "ERR_PRESENT_ESSERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "Su tapete es completamente blanco.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4535021",
+    "id": "s_2930658",
+    "it": "Il loro tappeto è completamente bianco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2930658",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -8654,6 +10130,30 @@
     "source_id": "2975152",
     "tag_rules": {
       "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "El gato es marrón.",
+    "es_author": "Shishir",
+    "es_source_id": "2038361",
+    "id": "s_2977327",
+    "it": "Il gatto è marrone.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2977327",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -9450,6 +10950,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "bailujia",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Hoy hace calor, ¿cierto?",
+    "es_author": "baudelaire",
+    "es_source_id": "6084294",
+    "id": "s_3343545",
+    "it": "Fa caldo oggi, vero?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3343545",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -9468,6 +10992,30 @@
     "source_id": "3343673",
     "tag_rules": {
       "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "¿Dónde está el coche?",
+    "es_author": "Shishir",
+    "es_source_id": "2216295",
+    "id": "s_3361717",
+    "it": "Dov'è la macchina?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3361717",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -9859,6 +11407,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "Esos trenes parten cada tres minutos.",
+    "es_author": "labatteg",
+    "es_source_id": "2119577",
+    "id": "s_3475325",
+    "it": "Quei treni partono ogni tre minuti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3475325",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_MODAL"
     ],
     "es": "¡Quiero quedarme sola!",
@@ -9897,6 +11467,28 @@
     "source_id": "3497513",
     "tag_rules": {
       "ERR_C_G_PALATAL": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "martin",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Sé tocar la guitarra.",
+    "es_author": "darinmex",
+    "es_source_id": "1115635",
+    "id": "s_350296",
+    "it": "So suonare la chitarra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "350296",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -10194,6 +11786,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "alberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "¿De quién es esta guitarra?",
+    "es_author": "Shishir",
+    "es_source_id": "502113",
+    "id": "s_359410",
+    "it": "Di chi è questa chitarra?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "359410",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -10214,6 +11828,52 @@
     "source_id": "3601695",
     "tag_rules": {
       "ERR_VOC_FAMILIA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "¿Cuánto cuesta este vestido?",
+    "es_author": "Shishir",
+    "es_source_id": "12531903",
+    "id": "s_3613046",
+    "it": "Quanto costa questo vestito?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3613046",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "El teléfono azul está encima de la mesa.",
+    "es_author": "Shishir",
+    "es_source_id": "12531891",
+    "id": "s_3625664",
+    "it": "Il telefono blu è sul tavolo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3625664",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -10474,6 +12134,52 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "¿Cuál es tu guitarra?",
+    "es_author": "Shishir",
+    "es_source_id": "491132",
+    "id": "s_373505",
+    "it": "Qual è la tua chitarra?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "373505",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "¿Quién está tocando la guitarra?",
+    "es_author": "Shishir",
+    "es_source_id": "540312",
+    "id": "s_373508",
+    "it": "Chi sta suonando la chitarra?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "373508",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_ARE"
     ],
     "es": "Ella toca la guitarra.",
@@ -10490,6 +12196,50 @@
     "source_id": "373511",
     "tag_rules": {
       "ERR_PRESENT_ARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "No me gusta este reloj.",
+    "es_author": "tatoerique",
+    "es_source_id": "360415",
+    "id": "s_373517",
+    "it": "Non mi piace questo orologio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "373517",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Te gusta la lluvia, ¿verdad?",
+    "es_author": "Shishir",
+    "es_source_id": "445704",
+    "id": "s_373641",
+    "it": "Ti piace la pioggia, vero?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "373641",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -10538,6 +12288,76 @@
     "source_id": "373744",
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Es un viejo piano.",
+    "es_author": "Shishir",
+    "es_source_id": "559840",
+    "id": "s_373819",
+    "it": "È un vecchio pianoforte.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "373819",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Alguien está tocando el piano.",
+    "es_author": "Shishir",
+    "es_source_id": "959598",
+    "id": "s_373822",
+    "it": "Qualcuno sta suonando il pianoforte.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "373822",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Este periódico es gratuito.",
+    "es_author": "Shishir",
+    "es_source_id": "779892",
+    "id": "s_373964",
+    "it": "Questo giornale è gratuito.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "373964",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -10800,6 +12620,52 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Me gusta pasear bajo la lluvia.",
+    "es_author": "Angfarmar",
+    "es_source_id": "855869",
+    "id": "s_377103",
+    "it": "Mi piace camminare sotto la pioggia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "377103",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Los días de lluvia me deprimen.",
+    "es_author": "hayastan",
+    "es_source_id": "1413600",
+    "id": "s_377116",
+    "it": "I giorni di pioggia mi deprimono.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "377116",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_FAMILIA"
     ],
     "es": "Mi madre no habla inglés.",
@@ -10932,6 +12798,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "El reloj no funciona.",
+    "es_author": "Leono",
+    "es_source_id": "642346",
+    "id": "s_378176",
+    "it": "L'orologio non funziona.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378176",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -10958,6 +12848,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "Éste es mi coche.",
+    "es_author": "Shishir",
+    "es_source_id": "603320",
+    "id": "s_378847",
+    "it": "Questa è la mia macchina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378847",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_SC_PALATAL"
     ],
     "es": "Maria entiende chino.",
@@ -10974,6 +12888,28 @@
     "source_id": "379137",
     "tag_rules": {
       "ERR_SC_PALATAL": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Es mi canción favorita.",
+    "es_author": "Shishir",
+    "es_source_id": "495331",
+    "id": "s_379635",
+    "it": "È la mia canzone preferita.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "379635",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -11276,6 +13212,28 @@
     "source_id": "382866",
     "tag_rules": {
       "ERR_C_G_PALATAL": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "El deporte es bueno para la salud.",
+    "es_author": "Ramses",
+    "es_source_id": "329764",
+    "id": "s_383033",
+    "it": "Lo sport fa bene alla salute.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "383033",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -11584,6 +13542,50 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "El cielo es azul.",
+    "es_author": "Shishir",
+    "es_source_id": "539388",
+    "id": "s_386850",
+    "it": "Il cielo è blu.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "386850",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "valealb",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Hoy hace mucho más calor.",
+    "es_author": "Seael",
+    "es_source_id": "13627637",
+    "id": "s_3873574",
+    "it": "Oggi fa molto più caldo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3873574",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_TEMPO"
     ],
     "es": "¡Que tengas un buen fin de semana!",
@@ -11598,6 +13600,28 @@
     "source_id": "387483",
     "tag_rules": {
       "ERR_VOC_TEMPO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "¿Cuál es su maleta?",
+    "es_author": "Fanki",
+    "es_source_id": "3027",
+    "id": "s_388482",
+    "it": "Qual è la vostra valigia?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "388482",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -11720,6 +13744,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "valealb",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "Está en el bolsillo de mi chaqueta.",
+    "es_author": "darinmex",
+    "es_source_id": "730093",
+    "id": "s_3935345",
+    "it": "È nella tasca della mia giacca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3935345",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -11812,6 +13858,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "El carro es amarillo.",
+    "es_author": "cueyayotl",
+    "es_source_id": "6172275",
+    "id": "s_3966973",
+    "it": "L'auto è gialla.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3966973",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "ver",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -11880,6 +13948,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "El próximo lunes es feriado.",
+    "es_author": "catakaoe",
+    "es_source_id": "399110",
+    "id": "s_399112",
+    "it": "Lunedì prossimo è festa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "399112",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -11898,6 +13988,28 @@
     "source_id": "3996278",
     "tag_rules": {
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "ver",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "La puerta de la oficina es amarilla.",
+    "es_author": "hayastan",
+    "es_source_id": "1664837",
+    "id": "s_399699",
+    "it": "La porta dell'ufficio è gialla.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "399699",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -12036,6 +14148,28 @@
     "source_id": "409445",
     "tag_rules": {
       "ERR_VOC_ANIMALI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "Ésta no es mi bolsa.",
+    "es_author": "darinmex",
+    "es_source_id": "727558",
+    "id": "s_409513",
+    "it": "Questa non è la mia borsa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "409513",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -12294,6 +14428,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "Sólo tenemos té.",
+    "es_author": "Shishir",
+    "es_source_id": "562092",
+    "id": "s_423815",
+    "it": "Abbiamo solo del tè.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "423815",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_CIBO"
     ],
     "es": "Me gusta comer sopa caliente.",
@@ -12500,6 +14656,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "¿Cuánto vale este anillo?",
+    "es_author": "nancy",
+    "es_source_id": "1148450",
+    "id": "s_428814",
+    "it": "Quanto vale questo anello?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "428814",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_LAVORO"
     ],
     "es": "¿Cuánto cuesta este bolígrafo?",
@@ -12628,6 +14806,30 @@
     "source_id": "4384477",
     "tag_rules": {
       "ERR_VOC_ANIMALI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "Prefiero beber café que té.",
+    "es_author": "andresevargas",
+    "es_source_id": "699492",
+    "id": "s_439940",
+    "it": "Preferisco il caffè al tè.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "439940",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -13002,6 +15204,52 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "Tom quiere una bicicleta.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4503489",
+    "id": "s_4503480",
+    "it": "Tom vuole una bicicletta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4503480",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "¿Dónde está su corbata?",
+    "es_author": "Seael",
+    "es_source_id": "8014825",
+    "id": "s_4504233",
+    "it": "Dov'è la sua cravatta?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4504233",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Ricardo14",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -13046,30 +15294,6 @@
     "source_id": "4508978",
     "tag_rules": {
       "ERR_VOC_TEMPO": "capsule_calque"
-    },
-    "translation_kind": "direct"
-  },
-  {
-    "author": "Guybrush88",
-    "cefr_confidence": 0.3,
-    "cefr_estimate": "A1",
-    "error_codes": [
-      "ERR_PRESENT_ESSERE_AVERE"
-    ],
-    "es": "Ellos son mis amigos.",
-    "es_author": "cueyayotl",
-    "es_source_id": "5057686",
-    "id": "s_4510989",
-    "it": "Loro sono miei amici.",
-    "license": "CC BY 2.0 FR",
-    "qa_flags": [
-      "multi_translation"
-    ],
-    "review_status": "validated",
-    "source": "tatoeba",
-    "source_id": "4510989",
-    "tag_rules": {
-      "ERR_PRESENT_ESSERE_AVERE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -13186,6 +15410,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "JeanM",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "El automóvil corre rápido.",
+    "es_author": "Leono",
+    "es_source_id": "503274",
+    "id": "s_4565946",
+    "it": "La macchina corre veloce.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4565946",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -13206,6 +15452,28 @@
     "source_id": "4571414",
     "tag_rules": {
       "ERR_VOC_LAVORO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "ianna",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Cierro la ventana porque hace frío.",
+    "es_author": "ianna",
+    "es_source_id": "5050710",
+    "id": "s_4573741",
+    "it": "Chiudo la finestra perché fa freddo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4573741",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -13504,6 +15772,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "No tengo guitarra.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4735825",
+    "id": "s_4739616",
+    "it": "Non ho una chitarra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4739616",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -13710,6 +16002,50 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "Tenemos la intención de ir en tren.",
+    "es_author": "uptonpark1973",
+    "es_source_id": "5754115",
+    "id": "s_4918210",
+    "it": "Abbiamo intenzione di andare in treno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4918210",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "La música es importante para mí.",
+    "es_author": "Shishir",
+    "es_source_id": "4989269",
+    "id": "s_4984431",
+    "it": "La musica è importante per me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4984431",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_MODAL"
     ],
     "es": "Debemos salir de esta tempestad.",
@@ -13798,6 +16134,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "No quiero tu corbata.",
+    "es_author": "diegohn",
+    "es_source_id": "6772805",
+    "id": "s_5074250",
+    "it": "Io non voglio la tua cravatta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5074250",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_ERE_IRE"
     ],
     "es": "No creo en su religión.",
@@ -13814,6 +16172,28 @@
     "source_id": "5093561",
     "tag_rules": {
       "ERR_PRESENT_ERE_IRE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "Es blanca como la nieve.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1610013",
+    "id": "s_5099783",
+    "it": "È bianca come la neve.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5099783",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -13936,6 +16316,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "¿Me queda bien este vestido?",
+    "es_author": "Shishir",
+    "es_source_id": "521056",
+    "id": "s_521083",
+    "it": "Mi sta bene questo vestito?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "521083",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_CASA"
     ],
     "es": "Esta mesa es de madera.",
@@ -14043,6 +16445,28 @@
     "source_id": "5252118",
     "tag_rules": {
       "ERR_PRESENT_MODAL": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Tom toca la guitarra.",
+    "es_author": "Shishir",
+    "es_source_id": "9685183",
+    "id": "s_5284250",
+    "it": "Tom suona la chitarra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5284250",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -14211,6 +16635,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "El clima está cambiando.",
+    "es_author": "Shishir",
+    "es_source_id": "538624",
+    "id": "s_538625",
+    "it": "Il clima sta cambiando.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "538625",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_CITTA"
     ],
     "es": "Jugamos en esa playa.",
@@ -14249,6 +16695,28 @@
     "source_id": "5399318",
     "tag_rules": {
       "ERR_PRESENT_ARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "Las rosas azules son muy hermosas.",
+    "es_author": "Arraroak",
+    "es_source_id": "981067",
+    "id": "s_5415900",
+    "it": "Le rose blu sono molto belle.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5415900",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -14589,6 +17057,52 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "Tom tiene una bicicleta.",
+    "es_author": "saverius",
+    "es_source_id": "10802617",
+    "id": "s_5709386",
+    "it": "Tom ha una bicicletta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5709386",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "¿Cuál es tu deporte favorito?",
+    "es_author": "Shishir",
+    "es_source_id": "571797",
+    "id": "s_571363",
+    "it": "Qual è il tuo sport preferito?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "571363",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -14609,6 +17123,28 @@
     "source_id": "571371",
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "¿Para quién es la fiesta?",
+    "es_author": "saverius",
+    "es_source_id": "10802799",
+    "id": "s_5766148",
+    "it": "Per chi è la festa?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5766148",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -14861,6 +17397,50 @@
     "translation_kind": "direct"
   },
   {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "¿Dónde están mis pantalones?",
+    "es_author": "ignacio",
+    "es_source_id": "9211760",
+    "id": "s_6043040",
+    "it": "Dove sono i miei pantaloni?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6043040",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "No quiero esta camisa.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1832370",
+    "id": "s_607094",
+    "it": "Non voglio questa camicia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "607094",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "rado",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -14929,6 +17509,28 @@
     "source_id": "610158",
     "tag_rules": {
       "ERR_GLI_PALATAL": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Hoy hace un calor horrible.",
+    "es_author": "tatoerique",
+    "es_source_id": "347023",
+    "id": "s_610262",
+    "it": "È terribilmente caldo oggi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "610262",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -15113,6 +17715,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "Este reloj es eléctrico.",
+    "es_author": "tatoerique",
+    "es_source_id": "347487",
+    "id": "s_631232",
+    "it": "Questo orologio è elettrico.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "631232",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -15179,6 +17803,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "El perro es blanco.",
+    "es_author": "Shishir",
+    "es_source_id": "858085",
+    "id": "s_635268",
+    "it": "Il cane è bianco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "635268",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Cero",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -15219,6 +17865,28 @@
     "source_id": "635782",
     "tag_rules": {
       "ERR_VOC_CIBO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "No conozco esta canción.",
+    "es_author": "Shishir",
+    "es_source_id": "1104036",
+    "id": "s_637221",
+    "it": "Non conosco questa canzone.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "637221",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -15380,6 +18048,28 @@
     "source_id": "6606234",
     "tag_rules": {
       "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "Este cuaderno es azul.",
+    "es_author": "saverius",
+    "es_source_id": "10799262",
+    "id": "s_6609111",
+    "it": "Questo quaderno è blu?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6609111",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -15562,6 +18252,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Hace calor aquí.",
+    "es_author": "Shishir",
+    "es_source_id": "610310",
+    "id": "s_663087",
+    "it": "C'è caldo qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "663087",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "rado",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -15648,6 +18360,30 @@
     "source_id": "675684",
     "tag_rules": {
       "ERR_PRESENT_ESSERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "¿Por qué es blanca la nieve?",
+    "es_author": "hundo",
+    "es_source_id": "994772",
+    "id": "s_677748",
+    "it": "Perché la neve è bianca?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "677748",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -15810,6 +18546,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Ricardo14",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "Tengo un gato negro.",
+    "es_author": "Ricardo14",
+    "es_source_id": "6942213",
+    "id": "s_6942216",
+    "it": "Ho un gatto nero.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6942216",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -15828,6 +18586,30 @@
     "source_id": "6988135",
     "tag_rules": {
       "ERR_PREP_PLACE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "Tu reloj está sobre la mesa.",
+    "es_author": "darinmex",
+    "es_source_id": "702435",
+    "id": "s_700874",
+    "it": "Il tuo orologio è sul tavolo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "700874",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -15876,6 +18658,28 @@
     "source_id": "7017593",
     "tag_rules": {
       "ERR_PRESENT_IRREGULAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "Mi camisa no es marrón.",
+    "es_author": "Shishir",
+    "es_source_id": "10030120",
+    "id": "s_7019221",
+    "it": "La mia camicia non è marrone.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7019221",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -15968,6 +18772,28 @@
     "source_id": "707287",
     "tag_rules": {
       "ERR_PRESENT_ARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "Este té es muy bueno.",
+    "es_author": "darinmex",
+    "es_source_id": "740605",
+    "id": "s_708295",
+    "it": "Questo tè è molto buono.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "708295",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -16343,6 +19169,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "¿Qué fruta es verde?",
+    "es_author": "lukaszpp",
+    "es_source_id": "464571",
+    "id": "s_724498",
+    "it": "Che frutto è verde?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "724498",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_ERE_IRE"
     ],
     "es": "Él lee árabe.",
@@ -16379,6 +19227,28 @@
     "source_id": "726371",
     "tag_rules": {
       "ERR_VOC_LAVORO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "Esa bicicleta no es suya.",
+    "es_author": "darinmex",
+    "es_source_id": "750212",
+    "id": "s_726372",
+    "it": "Quella bicicletta non è sua.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "726372",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -16565,6 +19435,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "Ella tiene un gato blanco.",
+    "es_author": "Shishir",
+    "es_source_id": "811341",
+    "id": "s_749876",
+    "it": "Lei ha un gatto bianco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "749876",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Valdast",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -16637,6 +19531,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "No me gusta el tráfico.",
+    "es_author": "cronopio",
+    "es_source_id": "14087014",
+    "id": "s_7579645",
+    "it": "Non mi piace il traffico.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7579645",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_IRREGULAR"
     ],
     "es": "Si él viene, yo también.",
@@ -16673,6 +19591,28 @@
     "source_id": "758881",
     "tag_rules": {
       "ERR_PRESENT_ARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "El clima está agradable.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2127177",
+    "id": "s_759913",
+    "it": "Il clima è piacevole.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "759913",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -16881,6 +19821,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "¿Te gusta la lluvia?",
+    "es_author": "Shishir",
+    "es_source_id": "566126",
+    "id": "s_772645",
+    "it": "Ti piace la pioggia?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "772645",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -17013,6 +19977,28 @@
     "source_id": "7727148",
     "tag_rules": {
       "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "User82312",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_ABITI"
+    ],
+    "es": "El sombrero de Tom es rojo.",
+    "es_author": "User82312",
+    "es_source_id": "7728359",
+    "id": "s_7728348",
+    "it": "Il cappello di Tom è rosso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7728348",
+    "tag_rules": {
+      "ERR_VOC_ABITI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -17241,6 +20227,72 @@
     "translation_kind": "direct"
   },
   {
+    "author": "piuccio",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "Esta es la bicicleta de Mike.",
+    "es_author": "tatoerique",
+    "es_source_id": "356090",
+    "id": "s_791339",
+    "it": "Questa è la bicicletta di Mike.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "791339",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "ciampix",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "No hay gente en la luna.",
+    "es_author": "cueyayotl",
+    "es_source_id": "8630163",
+    "id": "s_7924240",
+    "it": "Non c'è gente sulla luna.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7924240",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "No puedo comprarte la bicicleta.",
+    "es_author": "hayastan",
+    "es_source_id": "949207",
+    "id": "s_795228",
+    "it": "Non posso comprarti la bicicletta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "795228",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -17431,6 +20483,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "A ella no le gusta el fútbol.",
+    "es_author": "qweruiop",
+    "es_source_id": "1070551",
+    "id": "s_819785",
+    "it": "Non le piace il calcio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "819785",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_LAVORO"
     ],
     "es": "Es muy bueno en su trabajo.",
@@ -17583,6 +20659,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "miravalles",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Me gusta el futbol.",
+    "es_author": "Jose_Gomez",
+    "es_source_id": "669354",
+    "id": "s_858099",
+    "it": "Mi piace il calcio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "858099",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -17671,6 +20769,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "El avión está por despegar.",
+    "es_author": "darinmex",
+    "es_source_id": "669709",
+    "id": "s_876862",
+    "it": "L'aereo sta per decollare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "876862",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -17711,6 +20831,30 @@
     "source_id": "8779576",
     "tag_rules": {
       "ERR_SC_PALATAL": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Tengo una revista en mi cuarto.",
+    "es_author": "cueyayotl",
+    "es_source_id": "3192858",
+    "id": "s_878860",
+    "it": "Ho una rivista nella mia stanza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "878860",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -17823,6 +20967,28 @@
     "source_id": "897647",
     "tag_rules": {
       "ERR_VOC_CASA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "La casa está pintada de blanco.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2880054",
+    "id": "s_916274",
+    "it": "La casa è pitturata di bianco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "916274",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -17967,6 +21133,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "La colina siempre es verde.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1797618",
+    "id": "s_930216",
+    "it": "La collina è sempre verde.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "930216",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_NUMERI"
     ],
     "es": "Mi madre tiene cuatro hermanos.",
@@ -18005,6 +21193,50 @@
     "source_id": "935010",
     "tag_rules": {
       "ERR_VOC_INTERROG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_COLORI"
+    ],
+    "es": "Cada manzana es roja.",
+    "es_author": "hayastan",
+    "es_source_id": "945479",
+    "id": "s_935201",
+    "it": "Ogni mela è rossa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "935201",
+    "tag_rules": {
+      "ERR_VOC_COLORI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Me gusta tocar la guitarra.",
+    "es_author": "darinmex",
+    "es_source_id": "627149",
+    "id": "s_938030",
+    "it": "Mi piace suonare la chitarra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "938030",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -18143,6 +21375,28 @@
     "source_id": "960343",
     "tag_rules": {
       "ERR_PRESENT_ERE_IRE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Cero",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TEMPOLIBERO"
+    ],
+    "es": "Tom adora estudiar música.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1386462",
+    "id": "s_962438",
+    "it": "Tom ama studiare musica.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "962438",
+    "tag_rules": {
+      "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -18339,6 +21593,52 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Es sensible al calor.",
+    "es_author": "fgreco",
+    "es_source_id": "2444302",
+    "id": "s_987826",
+    "it": "È sensibile al caldo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "987826",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CLIMA"
+    ],
+    "es": "Hoy no hace mucho viento.",
+    "es_author": "darinmex",
+    "es_source_id": "576080",
+    "id": "s_989675",
+    "it": "Oggi non tira molto vento.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "989675",
+    "tag_rules": {
+      "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PREP_ARTICLE_CONTRACTION"
     ],
     "es": "Miren todos hacia el pizarrón.",
@@ -18355,6 +21655,30 @@
     "source_id": "989905",
     "tag_rules": {
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_TRASPORTI"
+    ],
+    "es": "Él no sabe conducir un auto.",
+    "es_author": "hayastan",
+    "es_source_id": "990398",
+    "id": "s_990389",
+    "it": "Non sa guidare una macchina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "990389",
+    "tag_rules": {
+      "ERR_VOC_TRASPORTI": "capsule_calque"
     },
     "translation_kind": "direct"
   },

@@ -15,16 +15,22 @@
     "cap_err_prep_article_contraction",
     "cap_err_prep_place",
     "cap_err_tenere_avere",
+    "cap_err_voc_abiti",
     "cap_err_voc_animali",
+    "cap_err_voc_bar",
     "cap_err_voc_casa",
     "cap_err_voc_cibo",
     "cap_err_voc_citta",
+    "cap_err_voc_clima",
+    "cap_err_voc_colori",
     "cap_err_voc_corpo",
     "cap_err_voc_familia",
     "cap_err_voc_interrog",
     "cap_err_voc_lavoro",
     "cap_err_voc_numeri",
     "cap_err_voc_tempo",
+    "cap_err_voc_tempolibero",
+    "cap_err_voc_trasporti",
     "cap_err_aux_essere",
     "cap_err_comparative_di",
     "cap_err_participle_agreement",
@@ -110,7 +116,7 @@
     "ERR_PRESENT_ESSERE_AVERE": {
       "capsule": true,
       "reason": null,
-      "usable": 36
+      "usable": 35
     },
     "ERR_PRESENT_IRREGULAR": {
       "capsule": true,
@@ -132,10 +138,20 @@
       "reason": null,
       "usable": 42
     },
+    "ERR_VOC_ABITI": {
+      "capsule": true,
+      "reason": null,
+      "usable": 25
+    },
     "ERR_VOC_ANIMALI": {
       "capsule": true,
       "reason": null,
       "usable": 37
+    },
+    "ERR_VOC_BAR": {
+      "capsule": true,
+      "reason": null,
+      "usable": 18
     },
     "ERR_VOC_CASA": {
       "capsule": true,
@@ -151,6 +167,16 @@
       "capsule": true,
       "reason": null,
       "usable": 36
+    },
+    "ERR_VOC_CLIMA": {
+      "capsule": true,
+      "reason": null,
+      "usable": 24
+    },
+    "ERR_VOC_COLORI": {
+      "capsule": true,
+      "reason": null,
+      "usable": 33
     },
     "ERR_VOC_CORPO": {
       "capsule": true,
@@ -181,21 +207,31 @@
       "capsule": true,
       "reason": null,
       "usable": 33
+    },
+    "ERR_VOC_TEMPOLIBERO": {
+      "capsule": true,
+      "reason": null,
+      "usable": 31
+    },
+    "ERR_VOC_TRASPORTI": {
+      "capsule": true,
+      "reason": null,
+      "usable": 27
     }
   },
   "levels": {
-    "A1": 810,
-    "A2": 200,
+    "A1": 958,
+    "A2": 209,
     "B1": 138,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 1128,
+    "llm-audit": 1285,
     "me": 27
   },
-  "sentences_used": 1004,
+  "sentences_used": 1161,
   "translation_kind": {
-    "direct": 936,
+    "direct": 1093,
     "llm": 68
   }
 }

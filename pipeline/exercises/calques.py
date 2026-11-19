@@ -199,6 +199,11 @@ def _present_for(code: str) -> Callable[[str], Calque | None]:
     return gen
 
 
+def _vocab_codes() -> tuple[str, ...]:
+    from pipeline.exercises.vocab import VOCAB_CODES
+    return VOCAB_CODES
+
+
 def _vocab_for(code: str) -> Callable[[str], Calque | None]:
     from pipeline.exercises.vocab import find_vocab
 
@@ -230,7 +235,7 @@ _GENERATORS: dict[str, Callable[[str], Calque | None]] = {
     "ERR_PARTICIPLE_AGREEMENT": _participle_agreement,
     "ERR_POSSESSIVE_SPELLING": _possessive_spelling,
     "ERR_CONGIUNTIVO_OPINION": _congiuntivo_opinion,
-    **{c: _vocab_for(c) for c in ("ERR_VOC_FAMILIA", "ERR_VOC_CIBO", "ERR_VOC_CASA", "ERR_VOC_CITTA", "ERR_VOC_TEMPO", "ERR_VOC_CORPO", "ERR_VOC_ANIMALI", "ERR_VOC_LAVORO", "ERR_VOC_NUMERI", "ERR_VOC_INTERROG")},
+    **{c: _vocab_for(c) for c in _vocab_codes()},
     **{c: _phonetic_for(c) for c in ("ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL")},
     **{c: _present_for(c) for c in ("ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL")},
 }
