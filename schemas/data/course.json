@@ -62,7 +62,10 @@
       "codes": [
         "ERR_PRESENT_ESSERE_AVERE"
       ],
-      "why_here": "Son la base de casi todo lo demás: presentarse, describir y los tiempos compuestos."
+      "why_here": "Son la base de casi todo lo demás: presentarse, describir y los tiempos compuestos.",
+      "readings": [
+        "rd_zaino"
+      ]
     },
     {
       "id": "u21",
@@ -72,7 +75,10 @@
       "codes": [
         "ERR_VOC_FAMILIA"
       ],
-      "why_here": "Primer vocabulario: hablar de ti y de tu gente."
+      "why_here": "Primer vocabulario: hablar de ti y de tu gente.",
+      "readings": [
+        "rd_incontro"
+      ]
     },
     {
       "id": "u30",
@@ -82,7 +88,10 @@
       "codes": [
         "ERR_VOC_INTERROG"
       ],
-      "why_here": "Con ellas ya se pueden hacer preguntas desde el primer día."
+      "why_here": "Con ellas ya se pueden hacer preguntas desde el primer día.",
+      "readings": [
+        "rd_dovesei"
+      ]
     },
     {
       "id": "u04",
@@ -92,7 +101,10 @@
       "codes": [
         "ERR_TENERE_AVERE"
       ],
-      "why_here": "Léxico básico de A1 con calco muy frecuente."
+      "why_here": "Léxico básico de A1 con calco muy frecuente.",
+      "readings": [
+        "rd_faccende"
+      ]
     },
     {
       "id": "u14",
@@ -102,7 +114,10 @@
       "codes": [
         "ERR_PRESENT_ARE"
       ],
-      "why_here": "Es el grupo más grande de verbos y donde más pesa el calco de las terminaciones."
+      "why_here": "Es el grupo más grande de verbos y donde más pesa el calco de las terminaciones.",
+      "readings": [
+        "rd_routine"
+      ]
     },
     {
       "id": "u22",
@@ -112,7 +127,10 @@
       "codes": [
         "ERR_VOC_CIBO"
       ],
-      "why_here": "Vocabulario de uso inmediato para pedir y hablar de lo que comes."
+      "why_here": "Vocabulario de uso inmediato para pedir y hablar de lo que comes.",
+      "readings": [
+        "rd_ristorante"
+      ]
     },
     {
       "id": "u15",
@@ -122,7 +140,10 @@
       "codes": [
         "ERR_PRESENT_ERE_IRE"
       ],
-      "why_here": "Completa los dos grupos regulares tras los verbos en -are."
+      "why_here": "Completa los dos grupos regulares tras los verbos en -are.",
+      "readings": [
+        "rd_tempolibero"
+      ]
     },
     {
       "id": "u23",
@@ -132,7 +153,10 @@
       "codes": [
         "ERR_VOC_CASA"
       ],
-      "why_here": "Describir dónde vives, con los verbos de presente ya vistos."
+      "why_here": "Describir dónde vives, con los verbos de presente ya vistos.",
+      "readings": [
+        "rd_casa"
+      ]
     },
     {
       "id": "u16",
@@ -142,7 +166,10 @@
       "codes": [
         "ERR_PRESENT_IRREGULAR"
       ],
-      "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques."
+      "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques.",
+      "readings": [
+        "rd_giornata"
+      ]
     },
     {
       "id": "u24",
@@ -152,7 +179,10 @@
       "codes": [
         "ERR_VOC_CITTA"
       ],
-      "why_here": "Moverse y preguntar por lugares; prepara las preposiciones a / in."
+      "why_here": "Moverse y preguntar por lugares; prepara las preposiciones a / in.",
+      "readings": [
+        "rd_firenze"
+      ]
     },
     {
       "id": "u17",
@@ -162,7 +192,10 @@
       "codes": [
         "ERR_PRESENT_MODAL"
       ],
-      "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación."
+      "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación.",
+      "readings": [
+        "rd_poste"
+      ]
     },
     {
       "id": "u25",
@@ -172,7 +205,10 @@
       "codes": [
         "ERR_VOC_TEMPO"
       ],
-      "why_here": "Hablar de rutinas y planes."
+      "why_here": "Hablar de rutinas y planes.",
+      "readings": [
+        "rd_materie"
+      ]
     },
     {
       "id": "u26",
@@ -182,7 +218,10 @@
       "codes": [
         "ERR_VOC_NUMERI"
       ],
-      "why_here": "Edad, hora y precios aparecen desde el primer día."
+      "why_here": "Edad, hora y precios aparecen desde el primer día.",
+      "readings": [
+        "rd_bargello"
+      ]
     },
     {
       "id": "u01",
@@ -192,7 +231,10 @@
       "codes": [
         "ERR_POSSESSIVE_ARTICLE"
       ],
-      "why_here": "Las fuentes piden frenar este calco desde el primer día."
+      "why_here": "Las fuentes piden frenar este calco desde el primer día.",
+      "readings": [
+        "rd_comesei"
+      ]
     },
     {
       "id": "u02",
@@ -202,7 +244,10 @@
       "codes": [
         "ERR_POSSESSIVE_SPELLING"
       ],
-      "why_here": "Va justo después del artículo con posesivo: es la misma estructura vista por su forma."
+      "why_here": "Va justo después del artículo con posesivo: es la misma estructura vista por su forma.",
+      "readings": [
+        "rd_dati"
+      ]
     },
     {
       "id": "u27",
@@ -212,7 +257,10 @@
       "codes": [
         "ERR_VOC_CORPO"
       ],
-      "why_here": "Salud y descripciones; ejercita el género y el plural."
+      "why_here": "Salud y descripciones; ejercita el género y el plural.",
+      "readings": [
+        "rd_aspetto"
+      ]
     },
     {
       "id": "u07",
@@ -222,7 +270,10 @@
       "codes": [
         "ERR_ARTICLE_ALLOMORPH"
       ],
-      "why_here": "Cierra los artículos de A1 una vez vistas las contracciones."
+      "why_here": "Cierra los artículos de A1 una vez vistas las contracciones.",
+      "readings": [
+        "rd_passatempi"
+      ]
     },
     {
       "id": "u03",
@@ -232,7 +283,10 @@
       "codes": [
         "ERR_CE_AGREEMENT"
       ],
-      "why_here": "Estructura de uso inmediato en las primeras frases."
+      "why_here": "Estructura de uso inmediato en las primeras frases.",
+      "readings": [
+        "rd_viviamo"
+      ]
     },
     {
       "id": "u28",
@@ -252,7 +306,10 @@
       "codes": [
         "ERR_PREP_PLACE"
       ],
-      "why_here": "Preposiciones simples de A1."
+      "why_here": "Preposiciones simples de A1.",
+      "readings": [
+        "rd_spese"
+      ]
     },
     {
       "id": "u06",
@@ -262,7 +319,10 @@
       "codes": [
         "ERR_PREP_ARTICLE_CONTRACTION"
       ],
-      "why_here": "Se apoya en las preposiciones de la unidad anterior."
+      "why_here": "Se apoya en las preposiciones de la unidad anterior.",
+      "readings": [
+        "rd_signoria"
+      ]
     },
     {
       "id": "u29",
@@ -272,7 +332,156 @@
       "codes": [
         "ERR_VOC_LAVORO"
       ],
-      "why_here": "Cierra el vocabulario base de A1 con profesiones y objetos de estudio."
+      "why_here": "Cierra el vocabulario base de A1 con profesiones y objetos de estudio.",
+      "readings": [
+        "rd_lavoro"
+      ]
+    },
+    {
+      "id": "u31",
+      "level": "A1",
+      "title": "Vocabulario: la ropa",
+      "goal_es": "Camicia, gonna, scarpe, pantaloni, giacca… y qué artículo lleva cada palabra (il cappotto, lo stivale, gli occhiali).",
+      "codes": [
+        "ERR_VOC_ABITI"
+      ],
+      "why_here": "Hablar de lo que llevas puesto y de las compras, con los posesivos y c'è / ci sono ya vistos.",
+      "readings": [
+        "rd_moda"
+      ]
+    },
+    {
+      "id": "u32",
+      "level": "A1",
+      "title": "Vocabulario: los colores",
+      "goal_es": "Rosso, bianco, nero, giallo, verde, blu… y cómo cambian con el género (rossa) o no cambian (blu, rosa).",
+      "codes": [
+        "ERR_VOC_COLORI"
+      ],
+      "why_here": "Describir cosas y personas con colores que concuerdan con lo que describen."
+    },
+    {
+      "id": "u33",
+      "level": "A1",
+      "title": "Vocabulario: el tiempo y el clima",
+      "goal_es": "Pioggia, sole, vento, neve, nuvola… y «fa caldo», «fa freddo» (con fare), como en tener hambre se usa avere.",
+      "codes": [
+        "ERR_VOC_CLIMA"
+      ],
+      "why_here": "Hablar del tiempo con fare, ya vistos en los verbos irregulares."
+    },
+    {
+      "id": "u34",
+      "level": "A1",
+      "title": "Vocabulario: transportes y viajes",
+      "goal_es": "Treno, autobus, aereo, macchina, biglietto, fermata… y «in treno», «in macchina», pero «a piedi».",
+      "codes": [
+        "ERR_VOC_TRASPORTI"
+      ],
+      "why_here": "Moverte por la ciudad y viajar, con las preposiciones de lugar ya vistas."
+    },
+    {
+      "id": "u35",
+      "level": "A1",
+      "title": "Vocabulario: bar y restaurante",
+      "goal_es": "Menù, conto, tazza, panino, tè… y cómo pedir: «il conto, per favore».",
+      "codes": [
+        "ERR_VOC_BAR"
+      ],
+      "why_here": "Pedir en un bar o restaurante con la comida y la bebida ya vistas.",
+      "readings": [
+        "rd_pasticceria"
+      ]
+    },
+    {
+      "id": "u36",
+      "level": "A1",
+      "title": "Vocabulario: tiempo libre",
+      "goal_es": "Calcio, musica, film, canzone, festa… y «giocare a calcio» (con «a»).",
+      "codes": [
+        "ERR_VOC_TEMPOLIBERO"
+      ],
+      "why_here": "Contar qué haces en tu tiempo libre con los verbos de presente."
+    },
+    {
+      "id": "u37",
+      "level": "A1",
+      "title": "Vocabulario: saludar y ser cortés",
+      "goal_es": "Buongiorno, buonasera, ciao, arrivederci, grazie, prego, scusi/scusa… y cuándo usar el trato formal.",
+      "codes": [
+        "ERR_VOC_SALUTI"
+      ],
+      "why_here": "Las primeras palabras de cualquier conversación, antes de presentarte."
+    },
+    {
+      "id": "u38",
+      "level": "A1",
+      "title": "Questo y quello: este y aquel",
+      "goal_es": "Questo/questa/questi/queste (cerca) y quel/quella/quei/quelle (lejos), que concuerdan con el sustantivo.",
+      "codes": [
+        "ERR_VOC_DIMOSTRATIVI"
+      ],
+      "why_here": "Señalar cosas al comprar o describir, con los artículos y el género ya vistos."
+    },
+    {
+      "id": "u39",
+      "level": "A1",
+      "title": "Molto, poco, troppo, tanto",
+      "goal_es": "Molto, poco, troppo, tanto, abbastanza: cuándo concuerdan (molta acqua, molti amici) y cuándo no (mangio molto).",
+      "codes": [
+        "ERR_VOC_QUANTITA"
+      ],
+      "why_here": "Decir cuánto o cuántos, con el vocabulario de las cosas ya visto."
+    },
+    {
+      "id": "u40",
+      "level": "A1",
+      "title": "Ieri, oggi, domani, sempre, mai",
+      "goal_es": "Ieri, oggi, domani, adesso, stasera, presto, tardi, sempre, mai, già, ancora: situar las cosas en el tiempo.",
+      "codes": [
+        "ERR_VOC_AVVERBI"
+      ],
+      "why_here": "Hablar de cuándo pasan las cosas, con los días y los meses ya vistos."
+    },
+    {
+      "id": "u41",
+      "level": "A1",
+      "title": "Vocabulario: cómo es (adjetivos)",
+      "goal_es": "Alto, bello, buono, grande, simpatico, giovane… y la concordancia en género (alto/alta) y en -e (grande).",
+      "codes": [
+        "ERR_VOC_AGGETTIVI"
+      ],
+      "why_here": "Describir personas y cosas, con los colores y el vocabulario ya visto."
+    },
+    {
+      "id": "u42",
+      "level": "A1",
+      "title": "Vocabulario: dinero y compras",
+      "goal_es": "Euro, soldi, prezzo, sconto, contanti, banconota… y «euro» que no cambia en plural.",
+      "codes": [
+        "ERR_VOC_DENARO"
+      ],
+      "why_here": "Comprar y preguntar precios, con los números y la ropa ya vistos."
+    },
+    {
+      "id": "u43",
+      "level": "A1",
+      "title": "Vocabulario: la salud",
+      "goal_es": "Salute, febbre, tosse, dolore, malattia… y «ho paura», «ho sonno», «ho fame» con avere.",
+      "codes": [
+        "ERR_VOC_SALUTE"
+      ],
+      "why_here": "Decir cómo te sientes, con tener/avere y el cuerpo ya vistos."
+    },
+    {
+      "id": "u44",
+      "level": "A1",
+      "title": "Mi piace / mi piacciono",
+      "goal_es": "El verbo concuerda con lo que gusta: mi piace il gelato, mi piacciono i gatti.",
+      "codes": [
+        "ERR_PIACERE_ACCORDO"
+      ],
+      "why_here": "Decir qué te gusta, con los artículos y el vocabulario ya vistos."
     },
     {
       "id": "u08",
@@ -365,6 +574,36 @@
       "level": "B2",
       "title": "Concesivas y pasiva",
       "reason": "Faltan oraciones validadas B2."
+    },
+    {
+      "level": "A1",
+      "title": "Imperativo: apri, chiudi, vai",
+      "reason": "Dar instrucciones sencillas. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
+    },
+    {
+      "level": "A1",
+      "title": "Pedir aclaraciones: come? non ho capito",
+      "reason": "Estrategias de comunicación en A1. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
+    },
+    {
+      "level": "A1",
+      "title": "Vorrei: pedir con cortesía",
+      "reason": "Condicional solo en fórmulas fijas de petición. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
+    },
+    {
+      "level": "A1",
+      "title": "Vocabulario: higiene personal y del hogar",
+      "reason": "Campo léxico del sillabo A1. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
+    },
+    {
+      "level": "A1",
+      "title": "Vocabulario: países y nacionalidades",
+      "reason": "Campo léxico del sillabo A1 (nazionalità). Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
+    },
+    {
+      "level": "A1",
+      "title": "Entonación: afirmación o pregunta",
+      "reason": "Fonología A1: contorno de la pregunta y de la afirmación; necesita audio revisado. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
     }
   ]
 }

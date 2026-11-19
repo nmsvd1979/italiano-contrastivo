@@ -1,0 +1,163 @@
+{
+  "id": "rd_signoria",
+  "title": "Piazza della Signoria",
+  "level": "A1",
+  "kind": "lectura",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/4-2-dove/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes. Se unieron dos frases cortadas («Davanti al palazzo. C'è…»), se corrigió «somiglianza» a «somiglianze» y se omitió el final.",
+  "sentences": [
+    {
+      "id": "rd_signoria_00",
+      "it": "Artemisia passa per la piazza della Signoria.",
+      "es": "Artemisia pasa por la plaza de la Signoria."
+    },
+    {
+      "id": "rd_signoria_01",
+      "it": "La piazza della Signoria è una piazza molto grande.",
+      "es": "La plaza de la Signoria es una plaza muy grande."
+    },
+    {
+      "id": "rd_signoria_02",
+      "it": "Lì c'è una loggia dove ci sono molte statue.",
+      "es": "Allí hay una logia donde hay muchas estatuas."
+    },
+    {
+      "id": "rd_signoria_03",
+      "it": "Davanti al palazzo c'è una statua di un leone con uno scudo.",
+      "es": "Frente al palacio hay una estatua de un león con un escudo."
+    },
+    {
+      "id": "rd_signoria_04",
+      "it": "Donatello è lo scultore di questo leone.",
+      "es": "Donatello es el escultor de este león."
+    },
+    {
+      "id": "rd_signoria_05",
+      "it": "Il leone si chiama Marzocco.",
+      "es": "El león se llama Marzocco."
+    },
+    {
+      "id": "rd_signoria_06",
+      "it": "Artemisia incontra per caso Tommaso.",
+      "es": "Artemisia se encuentra por casualidad con Tommaso."
+    },
+    {
+      "id": "rd_signoria_07",
+      "it": "Ciao Tommaso, cosa fai qui?",
+      "es": "Hola, Tommaso, ¿qué haces aquí?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_signoria_08",
+      "it": "Ciao Artemisia, che sorpresa!",
+      "es": "Hola, Artemisia, ¡qué sorpresa!",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_signoria_09",
+      "it": "Sono qui perché vado agli Uffizi.",
+      "es": "Estoy aquí porque voy a los Uffizi.",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_signoria_10",
+      "it": "Adesso ammiro le belle statue che sono nella loggia dei Lanzi.",
+      "es": "Ahora admiro las bellas estatuas que están en la logia de los Lanzi.",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_signoria_11",
+      "it": "Ecco, vedi questa statua? È il Perseo di Benvenuto Cellini.",
+      "es": "Mira, ¿ves esta estatua? Es el Perseo de Benvenuto Cellini.",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_signoria_12",
+      "it": "Vedo delle somiglianze con il David di Michelangelo.",
+      "es": "Veo algunas semejanzas con el David de Michelangelo.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_signoria_13",
+      "it": "Sì, quello è il posto del vero David.",
+      "es": "Sí, ese es el lugar del David verdadero.",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_signoria_14",
+      "it": "Ho qui con me un libro molto interessante: «Le vite» di Giorgio Vasari.",
+      "es": "Tengo aquí conmigo un libro muy interesante: «Las vidas» de Giorgio Vasari.",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_signoria_15",
+      "it": "Chi è Giorgio Vasari?",
+      "es": "¿Quién es Giorgio Vasari?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_signoria_16",
+      "it": "Giorgio Vasari è il primo critico d'arte. È anche un architetto e pittore.",
+      "es": "Giorgio Vasari es el primer crítico de arte. También es arquitecto y pintor.",
+      "speaker": "Tommaso"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cómo se llama el león de la plaza?",
+      "options": [
+        "Marzocco",
+        "Donatello",
+        "Perseo"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Quién es el escultor del león?",
+      "options": [
+        "Cellini",
+        "Donatello",
+        "Vasari"
+      ],
+      "answer": 1,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Adónde va Tommaso?",
+      "options": [
+        "Al Bargello",
+        "A la estación",
+        "A los Uffizi"
+      ],
+      "answer": 2,
+      "evidence": 9
+    },
+    {
+      "prompt_es": "¿De quién es la estatua del Perseo?",
+      "options": [
+        "De Benvenuto Cellini",
+        "De Michelangelo",
+        "De Vasari"
+      ],
+      "answer": 0,
+      "evidence": 11
+    },
+    {
+      "prompt_es": "¿Quién es Giorgio Vasari?",
+      "options": [
+        "Un escultor",
+        "El primer crítico de arte",
+        "Un cocinero"
+      ],
+      "answer": 1,
+      "evidence": 16
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

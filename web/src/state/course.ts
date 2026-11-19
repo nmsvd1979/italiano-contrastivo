@@ -2,15 +2,19 @@ import type { Course, Unit } from "../content/load";
 import { isPreview } from "./preview";
 import type { StepId, UnitProgress } from "./store";
 
-export const STEPS: StepId[] = ["descubre", "capsula", "practica", "escucha", "prueba"];
+export const STEPS: StepId[] = ["descubre", "lectura", "capsula", "practica", "escucha", "practica2", "prueba"];
+/** Los pasos de una unidad: «Lectura» solo existe si la unidad tiene un texto asignado. */
+export const stepsFor = (unit?: Unit): StepId[] => (unit && !unit.readings?.length ? STEPS.filter((s) => s !== "lectura") : STEPS);
 export const STEP_LABEL: Record<StepId, string> = {
-  descubre: "Descubre", capsula: "Cápsula", practica: "Práctica", escucha: "Escucha", prueba: "Prueba de la unidad",
+  descubre: "Descubre", lectura: "Lectura", capsula: "Cápsula", practica: "Práctica", escucha: "Escucha", practica2: "Práctica 2", prueba: "Prueba de la unidad",
 };
 export const STEP_PURPOSE: Record<StepId, string> = {
   descubre: "Bloque de lectura: ejemplos reales con el punto clave resaltado, significado y huecos solo donde el italiano difiere.",
+  lectura: "Un texto real de un libro abierto: léelo con audio y traducción, y responde preguntas.",
   capsula: "Gimnasio sintáctico: una explicación corta y práctica guiada de un solo punto.",
   practica: "Ejercicios variados; lo que falles vuelve una vez más.",
   escucha: "Bloque de sonidos y voz: escribe lo que oyes y repite frases en voz alta.",
+  practica2: "Segunda tanda de ejercicios, con otras frases y otros tipos, para fijar lo aprendido.",
   prueba: "Frases que no viste en la práctica. Con 80 % o más, completas la unidad.",
 };
 export const PASS_RATIO = 0.8;
@@ -18,9 +22,9 @@ export const PASS_RATIO = 0.8;
 export const emptyProgress = (unitId: string): UnitProgress => ({ unitId, done: {}, testBest: null, completed: false });
 
 /** Siguiente paso pendiente de una unidad (los pasos van en orden); null si está completada. */
-export function nextStep(p: UnitProgress): StepId | null {
+export function nextStep(p: UnitProgress, unit?: Unit): StepId | null {
   if (p.completed) return null;
-  return STEPS.find((s) => !p.done[s]) ?? null;
+  return stepsFor(unit).find((s) => !p.done[s]) ?? null;
 }
 
 export type UnitState = "completed" | "current" | "locked";
@@ -36,7 +40,7 @@ export function unitViews(course: Course, all: UnitProgress[], unlockAll: boolea
     if (progress.completed) state = "completed";
     else if (!currentFound || unlockAll) { state = "current"; currentFound = true; }
     else state = "locked";
-    return { unit, state, progress, next: state === "current" ? nextStep(progress) : null, index, preview: unlockAll };
+    return { unit, state, progress, next: state === "current" ? nextStep(progress, unit) : null, index, preview: unlockAll };
   });
 }
 
@@ -47,8 +51,9 @@ export function canDoStep(view: UnitView, step: StepId): boolean {
   if (view.preview) return true; // modo de prueba: cualquier paso de cualquier unidad
   if (view.state === "locked") return false;
   if (view.state === "completed") return true;
-  const idx = STEPS.indexOf(step);
-  return STEPS.slice(0, idx).every((s) => view.progress.done[s]);
+  const steps = stepsFor(view.unit);
+  const idx = steps.indexOf(step);
+  return idx >= 0 && steps.slice(0, idx).every((s) => view.progress.done[s]);
 }
 
 export function markStep(p: UnitProgress, step: StepId, now: Date): UnitProgress {
@@ -62,7 +67,7 @@ export function applyTest(p: UnitProgress, correct: number, total: number, now: 
   if (ratio >= PASS_RATIO) {
     return { passed: true, progress: { ...p, testBest: best, done: { ...p.done, prueba: now.toISOString() }, completed: true, completedAt: now.toISOString(), mastery: "prueba" } };
   }
-  const { practica: _drop, prueba: _t, ...rest } = p.done;
+  const { practica: _a, practica2: _b, prueba: _t, ...rest } = p.done;  // hay que rehacer las dos tandas de práctica
   return { passed: false, progress: { ...p, testBest: best, done: rest } };
 }
 

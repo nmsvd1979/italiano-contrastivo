@@ -1,4 +1,4 @@
-import { STEP_LABEL, STEPS } from "./course";
+import { STEP_LABEL, stepsFor } from "./course";
 import type { TodayPlan } from "./session";
 import type { DayProgress, StepId } from "./store";
 import { stepSeconds } from "./steps";
@@ -13,7 +13,7 @@ export const BLOCKS: Record<BlockKey, { n: string; title: string; color: string 
   lectura: { n: "④", title: "Lectura y reconstrucción", color: "var(--b4)" },
 };
 /** Qué bloque de la sesión de las fuentes trabaja cada paso de la unidad. */
-export const BLOCK_OF_STEP: Record<StepId, BlockKey> = { descubre: "lectura", capsula: "gimnasio", practica: "gimnasio", escucha: "voz", prueba: "gimnasio" };
+export const BLOCK_OF_STEP: Record<StepId, BlockKey> = { descubre: "lectura", lectura: "lectura", capsula: "gimnasio", practica: "gimnasio", escucha: "voz", practica2: "gimnasio", prueba: "gimnasio" };
 
 export type SessionBlock = { key: BlockKey; title: string; subtitle: string; seconds: number; href: string; done: boolean; step?: StepId };
 export const SESSION_BUDGET_SECONDS = 25 * 60;
@@ -33,13 +33,14 @@ export function planSession(input: { plan: TodayPlan; day: DayProgress; pack: Co
   const unit = plan.unit?.view.unit;
   if (!unit || !plan.unit) return blocks;
   const doneToday = new Set(day.stepsDone ?? []);
-  const doneSteps = STEPS.filter((s) => doneToday.has(`${unit.id}:${s}`) && plan.unit!.view.progress.done[s]);
+  const doneSteps = stepsFor(unit).filter((s) => doneToday.has(`${unit.id}:${s}`) && plan.unit!.view.progress.done[s]);
   for (const step of doneSteps) {
     blocks.push({ key: BLOCK_OF_STEP[step], step, title: BLOCKS[BLOCK_OF_STEP[step]].title, subtitle: `${STEP_LABEL[step]} · hecho`, seconds: stepSeconds(unit, step, pack, samples), href: `#/unidad/${unit.id}/${step}`, done: true });
   }
   let total = plan.review.seconds + blocks.filter((b) => b.done && b.key !== "repaso").reduce((t, b) => t + b.seconds, 0);
-  const start = STEPS.indexOf(plan.unit.step);
-  for (const step of STEPS.slice(start)) {
+  const steps = stepsFor(unit);
+  const start = steps.indexOf(plan.unit.step);
+  for (const step of steps.slice(start)) {
     if (plan.unit.view.progress.done[step]) continue;
     const seconds = stepSeconds(unit, step, pack, samples);
     if (total > 0 && total + seconds > SESSION_BUDGET_SECONDS + 5 * 60 && blocks.some((b) => !b.done && b.key !== "repaso")) break;

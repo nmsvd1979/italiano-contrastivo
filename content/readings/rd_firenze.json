@@ -1,0 +1,153 @@
+{
+  "id": "rd_firenze",
+  "title": "Firenze",
+  "level": "A1",
+  "kind": "lectura",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-firenze/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y los números de nota.",
+  "sentences": [
+    {
+      "id": "rd_firenze_00",
+      "it": "Firenze è una bella città nella regione Toscana in Italia.",
+      "es": "Florencia es una hermosa ciudad en la región de la Toscana, en Italia."
+    },
+    {
+      "id": "rd_firenze_01",
+      "it": "È considerata luogo d'origine del Rinascimento ed è parte del patrimonio dell'umanità UNESCO dal 1982.",
+      "es": "Se considera el lugar de origen del Renacimiento y es Patrimonio de la Humanidad de la UNESCO desde 1982."
+    },
+    {
+      "id": "rd_firenze_02",
+      "it": "Firenze è un importante centro universitario.",
+      "es": "Florencia es un importante centro universitario."
+    },
+    {
+      "id": "rd_firenze_03",
+      "it": "C'è una grande università: l'Università degli Studi di Firenze.",
+      "es": "Hay una gran universidad: la Universidad de Florencia."
+    },
+    {
+      "id": "rd_firenze_04",
+      "it": "Puoi arrivare a Firenze sia in treno che in aereo.",
+      "es": "Puedes llegar a Florencia tanto en tren como en avión."
+    },
+    {
+      "id": "rd_firenze_05",
+      "it": "Ci sono quattro stazioni ferroviarie e un aeroporto.",
+      "es": "Hay cuatro estaciones de tren y un aeropuerto."
+    },
+    {
+      "id": "rd_firenze_06",
+      "it": "Firenze è famosa per la sua arte.",
+      "es": "Florencia es famosa por su arte."
+    },
+    {
+      "id": "rd_firenze_07",
+      "it": "Ci sono molti musei a Firenze.",
+      "es": "Hay muchos museos en Florencia."
+    },
+    {
+      "id": "rd_firenze_08",
+      "it": "Il museo più famoso è il Museo degli Uffizi.",
+      "es": "El museo más famoso es el Museo de los Uffizi."
+    },
+    {
+      "id": "rd_firenze_09",
+      "it": "Questo museo è in centro, vicino a Piazza della Signoria.",
+      "es": "Este museo está en el centro, cerca de la Piazza della Signoria."
+    },
+    {
+      "id": "rd_firenze_10",
+      "it": "Un altro famoso museo a Firenze è il Museo dell'Accademia.",
+      "es": "Otro museo famoso de Florencia es el Museo de la Academia."
+    },
+    {
+      "id": "rd_firenze_11",
+      "it": "Questo museo è importante perché ha il David di Michelangelo.",
+      "es": "Este museo es importante porque tiene el David de Miguel Ángel."
+    },
+    {
+      "id": "rd_firenze_12",
+      "it": "Altri posti da visitare a Firenze sono le molte chiese.",
+      "es": "Otros lugares para visitar en Florencia son las muchas iglesias."
+    },
+    {
+      "id": "rd_firenze_13",
+      "it": "La chiesa principale è la cattedrale del Duomo.",
+      "es": "La iglesia principal es la catedral del Duomo."
+    },
+    {
+      "id": "rd_firenze_14",
+      "it": "Il Duomo di Firenze è molto bello e puoi salire sulla cupola.",
+      "es": "El Duomo de Florencia es muy hermoso y puedes subir a la cúpula."
+    },
+    {
+      "id": "rd_firenze_15",
+      "it": "Ci sono 463 scalini, ma la vista dalla cupola è meravigliosa!",
+      "es": "Hay 463 escalones, ¡pero la vista desde la cúpula es maravillosa!"
+    },
+    {
+      "id": "rd_firenze_16",
+      "it": "Puoi vedere tutta la città!!!",
+      "es": "¡Puedes ver toda la ciudad!"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿En qué región está Florencia?",
+      "options": [
+        "Toscana",
+        "Lacio",
+        "Véneto"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Cuántas estaciones de tren hay en Florencia?",
+      "options": [
+        "Cuatro",
+        "Una",
+        "Diez"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Qué obra famosa está en el Museo de la Academia?",
+      "options": [
+        "El David de Miguel Ángel",
+        "La Mona Lisa",
+        "La Venus"
+      ],
+      "answer": 0,
+      "evidence": 11
+    },
+    {
+      "prompt_es": "¿Cuál es el museo más famoso de la ciudad?",
+      "options": [
+        "Los Uffizi",
+        "La Academia",
+        "El Duomo"
+      ],
+      "answer": 0,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿Cuántos escalones hay hasta la cúpula del Duomo?",
+      "options": [
+        "463",
+        "146",
+        "1.000"
+      ],
+      "answer": 0,
+      "evidence": 15
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

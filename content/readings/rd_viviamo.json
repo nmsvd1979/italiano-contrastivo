@@ -1,0 +1,168 @@
+{
+  "id": "rd_viviamo",
+  "title": "Dove viviamo",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/3-2-dove-viviamo/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes.",
+  "sentences": [
+    {
+      "id": "rd_viviamo_00",
+      "it": "Artemisia e gli amici escono dal negozio e camminano.",
+      "es": "Artemisia y sus amigos salen de la tienda y caminan."
+    },
+    {
+      "id": "rd_viviamo_01",
+      "it": "Sono le due del pomeriggio e fa un po' caldo.",
+      "es": "Son las dos de la tarde y hace un poco de calor."
+    },
+    {
+      "id": "rd_viviamo_02",
+      "it": "Dove abiti Michelangelo?",
+      "es": "¿Dónde vives, Michelangelo?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_viviamo_03",
+      "it": "Abito in un appartamento in affitto.",
+      "es": "Vivo en un apartamento arrendado.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_viviamo_04",
+      "it": "L'appartamento è in un palazzo antico ed è al terzo piano.",
+      "es": "El apartamento está en un edificio antiguo y está en el tercer piso.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_viviamo_05",
+      "it": "Non è molto grande: c'è una cucina, una stanza da letto e il bagno.",
+      "es": "No es muy grande: hay una cocina, un dormitorio y el baño.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_viviamo_06",
+      "it": "E tu dove abiti?",
+      "es": "¿Y tú dónde vives?",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_viviamo_07",
+      "it": "Io abito con una famiglia. Affitto una stanza.",
+      "es": "Yo vivo con una familia. Arriendo una habitación.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_viviamo_08",
+      "it": "La loro casa è una villetta.",
+      "es": "Su casa es una casita independiente.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_viviamo_09",
+      "it": "La casa ha quattro stanze da letto, due bagni, una cucina, una cantina e un garage.",
+      "es": "La casa tiene cuatro dormitorios, dos baños, una cocina, un sótano y un garaje.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_viviamo_10",
+      "it": "E tu, Tommaso?",
+      "es": "¿Y tú, Tommaso?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_viviamo_11",
+      "it": "Ho un appartamento a Roma.",
+      "es": "Tengo un apartamento en Roma.",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_viviamo_12",
+      "it": "Il mio appartamento è abbastanza grande e moderno.",
+      "es": "Mi apartamento es bastante grande y moderno.",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_viviamo_13",
+      "it": "È in un nuovo palazzone. È al quinto piano.",
+      "es": "Está en un edificio grande y nuevo. Está en el quinto piso.",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_viviamo_14",
+      "it": "Nel mio appartamento ci sono tre camere da letto, una cucina, un salotto, una grande terrazza.",
+      "es": "En mi apartamento hay tres dormitorios, una cocina, un salón y una gran terraza.",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_viviamo_15",
+      "it": "Che bello! Anch'io abito a Roma, ma l'appartamento dove vivo con mia madre è molto piccolo.",
+      "es": "¡Qué bien! Yo también vivo en Roma, pero el apartamento donde vivo con mi madre es muy pequeño.",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_viviamo_16",
+      "it": "Ha solo una camera, una cucina e un bagno.",
+      "es": "Solo tiene un dormitorio, una cocina y un baño.",
+      "speaker": "Giuditta"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿En qué piso está el apartamento de Michelangelo?",
+      "options": [
+        "En el tercero",
+        "En el quinto",
+        "En el primero"
+      ],
+      "answer": 0,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Cuántos dormitorios tiene la casa donde vive Artemisia?",
+      "options": [
+        "Tres",
+        "Cuatro",
+        "Uno"
+      ],
+      "answer": 1,
+      "evidence": 9
+    },
+    {
+      "prompt_es": "¿En qué piso está el apartamento de Tommaso?",
+      "options": [
+        "En el tercero",
+        "En el segundo",
+        "En el quinto"
+      ],
+      "answer": 2,
+      "evidence": 13
+    },
+    {
+      "prompt_es": "¿Con quién vive Giuditta?",
+      "options": [
+        "Con su madre",
+        "Con una familia",
+        "Sola"
+      ],
+      "answer": 0,
+      "evidence": 15
+    },
+    {
+      "prompt_es": "¿Qué hay en el apartamento de Giuditta?",
+      "options": [
+        "Tres dormitorios y una terraza",
+        "Un dormitorio, una cocina y un baño",
+        "Solo una cocina"
+      ],
+      "answer": 1,
+      "evidence": 16
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

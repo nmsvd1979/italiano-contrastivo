@@ -1,0 +1,122 @@
+{
+  "id": "rd_aspetto",
+  "title": "Un incontro a Firenze",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/incontri-2/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes. Se omiten las líneas sobre los otros personajes.",
+  "sentences": [
+    {
+      "id": "rd_aspetto_00",
+      "it": "Siamo a Firenze, una bella città in Italia.",
+      "es": "Estamos en Florencia, una hermosa ciudad de Italia."
+    },
+    {
+      "id": "rd_aspetto_01",
+      "it": "Un ragazzo incontra una ragazza.",
+      "es": "Un chico se encuentra con una chica."
+    },
+    {
+      "id": "rd_aspetto_02",
+      "it": "Sono in un museo, il museo dell'Accademia.",
+      "es": "Están en un museo, el museo de la Academia."
+    },
+    {
+      "id": "rd_aspetto_03",
+      "it": "Sono davanti alla statua di Davide.",
+      "es": "Están frente a la estatua de David."
+    },
+    {
+      "id": "rd_aspetto_04",
+      "it": "Il ragazzo si chiama Michelangelo.",
+      "es": "El chico se llama Michelangelo."
+    },
+    {
+      "id": "rd_aspetto_05",
+      "it": "La ragazza si chiama Artemisia.",
+      "es": "La chica se llama Artemisia."
+    },
+    {
+      "id": "rd_aspetto_06",
+      "it": "Michelangelo è giovane, alto, bello, muscoloso.",
+      "es": "Michelangelo es joven, alto, guapo, musculoso."
+    },
+    {
+      "id": "rd_aspetto_07",
+      "it": "Artemisia è giovane, bassa, bella, non è magra.",
+      "es": "Artemisia es joven, baja, bonita, no es delgada."
+    },
+    {
+      "id": "rd_aspetto_08",
+      "it": "Buongiorno! Mi chiamo Michelangelo, come ti chiami?",
+      "es": "¡Buenos días! Me llamo Michelangelo, ¿cómo te llamas?",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_aspetto_09",
+      "it": "Ciao! Mi chiamo Artemisia, come stai?",
+      "es": "¡Hola! Me llamo Artemisia, ¿cómo estás?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_aspetto_10",
+      "it": "Sto bene, e tu?",
+      "es": "Estoy bien, ¿y tú?",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_aspetto_11",
+      "it": "Sto bene, grazie!",
+      "es": "¡Estoy bien, gracias!",
+      "speaker": "Artemisia"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿En qué museo están?",
+      "options": [
+        "En el de la Academia",
+        "En los Uffizi",
+        "En el Bargello"
+      ],
+      "answer": 0,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Frente a qué estatua están?",
+      "options": [
+        "La de Perseo",
+        "La de David",
+        "La de Marzocco"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Cómo es Michelangelo?",
+      "options": [
+        "Bajo y delgado",
+        "Mayor y bajo",
+        "Joven, alto, guapo y musculoso"
+      ],
+      "answer": 2,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Cómo es Artemisia?",
+      "options": [
+        "Joven, baja y bonita; no es delgada",
+        "Alta y delgada",
+        "Mayor y alta"
+      ],
+      "answer": 0,
+      "evidence": 7
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

@@ -1,5 +1,27 @@
 [
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_SALUTI"
+    ],
+    "es": "Gracias, Mike. No me gusta el pollo.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4459624",
+    "id": "s_1004011",
+    "it": "Grazie, Mike. Non mi piace il pollo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1004011",
+    "tag_rules": {
+      "ERR_VOC_SALUTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -18,6 +40,28 @@
     "source_id": "1005627",
     "tag_rules": {
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "Hoy ya he tomado una taza de café.",
+    "es_author": "saverius",
+    "es_source_id": "10154278",
+    "id": "s_10154263",
+    "it": "Ho già preso una tazza di caffè oggi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10154263",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -859,6 +903,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "Querría tomar un poco de té o café.",
+    "es_author": "hayastan",
+    "es_source_id": "1443625",
+    "id": "s_1308149",
+    "it": "Vorrei bere un po' di tè o di caffè.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1308149",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Bibi81",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -1284,6 +1350,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_DENARO"
+    ],
+    "es": "Los chicos han encontrado una moneda.",
+    "es_author": "melissa83",
+    "es_source_id": "874237",
+    "id": "s_1404994",
+    "it": "I ragazzi hanno trovato una moneta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1404994",
+    "tag_rules": {
+      "ERR_VOC_DENARO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_ACCENT_TRANSFER",
       "ERR_MANCARE"
     ],
@@ -1367,6 +1455,28 @@
     "source_id": "1482371",
     "tag_rules": {
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Eldad",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_SALUTI"
+    ],
+    "es": "Gracias, lo entendí todo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1713589",
+    "id": "s_1492622",
+    "it": "Grazie, ho capito tutto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1492622",
+    "tag_rules": {
+      "ERR_VOC_SALUTI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1871,6 +1981,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_PRESENT_ERE_IRE"
+    ],
+    "es": "Él vive en el bosque solo.",
+    "es_author": "massama",
+    "es_source_id": "1547834",
+    "id": "s_1993864",
+    "it": "Lui vive completamente da solo nei boschi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1993864",
+    "tag_rules": {
+      "ERR_PRESENT_ERE_IRE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_MANCARE"
     ],
     "es": "Te extraño, Tom.",
@@ -1888,6 +2020,28 @@
       "ERR_MANCARE": "mancare"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DENARO"
+    ],
+    "es": "Tom se preocupa mucho por el dinero.",
+    "es_author": "Shishir",
+    "es_source_id": "2009225",
+    "id": "s_2009228",
+    "it": "Tom si preoccupa molto per i soldi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2009228",
+    "tag_rules": {
+      "ERR_VOC_DENARO": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -3062,6 +3216,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "Encontré a mis amigos en el café.",
+    "es_author": "enteka",
+    "es_source_id": "1291231",
+    "id": "s_3414320",
+    "it": "Ho incontrato i miei amici al bar.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3414320",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -3158,6 +3334,28 @@
     "source_id": "3537415",
     "tag_rules": {
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "El bebé todavía no puede usar una cuchara.",
+    "es_author": "kylecito",
+    "es_source_id": "336791",
+    "id": "s_3590886",
+    "it": "Il bebè non può ancora usare un cucchiaio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3590886",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3453,6 +3651,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DENARO"
+    ],
+    "es": "No tengo dinero para comprar el diccionario.",
+    "es_author": "hundo",
+    "es_source_id": "956801",
+    "id": "s_382268",
+    "it": "Non ho soldi per comprare il dizionario.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "382268",
+    "tag_rules": {
+      "ERR_VOC_DENARO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -3605,6 +3825,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "ver",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "¿Quieres beber té o café?",
+    "es_author": "Shishir",
+    "es_source_id": "496810",
+    "id": "s_398303",
+    "it": "Vuoi bere del tè o del caffè?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "398303",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -3623,6 +3865,30 @@
     "source_id": "399292",
     "tag_rules": {
       "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_SALUTI"
+    ],
+    "es": "\"Gracias por la ayuda.\" \"De nada.\"",
+    "es_author": "marcelostockle",
+    "es_source_id": "1958773",
+    "id": "s_4060616",
+    "it": "\"Grazie per avermi aiutato.\" \"Non c'è di che.\"",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4060616",
+    "tag_rules": {
+      "ERR_VOC_SALUTI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3837,6 +4103,120 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_DENARO"
+    ],
+    "es": "He perdido mi monedero.",
+    "es_author": "Shishir",
+    "es_source_id": "2841",
+    "id": "s_4437",
+    "it": "Ho perso il mio portafoglio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4437",
+    "tag_rules": {
+      "ERR_VOC_DENARO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Sirio60",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DENARO"
+    ],
+    "es": "De momento no necesito dinero.",
+    "es_author": "darinmex",
+    "es_source_id": "1081957",
+    "id": "s_4509597",
+    "it": "Al momento non ho bisogno di soldi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4509597",
+    "tag_rules": {
+      "ERR_VOC_DENARO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DENARO"
+    ],
+    "es": "Él lo hizo por el dinero.",
+    "es_author": "Shishir",
+    "es_source_id": "589178",
+    "id": "s_4585228",
+    "it": "Lui l'ha fatto per i soldi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4585228",
+    "tag_rules": {
+      "ERR_VOC_DENARO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "¿Dónde está el té con leche?",
+    "es_author": "Shishir",
+    "es_source_id": "574211",
+    "id": "s_470153",
+    "it": "Dov'è il tè con il latte?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "470153",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DENARO"
+    ],
+    "es": "No tengo ni tiempo ni dinero.",
+    "es_author": "Espi",
+    "es_source_id": "473586",
+    "id": "s_475635",
+    "it": "Non ho né il tempo né i soldi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "475635",
+    "tag_rules": {
+      "ERR_VOC_DENARO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_C_G_PALATAL",
       "ERR_GEMINATE_SPELLING"
     ],
@@ -4000,6 +4380,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "Esta mañana bebí té en vez de café.",
+    "es_author": "catakaoe",
+    "es_source_id": "572473",
+    "id": "s_609633",
+    "it": "Ho bevuto del tè invece del caffè questa mattina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "609633",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -4113,6 +4515,30 @@
     "source_id": "627271",
     "tag_rules": {
       "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DENARO"
+    ],
+    "es": "Me gustaría ir contigo, pero estoy sin dinero.",
+    "es_author": "hundo",
+    "es_source_id": "956713",
+    "id": "s_643069",
+    "it": "Vorrei venire con te, ma sono senza soldi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "643069",
+    "tag_rules": {
+      "ERR_VOC_DENARO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4336,6 +4762,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "¿Había alguien en el bar?",
+    "es_author": "Shishir",
+    "es_source_id": "4432779",
+    "id": "s_7247845",
+    "it": "C'era qualcuno nel bar?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7247845",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PREP_ARTICLE_CONTRACTION"
     ],
     "es": "Lo escuché en la radio.",
@@ -4464,6 +4912,28 @@
     "source_id": "772483",
     "tag_rules": {
       "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DENARO"
+    ],
+    "es": "El gana dinero para toda su familia.",
+    "es_author": "arh",
+    "es_source_id": "7785407",
+    "id": "s_7764196",
+    "it": "Lui guadagna i soldi per tutta la sua famiglia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7764196",
+    "tag_rules": {
+      "ERR_VOC_DENARO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4626,6 +5096,28 @@
       "ERR_GEMINATE": "geminata_pares_minimos",
       "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_BAR"
+    ],
+    "es": "Quisiera pagar la cuenta, por favor.",
+    "es_author": "quarzoliquido",
+    "es_source_id": "480298",
+    "id": "s_836040",
+    "it": "Vorrei pagare il conto, per favore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "836040",
+    "tag_rules": {
+      "ERR_VOC_BAR": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4824,6 +5316,28 @@
       "ERR_GEMINATE_SPELLING": "geminata_ortografia",
       "ERR_PLURAL_VOWEL": "plurale_vocale",
       "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_SALUTI"
+    ],
+    "es": "Hola, quisiera un jugo de naranja fresco.",
+    "es_author": "hayastan",
+    "es_source_id": "993097",
+    "id": "s_993082",
+    "it": "Salve, vorrei un'aranciata fresca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "993082",
+    "tag_rules": {
+      "ERR_VOC_SALUTI": "capsule_calque"
     },
     "translation_kind": "direct"
   },

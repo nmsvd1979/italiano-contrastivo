@@ -1,0 +1,3922 @@
+[
+  {
+    "id": "rd_aspetto",
+    "title": "Un incontro a Firenze",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Leggiamo (Long Beach City College)",
+      "authors": "Rossella Pescatori y colaboradores",
+      "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/incontri-2/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿En qué museo están?",
+        "options": [
+          "En el de la Academia",
+          "En los Uffizi",
+          "En el Bargello"
+        ],
+        "answer": 0,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Frente a qué estatua están?",
+        "options": [
+          "La de Perseo",
+          "La de David",
+          "La de Marzocco"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Cómo es Michelangelo?",
+        "options": [
+          "Bajo y delgado",
+          "Mayor y bajo",
+          "Joven, alto, guapo y musculoso"
+        ],
+        "answer": 2,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Cómo es Artemisia?",
+        "options": [
+          "Joven, baja y bonita; no es delgada",
+          "Alta y delgada",
+          "Mayor y alta"
+        ],
+        "answer": 0,
+        "evidence": 7
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_aspetto_00",
+        "it": "Siamo a Firenze, una bella città in Italia.",
+        "es": "Estamos en Florencia, una hermosa ciudad de Italia.",
+        "audio": "0ee47be86389"
+      },
+      {
+        "id": "rd_aspetto_01",
+        "it": "Un ragazzo incontra una ragazza.",
+        "es": "Un chico se encuentra con una chica.",
+        "audio": "197c0000cc1a"
+      },
+      {
+        "id": "rd_aspetto_02",
+        "it": "Sono in un museo, il museo dell'Accademia.",
+        "es": "Están en un museo, el museo de la Academia.",
+        "audio": "bc3b6f960dfb"
+      },
+      {
+        "id": "rd_aspetto_03",
+        "it": "Sono davanti alla statua di Davide.",
+        "es": "Están frente a la estatua de David.",
+        "audio": "a0eb1cbd7b44"
+      },
+      {
+        "id": "rd_aspetto_04",
+        "it": "Il ragazzo si chiama Michelangelo.",
+        "es": "El chico se llama Michelangelo.",
+        "audio": "c160c449fbb1"
+      },
+      {
+        "id": "rd_aspetto_05",
+        "it": "La ragazza si chiama Artemisia.",
+        "es": "La chica se llama Artemisia.",
+        "audio": "96eda00012c0"
+      },
+      {
+        "id": "rd_aspetto_06",
+        "it": "Michelangelo è giovane, alto, bello, muscoloso.",
+        "es": "Michelangelo es joven, alto, guapo, musculoso.",
+        "audio": "9339ad363731"
+      },
+      {
+        "id": "rd_aspetto_07",
+        "it": "Artemisia è giovane, bassa, bella, non è magra.",
+        "es": "Artemisia es joven, baja, bonita, no es delgada.",
+        "audio": "72345620fc38"
+      },
+      {
+        "id": "rd_aspetto_08",
+        "it": "Buongiorno! Mi chiamo Michelangelo, come ti chiami?",
+        "es": "¡Buenos días! Me llamo Michelangelo, ¿cómo te llamas?",
+        "speaker": "Michelangelo",
+        "audio": "0ce91fda2164"
+      },
+      {
+        "id": "rd_aspetto_09",
+        "it": "Ciao! Mi chiamo Artemisia, come stai?",
+        "es": "¡Hola! Me llamo Artemisia, ¿cómo estás?",
+        "speaker": "Artemisia",
+        "audio": "93fa141268d1"
+      },
+      {
+        "id": "rd_aspetto_10",
+        "it": "Sto bene, e tu?",
+        "es": "Estoy bien, ¿y tú?",
+        "speaker": "Michelangelo",
+        "audio": "36b5b25acd8a"
+      },
+      {
+        "id": "rd_aspetto_11",
+        "it": "Sto bene, grazie!",
+        "es": "¡Estoy bien, gracias!",
+        "speaker": "Artemisia",
+        "audio": "f5bcc56ec15a"
+      }
+    ]
+  },
+  {
+    "id": "rd_bargello",
+    "title": "Il museo del Bargello",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Leggiamo (Long Beach City College)",
+      "authors": "Rossella Pescatori y colaboradores",
+      "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/2-6-cosa-fanno/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿A qué hora llegan Artemisia y Giuditta a la plaza?",
+        "options": [
+          "A las 9:55",
+          "A las 11:30",
+          "A las 10:15"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿A qué está dedicado el museo del Bargello?",
+        "options": [
+          "A la pintura",
+          "A la escultura",
+          "A la música"
+        ],
+        "answer": 1,
+        "evidence": 10
+      },
+      {
+        "prompt_es": "¿De qué año es el palacio?",
+        "options": [
+          "De 1943",
+          "De 2012",
+          "De 1255"
+        ],
+        "answer": 2,
+        "evidence": 13
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta la entrada para los estudiantes?",
+        "options": [
+          "Dos euros",
+          "Veinte euros",
+          "Cinco euros"
+        ],
+        "answer": 0,
+        "evidence": 17
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta la entrada de Tommaso?",
+        "options": [
+          "Dos euros",
+          "Veinte euros",
+          "Doce euros"
+        ],
+        "answer": 1,
+        "evidence": 18
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_bargello_00",
+        "it": "Artemisia e sua sorella Giuditta arrivano in piazza Duomo alle 9:55.",
+        "es": "Artemisia y su hermana Giuditta llegan a la plaza del Duomo a las 9:55.",
+        "audio": "609b49382bac"
+      },
+      {
+        "id": "rd_bargello_01",
+        "it": "Non hanno fretta e sono molto rilassate.",
+        "es": "No tienen apuro y están muy relajadas.",
+        "audio": "31647f26ad66"
+      },
+      {
+        "id": "rd_bargello_02",
+        "it": "Michelangelo e Tommaso camminano velocemente e parlano.",
+        "es": "Michelangelo y Tommaso caminan rápido y conversan.",
+        "audio": "5fe6b36b319d"
+      },
+      {
+        "id": "rd_bargello_03",
+        "it": "Tommaso, ecco, Artemisia e sua sorella sono lì. Andiamo!",
+        "es": "Tommaso, mira, Artemisia y su hermana están allá. ¡Vamos!",
+        "speaker": "Michelangelo",
+        "audio": "ff19dfa79b4f"
+      },
+      {
+        "id": "rd_bargello_04",
+        "it": "Ciao Michelangelo, questa è Giuditta!",
+        "es": "Hola, Michelangelo, ¡ella es Giuditta!",
+        "speaker": "Artemisia",
+        "audio": "0c3a196971da"
+      },
+      {
+        "id": "rd_bargello_05",
+        "it": "Piacere, mi chiamo Giuditta.",
+        "es": "Mucho gusto, me llamo Giuditta.",
+        "speaker": "Giuditta",
+        "audio": "841dd7b78329"
+      },
+      {
+        "id": "rd_bargello_06",
+        "it": "Ragazze, lui è Tommaso.",
+        "es": "Chicas, él es Tommaso.",
+        "speaker": "Michelangelo",
+        "audio": "df7bbcd59562"
+      },
+      {
+        "id": "rd_bargello_07",
+        "it": "Piacere!",
+        "es": "¡Mucho gusto!",
+        "speaker": "Tommaso",
+        "audio": "28964546a292"
+      },
+      {
+        "id": "rd_bargello_08",
+        "it": "Andiamo al museo del Bargello, andiamo a piedi, non è lontano.",
+        "es": "Vamos al museo del Bargello, vamos a pie, no está lejos.",
+        "speaker": "Michelangelo",
+        "audio": "63517cf14ceb"
+      },
+      {
+        "id": "rd_bargello_09",
+        "it": "Benissimo.",
+        "es": "Muy bien.",
+        "speaker": "Artemisia",
+        "audio": "da18ec9bb990"
+      },
+      {
+        "id": "rd_bargello_10",
+        "it": "Il museo del Bargello è dedicato alla scultura.",
+        "es": "El museo del Bargello está dedicado a la escultura.",
+        "speaker": "Michelangelo",
+        "audio": "91417bf494d5"
+      },
+      {
+        "id": "rd_bargello_11",
+        "it": "Lì ci sono opere di Michelangelo, Donatello, Ghiberti, Cellini, Giambologna, Ammannati e molti altri scultori.",
+        "es": "Allí hay obras de Michelangelo, Donatello, Ghiberti, Cellini, Giambologna, Ammannati y muchos otros escultores.",
+        "speaker": "Michelangelo",
+        "audio": "0957b3370b3f"
+      },
+      {
+        "id": "rd_bargello_12",
+        "it": "Il museo si chiama Bargello perché deriva dal palazzo del Bargello che significa «Palazzo del Popolo».",
+        "es": "El museo se llama Bargello porque viene del palacio del Bargello, que significa «Palacio del Pueblo».",
+        "speaker": "Michelangelo",
+        "audio": "ba328e0ca969"
+      },
+      {
+        "id": "rd_bargello_13",
+        "it": "Il palazzo è molto antico e risale al 1255.",
+        "es": "El palacio es muy antiguo y data de 1255.",
+        "speaker": "Michelangelo",
+        "audio": "13da0ff26a74"
+      },
+      {
+        "id": "rd_bargello_14",
+        "it": "Abbiamo bisogno di un biglietto?",
+        "es": "¿Necesitamos una entrada?",
+        "speaker": "Artemisia",
+        "audio": "803ae9aab478"
+      },
+      {
+        "id": "rd_bargello_15",
+        "it": "Sì, ma ho qui i biglietti.",
+        "es": "Sí, pero aquí tengo las entradas.",
+        "speaker": "Michelangelo",
+        "audio": "3e10ae55630c"
+      },
+      {
+        "id": "rd_bargello_16",
+        "it": "Quanto costano?",
+        "es": "¿Cuánto cuestan?",
+        "speaker": "Artemisia",
+        "audio": "7df83e2a7748"
+      },
+      {
+        "id": "rd_bargello_17",
+        "it": "Solo due euro a persona perché siamo studenti.",
+        "es": "Solo dos euros por persona porque somos estudiantes.",
+        "speaker": "Michelangelo",
+        "audio": "aa30fd6e1204"
+      },
+      {
+        "id": "rd_bargello_18",
+        "it": "Per Tommaso costa 20 euro.",
+        "es": "Para Tommaso cuesta 20 euros.",
+        "speaker": "Michelangelo",
+        "audio": "5c88b2ec4320"
+      }
+    ]
+  },
+  {
+    "id": "rd_casa",
+    "title": "Cercare casa",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-cercare-casa/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿En qué ciudad busca casa Marta?",
+        "options": [
+          "Florencia",
+          "Siena",
+          "Roma"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta el alquiler al mes?",
+        "options": [
+          "Tres mil euros",
+          "Mil euros",
+          "Trescientos euros"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿En qué piso está el apartamento?",
+        "options": [
+          "En el segundo",
+          "En el primero",
+          "En el quinto"
+        ],
+        "answer": 0,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Tiene ascensor el edificio?",
+        "options": [
+          "No",
+          "Sí",
+          "No se dice"
+        ],
+        "answer": 0,
+        "evidence": 11
+      },
+      {
+        "prompt_es": "¿Qué tiene además el apartamento?",
+        "options": [
+          "Aire acondicionado, balcón y vista al Duomo",
+          "Jardín y garaje",
+          "Piscina"
+        ],
+        "answer": 0,
+        "evidence": 17
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_casa_00",
+        "it": "Marta cerca da tempo un appartamento o un monolocale a Firenze.",
+        "es": "Marta busca desde hace tiempo un apartamento o un estudio en Florencia.",
+        "audio": "a14e9e3afc6a"
+      },
+      {
+        "id": "rd_casa_01",
+        "it": "Vuole abitare in centro, ma gli appartamenti a Firenze sono molto cari.",
+        "es": "Quiere vivir en el centro, pero los apartamentos en Florencia son muy caros.",
+        "audio": "6975eedae2ed"
+      },
+      {
+        "id": "rd_casa_02",
+        "it": "Quanto costa l'affitto?",
+        "es": "¿Cuánto cuesta el alquiler?",
+        "speaker": "Barbara",
+        "audio": "fb701f2504c0"
+      },
+      {
+        "id": "rd_casa_03",
+        "it": "Tremila euro al mese.",
+        "es": "Tres mil euros al mes.",
+        "speaker": "Marta",
+        "audio": "e7508d23c888"
+      },
+      {
+        "id": "rd_casa_04",
+        "it": "È troppo caro.",
+        "es": "Es demasiado caro.",
+        "speaker": "Barbara",
+        "audio": "fbbb05023257"
+      },
+      {
+        "id": "rd_casa_05",
+        "it": "E quante stanze ha?",
+        "es": "¿Y cuántas habitaciones tiene?",
+        "speaker": "Barbara",
+        "audio": "6be0a1e7fe35"
+      },
+      {
+        "id": "rd_casa_06",
+        "it": "Due camere, il salotto, più due bagni e la cucina.",
+        "es": "Dos dormitorios, el salón, además de dos baños y la cocina.",
+        "speaker": "Marta",
+        "audio": "d74064560ff6"
+      },
+      {
+        "id": "rd_casa_07",
+        "it": "È molto grande!",
+        "es": "¡Es muy grande!",
+        "speaker": "Barbara",
+        "audio": "67ebc296aa2c"
+      },
+      {
+        "id": "rd_casa_08",
+        "it": "In quale zona è?",
+        "es": "¿En qué zona está?",
+        "speaker": "Barbara",
+        "audio": "ded94b1d678c"
+      },
+      {
+        "id": "rd_casa_09",
+        "it": "In centro, al secondo piano di un palazzo vicino al Duomo.",
+        "es": "En el centro, en el segundo piso de un edificio cerca del Duomo.",
+        "speaker": "Marta",
+        "audio": "a07e22ded64a"
+      },
+      {
+        "id": "rd_casa_10",
+        "it": "C'è l'ascensore?",
+        "es": "¿Hay ascensor?",
+        "speaker": "Barbara",
+        "audio": "7e9cc2fab48c"
+      },
+      {
+        "id": "rd_casa_11",
+        "it": "No, l'ascensore non c'è…ma è solo al secondo piano!",
+        "es": "No, no hay ascensor… ¡pero es solo un segundo piso!",
+        "speaker": "Marta",
+        "audio": "31c23436a461"
+      },
+      {
+        "id": "rd_casa_12",
+        "it": "Non c'è bisogno dell'ascensore!",
+        "es": "¡No hace falta ascensor!",
+        "speaker": "Marta",
+        "audio": "f474df0487c2"
+      },
+      {
+        "id": "rd_casa_13",
+        "it": "Non mi piace fare le scale.",
+        "es": "No me gusta subir escaleras.",
+        "speaker": "Barbara",
+        "audio": "4e206e632053"
+      },
+      {
+        "id": "rd_casa_14",
+        "it": "Insomma, ti interessa quest'appartamento?",
+        "es": "En fin, ¿te interesa este apartamento?",
+        "speaker": "Marta",
+        "audio": "91a917647593"
+      },
+      {
+        "id": "rd_casa_15",
+        "it": "C'è l'aria condizionata?",
+        "es": "¿Hay aire acondicionado?",
+        "speaker": "Barbara",
+        "audio": "daf62fa71cb8"
+      },
+      {
+        "id": "rd_casa_16",
+        "it": "Sì, c'è l'aria condizionata!",
+        "es": "¡Sí, hay aire acondicionado!",
+        "speaker": "Marta",
+        "audio": "55fb04ffc44d"
+      },
+      {
+        "id": "rd_casa_17",
+        "it": "Ha anche un grande balcone e la vista del Duomo…una vista bellissima!",
+        "es": "¡También tiene un gran balcón y vista al Duomo… una vista preciosa!",
+        "speaker": "Marta",
+        "audio": "7bda05740637"
+      },
+      {
+        "id": "rd_casa_18",
+        "it": "Va bene, va bene…mi hai convinta!",
+        "es": "Está bien, está bien… ¡me convenciste!",
+        "speaker": "Barbara",
+        "audio": "769b776d80d5"
+      },
+      {
+        "id": "rd_casa_19",
+        "it": "Andiamo a vedere questo appartamento.",
+        "es": "Vamos a ver este apartamento.",
+        "speaker": "Barbara",
+        "audio": "b6f9d90cc738"
+      }
+    ]
+  },
+  {
+    "id": "rd_comesei",
+    "title": "Come sei?",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Leggiamo (Long Beach City College)",
+      "authors": "Rossella Pescatori y colaboradores",
+      "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/2-5-come-sei-lettura/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Dónde se van a encontrar?",
+        "options": [
+          "En la plaza del Duomo",
+          "En el museo",
+          "En casa de Tommaso"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Cuántos años tiene Tommaso?",
+        "options": [
+          "Quince",
+          "Veintiocho",
+          "Treinta"
+        ],
+        "answer": 1,
+        "evidence": 12
+      },
+      {
+        "prompt_es": "¿Dónde vive Tommaso?",
+        "options": [
+          "En Florencia",
+          "En Siria",
+          "En Roma"
+        ],
+        "answer": 2,
+        "evidence": 10
+      },
+      {
+        "prompt_es": "¿Cómo es el pelo de Giuditta?",
+        "options": [
+          "Largo y rubio",
+          "Corto y rizado",
+          "Castaño"
+        ],
+        "answer": 0,
+        "evidence": 20
+      },
+      {
+        "prompt_es": "¿Por qué vive Artemisia en Florencia?",
+        "options": [
+          "Porque trabaja allí",
+          "Porque estudia allí",
+          "Porque su novio vive allí"
+        ],
+        "answer": 1,
+        "evidence": 26
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_comesei_00",
+        "it": "Michelangelo telefona a Artemisia.",
+        "es": "Michelangelo llama por teléfono a Artemisia.",
+        "audio": "6a84a3ca6429"
+      },
+      {
+        "id": "rd_comesei_01",
+        "it": "Pronto, chi parla?",
+        "es": "¿Aló, quién habla?",
+        "speaker": "Artemisia",
+        "audio": "29d7538cc98d"
+      },
+      {
+        "id": "rd_comesei_02",
+        "it": "Sono Michelangelo.",
+        "es": "Soy Michelangelo.",
+        "speaker": "Michelangelo",
+        "audio": "711f43eda5c8"
+      },
+      {
+        "id": "rd_comesei_03",
+        "it": "Ciao Michelangelo, come stai?",
+        "es": "Hola, Michelangelo, ¿cómo estás?",
+        "speaker": "Artemisia",
+        "audio": "2260d8059c19"
+      },
+      {
+        "id": "rd_comesei_04",
+        "it": "Bene. Dove ci incontriamo oggi e a che ora?",
+        "es": "Bien. ¿Dónde nos encontramos hoy y a qué hora?",
+        "speaker": "Michelangelo",
+        "audio": "c8088248d9eb"
+      },
+      {
+        "id": "rd_comesei_05",
+        "it": "Va bene in piazza Duomo davanti al Campanile di Giotto? Alle ore 10?",
+        "es": "¿Te parece bien en la plaza del Duomo, frente al Campanile de Giotto? ¿A las 10?",
+        "speaker": "Artemisia",
+        "audio": "de793cc605ea"
+      },
+      {
+        "id": "rd_comesei_06",
+        "it": "Va bene. Sei da sola?",
+        "es": "Está bien. ¿Estás sola?",
+        "speaker": "Michelangelo",
+        "audio": "9b0bcb328b3f"
+      },
+      {
+        "id": "rd_comesei_07",
+        "it": "No, c'è mia sorella minore Giuditta. Va bene?",
+        "es": "No, está mi hermana menor Giuditta. ¿Está bien?",
+        "speaker": "Artemisia",
+        "audio": "34468725cc22"
+      },
+      {
+        "id": "rd_comesei_08",
+        "it": "Sì, c'è anche il mio ragazzo, Tommaso.",
+        "es": "Sí, también está mi novio, Tommaso.",
+        "speaker": "Michelangelo",
+        "audio": "a27c92973ee9"
+      },
+      {
+        "id": "rd_comesei_09",
+        "it": "Sei fidanzato?",
+        "es": "¿Tienes pareja?",
+        "speaker": "Artemisia",
+        "audio": "87cf45e47c6d"
+      },
+      {
+        "id": "rd_comesei_10",
+        "it": "Non ancora. Tommaso abita a Roma.",
+        "es": "Todavía no. Tommaso vive en Roma.",
+        "speaker": "Michelangelo",
+        "audio": "695a3fecde40"
+      },
+      {
+        "id": "rd_comesei_11",
+        "it": "Com'è Tommaso?",
+        "es": "¿Cómo es Tommaso?",
+        "speaker": "Artemisia",
+        "audio": "873720f0c12d"
+      },
+      {
+        "id": "rd_comesei_12",
+        "it": "Tommaso ha ventotto anni.",
+        "es": "Tommaso tiene veintiocho años.",
+        "speaker": "Michelangelo",
+        "audio": "06ee51e70dd5"
+      },
+      {
+        "id": "rd_comesei_13",
+        "it": "È giovane, alto, magro.",
+        "es": "Es joven, alto, delgado.",
+        "speaker": "Michelangelo",
+        "audio": "a6ef4aef9e89"
+      },
+      {
+        "id": "rd_comesei_14",
+        "it": "Ha i capelli bruni e ricci e un bel sorriso.",
+        "es": "Tiene el pelo castaño y rizado y una linda sonrisa.",
+        "speaker": "Michelangelo",
+        "audio": "b6638522ad7f"
+      },
+      {
+        "id": "rd_comesei_15",
+        "it": "È molto affettuoso.",
+        "es": "Es muy cariñoso.",
+        "speaker": "Michelangelo",
+        "audio": "17636b495019"
+      },
+      {
+        "id": "rd_comesei_16",
+        "it": "È un avvocato.",
+        "es": "Es abogado.",
+        "speaker": "Michelangelo",
+        "audio": "81272dbaea80"
+      },
+      {
+        "id": "rd_comesei_17",
+        "it": "E com'è tua sorella Giuditta?",
+        "es": "¿Y cómo es tu hermana Giuditta?",
+        "speaker": "Michelangelo",
+        "audio": "4e756a96a30f"
+      },
+      {
+        "id": "rd_comesei_18",
+        "it": "Mia sorella Giuditta ha 15 anni: è piccola.",
+        "es": "Mi hermana Giuditta tiene 15 años: es pequeña.",
+        "speaker": "Artemisia",
+        "audio": "1e51474f9050"
+      },
+      {
+        "id": "rd_comesei_19",
+        "it": "Lei non è alta, ma non è bassa.",
+        "es": "Ella no es alta, pero tampoco es baja.",
+        "speaker": "Artemisia",
+        "audio": "72e7ea59848a"
+      },
+      {
+        "id": "rd_comesei_20",
+        "it": "Ha i capelli lunghi e biondi.",
+        "es": "Tiene el pelo largo y rubio.",
+        "speaker": "Artemisia",
+        "audio": "90cb0b5504d1"
+      },
+      {
+        "id": "rd_comesei_21",
+        "it": "Ama l'arte come me.",
+        "es": "Ama el arte como yo.",
+        "speaker": "Artemisia",
+        "audio": "d0f4aba0ed65"
+      },
+      {
+        "id": "rd_comesei_22",
+        "it": "Lei è studentessa al liceo artistico.",
+        "es": "Ella es estudiante en el liceo artístico.",
+        "speaker": "Artemisia",
+        "audio": "edfad9ccf54b"
+      },
+      {
+        "id": "rd_comesei_23",
+        "it": "Com'è la tua famiglia?",
+        "es": "¿Cómo es tu familia?",
+        "speaker": "Michelangelo",
+        "audio": "d3b13887d5c9"
+      },
+      {
+        "id": "rd_comesei_24",
+        "it": "La mia famiglia non è unita.",
+        "es": "Mi familia no está unida.",
+        "speaker": "Artemisia",
+        "audio": "c792cb5f16c9"
+      },
+      {
+        "id": "rd_comesei_25",
+        "it": "Mia madre e mia sorella abitano a Roma.",
+        "es": "Mi madre y mi hermana viven en Roma.",
+        "speaker": "Artemisia",
+        "audio": "3140c63cef52"
+      },
+      {
+        "id": "rd_comesei_26",
+        "it": "Adesso io abito a Firenze perché studio qui.",
+        "es": "Ahora yo vivo en Florencia porque estudio aquí.",
+        "speaker": "Artemisia",
+        "audio": "ddc3d32b7ad4"
+      }
+    ]
+  },
+  {
+    "id": "rd_dati",
+    "title": "Al museo del Bargello: i dati personali",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Leggiamo (Long Beach City College)",
+      "authors": "Rossella Pescatori y colaboradores",
+      "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/2-7-i-dati-personali/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cuántas entradas compró Michelangelo?",
+        "options": [
+          "Cuatro",
+          "Dos",
+          "Seis"
+        ],
+        "answer": 0,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Cuál es el apellido de Michelangelo?",
+        "options": [
+          "Mattarella",
+          "Merisi",
+          "Medici"
+        ],
+        "answer": 1,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Qué documento le pide la señora?",
+        "options": [
+          "El pasaporte",
+          "Una tarjeta de crédito",
+          "La cédula de identidad"
+        ],
+        "answer": 2,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Michelangelo necesita un guía?",
+        "options": [
+          "No",
+          "Sí",
+          "No se dice"
+        ],
+        "answer": 0,
+        "evidence": 10
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_dati_00",
+        "it": "Michelangelo, Tommaso, Artemisia e Giuditta arrivano al museo del Bargello.",
+        "es": "Michelangelo, Tommaso, Artemisia y Giuditta llegan al museo del Bargello.",
+        "audio": "b534a6ff18b2"
+      },
+      {
+        "id": "rd_dati_01",
+        "it": "Michelangelo va in biglietteria.",
+        "es": "Michelangelo va a la boletería.",
+        "audio": "156268b49ece"
+      },
+      {
+        "id": "rd_dati_02",
+        "it": "Buongiorno, ho comprato quattro biglietti online.",
+        "es": "Buenos días, compré cuatro entradas por internet.",
+        "speaker": "Michelangelo",
+        "audio": "66f6356c14c5"
+      },
+      {
+        "id": "rd_dati_03",
+        "it": "Buongiorno! Qual è il suo cognome?",
+        "es": "¡Buenos días! ¿Cuál es su apellido?",
+        "speaker": "Signora",
+        "audio": "f3bca36b2aa4"
+      },
+      {
+        "id": "rd_dati_04",
+        "it": "Merisi.",
+        "es": "Merisi.",
+        "speaker": "Michelangelo",
+        "audio": "871b80fda086"
+      },
+      {
+        "id": "rd_dati_05",
+        "it": "Ho bisogno di un documento. Ha la carta d'identità?",
+        "es": "Necesito un documento. ¿Tiene la cédula de identidad?",
+        "speaker": "Signora",
+        "audio": "7f457a3fc0c0"
+      },
+      {
+        "id": "rd_dati_06",
+        "it": "Sì, ecco qui la mia carta d'identità.",
+        "es": "Sí, aquí está mi cédula de identidad.",
+        "speaker": "Michelangelo",
+        "audio": "29bb1dec8e32"
+      },
+      {
+        "id": "rd_dati_07",
+        "it": "Grazie. Vedo quattro biglietti, è corretto?",
+        "es": "Gracias. Veo cuatro entradas, ¿es correcto?",
+        "speaker": "Signora",
+        "audio": "4cf61ed77d4f"
+      },
+      {
+        "id": "rd_dati_08",
+        "it": "Sì.",
+        "es": "Sí.",
+        "speaker": "Michelangelo",
+        "audio": "080a5f602c7e"
+      },
+      {
+        "id": "rd_dati_09",
+        "it": "Stampo i biglietti. Ha bisogno di una guida?",
+        "es": "Imprimo las entradas. ¿Necesita un guía?",
+        "speaker": "Signora",
+        "audio": "8d511586a947"
+      },
+      {
+        "id": "rd_dati_10",
+        "it": "No, grazie.",
+        "es": "No, gracias.",
+        "speaker": "Michelangelo",
+        "audio": "3ec2c904a32c"
+      }
+    ]
+  },
+  {
+    "id": "rd_dovesei",
+    "title": "Di dove sei?",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Leggiamo (Long Beach City College)",
+      "authors": "Rossella Pescatori y colaboradores",
+      "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/3-1-di-dove-sei/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿De dónde es Artemisia?",
+        "options": [
+          "De Alepo, Siria",
+          "De Florencia",
+          "De Roma"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿De dónde es Michelangelo?",
+        "options": [
+          "De Alepo",
+          "De Florencia",
+          "De Siena"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Cerca de qué museo vive Artemisia?",
+        "options": [
+          "De la Academia",
+          "Del Bargello",
+          "De los Uffizi"
+        ],
+        "answer": 2,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Cerca de qué museo vive Michelangelo?",
+        "options": [
+          "De la Academia",
+          "De los Uffizi",
+          "Del Bargello"
+        ],
+        "answer": 0,
+        "evidence": 8
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_dovesei_00",
+        "it": "Artemisia, sei italiana?",
+        "es": "Artemisia, ¿eres italiana?",
+        "speaker": "Michelangelo",
+        "audio": "32c23af3852f"
+      },
+      {
+        "id": "rd_dovesei_01",
+        "it": "No, non sono italiana. Sono siriana. Sono di Aleppo e tu di dove sei?",
+        "es": "No, no soy italiana. Soy siria. Soy de Alepo, ¿y tú de dónde eres?",
+        "speaker": "Artemisia",
+        "audio": "cbdc074b8cf8"
+      },
+      {
+        "id": "rd_dovesei_02",
+        "it": "Sono di Firenze. Sono italiano. Dove abiti?",
+        "es": "Soy de Florencia. Soy italiano. ¿Dónde vives?",
+        "speaker": "Michelangelo",
+        "audio": "d4a5192c9875"
+      },
+      {
+        "id": "rd_dovesei_03",
+        "it": "Abito a Firenze e tu?",
+        "es": "Vivo en Florencia, ¿y tú?",
+        "speaker": "Artemisia",
+        "audio": "24aa7877c55b"
+      },
+      {
+        "id": "rd_dovesei_04",
+        "it": "Anch'io abito a Firenze. Qual è il tuo indirizzo?",
+        "es": "Yo también vivo en Florencia. ¿Cuál es tu dirección?",
+        "speaker": "Michelangelo",
+        "audio": "692eb5dc4562"
+      },
+      {
+        "id": "rd_dovesei_05",
+        "it": "Abito vicino al museo degli Uffizi.",
+        "es": "Vivo cerca del museo de los Uffizi.",
+        "speaker": "Artemisia",
+        "audio": "dfcb0aea803d"
+      },
+      {
+        "id": "rd_dovesei_06",
+        "it": "Piazzale degli Uffizi 6, 50122 Firenze.",
+        "es": "Piazzale degli Uffizi 6, 50122 Florencia.",
+        "speaker": "Artemisia",
+        "audio": "46e779757b13"
+      },
+      {
+        "id": "rd_dovesei_07",
+        "it": "E tu? Qual è il tuo indirizzo?",
+        "es": "¿Y tú? ¿Cuál es tu dirección?",
+        "speaker": "Artemisia",
+        "audio": "fd5c317d872d"
+      },
+      {
+        "id": "rd_dovesei_08",
+        "it": "Abito vicino al museo dell'Accademia, in Via Ricasoli 6, 50122 Firenze.",
+        "es": "Vivo cerca del museo de la Academia, en la calle Ricasoli 6, 50122 Florencia.",
+        "speaker": "Michelangelo",
+        "audio": "f128d85960e9"
+      }
+    ]
+  },
+  {
+    "id": "rd_faccende",
+    "title": "Le faccende domestiche",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Leggiamo (Long Beach City College)",
+      "authors": "Rossella Pescatori y colaboradores",
+      "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/3-3-le-faccende-domestiche/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Quién hace las compras en casa de Giuditta?",
+        "options": [
+          "Su madre",
+          "Giuditta",
+          "Tommaso"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Quién hace el aseo en casa de Tommaso?",
+        "options": [
+          "Él mismo",
+          "Una señora que viene a limpiar",
+          "Su madre"
+        ],
+        "answer": 1,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Qué necesitan limpiar hoy en casa de Michelangelo?",
+        "options": [
+          "El baño",
+          "El garaje",
+          "La cocina"
+        ],
+        "answer": 2,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿Qué proponen hacer esta noche?",
+        "options": [
+          "Tomar un helado",
+          "Ir al cine",
+          "Estudiar"
+        ],
+        "answer": 0,
+        "evidence": 11
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_faccende_00",
+        "it": "Com'è la tua vita in famiglia?",
+        "es": "¿Cómo es tu vida en familia?",
+        "speaker": "Tommaso",
+        "audio": "9c47a293bf5f"
+      },
+      {
+        "id": "rd_faccende_01",
+        "it": "Io vado a scuola e mia madre si occupa delle faccende.",
+        "es": "Yo voy al colegio y mi madre se ocupa de las tareas de la casa.",
+        "speaker": "Giuditta",
+        "audio": "b2e5b5a4d008"
+      },
+      {
+        "id": "rd_faccende_02",
+        "it": "Io pulisco la mia stanza, faccio il mio letto e passo l'aspirapolvere.",
+        "es": "Yo limpio mi pieza, hago mi cama y paso la aspiradora.",
+        "speaker": "Giuditta",
+        "audio": "7c069a40838c"
+      },
+      {
+        "id": "rd_faccende_03",
+        "it": "Mia madre fa la spesa, prepara da mangiare e fa la lavatrice.",
+        "es": "Mi madre hace las compras, prepara la comida y pone la lavadora.",
+        "speaker": "Giuditta",
+        "audio": "45592da3fdb4"
+      },
+      {
+        "id": "rd_faccende_04",
+        "it": "Io lavo i piatti, spolvero e lavo il pavimento.",
+        "es": "Yo lavo los platos, sacudo el polvo y lavo el piso.",
+        "speaker": "Giuditta",
+        "audio": "c13be3440c38"
+      },
+      {
+        "id": "rd_faccende_05",
+        "it": "E a casa tua?",
+        "es": "¿Y en tu casa?",
+        "speaker": "Giuditta",
+        "audio": "9851a6d45540"
+      },
+      {
+        "id": "rd_faccende_06",
+        "it": "Io lavoro tutto il giorno e ho una signora che viene a fare le pulizie.",
+        "es": "Yo trabajo todo el día y tengo una señora que viene a hacer el aseo.",
+        "speaker": "Tommaso",
+        "audio": "3215c9ee5608"
+      },
+      {
+        "id": "rd_faccende_07",
+        "it": "Amo l'ordine.",
+        "es": "Amo el orden.",
+        "speaker": "Tommaso",
+        "audio": "bf6f5d242b16"
+      },
+      {
+        "id": "rd_faccende_08",
+        "it": "Oggi a casa abbiamo bisogno di pulire la cucina.",
+        "es": "Hoy en casa necesitamos limpiar la cocina.",
+        "speaker": "Michelangelo",
+        "audio": "c52847ae6dfe"
+      },
+      {
+        "id": "rd_faccende_09",
+        "it": "In cucina c'è un po' di disordine.",
+        "es": "En la cocina hay un poco de desorden.",
+        "speaker": "Michelangelo",
+        "audio": "b54bf00c5145"
+      },
+      {
+        "id": "rd_faccende_10",
+        "it": "Hai ragione. Andiamo a casa, ci vediamo più tardi!",
+        "es": "Tienes razón. Vamos a casa, ¡nos vemos más tarde!",
+        "speaker": "Tommaso",
+        "audio": "d2b9749c83a7"
+      },
+      {
+        "id": "rd_faccende_11",
+        "it": "Va bene, magari stasera per un gelato?",
+        "es": "Está bien, ¿quizás esta noche para un helado?",
+        "speaker": "Artemisia",
+        "audio": "185bc628f367"
+      },
+      {
+        "id": "rd_faccende_12",
+        "it": "Buona idea! Ci sentiamo dopo!",
+        "es": "¡Buena idea! ¡Hablamos después!",
+        "speaker": "Michelangelo",
+        "audio": "6a954dd8f615"
+      },
+      {
+        "id": "rd_faccende_13",
+        "it": "A dopo, ti mando un messaggio su whatsapp.",
+        "es": "Hasta luego, te mando un mensaje por WhatsApp.",
+        "speaker": "Artemisia",
+        "audio": "961248bb747f"
+      },
+      {
+        "id": "rd_faccende_14",
+        "it": "Ciao!",
+        "es": "¡Chao!",
+        "speaker": "Michelangelo",
+        "audio": "30301a6382b2"
+      }
+    ]
+  },
+  {
+    "id": "rd_firenze",
+    "title": "Firenze",
+    "level": "A1",
+    "kind": "lectura",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-firenze/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿En qué región está Florencia?",
+        "options": [
+          "Toscana",
+          "Lacio",
+          "Véneto"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Cuántas estaciones de tren hay en Florencia?",
+        "options": [
+          "Cuatro",
+          "Una",
+          "Diez"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué obra famosa está en el Museo de la Academia?",
+        "options": [
+          "El David de Miguel Ángel",
+          "La Mona Lisa",
+          "La Venus"
+        ],
+        "answer": 0,
+        "evidence": 11
+      },
+      {
+        "prompt_es": "¿Cuál es el museo más famoso de la ciudad?",
+        "options": [
+          "Los Uffizi",
+          "La Academia",
+          "El Duomo"
+        ],
+        "answer": 0,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿Cuántos escalones hay hasta la cúpula del Duomo?",
+        "options": [
+          "463",
+          "146",
+          "1.000"
+        ],
+        "answer": 0,
+        "evidence": 15
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_firenze_00",
+        "it": "Firenze è una bella città nella regione Toscana in Italia.",
+        "es": "Florencia es una hermosa ciudad en la región de la Toscana, en Italia.",
+        "audio": "63ea35ab8351"
+      },
+      {
+        "id": "rd_firenze_01",
+        "it": "È considerata luogo d'origine del Rinascimento ed è parte del patrimonio dell'umanità UNESCO dal 1982.",
+        "es": "Se considera el lugar de origen del Renacimiento y es Patrimonio de la Humanidad de la UNESCO desde 1982.",
+        "audio": "990adbbafeee"
+      },
+      {
+        "id": "rd_firenze_02",
+        "it": "Firenze è un importante centro universitario.",
+        "es": "Florencia es un importante centro universitario.",
+        "audio": "d7e8c16e9c82"
+      },
+      {
+        "id": "rd_firenze_03",
+        "it": "C'è una grande università: l'Università degli Studi di Firenze.",
+        "es": "Hay una gran universidad: la Universidad de Florencia.",
+        "audio": "7b92c7ef3040"
+      },
+      {
+        "id": "rd_firenze_04",
+        "it": "Puoi arrivare a Firenze sia in treno che in aereo.",
+        "es": "Puedes llegar a Florencia tanto en tren como en avión.",
+        "audio": "cc40056bf958"
+      },
+      {
+        "id": "rd_firenze_05",
+        "it": "Ci sono quattro stazioni ferroviarie e un aeroporto.",
+        "es": "Hay cuatro estaciones de tren y un aeropuerto.",
+        "audio": "5b3baafa2655"
+      },
+      {
+        "id": "rd_firenze_06",
+        "it": "Firenze è famosa per la sua arte.",
+        "es": "Florencia es famosa por su arte.",
+        "audio": "b5d3d0f94716"
+      },
+      {
+        "id": "rd_firenze_07",
+        "it": "Ci sono molti musei a Firenze.",
+        "es": "Hay muchos museos en Florencia.",
+        "audio": "d950d51c093d"
+      },
+      {
+        "id": "rd_firenze_08",
+        "it": "Il museo più famoso è il Museo degli Uffizi.",
+        "es": "El museo más famoso es el Museo de los Uffizi.",
+        "audio": "640b9023a259"
+      },
+      {
+        "id": "rd_firenze_09",
+        "it": "Questo museo è in centro, vicino a Piazza della Signoria.",
+        "es": "Este museo está en el centro, cerca de la Piazza della Signoria.",
+        "audio": "1904cdc3048b"
+      },
+      {
+        "id": "rd_firenze_10",
+        "it": "Un altro famoso museo a Firenze è il Museo dell'Accademia.",
+        "es": "Otro museo famoso de Florencia es el Museo de la Academia.",
+        "audio": "fedf5067edec"
+      },
+      {
+        "id": "rd_firenze_11",
+        "it": "Questo museo è importante perché ha il David di Michelangelo.",
+        "es": "Este museo es importante porque tiene el David de Miguel Ángel.",
+        "audio": "a756f092183f"
+      },
+      {
+        "id": "rd_firenze_12",
+        "it": "Altri posti da visitare a Firenze sono le molte chiese.",
+        "es": "Otros lugares para visitar en Florencia son las muchas iglesias.",
+        "audio": "9e7b60b95bda"
+      },
+      {
+        "id": "rd_firenze_13",
+        "it": "La chiesa principale è la cattedrale del Duomo.",
+        "es": "La iglesia principal es la catedral del Duomo.",
+        "audio": "c088c5aa934d"
+      },
+      {
+        "id": "rd_firenze_14",
+        "it": "Il Duomo di Firenze è molto bello e puoi salire sulla cupola.",
+        "es": "El Duomo de Florencia es muy hermoso y puedes subir a la cúpula.",
+        "audio": "6ad5aca0c1b7"
+      },
+      {
+        "id": "rd_firenze_15",
+        "it": "Ci sono 463 scalini, ma la vista dalla cupola è meravigliosa!",
+        "es": "Hay 463 escalones, ¡pero la vista desde la cúpula es maravillosa!",
+        "audio": "6b3f70352f1f"
+      },
+      {
+        "id": "rd_firenze_16",
+        "it": "Puoi vedere tutta la città!!!",
+        "es": "¡Puedes ver toda la ciudad!",
+        "audio": "28ab187c1757"
+      }
+    ]
+  },
+  {
+    "id": "rd_giornata",
+    "title": "La giornata di Francesco",
+    "level": "A1",
+    "kind": "lectura",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-la-giornata-di-francesco/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué día es hoy?",
+        "options": [
+          "Lunes",
+          "Martes",
+          "Domingo"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Con quién come Francesco a las 12:30?",
+        "options": [
+          "Con sus amigos",
+          "Solo",
+          "Con Elena"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Dónde estudia con Elena?",
+        "options": [
+          "En la biblioteca",
+          "En casa",
+          "En el gimnasio"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué hace en el gimnasio?",
+        "options": [
+          "Corre y levanta pesas",
+          "Juega al fútbol",
+          "Nada"
+        ],
+        "answer": 0,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿A qué hora se acuesta?",
+        "options": [
+          "A medianoche",
+          "A las 22:00",
+          "A las 19:00"
+        ],
+        "answer": 0,
+        "evidence": 9
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_giornata_00",
+        "it": "Oggi è lunedì e Francesco ha molto da fare.",
+        "es": "Hoy es lunes y Francesco tiene mucho que hacer.",
+        "audio": "b38f43b17839"
+      },
+      {
+        "id": "rd_giornata_01",
+        "it": "Alle 8:30 ha lezione di matematica.",
+        "es": "A las 8:30 tiene clase de matemáticas.",
+        "audio": "45342a71c26f"
+      },
+      {
+        "id": "rd_giornata_02",
+        "it": "Dopo la lezione di matematica, dalle 10:00 alle 12:00, deve incontrare il professore di macroeconomia per dare un esame.",
+        "es": "Después de la clase de matemáticas, de 10:00 a 12:00, debe encontrarse con el profesor de macroeconomía para dar un examen.",
+        "audio": "6ced4dd76d5b"
+      },
+      {
+        "id": "rd_giornata_03",
+        "it": "Alle 12:30 va alla paninoteca in centro per mangiare un panino con gli amici.",
+        "es": "A las 12:30 va a la sandwichería del centro para comer un bocadillo con los amigos.",
+        "audio": "5ba747773fb0"
+      },
+      {
+        "id": "rd_giornata_04",
+        "it": "Dopo pranzo ha lezione di chimica dalle 14:00 alle 15:20.",
+        "es": "Después del almuerzo tiene clase de química de 14:00 a 15:20.",
+        "audio": "5d2c25150764"
+      },
+      {
+        "id": "rd_giornata_05",
+        "it": "Alle 16:00 incontra Elena in biblioteca per studiare e fare i compiti.",
+        "es": "A las 16:00 se encuentra con Elena en la biblioteca para estudiar y hacer las tareas.",
+        "audio": "4dcad0c7feb0"
+      },
+      {
+        "id": "rd_giornata_06",
+        "it": "Alle 19:00 va in palestra a fare esercizio: corre per trenta minuti e poi solleva pesi.",
+        "es": "A las 19:00 va al gimnasio a hacer ejercicio: corre treinta minutos y luego levanta pesas.",
+        "audio": "7106d73ccc6c"
+      },
+      {
+        "id": "rd_giornata_07",
+        "it": "Dopo va a casa e prepara la cena.",
+        "es": "Después va a casa y prepara la cena.",
+        "audio": "76ead2aaed2d"
+      },
+      {
+        "id": "rd_giornata_08",
+        "it": "Dopo cena guarda un po' di TV e poi legge un libro.",
+        "es": "Después de la cena mira un poco de televisión y luego lee un libro.",
+        "audio": "77caa459004b"
+      },
+      {
+        "id": "rd_giornata_09",
+        "it": "A mezzanotte va a letto.",
+        "es": "A medianoche se va a la cama.",
+        "audio": "6d4d6275f463"
+      },
+      {
+        "id": "rd_giornata_10",
+        "it": "È molto stanco!!",
+        "es": "¡Está muy cansado!",
+        "audio": "5828bb667be1"
+      }
+    ]
+  },
+  {
+    "id": "rd_incontro",
+    "title": "Un incontro",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-un-incontro/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿De dónde es Francesco?",
+        "options": [
+          "De Florencia",
+          "De Siena",
+          "De Roma"
+        ],
+        "answer": 0,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Cuántos años tiene Elena?",
+        "options": [
+          "Veintiuno",
+          "Veintitrés",
+          "Veinte"
+        ],
+        "answer": 0,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Con quién vive Elena?",
+        "options": [
+          "Con su familia",
+          "Con un amigo",
+          "Sola"
+        ],
+        "answer": 0,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Cuántas hermanas tiene Francesco?",
+        "options": [
+          "Una",
+          "Dos",
+          "Tres"
+        ],
+        "answer": 1,
+        "evidence": 11
+      },
+      {
+        "prompt_es": "¿Dónde viven los abuelos de Elena?",
+        "options": [
+          "Fuera de la ciudad",
+          "En el centro",
+          "En Florencia"
+        ],
+        "answer": 0,
+        "evidence": 15
+      },
+      {
+        "prompt_es": "¿Con quién alquila Francesco su apartamento?",
+        "options": [
+          "Con un amigo",
+          "Con su familia",
+          "Con Elena"
+        ],
+        "answer": 0,
+        "evidence": 17
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_incontro_00",
+        "it": "Ciao!",
+        "es": "¡Hola!",
+        "speaker": "Francesco",
+        "audio": "30301a6382b2"
+      },
+      {
+        "id": "rd_incontro_01",
+        "it": "Mi chiamo Francesco.",
+        "es": "Me llamo Francesco.",
+        "speaker": "Francesco",
+        "audio": "e7c6d4a58067"
+      },
+      {
+        "id": "rd_incontro_02",
+        "it": "Sono di Firenze e ho ventitré anni.",
+        "es": "Soy de Florencia y tengo veintitrés años.",
+        "speaker": "Francesco",
+        "audio": "88b9cdc193d8"
+      },
+      {
+        "id": "rd_incontro_03",
+        "it": "Ciao, mi chiamo Elena.",
+        "es": "Hola, me llamo Elena.",
+        "speaker": "Elena",
+        "audio": "8d21524852c8"
+      },
+      {
+        "id": "rd_incontro_04",
+        "it": "Ho ventuno anni e sono di Siena.",
+        "es": "Tengo veintiún años y soy de Siena.",
+        "speaker": "Elena",
+        "audio": "5b60fd533e8c"
+      },
+      {
+        "id": "rd_incontro_05",
+        "it": "Da quanto tempo studi all'Università di Siena?",
+        "es": "¿Desde hace cuánto tiempo estudias en la Universidad de Siena?",
+        "speaker": "Francesco",
+        "audio": "7995e013820c"
+      },
+      {
+        "id": "rd_incontro_06",
+        "it": "Studio a Siena da un anno e tu?",
+        "es": "Estudio en Siena desde hace un año, ¿y tú?",
+        "speaker": "Elena",
+        "audio": "0b8e851db411"
+      },
+      {
+        "id": "rd_incontro_07",
+        "it": "Studio a Siena da due anni.",
+        "es": "Estudio en Siena desde hace dos años.",
+        "speaker": "Francesco",
+        "audio": "480021f95540"
+      },
+      {
+        "id": "rd_incontro_08",
+        "it": "Abiti a casa con la tua famiglia?",
+        "es": "¿Vives en casa con tu familia?",
+        "speaker": "Francesco",
+        "audio": "3f6e10e5d327"
+      },
+      {
+        "id": "rd_incontro_09",
+        "it": "Sì, abito con la mia famiglia: mio padre, mia madre, mio fratello Nicola e mia sorella Michela.",
+        "es": "Sí, vivo con mi familia: mi padre, mi madre, mi hermano Nicola y mi hermana Michela.",
+        "speaker": "Elena",
+        "audio": "3f577a60b87e"
+      },
+      {
+        "id": "rd_incontro_10",
+        "it": "Tu hai fratelli o sorelle?",
+        "es": "¿Tú tienes hermanos o hermanas?",
+        "speaker": "Elena",
+        "audio": "6f4bc4286ae8"
+      },
+      {
+        "id": "rd_incontro_11",
+        "it": "Sì, ho due sorelle.",
+        "es": "Sí, tengo dos hermanas.",
+        "speaker": "Francesco",
+        "audio": "75d923f256f4"
+      },
+      {
+        "id": "rd_incontro_12",
+        "it": "Si chiamano Antonella e Daniela.",
+        "es": "Se llaman Antonella y Daniela.",
+        "speaker": "Francesco",
+        "audio": "8dd2c9ff87a9"
+      },
+      {
+        "id": "rd_incontro_13",
+        "it": "Hai molti parenti in città?",
+        "es": "¿Tienes muchos parientes en la ciudad?",
+        "speaker": "Francesco",
+        "audio": "1cd40c6679cd"
+      },
+      {
+        "id": "rd_incontro_14",
+        "it": "Sì, ho tre zii, due zie e molti cugini.",
+        "es": "Sí, tengo tres tíos, dos tías y muchos primos.",
+        "speaker": "Elena",
+        "audio": "ab60249317f2"
+      },
+      {
+        "id": "rd_incontro_15",
+        "it": "I miei nonni abitano fuori città.",
+        "es": "Mis abuelos viven fuera de la ciudad.",
+        "speaker": "Elena",
+        "audio": "325830113359"
+      },
+      {
+        "id": "rd_incontro_16",
+        "it": "Tu affitti un appartamento in città?",
+        "es": "¿Tú alquilas un apartamento en la ciudad?",
+        "speaker": "Elena",
+        "audio": "3c328432ba6c"
+      },
+      {
+        "id": "rd_incontro_17",
+        "it": "Sì, affitto un appartamento in centro con un amico.",
+        "es": "Sí, alquilo un apartamento en el centro con un amigo.",
+        "speaker": "Francesco",
+        "audio": "cf5dd01913e8"
+      },
+      {
+        "id": "rd_incontro_18",
+        "it": "L'appartamento è in quel grande palazzo grigio vicino alla biblioteca.",
+        "es": "El apartamento está en aquel gran edificio gris cerca de la biblioteca.",
+        "speaker": "Francesco",
+        "audio": "c6b5f7c0c932"
+      },
+      {
+        "id": "rd_incontro_19",
+        "it": "Ci sono due camere, un bagno, un grande salotto e una piccola cucina.",
+        "es": "Hay dos habitaciones, un baño, un gran salón y una pequeña cocina.",
+        "speaker": "Francesco",
+        "audio": "70764d4fe772"
+      },
+      {
+        "id": "rd_incontro_20",
+        "it": "Amo il nostro appartamento!",
+        "es": "¡Amo nuestro apartamento!",
+        "speaker": "Francesco",
+        "audio": "57ee5ec08a14"
+      }
+    ]
+  },
+  {
+    "id": "rd_lavoro",
+    "title": "Cercare lavoro",
+    "level": "A2",
+    "kind": "lectura",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-cercare-lavoro/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué tipo de trabajo quiere Laura?",
+        "options": [
+          "Jornada completa con buen sueldo",
+          "Media jornada",
+          "Una práctica"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Dónde quiere quedarse Marco?",
+        "options": [
+          "En Roma",
+          "En Siena",
+          "En Florencia"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué idioma sabe Laura solo a nivel básico?",
+        "options": [
+          "Inglés",
+          "Francés",
+          "Español"
+        ],
+        "answer": 2,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿Qué estudió Marco?",
+        "options": [
+          "Enfermería",
+          "Economía",
+          "Medicina"
+        ],
+        "answer": 0,
+        "evidence": 9
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_lavoro_00",
+        "it": "Laura e Marco hanno finito l'università e ora cercano un lavoro.",
+        "es": "Laura y Marco terminaron la universidad y ahora buscan trabajo.",
+        "audio": "9bae199ae026"
+      },
+      {
+        "id": "rd_lavoro_01",
+        "it": "Laura ha fatto qualche colloquio di lavoro, ma nessun colloquio era per un lavoro a tempo pieno.",
+        "es": "Laura tuvo algunas entrevistas de trabajo, pero ninguna era para un trabajo de jornada completa.",
+        "audio": "eb19c1272082"
+      },
+      {
+        "id": "rd_lavoro_02",
+        "it": "Erano tutti colloqui per tirocini.",
+        "es": "Todas eran entrevistas para prácticas.",
+        "audio": "1831c744d79a"
+      },
+      {
+        "id": "rd_lavoro_03",
+        "it": "Laura vuole un lavoro a tempo pieno, con un buono stipendio.",
+        "es": "Laura quiere un trabajo de jornada completa, con un buen sueldo.",
+        "audio": "ac3a007ed69c"
+      },
+      {
+        "id": "rd_lavoro_04",
+        "it": "Non vuole né un tirocinio né un lavoro part-time.",
+        "es": "No quiere ni una práctica ni un trabajo de media jornada.",
+        "audio": "ce5a2dbd8a65"
+      },
+      {
+        "id": "rd_lavoro_05",
+        "it": "Marco ha appena cominciato a cercare lavoro ed è pronto a prendere qualsiasi lavoro nel suo campo, ma vuole rimanere a Siena.",
+        "es": "Marco acaba de empezar a buscar trabajo y está dispuesto a aceptar cualquier trabajo de su área, pero quiere quedarse en Siena.",
+        "audio": "0ab684058e22"
+      },
+      {
+        "id": "rd_lavoro_06",
+        "it": "Oggi Laura e Marco hanno deciso di controllare di nuovo gli annunci di offerta di lavoro in rete.",
+        "es": "Hoy Laura y Marco decidieron revisar de nuevo los avisos de ofertas de trabajo en internet.",
+        "audio": "8358001f20f8"
+      },
+      {
+        "id": "rd_lavoro_07",
+        "it": "Laurea in Economia e Commercio, Università di Siena.",
+        "es": "Título en Economía y Comercio, Universidad de Siena.",
+        "speaker": "Laura",
+        "audio": "86701d20d71b"
+      },
+      {
+        "id": "rd_lavoro_08",
+        "it": "Lingue straniere: inglese (fluente), francese (fluente), spagnolo (base).",
+        "es": "Idiomas extranjeros: inglés (fluido), francés (fluido), español (básico).",
+        "speaker": "Laura",
+        "audio": "886b54356eb4"
+      },
+      {
+        "id": "rd_lavoro_09",
+        "it": "Laurea in Infermieristica, Università di Siena.",
+        "es": "Título en Enfermería, Universidad de Siena.",
+        "speaker": "Marco",
+        "audio": "9ca8425c31ef"
+      }
+    ]
+  },
+  {
+    "id": "rd_materie",
+    "title": "Le materie di studio",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Leggiamo (Long Beach City College)",
+      "authors": "Rossella Pescatori y colaboradores",
+      "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/5-1-le-materie-di-studio/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué estudia Michelangelo?",
+        "options": [
+          "Medicina",
+          "Historia del Arte",
+          "Derecho"
+        ],
+        "answer": 0,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Qué días tiene clases Michelangelo?",
+        "options": [
+          "Lunes y jueves",
+          "Lunes, miércoles y viernes",
+          "Todos los días"
+        ],
+        "answer": 1,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Qué día es hoy?",
+        "options": [
+          "Lunes",
+          "Viernes",
+          "Sábado"
+        ],
+        "answer": 2,
+        "evidence": 11
+      },
+      {
+        "prompt_es": "¿Cuándo es el cumpleaños de Michelangelo?",
+        "options": [
+          "El 6 de marzo",
+          "El 8 de julio",
+          "El 6 de julio"
+        ],
+        "answer": 0,
+        "evidence": 13
+      },
+      {
+        "prompt_es": "¿En qué estación cae el cumpleaños de Artemisia?",
+        "options": [
+          "En primavera",
+          "En verano",
+          "En invierno"
+        ],
+        "answer": 1,
+        "evidence": 15
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_materie_00",
+        "it": "Più tardi Artemisia incontra Michelangelo in un bar.",
+        "es": "Más tarde Artemisia se encuentra con Michelangelo en un bar.",
+        "audio": "b2956e787fb9"
+      },
+      {
+        "id": "rd_materie_01",
+        "it": "Ciao Artemisia, come stai?",
+        "es": "Hola, Artemisia, ¿cómo estás?",
+        "speaker": "Michelangelo",
+        "audio": "3bc100ae2c84"
+      },
+      {
+        "id": "rd_materie_02",
+        "it": "Ciao Michelangelo, sto bene e tu?",
+        "es": "Hola, Michelangelo, estoy bien, ¿y tú?",
+        "speaker": "Artemisia",
+        "audio": "132a7ff5fbda"
+      },
+      {
+        "id": "rd_materie_03",
+        "it": "Sto bene, grazie. Artemisia, sei una studentessa?",
+        "es": "Estoy bien, gracias. Artemisia, ¿eres estudiante?",
+        "speaker": "Michelangelo",
+        "audio": "3ca06f9a9887"
+      },
+      {
+        "id": "rd_materie_04",
+        "it": "Sì, sono una studentessa e sono a Firenze per studiare Storia dell'Arte.",
+        "es": "Sí, soy estudiante y estoy en Florencia para estudiar Historia del Arte.",
+        "speaker": "Artemisia",
+        "audio": "b218cccd01e6"
+      },
+      {
+        "id": "rd_materie_05",
+        "it": "Frequento l'università di Firenze. E tu sei uno studente?",
+        "es": "Voy a la Universidad de Florencia. ¿Y tú eres estudiante?",
+        "speaker": "Artemisia",
+        "audio": "c081b11715b1"
+      },
+      {
+        "id": "rd_materie_06",
+        "it": "Sì, studio medicina, presto ho un esame di anatomia.",
+        "es": "Sí, estudio medicina, pronto tengo un examen de anatomía.",
+        "speaker": "Michelangelo",
+        "audio": "981fb12372a6"
+      },
+      {
+        "id": "rd_materie_07",
+        "it": "Le statue di Michelangelo sono molto interessanti per lo studio dell'anatomia.",
+        "es": "Las estatuas de Michelangelo son muy interesantes para el estudio de la anatomía.",
+        "speaker": "Michelangelo",
+        "audio": "24d24a37d2d0"
+      },
+      {
+        "id": "rd_materie_08",
+        "it": "Quando hai lezione?",
+        "es": "¿Cuándo tienes clases?",
+        "speaker": "Artemisia",
+        "audio": "c81ae10eea27"
+      },
+      {
+        "id": "rd_materie_09",
+        "it": "Ho lezione il lunedì, mercoledì e venerdì dalle 8 alle 12. E tu?",
+        "es": "Tengo clases los lunes, miércoles y viernes de 8 a 12. ¿Y tú?",
+        "speaker": "Michelangelo",
+        "audio": "b8d8e6ddf8ac"
+      },
+      {
+        "id": "rd_materie_10",
+        "it": "Ho lezione il lunedì e giovedì dalle 10 alle 15.",
+        "es": "Tengo clases los lunes y jueves de 10 a 15.",
+        "speaker": "Artemisia",
+        "audio": "cb06ab9845d9"
+      },
+      {
+        "id": "rd_materie_11",
+        "it": "Oggi è sabato e non abbiamo lezione!",
+        "es": "¡Hoy es sábado y no tenemos clases!",
+        "speaker": "Michelangelo",
+        "audio": "111fca1f4bf7"
+      },
+      {
+        "id": "rd_materie_12",
+        "it": "Hai ragione! Michelangelo, quando è il tuo compleanno?",
+        "es": "¡Tienes razón! Michelangelo, ¿cuándo es tu cumpleaños?",
+        "speaker": "Artemisia",
+        "audio": "6fa8541e4bb8"
+      },
+      {
+        "id": "rd_materie_13",
+        "it": "Il mio compleanno è il 6 marzo, è vicino alla primavera.",
+        "es": "Mi cumpleaños es el 6 de marzo, está cerca de la primavera.",
+        "speaker": "Michelangelo",
+        "audio": "0ac3d1b64d21"
+      },
+      {
+        "id": "rd_materie_14",
+        "it": "E quando è il tuo compleanno?",
+        "es": "¿Y cuándo es tu cumpleaños?",
+        "speaker": "Michelangelo",
+        "audio": "11ebd5b04f95"
+      },
+      {
+        "id": "rd_materie_15",
+        "it": "Il mio compleanno è l'8 luglio, in estate.",
+        "es": "Mi cumpleaños es el 8 de julio, en verano.",
+        "speaker": "Artemisia",
+        "audio": "b97f7d221bda"
+      }
+    ]
+  },
+  {
+    "id": "rd_moda",
+    "title": "La moda italiana",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Leggiamo (Long Beach City College)",
+      "authors": "Rossella Pescatori y colaboradores",
+      "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/3-4-la-vita-quotidiana-e-la-moda/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿A qué hora salen del museo?",
+        "options": [
+          "A las dieciséis",
+          "A las diez",
+          "A las veintiuna"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Qué le gusta hacer a la hija del señor Mattarella?",
+        "options": [
+          "Cocinar",
+          "Ir de compras",
+          "Estudiar"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué ciudad tuvo el primer desfile de moda?",
+        "options": [
+          "Roma",
+          "Milán",
+          "Florencia"
+        ],
+        "answer": 2,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Adónde puede ir la señora Winfrey con el señor Mattarella?",
+        "options": [
+          "A la via de' Tornabuoni, con tiendas",
+          "Al museo",
+          "A la estación"
+        ],
+        "answer": 0,
+        "evidence": 11
+      },
+      {
+        "prompt_es": "¿Puede la señora Winfrey ir hoy a las tiendas?",
+        "options": [
+          "Sí, de inmediato",
+          "No, hoy no puede",
+          "No se dice"
+        ],
+        "answer": 1,
+        "evidence": 12
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_moda_00",
+        "it": "Sono le ore sedici e il signor Mattarella e la signora Winfrey escono dal museo.",
+        "es": "Son las dieciséis horas y el señor Mattarella y la señora Winfrey salen del museo.",
+        "audio": "26ab5b554d9b"
+      },
+      {
+        "id": "rd_moda_01",
+        "it": "Grazie mille! Cosa fa adesso, signor Mattarella?",
+        "es": "¡Muchas gracias! ¿Qué hace ahora, señor Mattarella?",
+        "speaker": "Signora Winfrey",
+        "audio": "813d406384a0"
+      },
+      {
+        "id": "rd_moda_02",
+        "it": "Vado in albergo e poi incontro mia figlia.",
+        "es": "Voy al hotel y después me encuentro con mi hija.",
+        "speaker": "Signor Mattarella",
+        "audio": "a469cd92dcfe"
+      },
+      {
+        "id": "rd_moda_03",
+        "it": "Mia figlia ama fare spese.",
+        "es": "A mi hija le encanta ir de compras.",
+        "speaker": "Signor Mattarella",
+        "audio": "bceae2c29f74"
+      },
+      {
+        "id": "rd_moda_04",
+        "it": "Qui a Firenze ci sono dei negozi molto belli.",
+        "es": "Aquí en Florencia hay tiendas muy bonitas.",
+        "speaker": "Signor Mattarella",
+        "audio": "9f1961c3cc9a"
+      },
+      {
+        "id": "rd_moda_05",
+        "it": "Mi piace molto la moda italiana.",
+        "es": "Me gusta mucho la moda italiana.",
+        "speaker": "Signora Winfrey",
+        "audio": "a04fa098537d"
+      },
+      {
+        "id": "rd_moda_06",
+        "it": "Tutti gli italiani sono molto eleganti.",
+        "es": "Todos los italianos son muy elegantes.",
+        "speaker": "Signora Winfrey",
+        "audio": "5c6d52c91cbd"
+      },
+      {
+        "id": "rd_moda_07",
+        "it": "Firenze è la città dove c'è stata la prima sfilata di moda.",
+        "es": "Florencia es la ciudad donde hubo el primer desfile de moda.",
+        "speaker": "Signor Mattarella",
+        "audio": "d0c74b2450ee"
+      },
+      {
+        "id": "rd_moda_08",
+        "it": "Quale stilista preferisce?",
+        "es": "¿Qué diseñador prefiere?",
+        "speaker": "Signor Mattarella",
+        "audio": "b859ca4bbac9"
+      },
+      {
+        "id": "rd_moda_09",
+        "it": "È difficile scegliere…",
+        "es": "Es difícil elegir…",
+        "speaker": "Signora Winfrey",
+        "audio": "ab72d108bcae"
+      },
+      {
+        "id": "rd_moda_10",
+        "it": "Se vuole, posso stare un po' con Lei.",
+        "es": "Si quiere, puedo estar un rato con usted.",
+        "speaker": "Signor Mattarella",
+        "audio": "1dd8754e0622"
+      },
+      {
+        "id": "rd_moda_11",
+        "it": "Possiamo andare in via de' Tornabuoni, dove ci sono dei negozi molto belli.",
+        "es": "Podemos ir a la via de' Tornabuoni, donde hay tiendas muy bonitas.",
+        "speaker": "Signor Mattarella",
+        "audio": "abaa4ae26669"
+      },
+      {
+        "id": "rd_moda_12",
+        "it": "È molto gentile, ma oggi non posso.",
+        "es": "Es muy amable, pero hoy no puedo.",
+        "speaker": "Signora Winfrey",
+        "audio": "9ea661b39c75"
+      },
+      {
+        "id": "rd_moda_13",
+        "it": "Va bene, da che parte va?",
+        "es": "Está bien, ¿hacia dónde va?",
+        "speaker": "Signor Mattarella",
+        "audio": "2e955aca797c"
+      },
+      {
+        "id": "rd_moda_14",
+        "it": "Verso San Marco.",
+        "es": "Hacia San Marcos.",
+        "speaker": "Signora Winfrey",
+        "audio": "00ea161a79bf"
+      },
+      {
+        "id": "rd_moda_15",
+        "it": "Allora faccio un po' di strada con Lei.",
+        "es": "Entonces hago un trecho del camino con usted.",
+        "speaker": "Signor Mattarella",
+        "audio": "fab6aed0bd5f"
+      }
+    ]
+  },
+  {
+    "id": "rd_passatempi",
+    "title": "I passatempi degli italiani",
+    "level": "A1",
+    "kind": "lectura",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-i-passatempi-degli-italiani/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cuál es el deporte favorito de los italianos?",
+        "options": [
+          "El fútbol",
+          "El tenis",
+          "El baloncesto"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Cuántos italianos ven televisión todos los días?",
+        "options": [
+          "El 50 %",
+          "El 86 %",
+          "El 20 %"
+        ],
+        "answer": 1,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿A quiénes les gusta sobre todo ir al cine?",
+        "options": [
+          "A los niños",
+          "A los mayores de 60",
+          "A los jóvenes de 18 a 25 años"
+        ],
+        "answer": 2,
+        "evidence": 11
+      },
+      {
+        "prompt_es": "¿Qué porcentaje va regularmente al teatro?",
+        "options": [
+          "El 20 %",
+          "El 50 %",
+          "El 86 %"
+        ],
+        "answer": 0,
+        "evidence": 12
+      },
+      {
+        "prompt_es": "¿De qué es famosa la cocina italiana?",
+        "options": [
+          "Es solo para fiestas",
+          "Es conocida en todo el mundo",
+          "Es poco popular"
+        ],
+        "answer": 1,
+        "evidence": 14
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_passatempi_00",
+        "it": "Quali sono gli hobby degli italiani nel tempo libero?",
+        "es": "¿Cuáles son los pasatiempos de los italianos en su tiempo libre?",
+        "audio": "3c2c186dde06"
+      },
+      {
+        "id": "rd_passatempi_01",
+        "it": "Ecco alcuni dei passatempi preferiti degli italiani!",
+        "es": "¡Aquí hay algunos de los pasatiempos favoritos de los italianos!",
+        "audio": "d168a6e719f1"
+      },
+      {
+        "id": "rd_passatempi_02",
+        "it": "Lo sport.",
+        "es": "El deporte.",
+        "audio": "cfecbb6182bc"
+      },
+      {
+        "id": "rd_passatempi_03",
+        "it": "Sei italiani su dieci hanno dichiarato di praticare regolarmente un'attività sportiva, come per esempio fare ciclismo, andare in palestra, seguire un corso, giocare a calcio o a tennis con gli amici.",
+        "es": "Seis de cada diez italianos declararon practicar regularmente una actividad deportiva, como andar en bicicleta, ir al gimnasio, hacer un curso, jugar fútbol o tenis con amigos.",
+        "audio": "5cc4103886ff"
+      },
+      {
+        "id": "rd_passatempi_04",
+        "it": "Gli italiani amano anche guardare sport alla TV.",
+        "es": "A los italianos también les gusta ver deporte en la televisión.",
+        "audio": "41905734ec75"
+      },
+      {
+        "id": "rd_passatempi_05",
+        "it": "Lo sport preferito degli italiani è il calcio.",
+        "es": "El deporte favorito de los italianos es el fútbol.",
+        "audio": "3924826ced38"
+      },
+      {
+        "id": "rd_passatempi_06",
+        "it": "Guardare la TV.",
+        "es": "Ver televisión.",
+        "audio": "53a24ee6bd03"
+      },
+      {
+        "id": "rd_passatempi_07",
+        "it": "L'86% degli italiani guarda la TV ogni giorno.",
+        "es": "El 86 % de los italianos ve televisión todos los días.",
+        "audio": "126176507aa8"
+      },
+      {
+        "id": "rd_passatempi_08",
+        "it": "Cinema e teatro.",
+        "es": "Cine y teatro.",
+        "audio": "26b1f08d3cab"
+      },
+      {
+        "id": "rd_passatempi_09",
+        "it": "Andare al cinema è uno degli hobby preferiti dagli italiani.",
+        "es": "Ir al cine es uno de los pasatiempos favoritos de los italianos.",
+        "audio": "6af72cce188c"
+      },
+      {
+        "id": "rd_passatempi_10",
+        "it": "Circa il 50% degli italiani va al cinema regolarmente.",
+        "es": "Alrededor del 50 % de los italianos va al cine regularmente.",
+        "audio": "61c7169ee346"
+      },
+      {
+        "id": "rd_passatempi_11",
+        "it": "Questo hobby è soprattutto amato dai giovani tra i 18 e i 25 anni.",
+        "es": "Este pasatiempo gusta sobre todo a los jóvenes de entre 18 y 25 años.",
+        "audio": "a78618af50d7"
+      },
+      {
+        "id": "rd_passatempi_12",
+        "it": "Solo il 20% degli italiani va regolarmente a teatro.",
+        "es": "Solo el 20 % de los italianos va regularmente al teatro.",
+        "audio": "4f964f0cd40d"
+      },
+      {
+        "id": "rd_passatempi_13",
+        "it": "Cucinare.",
+        "es": "Cocinar.",
+        "audio": "f73e0f695fa3"
+      },
+      {
+        "id": "rd_passatempi_14",
+        "it": "La cucina italiana è conosciuta in tutto il mondo.",
+        "es": "La cocina italiana es conocida en todo el mundo.",
+        "audio": "e561342c25f4"
+      },
+      {
+        "id": "rd_passatempi_15",
+        "it": "Gli italiani cucinano molto e cucinare è un'abitudine quotidiana.",
+        "es": "Los italianos cocinan mucho y cocinar es un hábito diario.",
+        "audio": "449ce1ea6e0a"
+      }
+    ]
+  },
+  {
+    "id": "rd_pasticceria",
+    "title": "In pasticceria",
+    "level": "A1",
+    "kind": "lectura",
+    "source": {
+      "book": "Leggiamo (Long Beach City College)",
+      "authors": "Rossella Pescatori y colaboradores",
+      "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/2-1-lettura/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cómo se llama la pastelería?",
+        "options": [
+          "Dolci di Firenze",
+          "Il Duomo",
+          "Caffè Roma"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Cuántos vendedores hay en el mostrador?",
+        "options": [
+          "Uno",
+          "Dos",
+          "Cinco"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Qué pregunta Mattarella a la cajera?",
+        "options": [
+          "Cuánto cuesta el café",
+          "Dónde está el baño",
+          "Si pueden sentarse en esa mesa"
+        ],
+        "answer": 2,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué piden?",
+        "options": [
+          "Un café, dos capuchinos y pasteles",
+          "Solo agua",
+          "Una pizza"
+        ],
+        "answer": 0,
+        "evidence": 7
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_pasticceria_00",
+        "it": "I signori attraversano la strada e entrano nella pasticceria «Dolci di Firenze».",
+        "es": "Los señores cruzan la calle y entran en la pastelería «Dolci di Firenze».",
+        "audio": "fb545befa846"
+      },
+      {
+        "id": "rd_pasticceria_01",
+        "it": "In quella pasticceria ci sono molte paste, dolci e prodotti tipici di Firenze.",
+        "es": "En esa pastelería hay muchos pasteles, dulces y productos típicos de Florencia.",
+        "audio": "8b16010d162a"
+      },
+      {
+        "id": "rd_pasticceria_02",
+        "it": "Al bancone ci sono due commessi e alla cassa una cassiera.",
+        "es": "En el mostrador hay dos vendedores y en la caja una cajera.",
+        "audio": "69bee9adb618"
+      },
+      {
+        "id": "rd_pasticceria_03",
+        "it": "Mattarella va dalla cassiera e domanda: «Possiamo sederci in quel tavolo lì?»",
+        "es": "Mattarella va donde la cajera y pregunta: «¿Podemos sentarnos en esa mesa de allá?»",
+        "audio": "0e163eea8987"
+      },
+      {
+        "id": "rd_pasticceria_04",
+        "it": "La signora risponde: «Sì, potete accomodarvi».",
+        "es": "La señora responde: «Sí, pueden acomodarse».",
+        "audio": "4fe3bf7a53c2"
+      },
+      {
+        "id": "rd_pasticceria_05",
+        "it": "Il signor Mattarella e la signora Winfrey si siedono e guardano il menù.",
+        "es": "El señor Mattarella y la señora Winfrey se sientan y miran el menú.",
+        "audio": "19687184af99"
+      },
+      {
+        "id": "rd_pasticceria_06",
+        "it": "Iniziano a parlare.",
+        "es": "Empiezan a conversar.",
+        "audio": "d47098a5d8d2"
+      },
+      {
+        "id": "rd_pasticceria_07",
+        "it": "Il signor Mattarella e la signora Winfrey ordinano un caffè, due cappuccini e delle paste.",
+        "es": "El señor Mattarella y la señora Winfrey piden un café, dos capuchinos y unos pasteles.",
+        "audio": "8e436e5dee20"
+      }
+    ]
+  },
+  {
+    "id": "rd_poste",
+    "title": "Dov'è l'ufficio postale?",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Leggiamo (Long Beach City College)",
+      "authors": "Rossella Pescatori y colaboradores",
+      "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/4-1-dove-andiamo/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué lugar busca la señora Winfrey?",
+        "options": [
+          "La oficina de correos",
+          "Un banco",
+          "Un museo"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Cuánto se tarda a pie hasta el correo?",
+        "options": [
+          "Una hora",
+          "Diez minutos",
+          "Dos minutos"
+        ],
+        "answer": 1,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Hacia dónde debe doblar en el semáforo?",
+        "options": [
+          "A la derecha",
+          "Debe seguir derecho",
+          "A la izquierda"
+        ],
+        "answer": 2,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿A qué hora es el concierto?",
+        "options": [
+          "A las 21",
+          "A las 20",
+          "A las 22"
+        ],
+        "answer": 0,
+        "evidence": 17
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta el concierto?",
+        "options": [
+          "Diez euros",
+          "Es gratis",
+          "Veinte euros"
+        ],
+        "answer": 1,
+        "evidence": 17
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_poste_00",
+        "it": "Signor Mattarella, sa dov'è un ufficio postale qui vicino?",
+        "es": "Señor Mattarella, ¿sabe dónde hay una oficina de correos aquí cerca?",
+        "speaker": "Signora Winfrey",
+        "audio": "d3e6edfe5b74"
+      },
+      {
+        "id": "rd_poste_01",
+        "it": "Non so, ma lì c'è un vigile e possiamo chiedere a lui.",
+        "es": "No sé, pero allí hay un guardia de tránsito y podemos preguntarle a él.",
+        "speaker": "Signor Mattarella",
+        "audio": "684a5f8d91b4"
+      },
+      {
+        "id": "rd_poste_02",
+        "it": "Scusi, posso chiederle un'informazione?",
+        "es": "Disculpe, ¿puedo pedirle una información?",
+        "speaker": "Signora Winfrey",
+        "audio": "911111cc214c"
+      },
+      {
+        "id": "rd_poste_03",
+        "it": "Certo, prego.",
+        "es": "Claro, adelante.",
+        "speaker": "Vigile",
+        "audio": "3d988c1bc2ab"
+      },
+      {
+        "id": "rd_poste_04",
+        "it": "Dove sono le Poste?",
+        "es": "¿Dónde está el correo?",
+        "speaker": "Signora Winfrey",
+        "audio": "8e259232e914"
+      },
+      {
+        "id": "rd_poste_05",
+        "it": "Come vuole andare lì, a piedi o in autobus?",
+        "es": "¿Cómo quiere ir, a pie o en autobús?",
+        "speaker": "Vigile",
+        "audio": "e9abae7e2275"
+      },
+      {
+        "id": "rd_poste_06",
+        "it": "È vicino o lontano?",
+        "es": "¿Está cerca o lejos?",
+        "speaker": "Signora Winfrey",
+        "audio": "53b99aee1415"
+      },
+      {
+        "id": "rd_poste_07",
+        "it": "È abbastanza vicino, ci vogliono 10 minuti a piedi, in autobus è solo una fermata.",
+        "es": "Está bastante cerca, se tardan 10 minutos a pie; en autobús es solo una parada.",
+        "speaker": "Vigile",
+        "audio": "0738f8ad8ee2"
+      },
+      {
+        "id": "rd_poste_08",
+        "it": "Se va a piedi, qui a questo semaforo deve girare a sinistra e andare dritto per via Camillo Benso di Cavour.",
+        "es": "Si va a pie, aquí en este semáforo debe doblar a la izquierda y seguir derecho por la calle Camillo Benso di Cavour.",
+        "speaker": "Vigile",
+        "audio": "ce1b867ca02d"
+      },
+      {
+        "id": "rd_poste_09",
+        "it": "Trova le Poste prima di via Michelin sulla sinistra.",
+        "es": "Encuentra el correo antes de la calle Michelin, a la izquierda.",
+        "speaker": "Vigile",
+        "audio": "6526c3563569"
+      },
+      {
+        "id": "rd_poste_10",
+        "it": "Grazie mille.",
+        "es": "Muchas gracias.",
+        "speaker": "Signora Winfrey",
+        "audio": "502e0c95806d"
+      },
+      {
+        "id": "rd_poste_11",
+        "it": "Prego, buona giornata!",
+        "es": "De nada, ¡buen día!",
+        "speaker": "Vigile",
+        "audio": "d95e315ebd70"
+      },
+      {
+        "id": "rd_poste_12",
+        "it": "Adesso devo andare alle Poste.",
+        "es": "Ahora debo ir al correo.",
+        "speaker": "Signora Winfrey",
+        "audio": "fa51ddb4b121"
+      },
+      {
+        "id": "rd_poste_13",
+        "it": "Se vuole, possiamo incontrarci stasera dopo cena.",
+        "es": "Si quiere, podemos encontrarnos esta noche después de la cena.",
+        "speaker": "Signora Winfrey",
+        "audio": "87e12e461591"
+      },
+      {
+        "id": "rd_poste_14",
+        "it": "Stasera sono invitato a un concerto.",
+        "es": "Esta noche estoy invitado a un concierto.",
+        "speaker": "Signor Mattarella",
+        "audio": "8f99ba3120e7"
+      },
+      {
+        "id": "rd_poste_15",
+        "it": "Se vuole, può venire anche lei.",
+        "es": "Si quiere, usted también puede venir.",
+        "speaker": "Signor Mattarella",
+        "audio": "dbf57deed974"
+      },
+      {
+        "id": "rd_poste_16",
+        "it": "A che ora è il concerto?",
+        "es": "¿A qué hora es el concierto?",
+        "speaker": "Signora Winfrey",
+        "audio": "d0d2c9167b05"
+      },
+      {
+        "id": "rd_poste_17",
+        "it": "È alle ore 21. Il concerto è un evento benefico ed è gratis.",
+        "es": "Es a las 21. El concierto es un evento benéfico y es gratis.",
+        "speaker": "Signor Mattarella",
+        "audio": "b53762c2596f"
+      }
+    ]
+  },
+  {
+    "id": "rd_ristorante",
+    "title": "Al ristorante",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-al-ristorante/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Quién ofrece pagar la cuenta?",
+        "options": [
+          "Elena",
+          "Francesco",
+          "El camarero"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Qué pide Elena de segundo plato?",
+        "options": [
+          "Asado de cerdo",
+          "Pescado",
+          "Pollo"
+        ],
+        "answer": 0,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Por qué Francesco pide solo una ensalada?",
+        "options": [
+          "No tiene mucha hambre",
+          "No le gusta la pasta",
+          "No tiene dinero"
+        ],
+        "answer": 0,
+        "evidence": 15
+      },
+      {
+        "prompt_es": "¿Qué desayunó Francesco?",
+        "options": [
+          "Huevos, pan tostado con mantequilla, yogur y jugo de naranja",
+          "Solo un café",
+          "Nada"
+        ],
+        "answer": 0,
+        "evidence": 17
+      },
+      {
+        "prompt_es": "¿Qué agua prefiere Elena?",
+        "options": [
+          "Natural",
+          "Con gas",
+          "Ninguna"
+        ],
+        "answer": 0,
+        "evidence": 25
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_ristorante_00",
+        "it": "Francesco ha incontrato Elena al ristorante in centro per pranzo.",
+        "es": "Francesco se encontró con Elena en el restaurante del centro para almorzar.",
+        "audio": "f5c0757a1f1f"
+      },
+      {
+        "id": "rd_ristorante_01",
+        "it": "Elena ha offerto di pagare il conto.",
+        "es": "Elena ofreció pagar la cuenta.",
+        "audio": "0cda082fc8f7"
+      },
+      {
+        "id": "rd_ristorante_02",
+        "it": "Il cameriere gli ha portato due menù.",
+        "es": "El camarero les trajo dos menús.",
+        "audio": "5bef369f149f"
+      },
+      {
+        "id": "rd_ristorante_03",
+        "it": "Francesco e Elena li hanno letti e ora decidono cosa ordinare.",
+        "es": "Francesco y Elena los leyeron y ahora deciden qué pedir.",
+        "audio": "741abf05a3a5"
+      },
+      {
+        "id": "rd_ristorante_04",
+        "it": "Cosa prendi?",
+        "es": "¿Qué tomas?",
+        "speaker": "Francesco",
+        "audio": "03e333a8310e"
+      },
+      {
+        "id": "rd_ristorante_05",
+        "it": "Un primo, un secondo e un contorno.",
+        "es": "Un primer plato, un segundo y una guarnición.",
+        "speaker": "Elena",
+        "audio": "15d90f28d1dd"
+      },
+      {
+        "id": "rd_ristorante_06",
+        "it": "Voglio la pasta al pesto e l'arrosto di maiale.",
+        "es": "Quiero la pasta al pesto y el asado de cerdo.",
+        "speaker": "Elena",
+        "audio": "2a435ec3754f"
+      },
+      {
+        "id": "rd_ristorante_07",
+        "it": "Per contorno prendo un'insalata.",
+        "es": "De guarnición tomo una ensalada.",
+        "speaker": "Elena",
+        "audio": "71aecabce0f1"
+      },
+      {
+        "id": "rd_ristorante_08",
+        "it": "Ho molta fame.",
+        "es": "Tengo mucha hambre.",
+        "speaker": "Elena",
+        "audio": "b524991a14c7"
+      },
+      {
+        "id": "rd_ristorante_09",
+        "it": "Stamattina non ho avuto tempo di fare colazione!",
+        "es": "¡Esta mañana no tuve tiempo de desayunar!",
+        "speaker": "Elena",
+        "audio": "c3eb1814bce8"
+      },
+      {
+        "id": "rd_ristorante_10",
+        "it": "Ho bevuto solo un caffè!",
+        "es": "¡Solo bebí un café!",
+        "speaker": "Elena",
+        "audio": "751a33bef608"
+      },
+      {
+        "id": "rd_ristorante_11",
+        "it": "Tu cosa prendi?",
+        "es": "¿Y tú qué tomas?",
+        "speaker": "Elena",
+        "audio": "a0e2ecf9c419"
+      },
+      {
+        "id": "rd_ristorante_12",
+        "it": "Prendo solo un'insalata.",
+        "es": "Tomo solo una ensalada.",
+        "speaker": "Francesco",
+        "audio": "b1beccba68eb"
+      },
+      {
+        "id": "rd_ristorante_13",
+        "it": "Così poco!",
+        "es": "¡Tan poco!",
+        "speaker": "Elena",
+        "audio": "3da70000f00e"
+      },
+      {
+        "id": "rd_ristorante_14",
+        "it": "Perché?",
+        "es": "¿Por qué?",
+        "speaker": "Elena",
+        "audio": "57db5051fa65"
+      },
+      {
+        "id": "rd_ristorante_15",
+        "it": "Non ho molta fame.",
+        "es": "No tengo mucha hambre.",
+        "speaker": "Francesco",
+        "audio": "37c00d1af057"
+      },
+      {
+        "id": "rd_ristorante_16",
+        "it": "Stamattina ho fatto una bella colazione.",
+        "es": "Esta mañana desayuné muy bien.",
+        "speaker": "Francesco",
+        "audio": "bfbeed506010"
+      },
+      {
+        "id": "rd_ristorante_17",
+        "it": "Ho mangiato due uova, una fetta di pane tostato con burro, uno yogurt e una spremuta d'arancia.",
+        "es": "Comí dos huevos, una rebanada de pan tostado con mantequilla, un yogur y un jugo de naranja exprimido.",
+        "speaker": "Francesco",
+        "audio": "0ecf21676e11"
+      },
+      {
+        "id": "rd_ristorante_18",
+        "it": "Cosa vuoi bere?",
+        "es": "¿Qué quieres beber?",
+        "speaker": "Elena",
+        "audio": "c2018f6bd657"
+      },
+      {
+        "id": "rd_ristorante_19",
+        "it": "Io prendo solo l'acqua minerale.",
+        "es": "Yo tomo solo agua mineral.",
+        "speaker": "Elena",
+        "audio": "1552f0ca5696"
+      },
+      {
+        "id": "rd_ristorante_20",
+        "it": "Anch'io voglio un bicchiere d'acqua, ma prendo anche un tè freddo.",
+        "es": "Yo también quiero un vaso de agua, pero tomo además un té frío.",
+        "speaker": "Francesco",
+        "audio": "3c073231069d"
+      },
+      {
+        "id": "rd_ristorante_21",
+        "it": "Vuoi dividere una bottiglia d'acqua minerale?",
+        "es": "¿Quieres compartir una botella de agua mineral?",
+        "speaker": "Elena",
+        "audio": "8cff1512ed06"
+      },
+      {
+        "id": "rd_ristorante_22",
+        "it": "Sì, va bene.",
+        "es": "Sí, está bien.",
+        "speaker": "Francesco",
+        "audio": "56d4022d22e8"
+      },
+      {
+        "id": "rd_ristorante_23",
+        "it": "La preferisci naturale o gassata?",
+        "es": "¿La prefieres natural o con gas?",
+        "speaker": "Francesco",
+        "audio": "13ba7c9a705e"
+      },
+      {
+        "id": "rd_ristorante_24",
+        "it": "Per me non fa differenza.",
+        "es": "Para mí no hay diferencia.",
+        "speaker": "Francesco",
+        "audio": "26fd6b60c554"
+      },
+      {
+        "id": "rd_ristorante_25",
+        "it": "Non mi piace l'acqua gassata, la preferisco naturale, se per te va bene.",
+        "es": "No me gusta el agua con gas, la prefiero natural, si te parece bien.",
+        "speaker": "Elena",
+        "audio": "d02a38dc4f5a"
+      },
+      {
+        "id": "rd_ristorante_26",
+        "it": "Perfetto!",
+        "es": "¡Perfecto!",
+        "speaker": "Francesco",
+        "audio": "b459126f0e14"
+      },
+      {
+        "id": "rd_ristorante_27",
+        "it": "Allora siamo pronti…",
+        "es": "Entonces estamos listos…",
+        "speaker": "Francesco",
+        "audio": "a8cca99ded18"
+      },
+      {
+        "id": "rd_ristorante_28",
+        "it": "Scusi!",
+        "es": "¡Disculpe!",
+        "speaker": "Francesco",
+        "audio": "884b69587405"
+      },
+      {
+        "id": "rd_ristorante_29",
+        "it": "Cameriere!",
+        "es": "¡Camarero!",
+        "speaker": "Francesco",
+        "audio": "a4eb1d24e825"
+      }
+    ]
+  },
+  {
+    "id": "rd_routine",
+    "title": "La routine quotidiana",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Leggiamo (Long Beach City College)",
+      "authors": "Rossella Pescatori y colaboradores",
+      "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/3-1-il-quotidiano-e-la-routine/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué necesita comprar Tommaso?",
+        "options": [
+          "Cosas de aseo personal",
+          "Ropa",
+          "Comida"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué hace Tommaso apenas se despierta?",
+        "options": [
+          "Toma desayuno",
+          "Va al baño y se lava la cara",
+          "Sale a correr"
+        ],
+        "answer": 1,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Artemisia se maquilla todos los días?",
+        "options": [
+          "Sí, siempre",
+          "A veces",
+          "No, nunca"
+        ],
+        "answer": 2,
+        "evidence": 14
+      },
+      {
+        "prompt_es": "¿Por qué Michelangelo no se afeita seguido?",
+        "options": [
+          "Porque tiene barba",
+          "Porque no tiene tiempo",
+          "Porque no le gusta"
+        ],
+        "answer": 0,
+        "evidence": 17
+      },
+      {
+        "prompt_es": "¿Quién se levanta primero en casa de Michelangelo?",
+        "options": [
+          "Su novio",
+          "Él mismo",
+          "Su hermana"
+        ],
+        "answer": 1,
+        "evidence": 18
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_routine_00",
+        "it": "Artemisia, Giuditta, Tommaso e Michelangelo sono molto contenti.",
+        "es": "Artemisia, Giuditta, Tommaso y Michelangelo están muy contentos.",
+        "audio": "095d48189076"
+      },
+      {
+        "id": "rd_routine_01",
+        "it": "Il museo del Bargello è bellissimo.",
+        "es": "El museo del Bargello es hermosísimo.",
+        "audio": "5487f85d7e91"
+      },
+      {
+        "id": "rd_routine_02",
+        "it": "Adesso decidono di andare a casa.",
+        "es": "Ahora deciden irse a casa.",
+        "audio": "926576108e48"
+      },
+      {
+        "id": "rd_routine_03",
+        "it": "Tommaso ha bisogno di comprare alcune cose.",
+        "es": "Tommaso necesita comprar algunas cosas.",
+        "audio": "9af887209002"
+      },
+      {
+        "id": "rd_routine_04",
+        "it": "Michelangelo, dov'è un negozio dove posso comprare uno spazzolino da denti? Shampoo, schiuma da barba e un rasoio?",
+        "es": "Michelangelo, ¿dónde hay una tienda donde pueda comprar un cepillo de dientes? ¿Champú, espuma de afeitar y una máquina de afeitar?",
+        "speaker": "Tommaso",
+        "audio": "cf8674943ff3"
+      },
+      {
+        "id": "rd_routine_05",
+        "it": "Qui vicino c'è una profumeria o un negozio di detersivi.",
+        "es": "Aquí cerca hay una perfumería o una tienda de artículos de limpieza.",
+        "speaker": "Michelangelo",
+        "audio": "82b283282d2e"
+      },
+      {
+        "id": "rd_routine_06",
+        "it": "Vengo anch'io perché ho bisogno di comprare una spazzola e un deodorante.",
+        "es": "Yo también voy porque necesito comprar un cepillo para el pelo y un desodorante.",
+        "speaker": "Giuditta",
+        "audio": "28ccdc19a313"
+      },
+      {
+        "id": "rd_routine_07",
+        "it": "Benissimo! Andiamo insieme allora!",
+        "es": "¡Perfecto! ¡Entonces vamos juntos!",
+        "speaker": "Michelangelo",
+        "audio": "cea4b51dd900"
+      },
+      {
+        "id": "rd_routine_08",
+        "it": "Tommaso, com'è la tua routine quotidiana?",
+        "es": "Tommaso, ¿cómo es tu rutina diaria?",
+        "speaker": "Artemisia",
+        "audio": "bf2ebaf6180b"
+      },
+      {
+        "id": "rd_routine_09",
+        "it": "Di solito mi sveglio presto, vado in bagno e mi lavo la faccia.",
+        "es": "Normalmente me despierto temprano, voy al baño y me lavo la cara.",
+        "speaker": "Tommaso",
+        "audio": "27075246143e"
+      },
+      {
+        "id": "rd_routine_10",
+        "it": "Mi rado e uso un rasoio, uso una crema da barba naturale.",
+        "es": "Me afeito con una máquina de afeitar y uso una crema de afeitar natural.",
+        "speaker": "Tommaso",
+        "audio": "b3f6b4e042a6"
+      },
+      {
+        "id": "rd_routine_11",
+        "it": "Anch'io mi sveglio molto presto e amo passare un po' di tempo in bagno per pulirmi bene.",
+        "es": "Yo también me despierto muy temprano y me gusta pasar un rato en el baño para limpiarme bien.",
+        "speaker": "Artemisia",
+        "audio": "3553c48c1645"
+      },
+      {
+        "id": "rd_routine_12",
+        "it": "Faccio una doccia e uso un bagnoschiuma naturale e uno shampoo delicato.",
+        "es": "Me doy una ducha y uso un gel de baño natural y un champú suave.",
+        "speaker": "Artemisia",
+        "audio": "8932a4b5e0da"
+      },
+      {
+        "id": "rd_routine_13",
+        "it": "Artemisia, ti trucchi tutti i giorni?",
+        "es": "Artemisia, ¿te maquillas todos los días?",
+        "speaker": "Giuditta",
+        "audio": "e7c7a3ccf0a1"
+      },
+      {
+        "id": "rd_routine_14",
+        "it": "No, non mi trucco mai.",
+        "es": "No, nunca me maquillo.",
+        "speaker": "Artemisia",
+        "audio": "13064db3059a"
+      },
+      {
+        "id": "rd_routine_15",
+        "it": "Mi guardo allo specchio quando mi preparo e mi vesto.",
+        "es": "Me miro en el espejo cuando me arreglo y me visto.",
+        "speaker": "Artemisia",
+        "audio": "6f9fb77195b8"
+      },
+      {
+        "id": "rd_routine_16",
+        "it": "Michelangelo, ti radi spesso? Chi si alza per primo a casa tua?",
+        "es": "Michelangelo, ¿te afeitas seguido? ¿Quién se levanta primero en tu casa?",
+        "speaker": "Giuditta",
+        "audio": "96162ab4b9ab"
+      },
+      {
+        "id": "rd_routine_17",
+        "it": "Non mi rado spesso, infatti ho la barba.",
+        "es": "No me afeito seguido, de hecho tengo barba.",
+        "speaker": "Michelangelo",
+        "audio": "0873f37bd8e3"
+      },
+      {
+        "id": "rd_routine_18",
+        "it": "Di solito mi alzo io per primo. Mi alzo molto presto.",
+        "es": "Normalmente me levanto yo primero. Me levanto muy temprano.",
+        "speaker": "Michelangelo",
+        "audio": "765be2f0222d"
+      }
+    ]
+  },
+  {
+    "id": "rd_signoria",
+    "title": "Piazza della Signoria",
+    "level": "A1",
+    "kind": "lectura",
+    "source": {
+      "book": "Leggiamo (Long Beach City College)",
+      "authors": "Rossella Pescatori y colaboradores",
+      "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/4-2-dove/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cómo se llama el león de la plaza?",
+        "options": [
+          "Marzocco",
+          "Donatello",
+          "Perseo"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Quién es el escultor del león?",
+        "options": [
+          "Cellini",
+          "Donatello",
+          "Vasari"
+        ],
+        "answer": 1,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Adónde va Tommaso?",
+        "options": [
+          "Al Bargello",
+          "A la estación",
+          "A los Uffizi"
+        ],
+        "answer": 2,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿De quién es la estatua del Perseo?",
+        "options": [
+          "De Benvenuto Cellini",
+          "De Michelangelo",
+          "De Vasari"
+        ],
+        "answer": 0,
+        "evidence": 11
+      },
+      {
+        "prompt_es": "¿Quién es Giorgio Vasari?",
+        "options": [
+          "Un escultor",
+          "El primer crítico de arte",
+          "Un cocinero"
+        ],
+        "answer": 1,
+        "evidence": 16
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_signoria_00",
+        "it": "Artemisia passa per la piazza della Signoria.",
+        "es": "Artemisia pasa por la plaza de la Signoria.",
+        "audio": "5d24310f4089"
+      },
+      {
+        "id": "rd_signoria_01",
+        "it": "La piazza della Signoria è una piazza molto grande.",
+        "es": "La plaza de la Signoria es una plaza muy grande.",
+        "audio": "7a17fd9c25bb"
+      },
+      {
+        "id": "rd_signoria_02",
+        "it": "Lì c'è una loggia dove ci sono molte statue.",
+        "es": "Allí hay una logia donde hay muchas estatuas.",
+        "audio": "5e4cf2bbfe25"
+      },
+      {
+        "id": "rd_signoria_03",
+        "it": "Davanti al palazzo c'è una statua di un leone con uno scudo.",
+        "es": "Frente al palacio hay una estatua de un león con un escudo.",
+        "audio": "f8f0b1ceb82b"
+      },
+      {
+        "id": "rd_signoria_04",
+        "it": "Donatello è lo scultore di questo leone.",
+        "es": "Donatello es el escultor de este león.",
+        "audio": "124bae523f37"
+      },
+      {
+        "id": "rd_signoria_05",
+        "it": "Il leone si chiama Marzocco.",
+        "es": "El león se llama Marzocco.",
+        "audio": "ca0aab79b92a"
+      },
+      {
+        "id": "rd_signoria_06",
+        "it": "Artemisia incontra per caso Tommaso.",
+        "es": "Artemisia se encuentra por casualidad con Tommaso.",
+        "audio": "9d904a254b92"
+      },
+      {
+        "id": "rd_signoria_07",
+        "it": "Ciao Tommaso, cosa fai qui?",
+        "es": "Hola, Tommaso, ¿qué haces aquí?",
+        "speaker": "Artemisia",
+        "audio": "59cff60007fd"
+      },
+      {
+        "id": "rd_signoria_08",
+        "it": "Ciao Artemisia, che sorpresa!",
+        "es": "Hola, Artemisia, ¡qué sorpresa!",
+        "speaker": "Tommaso",
+        "audio": "74d4a67915a9"
+      },
+      {
+        "id": "rd_signoria_09",
+        "it": "Sono qui perché vado agli Uffizi.",
+        "es": "Estoy aquí porque voy a los Uffizi.",
+        "speaker": "Tommaso",
+        "audio": "1c8c09dffc0f"
+      },
+      {
+        "id": "rd_signoria_10",
+        "it": "Adesso ammiro le belle statue che sono nella loggia dei Lanzi.",
+        "es": "Ahora admiro las bellas estatuas que están en la logia de los Lanzi.",
+        "speaker": "Tommaso",
+        "audio": "ea1daa66fdbf"
+      },
+      {
+        "id": "rd_signoria_11",
+        "it": "Ecco, vedi questa statua? È il Perseo di Benvenuto Cellini.",
+        "es": "Mira, ¿ves esta estatua? Es el Perseo de Benvenuto Cellini.",
+        "speaker": "Tommaso",
+        "audio": "e208d1bcc78a"
+      },
+      {
+        "id": "rd_signoria_12",
+        "it": "Vedo delle somiglianze con il David di Michelangelo.",
+        "es": "Veo algunas semejanzas con el David de Michelangelo.",
+        "speaker": "Artemisia",
+        "audio": "18b25140ceda"
+      },
+      {
+        "id": "rd_signoria_13",
+        "it": "Sì, quello è il posto del vero David.",
+        "es": "Sí, ese es el lugar del David verdadero.",
+        "speaker": "Tommaso",
+        "audio": "0dd98f08037a"
+      },
+      {
+        "id": "rd_signoria_14",
+        "it": "Ho qui con me un libro molto interessante: «Le vite» di Giorgio Vasari.",
+        "es": "Tengo aquí conmigo un libro muy interesante: «Las vidas» de Giorgio Vasari.",
+        "speaker": "Tommaso",
+        "audio": "92d1ec44ccec"
+      },
+      {
+        "id": "rd_signoria_15",
+        "it": "Chi è Giorgio Vasari?",
+        "es": "¿Quién es Giorgio Vasari?",
+        "speaker": "Artemisia",
+        "audio": "dfe8be2adcae"
+      },
+      {
+        "id": "rd_signoria_16",
+        "it": "Giorgio Vasari è il primo critico d'arte. È anche un architetto e pittore.",
+        "es": "Giorgio Vasari es el primer crítico de arte. También es arquitecto y pintor.",
+        "speaker": "Tommaso",
+        "audio": "03f56fc0cf01"
+      }
+    ]
+  },
+  {
+    "id": "rd_spese",
+    "title": "Fare le spese",
+    "level": "A1",
+    "kind": "lectura",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-fare-le-spese/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cuándo llegan los vendedores ambulantes a la plaza?",
+        "options": [
+          "Un día a la semana",
+          "Todos los días",
+          "Una vez al mes"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Por qué son populares los mercados al aire libre?",
+        "options": [
+          "Porque son más modernos",
+          "Porque los precios son más bajos",
+          "Porque abren de noche"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué se vende en esos mercados?",
+        "options": [
+          "Solo fruta",
+          "Solo ropa",
+          "Un poco de todo"
+        ],
+        "answer": 2,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Cómo son los precios de las tiendas pequeñas de alimentos comparados con el supermercado?",
+        "options": [
+          "Más altos",
+          "Más bajos",
+          "Iguales"
+        ],
+        "answer": 0,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿Cada cuánto compran comida fresca muchos italianos?",
+        "options": [
+          "Una vez a la semana",
+          "Casi todos los días",
+          "Una vez al mes"
+        ],
+        "answer": 1,
+        "evidence": 9
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_spese_00",
+        "it": "Gli italiani fanno le spese al centro commerciale, in rete e ai mercati all'aperto.",
+        "es": "Los italianos hacen sus compras en el centro comercial, por internet y en los mercados al aire libre.",
+        "audio": "b757819eff97"
+      },
+      {
+        "id": "rd_spese_01",
+        "it": "Molti fanno le spese in rete, ma altri preferiscono fare le spese al centro commerciale o al mercato perché preferiscono provare i vestiti o preferiscono pagare in contanti invece che usare la carta di credito o la carta bancomat.",
+        "es": "Muchos compran por internet, pero otros prefieren comprar en el centro comercial o en el mercado porque prefieren probarse la ropa o pagar en efectivo en vez de usar la tarjeta de crédito o la tarjeta de débito.",
+        "audio": "dd09f36dc0ad"
+      },
+      {
+        "id": "rd_spese_02",
+        "it": "In tutte le città italiane c'è la tradizione dei mercati all'aperto.",
+        "es": "En todas las ciudades italianas existe la tradición de los mercados al aire libre.",
+        "audio": "8705f96451e6"
+      },
+      {
+        "id": "rd_spese_03",
+        "it": "Un giorno alla settimana i venditori ambulanti arrivano in una piazza o una strada della città e montano i loro banchi.",
+        "es": "Un día a la semana los vendedores ambulantes llegan a una plaza o a una calle de la ciudad y arman sus puestos.",
+        "audio": "4b1bd34661c3"
+      },
+      {
+        "id": "rd_spese_04",
+        "it": "In questi mercati si vende un po' di tutto: abbigliamento, scarpe, oggetti per la casa, frutta, verdura, salumi e formaggi, eccetera.",
+        "es": "En estos mercados se vende un poco de todo: ropa, zapatos, objetos para la casa, fruta, verdura, fiambres, quesos, etcétera.",
+        "audio": "c0fafc3566b4"
+      },
+      {
+        "id": "rd_spese_05",
+        "it": "I mercati all'aperto sono molto popolari perché i prezzi sono più bassi dei prezzi dei negozi e dei centri commerciali.",
+        "es": "Los mercados al aire libre son muy populares porque los precios son más bajos que los de las tiendas y los centros comerciales.",
+        "audio": "c5377ac3b01a"
+      },
+      {
+        "id": "rd_spese_06",
+        "it": "Per gli alimentari gli italiani fanno la spesa al supermercato o nei piccoli negozi di alimentari.",
+        "es": "Para los alimentos, los italianos compran en el supermercado o en las pequeñas tiendas de alimentos.",
+        "audio": "a930cd3ede77"
+      },
+      {
+        "id": "rd_spese_07",
+        "it": "In Italia ci sono ancora molti piccoli negozi di alimentari, forni e negozi di frutta e verdura.",
+        "es": "En Italia todavía hay muchas tiendas pequeñas de alimentos, panaderías y verdulerías.",
+        "audio": "92dd5c4fb53c"
+      },
+      {
+        "id": "rd_spese_08",
+        "it": "I prezzi sono più alti dei prezzi al supermercato, ma i negozi sono spesso locati nel centro della città ed è facile fare la spesa a piedi.",
+        "es": "Los precios son más altos que en el supermercado, pero las tiendas suelen estar en el centro de la ciudad y es fácil hacer las compras a pie.",
+        "audio": "f41915913a36"
+      },
+      {
+        "id": "rd_spese_09",
+        "it": "Molti italiani amano fare la spesa quasi tutti i giorni e comprare cibo fresco quando ne hanno bisogno.",
+        "es": "A muchos italianos les gusta hacer las compras casi todos los días y comprar comida fresca cuando la necesitan.",
+        "audio": "c2717165aa56"
+      }
+    ]
+  },
+  {
+    "id": "rd_tempolibero",
+    "title": "Un incontro (parte 2)",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-un-incontro-parte-2/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué le gusta hacer a Francesco en su tiempo libre?",
+        "options": [
+          "Leer, jugar al baloncesto y salir con amigos",
+          "Ir al cine y yoga",
+          "Cocinar"
+        ],
+        "answer": 0,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Qué prefiere hacer Elena en el gimnasio?",
+        "options": [
+          "Pesas o yoga",
+          "Correr",
+          "Nadar"
+        ],
+        "answer": 0,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Adónde van normalmente Francesco y sus amigos?",
+        "options": [
+          "Al cine o al pub",
+          "A la biblioteca",
+          "Al gimnasio"
+        ],
+        "answer": 0,
+        "evidence": 10
+      },
+      {
+        "prompt_es": "¿Qué pub prefieren?",
+        "options": [
+          "El «San Paolo»",
+          "El «Duomo»",
+          "Ninguno"
+        ],
+        "answer": 0,
+        "evidence": 13
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_tempolibero_00",
+        "it": "Francesco e Elena continuano la loro conversazione…",
+        "es": "Francesco y Elena continúan su conversación…",
+        "audio": "45da1d134d6a"
+      },
+      {
+        "id": "rd_tempolibero_01",
+        "it": "Cosa preferisci fare nel tempo libero?",
+        "es": "¿Qué prefieres hacer en tu tiempo libre?",
+        "speaker": "Francesco",
+        "audio": "572e18d833eb"
+      },
+      {
+        "id": "rd_tempolibero_02",
+        "it": "Preferisco andare in palestra, andare al cinema o fare una passeggiata.",
+        "es": "Prefiero ir al gimnasio, ir al cine o dar un paseo.",
+        "speaker": "Elena",
+        "audio": "4a3dcc997d05"
+      },
+      {
+        "id": "rd_tempolibero_03",
+        "it": "E tu?",
+        "es": "¿Y tú?",
+        "speaker": "Elena",
+        "audio": "095541f22c96"
+      },
+      {
+        "id": "rd_tempolibero_04",
+        "it": "Preferisco leggere un buon libro, giocare a basket o uscire con gli amici.",
+        "es": "Prefiero leer un buen libro, jugar al baloncesto o salir con los amigos.",
+        "speaker": "Francesco",
+        "audio": "135c134bc413"
+      },
+      {
+        "id": "rd_tempolibero_05",
+        "it": "Vado spesso anche in palestra.",
+        "es": "También voy a menudo al gimnasio.",
+        "speaker": "Francesco",
+        "audio": "3d206b74da36"
+      },
+      {
+        "id": "rd_tempolibero_06",
+        "it": "Cosa preferisci fare quando vai in palestra?",
+        "es": "¿Qué prefieres hacer cuando vas al gimnasio?",
+        "speaker": "Francesco",
+        "audio": "bc1ce4f2fb63"
+      },
+      {
+        "id": "rd_tempolibero_07",
+        "it": "Preferisco fare sollevamento pesi o seguire un corso di yoga.",
+        "es": "Prefiero levantar pesas o hacer un curso de yoga.",
+        "speaker": "Elena",
+        "audio": "fa9147d85eb6"
+      },
+      {
+        "id": "rd_tempolibero_08",
+        "it": "Preferisco correre e sollevare pesi.",
+        "es": "Prefiero correr y levantar pesas.",
+        "speaker": "Francesco",
+        "audio": "254fc9e23866"
+      },
+      {
+        "id": "rd_tempolibero_09",
+        "it": "Dove vai quando esci con gli amici?",
+        "es": "¿Adónde vas cuando sales con los amigos?",
+        "speaker": "Elena",
+        "audio": "646c57da729d"
+      },
+      {
+        "id": "rd_tempolibero_10",
+        "it": "Di solito andiamo al cinema o al pub.",
+        "es": "Normalmente vamos al cine o al pub.",
+        "speaker": "Francesco",
+        "audio": "62821b6a7225"
+      },
+      {
+        "id": "rd_tempolibero_11",
+        "it": "Qualche volta facciamo una passeggiata in centro?",
+        "es": "A veces damos un paseo por el centro.",
+        "speaker": "Francesco",
+        "audio": "c1f12b9e4053"
+      },
+      {
+        "id": "rd_tempolibero_12",
+        "it": "Dove preferite andare quando andate al pub?",
+        "es": "¿Adónde prefieren ir cuando van al pub?",
+        "speaker": "Elena",
+        "audio": "9f1a177dcf30"
+      },
+      {
+        "id": "rd_tempolibero_13",
+        "it": "Preferiamo il Pub «San Paolo» in Piazza del Campo.",
+        "es": "Preferimos el pub «San Paolo» de la Piazza del Campo.",
+        "speaker": "Francesco",
+        "audio": "3eab1462153b"
+      },
+      {
+        "id": "rd_tempolibero_14",
+        "it": "La birra è buona e fanno anche dei buoni panini.",
+        "es": "La cerveza es buena y también hacen buenos bocadillos.",
+        "speaker": "Francesco",
+        "audio": "8cd5189b3b4a"
+      }
+    ]
+  },
+  {
+    "id": "rd_viviamo",
+    "title": "Dove viviamo",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Leggiamo (Long Beach City College)",
+      "authors": "Rossella Pescatori y colaboradores",
+      "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/3-2-dove-viviamo/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿En qué piso está el apartamento de Michelangelo?",
+        "options": [
+          "En el tercero",
+          "En el quinto",
+          "En el primero"
+        ],
+        "answer": 0,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Cuántos dormitorios tiene la casa donde vive Artemisia?",
+        "options": [
+          "Tres",
+          "Cuatro",
+          "Uno"
+        ],
+        "answer": 1,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿En qué piso está el apartamento de Tommaso?",
+        "options": [
+          "En el tercero",
+          "En el segundo",
+          "En el quinto"
+        ],
+        "answer": 2,
+        "evidence": 13
+      },
+      {
+        "prompt_es": "¿Con quién vive Giuditta?",
+        "options": [
+          "Con su madre",
+          "Con una familia",
+          "Sola"
+        ],
+        "answer": 0,
+        "evidence": 15
+      },
+      {
+        "prompt_es": "¿Qué hay en el apartamento de Giuditta?",
+        "options": [
+          "Tres dormitorios y una terraza",
+          "Un dormitorio, una cocina y un baño",
+          "Solo una cocina"
+        ],
+        "answer": 1,
+        "evidence": 16
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_viviamo_00",
+        "it": "Artemisia e gli amici escono dal negozio e camminano.",
+        "es": "Artemisia y sus amigos salen de la tienda y caminan.",
+        "audio": "3e6e1c3332c7"
+      },
+      {
+        "id": "rd_viviamo_01",
+        "it": "Sono le due del pomeriggio e fa un po' caldo.",
+        "es": "Son las dos de la tarde y hace un poco de calor.",
+        "audio": "43ba34a74829"
+      },
+      {
+        "id": "rd_viviamo_02",
+        "it": "Dove abiti Michelangelo?",
+        "es": "¿Dónde vives, Michelangelo?",
+        "speaker": "Artemisia",
+        "audio": "0740cb690ce5"
+      },
+      {
+        "id": "rd_viviamo_03",
+        "it": "Abito in un appartamento in affitto.",
+        "es": "Vivo en un apartamento arrendado.",
+        "speaker": "Michelangelo",
+        "audio": "85cc9898c30e"
+      },
+      {
+        "id": "rd_viviamo_04",
+        "it": "L'appartamento è in un palazzo antico ed è al terzo piano.",
+        "es": "El apartamento está en un edificio antiguo y está en el tercer piso.",
+        "speaker": "Michelangelo",
+        "audio": "b55d92575ca3"
+      },
+      {
+        "id": "rd_viviamo_05",
+        "it": "Non è molto grande: c'è una cucina, una stanza da letto e il bagno.",
+        "es": "No es muy grande: hay una cocina, un dormitorio y el baño.",
+        "speaker": "Michelangelo",
+        "audio": "aaff5698877c"
+      },
+      {
+        "id": "rd_viviamo_06",
+        "it": "E tu dove abiti?",
+        "es": "¿Y tú dónde vives?",
+        "speaker": "Michelangelo",
+        "audio": "c49a6f6f9e57"
+      },
+      {
+        "id": "rd_viviamo_07",
+        "it": "Io abito con una famiglia. Affitto una stanza.",
+        "es": "Yo vivo con una familia. Arriendo una habitación.",
+        "speaker": "Artemisia",
+        "audio": "8ae6aeb7a5da"
+      },
+      {
+        "id": "rd_viviamo_08",
+        "it": "La loro casa è una villetta.",
+        "es": "Su casa es una casita independiente.",
+        "speaker": "Artemisia",
+        "audio": "38e375d9a266"
+      },
+      {
+        "id": "rd_viviamo_09",
+        "it": "La casa ha quattro stanze da letto, due bagni, una cucina, una cantina e un garage.",
+        "es": "La casa tiene cuatro dormitorios, dos baños, una cocina, un sótano y un garaje.",
+        "speaker": "Artemisia",
+        "audio": "12f4c93ff358"
+      },
+      {
+        "id": "rd_viviamo_10",
+        "it": "E tu, Tommaso?",
+        "es": "¿Y tú, Tommaso?",
+        "speaker": "Artemisia",
+        "audio": "f24b51243e21"
+      },
+      {
+        "id": "rd_viviamo_11",
+        "it": "Ho un appartamento a Roma.",
+        "es": "Tengo un apartamento en Roma.",
+        "speaker": "Tommaso",
+        "audio": "881f5b52d3d4"
+      },
+      {
+        "id": "rd_viviamo_12",
+        "it": "Il mio appartamento è abbastanza grande e moderno.",
+        "es": "Mi apartamento es bastante grande y moderno.",
+        "speaker": "Tommaso",
+        "audio": "05c79a4a7141"
+      },
+      {
+        "id": "rd_viviamo_13",
+        "it": "È in un nuovo palazzone. È al quinto piano.",
+        "es": "Está en un edificio grande y nuevo. Está en el quinto piso.",
+        "speaker": "Tommaso",
+        "audio": "1f21d592de7f"
+      },
+      {
+        "id": "rd_viviamo_14",
+        "it": "Nel mio appartamento ci sono tre camere da letto, una cucina, un salotto, una grande terrazza.",
+        "es": "En mi apartamento hay tres dormitorios, una cocina, un salón y una gran terraza.",
+        "speaker": "Tommaso",
+        "audio": "e9ebed5c7192"
+      },
+      {
+        "id": "rd_viviamo_15",
+        "it": "Che bello! Anch'io abito a Roma, ma l'appartamento dove vivo con mia madre è molto piccolo.",
+        "es": "¡Qué bien! Yo también vivo en Roma, pero el apartamento donde vivo con mi madre es muy pequeño.",
+        "speaker": "Giuditta",
+        "audio": "254de0748fce"
+      },
+      {
+        "id": "rd_viviamo_16",
+        "it": "Ha solo una camera, una cucina e un bagno.",
+        "es": "Solo tiene un dormitorio, una cocina y un baño.",
+        "speaker": "Giuditta",
+        "audio": "1be9594dd9ee"
+      }
+    ]
+  },
+  {
+    "id": "rd_zaino",
+    "title": "Lo zaino di Elena",
+    "level": "A1",
+    "kind": "lectura",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/1034/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cuántos años tiene Elena?",
+        "options": [
+          "Veintiuno",
+          "Veintitrés",
+          "Doce"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿De qué color es la mochila de Elena?",
+        "options": [
+          "Negra",
+          "Roja",
+          "Verde"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Cuántos cuadernos hay en la mochila?",
+        "options": [
+          "Tres",
+          "Dos",
+          "Cinco"
+        ],
+        "answer": 0,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Cómo es el profesor de francés?",
+        "options": [
+          "Simpático",
+          "Aburrido",
+          "Inteligente"
+        ],
+        "answer": 1,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Dónde está la mochila?",
+        "options": [
+          "Sobre la mesa",
+          "Sobre la silla",
+          "En el suelo"
+        ],
+        "answer": 1,
+        "evidence": 10
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_zaino_00",
+        "it": "Elena è una studentessa.",
+        "es": "Elena es una estudiante.",
+        "audio": "6e66ebca3f68"
+      },
+      {
+        "id": "rd_zaino_01",
+        "it": "Ha ventuno anni.",
+        "es": "Tiene veintiún años.",
+        "audio": "44aa3c3f7205"
+      },
+      {
+        "id": "rd_zaino_02",
+        "it": "È bassa e magra e ha i capelli lunghi e lisci.",
+        "es": "Es baja y delgada y tiene el pelo largo y liso.",
+        "audio": "6d4cb9d7e6cf"
+      },
+      {
+        "id": "rd_zaino_03",
+        "it": "Ha gli occhi verdi.",
+        "es": "Tiene los ojos verdes.",
+        "audio": "758f70ccfe40"
+      },
+      {
+        "id": "rd_zaino_04",
+        "it": "Elena ha uno zaino nuovo.",
+        "es": "Elena tiene una mochila nueva.",
+        "audio": "7c92934471ce"
+      },
+      {
+        "id": "rd_zaino_05",
+        "it": "Lo zaino è nero.",
+        "es": "La mochila es negra.",
+        "audio": "2a0ae64a1bb8"
+      },
+      {
+        "id": "rd_zaino_06",
+        "it": "Nello zaino ci sono tre quaderni, una penna rossa, una penna blu, una penna nera e due matite.",
+        "es": "En la mochila hay tres cuadernos, un bolígrafo rojo, un bolígrafo azul, un bolígrafo negro y dos lápices.",
+        "audio": "fb60f31083e7"
+      },
+      {
+        "id": "rd_zaino_07",
+        "it": "Nello zaino ci sono anche un libro di italiano e un libro di francese.",
+        "es": "En la mochila también hay un libro de italiano y un libro de francés.",
+        "audio": "46febd35f3bb"
+      },
+      {
+        "id": "rd_zaino_08",
+        "it": "La professoressa di italiano è simpatica e intelligente.",
+        "es": "La profesora de italiano es simpática e inteligente.",
+        "audio": "6bf515239915"
+      },
+      {
+        "id": "rd_zaino_09",
+        "it": "Il professore di francese è noioso.",
+        "es": "El profesor de francés es aburrido.",
+        "audio": "49419a020077"
+      },
+      {
+        "id": "rd_zaino_10",
+        "it": "Lo zaino di Elena è sulla sedia vicino al tavolo.",
+        "es": "La mochila de Elena está sobre la silla, cerca de la mesa.",
+        "audio": "71994da9274d"
+      }
+    ]
+  }
+]

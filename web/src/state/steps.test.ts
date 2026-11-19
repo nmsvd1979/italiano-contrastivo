@@ -13,13 +13,15 @@ const pack = {
 const sid = (i: Item) => (i as Item & { sentence_id: string }).sentence_id;
 
 describe.each(pack.course.units.map((u) => [u.id, u] as const))("unidad %s con el contenido real", (_id, unit) => {
-  it("la práctica llega a ≈6 min con prioridad y no repite ítems", () => {
-    const items = practiceItems(unit, pack);
-    const seconds = items.reduce((s, i) => s + estimateSeconds(kindOf(i)), 0);
-    expect(new Set(items.map((i) => i.id)).size).toBe(items.length);
-    expect(seconds).toBeGreaterThanOrEqual(5.5 * 60);
-    expect(seconds).toBeLessThanOrEqual(7.5 * 60);
-    expect(items.every((i) => unit.parts.practica.includes(sid(i)))).toBe(true);
+  it("la práctica 1 llega a ≈10 min, la 2 a lo que queda, sin repetir ítems entre las dos", () => {
+    const a = practiceItems(unit, pack), b = practiceItems(unit, pack, {}, undefined, 2);
+    const secs = (xs: typeof a) => xs.reduce((s, i) => s + estimateSeconds(kindOf(i)), 0);
+    expect(new Set(a.map((i) => i.id)).size).toBe(a.length);
+    expect(secs(a)).toBeGreaterThanOrEqual(9.5 * 60);
+    expect(secs(a)).toBeLessThanOrEqual(11.5 * 60);
+    expect(a.some((i) => b.some((j) => j.id === i.id))).toBe(false);
+    expect(secs(b)).toBeLessThanOrEqual(11.5 * 60); // la tanda 2 es lo que queda: con ≈25 oraciones por unidad no da para 10 min (lo muestra el auditor)
+    expect([...a, ...b].every((i) => unit.parts.practica.includes(sid(i)))).toBe(true);
   });
   it("el bloque de lectura (Descubre + reconstrucción) llena ≈7 min y reconstruye solo con huecos primero", () => {
     const s = stepSeconds(unit, "descubre", pack);
@@ -30,12 +32,12 @@ describe.each(pack.course.units.map((u) => [u.id, u] as const))("unidad %s con e
     const types = items.map((i) => i.type);
     expect(types[0]).toBe(unit.codes[0] === "ERR_PERSONAL_A" ? types[0] : "cloze");
   });
-  it("el bloque de voz llena ≈8 min con 5 dictados y frases para repetir distintas a las del dictado", () => {
+  it("el bloque de voz llena ≈12 min con 6 dictados y frases para repetir distintas a las del dictado", () => {
     const s = stepSeconds(unit, "escucha", pack);
-    expect(s).toBeGreaterThanOrEqual(7 * 60);
-    expect(s).toBeLessThanOrEqual(9 * 60);
+    expect(s).toBeGreaterThanOrEqual(9 * 60); // el objetivo es 12 min; con ≈25 oraciones por unidad no siempre alcanza (lo muestra el auditor)
+    expect(s).toBeLessThanOrEqual(13.5 * 60);
     const v = voiceItems(unit, pack);
-    expect(v.filter((x) => x.kind === "dictation").length).toBe(5);
+    expect(v.filter((x) => x.kind === "dictation").length).toBe(6);
     const heard = new Set(v.filter((x) => x.kind === "dictation").map((x) => x.sentence.id));
     expect(v.filter((x) => x.kind === "shadow").every((x) => !heard.has(x.sentence.id))).toBe(true);
     expect(shadowSentences(unit, pack).every((x) => !!x.audio)).toBe(true);
@@ -53,10 +55,10 @@ describe.each(pack.course.units.map((u) => [u.id, u] as const))("unidad %s con e
     expect(test.some((i) => practice.has(i.id))).toBe(false);
   });
   it("cada paso dura entre 2 y 9 minutos con los tiempos a priori", () => {
-    for (const step of ["descubre", "capsula", "practica", "escucha", "prueba"] as const) {
+    for (const step of ["descubre", "capsula", "practica", "escucha", "practica2", "prueba"] as const) {
       const s = stepSeconds(unit, step, pack);
-      expect(s, `${unit.id}/${step}`).toBeGreaterThanOrEqual(110);
-      expect(s, `${unit.id}/${step}`).toBeLessThanOrEqual(10 * 60);
+      if (step !== "practica2") expect(s, `${unit.id}/${step}`).toBeGreaterThanOrEqual(110); // la práctica 2 depende del tamaño del conjunto de oraciones
+      expect(s, `${unit.id}/${step}`).toBeLessThanOrEqual(13 * 60);
     }
   });
   it("tiene 4 tarjetas de descubrimiento con el tramo resaltado y 8 dictados con audio", () => {

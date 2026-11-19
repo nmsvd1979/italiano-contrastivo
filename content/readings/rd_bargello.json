@@ -1,0 +1,179 @@
+{
+  "id": "rd_bargello",
+  "title": "Il museo del Bargello",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/2-6-cosa-fanno/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes. Se omite la línea sobre comprar entradas en un sitio web.",
+  "sentences": [
+    {
+      "id": "rd_bargello_00",
+      "it": "Artemisia e sua sorella Giuditta arrivano in piazza Duomo alle 9:55.",
+      "es": "Artemisia y su hermana Giuditta llegan a la plaza del Duomo a las 9:55."
+    },
+    {
+      "id": "rd_bargello_01",
+      "it": "Non hanno fretta e sono molto rilassate.",
+      "es": "No tienen apuro y están muy relajadas."
+    },
+    {
+      "id": "rd_bargello_02",
+      "it": "Michelangelo e Tommaso camminano velocemente e parlano.",
+      "es": "Michelangelo y Tommaso caminan rápido y conversan."
+    },
+    {
+      "id": "rd_bargello_03",
+      "it": "Tommaso, ecco, Artemisia e sua sorella sono lì. Andiamo!",
+      "es": "Tommaso, mira, Artemisia y su hermana están allá. ¡Vamos!",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_bargello_04",
+      "it": "Ciao Michelangelo, questa è Giuditta!",
+      "es": "Hola, Michelangelo, ¡ella es Giuditta!",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_bargello_05",
+      "it": "Piacere, mi chiamo Giuditta.",
+      "es": "Mucho gusto, me llamo Giuditta.",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_bargello_06",
+      "it": "Ragazze, lui è Tommaso.",
+      "es": "Chicas, él es Tommaso.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_bargello_07",
+      "it": "Piacere!",
+      "es": "¡Mucho gusto!",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_bargello_08",
+      "it": "Andiamo al museo del Bargello, andiamo a piedi, non è lontano.",
+      "es": "Vamos al museo del Bargello, vamos a pie, no está lejos.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_bargello_09",
+      "it": "Benissimo.",
+      "es": "Muy bien.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_bargello_10",
+      "it": "Il museo del Bargello è dedicato alla scultura.",
+      "es": "El museo del Bargello está dedicado a la escultura.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_bargello_11",
+      "it": "Lì ci sono opere di Michelangelo, Donatello, Ghiberti, Cellini, Giambologna, Ammannati e molti altri scultori.",
+      "es": "Allí hay obras de Michelangelo, Donatello, Ghiberti, Cellini, Giambologna, Ammannati y muchos otros escultores.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_bargello_12",
+      "it": "Il museo si chiama Bargello perché deriva dal palazzo del Bargello che significa «Palazzo del Popolo».",
+      "es": "El museo se llama Bargello porque viene del palacio del Bargello, que significa «Palacio del Pueblo».",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_bargello_13",
+      "it": "Il palazzo è molto antico e risale al 1255.",
+      "es": "El palacio es muy antiguo y data de 1255.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_bargello_14",
+      "it": "Abbiamo bisogno di un biglietto?",
+      "es": "¿Necesitamos una entrada?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_bargello_15",
+      "it": "Sì, ma ho qui i biglietti.",
+      "es": "Sí, pero aquí tengo las entradas.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_bargello_16",
+      "it": "Quanto costano?",
+      "es": "¿Cuánto cuestan?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_bargello_17",
+      "it": "Solo due euro a persona perché siamo studenti.",
+      "es": "Solo dos euros por persona porque somos estudiantes.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_bargello_18",
+      "it": "Per Tommaso costa 20 euro.",
+      "es": "Para Tommaso cuesta 20 euros.",
+      "speaker": "Michelangelo"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿A qué hora llegan Artemisia y Giuditta a la plaza?",
+      "options": [
+        "A las 9:55",
+        "A las 11:30",
+        "A las 10:15"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿A qué está dedicado el museo del Bargello?",
+      "options": [
+        "A la pintura",
+        "A la escultura",
+        "A la música"
+      ],
+      "answer": 1,
+      "evidence": 10
+    },
+    {
+      "prompt_es": "¿De qué año es el palacio?",
+      "options": [
+        "De 1943",
+        "De 2012",
+        "De 1255"
+      ],
+      "answer": 2,
+      "evidence": 13
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta la entrada para los estudiantes?",
+      "options": [
+        "Dos euros",
+        "Veinte euros",
+        "Cinco euros"
+      ],
+      "answer": 0,
+      "evidence": 17
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta la entrada de Tommaso?",
+      "options": [
+        "Dos euros",
+        "Veinte euros",
+        "Doce euros"
+      ],
+      "answer": 1,
+      "evidence": 18
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

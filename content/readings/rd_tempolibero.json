@@ -1,0 +1,147 @@
+{
+  "id": "rd_tempolibero",
+  "title": "Un incontro (parte 2)",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-un-incontro-parte-2/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes.",
+  "sentences": [
+    {
+      "id": "rd_tempolibero_00",
+      "it": "Francesco e Elena continuano la loro conversazione…",
+      "es": "Francesco y Elena continúan su conversación…"
+    },
+    {
+      "id": "rd_tempolibero_01",
+      "it": "Cosa preferisci fare nel tempo libero?",
+      "es": "¿Qué prefieres hacer en tu tiempo libre?",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_tempolibero_02",
+      "it": "Preferisco andare in palestra, andare al cinema o fare una passeggiata.",
+      "es": "Prefiero ir al gimnasio, ir al cine o dar un paseo.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_tempolibero_03",
+      "it": "E tu?",
+      "es": "¿Y tú?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_tempolibero_04",
+      "it": "Preferisco leggere un buon libro, giocare a basket o uscire con gli amici.",
+      "es": "Prefiero leer un buen libro, jugar al baloncesto o salir con los amigos.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_tempolibero_05",
+      "it": "Vado spesso anche in palestra.",
+      "es": "También voy a menudo al gimnasio.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_tempolibero_06",
+      "it": "Cosa preferisci fare quando vai in palestra?",
+      "es": "¿Qué prefieres hacer cuando vas al gimnasio?",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_tempolibero_07",
+      "it": "Preferisco fare sollevamento pesi o seguire un corso di yoga.",
+      "es": "Prefiero levantar pesas o hacer un curso de yoga.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_tempolibero_08",
+      "it": "Preferisco correre e sollevare pesi.",
+      "es": "Prefiero correr y levantar pesas.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_tempolibero_09",
+      "it": "Dove vai quando esci con gli amici?",
+      "es": "¿Adónde vas cuando sales con los amigos?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_tempolibero_10",
+      "it": "Di solito andiamo al cinema o al pub.",
+      "es": "Normalmente vamos al cine o al pub.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_tempolibero_11",
+      "it": "Qualche volta facciamo una passeggiata in centro?",
+      "es": "A veces damos un paseo por el centro.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_tempolibero_12",
+      "it": "Dove preferite andare quando andate al pub?",
+      "es": "¿Adónde prefieren ir cuando van al pub?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_tempolibero_13",
+      "it": "Preferiamo il Pub «San Paolo» in Piazza del Campo.",
+      "es": "Preferimos el pub «San Paolo» de la Piazza del Campo.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_tempolibero_14",
+      "it": "La birra è buona e fanno anche dei buoni panini.",
+      "es": "La cerveza es buena y también hacen buenos bocadillos.",
+      "speaker": "Francesco"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué le gusta hacer a Francesco en su tiempo libre?",
+      "options": [
+        "Leer, jugar al baloncesto y salir con amigos",
+        "Ir al cine y yoga",
+        "Cocinar"
+      ],
+      "answer": 0,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Qué prefiere hacer Elena en el gimnasio?",
+      "options": [
+        "Pesas o yoga",
+        "Correr",
+        "Nadar"
+      ],
+      "answer": 0,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Adónde van normalmente Francesco y sus amigos?",
+      "options": [
+        "Al cine o al pub",
+        "A la biblioteca",
+        "Al gimnasio"
+      ],
+      "answer": 0,
+      "evidence": 10
+    },
+    {
+      "prompt_es": "¿Qué pub prefieren?",
+      "options": [
+        "El «San Paolo»",
+        "El «Duomo»",
+        "Ninguno"
+      ],
+      "answer": 0,
+      "evidence": 13
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

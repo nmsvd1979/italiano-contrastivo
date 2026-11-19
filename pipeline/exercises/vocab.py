@@ -63,6 +63,10 @@ def find_vocab(code: str, it: str):
     if code == "ERR_VOC_INTERROG" and "?" not in it:  # solo como pregunta («come» también es «como»)
         return None
     entries = topics()[code]
+    if code == "ERR_VOC_DIMOSTRATIVI":  # solo como adjetivo (con sustantivo): «questo è…» o «quello che…» no admiten el cambio
+        nxt = re.search(r"\b(?:questo|questa|questi|queste|quel|quella|quei|quelle|quello)\s+(\w+)", it, re.I)
+        if not nxt or nxt.group(1).lower() in {"è", "e", "sono", "era", "non", "che", "ha", "hanno", "di", "mi", "ti", "si", "ci", "vi", "lo", "la", "li", "le", "ne", "a"}:
+            return None
     by_form = {e.form.lower(): e for e in entries}
     hits = [m for m in re.finditer(r"[\wàèéìòùÀ-Ü]+", it) if m.group(0).lower() in by_form]
     if len(hits) != 1:

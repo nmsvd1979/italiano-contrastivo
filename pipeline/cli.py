@@ -8,7 +8,7 @@ from pipeline import cefr, config, export, filters, ingest, nlp, pivot, promote,
 from pipeline.db import store
 from pipeline.tagging import engine
 
-STAGES = ["ingest", "pivot", "filter", "annotate", "tag", "promote", "all", "review", "export", "report", "capsules", "tts"]
+STAGES = ["ingest", "pivot", "filter", "annotate", "tag", "promote", "all", "review", "export", "report", "capsules", "readings", "tts"]
 
 
 def _ok_candidates(con):
@@ -146,6 +146,11 @@ def main(argv: list[str] | None = None) -> int:
                 for code, info in m["codes"].items():
                     print(f"  {code}: {info['usable']} utilizables → {'cápsula' if info['capsule'] else 'sin cápsula (' + info['reason'] + ')'}")
                 print(f"  cápsulas: {len(m['capsules'])}, oraciones usadas: {m['sentences_used']}")
+            elif st == "readings":
+                from pipeline.exercises import readings
+
+                rs = readings.build_pack(Path("content/readings"), args.pack_dir)
+                print(f"  lecturas: {len(rs)}, oraciones: {sum(len(r['sentences']) for r in rs)}")
             elif st == "tts":
                 from pipeline.tts import generate as tg, piper_lote
 

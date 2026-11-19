@@ -1,0 +1,244 @@
+{
+  "id": "rd_ristorante",
+  "title": "Al ristorante",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-al-ristorante/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Se quitaron las notas de vocabulario en inglés y se separaron los nombres de los hablantes; la introducción es narración, no diálogo.",
+  "sentences": [
+    {
+      "id": "rd_ristorante_00",
+      "it": "Francesco ha incontrato Elena al ristorante in centro per pranzo.",
+      "es": "Francesco se encontró con Elena en el restaurante del centro para almorzar."
+    },
+    {
+      "id": "rd_ristorante_01",
+      "it": "Elena ha offerto di pagare il conto.",
+      "es": "Elena ofreció pagar la cuenta."
+    },
+    {
+      "id": "rd_ristorante_02",
+      "it": "Il cameriere gli ha portato due menù.",
+      "es": "El camarero les trajo dos menús."
+    },
+    {
+      "id": "rd_ristorante_03",
+      "it": "Francesco e Elena li hanno letti e ora decidono cosa ordinare.",
+      "es": "Francesco y Elena los leyeron y ahora deciden qué pedir."
+    },
+    {
+      "id": "rd_ristorante_04",
+      "it": "Cosa prendi?",
+      "es": "¿Qué tomas?",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_ristorante_05",
+      "it": "Un primo, un secondo e un contorno.",
+      "es": "Un primer plato, un segundo y una guarnición.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_ristorante_06",
+      "it": "Voglio la pasta al pesto e l'arrosto di maiale.",
+      "es": "Quiero la pasta al pesto y el asado de cerdo.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_ristorante_07",
+      "it": "Per contorno prendo un'insalata.",
+      "es": "De guarnición tomo una ensalada.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_ristorante_08",
+      "it": "Ho molta fame.",
+      "es": "Tengo mucha hambre.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_ristorante_09",
+      "it": "Stamattina non ho avuto tempo di fare colazione!",
+      "es": "¡Esta mañana no tuve tiempo de desayunar!",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_ristorante_10",
+      "it": "Ho bevuto solo un caffè!",
+      "es": "¡Solo bebí un café!",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_ristorante_11",
+      "it": "Tu cosa prendi?",
+      "es": "¿Y tú qué tomas?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_ristorante_12",
+      "it": "Prendo solo un'insalata.",
+      "es": "Tomo solo una ensalada.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_ristorante_13",
+      "it": "Così poco!",
+      "es": "¡Tan poco!",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_ristorante_14",
+      "it": "Perché?",
+      "es": "¿Por qué?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_ristorante_15",
+      "it": "Non ho molta fame.",
+      "es": "No tengo mucha hambre.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_ristorante_16",
+      "it": "Stamattina ho fatto una bella colazione.",
+      "es": "Esta mañana desayuné muy bien.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_ristorante_17",
+      "it": "Ho mangiato due uova, una fetta di pane tostato con burro, uno yogurt e una spremuta d'arancia.",
+      "es": "Comí dos huevos, una rebanada de pan tostado con mantequilla, un yogur y un jugo de naranja exprimido.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_ristorante_18",
+      "it": "Cosa vuoi bere?",
+      "es": "¿Qué quieres beber?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_ristorante_19",
+      "it": "Io prendo solo l'acqua minerale.",
+      "es": "Yo tomo solo agua mineral.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_ristorante_20",
+      "it": "Anch'io voglio un bicchiere d'acqua, ma prendo anche un tè freddo.",
+      "es": "Yo también quiero un vaso de agua, pero tomo además un té frío.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_ristorante_21",
+      "it": "Vuoi dividere una bottiglia d'acqua minerale?",
+      "es": "¿Quieres compartir una botella de agua mineral?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_ristorante_22",
+      "it": "Sì, va bene.",
+      "es": "Sí, está bien.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_ristorante_23",
+      "it": "La preferisci naturale o gassata?",
+      "es": "¿La prefieres natural o con gas?",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_ristorante_24",
+      "it": "Per me non fa differenza.",
+      "es": "Para mí no hay diferencia.",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_ristorante_25",
+      "it": "Non mi piace l'acqua gassata, la preferisco naturale, se per te va bene.",
+      "es": "No me gusta el agua con gas, la prefiero natural, si te parece bien.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_ristorante_26",
+      "it": "Perfetto!",
+      "es": "¡Perfecto!",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_ristorante_27",
+      "it": "Allora siamo pronti…",
+      "es": "Entonces estamos listos…",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_ristorante_28",
+      "it": "Scusi!",
+      "es": "¡Disculpe!",
+      "speaker": "Francesco"
+    },
+    {
+      "id": "rd_ristorante_29",
+      "it": "Cameriere!",
+      "es": "¡Camarero!",
+      "speaker": "Francesco"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Quién ofrece pagar la cuenta?",
+      "options": [
+        "Elena",
+        "Francesco",
+        "El camarero"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué pide Elena de segundo plato?",
+      "options": [
+        "Asado de cerdo",
+        "Pescado",
+        "Pollo"
+      ],
+      "answer": 0,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Por qué Francesco pide solo una ensalada?",
+      "options": [
+        "No tiene mucha hambre",
+        "No le gusta la pasta",
+        "No tiene dinero"
+      ],
+      "answer": 0,
+      "evidence": 15
+    },
+    {
+      "prompt_es": "¿Qué desayunó Francesco?",
+      "options": [
+        "Huevos, pan tostado con mantequilla, yogur y jugo de naranja",
+        "Solo un café",
+        "Nada"
+      ],
+      "answer": 0,
+      "evidence": 17
+    },
+    {
+      "prompt_es": "¿Qué agua prefiere Elena?",
+      "options": [
+        "Natural",
+        "Con gas",
+        "Ninguna"
+      ],
+      "answer": 0,
+      "evidence": 25
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "sillabo-a1",
+    "titulo": "Sillabo di riferimento A1 (Enti certificatori dell'italiano L2)",
+    "url": "https://www.regione.calabria.it/wp-content/uploads/2020/11/all.%20g%20-%20sillabo_-_a1.pdf",
+    "tipo": "oficial",
+    "nivel": "A1",
+    "licencia": "documento público; se resume",
+    "estado": "leído"
+  },
+  {
+    "id": "sillabo-a2",
+    "titulo": "Sillabo di riferimento A2 (Enti certificatori)",
+    "url": "https://www.regione.calabria.it/wp-content/uploads/2020/11/all.%20h%20-%20sillabo_-_a2.pdf",
+    "tipo": "oficial",
+    "nivel": "A2",
+    "licencia": "documento público; se resume",
+    "estado": "leído (funciones, formas, léxico)"
+  },
+  {
+    "id": "sillabo-b1",
+    "titulo": "Sillabo di riferimento B1 (Enti certificatori)",
+    "url": "https://www.regione.calabria.it/wp-content/uploads/2020/11/all.%20i%20-%20sillabo-b11.pdf",
+    "tipo": "oficial",
+    "nivel": "B1",
+    "licencia": "documento público; se resume",
+    "estado": "descargado, sin leer"
+  },
+  {
+    "id": "sillabo-b2",
+    "titulo": "Sillabo 4 enti B2",
+    "url": "https://www.unistrapg.it/sites/default/files/docs/certificazioni/sillabo-4-enti-B2.pdf",
+    "tipo": "oficial",
+    "nivel": "B2",
+    "licencia": "documento público; se resume",
+    "estado": "pendiente (error SSL en unistrapg.it)"
+  },
+  {
+    "id": "plida",
+    "titulo": "Sillabo della certificazione PLIDA, A1–C2 (Società Dante Alighieri, 2.ª ed. 2021)",
+    "url": "https://cms.plida.dante.global/wp-content/uploads/2022/11/Sillabo_della_certificazione_PLIDA-1.pdf",
+    "tipo": "oficial",
+    "nivel": "A1-C2",
+    "licencia": "derechos reservados; se resume",
+    "estado": "leído A1 y A2"
+  },
+  {
+    "id": "profilo",
+    "titulo": "Profilo della lingua italiana (Spinelli y Parizzi, 2010)",
+    "url": "https://www.unistrapg.it/en/node/6981",
+    "tipo": "oficial",
+    "nivel": "A1-B2",
+    "licencia": "derechos reservados",
+    "estado": "no accesible (error SSL)"
+  },
+  {
+    "id": "leggiamo",
+    "titulo": "Leggiamo (Pescatori y otros)",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/",
+    "tipo": "libro abierto",
+    "nivel": "A1",
+    "licencia": "CC BY-NC",
+    "estado": "índice leído"
+  },
+  {
+    "id": "piacere",
+    "titulo": "Piacere! (Gemmani, Lottini, Sartini-Rideout)",
+    "url": "https://pressbooks.uiowa.edu/piacere/",
+    "tipo": "libro abierto",
+    "nivel": "A1-B2",
+    "licencia": "CC BY-NC-SA 4.0",
+    "estado": "índice y una lectura leídos"
+  },
+  {
+    "id": "tutta-a-tavola",
+    "titulo": "Tutt* a tavola! vol. 1",
+    "url": "https://openbooks.library.umass.edu/tutt-a-tavola-vol-1/",
+    "tipo": "libro abierto",
+    "nivel": "A1",
+    "licencia": "CC BY-NC 4.0",
+    "estado": "pendiente de leer"
+  },
+  {
+    "id": "cotto-e-mangiato",
+    "titulo": "Cotto e mangiato",
+    "url": "https://oer.haverford.edu/cottoemangiato2/",
+    "tipo": "libro abierto",
+    "nivel": "A1",
+    "licencia": "CC BY-NC 4.0",
+    "estado": "pendiente de leer"
+  },
+  {
+    "id": "giornate-italiane",
+    "titulo": "Le giornate italiane",
+    "url": "https://utexas.pressbooks.pub/le-giornate-italiane/",
+    "tipo": "libro abierto",
+    "nivel": "A1-A2",
+    "licencia": "CC BY-NC-SA 4.0",
+    "estado": "pendiente de leer"
+  },
+  {
+    "id": "merlin",
+    "titulo": "MERLIN Written Learner Corpus v1.1",
+    "url": "http://hdl.handle.net/20.500.12124/6",
+    "tipo": "corpus",
+    "nivel": "A1-B2",
+    "licencia": "CC BY-SA 4.0",
+    "estado": "descargado y analizado (solo 10 textos de hablantes de español)"
+  },
+  {
+    "id": "common-voice-it",
+    "titulo": "Mozilla Common Voice italiano",
+    "url": "https://datacollective.mozillafoundation.org/datasets/cmj8u3p9q00chnxxb5fj12aw8",
+    "tipo": "audio",
+    "nivel": "—",
+    "licencia": "CC0",
+    "estado": "no descargado"
+  },
+  {
+    "id": "kelly",
+    "titulo": "KELLY (lista de frecuencia con niveles CEFR)",
+    "url": "https://spraakbanken.gu.se/en/resources/kelly",
+    "tipo": "frecuencia",
+    "nivel": "A1-C2",
+    "licencia": "por confirmar (NC-SA 2.0 según una fuente)",
+    "estado": "pendiente"
+  },
+  {
+    "id": "nvdb",
+    "titulo": "Nuovo vocabolario di base (De Mauro)",
+    "url": "https://github.com/pettarin/nvdb",
+    "tipo": "frecuencia",
+    "nivel": "—",
+    "licencia": "por confirmar",
+    "estado": "pendiente"
+  },
+  {
+    "id": "tatoeba",
+    "titulo": "Tatoeba",
+    "url": "https://tatoeba.org",
+    "tipo": "oraciones",
+    "nivel": "A1-B2",
+    "licencia": "CC BY 2.0 FR",
+    "estado": "en uso"
+  }
+]

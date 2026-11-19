@@ -1,0 +1,112 @@
+{
+  "id": "rd_dovesei",
+  "title": "Di dove sei?",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/3-1-di-dove-sei/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes.",
+  "sentences": [
+    {
+      "id": "rd_dovesei_00",
+      "it": "Artemisia, sei italiana?",
+      "es": "Artemisia, ¿eres italiana?",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_dovesei_01",
+      "it": "No, non sono italiana. Sono siriana. Sono di Aleppo e tu di dove sei?",
+      "es": "No, no soy italiana. Soy siria. Soy de Alepo, ¿y tú de dónde eres?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_dovesei_02",
+      "it": "Sono di Firenze. Sono italiano. Dove abiti?",
+      "es": "Soy de Florencia. Soy italiano. ¿Dónde vives?",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_dovesei_03",
+      "it": "Abito a Firenze e tu?",
+      "es": "Vivo en Florencia, ¿y tú?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_dovesei_04",
+      "it": "Anch'io abito a Firenze. Qual è il tuo indirizzo?",
+      "es": "Yo también vivo en Florencia. ¿Cuál es tu dirección?",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_dovesei_05",
+      "it": "Abito vicino al museo degli Uffizi.",
+      "es": "Vivo cerca del museo de los Uffizi.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_dovesei_06",
+      "it": "Piazzale degli Uffizi 6, 50122 Firenze.",
+      "es": "Piazzale degli Uffizi 6, 50122 Florencia.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_dovesei_07",
+      "it": "E tu? Qual è il tuo indirizzo?",
+      "es": "¿Y tú? ¿Cuál es tu dirección?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_dovesei_08",
+      "it": "Abito vicino al museo dell'Accademia, in Via Ricasoli 6, 50122 Firenze.",
+      "es": "Vivo cerca del museo de la Academia, en la calle Ricasoli 6, 50122 Florencia.",
+      "speaker": "Michelangelo"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿De dónde es Artemisia?",
+      "options": [
+        "De Alepo, Siria",
+        "De Florencia",
+        "De Roma"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿De dónde es Michelangelo?",
+      "options": [
+        "De Alepo",
+        "De Florencia",
+        "De Siena"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Cerca de qué museo vive Artemisia?",
+      "options": [
+        "De la Academia",
+        "Del Bargello",
+        "De los Uffizi"
+      ],
+      "answer": 2,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Cerca de qué museo vive Michelangelo?",
+      "options": [
+        "De la Academia",
+        "De los Uffizi",
+        "Del Bargello"
+      ],
+      "answer": 0,
+      "evidence": 8
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

@@ -1,0 +1,163 @@
+{
+  "id": "rd_materie",
+  "title": "Le materie di studio",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/5-1-le-materie-di-studio/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes. Se omiten las preguntas del ejercicio del final y las glosas entre paréntesis.",
+  "sentences": [
+    {
+      "id": "rd_materie_00",
+      "it": "Più tardi Artemisia incontra Michelangelo in un bar.",
+      "es": "Más tarde Artemisia se encuentra con Michelangelo en un bar."
+    },
+    {
+      "id": "rd_materie_01",
+      "it": "Ciao Artemisia, come stai?",
+      "es": "Hola, Artemisia, ¿cómo estás?",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_materie_02",
+      "it": "Ciao Michelangelo, sto bene e tu?",
+      "es": "Hola, Michelangelo, estoy bien, ¿y tú?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_materie_03",
+      "it": "Sto bene, grazie. Artemisia, sei una studentessa?",
+      "es": "Estoy bien, gracias. Artemisia, ¿eres estudiante?",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_materie_04",
+      "it": "Sì, sono una studentessa e sono a Firenze per studiare Storia dell'Arte.",
+      "es": "Sí, soy estudiante y estoy en Florencia para estudiar Historia del Arte.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_materie_05",
+      "it": "Frequento l'università di Firenze. E tu sei uno studente?",
+      "es": "Voy a la Universidad de Florencia. ¿Y tú eres estudiante?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_materie_06",
+      "it": "Sì, studio medicina, presto ho un esame di anatomia.",
+      "es": "Sí, estudio medicina, pronto tengo un examen de anatomía.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_materie_07",
+      "it": "Le statue di Michelangelo sono molto interessanti per lo studio dell'anatomia.",
+      "es": "Las estatuas de Michelangelo son muy interesantes para el estudio de la anatomía.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_materie_08",
+      "it": "Quando hai lezione?",
+      "es": "¿Cuándo tienes clases?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_materie_09",
+      "it": "Ho lezione il lunedì, mercoledì e venerdì dalle 8 alle 12. E tu?",
+      "es": "Tengo clases los lunes, miércoles y viernes de 8 a 12. ¿Y tú?",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_materie_10",
+      "it": "Ho lezione il lunedì e giovedì dalle 10 alle 15.",
+      "es": "Tengo clases los lunes y jueves de 10 a 15.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_materie_11",
+      "it": "Oggi è sabato e non abbiamo lezione!",
+      "es": "¡Hoy es sábado y no tenemos clases!",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_materie_12",
+      "it": "Hai ragione! Michelangelo, quando è il tuo compleanno?",
+      "es": "¡Tienes razón! Michelangelo, ¿cuándo es tu cumpleaños?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_materie_13",
+      "it": "Il mio compleanno è il 6 marzo, è vicino alla primavera.",
+      "es": "Mi cumpleaños es el 6 de marzo, está cerca de la primavera.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_materie_14",
+      "it": "E quando è il tuo compleanno?",
+      "es": "¿Y cuándo es tu cumpleaños?",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_materie_15",
+      "it": "Il mio compleanno è l'8 luglio, in estate.",
+      "es": "Mi cumpleaños es el 8 de julio, en verano.",
+      "speaker": "Artemisia"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué estudia Michelangelo?",
+      "options": [
+        "Medicina",
+        "Historia del Arte",
+        "Derecho"
+      ],
+      "answer": 0,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Qué días tiene clases Michelangelo?",
+      "options": [
+        "Lunes y jueves",
+        "Lunes, miércoles y viernes",
+        "Todos los días"
+      ],
+      "answer": 1,
+      "evidence": 9
+    },
+    {
+      "prompt_es": "¿Qué día es hoy?",
+      "options": [
+        "Lunes",
+        "Viernes",
+        "Sábado"
+      ],
+      "answer": 2,
+      "evidence": 11
+    },
+    {
+      "prompt_es": "¿Cuándo es el cumpleaños de Michelangelo?",
+      "options": [
+        "El 6 de marzo",
+        "El 8 de julio",
+        "El 6 de julio"
+      ],
+      "answer": 0,
+      "evidence": 13
+    },
+    {
+      "prompt_es": "¿En qué estación cae el cumpleaños de Artemisia?",
+      "options": [
+        "En primavera",
+        "En verano",
+        "En invierno"
+      ],
+      "answer": 1,
+      "evidence": 15
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

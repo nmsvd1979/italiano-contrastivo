@@ -1,0 +1,176 @@
+{
+  "id": "rd_poste",
+  "title": "Dov'è l'ufficio postale?",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/4-1-dove-andiamo/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes. «10'» se escribe «10 minuti». Se omiten el comienzo narrativo y el final.",
+  "sentences": [
+    {
+      "id": "rd_poste_00",
+      "it": "Signor Mattarella, sa dov'è un ufficio postale qui vicino?",
+      "es": "Señor Mattarella, ¿sabe dónde hay una oficina de correos aquí cerca?",
+      "speaker": "Signora Winfrey"
+    },
+    {
+      "id": "rd_poste_01",
+      "it": "Non so, ma lì c'è un vigile e possiamo chiedere a lui.",
+      "es": "No sé, pero allí hay un guardia de tránsito y podemos preguntarle a él.",
+      "speaker": "Signor Mattarella"
+    },
+    {
+      "id": "rd_poste_02",
+      "it": "Scusi, posso chiederle un'informazione?",
+      "es": "Disculpe, ¿puedo pedirle una información?",
+      "speaker": "Signora Winfrey"
+    },
+    {
+      "id": "rd_poste_03",
+      "it": "Certo, prego.",
+      "es": "Claro, adelante.",
+      "speaker": "Vigile"
+    },
+    {
+      "id": "rd_poste_04",
+      "it": "Dove sono le Poste?",
+      "es": "¿Dónde está el correo?",
+      "speaker": "Signora Winfrey"
+    },
+    {
+      "id": "rd_poste_05",
+      "it": "Come vuole andare lì, a piedi o in autobus?",
+      "es": "¿Cómo quiere ir, a pie o en autobús?",
+      "speaker": "Vigile"
+    },
+    {
+      "id": "rd_poste_06",
+      "it": "È vicino o lontano?",
+      "es": "¿Está cerca o lejos?",
+      "speaker": "Signora Winfrey"
+    },
+    {
+      "id": "rd_poste_07",
+      "it": "È abbastanza vicino, ci vogliono 10 minuti a piedi, in autobus è solo una fermata.",
+      "es": "Está bastante cerca, se tardan 10 minutos a pie; en autobús es solo una parada.",
+      "speaker": "Vigile"
+    },
+    {
+      "id": "rd_poste_08",
+      "it": "Se va a piedi, qui a questo semaforo deve girare a sinistra e andare dritto per via Camillo Benso di Cavour.",
+      "es": "Si va a pie, aquí en este semáforo debe doblar a la izquierda y seguir derecho por la calle Camillo Benso di Cavour.",
+      "speaker": "Vigile"
+    },
+    {
+      "id": "rd_poste_09",
+      "it": "Trova le Poste prima di via Michelin sulla sinistra.",
+      "es": "Encuentra el correo antes de la calle Michelin, a la izquierda.",
+      "speaker": "Vigile"
+    },
+    {
+      "id": "rd_poste_10",
+      "it": "Grazie mille.",
+      "es": "Muchas gracias.",
+      "speaker": "Signora Winfrey"
+    },
+    {
+      "id": "rd_poste_11",
+      "it": "Prego, buona giornata!",
+      "es": "De nada, ¡buen día!",
+      "speaker": "Vigile"
+    },
+    {
+      "id": "rd_poste_12",
+      "it": "Adesso devo andare alle Poste.",
+      "es": "Ahora debo ir al correo.",
+      "speaker": "Signora Winfrey"
+    },
+    {
+      "id": "rd_poste_13",
+      "it": "Se vuole, possiamo incontrarci stasera dopo cena.",
+      "es": "Si quiere, podemos encontrarnos esta noche después de la cena.",
+      "speaker": "Signora Winfrey"
+    },
+    {
+      "id": "rd_poste_14",
+      "it": "Stasera sono invitato a un concerto.",
+      "es": "Esta noche estoy invitado a un concierto.",
+      "speaker": "Signor Mattarella"
+    },
+    {
+      "id": "rd_poste_15",
+      "it": "Se vuole, può venire anche lei.",
+      "es": "Si quiere, usted también puede venir.",
+      "speaker": "Signor Mattarella"
+    },
+    {
+      "id": "rd_poste_16",
+      "it": "A che ora è il concerto?",
+      "es": "¿A qué hora es el concierto?",
+      "speaker": "Signora Winfrey"
+    },
+    {
+      "id": "rd_poste_17",
+      "it": "È alle ore 21. Il concerto è un evento benefico ed è gratis.",
+      "es": "Es a las 21. El concierto es un evento benéfico y es gratis.",
+      "speaker": "Signor Mattarella"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué lugar busca la señora Winfrey?",
+      "options": [
+        "La oficina de correos",
+        "Un banco",
+        "Un museo"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Cuánto se tarda a pie hasta el correo?",
+      "options": [
+        "Una hora",
+        "Diez minutos",
+        "Dos minutos"
+      ],
+      "answer": 1,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Hacia dónde debe doblar en el semáforo?",
+      "options": [
+        "A la derecha",
+        "Debe seguir derecho",
+        "A la izquierda"
+      ],
+      "answer": 2,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿A qué hora es el concierto?",
+      "options": [
+        "A las 21",
+        "A las 20",
+        "A las 22"
+      ],
+      "answer": 0,
+      "evidence": 17
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta el concierto?",
+      "options": [
+        "Diez euros",
+        "Es gratis",
+        "Veinte euros"
+      ],
+      "answer": 1,
+      "evidence": 17
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

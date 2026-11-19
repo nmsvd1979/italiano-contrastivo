@@ -14,17 +14,31 @@
     "cap_err_ce_agreement",
     "cap_err_prep_article_contraction",
     "cap_err_prep_place",
+    "cap_err_piacere_accordo",
     "cap_err_tenere_avere",
+    "cap_err_voc_abiti",
+    "cap_err_voc_aggettivi",
     "cap_err_voc_animali",
+    "cap_err_voc_avverbi",
+    "cap_err_voc_bar",
     "cap_err_voc_casa",
     "cap_err_voc_cibo",
     "cap_err_voc_citta",
+    "cap_err_voc_clima",
+    "cap_err_voc_colori",
     "cap_err_voc_corpo",
+    "cap_err_voc_denaro",
+    "cap_err_voc_dimostrativi",
     "cap_err_voc_familia",
     "cap_err_voc_interrog",
     "cap_err_voc_lavoro",
     "cap_err_voc_numeri",
+    "cap_err_voc_quantita",
+    "cap_err_voc_salute",
+    "cap_err_voc_saluti",
     "cap_err_voc_tempo",
+    "cap_err_voc_tempolibero",
+    "cap_err_voc_trasporti",
     "cap_err_aux_essere",
     "cap_err_comparative_di",
     "cap_err_participle_agreement",
@@ -35,7 +49,7 @@
     "ERR_ARTICLE_ALLOMORPH": {
       "capsule": true,
       "reason": null,
-      "usable": 22
+      "usable": 31
     },
     "ERR_AUX_ESSERE": {
       "capsule": true,
@@ -45,7 +59,7 @@
     "ERR_CE_AGREEMENT": {
       "capsule": true,
       "reason": null,
-      "usable": 20
+      "usable": 31
     },
     "ERR_COMPARATIVE_DI": {
       "capsule": true,
@@ -77,50 +91,55 @@
       "reason": null,
       "usable": 21
     },
+    "ERR_PIACERE_ACCORDO": {
+      "capsule": true,
+      "reason": null,
+      "usable": 42
+    },
     "ERR_POSSESSIVE_ARTICLE": {
       "capsule": true,
       "reason": null,
-      "usable": 26
+      "usable": 37
     },
     "ERR_POSSESSIVE_SPELLING": {
       "capsule": true,
       "reason": null,
-      "usable": 25
+      "usable": 35
     },
     "ERR_PREP_ARTICLE_CONTRACTION": {
       "capsule": true,
       "reason": null,
-      "usable": 25
+      "usable": 38
     },
     "ERR_PREP_PLACE": {
       "capsule": true,
       "reason": null,
-      "usable": 23
+      "usable": 31
     },
     "ERR_PRESENT_ARE": {
       "capsule": true,
       "reason": null,
-      "usable": 23
+      "usable": 36
     },
     "ERR_PRESENT_ERE_IRE": {
       "capsule": true,
       "reason": null,
-      "usable": 25
+      "usable": 36
     },
     "ERR_PRESENT_ESSERE_AVERE": {
       "capsule": true,
       "reason": null,
-      "usable": 25
+      "usable": 35
     },
     "ERR_PRESENT_IRREGULAR": {
       "capsule": true,
       "reason": null,
-      "usable": 25
+      "usable": 36
     },
     "ERR_PRESENT_MODAL": {
       "capsule": true,
       "reason": null,
-      "usable": 24
+      "usable": 36
     },
     "ERR_SC_PALATAL": {
       "capsule": true,
@@ -130,72 +149,137 @@
     "ERR_TENERE_AVERE": {
       "capsule": true,
       "reason": null,
-      "usable": 29
+      "usable": 42
     },
-    "ERR_VOC_ANIMALI": {
+    "ERR_VOC_ABITI": {
       "capsule": true,
       "reason": null,
       "usable": 25
     },
-    "ERR_VOC_CASA": {
-      "capsule": true,
-      "reason": null,
-      "usable": 21
-    },
-    "ERR_VOC_CIBO": {
-      "capsule": true,
-      "reason": null,
-      "usable": 25
-    },
-    "ERR_VOC_CITTA": {
-      "capsule": true,
-      "reason": null,
-      "usable": 24
-    },
-    "ERR_VOC_CORPO": {
-      "capsule": true,
-      "reason": null,
-      "usable": 24
-    },
-    "ERR_VOC_FAMILIA": {
-      "capsule": true,
-      "reason": null,
-      "usable": 25
-    },
-    "ERR_VOC_INTERROG": {
+    "ERR_VOC_AGGETTIVI": {
       "capsule": true,
       "reason": null,
       "usable": 26
     },
-    "ERR_VOC_LAVORO": {
+    "ERR_VOC_ANIMALI": {
+      "capsule": true,
+      "reason": null,
+      "usable": 37
+    },
+    "ERR_VOC_AVVERBI": {
+      "capsule": true,
+      "reason": null,
+      "usable": 21
+    },
+    "ERR_VOC_BAR": {
+      "capsule": true,
+      "reason": null,
+      "usable": 18
+    },
+    "ERR_VOC_CASA": {
+      "capsule": true,
+      "reason": null,
+      "usable": 33
+    },
+    "ERR_VOC_CIBO": {
+      "capsule": true,
+      "reason": null,
+      "usable": 37
+    },
+    "ERR_VOC_CITTA": {
+      "capsule": true,
+      "reason": null,
+      "usable": 36
+    },
+    "ERR_VOC_CLIMA": {
       "capsule": true,
       "reason": null,
       "usable": 24
+    },
+    "ERR_VOC_COLORI": {
+      "capsule": true,
+      "reason": null,
+      "usable": 33
+    },
+    "ERR_VOC_CORPO": {
+      "capsule": true,
+      "reason": null,
+      "usable": 36
+    },
+    "ERR_VOC_DENARO": {
+      "capsule": true,
+      "reason": null,
+      "usable": 24
+    },
+    "ERR_VOC_DIMOSTRATIVI": {
+      "capsule": true,
+      "reason": null,
+      "usable": 28
+    },
+    "ERR_VOC_FAMILIA": {
+      "capsule": true,
+      "reason": null,
+      "usable": 37
+    },
+    "ERR_VOC_INTERROG": {
+      "capsule": true,
+      "reason": null,
+      "usable": 35
+    },
+    "ERR_VOC_LAVORO": {
+      "capsule": true,
+      "reason": null,
+      "usable": 33
     },
     "ERR_VOC_NUMERI": {
       "capsule": true,
       "reason": null,
-      "usable": 23
+      "usable": 37
+    },
+    "ERR_VOC_QUANTITA": {
+      "capsule": true,
+      "reason": null,
+      "usable": 32
+    },
+    "ERR_VOC_SALUTE": {
+      "capsule": true,
+      "reason": null,
+      "usable": 24
+    },
+    "ERR_VOC_SALUTI": {
+      "capsule": true,
+      "reason": null,
+      "usable": 29
     },
     "ERR_VOC_TEMPO": {
       "capsule": true,
       "reason": null,
-      "usable": 24
+      "usable": 33
+    },
+    "ERR_VOC_TEMPOLIBERO": {
+      "capsule": true,
+      "reason": null,
+      "usable": 31
+    },
+    "ERR_VOC_TRASPORTI": {
+      "capsule": true,
+      "reason": null,
+      "usable": 27
     }
   },
   "levels": {
-    "A1": 565,
-    "A2": 199,
+    "A1": 1171,
+    "A2": 222,
     "B1": 138,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 882,
+    "llm-audit": 1511,
     "me": 27
   },
-  "sentences_used": 758,
+  "sentences_used": 1387,
   "translation_kind": {
-    "direct": 690,
-    "llm": 68
+    "direct": 1304,
+    "llm": 83
   }
 }

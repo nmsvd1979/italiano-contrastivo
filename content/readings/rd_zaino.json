@@ -1,0 +1,123 @@
+{
+  "id": "rd_zaino",
+  "title": "Lo zaino di Elena",
+  "level": "A1",
+  "kind": "lectura",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/1034/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Se quitó la glosa en inglés «(near)» del original.",
+  "sentences": [
+    {
+      "id": "rd_zaino_00",
+      "it": "Elena è una studentessa.",
+      "es": "Elena es una estudiante."
+    },
+    {
+      "id": "rd_zaino_01",
+      "it": "Ha ventuno anni.",
+      "es": "Tiene veintiún años."
+    },
+    {
+      "id": "rd_zaino_02",
+      "it": "È bassa e magra e ha i capelli lunghi e lisci.",
+      "es": "Es baja y delgada y tiene el pelo largo y liso."
+    },
+    {
+      "id": "rd_zaino_03",
+      "it": "Ha gli occhi verdi.",
+      "es": "Tiene los ojos verdes."
+    },
+    {
+      "id": "rd_zaino_04",
+      "it": "Elena ha uno zaino nuovo.",
+      "es": "Elena tiene una mochila nueva."
+    },
+    {
+      "id": "rd_zaino_05",
+      "it": "Lo zaino è nero.",
+      "es": "La mochila es negra."
+    },
+    {
+      "id": "rd_zaino_06",
+      "it": "Nello zaino ci sono tre quaderni, una penna rossa, una penna blu, una penna nera e due matite.",
+      "es": "En la mochila hay tres cuadernos, un bolígrafo rojo, un bolígrafo azul, un bolígrafo negro y dos lápices."
+    },
+    {
+      "id": "rd_zaino_07",
+      "it": "Nello zaino ci sono anche un libro di italiano e un libro di francese.",
+      "es": "En la mochila también hay un libro de italiano y un libro de francés."
+    },
+    {
+      "id": "rd_zaino_08",
+      "it": "La professoressa di italiano è simpatica e intelligente.",
+      "es": "La profesora de italiano es simpática e inteligente."
+    },
+    {
+      "id": "rd_zaino_09",
+      "it": "Il professore di francese è noioso.",
+      "es": "El profesor de francés es aburrido."
+    },
+    {
+      "id": "rd_zaino_10",
+      "it": "Lo zaino di Elena è sulla sedia vicino al tavolo.",
+      "es": "La mochila de Elena está sobre la silla, cerca de la mesa."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cuántos años tiene Elena?",
+      "options": [
+        "Veintiuno",
+        "Veintitrés",
+        "Doce"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿De qué color es la mochila de Elena?",
+      "options": [
+        "Negra",
+        "Roja",
+        "Verde"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Cuántos cuadernos hay en la mochila?",
+      "options": [
+        "Tres",
+        "Dos",
+        "Cinco"
+      ],
+      "answer": 0,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Cómo es el profesor de francés?",
+      "options": [
+        "Simpático",
+        "Aburrido",
+        "Inteligente"
+      ],
+      "answer": 1,
+      "evidence": 9
+    },
+    {
+      "prompt_es": "¿Dónde está la mochila?",
+      "options": [
+        "Sobre la mesa",
+        "Sobre la silla",
+        "En el suelo"
+      ],
+      "answer": 1,
+      "evidence": 10
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

@@ -1,0 +1,186 @@
+{
+  "id": "rd_casa",
+  "title": "Cercare casa",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-cercare-casa/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes; en el original la pregunta «C'è l'ascensore?» aparece rotulada como Marta, pero la hace Barbara.",
+  "sentences": [
+    {
+      "id": "rd_casa_00",
+      "it": "Marta cerca da tempo un appartamento o un monolocale a Firenze.",
+      "es": "Marta busca desde hace tiempo un apartamento o un estudio en Florencia."
+    },
+    {
+      "id": "rd_casa_01",
+      "it": "Vuole abitare in centro, ma gli appartamenti a Firenze sono molto cari.",
+      "es": "Quiere vivir en el centro, pero los apartamentos en Florencia son muy caros."
+    },
+    {
+      "id": "rd_casa_02",
+      "it": "Quanto costa l'affitto?",
+      "es": "¿Cuánto cuesta el alquiler?",
+      "speaker": "Barbara"
+    },
+    {
+      "id": "rd_casa_03",
+      "it": "Tremila euro al mese.",
+      "es": "Tres mil euros al mes.",
+      "speaker": "Marta"
+    },
+    {
+      "id": "rd_casa_04",
+      "it": "È troppo caro.",
+      "es": "Es demasiado caro.",
+      "speaker": "Barbara"
+    },
+    {
+      "id": "rd_casa_05",
+      "it": "E quante stanze ha?",
+      "es": "¿Y cuántas habitaciones tiene?",
+      "speaker": "Barbara"
+    },
+    {
+      "id": "rd_casa_06",
+      "it": "Due camere, il salotto, più due bagni e la cucina.",
+      "es": "Dos dormitorios, el salón, además de dos baños y la cocina.",
+      "speaker": "Marta"
+    },
+    {
+      "id": "rd_casa_07",
+      "it": "È molto grande!",
+      "es": "¡Es muy grande!",
+      "speaker": "Barbara"
+    },
+    {
+      "id": "rd_casa_08",
+      "it": "In quale zona è?",
+      "es": "¿En qué zona está?",
+      "speaker": "Barbara"
+    },
+    {
+      "id": "rd_casa_09",
+      "it": "In centro, al secondo piano di un palazzo vicino al Duomo.",
+      "es": "En el centro, en el segundo piso de un edificio cerca del Duomo.",
+      "speaker": "Marta"
+    },
+    {
+      "id": "rd_casa_10",
+      "it": "C'è l'ascensore?",
+      "es": "¿Hay ascensor?",
+      "speaker": "Barbara"
+    },
+    {
+      "id": "rd_casa_11",
+      "it": "No, l'ascensore non c'è…ma è solo al secondo piano!",
+      "es": "No, no hay ascensor… ¡pero es solo un segundo piso!",
+      "speaker": "Marta"
+    },
+    {
+      "id": "rd_casa_12",
+      "it": "Non c'è bisogno dell'ascensore!",
+      "es": "¡No hace falta ascensor!",
+      "speaker": "Marta"
+    },
+    {
+      "id": "rd_casa_13",
+      "it": "Non mi piace fare le scale.",
+      "es": "No me gusta subir escaleras.",
+      "speaker": "Barbara"
+    },
+    {
+      "id": "rd_casa_14",
+      "it": "Insomma, ti interessa quest'appartamento?",
+      "es": "En fin, ¿te interesa este apartamento?",
+      "speaker": "Marta"
+    },
+    {
+      "id": "rd_casa_15",
+      "it": "C'è l'aria condizionata?",
+      "es": "¿Hay aire acondicionado?",
+      "speaker": "Barbara"
+    },
+    {
+      "id": "rd_casa_16",
+      "it": "Sì, c'è l'aria condizionata!",
+      "es": "¡Sí, hay aire acondicionado!",
+      "speaker": "Marta"
+    },
+    {
+      "id": "rd_casa_17",
+      "it": "Ha anche un grande balcone e la vista del Duomo…una vista bellissima!",
+      "es": "¡También tiene un gran balcón y vista al Duomo… una vista preciosa!",
+      "speaker": "Marta"
+    },
+    {
+      "id": "rd_casa_18",
+      "it": "Va bene, va bene…mi hai convinta!",
+      "es": "Está bien, está bien… ¡me convenciste!",
+      "speaker": "Barbara"
+    },
+    {
+      "id": "rd_casa_19",
+      "it": "Andiamo a vedere questo appartamento.",
+      "es": "Vamos a ver este apartamento.",
+      "speaker": "Barbara"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿En qué ciudad busca casa Marta?",
+      "options": [
+        "Florencia",
+        "Siena",
+        "Roma"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta el alquiler al mes?",
+      "options": [
+        "Tres mil euros",
+        "Mil euros",
+        "Trescientos euros"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿En qué piso está el apartamento?",
+      "options": [
+        "En el segundo",
+        "En el primero",
+        "En el quinto"
+      ],
+      "answer": 0,
+      "evidence": 9
+    },
+    {
+      "prompt_es": "¿Tiene ascensor el edificio?",
+      "options": [
+        "No",
+        "Sí",
+        "No se dice"
+      ],
+      "answer": 0,
+      "evidence": 11
+    },
+    {
+      "prompt_es": "¿Qué tiene además el apartamento?",
+      "options": [
+        "Aire acondicionado, balcón y vista al Duomo",
+        "Jardín y garaje",
+        "Piscina"
+      ],
+      "answer": 0,
+      "evidence": 17
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

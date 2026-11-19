@@ -1,0 +1,178 @@
+{
+  "id": "rd_routine",
+  "title": "La routine quotidiana",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/3-1-il-quotidiano-e-la-routine/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes. Se omiten algunas líneas intermedias.",
+  "sentences": [
+    {
+      "id": "rd_routine_00",
+      "it": "Artemisia, Giuditta, Tommaso e Michelangelo sono molto contenti.",
+      "es": "Artemisia, Giuditta, Tommaso y Michelangelo están muy contentos."
+    },
+    {
+      "id": "rd_routine_01",
+      "it": "Il museo del Bargello è bellissimo.",
+      "es": "El museo del Bargello es hermosísimo."
+    },
+    {
+      "id": "rd_routine_02",
+      "it": "Adesso decidono di andare a casa.",
+      "es": "Ahora deciden irse a casa."
+    },
+    {
+      "id": "rd_routine_03",
+      "it": "Tommaso ha bisogno di comprare alcune cose.",
+      "es": "Tommaso necesita comprar algunas cosas."
+    },
+    {
+      "id": "rd_routine_04",
+      "it": "Michelangelo, dov'è un negozio dove posso comprare uno spazzolino da denti? Shampoo, schiuma da barba e un rasoio?",
+      "es": "Michelangelo, ¿dónde hay una tienda donde pueda comprar un cepillo de dientes? ¿Champú, espuma de afeitar y una máquina de afeitar?",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_routine_05",
+      "it": "Qui vicino c'è una profumeria o un negozio di detersivi.",
+      "es": "Aquí cerca hay una perfumería o una tienda de artículos de limpieza.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_routine_06",
+      "it": "Vengo anch'io perché ho bisogno di comprare una spazzola e un deodorante.",
+      "es": "Yo también voy porque necesito comprar un cepillo para el pelo y un desodorante.",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_routine_07",
+      "it": "Benissimo! Andiamo insieme allora!",
+      "es": "¡Perfecto! ¡Entonces vamos juntos!",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_routine_08",
+      "it": "Tommaso, com'è la tua routine quotidiana?",
+      "es": "Tommaso, ¿cómo es tu rutina diaria?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_routine_09",
+      "it": "Di solito mi sveglio presto, vado in bagno e mi lavo la faccia.",
+      "es": "Normalmente me despierto temprano, voy al baño y me lavo la cara.",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_routine_10",
+      "it": "Mi rado e uso un rasoio, uso una crema da barba naturale.",
+      "es": "Me afeito con una máquina de afeitar y uso una crema de afeitar natural.",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "rd_routine_11",
+      "it": "Anch'io mi sveglio molto presto e amo passare un po' di tempo in bagno per pulirmi bene.",
+      "es": "Yo también me despierto muy temprano y me gusta pasar un rato en el baño para limpiarme bien.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_routine_12",
+      "it": "Faccio una doccia e uso un bagnoschiuma naturale e uno shampoo delicato.",
+      "es": "Me doy una ducha y uso un gel de baño natural y un champú suave.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_routine_13",
+      "it": "Artemisia, ti trucchi tutti i giorni?",
+      "es": "Artemisia, ¿te maquillas todos los días?",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_routine_14",
+      "it": "No, non mi trucco mai.",
+      "es": "No, nunca me maquillo.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_routine_15",
+      "it": "Mi guardo allo specchio quando mi preparo e mi vesto.",
+      "es": "Me miro en el espejo cuando me arreglo y me visto.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_routine_16",
+      "it": "Michelangelo, ti radi spesso? Chi si alza per primo a casa tua?",
+      "es": "Michelangelo, ¿te afeitas seguido? ¿Quién se levanta primero en tu casa?",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_routine_17",
+      "it": "Non mi rado spesso, infatti ho la barba.",
+      "es": "No me afeito seguido, de hecho tengo barba.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_routine_18",
+      "it": "Di solito mi alzo io per primo. Mi alzo molto presto.",
+      "es": "Normalmente me levanto yo primero. Me levanto muy temprano.",
+      "speaker": "Michelangelo"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué necesita comprar Tommaso?",
+      "options": [
+        "Cosas de aseo personal",
+        "Ropa",
+        "Comida"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Qué hace Tommaso apenas se despierta?",
+      "options": [
+        "Toma desayuno",
+        "Va al baño y se lava la cara",
+        "Sale a correr"
+      ],
+      "answer": 1,
+      "evidence": 9
+    },
+    {
+      "prompt_es": "¿Artemisia se maquilla todos los días?",
+      "options": [
+        "Sí, siempre",
+        "A veces",
+        "No, nunca"
+      ],
+      "answer": 2,
+      "evidence": 14
+    },
+    {
+      "prompt_es": "¿Por qué Michelangelo no se afeita seguido?",
+      "options": [
+        "Porque tiene barba",
+        "Porque no tiene tiempo",
+        "Porque no le gusta"
+      ],
+      "answer": 0,
+      "evidence": 17
+    },
+    {
+      "prompt_es": "¿Quién se levanta primero en casa de Michelangelo?",
+      "options": [
+        "Su novio",
+        "Él mismo",
+        "Su hermana"
+      ],
+      "answer": 1,
+      "evidence": 18
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

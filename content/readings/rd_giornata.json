@@ -1,0 +1,123 @@
+{
+  "id": "rd_giornata",
+  "title": "La giornata di Francesco",
+  "level": "A1",
+  "kind": "lectura",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-la-giornata-di-francesco/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Sin cambios en el texto italiano.",
+  "sentences": [
+    {
+      "id": "rd_giornata_00",
+      "it": "Oggi è lunedì e Francesco ha molto da fare.",
+      "es": "Hoy es lunes y Francesco tiene mucho que hacer."
+    },
+    {
+      "id": "rd_giornata_01",
+      "it": "Alle 8:30 ha lezione di matematica.",
+      "es": "A las 8:30 tiene clase de matemáticas."
+    },
+    {
+      "id": "rd_giornata_02",
+      "it": "Dopo la lezione di matematica, dalle 10:00 alle 12:00, deve incontrare il professore di macroeconomia per dare un esame.",
+      "es": "Después de la clase de matemáticas, de 10:00 a 12:00, debe encontrarse con el profesor de macroeconomía para dar un examen."
+    },
+    {
+      "id": "rd_giornata_03",
+      "it": "Alle 12:30 va alla paninoteca in centro per mangiare un panino con gli amici.",
+      "es": "A las 12:30 va a la sandwichería del centro para comer un bocadillo con los amigos."
+    },
+    {
+      "id": "rd_giornata_04",
+      "it": "Dopo pranzo ha lezione di chimica dalle 14:00 alle 15:20.",
+      "es": "Después del almuerzo tiene clase de química de 14:00 a 15:20."
+    },
+    {
+      "id": "rd_giornata_05",
+      "it": "Alle 16:00 incontra Elena in biblioteca per studiare e fare i compiti.",
+      "es": "A las 16:00 se encuentra con Elena en la biblioteca para estudiar y hacer las tareas."
+    },
+    {
+      "id": "rd_giornata_06",
+      "it": "Alle 19:00 va in palestra a fare esercizio: corre per trenta minuti e poi solleva pesi.",
+      "es": "A las 19:00 va al gimnasio a hacer ejercicio: corre treinta minutos y luego levanta pesas."
+    },
+    {
+      "id": "rd_giornata_07",
+      "it": "Dopo va a casa e prepara la cena.",
+      "es": "Después va a casa y prepara la cena."
+    },
+    {
+      "id": "rd_giornata_08",
+      "it": "Dopo cena guarda un po' di TV e poi legge un libro.",
+      "es": "Después de la cena mira un poco de televisión y luego lee un libro."
+    },
+    {
+      "id": "rd_giornata_09",
+      "it": "A mezzanotte va a letto.",
+      "es": "A medianoche se va a la cama."
+    },
+    {
+      "id": "rd_giornata_10",
+      "it": "È molto stanco!!",
+      "es": "¡Está muy cansado!"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué día es hoy?",
+      "options": [
+        "Lunes",
+        "Martes",
+        "Domingo"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Con quién come Francesco a las 12:30?",
+      "options": [
+        "Con sus amigos",
+        "Solo",
+        "Con Elena"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Dónde estudia con Elena?",
+      "options": [
+        "En la biblioteca",
+        "En casa",
+        "En el gimnasio"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Qué hace en el gimnasio?",
+      "options": [
+        "Corre y levanta pesas",
+        "Juega al fútbol",
+        "Nada"
+      ],
+      "answer": 0,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿A qué hora se acuesta?",
+      "options": [
+        "A medianoche",
+        "A las 22:00",
+        "A las 19:00"
+      ],
+      "answer": 0,
+      "evidence": 9
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

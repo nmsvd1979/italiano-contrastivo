@@ -1,0 +1,122 @@
+{
+  "id": "rd_dati",
+  "title": "Al museo del Bargello: i dati personali",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/2-7-i-dati-personali/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes.",
+  "sentences": [
+    {
+      "id": "rd_dati_00",
+      "it": "Michelangelo, Tommaso, Artemisia e Giuditta arrivano al museo del Bargello.",
+      "es": "Michelangelo, Tommaso, Artemisia y Giuditta llegan al museo del Bargello."
+    },
+    {
+      "id": "rd_dati_01",
+      "it": "Michelangelo va in biglietteria.",
+      "es": "Michelangelo va a la boletería."
+    },
+    {
+      "id": "rd_dati_02",
+      "it": "Buongiorno, ho comprato quattro biglietti online.",
+      "es": "Buenos días, compré cuatro entradas por internet.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_dati_03",
+      "it": "Buongiorno! Qual è il suo cognome?",
+      "es": "¡Buenos días! ¿Cuál es su apellido?",
+      "speaker": "Signora"
+    },
+    {
+      "id": "rd_dati_04",
+      "it": "Merisi.",
+      "es": "Merisi.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_dati_05",
+      "it": "Ho bisogno di un documento. Ha la carta d'identità?",
+      "es": "Necesito un documento. ¿Tiene la cédula de identidad?",
+      "speaker": "Signora"
+    },
+    {
+      "id": "rd_dati_06",
+      "it": "Sì, ecco qui la mia carta d'identità.",
+      "es": "Sí, aquí está mi cédula de identidad.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_dati_07",
+      "it": "Grazie. Vedo quattro biglietti, è corretto?",
+      "es": "Gracias. Veo cuatro entradas, ¿es correcto?",
+      "speaker": "Signora"
+    },
+    {
+      "id": "rd_dati_08",
+      "it": "Sì.",
+      "es": "Sí.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_dati_09",
+      "it": "Stampo i biglietti. Ha bisogno di una guida?",
+      "es": "Imprimo las entradas. ¿Necesita un guía?",
+      "speaker": "Signora"
+    },
+    {
+      "id": "rd_dati_10",
+      "it": "No, grazie.",
+      "es": "No, gracias.",
+      "speaker": "Michelangelo"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cuántas entradas compró Michelangelo?",
+      "options": [
+        "Cuatro",
+        "Dos",
+        "Seis"
+      ],
+      "answer": 0,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Cuál es el apellido de Michelangelo?",
+      "options": [
+        "Mattarella",
+        "Merisi",
+        "Medici"
+      ],
+      "answer": 1,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Qué documento le pide la señora?",
+      "options": [
+        "El pasaporte",
+        "Una tarjeta de crédito",
+        "La cédula de identidad"
+      ],
+      "answer": 2,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Michelangelo necesita un guía?",
+      "options": [
+        "No",
+        "Sí",
+        "No se dice"
+      ],
+      "answer": 0,
+      "evidence": 10
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

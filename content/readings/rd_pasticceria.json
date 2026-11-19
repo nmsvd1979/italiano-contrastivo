@@ -1,0 +1,98 @@
+{
+  "id": "rd_pasticceria",
+  "title": "In pasticceria",
+  "level": "A1",
+  "kind": "lectura",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/2-1-lettura/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes. Se tomaron solo las líneas de la escena en la pastelería; se resumió el orden de la escena.",
+  "sentences": [
+    {
+      "id": "rd_pasticceria_00",
+      "it": "I signori attraversano la strada e entrano nella pasticceria «Dolci di Firenze».",
+      "es": "Los señores cruzan la calle y entran en la pastelería «Dolci di Firenze»."
+    },
+    {
+      "id": "rd_pasticceria_01",
+      "it": "In quella pasticceria ci sono molte paste, dolci e prodotti tipici di Firenze.",
+      "es": "En esa pastelería hay muchos pasteles, dulces y productos típicos de Florencia."
+    },
+    {
+      "id": "rd_pasticceria_02",
+      "it": "Al bancone ci sono due commessi e alla cassa una cassiera.",
+      "es": "En el mostrador hay dos vendedores y en la caja una cajera."
+    },
+    {
+      "id": "rd_pasticceria_03",
+      "it": "Mattarella va dalla cassiera e domanda: «Possiamo sederci in quel tavolo lì?»",
+      "es": "Mattarella va donde la cajera y pregunta: «¿Podemos sentarnos en esa mesa de allá?»"
+    },
+    {
+      "id": "rd_pasticceria_04",
+      "it": "La signora risponde: «Sì, potete accomodarvi».",
+      "es": "La señora responde: «Sí, pueden acomodarse»."
+    },
+    {
+      "id": "rd_pasticceria_05",
+      "it": "Il signor Mattarella e la signora Winfrey si siedono e guardano il menù.",
+      "es": "El señor Mattarella y la señora Winfrey se sientan y miran el menú."
+    },
+    {
+      "id": "rd_pasticceria_06",
+      "it": "Iniziano a parlare.",
+      "es": "Empiezan a conversar."
+    },
+    {
+      "id": "rd_pasticceria_07",
+      "it": "Il signor Mattarella e la signora Winfrey ordinano un caffè, due cappuccini e delle paste.",
+      "es": "El señor Mattarella y la señora Winfrey piden un café, dos capuchinos y unos pasteles."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cómo se llama la pastelería?",
+      "options": [
+        "Dolci di Firenze",
+        "Il Duomo",
+        "Caffè Roma"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Cuántos vendedores hay en el mostrador?",
+      "options": [
+        "Uno",
+        "Dos",
+        "Cinco"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Qué pregunta Mattarella a la cajera?",
+      "options": [
+        "Cuánto cuesta el café",
+        "Dónde está el baño",
+        "Si pueden sentarse en esa mesa"
+      ],
+      "answer": 2,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Qué piden?",
+      "options": [
+        "Un café, dos capuchinos y pasteles",
+        "Solo agua",
+        "Una pizza"
+      ],
+      "answer": 0,
+      "evidence": 7
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}
