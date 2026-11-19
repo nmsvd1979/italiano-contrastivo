@@ -13,6 +13,6 @@ let bad = false;
 if (missing.length) { console.error(`El service worker no precachea: ${missing.join(", ")}`); bad = true; }
 if (mp3.length) { console.error(`El precache no debe incluir audio (${mp3.length} mp3): se instalaría lento y puede abortarse.`); bad = true; }
 if (!sw.includes("audio-v1")) { console.error("Falta la caché de audio en tiempo de ejecución (audio-v1)."); bad = true; }
-if (bytes > 5_000_000) { console.error(`El precache pesa ${(bytes / 1e6).toFixed(1)} MB (tope 5 MB: el contenido del curso crece; el audio sigue aparte).`); bad = true; }
+if (bytes > 6_000_000) { console.error(`El precache pesa ${(bytes / 1e6).toFixed(1)} MB (tope 6 MB: el contenido del curso crece; el audio sigue aparte).`); bad = true; }
 if (bad) process.exit(1);
 console.log(`precache ok: ${precacheUrls.length} archivos, ${(bytes / 1e6).toFixed(2)} MB (app y contenido; audio aparte)`);

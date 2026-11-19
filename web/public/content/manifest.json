@@ -30,9 +30,14 @@
     "cap_err_voc_denaro",
     "cap_err_voc_dimostrativi",
     "cap_err_voc_familia",
+    "cap_err_voc_frutta",
+    "cap_err_voc_igiene",
     "cap_err_voc_interrog",
     "cap_err_voc_lavoro",
+    "cap_err_voc_nazionalita",
+    "cap_err_voc_negozi",
     "cap_err_voc_numeri",
+    "cap_err_voc_oggetti",
     "cap_err_voc_quantita",
     "cap_err_voc_salute",
     "cap_err_voc_saluti",
@@ -221,6 +226,16 @@
       "reason": null,
       "usable": 37
     },
+    "ERR_VOC_FRUTTA": {
+      "capsule": true,
+      "reason": null,
+      "usable": 22
+    },
+    "ERR_VOC_IGIENE": {
+      "capsule": true,
+      "reason": null,
+      "usable": 22
+    },
     "ERR_VOC_INTERROG": {
       "capsule": true,
       "reason": null,
@@ -231,10 +246,25 @@
       "reason": null,
       "usable": 33
     },
+    "ERR_VOC_NAZIONALITA": {
+      "capsule": true,
+      "reason": null,
+      "usable": 32
+    },
+    "ERR_VOC_NEGOZI": {
+      "capsule": true,
+      "reason": null,
+      "usable": 20
+    },
     "ERR_VOC_NUMERI": {
       "capsule": true,
       "reason": null,
       "usable": 37
+    },
+    "ERR_VOC_OGGETTI": {
+      "capsule": true,
+      "reason": null,
+      "usable": 33
     },
     "ERR_VOC_QUANTITA": {
       "capsule": true,
@@ -268,18 +298,18 @@
     }
   },
   "levels": {
-    "A1": 1171,
-    "A2": 222,
+    "A1": 1289,
+    "A2": 233,
     "B1": 138,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 1511,
+    "llm-audit": 1640,
     "me": 27
   },
-  "sentences_used": 1387,
+  "sentences_used": 1516,
   "translation_kind": {
-    "direct": 1304,
-    "llm": 83
+    "direct": 1386,
+    "llm": 130
   }
 }

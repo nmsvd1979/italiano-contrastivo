@@ -1,0 +1,143 @@
+{
+  "id": "rd_gonna",
+  "title": "Una gonna nuova",
+  "level": "A2",
+  "kind": "dialogo",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/4-4-epilogo/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes. Se omiten el final y los enlaces. El texto usa pasado (más difícil que A1).",
+  "sentences": [
+    {
+      "id": "rd_gonna_00",
+      "it": "È sera.",
+      "es": "Es de noche."
+    },
+    {
+      "id": "rd_gonna_01",
+      "it": "Fa bel tempo a Firenze e si sentono le rondini in cielo.",
+      "es": "Hace buen tiempo en Florencia y se oyen las golondrinas en el cielo."
+    },
+    {
+      "id": "rd_gonna_02",
+      "it": "Sono quasi le venti ed è ancora chiaro.",
+      "es": "Son casi las veinte y todavía hay luz."
+    },
+    {
+      "id": "rd_gonna_03",
+      "it": "Che bella gonna che hai! È nuova?",
+      "es": "¡Qué linda falda tienes! ¿Es nueva?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_gonna_04",
+      "it": "Sì, ho comprato questa gonna ieri.",
+      "es": "Sí, compré esta falda ayer.",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_gonna_05",
+      "it": "Ieri sono andata in un negozio del centro e ho visto i saldi e non ho saputo resistere.",
+      "es": "Ayer fui a una tienda del centro, vi las rebajas y no pude resistirme.",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_gonna_06",
+      "it": "Sono entrata e la commessa molto gentile mi ha chiesto: «Che taglia porti?»",
+      "es": "Entré y la vendedora, muy amable, me preguntó: «¿Qué talla usas?»",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_gonna_07",
+      "it": "Io ho risposto: «Porto la 42».",
+      "es": "Yo respondí: «Uso la 42».",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_gonna_08",
+      "it": "Lei mi ha detto: «Abbiamo queste gonne e sono in saldo, costano solo 10 euro».",
+      "es": "Ella me dijo: «Tenemos estas faldas y están en rebaja, cuestan solo 10 euros».",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_gonna_09",
+      "it": "Io ho detto: «Posso provare la gonna?»",
+      "es": "Yo dije: «¿Puedo probarme la falda?»",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_gonna_10",
+      "it": "E lei mi ha detto: «Certo, vai nel camerino».",
+      "es": "Y ella me dijo: «Claro, ve al probador».",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_gonna_11",
+      "it": "Io ho provato la gonna e ho deciso di comprarla.",
+      "es": "Me probé la falda y decidí comprarla.",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_gonna_12",
+      "it": "Ah, benissimo. Magari ci vado anch'io domani!",
+      "es": "¡Ah, muy bien! ¡Quizás yo también voy mañana!",
+      "speaker": "Artemisia"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué compró Giuditta?",
+      "options": [
+        "Una falda",
+        "Una chaqueta",
+        "Unos zapatos"
+      ],
+      "answer": 0,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Cuándo la compró?",
+      "options": [
+        "Hoy",
+        "Ayer",
+        "Mañana"
+      ],
+      "answer": 1,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Qué talla usa Giuditta?",
+      "options": [
+        "La 38",
+        "La 50",
+        "La 42"
+      ],
+      "answer": 2,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Cuánto cuestan las faldas en rebaja?",
+      "options": [
+        "10 euros",
+        "20 euros",
+        "42 euros"
+      ],
+      "answer": 0,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿Dónde se probó la falda?",
+      "options": [
+        "En su casa",
+        "En el probador",
+        "En la calle"
+      ],
+      "answer": 1,
+      "evidence": 10
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

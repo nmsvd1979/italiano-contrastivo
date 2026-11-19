@@ -3142,6 +3142,9 @@
         "ERR_VOC_DIMOSTRATIVI"
       ],
       "why_here": "Señalar cosas al comprar o describir, con los artículos y el género ya vistos.",
+      "readings": [
+        "rd_stemmi"
+      ],
       "status": "active",
       "explanation_es": "Questo (cerca) y quello (lejos): este/esta y aquel/aquella. Concuerdan con el sustantivo: questo libro, questa casa, questi libri, queste case. «Quello» cambia como el artículo: quel libro, quello studente, quella casa, quei libri.",
       "parts": {
@@ -3322,6 +3325,9 @@
         "ERR_VOC_AVVERBI"
       ],
       "why_here": "Hablar de cuándo pasan las cosas, con los días y los meses ya vistos.",
+      "readings": [
+        "rd_albergo"
+      ],
       "status": "active",
       "explanation_es": "Ieri, oggi, domani, adesso, stasera, presto, tardi, sempre, mai, già, ancora… Los adverbios de tiempo no cambian. «Mai» con verbo lleva «non»: non vado mai (no voy nunca). «Ancora» es «todavía»: non è ancora qui.",
       "parts": {
@@ -3403,6 +3409,9 @@
         "ERR_VOC_AGGETTIVI"
       ],
       "why_here": "Describir personas y cosas, con los colores y el vocabulario ya visto.",
+      "readings": [
+        "rd_david"
+      ],
       "status": "active",
       "explanation_es": "Alto, bello, buono, grande, simpatico, giovane… Los adjetivos concuerdan con el sustantivo: un ragazzo alto, una ragazza alta. Los terminados en -e (grande, felice, giovane) valen para masculino y femenino.",
       "parts": {
@@ -3489,6 +3498,9 @@
         "ERR_VOC_DENARO"
       ],
       "why_here": "Comprar y preguntar precios, con los números y la ropa ya vistos.",
+      "readings": [
+        "rd_gonna"
+      ],
       "status": "active",
       "explanation_es": "Euro, soldi, prezzo, sconto, contanti, banconota… «Euro» no cambia en plural (due euro). «Soldi» es el dinero (siempre plural): non ho soldi. «Contanti» es pagar en efectivo: pago in contanti.",
       "parts": {
@@ -3573,6 +3585,9 @@
         "ERR_VOC_SALUTE"
       ],
       "why_here": "Decir cómo te sientes, con tener/avere y el cuerpo ya vistos.",
+      "readings": [
+        "rd_giornatabrutta"
+      ],
       "status": "active",
       "explanation_es": "Salute, febbre, tosse, dolore, malattia… «Ho la febbre» (tengo fiebre), «ho mal di testa» (me duele la cabeza), «ho fame», «ho sete», «ho sonno», «ho paura»: con avere, como el tener español.",
       "parts": {
@@ -3747,6 +3762,435 @@
           "start": 3,
           "end": 8,
           "wrong": "piacciono"
+        }
+      ]
+    },
+    {
+      "id": "u45",
+      "level": "A1",
+      "title": "Vocabulario: países y nacionalidades",
+      "goal_es": "Italiano, spagnolo, francese, inglese, cileno… y que se escriben con minúscula (parlo spagnolo).",
+      "codes": [
+        "ERR_VOC_NAZIONALITA"
+      ],
+      "why_here": "Decir de dónde eres y qué idiomas hablas, con essere y los adjetivos ya vistos.",
+      "status": "active",
+      "explanation_es": "Italiano, spagnolo, francese, inglese, cileno, americano… En italiano las nacionalidades y los idiomas se escriben con minúscula (sono cileno, parlo spagnolo). Cambian como los adjetivos: italiano/italiana; los terminados en -e (francese, inglese) valen para masculino y femenino.",
+      "parts": {
+        "descubre": [
+          "s_379139",
+          "s_702487",
+          "s_12705182",
+          "s_374394"
+        ],
+        "practica": [
+          "s_379139",
+          "s_702487",
+          "s_12705182",
+          "s_374394",
+          "s_581911",
+          "s_1472941",
+          "s_1655267",
+          "s_1188133",
+          "s_1113206",
+          "s_1113245",
+          "s_4167171",
+          "s_526289",
+          "s_1003028",
+          "s_1017085",
+          "s_3626015",
+          "s_382388",
+          "s_801711",
+          "s_10146459",
+          "s_1828153",
+          "s_2798859",
+          "s_1353266",
+          "s_1132479",
+          "s_4467538",
+          "s_6751038",
+          "s_12935662",
+          "s_4528825"
+        ],
+        "escucha": [
+          "s_379139",
+          "s_374394",
+          "s_1655267",
+          "s_1113245",
+          "s_1003028",
+          "s_382388",
+          "s_1828153",
+          "s_1132479"
+        ],
+        "prueba": [
+          "s_1187115",
+          "s_671770",
+          "s_719204",
+          "s_2577081",
+          "s_374578",
+          "s_2436763"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_379139",
+          "start": 13,
+          "end": 19,
+          "wrong": "francese"
+        },
+        {
+          "id": "s_702487",
+          "start": 10,
+          "end": 19,
+          "wrong": "italiano"
+        },
+        {
+          "id": "s_12705182",
+          "start": 16,
+          "end": 21,
+          "wrong": "messicano"
+        },
+        {
+          "id": "s_374394",
+          "start": 2,
+          "end": 10,
+          "wrong": "argentino"
+        }
+      ]
+    },
+    {
+      "id": "u46",
+      "level": "A1",
+      "title": "Vocabulario: frutas, verduras y condimentos",
+      "goal_es": "Patata, cipolla, fragola, uva, sale, pepe, funghi… y su género.",
+      "codes": [
+        "ERR_VOC_FRUTTA"
+      ],
+      "why_here": "Pedir y cocinar con la comida básica ya vista.",
+      "status": "active",
+      "explanation_es": "Patata, cipolla, fragola, uva, sale, pepe, funghi… «Patata» y «cipolla» son femeninas; «sale» y «pepe» son masculinos. «Fagioli», «funghi» y «spinaci» se usan casi siempre en plural.",
+      "parts": {
+        "descubre": [
+          "s_475700",
+          "s_10653833",
+          "s_2478269",
+          "s_13282035"
+        ],
+        "practica": [
+          "s_475700",
+          "s_10653833",
+          "s_2478269",
+          "s_13282035",
+          "s_10798391",
+          "s_11862013",
+          "s_2196048",
+          "s_671771",
+          "s_3555315",
+          "s_7037817",
+          "s_2689499",
+          "s_13186217",
+          "s_13982317",
+          "s_3437336",
+          "s_5214424",
+          "s_5633830"
+        ],
+        "escucha": [
+          "s_475700",
+          "s_2478269",
+          "s_10798391",
+          "s_2196048",
+          "s_3555315",
+          "s_2689499",
+          "s_13982317",
+          "s_5214424"
+        ],
+        "prueba": [
+          "s_995553",
+          "s_824694",
+          "s_4864166",
+          "s_1491084",
+          "s_1310084",
+          "s_3437335"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_475700",
+          "start": 12,
+          "end": 16,
+          "wrong": "tonno"
+        },
+        {
+          "id": "s_10653833",
+          "start": 11,
+          "end": 17,
+          "wrong": "fagioli"
+        },
+        {
+          "id": "s_2478269",
+          "start": 3,
+          "end": 9,
+          "wrong": "noce"
+        },
+        {
+          "id": "s_13282035",
+          "start": 3,
+          "end": 10,
+          "wrong": "ciliegia"
+        }
+      ]
+    },
+    {
+      "id": "u47",
+      "level": "A1",
+      "title": "Vocabulario: tiendas y comercios",
+      "goal_es": "Pasticceria, panificio, libreria, edicola, macelleria… y «libreria» = librería, no biblioteca.",
+      "codes": [
+        "ERR_VOC_NEGOZI"
+      ],
+      "why_here": "Saber adónde ir para cada cosa, con la ciudad y las preposiciones ya vistas.",
+      "status": "active",
+      "explanation_es": "Pasticceria, panificio, gelateria, libreria, edicola… La «libreria» es donde se compran libros (no una biblioteca, que es «biblioteca»). La «edicola» es el quiosco de diarios y la «tabaccheria» vende tabaco y estampillas.",
+      "parts": {
+        "descubre": [
+          "s_1246730",
+          "s_2699616",
+          "s_13995406",
+          "s_2710571"
+        ],
+        "practica": [
+          "s_1246730",
+          "s_2699616",
+          "s_13995406",
+          "s_2710571",
+          "s_13286472",
+          "s_3014463",
+          "s_9058944",
+          "s_3014465",
+          "s_9920566",
+          "s_2703962",
+          "s_11706699",
+          "s_5093377",
+          "s_11706744",
+          "s_5162305"
+        ],
+        "escucha": [
+          "s_1246730",
+          "s_2699616",
+          "s_13995406",
+          "s_2710571",
+          "s_13286472",
+          "s_3014463",
+          "s_9058944",
+          "s_3014465"
+        ],
+        "prueba": [
+          "s_8797485",
+          "s_948300",
+          "s_13995632",
+          "s_3158946",
+          "s_1851340",
+          "s_9922632"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1246730",
+          "start": 9,
+          "end": 19,
+          "wrong": "pescheria"
+        },
+        {
+          "id": "s_2699616",
+          "start": 3,
+          "end": 11,
+          "wrong": "macelleria"
+        },
+        {
+          "id": "s_13995406",
+          "start": 9,
+          "end": 17,
+          "wrong": "profumeria"
+        },
+        {
+          "id": "s_2710571",
+          "start": 3,
+          "end": 14,
+          "wrong": "macelleria"
+        }
+      ]
+    },
+    {
+      "id": "u48",
+      "level": "A1",
+      "title": "Vocabulario: higiene personal",
+      "goal_es": "Sapone, spazzolino, dentifricio, asciugamano, doccia, shampoo…",
+      "codes": [
+        "ERR_VOC_IGIENE"
+      ],
+      "why_here": "Hablar de tu rutina de aseo con los verbos de presente.",
+      "status": "active",
+      "explanation_es": "Sapone, spazzolino, dentifricio, asciugamano, doccia… «Spazzolino» es el cepillo de dientes; «spazzola», el del pelo. «Pettine» es el peine. En casa se usa el artículo: il sapone, lo spazzolino.",
+      "parts": {
+        "descubre": [
+          "s_438936",
+          "s_390061",
+          "s_1334667",
+          "s_2037743"
+        ],
+        "practica": [
+          "s_438936",
+          "s_390061",
+          "s_1334667",
+          "s_2037743",
+          "s_634428",
+          "s_3256488",
+          "s_3860649",
+          "s_6444792",
+          "s_2620002",
+          "s_3356874",
+          "s_699743",
+          "s_1605645",
+          "s_3563598",
+          "s_5631109",
+          "s_10829534",
+          "s_2824957"
+        ],
+        "escucha": [
+          "s_438936",
+          "s_1334667",
+          "s_634428",
+          "s_3860649",
+          "s_2620002",
+          "s_699743",
+          "s_3563598",
+          "s_10829534"
+        ],
+        "prueba": [
+          "s_389490",
+          "s_9712353",
+          "s_4467951",
+          "s_5479258",
+          "s_12764320",
+          "s_662388"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_438936",
+          "start": 3,
+          "end": 9,
+          "wrong": "crema"
+        },
+        {
+          "id": "s_390061",
+          "start": 9,
+          "end": 20,
+          "wrong": "pettine"
+        },
+        {
+          "id": "s_1334667",
+          "start": 14,
+          "end": 21,
+          "wrong": "rasoio"
+        },
+        {
+          "id": "s_2037743",
+          "start": 15,
+          "end": 21,
+          "wrong": "spazzola"
+        }
+      ]
+    },
+    {
+      "id": "u49",
+      "level": "A1",
+      "title": "Vocabulario: objetos de todos los días",
+      "goal_es": "Telefono, cellulare, zaino, matita, lettera, regalo, foglio… y «lettera» = carta que se envía.",
+      "codes": [
+        "ERR_VOC_OGGETTI"
+      ],
+      "why_here": "Nombrar lo que usas y llevas a diario.",
+      "status": "active",
+      "explanation_es": "Telefono, cellulare, zaino, matita, lettera, regalo, foglio… «Lettera» es la carta que se envía (no «carta», que es papel o naipe). «Foglio» es la hoja de papel; «zaino» es la mochila.",
+      "parts": {
+        "descubre": [
+          "s_1137561",
+          "s_3010650",
+          "s_1187342",
+          "s_2022800"
+        ],
+        "practica": [
+          "s_1137561",
+          "s_3010650",
+          "s_1187342",
+          "s_2022800",
+          "s_568678",
+          "s_7248404",
+          "s_756441",
+          "s_2428099",
+          "s_948092",
+          "s_3317351",
+          "s_374616",
+          "s_3755903",
+          "s_4636057",
+          "s_653697",
+          "s_3615600",
+          "s_3615597",
+          "s_10881863",
+          "s_2016163",
+          "s_472814",
+          "s_975256",
+          "s_374254",
+          "s_3615599",
+          "s_399972",
+          "s_475682",
+          "s_1330925",
+          "s_374246",
+          "s_3860689"
+        ],
+        "escucha": [
+          "s_1137561",
+          "s_2022800",
+          "s_756441",
+          "s_3317351",
+          "s_4636057",
+          "s_3615597",
+          "s_472814",
+          "s_3615599"
+        ],
+        "prueba": [
+          "s_1249225",
+          "s_3343974",
+          "s_387347",
+          "s_3770482",
+          "s_2779007",
+          "s_651392"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1137561",
+          "start": 11,
+          "end": 15,
+          "wrong": "lettera"
+        },
+        {
+          "id": "s_3010650",
+          "start": 9,
+          "end": 15,
+          "wrong": "quadro"
+        },
+        {
+          "id": "s_1187342",
+          "start": 12,
+          "end": 17,
+          "wrong": "foglio"
+        },
+        {
+          "id": "s_2022800",
+          "start": 10,
+          "end": 18,
+          "wrong": "sacchetto"
         }
       ]
     },
@@ -4209,16 +4653,6 @@
       "level": "A1",
       "title": "Vorrei: pedir con cortesía",
       "reason": "Condicional solo en fórmulas fijas de petición. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
-    },
-    {
-      "level": "A1",
-      "title": "Vocabulario: higiene personal y del hogar",
-      "reason": "Campo léxico del sillabo A1. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
-    },
-    {
-      "level": "A1",
-      "title": "Vocabulario: países y nacionalidades",
-      "reason": "Campo léxico del sillabo A1 (nazionalità). Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
     },
     {
       "level": "A1",

@@ -1,0 +1,142 @@
+{
+  "id": "rd_albergo",
+  "title": "All'albergo e a fare la spesa",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/4-1-1-in-citta/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes. Se omiten las tablas de preposiciones y los vídeos.",
+  "sentences": [
+    {
+      "id": "rd_albergo_00",
+      "it": "Artemisia e sua sorella Giuditta arrivano all'albergo dove soggiorna Giuditta.",
+      "es": "Artemisia y su hermana Giuditta llegan al hotel donde se aloja Giuditta."
+    },
+    {
+      "id": "rd_albergo_01",
+      "it": "Entrano nell'albergo e sono alla reception.",
+      "es": "Entran en el hotel y están en la recepción."
+    },
+    {
+      "id": "rd_albergo_02",
+      "it": "Buongiorno, posso avere le chiavi della stanza n. 211?",
+      "es": "Buenos días, ¿puedo tener las llaves de la habitación n.º 211?",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_albergo_03",
+      "it": "Certo, ecco le chiavi.",
+      "es": "Claro, aquí están las llaves.",
+      "speaker": "L'impiegato"
+    },
+    {
+      "id": "rd_albergo_04",
+      "it": "Grazie!",
+      "es": "¡Gracias!",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_albergo_05",
+      "it": "Io vado in camera e mi riposo un po', a che ora ci vediamo dopo. Vieni qui?",
+      "es": "Yo voy a la habitación y descanso un rato; ¿a qué hora nos vemos después? ¿Vienes aquí?",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_albergo_06",
+      "it": "Va bene, vengo qui più tardi, alle 19.",
+      "es": "Está bien, vengo aquí más tarde, a las 19.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_albergo_07",
+      "it": "Adesso io devo andare a fare la spesa.",
+      "es": "Ahora yo debo ir a hacer las compras.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_albergo_08",
+      "it": "Ho bisogno di comprare del latte, del pane e della frutta.",
+      "es": "Necesito comprar leche, pan y fruta.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_albergo_09",
+      "it": "Ci vediamo alle 19 qui sotto, OK?",
+      "es": "Nos vemos a las 19 aquí abajo, ¿de acuerdo?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_albergo_10",
+      "it": "Benissimo, a dopo.",
+      "es": "Muy bien, hasta luego.",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_albergo_11",
+      "it": "Artemisia va in panificio a comprare il pane.",
+      "es": "Artemisia va a la panadería a comprar pan."
+    },
+    {
+      "id": "rd_albergo_12",
+      "it": "Poi va in un negozio di alimentari per comprare il latte e la frutta.",
+      "es": "Luego va a una tienda de alimentos para comprar la leche y la fruta."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué pide Giuditta en la recepción?",
+      "options": [
+        "Las llaves de la habitación 211",
+        "Una habitación nueva",
+        "El desayuno"
+      ],
+      "answer": 0,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿A qué hora se verán Artemisia y Giuditta?",
+      "options": [
+        "A las 9",
+        "A las 19",
+        "A las 12"
+      ],
+      "answer": 1,
+      "evidence": 9
+    },
+    {
+      "prompt_es": "¿Qué debe hacer Artemisia ahora?",
+      "options": [
+        "Ir al museo",
+        "Dormir",
+        "Hacer las compras"
+      ],
+      "answer": 2,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Qué necesita comprar Artemisia?",
+      "options": [
+        "Leche, pan y fruta",
+        "Ropa y zapatos",
+        "Libros"
+      ],
+      "answer": 0,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿Dónde compra el pan?",
+      "options": [
+        "En el supermercado",
+        "En la panadería",
+        "En el hotel"
+      ],
+      "answer": 1,
+      "evidence": 11
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

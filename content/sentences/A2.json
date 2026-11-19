@@ -615,6 +615,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NEGOZI"
+    ],
+    "es": "Quiero un libro. ¿Dónde está la librería?",
+    "es_author": "IA (Claude)",
+    "id": "s_11706744",
+    "it": "Voglio un libro. Dov'è la libreria?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11706744",
+    "tag_rules": {
+      "ERR_VOC_NEGOZI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -1320,6 +1343,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NEGOZI"
+    ],
+    "es": "Disculpa. Quiero un libro. ¿Dónde está la librería?",
+    "es_author": "IA (Claude)",
+    "id": "s_13995632",
+    "it": "Scusami. Voglio un libro. Dov'è la libreria?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13995632",
+    "tag_rules": {
+      "ERR_VOC_NEGOZI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "unforgiven95",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -1865,6 +1911,28 @@
     "source_id": "1848351",
     "tag_rules": {
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "hitori37",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NEGOZI"
+    ],
+    "es": "Encontré el libro en esa librería por casualidad.",
+    "es_author": "fgreco",
+    "es_source_id": "2444381",
+    "id": "s_1851340",
+    "it": "Ho trovato il libro in quella libreria per caso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1851340",
+    "tag_rules": {
+      "ERR_VOC_NEGOZI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3150,6 +3218,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NEGOZI"
+    ],
+    "es": "Ya fui a la carnicería esta mañana.",
+    "es_author": "IA (Claude)",
+    "id": "s_3158946",
+    "it": "Sono già andato in macelleria questa mattina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3158946",
+    "tag_rules": {
+      "ERR_VOC_NEGOZI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -3233,6 +3324,28 @@
     "source_id": "3414320",
     "tag_rules": {
       "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FRUTTA"
+    ],
+    "es": "Nos gustan los frijoles.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4482621",
+    "id": "s_3437335",
+    "it": "A noi piacciono i fagioli.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3437335",
+    "tag_rules": {
+      "ERR_VOC_FRUTTA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4243,6 +4356,53 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_NEGOZI"
+    ],
+    "es": "Fui a la librería.",
+    "es_author": "Seael",
+    "es_source_id": "10570556",
+    "id": "s_5093377",
+    "it": "Sono andato in libreria.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5093377",
+    "tag_rules": {
+      "ERR_VOC_NEGOZI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NEGOZI"
+    ],
+    "es": "Él compró muchos libros en la librería.",
+    "es_author": "IA (Claude)",
+    "id": "s_5162305",
+    "it": "Lui ha comprato molti libri in libreria.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5162305",
+    "tag_rules": {
+      "ERR_VOC_NEGOZI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PREP_ARTICLE_CONTRACTION"
     ],
     "es": "Ahora estoy habituado al dolor.",
@@ -4587,6 +4747,28 @@
     "source_id": "6613691",
     "tag_rules": {
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_IGIENE"
+    ],
+    "es": "Normalmente yo me ducho de noche.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1239418",
+    "id": "s_662388",
+    "it": "Di solito faccio la doccia la sera.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "662388",
+    "tag_rules": {
+      "ERR_VOC_IGIENE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5168,6 +5350,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NEGOZI"
+    ],
+    "es": "La pastelería está en la esquina de la calle.",
+    "es_author": "IA (Claude)",
+    "id": "s_8797485",
+    "it": "La pasticceria è all'angolo della strada.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8797485",
+    "tag_rules": {
+      "ERR_VOC_NEGOZI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -5186,6 +5391,28 @@
     "source_id": "894765",
     "tag_rules": {
       "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NEGOZI"
+    ],
+    "es": "En esta ciudad sólo hay una papelería.",
+    "es_author": "hayastan",
+    "es_source_id": "992420",
+    "id": "s_948300",
+    "it": "In questa città esiste solo una cartoleria.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "948300",
+    "tag_rules": {
+      "ERR_VOC_NEGOZI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5318,6 +5545,29 @@
       "ERR_Z_AFFRICATE": "z_africata"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "fullyfledged_pigeon",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NEGOZI"
+    ],
+    "es": "Alguien me robó el paraguas en la pastelería.",
+    "es_author": "IA (Claude)",
+    "id": "s_9922632",
+    "it": "Qualcuno mi ha rubato l'ombrello nella pasticceria.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9922632",
+    "tag_rules": {
+      "ERR_VOC_NEGOZI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",

@@ -1,0 +1,143 @@
+{
+  "id": "rd_giornatabrutta",
+  "title": "Una brutta giornata",
+  "level": "A2",
+  "kind": "lectura",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-una-brutta-giornata/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés. El texto usa pasado reflexivo (nivel A2).",
+  "sentences": [
+    {
+      "id": "rd_giornatabrutta_00",
+      "it": "Ieri è stata una brutta giornata.",
+      "es": "Ayer fue un mal día."
+    },
+    {
+      "id": "rd_giornatabrutta_01",
+      "it": "Mi sono svegliato alle 6:30 di mattina, mi sono alzato e mi sono fatto la doccia.",
+      "es": "Me desperté a las 6:30 de la mañana, me levanté y me di una ducha."
+    },
+    {
+      "id": "rd_giornatabrutta_02",
+      "it": "Mi sono vestito e mi sono accorto di avere perso una lente a contatto.",
+      "es": "Me vestí y me di cuenta de que había perdido un lente de contacto."
+    },
+    {
+      "id": "rd_giornatabrutta_03",
+      "it": "Mi sono messo gli occhiali e ho fatto colazione.",
+      "es": "Me puse los lentes y desayuné."
+    },
+    {
+      "id": "rd_giornatabrutta_04",
+      "it": "Non ho mangiato molto…solo una fetta di pane tostato e un po' di caffè.",
+      "es": "No comí mucho… solo una rebanada de pan tostado y un poco de café."
+    },
+    {
+      "id": "rd_giornatabrutta_05",
+      "it": "Sono uscito e sono andato a lezione di chimica.",
+      "es": "Salí y fui a la clase de química."
+    },
+    {
+      "id": "rd_giornatabrutta_06",
+      "it": "Ho perso l'autobus e sono arrivato a lezione in ritardo.",
+      "es": "Perdí el autobús y llegué tarde a clase."
+    },
+    {
+      "id": "rd_giornatabrutta_07",
+      "it": "A lezione mi sono annoiato.",
+      "es": "En clase me aburrí."
+    },
+    {
+      "id": "rd_giornatabrutta_08",
+      "it": "Dopo la lezione mi sono fermato al bar e ho comprato una pasta e un cappuccino.",
+      "es": "Después de la clase me detuve en el bar y compré un pastel y un capuchino."
+    },
+    {
+      "id": "rd_giornatabrutta_09",
+      "it": "Poi mi ha telefonato mia sorella.",
+      "es": "Luego me llamó por teléfono mi hermana."
+    },
+    {
+      "id": "rd_giornatabrutta_10",
+      "it": "Abbiamo studiato per un'ora e poi ho cominciato a sentirmi male.",
+      "es": "Estudiamos durante una hora y luego empecé a sentirme mal."
+    },
+    {
+      "id": "rd_giornatabrutta_11",
+      "it": "Ha cominciato a farmi male la testa e lo stomaco.",
+      "es": "Me empezaron a doler la cabeza y el estómago."
+    },
+    {
+      "id": "rd_giornatabrutta_12",
+      "it": "Ho smesso di studiare, ci siamo salutati e sono andato a casa.",
+      "es": "Dejé de estudiar, nos despedimos y me fui a casa."
+    },
+    {
+      "id": "rd_giornatabrutta_13",
+      "it": "A casa sono andato a letto e mi sono addormentato subito.",
+      "es": "En casa me acosté y me dormí enseguida."
+    },
+    {
+      "id": "rd_giornatabrutta_14",
+      "it": "Ho dormito sedici ore e mi sono svegliato stamattina!!",
+      "es": "¡Dormí dieciséis horas y me desperté esta mañana!"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué se le perdió por la mañana?",
+      "options": [
+        "Un lente de contacto",
+        "Las llaves",
+        "El teléfono"
+      ],
+      "answer": 0,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Qué perdió antes de llegar a clase?",
+      "options": [
+        "El tren",
+        "El autobús",
+        "El paraguas"
+      ],
+      "answer": 1,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Qué le empezó a doler?",
+      "options": [
+        "La espalda",
+        "Las piernas",
+        "La cabeza y el estómago"
+      ],
+      "answer": 2,
+      "evidence": 11
+    },
+    {
+      "prompt_es": "¿Cuántas horas durmió?",
+      "options": [
+        "Dieciséis",
+        "Seis",
+        "Diez"
+      ],
+      "answer": 0,
+      "evidence": 14
+    },
+    {
+      "prompt_es": "¿Qué compró en el bar?",
+      "options": [
+        "Un sándwich",
+        "Un pastel y un capuchino",
+        "Solo agua"
+      ],
+      "answer": 1,
+      "evidence": 8
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

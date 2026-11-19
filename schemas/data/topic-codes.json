@@ -404,5 +404,75 @@
     ],
     "source": "Proyecto italiano-contrastivo: sillabo A1 de los enti certificatori (Tab. 9 y 13), «mi piace / mi piacciono».",
     "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_NAZIONALITA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Italiano, spagnolo, francese, inglese, cileno, americano… En italiano las nacionalidades y los idiomas se escriben con minúscula (sono cileno, parlo spagnolo). Cambian como los adjetivos: italiano/italiana; los terminados en -e (francese, inglese) valen para masculino y femenino.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_FRUTTA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Patata, cipolla, fragola, uva, sale, pepe, funghi… «Patata» y «cipolla» son femeninas; «sale» y «pepe» son masculinos. «Fagioli», «funghi» y «spinaci» se usan casi siempre en plural.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_NEGOZI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Pasticceria, panificio, gelateria, libreria, edicola… La «libreria» es donde se compran libros (no una biblioteca, que es «biblioteca»). La «edicola» es el quiosco de diarios y la «tabaccheria» vende tabaco y estampillas.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_IGIENE",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Sapone, spazzolino, dentifricio, asciugamano, doccia… «Spazzolino» es el cepillo de dientes; «spazzola», el del pelo. «Pettine» es el peine. En casa se usa el artículo: il sapone, lo spazzolino.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_OGGETTI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Telefono, cellulare, zaino, matita, lettera, regalo, foglio… «Lettera» es la carta que se envía (no «carta», que es papel o naipe). «Foglio» es la hoja de papel; «zaino» es la mochila.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
   }
 ]
