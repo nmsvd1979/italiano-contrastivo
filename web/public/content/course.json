@@ -3045,6 +3045,712 @@
       ]
     },
     {
+      "id": "u37",
+      "level": "A1",
+      "title": "Vocabulario: saludar y ser cortés",
+      "goal_es": "Buongiorno, buonasera, ciao, arrivederci, grazie, prego, scusi/scusa… y cuándo usar el trato formal.",
+      "codes": [
+        "ERR_VOC_SALUTI"
+      ],
+      "why_here": "Las primeras palabras de cualquier conversación, antes de presentarte.",
+      "status": "active",
+      "explanation_es": "Buongiorno, buonasera, ciao, arrivederci, grazie, prego, scusi… «Buongiorno» se usa hasta la tarde y «buonasera» desde la tarde; «buonanotte» solo para despedirse a dormir. A un desconocido o con respeto se dice «scusi» y «arrivederLa»; entre amigos, «scusa» y «ciao».",
+      "parts": {
+        "descubre": [
+          "s_7796553",
+          "s_4387186",
+          "s_4387187",
+          "s_383014"
+        ],
+        "practica": [
+          "s_7796553",
+          "s_4387186",
+          "s_4387187",
+          "s_383014",
+          "s_559605",
+          "s_9712470",
+          "s_3122330",
+          "s_3291223",
+          "s_9712469",
+          "s_524339",
+          "s_754982",
+          "s_1055122",
+          "s_12701068",
+          "s_7536374",
+          "s_1969143",
+          "s_616050",
+          "s_11464680",
+          "s_3608286",
+          "s_383008",
+          "s_5041050",
+          "s_860808",
+          "s_3423488",
+          "s_578277"
+        ],
+        "escucha": [
+          "s_7796553",
+          "s_4387187",
+          "s_559605",
+          "s_3122330",
+          "s_9712469",
+          "s_754982",
+          "s_12701068",
+          "s_1969143"
+        ],
+        "prueba": [
+          "s_1858138",
+          "s_836536",
+          "s_1492622",
+          "s_993082",
+          "s_1004011",
+          "s_4060616"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_7796553",
+          "start": 0,
+          "end": 4,
+          "wrong": "Buongiorno"
+        },
+        {
+          "id": "s_4387186",
+          "start": 0,
+          "end": 4,
+          "wrong": "Prego"
+        },
+        {
+          "id": "s_4387187",
+          "start": 0,
+          "end": 5,
+          "wrong": "Grazie"
+        },
+        {
+          "id": "s_383014",
+          "start": 0,
+          "end": 5,
+          "wrong": "Auguri"
+        }
+      ]
+    },
+    {
+      "id": "u38",
+      "level": "A1",
+      "title": "Questo y quello: este y aquel",
+      "goal_es": "Questo/questa/questi/queste (cerca) y quel/quella/quei/quelle (lejos), que concuerdan con el sustantivo.",
+      "codes": [
+        "ERR_VOC_DIMOSTRATIVI"
+      ],
+      "why_here": "Señalar cosas al comprar o describir, con los artículos y el género ya vistos.",
+      "status": "active",
+      "explanation_es": "Questo (cerca) y quello (lejos): este/esta y aquel/aquella. Concuerdan con el sustantivo: questo libro, questa casa, questi libri, queste case. «Quello» cambia como el artículo: quel libro, quello studente, quella casa, quei libri.",
+      "parts": {
+        "descubre": [
+          "s_373933",
+          "s_2917439",
+          "s_893690",
+          "s_351020"
+        ],
+        "practica": [
+          "s_373933",
+          "s_2917439",
+          "s_893690",
+          "s_351020",
+          "s_1302899",
+          "s_13199927",
+          "s_374610",
+          "s_992597",
+          "s_6617781",
+          "s_737520",
+          "s_3498973",
+          "s_10461684",
+          "s_1000593",
+          "s_11719679",
+          "s_1221894",
+          "s_3659542",
+          "s_399832",
+          "s_1090834",
+          "s_1563031",
+          "s_3395827",
+          "s_3629077",
+          "s_622224"
+        ],
+        "escucha": [
+          "s_373933",
+          "s_893690",
+          "s_1302899",
+          "s_374610",
+          "s_6617781",
+          "s_3498973",
+          "s_1000593",
+          "s_1221894"
+        ],
+        "prueba": [
+          "s_632122",
+          "s_714025",
+          "s_1086193",
+          "s_710357",
+          "s_969543",
+          "s_2850887"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_373933",
+          "start": 0,
+          "end": 6,
+          "wrong": "Quel"
+        },
+        {
+          "id": "s_2917439",
+          "start": 0,
+          "end": 4,
+          "wrong": "Questi"
+        },
+        {
+          "id": "s_893690",
+          "start": 0,
+          "end": 4,
+          "wrong": "Questo"
+        },
+        {
+          "id": "s_351020",
+          "start": 10,
+          "end": 16,
+          "wrong": "quella"
+        }
+      ]
+    },
+    {
+      "id": "u39",
+      "level": "A1",
+      "title": "Molto, poco, troppo, tanto",
+      "goal_es": "Molto, poco, troppo, tanto, abbastanza: cuándo concuerdan (molta acqua, molti amici) y cuándo no (mangio molto).",
+      "codes": [
+        "ERR_VOC_QUANTITA"
+      ],
+      "why_here": "Decir cuánto o cuántos, con el vocabulario de las cosas ya visto.",
+      "status": "active",
+      "explanation_es": "Molto, poco, troppo, tanto: antes de un sustantivo concuerdan (molta acqua, molti amici, poche ore); como adverbio no cambian (mangio molto, studia poco). «Abbastanza» (bastante) no cambia nunca.",
+      "parts": {
+        "descubre": [
+          "s_1677721",
+          "s_569335",
+          "s_2515845",
+          "s_2948066"
+        ],
+        "practica": [
+          "s_1677721",
+          "s_569335",
+          "s_2515845",
+          "s_2948066",
+          "s_609170",
+          "s_2009106",
+          "s_1700522",
+          "s_2964611",
+          "s_781154",
+          "s_1689043",
+          "s_2923698",
+          "s_1486564",
+          "s_10461725",
+          "s_840534",
+          "s_9724190",
+          "s_1524600",
+          "s_2851742",
+          "s_418766",
+          "s_1397475",
+          "s_2722898",
+          "s_833259",
+          "s_1541307",
+          "s_1309943",
+          "s_1972112",
+          "s_5784166",
+          "s_1354239"
+        ],
+        "escucha": [
+          "s_1677721",
+          "s_2948066",
+          "s_1700522",
+          "s_1689043",
+          "s_10461725",
+          "s_1524600",
+          "s_1397475",
+          "s_1541307"
+        ],
+        "prueba": [
+          "s_3476101",
+          "s_810615",
+          "s_617236",
+          "s_1747274",
+          "s_2759348",
+          "s_8267467"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1677721",
+          "start": 6,
+          "end": 10,
+          "wrong": "troppo"
+        },
+        {
+          "id": "s_569335",
+          "start": 7,
+          "end": 12,
+          "wrong": "troppi"
+        },
+        {
+          "id": "s_2515845",
+          "start": 7,
+          "end": 12,
+          "wrong": "tante"
+        },
+        {
+          "id": "s_2948066",
+          "start": 7,
+          "end": 12,
+          "wrong": "troppe"
+        }
+      ]
+    },
+    {
+      "id": "u40",
+      "level": "A1",
+      "title": "Ieri, oggi, domani, sempre, mai",
+      "goal_es": "Ieri, oggi, domani, adesso, stasera, presto, tardi, sempre, mai, già, ancora: situar las cosas en el tiempo.",
+      "codes": [
+        "ERR_VOC_AVVERBI"
+      ],
+      "why_here": "Hablar de cuándo pasan las cosas, con los días y los meses ya vistos.",
+      "status": "active",
+      "explanation_es": "Ieri, oggi, domani, adesso, stasera, presto, tardi, sempre, mai, già, ancora… Los adverbios de tiempo no cambian. «Mai» con verbo lleva «non»: non vado mai (no voy nunca). «Ancora» es «todavía»: non è ancora qui.",
+      "parts": {
+        "descubre": [
+          "s_5596853",
+          "s_5901891",
+          "s_1685669",
+          "s_630457"
+        ],
+        "practica": [
+          "s_5596853",
+          "s_5901891",
+          "s_1685669",
+          "s_630457",
+          "s_1088047",
+          "s_1228000",
+          "s_374485",
+          "s_6917461",
+          "s_2022773",
+          "s_948023",
+          "s_1355065",
+          "s_607489",
+          "s_374040",
+          "s_5992866",
+          "s_377152"
+        ],
+        "escucha": [
+          "s_5596853",
+          "s_5901891",
+          "s_1685669",
+          "s_630457",
+          "s_1088047",
+          "s_1228000",
+          "s_374485",
+          "s_6917461"
+        ],
+        "prueba": [
+          "s_4173361",
+          "s_1189443",
+          "s_622207",
+          "s_1656354",
+          "s_5042815",
+          "s_630472"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_5596853",
+          "start": 6,
+          "end": 9,
+          "wrong": "dopo"
+        },
+        {
+          "id": "s_5901891",
+          "start": 6,
+          "end": 12,
+          "wrong": "prima"
+        },
+        {
+          "id": "s_1685669",
+          "start": 8,
+          "end": 11,
+          "wrong": "stanotte"
+        },
+        {
+          "id": "s_630457",
+          "start": 12,
+          "end": 18,
+          "wrong": "dopo"
+        }
+      ]
+    },
+    {
+      "id": "u41",
+      "level": "A1",
+      "title": "Vocabulario: cómo es (adjetivos)",
+      "goal_es": "Alto, bello, buono, grande, simpatico, giovane… y la concordancia en género (alto/alta) y en -e (grande).",
+      "codes": [
+        "ERR_VOC_AGGETTIVI"
+      ],
+      "why_here": "Describir personas y cosas, con los colores y el vocabulario ya visto.",
+      "status": "active",
+      "explanation_es": "Alto, bello, buono, grande, simpatico, giovane… Los adjetivos concuerdan con el sustantivo: un ragazzo alto, una ragazza alta. Los terminados en -e (grande, felice, giovane) valen para masculino y femenino.",
+      "parts": {
+        "descubre": [
+          "s_1241613",
+          "s_2137752",
+          "s_4553342",
+          "s_714435"
+        ],
+        "practica": [
+          "s_1241613",
+          "s_2137752",
+          "s_4553342",
+          "s_714435",
+          "s_1345585",
+          "s_376577",
+          "s_508345",
+          "s_6470164",
+          "s_2603600",
+          "s_2485881",
+          "s_1157761",
+          "s_1564786",
+          "s_2071088",
+          "s_375693",
+          "s_4100812",
+          "s_5493244",
+          "s_1217475",
+          "s_3866689",
+          "s_3156538",
+          "s_373686"
+        ],
+        "escucha": [
+          "s_1241613",
+          "s_4553342",
+          "s_1345585",
+          "s_508345",
+          "s_2603600",
+          "s_1157761",
+          "s_2071088",
+          "s_4100812"
+        ],
+        "prueba": [
+          "s_935771",
+          "s_410849",
+          "s_1834618",
+          "s_715654",
+          "s_423380",
+          "s_11301415"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1241613",
+          "start": 11,
+          "end": 16,
+          "wrong": "bella"
+        },
+        {
+          "id": "s_2137752",
+          "start": 11,
+          "end": 17,
+          "wrong": "triste"
+        },
+        {
+          "id": "s_4553342",
+          "start": 12,
+          "end": 17,
+          "wrong": "bionda"
+        },
+        {
+          "id": "s_714435",
+          "start": 13,
+          "end": 17,
+          "wrong": "antipatico"
+        }
+      ]
+    },
+    {
+      "id": "u42",
+      "level": "A1",
+      "title": "Vocabulario: dinero y compras",
+      "goal_es": "Euro, soldi, prezzo, sconto, contanti, banconota… y «euro» que no cambia en plural.",
+      "codes": [
+        "ERR_VOC_DENARO"
+      ],
+      "why_here": "Comprar y preguntar precios, con los números y la ropa ya vistos.",
+      "status": "active",
+      "explanation_es": "Euro, soldi, prezzo, sconto, contanti, banconota… «Euro» no cambia en plural (due euro). «Soldi» es el dinero (siempre plural): non ho soldi. «Contanti» es pagar en efectivo: pago in contanti.",
+      "parts": {
+        "descubre": [
+          "s_677429",
+          "s_373885",
+          "s_5285265",
+          "s_8710304"
+        ],
+        "practica": [
+          "s_677429",
+          "s_373885",
+          "s_5285265",
+          "s_8710304",
+          "s_1256041",
+          "s_4482925",
+          "s_13558124",
+          "s_1725058",
+          "s_4001758",
+          "s_763710",
+          "s_2198626",
+          "s_2622804",
+          "s_2068383",
+          "s_905671",
+          "s_2810520",
+          "s_4585228",
+          "s_4437",
+          "s_475635"
+        ],
+        "escucha": [
+          "s_677429",
+          "s_5285265",
+          "s_1256041",
+          "s_13558124",
+          "s_4001758",
+          "s_2198626",
+          "s_2068383",
+          "s_2810520"
+        ],
+        "prueba": [
+          "s_1404994",
+          "s_2009228",
+          "s_4509597",
+          "s_382268",
+          "s_643069",
+          "s_7764196"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_677429",
+          "start": 10,
+          "end": 15,
+          "wrong": "contanti"
+        },
+        {
+          "id": "s_373885",
+          "start": 13,
+          "end": 18,
+          "wrong": "contanti"
+        },
+        {
+          "id": "s_5285265",
+          "start": 14,
+          "end": 19,
+          "wrong": "contanti"
+        },
+        {
+          "id": "s_8710304",
+          "start": 14,
+          "end": 19,
+          "wrong": "contanti"
+        }
+      ]
+    },
+    {
+      "id": "u43",
+      "level": "A1",
+      "title": "Vocabulario: la salud",
+      "goal_es": "Salute, febbre, tosse, dolore, malattia… y «ho paura», «ho sonno», «ho fame» con avere.",
+      "codes": [
+        "ERR_VOC_SALUTE"
+      ],
+      "why_here": "Decir cómo te sientes, con tener/avere y el cuerpo ya vistos.",
+      "status": "active",
+      "explanation_es": "Salute, febbre, tosse, dolore, malattia… «Ho la febbre» (tengo fiebre), «ho mal di testa» (me duele la cabeza), «ho fame», «ho sete», «ho sonno», «ho paura»: con avere, como el tener español.",
+      "parts": {
+        "descubre": [
+          "s_1260284",
+          "s_3996570",
+          "s_1871597",
+          "s_3190046"
+        ],
+        "practica": [
+          "s_1260284",
+          "s_3996570",
+          "s_1871597",
+          "s_3190046",
+          "s_10739332",
+          "s_4090956",
+          "s_3747611",
+          "s_1002526",
+          "s_801743",
+          "s_359463",
+          "s_724450",
+          "s_6841342",
+          "s_11969600",
+          "s_801737",
+          "s_1325770",
+          "s_934412",
+          "s_1574509",
+          "s_4551855"
+        ],
+        "escucha": [
+          "s_1260284",
+          "s_1871597",
+          "s_10739332",
+          "s_3747611",
+          "s_801743",
+          "s_724450",
+          "s_11969600",
+          "s_1325770"
+        ],
+        "prueba": [
+          "s_801760",
+          "s_2523692",
+          "s_384883",
+          "s_3461643",
+          "s_384501",
+          "s_1800323"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1260284",
+          "start": 9,
+          "end": 14,
+          "wrong": "febbre"
+        },
+        {
+          "id": "s_3996570",
+          "start": 3,
+          "end": 8,
+          "wrong": "ferita"
+        },
+        {
+          "id": "s_1871597",
+          "start": 10,
+          "end": 15,
+          "wrong": "pastiglia"
+        },
+        {
+          "id": "s_3190046",
+          "start": 10,
+          "end": 15,
+          "wrong": "fame"
+        }
+      ]
+    },
+    {
+      "id": "u44",
+      "level": "A1",
+      "title": "Mi piace / mi piacciono",
+      "goal_es": "El verbo concuerda con lo que gusta: mi piace il gelato, mi piacciono i gatti.",
+      "codes": [
+        "ERR_PIACERE_ACCORDO"
+      ],
+      "why_here": "Decir qué te gusta, con los artículos y el vocabulario ya vistos.",
+      "status": "active",
+      "explanation_es": "«Mi piace» y «mi piacciono»: el verbo concuerda con lo que gusta, no con quien siente: mi piace il gelato (uno), mi piacciono i gatti (varios). Con un verbo, siempre «piace»: mi piace nuotare. Con otras personas: ti piace, gli piace (a él), le piace (a ella), ci piace, vi piace, piace loro.",
+      "parts": {
+        "descubre": [
+          "s_1098229",
+          "s_3254660",
+          "s_373754",
+          "s_380208"
+        ],
+        "practica": [
+          "s_1098229",
+          "s_3254660",
+          "s_373754",
+          "s_380208",
+          "s_2433446",
+          "s_2554769",
+          "s_375460",
+          "s_1255683",
+          "s_4985717",
+          "s_10532260",
+          "s_373503",
+          "s_9707261",
+          "s_9707292",
+          "s_3014567",
+          "s_897934",
+          "s_3437334",
+          "s_373790",
+          "s_378140",
+          "s_4508",
+          "s_860635",
+          "s_1325698",
+          "s_3173844",
+          "s_1016962",
+          "s_1299369",
+          "s_1507861",
+          "s_946936",
+          "s_1129795",
+          "s_2917125",
+          "s_393464",
+          "s_691678",
+          "s_850891",
+          "s_996576",
+          "s_378148",
+          "s_694333",
+          "s_1340167",
+          "s_2256837"
+        ],
+        "escucha": [
+          "s_1098229",
+          "s_2433446",
+          "s_4985717",
+          "s_9707292",
+          "s_373790",
+          "s_1325698",
+          "s_1507861",
+          "s_393464"
+        ],
+        "prueba": [
+          "s_419102",
+          "s_499912",
+          "s_707337",
+          "s_350763",
+          "s_877384",
+          "s_8677638"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1098229",
+          "start": 3,
+          "end": 8,
+          "wrong": "piacciono"
+        },
+        {
+          "id": "s_3254660",
+          "start": 3,
+          "end": 8,
+          "wrong": "piacciono"
+        },
+        {
+          "id": "s_373754",
+          "start": 3,
+          "end": 8,
+          "wrong": "piacciono"
+        },
+        {
+          "id": "s_380208",
+          "start": 3,
+          "end": 8,
+          "wrong": "piacciono"
+        }
+      ]
+    },
+    {
       "id": "u08",
       "level": "A2",
       "title": "Sono andato: el auxiliar essere",
@@ -3488,26 +4194,6 @@
       "level": "B2",
       "title": "Concesivas y pasiva",
       "reason": "Faltan oraciones validadas B2."
-    },
-    {
-      "level": "A1",
-      "title": "Saludar, presentarte y despedirte",
-      "reason": "Acciones comunicativas básicas (sono…, mi chiamo…, buongiorno, arrivederci, grazie, prego, scusi). Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
-    },
-    {
-      "level": "A1",
-      "title": "Gustos: mi piace / mi piacciono",
-      "reason": "Estructura frecuente de A1 con concordancia con lo que gusta. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
-    },
-    {
-      "level": "A1",
-      "title": "Esto y aquello: questo, quello",
-      "reason": "Demostrativos que expresan relaciones de lugar. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
-    },
-    {
-      "level": "A1",
-      "title": "Poco, molto, tutto, niente",
-      "reason": "Cuantificadores principales de A1. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
     },
     {
       "level": "A1",

@@ -66,7 +66,7 @@ def test_calque_aplica_el_calco_exacto(code, it, wrong_sentence, correct, kind):
 
 @pytest.mark.parametrize("code", calques.CALQUE_CODES)
 def test_sin_patron_devuelve_none(code):
-    assert find_calque(code, "Mi piace molto qui.") is None
+    assert find_calque(code, "Siamo davvero qui.") is None
 
 
 @pytest.mark.parametrize("code,it", [
@@ -113,13 +113,14 @@ def test_los_codigos_cubiertos():
         "ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL",
         "ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL",
         "ERR_VOC_FAMILIA", "ERR_VOC_CIBO", "ERR_VOC_CASA", "ERR_VOC_CITTA", "ERR_VOC_TEMPO", "ERR_VOC_CORPO", "ERR_VOC_ANIMALI", "ERR_VOC_LAVORO", "ERR_VOC_NUMERI", "ERR_VOC_INTERROG",
-        "ERR_VOC_ABITI", "ERR_VOC_COLORI", "ERR_VOC_CLIMA", "ERR_VOC_TRASPORTI", "ERR_VOC_BAR", "ERR_VOC_TEMPOLIBERO"}
+        "ERR_VOC_ABITI", "ERR_VOC_COLORI", "ERR_VOC_CLIMA", "ERR_VOC_TRASPORTI", "ERR_VOC_BAR", "ERR_VOC_TEMPOLIBERO",
+        "ERR_VOC_SALUTI", "ERR_VOC_DIMOSTRATIVI", "ERR_VOC_QUANTITA", "ERR_VOC_AVVERBI", "ERR_VOC_AGGETTIVI", "ERR_VOC_DENARO", "ERR_VOC_SALUTE", "ERR_PIACERE_ACCORDO"}
     assert find_calque("ERR_NO_EXISTE", "Ho fame.") is None
 
 
 NEW_CODES = {"ERR_ARTICLE_ALLOMORPH", "ERR_PARTICIPLE_AGREEMENT", "ERR_POSSESSIVE_SPELLING", "ERR_CONGIUNTIVO_OPINION",
              "ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL",
-             "ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL"}
+             "ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL", "ERR_PIACERE_ACCORDO"}
 
 
 def test_ningun_calco_aparece_en_el_corpus_validado():
@@ -152,7 +153,7 @@ def test_ningun_calco_aparece_en_el_corpus_validado():
                 assert not bare, (code, phrase)
             else:
                 pattern = phrase if code == "ERR_COMPARATIVE_DI" else re.escape(phrase)
-                assert not re.search(r"(?<!\w)" + pattern, corpus.lower()), (code, phrase)
+                assert not re.search(r"(?<!\w)" + pattern + r"(?!\w)", corpus.lower()), (code, phrase)
     assert hits > 0
 
 

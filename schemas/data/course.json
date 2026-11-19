@@ -404,6 +404,86 @@
       "why_here": "Contar qué haces en tu tiempo libre con los verbos de presente."
     },
     {
+      "id": "u37",
+      "level": "A1",
+      "title": "Vocabulario: saludar y ser cortés",
+      "goal_es": "Buongiorno, buonasera, ciao, arrivederci, grazie, prego, scusi/scusa… y cuándo usar el trato formal.",
+      "codes": [
+        "ERR_VOC_SALUTI"
+      ],
+      "why_here": "Las primeras palabras de cualquier conversación, antes de presentarte."
+    },
+    {
+      "id": "u38",
+      "level": "A1",
+      "title": "Questo y quello: este y aquel",
+      "goal_es": "Questo/questa/questi/queste (cerca) y quel/quella/quei/quelle (lejos), que concuerdan con el sustantivo.",
+      "codes": [
+        "ERR_VOC_DIMOSTRATIVI"
+      ],
+      "why_here": "Señalar cosas al comprar o describir, con los artículos y el género ya vistos."
+    },
+    {
+      "id": "u39",
+      "level": "A1",
+      "title": "Molto, poco, troppo, tanto",
+      "goal_es": "Molto, poco, troppo, tanto, abbastanza: cuándo concuerdan (molta acqua, molti amici) y cuándo no (mangio molto).",
+      "codes": [
+        "ERR_VOC_QUANTITA"
+      ],
+      "why_here": "Decir cuánto o cuántos, con el vocabulario de las cosas ya visto."
+    },
+    {
+      "id": "u40",
+      "level": "A1",
+      "title": "Ieri, oggi, domani, sempre, mai",
+      "goal_es": "Ieri, oggi, domani, adesso, stasera, presto, tardi, sempre, mai, già, ancora: situar las cosas en el tiempo.",
+      "codes": [
+        "ERR_VOC_AVVERBI"
+      ],
+      "why_here": "Hablar de cuándo pasan las cosas, con los días y los meses ya vistos."
+    },
+    {
+      "id": "u41",
+      "level": "A1",
+      "title": "Vocabulario: cómo es (adjetivos)",
+      "goal_es": "Alto, bello, buono, grande, simpatico, giovane… y la concordancia en género (alto/alta) y en -e (grande).",
+      "codes": [
+        "ERR_VOC_AGGETTIVI"
+      ],
+      "why_here": "Describir personas y cosas, con los colores y el vocabulario ya visto."
+    },
+    {
+      "id": "u42",
+      "level": "A1",
+      "title": "Vocabulario: dinero y compras",
+      "goal_es": "Euro, soldi, prezzo, sconto, contanti, banconota… y «euro» que no cambia en plural.",
+      "codes": [
+        "ERR_VOC_DENARO"
+      ],
+      "why_here": "Comprar y preguntar precios, con los números y la ropa ya vistos."
+    },
+    {
+      "id": "u43",
+      "level": "A1",
+      "title": "Vocabulario: la salud",
+      "goal_es": "Salute, febbre, tosse, dolore, malattia… y «ho paura», «ho sonno», «ho fame» con avere.",
+      "codes": [
+        "ERR_VOC_SALUTE"
+      ],
+      "why_here": "Decir cómo te sientes, con tener/avere y el cuerpo ya vistos."
+    },
+    {
+      "id": "u44",
+      "level": "A1",
+      "title": "Mi piace / mi piacciono",
+      "goal_es": "El verbo concuerda con lo que gusta: mi piace il gelato, mi piacciono i gatti.",
+      "codes": [
+        "ERR_PIACERE_ACCORDO"
+      ],
+      "why_here": "Decir qué te gusta, con los artículos y el vocabulario ya vistos."
+    },
+    {
       "id": "u08",
       "level": "A2",
       "title": "Sono andato: el auxiliar essere",
@@ -494,26 +574,6 @@
       "level": "B2",
       "title": "Concesivas y pasiva",
       "reason": "Faltan oraciones validadas B2."
-    },
-    {
-      "level": "A1",
-      "title": "Saludar, presentarte y despedirte",
-      "reason": "Acciones comunicativas básicas (sono…, mi chiamo…, buongiorno, arrivederci, grazie, prego, scusi). Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
-    },
-    {
-      "level": "A1",
-      "title": "Gustos: mi piace / mi piacciono",
-      "reason": "Estructura frecuente de A1 con concordancia con lo que gusta. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
-    },
-    {
-      "level": "A1",
-      "title": "Esto y aquello: questo, quello",
-      "reason": "Demostrativos que expresan relaciones de lugar. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
-    },
-    {
-      "level": "A1",
-      "title": "Poco, molto, tutto, niente",
-      "reason": "Cuantificadores principales de A1. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
     },
     {
       "level": "A1",

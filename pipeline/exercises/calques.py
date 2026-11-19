@@ -222,6 +222,24 @@ def _phonetic_for(code: str) -> Callable[[str], Calque | None]:
     return gen
 
 
+_PIACE = re.compile(r"\b(piace|piacciono)\s+(?:(il|lo|la|un|uno|una|questo|questa|quel|quella|quello|mio|mia|tuo|tua|suo|sua|nostro|nostra|vostro|vostra)\b|(l')|"
+                    r"(i|gli|le|questi|queste|quei|quelle|miei|tuoi|suoi|nostri|nostre|vostri|vostre|mie|tue|sue|molti|molte|tanti|tante)\b)", re.I)
+
+
+def _piacere(it: str):
+    """«Mi piace il gelato» / «mi piacciono i gatti»: el verbo concuerda con lo que gusta. El error es cambiar el número del verbo."""
+    found = list(_PIACE.finditer(it))
+    if len(found) != 1 or len(re.findall(r"\bpiac(?:e|ciono)\b", it, re.I)) != 1:
+        return None
+    m = found[0]
+    singular = bool(m.group(2) or m.group(3))
+    verb = m.group(1)
+    wrong = "piacciono" if singular else "piace"
+    if verb != ("piace" if singular else "piacciono"):  # ya está mal en el original: no es un buen ejemplo
+        return None
+    return Calque("ERR_PIACERE_ACCORDO", m.start(1), m.end(1), verb, wrong, "morphological")
+
+
 _GENERATORS: dict[str, Callable[[str], Calque | None]] = {
     "ERR_AUX_ESSERE": _aux_essere,
     "ERR_PREP_PLACE": _prep_place,
@@ -235,6 +253,7 @@ _GENERATORS: dict[str, Callable[[str], Calque | None]] = {
     "ERR_PARTICIPLE_AGREEMENT": _participle_agreement,
     "ERR_POSSESSIVE_SPELLING": _possessive_spelling,
     "ERR_CONGIUNTIVO_OPINION": _congiuntivo_opinion,
+    "ERR_PIACERE_ACCORDO": _piacere,
     **{c: _vocab_for(c) for c in _vocab_codes()},
     **{c: _phonetic_for(c) for c in ("ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL")},
     **{c: _present_for(c) for c in ("ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL")},

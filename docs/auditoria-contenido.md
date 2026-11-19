@@ -2,7 +2,7 @@
 
 Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiempos a priori (no medidos). Objetivo por unidad: **57 min** (descubre 7 · lectura 10 · capsula 4 · practica 10 · escucha 12 · practica2 10 · prueba 4); 40 oraciones con audio; 1 lectura.
 
-**A1 hoy: 31 unidades, 26.1 h de pasos** (objetivo 50 h con repasos y examen de hito; 3.3 h por producir en las unidades existentes, más las unidades nuevas del currículo).
+**A1 hoy: 39 unidades, 31.9 h de pasos** (objetivo 50 h con repasos y examen de hito; 5.1 h por producir en las unidades existentes, más las unidades nuevas del currículo).
 
 | Unidad | Nivel | Oraciones | Ítems | descubre | lectura | capsula | practica | escucha | practica2 | prueba | Total (min) | Falta (min) | Lectura |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -37,6 +37,14 @@ Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiem
 | u34 Vocabulario: transportes y viajes | A1 | 27 | 108 | 7.1 | — | 3.2 | 10.1 | 12.3 | 9.2 | 2.5 | 44.4 | 12.6 | no |
 | u35 Vocabulario: bar y restaurante | A1 | 18 | 72 | 7.1 | 4.1 | 3.2 | 10.2 | 9 | 0.9 | 2.5 | 37 | 20 | sí |
 | u36 Vocabulario: tiempo libre | A1 | 31 | 124 | 7.1 | — | 3.2 | 10.1 | 12.3 | 10.1 | 2.5 | 45.3 | 11.7 | no |
+| u37 Vocabulario: saludar y ser cortés | A1 | 29 | 116 | 7.1 | — | 3.2 | 10.4 | 12.3 | 10.2 | 2.5 | 45.7 | 11.3 | no |
+| u38 Questo y quello: este y aquel | A1 | 28 | 110 | 7.1 | — | 3.2 | 10 | 12.3 | 10.1 | 2.5 | 45.2 | 11.8 | no |
+| u39 Molto, poco, troppo, tanto | A1 | 32 | 128 | 7.1 | — | 3.2 | 10.1 | 12.3 | 10.2 | 2.5 | 45.4 | 11.6 | no |
+| u40 Ieri, oggi, domani, sempre, mai | A1 | 21 | 84 | 7.1 | — | 3.2 | 10 | 11 | 3.9 | 2.5 | 37.7 | 19.3 | no |
+| u41 Vocabulario: cómo es (adjetivos) | A1 | 26 | 104 | 7.1 | — | 3.2 | 10.1 | 12.3 | 8.4 | 2.5 | 43.6 | 13.4 | no |
+| u42 Vocabulario: dinero y compras | A1 | 24 | 96 | 7.1 | — | 3.2 | 10.1 | 12.3 | 6.5 | 2.5 | 41.7 | 15.3 | no |
+| u43 Vocabulario: la salud | A1 | 24 | 96 | 7.1 | — | 3.2 | 10.1 | 12.3 | 6.5 | 2.5 | 41.7 | 15.3 | no |
+| u44 Mi piace / mi piacciono | A1 | 42 | 126 | 7.1 | — | 3.2 | 10.3 | 12.3 | 10.1 | 2.5 | 45.5 | 11.5 | no |
 | u08 Sono andato: el auxiliar essere | A2 | 20 | 57 | 7.2 | — | 3.2 | 10.1 | 10.3 | 4.3 | 2.5 | 37.6 | 19.4 | no |
 | u09 Siamo andati: el participio concuerda | A2 | 24 | 68 | 7.1 | — | 3.2 | 10.1 | 12.3 | 8.5 | 2.5 | 43.7 | 13.3 | no |
 | u10 Sin «a» personal | A2 | 21 | 41 | 7.1 | — | 3.2 | 10 | 11 | 0.5 | 3.2 | 35 | 22 | no |

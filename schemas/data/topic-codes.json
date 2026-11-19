@@ -292,5 +292,117 @@
     ],
     "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
     "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_SALUTI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Buongiorno, buonasera, ciao, arrivederci, grazie, prego, scusi… «Buongiorno» se usa hasta la tarde y «buonasera» desde la tarde; «buonanotte» solo para despedirse a dormir. A un desconocido o con respeto se dice «scusi» y «arrivederLa»; entre amigos, «scusa» y «ciao».",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_DIMOSTRATIVI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Questo (cerca) y quello (lejos): este/esta y aquel/aquella. Concuerdan con el sustantivo: questo libro, questa casa, questi libri, queste case. «Quello» cambia como el artículo: quel libro, quello studente, quella casa, quei libri.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_QUANTITA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Molto, poco, troppo, tanto: antes de un sustantivo concuerdan (molta acqua, molti amici, poche ore); como adverbio no cambian (mangio molto, studia poco). «Abbastanza» (bastante) no cambia nunca.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_AVVERBI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Ieri, oggi, domani, adesso, stasera, presto, tardi, sempre, mai, già, ancora… Los adverbios de tiempo no cambian. «Mai» con verbo lleva «non»: non vado mai (no voy nunca). «Ancora» es «todavía»: non è ancora qui.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_AGGETTIVI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Alto, bello, buono, grande, simpatico, giovane… Los adjetivos concuerdan con el sustantivo: un ragazzo alto, una ragazza alta. Los terminados en -e (grande, felice, giovane) valen para masculino y femenino.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_DENARO",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Euro, soldi, prezzo, sconto, contanti, banconota… «Euro» no cambia en plural (due euro). «Soldi» es el dinero (siempre plural): non ho soldi. «Contanti» es pagar en efectivo: pago in contanti.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_SALUTE",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Salute, febbre, tosse, dolore, malattia… «Ho la febbre» (tengo fiebre), «ho mal di testa» (me duele la cabeza), «ho fame», «ho sete», «ho sonno», «ho paura»: con avere, como el tener español.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_PIACERE_ACCORDO",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "«Mi piace» y «mi piacciono»: el verbo concuerda con lo que gusta, no con quien siente: mi piace il gelato (uno), mi piacciono i gatti (varios). Con un verbo, siempre «piace»: mi piace nuotare. Con otras personas: ti piace, gli piace (a él), le piace (a ella), ci piace, vi piace, piace loro.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: sillabo A1 de los enti certificatori (Tab. 9 y 13), «mi piace / mi piacciono».",
+    "review_status": "needs_review"
   }
 ]
