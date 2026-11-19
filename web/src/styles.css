@@ -129,3 +129,7 @@ progress { width: 100%; height: 10px; accent-color: var(--ok); }
 .actions-bottom.above-tabs { bottom: calc(var(--tab-h) + env(safe-area-inset-bottom)); background: linear-gradient(to top, var(--bg) 70%, transparent); }
 .top { display: flex; justify-content: space-between; align-items: center; }
 .top h1 { margin: 6px 0; }
+.reading p { margin: 6px 0; }
+.sentence { display: inline; text-align: left; min-height: 0; padding: 4px 6px; border: none; background: transparent; font-family: var(--serif); font-size: 20px; line-height: 1.5; font-weight: 400; border-radius: 8px; }
+.sentence[aria-expanded="true"] { background: var(--accent-soft); }
+.gloss { display: block; margin: 2px 6px 8px; color: var(--muted); }

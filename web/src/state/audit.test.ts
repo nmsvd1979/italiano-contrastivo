@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import type { ContentPack } from "../content/load";
-import { STEPS } from "./course";
+import { STEPS, stepsFor } from "./course";
 import { stepSeconds } from "./steps";
 import { A1_TARGET_HOURS, MIN_SENTENCES_TARGET, TARGET_MINUTES, UNIT_TARGET_MINUTES } from "./targets";
 
@@ -10,7 +10,7 @@ const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code
 
 type Row = { id: string; level: string; title: string; sentences: number; items: number; minutes: Record<string, number>; total: number; hasReading: boolean };
 const rows = (): Row[] => pack.course.units.map((u) => {
-  const minutes = Object.fromEntries(STEPS.map((s) => [s, Math.round(stepSeconds(u, s, pack) / 6) / 10]));
+  const minutes = Object.fromEntries(stepsFor(u).map((s) => [s, Math.round(stepSeconds(u, s, pack) / 6) / 10]));
   const total = Object.values(minutes).reduce((a, b) => a + b, 0);
   return { id: u.id, level: u.level, title: u.title, sentences: u.parts.practica.length + u.parts.prueba.length, items: (pack.itemsByCode[u.codes[0]] ?? []).length, minutes, total: Math.round(total * 10) / 10, hasReading: !!(u as { readings?: string[] }).readings?.length };
 });
@@ -40,7 +40,7 @@ function report(r: Row[]): string {
     "",
     "| Unidad | Nivel | Oraciones | Ítems | " + STEPS.join(" | ") + " | Total (min) | Falta (min) | Lectura |",
     "|---|---|---|---|" + STEPS.map(() => "---").join("|") + "|---|---|---|",
-    ...r.map((x) => `| ${x.id} ${x.title} | ${x.level} | ${x.sentences} | ${x.items} | ${STEPS.map((s) => x.minutes[s]).join(" | ")} | ${x.total} | ${Math.max(0, Math.round((UNIT_TARGET_MINUTES - x.total) * 10) / 10)} | ${x.hasReading ? "sí" : "no"} |`),
+    ...r.map((x) => `| ${x.id} ${x.title} | ${x.level} | ${x.sentences} | ${x.items} | ${STEPS.map((s) => x.minutes[s] ?? "—").join(" | ")} | ${x.total} | ${Math.max(0, Math.round((UNIT_TARGET_MINUTES - x.total) * 10) / 10)} | ${x.hasReading ? "sí" : "no"} |`),
     "",
   ];
   return lines.join("\n");

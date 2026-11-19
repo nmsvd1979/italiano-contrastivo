@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { Course, Unit } from "../content/load";
-import { applyTest, canDoStep, currentView, emptyProgress, markStep, masterByPlacement, nextStep, STEPS, unitViews } from "./course";
+import { applyTest, canDoStep, currentView, emptyProgress, markStep, masterByPlacement, nextStep, STEPS, stepsFor, unitViews } from "./course";
 
 const NOW = new Date("2026-11-17T12:00:00.000Z");
 const unit = (id: string): Unit => ({ id, level: "A1", title: id, goal_es: "", why_here: "", codes: ["ERR_X"], status: "active", explanation_es: "",
@@ -16,9 +16,10 @@ describe("ruta", () => {
   it("los pasos van en orden", () => {
     let p = emptyProgress("u01");
     const seen: (string | null)[] = [];
-    for (const s of STEPS) { seen.push(nextStep(p)); p = markStep(p, s, NOW); }
-    expect(seen).toEqual(STEPS);
-    expect(nextStep(p)).toBeNull();
+    const steps = stepsFor(course.units[0]); // sin lectura asignada, ese paso no existe
+    for (const s of steps) { seen.push(nextStep(p, course.units[0])); p = markStep(p, s, NOW); }
+    expect(seen).toEqual(steps);
+    expect(nextStep(p, course.units[0])).toBeNull();
   });
   it("no se puede saltar un paso ni entrar a una unidad bloqueada", () => {
     const v = unitViews(course, [])[0];
@@ -35,13 +36,14 @@ describe("ruta", () => {
   });
   it("reprobar obliga a rehacer la práctica y guarda la mejor nota", () => {
     let p = emptyProgress("u01");
-    for (const s of STEPS.slice(0, 4)) p = markStep(p, s, NOW);
+    for (const s of stepsFor(course.units[0]).slice(0, 5)) p = markStep(p, s, NOW);
     const r = applyTest(p, 7, 10, NOW);
     expect(r.passed).toBe(false);
     expect(r.progress.completed).toBe(false);
     expect(r.progress.done.practica).toBeUndefined();
     expect(r.progress.done.descubre).toBeTruthy();
-    expect(nextStep(r.progress)).toBe("practica");
+    expect(nextStep(r.progress, course.units[0])).toBe("practica");
+    expect(r.progress.done.practica2).toBeUndefined();
     expect(applyTest(r.progress, 5, 10, NOW).progress.testBest).toBe(0.7);
   });
   it("el 80 % exacto aprueba y 79 % no", () => {
@@ -50,7 +52,7 @@ describe("ruta", () => {
   });
   it("la ubicación completa una unidad y marca cómo", () => {
     const p = masterByPlacement(emptyProgress("u01"), NOW);
-    expect(p.completed && p.mastery === "ubicacion" && nextStep(p) === null).toBe(true);
+    expect(p.completed && p.mastery === "ubicacion" && nextStep(p, course.units[0]) === null).toBe(true);
   });
   it("una unidad ya dominada permite repetir sus pasos", () => {
     const done = masterByPlacement(emptyProgress("u01"), NOW);

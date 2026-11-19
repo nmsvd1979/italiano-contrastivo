@@ -16,7 +16,7 @@ const sessionFor = (units = [] as ReturnType<typeof emptyProgress>[], d: DayProg
 
 describe("sesión de hoy", () => {
   it("cada paso de la unidad pertenece a un bloque de las fuentes", () => {
-    expect(BLOCK_OF_STEP).toEqual({ descubre: "lectura", capsula: "gimnasio", practica: "gimnasio", escucha: "voz", prueba: "gimnasio" });
+    expect(BLOCK_OF_STEP).toEqual({ descubre: "lectura", lectura: "lectura", capsula: "gimnasio", practica: "gimnasio", escucha: "voz", practica2: "gimnasio", prueba: "gimnasio" });
   });
   it("empieza con el repaso y sigue el ciclo de la unidad (lectura primero)", () => {
     const b = sessionFor();

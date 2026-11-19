@@ -1,7 +1,6 @@
 import type { ContentPack } from "../content/load";
-import { STEP_LABEL, STEPS, summary, type UnitView } from "../state/course";
+import { STEP_LABEL, stepsFor, summary, type UnitView } from "../state/course";
 import { stepSeconds } from "../state/steps";
-import { STEPS as ALL_STEPS } from "../state/course";
 import { formatDuration, loadSamples } from "../state/timing";
 import { hitoId, milestoneOpen } from "../state/milestone";
 import { isPreview } from "../state/preview";
@@ -14,7 +13,7 @@ export function RouteScreen({ views, pack, hito }: { views: UnitView[]; pack: Co
   return (
     <main>
       <h1>Tu ruta</h1>
-      <p>{done} de {total} unidades completadas. Cada unidad son 5 pasos; la siguiente se abre cuando apruebas la prueba (80 % o más).</p>
+      <p>{done} de {total} unidades completadas. Cada unidad tiene varios pasos; la siguiente se abre cuando apruebas la prueba (80 % o más).</p>
       <progress max={total} value={done} aria-label="Unidades completadas" />
       {pack.course.levels.map((level) => {
         const units = views.filter((v) => v.unit.level === level.id);
@@ -25,7 +24,7 @@ export function RouteScreen({ views, pack, hito }: { views: UnitView[]; pack: Co
             <div className="level-head"><h2>{level.title}</h2></div>
             <p><small>
               En la app hoy: {units.length} {units.length === 1 ? "unidad" : "unidades"}
-              {units.length ? ` (${formatDuration(units.reduce((t, v) => t + ALL_STEPS.reduce((a, s) => a + stepSeconds(v.unit, s, pack, samples), 0), 0))} de pasos, sin contar repasos)` : ""}.
+              {units.length ? ` (${formatDuration(units.reduce((t, v) => t + stepsFor(v.unit).reduce((a, s) => a + stepSeconds(v.unit, s, pack, samples), 0), 0))} de pasos, sin contar repasos)` : ""}.
               Referencia de las fuentes para llegar al nivel: {level.guided_hours}.
             </small></p>
             <ul className="path">
@@ -36,7 +35,7 @@ export function RouteScreen({ views, pack, hito }: { views: UnitView[]; pack: Co
                   {v.state === "locked" ? <strong>{v.unit.title}</strong> : <a href={`#/unidad/${v.unit.id}`}><strong>{v.unit.title}</strong></a>}
                   <small>
                     {v.state === "completed" ? `Completada${v.progress.mastery === "ubicacion" ? " (por la prueba de ubicación)" : ""}`
-                      : v.state === "current" ? `Siguiente: ${STEP_LABEL[v.next ?? "descubre"]} (${formatDuration(stepSeconds(v.unit, v.next ?? "descubre", pack, samples))}) · ${STEPS.filter((s) => v.progress.done[s]).length} de 5 pasos`
+                      : v.state === "current" ? `Siguiente: ${STEP_LABEL[v.next ?? "descubre"]} (${formatDuration(stepSeconds(v.unit, v.next ?? "descubre", pack, samples))}) · ${stepsFor(v.unit).filter((s) => v.progress.done[s]).length} de ${stepsFor(v.unit).length} pasos`
                       : "Se abre al completar la anterior"}
                   </small>
                   </span>

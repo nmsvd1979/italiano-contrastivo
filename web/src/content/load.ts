@@ -19,11 +19,20 @@ export type Unit = {
   id: string; level: string; title: string; goal_es: string; why_here: string; codes: string[]; status: "active"; explanation_es: string;
   parts: { descubre: string[]; practica: string[]; escucha: string[]; prueba: string[] };
   divergences: { id: string; start: number; end: number; wrong: string }[];
+  readings?: string[];
+};
+export type ReadingSentence = { id: string; it: string; es: string; audio?: string };
+export type ReadingQuestion = { prompt_es: string; options: string[]; answer: number; evidence?: number };
+export type Reading = {
+  id: string; title: string; level: string; kind: "lectura" | "dialogo";
+  source: { book: string; authors: string; url: string; license: string };
+  translation: string; sentences: ReadingSentence[]; questions: ReadingQuestion[];
 };
 export type PlannedUnit = { level: string; title: string; reason: string };
 export type Course = { version: number; levels: { id: string; title: string; guided_hours: string }[]; units: Unit[]; planned: PlannedUnit[] };
 export type ContentPack = {
   course: Course;
+  readings?: Reading[];
   capsules: Capsule[];
   itemsByCode: Record<string, Item[]>;
   lexemes: Lexeme[];
@@ -56,13 +65,14 @@ async function getJson<T>(fetcher: Fetcher, base: string, file: string): Promise
 }
 
 export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: string = import.meta.env.BASE_URL ?? "/"): Promise<ContentPack> {
-  const [capsules, itemsByCode, lexemes, sentences, manifest, course] = await Promise.all([
+  const [capsules, itemsByCode, lexemes, sentences, manifest, course, readings] = await Promise.all([
     getJson<Capsule[]>(fetcher, base, "capsules.json"),
     getJson<Record<string, Item[]>>(fetcher, base, "items_by_code.json"),
     getJson<Lexeme[]>(fetcher, base, "lexemes.json"),
     getJson<PackSentence[]>(fetcher, base, "sentences.json"),
     getJson<Manifest>(fetcher, base, "manifest.json"),
     getJson<Course>(fetcher, base, "course.json"),
+    getJson<Reading[]>(fetcher, base, "readings.json").catch((): Reading[] => []), // aún no hay lecturas publicadas: no es un error
   ]);
   const vCapsule = schemaValidator("capsule");
   const vItem = schemaValidator("item");
@@ -79,5 +89,7 @@ export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: stri
     for (const id of Object.values(u.parts).flat()) if (!known.has(id)) throw new ContentError(`La unidad ${u.id} usa una oración que no está en el paquete (${id}).`);
     if (!capsules.some((c) => c.target_error_codes[0] === u.codes[0])) throw new ContentError(`La unidad ${u.id} no tiene cápsula.`);
   }
-  return { capsules, itemsByCode, lexemes, sentences, manifest, course };
+  const rd = new Set(readings.map((r) => r.id));
+  for (const u of course.units) for (const id of u.readings ?? []) if (!rd.has(id)) throw new ContentError(`La unidad ${u.id} usa una lectura que no está en el paquete (${id}).`);
+  return { capsules, itemsByCode, lexemes, sentences, manifest, course, readings };
 }

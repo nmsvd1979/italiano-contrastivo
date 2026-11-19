@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
 import type { ContentPack } from "../content/load";
-import { canDoStep, STEP_LABEL, STEPS, unitViews, type UnitView } from "../state/course";
+import { canDoStep, STEP_LABEL, stepsFor, unitViews, type UnitView } from "../state/course";
 import { finishStep, finishTest } from "../state/progress";
-import { practiceItems, reconstructionItems, stepSeconds, testItems, voiceItems } from "../state/steps";
+import { practiceItems, readingOf, reconstructionItems, stepSeconds, testItems, voiceItems } from "../state/steps";
 import type { StepId, Store } from "../state/store";
 import { formatDuration, loadSamples } from "../state/timing";
 import { CapsuleScreen } from "./CapsuleScreen";
 import { fromItems, fromVoice, ItemRunner, type RunResult } from "./ItemRunner";
 import { Ring } from "./kit/Ring";
 import { NoticeStep } from "./NoticeStep";
+import { ReadingStep } from "./ReadingStep";
 
 type Done = { passed?: boolean; correct?: number; total?: number };
 
@@ -21,7 +22,7 @@ export function StepScreen({ unitId, step, pack, store }: { unitId: string; step
   }, [store, pack, done]);
   if (!views) return <p>Cargando…</p>;
   const view = views.find((v) => v.unit.id === unitId);
-  if (!view || !STEPS.includes(step)) return <main><p>Esa unidad o paso no existe.</p><p><a className="button" href="#/ruta">Ir a la ruta</a></p></main>;
+  if (!view || !stepsFor(view.unit).includes(step)) return <main><p>Esa unidad o paso no existe.</p><p><a className="button" href="#/ruta">Ir a la ruta</a></p></main>;
   if (!canDoStep(view, step)) return <main><p>Todavía no puedes hacer este paso: completa antes los anteriores.</p><p><a className="button" href={`#/unidad/${unitId}`}>Ver la unidad</a></p></main>;
   const { unit } = view;
   const now = () => new Date();
@@ -47,8 +48,10 @@ export function StepScreen({ unitId, step, pack, store }: { unitId: string; step
       {step === "descubre" && phase === "rebuild" && (
         <ItemRunner {...run} persistKey={`${unitId}:descubre`} items={fromItems(reconstructionItems(unit, pack, samples))} requeueWrong onFinish={(r) => void finish(r)} />
       )}
+      {step === "lectura" && readingOf(unit, pack) && <ReadingStep reading={readingOf(unit, pack)!} exitHref={exit} onFinish={() => void finish()} />}
       {step === "capsula" && <CapsuleScreen capsule={pack.capsules.find((c) => c.target_error_codes[0] === unit.codes[0])!} store={store} embedded exitHref={exit} onComplete={() => void finish()} />}
       {step === "practica" && <ItemRunner {...run} persistKey={`${unitId}:practica`} items={fromItems(practiceItems(unit, pack, samples))} requeueWrong onFinish={(r) => void finish(r)} />}
+      {step === "practica2" && <ItemRunner {...run} persistKey={`${unitId}:practica2`} items={fromItems(practiceItems(unit, pack, samples, undefined, 2))} requeueWrong onFinish={(r) => void finish(r)} />}
       {step === "escucha" && <ItemRunner {...run} persistKey={`${unitId}:escucha`} items={fromVoice(voiceItems(unit, pack, samples))} onFinish={(r) => void finish(r)} />}
       {step === "prueba" && <ItemRunner {...run} persistKey={`${unitId}:prueba`} items={fromItems(testItems(unit, pack))} onFinish={(r) => void finish(r)} />}
     </main>
@@ -57,8 +60,8 @@ export function StepScreen({ unitId, step, pack, store }: { unitId: string; step
 
 function StepDone({ view, step, done, pack }: { view: UnitView; step: StepId; done: Done; pack: ContentPack }) {
   const { unit } = view;
-  const idx = STEPS.indexOf(step);
-  const nextStep = STEPS[idx + 1];
+  const steps = stepsFor(unit);
+  const nextStep = steps[steps.indexOf(step) + 1];
   const samples = loadSamples();
   if (step === "prueba") {
     const pct = Math.round(((done.correct ?? 0) / Math.max(1, done.total ?? 1)) * 100);

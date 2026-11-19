@@ -1,15 +1,18 @@
 import type { ContentPack, PackSentence, Unit } from "../content/load";
 import type { Item } from "../generated/item";
+import type { StepId } from "./store";
 import type { Kind, Samples } from "./timing";
 import { estimateSeconds } from "./timing";
 
-export const PRACTICE_TARGET_SECONDS = 6 * 60;
+import { TARGET_MINUTES } from "./targets";
+
+export const PRACTICE_TARGET_SECONDS = TARGET_MINUTES.practica * 60; // cada tanda de práctica
 /** Presupuesto de cada bloque de la sesión de las fuentes (segundos): lectura 7 min, voz 8 min. */
 export const LECTURA_SECONDS = 7 * 60;
-export const VOZ_SECONDS = 8 * 60;
-export const DICTATIONS_IN_VOICE = 5;
+export const VOZ_SECONDS = TARGET_MINUTES.escucha * 60;
+export const DICTATIONS_IN_VOICE = 6;
 export const TEST_ITEMS = 10;
-export const PRACTICE_MAX = 30;
+export const PRACTICE_MAX = 40;
 
 export const kindOf = (item: Item): Kind =>
   item.type === "choice_l1_distractor" ? "choice" : item.type === "cloze" ? "cloze" : item.type === "reorder" ? "reorder" : "translate";
@@ -30,23 +33,32 @@ const ORDER: Record<string, number> = { choice_l1_distractor: 0, cloze: 1, reord
  * Práctica: da vueltas por las oraciones de la unidad; en cada vuelta toma un tipo de ejercicio distinto por oración
  * (elección → hueco → orden) hasta llegar al tiempo objetivo. Sin repetir ítems.
  */
-export function practiceItems(unit: Unit, pack: ContentPack, samples: Samples = {}, targetSeconds = PRACTICE_TARGET_SECONDS): Item[] {
+export function practiceItems(unit: Unit, pack: ContentPack, samples: Samples = {}, targetSeconds = PRACTICE_TARGET_SECONDS, part: 1 | 2 = 1): Item[] {
   const bySentence = unitItems(unit, pack, unit.parts.practica);
   for (const list of bySentence.values()) list.sort((a, b) => (ORDER[a.type ?? ""] ?? 9) - (ORDER[b.type ?? ""] ?? 9));
-  const out: Item[] = [];
-  let seconds = 0;
-  for (let round = 0; round < 3 && seconds < targetSeconds && out.length < PRACTICE_MAX; round++) {
+  // Secuencia completa: en cada vuelta cada oración aporta un tipo distinto (elección → hueco → orden), sin repetir ítems.
+  const seq: Item[] = [];
+  for (let round = 0; round < 3; round++) {
     for (const [i, id] of unit.parts.practica.entries()) {
       const list = bySentence.get(id) ?? [];
       const it = list[(i + round) % Math.max(1, list.length)];
-      if (!it || out.includes(it)) continue;
-      out.push(it);
-      seconds += estimateSeconds(kindOf(it), samples);
-      if (seconds >= targetSeconds || out.length >= PRACTICE_MAX) break;
+      if (it && !seq.includes(it)) seq.push(it);
     }
   }
+  // La tanda 1 toma ítems hasta el tiempo objetivo; la tanda 2 sigue donde terminó la 1 (otras frases u otros tipos).
+  const take = (from: number): Item[] => {
+    const out: Item[] = [];
+    let seconds = 0;
+    for (let i = from; i < seq.length && seconds < targetSeconds && out.length < PRACTICE_MAX; i++) {
+      out.push(seq[i]);
+      seconds += estimateSeconds(kindOf(seq[i]), samples);
+    }
+    return out;
+  };
+  const first = take(0);
+  const chosen = part === 1 ? first : take(first.length);
   // Andamiaje: de reconocer (elección) a recordar (hueco) y a producir (orden); dentro de cada tipo se conserva el orden.
-  return out.map((it, i) => ({ it, i })).sort((a, b) => (ORDER[a.it.type ?? ""] ?? 9) - (ORDER[b.it.type ?? ""] ?? 9) || a.i - b.i).map((x) => x.it);
+  return chosen.map((it, i) => ({ it, i })).sort((a, b) => (ORDER[a.it.type ?? ""] ?? 9) - (ORDER[b.it.type ?? ""] ?? 9) || a.i - b.i).map((x) => x.it);
 }
 
 /** Prueba: solo oraciones reservadas (no están en la práctica). Una elección por oración y huecos/orden para completar 10. */
@@ -92,7 +104,7 @@ export function reconstructionItems(unit: Unit, pack: ContentPack, samples: Samp
 }
 
 /** Frases para repetir en voz alta: cortas y distintas de las del dictado. */
-export function shadowSentences(unit: Unit, pack: ContentPack, n = 8): PackSentence[] {
+export function shadowSentences(unit: Unit, pack: ContentPack, n = 14): PackSentence[] {
   const idx = sentenceIndex(pack);
   const heard = new Set(unit.parts.escucha.slice(0, DICTATIONS_IN_VOICE));
   const words = (x: PackSentence) => x.it.split(/\s+/).length;
@@ -153,16 +165,27 @@ export function meaningQuestions(cards: NoticeCard[], pool: PackSentence[] = [],
 }
 
 /** Segundos estimados de cada paso de la unidad (la cápsula cuenta explicación + trigger + sus ítems). */
-export function stepSeconds(unit: Unit, step: "descubre" | "capsula" | "practica" | "escucha" | "prueba", pack: ContentPack, samples: Samples = {}): number {
+export function readingOf(unit: Unit, pack: ContentPack) {
+  return (pack.readings ?? []).find((r) => unit.readings?.includes(r.id));
+}
+
+/** Segundos estimados de cada paso de la unidad (la cápsula cuenta explicación + trigger + sus ítems). */
+export function stepSeconds(unit: Unit, step: StepId, pack: ContentPack, samples: Samples = {}): number {
   const t = (k: Kind, n = 1) => estimateSeconds(k, samples) * n;
+  const sum = (items: Item[]) => items.reduce((s, it) => s + estimateSeconds(kindOf(it), samples), 0);
   switch (step) {
-    case "descubre": return t("notice", unit.parts.descubre.length) + t("choice", 2) + reconstructionItems(unit, pack, samples).reduce((a, it) => a + estimateSeconds(kindOf(it), samples), 0);
+    case "descubre": return t("notice", unit.parts.descubre.length) + t("choice", 2) + sum(reconstructionItems(unit, pack, samples));
+    case "lectura": {
+      const r = readingOf(unit, pack);
+      return r ? t("notice", r.sentences.length) + t("choice", r.questions.length) : 0; // leer + oír + comprobar cada oración, y responder
+    }
     case "capsula": {
       const cap = pack.capsules.find((c) => c.target_error_codes[0] === unit.codes[0]);
       return t("translate") + 20 + (cap?.retrieval.reduce((s, it) => s + estimateSeconds(kindOf(it as Item), samples), 0) ?? 0);
     }
-    case "practica": return practiceItems(unit, pack, samples).reduce((s, it) => s + estimateSeconds(kindOf(it), samples), 0);
+    case "practica": return sum(practiceItems(unit, pack, samples, PRACTICE_TARGET_SECONDS, 1));
+    case "practica2": return sum(practiceItems(unit, pack, samples, PRACTICE_TARGET_SECONDS, 2));
     case "escucha": return voiceItems(unit, pack, samples).reduce((a, v) => a + estimateSeconds(v.kind, samples), 0);
-    case "prueba": return testItems(unit, pack).reduce((s, it) => s + estimateSeconds(kindOf(it), samples), 0);
+    case "prueba": return sum(testItems(unit, pack));
   }
 }

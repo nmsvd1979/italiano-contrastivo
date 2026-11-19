@@ -18,8 +18,9 @@ export async function loadAudioIndex(
 }
 
 /** Id del clip de un texto exacto (oración o palabra del paquete). Un texto editado o un distractor no tiene. */
-export function audioIdFor(text: string, pack: Pick<ContentPack, "sentences" | "lexemes">): string | undefined {
-  return pack.sentences.find((s) => s.it === text)?.audio ?? pack.lexemes.find((l) => l.form === text)?.audio;
+export function audioIdFor(text: string, pack: Pick<ContentPack, "sentences" | "lexemes" | "readings">): string | undefined {
+  return pack.sentences.find((s) => s.it === text)?.audio ?? pack.lexemes.find((l) => l.form === text)?.audio
+    ?? pack.readings?.flatMap((r) => r.sentences).find((s) => s.it === text)?.audio;
 }
 
 /** Palabra → archivo de grabación nativa (`audio/words/<archivo>`). Sin el archivo o sin red: vacío. */
