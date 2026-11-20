@@ -82,7 +82,10 @@
         "ERR_CHIAMARSI"
       ],
       "why_here": "Es lo primero que dices al conocer a alguien, junto a los saludos.",
-      "ficha_es": "Para presentarte: Mi chiamo Ana (me llamo Ana), Sono cilena, Ho venti anni, Piacere (mucho gusto). Para preguntar el nombre a un amigo: Come ti chiami?; a una persona que tratas de usted: Come si chiama?\n\nChiamarsi es un verbo reflexivo: mi chiamo, ti chiami, si chiama, ci chiamiamo, vi chiamate, si chiamano. El español usa me, te, se, nos, os: «me chiamo» o «come te chiami» no existen en italiano. Otra forma es Il mio nome è… (mi nombre es…). Fuente: Leggiamo (LBCC), capítulo «Presentarsi»."
+      "ficha_es": "Para presentarte: Mi chiamo Ana (me llamo Ana), Sono cilena, Ho venti anni, Piacere (mucho gusto). Para preguntar el nombre a un amigo: Come ti chiami?; a una persona que tratas de usted: Come si chiama?\n\nChiamarsi es un verbo reflexivo: mi chiamo, ti chiami, si chiama, ci chiamiamo, vi chiamate, si chiamano. El español usa me, te, se, nos, os: «me chiamo» o «come te chiami» no existen en italiano. Otra forma es Il mio nome è… (mi nombre es…). Fuente: Leggiamo (LBCC), capítulo «Presentarsi».",
+      "readings": [
+        "rd_saluti"
+      ]
     },
     {
       "id": "u26",
@@ -143,9 +146,6 @@
         "ERR_ARTICLE_ALLOMORPH"
       ],
       "why_here": "Cierra los artículos de A1 una vez vistas las contracciones.",
-      "readings": [
-        "rd_passatempi"
-      ],
       "ficha_es": "El artículo determinativo masculino es il (il libro), lo ante s + consonante, z, gn, ps (lo studente, lo zio) y l' ante vocal (l'amico). Plural: i (i libri) y gli (gli studenti, gli amici). Femenino: la (la casa), l' ante vocal (l'amica) y plural le (le case).\n\nEl español solo tiene «el, la, los, las». El italiano cambia el artículo según la primera letra de la palabra siguiente: por eso hay que fijarse en cómo empieza el sustantivo."
     },
     {
@@ -182,7 +182,10 @@
         "ERR_VOC_COLORI"
       ],
       "why_here": "Describir cosas y personas con colores que concuerdan con lo que describen.",
-      "ficha_es": "Los colores concuerdan con el sustantivo: rosso/rossa/rossi/rosse. Pero rosa, viola y blu no cambian nunca (due gonne blu), y verde cambia solo en plural (verdi). Azzurro es el azul claro (el cielo) y blu es el azul oscuro.\n\nLos colores se usan después del sustantivo: una gonna rossa, un gatto nero. Con el artículo se pueden nombrar solos: il rosso, il blu."
+      "ficha_es": "Los colores concuerdan con el sustantivo: rosso/rossa/rossi/rosse. Pero rosa, viola y blu no cambian nunca (due gonne blu), y verde cambia solo en plural (verdi). Azzurro es el azul claro (el cielo) y blu es el azul oscuro.\n\nLos colores se usan después del sustantivo: una gonna rossa, un gatto nero. Con el artículo se pueden nombrar solos: il rosso, il blu.",
+      "readings": [
+        "rd_aspetto"
+      ]
     },
     {
       "id": "u45",
@@ -327,9 +330,6 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques.",
-      "readings": [
-        "rd_giornata"
-      ],
       "ficha_es": "Cuatro verbos muy usados e irregulares: andare (vado, vai, va, andiamo, andate, vanno), fare (faccio, fai, fa, facciamo, fate, fanno), stare (sto, stai, sta, stiamo, state, stanno), venire (vengo, vieni, viene, veniamo, venite, vengono).\n\nStare sirve para «estar» en la salud y en estar + gerundio (sto mangiando), y essere para el resto. Fare entra en muchas expresiones: fare colazione (desayunar), fare una doccia, fa caldo (hace calor)."
     },
     {
@@ -352,7 +352,10 @@
         "ERR_VOC_TEMPOLIBERO"
       ],
       "why_here": "Contar qué haces en tu tiempo libre con los verbos de presente.",
-      "ficha_es": "Tiempo libre: il calcio, il tennis, la musica, il film, la canzone, la festa, il concerto, la passeggiata, le vacanze. Con giocare se dice giocare a calcio, a tennis (con «a»); con suonare, suonare la chitarra, il pianoforte (con artículo).\n\n«Film», «sport» y «hobby» no cambian en plural (i film, gli sport). Una passeggiata es un paseo; fare una passeggiata, «dar un paseo»."
+      "ficha_es": "Tiempo libre: il calcio, il tennis, la musica, il film, la canzone, la festa, il concerto, la passeggiata, le vacanze. Con giocare se dice giocare a calcio, a tennis (con «a»); con suonare, suonare la chitarra, il pianoforte (con artículo).\n\n«Film», «sport» y «hobby» no cambian en plural (i film, gli sport). Una passeggiata es un paseo; fare una passeggiata, «dar un paseo».",
+      "readings": [
+        "rd_passatempi"
+      ]
     },
     {
       "id": "u25",
@@ -377,7 +380,10 @@
         "ERR_ORA_ES"
       ],
       "why_here": "Decir la hora y a qué hora haces las cosas, con los números y los días ya vistos.",
-      "ficha_es": "Para preguntar la hora: Che ore sono? o Che ora è? La respuesta usa el plural: Sono le due, Sono le tre… pero el singular para la una y el mediodía: È l'una, È mezzogiorno, È mezzanotte.\n\nLos minutos se dicen con e: Sono le tre e venti. Pasada la media hora se dice la hora siguiente + meno + los minutos que faltan: Sono le cinque meno dieci. Para cuarto y media: e un quarto, e mezza (o e mezzo), meno un quarto. El español dice «y cuarto» y «y media»: en italiano no se omite el «un» (e un quarto, no «e quarto») y se dice mezza (no «media»).\n\nPara decir a qué hora: alle due, alle tre; all'una; a mezzogiorno, a mezzanotte (sin artículo). Y para el momento del día: di mattina, del pomeriggio, di sera, di notte. Fuente: Piacere! (Univ. de Iowa), capítulo «L'ora»."
+      "ficha_es": "Para preguntar la hora: Che ore sono? o Che ora è? La respuesta usa el plural: Sono le due, Sono le tre… pero el singular para la una y el mediodía: È l'una, È mezzogiorno, È mezzanotte.\n\nLos minutos se dicen con e: Sono le tre e venti. Pasada la media hora se dice la hora siguiente + meno + los minutos que faltan: Sono le cinque meno dieci. Para cuarto y media: e un quarto, e mezza (o e mezzo), meno un quarto. El español dice «y cuarto» y «y media»: en italiano no se omite el «un» (e un quarto, no «e quarto») y se dice mezza (no «media»).\n\nPara decir a qué hora: alle due, alle tre; all'una; a mezzogiorno, a mezzanotte (sin artículo). Y para el momento del día: di mattina, del pomeriggio, di sera, di notte. Fuente: Piacere! (Univ. de Iowa), capítulo «L'ora».",
+      "readings": [
+        "rd_giornata"
+      ]
     },
     {
       "id": "u40",
@@ -402,7 +408,10 @@
         "ERR_RIFLESSIVO_PRONOME"
       ],
       "why_here": "Hablar de tu día con los verbos de presente ya vistos.",
-      "ficha_es": "Los verbos reflexivos (svegliarsi, alzarsi, lavarsi, vestirsi) usan los pronombres mi, ti, si, ci, vi: mi sveglio, ti alzi, si lava, ci vestiamo, vi riposate, si divertono. El español usa me, te, se, nos, os.\n\nEl pronombre va antes del verbo y siempre concuerda con el sujeto. Cuidado: el «se» español se escribe «si» en italiano (si lava) y no se confunde con «sì» (con tilde, «sí») ni con «se» (la conjunción «si» condicional). Algunos verbos son reflexivos en un idioma y no en el otro."
+      "ficha_es": "Los verbos reflexivos (svegliarsi, alzarsi, lavarsi, vestirsi) usan los pronombres mi, ti, si, ci, vi: mi sveglio, ti alzi, si lava, ci vestiamo, vi riposate, si divertono. El español usa me, te, se, nos, os.\n\nEl pronombre va antes del verbo y siempre concuerda con el sujeto. Cuidado: el «se» español se escribe «si» en italiano (si lava) y no se confunde con «sì» (con tilde, «sí») ni con «se» (la conjunción «si» condicional). Algunos verbos son reflexivos en un idioma y no en el otro.",
+      "readings": [
+        "rd_giornatabrutta"
+      ]
     },
     {
       "id": "u23",
@@ -575,9 +584,6 @@
         "ERR_VOC_CORPO"
       ],
       "why_here": "Salud y descripciones; ejercita el género y el plural.",
-      "readings": [
-        "rd_aspetto"
-      ],
       "ficha_es": "El cuerpo: testa, mano, piede, occhio, naso, bocca, braccio, gamba, cuore, viso, orecchio, dente, schiena, dito, collo, spalla, pancia. Plurales irregulares: la mano → le mani; il braccio → le braccia; il dito → le dita; l'occhio → gli occhi.\n\nCon las partes del cuerpo se usa el artículo y no el posesivo: mi fa male la testa (me duele la cabeza), mi lavo le mani. Ojo: «collo» es el cuello, no «cuello» de camisa (colletto)."
     },
     {
@@ -636,7 +642,10 @@
         "ERR_PARTICIPIO_ES"
       ],
       "why_here": "Contar lo que hiciste; el A2 completa el pasado con el auxiliar essere.",
-      "ficha_es": "El passato prossimo se forma con avere + participio: ho mangiato, hai parlato, ha venduto, abbiamo dormito. El participio termina en -ato (-are), -uto (-ere) o -ito (-ire). No es -ado / -ido como en español (comido, hablado).\n\nEs el pasado de «lo que hice» (ho mangiato la pizza). Hay participios irregulares muy comunes (fatto, preso, letto, visto, detto), y muchos verbos de movimiento usan essere en vez de avere (sono andato): eso se trabaja en A2."
+      "ficha_es": "El passato prossimo se forma con avere + participio: ho mangiato, hai parlato, ha venduto, abbiamo dormito. El participio termina en -ato (-are), -uto (-ere) o -ito (-ire). No es -ado / -ido como en español (comido, hablado).\n\nEs el pasado de «lo que hice» (ho mangiato la pizza). Hay participios irregulares muy comunes (fatto, preso, letto, visto, detto), y muchos verbos de movimiento usan essere en vez de avere (sono andato): eso se trabaja en A2.",
+      "readings": [
+        "rd_viaggio"
+      ]
     },
     {
       "id": "u08",
@@ -713,9 +722,6 @@
         "ERR_VOC_SALUTE"
       ],
       "why_here": "Decir cómo te sientes, con tener/avere y el cuerpo ya vistos.",
-      "readings": [
-        "rd_giornatabrutta"
-      ],
       "ficha_es": "La salud: salute, febbre, tosse, dolore, malattia, raffreddore, influenza, medicina, pastiglia, ricetta, ambulanza, ferita, visita, paziente. Con avere: ho la febbre, ho la tosse, ho mal di testa, ho fame, ho sete, ho sonno, ho paura.\n\nPara el dolor: mi fa male la testa, ho mal di testa o ho male alla testa (me duele la cabeza). «Medicina» es el remedio y también la carrera."
     },
     {

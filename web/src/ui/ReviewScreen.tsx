@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import type { ContentPack, Lexeme } from "../content/load";
+import { wordLexeme } from "../state/words";
 import type { Card } from "../generated/card";
 import { afterReview, normalizeDay, pickItem, ratingFromAnswer, reviewQueue, type ReviewEntry } from "../state/session";
 import { newCard, review } from "../state/srs";
@@ -26,7 +27,7 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
 
   const entry = queue[i];
   const card: Card | null = "card" in entry ? entry.card : null;
-  const lexeme: Lexeme | undefined = "lexeme" in entry ? entry.lexeme : card?.subject.kind === "lexeme" ? pack.lexemes.find((l) => l.id === card.subject.ref) : undefined;
+  const lexeme: Lexeme | undefined = "lexeme" in entry ? entry.lexeme : card?.subject.kind === "lexeme" ? pack.lexemes.find((l) => l.id === card.subject.ref) ?? wordLexeme(pack, card.subject.ref) : undefined;
   const items = card?.subject.kind === "error_code" ? pack.itemsByCode[card.subject.ref] : undefined;
 
   if ("filler" in entry) {
@@ -89,7 +90,7 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
           ) : (
             <div>
               <p>{lexeme.gloss_es}</p>
-              <p><small>Falso amigo: no significa lo que parece en español.</small></p>
+              {lexeme.lexical_type === "false_friend" && <p><small>Falso amigo: no significa lo que parece en español.</small></p>}
               <p className="ratings">
                 {([["Otra vez", 1], ["Difícil", 2], ["Bien", 3], ["Fácil", 4]] as const).map(([label, r]) => (
                   <button key={r} type="button" onClick={() => grade(r)}>{label}</button>

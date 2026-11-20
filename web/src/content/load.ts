@@ -2,7 +2,7 @@ import type { Capsule } from "../generated/capsule";
 import type { Item } from "../generated/item";
 import { schemaValidator } from "./schemas";
 
-export type Lexeme = { id: string; form: string; gloss_es: string; lexical_type: "false_friend"; source: string; audio?: string };
+export type Lexeme = { id: string; form: string; gloss_es: string; lexical_type: "false_friend" | "neutral"; source: string; audio?: string };
 export type PackSentence = {
   id: string; it: string; es: string; author?: string; es_author?: string; license?: string;
   source_id?: string; es_source_id?: string; translation_kind?: "direct" | "llm"; cefr_estimate: string; audio?: string;

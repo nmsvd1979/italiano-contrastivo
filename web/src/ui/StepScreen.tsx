@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import type { ContentPack } from "../content/load";
 import { canDoStep, STEP_LABEL, stepsFor, unitViews, type UnitView } from "../state/course";
 import { finishStep, finishTest } from "../state/progress";
+import { addWordCards } from "../state/words";
 import { practiceItems, readingOf, reconstructionItems, stepSeconds, testItems, voiceItems } from "../state/steps";
 import type { StepId, Store } from "../state/store";
 import { formatDuration, loadSamples } from "../state/timing";
@@ -35,6 +36,7 @@ export function StepScreen({ unitId, step, pack, store }: { unitId: string; step
       setDone({ passed: res.passed, correct: r.correct, total: r.total });
     } else {
       await finishStep(store, unitId, step, now());
+      if (step === "palabras") await addWordCards(store, unit, now()); // las palabras estudiadas pasan al repaso espaciado
       setDone(r ? { correct: r.correct, total: r.total } : {});
     }
   };
