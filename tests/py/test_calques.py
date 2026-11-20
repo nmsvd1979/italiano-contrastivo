@@ -117,14 +117,15 @@ def test_los_codigos_cubiertos():
         "ERR_VOC_SALUTI", "ERR_VOC_DIMOSTRATIVI", "ERR_VOC_QUANTITA", "ERR_VOC_AVVERBI", "ERR_VOC_AGGETTIVI", "ERR_VOC_DENARO", "ERR_VOC_SALUTE", "ERR_PIACERE_ACCORDO",
         "ERR_VOC_NAZIONALITA", "ERR_VOC_FRUTTA", "ERR_VOC_NEGOZI", "ERR_VOC_IGIENE", "ERR_VOC_OGGETTI",
         "ERR_VOC_ASTRATTI", "ERR_VOC_NATURA", "ERR_VOC_CUCINA", "ERR_VOC_SCUOLA",
-        "ERR_GENERE_ES", "ERR_INDEFINITE_ARTICLE", "ERR_RIFLESSIVO_PRONOME", "ERR_PARTICIPIO_ES", "ERR_VOC_DIREZIONI"}
+        "ERR_GENERE_ES", "ERR_INDEFINITE_ARTICLE", "ERR_RIFLESSIVO_PRONOME", "ERR_PARTICIPIO_ES", "ERR_VOC_DIREZIONI",
+        "ERR_ORA_ES", "ERR_CHIAMARSI", "ERR_PRONOME_TONICO", "ERR_IMPERATIVO_FORMA"}
     assert find_calque("ERR_NO_EXISTE", "Ho fame.") is None
 
 
 NEW_CODES = {"ERR_ARTICLE_ALLOMORPH", "ERR_PARTICIPLE_AGREEMENT", "ERR_POSSESSIVE_SPELLING", "ERR_CONGIUNTIVO_OPINION",
              "ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL",
              "ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL", "ERR_PIACERE_ACCORDO",
-             "ERR_GENERE_ES", "ERR_INDEFINITE_ARTICLE", "ERR_RIFLESSIVO_PRONOME", "ERR_PARTICIPIO_ES"}
+             "ERR_GENERE_ES", "ERR_INDEFINITE_ARTICLE", "ERR_RIFLESSIVO_PRONOME", "ERR_PARTICIPIO_ES", "ERR_ORA_ES", "ERR_CHIAMARSI", "ERR_PRONOME_TONICO"}
 
 
 def test_ningun_calco_aparece_en_el_corpus_validado():
@@ -150,6 +151,9 @@ def test_ningun_calco_aparece_en_el_corpus_validado():
                 n = 2 if code.startswith("ERR_PRESENT_") else 1  # presente: pronombre + (non) + verbo
                 before = re.search(r"((?:\S+\s+){0,%d}\S+)\s*$" % (n - 1), d["it"][:c.start])
                 phrase = (before.group(0).strip() + " " if before else "").lower() + phrase
+            if code == "ERR_IMPERATIVO_FORMA":  # «apre la» solo es error como mandato al comienzo de la frase («Apre la porta!»); en medio es «él abre»
+                assert not re.search(r"(?:^|[.!?]\s)" + re.escape(phrase), corpus.lower()), (code, phrase)
+                continue
             if code == "ERR_COMPARATIVE_DI":  # «che me» solo es calco tras «più/meno + adjetivo»; «prima che me lo scordi» es otra cosa
                 phrase = r"(?:più|meno) \w+ " + re.escape(phrase)
             if c.kind == "omission":  # «tua idea» está dentro de «la tua idea»: solo cuenta si no lleva artículo antes

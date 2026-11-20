@@ -74,6 +74,17 @@
       "ficha_es": "Fórmulas de contacto: buongiorno (hasta la tarde), buonasera (desde la tarde), buonanotte (para despedirse e irse a dormir), ciao (informal, sirve para saludar y despedirse), arrivederci (despedida neutra), salve (saludo neutro), grazie y prego (de nada).\n\nRegistro: con una persona a quien tratas con respeto se usa «Lei» (scusi, come sta?); entre amigos, «tu» (scusa, come stai?). «Prego» significa también «adelante, pase». Ojo: «piacere» es «mucho gusto» al conocer a alguien; «per piacere» es «por favor»."
     },
     {
+      "id": "u60",
+      "level": "A1",
+      "title": "Presentarte: mi chiamo, ti chiami",
+      "goal_es": "Mi chiamo, ti chiami, si chiama: el reflexivo es mi/ti/si (no «me, te, se»).",
+      "codes": [
+        "ERR_CHIAMARSI"
+      ],
+      "why_here": "Es lo primero que dices al conocer a alguien, junto a los saludos.",
+      "ficha_es": "Para presentarte: Mi chiamo Ana (me llamo Ana), Sono cilena, Ho venti anni, Piacere (mucho gusto). Para preguntar el nombre a un amigo: Come ti chiami?; a una persona que tratas de usted: Come si chiama?\n\nChiamarsi es un verbo reflexivo: mi chiamo, ti chiami, si chiama, ci chiamiamo, vi chiamate, si chiamano. El español usa me, te, se, nos, os: «me chiamo» o «come te chiami» no existen en italiano. Otra forma es Il mio nome è… (mi nombre es…). Fuente: Leggiamo (LBCC), capítulo «Presentarsi»."
+    },
+    {
       "id": "u26",
       "level": "A1",
       "title": "Vocabulario: los números",
@@ -358,6 +369,17 @@
       "ficha_es": "Los días van sin mayúscula: lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica. Los meses también: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre. Las estaciones: primavera, estate, autunno, inverno.\n\n«Il lunedì» (con artículo) es «los lunes» (todos); «lunedì» solo es «este lunes». «In estate / d'estate» es «en verano». Los meses se usan con «a» o «in»: a marzo, in marzo."
     },
     {
+      "id": "u59",
+      "level": "A1",
+      "title": "La hora: sono le due e mezza, è l'una",
+      "goal_es": "Sono le… (plural) pero è l'una; «e un quarto», «e mezza», «meno»: no «y cuarto» ni «y media».",
+      "codes": [
+        "ERR_ORA_ES"
+      ],
+      "why_here": "Decir la hora y a qué hora haces las cosas, con los números y los días ya vistos.",
+      "ficha_es": "Para preguntar la hora: Che ore sono? o Che ora è? La respuesta usa el plural: Sono le due, Sono le tre… pero el singular para la una y el mediodía: È l'una, È mezzogiorno, È mezzanotte.\n\nLos minutos se dicen con e: Sono le tre e venti. Pasada la media hora se dice la hora siguiente + meno + los minutos que faltan: Sono le cinque meno dieci. Para cuarto y media: e un quarto, e mezza (o e mezzo), meno un quarto. El español dice «y cuarto» y «y media»: en italiano no se omite el «un» (e un quarto, no «e quarto») y se dice mezza (no «media»).\n\nPara decir a qué hora: alle due, alle tre; all'una; a mezzogiorno, a mezzanotte (sin artículo). Y para el momento del día: di mattina, del pomeriggio, di sera, di notte. Fuente: Piacere! (Univ. de Iowa), capítulo «L'ora»."
+    },
+    {
       "id": "u40",
       "level": "A1",
       "title": "Ieri, oggi, domani, sempre, mai",
@@ -451,6 +473,17 @@
         "rd_signoria"
       ],
       "ficha_es": "La preposición se une al artículo: in + il = nel, su + il = sul, da + il = dal, di + il = del, a + il = al. Con el resto de artículos: nella, sulla, dalla, dello, agli, ai, alle, dei, delle, negli, sui…\n\nEn español solo hay «al» y «del»; en italiano casi todas las combinaciones se contraen (nel, nella, sul, dal). Error típico: «in il» o «su la». Se escribe junto: nella casa, no «in la casa»."
+    },
+    {
+      "id": "u61",
+      "level": "A1",
+      "title": "Pronombres tónicos: con me, per te",
+      "goal_es": "Tras preposición: con me, per te, da me (no «con io», «per tu»).",
+      "codes": [
+        "ERR_PRONOME_TONICO"
+      ],
+      "why_here": "Después de las preposiciones ya vistas, para hablar de ti y de mí.",
+      "ficha_es": "Después de una preposición (con, per, da, di, a, senza, su, tra, fra) el italiano usa los pronombres tónicos: me, te, lui, lei, noi, voi, loro. Con el pronombre de «yo» y «tú» no se usan io y tu: con me, per te, da me, a te, senza di te.\n\nEl español junta la preposición en «conmigo» y «contigo»; el italiano las separa: con me, con te. Con lui, lei, noi, voi y loro el pronombre es igual que el de sujeto (con lui, per noi). También se usan para dar énfasis tras el verbo: Cerco proprio te. Fuente: Piacere! (Univ. de Iowa), capítulo «I pronomi tonici»."
     },
     {
       "id": "u57",
@@ -582,6 +615,17 @@
         "rd_lavoro"
       ],
       "ficha_es": "Escuela y trabajo: libro, penna, quaderno, classe, studente, studentessa, professore, professoressa, lezione, esame, compito, lavoro, ufficio, medico, dottore, cuoco, cameriere, avvocato.\n\nMuchas profesiones tienen femenino en -essa o -a (professoressa, studentessa, avvocata). «Compito» es la tarea (i compiti: los deberes); «lavoro» es el trabajo (no «labor»); «scuola» es colegio."
+    },
+    {
+      "id": "u62",
+      "level": "A1",
+      "title": "Imperativo: apri, chiudi, leggi",
+      "goal_es": "Imperativo de tú: parla (-are) y leggi, apri (-ere/-ire, como el presente de «tu»); el español usa «lee, abre».",
+      "codes": [
+        "ERR_IMPERATIVO_FORMA"
+      ],
+      "why_here": "Dar instrucciones sencillas, con los verbos de presente ya vistos.",
+      "ficha_es": "El imperativo de «tu» de los verbos en -are termina en -a: parla, guarda, mangia, aspetta. Los verbos en -ere y en -ire usan la misma forma de «tu» del presente: leggi, scrivi, apri, chiudi, dormi, finisci.\n\nEl español usa -e en esos verbos (lee, escribe, abre): en italiano «apre» sería «él abre», no el mandato. Irregulares: va' (o vai), fa' (o fai), da' (o dai), di', sta' (o stai). El negativo con «tu» es non + infinitivo: non parlare! (el español dice «no hables»); con noi y voi, non + presente. Fuente: Piacere! (Univ. de Iowa), capítulo «Imperativo (tu, noi, voi)»."
     },
     {
       "id": "u58",
@@ -770,11 +814,6 @@
     },
     {
       "level": "A2",
-      "title": "Imperativo negativo (non parlare!)",
-      "reason": "Su calco es italiano válido con otro sentido; no se puede generar solo."
-    },
-    {
-      "level": "A2",
       "title": "Ci y ne",
       "reason": "Sin generador fiable todavía."
     },
@@ -795,11 +834,6 @@
     },
     {
       "level": "A1",
-      "title": "Imperativo: apri, chiudi, vai",
-      "reason": "Dar instrucciones sencillas. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
-    },
-    {
-      "level": "A1",
       "title": "Pedir aclaraciones: come? non ho capito",
       "reason": "Estrategias de comunicación en A1. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
     },
@@ -812,21 +846,6 @@
       "level": "A1",
       "title": "Entonación: afirmación o pregunta",
       "reason": "Fonología A1: contorno de la pregunta y de la afirmación; necesita audio revisado. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
-    },
-    {
-      "level": "A1",
-      "title": "Presentarte: mi chiamo, sono di…, ho… anni",
-      "reason": "Son frases hechas; falta una regla con calco medible. Se trabaja en los diálogos de las lecturas (Leggiamo, Piacere!) hasta tener un generador fiable."
-    },
-    {
-      "level": "A1",
-      "title": "La hora y las fechas: che ore sono?",
-      "reason": "Sin diferencia sistemática con el español que se pueda generar como error; falta un conjunto de oraciones validadas con horas."
-    },
-    {
-      "level": "A1",
-      "title": "Pronombres tónicos: me, te, lui",
-      "reason": "Falta un generador fiable (el error depende de la preposición y del verbo)."
     },
     {
       "level": "A1",

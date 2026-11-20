@@ -2,7 +2,7 @@
 
 Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiempos a priori (no medidos). Objetivo por unidad: **62 min** (descubre 7 · palabras 5 · lectura 10 · capsula 4 · practica 10 · escucha 12 · practica2 10 · prueba 4); 40 oraciones con audio; 1 lectura.
 
-**A1 hoy: 44 unidades, 38.2 h de pasos** (objetivo 50 h con repasos y examen de hito; 7.2 h por producir en las unidades existentes, más las unidades nuevas del currículo).
+**A1 hoy: 48 unidades, 41.3 h de pasos** (objetivo 50 h con repasos y examen de hito; 8.3 h por producir en las unidades existentes, más las unidades nuevas del currículo).
 
 | Unidad | Nivel | Oraciones | Ítems | descubre | palabras | lectura | capsula | practica | escucha | practica2 | prueba | Total (min) | Falta (min) | Lectura |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -10,6 +10,7 @@ Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiem
 | u19 Sonidos: sce, sci y sche, schi | A1 | 34 | 95 | 7.1 | — | — | 3.2 | 10.5 | 12.3 | 10.1 | 2.5 | 45.7 | 16.3 | no |
 | u20 Sonidos: gli (figlio, famiglia) | A1 | 39 | 112 | 7.1 | — | — | 3.2 | 10.3 | 12.3 | 10.1 | 2.5 | 45.5 | 16.5 | no |
 | u37 Vocabulario: saludar y ser cortés | A1 | 29 | 116 | 7.1 | 3.8 | — | 3.2 | 10.4 | 12.3 | 10.2 | 2.5 | 49.5 | 12.5 | no |
+| u60 Presentarte: mi chiamo, ti chiami | A1 | 28 | 84 | 7.1 | — | — | 3.2 | 10.3 | 12.3 | 10.3 | 2.5 | 45.7 | 16.3 | no |
 | u26 Vocabulario: los números | A1 | 37 | 146 | 7.1 | 4.5 | 8.9 | 3.2 | 10.4 | 12.3 | 10.1 | 2.5 | 59 | 3 | sí |
 | u13 Essere y avere: sono, ho | A1 | 35 | 101 | 7.1 | — | 5.6 | 3.2 | 10 | 12.3 | 10.3 | 2.7 | 51.2 | 10.8 | sí |
 | u54 Género: il latte, la mappa (distinto del español) | A1 | 21 | 59 | 7.2 | — | — | 3.2 | 10.3 | 11 | 4.9 | 2.5 | 39.1 | 22.9 | no |
@@ -32,6 +33,7 @@ Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiem
 | u17 Volere, potere, dovere: voglio, posso, devo | A1 | 36 | 108 | 7.1 | — | — | 3.2 | 10.3 | 12.3 | 10.1 | 2.5 | 45.5 | 16.5 | no |
 | u36 Vocabulario: tiempo libre | A1 | 31 | 124 | 7.1 | 5.8 | — | 3.2 | 10.1 | 12.3 | 10.1 | 2.5 | 51.1 | 10.9 | no |
 | u25 Vocabulario: días, meses y estaciones | A1 | 33 | 132 | 7.1 | 6 | 7.7 | 3.2 | 10.4 | 12.3 | 10.2 | 2.5 | 59.4 | 2.6 | sí |
+| u59 La hora: sono le due e mezza, è l'una | A1 | 26 | 77 | 7.1 | — | — | 3.2 | 10.2 | 12.3 | 10.3 | 2.5 | 45.6 | 16.4 | no |
 | u40 Ieri, oggi, domani, sempre, mai | A1 | 21 | 84 | 7.1 | 4.5 | 6.4 | 3.2 | 10 | 11 | 3.9 | 2.5 | 48.6 | 13.4 | sí |
 | u56 Rutina diaria: mi sveglio, ti alzi (reflexivos) | A1 | 26 | 78 | 7.1 | — | — | 3.2 | 10.2 | 12.3 | 10.3 | 2.5 | 45.6 | 16.4 | no |
 | u23 Vocabulario: la casa | A1 | 33 | 132 | 7.1 | 6.5 | 9.3 | 3.2 | 10.4 | 12.3 | 10.2 | 2.5 | 61.5 | 0.5 | sí |
@@ -39,6 +41,7 @@ Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiem
 | u24 Vocabulario: la ciudad y la naturaleza | A1 | 36 | 143 | 7.1 | 7.3 | 8.1 | 3.2 | 10.2 | 12.3 | 10.1 | 2.5 | 60.8 | 1.2 | sí |
 | u05 Ciudades y países: a / in | A1 | 31 | 93 | 7.1 | — | 5.2 | 3.2 | 10.3 | 12.3 | 10.3 | 2.5 | 50.9 | 11.1 | sí |
 | u06 Preposición + artículo: nel, sul, dal | A1 | 38 | 111 | 7.1 | — | 8.1 | 3.2 | 10.3 | 12.3 | 10.2 | 2.5 | 53.7 | 8.3 | sí |
+| u61 Pronombres tónicos: con me, per te | A1 | 31 | 93 | 7.1 | — | — | 3.2 | 10.3 | 12.3 | 10.3 | 2.5 | 45.7 | 16.3 | no |
 | u57 Direcciones: a destra, a sinistra, dritto | A1 | 51 | 203 | 7.1 | 5.5 | 8.5 | 3.2 | 10.1 | 12.3 | 10.1 | 2.5 | 59.3 | 2.7 | sí |
 | u22 Vocabulario: comida y bebida | A1 | 37 | 148 | 7.1 | 8 | 13.5 | 3.2 | 10.4 | 12.3 | 10.2 | 2.5 | 67.2 | 0 | sí |
 | u44 Mi piace / mi piacciono | A1 | 42 | 126 | 7.1 | — | — | 3.2 | 10.3 | 12.3 | 10.1 | 2.5 | 45.5 | 16.5 | no |
@@ -49,6 +52,7 @@ Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiem
 | u33 Vocabulario: el tiempo y el clima | A1 | 24 | 96 | 7.1 | 5 | — | 3.2 | 10.1 | 12.3 | 6.5 | 2.5 | 46.7 | 15.3 | no |
 | u28 Vocabulario: los animales | A1 | 37 | 148 | 7.1 | 7.3 | — | 3.2 | 10.4 | 12.3 | 10.2 | 2.5 | 53 | 9 | no |
 | u29 Vocabulario: la escuela y el trabajo | A1 | 33 | 132 | 7.1 | 7.3 | 5 | 3.2 | 10.4 | 12.3 | 10.2 | 2.5 | 58 | 4 | sí |
+| u62 Imperativo: apri, chiudi, leggi | A1 | 37 | 111 | 7.1 | — | — | 3.2 | 10.3 | 12.3 | 10.3 | 2.5 | 45.7 | 16.3 | no |
 | u58 Passato prossimo (primer paso): ho mangiato | A1 | 21 | 62 | 7.1 | — | — | 3.2 | 10.1 | 11 | 5.4 | 2.5 | 39.3 | 22.7 | no |
 | u08 Sono andato: el auxiliar essere | A2 | 20 | 57 | 7.2 | — | — | 3.2 | 10.1 | 10.3 | 4.3 | 2.5 | 37.6 | 24.4 | no |
 | u09 Siamo andati: el participio concuerda | A2 | 24 | 68 | 7.1 | — | — | 3.2 | 10.1 | 12.3 | 8.5 | 2.5 | 43.7 | 18.3 | no |
