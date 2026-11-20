@@ -5,7 +5,7 @@ import type { ContentPack } from "../content/load";
 import type { Item } from "../generated/item";
 import { unitViews } from "../state/course";
 import { reconstructionItems, testItems } from "../state/steps";
-import { markStep } from "../state/course";
+import { markStep, stepsFor } from "../state/course";
 import { emptyProgress } from "../state/course";
 import { finishStep, finishTest, placeUnits } from "../state/progress";
 import { memoryStore } from "../state/store";
@@ -144,7 +144,7 @@ describe("pantallas de la ruta con el contenido real", () => {
     expect(screen.getByText("Completada")).toBeTruthy();
     expect(screen.getByText(/Siguiente: Descubre/)).toBeTruthy();
     expect(screen.getAllByText("Se abre al completar la anterior").length).toBe(TOTAL - 2);
-    expect(screen.getByText("Consonantes dobles")).toBeTruthy();
+    expect(screen.getByText(pack.course.planned.find((x) => x.level === "A1")!.title)).toBeTruthy(); // la primera unidad A1 aún «próximamente»
     expect(screen.getAllByText(/próximamente/).length).toBe(pack.course.planned.length);
   });
   it("la unidad lista 5 pasos con minutos y solo deja entrar al siguiente", async () => {
@@ -201,7 +201,7 @@ describe("flujo completo de una unidad en la interfaz", () => {
   it("Prueba contestada bien: completa la unidad y avisa que se abrió la siguiente", async () => {
     const store = memoryStore();
     let p = emptyProgress(U1);
-    for (const s of ["descubre", "capsula", "practica", "escucha", "practica2"] as const) p = markStep(p, s, NOW);
+    for (const s of stepsFor(pack.course.units[0]).filter((x) => x !== "prueba")) p = markStep(p, s, NOW);
     await store.putUnit(p);
     const unit = pack.course.units[0];
     render(<StepScreen unitId={U1} step="prueba" pack={pack} store={store} />);
@@ -231,7 +231,7 @@ describe("flujo completo de una unidad en la interfaz", () => {
   it("Prueba contestada mal: no completa, pide volver a la práctica y conserva lo demás", async () => {
     const store = memoryStore();
     let p = emptyProgress(U1);
-    for (const s of ["descubre", "capsula", "practica", "escucha", "practica2"] as const) p = markStep(p, s, NOW);
+    for (const s of stepsFor(pack.course.units[0]).filter((x) => x !== "prueba")) p = markStep(p, s, NOW);
     await store.putUnit(p);
     render(<StepScreen unitId={U1} step="prueba" pack={pack} store={store} />);
     for (let i = 0; i < 10; i++) {

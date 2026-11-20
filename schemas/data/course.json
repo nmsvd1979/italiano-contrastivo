@@ -38,7 +38,105 @@
         "ERR_C_G_PALATAL"
       ],
       "why_here": "Las fuentes ponen la fonética primero: es lo que más confunde al empezar.",
-      "ficha_es": "Las letras c y g suenan fuerte (como en «casa», «gato») ante a, o, u, y suave ante e, i: ce se lee «che» como en «chico» (cena), ci se lee «chi» (cinema); ge y gi suenan como la «j» inglesa de «jam» (gelato, giorno), no como la «j» española. Para el sonido fuerte ante e, i se agrega una h: che, chi, ghe, ghi (che, chiave, spaghetti, ghiaccio).\n\nCuidado: el español hace lo contrario con «que, qui» y «gue, gui». En italiano «che» se lee «ke» y «ce» se lee «che» (como la «ch» de «chico»). Escucha cada palabra y fíjate en la h."
+      "ficha_es": "Las letras c y g suenan fuerte (como en «casa», «gato») ante a, o, u, y suave ante e, i: ce se lee «che» como en «chico» (cena), ci se lee «chi» (cinema); ge y gi suenan como la «j» inglesa de «jam» (gelato, giorno), no como la «j» española. Para el sonido fuerte ante e, i se agrega una h: che, chi, ghe, ghi (che, chiave, spaghetti, ghiaccio).\n\nCuidado: el español hace lo contrario con «que, qui» y «gue, gui». En italiano «che» se lee «ke» y «ce» se lee «che» (como la «ch» de «chico»). Escucha cada palabra y fíjate en la h.",
+      "words": [
+        {
+          "form": "ciao",
+          "gender": "x",
+          "num": "x",
+          "gloss": "hola, chao"
+        },
+        {
+          "form": "cena",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la cena"
+        },
+        {
+          "form": "cinema",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el cine"
+        },
+        {
+          "form": "gelato",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el helado"
+        },
+        {
+          "form": "giorno",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el día"
+        },
+        {
+          "form": "gente",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la gente"
+        },
+        {
+          "form": "città",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la ciudad"
+        },
+        {
+          "form": "che",
+          "gender": "x",
+          "num": "x",
+          "gloss": "que, qué"
+        },
+        {
+          "form": "chi",
+          "gender": "x",
+          "num": "x",
+          "gloss": "quién"
+        },
+        {
+          "form": "chiave",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la llave"
+        },
+        {
+          "form": "perché",
+          "gender": "x",
+          "num": "x",
+          "gloss": "por qué, porque"
+        },
+        {
+          "form": "ghiaccio",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el hielo"
+        },
+        {
+          "form": "spaghetti",
+          "gender": "x",
+          "num": "x",
+          "gloss": "los espaguetis"
+        },
+        {
+          "form": "anche",
+          "gender": "x",
+          "num": "x",
+          "gloss": "también"
+        },
+        {
+          "form": "amici",
+          "gender": "x",
+          "num": "x",
+          "gloss": "los amigos"
+        },
+        {
+          "form": "giugno",
+          "gender": "x",
+          "num": "x",
+          "gloss": "junio"
+        }
+      ]
     },
     {
       "id": "u19",
@@ -49,7 +147,99 @@
         "ERR_SC_PALATAL"
       ],
       "why_here": "Sigue a c y g: mismo mecanismo de e/i con la h que endurece.",
-      "ficha_es": "El grupo sc suena «sh» suave ante e, i: sce y sci (scena, scienza, pesce, sciare). Con h vuelve a sonar «sk»: sche, schi (schema, schiena, pesche).\n\nPara un hispanohablante la dificultad es escribir lo que oyes: «pesce» (pez) y «pesche» (duraznos) se distinguen solo por la h. En esta unidad escuchas una frase y eliges la que está bien escrita."
+      "ficha_es": "El grupo sc suena «sh» suave ante e, i: sce y sci (scena, scienza, pesce, sciare). Con h vuelve a sonar «sk»: sche, schi (schema, schiena, pesche).\n\nPara un hispanohablante la dificultad es escribir lo que oyes: «pesce» (pez) y «pesche» (duraznos) se distinguen solo por la h. En esta unidad escuchas una frase y eliges la que está bien escrita.",
+      "words": [
+        {
+          "form": "scena",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la escena"
+        },
+        {
+          "form": "scienza",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la ciencia"
+        },
+        {
+          "form": "pesce",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el pescado"
+        },
+        {
+          "form": "sci",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el esquí"
+        },
+        {
+          "form": "scuola",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la escuela"
+        },
+        {
+          "form": "schiena",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la espalda"
+        },
+        {
+          "form": "schema",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el esquema"
+        },
+        {
+          "form": "schermo",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la pantalla"
+        },
+        {
+          "form": "fascia",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la banda"
+        },
+        {
+          "form": "scimmia",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el mono"
+        },
+        {
+          "form": "sciopero",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la huelga"
+        },
+        {
+          "form": "scherzo",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la broma"
+        },
+        {
+          "form": "pesche",
+          "gender": "x",
+          "num": "x",
+          "gloss": "los duraznos"
+        },
+        {
+          "form": "scarpa",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el zapato"
+        },
+        {
+          "form": "sciocco",
+          "gender": "x",
+          "num": "x",
+          "gloss": "tonto"
+        }
+      ]
     },
     {
       "id": "u20",
@@ -60,7 +250,317 @@
         "ERR_GLI_PALATAL"
       ],
       "why_here": "Tercer sonido que el español no tiene como tal; aparece en palabras de familia y cotidianas.",
-      "ficha_es": "gli se pronuncia como la «ll» del español de España (llave) o la «lli» de «million» en inglés: una l palatal, larga y suave (figlio, famiglia, moglie, voglio). No se lee «gli» como «gui-li» ni como una simple «l».\n\nSe escribe gli solo ante vocal en estas palabras; el artículo «gli» (gli amici) se pronuncia igual. Escucha y repite despacio: tu oído para esta combinación es el que más ayuda a escribir bien."
+      "ficha_es": "gli se pronuncia como la «ll» del español de España (llave) o la «lli» de «million» en inglés: una l palatal, larga y suave (figlio, famiglia, moglie, voglio). No se lee «gli» como «gui-li» ni como una simple «l».\n\nSe escribe gli solo ante vocal en estas palabras; el artículo «gli» (gli amici) se pronuncia igual. Escucha y repite despacio: tu oído para esta combinación es el que más ayuda a escribir bien.",
+      "words": [
+        {
+          "form": "figlio",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el hijo"
+        },
+        {
+          "form": "famiglia",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la familia"
+        },
+        {
+          "form": "moglie",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la esposa"
+        },
+        {
+          "form": "voglio",
+          "gender": "x",
+          "num": "x",
+          "gloss": "quiero"
+        },
+        {
+          "form": "foglio",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la hoja de papel"
+        },
+        {
+          "form": "aglio",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el ajo"
+        },
+        {
+          "form": "meglio",
+          "gender": "x",
+          "num": "x",
+          "gloss": "mejor"
+        },
+        {
+          "form": "tovaglia",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el mantel"
+        },
+        {
+          "form": "sbaglio",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el error"
+        },
+        {
+          "form": "luglio",
+          "gender": "x",
+          "num": "x",
+          "gloss": "julio"
+        },
+        {
+          "form": "figlia",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la hija"
+        },
+        {
+          "form": "bottiglia",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la botella"
+        },
+        {
+          "form": "paglia",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la paja"
+        },
+        {
+          "form": "coniglio",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el conejo"
+        },
+        {
+          "form": "consiglio",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el consejo"
+        }
+      ]
+    },
+    {
+      "id": "u63",
+      "level": "A1",
+      "title": "Sonidos: gn y z (gnocchi, pizza, grazie)",
+      "goal_es": "Gn suena como la ñ pero se escribe gn; la z suena [ts] o [dz] y no es «s» ni «c».",
+      "codes": [
+        "ERR_GN_Z_SPELLING"
+      ],
+      "why_here": "Después de c/g, sc y gli, los sonidos que el español escribe distinto.",
+      "ficha_es": "El grupo gn suena como la ñ española: gnocchi se pronuncia «ñoqui», lasagne «lasaña», bagno «baño». Se escribe siempre gn, nunca ñ.\\n\\nLa z italiana suena [ts] (pizza, grazie, zio con [dz]): se parece a «ts», no a la «z» española de España ni a una simple «s». No se escribe «c» ante e, i: grazie, pazienza (no «gracie», no «pacienza»). La doble zz es más larga: pizza, no «piza». En esta unidad escuchas una frase y eliges cómo se escribe. La voz es sintética: sus fonemas se comprobaron (gn → ɲ, z → ts/dz), pero un nativo no la verificó.",
+      "words": [
+        {
+          "form": "gnocchi",
+          "gender": "x",
+          "num": "x",
+          "gloss": "los ñoquis"
+        },
+        {
+          "form": "lasagne",
+          "gender": "x",
+          "num": "x",
+          "gloss": "las lasañas"
+        },
+        {
+          "form": "bagno",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el baño"
+        },
+        {
+          "form": "signora",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la señora"
+        },
+        {
+          "form": "ogni",
+          "gender": "x",
+          "num": "x",
+          "gloss": "cada"
+        },
+        {
+          "form": "insegnante",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el profesor"
+        },
+        {
+          "form": "pizza",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la pizza"
+        },
+        {
+          "form": "grazie",
+          "gender": "x",
+          "num": "x",
+          "gloss": "gracias"
+        },
+        {
+          "form": "zio",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el tío"
+        },
+        {
+          "form": "zucchero",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el azúcar"
+        },
+        {
+          "form": "nazione",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la nación"
+        },
+        {
+          "form": "stazione",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la estación"
+        },
+        {
+          "form": "pazienza",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la paciencia"
+        },
+        {
+          "form": "ragazzo",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el chico"
+        },
+        {
+          "form": "spagnolo",
+          "gender": "x",
+          "num": "x",
+          "gloss": "español"
+        },
+        {
+          "form": "montagna",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la montaña"
+        }
+      ]
+    },
+    {
+      "id": "u64",
+      "level": "A1",
+      "title": "Consonantes dobles (fato / fatto, sete / sette)",
+      "goal_es": "Las consonantes dobles se pronuncian más largas y cambian el significado: fato / fatto, caro / carro, pala / palla.",
+      "codes": [
+        "ERR_CONSONANTE_DOPPIA"
+      ],
+      "why_here": "Cierra los sonidos de A1: la diferencia de duración que el español casi no usa.",
+      "ficha_es": "En italiano las consonantes dobles no son un detalle de ortografía: se pronuncian más largas y cambian el sentido. Fato es el destino y fatto es «hecho»; sete es «sed» y sette es «siete»; pala es la pala y palla es la pelota; caro es «querido» y carro es «carro».\\n\\nPara decir la doble se mantiene el cierre de la consonante casi el doble de tiempo (t, p, c, l, n, m, r, b, d, g). Medimos la voz sintética Serena con pares mínimos: alarga el cierre de las oclusivas entre 1,5 y 3,5 veces y también las nasales y la l; no lo hace bien con la «ss», por eso esta unidad no la incluye. Practicas escuchando y eligiendo cómo se escribe; no se mide tu pronunciación y un nativo no ha verificado el audio.",
+      "words": [
+        {
+          "form": "fato",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el destino"
+        },
+        {
+          "form": "fatto",
+          "gender": "x",
+          "num": "x",
+          "gloss": "hecho"
+        },
+        {
+          "form": "sete",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la sed"
+        },
+        {
+          "form": "sette",
+          "gender": "x",
+          "num": "x",
+          "gloss": "siete"
+        },
+        {
+          "form": "pala",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la pala"
+        },
+        {
+          "form": "palla",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la pelota"
+        },
+        {
+          "form": "caro",
+          "gender": "x",
+          "num": "x",
+          "gloss": "querido, caro"
+        },
+        {
+          "form": "carro",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el carro"
+        },
+        {
+          "form": "pena",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la pena"
+        },
+        {
+          "form": "penna",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el bolígrafo"
+        },
+        {
+          "form": "nono",
+          "gender": "x",
+          "num": "x",
+          "gloss": "noveno"
+        },
+        {
+          "form": "nonno",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el abuelo"
+        },
+        {
+          "form": "mamma",
+          "gender": "x",
+          "num": "x",
+          "gloss": "la mamá"
+        },
+        {
+          "form": "bello",
+          "gender": "x",
+          "num": "x",
+          "gloss": "hermoso"
+        },
+        {
+          "form": "cappello",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el sombrero"
+        },
+        {
+          "form": "tutto",
+          "gender": "x",
+          "num": "x",
+          "gloss": "todo"
+        }
+      ]
     },
     {
       "id": "u37",
@@ -71,7 +571,10 @@
         "ERR_VOC_SALUTI"
       ],
       "why_here": "Las primeras palabras de cualquier conversación, antes de presentarte.",
-      "ficha_es": "Fórmulas de contacto: buongiorno (hasta la tarde), buonasera (desde la tarde), buonanotte (para despedirse e irse a dormir), ciao (informal, sirve para saludar y despedirse), arrivederci (despedida neutra), salve (saludo neutro), grazie y prego (de nada).\n\nRegistro: con una persona a quien tratas con respeto se usa «Lei» (scusi, come sta?); entre amigos, «tu» (scusa, come stai?). «Prego» significa también «adelante, pase». Ojo: «piacere» es «mucho gusto» al conocer a alguien; «per piacere» es «por favor»."
+      "ficha_es": "Fórmulas de contacto: buongiorno (hasta la tarde), buonasera (desde la tarde), buonanotte (para despedirse e irse a dormir), ciao (informal, sirve para saludar y despedirse), arrivederci (despedida neutra), salve (saludo neutro), grazie y prego (de nada).\n\nRegistro: con una persona a quien tratas con respeto se usa «Lei» (scusi, come sta?); entre amigos, «tu» (scusa, come stai?). «Prego» significa también «adelante, pase». Ojo: «piacere» es «mucho gusto» al conocer a alguien; «per piacere» es «por favor».",
+      "readings": [
+        "rd_ciao"
+      ]
     },
     {
       "id": "u60",
@@ -146,7 +649,10 @@
         "ERR_ARTICLE_ALLOMORPH"
       ],
       "why_here": "Cierra los artículos de A1 una vez vistas las contracciones.",
-      "ficha_es": "El artículo determinativo masculino es il (il libro), lo ante s + consonante, z, gn, ps (lo studente, lo zio) y l' ante vocal (l'amico). Plural: i (i libri) y gli (gli studenti, gli amici). Femenino: la (la casa), l' ante vocal (l'amica) y plural le (le case).\n\nEl español solo tiene «el, la, los, las». El italiano cambia el artículo según la primera letra de la palabra siguiente: por eso hay que fijarse en cómo empieza el sustantivo."
+      "ficha_es": "El artículo determinativo masculino es il (il libro), lo ante s + consonante, z, gn, ps (lo studente, lo zio) y l' ante vocal (l'amico). Plural: i (i libri) y gli (gli studenti, gli amici). Femenino: la (la casa), l' ante vocal (l'amica) y plural le (le case).\n\nEl español solo tiene «el, la, los, las». El italiano cambia el artículo según la primera letra de la palabra siguiente: por eso hay que fijarse en cómo empieza el sustantivo.",
+      "readings": [
+        "rd_medici"
+      ]
     },
     {
       "id": "u49",
@@ -196,7 +702,10 @@
         "ERR_VOC_NAZIONALITA"
       ],
       "why_here": "Decir de dónde eres y qué idiomas hablas, con essere y los adjetivos ya vistos.",
-      "ficha_es": "Las nacionalidades y los idiomas se escriben con minúscula en italiano: sono cileno, parlo spagnolo, è italiana. Cambian como los adjetivos: italiano/italiana/italiani/italiane. Las terminadas en -e (francese, inglese, giapponese, cinese) valen para masculino y femenino.\n\nEl idioma es masculino y suele llevar artículo: l'italiano è bello; pero con parlare y con in no lo lleva: parlo italiano, scrivo in italiano."
+      "ficha_es": "Las nacionalidades y los idiomas se escriben con minúscula en italiano: sono cileno, parlo spagnolo, è italiana. Cambian como los adjetivos: italiano/italiana/italiani/italiane. Las terminadas en -e (francese, inglese, giapponese, cinese) valen para masculino y femenino.\n\nEl idioma es masculino y suele llevar artículo: l'italiano è bello; pero con parlare y con in no lo lleva: parlo italiano, scrivo in italiano.",
+      "readings": [
+        "rd_descriviamo"
+      ]
     },
     {
       "id": "u30",
@@ -804,16 +1313,6 @@
   ],
   "planned": [
     {
-      "level": "A1",
-      "title": "Sonidos: gn y z",
-      "reason": "Falta un generador de ejercicios fiable (la z africada no se puede comprobar sin audio nativo)."
-    },
-    {
-      "level": "A1",
-      "title": "Consonantes dobles",
-      "reason": "Necesita comprobar con audio nativo cómo pronuncia Serena las geminadas."
-    },
-    {
       "level": "A2",
       "title": "Passato prossimo e imperfetto",
       "reason": "Sin generador de ejercicios fiable todavía."
@@ -851,7 +1350,7 @@
     {
       "level": "A1",
       "title": "Entonación: afirmación o pregunta",
-      "reason": "Fonología A1: contorno de la pregunta y de la afirmación; necesita audio revisado. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
+      "reason": "Medido con Serena (scripts/medir_entonacion.py): solo 7 de 10 frases suben ≥2 semitonos al final como pregunta, menos del 90 % exigido; además el español y el italiano usan una subida parecida. Queda para audio nativo verificado."
     },
     {
       "level": "A1",

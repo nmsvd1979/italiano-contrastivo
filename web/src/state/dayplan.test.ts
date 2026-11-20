@@ -22,7 +22,7 @@ describe("sesión de hoy", () => {
     const b = sessionFor();
     expect(b[0].key).toBe("repaso");
     expect(b[1]).toMatchObject({ key: "lectura", step: "descubre", done: false });
-    expect(b[2]).toMatchObject({ key: "gimnasio", step: "capsula" });
+    expect(b.map((x) => x.step)).toContain("capsula"); // las unidades de vocabulario y de sonidos intercalan «Palabras» antes
   });
   it("llena la sesión de ≈25–30 min sin pasarse mucho", () => {
     const total = sessionFor().reduce((t, b) => t + b.seconds, 0);

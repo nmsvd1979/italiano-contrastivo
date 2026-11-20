@@ -15,11 +15,6 @@
     "wrong": "Ci sono un ristorante qui."
   },
   {
-    "code": "ERR_POSSESSIVE_ARTICLE",
-    "correct": "Le mie sono peggio.",
-    "wrong": "Mie sono peggio."
-  },
-  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "Nel mondo ci sono quattro oceani.",
     "wrong": "Nel mondo c'è quattro oceani."
@@ -170,6 +165,11 @@
     "wrong": "Tom è più alto che me."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Bevo il tè al limone.",
+    "wrong": "Bevo il tè a il limone."
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "Ci sono molti topi sulla nave.",
     "wrong": "C'è molti topi sulla nave."
@@ -260,6 +260,11 @@
     "wrong": "Dovreste vedere mio gatto ora."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il tuo insegnante è vecchio.",
+    "wrong": "Tuo insegnante è vecchio."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Hanno molti fiori nel loro giardino?",
     "wrong": "Hanno molti fiori in il loro giardino?"
@@ -345,6 +350,16 @@
     "wrong": "Io non bevo di l'acqua."
   },
   {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "C'è un parrucchiere nell'hotel?",
+    "wrong": "Ci sono un parrucchiere nell'hotel?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'è un parrucchiere nell'hotel?",
+    "wrong": "C'è un parrucchiere in l'hotel?"
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Lei vive a Londra.",
     "wrong": "Lei vive in Londra."
@@ -405,6 +420,11 @@
     "wrong": "Bevi tuo tè."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Tom sta bevendo del tè.",
+    "wrong": "Tom sta bevendo di il tè."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "La donna ha ragione.",
     "wrong": "La donna tiene ragione."
@@ -441,6 +461,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Cos'hai nella borsa bianca ?",
+    "wrong": "Cos'hai in la borsa bianca ?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "I ratti abbondano nella discarica municipale.",
     "wrong": "I ratti abbondano in la discarica municipale."
   },
@@ -448,6 +473,11 @@
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è uno zoo a Boston?",
     "wrong": "Ci sono uno zoo a Boston?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Tutti fanno degli errori.",
+    "wrong": "Tutti fanno di gli errori."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -478,6 +508,11 @@
     "code": "ERR_TENERE_AVERE",
     "correct": "Posso chiudere la finestra? Ho freddo.",
     "wrong": "Posso chiudere la finestra? Tengo freddo."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La mia camera è molto piccola.",
+    "wrong": "Mia camera è molto piccola."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -601,6 +636,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Voglio andare sulla luna.",
+    "wrong": "Voglio andare su la luna."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io voglio andare sulla luna.",
     "wrong": "Io voglio andare su la luna."
   },
@@ -681,6 +721,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "State bevendo del tè verde?",
+    "wrong": "State bevendo di il tè verde?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Il pane sta cuocendo nel forno.",
     "wrong": "Il pane sta cuocendo in il forno."
   },
@@ -703,6 +748,16 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Peter vive con il suo amico.",
     "wrong": "Peter vive con suo amico."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La mappa è sul muro.",
+    "wrong": "La mappa è su il muro."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Alle donne piace il tè.",
+    "wrong": "A le donne piace il tè."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -733,6 +788,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io voglio vivere nel paese.",
     "wrong": "Io voglio vivere in il paese."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "I suoi occhi sono azzurri.",
+    "wrong": "Suoi occhi sono azzurri."
   },
   {
     "code": "ERR_PERSONAL_A",
@@ -930,6 +990,11 @@
     "wrong": "Ci sono un elenco telefonico qui?"
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Bisogna avere dedizione nel proprio mestiere.",
+    "wrong": "Bisogna avere dedizione in il proprio mestiere."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il tuo sangue è rosso.",
     "wrong": "Tuo sangue è rosso."
@@ -938,6 +1003,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Non ascolta i suoi genitori.",
     "wrong": "Non ascolta suoi genitori."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Io solitamente mi sveglio alle sei.",
+    "wrong": "Io solitamente mi sveglio a le sei."
   },
   {
     "code": "ERR_PERSONAL_A",
@@ -953,6 +1023,11 @@
     "code": "ERR_PERSONAL_A",
     "correct": "Tu conosci Tom di persona?",
     "wrong": "Tu conosci a Tom di persona?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Io solitamente mi alzo alle otto.",
+    "wrong": "Io solitamente mi alzo a le otto."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -988,6 +1063,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Ci sono molti animali nello zoo?",
     "wrong": "Ci sono molti animali in lo zoo?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sta bevendo del succo di mela.",
+    "wrong": "Sta bevendo di il succo di mela."
   },
   {
     "code": "ERR_PERSONAL_A",
@@ -1045,6 +1125,16 @@
     "wrong": "La musica nutre nostra immaginazione."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Ammetto il mio errore.",
+    "wrong": "Ammetto mio errore."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Quand'è il tuo compleanno?",
+    "wrong": "Quand'è tuo compleanno?"
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è un gatto.",
     "wrong": "Ci sono un gatto."
@@ -1078,6 +1168,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Cominciamo alle due e mezza.",
     "wrong": "Cominciamo a le due e mezza."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La sua spiegazione è poco convincente.",
+    "wrong": "Sua spiegazione è poco convincente."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -1286,6 +1381,11 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Dov'è la tua cravatta?",
+    "wrong": "Dov'è tua cravatta?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Dov'è la sua cravatta?",
     "wrong": "Dov'è sua cravatta?"
   },
@@ -1293,6 +1393,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Ti aspettano davanti alla porta.",
     "wrong": "Ti aspettano davanti a la porta."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Non è del tutto esatto.",
+    "wrong": "Non è di il tutto esatto."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -1365,6 +1470,11 @@
     "wrong": "Io non credo in la sua religione."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Come si chiama il vostro avvocato?",
+    "wrong": "Come si chiama vostro avvocato?"
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Mangiate, perché avete fame.",
     "wrong": "Mangiate, perché tenete fame."
@@ -1403,6 +1513,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Mi piace il gelato alla fragola.",
     "wrong": "Mi piace il gelato a la fragola."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Questa studentessa viene dal Giappone.",
+    "wrong": "Questa studentessa viene da il Giappone."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -1478,6 +1593,16 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "I miei genitori non mi capiscono.",
     "wrong": "Miei genitori non mi capiscono."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Tom sta andando nella direzione sbagliata.",
+    "wrong": "Tom sta andando in la direzione sbagliata."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Lei ha bisogno del nostro aiuto.",
+    "wrong": "Lei ha bisogno di il nostro aiuto."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -1605,6 +1730,16 @@
     "wrong": "Tom tiene paura di noi, vero?"
   },
   {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "C'è un cucchiaio.",
+    "wrong": "Ci sono un cucchiaio."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Preparare delle lezioni non è difficile.",
+    "wrong": "Preparare di le lezioni non è difficile."
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Tom sa che Mary ama John.",
     "wrong": "Tom sa che Mary ama a John."
@@ -1675,6 +1810,11 @@
     "wrong": "Ciao, mio nome è Tom."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La tua opinione è molto costruttiva.",
+    "wrong": "Tua opinione è molto costruttiva."
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "Oh, là c'è una farfalla!",
     "wrong": "Oh, là ci sono una farfalla!"
@@ -1728,6 +1868,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Come si chiama la tua ragazza?",
     "wrong": "Come si chiama tua ragazza?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Non ci sono uomini sulla luna.",
+    "wrong": "Non ci sono uomini su la luna."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -1820,6 +1965,11 @@
     "wrong": "Mi piace sua musica."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Siamo tutti delle scimmie.",
+    "wrong": "Siamo tutti di le scimmie."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Lei ha paura dei tuoni.",
     "wrong": "Lei tiene paura dei tuoni."
@@ -1856,8 +2006,23 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Come si chiama il tuo maestro?",
+    "wrong": "Come si chiama tuo maestro?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Lei non parla la nostra lingua.",
     "wrong": "Lei non parla nostra lingua."
+  },
+  {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "C'è un bar nell'hotel.",
+    "wrong": "Ci sono un bar nell'hotel."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'è un bar nell'hotel.",
+    "wrong": "C'è un bar in l'hotel."
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -1873,6 +2038,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Lei risponde alle domande?",
     "wrong": "Lei risponde a le domande?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Tutti nella foto stanno sorridendo.",
+    "wrong": "Tutti in la foto stanno sorridendo."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -1898,6 +2068,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Chi vuole della cioccolata calda?",
     "wrong": "Chi vuole di la cioccolata calda?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Hai degli impegni per questa sera?",
+    "wrong": "Hai di gli impegni per questa sera?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2026,6 +2201,11 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Hai ascoltato il suo messaggio?",
+    "wrong": "Hai ascoltato suo messaggio?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Non ho notato i tuoi capelli grigi.",
     "wrong": "Non ho notato tuoi capelli grigi."
   },
@@ -2038,6 +2218,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Prendi il tuo tempo prima di rispondere.",
     "wrong": "Prendi tuo tempo prima di rispondere."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sono le quattro e mezza del mattino.",
+    "wrong": "Sono le quattro e mezza di il mattino."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2068,6 +2253,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La scuola inizia alle otto e mezza.",
     "wrong": "La scuola inizia a le otto e mezza."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La scuola comincia alle otto e mezza.",
+    "wrong": "La scuola comincia a le otto e mezza."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -2110,6 +2300,21 @@
     "wrong": "Sono un po' più alto che te."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Ho capito il mio errore.",
+    "wrong": "Ho capito mio errore."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio cellulare è nella tasca dei miei pantaloni.",
+    "wrong": "Mio cellulare è nella tasca dei miei pantaloni."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il mio cellulare è nella tasca dei miei pantaloni.",
+    "wrong": "Il mio cellulare è in la tasca dei miei pantaloni."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Metti l'asciugamano sul porta asciugamani per farlo asciugare.",
     "wrong": "Metti l'asciugamano su il porta asciugamani per farlo asciugare."
@@ -2123,6 +2328,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "La sua risposta era logica.",
     "wrong": "Sua risposta era logica."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Non riesco a trovare i miei guanti.",
+    "wrong": "Non riesco a trovare miei guanti."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -2223,6 +2433,11 @@
     "code": "ERR_CE_AGREEMENT",
     "correct": "Finché c'è un obiettivo, c'è speranza.",
     "wrong": "Finché ci sono un obiettivo, c'è speranza."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ha evitato di rispondere alle mie domande.",
+    "wrong": "Ha evitato di rispondere a le mie domande."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -2385,6 +2600,11 @@
     "wrong": "La popolazione di l'Uganda è in rapida crescita."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Io ceno alle sette e un quarto.",
+    "wrong": "Io ceno a le sette e un quarto."
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è un gatto sotto la scrivania.",
     "wrong": "Ci sono un gatto sotto la scrivania."
@@ -2398,6 +2618,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Taro è morto due anni fa.",
     "wrong": "Taro ha morto due anni fa."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Non puoi andare a casa fino alle due e mezza.",
+    "wrong": "Non puoi andare a casa fino a le due e mezza."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2448,6 +2673,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Perché non ci incontriamo alle due e mezza?",
     "wrong": "Perché non ci incontriamo a le due e mezza?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio appuntamento è alle due e mezza.",
+    "wrong": "Mio appuntamento è alle due e mezza."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il mio appuntamento è alle due e mezza.",
+    "wrong": "Il mio appuntamento è a le due e mezza."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -2505,6 +2740,11 @@
     "wrong": "Lui abbreviava suoi discorsi."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Non ho potuto controllare le mie lacrime.",
+    "wrong": "Non ho potuto controllare mie lacrime."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Siamo andati a Londra l'anno scorso.",
     "wrong": "Abbiamo andati a Londra l'anno scorso."
@@ -2551,6 +2791,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La registrazione comincia alle due e mezza.",
+    "wrong": "La registrazione comincia a le due e mezza."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Al momento non ho bisogno di soldi.",
     "wrong": "A il momento non ho bisogno di soldi."
   },
@@ -2558,6 +2803,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Tutti i fiori nel giardino sono gialli.",
     "wrong": "Tutti i fiori in il giardino sono gialli."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ti piace dormire con il rumore della pioggia?",
+    "wrong": "Ti piace dormire con il rumore di la pioggia?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2583,6 +2833,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io vado a letto alle dieci e mezza.",
     "wrong": "Io vado a letto a le dieci e mezza."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Lei ha fino alle due e mezza.",
+    "wrong": "Lei ha fino a le due e mezza."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2626,8 +2881,18 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "John ha accompagnato Mary al concerto.",
+    "wrong": "John ha accompagnato Mary a il concerto."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Devi toglierti le scarpe prima di entrare nella stanza.",
     "wrong": "Devi toglierti le scarpe prima di entrare in la stanza."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Qualcuno ha rubato il mio orologio.",
+    "wrong": "Qualcuno ha rubato mio orologio."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2655,6 +2920,11 @@
     "wrong": "Riesci a distinguere l'argento da lo stagno?"
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il ghiaccio nel mare artico sta scomparendo.",
+    "wrong": "Il ghiaccio in il mare artico sta scomparendo."
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "Dalla cima di quell'albero c'è una vista fantastica.",
     "wrong": "Dalla cima di quell'albero ci sono una vista fantastica."
@@ -2668,16 +2938,6 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Mi sono alzato presto come al solito.",
     "wrong": "Mi sono alzato presto come a il solito."
-  },
-  {
-    "code": "ERR_PREP_ARTICLE_CONTRACTION",
-    "correct": "L'esercito avanzò sulla collina.",
-    "wrong": "L'esercito avanzò su la collina."
-  },
-  {
-    "code": "ERR_PREP_ARTICLE_CONTRACTION",
-    "correct": "C'era qualcuno nel bar?",
-    "wrong": "C'era qualcuno in il bar?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2901,6 +3161,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Non si può andare a casa fino alle due e mezza.",
+    "wrong": "Non si può andare a casa fino a le due e mezza."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Penso che questa sia la parte migliore del film.",
     "wrong": "Penso che questa sia la parte migliore di il film."
   },
@@ -2943,6 +3208,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il suo inglese è migliorato molto.",
     "wrong": "Suo inglese è migliorato molto."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La colazione è inclusa nel prezzo?",
+    "wrong": "La colazione è inclusa in il prezzo?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",

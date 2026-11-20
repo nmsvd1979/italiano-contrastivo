@@ -27,7 +27,7 @@ export function WordsStep({ unit, onFinish, exitHref = "#/" }: { unit: Unit; onF
             <br />
             {hide && !shown.has(w.form)
               ? <button type="button" onClick={() => toggle(w.form)}>Ver significado</button>
-              : <span>{w.gloss} <small>({KIND[`${w.gender}|${w.num}`] ?? ""})</small></span>}
+              : <span>{w.gloss}{KIND[`${w.gender}|${w.num}`] && <small> ({KIND[`${w.gender}|${w.num}`]})</small>}</span>}
           </li>
         ))}
       </ul>

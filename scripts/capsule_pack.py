@@ -42,5 +42,18 @@ for code, lst in pool.items():
     for direct, sid, d in lst[:PER_CODE]:
         items.append({"id": sid, "codigo": code, "italiano": d["it"], "espanol_tatoeba": d["es"] if direct else None,
                       "nivel_estimado": d["cefr_estimate"], "directa": direct})
+# Prefiltro automático (pipeline/audit_rules.py): lo que siempre se rechaza a mano se rechaza aquí, con su motivo, y no llega al auditor.
+from pipeline.audit_rules import prefilter  # noqa: E402
+
+reasons = prefilter(items)
+VERDICTS = OUT / "verdicts.json"
+verdicts = json.loads(VERDICTS.read_text(encoding="utf8")) if VERDICTS.exists() else []
+known = {v["id"] for v in verdicts}
+auto = [{"id": i["id"], "codigo": i["codigo"], "veredicto": "reject", "nota": "prefiltro: " + r, "auto": True} for i, r in zip(items, reasons) if r and i["id"] not in known]
+items = [i for i, r in zip(items, reasons) if not r]
+VERDICTS.write_text(json.dumps(verdicts + auto, ensure_ascii=False, indent=1), encoding="utf8")
 (OUT / OUTFILE).write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf8")
-print(len(items), {c: sum(1 for i in items if i["codigo"] == c) for c in ONLY})
+from collections import Counter  # noqa: E402
+
+print(f"{len(items)} para auditar; {len(auto)} rechazadas por el prefiltro:", dict(Counter(a["nota"].split(" (")[0] for a in auto)))
+print({c: sum(1 for i in items if i["codigo"] == c) for c in ONLY})

@@ -151,6 +151,10 @@ def main(argv: list[str] | None = None) -> int:
 
                 rs = readings.build_pack(Path("content/readings"), args.pack_dir)
                 print(f"  lecturas: {len(rs)}, oraciones: {sum(len(r['sentences']) for r in rs)}")
+                from pipeline.exercises import reading_items
+
+                ri = reading_items.build_pack(args.pack_dir, Path("schemas/data/course.json"))
+                print(f"  ejercicios de lecturas: {sum(len(v) for v in ri.values())}")
             elif st == "tts":
                 from pipeline.tts import generate as tg, piper_lote
 
