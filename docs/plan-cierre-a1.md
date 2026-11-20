@@ -1,5 +1,14 @@
 # Plan para cerrar A1 sin repetir pasadas (2026-11-20)
 
+## Estado (2026-11-21)
+- **A hecha:** prefiltro automático (`pipeline/audit_rules.py`, medido con `scripts/audit_rules_eval.py`); barrido del español publicado (9 traducciones con «vosotros» retraducidas; 8 oraciones fuera de nivel retiradas).
+- **B hecha:** 1.205 ejercicios derivados de las lecturas (`pipeline/exercises/reading_items.py`).
+- **E hecha:** ninguna unidad A1 con menos de 30 oraciones auditadas.
+- **S hecha:** Serena alarga bien las geminadas oclusivas, nasales, l y r (cierre ×1,5 a ×3,5; falla la «ss») y los fonemas de gn y z son correctos; la entonación no pasa (7 de 10 preguntas, bajo el 90 %). Unidades nuevas «Sonidos: gn y z» y «Consonantes dobles»; entonación queda «próximamente».
+- **C parcial:** todas las unidades de vocabulario y sonidos tienen «palabras»; 33 de 50 tienen lectura. Faltan lectura en 7 unidades de gramática (u54, u55, u16, u17, u61, u44, u62): declarado en `web/src/state/cierreA1.test.ts` (KNOWN_GAPS); si se llena una, el test obliga a quitarla de la lista.
+- **D pendiente:** pedir aclaraciones y vorrei (necesitan diálogos con ejercicios propios).
+- **F parcial:** test de «A1 cerrado» creado; paquete de revisión nativa en `docs/revision-nativo.md` (`scripts/paquete_revision.py`). Falta revisar el hito y la prueba de ubicación a mano con las 50 unidades.
+
 ## Estado medido (núcleo A1: 48 unidades)
 - 16 unidades sin lectura: u18, u19, u20, u54, u55, u07, u49, u39, u16, u17, u61, u44, u27, u33, u28, u62.
 - 14 unidades con menos de 30 oraciones auditadas (el mínimo aprobado era ≈40): u37, u60, u54, u55, u41, u38, u59, u40, u56, u35, u31, u42, u33, u58.

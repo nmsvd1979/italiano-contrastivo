@@ -1,0 +1,128 @@
+{
+  "id": "rd_medici",
+  "title": "La famiglia dei Medici",
+  "level": "A1",
+  "kind": "lectura",
+  "source": {
+    "book": "Tutt* a tavola! Volume 1 (UMass Amherst)",
+    "authors": "Stacy Giufre y Melina Masterson",
+    "url": "https://openbooks.library.umass.edu/tutt-a-tavola-vol-1/chapter/capitolo-4/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se tomó solo la descripción del árbol genealógico del capítulo 4; se quitaron las glosas en inglés y los ejercicios.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_medici_00",
+      "it": "La moglie di Piero il Gottoso si chiama Lucrezia.",
+      "es": "La esposa de Piero el Gotoso se llama Lucrezia."
+    },
+    {
+      "id": "rd_medici_01",
+      "it": "Il marito di Clarice Orsini si chiama Lorenzo.",
+      "es": "El marido de Clarice Orsini se llama Lorenzo."
+    },
+    {
+      "id": "rd_medici_02",
+      "it": "I fratelli di Giovanni sono Piero e Carlo.",
+      "es": "Los hermanos de Giovanni son Piero y Carlo."
+    },
+    {
+      "id": "rd_medici_03",
+      "it": "Carlo non ha una sorella.",
+      "es": "Carlo no tiene una hermana."
+    },
+    {
+      "id": "rd_medici_04",
+      "it": "Gli zii di Giovanni il Popolano sono Carlo, Giovanni e Pietro il Gottoso.",
+      "es": "Los tíos de Giovanni el Popular son Carlo, Giovanni y Pietro el Gotoso."
+    },
+    {
+      "id": "rd_medici_05",
+      "it": "I nipoti di Giovanni di Bicci sono Pierfrancesco, Carlo, Giovanni e Pietro il Gottoso.",
+      "es": "Los nietos de Giovanni di Bicci son Pierfrancesco, Carlo, Giovanni y Pietro el Gotoso."
+    },
+    {
+      "id": "rd_medici_06",
+      "it": "La zia di Lorenzo è Lucrezia Tornabuoni.",
+      "es": "La tía de Lorenzo es Lucrezia Tornabuoni."
+    },
+    {
+      "id": "rd_medici_07",
+      "it": "I nipoti di Giovanni delle Bande Nere sono Caterina e Alessandro.",
+      "es": "Los nietos de Giovanni delle Bande Nere son Caterina y Alessandro."
+    },
+    {
+      "id": "rd_medici_08",
+      "it": "Il nonno di Pietro il Fatuo è Pietro il Gottoso; la nonna si chiama Lucrezia.",
+      "es": "El abuelo de Pietro el Fatuo es Pietro el Gotoso; la abuela se llama Lucrezia."
+    },
+    {
+      "id": "rd_medici_09",
+      "it": "Il padre di Cosimo il Vecchio è Giovanni di Bicci.",
+      "es": "El padre de Cosimo el Viejo es Giovanni di Bicci."
+    },
+    {
+      "id": "rd_medici_10",
+      "it": "La madre di Lucrezia è Clarissa.",
+      "es": "La madre de Lucrezia es Clarissa."
+    },
+    {
+      "id": "rd_medici_11",
+      "it": "I genitori di Giuliano sono Pietro il Gottoso e Lucrezia.",
+      "es": "Los padres de Giuliano son Pietro el Gotoso y Lucrezia."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cómo se llama la esposa de Piero il Gottoso?",
+      "options": [
+        "Lucrezia",
+        "Clarice",
+        "Caterina"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Cómo se llama el marido de Clarice Orsini?",
+      "options": [
+        "Carlo",
+        "Lorenzo",
+        "Alessandro"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Quiénes son los hermanos de Giovanni?",
+      "options": [
+        "Lorenzo y Cosimo",
+        "Caterina y Alessandro",
+        "Piero y Carlo"
+      ],
+      "answer": 2,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Cuántas hermanas tiene Carlo?",
+      "options": [
+        "Ninguna",
+        "Una",
+        "Dos"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Quién es el abuelo de Pietro il Fatuo?",
+      "options": [
+        "Cosimo il Vecchio",
+        "Pietro il Gottoso",
+        "Giovanni di Bicci"
+      ],
+      "answer": 1,
+      "evidence": 8
+    }
+  ]
+}
