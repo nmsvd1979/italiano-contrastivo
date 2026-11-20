@@ -1,5 +1,5 @@
 import type { ContentPack } from "../content/load";
-import { STEP_LABEL, stepsFor, summary, type UnitView } from "../state/course";
+import { isOptional, STEP_LABEL, stepsFor, summary, type UnitView } from "../state/course";
 import { stepSeconds } from "../state/steps";
 import { formatDuration, loadSamples } from "../state/timing";
 import { hitoId, milestoneOpen } from "../state/milestone";
@@ -35,8 +35,8 @@ export function RouteScreen({ views, pack, hito }: { views: UnitView[]; pack: Co
                   {v.state === "locked" ? <strong>{v.unit.title}</strong> : <a href={`#/unidad/${v.unit.id}`}><strong>{v.unit.title}</strong></a>}
                   <small>
                     {v.state === "completed" ? `Completada${v.progress.mastery === "ubicacion" ? " (por la prueba de ubicación)" : ""}`
-                      : v.state === "current" ? `Siguiente: ${STEP_LABEL[v.next ?? "descubre"]} (${formatDuration(stepSeconds(v.unit, v.next ?? "descubre", pack, samples))}) · ${stepsFor(v.unit).filter((s) => v.progress.done[s]).length} de ${stepsFor(v.unit).length} pasos`
-                      : "Se abre al completar la anterior"}
+                      : v.state === "current" ? `${isOptional(v.unit) ? "Opcional, empieza cuando quieras" : "Siguiente"}: ${STEP_LABEL[v.next ?? "descubre"]} (${formatDuration(stepSeconds(v.unit, v.next ?? "descubre", pack, samples))}) · ${stepsFor(v.unit).filter((s) => v.progress.done[s]).length} de ${stepsFor(v.unit).length} pasos`
+                      : isOptional(v.unit) ? "Opcional: se abre al completar la anterior de este bloque" : "Se abre al completar la anterior"}
                   </small>
                   </span>
                 </li>

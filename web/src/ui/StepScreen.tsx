@@ -10,6 +10,7 @@ import { fromItems, fromVoice, ItemRunner, type RunResult } from "./ItemRunner";
 import { Ring } from "./kit/Ring";
 import { NoticeStep } from "./NoticeStep";
 import { ReadingStep } from "./ReadingStep";
+import { WordsStep } from "./WordsStep";
 
 type Done = { passed?: boolean; correct?: number; total?: number };
 
@@ -48,6 +49,7 @@ export function StepScreen({ unitId, step, pack, store }: { unitId: string; step
       {step === "descubre" && phase === "rebuild" && (
         <ItemRunner {...run} persistKey={`${unitId}:descubre`} items={fromItems(reconstructionItems(unit, pack, samples))} requeueWrong onFinish={(r) => void finish(r)} />
       )}
+      {step === "palabras" && <WordsStep unit={unit} exitHref={exit} onFinish={() => void finish()} />}
       {step === "lectura" && readingOf(unit, pack) && <ReadingStep reading={readingOf(unit, pack)!} exitHref={exit} onFinish={() => void finish()} />}
       {step === "capsula" && <CapsuleScreen capsule={pack.capsules.find((c) => c.target_error_codes[0] === unit.codes[0])!} store={store} embedded exitHref={exit} onComplete={() => void finish()} />}
       {step === "practica" && <ItemRunner {...run} persistKey={`${unitId}:practica`} items={fromItems(practiceItems(unit, pack, samples))} requeueWrong onFinish={(r) => void finish(r)} />}

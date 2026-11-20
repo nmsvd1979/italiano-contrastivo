@@ -48,7 +48,10 @@ def build_course(sentences: list[dict], catalog: dict[str, dict]) -> dict:
         code = u["codes"][0]
         parts = assign_parts(usable[code], u["codes"])
         by_id = {s["id"]: s for s in usable[code]}
-        units.append({**u, "status": "active", "explanation_es": catalog[code]["explanation_es"], "parts": parts,
+        from pipeline.exercises import vocab
+        from pipeline.tts.ids import clip_id
+        words = [{"form": e.form, "gender": e.gender, "num": e.num, "gloss": e.gloss, "audio": clip_id(e.form)} for e in vocab.topics().get(code, [])]
+        units.append({**u, **({"words": words} if words else {}), "status": "active", "explanation_es": catalog[code]["explanation_es"], "parts": parts,
                       "divergences": [_divergence(code, by_id[i]) for i in parts["descubre"]]})
     return {"version": raw["version"], "levels": raw["levels"], "units": units, "planned": planned}
 

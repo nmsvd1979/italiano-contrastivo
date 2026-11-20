@@ -8,6 +8,11 @@
       "guided_hours": "40–50 h guiadas acumuladas"
     },
     {
+      "id": "A1+",
+      "title": "A1+ · Vocabulario ampliado (opcional)",
+      "guided_hours": "opcional: no cuenta para el examen de hito"
+    },
+    {
       "id": "A2",
       "title": "A2 · Pasado, preposiciones y comparaciones",
       "guided_hours": "90–100 h acumuladas"
@@ -55,6 +60,29 @@
       "why_here": "Tercer sonido que el español no tiene como tal; aparece en palabras de familia y cotidianas."
     },
     {
+      "id": "u37",
+      "level": "A1",
+      "title": "Vocabulario: saludar y ser cortés",
+      "goal_es": "Buongiorno, buonasera, ciao, arrivederci, grazie, prego, scusi/scusa… y cuándo usar el trato formal.",
+      "codes": [
+        "ERR_VOC_SALUTI"
+      ],
+      "why_here": "Las primeras palabras de cualquier conversación, antes de presentarte."
+    },
+    {
+      "id": "u26",
+      "level": "A1",
+      "title": "Vocabulario: los números",
+      "goal_es": "Due, tre, quattro… venti, cento, mille, en oraciones reales (hora, edad, cantidades).",
+      "codes": [
+        "ERR_VOC_NUMERI"
+      ],
+      "why_here": "Edad, hora y precios aparecen desde el primer día.",
+      "readings": [
+        "rd_bargello"
+      ]
+    },
+    {
       "id": "u13",
       "level": "A1",
       "title": "Essere y avere: sono, ho",
@@ -68,17 +96,60 @@
       ]
     },
     {
-      "id": "u21",
+      "id": "u07",
       "level": "A1",
-      "title": "Vocabulario: la familia y las personas",
-      "goal_es": "Madre, padre, hermano, hijo, amigo… con su artículo y su género.",
+      "title": "Il, lo, l' y gli, i: elegir el artículo",
+      "goal_es": "Ante s+consonante, z, gn o ps se usa lo (lo studente) y gli (gli studenti), no il / i.",
       "codes": [
-        "ERR_VOC_FAMILIA"
+        "ERR_ARTICLE_ALLOMORPH"
       ],
-      "why_here": "Primer vocabulario: hablar de ti y de tu gente.",
+      "why_here": "Cierra los artículos de A1 una vez vistas las contracciones.",
       "readings": [
-        "rd_incontro"
+        "rd_passatempi"
       ]
+    },
+    {
+      "id": "u49",
+      "level": "A1",
+      "title": "Vocabulario: objetos de todos los días",
+      "goal_es": "Telefono, cellulare, zaino, matita, lettera, regalo, foglio… y «lettera» = carta que se envía.",
+      "codes": [
+        "ERR_VOC_OGGETTI"
+      ],
+      "why_here": "Nombrar lo que usas y llevas a diario."
+    },
+    {
+      "id": "u41",
+      "level": "A1",
+      "title": "Vocabulario: cómo es (adjetivos)",
+      "goal_es": "Alto, bello, buono, grande, simpatico, giovane… y la concordancia en género (alto/alta) y en -e (grande).",
+      "codes": [
+        "ERR_VOC_AGGETTIVI"
+      ],
+      "why_here": "Describir personas y cosas, con los colores y el vocabulario ya visto.",
+      "readings": [
+        "rd_david"
+      ]
+    },
+    {
+      "id": "u32",
+      "level": "A1",
+      "title": "Vocabulario: los colores",
+      "goal_es": "Rosso, bianco, nero, giallo, verde, blu… y cómo cambian con el género (rossa) o no cambian (blu, rosa).",
+      "codes": [
+        "ERR_VOC_COLORI"
+      ],
+      "why_here": "Describir cosas y personas con colores que concuerdan con lo que describen."
+    },
+    {
+      "id": "u45",
+      "level": "A1",
+      "title": "Vocabulario: países y nacionalidades",
+      "goal_es": "Italiano, spagnolo, francese, inglese, cileno… y que se escriben con minúscula (parlo spagnolo).",
+      "codes": [
+        "ERR_VOC_NAZIONALITA"
+      ],
+      "why_here": "Decir de dónde eres y qué idiomas hablas, con essere y los adjetivos ya vistos."
     },
     {
       "id": "u30",
@@ -94,133 +165,16 @@
       ]
     },
     {
-      "id": "u04",
+      "id": "u21",
       "level": "A1",
-      "title": "Tener no es «tenere»: ho fame",
-      "goal_es": "Sensaciones y edad con avere (ho fame, ho paura), no con tenere.",
+      "title": "Vocabulario: la familia y las personas",
+      "goal_es": "Madre, padre, hermano, hijo, amigo… con su artículo y su género.",
       "codes": [
-        "ERR_TENERE_AVERE"
+        "ERR_VOC_FAMILIA"
       ],
-      "why_here": "Léxico básico de A1 con calco muy frecuente.",
+      "why_here": "Primer vocabulario: hablar de ti y de tu gente.",
       "readings": [
-        "rd_faccende"
-      ]
-    },
-    {
-      "id": "u14",
-      "level": "A1",
-      "title": "Verbos en -are: parlo, parli, parla",
-      "goal_es": "Terminaciones del presente de los verbos en -are; el español -as, -amos, -an no existe en italiano.",
-      "codes": [
-        "ERR_PRESENT_ARE"
-      ],
-      "why_here": "Es el grupo más grande de verbos y donde más pesa el calco de las terminaciones.",
-      "readings": [
-        "rd_routine"
-      ]
-    },
-    {
-      "id": "u22",
-      "level": "A1",
-      "title": "Vocabulario: comida y bebida",
-      "goal_es": "Pane, latte, acqua, mela, pesce, caffè… y los falsos amigos burro y torta.",
-      "codes": [
-        "ERR_VOC_CIBO"
-      ],
-      "why_here": "Vocabulario de uso inmediato para pedir y hablar de lo que comes.",
-      "readings": [
-        "rd_ristorante"
-      ]
-    },
-    {
-      "id": "u15",
-      "level": "A1",
-      "title": "Verbos en -ere e -ire: leggo, dormo, finisco",
-      "goal_es": "Terminaciones de -ere (leggo, leggi, legge…) y de -ire, con -isc- en finire, capire, preferire.",
-      "codes": [
-        "ERR_PRESENT_ERE_IRE"
-      ],
-      "why_here": "Completa los dos grupos regulares tras los verbos en -are.",
-      "readings": [
-        "rd_tempolibero"
-      ]
-    },
-    {
-      "id": "u23",
-      "level": "A1",
-      "title": "Vocabulario: la casa",
-      "goal_es": "Stanza, cucina, camera, bagno, porta, finestra, tavolo… y el artículo con vocal inicial (l'appartamento).",
-      "codes": [
-        "ERR_VOC_CASA"
-      ],
-      "why_here": "Describir dónde vives, con los verbos de presente ya vistos.",
-      "readings": [
-        "rd_casa"
-      ]
-    },
-    {
-      "id": "u16",
-      "level": "A1",
-      "title": "Andare, fare, stare, venire: vado, faccio",
-      "goal_es": "Las formas irregulares más usadas: vado, faccio, sto, vengo, do, dico, so, esco.",
-      "codes": [
-        "ERR_PRESENT_IRREGULAR"
-      ],
-      "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques.",
-      "readings": [
-        "rd_giornata"
-      ]
-    },
-    {
-      "id": "u24",
-      "level": "A1",
-      "title": "Vocabulario: la ciudad y la naturaleza",
-      "goal_es": "Città, strada, piazza, stazione, mare, fiume, montagna…",
-      "codes": [
-        "ERR_VOC_CITTA"
-      ],
-      "why_here": "Moverse y preguntar por lugares; prepara las preposiciones a / in.",
-      "readings": [
-        "rd_firenze"
-      ]
-    },
-    {
-      "id": "u17",
-      "level": "A1",
-      "title": "Volere, potere, dovere: voglio, posso, devo",
-      "goal_es": "Los tres modales irregulares y su uso con un infinitivo: voglio mangiare, posso venire, devo studiare.",
-      "codes": [
-        "ERR_PRESENT_MODAL"
-      ],
-      "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación.",
-      "readings": [
-        "rd_poste"
-      ]
-    },
-    {
-      "id": "u25",
-      "level": "A1",
-      "title": "Vocabulario: días, meses y estaciones",
-      "goal_es": "Giorno, settimana, mese, anno, lunedì…domenica, estate, inverno.",
-      "codes": [
-        "ERR_VOC_TEMPO"
-      ],
-      "why_here": "Hablar de rutinas y planes.",
-      "readings": [
-        "rd_materie"
-      ]
-    },
-    {
-      "id": "u26",
-      "level": "A1",
-      "title": "Vocabulario: los números",
-      "goal_es": "Due, tre, quattro… venti, cento, mille, en oraciones reales (hora, edad, cantidades).",
-      "codes": [
-        "ERR_VOC_NUMERI"
-      ],
-      "why_here": "Edad, hora y precios aparecen desde el primer día.",
-      "readings": [
-        "rd_bargello"
+        "rd_incontro"
       ]
     },
     {
@@ -250,29 +204,140 @@
       ]
     },
     {
-      "id": "u27",
+      "id": "u38",
       "level": "A1",
-      "title": "Vocabulario: el cuerpo",
-      "goal_es": "Testa, mano, occhio, braccio, sangue… con sus plurales raros y el género distinto al español.",
+      "title": "Questo y quello: este y aquel",
+      "goal_es": "Questo/questa/questi/queste (cerca) y quel/quella/quei/quelle (lejos), que concuerdan con el sustantivo.",
       "codes": [
-        "ERR_VOC_CORPO"
+        "ERR_VOC_DIMOSTRATIVI"
       ],
-      "why_here": "Salud y descripciones; ejercita el género y el plural.",
+      "why_here": "Señalar cosas al comprar o describir, con los artículos y el género ya vistos.",
       "readings": [
-        "rd_aspetto"
+        "rd_stemmi"
       ]
     },
     {
-      "id": "u07",
+      "id": "u39",
       "level": "A1",
-      "title": "Il, lo, l' y gli, i: elegir el artículo",
-      "goal_es": "Ante s+consonante, z, gn o ps se usa lo (lo studente) y gli (gli studenti), no il / i.",
+      "title": "Molto, poco, troppo, tanto",
+      "goal_es": "Molto, poco, troppo, tanto, abbastanza: cuándo concuerdan (molta acqua, molti amici) y cuándo no (mangio molto).",
       "codes": [
-        "ERR_ARTICLE_ALLOMORPH"
+        "ERR_VOC_QUANTITA"
       ],
-      "why_here": "Cierra los artículos de A1 una vez vistas las contracciones.",
+      "why_here": "Decir cuánto o cuántos, con el vocabulario de las cosas ya visto."
+    },
+    {
+      "id": "u04",
+      "level": "A1",
+      "title": "Tener no es «tenere»: ho fame",
+      "goal_es": "Sensaciones y edad con avere (ho fame, ho paura), no con tenere.",
+      "codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "why_here": "Léxico básico de A1 con calco muy frecuente.",
       "readings": [
-        "rd_passatempi"
+        "rd_faccende"
+      ]
+    },
+    {
+      "id": "u14",
+      "level": "A1",
+      "title": "Verbos en -are: parlo, parli, parla",
+      "goal_es": "Terminaciones del presente de los verbos en -are; el español -as, -amos, -an no existe en italiano.",
+      "codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "why_here": "Es el grupo más grande de verbos y donde más pesa el calco de las terminaciones.",
+      "readings": [
+        "rd_routine"
+      ]
+    },
+    {
+      "id": "u15",
+      "level": "A1",
+      "title": "Verbos en -ere e -ire: leggo, dormo, finisco",
+      "goal_es": "Terminaciones de -ere (leggo, leggi, legge…) y de -ire, con -isc- en finire, capire, preferire.",
+      "codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "why_here": "Completa los dos grupos regulares tras los verbos en -are.",
+      "readings": [
+        "rd_tempolibero"
+      ]
+    },
+    {
+      "id": "u16",
+      "level": "A1",
+      "title": "Andare, fare, stare, venire: vado, faccio",
+      "goal_es": "Las formas irregulares más usadas: vado, faccio, sto, vengo, do, dico, so, esco.",
+      "codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques.",
+      "readings": [
+        "rd_giornata"
+      ]
+    },
+    {
+      "id": "u17",
+      "level": "A1",
+      "title": "Volere, potere, dovere: voglio, posso, devo",
+      "goal_es": "Los tres modales irregulares y su uso con un infinitivo: voglio mangiare, posso venire, devo studiare.",
+      "codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación.",
+      "readings": [
+        "rd_poste"
+      ]
+    },
+    {
+      "id": "u36",
+      "level": "A1",
+      "title": "Vocabulario: tiempo libre",
+      "goal_es": "Calcio, musica, film, canzone, festa… y «giocare a calcio» (con «a»).",
+      "codes": [
+        "ERR_VOC_TEMPOLIBERO"
+      ],
+      "why_here": "Contar qué haces en tu tiempo libre con los verbos de presente."
+    },
+    {
+      "id": "u25",
+      "level": "A1",
+      "title": "Vocabulario: días, meses y estaciones",
+      "goal_es": "Giorno, settimana, mese, anno, lunedì…domenica, estate, inverno.",
+      "codes": [
+        "ERR_VOC_TEMPO"
+      ],
+      "why_here": "Hablar de rutinas y planes.",
+      "readings": [
+        "rd_materie"
+      ]
+    },
+    {
+      "id": "u40",
+      "level": "A1",
+      "title": "Ieri, oggi, domani, sempre, mai",
+      "goal_es": "Ieri, oggi, domani, adesso, stasera, presto, tardi, sempre, mai, già, ancora: situar las cosas en el tiempo.",
+      "codes": [
+        "ERR_VOC_AVVERBI"
+      ],
+      "why_here": "Hablar de cuándo pasan las cosas, con los días y los meses ya vistos.",
+      "readings": [
+        "rd_albergo"
+      ]
+    },
+    {
+      "id": "u23",
+      "level": "A1",
+      "title": "Vocabulario: la casa",
+      "goal_es": "Stanza, cucina, camera, bagno, porta, finestra, tavolo… y el artículo con vocal inicial (l'appartamento).",
+      "codes": [
+        "ERR_VOC_CASA"
+      ],
+      "why_here": "Describir dónde vives, con los verbos de presente ya vistos.",
+      "readings": [
+        "rd_casa"
       ]
     },
     {
@@ -289,14 +354,17 @@
       ]
     },
     {
-      "id": "u28",
+      "id": "u24",
       "level": "A1",
-      "title": "Vocabulario: los animales",
-      "goal_es": "Cane, gatto, cavallo, uccello, tigre… y sus plurales (i cani, gli uccelli).",
+      "title": "Vocabulario: la ciudad y la naturaleza",
+      "goal_es": "Città, strada, piazza, stazione, mare, fiume, montagna…",
       "codes": [
-        "ERR_VOC_ANIMALI"
+        "ERR_VOC_CITTA"
       ],
-      "why_here": "Refuerza el plural en -i y el artículo gli."
+      "why_here": "Moverse y preguntar por lugares; prepara las preposiciones a / in.",
+      "readings": [
+        "rd_firenze"
+      ]
     },
     {
       "id": "u05",
@@ -325,16 +393,39 @@
       ]
     },
     {
-      "id": "u29",
+      "id": "u22",
       "level": "A1",
-      "title": "Vocabulario: la escuela y el trabajo",
-      "goal_es": "Libro, penna, studente, professore, lavoro, ufficio, medico…",
+      "title": "Vocabulario: comida y bebida",
+      "goal_es": "Pane, latte, acqua, mela, pesce, caffè… y los falsos amigos burro y torta.",
       "codes": [
-        "ERR_VOC_LAVORO"
+        "ERR_VOC_CIBO"
       ],
-      "why_here": "Cierra el vocabulario base de A1 con profesiones y objetos de estudio.",
+      "why_here": "Vocabulario de uso inmediato para pedir y hablar de lo que comes.",
       "readings": [
-        "rd_lavoro"
+        "rd_ristorante"
+      ]
+    },
+    {
+      "id": "u44",
+      "level": "A1",
+      "title": "Mi piace / mi piacciono",
+      "goal_es": "El verbo concuerda con lo que gusta: mi piace il gelato, mi piacciono i gatti.",
+      "codes": [
+        "ERR_PIACERE_ACCORDO"
+      ],
+      "why_here": "Decir qué te gusta, con los artículos y el vocabulario ya vistos."
+    },
+    {
+      "id": "u35",
+      "level": "A1",
+      "title": "Vocabulario: bar y restaurante",
+      "goal_es": "Menù, conto, tazza, panino, tè… y cómo pedir: «il conto, per favore».",
+      "codes": [
+        "ERR_VOC_BAR"
+      ],
+      "why_here": "Pedir en un bar o restaurante con la comida y la bebida ya vistas.",
+      "readings": [
+        "rd_pasticceria"
       ]
     },
     {
@@ -351,118 +442,6 @@
       ]
     },
     {
-      "id": "u32",
-      "level": "A1",
-      "title": "Vocabulario: los colores",
-      "goal_es": "Rosso, bianco, nero, giallo, verde, blu… y cómo cambian con el género (rossa) o no cambian (blu, rosa).",
-      "codes": [
-        "ERR_VOC_COLORI"
-      ],
-      "why_here": "Describir cosas y personas con colores que concuerdan con lo que describen."
-    },
-    {
-      "id": "u33",
-      "level": "A1",
-      "title": "Vocabulario: el tiempo y el clima",
-      "goal_es": "Pioggia, sole, vento, neve, nuvola… y «fa caldo», «fa freddo» (con fare), como en tener hambre se usa avere.",
-      "codes": [
-        "ERR_VOC_CLIMA"
-      ],
-      "why_here": "Hablar del tiempo con fare, ya vistos en los verbos irregulares."
-    },
-    {
-      "id": "u34",
-      "level": "A1",
-      "title": "Vocabulario: transportes y viajes",
-      "goal_es": "Treno, autobus, aereo, macchina, biglietto, fermata… y «in treno», «in macchina», pero «a piedi».",
-      "codes": [
-        "ERR_VOC_TRASPORTI"
-      ],
-      "why_here": "Moverte por la ciudad y viajar, con las preposiciones de lugar ya vistas."
-    },
-    {
-      "id": "u35",
-      "level": "A1",
-      "title": "Vocabulario: bar y restaurante",
-      "goal_es": "Menù, conto, tazza, panino, tè… y cómo pedir: «il conto, per favore».",
-      "codes": [
-        "ERR_VOC_BAR"
-      ],
-      "why_here": "Pedir en un bar o restaurante con la comida y la bebida ya vistas.",
-      "readings": [
-        "rd_pasticceria"
-      ]
-    },
-    {
-      "id": "u36",
-      "level": "A1",
-      "title": "Vocabulario: tiempo libre",
-      "goal_es": "Calcio, musica, film, canzone, festa… y «giocare a calcio» (con «a»).",
-      "codes": [
-        "ERR_VOC_TEMPOLIBERO"
-      ],
-      "why_here": "Contar qué haces en tu tiempo libre con los verbos de presente."
-    },
-    {
-      "id": "u37",
-      "level": "A1",
-      "title": "Vocabulario: saludar y ser cortés",
-      "goal_es": "Buongiorno, buonasera, ciao, arrivederci, grazie, prego, scusi/scusa… y cuándo usar el trato formal.",
-      "codes": [
-        "ERR_VOC_SALUTI"
-      ],
-      "why_here": "Las primeras palabras de cualquier conversación, antes de presentarte."
-    },
-    {
-      "id": "u38",
-      "level": "A1",
-      "title": "Questo y quello: este y aquel",
-      "goal_es": "Questo/questa/questi/queste (cerca) y quel/quella/quei/quelle (lejos), que concuerdan con el sustantivo.",
-      "codes": [
-        "ERR_VOC_DIMOSTRATIVI"
-      ],
-      "why_here": "Señalar cosas al comprar o describir, con los artículos y el género ya vistos.",
-      "readings": [
-        "rd_stemmi"
-      ]
-    },
-    {
-      "id": "u39",
-      "level": "A1",
-      "title": "Molto, poco, troppo, tanto",
-      "goal_es": "Molto, poco, troppo, tanto, abbastanza: cuándo concuerdan (molta acqua, molti amici) y cuándo no (mangio molto).",
-      "codes": [
-        "ERR_VOC_QUANTITA"
-      ],
-      "why_here": "Decir cuánto o cuántos, con el vocabulario de las cosas ya visto."
-    },
-    {
-      "id": "u40",
-      "level": "A1",
-      "title": "Ieri, oggi, domani, sempre, mai",
-      "goal_es": "Ieri, oggi, domani, adesso, stasera, presto, tardi, sempre, mai, già, ancora: situar las cosas en el tiempo.",
-      "codes": [
-        "ERR_VOC_AVVERBI"
-      ],
-      "why_here": "Hablar de cuándo pasan las cosas, con los días y los meses ya vistos.",
-      "readings": [
-        "rd_albergo"
-      ]
-    },
-    {
-      "id": "u41",
-      "level": "A1",
-      "title": "Vocabulario: cómo es (adjetivos)",
-      "goal_es": "Alto, bello, buono, grande, simpatico, giovane… y la concordancia en género (alto/alta) y en -e (grande).",
-      "codes": [
-        "ERR_VOC_AGGETTIVI"
-      ],
-      "why_here": "Describir personas y cosas, con los colores y el vocabulario ya visto.",
-      "readings": [
-        "rd_david"
-      ]
-    },
-    {
       "id": "u42",
       "level": "A1",
       "title": "Vocabulario: dinero y compras",
@@ -476,117 +455,50 @@
       ]
     },
     {
-      "id": "u43",
+      "id": "u27",
       "level": "A1",
-      "title": "Vocabulario: la salud",
-      "goal_es": "Salute, febbre, tosse, dolore, malattia… y «ho paura», «ho sonno», «ho fame» con avere.",
+      "title": "Vocabulario: el cuerpo",
+      "goal_es": "Testa, mano, occhio, braccio, sangue… con sus plurales raros y el género distinto al español.",
       "codes": [
-        "ERR_VOC_SALUTE"
+        "ERR_VOC_CORPO"
       ],
-      "why_here": "Decir cómo te sientes, con tener/avere y el cuerpo ya vistos.",
+      "why_here": "Salud y descripciones; ejercita el género y el plural.",
       "readings": [
-        "rd_giornatabrutta"
+        "rd_aspetto"
       ]
     },
     {
-      "id": "u44",
+      "id": "u33",
       "level": "A1",
-      "title": "Mi piace / mi piacciono",
-      "goal_es": "El verbo concuerda con lo que gusta: mi piace il gelato, mi piacciono i gatti.",
+      "title": "Vocabulario: el tiempo y el clima",
+      "goal_es": "Pioggia, sole, vento, neve, nuvola… y «fa caldo», «fa freddo» (con fare), como en tener hambre se usa avere.",
       "codes": [
-        "ERR_PIACERE_ACCORDO"
+        "ERR_VOC_CLIMA"
       ],
-      "why_here": "Decir qué te gusta, con los artículos y el vocabulario ya vistos."
+      "why_here": "Hablar del tiempo con fare, ya vistos en los verbos irregulares."
     },
     {
-      "id": "u45",
+      "id": "u28",
       "level": "A1",
-      "title": "Vocabulario: países y nacionalidades",
-      "goal_es": "Italiano, spagnolo, francese, inglese, cileno… y que se escriben con minúscula (parlo spagnolo).",
+      "title": "Vocabulario: los animales",
+      "goal_es": "Cane, gatto, cavallo, uccello, tigre… y sus plurales (i cani, gli uccelli).",
       "codes": [
-        "ERR_VOC_NAZIONALITA"
+        "ERR_VOC_ANIMALI"
       ],
-      "why_here": "Decir de dónde eres y qué idiomas hablas, con essere y los adjetivos ya vistos."
+      "why_here": "Refuerza el plural en -i y el artículo gli."
     },
     {
-      "id": "u46",
+      "id": "u29",
       "level": "A1",
-      "title": "Vocabulario: frutas, verduras y condimentos",
-      "goal_es": "Patata, cipolla, fragola, uva, sale, pepe, funghi… y su género.",
+      "title": "Vocabulario: la escuela y el trabajo",
+      "goal_es": "Libro, penna, studente, professore, lavoro, ufficio, medico…",
       "codes": [
-        "ERR_VOC_FRUTTA"
+        "ERR_VOC_LAVORO"
       ],
-      "why_here": "Pedir y cocinar con la comida básica ya vista."
-    },
-    {
-      "id": "u47",
-      "level": "A1",
-      "title": "Vocabulario: tiendas y comercios",
-      "goal_es": "Pasticceria, panificio, libreria, edicola, macelleria… y «libreria» = librería, no biblioteca.",
-      "codes": [
-        "ERR_VOC_NEGOZI"
-      ],
-      "why_here": "Saber adónde ir para cada cosa, con la ciudad y las preposiciones ya vistas."
-    },
-    {
-      "id": "u48",
-      "level": "A1",
-      "title": "Vocabulario: higiene personal",
-      "goal_es": "Sapone, spazzolino, dentifricio, asciugamano, doccia, shampoo…",
-      "codes": [
-        "ERR_VOC_IGIENE"
-      ],
-      "why_here": "Hablar de tu rutina de aseo con los verbos de presente."
-    },
-    {
-      "id": "u49",
-      "level": "A1",
-      "title": "Vocabulario: objetos de todos los días",
-      "goal_es": "Telefono, cellulare, zaino, matita, lettera, regalo, foglio… y «lettera» = carta que se envía.",
-      "codes": [
-        "ERR_VOC_OGGETTI"
-      ],
-      "why_here": "Nombrar lo que usas y llevas a diario."
-    },
-    {
-      "id": "u50",
-      "level": "A1",
-      "title": "Vocabulario: ideas y sentimientos",
-      "goal_es": "Amore, amicizia, idea, problema, verità, libertà… y su género (la verità, il problema).",
-      "codes": [
-        "ERR_VOC_ASTRATTI"
-      ],
-      "why_here": "Hablar de lo que piensas y sientes con las palabras más comunes."
-    },
-    {
-      "id": "u51",
-      "level": "A1",
-      "title": "Vocabulario: la naturaleza",
-      "goal_es": "Bosco, collina, deserto, sentiero, pietra, erba, terra, fuoco…",
-      "codes": [
-        "ERR_VOC_NATURA"
-      ],
-      "why_here": "Describir el paisaje, con el clima y la ciudad ya vistos."
-    },
-    {
-      "id": "u52",
-      "level": "A1",
-      "title": "Vocabulario: la cocina y las comidas",
-      "goal_es": "Pentola, forno, cibo, cena, pranzo, sapore… y «cena» como sustantivo y como verbo.",
-      "codes": [
-        "ERR_VOC_CUCINA"
-      ],
-      "why_here": "Hablar de cocinar y comer, con la comida ya vista."
-    },
-    {
-      "id": "u53",
-      "level": "A1",
-      "title": "Vocabulario: el idioma y el estudio",
-      "goal_es": "Frase, parola, lingua, pagina, voto, maestro… y «lingua» = idioma.",
-      "codes": [
-        "ERR_VOC_SCUOLA"
-      ],
-      "why_here": "Hablar de estudiar y de idiomas, con las nacionalidades ya vistas."
+      "why_here": "Cierra el vocabulario base de A1 con profesiones y objetos de estudio.",
+      "readings": [
+        "rd_lavoro"
+      ]
     },
     {
       "id": "u08",
@@ -637,6 +549,99 @@
         "ERR_CONGIUNTIVO_OPINION"
       ],
       "why_here": "Primer punto del B1 según las fuentes (el español usa indicativo con «creo que»)."
+    },
+    {
+      "id": "u34",
+      "level": "A1+",
+      "title": "Vocabulario: transportes y viajes",
+      "goal_es": "Treno, autobus, aereo, macchina, biglietto, fermata… y «in treno», «in macchina», pero «a piedi».",
+      "codes": [
+        "ERR_VOC_TRASPORTI"
+      ],
+      "why_here": "Moverte por la ciudad y viajar, con las preposiciones de lugar ya vistas."
+    },
+    {
+      "id": "u43",
+      "level": "A1+",
+      "title": "Vocabulario: la salud",
+      "goal_es": "Salute, febbre, tosse, dolore, malattia… y «ho paura», «ho sonno», «ho fame» con avere.",
+      "codes": [
+        "ERR_VOC_SALUTE"
+      ],
+      "why_here": "Decir cómo te sientes, con tener/avere y el cuerpo ya vistos.",
+      "readings": [
+        "rd_giornatabrutta"
+      ]
+    },
+    {
+      "id": "u46",
+      "level": "A1+",
+      "title": "Vocabulario: frutas, verduras y condimentos",
+      "goal_es": "Patata, cipolla, fragola, uva, sale, pepe, funghi… y su género.",
+      "codes": [
+        "ERR_VOC_FRUTTA"
+      ],
+      "why_here": "Pedir y cocinar con la comida básica ya vista."
+    },
+    {
+      "id": "u47",
+      "level": "A1+",
+      "title": "Vocabulario: tiendas y comercios",
+      "goal_es": "Pasticceria, panificio, libreria, edicola, macelleria… y «libreria» = librería, no biblioteca.",
+      "codes": [
+        "ERR_VOC_NEGOZI"
+      ],
+      "why_here": "Saber adónde ir para cada cosa, con la ciudad y las preposiciones ya vistas."
+    },
+    {
+      "id": "u48",
+      "level": "A1+",
+      "title": "Vocabulario: higiene personal",
+      "goal_es": "Sapone, spazzolino, dentifricio, asciugamano, doccia, shampoo…",
+      "codes": [
+        "ERR_VOC_IGIENE"
+      ],
+      "why_here": "Hablar de tu rutina de aseo con los verbos de presente."
+    },
+    {
+      "id": "u50",
+      "level": "A1+",
+      "title": "Vocabulario: ideas y sentimientos",
+      "goal_es": "Amore, amicizia, idea, problema, verità, libertà… y su género (la verità, il problema).",
+      "codes": [
+        "ERR_VOC_ASTRATTI"
+      ],
+      "why_here": "Hablar de lo que piensas y sientes con las palabras más comunes."
+    },
+    {
+      "id": "u51",
+      "level": "A1+",
+      "title": "Vocabulario: la naturaleza",
+      "goal_es": "Bosco, collina, deserto, sentiero, pietra, erba, terra, fuoco…",
+      "codes": [
+        "ERR_VOC_NATURA"
+      ],
+      "why_here": "Describir el paisaje, con el clima y la ciudad ya vistos."
+    },
+    {
+      "id": "u52",
+      "level": "A1+",
+      "title": "Vocabulario: la cocina y las comidas",
+      "goal_es": "Pentola, forno, cibo, cena, pranzo, sapore… y «cena» como sustantivo y como verbo.",
+      "codes": [
+        "ERR_VOC_CUCINA"
+      ],
+      "why_here": "Hablar de cocinar y comer, con la comida ya vista."
+    },
+    {
+      "id": "u53",
+      "level": "A1+",
+      "title": "Vocabulario: el idioma y el estudio",
+      "goal_es": "Frase, parola, lingua, pagina, voto, maestro… y «lingua» = idioma.",
+      "codes": [
+        "ERR_VOC_SCUOLA"
+      ],
+      "why_here": "Hablar de estudiar y de idiomas, con las nacionalidades ya vistas."
     }
   ],
   "planned": [

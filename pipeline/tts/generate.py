@@ -13,7 +13,7 @@ from typing import Callable
 
 from pipeline.tts.ids import LICENSE, VOICE, clip_id, sha1
 
-MAX_BYTES = 20_000_000
+MAX_BYTES = 32_000_000
 _SERENA = (
     "# Atribuciones de audio\n\n"
     "## Voz sintética (clips de oraciones y palabras)\n\n"
@@ -65,7 +65,9 @@ def texts_for_pack(pack_dir: Path) -> list[str]:
     lexemes = json.loads((pack_dir / "lexemes.json").read_text(encoding="utf8"))
     rf = pack_dir / "readings.json"
     readings = json.loads(rf.read_text(encoding="utf8")) if rf.exists() else []
-    return sorted({s["it"] for s in sentences} | {l["form"] for l in lexemes} | {s["it"] for r in readings for s in r["sentences"]})
+    cf = pack_dir / "course.json"
+    words = {w["form"] for u in (json.loads(cf.read_text(encoding="utf8"))["units"] if cf.exists() else []) for w in u.get("words", [])}
+    return sorted({s["it"] for s in sentences} | {l["form"] for l in lexemes} | {s["it"] for r in readings for s in r["sentences"]} | words)
 
 
 def plan_clips(texts: list[str], index: list[dict], out_dir: Path) -> dict:

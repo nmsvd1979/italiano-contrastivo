@@ -3,7 +3,7 @@ import type { ContentPack } from "../content/load";
 import { say, type SpeakResult } from "../ui/speech";
 import { type AudioIndex, audioIdFor } from "./clips";
 
-type Pack = Pick<ContentPack, "sentences" | "lexemes" | "readings">;
+type Pack = Pick<ContentPack, "sentences" | "lexemes" | "readings"> & Partial<Pick<ContentPack, "course">>;
 type Value = { pack: Pack; index: AudioIndex; words: Map<string, string> } | null;
 const Ctx = createContext<Value>(null);
 

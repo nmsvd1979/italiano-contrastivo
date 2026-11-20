@@ -26,7 +26,9 @@ def test_textos_solo_de_oraciones_y_lexemas_y_nunca_un_distractor():
     assert texts and len(texts) == len(set(texts)) and texts == sorted(texts)
     rf = PACK / "readings.json"  # las oraciones de las lecturas de libros abiertos también se voz
     reading = {x["it"] for r in (json.loads(rf.read_text(encoding="utf8")) if rf.exists() else []) for x in r["sentences"]}
-    assert set(texts) == sentences | forms | reading
+    cf = PACK / "course.json"  # las palabras de las listas de vocabulario («Palabras») también tienen voz
+    course_words = {w["form"] for u in json.loads(cf.read_text(encoding="utf8"))["units"] for w in u.get("words", [])}
+    assert set(texts) == sentences | forms | reading | course_words
     wrong = {o["text"] for items in json.loads((PACK / "items_by_code.json").read_text(encoding="utf8")).values()
              for it in items for o in it.get("options", [])
              if not o["correct"] and o.get("distractor_kind") != "different_word"}  # en vocabulario la «otra palabra» es italiano válido (otra oración del paquete): el audio la distingue y la UI solo reproduce la correcta
