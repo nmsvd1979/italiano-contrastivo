@@ -368,6 +368,250 @@
       ]
     },
     {
+      "id": "u63",
+      "level": "A1",
+      "title": "Sonidos: gn y z (gnocchi, pizza, grazie)",
+      "goal_es": "Gn suena como la ñ pero se escribe gn; la z suena [ts] o [dz] y no es «s» ni «c».",
+      "codes": [
+        "ERR_GN_Z_SPELLING"
+      ],
+      "why_here": "Después de c/g, sc y gli, los sonidos que el español escribe distinto.",
+      "ficha_es": "El grupo gn suena como la ñ española: gnocchi se pronuncia «ñoqui», lasagne «lasaña», bagno «baño». Se escribe siempre gn, nunca ñ.\\n\\nLa z italiana suena [ts] (pizza, grazie, zio con [dz]): se parece a «ts», no a la «z» española de España ni a una simple «s». No se escribe «c» ante e, i: grazie, pazienza (no «gracie», no «pacienza»). La doble zz es más larga: pizza, no «piza». En esta unidad escuchas una frase y eliges cómo se escribe. La voz es sintética: sus fonemas se comprobaron (gn → ɲ, z → ts/dz), pero un nativo no la verificó.",
+      "status": "active",
+      "explanation_es": "El grupo gn suena como la ñ española (gnocchi = ñoqui, lasagne, bagno, signora) y se escribe gn, no ñ. La z suena [ts] o [dz] (pizza, grazie, zio): no se pronuncia como la «z» española de España ni como una simple «s», y no se escribe «c» ante e, i (grazie, no «gracie»). La doble zz es más larga (pizza, no «piza»).",
+      "parts": {
+        "descubre": [
+          "s_1358794",
+          "s_1110071",
+          "s_3287523",
+          "s_2611941"
+        ],
+        "practica": [
+          "s_1358794",
+          "s_1110071",
+          "s_3287523",
+          "s_2611941",
+          "s_812801",
+          "s_470141",
+          "s_7872410",
+          "s_1068397",
+          "s_1310171",
+          "s_1520685",
+          "s_3162320",
+          "s_4226433",
+          "s_809576",
+          "s_1100345",
+          "s_2795476",
+          "s_1142101",
+          "s_380207",
+          "s_388508",
+          "s_626954",
+          "s_861024",
+          "s_1246289",
+          "s_13227736",
+          "s_1831112",
+          "s_5370137",
+          "s_1472973",
+          "s_2514188",
+          "s_825688",
+          "s_1017019",
+          "s_7430249",
+          "s_753335",
+          "s_7596197",
+          "s_840725",
+          "s_11969548",
+          "s_1275229",
+          "s_1497492",
+          "s_1517492",
+          "s_2560883",
+          "s_2571151",
+          "s_7116253",
+          "s_1512102",
+          "s_3860643",
+          "s_2832611",
+          "s_6879111",
+          "s_1426795",
+          "s_1539200",
+          "s_388801",
+          "s_634292",
+          "s_1317111",
+          "s_2835002",
+          "s_4121756",
+          "s_4541826",
+          "s_6458851",
+          "s_6830490",
+          "s_1083035"
+        ],
+        "escucha": [
+          "s_1358794",
+          "s_7872410",
+          "s_809576",
+          "s_626954",
+          "s_1472973",
+          "s_7596197",
+          "s_2560883",
+          "s_6879111"
+        ],
+        "prueba": [
+          "s_7104179",
+          "s_2052028",
+          "s_378697",
+          "s_534955",
+          "s_6301373",
+          "s_3220250"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1358794",
+          "start": 9,
+          "end": 14,
+          "wrong": "soño"
+        },
+        {
+          "id": "s_1110071",
+          "start": 10,
+          "end": 15,
+          "wrong": "soño"
+        },
+        {
+          "id": "s_3287523",
+          "start": 11,
+          "end": 18,
+          "wrong": "bisoño"
+        },
+        {
+          "id": "s_2611941",
+          "start": 9,
+          "end": 19,
+          "wrong": "policiotto"
+        }
+      ]
+    },
+    {
+      "id": "u64",
+      "level": "A1",
+      "title": "Consonantes dobles (fato / fatto, sete / sette)",
+      "goal_es": "Las consonantes dobles se pronuncian más largas y cambian el significado: fato / fatto, caro / carro, pala / palla.",
+      "codes": [
+        "ERR_CONSONANTE_DOPPIA"
+      ],
+      "why_here": "Cierra los sonidos de A1: la diferencia de duración que el español casi no usa.",
+      "ficha_es": "En italiano las consonantes dobles no son un detalle de ortografía: se pronuncian más largas y cambian el sentido. Fato es el destino y fatto es «hecho»; sete es «sed» y sette es «siete»; pala es la pala y palla es la pelota; caro es «querido» y carro es «carro».\\n\\nPara decir la doble se mantiene el cierre de la consonante casi el doble de tiempo (t, p, c, l, n, m, r, b, d, g). Medimos la voz sintética Serena con pares mínimos: alarga el cierre de las oclusivas entre 1,5 y 3,5 veces y también las nasales y la l; no lo hace bien con la «ss», por eso esta unidad no la incluye. Practicas escuchando y eligiendo cómo se escribe; no se mide tu pronunciación y un nativo no ha verificado el audio.",
+      "status": "active",
+      "explanation_es": "En italiano las consonantes dobles se pronuncian más largas y cambian el significado: fato (destino) / fatto (hecho), sete (sed) / sette (siete), pala (pala) / palla (pelota), caro (querido) / carro (carro), pena / penna. Hay que mantener el cierre de la t, p, c, l, n, m, r, b, d y g más tiempo (casi el doble). En la app esta unidad practica las que la voz sintética pronuncia bien; no incluye la «ss» ni la «zz».",
+      "parts": {
+        "descubre": [
+          "s_1446016",
+          "s_963675",
+          "s_4243177",
+          "s_1221730"
+        ],
+        "practica": [
+          "s_1446016",
+          "s_963675",
+          "s_4243177",
+          "s_1221730",
+          "s_373873",
+          "s_4333778",
+          "s_4562309",
+          "s_4541",
+          "s_2362996",
+          "s_2701565",
+          "s_350994",
+          "s_1451644",
+          "s_3237227",
+          "s_3375596",
+          "s_3796401",
+          "s_3796402",
+          "s_4641",
+          "s_5133701",
+          "s_1193498",
+          "s_1701522",
+          "s_3363404",
+          "s_374039",
+          "s_378681",
+          "s_499903",
+          "s_8672395",
+          "s_13339312",
+          "s_1592254",
+          "s_2702073",
+          "s_693925",
+          "s_14037442",
+          "s_4503103",
+          "s_511252",
+          "s_8890732",
+          "s_375662",
+          "s_391177",
+          "s_4480656",
+          "s_634288",
+          "s_7766399",
+          "s_11571774",
+          "s_1389686",
+          "s_1966458",
+          "s_5190524",
+          "s_623376",
+          "s_651073",
+          "s_1310172",
+          "s_735474",
+          "s_2917325",
+          "s_520926",
+          "s_2090461",
+          "s_2887453",
+          "s_4989467",
+          "s_5991669",
+          "s_6463372",
+          "s_1701472",
+          "s_691722",
+          "s_930244"
+        ],
+        "escucha": [
+          "s_1446016",
+          "s_4541",
+          "s_3796401",
+          "s_374039",
+          "s_693925",
+          "s_4480656",
+          "s_623376",
+          "s_2887453"
+        ],
+        "prueba": [
+          "s_948967",
+          "s_758824",
+          "s_996844",
+          "s_5654821",
+          "s_643191",
+          "s_4636276"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1446016",
+          "start": 11,
+          "end": 18,
+          "wrong": "corere"
+        },
+        {
+          "id": "s_963675",
+          "start": 9,
+          "end": 19,
+          "wrong": "giocatolo"
+        },
+        {
+          "id": "s_4243177",
+          "start": 14,
+          "end": 20,
+          "wrong": "piati"
+        },
+        {
+          "id": "s_1221730",
+          "start": 14,
+          "end": 21,
+          "wrong": "dolari"
+        }
+      ]
+    },
+    {
       "id": "u37",
       "level": "A1",
       "title": "Vocabulario: saludar y ser cortés",
@@ -3081,13 +3325,12 @@
       "explanation_es": "El posesivo español 'mi' se escribe mio en italiano cuando es masculino singular.",
       "parts": {
         "descubre": [
-          "s_10152075",
           "s_2077177",
           "s_3996278",
-          "s_377545"
+          "s_377545",
+          "s_2199984"
         ],
         "practica": [
-          "s_10152075",
           "s_2077177",
           "s_3996278",
           "s_377545",
@@ -3118,14 +3361,14 @@
           "s_389110"
         ],
         "escucha": [
-          "s_10152075",
-          "s_377545",
-          "s_945591",
-          "s_13976565",
-          "s_1131235",
-          "s_1195313",
-          "s_6612336",
-          "s_9723298"
+          "s_2077177",
+          "s_2199984",
+          "s_374617",
+          "s_3836485",
+          "s_1249271",
+          "s_2758388",
+          "s_11816160",
+          "s_1482371"
         ],
         "prueba": [
           "s_1005627",
@@ -3137,12 +3380,6 @@
         ]
       },
       "divergences": [
-        {
-          "id": "s_10152075",
-          "start": 3,
-          "end": 6,
-          "wrong": "mis"
-        },
         {
           "id": "s_2077177",
           "start": 9,
@@ -3157,6 +3394,12 @@
         },
         {
           "id": "s_377545",
+          "start": 10,
+          "end": 13,
+          "wrong": "tu"
+        },
+        {
+          "id": "s_2199984",
           "start": 10,
           "end": 13,
           "wrong": "tu"
@@ -11063,16 +11306,6 @@
   ],
   "planned": [
     {
-      "level": "A1",
-      "title": "Sonidos: gn y z",
-      "reason": "Falta un generador de ejercicios fiable (la z africada no se puede comprobar sin audio nativo)."
-    },
-    {
-      "level": "A1",
-      "title": "Consonantes dobles",
-      "reason": "Necesita comprobar con audio nativo cómo pronuncia Serena las geminadas."
-    },
-    {
       "level": "A2",
       "title": "Passato prossimo e imperfetto",
       "reason": "Sin generador de ejercicios fiable todavía."
@@ -11110,7 +11343,7 @@
     {
       "level": "A1",
       "title": "Entonación: afirmación o pregunta",
-      "reason": "Fonología A1: contorno de la pregunta y de la afirmación; necesita audio revisado. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
+      "reason": "Medido con Serena (scripts/medir_entonacion.py): solo 7 de 10 frases suben ≥2 semitonos al final como pregunta, menos del 90 % exigido; además el español y el italiano usan una subida parecida. Queda para audio nativo verificado."
     },
     {
       "level": "A1",

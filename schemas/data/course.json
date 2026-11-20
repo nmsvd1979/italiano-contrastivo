@@ -63,6 +63,28 @@
       "ficha_es": "gli se pronuncia como la «ll» del español de España (llave) o la «lli» de «million» en inglés: una l palatal, larga y suave (figlio, famiglia, moglie, voglio). No se lee «gli» como «gui-li» ni como una simple «l».\n\nSe escribe gli solo ante vocal en estas palabras; el artículo «gli» (gli amici) se pronuncia igual. Escucha y repite despacio: tu oído para esta combinación es el que más ayuda a escribir bien."
     },
     {
+      "id": "u63",
+      "level": "A1",
+      "title": "Sonidos: gn y z (gnocchi, pizza, grazie)",
+      "goal_es": "Gn suena como la ñ pero se escribe gn; la z suena [ts] o [dz] y no es «s» ni «c».",
+      "codes": [
+        "ERR_GN_Z_SPELLING"
+      ],
+      "why_here": "Después de c/g, sc y gli, los sonidos que el español escribe distinto.",
+      "ficha_es": "El grupo gn suena como la ñ española: gnocchi se pronuncia «ñoqui», lasagne «lasaña», bagno «baño». Se escribe siempre gn, nunca ñ.\\n\\nLa z italiana suena [ts] (pizza, grazie, zio con [dz]): se parece a «ts», no a la «z» española de España ni a una simple «s». No se escribe «c» ante e, i: grazie, pazienza (no «gracie», no «pacienza»). La doble zz es más larga: pizza, no «piza». En esta unidad escuchas una frase y eliges cómo se escribe. La voz es sintética: sus fonemas se comprobaron (gn → ɲ, z → ts/dz), pero un nativo no la verificó."
+    },
+    {
+      "id": "u64",
+      "level": "A1",
+      "title": "Consonantes dobles (fato / fatto, sete / sette)",
+      "goal_es": "Las consonantes dobles se pronuncian más largas y cambian el significado: fato / fatto, caro / carro, pala / palla.",
+      "codes": [
+        "ERR_CONSONANTE_DOPPIA"
+      ],
+      "why_here": "Cierra los sonidos de A1: la diferencia de duración que el español casi no usa.",
+      "ficha_es": "En italiano las consonantes dobles no son un detalle de ortografía: se pronuncian más largas y cambian el sentido. Fato es el destino y fatto es «hecho»; sete es «sed» y sette es «siete»; pala es la pala y palla es la pelota; caro es «querido» y carro es «carro».\\n\\nPara decir la doble se mantiene el cierre de la consonante casi el doble de tiempo (t, p, c, l, n, m, r, b, d, g). Medimos la voz sintética Serena con pares mínimos: alarga el cierre de las oclusivas entre 1,5 y 3,5 veces y también las nasales y la l; no lo hace bien con la «ss», por eso esta unidad no la incluye. Practicas escuchando y eligiendo cómo se escribe; no se mide tu pronunciación y un nativo no ha verificado el audio."
+    },
+    {
       "id": "u37",
       "level": "A1",
       "title": "Vocabulario: saludar y ser cortés",
@@ -810,16 +832,6 @@
   ],
   "planned": [
     {
-      "level": "A1",
-      "title": "Sonidos: gn y z",
-      "reason": "Falta un generador de ejercicios fiable (la z africada no se puede comprobar sin audio nativo)."
-    },
-    {
-      "level": "A1",
-      "title": "Consonantes dobles",
-      "reason": "Necesita comprobar con audio nativo cómo pronuncia Serena las geminadas."
-    },
-    {
       "level": "A2",
       "title": "Passato prossimo e imperfetto",
       "reason": "Sin generador de ejercicios fiable todavía."
@@ -857,7 +869,7 @@
     {
       "level": "A1",
       "title": "Entonación: afirmación o pregunta",
-      "reason": "Fonología A1: contorno de la pregunta y de la afirmación; necesita audio revisado. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
+      "reason": "Medido con Serena (scripts/medir_entonacion.py): solo 7 de 10 frases suben ≥2 semitonos al final como pregunta, menos del 90 % exigido; además el español y el italiano usan una subida parecida. Queda para audio nativo verificado."
     },
     {
       "level": "A1",

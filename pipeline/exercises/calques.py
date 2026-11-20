@@ -406,7 +406,7 @@ _GENERATORS: dict[str, Callable[[str], Calque | None]] = {
     "ERR_PRONOME_TONICO": _tonico,
     "ERR_IMPERATIVO_FORMA": _imperativo,
     **{c: _vocab_for(c) for c in _vocab_codes()},
-    **{c: _phonetic_for(c) for c in ("ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL")},
+    **{c: _phonetic_for(c) for c in ("ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL", "ERR_GN_Z_SPELLING", "ERR_CONSONANTE_DOPPIA")},
     **{c: _present_for(c) for c in ("ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL")},
 }
 CALQUE_CODES: tuple[str, ...] = tuple(_GENERATORS)

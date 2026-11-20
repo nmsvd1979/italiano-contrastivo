@@ -2,13 +2,15 @@
 
 Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiempos a priori (no medidos). Objetivo por unidad: **62 min** (descubre 7 · palabras 5 · lectura 10 · capsula 4 · practica 10 · escucha 12 · practica2 10 · prueba 4); 40 oraciones con audio; 1 lectura.
 
-**A1 hoy: 48 unidades, 42.6 h de pasos** (objetivo 50 h con repasos y examen de hito; 5.1 h por producir en las unidades existentes, más las unidades nuevas del currículo).
+**A1 hoy: 50 unidades, 44.1 h de pasos** (objetivo 50 h con repasos y examen de hito; 5.5 h por producir en las unidades existentes, más las unidades nuevas del currículo).
 
 | Unidad | Nivel | Oraciones | Ítems | descubre | palabras | lectura | capsula | practica | escucha | practica2 | prueba | Total (min) | Falta (min) | Lectura |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | u18 Sonidos: c y g (ce, ci, che, chi) | A1 | 83 | 239 | 7.1 | — | — | 3.2 | 10.3 | 12.3 | 10.3 | 2.5 | 45.7 | 11.3 | no |
 | u19 Sonidos: sce, sci y sche, schi | A1 | 34 | 95 | 7.1 | — | — | 3.2 | 10.5 | 12.3 | 10.1 | 2.5 | 45.7 | 11.3 | no |
 | u20 Sonidos: gli (figlio, famiglia) | A1 | 39 | 112 | 7.1 | — | — | 3.2 | 10.3 | 12.3 | 10.1 | 2.5 | 45.5 | 11.5 | no |
+| u63 Sonidos: gn y z (gnocchi, pizza, grazie) | A1 | 60 | 180 | 7.1 | — | — | 3.2 | 10.3 | 12.3 | 10.1 | 2.5 | 45.5 | 11.5 | no |
+| u64 Consonantes dobles (fato / fatto, sete / sette) | A1 | 62 | 186 | 7.1 | — | — | 3.2 | 10.3 | 12.3 | 10.2 | 2.5 | 45.6 | 11.4 | no |
 | u37 Vocabulario: saludar y ser cortés | A1 | 43 | 172 | 7.1 | 3.8 | 4.3 | 3.2 | 10.1 | 12.3 | 10.1 | 2.5 | 53.4 | 8.6 | sí |
 | u60 Presentarte: mi chiamo, ti chiami | A1 | 45 | 135 | 7.1 | — | 4.8 | 3.2 | 10.3 | 12.3 | 10.1 | 2.5 | 50.3 | 6.7 | sí |
 | u26 Vocabulario: los números | A1 | 37 | 146 | 7.1 | 4.5 | 8.9 | 3.2 | 10.4 | 12.3 | 10.1 | 2.5 | 59 | 3 | sí |
@@ -23,7 +25,7 @@ Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiem
 | u30 Vocabulario: preguntar (dove, quando, perché…) | A1 | 33 | 132 | 7.1 | 2 | 4.6 | 3.2 | 10.4 | 12.3 | 10.2 | 2.5 | 52.3 | 9.7 | sí |
 | u21 Vocabulario: la familia y las personas | A1 | 37 | 148 | 7.1 | 6.8 | 10 | 3.2 | 10.4 | 12.3 | 10.2 | 2.5 | 62.5 | 0 | sí |
 | u01 El posesivo lleva artículo | A1 | 37 | 104 | 7.1 | — | 12.3 | 3.2 | 10.2 | 12.3 | 10.3 | 2.5 | 57.9 | 0 | sí |
-| u02 Escribir mio, tuo, suo (no mi, tu, su) | A1 | 35 | 102 | 7.1 | — | 5.4 | 3.2 | 10.2 | 12.3 | 10.3 | 2.5 | 51 | 6 | sí |
+| u02 Escribir mio, tuo, suo (no mi, tu, su) | A1 | 34 | 99 | 7.1 | — | 5.4 | 3.2 | 10.3 | 12.3 | 10.3 | 2.5 | 51.1 | 5.9 | sí |
 | u38 Questo y quello: este y aquel | A1 | 42 | 166 | 7.1 | 2.3 | 7.7 | 3.2 | 10.2 | 12.3 | 10.3 | 2.5 | 55.6 | 6.4 | sí |
 | u39 Molto, poco, troppo, tanto | A1 | 32 | 128 | 7.1 | 4.3 | — | 3.2 | 10.1 | 12.3 | 10.2 | 2.5 | 49.7 | 12.3 | no |
 | u04 Tener no es «tenere»: ho fame | A1 | 42 | 125 | 7.1 | — | 7.1 | 3.2 | 10.3 | 12.3 | 10.1 | 2.5 | 52.6 | 4.4 | sí |

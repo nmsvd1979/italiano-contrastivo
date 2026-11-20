@@ -144,7 +144,7 @@ describe("pantallas de la ruta con el contenido real", () => {
     expect(screen.getByText("Completada")).toBeTruthy();
     expect(screen.getByText(/Siguiente: Descubre/)).toBeTruthy();
     expect(screen.getAllByText("Se abre al completar la anterior").length).toBe(TOTAL - 2);
-    expect(screen.getByText("Consonantes dobles")).toBeTruthy();
+    expect(screen.getByText(pack.course.planned.find((x) => x.level === "A1")!.title)).toBeTruthy(); // la primera unidad A1 aún «próximamente»
     expect(screen.getAllByText(/próximamente/).length).toBe(pack.course.planned.length);
   });
   it("la unidad lista 5 pasos con minutos y solo deja entrar al siguiente", async () => {

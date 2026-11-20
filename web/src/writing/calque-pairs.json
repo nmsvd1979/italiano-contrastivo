@@ -15,11 +15,6 @@
     "wrong": "Ci sono un ristorante qui."
   },
   {
-    "code": "ERR_POSSESSIVE_ARTICLE",
-    "correct": "Le mie sono peggio.",
-    "wrong": "Mie sono peggio."
-  },
-  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "Nel mondo ci sono quattro oceani.",
     "wrong": "Nel mondo c'è quattro oceani."
@@ -265,6 +260,11 @@
     "wrong": "Dovreste vedere mio gatto ora."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il tuo insegnante è vecchio.",
+    "wrong": "Tuo insegnante è vecchio."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Hanno molti fiori nel loro giardino?",
     "wrong": "Hanno molti fiori in il loro giardino?"
@@ -348,6 +348,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io non bevo dell'acqua.",
     "wrong": "Io non bevo di l'acqua."
+  },
+  {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "C'è un parrucchiere nell'hotel?",
+    "wrong": "Ci sono un parrucchiere nell'hotel?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'è un parrucchiere nell'hotel?",
+    "wrong": "C'è un parrucchiere in l'hotel?"
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -463,6 +473,11 @@
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è uno zoo a Boston?",
     "wrong": "Ci sono uno zoo a Boston?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Tutti fanno degli errori.",
+    "wrong": "Tutti fanno di gli errori."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -775,6 +790,11 @@
     "wrong": "Io voglio vivere in il paese."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "I suoi occhi sono azzurri.",
+    "wrong": "Suoi occhi sono azzurri."
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Io non amo Tom.",
     "wrong": "Io non amo a Tom."
@@ -970,6 +990,11 @@
     "wrong": "Ci sono un elenco telefonico qui?"
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Bisogna avere dedizione nel proprio mestiere.",
+    "wrong": "Bisogna avere dedizione in il proprio mestiere."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il tuo sangue è rosso.",
     "wrong": "Tuo sangue è rosso."
@@ -1100,6 +1125,16 @@
     "wrong": "La musica nutre nostra immaginazione."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Ammetto il mio errore.",
+    "wrong": "Ammetto mio errore."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Quand'è il tuo compleanno?",
+    "wrong": "Quand'è tuo compleanno?"
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è un gatto.",
     "wrong": "Ci sono un gatto."
@@ -1133,6 +1168,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Cominciamo alle due e mezza.",
     "wrong": "Cominciamo a le due e mezza."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La sua spiegazione è poco convincente.",
+    "wrong": "Sua spiegazione è poco convincente."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -1356,6 +1396,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Non è del tutto esatto.",
+    "wrong": "Non è di il tutto esatto."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La bambina ha paura del buio.",
     "wrong": "La bambina ha paura di il buio."
   },
@@ -1471,6 +1516,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Questa studentessa viene dal Giappone.",
+    "wrong": "Questa studentessa viene da il Giappone."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Questo studente viene dal Giappone.",
     "wrong": "Questo studente viene da il Giappone."
   },
@@ -1543,6 +1593,16 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "I miei genitori non mi capiscono.",
     "wrong": "Miei genitori non mi capiscono."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Tom sta andando nella direzione sbagliata.",
+    "wrong": "Tom sta andando in la direzione sbagliata."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Lei ha bisogno del nostro aiuto.",
+    "wrong": "Lei ha bisogno di il nostro aiuto."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -1750,6 +1810,11 @@
     "wrong": "Ciao, mio nome è Tom."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La tua opinione è molto costruttiva.",
+    "wrong": "Tua opinione è molto costruttiva."
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "Oh, là c'è una farfalla!",
     "wrong": "Oh, là ci sono una farfalla!"
@@ -1900,6 +1965,11 @@
     "wrong": "Mi piace sua musica."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Siamo tutti delle scimmie.",
+    "wrong": "Siamo tutti di le scimmie."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Lei ha paura dei tuoni.",
     "wrong": "Lei tiene paura dei tuoni."
@@ -1968,6 +2038,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Lei risponde alle domande?",
     "wrong": "Lei risponde a le domande?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Tutti nella foto stanno sorridendo.",
+    "wrong": "Tutti in la foto stanno sorridendo."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",

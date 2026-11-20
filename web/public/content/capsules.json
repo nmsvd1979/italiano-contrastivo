@@ -464,86 +464,86 @@
     "id": "cap_err_possessive_spelling",
     "retrieval": [
       {
-        "id": "it_choice_s_2077177_ERR_POSSESSIVE_SPELLING",
+        "id": "it_choice_s_3996278_ERR_POSSESSIVE_SPELLING",
         "options": [
           {
             "correct": true,
-            "text": "Bob è il mio amico."
+            "text": "Tom è il mio dentista."
           },
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_POSSESSIVE_SPELLING",
-            "text": "Bob è il mi amico."
+            "text": "Tom è il mi dentista."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_2077177",
-        "target_error_codes": [
-          "ERR_POSSESSIVE_SPELLING"
-        ],
-        "type": "choice_l1_distractor"
-      },
-      {
-        "answers": [
-          "mio"
-        ],
-        "hint_es": "Tom es mi dentista.",
-        "id": "it_cloze_s_3996278_ERR_POSSESSIVE_SPELLING",
         "requires_server": false,
         "review_status": "validated",
         "sentence_id": "s_3996278",
         "target_error_codes": [
           "ERR_POSSESSIVE_SPELLING"
         ],
-        "text": "Tom è il ___ dentista.",
-        "type": "cloze"
+        "type": "choice_l1_distractor"
       },
       {
-        "answer": [
-          "Qual",
-          "è",
-          "la",
-          "tua",
-          "opinione?"
+        "answers": [
+          "tua"
         ],
-        "id": "it_reorder_s_377545_ERR_POSSESSIVE_SPELLING",
-        "prompt_es": "Ordena las palabras: «¿Cuál es tu opinión?»",
+        "hint_es": "¿Cuál es tu opinión?",
+        "id": "it_cloze_s_377545_ERR_POSSESSIVE_SPELLING",
         "requires_server": false,
         "review_status": "validated",
         "sentence_id": "s_377545",
         "target_error_codes": [
           "ERR_POSSESSIVE_SPELLING"
         ],
-        "tokens": [
-          "è",
-          "opinione?",
+        "text": "Qual è la ___ opinione?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
           "Qual",
-          "la",
-          "tua"
+          "è",
+          "il",
+          "tuo",
+          "preferito?"
+        ],
+        "id": "it_reorder_s_2199984_ERR_POSSESSIVE_SPELLING",
+        "prompt_es": "Ordena las palabras: «¿Cuál es tu preferido?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2199984",
+        "target_error_codes": [
+          "ERR_POSSESSIVE_SPELLING"
+        ],
+        "tokens": [
+          "tuo",
+          "Qual",
+          "preferito?",
+          "è",
+          "il"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_2199984_ERR_POSSESSIVE_SPELLING",
+        "id": "it_choice_s_2199989_ERR_POSSESSIVE_SPELLING",
         "options": [
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_POSSESSIVE_SPELLING",
-            "text": "Qual è il tu preferito?"
+            "text": "Qual è la su preferita?"
           },
           {
             "correct": true,
-            "text": "Qual è il tuo preferito?"
+            "text": "Qual è la sua preferita?"
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2199984",
+        "sentence_id": "s_2199989",
         "target_error_codes": [
           "ERR_POSSESSIVE_SPELLING"
         ],
@@ -551,41 +551,41 @@
       },
       {
         "answers": [
-          "sua"
+          "tuo"
         ],
-        "hint_es": "¿Cuál es su preferida?",
-        "id": "it_cloze_s_2199989_ERR_POSSESSIVE_SPELLING",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_2199989",
-        "target_error_codes": [
-          "ERR_POSSESSIVE_SPELLING"
-        ],
-        "text": "Qual è la ___ preferita?",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "È",
-          "il",
-          "tuo",
-          "dovere",
-          "studiare."
-        ],
-        "id": "it_reorder_s_945591_ERR_POSSESSIVE_SPELLING",
-        "prompt_es": "Ordena las palabras: «Tu deber es estudiar.»",
+        "hint_es": "Tu deber es estudiar.",
+        "id": "it_cloze_s_945591_ERR_POSSESSIVE_SPELLING",
         "requires_server": false,
         "review_status": "validated",
         "sentence_id": "s_945591",
         "target_error_codes": [
           "ERR_POSSESSIVE_SPELLING"
         ],
+        "text": "È il ___ dovere studiare.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Dove",
+          "sono",
+          "i",
+          "miei",
+          "occhiali?"
+        ],
+        "id": "it_reorder_s_374617_ERR_POSSESSIVE_SPELLING",
+        "prompt_es": "Ordena las palabras: «¿Dónde están mis gafas?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_374617",
+        "target_error_codes": [
+          "ERR_POSSESSIVE_SPELLING"
+        ],
         "tokens": [
-          "studiare.",
-          "È",
-          "dovere",
-          "il",
-          "tuo"
+          "i",
+          "Dove",
+          "miei",
+          "sono",
+          "occhiali?"
         ],
         "type": "reorder"
       }
@@ -596,13 +596,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Le mie sono peggio."
+        "Bob è il mio amico."
       ],
-      "id": "it_translate_s_10152075_ERR_POSSESSIVE_SPELLING",
+      "id": "it_translate_s_2077177_ERR_POSSESSIVE_SPELLING",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_10152075",
-      "source_es": "Las mías son peores.",
+      "sentence_id": "s_2077177",
+      "source_es": "Bob es mi amigo.",
       "target_error_codes": [
         "ERR_POSSESSIVE_SPELLING"
       ],
@@ -2293,6 +2293,158 @@
     "cefr": "A1",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "En italiano las consonantes dobles se pronuncian más largas y cambian el significado: fato (destino) / fatto (hecho), sete (sed) / sette (siete), pala (pala) / palla (pelota), caro (querido) / carro (carro), pena / penna. Hay que mantener el cierre de la t, p, c, l, n, m, r, b, d y g más tiempo (casi el doble). En la app esta unidad practica las que la voz sintética pronuncia bien; no incluye la «ss» ni la «zz»."
+    },
+    "id": "cap_err_consonante_doppia",
+    "retrieval": [
+      {
+        "id": "it_choice_s_963675_ERR_CONSONANTE_DOPPIA",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Non è un giocattolo!"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_CONSONANTE_DOPPIA",
+            "text": "Non è un giocatolo!"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_963675",
+        "target_error_codes": [
+          "ERR_CONSONANTE_DOPPIA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "piatti"
+        ],
+        "hint_es": "Necesito lavar los platos.",
+        "id": "it_cloze_s_4243177_ERR_CONSONANTE_DOPPIA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4243177",
+        "target_error_codes": [
+          "ERR_CONSONANTE_DOPPIA"
+        ],
+        "text": "Devo lavare i ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Ti",
+          "devo",
+          "dieci",
+          "dollari."
+        ],
+        "id": "it_reorder_s_1221730_ERR_CONSONANTE_DOPPIA",
+        "prompt_es": "Ordena las palabras: «Te debo diez dólares.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1221730",
+        "target_error_codes": [
+          "ERR_CONSONANTE_DOPPIA"
+        ],
+        "tokens": [
+          "dieci",
+          "dollari.",
+          "Ti",
+          "devo"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_373873_ERR_CONSONANTE_DOPPIA",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_CONSONANTE_DOPPIA",
+            "text": "Ammeto il mio errore."
+          },
+          {
+            "correct": true,
+            "text": "Ammetto il mio errore."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_373873",
+        "target_error_codes": [
+          "ERR_CONSONANTE_DOPPIA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "errore"
+        ],
+        "hint_es": "No hay ningún error.",
+        "id": "it_cloze_s_4333778_ERR_CONSONANTE_DOPPIA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4333778",
+        "target_error_codes": [
+          "ERR_CONSONANTE_DOPPIA"
+        ],
+        "text": "Non c'è nessun ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Il",
+          "rubinetto",
+          "è",
+          "chiuso."
+        ],
+        "id": "it_reorder_s_4562309_ERR_CONSONANTE_DOPPIA",
+        "prompt_es": "Ordena las palabras: «El grifo está cerrado.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4562309",
+        "target_error_codes": [
+          "ERR_CONSONANTE_DOPPIA"
+        ],
+        "tokens": [
+          "chiuso.",
+          "Il",
+          "è",
+          "rubinetto"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_CONSONANTE_DOPPIA"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "A me piace correre."
+      ],
+      "id": "it_translate_s_1446016_ERR_CONSONANTE_DOPPIA",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1446016",
+      "source_es": "Me gusta correr.",
+      "target_error_codes": [
+        "ERR_CONSONANTE_DOPPIA"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "Algunas palabras tienen otro género que en español: il latte (la leche), il sale (la sal), il miele (la miel), il sangue (la sangre), il fiore (la flor), il naso (la nariz), il sorriso (la sonrisa). Y al revés: la mappa (el mapa), la matita (el lápiz), la penna (el bolígrafo), la scarpa (el zapato), la borsa (el bolso). Plural: -o → -i, -a → -e, -e → -i."
     },
     "id": "cap_err_genere_es",
@@ -2437,6 +2589,158 @@
       "source_es": "A Tom le encantan las flores.",
       "target_error_codes": [
         "ERR_GENERE_ES"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "El grupo gn suena como la ñ española (gnocchi = ñoqui, lasagne, bagno, signora) y se escribe gn, no ñ. La z suena [ts] o [dz] (pizza, grazie, zio): no se pronuncia como la «z» española de España ni como una simple «s», y no se escribe «c» ante e, i (grazie, no «gracie»). La doble zz es más larga (pizza, no «piza»)."
+    },
+    "id": "cap_err_gn_z_spelling",
+    "retrieval": [
+      {
+        "id": "it_choice_s_1110071_ERR_GN_Z_SPELLING",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "È solo un sogno."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_GN_Z_SPELLING",
+            "text": "È solo un soño."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1110071",
+        "target_error_codes": [
+          "ERR_GN_Z_SPELLING"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "bisogno"
+        ],
+        "hint_es": "No hace falta.",
+        "id": "it_cloze_s_3287523_ERR_GN_Z_SPELLING",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3287523",
+        "target_error_codes": [
+          "ERR_GN_Z_SPELLING"
+        ],
+        "text": "Non ce n'è ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Tom",
+          "è",
+          "un",
+          "poliziotto."
+        ],
+        "id": "it_reorder_s_2611941_ERR_GN_Z_SPELLING",
+        "prompt_es": "Ordena las palabras: «Tom es un policía.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2611941",
+        "target_error_codes": [
+          "ERR_GN_Z_SPELLING"
+        ],
+        "tokens": [
+          "un",
+          "è",
+          "Tom",
+          "poliziotto."
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_812801_ERR_GN_Z_SPELLING",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_GN_Z_SPELLING",
+            "text": "Ho bisoño di amici."
+          },
+          {
+            "correct": true,
+            "text": "Ho bisogno di amici."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_812801",
+        "target_error_codes": [
+          "ERR_GN_Z_SPELLING"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "colazione"
+        ],
+        "hint_es": "¿Desayunas en casa?",
+        "id": "it_cloze_s_470141_ERR_GN_Z_SPELLING",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_470141",
+        "target_error_codes": [
+          "ERR_GN_Z_SPELLING"
+        ],
+        "text": "Fai ___ a casa?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Tuo",
+          "padre",
+          "è",
+          "spagnolo?"
+        ],
+        "id": "it_reorder_s_7872410_ERR_GN_Z_SPELLING",
+        "prompt_es": "Ordena las palabras: «¿Tu padre es español?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_7872410",
+        "target_error_codes": [
+          "ERR_GN_Z_SPELLING"
+        ],
+        "tokens": [
+          "è",
+          "padre",
+          "spagnolo?",
+          "Tuo"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_GN_Z_SPELLING"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Io ho un sogno."
+      ],
+      "id": "it_translate_s_1358794_ERR_GN_Z_SPELLING",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1358794",
+      "source_es": "Tengo un sueño.",
+      "target_error_codes": [
+        "ERR_GN_Z_SPELLING"
       ],
       "type": "translate_es_it"
     }

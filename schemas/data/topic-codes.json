@@ -656,5 +656,33 @@
     ],
     "source": "Piacere! (Univ. de Iowa, CC BY-NC-SA 4.0): capítulos «L'ora», «I pronomi tonici» e «Imperativo (tu, noi, voi)»; sillabo A1 de los enti certificatori.",
     "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_GN_Z_SPELLING",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "El grupo gn suena como la ñ española (gnocchi = ñoqui, lasagne, bagno, signora) y se escribe gn, no ñ. La z suena [ts] o [dz] (pizza, grazie, zio): no se pronuncia como la «z» española de España ni como una simple «s», y no se escribe «c» ante e, i (grazie, no «gracie»). La doble zz es más larga (pizza, no «piza»).",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Sillabo A1 de los enti certificatori (fonología); medición de la voz Serena en scripts/medir_serena.py (docs/plan-cierre-a1.md, fase S).",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_CONSONANTE_DOPPIA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "En italiano las consonantes dobles se pronuncian más largas y cambian el significado: fato (destino) / fatto (hecho), sete (sed) / sette (siete), pala (pala) / palla (pelota), caro (querido) / carro (carro), pena / penna. Hay que mantener el cierre de la t, p, c, l, n, m, r, b, d y g más tiempo (casi el doble). En la app esta unidad practica las que la voz sintética pronuncia bien; no incluye la «ss» ni la «zz».",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Sillabo A1 de los enti certificatori (fonología); medición de la voz Serena en scripts/medir_serena.py (docs/plan-cierre-a1.md, fase S).",
+    "review_status": "needs_review"
   }
 ]
