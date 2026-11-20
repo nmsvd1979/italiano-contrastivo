@@ -3773,9 +3773,6 @@
         "ERR_PRESENT_MODAL"
       ],
       "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación.",
-      "readings": [
-        "rd_poste"
-      ],
       "ficha_es": "Volere, potere y dovere (querer, poder, deber) van con infinitivo: voglio mangiare, posso venire, devo studiare. Presente: voglio, vuoi, vuole, vogliamo, volete, vogliono; posso, puoi, può, possiamo, potete, possono; devo, devi, deve, dobbiamo, dovete, devono.\n\nSon irregulares: aprende las formas de memoria. Ojo: «tengo que» se dice devo; «tener ganas de» es avere voglia di.",
       "status": "active",
       "explanation_es": "Volere, potere y dovere son irregulares y muy frecuentes: voglio, vuoi, vuole, vogliamo, volete, vogliono / posso, puoi, può, possiamo, potete, possono / devo, devi, deve, dobbiamo, dovete, devono. Van con un infinitivo: voglio mangiare.",
@@ -5574,6 +5571,9 @@
       ],
       "why_here": "Moverte por la ciudad, con los lugares y las preposiciones ya vistos.",
       "ficha_es": "Para pedir y dar el camino: dov'è…? (¿dónde está…?), a destra (a la derecha), a sinistra (a la izquierda), dritto (derecho), davanti a (delante de), dietro (detrás de), vicino a (cerca de), lontano da (lejos de), all'angolo (en la esquina).\n\nOjo con las preposiciones: vicino a y davanti a llevan «a», pero lontano da lleva «da». Para dar instrucciones se usa mucho giri a destra / vada dritto (con Lei).",
+      "readings": [
+        "rd_poste"
+      ],
       "words": [
         {
           "form": "destra",

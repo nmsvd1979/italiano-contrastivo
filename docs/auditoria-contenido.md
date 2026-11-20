@@ -29,7 +29,7 @@ Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiem
 | u14 Verbos en -are: parlo, parli, parla | A1 | 36 | 81 | 7.4 | — | 8.9 | 3.2 | 10 | 12.3 | 10.2 | 3.2 | 55.2 | 6.8 | sí |
 | u15 Verbos en -ere e -ire: leggo, dormo, finisco | A1 | 36 | 108 | 7.1 | — | 7.1 | 3.2 | 10.3 | 12.3 | 10.1 | 2.5 | 52.6 | 9.4 | sí |
 | u16 Andare, fare, stare, venire: vado, faccio | A1 | 36 | 99 | 7.1 | — | 5.6 | 3.2 | 10.3 | 12.3 | 10.1 | 2.7 | 51.3 | 10.7 | sí |
-| u17 Volere, potere, dovere: voglio, posso, devo | A1 | 36 | 108 | 7.1 | — | 8.5 | 3.2 | 10.3 | 12.3 | 10.1 | 2.5 | 54 | 8 | sí |
+| u17 Volere, potere, dovere: voglio, posso, devo | A1 | 36 | 108 | 7.1 | — | — | 3.2 | 10.3 | 12.3 | 10.1 | 2.5 | 45.5 | 16.5 | no |
 | u36 Vocabulario: tiempo libre | A1 | 31 | 124 | 7.1 | 5.8 | — | 3.2 | 10.1 | 12.3 | 10.1 | 2.5 | 51.1 | 10.9 | no |
 | u25 Vocabulario: días, meses y estaciones | A1 | 33 | 132 | 7.1 | 6 | 7.7 | 3.2 | 10.4 | 12.3 | 10.2 | 2.5 | 59.4 | 2.6 | sí |
 | u40 Ieri, oggi, domani, sempre, mai | A1 | 21 | 84 | 7.1 | 4.5 | 6.4 | 3.2 | 10 | 11 | 3.9 | 2.5 | 48.6 | 13.4 | sí |
@@ -39,7 +39,7 @@ Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiem
 | u24 Vocabulario: la ciudad y la naturaleza | A1 | 36 | 143 | 7.1 | 7.3 | 8.1 | 3.2 | 10.2 | 12.3 | 10.1 | 2.5 | 60.8 | 1.2 | sí |
 | u05 Ciudades y países: a / in | A1 | 31 | 93 | 7.1 | — | 5.2 | 3.2 | 10.3 | 12.3 | 10.3 | 2.5 | 50.9 | 11.1 | sí |
 | u06 Preposición + artículo: nel, sul, dal | A1 | 38 | 111 | 7.1 | — | 8.1 | 3.2 | 10.3 | 12.3 | 10.2 | 2.5 | 53.7 | 8.3 | sí |
-| u57 Direcciones: a destra, a sinistra, dritto | A1 | 51 | 203 | 7.1 | 5.5 | — | 3.2 | 10.1 | 12.3 | 10.1 | 2.5 | 50.8 | 11.2 | no |
+| u57 Direcciones: a destra, a sinistra, dritto | A1 | 51 | 203 | 7.1 | 5.5 | 8.5 | 3.2 | 10.1 | 12.3 | 10.1 | 2.5 | 59.3 | 2.7 | sí |
 | u22 Vocabulario: comida y bebida | A1 | 37 | 148 | 7.1 | 8 | 13.5 | 3.2 | 10.4 | 12.3 | 10.2 | 2.5 | 67.2 | 0 | sí |
 | u44 Mi piace / mi piacciono | A1 | 42 | 126 | 7.1 | — | — | 3.2 | 10.3 | 12.3 | 10.1 | 2.5 | 45.5 | 16.5 | no |
 | u35 Vocabulario: bar y restaurante | A1 | 18 | 72 | 7.1 | 5.3 | 4.1 | 3.2 | 10.2 | 9 | 0.9 | 2.5 | 42.3 | 19.7 | sí |
