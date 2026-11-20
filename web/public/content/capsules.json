@@ -4712,7 +4712,7 @@
       "requires_server": false,
       "review_status": "validated",
       "sentence_id": "s_7716415",
-      "source_es": "¿Ya estáis en casa?",
+      "source_es": "¿Ya están en casa?",
       "target_error_codes": [
         "ERR_VOC_CASA"
       ],

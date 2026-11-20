@@ -2671,16 +2671,6 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
-    "correct": "L'esercito avanzò sulla collina.",
-    "wrong": "L'esercito avanzò su la collina."
-  },
-  {
-    "code": "ERR_PREP_ARTICLE_CONTRACTION",
-    "correct": "C'era qualcuno nel bar?",
-    "wrong": "C'era qualcuno in il bar?"
-  },
-  {
-    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "L'ho sentito alla radio.",
     "wrong": "L'ho sentito a la radio."
   },

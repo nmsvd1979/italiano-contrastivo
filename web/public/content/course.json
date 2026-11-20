@@ -2524,7 +2524,6 @@
           "s_4434",
           "s_1020221",
           "s_922822",
-          "s_2885543",
           "s_3697122",
           "s_1330875",
           "s_738768",
@@ -2537,7 +2536,6 @@
           "s_1520394",
           "s_388805",
           "s_5774254",
-          "s_8081497",
           "s_4577451",
           "s_742058",
           "s_935010",
@@ -2551,11 +2549,11 @@
           "s_2975152",
           "s_1441832",
           "s_922822",
-          "s_1330875",
-          "s_4480555",
-          "s_1859908",
-          "s_388805",
-          "s_4577451"
+          "s_738768",
+          "s_6003305",
+          "s_381212",
+          "s_5774254",
+          "s_935010"
         ],
         "prueba": [
           "s_1999027",
@@ -6042,7 +6040,6 @@
           "s_425671",
           "s_725012",
           "s_715351",
-          "s_896789",
           "s_7750493",
           "s_1246546",
           "s_5775140",
@@ -6059,7 +6056,6 @@
           "s_2220241",
           "s_382408",
           "s_1100328",
-          "s_848808",
           "s_379758",
           "s_374224",
           "s_3061525",
@@ -6074,10 +6070,10 @@
           "s_1506623",
           "s_12816270",
           "s_390581",
-          "s_7750493",
-          "s_4583120",
-          "s_399965",
-          "s_1100328"
+          "s_1246546",
+          "s_376538",
+          "s_4951779",
+          "s_379758"
         ],
         "prueba": [
           "s_2352897",
@@ -6542,237 +6538,6 @@
           "start": 3,
           "end": 8,
           "wrong": "piacciono"
-        }
-      ]
-    },
-    {
-      "id": "u35",
-      "level": "A1",
-      "title": "Vocabulario: bar y restaurante",
-      "goal_es": "Menù, conto, tazza, panino, tè… y cómo pedir: «il conto, per favore».",
-      "codes": [
-        "ERR_VOC_BAR"
-      ],
-      "why_here": "Pedir en un bar o restaurante con la comida y la bebida ya vistas.",
-      "readings": [
-        "rd_pasticceria"
-      ],
-      "ficha_es": "En el bar: un caffè, un cappuccino, un tè, una spremuta (jugo exprimido), un panino (sándwich), il conto (la cuenta), la mancia (la propina). Para pedir: vorrei un caffè (quisiera un café), per favore, il conto, per favore.\n\nMenù y tè no cambian en plural (due menù, due tè). En un bar italiano se paga en la caja antes, o al final en la mesa, según el lugar.",
-      "words": [
-        {
-          "form": "menù",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el menú",
-          "audio": "9f98318de2a1"
-        },
-        {
-          "form": "conto",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la cuenta",
-          "audio": "315dae015b17"
-        },
-        {
-          "form": "tazza",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la taza",
-          "audio": "f6933d2ae5e8"
-        },
-        {
-          "form": "cucchiaio",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la cuchara",
-          "audio": "88fd771a8192"
-        },
-        {
-          "form": "tovagliolo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la servilleta",
-          "audio": "31a9afec9737"
-        },
-        {
-          "form": "panino",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el sándwich",
-          "audio": "8c71f3327015"
-        },
-        {
-          "form": "panini",
-          "gender": "m",
-          "num": "p",
-          "gloss": "los sándwiches",
-          "audio": "f1b4124a41ed"
-        },
-        {
-          "form": "spaghetti",
-          "gender": "m",
-          "num": "p",
-          "gloss": "los espaguetis",
-          "audio": "2acfa5d173e1"
-        },
-        {
-          "form": "antipasto",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la entrada",
-          "audio": "16985a74b307"
-        },
-        {
-          "form": "contorno",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la guarnición",
-          "audio": "a16efcde6ea5"
-        },
-        {
-          "form": "cappuccino",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el capuchino",
-          "audio": "c5fcba503d07"
-        },
-        {
-          "form": "tè",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el té",
-          "audio": "494f9022c30f"
-        },
-        {
-          "form": "succo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el jugo",
-          "audio": "4fe36e26dd2a"
-        },
-        {
-          "form": "spremuta",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el jugo exprimido",
-          "audio": "5b8146bdb616"
-        },
-        {
-          "form": "mancia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la propina",
-          "audio": "cc4a70ebab11"
-        },
-        {
-          "form": "prenotazione",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la reserva",
-          "audio": "91d6b7d1d25a"
-        },
-        {
-          "form": "bibita",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la bebida",
-          "audio": "1e4dc52dc47c"
-        },
-        {
-          "form": "aperitivo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el aperitivo",
-          "audio": "4a210e7667cc"
-        },
-        {
-          "form": "bar",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el bar",
-          "audio": "62cdb7020ff9"
-        },
-        {
-          "form": "pizzeria",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la pizzería",
-          "audio": "23c4d7910348"
-        },
-        {
-          "form": "trattoria",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la trattoria",
-          "audio": "0debee20cecb"
-        }
-      ],
-      "status": "active",
-      "explanation_es": "Menù, conto, tazza, panino, spaghetti, mancia… «Il conto, per favore» es como se pide la cuenta. Menù y tè no cambian en plural (due menù, due tè) y llevan acento.",
-      "parts": {
-        "descubre": [
-          "s_1118828",
-          "s_1999830",
-          "s_423815",
-          "s_1701473"
-        ],
-        "practica": [
-          "s_1118828",
-          "s_1999830",
-          "s_423815",
-          "s_1701473",
-          "s_708295",
-          "s_1073992",
-          "s_439940",
-          "s_1105352",
-          "s_1515977",
-          "s_7247845",
-          "s_470153",
-          "s_398303"
-        ],
-        "escucha": [
-          "s_1118828",
-          "s_1999830",
-          "s_423815",
-          "s_1701473",
-          "s_708295",
-          "s_1073992",
-          "s_439940",
-          "s_1105352"
-        ],
-        "prueba": [
-          "s_3414320",
-          "s_836040",
-          "s_1308149",
-          "s_10154263",
-          "s_3590886",
-          "s_609633"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_1118828",
-          "start": 13,
-          "end": 15,
-          "wrong": "menù"
-        },
-        {
-          "id": "s_1999830",
-          "start": 13,
-          "end": 15,
-          "wrong": "succo"
-        },
-        {
-          "id": "s_423815",
-          "start": 17,
-          "end": 19,
-          "wrong": "succo"
-        },
-        {
-          "id": "s_1701473",
-          "start": 3,
-          "end": 5,
-          "wrong": "cucchiaio"
         }
       ]
     },
@@ -8389,9 +8154,7 @@
           "s_10778973",
           "s_4667408",
           "s_12834656",
-          "s_9769696",
           "s_4477",
-          "s_613815",
           "s_387009",
           "s_1329353"
         ],
@@ -8476,9 +8239,7 @@
           "s_11353547",
           "s_3516070",
           "s_11790269",
-          "s_11799949",
-          "s_1097835",
-          "s_2431194"
+          "s_11799949"
         ],
         "escucha": [
           "s_4711094",
@@ -8491,11 +8252,11 @@
           "s_2960484"
         ],
         "prueba": [
+          "s_1097835",
+          "s_2431194",
           "s_682810",
           "s_978867",
-          "s_633518",
           "s_874428",
-          "s_795074",
           "s_384842"
         ]
       },
@@ -10411,8 +10172,7 @@
           "s_691871",
           "s_1475704",
           "s_2163408",
-          "s_7751123",
-          "s_691870"
+          "s_7751123"
         ],
         "escucha": [
           "s_3901366",
@@ -10425,7 +10185,7 @@
           "s_2163408"
         ],
         "prueba": [
-          "s_715269",
+          "s_691870",
           "s_1607132",
           "s_500247",
           "s_1642441",
@@ -10912,6 +10672,11 @@
       "level": "A1",
       "title": "Alfabeto y vocales",
       "reason": "Las vocales italianas coinciden con las españolas; lo que difiere (c/g, sc, gli, gn y z, consonantes dobles) tiene su unidad o espera audio nativo verificado."
+    },
+    {
+      "level": "A1",
+      "title": "Vocabulario: bar y restaurante",
+      "reason": "Solo 17 oraciones validadas utilizables (se necesitan 18)."
     }
   ]
 }

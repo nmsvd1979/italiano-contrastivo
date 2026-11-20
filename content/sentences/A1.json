@@ -12887,13 +12887,13 @@
     "error_codes": [
       "ERR_PRESENT_ESSERE_AVERE"
     ],
-    "es": "Vosotros tenéis muchas amigas.",
-    "es_author": "cueyayotl",
-    "es_source_id": "3279519",
+    "es": "Ustedes tienen muchas amigas.",
+    "es_author": "IA (Claude)",
     "id": "s_2515854",
     "it": "Voi avete molte amiche.",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -12902,7 +12902,7 @@
     "tag_rules": {
       "ERR_PRESENT_ESSERE_AVERE": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "_Martina_",
@@ -15102,30 +15102,6 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
-      "ERR_VOC_INTERROG"
-    ],
-    "es": "¿Vosotros qué debéis hacer?",
-    "es_author": "cueyayotl",
-    "es_source_id": "3373388",
-    "id": "s_2885543",
-    "it": "Voi cosa dovete fare?",
-    "license": "CC BY 2.0 FR",
-    "qa_flags": [
-      "multi_translation"
-    ],
-    "review_status": "validated",
-    "source": "tatoeba",
-    "source_id": "2885543",
-    "tag_rules": {
-      "ERR_VOC_INTERROG": "capsule_calque"
-    },
-    "translation_kind": "direct"
-  },
-  {
-    "author": "Guybrush88",
-    "cefr_confidence": 0.3,
-    "cefr_estimate": "A1",
-    "error_codes": [
       "ERR_PRONOME_TONICO"
     ],
     "es": "No te necesito aquí.",
@@ -16972,13 +16948,13 @@
     "error_codes": [
       "ERR_SC_PALATAL"
     ],
-    "es": "¿Conocéis la ley de Murphy?",
-    "es_author": "cueyayotl",
-    "es_source_id": "3764345",
+    "es": "¿Conocen la ley de Murphy?",
+    "es_author": "IA (Claude)",
     "id": "s_3326122",
     "it": "Conoscete la legge di Murphy?",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -16987,7 +16963,7 @@
     "tag_rules": {
       "ERR_SC_PALATAL": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -18374,13 +18350,13 @@
     "error_codes": [
       "ERR_VOC_FAMILIA"
     ],
-    "es": "¿Dónde está vuestra madre?",
-    "es_author": "Seael",
-    "es_source_id": "11672559",
+    "es": "¿Dónde está su madre?",
+    "es_author": "IA (Claude)",
     "id": "s_3601695",
     "it": "Dov'è vostra madre?",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -18389,7 +18365,7 @@
     "tag_rules": {
       "ERR_VOC_FAMILIA": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -26215,13 +26191,13 @@
     "error_codes": [
       "ERR_TENERE_AVERE"
     ],
-    "es": "Comed, porque tenéis hambre.",
-    "es_author": "Shishir",
-    "es_source_id": "760130",
+    "es": "Coman, porque tienen hambre.",
+    "es_author": "IA (Claude)",
     "id": "s_531427",
     "it": "Mangiate, perché avete fame.",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -26230,7 +26206,7 @@
     "tag_rules": {
       "ERR_TENERE_AVERE": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -31803,20 +31779,21 @@
     "error_codes": [
       "ERR_VOC_CASA"
     ],
-    "es": "¿Ya estáis en casa?",
-    "es_author": "Seael",
-    "es_source_id": "7894670",
+    "es": "¿Ya están en casa?",
+    "es_author": "IA (Claude)",
     "id": "s_7716415",
     "it": "Siete già a casa?",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "7716415",
     "tag_rules": {
       "ERR_VOC_CASA": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -32675,30 +32652,6 @@
     "source_id": "8037532",
     "tag_rules": {
       "ERR_PRESENT_ESSERE_AVERE": "capsule_calque"
-    },
-    "translation_kind": "direct"
-  },
-  {
-    "author": "Guybrush88",
-    "cefr_confidence": 0.3,
-    "cefr_estimate": "A1",
-    "error_codes": [
-      "ERR_VOC_INTERROG"
-    ],
-    "es": "¿Por qué sois tan tacañas?",
-    "es_author": "Seael",
-    "es_source_id": "13871875",
-    "id": "s_8081497",
-    "it": "Perché siete così taccagne?",
-    "license": "CC BY 2.0 FR",
-    "qa_flags": [
-      "multi_translation"
-    ],
-    "review_status": "validated",
-    "source": "tatoeba",
-    "source_id": "8081497",
-    "tag_rules": {
-      "ERR_VOC_INTERROG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -33644,30 +33597,6 @@
     "source_id": "894222",
     "tag_rules": {
       "ERR_PRESENT_ARE": "capsule_calque"
-    },
-    "translation_kind": "direct"
-  },
-  {
-    "author": "matsuteo",
-    "cefr_confidence": 0.3,
-    "cefr_estimate": "A1",
-    "error_codes": [
-      "ERR_VOC_DIREZIONI"
-    ],
-    "es": "No deberías comer aquí.",
-    "es_author": "Shishir",
-    "es_source_id": "1292042",
-    "id": "s_896789",
-    "it": "Non dovresti mangiare qui.",
-    "license": "CC BY 2.0 FR",
-    "qa_flags": [
-      "multi_translation"
-    ],
-    "review_status": "validated",
-    "source": "tatoeba",
-    "source_id": "896789",
-    "tag_rules": {
-      "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "direct"
   },

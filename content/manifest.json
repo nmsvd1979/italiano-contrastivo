@@ -15,7 +15,7 @@
     "Eldad": 1,
     "Emmanuel_Maldini": 1,
     "Gloria7": 2,
-    "Guybrush88": 1288,
+    "Guybrush88": 1279,
     "Heracleum": 11,
     "IdiomHunter": 1,
     "JLGQ_": 2,
@@ -74,7 +74,7 @@
     "manu": 1,
     "marco87": 13,
     "martin": 12,
-    "matsuteo": 2,
+    "matsuteo": 1,
     "meursault": 4,
     "miccap": 2,
     "miravalles": 1,
@@ -130,14 +130,14 @@
     "ERR_GENERE_ES": 21,
     "ERR_GLI_PALATAL": 46,
     "ERR_HETEROTONIC": 1,
-    "ERR_IMPERATIVO_FORMA": 37,
+    "ERR_IMPERATIVO_FORMA": 35,
     "ERR_INDEFINITE_ARTICLE": 24,
     "ERR_INDIRECT_PRONOUN_GENDER": 5,
     "ERR_MAGARI_TENSE": 4,
     "ERR_MANCARE": 13,
     "ERR_NEG_IMPERATIVE": 3,
     "ERR_ORA_ES": 26,
-    "ERR_PARTICIPIO_ES": 21,
+    "ERR_PARTICIPIO_ES": 19,
     "ERR_PARTICIPLE_AGREEMENT": 32,
     "ERR_PARTICIPLE_AGREEMENT_CLITIC": 4,
     "ERR_PERSONAL_A": 24,
@@ -165,7 +165,7 @@
     "ERR_VOC_ANIMALI": 37,
     "ERR_VOC_ASTRATTI": 30,
     "ERR_VOC_AVVERBI": 21,
-    "ERR_VOC_BAR": 18,
+    "ERR_VOC_BAR": 17,
     "ERR_VOC_CASA": 33,
     "ERR_VOC_CIBO": 37,
     "ERR_VOC_CITTA": 36,
@@ -175,13 +175,13 @@
     "ERR_VOC_CUCINA": 20,
     "ERR_VOC_DENARO": 24,
     "ERR_VOC_DIMOSTRATIVI": 28,
-    "ERR_VOC_DIREZIONI": 51,
+    "ERR_VOC_DIREZIONI": 49,
     "ERR_VOC_FAMILIA": 37,
     "ERR_VOC_FRUTTA": 22,
     "ERR_VOC_IGIENE": 22,
-    "ERR_VOC_INTERROG": 35,
+    "ERR_VOC_INTERROG": 33,
     "ERR_VOC_LAVORO": 33,
-    "ERR_VOC_NATURA": 23,
+    "ERR_VOC_NATURA": 22,
     "ERR_VOC_NAZIONALITA": 32,
     "ERR_VOC_NEGOZI": 20,
     "ERR_VOC_NUMERI": 37,
@@ -261,17 +261,17 @@
     "s_9981034"
   ],
   "levels": {
-    "A1": 1544,
-    "A2": 332,
+    "A1": 1541,
+    "A2": 325,
     "B1": 141,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 1997,
+    "llm-audit": 1987,
     "me": 27
   },
   "translation_kind": {
-    "direct": 1719,
-    "llm": 305
+    "direct": 1702,
+    "llm": 312
   }
 }

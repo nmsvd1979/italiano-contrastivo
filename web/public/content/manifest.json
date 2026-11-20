@@ -112,7 +112,7 @@
     "ERR_IMPERATIVO_FORMA": {
       "capsule": true,
       "reason": null,
-      "usable": 37
+      "usable": 35
     },
     "ERR_INDEFINITE_ARTICLE": {
       "capsule": true,
@@ -127,7 +127,7 @@
     "ERR_PARTICIPIO_ES": {
       "capsule": true,
       "reason": null,
-      "usable": 21
+      "usable": 19
     },
     "ERR_PARTICIPLE_AGREEMENT": {
       "capsule": true,
@@ -237,7 +237,7 @@
     "ERR_VOC_BAR": {
       "capsule": true,
       "reason": null,
-      "usable": 18
+      "usable": 17
     },
     "ERR_VOC_CASA": {
       "capsule": true,
@@ -287,7 +287,7 @@
     "ERR_VOC_DIREZIONI": {
       "capsule": true,
       "reason": null,
-      "usable": 51
+      "usable": 49
     },
     "ERR_VOC_FAMILIA": {
       "capsule": true,
@@ -307,7 +307,7 @@
     "ERR_VOC_INTERROG": {
       "capsule": true,
       "reason": null,
-      "usable": 35
+      "usable": 33
     },
     "ERR_VOC_LAVORO": {
       "capsule": true,
@@ -317,7 +317,7 @@
     "ERR_VOC_NATURA": {
       "capsule": true,
       "reason": null,
-      "usable": 23
+      "usable": 22
     },
     "ERR_VOC_NAZIONALITA": {
       "capsule": true,
@@ -376,18 +376,18 @@
     }
   },
   "levels": {
-    "A1": 1544,
-    "A2": 332,
+    "A1": 1541,
+    "A2": 325,
     "B1": 141,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 1997,
+    "llm-audit": 1987,
     "me": 27
   },
-  "sentences_used": 1873,
+  "sentences_used": 1863,
   "translation_kind": {
-    "direct": 1674,
-    "llm": 199
+    "direct": 1657,
+    "llm": 206
   }
 }

@@ -2723,20 +2723,21 @@
     "error_codes": [
       "ERR_PARTICIPLE_AGREEMENT"
     ],
-    "es": "Se os ha pagado, ¿verdad?",
-    "es_author": "saverius",
-    "es_source_id": "11816453",
+    "es": "Les pagaron, ¿verdad?",
+    "es_author": "IA (Claude)",
     "id": "s_5805500",
     "it": "Siete stati pagati, vero?",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "5805500",
     "tag_rules": {
       "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
