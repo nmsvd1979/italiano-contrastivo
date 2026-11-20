@@ -48,3 +48,15 @@ describe("unidades opcionales (vocabulario ampliado)", () => {
     expect(core.every((v) => v.unit.level !== "A1+")).toBe(true);
   });
 });
+
+describe("fichas de enseñanza", () => {
+  it("toda unidad activa tiene su ficha, con al menos dos párrafos o 40 palabras", () => {
+    for (const u of course.units) {
+      expect(u.ficha_es, `${u.id} sin ficha`).toBeTruthy();
+      expect(u.ficha_es!.split(/\s+/).length, `${u.id} ficha muy corta`).toBeGreaterThanOrEqual(40);
+    }
+  });
+  it("las fichas no usan voseo ni «vosotros»", () => {
+    for (const u of course.units) expect(u.ficha_es, u.id).not.toMatch(/\b(vos|tenés|sabés|vosotros|vuestro|vuestra|tenéis|sois)\b/i);
+  });
+});

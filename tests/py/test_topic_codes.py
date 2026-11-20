@@ -17,7 +17,7 @@ def test_topic_codes_cumplen_el_esquema_y_no_pisan_el_catalogo():
     for t in topics:
         v.validate(t)
     from pipeline.exercises import vocab
-    assert {t["code"] for t in topics} == set(present.PRESENT_CODES) | set(vocab.VOCAB_CODES) | {"ERR_PIACERE_ACCORDO"}
+    assert {t["code"] for t in topics} == set(present.PRESENT_CODES) | set(vocab.VOCAB_CODES) | {"ERR_PIACERE_ACCORDO", "ERR_GENERE_ES", "ERR_INDEFINITE_ARTICLE", "ERR_RIFLESSIVO_PRONOME", "ERR_PARTICIPIO_ES"}
     assert not catalog & {t["code"] for t in topics}
 
 

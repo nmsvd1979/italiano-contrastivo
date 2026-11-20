@@ -66,7 +66,7 @@ def test_calque_aplica_el_calco_exacto(code, it, wrong_sentence, correct, kind):
 
 @pytest.mark.parametrize("code", calques.CALQUE_CODES)
 def test_sin_patron_devuelve_none(code):
-    assert find_calque(code, "Siamo davvero qui.") is None
+    assert find_calque(code, "Tom Smith, davvero.") is None
 
 
 @pytest.mark.parametrize("code,it", [
@@ -116,13 +116,15 @@ def test_los_codigos_cubiertos():
         "ERR_VOC_ABITI", "ERR_VOC_COLORI", "ERR_VOC_CLIMA", "ERR_VOC_TRASPORTI", "ERR_VOC_BAR", "ERR_VOC_TEMPOLIBERO",
         "ERR_VOC_SALUTI", "ERR_VOC_DIMOSTRATIVI", "ERR_VOC_QUANTITA", "ERR_VOC_AVVERBI", "ERR_VOC_AGGETTIVI", "ERR_VOC_DENARO", "ERR_VOC_SALUTE", "ERR_PIACERE_ACCORDO",
         "ERR_VOC_NAZIONALITA", "ERR_VOC_FRUTTA", "ERR_VOC_NEGOZI", "ERR_VOC_IGIENE", "ERR_VOC_OGGETTI",
-        "ERR_VOC_ASTRATTI", "ERR_VOC_NATURA", "ERR_VOC_CUCINA", "ERR_VOC_SCUOLA"}
+        "ERR_VOC_ASTRATTI", "ERR_VOC_NATURA", "ERR_VOC_CUCINA", "ERR_VOC_SCUOLA",
+        "ERR_GENERE_ES", "ERR_INDEFINITE_ARTICLE", "ERR_RIFLESSIVO_PRONOME", "ERR_PARTICIPIO_ES", "ERR_VOC_DIREZIONI"}
     assert find_calque("ERR_NO_EXISTE", "Ho fame.") is None
 
 
 NEW_CODES = {"ERR_ARTICLE_ALLOMORPH", "ERR_PARTICIPLE_AGREEMENT", "ERR_POSSESSIVE_SPELLING", "ERR_CONGIUNTIVO_OPINION",
              "ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL",
-             "ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL", "ERR_PIACERE_ACCORDO"}
+             "ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL", "ERR_PIACERE_ACCORDO",
+             "ERR_GENERE_ES", "ERR_INDEFINITE_ARTICLE", "ERR_RIFLESSIVO_PRONOME", "ERR_PARTICIPIO_ES"}
 
 
 def test_ningun_calco_aparece_en_el_corpus_validado():

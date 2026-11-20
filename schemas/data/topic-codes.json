@@ -530,5 +530,75 @@
     ],
     "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
     "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_GENERE_ES",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Algunas palabras tienen otro género que en español: il latte (la leche), il sale (la sal), il miele (la miel), il sangue (la sangre), il fiore (la flor), il naso (la nariz), il sorriso (la sonrisa). Y al revés: la mappa (el mapa), la matita (el lápiz), la penna (el bolígrafo), la scarpa (el zapato), la borsa (el bolso). Plural: -o → -i, -a → -e, -e → -i.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: currículo A1 aprobado (docs/curriculo-a1.md) y estudios contrastivos ES→IT.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_INDEFINITE_ARTICLE",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "El indefinido masculino es «un» (un amico), pero «uno» ante s + consonante, z, gn, ps (uno studente, uno zio). El femenino es «una» (una casa) y se apostrofa ante vocal: un'amica. En masculino no hay apóstrofo: un amico.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: currículo A1 aprobado (docs/curriculo-a1.md) y estudios contrastivos ES→IT.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_RIFLESSIVO_PRONOME",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Los verbos reflexivos usan mi, ti, si, ci, vi (el español usa me, te, se, nos, os): mi sveglio, ti alzi, si lava, ci vestiamo, vi riposate. El pronombre va antes del verbo conjugado.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: currículo A1 aprobado (docs/curriculo-a1.md) y estudios contrastivos ES→IT.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_PARTICIPIO_ES",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "El participio de los verbos regulares termina en -ato (-are), -uto (-ere) o -ito (-ire): ho mangiato, ho venduto, ho dormito. No es -ado/-ido como en español: «ho mangiado» no existe. Se forma con avere: ho, hai, ha, abbiamo, avete, hanno.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: currículo A1 aprobado (docs/curriculo-a1.md) y estudios contrastivos ES→IT.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_DIREZIONI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "A destra, a sinistra, dritto, vicino, lontano, davanti, dietro… Para dar el camino: «giri a destra», «vada dritto». «Vicino a» y «davanti a» llevan «a»; «lontano da» lleva «da».",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
   }
 ]

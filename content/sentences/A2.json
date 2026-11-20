@@ -92,6 +92,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_RIFLESSIVO_PRONOME"
+    ],
+    "es": "Ella nunca se viste de verde.",
+    "es_author": "Shishir",
+    "es_source_id": "1045046",
+    "id": "s_1019958",
+    "it": "Lei non si veste mai di verde.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1019958",
+    "tag_rules": {
+      "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_ARTICLE_ALLOMORPH"
     ],
     "es": "El fútbol es el deporte más popular de todos.",
@@ -182,6 +204,28 @@
       "ERR_GEMINATE_SPELLING": "geminata_ortografia",
       "ERR_NEG_IMPERATIVE": "imperativo_negativo",
       "ERR_PLURAL_VOWEL": "plurale_vocale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GENERE_ES"
+    ],
+    "es": "No puedo respirar por la nariz.",
+    "es_author": "Leono",
+    "es_source_id": "602182",
+    "id": "s_1068375",
+    "it": "Non riesco a respirare attraverso il naso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1068375",
+    "tag_rules": {
+      "ERR_GENERE_ES": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -314,6 +358,52 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "Él ha comenzado a aprender el Esperanto.",
+    "es_author": "Serveto",
+    "es_source_id": "2491001",
+    "id": "s_1097835",
+    "it": "Ha cominciato a imparare l'esperanto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1097835",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "Su casa está cerca del río.",
+    "es_author": "hayastan",
+    "es_source_id": "1100989",
+    "id": "s_1100328",
+    "it": "La sua casa è vicino al fiume.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1100328",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "carlosalberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -354,6 +444,28 @@
     "source_id": "1122088",
     "tag_rules": {
       "ERR_PREP_PLACE": "preposizione_luogo"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "El aeropuerto está en el norte de la ciudad.",
+    "es_author": "carlosalberto",
+    "es_source_id": "11229821",
+    "id": "s_11229822",
+    "it": "L'aeroporto si trova a nord della città.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11229822",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -542,6 +654,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Valdast",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "Ella compró un coche nuevo.",
+    "es_author": "Shishir",
+    "es_source_id": "1292349",
+    "id": "s_11353547",
+    "it": "Ha comprato una macchina nuova.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11353547",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -681,6 +815,74 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Nuel",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RIFLESSIVO_PRONOME"
+    ],
+    "es": "¿Te sientes frustrado por no ser capaz de conducir?",
+    "es_author": "saverius",
+    "es_source_id": "11790676",
+    "id": "s_11789268",
+    "it": "Ti senti frustrato per non essere capace di guidare?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11789268",
+    "tag_rules": {
+      "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Nuel",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "No he notado tus cabellos grises.",
+    "es_author": "saverius",
+    "es_source_id": "11790460",
+    "id": "s_11790269",
+    "it": "Non ho notato i tuoi capelli grigi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11790269",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "Bebió diez botellas de cerveza.",
+    "es_author": "Seael",
+    "es_source_id": "11799954",
+    "id": "s_11799949",
+    "it": "Ha bevuto dieci bottiglie di birra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11799949",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -751,6 +953,28 @@
     "source_id": "1239005",
     "tag_rules": {
       "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GENERE_ES"
+    ],
+    "es": "La leche tiene un sabor ligeramente ácido.",
+    "es_author": "hayastan",
+    "es_source_id": "1384748",
+    "id": "s_1241614",
+    "it": "Il latte ha un gusto leggermente acido.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1241614",
+    "tag_rules": {
+      "ERR_GENERE_ES": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1615,6 +1839,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Shadd",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "El hombre detrás de ellos está tocando el piano.",
+    "es_author": "darinmex",
+    "es_source_id": "701539",
+    "id": "s_1510820",
+    "it": "L'uomo dietro di loro sta suonando il pianoforte.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1510820",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -1664,6 +1910,28 @@
       "ERR_Z_AFFRICATE": "z_africata"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "Jugué con mi hermano.",
+    "es_author": "Shishir",
+    "es_source_id": "10028734",
+    "id": "s_1541548",
+    "it": "Ho giocato con mio fratello.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1541548",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -1776,6 +2044,30 @@
     "source_id": "1642441",
     "tag_rules": {
       "ERR_VOC_NATURA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "Quisiera una mesa junto a la ventana.",
+    "es_author": "Espi",
+    "es_source_id": "6144880",
+    "id": "s_1642445",
+    "it": "Io vorrei un tavolo vicino alla finestra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1642445",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1981,6 +2273,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RIFLESSIVO_PRONOME"
+    ],
+    "es": "Me cepillo los dientes cada mañana.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1649146",
+    "id": "s_1828202",
+    "it": "Io mi lavo i denti ogni mattina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1828202",
+    "tag_rules": {
+      "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "al_ex_an_der",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -1999,6 +2315,28 @@
     "source_id": "1843021",
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "Comí en el autobús.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4571375",
+    "id": "s_1847870",
+    "it": "Ho mangiato sull'autobus.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1847870",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -2218,6 +2556,28 @@
     "source_id": "2009228",
     "tag_rules": {
       "ERR_VOC_DENARO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RIFLESSIVO_PRONOME"
+    ],
+    "es": "Tom se preocupa mucho por el dinero.",
+    "es_author": "Shishir",
+    "es_source_id": "2009225",
+    "id": "s_2009229",
+    "it": "Tom si preoccupa molto per il denaro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2009229",
+    "tag_rules": {
+      "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -2462,6 +2822,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "nancy",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "Hay un perro debajo de la mesa.",
+    "es_author": "danieru",
+    "es_source_id": "716854",
+    "id": "s_2220241",
+    "it": "C'è un cane sotto il tavolo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2220241",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -2502,6 +2884,28 @@
     "source_id": "2352896",
     "tag_rules": {
       "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "Hay un pequeño jardín frente a mi casa.",
+    "es_author": "LugoIlmer",
+    "es_source_id": "831400",
+    "id": "s_2352897",
+    "it": "C'è un piccolo giardino davanti a casa mia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2352897",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -2551,6 +2955,28 @@
       "ERR_TENERE_AVERE": "tener_ragione"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "al_ex_an_der",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "Hoy he aprendido una valiosa lección.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2431188",
+    "id": "s_2431194",
+    "it": "Oggi ho imparato una lezione preziosa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2431194",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -3075,6 +3501,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "¿Qué aprendió en la escuela hoy?",
+    "es_author": "cueyayotl",
+    "es_source_id": "3859391",
+    "id": "s_2960484",
+    "it": "Cos'ha imparato a scuola oggi?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2960484",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -3194,6 +3644,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "Hay un lago al este del pueblo.",
+    "es_author": "Shishir",
+    "es_source_id": "556549",
+    "id": "s_3061525",
+    "it": "C'è un lago ad est del villaggio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3061525",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CONGIUNTIVO_OVERUSE_RELATIVE"
     ],
     "es": "Quien quiera puede tomarlo.",
@@ -3254,6 +3726,28 @@
     "source_id": "3106543",
     "tag_rules": {
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GENERE_ES"
+    ],
+    "es": "La leche me da dolor de estómago.",
+    "es_author": "marcelostockle",
+    "es_source_id": "3109037",
+    "id": "s_3110654",
+    "it": "Il latte mi fa venire il mal di stomaco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3110654",
+    "tag_rules": {
+      "ERR_GENERE_ES": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3540,6 +4034,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "Olvidé el libro en casa.",
+    "es_author": "cueyayotl",
+    "es_source_id": "2665771",
+    "id": "s_3516070",
+    "it": "Ho dimenticato il libro a casa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3516070",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -3684,6 +4200,28 @@
   },
   {
     "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "Hay un gato bajo el escritorio.",
+    "es_author": "kylecito",
+    "es_source_id": "336363",
+    "id": "s_374224",
+    "it": "C'è un gatto sotto la scrivania.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "374224",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -3703,6 +4241,30 @@
     "source_id": "374453",
     "tag_rules": {
       "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "Sí, Bob me ha ayudado.",
+    "es_author": "marcelostockle",
+    "es_source_id": "755906",
+    "id": "s_375606",
+    "it": "Sì, Bob mi ha aiutato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "375606",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3757,6 +4319,52 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "¿Has recibido mi carta?",
+    "es_author": "Shishir",
+    "es_source_id": "1869066",
+    "id": "s_378685",
+    "it": "Hai ricevuto la mia lettera?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378685",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "La luna está detrás de las nubes.",
+    "es_author": "marcelostockle",
+    "es_source_id": "3212804",
+    "id": "s_3787018",
+    "it": "La luna si trova dietro le nuvole.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3787018",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -3797,6 +4405,28 @@
     "source_id": "3796095",
     "tag_rules": {
       "ERR_PREP_PLACE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "Japón está al este de China.",
+    "es_author": "hundo",
+    "es_source_id": "958532",
+    "id": "s_379758",
+    "it": "Il Giappone è a est della Cina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "379758",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3896,6 +4526,50 @@
     "translation_kind": "direct"
   },
   {
+    "author": "ver",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "Hay un libro sobre la mesa.",
+    "es_author": "Shishir",
+    "es_source_id": "541351",
+    "id": "s_382408",
+    "it": "Sopra il tavolo c'è un libro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "382408",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "¿Qué le regalaste a Mike para su cumpleaños?",
+    "es_author": "hayastan",
+    "es_source_id": "1055893",
+    "id": "s_384842",
+    "it": "Che cos'hai regalato a Mike per il suo compleanno?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "384842",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -3952,6 +4626,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_RIFLESSIVO_PRONOME"
+    ],
+    "es": "Tómate esta medicina si no te sientes bien.",
+    "es_author": "Shishir",
+    "es_source_id": "522355",
+    "id": "s_387346",
+    "it": "Prendi questa medicina se non ti senti bene.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "387346",
+    "tag_rules": {
+      "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_GEMINATE_NASAL_CONFUSION",
       "ERR_GEMINATE_SPELLING",
       "ERR_GLI_PALATAL",
@@ -4000,6 +4696,28 @@
     "source_id": "388057",
     "tag_rules": {
       "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "Abre el armario de la izquierda, allí están las botellas.",
+    "es_author": "Shishir",
+    "es_source_id": "3029",
+    "id": "s_388484",
+    "it": "Apri l'armadio di sinistra, le bottiglie sono lì.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "388484",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4142,6 +4860,74 @@
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_GENERE_ES"
+    ],
+    "es": "Esta es la pluma que se me perdió ayer.",
+    "es_author": "cueyayotl",
+    "es_source_id": "409756",
+    "id": "s_409847",
+    "it": "Questa è la penna che ho perso ieri.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "409847",
+    "tag_rules": {
+      "ERR_GENERE_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RIFLESSIVO_PRONOME"
+    ],
+    "es": "¿Te lavas las manos antes de comer?",
+    "es_author": "wallebot",
+    "es_source_id": "2755604",
+    "id": "s_4106066",
+    "it": "Ti lavi le mani prima di mangiare?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4106066",
+    "tag_rules": {
+      "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GENERE_ES"
+    ],
+    "es": "El libro es para mí; las flores son para nosotros.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1609291",
+    "id": "s_4135965",
+    "it": "Il libro è per me; i fiori sono per noi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4135965",
+    "tag_rules": {
+      "ERR_GENERE_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PARTICIPLE_AGREEMENT"
     ],
     "es": "Fuimos a Londres el año pasado.",
@@ -4156,6 +4942,28 @@
     "source_id": "418435",
     "tag_rules": {
       "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "meursault",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "Hay un jardín en frente de la casa.",
+    "es_author": "Shishir",
+    "es_source_id": "2187980",
+    "id": "s_418993",
+    "it": "C'è un giardino davanti alla casa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "418993",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4369,6 +5177,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GENERE_ES"
+    ],
+    "es": "Todas las flores del jardín son amarillas.",
+    "es_author": "Shishir",
+    "es_source_id": "508150",
+    "id": "s_4571433",
+    "it": "Tutti i fiori nel giardino sono gialli.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4571433",
+    "tag_rules": {
+      "ERR_GENERE_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -4408,6 +5238,28 @@
     "source_id": "470153",
     "tag_rules": {
       "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "oskrocha",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "¿Has traído el libro?",
+    "es_author": "DarkHollow",
+    "es_source_id": "4709902",
+    "id": "s_4711094",
+    "it": "Hai portato il libro?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4711094",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4551,6 +5403,50 @@
     "source_id": "5190121",
     "tag_rules": {
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "Hay una escuela cerca de mi casa.",
+    "es_author": "Shishir",
+    "es_source_id": "521079",
+    "id": "s_521080",
+    "it": "C'è una scuola vicino a casa mia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "521080",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "El aeropuerto está bastante lejos del centro de la ciudad.",
+    "es_author": "hayastan",
+    "es_source_id": "1627191",
+    "id": "s_527182",
+    "it": "L'aeroporto è abbastanza lontano dal centro della città.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "527182",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4739,6 +5635,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GENERE_ES"
+    ],
+    "es": "Los zapatos que compraste son demasiado pequeños.",
+    "es_author": "Seael",
+    "es_source_id": "10544801",
+    "id": "s_6142802",
+    "it": "Le scarpe che hai comprato sono troppo piccole.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6142802",
+    "tag_rules": {
+      "ERR_GENERE_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "rado",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -4836,6 +5754,50 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "Aprendió francés cuando era joven.",
+    "es_author": "Shishir",
+    "es_source_id": "1189768",
+    "id": "s_633518",
+    "it": "Ha imparato il francese quando era giovane.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "633518",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GENERE_ES"
+    ],
+    "es": "Tienes que quitarte los zapatos antes de entrar al cuarto.",
+    "es_author": "darinmex",
+    "es_source_id": "661564",
+    "id": "s_634494",
+    "it": "Devi toglierti le scarpe prima di entrare nella stanza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "634494",
+    "tag_rules": {
+      "ERR_GENERE_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -4911,6 +5873,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "Hemos pedido la comida.",
+    "es_author": "qdii",
+    "es_source_id": "647737",
+    "id": "s_653850",
+    "it": "Abbiamo ordinato il pasto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "653850",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_POSSESSIVE_SPELLING"
     ],
     "es": "¿Mi amigo era tailandés?",
@@ -4947,6 +5931,50 @@
     "source_id": "662388",
     "tag_rules": {
       "ERR_VOC_IGIENE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "Soy el segundo a la derecha de la fila de arriba.",
+    "es_author": "saverius",
+    "es_source_id": "10805444",
+    "id": "s_6770232",
+    "it": "Sono il secondo a destra nella fila superiore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6770232",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "¿Leíste el libro que te regalé?",
+    "es_author": "hayastan",
+    "es_source_id": "1292322",
+    "id": "s_682810",
+    "it": "Hai letto il libro che ti ho regalato?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "682810",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4996,6 +6024,28 @@
       "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RIFLESSIVO_PRONOME"
+    ],
+    "es": "¿Te aburres conmigo?",
+    "es_author": "Serrot",
+    "es_source_id": "12990714",
+    "id": "s_6893632",
+    "it": "Ti annoi con me?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6893632",
+    "tag_rules": {
+      "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -5119,6 +6169,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RIFLESSIVO_PRONOME"
+    ],
+    "es": "Mi hermano siempre se levanta antes que yo.",
+    "es_author": "nancy",
+    "es_source_id": "1134516",
+    "id": "s_715180",
+    "it": "Mio fratello si alza sempre prima di me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "715180",
+    "tag_rules": {
+      "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -5160,6 +6232,28 @@
     "source_id": "7247845",
     "tag_rules": {
       "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "Hemos intentado parar a Tom.",
+    "es_author": "saverius",
+    "es_source_id": "10802765",
+    "id": "s_7418888",
+    "it": "Abbiamo provato a fermare Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7418888",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5214,6 +6308,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_GENERE_ES"
+    ],
+    "es": "Hay un bolígrafo entre la manzana y el libro.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1920418",
+    "id": "s_757576",
+    "it": "C'è una penna tra la mela e il libro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "757576",
+    "tag_rules": {
+      "ERR_GENERE_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PREP_PLACE"
     ],
     "es": "¿No va a construir cementerios en Alemania?",
@@ -5228,6 +6344,28 @@
     "source_id": "7630523",
     "tag_rules": {
       "ERR_PREP_PLACE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_GENERE_ES"
+    ],
+    "es": "Él usa un lápiz de punta fina.",
+    "es_author": "hundo",
+    "es_source_id": "957160",
+    "id": "s_766243",
+    "it": "Lui usa una matita con la punta fine.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "766243",
+    "tag_rules": {
+      "ERR_GENERE_ES": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5272,6 +6410,28 @@
     "source_id": "7681454",
     "tag_rules": {
       "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Valdast",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RIFLESSIVO_PRONOME"
+    ],
+    "es": "Me lavo las manos porque están sucias.",
+    "es_author": "cueyayotl",
+    "es_source_id": "1198531",
+    "id": "s_7713762",
+    "it": "Mi lavo le mani perché sono sporche.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7713762",
+    "tag_rules": {
+      "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5460,6 +6620,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "Tom ha vivido en Nueva York desde que era pequeño.",
+    "es_author": "Shishir",
+    "es_source_id": "922606",
+    "id": "s_795074",
+    "it": "Tom ha vissuto a New York da quando era bambino.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "795074",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "rado",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -5534,6 +6716,50 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "Estaba durmiendo bajo el árbol.",
+    "es_author": "hayastan",
+    "es_source_id": "945718",
+    "id": "s_848808",
+    "it": "Stava dormendo sotto l'albero.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "848808",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RIFLESSIVO_PRONOME"
+    ],
+    "es": "Mi madre nunca se levanta temprano.",
+    "es_author": "hayastan",
+    "es_source_id": "1336464",
+    "id": "s_867346",
+    "it": "Mia madre non si alza mai presto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "867346",
+    "tag_rules": {
+      "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PREP_ARTICLE_CONTRACTION"
     ],
     "es": "Él llegó más pronto de lo habitual.",
@@ -5548,6 +6774,28 @@
     "source_id": "8736428",
     "tag_rules": {
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "Alguien me ha robado la cámara de fotos.",
+    "es_author": "Shishir",
+    "es_source_id": "1045303",
+    "id": "s_874428",
+    "it": "Qualcuno ha rubato la mia macchina fotografica.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "874428",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5617,6 +6865,54 @@
     "source_id": "894765",
     "tag_rules": {
       "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RIFLESSIVO_PRONOME"
+    ],
+    "es": "Mi mujer no se levanta antes que yo.",
+    "es_author": "Shishir",
+    "es_source_id": "1047581",
+    "id": "s_929106",
+    "it": "Mia moglie non si alza prima di me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "929106",
+    "tag_rules": {
+      "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "Ella me habló en español.",
+    "es_author": "Shishir",
+    "es_source_id": "966299",
+    "id": "s_945585",
+    "it": "Mi ha parlato in spagnolo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "945585",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5739,6 +7035,28 @@
     "source_id": "9723298",
     "tag_rules": {
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPIO_ES"
+    ],
+    "es": "Estuve todo el día trabajando en la granja.",
+    "es_author": "tatoerique",
+    "es_source_id": "358614",
+    "id": "s_978867",
+    "it": "Ho lavorato alla fattoria tutto il giorno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "978867",
+    "tag_rules": {
+      "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
   },
