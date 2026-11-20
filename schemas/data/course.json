@@ -71,7 +71,10 @@
         "ERR_VOC_SALUTI"
       ],
       "why_here": "Las primeras palabras de cualquier conversación, antes de presentarte.",
-      "ficha_es": "Fórmulas de contacto: buongiorno (hasta la tarde), buonasera (desde la tarde), buonanotte (para despedirse e irse a dormir), ciao (informal, sirve para saludar y despedirse), arrivederci (despedida neutra), salve (saludo neutro), grazie y prego (de nada).\n\nRegistro: con una persona a quien tratas con respeto se usa «Lei» (scusi, come sta?); entre amigos, «tu» (scusa, come stai?). «Prego» significa también «adelante, pase». Ojo: «piacere» es «mucho gusto» al conocer a alguien; «per piacere» es «por favor»."
+      "ficha_es": "Fórmulas de contacto: buongiorno (hasta la tarde), buonasera (desde la tarde), buonanotte (para despedirse e irse a dormir), ciao (informal, sirve para saludar y despedirse), arrivederci (despedida neutra), salve (saludo neutro), grazie y prego (de nada).\n\nRegistro: con una persona a quien tratas con respeto se usa «Lei» (scusi, come sta?); entre amigos, «tu» (scusa, come stai?). «Prego» significa también «adelante, pase». Ojo: «piacere» es «mucho gusto» al conocer a alguien; «per piacere» es «por favor».",
+      "readings": [
+        "rd_ciao"
+      ]
     },
     {
       "id": "u60",
@@ -196,7 +199,10 @@
         "ERR_VOC_NAZIONALITA"
       ],
       "why_here": "Decir de dónde eres y qué idiomas hablas, con essere y los adjetivos ya vistos.",
-      "ficha_es": "Las nacionalidades y los idiomas se escriben con minúscula en italiano: sono cileno, parlo spagnolo, è italiana. Cambian como los adjetivos: italiano/italiana/italiani/italiane. Las terminadas en -e (francese, inglese, giapponese, cinese) valen para masculino y femenino.\n\nEl idioma es masculino y suele llevar artículo: l'italiano è bello; pero con parlare y con in no lo lleva: parlo italiano, scrivo in italiano."
+      "ficha_es": "Las nacionalidades y los idiomas se escriben con minúscula en italiano: sono cileno, parlo spagnolo, è italiana. Cambian como los adjetivos: italiano/italiana/italiani/italiane. Las terminadas en -e (francese, inglese, giapponese, cinese) valen para masculino y femenino.\n\nEl idioma es masculino y suele llevar artículo: l'italiano è bello; pero con parlare y con in no lo lleva: parlo italiano, scrivo in italiano.",
+      "readings": [
+        "rd_descriviamo"
+      ]
     },
     {
       "id": "u30",

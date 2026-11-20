@@ -689,6 +689,121 @@
     ]
   },
   {
+    "id": "rd_ciao",
+    "title": "Ciao, mi chiamo…",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Tutt* a tavola! Volume 1 (UMass Amherst)",
+      "authors": "Stacy Giufre y Melina Masterson",
+      "url": "https://openbooks.library.umass.edu/tutt-a-tavola-vol-1/chapter/chapter-1/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cómo se llama el primero que habla?",
+        "options": [
+          "Cosimo",
+          "Valeria",
+          "Stefano"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Cómo se llama quien responde?",
+        "options": [
+          "Cosimo",
+          "Valeria",
+          "Francesca"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Cómo está el primero?",
+        "options": [
+          "Mal",
+          "Más o menos",
+          "Muy bien"
+        ],
+        "answer": 2,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Qué ciudades se mencionan como lugar de origen?",
+        "options": [
+          "Roma y Florencia",
+          "Milán y Nápoles",
+          "Solo Roma"
+        ],
+        "answer": 0,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Cómo se despiden?",
+        "options": [
+          "Con «buonanotte»",
+          "Con «a presto»",
+          "Con «arrivederci»"
+        ],
+        "answer": 1,
+        "evidence": 7
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_ciao_00",
+        "it": "Ciao, mi chiamo Cosimo.",
+        "es": "Hola, me llamo Cosimo.",
+        "audio": "b7ec42ed8990"
+      },
+      {
+        "id": "rd_ciao_01",
+        "it": "Io mi chiamo Valeria. Come stai?",
+        "es": "Yo me llamo Valeria. ¿Cómo estás?",
+        "audio": "b55c9699e326"
+      },
+      {
+        "id": "rd_ciao_02",
+        "it": "Benone! Grazie, e tu?",
+        "es": "¡Muy bien! Gracias, ¿y tú?",
+        "audio": "e6131381eb15"
+      },
+      {
+        "id": "rd_ciao_03",
+        "it": "Bene, grazie.",
+        "es": "Bien, gracias.",
+        "audio": "4e4ef21dfd7a"
+      },
+      {
+        "id": "rd_ciao_04",
+        "it": "Di dove sei?",
+        "es": "¿De dónde eres?",
+        "audio": "f0d3263d440a"
+      },
+      {
+        "id": "rd_ciao_05",
+        "it": "Sono di Roma. E tu?",
+        "es": "Soy de Roma. ¿Y tú?",
+        "audio": "e44834072e4d"
+      },
+      {
+        "id": "rd_ciao_06",
+        "it": "Sono di Firenze.",
+        "es": "Soy de Florencia.",
+        "audio": "17eb614d9cf5"
+      },
+      {
+        "id": "rd_ciao_07",
+        "it": "A presto!",
+        "es": "¡Hasta pronto!",
+        "audio": "f6f5abd111f4"
+      }
+    ]
+  },
+  {
     "id": "rd_comesei",
     "title": "Come sei?",
     "level": "A1",
@@ -1176,6 +1291,187 @@
         "es": "¡Interesante! ¿Por qué hizo esta obra?",
         "speaker": "Artemisia",
         "audio": "9de312d16bc8"
+      }
+    ]
+  },
+  {
+    "id": "rd_descriviamo",
+    "title": "Descriviamo tutt*",
+    "level": "A1",
+    "kind": "lectura",
+    "source": {
+      "book": "Tutt* a tavola! Volume 1 (UMass Amherst)",
+      "authors": "Stacy Giufre y Melina Masterson",
+      "url": "https://openbooks.library.umass.edu/tutt-a-tavola-vol-1/chapter/capitolo-2/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿De dónde es Guido?",
+        "options": [
+          "De Bari, en Italia",
+          "De Roma",
+          "De Suecia"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Qué nacionalidad tienen Anita y Sven?",
+        "options": [
+          "Italianos",
+          "Suecos",
+          "Irlandeses"
+        ],
+        "answer": 1,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Cómo es el pelo de Rita?",
+        "options": [
+          "Negro",
+          "Rojo",
+          "Blanco"
+        ],
+        "answer": 2,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Qué nacionalidad tiene Lisa?",
+        "options": [
+          "Irlandesa",
+          "Sueca",
+          "Italiana"
+        ],
+        "answer": 0,
+        "evidence": 14
+      },
+      {
+        "prompt_es": "¿Cómo es el pelo de Nina?",
+        "options": [
+          "Rubio",
+          "Largo y negro",
+          "Castaño"
+        ],
+        "answer": 1,
+        "evidence": 9
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_descriviamo_00",
+        "it": "Guido è alto, bruno e forte.",
+        "es": "Guido es alto, moreno y fuerte.",
+        "audio": "1b2089fb6094"
+      },
+      {
+        "id": "rd_descriviamo_01",
+        "it": "È italiano, di Bari.",
+        "es": "Es italiano, de Bari.",
+        "audio": "5fbdb12382c7"
+      },
+      {
+        "id": "rd_descriviamo_02",
+        "it": "Giosuè, Elena e Lisa sono giovani.",
+        "es": "Giosuè, Elena y Lisa son jóvenes.",
+        "audio": "8a4bc193241e"
+      },
+      {
+        "id": "rd_descriviamo_03",
+        "it": "Frequentano la stessa scuola elementare.",
+        "es": "Van a la misma escuela básica.",
+        "audio": "975f3487a387"
+      },
+      {
+        "id": "rd_descriviamo_04",
+        "it": "Anita e Sven sono alti e svedesi.",
+        "es": "Anita y Sven son altos y suecos.",
+        "audio": "e6bc9c112243"
+      },
+      {
+        "id": "rd_descriviamo_05",
+        "it": "Sven è biondo ma Anita ha i capelli castani.",
+        "es": "Sven es rubio, pero Anita tiene el pelo castaño.",
+        "audio": "8652ebfd9bc8"
+      },
+      {
+        "id": "rd_descriviamo_06",
+        "it": "Rita e Lino sono anziani.",
+        "es": "Rita y Lino son mayores.",
+        "audio": "e8143d611c6f"
+      },
+      {
+        "id": "rd_descriviamo_07",
+        "it": "Rita ha i capelli bianchi e Lino ha i baffi.",
+        "es": "Rita tiene el pelo blanco y Lino tiene bigote.",
+        "audio": "aa766cde187a"
+      },
+      {
+        "id": "rd_descriviamo_08",
+        "it": "Gli piacciono i film gialli.",
+        "es": "Les gustan las películas policiales.",
+        "audio": "27df3e918b17"
+      },
+      {
+        "id": "rd_descriviamo_09",
+        "it": "Nina ha i capelli lunghi e neri.",
+        "es": "Nina tiene el pelo largo y negro.",
+        "audio": "ddf409c78c6d"
+      },
+      {
+        "id": "rd_descriviamo_10",
+        "it": "È molto sofisticata.",
+        "es": "Es muy sofisticada.",
+        "audio": "ed1f84acfc67"
+      },
+      {
+        "id": "rd_descriviamo_11",
+        "it": "Jo e Anita sono studenti.",
+        "es": "Jo y Anita son estudiantes.",
+        "audio": "1969835ec9ae"
+      },
+      {
+        "id": "rd_descriviamo_12",
+        "it": "Jo è annoiato durante la lezione di biologia, ma Anita è felice.",
+        "es": "Jo está aburrido durante la clase de biología, pero Anita está feliz.",
+        "audio": "f98a762f25e7"
+      },
+      {
+        "id": "rd_descriviamo_13",
+        "it": "Lisa ha i capelli rossi.",
+        "es": "Lisa tiene el pelo rojo.",
+        "audio": "89018d48be7d"
+      },
+      {
+        "id": "rd_descriviamo_14",
+        "it": "È irlandese.",
+        "es": "Es irlandesa.",
+        "audio": "4bbcbbbeac17"
+      },
+      {
+        "id": "rd_descriviamo_15",
+        "it": "È un po' birichina ma è molto divertente!",
+        "es": "Es un poco traviesa, ¡pero muy divertida!",
+        "audio": "0ac34817dc96"
+      },
+      {
+        "id": "rd_descriviamo_16",
+        "it": "Giosuè è un bambino tranquillo.",
+        "es": "Giosuè es un niño tranquilo.",
+        "audio": "05c7607fb046"
+      },
+      {
+        "id": "rd_descriviamo_17",
+        "it": "Gli piacciono i videogiochi.",
+        "es": "Le gustan los videojuegos.",
+        "audio": "1a6a16c244e5"
+      },
+      {
+        "id": "rd_descriviamo_18",
+        "it": "Martina è dell'Italia, quindi è italiana.",
+        "es": "Martina es de Italia, por eso es italiana.",
+        "audio": "2813b42f594e"
       }
     ]
   },

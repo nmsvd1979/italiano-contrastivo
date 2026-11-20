@@ -511,6 +511,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "05c7607fb046",
+    "sha1": "05c7607fb046e2a83ebaef499148330febf016cd",
+    "text": "Giosuè è un bambino tranquillo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "05c79a4a7141",
     "sha1": "05c79a4a7141de512ace87b9206f767b9f4838f7",
     "text": "Il mio appartamento è abbastanza grande e moderno.",
@@ -836,6 +843,13 @@
     "id": "0ac2f59e86b4",
     "sha1": "0ac2f59e86b4bb61901a1a6a9935dff0a190273a",
     "text": "Sono più basso di te.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "0ac34817dc96",
+    "sha1": "0ac34817dc96616a3dd126509004b6785f646478",
+    "text": "È un po' birichina ma è molto divertente!",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -2002,6 +2016,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "17eb614d9cf5",
+    "sha1": "17eb614d9cf5ebe206ed38f41c2eb0bb295892be",
+    "text": "Sono di Firenze.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "17fb411f4da0",
     "sha1": "17fb411f4da0b81fc741c53b8513bd6c944b037a",
     "text": "Lui conosce la verità.",
@@ -2149,6 +2170,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "1969835ec9ae",
+    "sha1": "1969835ec9ae4bd5697e33d332ed7a0f741e2d0c",
+    "text": "Jo e Anita sono studenti.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "197c0000cc1a",
     "sha1": "197c0000cc1a27344677f928b7113a4c2870c555",
     "text": "Un ragazzo incontra una ragazza.",
@@ -2219,6 +2247,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "1a6a16c244e5",
+    "sha1": "1a6a16c244e5243849c124213150f4cb16a82198",
+    "text": "Gli piacciono i videogiochi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "1a8a838d3826",
     "sha1": "1a8a838d3826ccea59b1d61f37dc6f7cbc4e011b",
     "text": "Sta comprando dei libri in libreria.",
@@ -2243,6 +2278,13 @@
     "id": "1b11f04d4c98",
     "sha1": "1b11f04d4c9890b7ea6351bf122fe4015396099e",
     "text": "biscotto",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "1b2089fb6094",
+    "sha1": "1b2089fb6094ba2ea2a0925e61ac730c85eb7e7a",
+    "text": "Guido è alto, bruno e forte.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -3342,6 +3384,20 @@
     "id": "27c1ed69a9ea",
     "sha1": "27c1ed69a9eae94dd984619c81621f2275d5f6ba",
     "text": "Ciao, sono nuova su Tatoeba.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "27df3e918b17",
+    "sha1": "27df3e918b179c5abbd517e758cba63693042995",
+    "text": "Gli piacciono i film gialli.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "2813b42f594e",
+    "sha1": "2813b42f594e39846fb2b9a6bf6bba7db5760aad",
+    "text": "Martina è dell'Italia, quindi è italiana.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -6167,6 +6223,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "4bbcbbbeac17",
+    "sha1": "4bbcbbbeac174587c2a6091492106520d7d49320",
+    "text": "È irlandese.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "4be4e3eda32d",
     "sha1": "4be4e3eda32da798bc276930ff0821ce5cc85748",
     "text": "traduzione",
@@ -6401,6 +6464,13 @@
     "id": "4e451944fc62",
     "sha1": "4e451944fc62f33415818068d3b0634d334ed00f",
     "text": "Anche Tom ha fame.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "4e4ef21dfd7a",
+    "sha1": "4e4ef21dfd7a66376831678a9f8599bff578aee4",
+    "text": "Bene, grazie.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -7766,6 +7836,13 @@
     "id": "5fab03666f1f",
     "sha1": "5fab03666f1fceffe6562d7868a678d8cfa75a81",
     "text": "Ha comprato una macchina nuova.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "5fbdb12382c7",
+    "sha1": "5fbdb12382c7711ea9e790181fa7559cae529526",
+    "text": "È italiano, di Bari.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -11165,6 +11242,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "8652ebfd9bc8",
+    "sha1": "8652ebfd9bc88b1bd4ef6cb709c3e6053714095f",
+    "text": "Sven è biondo ma Anita ha i capelli castani.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "8659e6a8de97",
     "sha1": "8659e6a8de97f768540038e6245c017fbffdd7ce",
     "text": "Quanto costano questi pantaloni?",
@@ -11487,6 +11571,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "89018d48be7d",
+    "sha1": "89018d48be7d8623fcb9c0f7df5b5752443a3529",
+    "text": "Lisa ha i capelli rossi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "890228467930",
     "sha1": "8902284679309a5859fbd0d75846dccd47663b60",
     "text": "Lei ha paura di cantare.",
@@ -11602,6 +11693,13 @@
     "id": "8a315200da49",
     "sha1": "8a315200da491a3a63e613edaa1d7e5276fde284",
     "text": "Voglio parlare del mio amore.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "8a4bc193241e",
+    "sha1": "8a4bc193241e24b976da0ba556b7a26b406a1e8b",
+    "text": "Giosuè, Elena e Lisa sono giovani.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -12848,6 +12946,13 @@
     "id": "9758f7901f74",
     "sha1": "9758f7901f74658b9825e02285cd5084587da971",
     "text": "Dove posso trovare del dentifricio?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "975f3487a387",
+    "sha1": "975f3487a387d5474e3fb0dbf3c73c42a817e00b",
+    "text": "Frequentano la stessa scuola elementare.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -14266,6 +14371,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "aa766cde187a",
+    "sha1": "aa766cde187a250ae80527767dcefc7e69ddcc03",
+    "text": "Rita ha i capelli bianchi e Lino ha i baffi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "aa860e639683",
     "sha1": "aa860e639683564b2fff4534f3db925ddab117b2",
     "text": "Lui ha più di cinque dizionari.",
@@ -15239,6 +15351,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "b55c9699e326",
+    "sha1": "b55c9699e3260cf05a96ca769282082b0564eac3",
+    "text": "Io mi chiamo Valeria. Come stai?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "b55d92575ca3",
     "sha1": "b55d92575ca389db93fa61ca904cb9a5716121a0",
     "text": "L'appartamento è in un palazzo antico ed è al terzo piano.",
@@ -15438,6 +15557,13 @@
     "id": "b7bf5aaa5142",
     "sha1": "b7bf5aaa5142bc5a7c894fc7924b763877e128c4",
     "text": "Jane sembra molto felice.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "b7ec42ed8990",
+    "sha1": "b7ec42ed89907bafb628138c5614058ab5c15eab",
+    "text": "Ciao, mi chiamo Cosimo.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -18641,6 +18767,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "ddf409c78c6d",
+    "sha1": "ddf409c78c6dfb69766f4d4c7dbc21a7ecd9d7f7",
+    "text": "Nina ha i capelli lunghi e neri.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "de3bbe9726f7",
     "sha1": "de3bbe9726f78788e74404a6bf9e46e93872c545",
     "text": "Il mio robot si chiama Multi.",
@@ -19089,6 +19222,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "e44834072e4d",
+    "sha1": "e44834072e4dc03b747657af71552b3d60977f03",
+    "text": "Sono di Roma. E tu?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "e44a85357e57",
     "sha1": "e44a85357e5794cc9ab4fe20473a7319d76932a6",
     "text": "Ha lavorato senza pausa per mantenere i suoi figli fino a che si sono sposati.",
@@ -19208,6 +19348,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "e6131381eb15",
+    "sha1": "e6131381eb15d982d76373503c54b61a4dfccff0",
+    "text": "Benone! Grazie, e tu?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "e6160745feba",
     "sha1": "e6160745feba2bdea1a1cbc8f8a0bea5e17f058a",
     "text": "Tom non vuole andarci.",
@@ -19288,6 +19435,13 @@
     "id": "e69eac974a95",
     "sha1": "e69eac974a953f999bff9c349359cce3662e9ba6",
     "text": "Queste case sono tutte uguali.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "e6bc9c112243",
+    "sha1": "e6bc9c112243bb1a93907b1ce6577631160282a4",
+    "text": "Anita e Sven sono alti e svedesi.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -19393,6 +19547,13 @@
     "id": "e7e4b39eda54",
     "sha1": "e7e4b39eda548434528916cb7b93e898b8a079dc",
     "text": "È il nome migliore che io abbia mai sentito.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "e8143d611c6f",
+    "sha1": "e8143d611c6fe7964c5b391afd3bf014bc0294f9",
+    "text": "Rita e Lino sono anziani.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -19817,6 +19978,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "ed1f84acfc67",
+    "sha1": "ed1f84acfc67d9e0d7f83ee39a02fdaeca2600ee",
+    "text": "È molto sofisticata.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "ed21de6bb79e",
     "sha1": "ed21de6bb79ed693dc42635f43c76244ab5b5f5a",
     "text": "Lo spagnolo è parlato in Messico.",
@@ -20149,6 +20317,13 @@
     "id": "f0b958abe32b",
     "sha1": "f0b958abe32b7c96422106974c7dd25658e31ea6",
     "text": "Io non voglio ingannarti.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "f0d3263d440a",
+    "sha1": "f0d3263d440a30014ad3feb22e1ced709e79feed",
+    "text": "Di dove sei?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -20811,6 +20986,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "f6f5abd111f4",
+    "sha1": "f6f5abd111f4706f59f3bcf2c2528084a32d0950",
+    "text": "A presto!",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "f73e0f695fa3",
     "sha1": "f73e0f695fa34ab310a9ecf35ba289904a4e1345",
     "text": "Cucinare.",
@@ -20968,6 +21150,13 @@
     "id": "f97b492661d5",
     "sha1": "f97b492661d50742762cf29e11090f16f086828b",
     "text": "Quella casa ti appartiene.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "f98a762f25e7",
+    "sha1": "f98a762f25e7e9676c188426ea8fa943d9d4016d",
+    "text": "Jo è annoiato durante la lezione di biologia, ma Anita è felice.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },

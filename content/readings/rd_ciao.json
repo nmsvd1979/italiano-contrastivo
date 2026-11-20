@@ -1,0 +1,108 @@
+{
+  "id": "rd_ciao",
+  "title": "Ciao, mi chiamo…",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Tutt* a tavola! Volume 1 (UMass Amherst)",
+    "authors": "Stacy Giufre y Melina Masterson",
+    "url": "https://openbooks.library.umass.edu/tutt-a-tavola-vol-1/chapter/chapter-1/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se tomó solo la conversación informal (tú) del capítulo 1; se quitaron la conversación formal, las explicaciones en inglés y los ejercicios.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_ciao_00",
+      "it": "Ciao, mi chiamo Cosimo.",
+      "es": "Hola, me llamo Cosimo."
+    },
+    {
+      "id": "rd_ciao_01",
+      "it": "Io mi chiamo Valeria. Come stai?",
+      "es": "Yo me llamo Valeria. ¿Cómo estás?"
+    },
+    {
+      "id": "rd_ciao_02",
+      "it": "Benone! Grazie, e tu?",
+      "es": "¡Muy bien! Gracias, ¿y tú?"
+    },
+    {
+      "id": "rd_ciao_03",
+      "it": "Bene, grazie.",
+      "es": "Bien, gracias."
+    },
+    {
+      "id": "rd_ciao_04",
+      "it": "Di dove sei?",
+      "es": "¿De dónde eres?"
+    },
+    {
+      "id": "rd_ciao_05",
+      "it": "Sono di Roma. E tu?",
+      "es": "Soy de Roma. ¿Y tú?"
+    },
+    {
+      "id": "rd_ciao_06",
+      "it": "Sono di Firenze.",
+      "es": "Soy de Florencia."
+    },
+    {
+      "id": "rd_ciao_07",
+      "it": "A presto!",
+      "es": "¡Hasta pronto!"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cómo se llama el primero que habla?",
+      "options": [
+        "Cosimo",
+        "Valeria",
+        "Stefano"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Cómo se llama quien responde?",
+      "options": [
+        "Cosimo",
+        "Valeria",
+        "Francesca"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Cómo está el primero?",
+      "options": [
+        "Mal",
+        "Más o menos",
+        "Muy bien"
+      ],
+      "answer": 2,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Qué ciudades se mencionan como lugar de origen?",
+      "options": [
+        "Roma y Florencia",
+        "Milán y Nápoles",
+        "Solo Roma"
+      ],
+      "answer": 0,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Cómo se despiden?",
+      "options": [
+        "Con «buonanotte»",
+        "Con «a presto»",
+        "Con «arrivederci»"
+      ],
+      "answer": 1,
+      "evidence": 7
+    }
+  ]
+}

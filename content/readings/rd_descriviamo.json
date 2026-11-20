@@ -1,0 +1,163 @@
+{
+  "id": "rd_descriviamo",
+  "title": "Descriviamo tutt*",
+  "level": "A1",
+  "kind": "lectura",
+  "source": {
+    "book": "Tutt* a tavola! Volume 1 (UMass Amherst)",
+    "authors": "Stacy Giufre y Melina Masterson",
+    "url": "https://openbooks.library.umass.edu/tutt-a-tavola-vol-1/chapter/capitolo-2/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se tomaron solo las descripciones de personas del capítulo 2; se quitaron las glosas en inglés y los ejercicios.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_descriviamo_00",
+      "it": "Guido è alto, bruno e forte.",
+      "es": "Guido es alto, moreno y fuerte."
+    },
+    {
+      "id": "rd_descriviamo_01",
+      "it": "È italiano, di Bari.",
+      "es": "Es italiano, de Bari."
+    },
+    {
+      "id": "rd_descriviamo_02",
+      "it": "Giosuè, Elena e Lisa sono giovani.",
+      "es": "Giosuè, Elena y Lisa son jóvenes."
+    },
+    {
+      "id": "rd_descriviamo_03",
+      "it": "Frequentano la stessa scuola elementare.",
+      "es": "Van a la misma escuela básica."
+    },
+    {
+      "id": "rd_descriviamo_04",
+      "it": "Anita e Sven sono alti e svedesi.",
+      "es": "Anita y Sven son altos y suecos."
+    },
+    {
+      "id": "rd_descriviamo_05",
+      "it": "Sven è biondo ma Anita ha i capelli castani.",
+      "es": "Sven es rubio, pero Anita tiene el pelo castaño."
+    },
+    {
+      "id": "rd_descriviamo_06",
+      "it": "Rita e Lino sono anziani.",
+      "es": "Rita y Lino son mayores."
+    },
+    {
+      "id": "rd_descriviamo_07",
+      "it": "Rita ha i capelli bianchi e Lino ha i baffi.",
+      "es": "Rita tiene el pelo blanco y Lino tiene bigote."
+    },
+    {
+      "id": "rd_descriviamo_08",
+      "it": "Gli piacciono i film gialli.",
+      "es": "Les gustan las películas policiales."
+    },
+    {
+      "id": "rd_descriviamo_09",
+      "it": "Nina ha i capelli lunghi e neri.",
+      "es": "Nina tiene el pelo largo y negro."
+    },
+    {
+      "id": "rd_descriviamo_10",
+      "it": "È molto sofisticata.",
+      "es": "Es muy sofisticada."
+    },
+    {
+      "id": "rd_descriviamo_11",
+      "it": "Jo e Anita sono studenti.",
+      "es": "Jo y Anita son estudiantes."
+    },
+    {
+      "id": "rd_descriviamo_12",
+      "it": "Jo è annoiato durante la lezione di biologia, ma Anita è felice.",
+      "es": "Jo está aburrido durante la clase de biología, pero Anita está feliz."
+    },
+    {
+      "id": "rd_descriviamo_13",
+      "it": "Lisa ha i capelli rossi.",
+      "es": "Lisa tiene el pelo rojo."
+    },
+    {
+      "id": "rd_descriviamo_14",
+      "it": "È irlandese.",
+      "es": "Es irlandesa."
+    },
+    {
+      "id": "rd_descriviamo_15",
+      "it": "È un po' birichina ma è molto divertente!",
+      "es": "Es un poco traviesa, ¡pero muy divertida!"
+    },
+    {
+      "id": "rd_descriviamo_16",
+      "it": "Giosuè è un bambino tranquillo.",
+      "es": "Giosuè es un niño tranquilo."
+    },
+    {
+      "id": "rd_descriviamo_17",
+      "it": "Gli piacciono i videogiochi.",
+      "es": "Le gustan los videojuegos."
+    },
+    {
+      "id": "rd_descriviamo_18",
+      "it": "Martina è dell'Italia, quindi è italiana.",
+      "es": "Martina es de Italia, por eso es italiana."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿De dónde es Guido?",
+      "options": [
+        "De Bari, en Italia",
+        "De Roma",
+        "De Suecia"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué nacionalidad tienen Anita y Sven?",
+      "options": [
+        "Italianos",
+        "Suecos",
+        "Irlandeses"
+      ],
+      "answer": 1,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Cómo es el pelo de Rita?",
+      "options": [
+        "Negro",
+        "Rojo",
+        "Blanco"
+      ],
+      "answer": 2,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Qué nacionalidad tiene Lisa?",
+      "options": [
+        "Irlandesa",
+        "Sueca",
+        "Italiana"
+      ],
+      "answer": 0,
+      "evidence": 14
+    },
+    {
+      "prompt_es": "¿Cómo es el pelo de Nina?",
+      "options": [
+        "Rubio",
+        "Largo y negro",
+        "Castaño"
+      ],
+      "answer": 1,
+      "evidence": 9
+    }
+  ]
+}
