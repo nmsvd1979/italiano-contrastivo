@@ -60,3 +60,49 @@ describe("fichas de enseñanza", () => {
     for (const u of course.units) expect(u.ficha_es, u.id).not.toMatch(/\b(vos|tenés|sabés|vosotros|vuestro|vuestra|tenéis|sois)\b/i);
   });
 });
+
+describe("palabras en el repaso espaciado", () => {
+  it("al terminar «Palabras» cada palabra pasa a ser una tarjeta, sin duplicarse al repetir", async () => {
+    const { memoryStore } = await import("../state/store");
+    const { addWordCards, wordLexeme } = await import("../state/words");
+    const store = memoryStore();
+    const n = await addWordCards(store, vocab, new Date("2026-11-20T10:00:00Z"));
+    expect(n).toBe(vocab.words!.length);
+    expect(await addWordCards(store, vocab, new Date("2026-11-20T11:00:00Z"))).toBe(0);
+    const cards = await store.allCards();
+    expect(cards.length).toBe(vocab.words!.length);
+    expect(cards[0].subject.kind).toBe("lexeme");
+    const lx = wordLexeme(pack, cards[0].subject.ref)!;
+    expect(lx.form).toBe(vocab.words![0].form);
+    expect(lx.lexical_type).toBe("neutral");
+    expect(wordLexeme(pack, "w:noexiste")).toBeUndefined();
+  });
+  it("las tarjetas de palabras entran a la cola de repaso", async () => {
+    const { memoryStore } = await import("../state/store");
+    const { addWordCards } = await import("../state/words");
+    const { reviewQueue } = await import("../state/session");
+    const store = memoryStore();
+    const now = new Date("2026-11-20T10:00:00Z");
+    await addWordCards(store, vocab, now);
+    const q = reviewQueue({ pack, cards: await store.allCards(), now: new Date(now.getTime() + 60_000) });
+    expect(q.length).toBeGreaterThan(0);
+    expect(q.every((e) => "card" in e)).toBe(true);
+  });
+});
+
+describe("pantalla de repaso con una palabra", () => {
+  it("muestra la palabra, revela el significado y no dice «falso amigo»", async () => {
+    const { memoryStore } = await import("../state/store");
+    const { addWordCards } = await import("../state/words");
+    const { ReviewScreen } = await import("./ReviewScreen");
+    const store = memoryStore();
+    const now = new Date("2026-11-20T10:00:00Z");
+    await addWordCards(store, vocab, now);
+    render(<ReviewScreen pack={pack} store={store} now={new Date(now.getTime() + 60_000)} />);
+    const w = vocab.words![0];
+    expect((await screen.findAllByText(w.form)).length).toBeGreaterThan(0);
+    fireEvent.click(await screen.findByText("Mostrar significado"));
+    expect(screen.queryByText(/Falso amigo/)).toBeNull();
+    expect(screen.getByText(w.gloss)).toBeTruthy();
+  });
+});

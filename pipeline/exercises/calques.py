@@ -316,6 +316,73 @@ def _participio(it: str):
     return Calque("ERR_PARTICIPIO_ES", m.start(1), m.end(1), word, wrong, "l1_calque")
 
 
+# --- Unidades faltantes del currículo: hora, chiamarsi, pronombres tónicos e imperativo (fuente: Piacere!, caps. «L'ora», «I pronomi tonici», «Imperativo (tu, noi, voi)») ---
+_ORA_MEZZA = re.compile(r"\b(?:sono le|è l'|all'|alle)\s*\w+\s+e\s+(mezza|mezzo)\b", re.I)
+_ORA_QUARTO = re.compile(r"\b(?:sono le|è l'|all'|alle)\s*\w+\s+(e un|meno un)\s+(quarto)\b", re.I)
+_ORA_UNA = re.compile(r"\b(è|a|all)(?:\s+l'|'| l')(una)\b", re.I)
+
+
+def _ora(it: str):
+    """La hora: «sono le due e mezza» (no «e media»), «e un quarto» / «meno un quarto» (no «e quarto»), «è l'una» (no «è la una»)."""
+    found = []
+    for m in _ORA_MEZZA.finditer(it):
+        w = m.group(1)
+        found.append((m.start(1), m.end(1), w, _cap("media" if w.lower() == "mezza" else "medio", w)))
+    for m in _ORA_QUARTO.finditer(it):
+        found.append((m.start(1), m.end(1), m.group(1), m.group(1).split()[0]))  # «e un» → «e»; «meno un» → «meno»
+    for m in re.finditer(r"\b(?:[Èè]) (l')(?=una\b)", it):
+        found.append((m.start(1), m.end(1), m.group(1), "la "))
+    if len(found) != 1:
+        return None
+    s, e, c, w = found[0]
+    return Calque("ERR_ORA_ES", s, e, c, w, "l1_calque")
+
+
+_CHIAM = re.compile(r"\b(mi|ti|si|ci|vi)\s+(chiam(?:o|i|a|iamo|ate|ano))\b", re.I)
+_CHIAM_OK = {"mi": ("o",), "ti": ("i",), "si": ("a", "ano"), "ci": ("iamo",), "vi": ("ate",)}
+_CHIAM_ES = {"mi": "me", "ti": "te", "si": "se", "ci": "nos", "vi": "os"}
+
+
+def _chiamarsi(it: str):
+    """«mi chiamo» (no «me chiamo»): el pronombre reflexivo italiano es mi, ti, si, ci, vi y concuerda con el verbo."""
+    found = [m for m in _CHIAM.finditer(it) if any(m.group(2).lower().endswith("chiam" + e) for e in _CHIAM_OK[m.group(1).lower()])]
+    if len(found) != 1 or len(_CHIAM.findall(it)) != 1:
+        return None
+    m = found[0]
+    p = m.group(1)
+    return Calque("ERR_CHIAMARSI", m.start(1), m.end(1), p, _cap(_CHIAM_ES[p.lower()], p), "l1_calque")
+
+
+_TONICO = re.compile(r"\b(con|per|da|di|a|su|senza|tra|fra|verso|contro)\s+(me|te)\b", re.I)
+
+
+def _tonico(it: str):
+    """Tras preposición se usan los pronombres tónicos: «con me», «per te» (no «con io», «per tu»)."""
+    found = list(_TONICO.finditer(it))
+    if len(found) != 1:
+        return None
+    m = found[0]
+    w = m.group(2)
+    return Calque("ERR_PRONOME_TONICO", m.start(2), m.end(2), w, _cap("io" if w.lower() == "me" else "tu", w), "morphological")
+
+
+IMPER_3SG = {"apri": "apre", "chiudi": "chiude", "leggi": "legge", "scrivi": "scrive", "prendi": "prende", "dormi": "dorme", "vendi": "vende",
+             "ripeti": "ripete", "senti": "sente", "vieni": "viene", "finisci": "finisce", "rispondi": "risponde", "metti": "mette",
+             "spegni": "spegne", "accendi": "accende", "corri": "corre", "bevi": "beve", "ascolti": None}
+_IMPER = re.compile(r"^\s*(?:(?:Per favore|Ti prego|Su|Dai),\s*)?(" + "|".join(k for k, v in IMPER_3SG.items() if v) + r")\b(?=[^?]*[.!]\s*$)", re.I)
+
+
+def _imperativo(it: str):
+    """Imperativo de tú en -ere/-ire = forma de «tu» del presente: «Apri la porta!» (no «Apre la porta!», que sería «él abre»)."""
+    m = _IMPER.match(it)
+    if not m or len(re.findall(r"\w+", it)) > 9:
+        return None
+    if re.search(r"\b(io|tu|lui|lei|noi|voi|loro)\b", it, re.I):  # con sujeto expreso no es un mandato
+        return None
+    w = m.group(1)
+    return Calque("ERR_IMPERATIVO_FORMA", m.start(1), m.end(1), w, _cap(IMPER_3SG[w.lower()], w), "morphological")
+
+
 _GENERATORS: dict[str, Callable[[str], Calque | None]] = {
     "ERR_AUX_ESSERE": _aux_essere,
     "ERR_PREP_PLACE": _prep_place,
@@ -334,6 +401,10 @@ _GENERATORS: dict[str, Callable[[str], Calque | None]] = {
     "ERR_INDEFINITE_ARTICLE": _indefinite,
     "ERR_RIFLESSIVO_PRONOME": _riflessivo,
     "ERR_PARTICIPIO_ES": _participio,
+    "ERR_ORA_ES": _ora,
+    "ERR_CHIAMARSI": _chiamarsi,
+    "ERR_PRONOME_TONICO": _tonico,
+    "ERR_IMPERATIVO_FORMA": _imperativo,
     **{c: _vocab_for(c) for c in _vocab_codes()},
     **{c: _phonetic_for(c) for c in ("ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL")},
     **{c: _present_for(c) for c in ("ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL")},

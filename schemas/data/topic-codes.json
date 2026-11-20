@@ -600,5 +600,61 @@
     ],
     "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
     "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_ORA_ES",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Che ore sono? Sono le due (plural), pero È l'una (singular), È mezzogiorno, È mezzanotte. Minutos: e + minutos (sono le tre e venti); pasada la media hora: la hora siguiente + meno + minutos (sono le cinque meno dieci). Se dice «e un quarto», «meno un quarto» y «e mezza» (no «e quarto» ni «e media»). A che ora? alle due, all'una, a mezzogiorno.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Piacere! (Univ. de Iowa, CC BY-NC-SA 4.0): capítulos «L'ora», «I pronomi tonici» e «Imperativo (tu, noi, voi)»; sillabo A1 de los enti certificatori.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_CHIAMARSI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Mi chiamo, ti chiami, si chiama, ci chiamiamo, vi chiamate, si chiamano. El español usa me, te, se, nos, os: «me chiamo» no existe. Come ti chiami? (a un amigo) y Come si chiama? (a una persona que tratas de usted). Para presentarte: Mi chiamo Ana, sono cilena, ho venti anni.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Piacere! (Univ. de Iowa, CC BY-NC-SA 4.0): capítulos «L'ora», «I pronomi tonici» e «Imperativo (tu, noi, voi)»; sillabo A1 de los enti certificatori.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_PRONOME_TONICO",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Tras preposición se usan me y te, no io y tu: con me, per te, da me, a te, di me. «Conmigo» y «contigo» se dicen con me y con te (en dos palabras). Con lui, lei, noi, voi y loro el pronombre es igual que el sujeto: con lui, per noi.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Piacere! (Univ. de Iowa, CC BY-NC-SA 4.0): capítulos «L'ora», «I pronomi tonici» e «Imperativo (tu, noi, voi)»; sillabo A1 de los enti certificatori.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_IMPERATIVO_FORMA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Imperativo de tú: los verbos en -are terminan en -a (parla, guarda, mangia); los de -ere e -ire usan la forma de «tu» del presente: leggi, scrivi, apri, dormi. El español usa -e (lee, abre, escribe): «apre!» en italiano sería «él abre». Irregulares: va' (vai), fa' (fai), da' (dai), di', sta' (stai). Negativo: non + infinitivo (non parlare!), no como el español «no hables».",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Piacere! (Univ. de Iowa, CC BY-NC-SA 4.0): capítulos «L'ora», «I pronomi tonici» e «Imperativo (tu, noi, voi)»; sillabo A1 de los enti certificatori.",
+    "review_status": "needs_review"
   }
 ]

@@ -1,0 +1,122 @@
+{
+  "id": "rd_saluti",
+  "title": "I saluti: conversazione formale e informale",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/2-i-saluti/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y las listas de vocabulario; se tomaron solo las dos conversaciones.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_saluti_00",
+      "it": "Buon giorno, Professor Rossi, come sta?",
+      "es": "Buenos días, profesor Rossi, ¿cómo está?",
+      "speaker": "Prof. Bianchi"
+    },
+    {
+      "id": "rd_saluti_01",
+      "it": "Bene, grazie. E Lei?",
+      "es": "Bien, gracias. ¿Y usted?",
+      "speaker": "Prof. Rossi"
+    },
+    {
+      "id": "rd_saluti_02",
+      "it": "Non c'è male, grazie.",
+      "es": "No está mal, gracias.",
+      "speaker": "Prof. Bianchi"
+    },
+    {
+      "id": "rd_saluti_03",
+      "it": "Ciao, mi chiamo Francesca. Tu come ti chiami?",
+      "es": "Hola, me llamo Francesca. ¿Tú cómo te llamas?",
+      "speaker": "Francesca"
+    },
+    {
+      "id": "rd_saluti_04",
+      "it": "Mi chiamo Stefano, piacere.",
+      "es": "Me llamo Stefano, mucho gusto.",
+      "speaker": "Stefano"
+    },
+    {
+      "id": "rd_saluti_05",
+      "it": "Piacere. Come va?",
+      "es": "Mucho gusto. ¿Cómo va?",
+      "speaker": "Francesca"
+    },
+    {
+      "id": "rd_saluti_06",
+      "it": "Bene grazie, e tu?",
+      "es": "Bien, gracias, ¿y tú?",
+      "speaker": "Stefano"
+    },
+    {
+      "id": "rd_saluti_07",
+      "it": "Abbastanza bene, grazie. Ciao, a presto.",
+      "es": "Bastante bien, gracias. Chao, hasta pronto.",
+      "speaker": "Francesca"
+    },
+    {
+      "id": "rd_saluti_08",
+      "it": "A presto.",
+      "es": "Hasta pronto.",
+      "speaker": "Stefano"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cómo se tratan los dos profesores?",
+      "options": [
+        "De usted (Lei)",
+        "De tú",
+        "No se saludan"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Cómo se llama la chica?",
+      "options": [
+        "Stefano",
+        "Francesca",
+        "Bianchi"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Cómo está Stefano?",
+      "options": [
+        "Mal",
+        "Más o menos",
+        "Bien"
+      ],
+      "answer": 2,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Cómo está Francesca?",
+      "options": [
+        "Bastante bien",
+        "Muy mal",
+        "Cansada"
+      ],
+      "answer": 0,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Cómo se despiden Francesca y Stefano?",
+      "options": [
+        "Con «buonanotte»",
+        "Con «a presto»",
+        "Con «arrivederci»"
+      ],
+      "answer": 1,
+      "evidence": 8
+    }
+  ]
+}

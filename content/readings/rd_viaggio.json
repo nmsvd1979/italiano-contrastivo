@@ -1,0 +1,173 @@
+{
+  "id": "rd_viaggio",
+  "title": "Il mio viaggio",
+  "level": "A1",
+  "kind": "lectura",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-il-mio-viaggio/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y los números de nota; «Giugno» se escribe «giugno». El texto usa passato prossimo con avere y con essere.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_viaggio_00",
+      "it": "L'anno scorso sono andata in vacanza in Italia a giugno.",
+      "es": "El año pasado fui de vacaciones a Italia en junio."
+    },
+    {
+      "id": "rd_viaggio_01",
+      "it": "Ho comprato un biglietto aereo per Roma.",
+      "es": "Compré un pasaje de avión a Roma."
+    },
+    {
+      "id": "rd_viaggio_02",
+      "it": "È costato molto e ho dovuto usare la carta di credito!",
+      "es": "Costó mucho y tuve que usar la tarjeta de crédito."
+    },
+    {
+      "id": "rd_viaggio_03",
+      "it": "Ho prenotato una camera singola in un piccolo albergo in centro e ho passato tre giorni a Roma.",
+      "es": "Reservé una habitación individual en un pequeño hotel del centro y pasé tres días en Roma."
+    },
+    {
+      "id": "rd_viaggio_04",
+      "it": "Ho visto il Colosseo, il Vaticano, il Museo Vaticano e la Cappella Sistina, la Fontana di Trevi e molte altre cose.",
+      "es": "Vi el Coliseo, el Vaticano, el Museo Vaticano y la Capilla Sixtina, la Fontana de Trevi y muchas otras cosas."
+    },
+    {
+      "id": "rd_viaggio_05",
+      "it": "Dopo avere visitato Roma, sono andata in treno a Venezia.",
+      "es": "Después de visitar Roma, fui en tren a Venecia."
+    },
+    {
+      "id": "rd_viaggio_06",
+      "it": "Venezia è una città molto bella.",
+      "es": "Venecia es una ciudad muy hermosa."
+    },
+    {
+      "id": "rd_viaggio_07",
+      "it": "Sono stata in un ostello per due giorni.",
+      "es": "Estuve en un hostal dos días."
+    },
+    {
+      "id": "rd_viaggio_08",
+      "it": "A Venezia sono stata in Piazza San Marco e ho visto il Ponte di Rialto.",
+      "es": "En Venecia estuve en la plaza de San Marcos y vi el puente de Rialto."
+    },
+    {
+      "id": "rd_viaggio_09",
+      "it": "Ho anche preso il traghetto e ho visitato le isole di Murano e Burano.",
+      "es": "También tomé el transbordador y visité las islas de Murano y Burano."
+    },
+    {
+      "id": "rd_viaggio_10",
+      "it": "A Murano lavorano il vetro e a Burano ci sono molte case colorate!",
+      "es": "En Murano trabajan el vidrio y en Burano hay muchas casas de colores."
+    },
+    {
+      "id": "rd_viaggio_11",
+      "it": "Da Venezia sono andata in treno a Verona, dove ho visto il balcone di Giulietta e Romeo.",
+      "es": "Desde Venecia fui en tren a Verona, donde vi el balcón de Julieta y Romeo."
+    },
+    {
+      "id": "rd_viaggio_12",
+      "it": "Sono stata a Verona solo un giorno.",
+      "es": "Estuve en Verona solo un día."
+    },
+    {
+      "id": "rd_viaggio_13",
+      "it": "Da Verona ho preso il treno e sono andata in Toscana.",
+      "es": "Desde Verona tomé el tren y fui a la Toscana."
+    },
+    {
+      "id": "rd_viaggio_14",
+      "it": "Ho noleggiato una macchina e ho passato una settimana al mare a Castiglione della Pescaia.",
+      "es": "Arrendé un auto y pasé una semana en el mar en Castiglione della Pescaia."
+    },
+    {
+      "id": "rd_viaggio_15",
+      "it": "Castiglione della Pescaia è un piccolo paese a sud di Firenze.",
+      "es": "Castiglione della Pescaia es un pequeño pueblo al sur de Florencia."
+    },
+    {
+      "id": "rd_viaggio_16",
+      "it": "Ho preso il sole, ho nuotato e ho fatto molte passeggiate sulla spiaggia.",
+      "es": "Tomé sol, nadé e hice muchos paseos por la playa."
+    },
+    {
+      "id": "rd_viaggio_17",
+      "it": "Ho mangiato molto bene in Italia.",
+      "es": "Comí muy bien en Italia."
+    },
+    {
+      "id": "rd_viaggio_18",
+      "it": "Ho trovato molti buoni ristoranti e pizzerie.",
+      "es": "Encontré muchos buenos restaurantes y pizzerías."
+    },
+    {
+      "id": "rd_viaggio_19",
+      "it": "Ho mangiato anche molto gelato e bevuto molto caffè!",
+      "es": "¡También comí mucho helado y bebí mucho café!"
+    },
+    {
+      "id": "rd_viaggio_20",
+      "it": "Purtroppo la vacanza è finita e sono dovuta tornare a casa!!!",
+      "es": "Por desgracia, las vacaciones terminaron y tuve que volver a casa."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cómo viajó a Roma?",
+      "options": [
+        "En avión",
+        "En tren",
+        "En auto"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Cuántos días pasó en Roma?",
+      "options": [
+        "Dos",
+        "Tres",
+        "Una semana"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Dónde se alojó en Venecia?",
+      "options": [
+        "En un hotel grande",
+        "En casa de amigos",
+        "En un hostal"
+      ],
+      "answer": 2,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿En qué ciudad vio el balcón de Julieta y Romeo?",
+      "options": [
+        "En Verona",
+        "En Roma",
+        "En Venecia"
+      ],
+      "answer": 0,
+      "evidence": 11
+    },
+    {
+      "prompt_es": "¿Qué hizo en la Toscana?",
+      "options": [
+        "Visitó museos",
+        "Pasó una semana en el mar",
+        "Trabajó"
+      ],
+      "answer": 1,
+      "evidence": 14
+    }
+  ]
+}

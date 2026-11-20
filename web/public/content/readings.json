@@ -3706,6 +3706,136 @@
     ]
   },
   {
+    "id": "rd_saluti",
+    "title": "I saluti: conversazione formale e informale",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/2-i-saluti/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cómo se tratan los dos profesores?",
+        "options": [
+          "De usted (Lei)",
+          "De tú",
+          "No se saludan"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Cómo se llama la chica?",
+        "options": [
+          "Stefano",
+          "Francesca",
+          "Bianchi"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Cómo está Stefano?",
+        "options": [
+          "Mal",
+          "Más o menos",
+          "Bien"
+        ],
+        "answer": 2,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Cómo está Francesca?",
+        "options": [
+          "Bastante bien",
+          "Muy mal",
+          "Cansada"
+        ],
+        "answer": 0,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Cómo se despiden Francesca y Stefano?",
+        "options": [
+          "Con «buonanotte»",
+          "Con «a presto»",
+          "Con «arrivederci»"
+        ],
+        "answer": 1,
+        "evidence": 8
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_saluti_00",
+        "it": "Buon giorno, Professor Rossi, come sta?",
+        "es": "Buenos días, profesor Rossi, ¿cómo está?",
+        "speaker": "Prof. Bianchi",
+        "audio": "7eab80d73eb2"
+      },
+      {
+        "id": "rd_saluti_01",
+        "it": "Bene, grazie. E Lei?",
+        "es": "Bien, gracias. ¿Y usted?",
+        "speaker": "Prof. Rossi",
+        "audio": "9ea3e945c201"
+      },
+      {
+        "id": "rd_saluti_02",
+        "it": "Non c'è male, grazie.",
+        "es": "No está mal, gracias.",
+        "speaker": "Prof. Bianchi",
+        "audio": "092ac81cebf4"
+      },
+      {
+        "id": "rd_saluti_03",
+        "it": "Ciao, mi chiamo Francesca. Tu come ti chiami?",
+        "es": "Hola, me llamo Francesca. ¿Tú cómo te llamas?",
+        "speaker": "Francesca",
+        "audio": "c7b3c280dce5"
+      },
+      {
+        "id": "rd_saluti_04",
+        "it": "Mi chiamo Stefano, piacere.",
+        "es": "Me llamo Stefano, mucho gusto.",
+        "speaker": "Stefano",
+        "audio": "13cd6011c13e"
+      },
+      {
+        "id": "rd_saluti_05",
+        "it": "Piacere. Come va?",
+        "es": "Mucho gusto. ¿Cómo va?",
+        "speaker": "Francesca",
+        "audio": "10358f9a5b1c"
+      },
+      {
+        "id": "rd_saluti_06",
+        "it": "Bene grazie, e tu?",
+        "es": "Bien, gracias, ¿y tú?",
+        "speaker": "Stefano",
+        "audio": "ee9a8585a259"
+      },
+      {
+        "id": "rd_saluti_07",
+        "it": "Abbastanza bene, grazie. Ciao, a presto.",
+        "es": "Bastante bien, gracias. Chao, hasta pronto.",
+        "speaker": "Francesca",
+        "audio": "b092df18da34"
+      },
+      {
+        "id": "rd_saluti_08",
+        "it": "A presto.",
+        "es": "Hasta pronto.",
+        "speaker": "Stefano",
+        "audio": "1e08daecface"
+      }
+    ]
+  },
+  {
     "id": "rd_signoria",
     "title": "Piazza della Signoria",
     "level": "A1",
@@ -4345,6 +4475,199 @@
         "es": "La cerveza es buena y también hacen buenos bocadillos.",
         "speaker": "Francesco",
         "audio": "8cd5189b3b4a"
+      }
+    ]
+  },
+  {
+    "id": "rd_viaggio",
+    "title": "Il mio viaggio",
+    "level": "A1",
+    "kind": "lectura",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/lettura-il-mio-viaggio/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cómo viajó a Roma?",
+        "options": [
+          "En avión",
+          "En tren",
+          "En auto"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Cuántos días pasó en Roma?",
+        "options": [
+          "Dos",
+          "Tres",
+          "Una semana"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Dónde se alojó en Venecia?",
+        "options": [
+          "En un hotel grande",
+          "En casa de amigos",
+          "En un hostal"
+        ],
+        "answer": 2,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿En qué ciudad vio el balcón de Julieta y Romeo?",
+        "options": [
+          "En Verona",
+          "En Roma",
+          "En Venecia"
+        ],
+        "answer": 0,
+        "evidence": 11
+      },
+      {
+        "prompt_es": "¿Qué hizo en la Toscana?",
+        "options": [
+          "Visitó museos",
+          "Pasó una semana en el mar",
+          "Trabajó"
+        ],
+        "answer": 1,
+        "evidence": 14
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_viaggio_00",
+        "it": "L'anno scorso sono andata in vacanza in Italia a giugno.",
+        "es": "El año pasado fui de vacaciones a Italia en junio.",
+        "audio": "7589b194cc18"
+      },
+      {
+        "id": "rd_viaggio_01",
+        "it": "Ho comprato un biglietto aereo per Roma.",
+        "es": "Compré un pasaje de avión a Roma.",
+        "audio": "b7b0268666a8"
+      },
+      {
+        "id": "rd_viaggio_02",
+        "it": "È costato molto e ho dovuto usare la carta di credito!",
+        "es": "Costó mucho y tuve que usar la tarjeta de crédito.",
+        "audio": "5d45c3ec8c73"
+      },
+      {
+        "id": "rd_viaggio_03",
+        "it": "Ho prenotato una camera singola in un piccolo albergo in centro e ho passato tre giorni a Roma.",
+        "es": "Reservé una habitación individual en un pequeño hotel del centro y pasé tres días en Roma.",
+        "audio": "d33aa94106aa"
+      },
+      {
+        "id": "rd_viaggio_04",
+        "it": "Ho visto il Colosseo, il Vaticano, il Museo Vaticano e la Cappella Sistina, la Fontana di Trevi e molte altre cose.",
+        "es": "Vi el Coliseo, el Vaticano, el Museo Vaticano y la Capilla Sixtina, la Fontana de Trevi y muchas otras cosas.",
+        "audio": "1d111c9f39ec"
+      },
+      {
+        "id": "rd_viaggio_05",
+        "it": "Dopo avere visitato Roma, sono andata in treno a Venezia.",
+        "es": "Después de visitar Roma, fui en tren a Venecia.",
+        "audio": "cb0f4c8d928f"
+      },
+      {
+        "id": "rd_viaggio_06",
+        "it": "Venezia è una città molto bella.",
+        "es": "Venecia es una ciudad muy hermosa.",
+        "audio": "9ee7e18bc748"
+      },
+      {
+        "id": "rd_viaggio_07",
+        "it": "Sono stata in un ostello per due giorni.",
+        "es": "Estuve en un hostal dos días.",
+        "audio": "0064bda5613f"
+      },
+      {
+        "id": "rd_viaggio_08",
+        "it": "A Venezia sono stata in Piazza San Marco e ho visto il Ponte di Rialto.",
+        "es": "En Venecia estuve en la plaza de San Marcos y vi el puente de Rialto.",
+        "audio": "1a33ecc93765"
+      },
+      {
+        "id": "rd_viaggio_09",
+        "it": "Ho anche preso il traghetto e ho visitato le isole di Murano e Burano.",
+        "es": "También tomé el transbordador y visité las islas de Murano y Burano.",
+        "audio": "9534d3c9a9d0"
+      },
+      {
+        "id": "rd_viaggio_10",
+        "it": "A Murano lavorano il vetro e a Burano ci sono molte case colorate!",
+        "es": "En Murano trabajan el vidrio y en Burano hay muchas casas de colores.",
+        "audio": "15848dc02a41"
+      },
+      {
+        "id": "rd_viaggio_11",
+        "it": "Da Venezia sono andata in treno a Verona, dove ho visto il balcone di Giulietta e Romeo.",
+        "es": "Desde Venecia fui en tren a Verona, donde vi el balcón de Julieta y Romeo.",
+        "audio": "98890d6cd654"
+      },
+      {
+        "id": "rd_viaggio_12",
+        "it": "Sono stata a Verona solo un giorno.",
+        "es": "Estuve en Verona solo un día.",
+        "audio": "4674a25e7d55"
+      },
+      {
+        "id": "rd_viaggio_13",
+        "it": "Da Verona ho preso il treno e sono andata in Toscana.",
+        "es": "Desde Verona tomé el tren y fui a la Toscana.",
+        "audio": "5c9f939a1f07"
+      },
+      {
+        "id": "rd_viaggio_14",
+        "it": "Ho noleggiato una macchina e ho passato una settimana al mare a Castiglione della Pescaia.",
+        "es": "Arrendé un auto y pasé una semana en el mar en Castiglione della Pescaia.",
+        "audio": "cc60a5f56500"
+      },
+      {
+        "id": "rd_viaggio_15",
+        "it": "Castiglione della Pescaia è un piccolo paese a sud di Firenze.",
+        "es": "Castiglione della Pescaia es un pequeño pueblo al sur de Florencia.",
+        "audio": "ba5030b5aa41"
+      },
+      {
+        "id": "rd_viaggio_16",
+        "it": "Ho preso il sole, ho nuotato e ho fatto molte passeggiate sulla spiaggia.",
+        "es": "Tomé sol, nadé e hice muchos paseos por la playa.",
+        "audio": "2e47e50fc5f7"
+      },
+      {
+        "id": "rd_viaggio_17",
+        "it": "Ho mangiato molto bene in Italia.",
+        "es": "Comí muy bien en Italia.",
+        "audio": "b3c06821c384"
+      },
+      {
+        "id": "rd_viaggio_18",
+        "it": "Ho trovato molti buoni ristoranti e pizzerie.",
+        "es": "Encontré muchos buenos restaurantes y pizzerías.",
+        "audio": "35abfc476160"
+      },
+      {
+        "id": "rd_viaggio_19",
+        "it": "Ho mangiato anche molto gelato e bevuto molto caffè!",
+        "es": "¡También comí mucho helado y bebí mucho café!",
+        "audio": "a400d17fa436"
+      },
+      {
+        "id": "rd_viaggio_20",
+        "it": "Purtroppo la vacanza è finita e sono dovuta tornare a casa!!!",
+        "es": "Por desgracia, las vacaciones terminaron y tuve que volver a casa.",
+        "audio": "6905b0f63568"
       }
     ]
   },

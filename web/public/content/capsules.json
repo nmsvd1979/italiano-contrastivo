@@ -2143,6 +2143,156 @@
     "cefr": "A1",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Mi chiamo, ti chiami, si chiama, ci chiamiamo, vi chiamate, si chiamano. El español usa me, te, se, nos, os: «me chiamo» no existe. Come ti chiami? (a un amigo) y Come si chiama? (a una persona que tratas de usted). Para presentarte: Mi chiamo Ana, sono cilena, ho venti anni."
+    },
+    "id": "cap_err_chiamarsi",
+    "retrieval": [
+      {
+        "id": "it_choice_s_1551030_ERR_CHIAMARSI",
+        "options": [
+          {
+            "correct": true,
+            "text": "Io mi chiamo Luis."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_CHIAMARSI",
+            "text": "Io me chiamo Luis."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1551030",
+        "target_error_codes": [
+          "ERR_CHIAMARSI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "ti"
+        ],
+        "hint_es": "¿Tú cómo te llamas?",
+        "id": "it_cloze_s_2795458_ERR_CHIAMARSI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2795458",
+        "target_error_codes": [
+          "ERR_CHIAMARSI"
+        ],
+        "text": "Tu come ___ chiami?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Io",
+          "mi",
+          "chiamo",
+          "Andrea."
+        ],
+        "id": "it_reorder_s_2695177_ERR_CHIAMARSI",
+        "prompt_es": "Ordena las palabras: «Yo me llamo Andrea.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2695177",
+        "target_error_codes": [
+          "ERR_CHIAMARSI"
+        ],
+        "tokens": [
+          "mi",
+          "Andrea.",
+          "chiamo",
+          "Io"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_2695310_ERR_CHIAMARSI",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_CHIAMARSI",
+            "text": "Io me chiamo Sascha."
+          },
+          {
+            "correct": true,
+            "text": "Io mi chiamo Sascha."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2695310",
+        "target_error_codes": [
+          "ERR_CHIAMARSI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "mi"
+        ],
+        "hint_es": "Yo me llamo Roberto.",
+        "id": "it_cloze_s_2706885_ERR_CHIAMARSI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2706885",
+        "target_error_codes": [
+          "ERR_CHIAMARSI"
+        ],
+        "text": "Io ___ chiamo Roberto.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Dimmi",
+          "come",
+          "ti",
+          "chiami."
+        ],
+        "id": "it_reorder_s_3264294_ERR_CHIAMARSI",
+        "prompt_es": "Ordena las palabras: «Dime cómo te llamas.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3264294",
+        "target_error_codes": [
+          "ERR_CHIAMARSI"
+        ],
+        "tokens": [
+          "Dimmi",
+          "come",
+          "chiami.",
+          "ti"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_CHIAMARSI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "So come ti chiami."
+      ],
+      "id": "it_translate_s_14070041_ERR_CHIAMARSI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_14070041",
+      "source_es": "Sé cómo te llamas.",
+      "target_error_codes": [
+        "ERR_CHIAMARSI"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "Algunas palabras tienen otro género que en español: il latte (la leche), il sale (la sal), il miele (la miel), il sangue (la sangre), il fiore (la flor), il naso (la nariz), il sorriso (la sonrisa). Y al revés: la mappa (el mapa), la matita (el lápiz), la penna (el bolígrafo), la scarpa (el zapato), la borsa (el bolso). Plural: -o → -i, -a → -e, -e → -i."
     },
     "id": "cap_err_genere_es",
@@ -2293,6 +2443,156 @@
     "cefr": "A1",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Imperativo de tú: los verbos en -are terminan en -a (parla, guarda, mangia); los de -ere e -ire usan la forma de «tu» del presente: leggi, scrivi, apri, dormi. El español usa -e (lee, abre, escribe): «apre!» en italiano sería «él abre». Irregulares: va' (vai), fa' (fai), da' (dai), di', sta' (stai). Negativo: non + infinitivo (non parlare!), no como el español «no hables»."
+    },
+    "id": "cap_err_imperativo_forma",
+    "retrieval": [
+      {
+        "id": "it_choice_s_11710396_ERR_IMPERATIVO_FORMA",
+        "options": [
+          {
+            "correct": true,
+            "text": "Bevi il tuo vino."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_IMPERATIVO_FORMA",
+            "text": "Beve il tuo vino."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11710396",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_FORMA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Apri"
+        ],
+        "hint_es": "Abre tu mente.",
+        "id": "it_cloze_s_11460842_ERR_IMPERATIVO_FORMA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11460842",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_FORMA"
+        ],
+        "text": "___ la tua mente.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Prendi",
+          "la",
+          "mia",
+          "auto."
+        ],
+        "id": "it_reorder_s_4230082_ERR_IMPERATIVO_FORMA",
+        "prompt_es": "Ordena las palabras: «Toma mi auto.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4230082",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_FORMA"
+        ],
+        "tokens": [
+          "mia",
+          "Prendi",
+          "auto.",
+          "la"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_6007453_ERR_IMPERATIVO_FORMA",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_IMPERATIVO_FORMA",
+            "text": "Apre la tua valigia."
+          },
+          {
+            "correct": true,
+            "text": "Apri la tua valigia."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_6007453",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_FORMA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Apri"
+        ],
+        "hint_es": "Abre la puerta y ya.",
+        "id": "it_cloze_s_4298711_ERR_IMPERATIVO_FORMA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4298711",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_FORMA"
+        ],
+        "text": "___ la porta e basta.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Bevi",
+          "un",
+          "altro",
+          "bicchiere."
+        ],
+        "id": "it_reorder_s_1598274_ERR_IMPERATIVO_FORMA",
+        "prompt_es": "Ordena las palabras: «Bebe otro vaso.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1598274",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_FORMA"
+        ],
+        "tokens": [
+          "bicchiere.",
+          "un",
+          "altro",
+          "Bevi"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_IMPERATIVO_FORMA"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Bevi il tuo tè."
+      ],
+      "id": "it_translate_s_13287192_ERR_IMPERATIVO_FORMA",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13287192",
+      "source_es": "Bebe tu té.",
+      "target_error_codes": [
+        "ERR_IMPERATIVO_FORMA"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "El indefinido masculino es «un» (un amico), pero «uno» ante s + consonante, z, gn, ps (uno studente, uno zio). El femenino es «una» (una casa) y se apostrofa ante vocal: un'amica. En masculino no hay apóstrofo: un amico."
     },
     "id": "cap_err_indefinite_article",
@@ -2435,6 +2735,160 @@
       "source_es": "Ya tengo una idea.",
       "target_error_codes": [
         "ERR_INDEFINITE_ARTICLE"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Che ore sono? Sono le due (plural), pero È l'una (singular), È mezzogiorno, È mezzanotte. Minutos: e + minutos (sono le tre e venti); pasada la media hora: la hora siguiente + meno + minutos (sono le cinque meno dieci). Se dice «e un quarto», «meno un quarto» y «e mezza» (no «e quarto» ni «e media»). A che ora? alle due, all'una, a mezzogiorno."
+    },
+    "id": "cap_err_ora_es",
+    "retrieval": [
+      {
+        "id": "it_choice_s_4752049_ERR_ORA_ES",
+        "options": [
+          {
+            "correct": true,
+            "text": "Sono le otto e mezza."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_ORA_ES",
+            "text": "Sono le otto e media."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4752049",
+        "target_error_codes": [
+          "ERR_ORA_ES"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "e un"
+        ],
+        "hint_es": "Son las dos y cuarto.",
+        "id": "it_cloze_s_13045702_ERR_ORA_ES",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_13045702",
+        "target_error_codes": [
+          "ERR_ORA_ES"
+        ],
+        "text": "Sono le due ___ quarto.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "È",
+          "l'una",
+          "meno",
+          "venticinque."
+        ],
+        "id": "it_reorder_s_12656242_ERR_ORA_ES",
+        "prompt_es": "Ordena las palabras: «Es la una menos veinticinco.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_12656242",
+        "target_error_codes": [
+          "ERR_ORA_ES"
+        ],
+        "tokens": [
+          "l'una",
+          "meno",
+          "venticinque.",
+          "È"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_1708380_ERR_ORA_ES",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_ORA_ES",
+            "text": "Sono le nove e quarto."
+          },
+          {
+            "correct": true,
+            "text": "Sono le nove e un quarto."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1708380",
+        "target_error_codes": [
+          "ERR_ORA_ES"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "mezza"
+        ],
+        "hint_es": "Tiene hasta las dos y media.",
+        "id": "it_cloze_s_5533477_ERR_ORA_ES",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5533477",
+        "target_error_codes": [
+          "ERR_ORA_ES"
+        ],
+        "text": "Ha fino alle due e ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Hai",
+          "fino",
+          "alle",
+          "due",
+          "e",
+          "mezza."
+        ],
+        "id": "it_reorder_s_5533475_ERR_ORA_ES",
+        "prompt_es": "Ordena las palabras: «Tienes hasta las dos y media.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5533475",
+        "target_error_codes": [
+          "ERR_ORA_ES"
+        ],
+        "tokens": [
+          "Hai",
+          "fino",
+          "e",
+          "alle",
+          "due",
+          "mezza."
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_ORA_ES"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Sono le tre e mezza."
+      ],
+      "id": "it_translate_s_1876918_ERR_ORA_ES",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1876918",
+      "source_es": "Son las tres y media.",
+      "target_error_codes": [
+        "ERR_ORA_ES"
       ],
       "type": "translate_es_it"
     }
@@ -2735,6 +3189,158 @@
       "source_es": "Me gusta China.",
       "target_error_codes": [
         "ERR_PIACERE_ACCORDO"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Tras preposición se usan me y te, no io y tu: con me, per te, da me, a te, di me. «Conmigo» y «contigo» se dicen con me y con te (en dos palabras). Con lui, lei, noi, voi y loro el pronombre es igual que el sujeto: con lui, per noi."
+    },
+    "id": "cap_err_pronome_tonico",
+    "retrieval": [
+      {
+        "id": "it_choice_s_2433358_ERR_PRONOME_TONICO",
+        "options": [
+          {
+            "correct": true,
+            "text": "A me piace l'arte."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PRONOME_TONICO",
+            "text": "A io piace l'arte."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2433358",
+        "target_error_codes": [
+          "ERR_PRONOME_TONICO"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "te"
+        ],
+        "hint_es": "Tom está detrás de ti.",
+        "id": "it_cloze_s_2018463_ERR_PRONOME_TONICO",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2018463",
+        "target_error_codes": [
+          "ERR_PRONOME_TONICO"
+        ],
+        "text": "Tom è dietro di ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Prendi",
+          "Luisa",
+          "con",
+          "te."
+        ],
+        "id": "it_reorder_s_3183017_ERR_PRONOME_TONICO",
+        "prompt_es": "Ordena las palabras: «Lleva a Luisa contigo.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3183017",
+        "target_error_codes": [
+          "ERR_PRONOME_TONICO"
+        ],
+        "tokens": [
+          "con",
+          "Prendi",
+          "te.",
+          "Luisa"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_4425_ERR_PRONOME_TONICO",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PRONOME_TONICO",
+            "text": "Vuoi ballare con io?"
+          },
+          {
+            "correct": true,
+            "text": "Vuoi ballare con me?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4425",
+        "target_error_codes": [
+          "ERR_PRONOME_TONICO"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "te"
+        ],
+        "hint_es": "Tengo un regalo para ti.",
+        "id": "it_cloze_s_4636055_ERR_PRONOME_TONICO",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4636055",
+        "target_error_codes": [
+          "ERR_PRONOME_TONICO"
+        ],
+        "text": "Ho un regalo per ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Non",
+          "ho",
+          "tempo",
+          "per",
+          "te."
+        ],
+        "id": "it_reorder_s_511139_ERR_PRONOME_TONICO",
+        "prompt_es": "Ordena las palabras: «No tengo tiempo para ti.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_511139",
+        "target_error_codes": [
+          "ERR_PRONOME_TONICO"
+        ],
+        "tokens": [
+          "te.",
+          "per",
+          "tempo",
+          "Non",
+          "ho"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_PRONOME_TONICO"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Tom non è con te?"
+      ],
+      "id": "it_translate_s_3653848_ERR_PRONOME_TONICO",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3653848",
+      "source_es": "¿Tom no está contigo?",
+      "target_error_codes": [
+        "ERR_PRONOME_TONICO"
       ],
       "type": "translate_es_it"
     }

@@ -45,6 +45,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ORA_ES"
+    ],
+    "es": "Trabaja desde las nueve hasta las cinco y media.",
+    "es_author": "saverius",
+    "es_source_id": "10153937",
+    "id": "s_10150117",
+    "it": "Lavora dalle nove alle cinque e mezza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10150117",
+    "tag_rules": {
+      "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -106,6 +128,28 @@
     "source_id": "1019958",
     "tag_rules": {
       "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CHIAMARSI"
+    ],
+    "es": "¿Cómo se llama tu página web?",
+    "es_author": "lukaszpp",
+    "es_source_id": "687477",
+    "id": "s_1020293",
+    "it": "Come si chiama la tua pagina web?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1020293",
+    "tag_rules": {
+      "ERR_CHIAMARSI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -935,6 +979,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Adelpa",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_FORMA"
+    ],
+    "es": "Tómate tu tiempo antes de responder.",
+    "es_author": "Adelpa",
+    "es_source_id": "12124093",
+    "id": "s_12124075",
+    "it": "Prendi il tuo tempo prima di rispondere.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12124075",
+    "tag_rules": {
+      "ERR_IMPERATIVO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -975,6 +1041,28 @@
     "source_id": "1241614",
     "tag_rules": {
       "ERR_GENERE_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CHIAMARSI"
+    ],
+    "es": "¿Cómo se llama este pez en inglés?",
+    "es_author": "tatoerique",
+    "es_source_id": "359481",
+    "id": "s_1251688",
+    "it": "Come si chiama questo pesce in inglese?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1251688",
+    "tag_rules": {
+      "ERR_CHIAMARSI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1095,6 +1183,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "glossboss",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ORA_ES"
+    ],
+    "es": "Son las nueve y cuarto de la mañana.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1113235",
+    "id": "s_12676650",
+    "it": "Sono le nove e un quarto del mattino.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12676650",
+    "tag_rules": {
+      "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -1147,6 +1257,28 @@
       "ERR_Z_AFFRICATE": "z_africata"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_FORMA"
+    ],
+    "es": "¡Cierra los ojos primero!",
+    "es_author": "cueyayotl",
+    "es_source_id": "6989198",
+    "id": "s_12834656",
+    "it": "Chiudi gli occhi prima!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12834656",
+    "tag_rules": {
+      "ERR_IMPERATIVO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Adelpa",
@@ -1278,6 +1410,53 @@
     "source_id": "13120165",
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ORA_ES"
+    ],
+    "es": "La escuela empieza a las ocho y media.",
+    "es_author": "IA (Claude)",
+    "id": "s_13156242",
+    "it": "La scuola inizia alle otto e mezza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13156242",
+    "tag_rules": {
+      "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_FORMA"
+    ],
+    "es": "Abre la puerta y deja entrar al perro.",
+    "es_author": "Shishir",
+    "es_source_id": "1329345",
+    "id": "s_1329353",
+    "it": "Apri la porta e lascia entrare il cane.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1329353",
+    "tag_rules": {
+      "ERR_IMPERATIVO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1704,6 +1883,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "unforgiven95",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_FORMA"
+    ],
+    "es": "Pon la toalla en el toallero para secarla.",
+    "es_author": "arh",
+    "es_source_id": "6565529",
+    "id": "s_14083170",
+    "it": "Metti l'asciugamano sul porta asciugamani per farlo asciugare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14083170",
+    "tag_rules": {
+      "ERR_IMPERATIVO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -2030,6 +2231,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_ORA_ES"
+    ],
+    "es": "Son las ocho menos cuarto ahora.",
+    "es_author": "IA (Claude)",
+    "id": "s_1611761",
+    "it": "Sono le otto meno un quarto ora.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1611761",
+    "tag_rules": {
+      "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_VOC_NATURA"
     ],
     "es": "La Tierra tiene la forma de una esfera.",
@@ -2122,6 +2347,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CHIAMARSI"
+    ],
+    "es": "¿Cómo se llama este insecto en inglés?",
+    "es_author": "darinmex",
+    "es_source_id": "676872",
+    "id": "s_1688510",
+    "it": "Come si chiama questo insetto in inglese?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1688510",
+    "tag_rules": {
+      "ERR_CHIAMARSI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -2141,6 +2388,97 @@
       "ERR_PERSONAL_A": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CHIAMARSI"
+    ],
+    "es": "¿Cómo se llama este animal en japonés?",
+    "es_author": "darinmex",
+    "es_source_id": "760196",
+    "id": "s_1701567",
+    "it": "Come si chiama questo animale in giapponese?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1701567",
+    "tag_rules": {
+      "ERR_CHIAMARSI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ORA_ES"
+    ],
+    "es": "Son las nueve y cuarto de la mañana.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1113235",
+    "id": "s_1708379",
+    "it": "Sono le nove e un quarto di mattina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1708379",
+    "tag_rules": {
+      "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ORA_ES"
+    ],
+    "es": "Nuestro tren sale a las ocho y media.",
+    "es_author": "IA (Claude)",
+    "id": "s_1708387",
+    "it": "Il nostro treno parte alle otto e mezza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1708387",
+    "tag_rules": {
+      "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ORA_ES"
+    ],
+    "es": "El tren sale a las dos y media de la tarde.",
+    "es_author": "IA (Claude)",
+    "id": "s_1708388",
+    "it": "Il treno parte alle due e mezza del pomeriggio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1708388",
+    "tag_rules": {
+      "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -2840,6 +3178,28 @@
     "source_id": "2220241",
     "tag_rules": {
       "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "JLGQ_",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_FORMA"
+    ],
+    "es": "Pon la mantilla al pequeñín, que hace frío.",
+    "es_author": "JLGQ_",
+    "es_source_id": "2233933",
+    "id": "s_2233939",
+    "it": "Metti la copertina sul piccolo, fa freddo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2233939",
+    "tag_rules": {
+      "ERR_IMPERATIVO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3866,6 +4226,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_FORMA"
+    ],
+    "es": "Ven al campo para ver el fenómeno esta noche.",
+    "es_author": "cueyayotl",
+    "es_source_id": "3795646",
+    "id": "s_3176285",
+    "it": "Vieni al campo a vedere il fenomeno questa sera.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3176285",
+    "tag_rules": {
+      "ERR_IMPERATIVO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "carlosalberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -3999,6 +4381,28 @@
     "source_id": "350270",
     "tag_rules": {
       "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "martin",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_FORMA"
+    ],
+    "es": "Toma el medicamento tres veces al día.",
+    "es_author": "darinmex",
+    "es_source_id": "573296",
+    "id": "s_350481",
+    "it": "Prendi la medicina tre volte al giorno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "350481",
+    "tag_rules": {
+      "ERR_IMPERATIVO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4293,6 +4697,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ORA_ES"
+    ],
+    "es": "No pueden irse a casa hasta las dos y media.",
+    "es_author": "IA (Claude)",
+    "id": "s_3768550",
+    "it": "Non potete andare a casa fino alle due e mezza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3768550",
+    "tag_rules": {
+      "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -4548,6 +4975,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ORA_ES"
+    ],
+    "es": "¿Por qué no nos encontramos a las dos y media?",
+    "es_author": "IA (Claude)",
+    "id": "s_3830262",
+    "it": "Perché non ci incontriamo alle due e mezza?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3830262",
+    "tag_rules": {
+      "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -4618,6 +5068,28 @@
     "source_id": "386837",
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_FORMA"
+    ],
+    "es": "Abre la boca y cierra los ojos.",
+    "es_author": "hayastan",
+    "es_source_id": "1003275",
+    "id": "s_387009",
+    "it": "Apri la bocca e chiudi gli occhi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "387009",
+    "tag_rules": {
+      "ERR_IMPERATIVO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4808,6 +5280,29 @@
       "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ORA_ES"
+    ],
+    "es": "Tenemos una reunión a las dos y media.",
+    "es_author": "IA (Claude)",
+    "id": "s_4048052",
+    "it": "Abbiamo una riunione alle due e mezza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4048052",
+    "tag_rules": {
+      "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -5150,6 +5645,52 @@
     "source_id": "4437",
     "tag_rules": {
       "ERR_VOC_DENARO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_FORMA"
+    ],
+    "es": "¡Toma un libro y léelo!",
+    "es_author": "Eldad",
+    "es_source_id": "2922",
+    "id": "s_4477",
+    "it": "Prendi un libro e leggilo!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4477",
+    "tag_rules": {
+      "ERR_IMPERATIVO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ORA_ES"
+    ],
+    "es": "El registro empieza a las dos y media.",
+    "es_author": "arh",
+    "es_source_id": "5769337",
+    "id": "s_4507466",
+    "it": "La registrazione inizia alle due e mezza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4507466",
+    "tag_rules": {
+      "ERR_ORA_ES": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5521,6 +6062,52 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ORA_ES"
+    ],
+    "es": "Me acuesto a las diez y media.",
+    "es_author": "IA (Claude)",
+    "id": "s_5330590",
+    "it": "Io vado a letto alle dieci e mezza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5330590",
+    "tag_rules": {
+      "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ORA_ES"
+    ],
+    "es": "¿Qué pasa aquí a las dos y media?",
+    "es_author": "IA (Claude)",
+    "id": "s_5556143",
+    "it": "Cosa succede qui alle due e mezza?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5556143",
+    "tag_rules": {
+      "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -5631,6 +6218,30 @@
     "source_id": "610182",
     "tag_rules": {
       "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_FORMA"
+    ],
+    "es": "¡Coge un folio y escribe!",
+    "es_author": "Shishir",
+    "es_source_id": "667815",
+    "id": "s_613815",
+    "it": "Prendi un foglio e scrivi!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "613815",
+    "tag_rules": {
+      "ERR_IMPERATIVO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5889,6 +6500,29 @@
       "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ORA_ES"
+    ],
+    "es": "El partido empieza a las dos y media.",
+    "es_author": "IA (Claude)",
+    "id": "s_6598139",
+    "it": "La partita inizia alle due e mezza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6598139",
+    "tag_rules": {
+      "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -6851,6 +7485,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERATIVO_FORMA"
+    ],
+    "es": "Por favor, pon en orden estos documentos.",
+    "es_author": "hundo",
+    "es_source_id": "956727",
+    "id": "s_885786",
+    "it": "Per favore, metti in ordine questi documenti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "885786",
+    "tag_rules": {
+      "ERR_IMPERATIVO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CE_AGREEMENT"
     ],
     "es": "Hay un pequeño perro marrón bajo esa mesa.",
@@ -7035,6 +7691,28 @@
     "source_id": "9723298",
     "tag_rules": {
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_FORMA"
+    ],
+    "es": "¡Coge un libro y lee!",
+    "es_author": "Shishir",
+    "es_source_id": "762983",
+    "id": "s_9769696",
+    "it": "Prendi un libro e leggi!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9769696",
+    "tag_rules": {
+      "ERR_IMPERATIVO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
