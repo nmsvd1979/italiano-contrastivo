@@ -182,6 +182,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "87cfaf47ac89",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No tengo tiempo ahora.",
+    "es_author": "hayastan",
+    "es_source_id": "1013650",
+    "id": "s_1012690",
+    "it": "Non ho tempo adesso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1012690",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3b87978c4a05",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -192,6 +205,31 @@
     "it": "Parla correttamente il russo!",
     "license": "CC BY 2.0 FR",
     "source_id": "10146459",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "1de83a0b81d8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "A Mary le gusta la leche.",
+    "es_author": "IA (Claude)",
+    "id": "s_10149650",
+    "it": "A Mary piace il latte.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10149650",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "264d9b44626f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿De quién es esta dirección?",
+    "es_author": "saverius",
+    "es_source_id": "10153933",
+    "id": "s_10150110",
+    "it": "Di chi è questo indirizzo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10150110",
     "translation_kind": "direct"
   },
   {
@@ -390,6 +428,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4e1f3e967bda",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "¿Cómo puedo solucionar este problema?",
+    "es_author": "riccioberto",
+    "es_source_id": "1035837",
+    "id": "s_1035835",
+    "it": "Come posso risolvere questo problema?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1035835",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "907a554ce4bc",
     "author": "riccioberto",
     "cefr_estimate": "A1",
@@ -504,6 +555,19 @@
     "it": "La bandiera è blu.",
     "license": "CC BY 2.0 FR",
     "source_id": "10461736",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3a06ef2cc147",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Habla a menudo con él.",
+    "es_author": "saverius",
+    "es_source_id": "10514727",
+    "id": "s_10513483",
+    "it": "Parla spesso con lui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10513483",
     "translation_kind": "direct"
   },
   {
@@ -696,6 +760,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "10739332",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "8caf47d728e9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Quieres una taza de café?",
+    "es_author": "IA (Claude)",
+    "id": "s_1073991",
+    "it": "Vuoi una tazza di caffè?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1073991",
+    "translation_kind": "llm"
   },
   {
     "audio": "8240541d5b76",
@@ -1008,6 +1084,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "30bfa8dd005e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Sé cómo te sientes.",
+    "es_author": "IA (Claude)",
+    "id": "s_1096724",
+    "it": "So come ti senti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1096724",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "584c3c9eaebc",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1019,6 +1107,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1098077",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "9b52242629fd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Hasta luego, Bob y Nora.",
+    "es_author": "IA (Claude)",
+    "id": "s_1098118",
+    "it": "Arrivederci, Bob e Nora.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1098118",
+    "translation_kind": "llm"
   },
   {
     "audio": "b5c28715a5ce",
@@ -1188,6 +1288,31 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1d2e4127ac53",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "Bebo el té con limón.",
+    "es_author": "IA (Claude)",
+    "id": "s_11142019",
+    "it": "Bevo il tè al limone.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11142019",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "8e69b691d39d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿A qué hora cierra este restaurante?",
+    "es_author": "hundo",
+    "es_source_id": "995167",
+    "id": "s_1115364",
+    "it": "A che ora chiude questo ristorante?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1115364",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "30d61724ee55",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1277,6 +1402,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1128562",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "a82347bd92e4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Necesito un bolígrafo.",
+    "es_author": "IA (Claude)",
+    "id": "s_11292168",
+    "it": "Ho bisogno di una penna.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11292168",
+    "translation_kind": "llm"
   },
   {
     "audio": "fadc75d7545d",
@@ -1613,6 +1750,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4e1ba79839db",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Cómo se llama ese pájaro?",
+    "es_author": "IA (Claude)",
+    "id": "s_1176187",
+    "it": "Come si chiama quell'uccello?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1176187",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4ec64473a8d6",
     "author": "Rovo",
     "cefr_estimate": "A1",
@@ -1751,6 +1900,19 @@
     "it": "Questo è un fiore?",
     "license": "CC BY 2.0 FR",
     "source_id": "1187342",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "80941c797a08",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Aún no estoy totalmente convencido.",
+    "es_author": "arh",
+    "es_source_id": "6849593",
+    "id": "s_11874593",
+    "it": "Non sono ancora completamente convinto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11874593",
     "translation_kind": "direct"
   },
   {
@@ -1974,6 +2136,31 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "0823bc3939f7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom es un gran motociclista.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1715853",
+    "id": "s_1217505",
+    "it": "Tom è un grande motociclista.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1217505",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "26f1f8bcd9c6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Cómo se llama esta canción?",
+    "es_author": "IA (Claude)",
+    "id": "s_12192483",
+    "it": "Come si chiama questa canzone?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12192483",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "7cefeff6b4c9",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1998,6 +2185,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1221894",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "8be490a841ab",
+    "author": "Nadialene",
+    "cefr_estimate": "A1",
+    "es": "Ya tengo un plato, gracias.",
+    "es_author": "IA (Claude)",
+    "id": "s_12226086",
+    "it": "Ho già un piatto, grazie.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12226086",
+    "translation_kind": "llm"
   },
   {
     "audio": "c0237d2e0121",
@@ -2065,6 +2264,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4a21eca2eb23",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Este reloj es caro.",
+    "es_author": "clerval",
+    "es_source_id": "623931",
+    "id": "s_1239251",
+    "it": "Quest'orologio è costoso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1239251",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "58a9e061e74b",
     "author": "Adelpa",
     "cefr_estimate": "A1",
@@ -2104,6 +2316,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b8fd9782af34",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me gusta el clima brasileño.",
+    "es_author": "wallebot",
+    "es_source_id": "2051694",
+    "id": "s_1241612",
+    "it": "Mi piace il clima brasiliano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1241612",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "a580f02100eb",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2139,6 +2364,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1246546",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "5a64b0238f5b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Hace un poco de frío.",
+    "es_author": "Shishir",
+    "es_source_id": "1291782",
+    "id": "s_1246550",
+    "it": "Fa un po' freddo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1246550",
+    "translation_kind": "direct"
   },
   {
     "audio": "65c573d3aad5",
@@ -2205,6 +2443,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "cacf9f6bc354",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me duele la cabeza ahora.",
+    "es_author": "hayastan",
+    "es_source_id": "1253763",
+    "id": "s_1253756",
+    "it": "Ho il mal di testa adesso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1253756",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f0af3d19183b",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2241,6 +2492,19 @@
     "it": "I gatti non mangiano le banane.",
     "license": "CC BY 2.0 FR",
     "source_id": "1254118",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "369cd3dd6a8c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Este reloj está roto.",
+    "es_author": "Shishir",
+    "es_source_id": "616145",
+    "id": "s_1254484",
+    "it": "Quest'orologio è rotto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1254484",
     "translation_kind": "direct"
   },
   {
@@ -2309,6 +2573,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "005700188303",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Este es un mapa.",
+    "es_author": "IA (Claude)",
+    "id": "s_1256343",
+    "it": "Questa è una mappa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1256343",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b27068deac0e",
     "author": "riccioberto",
     "cefr_estimate": "A1",
@@ -2333,6 +2609,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1258226",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "e38d6fb55813",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ese es un lápiz.",
+    "es_author": "IA (Claude)",
+    "id": "s_1259739",
+    "it": "Quella è una matita.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1259739",
+    "translation_kind": "llm"
   },
   {
     "audio": "c93d73984c07",
@@ -2633,6 +2921,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e1423413234f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Las flores mueren sin agua.",
+    "es_author": "IA (Claude)",
+    "id": "s_12764648",
+    "it": "I fiori muoiono senza acqua.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12764648",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c3d3813c6bdf",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "A ella le gustan mucho las flores.",
+    "es_author": "IA (Claude)",
+    "id": "s_12765564",
+    "it": "A lei piacciono molto i fiori.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12765564",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "daadb4cc4d87",
     "author": "Shishir",
     "cefr_estimate": "A1",
@@ -2748,6 +3060,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "12938268",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "4848593977a5",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "Las flores azules florecen mejor.",
+    "es_author": "IA (Claude)",
+    "id": "s_12953748",
+    "it": "I fiori blu sbocciano meglio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12953748",
+    "translation_kind": "llm"
   },
   {
     "audio": "ad47113de83c",
@@ -2932,6 +3256,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9faf5d589aa4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Quieres beber té o café?",
+    "es_author": "IA (Claude)",
+    "id": "s_1308150",
+    "it": "Vuoi bere tè o caffè?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1308150",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "65fe23881d57",
     "author": "zhou24",
     "cefr_estimate": "A1",
@@ -2942,6 +3278,19 @@
     "it": "Io non bevo dell'acqua.",
     "license": "CC BY 2.0 FR",
     "source_id": "1308196",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e7af28b680e3",
+    "author": "zhou24",
+    "cefr_estimate": "A1",
+    "es": "Ella siempre compra ropa costosa.",
+    "es_author": "marco87",
+    "es_source_id": "1506664",
+    "id": "s_1308207",
+    "it": "Lei compra sempre abiti costosi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1308207",
     "translation_kind": "direct"
   },
   {
@@ -3010,6 +3359,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "23e7fcfe9d12",
+    "author": "Bibi81",
+    "cefr_estimate": "A1",
+    "es": "Comemos pescado crudo a menudo.",
+    "es_author": "erjabi",
+    "es_source_id": "1172250",
+    "id": "s_1310218",
+    "it": "Spesso mangiamo pesce crudo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1310218",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "116268a7f56b",
     "author": "Adelpa",
     "cefr_estimate": "A1",
@@ -3047,6 +3409,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1311901",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "ce4fb79fa8ab",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Amo el jugo de manzana.",
+    "es_author": "IA (Claude)",
+    "id": "s_13126437",
+    "it": "Amo il succo di mele.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13126437",
+    "translation_kind": "llm"
   },
   {
     "audio": "2e141e816142",
@@ -3163,6 +3537,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "13199927",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "10eccad1e8ff",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El padre se afeita la barba.",
+    "es_author": "IA (Claude)",
+    "id": "s_13207062",
+    "it": "Il padre si rade la barba.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13207062",
+    "translation_kind": "llm"
   },
   {
     "audio": "bed5113d1fa1",
@@ -3331,6 +3717,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "ea0bf47164ee",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ponemos azúcar en nuestro té.",
+    "es_author": "IA (Claude)",
+    "id": "s_13286766",
+    "it": "Mettiamo dello zucchero nel nostro tè.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13286766",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "e6e28892333c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3340,6 +3738,30 @@
     "it": "Bevi il tuo tè.",
     "license": "CC BY 2.0 FR",
     "source_id": "13287192",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "8f845bda8399",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom está bebiendo té.",
+    "es_author": "IA (Claude)",
+    "id": "s_13287531",
+    "it": "Tom sta bevendo del tè.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13287531",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "ea4fd24025de",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El bolso de Mary está lleno.",
+    "es_author": "IA (Claude)",
+    "id": "s_13290189",
+    "it": "La borsa di Mary è piena.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13290189",
     "translation_kind": "llm"
   },
   {
@@ -3418,6 +3840,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1333588",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "bee5fd179010",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Necesita un bolso?",
+    "es_author": "IA (Claude)",
+    "id": "s_13338905",
+    "it": "Ha bisogno di una borsa?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13338905",
+    "translation_kind": "llm"
   },
   {
     "audio": "ebb4e2aef651",
@@ -3600,6 +4034,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7682c81ed9b3",
+    "author": "ninefi",
+    "cefr_estimate": "A1",
+    "es": "¿De qué color son las nubes?",
+    "es_author": "ninefi",
+    "es_source_id": "13521467",
+    "id": "s_13521465",
+    "it": "Di che colore sono le nuvole?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13521465",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d85c162adb5a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3636,6 +4083,19 @@
     "it": "Domani pulisco il bagno.",
     "license": "CC BY 2.0 FR",
     "source_id": "1355065",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0c65a3750052",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡Aún no lo creo!",
+    "es_author": "marcelostockle",
+    "es_source_id": "1437921",
+    "id": "s_1355288",
+    "it": "Ancora non ci credo!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1355288",
     "translation_kind": "direct"
   },
   {
@@ -3756,6 +4216,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "539ec54f3d96",
+    "author": "IdiomHunter",
+    "cefr_estimate": "A1",
+    "es": "El verano termina hoy.",
+    "es_author": "IdiomHunter",
+    "es_source_id": "13965513",
+    "id": "s_13965514",
+    "it": "L'estate termina oggi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13965514",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f87f69c7ce67",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3829,6 +4302,32 @@
     "it": "Ho un appuntamento alle tre.",
     "license": "CC BY 2.0 FR",
     "source_id": "14008531",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "59ceb73b30a1",
+    "author": "unforgiven95",
+    "cefr_estimate": "A1",
+    "es": "¿Qué hay en la bolsa blanca?",
+    "es_author": "hayastan",
+    "es_source_id": "1086971",
+    "id": "s_14008532",
+    "it": "Cos'hai nella borsa bianca ?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14008532",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b2a3bc0f9638",
+    "author": "unforgiven95",
+    "cefr_estimate": "A1",
+    "es": "Cualquier lugar es bueno para dormir.",
+    "es_author": "arh",
+    "es_source_id": "6612124",
+    "id": "s_14028839",
+    "it": "Qualsiasi posto è buono per dormire.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14028839",
     "translation_kind": "direct"
   },
   {
@@ -3949,6 +4448,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ad248917bf0a",
+    "author": "unforgiven95",
+    "cefr_estimate": "A1",
+    "es": "¿Cómo se abre esta puerta?",
+    "es_author": "samir_t",
+    "es_source_id": "13095293",
+    "id": "s_14084234",
+    "it": "Come si apre questa porta ?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14084234",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "9039e84eb8f2",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3998,6 +4510,19 @@
     "it": "Lui come si chiama?",
     "license": "CC BY 2.0 FR",
     "source_id": "1441832",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5363f168fe91",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El libro es pequeño.",
+    "es_author": "Leono",
+    "es_source_id": "627056",
+    "id": "s_1447156",
+    "it": "Il libro è piccolo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1447156",
     "translation_kind": "direct"
   },
   {
@@ -4114,6 +4639,19 @@
     "it": "I contadini coltivano la terra.",
     "license": "CC BY 2.0 FR",
     "source_id": "1475704",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d680115eadc6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Soy un tipo alegre y simpático.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1480768",
+    "id": "s_1480747",
+    "it": "Sono un tipo allegro e simpatico.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1480747",
     "translation_kind": "direct"
   },
   {
@@ -4363,6 +4901,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "76e3e90e7170",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Puede traerme la cuenta, por favor?",
+    "es_author": "IA (Claude)",
+    "id": "s_1514800",
+    "it": "Può portarmi il conto, per piacere?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1514800",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "22630a9113ca",
     "author": "marco87",
     "cefr_estimate": "A1",
@@ -4467,6 +5017,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "48cb72d30038",
+    "author": "Shadd",
+    "cefr_estimate": "A1",
+    "es": "Mi cuarto es muy pequeño.",
+    "es_author": "darinmex",
+    "es_source_id": "621855",
+    "id": "s_1517079",
+    "it": "La mia camera è molto piccola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1517079",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "fb36fc1a4c01",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4542,6 +5105,19 @@
     "it": "Tom ha tre fratelli.",
     "license": "CC BY 2.0 FR",
     "source_id": "1535842",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d9474c450740",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Soy un escritor japonés.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1711134",
+    "id": "s_1536305",
+    "it": "Sono uno scrittore giapponese.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1536305",
     "translation_kind": "direct"
   },
   {
@@ -4674,6 +5250,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "0cb0eaa12d43",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El cielo está gris.",
+    "es_author": "Adelpa",
+    "es_source_id": "11928157",
+    "id": "s_1559380",
+    "it": "Il cielo è grigio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1559380",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "6e584bb613d9",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4788,6 +5377,19 @@
     "it": "Io ho due occhi.",
     "license": "CC BY 2.0 FR",
     "source_id": "1577912",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "cb97d4386aea",
+    "author": "viorayli",
+    "cefr_estimate": "A1",
+    "es": "Esta verdura no sabe a nada.",
+    "es_author": "wallebot",
+    "es_source_id": "1583429",
+    "id": "s_1583717",
+    "it": "Questa verdura non sa di niente.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1583717",
     "translation_kind": "direct"
   },
   {
@@ -5009,6 +5611,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1656354",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "441acfed4c9b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Disculpe. ¿Esta es la farmacia?",
+    "es_author": "IA (Claude)",
+    "id": "s_1659499",
+    "it": "Mi scusi. Questa è la farmacia?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1659499",
+    "translation_kind": "llm"
   },
   {
     "audio": "83ff403bdea4",
@@ -5245,6 +5859,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "12af4a3b5961",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A1",
+    "es": "Esta mesa es pesada.",
+    "es_author": "lukaszpp",
+    "es_source_id": "464217",
+    "id": "s_1701553",
+    "it": "Questo tavolo è pesante.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1701553",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5d3378cfc7c4",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A1",
+    "es": "Este televisor es pesado.",
+    "es_author": "lukaszpp",
+    "es_source_id": "464221",
+    "id": "s_1701554",
+    "it": "Questo televisore è pesante.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1701554",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "57ebdc734839",
     "author": "alexmarcelo",
     "cefr_estimate": "A1",
@@ -5347,6 +5987,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1708380",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "ff092aba3abc",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A1",
+    "es": "Disculpe, ¿dónde están los huevos?",
+    "es_author": "IA (Claude)",
+    "id": "s_1711122",
+    "it": "Scusi, dove sono le uova?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1711122",
+    "translation_kind": "llm"
   },
   {
     "audio": "76d200850f6c",
@@ -5765,6 +6417,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a04d04f16faa",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo quiero ir a la luna.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1256140",
+    "id": "s_1926328",
+    "it": "Voglio andare sulla luna.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1926328",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f308e39c58e7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -5840,6 +6505,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1972112",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "5e3b2457f593",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El perro se llama Ken.",
+    "es_author": "IA (Claude)",
+    "id": "s_1979229",
+    "it": "Il cane si chiama Ken.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1979229",
+    "translation_kind": "llm"
   },
   {
     "audio": "f378425e2940",
@@ -5995,6 +6672,19 @@
     "it": "Tom è troppo giovane.",
     "license": "CC BY 2.0 FR",
     "source_id": "2009106",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3742b5951066",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Necesito una aspirina.",
+    "es_author": "Shishir",
+    "es_source_id": "9706578",
+    "id": "s_2010436",
+    "it": "Ho bisogno di un'aspirina.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2010436",
     "translation_kind": "direct"
   },
   {
@@ -6267,6 +6957,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e00717424119",
+    "author": "AYDYL84",
+    "cefr_estimate": "A1",
+    "es": "Esta calle es animada.",
+    "es_author": "driews",
+    "es_source_id": "2029560",
+    "id": "s_2029567",
+    "it": "Questa strada è animata.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2029567",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "251f7673b79c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -6315,6 +7018,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2052027",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "39380df30b3d",
+    "author": "hitori37",
+    "cefr_estimate": "A1",
+    "es": "Casi no tengo dinero ahora.",
+    "es_author": "IA (Claude)",
+    "id": "s_2058854",
+    "it": "Sono quasi senza soldi ora.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2058854",
+    "translation_kind": "llm"
   },
   {
     "audio": "bc4370eb55a5",
@@ -6510,6 +7225,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b6f10509dc75",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Necesitan el dinero.",
+    "es_author": "IA (Claude)",
+    "id": "s_2178296",
+    "it": "Hanno bisogno dei soldi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2178296",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "1cd95351a0a6",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -6613,6 +7340,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b2baa67f958b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Están bebiendo té verde?",
+    "es_author": "IA (Claude)",
+    "id": "s_2224612",
+    "it": "State bevendo del tè verde?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2224612",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "42e9847e15db",
     "author": "hitori37",
     "cefr_estimate": "A1",
@@ -6624,6 +7363,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2256837",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "298242ead9ff",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Entiendo cómo te sientes.",
+    "es_author": "IA (Claude)",
+    "id": "s_2259841",
+    "it": "Io capisco come ti senti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2259841",
+    "translation_kind": "llm"
   },
   {
     "audio": "7379ed7038a4",
@@ -6756,6 +7507,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e502eb894096",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El cielo es azul.",
+    "es_author": "Shishir",
+    "es_source_id": "539388",
+    "id": "s_2384302",
+    "it": "Il cielo è azzurro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2384302",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "7c9b7a82654f",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -6806,6 +7570,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2411939",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "cbe1f0e736cb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El mapa está en la pared.",
+    "es_author": "IA (Claude)",
+    "id": "s_2422698",
+    "it": "La mappa è sul muro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2422698",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "3756ce819989",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "A las mujeres les gusta el té.",
+    "es_author": "IA (Claude)",
+    "id": "s_2422721",
+    "it": "Alle donne piace il tè.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2422721",
+    "translation_kind": "llm"
   },
   {
     "audio": "d36e1e3d1b81",
@@ -7298,6 +8086,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1a38f172f3a8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El sol está a punto de ponerse.",
+    "es_author": "tatoerique",
+    "es_source_id": "343803",
+    "id": "s_2577353",
+    "it": "Il sole sta per tramontare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2577353",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "b649c6572a6c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7309,6 +8110,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2578620",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "bc6d2ea7bbe5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo me llamo Sara.",
+    "es_author": "IA (Claude)",
+    "id": "s_2579471",
+    "it": "Io mi chiamo Sara.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2579471",
+    "translation_kind": "llm"
   },
   {
     "audio": "d039f0d0d7b0",
@@ -7334,6 +8147,19 @@
     "it": "Lo sai che sei bella?",
     "license": "CC BY 2.0 FR",
     "source_id": "2603600",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c63c23e5f84d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom es extranjero.",
+    "es_author": "hayastan",
+    "es_source_id": "2385288",
+    "id": "s_2611712",
+    "it": "Tom è uno straniero.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2611712",
     "translation_kind": "direct"
   },
   {
@@ -7372,6 +8198,19 @@
     "it": "Tom ha tre anni adesso.",
     "license": "CC BY 2.0 FR",
     "source_id": "2620039",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "f14fba8ab70f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom es muy viejo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1284308",
+    "id": "s_2620386",
+    "it": "Tom è molto vecchio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2620386",
     "translation_kind": "direct"
   },
   {
@@ -7527,6 +8366,42 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "5f84382b8532",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo me llamo John.",
+    "es_author": "IA (Claude)",
+    "id": "s_2695312",
+    "it": "Io mi chiamo John.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2695312",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "82af2d7d23e9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo me llamo Shu.",
+    "es_author": "IA (Claude)",
+    "id": "s_2695325",
+    "it": "Io mi chiamo Shu.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2695325",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6aa9b6c706f1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo me llamo Laurie.",
+    "es_author": "IA (Claude)",
+    "id": "s_2695370",
+    "it": "Io mi chiamo Laurie.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2695370",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "de3bbe9726f7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7562,6 +8437,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2696820",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "9c0e50aec166",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Este té se llama té verde.",
+    "es_author": "IA (Claude)",
+    "id": "s_2696930",
+    "it": "Questo tè si chiama tè verde.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2696930",
+    "translation_kind": "llm"
   },
   {
     "audio": "ff0ba9565e06",
@@ -7740,6 +8627,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "2610c0227aec",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me siento bien, gracias.",
+    "es_author": "IA (Claude)",
+    "id": "s_2720978",
+    "it": "Mi sento bene, grazie.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2720978",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "7cd6d9c68838",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7869,6 +8768,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "cc80cd41510a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo no quiero el dinero.",
+    "es_author": "IA (Claude)",
+    "id": "s_2762214",
+    "it": "Io non voglio i soldi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2762214",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "9171b3fe9ced",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7984,6 +8895,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1133b7840bc6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Necesito una amiga sincera.",
+    "es_author": "halime",
+    "es_source_id": "2800246",
+    "id": "s_2799828",
+    "it": "Ho bisogno di un'amica sincera.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2799828",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "9ce96b387f52",
     "author": "carlosalberto",
     "cefr_estimate": "A1",
@@ -7995,6 +8919,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2804011",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "a364473d17f5",
+    "author": "alesimpa",
+    "cefr_estimate": "A1",
+    "es": "Me gusta cómo te vistes.",
+    "es_author": "IA (Claude)",
+    "id": "s_2807913",
+    "it": "Mi piace come ti vesti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2807913",
+    "translation_kind": "llm"
   },
   {
     "audio": "bfe3a65a99b6",
@@ -8138,6 +9074,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "10862cbd3081",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Debes mantener limpios tus zapatos.",
+    "es_author": "IA (Claude)",
+    "id": "s_2830534",
+    "it": "Devi tenerti pulite le scarpe.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2830534",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "eabecc0c977e",
     "author": "hitori37",
     "cefr_estimate": "A1",
@@ -8161,6 +9109,19 @@
     "it": "Il fuoco è spento.",
     "license": "CC BY 2.0 FR",
     "source_id": "2838597",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "de0e06fa41d3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom tiene un yate privado.",
+    "es_author": "Shishir",
+    "es_source_id": "1983560",
+    "id": "s_2838867",
+    "it": "Tom ha uno yacht privato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2838867",
     "translation_kind": "direct"
   },
   {
@@ -8227,6 +9188,42 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2851742",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "14018ede95e6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Buenos días. ¿Cómo estás hoy?",
+    "es_author": "IA (Claude)",
+    "id": "s_2856758",
+    "it": "Buongiorno. Come stai oggi?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2856758",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "05ad95273df5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Buenos días. ¿Cómo está hoy?",
+    "es_author": "IA (Claude)",
+    "id": "s_2856759",
+    "it": "Buongiorno. Come sta oggi?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2856759",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "f997db4f538e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Buenos días. ¿Cómo están hoy?",
+    "es_author": "IA (Claude)",
+    "id": "s_2856760",
+    "it": "Buongiorno. Come state oggi?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2856760",
+    "translation_kind": "llm"
   },
   {
     "audio": "bec7ed693813",
@@ -8501,6 +9498,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "543301bb3ec2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Él tiene algo de dinero.",
+    "es_author": "IA (Claude)",
+    "id": "s_2928265",
+    "it": "Lui ha un po' di soldi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2928265",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "2732fa4eb5e5",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8592,6 +9601,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "f948aaec7ae3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Cómo se llama tu mamá?",
+    "es_author": "IA (Claude)",
+    "id": "s_2975129",
+    "it": "Come si chiama tua madre?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2975129",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "feaed3fbd56d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8615,6 +9636,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2975132",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "da0e8932d21c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Cómo se llama su padre?",
+    "es_author": "IA (Claude)",
+    "id": "s_2975133",
+    "it": "Come si chiama suo padre?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2975133",
+    "translation_kind": "llm"
   },
   {
     "audio": "5172ab92ca50",
@@ -8641,6 +9674,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2977327",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "2eeb0a893b62",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame la cuenta, por favor.",
+    "es_author": "IA (Claude)",
+    "id": "s_2995432",
+    "it": "Dammi il conto, per piacere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2995432",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b89df7602c90",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me lavo las manos.",
+    "es_author": "IA (Claude)",
+    "id": "s_2997676",
+    "it": "Io mi lavo le mani.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2997676",
+    "translation_kind": "llm"
   },
   {
     "audio": "bfc2ed5332e6",
@@ -8769,6 +9826,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "794e37ddbd11",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Disculpe. ¿Dónde están los huevos?",
+    "es_author": "IA (Claude)",
+    "id": "s_3101862",
+    "it": "Mi scusi. Dove sono le uova?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3101862",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "eb1389b36d9d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8806,6 +9875,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3112095",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "2a1f5e953667",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Disculpa, ¿dónde está el baño?",
+    "es_author": "IA (Claude)",
+    "id": "s_3122315",
+    "it": "Scusa, dov'è il bagno?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3122315",
+    "translation_kind": "llm"
   },
   {
     "audio": "1064cd9bfc59",
@@ -9028,6 +10109,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2d434697ab06",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "Juan es alumno.",
+    "es_author": "carlosalberto",
+    "es_source_id": "3235346",
+    "id": "s_3235351",
+    "it": "Juan è uno studente.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3235351",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "387acc688dff",
     "author": "carlosalberto",
     "cefr_estimate": "A1",
@@ -9206,6 +10300,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "50fd2d170ef2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Normalmente me despierto a las seis.",
+    "es_author": "IA (Claude)",
+    "id": "s_3301505",
+    "it": "Io solitamente mi sveglio alle sei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3301505",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "249257873770",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9357,6 +10463,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1a3a9d29115c",
+    "author": "Ricardo14",
+    "cefr_estimate": "A1",
+    "es": "Es una buena iniciativa.",
+    "es_author": "Ricardo14",
+    "es_source_id": "3338076",
+    "id": "s_3338077",
+    "it": "È una buona iniziativa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3338077",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "af9645e74958",
     "author": "Ricardo14",
     "cefr_estimate": "A1",
@@ -9418,6 +10537,18 @@
     "it": "Quante volte fai la doccia?",
     "license": "CC BY 2.0 FR",
     "source_id": "3356874",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "4ee88adf81bc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Normalmente me levanto a las ocho.",
+    "es_author": "IA (Claude)",
+    "id": "s_3359105",
+    "it": "Io solitamente mi alzo alle otto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3359105",
     "translation_kind": "llm"
   },
   {
@@ -9693,6 +10824,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c6236e0e833a",
+    "author": "allenmanbear",
+    "cefr_estimate": "A1",
+    "es": "¿Tienes ganas de ir a esquiar?",
+    "es_author": "IA (Claude)",
+    "id": "s_3444074",
+    "it": "Ti senti di andare a sciare?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3444074",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "3eb397a36563",
     "author": "davzog",
     "cefr_estimate": "A1",
@@ -9901,6 +11044,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4546b33733c0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Él se llama Tom, no John.",
+    "es_author": "IA (Claude)",
+    "id": "s_3511546",
+    "it": "Lui si chiama Tom, non John.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3511546",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "411742a10ff8",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9952,6 +11107,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "59a7efa08ce3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me lavo el pelo todos los días.",
+    "es_author": "IA (Claude)",
+    "id": "s_3538187",
+    "it": "Mi lavo i capelli ogni giorno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3538187",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "f45820cc1a88",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9962,6 +11129,19 @@
     "it": "Questa è solo acqua.",
     "license": "CC BY 2.0 FR",
     "source_id": "3538797",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "658e5087abba",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Es demasiado pronto para decidir.",
+    "es_author": "saverius",
+    "es_source_id": "10805245",
+    "id": "s_3550187",
+    "it": "È troppo presto per decidere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3550187",
     "translation_kind": "direct"
   },
   {
@@ -10028,6 +11208,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9067458a9fad",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Está bebiendo jugo de manzana.",
+    "es_author": "IA (Claude)",
+    "id": "s_3569837",
+    "it": "Sta bevendo del succo di mela.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3569837",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "70c2c767e561",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -10064,6 +11256,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3589270",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "f966fa494a49",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿A qué hora te levantas?",
+    "es_author": "IA (Claude)",
+    "id": "s_3589966",
+    "it": "A che ora ti alzi?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3589966",
+    "translation_kind": "llm"
   },
   {
     "audio": "a77e9c22d5bb",
@@ -10359,6 +11563,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3676865",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "e94ea9d80ffb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Odio la leche.",
+    "es_author": "IA (Claude)",
+    "id": "s_3681983",
+    "it": "Io odio il latte.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3681983",
+    "translation_kind": "llm"
   },
   {
     "audio": "35f1ebbf4b55",
@@ -10933,6 +12149,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "75cb1b8d8e61",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella siempre es muy educada.",
+    "es_author": "Ricardo14",
+    "es_source_id": "8427228",
+    "id": "s_3758699",
+    "it": "È sempre molto educata.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3758699",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d95218d29cd4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Siempre dice lo mismo.",
+    "es_author": "darinmex",
+    "es_source_id": "652393",
+    "id": "s_3758947",
+    "it": "Dice sempre la stessa cosa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3758947",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "e5b1e9e4d011",
     "author": "martin",
     "cefr_estimate": "A1",
@@ -10998,6 +12240,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "62d977b5627a",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "¿Puedo tener esta naranja?",
+    "es_author": "qweruiop",
+    "es_source_id": "1070567",
+    "id": "s_376641",
+    "it": "Posso avere questa arancia?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "376641",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3bbb6a215dc3",
     "author": "valealb",
     "cefr_estimate": "A1",
@@ -11008,6 +12263,19 @@
     "it": "Questo dizionario mi è molto utile.",
     "license": "CC BY 2.0 FR",
     "source_id": "3770482",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "f9b0d1625c92",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "No nos gusta la lluvia.",
+    "es_author": "hayastan",
+    "es_source_id": "1409837",
+    "id": "s_377100",
+    "it": "Non ci piace la pioggia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "377100",
     "translation_kind": "direct"
   },
   {
@@ -11113,6 +12381,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3776429",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "4790ff988f58",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Disculpe, ¿dónde está la playa?",
+    "es_author": "IA (Claude)",
+    "id": "s_3778384",
+    "it": "Scusi, dove si trova la spiaggia?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3778384",
+    "translation_kind": "llm"
   },
   {
     "audio": "77ba96deb9c9",
@@ -11425,6 +12705,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "32afc1ffff42",
+    "author": "Johnny2014",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde puedo encontrar un quiosco?",
+    "es_author": "emigonza",
+    "es_source_id": "4622850",
+    "id": "s_3814626",
+    "it": "Dove posso trovare un'edicola?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3814626",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "55752d164749",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -11591,6 +12884,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3836485",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "f7e92ec01639",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Quiero el dinero de Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_3838494",
+    "it": "Voglio i soldi di Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3838494",
+    "translation_kind": "llm"
   },
   {
     "audio": "8a315200da49",
@@ -11787,6 +13092,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ffa2e7e3576f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Una vaca tiene la cola larga.",
+    "es_author": "don_ramon",
+    "es_source_id": "5019879",
+    "id": "s_3866688",
+    "it": "Una mucca ha la coda lunga.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3866688",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "9cd6bbec3b65",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11903,6 +13221,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9e834105dd72",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "¿Tienen experiencia profesional?",
+    "es_author": "hayastan",
+    "es_source_id": "388793",
+    "id": "s_388788",
+    "it": "Avete un'esperienza professionale?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "388788",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ba1d02775a40",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -11929,6 +13260,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "831820f3b84e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Mi papá riega las flores.",
+    "es_author": "IA (Claude)",
+    "id": "s_3891881",
+    "it": "Mio padre annaffia i fiori.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3891881",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "f5f6cb1c5e44",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11942,6 +13285,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "bc96d84401ce",
+    "author": "valealb",
+    "cefr_estimate": "A1",
+    "es": "Es una sombra.",
+    "es_author": "nancy",
+    "es_source_id": "1567339",
+    "id": "s_3892643",
+    "it": "Questa è un'ombra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3892643",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "e05e4d6505c7",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -11952,6 +13308,19 @@
     "it": "Ho bisogno di fare una doccia.",
     "license": "CC BY 2.0 FR",
     "source_id": "389490",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "06371f6dbae9",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Le gusta esta clase de música.",
+    "es_author": "Shishir",
+    "es_source_id": "1292035",
+    "id": "s_389496",
+    "it": "Gli piace questo genere di musica.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "389496",
     "translation_kind": "direct"
   },
   {
@@ -12135,6 +13504,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3966973",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "b5140345d9b1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No tenemos té.",
+    "es_author": "IA (Claude)",
+    "id": "s_3985008",
+    "it": "Noi non abbiamo tè.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3985008",
+    "translation_kind": "llm"
   },
   {
     "audio": "730b4b3dd05c",
@@ -12592,6 +13973,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "103be92b9c78",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Sabes amarrarte los zapatos?",
+    "es_author": "IA (Claude)",
+    "id": "s_4193182",
+    "it": "Sai allacciarti le scarpe?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4193182",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "68e763be1c5b",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -12615,6 +14008,19 @@
     "it": "Io non so niente.",
     "license": "CC BY 2.0 FR",
     "source_id": "4204662",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "cfc82b638a59",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom no sabe nada todavía.",
+    "es_author": "DarkHollow",
+    "es_source_id": "4289959",
+    "id": "s_4204688",
+    "it": "Tom non sa ancora nulla.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4204688",
     "translation_kind": "direct"
   },
   {
@@ -12825,6 +14231,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "3eef61a63ac9",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Tiene un coche extranjero.",
+    "es_author": "Shishir",
+    "es_source_id": "1196090",
+    "id": "s_427926",
+    "it": "Ha un'auto straniera.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "427926",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "edb38750bfcd",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -13004,6 +14423,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9a9cf650e53c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No sé cómo se llama.",
+    "es_author": "IA (Claude)",
+    "id": "s_4404219",
+    "it": "Io non so come si chiama.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4404219",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "021bf24804f2",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13080,6 +14511,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4434",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "3c17e348110b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Él se afeita a diario.",
+    "es_author": "IA (Claude)",
+    "id": "s_4434530",
+    "it": "Lui si rade quotidianamente.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4434530",
+    "translation_kind": "llm"
   },
   {
     "audio": "22f98091a54e",
@@ -13302,6 +14745,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "db59db74721f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde está tu corbata?",
+    "es_author": "Seael",
+    "es_source_id": "8014823",
+    "id": "s_4504229",
+    "it": "Dov'è la tua cravatta?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4504229",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "00de5c3532d2",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13432,6 +14888,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "45e29ce77064",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom siempre está en la cama.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4532124",
+    "id": "s_4532100",
+    "it": "Tom è sempre a letto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4532100",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "8091c16c9c8b",
     "author": "ianna",
     "cefr_estimate": "A1",
@@ -13534,6 +15003,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4577451",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "8291e322602f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me gusta la leche.",
+    "es_author": "IA (Claude)",
+    "id": "s_4581472",
+    "it": "A me piace il latte.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4581472",
+    "translation_kind": "llm"
   },
   {
     "audio": "94808e0812ad",
@@ -13715,6 +15196,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c223bad1e550",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde coloco estas cervezas?",
+    "es_author": "saverius",
+    "es_source_id": "4652804",
+    "id": "s_4652716",
+    "it": "Dove posso posizionare queste birre?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4652716",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "4f953594a553",
     "author": "madriot",
     "cefr_estimate": "A1",
@@ -13728,6 +15222,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "197cd1f048a2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me llamo Tom Jackson.",
+    "es_author": "IA (Claude)",
+    "id": "s_4682783",
+    "it": "Mi chiamo Tom Jackson.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4682783",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "55ac8018188c",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -13738,6 +15244,19 @@
     "it": "Ha nevicato tutta la notte.",
     "license": "CC BY 2.0 FR",
     "source_id": "4701",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "96bc982cee1b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El agua es importante.",
+    "es_author": "Shishir",
+    "es_source_id": "1143588",
+    "id": "s_4702679",
+    "it": "L'acqua è importante.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4702679",
     "translation_kind": "direct"
   },
   {
@@ -14062,6 +15581,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "e16b1b9c2214",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Se despierta a mediodía.",
+    "es_author": "IA (Claude)",
+    "id": "s_4967055",
+    "it": "Si sveglia a mezzogiorno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4967055",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "90b8f1e93420",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Él se despierta a mediodía.",
+    "es_author": "IA (Claude)",
+    "id": "s_4967056",
+    "it": "Lui si sveglia a mezzogiorno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4967056",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "e68bd577a535",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -14231,6 +15774,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a5aa2a5b51c1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Disculpa, ¿dónde está el bar?",
+    "es_author": "IA (Claude)",
+    "id": "s_5094558",
+    "it": "Scusami, dov'è il bar?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5094558",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "f39521d27e3a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -14241,6 +15796,19 @@
     "it": "Siamo pronte per la cena.",
     "license": "CC BY 2.0 FR",
     "source_id": "5098701",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "fe6e6c3b25d1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Es blanco como la nieve.",
+    "es_author": "africanus",
+    "es_source_id": "1678795",
+    "id": "s_5099781",
+    "it": "È bianco come la neve.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5099781",
     "translation_kind": "direct"
   },
   {
@@ -14294,6 +15862,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "5119223",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "1130e63c29ce",
+    "author": "WM3DAS",
+    "cefr_estimate": "A1",
+    "es": "¿Cómo se llama su abogado?",
+    "es_author": "IA (Claude)",
+    "id": "s_5121170",
+    "it": "Come si chiama il vostro avvocato?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5121170",
+    "translation_kind": "llm"
   },
   {
     "audio": "bb4aee41323f",
@@ -14554,6 +16134,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4bb8af242bf8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿No te sientes tonta ahora?",
+    "es_author": "IA (Claude)",
+    "id": "s_5339179",
+    "it": "Non ti senti stupida ora?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5339179",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "db9182367478",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -14603,6 +16195,19 @@
     "it": "Lei vive a New York.",
     "license": "CC BY 2.0 FR",
     "source_id": "534944",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2e3d9ca4f8d8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El cliente no siempre tiene razón.",
+    "es_author": "Shishir",
+    "es_source_id": "6143973",
+    "id": "s_5364183",
+    "it": "Il cliente non ha sempre ragione.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5364183",
     "translation_kind": "direct"
   },
   {
@@ -14710,6 +16315,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c34874a10ac4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿El té negro es saludable?",
+    "es_author": "IA (Claude)",
+    "id": "s_5432331",
+    "it": "Il tè nero è salutare?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5432331",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "6806e35cd9ae",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -14721,6 +16338,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "544917",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "79eac90f8d9b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Esto es una cuchara.",
+    "es_author": "IA (Claude)",
+    "id": "s_5467296",
+    "it": "Questo è un cucchiaio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5467296",
+    "translation_kind": "llm"
   },
   {
     "audio": "487b9eac275f",
@@ -14787,6 +16416,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "efb5d8fa58c2",
+    "author": "dnnywld",
+    "cefr_estimate": "A1",
+    "es": "No eres tan vieja.",
+    "es_author": "mramosch",
+    "es_source_id": "8859797",
+    "id": "s_5508654",
+    "it": "Non sei così vecchia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5508654",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "9c85fbb144a0",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -14849,6 +16491,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7873b8efbb4b",
+    "author": "dnnywld",
+    "cefr_estimate": "A1",
+    "es": "¿Tienes una idea mejor?",
+    "es_author": "Shishir",
+    "es_source_id": "1322005",
+    "id": "s_5570948",
+    "it": "Hai un'idea migliore?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5570948",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "dc3a24d7b7d6",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -14873,6 +16528,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "559605",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "8874cb566e53",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Disculpe, ¿está libre aquí?",
+    "es_author": "IA (Claude)",
+    "id": "s_559619",
+    "it": "Scusi, è libero qui?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "559619",
+    "translation_kind": "llm"
   },
   {
     "audio": "7fe85e148a7f",
@@ -15003,6 +16670,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "42336f1bab52",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "El café está malo.",
+    "es_author": "Shishir",
+    "es_source_id": "568767",
+    "id": "s_569349",
+    "it": "Il caffè è cattivo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "569349",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "9078e694d0f7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -15077,6 +16757,19 @@
     "it": "Il suo ragazzo è turco.",
     "license": "CC BY 2.0 FR",
     "source_id": "571371",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "31dc4c3b44e3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Es un libro nuevo.",
+    "es_author": "Shishir",
+    "es_source_id": "871146",
+    "id": "s_5766040",
+    "it": "È un libro nuovo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5766040",
     "translation_kind": "direct"
   },
   {
@@ -15170,6 +16863,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "74f9666c8fc6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Por qué Tom siempre está aquí?",
+    "es_author": "cueyayotl",
+    "es_source_id": "8618271",
+    "id": "s_5836027",
+    "it": "Perché Tom è sempre qui?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5836027",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "855a819af47a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -15244,6 +16950,19 @@
     "it": "Un computer è molto utile.",
     "license": "CC BY 2.0 FR",
     "source_id": "5973709",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "18a7f15e1967",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Debo hablar con ellos ahora.",
+    "es_author": "saverius",
+    "es_source_id": "11800908",
+    "id": "s_5985015",
+    "it": "Devo parlare con loro adesso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5985015",
     "translation_kind": "direct"
   },
   {
@@ -15724,6 +17443,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "40cf076df57c",
+    "author": "Eldad",
+    "cefr_estimate": "A1",
+    "es": "Él no es tan alto.",
+    "es_author": "darinmex",
+    "es_source_id": "711463",
+    "id": "s_627199",
+    "it": "Lui non è tanto alto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "627199",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ba68c892a8f5",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -15747,6 +17479,19 @@
     "it": "L'ascensore è fuori servizio oggi.",
     "license": "CC BY 2.0 FR",
     "source_id": "630472",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2829f91cdb65",
+    "author": "rado",
+    "cefr_estimate": "A1",
+    "es": "Esta idea no me gusta.",
+    "es_author": "hayastan",
+    "es_source_id": "949183",
+    "id": "s_631020",
+    "it": "Questa idea non mi piace.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "631020",
     "translation_kind": "direct"
   },
   {
@@ -15800,6 +17545,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "632849",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "521405e707c7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Te interesan las flores?",
+    "es_author": "IA (Claude)",
+    "id": "s_632992",
+    "it": "Ti interessano i fiori?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "632992",
+    "translation_kind": "llm"
   },
   {
     "audio": "14f76f915653",
@@ -15928,6 +17685,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "6444792",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "2d60fddf0640",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Por qué siempre está somnolienta?",
+    "es_author": "saverius",
+    "es_source_id": "10805133",
+    "id": "s_6451514",
+    "it": "Perché è sempre così assonnata?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6451514",
+    "translation_kind": "direct"
   },
   {
     "audio": "faf6270315ec",
@@ -16096,6 +17866,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "6585533",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "08c344940484",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡Hola, John! ¿Cómo estás?",
+    "es_author": "IA (Claude)",
+    "id": "s_6598255",
+    "it": "Ciao, John! Come stai?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6598255",
+    "translation_kind": "llm"
   },
   {
     "audio": "237253e88fbc",
@@ -16293,6 +18075,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "890c0b87bcdd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tengo un tío rico.",
+    "es_author": "manufrutos",
+    "es_source_id": "9963596",
+    "id": "s_6668447",
+    "it": "Ho uno zio ricco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6668447",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "53fc2b397b0d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -16370,6 +18165,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9db477604430",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo no me preocupo por Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_6765107",
+    "it": "Io non mi preoccupo per Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6765107",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "c5936fc87aee",
     "author": "dnnywld",
     "cefr_estimate": "A1",
@@ -16420,6 +18227,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "6841342",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "6c71510f6740",
+    "author": "dnnywld",
+    "cefr_estimate": "A1",
+    "es": "Es inútil pedirme dinero.",
+    "es_author": "IA (Claude)",
+    "id": "s_6872057",
+    "it": "È inutile chiedermi soldi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6872057",
+    "translation_kind": "llm"
   },
   {
     "audio": "2a52da355d41",
@@ -16707,6 +18526,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1d328bd3c698",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡Ya eres mi esposa!",
+    "es_author": "cueyayotl",
+    "es_source_id": "6992414",
+    "id": "s_7037742",
+    "it": "Tu sei già mia moglie!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7037742",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d478ee884721",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -16743,6 +18575,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "7050017",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "3874475594b1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Hay una cuchara.",
+    "es_author": "IA (Claude)",
+    "id": "s_7061114",
+    "it": "C'è un cucchiaio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7061114",
+    "translation_kind": "llm"
   },
   {
     "audio": "941acd995526",
@@ -16848,6 +18692,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "73bdd9715def",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Preparar las clases no es difícil.",
+    "es_author": "arh",
+    "es_source_id": "7135957",
+    "id": "s_7116132",
+    "it": "Preparare delle lezioni non è difficile.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7116132",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "5134ec9a3603",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -16870,6 +18727,18 @@
     "it": "Tom sa che Mary ama John.",
     "license": "CC BY 2.0 FR",
     "source_id": "7129294",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d525c0fe3c15",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Por favor, muéstreme el menú.",
+    "es_author": "IA (Claude)",
+    "id": "s_713922",
+    "it": "Per favore, mi mostri il menù.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "713922",
     "translation_kind": "llm"
   },
   {
@@ -16961,6 +18830,19 @@
     "it": "Preferisco la storia alla geografia.",
     "license": "CC BY 2.0 FR",
     "source_id": "714573",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c5ff26bf2ac6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Esa es una información útil.",
+    "es_author": "nancy",
+    "es_source_id": "1584132",
+    "id": "s_715181",
+    "it": "Quella è un'informazione utile.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "715181",
     "translation_kind": "direct"
   },
   {
@@ -17091,6 +18973,19 @@
     "it": "Gli italiani non bevono mai caffè.",
     "license": "CC BY 2.0 FR",
     "source_id": "719226",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "468037db6b97",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Los italianos siempre comen espagueti.",
+    "es_author": "ramonj",
+    "es_source_id": "2652499",
+    "id": "s_719251",
+    "it": "Gli italiani mangiano sempre spaghetti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "719251",
     "translation_kind": "direct"
   },
   {
@@ -17455,6 +19350,19 @@
     "it": "Io devo studiare l'italiano.",
     "license": "CC BY 2.0 FR",
     "source_id": "7568042",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d8b88397e7c7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Un avestruz no vuela.",
+    "es_author": "hayastan",
+    "es_source_id": "1533121",
+    "id": "s_757569",
+    "it": "Uno struzzo non vola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "757569",
     "translation_kind": "direct"
   },
   {
@@ -18011,6 +19919,31 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "515c59009b4c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Cómo se llama esa estación?",
+    "es_author": "IA (Claude)",
+    "id": "s_7831484",
+    "it": "Come si chiama quella stazione?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7831484",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "4d2576d639bc",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Sé quién vive en esta casa.",
+    "es_author": "Shishir",
+    "es_source_id": "998361",
+    "id": "s_791143",
+    "it": "So chi abita in questa casa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "791143",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3077acf1b052",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -18034,6 +19967,19 @@
     "it": "Questa è la bicicletta di Mike.",
     "license": "CC BY 2.0 FR",
     "source_id": "791339",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "6e98907102ff",
+    "author": "ciampix",
+    "cefr_estimate": "A1",
+    "es": "No hay hombres en la luna.",
+    "es_author": "cueyayotl",
+    "es_source_id": "8630160",
+    "id": "s_7924239",
+    "it": "Non ci sono uomini sulla luna.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7924239",
     "translation_kind": "direct"
   },
   {
@@ -18112,6 +20058,19 @@
     "it": "I fiori sono gialli.",
     "license": "CC BY 2.0 FR",
     "source_id": "801713",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b241978c66fd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El vestido es verde.",
+    "es_author": "Shishir",
+    "es_source_id": "909258",
+    "id": "s_801727",
+    "it": "Il vestito è verde.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "801727",
     "translation_kind": "direct"
   },
   {
@@ -18203,6 +20162,19 @@
     "it": "Io ho bisogno di più caffeina.",
     "license": "CC BY 2.0 FR",
     "source_id": "8037532",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e15f3a7bcffc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Esta silla es demasiado pequeña.",
+    "es_author": "lukaszpp",
+    "es_source_id": "463271",
+    "id": "s_806717",
+    "it": "Questa sedia è troppo piccola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "806717",
     "translation_kind": "direct"
   },
   {
@@ -18489,6 +20461,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "d3fc06ba5856",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿No te sientes humillada?",
+    "es_author": "IA (Claude)",
+    "id": "s_8672405",
+    "it": "Non ti senti umiliata?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8672405",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "3f91164b84c1",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -18499,6 +20483,19 @@
     "it": "A me piacciono gli uomini muscolosi.",
     "license": "CC BY 2.0 FR",
     "source_id": "8677638",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "971beb95abb7",
+    "author": "antilope",
+    "cefr_estimate": "A1",
+    "es": "Todos los días vuelvo a casa temprano.",
+    "es_author": "hundo",
+    "es_source_id": "957068",
+    "id": "s_868631",
+    "it": "Torno a casa presto ogni giorno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "868631",
     "translation_kind": "direct"
   },
   {
@@ -18683,6 +20680,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "6724baf9c61d",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "¿Cómo se llama este juego?",
+    "es_author": "IA (Claude)",
+    "id": "s_8887236",
+    "it": "Come si chiama questo gioco?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8887236",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "33f60f36aa8e",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -18707,6 +20716,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "893690",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "cea733043880",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "¿Cómo se llama tu profesor?",
+    "es_author": "IA (Claude)",
+    "id": "s_8939332",
+    "it": "Come si chiama il tuo maestro?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8939332",
+    "translation_kind": "llm"
   },
   {
     "audio": "8cc4309d4573",
@@ -18786,6 +20807,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4d6c1a403c4b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Cuál es el precio de esta?",
+    "es_author": "IA (Claude)",
+    "id": "s_904468",
+    "it": "Qual è il prezzo per questa?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "904468",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "2413757e244b",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "Hay un bar en el hotel.",
+    "es_author": "IA (Claude)",
+    "id": "s_9049223",
+    "it": "C'è un bar nell'hotel.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9049223",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "0ffa36964fdf",
     "author": "riccioberto",
     "cefr_estimate": "A1",
@@ -18808,6 +20853,18 @@
     "it": "Mio nonno possiede una bottega.",
     "license": "CC BY 2.0 FR",
     "source_id": "9058944",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "3d9c7efe7590",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Buenos días, ¿cómo puedo ayudarle?",
+    "es_author": "IA (Claude)",
+    "id": "s_911128",
+    "it": "Buongiorno, come posso aiutarla?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "911128",
     "translation_kind": "llm"
   },
   {
@@ -19289,6 +21346,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "dba08e2967e3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Es un historiador.",
+    "es_author": "Shishir",
+    "es_source_id": "2079581",
+    "id": "s_976858",
+    "it": "Lui è uno storico.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "976858",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "6425f00187e4",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "Nadie posee la luna.",
+    "es_author": "sarostegui",
+    "es_source_id": "888573",
+    "id": "s_976998",
+    "it": "Nessuno possiede la luna.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "976998",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "b00e40cc74af",
     "author": "riccioberto",
     "cefr_estimate": "A1",
@@ -19338,6 +21421,19 @@
     "it": "Chi vuole della cioccolata calda?",
     "license": "CC BY 2.0 FR",
     "source_id": "978795",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "56cc0cdb64bd",
+    "author": "hundo",
+    "cefr_estimate": "A1",
+    "es": "¿Tienes cosas que hacer esta noche?",
+    "es_author": "hundo",
+    "es_source_id": "980369",
+    "id": "s_980362",
+    "it": "Hai degli impegni per questa sera?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "980362",
     "translation_kind": "direct"
   },
   {
@@ -19623,6 +21719,19 @@
     "it": "Lo scandalo ha rovinato la sua carriera.",
     "license": "CC BY 2.0 FR",
     "source_id": "1017047",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5e305a41cebb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El tren atravesó un túnel.",
+    "es_author": "Shishir",
+    "es_source_id": "754060",
+    "id": "s_1019321",
+    "it": "Il treno ha attraversato un tunnel.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1019321",
     "translation_kind": "direct"
   },
   {
@@ -19937,6 +22046,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "1d154091985b",
+    "author": "Shishir",
+    "cefr_estimate": "A2",
+    "es": "¿Escuchaste su mensaje?",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1172456",
+    "id": "s_1177979",
+    "it": "Hai ascoltato il suo messaggio?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1177979",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "91f18ad898b8",
     "author": "Nuel",
     "cefr_estimate": "A2",
@@ -20041,6 +22163,31 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1766451eeeff",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom besó a Mary.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1284311",
+    "id": "s_1257883",
+    "it": "Tom ha baciato Mary.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1257883",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "93595d01ea7e",
+    "author": "glossboss",
+    "cefr_estimate": "A2",
+    "es": "Son las cuatro y media de la mañana.",
+    "es_author": "IA (Claude)",
+    "id": "s_12656127",
+    "it": "Sono le quattro e mezza del mattino.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12656127",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "2e4114a19593",
     "author": "glossboss",
     "cefr_estimate": "A2",
@@ -20132,6 +22279,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a35e87798efa",
+    "author": "Adelpa",
+    "cefr_estimate": "A2",
+    "es": "Laura no ha dormido.",
+    "es_author": "Adelpa",
+    "es_source_id": "13143577",
+    "id": "s_13143580",
+    "it": "Laura non ha dormito.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13143580",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f5a3d91bf59a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -20141,6 +22301,18 @@
     "it": "La scuola inizia alle otto e mezza.",
     "license": "CC BY 2.0 FR",
     "source_id": "13156242",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "2c4c327da595",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La escuela empieza a las ocho y media.",
+    "es_author": "IA (Claude)",
+    "id": "s_13156244",
+    "it": "La scuola comincia alle otto e mezza.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13156244",
     "translation_kind": "llm"
   },
   {
@@ -20219,6 +22391,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "2b181d814ebf",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Hace demasiado calor y estoy muy cansado.",
+    "es_author": "hayastan",
+    "es_source_id": "1339936",
+    "id": "s_1339879",
+    "it": "Fa troppo caldo e sono troppo stanco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1339879",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "99957145fc71",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -20271,6 +22456,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7808a2eb2184",
+    "author": "unforgiven95",
+    "cefr_estimate": "A2",
+    "es": "He entendido mi error.",
+    "es_author": "Shishir",
+    "es_source_id": "13913746",
+    "id": "s_13956341",
+    "it": "Ho capito il mio errore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13956341",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "1f1bceb8b460",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -20281,6 +22479,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "13995632",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "548e691ab0c4",
+    "author": "unforgiven95",
+    "cefr_estimate": "A2",
+    "es": "Mi móvil está en el bolsillo de mi pantalón.",
+    "es_author": "Shishir",
+    "es_source_id": "10762340",
+    "id": "s_14038352",
+    "it": "Il mio cellulare è nella tasca dei miei pantaloni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14038352",
+    "translation_kind": "direct"
   },
   {
     "audio": "673d80a1b7bf",
@@ -20345,6 +22556,19 @@
     "it": "La sua risposta era logica.",
     "license": "CC BY 2.0 FR",
     "source_id": "1482371",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "721e3278f331",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No encuentro mis guantes.",
+    "es_author": "hayastan",
+    "es_source_id": "1491471",
+    "id": "s_1491044",
+    "it": "Non riesco a trovare i miei guanti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1491044",
     "translation_kind": "direct"
   },
   {
@@ -20448,6 +22672,18 @@
     "it": "Sono le otto meno un quarto ora.",
     "license": "CC BY 2.0 FR",
     "source_id": "1611761",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b56d4036d6fd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Son las ocho menos cuarto ahora.",
+    "es_author": "IA (Claude)",
+    "id": "s_1611762",
+    "it": "Sono le otto meno un quarto adesso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1611762",
     "translation_kind": "llm"
   },
   {
@@ -20807,6 +23043,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "fa73bb1cf427",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Un hombre como yo necesita un sombrero.",
+    "es_author": "Shishir",
+    "es_source_id": "1082588",
+    "id": "s_2134732",
+    "it": "Un uomo come me ha bisogno di un cappello.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2134732",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "168246ca6822",
     "author": "Sirio60",
     "cefr_estimate": "A2",
@@ -20856,6 +23105,32 @@
     "it": "Questo mese ci sono stati due omicidi.",
     "license": "CC BY 2.0 FR",
     "source_id": "2198710",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c28edefe599c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ella evitó responder mis preguntas.",
+    "es_author": "hayastan",
+    "es_source_id": "1317453",
+    "id": "s_2218530",
+    "it": "Ha evitato di rispondere alle mie domande.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2218530",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "fae91626bf73",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Él es un científico respetado por todos.",
+    "es_author": "nancy",
+    "es_source_id": "2219670",
+    "id": "s_2218537",
+    "it": "Lui è uno scienziato rispettato da tutti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2218537",
     "translation_kind": "direct"
   },
   {
@@ -20998,6 +23273,19 @@
     "it": "Ci sono stati molti omicidi l'anno scorso.",
     "license": "CC BY 2.0 FR",
     "source_id": "2454976",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7156dfd3ca03",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Él me ayudó a mudarme.",
+    "es_author": "Shishir",
+    "es_source_id": "1328224",
+    "id": "s_2470929",
+    "it": "Lui mi ha aiutato a traslocare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2470929",
     "translation_kind": "direct"
   },
   {
@@ -21468,6 +23756,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ab5dab6946bb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo ceno a las siete y cuarto.",
+    "es_author": "IA (Claude)",
+    "id": "s_3663120",
+    "it": "Io ceno alle sette e un quarto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3663120",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b82fb0ab1ae6",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -21518,6 +23818,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "376708",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "fc07e7b82297",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No puedes irte a casa hasta las dos y media.",
+    "es_author": "IA (Claude)",
+    "id": "s_3768543",
+    "it": "Non puoi andare a casa fino alle due e mezza.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3768543",
+    "translation_kind": "llm"
   },
   {
     "audio": "6ed4f420cd41",
@@ -21660,6 +23972,31 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "8d734bf9867a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Mi cita es a las dos y media.",
+    "es_author": "IA (Claude)",
+    "id": "s_3834096",
+    "it": "Il mio appuntamento è alle due e mezza.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3834096",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a2c9ededf6b0",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Es rico, ¡no necesita dinero!",
+    "es_author": "Raimondi",
+    "es_source_id": "2967",
+    "id": "s_384499",
+    "it": "È ricco, non ha bisogno di soldi!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "384499",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "5a1aada62105",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -21670,6 +24007,19 @@
     "it": "Che cos'hai regalato a Mike per il suo compleanno?",
     "license": "CC BY 2.0 FR",
     "source_id": "384842",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "6b7482ff62df",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "¿Cuándo empezaste a aprender alemán?",
+    "es_author": "Shishir",
+    "es_source_id": "600217",
+    "id": "s_385851",
+    "it": "Quando hai cominciato a studiare tedesco?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "385851",
     "translation_kind": "direct"
   },
   {
@@ -21764,6 +24114,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b08ebbfac943",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "He comprado un reloj.",
+    "es_author": "Shishir",
+    "es_source_id": "992534",
+    "id": "s_395540",
+    "it": "Ho comprato un orologio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "395540",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "37cabd0f2d1e",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -21774,6 +24137,19 @@
     "it": "Dopo un'ora di macchina, siamo arrivati all'aeroporto.",
     "license": "CC BY 2.0 FR",
     "source_id": "398002",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "4ec04248c47c",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "El tifón no causó ningún daño.",
+    "es_author": "hayastan",
+    "es_source_id": "979064",
+    "id": "s_398121",
+    "it": "Il tifone non ha causato nessun danno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "398121",
     "translation_kind": "direct"
   },
   {
@@ -21851,6 +24227,32 @@
     "it": "Questa è la penna che ho perso ieri.",
     "license": "CC BY 2.0 FR",
     "source_id": "409847",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "15a0b53bb789",
+    "author": "shoras",
+    "cefr_estimate": "A2",
+    "es": "Me encontré con una chica norteamericana.",
+    "es_author": "tatoerique",
+    "es_source_id": "358685",
+    "id": "s_410216",
+    "it": "Ho incontrato una ragazza americana.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "410216",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c4d66d4980f3",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "No pude controlar mis lágrimas.",
+    "es_author": "Shishir",
+    "es_source_id": "718844",
+    "id": "s_410237",
+    "it": "Non ho potuto controllare le mie lacrime.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "410237",
     "translation_kind": "direct"
   },
   {
@@ -21971,6 +24373,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b898cbd6362d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El registro empieza a las dos y media.",
+    "es_author": "IA (Claude)",
+    "id": "s_4507467",
+    "it": "La registrazione comincia alle due e mezza.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4507467",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "78ec03e84717",
     "author": "Sirio60",
     "cefr_estimate": "A2",
@@ -22046,6 +24460,32 @@
     "it": "Non ho né il tempo né i soldi.",
     "license": "CC BY 2.0 FR",
     "source_id": "475635",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ebe744d1e0be",
+    "author": "ianna",
+    "cefr_estimate": "A2",
+    "es": "¿Te gusta dormir con el sonido de la lluvia?",
+    "es_author": "Shishir",
+    "es_source_id": "4991709",
+    "id": "s_4989469",
+    "it": "Ti piace dormire con il rumore della pioggia?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4989469",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "aedb4d7726e6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "He aprendido mucho de Tom.",
+    "es_author": "Shishir",
+    "es_source_id": "4991808",
+    "id": "s_4990905",
+    "it": "Ho imparato molto da Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4990905",
     "translation_kind": "direct"
   },
   {
@@ -22190,6 +24630,31 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "4d26117d3ec9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Él trató de aprender francés.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1600797",
+    "id": "s_5355899",
+    "it": "Lui ha provato a imparare il francese.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5355899",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "dbc7582de60d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ella tiene hasta las dos y media.",
+    "es_author": "IA (Claude)",
+    "id": "s_5533480",
+    "it": "Lei ha fino alle due e mezza.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5533480",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "a8053b623775",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -22225,6 +24690,19 @@
     "it": "Domani finalmente mia moglie viene in Italia!",
     "license": "CC BY 2.0 FR",
     "source_id": "5697264",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "8e14c9b72150",
+    "author": "ver",
+    "cefr_estimate": "A2",
+    "es": "Te mandé un e-mail.",
+    "es_author": "Shishir",
+    "es_source_id": "591727",
+    "id": "s_591720",
+    "it": "Ti ho mandato una e-mail.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "591720",
     "translation_kind": "direct"
   },
   {
@@ -22306,6 +24784,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "476638108f80",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La revolución ha traído muchos cambios.",
+    "es_author": "hayastan",
+    "es_source_id": "972521",
+    "id": "s_624592",
+    "it": "La rivoluzione ha portato molti cambiamenti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "624592",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "c48b70fba7d5",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -22316,6 +24807,19 @@
     "it": "Lei è molto più alta di me.",
     "license": "CC BY 2.0 FR",
     "source_id": "627271",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d2ce639dfb70",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "John acompañó a Mary al concierto.",
+    "es_author": "Shishir",
+    "es_source_id": "632664",
+    "id": "s_633471",
+    "it": "John ha accompagnato Mary al concerto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "633471",
     "translation_kind": "direct"
   },
   {
@@ -22371,6 +24875,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "6f60460c1142",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Alguien me ha robado el reloj.",
+    "es_author": "Shishir",
+    "es_source_id": "3222431",
+    "id": "s_6470087",
+    "it": "Qualcuno ha rubato il mio orologio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6470087",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "80cef126d123",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -22419,6 +24936,19 @@
     "it": "Di solito faccio la doccia la sera.",
     "license": "CC BY 2.0 FR",
     "source_id": "662388",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "81aca6563658",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "He comprado una corbata roja.",
+    "es_author": "cueyayotl",
+    "es_source_id": "3865848",
+    "id": "s_671054",
+    "it": "Ho comprato una cravatta rossa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "671054",
     "translation_kind": "direct"
   },
   {
@@ -22513,6 +25043,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7af1ad3746cc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El hielo del mar Ártico está desapareciendo.",
+    "es_author": "DJ_Saidez",
+    "es_source_id": "10325770",
+    "id": "s_713222",
+    "it": "Il ghiaccio nel mare artico sta scomparendo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "713222",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "95fc86fdbac3",
     "author": "Tore",
     "cefr_estimate": "A2",
@@ -22562,6 +25105,19 @@
     "it": "Abbiamo provato a fermare Tom.",
     "license": "CC BY 2.0 FR",
     "source_id": "7418888",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "992361eb0d1e",
+    "author": "Valdast",
+    "cefr_estimate": "A2",
+    "es": "Él quiere un reloj como el tuyo.",
+    "es_author": "darinmex",
+    "es_source_id": "781053",
+    "id": "s_7558833",
+    "it": "Lui vuole un orologio come il tuo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7558833",
     "translation_kind": "direct"
   },
   {
@@ -22721,6 +25277,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ccb55bbb8371",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El problema es que no tengo dinero encima.",
+    "es_author": "hayastan",
+    "es_source_id": "945466",
+    "id": "s_779767",
+    "it": "Il problema è che non ho soldi con me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "779767",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "8e81c702631d",
     "author": "Cocorico",
     "cefr_estimate": "A2",
@@ -22799,6 +25368,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "817b7469a513",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Él me llamó a medianoche.",
+    "es_author": "Shishir",
+    "es_source_id": "746510",
+    "id": "s_838753",
+    "it": "Mi ha telefonato a mezzanotte.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "838753",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "694865f63f4a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Él perdió el reloj de su padre.",
+    "es_author": "Shishir",
+    "es_source_id": "1282036",
+    "id": "s_841039",
+    "it": "Ha perso l'orologio di suo padre.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "841039",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3fa19882a917",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -22861,6 +25456,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "8797485",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "3a065d1487a6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me habló susurrando.",
+    "es_author": "Ardea",
+    "es_source_id": "2136570",
+    "id": "s_883315",
+    "it": "Mi ha parlato sussurrando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "883315",
+    "translation_kind": "direct"
   },
   {
     "audio": "b135d0c3a2a4",
@@ -23018,6 +25626,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "6033f6c9e207",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Sabes quién inventó el telégrafo?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1458259",
+    "id": "s_999181",
+    "it": "Sai chi ha inventato il telegrafo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "999181",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "a99265c1e24e",
     "author": "Guybrush88",
     "cefr_estimate": "B1",
@@ -23057,6 +25678,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b359e0986e1c",
+    "author": "leonardo",
+    "cefr_estimate": "B1",
+    "es": "Encontré un lugar donde se puede comprar verdura a buen precio.",
+    "es_author": "Viqui",
+    "es_source_id": "12023057",
+    "id": "s_1062232",
+    "it": "Ho trovato un posto dove si può comprare verdura a buon prezzo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1062232",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "54ed7ce8a261",
     "author": "Gloria7",
     "cefr_estimate": "B1",
@@ -23080,6 +25714,19 @@
     "it": "Siamo stati bloccati nell'ascensore per un'ora.",
     "license": "CC BY 2.0 FR",
     "source_id": "10819798",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "40c5ddb9ce11",
+    "author": "riccioberto",
+    "cefr_estimate": "B1",
+    "es": "Estamos acostumbrados a llevar zapatos.",
+    "es_author": "Shishir",
+    "es_source_id": "1281465",
+    "id": "s_1100207",
+    "it": "Siamo abituati ad indossare le scarpe.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1100207",
     "translation_kind": "direct"
   },
   {
@@ -23260,6 +25907,19 @@
     "it": "Ha lavorato senza pausa per mantenere i suoi figli fino a che si sono sposati.",
     "license": "CC BY 2.0 FR",
     "source_id": "2229973",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2b0aef351987",
+    "author": "JLGQ_",
+    "cefr_estimate": "B1",
+    "es": "El ganadero elabora mantequilla con la leche de sus vacas.",
+    "es_author": "JLGQ_",
+    "es_source_id": "2231927",
+    "id": "s_2232696",
+    "it": "L'allevatore produce del burro con il latte delle sue vacche.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2232696",
     "translation_kind": "direct"
   },
   {
@@ -23486,6 +26146,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3627155",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "8a22b6f5826e",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "No se puede ir a casa hasta las dos y media.",
+    "es_author": "IA (Claude)",
+    "id": "s_3768548",
+    "it": "Non si può andare a casa fino alle due e mezza.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3768548",
+    "translation_kind": "llm"
   },
   {
     "audio": "d356b6401061",
@@ -23831,6 +26503,19 @@
     "it": "Il modo migliore di conoscere davvero una persona è vedere come si comporta quando è assolutamente libera di scegliere.",
     "license": "CC BY 2.0 FR",
     "source_id": "719266",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d32530eb3a01",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "¿El desayuno está incluido en el precio?",
+    "es_author": "Shishir",
+    "es_source_id": "730327",
+    "id": "s_730313",
+    "it": "La colazione è inclusa nel prezzo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "730313",
     "translation_kind": "direct"
   },
   {

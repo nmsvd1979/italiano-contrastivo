@@ -2148,23 +2148,84 @@
     "id": "cap_err_chiamarsi",
     "retrieval": [
       {
-        "id": "it_choice_s_1551030_ERR_CHIAMARSI",
+        "id": "it_choice_s_14070041_ERR_CHIAMARSI",
         "options": [
           {
             "correct": true,
-            "text": "Io mi chiamo Luis."
+            "text": "So come ti chiami."
           },
           {
             "correct": false,
             "distractor_kind": "l1_calque",
             "error_code": "ERR_CHIAMARSI",
-            "text": "Io me chiamo Luis."
+            "text": "So come te chiami."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
+        "sentence_id": "s_14070041",
+        "target_error_codes": [
+          "ERR_CHIAMARSI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "mi"
+        ],
+        "hint_es": "Yo me llamo Luis.",
+        "id": "it_cloze_s_1551030_ERR_CHIAMARSI",
+        "requires_server": false,
+        "review_status": "validated",
         "sentence_id": "s_1551030",
+        "target_error_codes": [
+          "ERR_CHIAMARSI"
+        ],
+        "text": "Io ___ chiamo Luis.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Io",
+          "mi",
+          "chiamo",
+          "Sara."
+        ],
+        "id": "it_reorder_s_2579471_ERR_CHIAMARSI",
+        "prompt_es": "Ordena las palabras: «Yo me llamo Sara.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2579471",
+        "target_error_codes": [
+          "ERR_CHIAMARSI"
+        ],
+        "tokens": [
+          "Io",
+          "Sara.",
+          "mi",
+          "chiamo"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_2695312_ERR_CHIAMARSI",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_CHIAMARSI",
+            "text": "Io me chiamo John."
+          },
+          {
+            "correct": true,
+            "text": "Io mi chiamo John."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2695312",
         "target_error_codes": [
           "ERR_CHIAMARSI"
         ],
@@ -2201,71 +2262,10 @@
           "ERR_CHIAMARSI"
         ],
         "tokens": [
-          "mi",
-          "Andrea.",
           "chiamo",
-          "Io"
-        ],
-        "type": "reorder"
-      },
-      {
-        "id": "it_choice_s_2695310_ERR_CHIAMARSI",
-        "options": [
-          {
-            "correct": false,
-            "distractor_kind": "l1_calque",
-            "error_code": "ERR_CHIAMARSI",
-            "text": "Io me chiamo Sascha."
-          },
-          {
-            "correct": true,
-            "text": "Io mi chiamo Sascha."
-          }
-        ],
-        "prompt_es": "¿Cuál es la frase correcta en italiano?",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_2695310",
-        "target_error_codes": [
-          "ERR_CHIAMARSI"
-        ],
-        "type": "choice_l1_distractor"
-      },
-      {
-        "answers": [
+          "Io",
+          "Andrea.",
           "mi"
-        ],
-        "hint_es": "Yo me llamo Roberto.",
-        "id": "it_cloze_s_2706885_ERR_CHIAMARSI",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_2706885",
-        "target_error_codes": [
-          "ERR_CHIAMARSI"
-        ],
-        "text": "Io ___ chiamo Roberto.",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Dimmi",
-          "come",
-          "ti",
-          "chiami."
-        ],
-        "id": "it_reorder_s_3264294_ERR_CHIAMARSI",
-        "prompt_es": "Ordena las palabras: «Dime cómo te llamas.»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_3264294",
-        "target_error_codes": [
-          "ERR_CHIAMARSI"
-        ],
-        "tokens": [
-          "Dimmi",
-          "come",
-          "chiami.",
-          "ti"
         ],
         "type": "reorder"
       }
@@ -2276,13 +2276,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "So come ti chiami."
+        "Io mi chiamo Shu."
       ],
-      "id": "it_translate_s_14070041_ERR_CHIAMARSI",
+      "id": "it_translate_s_2695325_ERR_CHIAMARSI",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_14070041",
-      "source_es": "Sé cómo te llamas.",
+      "sentence_id": "s_2695325",
+      "source_es": "Yo me llamo Shu.",
       "target_error_codes": [
         "ERR_CHIAMARSI"
       ],
@@ -2298,23 +2298,84 @@
     "id": "cap_err_genere_es",
     "retrieval": [
       {
-        "id": "it_choice_s_737650_ERR_GENERE_ES",
+        "id": "it_choice_s_3681983_ERR_GENERE_ES",
         "options": [
           {
             "correct": true,
-            "text": "Questa è una penna."
+            "text": "Io odio il latte."
           },
           {
             "correct": false,
             "distractor_kind": "l1_calque",
             "error_code": "ERR_GENERE_ES",
-            "text": "Questa è un penna."
+            "text": "Io odio la latte."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
+        "sentence_id": "s_3681983",
+        "target_error_codes": [
+          "ERR_GENERE_ES"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "una"
+        ],
+        "hint_es": "Este es un mapa.",
+        "id": "it_cloze_s_1256343_ERR_GENERE_ES",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1256343",
+        "target_error_codes": [
+          "ERR_GENERE_ES"
+        ],
+        "text": "Questa è ___ mappa.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Questa",
+          "è",
+          "una",
+          "penna."
+        ],
+        "id": "it_reorder_s_737650_ERR_GENERE_ES",
+        "prompt_es": "Ordena las palabras: «Esto es un bolígrafo.»",
+        "requires_server": false,
+        "review_status": "validated",
         "sentence_id": "s_737650",
+        "target_error_codes": [
+          "ERR_GENERE_ES"
+        ],
+        "tokens": [
+          "è",
+          "penna.",
+          "Questa",
+          "una"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_1259739_ERR_GENERE_ES",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_GENERE_ES",
+            "text": "Quella è un matita."
+          },
+          {
+            "correct": true,
+            "text": "Quella è una matita."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1259739",
         "target_error_codes": [
           "ERR_GENERE_ES"
         ],
@@ -2337,85 +2398,26 @@
       },
       {
         "answer": [
-          "I",
-          "fiori",
-          "sono",
-          "gialli."
+          "La",
+          "mappa",
+          "è",
+          "sul",
+          "muro."
         ],
-        "id": "it_reorder_s_801713_ERR_GENERE_ES",
-        "prompt_es": "Ordena las palabras: «Las flores son amarillas.»",
+        "id": "it_reorder_s_2422698_ERR_GENERE_ES",
+        "prompt_es": "Ordena las palabras: «El mapa está en la pared.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_801713",
+        "sentence_id": "s_2422698",
         "target_error_codes": [
           "ERR_GENERE_ES"
         ],
         "tokens": [
-          "gialli.",
-          "sono",
-          "I",
-          "fiori"
-        ],
-        "type": "reorder"
-      },
-      {
-        "id": "it_choice_s_374219_ERR_GENERE_ES",
-        "options": [
-          {
-            "correct": false,
-            "distractor_kind": "l1_calque",
-            "error_code": "ERR_GENERE_ES",
-            "text": "Il gatto beve la latte."
-          },
-          {
-            "correct": true,
-            "text": "Il gatto beve il latte."
-          }
-        ],
-        "prompt_es": "¿Cuál es la frase correcta en italiano?",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_374219",
-        "target_error_codes": [
-          "ERR_GENERE_ES"
-        ],
-        "type": "choice_l1_distractor"
-      },
-      {
-        "answers": [
-          "una"
-        ],
-        "hint_es": "Necesito un mapa.",
-        "id": "it_cloze_s_753336_ERR_GENERE_ES",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_753336",
-        "target_error_codes": [
-          "ERR_GENERE_ES"
-        ],
-        "text": "Ho bisogno di ___ mappa.",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Sto",
-          "innaffiando",
-          "i",
-          "fiori."
-        ],
-        "id": "it_reorder_s_845250_ERR_GENERE_ES",
-        "prompt_es": "Ordena las palabras: «Estoy regando las flores.»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_845250",
-        "target_error_codes": [
-          "ERR_GENERE_ES"
-        ],
-        "tokens": [
-          "innaffiando",
-          "fiori.",
-          "Sto",
-          "i"
+          "La",
+          "sul",
+          "è",
+          "muro.",
+          "mappa"
         ],
         "type": "reorder"
       }
@@ -2637,6 +2639,67 @@
       },
       {
         "answer": [
+          "Ho",
+          "uno",
+          "zio",
+          "ricco."
+        ],
+        "id": "it_reorder_s_6668447_ERR_INDEFINITE_ARTICLE",
+        "prompt_es": "Ordena las palabras: «Tengo un tío rico.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_6668447",
+        "target_error_codes": [
+          "ERR_INDEFINITE_ARTICLE"
+        ],
+        "tokens": [
+          "zio",
+          "Ho",
+          "ricco.",
+          "uno"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_3892643_ERR_INDEFINITE_ARTICLE",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_INDEFINITE_ARTICLE",
+            "text": "Questa è un ombra."
+          },
+          {
+            "correct": true,
+            "text": "Questa è un'ombra."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3892643",
+        "target_error_codes": [
+          "ERR_INDEFINITE_ARTICLE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "uno"
+        ],
+        "hint_es": "Es un historiador.",
+        "id": "it_cloze_s_976858_ERR_INDEFINITE_ARTICLE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_976858",
+        "target_error_codes": [
+          "ERR_INDEFINITE_ARTICLE"
+        ],
+        "text": "Lui è ___ storico.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
           "Dov'è",
           "uno",
           "specchio?"
@@ -2650,72 +2713,9 @@
           "ERR_INDEFINITE_ARTICLE"
         ],
         "tokens": [
+          "uno",
           "specchio?",
-          "uno",
           "Dov'è"
-        ],
-        "type": "reorder"
-      },
-      {
-        "id": "it_choice_s_479911_ERR_INDEFINITE_ARTICLE",
-        "options": [
-          {
-            "correct": false,
-            "distractor_kind": "morphological",
-            "error_code": "ERR_INDEFINITE_ARTICLE",
-            "text": "Sumatra è un isola."
-          },
-          {
-            "correct": true,
-            "text": "Sumatra è un'isola."
-          }
-        ],
-        "prompt_es": "¿Cuál es la frase correcta en italiano?",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_479911",
-        "target_error_codes": [
-          "ERR_INDEFINITE_ARTICLE"
-        ],
-        "type": "choice_l1_distractor"
-      },
-      {
-        "answers": [
-          "uno"
-        ],
-        "hint_es": "Tengo un tío rico.",
-        "id": "it_cloze_s_6668448_ERR_INDEFINITE_ARTICLE",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_6668448",
-        "target_error_codes": [
-          "ERR_INDEFINITE_ARTICLE"
-        ],
-        "text": "Io ho ___ zio ricco.",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "C'è",
-          "uno",
-          "zoo",
-          "a",
-          "Boston?"
-        ],
-        "id": "it_reorder_s_1451609_ERR_INDEFINITE_ARTICLE",
-        "prompt_es": "Ordena las palabras: «¿Hay un zoológico en Boston?»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_1451609",
-        "target_error_codes": [
-          "ERR_INDEFINITE_ARTICLE"
-        ],
-        "tokens": [
-          "a",
-          "zoo",
-          "uno",
-          "Boston?",
-          "C'è"
         ],
         "type": "reorder"
       }
@@ -2902,23 +2902,86 @@
     "id": "cap_err_participio_es",
     "retrieval": [
       {
-        "id": "it_choice_s_375606_ERR_PARTICIPIO_ES",
+        "id": "it_choice_s_13143580_ERR_PARTICIPIO_ES",
         "options": [
           {
             "correct": true,
-            "text": "Sì, Bob mi ha aiutato."
+            "text": "Laura non ha dormito."
           },
           {
             "correct": false,
             "distractor_kind": "l1_calque",
             "error_code": "ERR_PARTICIPIO_ES",
-            "text": "Sì, Bob mi ha aiutado."
+            "text": "Laura non ha dormido."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
+        "sentence_id": "s_13143580",
+        "target_error_codes": [
+          "ERR_PARTICIPIO_ES"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "portato"
+        ],
+        "hint_es": "¿Has traído el libro?",
+        "id": "it_cloze_s_4711094_ERR_PARTICIPIO_ES",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4711094",
+        "target_error_codes": [
+          "ERR_PARTICIPIO_ES"
+        ],
+        "text": "Hai ___ il libro?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Sì,",
+          "Bob",
+          "mi",
+          "ha",
+          "aiutato."
+        ],
+        "id": "it_reorder_s_375606_ERR_PARTICIPIO_ES",
+        "prompt_es": "Ordena las palabras: «Sí, Bob me ha ayudado.»",
+        "requires_server": false,
+        "review_status": "validated",
         "sentence_id": "s_375606",
+        "target_error_codes": [
+          "ERR_PARTICIPIO_ES"
+        ],
+        "tokens": [
+          "Bob",
+          "mi",
+          "ha",
+          "aiutato.",
+          "Sì,"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_13956341_ERR_PARTICIPIO_ES",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_PARTICIPIO_ES",
+            "text": "Ho capido il mio errore."
+          },
+          {
+            "correct": true,
+            "text": "Ho capito il mio errore."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_13956341",
         "target_error_codes": [
           "ERR_PARTICIPIO_ES"
         ],
@@ -2941,87 +3004,26 @@
       },
       {
         "answer": [
-          "Abbiamo",
-          "ordinato",
-          "il",
-          "pasto."
+          "Ho",
+          "imparato",
+          "molto",
+          "da",
+          "Tom."
         ],
-        "id": "it_reorder_s_653850_ERR_PARTICIPIO_ES",
-        "prompt_es": "Ordena las palabras: «Hemos pedido la comida.»",
+        "id": "it_reorder_s_4990905_ERR_PARTICIPIO_ES",
+        "prompt_es": "Ordena las palabras: «He aprendido mucho de Tom.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_653850",
+        "sentence_id": "s_4990905",
         "target_error_codes": [
           "ERR_PARTICIPIO_ES"
         ],
         "tokens": [
-          "ordinato",
-          "pasto.",
-          "il",
-          "Abbiamo"
-        ],
-        "type": "reorder"
-      },
-      {
-        "id": "it_choice_s_945585_ERR_PARTICIPIO_ES",
-        "options": [
-          {
-            "correct": false,
-            "distractor_kind": "l1_calque",
-            "error_code": "ERR_PARTICIPIO_ES",
-            "text": "Mi ha parlado in spagnolo."
-          },
-          {
-            "correct": true,
-            "text": "Mi ha parlato in spagnolo."
-          }
-        ],
-        "prompt_es": "¿Cuál es la frase correcta en italiano?",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_945585",
-        "target_error_codes": [
-          "ERR_PARTICIPIO_ES"
-        ],
-        "type": "choice_l1_distractor"
-      },
-      {
-        "answers": [
-          "giocato"
-        ],
-        "hint_es": "Jugué con mi hermano.",
-        "id": "it_cloze_s_1541548_ERR_PARTICIPIO_ES",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_1541548",
-        "target_error_codes": [
-          "ERR_PARTICIPIO_ES"
-        ],
-        "text": "Ho ___ con mio fratello.",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Hai",
-          "ricevuto",
-          "la",
-          "mia",
-          "lettera?"
-        ],
-        "id": "it_reorder_s_378685_ERR_PARTICIPIO_ES",
-        "prompt_es": "Ordena las palabras: «¿Has recibido mi carta?»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_378685",
-        "target_error_codes": [
-          "ERR_PARTICIPIO_ES"
-        ],
-        "tokens": [
-          "mia",
-          "lettera?",
-          "ricevuto",
-          "la",
-          "Hai"
+          "Tom.",
+          "imparato",
+          "molto",
+          "da",
+          "Ho"
         ],
         "type": "reorder"
       }
@@ -3032,13 +3034,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Hai portato il libro?"
+        "Tom ha baciato Mary."
       ],
-      "id": "it_translate_s_4711094_ERR_PARTICIPIO_ES",
+      "id": "it_translate_s_1257883_ERR_PARTICIPIO_ES",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_4711094",
-      "source_es": "¿Has traído el libro?",
+      "sentence_id": "s_1257883",
+      "source_es": "Tom besó a Mary.",
       "target_error_codes": [
         "ERR_PARTICIPIO_ES"
       ],
@@ -3354,17 +3356,80 @@
     "id": "cap_err_riflessivo_pronome",
     "retrieval": [
       {
-        "id": "it_choice_s_894191_ERR_RIFLESSIVO_PRONOME",
+        "id": "it_choice_s_3589966_ERR_RIFLESSIVO_PRONOME",
         "options": [
           {
             "correct": true,
-            "text": "Come ti senti oggi?"
+            "text": "A che ora ti alzi?"
           },
           {
             "correct": false,
             "distractor_kind": "l1_calque",
             "error_code": "ERR_RIFLESSIVO_PRONOME",
+            "text": "A che ora te alzi?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3589966",
+        "target_error_codes": [
+          "ERR_RIFLESSIVO_PRONOME"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "si"
+        ],
+        "hint_es": "Él se levanta temprano.",
+        "id": "it_cloze_s_1636882_ERR_RIFLESSIVO_PRONOME",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1636882",
+        "target_error_codes": [
+          "ERR_RIFLESSIVO_PRONOME"
+        ],
+        "text": "Lui ___ alza presto.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Io",
+          "mi",
+          "lavo",
+          "le",
+          "mani."
+        ],
+        "id": "it_reorder_s_2997676_ERR_RIFLESSIVO_PRONOME",
+        "prompt_es": "Ordena las palabras: «Me lavo las manos.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2997676",
+        "target_error_codes": [
+          "ERR_RIFLESSIVO_PRONOME"
+        ],
+        "tokens": [
+          "lavo",
+          "Io",
+          "mi",
+          "mani.",
+          "le"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_894191_ERR_RIFLESSIVO_PRONOME",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_RIFLESSIVO_PRONOME",
             "text": "Come te senti oggi?"
+          },
+          {
+            "correct": true,
+            "text": "Come ti senti oggi?"
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
@@ -3393,89 +3458,24 @@
       },
       {
         "answer": [
-          "Tom",
-          "non",
-          "si",
-          "alza",
-          "presto."
+          "Non",
+          "ti",
+          "senti",
+          "umiliata?"
         ],
-        "id": "it_reorder_s_2622381_ERR_RIFLESSIVO_PRONOME",
-        "prompt_es": "Ordena las palabras: «Tom no se levanta temprano.»",
+        "id": "it_reorder_s_8672405_ERR_RIFLESSIVO_PRONOME",
+        "prompt_es": "Ordena las palabras: «¿No te sientes humillada?»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2622381",
+        "sentence_id": "s_8672405",
         "target_error_codes": [
           "ERR_RIFLESSIVO_PRONOME"
         ],
         "tokens": [
-          "si",
-          "non",
-          "Tom",
-          "alza",
-          "presto."
-        ],
-        "type": "reorder"
-      },
-      {
-        "id": "it_choice_s_839359_ERR_RIFLESSIVO_PRONOME",
-        "options": [
-          {
-            "correct": false,
-            "distractor_kind": "l1_calque",
-            "error_code": "ERR_RIFLESSIVO_PRONOME",
-            "text": "Lui se alza alle sette."
-          },
-          {
-            "correct": true,
-            "text": "Lui si alza alle sette."
-          }
-        ],
-        "prompt_es": "¿Cuál es la frase correcta en italiano?",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_839359",
-        "target_error_codes": [
-          "ERR_RIFLESSIVO_PRONOME"
-        ],
-        "type": "choice_l1_distractor"
-      },
-      {
-        "answers": [
-          "Si"
-        ],
-        "hint_es": "Ella siempre se levanta a las seis.",
-        "id": "it_cloze_s_1816328_ERR_RIFLESSIVO_PRONOME",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_1816328",
-        "target_error_codes": [
-          "ERR_RIFLESSIVO_PRONOME"
-        ],
-        "text": "___ alza sempre alle sei.",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Mi",
-          "rado",
-          "tutte",
-          "le",
-          "mattine."
-        ],
-        "id": "it_reorder_s_690651_ERR_RIFLESSIVO_PRONOME",
-        "prompt_es": "Ordena las palabras: «Me afeito todas las mañanas.»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_690651",
-        "target_error_codes": [
-          "ERR_RIFLESSIVO_PRONOME"
-        ],
-        "tokens": [
-          "tutte",
-          "rado",
-          "Mi",
-          "le",
-          "mattine."
+          "ti",
+          "Non",
+          "senti",
+          "umiliata?"
         ],
         "type": "reorder"
       }
@@ -3486,13 +3486,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Lui si alza presto."
+        "So come ti senti."
       ],
-      "id": "it_translate_s_1636882_ERR_RIFLESSIVO_PRONOME",
+      "id": "it_translate_s_1096724_ERR_RIFLESSIVO_PRONOME",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_1636882",
-      "source_es": "Él se levanta temprano.",
+      "sentence_id": "s_1096724",
+      "source_es": "Sé cómo te sientes.",
       "target_error_codes": [
         "ERR_RIFLESSIVO_PRONOME"
       ],
@@ -3658,24 +3658,24 @@
     "id": "cap_err_voc_abiti",
     "retrieval": [
       {
-        "id": "it_choice_s_1221313_ERR_VOC_ABITI",
+        "id": "it_choice_s_2286939_ERR_VOC_ABITI",
         "listen": true,
         "options": [
           {
             "correct": true,
-            "text": "Questo cappello è mio."
+            "text": "Dov'è il mio anello?"
           },
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_ABITI",
-            "text": "Questo guanto è mio."
+            "text": "Dov'è il mio orologio?"
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1221313",
+        "sentence_id": "s_2286939",
         "target_error_codes": [
           "ERR_VOC_ABITI"
         ],
@@ -3683,61 +3683,63 @@
       },
       {
         "answers": [
-          "gonna"
+          "cappello"
         ],
-        "hint_es": "Tu falda es bonita.",
-        "id": "it_cloze_s_2808114_ERR_VOC_ABITI",
+        "hint_es": "Este sombrero es mío.",
+        "id": "it_cloze_s_1221313_ERR_VOC_ABITI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1221313",
+        "target_error_codes": [
+          "ERR_VOC_ABITI"
+        ],
+        "text": "Questo ___ è mio.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "È",
+          "carina",
+          "la",
+          "tua",
+          "gonna."
+        ],
+        "id": "it_reorder_s_2808114_ERR_VOC_ABITI",
+        "prompt_es": "Ordena las palabras: «Tu falda es bonita.»",
         "requires_server": false,
         "review_status": "validated",
         "sentence_id": "s_2808114",
         "target_error_codes": [
           "ERR_VOC_ABITI"
         ],
-        "text": "È carina la tua ___.",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Dov'è",
-          "la",
-          "sua",
-          "cravatta?"
-        ],
-        "id": "it_reorder_s_4504233_ERR_VOC_ABITI",
-        "prompt_es": "Ordena las palabras: «¿Dónde está su corbata?»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_4504233",
-        "target_error_codes": [
-          "ERR_VOC_ABITI"
-        ],
         "tokens": [
+          "carina",
+          "È",
           "la",
-          "sua",
-          "Dov'è",
-          "cravatta?"
+          "gonna.",
+          "tua"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_378176_ERR_VOC_ABITI",
+        "id": "it_choice_s_4504229_ERR_VOC_ABITI",
         "listen": true,
         "options": [
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_ABITI",
-            "text": "L'anello non funziona."
+            "text": "Dov'è la tua sciarpa?"
           },
           {
             "correct": true,
-            "text": "L'orologio non funziona."
+            "text": "Dov'è la tua cravatta?"
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_378176",
+        "sentence_id": "s_4504229",
         "target_error_codes": [
           "ERR_VOC_ABITI"
         ],
@@ -3747,39 +3749,35 @@
         "answers": [
           "cravatta"
         ],
-        "hint_es": "Me gusta tu corbata.",
-        "id": "it_cloze_s_2377787_ERR_VOC_ABITI",
+        "hint_es": "¿Dónde está su corbata?",
+        "id": "it_cloze_s_4504233_ERR_VOC_ABITI",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2377787",
+        "sentence_id": "s_4504233",
         "target_error_codes": [
           "ERR_VOC_ABITI"
         ],
-        "text": "Mi piace la tua ___.",
+        "text": "Dov'è la sua ___?",
         "type": "cloze"
       },
       {
         "answer": [
-          "Questa",
+          "Quest'orologio",
           "è",
-          "una",
-          "bella",
-          "giacca."
+          "rotto."
         ],
-        "id": "it_reorder_s_12311936_ERR_VOC_ABITI",
-        "prompt_es": "Ordena las palabras: «Ésta es una bonita chaqueta.»",
+        "id": "it_reorder_s_1254484_ERR_VOC_ABITI",
+        "prompt_es": "Ordena las palabras: «Este reloj está roto.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_12311936",
+        "sentence_id": "s_1254484",
         "target_error_codes": [
           "ERR_VOC_ABITI"
         ],
         "tokens": [
           "è",
-          "giacca.",
-          "una",
-          "Questa",
-          "bella"
+          "Quest'orologio",
+          "rotto."
         ],
         "type": "reorder"
       }
@@ -3790,13 +3788,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Dov'è il mio anello?"
+        "Il vestito è verde."
       ],
-      "id": "it_translate_s_2286939_ERR_VOC_ABITI",
+      "id": "it_translate_s_801727_ERR_VOC_ABITI",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_2286939",
-      "source_es": "¿Dónde está mi anillo?",
+      "sentence_id": "s_801727",
+      "source_es": "El vestido es verde.",
       "target_error_codes": [
         "ERR_VOC_ABITI"
       ],
@@ -3812,86 +3810,86 @@
     "id": "cap_err_voc_aggettivi",
     "retrieval": [
       {
-        "id": "it_choice_s_2137752_ERR_VOC_AGGETTIVI",
+        "id": "it_choice_s_5766040_ERR_VOC_AGGETTIVI",
         "listen": true,
         "options": [
           {
             "correct": true,
-            "text": "Casa tua è grande."
+            "text": "È un libro nuovo."
           },
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_AGGETTIVI",
-            "text": "Casa tua è triste."
+            "text": "È un libro cattivo."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5766040",
+        "target_error_codes": [
+          "ERR_VOC_AGGETTIVI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "grande"
+        ],
+        "hint_es": "Tu casa es grande.",
+        "id": "it_cloze_s_2137752_ERR_VOC_AGGETTIVI",
         "requires_server": false,
         "review_status": "validated",
         "sentence_id": "s_2137752",
         "target_error_codes": [
           "ERR_VOC_AGGETTIVI"
         ],
-        "type": "choice_l1_distractor"
+        "text": "Casa tua è ___.",
+        "type": "cloze"
       },
       {
-        "answers": [
-          "bassa"
+        "answer": [
+          "Io",
+          "non",
+          "sono",
+          "bassa."
         ],
-        "hint_es": "Yo no soy baja.",
-        "id": "it_cloze_s_4553342_ERR_VOC_AGGETTIVI",
+        "id": "it_reorder_s_4553342_ERR_VOC_AGGETTIVI",
+        "prompt_es": "Ordena las palabras: «Yo no soy baja.»",
         "requires_server": false,
         "review_status": "validated",
         "sentence_id": "s_4553342",
         "target_error_codes": [
           "ERR_VOC_AGGETTIVI"
         ],
-        "text": "Io non sono ___.",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "È",
-          "un",
-          "ragazzo",
-          "alto."
-        ],
-        "id": "it_reorder_s_714435_ERR_VOC_AGGETTIVI",
-        "prompt_es": "Ordena las palabras: «Él es un chico alto.»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_714435",
-        "target_error_codes": [
-          "ERR_VOC_AGGETTIVI"
-        ],
         "tokens": [
-          "un",
-          "È",
-          "ragazzo",
-          "alto."
+          "sono",
+          "bassa.",
+          "Io",
+          "non"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_1345585_ERR_VOC_AGGETTIVI",
+        "id": "it_choice_s_714435_ERR_VOC_AGGETTIVI",
         "listen": true,
         "options": [
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_AGGETTIVI",
-            "text": "È una storia nuova."
+            "text": "È un ragazzo antipatico."
           },
           {
             "correct": true,
-            "text": "È una storia lunga."
+            "text": "È un ragazzo alto."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1345585",
+        "sentence_id": "s_714435",
         "target_error_codes": [
           "ERR_VOC_AGGETTIVI"
         ],
@@ -3899,39 +3897,39 @@
       },
       {
         "answers": [
-          "nuovo"
+          "lunga"
         ],
-        "hint_es": "El ordenador es nuevo.",
-        "id": "it_cloze_s_376577_ERR_VOC_AGGETTIVI",
+        "hint_es": "Es una larga historia.",
+        "id": "it_cloze_s_1345585_ERR_VOC_AGGETTIVI",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_376577",
+        "sentence_id": "s_1345585",
         "target_error_codes": [
           "ERR_VOC_AGGETTIVI"
         ],
-        "text": "Il computer è ___.",
+        "text": "È una storia ___.",
         "type": "cloze"
       },
       {
         "answer": [
-          "È",
-          "una",
-          "buona",
-          "notizia?"
+          "Il",
+          "libro",
+          "è",
+          "piccolo."
         ],
-        "id": "it_reorder_s_508345_ERR_VOC_AGGETTIVI",
-        "prompt_es": "Ordena las palabras: «¿Es una buena noticia?»",
+        "id": "it_reorder_s_1447156_ERR_VOC_AGGETTIVI",
+        "prompt_es": "Ordena las palabras: «El libro es pequeño.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_508345",
+        "sentence_id": "s_1447156",
         "target_error_codes": [
           "ERR_VOC_AGGETTIVI"
         ],
         "tokens": [
-          "una",
-          "notizia?",
-          "È",
-          "buona"
+          "Il",
+          "libro",
+          "piccolo.",
+          "è"
         ],
         "type": "reorder"
       }
@@ -4330,24 +4328,24 @@
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_1088047_ERR_VOC_AVVERBI",
+        "id": "it_choice_s_1012690_ERR_VOC_AVVERBI",
         "listen": true,
         "options": [
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_AVVERBI",
-            "text": "È adesso in Florida?"
+            "text": "Non ho tempo già."
           },
           {
             "correct": true,
-            "text": "È ancora in Florida?"
+            "text": "Non ho tempo adesso."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1088047",
+        "sentence_id": "s_1012690",
         "target_error_codes": [
           "ERR_VOC_AVVERBI"
         ],
@@ -4355,39 +4353,39 @@
       },
       {
         "answers": [
-          "mai"
+          "ancora"
         ],
-        "hint_es": "Ellos nunca se rinden.",
-        "id": "it_cloze_s_1228000_ERR_VOC_AVVERBI",
+        "hint_es": "¿Todavía está en Florida?",
+        "id": "it_cloze_s_1088047_ERR_VOC_AVVERBI",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1228000",
+        "sentence_id": "s_1088047",
         "target_error_codes": [
           "ERR_VOC_AVVERBI"
         ],
-        "text": "Non si arrendono ___.",
+        "text": "È ___ in Florida?",
         "type": "cloze"
       },
       {
         "answer": [
-          "Domani",
+          "Ancora",
           "non",
-          "c'è",
-          "scuola."
+          "ci",
+          "credo!"
         ],
-        "id": "it_reorder_s_374485_ERR_VOC_AVVERBI",
-        "prompt_es": "Ordena las palabras: «Mañana no hay escuela.»",
+        "id": "it_reorder_s_1355288_ERR_VOC_AVVERBI",
+        "prompt_es": "Ordena las palabras: «¡Aún no lo creo!»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_374485",
+        "sentence_id": "s_1355288",
         "target_error_codes": [
           "ERR_VOC_AVVERBI"
         ],
         "tokens": [
-          "scuola.",
-          "Domani",
-          "c'è",
-          "non"
+          "credo!",
+          "non",
+          "Ancora",
+          "ci"
         ],
         "type": "reorder"
       }
@@ -4445,63 +4443,61 @@
       },
       {
         "answers": [
-          "tè"
+          "cucchiaio"
         ],
-        "hint_es": "Sólo tenemos té.",
-        "id": "it_cloze_s_423815_ERR_VOC_BAR",
+        "hint_es": "Hay una cuchara.",
+        "id": "it_cloze_s_7061114_ERR_VOC_BAR",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_423815",
+        "sentence_id": "s_7061114",
         "target_error_codes": [
           "ERR_VOC_BAR"
         ],
-        "text": "Abbiamo solo del ___.",
+        "text": "C'è un ___.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Il",
-          "tè",
-          "costa",
-          "due",
-          "euro."
+          "Noi",
+          "non",
+          "abbiamo",
+          "tè."
         ],
-        "id": "it_reorder_s_1701473_ERR_VOC_BAR",
-        "prompt_es": "Ordena las palabras: «El té cuesta dos euros.»",
+        "id": "it_reorder_s_3985008_ERR_VOC_BAR",
+        "prompt_es": "Ordena las palabras: «No tenemos té.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1701473",
+        "sentence_id": "s_3985008",
         "target_error_codes": [
           "ERR_VOC_BAR"
         ],
         "tokens": [
-          "due",
-          "Il",
-          "euro.",
-          "tè",
-          "costa"
+          "tè.",
+          "non",
+          "Noi",
+          "abbiamo"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_708295_ERR_VOC_BAR",
+        "id": "it_choice_s_423815_ERR_VOC_BAR",
         "listen": true,
         "options": [
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_BAR",
-            "text": "Questo menù è molto buono."
+            "text": "Abbiamo solo del succo."
           },
           {
             "correct": true,
-            "text": "Questo tè è molto buono."
+            "text": "Abbiamo solo del tè."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_708295",
+        "sentence_id": "s_423815",
         "target_error_codes": [
           "ERR_VOC_BAR"
         ],
@@ -4509,41 +4505,41 @@
       },
       {
         "answers": [
-          "tazza"
+          "tè"
         ],
-        "hint_es": "¿Quiere una taza de café?",
-        "id": "it_cloze_s_1073992_ERR_VOC_BAR",
+        "hint_es": "Bebo el té con limón.",
+        "id": "it_cloze_s_11142019_ERR_VOC_BAR",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1073992",
+        "sentence_id": "s_11142019",
         "target_error_codes": [
           "ERR_VOC_BAR"
         ],
-        "text": "Vuole una ___ di caffè?",
+        "text": "Bevo il ___ al limone.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Preferisco",
-          "il",
-          "caffè",
-          "al",
-          "tè."
+          "Vuoi",
+          "bere",
+          "tè",
+          "o",
+          "caffè?"
         ],
-        "id": "it_reorder_s_439940_ERR_VOC_BAR",
-        "prompt_es": "Ordena las palabras: «Prefiero beber café que té.»",
+        "id": "it_reorder_s_1308150_ERR_VOC_BAR",
+        "prompt_es": "Ordena las palabras: «¿Quieres beber té o café?»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_439940",
+        "sentence_id": "s_1308150",
         "target_error_codes": [
           "ERR_VOC_BAR"
         ],
         "tokens": [
-          "tè.",
-          "al",
-          "caffè",
-          "Preferisco",
-          "il"
+          "bere",
+          "Vuoi",
+          "tè",
+          "o",
+          "caffè?"
         ],
         "type": "reorder"
       }
@@ -5059,6 +5055,68 @@
       },
       {
         "answers": [
+          "freddo"
+        ],
+        "hint_es": "Hace un poco de frío.",
+        "id": "it_cloze_s_1246550_ERR_VOC_CLIMA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1246550",
+        "target_error_codes": [
+          "ERR_VOC_CLIMA"
+        ],
+        "text": "Fa un po' ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Il",
+          "cielo",
+          "è",
+          "grigio."
+        ],
+        "id": "it_reorder_s_1559380_ERR_VOC_CLIMA",
+        "prompt_es": "Ordena las palabras: «El cielo está gris.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1559380",
+        "target_error_codes": [
+          "ERR_VOC_CLIMA"
+        ],
+        "tokens": [
+          "cielo",
+          "è",
+          "grigio.",
+          "Il"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_2384302_ERR_VOC_CLIMA",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CLIMA",
+            "text": "Il ghiaccio è azzurro."
+          },
+          {
+            "correct": true,
+            "text": "Il cielo è azzurro."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2384302",
+        "target_error_codes": [
+          "ERR_VOC_CLIMA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
           "caldo"
         ],
         "hint_es": "Hace mucho calor hoy.",
@@ -5088,72 +5146,10 @@
           "ERR_VOC_CLIMA"
         ],
         "tokens": [
-          "oggi.",
           "freddo",
+          "oggi.",
           "c'è",
           "Non"
-        ],
-        "type": "reorder"
-      },
-      {
-        "id": "it_choice_s_3343545_ERR_VOC_CLIMA",
-        "listen": true,
-        "options": [
-          {
-            "correct": false,
-            "distractor_kind": "different_word",
-            "error_code": "ERR_VOC_CLIMA",
-            "text": "Fa freddo oggi, vero?"
-          },
-          {
-            "correct": true,
-            "text": "Fa caldo oggi, vero?"
-          }
-        ],
-        "prompt_es": "Escucha la frase y elige cómo se escribe.",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_3343545",
-        "target_error_codes": [
-          "ERR_VOC_CLIMA"
-        ],
-        "type": "choice_l1_distractor"
-      },
-      {
-        "answers": [
-          "pioggia"
-        ],
-        "hint_es": "¿Te gusta la lluvia?",
-        "id": "it_cloze_s_772645_ERR_VOC_CLIMA",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_772645",
-        "target_error_codes": [
-          "ERR_VOC_CLIMA"
-        ],
-        "text": "Ti piace la ___?",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Il",
-          "clima",
-          "è",
-          "piacevole."
-        ],
-        "id": "it_reorder_s_759913_ERR_VOC_CLIMA",
-        "prompt_es": "Ordena las palabras: «El clima está agradable.»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_759913",
-        "target_error_codes": [
-          "ERR_VOC_CLIMA"
-        ],
-        "tokens": [
-          "clima",
-          "piacevole.",
-          "è",
-          "Il"
         ],
         "type": "reorder"
       }
@@ -5735,39 +5731,39 @@
         "answers": [
           "soldi"
         ],
-        "hint_es": "Tom necesita dinero.",
-        "id": "it_cloze_s_4482925_ERR_VOC_DENARO",
+        "hint_es": "Yo no quiero el dinero.",
+        "id": "it_cloze_s_2762214_ERR_VOC_DENARO",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_4482925",
+        "sentence_id": "s_2762214",
         "target_error_codes": [
           "ERR_VOC_DENARO"
         ],
-        "text": "Tom ha bisogno di ___.",
+        "text": "Io non voglio i ___.",
         "type": "cloze"
       },
       {
         "answer": [
-          "La",
-          "libertà",
-          "non",
-          "ha",
-          "prezzo."
+          "Voglio",
+          "i",
+          "soldi",
+          "di",
+          "Tom."
         ],
-        "id": "it_reorder_s_13558124_ERR_VOC_DENARO",
-        "prompt_es": "Ordena las palabras: «La libertad no tiene precio.»",
+        "id": "it_reorder_s_3838494_ERR_VOC_DENARO",
+        "prompt_es": "Ordena las palabras: «Quiero el dinero de Tom.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_13558124",
+        "sentence_id": "s_3838494",
         "target_error_codes": [
           "ERR_VOC_DENARO"
         ],
         "tokens": [
-          "ha",
-          "La",
-          "non",
-          "libertà",
-          "prezzo."
+          "Voglio",
+          "Tom.",
+          "soldi",
+          "i",
+          "di"
         ],
         "type": "reorder"
       }
@@ -5887,39 +5883,39 @@
       },
       {
         "answers": [
-          "Quel"
+          "Questo"
         ],
-        "hint_es": "Esa fruta no se come.",
-        "id": "it_cloze_s_13199927_ERR_VOC_DIMOSTRATIVI",
+        "hint_es": "Esta mesa es pesada.",
+        "id": "it_cloze_s_1701553_ERR_VOC_DIMOSTRATIVI",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_13199927",
+        "sentence_id": "s_1701553",
         "target_error_codes": [
           "ERR_VOC_DIMOSTRATIVI"
         ],
-        "text": "___ frutto non si mangia.",
+        "text": "___ tavolo è pesante.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Quanto",
-          "costa",
-          "questa",
-          "radio?"
+          "Questa",
+          "strada",
+          "è",
+          "animata."
         ],
-        "id": "it_reorder_s_374610_ERR_VOC_DIMOSTRATIVI",
-        "prompt_es": "Ordena las palabras: «¿Cuánto cuesta esta radio?»",
+        "id": "it_reorder_s_2029567_ERR_VOC_DIMOSTRATIVI",
+        "prompt_es": "Ordena las palabras: «Esta calle es animada.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_374610",
+        "sentence_id": "s_2029567",
         "target_error_codes": [
           "ERR_VOC_DIMOSTRATIVI"
         ],
         "tokens": [
-          "radio?",
-          "questa",
-          "costa",
-          "Quanto"
+          "animata.",
+          "è",
+          "Questa",
+          "strada"
         ],
         "type": "reorder"
       }
@@ -8008,24 +8004,24 @@
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_559605_ERR_VOC_SALUTI",
+        "id": "it_choice_s_559619_ERR_VOC_SALUTI",
         "listen": true,
         "options": [
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_SALUTI",
-            "text": "Buonasera, come ti chiami?"
+            "text": "Complimenti, è libero qui?"
           },
           {
             "correct": true,
-            "text": "Ciao, come ti chiami?"
+            "text": "Scusi, è libero qui?"
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_559605",
+        "sentence_id": "s_559619",
         "target_error_codes": [
           "ERR_VOC_SALUTI"
         ],
@@ -8033,39 +8029,39 @@
       },
       {
         "answers": [
-          "Salve"
+          "Ciao"
         ],
-        "hint_es": "Hola. ¿Cómo está usted hoy?",
-        "id": "it_cloze_s_9712470_ERR_VOC_SALUTI",
+        "hint_es": "Hola, ¿cómo te llamas?",
+        "id": "it_cloze_s_559605_ERR_VOC_SALUTI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_559605",
+        "target_error_codes": [
+          "ERR_VOC_SALUTI"
+        ],
+        "text": "___, come ti chiami?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Salve.",
+          "Come",
+          "sta",
+          "oggi?"
+        ],
+        "id": "it_reorder_s_9712470_ERR_VOC_SALUTI",
+        "prompt_es": "Ordena las palabras: «Hola. ¿Cómo está usted hoy?»",
         "requires_server": false,
         "review_status": "validated",
         "sentence_id": "s_9712470",
         "target_error_codes": [
           "ERR_VOC_SALUTI"
         ],
-        "text": "___. Come sta oggi?",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Scusi,",
-          "dov'è",
-          "il",
-          "bagno?"
-        ],
-        "id": "it_reorder_s_3122330_ERR_VOC_SALUTI",
-        "prompt_es": "Ordena las palabras: «Disculpe, ¿dónde está el baño?»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_3122330",
-        "target_error_codes": [
-          "ERR_VOC_SALUTI"
-        ],
         "tokens": [
-          "dov'è",
-          "Scusi,",
-          "bagno?",
-          "il"
+          "oggi?",
+          "sta",
+          "Come",
+          "Salve."
         ],
         "type": "reorder"
       }

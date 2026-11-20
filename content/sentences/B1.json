@@ -126,6 +126,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "leonardo",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_VOC_DENARO"
+    ],
+    "es": "Encontré un lugar donde se puede comprar verdura a buen precio.",
+    "es_author": "Viqui",
+    "es_source_id": "12023057",
+    "id": "s_1062232",
+    "it": "Ho trovato un posto dove si può comprare verdura a buon prezzo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1062232",
+    "tag_rules": {
+      "ERR_VOC_DENARO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Gloria7",
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
@@ -225,6 +247,30 @@
     "tag_rules": {
       "ERR_AUX_OVERGENERALIZATION": "avere_con_verbo_inergativo",
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_GENERE_ES"
+    ],
+    "es": "Estamos acostumbrados a llevar zapatos.",
+    "es_author": "Shishir",
+    "es_source_id": "1281465",
+    "id": "s_1100207",
+    "it": "Siamo abituati ad indossare le scarpe.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1100207",
+    "tag_rules": {
+      "ERR_GENERE_ES": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1027,6 +1073,28 @@
       "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
       "ERR_REFLEXIVE_AUX": "riflessivo_con_essere",
       "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "JLGQ_",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_GENERE_ES"
+    ],
+    "es": "El ganadero elabora mantequilla con la leche de sus vacas.",
+    "es_author": "JLGQ_",
+    "es_source_id": "2231927",
+    "id": "s_2232696",
+    "it": "L'allevatore produce del burro con il latte delle sue vacche.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2232696",
+    "tag_rules": {
+      "ERR_GENERE_ES": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1945,6 +2013,29 @@
       "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_ORA_ES"
+    ],
+    "es": "No se puede ir a casa hasta las dos y media.",
+    "es_author": "IA (Claude)",
+    "id": "s_3768548",
+    "it": "Non si può andare a casa fino alle due e mezza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3768548",
+    "tag_rules": {
+      "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -3224,6 +3315,30 @@
       "ERR_GEMINATE_SPELLING": "geminata_ortografia",
       "ERR_GLI_PALATAL": "gli_palatale",
       "ERR_SC_PALATAL": "sc_palatale"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_VOC_DENARO"
+    ],
+    "es": "¿El desayuno está incluido en el precio?",
+    "es_author": "Shishir",
+    "es_source_id": "730327",
+    "id": "s_730313",
+    "it": "La colazione è inclusa nel prezzo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "730313",
+    "tag_rules": {
+      "ERR_VOC_DENARO": "capsule_calque"
     },
     "translation_kind": "direct"
   },

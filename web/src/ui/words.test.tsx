@@ -106,3 +106,17 @@ describe("pantalla de repaso con una palabra", () => {
     expect(screen.getByText(w.gloss)).toBeTruthy();
   });
 });
+
+describe("práctica con ejercicios de la lectura", () => {
+  const readingItems = read("reading_items.json");
+  const packR = { ...pack, readingItems } as ContentPack;
+  it("hay ejercicios derivados para todas las lecturas", () => {
+    const ids = (read("readings.json") as { id: string }[]).map((r) => r.id);
+    for (const id of ids) expect((readingItems[id] ?? []).length, id).toBeGreaterThan(0);
+  });
+  it("la unidad con lectura suma minutos en la segunda práctica frente a no tener esos ejercicios", async () => {
+    const { stepSeconds } = await import("../state/steps");
+    const unit = course.units.find((u) => u.readings?.length && (u.id === "u58" || u.id === "u40"))!;
+    expect(stepSeconds(unit, "practica2", packR)).toBeGreaterThanOrEqual(stepSeconds(unit, "practica2", pack));
+  });
+});

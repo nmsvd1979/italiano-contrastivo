@@ -82,7 +82,7 @@
     "ERR_CHIAMARSI": {
       "capsule": true,
       "reason": null,
-      "usable": 28
+      "usable": 45
     },
     "ERR_COMPARATIVE_DI": {
       "capsule": true,
@@ -102,7 +102,7 @@
     "ERR_GENERE_ES": {
       "capsule": true,
       "reason": null,
-      "usable": 21
+      "usable": 39
     },
     "ERR_GLI_PALATAL": {
       "capsule": true,
@@ -117,17 +117,17 @@
     "ERR_INDEFINITE_ARTICLE": {
       "capsule": true,
       "reason": null,
-      "usable": 24
+      "usable": 40
     },
     "ERR_ORA_ES": {
       "capsule": true,
       "reason": null,
-      "usable": 26
+      "usable": 35
     },
     "ERR_PARTICIPIO_ES": {
       "capsule": true,
       "reason": null,
-      "usable": 19
+      "usable": 38
     },
     "ERR_PARTICIPLE_AGREEMENT": {
       "capsule": true,
@@ -197,7 +197,7 @@
     "ERR_RIFLESSIVO_PRONOME": {
       "capsule": true,
       "reason": null,
-      "usable": 26
+      "usable": 42
     },
     "ERR_SC_PALATAL": {
       "capsule": true,
@@ -212,12 +212,12 @@
     "ERR_VOC_ABITI": {
       "capsule": true,
       "reason": null,
-      "usable": 25
+      "usable": 38
     },
     "ERR_VOC_AGGETTIVI": {
       "capsule": true,
       "reason": null,
-      "usable": 26
+      "usable": 41
     },
     "ERR_VOC_ANIMALI": {
       "capsule": true,
@@ -232,12 +232,12 @@
     "ERR_VOC_AVVERBI": {
       "capsule": true,
       "reason": null,
-      "usable": 21
+      "usable": 41
     },
     "ERR_VOC_BAR": {
       "capsule": true,
       "reason": null,
-      "usable": 17
+      "usable": 35
     },
     "ERR_VOC_CASA": {
       "capsule": true,
@@ -257,7 +257,7 @@
     "ERR_VOC_CLIMA": {
       "capsule": true,
       "reason": null,
-      "usable": 24
+      "usable": 38
     },
     "ERR_VOC_COLORI": {
       "capsule": true,
@@ -277,12 +277,12 @@
     "ERR_VOC_DENARO": {
       "capsule": true,
       "reason": null,
-      "usable": 24
+      "usable": 35
     },
     "ERR_VOC_DIMOSTRATIVI": {
       "capsule": true,
       "reason": null,
-      "usable": 28
+      "usable": 42
     },
     "ERR_VOC_DIREZIONI": {
       "capsule": true,
@@ -352,7 +352,7 @@
     "ERR_VOC_SALUTI": {
       "capsule": true,
       "reason": null,
-      "usable": 29
+      "usable": 43
     },
     "ERR_VOC_SCUOLA": {
       "capsule": true,
@@ -376,18 +376,18 @@
     }
   },
   "levels": {
-    "A1": 1541,
-    "A2": 325,
-    "B1": 141,
+    "A1": 1710,
+    "A2": 366,
+    "B1": 146,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 1987,
+    "llm-audit": 2202,
     "me": 27
   },
-  "sentences_used": 1863,
+  "sentences_used": 2077,
   "translation_kind": {
-    "direct": 1657,
-    "llm": 206
+    "direct": 1774,
+    "llm": 303
   }
 }

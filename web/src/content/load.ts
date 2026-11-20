@@ -35,6 +35,8 @@ export type Course = { version: number; levels: { id: string; title: string; gui
 export type ContentPack = {
   course: Course;
   readings?: Reading[];
+  /** Ejercicios derivados de cada lectura (texto del libro): traducir, ordenar y completar. */
+  readingItems?: Record<string, Item[]>;
   capsules: Capsule[];
   itemsByCode: Record<string, Item[]>;
   lexemes: Lexeme[];
@@ -67,7 +69,7 @@ async function getJson<T>(fetcher: Fetcher, base: string, file: string): Promise
 }
 
 export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: string = import.meta.env.BASE_URL ?? "/"): Promise<ContentPack> {
-  const [capsules, itemsByCode, lexemes, sentences, manifest, course, readings] = await Promise.all([
+  const [capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems] = await Promise.all([
     getJson<Capsule[]>(fetcher, base, "capsules.json"),
     getJson<Record<string, Item[]>>(fetcher, base, "items_by_code.json"),
     getJson<Lexeme[]>(fetcher, base, "lexemes.json"),
@@ -75,6 +77,7 @@ export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: stri
     getJson<Manifest>(fetcher, base, "manifest.json"),
     getJson<Course>(fetcher, base, "course.json"),
     getJson<Reading[]>(fetcher, base, "readings.json").catch((): Reading[] => []), // aún no hay lecturas publicadas: no es un error
+    getJson<Record<string, Item[]>>(fetcher, base, "reading_items.json").catch((): Record<string, Item[]> => ({})),
   ]);
   const vCapsule = schemaValidator("capsule");
   const vItem = schemaValidator("item");
@@ -93,5 +96,5 @@ export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: stri
   }
   const rd = new Set(readings.map((r) => r.id));
   for (const u of course.units) for (const id of u.readings ?? []) if (!rd.has(id)) throw new ContentError(`La unidad ${u.id} usa una lectura que no está en el paquete (${id}).`);
-  return { capsules, itemsByCode, lexemes, sentences, manifest, course, readings };
+  return { capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems };
 }
