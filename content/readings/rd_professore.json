@@ -1,0 +1,76 @@
+{
+  "id": "rd_professore",
+  "title": "Il professore dà ordini",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/imperativo-tu-noi-voi/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Se tomó la conversación modelo del capítulo, dividida en frases; se quitaron las glosas en inglés. Texto muy corto.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_professore_00",
+      "it": "Ragazzi, fate attenzione e non parlate!",
+      "es": "¡Chicos, pongan atención y no hablen!",
+      "speaker": "Professore"
+    },
+    {
+      "id": "rd_professore_01",
+      "it": "Tu, Riccardo, leggi questo paragrafo e tu, Sara, rispondi a questa domanda!",
+      "es": "¡Tú, Riccardo, lee este párrafo y tú, Sara, responde esta pregunta!",
+      "speaker": "Professore"
+    },
+    {
+      "id": "rd_professore_02",
+      "it": "Leonardo, ascolta, non guardare il telefono e sta' attento!",
+      "es": "Leonardo, escucha, no mires el teléfono y presta atención.",
+      "speaker": "Professore"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué les pide el profesor a todos?",
+      "options": [
+        "Atención y que no hablen",
+        "Que salgan",
+        "Que abran el libro"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Qué debe hacer Riccardo?",
+      "options": [
+        "Responder una pregunta",
+        "Leer un párrafo",
+        "Salir"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué debe hacer Sara?",
+      "options": [
+        "Leer un párrafo",
+        "Escuchar",
+        "Responder una pregunta"
+      ],
+      "answer": 2,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué no debe hacer Leonardo?",
+      "options": [
+        "Mirar el teléfono",
+        "Escuchar",
+        "Hablar"
+      ],
+      "answer": 0,
+      "evidence": 2
+    }
+  ]
+}

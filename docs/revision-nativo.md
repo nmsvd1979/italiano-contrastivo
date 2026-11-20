@@ -731,6 +731,15 @@ Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario:
 | 13 | A dopo, ti mando un messaggio su whatsapp. | Hasta luego, te mando un mensaje por WhatsApp. | |
 | 14 | Ciao! | ¡Chao! | |
 
+### rd_festa · Una festa (Piacere! (Elementary Italian, University of Iowa), CC BY-NC-SA 4.0)
+
+| # | Italiano (libro) | Español (IA) | ✅/✏️/❌ |
+|---|---|---|---|
+| 0 | Ciao Luca, cosa fai stasera? | Hola Luca, ¿qué haces esta noche? | |
+| 1 | Esco con Filippo e Alessio. | Salgo con Filippo y Alessio. | |
+| 2 | Andiamo a una festa. | Vamos a una fiesta. | |
+| 3 | Vuoi venire con noi? | ¿Quieres venir con nosotros? | |
+
 ### rd_firenze · Firenze (Piacere! (Elementary Italian, University of Iowa), CC BY-NC-SA 4.0)
 
 | # | Italiano (libro) | Español (IA) | ✅/✏️/❌ |
@@ -964,6 +973,25 @@ Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario:
 | 16 | A che ora è il concerto? | ¿A qué hora es el concierto? | |
 | 17 | È alle ore 21. Il concerto è un evento benefico ed è gratis. | Es a las 21. El concierto es un evento benéfico y es gratis. | |
 
+### rd_professore · Il professore dà ordini (Piacere! (Elementary Italian, University of Iowa), CC BY-NC-SA 4.0)
+
+| # | Italiano (libro) | Español (IA) | ✅/✏️/❌ |
+|---|---|---|---|
+| 0 | Ragazzi, fate attenzione e non parlate! | ¡Chicos, pongan atención y no hablen! | |
+| 1 | Tu, Riccardo, leggi questo paragrafo e tu, Sara, rispondi a questa domanda! | ¡Tú, Riccardo, lee este párrafo y tú, Sara, responde esta pregunta! | |
+| 2 | Leonardo, ascolta, non guardare il telefono e sta' attento! | Leonardo, escucha, no mires el teléfono y presta atención. | |
+
+### rd_regalo · Con me, per te (Piacere! (Elementary Italian, University of Iowa), CC BY-NC-SA 4.0)
+
+| # | Italiano (libro) | Español (IA) | ✅/✏️/❌ |
+|---|---|---|---|
+| 0 | Ciao, stasera vado al cinema. | Hola, esta noche voy al cine. | |
+| 1 | Vuoi venire con me? | ¿Quieres venir conmigo? | |
+| 2 | Certo! A dopo, allora. | ¡Claro! Hasta luego, entonces. | |
+| 3 | Esco con loro. | Salgo con ellos. | |
+| 4 | Questo regalo è per te. | Este regalo es para ti. | |
+| 5 | Cerco proprio te. | Te busco justo a ti. | |
+
 ### rd_ristorante · Al ristorante (Piacere! (Elementary Italian, University of Iowa), CC BY-NC-SA 4.0)
 
 | # | Italiano (libro) | Español (IA) | ✅/✏️/❌ |
@@ -998,6 +1026,16 @@ Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario:
 | 27 | Allora siamo pronti… | Entonces estamos listos… | |
 | 28 | Scusi! | ¡Disculpe! | |
 | 29 | Cameriere! | ¡Camarero! | |
+
+### rd_ristorante2 · Un ristorante nuovo (Piacere! (Elementary Italian, University of Iowa), CC BY-NC-SA 4.0)
+
+| # | Italiano (libro) | Español (IA) | ✅/✏️/❌ |
+|---|---|---|---|
+| 0 | Ciao Francesca, io e Luca siamo andati al nuovo ristorante ieri sera. | Hola Francesca, Luca y yo fuimos ayer por la noche al nuevo restaurante. | |
+| 1 | Vi è piaciuto? | ¿Les gustó? | |
+| 2 | Sì, abbiamo mangiato abbastanza bene. | Sí, comimos bastante bien. | |
+| 3 | Ci sono piaciuti i ravioli e ci è piaciuta la bistecca. | Nos gustaron los ravioles y nos gustó el bistec. | |
+| 4 | Però non ci è piaciuto il dolce. | Pero no nos gustó el postre. | |
 
 ### rd_routine · La routine quotidiana (Leggiamo (Long Beach City College), CC BY-NC 4.0)
 
@@ -1073,6 +1111,16 @@ Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario:
 | 7 | In Italia ci sono ancora molti piccoli negozi di alimentari, forni e negozi di frutta e verdura. | En Italia todavía hay muchas tiendas pequeñas de alimentos, panaderías y verdulerías. | |
 | 8 | I prezzi sono più alti dei prezzi al supermercato, ma i negozi sono spesso locati nel centro della città ed è facile fare la spesa a piedi. | Los precios son más altos que en el supermercado, pero las tiendas suelen estar en el centro de la ciudad y es fácil hacer las compras a pie. | |
 | 9 | Molti italiani amano fare la spesa quasi tutti i giorni e comprare cibo fresco quando ne hanno bisogno. | A muchos italianos les gusta hacer las compras casi todos los días y comprar comida fresca cuando la necesitan. | |
+
+### rd_stasera · Cosa fai stasera? (Piacere! (Elementary Italian, University of Iowa), CC BY-NC-SA 4.0)
+
+| # | Italiano (libro) | Español (IA) | ✅/✏️/❌ |
+|---|---|---|---|
+| 0 | Ciao Vittoria, come stai? | Hola Vittoria, ¿cómo estás? | |
+| 1 | Sto abbastanza bene, grazie. E tu? | Estoy bastante bien, gracias. ¿Y tú? | |
+| 2 | Anche io sto bene. Che cosa fai stasera? | Yo también estoy bien. ¿Qué haces esta noche? | |
+| 3 | Vado al cinema con Leonardo. Tu cosa fai? | Voy al cine con Leonardo. ¿Y tú qué haces? | |
+| 4 | Lavoro. Tutti i giovedì do lezioni di yoga. | Trabajo. Todos los jueves doy clases de yoga. | |
 
 ### rd_stemmi · Gli stemmi delle arti (Leggiamo (Long Beach City College), CC BY-NC 4.0)
 

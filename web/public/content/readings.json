@@ -1758,6 +1758,91 @@
     ]
   },
   {
+    "id": "rd_festa",
+    "title": "Una festa",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/verbi-irregolari-in-ere-e-ire/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué pregunta Marco?",
+        "options": [
+          "Qué hace Luca esta noche",
+          "Dónde vive Luca",
+          "Cuántos años tiene"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Con quiénes sale Luca?",
+        "options": [
+          "Con Marco",
+          "Con Filippo y Alessio",
+          "Solo"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Adónde van?",
+        "options": [
+          "Al cine",
+          "A la playa",
+          "A una fiesta"
+        ],
+        "answer": 2,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Qué le propone Luca a Marco?",
+        "options": [
+          "Ir con ellos",
+          "Quedarse en casa",
+          "Llamar a Filippo"
+        ],
+        "answer": 0,
+        "evidence": 3
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_festa_00",
+        "it": "Ciao Luca, cosa fai stasera?",
+        "es": "Hola Luca, ¿qué haces esta noche?",
+        "speaker": "Marco",
+        "audio": "862a5c046891"
+      },
+      {
+        "id": "rd_festa_01",
+        "it": "Esco con Filippo e Alessio.",
+        "es": "Salgo con Filippo y Alessio.",
+        "speaker": "Luca",
+        "audio": "1e532dd4c89b"
+      },
+      {
+        "id": "rd_festa_02",
+        "it": "Andiamo a una festa.",
+        "es": "Vamos a una fiesta.",
+        "speaker": "Luca",
+        "audio": "fe071a9c0d4f"
+      },
+      {
+        "id": "rd_festa_03",
+        "it": "Vuoi venire con noi?",
+        "es": "¿Quieres venir con nosotros?",
+        "speaker": "Luca",
+        "audio": "ef61801c0306"
+      }
+    ]
+  },
+  {
     "id": "rd_firenze",
     "title": "Firenze",
     "level": "A1",
@@ -3672,6 +3757,180 @@
     ]
   },
   {
+    "id": "rd_professore",
+    "title": "Il professore dà ordini",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/imperativo-tu-noi-voi/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué les pide el profesor a todos?",
+        "options": [
+          "Atención y que no hablen",
+          "Que salgan",
+          "Que abran el libro"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Qué debe hacer Riccardo?",
+        "options": [
+          "Responder una pregunta",
+          "Leer un párrafo",
+          "Salir"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Qué debe hacer Sara?",
+        "options": [
+          "Leer un párrafo",
+          "Escuchar",
+          "Responder una pregunta"
+        ],
+        "answer": 2,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Qué no debe hacer Leonardo?",
+        "options": [
+          "Mirar el teléfono",
+          "Escuchar",
+          "Hablar"
+        ],
+        "answer": 0,
+        "evidence": 2
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_professore_00",
+        "it": "Ragazzi, fate attenzione e non parlate!",
+        "es": "¡Chicos, pongan atención y no hablen!",
+        "speaker": "Professore",
+        "audio": "3476dcec678a"
+      },
+      {
+        "id": "rd_professore_01",
+        "it": "Tu, Riccardo, leggi questo paragrafo e tu, Sara, rispondi a questa domanda!",
+        "es": "¡Tú, Riccardo, lee este párrafo y tú, Sara, responde esta pregunta!",
+        "speaker": "Professore",
+        "audio": "ce8354ac0042"
+      },
+      {
+        "id": "rd_professore_02",
+        "it": "Leonardo, ascolta, non guardare il telefono e sta' attento!",
+        "es": "Leonardo, escucha, no mires el teléfono y presta atención.",
+        "speaker": "Professore",
+        "audio": "cc7d7b78381b"
+      }
+    ]
+  },
+  {
+    "id": "rd_regalo",
+    "title": "Con me, per te",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/i-pronomi-tonici/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Adónde va Elisa esta noche?",
+        "options": [
+          "Al cine",
+          "A una fiesta",
+          "Al restaurante"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Qué le propone Elisa a Monica?",
+        "options": [
+          "Quedarse en casa",
+          "Ir con ella",
+          "Cenar fuera"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Qué responde Monica?",
+        "options": [
+          "Que no",
+          "Que lo piensa",
+          "Que sí"
+        ],
+        "answer": 2,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Para quién es el regalo?",
+        "options": [
+          "Para ti",
+          "Para mí",
+          "Para ellos"
+        ],
+        "answer": 0,
+        "evidence": 4
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_regalo_00",
+        "it": "Ciao, stasera vado al cinema.",
+        "es": "Hola, esta noche voy al cine.",
+        "speaker": "Elisa",
+        "audio": "c4c14ca3e101"
+      },
+      {
+        "id": "rd_regalo_01",
+        "it": "Vuoi venire con me?",
+        "es": "¿Quieres venir conmigo?",
+        "speaker": "Elisa",
+        "audio": "b031b66b0f0b"
+      },
+      {
+        "id": "rd_regalo_02",
+        "it": "Certo! A dopo, allora.",
+        "es": "¡Claro! Hasta luego, entonces.",
+        "speaker": "Monica",
+        "audio": "ec9f3c61cc7b"
+      },
+      {
+        "id": "rd_regalo_03",
+        "it": "Esco con loro.",
+        "es": "Salgo con ellos.",
+        "audio": "546da218875d"
+      },
+      {
+        "id": "rd_regalo_04",
+        "it": "Questo regalo è per te.",
+        "es": "Este regalo es para ti.",
+        "audio": "da7b5450ee36"
+      },
+      {
+        "id": "rd_regalo_05",
+        "it": "Cerco proprio te.",
+        "es": "Te busco justo a ti.",
+        "audio": "5e6b1f001db4"
+      }
+    ]
+  },
+  {
     "id": "rd_ristorante",
     "title": "Al ristorante",
     "level": "A1",
@@ -3941,6 +4200,98 @@
         "es": "¡Camarero!",
         "speaker": "Francesco",
         "audio": "a4eb1d24e825"
+      }
+    ]
+  },
+  {
+    "id": "rd_ristorante2",
+    "title": "Un ristorante nuovo",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/il-verbo-piacere/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Adónde fueron Angela y Luca?",
+        "options": [
+          "A un restaurante nuevo",
+          "Al cine",
+          "A casa de Francesca"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Cuándo fueron?",
+        "options": [
+          "Esta mañana",
+          "Ayer por la noche",
+          "Mañana"
+        ],
+        "answer": 1,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Qué les gustó?",
+        "options": [
+          "El postre",
+          "El vino",
+          "Los ravioles y el bistec"
+        ],
+        "answer": 2,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué no les gustó?",
+        "options": [
+          "El postre",
+          "Los ravioles",
+          "La bistec"
+        ],
+        "answer": 0,
+        "evidence": 4
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_ristorante2_00",
+        "it": "Ciao Francesca, io e Luca siamo andati al nuovo ristorante ieri sera.",
+        "es": "Hola Francesca, Luca y yo fuimos ayer por la noche al nuevo restaurante.",
+        "speaker": "Angela",
+        "audio": "f598e92d6832"
+      },
+      {
+        "id": "rd_ristorante2_01",
+        "it": "Vi è piaciuto?",
+        "es": "¿Les gustó?",
+        "speaker": "Francesca",
+        "audio": "e7f7bf775527"
+      },
+      {
+        "id": "rd_ristorante2_02",
+        "it": "Sì, abbiamo mangiato abbastanza bene.",
+        "es": "Sí, comimos bastante bien.",
+        "speaker": "Angela",
+        "audio": "f09b7a5da0a7"
+      },
+      {
+        "id": "rd_ristorante2_03",
+        "it": "Ci sono piaciuti i ravioli e ci è piaciuta la bistecca.",
+        "es": "Nos gustaron los ravioles y nos gustó el bistec.",
+        "speaker": "Angela",
+        "audio": "2bd4bc99792a"
+      },
+      {
+        "id": "rd_ristorante2_04",
+        "it": "Però non ci è piaciuto il dolce.",
+        "es": "Pero no nos gustó el postre.",
+        "speaker": "Angela",
+        "audio": "78d6c6fedeae"
       }
     ]
   },
@@ -4573,6 +4924,98 @@
         "it": "Molti italiani amano fare la spesa quasi tutti i giorni e comprare cibo fresco quando ne hanno bisogno.",
         "es": "A muchos italianos les gusta hacer las compras casi todos los días y comprar comida fresca cuando la necesitan.",
         "audio": "c2717165aa56"
+      }
+    ]
+  },
+  {
+    "id": "rd_stasera",
+    "title": "Cosa fai stasera?",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Piacere! (Elementary Italian, University of Iowa)",
+      "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/verbi-irregolari-in-are/",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cómo está Vittoria?",
+        "options": [
+          "Bastante bien",
+          "Muy mal",
+          "Cansada"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Adónde va Vittoria esta noche?",
+        "options": [
+          "Al gimnasio",
+          "Al cine",
+          "A una fiesta"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Con quién va?",
+        "options": [
+          "Con Sara",
+          "Sola",
+          "Con Leonardo"
+        ],
+        "answer": 2,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué hace Sara los jueves?",
+        "options": [
+          "Da clases de yoga",
+          "Va al cine",
+          "Estudia"
+        ],
+        "answer": 0,
+        "evidence": 4
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_stasera_00",
+        "it": "Ciao Vittoria, come stai?",
+        "es": "Hola Vittoria, ¿cómo estás?",
+        "speaker": "Sara",
+        "audio": "e0a19080b443"
+      },
+      {
+        "id": "rd_stasera_01",
+        "it": "Sto abbastanza bene, grazie. E tu?",
+        "es": "Estoy bastante bien, gracias. ¿Y tú?",
+        "speaker": "Vittoria",
+        "audio": "390a9586d506"
+      },
+      {
+        "id": "rd_stasera_02",
+        "it": "Anche io sto bene. Che cosa fai stasera?",
+        "es": "Yo también estoy bien. ¿Qué haces esta noche?",
+        "speaker": "Sara",
+        "audio": "671a57eccbba"
+      },
+      {
+        "id": "rd_stasera_03",
+        "it": "Vado al cinema con Leonardo. Tu cosa fai?",
+        "es": "Voy al cine con Leonardo. ¿Y tú qué haces?",
+        "speaker": "Vittoria",
+        "audio": "13d0475e5e7c"
+      },
+      {
+        "id": "rd_stasera_04",
+        "it": "Lavoro. Tutti i giovedì do lezioni di yoga.",
+        "es": "Trabajo. Todos los jueves doy clases de yoga.",
+        "speaker": "Sara",
+        "audio": "602a9b666d7c"
       }
     ]
   },
