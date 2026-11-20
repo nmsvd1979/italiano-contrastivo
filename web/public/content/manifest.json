@@ -14,7 +14,11 @@
     "cap_err_ce_agreement",
     "cap_err_prep_article_contraction",
     "cap_err_prep_place",
+    "cap_err_genere_es",
+    "cap_err_indefinite_article",
+    "cap_err_participio_es",
     "cap_err_piacere_accordo",
+    "cap_err_riflessivo_pronome",
     "cap_err_tenere_avere",
     "cap_err_voc_abiti",
     "cap_err_voc_aggettivi",
@@ -31,6 +35,7 @@
     "cap_err_voc_cucina",
     "cap_err_voc_denaro",
     "cap_err_voc_dimostrativi",
+    "cap_err_voc_direzioni",
     "cap_err_voc_familia",
     "cap_err_voc_frutta",
     "cap_err_voc_igiene",
@@ -85,10 +90,25 @@
       "reason": null,
       "usable": 83
     },
+    "ERR_GENERE_ES": {
+      "capsule": true,
+      "reason": null,
+      "usable": 21
+    },
     "ERR_GLI_PALATAL": {
       "capsule": true,
       "reason": null,
       "usable": 39
+    },
+    "ERR_INDEFINITE_ARTICLE": {
+      "capsule": true,
+      "reason": null,
+      "usable": 24
+    },
+    "ERR_PARTICIPIO_ES": {
+      "capsule": true,
+      "reason": null,
+      "usable": 21
     },
     "ERR_PARTICIPLE_AGREEMENT": {
       "capsule": true,
@@ -149,6 +169,11 @@
       "capsule": true,
       "reason": null,
       "usable": 36
+    },
+    "ERR_RIFLESSIVO_PRONOME": {
+      "capsule": true,
+      "reason": null,
+      "usable": 26
     },
     "ERR_SC_PALATAL": {
       "capsule": true,
@@ -234,6 +259,11 @@
       "capsule": true,
       "reason": null,
       "usable": 28
+    },
+    "ERR_VOC_DIREZIONI": {
+      "capsule": true,
+      "reason": null,
+      "usable": 51
     },
     "ERR_VOC_FAMILIA": {
       "capsule": true,
@@ -322,18 +352,18 @@
     }
   },
   "levels": {
-    "A1": 1371,
-    "A2": 243,
-    "B1": 138,
+    "A1": 1452,
+    "A2": 302,
+    "B1": 141,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 1732,
+    "llm-audit": 1875,
     "me": 27
   },
-  "sentences_used": 1608,
+  "sentences_used": 1751,
   "translation_kind": {
-    "direct": 1478,
-    "llm": 130
+    "direct": 1605,
+    "llm": 146
   }
 }

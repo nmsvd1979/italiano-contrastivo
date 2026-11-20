@@ -41,7 +41,8 @@ def test_curso_real_es_consistente():
     ids = [u["id"] for u in course["units"]]
     assert len(set(ids)) == len(ids)  # el orden lo da la lista, no el número del id (los ids guardan progreso y no se renumeran)
     levels = [l["id"] for l in course["levels"]]
-    assert [levels.index(u["level"]) for u in course["units"]] == sorted(levels.index(u["level"]) for u in course["units"])
+    core = [u for u in course["units"] if not u["level"].endswith("+")]  # el vocabulario opcional («A1+») va aparte, al final
+    assert [levels.index(u["level"]) for u in core] == sorted(levels.index(u["level"]) for u in core)
     items = json.loads((PACK / "items_by_code.json").read_text(encoding="utf8"))
     for u in course["units"]:
         code = u["codes"][0]

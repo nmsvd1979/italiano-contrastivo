@@ -2,14 +2,15 @@ import type { Course, Unit } from "../content/load";
 import { isPreview } from "./preview";
 import type { StepId, UnitProgress } from "./store";
 
-export const STEPS: StepId[] = ["descubre", "lectura", "capsula", "practica", "escucha", "practica2", "prueba"];
-/** Los pasos de una unidad: «Lectura» solo existe si la unidad tiene un texto asignado. */
-export const stepsFor = (unit?: Unit): StepId[] => (unit && !unit.readings?.length ? STEPS.filter((s) => s !== "lectura") : STEPS);
+export const STEPS: StepId[] = ["descubre", "palabras", "lectura", "capsula", "practica", "escucha", "practica2", "prueba"];
+/** Los pasos de una unidad: «Lectura» solo si tiene un texto asignado y «Palabras» solo si es de vocabulario (lista de palabras del tema). */
+export const stepsFor = (unit?: Unit): StepId[] => (unit ? STEPS.filter((s) => (s !== "lectura" || !!unit.readings?.length) && (s !== "palabras" || !!unit.words?.length)) : STEPS);
 export const STEP_LABEL: Record<StepId, string> = {
-  descubre: "Descubre", lectura: "Lectura", capsula: "Cápsula", practica: "Práctica", escucha: "Escucha", practica2: "Práctica 2", prueba: "Prueba de la unidad",
+  descubre: "Descubre", palabras: "Palabras", lectura: "Lectura", capsula: "Cápsula", practica: "Práctica", escucha: "Escucha", practica2: "Práctica 2", prueba: "Prueba de la unidad",
 };
 export const STEP_PURPOSE: Record<StepId, string> = {
   descubre: "Bloque de lectura: ejemplos reales con el punto clave resaltado, significado y huecos solo donde el italiano difiere.",
+  palabras: "Las palabras del tema, con significado y audio: míralas, escúchalas y tápalas para comprobar que las recuerdas.",
   lectura: "Un texto real de un libro abierto: léelo con audio y traducción, y responde preguntas.",
   capsula: "Gimnasio sintáctico: una explicación corta y práctica guiada de un solo punto.",
   practica: "Ejercicios variados; lo que falles vuelve una vez más.",
@@ -27,24 +28,28 @@ export function nextStep(p: UnitProgress, unit?: Unit): StepId | null {
   return stepsFor(unit).find((s) => !p.done[s]) ?? null;
 }
 
+/** Unidad opcional (vocabulario ampliado): no cuenta para el examen de hito ni bloquea las demás. */
+export const isOptional = (unit: Unit): boolean => unit.level.endsWith("+");
+
 export type UnitState = "completed" | "current" | "locked";
 export type UnitView = { unit: Unit; state: UnitState; progress: UnitProgress; next: StepId | null; index: number; preview?: boolean };
 
 /** Estado de cada unidad: la primera sin completar es la actual; las siguientes quedan bloqueadas. */
 export function unitViews(course: Course, all: UnitProgress[], unlockAll: boolean = isPreview()): UnitView[] {
   const byId = new Map(all.map((p) => [p.unitId, p]));
-  let currentFound = false;
+  const found = { core: false, optional: false };  // las unidades opcionales (nivel «A1+») van en su propia cadena y nunca bloquean el camino principal
   return course.units.map((unit, index) => {
     const progress = byId.get(unit.id) ?? emptyProgress(unit.id);
+    const chain = isOptional(unit) ? "optional" : "core";
     let state: UnitState;
     if (progress.completed) state = "completed";
-    else if (!currentFound || unlockAll) { state = "current"; currentFound = true; }
+    else if (!found[chain] || unlockAll) { state = "current"; found[chain] = true; }
     else state = "locked";
     return { unit, state, progress, next: state === "current" ? nextStep(progress, unit) : null, index, preview: unlockAll };
   });
 }
 
-export const currentView = (views: UnitView[]): UnitView | undefined => views.find((v) => v.state === "current");
+export const currentView = (views: UnitView[]): UnitView | undefined => views.find((v) => v.state === "current" && !isOptional(v.unit)) ?? views.find((v) => v.state === "current");
 
 /** Un paso solo se puede hacer si es el siguiente de la unidad actual (o repetir uno ya hecho de una unidad desbloqueada). */
 export function canDoStep(view: UnitView, step: StepId): boolean {
@@ -77,5 +82,6 @@ export function masterByPlacement(p: UnitProgress, now: Date): UnitProgress {
 }
 
 export function summary(views: UnitView[]): { done: number; total: number; current?: UnitView } {
-  return { done: views.filter((v) => v.state === "completed").length, total: views.length, current: currentView(views) };
+  const core = views.filter((v) => !isOptional(v.unit));
+  return { done: core.filter((v) => v.state === "completed").length, total: core.length, current: currentView(views) };
 }

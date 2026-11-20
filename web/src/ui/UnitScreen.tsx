@@ -14,6 +14,12 @@ export function UnitScreen({ view, pack }: { view: UnitView; pack: ContentPack }
       <h1 lang="it">{unit.title}</h1>
       <p>{unit.goal_es}</p>
       <p><small>Por qué aquí: {unit.why_here} Unidad completa: {formatDuration(total)} repartidos en {stepsFor(unit).length} pasos que puedes hacer en días distintos.</small></p>
+      {unit.ficha_es && (
+        <details className="ficha" open={view.progress.done.descubre === undefined}>
+          <summary><strong>Ficha de la unidad</strong></summary>
+          {unit.ficha_es.split("\n\n").map((p, i) => <p key={i}>{p}</p>)}
+        </details>
+      )}
       {view.state === "locked" && <p role="status">Esta unidad se abre cuando completes la anterior.</p>}
       <ol className="steps">
         {stepsFor(unit).map((s) => {

@@ -240,6 +240,82 @@ def _piacere(it: str):
     return Calque("ERR_PIACERE_ACCORDO", m.start(1), m.end(1), verb, wrong, "morphological")
 
 
+# --- Plan corregido: génerо distinto del español, uno/un', pronombres reflexivos y participio calcado -------------------
+
+
+def _genere(it: str):
+    """El género de estas palabras no coincide con el español (la leche → il latte; el mapa → la mappa): el error es copiar el género español."""
+    pats = [(re.compile(r"\b(il|un|uno)\s+(latte|sale|miele|sangue|fiore|naso|ginocchio|sorriso)\b", re.I), {"il": "la", "un": "una", "uno": "una"}),
+            (re.compile(r"\b(i)\s+(fiori|nasi|sorrisi|ginocchi)\b", re.I), {"i": "le"}),
+            (re.compile(r"\b(la|una)\s+(mappa|matita|penna|scarpa|borsa)\b", re.I), {"la": "il", "una": "un"}),
+            (re.compile(r"\b(le)\s+(mappe|matite|penne|scarpe|borse)\b", re.I), {"le": "i"})]
+    found = [(m, sw) for pat, sw in pats for m in pat.finditer(it)]
+    if len(found) != 1:
+        return None
+    m, sw = found[0]
+    art = m.group(1)
+    return Calque("ERR_GENERE_ES", m.start(1), m.end(1), art, _cap(sw[art.lower()], art), "l1_calque")
+
+
+_INDEF_UNO = re.compile(rf"\b(uno|Uno)\s+(?={IMPURE}\w*)", re.I)
+_INDEF_UN_APOS = re.compile(r"\b(un')(?=[aeiouàèéìòù]\w*)", re.I)
+
+
+def _indefinite(it: str):
+    """«uno studente» (no «un studente») y «un'amica» (no «un amica»): el indefinido cambia con la letra inicial del sustantivo."""
+    a = list(_INDEF_UNO.finditer(it))
+    b = list(_INDEF_UN_APOS.finditer(it))
+    if len(a) + len(b) != 1:
+        return None
+    if a:
+        m = a[0]
+        return Calque("ERR_INDEFINITE_ARTICLE", m.start(1), m.end(1), m.group(1), _cap("un", m.group(1)), "morphological")
+    m = b[0]
+    end = m.end(1)
+    return Calque("ERR_INDEFINITE_ARTICLE", m.start(1), end, m.group(1), _cap("un ", m.group(1)), "morphological")
+
+
+REFL = {"mi": ("me", "o"), "ti": ("te", "i"), "si": ("se", "a"), "ci": ("nos", "iamo"), "vi": ("os", "ate")}
+REFL_STEMS = ("svegli", "alz", "lav", "vest", "riposa", "ferm", "diverti", "annoi", "addormento", "senti", "preoccup", "trucc", "pettin", "rad")
+_REFL = re.compile(r"\b(mi|ti|si|ci|vi)\s+((?:" + "|".join(REFL_STEMS) + r")\w*)\b", re.I)
+
+
+def _riflessivo(it: str):
+    """«mi sveglio» (no «me sveglio»): los pronombres reflexivos son mi, ti, si, ci, vi (el español usa me, te, se, nos, os)."""
+    found = []
+    for m in _REFL.finditer(it):
+        pron, verb = m.group(1).lower(), m.group(2).lower()
+        _, ending = REFL[pron]
+        ok = verb.endswith(ending) or (pron == "si" and verb.endswith(("e", "ano", "ono")))
+        if pron == "mi" and not verb.endswith("o"):
+            ok = False
+        if ok and not verb.endswith(("ando", "endo", "ato", "uto", "ito")):  # sin gerundios ni participios
+            found.append(m)
+    if len(found) != 1 or len(_REFL.findall(it)) != 1:
+        return None
+    m = found[0]
+    p = m.group(1)
+    return Calque("ERR_RIFLESSIVO_PRONOME", m.start(1), m.end(1), p, _cap(REFL[p.lower()][0], p), "l1_calque")
+
+
+_AVERE = r"(?:ho|hai|ha|abbiamo|avete|hanno)"
+_PARTICIPIO = re.compile(rf"\b{_AVERE}\s+(?:non\s+)?((?:\w{{3,}})(?:ato|uto|ito))\b", re.I)
+
+
+def _participio(it: str):
+    """«ho mangiato» (no «ho mangiado»): el participio italiano termina en -ato/-uto/-ito; el español, en -ado/-ido."""
+    from wordfreq import zipf_frequency
+    found = list(_PARTICIPIO.finditer(it))
+    if len(found) != 1:
+        return None
+    m = found[0]
+    word = m.group(1)
+    wrong = word[:-3] + ("ado" if word.endswith("ato") else "ido")
+    if zipf_frequency(wrong.lower(), "it") > 0 or zipf_frequency(word.lower(), "it") == 0:
+        return None
+    return Calque("ERR_PARTICIPIO_ES", m.start(1), m.end(1), word, wrong, "l1_calque")
+
+
 _GENERATORS: dict[str, Callable[[str], Calque | None]] = {
     "ERR_AUX_ESSERE": _aux_essere,
     "ERR_PREP_PLACE": _prep_place,
@@ -254,6 +330,10 @@ _GENERATORS: dict[str, Callable[[str], Calque | None]] = {
     "ERR_POSSESSIVE_SPELLING": _possessive_spelling,
     "ERR_CONGIUNTIVO_OPINION": _congiuntivo_opinion,
     "ERR_PIACERE_ACCORDO": _piacere,
+    "ERR_GENERE_ES": _genere,
+    "ERR_INDEFINITE_ARTICLE": _indefinite,
+    "ERR_RIFLESSIVO_PRONOME": _riflessivo,
+    "ERR_PARTICIPIO_ES": _participio,
     **{c: _vocab_for(c) for c in _vocab_codes()},
     **{c: _phonetic_for(c) for c in ("ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL")},
     **{c: _present_for(c) for c in ("ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL")},

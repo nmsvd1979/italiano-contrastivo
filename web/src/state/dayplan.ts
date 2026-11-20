@@ -13,7 +13,7 @@ export const BLOCKS: Record<BlockKey, { n: string; title: string; color: string 
   lectura: { n: "④", title: "Lectura y reconstrucción", color: "var(--b4)" },
 };
 /** Qué bloque de la sesión de las fuentes trabaja cada paso de la unidad. */
-export const BLOCK_OF_STEP: Record<StepId, BlockKey> = { descubre: "lectura", lectura: "lectura", capsula: "gimnasio", practica: "gimnasio", escucha: "voz", practica2: "gimnasio", prueba: "gimnasio" };
+export const BLOCK_OF_STEP: Record<StepId, BlockKey> = { descubre: "lectura", palabras: "repaso", lectura: "lectura", capsula: "gimnasio", practica: "gimnasio", escucha: "voz", practica2: "gimnasio", prueba: "gimnasio" };
 
 export type SessionBlock = { key: BlockKey; title: string; subtitle: string; seconds: number; href: string; done: boolean; step?: StepId };
 export const SESSION_BUDGET_SECONDS = 25 * 60;

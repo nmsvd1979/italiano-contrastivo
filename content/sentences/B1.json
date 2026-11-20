@@ -2491,6 +2491,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
     "error_codes": [
+      "ERR_VOC_DIREZIONI"
+    ],
+    "es": "Está escondido debajo de la cama.",
+    "es_author": "Shishir",
+    "es_source_id": "1868683",
+    "id": "s_4697206",
+    "it": "È nascosto sotto il letto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4697206",
+    "tag_rules": {
+      "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
       "ERR_C_G_PALATAL",
       "ERR_TENERE_AVERE"
     ],
@@ -2886,6 +2908,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "rado",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_GENERE_ES"
+    ],
+    "es": "La rosa es una flor y la paloma es un ave.",
+    "es_author": "Leono",
+    "es_source_id": "598215",
+    "id": "s_609164",
+    "it": "La rosa è un fiore e la colomba è un uccello.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "609164",
+    "tag_rules": {
+      "ERR_GENERE_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
@@ -3205,6 +3249,28 @@
       "ERR_CONGIUNTIVO_OPINION": "congiuntivo_dopo_opinione",
       "ERR_GEMINATE": "geminata_pares_minimos",
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_RIFLESSIVO_PRONOME"
+    ],
+    "es": "¿A qué hora te despiertas por la mañana?",
+    "es_author": "Shishir",
+    "es_source_id": "956755",
+    "id": "s_759942",
+    "it": "A che ora ti svegli la mattina?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "759942",
+    "tag_rules": {
+      "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
     },
     "translation_kind": "direct"
   },

@@ -3,7 +3,7 @@ import type { ReviewLog } from "../generated/review-log";
 import { schemaValidator } from "../content/schemas";
 
 export type DayProgress = { date: string; reviewsDone: number; capsulesDone: string[]; stepsDone?: string[] };
-export type StepId = "descubre" | "lectura" | "capsula" | "practica" | "escucha" | "practica2" | "prueba";
+export type StepId = "descubre" | "palabras" | "lectura" | "capsula" | "practica" | "escucha" | "practica2" | "prueba";
 /** Avance de una unidad: pasos hechos (fecha ISO), mejor nota de la prueba y si quedó completada. */
 export type UnitProgress = {
   unitId: string;

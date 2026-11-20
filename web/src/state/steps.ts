@@ -175,6 +175,7 @@ export function stepSeconds(unit: Unit, step: StepId, pack: ContentPack, samples
   const sum = (items: Item[]) => items.reduce((s, it) => s + estimateSeconds(kindOf(it), samples), 0);
   switch (step) {
     case "descubre": return t("notice", unit.parts.descubre.length) + t("choice", 2) + sum(reconstructionItems(unit, pack, samples));
+    case "palabras": return t("flashcard", unit.words?.length ?? 0);
     case "lectura": {
       const r = readingOf(unit, pack);
       return r ? t("notice", r.sentences.length) + t("choice", r.questions.length) : 0; // leer + oír + comprobar cada oración, y responder

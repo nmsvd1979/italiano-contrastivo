@@ -20,6 +20,8 @@ export type Unit = {
   parts: { descubre: string[]; practica: string[]; escucha: string[]; prueba: string[] };
   divergences: { id: string; start: number; end: number; wrong: string }[];
   readings?: string[];
+  words?: { form: string; gender: string; num: string; gloss: string; audio?: string }[];
+  ficha_es?: string;
 };
 export type ReadingSentence = { id: string; it: string; es: string; audio?: string };
 export type ReadingQuestion = { prompt_es: string; options: string[]; answer: number; evidence?: number };

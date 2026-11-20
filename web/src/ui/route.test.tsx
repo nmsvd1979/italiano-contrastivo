@@ -23,7 +23,7 @@ const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code
 const NOW = new Date("2026-11-17T12:00:00.000Z");
 const U1 = pack.course.units[0].id; // el orden lo da course.json: no se fija «u01»
 const U2 = pack.course.units[1].id;
-const TOTAL = pack.course.units.length;
+const TOTAL = pack.course.units.filter((u) => !u.level.endsWith("+")).length; // las unidades opcionales no cuentan en el total
 
 describe("dictado", () => {
   it.each([
