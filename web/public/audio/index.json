@@ -1,8 +1,22 @@
 [
   {
+    "id": "0035fa221872",
+    "sha1": "0035fa221872ac6f1a06024bc7f90477bee0e182",
+    "text": "Voglio un nuovo telefono.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "00363027ea97",
     "sha1": "00363027ea970be1f216903e1f81cea4836ee507",
     "text": "Copia questo programma nel tuo computer.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "006725838799",
+    "sha1": "006725838799e3bfd75fd4b2491c9d4d96ef4294",
+    "text": "Mi piace la mia lingua.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -147,6 +161,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "01e098afff19",
+    "sha1": "01e098afff19b64938cbcf7d97ccdc6f57222b43",
+    "text": "Com'è strana la vita!",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "01f85d177cc0",
     "sha1": "01f85d177cc0a0a2913efa24269c3a0d48985fe6",
     "text": "Quel tavolo è sporco.",
@@ -157,6 +178,13 @@
     "id": "020faeaaa261",
     "sha1": "020faeaaa261d5dbe1b12882bf42405a537c4b84",
     "text": "A chi appartiene questo cane?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "021bf24804f2",
+    "sha1": "021bf24804f2729905fb886cb0c4d46a38e3609e",
+    "text": "L'inglese è una lingua.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -192,6 +220,13 @@
     "id": "02879b62e930",
     "sha1": "02879b62e930811645b0d00cfedbd0188c583201",
     "text": "Vado a Parigi in automobile domani.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "02b2c869722e",
+    "sha1": "02b2c869722e81df36f9d914177348e437b731b2",
+    "text": "Adesso io devo andare a fare la spesa.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -241,6 +276,13 @@
     "id": "0385bf8fbd60",
     "sha1": "0385bf8fbd608cf9d14db255c9476157ac4271c0",
     "text": "guardare",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "03ca93558d9d",
+    "sha1": "03ca93558d9d9036bdaecf238d9a36dd75807f62",
+    "text": "Giuditta e Artemisia camminano per le strade di Firenze e passano davanti alla casa di Dante.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -336,6 +378,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "0631030dd432",
+    "sha1": "0631030dd432642e22e589a313c20e0b01ec0637",
+    "text": "La scatola è pesante.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "066e58386d36",
     "sha1": "066e58386d36311109dc2316a9751332d64af42f",
     "text": "Mi piace il poker.",
@@ -381,6 +430,13 @@
     "id": "0740cb690ce5",
     "sha1": "0740cb690ce597e476efba4935d4a5f235ca3a8d",
     "text": "Dove abiti Michelangelo?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "074180d2326a",
+    "sha1": "074180d2326adaaefc817c5449d514213b750a78",
+    "text": "Ieri sono andata in un negozio del centro e ho visto i saldi e non ho saputo resistere.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -455,6 +511,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "094d2b219434",
+    "sha1": "094d2b2194346336628048b40bfd674e92e552b8",
+    "text": "Mi sono svegliato alle 6:30 di mattina, mi sono alzato e mi sono fatto la doccia.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "095541f22c96",
     "sha1": "095541f22c961e4cad97658bf297ce9588a321cb",
     "text": "E tu?",
@@ -472,6 +535,13 @@
     "id": "095d48189076",
     "sha1": "095d48189076d350e37b0311bde5c711d80a4708",
     "text": "Artemisia, Giuditta, Tommaso e Michelangelo sono molto contenti.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "09efea44bffa",
+    "sha1": "09efea44bffa8b5cb8e5e3c11667343908c64558",
+    "text": "La banana è dolce.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -553,9 +623,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "0b465aaf05a0",
+    "sha1": "0b465aaf05a0f631fc62e266f651e771885796eb",
+    "text": "A me piace fare foto.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "0b4a651bc62d",
     "sha1": "0b4a651bc62dc85468ab6d460d3f0165b40c0bb3",
     "text": "Casa tua è grande.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "0b7159232499",
+    "sha1": "0b71592324995aaadea352d14ae7278eadbe98d2",
+    "text": "Lei parla bene l'inglese.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -651,6 +735,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "0dcf393c82e3",
+    "sha1": "0dcf393c82e38de1a74891c1de353cec99041a15",
+    "text": "La carota è uno spuntino salutare.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "0dd98f08037a",
     "sha1": "0dd98f08037a468ce4ab88cb71eb22bc12b750af",
     "text": "Sì, quello è il posto del vero David.",
@@ -675,6 +766,13 @@
     "id": "0e163eea8987",
     "sha1": "0e163eea8987e95ea2e941e06712c37206177cb3",
     "text": "Mattarella va dalla cassiera e domanda: «Possiamo sederci in quel tavolo lì?»",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "0e42f494832a",
+    "sha1": "0e42f494832a5fd0a720103af4debb5027aec6c2",
+    "text": "Il monte Aso è un vulcano attivo.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -717,6 +815,13 @@
     "id": "0ee47be86389",
     "sha1": "0ee47be86389ddb709163ec28de853fd287c2b06",
     "text": "Siamo a Firenze, una bella città in Italia.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "0f213079cc15",
+    "sha1": "0f213079cc15fcfba5d9a6e6a1dd5ef72cd25f6d",
+    "text": "Le api producono il miele.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -805,6 +910,20 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "10e741801027",
+    "sha1": "10e741801027d97675bae324225362abe3ed5a55",
+    "text": "La doccia è rotta.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "110ceb4a1277",
+    "sha1": "110ceb4a1277b656485d4b08d417b308ac40ddb4",
+    "text": "Sono quasi le venti ed è ancora chiaro.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "1118a631735d",
     "sha1": "1118a631735df2d4918ffc4650d9f6b290d76a07",
     "text": "John è il mio migliore amico.",
@@ -822,6 +941,13 @@
     "id": "115ee55e15b4",
     "sha1": "115ee55e15b4b236e914b57a54ff5031874c9b99",
     "text": "Io so che lei sa.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "116268a7f56b",
+    "sha1": "116268a7f56beb8fb32856ce28b42544d0347eff",
+    "text": "Senza acqua non c'è vita.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -878,6 +1004,13 @@
     "id": "126392a184a4",
     "sha1": "126392a184a4cadad648f0ede88ee005b2dcd4ac",
     "text": "Non ho soldi per ora.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "1283a00eacda",
+    "sha1": "1283a00eacda67e208a048f328c0f2d73986aab3",
+    "text": "Perché il sapone è sul tavolo?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -945,6 +1078,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "13af640c601b",
+    "sha1": "13af640c601b4220cd879657c5f2696989c15f57",
+    "text": "C'è speranza per tutti.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "13ba7c9a705e",
     "sha1": "13ba7c9a705e10c142002a6104efb7737f2005fd",
     "text": "La preferisci naturale o gassata?",
@@ -980,6 +1120,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "147ac95eae9c",
+    "sha1": "147ac95eae9c8764eb72c2786c5c385873a6b7ac",
+    "text": "Non c'è più sale.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "1497e5dbe9ad",
     "sha1": "1497e5dbe9ad7a9579e7fa0ab6f8271e9f497d30",
     "text": "C'è una biro fra la mela e il libro.",
@@ -990,6 +1137,13 @@
     "id": "149f12d441ea",
     "sha1": "149f12d441ea7691cbcaa0ebbcceecab36f6046e",
     "text": "I miei genitori sono anziani.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "14b50df31b79",
+    "sha1": "14b50df31b797330dc352c28fdff2db72ca903b0",
+    "text": "Tom sta mangiando una banana.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -1025,6 +1179,13 @@
     "id": "15228118c384",
     "sha1": "15228118c3844b838922172064dc687884317fca",
     "text": "Il mio cane è marrone.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "152ef2f2b5a8",
+    "sha1": "152ef2f2b5a8b069869047a478ae50fa0a665996",
+    "text": "La verità è solo una.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -1162,9 +1323,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "17059f686cc3",
+    "sha1": "17059f686cc35eb3af597174966b6b2193073a43",
+    "text": "Non c'è cibo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "17158a6ffdfe",
     "sha1": "17158a6ffdfe53ba6042d087f9b832368273180f",
     "text": "Penso che non sia colpa di nessuno.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "171928bf75c7",
+    "sha1": "171928bf75c789882b9aeb4e573222822082955a",
+    "text": "Qual è la tua frase preferita?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -1176,9 +1351,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "175c7d1d1441",
+    "sha1": "175c7d1d1441b629ea87b55775a9ee3350ddf371",
+    "text": "Ho perso l'autobus e sono arrivato a lezione in ritardo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "17636b495019",
     "sha1": "17636b495019aeafc3a763564e0c802f69884403",
     "text": "È molto affettuoso.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "177f842f724a",
+    "sha1": "177f842f724a5673f97ba12e3b0c45974d527de9",
+    "text": "E lei mi ha detto: «Certo, vai nel camerino».",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -1344,9 +1533,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "1a3a84e9cc32",
+    "sha1": "1a3a84e9cc325410f724b893f35b34671a076ae7",
+    "text": "Suo padre è giapponese.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "1a45751f6c93",
     "sha1": "1a45751f6c93647c7c3a34fc37eded992305ac68",
     "text": "C'è un gatto davanti al cancello.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "1a8a838d3826",
+    "sha1": "1a8a838d3826ccea59b1d61f37dc6f7cbc4e011b",
+    "text": "Sta comprando dei libri in libreria.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -1361,6 +1564,13 @@
     "id": "1b26f0ac5dad",
     "sha1": "1b26f0ac5dad1dd2f103844fce005be58e7c208a",
     "text": "Lui non capisce la tecnologia moderna.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "1b60ba99ab1a",
+    "sha1": "1b60ba99ab1a9d257711dd27796a3c8c29cdbd25",
+    "text": "Come si dice \"ragno\" in tedesco?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -1445,6 +1655,13 @@
     "id": "1c8ea602f2da",
     "sha1": "1c8ea602f2dad811db58677270990c69f1960dc6",
     "text": "Ci sono molti animali nello zoo?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "1ca8a371a2ec",
+    "sha1": "1ca8a371a2ec608d83686d650e258ad76786b996",
+    "text": "Chi è il suo scultore?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -1547,6 +1764,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "1eafe519711a",
+    "sha1": "1eafe519711a7830c255a07712427bca0446b0cb",
+    "text": "Posso scattarti una foto?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "1eca8631e35e",
     "sha1": "1eca8631e35e0c316707fbb9208294e036c136b8",
     "text": "Qual è la vostra valigia?",
@@ -1554,9 +1778,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "1f1bceb8b460",
+    "sha1": "1f1bceb8b460ea7102f8b69c1d3bed89f8d5df48",
+    "text": "Scusami. Voglio un libro. Dov'è la libreria?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "1f21d592de7f",
     "sha1": "1f21d592de7ff54c00bf7562b56c15f21b7c9906",
     "text": "È in un nuovo palazzone. È al quinto piano.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "1f57c79476c6",
+    "sha1": "1f57c79476c68fd4770b9f6f7b8d288477486bdb",
+    "text": "Sono un cittadino francese.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -1571,6 +1809,13 @@
     "id": "1f7e32f84a68",
     "sha1": "1f7e32f84a689264f998e23f604df4e46791bcaf",
     "text": "Non andare nella mia stanza.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "1f8a693f09da",
+    "sha1": "1f8a693f09daa692cdc5ca6091a9e63368c04284",
+    "text": "Sto mangiando una banana.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -1648,6 +1893,13 @@
     "id": "2192b97f2e3a",
     "sha1": "2192b97f2e3ae51f7fd6bff558cece6717683976",
     "text": "Lui è un poeta.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "21ac32c80b9a",
+    "sha1": "21ac32c80b9a46b46788c2d410ba379f98744c0f",
+    "text": "La cipolla è deliziosa.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -1757,6 +2009,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "23b0f8de816f",
+    "sha1": "23b0f8de816f57cefda19d37d587161c3fc5c6cb",
+    "text": "Dov'è il cellulare?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "241de5aabcf2",
     "sha1": "241de5aabcf2a5c38e6f48cfe45bddf5d2e356ed",
     "text": "Una mano lava l'altra.",
@@ -1774,6 +2033,13 @@
     "id": "2440897918bb",
     "sha1": "2440897918bb76ba3c54654f1fe4058ba3edc6bc",
     "text": "Io non voglio la tua cravatta.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "2452c466413b",
+    "sha1": "2452c466413bbf6f1efb2dd9113d804fcdf6c56c",
+    "text": "Hai un dizionario d'inglese?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -1830,6 +2096,13 @@
     "id": "2519024651ae",
     "sha1": "2519024651aefda5b639fd29a47ffbed83215bc5",
     "text": "A lui non piace il caffè.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "251f7673b79c",
+    "sha1": "251f7673b79cac50c195f32cc6d08324a1a5887c",
+    "text": "Tom è sotto la doccia.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -1918,6 +2191,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "2690470ce1e8",
+    "sha1": "2690470ce1e826b79ae573cfaa67e7a85c5798d8",
+    "text": "Non voglio imparare il francese.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "26ab5b554d9b",
     "sha1": "26ab5b554d9b44a45c7d0652b6e4dbf91ccdfd4f",
     "text": "Sono le ore sedici e il signor Mattarella e la signora Winfrey escono dal museo.",
@@ -1995,6 +2275,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "27868fe98b88",
+    "sha1": "27868fe98b888286baf050c184b3063a9b6e98f7",
+    "text": "Sto imparando il giapponese.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "27b4dfe64b13",
     "sha1": "27b4dfe64b1364716dbbbac1968f720e58d19f1a",
     "text": "Mi piace la sua musica.",
@@ -2026,6 +2313,20 @@
     "id": "28337effa2f4",
     "sha1": "28337effa2f4ec79b0ff1466b89a6dc6d651440c",
     "text": "Suo padre è un medico?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "286044708e35",
+    "sha1": "286044708e35bd884351bc8dfb4e5d189bbfba18",
+    "text": "È sempre difficile cominciare una lettera.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "286fa87a3bec",
+    "sha1": "286fa87a3bec5678c63c0ee64e613dfee53c8643",
+    "text": "La storia si ripete.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -2219,6 +2520,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "2b47f953d59b",
+    "sha1": "2b47f953d59be1cb07f74b5ec038468eed207015",
+    "text": "La pizza è il mio cibo preferito.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "2b68b4552f37",
     "sha1": "2b68b4552f374ba2151daff67071a7a86b5b7a3e",
     "text": "Quella è casa sua.",
@@ -2226,9 +2534,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "2b76cd687e74",
+    "sha1": "2b76cd687e74fe9df186ec99b6344b41dfab3162",
+    "text": "Poi mi ha telefonato mia sorella.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "2c26c678484b",
     "sha1": "2c26c678484baca5e5aeed3f3de4b0f43571591b",
     "text": "Lui vive a Tokyo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "2c2c38d32faf",
+    "sha1": "2c2c38d32faf7ad9053ccc31cd9ffef812361784",
+    "text": "È David. È giovane, bello, forte e coraggioso.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -2275,6 +2597,20 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "2cc5faa1cd35",
+    "sha1": "2cc5faa1cd357055bdb263f2c58e07f97e9b5d19",
+    "text": "Mary crede nel potere dell'amore.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "2ce625880c18",
+    "sha1": "2ce625880c189c4b96d48fdbab45084965735e7a",
+    "text": "Benissimo, a dopo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "2d77ee59736d",
     "sha1": "2d77ee59736dbdec9335ff355b9a982f6a5767f7",
     "text": "Io vedo tanta ipocrisia.",
@@ -2296,9 +2632,37 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "2e141e816142",
+    "sha1": "2e141e8161421779c3db648a1e18951472cec8a7",
+    "text": "Il ragazzo tira una pietra.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "2e19dc6df949",
+    "sha1": "2e19dc6df949b885aa7db732f465dace878c1176",
+    "text": "Mettici sopra un po' di sale.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "2e2a873aae9f",
+    "sha1": "2e2a873aae9fdf702369e056612a819ba9ba88bc",
+    "text": "Non posso accettare questo regalo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "2e398f465a9b",
     "sha1": "2e398f465a9bdfb708f7099d569a7d92ae5fa111",
     "text": "Non conosco niente sul Giappone.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "2e72a655a288",
+    "sha1": "2e72a655a2888f427cf1dbed9e7d8960a8a66b0c",
+    "text": "Sono uscito e sono andato a lezione di chimica.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -2341,6 +2705,13 @@
     "id": "2eba67d83bff",
     "sha1": "2eba67d83bff6ab33e98d46b1d7031503da4e535",
     "text": "Il pane è piccolo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "2ebf9f4dbac9",
+    "sha1": "2ebf9f4dbac9785d07da9b17cf4e697b4e59ac3d",
+    "text": "Questa frase non ha senso.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -2418,6 +2789,13 @@
     "id": "30e3fb6fe1bc",
     "sha1": "30e3fb6fe1bc1abec91448613a88d5a3ffd019f9",
     "text": "Il suo inglese è migliorato molto.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "30e946efda6d",
+    "sha1": "30e946efda6db47884795585c919511ceb166a36",
+    "text": "È inglese ma vive in India.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -2548,6 +2926,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "329ad3b3666d",
+    "sha1": "329ad3b3666dc47872787339a96832d628cd5376",
+    "text": "Ieri è stata una brutta giornata.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "32c23af3852f",
     "sha1": "32c23af3852f2abfed923bcd94a780cdc0207600",
     "text": "Artemisia, sei italiana?",
@@ -2569,6 +2954,20 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "3362fd4f7bc5",
+    "sha1": "3362fd4f7bc5928361b32692557486d472beee0e",
+    "text": "Il coniglio sta mangiando la carota.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "336899d00662",
+    "sha1": "336899d006625aa017d761a12fd1058217f943e8",
+    "text": "Fa bel tempo a Firenze e si sentono le rondini in cielo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "337a9fe17421",
     "sha1": "337a9fe17421dbfd73ff614c941fbeeb6a41ceaf",
     "text": "Ci sono molti fiori nel giardino?",
@@ -2579,6 +2978,13 @@
     "id": "338dc66cba21",
     "sha1": "338dc66cba214a51f33611fec90ff740da5e6097",
     "text": "Lei risponde alle domande?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "33f60f36aa8e",
+    "sha1": "33f60f36aa8eaa13aa8e1f3bdcc0fb7bf6ac47af",
+    "text": "Provo sempre a dire la verità.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -2618,6 +3024,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "353102d3b1f8",
+    "sha1": "353102d3b1f822223dca84e7c79edfd50e7e146c",
+    "text": "Buongiorno, posso avere le chiavi della stanza n. 211?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "353626b634f1",
     "sha1": "353626b634f10d24d5b2c478324cba4cb94a186a",
     "text": "Questa è la mia amica Rachel. Siamo andate alle superiori assieme.",
@@ -2635,6 +3048,13 @@
     "id": "3553c48c1645",
     "sha1": "3553c48c1645fe2de4a2ed781e088749e6281e64",
     "text": "Anch'io mi sveglio molto presto e amo passare un po' di tempo in bagno per pulirmi bene.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "355a3ad52f3d",
+    "sha1": "355a3ad52f3d73c35f56990ed11e07de8df55383",
+    "text": "Le pecore si cibano di erba.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -2751,6 +3171,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "37c03f093824",
+    "sha1": "37c03f09382449bc8a6ace4dec68154fdc4543f0",
+    "text": "Potete prenderlo in una libreria.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "37cabd0f2d1e",
     "sha1": "37cabd0f2d1e362488a41790f6e4f7517d11d8c8",
     "text": "Dopo un'ora di macchina, siamo arrivati all'aeroporto.",
@@ -2758,9 +3185,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "37f40ed24888",
+    "sha1": "37f40ed24888ee27109e0e96d303e8fd7b9551f9",
+    "text": "Non ho mangiato molto…solo una fetta di pane tostato e un po' di caffè.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "38043ec019f2",
     "sha1": "38043ec019f26380c811b40a63966a9f02115d65",
     "text": "Il ragazzo porta gli occhiali.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "383f3c4ac56e",
+    "sha1": "383f3c4ac56e2380964cb1fbd4fe5eae3276513b",
+    "text": "Ho trovato il libro in quella libreria per caso.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -2793,6 +3234,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "38f1a1a2245a",
+    "sha1": "38f1a1a2245a40f43257aedc05e30a5f2c220c28",
+    "text": "È la pura verità.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "3924826ced38",
     "sha1": "3924826ced38f0357e1380be8956ade573e9b402",
     "text": "Lo sport preferito degli italiani è il calcio.",
@@ -2810,6 +3258,13 @@
     "id": "39918e8aaa3a",
     "sha1": "39918e8aaa3afbe379cdc5a321515006af1a15e9",
     "text": "Lui è più intelligente di loro.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "39d0163917dc",
+    "sha1": "39d0163917dc2e26c78c21c8604e399c670e8e90",
+    "text": "Com'è corta la vita!",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -2849,9 +3304,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "3b25915436e8",
+    "sha1": "3b25915436e876b37e1ef49126a07cbbddd8d41c",
+    "text": "Sono già andato in macelleria questa mattina.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "3b3900794b64",
     "sha1": "3b3900794b64c0eb7887f4e2b36d8456adb7d7ce",
     "text": "Ha il naso appuntito.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "3b47a3f155c4",
+    "sha1": "3b47a3f155c478e9f93afbeab7feb7dfe4761efa",
+    "text": "Il forno è vicino alla macelleria.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -2863,9 +3332,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "3b87978c4a05",
+    "sha1": "3b87978c4a05bb4a9ecf143bfd26e4a95a4e6e8c",
+    "text": "Parla correttamente il russo!",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "3baa2d2aee8c",
     "sha1": "3baa2d2aee8cabc07efd4909793d7b0d379af15d",
     "text": "Voglio una risposta a quella domanda.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "3bbb6a215dc3",
+    "sha1": "3bbb6a215dc3685768668c4d326aa24c45d5a04b",
+    "text": "Questo dizionario mi è molto utile.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -2975,6 +3458,20 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "3d066c9a7e60",
+    "sha1": "3d066c9a7e6090194d746f5cf27befbab92f7ebe",
+    "text": "È importante imparare il tedesco.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "3d1221c6c303",
+    "sha1": "3d1221c6c3033dbcaaa463899f867c283fa0fbec",
+    "text": "Voglio sempre dormire dopo cena.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "3d206b74da36",
     "sha1": "3d206b74da362930a54a2dca84b9273eb1e4d3dc",
     "text": "Vado spesso anche in palestra.",
@@ -3048,6 +3545,13 @@
     "id": "3e7419ab4e85",
     "sha1": "3e7419ab4e851cf9b06ad6283cadd40b0e27fdd1",
     "text": "Lui vive in Marocco.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "3e9bc7233d24",
+    "sha1": "3e9bc7233d247c0a4b9e347dc947a8257b630ac4",
+    "text": "Il turco è una lingua difficile.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -3164,6 +3668,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "4038d176e848",
+    "sha1": "4038d176e84863fbe750ff1ca5a0bae3405f3dcb",
+    "text": "In questa città esiste solo una cartoleria.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "403a0ef1e285",
     "sha1": "403a0ef1e285d886dc84db8237fa47483b35a09b",
     "text": "Sto facendo il pane.",
@@ -3206,9 +3717,30 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "41451248f109",
+    "sha1": "41451248f10982af4a9494cd344ebc1e30de71b2",
+    "text": "Per favore, passami il pepe.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "418291b6b4d3",
+    "sha1": "418291b6b4d3f122c0288754c5fabe5cc005bcad",
+    "text": "A casa sono andato a letto e mi sono addormentato subito.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "41905734ec75",
     "sha1": "41905734ec75c101ff1d6fc64adac28522618b90",
     "text": "Gli italiani amano anche guardare sport alla TV.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "41df19a87f28",
+    "sha1": "41df19a87f286fa4dc0befb6472bf8df1c69ec68",
+    "text": "Io ho risposto: «Porto la 42».",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -3325,6 +3857,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "43c74cc1f0f5",
+    "sha1": "43c74cc1f0f5565861fcf90a07499e630c948516",
+    "text": "Tom deve farsi una doccia.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "43eef1c2ebc4",
     "sha1": "43eef1c2ebc4f1a90851008031d3b48980870971",
     "text": "La bandiera è blu.",
@@ -3381,6 +3920,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "4556350c9aba",
+    "sha1": "4556350c9aba058445c9e9eb799e969c86c6e377",
+    "text": "È il nostro insegnante di inglese.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "45592da3fdb4",
     "sha1": "45592da3fdb49d9b3c3b992765ebc480a6bac232",
     "text": "Mia madre fa la spesa, prepara da mangiare e fa la lavatrice.",
@@ -3409,6 +3955,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "4600bc51ebb0",
+    "sha1": "4600bc51ebb0de89adee3ec265d9a3a52b181280",
+    "text": "Lui ha comprato molti libri in libreria.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "460173719392",
     "sha1": "460173719392eb17e67aa136186492ec359fe612",
     "text": "Mary ha gli occhi grandi.",
@@ -3419,6 +3972,13 @@
     "id": "46a9ab1eb579",
     "sha1": "46a9ab1eb579549ae822d80076dd273a85c1714e",
     "text": "Questo libro è suo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "46b977ce42e6",
+    "sha1": "46b977ce42e6d7f61d6bdc35f259eb05dbcc8816",
+    "text": "Mi puoi prestare una matita?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -3482,6 +4042,13 @@
     "id": "487b9eac275f",
     "sha1": "487b9eac275fcf3a2ef6dc858ef85cc24c0d2430",
     "text": "Che ragazzo simpatico che è Luis!",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "48b5e2f09c2d",
+    "sha1": "48b5e2f09c2d4cac4cac3a28cb8be4c425403abd",
+    "text": "Odio il cibo precotto.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -3584,9 +4151,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "4b6da7573c0d",
+    "sha1": "4b6da7573c0db9ae529598c7a9abfcd2b90e35a3",
+    "text": "Quante volte fai la doccia?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "4b7bd7232d12",
     "sha1": "4b7bd7232d12f8f13c2f20c9fb2ed4462a54ecc8",
     "text": "Ho gli occhi azzurri.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "4b8aed060715",
+    "sha1": "4b8aed0607151fcbb3b8dd9cb09825d3d36153c1",
+    "text": "C'è cibo a sufficienza per tutti?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -3619,6 +4200,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "4c04d82896ca",
+    "sha1": "4c04d82896ca5f902c810469f3749c204d018f13",
+    "text": "Gli artigiani sono abili lavoratori che creano dei prodotti speciali.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "4c43680f93de",
     "sha1": "4c43680f93debec6367c4b2bfe9eb9d9fd2f5b36",
     "text": "Tom ha tre anni adesso.",
@@ -3636,6 +4224,13 @@
     "id": "4ca81a40b3d8",
     "sha1": "4ca81a40b3d8d75579ebf45c3f9f09532ae586f1",
     "text": "Tutti noi abbiamo sogni e ambizioni.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "4cc9441737cf",
+    "sha1": "4cc9441737cf76adb0af7a941749d1b3ca27740b",
+    "text": "Entrano nell'albergo e sono alla reception.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -3850,6 +4445,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "5086c94d65a4",
+    "sha1": "5086c94d65a4daee0ab0966651801df23a344f24",
+    "text": "La pasticceria è all'angolo della strada.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "50edc7904146",
     "sha1": "50edc79041467ec87a7ecb23014a6744e016d8a6",
     "text": "Io sto lavorando, ma tu no.",
@@ -3906,6 +4508,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "527c5e0e30ed",
+    "sha1": "527c5e0e30edd6bd395557d2e54347729aa521ed",
+    "text": "Sto facendo una doccia.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "52ed73578159",
     "sha1": "52ed7357815919950e6113a9ba2f6d0768b6c436",
     "text": "Il tonno è un pesce.",
@@ -3916,6 +4525,13 @@
     "id": "53380fef00ee",
     "sha1": "53380fef00eedc1c930ea451c123a832c6d20a2a",
     "text": "Un computer è molto utile.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "533e105f7bf7",
+    "sha1": "533e105f7bf71b4a378bde7716e887cb578b0347",
+    "text": "Lei ha una foto.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -3969,6 +4585,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "543053252b6b",
+    "sha1": "543053252b6bdf4aca017348ca88c14b08f3d16e",
+    "text": "La Terra gira intorno al Sole.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "5466590eae7f",
     "sha1": "5466590eae7f9eceae476f15826886c0291ae28d",
     "text": "Ti piace l'estate?",
@@ -3986,6 +4609,13 @@
     "id": "54b1eef15ac0",
     "sha1": "54b1eef15ac0a45a423a067aa2dc82400bcfd6f2",
     "text": "Io ho poco denaro.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "54cd794f6834",
+    "sha1": "54cd794f6834e7826f8cc172172df29e262c952f",
+    "text": "L'ebraico è una lingua difficile.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -4018,6 +4648,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "559ec2ec826b",
+    "sha1": "559ec2ec826b3b9badbf885accf88e83b285ad7f",
+    "text": "Questa è una foto recente?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "55a885aeccd3",
     "sha1": "55a885aeccd3e751234b3880c9b4b0d17647ce5d",
     "text": "Ho fame perché non ho fatto colazione.",
@@ -4028,6 +4665,13 @@
     "id": "55ac8018188c",
     "sha1": "55ac8018188ce12849ec59c09f21073d56f1b642",
     "text": "Ha nevicato tutta la notte.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "55f1ba2fae5d",
+    "sha1": "55f1ba2fae5de011ad5d58a71e0214b3102d0832",
+    "text": "So come risolvere il problema.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -4060,6 +4704,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "56ae6315025a",
+    "sha1": "56ae6315025a4ba3a19be773e0fa7b59bf543351",
+    "text": "Mi sono messo gli occhiali e ho fatto colazione.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "56b1b2f73114",
     "sha1": "56b1b2f73114178863a47b9557c8db8eed8678b6",
     "text": "Mi fanno ancora male le gambe.",
@@ -4084,6 +4735,13 @@
     "id": "56ee3dcad9a1",
     "sha1": "56ee3dcad9a1a5cf484f225fd219b291acc46589",
     "text": "Sabrina va in albergo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "56f980c1481d",
+    "sha1": "56f980c1481d61816c2e235ff51ce3beb3a9cc1e",
+    "text": "Ho un regalo per voi.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -4161,6 +4819,13 @@
     "id": "583e86e00911",
     "sha1": "583e86e00911aee006dc0021b52a197e14a23323",
     "text": "Non sa suonare la chitarra.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "5842f36d510f",
+    "sha1": "5842f36d510f14e53df2f4cdab7a04c87e29b461",
+    "text": "La vita è come un viaggio.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -4305,6 +4970,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "5a3640d63357",
+    "sha1": "5a3640d63357987a9ebd11bf9215eb7e72ee9612",
+    "text": "Cosa vedi nella foto?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "5a628a191133",
     "sha1": "5a628a1911334b6c91d94932260c11211488f00a",
     "text": "Scusa, ma non mi piace Rossini.",
@@ -4427,6 +5099,13 @@
     "id": "5c88b2ec4320",
     "sha1": "5c88b2ec43203d19782cb89c5e060e2ac661f941",
     "text": "Per Tommaso costa 20 euro.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "5cb8621ad657",
+    "sha1": "5cb8621ad657cb72a7f3b8850396807dfd287df5",
+    "text": "Canta sempre sotto la doccia.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -4599,6 +5278,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "5fc2b2e4537e",
+    "sha1": "5fc2b2e4537ee3141c789d3321ef9f17d04c7233",
+    "text": "Sto andando a fare una doccia.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "5fcad86dfd92",
     "sha1": "5fcad86dfd92d91848774c1069473606bf1d3771",
     "text": "Ci sono stati molti omicidi l'anno scorso.",
@@ -4627,6 +5313,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "5ff85976eda6",
+    "sha1": "5ff85976eda630d5eff833ec5c49363abbffa719",
+    "text": "Metti più sale nella zuppa.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "609b49382bac",
     "sha1": "609b49382bacb4bd5c6f440175b7f03cee04808e",
     "text": "Artemisia e sua sorella Giuditta arrivano in piazza Duomo alle 9:55.",
@@ -4644,6 +5337,20 @@
     "id": "60b72986857b",
     "sha1": "60b72986857b0ca20a9be1108b03d3e943cc53da",
     "text": "Dov'è il mio tè?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "60cf2c98a5d0",
+    "sha1": "60cf2c98a5d09ac395a1b2b4ec8a292b273c201d",
+    "text": "Ogni mattina mangio miele a colazione.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "61147703e0ed",
+    "sha1": "61147703e0ed77d4ee35a23dd48509457f1754a4",
+    "text": "Il pane è nel forno.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -4718,6 +5425,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "625c0bb6e7da",
+    "sha1": "625c0bb6e7dac8bb5a44324e7245f9b5026f7806",
+    "text": "Ho dormito sedici ore e mi sono svegliato stamattina!!",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "626c80f97481",
     "sha1": "626c80f974816fe551dd2b5df2970e438a02d7a5",
     "text": "Il caffè è freddo.",
@@ -4732,9 +5446,30 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "6296ceae0076",
+    "sha1": "6296ceae0076f06b030d8ea9bac2cb672dcf02b2",
+    "text": "Che bella gonna che hai! È nuova?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "62b74a4db0a0",
     "sha1": "62b74a4db0a0cdaacd5eb02caf4b7c16ad0e898c",
     "text": "Mi piace molto la frutta rossa.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "6300d9103cd3",
+    "sha1": "6300d9103cd3aa5f8467ce3b0a792035647ba86e",
+    "text": "Qualcuno mi ha rubato l'ombrello nella pasticceria.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "63467ed2cf40",
+    "sha1": "63467ed2cf4085b148899fffce44d1ac2617aca3",
+    "text": "Karin è un nome tedesco.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -4823,6 +5558,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "65084ebe1d7f",
+    "sha1": "65084ebe1d7f9ce8f115e7a709932120e4ebcaa8",
+    "text": "Sì, ho comprato questa gonna ieri.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "6526c3563569",
     "sha1": "6526c3563569d2f4a2ece80dc74a7181d09a42d6",
     "text": "Trova le Poste prima di via Michelin sulla sinistra.",
@@ -4833,6 +5575,34 @@
     "id": "652a3cb07524",
     "sha1": "652a3cb0752424884e5fd6722ab9cd7b955edbd6",
     "text": "Lei ha paura che tu ti perda.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "658b086b6b9b",
+    "sha1": "658b086b6b9bd8187fba9b0928caa61c041262a8",
+    "text": "Usa il miele invece dello zucchero.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "65b89c406a2d",
+    "sha1": "65b89c406a2dc0fa0bf2cc10aa060fbeea3ef498",
+    "text": "Tom conosce la verità.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "65c573d3aad5",
+    "sha1": "65c573d3aad5e4d6f6cbd41122fe31aa3d8d56e0",
+    "text": "Dov'è la lavanderia?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "65d0e67bab4d",
+    "sha1": "65d0e67bab4db2cf8f9c5a19e5b96052d7fc0a11",
+    "text": "Io vado in camera e mi riposo un po', a che ora ci vediamo dopo. Vieni qui?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -4942,6 +5712,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "67208a3a8432",
+    "sha1": "67208a3a843289dca626809675877e865cbc2c88",
+    "text": "Come si dice in russo?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "673d80a1b7bf",
     "sha1": "673d80a1b7bf7256e95022ad3a2b5f8f4dfe4c89",
     "text": "I ragazzi hanno trovato una moneta.",
@@ -4977,6 +5754,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "680ceb21a109",
+    "sha1": "680ceb21a109bb5846aa5b9ff60f55d7ee4b424f",
+    "text": "Nel museo dell'Accademia c'è la famosa statua David.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "681a5e2fa232",
     "sha1": "681a5e2fa23231be7c56430f12fe8cbb224ca870",
     "text": "Lui prende sempre appunti.",
@@ -4987,6 +5771,20 @@
     "id": "684a5f8d91b4",
     "sha1": "684a5f8d91b4333d39cf3625bce7b0ee1c855d83",
     "text": "Non so, ma lì c'è un vigile e possiamo chiedere a lui.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "6863370390bd",
+    "sha1": "6863370390bd21444af3fd595e7a0ca003ceb99c",
+    "text": "Sono un cittadino americano.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "687fc06c9893",
+    "sha1": "687fc06c9893c3abea7935b75837e6498743a4f3",
+    "text": "Poi va in un negozio di alimentari per comprare il latte e la frutta.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -5033,9 +5831,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "68f6564bf1be",
+    "sha1": "68f6564bf1be0c941341911ef8954a8f2079e93d",
+    "text": "Qualcuno è ancora nella doccia.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "68fa8cbfcfc2",
     "sha1": "68fa8cbfcfc20cff509ee3198d01245f1505ec6b",
     "text": "Chi non conosce questo problema?!",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "691e91f7ea01",
+    "sha1": "691e91f7ea013c5eb179db5167bf2dc8e4019caf",
+    "text": "Non parlo il giapponese.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -5085,6 +5897,13 @@
     "id": "69bee9adb618",
     "sha1": "69bee9adb6186dd5788efc440fa9418b0650da85",
     "text": "Al bancone ci sono due commessi e alla cassa una cassiera.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "69ded2170d44",
+    "sha1": "69ded2170d442b20d9343cd300866d644b3413ef",
+    "text": "Sto leggendo una lettera.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -5285,6 +6104,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "6c889279a04c",
+    "sha1": "6c889279a04c0022bd34ca807377e7bef6265b2f",
+    "text": "Io sto cercando il mio telefono.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "6cd3556d24c1",
     "sha1": "6cd3556d24c19eb47e546abcdb4ae9709a1d854a",
     "text": "Lui vuole del burro di arachidi.",
@@ -5418,6 +6244,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "6edce28f0cc2",
+    "sha1": "6edce28f0cc266daa7be8d5c294d5a321db68bdc",
+    "text": "Vendono libri di testo alla libreria.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "6ee003b522f4",
     "sha1": "6ee003b522f4f544068ece247e3c636d8968a61f",
     "text": "È sensibile al caldo.",
@@ -5435,6 +6268,13 @@
     "id": "6f4bc4286ae8",
     "sha1": "6f4bc4286ae80571bcb3de0504ad07ce2bf29f9f",
     "text": "Tu hai fratelli o sorelle?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "6f64e7e44797",
+    "sha1": "6f64e7e4479747dcc96867d55ad090c14cb3a348",
+    "text": "Ieri abbiamo visto un grosso lupo nel bosco.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -5509,6 +6349,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "710581d17e90",
+    "sha1": "710581d17e90e5bb3e458318506ba8428e1f49f1",
+    "text": "L'esperanto è una lingua utile.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "7106d73ccc6c",
     "sha1": "7106d73ccc6c141e7840e2735ca981c032563ba2",
     "text": "Alle 19:00 va in palestra a fare esercizio: corre per trenta minuti e poi solleva pesi.",
@@ -5519,6 +6366,13 @@
     "id": "711f43eda5c8",
     "sha1": "711f43eda5c85bff0ae6512584ef1c44d0804a7e",
     "text": "Sono Michelangelo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "7196240546c6",
+    "sha1": "7196240546c6cfe1e93e4fec1e55854c40434cac",
+    "text": "Grazie!",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -5547,6 +6401,20 @@
     "id": "72345620fc38",
     "sha1": "72345620fc3819108b71ef8383d9d284eb414c0c",
     "text": "Artemisia è giovane, bassa, bella, non è magra.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "728993213e09",
+    "sha1": "728993213e099c97f62d0cf097eda9e82ae678b8",
+    "text": "Che tipo di shampoo utilizza?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "72ab4206590a",
+    "sha1": "72ab4206590a5738e31654253e4761fea5fd1123",
+    "text": "È una lettera importante.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -5600,6 +6468,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "7379ed7038a4",
+    "sha1": "7379ed7038a475daa508c93c2ab1c2361af86393",
+    "text": "Il pane sta cuocendo nel forno.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "7390173f3816",
     "sha1": "7390173f3816e8614aac84c95b127cebf273fe92",
     "text": "Una corda è stata gettata nell'acqua.",
@@ -5635,6 +6510,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "7473bfa5daa8",
+    "sha1": "7473bfa5daa8f4fedb0b11ab48fad7cc8191d87b",
+    "text": "A noi piacciono i fagioli.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "74950664ee1a",
     "sha1": "74950664ee1a7e8553a5b21a1c50d6c516ebd00f",
     "text": "Sono le otto e un quarto.",
@@ -5652,6 +6534,13 @@
     "id": "74acc7c563a8",
     "sha1": "74acc7c563a855559affc7761a181a6c41eb13bd",
     "text": "Lei sta mangiando spaghetti.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "74c3a037fb9a",
+    "sha1": "74c3a037fb9a932733abdd95e6497fc6f69635a7",
+    "text": "Ah, benissimo. Magari ci vado anch'io domani!",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -5719,6 +6608,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "75e442a7bd29",
+    "sha1": "75e442a7bd299dc2f933385d17d06b571ab9c1e1",
+    "text": "Ha cominciato a farmi male la testa e lo stomaco.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "75ee12f9e6d1",
     "sha1": "75ee12f9e6d1060bc215d45a33dcaeed595892b1",
     "text": "Domani io non vado al cinema.",
@@ -5729,6 +6625,13 @@
     "id": "760e0d3b46fa",
     "sha1": "760e0d3b46fabbba607f1ba9e3e1d3446fb042a1",
     "text": "Perché mi fai soffrire così tanto?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "76213adf5e47",
+    "sha1": "76213adf5e471018b19cc3f196eed9ab5203231f",
+    "text": "Questa frase è sbagliata.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -5789,6 +6692,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "76d25e151309",
+    "sha1": "76d25e151309ffc2e1a419675b153105d6e1d0a6",
+    "text": "Ha senso questa frase?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "76de33ee87dd",
     "sha1": "76de33ee87dd1e1ea2b99ca6928bc2775ec21de5",
     "text": "Quanto costa una birra?",
@@ -5827,6 +6737,20 @@
     "id": "77437a91ff1c",
     "sha1": "77437a91ff1cb21e13b269a15371a4adf32feee1",
     "text": "C'è una lettera per me?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "77ba96deb9c9",
+    "sha1": "77ba96deb9c9c5415405ac883a68ad6f4478dd84",
+    "text": "Questa è la libertà di stampa.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "77bf6155d581",
+    "sha1": "77bf6155d581e2a264633098196581a75892ab2a",
+    "text": "La cena è pronta.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -6013,6 +6937,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "7c0ae476b0a6",
+    "sha1": "7c0ae476b0a60f299c6f8c4301d5e1990886ee58",
+    "text": "Lei odia i funghi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "7c0b65540b99",
     "sha1": "7c0b65540b99c25199ac956e50f90476a6c92505",
     "text": "officina",
@@ -6044,6 +6975,13 @@
     "id": "7c92934471ce",
     "sha1": "7c92934471ce4082c8be492246d1a5e232b88484",
     "text": "Elena ha uno zaino nuovo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "7c9b7a82654f",
+    "sha1": "7c9b7a82654f6c609941b10608a9c95ee7fe2d14",
+    "text": "Tu sei il mio problema.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -6132,9 +7070,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "7e89e76e8e36",
+    "sha1": "7e89e76e8e36cc5965cdddd27ce67cb5372be03e",
+    "text": "Il fuoco è molto pericoloso.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "7e9cc2fab48c",
     "sha1": "7e9cc2fab48c5f2b80c85fda6f5f49636367e86b",
     "text": "C'è l'ascensore?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "7ed036fc68b3",
+    "sha1": "7ed036fc68b38a4c8811f254d31be77ccf91d55f",
+    "text": "È difficile trovare una traduzione adeguata.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -6195,6 +7147,20 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "800f940907e8",
+    "sha1": "800f940907e8433629d418efc658fa2cc2cc8e25",
+    "text": "La Terra è la nostra casa.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "802b07604ea1",
+    "sha1": "802b07604ea1b579ed95ae856832bf44e627c3b8",
+    "text": "Questo vasetto è pieno di miele.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "80322cb43634",
     "sha1": "80322cb43634e43233fb48f366c2a84efa3df831",
     "text": "Lui abbreviava i suoi discorsi.",
@@ -6230,9 +7196,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "80abc0678ee9",
+    "sha1": "80abc0678ee94da438fb2d8ca8b7d836a62f3828",
+    "text": "Perché l'erba è verde?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "80beaa2667d9",
     "sha1": "80beaa2667d91090cf008f1ddd00e025f5aaf4c9",
     "text": "Lei non ha caldo?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "80ca8352021e",
+    "sha1": "80ca8352021ec499909f16f5365d5972c6b411de",
+    "text": "Tom sta facendo una doccia.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -6279,6 +7259,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "81e6fa840384",
+    "sha1": "81e6fa840384dfb85da1c727f2a87aa63b67ae48",
+    "text": "Questa è una matita.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "81ef89ba4fd3",
     "sha1": "81ef89ba4fd39c48ef41728cae6e10acce41f574",
     "text": "Lui come si chiama?",
@@ -6289,6 +7276,13 @@
     "id": "82169f136027",
     "sha1": "82169f1360276562364fe2067cd34f30f364fc3d",
     "text": "Gli uccelli stanno cantando sugli alberi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "821c5cd53f79",
+    "sha1": "821c5cd53f79e66238c5a0dc1f05be70b04fb3d4",
+    "text": "Non voglio rischiare la mia vita.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -6324,6 +7318,20 @@
     "id": "824e9214f23c",
     "sha1": "824e9214f23ce1390e16deba63e9c3f68022e4b9",
     "text": "Ci rimane solo un giorno.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "8250911883cc",
+    "sha1": "8250911883cc6ebaf25eef317580a507651025c2",
+    "text": "Lui ha molti libri di storia.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "825bb71c7574",
+    "sha1": "825bb71c7574dfeb81cd30f71d5c842c862fe6a7",
+    "text": "Gli italiani mangiano sempre degli spaghetti.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -6366,6 +7374,13 @@
     "id": "82fc9b72cf8a",
     "sha1": "82fc9b72cf8aff8c50ca2c80747356fbf269ab02",
     "text": "Se lui viene, vengo anch'io.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "8355304febf6",
+    "sha1": "8355304febf6e5c360059852f4efc7c21b13af2a",
+    "text": "La terra ha la forma di una sfera.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -6433,6 +7448,20 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "846cff3f1c9d",
+    "sha1": "846cff3f1c9d749027686e1328912a511aefb61e",
+    "text": "Qual è il suo cibo preferito?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "84c35d001601",
+    "sha1": "84c35d001601511d04f0e240dad41f9b35d59fa8",
+    "text": "Questo cibo è sufficiente per tre persone.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "8526408e025b",
     "sha1": "8526408e025b75e23b01f8a4ff3ea2e82c1ed84c",
     "text": "Devi vederlo per crederci.",
@@ -6447,9 +7476,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "85a2f2eefc73",
+    "sha1": "85a2f2eefc7324bdb5a922259779b743ebff2706",
+    "text": "Mia moglie è cinese.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "85b211c4ad31",
     "sha1": "85b211c4ad315ee9d3b13fa587e34c9367d46916",
     "text": "Lei parla dieci lingue.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "85c38a97d93a",
+    "sha1": "85c38a97d93a8bb2e4cf34eac67ba9578bde947a",
+    "text": "Artemisia e sua sorella Giuditta arrivano all'albergo dove soggiorna Giuditta.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -6492,6 +7535,20 @@
     "id": "86701d20d71b",
     "sha1": "86701d20d71b673b8ef932738b9e298d0c719447",
     "text": "Laurea in Economia e Commercio, Università di Siena.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "86a5f558fbc8",
+    "sha1": "86a5f558fbc8a1dcc11ab2beb286dcf3b67248ac",
+    "text": "Vengo dall'Italia e parlo italiano.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "86d0d44e1e54",
+    "sha1": "86d0d44e1e541d3464f43ccdc73639a2306ee9d0",
+    "text": "La Luna gira intorno alla Terra.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -6552,6 +7609,20 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "87324f9609c6",
+    "sha1": "87324f9609c6aa1682f893dcb568d58bbdfc6d5e",
+    "text": "Tom è in libreria ora.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "8732ee32fdce",
+    "sha1": "8732ee32fdce92e18ff3eeaa1fc2dba1f3480c2f",
+    "text": "Michelangelo e Artemisia sono al museo dell'Accademia.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "873720f0c12d",
     "sha1": "873720f0c12d7eaa3659c7006b62b190f5ec0c7f",
     "text": "Com'è Tommaso?",
@@ -6601,6 +7672,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "882db70c5bfb",
+    "sha1": "882db70c5bfb01a7636ef4242823fdae4acb558a",
+    "text": "Ho smesso di studiare, ci siamo salutati e sono andato a casa.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "884000109440",
     "sha1": "884000109440b31fb53c8b1ee425c413defee43a",
     "text": "Il topo ha mangiato il mio formaggio.",
@@ -6646,6 +7724,13 @@
     "id": "88beb3ea1536",
     "sha1": "88beb3ea1536b5b7dc161513b52630c582b94d52",
     "text": "Sei uscito ieri sera?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "88c8659824f3",
+    "sha1": "88c8659824f39587f8a47756f89a874214896f4b",
+    "text": "Quello è il mio dizionario.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -6723,6 +7808,13 @@
     "id": "899bb2c0e7bb",
     "sha1": "899bb2c0e7bb637208ad71ff31bfdd737458f389",
     "text": "Quel neo che hai, tesoro mio, vicino alla bocca, non darlo a nessuno, tesoro mio, perché tocca a me.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "899eeeb9655e",
+    "sha1": "899eeeb9655ec28426708b86ecd2ece741fc542a",
+    "text": "Non sono il tuo amore.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -6853,6 +7945,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "8be669749ebb",
+    "sha1": "8be669749ebb2a95036400b036ae2feec492315b",
+    "text": "Voglio un libro. Dov'è la libreria?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "8c11abf4324b",
     "sha1": "8c11abf4324bac9093b62c32d398ff04b74e6bbf",
     "text": "Io vedo la corona.",
@@ -6891,6 +7990,13 @@
     "id": "8cd5189b3b4a",
     "sha1": "8cd5189b3b4a2a3c4f719d68e55e40b9f6ed4203",
     "text": "La birra è buona e fanno anche dei buoni panini.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "8cf6d945f048",
+    "sha1": "8cf6d945f048b1193443dacd12cf7f264eefaba4",
+    "text": "Guarda le note a pagina dieci.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -7077,6 +8183,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "8f9dad433dc2",
+    "sha1": "8f9dad433dc291c6bc169e0db3b338f83036150e",
+    "text": "Questa parola è ancora in uso.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "9039e84eb8f2",
     "sha1": "9039e84eb8f2c9bc8897d82b7d9a5ab94beec484",
     "text": "Mi piace fare colazione con voi.",
@@ -7112,9 +8225,30 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "9097fcda4298",
+    "sha1": "9097fcda429849980e6e6059cf698ae384359680",
+    "text": "Voglio vedere la terra e il sole.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "9099b2290f47",
+    "sha1": "9099b2290f47f3df1b7bd69ec0da445b27d90793",
+    "text": "Mi piace parlare di amore.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "90cb0b5504d1",
     "sha1": "90cb0b5504d1eba1826dfc6de37f7515ebbc61ae",
     "text": "Ha i capelli lunghi e biondi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "90cffaadaf37",
+    "sha1": "90cffaadaf37d1829008ae24c1c970f884ee4b89",
+    "text": "Giuditta, conosci la storia della Divina Commedia?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -7182,6 +8316,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "91d49aa02cc5",
+    "sha1": "91d49aa02cc57997a40940f5315083f8a9ce73db",
+    "text": "Amo il cibo coreano.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "9237fd2c3f0d",
     "sha1": "9237fd2c3f0d2b38e46a40a5557d70401640ae33",
     "text": "Questo libro non è mio.",
@@ -7220,6 +8361,13 @@
     "id": "929ee4f5c9f7",
     "sha1": "929ee4f5c9f7d779e96873cbc4679e821ba1b652",
     "text": "Mancano solo due giorni!",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "92a513329195",
+    "sha1": "92a5133291958e2bcb5fa8c630cc8f0479a539a5",
+    "text": "Agli orsi piace il miele.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -7283,6 +8431,13 @@
     "id": "9339ad363731",
     "sha1": "9339ad363731dec9297e9b018f6ca6c2e28f77ca",
     "text": "Michelangelo è giovane, alto, bello, muscoloso.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "9352ee6f02d6",
+    "sha1": "9352ee6f02d6f1e33a4a03dce97c492bdea92f15",
+    "text": "Come si prepara questo cibo?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -7371,6 +8526,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "949e421ab4f2",
+    "sha1": "949e421ab4f281874a7ee7dbf71ad5391a1c3c63",
+    "text": "Ho una foto di un aeroporto.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "94aaab9a7ae2",
     "sha1": "94aaab9a7ae221409b46e7dacc2c2118efaad9dc",
     "text": "Questo prodotto è fabbricato in Italia.",
@@ -7409,6 +8571,13 @@
     "id": "9524ace69814",
     "sha1": "9524ace698149c46aa4cf41cddb2d45554714713",
     "text": "Lui è mio padre.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "953e46962668",
+    "sha1": "953e46962668b90c148d29c30abb789ff4773a10",
+    "text": "Gli americani mangiano molta carne.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -7518,6 +8687,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "9758f7901f74",
+    "sha1": "9758f7901f74658b9825e02285cd5084587da971",
+    "text": "Dove posso trovare del dentifricio?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "976347eccd6b",
     "sha1": "976347eccd6bdb59df9ea3346f2f529aa12fbece",
     "text": "C'è un gatto sulla sedia.",
@@ -7542,6 +8718,13 @@
     "id": "97c42f253216",
     "sha1": "97c42f253216064a0ef894e58161ccdb813e83ee",
     "text": "I mammiferi producono latte.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "980d1bf2fc74",
+    "sha1": "980d1bf2fc74c7e88e0c9c4b1d06bf92a34df9bc",
+    "text": "Non è un regalo.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -7605,6 +8788,13 @@
     "id": "990adbbafeee",
     "sha1": "990adbbafeeed898a2f303fc338c7cbaf3f98547",
     "text": "È considerata luogo d'origine del Rinascimento ed è parte del patrimonio dell'umanità UNESCO dal 1982.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "9922870f92d6",
+    "sha1": "9922870f92d6cf2603692ceaab25200aa20c15aa",
+    "text": "Si parla l'inglese a Singapore.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -7721,9 +8911,30 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "9bd0ae6e1655",
+    "sha1": "9bd0ae6e1655fa90099b5162752253e5c6b964a6",
+    "text": "È pericoloso giocare col fuoco.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "9c09983102ad",
     "sha1": "9c09983102ad158e7049dcb99426689e69fb342c",
     "text": "La musica nutre la nostra immaginazione.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "9c1cabb35e88",
+    "sha1": "9c1cabb35e88bf7af58af014ce8abdddd42c5dc1",
+    "text": "Lei ha un telefono?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "9c4368c0922d",
+    "sha1": "9c4368c0922d8af6d25b765f7fceb0438d3a69a6",
+    "text": "È libertà di espressione.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -7777,6 +8988,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "9ce96b387f52",
+    "sha1": "9ce96b387f520770459538b3cf79875b16d14acb",
+    "text": "La Terra è troppo piccola.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "9d6c5b5b5391",
     "sha1": "9d6c5b5b5391e7e31f84615f08c0ab23bfa1baba",
     "text": "Tutti i mammiferi producono latte.",
@@ -7808,6 +9026,13 @@
     "id": "9dbeae156a0b",
     "sha1": "9dbeae156a0b8c515533e384e45631237702c5a9",
     "text": "Chi sta suonando la chitarra?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "9de312d16bc8",
+    "sha1": "9de312d16bc8ec0abe4f824d49360d078a8e1e8a",
+    "text": "Interessante! Perché ha fatto quest'opera?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -7931,6 +9156,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "a0523bf806e1",
+    "sha1": "a0523bf806e130a735194cbb0f035e1a1937a331",
+    "text": "Ho molte monete in questa scatola.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "a07e22ded64a",
     "sha1": "a07e22ded64ad807805592870e714c3c6aa846a5",
     "text": "In centro, al secondo piano di un palazzo vicino al Duomo.",
@@ -7941,6 +9173,13 @@
     "id": "a088b968eb6a",
     "sha1": "a088b968eb6a3bb90c4c39b9cec58cf9952ce9ec",
     "text": "Questa scatola è piena di libri.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "a0aa77a4602e",
+    "sha1": "a0aa77a4602e467e7a8514f929057e0badf72447",
+    "text": "L'erba è verde.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -7973,6 +9212,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "a0f5060f86d1",
+    "sha1": "a0f5060f86d13696c539a127eee7b6214de018a6",
+    "text": "È la storia di un viaggio fantastico nell'oltretomba.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "a10e0a2ebf14",
     "sha1": "a10e0a2ebf148ba6f716fd0b8d85db187a9a4d2f",
     "text": "Lui non sa cosa fare.",
@@ -7983,6 +9229,13 @@
     "id": "a14e9e3afc6a",
     "sha1": "a14e9e3afc6ab1193327c2a726fb7e06266cd677",
     "text": "Marta cerca da tempo un appartamento o un monolocale a Firenze.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "a19437261539",
+    "sha1": "a19437261539d68b444a134aa8c5a55dafc6b243",
+    "text": "Tom vuole provare un nuovo shampoo.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -8015,9 +9268,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "a1dfbc006899",
+    "sha1": "a1dfbc006899fa7f6d059a395dbebf2808822b3a",
+    "text": "Certo, ecco le chiavi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "a1e0b902ec5a",
     "sha1": "a1e0b902ec5add81d62ec844ae4b20a417920849",
     "text": "Mi piace la tua cravatta.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "a2433c2fd69b",
+    "sha1": "a2433c2fd69b7eaab0c3c318b9e813b3ec0aa7a9",
+    "text": "L'esercito avanzò sulla collina.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -8029,9 +9296,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "a32158803b3f",
+    "sha1": "a32158803b3f5d3a490067059849e8c5925fa628",
+    "text": "Io ho detto: «Posso provare la gonna?»",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "a33935f0350c",
     "sha1": "a33935f0350cbac76d4b454be718f8a2f06f69f1",
     "text": "Kaoru è andato in America.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "a3c2ee974c3f",
+    "sha1": "a3c2ee974c3f7610fdc5f28683d92b190eed82e3",
+    "text": "Tom parla francese appena.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -8113,6 +9394,20 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "a60b559f3fdf",
+    "sha1": "a60b559f3fdf2869903022670a7cffcab6060290",
+    "text": "Sono entrata e la commessa molto gentile mi ha chiesto: «Che taglia porti?»",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "a63678afbf50",
+    "sha1": "a63678afbf50f28a32123948c8b9b82a1d3724c0",
+    "text": "Tom è un immigrato messicano.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "a655102cf661",
     "sha1": "a655102cf6612f007309374a36c288c31b342875",
     "text": "Io adoro il clima estivo.",
@@ -8183,6 +9478,27 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "a7efd9540b96",
+    "sha1": "a7efd9540b9638e6441d7faaf13e67c97e022abe",
+    "text": "Devo farmi una doccia.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "a7f4c2b1e86a",
+    "sha1": "a7f4c2b1e86ab4f196de310c979a12d2083443f9",
+    "text": "Abbiamo studiato per un'ora e poi ho cominciato a sentirmi male.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "a85eac5bfc38",
+    "sha1": "a85eac5bfc389a453e3038e2f86cfeffeef46b99",
+    "text": "Il latte ha un cattivo sapore.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "a86395f144e1",
     "sha1": "a86395f144e1b53f4d1d99b96b71c6f67eaee392",
     "text": "Conosce bene il Sig. Davidson.",
@@ -8246,9 +9562,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "a9d0926b68e8",
+    "sha1": "a9d0926b68e8a52706f0b4b0e0d5d2219373c26a",
+    "text": "Lei mi ha detto: «Abbiamo queste gonne e sono in saldo, costano solo 10 euro».",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "a9d653fc05d1",
     "sha1": "a9d653fc05d1641c5f2556ce2bdf4f147c99e9f4",
     "text": "Domani è il mio compleanno.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "aa06ff657465",
+    "sha1": "aa06ff657465e72edd1b5ef988e4468f71ed66e1",
+    "text": "Qual è il segreto?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -8270,6 +9600,20 @@
     "id": "aa30fd6e1204",
     "sha1": "aa30fd6e12040e4a4ab6ffd6b83cb17732e98251",
     "text": "Solo due euro a persona perché siamo studenti.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "aa4da8aba189",
+    "sha1": "aa4da8aba189509eb9ea4518171b89b84cf9333f",
+    "text": "È famoso in tutto il mondo per la Divina Commedia.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "aa7079069f4f",
+    "sha1": "aa7079069f4f6771ba2ead6f96e6416c4957e83b",
+    "text": "Questa è l'arte dei fabbri: i fabbri sono gli artigiani del ferro.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -8372,6 +9716,20 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "abeb48645458",
+    "sha1": "abeb48645458a0bbe30b4b1b893bcb88c2ce6d96",
+    "text": "L'amore non perdona.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "ac0006dd0ce1",
+    "sha1": "ac0006dd0ce15c70fd9f6ce487a981c3f5d5bd77",
+    "text": "Devo aggiungere il sale?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "ac332af1df00",
     "sha1": "ac332af1df0051c889d0e3fce2ba45fa1784663d",
     "text": "Lui non è più forte di me.",
@@ -8407,6 +9765,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "ac61bf505a5c",
+    "sha1": "ac61bf505a5c4c14cdcbd54faef69ad2a366fdae",
+    "text": "Chi è il ragazzo di questa statua?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "ac98d6d77e19",
     "sha1": "ac98d6d77e190fb051c0dd0b2d0fb6539358e1fd",
     "text": "Dovete vederlo per crederci.",
@@ -8417,6 +9782,13 @@
     "id": "acb59ef12ab8",
     "sha1": "acb59ef12ab8576afaac14394be7b015891b06b3",
     "text": "Le nubi minacciose si stavano avvicinando, così siamo entrati.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "acbcd8db44f3",
+    "sha1": "acbcd8db44f396b39bd3d9b4579a4c090ed4cfd1",
+    "text": "Adoro mangiare il melone.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -8491,6 +9863,20 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "add8e5693eaf",
+    "sha1": "add8e5693eafdc79b11dbf4f8075b5a4f540b078",
+    "text": "Dopo la lezione mi sono fermato al bar e ho comprato una pasta e un cappuccino.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "ade016a6ed2a",
+    "sha1": "ade016a6ed2ab9f3323603e843a5a844fd23536f",
+    "text": "Mi sono vestito e mi sono accorto di avere perso una lente a contatto.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "adf9714c0e1d",
     "sha1": "adf9714c0e1d7dfaf17291b83dbf0aaf97034765",
     "text": "Il mare è blu.",
@@ -8505,6 +9891,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "aeb2a5db7d5e",
+    "sha1": "aeb2a5db7d5ee400848b1ff5e4006901ebe30007",
+    "text": "Sono degli stemmi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "aee09324c0f9",
     "sha1": "aee09324c0f999d8a4b5f136fcfea68196f93743",
     "text": "Non siamo andati a Torino.",
@@ -8515,6 +9908,13 @@
     "id": "aeeb484529b5",
     "sha1": "aeeb484529b5e630cadf1542c1283de7a4eca09c",
     "text": "Quel ragazzo è intelligente.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "aeffe6050269",
+    "sha1": "aeffe6050269813a30579e65d0422e54a414e3c5",
+    "text": "Ti devo un pranzo.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -8568,6 +9968,20 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "afc8bfcbdd24",
+    "sha1": "afc8bfcbdd240beab969f7eadd027df2aaf440f4",
+    "text": "Non voglio studiare tedesco.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "afc998d5dfcd",
+    "sha1": "afc998d5dfcd20d01df7a8f7f6ca49a640d12227",
+    "text": "Voglio una stanza con doccia.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "afd30d00f57a",
     "sha1": "afd30d00f57af37577c86cae8bec73a85e04dfb1",
     "text": "Sono un po' più alto di te.",
@@ -8589,9 +10003,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "b0346db61ef1",
+    "sha1": "b0346db61ef1a620f5df249fd78ec29cf2acc35c",
+    "text": "La doccia non funziona.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "b03bafa95581",
     "sha1": "b03bafa95581f134cf0d8b8da2356558d82980ba",
     "text": "L'inverno termina oggi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "b0532949a349",
+    "sha1": "b0532949a349e047e28e4e0f8a5b0e81226910a1",
+    "text": "La frase non è completa.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -8631,9 +10059,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "b0f18a8096d0",
+    "sha1": "b0f18a8096d07e42bae00d1192e8a1aaf60ddd90",
+    "text": "So che è un poema.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "b0f8e771d839",
     "sha1": "b0f8e771d8392757f2e727a48fc082f7c9919de3",
     "text": "carta",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "b0f9e7932250",
+    "sha1": "b0f9e79322505be8663cc4f0bfc849173c6f3fae",
+    "text": "Qui gli artigiani fanno chiavi, serrature, ma anche chiodi e ganci.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -8680,6 +10122,20 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "b23ccdae8b6b",
+    "sha1": "b23ccdae8b6b78ee110e855b11d707f381203c90",
+    "text": "A lezione mi sono annoiato.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "b240993c15b1",
+    "sha1": "b240993c15b165a2d48aba0a103df6c7f20c1157",
+    "text": "Mi piace fare foto.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "b24ad524aa02",
     "sha1": "b24ad524aa02c7deb821e2eaceeb3a33f6fa43ae",
     "text": "Tu sei il più alto.",
@@ -8701,6 +10157,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "b279369b2bf3",
+    "sha1": "b279369b2bf33595d58186552a6b7c4eeee8ecef",
+    "text": "La mia vita è noiosa.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "b28167c1d20e",
     "sha1": "b28167c1d20ebe7978198b8ddfd6004c7239ad8f",
     "text": "Che bello essere con te!",
@@ -8711,6 +10174,13 @@
     "id": "b2956e787fb9",
     "sha1": "b2956e787fb951447d022fbde7e765e151e62a57",
     "text": "Più tardi Artemisia incontra Michelangelo in un bar.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "b2ac043c7334",
+    "sha1": "b2ac043c73340b937f85e04df51b1ede80fc3e7d",
+    "text": "È una storia molto triste.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -8743,6 +10213,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "b3835ae58c90",
+    "sha1": "b3835ae58c9046e9fe859423db1322709a68edc7",
+    "text": "Cosa c'è nella scatola?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "b3880f9dba4b",
     "sha1": "b3880f9dba4b88f469084ac139cec94b1763facd",
     "text": "Lei non parla la nostra lingua.",
@@ -8753,6 +10230,13 @@
     "id": "b38f43b17839",
     "sha1": "b38f43b1783905adb22b12d3197b0ffa0e91f9bf",
     "text": "Oggi è lunedì e Francesco ha molto da fare.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "b399be47b04d",
+    "sha1": "b399be47b04dbfdd154077088829f024e427741f",
+    "text": "Io voglio vivere una vita felice.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -8774,6 +10258,13 @@
     "id": "b3b3180d73cc",
     "sha1": "b3b3180d73cc6b6da89699cc87878fe142b84bc4",
     "text": "Il clima è piacevole.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "b3ee1960e302",
+    "sha1": "b3ee1960e3028eeb6d3aeef6a83167c479bf1bd2",
+    "text": "Tom ci insegna il francese.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -8802,6 +10293,13 @@
     "id": "b44021714686",
     "sha1": "b44021714686b38ffd101babc8989fc35fa735bc",
     "text": "L'arcobaleno ha sette colori.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "b4430df469dd",
+    "sha1": "b4430df469dd8722a58174787ef15c9eb5ca0cd7",
+    "text": "Sono andato in libreria.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -8925,6 +10423,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "b6dc57bd8387",
+    "sha1": "b6dc57bd8387bc0963a2013e198620ece1802558",
+    "text": "È un professore di italiano.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "b6e4b557cbb8",
     "sha1": "b6e4b557cbb8dba778366623461ea65e4f9860f9",
     "text": "John è un buon studente.",
@@ -8970,6 +10475,13 @@
     "id": "b767002b1258",
     "sha1": "b767002b12583dec908fa4bbee9a735904bfbf1d",
     "text": "Lui ama il caffè.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "b76b532fc63a",
+    "sha1": "b76b532fc63a6d4d6be88ef143747f87c5b0fbb7",
+    "text": "Amo il cibo italiano.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -9107,6 +10619,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "ba6e393d2a37",
+    "sha1": "ba6e393d2a3784194bf17ee30f1389e711c32dcb",
+    "text": "È una foto recente?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "ba733648f72a",
     "sha1": "ba733648f72ac3fdf8af3dc116c7646f606a7b04",
     "text": "Il tuo cane non è qui.",
@@ -9117,6 +10636,13 @@
     "id": "ba9f0913267b",
     "sha1": "ba9f0913267bda02002196461e57dbf74c8be319",
     "text": "Bob è il mio amico.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "babe99e8307f",
+    "sha1": "babe99e8307fb17ac2864f99838f71b0cbee6b45",
+    "text": "Mio nonno possiede una bottega.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -9184,6 +10710,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "bc15a7ab7f98",
+    "sha1": "bc15a7ab7f980ebccf4e9412fe9ff969e48af783",
+    "text": "L'arte di calimala invece è dedicata ai mercanti di stoffe.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "bc19c88e699e",
     "sha1": "bc19c88e699e9137d627463f647645159c690cca",
     "text": "Quante dita ha la mano?",
@@ -9212,6 +10745,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "bc5689dc06b3",
+    "sha1": "bc5689dc06b3ca75b8c08cd9ac2916a1c80748e9",
+    "text": "Il suo scultore si chiama come me: Michelangelo, il suo cognome è Buonarroti e ha fatto quest'opera fra il 1501 e il 1504.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "bc5cca70e6c7",
     "sha1": "bc5cca70e6c7bd1c55bf793eccbeb4aa91511575",
     "text": "Lei ha mostrato i suoi talenti.",
@@ -9222,6 +10762,13 @@
     "id": "bc64c1786c7e",
     "sha1": "bc64c1786c7ee187d4494a2c52ac6956010174d4",
     "text": "Ho una rivista nella mia stanza.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bcc9bced6124",
+    "sha1": "bcc9bced61240f341c6f3298603b73f62b3cbb26",
+    "text": "I beduini vivono nel deserto.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -9327,6 +10874,13 @@
     "id": "bec7ed693813",
     "sha1": "bec7ed693813cffd8e5d73fa575b9a0850121ae1",
     "text": "È già lunedì oggi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bec99cccb384",
+    "sha1": "bec99cccb3843774b95883ef01bed488f552fd54",
+    "text": "Affronta la vita col sorriso!",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -9450,6 +11004,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "c0c9e3f9d233",
+    "sha1": "c0c9e3f9d2337b08ea7ae88c084153824c91d979",
+    "text": "Quella è la mia frase!",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "c0f7772b519d",
     "sha1": "c0f7772b519d85c6346cdc939414f5896d748ee2",
     "text": "Sono le dieci e mezza.",
@@ -9513,6 +11074,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "c1bf9540c839",
+    "sha1": "c1bf9540c839fa5142571872ff594fc94dd51746",
+    "text": "È molto difficile tradurre questa parola.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "c1f12b9e4053",
     "sha1": "c1f12b9e40535894602723ab147cb97d117dfbb3",
     "text": "Qualche volta facciamo una passeggiata in centro?",
@@ -9572,6 +11140,13 @@
     "id": "c387a9cf2a41",
     "sha1": "c387a9cf2a41842c93064ee0ad29060d01c98d0d",
     "text": "Lei soffre di una malattia contagiosa.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "c3c073dbbe66",
+    "sha1": "c3c073dbbe6671b6b4cd1a2b072a13c319128e8b",
+    "text": "Dante Alighieri è un famoso poeta nato a Firenze nel 1265.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -9695,6 +11270,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "c5936fc87aee",
+    "sha1": "c5936fc87aee516ae5a33b457a373260e91f4824",
+    "text": "Questa pentola non ha il coperchio.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "c5b72105f017",
     "sha1": "c5b72105f017ff5a43d9725fd82c483522069703",
     "text": "Anche i tedeschi hanno un senso dell'umorismo.",
@@ -9737,9 +11319,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "c68dba380eff",
+    "sha1": "c68dba380effecbc415bc7e034f4abcd312eb4dc",
+    "text": "Il fuoco è spento.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "c68f23c30387",
     "sha1": "c68f23c3038713ddb2d7c44f9030f4fecb54a54a",
     "text": "Oggi non tira molto vento.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "c693cdfe72a9",
+    "sha1": "c693cdfe72a90c4d05d23102ab81ebcfcf065715",
+    "text": "La libreria è vicina al parco.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -9905,6 +11501,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "c8fae0fe0408",
+    "sha1": "c8fae0fe0408b2a0f32916902602f4a2908ff543",
+    "text": "La gioielleria è aperta.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "c92ed12f5e1e",
     "sha1": "c92ed12f5e1e2e08b6c744a73f88ca9d1a7fb0fa",
     "text": "Tom fa sempre del suo meglio.",
@@ -9968,6 +11571,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "c9e65ca6db7d",
+    "sha1": "c9e65ca6db7d7d0072255c13cc793bbf78beb0f1",
+    "text": "Va bene, vengo qui più tardi, alle 19.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "ca0aab79b92a",
     "sha1": "ca0aab79b92a709f388cb7a044767c9cffb46e85",
     "text": "Il leone si chiama Marzocco.",
@@ -10024,9 +11634,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "cb33bc67ce67",
+    "sha1": "cb33bc67ce67c1838a64b680bca0482bda39e93d",
+    "text": "La Terra è un pianeta.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "cb82ad262aa6",
     "sha1": "cb82ad262aa66add55976563e257bc263471fc02",
     "text": "Ti piacciono gli elefanti.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "cb8e70de9656",
+    "sha1": "cb8e70de96566657cbf9283d00651c7e59de693a",
+    "text": "Mi piace il gelato alla fragola.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -10059,6 +11683,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "cc54a7470835",
+    "sha1": "cc54a74708358e5ce7c3f14cb8543e3392fbaf2d",
+    "text": "Quindi abbiamo un problema...",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "cc946eac5d3c",
     "sha1": "cc946eac5d3ce23f75953e5fa543a2030a66e6e6",
     "text": "Mio marito legge sempre a letto.",
@@ -10083,6 +11714,20 @@
     "id": "ccfe47c83cc6",
     "sha1": "ccfe47c83cc676bcb2ca57c9a64e8bd233d7cf1d",
     "text": "Tutto è caro a Londra.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "cd1d9114360c",
+    "sha1": "cd1d9114360c60a885511417553375f69a0027de",
+    "text": "Non esce acqua dalla doccia.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "ce0e855359fc",
+    "sha1": "ce0e855359fcf6a73b159940fc40665dca046d62",
+    "text": "Il suo tappeto è completamente bianco.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -10360,6 +12005,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "d2b92995aa60",
+    "sha1": "d2b92995aa609bf44b4c69eb4d1594ee9c9e33d0",
+    "text": "Questa frase contiene cinque parole.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "d2b9749c83a7",
     "sha1": "d2b9749c83a7fc3b423124ebd3ecf24e51174e6b",
     "text": "Hai ragione. Andiamo a casa, ci vediamo più tardi!",
@@ -10384,6 +12036,13 @@
     "id": "d2feb570a5a3",
     "sha1": "d2feb570a5a34fd37eec3e52af5402b0a20574fa",
     "text": "Dobbiamo chiamare un'ambulanza.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "d2fecf1b2efe",
+    "sha1": "d2fecf1b2efe2e52de91394ca7766a704a28bc77",
+    "text": "Questo è un fiore?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -10423,6 +12082,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "d392d940be21",
+    "sha1": "d392d940be21a42227cd3e23a70cab776b4deaa8",
+    "text": "Questa è l'arte dei chiavaioli.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "d3b13887d5c9",
     "sha1": "d3b13887d5c9a2e74b8d3b610964fff9396a9d3a",
     "text": "Com'è la tua famiglia?",
@@ -10447,6 +12113,13 @@
     "id": "d3e6edfe5b74",
     "sha1": "d3e6edfe5b7425d284a033d661875e6edca10a6a",
     "text": "Signor Mattarella, sa dov'è un ufficio postale qui vicino?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "d3e9e55f5746",
+    "sha1": "d3e9e55f574651ab1da2708aa83a49ddf1e4b043",
+    "text": "Artemisia va in panificio a comprare il pane.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -10479,9 +12152,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "d478ee884721",
+    "sha1": "d478ee884721a4b8a75544432f02773087d5f19c",
+    "text": "Mangio il pane senza sale.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "d4892ad63ad1",
     "sha1": "d4892ad63ad10e87c4492655ff331861d49f87dd",
     "text": "Mia madre ha quattro fratelli.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "d49c55f78a35",
+    "sha1": "d49c55f78a3548e315aa5b2c224291d8a6d8f20a",
+    "text": "A Tom piace molto il cibo giapponese.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -10517,6 +12204,13 @@
     "id": "d55fdee619b8",
     "sha1": "d55fdee619b86fb601451488406bd8f5a8bf72f5",
     "text": "Devo comprare del latte.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "d5854336cd0e",
+    "sha1": "d5854336cd0e38d9e0d2c04942366ccab2c2e47b",
+    "text": "Questa minestra ha un buon sapore.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -10563,6 +12257,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "d6ac06d12ebb",
+    "sha1": "d6ac06d12ebb682105fa9600a606efbc02526d89",
+    "text": "Questo fiore è bello, vero?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "d6cb9e7dce5e",
     "sha1": "d6cb9e7dce5e702ec854d7692ad5edac10d68ee4",
     "text": "Tom ha paura di noi, vero?",
@@ -10573,6 +12274,20 @@
     "id": "d70faddfead1",
     "sha1": "d70faddfead19376bd55a532b38cb5889fe2732c",
     "text": "Grazie, Mike. Non mi piace il pollo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "d7256e70230a",
+    "sha1": "d7256e70230a12dfe81af3b96dbc138200911f5f",
+    "text": "Io ho provato la gonna e ho deciso di comprarla.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "d72cfad87bdc",
+    "sha1": "d72cfad87bdc89ccc453d5e1db69e33b92cce42c",
+    "text": "Che cosa c'è nella scatola?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -10612,6 +12327,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "d7d2928c6505",
+    "sha1": "d7d2928c6505be19f87bf2a2f2ce8cb425983571",
+    "text": "Imparare l'inglese richiede pazienza.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "d7e8c16e9c82",
     "sha1": "d7e8c16e9c8297dbd6f3f6e154ea76db06f3defd",
     "text": "Firenze è un importante centro universitario.",
@@ -10629,6 +12351,13 @@
     "id": "d84b93777447",
     "sha1": "d84b937774477358636a4c1a04153759b24bc28f",
     "text": "Cosa diresti in questo contesto?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "d85c162adb5a",
+    "sha1": "d85c162adb5a04ecc1fbd6ec3d80483c1cfd4993",
+    "text": "Mario è un cittadino italiano.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -10664,6 +12393,13 @@
     "id": "d902fa319d55",
     "sha1": "d902fa319d558579c6c8e09a6674c8154b58242b",
     "text": "Penso che sia la cosa giusta da fare.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "d90a8adbe354",
+    "sha1": "d90a8adbe3544cb6cd518fa8926e0d5b52650479",
+    "text": "Che cosa sono quelli?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -10710,6 +12446,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "da07cac6dffd",
+    "sha1": "da07cac6dffd96e6b35361c56dcae634f635c76f",
+    "text": "Raffaella è un nome italiano.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "da18ec9bb990",
     "sha1": "da18ec9bb990bcb9dfecb1a1874ba633b9db0d1a",
     "text": "Benissimo.",
@@ -10727,6 +12470,13 @@
     "id": "da4ef511cf64",
     "sha1": "da4ef511cf64512bb28802fb9eedffbe805aa59c",
     "text": "Lui parla cinque lingue.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "da6a4f9cb2f0",
+    "sha1": "da6a4f9cb2f043c54323c916e0cb1a92f81e288b",
+    "text": "Lui non è americano.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -10776,6 +12526,20 @@
     "id": "db9182367478",
     "sha1": "db918236747889fc90d7ba7f0995499e2412e42b",
     "text": "Quali sono gli orari dei pasti?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "db94e32a6737",
+    "sha1": "db94e32a67370879cf11c4ebf97e778596af6222",
+    "text": "Nessuno può risolvere questo problema.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "dbd0ca2dae49",
+    "sha1": "dbd0ca2dae493b4b024472683d5476009acccefd",
+    "text": "La libreria è aperta.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -10850,6 +12614,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "ddb048cdb4d7",
+    "sha1": "ddb048cdb4d78ec292a6f50694d377149ee32c04",
+    "text": "L'italiano è una lingua difficile.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "ddbc4099e0f6",
     "sha1": "ddbc4099e0f6775638e32e86bf9ff5088b5e66b7",
     "text": "Egli ha pochi amici.",
@@ -10920,6 +12691,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "df40e6802f9b",
+    "sha1": "df40e6802f9b30d1d31a80eae20265ebf4012c1a",
+    "text": "Questo fiore emana un profumo intenso.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "df67d9532ef6",
     "sha1": "df67d9532ef6b0e5ce5d8649eb7580bfbde4d960",
     "text": "Puoi camminare con gli occhi chiusi?",
@@ -10958,6 +12736,13 @@
     "id": "dfcb0aea803d",
     "sha1": "dfcb0aea803dd150ecad3f67415ca83102cd3951",
     "text": "Abito vicino al museo degli Uffizi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "dfcdfc459191",
+    "sha1": "dfcdfc459191bb7a39abdfee74b7ddd0f4f9fb76",
+    "text": "Sono qui per studiare l'italiano.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -11004,6 +12789,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "e05e4d6505c7",
+    "sha1": "e05e4d6505c7270478e0be22ef2ad637af6427f6",
+    "text": "Ho bisogno di fare una doccia.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "e060c3ae8f32",
     "sha1": "e060c3ae8f3262d619f803ea1d19076228220b20",
     "text": "È un ragazzo intelligente.",
@@ -11014,6 +12806,13 @@
     "id": "e06d1a320f76",
     "sha1": "e06d1a320f76c290913cba70cb6c23b434ac4910",
     "text": "Ha paura di fare errori.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "e09f3668a266",
+    "sha1": "e09f3668a2664223f758beb1f7410519a29ae839",
+    "text": "È italiano di nascita.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -11095,6 +12894,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "e1f3b3e0c104",
+    "sha1": "e1f3b3e0c104ccd5f4377833388203723a0c46e8",
+    "text": "Firenze è famosa per i suoi artigiani.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "e1f8c764a5f9",
     "sha1": "e1f8c764a5f998b595a63f6200cc40107136f17c",
     "text": "Tom ama studiare musica.",
@@ -11126,6 +12932,13 @@
     "id": "e255d3088064",
     "sha1": "e255d30880644d4f1352116cd48250a13f60d966",
     "text": "Sono bellissimi tutti e quattro.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "e2664c66e879",
+    "sha1": "e2664c66e879b0f659ddbd707d791683c4f0f9a1",
+    "text": "Io studio storia dell'arte.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -11165,6 +12978,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "e40c664c89bc",
+    "sha1": "e40c664c89bc999336beccaf0458c5dea595bcd7",
+    "text": "La vita è ingiusta.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "e44a85357e57",
     "sha1": "e44a85357e5794cc9ab4fe20473a7319d76932a6",
     "text": "Ha lavorato senza pausa per mantenere i suoi figli fino a che si sono sposati.",
@@ -11189,6 +13009,13 @@
     "id": "e4804a9f9358",
     "sha1": "e4804a9f9358502921d64005d3fd8a716c569e56",
     "text": "Nonostante Tom sia malato, ha intenzione di finire in tempo i suoi compiti.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "e4b0a10304b9",
+    "sha1": "e4b0a10304b9e19b5529ed7ec4be1f0bd6170a69",
+    "text": "Per questo è una città ricca e bella!",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -11256,6 +13083,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "e625b7e561f9",
+    "sha1": "e625b7e561f90aa069aac922feffca811e8f58a8",
+    "text": "Ti piacciono i fagioli, vero?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "e674c628da55",
     "sha1": "e674c628da55654545b37541677e90036d397769",
     "text": "Mi sono alzato presto come al solito.",
@@ -11266,6 +13100,20 @@
     "id": "e68bd577a535",
     "sha1": "e68bd577a5352f1ea1edced0d183af073ac70169",
     "text": "La musica è importante per me.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "e68c35fc85ac",
+    "sha1": "e68c35fc85ac0cb8b2582c76e19681c1c037a747",
+    "text": "Amo fare passeggiate nel bosco.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "e68fa74b74f3",
+    "sha1": "e68fa74b74f3f5ad8eadc275d62dc87251a6fbd0",
+    "text": "Hai una foto di Tom?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -11389,6 +13237,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "e9453a85795b",
+    "sha1": "e9453a85795be91991b22eba5395693b66703a96",
+    "text": "La Terra è il pianeta blu.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "e94fc483d873",
     "sha1": "e94fc483d8736963826c6c4f1a581bee4401e683",
     "text": "Io non leggo libri.",
@@ -11501,6 +13356,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "ebb4e2aef651",
+    "sha1": "ebb4e2aef651e0dd215aa61c5fb9b8809b0bb1e4",
+    "text": "Io amo il suo profumo!",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "ebcb9843c9d9",
     "sha1": "ebcb9843c9d907fd029392d0741e44465d53e64d",
     "text": "Sto solo guardando, grazie.",
@@ -11543,6 +13405,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "ec985e7adf0d",
+    "sha1": "ec985e7adf0dfc5f9b2d937e29f115e5e0bce3ff",
+    "text": "Questi stemmi rappresentano le squadre o arti di questi artigiani.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "ed01d047f247",
     "sha1": "ed01d047f2477ecf620aab8683bc2779d6236851",
     "text": "Parlando in generale, Tom ha ragione.",
@@ -11567,6 +13436,20 @@
     "id": "ed37bffcb232",
     "sha1": "ed37bffcb2323e6940418eef7e17d2ea6b65e6a8",
     "text": "Che cosa devi fare ora?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "ed67a12f0b22",
+    "sha1": "ed67a12f0b22d2195f2448be64a905d8d6185742",
+    "text": "Non posso accettare il tuo regalo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "ed7318ba4ba4",
+    "sha1": "ed7318ba4ba4c5af4701dd0dd39f5f7a0b6dbb03",
+    "text": "Quella è una bambola.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -11669,6 +13552,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "ef77cb38adbe",
+    "sha1": "ef77cb38adbe1736c6162d06a4c225b07bf7a4a0",
+    "text": "Sono l'uomo più felice della terra.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "ef8759bded88",
     "sha1": "ef8759bded88950bda17076ffa5737335c4aa742",
     "text": "Lui era la persona più suscettibile che io abbia avuto la sfortuna di conoscere!",
@@ -11746,6 +13636,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "f15826009992",
+    "sha1": "f158260099924f89c17499bc749dcb08e9718543",
+    "text": "Farfalla è una parola molto bella.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "f179a8fad88b",
     "sha1": "f179a8fad88be9a9875f7aa168982964cf759c44",
     "text": "Io ho paura degli orsi.",
@@ -11756,6 +13653,13 @@
     "id": "f188b0aa94c7",
     "sha1": "f188b0aa94c7edf50b9b95881f3f8b6fbb159775",
     "text": "Il mio appartamento è troppo grande.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "f1967d83167b",
+    "sha1": "f1967d83167babcb30d75ac2a6812c031624251a",
+    "text": "Sto studiando la grammatica francese.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -11784,6 +13688,13 @@
     "id": "f1df846fab0b",
     "sha1": "f1df846fab0bd599e3f053cc0b55f8d6c566804a",
     "text": "Abbiamo solo del tè.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "f202b3fe678a",
+    "sha1": "f202b3fe678a3b024b4dc43560ded979a0125b73",
+    "text": "La terra è marrone.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -11851,6 +13762,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "f3376f0319a9",
+    "sha1": "f3376f0319a9a943e1973706441c94ba31c9a96a",
+    "text": "Che c'è nella scatola?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "f3411f8557fb",
     "sha1": "f3411f8557fbebc608715b2b0b99045ed0de454f",
     "text": "Oggi lei si sente male.",
@@ -11875,6 +13793,13 @@
     "id": "f378425e2940",
     "sha1": "f378425e294000b62e5346da3935c8c07a4d8a27",
     "text": "Io ho un computer.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "f39521d27e3a",
+    "sha1": "f39521d27e3a803b2ab7515dd4998ed2140fc77d",
+    "text": "Siamo pronte per la cena.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -12019,6 +13944,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "f5e24e7b1029",
+    "sha1": "f5e24e7b1029b18508c60e109655b32a951c0c4e",
+    "text": "Cosa significa questa frase?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "f5ee3b4ca821",
     "sha1": "f5ee3b4ca821e023f9d37db45958c2e4ef1869cd",
     "text": "Io voglio poter parlare inglese.",
@@ -12036,6 +13968,13 @@
     "id": "f6008f7915fa",
     "sha1": "f6008f7915faa42523b4f1e7dd30edda9d8901b4",
     "text": "Cosa c'è nella valigia?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "f619e05cf315",
+    "sha1": "f619e05cf3153053703d39701cab15b5b1092cd7",
+    "text": "Dov'è il dentifricio?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -12064,6 +14003,20 @@
     "id": "f65bf57f4307",
     "sha1": "f65bf57f4307ca450dcf91aa5f71d3767741a426",
     "text": "Ho paura ad andare da solo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "f6811f71ab5d",
+    "sha1": "f6811f71ab5d41c7049dbf9daf6b91fac51945d4",
+    "text": "Di solito faccio la doccia la sera.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "f6dcb27e3408",
+    "sha1": "f6dcb27e3408ba9d9e480719ca3ae4596a5f4094",
+    "text": "Ci vediamo alle 19 qui sotto, OK?",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -12110,6 +14063,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "f85ae8e35497",
+    "sha1": "f85ae8e35497ffb2f4bd2bacc87383a35e3fef01",
+    "text": "Io dico sempre la verità.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "f87f69c7ce67",
     "sha1": "f87f69c7ce670d712e6f716085439cc4ae74fc26",
     "text": "L'autunno termina oggi.",
@@ -12141,6 +14101,20 @@
     "id": "f91727e5df07",
     "sha1": "f91727e5df07aba0c8388734a6961f46f9c4144a",
     "text": "Ken ha due gatti.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "f94f9c793f0b",
+    "sha1": "f94f9c793f0b120c01beb6ad3d8b432352fb40ff",
+    "text": "I contadini coltivano la terra.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "f95375517d4d",
+    "sha1": "f95375517d4de9a5536e30e847fd7628d8fcab36",
+    "text": "Mi piace il cibo egiziano.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -12239,6 +14213,13 @@
     "id": "faf6270315ec",
     "sha1": "faf6270315ece23fb0970c06721dd8ed4840117a",
     "text": "L'arabo è difficile!",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "fb14c18d665f",
+    "sha1": "fb14c18d665f438f655bf03c092411c383968fc2",
+    "text": "Puoi prenderlo in una libreria.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -12411,6 +14392,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "fe32e9fc605f",
+    "sha1": "fe32e9fc605f3535a6a4af2d02790c2b97235b7b",
+    "text": "Ho bisogno di comprare del latte, del pane e della frutta.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "fe5fb672470f",
     "sha1": "fe5fb672470f8eba341195643d4388563efa2197",
     "text": "Maria è una donna intelligente.",
@@ -12470,6 +14458,13 @@
     "id": "ff951ec56490",
     "sha1": "ff951ec5649086d89d50ea5bc8a82448027801fe",
     "text": "Tu vuoi essere onesto.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "ffa149e893ef",
+    "sha1": "ffa149e893ef463dd04afb05338977178fd04733",
+    "text": "È sera.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },

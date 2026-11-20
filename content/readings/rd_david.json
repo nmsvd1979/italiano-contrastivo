@@ -1,0 +1,98 @@
+{
+  "id": "rd_david",
+  "title": "Il David di Michelangelo",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/chisei/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes. Se omite el resto del capítulo.",
+  "sentences": [
+    {
+      "id": "rd_david_00",
+      "it": "Michelangelo e Artemisia sono al museo dell'Accademia.",
+      "es": "Michelangelo y Artemisia están en el museo de la Academia."
+    },
+    {
+      "id": "rd_david_01",
+      "it": "Nel museo dell'Accademia c'è la famosa statua David.",
+      "es": "En el museo de la Academia está la famosa estatua del David."
+    },
+    {
+      "id": "rd_david_02",
+      "it": "Chi è il ragazzo di questa statua?",
+      "es": "¿Quién es el chico de esta estatua?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_david_03",
+      "it": "È David. È giovane, bello, forte e coraggioso.",
+      "es": "Es David. Es joven, guapo, fuerte y valiente.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_david_04",
+      "it": "Chi è il suo scultore?",
+      "es": "¿Quién es su escultor?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_david_05",
+      "it": "Il suo scultore si chiama come me: Michelangelo, il suo cognome è Buonarroti e ha fatto quest'opera fra il 1501 e il 1504.",
+      "es": "Su escultor se llama como yo: Michelangelo; su apellido es Buonarroti y hizo esta obra entre 1501 y 1504.",
+      "speaker": "Michelangelo"
+    },
+    {
+      "id": "rd_david_06",
+      "it": "Interessante! Perché ha fatto quest'opera?",
+      "es": "¡Interesante! ¿Por qué hizo esta obra?",
+      "speaker": "Artemisia"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Dónde están Michelangelo y Artemisia?",
+      "options": [
+        "En el museo de la Academia",
+        "En los Uffizi",
+        "En el Bargello"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Cómo es David según Michelangelo?",
+      "options": [
+        "Viejo y débil",
+        "Joven, guapo, fuerte y valiente",
+        "Bajo y gordo"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Cómo se apellida el escultor?",
+      "options": [
+        "Merisi",
+        "Mattarella",
+        "Buonarroti"
+      ],
+      "answer": 2,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Entre qué años hizo la obra?",
+      "options": [
+        "Entre 1501 y 1504",
+        "Entre 1265 y 1300",
+        "Entre 1943 y 2012"
+      ],
+      "answer": 0,
+      "evidence": 5
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

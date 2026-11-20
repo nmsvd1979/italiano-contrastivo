@@ -1,0 +1,161 @@
+{
+  "id": "rd_stemmi",
+  "title": "Gli stemmi delle arti",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Leggiamo (Long Beach City College)",
+    "authors": "Rossella Pescatori y colaboradores",
+    "url": "https://lbcc.pressbooks.pub/leggiamo/chapter/3-6-le-arti/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Se quitaron las glosas en inglés y se separaron los hablantes. Se omiten algunas líneas intermedias y las glosas.",
+  "sentences": [
+    {
+      "id": "rd_stemmi_00",
+      "it": "Giuditta e Artemisia camminano per le strade di Firenze e passano davanti alla casa di Dante.",
+      "es": "Giuditta y Artemisia caminan por las calles de Florencia y pasan frente a la casa de Dante."
+    },
+    {
+      "id": "rd_stemmi_01",
+      "it": "Dante Alighieri è un famoso poeta nato a Firenze nel 1265.",
+      "es": "Dante Alighieri es un famoso poeta nacido en Florencia en 1265."
+    },
+    {
+      "id": "rd_stemmi_02",
+      "it": "È famoso in tutto il mondo per la Divina Commedia.",
+      "es": "Es famoso en todo el mundo por la Divina Comedia."
+    },
+    {
+      "id": "rd_stemmi_03",
+      "it": "Giuditta, conosci la storia della Divina Commedia?",
+      "es": "Giuditta, ¿conoces la historia de la Divina Comedia?",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_stemmi_04",
+      "it": "So che è un poema.",
+      "es": "Sé que es un poema.",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_stemmi_05",
+      "it": "È la storia di un viaggio fantastico nell'oltretomba.",
+      "es": "Es la historia de un viaje fantástico al más allá.",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_stemmi_06",
+      "it": "Che cosa sono quelli?",
+      "es": "¿Qué son aquellos?",
+      "speaker": "Giuditta"
+    },
+    {
+      "id": "rd_stemmi_07",
+      "it": "Sono degli stemmi.",
+      "es": "Son unos escudos.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_stemmi_08",
+      "it": "Firenze è famosa per i suoi artigiani.",
+      "es": "Florencia es famosa por sus artesanos.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_stemmi_09",
+      "it": "Gli artigiani sono abili lavoratori che creano dei prodotti speciali.",
+      "es": "Los artesanos son trabajadores hábiles que crean productos especiales.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_stemmi_10",
+      "it": "Questi stemmi rappresentano le squadre o arti di questi artigiani.",
+      "es": "Estos escudos representan los gremios o artes de estos artesanos.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_stemmi_11",
+      "it": "Questa è l'arte dei chiavaioli.",
+      "es": "Este es el arte de los cerrajeros.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_stemmi_12",
+      "it": "Qui gli artigiani fanno chiavi, serrature, ma anche chiodi e ganci.",
+      "es": "Aquí los artesanos hacen llaves, cerraduras, y también clavos y ganchos.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_stemmi_13",
+      "it": "Questa è l'arte dei fabbri: i fabbri sono gli artigiani del ferro.",
+      "es": "Este es el arte de los herreros: los herreros son los artesanos del hierro.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_stemmi_14",
+      "it": "L'arte di calimala invece è dedicata ai mercanti di stoffe.",
+      "es": "El arte de Calimala, en cambio, está dedicado a los mercaderes de telas.",
+      "speaker": "Artemisia"
+    },
+    {
+      "id": "rd_stemmi_15",
+      "it": "Per questo è una città ricca e bella!",
+      "es": "¡Por eso es una ciudad rica y hermosa!",
+      "speaker": "Artemisia"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Frente a la casa de quién pasan?",
+      "options": [
+        "De Dante",
+        "De Michelangelo",
+        "De Vasari"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Por qué obra es famoso Dante?",
+      "options": [
+        "El David",
+        "La Divina Comedia",
+        "Las Vidas"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿De qué es famosa Florencia según Artemisia?",
+      "options": [
+        "De su playa",
+        "De sus montañas",
+        "De sus artesanos"
+      ],
+      "answer": 2,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿Qué hacen los artesanos del arte de los cerrajeros?",
+      "options": [
+        "Llaves, cerraduras, clavos y ganchos",
+        "Telas",
+        "Vino"
+      ],
+      "answer": 0,
+      "evidence": 12
+    },
+    {
+      "prompt_es": "¿A quiénes está dedicado el arte de Calimala?",
+      "options": [
+        "A los herreros",
+        "A los mercaderes de telas",
+        "A los cocineros"
+      ],
+      "answer": 1,
+      "evidence": 14
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

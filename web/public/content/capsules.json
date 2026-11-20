@@ -2899,6 +2899,158 @@
     "cefr": "A1",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Amore, amicizia, idea, problema, storia, verità, libertà… Las palabras en -ia y -tà son femeninas (la amicizia, la libertà, la verità); «problema» y «sistema» son masculinos aunque terminen en -a: il problema."
+    },
+    "id": "cap_err_voc_astratti",
+    "retrieval": [
+      {
+        "id": "it_choice_s_4513254_ERR_VOC_ASTRATTI",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Qual è il segreto?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_ASTRATTI",
+            "text": "Qual è il successo?"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4513254",
+        "target_error_codes": [
+          "ERR_VOC_ASTRATTI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "vita"
+        ],
+        "hint_es": "La vida es injusta.",
+        "id": "it_cloze_s_1697390_ERR_VOC_ASTRATTI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1697390",
+        "target_error_codes": [
+          "ERR_VOC_ASTRATTI"
+        ],
+        "text": "La ___ è ingiusta.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Com'è",
+          "corta",
+          "la",
+          "vita!"
+        ],
+        "id": "it_reorder_s_1136232_ERR_VOC_ASTRATTI",
+        "prompt_es": "Ordena las palabras: «¡Qué corta es la vida!»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1136232",
+        "target_error_codes": [
+          "ERR_VOC_ASTRATTI"
+        ],
+        "tokens": [
+          "la",
+          "Com'è",
+          "vita!",
+          "corta"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_1610237_ERR_VOC_ASTRATTI",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_ASTRATTI",
+            "text": "L'errore non perdona."
+          },
+          {
+            "correct": true,
+            "text": "L'amore non perdona."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1610237",
+        "target_error_codes": [
+          "ERR_VOC_ASTRATTI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "storia"
+        ],
+        "hint_es": "La historia se repite.",
+        "id": "it_cloze_s_707236_ERR_VOC_ASTRATTI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_707236",
+        "target_error_codes": [
+          "ERR_VOC_ASTRATTI"
+        ],
+        "text": "La ___ si ripete.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Com'è",
+          "strana",
+          "la",
+          "vita!"
+        ],
+        "id": "it_reorder_s_1124849_ERR_VOC_ASTRATTI",
+        "prompt_es": "Ordena las palabras: «¡Qué extraña es la vida!»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1124849",
+        "target_error_codes": [
+          "ERR_VOC_ASTRATTI"
+        ],
+        "tokens": [
+          "strana",
+          "la",
+          "Com'è",
+          "vita!"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_ASTRATTI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "È la pura verità."
+      ],
+      "id": "it_translate_s_4485_ERR_VOC_ASTRATTI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4485",
+      "source_es": "Es la pura verdad.",
+      "target_error_codes": [
+        "ERR_VOC_ASTRATTI"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "Ieri, oggi, domani, adesso, stasera, presto, tardi, sempre, mai, già, ancora… Los adverbios de tiempo no cambian. «Mai» con verbo lleva «non»: non vado mai (no voy nunca). «Ancora» es «todavía»: non è ancora qui."
     },
     "id": "cap_err_voc_avverbi",
@@ -4123,6 +4275,160 @@
     "cefr": "A1",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Pentola, padella, forno, frigorifero, tovaglia… La «pentola» es la olla y la «padella», la sartén. «Forno» es el horno y también la panadería. «Cena» (la cena) y «pranzo» (el almuerzo) son sustantivos y también formas verbales: io ceno, io pranzo."
+    },
+    "id": "cap_err_voc_cucina",
+    "retrieval": [
+      {
+        "id": "it_choice_s_380183_ERR_VOC_CUCINA",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "La cena è pronta."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CUCINA",
+            "text": "La porzione è pronta."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_380183",
+        "target_error_codes": [
+          "ERR_VOC_CUCINA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "pranzo"
+        ],
+        "hint_es": "Te debo un almuerzo.",
+        "id": "it_cloze_s_2512421_ERR_VOC_CUCINA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2512421",
+        "target_error_codes": [
+          "ERR_VOC_CUCINA"
+        ],
+        "text": "Ti devo un ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Il",
+          "pane",
+          "è",
+          "nel",
+          "forno."
+        ],
+        "id": "it_reorder_s_1322188_ERR_VOC_CUCINA",
+        "prompt_es": "Ordena las palabras: «El pan está en el horno.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1322188",
+        "target_error_codes": [
+          "ERR_VOC_CUCINA"
+        ],
+        "tokens": [
+          "nel",
+          "forno.",
+          "pane",
+          "Il",
+          "è"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_399109_ERR_VOC_CUCINA",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CUCINA",
+            "text": "Amo il fornello coreano."
+          },
+          {
+            "correct": true,
+            "text": "Amo il cibo coreano."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_399109",
+        "target_error_codes": [
+          "ERR_VOC_CUCINA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "cibo"
+        ],
+        "hint_es": "Me encanta la comida italiana.",
+        "id": "it_cloze_s_1261712_ERR_VOC_CUCINA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1261712",
+        "target_error_codes": [
+          "ERR_VOC_CUCINA"
+        ],
+        "text": "Amo il ___ italiano.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Odio",
+          "il",
+          "cibo",
+          "precotto."
+        ],
+        "id": "it_reorder_s_996806_ERR_VOC_CUCINA",
+        "prompt_es": "Ordena las palabras: «Odio la comida precocida.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_996806",
+        "target_error_codes": [
+          "ERR_VOC_CUCINA"
+        ],
+        "tokens": [
+          "cibo",
+          "precotto.",
+          "Odio",
+          "il"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_CUCINA"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Non c'è cibo."
+      ],
+      "id": "it_translate_s_2523788_ERR_VOC_CUCINA",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2523788",
+      "source_es": "No hay comida.",
+      "target_error_codes": [
+        "ERR_VOC_CUCINA"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "Euro, soldi, prezzo, sconto, contanti, banconota… «Euro» no cambia en plural (due euro). «Soldi» es el dinero (siempre plural): non ho soldi. «Contanti» es pagar en efectivo: pago in contanti."
     },
     "id": "cap_err_voc_denaro",
@@ -4581,6 +4887,312 @@
     "cefr": "A1",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Patata, cipolla, fragola, uva, sale, pepe, funghi… «Patata» y «cipolla» son femeninas; «sale» y «pepe» son masculinos. «Fagioli», «funghi» y «spinaci» se usan casi siempre en plural."
+    },
+    "id": "cap_err_voc_frutta",
+    "retrieval": [
+      {
+        "id": "it_choice_s_10653833_ERR_VOC_FRUTTA",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Lei odia i funghi."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_FRUTTA",
+            "text": "Lei odia i fagioli."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_10653833",
+        "target_error_codes": [
+          "ERR_VOC_FRUTTA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "banana"
+        ],
+        "hint_es": "El plátano es dulce.",
+        "id": "it_cloze_s_2478269_ERR_VOC_FRUTTA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2478269",
+        "target_error_codes": [
+          "ERR_VOC_FRUTTA"
+        ],
+        "text": "La ___ è dolce.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "La",
+          "cipolla",
+          "è",
+          "deliziosa."
+        ],
+        "id": "it_reorder_s_13282035_ERR_VOC_FRUTTA",
+        "prompt_es": "Ordena las palabras: «La cebolla es deliciosa.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_13282035",
+        "target_error_codes": [
+          "ERR_VOC_FRUTTA"
+        ],
+        "tokens": [
+          "La",
+          "è",
+          "cipolla",
+          "deliziosa."
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_10798391_ERR_VOC_FRUTTA",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_FRUTTA",
+            "text": "Devo aggiungere il pepe?"
+          },
+          {
+            "correct": true,
+            "text": "Devo aggiungere il sale?"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_10798391",
+        "target_error_codes": [
+          "ERR_VOC_FRUTTA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "miele"
+        ],
+        "hint_es": "A los osos les gusta la miel.",
+        "id": "it_cloze_s_11862013_ERR_VOC_FRUTTA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11862013",
+        "target_error_codes": [
+          "ERR_VOC_FRUTTA"
+        ],
+        "text": "Agli orsi piace il ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Adoro",
+          "mangiare",
+          "il",
+          "melone."
+        ],
+        "id": "it_reorder_s_2196048_ERR_VOC_FRUTTA",
+        "prompt_es": "Ordena las palabras: «Me encanta comer melón.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2196048",
+        "target_error_codes": [
+          "ERR_VOC_FRUTTA"
+        ],
+        "tokens": [
+          "melone.",
+          "Adoro",
+          "mangiare",
+          "il"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_FRUTTA"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Non c'è più sale."
+      ],
+      "id": "it_translate_s_475700_ERR_VOC_FRUTTA",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_475700",
+      "source_es": "No hay más sal.",
+      "target_error_codes": [
+        "ERR_VOC_FRUTTA"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Sapone, spazzolino, dentifricio, asciugamano, doccia… «Spazzolino» es el cepillo de dientes; «spazzola», el del pelo. «Pettine» es el peine. En casa se usa el artículo: il sapone, lo spazzolino."
+    },
+    "id": "cap_err_voc_igiene",
+    "retrieval": [
+      {
+        "id": "it_choice_s_390061_ERR_VOC_IGIENE",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Dov'è il dentifricio?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_IGIENE",
+            "text": "Dov'è il pettine?"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_390061",
+        "target_error_codes": [
+          "ERR_VOC_IGIENE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "profumo"
+        ],
+        "hint_es": "¡Amo su perfume!",
+        "id": "it_cloze_s_1334667_ERR_VOC_IGIENE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1334667",
+        "target_error_codes": [
+          "ERR_VOC_IGIENE"
+        ],
+        "text": "Io amo il suo ___!",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Tom",
+          "è",
+          "sotto",
+          "la",
+          "doccia."
+        ],
+        "id": "it_reorder_s_2037743_ERR_VOC_IGIENE",
+        "prompt_es": "Ordena las palabras: «Tom está en la ducha.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2037743",
+        "target_error_codes": [
+          "ERR_VOC_IGIENE"
+        ],
+        "tokens": [
+          "è",
+          "doccia.",
+          "Tom",
+          "sotto",
+          "la"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_634428_ERR_VOC_IGIENE",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_IGIENE",
+            "text": "Devo farmi una vasca."
+          },
+          {
+            "correct": true,
+            "text": "Devo farmi una doccia."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_634428",
+        "target_error_codes": [
+          "ERR_VOC_IGIENE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "doccia"
+        ],
+        "hint_es": "La ducha no funciona.",
+        "id": "it_cloze_s_3256488_ERR_VOC_IGIENE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3256488",
+        "target_error_codes": [
+          "ERR_VOC_IGIENE"
+        ],
+        "text": "La ___ non funziona.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Sto",
+          "facendo",
+          "una",
+          "doccia."
+        ],
+        "id": "it_reorder_s_3860649_ERR_VOC_IGIENE",
+        "prompt_es": "Ordena las palabras: «Me estoy duchando.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3860649",
+        "target_error_codes": [
+          "ERR_VOC_IGIENE"
+        ],
+        "tokens": [
+          "doccia.",
+          "facendo",
+          "una",
+          "Sto"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_IGIENE"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "La doccia è rotta."
+      ],
+      "id": "it_translate_s_438936_ERR_VOC_IGIENE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_438936",
+      "source_es": "La ducha está rota.",
+      "target_error_codes": [
+        "ERR_VOC_IGIENE"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "Las palabras para preguntar: dove (dónde), quando (cuándo), perché (por qué y también «porque»), come (cómo), chi (quién), quanto (cuánto), quale (cuál), cosa (qué). Ojo: en italiano no hay signo de apertura (¿) y «perché» sirve para preguntar y para responder."
     },
     "id": "cap_err_voc_interrog",
@@ -4889,6 +5501,470 @@
     "cefr": "A1",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Bosco, collina, valle, sentiero, sabbia, onda, terra… «Bosco» es un bosque pequeño y «foresta», uno grande y espeso. «Terra» es la tierra y también el suelo."
+    },
+    "id": "cap_err_voc_natura",
+    "retrieval": [
+      {
+        "id": "it_choice_s_2838597_ERR_VOC_NATURA",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Il fuoco è spento."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_NATURA",
+            "text": "Il campo è spento."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2838597",
+        "target_error_codes": [
+          "ERR_VOC_NATURA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "terra"
+        ],
+        "hint_es": "La tierra es marrón.",
+        "id": "it_cloze_s_3325845_ERR_VOC_NATURA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3325845",
+        "target_error_codes": [
+          "ERR_VOC_NATURA"
+        ],
+        "text": "La ___ è marrone.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "La",
+          "Terra",
+          "è",
+          "un",
+          "pianeta."
+        ],
+        "id": "it_reorder_s_1032569_ERR_VOC_NATURA",
+        "prompt_es": "Ordena las palabras: «La Tierra es un planeta.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1032569",
+        "target_error_codes": [
+          "ERR_VOC_NATURA"
+        ],
+        "tokens": [
+          "La",
+          "è",
+          "un",
+          "pianeta.",
+          "Terra"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_8011650_ERR_VOC_NATURA",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_NATURA",
+            "text": "Perché l'onda è verde?"
+          },
+          {
+            "correct": true,
+            "text": "Perché l'erba è verde?"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_8011650",
+        "target_error_codes": [
+          "ERR_VOC_NATURA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Terra"
+        ],
+        "hint_es": "La Tierra es el planeta azul.",
+        "id": "it_cloze_s_11282512_ERR_VOC_NATURA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11282512",
+        "target_error_codes": [
+          "ERR_VOC_NATURA"
+        ],
+        "text": "La ___ è il pianeta blu.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "La",
+          "Terra",
+          "è",
+          "troppo",
+          "piccola."
+        ],
+        "id": "it_reorder_s_2804011_ERR_VOC_NATURA",
+        "prompt_es": "Ordena las palabras: «La tierra es demasiado pequeña.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2804011",
+        "target_error_codes": [
+          "ERR_VOC_NATURA"
+        ],
+        "tokens": [
+          "La",
+          "è",
+          "troppo",
+          "Terra",
+          "piccola."
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_NATURA"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "L'erba è verde."
+      ],
+      "id": "it_translate_s_3901366_ERR_VOC_NATURA",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3901366",
+      "source_es": "La hierba es verde.",
+      "target_error_codes": [
+        "ERR_VOC_NATURA"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Italiano, spagnolo, francese, inglese, cileno, americano… En italiano las nacionalidades y los idiomas se escriben con minúscula (sono cileno, parlo spagnolo). Cambian como los adjetivos: italiano/italiana; los terminados en -e (francese, inglese) valen para masculino y femenino."
+    },
+    "id": "cap_err_voc_nazionalita",
+    "retrieval": [
+      {
+        "id": "it_choice_s_702487_ERR_VOC_NAZIONALITA",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Lui non è americano."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_NAZIONALITA",
+            "text": "Lui non è italiano."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_702487",
+        "target_error_codes": [
+          "ERR_VOC_NAZIONALITA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "russo"
+        ],
+        "hint_es": "¿Cómo se dice eso en ruso?",
+        "id": "it_cloze_s_12705182_ERR_VOC_NAZIONALITA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_12705182",
+        "target_error_codes": [
+          "ERR_VOC_NAZIONALITA"
+        ],
+        "text": "Come si dice in ___?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "È",
+          "italiano",
+          "di",
+          "nascita."
+        ],
+        "id": "it_reorder_s_374394_ERR_VOC_NAZIONALITA",
+        "prompt_es": "Ordena las palabras: «Es italiano de nacimiento.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_374394",
+        "target_error_codes": [
+          "ERR_VOC_NAZIONALITA"
+        ],
+        "tokens": [
+          "nascita.",
+          "italiano",
+          "È",
+          "di"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_581911_ERR_VOC_NAZIONALITA",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_NAZIONALITA",
+            "text": "Suo padre è cinese."
+          },
+          {
+            "correct": true,
+            "text": "Suo padre è giapponese."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_581911",
+        "target_error_codes": [
+          "ERR_VOC_NAZIONALITA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "giapponese"
+        ],
+        "hint_es": "Yo no hablo japonés.",
+        "id": "it_cloze_s_1472941_ERR_VOC_NAZIONALITA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1472941",
+        "target_error_codes": [
+          "ERR_VOC_NAZIONALITA"
+        ],
+        "text": "Non parlo il ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Karin",
+          "è",
+          "un",
+          "nome",
+          "tedesco."
+        ],
+        "id": "it_reorder_s_1655267_ERR_VOC_NAZIONALITA",
+        "prompt_es": "Ordena las palabras: «Karin es un nombre alemán.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1655267",
+        "target_error_codes": [
+          "ERR_VOC_NAZIONALITA"
+        ],
+        "tokens": [
+          "è",
+          "Karin",
+          "nome",
+          "tedesco.",
+          "un"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_NAZIONALITA"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Mia moglie è cinese."
+      ],
+      "id": "it_translate_s_379139_ERR_VOC_NAZIONALITA",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_379139",
+      "source_es": "Mi mujer es china.",
+      "target_error_codes": [
+        "ERR_VOC_NAZIONALITA"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Pasticceria, panificio, gelateria, libreria, edicola… La «libreria» es donde se compran libros (no una biblioteca, que es «biblioteca»). La «edicola» es el quiosco de diarios y la «tabaccheria» vende tabaco y estampillas."
+    },
+    "id": "cap_err_voc_negozi",
+    "retrieval": [
+      {
+        "id": "it_choice_s_2699616_ERR_VOC_NEGOZI",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "La libreria è aperta."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_NEGOZI",
+            "text": "La macelleria è aperta."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2699616",
+        "target_error_codes": [
+          "ERR_VOC_NEGOZI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "libreria"
+        ],
+        "hint_es": "Tom está en la librería ahora.",
+        "id": "it_cloze_s_13995406_ERR_VOC_NEGOZI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_13995406",
+        "target_error_codes": [
+          "ERR_VOC_NEGOZI"
+        ],
+        "text": "Tom è in ___ ora.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "La",
+          "gioielleria",
+          "è",
+          "aperta."
+        ],
+        "id": "it_reorder_s_2710571_ERR_VOC_NEGOZI",
+        "prompt_es": "Ordena las palabras: «La joyería está abierta.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2710571",
+        "target_error_codes": [
+          "ERR_VOC_NEGOZI"
+        ],
+        "tokens": [
+          "è",
+          "La",
+          "aperta.",
+          "gioielleria"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_13286472_ERR_VOC_NEGOZI",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_NEGOZI",
+            "text": "La pescheria è vicina al parco."
+          },
+          {
+            "correct": true,
+            "text": "La libreria è vicina al parco."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_13286472",
+        "target_error_codes": [
+          "ERR_VOC_NEGOZI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "libreria"
+        ],
+        "hint_es": "Puedes conseguirlo en una librería.",
+        "id": "it_cloze_s_3014463_ERR_VOC_NEGOZI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3014463",
+        "target_error_codes": [
+          "ERR_VOC_NEGOZI"
+        ],
+        "text": "Puoi prenderlo in una ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Mio",
+          "nonno",
+          "possiede",
+          "una",
+          "bottega."
+        ],
+        "id": "it_reorder_s_9058944_ERR_VOC_NEGOZI",
+        "prompt_es": "Ordena las palabras: «Mi abuelo tiene una tienda pequeña.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_9058944",
+        "target_error_codes": [
+          "ERR_VOC_NEGOZI"
+        ],
+        "tokens": [
+          "nonno",
+          "possiede",
+          "Mio",
+          "bottega.",
+          "una"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_NEGOZI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Dov'è la lavanderia?"
+      ],
+      "id": "it_translate_s_1246730_ERR_VOC_NEGOZI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1246730",
+      "source_es": "¿Dónde está la lavandería?",
+      "target_error_codes": [
+        "ERR_VOC_NEGOZI"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "Due, tre, quattro… venti, cento, mille. «Sei» (6) se escribe igual que «tú eres» y «uno» cambia (un libro, una casa). Los números del 11 al 16 terminan en -dici (undici, dodici, tredici…)."
     },
     "id": "cap_err_voc_numeri",
@@ -5035,6 +6111,158 @@
       "source_es": "Tengo dos ojos.",
       "target_error_codes": [
         "ERR_VOC_NUMERI"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Telefono, cellulare, zaino, matita, lettera, regalo, foglio… «Lettera» es la carta que se envía (no «carta», que es papel o naipe). «Foglio» es la hoja de papel; «zaino» es la mochila."
+    },
+    "id": "cap_err_voc_oggetti",
+    "retrieval": [
+      {
+        "id": "it_choice_s_3010650_ERR_VOC_OGGETTI",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Non è un regalo."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_OGGETTI",
+            "text": "Non è un quadro."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3010650",
+        "target_error_codes": [
+          "ERR_VOC_OGGETTI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "fiore"
+        ],
+        "hint_es": "¿Esto es una flor?",
+        "id": "it_cloze_s_1187342_ERR_VOC_OGGETTI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1187342",
+        "target_error_codes": [
+          "ERR_VOC_OGGETTI"
+        ],
+        "text": "Questo è un ___?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Lei",
+          "ha",
+          "un",
+          "telefono?"
+        ],
+        "id": "it_reorder_s_2022800_ERR_VOC_OGGETTI",
+        "prompt_es": "Ordena las palabras: «¿Usted tiene un teléfono?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2022800",
+        "target_error_codes": [
+          "ERR_VOC_OGGETTI"
+        ],
+        "tokens": [
+          "telefono?",
+          "Lei",
+          "un",
+          "ha"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_568678_ERR_VOC_OGGETTI",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_OGGETTI",
+            "text": "È una palla recente?"
+          },
+          {
+            "correct": true,
+            "text": "È una foto recente?"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_568678",
+        "target_error_codes": [
+          "ERR_VOC_OGGETTI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "cellulare"
+        ],
+        "hint_es": "¿Dónde está el celular?",
+        "id": "it_cloze_s_7248404_ERR_VOC_OGGETTI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_7248404",
+        "target_error_codes": [
+          "ERR_VOC_OGGETTI"
+        ],
+        "text": "Dov'è il ___?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Mi",
+          "piace",
+          "fare",
+          "foto."
+        ],
+        "id": "it_reorder_s_756441_ERR_VOC_OGGETTI",
+        "prompt_es": "Ordena las palabras: «Me gusta sacar fotos.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_756441",
+        "target_error_codes": [
+          "ERR_VOC_OGGETTI"
+        ],
+        "tokens": [
+          "foto.",
+          "fare",
+          "Mi",
+          "piace"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_OGGETTI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Lei ha una foto."
+      ],
+      "id": "it_translate_s_1137561_ERR_VOC_OGGETTI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1137561",
+      "source_es": "Ella tiene una fotografía.",
+      "target_error_codes": [
+        "ERR_VOC_OGGETTI"
       ],
       "type": "translate_es_it"
     }
@@ -5491,6 +6719,160 @@
       "source_es": "Hola, ¿eres Ana?",
       "target_error_codes": [
         "ERR_VOC_SALUTI"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Lavagna, voto, corso, maestro, parola, frase, lingua… «Voto» es la nota de un examen (y también el voto político). «Lingua» es el idioma y también la lengua del cuerpo. «Laurea» es el título universitario."
+    },
+    "id": "cap_err_voc_scuola",
+    "retrieval": [
+      {
+        "id": "it_choice_s_4711129_ERR_VOC_SCUOLA",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Quella è la mia frase!"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_SCUOLA",
+            "text": "Quella è la mia traduzione!"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4711129",
+        "target_error_codes": [
+          "ERR_VOC_SCUOLA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "lingua"
+        ],
+        "hint_es": "Me gusta mi idioma.",
+        "id": "it_cloze_s_1516106_ERR_VOC_SCUOLA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1516106",
+        "target_error_codes": [
+          "ERR_VOC_SCUOLA"
+        ],
+        "text": "Mi piace la mia ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "L'inglese",
+          "è",
+          "una",
+          "lingua."
+        ],
+        "id": "it_reorder_s_4406017_ERR_VOC_SCUOLA",
+        "prompt_es": "Ordena las palabras: «El inglés es una lengua.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4406017",
+        "target_error_codes": [
+          "ERR_VOC_SCUOLA"
+        ],
+        "tokens": [
+          "è",
+          "lingua.",
+          "L'inglese",
+          "una"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_11460685_ERR_VOC_SCUOLA",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_SCUOLA",
+            "text": "La materia non è completa."
+          },
+          {
+            "correct": true,
+            "text": "La frase non è completa."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11460685",
+        "target_error_codes": [
+          "ERR_VOC_SCUOLA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "frase"
+        ],
+        "hint_es": "Esta frase está incorrecta.",
+        "id": "it_cloze_s_6111292_ERR_VOC_SCUOLA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_6111292",
+        "target_error_codes": [
+          "ERR_VOC_SCUOLA"
+        ],
+        "text": "Questa ___ è sbagliata.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Questa",
+          "frase",
+          "non",
+          "ha",
+          "senso."
+        ],
+        "id": "it_reorder_s_374060_ERR_VOC_SCUOLA",
+        "prompt_es": "Ordena las palabras: «Esta frase no tiene sentido.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_374060",
+        "target_error_codes": [
+          "ERR_VOC_SCUOLA"
+        ],
+        "tokens": [
+          "non",
+          "senso.",
+          "frase",
+          "Questa",
+          "ha"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_SCUOLA"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Ha senso questa frase?"
+      ],
+      "id": "it_translate_s_1064966_ERR_VOC_SCUOLA",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1064966",
+      "source_es": "¿Tiene sentido esta frase?",
+      "target_error_codes": [
+        "ERR_VOC_SCUOLA"
       ],
       "type": "translate_es_it"
     }

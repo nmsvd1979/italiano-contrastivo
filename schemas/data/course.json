@@ -421,7 +421,10 @@
       "codes": [
         "ERR_VOC_DIMOSTRATIVI"
       ],
-      "why_here": "Señalar cosas al comprar o describir, con los artículos y el género ya vistos."
+      "why_here": "Señalar cosas al comprar o describir, con los artículos y el género ya vistos.",
+      "readings": [
+        "rd_stemmi"
+      ]
     },
     {
       "id": "u39",
@@ -441,7 +444,10 @@
       "codes": [
         "ERR_VOC_AVVERBI"
       ],
-      "why_here": "Hablar de cuándo pasan las cosas, con los días y los meses ya vistos."
+      "why_here": "Hablar de cuándo pasan las cosas, con los días y los meses ya vistos.",
+      "readings": [
+        "rd_albergo"
+      ]
     },
     {
       "id": "u41",
@@ -451,7 +457,10 @@
       "codes": [
         "ERR_VOC_AGGETTIVI"
       ],
-      "why_here": "Describir personas y cosas, con los colores y el vocabulario ya visto."
+      "why_here": "Describir personas y cosas, con los colores y el vocabulario ya visto.",
+      "readings": [
+        "rd_david"
+      ]
     },
     {
       "id": "u42",
@@ -461,7 +470,10 @@
       "codes": [
         "ERR_VOC_DENARO"
       ],
-      "why_here": "Comprar y preguntar precios, con los números y la ropa ya vistos."
+      "why_here": "Comprar y preguntar precios, con los números y la ropa ya vistos.",
+      "readings": [
+        "rd_gonna"
+      ]
     },
     {
       "id": "u43",
@@ -471,7 +483,10 @@
       "codes": [
         "ERR_VOC_SALUTE"
       ],
-      "why_here": "Decir cómo te sientes, con tener/avere y el cuerpo ya vistos."
+      "why_here": "Decir cómo te sientes, con tener/avere y el cuerpo ya vistos.",
+      "readings": [
+        "rd_giornatabrutta"
+      ]
     },
     {
       "id": "u44",
@@ -482,6 +497,96 @@
         "ERR_PIACERE_ACCORDO"
       ],
       "why_here": "Decir qué te gusta, con los artículos y el vocabulario ya vistos."
+    },
+    {
+      "id": "u45",
+      "level": "A1",
+      "title": "Vocabulario: países y nacionalidades",
+      "goal_es": "Italiano, spagnolo, francese, inglese, cileno… y que se escriben con minúscula (parlo spagnolo).",
+      "codes": [
+        "ERR_VOC_NAZIONALITA"
+      ],
+      "why_here": "Decir de dónde eres y qué idiomas hablas, con essere y los adjetivos ya vistos."
+    },
+    {
+      "id": "u46",
+      "level": "A1",
+      "title": "Vocabulario: frutas, verduras y condimentos",
+      "goal_es": "Patata, cipolla, fragola, uva, sale, pepe, funghi… y su género.",
+      "codes": [
+        "ERR_VOC_FRUTTA"
+      ],
+      "why_here": "Pedir y cocinar con la comida básica ya vista."
+    },
+    {
+      "id": "u47",
+      "level": "A1",
+      "title": "Vocabulario: tiendas y comercios",
+      "goal_es": "Pasticceria, panificio, libreria, edicola, macelleria… y «libreria» = librería, no biblioteca.",
+      "codes": [
+        "ERR_VOC_NEGOZI"
+      ],
+      "why_here": "Saber adónde ir para cada cosa, con la ciudad y las preposiciones ya vistas."
+    },
+    {
+      "id": "u48",
+      "level": "A1",
+      "title": "Vocabulario: higiene personal",
+      "goal_es": "Sapone, spazzolino, dentifricio, asciugamano, doccia, shampoo…",
+      "codes": [
+        "ERR_VOC_IGIENE"
+      ],
+      "why_here": "Hablar de tu rutina de aseo con los verbos de presente."
+    },
+    {
+      "id": "u49",
+      "level": "A1",
+      "title": "Vocabulario: objetos de todos los días",
+      "goal_es": "Telefono, cellulare, zaino, matita, lettera, regalo, foglio… y «lettera» = carta que se envía.",
+      "codes": [
+        "ERR_VOC_OGGETTI"
+      ],
+      "why_here": "Nombrar lo que usas y llevas a diario."
+    },
+    {
+      "id": "u50",
+      "level": "A1",
+      "title": "Vocabulario: ideas y sentimientos",
+      "goal_es": "Amore, amicizia, idea, problema, verità, libertà… y su género (la verità, il problema).",
+      "codes": [
+        "ERR_VOC_ASTRATTI"
+      ],
+      "why_here": "Hablar de lo que piensas y sientes con las palabras más comunes."
+    },
+    {
+      "id": "u51",
+      "level": "A1",
+      "title": "Vocabulario: la naturaleza",
+      "goal_es": "Bosco, collina, deserto, sentiero, pietra, erba, terra, fuoco…",
+      "codes": [
+        "ERR_VOC_NATURA"
+      ],
+      "why_here": "Describir el paisaje, con el clima y la ciudad ya vistos."
+    },
+    {
+      "id": "u52",
+      "level": "A1",
+      "title": "Vocabulario: la cocina y las comidas",
+      "goal_es": "Pentola, forno, cibo, cena, pranzo, sapore… y «cena» como sustantivo y como verbo.",
+      "codes": [
+        "ERR_VOC_CUCINA"
+      ],
+      "why_here": "Hablar de cocinar y comer, con la comida ya vista."
+    },
+    {
+      "id": "u53",
+      "level": "A1",
+      "title": "Vocabulario: el idioma y el estudio",
+      "goal_es": "Frase, parola, lingua, pagina, voto, maestro… y «lingua» = idioma.",
+      "codes": [
+        "ERR_VOC_SCUOLA"
+      ],
+      "why_here": "Hablar de estudiar y de idiomas, con las nacionalidades ya vistas."
     },
     {
       "id": "u08",
@@ -589,16 +694,6 @@
       "level": "A1",
       "title": "Vorrei: pedir con cortesía",
       "reason": "Condicional solo en fórmulas fijas de petición. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
-    },
-    {
-      "level": "A1",
-      "title": "Vocabulario: higiene personal y del hogar",
-      "reason": "Campo léxico del sillabo A1. Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
-    },
-    {
-      "level": "A1",
-      "title": "Vocabulario: países y nacionalidades",
-      "reason": "Campo léxico del sillabo A1 (nazionalità). Sillabo A1 de los enti certificatori (Tab. 9 y 13)."
     },
     {
       "level": "A1",

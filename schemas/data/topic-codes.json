@@ -404,5 +404,131 @@
     ],
     "source": "Proyecto italiano-contrastivo: sillabo A1 de los enti certificatori (Tab. 9 y 13), «mi piace / mi piacciono».",
     "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_NAZIONALITA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Italiano, spagnolo, francese, inglese, cileno, americano… En italiano las nacionalidades y los idiomas se escriben con minúscula (sono cileno, parlo spagnolo). Cambian como los adjetivos: italiano/italiana; los terminados en -e (francese, inglese) valen para masculino y femenino.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_FRUTTA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Patata, cipolla, fragola, uva, sale, pepe, funghi… «Patata» y «cipolla» son femeninas; «sale» y «pepe» son masculinos. «Fagioli», «funghi» y «spinaci» se usan casi siempre en plural.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_NEGOZI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Pasticceria, panificio, gelateria, libreria, edicola… La «libreria» es donde se compran libros (no una biblioteca, que es «biblioteca»). La «edicola» es el quiosco de diarios y la «tabaccheria» vende tabaco y estampillas.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_IGIENE",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Sapone, spazzolino, dentifricio, asciugamano, doccia… «Spazzolino» es el cepillo de dientes; «spazzola», el del pelo. «Pettine» es el peine. En casa se usa el artículo: il sapone, lo spazzolino.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_OGGETTI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Telefono, cellulare, zaino, matita, lettera, regalo, foglio… «Lettera» es la carta que se envía (no «carta», que es papel o naipe). «Foglio» es la hoja de papel; «zaino» es la mochila.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_ASTRATTI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Amore, amicizia, idea, problema, storia, verità, libertà… Las palabras en -ia y -tà son femeninas (la amicizia, la libertà, la verità); «problema» y «sistema» son masculinos aunque terminen en -a: il problema.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_NATURA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Bosco, collina, valle, sentiero, sabbia, onda, terra… «Bosco» es un bosque pequeño y «foresta», uno grande y espeso. «Terra» es la tierra y también el suelo.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_CUCINA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Pentola, padella, forno, frigorifero, tovaglia… La «pentola» es la olla y la «padella», la sartén. «Forno» es el horno y también la panadería. «Cena» (la cena) y «pranzo» (el almuerzo) son sustantivos y también formas verbales: io ceno, io pranzo.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_SCUOLA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Lavagna, voto, corso, maestro, parola, frase, lingua… «Voto» es la nota de un examen (y también el voto político). «Lingua» es el idioma y también la lengua del cuerpo. «Laurea» es el título universitario.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A1 por temas (vocab_a1.yaml); las fuentes piden vocabulario con tarjetas y falsos amigos.",
+    "review_status": "needs_review"
   }
 ]
