@@ -15,9 +15,9 @@ const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code
 const MIN_SENTENCES = 30; // el objetivo original era 40 (MIN_SENTENCES_TARGET): se exige 30 y se declara la diferencia
 
 const KNOWN_GAPS: Record<string, string[]> = {
-  // Unidades de gramática sin lectura de un libro abierto que encaje (se buscan en las fuentes pendientes: Cotto e mangiato, Leggiamo, Piacere!):
-  u54: ["lectura", "minutos"], u55: ["lectura", "minutos"], u16: ["lectura", "minutos"], u17: ["lectura", "minutos"],
-  u61: ["lectura", "minutos"], u44: ["lectura", "minutos"], u62: ["lectura", "minutos"],
+  // Género y artículo indefinido: las fuentes solo traen listas de nombres y ejercicios, no un texto que encaje (se declaran).
+  u54: ["lectura", "minutos"], u55: ["lectura", "minutos"],
+  u62: ["minutos"], // su lectura es un diálogo modelo de 3 frases: faltan unos minutos de práctica
 };
 
 function gaps(): Record<string, string[]> {

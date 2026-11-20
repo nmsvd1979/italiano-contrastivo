@@ -1,0 +1,91 @@
+{
+  "id": "rd_regalo",
+  "title": "Con me, per te",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/i-pronomi-tonici/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Se tomaron la conversación modelo y los ejemplos del capítulo; se quitaron las glosas en inglés. Texto muy corto.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_regalo_00",
+      "it": "Ciao, stasera vado al cinema.",
+      "es": "Hola, esta noche voy al cine.",
+      "speaker": "Elisa"
+    },
+    {
+      "id": "rd_regalo_01",
+      "it": "Vuoi venire con me?",
+      "es": "¿Quieres venir conmigo?",
+      "speaker": "Elisa"
+    },
+    {
+      "id": "rd_regalo_02",
+      "it": "Certo! A dopo, allora.",
+      "es": "¡Claro! Hasta luego, entonces.",
+      "speaker": "Monica"
+    },
+    {
+      "id": "rd_regalo_03",
+      "it": "Esco con loro.",
+      "es": "Salgo con ellos."
+    },
+    {
+      "id": "rd_regalo_04",
+      "it": "Questo regalo è per te.",
+      "es": "Este regalo es para ti."
+    },
+    {
+      "id": "rd_regalo_05",
+      "it": "Cerco proprio te.",
+      "es": "Te busco justo a ti."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Adónde va Elisa esta noche?",
+      "options": [
+        "Al cine",
+        "A una fiesta",
+        "Al restaurante"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Qué le propone Elisa a Monica?",
+      "options": [
+        "Quedarse en casa",
+        "Ir con ella",
+        "Cenar fuera"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué responde Monica?",
+      "options": [
+        "Que no",
+        "Que lo piensa",
+        "Que sí"
+      ],
+      "answer": 2,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Para quién es el regalo?",
+      "options": [
+        "Para ti",
+        "Para mí",
+        "Para ellos"
+      ],
+      "answer": 0,
+      "evidence": 4
+    }
+  ]
+}

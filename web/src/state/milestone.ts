@@ -18,7 +18,9 @@ export function milestoneItems(pack: ContentPack, level = "A1"): MilestoneItems 
   const want = { lex: Math.round(HITO.A1.total * HITO.A1.lex), gram: HITO.A1.total - Math.round(HITO.A1.total * HITO.A1.lex) };
   const out: MilestoneItems = { items: [], parts: [] };
   for (const part of ["gram", "lex"] as const) {
-    const pools = units.filter((u) => partOf(u) === part).map((u) => testItems(u, pack).filter((i) => i.type === "choice_l1_distractor"));
+    const all = units.filter((u) => partOf(u) === part).map((u) => testItems(u, pack).filter((i) => i.type === "choice_l1_distractor")).filter((p) => p.length);
+    // Si hay más unidades que preguntas, se toman unidades repartidas a lo largo de TODA la ruta (no solo las primeras); si hay menos, se da otra vuelta.
+    const pools = all.length > want[part] ? Array.from({ length: want[part] }, (_, i) => all[Math.floor(((i + 0.5) * all.length) / want[part])]) : all;
     for (let round = 0; out.parts.filter((p) => p === part).length < want[part] && round < 12; round++) {
       let added = false;
       for (const pool of pools) {
