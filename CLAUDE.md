@@ -15,7 +15,7 @@ Fuente de diseño: cuaderno NotebookLM "App para aprender italiano" (id 231c3dc2
 - Contenido en italiano: no inventar. Todo ítem nuevo nace `needs_review`; dudas en `docs/dudas-italiano.md`.
 - Licencias: Tatoeba CC BY 2.0 FR (guardar autor e id), Piper según modelo. Mantener atribuciones al día.
 - No marcar como verificado lo que no se probó (audio, iPhone).
-- Git: nunca push directo a `main`; ramas `feat/…` o `fix/…` + PR; un tema por PR; commits en español.
+- Git: commitear directo a `main`, sin ramas ni PR; commits pequeños en español, un tema por commit; nunca `--force`.
 - Interfaz y explicaciones: español neutro con tuteo.
 
 ## Revisión y verificación (transparencia)
