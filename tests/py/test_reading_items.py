@@ -42,5 +42,8 @@ def test_hay_items_para_todas_las_lecturas_del_paquete():
     pack = ROOT / "web/public/content"
     ri = json.loads((pack / "reading_items.json").read_text(encoding="utf8"))
     rd = json.loads((pack / "readings.json").read_text(encoding="utf8"))
-    assert set(ri) == {r["id"] for r in rd}
-    assert all(len(ri[r["id"]]) >= len(r["sentences"]) for r in rd)  # al menos un ejercicio por oración
+    course = json.loads((pack / "course.json").read_text(encoding="utf8"))
+    by = {r["id"]: r for r in rd}
+    claves = {f"{u['id']}:{rid}" for u in course["units"] for rid in u.get("readings", [])}
+    assert set(ri) == claves
+    assert all(len(v) >= len(by[k.split(":")[1]]["sentences"]) for k, v in ri.items())  # al menos un ejercicio por oración

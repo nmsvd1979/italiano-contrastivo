@@ -36,6 +36,7 @@ export type ContentPack = {
   course: Course;
   readings?: Reading[];
   /** Ejercicios derivados de cada lectura (texto del libro): traducir, ordenar y completar. */
+  /** Clave «unidad:lectura». */
   readingItems?: Record<string, Item[]>;
   capsules: Capsule[];
   itemsByCode: Record<string, Item[]>;

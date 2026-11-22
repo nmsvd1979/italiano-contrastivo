@@ -1828,6 +1828,9 @@
       ],
       "why_here": "Después de los artículos determinativos, el género que no coincide con el español es el primer error de fondo.",
       "ficha_es": "Hay palabras que tienen otro género que en español. Masculinas en italiano: il latte (la leche), il sale (la sal), il miele (la miel), il sangue (la sangre), il fiore (la flor), il naso (la nariz), il sorriso (la sonrisa). Femeninas en italiano: la mappa (el mapa), la matita (el lápiz), la penna (el bolígrafo), la scarpa (el zapato), la borsa (el bolso).\n\nPlurales: -o cambia a -i (libro → libri), -a cambia a -e (casa → case) y -e cambia a -i (notte → notti). El artículo cambia igual: il → i, la → le. No se agrega -s.",
+      "readings": [
+        "rd_zaino"
+      ],
       "status": "active",
       "explanation_es": "Algunas palabras tienen otro género que en español: il latte (la leche), il sale (la sal), il miele (la miel), il sangue (la sangre), il fiore (la flor), il naso (la nariz), il sorriso (la sonrisa). Y al revés: la mappa (el mapa), la matita (el lápiz), la penna (el bolígrafo), la scarpa (el zapato), la borsa (el bolso). Plural: -o → -i, -a → -e, -e → -i.",
       "parts": {
@@ -1928,6 +1931,9 @@
       ],
       "why_here": "Es el par de los artículos determinativos: cambia con la primera letra, como il / lo.",
       "ficha_es": "El artículo indefinido tiene cuatro formas: un (masculino: un amico), uno (masculino ante s + consonante, z, gn, ps: uno studente, uno zio), una (femenino: una casa) y un' (femenino ante vocal: un'amica).\n\nEn español solo «un/una» (un estudiante, una amiga): por eso el error típico es «un studente» o «un amica». Mira la letra con que empieza la palabra siguiente. Ojo: un amico (masculino) no lleva apóstrofo; un'amica (femenino) sí.",
+      "readings": [
+        "rd_routine"
+      ],
       "status": "active",
       "explanation_es": "El indefinido masculino es «un» (un amico), pero «uno» ante s + consonante, z, gn, ps (uno studente, uno zio). El femenino es «una» (una casa) y se apostrofa ante vocal: un'amica. En masculino no hay apóstrofo: un amico.",
       "parts": {
@@ -12071,7 +12077,7 @@
     {
       "level": "A1",
       "title": "Pedir aclaraciones: come? non ho capito",
-      "reason": "Fórmulas fijas (cosa vuol dire…? come si dice…? può ripetere?, Piacere! cap. «I saluti»): no tienen un calco español→italiano que se pueda generar como error; se necesita un diálogo con ejercicios propios."
+      "reason": "Probado: con el método de palabras clave (repetir, explicar, despacio) las oraciones del corpus no son de aclaración (domina «piano» = plan o piso) y no enseñan la función. Necesita diálogos propios de las fuentes (Piacere!, «I saluti»: «cosa vuol dire…?», «come si dice…?») con ejercicios hechos a mano."
     },
     {
       "level": "A1",

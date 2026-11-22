@@ -49,7 +49,8 @@ def build_pack(pack_dir: Path, course_file: Path) -> dict[str, list[dict]]:
     pack_dir = Path(pack_dir)
     readings = json.loads((pack_dir / "readings.json").read_text(encoding="utf8"))
     course = json.loads(Path(course_file).read_text(encoding="utf8"))
-    code_of = {rid: u["codes"][0] for u in course["units"] for rid in u.get("readings", [])}
-    result = {r["id"]: items_for_reading(r, code_of.get(r["id"])) for r in readings}
+    by_id = {r["id"]: r for r in readings}
+    # Clave «unidad:lectura»: una misma lectura puede asignarse a dos unidades y el hueco cae en el punto de divergencia de cada una.
+    result = {f"{u['id']}:{rid}": items_for_reading(by_id[rid], u["codes"][0]) for u in course["units"] for rid in u.get("readings", []) if rid in by_id}
     (pack_dir / "reading_items.json").write_text(json.dumps(result, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf8")
     return result
