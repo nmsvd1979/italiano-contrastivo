@@ -795,6 +795,11 @@
     "wrong": "Suoi occhi sono azzurri."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Io prendo delle vitamine.",
+    "wrong": "Io prendo di le vitamine."
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Io non amo Tom.",
     "wrong": "Io non amo a Tom."
@@ -1460,6 +1465,11 @@
     "wrong": "Il mercato è accanto a la farmacia."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Prendo delle vitamine ogni giorno.",
+    "wrong": "Prendo di le vitamine ogni giorno."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Io non voglio la tua cravatta.",
     "wrong": "Io non voglio tua cravatta."
@@ -1975,6 +1985,11 @@
     "wrong": "Lei tiene paura dei tuoni."
   },
   {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Voglio abitare in Italia.",
+    "wrong": "Voglio abitare a Italia."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Vi piace il risotto allo zafferano?",
     "wrong": "Vi piace il risotto a lo zafferano?"
@@ -2346,6 +2361,11 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Vorrei parlare con il mio avvocato.",
+    "wrong": "Vorrei parlare con mio avvocato."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Lui ha messo tutti i suoi soldi nella scatola.",
     "wrong": "Lui ha messo tutti suoi soldi nella scatola."
   },
@@ -2353,6 +2373,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Lui ha messo tutti i suoi soldi nella scatola.",
     "wrong": "Lui ha messo tutti i suoi soldi in la scatola."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Vorrei prenotare per domani sera alle sei.",
+    "wrong": "Vorrei prenotare per domani sera a le sei."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Vorrei un tavolo vicino alla finestra.",
+    "wrong": "Vorrei un tavolo vicino a la finestra."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2570,6 +2600,11 @@
     "wrong": "Si adatta perfettamente a tutte tue esigenze?"
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Vorrei viaggiare intorno al mondo.",
+    "wrong": "Vorrei viaggiare intorno a il mondo."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Ho incontrato i miei amici al bar.",
     "wrong": "Ho incontrato miei amici al bar."
@@ -2686,6 +2721,11 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Vorrei fargli un regalo per il suo compleanno.",
+    "wrong": "Vorrei fargli un regalo per suo compleanno."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Che cos'hai regalato a Mike per il suo compleanno?",
     "wrong": "Che cos'hai regalato a Mike per suo compleanno?"
   },
@@ -2785,6 +2825,11 @@
     "wrong": "Ho perso mio portafoglio."
   },
   {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Vorrei studiare a Parigi.",
+    "wrong": "Vorrei studiare in Parigi."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La registrazione inizia alle due e mezza.",
     "wrong": "La registrazione inizia a le due e mezza."
@@ -2818,6 +2863,11 @@
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è una scuola vicino a casa mia.",
     "wrong": "Ci sono una scuola vicino a casa mia."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Vorrei delle scarpe per una mia amica.",
+    "wrong": "Vorrei di le scarpe per una mia amica."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -2858,6 +2908,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La tua bicicletta è migliore della mia.",
     "wrong": "La tua bicicletta è migliore di la mia."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Vorrei vivere nel lusso.",
+    "wrong": "Vorrei vivere in il lusso."
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -2913,6 +2968,11 @@
     "code": "ERR_TENERE_AVERE",
     "correct": "Lei ha paura che tu ti perda.",
     "wrong": "Lei tiene paura che tu ti perda."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Vorrei andare alle Hawaii.",
+    "wrong": "Vorrei andare a le Hawaii."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3053,6 +3113,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Mantieni la tua promessa!",
     "wrong": "Mantieni tua promessa!"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Vorrei regalare alla mamma una pianta.",
+    "wrong": "Vorrei regalare a la mamma una pianta."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",

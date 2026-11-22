@@ -2,7 +2,7 @@
 
 Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiempos a priori (no medidos). Objetivo por unidad: **62 min** (descubre 7 · palabras 5 · lectura 10 · capsula 4 · practica 10 · escucha 12 · practica2 10 · prueba 4); 40 oraciones con audio; 1 lectura.
 
-**A1 hoy: 50 unidades, 44.8 h de pasos** (objetivo 50 h con repasos y examen de hito; 5.2 h por producir en las unidades existentes, más las unidades nuevas del currículo).
+**A1 hoy: 51 unidades, 45.8 h de pasos** (objetivo 50 h con repasos y examen de hito; 5.3 h por producir en las unidades existentes, más las unidades nuevas del currículo).
 
 | Unidad | Nivel | Oraciones | Ítems | descubre | palabras | lectura | capsula | practica | escucha | practica2 | prueba | Total (min) | Falta (min) | Lectura |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -48,6 +48,7 @@ Generada con `npm --prefix web run audit:content`. Minutos de pasos con los tiem
 | u22 Vocabulario: comida y bebida | A1 | 37 | 148 | 7.1 | 8 | 13.5 | 3.2 | 10.4 | 12.3 | 10.2 | 2.5 | 67.2 | 0 | sí |
 | u44 Mi piace / mi piacciono | A1 | 42 | 126 | 7.1 | — | 2.9 | 3.2 | 10.3 | 12.3 | 10.1 | 2.5 | 48.4 | 8.6 | sí |
 | u35 Vocabulario: bar y restaurante | A1 | 35 | 139 | 7.1 | 5.3 | 4.1 | 3.2 | 10.1 | 12.3 | 10 | 2.5 | 54.6 | 7.4 | sí |
+| u65 Pedir con cortesía: vorrei, prendo | A1 | 56 | 224 | 7.1 | 1.5 | 13.5 | 3.2 | 10.1 | 12.3 | 10.1 | 2.5 | 60.3 | 1.7 | sí |
 | u31 Vocabulario: la ropa | A1 | 38 | 152 | 7.1 | 6 | 7.7 | 3.2 | 10.1 | 12.3 | 10 | 2.5 | 58.9 | 3.1 | sí |
 | u42 Vocabulario: dinero y compras | A1 | 35 | 139 | 7.1 | 3.8 | 6.4 | 3.2 | 10.1 | 12.3 | 10.1 | 2.5 | 55.5 | 6.5 | sí |
 | u27 Vocabulario: el cuerpo | A1 | 36 | 144 | 7.1 | 6.5 | — | 3.2 | 10.1 | 12.3 | 10.2 | 2.5 | 51.9 | 10.1 | no |
