@@ -2,6 +2,9 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-22 (noche, 6) — Dato del usuario: el reconocimiento del navegador da «aborted»
+El usuario probó el botón 🎙 (reconocimiento propio de Safari) en su iPhone y salió `aborted` muchas veces. Causas posibles (sin confirmar): el audio del modelo sonando al iniciar, un reconocimiento anterior sin abortar (mi código no lo hacía: corregido), o que la app instalada (modo standalone) no mantiene el micrófono para esa API. La prueba nueva aborta lo anterior y detiene el audio antes de escuchar, y el mensaje de `aborted` sugiere repetirla abriendo la página en Safari sin instalar. Hasta que se confirme, el reconocimiento del navegador NO es una opción fiable en ese teléfono; no cambia la decisión (el dictado del teclado cubre la comprensibilidad).
+
 ## 2026-11-22 (noche, 5) — Resultado del dictado y decisión sobre el habla
 **Resultado (iPhone, iOS 18, app instalada):** teclado: 8 de 10 frases exactas (fallaron «Forse non è giovane»→«Giovanni» y «È carne di scimmia»→«I carni di skin mia», justo sonidos g/sc que la app enseña); pares simple/doble: 4 fieles y 2 confundidos («il nono»→«il nonno», «una pala»→«una palla»). El reconocimiento del navegador existe pero no se probó.
 **Decisión:** el dictado sirve para saber si te entienden, no para corregir consonantes dobles. Se agregó a «escuchar y repetir» un bloque plegable «¿Te entiende el teléfono?» (dictas, comparas y ves qué palabras no aparecieron), con el límite dicho en pantalla. Whisper en navegador queda descartado por ahora. Las geminadas se trabajan con percepción (pares mínimos con audio) y *shadowing*. Muestra pequeña (una persona, 16 ejercicios): indicio, no prueba definitiva.

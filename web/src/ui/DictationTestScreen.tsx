@@ -2,8 +2,9 @@ import { useMemo, useRef, useState } from "react";
 import type { ContentPack } from "../content/load";
 import { type Attempt, buildDictationItems, classify, type DictItem, type Method, reportText, summarize, verdict } from "../state/dictationTest";
 import { SpeakButton } from "./SpeakButton";
+import { stopSay } from "./speech";
 
-type Recognizer = { lang: string; interimResults: boolean; maxAlternatives: number; start: () => void; stop: () => void; onresult: ((e: { results: ArrayLike<ArrayLike<{ transcript: string }>> }) => void) | null; onerror: ((e: { error: string }) => void) | null; onend: (() => void) | null };
+type Recognizer = { abort?: () => void; lang: string; interimResults: boolean; maxAlternatives: number; start: () => void; stop: () => void; onresult: ((e: { results: ArrayLike<ArrayLike<{ transcript: string }>> }) => void) | null; onerror: ((e: { error: string }) => void) | null; onend: (() => void) | null };
 const recognizerCtor = (): (new () => Recognizer) | null => {
   const w = window as unknown as Record<string, new () => Recognizer>;
   return w.SpeechRecognition ?? w.webkitSpeechRecognition ?? null;
@@ -44,10 +45,12 @@ export function DictationTestScreen({ pack }: { pack: ContentPack }) {
   const listen = (item: DictItem) => {
     if (!SR) return;
     setApiNote(null);
+    stopSay();                         // el modelo sonando ocupa el audio del iPhone y el reconocimiento se aborta
+    try { rec.current?.abort?.(); } catch { /* ya terminó */ }
     const r = new SR();
     r.lang = "it-IT"; r.interimResults = false; r.maxAlternatives = 1;
     r.onresult = (e) => { const t = e.results[0]?.[0]?.transcript ?? ""; record(item, t, "navegador"); };
-    r.onerror = (e) => setApiNote(`El navegador respondió con un error: «${e.error}». Eso también es un resultado.`);
+    r.onerror = (e) => setApiNote(`El navegador respondió con un error: «${e.error}». Eso también es un resultado.${e.error === "aborted" ? " «aborted» suele ser que el sistema cortó el micrófono (audio sonando, otra app, o app instalada): prueba también abriendo la página en Safari, sin instalar." : ""}`);
     r.onend = () => setListening(false);
     rec.current = r;
     setListening(true);

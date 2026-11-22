@@ -39,4 +39,16 @@ describe("pantalla de la prueba de dictado", () => {
     fireEvent.click(screen.getByText(/Probar con el reconocimiento del navegador/));
     expect((await screen.findByRole("alert")).textContent).toContain("service-not-allowed");
   });
+  it("antes de escuchar aborta el reconocimiento anterior, y un «aborted» explica la causa probable", async () => {
+    const aborts = vi.fn();
+    class Fake { lang = ""; interimResults = false; maxAlternatives = 1; onresult: ((e: unknown) => void) | null = null; onerror: ((e: { error: string }) => void) | null = null; onend: (() => void) | null = null;
+      start() { setTimeout(() => { this.onerror?.({ error: "aborted" }); this.onend?.(); }, 0); } stop() {} abort() { aborts(); } }
+    (window as unknown as Record<string, unknown>).webkitSpeechRecognition = Fake;
+    render(<DictationTestScreen pack={pack} />);
+    fireEvent.click(screen.getByText("Empezar"));
+    fireEvent.click(screen.getByText(/Probar con el reconocimiento del navegador/));
+    expect((await screen.findByRole("alert")).textContent).toMatch(/Safari, sin instalar/);
+    fireEvent.click(await screen.findByText(/Probar con el reconocimiento del navegador/));
+    expect(aborts).toHaveBeenCalledTimes(1); // el segundo intento aborta el primero antes de empezar
+  });
 });
