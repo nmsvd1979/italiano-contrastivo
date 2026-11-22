@@ -2,7 +2,7 @@ import { useState } from "react";
 import type { ContentPack, Unit } from "../content/load";
 import type { Item } from "../generated/item";
 import { placeUnits } from "../state/progress";
-import { kindOf, testItems } from "../state/steps";
+import { kindOf, recognitionItems } from "../state/steps";
 import type { Store } from "../state/store";
 import { estimateSeconds, formatDuration, loadSamples } from "../state/timing";
 import { fromItems, ItemRunner } from "./ItemRunner";
@@ -11,7 +11,7 @@ export const PLACEMENT_PER_UNIT = 3;
 
 /** Ítems de ubicación: 3 por unidad, tomados de las oraciones reservadas de su prueba. */
 export function placementPlan(units: Unit[], pack: ContentPack): { unit: Unit; items: Item[] }[] {
-  return units.map((unit) => ({ unit, items: testItems(unit, pack).filter((i) => i.type === "choice_l1_distractor").slice(0, PLACEMENT_PER_UNIT) }));
+  return units.map((unit) => ({ unit, items: recognitionItems(unit, pack).filter((i) => i.type === "choice_l1_distractor").slice(0, PLACEMENT_PER_UNIT) }));
 }
 
 export const STOP_AFTER_MISSES = 2;

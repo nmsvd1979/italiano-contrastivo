@@ -15,7 +15,7 @@ const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code
 const MIN_SENTENCES = 30; // el objetivo original era 40 (MIN_SENTENCES_TARGET): se exige 30 y se declara la diferencia
 
 const KNOWN_GAPS: Record<string, string[]> = {
-  u62: ["minutos"], // su lectura es un diálogo modelo de 3 frases: faltan unos minutos de práctica
+  // u62 («minutos») dejó de ser hueco al sumar «Escribe en italiano» a la práctica: dura más POR ESTIMACIÓN (45 s por frase escrita, valor a priori), no por haber más contenido.
   // Cayeron bajo 30 oraciones (2026-11-22) al aplicar el prefiltro de auditoría a las unidades A1: se quitaron las que traían
   // imperfetto, congiuntivo, condicional o más de 14 palabras. Quedan: u07 27, u02 29, u05 27. Faltan oraciones nuevas de A1.
   u07: ["oraciones"],

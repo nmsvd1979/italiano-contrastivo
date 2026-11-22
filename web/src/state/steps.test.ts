@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import type { ContentPack } from "../content/load";
 import type { Item } from "../generated/item";
-import { dictationSentences, kindOf, meaningQuestions, noticeCards, practiceItems, reconstructionItems, shadowSentences, stepSeconds, testItems, TEST_ITEMS, unitSentences, voiceItems } from "./steps";
+import { dictationSentences, kindOf, meaningQuestions, noticeCards, practiceItems, reconstructionItems, shadowSentences, stepSeconds, testItems, unitSentences, voiceItems } from "./steps";
 import { estimateSeconds } from "./timing";
 
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
@@ -47,12 +47,17 @@ describe.each(pack.course.units.map((u) => [u.id, u] as const))("unidad %s con e
     const ranks = practiceItems(unit, pack).map((i) => rank[i.type ?? ""]);
     expect(ranks).toEqual([...ranks].sort((a, b) => a - b));
   });
-  it("la prueba tiene 10 ítems, solo con oraciones reservadas, y ninguno aparece en la práctica", () => {
+  it("la prueba es escribir en italiano cada oración reservada (sin opciones), y ninguna aparece en la práctica", () => {
     const test = testItems(unit, pack);
-    expect(test.length).toBe(TEST_ITEMS);
+    expect(test.length).toBe(unit.parts.prueba.length);
+    expect(test.every((i) => i.type === "translate_es_it")).toBe(true);
     expect(test.every((i) => unit.parts.prueba.includes(sid(i)))).toBe(true);
-    const practice = new Set(practiceItems(unit, pack).map((i) => i.id));
-    expect(test.some((i) => practice.has(i.id))).toBe(false);
+    const practiceSentences = new Set(practiceItems(unit, pack).map(sid));
+    expect(test.some((i) => practiceSentences.has(sid(i)))).toBe(false);
+  });
+  it("todo ítem de la práctica tiene pantalla (elección, hueco, orden o escribir)", () => {
+    const known = new Set(["choice_l1_distractor", "cloze", "reorder", "translate_es_it"]);
+    for (const part of [1, 2] as const) expect(practiceItems(unit, pack, {}, undefined, part).every((i) => known.has(i.type ?? ""))).toBe(true);
   });
   it("cada paso dura entre 2 y 9 minutos con los tiempos a priori", () => {
     for (const step of ["descubre", "capsula", "practica", "escucha", "practica2", "prueba"] as const) {

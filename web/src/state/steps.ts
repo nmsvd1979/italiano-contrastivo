@@ -5,6 +5,7 @@ import type { Kind, Samples } from "./timing";
 import { estimateSeconds } from "./timing";
 
 import { TARGET_MINUTES } from "./targets";
+import { writeItemOf } from "./write";
 
 export const PRACTICE_TARGET_SECONDS = TARGET_MINUTES.practica * 60; // cada tanda de práctica
 /** Presupuesto de cada bloque de la sesión de las fuentes (segundos): lectura 7 min, voz 8 min. */
@@ -27,7 +28,7 @@ const unitItems = (unit: Unit, pack: ContentPack, sentenceIds: string[]): Map<st
   }
   return map;
 };
-const ORDER: Record<string, number> = { choice_l1_distractor: 0, cloze: 1, reorder: 2 };
+const ORDER: Record<string, number> = { choice_l1_distractor: 0, cloze: 1, reorder: 2, translate_es_it: 3 };
 
 /**
  * Práctica: da vueltas por las oraciones de la unidad; en cada vuelta toma un tipo de ejercicio distinto por oración
@@ -35,6 +36,8 @@ const ORDER: Record<string, number> = { choice_l1_distractor: 0, cloze: 1, reord
  */
 export function practiceItems(unit: Unit, pack: ContentPack, samples: Samples = {}, targetSeconds = PRACTICE_TARGET_SECONDS, part: 1 | 2 = 1): Item[] {
   const bySentence = unitItems(unit, pack, unit.parts.practica);
+  const sentences = sentenceIndex(pack);
+  for (const [id, list] of bySentence) { const sen = sentences.get(id); if (sen) list.push(writeItemOf(sen, unit.codes[0])); } // producir: escribir la frase entera desde el español
   for (const list of bySentence.values()) list.sort((a, b) => (ORDER[a.type ?? ""] ?? 9) - (ORDER[b.type ?? ""] ?? 9));
   // Secuencia completa: en cada vuelta cada oración aporta un tipo distinto (elección → hueco → orden), sin repetir ítems.
   const seq: Item[] = [];
@@ -66,8 +69,14 @@ export function practiceItems(unit: Unit, pack: ContentPack, samples: Samples = 
   return chosen.map((it, i) => ({ it, i })).sort((a, b) => (ORDER[a.it.type ?? ""] ?? 9) - (ORDER[b.it.type ?? ""] ?? 9) || a.i - b.i).map((x) => x.it);
 }
 
-/** Prueba: solo oraciones reservadas (no están en la práctica). Una elección por oración y huecos/orden para completar 10. */
+/** Prueba de la unidad: escribir en italiano cada oración reservada (no están en la práctica), desde el español. Sin opciones: no se puede acertar adivinando. */
 export function testItems(unit: Unit, pack: ContentPack): Item[] {
+  const idx = sentenceIndex(pack);
+  return unit.parts.prueba.map((id) => idx.get(id)).filter((x): x is PackSentence => !!x).map((x) => writeItemOf(x, unit.codes[0]));
+}
+
+/** Ítems de reconocimiento de las oraciones reservadas (una elección por oración y huecos/orden para completar 10): ubicación y examen de hito. */
+export function recognitionItems(unit: Unit, pack: ContentPack): Item[] {
   const bySentence = unitItems(unit, pack, unit.parts.prueba);
   const out: Item[] = [];
   for (const [id] of [...bySentence]) {

@@ -206,20 +206,8 @@ describe("flujo completo de una unidad en la interfaz", () => {
     const unit = pack.course.units[0];
     render(<StepScreen unitId={U1} step="prueba" pack={pack} store={store} />);
     for (const item of testItems(unit, pack)) {
-      if (item.type === "choice_l1_distractor") {
-        const good = (item as unknown as { options: { text: string; correct: boolean }[] }).options.find((o) => o.correct)!.text;
-        fireEvent.click(await screen.findByText(good));
-      } else if (item.type === "cloze") {
-        fireEvent.change(await screen.findByLabelText("Respuesta"), { target: { value: (item as unknown as { answers: string[] }).answers[0] } });
-        fireEvent.click(screen.getByText("Comprobar"));
-      } else {
-        await screen.findByText("Comprobar");
-        for (const t of (item as unknown as { answer: string[] }).answer) {
-          const btn = [...document.querySelectorAll(".bank button")].find((b) => b.textContent === t && !(b as HTMLButtonElement).disabled)!;
-          fireEvent.click(btn);
-        }
-        fireEvent.click(screen.getByText("Comprobar"));
-      }
+      fireEvent.change(await screen.findByLabelText("Tu traducción"), { target: { value: (item as unknown as { accepted_it: string[] }).accepted_it[0] } });
+      fireEvent.click(screen.getByText("Comprobar"));
       fireEvent.click(await screen.findByText("Continuar"));
     }
     await screen.findByText("¡Unidad completada!");
@@ -234,22 +222,9 @@ describe("flujo completo de una unidad en la interfaz", () => {
     for (const s of stepsFor(pack.course.units[0]).filter((x) => x !== "prueba")) p = markStep(p, s, NOW);
     await store.putUnit(p);
     render(<StepScreen unitId={U1} step="prueba" pack={pack} store={store} />);
-    for (let i = 0; i < 10; i++) {
-      const wrong = (await screen.findAllByRole("button")).find((b) => b.closest("ul.options"));
-      if (wrong) {
-        // elegir la opción incorrecta: la que no es la correcta (la prueba mezcla tipos; si no hay opciones se responde mal el hueco/orden)
-      }
-      const cloze = screen.queryByLabelText("Respuesta");
-      if (cloze) {
-        fireEvent.change(cloze, { target: { value: "zzz" } });
-        fireEvent.click(screen.getByText("Comprobar"));
-      } else if (wrong) {
-        const item = testItems(pack.course.units[0], pack)[i] as unknown as { options?: { text: string; correct: boolean }[] };
-        const bad = item.options?.find((o) => !o.correct)?.text;
-        fireEvent.click(screen.getByText(bad!));
-      } else {
-        fireEvent.click(await screen.findByText("Comprobar"));
-      }
+    for (let i = 0; i < testItems(pack.course.units[0], pack).length; i++) {
+      fireEvent.change(await screen.findByLabelText("Tu traducción"), { target: { value: "zzz" } });
+      fireEvent.click(screen.getByText("Comprobar"));
       fireEvent.click(await screen.findByText("Continuar"));
     }
     await screen.findByText("Casi");

@@ -2,7 +2,7 @@ import type { ContentPack, Unit } from "../content/load";
 import type { Item } from "../generated/item";
 import { emptyProgress } from "./course";
 import type { UnitProgress } from "./store";
-import { testItems } from "./steps";
+import { recognitionItems } from "./steps";
 
 /** Examen de hito (fuentes): A1 pondera 35 % léxico / 65 % gramática. Se aprueba con ≥65 % global y ≥50 % en cada parte. */
 export const HITO = { A1: { lex: 0.35, total: 40 }, PASS_GLOBAL: 0.65, PASS_PART: 0.5 } as const;
@@ -18,7 +18,7 @@ export function milestoneItems(pack: ContentPack, level = "A1"): MilestoneItems 
   const want = { lex: Math.round(HITO.A1.total * HITO.A1.lex), gram: HITO.A1.total - Math.round(HITO.A1.total * HITO.A1.lex) };
   const out: MilestoneItems = { items: [], parts: [] };
   for (const part of ["gram", "lex"] as const) {
-    const all = units.filter((u) => partOf(u) === part).map((u) => testItems(u, pack).filter((i) => i.type === "choice_l1_distractor")).filter((p) => p.length);
+    const all = units.filter((u) => partOf(u) === part).map((u) => recognitionItems(u, pack).filter((i) => i.type === "choice_l1_distractor")).filter((p) => p.length);
     // Si hay más unidades que preguntas, se toman unidades repartidas a lo largo de TODA la ruta (no solo las primeras); si hay menos, se da otra vuelta.
     const pools = all.length > want[part] ? Array.from({ length: want[part] }, (_, i) => all[Math.floor(((i + 0.5) * all.length) / want[part])]) : all;
     for (let round = 0; out.parts.filter((p) => p === part).length < want[part] && round < 12; round++) {

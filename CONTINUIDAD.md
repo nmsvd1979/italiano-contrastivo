@@ -2,6 +2,16 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-22 (noche, 2) — Fase 2, primer paso: «Escribe en italiano»
+**Hecho:** nuevo ejercicio que muestra la frase en español y se escribe en italiano (`web/src/ui/items/Write.tsx`, corrección en `web/src/state/write.ts`). Se corrige comparando con la traducción guardada y tolera mayúsculas, puntuación, apóstrofo con espacio y el pronombre io/tu/noi/voi; NO perdona acentos (avisa «solo falta el acento»). Como la respuesta guardada es una de varias posibles, el botón «Mi versión también es correcta» deja que decidas tú.
+- **Prueba de unidad = 6 frases escritas** (antes 10 ítems de elección/hueco/orden con 2 opciones); ≈5 min; sigue pasando con ≥80 %. Ubicación y examen de hito siguen con reconocimiento (`recognitionItems`).
+- **La práctica** suma una versión escrita por oración.
+- **Arreglo de un error latente:** las 497 frases de traducir derivadas de las lecturas podían caer en la práctica y mostraban «ejercicio no disponible»; ahora tienen pantalla.
+
+**Verificado:** web 826 pruebas en verde, app construida y probada en el navegador a 375 px (respuesta con calco → marca «mezza» y muestra lo escrito). **No verificado:** que 5 de 6 sea una vara razonable con uso real, ni el teclado del iPhone (autocorrección, acentos). **Declarado:** el minuto de u62 «se resolvió» solo porque escribir se estima en 45 s (valor a priori).
+
+**Siguiente (Fase 2):** reconstrucción de memoria con diferencias, «Pedir corrección» (encargo para IA gratuita) y registro de errores al repaso, dictado del iPhone como comprobador, y reemplazar el relleno por minutos.
+
 ## 2026-11-22 (noche) — Fase 1: traducciones y vocabulario con artículo
 **Traducciones:** 5 subagentes revisaron las 2.204 oraciones usadas en unidades (italiano→español): marcaron 53 (2,4 %); más 11 cambios mecánicos de vocabulario de España («coche»→«auto», «gafas»→«lentes»). 64 oraciones retraducidas con `scripts/retranslate.py` (quedan `translation_kind=llm`, marcadas) y re-exportadas. Lo más grave eran los «vorrei» traducidos «quiero» (ahora «quisiera»), «vosotros» y la persona/género. Una muestra mía de 45 pares sin marcar no halló errores de sentido; la auditoría es de IA, **no de un nativo**, y pudo dejar pasar casos. Respaldo de la base: `data/work/authoring.pre-traducciones.db` (fuera de git).
 
