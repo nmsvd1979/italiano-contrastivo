@@ -2,7 +2,12 @@
 
 Registro de avances. Lo más reciente arriba.
 
-## 2026-11-22 (noche, 4) — Prueba técnica del dictado (esperando resultado del iPhone)
+## 2026-11-22 (noche, 5) — Resultado del dictado y decisión sobre el habla
+**Resultado (iPhone, iOS 18, app instalada):** teclado: 8 de 10 frases exactas (fallaron «Forse non è giovane»→«Giovanni» y «È carne di scimmia»→«I carni di skin mia», justo sonidos g/sc que la app enseña); pares simple/doble: 4 fieles y 2 confundidos («il nono»→«il nonno», «una pala»→«una palla»). El reconocimiento del navegador existe pero no se probó.
+**Decisión:** el dictado sirve para saber si te entienden, no para corregir consonantes dobles. Se agregó a «escuchar y repetir» un bloque plegable «¿Te entiende el teléfono?» (dictas, comparas y ves qué palabras no aparecieron), con el límite dicho en pantalla. Whisper en navegador queda descartado por ahora. Las geminadas se trabajan con percepción (pares mínimos con audio) y *shadowing*. Muestra pequeña (una persona, 16 ejercicios): indicio, no prueba definitiva.
+**Siguiente:** reemplazar el relleno por minutos y migrar las unidades al ciclo de cuatro hebras; percepción con más voces nativas; registro de errores de la IA al repaso.
+
+## 2026-11-22 (noche, 4) — Prueba técnica del dictado (resultado arriba)
 **Hecho:** pantalla `#/prueba-dictado` (enlace en Ajustes). Mide dos cosas con 16 ejercicios (10 frases de las unidades de sonidos y 6 pares simple/doble: «il nonno / il nono», «una palla / una pala», «la penna / la pena», en las dos direcciones): (1) si el dictado del teclado del iPhone entiende frases en italiano; (2) si distingue consonante simple de doble o la «corrige» hacia la palabra más probable. Si el navegador ofrece reconocimiento de voz propio (`webkitSpeechRecognition`), un botón 🎙 lo prueba aparte. Al final da un veredicto por método y «Copiar resultados». Lógica en `web/src/state/dictationTest.ts`.
 
 **Decisión que depende del resultado:** si entiende frases Y distingue simple/doble → se construye «habla» con el dictado como comprobador; si solo entiende frases → sirve para saber si te entienden, no para corregir geminadas, y la pronunciación se trabaja con percepción + *shadowing* + comparación con audio nativo; si no entiende → el habla se hace fuera de la app (guion para IA con voz) y la app solo registra minutos.

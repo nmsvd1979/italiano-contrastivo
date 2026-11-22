@@ -59,11 +59,11 @@ Ninguna opción gratis iguala a un corrector humano; se combinan varias y la app
 
 **Habla**
 1. *Entrenamiento de percepción* con varias voces nativas (pares mínimos, identificar cuál oyes): mejora también la pronunciación. Audio de Lingua Libre y Common Voice (CC0, verificar).
-2. *Dictado del iPhone como comprobador*: dices la frase al micrófono del teclado en italiano; si el teléfono escribe lo esperado, se te entiende. Gratis y sin conexión a servicios. **Requiere prueba técnica en tu iPhone.**
+2. *Dictado del iPhone como comprobador de comprensibilidad* — **medido el 2026-11-22 en el iPhone del usuario (iOS 18, app instalada): 8 de 10 frases exactas; entre consonantes simples y dobles escribió lo que dijiste en 4 de 6 casos y corrigió hacia la palabra más frecuente en 2 («il nono»→«il nonno», «una pala»→«una palla»).** Conclusión: sirve para saber si te entienden; NO sirve para corregir geminadas (una persona, 16 ejercicios: es un indicio, no una prueba definitiva). Se usa solo como comprobación de comprensibilidad en «escuchar y repetir». El reconocimiento propio del navegador existe en ese iPhone pero no se llegó a probar (sin datos).
 3. *Shadowing* con grabación y comparación (ya existe), sobre audio nativo cuando lo haya.
 4. *Monólogos cronometrados* (misma historia en 3, 2 y 1 min) y lectura en voz alta: fluidez.
 5. *Conversación con voz de IA gratuita* (modo voz de ChatGPT o Gemini): la app entrega el guion del rol y luego registra minutos y errores.
-6. Reconocimiento de voz dentro del navegador (Whisper): solo si la prueba técnica en tu iPhone resulta usable.
+6. Reconocimiento de voz dentro del navegador (Whisper): descartado por ahora; el dictado nativo ya mostró que el reconocimiento tiende a «corregir» hacia la palabra probable, y un modelo propio tendría el mismo sesgo sin ventaja clara. Las geminadas se trabajan con percepción (punto 1) y *shadowing* (punto 3).
 
 ### Vocabulario por tamices
 Cada palabra se clasifica: cognado transparente, cognado con cambio regular, opaca, falso amigo. Los cognados pasan rápido (solo género, grafía y acento); las opacas van al repaso completo; los falsos amigos llevan tarjeta doble (*burro* = mantequilla / *asino* = burro). Toda tarjeta muestra artículo italiano y sílaba tónica, y se repasa en dirección ES→IT. Fuente de datos: Wiktionary (género, acento, conjugaciones; CC BY-SA) y listas de frecuencia.

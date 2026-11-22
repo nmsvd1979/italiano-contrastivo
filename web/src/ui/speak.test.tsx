@@ -5,6 +5,23 @@ import { SpeakItem } from "./SpeakItem";
 afterEach(() => { cleanup(); vi.unstubAllGlobals(); });
 const sentence = { id: "s1", it: "Ho fame.", es: "Tengo hambre.", cefr_estimate: "A1", audio: "abc" };
 
+describe("escuchar y repetir: ¿te entiende el teléfono?", () => {
+  it("compara lo dictado con la frase: todo entendido, o qué palabras no aparecieron", async () => {
+    vi.stubGlobal("navigator", {});
+    render(<SpeakItem sentence={{ ...sentence, it: "Forse non è giovane." }} onAnswer={() => undefined} />);
+    fireEvent.click(screen.getByText(/Grabarme/));
+    await screen.findByText(/no puede grabar/);
+    const box = screen.getByLabelText("Lo que dictó el teléfono");
+    fireEvent.change(box, { target: { value: "forse non è giovane" } });
+    fireEvent.click(screen.getByText("Comparar"));
+    expect(screen.getByText("El teléfono te entendió todo.")).toBeTruthy();
+    fireEvent.change(box, { target: { value: "forse non è Giovanni" } });
+    fireEvent.click(screen.getByText("Comparar"));
+    expect(screen.getByText(/Se entendió 3 de 4 palabras/)).toBeTruthy();
+    expect(screen.getByText("giovane.").tagName).toBe("MARK");
+  });
+});
+
 describe("escuchar y repetir", () => {
   it("sin micrófono permite repetir en voz alta y autoevaluarse (bien/casi cuentan, otra vez no)", async () => {
     vi.stubGlobal("navigator", {});

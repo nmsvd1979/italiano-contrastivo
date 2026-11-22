@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { useSay } from "../audio/AudioContext";
 import type { PackSentence } from "../content/load";
+import { alignWords } from "../state/align";
+import { Marked } from "./kit/Feedback";
 
 type Rating = "bien" | "casi" | "otra";
 const canRecord = () => typeof navigator !== "undefined" && !!navigator.mediaDevices?.getUserMedia && typeof MediaRecorder !== "undefined";
@@ -40,6 +42,9 @@ export function SpeakItem({ sentence, onAnswer }: { sentence: PackSentence; onAn
     }
   };
   const rate = (r: Rating) => onAnswer(r !== "otra");
+  const [dictated, setDictated] = useState("");
+  const [checked, setChecked] = useState(false);
+  const understood = checked ? alignWords(sentence.it, dictated) : null;
 
   return (
     <section className="item">
@@ -59,6 +64,15 @@ export function SpeakItem({ sentence, onAnswer }: { sentence: PackSentence; onAn
             {problem && <p>{problem}</p>}
             {url && <p><audio controls src={url} aria-label="Tu grabación" style={{ width: "100%" }} /></p>}
             <p className="again">Compárate con el modelo. Esta nota es solo tuya: no hay análisis automático de pronunciación.</p>
+            <details>
+              <summary>¿Te entiende el teléfono? (dictado)</summary>
+              <p><small>Dicta la frase con el micrófono del teclado italiano y pega o deja aquí lo que escribió. Medido en tu iPhone: entiende tu italiano, pero NO distingue consonantes simples de dobles (nono/nonno): sirve para saber si te entienden, no para corregir esos detalles. Si falla, puede ser tu pronunciación o el teléfono.</small></p>
+              <textarea lang="it" aria-label="Lo que dictó el teléfono" rows={2} value={dictated} autoCapitalize="off" autoCorrect="off" spellCheck={false} onChange={(e) => { setDictated(e.target.value); setChecked(false); }} />
+              <p><button type="button" disabled={!dictated.trim()} onClick={() => setChecked(true)}>Comparar</button></p>
+              {understood && (understood.matched === understood.total && understood.mine.every((w) => !w.changed)
+                ? <p role="status">El teléfono te entendió todo.</p>
+                : <p role="status">Se entendió {understood.matched} de {understood.total} palabras. <span lang="it"><Marked segs={understood.original} /></span><br /><small>Lo marcado es lo que no apareció tal cual: escúchalo de nuevo y repítelo más despacio.</small></p>)}
+            </details>
             <div style={{ display: "flex", gap: 8 }}>
               <button type="button" className="primary" style={{ flex: 1 }} onClick={() => rate("bien")}>Bien</button>
               <button type="button" style={{ flex: 1 }} onClick={() => rate("casi")}>Casi</button>
