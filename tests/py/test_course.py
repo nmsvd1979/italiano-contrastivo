@@ -21,9 +21,22 @@ def test_la_prueba_se_reserva_y_no_aparece_en_la_practica():
     assert len(parts["descubre"]) == C.DISCOVER_SIZE and len(parts["escucha"]) == C.LISTEN_SIZE
 
 
-def test_la_prueba_toma_las_mas_dificiles():
-    parts = C.assign_parts(_sents(20), ["ERR_X"])
-    assert parts["prueba"] == [f"s{i:03d}" for i in range(14, 20)]
+def test_la_prueba_se_reparte_por_todo_el_rango_de_dificultad():
+    parts = C.assign_parts(_sents(40), ["ERR_X"])
+    idx = [int(i[1:]) for i in parts["prueba"]]
+    assert idx == sorted(idx) and min(idx) >= C.DISCOVER_SIZE  # no usa las 4 más fáciles (van a «Descubre»)
+    assert idx[0] < 12 and idx[-1] > 33  # cubre desde lo fácil hasta lo difícil, no solo el extremo duro
+    assert len(parts["practica"]) == 34 and set(parts["descubre"]) == {f"s{i:03d}" for i in range(4)}
+
+
+def test_unidades_a1_solo_aceptan_oraciones_que_pasan_el_prefiltro():
+    ok = {"it": "Io parlo italiano.", "es": "Hablo italiano."}
+    assert C.fit_for_level(ok, "A1")
+    for it, es in [("Lui aveva ragione prima.", "Tenía razón antes."),
+                   ("Credo che sia malata, ma non lo so con certezza e non voglio dirlo a nessuno.", "Creo que está enferma."),
+                   ("Mi piacerebbe andare in Francia.", "Me gustaría ir a Francia.")]:
+        assert not C.fit_for_level({"it": it, "es": es}, "A1"), it
+    assert C.fit_for_level({"it": "Credo che sia malata.", "es": "Creo que está enferma."}, "B1")  # el filtro es solo de A1
 
 
 def test_unidad_sin_oraciones_suficientes_baja_a_planned(monkeypatch):

@@ -16,6 +16,11 @@ const MIN_SENTENCES = 30; // el objetivo original era 40 (MIN_SENTENCES_TARGET):
 
 const KNOWN_GAPS: Record<string, string[]> = {
   u62: ["minutos"], // su lectura es un diálogo modelo de 3 frases: faltan unos minutos de práctica
+  // Cayeron bajo 30 oraciones (2026-11-22) al aplicar el prefiltro de auditoría a las unidades A1: se quitaron las que traían
+  // imperfetto, congiuntivo, condicional o más de 14 palabras. Quedan: u07 27, u02 29, u05 27. Faltan oraciones nuevas de A1.
+  u07: ["oraciones"],
+  u02: ["oraciones"],
+  u05: ["oraciones"],
 };
 
 function gaps(): Record<string, string[]> {

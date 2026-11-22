@@ -136,6 +136,9 @@ export const dictationSentences = (unit: Unit, pack: ContentPack): PackSentence[
   return unit.parts.escucha.map((id) => idx.get(id)).filter((s): s is PackSentence => !!s);
 };
 
+/** Unidades de sonidos: su «forma errónea» es una grafía armada por el generador (p. ej. «Parighi»), no un error documentado de hispanohablantes. */
+export const SOUND_CODES = new Set(["ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL", "ERR_GN_Z_SPELLING", "ERR_CONSONANTE_DOPPIA"]);
+
 export type NoticeCard = { sentence: PackSentence; start: number; end: number; wrong: string };
 export const unitSentences = (unit: Unit, pack: ContentPack): PackSentence[] => {
   const idx = sentenceIndex(pack);
