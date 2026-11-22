@@ -75,6 +75,7 @@ export function SettingsScreen({ store, memoryOnly }: { store: Store; memoryOnly
       <h1>Ajustes</h1>
       <p><a href="#/acerca">Acerca de, licencias y cómo se revisó el contenido</a></p>
       <p><a href="#/ubicacion">Prueba de ubicación: dónde empezar en la app</a></p>
+      <p><a href="#/prueba-dictado">Prueba técnica del dictado (para saber si el iPhone puede comprobar tu pronunciación)</a></p>
       <h2>Tu progreso</h2>
       <p>Tu progreso vive solo en este teléfono. Si borras los datos del navegador o desinstalas la app, se pierde. Haz una copia de vez en cuando.</p>
       {memoryOnly && <p role="alert" className="alert">Este navegador no permite guardar el progreso: se perderá al cerrar la app.</p>}

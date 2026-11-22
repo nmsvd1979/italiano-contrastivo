@@ -2,6 +2,13 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-22 (noche, 4) — Prueba técnica del dictado (esperando resultado del iPhone)
+**Hecho:** pantalla `#/prueba-dictado` (enlace en Ajustes). Mide dos cosas con 16 ejercicios (10 frases de las unidades de sonidos y 6 pares simple/doble: «il nonno / il nono», «una palla / una pala», «la penna / la pena», en las dos direcciones): (1) si el dictado del teclado del iPhone entiende frases en italiano; (2) si distingue consonante simple de doble o la «corrige» hacia la palabra más probable. Si el navegador ofrece reconocimiento de voz propio (`webkitSpeechRecognition`), un botón 🎙 lo prueba aparte. Al final da un veredicto por método y «Copiar resultados». Lógica en `web/src/state/dictationTest.ts`.
+
+**Decisión que depende del resultado:** si entiende frases Y distingue simple/doble → se construye «habla» con el dictado como comprobador; si solo entiende frases → sirve para saber si te entienden, no para corregir geminadas, y la pronunciación se trabaja con percepción + *shadowing* + comparación con audio nativo; si no entiende → el habla se hace fuera de la app (guion para IA con voz) y la app solo registra minutos.
+
+**Verificado:** 843 pruebas web en verde; recorrido en el navegador a 375 px. **No verificado:** todo lo del iPhone (es el objetivo de la prueba). Para probar en el iPhone hay que publicar la app (subir `main` a GitHub despliega por Pages): pendiente de OK del usuario.
+
 ## 2026-11-22 (noche, 3) — Fase 2: reconstruir de memoria y pedir corrección
 **Hecho (pestaña «Escribir», ahora con dos modos):**
 - **Reconstruir un texto:** eliges una de las 38 lecturas, lees y escuchas un fragmento de 3 frases, lo tapas y lo escribes de memoria; la app compara en orden (`web/src/state/align.ts`, subsecuencia común más larga, con acentos) y dice «recuperaste X de Y palabras», marcando lo que faltó y lo que sobró. Sin IA ni servidor.
