@@ -4,16 +4,23 @@ App de autoaprendizaje de italiano (A1→B2) para hispanohablantes, basada en li
 
 Fuente de diseño: cuaderno NotebookLM "App para aprender italiano" (id 231c3dc2-c7c3-44dd-b591-9515c2de2829).
 
-## Arquitectura (híbrida Mac + PWA)
+## Rumbo vigente
+Plan maestro en `docs/specs/2026-11-22-plan-maestro.md`; revisión que lo motivó en `docs/revision-adversarial-2026-11-22.md`; estado y siguiente paso en `CONTINUIDAD.md`. Léelos al empezar.
+- Uso solo personal; todo gratis (sin API de pago). Meta: B2 en 18–24 meses a ritmo flexible, para hablar, entender y escribir bien.
+- El ciclo de cada unidad sigue las cuatro hebras de Nation: entrada, foco en la forma, salida (escribir y hablar) y fluidez. No es solo reconocimiento.
+- La corrección de escritura y habla va por capas gratuitas (reconstrucción con diferencias, traducción inversa, detector propio, IA gratuita fuera de la app, dictado del iPhone). No hay servidor en el Mac: el hardware no lo soporta.
+- La app recomienda exposición externa (Biblioteca) y mide minutos reales, no estimados.
+
+## Arquitectura (PWA sin servidor)
 - `schemas/`: JSON Schema (draft 2020-12) = fuente de verdad. De ahí se generan tipos TS y modelos Pydantic; no se editan a mano.
-- `pipeline/`: Python. Corpus Tatoeba/OPUS → SQLite de autoría. Solo lo `validated` se exporta.
-- `server/`: servidor local en el Mac (LanguageTool, SLM con JSON Schema, WhisperX/MFA, Piper).
-- `web/`: PWA (TS, ts-fsrs). Funciona sola offline; con el Mac al alcance activa evaluación de escritura y habla.
+- `pipeline/`: Python. Corpus Tatoeba/OPUS y libros abiertos → SQLite de autoría. Solo lo `validated` se exporta.
+- `web/`: PWA (TS, ts-fsrs). Todo corre en el dispositivo y funciona offline.
 - Estado del usuario solo en IndexedDB del dispositivo. Sin cuentas ni servicios de pago.
 
 ## Reglas
 - Contenido en italiano: no inventar. Todo ítem nuevo nace `needs_review`; dudas en `docs/dudas-italiano.md`.
-- Licencias: Tatoeba CC BY 2.0 FR (guardar autor e id), Piper según modelo. Mantener atribuciones al día.
+- Licencias: Tatoeba CC BY 2.0 FR (guardar autor e id), Piper según modelo. Libros abiertos (Piacere!, Leggiamo, etc.) son no comerciales: válidos solo mientras la app sea personal. Mantener atribuciones al día.
+- Antes de enlazar un recurso externo o confiar en una licencia marcada «verificar», comprobarlo.
 - No marcar como verificado lo que no se probó (audio, iPhone).
 - Git: commitear directo a `main`, sin ramas ni PR; commits pequeños en español, un tema por commit; nunca `--force`.
 - Interfaz y explicaciones: español neutro con tuteo.
