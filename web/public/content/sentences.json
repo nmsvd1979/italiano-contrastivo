@@ -1930,6 +1930,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "3c5e3a9600ea",
+    "author": "Cherubian",
+    "cefr_estimate": "A1",
+    "es": "Quiero ver esta película.",
+    "es_author": "chinopinyin",
+    "es_source_id": "738292",
+    "id": "s_1183518",
+    "it": "Voglio vedere questo film.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1183518",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "92a513329195",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2043,6 +2056,19 @@
     "it": "Voglio andare in Giappone.",
     "license": "CC BY 2.0 FR",
     "source_id": "1193498",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0c6b0c0d8388",
+    "author": "Rovo",
+    "cefr_estimate": "A1",
+    "es": "No queremos una solución pacífica.",
+    "es_author": "shekitten",
+    "es_source_id": "11936736",
+    "id": "s_11937203",
+    "it": "Non vogliamo una soluzione pacifica.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11937203",
     "translation_kind": "direct"
   },
   {
@@ -8490,6 +8516,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "bbd789a63d37",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo tomo vitaminas.",
+    "es_author": "IA (Claude)",
+    "id": "s_2559224",
+    "it": "Io prendo delle vitamine.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2559224",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "36f16d96541f",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11358,6 +11396,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "0a8b8d4addc8",
+    "author": "hwarang",
+    "cefr_estimate": "A1",
+    "es": "Quiero ir a Tokio.",
+    "es_author": "fgreco",
+    "es_source_id": "2438342",
+    "id": "s_340683",
+    "it": "Voglio andare a Tokyo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "340683",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "c57a165aaabc",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -12122,6 +12173,19 @@
     "it": "Non voglio studiare tedesco.",
     "license": "CC BY 2.0 FR",
     "source_id": "3626015",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "daad550ad61a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No quiero estudiar alemán.",
+    "es_author": "SrTortuga",
+    "es_source_id": "3626142",
+    "id": "s_3626018",
+    "it": "Non voglio studiare il tedesco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3626018",
     "translation_kind": "direct"
   },
   {
@@ -13225,6 +13289,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "3ab118eda289",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Quiero una cama de agua.",
+    "es_author": "saverius",
+    "es_source_id": "10611187",
+    "id": "s_3783835",
+    "it": "Voglio un letto ad acqua.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3783835",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "4a5c868f0376",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13287,6 +13364,19 @@
     "it": "Questa è la mia macchina.",
     "license": "CC BY 2.0 FR",
     "source_id": "378847",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "02bc0cdd7eb2",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Quiero leer este libro.",
+    "es_author": "Shishir",
+    "es_source_id": "544018",
+    "id": "s_378865",
+    "it": "Voglio leggere questo libro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "378865",
     "translation_kind": "direct"
   },
   {
@@ -13456,6 +13546,19 @@
     "it": "C'è una mela sul tavolo.",
     "license": "CC BY 2.0 FR",
     "source_id": "380223",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c14df7971502",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "No quiero ir a la escuela.",
+    "es_author": "Shishir",
+    "es_source_id": "2941",
+    "id": "s_380448",
+    "it": "Non voglio andare a scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "380448",
     "translation_kind": "direct"
   },
   {
@@ -14260,6 +14363,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "5cf6c0983269",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Quiero cocinar para ti.",
+    "es_author": "Shishir",
+    "es_source_id": "10197010",
+    "id": "s_3927072",
+    "it": "Voglio cucinare per te.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3927072",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "cb82ad262aa6",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -14504,6 +14620,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "399844",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "78003d94bc1e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tomemos algo de beber.",
+    "es_author": "IA (Claude)",
+    "id": "s_3998742",
+    "it": "Prendiamo qualcosa da bere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3998742",
+    "translation_kind": "llm"
   },
   {
     "audio": "ed6c823d92b5",
@@ -16352,6 +16480,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a7ff6c2b1cad",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Queremos ayudarles de verdad.",
+    "es_author": "Viqui",
+    "es_source_id": "12024539",
+    "id": "s_4730067",
+    "it": "Noi li vogliamo veramente aiutare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4730067",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "35e500b51938",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -16616,6 +16757,18 @@
     "it": "Lui si sveglia a mezzogiorno.",
     "license": "CC BY 2.0 FR",
     "source_id": "4967056",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b912b0064801",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tomo vitaminas todos los días.",
+    "es_author": "IA (Claude)",
+    "id": "s_4984420",
+    "it": "Prendo delle vitamine ogni giorno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4984420",
     "translation_kind": "llm"
   },
   {
@@ -17201,6 +17354,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ca0c6c669dc3",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Vamos a la escuela porque queremos aprender.",
+    "es_author": "Shishir",
+    "es_source_id": "529441",
+    "id": "s_529500",
+    "it": "Andiamo a scuola perché vogliamo imparare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "529500",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "6bea5d543046",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -17329,6 +17495,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "dc5599995921",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Quiero jugar al fútbol.",
+    "es_author": "Seael",
+    "es_source_id": "10357422",
+    "id": "s_5384317",
+    "it": "Voglio giocare a calcio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5384317",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "061c48d9815e",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -17404,6 +17583,19 @@
     "it": "Ho due fratelli e una sorella.",
     "license": "CC BY 2.0 FR",
     "source_id": "541873",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b6f9d130639b",
+    "author": "dnnywld",
+    "cefr_estimate": "A1",
+    "es": "Quiero ver los caballos.",
+    "es_author": "Georgelliot",
+    "es_source_id": "4007593",
+    "id": "s_5429858",
+    "it": "Voglio vedere i cavalli.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5429858",
     "translation_kind": "direct"
   },
   {
@@ -18367,6 +18559,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ab3e058f3028",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Quiero ir contigo.",
+    "es_author": "Shishir",
+    "es_source_id": "524569",
+    "id": "s_609618",
+    "it": "Voglio andare con te.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "609618",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "5243029890ff",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -18584,6 +18789,19 @@
     "it": "Ho due fratelli e tre sorelle.",
     "license": "CC BY 2.0 FR",
     "source_id": "623376",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "f7aa11f59c03",
+    "author": "rado",
+    "cefr_estimate": "A1",
+    "es": "Quiero comprar este diccionario.",
+    "es_author": "hayastan",
+    "es_source_id": "945721",
+    "id": "s_626761",
+    "it": "Voglio comprare questo dizionario.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "626761",
     "translation_kind": "direct"
   },
   {
@@ -19487,6 +19705,19 @@
     "it": "Anch'io ho una sensazione simile.",
     "license": "CC BY 2.0 FR",
     "source_id": "6830490",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c8d65f84a95c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No queremos comer ahora.",
+    "es_author": "saverius",
+    "es_source_id": "10255893",
+    "id": "s_6830971",
+    "it": "Non vogliamo mangiare ora.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6830971",
     "translation_kind": "direct"
   },
   {
@@ -21686,6 +21917,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7ee429edb526",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Quiero comprar otro.",
+    "es_author": "Kiraness",
+    "es_source_id": "1365008",
+    "id": "s_8239266",
+    "it": "Voglio comprarne un altro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8239266",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "0dcf393c82e3",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -21824,6 +22068,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "840725",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "6a24003b20cc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Por qué no tomamos un taxi?",
+    "es_author": "IA (Claude)",
+    "id": "s_841131",
+    "it": "Perché non prendiamo un taxi?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "841131",
+    "translation_kind": "llm"
   },
   {
     "audio": "ad0270b3194e",
@@ -22068,6 +22324,19 @@
     "it": "Quel dente mi fa male.",
     "license": "CC BY 2.0 FR",
     "source_id": "876121",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "cc0704ffac0c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Quiero vivir en Italia.",
+    "es_author": "Daga007",
+    "es_source_id": "855099",
+    "id": "s_876197",
+    "it": "Voglio abitare in Italia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "876197",
     "translation_kind": "direct"
   },
   {
@@ -22792,6 +23061,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "22e21c9840a4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "La próxima vez tomo el tren.",
+    "es_author": "IA (Claude)",
+    "id": "s_9706447",
+    "it": "La prossima volta prendo il treno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9706447",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "36d0efd834fe",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -23217,6 +23498,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "cea4de192848",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "Queremos aprender muchas cosas.",
+    "es_author": "Shishir",
+    "es_source_id": "9985374",
+    "id": "s_9986874",
+    "it": "Vogliamo imparare tante cose.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9986874",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f95375517d4d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -23451,6 +23745,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7e3fd6c54cb6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me gustaría tanto abrir un restaurante.",
+    "es_author": "hayastan",
+    "es_source_id": "1121882",
+    "id": "s_1119223",
+    "it": "Vorrei tanto aprire un ristorante.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1119223",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "4edd2e139666",
     "author": "carlosalberto",
     "cefr_estimate": "A2",
@@ -23581,6 +23888,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "af1fca3baa19",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me gustaría hablar con Jean.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1159988",
+    "id": "s_1159968",
+    "it": "Vorrei parlare con Jean.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1159968",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "b6a57dc25894",
     "author": "Adelpa",
     "cefr_estimate": "A2",
@@ -23668,6 +23988,19 @@
     "it": "Ha bevuto dieci bottiglie di birra.",
     "license": "CC BY 2.0 FR",
     "source_id": "11799949",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b11d342d6629",
+    "author": "Adelpa",
+    "cefr_estimate": "A2",
+    "es": "Quisiera un helado de dos bolas.",
+    "es_author": "Adelpa",
+    "es_source_id": "12077086",
+    "id": "s_12076988",
+    "it": "Vorrei due palline di gelato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12076988",
     "translation_kind": "direct"
   },
   {
@@ -23797,6 +24130,19 @@
     "it": "Ieri abbiamo visto un grosso lupo nel bosco.",
     "license": "CC BY 2.0 FR",
     "source_id": "12908379",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "182510debef0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me gustaría tener un gato.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1305553",
+    "id": "s_1305566",
+    "it": "Vorrei avere un gatto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1305566",
     "translation_kind": "direct"
   },
   {
@@ -23977,6 +24323,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "8fd2b2c3fae4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡Quisiera ser como él!",
+    "es_author": "hayastan",
+    "es_source_id": "1354442",
+    "id": "s_1351844",
+    "it": "Vorrei essere come lui!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1351844",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "99957145fc71",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -24016,6 +24375,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "83d565eb34fb",
+    "author": "felix63",
+    "cefr_estimate": "A2",
+    "es": "Me gustaría una ensalada, por favor.",
+    "es_author": "felix63",
+    "es_source_id": "13690184",
+    "id": "s_13690185",
+    "it": "Vorrei un'insalata, per favore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13690185",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "afd30d00f57a",
     "author": "riccioberto",
     "cefr_estimate": "A2",
@@ -24042,6 +24414,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "d096f0a10fd7",
+    "author": "IdiomHunter",
+    "cefr_estimate": "A2",
+    "es": "Me gustaría esa cerveza, por favor.",
+    "es_author": "jorgearestrepo",
+    "es_source_id": "862765",
+    "id": "s_13970896",
+    "it": "Vorrei questa birra, per favore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13970896",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "1f1bceb8b460",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -24052,6 +24437,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "13995632",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "6539cebc2f4b",
+    "author": "unforgiven95",
+    "cefr_estimate": "A2",
+    "es": "Quisiera un pasaje de primera clase.",
+    "es_author": "marcelostockle",
+    "es_source_id": "4303604",
+    "id": "s_14009499",
+    "it": "Vorrei un biglietto di prima classe.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14009499",
+    "translation_kind": "direct"
   },
   {
     "audio": "548e691ab0c4",
@@ -24132,6 +24530,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ab6a73d13f1d",
+    "author": "marco87",
+    "cefr_estimate": "A2",
+    "es": "Quisiera mudarme a Australia.",
+    "es_author": "marco87",
+    "es_source_id": "1490077",
+    "id": "s_1490074",
+    "it": "Vorrei trasferirmi in Australia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1490074",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "721e3278f331",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -24197,6 +24608,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "18325f3d13c2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Quisiera hablar con mi abogado.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1711139",
+    "id": "s_1534613",
+    "it": "Vorrei parlare con il mio avvocato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1534613",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "6a6706e17261",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -24220,6 +24644,19 @@
     "it": "Lui ha messo tutti i suoi soldi nella scatola.",
     "license": "CC BY 2.0 FR",
     "source_id": "1559218",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b2e4addd5f9d",
+    "author": "apancirolli",
+    "cefr_estimate": "A2",
+    "es": "Quisiera reservar para mañana a las seis.",
+    "es_author": "tatoerique",
+    "es_source_id": "345906",
+    "id": "s_1564787",
+    "it": "Vorrei prenotare per domani sera alle sei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1564787",
     "translation_kind": "direct"
   },
   {
@@ -24270,6 +24707,19 @@
     "it": "La terra ha la forma di una sfera.",
     "license": "CC BY 2.0 FR",
     "source_id": "1642441",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "4a8861c22a24",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Quisiera una mesa junto a la ventana.",
+    "es_author": "Espi",
+    "es_source_id": "6144880",
+    "id": "s_1642444",
+    "it": "Vorrei un tavolo vicino alla finestra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1642444",
     "translation_kind": "direct"
   },
   {
@@ -24601,6 +25051,19 @@
     "it": "Ho tagliato le cipolle e le ho messe in una casseruola con burro e olio.",
     "license": "CC BY 2.0 FR",
     "source_id": "2022155",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b58e36ac2a15",
+    "author": "Sirio60",
+    "cefr_estimate": "A2",
+    "es": "Me gustaría hacer una pregunta.",
+    "es_author": "darinmex",
+    "es_source_id": "734136",
+    "id": "s_2028898",
+    "it": "Vorrei porre una domanda.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2028898",
     "translation_kind": "direct"
   },
   {
@@ -25061,6 +25524,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "d4ad23fc5188",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Desearía ser joven.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1492027",
+    "id": "s_2988717",
+    "it": "Io vorrei essere giovane.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2988717",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d75da932f229",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -25213,6 +25689,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9d03b0479410",
+    "author": "bailujia",
+    "cefr_estimate": "A2",
+    "es": "Quiero viajar alrededor del mundo.",
+    "es_author": "hayastan",
+    "es_source_id": "1075450",
+    "id": "s_3343634",
+    "it": "Vorrei viaggiare intorno al mondo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3343634",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "bcdf09cf9ef5",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -25290,6 +25779,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "130e3b7303e4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Quiero hablar con Tom.",
+    "es_author": "hayastan",
+    "es_source_id": "2087350",
+    "id": "s_3509548",
+    "it": "Vorrei parlare con Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3509548",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "51aba182b8ee",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -25326,6 +25828,19 @@
     "it": "Il bebè non può ancora usare un cucchiaio.",
     "license": "CC BY 2.0 FR",
     "source_id": "3590886",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "002d5fe3814a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Quisiera un poco más de mantequilla.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1345279",
+    "id": "s_3635296",
+    "it": "Vorrei un altro po' di burro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3635296",
     "translation_kind": "direct"
   },
   {
@@ -25377,6 +25892,19 @@
     "it": "Sì, Bob mi ha aiutato.",
     "license": "CC BY 2.0 FR",
     "source_id": "375606",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "51f7334f91c2",
+    "author": "martin",
+    "cefr_estimate": "A2",
+    "es": "Me gustaría desayunar contigo.",
+    "es_author": "DanaDescalza",
+    "es_source_id": "831918",
+    "id": "s_376167",
+    "it": "Vorrei fare colazione con te.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "376167",
     "translation_kind": "direct"
   },
   {
@@ -25545,6 +26073,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "593c5c66e1c7",
+    "author": "ver",
+    "cefr_estimate": "A2",
+    "es": "Quiero una taza de té.",
+    "es_author": "Shishir",
+    "es_source_id": "488842",
+    "id": "s_383286",
+    "it": "Vorrei una tazza di tè.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "383286",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "8d734bf9867a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -25555,6 +26096,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3834096",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "f6fb85fb8024",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Me gustaría darle un regalo por su cumpleaños.",
+    "es_author": "Shishir",
+    "es_source_id": "2899",
+    "id": "s_383740",
+    "it": "Vorrei fargli un regalo per il suo compleanno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "383740",
+    "translation_kind": "direct"
   },
   {
     "audio": "a2c9ededf6b0",
@@ -25752,6 +26306,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "905d9907a343",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me gustaría un poco más de agua.",
+    "es_author": "Dejo",
+    "es_source_id": "2278643",
+    "id": "s_4038650",
+    "it": "Vorrei avere un altro po' d'acqua.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4038650",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "0dad50e640b0",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -25894,6 +26461,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "df2075067003",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me gustaría quedarme por una noche.",
+    "es_author": "Fanki",
+    "es_source_id": "2835",
+    "id": "s_4431",
+    "it": "Vorrei rimanere per una notte.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4431",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "14dcc17a33cc",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -25917,6 +26497,19 @@
     "it": "Ho perso il mio portafoglio.",
     "license": "CC BY 2.0 FR",
     "source_id": "4437",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c655ef8ffb51",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me gustaría estudiar en París.",
+    "es_author": "Shishir",
+    "es_source_id": "2906",
+    "id": "s_4461",
+    "it": "Vorrei studiare a Parigi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4461",
     "translation_kind": "direct"
   },
   {
@@ -26101,6 +26694,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "815fe2e9e2d1",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Me gustaría dibujar un árbol.",
+    "es_author": "hayastan",
+    "es_source_id": "602129",
+    "id": "s_509686",
+    "it": "Vorrei disegnare un albero.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "509686",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "4600bc51ebb0",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -26136,6 +26742,19 @@
     "it": "C'è una scuola vicino a casa mia.",
     "license": "CC BY 2.0 FR",
     "source_id": "521080",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "6f95c9c76941",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Deseo unos zapatos para una amiga mía.",
+    "es_author": "hayastan",
+    "es_source_id": "523769",
+    "id": "s_524265",
+    "it": "Vorrei delle scarpe per una mia amica.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "524265",
     "translation_kind": "direct"
   },
   {
@@ -26292,6 +26911,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b5aec1a9ce38",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Quisiera vivir lujosamente.",
+    "es_author": "tatoerique",
+    "es_source_id": "345526",
+    "id": "s_607101",
+    "it": "Vorrei vivere nel lusso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "607101",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ef4973cb29a0",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -26383,6 +27015,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "70c79edadf30",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me gustaría vivir en Europa algún día.",
+    "es_author": "Ricardo14",
+    "es_source_id": "8864156",
+    "id": "s_6315305",
+    "it": "Vorrei vivere in Europa un giorno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6315305",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d2ce639dfb70",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -26393,6 +27038,19 @@
     "it": "John ha accompagnato Mary al concerto.",
     "license": "CC BY 2.0 FR",
     "source_id": "633471",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "56483ae3c397",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me gustaría un vaso de agua.",
+    "es_author": "darinmex",
+    "es_source_id": "746480",
+    "id": "s_634390",
+    "it": "Vorrei un bicchiere d'acqua.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "634390",
     "translation_kind": "direct"
   },
   {
@@ -26587,6 +27245,45 @@
     "it": "Lincoln liberò gli schiavi.",
     "license": "CC BY 2.0 FR",
     "source_id": "690617",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "70c6fa386e24",
+    "author": "Heracleum",
+    "cefr_estimate": "A2",
+    "es": "Quisiera ser un buen cantante.",
+    "es_author": "hayastan",
+    "es_source_id": "941494",
+    "id": "s_701460",
+    "it": "Vorrei essere un buon cantante.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "701460",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "bafacd5adedb",
+    "author": "Heracleum",
+    "cefr_estimate": "A2",
+    "es": "Me gustaría visitar Egipto algún día.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1649291",
+    "id": "s_702307",
+    "it": "Vorrei visitare l'Egitto un giorno o l'altro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "702307",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c9483327d26e",
+    "author": "Heracleum",
+    "cefr_estimate": "A2",
+    "es": "Quisiera ir a Hawái.",
+    "es_author": "fgreco",
+    "es_source_id": "945690",
+    "id": "s_702308",
+    "it": "Vorrei andare alle Hawaii.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "702308",
     "translation_kind": "direct"
   },
   {
@@ -27145,6 +27842,32 @@
     "it": "Mantieni la tua promessa!",
     "license": "CC BY 2.0 FR",
     "source_id": "9723298",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "9a15ec88c35d",
+    "author": "hundo",
+    "cefr_estimate": "A2",
+    "es": "Quiero regalar una planta a mamá.",
+    "es_author": "hundo",
+    "es_source_id": "976579",
+    "id": "s_976551",
+    "it": "Vorrei regalare alla mamma una pianta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "976551",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b47dd0455bfe",
+    "author": "hundo",
+    "cefr_estimate": "A2",
+    "es": "Como bebida, querría una Coca-Cola.",
+    "es_author": "hundo",
+    "es_source_id": "977473",
+    "id": "s_977439",
+    "it": "Come bevanda, vorrei una Coca-Cola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "977439",
     "translation_kind": "direct"
   },
   {

@@ -9000,6 +9000,160 @@
     }
   },
   {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Para pedir con cortesía: «vorrei un caffè» (quisiera un café) es amable; «voglio un caffè» (quiero un café) suena seco. En el bar y la tienda también se dice «prendo…» (tomo, me llevo) y «mi dà…» (¿me da…?). En plural: vorremmo, prendiamo. Fuente: sillabo A1 de los enti certificatori («vorrei»); Piacere!, «I saluti» y «Al ristorante»."
+    },
+    "id": "cap_err_voc_vorrei",
+    "retrieval": [
+      {
+        "id": "it_choice_s_340683_ERR_VOC_VORREI",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Voglio andare a Tokyo."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_VORREI",
+            "text": "Vorrei andare a Tokyo."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_340683",
+        "target_error_codes": [
+          "ERR_VOC_VORREI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Voglio"
+        ],
+        "hint_es": "Quiero cocinar para ti.",
+        "id": "it_cloze_s_3927072_ERR_VOC_VORREI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3927072",
+        "target_error_codes": [
+          "ERR_VOC_VORREI"
+        ],
+        "text": "___ cucinare per te.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Voglio",
+          "giocare",
+          "a",
+          "calcio."
+        ],
+        "id": "it_reorder_s_5384317_ERR_VOC_VORREI",
+        "prompt_es": "Ordena las palabras: «Quiero jugar al fútbol.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5384317",
+        "target_error_codes": [
+          "ERR_VOC_VORREI"
+        ],
+        "tokens": [
+          "calcio.",
+          "Voglio",
+          "giocare",
+          "a"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_5429858_ERR_VOC_VORREI",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_VORREI",
+            "text": "Prendo vedere i cavalli."
+          },
+          {
+            "correct": true,
+            "text": "Voglio vedere i cavalli."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5429858",
+        "target_error_codes": [
+          "ERR_VOC_VORREI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "prendo"
+        ],
+        "hint_es": "Yo tomo vitaminas.",
+        "id": "it_cloze_s_2559224_ERR_VOC_VORREI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2559224",
+        "target_error_codes": [
+          "ERR_VOC_VORREI"
+        ],
+        "text": "Io ___ delle vitamine.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Voglio",
+          "un",
+          "letto",
+          "ad",
+          "acqua."
+        ],
+        "id": "it_reorder_s_3783835_ERR_VOC_VORREI",
+        "prompt_es": "Ordena las palabras: «Quiero una cama de agua.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3783835",
+        "target_error_codes": [
+          "ERR_VOC_VORREI"
+        ],
+        "tokens": [
+          "letto",
+          "un",
+          "acqua.",
+          "ad",
+          "Voglio"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Voglio andare con te."
+      ],
+      "id": "it_translate_s_609618_ERR_VOC_VORREI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_609618",
+      "source_es": "Quiero ir contigo.",
+      "target_error_codes": [
+        "ERR_VOC_VORREI"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
     "cefr": "A2",
     "estimated_seconds": 225,
     "explanation": {

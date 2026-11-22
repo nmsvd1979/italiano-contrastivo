@@ -627,7 +627,10 @@
         "ERR_GENERE_ES"
       ],
       "why_here": "Después de los artículos determinativos, el género que no coincide con el español es el primer error de fondo.",
-      "ficha_es": "Hay palabras que tienen otro género que en español. Masculinas en italiano: il latte (la leche), il sale (la sal), il miele (la miel), il sangue (la sangre), il fiore (la flor), il naso (la nariz), il sorriso (la sonrisa). Femeninas en italiano: la mappa (el mapa), la matita (el lápiz), la penna (el bolígrafo), la scarpa (el zapato), la borsa (el bolso).\n\nPlurales: -o cambia a -i (libro → libri), -a cambia a -e (casa → case) y -e cambia a -i (notte → notti). El artículo cambia igual: il → i, la → le. No se agrega -s."
+      "ficha_es": "Hay palabras que tienen otro género que en español. Masculinas en italiano: il latte (la leche), il sale (la sal), il miele (la miel), il sangue (la sangre), il fiore (la flor), il naso (la nariz), il sorriso (la sonrisa). Femeninas en italiano: la mappa (el mapa), la matita (el lápiz), la penna (el bolígrafo), la scarpa (el zapato), la borsa (el bolso).\n\nPlurales: -o cambia a -i (libro → libri), -a cambia a -e (casa → case) y -e cambia a -i (notte → notti). El artículo cambia igual: il → i, la → le. No se agrega -s.",
+      "readings": [
+        "rd_zaino"
+      ]
     },
     {
       "id": "u55",
@@ -638,7 +641,10 @@
         "ERR_INDEFINITE_ARTICLE"
       ],
       "why_here": "Es el par de los artículos determinativos: cambia con la primera letra, como il / lo.",
-      "ficha_es": "El artículo indefinido tiene cuatro formas: un (masculino: un amico), uno (masculino ante s + consonante, z, gn, ps: uno studente, uno zio), una (femenino: una casa) y un' (femenino ante vocal: un'amica).\n\nEn español solo «un/una» (un estudiante, una amiga): por eso el error típico es «un studente» o «un amica». Mira la letra con que empieza la palabra siguiente. Ojo: un amico (masculino) no lleva apóstrofo; un'amica (femenino) sí."
+      "ficha_es": "El artículo indefinido tiene cuatro formas: un (masculino: un amico), uno (masculino ante s + consonante, z, gn, ps: uno studente, uno zio), una (femenino: una casa) y un' (femenino ante vocal: un'amica).\n\nEn español solo «un/una» (un estudiante, una amiga): por eso el error típico es «un studente» o «un amica». Mira la letra con que empieza la palabra siguiente. Ojo: un amico (masculino) no lleva apóstrofo; un'amica (femenino) sí.",
+      "readings": [
+        "rd_routine"
+      ]
     },
     {
       "id": "u07",
@@ -1069,6 +1075,20 @@
       "ficha_es": "En el bar: un caffè, un cappuccino, un tè, una spremuta (jugo exprimido), un panino (sándwich), il conto (la cuenta), la mancia (la propina). Para pedir: vorrei un caffè (quisiera un café), per favore, il conto, per favore.\n\nMenù y tè no cambian en plural (due menù, due tè). En un bar italiano se paga en la caja antes, o al final en la mesa, según el lugar."
     },
     {
+      "id": "u65",
+      "level": "A1",
+      "title": "Pedir con cortesía: vorrei, prendo",
+      "goal_es": "«Vorrei un caffè» (quisiera) es cortés; «voglio» (quiero) suena seco. También prendo / prendiamo.",
+      "codes": [
+        "ERR_VOC_VORREI"
+      ],
+      "why_here": "Para pedir en el bar y en las tiendas con lo ya visto de comida y compras.",
+      "ficha_es": "Para pedir algo con cortesía se usa vorrei (quisiera): Vorrei un caffè, per favore. Voglio (quiero) existe y es correcto, pero en un bar o una tienda suena demasiado directo. Otra fórmula frecuente es prendo (tomo, me llevo): Prendo un cappuccino.\\n\\nEn plural: vorremmo (quisiéramos) y prendiamo (tomamos): Vorremmo due caffè. Para pagar: Il conto, per favore (la cuenta, por favor). El español usa «quisiera» o «me gustaría»; el italiano, vorrei, que es una forma del condicional que se aprende ya en A1 solo como fórmula de cortesía. Fuente: sillabo A1 de los enti certificatori y Piacere! (capítulos «I saluti» y «Al ristorante»).",
+      "readings": [
+        "rd_ristorante"
+      ]
+    },
+    {
       "id": "u31",
       "level": "A1",
       "title": "Vocabulario: la ropa",
@@ -1355,12 +1375,7 @@
     {
       "level": "A1",
       "title": "Pedir aclaraciones: come? non ho capito",
-      "reason": "Fórmulas fijas (cosa vuol dire…? come si dice…? può ripetere?, Piacere! cap. «I saluti»): no tienen un calco español→italiano que se pueda generar como error; se necesita un diálogo con ejercicios propios."
-    },
-    {
-      "level": "A1",
-      "title": "Vorrei: pedir con cortesía",
-      "reason": "«Vorrei» (quisiera) es una sola forma sin variantes ni calco mecánico; se verá dentro de los diálogos de bar y restaurante hasta tener un generador fiable."
+      "reason": "Probado: con el método de palabras clave (repetir, explicar, despacio) las oraciones del corpus no son de aclaración (domina «piano» = plan o piso) y no enseñan la función. Necesita diálogos propios de las fuentes (Piacere!, «I saluti»: «cosa vuol dire…?», «come si dice…?») con ejercicios hechos a mano."
     },
     {
       "level": "A1",

@@ -47,7 +47,7 @@ export function practiceItems(unit: Unit, pack: ContentPack, samples: Samples = 
   }
   // Al final van los ejercicios del texto de la lectura de la unidad (traducir, ordenar, completar), que completan la tanda 2 si el corpus no alcanza.
   const rid = unit.readings?.[0];
-  const fromReading = [...(rid ? pack.readingItems?.[rid] ?? [] : [])].sort((a, b) => (ORDER[a.type ?? ""] ?? 9) - (ORDER[b.type ?? ""] ?? 9));
+  const fromReading = [...(rid ? pack.readingItems?.[`${unit.id}:${rid}`] ?? [] : [])].sort((a, b) => (ORDER[a.type ?? ""] ?? 9) - (ORDER[b.type ?? ""] ?? 9));
   const mixed = fromReading.filter((_, i) => i % 3 === 0).concat(fromReading.filter((_, i) => i % 3 !== 0));
   for (const it of mixed) if (!seq.includes(it)) seq.push(it);
   // La tanda 1 toma ítems hasta el tiempo objetivo; la tanda 2 sigue donde terminó la 1 (otras frases u otros tipos).

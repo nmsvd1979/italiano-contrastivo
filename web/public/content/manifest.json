@@ -59,6 +59,7 @@
     "cap_err_voc_tempo",
     "cap_err_voc_tempolibero",
     "cap_err_voc_trasporti",
+    "cap_err_voc_vorrei",
     "cap_err_aux_essere",
     "cap_err_comparative_di",
     "cap_err_participle_agreement",
@@ -385,21 +386,26 @@
       "capsule": true,
       "reason": null,
       "usable": 27
+    },
+    "ERR_VOC_VORREI": {
+      "capsule": true,
+      "reason": null,
+      "usable": 56
     }
   },
   "levels": {
-    "A1": 1831,
-    "A2": 366,
+    "A1": 1854,
+    "A2": 399,
     "B1": 146,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 2323,
+    "llm-audit": 2379,
     "me": 27
   },
-  "sentences_used": 2198,
+  "sentences_used": 2254,
   "translation_kind": {
-    "direct": 1895,
-    "llm": 303
+    "direct": 1946,
+    "llm": 308
   }
 }

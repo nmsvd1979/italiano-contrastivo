@@ -1,5 +1,12 @@
 [
   {
+    "id": "002d5fe3814a",
+    "sha1": "002d5fe3814ab427a61b40c6822a877a652ee16e",
+    "text": "Vorrei un altro po' di burro.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "0035fa221872",
     "sha1": "0035fa221872ac6f1a06024bc7f90477bee0e182",
     "text": "Voglio un nuovo telefono.",
@@ -304,6 +311,13 @@
     "id": "02b2c869722e",
     "sha1": "02b2c869722e81df36f9d914177348e437b731b2",
     "text": "Adesso io devo andare a fare la spesa.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "02bc0cdd7eb2",
+    "sha1": "02bc0cdd7eb2ea1404ae897ad7d313bd8473af3a",
+    "text": "Voglio leggere questo libro.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -889,6 +903,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "0a8b8d4addc8",
+    "sha1": "0a8b8d4addc89f0a756785f493f0473c54856b2b",
+    "text": "Voglio andare a Tokyo.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "0aa9dded062e",
     "sha1": "0aa9dded062e6f1b81eb5a917636ce38bfb64dd0",
     "text": "asilo",
@@ -1081,6 +1102,13 @@
     "id": "0c65a3750052",
     "sha1": "0c65a37500526af3c6035812d5f2198e1b793a51",
     "text": "Ancora non ci credo!",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "0c6b0c0d8388",
+    "sha1": "0c6b0c0d83880a8f46cd65ccc187db5c8cd3234e",
+    "text": "Non vogliamo una soluzione pacifica.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -1722,6 +1750,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "130e3b7303e4",
+    "sha1": "130e3b7303e4fdcb99e4732fff68c8445baf4d2d",
+    "text": "Vorrei parlare con Tom.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "13222f303dd9",
     "sha1": "13222f303dd97aa24ba41ae27e27ad81216be0e0",
     "text": "Io non voglio il tuo aiuto.",
@@ -2233,9 +2268,23 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "182510debef0",
+    "sha1": "182510debef056a0c014593bdfbe5da87edd726f",
+    "text": "Vorrei avere un gatto.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "1831c744d79a",
     "sha1": "1831c744d79a13ebe15a16148cb3ea6b19ea432f",
     "text": "Erano tutti colloqui per tirocini.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "18325f3d13c2",
+    "sha1": "18325f3d13c2b0d5de9f58be7404e4e544932d23",
+    "text": "Vorrei parlare con il mio avvocato.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -3230,6 +3279,13 @@
     "id": "22cdd98786de",
     "sha1": "22cdd98786de8c0acc892a125f3eeff3e042fd29",
     "text": "Dev'essere una torta di compleanno!",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "22e21c9840a4",
+    "sha1": "22e21c9840a43e7acf9a548463c942c9355f04bf",
+    "text": "La prossima volta prendo il treno.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -4522,6 +4578,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "2f8e7ef27a3f",
+    "sha1": "2f8e7ef27a3f95925f2a5e702bfd289ea0f1564e",
+    "text": "vorrei",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "2f96e364fdec",
     "sha1": "2f96e364fdec02c28e273661df0a76ac08eacb7d",
     "text": "febbre",
@@ -5516,6 +5579,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "3ab118eda289",
+    "sha1": "3ab118eda2894bbf7b6612e81301d461b71fe2bd",
+    "text": "Voglio un letto ad acqua.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "3b06c06d9cdf",
     "sha1": "3b06c06d9cdf1b4a00775e454144b2c0c72c3e80",
     "text": "La partita inizia alle due e mezza.",
@@ -5680,6 +5750,13 @@
     "id": "3c5911436f0c",
     "sha1": "3c5911436f0c92cf682a900db410459032fdf917",
     "text": "Lui porta gli occhiali.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "3c5e3a9600ea",
+    "sha1": "3c5e3a9600ea10c8206da5c5d58e1e008ac9a1a4",
+    "text": "Voglio vedere questo film.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -6867,6 +6944,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "4a8861c22a24",
+    "sha1": "4a8861c22a24c27c7f7248501dd0b0fdb9264f04",
+    "text": "Vorrei un tavolo vicino alla finestra.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "4a9916a3b3da",
     "sha1": "4a9916a3b3dadc3458ca13bd96e02087104db9d8",
     "text": "Voi avete molte amiche.",
@@ -7651,6 +7735,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "51f7334f91c2",
+    "sha1": "51f7334f91c2fb6e455e3f8f62c9fe53417af8be",
+    "text": "Vorrei fare colazione con te.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "521405e707c7",
     "sha1": "521405e707c7a3ff18a4da6f7fc5602ce2f79866",
     "text": "Ti interessano i fiori?",
@@ -8022,6 +8113,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "56483ae3c397",
+    "sha1": "56483ae3c397f4766969206aafb32d568dd7afcd",
+    "text": "Vorrei un bicchiere d'acqua.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "564ea3fba55f",
     "sha1": "564ea3fba55f6e029e83434fb6b3f3b9c7ed334e",
     "text": "malattia",
@@ -8291,6 +8389,13 @@
     "id": "591c90acbb69",
     "sha1": "591c90acbb69f6fdb78b38ca113da525c9211ecf",
     "text": "troppe",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "593c5c66e1c7",
+    "sha1": "593c5c66e1c7df89190b389212cebd11a2b00790",
+    "text": "Vorrei una tazza di tè.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -8634,6 +8739,13 @@
     "id": "5ce21d24f00e",
     "sha1": "5ce21d24f00e332a5db91b5f89f7309007849fd4",
     "text": "spesso",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "5cf6c0983269",
+    "sha1": "5cf6c09832690b29feadb6ba2827a5a3c12c42c2",
+    "text": "Voglio cucinare per te.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -9429,6 +9541,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "6539cebc2f4b",
+    "sha1": "6539cebc2f4b289032fbacf911a0221a9311bcfc",
+    "text": "Vorrei un biglietto di prima classe.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "6555093e3b5e",
     "sha1": "6555093e3b5e521c0a99ec94b5ffc13cd90a5b34",
     "text": "libertà",
@@ -10017,6 +10136,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "6a24003b20cc",
+    "sha1": "6a24003b20ccf81a18d0eff4298e232951fee63e",
+    "text": "Perché non prendiamo un taxi?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "6a3ab08e32f7",
     "sha1": "6a3ab08e32f735a3497cda05e40c341652af07aa",
     "text": "gonna",
@@ -10570,6 +10696,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "6f95c9c76941",
+    "sha1": "6f95c9c76941b2118bfa7978304a6d2a587ad53b",
+    "text": "Vorrei delle scarpe per una mia amica.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "6f9fb77195b8",
     "sha1": "6f9fb77195b8b06e4686da3b4871da74edd43b49",
     "text": "Mi guardo allo specchio quando mi preparo e mi vesto.",
@@ -10657,6 +10790,20 @@
     "id": "70c3441802cf",
     "sha1": "70c3441802cf7d3a4f9c19de0f11fb87fe108a0d",
     "text": "Qual è il tuo sport preferito?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "70c6fa386e24",
+    "sha1": "70c6fa386e24b9860c236424ca6aa06067fb67b7",
+    "text": "Vorrei essere un buon cantante.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "70c79edadf30",
+    "sha1": "70c79edadf3022ed6a7a34b9f6619a9d37f5d5ea",
+    "text": "Vorrei vivere in Europa un giorno.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -11410,6 +11557,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "78003d94bc1e",
+    "sha1": "78003d94bc1e6e88c681fcf0f8ae5cbf6b100c2d",
+    "text": "Prendiamo qualcosa da bere.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "7808a2eb2184",
     "sha1": "7808a2eb218479bb230a8251c2f605f4f4ae7045",
     "text": "Ho capito il mio errore.",
@@ -11942,6 +12096,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "7e3fd6c54cb6",
+    "sha1": "7e3fd6c54cb65b83ee15d199fe04d6f8edb2a1fb",
+    "text": "Vorrei tanto aprire un ristorante.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "7e4806bd2bab",
     "sha1": "7e4806bd2bab451c1e74de833bd56ad66712d415",
     "text": "compagna",
@@ -11994,6 +12155,13 @@
     "id": "7ed036fc68b3",
     "sha1": "7ed036fc68b38a4c8811f254d31be77ccf91d55f",
     "text": "È difficile trovare una traduzione adeguata.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "7ee429edb526",
+    "sha1": "7ee429edb526826068d44a980cad0684f8151ac1",
+    "text": "Voglio comprarne un altro.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -12271,6 +12439,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "815fe2e9e2d1",
+    "sha1": "815fe2e9e2d1ed1b4c438a7c52a4c04c9f76255a",
+    "text": "Vorrei disegnare un albero.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "8167678cbc3c",
     "sha1": "8167678cbc3c3ddfcd73b6b15be09f3c15aeaa50",
     "text": "questi",
@@ -12526,6 +12701,13 @@
     "id": "83cc113e36a4",
     "sha1": "83cc113e36a438bd9e7bb13012af5243a4ebb835",
     "text": "Siete già a casa?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "83d565eb34fb",
+    "sha1": "83d565eb34fbfdeac811604f1f70ad77a20e4de3",
+    "text": "Vorrei un'insalata, per favore.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -13776,6 +13958,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "8fd2b2c3fae4",
+    "sha1": "8fd2b2c3fae48fb003fc419eed2e8857ae164056",
+    "text": "Vorrei essere come lui!",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "8fed6c33b13e",
     "sha1": "8fed6c33b13ebf34b111b02fa01ec1d0457d1ba5",
     "text": "davanti",
@@ -13807,6 +13996,13 @@
     "id": "9041d3998682",
     "sha1": "9041d3998682edf7bd5ba93920a48d865e01a518",
     "text": "cameriere",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "905d9907a343",
+    "sha1": "905d9907a343925329fd7c359d1b4f61c4fb20c2",
+    "text": "Vorrei avere un altro po' d'acqua.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -14038,6 +14234,13 @@
     "id": "9237fd2c3f0d",
     "sha1": "9237fd2c3f0d2b38e46a40a5557d70401640ae33",
     "text": "Questo libro non è mio.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "923c86847c64",
+    "sha1": "923c86847c6420a5545e24123c59f83c205f88d4",
+    "text": "prendiamo",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -14854,6 +15057,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "9a15ec88c35d",
+    "sha1": "9a15ec88c35d5b2f7695691148a4c187763d432a",
+    "text": "Vorrei regalare alla mamma una pianta.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "9a69c5424a96",
     "sha1": "9a69c5424a96982f3e72dde291b95de941a7c0cc",
     "text": "parco",
@@ -15109,6 +15319,13 @@
     "id": "9ce96b387f52",
     "sha1": "9ce96b387f520770459538b3cf79875b16d14acb",
     "text": "La Terra è troppo piccola.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "9d03b0479410",
+    "sha1": "9d03b04794105f0cf4938e3f7e754200af7eda4d",
+    "text": "Vorrei viaggiare intorno al mondo.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -16030,6 +16247,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "a7ff6c2b1cad",
+    "sha1": "a7ff6c2b1cada17f8e445a2f5328d3d7961e9acd",
+    "text": "Noi li vogliamo veramente aiutare.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "a8053b623775",
     "sha1": "a8053b623775c8aa665bf71b6bea0b0c8919fc3c",
     "text": "Cosa succede qui alle due e mezza?",
@@ -16324,6 +16548,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "ab3e058f3028",
+    "sha1": "ab3e058f302819775681ca96cea550949fdf2ef6",
+    "text": "Voglio andare con te.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "ab50b3f471fb",
     "sha1": "ab50b3f471fb8afab0927c3b0333448d3dd3a9f3",
     "text": "aglio",
@@ -16341,6 +16572,13 @@
     "id": "ab60249317f2",
     "sha1": "ab60249317f275182ff6814e1b5ea25fcd0a49cf",
     "text": "Sì, ho tre zii, due zie e molti cugini.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "ab6a73d13f1d",
+    "sha1": "ab6a73d13f1d2dd32cec2f808866bcfc7da20064",
+    "text": "Vorrei trasferirmi in Australia.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -16702,6 +16940,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "af1fca3baa19",
+    "sha1": "af1fca3baa19823cb2f8a45922b9f50ebbb45a13",
+    "text": "Vorrei parlare con Jean.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "af38d384c0a5",
     "sha1": "af38d384c0a5d6f0d503f08d98cb45030e055c87",
     "text": "Ho due fratelli e una sorella.",
@@ -16926,6 +17171,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "b11d342d6629",
+    "sha1": "b11d342d6629fa613e4be3b6adb3607347df4a43",
+    "text": "Vorrei due palline di gelato.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "b11df8776e32",
     "sha1": "b11df8776e322a67ce3424de495915e1bebbf72a",
     "text": "miele",
@@ -17038,6 +17290,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "b27ea6aa222a",
+    "sha1": "b27ea6aa222acb3181b5615d4dbbd4df9201ae18",
+    "text": "vogliamo",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "b28167c1d20e",
     "sha1": "b28167c1d20ebe7978198b8ddfd6004c7239ad8f",
     "text": "Che bello essere con te!",
@@ -17083,6 +17342,13 @@
     "id": "b2baa67f958b",
     "sha1": "b2baa67f958bc95e3c479e3e7e8885beafe42d4e",
     "text": "State bevendo del tè verde?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "b2e4addd5f9d",
+    "sha1": "b2e4addd5f9d8cbd2ac7070bd9f41552582ead7a",
+    "text": "Vorrei prenotare per domani sera alle sei.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -17248,6 +17514,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "b47dd0455bfe",
+    "sha1": "b47dd0455bfe68b0d1c33a487ee4015888a93158",
+    "text": "Come bevanda, vorrei una Coca-Cola.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "b48ed6f64fb1",
     "sha1": "b48ed6f64fb19f401814fcfe711ad8b69a764563",
     "text": "pallone",
@@ -17353,6 +17626,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "b560ecd16049",
+    "sha1": "b560ecd160498f13ef28541db2124d0b302489ee",
+    "text": "prendo",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "b56d4036d6fd",
     "sha1": "b56d4036d6fd02e09784fa10a4f093fe8d066a85",
     "text": "Sono le otto meno un quarto adesso.",
@@ -17363,6 +17643,20 @@
     "id": "b58963587dcc",
     "sha1": "b58963587dccfb271f2f8d11bbb7787a9aa42c7a",
     "text": "valigia",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "b58e36ac2a15",
+    "sha1": "b58e36ac2a150ba2c5fe6d1a11bb9f3433cf8a75",
+    "text": "Vorrei porre una domanda.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "b5aec1a9ce38",
+    "sha1": "b5aec1a9ce38aedcb39ed33c5c1ffdb4ac364e0d",
+    "text": "Vorrei vivere nel lusso.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -17475,6 +17769,13 @@
     "id": "b6f10509dc75",
     "sha1": "b6f10509dc757d23b57081b4d6e9b81f5b6fbfad",
     "text": "Hanno bisogno dei soldi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "b6f9d130639b",
+    "sha1": "b6f9d130639bfecad395bfc81ed07228b8c68599",
+    "text": "Voglio vedere i cavalli.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -17682,6 +17983,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "b912b0064801",
+    "sha1": "b912b00648018ac92af601073971160fb64b492f",
+    "text": "Prendo delle vitamine ogni giorno.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "b92731636f91",
     "sha1": "b92731636f919ef3cf6549be6991fa500d3d832b",
     "text": "Ho bisogno di una mappa.",
@@ -17878,6 +18186,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "bafacd5adedb",
+    "sha1": "bafacd5adedb23fa2bd99a2d4823a0b7cc5922bd",
+    "text": "Vorrei visitare l'Egitto un giorno o l'altro.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "bb025da75650",
     "sha1": "bb025da756507848c6bca6d062151b3e61d86fb4",
     "text": "Devo prepararmi per l'esame.",
@@ -17944,6 +18259,13 @@
     "id": "bbc0b19959e8",
     "sha1": "bbc0b19959e81f2fb32d2ed2ae0cc7911586684d",
     "text": "Non parlo lo svedese.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bbd789a63d37",
+    "sha1": "bbd789a63d37d0be0f5da9fac1d089cff034e394",
+    "text": "Io prendo delle vitamine.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -18508,6 +18830,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "c14df7971502",
+    "sha1": "c14df7971502e9718eb3b758f67f456ee48c65ef",
+    "text": "Non voglio andare a scuola.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "c158e4a2eda5",
     "sha1": "c158e4a2eda529e282734d21a7c5358b218ac929",
     "text": "Questa è una penna.",
@@ -19061,6 +19390,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "c655ef8ffb51",
+    "sha1": "c655ef8ffb5140802821a1448137b17631751111",
+    "text": "Vorrei studiare a Parigi.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "c677318e9899",
     "sha1": "c677318e989900ae6e805940f09614471d2361f9",
     "text": "Io penso a te.",
@@ -19334,6 +19670,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "c8d65f84a95c",
+    "sha1": "c8d65f84a95cf126778d6c8599d59d56c9a66607",
+    "text": "Non vogliamo mangiare ora.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "c8e22307bc7d",
     "sha1": "c8e22307bc7dc37c2e6c90bbf415c93d98775179",
     "text": "Naoko vive in quella casa bianca.",
@@ -19386,6 +19729,13 @@
     "id": "c93ddefa4959",
     "sha1": "c93ddefa495915d9b15f507828be6fcb9c867dbb",
     "text": "Il latte ti fa bene.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "c9483327d26e",
+    "sha1": "c9483327d26e87e631e430460307a7aecf1280d1",
+    "text": "Vorrei andare alle Hawaii.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -19470,6 +19820,13 @@
     "id": "ca0aab79b92a",
     "sha1": "ca0aab79b92a709f388cb7a044767c9cffb46e85",
     "text": "Il leone si chiama Marzocco.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "ca0c6c669dc3",
+    "sha1": "ca0c6c669dc308816b2ced71a6996e2fdec4f637",
+    "text": "Andiamo a scuola perché vogliamo imparare.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -19638,6 +19995,13 @@
     "id": "cbea60a00b9f",
     "sha1": "cbea60a00b9fb749d5f03a729ce8856f4fb35c95",
     "text": "dottore",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "cc0704ffac0c",
+    "sha1": "cc0704ffac0cb948f8c1d20090417f93404f9ada",
+    "text": "Voglio abitare in Italia.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -19838,6 +20202,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "cea4de192848",
+    "sha1": "cea4de19284849741f0e76777ab3ef9a1157b8c5",
+    "text": "Vogliamo imparare tante cose.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "cea733043880",
     "sha1": "cea73304388024d4d7a9b29991a4dda10f60ea72",
     "text": "Come si chiama il tuo maestro?",
@@ -19974,6 +20345,13 @@
     "id": "d03d1e5a5f11",
     "sha1": "d03d1e5a5f116df12361c48f69d584ef1e33c34d",
     "text": "Ti lavi le mani prima di mangiare?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "d096f0a10fd7",
+    "sha1": "d096f0a10fd721d29e9e949a4a42a66d388a3e68",
+    "text": "Vorrei questa birra, per favore.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -20422,6 +20800,13 @@
     "id": "d4a5192c9875",
     "sha1": "d4a5192c98751e481f782306d5a826f7f4ea5166",
     "text": "Sono di Firenze. Sono italiano. Dove abiti?",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "d4ad23fc5188",
+    "sha1": "d4ad23fc5188f82cea3743c887283ac8cb4c7ec7",
+    "text": "Io vorrei essere giovane.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -20916,6 +21301,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "daad550ad61a",
+    "sha1": "daad550ad61a937655442dde28658e8fb17770bd",
+    "text": "Non voglio studiare il tedesco.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "daadb4cc4d87",
     "sha1": "daadb4cc4d87a08d437835a065ce1bd2b013eb89",
     "text": "Non ho quattro sorelle.",
@@ -21094,6 +21486,13 @@
     "id": "dc3a24d7b7d6",
     "sha1": "dc3a24d7b7d697c1ecf220a4f6b5ee7d2730dada",
     "text": "C'è un grosso buco.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "dc5599995921",
+    "sha1": "dc559999592152bf491062607273f57e09fc61e6",
+    "text": "Voglio giocare a calcio.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -21283,6 +21682,13 @@
     "id": "def860bca2d3",
     "sha1": "def860bca2d3d413279249b67af05a3b0c6ce35b",
     "text": "Lei non è alta.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "df2075067003",
+    "sha1": "df207506700366f2d091626984f3824b375e33af",
+    "text": "Vorrei rimanere per una notte.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -22354,6 +22760,13 @@
     "id": "eac6485468b6",
     "sha1": "eac6485468b63d3cc1e3a0a8807b83b8e09858ab",
     "text": "Io amo questo cellulare.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "ead217624cdf",
+    "sha1": "ead217624cdf74188b50284fcbc418f7ce85516c",
+    "text": "vorremmo",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },
@@ -23653,6 +24066,13 @@
     "license": "CC BY 4.0"
   },
   {
+    "id": "f6fb85fb8024",
+    "sha1": "f6fb85fb80241cfe7410c375f3c6a7d09efdd8a6",
+    "text": "Vorrei fargli un regalo per il suo compleanno.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
     "id": "f73e0f695fa3",
     "sha1": "f73e0f695fa34ab310a9ecf35ba289904a4e1345",
     "text": "Cucinare.",
@@ -23677,6 +24097,13 @@
     "id": "f79d42992b35",
     "sha1": "f79d42992b353c86b95f1b28b6d342f33bdfa5e6",
     "text": "Mary suona il pianoforte.",
+    "voice": "it_IT-serena-high",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "f7aa11f59c03",
+    "sha1": "f7aa11f59c03d14e46f31648f6441db41ea2f8fa",
+    "text": "Voglio comprare questo dizionario.",
     "voice": "it_IT-serena-high",
     "license": "CC BY 4.0"
   },

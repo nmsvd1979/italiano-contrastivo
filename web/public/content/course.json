@@ -1828,6 +1828,9 @@
       ],
       "why_here": "Después de los artículos determinativos, el género que no coincide con el español es el primer error de fondo.",
       "ficha_es": "Hay palabras que tienen otro género que en español. Masculinas en italiano: il latte (la leche), il sale (la sal), il miele (la miel), il sangue (la sangre), il fiore (la flor), il naso (la nariz), il sorriso (la sonrisa). Femeninas en italiano: la mappa (el mapa), la matita (el lápiz), la penna (el bolígrafo), la scarpa (el zapato), la borsa (el bolso).\n\nPlurales: -o cambia a -i (libro → libri), -a cambia a -e (casa → case) y -e cambia a -i (notte → notti). El artículo cambia igual: il → i, la → le. No se agrega -s.",
+      "readings": [
+        "rd_zaino"
+      ],
       "status": "active",
       "explanation_es": "Algunas palabras tienen otro género que en español: il latte (la leche), il sale (la sal), il miele (la miel), il sangue (la sangre), il fiore (la flor), il naso (la nariz), il sorriso (la sonrisa). Y al revés: la mappa (el mapa), la matita (el lápiz), la penna (el bolígrafo), la scarpa (el zapato), la borsa (el bolso). Plural: -o → -i, -a → -e, -e → -i.",
       "parts": {
@@ -1928,6 +1931,9 @@
       ],
       "why_here": "Es el par de los artículos determinativos: cambia con la primera letra, como il / lo.",
       "ficha_es": "El artículo indefinido tiene cuatro formas: un (masculino: un amico), uno (masculino ante s + consonante, z, gn, ps: uno studente, uno zio), una (femenino: una casa) y un' (femenino ante vocal: un'amica).\n\nEn español solo «un/una» (un estudiante, una amiga): por eso el error típico es «un studente» o «un amica». Mira la letra con que empieza la palabra siguiente. Ojo: un amico (masculino) no lleva apóstrofo; un'amica (femenino) sí.",
+      "readings": [
+        "rd_routine"
+      ],
       "status": "active",
       "explanation_es": "El indefinido masculino es «un» (un amico), pero «uno» ante s + consonante, z, gn, ps (uno studente, uno zio). El femenino es «una» (una casa) y se apostrofa ante vocal: un'amica. En masculino no hay apóstrofo: un amico.",
       "parts": {
@@ -7743,6 +7749,170 @@
       ]
     },
     {
+      "id": "u65",
+      "level": "A1",
+      "title": "Pedir con cortesía: vorrei, prendo",
+      "goal_es": "«Vorrei un caffè» (quisiera) es cortés; «voglio» (quiero) suena seco. También prendo / prendiamo.",
+      "codes": [
+        "ERR_VOC_VORREI"
+      ],
+      "why_here": "Para pedir en el bar y en las tiendas con lo ya visto de comida y compras.",
+      "ficha_es": "Para pedir algo con cortesía se usa vorrei (quisiera): Vorrei un caffè, per favore. Voglio (quiero) existe y es correcto, pero en un bar o una tienda suena demasiado directo. Otra fórmula frecuente es prendo (tomo, me llevo): Prendo un cappuccino.\\n\\nEn plural: vorremmo (quisiéramos) y prendiamo (tomamos): Vorremmo due caffè. Para pagar: Il conto, per favore (la cuenta, por favor). El español usa «quisiera» o «me gustaría»; el italiano, vorrei, que es una forma del condicional que se aprende ya en A1 solo como fórmula de cortesía. Fuente: sillabo A1 de los enti certificatori y Piacere! (capítulos «I saluti» y «Al ristorante»).",
+      "readings": [
+        "rd_ristorante"
+      ],
+      "words": [
+        {
+          "form": "vorrei",
+          "gender": "x",
+          "num": "x",
+          "gloss": "quisiera",
+          "audio": "2f8e7ef27a3f"
+        },
+        {
+          "form": "voglio",
+          "gender": "x",
+          "num": "x",
+          "gloss": "quiero",
+          "audio": "d4e369d3252f"
+        },
+        {
+          "form": "prendo",
+          "gender": "x",
+          "num": "x",
+          "gloss": "tomo o pido",
+          "audio": "b560ecd16049"
+        },
+        {
+          "form": "vorremmo",
+          "gender": "x",
+          "num": "x",
+          "gloss": "quisiéramos",
+          "audio": "ead217624cdf"
+        },
+        {
+          "form": "vogliamo",
+          "gender": "x",
+          "num": "x",
+          "gloss": "queremos",
+          "audio": "b27ea6aa222a"
+        },
+        {
+          "form": "prendiamo",
+          "gender": "x",
+          "num": "x",
+          "gloss": "tomamos o pedimos",
+          "audio": "923c86847c64"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Para pedir con cortesía: «vorrei un caffè» (quisiera un café) es amable; «voglio un caffè» (quiero un café) suena seco. En el bar y la tienda también se dice «prendo…» (tomo, me llevo) y «mi dà…» (¿me da…?). En plural: vorremmo, prendiamo. Fuente: sillabo A1 de los enti certificatori («vorrei»); Piacere!, «I saluti» y «Al ristorante».",
+      "parts": {
+        "descubre": [
+          "s_609618",
+          "s_340683",
+          "s_3927072",
+          "s_5384317"
+        ],
+        "practica": [
+          "s_609618",
+          "s_340683",
+          "s_3927072",
+          "s_5384317",
+          "s_5429858",
+          "s_2559224",
+          "s_3783835",
+          "s_876197",
+          "s_1183518",
+          "s_6830971",
+          "s_8239266",
+          "s_380448",
+          "s_3998742",
+          "s_378865",
+          "s_841131",
+          "s_9986874",
+          "s_3626018",
+          "s_4730067",
+          "s_4984420",
+          "s_626761",
+          "s_9706447",
+          "s_11937203",
+          "s_529500",
+          "s_1305566",
+          "s_1351844",
+          "s_3509548",
+          "s_383286",
+          "s_1159968",
+          "s_607101",
+          "s_2028898",
+          "s_2988717",
+          "s_4461",
+          "s_702308",
+          "s_509686",
+          "s_634390",
+          "s_12076988",
+          "s_3635296",
+          "s_376167",
+          "s_4431",
+          "s_13690185",
+          "s_701460",
+          "s_13970896",
+          "s_1490074",
+          "s_1119223",
+          "s_3343634",
+          "s_4038650",
+          "s_6315305",
+          "s_1534613",
+          "s_977439",
+          "s_14009499"
+        ],
+        "escucha": [
+          "s_609618",
+          "s_3783835",
+          "s_3998742",
+          "s_4984420",
+          "s_1351844",
+          "s_2988717",
+          "s_3635296",
+          "s_1490074"
+        ],
+        "prueba": [
+          "s_1642444",
+          "s_524265",
+          "s_976551",
+          "s_1564787",
+          "s_702307",
+          "s_383740"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_609618",
+          "start": 0,
+          "end": 6,
+          "wrong": "Vorrei"
+        },
+        {
+          "id": "s_340683",
+          "start": 0,
+          "end": 6,
+          "wrong": "Vorrei"
+        },
+        {
+          "id": "s_3927072",
+          "start": 0,
+          "end": 6,
+          "wrong": "Prendo"
+        },
+        {
+          "id": "s_5384317",
+          "start": 0,
+          "end": 6,
+          "wrong": "Prendo"
+        }
+      ]
+    },
+    {
       "id": "u31",
       "level": "A1",
       "title": "Vocabulario: la ropa",
@@ -11907,12 +12077,7 @@
     {
       "level": "A1",
       "title": "Pedir aclaraciones: come? non ho capito",
-      "reason": "Fórmulas fijas (cosa vuol dire…? come si dice…? può ripetere?, Piacere! cap. «I saluti»): no tienen un calco español→italiano que se pueda generar como error; se necesita un diálogo con ejercicios propios."
-    },
-    {
-      "level": "A1",
-      "title": "Vorrei: pedir con cortesía",
-      "reason": "«Vorrei» (quisiera) es una sola forma sin variantes ni calco mecánico; se verá dentro de los diálogos de bar y restaurante hasta tener un generador fiable."
+      "reason": "Probado: con el método de palabras clave (repetir, explicar, despacio) las oraciones del corpus no son de aclaración (domina «piano» = plan o piso) y no enseñan la función. Necesita diálogos propios de las fuentes (Piacere!, «I saluti»: «cosa vuol dire…?», «come si dice…?») con ejercicios hechos a mano."
     },
     {
       "level": "A1",

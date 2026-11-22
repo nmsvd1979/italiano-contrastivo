@@ -111,8 +111,8 @@ describe("práctica con ejercicios de la lectura", () => {
   const readingItems = read("reading_items.json");
   const packR = { ...pack, readingItems } as ContentPack;
   it("hay ejercicios derivados para todas las lecturas", () => {
-    const ids = (read("readings.json") as { id: string }[]).map((r) => r.id);
-    for (const id of ids) expect((readingItems[id] ?? []).length, id).toBeGreaterThan(0);
+    const units = (read("course.json") as { units: { id: string; readings?: string[] }[] }).units;
+    for (const u of units) for (const id of u.readings ?? []) expect((readingItems[`${u.id}:${id}`] ?? []).length, `${u.id}:${id}`).toBeGreaterThan(0);
   });
   it("la unidad con lectura suma minutos en la segunda práctica frente a no tener esos ejercicios", async () => {
     const { stepSeconds } = await import("../state/steps");

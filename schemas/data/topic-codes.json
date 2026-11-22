@@ -684,5 +684,19 @@
     ],
     "source": "Sillabo A1 de los enti certificatori (fonología); medición de la voz Serena en scripts/medir_serena.py (docs/plan-cierre-a1.md, fase S).",
     "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_VORREI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "explanation_es": "Para pedir con cortesía: «vorrei un caffè» (quisiera un café) es amable; «voglio un caffè» (quiero un café) suena seco. En el bar y la tienda también se dice «prendo…» (tomo, me llevo) y «mi dà…» (¿me da…?). En plural: vorremmo, prendiamo. Fuente: sillabo A1 de los enti certificatori («vorrei»); Piacere!, «I saluti» y «Al ristorante».",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Sillabo A1 de los enti certificatori (funciones: pedir, ofrecer); Piacere! (CC BY-NC-SA 4.0).",
+    "review_status": "needs_review"
   }
 ]

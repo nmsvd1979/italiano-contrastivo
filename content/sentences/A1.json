@@ -3651,6 +3651,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Cherubian",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quiero ver esta película.",
+    "es_author": "chinopinyin",
+    "es_source_id": "738292",
+    "id": "s_1183518",
+    "it": "Voglio vedere questo film.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1183518",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -3854,6 +3876,28 @@
     "source_id": "1193498",
     "tag_rules": {
       "ERR_CONSONANTE_DOPPIA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Rovo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "No queremos una solución pacífica.",
+    "es_author": "shekitten",
+    "es_source_id": "11936736",
+    "id": "s_11937203",
+    "it": "Non vogliamo una soluzione pacifica.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11937203",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -15326,6 +15370,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Yo tomo vitaminas.",
+    "es_author": "IA (Claude)",
+    "id": "s_2559224",
+    "it": "Io prendo delle vitamine.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2559224",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PERSONAL_A"
     ],
     "es": "No amo a Tom.",
@@ -20641,6 +20708,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "hwarang",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quiero ir a Tokio.",
+    "es_author": "fgreco",
+    "es_source_id": "2438342",
+    "id": "s_340683",
+    "it": "Voglio andare a Tokyo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "340683",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -22000,6 +22089,30 @@
     "source_id": "3626015",
     "tag_rules": {
       "ERR_VOC_NAZIONALITA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "No quiero estudiar alemán.",
+    "es_author": "SrTortuga",
+    "es_source_id": "3626142",
+    "id": "s_3626018",
+    "it": "Non voglio studiare il tedesco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3626018",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -23954,6 +24067,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quiero una cama de agua.",
+    "es_author": "saverius",
+    "es_source_id": "10611187",
+    "id": "s_3783835",
+    "it": "Voglio un letto ad acqua.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3783835",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_MODAL"
     ],
     "es": "Yo quiero un colchón de agua.",
@@ -24058,6 +24195,28 @@
     "source_id": "378847",
     "tag_rules": {
       "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quiero leer este libro.",
+    "es_author": "Shishir",
+    "es_source_id": "544018",
+    "id": "s_378865",
+    "it": "Voglio leggere questo libro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378865",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -24366,6 +24525,30 @@
     "source_id": "380223",
     "tag_rules": {
       "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "No quiero ir a la escuela.",
+    "es_author": "Shishir",
+    "es_source_id": "2941",
+    "id": "s_380448",
+    "it": "Non voglio andare a scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "380448",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -25791,6 +25974,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quiero cocinar para ti.",
+    "es_author": "Shishir",
+    "es_source_id": "10197010",
+    "id": "s_3927072",
+    "it": "Voglio cucinare per te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3927072",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -26222,6 +26429,29 @@
       "ERR_VOC_ANIMALI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Tomemos algo de beber.",
+    "es_author": "IA (Claude)",
+    "id": "s_3998742",
+    "it": "Prendiamo qualcosa da bere.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3998742",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -29513,6 +29743,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Queremos ayudarles de verdad.",
+    "es_author": "Viqui",
+    "es_source_id": "12024539",
+    "id": "s_4730067",
+    "it": "Noi li vogliamo veramente aiutare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4730067",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_TEMPOLIBERO"
     ],
     "es": "No tengo guitarra.",
@@ -29986,6 +30240,29 @@
     "source_id": "4967056",
     "tag_rules": {
       "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Tomo vitaminas todos los días.",
+    "es_author": "IA (Claude)",
+    "id": "s_4984420",
+    "it": "Prendo delle vitamine ogni giorno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4984420",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -31028,6 +31305,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Vamos a la escuela porque queremos aprender.",
+    "es_author": "Shishir",
+    "es_source_id": "529441",
+    "id": "s_529500",
+    "it": "Andiamo a scuola perché vogliamo imparare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "529500",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_TENERE_AVERE"
     ],
     "es": "Coman, porque tienen hambre.",
@@ -31252,6 +31551,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quiero jugar al fútbol.",
+    "es_author": "Seael",
+    "es_source_id": "10357422",
+    "id": "s_5384317",
+    "it": "Voglio giocare a calcio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5384317",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -31382,6 +31703,28 @@
     "source_id": "541873",
     "tag_rules": {
       "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quiero ver los caballos.",
+    "es_author": "Georgelliot",
+    "es_source_id": "4007593",
+    "id": "s_5429858",
+    "it": "Voglio vedere i cavalli.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5429858",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -33098,6 +33441,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quiero ir contigo.",
+    "es_author": "Shishir",
+    "es_source_id": "524569",
+    "id": "s_609618",
+    "it": "Voglio andare con te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "609618",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_GLI_PALATAL"
     ],
     "es": "Se me rompió la botella.",
@@ -33475,6 +33842,28 @@
     "source_id": "623376",
     "tag_rules": {
       "ERR_CONSONANTE_DOPPIA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quiero comprar este diccionario.",
+    "es_author": "hayastan",
+    "es_source_id": "945721",
+    "id": "s_626761",
+    "it": "Voglio comprare questo dizionario.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "626761",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -35054,6 +35443,28 @@
     "source_id": "6830490",
     "tag_rules": {
       "ERR_GN_Z_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "No queremos comer ahora.",
+    "es_author": "saverius",
+    "es_source_id": "10255893",
+    "id": "s_6830971",
+    "it": "Non vogliamo mangiare ora.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6830971",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -38924,6 +39335,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quiero comprar otro.",
+    "es_author": "Kiraness",
+    "es_source_id": "1365008",
+    "id": "s_8239266",
+    "it": "Voglio comprarne un altro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8239266",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_FRUTTA"
     ],
     "es": "La zanahoria es una colación saludable.",
@@ -39172,6 +39607,29 @@
       "ERR_GN_Z_SPELLING": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "¿Por qué no tomamos un taxi?",
+    "es_author": "IA (Claude)",
+    "id": "s_841131",
+    "it": "Perché non prendiamo un taxi?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "841131",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "riccioberto",
@@ -39592,6 +40050,28 @@
     "source_id": "876121",
     "tag_rules": {
       "ERR_VOC_CORPO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quiero vivir en Italia.",
+    "es_author": "Daga007",
+    "es_source_id": "855099",
+    "id": "s_876197",
+    "it": "Voglio abitare in Italia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "876197",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -40868,6 +41348,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "La próxima vez tomo el tren.",
+    "es_author": "IA (Claude)",
+    "id": "s_9706447",
+    "it": "La prossima volta prendo il treno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9706447",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PIACERE_ACCORDO"
     ],
     "es": "No me gusta la nieve.",
@@ -41609,6 +42112,28 @@
     "source_id": "997835",
     "tag_rules": {
       "ERR_INDEFINITE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Queremos aprender muchas cosas.",
+    "es_author": "Shishir",
+    "es_source_id": "9985374",
+    "id": "s_9986874",
+    "it": "Vogliamo imparare tante cose.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9986874",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
