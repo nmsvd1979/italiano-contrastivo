@@ -21,6 +21,7 @@ import { ReviewScreen } from "./ui/ReviewScreen";
 import { TodayScreen } from "./ui/TodayScreen";
 import { TabBar, isFocusRoute } from "./ui/kit/TabBar";
 import { computeStreak } from "./state/streak";
+import { weekTotals } from "./state/strands";
 import { planSession } from "./state/dayplan";
 import { isPreview, PREVIEW_DB, REAL_DB, setPreview } from "./state/preview";
 import { WriteScreen } from "./ui/WriteScreen";
@@ -54,7 +55,7 @@ function Today({ pack, store, storeError }: Ready) {
   if (!data) return <p>Cargando…</p>;
   const samples = loadSamples();
   const plan = planToday({ pack, cards: data.cards, day: data.day, now: new Date(), units: data.units, samples });
-  return <TodayScreen plan={plan} blocks={planSession({ plan, day: data.day, pack, samples })} day={data.day} storeError={storeError} firstTime={data.cards.length === 0 && data.units.length === 0 && data.day.reviewsDone === 0} streak={computeStreak(data.days, localDate(new Date()))} />;
+  return <TodayScreen plan={plan} blocks={planSession({ plan, day: data.day, pack, samples })} day={data.day} storeError={storeError} firstTime={data.cards.length === 0 && data.units.length === 0 && data.day.reviewsDone === 0} streak={computeStreak(data.days, localDate(new Date()))} week={weekTotals(data.days, localDate(new Date()))} />;
 }
 
 function useViews(ready: Ready, hash: string) {
@@ -112,7 +113,7 @@ export function App() {
       )}
       {hash === "#/repaso" ? <ReviewScreen pack={ready.pack} store={ready.store} />
         : hash === "#/prueba-dictado" ? <DictationTestScreen pack={ready.pack} />
-        : hash === "#/escribir" ? <WriteScreen pack={ready.pack} />
+        : hash === "#/escribir" ? <WriteScreen pack={ready.pack} store={ready.store} />
         : hash === "#/ajustes" ? <SettingsScreen store={ready.store} memoryOnly={ready.storeError !== null} />
         : hash === "#/acerca" ? <AboutScreen manifest={ready.pack.manifest} sentences={ready.pack.sentences} readings={ready.pack.readings} />
         : hash === "#/ruta" || hash === "#/ubicacion" || hash === "#/hito/A1" || hash.startsWith("#/unidad/") ? <Routes ready={ready} hash={hash} />

@@ -1,13 +1,16 @@
 import { useState } from "react";
 import type { ContentPack } from "../content/load";
 import { detectErrors, type WritingError } from "../writing/detect";
+import type { Store } from "../state/store";
 import { CorrectionPanel } from "./CorrectionPanel";
+import { useStrandTimer } from "./kit/useStrandTimer";
 import { ReconstructPanel } from "./ReconstructPanel";
 
 type Mode = "reconstruir" | "texto";
 
-export function WriteScreen({ pack }: { pack: ContentPack }) {
+export function WriteScreen({ pack, store }: { pack: ContentPack; store: Store }) {
   const [mode, setMode] = useState<Mode>("reconstruir");
+  useStrandTimer(store, "salida");
   return (
     <main>
       <h1>Escribir</h1>

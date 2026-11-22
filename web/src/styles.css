@@ -143,3 +143,8 @@ progress { width: 100%; height: 10px; accent-color: var(--ok); }
 
 pre.prompt { white-space: pre-wrap; font-size: 14px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
 select { font: inherit; font-size: 17px; padding: 8px 10px; border-radius: 12px; border: 1.5px solid var(--line); background: var(--card); color: var(--ink); max-width: 100%; }
+
+ul.week { list-style: none; padding: 0; margin: 8px 0; display: grid; gap: 10px; }
+ul.week .t { display: flex; justify-content: space-between; }
+ul.week .bar { display: block; height: 8px; border-radius: 4px; background: var(--line); margin: 4px 0; overflow: hidden; }
+ul.week .bar i { display: block; height: 100%; background: var(--accent); }

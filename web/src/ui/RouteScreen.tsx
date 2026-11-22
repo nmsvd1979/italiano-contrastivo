@@ -24,8 +24,8 @@ export function RouteScreen({ views, pack, hito }: { views: UnitView[]; pack: Co
             <div className="level-head"><h2>{level.title}</h2></div>
             <p><small>
               En la app hoy: {units.length} {units.length === 1 ? "unidad" : "unidades"}
-              {units.length ? ` (${formatDuration(units.reduce((t, v) => t + stepsFor(v.unit).reduce((a, s) => a + stepSeconds(v.unit, s, pack, samples), 0), 0))} de pasos, sin contar repasos)` : ""}.
-              Referencia de las fuentes para llegar al nivel: {level.guided_hours}.
+              {units.length ? ` (≈ ${formatDuration(units.reduce((t, v) => t + stepsFor(v.unit).reduce((a, s) => a + stepSeconds(v.unit, s, pack, samples), 0), 0))} de pasos según tiempos supuestos que se ajustan a los tuyos; sin contar repasos)` : ""}.
+              Referencia general (blogs de academias, no un dato medido) para llegar al nivel: {level.guided_hours}.
             </small></p>
             <ul className="path">
               {units.map((v) => (

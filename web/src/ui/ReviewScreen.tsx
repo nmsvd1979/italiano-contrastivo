@@ -11,12 +11,14 @@ import { ItemView } from "./items/ItemView";
 import { FocusHead } from "./kit/FocusHead";
 import { Ring } from "./kit/Ring";
 import { RunProvider } from "./kit/RunContext";
+import { useStrandTimer } from "./kit/useStrandTimer";
 
 export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: Store; now?: Date }) {
   const [queue, setQueue] = useState<ReviewEntry[] | null>(null);
   const [i, setI] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [saveError, setSaveError] = useState(false);
+  useStrandTimer(store, "foco");
   const busy = useRef(false); // un segundo toque mientras se guarda no debe calificar dos veces
   useEffect(() => {
     Promise.all([store.allCards(), store.allUnits()]).then(([cards, units]) => setQueue(reviewQueue({ pack, cards, now: now ?? new Date(), units, samples: loadSamples() })));

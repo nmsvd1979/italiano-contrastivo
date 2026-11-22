@@ -21,7 +21,7 @@ Cada unidad del núcleo cumple TODO:
 2. Ficha de enseñanza con fuente.
 3. Lectura o diálogo de un libro abierto (las unidades de sonidos llevan palabras clave con audio verificado en vez de lectura).
 4. Paso «Palabras» y repaso espaciado si es de vocabulario.
-5. Minutos estimados ≥ 90 % del objetivo de la unidad.
+5. ~~Minutos estimados ≥ 90 % del objetivo de la unidad.~~ **Retirado (2026-11-22):** los minutos eran supuestos y el objetivo de 50 h viene de fuentes débiles; se sustituye por tiempo real medido por hebra (Hoy → «Tu semana») una vez haya uso.
 6. Ningún texto en español con voseo ni «vosotros» (oraciones, traducciones, fichas, glosas, preguntas).
 7. Toda atribución visible y todo clip de audio presente.
 Más: examen de hito y prueba de ubicación probados con las 48 unidades.

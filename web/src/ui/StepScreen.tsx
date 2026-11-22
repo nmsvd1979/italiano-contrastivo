@@ -9,6 +9,8 @@ import { formatDuration, loadSamples } from "../state/timing";
 import { CapsuleScreen } from "./CapsuleScreen";
 import { fromItems, fromVoice, ItemRunner, type RunResult } from "./ItemRunner";
 import { Ring } from "./kit/Ring";
+import { STRAND_OF_STEP } from "../state/strands";
+import { useStrandTimer } from "./kit/useStrandTimer";
 import { NoticeStep } from "./NoticeStep";
 import { ReadingStep } from "./ReadingStep";
 import { WordsStep } from "./WordsStep";
@@ -19,6 +21,7 @@ export function StepScreen({ unitId, step, pack, store }: { unitId: string; step
   const [views, setViews] = useState<UnitView[] | null>(null);
   const [done, setDone] = useState<Done | null>(null);
   const [phase, setPhase] = useState<"notice" | "rebuild">("notice");
+  useStrandTimer(store, STRAND_OF_STEP[step], done === null);
   useEffect(() => {
     store.allUnits().then((all) => setViews(unitViews(pack.course, all)));
   }, [store, pack, done]);

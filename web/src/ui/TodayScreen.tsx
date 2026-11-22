@@ -2,7 +2,9 @@ import { STEP_LABEL } from "../state/course";
 import { BLOCKS, type SessionBlock } from "../state/dayplan";
 import type { TodayPlan } from "../state/session";
 import type { DayProgress } from "../state/store";
+import type { Seconds } from "../state/strands";
 import { formatDuration } from "../state/timing";
+import { WeekCard } from "./WeekCard";
 
 const plural = (n: number, one: string, many: string) => `${n} ${n === 1 ? one : many}`;
 export type Streak = { streak: number; studiedToday: boolean; protectorUsed: boolean };
@@ -16,7 +18,7 @@ export function nextAction(plan: TodayPlan): { href: string; label: string } {
   return { href: "#/ruta", label: "Ver la ruta" };
 }
 
-export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks }: { plan: TodayPlan; day: DayProgress; storeError?: string | null; firstTime?: boolean; streak?: Streak; blocks?: SessionBlock[] }) {
+export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, week }: { plan: TodayPlan; day: DayProgress; storeError?: string | null; firstTime?: boolean; streak?: Streak; blocks?: SessionBlock[]; week?: Seconds }) {
   const pending = plan.review.due + plan.review.newAvailable;
   const { unit, route } = plan;
   const action = nextAction(plan);
@@ -36,7 +38,7 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks }
       {firstTime && (
         <section>
           <h2>Cómo empezar</h2>
-          <p>Sigue la ruta: cada unidad trabaja un error típico de quien habla español en 5 pasos cortos. Haz uno o dos al día; el repaso te devuelve lo aprendido justo antes de olvidarlo. Si ya sabes algo, la <a href="#/ubicacion">prueba de ubicación</a> te deja saltarlo.</p>
+          <p>Sigue la ruta: cada unidad trabaja un punto del italiano en pasos cortos (ver, practicar, escuchar, probar). Haz uno o dos al día; el repaso te devuelve lo aprendido justo antes de olvidarlo. Si ya sabes algo, la <a href="#/ubicacion">prueba de ubicación</a> te deja saltarlo.</p>
         </section>
       )}
       <div className="hero">
@@ -66,6 +68,7 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks }
         )}
         <p><small>Hoy llevas {plural(plan.stepsToday, "paso", "pasos")} y {plural(day.reviewsDone, "repaso", "repasos")}. Cada bloque se puede hacer por separado.</small></p>
       </div>
+      {week && <WeekCard week={week} />}
       <div className="actions-bottom above-tabs">
         <a className="button primary block" href={action.href}>Continuar · {action.label}</a>
       </div>

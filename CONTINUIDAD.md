@@ -2,6 +2,17 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-22 (noche, 7) — Tiempo real por hebra («Tu semana») en lugar de reformar el relleno
+**Decisión (mía, a explicar):** no reformé el «relleno por minutos» todavía. Rellenar cada paso hasta un tiempo objetivo repite la misma oración en varios formatos (práctica de recuperación, no solo relleno); lo dañino era *afirmar* «62 min por unidad = 50 h» con tiempos supuestos. Cambiarlo sin datos de uso real sería otra suposición. Primero se mide.
+**Hecho:**
+- La app registra el **tiempo activo real** (pantalla visible y tocada en los últimos 2 min) por hebra de Nation y por día: `web/src/state/strands.ts` y `web/src/ui/kit/useStrandTimer.ts`; mapa de pasos: descubre/palabras/cápsula/práctica = estudiar la lengua; lectura = entender; escucha = fluidez; prueba y pestaña Escribir = escribir y hablar; repaso = estudiar la lengua. Se guarda en el día (`DayProgress.seconds`); las copias de seguridad existentes siguen valiendo.
+- **Hoy → «Tu semana»** (`WeekCard`): minutos por hebra en 7 días y cuál trabajas menos, con la salvedad de que la guía de reparto es orientativa y de que entender y fluidez se completan fuera de la app.
+- Ruta: «≈ X de pasos según tiempos supuestos…» y las horas de referencia ahora se dicen «de blogs de academias, no un dato medido». «Cómo empezar» ya no dice «5 pasos».
+- **Retirado** el criterio de cierre «minutos estimados ≥ 90 % del objetivo» (el test «aprobaba» por construcción): `cierreA1.test.ts` y `docs/plan-cierre-a1.md`.
+**Verificado:** 851 pruebas web; en el navegador, tras ≈10 s en Escribir apareció «Escribir y hablar <1 min» en Hoy. **No verificado:** el conteo con uso real largo (si el límite de 2 min de inactividad es adecuado para leer), ni en el iPhone.
+**Cuándo reformar el relleno:** tras ≈2 semanas de uso, comparar los minutos medidos con los estimados (valores a priori en `timing.ts`) y decidir con datos.
+**Siguiente:** más percepción con voces nativas, registro de errores de la IA al repaso, y luego la Fase 3 (vocabulario por tamices).
+
 ## 2026-11-22 (noche, 6) — Dato del usuario: el reconocimiento del navegador da «aborted»
 El usuario probó el botón 🎙 (reconocimiento propio de Safari) en su iPhone y salió `aborted` muchas veces. Causas posibles (sin confirmar): el audio del modelo sonando al iniciar, un reconocimiento anterior sin abortar (mi código no lo hacía: corregido), o que la app instalada (modo standalone) no mantiene el micrófono para esa API. La prueba nueva aborta lo anterior y detiene el audio antes de escuchar, y el mensaje de `aborted` sugiere repetirla abriendo la página en Safari sin instalar. Hasta que se confirme, el reconocimiento del navegador NO es una opción fiable en ese teléfono; no cambia la decisión (el dictado del teclado cubre la comprensibilidad).
 

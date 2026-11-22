@@ -2,6 +2,7 @@ import { cleanup, fireEvent, render, screen } from "@testing-library/react";
 import { readFileSync } from "node:fs";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import type { ContentPack } from "../content/load";
+import { memoryStore } from "../state/store";
 import { WriteScreen } from "./WriteScreen";
 
 afterEach(cleanup);
@@ -10,7 +11,7 @@ const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code
 
 describe("Reconstruir un texto", () => {
   it("leer → taparlo → escribir → ver qué recuperaste, en orden", () => {
-    render(<WriteScreen pack={pack} />);
+    render(<WriteScreen pack={pack} store={memoryStore()} />);
     const first = [...pack.readings!].filter((r) => r.sentences.length >= 3).sort((a, b) => a.level.localeCompare(b.level) || a.title.localeCompare(b.title))[0];
     const original = first.sentences.slice(0, 3).map((s) => s.it).join(" ");
     expect(screen.getByText(first.sentences[0].it)).toBeTruthy(); // al leer se ve el texto
@@ -30,7 +31,7 @@ describe("Mi propio texto y «Pedir corrección»", () => {
   it("prepara el encargo con el texto y el nivel, y muestra qué cambió con la respuesta pegada", () => {
     const writeText = vi.fn().mockResolvedValue(undefined);
     Object.defineProperty(navigator, "clipboard", { value: { writeText }, configurable: true });
-    render(<WriteScreen pack={pack} />);
+    render(<WriteScreen pack={pack} store={memoryStore()} />);
     fireEvent.click(screen.getByText("Mi propio texto"));
     expect(screen.queryByText("Pedir una corrección más completa")).toBeNull(); // sin texto no hay encargo
     fireEvent.change(screen.getByLabelText("Tu texto en italiano"), { target: { value: "Io ho andato a Roma ieri." } });
@@ -45,7 +46,7 @@ describe("Mi propio texto y «Pedir corrección»", () => {
     expect(screen.getAllByText("sono").length).toBeGreaterThan(0);
   });
   it("avisa si la respuesta pegada no trae la marca TEXTO CORREGIDO", () => {
-    render(<WriteScreen pack={pack} />);
+    render(<WriteScreen pack={pack} store={memoryStore()} />);
     fireEvent.click(screen.getByText("Mi propio texto"));
     fireEvent.change(screen.getByLabelText("Tu texto en italiano"), { target: { value: "Ciao" } });
     fireEvent.change(screen.getByLabelText("Pega aquí la respuesta de la IA"), { target: { value: "Todo bien." } });
