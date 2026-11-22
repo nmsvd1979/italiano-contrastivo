@@ -573,7 +573,7 @@
           "occhiali?"
         ],
         "id": "it_reorder_s_374617_ERR_POSSESSIVE_SPELLING",
-        "prompt_es": "Ordena las palabras: «¿Dónde están mis gafas?»",
+        "prompt_es": "Ordena las palabras: «¿Dónde están mis lentes?»",
         "requires_server": false,
         "review_status": "validated",
         "sentence_id": "s_374617",
@@ -756,7 +756,7 @@
       "requires_server": false,
       "review_status": "validated",
       "sentence_id": "s_1999832",
-      "source_es": "¿Dónde está mi coche?",
+      "source_es": "¿Dónde está mi auto?",
       "target_error_codes": [
         "ERR_POSSESSIVE_ARTICLE"
       ],
@@ -2930,7 +2930,7 @@
         "answers": [
           "un'"
         ],
-        "hint_es": "Esto es un coche.",
+        "hint_es": "Esto es un auto.",
         "id": "it_cloze_s_4002039_ERR_INDEFINITE_ARTICLE",
         "requires_server": false,
         "review_status": "validated",
@@ -8292,7 +8292,7 @@
           "sono?"
         ],
         "id": "it_reorder_s_383014_ERR_VOC_SALUTI",
-        "prompt_es": "Ordena las palabras: «Por favor, ¿qué hora es?»",
+        "prompt_es": "Ordena las palabras: «Disculpe, ¿qué hora es?»",
         "requires_server": false,
         "review_status": "validated",
         "sentence_id": "s_383014",
@@ -8883,7 +8883,7 @@
         "answers": [
           "macchina"
         ],
-        "hint_es": "No tengo coche.",
+        "hint_es": "No tengo auto.",
         "id": "it_cloze_s_1257658_ERR_VOC_TRASPORTI",
         "requires_server": false,
         "review_status": "validated",
@@ -8902,7 +8902,7 @@
           "lenta."
         ],
         "id": "it_reorder_s_1701563_ERR_VOC_TRASPORTI",
-        "prompt_es": "Ordena las palabras: «El coche es lento.»",
+        "prompt_es": "Ordena las palabras: «El auto es lento.»",
         "requires_server": false,
         "review_status": "validated",
         "sentence_id": "s_1701563",
@@ -8992,7 +8992,7 @@
       "requires_server": false,
       "review_status": "validated",
       "sentence_id": "s_3361717",
-      "source_es": "¿Dónde está el coche?",
+      "source_es": "¿Dónde está el auto?",
       "target_error_codes": [
         "ERR_VOC_TRASPORTI"
       ],
@@ -9268,7 +9268,7 @@
           "città?"
         ],
         "id": "it_reorder_s_1152788_ERR_AUX_ESSERE",
-        "prompt_es": "Ordena las palabras: «¿Vinisteis a la ciudad?»",
+        "prompt_es": "Ordena las palabras: «¿Vinieron a la ciudad?»",
         "requires_server": false,
         "review_status": "validated",
         "sentence_id": "s_1152788",
@@ -9494,7 +9494,7 @@
         "answers": [
           "nati"
         ],
-        "hint_es": "¿En qué año nacisteis?",
+        "hint_es": "¿En qué año nacieron?",
         "id": "it_cloze_s_529432_ERR_PARTICIPLE_AGREEMENT",
         "requires_server": false,
         "review_status": "validated",
@@ -9606,7 +9606,7 @@
       "requires_server": false,
       "review_status": "validated",
       "sentence_id": "s_1152789",
-      "source_es": "¿Vinisteis a la ciudad?",
+      "source_es": "¿Vinieron a la ciudad?",
       "target_error_codes": [
         "ERR_PARTICIPLE_AGREEMENT"
       ],

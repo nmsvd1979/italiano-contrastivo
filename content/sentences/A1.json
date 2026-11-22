@@ -208,20 +208,21 @@
     "error_codes": [
       "ERR_INDEFINITE_ARTICLE"
     ],
-    "es": "Quiero comprar un coche nuevo.",
-    "es_author": "Shishir",
-    "es_source_id": "985829",
+    "es": "Quiero comprar un auto nuevo.",
+    "es_author": "IA (Claude)",
     "id": "s_1003081",
     "it": "Voglio comprare un'auto nuova.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "1003081",
     "tag_rules": {
       "ERR_INDEFINITE_ARTICLE": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "carlosalberto",
@@ -1830,20 +1831,21 @@
     "error_codes": [
       "ERR_POSSESSIVE_ARTICLE"
     ],
-    "es": "Haz los deberes.",
-    "es_author": "Shishir",
-    "es_source_id": "809481",
+    "es": "Haz tus tareas.",
+    "es_author": "IA (Claude)",
     "id": "s_1084099",
     "it": "Fai i tuoi compiti.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "1084099",
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "riccioberto",
@@ -3952,20 +3954,21 @@
     "error_codes": [
       "ERR_POSSESSIVE_SPELLING"
     ],
-    "es": "Deberías ver a mi gato ahora.",
-    "es_author": "alexmarcelo",
-    "es_source_id": "1195968",
+    "es": "Deberían ver a mi gato ahora.",
+    "es_author": "IA (Claude)",
     "id": "s_1195313",
     "it": "Dovreste vedere il mio gatto ora.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "1195313",
     "tag_rules": {
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -4018,20 +4021,21 @@
     "error_codes": [
       "ERR_VOC_CASA"
     ],
-    "es": "¿Hay muchas flores en su jardín?",
-    "es_author": "Seael",
-    "es_source_id": "11969558",
+    "es": "¿Tienen muchas flores en su jardín?",
+    "es_author": "IA (Claude)",
     "id": "s_11969555",
     "it": "Hanno molti fiori nel loro giardino?",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "11969555",
     "tag_rules": {
       "ERR_VOC_CASA": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -5131,13 +5135,13 @@
     "error_codes": [
       "ERR_VOC_TRASPORTI"
     ],
-    "es": "No tengo coche.",
-    "es_author": "opor",
-    "es_source_id": "856269",
+    "es": "No tengo auto.",
+    "es_author": "IA (Claude)",
     "id": "s_1257658",
     "it": "Non ho la macchina.",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -5146,7 +5150,7 @@
     "tag_rules": {
       "ERR_VOC_TRASPORTI": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -5312,20 +5316,21 @@
     "error_codes": [
       "ERR_PRESENT_MODAL"
     ],
-    "es": "Él quiere un coche nuevo.",
-    "es_author": "tatoerique",
-    "es_source_id": "341360",
+    "es": "Él quiere un auto nuevo.",
+    "es_author": "IA (Claude)",
     "id": "s_1261696",
     "it": "Lui vuole una nuova macchina.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "1261696",
     "tag_rules": {
       "ERR_PRESENT_MODAL": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -6189,20 +6194,21 @@
     "error_codes": [
       "ERR_VOC_DIMOSTRATIVI"
     ],
-    "es": "Me encanta este móvil.",
-    "es_author": "Shishir",
-    "es_source_id": "1871301",
+    "es": "Me encanta este celular.",
+    "es_author": "IA (Claude)",
     "id": "s_1302899",
     "it": "Io amo questo cellulare.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "1302899",
     "tag_rules": {
       "ERR_VOC_DIMOSTRATIVI": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -8221,20 +8227,21 @@
     "error_codes": [
       "ERR_CONSONANTE_DOPPIA"
     ],
-    "es": "El billete cuesta cien euros.",
-    "es_author": "lukaszpp",
-    "es_source_id": "462967",
+    "es": "El boleto cuesta cien euros.",
+    "es_author": "IA (Claude)",
     "id": "s_1389686",
     "it": "Il biglietto costa cento euro.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "1389686",
     "tag_rules": {
       "ERR_CONSONANTE_DOPPIA": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "IdiomHunter",
@@ -8487,20 +8494,21 @@
     "error_codes": [
       "ERR_PRESENT_MODAL"
     ],
-    "es": "Él quiere un coche rojo.",
-    "es_author": "adrianxu",
-    "es_source_id": "10685698",
+    "es": "Él quiere un auto rojo.",
+    "es_author": "IA (Claude)",
     "id": "s_14036523",
     "it": "Lui vuole un'automobile rossa.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "14036523",
     "tag_rules": {
       "ERR_PRESENT_MODAL": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "unforgiven95",
@@ -11005,20 +11013,21 @@
     "error_codes": [
       "ERR_VOC_FAMILIA"
     ],
-    "es": "Juan es mi mejor amigo.",
-    "es_author": "BarinovDenis",
-    "es_source_id": "1441331",
+    "es": "John es mi mejor amigo.",
+    "es_author": "IA (Claude)",
     "id": "s_1669726",
     "it": "John è il mio migliore amico.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "1669726",
     "tag_rules": {
       "ERR_VOC_FAMILIA": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -11461,20 +11470,21 @@
     "error_codes": [
       "ERR_VOC_TRASPORTI"
     ],
-    "es": "Este coche es rápido.",
-    "es_author": "lukaszpp",
-    "es_source_id": "463265",
+    "es": "Este auto es rápido.",
+    "es_author": "IA (Claude)",
     "id": "s_1701558",
     "it": "Questa macchina è veloce.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "1701558",
     "tag_rules": {
       "ERR_VOC_TRASPORTI": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "alexmarcelo",
@@ -11483,20 +11493,21 @@
     "error_codes": [
       "ERR_VOC_TRASPORTI"
     ],
-    "es": "El coche es lento.",
-    "es_author": "Shishir",
-    "es_source_id": "1020626",
+    "es": "El auto es lento.",
+    "es_author": "IA (Claude)",
     "id": "s_1701563",
     "it": "La macchina è lenta.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "1701563",
     "tag_rules": {
       "ERR_VOC_TRASPORTI": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "alexmarcelo",
@@ -12612,13 +12623,13 @@
     "error_codes": [
       "ERR_PRESENT_ESSERE_AVERE"
     ],
-    "es": "Tengo un ordenador.",
-    "es_author": "ildefonk",
-    "es_source_id": "861134",
+    "es": "Tengo un computador.",
+    "es_author": "IA (Claude)",
     "id": "s_1984303",
     "it": "Io ho un computer.",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -12627,7 +12638,7 @@
     "tag_rules": {
       "ERR_PRESENT_ESSERE_AVERE": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -12726,13 +12737,13 @@
     "error_codes": [
       "ERR_POSSESSIVE_ARTICLE"
     ],
-    "es": "¿Dónde está mi coche?",
-    "es_author": "Shishir",
-    "es_source_id": "530553",
+    "es": "¿Dónde está mi auto?",
+    "es_author": "IA (Claude)",
     "id": "s_1999832",
     "it": "Dov'è la mia auto?",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -12741,7 +12752,7 @@
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "hitori37",
@@ -15649,13 +15660,13 @@
     "error_codes": [
       "ERR_VOC_COLORI"
     ],
-    "es": "Tengo un coche rosado.",
-    "es_author": "sobrehumano",
-    "es_source_id": "3718873",
+    "es": "Tengo un auto rosado.",
+    "es_author": "IA (Claude)",
     "id": "s_2581705",
     "it": "Ho una macchina rosa.",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -15664,7 +15675,7 @@
     "tag_rules": {
       "ERR_VOC_COLORI": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "rado",
@@ -16475,20 +16486,21 @@
     "error_codes": [
       "ERR_PREP_ARTICLE_CONTRACTION"
     ],
-    "es": "Copia este programa en tu ordenador.",
-    "es_author": "Shishir",
-    "es_source_id": "841912",
+    "es": "Copia este programa en tu computador.",
+    "es_author": "IA (Claude)",
     "id": "s_2700858",
     "it": "Copia questo programma nel tuo computer.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "2700858",
     "tag_rules": {
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -17681,20 +17693,21 @@
     "error_codes": [
       "ERR_VOC_NATURA"
     ],
-    "es": "El fuego se extinguió.",
-    "es_author": "marcelostockle",
-    "es_source_id": "1284276",
+    "es": "El fuego está apagado.",
+    "es_author": "IA (Claude)",
     "id": "s_2838597",
     "it": "Il fuoco è spento.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "2838597",
     "tag_rules": {
       "ERR_VOC_NATURA": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -19481,13 +19494,13 @@
     "error_codes": [
       "ERR_CE_AGREEMENT"
     ],
-    "es": "¿Hay aquí un listín telefónico?",
-    "es_author": "emigonza",
-    "es_source_id": "3194068",
+    "es": "¿Hay aquí una guía telefónica?",
+    "es_author": "IA (Claude)",
     "id": "s_3194066",
     "it": "C'è un elenco telefonico qui?",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -19496,7 +19509,7 @@
     "tag_rules": {
       "ERR_CE_AGREEMENT": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -20439,13 +20452,13 @@
     "error_codes": [
       "ERR_VOC_TRASPORTI"
     ],
-    "es": "¿Dónde está el coche?",
-    "es_author": "Shishir",
-    "es_source_id": "2216295",
+    "es": "¿Dónde está el auto?",
+    "es_author": "IA (Claude)",
     "id": "s_3361717",
     "it": "Dov'è la macchina?",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -20454,7 +20467,7 @@
     "tag_rules": {
       "ERR_VOC_TRASPORTI": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -22355,20 +22368,21 @@
     "error_codes": [
       "ERR_VOC_CIBO"
     ],
-    "es": "Él quiere mantequilla de cacahuete.",
-    "es_author": "saverius",
-    "es_source_id": "10108278",
+    "es": "Él quiere mantequilla de maní.",
+    "es_author": "IA (Claude)",
     "id": "s_3676865",
     "it": "Lui vuole del burro di arachidi.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "3676865",
     "tag_rules": {
       "ERR_VOC_CIBO": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -23222,13 +23236,13 @@
     "error_codes": [
       "ERR_POSSESSIVE_SPELLING"
     ],
-    "es": "¿Dónde están mis gafas?",
-    "es_author": "tatoerique",
-    "es_source_id": "329729",
+    "es": "¿Dónde están mis lentes?",
+    "es_author": "IA (Claude)",
     "id": "s_374617",
     "it": "Dove sono i miei occhiali?",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -23237,7 +23251,7 @@
     "tag_rules": {
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -23614,13 +23628,13 @@
     "error_codes": [
       "ERR_VOC_AGGETTIVI"
     ],
-    "es": "El ordenador es nuevo.",
-    "es_author": "Shishir",
-    "es_source_id": "475349",
+    "es": "El computador es nuevo.",
+    "es_author": "IA (Claude)",
     "id": "s_376577",
     "it": "Il computer è nuovo.",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -23629,7 +23643,7 @@
     "tag_rules": {
       "ERR_VOC_AGGETTIVI": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -24181,13 +24195,13 @@
     "error_codes": [
       "ERR_VOC_TRASPORTI"
     ],
-    "es": "Éste es mi coche.",
-    "es_author": "Shishir",
-    "es_source_id": "603320",
+    "es": "Éste es mi auto.",
+    "es_author": "IA (Claude)",
     "id": "s_378847",
     "it": "Questa è la mia macchina.",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -24196,7 +24210,7 @@
     "tag_rules": {
       "ERR_VOC_TRASPORTI": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -24874,13 +24888,13 @@
     "error_codes": [
       "ERR_VOC_SALUTI"
     ],
-    "es": "Por favor, ¿qué hora es?",
-    "es_author": "Adelpa",
-    "es_source_id": "10960897",
+    "es": "Disculpe, ¿qué hora es?",
+    "es_author": "IA (Claude)",
     "id": "s_383014",
     "it": "Scusi, che ore sono?",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -24889,7 +24903,7 @@
     "tag_rules": {
       "ERR_VOC_SALUTI": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -25269,20 +25283,21 @@
     "error_codes": [
       "ERR_VOC_CORPO"
     ],
-    "es": "Me estoy cepillando el pelo.",
-    "es_author": "marcelostockle",
-    "es_source_id": "1669087",
+    "es": "Me estoy peinando el pelo.",
+    "es_author": "IA (Claude)",
     "id": "s_3860695",
     "it": "Io mi sto pettinando i capelli.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "3860695",
     "tag_rules": {
       "ERR_VOC_CORPO": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -25653,13 +25668,13 @@
     "error_codes": [
       "ERR_GN_Z_SPELLING"
     ],
-    "es": "Necesito un nuevo ordenador.",
-    "es_author": "Shishir",
-    "es_source_id": "2952",
+    "es": "Necesito un computador nuevo.",
+    "es_author": "IA (Claude)",
     "id": "s_388801",
     "it": "Ho bisogno di un nuovo computer.",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -25668,7 +25683,7 @@
     "tag_rules": {
       "ERR_GN_Z_SPELLING": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -26166,20 +26181,21 @@
     "error_codes": [
       "ERR_VOC_COLORI"
     ],
-    "es": "El carro es amarillo.",
-    "es_author": "cueyayotl",
-    "es_source_id": "6172275",
+    "es": "El auto es amarillo.",
+    "es_author": "IA (Claude)",
     "id": "s_3966973",
     "it": "L'auto è gialla.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "3966973",
     "tag_rules": {
       "ERR_VOC_COLORI": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -26526,13 +26542,13 @@
     "error_codes": [
       "ERR_INDEFINITE_ARTICLE"
     ],
-    "es": "Esto es un coche.",
-    "es_author": "qweruiop",
-    "es_source_id": "1070691",
+    "es": "Esto es un auto.",
+    "es_author": "IA (Claude)",
     "id": "s_4002039",
     "it": "Questa è un'auto.",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -26541,7 +26557,7 @@
     "tag_rules": {
       "ERR_INDEFINITE_ARTICLE": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -26732,20 +26748,21 @@
     "error_codes": [
       "ERR_POSSESSIVE_SPELLING"
     ],
-    "es": "Ninguno de los coches es mío.",
-    "es_author": "Shishir",
-    "es_source_id": "497634",
+    "es": "Ninguno de los autos es mío.",
+    "es_author": "IA (Claude)",
     "id": "s_409594",
     "it": "Nessuna delle automobili è la mia.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "409594",
     "tag_rules": {
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -27460,20 +27477,21 @@
     "error_codes": [
       "ERR_CE_AGREEMENT"
     ],
-    "es": "Hay una bolsa sobre el escritorio.",
-    "es_author": "hayastan",
-    "es_source_id": "1031918",
+    "es": "Hay un bolso sobre el escritorio.",
+    "es_author": "IA (Claude)",
     "id": "s_425879",
     "it": "C'è una borsa sulla scrivania.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "425879",
     "tag_rules": {
       "ERR_CE_AGREEMENT": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -27550,13 +27568,13 @@
     "error_codes": [
       "ERR_INDEFINITE_ARTICLE"
     ],
-    "es": "Tiene un coche extranjero.",
-    "es_author": "Shishir",
-    "es_source_id": "1196090",
+    "es": "Tiene un auto extranjero.",
+    "es_author": "IA (Claude)",
     "id": "s_427926",
     "it": "Ha un'auto straniera.",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -27565,7 +27583,7 @@
     "tag_rules": {
       "ERR_INDEFINITE_ARTICLE": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -29360,13 +29378,13 @@
     "error_codes": [
       "ERR_CONSONANTE_DOPPIA"
     ],
-    "es": "¡Mamá, date prisa! Todos están esperando.",
-    "es_author": "saverius",
-    "es_source_id": "4647884",
+    "es": "¡Mamá, apúrate! Todos están esperando.",
+    "es_author": "IA (Claude)",
     "id": "s_4636276",
     "it": "Mamma, sbrigati! Stanno aspettando tutti.",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -29375,7 +29393,7 @@
     "tag_rules": {
       "ERR_CONSONANTE_DOPPIA": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -30879,20 +30897,21 @@
     "error_codes": [
       "ERR_CONSONANTE_DOPPIA"
     ],
-    "es": "Alquilamos el piso.",
-    "es_author": "qdii",
-    "es_source_id": "647764",
+    "es": "Alquilamos el departamento.",
+    "es_author": "IA (Claude)",
     "id": "s_5190524",
     "it": "Noi affittiamo l'appartamento.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "5190524",
     "tag_rules": {
       "ERR_CONSONANTE_DOPPIA": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -31735,20 +31754,21 @@
     "error_codes": [
       "ERR_PRESENT_IRREGULAR"
     ],
-    "es": "No sabe lo que está haciendo.",
-    "es_author": "Ricardo14",
-    "es_source_id": "9989592",
+    "es": "Ella no sabe qué hacer.",
+    "es_author": "IA (Claude)",
     "id": "s_5432019",
     "it": "Lei non sa cosa fare.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "5432019",
     "tag_rules": {
       "ERR_PRESENT_IRREGULAR": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -32920,20 +32940,21 @@
     "error_codes": [
       "ERR_VOC_LAVORO"
     ],
-    "es": "Un ordenador es muy útil.",
-    "es_author": "Seael",
-    "es_source_id": "13440425",
+    "es": "Un computador es muy útil.",
+    "es_author": "IA (Claude)",
     "id": "s_5973709",
     "it": "Un computer è molto utile.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "5973709",
     "tag_rules": {
       "ERR_VOC_LAVORO": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -32986,13 +33007,13 @@
     "error_codes": [
       "ERR_CONSONANTE_DOPPIA"
     ],
-    "es": "Estoy demasiada ocupada para verlo.",
-    "es_author": "megamanenm",
-    "es_source_id": "10750563",
+    "es": "Estoy demasiado ocupada para verlo.",
+    "es_author": "IA (Claude)",
     "id": "s_5991669",
     "it": "Sono troppo occupata per vederlo.",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -33001,7 +33022,7 @@
     "tag_rules": {
       "ERR_CONSONANTE_DOPPIA": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -34870,20 +34891,21 @@
     "error_codes": [
       "ERR_VOC_COLORI"
     ],
-    "es": "Este cuaderno es azul.",
-    "es_author": "saverius",
-    "es_source_id": "10799262",
+    "es": "¿Este cuaderno es azul?",
+    "es_author": "IA (Claude)",
     "id": "s_6609111",
     "it": "Questo quaderno è blu?",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "6609111",
     "tag_rules": {
       "ERR_VOC_COLORI": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -37434,13 +37456,13 @@
     "error_codes": [
       "ERR_VOC_CORPO"
     ],
-    "es": "Tiene una nariz grande.",
-    "es_author": "don_ramon",
-    "es_source_id": "5027133",
+    "es": "Ella tiene la nariz larga.",
+    "es_author": "IA (Claude)",
     "id": "s_749858",
     "it": "Lei ha il naso lungo.",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -37449,7 +37471,7 @@
     "tag_rules": {
       "ERR_VOC_CORPO": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -41666,13 +41688,13 @@
     "error_codes": [
       "ERR_PRESENT_ARE"
     ],
-    "es": "Él lleva gafas.",
-    "es_author": "hundo",
-    "es_source_id": "977773",
+    "es": "Él usa lentes.",
+    "es_author": "IA (Claude)",
     "id": "s_977762",
     "it": "Lui porta gli occhiali.",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -41681,7 +41703,7 @@
     "tag_rules": {
       "ERR_PRESENT_ARE": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "riccioberto",

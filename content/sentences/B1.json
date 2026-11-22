@@ -8,13 +8,14 @@
       "ERR_CLITIC_DIRECT_INDIRECT",
       "ERR_SC_PALATAL"
     ],
-    "es": "Si no entendés las cosas por tu cuenta, la vida te las enseña.",
-    "es_author": "hayastan",
-    "es_source_id": "1001756",
+    "es": "Si no entiendes las cosas por tu cuenta, la vida te las enseña.",
+    "es_author": "IA (Claude)",
     "id": "s_1000808",
     "it": "Se le cose non le capisci da solo, la vita te le insegna.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "1000808",
@@ -23,7 +24,7 @@
       "ERR_CLITIC_DIRECT_INDIRECT": "clitico_diretto_indiretto",
       "ERR_SC_PALATAL": "sc_palatale"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -1929,20 +1930,21 @@
     "error_codes": [
       "ERR_PARTICIPLE_AGREEMENT"
     ],
-    "es": "Esta es mi amiga Rachel, fuimos al instituto juntos.",
-    "es_author": "Shishir",
-    "es_source_id": "2808",
+    "es": "Esta es mi amiga Rachel. Fuimos al colegio juntas.",
+    "es_author": "IA (Claude)",
     "id": "s_3585065",
     "it": "Questa è la mia amica Rachel. Siamo andate alle superiori assieme.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "3585065",
     "tag_rules": {
       "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -2333,20 +2335,21 @@
     "error_codes": [
       "ERR_POSSESSIVE_SPELLING"
     ],
-    "es": "Me gusta mucho tu vestido afollado.",
-    "es_author": "saverius",
-    "es_source_id": "4343032",
+    "es": "Me gusta mucho tu vestido plisado.",
+    "es_author": "IA (Claude)",
     "id": "s_4347087",
     "it": "Mi piace molto il tuo vestito piegato in forma di soffietto.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "4347087",
     "tag_rules": {
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
