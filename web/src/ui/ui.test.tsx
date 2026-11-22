@@ -355,7 +355,8 @@ describe("AboutScreen: enlace a las atribuciones de audio", () => {
 
 describe("WriteScreen", () => {
   it("marca el calco con su explicación y no marca italiano correcto", () => {
-    render(<WriteScreen />);
+    render(<WriteScreen pack={pack()} />);
+    fireEvent.click(screen.getByText("Mi propio texto"));
     const box = screen.getByLabelText("Tu texto en italiano");
     fireEvent.change(box, { target: { value: "Ho andato a casa." } });
     fireEvent.click(screen.getByRole("button", { name: "Revisar" }));
@@ -366,7 +367,8 @@ describe("WriteScreen", () => {
     expect(screen.getByText(/No encontré ninguno/)).toBeTruthy();
   });
   it("no deja revisar un texto vacío", () => {
-    render(<WriteScreen />);
+    render(<WriteScreen pack={pack()} />);
+    fireEvent.click(screen.getByText("Mi propio texto"));
     expect((screen.getByRole("button", { name: "Revisar" }) as HTMLButtonElement).disabled).toBe(true);
   });
 });

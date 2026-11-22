@@ -1,13 +1,31 @@
 import { useState } from "react";
+import type { ContentPack } from "../content/load";
 import { detectErrors, type WritingError } from "../writing/detect";
+import { CorrectionPanel } from "./CorrectionPanel";
+import { ReconstructPanel } from "./ReconstructPanel";
 
-export function WriteScreen() {
-  const [text, setText] = useState("");
-  const [checked, setChecked] = useState<{ text: string; errors: WritingError[] } | null>(null);
+type Mode = "reconstruir" | "texto";
+
+export function WriteScreen({ pack }: { pack: ContentPack }) {
+  const [mode, setMode] = useState<Mode>("reconstruir");
   return (
     <main>
       <h1>Escribir</h1>
-      <p>Escribe en italiano y revisa los errores típicos de hispanohablantes. El texto no sale de tu teléfono ni se guarda.</p>
+      <div role="group" aria-label="Qué quieres hacer" style={{ display: "flex", gap: 8, margin: "8px 0 16px" }}>
+        <button type="button" aria-pressed={mode === "reconstruir"} className={mode === "reconstruir" ? "primary" : ""} style={{ flex: 1 }} onClick={() => setMode("reconstruir")}>Reconstruir un texto</button>
+        <button type="button" aria-pressed={mode === "texto"} className={mode === "texto" ? "primary" : ""} style={{ flex: 1 }} onClick={() => setMode("texto")}>Mi propio texto</button>
+      </div>
+      {mode === "reconstruir" ? <ReconstructPanel pack={pack} /> : <OwnText />}
+    </main>
+  );
+}
+
+function OwnText() {
+  const [text, setText] = useState("");
+  const [checked, setChecked] = useState<{ text: string; errors: WritingError[] } | null>(null);
+  return (
+    <section>
+      <p>Escribe en italiano y revisa los errores típicos de hispanohablantes. El texto no sale de tu teléfono ni se guarda, salvo que tú lo copies para pedir una corrección.</p>
       <label htmlFor="write-text">Tu texto en italiano</label>
       <textarea id="write-text" lang="it" rows={5} value={text} onChange={(e) => { setText(e.target.value); setChecked(null); }} />
       <button type="button" disabled={!text.trim()} onClick={() => setChecked({ text, errors: detectErrors(text) })}>Revisar</button>
@@ -28,6 +46,7 @@ export function WriteScreen() {
           <p><small>Revisión automática con reglas propias; cubre solo 8 patrones y puede equivocarse.</small></p>
         </section>
       )}
-    </main>
+      {text.trim() && <CorrectionPanel text={text} />}
+    </section>
   );
 }

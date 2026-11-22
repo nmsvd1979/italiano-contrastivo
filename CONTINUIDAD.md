@@ -2,6 +2,18 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-22 (noche, 3) — Fase 2: reconstruir de memoria y pedir corrección
+**Hecho (pestaña «Escribir», ahora con dos modos):**
+- **Reconstruir un texto:** eliges una de las 38 lecturas, lees y escuchas un fragmento de 3 frases, lo tapas y lo escribes de memoria; la app compara en orden (`web/src/state/align.ts`, subsecuencia común más larga, con acentos) y dice «recuperaste X de Y palabras», marcando lo que faltó y lo que sobró. Sin IA ni servidor.
+- **Mi propio texto → Pedir corrección:** además de la revisión local de 8 patrones, la app arma un encargo (nivel, «corrige solo errores», explica el calco, di si dudas, termina con «TEXTO CORREGIDO:») para pegar en Claude/ChatGPT/Gemini gratuitos (`web/src/state/correctionPrompt.ts`); al pegar la respuesta muestra qué cambió.
+- Arreglo de diseño: el botón principal quedaba tapado por la barra de pestañas (`above-tabs`).
+
+**Verificado:** web 837 pruebas en verde, app construida y recorrida a 375 px (reconstruir con resultado; panel de corrección hasta el cuadro de pegado). **No verificado:** el flujo completo con una IA real (que respete la marca «TEXTO CORREGIDO:» y el nivel), el botón de copiar en iOS, y si 3 frases es el tamaño adecuado de fragmento.
+
+**No hecho aún:** que los errores que señala la IA entren al repaso espaciado (hoy solo se ven en pantalla; exige un tipo de tarjeta nuevo en el esquema). Tampoco se registran los minutos de este modo.
+
+**Siguiente (Fase 2):** dictado del iPhone como comprobador de pronunciación (primero una prueba técnica en tu teléfono), reemplazar el relleno por minutos y migrar las unidades al ciclo de cuatro hebras.
+
 ## 2026-11-22 (noche, 2) — Fase 2, primer paso: «Escribe en italiano»
 **Hecho:** nuevo ejercicio que muestra la frase en español y se escribe en italiano (`web/src/ui/items/Write.tsx`, corrección en `web/src/state/write.ts`). Se corrige comparando con la traducción guardada y tolera mayúsculas, puntuación, apóstrofo con espacio y el pronombre io/tu/noi/voi; NO perdona acentos (avisa «solo falta el acento»). Como la respuesta guardada es una de varias posibles, el botón «Mi versión también es correcta» deja que decidas tú.
 - **Prueba de unidad = 6 frases escritas** (antes 10 ítems de elección/hueco/orden con 2 opciones); ≈5 min; sigue pasando con ≥80 %. Ubicación y examen de hito siguen con reconocimiento (`recognitionItems`).

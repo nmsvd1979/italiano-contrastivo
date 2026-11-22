@@ -110,7 +110,7 @@ export function App() {
         </p>
       )}
       {hash === "#/repaso" ? <ReviewScreen pack={ready.pack} store={ready.store} />
-        : hash === "#/escribir" ? <WriteScreen />
+        : hash === "#/escribir" ? <WriteScreen pack={ready.pack} />
         : hash === "#/ajustes" ? <SettingsScreen store={ready.store} memoryOnly={ready.storeError !== null} />
         : hash === "#/acerca" ? <AboutScreen manifest={ready.pack.manifest} sentences={ready.pack.sentences} readings={ready.pack.readings} />
         : hash === "#/ruta" || hash === "#/ubicacion" || hash === "#/hito/A1" || hash.startsWith("#/unidad/") ? <Routes ready={ready} hash={hash} />

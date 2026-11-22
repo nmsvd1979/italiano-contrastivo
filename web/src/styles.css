@@ -140,3 +140,6 @@ progress { width: 100%; height: 10px; accent-color: var(--ok); }
 .ficha summary { cursor: pointer; }
 
 .words .note { color: var(--bad); }
+
+pre.prompt { white-space: pre-wrap; font-size: 14px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
+select { font: inherit; font-size: 17px; padding: 8px 10px; border-radius: 12px; border: 1.5px solid var(--line); background: var(--card); color: var(--ink); max-width: 100%; }
