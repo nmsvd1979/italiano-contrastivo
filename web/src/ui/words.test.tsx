@@ -120,3 +120,19 @@ describe("práctica con ejercicios de la lectura", () => {
     expect(stepSeconds(unit, "practica2", packR)).toBeGreaterThanOrEqual(stepSeconds(unit, "practica2", pack));
   });
 });
+
+describe("examen de hito con las unidades de A1", () => {
+  it("tiene 40 preguntas (14 de léxico y 26 de gramática), sin repetir y repartidas por toda la ruta", async () => {
+    const { milestoneItems, partOf } = await import("../state/milestone");
+    const m = milestoneItems(pack, "A1");
+    expect(m.items.length).toBe(40);
+    expect(m.parts.filter((p) => p === "lex").length).toBe(14);
+    expect(new Set(m.items.map((i) => i.id)).size).toBe(40);
+    const a1 = course.units.filter((u) => u.level === "A1");
+    const idx = (code: string) => a1.findIndex((u) => u.codes[0] === code);
+    const used = m.items.map((i) => idx((i as { target_error_codes?: string[] }).target_error_codes?.[0] ?? "")).filter((k) => k >= 0);
+    const lexUsed = used.filter((k) => partOf(a1[k]) === "lex");
+    expect(Math.max(...lexUsed) - Math.min(...lexUsed)).toBeGreaterThan(a1.length * 0.5); // no solo las primeras unidades de vocabulario
+    expect(a1.some((u) => u.level === "A1+")).toBe(false);
+  });
+});

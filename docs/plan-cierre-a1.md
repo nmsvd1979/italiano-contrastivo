@@ -5,9 +5,9 @@
 - **B hecha:** 1.205 ejercicios derivados de las lecturas (`pipeline/exercises/reading_items.py`).
 - **E hecha:** ninguna unidad A1 con menos de 30 oraciones auditadas.
 - **S hecha:** Serena alarga bien las geminadas oclusivas, nasales, l y r (cierre ×1,5 a ×3,5; falla la «ss») y los fonemas de gn y z son correctos; la entonación no pasa (7 de 10 preguntas, bajo el 90 %). Unidades nuevas «Sonidos: gn y z» y «Consonantes dobles»; entonación queda «próximamente».
-- **C parcial:** todas las unidades de vocabulario y sonidos tienen «palabras»; 33 de 50 tienen lectura. Faltan lectura en 7 unidades de gramática (u54, u55, u16, u17, u61, u44, u62): declarado en `web/src/state/cierreA1.test.ts` (KNOWN_GAPS); si se llena una, el test obliga a quitarla de la lista.
+- **C casi hecha:** todas las unidades de vocabulario y sonidos tienen «palabras» y 48 de 50 tienen lectura (u16, u17, u44, u61 y u62 con diálogos modelo cortos de Piacere!). Sin lectura quedan solo género (u54) e indefinidos (u55): las fuentes traen listas y ejercicios, no un texto que encaje. Declarado en `web/src/state/cierreA1.test.ts` (KNOWN_GAPS); si se llena una, el test obliga a quitarla de la lista.
 - **D pendiente:** pedir aclaraciones y vorrei (necesitan diálogos con ejercicios propios).
-- **F parcial:** test de «A1 cerrado» creado; paquete de revisión nativa en `docs/revision-nativo.md` (`scripts/paquete_revision.py`). Falta revisar el hito y la prueba de ubicación a mano con las 50 unidades.
+- **F parcial:** test de «A1 cerrado» creado; paquete de revisión nativa en `docs/revision-nativo.md` (`scripts/paquete_revision.py`). Examen de hito corregido: las 40 preguntas se reparten por toda la ruta (antes solo entraban las primeras unidades de vocabulario) y tiene prueba; la prueba de ubicación se revisó (se detiene tras dos unidades seguidas sin dominar).
 
 ## Estado medido (núcleo A1: 48 unidades)
 - 16 unidades sin lectura: u18, u19, u20, u54, u55, u07, u49, u39, u16, u17, u61, u44, u27, u33, u28, u62.

@@ -839,7 +839,10 @@
         "ERR_PRESENT_IRREGULAR"
       ],
       "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques.",
-      "ficha_es": "Cuatro verbos muy usados e irregulares: andare (vado, vai, va, andiamo, andate, vanno), fare (faccio, fai, fa, facciamo, fate, fanno), stare (sto, stai, sta, stiamo, state, stanno), venire (vengo, vieni, viene, veniamo, venite, vengono).\n\nStare sirve para «estar» en la salud y en estar + gerundio (sto mangiando), y essere para el resto. Fare entra en muchas expresiones: fare colazione (desayunar), fare una doccia, fa caldo (hace calor)."
+      "ficha_es": "Cuatro verbos muy usados e irregulares: andare (vado, vai, va, andiamo, andate, vanno), fare (faccio, fai, fa, facciamo, fate, fanno), stare (sto, stai, sta, stiamo, state, stanno), venire (vengo, vieni, viene, veniamo, venite, vengono).\n\nStare sirve para «estar» en la salud y en estar + gerundio (sto mangiando), y essere para el resto. Fare entra en muchas expresiones: fare colazione (desayunar), fare una doccia, fa caldo (hace calor).",
+      "readings": [
+        "rd_stasera"
+      ]
     },
     {
       "id": "u17",
@@ -850,7 +853,10 @@
         "ERR_PRESENT_MODAL"
       ],
       "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación.",
-      "ficha_es": "Volere, potere y dovere (querer, poder, deber) van con infinitivo: voglio mangiare, posso venire, devo studiare. Presente: voglio, vuoi, vuole, vogliamo, volete, vogliono; posso, puoi, può, possiamo, potete, possono; devo, devi, deve, dobbiamo, dovete, devono.\n\nSon irregulares: aprende las formas de memoria. Ojo: «tengo que» se dice devo; «tener ganas de» es avere voglia di."
+      "ficha_es": "Volere, potere y dovere (querer, poder, deber) van con infinitivo: voglio mangiare, posso venire, devo studiare. Presente: voglio, vuoi, vuole, vogliamo, volete, vogliono; posso, puoi, può, possiamo, potete, possono; devo, devi, deve, dobbiamo, dovete, devono.\n\nSon irregulares: aprende las formas de memoria. Ojo: «tengo que» se dice devo; «tener ganas de» es avere voglia di.",
+      "readings": [
+        "rd_festa"
+      ]
     },
     {
       "id": "u36",
@@ -1001,7 +1007,10 @@
         "ERR_PRONOME_TONICO"
       ],
       "why_here": "Después de las preposiciones ya vistas, para hablar de ti y de mí.",
-      "ficha_es": "Después de una preposición (con, per, da, di, a, senza, su, tra, fra) el italiano usa los pronombres tónicos: me, te, lui, lei, noi, voi, loro. Con el pronombre de «yo» y «tú» no se usan io y tu: con me, per te, da me, a te, senza di te.\n\nEl español junta la preposición en «conmigo» y «contigo»; el italiano las separa: con me, con te. Con lui, lei, noi, voi y loro el pronombre es igual que el de sujeto (con lui, per noi). También se usan para dar énfasis tras el verbo: Cerco proprio te. Fuente: Piacere! (Univ. de Iowa), capítulo «I pronomi tonici»."
+      "ficha_es": "Después de una preposición (con, per, da, di, a, senza, su, tra, fra) el italiano usa los pronombres tónicos: me, te, lui, lei, noi, voi, loro. Con el pronombre de «yo» y «tú» no se usan io y tu: con me, per te, da me, a te, senza di te.\n\nEl español junta la preposición en «conmigo» y «contigo»; el italiano las separa: con me, con te. Con lui, lei, noi, voi y loro el pronombre es igual que el de sujeto (con lui, per noi). También se usan para dar énfasis tras el verbo: Cerco proprio te. Fuente: Piacere! (Univ. de Iowa), capítulo «I pronomi tonici».",
+      "readings": [
+        "rd_regalo"
+      ]
     },
     {
       "id": "u57",
@@ -1040,7 +1049,10 @@
         "ERR_PIACERE_ACCORDO"
       ],
       "why_here": "Decir qué te gusta, con los artículos y el vocabulario ya vistos.",
-      "ficha_es": "Mi piace + singular (mi piace il gelato) y mi piacciono + plural (mi piacciono i gatti). El verbo concuerda con lo que gusta, no con quien siente: así funciona el español «me gusta / me gustan». Con un verbo, siempre piace: mi piace nuotare.\n\nPersonas: mi piace, ti piace, gli piace (a él), le piace (a ella), ci piace, vi piace, piace loro (a ellos). «A me piace» enfatiza. No se dice «io piaccio il gelato»."
+      "ficha_es": "Mi piace + singular (mi piace il gelato) y mi piacciono + plural (mi piacciono i gatti). El verbo concuerda con lo que gusta, no con quien siente: así funciona el español «me gusta / me gustan». Con un verbo, siempre piace: mi piace nuotare.\n\nPersonas: mi piace, ti piace, gli piace (a él), le piace (a ella), ci piace, vi piace, piace loro (a ellos). «A me piace» enfatiza. No se dice «io piaccio il gelato».",
+      "readings": [
+        "rd_ristorante2"
+      ]
     },
     {
       "id": "u35",
@@ -1140,7 +1152,10 @@
         "ERR_IMPERATIVO_FORMA"
       ],
       "why_here": "Dar instrucciones sencillas, con los verbos de presente ya vistos.",
-      "ficha_es": "El imperativo de «tu» de los verbos en -are termina en -a: parla, guarda, mangia, aspetta. Los verbos en -ere y en -ire usan la misma forma de «tu» del presente: leggi, scrivi, apri, chiudi, dormi, finisci.\n\nEl español usa -e en esos verbos (lee, escribe, abre): en italiano «apre» sería «él abre», no el mandato. Irregulares: va' (o vai), fa' (o fai), da' (o dai), di', sta' (o stai). El negativo con «tu» es non + infinitivo: non parlare! (el español dice «no hables»); con noi y voi, non + presente. Fuente: Piacere! (Univ. de Iowa), capítulo «Imperativo (tu, noi, voi)»."
+      "ficha_es": "El imperativo de «tu» de los verbos en -are termina en -a: parla, guarda, mangia, aspetta. Los verbos en -ere y en -ire usan la misma forma de «tu» del presente: leggi, scrivi, apri, chiudi, dormi, finisci.\n\nEl español usa -e en esos verbos (lee, escribe, abre): en italiano «apre» sería «él abre», no el mandato. Irregulares: va' (o vai), fa' (o fai), da' (o dai), di', sta' (o stai). El negativo con «tu» es non + infinitivo: non parlare! (el español dice «no hables»); con noi y voi, non + presente. Fuente: Piacere! (Univ. de Iowa), capítulo «Imperativo (tu, noi, voi)».",
+      "readings": [
+        "rd_professore"
+      ]
     },
     {
       "id": "u58",

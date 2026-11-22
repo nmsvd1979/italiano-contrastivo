@@ -1,0 +1,88 @@
+{
+  "id": "rd_stasera",
+  "title": "Cosa fai stasera?",
+  "level": "A1",
+  "kind": "dialogo",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/verbi-irregolari-in-are/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Se tomó la conversación modelo del capítulo; se quitaron las glosas en inglés. Texto muy corto.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_stasera_00",
+      "it": "Ciao Vittoria, come stai?",
+      "es": "Hola Vittoria, ¿cómo estás?",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_stasera_01",
+      "it": "Sto abbastanza bene, grazie. E tu?",
+      "es": "Estoy bastante bien, gracias. ¿Y tú?",
+      "speaker": "Vittoria"
+    },
+    {
+      "id": "rd_stasera_02",
+      "it": "Anche io sto bene. Che cosa fai stasera?",
+      "es": "Yo también estoy bien. ¿Qué haces esta noche?",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_stasera_03",
+      "it": "Vado al cinema con Leonardo. Tu cosa fai?",
+      "es": "Voy al cine con Leonardo. ¿Y tú qué haces?",
+      "speaker": "Vittoria"
+    },
+    {
+      "id": "rd_stasera_04",
+      "it": "Lavoro. Tutti i giovedì do lezioni di yoga.",
+      "es": "Trabajo. Todos los jueves doy clases de yoga.",
+      "speaker": "Sara"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cómo está Vittoria?",
+      "options": [
+        "Bastante bien",
+        "Muy mal",
+        "Cansada"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Adónde va Vittoria esta noche?",
+      "options": [
+        "Al gimnasio",
+        "Al cine",
+        "A una fiesta"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Con quién va?",
+      "options": [
+        "Con Sara",
+        "Sola",
+        "Con Leonardo"
+      ],
+      "answer": 2,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Qué hace Sara los jueves?",
+      "options": [
+        "Da clases de yoga",
+        "Va al cine",
+        "Estudia"
+      ],
+      "answer": 0,
+      "evidence": 4
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "rd_ristorante2",
+  "title": "Un ristorante nuovo",
+  "level": "A2",
+  "kind": "dialogo",
+  "source": {
+    "book": "Piacere! (Elementary Italian, University of Iowa)",
+    "authors": "Lucia Gemmani, Irene Lottini, Claudia Sartini-Rideout",
+    "url": "https://pressbooks.uiowa.edu/piacere/chapter/il-verbo-piacere/",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "adaptation": "Se tomó la conversación modelo del capítulo; se quitaron las glosas en inglés. Texto corto y con passato prossimo (nivel A2).",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_ristorante2_00",
+      "it": "Ciao Francesca, io e Luca siamo andati al nuovo ristorante ieri sera.",
+      "es": "Hola Francesca, Luca y yo fuimos ayer por la noche al nuevo restaurante.",
+      "speaker": "Angela"
+    },
+    {
+      "id": "rd_ristorante2_01",
+      "it": "Vi è piaciuto?",
+      "es": "¿Les gustó?",
+      "speaker": "Francesca"
+    },
+    {
+      "id": "rd_ristorante2_02",
+      "it": "Sì, abbiamo mangiato abbastanza bene.",
+      "es": "Sí, comimos bastante bien.",
+      "speaker": "Angela"
+    },
+    {
+      "id": "rd_ristorante2_03",
+      "it": "Ci sono piaciuti i ravioli e ci è piaciuta la bistecca.",
+      "es": "Nos gustaron los ravioles y nos gustó el bistec.",
+      "speaker": "Angela"
+    },
+    {
+      "id": "rd_ristorante2_04",
+      "it": "Però non ci è piaciuto il dolce.",
+      "es": "Pero no nos gustó el postre.",
+      "speaker": "Angela"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Adónde fueron Angela y Luca?",
+      "options": [
+        "A un restaurante nuevo",
+        "Al cine",
+        "A casa de Francesca"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Cuándo fueron?",
+      "options": [
+        "Esta mañana",
+        "Ayer por la noche",
+        "Mañana"
+      ],
+      "answer": 1,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Qué les gustó?",
+      "options": [
+        "El postre",
+        "El vino",
+        "Los ravioles y el bistec"
+      ],
+      "answer": 2,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Qué no les gustó?",
+      "options": [
+        "El postre",
+        "Los ravioles",
+        "La bistec"
+      ],
+      "answer": 0,
+      "evidence": 4
+    }
+  ]
+}
