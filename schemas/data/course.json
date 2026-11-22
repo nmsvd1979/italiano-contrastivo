@@ -48,38 +48,38 @@
         },
         {
           "form": "cena",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la cena"
         },
         {
           "form": "cinema",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el cine"
         },
         {
           "form": "gelato",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el helado"
         },
         {
           "form": "giorno",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el día"
         },
         {
           "form": "gente",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la gente"
         },
         {
           "form": "città",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la ciudad"
         },
         {
@@ -96,8 +96,8 @@
         },
         {
           "form": "chiave",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la llave"
         },
         {
@@ -108,14 +108,14 @@
         },
         {
           "form": "ghiaccio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el hielo"
         },
         {
           "form": "spaghetti",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "p",
           "gloss": "los espaguetis"
         },
         {
@@ -126,14 +126,14 @@
         },
         {
           "form": "amici",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "p",
           "gloss": "los amigos"
         },
         {
           "form": "giugno",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "junio"
         }
       ]
@@ -151,86 +151,86 @@
       "words": [
         {
           "form": "scena",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la escena"
         },
         {
           "form": "scienza",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la ciencia"
         },
         {
           "form": "pesce",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el pescado"
         },
         {
           "form": "sci",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el esquí"
         },
         {
           "form": "scuola",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la escuela"
         },
         {
           "form": "schiena",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la espalda"
         },
         {
           "form": "schema",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el esquema"
         },
         {
           "form": "schermo",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "la pantalla"
         },
         {
           "form": "fascia",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la banda"
         },
         {
           "form": "scimmia",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "el mono"
         },
         {
           "form": "sciopero",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "la huelga"
         },
         {
           "form": "scherzo",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "la broma"
         },
         {
           "form": "pesche",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "p",
           "gloss": "los duraznos"
         },
         {
           "form": "scarpa",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "el zapato"
         },
         {
@@ -254,20 +254,20 @@
       "words": [
         {
           "form": "figlio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el hijo"
         },
         {
           "form": "famiglia",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la familia"
         },
         {
           "form": "moglie",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la esposa"
         },
         {
@@ -278,14 +278,14 @@
         },
         {
           "form": "foglio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "la hoja de papel"
         },
         {
           "form": "aglio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el ajo"
         },
         {
@@ -296,50 +296,50 @@
         },
         {
           "form": "tovaglia",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "el mantel"
         },
         {
           "form": "sbaglio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el error"
         },
         {
           "form": "luglio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "julio"
         },
         {
           "form": "figlia",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la hija"
         },
         {
           "form": "bottiglia",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la botella"
         },
         {
           "form": "paglia",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la paja"
         },
         {
           "form": "coniglio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el conejo"
         },
         {
           "form": "consiglio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el consejo"
         }
       ]
@@ -357,26 +357,26 @@
       "words": [
         {
           "form": "gnocchi",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "p",
           "gloss": "los ñoquis"
         },
         {
           "form": "lasagne",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "p",
           "gloss": "las lasañas"
         },
         {
           "form": "bagno",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el baño"
         },
         {
           "form": "signora",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la señora"
         },
         {
@@ -393,8 +393,8 @@
         },
         {
           "form": "pizza",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la pizza"
         },
         {
@@ -405,38 +405,38 @@
         },
         {
           "form": "zio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el tío"
         },
         {
           "form": "zucchero",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el azúcar"
         },
         {
           "form": "nazione",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la nación"
         },
         {
           "form": "stazione",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la estación"
         },
         {
           "form": "pazienza",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la paciencia"
         },
         {
           "form": "ragazzo",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el chico"
         },
         {
@@ -447,8 +447,8 @@
         },
         {
           "form": "montagna",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la montaña"
         }
       ]
@@ -466,8 +466,8 @@
       "words": [
         {
           "form": "fato",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el destino"
         },
         {
@@ -478,8 +478,8 @@
         },
         {
           "form": "sete",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la sed"
         },
         {
@@ -490,14 +490,14 @@
         },
         {
           "form": "pala",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la pala"
         },
         {
           "form": "palla",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la pelota"
         },
         {
@@ -508,20 +508,20 @@
         },
         {
           "form": "carro",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el carro"
         },
         {
           "form": "pena",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la pena"
         },
         {
           "form": "penna",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "el bolígrafo"
         },
         {
@@ -532,14 +532,14 @@
         },
         {
           "form": "nonno",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el abuelo"
         },
         {
           "form": "mamma",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la mamá"
         },
         {
@@ -550,8 +550,8 @@
         },
         {
           "form": "cappello",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el sombrero"
         },
         {

@@ -11,7 +11,7 @@ export function wordLexeme(pack: Pick<ContentPack, "course">, ref: string): Lexe
   const form = ref.slice(WORD_PREFIX.length);
   for (const u of pack.course.units) {
     const w = u.words?.find((x) => x.form === form);
-    if (w) return { id: ref, form: w.form, gloss_es: w.gloss, lexical_type: "neutral", source: `vocabulario: ${u.title}`, audio: w.audio };
+    if (w) return { id: ref, form: w.form, gloss_es: w.gloss, lexical_type: "neutral", source: `vocabulario: ${u.title}`, audio: w.audio, art: w.art, gdiv: w.gdiv };
   }
   return undefined;
 }
@@ -28,3 +28,8 @@ export async function addWordCards(store: Store, unit: Unit, now: Date): Promise
   }
   return added;
 }
+
+/** La palabra con su artículo italiano («il latte», «l'acqua»); sin artículo (adjetivos, verbos) queda igual. */
+export const withArticle = (form: string, art?: string): string => (art ? (art.endsWith("'") ? art + form : `${art} ${form}`) : form);
+export const GENDER_NOTE = "En español es del otro género: no lo deduzcas.";
+export const falseFriendNote = (form: string, gloss: string): string => `Falso amigo: se parece a «${form}» en español, pero significa ${gloss}.`;

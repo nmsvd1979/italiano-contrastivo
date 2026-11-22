@@ -32,6 +32,17 @@ describe("paso «Palabras»", () => {
     fireEvent.click(screen.getByText("Ya las repasé"));
     expect(onFinish).toHaveBeenCalled();
   });
+  it("el sustantivo se muestra con su artículo italiano y avisa del género distinto y de los falsos amigos", () => {
+    const food = course.units.find((u) => u.words?.some((w) => w.form === "latte"))!;
+    expect(food.words!.find((w) => w.form === "latte")).toMatchObject({ art: "il", gdiv: true });
+    expect(food.words!.find((w) => w.form === "acqua")!.art).toBe("l'");
+    const adjectives = course.units.find((u) => u.words?.some((w) => w.form === "alto"))!;
+    expect(adjectives.words!.every((w) => !w.art)).toBe(true); // adjetivos: sin artículo
+    const body = course.units.find((u) => u.words?.some((w) => w.form === "burro"))!;
+    render(<WordsStep unit={body} onFinish={() => undefined} />);
+    expect(screen.getByText("il burro")).toBeTruthy();
+    expect(screen.getAllByText(/Falso amigo: se parece a «burro»/).length).toBe(1);
+  });
   it("el paso tiene duración estimada por palabra", () => {
     expect(stepSeconds(vocab, "palabras", pack)).toBe(vocab.words!.length * 15);
   });

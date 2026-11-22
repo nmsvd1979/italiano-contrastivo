@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import type { ContentPack, Lexeme } from "../content/load";
-import { wordLexeme } from "../state/words";
+import { GENDER_NOTE, wordLexeme, withArticle } from "../state/words";
 import type { Card } from "../generated/card";
 import { afterReview, normalizeDay, pickItem, ratingFromAnswer, reviewQueue, type ReviewEntry } from "../state/session";
 import { newCard, review } from "../state/srs";
@@ -83,7 +83,7 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
       {saveError && <p role="alert" className="alert">No se pudo guardar tu respuesta. Inténtalo de nuevo.</p>}
       {lexeme ? (
         <section>
-          <h2 lang="it">{lexeme.form}</h2>
+          <h2 lang="it">{withArticle(lexeme.form, lexeme.art)}</h2>
           <SpeakButton text={lexeme.form} />
           {!revealed ? (
             <p><button type="button" className="primary block" onClick={() => setRevealed(true)}>Mostrar significado</button></p>
@@ -91,6 +91,7 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
             <div>
               <p>{lexeme.gloss_es}</p>
               {lexeme.lexical_type === "false_friend" && <p><small>Falso amigo: no significa lo que parece en español.</small></p>}
+              {lexeme.gdiv && <p><small>{GENDER_NOTE}</small></p>}
               <p className="ratings">
                 {([["Otra vez", 1], ["Difícil", 2], ["Bien", 3], ["Fácil", 4]] as const).map(([label, r]) => (
                   <button key={r} type="button" onClick={() => grade(r)}>{label}</button>

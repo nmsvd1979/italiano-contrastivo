@@ -5,6 +5,7 @@ from pathlib import Path
 
 from pipeline import config
 from pipeline.audit_rules import italian_issue, length_issue, spanish_issue
+from pipeline.exercises import vocab
 from pipeline.exercises.calques import find_calque
 from pipeline.exercises.capsules import usable_sentences
 
@@ -52,6 +53,19 @@ def _divergence(code: str, s: dict) -> dict:
     return {"id": s["id"], "start": c.start, "end": c.end, "wrong": c.wrong}
 
 
+def _with_contrast(w: dict) -> dict:
+    """Artículo italiano del sustantivo, y avisos: género distinto del español (il latte / la leche) y falso amigo (fuentes leídas)."""
+    out = dict(w)
+    art = vocab.it_article(w["form"], w["gender"], w["num"], w["gloss"])
+    if art:
+        out["art"] = art
+    if vocab.gender_differs(w["form"], w["gender"], w["gloss"]):
+        out["gdiv"] = True
+    if w["form"].lower() in vocab.false_friend_forms():
+        out["ff"] = True
+    return out
+
+
 def build_course(sentences: list[dict], catalog: dict[str, dict]) -> dict:
     """Devuelve el curso para la app. Una unidad sin oraciones suficientes baja a `planned` con la razón (nunca se inventa)."""
     raw = load_course()
@@ -65,11 +79,11 @@ def build_course(sentences: list[dict], catalog: dict[str, dict]) -> dict:
         code = u["codes"][0]
         parts = assign_parts(usable[code], u["codes"])
         by_id = {s["id"]: s for s in usable[code]}
-        from pipeline.exercises import vocab
         from pipeline.tts.ids import clip_id
         verbal = code in ("ERR_VOC_VORREI",)  # formas verbales: sin género ni número que mostrar
         words = [{"form": e.form, "gender": "x" if verbal else e.gender, "num": "x" if verbal else e.num, "gloss": e.gloss, "audio": clip_id(e.form)} for e in vocab.topics().get(code, [])]
         words = words or [{**w, "audio": clip_id(w["form"])} for w in u.get("words", [])]  # unidades de sonidos: palabras clave definidas en el curso
+        words = [_with_contrast(w) for w in words]
         units.append({**u, **({"words": words} if words else {}), "status": "active", "explanation_es": catalog[code]["explanation_es"], "parts": parts,
                       "divergences": [_divergence(code, by_id[i]) for i in parts["descubre"]]})
     return {"version": raw["version"], "levels": raw["levels"], "units": units, "planned": planned}

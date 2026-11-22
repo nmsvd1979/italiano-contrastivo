@@ -3,7 +3,9 @@
   con el mismo género, número y clase de artículo (así el artículo sigue siendo correcto y la diferencia es solo la palabra);
 - hueco (la palabra en blanco, con la traducción de pista) y orden;
 - significado: «¿qué significa X?» con la glosa correcta y dos de otras palabras del tema (glosas distintas entre sí)."""
+import difflib
 import re
+import unicodedata
 import zlib
 from dataclasses import dataclass
 from functools import lru_cache
@@ -83,3 +85,50 @@ def find_vocab(code: str, it: str):
     d1 = _pick(others, it + "1").gloss
     d2 = _pick([x for x in others if x.gloss != d1], it + "2").gloss
     return m.start(), m.end(), m.group(0), repl, e.gloss, (d1, d2)
+
+
+# --- artículo italiano y avisos contrastivos del paso «Palabras» -------------------------------------------------------------------
+_ES_ARTICLE = re.compile(r"^(el|la|los|las)\s+(\w+)", re.I)
+_ES_FEM_EL = {"agua", "hambre", "alma", "águila", "área", "arma", "hacha", "aula", "ala"}  # femeninos con «el» ante a- tónica
+
+
+def it_article(form: str, gender: str, num: str, gloss: str) -> str:
+    """Artículo determinado italiano de un SUSTANTIVO (la glosa empieza con artículo español); '' para adjetivos, verbos y palabras sueltas.
+    Mostrar «il latte» y no solo «latte» evita que el género se cuele desde el español («la leche»)."""
+    if gender not in ("m", "f") or num not in ("s", "p") or not _ES_ARTICLE.match(gloss):
+        return ""
+    f = form.lower()
+    f = f[1:] if f.startswith("h") and len(f) > 1 and f[1] in _VOWELS else f  # «hobby»: la h no suena
+    vowel = f[0] in _VOWELS
+    impure = bool(re.match(r"(s[^aeiou]|z|gn|ps|x|y)", f))
+    if gender == "f":
+        return "le" if num == "p" else ("l'" if vowel else "la")
+    if num == "p":
+        return "gli" if (vowel or impure) else "i"
+    return "l'" if vowel else ("lo" if impure else "il")
+
+
+_COGNATES_DISSIMILAR = {"latte", "orecchio", "naso", "braccia", "domenica"}  # parientes de la palabra española aunque se escriban distinto (latte/leche)
+
+
+def _norm(s: str) -> str:
+    return "".join(c for c in unicodedata.normalize("NFD", s.lower()) if unicodedata.category(c) != "Mn")
+
+
+def gender_differs(form: str, gender: str, gloss: str) -> bool:
+    """El sustantivo italiano tiene distinto género que su equivalente español PARIENTE (il latte / la leche). Solo se avisa si la
+    palabra se parece a la española: «lo schermo / la pantalla» no es una trampa, son palabras distintas."""
+    m = _ES_ARTICLE.match(gloss)
+    if not m or gender not in ("m", "f"):
+        return False
+    if form.lower() not in _COGNATES_DISSIMILAR and difflib.SequenceMatcher(None, _norm(form), _norm(m.group(2))).ratio() < 0.55:
+        return False
+    es = "f" if m.group(1).lower() in ("la", "las") or (m.group(1).lower() == "el" and m.group(2).lower() in _ES_FEM_EL) else "m"
+    return es != gender
+
+
+@lru_cache(maxsize=1)
+def false_friend_forms() -> frozenset[str]:
+    """Formas italianas que el catálogo de falsos amigos (fuentes leídas) marca como engañosas para quien habla español."""
+    fa = yaml.safe_load((config.LEXICONS_DIR / "false_friends.yaml").read_text(encoding="utf8"))["entries"]
+    return frozenset(e["form"].lower() for e in fa)

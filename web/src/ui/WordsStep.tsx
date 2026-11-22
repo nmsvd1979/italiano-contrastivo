@@ -2,6 +2,7 @@ import { useState } from "react";
 import type { Unit } from "../content/load";
 import { FocusHead } from "./kit/FocusHead";
 import { SpeakButton } from "./SpeakButton";
+import { falseFriendNote, GENDER_NOTE, withArticle } from "../state/words";
 
 const KIND: Record<string, string> = { "m|s": "masculino", "f|s": "femenino", "m|p": "masculino plural", "f|p": "femenino plural", "-|s": "masculino y femenino", "-|p": "plural", "-|-": "no cambia" };
 
@@ -23,11 +24,13 @@ export function WordsStep({ unit, onFinish, exitHref = "#/" }: { unit: Unit; onF
       <ul className="words">
         {words.map((w) => (
           <li key={w.form}>
-            <strong lang="it">{w.form}</strong> <SpeakButton text={w.form} />
+            <strong lang="it">{withArticle(w.form, w.art)}</strong> <SpeakButton text={w.form} />
             <br />
             {hide && !shown.has(w.form)
               ? <button type="button" onClick={() => toggle(w.form)}>Ver significado</button>
-              : <span>{w.gloss}{KIND[`${w.gender}|${w.num}`] && <small> ({KIND[`${w.gender}|${w.num}`]})</small>}</span>}
+              : <span>{w.gloss}{KIND[`${w.gender}|${w.num}`] && <small> ({KIND[`${w.gender}|${w.num}`]})</small>}
+                  {w.gdiv && <small className="note"> · ⚠ {GENDER_NOTE}</small>}
+                  {w.ff && <small className="note"> · ⚠ {falseFriendNote(w.form, w.gloss)}</small>}</span>}
           </li>
         ))}
       </ul>

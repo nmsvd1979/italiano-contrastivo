@@ -48,45 +48,51 @@
         },
         {
           "form": "cena",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la cena",
-          "audio": "62e5582aace0"
+          "audio": "62e5582aace0",
+          "art": "la"
         },
         {
           "form": "cinema",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el cine",
-          "audio": "ef4d54d14e10"
+          "audio": "ef4d54d14e10",
+          "art": "il"
         },
         {
           "form": "gelato",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el helado",
-          "audio": "0d9f0bcac672"
+          "audio": "0d9f0bcac672",
+          "art": "il"
         },
         {
           "form": "giorno",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el día",
-          "audio": "228720481575"
+          "audio": "228720481575",
+          "art": "il"
         },
         {
           "form": "gente",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la gente",
-          "audio": "b52e0a7a806e"
+          "audio": "b52e0a7a806e",
+          "art": "la"
         },
         {
           "form": "città",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la ciudad",
-          "audio": "bbabb14b7498"
+          "audio": "bbabb14b7498",
+          "art": "la"
         },
         {
           "form": "che",
@@ -104,10 +110,11 @@
         },
         {
           "form": "chiave",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la llave",
-          "audio": "22b15892f8d7"
+          "audio": "22b15892f8d7",
+          "art": "la"
         },
         {
           "form": "perché",
@@ -118,17 +125,19 @@
         },
         {
           "form": "ghiaccio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el hielo",
-          "audio": "7c7a7d9f519c"
+          "audio": "7c7a7d9f519c",
+          "art": "il"
         },
         {
           "form": "spaghetti",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "p",
           "gloss": "los espaguetis",
-          "audio": "2acfa5d173e1"
+          "audio": "2acfa5d173e1",
+          "art": "gli"
         },
         {
           "form": "anche",
@@ -139,15 +148,16 @@
         },
         {
           "form": "amici",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "p",
           "gloss": "los amigos",
-          "audio": "dc1862e1b22b"
+          "audio": "dc1862e1b22b",
+          "art": "gli"
         },
         {
           "form": "giugno",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "junio",
           "audio": "2f0e24ac04af"
         }
@@ -282,101 +292,115 @@
       "words": [
         {
           "form": "scena",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la escena",
-          "audio": "6f6012b7f928"
+          "audio": "6f6012b7f928",
+          "art": "la"
         },
         {
           "form": "scienza",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la ciencia",
-          "audio": "db06fbc3b240"
+          "audio": "db06fbc3b240",
+          "art": "la"
         },
         {
           "form": "pesce",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el pescado",
-          "audio": "6fbec0ade2ec"
+          "audio": "6fbec0ade2ec",
+          "art": "il"
         },
         {
           "form": "sci",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el esquí",
-          "audio": "d39590e8cade"
+          "audio": "d39590e8cade",
+          "art": "lo"
         },
         {
           "form": "scuola",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la escuela",
-          "audio": "3486c0109a14"
+          "audio": "3486c0109a14",
+          "art": "la"
         },
         {
           "form": "schiena",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la espalda",
-          "audio": "889eefa3019f"
+          "audio": "889eefa3019f",
+          "art": "la"
         },
         {
           "form": "schema",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el esquema",
-          "audio": "fe7042cb74a5"
+          "audio": "fe7042cb74a5",
+          "art": "lo"
         },
         {
           "form": "schermo",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "la pantalla",
-          "audio": "569e1ab2ef32"
+          "audio": "569e1ab2ef32",
+          "art": "lo"
         },
         {
           "form": "fascia",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la banda",
-          "audio": "de9a1d2c4207"
+          "audio": "de9a1d2c4207",
+          "art": "la"
         },
         {
           "form": "scimmia",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "el mono",
-          "audio": "5892ced43a66"
+          "audio": "5892ced43a66",
+          "art": "la"
         },
         {
           "form": "sciopero",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "la huelga",
-          "audio": "b45f8044bd34"
+          "audio": "b45f8044bd34",
+          "art": "lo"
         },
         {
           "form": "scherzo",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "la broma",
-          "audio": "1ba8e46ba36c"
+          "audio": "1ba8e46ba36c",
+          "art": "lo"
         },
         {
           "form": "pesche",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "p",
           "gloss": "los duraznos",
-          "audio": "046b47044471"
+          "audio": "046b47044471",
+          "art": "le"
         },
         {
           "form": "scarpa",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "el zapato",
-          "audio": "bff69c754da8"
+          "audio": "bff69c754da8",
+          "art": "la"
         },
         {
           "form": "sciocco",
@@ -480,24 +504,27 @@
       "words": [
         {
           "form": "figlio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el hijo",
-          "audio": "bac653e17fbe"
+          "audio": "bac653e17fbe",
+          "art": "il"
         },
         {
           "form": "famiglia",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la familia",
-          "audio": "9162fe5d6278"
+          "audio": "9162fe5d6278",
+          "art": "la"
         },
         {
           "form": "moglie",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la esposa",
-          "audio": "e83f6b6b4457"
+          "audio": "e83f6b6b4457",
+          "art": "la"
         },
         {
           "form": "voglio",
@@ -508,17 +535,19 @@
         },
         {
           "form": "foglio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "la hoja de papel",
-          "audio": "a762370637b1"
+          "audio": "a762370637b1",
+          "art": "il"
         },
         {
           "form": "aglio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el ajo",
-          "audio": "ab50b3f471fb"
+          "audio": "ab50b3f471fb",
+          "art": "l'"
         },
         {
           "form": "meglio",
@@ -529,59 +558,66 @@
         },
         {
           "form": "tovaglia",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "el mantel",
-          "audio": "2ed0911662f5"
+          "audio": "2ed0911662f5",
+          "art": "la"
         },
         {
           "form": "sbaglio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el error",
-          "audio": "a8d0ea4d294f"
+          "audio": "a8d0ea4d294f",
+          "art": "lo"
         },
         {
           "form": "luglio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "julio",
           "audio": "b72b545014b3"
         },
         {
           "form": "figlia",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la hija",
-          "audio": "dd87a0b183ea"
+          "audio": "dd87a0b183ea",
+          "art": "la"
         },
         {
           "form": "bottiglia",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la botella",
-          "audio": "da3da60b4379"
+          "audio": "da3da60b4379",
+          "art": "la"
         },
         {
           "form": "paglia",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la paja",
-          "audio": "6bd1cf526996"
+          "audio": "6bd1cf526996",
+          "art": "la"
         },
         {
           "form": "coniglio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el conejo",
-          "audio": "4a136cc918b2"
+          "audio": "4a136cc918b2",
+          "art": "il"
         },
         {
           "form": "consiglio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el consejo",
-          "audio": "6171c87de8de"
+          "audio": "6171c87de8de",
+          "art": "il"
         }
       ],
       "status": "active",
@@ -682,31 +718,35 @@
       "words": [
         {
           "form": "gnocchi",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "p",
           "gloss": "los ñoquis",
-          "audio": "943c80744f8b"
+          "audio": "943c80744f8b",
+          "art": "gli"
         },
         {
           "form": "lasagne",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "p",
           "gloss": "las lasañas",
-          "audio": "7d48c5efcc20"
+          "audio": "7d48c5efcc20",
+          "art": "le"
         },
         {
           "form": "bagno",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el baño",
-          "audio": "3d35ceeafd25"
+          "audio": "3d35ceeafd25",
+          "art": "il"
         },
         {
           "form": "signora",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la señora",
-          "audio": "0623f9369249"
+          "audio": "0623f9369249",
+          "art": "la"
         },
         {
           "form": "ogni",
@@ -724,10 +764,11 @@
         },
         {
           "form": "pizza",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la pizza",
-          "audio": "1f6ccd2be75f"
+          "audio": "1f6ccd2be75f",
+          "art": "la"
         },
         {
           "form": "grazie",
@@ -738,45 +779,51 @@
         },
         {
           "form": "zio",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el tío",
-          "audio": "c62e58500094"
+          "audio": "c62e58500094",
+          "art": "lo"
         },
         {
           "form": "zucchero",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el azúcar",
-          "audio": "962ff646e3a0"
+          "audio": "962ff646e3a0",
+          "art": "lo"
         },
         {
           "form": "nazione",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la nación",
-          "audio": "50a2008fd882"
+          "audio": "50a2008fd882",
+          "art": "la"
         },
         {
           "form": "stazione",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la estación",
-          "audio": "83a64c73a666"
+          "audio": "83a64c73a666",
+          "art": "la"
         },
         {
           "form": "pazienza",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la paciencia",
-          "audio": "41b111e71c0c"
+          "audio": "41b111e71c0c",
+          "art": "la"
         },
         {
           "form": "ragazzo",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el chico",
-          "audio": "e4a17010b05a"
+          "audio": "e4a17010b05a",
+          "art": "il"
         },
         {
           "form": "spagnolo",
@@ -787,10 +834,11 @@
         },
         {
           "form": "montagna",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la montaña",
-          "audio": "2af00479029a"
+          "audio": "2af00479029a",
+          "art": "la"
         }
       ],
       "status": "active",
@@ -917,10 +965,11 @@
       "words": [
         {
           "form": "fato",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el destino",
-          "audio": "c4dc7117a29f"
+          "audio": "c4dc7117a29f",
+          "art": "il"
         },
         {
           "form": "fatto",
@@ -931,10 +980,11 @@
         },
         {
           "form": "sete",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la sed",
-          "audio": "0f961cd8aca6"
+          "audio": "0f961cd8aca6",
+          "art": "la"
         },
         {
           "form": "sette",
@@ -945,17 +995,19 @@
         },
         {
           "form": "pala",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la pala",
-          "audio": "95213d57ff5c"
+          "audio": "95213d57ff5c",
+          "art": "la"
         },
         {
           "form": "palla",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la pelota",
-          "audio": "4d90834b94d5"
+          "audio": "4d90834b94d5",
+          "art": "la"
         },
         {
           "form": "caro",
@@ -966,24 +1018,27 @@
         },
         {
           "form": "carro",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el carro",
-          "audio": "3959fc6166e0"
+          "audio": "3959fc6166e0",
+          "art": "il"
         },
         {
           "form": "pena",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la pena",
-          "audio": "b96ab516bf07"
+          "audio": "b96ab516bf07",
+          "art": "la"
         },
         {
           "form": "penna",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "el bolígrafo",
-          "audio": "87a98fc469e6"
+          "audio": "87a98fc469e6",
+          "art": "la"
         },
         {
           "form": "nono",
@@ -994,17 +1049,19 @@
         },
         {
           "form": "nonno",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el abuelo",
-          "audio": "d44b27aaa9a8"
+          "audio": "d44b27aaa9a8",
+          "art": "il"
         },
         {
           "form": "mamma",
-          "gender": "x",
-          "num": "x",
+          "gender": "f",
+          "num": "s",
           "gloss": "la mamá",
-          "audio": "916c014031a7"
+          "audio": "916c014031a7",
+          "art": "la"
         },
         {
           "form": "bello",
@@ -1015,10 +1072,11 @@
         },
         {
           "form": "cappello",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "el sombrero",
-          "audio": "ffc8d46bc706"
+          "audio": "ffc8d46bc706",
+          "art": "il"
         },
         {
           "form": "tutto",
@@ -2105,154 +2163,177 @@
           "gender": "m",
           "num": "s",
           "gloss": "el teléfono",
-          "audio": "bc61935add10"
+          "audio": "bc61935add10",
+          "art": "il"
         },
         {
           "form": "cellulare",
           "gender": "m",
           "num": "s",
           "gloss": "el celular",
-          "audio": "48e86bd9945a"
+          "audio": "48e86bd9945a",
+          "art": "il"
         },
         {
           "form": "zaino",
           "gender": "m",
           "num": "s",
           "gloss": "la mochila",
-          "audio": "ef894dadc521"
+          "audio": "ef894dadc521",
+          "art": "lo"
         },
         {
           "form": "matita",
           "gender": "f",
           "num": "s",
           "gloss": "el lápiz",
-          "audio": "bb73a445fa89"
+          "audio": "bb73a445fa89",
+          "art": "la"
         },
         {
           "form": "lettera",
           "gender": "f",
           "num": "s",
           "gloss": "la carta",
-          "audio": "ec08d7188123"
+          "audio": "ec08d7188123",
+          "art": "la"
         },
         {
           "form": "foglio",
           "gender": "m",
           "num": "s",
           "gloss": "la hoja",
-          "audio": "a762370637b1"
+          "audio": "a762370637b1",
+          "art": "il"
         },
         {
           "form": "dizionario",
           "gender": "m",
           "num": "s",
           "gloss": "el diccionario",
-          "audio": "ec84c1c4a6a1"
+          "audio": "ec84c1c4a6a1",
+          "art": "il"
         },
         {
           "form": "scatola",
           "gender": "f",
           "num": "s",
           "gloss": "la caja",
-          "audio": "f99ef09c264b"
+          "audio": "f99ef09c264b",
+          "art": "la"
         },
         {
           "form": "sacchetto",
           "gender": "m",
           "num": "s",
           "gloss": "la bolsa",
-          "audio": "e0e0c0e5fa9c"
+          "audio": "e0e0c0e5fa9c",
+          "art": "il"
         },
         {
           "form": "borsetta",
           "gender": "f",
           "num": "s",
           "gloss": "la cartera pequeña",
-          "audio": "53ced6f7dc38"
+          "audio": "53ced6f7dc38",
+          "art": "la"
         },
         {
           "form": "regalo",
           "gender": "m",
           "num": "s",
           "gloss": "el regalo",
-          "audio": "721e8c821c6d"
+          "audio": "721e8c821c6d",
+          "art": "il"
         },
         {
           "form": "giocattolo",
           "gender": "m",
           "num": "s",
           "gloss": "el juguete",
-          "audio": "d284344fddef"
+          "audio": "d284344fddef",
+          "art": "il"
         },
         {
           "form": "bambola",
           "gender": "f",
           "num": "s",
           "gloss": "la muñeca",
-          "audio": "397fd273942a"
+          "audio": "397fd273942a",
+          "art": "la"
         },
         {
           "form": "palla",
           "gender": "f",
           "num": "s",
           "gloss": "la pelota",
-          "audio": "4d90834b94d5"
+          "audio": "4d90834b94d5",
+          "art": "la"
         },
         {
           "form": "coperta",
           "gender": "f",
           "num": "s",
           "gloss": "la frazada",
-          "audio": "2fde4c431635"
+          "audio": "2fde4c431635",
+          "art": "la"
         },
         {
           "form": "cuscino",
           "gender": "m",
           "num": "s",
           "gloss": "la almohada",
-          "audio": "c345989e7eb5"
+          "audio": "c345989e7eb5",
+          "art": "il"
         },
         {
           "form": "quadro",
           "gender": "m",
           "num": "s",
           "gloss": "el cuadro",
-          "audio": "d5d5d8e18908"
+          "audio": "d5d5d8e18908",
+          "art": "il"
         },
         {
           "form": "fiore",
           "gender": "m",
           "num": "s",
           "gloss": "la flor",
-          "audio": "fade4412edf6"
+          "audio": "fade4412edf6",
+          "art": "il",
+          "gdiv": true
         },
         {
           "form": "albero",
           "gender": "m",
           "num": "s",
           "gloss": "el árbol",
-          "audio": "0389de785faf"
+          "audio": "0389de785faf",
+          "art": "l'"
         },
         {
           "form": "candela",
           "gender": "f",
           "num": "s",
           "gloss": "la vela",
-          "audio": "a6a6f5b16ba5"
+          "audio": "a6a6f5b16ba5",
+          "art": "la"
         },
         {
           "form": "foto",
           "gender": "f",
           "num": "s",
           "gloss": "la foto",
-          "audio": "0eb57679c414"
+          "audio": "0eb57679c414",
+          "art": "la"
         },
         {
           "form": "tappeto",
           "gender": "m",
           "num": "s",
           "gloss": "la alfombra",
-          "audio": "f08c4f6ec3ff"
+          "audio": "f08c4f6ec3ff",
+          "art": "il"
         }
       ],
       "status": "active",
@@ -2899,14 +2980,16 @@
           "gender": "m",
           "num": "s",
           "gloss": "el color",
-          "audio": "4fd52272a159"
+          "audio": "4fd52272a159",
+          "art": "il"
         },
         {
           "form": "colori",
           "gender": "m",
           "num": "p",
           "gloss": "los colores",
-          "audio": "770c7a2b522a"
+          "audio": "770c7a2b522a",
+          "art": "i"
         }
       ],
       "status": "active",
@@ -3465,189 +3548,216 @@
           "gender": "f",
           "num": "s",
           "gloss": "la madre",
-          "audio": "10c4070b4a87"
+          "audio": "10c4070b4a87",
+          "art": "la"
         },
         {
           "form": "padre",
           "gender": "m",
           "num": "s",
           "gloss": "el padre",
-          "audio": "05d4ac9a1600"
+          "audio": "05d4ac9a1600",
+          "art": "il"
         },
         {
           "form": "fratello",
           "gender": "m",
           "num": "s",
           "gloss": "el hermano",
-          "audio": "2662c1d24455"
+          "audio": "2662c1d24455",
+          "art": "il"
         },
         {
           "form": "sorella",
           "gender": "f",
           "num": "s",
           "gloss": "la hermana",
-          "audio": "4c36b488f181"
+          "audio": "4c36b488f181",
+          "art": "la"
         },
         {
           "form": "figlio",
           "gender": "m",
           "num": "s",
           "gloss": "el hijo",
-          "audio": "bac653e17fbe"
+          "audio": "bac653e17fbe",
+          "art": "il"
         },
         {
           "form": "figlia",
           "gender": "f",
           "num": "s",
           "gloss": "la hija",
-          "audio": "dd87a0b183ea"
+          "audio": "dd87a0b183ea",
+          "art": "la"
         },
         {
           "form": "nonno",
           "gender": "m",
           "num": "s",
           "gloss": "el abuelo",
-          "audio": "d44b27aaa9a8"
+          "audio": "d44b27aaa9a8",
+          "art": "il"
         },
         {
           "form": "nonna",
           "gender": "f",
           "num": "s",
           "gloss": "la abuela",
-          "audio": "6b0285751e44"
+          "audio": "6b0285751e44",
+          "art": "la"
         },
         {
           "form": "zio",
           "gender": "m",
           "num": "s",
           "gloss": "el tío",
-          "audio": "c62e58500094"
+          "audio": "c62e58500094",
+          "art": "lo"
         },
         {
           "form": "zia",
           "gender": "f",
           "num": "s",
           "gloss": "la tía",
-          "audio": "4e03a774654d"
+          "audio": "4e03a774654d",
+          "art": "la"
         },
         {
           "form": "marito",
           "gender": "m",
           "num": "s",
           "gloss": "el marido",
-          "audio": "cc774053e221"
+          "audio": "cc774053e221",
+          "art": "il"
         },
         {
           "form": "moglie",
           "gender": "f",
           "num": "s",
           "gloss": "la esposa",
-          "audio": "e83f6b6b4457"
+          "audio": "e83f6b6b4457",
+          "art": "la"
         },
         {
           "form": "cugino",
           "gender": "m",
           "num": "s",
           "gloss": "el primo",
-          "audio": "7b5e9e4d22cf"
+          "audio": "7b5e9e4d22cf",
+          "art": "il"
         },
         {
           "form": "cugina",
           "gender": "f",
           "num": "s",
           "gloss": "la prima",
-          "audio": "2d747174f589"
+          "audio": "2d747174f589",
+          "art": "la"
         },
         {
           "form": "bambino",
           "gender": "m",
           "num": "s",
           "gloss": "el niño",
-          "audio": "94e1753d60b3"
+          "audio": "94e1753d60b3",
+          "art": "il"
         },
         {
           "form": "bambina",
           "gender": "f",
           "num": "s",
           "gloss": "la niña",
-          "audio": "e7284fe35f32"
+          "audio": "e7284fe35f32",
+          "art": "la"
         },
         {
           "form": "ragazzo",
           "gender": "m",
           "num": "s",
           "gloss": "el chico",
-          "audio": "e4a17010b05a"
+          "audio": "e4a17010b05a",
+          "art": "il"
         },
         {
           "form": "ragazza",
           "gender": "f",
           "num": "s",
           "gloss": "la chica",
-          "audio": "3589c02318dd"
+          "audio": "3589c02318dd",
+          "art": "la"
         },
         {
           "form": "amico",
           "gender": "m",
           "num": "s",
           "gloss": "el amigo",
-          "audio": "b397a3769a83"
+          "audio": "b397a3769a83",
+          "art": "l'"
         },
         {
           "form": "amica",
           "gender": "f",
           "num": "s",
           "gloss": "la amiga",
-          "audio": "fc70e0b10d47"
+          "audio": "fc70e0b10d47",
+          "art": "l'"
         },
         {
           "form": "amici",
           "gender": "m",
           "num": "p",
           "gloss": "los amigos",
-          "audio": "dc1862e1b22b"
+          "audio": "dc1862e1b22b",
+          "art": "gli"
         },
         {
           "form": "figli",
           "gender": "m",
           "num": "p",
           "gloss": "los hijos",
-          "audio": "118ade9dff51"
+          "audio": "118ade9dff51",
+          "art": "i"
         },
         {
           "form": "fratelli",
           "gender": "m",
           "num": "p",
           "gloss": "los hermanos",
-          "audio": "ee4a4cbce741"
+          "audio": "ee4a4cbce741",
+          "art": "i"
         },
         {
           "form": "genitori",
           "gender": "m",
           "num": "p",
           "gloss": "los padres (madre y padre)",
-          "audio": "440a8545b16d"
+          "audio": "440a8545b16d",
+          "art": "i"
         },
         {
           "form": "famiglia",
           "gender": "f",
           "num": "s",
           "gloss": "la familia",
-          "audio": "9162fe5d6278"
+          "audio": "9162fe5d6278",
+          "art": "la"
         },
         {
           "form": "uomo",
           "gender": "m",
           "num": "s",
           "gloss": "el hombre",
-          "audio": "5627a33f3bef"
+          "audio": "5627a33f3bef",
+          "art": "l'"
         },
         {
           "form": "donna",
           "gender": "f",
           "num": "s",
           "gloss": "la mujer",
-          "audio": "db218f600453"
+          "audio": "db218f600453",
+          "art": "la"
         }
       ],
       "status": "active",
@@ -4833,161 +4943,185 @@
           "gender": "m",
           "num": "s",
           "gloss": "el fútbol",
-          "audio": "11b77325b222"
+          "audio": "11b77325b222",
+          "art": "il"
         },
         {
           "form": "tennis",
           "gender": "m",
           "num": "s",
           "gloss": "el tenis",
-          "audio": "9c881bdb6bc9"
+          "audio": "9c881bdb6bc9",
+          "art": "il"
         },
         {
           "form": "partita",
           "gender": "f",
           "num": "s",
           "gloss": "el partido",
-          "audio": "e4453e40f907"
+          "audio": "e4453e40f907",
+          "art": "la",
+          "gdiv": true
         },
         {
           "form": "squadra",
           "gender": "f",
           "num": "s",
           "gloss": "el equipo",
-          "audio": "4149cb8ad976"
+          "audio": "4149cb8ad976",
+          "art": "la"
         },
         {
           "form": "musica",
           "gender": "f",
           "num": "s",
           "gloss": "la música",
-          "audio": "ea425b7fc146"
+          "audio": "ea425b7fc146",
+          "art": "la"
         },
         {
           "form": "film",
           "gender": "m",
           "num": "s",
           "gloss": "la película",
-          "audio": "ad363a93848b"
+          "audio": "ad363a93848b",
+          "art": "il"
         },
         {
           "form": "canzone",
           "gender": "f",
           "num": "s",
           "gloss": "la canción",
-          "audio": "c0cad84edf01"
+          "audio": "c0cad84edf01",
+          "art": "la"
         },
         {
           "form": "passeggiata",
           "gender": "f",
           "num": "s",
           "gloss": "el paseo",
-          "audio": "cbb1fd07ccf1"
+          "audio": "cbb1fd07ccf1",
+          "art": "la"
         },
         {
           "form": "vacanze",
           "gender": "f",
           "num": "p",
           "gloss": "las vacaciones",
-          "audio": "2b0b1a4e7904"
+          "audio": "2b0b1a4e7904",
+          "art": "le"
         },
         {
           "form": "festa",
           "gender": "f",
           "num": "s",
           "gloss": "la fiesta",
-          "audio": "00c42ebe0aab"
+          "audio": "00c42ebe0aab",
+          "art": "la"
         },
         {
           "form": "concerto",
           "gender": "m",
           "num": "s",
           "gloss": "el concierto",
-          "audio": "26b7eb0d481f"
+          "audio": "26b7eb0d481f",
+          "art": "il"
         },
         {
           "form": "pallone",
           "gender": "m",
           "num": "s",
           "gloss": "el balón",
-          "audio": "b48ed6f64fb1"
+          "audio": "b48ed6f64fb1",
+          "art": "il"
         },
         {
           "form": "sport",
           "gender": "m",
           "num": "s",
           "gloss": "el deporte",
-          "audio": "8ab6a8a0cf06"
+          "audio": "8ab6a8a0cf06",
+          "art": "lo"
         },
         {
           "form": "stadio",
           "gender": "m",
           "num": "s",
           "gloss": "el estadio",
-          "audio": "ddbe75e07d5b"
+          "audio": "ddbe75e07d5b",
+          "art": "lo"
         },
         {
           "form": "sci",
           "gender": "m",
           "num": "s",
           "gloss": "el esquí",
-          "audio": "d39590e8cade"
+          "audio": "d39590e8cade",
+          "art": "lo"
         },
         {
           "form": "ciclismo",
           "gender": "m",
           "num": "s",
           "gloss": "el ciclismo",
-          "audio": "a66e4087a52a"
+          "audio": "a66e4087a52a",
+          "art": "il"
         },
         {
           "form": "hobby",
           "gender": "m",
           "num": "s",
           "gloss": "el pasatiempo",
-          "audio": "54b7e849c6d2"
+          "audio": "54b7e849c6d2",
+          "art": "l'"
         },
         {
           "form": "giornale",
           "gender": "m",
           "num": "s",
           "gloss": "el diario",
-          "audio": "acd0a761ddef"
+          "audio": "acd0a761ddef",
+          "art": "il"
         },
         {
           "form": "rivista",
           "gender": "f",
           "num": "s",
           "gloss": "la revista",
-          "audio": "6a44be50e12a"
+          "audio": "6a44be50e12a",
+          "art": "la"
         },
         {
           "form": "fotografia",
           "gender": "f",
           "num": "s",
           "gloss": "la fotografía",
-          "audio": "b013004fe1f6"
+          "audio": "b013004fe1f6",
+          "art": "la"
         },
         {
           "form": "pittura",
           "gender": "f",
           "num": "s",
           "gloss": "la pintura",
-          "audio": "7d41c5685e7d"
+          "audio": "7d41c5685e7d",
+          "art": "la"
         },
         {
           "form": "chitarra",
           "gender": "f",
           "num": "s",
           "gloss": "la guitarra",
-          "audio": "34492d9d31c8"
+          "audio": "34492d9d31c8",
+          "art": "la"
         },
         {
           "form": "pianoforte",
           "gender": "m",
           "num": "s",
           "gloss": "el piano",
-          "audio": "76e5ff7c3beb"
+          "audio": "76e5ff7c3beb",
+          "art": "il"
         }
       ],
       "status": "active",
@@ -5091,168 +5225,193 @@
           "gender": "m",
           "num": "s",
           "gloss": "el día",
-          "audio": "228720481575"
+          "audio": "228720481575",
+          "art": "il"
         },
         {
           "form": "notte",
           "gender": "f",
           "num": "s",
           "gloss": "la noche",
-          "audio": "0b75eee73228"
+          "audio": "0b75eee73228",
+          "art": "la"
         },
         {
           "form": "mattina",
           "gender": "f",
           "num": "s",
           "gloss": "la mañana",
-          "audio": "1253cf7ec370"
+          "audio": "1253cf7ec370",
+          "art": "la"
         },
         {
           "form": "pomeriggio",
           "gender": "m",
           "num": "s",
           "gloss": "la tarde",
-          "audio": "2a7199b2c86c"
+          "audio": "2a7199b2c86c",
+          "art": "il"
         },
         {
           "form": "settimana",
           "gender": "f",
           "num": "s",
           "gloss": "la semana",
-          "audio": "c43d14bbae31"
+          "audio": "c43d14bbae31",
+          "art": "la"
         },
         {
           "form": "mese",
           "gender": "m",
           "num": "s",
           "gloss": "el mes",
-          "audio": "e9a5e3570ea5"
+          "audio": "e9a5e3570ea5",
+          "art": "il"
         },
         {
           "form": "anno",
           "gender": "m",
           "num": "s",
           "gloss": "el año",
-          "audio": "612d88a14777"
+          "audio": "612d88a14777",
+          "art": "l'"
         },
         {
           "form": "minuto",
           "gender": "m",
           "num": "s",
           "gloss": "el minuto",
-          "audio": "e53435e667fd"
+          "audio": "e53435e667fd",
+          "art": "il"
         },
         {
           "form": "lunedì",
           "gender": "m",
           "num": "s",
           "gloss": "el lunes",
-          "audio": "4d77d721fa6b"
+          "audio": "4d77d721fa6b",
+          "art": "il"
         },
         {
           "form": "martedì",
           "gender": "m",
           "num": "s",
           "gloss": "el martes",
-          "audio": "812f2df34cd9"
+          "audio": "812f2df34cd9",
+          "art": "il"
         },
         {
           "form": "mercoledì",
           "gender": "m",
           "num": "s",
           "gloss": "el miércoles",
-          "audio": "c7777f0daa3d"
+          "audio": "c7777f0daa3d",
+          "art": "il"
         },
         {
           "form": "giovedì",
           "gender": "m",
           "num": "s",
           "gloss": "el jueves",
-          "audio": "54294341f3f8"
+          "audio": "54294341f3f8",
+          "art": "il"
         },
         {
           "form": "venerdì",
           "gender": "m",
           "num": "s",
           "gloss": "el viernes",
-          "audio": "60751b6dc8e1"
+          "audio": "60751b6dc8e1",
+          "art": "il"
         },
         {
           "form": "sabato",
           "gender": "m",
           "num": "s",
           "gloss": "el sábado",
-          "audio": "795cbb3993ff"
+          "audio": "795cbb3993ff",
+          "art": "il"
         },
         {
           "form": "domenica",
           "gender": "f",
           "num": "s",
           "gloss": "el domingo",
-          "audio": "f04037881cc6"
+          "audio": "f04037881cc6",
+          "art": "la",
+          "gdiv": true
         },
         {
           "form": "estate",
           "gender": "f",
           "num": "s",
           "gloss": "el verano",
-          "audio": "2528fc8471df"
+          "audio": "2528fc8471df",
+          "art": "l'"
         },
         {
           "form": "inverno",
           "gender": "m",
           "num": "s",
           "gloss": "el invierno",
-          "audio": "64c69683dab0"
+          "audio": "64c69683dab0",
+          "art": "l'"
         },
         {
           "form": "primavera",
           "gender": "f",
           "num": "s",
           "gloss": "la primavera",
-          "audio": "611faee26e6c"
+          "audio": "611faee26e6c",
+          "art": "la"
         },
         {
           "form": "autunno",
           "gender": "m",
           "num": "s",
           "gloss": "el otoño",
-          "audio": "1f796933450a"
+          "audio": "1f796933450a",
+          "art": "l'"
         },
         {
           "form": "giorni",
           "gender": "m",
           "num": "p",
           "gloss": "los días",
-          "audio": "aacd348c9b1f"
+          "audio": "aacd348c9b1f",
+          "art": "i"
         },
         {
           "form": "anni",
           "gender": "m",
           "num": "p",
           "gloss": "los años",
-          "audio": "bf26aacd34d9"
+          "audio": "bf26aacd34d9",
+          "art": "gli"
         },
         {
           "form": "mesi",
           "gender": "m",
           "num": "p",
           "gloss": "los meses",
-          "audio": "2c82af1734c2"
+          "audio": "2c82af1734c2",
+          "art": "i"
         },
         {
           "form": "ore",
           "gender": "f",
           "num": "p",
           "gloss": "las horas",
-          "audio": "e185d5eeb9b0"
+          "audio": "e185d5eeb9b0",
+          "art": "le"
         },
         {
           "form": "settimane",
           "gender": "f",
           "num": "p",
           "gloss": "las semanas",
-          "audio": "1e651482336d"
+          "audio": "1e651482336d",
+          "art": "le"
         }
       ],
       "status": "active",
@@ -5796,182 +5955,208 @@
           "gender": "f",
           "num": "s",
           "gloss": "la casa",
-          "audio": "81bce1f3bf34"
+          "audio": "81bce1f3bf34",
+          "art": "la"
         },
         {
           "form": "stanza",
           "gender": "f",
           "num": "s",
           "gloss": "la habitación",
-          "audio": "627251699e05"
+          "audio": "627251699e05",
+          "art": "la"
         },
         {
           "form": "cucina",
           "gender": "f",
           "num": "s",
           "gloss": "la cocina",
-          "audio": "9fbf0a1990ac"
+          "audio": "9fbf0a1990ac",
+          "art": "la"
         },
         {
           "form": "camera",
           "gender": "f",
           "num": "s",
           "gloss": "el dormitorio",
-          "audio": "251e382f7635"
+          "audio": "251e382f7635",
+          "art": "la"
         },
         {
           "form": "bagno",
           "gender": "m",
           "num": "s",
           "gloss": "el baño",
-          "audio": "3d35ceeafd25"
+          "audio": "3d35ceeafd25",
+          "art": "il"
         },
         {
           "form": "porta",
           "gender": "f",
           "num": "s",
           "gloss": "la puerta",
-          "audio": "9fa417beea6d"
+          "audio": "9fa417beea6d",
+          "art": "la"
         },
         {
           "form": "finestra",
           "gender": "f",
           "num": "s",
           "gloss": "la ventana",
-          "audio": "5c170de4849f"
+          "audio": "5c170de4849f",
+          "art": "la"
         },
         {
           "form": "tavolo",
           "gender": "m",
           "num": "s",
           "gloss": "la mesa",
-          "audio": "cb38c875e526"
+          "audio": "cb38c875e526",
+          "art": "il"
         },
         {
           "form": "sedia",
           "gender": "f",
           "num": "s",
           "gloss": "la silla",
-          "audio": "ef7113fbe7eb"
+          "audio": "ef7113fbe7eb",
+          "art": "la"
         },
         {
           "form": "giardino",
           "gender": "m",
           "num": "s",
           "gloss": "el jardín",
-          "audio": "41edc662da63"
+          "audio": "41edc662da63",
+          "art": "il"
         },
         {
           "form": "tetto",
           "gender": "m",
           "num": "s",
           "gloss": "el tejado",
-          "audio": "b7f798123771"
+          "audio": "b7f798123771",
+          "art": "il"
         },
         {
           "form": "parete",
           "gender": "f",
           "num": "s",
           "gloss": "la pared",
-          "audio": "859221d4b68c"
+          "audio": "859221d4b68c",
+          "art": "la"
         },
         {
           "form": "appartamento",
           "gender": "m",
           "num": "s",
           "gloss": "el apartamento",
-          "audio": "54ad9f67399f"
+          "audio": "54ad9f67399f",
+          "art": "l'"
         },
         {
           "form": "lampada",
           "gender": "f",
           "num": "s",
           "gloss": "la lámpara",
-          "audio": "8dd0c695bce3"
+          "audio": "8dd0c695bce3",
+          "art": "la"
         },
         {
           "form": "divano",
           "gender": "m",
           "num": "s",
           "gloss": "el sofá",
-          "audio": "4dc337d549bf"
+          "audio": "4dc337d549bf",
+          "art": "il"
         },
         {
           "form": "armadio",
           "gender": "m",
           "num": "s",
           "gloss": "el armario",
-          "audio": "baf98f2f5810"
+          "audio": "baf98f2f5810",
+          "art": "l'"
         },
         {
           "form": "specchio",
           "gender": "m",
           "num": "s",
           "gloss": "el espejo",
-          "audio": "1da59fbea9de"
+          "audio": "1da59fbea9de",
+          "art": "lo"
         },
         {
           "form": "chiave",
           "gender": "f",
           "num": "s",
           "gloss": "la llave",
-          "audio": "22b15892f8d7"
+          "audio": "22b15892f8d7",
+          "art": "la"
         },
         {
           "form": "televisione",
           "gender": "f",
           "num": "s",
           "gloss": "la televisión",
-          "audio": "335f9592cfe8"
+          "audio": "335f9592cfe8",
+          "art": "la"
         },
         {
           "form": "balcone",
           "gender": "m",
           "num": "s",
           "gloss": "el balcón",
-          "audio": "31097eb5b253"
+          "audio": "31097eb5b253",
+          "art": "il"
         },
         {
           "form": "cortile",
           "gender": "m",
           "num": "s",
           "gloss": "el patio",
-          "audio": "3483dcbffca9"
+          "audio": "3483dcbffca9",
+          "art": "il"
         },
         {
           "form": "piatto",
           "gender": "m",
           "num": "s",
           "gloss": "el plato",
-          "audio": "8d54101390a7"
+          "audio": "8d54101390a7",
+          "art": "il"
         },
         {
           "form": "bicchiere",
           "gender": "m",
           "num": "s",
           "gloss": "el vaso",
-          "audio": "4f4b5308f6a7"
+          "audio": "4f4b5308f6a7",
+          "art": "il"
         },
         {
           "form": "bottiglia",
           "gender": "f",
           "num": "s",
           "gloss": "la botella",
-          "audio": "da3da60b4379"
+          "audio": "da3da60b4379",
+          "art": "la"
         },
         {
           "form": "coltello",
           "gender": "m",
           "num": "s",
           "gloss": "el cuchillo",
-          "audio": "9717c1f4703c"
+          "audio": "9717c1f4703c",
+          "art": "il"
         },
         {
           "form": "forchetta",
           "gender": "f",
           "num": "s",
           "gloss": "el tenedor",
-          "audio": "440a2111e590"
+          "audio": "440a2111e590",
+          "art": "la"
         }
       ],
       "status": "active",
@@ -6172,203 +6357,233 @@
           "gender": "f",
           "num": "s",
           "gloss": "la ciudad",
-          "audio": "bbabb14b7498"
+          "audio": "bbabb14b7498",
+          "art": "la"
         },
         {
           "form": "strada",
           "gender": "f",
           "num": "s",
           "gloss": "la calle",
-          "audio": "697075ae77df"
+          "audio": "697075ae77df",
+          "art": "la"
         },
         {
           "form": "piazza",
           "gender": "f",
           "num": "s",
           "gloss": "la plaza",
-          "audio": "53f6c379be5d"
+          "audio": "53f6c379be5d",
+          "art": "la"
         },
         {
           "form": "chiesa",
           "gender": "f",
           "num": "s",
           "gloss": "la iglesia",
-          "audio": "a3a0a96bd2a1"
+          "audio": "a3a0a96bd2a1",
+          "art": "la"
         },
         {
           "form": "scuola",
           "gender": "f",
           "num": "s",
           "gloss": "la escuela",
-          "audio": "3486c0109a14"
+          "audio": "3486c0109a14",
+          "art": "la"
         },
         {
           "form": "ospedale",
           "gender": "m",
           "num": "s",
           "gloss": "el hospital",
-          "audio": "3baa35787113"
+          "audio": "3baa35787113",
+          "art": "l'"
         },
         {
           "form": "banca",
           "gender": "f",
           "num": "s",
           "gloss": "el banco",
-          "audio": "1ed6f1a1e8f6"
+          "audio": "1ed6f1a1e8f6",
+          "art": "la",
+          "gdiv": true
         },
         {
           "form": "ristorante",
           "gender": "m",
           "num": "s",
           "gloss": "el restaurante",
-          "audio": "aa57dd99c0e9"
+          "audio": "aa57dd99c0e9",
+          "art": "il"
         },
         {
           "form": "negozio",
           "gender": "m",
           "num": "s",
           "gloss": "la tienda",
-          "audio": "fe8903725c2c"
+          "audio": "fe8903725c2c",
+          "art": "il"
         },
         {
           "form": "museo",
           "gender": "m",
           "num": "s",
           "gloss": "el museo",
-          "audio": "f62af2d0bf91"
+          "audio": "f62af2d0bf91",
+          "art": "il"
         },
         {
           "form": "stazione",
           "gender": "f",
           "num": "s",
           "gloss": "la estación",
-          "audio": "83a64c73a666"
+          "audio": "83a64c73a666",
+          "art": "la"
         },
         {
           "form": "aeroporto",
           "gender": "m",
           "num": "s",
           "gloss": "el aeropuerto",
-          "audio": "886813d602bf"
+          "audio": "886813d602bf",
+          "art": "l'"
         },
         {
           "form": "ponte",
           "gender": "m",
           "num": "s",
           "gloss": "el puente",
-          "audio": "498d8ebb596e"
+          "audio": "498d8ebb596e",
+          "art": "il"
         },
         {
           "form": "mercato",
           "gender": "m",
           "num": "s",
           "gloss": "el mercado",
-          "audio": "4c1a0ae8fdd3"
+          "audio": "4c1a0ae8fdd3",
+          "art": "il"
         },
         {
           "form": "parco",
           "gender": "m",
           "num": "s",
           "gloss": "el parque",
-          "audio": "9a69c5424a96"
+          "audio": "9a69c5424a96",
+          "art": "il"
         },
         {
           "form": "albergo",
           "gender": "m",
           "num": "s",
           "gloss": "el hotel",
-          "audio": "6c0c33076168"
+          "audio": "6c0c33076168",
+          "art": "l'"
         },
         {
           "form": "cinema",
           "gender": "m",
           "num": "s",
           "gloss": "el cine",
-          "audio": "ef4d54d14e10"
+          "audio": "ef4d54d14e10",
+          "art": "il"
         },
         {
           "form": "teatro",
           "gender": "m",
           "num": "s",
           "gloss": "el teatro",
-          "audio": "930221c8e5c8"
+          "audio": "930221c8e5c8",
+          "art": "il"
         },
         {
           "form": "biblioteca",
           "gender": "f",
           "num": "s",
           "gloss": "la biblioteca",
-          "audio": "973f3077d20b"
+          "audio": "973f3077d20b",
+          "art": "la"
         },
         {
           "form": "quartiere",
           "gender": "m",
           "num": "s",
           "gloss": "el barrio",
-          "audio": "50903a65b614"
+          "audio": "50903a65b614",
+          "art": "il"
         },
         {
           "form": "supermercato",
           "gender": "m",
           "num": "s",
           "gloss": "el supermercado",
-          "audio": "3f78b5f04d72"
+          "audio": "3f78b5f04d72",
+          "art": "il"
         },
         {
           "form": "farmacia",
           "gender": "f",
           "num": "s",
           "gloss": "la farmacia",
-          "audio": "fb430e74e540"
+          "audio": "fb430e74e540",
+          "art": "la"
         },
         {
           "form": "spiaggia",
           "gender": "f",
           "num": "s",
           "gloss": "la playa",
-          "audio": "2922f3209de2"
+          "audio": "2922f3209de2",
+          "art": "la"
         },
         {
           "form": "montagna",
           "gender": "f",
           "num": "s",
           "gloss": "la montaña",
-          "audio": "2af00479029a"
+          "audio": "2af00479029a",
+          "art": "la"
         },
         {
           "form": "mare",
           "gender": "m",
           "num": "s",
           "gloss": "el mar",
-          "audio": "8c14c8aed9f7"
+          "audio": "8c14c8aed9f7",
+          "art": "il"
         },
         {
           "form": "fiume",
           "gender": "m",
           "num": "s",
           "gloss": "el río",
-          "audio": "fb7a5c160b26"
+          "audio": "fb7a5c160b26",
+          "art": "il"
         },
         {
           "form": "lago",
           "gender": "m",
           "num": "s",
           "gloss": "el lago",
-          "audio": "4e68e95b58a8"
+          "audio": "4e68e95b58a8",
+          "art": "il"
         },
         {
           "form": "isola",
           "gender": "f",
           "num": "s",
           "gloss": "la isla",
-          "audio": "c6a6e29191c5"
+          "audio": "c6a6e29191c5",
+          "art": "l'"
         },
         {
           "form": "università",
           "gender": "f",
           "num": "s",
           "gloss": "la universidad",
-          "audio": "93dd788353b5"
+          "audio": "93dd788353b5",
+          "art": "l'"
         }
       ],
       "status": "active",
@@ -6760,14 +6975,16 @@
           "gender": "f",
           "num": "s",
           "gloss": "la derecha",
-          "audio": "c5a1ad5b7e63"
+          "audio": "c5a1ad5b7e63",
+          "art": "la"
         },
         {
           "form": "sinistra",
           "gender": "f",
           "num": "s",
           "gloss": "la izquierda",
-          "audio": "1ce2596b1ee7"
+          "audio": "1ce2596b1ee7",
+          "art": "la"
         },
         {
           "form": "dritto",
@@ -6844,56 +7061,65 @@
           "gender": "m",
           "num": "s",
           "gloss": "la esquina",
-          "audio": "6847407bcfd0"
+          "audio": "6847407bcfd0",
+          "art": "l'"
         },
         {
           "form": "incrocio",
           "gender": "m",
           "num": "s",
           "gloss": "el cruce",
-          "audio": "b6ad27386441"
+          "audio": "b6ad27386441",
+          "art": "l'"
         },
         {
           "form": "nord",
           "gender": "m",
           "num": "s",
           "gloss": "el norte",
-          "audio": "c1e58600b23f"
+          "audio": "c1e58600b23f",
+          "art": "il"
         },
         {
           "form": "sud",
           "gender": "m",
           "num": "s",
           "gloss": "el sur",
-          "audio": "c02d1bfa451b"
+          "audio": "c02d1bfa451b",
+          "art": "il"
         },
         {
           "form": "est",
           "gender": "m",
           "num": "s",
           "gloss": "el este",
-          "audio": "665de1f2775c"
+          "audio": "665de1f2775c",
+          "art": "l'"
         },
         {
           "form": "ovest",
           "gender": "m",
           "num": "s",
           "gloss": "el oeste",
-          "audio": "f2a697c8bc62"
+          "audio": "f2a697c8bc62",
+          "art": "l'"
         },
         {
           "form": "indirizzo",
           "gender": "m",
           "num": "s",
           "gloss": "la dirección (domicilio)",
-          "audio": "47d34ef65f33"
+          "audio": "47d34ef65f33",
+          "art": "l'",
+          "gdiv": true
         },
         {
           "form": "direzione",
           "gender": "f",
           "num": "s",
           "gloss": "la dirección (sentido)",
-          "audio": "f32786fd2263"
+          "audio": "f32786fd2263",
+          "art": "la"
         },
         {
           "form": "qui",
@@ -7029,224 +7255,258 @@
           "gender": "m",
           "num": "s",
           "gloss": "el pan",
-          "audio": "61747d255f4a"
+          "audio": "61747d255f4a",
+          "art": "il"
         },
         {
           "form": "latte",
           "gender": "m",
           "num": "s",
           "gloss": "la leche",
-          "audio": "bd191b34cfc2"
+          "audio": "bd191b34cfc2",
+          "art": "il",
+          "gdiv": true
         },
         {
           "form": "acqua",
           "gender": "f",
           "num": "s",
           "gloss": "el agua",
-          "audio": "11c8629474d4"
+          "audio": "11c8629474d4",
+          "art": "l'"
         },
         {
           "form": "vino",
           "gender": "m",
           "num": "s",
           "gloss": "el vino",
-          "audio": "f0e4876639b7"
+          "audio": "f0e4876639b7",
+          "art": "il"
         },
         {
           "form": "caffè",
           "gender": "m",
           "num": "s",
           "gloss": "el café",
-          "audio": "d575593a480b"
+          "audio": "d575593a480b",
+          "art": "il"
         },
         {
           "form": "mela",
           "gender": "f",
           "num": "s",
           "gloss": "la manzana",
-          "audio": "19eddb45b28b"
+          "audio": "19eddb45b28b",
+          "art": "la"
         },
         {
           "form": "pera",
           "gender": "f",
           "num": "s",
           "gloss": "la pera",
-          "audio": "c9c2708d92b2"
+          "audio": "c9c2708d92b2",
+          "art": "la"
         },
         {
           "form": "pesce",
           "gender": "m",
           "num": "s",
           "gloss": "el pescado",
-          "audio": "6fbec0ade2ec"
+          "audio": "6fbec0ade2ec",
+          "art": "il"
         },
         {
           "form": "carne",
           "gender": "f",
           "num": "s",
           "gloss": "la carne",
-          "audio": "8ecc854e0639"
+          "audio": "8ecc854e0639",
+          "art": "la"
         },
         {
           "form": "pollo",
           "gender": "m",
           "num": "s",
           "gloss": "el pollo",
-          "audio": "0db6b74aff69"
+          "audio": "0db6b74aff69",
+          "art": "il"
         },
         {
           "form": "riso",
           "gender": "m",
           "num": "s",
           "gloss": "el arroz",
-          "audio": "a09584ae0101"
+          "audio": "a09584ae0101",
+          "art": "il"
         },
         {
           "form": "pasta",
           "gender": "f",
           "num": "s",
           "gloss": "la pasta",
-          "audio": "46139b0b16d7"
+          "audio": "46139b0b16d7",
+          "art": "la"
         },
         {
           "form": "formaggio",
           "gender": "m",
           "num": "s",
           "gloss": "el queso",
-          "audio": "bee9ed168227"
+          "audio": "bee9ed168227",
+          "art": "il"
         },
         {
           "form": "uovo",
           "gender": "m",
           "num": "s",
           "gloss": "el huevo",
-          "audio": "35a1cfe66942"
+          "audio": "35a1cfe66942",
+          "art": "l'"
         },
         {
           "form": "frutta",
           "gender": "f",
           "num": "s",
           "gloss": "la fruta",
-          "audio": "04c6186fdb95"
+          "audio": "04c6186fdb95",
+          "art": "la"
         },
         {
           "form": "verdura",
           "gender": "f",
           "num": "s",
           "gloss": "la verdura",
-          "audio": "c63cd472abf9"
+          "audio": "c63cd472abf9",
+          "art": "la"
         },
         {
           "form": "zucchero",
           "gender": "m",
           "num": "s",
           "gloss": "el azúcar",
-          "audio": "962ff646e3a0"
+          "audio": "962ff646e3a0",
+          "art": "lo"
         },
         {
           "form": "birra",
           "gender": "f",
           "num": "s",
           "gloss": "la cerveza",
-          "audio": "71ce98a6e50f"
+          "audio": "71ce98a6e50f",
+          "art": "la"
         },
         {
           "form": "pizza",
           "gender": "f",
           "num": "s",
           "gloss": "la pizza",
-          "audio": "1f6ccd2be75f"
+          "audio": "1f6ccd2be75f",
+          "art": "la"
         },
         {
           "form": "gelato",
           "gender": "m",
           "num": "s",
           "gloss": "el helado",
-          "audio": "0d9f0bcac672"
+          "audio": "0d9f0bcac672",
+          "art": "il"
         },
         {
           "form": "torta",
           "gender": "f",
           "num": "s",
           "gloss": "el pastel",
-          "audio": "85f750f1d8ea"
+          "audio": "85f750f1d8ea",
+          "art": "la"
         },
         {
           "form": "insalata",
           "gender": "f",
           "num": "s",
           "gloss": "la ensalada",
-          "audio": "21902dcf53b6"
+          "audio": "21902dcf53b6",
+          "art": "l'"
         },
         {
           "form": "colazione",
           "gender": "f",
           "num": "s",
           "gloss": "el desayuno",
-          "audio": "cc5eda1b3537"
+          "audio": "cc5eda1b3537",
+          "art": "la"
         },
         {
           "form": "burro",
           "gender": "m",
           "num": "s",
           "gloss": "la mantequilla",
-          "audio": "c6ba45f1b6cc"
+          "audio": "c6ba45f1b6cc",
+          "art": "il",
+          "ff": true
         },
         {
           "form": "zuppa",
           "gender": "f",
           "num": "s",
           "gloss": "la sopa",
-          "audio": "ecb36c7c7415"
+          "audio": "ecb36c7c7415",
+          "art": "la"
         },
         {
           "form": "pomodoro",
           "gender": "m",
           "num": "s",
           "gloss": "el tomate",
-          "audio": "539b31b6587e"
+          "audio": "539b31b6587e",
+          "art": "il"
         },
         {
           "form": "arancia",
           "gender": "f",
           "num": "s",
           "gloss": "la naranja",
-          "audio": "24c5f45cdb83"
+          "audio": "24c5f45cdb83",
+          "art": "l'"
         },
         {
           "form": "limone",
           "gender": "m",
           "num": "s",
           "gloss": "el limón",
-          "audio": "ece77f54eccb"
+          "audio": "ece77f54eccb",
+          "art": "il"
         },
         {
           "form": "olio",
           "gender": "m",
           "num": "s",
           "gloss": "el aceite",
-          "audio": "70249c38a2dc"
+          "audio": "70249c38a2dc",
+          "art": "l'"
         },
         {
           "form": "prosciutto",
           "gender": "m",
           "num": "s",
           "gloss": "el jamón",
-          "audio": "738cb7af8fba"
+          "audio": "738cb7af8fba",
+          "art": "il"
         },
         {
           "form": "biscotto",
           "gender": "m",
           "num": "s",
           "gloss": "la galleta",
-          "audio": "1b11f04d4c98"
+          "audio": "1b11f04d4c98",
+          "art": "il"
         },
         {
           "form": "cioccolato",
           "gender": "m",
           "num": "s",
           "gloss": "el chocolate",
-          "audio": "20e3290a76fd"
+          "audio": "20e3290a76fd",
+          "art": "il"
         }
       ],
       "status": "active",
@@ -7461,147 +7721,169 @@
           "gender": "m",
           "num": "s",
           "gloss": "el menú",
-          "audio": "9f98318de2a1"
+          "audio": "9f98318de2a1",
+          "art": "il"
         },
         {
           "form": "conto",
           "gender": "m",
           "num": "s",
           "gloss": "la cuenta",
-          "audio": "315dae015b17"
+          "audio": "315dae015b17",
+          "art": "il"
         },
         {
           "form": "tazza",
           "gender": "f",
           "num": "s",
           "gloss": "la taza",
-          "audio": "f6933d2ae5e8"
+          "audio": "f6933d2ae5e8",
+          "art": "la"
         },
         {
           "form": "cucchiaio",
           "gender": "m",
           "num": "s",
           "gloss": "la cuchara",
-          "audio": "88fd771a8192"
+          "audio": "88fd771a8192",
+          "art": "il",
+          "gdiv": true
         },
         {
           "form": "tovagliolo",
           "gender": "m",
           "num": "s",
           "gloss": "la servilleta",
-          "audio": "31a9afec9737"
+          "audio": "31a9afec9737",
+          "art": "il"
         },
         {
           "form": "panino",
           "gender": "m",
           "num": "s",
           "gloss": "el sándwich",
-          "audio": "8c71f3327015"
+          "audio": "8c71f3327015",
+          "art": "il"
         },
         {
           "form": "panini",
           "gender": "m",
           "num": "p",
           "gloss": "los sándwiches",
-          "audio": "f1b4124a41ed"
+          "audio": "f1b4124a41ed",
+          "art": "i"
         },
         {
           "form": "spaghetti",
           "gender": "m",
           "num": "p",
           "gloss": "los espaguetis",
-          "audio": "2acfa5d173e1"
+          "audio": "2acfa5d173e1",
+          "art": "gli"
         },
         {
           "form": "antipasto",
           "gender": "m",
           "num": "s",
           "gloss": "la entrada",
-          "audio": "16985a74b307"
+          "audio": "16985a74b307",
+          "art": "l'"
         },
         {
           "form": "contorno",
           "gender": "m",
           "num": "s",
           "gloss": "la guarnición",
-          "audio": "a16efcde6ea5"
+          "audio": "a16efcde6ea5",
+          "art": "il"
         },
         {
           "form": "cappuccino",
           "gender": "m",
           "num": "s",
           "gloss": "el capuchino",
-          "audio": "c5fcba503d07"
+          "audio": "c5fcba503d07",
+          "art": "il"
         },
         {
           "form": "tè",
           "gender": "m",
           "num": "s",
           "gloss": "el té",
-          "audio": "494f9022c30f"
+          "audio": "494f9022c30f",
+          "art": "il"
         },
         {
           "form": "succo",
           "gender": "m",
           "num": "s",
           "gloss": "el jugo",
-          "audio": "4fe36e26dd2a"
+          "audio": "4fe36e26dd2a",
+          "art": "il"
         },
         {
           "form": "spremuta",
           "gender": "f",
           "num": "s",
           "gloss": "el jugo exprimido",
-          "audio": "5b8146bdb616"
+          "audio": "5b8146bdb616",
+          "art": "la"
         },
         {
           "form": "mancia",
           "gender": "f",
           "num": "s",
           "gloss": "la propina",
-          "audio": "cc4a70ebab11"
+          "audio": "cc4a70ebab11",
+          "art": "la"
         },
         {
           "form": "prenotazione",
           "gender": "f",
           "num": "s",
           "gloss": "la reserva",
-          "audio": "91d6b7d1d25a"
+          "audio": "91d6b7d1d25a",
+          "art": "la"
         },
         {
           "form": "bibita",
           "gender": "f",
           "num": "s",
           "gloss": "la bebida",
-          "audio": "1e4dc52dc47c"
+          "audio": "1e4dc52dc47c",
+          "art": "la"
         },
         {
           "form": "aperitivo",
           "gender": "m",
           "num": "s",
           "gloss": "el aperitivo",
-          "audio": "4a210e7667cc"
+          "audio": "4a210e7667cc",
+          "art": "l'"
         },
         {
           "form": "bar",
           "gender": "m",
           "num": "s",
           "gloss": "el bar",
-          "audio": "62cdb7020ff9"
+          "audio": "62cdb7020ff9",
+          "art": "il"
         },
         {
           "form": "pizzeria",
           "gender": "f",
           "num": "s",
           "gloss": "la pizzería",
-          "audio": "23c4d7910348"
+          "audio": "23c4d7910348",
+          "art": "la"
         },
         {
           "form": "trattoria",
           "gender": "f",
           "num": "s",
           "gloss": "la trattoria",
-          "audio": "0debee20cecb"
+          "audio": "0debee20cecb",
+          "art": "la"
         }
       ],
       "status": "active",
@@ -7873,168 +8155,193 @@
           "gender": "f",
           "num": "s",
           "gloss": "la camisa",
-          "audio": "642c7ed772b2"
+          "audio": "642c7ed772b2",
+          "art": "la"
         },
         {
           "form": "maglia",
           "gender": "f",
           "num": "s",
           "gloss": "la camiseta de punto",
-          "audio": "2e1686916e80"
+          "audio": "2e1686916e80",
+          "art": "la"
         },
         {
           "form": "giacca",
           "gender": "f",
           "num": "s",
           "gloss": "la chaqueta",
-          "audio": "724a4f3f0100"
+          "audio": "724a4f3f0100",
+          "art": "la"
         },
         {
           "form": "cappotto",
           "gender": "m",
           "num": "s",
           "gloss": "el abrigo",
-          "audio": "6cecd48bf394"
+          "audio": "6cecd48bf394",
+          "art": "il"
         },
         {
           "form": "pantaloni",
           "gender": "m",
           "num": "p",
           "gloss": "los pantalones",
-          "audio": "7b3fe397f4f6"
+          "audio": "7b3fe397f4f6",
+          "art": "i"
         },
         {
           "form": "gonna",
           "gender": "f",
           "num": "s",
           "gloss": "la falda",
-          "audio": "6a3ab08e32f7"
+          "audio": "6a3ab08e32f7",
+          "art": "la"
         },
         {
           "form": "vestito",
           "gender": "m",
           "num": "s",
           "gloss": "el vestido",
-          "audio": "7af6d0e36ec2"
+          "audio": "7af6d0e36ec2",
+          "art": "il"
         },
         {
           "form": "scarpa",
           "gender": "f",
           "num": "s",
           "gloss": "el zapato",
-          "audio": "bff69c754da8"
+          "audio": "bff69c754da8",
+          "art": "la"
         },
         {
           "form": "scarpe",
           "gender": "f",
           "num": "p",
           "gloss": "los zapatos",
-          "audio": "9649e0368367"
+          "audio": "9649e0368367",
+          "art": "le"
         },
         {
           "form": "calzini",
           "gender": "m",
           "num": "p",
           "gloss": "los calcetines",
-          "audio": "b15232d897f2"
+          "audio": "b15232d897f2",
+          "art": "i"
         },
         {
           "form": "cappello",
           "gender": "m",
           "num": "s",
           "gloss": "el sombrero",
-          "audio": "ffc8d46bc706"
+          "audio": "ffc8d46bc706",
+          "art": "il"
         },
         {
           "form": "borsa",
           "gender": "f",
           "num": "s",
           "gloss": "el bolso",
-          "audio": "54e60c0a979e"
+          "audio": "54e60c0a979e",
+          "art": "la",
+          "gdiv": true
         },
         {
           "form": "sciarpa",
           "gender": "f",
           "num": "s",
           "gloss": "la bufanda",
-          "audio": "a11111423761"
+          "audio": "a11111423761",
+          "art": "la"
         },
         {
           "form": "guanto",
           "gender": "m",
           "num": "s",
           "gloss": "el guante",
-          "audio": "c8cbb290cfff"
+          "audio": "c8cbb290cfff",
+          "art": "il"
         },
         {
           "form": "guanti",
           "gender": "m",
           "num": "p",
           "gloss": "los guantes",
-          "audio": "0a0d2bf550bb"
+          "audio": "0a0d2bf550bb",
+          "art": "i"
         },
         {
           "form": "maglione",
           "gender": "m",
           "num": "s",
           "gloss": "el suéter",
-          "audio": "a2ac5ef03b69"
+          "audio": "a2ac5ef03b69",
+          "art": "il"
         },
         {
           "form": "cravatta",
           "gender": "f",
           "num": "s",
           "gloss": "la corbata",
-          "audio": "63a2a0ebff17"
+          "audio": "63a2a0ebff17",
+          "art": "la"
         },
         {
           "form": "occhiali",
           "gender": "m",
           "num": "p",
           "gloss": "los lentes",
-          "audio": "1f72731ba5b3"
+          "audio": "1f72731ba5b3",
+          "art": "gli"
         },
         {
           "form": "orologio",
           "gender": "m",
           "num": "s",
           "gloss": "el reloj",
-          "audio": "3d9a5cdfac70"
+          "audio": "3d9a5cdfac70",
+          "art": "l'"
         },
         {
           "form": "anello",
           "gender": "m",
           "num": "s",
           "gloss": "el anillo",
-          "audio": "9f44093ea8f1"
+          "audio": "9f44093ea8f1",
+          "art": "l'"
         },
         {
           "form": "taglia",
           "gender": "f",
           "num": "s",
           "gloss": "la talla",
-          "audio": "040913963598"
+          "audio": "040913963598",
+          "art": "la"
         },
         {
           "form": "saldi",
           "gender": "m",
           "num": "p",
           "gloss": "las rebajas",
-          "audio": "f320d01c0736"
+          "audio": "f320d01c0736",
+          "art": "i"
         },
         {
           "form": "stivale",
           "gender": "m",
           "num": "s",
           "gloss": "la bota",
-          "audio": "b0da26f15929"
+          "audio": "b0da26f15929",
+          "art": "lo"
         },
         {
           "form": "jeans",
           "gender": "m",
           "num": "p",
           "gloss": "los jeans",
-          "audio": "1cf1396a0c9b"
+          "audio": "1cf1396a0c9b",
+          "art": "i"
         }
       ],
       "status": "active",
@@ -8152,98 +8459,112 @@
           "gender": "m",
           "num": "p",
           "gloss": "el dinero",
-          "audio": "d6324c10f50e"
+          "audio": "d6324c10f50e",
+          "art": "i"
         },
         {
           "form": "prezzo",
           "gender": "m",
           "num": "s",
           "gloss": "el precio",
-          "audio": "23f68a2f3720"
+          "audio": "23f68a2f3720",
+          "art": "il"
         },
         {
           "form": "moneta",
           "gender": "f",
           "num": "s",
           "gloss": "la moneda",
-          "audio": "271c070edb96"
+          "audio": "271c070edb96",
+          "art": "la"
         },
         {
           "form": "banconota",
           "gender": "f",
           "num": "s",
           "gloss": "el billete",
-          "audio": "ea6e73f97f81"
+          "audio": "ea6e73f97f81",
+          "art": "la"
         },
         {
           "form": "contanti",
           "gender": "m",
           "num": "p",
           "gloss": "el efectivo",
-          "audio": "65f3b01dc6c2"
+          "audio": "65f3b01dc6c2",
+          "art": "i"
         },
         {
           "form": "sconto",
           "gender": "m",
           "num": "s",
           "gloss": "el descuento",
-          "audio": "f82bd0b5c9c7"
+          "audio": "f82bd0b5c9c7",
+          "art": "lo"
         },
         {
           "form": "ricevuta",
           "gender": "f",
           "num": "s",
           "gloss": "el recibo",
-          "audio": "039929935259"
+          "audio": "039929935259",
+          "art": "la"
         },
         {
           "form": "cassa",
           "gender": "f",
           "num": "s",
           "gloss": "la caja",
-          "audio": "75f17de0f904"
+          "audio": "75f17de0f904",
+          "art": "la"
         },
         {
           "form": "spesa",
           "gender": "f",
           "num": "s",
           "gloss": "la compra",
-          "audio": "9c4edc5ffc7d"
+          "audio": "9c4edc5ffc7d",
+          "art": "la"
         },
         {
           "form": "offerta",
           "gender": "f",
           "num": "s",
           "gloss": "la oferta",
-          "audio": "25ba0d77891c"
+          "audio": "25ba0d77891c",
+          "art": "l'"
         },
         {
           "form": "portafoglio",
           "gender": "m",
           "num": "s",
           "gloss": "la billetera",
-          "audio": "789c56be34bd"
+          "audio": "789c56be34bd",
+          "art": "il"
         },
         {
           "form": "affitto",
           "gender": "m",
           "num": "s",
           "gloss": "el arriendo",
-          "audio": "8dcc47f08b59"
+          "audio": "8dcc47f08b59",
+          "art": "l'"
         },
         {
           "form": "bolletta",
           "gender": "f",
           "num": "s",
           "gloss": "la cuenta de servicios",
-          "audio": "803c81f09dce"
+          "audio": "803c81f09dce",
+          "art": "la"
         },
         {
           "form": "centesimo",
           "gender": "m",
           "num": "s",
           "gloss": "el centavo",
-          "audio": "4528857fea2e"
+          "audio": "4528857fea2e",
+          "art": "il"
         }
       ],
       "status": "active",
@@ -8348,182 +8669,215 @@
           "gender": "f",
           "num": "s",
           "gloss": "la cabeza",
-          "audio": "6d3c60eeb2dd"
+          "audio": "6d3c60eeb2dd",
+          "art": "la"
         },
         {
           "form": "mano",
           "gender": "f",
           "num": "s",
           "gloss": "la mano",
-          "audio": "abf1aa4a5e1a"
+          "audio": "abf1aa4a5e1a",
+          "art": "la"
         },
         {
           "form": "piede",
           "gender": "m",
           "num": "s",
           "gloss": "el pie",
-          "audio": "d577ded86345"
+          "audio": "d577ded86345",
+          "art": "il"
         },
         {
           "form": "occhio",
           "gender": "m",
           "num": "s",
           "gloss": "el ojo",
-          "audio": "efd2ac096e8e"
+          "audio": "efd2ac096e8e",
+          "art": "l'"
         },
         {
           "form": "naso",
           "gender": "m",
           "num": "s",
           "gloss": "la nariz",
-          "audio": "59b7e0c04e9e"
+          "audio": "59b7e0c04e9e",
+          "art": "il",
+          "gdiv": true
         },
         {
           "form": "bocca",
           "gender": "f",
           "num": "s",
           "gloss": "la boca",
-          "audio": "6da3e51f5274"
+          "audio": "6da3e51f5274",
+          "art": "la"
         },
         {
           "form": "braccio",
           "gender": "m",
           "num": "s",
           "gloss": "el brazo",
-          "audio": "9ccee47b51e7"
+          "audio": "9ccee47b51e7",
+          "art": "il"
         },
         {
           "form": "gamba",
           "gender": "f",
           "num": "s",
           "gloss": "la pierna",
-          "audio": "95eb576e0c23"
+          "audio": "95eb576e0c23",
+          "art": "la",
+          "ff": true
         },
         {
           "form": "cuore",
           "gender": "m",
           "num": "s",
           "gloss": "el corazón",
-          "audio": "b353f6e0745d"
+          "audio": "b353f6e0745d",
+          "art": "il"
         },
         {
           "form": "viso",
           "gender": "m",
           "num": "s",
           "gloss": "el rostro",
-          "audio": "ed5a23d35c62"
+          "audio": "ed5a23d35c62",
+          "art": "il"
         },
         {
           "form": "orecchio",
           "gender": "m",
           "num": "s",
           "gloss": "la oreja",
-          "audio": "e0c088b885c2"
+          "audio": "e0c088b885c2",
+          "art": "l'",
+          "gdiv": true
         },
         {
           "form": "dente",
           "gender": "m",
           "num": "s",
           "gloss": "el diente",
-          "audio": "6cca05c1943e"
+          "audio": "6cca05c1943e",
+          "art": "il"
         },
         {
           "form": "schiena",
           "gender": "f",
           "num": "s",
           "gloss": "la espalda",
-          "audio": "889eefa3019f"
+          "audio": "889eefa3019f",
+          "art": "la"
         },
         {
           "form": "dito",
           "gender": "m",
           "num": "s",
           "gloss": "el dedo",
-          "audio": "a10f823742f0"
+          "audio": "a10f823742f0",
+          "art": "il"
         },
         {
           "form": "collo",
           "gender": "m",
           "num": "s",
           "gloss": "el cuello",
-          "audio": "40af4de26227"
+          "audio": "40af4de26227",
+          "art": "il"
         },
         {
           "form": "spalla",
           "gender": "f",
           "num": "s",
           "gloss": "el hombro",
-          "audio": "64889a03fbf5"
+          "audio": "64889a03fbf5",
+          "art": "la",
+          "ff": true
         },
         {
           "form": "pancia",
           "gender": "f",
           "num": "s",
           "gloss": "la barriga",
-          "audio": "52f0a9a541c2"
+          "audio": "52f0a9a541c2",
+          "art": "la"
         },
         {
           "form": "pelle",
           "gender": "f",
           "num": "s",
           "gloss": "la piel",
-          "audio": "d8d9a546c277"
+          "audio": "d8d9a546c277",
+          "art": "la"
         },
         {
           "form": "sangue",
           "gender": "m",
           "num": "s",
           "gloss": "la sangre",
-          "audio": "fc1111d4bfd1"
+          "audio": "fc1111d4bfd1",
+          "art": "il",
+          "gdiv": true
         },
         {
           "form": "capelli",
           "gender": "m",
           "num": "p",
           "gloss": "el cabello",
-          "audio": "418c493657f1"
+          "audio": "418c493657f1",
+          "art": "i"
         },
         {
           "form": "occhi",
           "gender": "m",
           "num": "p",
           "gloss": "los ojos",
-          "audio": "5298edb3b53b"
+          "audio": "5298edb3b53b",
+          "art": "gli"
         },
         {
           "form": "mani",
           "gender": "f",
           "num": "p",
           "gloss": "las manos",
-          "audio": "c29222e98de6"
+          "audio": "c29222e98de6",
+          "art": "le"
         },
         {
           "form": "piedi",
           "gender": "m",
           "num": "p",
           "gloss": "los pies",
-          "audio": "e3f070019edb"
+          "audio": "e3f070019edb",
+          "art": "i"
         },
         {
           "form": "denti",
           "gender": "m",
           "num": "p",
           "gloss": "los dientes",
-          "audio": "d2f6f097debd"
+          "audio": "d2f6f097debd",
+          "art": "i"
         },
         {
           "form": "braccia",
           "gender": "f",
           "num": "p",
           "gloss": "los brazos",
-          "audio": "99425691a800"
+          "audio": "99425691a800",
+          "art": "le",
+          "gdiv": true
         },
         {
           "form": "gambe",
           "gender": "f",
           "num": "p",
           "gloss": "las piernas",
-          "audio": "17d3c52c11d7"
+          "audio": "17d3c52c11d7",
+          "art": "le",
+          "ff": true
         }
       ],
       "status": "active",
@@ -8629,140 +8983,161 @@
           "gender": "f",
           "num": "s",
           "gloss": "la lluvia",
-          "audio": "3e0fb35ffc37"
+          "audio": "3e0fb35ffc37",
+          "art": "la"
         },
         {
           "form": "sole",
           "gender": "m",
           "num": "s",
           "gloss": "el sol",
-          "audio": "665a626ed78c"
+          "audio": "665a626ed78c",
+          "art": "il"
         },
         {
           "form": "vento",
           "gender": "m",
           "num": "s",
           "gloss": "el viento",
-          "audio": "59c478b464b5"
+          "audio": "59c478b464b5",
+          "art": "il"
         },
         {
           "form": "neve",
           "gender": "f",
           "num": "s",
           "gloss": "la nieve",
-          "audio": "394104b42fd4"
+          "audio": "394104b42fd4",
+          "art": "la"
         },
         {
           "form": "nuvola",
           "gender": "f",
           "num": "s",
           "gloss": "la nube",
-          "audio": "051c9685fd30"
+          "audio": "051c9685fd30",
+          "art": "la"
         },
         {
           "form": "nuvole",
           "gender": "f",
           "num": "p",
           "gloss": "las nubes",
-          "audio": "9ed903e2d8fc"
+          "audio": "9ed903e2d8fc",
+          "art": "le"
         },
         {
           "form": "cielo",
           "gender": "m",
           "num": "s",
           "gloss": "el cielo",
-          "audio": "b54cfda89820"
+          "audio": "b54cfda89820",
+          "art": "il"
         },
         {
           "form": "temporale",
           "gender": "m",
           "num": "s",
           "gloss": "la tormenta",
-          "audio": "3e0d6687598c"
+          "audio": "3e0d6687598c",
+          "art": "il"
         },
         {
           "form": "nebbia",
           "gender": "f",
           "num": "s",
           "gloss": "la niebla",
-          "audio": "3fd12bca7ef4"
+          "audio": "3fd12bca7ef4",
+          "art": "la"
         },
         {
           "form": "caldo",
           "gender": "m",
           "num": "s",
           "gloss": "el calor",
-          "audio": "29a5e542fcd1"
+          "audio": "29a5e542fcd1",
+          "art": "il",
+          "ff": true
         },
         {
           "form": "freddo",
           "gender": "m",
           "num": "s",
           "gloss": "el frío",
-          "audio": "8fefa174c4ac"
+          "audio": "8fefa174c4ac",
+          "art": "il"
         },
         {
           "form": "temperatura",
           "gender": "f",
           "num": "s",
           "gloss": "la temperatura",
-          "audio": "0cb9e93dfa22"
+          "audio": "0cb9e93dfa22",
+          "art": "la"
         },
         {
           "form": "ombrello",
           "gender": "m",
           "num": "s",
           "gloss": "el paraguas",
-          "audio": "3d39703ab9ca"
+          "audio": "3d39703ab9ca",
+          "art": "l'"
         },
         {
           "form": "luna",
           "gender": "f",
           "num": "s",
           "gloss": "la luna",
-          "audio": "4b7fad4f3f94"
+          "audio": "4b7fad4f3f94",
+          "art": "la"
         },
         {
           "form": "stella",
           "gender": "f",
           "num": "s",
           "gloss": "la estrella",
-          "audio": "b0f44571644f"
+          "audio": "b0f44571644f",
+          "art": "la"
         },
         {
           "form": "stelle",
           "gender": "f",
           "num": "p",
           "gloss": "las estrellas",
-          "audio": "c34a6daaf4ab"
+          "audio": "c34a6daaf4ab",
+          "art": "le"
         },
         {
           "form": "ghiaccio",
           "gender": "m",
           "num": "s",
           "gloss": "el hielo",
-          "audio": "7c7a7d9f519c"
+          "audio": "7c7a7d9f519c",
+          "art": "il"
         },
         {
           "form": "fulmine",
           "gender": "m",
           "num": "s",
           "gloss": "el rayo",
-          "audio": "7a15b9eb8f28"
+          "audio": "7a15b9eb8f28",
+          "art": "il"
         },
         {
           "form": "clima",
           "gender": "m",
           "num": "s",
           "gloss": "el clima",
-          "audio": "89112431b55a"
+          "audio": "89112431b55a",
+          "art": "il"
         },
         {
           "form": "gradi",
           "gender": "m",
           "num": "p",
           "gloss": "los grados",
-          "audio": "3dd56b8235f2"
+          "audio": "3dd56b8235f2",
+          "art": "i"
         }
       ],
       "status": "active",
@@ -8870,203 +9245,235 @@
           "gender": "m",
           "num": "s",
           "gloss": "el perro",
-          "audio": "95df5d1bd9fb"
+          "audio": "95df5d1bd9fb",
+          "art": "il"
         },
         {
           "form": "gatto",
           "gender": "m",
           "num": "s",
           "gloss": "el gato",
-          "audio": "e9eb5a25c285"
+          "audio": "e9eb5a25c285",
+          "art": "il"
         },
         {
           "form": "cavallo",
           "gender": "m",
           "num": "s",
           "gloss": "el caballo",
-          "audio": "84e8c1d47db1"
+          "audio": "84e8c1d47db1",
+          "art": "il"
         },
         {
           "form": "uccello",
           "gender": "m",
           "num": "s",
           "gloss": "el pájaro",
-          "audio": "8d8775a4f9bd"
+          "audio": "8d8775a4f9bd",
+          "art": "l'"
         },
         {
           "form": "mucca",
           "gender": "f",
           "num": "s",
           "gloss": "la vaca",
-          "audio": "4b86b0fe1c4c"
+          "audio": "4b86b0fe1c4c",
+          "art": "la"
         },
         {
           "form": "topo",
           "gender": "m",
           "num": "s",
           "gloss": "el ratón",
-          "audio": "5e1e5ee98571"
+          "audio": "5e1e5ee98571",
+          "art": "il",
+          "ff": true
         },
         {
           "form": "maiale",
           "gender": "m",
           "num": "s",
           "gloss": "el cerdo",
-          "audio": "64d188b85793"
+          "audio": "64d188b85793",
+          "art": "il"
         },
         {
           "form": "leone",
           "gender": "m",
           "num": "s",
           "gloss": "el león",
-          "audio": "e7a44f3dbb68"
+          "audio": "e7a44f3dbb68",
+          "art": "il"
         },
         {
           "form": "orso",
           "gender": "m",
           "num": "s",
           "gloss": "el oso",
-          "audio": "fd7b95add52f"
+          "audio": "fd7b95add52f",
+          "art": "l'"
         },
         {
           "form": "lupo",
           "gender": "m",
           "num": "s",
           "gloss": "el lobo",
-          "audio": "ea476da6acec"
+          "audio": "ea476da6acec",
+          "art": "il"
         },
         {
           "form": "coniglio",
           "gender": "m",
           "num": "s",
           "gloss": "el conejo",
-          "audio": "4a136cc918b2"
+          "audio": "4a136cc918b2",
+          "art": "il"
         },
         {
           "form": "pecora",
           "gender": "f",
           "num": "s",
           "gloss": "la oveja",
-          "audio": "20eca97f2555"
+          "audio": "20eca97f2555",
+          "art": "la"
         },
         {
           "form": "tigre",
           "gender": "f",
           "num": "s",
           "gloss": "el tigre",
-          "audio": "c557c8fce1c6"
+          "audio": "c557c8fce1c6",
+          "art": "la",
+          "gdiv": true
         },
         {
           "form": "elefante",
           "gender": "m",
           "num": "s",
           "gloss": "el elefante",
-          "audio": "5480e9c0dfd3"
+          "audio": "5480e9c0dfd3",
+          "art": "l'"
         },
         {
           "form": "scimmia",
           "gender": "f",
           "num": "s",
           "gloss": "el mono",
-          "audio": "5892ced43a66"
+          "audio": "5892ced43a66",
+          "art": "la"
         },
         {
           "form": "serpente",
           "gender": "m",
           "num": "s",
           "gloss": "la serpiente",
-          "audio": "6fe7eb5bc2d1"
+          "audio": "6fe7eb5bc2d1",
+          "art": "il",
+          "gdiv": true
         },
         {
           "form": "mosca",
           "gender": "f",
           "num": "s",
           "gloss": "la mosca",
-          "audio": "4ae4981c4643"
+          "audio": "4ae4981c4643",
+          "art": "la"
         },
         {
           "form": "ape",
           "gender": "f",
           "num": "s",
           "gloss": "la abeja",
-          "audio": "abc1f33c7c1d"
+          "audio": "abc1f33c7c1d",
+          "art": "l'"
         },
         {
           "form": "farfalla",
           "gender": "f",
           "num": "s",
           "gloss": "la mariposa",
-          "audio": "e53ce236e94a"
+          "audio": "e53ce236e94a",
+          "art": "la"
         },
         {
           "form": "animale",
           "gender": "m",
           "num": "s",
           "gloss": "el animal",
-          "audio": "0b2a3cf386a8"
+          "audio": "0b2a3cf386a8",
+          "art": "l'"
         },
         {
           "form": "capra",
           "gender": "f",
           "num": "s",
           "gloss": "la cabra",
-          "audio": "920ec6961f5f"
+          "audio": "920ec6961f5f",
+          "art": "la"
         },
         {
           "form": "gallina",
           "gender": "f",
           "num": "s",
           "gloss": "la gallina",
-          "audio": "ecdd4db465ff"
+          "audio": "ecdd4db465ff",
+          "art": "la"
         },
         {
           "form": "rana",
           "gender": "f",
           "num": "s",
           "gloss": "la rana",
-          "audio": "80c0ff172a69"
+          "audio": "80c0ff172a69",
+          "art": "la"
         },
         {
           "form": "formica",
           "gender": "f",
           "num": "s",
           "gloss": "la hormiga",
-          "audio": "2b03870bfb24"
+          "audio": "2b03870bfb24",
+          "art": "la"
         },
         {
           "form": "cani",
           "gender": "m",
           "num": "p",
           "gloss": "los perros",
-          "audio": "fc59cff0dcf5"
+          "audio": "fc59cff0dcf5",
+          "art": "i"
         },
         {
           "form": "gatti",
           "gender": "m",
           "num": "p",
           "gloss": "los gatos",
-          "audio": "7c9ec815acda"
+          "audio": "7c9ec815acda",
+          "art": "i"
         },
         {
           "form": "cavalli",
           "gender": "m",
           "num": "p",
           "gloss": "los caballos",
-          "audio": "74eccb277afc"
+          "audio": "74eccb277afc",
+          "art": "i"
         },
         {
           "form": "uccelli",
           "gender": "m",
           "num": "p",
           "gloss": "los pájaros",
-          "audio": "b34136a78073"
+          "audio": "b34136a78073",
+          "art": "gli"
         },
         {
           "form": "animali",
           "gender": "m",
           "num": "p",
           "gloss": "los animales",
-          "audio": "ea14a731ea95"
+          "audio": "ea14a731ea95",
+          "art": "gli"
         }
       ],
       "status": "active",
@@ -9175,203 +9582,233 @@
           "gender": "m",
           "num": "s",
           "gloss": "el libro",
-          "audio": "7d664b804ebe"
+          "audio": "7d664b804ebe",
+          "art": "il"
         },
         {
           "form": "penna",
           "gender": "f",
           "num": "s",
           "gloss": "el bolígrafo",
-          "audio": "87a98fc469e6"
+          "audio": "87a98fc469e6",
+          "art": "la"
         },
         {
           "form": "quaderno",
           "gender": "m",
           "num": "s",
           "gloss": "el cuaderno",
-          "audio": "c33467edb6e8"
+          "audio": "c33467edb6e8",
+          "art": "il"
         },
         {
           "form": "classe",
           "gender": "f",
           "num": "s",
           "gloss": "la clase",
-          "audio": "7e7b33d679ca"
+          "audio": "7e7b33d679ca",
+          "art": "la"
         },
         {
           "form": "studente",
           "gender": "m",
           "num": "s",
           "gloss": "el estudiante",
-          "audio": "39c33e6178e2"
+          "audio": "39c33e6178e2",
+          "art": "lo"
         },
         {
           "form": "studentessa",
           "gender": "f",
           "num": "s",
           "gloss": "la estudiante",
-          "audio": "1acf2d7f2f24"
+          "audio": "1acf2d7f2f24",
+          "art": "la"
         },
         {
           "form": "professore",
           "gender": "m",
           "num": "s",
           "gloss": "el profesor",
-          "audio": "fc20100b18f7"
+          "audio": "fc20100b18f7",
+          "art": "il"
         },
         {
           "form": "professoressa",
           "gender": "f",
           "num": "s",
           "gloss": "la profesora",
-          "audio": "f12ed897fbde"
+          "audio": "f12ed897fbde",
+          "art": "la"
         },
         {
           "form": "lezione",
           "gender": "f",
           "num": "s",
           "gloss": "la lección",
-          "audio": "9342cfb532c4"
+          "audio": "9342cfb532c4",
+          "art": "la"
         },
         {
           "form": "esame",
           "gender": "m",
           "num": "s",
           "gloss": "el examen",
-          "audio": "9d0c0554e65c"
+          "audio": "9d0c0554e65c",
+          "art": "l'"
         },
         {
           "form": "compito",
           "gender": "m",
           "num": "s",
           "gloss": "la tarea",
-          "audio": "cd42fdfc8654"
+          "audio": "cd42fdfc8654",
+          "art": "il"
         },
         {
           "form": "lavoro",
           "gender": "m",
           "num": "s",
           "gloss": "el trabajo",
-          "audio": "8f1767c4db8b"
+          "audio": "8f1767c4db8b",
+          "art": "il"
         },
         {
           "form": "ufficio",
           "gender": "m",
           "num": "s",
           "gloss": "la oficina",
-          "audio": "dbf2fd0876ce"
+          "audio": "dbf2fd0876ce",
+          "art": "l'",
+          "gdiv": true
         },
         {
           "form": "medico",
           "gender": "m",
           "num": "s",
           "gloss": "el médico",
-          "audio": "c83be042605c"
+          "audio": "c83be042605c",
+          "art": "il"
         },
         {
           "form": "dottore",
           "gender": "m",
           "num": "s",
           "gloss": "el doctor",
-          "audio": "cbea60a00b9f"
+          "audio": "cbea60a00b9f",
+          "art": "il"
         },
         {
           "form": "cuoco",
           "gender": "m",
           "num": "s",
           "gloss": "el cocinero",
-          "audio": "68f35479eb8c"
+          "audio": "68f35479eb8c",
+          "art": "il"
         },
         {
           "form": "cameriere",
           "gender": "m",
           "num": "s",
           "gloss": "el camarero",
-          "audio": "9041d3998682"
+          "audio": "9041d3998682",
+          "art": "il"
         },
         {
           "form": "operaio",
           "gender": "m",
           "num": "s",
           "gloss": "el obrero",
-          "audio": "8440a6323864"
+          "audio": "8440a6323864",
+          "art": "l'"
         },
         {
           "form": "avvocato",
           "gender": "m",
           "num": "s",
           "gloss": "el abogado",
-          "audio": "077d53500a86"
+          "audio": "077d53500a86",
+          "art": "l'"
         },
         {
           "form": "infermiera",
           "gender": "f",
           "num": "s",
           "gloss": "la enfermera",
-          "audio": "32a8a4b8ce5b"
+          "audio": "32a8a4b8ce5b",
+          "art": "l'"
         },
         {
           "form": "segretaria",
           "gender": "f",
           "num": "s",
           "gloss": "la secretaria",
-          "audio": "4b104ae31867"
+          "audio": "4b104ae31867",
+          "art": "la"
         },
         {
           "form": "pittore",
           "gender": "m",
           "num": "s",
           "gloss": "el pintor",
-          "audio": "51ae737bd029"
+          "audio": "51ae737bd029",
+          "art": "il"
         },
         {
           "form": "scrittore",
           "gender": "m",
           "num": "s",
           "gloss": "el escritor",
-          "audio": "9466b177375a"
+          "audio": "9466b177375a",
+          "art": "lo"
         },
         {
           "form": "poliziotto",
           "gender": "m",
           "num": "s",
           "gloss": "el policía",
-          "audio": "c801d2db07b7"
+          "audio": "c801d2db07b7",
+          "art": "il"
         },
         {
           "form": "soldato",
           "gender": "m",
           "num": "s",
           "gloss": "el soldado",
-          "audio": "3d19b9de9ff4"
+          "audio": "3d19b9de9ff4",
+          "art": "il"
         },
         {
           "form": "contadino",
           "gender": "m",
           "num": "s",
           "gloss": "el campesino",
-          "audio": "a6d592b452d5"
+          "audio": "a6d592b452d5",
+          "art": "il"
         },
         {
           "form": "direttore",
           "gender": "m",
           "num": "s",
           "gloss": "el director",
-          "audio": "06eedacd2ecb"
+          "audio": "06eedacd2ecb",
+          "art": "il"
         },
         {
           "form": "stipendio",
           "gender": "m",
           "num": "s",
           "gloss": "el sueldo",
-          "audio": "167f2985759a"
+          "audio": "167f2985759a",
+          "art": "lo"
         },
         {
           "form": "computer",
           "gender": "m",
           "num": "s",
           "gloss": "el computador",
-          "audio": "c60266a8adad"
+          "audio": "c60266a8adad",
+          "art": "il"
         }
       ],
       "status": "active",
@@ -10082,175 +10519,202 @@
           "gender": "m",
           "num": "s",
           "gloss": "el tren",
-          "audio": "28bba2ca634e"
+          "audio": "28bba2ca634e",
+          "art": "il"
         },
         {
           "form": "treni",
           "gender": "m",
           "num": "p",
           "gloss": "los trenes",
-          "audio": "e744857b080d"
+          "audio": "e744857b080d",
+          "art": "i"
         },
         {
           "form": "autobus",
           "gender": "m",
           "num": "s",
           "gloss": "el autobús",
-          "audio": "016ccee7270f"
+          "audio": "016ccee7270f",
+          "art": "l'"
         },
         {
           "form": "aereo",
           "gender": "m",
           "num": "s",
           "gloss": "el avión",
-          "audio": "85206cf3e3a3"
+          "audio": "85206cf3e3a3",
+          "art": "l'"
         },
         {
           "form": "macchina",
           "gender": "f",
           "num": "s",
           "gloss": "el auto",
-          "audio": "f0f081d29aa8"
+          "audio": "f0f081d29aa8",
+          "art": "la"
         },
         {
           "form": "macchine",
           "gender": "f",
           "num": "p",
           "gloss": "los autos",
-          "audio": "b7613e783b17"
+          "audio": "b7613e783b17",
+          "art": "le"
         },
         {
           "form": "automobile",
           "gender": "f",
           "num": "s",
           "gloss": "el automóvil",
-          "audio": "e37e19ee167e"
+          "audio": "e37e19ee167e",
+          "art": "l'",
+          "gdiv": true
         },
         {
           "form": "bicicletta",
           "gender": "f",
           "num": "s",
           "gloss": "la bicicleta",
-          "audio": "b087e372acbf"
+          "audio": "b087e372acbf",
+          "art": "la"
         },
         {
           "form": "moto",
           "gender": "f",
           "num": "s",
           "gloss": "la moto",
-          "audio": "1f7f1c7a647c"
+          "audio": "1f7f1c7a647c",
+          "art": "la"
         },
         {
           "form": "taxi",
           "gender": "m",
           "num": "s",
           "gloss": "el taxi",
-          "audio": "4d82205a2028"
+          "audio": "4d82205a2028",
+          "art": "il"
         },
         {
           "form": "metropolitana",
           "gender": "f",
           "num": "s",
           "gloss": "el metro",
-          "audio": "178460c35fc8"
+          "audio": "178460c35fc8",
+          "art": "la",
+          "gdiv": true
         },
         {
           "form": "biglietto",
           "gender": "m",
           "num": "s",
           "gloss": "el boleto",
-          "audio": "8fa0556f6bd5"
+          "audio": "8fa0556f6bd5",
+          "art": "il"
         },
         {
           "form": "biglietti",
           "gender": "m",
           "num": "p",
           "gloss": "los boletos",
-          "audio": "0f4150a729a8"
+          "audio": "0f4150a729a8",
+          "art": "i"
         },
         {
           "form": "fermata",
           "gender": "f",
           "num": "s",
           "gloss": "la parada",
-          "audio": "184ced9da209"
+          "audio": "184ced9da209",
+          "art": "la"
         },
         {
           "form": "binario",
           "gender": "m",
           "num": "s",
           "gloss": "el andén",
-          "audio": "008673cffe7e"
+          "audio": "008673cffe7e",
+          "art": "il"
         },
         {
           "form": "nave",
           "gender": "f",
           "num": "s",
           "gloss": "el barco",
-          "audio": "eee8cf25f346"
+          "audio": "eee8cf25f346",
+          "art": "la"
         },
         {
           "form": "barca",
           "gender": "f",
           "num": "s",
           "gloss": "el bote",
-          "audio": "f1e4b810f053"
+          "audio": "f1e4b810f053",
+          "art": "la"
         },
         {
           "form": "camion",
           "gender": "m",
           "num": "s",
           "gloss": "el camión",
-          "audio": "7a3d21e3cf43"
+          "audio": "7a3d21e3cf43",
+          "art": "il"
         },
         {
           "form": "viaggio",
           "gender": "m",
           "num": "s",
           "gloss": "el viaje",
-          "audio": "e854436bc639"
+          "audio": "e854436bc639",
+          "art": "il"
         },
         {
           "form": "viaggi",
           "gender": "m",
           "num": "p",
           "gloss": "los viajes",
-          "audio": "7ffe545bb148"
+          "audio": "7ffe545bb148",
+          "art": "i"
         },
         {
           "form": "valigia",
           "gender": "f",
           "num": "s",
           "gloss": "la maleta",
-          "audio": "b58963587dcc"
+          "audio": "b58963587dcc",
+          "art": "la"
         },
         {
           "form": "passaporto",
           "gender": "m",
           "num": "s",
           "gloss": "el pasaporte",
-          "audio": "e28efd074889"
+          "audio": "e28efd074889",
+          "art": "il"
         },
         {
           "form": "traffico",
           "gender": "m",
           "num": "s",
           "gloss": "el tráfico",
-          "audio": "18ff7fc59fb3"
+          "audio": "18ff7fc59fb3",
+          "art": "il"
         },
         {
           "form": "benzina",
           "gender": "f",
           "num": "s",
           "gloss": "la bencina",
-          "audio": "e93bc628c36f"
+          "audio": "e93bc628c36f",
+          "art": "la"
         },
         {
           "form": "semaforo",
           "gender": "m",
           "num": "s",
           "gloss": "el semáforo",
-          "audio": "12811686a198"
+          "audio": "12811686a198",
+          "art": "il"
         }
       ],
       "status": "active",
@@ -10347,126 +10811,144 @@
           "gender": "f",
           "num": "s",
           "gloss": "la salud",
-          "audio": "17040e920885"
+          "audio": "17040e920885",
+          "art": "la"
         },
         {
           "form": "malattia",
           "gender": "f",
           "num": "s",
           "gloss": "la enfermedad",
-          "audio": "564ea3fba55f"
+          "audio": "564ea3fba55f",
+          "art": "la"
         },
         {
           "form": "febbre",
           "gender": "f",
           "num": "s",
           "gloss": "la fiebre",
-          "audio": "2f96e364fdec"
+          "audio": "2f96e364fdec",
+          "art": "la"
         },
         {
           "form": "tosse",
           "gender": "f",
           "num": "s",
           "gloss": "la tos",
-          "audio": "03e72727f79d"
+          "audio": "03e72727f79d",
+          "art": "la"
         },
         {
           "form": "raffreddore",
           "gender": "m",
           "num": "s",
           "gloss": "el resfriado",
-          "audio": "bda4346a9cbd"
+          "audio": "bda4346a9cbd",
+          "art": "il"
         },
         {
           "form": "influenza",
           "gender": "f",
           "num": "s",
           "gloss": "la gripe",
-          "audio": "0b35bcd730d7"
+          "audio": "0b35bcd730d7",
+          "art": "l'"
         },
         {
           "form": "medicina",
           "gender": "f",
           "num": "s",
           "gloss": "el remedio",
-          "audio": "5a64faf73bc1"
+          "audio": "5a64faf73bc1",
+          "art": "la"
         },
         {
           "form": "pastiglia",
           "gender": "f",
           "num": "s",
           "gloss": "la pastilla",
-          "audio": "e86b8269f3d8"
+          "audio": "e86b8269f3d8",
+          "art": "la"
         },
         {
           "form": "dolore",
           "gender": "m",
           "num": "s",
           "gloss": "el dolor",
-          "audio": "61b0767ab5db"
+          "audio": "61b0767ab5db",
+          "art": "il"
         },
         {
           "form": "ricetta",
           "gender": "f",
           "num": "s",
           "gloss": "la receta",
-          "audio": "8662e9dd35f3"
+          "audio": "8662e9dd35f3",
+          "art": "la"
         },
         {
           "form": "ambulanza",
           "gender": "f",
           "num": "s",
           "gloss": "la ambulancia",
-          "audio": "2e4030f9e8ca"
+          "audio": "2e4030f9e8ca",
+          "art": "l'"
         },
         {
           "form": "ferita",
           "gender": "f",
           "num": "s",
           "gloss": "la herida",
-          "audio": "c3df60e609c3"
+          "audio": "c3df60e609c3",
+          "art": "la"
         },
         {
           "form": "visita",
           "gender": "f",
           "num": "s",
           "gloss": "la consulta",
-          "audio": "7927ca912a7e"
+          "audio": "7927ca912a7e",
+          "art": "la"
         },
         {
           "form": "paziente",
           "gender": "m",
           "num": "s",
           "gloss": "el paciente",
-          "audio": "ad829b10941b"
+          "audio": "ad829b10941b",
+          "art": "il"
         },
         {
           "form": "sonno",
           "gender": "m",
           "num": "s",
           "gloss": "el sueño",
-          "audio": "68a16a62cc21"
+          "audio": "68a16a62cc21",
+          "art": "il"
         },
         {
           "form": "sete",
           "gender": "f",
           "num": "s",
           "gloss": "la sed",
-          "audio": "0f961cd8aca6"
+          "audio": "0f961cd8aca6",
+          "art": "la"
         },
         {
           "form": "fame",
           "gender": "f",
           "num": "s",
           "gloss": "el hambre",
-          "audio": "4a43d29dc895"
+          "audio": "4a43d29dc895",
+          "art": "la"
         },
         {
           "form": "paura",
           "gender": "f",
           "num": "s",
           "gloss": "el miedo",
-          "audio": "04fe877d6dc8"
+          "audio": "04fe877d6dc8",
+          "art": "la"
         }
       ],
       "status": "active",
@@ -10560,154 +11042,180 @@
           "gender": "f",
           "num": "s",
           "gloss": "la papa",
-          "audio": "be949382d8ca"
+          "audio": "be949382d8ca",
+          "art": "la"
         },
         {
           "form": "patate",
           "gender": "f",
           "num": "p",
           "gloss": "las papas",
-          "audio": "d311b1c8e5fe"
+          "audio": "d311b1c8e5fe",
+          "art": "le"
         },
         {
           "form": "cipolla",
           "gender": "f",
           "num": "s",
           "gloss": "la cebolla",
-          "audio": "1d9365b91c6e"
+          "audio": "1d9365b91c6e",
+          "art": "la"
         },
         {
           "form": "carota",
           "gender": "f",
           "num": "s",
           "gloss": "la zanahoria",
-          "audio": "8181c520aa2f"
+          "audio": "8181c520aa2f",
+          "art": "la"
         },
         {
           "form": "fragola",
           "gender": "f",
           "num": "s",
           "gloss": "la frutilla",
-          "audio": "d5d7b3a6c1e5"
+          "audio": "d5d7b3a6c1e5",
+          "art": "la"
         },
         {
           "form": "uva",
           "gender": "f",
           "num": "s",
           "gloss": "la uva",
-          "audio": "2d2c2a1400d9"
+          "audio": "2d2c2a1400d9",
+          "art": "l'"
         },
         {
           "form": "banana",
           "gender": "f",
           "num": "s",
           "gloss": "el plátano",
-          "audio": "250e77f12a5a"
+          "audio": "250e77f12a5a",
+          "art": "la"
         },
         {
           "form": "noce",
           "gender": "f",
           "num": "s",
           "gloss": "la nuez",
-          "audio": "474e8f3b08b1"
+          "audio": "474e8f3b08b1",
+          "art": "la"
         },
         {
           "form": "miele",
           "gender": "m",
           "num": "s",
           "gloss": "la miel",
-          "audio": "b11df8776e32"
+          "audio": "b11df8776e32",
+          "art": "il",
+          "gdiv": true
         },
         {
           "form": "marmellata",
           "gender": "f",
           "num": "s",
           "gloss": "la mermelada",
-          "audio": "f1f73161f007"
+          "audio": "f1f73161f007",
+          "art": "la"
         },
         {
           "form": "sale",
           "gender": "m",
           "num": "s",
           "gloss": "la sal",
-          "audio": "5b8a763b5451"
+          "audio": "5b8a763b5451",
+          "art": "il",
+          "gdiv": true
         },
         {
           "form": "pepe",
           "gender": "m",
           "num": "s",
           "gloss": "la pimienta",
-          "audio": "265392dc2782"
+          "audio": "265392dc2782",
+          "art": "il"
         },
         {
           "form": "aceto",
           "gender": "m",
           "num": "s",
           "gloss": "el vinagre",
-          "audio": "5d9c652337a9"
+          "audio": "5d9c652337a9",
+          "art": "l'",
+          "ff": true
         },
         {
           "form": "panna",
           "gender": "f",
           "num": "s",
           "gloss": "la crema de leche",
-          "audio": "fcba1509dec7"
+          "audio": "fcba1509dec7",
+          "art": "la"
         },
         {
           "form": "fagioli",
           "gender": "m",
           "num": "p",
           "gloss": "los porotos",
-          "audio": "8ed94e839899"
+          "audio": "8ed94e839899",
+          "art": "i"
         },
         {
           "form": "funghi",
           "gender": "m",
           "num": "p",
           "gloss": "los champiñones",
-          "audio": "3f54d69950ad"
+          "audio": "3f54d69950ad",
+          "art": "i"
         },
         {
           "form": "spinaci",
           "gender": "m",
           "num": "p",
           "gloss": "las espinacas",
-          "audio": "3a5f58da3c12"
+          "audio": "3a5f58da3c12",
+          "art": "gli",
+          "gdiv": true
         },
         {
           "form": "tonno",
           "gender": "m",
           "num": "s",
           "gloss": "el atún",
-          "audio": "c599d8f6545a"
+          "audio": "c599d8f6545a",
+          "art": "il"
         },
         {
           "form": "salame",
           "gender": "m",
           "num": "s",
           "gloss": "el salame",
-          "audio": "7c1947a0acc7"
+          "audio": "7c1947a0acc7",
+          "art": "il"
         },
         {
           "form": "yogurt",
           "gender": "m",
           "num": "s",
           "gloss": "el yogur",
-          "audio": "7a7453043a7d"
+          "audio": "7a7453043a7d",
+          "art": "lo"
         },
         {
           "form": "ciliegia",
           "gender": "f",
           "num": "s",
           "gloss": "la cereza",
-          "audio": "9ed636860040"
+          "audio": "9ed636860040",
+          "art": "la"
         },
         {
           "form": "melone",
           "gender": "m",
           "num": "s",
           "gloss": "el melón",
-          "audio": "c29f7f5e6935"
+          "audio": "c29f7f5e6935",
+          "art": "il"
         }
       ],
       "status": "active",
@@ -10799,98 +11307,112 @@
           "gender": "f",
           "num": "s",
           "gloss": "la pastelería",
-          "audio": "909fb6a47f44"
+          "audio": "909fb6a47f44",
+          "art": "la"
         },
         {
           "form": "panificio",
           "gender": "m",
           "num": "s",
           "gloss": "la panadería",
-          "audio": "124ed6c5a4dc"
+          "audio": "124ed6c5a4dc",
+          "art": "il"
         },
         {
           "form": "gelateria",
           "gender": "f",
           "num": "s",
           "gloss": "la heladería",
-          "audio": "58a21d5ed165"
+          "audio": "58a21d5ed165",
+          "art": "la"
         },
         {
           "form": "libreria",
           "gender": "f",
           "num": "s",
           "gloss": "la librería",
-          "audio": "c0c3ad8b207a"
+          "audio": "c0c3ad8b207a",
+          "art": "la"
         },
         {
           "form": "edicola",
           "gender": "f",
           "num": "s",
           "gloss": "el quiosco de diarios",
-          "audio": "6bb146a05d05"
+          "audio": "6bb146a05d05",
+          "art": "l'"
         },
         {
           "form": "macelleria",
           "gender": "f",
           "num": "s",
           "gloss": "la carnicería",
-          "audio": "9dc86f5e4a1b"
+          "audio": "9dc86f5e4a1b",
+          "art": "la"
         },
         {
           "form": "pescheria",
           "gender": "f",
           "num": "s",
           "gloss": "la pescadería",
-          "audio": "463585d1e13f"
+          "audio": "463585d1e13f",
+          "art": "la"
         },
         {
           "form": "tabaccheria",
           "gender": "f",
           "num": "s",
           "gloss": "el estanco",
-          "audio": "281a8b632346"
+          "audio": "281a8b632346",
+          "art": "la"
         },
         {
           "form": "profumeria",
           "gender": "f",
           "num": "s",
           "gloss": "la perfumería",
-          "audio": "df7b42fa9099"
+          "audio": "df7b42fa9099",
+          "art": "la"
         },
         {
           "form": "cartoleria",
           "gender": "f",
           "num": "s",
           "gloss": "la papelería",
-          "audio": "d80be687f9d5"
+          "audio": "d80be687f9d5",
+          "art": "la"
         },
         {
           "form": "gioielleria",
           "gender": "f",
           "num": "s",
           "gloss": "la joyería",
-          "audio": "01a282b2839b"
+          "audio": "01a282b2839b",
+          "art": "la"
         },
         {
           "form": "lavanderia",
           "gender": "f",
           "num": "s",
           "gloss": "la lavandería",
-          "audio": "bfd9c7c72132"
+          "audio": "bfd9c7c72132",
+          "art": "la"
         },
         {
           "form": "negozi",
           "gender": "m",
           "num": "p",
           "gloss": "las tiendas",
-          "audio": "1257db893501"
+          "audio": "1257db893501",
+          "art": "i"
         },
         {
           "form": "bottega",
           "gender": "f",
           "num": "s",
           "gloss": "la tienda pequeña",
-          "audio": "90661269c56e"
+          "audio": "90661269c56e",
+          "art": "la"
         }
       ],
       "status": "active",
@@ -10980,105 +11502,120 @@
           "gender": "m",
           "num": "s",
           "gloss": "el jabón",
-          "audio": "070128e28e6c"
+          "audio": "070128e28e6c",
+          "art": "il"
         },
         {
           "form": "spazzolino",
           "gender": "m",
           "num": "s",
           "gloss": "el cepillo de dientes",
-          "audio": "fa64791a14f6"
+          "audio": "fa64791a14f6",
+          "art": "lo"
         },
         {
           "form": "dentifricio",
           "gender": "m",
           "num": "s",
           "gloss": "la pasta de dientes",
-          "audio": "d0f57bfccac5"
+          "audio": "d0f57bfccac5",
+          "art": "il"
         },
         {
           "form": "asciugamano",
           "gender": "m",
           "num": "s",
           "gloss": "la toalla",
-          "audio": "339537f18034"
+          "audio": "339537f18034",
+          "art": "l'"
         },
         {
           "form": "pettine",
           "gender": "m",
           "num": "s",
           "gloss": "el peine",
-          "audio": "6e0280635933"
+          "audio": "6e0280635933",
+          "art": "il"
         },
         {
           "form": "doccia",
           "gender": "f",
           "num": "s",
           "gloss": "la ducha",
-          "audio": "925256899a10"
+          "audio": "925256899a10",
+          "art": "la"
         },
         {
           "form": "vasca",
           "gender": "f",
           "num": "s",
           "gloss": "la tina",
-          "audio": "6171e89b249d"
+          "audio": "6171e89b249d",
+          "art": "la"
         },
         {
           "form": "rasoio",
           "gender": "m",
           "num": "s",
           "gloss": "la máquina de afeitar",
-          "audio": "f0e78ef62318"
+          "audio": "f0e78ef62318",
+          "art": "il"
         },
         {
           "form": "shampoo",
           "gender": "m",
           "num": "s",
           "gloss": "el champú",
-          "audio": "3906b34397ea"
+          "audio": "3906b34397ea",
+          "art": "lo"
         },
         {
           "form": "profumo",
           "gender": "m",
           "num": "s",
           "gloss": "el perfume",
-          "audio": "ed1a9da10707"
+          "audio": "ed1a9da10707",
+          "art": "il"
         },
         {
           "form": "crema",
           "gender": "f",
           "num": "s",
           "gloss": "la crema",
-          "audio": "16ea6726e1a7"
+          "audio": "16ea6726e1a7",
+          "art": "la"
         },
         {
           "form": "deodorante",
           "gender": "m",
           "num": "s",
           "gloss": "el desodorante",
-          "audio": "409d629f0e5d"
+          "audio": "409d629f0e5d",
+          "art": "il"
         },
         {
           "form": "spazzola",
           "gender": "f",
           "num": "s",
           "gloss": "el cepillo del pelo",
-          "audio": "432157ee3445"
+          "audio": "432157ee3445",
+          "art": "la"
         },
         {
           "form": "trucco",
           "gender": "m",
           "num": "s",
           "gloss": "el maquillaje",
-          "audio": "e16e8c95e533"
+          "audio": "e16e8c95e533",
+          "art": "il"
         },
         {
           "form": "lavandino",
           "gender": "m",
           "num": "s",
           "gloss": "el lavamanos",
-          "audio": "34155befc838"
+          "audio": "34155befc838",
+          "art": "il"
         }
       ],
       "status": "active",
@@ -11170,140 +11707,160 @@
           "gender": "m",
           "num": "s",
           "gloss": "el amor",
-          "audio": "4e5823152492"
+          "audio": "4e5823152492",
+          "art": "l'"
         },
         {
           "form": "amicizia",
           "gender": "f",
           "num": "s",
           "gloss": "la amistad",
-          "audio": "82ad1b6ac3b8"
+          "audio": "82ad1b6ac3b8",
+          "art": "l'"
         },
         {
           "form": "idea",
           "gender": "f",
           "num": "s",
           "gloss": "la idea",
-          "audio": "766250612b00"
+          "audio": "766250612b00",
+          "art": "l'"
         },
         {
           "form": "problema",
           "gender": "m",
           "num": "s",
           "gloss": "el problema",
-          "audio": "c98484f0d20d"
+          "audio": "c98484f0d20d",
+          "art": "il"
         },
         {
           "form": "storia",
           "gender": "f",
           "num": "s",
           "gloss": "la historia",
-          "audio": "dd843b25d2b5"
+          "audio": "dd843b25d2b5",
+          "art": "la"
         },
         {
           "form": "notizia",
           "gender": "f",
           "num": "s",
           "gloss": "la noticia",
-          "audio": "4015188a7003"
+          "audio": "4015188a7003",
+          "art": "la"
         },
         {
           "form": "verità",
           "gender": "f",
           "num": "s",
           "gloss": "la verdad",
-          "audio": "b7626e95baf2"
+          "audio": "b7626e95baf2",
+          "art": "la"
         },
         {
           "form": "sogno",
           "gender": "m",
           "num": "s",
           "gloss": "el sueño (al soñar)",
-          "audio": "cac145c1b3fd"
+          "audio": "cac145c1b3fd",
+          "art": "il"
         },
         {
           "form": "gioia",
           "gender": "f",
           "num": "s",
           "gloss": "la alegría",
-          "audio": "47fef1598a29"
+          "audio": "47fef1598a29",
+          "art": "la"
         },
         {
           "form": "vita",
           "gender": "f",
           "num": "s",
           "gloss": "la vida",
-          "audio": "4f5c3486072c"
+          "audio": "4f5c3486072c",
+          "art": "la"
         },
         {
           "form": "morte",
           "gender": "f",
           "num": "s",
           "gloss": "la muerte",
-          "audio": "93eb97eb694d"
+          "audio": "93eb97eb694d",
+          "art": "la"
         },
         {
           "form": "pace",
           "gender": "f",
           "num": "s",
           "gloss": "la paz",
-          "audio": "4c1e65d64348"
+          "audio": "4c1e65d64348",
+          "art": "la"
         },
         {
           "form": "guerra",
           "gender": "f",
           "num": "s",
           "gloss": "la guerra",
-          "audio": "5128e013dd2c"
+          "audio": "5128e013dd2c",
+          "art": "la"
         },
         {
           "form": "libertà",
           "gender": "f",
           "num": "s",
           "gloss": "la libertad",
-          "audio": "6555093e3b5e"
+          "audio": "6555093e3b5e",
+          "art": "la"
         },
         {
           "form": "speranza",
           "gender": "f",
           "num": "s",
           "gloss": "la esperanza",
-          "audio": "66d80b58c92d"
+          "audio": "66d80b58c92d",
+          "art": "la"
         },
         {
           "form": "segreto",
           "gender": "m",
           "num": "s",
           "gloss": "el secreto",
-          "audio": "eaf5a7f88ef0"
+          "audio": "eaf5a7f88ef0",
+          "art": "il"
         },
         {
           "form": "successo",
           "gender": "m",
           "num": "s",
           "gloss": "el éxito",
-          "audio": "e05eb57fb832"
+          "audio": "e05eb57fb832",
+          "art": "il"
         },
         {
           "form": "errore",
           "gender": "m",
           "num": "s",
           "gloss": "el error",
-          "audio": "00ea95d6d1ad"
+          "audio": "00ea95d6d1ad",
+          "art": "l'"
         },
         {
           "form": "sorpresa",
           "gender": "f",
           "num": "s",
           "gloss": "la sorpresa",
-          "audio": "661104f7f835"
+          "audio": "661104f7f835",
+          "art": "la"
         },
         {
           "form": "bugia",
           "gender": "f",
           "num": "s",
           "gloss": "la mentira",
-          "audio": "71fd79edd828"
+          "audio": "71fd79edd828",
+          "art": "la"
         }
       ],
       "status": "active",
@@ -11403,119 +11960,137 @@
           "gender": "m",
           "num": "s",
           "gloss": "el bosque",
-          "audio": "75fb65d062b7"
+          "audio": "75fb65d062b7",
+          "art": "il"
         },
         {
           "form": "collina",
           "gender": "f",
           "num": "s",
           "gloss": "la colina",
-          "audio": "e9859c9384be"
+          "audio": "e9859c9384be",
+          "art": "la"
         },
         {
           "form": "valle",
           "gender": "f",
           "num": "s",
           "gloss": "el valle",
-          "audio": "c7c813cb8823"
+          "audio": "c7c813cb8823",
+          "art": "la",
+          "gdiv": true
         },
         {
           "form": "erba",
           "gender": "f",
           "num": "s",
           "gloss": "el pasto",
-          "audio": "7cf716e9c70a"
+          "audio": "7cf716e9c70a",
+          "art": "l'"
         },
         {
           "form": "foglia",
           "gender": "f",
           "num": "s",
           "gloss": "la hoja de un árbol",
-          "audio": "c0840dc53eba"
+          "audio": "c0840dc53eba",
+          "art": "la"
         },
         {
           "form": "pietra",
           "gender": "f",
           "num": "s",
           "gloss": "la piedra",
-          "audio": "03142ac79ba0"
+          "audio": "03142ac79ba0",
+          "art": "la"
         },
         {
           "form": "sabbia",
           "gender": "f",
           "num": "s",
           "gloss": "la arena",
-          "audio": "721c7ae64ae0"
+          "audio": "721c7ae64ae0",
+          "art": "la"
         },
         {
           "form": "onda",
           "gender": "f",
           "num": "s",
           "gloss": "la ola",
-          "audio": "7a0bb885b702"
+          "audio": "7a0bb885b702",
+          "art": "l'"
         },
         {
           "form": "campo",
           "gender": "m",
           "num": "s",
           "gloss": "el campo",
-          "audio": "bdc4e01461b5"
+          "audio": "bdc4e01461b5",
+          "art": "il"
         },
         {
           "form": "terra",
           "gender": "f",
           "num": "s",
           "gloss": "la tierra",
-          "audio": "75fa82dd35f5"
+          "audio": "75fa82dd35f5",
+          "art": "la"
         },
         {
           "form": "sentiero",
           "gender": "m",
           "num": "s",
           "gloss": "el sendero",
-          "audio": "b8555cf8198b"
+          "audio": "b8555cf8198b",
+          "art": "il"
         },
         {
           "form": "cascata",
           "gender": "f",
           "num": "s",
           "gloss": "la cascada",
-          "audio": "bebab797c5ce"
+          "audio": "bebab797c5ce",
+          "art": "la"
         },
         {
           "form": "deserto",
           "gender": "m",
           "num": "s",
           "gloss": "el desierto",
-          "audio": "509dac455cd6"
+          "audio": "509dac455cd6",
+          "art": "il"
         },
         {
           "form": "foresta",
           "gender": "f",
           "num": "s",
           "gloss": "el bosque grande",
-          "audio": "f777fc92c467"
+          "audio": "f777fc92c467",
+          "art": "la"
         },
         {
           "form": "roccia",
           "gender": "f",
           "num": "s",
           "gloss": "la roca",
-          "audio": "4af3296b3d4f"
+          "audio": "4af3296b3d4f",
+          "art": "la"
         },
         {
           "form": "vulcano",
           "gender": "m",
           "num": "s",
           "gloss": "el volcán",
-          "audio": "e2b9537761d3"
+          "audio": "e2b9537761d3",
+          "art": "il"
         },
         {
           "form": "fuoco",
           "gender": "m",
           "num": "s",
           "gloss": "el fuego",
-          "audio": "9ff6266206cb"
+          "audio": "9ff6266206cb",
+          "art": "il"
         }
       ],
       "status": "active",
@@ -11607,105 +12182,122 @@
           "gender": "f",
           "num": "s",
           "gloss": "la olla",
-          "audio": "8fd0eb75387e"
+          "audio": "8fd0eb75387e",
+          "art": "la"
         },
         {
           "form": "padella",
           "gender": "f",
           "num": "s",
           "gloss": "la sartén",
-          "audio": "a806d7f9b769"
+          "audio": "a806d7f9b769",
+          "art": "la"
         },
         {
           "form": "cucchiaino",
           "gender": "m",
           "num": "s",
           "gloss": "la cucharita",
-          "audio": "4e1ee16659b6"
+          "audio": "4e1ee16659b6",
+          "art": "il",
+          "gdiv": true
         },
         {
           "form": "tovaglia",
           "gender": "f",
           "num": "s",
           "gloss": "el mantel",
-          "audio": "2ed0911662f5"
+          "audio": "2ed0911662f5",
+          "art": "la"
         },
         {
           "form": "frigorifero",
           "gender": "m",
           "num": "s",
           "gloss": "el refrigerador",
-          "audio": "f5b29df6b668"
+          "audio": "f5b29df6b668",
+          "art": "il"
         },
         {
           "form": "forno",
           "gender": "m",
           "num": "s",
           "gloss": "el horno",
-          "audio": "1912344af13f"
+          "audio": "1912344af13f",
+          "art": "il"
         },
         {
           "form": "fornello",
           "gender": "m",
           "num": "s",
           "gloss": "la hornalla",
-          "audio": "13404a897cd9"
+          "audio": "13404a897cd9",
+          "art": "il",
+          "gdiv": true
         },
         {
           "form": "lavastoviglie",
           "gender": "f",
           "num": "s",
           "gloss": "el lavavajillas",
-          "audio": "ad86eb4e5f57"
+          "audio": "ad86eb4e5f57",
+          "art": "la"
         },
         {
           "form": "cibo",
           "gender": "m",
           "num": "s",
           "gloss": "la comida",
-          "audio": "faaa1e0ac25f"
+          "audio": "faaa1e0ac25f",
+          "art": "il"
         },
         {
           "form": "spuntino",
           "gender": "m",
           "num": "s",
           "gloss": "la colación",
-          "audio": "2fc85682e66c"
+          "audio": "2fc85682e66c",
+          "art": "lo"
         },
         {
           "form": "porzione",
           "gender": "f",
           "num": "s",
           "gloss": "la porción",
-          "audio": "1350fce96db5"
+          "audio": "1350fce96db5",
+          "art": "la"
         },
         {
           "form": "ingrediente",
           "gender": "m",
           "num": "s",
           "gloss": "el ingrediente",
-          "audio": "c69313b2ab9d"
+          "audio": "c69313b2ab9d",
+          "art": "l'"
         },
         {
           "form": "sapore",
           "gender": "m",
           "num": "s",
           "gloss": "el sabor",
-          "audio": "f604f2e06d20"
+          "audio": "f604f2e06d20",
+          "art": "il"
         },
         {
           "form": "cena",
           "gender": "f",
           "num": "s",
           "gloss": "la cena",
-          "audio": "62e5582aace0"
+          "audio": "62e5582aace0",
+          "art": "la"
         },
         {
           "form": "pranzo",
           "gender": "m",
           "num": "s",
           "gloss": "el almuerzo",
-          "audio": "89f261d63fdb"
+          "audio": "89f261d63fdb",
+          "art": "il"
         }
       ],
       "status": "active",
@@ -11795,126 +12387,144 @@
           "gender": "f",
           "num": "s",
           "gloss": "la pizarra",
-          "audio": "2be96efab9be"
+          "audio": "2be96efab9be",
+          "art": "la"
         },
         {
           "form": "gomma",
           "gender": "f",
           "num": "s",
           "gloss": "la goma de borrar",
-          "audio": "8603ffeb7e98"
+          "audio": "8603ffeb7e98",
+          "art": "la"
         },
         {
           "form": "voto",
           "gender": "m",
           "num": "s",
           "gloss": "la nota",
-          "audio": "a2638b96dac7"
+          "audio": "a2638b96dac7",
+          "art": "il"
         },
         {
           "form": "corso",
           "gender": "m",
           "num": "s",
           "gloss": "el curso",
-          "audio": "f98b97e68df6"
+          "audio": "f98b97e68df6",
+          "art": "il"
         },
         {
           "form": "maestro",
           "gender": "m",
           "num": "s",
           "gloss": "el profesor de primaria",
-          "audio": "da92ec1b9c5a"
+          "audio": "da92ec1b9c5a",
+          "art": "il"
         },
         {
           "form": "maestra",
           "gender": "f",
           "num": "s",
           "gloss": "la profesora de primaria",
-          "audio": "65c6b5f35c3f"
+          "audio": "65c6b5f35c3f",
+          "art": "la"
         },
         {
           "form": "compagno",
           "gender": "m",
           "num": "s",
           "gloss": "el compañero",
-          "audio": "b95a00553f80"
+          "audio": "b95a00553f80",
+          "art": "il"
         },
         {
           "form": "compagna",
           "gender": "f",
           "num": "s",
           "gloss": "la compañera",
-          "audio": "7e4806bd2bab"
+          "audio": "7e4806bd2bab",
+          "art": "la"
         },
         {
           "form": "materia",
           "gender": "f",
           "num": "s",
           "gloss": "la asignatura",
-          "audio": "f5c44c2be5af"
+          "audio": "f5c44c2be5af",
+          "art": "la"
         },
         {
           "form": "testo",
           "gender": "m",
           "num": "s",
           "gloss": "el texto",
-          "audio": "c0b333c1f24f"
+          "audio": "c0b333c1f24f",
+          "art": "il"
         },
         {
           "form": "pagina",
           "gender": "f",
           "num": "s",
           "gloss": "la página",
-          "audio": "7a872283c6d7"
+          "audio": "7a872283c6d7",
+          "art": "la"
         },
         {
           "form": "frase",
           "gender": "f",
           "num": "s",
           "gloss": "la oración",
-          "audio": "f3f42349f658"
+          "audio": "f3f42349f658",
+          "art": "la"
         },
         {
           "form": "parola",
           "gender": "f",
           "num": "s",
           "gloss": "la palabra",
-          "audio": "83592796bc17"
+          "audio": "83592796bc17",
+          "art": "la"
         },
         {
           "form": "lingua",
           "gender": "f",
           "num": "s",
           "gloss": "el idioma",
-          "audio": "966140b149b5"
+          "audio": "966140b149b5",
+          "art": "la"
         },
         {
           "form": "grammatica",
           "gender": "f",
           "num": "s",
           "gloss": "la gramática",
-          "audio": "d33f7a2c4db1"
+          "audio": "d33f7a2c4db1",
+          "art": "la"
         },
         {
           "form": "traduzione",
           "gender": "f",
           "num": "s",
           "gloss": "la traducción",
-          "audio": "4be4e3eda32d"
+          "audio": "4be4e3eda32d",
+          "art": "la"
         },
         {
           "form": "diploma",
           "gender": "m",
           "num": "s",
           "gloss": "el diploma",
-          "audio": "c2a7adb21d9a"
+          "audio": "c2a7adb21d9a",
+          "art": "il"
         },
         {
           "form": "laurea",
           "gender": "f",
           "num": "s",
           "gloss": "el título universitario",
-          "audio": "abbfc36ee97e"
+          "audio": "abbfc36ee97e",
+          "art": "la"
         }
       ],
       "status": "active",

@@ -2,6 +2,15 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-22 (noche) — Fase 1: traducciones y vocabulario con artículo
+**Traducciones:** 5 subagentes revisaron las 2.204 oraciones usadas en unidades (italiano→español): marcaron 53 (2,4 %); más 11 cambios mecánicos de vocabulario de España («coche»→«auto», «gafas»→«lentes»). 64 oraciones retraducidas con `scripts/retranslate.py` (quedan `translation_kind=llm`, marcadas) y re-exportadas. Lo más grave eran los «vorrei» traducidos «quiero» (ahora «quisiera»), «vosotros» y la persona/género. Una muestra mía de 45 pares sin marcar no halló errores de sentido; la auditoría es de IA, **no de un nativo**, y pudo dejar pasar casos. Respaldo de la base: `data/work/authoring.pre-traducciones.db` (fuera de git).
+
+**Vocabulario (paso Palabras y Repaso):** el sustantivo se muestra con su artículo italiano (580 de 795 palabras: «il latte», «l'acqua»); 23 llevan aviso «género distinto del español» (solo palabras parientes: latte/leche, sangue/sangre…); 7 falsos amigos del catálogo avisan en la lista (+ `topo`, de la tabla de la fuente 3285814c). Género/número añadidos a mano a 60 sustantivos de las unidades de sonidos en `schemas/data/course.json`. El género de las 795 palabras lo escribió el proyecto antes y solo revisé terminaciones inusuales: sin verificar por un nativo. Quedan 194 palabras sin artículo (adjetivos, verbos, adverbios).
+
+**Pruebas:** Python 1.217 (con la base de datos real enlazada) y web 757 en verde; se construye la app. Sigue sin correr `tsc`.
+
+**Fuera de este paso (decidido):** «quitar el relleno por minutos» se mueve a la Fase 2, porque es parte del rediseño del ciclo de unidad (cuatro hebras), no un arreglo suelto. Falta aún: oraciones nuevas para u07, u02, u05.
+
 ## 2026-11-22 (tarde) — Fase 1, primer paso: oraciones y pruebas de A1
 **Hecho:** el generador del curso (`pipeline/exercises/course.py`) ahora filtra las oraciones de unidades A1 con el prefiltro de auditoría (quita imperfetto, congiuntivo, condicional, >14 palabras, temas inadecuados): 70 de 2.591 oraciones salieron de las unidades. Causa raíz de la «unidad 1 difícil»: la prueba reservaba a propósito las 6 oraciones MÁS difíciles; ahora se reparte por todo el rango. En las unidades de sonidos el texto «Error típico de hispanohablantes» pasó a «Así no se escribe (no sonaría igual)», porque esas grafías las arma el generador y no son errores documentados. Reconstruir el contenido es determinista (se comprobó que reproduce lo publicado byte a byte antes de cambiar nada).
 
