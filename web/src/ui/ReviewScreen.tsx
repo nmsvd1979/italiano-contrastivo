@@ -3,6 +3,7 @@ import type { ContentPack, Lexeme } from "../content/load";
 import { GENDER_NOTE, wordLexeme, withArticle } from "../state/words";
 import type { Card } from "../generated/card";
 import { afterReview, normalizeDay, pickItem, ratingFromAnswer, reviewQueue, type ReviewEntry } from "../state/session";
+import { fixItemOf } from "../state/fixes";
 import { newCard, review } from "../state/srs";
 import { localDate, type Store } from "../state/store";
 import { loadSamples } from "../state/timing";
@@ -75,6 +76,19 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
     setI(i + 1);
   };
 
+  const fixItem = card ? fixItemOf(card) : undefined;
+  if (fixItem) {
+    return (
+      <main className="focus">
+        <RunProvider value={{ why: "Esta frase la escribiste tú y una corrección la arregló: es justo el tipo de error que conviene fijar." }}>
+          <FocusHead progress={i / Math.max(1, queue.length)} exitHref="#/" />
+          <p className="runner-meta">Repaso {i + 1} de {queue.length} · una corrección de tu texto</p>
+          {saveError && <p role="alert" className="alert">No se pudo guardar tu respuesta. Inténtalo de nuevo.</p>}
+          <ItemView key={`${card!.id}-${i}`} item={fixItem} onAnswer={(c) => grade(ratingFromAnswer(c))} />
+        </RunProvider>
+      </main>
+    );
+  }
   if (!lexeme && !(items && items.length)) return <main><p>Este repaso no tiene ejercicios todavía.</p><button type="button" onClick={() => setI(i + 1)}>Saltar</button></main>;
   const why = card?.subject.kind === "error_code" ? pack.capsules.find((c) => c.target_error_codes[0] === card.subject.ref)?.explanation.text_es : undefined;
   return (

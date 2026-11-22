@@ -6,7 +6,7 @@
 export interface Card {
   id: string;
   subject: {
-    kind: "lexeme" | "error_code";
+    kind: "lexeme" | "error_code" | "writing_fix";
     ref: string;
   };
   lexical_type: "cognate" | "neutral" | "false_friend" | "not_applicable";
@@ -29,4 +29,8 @@ export interface Card {
     last_review?: string;
     learning_steps: number;
   };
+  /**
+   * Datos propios de la tarjeta. Para writing_fix: el ejercicio ({item}) armado desde una corrección de un texto del usuario, con lo que escribió (wrong) y lo correcto (right).
+   */
+  payload?: {};
 }

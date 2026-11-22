@@ -4,7 +4,7 @@
 from __future__ import annotations
 
 from enum import Enum
-from typing import Annotated
+from typing import Annotated, Any
 
 from pydantic import AwareDatetime, BaseModel, ConfigDict, Field
 
@@ -12,6 +12,7 @@ from pydantic import AwareDatetime, BaseModel, ConfigDict, Field
 class Kind(Enum):
     lexeme = 'lexeme'
     error_code = 'error_code'
+    writing_fix = 'writing_fix'
 
 
 class Subject(BaseModel):
@@ -64,3 +65,9 @@ class Card(BaseModel):
             description='Card de ts-fsrs 6.0.0 serializada a JSON (fechas ISO 8601). elapsed_days está obsoleto en esa versión y es opcional.'
         ),
     ]
+    payload: Annotated[
+        dict[str, Any] | None,
+        Field(
+            description='Datos propios de la tarjeta. Para writing_fix: el ejercicio ({item}) armado desde una corrección de un texto del usuario, con lo que escribió (wrong) y lo correcto (right).'
+        ),
+    ] = None

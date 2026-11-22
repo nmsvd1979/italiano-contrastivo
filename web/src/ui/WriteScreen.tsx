@@ -18,12 +18,12 @@ export function WriteScreen({ pack, store }: { pack: ContentPack; store: Store }
         <button type="button" aria-pressed={mode === "reconstruir"} className={mode === "reconstruir" ? "primary" : ""} style={{ flex: 1 }} onClick={() => setMode("reconstruir")}>Reconstruir un texto</button>
         <button type="button" aria-pressed={mode === "texto"} className={mode === "texto" ? "primary" : ""} style={{ flex: 1 }} onClick={() => setMode("texto")}>Mi propio texto</button>
       </div>
-      {mode === "reconstruir" ? <ReconstructPanel pack={pack} /> : <OwnText />}
+      {mode === "reconstruir" ? <ReconstructPanel pack={pack} /> : <OwnText store={store} />}
     </main>
   );
 }
 
-function OwnText() {
+function OwnText({ store }: { store: Store }) {
   const [text, setText] = useState("");
   const [checked, setChecked] = useState<{ text: string; errors: WritingError[] } | null>(null);
   return (
@@ -49,7 +49,7 @@ function OwnText() {
           <p><small>Revisión automática con reglas propias; cubre solo 8 patrones y puede equivocarse.</small></p>
         </section>
       )}
-      {text.trim() && <CorrectionPanel text={text} />}
+      {text.trim() && <CorrectionPanel text={text} store={store} />}
     </section>
   );
 }

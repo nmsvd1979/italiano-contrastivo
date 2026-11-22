@@ -19,7 +19,7 @@ export const FILLER_MAX = 20;
 export type ReviewEntry = { card: Card } | { lexeme: Lexeme } | { filler: Item };
 
 export const entrySeconds = (e: ReviewEntry, samples: Samples = {}): number =>
-  "filler" in e ? estimateSeconds(kindOf(e.filler), samples) : estimateSeconds("card" in e && e.card.subject.kind === "error_code" ? "choice" : "flashcard", samples);
+  "filler" in e ? estimateSeconds(kindOf(e.filler), samples) : estimateSeconds("card" in e ? (e.card.subject.kind === "error_code" ? "choice" : e.card.subject.kind === "writing_fix" ? "cloze" : "flashcard") : "flashcard", samples);
 export type TodayPlan = {
   review: { due: number; newAvailable: number; doneToday: number; cap: number; seconds: number; filler: number };
   /** Unidad actual y su siguiente paso (null si no queda ninguna unidad por hacer). */

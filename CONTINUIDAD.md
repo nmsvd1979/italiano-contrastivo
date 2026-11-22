@@ -2,6 +2,12 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-22 (noche, 8) — Errores corregidos por IA → repaso espaciado
+**Pregunta del usuario: ¿el cambio de unidad se mide por contenido o por tiempo?** Ya es por contenido: una unidad se completa aprobando la prueba escrita (≥80 %, `applyTest` en `course.ts`) y sus pasos van en orden; ningún paso exige haber estudiado X minutos. El tiempo solo dimensiona cuántos ítems trae cada paso y se muestra como estimación; lo medido va en «Tu semana». Si algún día se cambia el relleno, será por contenido (p. ej. práctica hasta N aciertos seguidos) y con datos.
+**Hecho:** en «Mi propio texto → Pedir corrección», al pegar la respuesta de la IA aparece «Guardar N correcciones para repasarlas». Cada oración corregida se vuelve una tarjeta de repaso espaciado (FSRS) con un hueco con lo que cambió y de pista lo que habías escrito («Antes escribiste: «ho»»); si solo sobraba una palabra (p. ej. «a» personal), se elige entre la versión correcta y la escrita. `web/src/state/fixes.ts`; esquema `card.schema.json` con subject `writing_fix` y `payload` (tipos TS y Python regenerados); el ejercicio viaja dentro de la tarjeta, así entra solo a la copia de seguridad. Máximo 6 por corrección; no se duplican.
+**Verificado:** web 858 y Python 818 pruebas en verde (incluye guardar → aparecer en el repaso → calificar → FSRS); la app se construye. **No verificado:** mirarlo en pantalla (solo prueba automática de interfaz) ni con una corrección real de una IA.
+**Nota del usuario:** la IA no será su método principal de corrección; esta función es un complemento (por eso es mínima).
+
 ## 2026-11-22 (noche, 7) — Tiempo real por hebra («Tu semana») en lugar de reformar el relleno
 **Decisión (mía, a explicar):** no reformé el «relleno por minutos» todavía. Rellenar cada paso hasta un tiempo objetivo repite la misma oración en varios formatos (práctica de recuperación, no solo relleno); lo dañino era *afirmar* «62 min por unidad = 50 h» con tiempos supuestos. Cambiarlo sin datos de uso real sería otra suposición. Primero se mide.
 **Hecho:**

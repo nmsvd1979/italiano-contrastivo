@@ -1,8 +1,9 @@
-import { cleanup, fireEvent, render, screen } from "@testing-library/react";
+import { cleanup, fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { readFileSync } from "node:fs";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import type { ContentPack } from "../content/load";
 import { memoryStore } from "../state/store";
+import { ReviewScreen } from "./ReviewScreen";
 import { WriteScreen } from "./WriteScreen";
 
 afterEach(cleanup);
@@ -51,5 +52,30 @@ describe("Mi propio texto y «Pedir corrección»", () => {
     fireEvent.change(screen.getByLabelText("Tu texto en italiano"), { target: { value: "Ciao" } });
     fireEvent.change(screen.getByLabelText("Pega aquí la respuesta de la IA"), { target: { value: "Todo bien." } });
     expect(screen.getByRole("alert").textContent).toMatch(/TEXTO CORREGIDO/);
+  });
+});
+
+describe("errores corregidos → repaso", () => {
+  it("guardar las correcciones crea tarjetas que salen en el repaso como hueco y se califican", async () => {
+    const store = memoryStore();
+    render(<WriteScreen pack={pack} store={store} />);
+    fireEvent.click(screen.getByText("Mi propio texto"));
+    fireEvent.change(screen.getByLabelText("Tu texto en italiano"), { target: { value: "Io ho andato a Roma." } });
+    fireEvent.change(screen.getByLabelText("Pega aquí la respuesta de la IA"), { target: { value: "TEXTO CORREGIDO:\nIo sono andato a Roma." } });
+    const save = screen.getByText(/Guardar 1 corrección para repasarlas/);
+    fireEvent.click(save);
+    expect(await screen.findByText(/Guardadas 1: saldrán en tu repaso/)).toBeTruthy();
+    const cards = await store.allCards();
+    expect(cards.filter((c) => c.subject.kind === "writing_fix")).toHaveLength(1);
+    cleanup();
+    // el repaso la muestra (tarjeta nueva = vence ya)
+    render(<ReviewScreen pack={pack} store={store} now={new Date(Date.now() + 1000)} />);
+    expect(await screen.findByText(/una corrección de tu texto/)).toBeTruthy();
+    expect(screen.getByText(/Antes escribiste: «ho»/)).toBeTruthy();
+    fireEvent.change(screen.getByLabelText("Respuesta"), { target: { value: "sono" } });
+    fireEvent.click(screen.getByText("Comprobar"));
+    fireEvent.click(await screen.findByText("Continuar"));
+    await waitFor(async () => expect((await store.allCards()).find((c) => c.subject.kind === "writing_fix")!.fsrs.reps).toBe(1));
+    expect((await store.allLogs())).toHaveLength(1);
   });
 });

@@ -28,7 +28,8 @@
         "kind": {
           "enum": [
             "lexeme",
-            "error_code"
+            "error_code",
+            "writing_fix"
           ]
         },
         "ref": {
@@ -119,6 +120,10 @@
           "minimum": 0
         }
       }
+    },
+    "payload": {
+      "type": "object",
+      "description": "Datos propios de la tarjeta. Para writing_fix: el ejercicio ({item}) armado desde una corrección de un texto del usuario, con lo que escribió (wrong) y lo correcto (right)."
     }
   }
 }
