@@ -1,0 +1,85 @@
+{
+  "id": "doc_lista",
+  "title": "La lista della spesa",
+  "level": "A1",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Lista de compras escrita por la IA; documento tipo PLIDA A1 «listas de compra».",
+  "table": {
+    "head": [
+      "Da comprare"
+    ],
+    "rows": [
+      [
+        "pane"
+      ],
+      [
+        "latte"
+      ],
+      [
+        "uova"
+      ],
+      [
+        "mele"
+      ],
+      [
+        "pasta"
+      ],
+      [
+        "formaggio"
+      ],
+      [
+        "acqua"
+      ],
+      [
+        "caffè"
+      ]
+    ]
+  },
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿Cuántas cosas hay que comprar?",
+      "options": [
+        "Ocho",
+        "Seis",
+        "Diez"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Qué fruta hay en la lista?",
+      "options": [
+        "Manzanas",
+        "Naranjas",
+        "Plátanos"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Cuál NO es una bebida?",
+      "options": [
+        "Latte",
+        "Pane",
+        "Acqua"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Qué se necesita para hacer pasta?",
+      "options": [
+        "Pasta y queso",
+        "Solo huevos",
+        "Café"
+      ],
+      "answer": 0
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

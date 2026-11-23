@@ -119,7 +119,7 @@ def test_los_codigos_cubiertos():
         "ERR_VOC_ASTRATTI", "ERR_VOC_NATURA", "ERR_VOC_CUCINA", "ERR_VOC_SCUOLA",
         "ERR_GENERE_ES", "ERR_INDEFINITE_ARTICLE", "ERR_RIFLESSIVO_PRONOME", "ERR_PARTICIPIO_ES", "ERR_VOC_DIREZIONI",
         "ERR_ORA_ES", "ERR_CHIAMARSI", "ERR_PRONOME_TONICO", "ERR_IMPERATIVO_FORMA", "ERR_GN_Z_SPELLING", "ERR_CONSONANTE_DOPPIA", "ERR_VOC_VORREI",
-        "ERR_VOC_CONNETTIVI", "ERR_VOC_ACCORDO", "ERR_VOC_PREPOSIZIONI", "ERR_PLURAL_FORMA", "ERR_IMPERATIVO_NEG"}
+        "ERR_VOC_CONNETTIVI", "ERR_VOC_ACCORDO", "ERR_VOC_PREPOSIZIONI", "ERR_PLURAL_FORMA", "ERR_IMPERATIVO_NEG", "ERR_STARE_GERUNDIO", "ERR_CLITICO_MI_TI", "ERR_VOC_COMUNICAZIONE", "ERR_VOC_SERVIZI"}
     assert find_calque("ERR_NO_EXISTE", "Ho fame.") is None
 
 
@@ -163,6 +163,8 @@ def test_ningun_calco_aparece_en_el_corpus_validado():
                 assert not bare, (code, phrase)
             else:
                 pattern = phrase if code == "ERR_COMPARATIVE_DI" else re.escape(phrase)
+                if code == "ERR_PERSONAL_A":  # «un messaggio a Tom» es un complemento indirecto correcto, no la «a» personal española
+                    pattern = r"(?<!messaggio )(?<!scrivi )(?<!telefona )" + pattern
                 assert not re.search(r"(?<!\w)" + pattern + r"(?!\w)", corpus.lower()), (code, phrase)
     assert hits > 0
 

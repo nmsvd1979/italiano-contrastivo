@@ -2709,5 +2709,109 @@
  "contro": {
   "k": "transparente",
   "n": "contro = contra"
+ },
+ "messaggio": {
+  "k": "transparente",
+  "n": "messaggio = mensaje"
+ },
+ "chiamata": {
+  "k": "opaca",
+  "n": "chiamata = llamada"
+ },
+ "internet": {
+  "k": "transparente"
+ },
+ "tastiera": {
+  "k": "opaca",
+  "n": "tastiera = teclado"
+ },
+ "sito": {
+  "k": "opaca",
+  "n": "sito = sitio web"
+ },
+ "radio": {
+  "k": "transparente"
+ },
+ "numero": {
+  "k": "transparente",
+  "n": "numero = número"
+ },
+ "mail": {
+  "k": "transparente",
+  "n": "mail = correo electrónico"
+ },
+ "canale": {
+  "k": "transparente",
+  "n": "canale = canal"
+ },
+ "applicazione": {
+  "k": "regular",
+  "r": "cion-zione",
+  "n": "applicazione = aplicación"
+ },
+ "videogioco": {
+  "k": "opaca",
+  "n": "videogioco = videojuego"
+ },
+ "rete": {
+  "k": "opaca",
+  "n": "rete = red"
+ },
+ "linea": {
+  "k": "transparente",
+  "n": "linea = línea"
+ },
+ "posta": {
+  "k": "opaca",
+  "n": "posta = correo"
+ },
+ "polizia": {
+  "k": "transparente",
+  "n": "polizia = policía"
+ },
+ "francobollo": {
+  "k": "opaca",
+  "n": "francobollo = estampilla"
+ },
+ "pacco": {
+  "k": "opaca",
+  "n": "pacco = paquete"
+ },
+ "sportello": {
+  "k": "opaca",
+  "n": "sportello = ventanilla"
+ },
+ "modulo": {
+  "k": "opaca",
+  "n": "modulo = formulario (no «módulo»)",
+  "ff": true
+ },
+ "documento": {
+  "k": "transparente"
+ },
+ "carta": {
+  "k": "opaca",
+  "n": "carta = tarjeta o papel (no «carta» de correo: es lettera)"
+ },
+ "biglietteria": {
+  "k": "opaca",
+  "n": "biglietteria = boletería"
+ },
+ "dogana": {
+  "k": "opaca",
+  "n": "dogana = aduana"
+ },
+ "cartolina": {
+  "k": "opaca",
+  "n": "cartolina = postal"
+ },
+ "busta": {
+  "k": "opaca",
+  "n": "busta = sobre"
+ },
+ "informazione": {
+  "k": "regular",
+  "r": "cion-zione",
+  "n": "informazione = información"
  }
 }

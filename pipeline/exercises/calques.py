@@ -430,6 +430,34 @@ def _imperativo_neg(it: str):
     return Calque("ERR_IMPERATIVO_NEG", m.start(1), m.end(1), m.group(1), tu, "morphological")
 
 
+_STARE = re.compile(r"\b(sto|stai|sta|stiamo|state|stanno)\s+(\w+(?:ando|endo))\b", re.I)
+_STARE_ESSERE = {"sto": "sono", "stai": "sei", "sta": "è", "stiamo": "siamo", "state": "siete", "stanno": "sono"}
+
+
+def _stare_gerundio(it: str):
+    """«Sto mangiando» (no «sono mangiando»): la acción en curso es stare + gerundio; el español usa «estar», pero «estar» no es «essere» aquí."""
+    found = [m for m in _STARE.finditer(it) if not m.group(2).lower().startswith("stand")]
+    if len(found) != 1:
+        return None
+    m = found[0]
+    w = m.group(1)
+    return Calque("ERR_STARE_GERUNDIO", m.start(1), m.end(1), w, _cap(_STARE_ESSERE[w.lower()], w), "l1_calque")
+
+
+_MI_TI = re.compile(r"\b(mi|ti)\s+(amo|ami|ama|vedo|vedi|vede|sento|senti|sente|capisco|capisci|capisce|aiuto|aiuti|aiuta|conosco|conosci|conosce|chiami|chiama|chiamo|voglio|vuoi|vuole)\b", re.I)
+_MI_TI_ES = {"mi": "me", "ti": "te"}
+
+
+def _mi_ti(it: str):
+    """«Ti amo», «mi vedi» (no «te amo», «me ves»): los pronombres átonos de 1.ª y 2.ª persona son mi y ti; me y te son del español."""
+    found = [m for m in _MI_TI.finditer(it) if not (m.group(2).lower().startswith("chiam") and m.group(1).lower() == "mi")]   # «mi chiamo» es otra unidad
+    if len(found) != 1:
+        return None
+    m = found[0]
+    p = m.group(1)
+    return Calque("ERR_CLITICO_MI_TI", m.start(1), m.end(1), p, _cap(_MI_TI_ES[p.lower()], p), "l1_calque")
+
+
 _GENERATORS: dict[str, Callable[[str], Calque | None]] = {
     "ERR_AUX_ESSERE": _aux_essere,
     "ERR_PREP_PLACE": _prep_place,
@@ -453,6 +481,8 @@ _GENERATORS: dict[str, Callable[[str], Calque | None]] = {
     "ERR_PRONOME_TONICO": _tonico,
     "ERR_IMPERATIVO_FORMA": _imperativo,
     "ERR_PLURAL_FORMA": _plural,
+    "ERR_STARE_GERUNDIO": _stare_gerundio,
+    "ERR_CLITICO_MI_TI": _mi_ti,
     "ERR_IMPERATIVO_NEG": _imperativo_neg,
     **{c: _vocab_for(c) for c in _vocab_codes()},
     **{c: _phonetic_for(c) for c in ("ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL", "ERR_GN_Z_SPELLING", "ERR_CONSONANTE_DOPPIA")},

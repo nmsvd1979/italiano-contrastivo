@@ -1,0 +1,129 @@
+{
+  "id": "rd_telefono",
+  "title": "Al telefono: lasciare un messaggio",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo escrito por la IA con «Pronto», «Lasci un messaggio» (Tatoeba), los números del curso y los nombres de las letras de Piacere!; muestra cómo dar y deletrear datos por teléfono.",
+  "sentences": [
+    {
+      "id": "rd_telefono_00",
+      "it": "Pronto, studio Bianchi, buongiorno.",
+      "es": "Aló, consulta Bianchi, buenos días.",
+      "speaker": "Segretaria"
+    },
+    {
+      "id": "rd_telefono_01",
+      "it": "Buongiorno. Sono Paolo Verdi. Vorrei parlare con il dottor Bianchi.",
+      "es": "Buenos días. Soy Paolo Verdi. Quisiera hablar con el doctor Bianchi.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_telefono_02",
+      "it": "Mi dispiace, il dottore sta parlando con un paziente. Vuole lasciare un messaggio?",
+      "es": "Lo siento, el doctor está hablando con un paciente. ¿Quiere dejar un mensaje?",
+      "speaker": "Segretaria"
+    },
+    {
+      "id": "rd_telefono_03",
+      "it": "Sì, grazie. Il mio numero è tre tre tre, uno due tre, quattro cinque sei sette.",
+      "es": "Sí, gracias. Mi número es tres tres tres, uno dos tres, cuatro cinco seis siete.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_telefono_04",
+      "it": "Può chiamare domani mattina?",
+      "es": "¿Puede llamar mañana en la mañana?",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_telefono_05",
+      "it": "Certo. Come si scrive il Suo cognome?",
+      "es": "Claro. ¿Cómo se escribe su apellido?",
+      "speaker": "Segretaria"
+    },
+    {
+      "id": "rd_telefono_06",
+      "it": "Verdi: vu, e, erre, di, i.",
+      "es": "Verdi: ve, e, erre, de, i.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_telefono_07",
+      "it": "Perfetto, signor Verdi. Il dottore chiama domani mattina.",
+      "es": "Perfecto, señor Verdi. El doctor llama mañana en la mañana.",
+      "speaker": "Segretaria"
+    },
+    {
+      "id": "rd_telefono_08",
+      "it": "Grazie mille. Arrivederci!",
+      "es": "Muchas gracias. ¡Hasta luego!",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_telefono_09",
+      "it": "Arrivederci, buona giornata!",
+      "es": "Hasta luego, ¡que tenga un buen día!",
+      "speaker": "Segretaria"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Con quién quiere hablar Paolo?",
+      "options": [
+        "Con el doctor Bianchi",
+        "Con la secretaria",
+        "Con su jefe"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Por qué no puede hablar con él?",
+      "options": [
+        "Está en una reunión",
+        "Está hablando con un paciente",
+        "El teléfono está roto"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Qué le propone la secretaria?",
+      "options": [
+        "Esperar",
+        "Dejar un mensaje",
+        "Llamar a otro número"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Cuándo quiere Paolo que lo llamen?",
+      "options": [
+        "Mañana en la mañana",
+        "Hoy en la tarde",
+        "El lunes"
+      ],
+      "answer": 0,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Cómo se escribe su apellido?",
+      "options": [
+        "vu, e, erre, di, i",
+        "bi, e, erre, di, i",
+        "vu, i, erre, di, e"
+      ],
+      "answer": 0,
+      "evidence": 6
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

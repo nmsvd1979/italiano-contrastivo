@@ -1005,6 +1005,10 @@
 "k": "regular",
 "r": "ll-chi"
 },
+"chiamare": {
+"g": "llamar",
+"k": "opaca"
+},
 "chiami": {
 "g": "te llamas",
 "k": "regular",
@@ -1055,12 +1059,20 @@
 "g": "preguntado, pedido",
 "k": "opaca"
 },
+"chili": {
+"g": "kilos",
+"k": "transparente"
+},
 "chimica": {
 "g": "química",
 "k": "transparente"
 },
 "chiodi": {
 "g": "clavos",
+"k": "opaca"
+},
+"chiude": {
+"g": "cierra",
 "k": "opaca"
 },
 "ci": {
@@ -1089,6 +1101,11 @@
 },
 "cinquanta": {
 "g": "cincuenta",
+"k": "regular",
+"r": "otro"
+},
+"cinque": {
+"g": "cinco",
 "k": "regular",
 "r": "otro"
 },
@@ -1174,6 +1191,14 @@
 },
 "commessi": {
 "g": "dependientes",
+"k": "opaca"
+},
+"compilare": {
+"g": "llenar (un formulario)",
+"k": "opaca"
+},
+"compili": {
+"g": "llene / complete",
 "k": "opaca"
 },
 "compiti": {
@@ -1543,6 +1568,10 @@
 "k": "regular",
 "r": "doble"
 },
+"dipende": {
+"g": "depende",
+"k": "transparente"
+},
 "dire": {
 "g": "decir",
 "k": "transparente"
@@ -1578,6 +1607,11 @@
 "documento": {
 "g": "documento",
 "k": "transparente"
+},
+"dodici": {
+"g": "doce",
+"k": "regular",
+"r": "otro"
 },
 "dolce": {
 "g": "dulce / postre",
@@ -1616,6 +1650,14 @@
 "dormo": {
 "g": "duermo",
 "k": "opaca"
+},
+"dottor": {
+"g": "doctor",
+"k": "transparente"
+},
+"dottore": {
+"g": "doctor / médico",
+"k": "transparente"
 },
 "dov": {
 "g": "dónde (dov'è = dónde está)",
@@ -1700,6 +1742,10 @@
 "erano": {
 "g": "eran / estaban",
 "k": "transparente"
+},
+"erre": {
+"g": "erre (nombre de la letra r)",
+"k": "opaca"
 },
 "esame": {
 "g": "examen",
@@ -1937,6 +1983,10 @@
 "francese": {
 "g": "francés",
 "k": "transparente"
+},
+"francobollo": {
+"g": "estampilla / sello",
+"k": "opaca"
 },
 "fratelli": {
 "g": "hermanos",
@@ -2366,6 +2416,14 @@
 "g": "nombre propio",
 "k": "transparente"
 },
+"lasciare": {
+"g": "dejar",
+"k": "opaca"
+},
+"lasciate": {
+"g": "dejen",
+"k": "opaca"
+},
 "latte": {
 "g": "leche",
 "k": "opaca"
@@ -2437,6 +2495,10 @@
 "leone": {
 "g": "león",
 "k": "transparente"
+},
+"lettera": {
+"g": "carta (de correo)",
+"k": "opaca"
 },
 "letti": {
 "g": "leídos",
@@ -2602,6 +2664,10 @@
 },
 "male": {
 "g": "mal / dolor",
+"k": "transparente"
+},
+"mandare": {
+"g": "mandar / enviar",
 "k": "transparente"
 },
 "mando": {
@@ -2813,6 +2879,10 @@
 "g": "moderno",
 "k": "transparente"
 },
+"modulo": {
+"g": "formulario",
+"k": "opaca"
+},
 "moglie": {
 "g": "esposa",
 "k": "opaca"
@@ -2993,6 +3063,15 @@
 "g": "nuestro",
 "k": "transparente"
 },
+"nove": {
+"g": "nueve",
+"k": "regular",
+"r": "otro"
+},
+"numero": {
+"g": "número",
+"k": "transparente"
+},
 "nuotato": {
 "g": "nadado",
 "k": "opaca"
@@ -3121,6 +3200,10 @@
 "k": "regular",
 "r": "otro"
 },
+"pacco": {
+"g": "paquete",
+"k": "opaca"
+},
 "padre": {
 "g": "padre",
 "k": "transparente"
@@ -3192,6 +3275,10 @@
 "parla": {
 "g": "habla",
 "k": "opaca"
+},
+"parlando": {
+"g": "hablando",
+"k": "transparente"
 },
 "parlano": {
 "g": "hablan",
@@ -3280,6 +3367,10 @@
 "g": "pavimento / piso",
 "k": "transparente"
 },
+"paziente": {
+"g": "paciente",
+"k": "transparente"
+},
 "penna": {
 "g": "bolígrafo",
 "k": "opaca"
@@ -3329,6 +3420,10 @@
 "k": "regular",
 "r": "otro",
 "n": "peso→pesi plural"
+},
+"peso": {
+"g": "peso",
+"k": "transparente"
 },
 "pesto": {
 "g": "pesto",
@@ -3764,6 +3859,11 @@
 "g": "casi",
 "k": "transparente"
 },
+"quattordici": {
+"g": "catorce",
+"k": "regular",
+"r": "otro"
+},
 "quattro": {
 "g": "cuatro",
 "k": "regular",
@@ -3831,6 +3931,11 @@
 "quindi": {
 "g": "por lo tanto",
 "k": "opaca"
+},
+"quindici": {
+"g": "quince",
+"k": "regular",
+"r": "otro"
 },
 "quinto": {
 "g": "quinto",
@@ -4149,6 +4254,11 @@
 "g": "dieciséis",
 "k": "opaca"
 },
+"segnale": {
+"g": "señal",
+"k": "regular",
+"r": "otro"
+},
 "seguire": {
 "g": "seguir",
 "k": "transparente"
@@ -4194,6 +4304,10 @@
 "g": "cerraduras",
 "k": "opaca"
 },
+"serve": {
+"g": "se necesita / sirve",
+"k": "opaca"
+},
 "sette": {
 "g": "siete",
 "k": "regular",
@@ -4232,6 +4346,10 @@
 "siena": {
 "g": "nombre propio",
 "k": "transparente"
+},
+"siete": {
+"g": "sois / son (ustedes)",
+"k": "opaca"
 },
 "significa": {
 "g": "significa",
@@ -4359,6 +4477,10 @@
 },
 "spaghetti": {
 "g": "espaguetis",
+"k": "transparente"
+},
+"spagna": {
+"g": "España",
 "k": "transparente"
 },
 "spagnolo": {
@@ -4762,6 +4884,11 @@
 "g": "tres",
 "k": "transparente"
 },
+"tredici": {
+"g": "trece",
+"k": "regular",
+"r": "otro"
+},
 "tremila": {
 "g": "tres mil",
 "k": "transparente"
@@ -5148,6 +5275,10 @@
 },
 "vorrei": {
 "g": "quisiera",
+"k": "opaca"
+},
+"vu": {
+"g": "vu (nombre de la letra v)",
 "k": "opaca"
 },
 "vuoi": {

@@ -167,7 +167,7 @@ export function ModuleTextScreen({ moduleId, textId, pack, store }: { moduleId: 
   const exit = `#/modulo/${moduleId}`;
   if (!reading) return <main><p>No encuentro ese texto.</p><p><a className="button" href={exit}>Ver el módulo</a></p></main>;
   if (done) return <Done title="Texto leído ✓" text="Puedes volver a leerlo cuando quieras. Estos textos no cuentan para completar el módulo: sirven para practicar la lectura real." exit={exit} />;
-  return <main className="focus"><ReadingStep reading={reading} words={pack.readingWords} exitHref={exit} hideTranslation onFinish={() => setDone(true)} /></main>;
+  return <main className="focus"><ReadingStep reading={reading} words={pack.readingWords} exitHref={exit} hideTranslation listenOnly={!!reading.listen && !reading.exam} onFinish={() => setDone(true)} /></main>;
 }
 
 export const moduleStepTitle = (s: ModuleStepId) => MODULE_STEP_LABEL[s];

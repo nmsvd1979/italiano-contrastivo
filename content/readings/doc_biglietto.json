@@ -1,0 +1,98 @@
+{
+  "id": "doc_biglietto",
+  "title": "Il biglietto del treno",
+  "level": "A1",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Boleto de tren escrito por la IA (campos habituales de un boleto regional); documento tipo PLIDA A1 «billetes».",
+  "table": {
+    "head": [
+      "Campo",
+      "Dato"
+    ],
+    "rows": [
+      [
+        "Treno",
+        "Regionale 2341"
+      ],
+      [
+        "Da",
+        "Firenze"
+      ],
+      [
+        "A",
+        "Bologna"
+      ],
+      [
+        "Data",
+        "15/03"
+      ],
+      [
+        "Partenza",
+        "10:20"
+      ],
+      [
+        "Arrivo",
+        "11:20"
+      ],
+      [
+        "Binario",
+        "3"
+      ],
+      [
+        "Posto",
+        "12 B"
+      ],
+      [
+        "Prezzo",
+        "20,00 €"
+      ]
+    ]
+  },
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿De dónde sale el tren?",
+      "options": [
+        "De Florencia",
+        "De Bolonia",
+        "De Roma"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿A qué hora llega?",
+      "options": [
+        "A las 10:20",
+        "A las 11:20",
+        "A las 12:00"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿En qué andén está?",
+      "options": [
+        "En el 3",
+        "En el 12",
+        "En el 20"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta el boleto?",
+      "options": [
+        "12 euros",
+        "20 euros",
+        "15 euros"
+      ],
+      "answer": 1
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

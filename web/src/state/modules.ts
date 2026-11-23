@@ -121,9 +121,10 @@ export const MODULE_TEST_MAX = 12;
 export const MODULE_TEST_PER_UNIT = 2;
 /** Prueba de cierre: frases reservadas de la prueba de cada cápsula, de a dos por unidad y mezcladas entre unidades; se escribe desde el español. */
 export function moduleTestItems(view: ModuleView, pack: ContentPack): Item[] {
-  const pools = view.units.map((v) => testItems(v.unit, pack).slice(0, MODULE_TEST_PER_UNIT));
+  const perUnit = view.units.length < 3 ? MODULE_TEST_PER_UNIT + 1 : MODULE_TEST_PER_UNIT;   // con solo dos cápsulas, tres frases de cada una para no quedar en una prueba corta
+  const pools = view.units.map((v) => testItems(v.unit, pack).slice(0, perUnit));
   const out: Item[] = [];
-  for (let round = 0; round < MODULE_TEST_PER_UNIT && out.length < MODULE_TEST_MAX; round++) {
+  for (let round = 0; round < perUnit && out.length < MODULE_TEST_MAX; round++) {
     for (const pool of pools) if (pool[round] && out.length < MODULE_TEST_MAX) out.push(pool[round]);
   }
   return out;

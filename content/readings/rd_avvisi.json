@@ -1,0 +1,85 @@
+{
+  "id": "rd_avvisi",
+  "title": "Avvisi: stazione, negozio e segreteria",
+  "level": "A1",
+  "kind": "lectura",
+  "authored": true,
+  "listen": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Cuatro avisos cortos escritos por la IA (megafonía de estación, tienda, contestador y oficina); se oyen sin ver el texto. Tipo PLIDA A1 «avisos públicos y mensajes de contestador».",
+  "sentences": [
+    {
+      "id": "rd_avvisi_00",
+      "it": "Attenzione, prego. Il treno per Roma delle dieci è in ritardo di quindici minuti.",
+      "es": "Atención, por favor. El tren a Roma de las diez va con quince minutos de retraso."
+    },
+    {
+      "id": "rd_avvisi_01",
+      "it": "Il negozio chiude tra dieci minuti. Grazie e arrivederci!",
+      "es": "La tienda cierra en diez minutos. ¡Gracias y hasta luego!"
+    },
+    {
+      "id": "rd_avvisi_02",
+      "it": "Buongiorno, siete in contatto con lo studio del dottor Bianchi.",
+      "es": "Buenos días, se comunicó con la consulta del doctor Bianchi."
+    },
+    {
+      "id": "rd_avvisi_03",
+      "it": "Lasciate un messaggio dopo il segnale.",
+      "es": "Dejen un mensaje después de la señal."
+    },
+    {
+      "id": "rd_avvisi_04",
+      "it": "L'ufficio è aperto dal lunedì al venerdì, dalle nove alle tredici.",
+      "es": "La oficina está abierta de lunes a viernes, de las nueve a las trece."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué pasa con el tren a Roma?",
+      "options": [
+        "Sale antes",
+        "Va con retraso",
+        "Está cancelado"
+      ],
+      "answer": 1,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Cuánto falta para que cierre la tienda?",
+      "options": [
+        "Diez minutos",
+        "Una hora",
+        "Cinco minutos"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué piden hacer en el contestador?",
+      "options": [
+        "Llamar mañana",
+        "Dejar un mensaje después de la señal",
+        "Colgar"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Cuál es el horario de la oficina?",
+      "options": [
+        "De lunes a viernes, de nueve a trece",
+        "Todos los días",
+        "Solo los sábados"
+      ],
+      "answer": 0,
+      "evidence": 4
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

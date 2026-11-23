@@ -66,6 +66,11 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La tua tastiera è sporca.",
+    "wrong": "Tua tastiera è sporca."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Come si chiamano le sue gatte?",
     "wrong": "Come si chiamano sue gatte?"
   },
@@ -263,6 +268,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Apri la tua mente.",
     "wrong": "Apri tua mente."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Dov'è la mia posta?",
+    "wrong": "Dov'è mia posta?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -585,6 +595,11 @@
     "wrong": "Tutti fanno di gli errori."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Non ho il tuo numero.",
+    "wrong": "Non ho tuo numero."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La colpa è del governo.",
     "wrong": "La colpa è di il governo."
@@ -880,6 +895,11 @@
     "wrong": "Amo fare passeggiate in il bosco."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Mi piace il tuo sito web.",
+    "wrong": "Mi piace tuo sito web."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Non ho fame.",
     "wrong": "Non tengo fame."
@@ -983,6 +1003,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io prendo delle vitamine.",
     "wrong": "Io prendo di le vitamine."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Controlla la tua posta in arrivo.",
+    "wrong": "Controlla tua posta in arrivo."
   },
   {
     "code": "ERR_PERSONAL_A",
@@ -1170,6 +1195,11 @@
     "wrong": "Loro tappeto è completamente bianco."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Questa cartolina viene dall'Australia.",
+    "wrong": "Questa cartolina viene da l'Australia."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Siamo in Italia.",
     "wrong": "Siamo a Italia."
@@ -1235,6 +1265,11 @@
     "wrong": "Oggi pomeriggio devo andare da il dentista."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ha della posta.",
+    "wrong": "Ha di la posta."
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è un elenco telefonico qui?",
     "wrong": "Ci sono un elenco telefonico qui?"
@@ -1243,6 +1278,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Bisogna avere dedizione nel proprio mestiere.",
     "wrong": "Bisogna avere dedizione in il proprio mestiere."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "È alla radio.",
+    "wrong": "È a la radio."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -1358,6 +1398,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Ci sono molti animali nello zoo?",
     "wrong": "Ci sono molti animali in lo zoo?"
+  },
+  {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "C'è un messaggio per te.",
+    "wrong": "Ci sono un messaggio per te."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -1568,6 +1613,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Io so il tuo nome.",
     "wrong": "Io so tuo nome."
+  },
+  {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "C'è una chiamata per te!",
+    "wrong": "Ci sono una chiamata per te!"
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -2303,6 +2353,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Sei andato a scuola?",
     "wrong": "Hai andato a scuola?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Che c'è nella busta?",
+    "wrong": "Che c'è in la busta?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3368,6 +3423,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io vado a letto alle dieci e mezza.",
     "wrong": "Io vado a letto a le dieci e mezza."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Hai ricevuto il mio pacco?",
+    "wrong": "Hai ricevuto mio pacco?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Ha ricevuto il mio pacco?",
+    "wrong": "Ha ricevuto mio pacco?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",

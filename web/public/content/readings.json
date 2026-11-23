@@ -81,6 +81,103 @@
     "sentences": []
   },
   {
+    "id": "doc_biglietto",
+    "title": "Il biglietto del treno",
+    "level": "A1",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿De dónde sale el tren?",
+        "options": [
+          "De Florencia",
+          "De Bolonia",
+          "De Roma"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿A qué hora llega?",
+        "options": [
+          "A las 10:20",
+          "A las 11:20",
+          "A las 12:00"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿En qué andén está?",
+        "options": [
+          "En el 3",
+          "En el 12",
+          "En el 20"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta el boleto?",
+        "options": [
+          "12 euros",
+          "20 euros",
+          "15 euros"
+        ],
+        "answer": 1
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Campo",
+        "Dato"
+      ],
+      "rows": [
+        [
+          "Treno",
+          "Regionale 2341"
+        ],
+        [
+          "Da",
+          "Firenze"
+        ],
+        [
+          "A",
+          "Bologna"
+        ],
+        [
+          "Data",
+          "15/03"
+        ],
+        [
+          "Partenza",
+          "10:20"
+        ],
+        [
+          "Arrivo",
+          "11:20"
+        ],
+        [
+          "Binario",
+          "3"
+        ],
+        [
+          "Posto",
+          "12 B"
+        ],
+        [
+          "Prezzo",
+          "20,00 €"
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
     "id": "doc_cartelli",
     "title": "Cartelli",
     "level": "A1",
@@ -159,6 +256,175 @@
         ],
         [
           "Si prega di pagare alla cassa"
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
+    "id": "doc_etichetta",
+    "title": "L'etichetta della camicia",
+    "level": "A1",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué talla es?",
+        "options": [
+          "S",
+          "M",
+          "L"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿De qué es la camisa?",
+        "options": [
+          "De lana",
+          "De algodón",
+          "De seda"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿A cuántos grados se lava?",
+        "options": [
+          "30 grados",
+          "60 grados",
+          "90 grados"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿De qué color es?",
+        "options": [
+          "Celeste",
+          "Blanca",
+          "Negra"
+        ],
+        "answer": 0
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Campo",
+        "Dato"
+      ],
+      "rows": [
+        [
+          "Marca",
+          "Bella Moda"
+        ],
+        [
+          "Taglia",
+          "M"
+        ],
+        [
+          "Colore",
+          "azzurro"
+        ],
+        [
+          "Materiale",
+          "100% cotone"
+        ],
+        [
+          "Lavaggio",
+          "30 gradi"
+        ],
+        [
+          "Prezzo",
+          "35 €"
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
+    "id": "doc_lista",
+    "title": "La lista della spesa",
+    "level": "A1",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cuántas cosas hay que comprar?",
+        "options": [
+          "Ocho",
+          "Seis",
+          "Diez"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Qué fruta hay en la lista?",
+        "options": [
+          "Manzanas",
+          "Naranjas",
+          "Plátanos"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Cuál NO es una bebida?",
+        "options": [
+          "Latte",
+          "Pane",
+          "Acqua"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Qué se necesita para hacer pasta?",
+        "options": [
+          "Pasta y queso",
+          "Solo huevos",
+          "Café"
+        ],
+        "answer": 0
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Da comprare"
+      ],
+      "rows": [
+        [
+          "pane"
+        ],
+        [
+          "latte"
+        ],
+        [
+          "uova"
+        ],
+        [
+          "mele"
+        ],
+        [
+          "pasta"
+        ],
+        [
+          "formaggio"
+        ],
+        [
+          "acqua"
+        ],
+        [
+          "caffè"
         ]
       ]
     },
@@ -791,6 +1057,95 @@
         "speaker": "Artemisia",
         "audio": "3b57e9df1b23",
         "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_avvisi",
+    "title": "Avvisi: stazione, negozio e segreteria",
+    "level": "A1",
+    "kind": "lectura",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué pasa con el tren a Roma?",
+        "options": [
+          "Sale antes",
+          "Va con retraso",
+          "Está cancelado"
+        ],
+        "answer": 1,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Cuánto falta para que cierre la tienda?",
+        "options": [
+          "Diez minutos",
+          "Una hora",
+          "Cinco minutos"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Qué piden hacer en el contestador?",
+        "options": [
+          "Llamar mañana",
+          "Dejar un mensaje después de la señal",
+          "Colgar"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Cuál es el horario de la oficina?",
+        "options": [
+          "De lunes a viernes, de nueve a trece",
+          "Todos los días",
+          "Solo los sábados"
+        ],
+        "answer": 0,
+        "evidence": 4
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_avvisi_00",
+        "it": "Attenzione, prego. Il treno per Roma delle dieci è in ritardo di quindici minuti.",
+        "es": "Atención, por favor. El tren a Roma de las diez va con quince minutos de retraso.",
+        "audio": "a6c09e20ac01"
+      },
+      {
+        "id": "rd_avvisi_01",
+        "it": "Il negozio chiude tra dieci minuti. Grazie e arrivederci!",
+        "es": "La tienda cierra en diez minutos. ¡Gracias y hasta luego!",
+        "audio": "ca56e1f3c43e"
+      },
+      {
+        "id": "rd_avvisi_02",
+        "it": "Buongiorno, siete in contatto con lo studio del dottor Bianchi.",
+        "es": "Buenos días, se comunicó con la consulta del doctor Bianchi.",
+        "audio": "b538ea73691e"
+      },
+      {
+        "id": "rd_avvisi_03",
+        "it": "Lasciate un messaggio dopo il segnale.",
+        "es": "Dejen un mensaje después de la señal.",
+        "audio": "1f249154ee7c"
+      },
+      {
+        "id": "rd_avvisi_04",
+        "it": "L'ufficio è aperto dal lunedì al venerdì, dalle nove alle tredici.",
+        "es": "La oficina está abierta de lunes a viernes, de las nueve a las trece.",
+        "audio": "6d418ce84363"
       }
     ]
   },
@@ -4915,6 +5270,139 @@
     ]
   },
   {
+    "id": "rd_posta",
+    "title": "All'ufficio postale",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué quiere mandar a España?",
+        "options": [
+          "Un paquete",
+          "Una carta",
+          "Una postal"
+        ],
+        "answer": 1,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta el paquete?",
+        "options": [
+          "Dos euros",
+          "Doce euros",
+          "Catorce euros"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Cuánto paga en total?",
+        "options": [
+          "Doce euros",
+          "Catorce euros",
+          "Dos euros"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Para qué hay que llenar un formulario?",
+        "options": [
+          "Para el paquete",
+          "Para la carta",
+          "Para la estampilla"
+        ],
+        "answer": 0,
+        "evidence": 7
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_posta_00",
+        "it": "Buongiorno, vorrei mandare questa lettera in Spagna.",
+        "es": "Buenos días, quisiera mandar esta carta a España.",
+        "speaker": "Cliente",
+        "audio": "23673c838238"
+      },
+      {
+        "id": "rd_posta_01",
+        "it": "Buongiorno. Per la lettera serve un francobollo da due euro.",
+        "es": "Buenos días. Para la carta se necesita una estampilla de dos euros.",
+        "speaker": "Impiegato",
+        "audio": "cc25c60c9254",
+        "voice": 2
+      },
+      {
+        "id": "rd_posta_02",
+        "it": "Va bene. Ho anche un pacco: quanto costa?",
+        "es": "Está bien. Tengo también un paquete: ¿cuánto cuesta?",
+        "speaker": "Cliente",
+        "audio": "b0d9d2039bc6"
+      },
+      {
+        "id": "rd_posta_03",
+        "it": "Dipende dal peso. Vediamo... due chili. Costa dodici euro.",
+        "es": "Depende del peso. Veamos... dos kilos. Cuesta doce euros.",
+        "speaker": "Impiegato",
+        "audio": "26e990e769ee",
+        "voice": 2
+      },
+      {
+        "id": "rd_posta_04",
+        "it": "Dodici euro. Prendo anche un francobollo, per favore.",
+        "es": "Doce euros. Llevo también una estampilla, por favor.",
+        "speaker": "Cliente",
+        "audio": "1bf6233ba4a6"
+      },
+      {
+        "id": "rd_posta_05",
+        "it": "Ecco il francobollo. Sono quattordici euro in tutto.",
+        "es": "Aquí está la estampilla. Son catorce euros en total.",
+        "speaker": "Impiegato",
+        "audio": "f23e0ae32efd",
+        "voice": 2
+      },
+      {
+        "id": "rd_posta_06",
+        "it": "Ecco a Lei. Devo compilare un modulo?",
+        "es": "Aquí tiene. ¿Tengo que llenar un formulario?",
+        "speaker": "Cliente",
+        "audio": "96147863b729"
+      },
+      {
+        "id": "rd_posta_07",
+        "it": "Sì, per il pacco. Lo compili qui, per favore.",
+        "es": "Sí, para el paquete. Llénelo aquí, por favor.",
+        "speaker": "Impiegato",
+        "audio": "f82913444830",
+        "voice": 2
+      },
+      {
+        "id": "rd_posta_08",
+        "it": "Grazie e arrivederci!",
+        "es": "¡Gracias y hasta luego!",
+        "speaker": "Cliente",
+        "audio": "397944970624"
+      },
+      {
+        "id": "rd_posta_09",
+        "it": "Arrivederci!",
+        "es": "¡Hasta luego!",
+        "speaker": "Impiegato",
+        "audio": "a0cf78c5abc3",
+        "voice": 2
+      }
+    ]
+  },
+  {
     "id": "rd_poste",
     "title": "Dov'è l'ufficio postale?",
     "level": "A1",
@@ -6964,6 +7452,149 @@
         "es": "¡Por eso es una ciudad rica y hermosa!",
         "speaker": "Artemisia",
         "audio": "e4b0a10304b9"
+      }
+    ]
+  },
+  {
+    "id": "rd_telefono",
+    "title": "Al telefono: lasciare un messaggio",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Con quién quiere hablar Paolo?",
+        "options": [
+          "Con el doctor Bianchi",
+          "Con la secretaria",
+          "Con su jefe"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Por qué no puede hablar con él?",
+        "options": [
+          "Está en una reunión",
+          "Está hablando con un paciente",
+          "El teléfono está roto"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Qué le propone la secretaria?",
+        "options": [
+          "Esperar",
+          "Dejar un mensaje",
+          "Llamar a otro número"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Cuándo quiere Paolo que lo llamen?",
+        "options": [
+          "Mañana en la mañana",
+          "Hoy en la tarde",
+          "El lunes"
+        ],
+        "answer": 0,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Cómo se escribe su apellido?",
+        "options": [
+          "vu, e, erre, di, i",
+          "bi, e, erre, di, i",
+          "vu, i, erre, di, e"
+        ],
+        "answer": 0,
+        "evidence": 6
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_telefono_00",
+        "it": "Pronto, studio Bianchi, buongiorno.",
+        "es": "Aló, consulta Bianchi, buenos días.",
+        "speaker": "Segretaria",
+        "audio": "27f9097319b2"
+      },
+      {
+        "id": "rd_telefono_01",
+        "it": "Buongiorno. Sono Paolo Verdi. Vorrei parlare con il dottor Bianchi.",
+        "es": "Buenos días. Soy Paolo Verdi. Quisiera hablar con el doctor Bianchi.",
+        "speaker": "Cliente",
+        "audio": "7b7853d56c16",
+        "voice": 2
+      },
+      {
+        "id": "rd_telefono_02",
+        "it": "Mi dispiace, il dottore sta parlando con un paziente. Vuole lasciare un messaggio?",
+        "es": "Lo siento, el doctor está hablando con un paciente. ¿Quiere dejar un mensaje?",
+        "speaker": "Segretaria",
+        "audio": "08668cc3e3fd"
+      },
+      {
+        "id": "rd_telefono_03",
+        "it": "Sì, grazie. Il mio numero è tre tre tre, uno due tre, quattro cinque sei sette.",
+        "es": "Sí, gracias. Mi número es tres tres tres, uno dos tres, cuatro cinco seis siete.",
+        "speaker": "Cliente",
+        "audio": "da1c20bec67b",
+        "voice": 2
+      },
+      {
+        "id": "rd_telefono_04",
+        "it": "Può chiamare domani mattina?",
+        "es": "¿Puede llamar mañana en la mañana?",
+        "speaker": "Cliente",
+        "audio": "77f315af8874",
+        "voice": 2
+      },
+      {
+        "id": "rd_telefono_05",
+        "it": "Certo. Come si scrive il Suo cognome?",
+        "es": "Claro. ¿Cómo se escribe su apellido?",
+        "speaker": "Segretaria",
+        "audio": "2af72d69c8d5"
+      },
+      {
+        "id": "rd_telefono_06",
+        "it": "Verdi: vu, e, erre, di, i.",
+        "es": "Verdi: ve, e, erre, de, i.",
+        "speaker": "Cliente",
+        "audio": "81818d88eed2",
+        "voice": 2
+      },
+      {
+        "id": "rd_telefono_07",
+        "it": "Perfetto, signor Verdi. Il dottore chiama domani mattina.",
+        "es": "Perfecto, señor Verdi. El doctor llama mañana en la mañana.",
+        "speaker": "Segretaria",
+        "audio": "680e5fd47f01"
+      },
+      {
+        "id": "rd_telefono_08",
+        "it": "Grazie mille. Arrivederci!",
+        "es": "Muchas gracias. ¡Hasta luego!",
+        "speaker": "Cliente",
+        "audio": "7063c8ee2fe0",
+        "voice": 2
+      },
+      {
+        "id": "rd_telefono_09",
+        "it": "Arrivederci, buona giornata!",
+        "es": "Hasta luego, ¡que tenga un buen día!",
+        "speaker": "Segretaria",
+        "audio": "1bd694672f38"
       }
     ]
   },

@@ -154,6 +154,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "68a8794d3bc2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Está jugando aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1004209",
+    "it": "Sta giocando qua.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1004209",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "3ef72745a151",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Te estoy buscando.",
+    "es_author": "IA (Claude)",
+    "id": "s_1005159",
+    "it": "Ti sto cercando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1005159",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "770cd7c60038",
     "author": "carlosalberto",
     "cefr_estimate": "A1",
@@ -291,6 +315,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "10146459",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "0ec026d19895",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El paquete está aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_10148997",
+    "it": "Il pacco è qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10148997",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "aa171cb7c61c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El paquete está acá.",
+    "es_author": "IA (Claude)",
+    "id": "s_10148998",
+    "it": "Il pacco è qua.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10148998",
+    "translation_kind": "llm"
   },
   {
     "audio": "1de83a0b81d8",
@@ -704,6 +752,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "537cd2eeb380",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tu teclado está sucio.",
+    "es_author": "Seael",
+    "es_source_id": "10490139",
+    "id": "s_10490134",
+    "it": "La tua tastiera è sporca.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10490134",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3a06ef2cc147",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -839,6 +900,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "10617953",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "b6b52fcf515f",
+    "author": "leonardo",
+    "cefr_estimate": "A1",
+    "es": "¿Tienes una dirección de correo electrónico?",
+    "es_author": "IA (Claude)",
+    "id": "s_1062152",
+    "it": "Hai un indirizzo e-mail?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1062152",
+    "translation_kind": "llm"
   },
   {
     "audio": "08a2ca457e45",
@@ -1154,6 +1227,19 @@
     "it": "Lei sta preparando la colazione.",
     "license": "CC BY 2.0 FR",
     "source_id": "10820356",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "55b6ef4a2f19",
+    "author": "leonardo",
+    "cefr_estimate": "A1",
+    "es": "¿Tienes una página web?",
+    "es_author": "lukaszpp",
+    "es_source_id": "434553",
+    "id": "s_1082386",
+    "it": "Hai un sito web?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1082386",
     "translation_kind": "direct"
   },
   {
@@ -1510,6 +1596,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "e5df2e50e83e",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "Tiene dos direcciones de correo electrónico.",
+    "es_author": "IA (Claude)",
+    "id": "s_10984588",
+    "it": "Ha due indirizzi e-mail.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10984588",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "a2a6cc9a8a1b",
     "author": "carlosalberto",
     "cefr_estimate": "A1",
@@ -1823,6 +1921,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "701ea28d41b9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No estoy gritando.",
+    "es_author": "IA (Claude)",
+    "id": "s_1114693",
+    "it": "Non sto urlando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1114693",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "6e5438953f4a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1922,6 +2032,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "14fde710b91d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Necesito un teclado.",
+    "es_author": "IA (Claude)",
+    "id": "s_11225269",
+    "it": "Mi serve una tastiera.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11225269",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "588ce9800fa9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Funciona el teclado?",
+    "es_author": "IA (Claude)",
+    "id": "s_11225334",
+    "it": "La tastiera funziona?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11225334",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "cae9a22b94d7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1956,6 +2090,18 @@
     "it": "C'è anche Paolo.",
     "license": "CC BY 2.0 FR",
     "source_id": "1124292",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d41339693807",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "¿Cómo me ves?",
+    "es_author": "IA (Claude)",
+    "id": "s_11243390",
+    "it": "Come mi vedi?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11243390",
     "translation_kind": "llm"
   },
   {
@@ -2340,6 +2486,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "8870f6125881",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde está mi correspondencia?",
+    "es_author": "IA (Claude)",
+    "id": "s_11475944",
+    "it": "Dov'è la mia posta?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11475944",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e250c1416a5c",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "Mándame un mensaje.",
+    "es_author": "IA (Claude)",
+    "id": "s_11491760",
+    "it": "Mandami un messaggio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11491760",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "24931f52c6a5",
     "author": "carlosalberto",
     "cefr_estimate": "A1",
@@ -2438,6 +2608,18 @@
     "it": "Il sonetto ha quattordici versi.",
     "license": "CC BY 2.0 FR",
     "source_id": "11611739",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "dd19c5c02d63",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tengo demasiada hambre para estudiar.",
+    "es_author": "IA (Claude)",
+    "id": "s_11626416",
+    "it": "Ho troppa fame per studiare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11626416",
     "translation_kind": "llm"
   },
   {
@@ -2827,6 +3009,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "035f749433ab",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella me entiende.",
+    "es_author": "IA (Claude)",
+    "id": "s_1188214",
+    "it": "Lei mi capisce.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1188214",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "354a10a4b3bd",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3031,6 +3225,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "d5877271f6f4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tiene un sitio web?",
+    "es_author": "IA (Claude)",
+    "id": "s_1208347",
+    "it": "Ha un sito web?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1208347",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "5b384e6b8e6c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3218,6 +3424,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "cd05f3c47160",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Esto es un buzón.",
+    "es_author": "IA (Claude)",
+    "id": "s_12265801",
+    "it": "Questa è una casella di posta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12265801",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "c0237d2e0121",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3385,6 +3603,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "03d796ce9c71",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡Está llegando la policía!",
+    "es_author": "IA (Claude)",
+    "id": "s_1243897",
+    "it": "Sta arrivando la polizia!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1243897",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "07cb40758365",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡La policía está llegando!",
+    "es_author": "IA (Claude)",
+    "id": "s_1243898",
+    "it": "La polizia sta arrivando!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1243898",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4f7a76b8773a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3432,6 +3674,30 @@
     "it": "Dov'è la lavanderia?",
     "license": "CC BY 2.0 FR",
     "source_id": "1246730",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "288cf3ac191e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Estás listo para comer?",
+    "es_author": "IA (Claude)",
+    "id": "s_1246738",
+    "it": "Sei pronto per mangiare?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1246738",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "2bb16bd43b6b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Está listo para comer?",
+    "es_author": "IA (Claude)",
+    "id": "s_1246742",
+    "it": "È pronto per mangiare?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1246742",
     "translation_kind": "llm"
   },
   {
@@ -3651,6 +3917,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "818826acbbeb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella está gritando.",
+    "es_author": "IA (Claude)",
+    "id": "s_1255783",
+    "it": "Lei sta urlando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1255783",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "356efd27e21f",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3824,6 +4102,19 @@
     "it": "Ci sono molti libri in biblioteca.",
     "license": "CC BY 2.0 FR",
     "source_id": "1260543",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "364c6bdc1e06",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Él no me conoce.",
+    "es_author": "tatoerique",
+    "es_source_id": "340657",
+    "id": "s_1261681",
+    "it": "Non mi conosce.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1261681",
     "translation_kind": "direct"
   },
   {
@@ -4059,6 +4350,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "020aba79cedb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Quiero mandar esta postal a Japón.",
+    "es_author": "IA (Claude)",
+    "id": "s_1276440",
+    "it": "Voglio mandare questa cartolina in Giappone.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1276440",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "15d5a79eeede",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4160,6 +4463,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "15558e60f22b",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde está la boletería?",
+    "es_author": "IA (Claude)",
+    "id": "s_1282681",
+    "it": "Dove si trova la biglietteria?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1282681",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "bf1948965ae1",
     "author": "Adelpa",
     "cefr_estimate": "A1",
@@ -4184,6 +4499,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1283065",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "4cdab68aa9d9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tenemos que llamar a la policía.",
+    "es_author": "IA (Claude)",
+    "id": "s_1283382",
+    "it": "Dobbiamo chiamare la polizia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1283382",
+    "translation_kind": "llm"
   },
   {
     "audio": "0c8c082df16a",
@@ -4782,6 +5109,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "318e8cf7b2f9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me siento solo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1313642",
+    "it": "Mi sento solo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1313642",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "efb2e68e64e7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -5173,6 +5512,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "a2f0289dda53",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No tengo una radio.",
+    "es_author": "IA (Claude)",
+    "id": "s_13277185",
+    "it": "Non ho una radio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13277185",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "21ac32c80b9a",
     "author": "Adelpa",
     "cefr_estimate": "A1",
@@ -5318,6 +5669,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "625a211120aa",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡Te amo, Lisa!",
+    "es_author": "Adelpa",
+    "es_source_id": "13373240",
+    "id": "s_13298154",
+    "it": "Ti amo, Lisa!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13298154",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "791de89e0340",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -5403,6 +5767,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "13313121",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "b4ad0552bb88",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "La carta está dentro del sobre.",
+    "es_author": "IA (Claude)",
+    "id": "s_13326362",
+    "it": "La lettera è dentro la busta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13326362",
+    "translation_kind": "llm"
   },
   {
     "audio": "bd795fa11957",
@@ -6011,6 +6387,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "071577a07469",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me siento bien.",
+    "es_author": "IA (Claude)",
+    "id": "s_1385432",
+    "it": "Mi sento bene.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1385432",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "15ee97bca8f6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Espera a la policía.",
+    "es_author": "IA (Claude)",
+    "id": "s_13872706",
+    "it": "Aspetta la polizia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13872706",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "1a57ca45d082",
     "author": "rul",
     "cefr_estimate": "A1",
@@ -6556,6 +6956,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1c64d5e990f8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No tengo tu número.",
+    "es_author": "hayastan",
+    "es_source_id": "1455561",
+    "id": "s_1455556",
+    "it": "Non ho il tuo numero.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1455556",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ed07f06c89e3",
     "author": "al_ex_an_der",
     "cefr_estimate": "A1",
@@ -6890,6 +7303,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b68662cc0639",
+    "author": "Shadd",
+    "cefr_estimate": "A1",
+    "es": "¿Qué haces para vivir?",
+    "es_author": "IA (Claude)",
+    "id": "s_1510979",
+    "it": "Cosa fai per vivere?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1510979",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "39d2e2211207",
     "author": "Shadd",
     "cefr_estimate": "A1",
@@ -7213,6 +7638,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "10756dcb238c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tengo un sello muy antiguo.",
+    "es_author": "Shishir",
+    "es_source_id": "1332500",
+    "id": "s_1536187",
+    "it": "Ho un francobollo molto vecchio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1536187",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d9474c450740",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7475,6 +7913,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1559380",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "abe00d6cb0c9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Está cenando ahora.",
+    "es_author": "IA (Claude)",
+    "id": "s_1559431",
+    "it": "Sta cenando ora.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1559431",
+    "translation_kind": "llm"
   },
   {
     "audio": "4557d36e321c",
@@ -7798,6 +8248,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "14b77f8b75c6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Qué está haciendo?",
+    "es_author": "IA (Claude)",
+    "id": "s_1645159",
+    "it": "Che sta facendo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1645159",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "e69e397af7cd",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7923,6 +8385,18 @@
     "it": "Mi scusi. Questa è la farmacia?",
     "license": "CC BY 2.0 FR",
     "source_id": "1659499",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d1d789b0d730",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom está fumando.",
+    "es_author": "IA (Claude)",
+    "id": "s_1662985",
+    "it": "Tom sta fumando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1662985",
     "translation_kind": "llm"
   },
   {
@@ -8086,6 +8560,19 @@
     "it": "Io sono già pronto.",
     "license": "CC BY 2.0 FR",
     "source_id": "1685669",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0b1fdf06c01e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No te quiero.",
+    "es_author": "enteka",
+    "es_source_id": "1323629",
+    "id": "s_1687366",
+    "it": "Non ti amo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1687366",
     "translation_kind": "direct"
   },
   {
@@ -8471,6 +8958,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "cb314f047a5b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Necesito un sobre.",
+    "es_author": "IA (Claude)",
+    "id": "s_1712509",
+    "it": "Ho bisogno di una busta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1712509",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "76d200850f6c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8746,6 +9245,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "a70905d19ac7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "La llamada es gratis.",
+    "es_author": "hayastan",
+    "es_source_id": "1467661",
+    "id": "s_1816177",
+    "it": "La chiamata è gratuita.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1816177",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ab100bed5813",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8783,6 +9295,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1816669",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "81e9bef85323",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Qué está diciendo?",
+    "es_author": "IA (Claude)",
+    "id": "s_1824273",
+    "it": "Che sta dicendo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1824273",
+    "translation_kind": "llm"
   },
   {
     "audio": "da07cac6dffd",
@@ -8885,6 +9409,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1835905",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "9a95c67c8277",
+    "author": "hitori37",
+    "cefr_estimate": "A1",
+    "es": "Yo te conozco.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1201944",
+    "id": "s_1836070",
+    "it": "Io ti conosco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1836070",
+    "translation_kind": "direct"
   },
   {
     "audio": "822dff522fcd",
@@ -9132,6 +9669,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "cece76fc46f7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No tengo tiempo para escribir.",
+    "es_author": "IA (Claude)",
+    "id": "s_1953291",
+    "it": "Non ho tempo per scrivere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1953291",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b9d472895af7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9217,6 +9766,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1972112",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "f6327fe3b6d7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Aún te amo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1974590",
+    "it": "Ti amo ancora.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1974590",
+    "translation_kind": "llm"
   },
   {
     "audio": "ed91adf4fd58",
@@ -9562,6 +10123,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "04ad3be993cc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Cómo te sientes?",
+    "es_author": "arashi_29",
+    "es_source_id": "606035",
+    "id": "s_2020115",
+    "it": "Come ti senti?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2020115",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "0f3ead9bb7f1",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9811,6 +10385,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2038714",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "5087ea9bca27",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No recibo mucha correspondencia.",
+    "es_author": "IA (Claude)",
+    "id": "s_2041814",
+    "it": "Non ricevo molta posta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2041814",
+    "translation_kind": "llm"
   },
   {
     "audio": "f35a7311dc02",
@@ -10153,6 +10739,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "a9985ea37d61",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me gusta tu sitio web.",
+    "es_author": "IA (Claude)",
+    "id": "s_2178114",
+    "it": "Mi piace il tuo sito web.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2178114",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b6f10509dc75",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -10202,6 +10800,42 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2187361",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "8abf99ef5e0e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom está viniendo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2190445",
+    "it": "Tom sta venendo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2190445",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "92810987b196",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom está gritando.",
+    "es_author": "IA (Claude)",
+    "id": "s_2190461",
+    "it": "Tom sta urlando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2190461",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6f6289002740",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom se está riendo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2190660",
+    "it": "Tom sta ridendo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2190660",
+    "translation_kind": "llm"
   },
   {
     "audio": "584e77e8b123",
@@ -10362,6 +10996,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2199989",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "089715284df3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estoy hablando.",
+    "es_author": "IA (Claude)",
+    "id": "s_2206721",
+    "it": "Io sto parlando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2206721",
+    "translation_kind": "llm"
   },
   {
     "audio": "b2ac043c7334",
@@ -11081,6 +11727,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ac2800d60885",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Llamemos a la policía.",
+    "es_author": "IA (Claude)",
+    "id": "s_2470101",
+    "it": "Chiamiamo la polizia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2470101",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "407a8150d218",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11252,6 +11910,18 @@
     "it": "Mi piace questo profumo.",
     "license": "CC BY 2.0 FR",
     "source_id": "2507556",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "5a0fccd72a84",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Cuánto me amas?",
+    "es_author": "IA (Claude)",
+    "id": "s_2510623",
+    "it": "Quanto mi ami?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2510623",
     "translation_kind": "llm"
   },
   {
@@ -11504,6 +12174,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "473a1c75bb3b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde está la boletería?",
+    "es_author": "IA (Claude)",
+    "id": "s_2524582",
+    "it": "Dov'è la biglietteria?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2524582",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4096629c3e48",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11552,6 +12234,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "93fb2b4917bc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella me ama.",
+    "es_author": "IA (Claude)",
+    "id": "s_2552857",
+    "it": "Lei mi ama.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2552857",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4ac52f8ee3ac",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11575,6 +12269,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2554769",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "1be1a7d624b4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Voy ahora.",
+    "es_author": "IA (Claude)",
+    "id": "s_2555694",
+    "it": "Sto andando ora.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2555694",
+    "translation_kind": "llm"
   },
   {
     "audio": "ea1f97410306",
@@ -11664,6 +12370,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "db785fbce1c8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Llama a este número.",
+    "es_author": "IA (Claude)",
+    "id": "s_2560137",
+    "it": "Chiama questo numero.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2560137",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "37f8c313f350",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Revisa tu correo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2560216",
+    "it": "Controlla la tua posta in arrivo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2560216",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "552929745fa6",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11736,6 +12466,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2565066",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "95675fb8c8c7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tengo que hacer una llamada.",
+    "es_author": "IA (Claude)",
+    "id": "s_2565689",
+    "it": "Devo fare una chiamata.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2565689",
+    "translation_kind": "llm"
   },
   {
     "audio": "65099e26373a",
@@ -11840,6 +12582,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2578620",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "d90e6781c8c6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Estás aquí para ayudar?",
+    "es_author": "IA (Claude)",
+    "id": "s_2578684",
+    "it": "Sei qui per aiutare?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2578684",
+    "translation_kind": "llm"
   },
   {
     "audio": "bc6d2ea7bbe5",
@@ -12601,6 +13355,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b480ebf5e6b2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Un cheque es solo un documento.",
+    "es_author": "IA (Claude)",
+    "id": "s_2725791",
+    "it": "Un assegno è solo un documento.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2725791",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "cef5fa5c613d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -12673,6 +13439,18 @@
     "it": "Ti ama molto.",
     "license": "CC BY 2.0 FR",
     "source_id": "2742807",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "bf9574613f7d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Él te ama.",
+    "es_author": "IA (Claude)",
+    "id": "s_2742941",
+    "it": "Lui ti ama.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2742941",
     "translation_kind": "llm"
   },
   {
@@ -13092,6 +13870,42 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "5b2cc94f5753",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me siento mal.",
+    "es_author": "IA (Claude)",
+    "id": "s_2818675",
+    "it": "Mi sento male.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2818675",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b0d4f48fac32",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Completa este formulario.",
+    "es_author": "IA (Claude)",
+    "id": "s_2821759",
+    "it": "Compila questo modulo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2821759",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "adab5d61d7ab",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Complete este formulario.",
+    "es_author": "IA (Claude)",
+    "id": "s_2821761",
+    "it": "Compili questo modulo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2821761",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "65b89c406a2d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13191,6 +14005,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2832611",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "1bba0e489960",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Toma un número.",
+    "es_author": "IA (Claude)",
+    "id": "s_2834721",
+    "it": "Prendi un numero.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2834721",
+    "translation_kind": "llm"
   },
   {
     "audio": "0b0cfb8bab33",
@@ -13933,6 +14759,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "f0f871634370",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Esta postal viene de Australia.",
+    "es_author": "IA (Claude)",
+    "id": "s_2949118",
+    "it": "Questa cartolina viene dall'Australia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2949118",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "071991d2ee69",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -14255,6 +15093,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "03274899fc1f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estás mintiendo.",
+    "es_author": "Shishir",
+    "es_source_id": "573679",
+    "id": "s_3013711",
+    "it": "Tu stai mentendo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3013711",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "fa07e4ae8bbd",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -14362,6 +15213,18 @@
     "it": "C'è del latte in frigorifero.",
     "license": "CC BY 2.0 FR",
     "source_id": "3028365",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a417807e8387",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Él me conoce?",
+    "es_author": "IA (Claude)",
+    "id": "s_3042980",
+    "it": "Lui mi conosce?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3042980",
     "translation_kind": "llm"
   },
   {
@@ -14764,6 +15627,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "47f8118ae9d4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Millie me ama.",
+    "es_author": "cueyayotl",
+    "es_source_id": "3191673",
+    "id": "s_3173667",
+    "it": "Millie mi ama.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3173667",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "8a4fb9fb05b7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -14788,6 +15664,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3183017",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "1484618c8e39",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tiene correspondencia.",
+    "es_author": "IA (Claude)",
+    "id": "s_3187744",
+    "it": "Ha della posta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3187744",
+    "translation_kind": "llm"
   },
   {
     "audio": "88e276302cbf",
@@ -14903,6 +15791,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3235456",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "dda980a8b320",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Está en la radio.",
+    "es_author": "IA (Claude)",
+    "id": "s_3236499",
+    "it": "È alla radio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3236499",
+    "translation_kind": "llm"
   },
   {
     "audio": "dd93202614f8",
@@ -15824,6 +16724,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "60c872754901",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom te ama.",
+    "es_author": "IA (Claude)",
+    "id": "s_3388002",
+    "it": "Tom ti ama.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3388002",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "9e9ae2562690",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -16401,6 +17313,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "848a2e933a72",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tengo un mensaje para ti.",
+    "es_author": "IA (Claude)",
+    "id": "s_3506063",
+    "it": "Ho un messaggio per te.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3506063",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4655e07bcc0d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -16566,6 +17490,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "97c872742a78",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Hay un mensaje para ti.",
+    "es_author": "IA (Claude)",
+    "id": "s_3530683",
+    "it": "C'è un messaggio per te.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3530683",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "d67192b6744e",
     "author": "Vallysing",
     "cefr_estimate": "A1",
@@ -16603,6 +17539,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a7de89b1b0c0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella te entiende ahora.",
+    "es_author": "IA (Claude)",
+    "id": "s_3536686",
+    "it": "Ti capisce ora.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3536686",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "db4effb2e9b3",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -16612,6 +17560,18 @@
     "it": "La capisce ora.",
     "license": "CC BY 2.0 FR",
     "source_id": "3536692",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1a30e936f641",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Qué estás diciendo?",
+    "es_author": "IA (Claude)",
+    "id": "s_3537817",
+    "it": "Che stai dicendo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3537817",
     "translation_kind": "llm"
   },
   {
@@ -16808,6 +17768,78 @@
     "it": "Contate fino a trenta.",
     "license": "CC BY 2.0 FR",
     "source_id": "3565509",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "fa220bf270f0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Por qué me ama?",
+    "es_author": "IA (Claude)",
+    "id": "s_3566843",
+    "it": "Perché mi ama?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3566843",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a2f1cd75c083",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Aún me amas?",
+    "es_author": "IA (Claude)",
+    "id": "s_3567020",
+    "it": "Mi ami ancora?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3567020",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "f84665d37f6b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡No me amas!",
+    "es_author": "IA (Claude)",
+    "id": "s_3567039",
+    "it": "Non mi ami!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3567039",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "03fb945c49b3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡Tú no me amas!",
+    "es_author": "IA (Claude)",
+    "id": "s_3567040",
+    "it": "Tu non mi ami!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3567040",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "ac7b2503a884",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡Ella no me ama!",
+    "es_author": "IA (Claude)",
+    "id": "s_3567041",
+    "it": "Non mi ama!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3567041",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "818bfb844547",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tú me amas?",
+    "es_author": "IA (Claude)",
+    "id": "s_3567093",
+    "it": "Tu mi ami?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3567093",
     "translation_kind": "llm"
   },
   {
@@ -17137,6 +18169,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "d02296f21a6a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tienes una tarjeta de crédito?",
+    "es_author": "IA (Claude)",
+    "id": "s_3633589",
+    "it": "Hai una carta di credito?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3633589",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "49026ab6d49e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tiene una tarjeta de crédito?",
+    "es_author": "IA (Claude)",
+    "id": "s_3633591",
+    "it": "Ha una carta di credito?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3633591",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "5171593f3253",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -17233,6 +18289,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3647103",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "c179b719636c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella está cenando.",
+    "es_author": "IA (Claude)",
+    "id": "s_3649955",
+    "it": "Lei sta cenando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3649955",
+    "translation_kind": "llm"
   },
   {
     "audio": "a6e2a3722cb2",
@@ -17921,6 +18989,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "42ac7a66e571",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Ya tengo un sobre.",
+    "es_author": "IA (Claude)",
+    "id": "s_374494",
+    "it": "Ho già una busta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "374494",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e4285567ee35",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Necesito un sobre.",
+    "es_author": "IA (Claude)",
+    "id": "s_374495",
+    "it": "Mi serve una busta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "374495",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "d7d2928c6505",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -17934,6 +19026,43 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "0ab3a50c16c2",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Enciende la radio.",
+    "es_author": "IA (Claude)",
+    "id": "s_374591",
+    "it": "Accendi la radio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "374591",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "216b14f82fd2",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Apaga la radio.",
+    "es_author": "felipeselles",
+    "es_source_id": "863758",
+    "id": "s_374592",
+    "it": "Spegni la radio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "374592",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e11b2ff464ba",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "La radio está rota.",
+    "es_author": "IA (Claude)",
+    "id": "s_374596",
+    "it": "La radio è rotta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "374596",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "cc4fe692343e",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -17945,6 +19074,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "374604",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "3937262171ac",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "La radio no funciona.",
+    "es_author": "IA (Claude)",
+    "id": "s_374607",
+    "it": "La radio non funziona.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "374607",
+    "translation_kind": "llm"
   },
   {
     "audio": "2a8ddab70c29",
@@ -18871,6 +20012,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "8e273fced7ec",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "¡Llama a la policía!",
+    "es_author": "Shishir",
+    "es_source_id": "2884",
+    "id": "s_380537",
+    "it": "Chiama la polizia!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "380537",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "c8e22307bc7d",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -19062,6 +20216,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "383033",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "d0af1ca1bd11",
+    "author": "ver",
+    "cefr_estimate": "A1",
+    "es": "Necesito una estampilla.",
+    "es_author": "IA (Claude)",
+    "id": "s_383281",
+    "it": "Ho bisogno di un francobollo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "383281",
+    "translation_kind": "llm"
   },
   {
     "audio": "ef390b57d88c",
@@ -19340,6 +20506,18 @@
     "it": "Io mi sto pettinando i capelli.",
     "license": "CC BY 2.0 FR",
     "source_id": "3860695",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "35ac453915da",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estoy tosiendo.",
+    "es_author": "IA (Claude)",
+    "id": "s_3860722",
+    "it": "Io sto tossendo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3860722",
     "translation_kind": "llm"
   },
   {
@@ -19857,6 +21035,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a14f0cbc43b2",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "¡Hay una llamada para ti!",
+    "es_author": "IA (Claude)",
+    "id": "s_395970",
+    "it": "C'è una chiamata per te!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "395970",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "64efc0cb9d33",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -20009,6 +21199,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "399832",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "4f44db76b153",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tiene una dirección de correo electrónico?",
+    "es_author": "IA (Claude)",
+    "id": "s_3998405",
+    "it": "Ha un indirizzo e-mail?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3998405",
+    "translation_kind": "llm"
   },
   {
     "audio": "6984436e62b1",
@@ -20211,6 +21413,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "9c9256fe9151",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Él está gritando.",
+    "es_author": "IA (Claude)",
+    "id": "s_4090619",
+    "it": "Lui sta urlando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4090619",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "d5f66517f89b",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -20235,6 +21449,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "409445",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "c38e12f73195",
+    "author": "shoras",
+    "cefr_estimate": "A1",
+    "es": "Llena este formulario, por favor.",
+    "es_author": "IA (Claude)",
+    "id": "s_409512",
+    "it": "Riempi questo modulo per favore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "409512",
+    "translation_kind": "llm"
   },
   {
     "audio": "6ba499d6da9c",
@@ -20364,6 +21590,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "c1875b5c657b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Deja un mensaje.",
+    "es_author": "IA (Claude)",
+    "id": "s_4125029",
+    "it": "Lascia un messaggio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4125029",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "8c57fccdc476",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -20402,6 +21640,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e7f6b102db8d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella no te entiende.",
+    "es_author": "IA (Claude)",
+    "id": "s_4146480",
+    "it": "Non ti capisce.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4146480",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "d5874a03f450",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -20424,6 +21674,18 @@
     "it": "È ora di cena.",
     "license": "CC BY 2.0 FR",
     "source_id": "415480",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "f56161f500e6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Te amo demasiado.",
+    "es_author": "IA (Claude)",
+    "id": "s_4158171",
+    "it": "Ti amo troppo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4158171",
     "translation_kind": "llm"
   },
   {
@@ -20592,6 +21854,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "76046cd24928",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella te quiere.",
+    "es_author": "IA (Claude)",
+    "id": "s_4204389",
+    "it": "Lei ti vuole.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4204389",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "e1fde82b1c31",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -20680,6 +21954,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4226433",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "0dc0ab10f336",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Guarda una copia de ese documento.",
+    "es_author": "IA (Claude)",
+    "id": "s_4226760",
+    "it": "Tieni una copia di quel documento.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4226760",
+    "translation_kind": "llm"
   },
   {
     "audio": "edae923297fe",
@@ -21070,6 +22356,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "8059cfc9433f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo estoy viniendo.",
+    "es_author": "IA (Claude)",
+    "id": "s_4323125",
+    "it": "Io sto venendo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4323125",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "60a0f7f00be1",
     "author": "bailujia",
     "cefr_estimate": "A1",
@@ -21081,6 +22379,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4333778",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "547ac58cc528",
+    "author": "tiguliano",
+    "cefr_estimate": "A1",
+    "es": "No tengo tiempo para leer.",
+    "es_author": "IA (Claude)",
+    "id": "s_433533",
+    "it": "Non ho tempo per leggere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "433533",
+    "translation_kind": "llm"
   },
   {
     "audio": "7379d4409b03",
@@ -21142,6 +22452,30 @@
     "it": "Voi sapete nuotare?",
     "license": "CC BY 2.0 FR",
     "source_id": "4360146",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "4f50107b6712",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tú estás pagando.",
+    "es_author": "IA (Claude)",
+    "id": "s_4366651",
+    "it": "Tu stai pagando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4366651",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "99d9ffdfb1c4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella está pagando.",
+    "es_author": "IA (Claude)",
+    "id": "s_4366653",
+    "it": "Lei sta pagando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4366653",
     "translation_kind": "llm"
   },
   {
@@ -21877,6 +23211,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1388cd09f1d9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Mándele un mensaje a Tom.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4506834",
+    "id": "s_4506819",
+    "it": "Manda un messaggio a Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4506819",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "176deecaa541",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -22119,6 +23466,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1dddc8abe434",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No me estoy riendo.",
+    "es_author": "IA (Claude)",
+    "id": "s_4553130",
+    "it": "Non sto ridendo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4553130",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "c2b2413538c5",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -22332,6 +23691,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4598063",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "ba591ec8ad4c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Aquí tenemos un paquete para Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_4603376",
+    "it": "Abbiamo qui un pacco per Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4603376",
+    "translation_kind": "llm"
   },
   {
     "audio": "ca1d01b659aa",
@@ -22886,6 +24257,18 @@
     "it": "Noi sappiamo tutto.",
     "license": "CC BY 2.0 FR",
     "source_id": "4765836",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "8b92805e08d2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde está la aduana?",
+    "es_author": "IA (Claude)",
+    "id": "s_4782308",
+    "it": "Dov'è la dogana?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4782308",
     "translation_kind": "llm"
   },
   {
@@ -23908,6 +25291,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "b10bcb5822f5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Quién se está riendo?",
+    "es_author": "IA (Claude)",
+    "id": "s_5285426",
+    "it": "Chi sta ridendo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5285426",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "495d80f029a4",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -24068,6 +25463,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "53cfd8dfb142",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estoy bailando.",
+    "es_author": "IA (Claude)",
+    "id": "s_5334336",
+    "it": "Io sto ballando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5334336",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "9c73bad0324a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Quién está pagando?",
+    "es_author": "IA (Claude)",
+    "id": "s_5334435",
+    "it": "Chi sta pagando?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5334435",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "1d236e269cc5",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -24153,6 +25572,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2fbc2fcfc65f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No hay tiempo para explicar.",
+    "es_author": "IA (Claude)",
+    "id": "s_5346026",
+    "it": "Non c'è tempo per spiegare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5346026",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "3d1221c6c303",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -24215,6 +25646,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "8bf4801f722e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estoy comprando.",
+    "es_author": "IA (Claude)",
+    "id": "s_5348032",
+    "it": "Io sto comprando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5348032",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "da5bc45281e7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -24251,6 +25694,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "534955",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "69361efcb37d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom te conoce.",
+    "es_author": "IA (Claude)",
+    "id": "s_5352195",
+    "it": "Tom ti conosce.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5352195",
+    "translation_kind": "llm"
   },
   {
     "audio": "a5eb9d5b26a9",
@@ -24341,6 +25796,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "6a25ae8461f6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estoy aquí para ayudar.",
+    "es_author": "IA (Claude)",
+    "id": "s_5393657",
+    "it": "Sono qui per aiutare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5393657",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "835c176c1dbc",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -24389,6 +25856,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "5403465",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "d4b5f5bfa0b1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estamos aquí para hablar.",
+    "es_author": "IA (Claude)",
+    "id": "s_5409215",
+    "it": "Siamo qui per parlare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5409215",
+    "translation_kind": "llm"
   },
   {
     "audio": "edf7d1ed55db",
@@ -24651,6 +26130,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "33751f817e9d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tengo un mensaje.",
+    "es_author": "IA (Claude)",
+    "id": "s_5490239",
+    "it": "Ho un messaggio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5490239",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "7654ff0d352e",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -24820,6 +26311,18 @@
     "it": "Prendiamo un'altra birra.",
     "license": "CC BY 2.0 FR",
     "source_id": "5546059",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "106011122b6f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No tengo el número.",
+    "es_author": "IA (Claude)",
+    "id": "s_5553815",
+    "it": "Non ho il numero.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5553815",
     "translation_kind": "llm"
   },
   {
@@ -25099,6 +26602,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "6ebfa2636e9a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estoy cenando ahora.",
+    "es_author": "IA (Claude)",
+    "id": "s_5692705",
+    "it": "Sto cenando ora.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5692705",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "6c49a942e0d8",
     "author": "bruno_b",
     "cefr_estimate": "A1",
@@ -25235,6 +26750,18 @@
     "it": "Mia figlia Meva compie oggi diciannove anni.",
     "license": "CC BY 2.0 FR",
     "source_id": "5738845",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "0184a453c374",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estoy aquí solo para trabajar.",
+    "es_author": "IA (Claude)",
+    "id": "s_5750613",
+    "it": "Sono qui solo per lavorare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5750613",
     "translation_kind": "llm"
   },
   {
@@ -25638,6 +27165,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "d772753466ce",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estoy aquí para aprender.",
+    "es_author": "IA (Claude)",
+    "id": "s_5992964",
+    "it": "Sono qui per imparare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5992964",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "8faf07ace76b",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -25738,6 +27277,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "603423",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "1d3dac9f918a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Vive para estudiar.",
+    "es_author": "IA (Claude)",
+    "id": "s_6034255",
+    "it": "Vive per studiare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6034255",
+    "translation_kind": "llm"
   },
   {
     "audio": "400026ae2c6d",
@@ -25881,6 +27432,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "44dff8e85cf1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Esto es una radio?",
+    "es_author": "IA (Claude)",
+    "id": "s_6095304",
+    "it": "Questa è una radio?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6095304",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "5243029890ff",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -25944,6 +27507,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "6114456",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "62033e875418",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Qué estoy haciendo?",
+    "es_author": "IA (Claude)",
+    "id": "s_6117363",
+    "it": "Cosa sto facendo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6117363",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e778bddbf4cb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Qué estoy haciendo?",
+    "es_author": "IA (Claude)",
+    "id": "s_6117365",
+    "it": "Che sto facendo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6117365",
+    "translation_kind": "llm"
   },
   {
     "audio": "6ab27394c411",
@@ -26099,6 +27686,43 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "dfaad0e02c84",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Como para vivir.",
+    "es_author": "IA (Claude)",
+    "id": "s_6173357",
+    "it": "Mangio per vivere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6173357",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c363ed063027",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ahora está cenando.",
+    "es_author": "IA (Claude)",
+    "id": "s_617544",
+    "it": "Ora sta cenando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "617544",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "abbe78269681",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Ella te conoce?",
+    "es_author": "Shishir",
+    "es_source_id": "554997",
+    "id": "s_620645",
+    "it": "Lei ti conosce?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "620645",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "da4ef511cf64",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -26202,6 +27826,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "db940270b6b4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Te sientes bien?",
+    "es_author": "IA (Claude)",
+    "id": "s_627751",
+    "it": "Ti senti bene?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "627751",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b99e513628e8",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -26239,6 +27875,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "630472",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "e200899813e2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Te amo de verdad.",
+    "es_author": "IA (Claude)",
+    "id": "s_630788",
+    "it": "Ti amo davvero.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "630788",
+    "translation_kind": "llm"
   },
   {
     "audio": "2829f91cdb65",
@@ -26711,6 +28359,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "27a27d4c57ee",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom te quiere.",
+    "es_author": "IA (Claude)",
+    "id": "s_6551171",
+    "it": "Tom ti vuole.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6551171",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "abf3d0baa300",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -26823,6 +28483,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "6598255",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "2303c8ee9012",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Es demasiado tarde para pensar.",
+    "es_author": "saverius",
+    "es_source_id": "11857932",
+    "id": "s_6604730",
+    "it": "È troppo tardi per pensare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6604730",
+    "translation_kind": "direct"
   },
   {
     "audio": "237253e88fbc",
@@ -27069,6 +28742,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "30138c23114d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Escucha la radio.",
+    "es_author": "IA (Claude)",
+    "id": "s_6708640",
+    "it": "Ascolta la radio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6708640",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "3a843318a9d2",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -27103,6 +28788,30 @@
     "it": "Sto mangiando una banana.",
     "license": "CC BY 2.0 FR",
     "source_id": "671771",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "535ab2c0aaaa",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Estás bajando?",
+    "es_author": "IA (Claude)",
+    "id": "s_6719614",
+    "it": "Stai andando giù?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6719614",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c68fc1923182",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Está bajando?",
+    "es_author": "IA (Claude)",
+    "id": "s_6719615",
+    "it": "Sta andando giù?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6719615",
     "translation_kind": "llm"
   },
   {
@@ -27180,6 +28889,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "675684",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "c08c38e782be",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom me ama.",
+    "es_author": "IA (Claude)",
+    "id": "s_6759371",
+    "it": "Tom mi ama.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6759371",
+    "translation_kind": "llm"
   },
   {
     "audio": "9db477604430",
@@ -27589,6 +29310,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "d3afb327674e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "La estoy leyendo.",
+    "es_author": "IA (Claude)",
+    "id": "s_6975916",
+    "it": "La sto leggendo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6975916",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "19c6b0d34706",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Por qué me amas?",
+    "es_author": "IA (Claude)",
+    "id": "s_698550",
+    "it": "Perché mi ami?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "698550",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "29ab81fe4cd8",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -27625,6 +29370,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "700874",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "3b8495ca457d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Te quiero (cariño).",
+    "es_author": "IA (Claude)",
+    "id": "s_701203",
+    "it": "Ti voglio bene.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "701203",
+    "translation_kind": "llm"
   },
   {
     "audio": "af1d6bf18459",
@@ -28006,6 +29763,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "54d6a263d7c9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estoy leyendo.",
+    "es_author": "IA (Claude)",
+    "id": "s_7140153",
+    "it": "Io sto leggendo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7140153",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "c5d4f7b77ff2",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -28133,6 +29902,19 @@
     "it": "Quella stanza non è molto grande.",
     "license": "CC BY 2.0 FR",
     "source_id": "715654",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "6080e2da9801",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No te entiendo.",
+    "es_author": "Shishir",
+    "es_source_id": "667054",
+    "id": "s_716072",
+    "it": "Non ti capisco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "716072",
     "translation_kind": "direct"
   },
   {
@@ -28546,6 +30328,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "740426",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "fbc9ca36ebe9",
+    "author": "Ricardo14",
+    "cefr_estimate": "A1",
+    "es": "Ella te ama.",
+    "es_author": "IA (Claude)",
+    "id": "s_7414231",
+    "it": "Lei ti ama.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7414231",
+    "translation_kind": "llm"
   },
   {
     "audio": "f15b8cf0afa2",
@@ -29229,6 +31023,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2d9c9c107fcb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Está listo para pedir ahora?",
+    "es_author": "IA (Claude)",
+    "id": "s_776166",
+    "it": "È pronto per ordinare ora?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "776166",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "9ff6c48b41be",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -29465,6 +31271,18 @@
     "it": "Sei andato a scuola?",
     "license": "CC BY 2.0 FR",
     "source_id": "7886288",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "60cd178d4e29",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Qué hay en el sobre?",
+    "es_author": "IA (Claude)",
+    "id": "s_7901546",
+    "it": "Che c'è nella busta?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7901546",
     "translation_kind": "llm"
   },
   {
@@ -29715,6 +31533,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a50d3c18bd47",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame el número.",
+    "es_author": "IA (Claude)",
+    "id": "s_806746",
+    "it": "Dammi il numero.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "806746",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "23cd361ac79d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -29805,6 +31635,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "776b8925a786",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Llena este formulario, por favor.",
+    "es_author": "IA (Claude)",
+    "id": "s_819231",
+    "it": "Compila questo modulo, per favore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "819231",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "ec47a8c10e19",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Complete este formulario, por favor.",
+    "es_author": "IA (Claude)",
+    "id": "s_819232",
+    "it": "Compili questo modulo, per favore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "819232",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "1085d6ac5d30",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -29816,6 +31670,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "819785",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "ef1fab2499d8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Quién me ama?",
+    "es_author": "IA (Claude)",
+    "id": "s_8221051",
+    "it": "Chi mi ama?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8221051",
+    "translation_kind": "llm"
   },
   {
     "audio": "f2effea059fb",
@@ -29851,6 +31717,18 @@
     "it": "La carota è uno spuntino salutare.",
     "license": "CC BY 2.0 FR",
     "source_id": "824694",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "4c6870313246",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estamos llamando a la policía.",
+    "es_author": "IA (Claude)",
+    "id": "s_8247926",
+    "it": "Stiamo chiamando la polizia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8247926",
     "translation_kind": "llm"
   },
   {
@@ -30228,6 +32106,54 @@
     "license": "CC BY 2.0 FR",
     "source_id": "851744",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "f37288ca2dc0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Está lloviendo aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_8552816",
+    "it": "Sta piovendo qua.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8552816",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b7b516289516",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Está lloviendo allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_8552817",
+    "it": "Sta piovendo lì.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8552817",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d996adc65352",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Te estoy ayudando.",
+    "es_author": "IA (Claude)",
+    "id": "s_8552820",
+    "it": "Ti sto aiutando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8552820",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "672eb0ff96ca",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Los estoy ayudando.",
+    "es_author": "IA (Claude)",
+    "id": "s_8552821",
+    "it": "Vi sto aiutando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8552821",
+    "translation_kind": "llm"
   },
   {
     "audio": "19d6e841df20",
@@ -30612,6 +32538,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "bfc0fc4acf47",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tienes el número equivocado.",
+    "es_author": "IA (Claude)",
+    "id": "s_8845862",
+    "it": "Hai il numero sbagliato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8845862",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "5d159be75388",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tiene el número equivocado.",
+    "es_author": "IA (Claude)",
+    "id": "s_8845864",
+    "it": "Ha il numero sbagliato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8845864",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "95927b9e92b5",
     "author": "riccioberto",
     "cefr_estimate": "A1",
@@ -30924,6 +32874,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "9059195",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "c807267615d0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡Sí, ya voy!",
+    "es_author": "IA (Claude)",
+    "id": "s_906044",
+    "it": "Sì, sto venendo!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "906044",
+    "translation_kind": "llm"
   },
   {
     "audio": "81d8de532cc5",
@@ -31723,6 +33685,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "978795",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "029f30038066",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Se comunican entre ellos por correo.",
+    "es_author": "IA (Claude)",
+    "id": "s_9802522",
+    "it": "Comunicano fra loro per posta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9802522",
+    "translation_kind": "llm"
   },
   {
     "audio": "56cc0cdb64bd",
@@ -35950,6 +37924,30 @@
     "it": "Io vado a letto alle dieci e mezza.",
     "license": "CC BY 2.0 FR",
     "source_id": "5330590",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1f924d9c814b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Recibiste mi paquete?",
+    "es_author": "IA (Claude)",
+    "id": "s_5351834",
+    "it": "Hai ricevuto il mio pacco?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5351834",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b12f19344cf7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Recibió mi paquete?",
+    "es_author": "IA (Claude)",
+    "id": "s_5351837",
+    "it": "Ha ricevuto il mio pacco?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5351837",
     "translation_kind": "llm"
   },
   {

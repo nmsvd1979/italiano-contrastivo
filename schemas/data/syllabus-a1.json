@@ -2,7 +2,7 @@
  "version": 1,
  "nivel": "A1",
  "fuentes": "Sillabo CILS A1 (producción y recepción) y Sillabo PLIDA (funciones, tipos de texto y 21 áreas); ver docs/metodos-y-estructura-de-la-app.md y research_notes (no versionado).",
- "nota": "«covered» = hay práctica en la app (unidad, módulo, juego de roles, tarea o texto). «partial» y «gap» declaran lo que falta y cómo cerrarlo. No equivale a verificación de un nativo: los textos propios están escritos por la IA.",
+ "nota": "«covered» = hay práctica en la app (unidad, módulo, juego de roles, tarea o texto). «partial» y «gap» declaran lo que falta y cómo cerrarlo. No equivale a verificación de un nativo: los textos propios están escritos por la IA. «deferred» = se decidió aplazarlo a un nivel posterior y está explicado.",
  "requisitos": [
   {
    "id": "g01",
@@ -199,14 +199,13 @@
    "area": "gramatica",
    "source": "CILS A1",
    "text_es": "Subordinadas: perché (causa), quando (tiempo), per + infinitivo (finalidad)",
-   "status": "partial",
+   "status": "covered",
    "refs": {
     "units": [
-     "u30"
+     "u30",
+     "u70"
     ]
-   },
-   "gap_es": "perché y quando se practican como palabras; «per + infinitivo» no tiene práctica propia.",
-   "how_es": "Agregar en A2 una unidad de oraciones con «per + infinitivo» (Tatoeba: «Vado a Roma per studiare»)."
+   }
   },
   {
    "id": "g17",
@@ -237,30 +236,28 @@
    "id": "g19",
    "area": "gramatica",
    "source": "CILS A1",
-   "text_es": "Pronombres átonos lo, la, mi, ti (reconocer)",
-   "status": "partial",
+   "text_es": "Pronombres átonos de 1.ª y 2.ª persona (mi, ti) y tónicos (con me, per te)",
+   "status": "covered",
    "refs": {
     "units": [
+     "u71",
      "u61"
     ]
-   },
-   "gap_es": "Solo se ven pronombres tónicos (con me, per te); los átonos aparecen en oraciones pero sin cápsula.",
-   "how_es": "Unidad de A2 «Clíticos lo / la / li / le» con generador (ver docs/hoja-de-ruta-a2-b2.md)."
+   }
   },
   {
    "id": "g20",
    "area": "gramatica",
    "source": "CILS A1",
    "text_es": "Gerundio con stare («sto mangiando»), reflexivos y piacere",
-   "status": "partial",
+   "status": "covered",
    "refs": {
     "units": [
+     "u72",
      "u56",
      "u44"
     ]
-   },
-   "gap_es": "«stare + gerundio» aparece en 64 oraciones pero no tiene cápsula propia.",
-   "how_es": "Cápsula opcional en A2."
+   }
   },
   {
    "id": "g21",
@@ -574,24 +571,28 @@
    "area": "texto",
    "source": "CILS A1",
    "text_es": "Billetes, etiquetas y listas de compra",
-   "status": "partial",
+   "status": "covered",
    "refs": {
     "readings": [
+     "doc_biglietto",
+     "doc_etichetta",
+     "doc_lista",
      "rd_stazione"
     ]
-   },
-   "gap_es": "Hay un diálogo de estación (audio) pero ningún billete ni etiqueta ni lista de compra escritos.",
-   "how_es": "Agregar tres documentos cortos en A2 (billete de tren, etiqueta de ropa, lista de compra) con el mismo método de textos propios."
+   }
   },
   {
    "id": "t09",
    "area": "texto",
    "source": "CILS A1",
    "text_es": "Avisos públicos orales y mensajes de contestador",
-   "status": "gap",
-   "refs": {},
-   "gap_es": "No hay audio de avisos de estación ni de contestador; Piper los puede leer pero el estilo (megafonía) no se evaluó.",
-   "how_es": "Escribir 4 avisos cortos (estación, tienda) como textos propios y generarlos con Piper en A2."
+   "status": "covered",
+   "refs": {
+    "readings": [
+     "rd_avvisi",
+     "rd_stazione"
+    ]
+   }
   },
   {
    "id": "p01",
@@ -841,40 +842,46 @@
    "area": "lexico",
    "source": "PLIDA A1 (21 áreas)",
    "text_es": "Área temática PLIDA: comunicación y medios",
-   "status": "gap",
-   "refs": {},
-   "gap_es": "No hay vocabulario de teléfono, internet ni medios.",
-   "how_es": "Agregar un tema «teléfono y mensajes» en A2."
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u73"
+    ]
+   }
   },
   {
    "id": "l19",
    "area": "lexico",
    "source": "PLIDA A1 (21 áreas)",
    "text_es": "Área temática PLIDA: instituciones y vida política",
-   "status": "gap",
+   "status": "deferred",
    "refs": {},
-   "gap_es": "Fuera de A1 en la práctica (PLIDA lo marca con intensidad baja).",
-   "how_es": "Recién en B1."
+   "gap_es": "PLIDA marca esta área con intensidad baja en A1: se trata desde B1 (vida política e instituciones), no en A1.",
+   "how_es": "Incluirla en el archivo de cobertura de B1 con textos de Vikidia/Wikinotizie (por verificar)."
   },
   {
    "id": "l20",
    "area": "lexico",
    "source": "PLIDA A1 (21 áreas)",
    "text_es": "Área temática PLIDA: tecnología y ciencia",
-   "status": "gap",
-   "refs": {},
-   "gap_es": "Sin vocabulario propio.",
-   "how_es": "Agregar en A2 un tema «computador y teléfono»."
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u73"
+    ]
+   }
   },
   {
    "id": "l21",
    "area": "lexico",
    "source": "PLIDA A1 (21 áreas)",
    "text_es": "Área temática PLIDA: oficinas públicas y servicios",
-   "status": "gap",
-   "refs": {},
-   "gap_es": "Solo correos y banco aparecen en lecturas; sin tema.",
-   "how_es": "Agregar en A2 un tema «correos, banco, farmacia»."
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u74"
+    ]
+   }
   }
  ]
 }

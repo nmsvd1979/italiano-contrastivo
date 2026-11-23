@@ -8575,6 +8575,52 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_SERVIZI"
+    ],
+    "es": "¿Recibiste mi paquete?",
+    "es_author": "IA (Claude)",
+    "id": "s_5351834",
+    "it": "Hai ricevuto il mio pacco?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5351834",
+    "tag_rules": {
+      "ERR_VOC_SERVIZI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_SERVIZI"
+    ],
+    "es": "¿Recibió mi paquete?",
+    "es_author": "IA (Claude)",
+    "id": "s_5351837",
+    "it": "Ha ricevuto il mio pacco?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5351837",
+    "tag_rules": {
+      "ERR_VOC_SERVIZI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [

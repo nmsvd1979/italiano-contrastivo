@@ -131,14 +131,15 @@
         "Presentar a tu familia con los posesivos bien usados.",
         "Describir a una persona por fuera y por dentro.",
         "Contar cuántas personas hay en tu casa y cómo son.",
-        "Pronunciar «gli» (figlio, famiglia)."
+        "Pronunciar «gli» (figlio, famiglia) y decir ti amo / mi capisci (no «te amo»)."
       ],
       "units": [
         "u21",
         "u01",
         "u02",
         "u41",
-        "u20"
+        "u20",
+        "u71"
       ],
       "entry_reading": "rd_incontro",
       "roleplays": [],
@@ -159,7 +160,8 @@
         "Contar qué haces cada día y a qué hora.",
         "Decir los días y los meses, y cuándo es tu cumpleaños.",
         "Usar los verbos regulares en presente con todas las personas.",
-        "Hablar de tu día con verbos reflexivos."
+        "Hablar de tu día con verbos reflexivos.",
+        "Decir qué haces ahora (sto mangiando)."
       ],
       "units": [
         "u15",
@@ -167,7 +169,8 @@
         "u59",
         "u56",
         "u40",
-        "u48"
+        "u48",
+        "u72"
       ],
       "entry_reading": "rd_routine",
       "roleplays": [],
@@ -377,6 +380,37 @@
       "library": "plida-a1",
       "library_task_es": "Revisa el ejemplo de PLIDA A1 e identifica qué partes ya sabrías hacer.",
       "writing_es": "Escribe 4 frases sobre lo que hiciste ayer, con «ho + participio» o «sono + participio»."
+    },
+    {
+      "id": "m12",
+      "level": "A1",
+      "title": "Teléfono, correo, trámites y avisos",
+      "can_do_es": [
+        "Llamar por teléfono, presentarte y dejar un mensaje.",
+        "Mandar una carta o un paquete y llenar un formulario sencillo.",
+        "Leer un boleto, una etiqueta de ropa y una lista de compras.",
+        "Entender un aviso corto de estación, tienda o contestador."
+      ],
+      "units": [
+        "u73",
+        "u74"
+      ],
+      "entry_reading": "rd_telefono",
+      "roleplays": [
+        "rp_telefono",
+        "rp_posta"
+      ],
+      "tasks": [],
+      "phrase_groups": [],
+      "extra_readings": [
+        "doc_biglietto",
+        "doc_etichetta",
+        "doc_lista",
+        "rd_avvisi"
+      ],
+      "writing_es": "Escribe un mensaje para dejar en un contestador: quién eres, por qué llamas y a qué número te pueden llamar.",
+      "library": "integrazione-migranti",
+      "library_task_es": "Abre un curso A1 de Integrazione Migranti y mira una lección sobre servicios."
     }
   ],
   "units": [
@@ -4968,6 +5002,108 @@
       ]
     },
     {
+      "id": "u71",
+      "level": "A1",
+      "title": "Pronombres átonos: ti amo, mi vedi (no «te amo»)",
+      "goal_es": "Los pronombres de 1.ª y 2.ª persona antes del verbo son mi y ti; me y te son del español.",
+      "codes": [
+        "ERR_CLITICO_MI_TI"
+      ],
+      "why_here": "Son los pronombres que más usas con personas cercanas (te quiero, me entiendes) y el español te tienta a escribir «te» y «me».",
+      "ficha_es": "Antes del verbo, los pronombres átonos de 1.ª y 2.ª persona son mi (me) y ti (te): Ti amo. Mi capisci? Non ti conosco. Mi sento bene.\n\nEl español escribe «me» y «te»; en italiano me y te existen, pero son los pronombres tónicos que van detrás de una preposición (con me, per te). Los demás pronombres átonos son lo, la, li, le (para cosas y personas terceras) y gli, le (a él, a ella): Lo vedo. La conosco. Gli parlo.",
+      "readings": [
+        "rd_telefono"
+      ],
+      "status": "active",
+      "explanation_es": "Antes del verbo, los pronombres átonos de 1.ª y 2.ª persona son mi y ti (ti amo, mi capisci, non ti conosco); me y te son los tónicos que van tras preposición (con me, per te). El español escribe «te amo», «me entiendes».",
+      "parts": {
+        "descubre": [
+          "s_3567093",
+          "s_1687366",
+          "s_2552857",
+          "s_2742941"
+        ],
+        "practica": [
+          "s_3567093",
+          "s_1687366",
+          "s_2552857",
+          "s_2742941",
+          "s_3388002",
+          "s_3567039",
+          "s_6759371",
+          "s_7414231",
+          "s_8221051",
+          "s_13298154",
+          "s_4204389",
+          "s_6551171",
+          "s_1385432",
+          "s_1836070",
+          "s_1974590",
+          "s_2510623",
+          "s_2818675",
+          "s_3173667",
+          "s_3566843",
+          "s_3567040",
+          "s_4158171",
+          "s_627751",
+          "s_1188214",
+          "s_1261681",
+          "s_3042980",
+          "s_4146480",
+          "s_5352195",
+          "s_620645",
+          "s_701203",
+          "s_716072"
+        ],
+        "escucha": [
+          "s_3567093",
+          "s_2742941",
+          "s_6759371",
+          "s_13298154",
+          "s_1385432",
+          "s_2510623",
+          "s_3566843",
+          "s_627751"
+        ],
+        "prueba": [
+          "s_3567041",
+          "s_11243390",
+          "s_1313642",
+          "s_2020115",
+          "s_3567020",
+          "s_698550",
+          "s_3536686",
+          "s_630788"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_3567093",
+          "start": 3,
+          "end": 5,
+          "wrong": "me"
+        },
+        {
+          "id": "s_1687366",
+          "start": 4,
+          "end": 6,
+          "wrong": "te"
+        },
+        {
+          "id": "s_2552857",
+          "start": 4,
+          "end": 6,
+          "wrong": "me"
+        },
+        {
+          "id": "s_2742941",
+          "start": 4,
+          "end": 6,
+          "wrong": "te"
+        }
+      ]
+    },
+    {
       "id": "u15",
       "level": "A1",
       "title": "Verbos en -ere e -ire: leggo, dormo, finisco",
@@ -6270,6 +6406,109 @@
           "start": 3,
           "end": 8,
           "wrong": "doccia"
+        }
+      ]
+    },
+    {
+      "id": "u72",
+      "level": "A1",
+      "title": "Lo que haces ahora: sto mangiando",
+      "goal_es": "La acción en curso es stare + gerundio: sto mangiando, stai leggendo, sta piovendo; no «sono mangiando».",
+      "codes": [
+        "ERR_STARE_GERUNDIO"
+      ],
+      "why_here": "Es la forma natural de decir qué estás haciendo ahora, y el español «estoy comiendo» lleva a usar essere por error.",
+      "ficha_es": "Para decir que algo ocurre ahora se usa stare + gerundio: Sto mangiando (estoy comiendo), Stai leggendo, Sta piovendo, Stiamo parlando.\n\nEl gerundio termina en -ando (verbos en -are: mangiare → mangiando) y en -endo (-ere e -ire: leggere → leggendo, dormire → dormendo). Ojo: en italiano «estar» aquí es stare, no essere: «sono mangiando» no existe.",
+      "readings": [
+        "rd_telefono"
+      ],
+      "status": "active",
+      "explanation_es": "La acción que ocurre ahora se dice con stare + gerundio: sto mangiando, stai leggendo, sta piovendo. El español «estar» aquí es stare, no essere: «sono mangiando» no existe en italiano.",
+      "parts": {
+        "descubre": [
+          "s_4323125",
+          "s_1005159",
+          "s_1114693",
+          "s_1255783"
+        ],
+        "practica": [
+          "s_4323125",
+          "s_1005159",
+          "s_1114693",
+          "s_1255783",
+          "s_1559431",
+          "s_1645159",
+          "s_1824273",
+          "s_2190445",
+          "s_2190461",
+          "s_2206721",
+          "s_2555694",
+          "s_3649955",
+          "s_4090619",
+          "s_4366651",
+          "s_4366653",
+          "s_4553130",
+          "s_5334336",
+          "s_5334435",
+          "s_5692705",
+          "s_617544",
+          "s_6719615",
+          "s_6975916",
+          "s_7140153",
+          "s_8552820",
+          "s_8552821",
+          "s_906044",
+          "s_3013711",
+          "s_3537817",
+          "s_5348032",
+          "s_6719614",
+          "s_8552816"
+        ],
+        "escucha": [
+          "s_4323125",
+          "s_1255783",
+          "s_1824273",
+          "s_2206721",
+          "s_4090619",
+          "s_4553130",
+          "s_5692705",
+          "s_6975916"
+        ],
+        "prueba": [
+          "s_1662985",
+          "s_2190660",
+          "s_3860722",
+          "s_5285426",
+          "s_6117365",
+          "s_8552817",
+          "s_1004209",
+          "s_6117363"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_4323125",
+          "start": 3,
+          "end": 6,
+          "wrong": "sono"
+        },
+        {
+          "id": "s_1005159",
+          "start": 3,
+          "end": 6,
+          "wrong": "sono"
+        },
+        {
+          "id": "s_1114693",
+          "start": 4,
+          "end": 7,
+          "wrong": "sono"
+        },
+        {
+          "id": "s_1255783",
+          "start": 4,
+          "end": 7,
+          "wrong": "è"
         }
       ]
     },
@@ -9698,28 +9937,30 @@
           "s_6775261",
           "s_7053245",
           "s_1003819",
-          "s_1332784",
+          "s_1238994",
           "s_1335831",
           "s_1438708",
           "s_1538636",
-          "s_2020812",
+          "s_1700888",
           "s_2515187",
           "s_2924177",
           "s_3230255",
-          "s_3842576",
+          "s_3352346",
           "s_4070688",
           "s_4269068",
           "s_4463664",
-          "s_7053244",
+          "s_5412285",
           "s_861971",
           "s_10151754",
           "s_1086424",
+          "s_374434",
           "s_4150324",
-          "s_4427",
           "s_611924",
           "s_6738414",
+          "s_954960",
           "s_2511290",
-          "s_3549242"
+          "s_6034255",
+          "s_6173357"
         ],
         "escucha": [
           "s_2352408",
@@ -9734,12 +9975,12 @@
         "prueba": [
           "s_3775495",
           "s_4407275",
-          "s_1238994",
-          "s_1700888",
-          "s_3352346",
-          "s_5412285",
-          "s_374434",
-          "s_954960"
+          "s_1332784",
+          "s_2020812",
+          "s_3842576",
+          "s_7053244",
+          "s_4427",
+          "s_3549242"
         ]
       },
       "divergences": [
@@ -14867,6 +15108,473 @@
           "start": 4,
           "end": 10,
           "wrong": "sei"
+        }
+      ]
+    },
+    {
+      "id": "u73",
+      "level": "A1",
+      "title": "Vocabulario: teléfono, mensajes y tecnología",
+      "goal_es": "messaggio, chiamata, numero, radio, sito, tastiera, rete, mail, applicazione…: las palabras para comunicarte y usar aparatos.",
+      "codes": [
+        "ERR_VOC_COMUNICAZIONE"
+      ],
+      "why_here": "Cierra el área «comunicación y medios» del programa A1: dejar un mensaje, dar un número, usar un sitio web.",
+      "ficha_es": "Comunicarte hoy: il messaggio (mensaje), la chiamata (llamada), il numero (número), la mail (correo electrónico), il sito (sitio web), la rete (red), l'applicazione (aplicación), la radio.\n\nOjo con el género: la radio y la mail son femeninas; il numero y il messaggio, masculinas. Para pedir algo: Lasci un messaggio. Mi manda il numero?",
+      "words": [
+        {
+          "form": "messaggio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el mensaje",
+          "audio": "151a6c958d65",
+          "art": "il",
+          "sieve": "transparente",
+          "note": "messaggio = mensaje"
+        },
+        {
+          "form": "chiamata",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la llamada",
+          "audio": "fb1d1d2c679e",
+          "art": "la",
+          "sieve": "opaca",
+          "note": "chiamata = llamada"
+        },
+        {
+          "form": "internet",
+          "gender": "m",
+          "num": "s",
+          "gloss": "internet",
+          "audio": "4d0fb475b242",
+          "sieve": "transparente"
+        },
+        {
+          "form": "schermo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la pantalla",
+          "audio": "569e1ab2ef32",
+          "art": "lo",
+          "sieve": "opaca"
+        },
+        {
+          "form": "tastiera",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el teclado",
+          "audio": "03b829b1cafb",
+          "art": "la",
+          "sieve": "opaca",
+          "note": "tastiera = teclado"
+        },
+        {
+          "form": "sito",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el sitio web",
+          "audio": "bd3f6b23e427",
+          "art": "il",
+          "sieve": "opaca",
+          "note": "sito = sitio web"
+        },
+        {
+          "form": "radio",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la radio",
+          "audio": "d432c3525b9d",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "numero",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el número",
+          "audio": "53b2ed9fb588",
+          "art": "il",
+          "sieve": "transparente",
+          "note": "numero = número"
+        },
+        {
+          "form": "mail",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el correo electrónico",
+          "audio": "1d6e1cf70ec6",
+          "art": "la",
+          "sieve": "transparente",
+          "note": "mail = correo electrónico"
+        },
+        {
+          "form": "canale",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el canal",
+          "audio": "29b2ca4d969e",
+          "art": "il",
+          "sieve": "transparente",
+          "note": "canale = canal"
+        },
+        {
+          "form": "applicazione",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la aplicación",
+          "audio": "af7c38daaf5f",
+          "art": "l'",
+          "sieve": "regular",
+          "rule": "cion-zione",
+          "note": "applicazione = aplicación"
+        },
+        {
+          "form": "videogioco",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el videojuego",
+          "audio": "45d85d6bd635",
+          "art": "il",
+          "sieve": "opaca",
+          "note": "videogioco = videojuego"
+        },
+        {
+          "form": "rete",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la red",
+          "audio": "d307d20f4dd0",
+          "art": "la",
+          "sieve": "opaca",
+          "note": "rete = red"
+        },
+        {
+          "form": "linea",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la línea",
+          "audio": "6b6ea5a3587f",
+          "art": "la",
+          "sieve": "transparente",
+          "note": "linea = línea"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Palabras para comunicarte y usar aparatos: messaggio (mensaje), chiamata (llamada), numero, mail (correo electrónico), sito (sitio web), rete (red), applicazione, tastiera (teclado), schermo (pantalla), radio, canale, videogioco, linea. La radio y la mail son femeninas.",
+      "parts": {
+        "descubre": [
+          "s_3236499",
+          "s_1208347",
+          "s_1082386",
+          "s_374592"
+        ],
+        "practica": [
+          "s_3236499",
+          "s_1208347",
+          "s_1082386",
+          "s_374592",
+          "s_5490239",
+          "s_806746",
+          "s_2834721",
+          "s_374591",
+          "s_374596",
+          "s_5553815",
+          "s_6095304",
+          "s_4125029",
+          "s_11225334",
+          "s_11491760",
+          "s_2560137",
+          "s_11225269",
+          "s_374607",
+          "s_2565689",
+          "s_3506063",
+          "s_3998405",
+          "s_8845864",
+          "s_10984588",
+          "s_3530683",
+          "s_395970",
+          "s_8845862",
+          "s_2178114",
+          "s_4506819"
+        ],
+        "escucha": [
+          "s_3236499",
+          "s_374592",
+          "s_2834721",
+          "s_5553815",
+          "s_11225334",
+          "s_11225269",
+          "s_3506063",
+          "s_10984588"
+        ],
+        "prueba": [
+          "s_13277185",
+          "s_6708640",
+          "s_1455556",
+          "s_1816177",
+          "s_1062152",
+          "s_10490134"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_3236499",
+          "start": 7,
+          "end": 12,
+          "wrong": "linea"
+        },
+        {
+          "id": "s_1208347",
+          "start": 6,
+          "end": 10,
+          "wrong": "videogioco"
+        },
+        {
+          "id": "s_1082386",
+          "start": 7,
+          "end": 11,
+          "wrong": "messaggio"
+        },
+        {
+          "id": "s_374592",
+          "start": 10,
+          "end": 15,
+          "wrong": "tastiera"
+        }
+      ]
+    },
+    {
+      "id": "u74",
+      "level": "A1",
+      "title": "Vocabulario: correos, trámites y servicios",
+      "goal_es": "posta, pacco, busta, francobollo, modulo, dogana, polizia, biglietteria…: las palabras de oficinas y trámites.",
+      "codes": [
+        "ERR_VOC_SERVIZI"
+      ],
+      "why_here": "Cierra el área «oficinas públicas y servicios» del programa A1: mandar un paquete, llenar un formulario, comprar un boleto.",
+      "ficha_es": "En la oficina de correos o en una ventanilla: la posta (correo), il pacco (paquete), la busta (sobre), il francobollo (estampilla), la cartolina (postal), il modulo (formulario), lo sportello (ventanilla), la biglietteria (boletería), la dogana (aduana), la polizia (policía).\n\nTrámites útiles: Compili questo modulo. Ho bisogno di un francobollo. Dov'è la biglietteria?",
+      "words": [
+        {
+          "form": "posta",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el correo",
+          "audio": "48895a7662df",
+          "art": "la",
+          "sieve": "opaca",
+          "note": "posta = correo"
+        },
+        {
+          "form": "polizia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la policía",
+          "audio": "f4f738078978",
+          "art": "la",
+          "sieve": "transparente",
+          "note": "polizia = policía"
+        },
+        {
+          "form": "francobollo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la estampilla",
+          "audio": "ccd5685735e3",
+          "art": "il",
+          "sieve": "opaca",
+          "note": "francobollo = estampilla"
+        },
+        {
+          "form": "pacco",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el paquete",
+          "audio": "69cd46d9711d",
+          "art": "il",
+          "sieve": "opaca",
+          "note": "pacco = paquete"
+        },
+        {
+          "form": "sportello",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la ventanilla",
+          "audio": "8f85d10a4294",
+          "art": "lo",
+          "sieve": "opaca",
+          "note": "sportello = ventanilla"
+        },
+        {
+          "form": "modulo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el formulario",
+          "audio": "1af60b7b96e0",
+          "art": "il",
+          "sieve": "opaca",
+          "note": "modulo = formulario (no «módulo»)",
+          "ff": true
+        },
+        {
+          "form": "documento",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el documento",
+          "audio": "287ca5e51760",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "carta",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la tarjeta",
+          "audio": "b0f8e771d839",
+          "art": "la",
+          "sieve": "opaca",
+          "note": "carta = tarjeta o papel (no «carta» de correo: es lettera)",
+          "ff": true
+        },
+        {
+          "form": "biglietteria",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la boletería",
+          "audio": "86981db63ac8",
+          "art": "la",
+          "sieve": "opaca",
+          "note": "biglietteria = boletería"
+        },
+        {
+          "form": "dogana",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la aduana",
+          "audio": "604551eae115",
+          "art": "la",
+          "sieve": "opaca",
+          "note": "dogana = aduana"
+        },
+        {
+          "form": "cartolina",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la postal",
+          "audio": "cb2ccb69efb2",
+          "art": "la",
+          "sieve": "opaca",
+          "note": "cartolina = postal"
+        },
+        {
+          "form": "busta",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el sobre",
+          "audio": "3d5466f7aae5",
+          "art": "la",
+          "sieve": "opaca",
+          "note": "busta = sobre"
+        },
+        {
+          "form": "informazione",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la información",
+          "audio": "05180208d75e",
+          "art": "l'",
+          "sieve": "regular",
+          "rule": "cion-zione",
+          "note": "informazione = información"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Palabras de oficinas y trámites: posta (correo), pacco (paquete), busta (sobre), francobollo (estampilla), cartolina (postal), modulo (formulario), sportello (ventanilla), biglietteria (boletería), dogana (aduana), polizia, documento, informazione, carta (tarjeta o papel).",
+      "parts": {
+        "descubre": [
+          "s_10148997",
+          "s_10148998",
+          "s_3187744",
+          "s_4782308"
+        ],
+        "practica": [
+          "s_10148997",
+          "s_10148998",
+          "s_3187744",
+          "s_4782308",
+          "s_374494",
+          "s_380537",
+          "s_13872706",
+          "s_374495",
+          "s_7901546",
+          "s_2524582",
+          "s_2821759",
+          "s_2821761",
+          "s_1712509",
+          "s_3633591",
+          "s_1243897",
+          "s_1243898",
+          "s_8247926",
+          "s_1283382",
+          "s_13326362",
+          "s_4603376",
+          "s_12265801",
+          "s_1282681",
+          "s_9802522",
+          "s_1536187",
+          "s_409512",
+          "s_2560216",
+          "s_819231",
+          "s_819232",
+          "s_2949118",
+          "s_5351837",
+          "s_5351834"
+        ],
+        "escucha": [
+          "s_10148997",
+          "s_4782308",
+          "s_13872706",
+          "s_2524582",
+          "s_1712509",
+          "s_1243898",
+          "s_13326362",
+          "s_1282681"
+        ],
+        "prueba": [
+          "s_11475944",
+          "s_2470101",
+          "s_2041814",
+          "s_3633589",
+          "s_383281",
+          "s_2725791",
+          "s_4226760",
+          "s_1276440"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_10148997",
+          "start": 3,
+          "end": 8,
+          "wrong": "francobollo"
+        },
+        {
+          "id": "s_10148998",
+          "start": 3,
+          "end": 8,
+          "wrong": "francobollo"
+        },
+        {
+          "id": "s_3187744",
+          "start": 9,
+          "end": 14,
+          "wrong": "carta"
+        },
+        {
+          "id": "s_4782308",
+          "start": 9,
+          "end": 15,
+          "wrong": "cartolina"
         }
       ]
     },

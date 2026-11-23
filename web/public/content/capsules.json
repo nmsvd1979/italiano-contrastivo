@@ -605,6 +605,152 @@
     "cefr": "A1",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Antes del verbo, los pronombres átonos de 1.ª y 2.ª persona son mi y ti (ti amo, mi capisci, non ti conosco); me y te son los tónicos que van tras preposición (con me, per te). El español escribe «te amo», «me entiendes»."
+    },
+    "id": "cap_err_clitico_mi_ti",
+    "retrieval": [
+      {
+        "id": "it_choice_s_1687366_ERR_CLITICO_MI_TI",
+        "options": [
+          {
+            "correct": true,
+            "text": "Non ti amo."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_CLITICO_MI_TI",
+            "text": "Non te amo."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1687366",
+        "target_error_codes": [
+          "ERR_CLITICO_MI_TI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "mi"
+        ],
+        "hint_es": "Ella me ama.",
+        "id": "it_cloze_s_2552857_ERR_CLITICO_MI_TI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2552857",
+        "target_error_codes": [
+          "ERR_CLITICO_MI_TI"
+        ],
+        "text": "Lei ___ ama.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Lui",
+          "ti",
+          "ama."
+        ],
+        "id": "it_reorder_s_2742941_ERR_CLITICO_MI_TI",
+        "prompt_es": "Ordena las palabras: «Él te ama.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2742941",
+        "target_error_codes": [
+          "ERR_CLITICO_MI_TI"
+        ],
+        "tokens": [
+          "ti",
+          "ama.",
+          "Lui"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_3388002_ERR_CLITICO_MI_TI",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_CLITICO_MI_TI",
+            "text": "Tom te ama."
+          },
+          {
+            "correct": true,
+            "text": "Tom ti ama."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3388002",
+        "target_error_codes": [
+          "ERR_CLITICO_MI_TI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "mi"
+        ],
+        "hint_es": "¡No me amas!",
+        "id": "it_cloze_s_3567039_ERR_CLITICO_MI_TI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3567039",
+        "target_error_codes": [
+          "ERR_CLITICO_MI_TI"
+        ],
+        "text": "Non ___ ami!",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Non",
+          "mi",
+          "ama!"
+        ],
+        "id": "it_reorder_s_3567041_ERR_CLITICO_MI_TI",
+        "prompt_es": "Ordena las palabras: «¡Ella no me ama!»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3567041",
+        "target_error_codes": [
+          "ERR_CLITICO_MI_TI"
+        ],
+        "tokens": [
+          "ama!",
+          "mi",
+          "Non"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_CLITICO_MI_TI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Tu mi ami?"
+      ],
+      "id": "it_translate_s_3567093_ERR_CLITICO_MI_TI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3567093",
+      "source_es": "¿Tú me amas?",
+      "target_error_codes": [
+        "ERR_CLITICO_MI_TI"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "El mandato negativo con «tu» es non + infinitivo: non parlare!, non mangiare!, non dormire!. El español usa otra forma del verbo («no hables»), pero en italiano «non parli» es «tú no hablas», no una orden."
     },
     "id": "cap_err_imperativo_neg",
@@ -1705,6 +1851,152 @@
       "source_es": "¿Tú quieres hacerlo?",
       "target_error_codes": [
         "ERR_PRESENT_MODAL"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "La acción que ocurre ahora se dice con stare + gerundio: sto mangiando, stai leggendo, sta piovendo. El español «estar» aquí es stare, no essere: «sono mangiando» no existe en italiano."
+    },
+    "id": "cap_err_stare_gerundio",
+    "retrieval": [
+      {
+        "id": "it_choice_s_1005159_ERR_STARE_GERUNDIO",
+        "options": [
+          {
+            "correct": true,
+            "text": "Ti sto cercando."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_STARE_GERUNDIO",
+            "text": "Ti sono cercando."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1005159",
+        "target_error_codes": [
+          "ERR_STARE_GERUNDIO"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "sto"
+        ],
+        "hint_es": "No estoy gritando.",
+        "id": "it_cloze_s_1114693_ERR_STARE_GERUNDIO",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1114693",
+        "target_error_codes": [
+          "ERR_STARE_GERUNDIO"
+        ],
+        "text": "Non ___ urlando.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Lei",
+          "sta",
+          "urlando."
+        ],
+        "id": "it_reorder_s_1255783_ERR_STARE_GERUNDIO",
+        "prompt_es": "Ordena las palabras: «Ella está gritando.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1255783",
+        "target_error_codes": [
+          "ERR_STARE_GERUNDIO"
+        ],
+        "tokens": [
+          "urlando.",
+          "sta",
+          "Lei"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_1559431_ERR_STARE_GERUNDIO",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_STARE_GERUNDIO",
+            "text": "È cenando ora."
+          },
+          {
+            "correct": true,
+            "text": "Sta cenando ora."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1559431",
+        "target_error_codes": [
+          "ERR_STARE_GERUNDIO"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "sta"
+        ],
+        "hint_es": "¿Qué está haciendo?",
+        "id": "it_cloze_s_1645159_ERR_STARE_GERUNDIO",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1645159",
+        "target_error_codes": [
+          "ERR_STARE_GERUNDIO"
+        ],
+        "text": "Che ___ facendo?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Tom",
+          "sta",
+          "fumando."
+        ],
+        "id": "it_reorder_s_1662985_ERR_STARE_GERUNDIO",
+        "prompt_es": "Ordena las palabras: «Tom está fumando.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1662985",
+        "target_error_codes": [
+          "ERR_STARE_GERUNDIO"
+        ],
+        "tokens": [
+          "fumando.",
+          "sta",
+          "Tom"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_STARE_GERUNDIO"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Io sto venendo."
+      ],
+      "id": "it_translate_s_4323125_ERR_STARE_GERUNDIO",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4323125",
+      "source_es": "Yo estoy viniendo.",
+      "target_error_codes": [
+        "ERR_STARE_GERUNDIO"
       ],
       "type": "translate_es_it"
     }
@@ -6236,6 +6528,168 @@
     "cefr": "A1",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Palabras para comunicarte y usar aparatos: messaggio (mensaje), chiamata (llamada), numero, mail (correo electrónico), sito (sitio web), rete (red), applicazione, tastiera (teclado), schermo (pantalla), radio, canale, videogioco, linea. La radio y la mail son femeninas."
+    },
+    "id": "cap_err_voc_comunicazione",
+    "retrieval": [
+      {
+        "id": "it_choice_s_1208347_ERR_VOC_COMUNICAZIONE",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Ha un sito web?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_COMUNICAZIONE",
+            "text": "Ha un canale web?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_COMUNICAZIONE",
+            "text": "Ha un videogioco web?"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1208347",
+        "target_error_codes": [
+          "ERR_VOC_COMUNICAZIONE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "sito"
+        ],
+        "hint_es": "¿Tienes una página web?",
+        "id": "it_cloze_s_1082386_ERR_VOC_COMUNICAZIONE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1082386",
+        "target_error_codes": [
+          "ERR_VOC_COMUNICAZIONE"
+        ],
+        "text": "Hai un ___ web?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Spegni",
+          "la",
+          "radio."
+        ],
+        "id": "it_reorder_s_374592_ERR_VOC_COMUNICAZIONE",
+        "prompt_es": "Ordena las palabras: «Apaga la radio.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_374592",
+        "target_error_codes": [
+          "ERR_VOC_COMUNICAZIONE"
+        ],
+        "tokens": [
+          "Spegni",
+          "radio.",
+          "la"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_5490239_ERR_VOC_COMUNICAZIONE",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_COMUNICAZIONE",
+            "text": "Ho un sito."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_COMUNICAZIONE",
+            "text": "Ho un canale."
+          },
+          {
+            "correct": true,
+            "text": "Ho un messaggio."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5490239",
+        "target_error_codes": [
+          "ERR_VOC_COMUNICAZIONE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "numero"
+        ],
+        "hint_es": "Dame el número.",
+        "id": "it_cloze_s_806746_ERR_VOC_COMUNICAZIONE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_806746",
+        "target_error_codes": [
+          "ERR_VOC_COMUNICAZIONE"
+        ],
+        "text": "Dammi il ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Non",
+          "ho",
+          "una",
+          "radio."
+        ],
+        "id": "it_reorder_s_13277185_ERR_VOC_COMUNICAZIONE",
+        "prompt_es": "Ordena las palabras: «No tengo una radio.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_13277185",
+        "target_error_codes": [
+          "ERR_VOC_COMUNICAZIONE"
+        ],
+        "tokens": [
+          "ho",
+          "una",
+          "radio.",
+          "Non"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_COMUNICAZIONE"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "È alla radio."
+      ],
+      "id": "it_translate_s_3236499_ERR_VOC_COMUNICAZIONE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3236499",
+      "source_es": "Está en la radio.",
+      "target_error_codes": [
+        "ERR_VOC_COMUNICAZIONE"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "Las palabras que unen frases: e (y), ma (pero), o (o), anche (también), però (sin embargo), allora (entonces), mentre (mientras), quindi (por lo tanto). «Perché» (porque) y «quando» (cuando) también unen frases, pero se estudian con las palabras para preguntar (unidad de interrogativos). Ojo: «e» se escribe y se oye muy corta; «però» lleva tilde."
     },
     "id": "cap_err_voc_connettivi",
@@ -9647,6 +10101,168 @@
       "source_es": "¿En qué página está?",
       "target_error_codes": [
         "ERR_VOC_SCUOLA"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Palabras de oficinas y trámites: posta (correo), pacco (paquete), busta (sobre), francobollo (estampilla), cartolina (postal), modulo (formulario), sportello (ventanilla), biglietteria (boletería), dogana (aduana), polizia, documento, informazione, carta (tarjeta o papel)."
+    },
+    "id": "cap_err_voc_servizi",
+    "retrieval": [
+      {
+        "id": "it_choice_s_10148998_ERR_VOC_SERVIZI",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Il pacco è qua."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_SERVIZI",
+            "text": "Il documento è qua."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_SERVIZI",
+            "text": "Il francobollo è qua."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_10148998",
+        "target_error_codes": [
+          "ERR_VOC_SERVIZI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "posta"
+        ],
+        "hint_es": "Tiene correspondencia.",
+        "id": "it_cloze_s_3187744_ERR_VOC_SERVIZI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3187744",
+        "target_error_codes": [
+          "ERR_VOC_SERVIZI"
+        ],
+        "text": "Ha della ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Dov'è",
+          "la",
+          "dogana?"
+        ],
+        "id": "it_reorder_s_4782308_ERR_VOC_SERVIZI",
+        "prompt_es": "Ordena las palabras: «¿Dónde está la aduana?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4782308",
+        "target_error_codes": [
+          "ERR_VOC_SERVIZI"
+        ],
+        "tokens": [
+          "la",
+          "dogana?",
+          "Dov'è"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_374494_ERR_VOC_SERVIZI",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_SERVIZI",
+            "text": "Ho già una dogana."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_SERVIZI",
+            "text": "Ho già una cartolina."
+          },
+          {
+            "correct": true,
+            "text": "Ho già una busta."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_374494",
+        "target_error_codes": [
+          "ERR_VOC_SERVIZI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "polizia"
+        ],
+        "hint_es": "¡Llama a la policía!",
+        "id": "it_cloze_s_380537_ERR_VOC_SERVIZI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_380537",
+        "target_error_codes": [
+          "ERR_VOC_SERVIZI"
+        ],
+        "text": "Chiama la ___!",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Dov'è",
+          "la",
+          "mia",
+          "posta?"
+        ],
+        "id": "it_reorder_s_11475944_ERR_VOC_SERVIZI",
+        "prompt_es": "Ordena las palabras: «¿Dónde está mi correspondencia?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11475944",
+        "target_error_codes": [
+          "ERR_VOC_SERVIZI"
+        ],
+        "tokens": [
+          "posta?",
+          "la",
+          "Dov'è",
+          "mia"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_SERVIZI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Il pacco è qui."
+      ],
+      "id": "it_translate_s_10148997_ERR_VOC_SERVIZI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_10148997",
+      "source_es": "El paquete está aquí.",
+      "target_error_codes": [
+        "ERR_VOC_SERVIZI"
       ],
       "type": "translate_es_it"
     }

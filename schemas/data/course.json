@@ -132,14 +132,15 @@
         "Presentar a tu familia con los posesivos bien usados.",
         "Describir a una persona por fuera y por dentro.",
         "Contar cuántas personas hay en tu casa y cómo son.",
-        "Pronunciar «gli» (figlio, famiglia)."
+        "Pronunciar «gli» (figlio, famiglia) y decir ti amo / mi capisci (no «te amo»)."
       ],
       "units": [
         "u21",
         "u01",
         "u02",
         "u41",
-        "u20"
+        "u20",
+        "u71"
       ],
       "entry_reading": "rd_incontro",
       "roleplays": [],
@@ -160,7 +161,8 @@
         "Contar qué haces cada día y a qué hora.",
         "Decir los días y los meses, y cuándo es tu cumpleaños.",
         "Usar los verbos regulares en presente con todas las personas.",
-        "Hablar de tu día con verbos reflexivos."
+        "Hablar de tu día con verbos reflexivos.",
+        "Decir qué haces ahora (sto mangiando)."
       ],
       "units": [
         "u15",
@@ -168,7 +170,8 @@
         "u59",
         "u56",
         "u40",
-        "u48"
+        "u48",
+        "u72"
       ],
       "entry_reading": "rd_routine",
       "roleplays": [],
@@ -378,6 +381,37 @@
       "library": "plida-a1",
       "library_task_es": "Revisa el ejemplo de PLIDA A1 e identifica qué partes ya sabrías hacer.",
       "writing_es": "Escribe 4 frases sobre lo que hiciste ayer, con «ho + participio» o «sono + participio»."
+    },
+    {
+      "id": "m12",
+      "level": "A1",
+      "title": "Teléfono, correo, trámites y avisos",
+      "can_do_es": [
+        "Llamar por teléfono, presentarte y dejar un mensaje.",
+        "Mandar una carta o un paquete y llenar un formulario sencillo.",
+        "Leer un boleto, una etiqueta de ropa y una lista de compras.",
+        "Entender un aviso corto de estación, tienda o contestador."
+      ],
+      "units": [
+        "u73",
+        "u74"
+      ],
+      "entry_reading": "rd_telefono",
+      "roleplays": [
+        "rp_telefono",
+        "rp_posta"
+      ],
+      "tasks": [],
+      "phrase_groups": [],
+      "extra_readings": [
+        "doc_biglietto",
+        "doc_etichetta",
+        "doc_lista",
+        "rd_avvisi"
+      ],
+      "writing_es": "Escribe un mensaje para dejar en un contestador: quién eres, por qué llamas y a qué número te pueden llamar.",
+      "library": "integrazione-migranti",
+      "library_task_es": "Abre un curso A1 de Integrazione Migranti y mira una lección sobre servicios."
     }
   ],
   "units": [
@@ -1760,6 +1794,56 @@
       ],
       "why_here": "Completa a / in (u05) y las contracciones (u06): «de», «desde», «sobre», «para» y «por» no se reparten igual que en español.",
       "ficha_es": "di (de: la casa di Tom), da (desde y a casa de: vengo da Roma, vado da Marco), con (con), su (sobre: sul tavolo), per (para y por: è per te), tra y fra (entre: tra noi), senza (sin), verso (hacia) y contro (contra).\n\nOjo: «de» no siempre es di; «desde» y «a casa de» son da; «para» y «por» son per; y «en» casi nunca es su: se usa in o a (unidad de a / in)."
+    },
+    {
+      "id": "u71",
+      "level": "A1",
+      "title": "Pronombres átonos: ti amo, mi vedi (no «te amo»)",
+      "goal_es": "Los pronombres de 1.ª y 2.ª persona antes del verbo son mi y ti; me y te son del español.",
+      "codes": [
+        "ERR_CLITICO_MI_TI"
+      ],
+      "why_here": "Son los pronombres que más usas con personas cercanas (te quiero, me entiendes) y el español te tienta a escribir «te» y «me».",
+      "ficha_es": "Antes del verbo, los pronombres átonos de 1.ª y 2.ª persona son mi (me) y ti (te): Ti amo. Mi capisci? Non ti conosco. Mi sento bene.\n\nEl español escribe «me» y «te»; en italiano me y te existen, pero son los pronombres tónicos que van detrás de una preposición (con me, per te). Los demás pronombres átonos son lo, la, li, le (para cosas y personas terceras) y gli, le (a él, a ella): Lo vedo. La conosco. Gli parlo.",
+      "readings": [
+        "rd_telefono"
+      ]
+    },
+    {
+      "id": "u72",
+      "level": "A1",
+      "title": "Lo que haces ahora: sto mangiando",
+      "goal_es": "La acción en curso es stare + gerundio: sto mangiando, stai leggendo, sta piovendo; no «sono mangiando».",
+      "codes": [
+        "ERR_STARE_GERUNDIO"
+      ],
+      "why_here": "Es la forma natural de decir qué estás haciendo ahora, y el español «estoy comiendo» lleva a usar essere por error.",
+      "ficha_es": "Para decir que algo ocurre ahora se usa stare + gerundio: Sto mangiando (estoy comiendo), Stai leggendo, Sta piovendo, Stiamo parlando.\n\nEl gerundio termina en -ando (verbos en -are: mangiare → mangiando) y en -endo (-ere e -ire: leggere → leggendo, dormire → dormendo). Ojo: en italiano «estar» aquí es stare, no essere: «sono mangiando» no existe.",
+      "readings": [
+        "rd_telefono"
+      ]
+    },
+    {
+      "id": "u73",
+      "level": "A1",
+      "title": "Vocabulario: teléfono, mensajes y tecnología",
+      "goal_es": "messaggio, chiamata, numero, radio, sito, tastiera, rete, mail, applicazione…: las palabras para comunicarte y usar aparatos.",
+      "codes": [
+        "ERR_VOC_COMUNICAZIONE"
+      ],
+      "why_here": "Cierra el área «comunicación y medios» del programa A1: dejar un mensaje, dar un número, usar un sitio web.",
+      "ficha_es": "Comunicarte hoy: il messaggio (mensaje), la chiamata (llamada), il numero (número), la mail (correo electrónico), il sito (sitio web), la rete (red), l'applicazione (aplicación), la radio.\n\nOjo con el género: la radio y la mail son femeninas; il numero y il messaggio, masculinas. Para pedir algo: Lasci un messaggio. Mi manda il numero?"
+    },
+    {
+      "id": "u74",
+      "level": "A1",
+      "title": "Vocabulario: correos, trámites y servicios",
+      "goal_es": "posta, pacco, busta, francobollo, modulo, dogana, polizia, biglietteria…: las palabras de oficinas y trámites.",
+      "codes": [
+        "ERR_VOC_SERVIZI"
+      ],
+      "why_here": "Cierra el área «oficinas públicas y servicios» del programa A1: mandar un paquete, llenar un formulario, comprar un boleto.",
+      "ficha_es": "En la oficina de correos o en una ventanilla: la posta (correo), il pacco (paquete), la busta (sobre), il francobollo (estampilla), la cartolina (postal), il modulo (formulario), lo sportello (ventanilla), la biglietteria (boletería), la dogana (aduana), la polizia (policía).\n\nTrámites útiles: Compili questo modulo. Ho bisogno di un francobollo. Dov'è la biglietteria?"
     }
   ],
   "planned": [

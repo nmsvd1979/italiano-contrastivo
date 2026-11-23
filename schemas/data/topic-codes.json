@@ -768,5 +768,61 @@
     "review_status": "needs_review",
     "explanation_es": "El mandato negativo con «tu» es non + infinitivo: non parlare!, non mangiare!, non dormire!. El español usa otra forma del verbo («no hables»), pero en italiano «non parli» es «tú no hablas», no una orden.",
     "source": "Piacere! (Univ. de Iowa), «Imperativo (tu, noi, voi)»; programa A1 de CILS: imperativo afirmativo y negativo."
+  },
+  {
+    "code": "ERR_STARE_GERUNDIO",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "review_status": "needs_review",
+    "source": "Proyecto italiano-contrastivo: programa A1 de CILS y PLIDA (schemas/data/syllabus-a1.json).",
+    "explanation_es": "La acción que ocurre ahora se dice con stare + gerundio: sto mangiando, stai leggendo, sta piovendo. El español «estar» aquí es stare, no essere: «sono mangiando» no existe en italiano."
+  },
+  {
+    "code": "ERR_CLITICO_MI_TI",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "review_status": "needs_review",
+    "source": "Proyecto italiano-contrastivo: programa A1 de CILS y PLIDA (schemas/data/syllabus-a1.json).",
+    "explanation_es": "Antes del verbo, los pronombres átonos de 1.ª y 2.ª persona son mi y ti (ti amo, mi capisci, non ti conosco); me y te son los tónicos que van tras preposición (con me, per te). El español escribe «te amo», «me entiendes»."
+  },
+  {
+    "code": "ERR_VOC_COMUNICAZIONE",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "review_status": "needs_review",
+    "source": "Proyecto italiano-contrastivo: programa A1 de CILS y PLIDA (schemas/data/syllabus-a1.json).",
+    "explanation_es": "Palabras para comunicarte y usar aparatos: messaggio (mensaje), chiamata (llamada), numero, mail (correo electrónico), sito (sitio web), rete (red), applicazione, tastiera (teclado), schermo (pantalla), radio, canale, videogioco, linea. La radio y la mail son femeninas."
+  },
+  {
+    "code": "ERR_VOC_SERVIZI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "review_status": "needs_review",
+    "source": "Proyecto italiano-contrastivo: programa A1 de CILS y PLIDA (schemas/data/syllabus-a1.json).",
+    "explanation_es": "Palabras de oficinas y trámites: posta (correo), pacco (paquete), busta (sobre), francobollo (estampilla), cartolina (postal), modulo (formulario), sportello (ventanilla), biglietteria (boletería), dogana (aduana), polizia, documento, informazione, carta (tarjeta o papel)."
   }
 ]

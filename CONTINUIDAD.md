@@ -2,6 +2,15 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 (4) — Se cierran los huecos que A1 aún declaraba
+**Pedido del usuario:** resolver todos los huecos de A1 sin más iteraciones y dejar el plan completo de A2.
+**Hecho:**
+1. **Cinco unidades nuevas:** u71 (*mi/ti* vs *me/te*), u72 (*stare + gerundio*), u73 (comunicación y tecnología), u74 (servicios y oficinas), más 16 oraciones de «per + infinitivo» en u70. Generadores `_stare_gerundio` y `_mi_ti`; oraciones de Tatoeba auditadas por IA (todas con 30 o más). Ahora hay 69 unidades A1 en 12 módulos; el 12.º es «Teléfono, correo, trámites y avisos».
+2. **Textos propios nuevos (`authored: true`):** rd_telefono, rd_posta, doc_biglietto, doc_etichetta, doc_lista y rd_avvisi (solo audio). Dos juegos de roles nuevos (rp_telefono, rp_posta).
+3. **Cobertura:** `syllabus-a1.json` queda con 65 requisitos cubiertos, 1 hueco declarado (entonación: exige audio nativo; Piper no la enseña) y 1 aplazado a B1 (instituciones y vida política: PLIDA le da intensidad baja en A1).
+**Sigue pendiente (solo el usuario):** probar en iPhone, escuchar los audios, decidir si las compuertas son muy rígidas.
+**Pruebas:** Python 1271 y web 994 en verde. No se probó el recorrido visual del módulo 12 ni el tipado con tsc (no está instalado en web/).
+
 ## 2026-11-24 (3) — Programa A1 cubierto, textos propios y hoja de ruta A2–B2
 **Pedido del usuario:** «cierra los huecos, busca fuentes y si no, genéralo tú; deja mapeado el objetivo final y cómo llegar más rápido a A2». **Decisión nueva:** cuando no hay fuente abierta, la IA escribe el texto (ver `CLAUDE.md`).
 **Hecho:**

@@ -1,0 +1,119 @@
+{
+  "id": "rd_posta",
+  "title": "All'ufficio postale",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo escrito por la IA con vocabulario de correos (posta, pacco, francobollo, modulo) y precios simples; cubre el área «oficinas públicas y servicios» del programa A1.",
+  "sentences": [
+    {
+      "id": "rd_posta_00",
+      "it": "Buongiorno, vorrei mandare questa lettera in Spagna.",
+      "es": "Buenos días, quisiera mandar esta carta a España.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_posta_01",
+      "it": "Buongiorno. Per la lettera serve un francobollo da due euro.",
+      "es": "Buenos días. Para la carta se necesita una estampilla de dos euros.",
+      "speaker": "Impiegato"
+    },
+    {
+      "id": "rd_posta_02",
+      "it": "Va bene. Ho anche un pacco: quanto costa?",
+      "es": "Está bien. Tengo también un paquete: ¿cuánto cuesta?",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_posta_03",
+      "it": "Dipende dal peso. Vediamo... due chili. Costa dodici euro.",
+      "es": "Depende del peso. Veamos... dos kilos. Cuesta doce euros.",
+      "speaker": "Impiegato"
+    },
+    {
+      "id": "rd_posta_04",
+      "it": "Dodici euro. Prendo anche un francobollo, per favore.",
+      "es": "Doce euros. Llevo también una estampilla, por favor.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_posta_05",
+      "it": "Ecco il francobollo. Sono quattordici euro in tutto.",
+      "es": "Aquí está la estampilla. Son catorce euros en total.",
+      "speaker": "Impiegato"
+    },
+    {
+      "id": "rd_posta_06",
+      "it": "Ecco a Lei. Devo compilare un modulo?",
+      "es": "Aquí tiene. ¿Tengo que llenar un formulario?",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_posta_07",
+      "it": "Sì, per il pacco. Lo compili qui, per favore.",
+      "es": "Sí, para el paquete. Llénelo aquí, por favor.",
+      "speaker": "Impiegato"
+    },
+    {
+      "id": "rd_posta_08",
+      "it": "Grazie e arrivederci!",
+      "es": "¡Gracias y hasta luego!",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_posta_09",
+      "it": "Arrivederci!",
+      "es": "¡Hasta luego!",
+      "speaker": "Impiegato"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué quiere mandar a España?",
+      "options": [
+        "Un paquete",
+        "Una carta",
+        "Una postal"
+      ],
+      "answer": 1,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta el paquete?",
+      "options": [
+        "Dos euros",
+        "Doce euros",
+        "Catorce euros"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Cuánto paga en total?",
+      "options": [
+        "Doce euros",
+        "Catorce euros",
+        "Dos euros"
+      ],
+      "answer": 1,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Para qué hay que llenar un formulario?",
+      "options": [
+        "Para el paquete",
+        "Para la carta",
+        "Para la estampilla"
+      ],
+      "answer": 0,
+      "evidence": 7
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "doc_etichetta",
+  "title": "L'etichetta della camicia",
+  "level": "A1",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Etiqueta de una prenda escrita por la IA; documento tipo PLIDA A1 «etiquetas».",
+  "table": {
+    "head": [
+      "Campo",
+      "Dato"
+    ],
+    "rows": [
+      [
+        "Marca",
+        "Bella Moda"
+      ],
+      [
+        "Taglia",
+        "M"
+      ],
+      [
+        "Colore",
+        "azzurro"
+      ],
+      [
+        "Materiale",
+        "100% cotone"
+      ],
+      [
+        "Lavaggio",
+        "30 gradi"
+      ],
+      [
+        "Prezzo",
+        "35 €"
+      ]
+    ]
+  },
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿Qué talla es?",
+      "options": [
+        "S",
+        "M",
+        "L"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿De qué es la camisa?",
+      "options": [
+        "De lana",
+        "De algodón",
+        "De seda"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿A cuántos grados se lava?",
+      "options": [
+        "30 grados",
+        "60 grados",
+        "90 grados"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿De qué color es?",
+      "options": [
+        "Celeste",
+        "Blanca",
+        "Negra"
+      ],
+      "answer": 0
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

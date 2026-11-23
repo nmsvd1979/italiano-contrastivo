@@ -296,6 +296,30 @@
     "u69"
    ],
    "goal_es": "Proponer un plan, aceptar, decir dónde y a qué hora se encuentran."
+  },
+  {
+   "id": "rp_telefono",
+   "title": "Llamar por teléfono y dejar un mensaje",
+   "function_es": "Hablar por teléfono",
+   "reading": "rd_telefono",
+   "from": 0,
+   "to": 9,
+   "after": [
+    "u73"
+   ],
+   "goal_es": "Presentarte, pedir hablar con alguien, dejar tu número y deletrear tu apellido."
+  },
+  {
+   "id": "rp_posta",
+   "title": "En correos: mandar una carta y un paquete",
+   "function_es": "Hacer un trámite",
+   "reading": "rd_posta",
+   "from": 0,
+   "to": 9,
+   "after": [
+    "u74"
+   ],
+   "goal_es": "Mandar una carta, preguntar cuánto cuesta un paquete y llenar un formulario."
   }
  ],
  "tasks": [
