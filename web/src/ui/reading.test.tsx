@@ -9,6 +9,21 @@ const readings: Reading[] = JSON.parse(readFileSync("public/content/readings.jso
 const reading = readings.find((r) => r.id === "rd_zaino")!;
 const words: Record<string, ReadingWord> = JSON.parse(readFileSync("public/content/reading_words.json", "utf8"));
 
+describe("diálogos y audio de la lectura", () => {
+  const poste = readings.find((r) => r.id === "rd_poste")!;
+  it("en un diálogo se ve quién habla (hay preguntas que lo necesitan)", () => {
+    const first = poste.sentences.find((s) => s.speaker)!;
+    render(<ReadingStep reading={poste} onFinish={() => undefined} />);
+    expect(screen.getAllByText(`${first.speaker}:`).length).toBeGreaterThan(0);
+  });
+  it("se puede oír sin ver la traducción: «Escuchar todo» y un botón por frase, y la traducción sigue oculta", () => {
+    render(<ReadingStep reading={poste} onFinish={() => undefined} />);
+    expect(screen.getByText(/Escuchar todo el texto/)).toBeTruthy();
+    fireEvent.click(screen.getByLabelText("Escuchar la frase 1"));
+    expect(screen.queryByText(poste.sentences[0].es)).toBeNull();
+  });
+});
+
 describe("capa de tamices en la lectura", () => {
   it("sin glosario no ofrece la capa; con él, las palabras se colorean y al tocar una se ve qué es y su parentesco", () => {
     const { unmount } = render(<ReadingStep reading={reading} onFinish={() => undefined} />);

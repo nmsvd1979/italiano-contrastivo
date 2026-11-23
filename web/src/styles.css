@@ -165,3 +165,6 @@ ul.library { list-style: none; padding: 0; margin: 12px 0; display: grid; gap: 1
 ul.library li { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 12px 14px; }
 ul.library h2 { margin: 0 0 4px; font-size: 18px; }
 ul.library p { margin: 6px 0; }
+
+.reading p[data-playing="true"] { background: var(--accent-soft); border-radius: 8px; }
+.speaker { font-family: var(--sans, inherit); font-size: 15px; color: var(--accent); }

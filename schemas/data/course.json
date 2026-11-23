@@ -233,7 +233,7 @@
       "why_here": "Es el par de los artículos determinativos: cambia con la primera letra, como il / lo.",
       "ficha_es": "El artículo indefinido tiene cuatro formas: un (masculino: un amico), uno (masculino ante s + consonante, z, gn, ps: uno studente, uno zio), una (femenino: una casa) y un' (femenino ante vocal: un'amica).\n\nEn español solo «un/una» (un estudiante, una amiga): por eso el error típico es «un studente» o «un amica». Mira la letra con que empieza la palabra siguiente. Ojo: un amico (masculino) no lleva apóstrofo; un'amica (femenino) sí.",
       "readings": [
-        "rd_routine"
+        "rd_zaino"
       ]
     },
     {
@@ -247,7 +247,7 @@
       "why_here": "Cierra los artículos de A1 una vez vistas las contracciones.",
       "ficha_es": "El artículo determinativo masculino es il (il libro), lo ante s + consonante, z, gn, ps (lo studente, lo zio) y l' ante vocal (l'amico). Plural: i (i libri) y gli (gli studenti, gli amici). Femenino: la (la casa), l' ante vocal (l'amica) y plural le (le case).\n\nEl español solo tiene «el, la, los, las». El italiano cambia el artículo según la primera letra de la palabra siguiente: por eso hay que fijarse en cómo empieza el sustantivo.",
       "readings": [
-        "rd_medici"
+        "rd_aspetto"
       ]
     },
     {
@@ -713,7 +713,7 @@
       "why_here": "Hablar de tu día con los verbos de presente ya vistos.",
       "ficha_es": "Los verbos reflexivos (svegliarsi, alzarsi, lavarsi, vestirsi) usan los pronombres mi, ti, si, ci, vi: mi sveglio, ti alzi, si lava, ci vestiamo, vi riposate, si divertono. El español usa me, te, se, nos, os.\n\nEl pronombre va antes del verbo y siempre concuerda con el sujeto. Cuidado: el «se» español se escribe «si» en italiano (si lava) y no se confunde con «sì» (con tilde, «sí») ni con «se» (la conjunción «si» condicional). Algunos verbos son reflexivos en un idioma y no en el otro.",
       "readings": [
-        "rd_giornatabrutta"
+        "rd_routine"
       ]
     },
     {
@@ -1200,7 +1200,10 @@
         "ERR_AUX_ESSERE"
       ],
       "why_here": "Punto crítico del passato prossimo (A2).",
-      "ficha_es": "En A2 aprendes que los verbos de movimiento y de cambio de estado usan essere como auxiliar: sono andato, sono arrivata, sono partiti. El español usa «haber» siempre («he ido, he llegado»).\n\nError típico: «ho andato» en vez de sono andato. Con essere el participio concuerda con el sujeto (sono andata, siamo partiti)."
+      "ficha_es": "En A2 aprendes que los verbos de movimiento y de cambio de estado usan essere como auxiliar: sono andato, sono arrivata, sono partiti. El español usa «haber» siempre («he ido, he llegado»).\n\nError típico: «ho andato» en vez de sono andato. Con essere el participio concuerda con el sujeto (sono andata, siamo partiti).",
+      "readings": [
+        "rd_giornatabrutta"
+      ]
     },
     {
       "id": "u09",

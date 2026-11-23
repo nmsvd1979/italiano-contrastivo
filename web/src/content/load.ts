@@ -23,7 +23,7 @@ export type Unit = {
   words?: { form: string; gender: string; num: string; gloss: string; audio?: string; art?: string; gdiv?: boolean; ff?: boolean; sieve?: "transparente" | "regular" | "opaca"; rule?: string; note?: string }[];
   ficha_es?: string;
 };
-export type ReadingSentence = { id: string; it: string; es: string; audio?: string };
+export type ReadingSentence = { id: string; it: string; es: string; audio?: string; speaker?: string };
 export type ReadingQuestion = { prompt_es: string; options: string[]; answer: number; evidence?: number };
 export type Reading = {
   id: string; title: string; level: string; kind: "lectura" | "dialogo";

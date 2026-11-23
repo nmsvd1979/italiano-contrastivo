@@ -1,9 +1,11 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { usePlayer } from "../audio/AudioContext";
 import type { Reading, ReadingWord } from "../content/load";
 import { RULE_TEXT } from "../state/words";
 import { Feedback } from "./kit/Feedback";
 import { FocusHead } from "./kit/FocusHead";
 import { SpeakButton } from "./SpeakButton";
+import { stopSay, waitCurrentEnd } from "./speech";
 
 /**
  * «Lectura»: un texto real de un libro abierto, con audio y traducción de cada oración (marcada como traducción de IA),
@@ -14,6 +16,20 @@ export function ReadingStep({ reading, words = {}, onFinish, exitHref = "#/" }: 
   const [shown, setShown] = useState<Set<number>>(new Set());
   const [layer, setLayer] = useState(false);           // capa de tamices: palabras tocables y coloreadas por su parentesco con el español
   const [picked1, setPicked1] = useState<{ i: number; w: string } | null>(null);
+  const player = usePlayer();
+  const [playing, setPlaying] = useState<number | null>(null);   // frase que suena en «Escuchar todo»
+  const cancel = useRef(false);
+  const listenAll = async () => {
+    cancel.current = false;
+    for (let i = 0; i < reading.sentences.length && !cancel.current; i++) {
+      setPlaying(i);
+      const r = await player(reading.sentences[i].it);
+      if (r === "superseded" || r === "no_voice") break;
+      await waitCurrentEnd();
+    }
+    setPlaying(null);
+  };
+  const stopAll = () => { cancel.current = true; stopSay(); setPlaying(null); };
   const [q, setQ] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const toggle = (i: number) => setShown((s) => { const n = new Set(s); if (n.has(i)) n.delete(i); else n.add(i); return n; });
@@ -24,6 +40,12 @@ export function ReadingStep({ reading, words = {}, onFinish, exitHref = "#/" }: 
         <FocusHead progress={0.1} exitHref={exitHref} />
         <h2 lang="it">{reading.title}</h2>
         <p><small>{reading.kind === "dialogo" ? "Diálogo" : "Lectura"} · {reading.source.book} ({reading.source.authors}), {reading.source.license}. Traducción al español: IA, sin revisar por un nativo.</small></p>
+        <p>
+          {playing === null
+            ? <button type="button" onClick={() => void listenAll()}>🔊 Escuchar todo el texto</button>
+            : <button type="button" onClick={stopAll}>⏹ Detener</button>}{" "}
+          <small>Escúchalo primero sin mirar la traducción: es mejor para entrenar el oído.</small>
+        </p>
         <p>{layer ? "Toca una palabra para ver qué es y cómo se parece al español; «Traducción» muestra la frase." : "Toca una frase para oírla y ver su traducción."}</p>
         {Object.keys(words).length > 0 && (
           <p><label><input type="checkbox" checked={layer} onChange={(e) => { setLayer(e.target.checked); setPicked1(null); }} /> Ver el parentesco con el español (tamices)</label></p>
@@ -31,7 +53,9 @@ export function ReadingStep({ reading, words = {}, onFinish, exitHref = "#/" }: 
         {layer && <p><small><span className="tok" data-k="transparente">verde</span> se parece al español · <span className="tok" data-k="regular">punteada</span> cambio regular · <span className="tok" data-k="opaca">sombreada</span> opaca (hay que aprenderla). Clasificado por IA, sin revisar por un nativo.</small></p>}
         <div className="reading">
           {reading.sentences.map((s, i) => (
-            <p key={s.id}>
+            <p key={s.id} data-playing={playing === i ? "true" : undefined}>
+              {s.speaker && <strong className="speaker">{s.speaker}: </strong>}
+              <button type="button" className="mini" aria-label={`Escuchar la frase ${i + 1}`} onClick={() => void player(s.it)}>🔊</button>{" "}
               {layer ? (
                 <>
                   <span className="sentence-tokens" lang="it">

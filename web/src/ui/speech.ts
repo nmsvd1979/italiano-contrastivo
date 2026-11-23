@@ -57,3 +57,18 @@ export async function say(text: string, opts: { nativeFile?: string; clipId?: st
   if (turn !== seq) return "superseded";
   return (await speakItalian(text, rate)) === "ok" ? "system" : "no_voice";
 }
+
+/** Resuelve cuando termina lo que esté sonando (clip o voz del sistema), o pasado `maxMs` por si el navegador no avisa. */
+export function waitCurrentEnd(maxMs = 20000): Promise<void> {
+  return new Promise((resolve) => {
+    const done = () => { clearTimeout(t); clearInterval(poll); resolve(); };
+    const t = setTimeout(done, maxMs);
+    const audio = current;
+    if (audio) {
+      audio.addEventListener("ended", done, { once: true });
+      audio.addEventListener("pause", done, { once: true });
+      audio.addEventListener("error", done, { once: true });
+    }
+    const poll = setInterval(() => { if (!audio && !(typeof window !== "undefined" && window.speechSynthesis?.speaking)) done(); }, 200);
+  });
+}

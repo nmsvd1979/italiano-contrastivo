@@ -11,6 +11,15 @@ export function AudioProvider({ pack, index, words = new Map(), children }: { pa
   return <Ctx.Provider value={{ pack, index, words }}>{children}</Ctx.Provider>;
 }
 
+/** Reproduce cualquier texto (los de una lectura, por ejemplo) con el mismo criterio que `useSay`: nativo → clip → voz del sistema. */
+export function usePlayer(): (text: string, rate?: number) => Promise<SpeakResult> {
+  const ctx = useContext(Ctx);
+  return (text, rate = 1) => {
+    const clipId = ctx ? audioIdFor(text, ctx.pack) : undefined;
+    return say(text, { nativeFile: ctx?.words.get(text), clipId, index: ctx?.index, rate });
+  };
+}
+
 /** Cómo sonará un texto: con clip (voz sintética) o con la voz del sistema, y la función que lo reproduce. */
 export function useSay(text: string): { source: "native" | "clip" | "system"; play: (rate?: number) => Promise<SpeakResult> } {
   const ctx = useContext(Ctx);
