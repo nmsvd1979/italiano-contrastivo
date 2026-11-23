@@ -16,7 +16,7 @@ _REGIONAL = re.compile(r"\b(birome|remera|pibe|pibita|pibes|laburo|guita|boludo|
 _NO_LATIN = re.compile(r"[^\x00-\xFF\u2010-\u2027\u20AC]")  # el español solo usa Latin-1 (acentos, ñ, ¿, ¡)
 _OBSCENO = re.compile(r"\b(cazzo|merda|puttana|fottere|vaffanculo|stronzo|stronza|troia|coglione|sesso|sessuale|nudo|nuda|stupro|droga|cocaina|suicidio|genocidio|terrorist\w+|nazist\w+|satana|diavolo|inferno)\b", re.I)
 _RELIGIOSO = re.compile(r"\b(Dio|Gesù|Cristo|Allah|Madonna|santo|santi|Bibbia|biblico|biblica|profeta|paradiso|peccato)\b")
-_MORBIDO = re.compile(r"\b(uccidere|ucciso|uccisa|assassin\w+|omicidio|cadavere|tomba|funerale|ammazzat\w+)\b", re.I)
+_MORBIDO = re.compile(r"\b(uccidere|ucciso|uccisa|assassin\w+|omicid\w+|cadavere|tomba|funerale|ammazzat\w+)\b", re.I)
 
 # --- italiano: tiempos fuera de A1 (solo formas inequívocas) -------------------------------------------------------------------
 _FUTURO = re.compile(r"\b(\w{3,}(?:erò|irò|erà|irà|erai|eremo|erete|eranno|iranno|iremo|irete|irai)|sarò|sarà|sarai|saremo|sarete|saranno|farò|farà|farai|faremo|farete|faranno|avrò|avrà|avrai|avremo|avrete|avranno|andrò|andrà|andrai|andremo|andrete|andranno|verrò|verrà|verrai|verremo|verrete|verranno|vorrà|vorranno|potrà|potranno|dovrà|dovranno|saprà|vedrà)\b", re.I)

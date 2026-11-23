@@ -31,8 +31,15 @@ const errCard = (code: string, due = NOW.toISOString()): Card => {
 const emptyDay = { date: TODAY, reviewsDone: 0, capsulesDone: [] as string[] };
 
 describe("planToday", () => {
-  it("sin tarjetas: nada vencido, primera unidad en su primer paso, hasta 3 léxicos nuevos y su duración", () => {
+  const twoDone = ["x1", "x2"].map((id) => masterByPlacement(emptyProgress(id), NOW)); // dos unidades ya completadas (otras de la ruta)
+  it("el primer día no se repasa lo que no has estudiado: sin unidades completadas no entran falsos amigos nuevos", () => {
     const p = planToday({ pack: pack(), cards: [], day: emptyDay, now: NOW });
+    expect(p.review).toMatchObject({ due: 0, newAvailable: 0 });
+    expect(reviewQueue({ pack: pack(), cards: [], now: NOW })).toEqual([]);
+    expect(planToday({ pack: pack(), cards: [], day: emptyDay, now: NOW, units: [twoDone[0]] }).review.newAvailable).toBe(0); // con una sola aún no
+  });
+  it("sin tarjetas y con dos unidades hechas: nada vencido, primera unidad en su primer paso, hasta 3 léxicos nuevos y su duración", () => {
+    const p = planToday({ pack: pack(), cards: [], day: emptyDay, now: NOW, units: twoDone });
     expect(p.review).toMatchObject({ due: 0, newAvailable: 3, doneToday: 0, cap: 12 });
     expect(p.review.seconds).toBe(45); // 3 tarjetas × 15 s a priori
     expect(p.unit?.view.unit.id).toBe("u01");
@@ -75,7 +82,7 @@ describe("planToday", () => {
     expect(planToday({ pack: p, cards: [], day: emptyDay, now: NOW, units: [done] }).review.filler).toBe(q.length);
   });
   it("el tiempo del repaso usa lo medido cuando existe", () => {
-    const p = planToday({ pack: pack(), cards: [], day: emptyDay, now: NOW, samples: { flashcard: [5, 5, 5, 5, 5] } });
+    const p = planToday({ pack: pack(), cards: [], day: emptyDay, now: NOW, units: twoDone, samples: { flashcard: [5, 5, 5, 5, 5] } });
     expect(p.review.seconds).toBe(15);
   });
 });
@@ -93,14 +100,14 @@ describe("día", () => {
 describe("reviewQueue", () => {
   it("vencidas primero (máx. 12) y luego hasta 3 léxicos nuevos si sobra cupo", () => {
     const due = Array.from({ length: 10 }, (_, i) => errCard(`ERR_${i}`, `2026-11-1${i % 5}T00:00:00.000Z`));
-    const q = reviewQueue({ pack: pack(), cards: [...due, errCard("ERR_FUT", "2026-12-01T00:00:00.000Z")], now: NOW });
+    const q = reviewQueue({ pack: pack(), cards: [...due, errCard("ERR_FUT", "2026-12-01T00:00:00.000Z")], now: NOW, units: ["x1", "x2"].map((id) => masterByPlacement(emptyProgress(id), NOW)) });
     expect(q.length).toBe(12);
     expect(q.filter((e) => "card" in e).length).toBe(10);
     expect(q.filter((e) => "lexeme" in e).length).toBe(2);
   });
   it("no repite léxicos que ya tienen tarjeta", () => {
     const have = newCard({ kind: "lexeme", ref: "lx_0" }, "false_friend", NOW);
-    const q = reviewQueue({ pack: pack(lex(1)), cards: [{ ...have, fsrs: { ...have.fsrs, due: "2026-12-01T00:00:00.000Z" } }], now: NOW });
+    const q = reviewQueue({ pack: pack(lex(1)), cards: [{ ...have, fsrs: { ...have.fsrs, due: "2026-12-01T00:00:00.000Z" } }], now: NOW, units: ["x1", "x2"].map((id) => masterByPlacement(emptyProgress(id), NOW)) });
     expect(q).toEqual([]);
   });
 });

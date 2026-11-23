@@ -12,6 +12,9 @@ import { type DayProgress, localDate, type StepId, type UnitProgress } from "./s
 
 export const REVIEW_CAP = 12; // ≈5 min por tanda
 export const NEW_LEXEMES_PER_BATCH = 3;
+/** Los falsos amigos nuevos entran al repaso solo cuando ya completaste algunas unidades: el primer día no se repasa lo que no has estudiado. */
+export const FRESH_AFTER_UNITS = 2;
+const freshAllowed = (units: UnitProgress[] | undefined) => (units ?? []).filter((u) => u.completed).length >= FRESH_AFTER_UNITS;
 
 export const REVIEW_SECONDS = 5 * 60; // presupuesto del bloque ① de las fuentes
 export const FILLER_MAX = 20;
@@ -54,7 +57,7 @@ export function planToday(input: { pack: ContentPack; cards: Card[]; day: DayPro
   const cur = currentView(views);
   const step = cur?.next ?? null;
   return {
-    review: { due, newAvailable: Math.min(NEW_LEXEMES_PER_BATCH, room, unseenLexemes(pack, cards).length), doneToday: day.reviewsDone, cap: REVIEW_CAP, seconds, filler: queue.filter((e) => "filler" in e).length },
+    review: { due, newAvailable: freshAllowed(units) ? Math.min(NEW_LEXEMES_PER_BATCH, room, unseenLexemes(pack, cards).length) : 0, doneToday: day.reviewsDone, cap: REVIEW_CAP, seconds, filler: queue.filter((e) => "filler" in e).length },
     unit: cur && step ? { view: cur, step, seconds: stepSeconds(cur.unit, step, pack, samples) } : null,
     route: { done: summary(views).done, total: views.length },
     stepsToday: (day.stepsDone ?? []).length,
@@ -69,7 +72,7 @@ export function planToday(input: { pack: ContentPack; cards: Card[]; day: DayPro
 export function reviewQueue(input: { pack: ContentPack; cards: Card[]; now: Date; units?: UnitProgress[]; samples?: Samples }): ReviewEntry[] {
   const due = dueCards(input.cards, input.now, REVIEW_CAP).map((card) => ({ card }));
   const room = REVIEW_CAP - due.length;
-  const fresh = unseenLexemes(input.pack, input.cards).slice(0, Math.min(NEW_LEXEMES_PER_BATCH, room)).map((lexeme) => ({ lexeme }));
+  const fresh = freshAllowed(input.units) ? unseenLexemes(input.pack, input.cards).slice(0, Math.min(NEW_LEXEMES_PER_BATCH, room)).map((lexeme) => ({ lexeme })) : [];
   const queue: ReviewEntry[] = [...due, ...fresh];
   const samples = input.samples ?? {};
   let seconds = queue.reduce((t, e) => t + entrySeconds(e, samples), 0);

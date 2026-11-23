@@ -18,6 +18,10 @@ const KNOWN_GAPS: Record<string, string[]> = {
   u07: ["oraciones"],
   u02: ["oraciones"],
   u05: ["oraciones"],
+  // 2026-11-23: las unidades de sonidos ahora exigen frases de ≤7 palabras y sin enclíticos (pensarci) ni passato con essere; u19 queda en 25 y u20 en 28.
+  // Además salió de la ruta u47 (opcional, A1+): bajó a 17 oraciones utilizables con los mismos filtros. Faltan oraciones cortas nuevas.
+  u19: ["oraciones"],
+  u20: ["oraciones"],
 };
 
 function gaps(): Record<string, string[]> {

@@ -1,6 +1,7 @@
 """Ruta guiada: reparte las oraciones utilizables de cada unidad en los pasos del ciclo (descubre, práctica, escucha, prueba).
 La prueba usa oraciones reservadas (no aparecen en Práctica); todo es determinista."""
 import json
+import re
 from pathlib import Path
 
 from pipeline import config
@@ -22,11 +23,19 @@ def load_course() -> dict:
 A1_LEVELS = ("A1", "A1+")
 
 
-def fit_for_level(s: dict, level: str) -> bool:
+SOUND_CODES = {"ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL", "ERR_GN_Z_SPELLING", "ERR_CONSONANTE_DOPPIA"}
+SOUND_MAX_WORDS = 7  # las unidades de sonidos son lo primero que ve un principiante: frases cortas, sin gramática que aún no vio
+_ENCLITIC = re.compile(r"\b\w{3,}(?:ar|er|ir|ur|rr)(?:ci|ne|lo|la|li|le|gli|ce|cela|cene|glielo)\b|\b(?:farcela|cela|cene)\b|\bce (?:la|ne)\b", re.I)  # «pensarci», «vederlo», «farcela» (sin los reflexivos -si/-mi, que sí se enseñan)
+_AUX_ESSERE_PP = re.compile(r"\b(?:sono|sei|è|siamo|siete)\s+(?:stat[oiae]|andat[oiae]|venut[oiae]|nat[oiae]|arrivat[oiae]|usc[ie]t[oiae]|partit[oiae]|rimast[oiae]|diventat[oiae]|morti|morto|morta)\b|\b(?:mi|ti|si|ci|vi)\s+(?:sono|sei|è|siamo|siete)\s+\w+(?:at|it|ut)[oaie]\b", re.I)  # passato prossimo con essere: A2 (u08)
+
+
+def fit_for_level(s: dict, level: str, code: str | None = None) -> bool:
     """En unidades A1 solo entran oraciones que pasan el prefiltro de auditoría (sin tiempos de A2+, demasiado largas, temas
     inadecuados). Antes la prueba tomaba las oraciones más largas y difíciles, y a A1 llegaban imperfetto, congiuntivo y frases de 20 palabras."""
     if level not in A1_LEVELS:
         return True
+    if _ENCLITIC.search(s["it"]) or _AUX_ESSERE_PP.search(s["it"]) or (code in SOUND_CODES and len(s["it"].split()) > SOUND_MAX_WORDS):  # «pensarci», «farcela»: pronombres enclíticos y ci/ne son de A2+
+        return False
     return not (italian_issue(s["it"], "A1") or spanish_issue(s.get("es")) or length_issue(s["it"], s.get("es")))
 
 
@@ -78,7 +87,7 @@ def build_course(sentences: list[dict], catalog: dict[str, dict]) -> dict:
     raw = load_course()
     units, planned = [], [dict(p) for p in raw["planned"]]
     for u in raw["units"]:
-        usable = {c: [s for s in usable_sentences(c, sentences) if fit_for_level(s, u["level"])] for c in u["codes"]}
+        usable = {c: [s for s in usable_sentences(c, sentences) if fit_for_level(s, u["level"], c)] for c in u["codes"]}
         total = sum(len(v) for v in usable.values())
         if len(u["codes"]) != 1 or total < MIN_USABLE:  # una unidad = un objetivo atómico (un código)
             planned.append({"level": u["level"], "title": u["title"], "reason": f"Solo {total} oraciones validadas utilizables (se necesitan {MIN_USABLE})."})

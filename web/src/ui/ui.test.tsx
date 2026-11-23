@@ -123,7 +123,8 @@ const pack = (over: Partial<ContentPack> = {}): ContentPack => ({
 describe("TodayScreen", () => {
   const day = { date: localDate(NOW), reviewsDone: 2, capsulesDone: ["cap_x"] };
   it("muestra los bloques de hoy con sus minutos y un solo botón «Continuar» hacia el siguiente paso", () => {
-    const plan = planToday({ pack: pack(), cards: [], day, now: NOW });
+    const twoDone = ["x1", "x2"].map((id) => masterByPlacement(emptyProgress(id), NOW));
+    const plan = planToday({ pack: pack(), cards: [], day, now: NOW, units: twoDone });
     render(<TodayScreen plan={plan} day={day} blocks={planSession({ plan, day, pack: pack() })} />);
     expect(screen.getByText("Tener no es tenere")).toBeTruthy();
     expect(screen.getByText("① Repaso")).toBeTruthy();
@@ -230,6 +231,7 @@ describe("ReviewScreen", () => {
   });
   it("introduce un falso amigo nuevo con autocalificación", async () => {
     const store = memoryStore();
+    for (const id of ["x1", "x2"]) await store.putUnit(masterByPlacement(emptyProgress(id), NOW)); // los falsos amigos nuevos entran tras 2 unidades completadas
     render(<ReviewScreen pack={pack()} store={store} now={NOW} />);
     expect(await screen.findByText("burro")).toBeTruthy();
     expect(screen.queryByText("mantequilla")).toBeNull();
@@ -313,8 +315,10 @@ describe("etiqueta de la voz", () => {
 describe("etiqueta de grabación nativa", () => {
   it("una palabra con grabación nativa muestra «hablante nativo»", async () => {
     const pk = pack();
+    const seeded = memoryStore();
+    for (const id of ["x1", "x2"]) await seeded.putUnit(masterByPlacement(emptyProgress(id), NOW));
     render(<AudioProvider pack={{ sentences: [], lexemes: [{ ...pk.lexemes[0], audio: "222222222222" }] }} index={new Set(["222222222222"])} words={new Map([["burro", "burro--ana.mp3"]])}>
-      <ReviewScreen pack={pk} store={memoryStore()} now={NOW} /></AudioProvider>);
+      <ReviewScreen pack={pk} store={seeded} now={NOW} /></AudioProvider>);
     expect(await screen.findByText("burro")).toBeTruthy();
     expect(screen.getByText(/grabación de un hablante nativo/)).toBeTruthy();
   });

@@ -39,6 +39,16 @@ def test_unidades_a1_solo_aceptan_oraciones_que_pasan_el_prefiltro():
     assert C.fit_for_level({"it": "Credo che sia malata.", "es": "Creo que está enferma."}, "B1")  # el filtro es solo de A1
 
 
+def test_a1_rechaza_enclíticos_y_las_unidades_de_sonidos_exigen_frases_cortas():
+    ok = {"it": "Io voglio parlare.", "es": "Quiero hablar."}
+    assert C.fit_for_level(ok, "A1")
+    for it in ["So che posso farcela.", "Io non voglio pensarci.", "Non posso vederlo.", "Ci sono stati molti omicidi.", "Mi sono alzato presto come al solito.", "Sono andato a casa."]:
+        assert not C.fit_for_level({"it": it, "es": "x y z"}, "A1"), it
+    largo = {"it": "Questa è una frase molto lunga per un principiante.", "es": "Esta es una frase muy larga para un principiante."}
+    assert C.fit_for_level(largo, "A1", "ERR_PRESENT_ARE")                       # en otras unidades sigue valiendo hasta 14 palabras
+    assert not C.fit_for_level(largo, "A1", "ERR_C_G_PALATAL")                   # en sonidos, no más de 7
+
+
 def test_unidad_sin_oraciones_suficientes_baja_a_planned(monkeypatch):
     raw = {"version": 1, "levels": [], "planned": [], "units": [
         {"id": "u1", "level": "A1", "title": "Pocas", "goal_es": "g", "codes": ["ERR_PERSONAL_A"], "why_here": "w"}]}
