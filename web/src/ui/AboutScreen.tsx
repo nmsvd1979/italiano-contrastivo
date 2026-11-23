@@ -23,10 +23,19 @@ export function AboutScreen({ manifest, sentences, readings = [] }: { manifest: 
           <h2>Lecturas y diálogos</h2>
           <p>Los textos italianos de las lecturas son de libros abiertos (licencias CC BY-NC). La traducción al español es de IA y no fue revisada por un nativo; las preguntas están escritas en español.</p>
           <ul className="attributions">
-            {readings.map((r) => (
+            {readings.filter((r) => !r.authored).map((r) => (
               <li key={r.id}>«{r.title}» — <a href={r.source.url}>{r.source.book}</a>, {r.source.authors} ({r.source.license})</li>
             ))}
           </ul>
+          {readings.some((r) => r.authored) && (
+            <>
+              <h3>Textos escritos por la IA</h3>
+              <p>Cuando no se encontró una fuente abierta (por ejemplo, el bar con caja, la tienda, el tiempo, los mensajes, el menú o el horario), los textos los <strong>escribió la IA (Claude)</strong> a pedido tuyo, con italiano simple y apoyándose en frases de libros abiertos. No son de un libro y <strong>no los revisó un hablante nativo</strong>: pueden tener errores o sonar poco naturales.</p>
+              <ul className="attributions">
+                {readings.filter((r) => r.authored).map((r) => <li key={r.id}>«{r.title}»</li>)}
+              </ul>
+            </>
+          )}
         </>
       )}
       <ul className="attributions">

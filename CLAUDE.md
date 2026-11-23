@@ -6,6 +6,7 @@ Fuente de diseño: cuaderno NotebookLM "App para aprender italiano" (id 231c3dc2
 
 ## Rumbo vigente
 Estructura (desde 2026-11-24): la ruta se organiza en **módulos temáticos** (situación comunicativa) hechos de **cápsulas** (las unidades por código de error). Cada módulo: Entrada (texto real) → Cápsulas → Salida (hablar y escribir, obligatoria) → Fluidez → Cierre (prueba mezclada ≥80 %). Plan en `docs/specs/2026-11-24-plan-modulos.md`; evidencia en `docs/metodos-y-estructura-de-la-app.md`. «Hablar» y «Escribir» son prácticas libres fuera de las pestañas.
+Un nivel está terminado cuando: (1) `schemas/data/syllabus-aN.json` declara la cobertura del programa CILS/PLIDA y la prueba `tests/py/test_cobertura_aN.py` pasa, (2) el hito de cinco partes está listo y (3) el usuario completa los módulos. Método para A2–B2 en `docs/hoja-de-ruta-a2-b2.md`.
 Plan maestro en `docs/specs/2026-11-22-plan-maestro.md`; revisión que lo motivó en `docs/revision-adversarial-2026-11-22.md`; estado y siguiente paso en `CONTINUIDAD.md`. Léelos al empezar.
 - Uso solo personal; todo gratis (sin API de pago). Meta: B2 en 18–24 meses a ritmo flexible, para hablar, entender y escribir bien.
 - El ciclo de cada unidad sigue las cuatro hebras de Nation: entrada, foco en la forma, salida (escribir y hablar) y fluidez. No es solo reconocimiento.
@@ -19,7 +20,7 @@ Plan maestro en `docs/specs/2026-11-22-plan-maestro.md`; revisión que lo motiv�
 - Estado del usuario solo en IndexedDB del dispositivo. Sin cuentas ni servicios de pago.
 
 ## Reglas
-- Contenido en italiano: no inventar. Todo ítem nuevo nace `needs_review`; dudas en `docs/dudas-italiano.md`.
+- Contenido en italiano: **primero buscar fuente abierta** (libros abiertos, Tatoeba). Si no existe, el usuario autorizó (2026-11-24) que la IA escriba el texto, con estas condiciones: va marcado `authored: true` (se escribe solo en `scripts/autorales.py`), italiano simple del nivel apoyado en frases de fuentes verificadas, la interfaz lo declara y se reemplaza cuando aparezca una fuente real. Nada se presenta como de un libro ni como revisado por un nativo. Todo ítem nuevo nace `needs_review`; dudas en `docs/dudas-italiano.md`.
 - Licencias: Tatoeba CC BY 2.0 FR (guardar autor e id), Piper según modelo. Libros abiertos (Piacere!, Leggiamo, etc.) son no comerciales: válidos solo mientras la app sea personal. Mantener atribuciones al día.
 - Antes de enlazar un recurso externo o confiar en una licencia marcada «verificar», comprobarlo.
 - No marcar como verificado lo que no se probó (audio, iPhone).

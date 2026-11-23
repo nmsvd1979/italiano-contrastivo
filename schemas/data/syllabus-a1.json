@@ -1,0 +1,880 @@
+{
+ "version": 1,
+ "nivel": "A1",
+ "fuentes": "Sillabo CILS A1 (producción y recepción) y Sillabo PLIDA (funciones, tipos de texto y 21 áreas); ver docs/metodos-y-estructura-de-la-app.md y research_notes (no versionado).",
+ "nota": "«covered» = hay práctica en la app (unidad, módulo, juego de roles, tarea o texto). «partial» y «gap» declaran lo que falta y cómo cerrarlo. No equivale a verificación de un nativo: los textos propios están escritos por la IA.",
+ "requisitos": [
+  {
+   "id": "g01",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Género y número de los nombres regulares",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u54",
+     "u55",
+     "u66"
+    ]
+   }
+  },
+  {
+   "id": "g02",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Pronombres sujeto y verbos essere / avere",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u13"
+    ]
+   }
+  },
+  {
+   "id": "g03",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Adjetivos calificativos (el acuerdo nombre-adjetivo no se exige en A1)",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u41",
+     "u32"
+    ]
+   }
+  },
+  {
+   "id": "g04",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Posesivos",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u01",
+     "u02"
+    ]
+   }
+  },
+  {
+   "id": "g05",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Demostrativos questo / quello",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u38"
+    ]
+   }
+  },
+  {
+   "id": "g06",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Interrogativos: chi, che cosa, quale, quanto, dove, quando, perché",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u30"
+    ]
+   }
+  },
+  {
+   "id": "g07",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Indefinidos molto, tanto, poco, tutto",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u39"
+    ]
+   }
+  },
+  {
+   "id": "g08",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Números cardinales de 1 a 20 (y hasta 100)",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u26"
+    ]
+   }
+  },
+  {
+   "id": "g09",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Preposiciones simples y a / in",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u70",
+     "u05"
+    ]
+   }
+  },
+  {
+   "id": "g10",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Modales potere, dovere, volere",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u17"
+    ]
+   }
+  },
+  {
+   "id": "g11",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Verbos regulares e irregulares comunes en presente",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u14",
+     "u15",
+     "u16"
+    ]
+   }
+  },
+  {
+   "id": "g12",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Passato prossimo: elegir bien el auxiliar (sin concordar el participio)",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u58",
+     "u08"
+    ]
+   }
+  },
+  {
+   "id": "g13",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Imperativo de «tu» y «voi», afirmativo y negativo",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u62",
+     "u67"
+    ]
+   }
+  },
+  {
+   "id": "g14",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Adverbios frecuentes de tiempo y de lugar",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u40",
+     "u57"
+    ]
+   }
+  },
+  {
+   "id": "g15",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Coordinadas con e y ma",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u68"
+    ]
+   }
+  },
+  {
+   "id": "g16",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Subordinadas: perché (causa), quando (tiempo), per + infinitivo (finalidad)",
+   "status": "partial",
+   "refs": {
+    "units": [
+     "u30"
+    ]
+   },
+   "gap_es": "perché y quando se practican como palabras; «per + infinitivo» no tiene práctica propia.",
+   "how_es": "Agregar en A2 una unidad de oraciones con «per + infinitivo» (Tatoeba: «Vado a Roma per studiare»)."
+  },
+  {
+   "id": "g17",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Artículos determinativos e indeterminativos (reconocer)",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u07",
+     "u55"
+    ]
+   }
+  },
+  {
+   "id": "g18",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Preposiciones articuladas (reconocer)",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u06"
+    ]
+   }
+  },
+  {
+   "id": "g19",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Pronombres átonos lo, la, mi, ti (reconocer)",
+   "status": "partial",
+   "refs": {
+    "units": [
+     "u61"
+    ]
+   },
+   "gap_es": "Solo se ven pronombres tónicos (con me, per te); los átonos aparecen en oraciones pero sin cápsula.",
+   "how_es": "Unidad de A2 «Clíticos lo / la / li / le» con generador (ver docs/hoja-de-ruta-a2-b2.md)."
+  },
+  {
+   "id": "g20",
+   "area": "gramatica",
+   "source": "CILS A1",
+   "text_es": "Gerundio con stare («sto mangiando»), reflexivos y piacere",
+   "status": "partial",
+   "refs": {
+    "units": [
+     "u56",
+     "u44"
+    ]
+   },
+   "gap_es": "«stare + gerundio» aparece en 64 oraciones pero no tiene cápsula propia.",
+   "how_es": "Cápsula opcional en A2."
+  },
+  {
+   "id": "g21",
+   "area": "gramatica",
+   "source": "Sillabo UniGe A1",
+   "text_es": "C'è / ci sono (hay) y su concordancia",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u03"
+    ]
+   }
+  },
+  {
+   "id": "g22",
+   "area": "gramatica",
+   "source": "Sillabo UniGe A1",
+   "text_es": "Expresiones con avere: ho fame, ho sete, ho sonno, ho … anni",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u04"
+    ]
+   }
+  },
+  {
+   "id": "f01",
+   "area": "funcion",
+   "source": "PLIDA A1",
+   "text_es": "Saludar, despedirse y presentarse o presentar a alguien",
+   "status": "covered",
+   "refs": {
+    "modules": [
+     "m01"
+    ],
+    "roleplays": [
+     "rp_saluti_formale",
+     "rp_conoscersi"
+    ]
+   }
+  },
+  {
+   "id": "f02",
+   "area": "funcion",
+   "source": "PLIDA A1",
+   "text_es": "Iniciar, mantener y cerrar una conversación breve",
+   "status": "covered",
+   "refs": {
+    "roleplays": [
+     "rp_dove_sei",
+     "rp_stasera",
+     "rp_sms"
+    ]
+   }
+  },
+  {
+   "id": "f03",
+   "area": "funcion",
+   "source": "PLIDA A1",
+   "text_es": "Señalar que no entendió, pedir que repitan y pedir aclaraciones",
+   "status": "covered",
+   "refs": {
+    "roleplays": [
+     "rp_chiarire"
+    ],
+    "phrase_groups": [
+     "ph_aula",
+     "ph_wv"
+    ]
+   }
+  },
+  {
+   "id": "f04",
+   "area": "funcion",
+   "source": "PLIDA A1",
+   "text_es": "Confirmar, negar, acordar, dudar",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u69"
+    ]
+   }
+  },
+  {
+   "id": "f05",
+   "area": "funcion",
+   "source": "PLIDA A1",
+   "text_es": "Dar y entender datos de personas, lugares, objetos, números, cantidades, precios y colores",
+   "status": "covered",
+   "refs": {
+    "modules": [
+     "m02",
+     "m03",
+     "m04",
+     "m09"
+    ]
+   }
+  },
+  {
+   "id": "f06",
+   "area": "funcion",
+   "source": "PLIDA A1",
+   "text_es": "Hablar de deseos y gustos",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u44",
+     "u65"
+    ]
+   }
+  },
+  {
+   "id": "f07",
+   "area": "funcion",
+   "source": "PLIDA A1",
+   "text_es": "Dar y entender instrucciones simples e indicaciones en la calle",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u57",
+     "u62"
+    ],
+    "roleplays": [
+     "rp_poste"
+    ]
+   }
+  },
+  {
+   "id": "f08",
+   "area": "funcion",
+   "source": "PLIDA A1",
+   "text_es": "Pedir un bien o un servicio (bar, restaurante, tienda, hotel)",
+   "status": "covered",
+   "refs": {
+    "roleplays": [
+     "rp_bar",
+     "rp_trattoria",
+     "rp_negozio",
+     "rp_albergo"
+    ]
+   }
+  },
+  {
+   "id": "f09",
+   "area": "funcion",
+   "source": "PLIDA A1",
+   "text_es": "Hablar de acciones habituales, planes y de lo que haces ahora",
+   "status": "covered",
+   "refs": {
+    "modules": [
+     "m05",
+     "m06"
+    ],
+    "tasks": [
+     "ht_settimana"
+    ]
+   }
+  },
+  {
+   "id": "f10",
+   "area": "funcion",
+   "source": "PLIDA A1",
+   "text_es": "Pedir permiso, invitar, agradecer, disculparse",
+   "status": "covered",
+   "refs": {
+    "roleplays": [
+     "rp_sms",
+     "rp_negozio"
+    ],
+    "phrase_groups": [
+     "ph_piacere"
+    ]
+   }
+  },
+  {
+   "id": "f11",
+   "area": "funcion",
+   "source": "PLIDA A1",
+   "text_es": "Hablar del tiempo atmosférico",
+   "status": "covered",
+   "refs": {
+    "roleplays": [
+     "rp_meteo"
+    ],
+    "phrase_groups": [
+     "ph_tempo"
+    ]
+   }
+  },
+  {
+   "id": "f12",
+   "area": "funcion",
+   "source": "PLIDA A1",
+   "text_es": "Escribir mensajes personales cortos y frases sobre uno mismo",
+   "status": "covered",
+   "refs": {
+    "modules": [
+     "m01",
+     "m02",
+     "m06"
+    ],
+    "readings": [
+     "rd_sms"
+    ]
+   }
+  },
+  {
+   "id": "f13",
+   "area": "funcion",
+   "source": "PLIDA A1",
+   "text_es": "Contar algo que hiciste (passato prossimo)",
+   "status": "covered",
+   "refs": {
+    "tasks": [
+     "ht_passato"
+    ],
+    "modules": [
+     "m11"
+    ]
+   }
+  },
+  {
+   "id": "t01",
+   "area": "texto",
+   "source": "PLIDA A1",
+   "text_es": "Carteles y avisos escritos",
+   "status": "covered",
+   "refs": {
+    "readings": [
+     "doc_cartelli"
+    ]
+   }
+  },
+  {
+   "id": "t02",
+   "area": "texto",
+   "source": "PLIDA A1",
+   "text_es": "Menús",
+   "status": "covered",
+   "refs": {
+    "readings": [
+     "doc_menu"
+    ]
+   }
+  },
+  {
+   "id": "t03",
+   "area": "texto",
+   "source": "PLIDA A1",
+   "text_es": "Horarios y agendas",
+   "status": "covered",
+   "refs": {
+    "readings": [
+     "doc_orari",
+     "rd_orario"
+    ]
+   }
+  },
+  {
+   "id": "t04",
+   "area": "texto",
+   "source": "PLIDA A1",
+   "text_es": "Formularios con datos personales",
+   "status": "covered",
+   "refs": {
+    "readings": [
+     "doc_modulo"
+    ]
+   }
+  },
+  {
+   "id": "t05",
+   "area": "texto",
+   "source": "PLIDA A1",
+   "text_es": "SMS, chat y mensajes informales",
+   "status": "covered",
+   "refs": {
+    "readings": [
+     "rd_sms",
+     "rd_sms_esame"
+    ]
+   }
+  },
+  {
+   "id": "t06",
+   "area": "texto",
+   "source": "PLIDA A1",
+   "text_es": "Anuncios (por ejemplo, arriendo)",
+   "status": "covered",
+   "refs": {
+    "readings": [
+     "doc_annuncio"
+    ]
+   }
+  },
+  {
+   "id": "t07",
+   "area": "texto",
+   "source": "PLIDA A1",
+   "text_es": "Conversaciones cara a cara y por teléfono sobre temas personales",
+   "status": "covered",
+   "refs": {
+    "readings": [
+     "rd_meteo",
+     "rd_incontro"
+    ]
+   }
+  },
+  {
+   "id": "t08",
+   "area": "texto",
+   "source": "CILS A1",
+   "text_es": "Billetes, etiquetas y listas de compra",
+   "status": "partial",
+   "refs": {
+    "readings": [
+     "rd_stazione"
+    ]
+   },
+   "gap_es": "Hay un diálogo de estación (audio) pero ningún billete ni etiqueta ni lista de compra escritos.",
+   "how_es": "Agregar tres documentos cortos en A2 (billete de tren, etiqueta de ropa, lista de compra) con el mismo método de textos propios."
+  },
+  {
+   "id": "t09",
+   "area": "texto",
+   "source": "CILS A1",
+   "text_es": "Avisos públicos orales y mensajes de contestador",
+   "status": "gap",
+   "refs": {},
+   "gap_es": "No hay audio de avisos de estación ni de contestador; Piper los puede leer pero el estilo (megafonía) no se evaluó.",
+   "how_es": "Escribir 4 avisos cortos (estación, tienda) como textos propios y generarlos con Piper en A2."
+  },
+  {
+   "id": "p01",
+   "area": "fonologia",
+   "source": "CILS A1",
+   "text_es": "Sonidos difíciles: c/g, sc, gli, gn, z y consonantes dobles",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u18",
+     "u19",
+     "u20",
+     "u63",
+     "u64"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "area": "fonologia",
+   "source": "CILS A1",
+   "text_es": "Reconocer la entonación interrogativa, declarativa e imperativa",
+   "status": "gap",
+   "refs": {},
+   "gap_es": "Medido con Serena: solo 7 de 10 frases suben al final como pregunta; con un audio sintético no se puede enseñar.",
+   "how_es": "Esperar audio nativo verificado (Tatoeba NM1 o Lingua Libre) y repetir scripts/medir_entonacion.py."
+  },
+  {
+   "id": "l01",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: ambiente y tiempo",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u33",
+     "u51"
+    ]
+   }
+  },
+  {
+   "id": "l02",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: arte, cultura y tiempo libre",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u36"
+    ]
+   }
+  },
+  {
+   "id": "l03",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: casa",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u23"
+    ]
+   }
+  },
+  {
+   "id": "l04",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: comida y bebida",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u22",
+     "u46",
+     "u52",
+     "u35"
+    ]
+   }
+  },
+  {
+   "id": "l05",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: ciudad",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u24",
+     "u57"
+    ]
+   }
+  },
+  {
+   "id": "l06",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: educación",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u53",
+     "u29"
+    ]
+   }
+  },
+  {
+   "id": "l07",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: emociones y sentimientos",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u50"
+    ]
+   }
+  },
+  {
+   "id": "l08",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: familia",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u21"
+    ]
+   }
+  },
+  {
+   "id": "l09",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: comprar y pagar",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u42",
+     "u31"
+    ]
+   }
+  },
+  {
+   "id": "l10",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: trabajo",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u29"
+    ]
+   }
+  },
+  {
+   "id": "l11",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: cualidades personales",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u41"
+    ]
+   }
+  },
+  {
+   "id": "l12",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: relaciones sociales",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u37",
+     "u60"
+    ]
+   }
+  },
+  {
+   "id": "l13",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: rutina diaria",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u56",
+     "u59",
+     "u25"
+    ]
+   }
+  },
+  {
+   "id": "l14",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: salud y cuerpo",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u27",
+     "u43",
+     "u48"
+    ]
+   }
+  },
+  {
+   "id": "l15",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: transportes",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u34"
+    ]
+   }
+  },
+  {
+   "id": "l16",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: ropa y accesorios",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u31"
+    ]
+   }
+  },
+  {
+   "id": "l17",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: viajes y turismo",
+   "status": "covered",
+   "refs": {
+    "units": [
+     "u34",
+     "u57"
+    ]
+   }
+  },
+  {
+   "id": "l18",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: comunicación y medios",
+   "status": "gap",
+   "refs": {},
+   "gap_es": "No hay vocabulario de teléfono, internet ni medios.",
+   "how_es": "Agregar un tema «teléfono y mensajes» en A2."
+  },
+  {
+   "id": "l19",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: instituciones y vida política",
+   "status": "gap",
+   "refs": {},
+   "gap_es": "Fuera de A1 en la práctica (PLIDA lo marca con intensidad baja).",
+   "how_es": "Recién en B1."
+  },
+  {
+   "id": "l20",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: tecnología y ciencia",
+   "status": "gap",
+   "refs": {},
+   "gap_es": "Sin vocabulario propio.",
+   "how_es": "Agregar en A2 un tema «computador y teléfono»."
+  },
+  {
+   "id": "l21",
+   "area": "lexico",
+   "source": "PLIDA A1 (21 áreas)",
+   "text_es": "Área temática PLIDA: oficinas públicas y servicios",
+   "status": "gap",
+   "refs": {},
+   "gap_es": "Solo correos y banco aparecen en lecturas; sin tema.",
+   "how_es": "Agregar en A2 un tema «correos, banco, farmacia»."
+  }
+ ]
+}

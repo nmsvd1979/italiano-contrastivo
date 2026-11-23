@@ -2,6 +2,18 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 (3) — Programa A1 cubierto, textos propios y hoja de ruta A2–B2
+**Pedido del usuario:** «cierra los huecos, busca fuentes y si no, genéralo tú; deja mapeado el objetivo final y cómo llegar más rápido a A2». **Decisión nueva:** cuando no hay fuente abierta, la IA escribe el texto (ver `CLAUDE.md`).
+**Hecho:**
+1. **Huecos del programa A1 (CILS/PLIDA):** unidades nuevas de **plurales** (`ERR_PLURAL_FORMA`), **mandato negativo** (`ERR_IMPERATIVO_NEG`), **conectores**, **acuerdo y duda** y **preposiciones** (u66–u70); `u08` (auxiliar *essere*) y las 8 unidades de vocabulario ampliado pasan a A1 (ahora 65 unidades en 11 módulos, el 11.º «Contar lo que hiciste y dar órdenes»). Todas con 30 o más oraciones de Tatoeba auditadas por IA.
+2. **Textos propios (`scripts/autorales.py`, `authored: true`):** diálogos de bar con caja, tienda, tiempo, aclaraciones («Può ripetere?»), SMS y estación (audio, para el examen); documentos de menú, horario, formulario, carteles y anuncio. Cinco juegos de roles nuevos, una propuesta de mensaje escrito por módulo y textos opcionales por módulo. La pantalla «Acerca» y cada texto declaran que los escribió la IA y que ningún nativo los revisó.
+3. **Hito:** suma comprensión auditiva sin ver el texto («In stazione»).
+4. **Cobertura:** `schemas/data/syllabus-a1.json` (67 requisitos: la gran mayoría cubiertos; los huecos y parciales declaran cómo cerrarse) y `tests/py/test_cobertura_a1.py`. **Hoja de ruta:** `docs/hoja-de-ruta-a2-b2.md` (criterio de «terminado», método con comandos, fuentes, cuándo generar, módulos A2 propuestos, riesgos).
+**Huecos que declara A1:** «per + infinitivo», clíticos átonos, «stare + gerundio» (parcial); billetes/etiquetas/lista de compra (parcial); avisos orales; entonación (necesita audio nativo); áreas «comunicación y medios», «tecnología», «oficinas públicas».
+**Sigue sin hacerse:** probar en iPhone y escuchar los audios (los hace el usuario); revisión de un nativo (descartada); seguimiento de puntos calientes con pruebas diferidas.
+**Costos:** audio ≈ 42 MB (tope subido a 48 MB); el orden de la ruta cambió otra vez; los textos propios pueden tener errores que nadie revisó.
+**Pruebas:** Python y web en verde al cierre.
+
 ## 2026-11-24 (2) — Cierre de lo que A1 permitía sin prueba del usuario
 **Decisión del usuario:** no hay hablante nativo; se confía en que las fuentes (libros abiertos y Tatoeba) y la auditoría/traducción de la IA bastan. **Sigue siendo validación solo por IA, declarada en la app.**
 **Hecho:**

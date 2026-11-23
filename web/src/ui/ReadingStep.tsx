@@ -50,7 +50,7 @@ export function ReadingStep({ reading, words = {}, onFinish, exitHref = "#/", hi
         <p><small>{reading.kind === "dialogo" ? "Diálogo" : reading.kind === "documento" ? "Documento" : "Lectura"} · {reading.authored ? "Texto escrito por la IA (Claude) para esta app: no es de un libro ni lo revisó un nativo." : `${reading.source.book} (${reading.source.authors}), ${reading.source.license}.`}{hideTranslation ? "" : " Traducción al español: IA, sin revisar por un nativo."}</small></p>
         {reading.table && (
           <div style={{ overflowX: "auto" }}>
-            <table className="doc" lang="it">
+            <table className={reading.table.head.length > 3 ? "doc wide" : "doc"} lang="it">
               <thead><tr>{reading.table.head.map((h, k) => <th key={k} scope="col">{h}</th>)}</tr></thead>
               <tbody>{reading.table.rows.map((row, r) => <tr key={r}>{row.map((c, k) => (k === 0 ? <th key={k} scope="row">{c}</th> : <td key={k}>{c}</td>))}</tr>)}</tbody>
             </table>
