@@ -4,6 +4,7 @@
     "cap_err_gli_palatal",
     "cap_err_sc_palatal",
     "cap_err_possessive_spelling",
+    "cap_err_imperativo_neg",
     "cap_err_possessive_article",
     "cap_err_present_are",
     "cap_err_present_ere_ire",
@@ -12,6 +13,7 @@
     "cap_err_present_modal",
     "cap_err_article_allomorph",
     "cap_err_ce_agreement",
+    "cap_err_plural_forma",
     "cap_err_prep_article_contraction",
     "cap_err_prep_place",
     "cap_err_chiamarsi",
@@ -27,6 +29,7 @@
     "cap_err_riflessivo_pronome",
     "cap_err_tenere_avere",
     "cap_err_voc_abiti",
+    "cap_err_voc_accordo",
     "cap_err_voc_aggettivi",
     "cap_err_voc_animali",
     "cap_err_voc_astratti",
@@ -37,6 +40,7 @@
     "cap_err_voc_citta",
     "cap_err_voc_clima",
     "cap_err_voc_colori",
+    "cap_err_voc_connettivi",
     "cap_err_voc_corpo",
     "cap_err_voc_cucina",
     "cap_err_voc_denaro",
@@ -52,6 +56,7 @@
     "cap_err_voc_negozi",
     "cap_err_voc_numeri",
     "cap_err_voc_oggetti",
+    "cap_err_voc_preposizioni",
     "cap_err_voc_quantita",
     "cap_err_voc_salute",
     "cap_err_voc_saluti",
@@ -75,7 +80,7 @@
     "ERR_AUX_ESSERE": {
       "capsule": true,
       "reason": null,
-      "usable": 20
+      "usable": 46
     },
     "ERR_CE_AGREEMENT": {
       "capsule": true,
@@ -127,6 +132,11 @@
       "reason": null,
       "usable": 35
     },
+    "ERR_IMPERATIVO_NEG": {
+      "capsule": true,
+      "reason": null,
+      "usable": 49
+    },
     "ERR_INDEFINITE_ARTICLE": {
       "capsule": true,
       "reason": null,
@@ -156,6 +166,11 @@
       "capsule": true,
       "reason": null,
       "usable": 42
+    },
+    "ERR_PLURAL_FORMA": {
+      "capsule": true,
+      "reason": null,
+      "usable": 48
     },
     "ERR_POSSESSIVE_ARTICLE": {
       "capsule": true,
@@ -227,6 +242,11 @@
       "reason": null,
       "usable": 38
     },
+    "ERR_VOC_ACCORDO": {
+      "capsule": true,
+      "reason": null,
+      "usable": 32
+    },
     "ERR_VOC_AGGETTIVI": {
       "capsule": true,
       "reason": null,
@@ -277,6 +297,11 @@
       "reason": null,
       "usable": 33
     },
+    "ERR_VOC_CONNETTIVI": {
+      "capsule": true,
+      "reason": null,
+      "usable": 33
+    },
     "ERR_VOC_CORPO": {
       "capsule": true,
       "reason": null,
@@ -285,7 +310,7 @@
     "ERR_VOC_CUCINA": {
       "capsule": true,
       "reason": null,
-      "usable": 20
+      "usable": 40
     },
     "ERR_VOC_DENARO": {
       "capsule": true,
@@ -310,12 +335,12 @@
     "ERR_VOC_FRUTTA": {
       "capsule": true,
       "reason": null,
-      "usable": 22
+      "usable": 35
     },
     "ERR_VOC_IGIENE": {
       "capsule": true,
       "reason": null,
-      "usable": 22
+      "usable": 42
     },
     "ERR_VOC_INTERROG": {
       "capsule": true,
@@ -330,7 +355,7 @@
     "ERR_VOC_NATURA": {
       "capsule": true,
       "reason": null,
-      "usable": 22
+      "usable": 34
     },
     "ERR_VOC_NAZIONALITA": {
       "capsule": true,
@@ -352,6 +377,11 @@
       "reason": null,
       "usable": 33
     },
+    "ERR_VOC_PREPOSIZIONI": {
+      "capsule": true,
+      "reason": null,
+      "usable": 51
+    },
     "ERR_VOC_QUANTITA": {
       "capsule": true,
       "reason": null,
@@ -360,7 +390,7 @@
     "ERR_VOC_SALUTE": {
       "capsule": true,
       "reason": null,
-      "usable": 24
+      "usable": 32
     },
     "ERR_VOC_SALUTI": {
       "capsule": true,
@@ -370,7 +400,7 @@
     "ERR_VOC_SCUOLA": {
       "capsule": true,
       "reason": null,
-      "usable": 19
+      "usable": 37
     },
     "ERR_VOC_TEMPO": {
       "capsule": true,
@@ -385,7 +415,7 @@
     "ERR_VOC_TRASPORTI": {
       "capsule": true,
       "reason": null,
-      "usable": 27
+      "usable": 35
     },
     "ERR_VOC_VORREI": {
       "capsule": true,
@@ -394,18 +424,18 @@
     }
   },
   "levels": {
-    "A1": 2290,
-    "A2": 427,
+    "A1": 2585,
+    "A2": 476,
     "B1": 146,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 2843,
+    "llm-audit": 3187,
     "me": 27
   },
-  "sentences_used": 2698,
+  "sentences_used": 3036,
   "translation_kind": {
-    "direct": 1897,
-    "llm": 801
+    "direct": 1943,
+    "llm": 1093
   }
 }

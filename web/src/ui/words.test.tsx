@@ -50,7 +50,9 @@ describe("paso «Palabras»", () => {
 
 describe("unidades opcionales (vocabulario ampliado)", () => {
   it("tienen su propia cadena: no bloquean ni se bloquean por el camino principal", () => {
-    const views = unitViews(course, [], false);
+    // Desde 2026-11-24 las unidades de vocabulario ampliado están dentro de los módulos de A1; la cadena opcional se prueba marcando una como «A1+».
+    const marked = { ...course, units: course.units.map((u) => (u.id === "u34" || u.id === "u43" ? { ...u, level: "A1+" } : u)) };
+    const views = unitViews(marked, [], false);
     const core = views.filter((v) => !isOptional(v.unit));
     const opt = views.filter((v) => isOptional(v.unit));
     expect(opt.length).toBeGreaterThan(0);

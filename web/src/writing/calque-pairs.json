@@ -80,6 +80,11 @@
     "wrong": "Ci sono quaranta persone in il gruppo."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Sei arrivato in treno?",
+    "wrong": "Hai arrivato in treno?"
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Anche Tom ha fame.",
     "wrong": "Anche Tom tiene fame."
@@ -88,6 +93,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Prendi il dizionario dallo scaffale.",
     "wrong": "Prendi il dizionario da lo scaffale."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La pentola è sul fuoco.",
+    "wrong": "La pentola è su il fuoco."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -138,6 +148,26 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Ci sono molti fiori nel giardino?",
     "wrong": "Ci sono molti fiori in il giardino?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Sei andato dal medico?",
+    "wrong": "Hai andato dal medico?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sei andato dal medico?",
+    "wrong": "Sei andato da il medico?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Siamo nella foresta.",
+    "wrong": "Siamo in la foresta."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Sei arrivato troppo presto.",
+    "wrong": "Hai arrivato troppo presto."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -200,6 +230,11 @@
     "wrong": "Ci sono molti topi su la nave."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Perché sei uscita?",
+    "wrong": "Perché hai uscita?"
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Mi piacciono i tuoi occhi!",
     "wrong": "Mi piacciono tuoi occhi!"
@@ -233,6 +268,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Conosci l'inno nazionale della Grecia?",
     "wrong": "Conosci l'inno nazionale di la Grecia?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Sei venuto in città?",
+    "wrong": "Hai venuto in città?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -445,6 +485,11 @@
     "wrong": "Vado in Parigi domani."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Sei venuto da Parigi?",
+    "wrong": "Hai venuto da Parigi?"
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La libreria è vicina al parco.",
     "wrong": "La libreria è vicina a il parco."
@@ -466,8 +511,18 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Amo il suo profumo!",
+    "wrong": "Amo suo profumo!"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Io amo il suo profumo!",
     "wrong": "Io amo suo profumo!"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Dov'è il mio pettine?",
+    "wrong": "Dov'è mio pettine?"
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -483,6 +538,16 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Sei uscito ieri sera?",
     "wrong": "Hai uscito ieri sera?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Sei andato in Italia.",
+    "wrong": "Hai andato in Italia."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Sei andato in Italia.",
+    "wrong": "Sei andato a Italia."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -536,8 +601,18 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "È sul treno.",
+    "wrong": "È su il treno."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Domani io non vado al cinema.",
     "wrong": "Domani io non vado a il cinema."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Io ho sonno!",
+    "wrong": "Io tengo sonno!"
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -610,6 +685,16 @@
     "wrong": "Odio suoi genitori."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Dove sei nata?",
+    "wrong": "Dove hai nata?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Come sei entrato?",
+    "wrong": "Come hai entrato?"
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io vengo dalla Norvegia.",
     "wrong": "Io vengo da la Norvegia."
@@ -640,6 +725,16 @@
     "wrong": "Tokyo è più grande che Yokohama."
   },
   {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Ha fame e sete.",
+    "wrong": "Tiene fame e sete."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Ho fame e sete.",
+    "wrong": "Tengo fame e sete."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Lavorate a Milano.",
     "wrong": "Lavorate in Milano."
@@ -655,9 +750,19 @@
     "wrong": "Lavora in Milano."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "In che mese sei nata?",
+    "wrong": "In che mese hai nata?"
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Sto cercando il mio orologio.",
     "wrong": "Sto cercando mio orologio."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Io ho sete.",
+    "wrong": "Io tengo sete."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -776,6 +881,11 @@
   },
   {
     "code": "ERR_TENERE_AVERE",
+    "correct": "Non ho fame.",
+    "wrong": "Non tengo fame."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
     "correct": "Io non ho fame.",
     "wrong": "Io non tengo fame."
   },
@@ -858,6 +968,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "I suoi occhi sono azzurri.",
     "wrong": "Suoi occhi sono azzurri."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sono nella doccia.",
+    "wrong": "Sono in la doccia."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -975,6 +1090,11 @@
     "wrong": "Suo tappeto è completamente bianco."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Sei venuto qui da solo?",
+    "wrong": "Hai venuto qui da solo?"
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Tu hai fame?",
     "wrong": "Tu tieni fame?"
@@ -1085,6 +1205,11 @@
     "wrong": "Vieni a dirmelo in la mia camera."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'è del latte in frigorifero.",
+    "wrong": "C'è di il latte in frigorifero."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Ritorna in Cile!",
     "wrong": "Ritorna a Cile!"
@@ -1170,6 +1295,11 @@
     "wrong": "Vado in Londra."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Siamo partiti in treno.",
+    "wrong": "Abbiamo partiti in treno."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io solitamente mi alzo alle otto.",
     "wrong": "Io solitamente mi alzo a le otto."
@@ -1196,6 +1326,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Viviamo sulla Terra.",
+    "wrong": "Viviamo su la Terra."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Tu credi in cose del genere?",
     "wrong": "Tu credi in cose di il genere?"
   },
@@ -1203,6 +1338,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Paga alla cassa.",
     "wrong": "Paga a la cassa."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "A che ora sei entrata?",
+    "wrong": "A che ora hai entrata?"
   },
   {
     "code": "ERR_TENERE_AVERE",
@@ -1330,6 +1470,11 @@
     "wrong": "Miei genitori sono anziani."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Sei venuto in treno?",
+    "wrong": "Hai venuto in treno?"
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Cominciamo alle due e mezza.",
     "wrong": "Cominciamo a le due e mezza."
@@ -1338,6 +1483,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "La sua spiegazione è poco convincente.",
     "wrong": "Sua spiegazione è poco convincente."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Hai fame ora?",
+    "wrong": "Tieni fame ora?"
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -1358,6 +1508,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Lo sport fa bene alla salute.",
     "wrong": "Lo sport fa bene a la salute."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Non ha sonno.",
+    "wrong": "Non tiene sonno."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -1516,6 +1671,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Vuoi del pepe sopra?",
+    "wrong": "Vuoi di il pepe sopra?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Non credo agli extraterrestri.",
     "wrong": "Non credo a gli extraterrestri."
   },
@@ -1528,6 +1688,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Preferisco il caffè al tè.",
     "wrong": "Preferisco il caffè a il tè."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Con chi sei venuto?",
+    "wrong": "Con chi hai venuto?"
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -1560,6 +1725,11 @@
     "wrong": "Dov'è sua cravatta?"
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Sei andato a Boston?",
+    "wrong": "Hai andato a Boston?"
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Ti aspettano davanti alla porta.",
     "wrong": "Ti aspettano davanti a la porta."
@@ -1590,6 +1760,11 @@
     "wrong": "Loro abitano a il piano di sotto."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Siamo partiti con il treno.",
+    "wrong": "Abbiamo partiti con il treno."
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "Ci sono molte persone qui.",
     "wrong": "C'è molte persone qui."
@@ -1598,6 +1773,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Metti questo libro sopra agli altri.",
     "wrong": "Metti questo libro sopra a gli altri."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Siamo andate troppo lontano.",
+    "wrong": "Abbiamo andate troppo lontano."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -1645,6 +1825,16 @@
     "wrong": "Io non credo in la sua religione."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Hai delle mele?",
+    "wrong": "Hai di le mele?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ha delle mele?",
+    "wrong": "Ha di le mele?"
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Come si chiama il vostro avvocato?",
     "wrong": "Come si chiama vostro avvocato?"
@@ -1686,6 +1876,16 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Hai dello shampoo?",
+    "wrong": "Hai di lo shampoo?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Avete dello shampoo?",
+    "wrong": "Avete di lo shampoo?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Mi piace il gelato alla fragola.",
     "wrong": "Mi piace il gelato a la fragola."
   },
@@ -1713,6 +1913,26 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il suo ragazzo è turco.",
     "wrong": "Suo ragazzo è turco."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Sei andato al negozio?",
+    "wrong": "Hai andato al negozio?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sei andato al negozio?",
+    "wrong": "Sei andato a il negozio?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Sei andato al mercato ieri?",
+    "wrong": "Hai andato al mercato ieri?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sei andato al mercato ieri?",
+    "wrong": "Sei andato a il mercato ieri?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -1845,6 +2065,16 @@
     "wrong": "Vanno in vacanza a Italia?"
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Sei andato al ristorante ieri?",
+    "wrong": "Hai andato al ristorante ieri?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sei andato al ristorante ieri?",
+    "wrong": "Sei andato a il ristorante ieri?"
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Loro amano i loro figli.",
     "wrong": "Loro amano loro figli."
@@ -1873,6 +2103,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La Terra gira intorno al Sole.",
     "wrong": "La Terra gira intorno a il Sole."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Forse hanno fame.",
+    "wrong": "Forse tengono fame."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -1948,6 +2183,11 @@
     "code": "ERR_TENERE_AVERE",
     "correct": "Ha paura di fare errori.",
     "wrong": "Tiene paura di fare errori."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Dov'è il tuo forno?",
+    "wrong": "Dov'è tuo forno?"
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -2058,6 +2298,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Come si chiama la tua ragazza?",
     "wrong": "Come si chiama tua ragazza?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Sei andato a scuola?",
+    "wrong": "Hai andato a scuola?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2240,9 +2485,19 @@
     "wrong": "Tutti in la foto stanno sorridendo."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Sei venuto troppo tardi.",
+    "wrong": "Hai venuto troppo tardi."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "La mia coscienza è pulita.",
     "wrong": "Mia coscienza è pulita."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Hai del tonno?",
+    "wrong": "Hai di il tonno?"
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -2318,6 +2573,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Ho cercato di conoscere la mia anima.",
     "wrong": "Ho cercato di conoscere mia anima."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "È andato là?",
+    "wrong": "Ha andato là?"
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -2541,6 +2801,11 @@
   },
   {
     "code": "ERR_AUX_ESSERE",
+    "correct": "Lui è uscito.",
+    "wrong": "Lui ha uscito."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
     "correct": "Siamo venuti qui per divertirci.",
     "wrong": "Abbiamo venuti qui per divertirci."
   },
@@ -2593,6 +2858,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io vorrei un tavolo vicino alla finestra.",
     "wrong": "Io vorrei un tavolo vicino a la finestra."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Non nuotare nel fiume.",
+    "wrong": "Non nuotare in il fiume."
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -2718,6 +2988,11 @@
     "code": "ERR_PERSONAL_A",
     "correct": "Io conosco Tom da quand'ero un ragazzino.",
     "wrong": "Io conosco a Tom da quand'ero un ragazzino."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Tom è venuto.",
+    "wrong": "Tom ha venuto."
   },
   {
     "code": "ERR_PERSONAL_A",
@@ -3345,9 +3620,19 @@
     "wrong": "Ho lavorato a la fattoria tutto il giorno."
   },
   {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Non tornare a Roma!",
+    "wrong": "Non tornare in Roma!"
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Qualcuno mi ha rubato l'ombrello nella pasticceria.",
     "wrong": "Qualcuno mi ha rubato l'ombrello in la pasticceria."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Non usare la mia penna.",
+    "wrong": "Non usare mia penna."
   },
   {
     "code": "ERR_PREP_PLACE",

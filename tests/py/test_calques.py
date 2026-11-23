@@ -118,7 +118,8 @@ def test_los_codigos_cubiertos():
         "ERR_VOC_NAZIONALITA", "ERR_VOC_FRUTTA", "ERR_VOC_NEGOZI", "ERR_VOC_IGIENE", "ERR_VOC_OGGETTI",
         "ERR_VOC_ASTRATTI", "ERR_VOC_NATURA", "ERR_VOC_CUCINA", "ERR_VOC_SCUOLA",
         "ERR_GENERE_ES", "ERR_INDEFINITE_ARTICLE", "ERR_RIFLESSIVO_PRONOME", "ERR_PARTICIPIO_ES", "ERR_VOC_DIREZIONI",
-        "ERR_ORA_ES", "ERR_CHIAMARSI", "ERR_PRONOME_TONICO", "ERR_IMPERATIVO_FORMA", "ERR_GN_Z_SPELLING", "ERR_CONSONANTE_DOPPIA", "ERR_VOC_VORREI"}
+        "ERR_ORA_ES", "ERR_CHIAMARSI", "ERR_PRONOME_TONICO", "ERR_IMPERATIVO_FORMA", "ERR_GN_Z_SPELLING", "ERR_CONSONANTE_DOPPIA", "ERR_VOC_VORREI",
+        "ERR_VOC_CONNETTIVI", "ERR_VOC_ACCORDO", "ERR_VOC_PREPOSIZIONI", "ERR_PLURAL_FORMA", "ERR_IMPERATIVO_NEG"}
     assert find_calque("ERR_NO_EXISTE", "Ho fame.") is None
 
 
@@ -151,8 +152,9 @@ def test_ningun_calco_aparece_en_el_corpus_validado():
                 n = 2 if code.startswith("ERR_PRESENT_") else 1  # presente: pronombre + (non) + verbo
                 before = re.search(r"((?:\S+\s+){0,%d}\S+)\s*$" % (n - 1), d["it"][:c.start])
                 phrase = (before.group(0).strip() + " " if before else "").lower() + phrase
-            if code == "ERR_IMPERATIVO_FORMA":  # «apre la» solo es error como mandato al comienzo de la frase («Apre la porta!»); en medio es «él abre»
-                assert not re.search(r"(?:^|[.!?]\s)" + re.escape(phrase), corpus.lower()), (code, phrase)
+            if code in ("ERR_IMPERATIVO_FORMA", "ERR_IMPERATIVO_NEG"):  # «apre la» / «non parli» solo son error como mandato al comienzo de la frase; en medio son «él abre» / «tú no hablas»
+                full = ("non " if code == "ERR_IMPERATIVO_NEG" else "") + phrase
+                assert not re.search(r"(?:^|[.!?]\s)" + re.escape(full), corpus.lower()), (code, full)
                 continue
             if code == "ERR_COMPARATIVE_DI":  # «che me» solo es calco tras «più/meno + adjetivo»; «prima che me lo scordi» es otra cosa
                 phrase = r"(?:più|meno) \w+ " + re.escape(phrase)

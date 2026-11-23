@@ -63,15 +63,16 @@
       "can_do_es": [
         "Decir de dónde eres y dónde vives.",
         "Decir tu edad y tu dirección con los números.",
-        "Usar los verbos en -are para decir dónde vives, qué hablas y qué haces (parlo, abito).",
+        "Usar los verbos en -are para decir dónde vives y qué hablas (parlo, abito).",
         "Deletrear tu nombre con el alfabeto italiano.",
-        "Dar tus datos cuando te los piden con «Lei»."
+        "Hacer el plural de los nombres (libro → libri, casa → case)."
       ],
       "units": [
         "u45",
         "u14",
         "u26",
         "u54",
+        "u66",
         "u55"
       ],
       "entry_reading": "rd_dovesei",
@@ -101,7 +102,8 @@
         "u19",
         "u49",
         "u38",
-        "u32"
+        "u32",
+        "u53"
       ],
       "entry_reading": "rd_zaino",
       "roleplays": [
@@ -156,7 +158,8 @@
         "u25",
         "u59",
         "u56",
-        "u40"
+        "u40",
+        "u48"
       ],
       "entry_reading": "rd_routine",
       "roleplays": [],
@@ -175,6 +178,7 @@
         "Proponer un plan y aceptar o rechazarlo.",
         "Decir qué quieres, puedes y debes hacer.",
         "Hacer preguntas con dove, quando, perché, come.",
+        "Unir frases con e, ma, perché y quando, y mostrar acuerdo o duda (certo, forse).",
         "Pronunciar «gn» y «z» (gnocchi, pizza, grazie)."
       ],
       "units": [
@@ -182,7 +186,10 @@
         "u17",
         "u36",
         "u30",
-        "u63"
+        "u63",
+        "u50",
+        "u68",
+        "u69"
       ],
       "entry_reading": "rd_stasera",
       "roleplays": [
@@ -201,7 +208,8 @@
         "Describir tu casa y tu ciudad con «c'è» y «ci sono».",
         "Decir dónde estás y a dónde vas (a, in, nel, sul).",
         "Preguntar y entender cómo llegar a un lugar con «Lei».",
-        "Pedir un servicio en un hotel."
+        "Pedir un servicio en un hotel.",
+        "Usar bien las preposiciones di, da, con, su, per y tra."
       ],
       "units": [
         "u23",
@@ -209,7 +217,9 @@
         "u24",
         "u05",
         "u06",
-        "u57"
+        "u57",
+        "u34",
+        "u70"
       ],
       "entry_reading": "rd_poste",
       "roleplays": [
@@ -239,7 +249,9 @@
         "u35",
         "u65",
         "u04",
-        "u64"
+        "u64",
+        "u46",
+        "u52"
       ],
       "entry_reading": "rd_trattoria",
       "roleplays": [
@@ -284,30 +296,55 @@
     {
       "id": "m10",
       "level": "A1",
-      "title": "El cuerpo, el tiempo y el trabajo; contar lo que hiciste",
+      "title": "El cuerpo, la salud, el tiempo y el trabajo",
       "can_do_es": [
         "Decir qué te duele y nombrar partes del cuerpo.",
-        "Hablar del tiempo y de los animales.",
-        "Contar a qué te dedicas.",
-        "Dar y entender órdenes sencillas y contar algo que acabas de hacer."
+        "Hablar del tiempo y de la naturaleza.",
+        "Nombrar animales.",
+        "Contar a qué te dedicas."
       ],
       "units": [
         "u27",
         "u33",
         "u28",
         "u29",
-        "u62",
-        "u58"
+        "u43",
+        "u51"
       ],
-      "entry_reading": "rd_viaggio",
+      "entry_reading": "rd_medici",
       "roleplays": [],
       "tasks": [
-        "ht_lavoro",
-        "ht_passato"
+        "ht_lavoro"
       ],
       "phrase_groups": [
         "ph_tempo"
       ],
+      "library": "plida-a1",
+      "library_task_es": "Revisa el ejemplo de PLIDA A1 e identifica qué partes ya sabrías hacer."
+    },
+    {
+      "id": "m11",
+      "level": "A1",
+      "title": "Contar lo que hiciste y dar órdenes",
+      "can_do_es": [
+        "Contar algo que hiciste con «ho + participio» (ho mangiato, ho visto).",
+        "Elegir el auxiliar correcto con verbos de movimiento (sono andato, no «ho andato»).",
+        "Dar y entender órdenes sencillas (parla, apri, leggi).",
+        "Terminar los participios en -ato, -uto, -ito (no -ado, -ido).",
+        "Decir lo que no se debe hacer (non parlare!)."
+      ],
+      "units": [
+        "u58",
+        "u08",
+        "u62",
+        "u67"
+      ],
+      "entry_reading": "rd_viaggio",
+      "roleplays": [],
+      "tasks": [
+        "ht_passato"
+      ],
+      "phrase_groups": [],
       "library": "plida-a1",
       "library_task_es": "Revisa el ejemplo de PLIDA A1 e identifica qué partes ya sabrías hacer."
     }
@@ -2040,6 +2077,118 @@
       ]
     },
     {
+      "id": "u66",
+      "level": "A1",
+      "title": "Plurales: libro → libri, casa → case",
+      "goal_es": "El plural cambia la vocal final, no agrega -s: libro → libri, casa → case, studente → studenti.",
+      "codes": [
+        "ERR_PLURAL_FORMA"
+      ],
+      "why_here": "Casi todo lo que cuentas con más de una cosa necesita plural, y el español hace el plural con -s: es el calco más probable («i libros»).",
+      "ficha_es": "Cómo se forma el plural: los nombres en -o cambian a -i (libro → libri, amico → amici); los de -a, a -e (casa → case, ragazza → ragazze); los de -e, a -i (studente → studenti, nome → nomi). Nunca se agrega -s.\n\nCasos frecuentes: -ca y -ga cambian a -che y -ghe (amica → amiche, riga → righe); -cia y -gia pierden la i (arancia → arance, camicia → camicie es la excepción cuando la i se pronuncia). Los nombres con tilde y los cortos no cambian: la città → le città, il caffè → i caffè, il bar → i bar.\n\nEl artículo también cambia: il → i, lo → gli, la → le: i libri, gli studenti, le case.",
+      "readings": [
+        "rd_passatempi"
+      ],
+      "status": "active",
+      "explanation_es": "El plural italiano cambia la vocal final, no agrega -s: libro → libri, casa → case, amico → amici, studente → studenti. Los nombres en -o forman el plural en -i; los de -a, en -e; los de -e, en -i. Por eso «i libros» o «le casas» son errores típicos del español.",
+      "parts": {
+        "descubre": [
+          "s_5344867",
+          "s_2883964",
+          "s_2887406",
+          "s_3557698"
+        ],
+        "practica": [
+          "s_5344867",
+          "s_2883964",
+          "s_2887406",
+          "s_3557698",
+          "s_373502",
+          "s_8376999",
+          "s_1815018",
+          "s_1835905",
+          "s_2433190",
+          "s_2433244",
+          "s_5285442",
+          "s_701212",
+          "s_7809885",
+          "s_8916908",
+          "s_12509033",
+          "s_13303132",
+          "s_1331082",
+          "s_13732754",
+          "s_2433120",
+          "s_2553668",
+          "s_3015100",
+          "s_374392",
+          "s_4001812",
+          "s_5057746",
+          "s_5348174",
+          "s_5932782",
+          "s_759956",
+          "s_1652871",
+          "s_2196367",
+          "s_2556079",
+          "s_2701635",
+          "s_3878856",
+          "s_5104851",
+          "s_7025476",
+          "s_11396129",
+          "s_13593538",
+          "s_2950979",
+          "s_3790343",
+          "s_5423555",
+          "s_8376965"
+        ],
+        "escucha": [
+          "s_5344867",
+          "s_8376999",
+          "s_5285442",
+          "s_13303132",
+          "s_3015100",
+          "s_5932782",
+          "s_2701635",
+          "s_13593538"
+        ],
+        "prueba": [
+          "s_1117015",
+          "s_6733150",
+          "s_13297283",
+          "s_2950976",
+          "s_5104853",
+          "s_2433223",
+          "s_623184",
+          "s_4514284"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_5344867",
+          "start": 6,
+          "end": 10,
+          "wrong": "canos"
+        },
+        {
+          "id": "s_2883964",
+          "start": 6,
+          "end": 11,
+          "wrong": "libros"
+        },
+        {
+          "id": "s_2887406",
+          "start": 6,
+          "end": 11,
+          "wrong": "trenos"
+        },
+        {
+          "id": "s_3557698",
+          "start": 7,
+          "end": 11,
+          "wrong": "canos"
+        }
+      ]
+    },
+    {
       "id": "u55",
       "level": "A1",
       "title": "Un, uno, una, un': el artículo indefinido",
@@ -3228,6 +3377,275 @@
           "start": 11,
           "end": 15,
           "wrong": "giallo"
+        }
+      ]
+    },
+    {
+      "id": "u53",
+      "level": "A1",
+      "title": "Vocabulario: el idioma y el estudio",
+      "goal_es": "Frase, parola, lingua, pagina, voto, maestro… y «lingua» = idioma.",
+      "codes": [
+        "ERR_VOC_SCUOLA"
+      ],
+      "why_here": "Hablar de estudiar y de idiomas, con las nacionalidades ya vistas.",
+      "ficha_es": "El idioma y el estudio: lavagna, gomma, voto, corso, maestro, maestra, compagno, materia, testo, pagina, frase, parola, lingua, grammatica, traduzione, diploma, laurea. «Lingua» es el idioma y también la lengua del cuerpo.\n\n«Voto» es la nota de un examen (y también el voto político). «Laurea» es el título universitario. «Corso» es un curso.",
+      "words": [
+        {
+          "form": "lavagna",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la pizarra",
+          "audio": "2be96efab9be",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "gomma",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la goma de borrar",
+          "audio": "8603ffeb7e98",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "doble"
+        },
+        {
+          "form": "voto",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la nota",
+          "audio": "a2638b96dac7",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "corso",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el curso",
+          "audio": "f98b97e68df6",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "maestro",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el profesor de primaria",
+          "audio": "da92ec1b9c5a",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "maestra",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la profesora de primaria",
+          "audio": "65c6b5f35c3f",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "compagno",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el compañero",
+          "audio": "b95a00553f80",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "n-gn"
+        },
+        {
+          "form": "compagna",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la compañera",
+          "audio": "7e4806bd2bab",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "n-gn"
+        },
+        {
+          "form": "materia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la asignatura",
+          "audio": "f5c44c2be5af",
+          "art": "la",
+          "sieve": "transparente",
+          "note": "En Chile «materia» también es la asignatura o el contenido; la glosa usa «asignatura»."
+        },
+        {
+          "form": "testo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el texto",
+          "audio": "c0b333c1f24f",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "x-s"
+        },
+        {
+          "form": "pagina",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la página",
+          "audio": "7a872283c6d7",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "frase",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la oración",
+          "audio": "f3f42349f658",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "parola",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la palabra",
+          "audio": "83592796bc17",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "lingua",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el idioma",
+          "audio": "966140b149b5",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "grammatica",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la gramática",
+          "audio": "d33f7a2c4db1",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "doble"
+        },
+        {
+          "form": "traduzione",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la traducción",
+          "audio": "4be4e3eda32d",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "cion-zione"
+        },
+        {
+          "form": "diploma",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el diploma",
+          "audio": "c2a7adb21d9a",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "laurea",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el título universitario",
+          "audio": "abbfc36ee97e",
+          "art": "la",
+          "sieve": "opaca"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Lavagna, voto, corso, maestro, parola, frase, lingua… «Voto» es la nota de un examen (y también el voto político). «Lingua» es el idioma y también la lengua del cuerpo. «Laurea» es el título universitario.",
+      "parts": {
+        "descubre": [
+          "s_11879149",
+          "s_13383681",
+          "s_11717417",
+          "s_11717501"
+        ],
+        "practica": [
+          "s_11879149",
+          "s_13383681",
+          "s_11717417",
+          "s_11717501",
+          "s_13181861",
+          "s_1318413",
+          "s_6057500",
+          "s_10143656",
+          "s_11845197",
+          "s_1435701",
+          "s_1964319",
+          "s_3552519",
+          "s_11879150",
+          "s_5443751",
+          "s_836610",
+          "s_4711129",
+          "s_1516106",
+          "s_4406017",
+          "s_6111292",
+          "s_374060",
+          "s_571355",
+          "s_379708",
+          "s_758752",
+          "s_6069808",
+          "s_4107759",
+          "s_1075406",
+          "s_5021301",
+          "s_955204",
+          "s_2038714"
+        ],
+        "escucha": [
+          "s_11879149",
+          "s_11717501",
+          "s_6057500",
+          "s_1435701",
+          "s_11879150",
+          "s_4711129",
+          "s_6111292",
+          "s_379708"
+        ],
+        "prueba": [
+          "s_4461306",
+          "s_1435697",
+          "s_5932793",
+          "s_1064966",
+          "s_11460685",
+          "s_1528510",
+          "s_2006280",
+          "s_11463129"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_11879149",
+          "start": 6,
+          "end": 12,
+          "wrong": "materia"
+        },
+        {
+          "id": "s_13383681",
+          "start": 9,
+          "end": 14,
+          "wrong": "laurea"
+        },
+        {
+          "id": "s_11717417",
+          "start": 10,
+          "end": 16,
+          "wrong": "laurea"
+        },
+        {
+          "id": "s_11717501",
+          "start": 10,
+          "end": 16,
+          "wrong": "frase"
         }
       ]
     },
@@ -5593,6 +6011,239 @@
       ]
     },
     {
+      "id": "u48",
+      "level": "A1",
+      "title": "Vocabulario: higiene personal",
+      "goal_es": "Sapone, spazzolino, dentifricio, asciugamano, doccia, shampoo…",
+      "codes": [
+        "ERR_VOC_IGIENE"
+      ],
+      "why_here": "Hablar de tu rutina de aseo con los verbos de presente.",
+      "ficha_es": "Higiene personal: sapone, spazzolino, dentifricio, asciugamano, pettine, doccia, vasca, rasoio, shampoo, profumo, crema, deodorante, spazzola, trucco. Con estas palabras: fare la doccia (ducharse), lavarsi i denti (lavarse los dientes), pettinarsi.\n\n«Spazzolino» es el cepillo de dientes; «spazzola» es el del pelo. «Pettine» es el peine.",
+      "words": [
+        {
+          "form": "sapone",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el jabón",
+          "audio": "070128e28e6c",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "spazzolino",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el cepillo de dientes",
+          "audio": "fa64791a14f6",
+          "art": "lo",
+          "sieve": "opaca"
+        },
+        {
+          "form": "dentifricio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la pasta de dientes",
+          "audio": "d0f57bfccac5",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "asciugamano",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la toalla",
+          "audio": "339537f18034",
+          "art": "l'",
+          "sieve": "opaca"
+        },
+        {
+          "form": "pettine",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el peine",
+          "audio": "6e0280635933",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "doccia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la ducha",
+          "audio": "925256899a10",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "vasca",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la tina",
+          "audio": "6171e89b249d",
+          "art": "la",
+          "sieve": "opaca",
+          "note": "vasca significa 'tina/bañera'; en español 'vasca' es la mujer del País Vasco",
+          "ff": true
+        },
+        {
+          "form": "rasoio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la máquina de afeitar",
+          "audio": "f0e78ef62318",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "shampoo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el champú",
+          "audio": "3906b34397ea",
+          "art": "lo",
+          "sieve": "transparente"
+        },
+        {
+          "form": "profumo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el perfume",
+          "audio": "ed1a9da10707",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "crema",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la crema",
+          "audio": "16ea6726e1a7",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "deodorante",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el desodorante",
+          "audio": "409d629f0e5d",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "spazzola",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el cepillo del pelo",
+          "audio": "432157ee3445",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "trucco",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el maquillaje",
+          "audio": "e16e8c95e533",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "lavandino",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el lavamanos",
+          "audio": "34155befc838",
+          "art": "il",
+          "sieve": "opaca"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Sapone, spazzolino, dentifricio, asciugamano, doccia… «Spazzolino» es el cepillo de dientes; «spazzola», el del pelo. «Pettine» es el peine. En casa se usa el artículo: il sapone, lo spazzolino.",
+      "parts": {
+        "descubre": [
+          "s_4274574",
+          "s_2552654",
+          "s_2552662",
+          "s_3633820"
+        ],
+        "practica": [
+          "s_4274574",
+          "s_2552654",
+          "s_2552662",
+          "s_3633820",
+          "s_438936",
+          "s_5631083",
+          "s_6929161",
+          "s_5631086",
+          "s_11223979",
+          "s_13383815",
+          "s_634429",
+          "s_1334667",
+          "s_2037743",
+          "s_634428",
+          "s_3663113",
+          "s_3860649",
+          "s_2507556",
+          "s_1655830",
+          "s_6444792",
+          "s_5631109",
+          "s_10829534",
+          "s_1326352",
+          "s_4467951",
+          "s_5479258",
+          "s_12764320",
+          "s_1530299",
+          "s_1828186"
+        ],
+        "escucha": [
+          "s_4274574",
+          "s_3633820",
+          "s_6929161",
+          "s_13383815",
+          "s_2037743",
+          "s_3860649",
+          "s_6444792",
+          "s_1326352"
+        ],
+        "prueba": [
+          "s_1334666",
+          "s_390061",
+          "s_3256488",
+          "s_850480",
+          "s_4813430",
+          "s_8670188"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_4274574",
+          "start": 8,
+          "end": 14,
+          "wrong": "dentifricio"
+        },
+        {
+          "id": "s_2552654",
+          "start": 11,
+          "end": 17,
+          "wrong": "vasca"
+        },
+        {
+          "id": "s_2552662",
+          "start": 11,
+          "end": 17,
+          "wrong": "spazzola"
+        },
+        {
+          "id": "s_3633820",
+          "start": 3,
+          "end": 8,
+          "wrong": "doccia"
+        }
+      ]
+    },
+    {
       "id": "u16",
       "level": "A1",
       "title": "Andare, fare, stare, venire: vado, faccio",
@@ -6618,6 +7269,627 @@
           "start": 9,
           "end": 19,
           "wrong": "policiotto"
+        }
+      ]
+    },
+    {
+      "id": "u50",
+      "level": "A1",
+      "title": "Vocabulario: ideas y sentimientos",
+      "goal_es": "Amore, amicizia, idea, problema, verità, libertà… y su género (la verità, il problema).",
+      "codes": [
+        "ERR_VOC_ASTRATTI"
+      ],
+      "why_here": "Hablar de lo que piensas y sientes con las palabras más comunes.",
+      "ficha_es": "Ideas y sentimientos: amore, amicizia, idea, problema, storia, notizia, verità, sogno, gioia, vita, morte, pace, guerra, libertà, speranza, segreto, successo, errore. Las palabras terminadas en -ia, -tà, -zione son femeninas (la amicizia, la libertà); «problema» y «sistema» son masculinos aunque terminen en -a.\n\n«Storia» es historia y también cuento. «Sogno» es el sueño al dormir (no el sueño de dormir, que es «sonno»).",
+      "words": [
+        {
+          "form": "amore",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el amor",
+          "audio": "4e5823152492",
+          "art": "l'",
+          "sieve": "transparente"
+        },
+        {
+          "form": "amicizia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la amistad",
+          "audio": "82ad1b6ac3b8",
+          "art": "l'",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "amistad/amicizia: -istad ↔ -icizia"
+        },
+        {
+          "form": "idea",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la idea",
+          "audio": "766250612b00",
+          "art": "l'",
+          "sieve": "transparente"
+        },
+        {
+          "form": "problema",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el problema",
+          "audio": "c98484f0d20d",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "storia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la historia",
+          "audio": "dd843b25d2b5",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "notizia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la noticia",
+          "audio": "4015188a7003",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "verità",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la verdad",
+          "audio": "b7626e95baf2",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "dad-ta"
+        },
+        {
+          "form": "sogno",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el sueño (al soñar)",
+          "audio": "cac145c1b3fd",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "sueño→sogno: ue→o y n→gn"
+        },
+        {
+          "form": "gioia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la alegría",
+          "audio": "47fef1598a29",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "vita",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la vida",
+          "audio": "4f5c3486072c",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "morte",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la muerte",
+          "audio": "93eb97eb694d",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "ue-o"
+        },
+        {
+          "form": "pace",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la paz",
+          "audio": "4c1e65d64348",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "guerra",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la guerra",
+          "audio": "5128e013dd2c",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "libertà",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la libertad",
+          "audio": "6555093e3b5e",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "dad-ta"
+        },
+        {
+          "form": "speranza",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la esperanza",
+          "audio": "66d80b58c92d",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "segreto",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el secreto",
+          "audio": "eaf5a7f88ef0",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "successo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el éxito",
+          "audio": "e05eb57fb832",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "errore",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el error",
+          "audio": "00ea95d6d1ad",
+          "art": "l'",
+          "sieve": "transparente"
+        },
+        {
+          "form": "sorpresa",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la sorpresa",
+          "audio": "661104f7f835",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "bugia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la mentira",
+          "audio": "71fd79edd828",
+          "art": "la",
+          "sieve": "opaca",
+          "note": "Parece 'bujía' pero significa mentira",
+          "ff": true
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Amore, amicizia, idea, problema, storia, verità, libertà… Las palabras en -ia y -tà son femeninas (la amicizia, la libertà, la verità); «problema» y «sistema» son masculinos aunque terminen en -a: il problema.",
+      "parts": {
+        "descubre": [
+          "s_4485",
+          "s_4513254",
+          "s_1697390",
+          "s_1136232"
+        ],
+        "practica": [
+          "s_4485",
+          "s_4513254",
+          "s_1697390",
+          "s_1136232",
+          "s_1610237",
+          "s_707236",
+          "s_4387316",
+          "s_7610911",
+          "s_1279006",
+          "s_1653528",
+          "s_2395267",
+          "s_13108587",
+          "s_5403465",
+          "s_2217351",
+          "s_3883769",
+          "s_521401",
+          "s_386190",
+          "s_4711126",
+          "s_666750",
+          "s_3778730",
+          "s_890913",
+          "s_1512398",
+          "s_569259",
+          "s_634680"
+        ],
+        "escucha": [
+          "s_4485",
+          "s_1136232",
+          "s_4387316",
+          "s_1653528",
+          "s_5403465",
+          "s_521401",
+          "s_666750",
+          "s_1512398"
+        ],
+        "prueba": [
+          "s_1124849",
+          "s_2822073",
+          "s_3787217",
+          "s_2577045",
+          "s_2437315",
+          "s_3518897"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_4485",
+          "start": 10,
+          "end": 16,
+          "wrong": "speranza"
+        },
+        {
+          "id": "s_4513254",
+          "start": 10,
+          "end": 17,
+          "wrong": "successo"
+        },
+        {
+          "id": "s_1697390",
+          "start": 3,
+          "end": 7,
+          "wrong": "notizia"
+        },
+        {
+          "id": "s_1136232",
+          "start": 15,
+          "end": 19,
+          "wrong": "storia"
+        }
+      ]
+    },
+    {
+      "id": "u68",
+      "level": "A1",
+      "title": "Vocabulario: unir frases (e, ma, perché, quando)",
+      "goal_es": "Las palabras que unen frases: e, ma, o, perché, quando, anche, però, allora, poi, mentre, quindi.",
+      "codes": [
+        "ERR_VOC_CONNETTIVI"
+      ],
+      "why_here": "Con ellas pasas de frases sueltas a frases enlazadas, que es lo que se pide en escritura A1–A2.",
+      "ficha_es": "Estas palabras unen frases y cambian el sentido: e (y), ma (pero), o (o), anche (también), però (sin embargo), allora (entonces), mentre (mientras), quindi (por lo tanto).\n\nOjo con dos cosas: «e» es muy corta y casi no se oye (mangia e bevi), y «però» lleva tilde en la o. «Perché» (porque) y «quando» (cuando) también unen frases; las encuentras con los interrogativos.",
+      "words": [
+        {
+          "form": "e",
+          "gender": "-",
+          "num": "-",
+          "gloss": "y",
+          "audio": "58e6b3a414a1",
+          "sieve": "opaca"
+        },
+        {
+          "form": "ma",
+          "gender": "-",
+          "num": "-",
+          "gloss": "pero",
+          "audio": "1382244e1784",
+          "sieve": "transparente",
+          "note": "ma = mas/pero"
+        },
+        {
+          "form": "o",
+          "gender": "-",
+          "num": "-",
+          "gloss": "o",
+          "audio": "7a81af3e591a",
+          "sieve": "transparente"
+        },
+        {
+          "form": "anche",
+          "gender": "-",
+          "num": "-",
+          "gloss": "también",
+          "audio": "a7acee0e6010",
+          "sieve": "opaca"
+        },
+        {
+          "form": "però",
+          "gender": "-",
+          "num": "-",
+          "gloss": "sin embargo",
+          "audio": "bf95ec511112",
+          "sieve": "opaca",
+          "note": "però = pero, sin embargo; con tilde"
+        },
+        {
+          "form": "allora",
+          "gender": "-",
+          "num": "-",
+          "gloss": "entonces",
+          "audio": "65ecc9b68f2f",
+          "sieve": "opaca",
+          "note": "allora = entonces",
+          "ff": true
+        },
+        {
+          "form": "mentre",
+          "gender": "-",
+          "num": "-",
+          "gloss": "mientras",
+          "audio": "d55266d1aefc",
+          "sieve": "transparente",
+          "note": "mentre = mientras"
+        },
+        {
+          "form": "quindi",
+          "gender": "-",
+          "num": "-",
+          "gloss": "por lo tanto",
+          "audio": "fea4c17ba08c",
+          "sieve": "opaca",
+          "note": "quindi = por lo tanto"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Las palabras que unen frases: e (y), ma (pero), o (o), anche (también), però (sin embargo), allora (entonces), mentre (mientras), quindi (por lo tanto). «Perché» (porque) y «quando» (cuando) también unen frases, pero se estudian con las palabras para preguntar (unidad de interrogativos). Ojo: «e» se escribe y se oye muy corta; «però» lleva tilde.",
+      "parts": {
+        "descubre": [
+          "s_3658996",
+          "s_3010945",
+          "s_8828759",
+          "s_3010949"
+        ],
+        "practica": [
+          "s_3658996",
+          "s_3010945",
+          "s_8828759",
+          "s_3010949",
+          "s_633453",
+          "s_1260009",
+          "s_1311084",
+          "s_1559767",
+          "s_2302237",
+          "s_3010940",
+          "s_1211841",
+          "s_1710297",
+          "s_1710302",
+          "s_1974598",
+          "s_3544259",
+          "s_1124292",
+          "s_14025427",
+          "s_2617671",
+          "s_4377966",
+          "s_4511706",
+          "s_5085173",
+          "s_8803542",
+          "s_2160049",
+          "s_2168488",
+          "s_2515113",
+          "s_4140535",
+          "s_10214882"
+        ],
+        "escucha": [
+          "s_3658996",
+          "s_3010949",
+          "s_1311084",
+          "s_3010940",
+          "s_1710302",
+          "s_1124292",
+          "s_4377966",
+          "s_8803542"
+        ],
+        "prueba": [
+          "s_3010935",
+          "s_810560",
+          "s_3010961",
+          "s_2302238",
+          "s_735512",
+          "s_3533012"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_3658996",
+          "start": 0,
+          "end": 2,
+          "wrong": "E"
+        },
+        {
+          "id": "s_3010945",
+          "start": 0,
+          "end": 2,
+          "wrong": "Anche"
+        },
+        {
+          "id": "s_8828759",
+          "start": 5,
+          "end": 6,
+          "wrong": "mentre"
+        },
+        {
+          "id": "s_3010949",
+          "start": 0,
+          "end": 2,
+          "wrong": "Quindi"
+        }
+      ]
+    },
+    {
+      "id": "u69",
+      "level": "A1",
+      "title": "Vocabulario: acuerdo y duda (certo, forse, d'accordo)",
+      "goal_es": "Para estar de acuerdo, dudar o reaccionar: certo, d'accordo, esatto, forse, magari, volentieri, purtroppo.",
+      "codes": [
+        "ERR_VOC_ACCORDO"
+      ],
+      "why_here": "El programa de A1 pide expresar acuerdo, desacuerdo y duda de forma sencilla.",
+      "ficha_es": "Para reaccionar: certo (claro), d'accordo (de acuerdo), esatto (exacto), ovviamente y naturalmente (obviamente), volentieri (con gusto). Para dudar: forse (quizás) y magari (ojalá, quizás). Para lamentar: purtroppo (lamentablemente).\n\nSe usan solas o al comienzo de la frase: Forse hai ragione. Sono d'accordo. Ti aiuto volentieri.",
+      "words": [
+        {
+          "form": "certo",
+          "gender": "-",
+          "num": "-",
+          "gloss": "claro",
+          "audio": "17c0d0e4a111",
+          "sieve": "transparente",
+          "note": "certo = cierto, claro"
+        },
+        {
+          "form": "forse",
+          "gender": "-",
+          "num": "-",
+          "gloss": "quizás",
+          "audio": "0917f08b208c",
+          "sieve": "opaca",
+          "note": "forse = quizás"
+        },
+        {
+          "form": "purtroppo",
+          "gender": "-",
+          "num": "-",
+          "gloss": "lamentablemente",
+          "audio": "2dbcdbd168de",
+          "sieve": "opaca",
+          "note": "purtroppo = lamentablemente"
+        },
+        {
+          "form": "volentieri",
+          "gender": "-",
+          "num": "-",
+          "gloss": "con gusto",
+          "audio": "5dc7594669a1",
+          "sieve": "opaca",
+          "note": "volentieri = con gusto"
+        },
+        {
+          "form": "naturalmente",
+          "gender": "-",
+          "num": "-",
+          "gloss": "naturalmente",
+          "audio": "a08cb114ca7c",
+          "sieve": "transparente"
+        },
+        {
+          "form": "magari",
+          "gender": "-",
+          "num": "-",
+          "gloss": "ojalá",
+          "audio": "79318648248a",
+          "sieve": "opaca",
+          "note": "magari = ojalá / quizás"
+        },
+        {
+          "form": "ovviamente",
+          "gender": "-",
+          "num": "-",
+          "gloss": "obviamente",
+          "audio": "546bb823a59e",
+          "sieve": "transparente"
+        },
+        {
+          "form": "esatto",
+          "gender": "-",
+          "num": "-",
+          "gloss": "exacto",
+          "audio": "768c2ff106f8",
+          "sieve": "transparente",
+          "note": "esatto = exacto"
+        },
+        {
+          "form": "accordo",
+          "gender": "-",
+          "num": "-",
+          "gloss": "acuerdo (d'accordo)",
+          "audio": "4639d292d610",
+          "sieve": "transparente",
+          "note": "d'accordo = de acuerdo"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Para estar de acuerdo, dudar o reaccionar: certo (claro), d'accordo (de acuerdo), esatto (exacto), ovviamente y naturalmente (obviamente), forse (quizás), magari (ojalá, quizás), volentieri (con gusto), purtroppo (lamentablemente). «Sì» lleva tilde; sin tilde, «si» es otra palabra.",
+      "parts": {
+        "descubre": [
+          "s_1067466",
+          "s_5902796",
+          "s_866991",
+          "s_335152"
+        ],
+        "practica": [
+          "s_1067466",
+          "s_5902796",
+          "s_866991",
+          "s_335152",
+          "s_1067464",
+          "s_2191248",
+          "s_2557062",
+          "s_3090822",
+          "s_3998952",
+          "s_4507623",
+          "s_6921816",
+          "s_8387263",
+          "s_2808376",
+          "s_414470",
+          "s_1300996",
+          "s_1308226",
+          "s_3090824",
+          "s_3393448",
+          "s_2704282",
+          "s_3264084",
+          "s_5452977",
+          "s_8737899",
+          "s_13661785",
+          "s_718082",
+          "s_9036047"
+        ],
+        "escucha": [
+          "s_1067466",
+          "s_335152",
+          "s_2557062",
+          "s_4507623",
+          "s_2808376",
+          "s_1308226",
+          "s_2704282",
+          "s_8737899"
+        ],
+        "prueba": [
+          "s_2500270",
+          "s_5829668",
+          "s_2916504",
+          "s_2193801",
+          "s_3535118",
+          "s_1689002"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1067466",
+          "start": 4,
+          "end": 11,
+          "wrong": "naturalmente"
+        },
+        {
+          "id": "s_5902796",
+          "start": 0,
+          "end": 5,
+          "wrong": "Volentieri"
+        },
+        {
+          "id": "s_866991",
+          "start": 0,
+          "end": 5,
+          "wrong": "Accordo"
+        },
+        {
+          "id": "s_335152",
+          "start": 7,
+          "end": 14,
+          "wrong": "certo"
         }
       ]
     },
@@ -7944,6 +9216,530 @@
       "reading_is_entry": true
     },
     {
+      "id": "u34",
+      "level": "A1",
+      "title": "Vocabulario: transportes y viajes",
+      "goal_es": "Treno, autobus, aereo, macchina, biglietto, fermata… y «in treno», «in macchina», pero «a piedi».",
+      "codes": [
+        "ERR_VOC_TRASPORTI"
+      ],
+      "why_here": "Moverte por la ciudad y viajar, con las preposiciones de lugar ya vistas.",
+      "ficha_es": "Transportes y viaje: treno, autobus, aereo, macchina, bicicletta, biglietto, fermata, binario, nave, valigia, passaporto, viaggio, traffico. Se viaja in treno, in autobus, in macchina, in aereo (con «in»), pero a piedi.\n\n«Biglietto» es el boleto o la entrada. «Macchina» es el auto (también «automobile»). «Il treno parte dal binario 3»: el binario es el andén.",
+      "words": [
+        {
+          "form": "treno",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el tren",
+          "audio": "28bba2ca634e",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "treni",
+          "gender": "m",
+          "num": "p",
+          "gloss": "los trenes",
+          "audio": "e744857b080d",
+          "art": "i",
+          "sieve": "transparente"
+        },
+        {
+          "form": "autobus",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el autobús",
+          "audio": "016ccee7270f",
+          "art": "l'",
+          "sieve": "transparente"
+        },
+        {
+          "form": "aereo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el avión",
+          "audio": "85206cf3e3a3",
+          "art": "l'",
+          "sieve": "opaca"
+        },
+        {
+          "form": "macchina",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el auto",
+          "audio": "f0f081d29aa8",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "macchine",
+          "gender": "f",
+          "num": "p",
+          "gloss": "los autos",
+          "audio": "b7613e783b17",
+          "art": "le",
+          "sieve": "opaca"
+        },
+        {
+          "form": "automobile",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el automóvil",
+          "audio": "e37e19ee167e",
+          "art": "l'",
+          "gdiv": true,
+          "sieve": "transparente"
+        },
+        {
+          "form": "bicicletta",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la bicicleta",
+          "audio": "b087e372acbf",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "moto",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la moto",
+          "audio": "1f7f1c7a647c",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "taxi",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el taxi",
+          "audio": "4d82205a2028",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "metropolitana",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el metro",
+          "audio": "178460c35fc8",
+          "art": "la",
+          "gdiv": true,
+          "sieve": "opaca",
+          "note": "Abreviatura de «ferrovia metropolitana»; el español dice «metro»."
+        },
+        {
+          "form": "biglietto",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el boleto",
+          "audio": "8fa0556f6bd5",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "biglietti",
+          "gender": "m",
+          "num": "p",
+          "gloss": "los boletos",
+          "audio": "0f4150a729a8",
+          "art": "i",
+          "sieve": "opaca"
+        },
+        {
+          "form": "fermata",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la parada",
+          "audio": "184ced9da209",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "binario",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el andén",
+          "audio": "008673cffe7e",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "nave",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el barco",
+          "audio": "eee8cf25f346",
+          "art": "la",
+          "sieve": "opaca",
+          "note": "Existe «nave» en español (embarcación grande), pero la glosa es «barco»."
+        },
+        {
+          "form": "barca",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el bote",
+          "audio": "f1e4b810f053",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "camion",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el camión",
+          "audio": "7a3d21e3cf43",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "viaggio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el viaje",
+          "audio": "e854436bc639",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "viaggi",
+          "gender": "m",
+          "num": "p",
+          "gloss": "los viajes",
+          "audio": "7ffe545bb148",
+          "art": "i",
+          "sieve": "transparente"
+        },
+        {
+          "form": "valigia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la maleta",
+          "audio": "b58963587dcc",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "passaporto",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el pasaporte",
+          "audio": "e28efd074889",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "traffico",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el tráfico",
+          "audio": "18ff7fc59fb3",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "benzina",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la bencina",
+          "audio": "e93bc628c36f",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "semaforo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el semáforo",
+          "audio": "12811686a198",
+          "art": "il",
+          "sieve": "transparente"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Treno, autobus, aereo, macchina, bicicletta, biglietto, fermata… Se viaja «in treno», «in autobus», «in macchina», «in aereo» (con «in»), pero «a piedi». Biglietto es el boleto (de transporte o la entrada).",
+      "parts": {
+        "descubre": [
+          "s_1490161",
+          "s_5829282",
+          "s_2422702",
+          "s_11722159"
+        ],
+        "practica": [
+          "s_1490161",
+          "s_5829282",
+          "s_2422702",
+          "s_11722159",
+          "s_1990123",
+          "s_378850",
+          "s_4536428",
+          "s_3361717",
+          "s_1257658",
+          "s_1701563",
+          "s_2286944",
+          "s_2859883",
+          "s_2917306",
+          "s_1701558",
+          "s_388482",
+          "s_4503480",
+          "s_4565946",
+          "s_876862",
+          "s_1103424",
+          "s_726372",
+          "s_2020018",
+          "s_791339",
+          "s_2028811",
+          "s_2916132",
+          "s_795228",
+          "s_1132156",
+          "s_4918210"
+        ],
+        "escucha": [
+          "s_1490161",
+          "s_11722159",
+          "s_4536428",
+          "s_1701563",
+          "s_2917306",
+          "s_4503480",
+          "s_1103424",
+          "s_791339"
+        ],
+        "prueba": [
+          "s_1256379",
+          "s_12559888",
+          "s_5709386",
+          "s_378847",
+          "s_7579645",
+          "s_990389",
+          "s_2810519",
+          "s_3475325"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1490161",
+          "start": 6,
+          "end": 11,
+          "wrong": "binario"
+        },
+        {
+          "id": "s_5829282",
+          "start": 7,
+          "end": 12,
+          "wrong": "valigia"
+        },
+        {
+          "id": "s_2422702",
+          "start": 9,
+          "end": 13,
+          "wrong": "passaporto"
+        },
+        {
+          "id": "s_11722159",
+          "start": 10,
+          "end": 14,
+          "wrong": "biglietto"
+        }
+      ]
+    },
+    {
+      "id": "u70",
+      "level": "A1",
+      "title": "Vocabulario: preposiciones (di, da, con, su, per, tra)",
+      "goal_es": "Las preposiciones simples: di, da, con, su, per, tra, fra, senza, sopra, sotto, dentro, fuori, davanti, dietro.",
+      "codes": [
+        "ERR_VOC_PREPOSIZIONI"
+      ],
+      "why_here": "Completa a / in (u05) y las contracciones (u06): «de», «desde», «sobre», «para» y «por» no se reparten igual que en español.",
+      "ficha_es": "di (de: la casa di Tom), da (desde y a casa de: vengo da Roma, vado da Marco), con (con), su (sobre: sul tavolo), per (para y por: è per te), tra y fra (entre: tra noi), senza (sin), verso (hacia) y contro (contra).\n\nOjo: «de» no siempre es di; «desde» y «a casa de» son da; «para» y «por» son per; y «en» casi nunca es su: se usa in o a (unidad de a / in).",
+      "words": [
+        {
+          "form": "di",
+          "gender": "-",
+          "num": "-",
+          "gloss": "de",
+          "audio": "f502e82c25bb",
+          "sieve": "transparente",
+          "note": "di = de"
+        },
+        {
+          "form": "da",
+          "gender": "-",
+          "num": "-",
+          "gloss": "desde o donde",
+          "audio": "cdd4f8740950",
+          "sieve": "opaca",
+          "note": "da = desde, de origen, a casa de, por (agente)"
+        },
+        {
+          "form": "con",
+          "gender": "-",
+          "num": "-",
+          "gloss": "con",
+          "audio": "b1f6e510eb0f",
+          "sieve": "transparente",
+          "note": "con = con"
+        },
+        {
+          "form": "su",
+          "gender": "-",
+          "num": "-",
+          "gloss": "sobre",
+          "audio": "363eb224f6ff",
+          "sieve": "opaca",
+          "note": "su = sobre, en"
+        },
+        {
+          "form": "per",
+          "gender": "-",
+          "num": "-",
+          "gloss": "para o por",
+          "audio": "8205aed0c460",
+          "sieve": "transparente",
+          "note": "per = para, por"
+        },
+        {
+          "form": "tra",
+          "gender": "-",
+          "num": "-",
+          "gloss": "entre",
+          "audio": "3be48e13e9b3",
+          "sieve": "transparente",
+          "note": "tra = entre"
+        },
+        {
+          "form": "fra",
+          "gender": "-",
+          "num": "-",
+          "gloss": "entre (otra forma de tra)",
+          "audio": "295be00462fa",
+          "sieve": "transparente",
+          "note": "fra = entre"
+        },
+        {
+          "form": "senza",
+          "gender": "-",
+          "num": "-",
+          "gloss": "sin",
+          "audio": "781e07ef7ba2",
+          "sieve": "transparente",
+          "note": "senza = sin"
+        },
+        {
+          "form": "verso",
+          "gender": "-",
+          "num": "-",
+          "gloss": "hacia",
+          "audio": "b72825070900",
+          "sieve": "transparente",
+          "note": "verso = hacia"
+        },
+        {
+          "form": "contro",
+          "gender": "-",
+          "num": "-",
+          "gloss": "contra",
+          "audio": "39db24e78225",
+          "sieve": "transparente",
+          "note": "contro = contra"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Las preposiciones simples: di (de), da (desde, de origen, a casa de), con, su (sobre, en), per (para, por), tra y fra (entre), senza (sin), verso (hacia), contro (contra). Las de lugar (sopra, sotto, dentro, fuori, davanti, dietro) están con las direcciones. Ojo: «de/desde» se reparte entre di y da; «para y por» son per; «sobre la mesa» es «sulla tavola» (su + la).",
+      "parts": {
+        "descubre": [
+          "s_2352408",
+          "s_2908216",
+          "s_4272775",
+          "s_4528"
+        ],
+        "practica": [
+          "s_2352408",
+          "s_2908216",
+          "s_4272775",
+          "s_4528",
+          "s_13896766",
+          "s_3506749",
+          "s_3775496",
+          "s_6168379",
+          "s_8502702",
+          "s_1250882",
+          "s_5285423",
+          "s_6775261",
+          "s_7053245",
+          "s_1003819",
+          "s_1332784",
+          "s_1335831",
+          "s_1438708",
+          "s_1538636",
+          "s_2020812",
+          "s_2515187",
+          "s_2924177",
+          "s_3230255",
+          "s_3842576",
+          "s_4070688",
+          "s_4269068",
+          "s_4463664",
+          "s_7053244",
+          "s_861971",
+          "s_10151754",
+          "s_1086424",
+          "s_4150324",
+          "s_4427",
+          "s_611924",
+          "s_6738414",
+          "s_2511290",
+          "s_3549242"
+        ],
+        "escucha": [
+          "s_2352408",
+          "s_13896766",
+          "s_8502702",
+          "s_7053245",
+          "s_1438708",
+          "s_2924177",
+          "s_4269068",
+          "s_10151754"
+        ],
+        "prueba": [
+          "s_3775495",
+          "s_4407275",
+          "s_1238994",
+          "s_1700888",
+          "s_3352346",
+          "s_5412285",
+          "s_374434",
+          "s_954960"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2352408",
+          "start": 2,
+          "end": 5,
+          "wrong": "di"
+        },
+        {
+          "id": "s_2908216",
+          "start": 2,
+          "end": 4,
+          "wrong": "con"
+        },
+        {
+          "id": "s_4272775",
+          "start": 2,
+          "end": 5,
+          "wrong": "su"
+        },
+        {
+          "id": "s_4528",
+          "start": 0,
+          "end": 2,
+          "wrong": "Contro"
+        }
+      ]
+    },
+    {
       "id": "u22",
       "level": "A1",
       "title": "Vocabulario: comida y bebida",
@@ -9250,6 +11046,553 @@
           "start": 14,
           "end": 21,
           "wrong": "dolari"
+        }
+      ]
+    },
+    {
+      "id": "u46",
+      "level": "A1",
+      "title": "Vocabulario: frutas, verduras y condimentos",
+      "goal_es": "Patata, cipolla, fragola, uva, sale, pepe, funghi… y su género.",
+      "codes": [
+        "ERR_VOC_FRUTTA"
+      ],
+      "why_here": "Pedir y cocinar con la comida básica ya vista.",
+      "ficha_es": "Frutas, verduras y condimentos: patata, cipolla, carota, fragola, uva, banana, noce, miele, marmellata, sale, pepe, aceto, panna, fagioli, funghi, spinaci. «Patata» y «cipolla» son femeninas; «sale» y «pepe» son masculinos.\n\n«Fagioli», «funghi» y «spinaci» se usan casi siempre en plural. «Panna» es la crema de leche; «marmellata» es la mermelada.",
+      "words": [
+        {
+          "form": "patata",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la papa",
+          "audio": "be949382d8ca",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "patate",
+          "gender": "f",
+          "num": "p",
+          "gloss": "las papas",
+          "audio": "d311b1c8e5fe",
+          "art": "le",
+          "sieve": "opaca"
+        },
+        {
+          "form": "cipolla",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la cebolla",
+          "audio": "1d9365b91c6e",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "cebolla/cipolla: b→p"
+        },
+        {
+          "form": "carota",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la zanahoria",
+          "audio": "8181c520aa2f",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "fragola",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la frutilla",
+          "audio": "d5d7b3a6c1e5",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "uva",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la uva",
+          "audio": "2d2c2a1400d9",
+          "art": "l'",
+          "sieve": "transparente"
+        },
+        {
+          "form": "banana",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el plátano",
+          "audio": "250e77f12a5a",
+          "art": "la",
+          "sieve": "transparente",
+          "note": "'banana' se usa también en español"
+        },
+        {
+          "form": "noce",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la nuez",
+          "audio": "474e8f3b08b1",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "ue-o"
+        },
+        {
+          "form": "miele",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la miel",
+          "audio": "b11df8776e32",
+          "art": "il",
+          "gdiv": true,
+          "sieve": "transparente"
+        },
+        {
+          "form": "marmellata",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la mermelada",
+          "audio": "f1f73161f007",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "sale",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la sal",
+          "audio": "5b8a763b5451",
+          "art": "il",
+          "gdiv": true,
+          "sieve": "transparente"
+        },
+        {
+          "form": "pepe",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la pimienta",
+          "audio": "265392dc2782",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "aceto",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el vinagre",
+          "audio": "5d9c652337a9",
+          "art": "l'",
+          "sieve": "opaca",
+          "note": "Parece 'aceite' pero significa vinagre; aceite = olio",
+          "ff": true
+        },
+        {
+          "form": "panna",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la crema de leche",
+          "audio": "fcba1509dec7",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "fagioli",
+          "gender": "m",
+          "num": "p",
+          "gloss": "los porotos",
+          "audio": "8ed94e839899",
+          "art": "i",
+          "sieve": "opaca"
+        },
+        {
+          "form": "funghi",
+          "gender": "m",
+          "num": "p",
+          "gloss": "los champiñones",
+          "audio": "3f54d69950ad",
+          "art": "i",
+          "sieve": "opaca"
+        },
+        {
+          "form": "spinaci",
+          "gender": "m",
+          "num": "p",
+          "gloss": "las espinacas",
+          "audio": "3a5f58da3c12",
+          "art": "gli",
+          "gdiv": true,
+          "sieve": "transparente"
+        },
+        {
+          "form": "tonno",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el atún",
+          "audio": "c599d8f6545a",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "salame",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el salame",
+          "audio": "7c1947a0acc7",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "yogurt",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el yogur",
+          "audio": "7a7453043a7d",
+          "art": "lo",
+          "sieve": "transparente"
+        },
+        {
+          "form": "ciliegia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la cereza",
+          "audio": "9ed636860040",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "melone",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el melón",
+          "audio": "c29f7f5e6935",
+          "art": "il",
+          "sieve": "transparente"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Patata, cipolla, fragola, uva, sale, pepe, funghi… «Patata» y «cipolla» son femeninas; «sale» y «pepe» son masculinos. «Fagioli», «funghi» y «spinaci» se usan casi siempre en plural.",
+      "parts": {
+        "descubre": [
+          "s_840498",
+          "s_9690082",
+          "s_2393377",
+          "s_5690089"
+        ],
+        "practica": [
+          "s_840498",
+          "s_9690082",
+          "s_2393377",
+          "s_5690089",
+          "s_475700",
+          "s_10653833",
+          "s_1143114",
+          "s_13982818",
+          "s_3317612",
+          "s_12922292",
+          "s_13326956",
+          "s_3324824",
+          "s_426480",
+          "s_13282035",
+          "s_11862013",
+          "s_2196048",
+          "s_671771",
+          "s_7037817",
+          "s_2689499",
+          "s_13186217",
+          "s_3437336",
+          "s_5214424",
+          "s_5633830",
+          "s_824694",
+          "s_4864166",
+          "s_1491084",
+          "s_3437335"
+        ],
+        "escucha": [
+          "s_840498",
+          "s_5690089",
+          "s_1143114",
+          "s_12922292",
+          "s_426480",
+          "s_2196048",
+          "s_2689499",
+          "s_5214424"
+        ],
+        "prueba": [
+          "s_8786466",
+          "s_2478269",
+          "s_1831111",
+          "s_10798391",
+          "s_3555315",
+          "s_13982317",
+          "s_995553",
+          "s_1310084"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_840498",
+          "start": 8,
+          "end": 12,
+          "wrong": "melone"
+        },
+        {
+          "id": "s_9690082",
+          "start": 8,
+          "end": 13,
+          "wrong": "pepe"
+        },
+        {
+          "id": "s_2393377",
+          "start": 10,
+          "end": 14,
+          "wrong": "melone"
+        },
+        {
+          "id": "s_5690089",
+          "start": 9,
+          "end": 15,
+          "wrong": "marmellata"
+        }
+      ]
+    },
+    {
+      "id": "u52",
+      "level": "A1",
+      "title": "Vocabulario: la cocina y las comidas",
+      "goal_es": "Pentola, forno, cibo, cena, pranzo, sapore… y «cena» como sustantivo y como verbo.",
+      "codes": [
+        "ERR_VOC_CUCINA"
+      ],
+      "why_here": "Hablar de cocinar y comer, con la comida ya vista.",
+      "ficha_es": "La cocina y las comidas: pentola, padella, cucchiaino, tovaglia, frigorifero, forno, fornello, lavastoviglie, cibo, spuntino, porzione, ingrediente, sapore, cena, pranzo. La «pentola» es la olla y la «padella», la sartén.\n\n«Cena» (la cena) y «pranzo» (el almuerzo) son también formas verbales: io ceno, io pranzo. «Forno» es el horno y también la panadería.",
+      "words": [
+        {
+          "form": "pentola",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la olla",
+          "audio": "8fd0eb75387e",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "padella",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la sartén",
+          "audio": "a806d7f9b769",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "cucchiaino",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la cucharita",
+          "audio": "4e1ee16659b6",
+          "art": "il",
+          "gdiv": true,
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "cuchara/cucchiaio: ch→cch"
+        },
+        {
+          "form": "tovaglia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el mantel",
+          "audio": "2ed0911662f5",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "frigorifero",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el refrigerador",
+          "audio": "f5b29df6b668",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "forno",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el horno",
+          "audio": "1912344af13f",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "h-f"
+        },
+        {
+          "form": "fornello",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la hornalla",
+          "audio": "13404a897cd9",
+          "art": "il",
+          "gdiv": true,
+          "sieve": "regular",
+          "rule": "h-f"
+        },
+        {
+          "form": "lavastoviglie",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el lavavajillas",
+          "audio": "ad86eb4e5f57",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "cibo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la comida",
+          "audio": "faaa1e0ac25f",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "spuntino",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la colación",
+          "audio": "2fc85682e66c",
+          "art": "lo",
+          "sieve": "opaca"
+        },
+        {
+          "form": "porzione",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la porción",
+          "audio": "1350fce96db5",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "cion-zione"
+        },
+        {
+          "form": "ingrediente",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el ingrediente",
+          "audio": "c69313b2ab9d",
+          "art": "l'",
+          "sieve": "transparente"
+        },
+        {
+          "form": "sapore",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el sabor",
+          "audio": "f604f2e06d20",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "cena",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la cena",
+          "audio": "62e5582aace0",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "pranzo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el almuerzo",
+          "audio": "89f261d63fdb",
+          "art": "il",
+          "sieve": "opaca"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Pentola, padella, forno, frigorifero, tovaglia… La «pentola» es la olla y la «padella», la sartén. «Forno» es el horno y también la panadería. «Cena» (la cena) y «pranzo» (el almuerzo) son sustantivos y también formas verbales: io ceno, io pranzo.",
+      "parts": {
+        "descubre": [
+          "s_2556081",
+          "s_2523788",
+          "s_4236216",
+          "s_719736"
+        ],
+        "practica": [
+          "s_2556081",
+          "s_2523788",
+          "s_4236216",
+          "s_719736",
+          "s_2893529",
+          "s_5492025",
+          "s_2126412",
+          "s_6551084",
+          "s_1966417",
+          "s_691465",
+          "s_2512421",
+          "s_3357987",
+          "s_1322188",
+          "s_399109",
+          "s_1261712",
+          "s_10145527",
+          "s_10779675",
+          "s_5162345",
+          "s_5542567",
+          "s_999974",
+          "s_11095856",
+          "s_3408341",
+          "s_4908930",
+          "s_3028365",
+          "s_1730298",
+          "s_2268210",
+          "s_5346626",
+          "s_6766324",
+          "s_569347"
+        ],
+        "escucha": [
+          "s_2556081",
+          "s_719736",
+          "s_2126412",
+          "s_691465",
+          "s_1322188",
+          "s_10145527",
+          "s_5542567",
+          "s_3408341"
+        ],
+        "prueba": [
+          "s_12784340",
+          "s_2252441",
+          "s_716973",
+          "s_996806",
+          "s_5098701",
+          "s_1859910",
+          "s_948351",
+          "s_1274677"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2556081",
+          "start": 7,
+          "end": 11,
+          "wrong": "fornello"
+        },
+        {
+          "id": "s_2523788",
+          "start": 8,
+          "end": 12,
+          "wrong": "sapore"
+        },
+        {
+          "id": "s_4236216",
+          "start": 9,
+          "end": 13,
+          "wrong": "pranzo"
+        },
+        {
+          "id": "s_719736",
+          "start": 7,
+          "end": 13,
+          "wrong": "cucchiaino"
         }
       ]
     },
@@ -11549,100 +13892,530 @@
       ]
     },
     {
-      "id": "u62",
+      "id": "u43",
       "level": "A1",
-      "title": "Imperativo: apri, chiudi, leggi",
-      "goal_es": "Imperativo de tú: parla (-are) y leggi, apri (-ere/-ire, como el presente de «tu»); el español usa «lee, abre».",
+      "title": "Vocabulario: la salud",
+      "goal_es": "Salute, febbre, tosse, dolore, malattia… y «ho paura», «ho sonno», «ho fame» con avere.",
       "codes": [
-        "ERR_IMPERATIVO_FORMA"
+        "ERR_VOC_SALUTE"
       ],
-      "why_here": "Dar instrucciones sencillas, con los verbos de presente ya vistos.",
-      "ficha_es": "El imperativo de «tu» de los verbos en -are termina en -a: parla, guarda, mangia, aspetta. Los verbos en -ere y en -ire usan la misma forma de «tu» del presente: leggi, scrivi, apri, chiudi, dormi, finisci.\n\nEl español usa -e en esos verbos (lee, escribe, abre): en italiano «apre» sería «él abre», no el mandato. Irregulares: va' (o vai), fa' (o fai), da' (o dai), di', sta' (o stai). El negativo con «tu» es non + infinitivo: non parlare! (el español dice «no hables»); con noi y voi, non + presente. Fuente: Piacere! (Univ. de Iowa), capítulo «Imperativo (tu, noi, voi)».",
-      "readings": [
-        "rd_professore"
+      "why_here": "Decir cómo te sientes, con tener/avere y el cuerpo ya vistos.",
+      "ficha_es": "La salud: salute, febbre, tosse, dolore, malattia, raffreddore, influenza, medicina, pastiglia, ricetta, ambulanza, ferita, visita, paziente. Con avere: ho la febbre, ho la tosse, ho mal di testa, ho fame, ho sete, ho sonno, ho paura.\n\nPara el dolor: mi fa male la testa, ho mal di testa o ho male alla testa (me duele la cabeza). «Medicina» es el remedio y también la carrera.",
+      "words": [
+        {
+          "form": "salute",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la salud",
+          "audio": "17040e920885",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "malattia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la enfermedad",
+          "audio": "564ea3fba55f",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "febbre",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la fiebre",
+          "audio": "2f96e364fdec",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "ie-e",
+          "note": "fiebre→febbre; además -bb- doble"
+        },
+        {
+          "form": "tosse",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la tos",
+          "audio": "03e72727f79d",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "raffreddore",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el resfriado",
+          "audio": "bda4346a9cbd",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "influenza",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la gripe",
+          "audio": "0b35bcd730d7",
+          "art": "l'",
+          "sieve": "opaca"
+        },
+        {
+          "form": "medicina",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el remedio",
+          "audio": "5a64faf73bc1",
+          "art": "la",
+          "sieve": "opaca",
+          "note": "Existe «medicina» en español; la glosa del curso es «remedio» (en italiano «medicina» también es remedio, parentesco claro)."
+        },
+        {
+          "form": "pastiglia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la pastilla",
+          "audio": "e86b8269f3d8",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "ll→gli (pastilla→pastiglia)."
+        },
+        {
+          "form": "dolore",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el dolor",
+          "audio": "61b0767ab5db",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "ricetta",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la receta",
+          "audio": "8662e9dd35f3",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "ambulanza",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la ambulancia",
+          "audio": "2e4030f9e8ca",
+          "art": "l'",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "-ancia→-anza"
+        },
+        {
+          "form": "ferita",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la herida",
+          "audio": "c3df60e609c3",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "h-f"
+        },
+        {
+          "form": "visita",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la consulta",
+          "audio": "7927ca912a7e",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "paziente",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el paciente",
+          "audio": "ad829b10941b",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "sonno",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el sueño",
+          "audio": "68a16a62cc21",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "ue-o"
+        },
+        {
+          "form": "sete",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la sed",
+          "audio": "0f961cd8aca6",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "d final→t con -e: sed→sete"
+        },
+        {
+          "form": "fame",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el hambre",
+          "audio": "4a43d29dc895",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "h-f"
+        },
+        {
+          "form": "paura",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el miedo",
+          "audio": "04fe877d6dc8",
+          "art": "la",
+          "sieve": "opaca"
+        }
       ],
       "status": "active",
-      "explanation_es": "Imperativo de tú: los verbos en -are terminan en -a (parla, guarda, mangia); los de -ere e -ire usan la forma de «tu» del presente: leggi, scrivi, apri, dormi. El español usa -e (lee, abre, escribe): «apre!» en italiano sería «él abre». Irregulares: va' (vai), fa' (fai), da' (dai), di', sta' (stai). Negativo: non + infinitivo (non parlare!), no como el español «no hables».",
+      "explanation_es": "Salute, febbre, tosse, dolore, malattia… «Ho la febbre» (tengo fiebre), «ho mal di testa» (me duele la cabeza), «ho fame», «ho sete», «ho sonno», «ho paura»: con avere, como el tener español.",
       "parts": {
         "descubre": [
-          "s_13287192",
-          "s_11710396",
-          "s_11460842",
-          "s_4230082"
+          "s_1764209",
+          "s_1260282",
+          "s_1513462",
+          "s_2180742"
         ],
         "practica": [
-          "s_13287192",
-          "s_11710396",
-          "s_11460842",
-          "s_4230082",
-          "s_6007453",
-          "s_1598274",
-          "s_4587424",
-          "s_5347958",
-          "s_6114456",
-          "s_633493",
-          "s_1055340",
-          "s_7670934",
-          "s_374604",
-          "s_529389",
-          "s_3022765",
-          "s_5917651",
-          "s_3025682",
-          "s_10778973",
-          "s_4667408",
-          "s_4477",
-          "s_387009",
-          "s_1329353",
-          "s_12124075",
-          "s_2233939",
-          "s_885786",
-          "s_14083170"
+          "s_1764209",
+          "s_1260282",
+          "s_1513462",
+          "s_2180742",
+          "s_1113589",
+          "s_379687",
+          "s_417975",
+          "s_1260284",
+          "s_3996570",
+          "s_1871597",
+          "s_10739332",
+          "s_4090956",
+          "s_3747611",
+          "s_801743",
+          "s_359463",
+          "s_724450",
+          "s_6841342",
+          "s_801737",
+          "s_1325770",
+          "s_934412",
+          "s_1574509",
+          "s_801760",
+          "s_2523692",
+          "s_384883",
+          "s_384501",
+          "s_1800323"
         ],
         "escucha": [
-          "s_13287192",
-          "s_4230082",
-          "s_4587424",
-          "s_633493",
-          "s_374604",
-          "s_5917651",
-          "s_4667408",
-          "s_1329353"
+          "s_1764209",
+          "s_2180742",
+          "s_417975",
+          "s_1871597",
+          "s_3747611",
+          "s_724450",
+          "s_1325770",
+          "s_801760"
         ],
         "prueba": [
-          "s_4298711",
-          "s_4637368",
-          "s_710685",
-          "s_1104312",
-          "s_3778843",
-          "s_12834656",
-          "s_350481",
-          "s_3176285"
+          "s_3833128",
+          "s_3190046",
+          "s_1002526",
+          "s_11969600",
+          "s_4551855",
+          "s_3461643"
         ]
       },
       "divergences": [
         {
-          "id": "s_13287192",
-          "start": 0,
-          "end": 4,
-          "wrong": "Beve"
+          "id": "s_1764209",
+          "start": 6,
+          "end": 10,
+          "wrong": "febbre"
         },
         {
-          "id": "s_11710396",
-          "start": 0,
-          "end": 4,
-          "wrong": "Beve"
+          "id": "s_1260282",
+          "start": 6,
+          "end": 11,
+          "wrong": "paura"
         },
         {
-          "id": "s_11460842",
-          "start": 0,
-          "end": 4,
-          "wrong": "Apre"
+          "id": "s_1513462",
+          "start": 6,
+          "end": 11,
+          "wrong": "paziente"
         },
         {
-          "id": "s_4230082",
-          "start": 0,
+          "id": "s_2180742",
+          "start": 7,
+          "end": 11,
+          "wrong": "medicina"
+        }
+      ]
+    },
+    {
+      "id": "u51",
+      "level": "A1",
+      "title": "Vocabulario: la naturaleza",
+      "goal_es": "Bosco, collina, deserto, sentiero, pietra, erba, terra, fuoco…",
+      "codes": [
+        "ERR_VOC_NATURA"
+      ],
+      "why_here": "Describir el paisaje, con el clima y la ciudad ya vistos.",
+      "ficha_es": "La naturaleza: bosco, collina, valle, erba, foglia, pietra, sabbia, onda, campo, terra, sentiero, cascata, deserto, foresta, roccia, vulcano, fuoco. «Bosco» es un bosque pequeño y «foresta», uno grande y espeso.\n\n«Terra» es la tierra y también el suelo. «Campo» es el campo y también el campo deportivo.",
+      "words": [
+        {
+          "form": "bosco",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el bosque",
+          "audio": "75fb65d062b7",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "bosque/bosco: -sque→-sco"
+        },
+        {
+          "form": "collina",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la colina",
+          "audio": "e9859c9384be",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "valle",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el valle",
+          "audio": "c7c813cb8823",
+          "art": "la",
+          "gdiv": true,
+          "sieve": "transparente"
+        },
+        {
+          "form": "erba",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el pasto",
+          "audio": "7cf716e9c70a",
+          "art": "l'",
+          "sieve": "opaca"
+        },
+        {
+          "form": "foglia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la hoja de un árbol",
+          "audio": "c0840dc53eba",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "j-gli"
+        },
+        {
+          "form": "pietra",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la piedra",
+          "audio": "03142ac79ba0",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "sabbia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la arena",
+          "audio": "721c7ae64ae0",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "onda",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la ola",
+          "audio": "7a0bb885b702",
+          "art": "l'",
+          "sieve": "transparente",
+          "note": "En español «onda» existe, pero la glosa es «ola» (ola de mar); «onda» se usa más para ondas de radio o de sonido."
+        },
+        {
+          "form": "campo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el campo",
+          "audio": "bdc4e01461b5",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "terra",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la tierra",
+          "audio": "75fa82dd35f5",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "ie-e"
+        },
+        {
+          "form": "sentiero",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el sendero",
+          "audio": "b8555cf8198b",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "d→t y ie: sendero→sentiero"
+        },
+        {
+          "form": "cascata",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la cascada",
+          "audio": "bebab797c5ce",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "deserto",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el desierto",
+          "audio": "509dac455cd6",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "foresta",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el bosque grande",
+          "audio": "f777fc92c467",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "roccia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la roca",
+          "audio": "4af3296b3d4f",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "doble"
+        },
+        {
+          "form": "vulcano",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el volcán",
+          "audio": "e2b9537761d3",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "fuoco",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el fuego",
+          "audio": "9ff6266206cb",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "ue-uo"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Bosco, collina, valle, sentiero, sabbia, onda, terra… «Bosco» es un bosque pequeño y «foresta», uno grande y espeso. «Terra» es la tierra y también el suelo.",
+      "parts": {
+        "descubre": [
+          "s_3365680",
+          "s_3901366",
+          "s_2441385",
+          "s_379734"
+        ],
+        "practica": [
+          "s_3365680",
+          "s_3901366",
+          "s_2441385",
+          "s_379734",
+          "s_8377061",
+          "s_1035746",
+          "s_2838597",
+          "s_4033960",
+          "s_2157930",
+          "s_3325845",
+          "s_1098362",
+          "s_13073530",
+          "s_3420531",
+          "s_1032569",
+          "s_11282512",
+          "s_2804011",
+          "s_6585533",
+          "s_379732",
+          "s_763066",
+          "s_7709089",
+          "s_691871",
+          "s_2163408",
+          "s_7751123",
+          "s_691870",
+          "s_1607132",
+          "s_1642441",
+          "s_12908379"
+        ],
+        "escucha": [
+          "s_3365680",
+          "s_379734",
+          "s_2838597",
+          "s_3325845",
+          "s_3420531",
+          "s_2804011",
+          "s_763066",
+          "s_2163408"
+        ],
+        "prueba": [
+          "s_2843291",
+          "s_995710",
+          "s_8011650",
+          "s_1313570",
+          "s_1475704",
+          "s_500247"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_3365680",
+          "start": 8,
+          "end": 14,
+          "wrong": "valle"
+        },
+        {
+          "id": "s_3901366",
+          "start": 2,
           "end": 6,
-          "wrong": "Prende"
+          "wrong": "onda"
+        },
+        {
+          "id": "s_2441385",
+          "start": 10,
+          "end": 15,
+          "wrong": "campo"
+        },
+        {
+          "id": "s_379734",
+          "start": 3,
+          "end": 8,
+          "wrong": "bosco"
         }
       ]
     },
@@ -11751,13 +14524,13 @@
     },
     {
       "id": "u08",
-      "level": "A2",
+      "level": "A1",
       "title": "Sono andato: el auxiliar essere",
       "goal_es": "Verbos de movimiento y cambio piden essere: sono andato, no «ho andato».",
       "codes": [
         "ERR_AUX_ESSERE"
       ],
-      "why_here": "Punto crítico del passato prossimo (A2).",
+      "why_here": "Contar lo que hiciste con verbos de movimiento: el programa de CILS A1 pide elegir bien el auxiliar (essere o avere); la concordancia del participio llega en A2.",
       "ficha_es": "En A2 aprendes que los verbos de movimiento y de cambio de estado usan essere como auxiliar: sono andato, sono arrivata, sono partiti. El español usa «haber» siempre («he ido, he llegado»).\n\nError típico: «ho andato» en vez de sono andato. Con essere el participio concuerda con el sujeto (sono andata, siamo partiti).",
       "readings": [
         "rd_giornatabrutta"
@@ -11766,70 +14539,304 @@
       "explanation_es": "El español usa solo 'haber'; en italiano los verbos de movimiento con meta, cambio de estado y reflexivos piden essere.",
       "parts": {
         "descubre": [
-          "s_1371033",
-          "s_2914399",
-          "s_7670813",
-          "s_374453"
+          "s_1669731",
+          "s_1671814",
+          "s_11254135",
+          "s_4406037"
         ],
         "practica": [
+          "s_1669731",
+          "s_1671814",
+          "s_11254135",
+          "s_4406037",
+          "s_1152783",
+          "s_3780837",
+          "s_7886288",
+          "s_13268305",
           "s_1371033",
+          "s_13747888",
+          "s_1071896",
+          "s_1097819",
           "s_2914399",
-          "s_7670813",
+          "s_3497075",
+          "s_2780107",
+          "s_3353952",
+          "s_950172",
+          "s_1099947",
+          "s_5888418",
+          "s_4690732",
+          "s_6804351",
+          "s_1073182",
+          "s_1408750",
+          "s_2478334",
           "s_374453",
-          "s_11642390",
           "s_1152788",
           "s_376708",
+          "s_388057",
           "s_350270",
           "s_2848375",
           "s_1948343",
+          "s_7844545",
           "s_1082726",
-          "s_529375",
-          "s_3585064",
-          "s_13894907"
+          "s_3176709",
+          "s_3585064"
         ],
         "escucha": [
+          "s_1669731",
+          "s_1152783",
           "s_1371033",
           "s_2914399",
-          "s_7670813",
+          "s_950172",
+          "s_6804351",
           "s_374453",
-          "s_11642390",
-          "s_1152788",
-          "s_376708",
           "s_350270"
         ],
         "prueba": [
+          "s_4511722",
+          "s_1738623",
+          "s_5817980",
+          "s_4621",
+          "s_7670813",
           "s_772483",
-          "s_388057",
           "s_1517011",
-          "s_7844545",
-          "s_3176709",
-          "s_705357"
+          "s_529375"
         ]
       },
       "divergences": [
         {
-          "id": "s_1371033",
-          "start": 0,
-          "end": 3,
-          "wrong": "Hai"
+          "id": "s_1669731",
+          "start": 5,
+          "end": 8,
+          "wrong": "hai"
         },
         {
-          "id": "s_2914399",
-          "start": 0,
-          "end": 3,
-          "wrong": "Hai"
+          "id": "s_1671814",
+          "start": 5,
+          "end": 8,
+          "wrong": "hai"
         },
         {
-          "id": "s_7670813",
-          "start": 0,
-          "end": 3,
-          "wrong": "Hai"
+          "id": "s_11254135",
+          "start": 7,
+          "end": 10,
+          "wrong": "hai"
         },
         {
-          "id": "s_374453",
+          "id": "s_4406037",
+          "start": 8,
+          "end": 11,
+          "wrong": "hai"
+        }
+      ]
+    },
+    {
+      "id": "u62",
+      "level": "A1",
+      "title": "Imperativo: apri, chiudi, leggi",
+      "goal_es": "Imperativo de tú: parla (-are) y leggi, apri (-ere/-ire, como el presente de «tu»); el español usa «lee, abre».",
+      "codes": [
+        "ERR_IMPERATIVO_FORMA"
+      ],
+      "why_here": "Dar instrucciones sencillas, con los verbos de presente ya vistos.",
+      "ficha_es": "El imperativo de «tu» de los verbos en -are termina en -a: parla, guarda, mangia, aspetta. Los verbos en -ere y en -ire usan la misma forma de «tu» del presente: leggi, scrivi, apri, chiudi, dormi, finisci.\n\nEl español usa -e en esos verbos (lee, escribe, abre): en italiano «apre» sería «él abre», no el mandato. Irregulares: va' (o vai), fa' (o fai), da' (o dai), di', sta' (o stai). El negativo con «tu» es non + infinitivo: non parlare! (el español dice «no hables»); con noi y voi, non + presente. Fuente: Piacere! (Univ. de Iowa), capítulo «Imperativo (tu, noi, voi)».",
+      "readings": [
+        "rd_professore"
+      ],
+      "status": "active",
+      "explanation_es": "Imperativo de tú: los verbos en -are terminan en -a (parla, guarda, mangia); los de -ere e -ire usan la forma de «tu» del presente: leggi, scrivi, apri, dormi. El español usa -e (lee, abre, escribe): «apre!» en italiano sería «él abre». Irregulares: va' (vai), fa' (fai), da' (dai), di', sta' (stai). Negativo: non + infinitivo (non parlare!), no como el español «no hables».",
+      "parts": {
+        "descubre": [
+          "s_13287192",
+          "s_11710396",
+          "s_11460842",
+          "s_4230082"
+        ],
+        "practica": [
+          "s_13287192",
+          "s_11710396",
+          "s_11460842",
+          "s_4230082",
+          "s_6007453",
+          "s_1598274",
+          "s_4587424",
+          "s_5347958",
+          "s_6114456",
+          "s_633493",
+          "s_1055340",
+          "s_7670934",
+          "s_374604",
+          "s_529389",
+          "s_3022765",
+          "s_5917651",
+          "s_3025682",
+          "s_10778973",
+          "s_4667408",
+          "s_4477",
+          "s_387009",
+          "s_1329353",
+          "s_12124075",
+          "s_2233939",
+          "s_885786",
+          "s_14083170"
+        ],
+        "escucha": [
+          "s_13287192",
+          "s_4230082",
+          "s_4587424",
+          "s_633493",
+          "s_374604",
+          "s_5917651",
+          "s_4667408",
+          "s_1329353"
+        ],
+        "prueba": [
+          "s_4298711",
+          "s_4637368",
+          "s_710685",
+          "s_1104312",
+          "s_3778843",
+          "s_12834656",
+          "s_350481",
+          "s_3176285"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_13287192",
           "start": 0,
-          "end": 1,
-          "wrong": "Ha"
+          "end": 4,
+          "wrong": "Beve"
+        },
+        {
+          "id": "s_11710396",
+          "start": 0,
+          "end": 4,
+          "wrong": "Beve"
+        },
+        {
+          "id": "s_11460842",
+          "start": 0,
+          "end": 4,
+          "wrong": "Apre"
+        },
+        {
+          "id": "s_4230082",
+          "start": 0,
+          "end": 6,
+          "wrong": "Prende"
+        }
+      ]
+    },
+    {
+      "id": "u67",
+      "level": "A1",
+      "title": "Mandato negativo: non parlare!",
+      "goal_es": "La orden negativa de «tu» es non + infinitivo: non parlare!, non dormire!, no «non parli».",
+      "codes": [
+        "ERR_IMPERATIVO_NEG"
+      ],
+      "why_here": "Completa el imperativo (u62): también hay que saber decir lo que no se debe hacer.",
+      "ficha_es": "Para prohibir o pedir que no hagan algo se usa non + infinitivo: Non parlare! Non mangiare qui! Non dormire! (con «tu»). El español usa una forma distinta del verbo (no hables), pero en italiano «Non parli» significa «tú no hablas», no una orden.\n\nAfirmativo (u62): Parla! Mangia! Apri! Negativo: Non parlare! Non mangiare! Non aprire!",
+      "readings": [
+        "rd_professore"
+      ],
+      "status": "active",
+      "explanation_es": "El mandato negativo con «tu» es non + infinitivo: non parlare!, non mangiare!, non dormire!. El español usa otra forma del verbo («no hables»), pero en italiano «non parli» es «tú no hablas», no una orden.",
+      "parts": {
+        "descubre": [
+          "s_3306883",
+          "s_3306884",
+          "s_1534906",
+          "s_379545"
+        ],
+        "practica": [
+          "s_3306883",
+          "s_3306884",
+          "s_1534906",
+          "s_379545",
+          "s_898424",
+          "s_2565066",
+          "s_1257393",
+          "s_2674117",
+          "s_984731",
+          "s_10066981",
+          "s_1257392",
+          "s_2743583",
+          "s_2855315",
+          "s_5403124",
+          "s_7223868",
+          "s_375657",
+          "s_13481856",
+          "s_2019066",
+          "s_2551350",
+          "s_4668061",
+          "s_13227835",
+          "s_1547603",
+          "s_3010777",
+          "s_3534938",
+          "s_987163",
+          "s_2555829",
+          "s_427951",
+          "s_5869696",
+          "s_5925192",
+          "s_9742879",
+          "s_1270544",
+          "s_4395263",
+          "s_11352416",
+          "s_1645905",
+          "s_375644",
+          "s_377300",
+          "s_3985674",
+          "s_4420668",
+          "s_9739067",
+          "s_995804",
+          "s_5631306"
+        ],
+        "escucha": [
+          "s_3306883",
+          "s_2565066",
+          "s_1257392",
+          "s_375657",
+          "s_13227835",
+          "s_2555829",
+          "s_1270544",
+          "s_377300"
+        ],
+        "prueba": [
+          "s_1115434",
+          "s_1576427",
+          "s_4244280",
+          "s_1281042",
+          "s_10154378",
+          "s_7765340",
+          "s_1251844",
+          "s_995629"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_3306883",
+          "start": 4,
+          "end": 10,
+          "wrong": "sei"
+        },
+        {
+          "id": "s_3306884",
+          "start": 4,
+          "end": 10,
+          "wrong": "sei"
+        },
+        {
+          "id": "s_1534906",
+          "start": 4,
+          "end": 10,
+          "wrong": "sei"
+        },
+        {
+          "id": "s_379545",
+          "start": 4,
+          "end": 10,
+          "wrong": "sei"
         }
       ]
     },
@@ -12159,2103 +15166,6 @@
           "wrong": "è"
         }
       ]
-    },
-    {
-      "id": "u34",
-      "level": "A1+",
-      "title": "Vocabulario: transportes y viajes",
-      "goal_es": "Treno, autobus, aereo, macchina, biglietto, fermata… y «in treno», «in macchina», pero «a piedi».",
-      "codes": [
-        "ERR_VOC_TRASPORTI"
-      ],
-      "why_here": "Moverte por la ciudad y viajar, con las preposiciones de lugar ya vistas.",
-      "ficha_es": "Transportes y viaje: treno, autobus, aereo, macchina, bicicletta, biglietto, fermata, binario, nave, valigia, passaporto, viaggio, traffico. Se viaja in treno, in autobus, in macchina, in aereo (con «in»), pero a piedi.\n\n«Biglietto» es el boleto o la entrada. «Macchina» es el auto (también «automobile»). «Il treno parte dal binario 3»: el binario es el andén.",
-      "words": [
-        {
-          "form": "treno",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el tren",
-          "audio": "28bba2ca634e",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "treni",
-          "gender": "m",
-          "num": "p",
-          "gloss": "los trenes",
-          "audio": "e744857b080d",
-          "art": "i",
-          "sieve": "transparente"
-        },
-        {
-          "form": "autobus",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el autobús",
-          "audio": "016ccee7270f",
-          "art": "l'",
-          "sieve": "transparente"
-        },
-        {
-          "form": "aereo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el avión",
-          "audio": "85206cf3e3a3",
-          "art": "l'",
-          "sieve": "opaca"
-        },
-        {
-          "form": "macchina",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el auto",
-          "audio": "f0f081d29aa8",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "macchine",
-          "gender": "f",
-          "num": "p",
-          "gloss": "los autos",
-          "audio": "b7613e783b17",
-          "art": "le",
-          "sieve": "opaca"
-        },
-        {
-          "form": "automobile",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el automóvil",
-          "audio": "e37e19ee167e",
-          "art": "l'",
-          "gdiv": true,
-          "sieve": "transparente"
-        },
-        {
-          "form": "bicicletta",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la bicicleta",
-          "audio": "b087e372acbf",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "moto",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la moto",
-          "audio": "1f7f1c7a647c",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "taxi",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el taxi",
-          "audio": "4d82205a2028",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "metropolitana",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el metro",
-          "audio": "178460c35fc8",
-          "art": "la",
-          "gdiv": true,
-          "sieve": "opaca",
-          "note": "Abreviatura de «ferrovia metropolitana»; el español dice «metro»."
-        },
-        {
-          "form": "biglietto",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el boleto",
-          "audio": "8fa0556f6bd5",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "biglietti",
-          "gender": "m",
-          "num": "p",
-          "gloss": "los boletos",
-          "audio": "0f4150a729a8",
-          "art": "i",
-          "sieve": "opaca"
-        },
-        {
-          "form": "fermata",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la parada",
-          "audio": "184ced9da209",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "binario",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el andén",
-          "audio": "008673cffe7e",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "nave",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el barco",
-          "audio": "eee8cf25f346",
-          "art": "la",
-          "sieve": "opaca",
-          "note": "Existe «nave» en español (embarcación grande), pero la glosa es «barco»."
-        },
-        {
-          "form": "barca",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el bote",
-          "audio": "f1e4b810f053",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "camion",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el camión",
-          "audio": "7a3d21e3cf43",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "viaggio",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el viaje",
-          "audio": "e854436bc639",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "viaggi",
-          "gender": "m",
-          "num": "p",
-          "gloss": "los viajes",
-          "audio": "7ffe545bb148",
-          "art": "i",
-          "sieve": "transparente"
-        },
-        {
-          "form": "valigia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la maleta",
-          "audio": "b58963587dcc",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "passaporto",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el pasaporte",
-          "audio": "e28efd074889",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "traffico",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el tráfico",
-          "audio": "18ff7fc59fb3",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "benzina",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la bencina",
-          "audio": "e93bc628c36f",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "semaforo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el semáforo",
-          "audio": "12811686a198",
-          "art": "il",
-          "sieve": "transparente"
-        }
-      ],
-      "status": "active",
-      "explanation_es": "Treno, autobus, aereo, macchina, bicicletta, biglietto, fermata… Se viaja «in treno», «in autobus», «in macchina», «in aereo» (con «in»), pero «a piedi». Biglietto es el boleto (de transporte o la entrada).",
-      "parts": {
-        "descubre": [
-          "s_3361717",
-          "s_12559888",
-          "s_1257658",
-          "s_1701563"
-        ],
-        "practica": [
-          "s_3361717",
-          "s_12559888",
-          "s_1257658",
-          "s_1701563",
-          "s_2286944",
-          "s_2859883",
-          "s_2917306",
-          "s_1701558",
-          "s_388482",
-          "s_4503480",
-          "s_4565946",
-          "s_876862",
-          "s_1103424",
-          "s_726372",
-          "s_2020018",
-          "s_791339",
-          "s_2028811",
-          "s_2916132",
-          "s_795228",
-          "s_1132156",
-          "s_4918210"
-        ],
-        "escucha": [
-          "s_3361717",
-          "s_1257658",
-          "s_2286944",
-          "s_2917306",
-          "s_388482",
-          "s_4565946",
-          "s_1103424",
-          "s_2020018"
-        ],
-        "prueba": [
-          "s_5709386",
-          "s_378847",
-          "s_7579645",
-          "s_990389",
-          "s_2810519",
-          "s_3475325"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_3361717",
-          "start": 9,
-          "end": 17,
-          "wrong": "barca"
-        },
-        {
-          "id": "s_12559888",
-          "start": 7,
-          "end": 14,
-          "wrong": "aereo"
-        },
-        {
-          "id": "s_1257658",
-          "start": 10,
-          "end": 18,
-          "wrong": "metropolitana"
-        },
-        {
-          "id": "s_1701563",
-          "start": 3,
-          "end": 11,
-          "wrong": "benzina"
-        }
-      ]
-    },
-    {
-      "id": "u43",
-      "level": "A1+",
-      "title": "Vocabulario: la salud",
-      "goal_es": "Salute, febbre, tosse, dolore, malattia… y «ho paura», «ho sonno», «ho fame» con avere.",
-      "codes": [
-        "ERR_VOC_SALUTE"
-      ],
-      "why_here": "Decir cómo te sientes, con tener/avere y el cuerpo ya vistos.",
-      "ficha_es": "La salud: salute, febbre, tosse, dolore, malattia, raffreddore, influenza, medicina, pastiglia, ricetta, ambulanza, ferita, visita, paziente. Con avere: ho la febbre, ho la tosse, ho mal di testa, ho fame, ho sete, ho sonno, ho paura.\n\nPara el dolor: mi fa male la testa, ho mal di testa o ho male alla testa (me duele la cabeza). «Medicina» es el remedio y también la carrera.",
-      "words": [
-        {
-          "form": "salute",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la salud",
-          "audio": "17040e920885",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "malattia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la enfermedad",
-          "audio": "564ea3fba55f",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "febbre",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la fiebre",
-          "audio": "2f96e364fdec",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "ie-e",
-          "note": "fiebre→febbre; además -bb- doble"
-        },
-        {
-          "form": "tosse",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la tos",
-          "audio": "03e72727f79d",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "raffreddore",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el resfriado",
-          "audio": "bda4346a9cbd",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "influenza",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la gripe",
-          "audio": "0b35bcd730d7",
-          "art": "l'",
-          "sieve": "opaca"
-        },
-        {
-          "form": "medicina",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el remedio",
-          "audio": "5a64faf73bc1",
-          "art": "la",
-          "sieve": "opaca",
-          "note": "Existe «medicina» en español; la glosa del curso es «remedio» (en italiano «medicina» también es remedio, parentesco claro)."
-        },
-        {
-          "form": "pastiglia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la pastilla",
-          "audio": "e86b8269f3d8",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "ll→gli (pastilla→pastiglia)."
-        },
-        {
-          "form": "dolore",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el dolor",
-          "audio": "61b0767ab5db",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "ricetta",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la receta",
-          "audio": "8662e9dd35f3",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "ambulanza",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la ambulancia",
-          "audio": "2e4030f9e8ca",
-          "art": "l'",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "-ancia→-anza"
-        },
-        {
-          "form": "ferita",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la herida",
-          "audio": "c3df60e609c3",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "h-f"
-        },
-        {
-          "form": "visita",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la consulta",
-          "audio": "7927ca912a7e",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "paziente",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el paciente",
-          "audio": "ad829b10941b",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "sonno",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el sueño",
-          "audio": "68a16a62cc21",
-          "art": "il",
-          "sieve": "regular",
-          "rule": "ue-o"
-        },
-        {
-          "form": "sete",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la sed",
-          "audio": "0f961cd8aca6",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "d final→t con -e: sed→sete"
-        },
-        {
-          "form": "fame",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el hambre",
-          "audio": "4a43d29dc895",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "h-f"
-        },
-        {
-          "form": "paura",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el miedo",
-          "audio": "04fe877d6dc8",
-          "art": "la",
-          "sieve": "opaca"
-        }
-      ],
-      "status": "active",
-      "explanation_es": "Salute, febbre, tosse, dolore, malattia… «Ho la febbre» (tengo fiebre), «ho mal di testa» (me duele la cabeza), «ho fame», «ho sete», «ho sonno», «ho paura»: con avere, como el tener español.",
-      "parts": {
-        "descubre": [
-          "s_1260284",
-          "s_3996570",
-          "s_1871597",
-          "s_3190046"
-        ],
-        "practica": [
-          "s_1260284",
-          "s_3996570",
-          "s_1871597",
-          "s_3190046",
-          "s_10739332",
-          "s_3747611",
-          "s_1002526",
-          "s_801743",
-          "s_724450",
-          "s_6841342",
-          "s_801737",
-          "s_1325770",
-          "s_1574509",
-          "s_4551855",
-          "s_801760",
-          "s_384883",
-          "s_3461643",
-          "s_1800323"
-        ],
-        "escucha": [
-          "s_1260284",
-          "s_1871597",
-          "s_10739332",
-          "s_1002526",
-          "s_724450",
-          "s_801737",
-          "s_1574509",
-          "s_801760"
-        ],
-        "prueba": [
-          "s_4090956",
-          "s_359463",
-          "s_11969600",
-          "s_934412",
-          "s_2523692",
-          "s_384501"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_1260284",
-          "start": 9,
-          "end": 14,
-          "wrong": "febbre"
-        },
-        {
-          "id": "s_3996570",
-          "start": 3,
-          "end": 8,
-          "wrong": "ferita"
-        },
-        {
-          "id": "s_1871597",
-          "start": 10,
-          "end": 15,
-          "wrong": "pastiglia"
-        },
-        {
-          "id": "s_3190046",
-          "start": 10,
-          "end": 15,
-          "wrong": "fame"
-        }
-      ]
-    },
-    {
-      "id": "u46",
-      "level": "A1+",
-      "title": "Vocabulario: frutas, verduras y condimentos",
-      "goal_es": "Patata, cipolla, fragola, uva, sale, pepe, funghi… y su género.",
-      "codes": [
-        "ERR_VOC_FRUTTA"
-      ],
-      "why_here": "Pedir y cocinar con la comida básica ya vista.",
-      "ficha_es": "Frutas, verduras y condimentos: patata, cipolla, carota, fragola, uva, banana, noce, miele, marmellata, sale, pepe, aceto, panna, fagioli, funghi, spinaci. «Patata» y «cipolla» son femeninas; «sale» y «pepe» son masculinos.\n\n«Fagioli», «funghi» y «spinaci» se usan casi siempre en plural. «Panna» es la crema de leche; «marmellata» es la mermelada.",
-      "words": [
-        {
-          "form": "patata",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la papa",
-          "audio": "be949382d8ca",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "patate",
-          "gender": "f",
-          "num": "p",
-          "gloss": "las papas",
-          "audio": "d311b1c8e5fe",
-          "art": "le",
-          "sieve": "opaca"
-        },
-        {
-          "form": "cipolla",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la cebolla",
-          "audio": "1d9365b91c6e",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "cebolla/cipolla: b→p"
-        },
-        {
-          "form": "carota",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la zanahoria",
-          "audio": "8181c520aa2f",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "fragola",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la frutilla",
-          "audio": "d5d7b3a6c1e5",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "uva",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la uva",
-          "audio": "2d2c2a1400d9",
-          "art": "l'",
-          "sieve": "transparente"
-        },
-        {
-          "form": "banana",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el plátano",
-          "audio": "250e77f12a5a",
-          "art": "la",
-          "sieve": "transparente",
-          "note": "'banana' se usa también en español"
-        },
-        {
-          "form": "noce",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la nuez",
-          "audio": "474e8f3b08b1",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "ue-o"
-        },
-        {
-          "form": "miele",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la miel",
-          "audio": "b11df8776e32",
-          "art": "il",
-          "gdiv": true,
-          "sieve": "transparente"
-        },
-        {
-          "form": "marmellata",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la mermelada",
-          "audio": "f1f73161f007",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "sale",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la sal",
-          "audio": "5b8a763b5451",
-          "art": "il",
-          "gdiv": true,
-          "sieve": "transparente"
-        },
-        {
-          "form": "pepe",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la pimienta",
-          "audio": "265392dc2782",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "aceto",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el vinagre",
-          "audio": "5d9c652337a9",
-          "art": "l'",
-          "sieve": "opaca",
-          "note": "Parece 'aceite' pero significa vinagre; aceite = olio",
-          "ff": true
-        },
-        {
-          "form": "panna",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la crema de leche",
-          "audio": "fcba1509dec7",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "fagioli",
-          "gender": "m",
-          "num": "p",
-          "gloss": "los porotos",
-          "audio": "8ed94e839899",
-          "art": "i",
-          "sieve": "opaca"
-        },
-        {
-          "form": "funghi",
-          "gender": "m",
-          "num": "p",
-          "gloss": "los champiñones",
-          "audio": "3f54d69950ad",
-          "art": "i",
-          "sieve": "opaca"
-        },
-        {
-          "form": "spinaci",
-          "gender": "m",
-          "num": "p",
-          "gloss": "las espinacas",
-          "audio": "3a5f58da3c12",
-          "art": "gli",
-          "gdiv": true,
-          "sieve": "transparente"
-        },
-        {
-          "form": "tonno",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el atún",
-          "audio": "c599d8f6545a",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "salame",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el salame",
-          "audio": "7c1947a0acc7",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "yogurt",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el yogur",
-          "audio": "7a7453043a7d",
-          "art": "lo",
-          "sieve": "transparente"
-        },
-        {
-          "form": "ciliegia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la cereza",
-          "audio": "9ed636860040",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "melone",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el melón",
-          "audio": "c29f7f5e6935",
-          "art": "il",
-          "sieve": "transparente"
-        }
-      ],
-      "status": "active",
-      "explanation_es": "Patata, cipolla, fragola, uva, sale, pepe, funghi… «Patata» y «cipolla» son femeninas; «sale» y «pepe» son masculinos. «Fagioli», «funghi» y «spinaci» se usan casi siempre en plural.",
-      "parts": {
-        "descubre": [
-          "s_475700",
-          "s_10653833",
-          "s_2478269",
-          "s_13282035"
-        ],
-        "practica": [
-          "s_475700",
-          "s_10653833",
-          "s_2478269",
-          "s_13282035",
-          "s_10798391",
-          "s_2196048",
-          "s_671771",
-          "s_7037817",
-          "s_2689499",
-          "s_13982317",
-          "s_3437336",
-          "s_5633830",
-          "s_995553",
-          "s_4864166",
-          "s_1491084",
-          "s_3437335"
-        ],
-        "escucha": [
-          "s_475700",
-          "s_2478269",
-          "s_10798391",
-          "s_671771",
-          "s_2689499",
-          "s_3437336",
-          "s_995553",
-          "s_1491084"
-        ],
-        "prueba": [
-          "s_11862013",
-          "s_3555315",
-          "s_13186217",
-          "s_5214424",
-          "s_824694",
-          "s_1310084"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_475700",
-          "start": 12,
-          "end": 16,
-          "wrong": "tonno"
-        },
-        {
-          "id": "s_10653833",
-          "start": 11,
-          "end": 17,
-          "wrong": "fagioli"
-        },
-        {
-          "id": "s_2478269",
-          "start": 3,
-          "end": 9,
-          "wrong": "noce"
-        },
-        {
-          "id": "s_13282035",
-          "start": 3,
-          "end": 10,
-          "wrong": "ciliegia"
-        }
-      ]
-    },
-    {
-      "id": "u48",
-      "level": "A1+",
-      "title": "Vocabulario: higiene personal",
-      "goal_es": "Sapone, spazzolino, dentifricio, asciugamano, doccia, shampoo…",
-      "codes": [
-        "ERR_VOC_IGIENE"
-      ],
-      "why_here": "Hablar de tu rutina de aseo con los verbos de presente.",
-      "ficha_es": "Higiene personal: sapone, spazzolino, dentifricio, asciugamano, pettine, doccia, vasca, rasoio, shampoo, profumo, crema, deodorante, spazzola, trucco. Con estas palabras: fare la doccia (ducharse), lavarsi i denti (lavarse los dientes), pettinarsi.\n\n«Spazzolino» es el cepillo de dientes; «spazzola» es el del pelo. «Pettine» es el peine.",
-      "words": [
-        {
-          "form": "sapone",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el jabón",
-          "audio": "070128e28e6c",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "spazzolino",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el cepillo de dientes",
-          "audio": "fa64791a14f6",
-          "art": "lo",
-          "sieve": "opaca"
-        },
-        {
-          "form": "dentifricio",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la pasta de dientes",
-          "audio": "d0f57bfccac5",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "asciugamano",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la toalla",
-          "audio": "339537f18034",
-          "art": "l'",
-          "sieve": "opaca"
-        },
-        {
-          "form": "pettine",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el peine",
-          "audio": "6e0280635933",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "doccia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la ducha",
-          "audio": "925256899a10",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "vasca",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la tina",
-          "audio": "6171e89b249d",
-          "art": "la",
-          "sieve": "opaca",
-          "note": "vasca significa 'tina/bañera'; en español 'vasca' es la mujer del País Vasco",
-          "ff": true
-        },
-        {
-          "form": "rasoio",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la máquina de afeitar",
-          "audio": "f0e78ef62318",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "shampoo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el champú",
-          "audio": "3906b34397ea",
-          "art": "lo",
-          "sieve": "transparente"
-        },
-        {
-          "form": "profumo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el perfume",
-          "audio": "ed1a9da10707",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "crema",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la crema",
-          "audio": "16ea6726e1a7",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "deodorante",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el desodorante",
-          "audio": "409d629f0e5d",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "spazzola",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el cepillo del pelo",
-          "audio": "432157ee3445",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "trucco",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el maquillaje",
-          "audio": "e16e8c95e533",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "lavandino",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el lavamanos",
-          "audio": "34155befc838",
-          "art": "il",
-          "sieve": "opaca"
-        }
-      ],
-      "status": "active",
-      "explanation_es": "Sapone, spazzolino, dentifricio, asciugamano, doccia… «Spazzolino» es el cepillo de dientes; «spazzola», el del pelo. «Pettine» es el peine. En casa se usa el artículo: il sapone, lo spazzolino.",
-      "parts": {
-        "descubre": [
-          "s_438936",
-          "s_390061",
-          "s_1334667",
-          "s_2037743"
-        ],
-        "practica": [
-          "s_438936",
-          "s_390061",
-          "s_1334667",
-          "s_2037743",
-          "s_634428",
-          "s_3860649",
-          "s_2620002",
-          "s_3356874",
-          "s_1605645",
-          "s_5631109",
-          "s_10829534",
-          "s_4467951",
-          "s_12764320"
-        ],
-        "escucha": [
-          "s_438936",
-          "s_390061",
-          "s_1334667",
-          "s_2037743",
-          "s_634428",
-          "s_3860649",
-          "s_2620002",
-          "s_3356874"
-        ],
-        "prueba": [
-          "s_3256488",
-          "s_6444792",
-          "s_699743",
-          "s_3563598",
-          "s_2824957",
-          "s_5479258"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_438936",
-          "start": 3,
-          "end": 9,
-          "wrong": "crema"
-        },
-        {
-          "id": "s_390061",
-          "start": 9,
-          "end": 20,
-          "wrong": "pettine"
-        },
-        {
-          "id": "s_1334667",
-          "start": 14,
-          "end": 21,
-          "wrong": "rasoio"
-        },
-        {
-          "id": "s_2037743",
-          "start": 15,
-          "end": 21,
-          "wrong": "spazzola"
-        }
-      ]
-    },
-    {
-      "id": "u50",
-      "level": "A1+",
-      "title": "Vocabulario: ideas y sentimientos",
-      "goal_es": "Amore, amicizia, idea, problema, verità, libertà… y su género (la verità, il problema).",
-      "codes": [
-        "ERR_VOC_ASTRATTI"
-      ],
-      "why_here": "Hablar de lo que piensas y sientes con las palabras más comunes.",
-      "ficha_es": "Ideas y sentimientos: amore, amicizia, idea, problema, storia, notizia, verità, sogno, gioia, vita, morte, pace, guerra, libertà, speranza, segreto, successo, errore. Las palabras terminadas en -ia, -tà, -zione son femeninas (la amicizia, la libertà); «problema» y «sistema» son masculinos aunque terminen en -a.\n\n«Storia» es historia y también cuento. «Sogno» es el sueño al dormir (no el sueño de dormir, que es «sonno»).",
-      "words": [
-        {
-          "form": "amore",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el amor",
-          "audio": "4e5823152492",
-          "art": "l'",
-          "sieve": "transparente"
-        },
-        {
-          "form": "amicizia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la amistad",
-          "audio": "82ad1b6ac3b8",
-          "art": "l'",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "amistad/amicizia: -istad ↔ -icizia"
-        },
-        {
-          "form": "idea",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la idea",
-          "audio": "766250612b00",
-          "art": "l'",
-          "sieve": "transparente"
-        },
-        {
-          "form": "problema",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el problema",
-          "audio": "c98484f0d20d",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "storia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la historia",
-          "audio": "dd843b25d2b5",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "notizia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la noticia",
-          "audio": "4015188a7003",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "verità",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la verdad",
-          "audio": "b7626e95baf2",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "dad-ta"
-        },
-        {
-          "form": "sogno",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el sueño (al soñar)",
-          "audio": "cac145c1b3fd",
-          "art": "il",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "sueño→sogno: ue→o y n→gn"
-        },
-        {
-          "form": "gioia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la alegría",
-          "audio": "47fef1598a29",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "vita",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la vida",
-          "audio": "4f5c3486072c",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "morte",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la muerte",
-          "audio": "93eb97eb694d",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "ue-o"
-        },
-        {
-          "form": "pace",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la paz",
-          "audio": "4c1e65d64348",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "guerra",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la guerra",
-          "audio": "5128e013dd2c",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "libertà",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la libertad",
-          "audio": "6555093e3b5e",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "dad-ta"
-        },
-        {
-          "form": "speranza",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la esperanza",
-          "audio": "66d80b58c92d",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "segreto",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el secreto",
-          "audio": "eaf5a7f88ef0",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "successo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el éxito",
-          "audio": "e05eb57fb832",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "errore",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el error",
-          "audio": "00ea95d6d1ad",
-          "art": "l'",
-          "sieve": "transparente"
-        },
-        {
-          "form": "sorpresa",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la sorpresa",
-          "audio": "661104f7f835",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "bugia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la mentira",
-          "audio": "71fd79edd828",
-          "art": "la",
-          "sieve": "opaca",
-          "note": "Parece 'bujía' pero significa mentira",
-          "ff": true
-        }
-      ],
-      "status": "active",
-      "explanation_es": "Amore, amicizia, idea, problema, storia, verità, libertà… Las palabras en -ia y -tà son femeninas (la amicizia, la libertà, la verità); «problema» y «sistema» son masculinos aunque terminen en -a: il problema.",
-      "parts": {
-        "descubre": [
-          "s_4485",
-          "s_4513254",
-          "s_1697390",
-          "s_1136232"
-        ],
-        "practica": [
-          "s_4485",
-          "s_4513254",
-          "s_1697390",
-          "s_1136232",
-          "s_1610237",
-          "s_707236",
-          "s_4387316",
-          "s_7610911",
-          "s_1279006",
-          "s_1653528",
-          "s_2395267",
-          "s_13108587",
-          "s_5403465",
-          "s_2217351",
-          "s_3883769",
-          "s_521401",
-          "s_386190",
-          "s_4711126",
-          "s_666750",
-          "s_3778730",
-          "s_890913",
-          "s_1512398",
-          "s_569259",
-          "s_634680"
-        ],
-        "escucha": [
-          "s_4485",
-          "s_1136232",
-          "s_4387316",
-          "s_1653528",
-          "s_5403465",
-          "s_521401",
-          "s_666750",
-          "s_1512398"
-        ],
-        "prueba": [
-          "s_1124849",
-          "s_2822073",
-          "s_3787217",
-          "s_2577045",
-          "s_2437315",
-          "s_3518897"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_4485",
-          "start": 10,
-          "end": 16,
-          "wrong": "speranza"
-        },
-        {
-          "id": "s_4513254",
-          "start": 10,
-          "end": 17,
-          "wrong": "successo"
-        },
-        {
-          "id": "s_1697390",
-          "start": 3,
-          "end": 7,
-          "wrong": "notizia"
-        },
-        {
-          "id": "s_1136232",
-          "start": 15,
-          "end": 19,
-          "wrong": "storia"
-        }
-      ]
-    },
-    {
-      "id": "u51",
-      "level": "A1+",
-      "title": "Vocabulario: la naturaleza",
-      "goal_es": "Bosco, collina, deserto, sentiero, pietra, erba, terra, fuoco…",
-      "codes": [
-        "ERR_VOC_NATURA"
-      ],
-      "why_here": "Describir el paisaje, con el clima y la ciudad ya vistos.",
-      "ficha_es": "La naturaleza: bosco, collina, valle, erba, foglia, pietra, sabbia, onda, campo, terra, sentiero, cascata, deserto, foresta, roccia, vulcano, fuoco. «Bosco» es un bosque pequeño y «foresta», uno grande y espeso.\n\n«Terra» es la tierra y también el suelo. «Campo» es el campo y también el campo deportivo.",
-      "words": [
-        {
-          "form": "bosco",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el bosque",
-          "audio": "75fb65d062b7",
-          "art": "il",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "bosque/bosco: -sque→-sco"
-        },
-        {
-          "form": "collina",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la colina",
-          "audio": "e9859c9384be",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "valle",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el valle",
-          "audio": "c7c813cb8823",
-          "art": "la",
-          "gdiv": true,
-          "sieve": "transparente"
-        },
-        {
-          "form": "erba",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el pasto",
-          "audio": "7cf716e9c70a",
-          "art": "l'",
-          "sieve": "opaca"
-        },
-        {
-          "form": "foglia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la hoja de un árbol",
-          "audio": "c0840dc53eba",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "j-gli"
-        },
-        {
-          "form": "pietra",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la piedra",
-          "audio": "03142ac79ba0",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "sabbia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la arena",
-          "audio": "721c7ae64ae0",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "onda",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la ola",
-          "audio": "7a0bb885b702",
-          "art": "l'",
-          "sieve": "transparente",
-          "note": "En español «onda» existe, pero la glosa es «ola» (ola de mar); «onda» se usa más para ondas de radio o de sonido."
-        },
-        {
-          "form": "campo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el campo",
-          "audio": "bdc4e01461b5",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "terra",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la tierra",
-          "audio": "75fa82dd35f5",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "ie-e"
-        },
-        {
-          "form": "sentiero",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el sendero",
-          "audio": "b8555cf8198b",
-          "art": "il",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "d→t y ie: sendero→sentiero"
-        },
-        {
-          "form": "cascata",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la cascada",
-          "audio": "bebab797c5ce",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "deserto",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el desierto",
-          "audio": "509dac455cd6",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "foresta",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el bosque grande",
-          "audio": "f777fc92c467",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "roccia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la roca",
-          "audio": "4af3296b3d4f",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "doble"
-        },
-        {
-          "form": "vulcano",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el volcán",
-          "audio": "e2b9537761d3",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "fuoco",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el fuego",
-          "audio": "9ff6266206cb",
-          "art": "il",
-          "sieve": "regular",
-          "rule": "ue-uo"
-        }
-      ],
-      "status": "active",
-      "explanation_es": "Bosco, collina, valle, sentiero, sabbia, onda, terra… «Bosco» es un bosque pequeño y «foresta», uno grande y espeso. «Terra» es la tierra y también el suelo.",
-      "parts": {
-        "descubre": [
-          "s_3901366",
-          "s_2838597",
-          "s_3325845",
-          "s_1032569"
-        ],
-        "practica": [
-          "s_3901366",
-          "s_2838597",
-          "s_3325845",
-          "s_1032569",
-          "s_8011650",
-          "s_2804011",
-          "s_6585533",
-          "s_379732",
-          "s_763066",
-          "s_691871",
-          "s_1475704",
-          "s_7751123",
-          "s_691870",
-          "s_500247",
-          "s_1642441",
-          "s_12908379"
-        ],
-        "escucha": [
-          "s_3901366",
-          "s_3325845",
-          "s_8011650",
-          "s_6585533",
-          "s_763066",
-          "s_1475704",
-          "s_691870",
-          "s_1642441"
-        ],
-        "prueba": [
-          "s_11282512",
-          "s_1313570",
-          "s_7709089",
-          "s_2163408",
-          "s_1607132",
-          "s_776158"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_3901366",
-          "start": 2,
-          "end": 6,
-          "wrong": "onda"
-        },
-        {
-          "id": "s_2838597",
-          "start": 3,
-          "end": 8,
-          "wrong": "campo"
-        },
-        {
-          "id": "s_3325845",
-          "start": 3,
-          "end": 8,
-          "wrong": "roccia"
-        },
-        {
-          "id": "s_1032569",
-          "start": 3,
-          "end": 8,
-          "wrong": "Collina"
-        }
-      ]
-    },
-    {
-      "id": "u52",
-      "level": "A1+",
-      "title": "Vocabulario: la cocina y las comidas",
-      "goal_es": "Pentola, forno, cibo, cena, pranzo, sapore… y «cena» como sustantivo y como verbo.",
-      "codes": [
-        "ERR_VOC_CUCINA"
-      ],
-      "why_here": "Hablar de cocinar y comer, con la comida ya vista.",
-      "ficha_es": "La cocina y las comidas: pentola, padella, cucchiaino, tovaglia, frigorifero, forno, fornello, lavastoviglie, cibo, spuntino, porzione, ingrediente, sapore, cena, pranzo. La «pentola» es la olla y la «padella», la sartén.\n\n«Cena» (la cena) y «pranzo» (el almuerzo) son también formas verbales: io ceno, io pranzo. «Forno» es el horno y también la panadería.",
-      "words": [
-        {
-          "form": "pentola",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la olla",
-          "audio": "8fd0eb75387e",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "padella",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la sartén",
-          "audio": "a806d7f9b769",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "cucchiaino",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la cucharita",
-          "audio": "4e1ee16659b6",
-          "art": "il",
-          "gdiv": true,
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "cuchara/cucchiaio: ch→cch"
-        },
-        {
-          "form": "tovaglia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el mantel",
-          "audio": "2ed0911662f5",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "frigorifero",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el refrigerador",
-          "audio": "f5b29df6b668",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "forno",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el horno",
-          "audio": "1912344af13f",
-          "art": "il",
-          "sieve": "regular",
-          "rule": "h-f"
-        },
-        {
-          "form": "fornello",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la hornalla",
-          "audio": "13404a897cd9",
-          "art": "il",
-          "gdiv": true,
-          "sieve": "regular",
-          "rule": "h-f"
-        },
-        {
-          "form": "lavastoviglie",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el lavavajillas",
-          "audio": "ad86eb4e5f57",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "cibo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la comida",
-          "audio": "faaa1e0ac25f",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "spuntino",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la colación",
-          "audio": "2fc85682e66c",
-          "art": "lo",
-          "sieve": "opaca"
-        },
-        {
-          "form": "porzione",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la porción",
-          "audio": "1350fce96db5",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "cion-zione"
-        },
-        {
-          "form": "ingrediente",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el ingrediente",
-          "audio": "c69313b2ab9d",
-          "art": "l'",
-          "sieve": "transparente"
-        },
-        {
-          "form": "sapore",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el sabor",
-          "audio": "f604f2e06d20",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "cena",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la cena",
-          "audio": "62e5582aace0",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "pranzo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el almuerzo",
-          "audio": "89f261d63fdb",
-          "art": "il",
-          "sieve": "opaca"
-        }
-      ],
-      "status": "active",
-      "explanation_es": "Pentola, padella, forno, frigorifero, tovaglia… La «pentola» es la olla y la «padella», la sartén. «Forno» es el horno y también la panadería. «Cena» (la cena) y «pranzo» (el almuerzo) son sustantivos y también formas verbales: io ceno, io pranzo.",
-      "parts": {
-        "descubre": [
-          "s_2523788",
-          "s_380183",
-          "s_2512421",
-          "s_1322188"
-        ],
-        "practica": [
-          "s_2523788",
-          "s_380183",
-          "s_2512421",
-          "s_1322188",
-          "s_399109",
-          "s_996806",
-          "s_5098701",
-          "s_1859910",
-          "s_1730298",
-          "s_2268210",
-          "s_1274677",
-          "s_6766324",
-          "s_642952",
-          "s_1134387"
-        ],
-        "escucha": [
-          "s_2523788",
-          "s_380183",
-          "s_2512421",
-          "s_1322188",
-          "s_399109",
-          "s_996806",
-          "s_5098701",
-          "s_1859910"
-        ],
-        "prueba": [
-          "s_1261712",
-          "s_999974",
-          "s_948351",
-          "s_5346626",
-          "s_569347",
-          "s_1166613"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_2523788",
-          "start": 8,
-          "end": 12,
-          "wrong": "sapore"
-        },
-        {
-          "id": "s_380183",
-          "start": 3,
-          "end": 7,
-          "wrong": "porzione"
-        },
-        {
-          "id": "s_2512421",
-          "start": 11,
-          "end": 17,
-          "wrong": "cucchiaino"
-        },
-        {
-          "id": "s_1322188",
-          "start": 14,
-          "end": 19,
-          "wrong": "frigorifero"
-        }
-      ]
-    },
-    {
-      "id": "u53",
-      "level": "A1+",
-      "title": "Vocabulario: el idioma y el estudio",
-      "goal_es": "Frase, parola, lingua, pagina, voto, maestro… y «lingua» = idioma.",
-      "codes": [
-        "ERR_VOC_SCUOLA"
-      ],
-      "why_here": "Hablar de estudiar y de idiomas, con las nacionalidades ya vistas.",
-      "ficha_es": "El idioma y el estudio: lavagna, gomma, voto, corso, maestro, maestra, compagno, materia, testo, pagina, frase, parola, lingua, grammatica, traduzione, diploma, laurea. «Lingua» es el idioma y también la lengua del cuerpo.\n\n«Voto» es la nota de un examen (y también el voto político). «Laurea» es el título universitario. «Corso» es un curso.",
-      "words": [
-        {
-          "form": "lavagna",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la pizarra",
-          "audio": "2be96efab9be",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "gomma",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la goma de borrar",
-          "audio": "8603ffeb7e98",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "doble"
-        },
-        {
-          "form": "voto",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la nota",
-          "audio": "a2638b96dac7",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "corso",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el curso",
-          "audio": "f98b97e68df6",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "maestro",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el profesor de primaria",
-          "audio": "da92ec1b9c5a",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "maestra",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la profesora de primaria",
-          "audio": "65c6b5f35c3f",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "compagno",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el compañero",
-          "audio": "b95a00553f80",
-          "art": "il",
-          "sieve": "regular",
-          "rule": "n-gn"
-        },
-        {
-          "form": "compagna",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la compañera",
-          "audio": "7e4806bd2bab",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "n-gn"
-        },
-        {
-          "form": "materia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la asignatura",
-          "audio": "f5c44c2be5af",
-          "art": "la",
-          "sieve": "transparente",
-          "note": "En Chile «materia» también es la asignatura o el contenido; la glosa usa «asignatura»."
-        },
-        {
-          "form": "testo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el texto",
-          "audio": "c0b333c1f24f",
-          "art": "il",
-          "sieve": "regular",
-          "rule": "x-s"
-        },
-        {
-          "form": "pagina",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la página",
-          "audio": "7a872283c6d7",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "frase",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la oración",
-          "audio": "f3f42349f658",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "parola",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la palabra",
-          "audio": "83592796bc17",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "lingua",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el idioma",
-          "audio": "966140b149b5",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "grammatica",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la gramática",
-          "audio": "d33f7a2c4db1",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "doble"
-        },
-        {
-          "form": "traduzione",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la traducción",
-          "audio": "4be4e3eda32d",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "cion-zione"
-        },
-        {
-          "form": "diploma",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el diploma",
-          "audio": "c2a7adb21d9a",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "laurea",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el título universitario",
-          "audio": "abbfc36ee97e",
-          "art": "la",
-          "sieve": "opaca"
-        }
-      ],
-      "status": "active",
-      "explanation_es": "Lavagna, voto, corso, maestro, parola, frase, lingua… «Voto» es la nota de un examen (y también el voto político). «Lingua» es el idioma y también la lengua del cuerpo. «Laurea» es el título universitario.",
-      "parts": {
-        "descubre": [
-          "s_1064966",
-          "s_4711129",
-          "s_1516106",
-          "s_4406017"
-        ],
-        "practica": [
-          "s_1064966",
-          "s_4711129",
-          "s_1516106",
-          "s_4406017",
-          "s_11460685",
-          "s_374060",
-          "s_1528510",
-          "s_379708",
-          "s_6069808",
-          "s_4107759",
-          "s_1075406",
-          "s_11463129",
-          "s_2038714"
-        ],
-        "escucha": [
-          "s_1064966",
-          "s_4711129",
-          "s_1516106",
-          "s_4406017",
-          "s_11460685",
-          "s_374060",
-          "s_1528510",
-          "s_379708"
-        ],
-        "prueba": [
-          "s_6111292",
-          "s_571355",
-          "s_758752",
-          "s_2006280",
-          "s_5021301",
-          "s_955204"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_1064966",
-          "start": 16,
-          "end": 21,
-          "wrong": "lavagna"
-        },
-        {
-          "id": "s_4711129",
-          "start": 16,
-          "end": 21,
-          "wrong": "traduzione"
-        },
-        {
-          "id": "s_1516106",
-          "start": 16,
-          "end": 22,
-          "wrong": "compagna"
-        },
-        {
-          "id": "s_4406017",
-          "start": 16,
-          "end": 22,
-          "wrong": "grammatica"
-        }
-      ]
     }
   ],
   "planned": [
@@ -14300,7 +15210,7 @@
       "reason": "Las vocales italianas coinciden con las españolas; lo que difiere (c/g, sc, gli, gn y z, consonantes dobles) tiene su unidad o espera audio nativo verificado."
     },
     {
-      "level": "A1+",
+      "level": "A1",
       "title": "Vocabulario: tiendas y comercios",
       "reason": "Solo 17 oraciones validadas utilizables (se necesitan 18)."
     }

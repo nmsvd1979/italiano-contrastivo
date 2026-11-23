@@ -68,6 +68,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No ayudes a Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_10066981",
+    "it": "Non aiutare Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10066981",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -109,6 +132,29 @@
       "ERR_VOC_BAR": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No abras el libro.",
+    "es_author": "IA (Claude)",
+    "id": "s_10154378",
+    "it": "Non aprire il libro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10154378",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -371,6 +417,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "leonardo",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AUX_ESSERE"
+    ],
+    "es": "¿Fue allá?",
+    "es_author": "IA (Claude)",
+    "id": "s_1073182",
+    "it": "È andato là?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1073182",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -584,6 +653,29 @@
     "source_id": "1107994",
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No te vayas.",
+    "es_author": "IA (Claude)",
+    "id": "s_1115434",
+    "it": "Non andare via.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1115434",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -836,6 +928,30 @@
       "ERR_VOC_CUCINA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Nuel",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No hables en clase.",
+    "es_author": "IA (Claude)",
+    "id": "s_11352416",
+    "it": "Non parlare in classe.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11352416",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Valdast",
@@ -1302,6 +1418,75 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No hables tan fuerte.",
+    "es_author": "IA (Claude)",
+    "id": "s_1251844",
+    "it": "Non parlare così forte.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1251844",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "¡No digas nada!",
+    "es_author": "IA (Claude)",
+    "id": "s_1257392",
+    "it": "Non dire niente!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1257392",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "¡No digas nada!",
+    "es_author": "IA (Claude)",
+    "id": "s_1257393",
+    "it": "Non dire nulla!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1257393",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PARTICIPIO_ES"
     ],
     "es": "Tom besó a Mary.",
@@ -1486,6 +1671,29 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No esperes demasiado.",
+    "es_author": "IA (Claude)",
+    "id": "s_1270544",
+    "it": "Non aspettare troppo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1270544",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_COLLOCATION_CALQUE",
       "ERR_GEMINATE_SPELLING",
       "ERR_Z_AFFRICATE"
@@ -1532,6 +1740,29 @@
       "ERR_COLLOCATION_CALQUE": "colocacion_calcada",
       "ERR_GEMINATE_SPELLING": "geminata_ortografia",
       "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No mires la tele.",
+    "es_author": "IA (Claude)",
+    "id": "s_1281042",
+    "it": "Non guardare la TV.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1281042",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -1779,6 +2010,28 @@
       "ERR_ORA_ES": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Rovo",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "¡No lean esto!",
+    "es_author": "UccelloRosso",
+    "es_source_id": "13232475",
+    "id": "s_13227835",
+    "it": "Non leggere questo!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13227835",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -2059,6 +2312,30 @@
       "ERR_VOC_CLIMA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "¡No creas a Tom!",
+    "es_author": "IA (Claude)",
+    "id": "s_13481856",
+    "it": "Non credere a Tom!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13481856",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -2455,6 +2732,29 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_AUX_ESSERE"
+    ],
+    "es": "Él salió.",
+    "es_author": "IA (Claude)",
+    "id": "s_1408750",
+    "it": "Lui è uscito.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1408750",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_ACCENT_TRANSFER",
       "ERR_MANCARE"
     ],
@@ -2682,6 +2982,29 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_IGIENE"
+    ],
+    "es": "Anita limpia la tina.",
+    "es_author": "IA (Claude)",
+    "id": "s_1530299",
+    "it": "Anita lava la vasca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1530299",
+    "tag_rules": {
+      "ERR_VOC_IGIENE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_VOC_VORREI"
     ],
     "es": "Quisiera hablar con mi abogado.",
@@ -2798,6 +3121,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No digas nunca mentiras.",
+    "es_author": "IA (Claude)",
+    "id": "s_1547603",
+    "it": "Non dire mai bugie.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1547603",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -2838,6 +3185,30 @@
     "source_id": "1564787",
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "matsuteo",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No hagas ruido.",
+    "es_author": "IA (Claude)",
+    "id": "s_1576427",
+    "it": "Non fare rumore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1576427",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -2980,6 +3351,29 @@
       "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No nades en el río.",
+    "es_author": "IA (Claude)",
+    "id": "s_1645905",
+    "it": "Non nuotare nel fiume.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1645905",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -3300,6 +3694,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_IGIENE"
+    ],
+    "es": "Me lavo los dientes con un cepillo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1828186",
+    "it": "Mi lavo i denti con uno spazzolino.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1828186",
+    "tag_rules": {
+      "ERR_VOC_IGIENE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_RIFLESSIVO_PRONOME"
     ],
     "es": "Me cepillo los dientes cada mañana.",
@@ -3604,6 +4022,29 @@
       "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No vayas ahí ahora.",
+    "es_author": "IA (Claude)",
+    "id": "s_2019066",
+    "it": "Non andare lì ora.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2019066",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -4288,6 +4729,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AUX_ESSERE"
+    ],
+    "es": "Tom vino.",
+    "es_author": "IA (Claude)",
+    "id": "s_2478334",
+    "it": "Tom è venuto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2478334",
+    "tag_rules": {
+      "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -4359,6 +4823,54 @@
       "ERR_Z_AFFRICATE": "z_africata"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No entres.",
+    "es_author": "IA (Claude)",
+    "id": "s_2551350",
+    "it": "Non andare dentro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2551350",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No compres esa.",
+    "es_author": "IA (Claude)",
+    "id": "s_2555829",
+    "it": "Non comprare quella.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2555829",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -4434,6 +4946,30 @@
     "source_id": "2561137",
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No digas mentiras.",
+    "es_author": "IA (Claude)",
+    "id": "s_2674117",
+    "it": "Non dire bugie.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2674117",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -4611,6 +5147,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No tengas miedo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2743583",
+    "it": "Non avere paura.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2743583",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -4652,6 +5212,29 @@
       "ERR_AUX_ESSERE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No corras aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_2855315",
+    "it": "Non correre qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2855315",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -4796,6 +5379,29 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No pidas dinero.",
+    "es_author": "IA (Claude)",
+    "id": "s_3010777",
+    "it": "Non chiedere soldi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3010777",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -5514,6 +6120,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No hables de Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_3534938",
+    "it": "Non parlare di Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3534938",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -5818,6 +6448,52 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No hables en japonés.",
+    "es_author": "Shishir",
+    "es_source_id": "546976",
+    "id": "s_375644",
+    "it": "Non parlare giapponese.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "375644",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No hables de esa manera.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1469708",
+    "id": "s_375657",
+    "it": "Non parlare così.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "375657",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "martin",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -5908,6 +6584,30 @@
     "source_id": "3768550",
     "tag_rules": {
       "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No abras la ventana.",
+    "es_author": "IA (Claude)",
+    "id": "s_377300",
+    "it": "Non aprire la finestra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "377300",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -6639,6 +7339,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No digas esa palabra.",
+    "es_author": "IA (Claude)",
+    "id": "s_3985674",
+    "it": "Non dire quella parola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3985674",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -6931,6 +7654,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No hagas preguntas.",
+    "es_author": "IA (Claude)",
+    "id": "s_4244280",
+    "it": "Non fare domande.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4244280",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "shoras",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -6949,6 +7695,30 @@
     "source_id": "425582",
     "tag_rules": {
       "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No abra la puerta.",
+    "es_author": "Leono",
+    "es_source_id": "545922",
+    "id": "s_427951",
+    "it": "Non aprire la porta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "427951",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -7022,6 +7792,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No mires hacia arriba.",
+    "es_author": "IA (Claude)",
+    "id": "s_4395263",
+    "it": "Non guardare in alto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4395263",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -7046,6 +7839,29 @@
       "ERR_INDIRECT_PRONOUN_GENDER": "pronome_indiretto_genere"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "¡No vayas tan rápido!",
+    "es_author": "IA (Claude)",
+    "id": "s_4420668",
+    "it": "Non andare così veloce!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4420668",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -7271,6 +8087,29 @@
       "ERR_VOC_DENARO": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No escuches a Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_4668061",
+    "it": "Non ascoltare Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4668061",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -7782,6 +8621,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No digas demasiado.",
+    "es_author": "IA (Claude)",
+    "id": "s_5403124",
+    "it": "Non dire troppo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5403124",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -7850,6 +8712,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No corras tan rápido.",
+    "es_author": "IA (Claude)",
+    "id": "s_5631306",
+    "it": "Non correre così veloce.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5631306",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -7896,6 +8781,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No vayas a Boston.",
+    "es_author": "IA (Claude)",
+    "id": "s_5869696",
+    "it": "Non andare a Boston.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5869696",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "ver",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -7918,6 +8826,29 @@
       "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No hables con Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_5925192",
+    "it": "Non parlare con Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5925192",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -8887,6 +9818,30 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No hagas esto.",
+    "es_author": "DJ_Saidez",
+    "es_source_id": "9793689",
+    "id": "s_7223868",
+    "it": "Non fare questo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7223868",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PARTICIPIO_ES"
     ],
     "es": "Hemos intentado parar a Tom.",
@@ -9175,6 +10130,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No trabajes demasiado.",
+    "es_author": "IA (Claude)",
+    "id": "s_7765340",
+    "it": "Non lavorare troppo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7765340",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -9427,6 +10406,29 @@
       "ERR_VOC_ABITI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_IGIENE"
+    ],
+    "es": "Es un peine.",
+    "es_author": "IA (Claude)",
+    "id": "s_8670188",
+    "it": "È un pettine.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8670188",
+    "tag_rules": {
+      "ERR_VOC_IGIENE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -9824,6 +10826,52 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "¡No leas ese libro!",
+    "es_author": "IA (Claude)",
+    "id": "s_9739067",
+    "it": "Non leggere quel libro!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9739067",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No abras las puertas.",
+    "es_author": "IA (Claude)",
+    "id": "s_9742879",
+    "it": "Non aprire le porte.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9742879",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "hundo",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -9921,6 +10969,52 @@
     "translation_kind": "direct"
   },
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No llegues tarde.",
+    "es_author": "IA (Claude)",
+    "id": "s_984731",
+    "it": "Non fare tardi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "984731",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "¡No vuelvas a Roma!",
+    "es_author": "estambulista",
+    "es_source_id": "2766977",
+    "id": "s_987163",
+    "it": "Non tornare a Roma!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "987163",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "fullyfledged_pigeon",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -9965,6 +11059,53 @@
       "ERR_VOC_SALUTI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No uses mi lápiz.",
+    "es_author": "IA (Claude)",
+    "id": "s_995629",
+    "it": "Non usare la mia penna.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "995629",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_NEG"
+    ],
+    "es": "No cierres los ojos.",
+    "es_author": "Shishir",
+    "es_source_id": "573776",
+    "id": "s_995804",
+    "it": "Non chiudere gli occhi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "995804",
+    "tag_rules": {
+      "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "riccioberto",

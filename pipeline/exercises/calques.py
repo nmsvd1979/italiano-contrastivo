@@ -5,6 +5,7 @@ errónea. Todo usa listas cerradas: si el patrón no aparece, aparece dos veces 
 El resultado `wrong` es un error por construcción; nunca se genera italiano nuevo que pudiera ser válido.
 """
 import re
+from functools import lru_cache
 from dataclasses import dataclass
 from typing import Callable
 
@@ -383,6 +384,52 @@ def _imperativo(it: str):
     return Calque("ERR_IMPERATIVO_FORMA", m.start(1), m.end(1), w, _cap(IMPER_3SG[w.lower()], w), "morphological")
 
 
+_PLURAL_ART = r"(?:i|gli|le|dei|degli|delle|questi|queste|quei|quelle)"
+_POSS_PL = r"(?:miei|tuoi|suoi|nostri|vostri|loro|mie|tue|sue|nostre|vostre)"
+_PLURAL_RX = re.compile(rf"\b({_PLURAL_ART})\s+(?:{_POSS_PL}\s+)?([a-zàèéìòù]{{3,}})([ie])\b", re.I)
+_NO_PLURAL = {"piace", "vuole", "serve", "dice", "parte", "viene", "sente", "legge", "prende", "mette", "vive", "vede", "scrive", "chiede", "chiude", "apre", "dorme", "pare", "deve", "sembre", "troppe", "tutte", "altre", "molte", "poche", "quante", "tante", "alcune", "queste", "quelle", "stesse", "solite", "dopo", "prima", "ieri"}
+_MASC_FROM_E = ("nt", "or", "on", "al", "er", "ar", "ur", "ir")  # studenti, fiori, leoni, animali: vienen de -e; el error español (-es) es otro
+
+
+def _plural(it: str):
+    """El plural italiano cambia la vocal final (libro → libri, casa → case); el español agrega -s. Error: «i libros», «le casas»."""
+    from wordfreq import zipf_frequency
+    found = [m for m in _PLURAL_RX.finditer(it) if m.group(2).lower() + m.group(3).lower() not in _NO_PLURAL]
+    if len(found) != 1:
+        return None
+    m = found[0]
+    art, stem, end = m.group(1).lower(), m.group(2), m.group(3).lower()
+    fem = art in {"le", "delle", "queste", "quelle"}
+    if fem and end != "e" or not fem and end != "i":
+        return None
+    if not fem and stem.lower().endswith(_MASC_FROM_E):
+        return None
+    wrong = stem + ("as" if fem else "os")
+    if zipf_frequency(wrong, "it") >= zipf_frequency(stem + end, "it") - 1.0 or zipf_frequency(wrong, "it") >= 3.5:   # el error no puede ser una palabra italiana usual (wordfreq trae «casas» por textos con español)
+        return None
+    return Calque("ERR_PLURAL_FORMA", m.start(2), m.end(3), stem + end, _cap(wrong, stem + end), "morphological")
+
+
+_NEG = re.compile(r"^\s*Non\s+(\w+(?:are|ere|ire))\b(?=[^?]*[.!]\s*$)", re.I)
+
+
+@lru_cache(maxsize=1)
+def _tu_forms() -> dict[str, str]:
+    from pipeline.exercises import present
+    return {f.lemma: f.forms[1] for lst in present.FORMS.values() for f in lst}
+
+
+def _imperativo_neg(it: str):
+    """Mandato negativo de «tu»: non + infinitivo («Non parlare!»), no «Non parli!» (que es «tú no hablas»)."""
+    m = _NEG.match(it)
+    if not m or len(re.findall(r"\w+", it)) > 7 or re.search(r"\b(io|tu|lui|lei|noi|voi|loro)\b", it, re.I):
+        return None
+    tu = _tu_forms().get(m.group(1).lower())
+    if not tu or tu == m.group(1).lower():
+        return None
+    return Calque("ERR_IMPERATIVO_NEG", m.start(1), m.end(1), m.group(1), tu, "morphological")
+
+
 _GENERATORS: dict[str, Callable[[str], Calque | None]] = {
     "ERR_AUX_ESSERE": _aux_essere,
     "ERR_PREP_PLACE": _prep_place,
@@ -405,6 +452,8 @@ _GENERATORS: dict[str, Callable[[str], Calque | None]] = {
     "ERR_CHIAMARSI": _chiamarsi,
     "ERR_PRONOME_TONICO": _tonico,
     "ERR_IMPERATIVO_FORMA": _imperativo,
+    "ERR_PLURAL_FORMA": _plural,
+    "ERR_IMPERATIVO_NEG": _imperativo_neg,
     **{c: _vocab_for(c) for c in _vocab_codes()},
     **{c: _phonetic_for(c) for c in ("ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL", "ERR_GN_Z_SPELLING", "ERR_CONSONANTE_DOPPIA")},
     **{c: _present_for(c) for c in ("ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL")},

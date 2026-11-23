@@ -16,7 +16,7 @@ const at = NOW.toISOString();
 describe("módulos: estado y bloqueos", () => {
   it("sin progreso: el primer módulo pide su Entrada, sus cápsulas quedan bloqueadas y el siguiente módulo también", () => {
     const v = moduleViews(pack.course, [], false);
-    expect(v.modules.map((m) => m.state)).toEqual(["current", ...Array(9).fill("locked")]);
+    expect(v.modules.map((m) => m.state)).toEqual(["current", ...Array(pack.course.modules!.length - 1).fill("locked")]);
     expect(v.modules[0].next).toBe("entrada");
     expect(v.units.filter((u) => M1.units.includes(u.unit.id)).every((u) => u.state === "locked")).toBe(true);
     expect(currentView(v.units.filter((u) => !u.unit.level.endsWith("+")))).toBeUndefined();       // ninguna cápsula del camino principal toca todavía: «Hoy» propone la Entrada

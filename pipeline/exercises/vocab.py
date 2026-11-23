@@ -63,6 +63,8 @@ def _pick(seq, key: str):
 
 def find_vocab(code: str, it: str):
     """(start, end, palabra, sustituta, glosa, distractores) o None. Exactamente una palabra del tema en la oración."""
+    if code == "ERR_VOC_CONNETTIVI" and "?" in it:  # «perché» y «quando» al preguntar son interrogativos (otra unidad)
+        return None
     if code == "ERR_VOC_INTERROG" and "?" not in it:  # solo como pregunta («come» también es «como»)
         return None
     entries = topics()[code]

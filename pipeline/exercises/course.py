@@ -36,7 +36,7 @@ def fit_for_level(s: dict, level: str, code: str | None = None) -> bool:
     inadecuados). Antes la prueba tomaba las oraciones más largas y difíciles, y a A1 llegaban imperfetto, congiuntivo y frases de 20 palabras."""
     if level not in A1_LEVELS:
         return True
-    if _ENCLITIC.search(s["it"]) or _AUX_ESSERE_PP.search(s["it"]) or (code in SOUND_CODES and len(s["it"].split()) > SOUND_MAX_WORDS):  # «pensarci», «farcela»: pronombres enclíticos y ci/ne son de A2+
+    if _ENCLITIC.search(s["it"]) or (_AUX_ESSERE_PP.search(s["it"]) and code != "ERR_AUX_ESSERE") or (code in SOUND_CODES and len(s["it"].split()) > SOUND_MAX_WORDS):  # «pensarci», «farcela»: pronombres enclíticos y ci/ne son de A2+
         return False
     return not (italian_issue(s["it"], "A1") or spanish_issue(s.get("es")) or length_issue(s["it"], s.get("es")))
 
@@ -127,12 +127,10 @@ def build_course(sentences: list[dict], catalog: dict[str, dict]) -> dict:
                       "divergences": [_divergence(code, by_id[i]) for i in parts["descubre"]]})
     active = {u["id"] for u in units}
     modules = [{**m, "units": [x for x in m["units"] if x in active]} for m in raw.get("modules", [])]  # una unidad que baja a `planned` sale de su módulo (nunca se inventa)
-    # La ruta sigue el orden de los módulos: las unidades de módulos ocupan, en ese orden, los mismos huecos que tenían en la lista.
+    # La ruta sigue el orden de los módulos: primero las unidades de módulos, en ese orden; después las demás (A2, B1…) en su orden original.
     position = {u: i for i, u in enumerate(x for m in modules for x in m["units"])}
-    slots = [i for i, u in enumerate(units) if u["id"] in position]
-    ordered = sorted((units[i] for i in slots), key=lambda u: position[u["id"]])
-    for i, u in zip(slots, ordered):
-        units[i] = u
+    in_modules = sorted((u for u in units if u["id"] in position), key=lambda u: position[u["id"]])
+    units[:] = in_modules + [u for u in units if u["id"] not in position]
     entry = {x: m["entry_reading"] for m in modules for x in m["units"]}
     for u in units:  # si la lectura de la unidad es el texto de entrada de su módulo, el paso «Lectura» no se repite en la unidad
         if u.get("readings") and u["readings"][0] == entry.get(u["id"]):

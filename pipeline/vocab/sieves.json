@@ -2609,5 +2609,105 @@
   "k": "regular",
   "r": "otro",
   "n": "diciotto = diez + ocho (dici-otto)"
+ },
+ "e": {
+  "k": "opaca"
+ },
+ "ma": {
+  "k": "transparente",
+  "n": "ma = mas/pero"
+ },
+ "o": {
+  "k": "transparente"
+ },
+ "però": {
+  "k": "opaca",
+  "n": "però = pero, sin embargo; con tilde"
+ },
+ "allora": {
+  "k": "opaca",
+  "n": "allora = entonces"
+ },
+ "mentre": {
+  "k": "transparente",
+  "n": "mentre = mientras"
+ },
+ "quindi": {
+  "k": "opaca",
+  "n": "quindi = por lo tanto"
+ },
+ "certo": {
+  "k": "transparente",
+  "n": "certo = cierto, claro"
+ },
+ "forse": {
+  "k": "opaca",
+  "n": "forse = quizás"
+ },
+ "purtroppo": {
+  "k": "opaca",
+  "n": "purtroppo = lamentablemente"
+ },
+ "volentieri": {
+  "k": "opaca",
+  "n": "volentieri = con gusto"
+ },
+ "naturalmente": {
+  "k": "transparente"
+ },
+ "magari": {
+  "k": "opaca",
+  "n": "magari = ojalá / quizás"
+ },
+ "ovviamente": {
+  "k": "transparente"
+ },
+ "esatto": {
+  "k": "transparente",
+  "n": "esatto = exacto"
+ },
+ "accordo": {
+  "k": "transparente",
+  "n": "d'accordo = de acuerdo"
+ },
+ "di": {
+  "k": "transparente",
+  "n": "di = de"
+ },
+ "da": {
+  "k": "opaca",
+  "n": "da = desde, de origen, a casa de, por (agente)"
+ },
+ "con": {
+  "k": "transparente",
+  "n": "con = con"
+ },
+ "su": {
+  "k": "opaca",
+  "n": "su = sobre, en"
+ },
+ "per": {
+  "k": "transparente",
+  "n": "per = para, por"
+ },
+ "tra": {
+  "k": "transparente",
+  "n": "tra = entre"
+ },
+ "fra": {
+  "k": "transparente",
+  "n": "fra = entre"
+ },
+ "senza": {
+  "k": "transparente",
+  "n": "senza = sin"
+ },
+ "verso": {
+  "k": "transparente",
+  "n": "verso = hacia"
+ },
+ "contro": {
+  "k": "transparente",
+  "n": "contro = contra"
  }
 }

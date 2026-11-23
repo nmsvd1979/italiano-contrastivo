@@ -698,5 +698,75 @@
     ],
     "source": "Sillabo A1 de los enti certificatori (funciones: pedir, ofrecer); Piacere! (CC BY-NC-SA 4.0).",
     "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_CONNETTIVI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "review_status": "needs_review",
+    "explanation_es": "Las palabras que unen frases: e (y), ma (pero), o (o), anche (también), però (sin embargo), allora (entonces), mentre (mientras), quindi (por lo tanto). «Perché» (porque) y «quando» (cuando) también unen frases, pero se estudian con las palabras para preguntar (unidad de interrogativos). Ojo: «e» se escribe y se oye muy corta; «però» lleva tilde.",
+    "source": "Proyecto italiano-contrastivo: programa A1 de CILS y PLIDA (docs/cobertura-a1); lista de palabras en vocab_a1.yaml."
+  },
+  {
+    "code": "ERR_VOC_ACCORDO",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "review_status": "needs_review",
+    "explanation_es": "Para estar de acuerdo, dudar o reaccionar: certo (claro), d'accordo (de acuerdo), esatto (exacto), ovviamente y naturalmente (obviamente), forse (quizás), magari (ojalá, quizás), volentieri (con gusto), purtroppo (lamentablemente). «Sì» lleva tilde; sin tilde, «si» es otra palabra.",
+    "source": "Proyecto italiano-contrastivo: programa A1 de CILS y PLIDA (docs/cobertura-a1); lista de palabras en vocab_a1.yaml."
+  },
+  {
+    "code": "ERR_VOC_PREPOSIZIONI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "review_status": "needs_review",
+    "explanation_es": "Las preposiciones simples: di (de), da (desde, de origen, a casa de), con, su (sobre, en), per (para, por), tra y fra (entre), senza (sin), verso (hacia), contro (contra). Las de lugar (sopra, sotto, dentro, fuori, davanti, dietro) están con las direcciones. Ojo: «de/desde» se reparte entre di y da; «para y por» son per; «sobre la mesa» es «sulla tavola» (su + la).",
+    "source": "Proyecto italiano-contrastivo: programa A1 de CILS y PLIDA (docs/cobertura-a1); lista de palabras en vocab_a1.yaml."
+  },
+  {
+    "code": "ERR_PLURAL_FORMA",
+    "category": "GENDER_NUMBER_AGREEMENT",
+    "sieve": null,
+    "cefr_min": "A1",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "review_status": "needs_review",
+    "explanation_es": "El plural italiano cambia la vocal final, no agrega -s: libro → libri, casa → case, amico → amici, studente → studenti. Los nombres en -o forman el plural en -i; los de -a, en -e; los de -e, en -i. Por eso «i libros» o «le casas» son errores típicos del español.",
+    "source": "Piacere! (Univ. de Iowa, CC BY-NC-SA 4.0), «I nomi»; programa A1 de CILS: género y número de los nombres regulares."
+  },
+  {
+    "code": "ERR_IMPERATIVO_NEG",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A1",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "review_status": "needs_review",
+    "explanation_es": "El mandato negativo con «tu» es non + infinitivo: non parlare!, non mangiare!, non dormire!. El español usa otra forma del verbo («no hables»), pero en italiano «non parli» es «tú no hablas», no una orden.",
+    "source": "Piacere! (Univ. de Iowa), «Imperativo (tu, noi, voi)»; programa A1 de CILS: imperativo afirmativo y negativo."
   }
 ]

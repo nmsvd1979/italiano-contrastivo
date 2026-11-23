@@ -23,10 +23,10 @@ const withUnits = async (store: ReturnType<typeof memoryStore>, m: (typeof mods)
 const putMod = (store: ReturnType<typeof memoryStore>, id: string, done: Record<string, string>) => store.putUnit({ ...emptyProgress(moduleProgressId(id)), done });
 
 describe("pantallas de módulo", () => {
-  it("la ruta lista los 10 módulos de A1 con lo que sabrás hacer, y solo el primero está abierto", () => {
+  it("la ruta lista los módulos de A1 con lo que sabrás hacer, y solo el primero está abierto", () => {
     const v = moduleViews(pack.course, [], false);
     render(<RouteScreen views={v.units} modules={v.modules} pack={pack} />);
-    expect(screen.getByText(/0 de 10 módulos completados/)).toBeTruthy();
+    expect(screen.getByText(new RegExp(`0 de ${mods.length} módulos completados`))).toBeTruthy();
     expect(screen.getAllByRole("link", { name: /^\d+\. / }).length).toBe(1);           // un solo módulo con enlace
     expect(screen.getByText(mods[0].can_do_es[0])).toBeTruthy();
   });

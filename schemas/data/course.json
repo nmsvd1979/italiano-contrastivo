@@ -64,15 +64,16 @@
       "can_do_es": [
         "Decir de dónde eres y dónde vives.",
         "Decir tu edad y tu dirección con los números.",
-        "Usar los verbos en -are para decir dónde vives, qué hablas y qué haces (parlo, abito).",
+        "Usar los verbos en -are para decir dónde vives y qué hablas (parlo, abito).",
         "Deletrear tu nombre con el alfabeto italiano.",
-        "Dar tus datos cuando te los piden con «Lei»."
+        "Hacer el plural de los nombres (libro → libri, casa → case)."
       ],
       "units": [
         "u45",
         "u14",
         "u26",
         "u54",
+        "u66",
         "u55"
       ],
       "entry_reading": "rd_dovesei",
@@ -102,7 +103,8 @@
         "u19",
         "u49",
         "u38",
-        "u32"
+        "u32",
+        "u53"
       ],
       "entry_reading": "rd_zaino",
       "roleplays": [
@@ -157,7 +159,8 @@
         "u25",
         "u59",
         "u56",
-        "u40"
+        "u40",
+        "u48"
       ],
       "entry_reading": "rd_routine",
       "roleplays": [],
@@ -176,6 +179,7 @@
         "Proponer un plan y aceptar o rechazarlo.",
         "Decir qué quieres, puedes y debes hacer.",
         "Hacer preguntas con dove, quando, perché, come.",
+        "Unir frases con e, ma, perché y quando, y mostrar acuerdo o duda (certo, forse).",
         "Pronunciar «gn» y «z» (gnocchi, pizza, grazie)."
       ],
       "units": [
@@ -183,7 +187,10 @@
         "u17",
         "u36",
         "u30",
-        "u63"
+        "u63",
+        "u50",
+        "u68",
+        "u69"
       ],
       "entry_reading": "rd_stasera",
       "roleplays": [
@@ -202,7 +209,8 @@
         "Describir tu casa y tu ciudad con «c'è» y «ci sono».",
         "Decir dónde estás y a dónde vas (a, in, nel, sul).",
         "Preguntar y entender cómo llegar a un lugar con «Lei».",
-        "Pedir un servicio en un hotel."
+        "Pedir un servicio en un hotel.",
+        "Usar bien las preposiciones di, da, con, su, per y tra."
       ],
       "units": [
         "u23",
@@ -210,7 +218,9 @@
         "u24",
         "u05",
         "u06",
-        "u57"
+        "u57",
+        "u34",
+        "u70"
       ],
       "entry_reading": "rd_poste",
       "roleplays": [
@@ -240,7 +250,9 @@
         "u35",
         "u65",
         "u04",
-        "u64"
+        "u64",
+        "u46",
+        "u52"
       ],
       "entry_reading": "rd_trattoria",
       "roleplays": [
@@ -285,30 +297,55 @@
     {
       "id": "m10",
       "level": "A1",
-      "title": "El cuerpo, el tiempo y el trabajo; contar lo que hiciste",
+      "title": "El cuerpo, la salud, el tiempo y el trabajo",
       "can_do_es": [
         "Decir qué te duele y nombrar partes del cuerpo.",
-        "Hablar del tiempo y de los animales.",
-        "Contar a qué te dedicas.",
-        "Dar y entender órdenes sencillas y contar algo que acabas de hacer."
+        "Hablar del tiempo y de la naturaleza.",
+        "Nombrar animales.",
+        "Contar a qué te dedicas."
       ],
       "units": [
         "u27",
         "u33",
         "u28",
         "u29",
-        "u62",
-        "u58"
+        "u43",
+        "u51"
       ],
-      "entry_reading": "rd_viaggio",
+      "entry_reading": "rd_medici",
       "roleplays": [],
       "tasks": [
-        "ht_lavoro",
-        "ht_passato"
+        "ht_lavoro"
       ],
       "phrase_groups": [
         "ph_tempo"
       ],
+      "library": "plida-a1",
+      "library_task_es": "Revisa el ejemplo de PLIDA A1 e identifica qué partes ya sabrías hacer."
+    },
+    {
+      "id": "m11",
+      "level": "A1",
+      "title": "Contar lo que hiciste y dar órdenes",
+      "can_do_es": [
+        "Contar algo que hiciste con «ho + participio» (ho mangiato, ho visto).",
+        "Elegir el auxiliar correcto con verbos de movimiento (sono andato, no «ho andato»).",
+        "Dar y entender órdenes sencillas (parla, apri, leggi).",
+        "Terminar los participios en -ato, -uto, -ito (no -ado, -ido).",
+        "Decir lo que no se debe hacer (non parlare!)."
+      ],
+      "units": [
+        "u58",
+        "u08",
+        "u62",
+        "u67"
+      ],
+      "entry_reading": "rd_viaggio",
+      "roleplays": [],
+      "tasks": [
+        "ht_passato"
+      ],
+      "phrase_groups": [],
       "library": "plida-a1",
       "library_task_es": "Revisa el ejemplo de PLIDA A1 e identifica qué partes ya sabrías hacer."
     }
@@ -1478,13 +1515,13 @@
     },
     {
       "id": "u08",
-      "level": "A2",
+      "level": "A1",
       "title": "Sono andato: el auxiliar essere",
       "goal_es": "Verbos de movimiento y cambio piden essere: sono andato, no «ho andato».",
       "codes": [
         "ERR_AUX_ESSERE"
       ],
-      "why_here": "Punto crítico del passato prossimo (A2).",
+      "why_here": "Contar lo que hiciste con verbos de movimiento: el programa de CILS A1 pide elegir bien el auxiliar (essere o avere); la concordancia del participio llega en A2.",
       "ficha_es": "En A2 aprendes que los verbos de movimiento y de cambio de estado usan essere como auxiliar: sono andato, sono arrivata, sono partiti. El español usa «haber» siempre («he ido, he llegado»).\n\nError típico: «ho andato» en vez de sono andato. Con essere el participio concuerda con el sujeto (sono andata, siamo partiti).",
       "readings": [
         "rd_giornatabrutta"
@@ -1536,7 +1573,7 @@
     },
     {
       "id": "u34",
-      "level": "A1+",
+      "level": "A1",
       "title": "Vocabulario: transportes y viajes",
       "goal_es": "Treno, autobus, aereo, macchina, biglietto, fermata… y «in treno», «in macchina», pero «a piedi».",
       "codes": [
@@ -1547,7 +1584,7 @@
     },
     {
       "id": "u43",
-      "level": "A1+",
+      "level": "A1",
       "title": "Vocabulario: la salud",
       "goal_es": "Salute, febbre, tosse, dolore, malattia… y «ho paura», «ho sonno», «ho fame» con avere.",
       "codes": [
@@ -1558,7 +1595,7 @@
     },
     {
       "id": "u46",
-      "level": "A1+",
+      "level": "A1",
       "title": "Vocabulario: frutas, verduras y condimentos",
       "goal_es": "Patata, cipolla, fragola, uva, sale, pepe, funghi… y su género.",
       "codes": [
@@ -1569,7 +1606,7 @@
     },
     {
       "id": "u47",
-      "level": "A1+",
+      "level": "A1",
       "title": "Vocabulario: tiendas y comercios",
       "goal_es": "Pasticceria, panificio, libreria, edicola, macelleria… y «libreria» = librería, no biblioteca.",
       "codes": [
@@ -1580,7 +1617,7 @@
     },
     {
       "id": "u48",
-      "level": "A1+",
+      "level": "A1",
       "title": "Vocabulario: higiene personal",
       "goal_es": "Sapone, spazzolino, dentifricio, asciugamano, doccia, shampoo…",
       "codes": [
@@ -1591,7 +1628,7 @@
     },
     {
       "id": "u50",
-      "level": "A1+",
+      "level": "A1",
       "title": "Vocabulario: ideas y sentimientos",
       "goal_es": "Amore, amicizia, idea, problema, verità, libertà… y su género (la verità, il problema).",
       "codes": [
@@ -1602,7 +1639,7 @@
     },
     {
       "id": "u51",
-      "level": "A1+",
+      "level": "A1",
       "title": "Vocabulario: la naturaleza",
       "goal_es": "Bosco, collina, deserto, sentiero, pietra, erba, terra, fuoco…",
       "codes": [
@@ -1613,7 +1650,7 @@
     },
     {
       "id": "u52",
-      "level": "A1+",
+      "level": "A1",
       "title": "Vocabulario: la cocina y las comidas",
       "goal_es": "Pentola, forno, cibo, cena, pranzo, sapore… y «cena» como sustantivo y como verbo.",
       "codes": [
@@ -1624,7 +1661,7 @@
     },
     {
       "id": "u53",
-      "level": "A1+",
+      "level": "A1",
       "title": "Vocabulario: el idioma y el estudio",
       "goal_es": "Frase, parola, lingua, pagina, voto, maestro… y «lingua» = idioma.",
       "codes": [
@@ -1632,6 +1669,67 @@
       ],
       "why_here": "Hablar de estudiar y de idiomas, con las nacionalidades ya vistas.",
       "ficha_es": "El idioma y el estudio: lavagna, gomma, voto, corso, maestro, maestra, compagno, materia, testo, pagina, frase, parola, lingua, grammatica, traduzione, diploma, laurea. «Lingua» es el idioma y también la lengua del cuerpo.\n\n«Voto» es la nota de un examen (y también el voto político). «Laurea» es el título universitario. «Corso» es un curso."
+    },
+    {
+      "id": "u66",
+      "level": "A1",
+      "title": "Plurales: libro → libri, casa → case",
+      "goal_es": "El plural cambia la vocal final, no agrega -s: libro → libri, casa → case, studente → studenti.",
+      "codes": [
+        "ERR_PLURAL_FORMA"
+      ],
+      "why_here": "Casi todo lo que cuentas con más de una cosa necesita plural, y el español hace el plural con -s: es el calco más probable («i libros»).",
+      "ficha_es": "Cómo se forma el plural: los nombres en -o cambian a -i (libro → libri, amico → amici); los de -a, a -e (casa → case, ragazza → ragazze); los de -e, a -i (studente → studenti, nome → nomi). Nunca se agrega -s.\n\nCasos frecuentes: -ca y -ga cambian a -che y -ghe (amica → amiche, riga → righe); -cia y -gia pierden la i (arancia → arance, camicia → camicie es la excepción cuando la i se pronuncia). Los nombres con tilde y los cortos no cambian: la città → le città, il caffè → i caffè, il bar → i bar.\n\nEl artículo también cambia: il → i, lo → gli, la → le: i libri, gli studenti, le case.",
+      "readings": [
+        "rd_passatempi"
+      ]
+    },
+    {
+      "id": "u67",
+      "level": "A1",
+      "title": "Mandato negativo: non parlare!",
+      "goal_es": "La orden negativa de «tu» es non + infinitivo: non parlare!, non dormire!, no «non parli».",
+      "codes": [
+        "ERR_IMPERATIVO_NEG"
+      ],
+      "why_here": "Completa el imperativo (u62): también hay que saber decir lo que no se debe hacer.",
+      "ficha_es": "Para prohibir o pedir que no hagan algo se usa non + infinitivo: Non parlare! Non mangiare qui! Non dormire! (con «tu»). El español usa una forma distinta del verbo (no hables), pero en italiano «Non parli» significa «tú no hablas», no una orden.\n\nAfirmativo (u62): Parla! Mangia! Apri! Negativo: Non parlare! Non mangiare! Non aprire!",
+      "readings": [
+        "rd_professore"
+      ]
+    },
+    {
+      "id": "u68",
+      "level": "A1",
+      "title": "Vocabulario: unir frases (e, ma, perché, quando)",
+      "goal_es": "Las palabras que unen frases: e, ma, o, perché, quando, anche, però, allora, poi, mentre, quindi.",
+      "codes": [
+        "ERR_VOC_CONNETTIVI"
+      ],
+      "why_here": "Con ellas pasas de frases sueltas a frases enlazadas, que es lo que se pide en escritura A1–A2.",
+      "ficha_es": "Estas palabras unen frases y cambian el sentido: e (y), ma (pero), o (o), anche (también), però (sin embargo), allora (entonces), mentre (mientras), quindi (por lo tanto).\n\nOjo con dos cosas: «e» es muy corta y casi no se oye (mangia e bevi), y «però» lleva tilde en la o. «Perché» (porque) y «quando» (cuando) también unen frases; las encuentras con los interrogativos."
+    },
+    {
+      "id": "u69",
+      "level": "A1",
+      "title": "Vocabulario: acuerdo y duda (certo, forse, d'accordo)",
+      "goal_es": "Para estar de acuerdo, dudar o reaccionar: certo, d'accordo, esatto, forse, magari, volentieri, purtroppo.",
+      "codes": [
+        "ERR_VOC_ACCORDO"
+      ],
+      "why_here": "El programa de A1 pide expresar acuerdo, desacuerdo y duda de forma sencilla.",
+      "ficha_es": "Para reaccionar: certo (claro), d'accordo (de acuerdo), esatto (exacto), ovviamente y naturalmente (obviamente), volentieri (con gusto). Para dudar: forse (quizás) y magari (ojalá, quizás). Para lamentar: purtroppo (lamentablemente).\n\nSe usan solas o al comienzo de la frase: Forse hai ragione. Sono d'accordo. Ti aiuto volentieri."
+    },
+    {
+      "id": "u70",
+      "level": "A1",
+      "title": "Vocabulario: preposiciones (di, da, con, su, per, tra)",
+      "goal_es": "Las preposiciones simples: di, da, con, su, per, tra, fra, senza, sopra, sotto, dentro, fuori, davanti, dietro.",
+      "codes": [
+        "ERR_VOC_PREPOSIZIONI"
+      ],
+      "why_here": "Completa a / in (u05) y las contracciones (u06): «de», «desde», «sobre», «para» y «por» no se reparten igual que en español.",
+      "ficha_es": "di (de: la casa di Tom), da (desde y a casa de: vengo da Roma, vado da Marco), con (con), su (sobre: sul tavolo), per (para y por: è per te), tra y fra (entre: tra noi), senza (sin), verso (hacia) y contro (contra).\n\nOjo: «de» no siempre es di; «desde» y «a casa de» son da; «para» y «por» son per; y «en» casi nunca es su: se usa in o a (unidad de a / in)."
     }
   ],
   "planned": [
