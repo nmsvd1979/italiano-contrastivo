@@ -3,7 +3,7 @@ import { readFileSync } from "node:fs";
 import { afterEach, describe, expect, it } from "vitest";
 import type { ContentPack } from "../content/load";
 import { masterByPlacement, emptyProgress } from "../state/course";
-import { hitoId, HITO, milestoneItems, milestoneListenSentences, milestoneOpen, milestoneProgress, milestoneWriteItems, oralPassed, scoreMilestone } from "../state/milestone";
+import { milestoneReadings, hitoId, HITO, milestoneItems, milestoneListenSentences, milestoneOpen, milestoneProgress, milestoneWriteItems, oralPassed, scoreMilestone } from "../state/milestone";
 import { setPreview } from "../state/preview";
 import { memoryStore } from "../state/store";
 import { MilestoneScreen } from "./MilestoneScreen";
@@ -132,5 +132,61 @@ describe("examen de hito A1", () => {
     expect(await screen.findByText("¡Nivel A1 completado!")).toBeTruthy();
     expect(screen.getByText(/Hablar \(autoevaluación\)/)).toBeTruthy();
     expect((await store.allUnits()).find((u) => u.unitId === hitoId("A1"))).toMatchObject({ completed: true });
+  });
+});
+
+const readingsAll = read("readings.json");
+const withReadings = { ...pack, speaking, readings: readingsAll } as ContentPack;
+
+/** Lee las lecturas no vistas y responde (bien o mal todas). */
+async function answerReadings(p: ContentPack, right: boolean) {
+  for (const r of milestoneReadings(p)) {
+    fireEvent.click(await screen.findByText("Ya lo leí: preguntas"));
+    for (const q of r.questions) {
+      const good = q.options[q.answer];
+      const bad = q.options.find((_, i) => i !== q.answer)!;
+      fireEvent.click(await screen.findByText(right ? good : bad));
+      fireEvent.click(await screen.findByText("Continuar"));
+    }
+  }
+}
+
+describe("hito: lectura de textos no vistos", () => {
+  it("hay una lectura y un documento de examen que ninguna unidad usa, sin traducción visible", () => {
+    const ex = milestoneReadings(withReadings);
+    expect(ex.map((r) => r.id)).toEqual(["rd_orario", "rd_valentina"]);
+    const used = new Set(pack.course.units.flatMap((u) => u.readings ?? []));
+    expect(ex.some((r) => used.has(r.id))).toBe(false);
+    expect(ex.find((r) => r.id === "rd_orario")!.table!.rows.length).toBeGreaterThan(3);
+  });
+  it("el examen pide leer, no muestra la traducción y aprueba con todo bien", async () => {
+    setPreview(true);
+    const store = memoryStore();
+    render(<MilestoneScreen pack={withReadings} store={store} />);
+    fireEvent.click(await screen.findByText("Empezar"));
+    await answerAll(withReadings);
+    expect(await screen.findByText(/Aquí no hay traducción|Documento/)).toBeTruthy();
+    expect(screen.queryByText(/Traducción al español: IA/)).toBeNull();
+    await answerReadings(withReadings, true);
+    fireEvent.click(await screen.findByRole("button", { name: /Empezar a hablar/ }));
+    fireEvent.click(await screen.findByRole("button", { name: "Terminé" }));
+    for (const box of await screen.findAllByRole("checkbox")) fireEvent.click(box);
+    fireEvent.click(screen.getByRole("button", { name: "Ver mi resultado" }));
+    expect(await screen.findByText("¡Nivel A1 completado!")).toBeTruthy();
+    expect(screen.getByText(/Leer: \d+ de \d+/)).toBeTruthy();
+  });
+  it("no aprueba si no entiendes los textos aunque el resto salga perfecto", async () => {
+    setPreview(true);
+    const store = memoryStore();
+    render(<MilestoneScreen pack={withReadings} store={store} />);
+    fireEvent.click(await screen.findByText("Empezar"));
+    await answerAll(withReadings);
+    await answerReadings(withReadings, false);
+    fireEvent.click(await screen.findByRole("button", { name: /Empezar a hablar/ }));
+    fireEvent.click(await screen.findByRole("button", { name: "Terminé" }));
+    for (const box of await screen.findAllByRole("checkbox")) fireEvent.click(box);
+    fireEvent.click(screen.getByRole("button", { name: "Ver mi resultado" }));
+    expect(await screen.findByText("Todavía no")).toBeTruthy();
+    expect((await store.allUnits()).find((u) => u.unitId === hitoId("A1"))?.completed).toBeFalsy();
   });
 });

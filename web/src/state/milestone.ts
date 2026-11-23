@@ -1,4 +1,4 @@
-import type { ContentPack, PackSentence, SpeakingTask, Unit } from "../content/load";
+import type { ContentPack, PackSentence, Reading, SpeakingTask, Unit } from "../content/load";
 import type { Item } from "../generated/item";
 import { emptyProgress } from "./course";
 import type { UnitProgress } from "./store";
@@ -7,11 +7,12 @@ import { writeItemOf } from "./write";
 
 /**
  * Examen de hito (fuentes): A1 pondera 35 % léxico / 65 % gramática en las 40 preguntas de reconocimiento. Desde 2026-11-23 suma
- * producción (12 frases escritas desde el español, sin «mi versión también es correcta»), escucha (6 dictados) y una tarea oral
+ * producción (12 frases escritas desde el español, sin «mi versión también es correcta»), escucha (6 dictados), lectura de textos NO vistos
+ * (una lectura y un horario, sin traducción) y una tarea oral
  * autoevaluada con rúbrica. Se aprueba con ≥65 % global y ≥50 % en cada parte, y la parte oral exige cumplir la mitad de la rúbrica.
  */
 export const HITO = { A1: { lex: 0.35, total: 40 }, WRITE: 12, LISTEN: 6, PASS_GLOBAL: 0.65, PASS_PART: 0.5, PASS_ORAL: 0.5 } as const;
-export type Part = "lex" | "gram" | "write" | "listen";
+export type Part = "lex" | "gram" | "write" | "listen" | "read";
 export const partOf = (u: Unit): Part => (u.codes[0].startsWith("ERR_VOC_") ? "lex" : "gram");
 export const hitoId = (level: string) => `hito:${level}`;
 
@@ -66,16 +67,20 @@ export function milestoneListenSentences(pack: ContentPack, level = "A1", used: 
   return out;
 }
 
+/** Lecturas NO vistas del examen (ninguna unidad las usa): un texto y un documento, sin traducción. */
+export const milestoneReadings = (pack: ContentPack, level = "A1"): Reading[] =>
+  (pack.readings ?? []).filter((r) => r.exam && r.level === level).sort((a, b) => a.id.localeCompare(b.id));
+
 /** Tarea oral del hito: la primera del nivel (se autoevalúa con su rúbrica). */
 export const milestoneOralTask = (pack: ContentPack, level = "A1"): SpeakingTask | undefined => pack.speaking?.tasks.find((t) => t.level === level);
 
 export function scoreMilestone(parts: Part[], answers: boolean[]) {
   const tally = (p: Part) => ({ correct: answers.filter((a, i) => a && parts[i] === p).length, total: parts.filter((x) => x === p).length });
-  const lex = tally("lex"), gram = tally("gram"), write = tally("write"), listen = tally("listen");
+  const lex = tally("lex"), gram = tally("gram"), write = tally("write"), listen = tally("listen"), read = tally("read");
   const total = answers.length ? answers.filter(Boolean).length / answers.length : 0;
   const ratio = (t: { correct: number; total: number }) => (t.total ? t.correct / t.total : 1);
-  const passed = total >= HITO.PASS_GLOBAL && [lex, gram, write, listen].every((t) => ratio(t) >= HITO.PASS_PART);
-  return { lex, gram, write, listen, total, passed };
+  const passed = total >= HITO.PASS_GLOBAL && [lex, gram, write, listen, read].every((t) => ratio(t) >= HITO.PASS_PART);
+  return { lex, gram, write, listen, read, total, passed };
 }
 
 /** La parte oral es autoevaluación: se pasa cumpliendo la mitad de la rúbrica. */

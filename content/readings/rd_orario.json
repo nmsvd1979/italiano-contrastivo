@@ -1,0 +1,123 @@
+{
+  "id": "rd_orario",
+  "title": "L'orario di Valentina",
+  "level": "A1",
+  "kind": "documento",
+  "exam": true,
+  "source": {
+    "book": "Tutt* a tavola! Volume 1 (UMass Amherst)",
+    "authors": "Stacy Giufre y Melina Masterson",
+    "url": "https://openbooks.library.umass.edu/tutt-a-tavola-vol-1/chapter/capitolo-3/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Tabla del libro (L'orario di Valentina), con las celdas tal cual. Es un documento tipo «agenda/horario» como los que pide PLIDA A1; las preguntas son nuestras, en español.",
+  "table": {
+    "head": [
+      "",
+      "lunedì",
+      "martedì",
+      "mercoledì",
+      "giovedì",
+      "venerdì"
+    ],
+    "rows": [
+      [
+        "10:00 am",
+        "lezione di inglese",
+        "",
+        "lezione di inglese",
+        "esame di biologia",
+        "lezione di inglese"
+      ],
+      [
+        "12:00 pm",
+        "",
+        "pranzo con Fede",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2:30 pm",
+        "caffè con Francesca",
+        "",
+        "lavoro in biblioteca",
+        "",
+        "rispondere alle email della settimana"
+      ],
+      [
+        "4 pm",
+        "",
+        "incontro con il prof. d'inglese",
+        "",
+        "",
+        "lavoro in biblioteca"
+      ],
+      [
+        "6 pm",
+        "pulire la casa",
+        "",
+        "",
+        "partita di pallavolo",
+        ""
+      ],
+      [
+        "8 pm",
+        "",
+        "",
+        "cinema con Fede",
+        "",
+        "cena a casa di Fede"
+      ]
+    ]
+  },
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "Según el horario, ¿a qué hora es el encuentro con el profesor de inglés?",
+      "options": [
+        "A las 2:30 pm",
+        "A las 4 pm",
+        "A las 6 pm"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Qué día tiene el examen de biología?",
+      "options": [
+        "El jueves",
+        "El lunes",
+        "El viernes"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Qué hace Valentina el miércoles por la noche (8 pm)?",
+      "options": [
+        "Cena en casa de Fede",
+        "Juega voleibol",
+        "Va al cine con Fede"
+      ],
+      "answer": 2
+    },
+    {
+      "prompt_es": "¿Cuándo es el partido de voleibol?",
+      "options": [
+        "El martes a las 6 pm",
+        "El jueves a las 6 pm",
+        "El lunes a las 6 pm"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Qué día toma un café con Francesca y a qué hora?",
+      "options": [
+        "El lunes a las 2:30 pm",
+        "El viernes a las 2:30 pm",
+        "El lunes a las 12:00 pm"
+      ],
+      "answer": 0
+    }
+  ],
+  "translation": "IA (Claude): las preguntas y opciones están en español; el documento no se traduce (sin revisar por un hablante nativo)"
+}

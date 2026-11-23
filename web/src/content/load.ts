@@ -26,7 +26,11 @@ export type Unit = {
 export type ReadingSentence = { id: string; it: string; es: string; audio?: string; speaker?: string };
 export type ReadingQuestion = { prompt_es: string; options: string[]; answer: number; evidence?: number };
 export type Reading = {
-  id: string; title: string; level: string; kind: "lectura" | "dialogo";
+  id: string; title: string; level: string; kind: "lectura" | "dialogo" | "documento";
+  /** Lectura NO vista: solo la usa el examen de hito (ninguna unidad). */
+  exam?: boolean;
+  /** Documento (horario, agenda): tabla con las celdas tal cual del libro. */
+  table?: { head: string[]; rows: string[][] };
   source: { book: string; authors: string; url: string; license: string };
   translation: string; sentences: ReadingSentence[]; questions: ReadingQuestion[];
 };

@@ -11,7 +11,7 @@ from pipeline import config
 from pipeline.tts.ids import clip_id, clip_id2
 
 MIN_QUESTIONS = 4
-KINDS = {"lectura", "dialogo"}
+KINDS = {"lectura", "dialogo", "documento"}   # documento: tabla (horario, agenda) en vez de oraciones
 
 
 def validate(r: dict) -> list[str]:
@@ -24,6 +24,10 @@ def validate(r: dict) -> list[str]:
     for k in ("book", "authors", "url", "license"):
         if not (r.get("source") or {}).get(k):
             errs.append(f"{r.get('id')}: falta source.{k}")
+    if r.get("kind") == "documento":
+        t = r.get("table") or {}
+        if not t.get("head") or not t.get("rows") or any(len(row) != len(t["head"]) for row in t["rows"]):
+            errs.append(f"{r.get('id')}: un documento necesita table con head y filas del mismo ancho")
     ids = [s.get("id") for s in sents]
     if len(set(ids)) != len(ids):
         errs.append(f"{r.get('id')}: ids de oración repetidos")
@@ -90,6 +94,10 @@ def build_pack(src_dir: Path, pack_dir: Path) -> list[dict]:
     pack = []
     for r in readings:
         d = {k: r[k] for k in ("id", "title", "level", "kind", "source", "translation", "questions")}
+        if r.get("exam"):
+            d["exam"] = True   # lectura NO vista: solo para el examen de hito (ninguna unidad la usa)
+        if r.get("table"):
+            d["table"] = r["table"]
         voices = voices_of(r["sentences"])
         second = lambda s: voices.get(s.get("speaker", ""), 0) == 1  # noqa: E731
         d["sentences"] = [{"id": s["id"], "it": s["it"], "es": s["es"], **({"speaker": s["speaker"]} if s.get("speaker") else {}),

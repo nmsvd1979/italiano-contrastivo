@@ -2,6 +2,12 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-23 (8) — Lectura no vista en el hito y texto tipo «horario»
+**Hecho:** el hito A1 ahora tiene **cinco partes** (reconocimiento, escribir, escuchar, **leer** y hablar). La parte de lectura usa dos textos que **ninguna unidad usa** y se muestran **sin traducción ni tamices**: «La giornata di Valentina» (14 oraciones, *Tutt* a tavola!* cap. 3, CC BY-NC) y un **documento tipo PLIDA**, «L'orario di Valentina» (agenda semanal con las celdas tal cual del libro; 5 preguntas en español). Hay que acertar ≥50 % en cada parte. Nuevo tipo de lectura `documento` (tabla) y marca `exam` en `content/readings/`; 33 palabras nuevas clasificadas en `reading_words.json`; 14 audios (Serena).
+**Fuentes:** leídas en el navegador integrado (el lector automático recibe 403). Revisé también *Leggiamo* y *Piacere!*: **no hay diálogo de bar ni de tiempo atmosférico** (solo vocabulario y la frase «prendo sempre un caffè al bar»).
+**Sigue pendiente (sin fuente abierta accesible):** diálogo de bar completo, diálogo de tiempo atmosférico, menú/cartel/sms tipo PLIDA, y *diciannove* (la base solo trae «diciannovesimo»). La revisión por un nativo no es posible (decisión del usuario): la tasa de error real del contenido validado por IA queda sin medir y la app debe seguir declarándolo.
+**Pruebas:** Python 1245 y web 893 en verde. **No se vio** la tabla del horario en el navegador (solo pruebas) ni se probó en iPhone.
+
 ## 2026-11-23 (7) — Bloque 3 (parte): tercer distractor, fluidez y revisión nativa
 **Hecho:**
 1. **Distractores:** las elecciones con 2 opciones bajaron de 2.570 a 1.100 (ahora 2.681 tienen 3). Tercera opción: otra persona del mismo verbo (presente), otra palabra del tema (vocabulario, se distingue por audio) u otra grafía imposible (sonidos). Los códigos sin generador (chiamarsi, piacere, riflessivo, tenere, artículos, género…) siguen con 2: son errores de una sola forma.

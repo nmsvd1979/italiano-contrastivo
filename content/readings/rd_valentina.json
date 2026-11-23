@@ -1,0 +1,149 @@
+{
+  "id": "rd_valentina",
+  "title": "La giornata di Valentina",
+  "level": "A1",
+  "kind": "lectura",
+  "exam": true,
+  "source": {
+    "book": "Tutt* a tavola! Volume 1 (UMass Amherst)",
+    "authors": "Stacy Giufre y Melina Masterson",
+    "url": "https://openbooks.library.umass.edu/tutt-a-tavola-vol-1/chapter/capitolo-3/",
+    "license": "CC BY-NC 4.0"
+  },
+  "adaptation": "Texto original del libro, partido en oraciones. Se unieron dos pies de foto («Leggo molti articoli per i miei corsi…» y «…e prendo molti appunti–mi piace scrivere!») en una oración, con dos puntos en lugar del guion. Es la lectura NO vista del examen de hito: ninguna unidad la usa.",
+  "sentences": [
+    {
+      "id": "rd_valentina_00",
+      "it": "Ciao! Mi chiamo Valentina, e sono una studentessa all'Università di Bologna.",
+      "es": "¡Hola! Me llamo Valentina y soy estudiante en la Universidad de Bolonia."
+    },
+    {
+      "id": "rd_valentina_01",
+      "it": "Ho 20 anni, e sono di Parma, una città famosa per il parmigiano reggiano e il prosciutto (mmm, che buoni!).",
+      "es": "Tengo 20 años y soy de Parma, una ciudad famosa por el parmesano y el jamón (¡mmm, qué ricos!)."
+    },
+    {
+      "id": "rd_valentina_02",
+      "it": "All'università, studio psicologia e mi piace molto.",
+      "es": "En la universidad estudio psicología y me gusta mucho."
+    },
+    {
+      "id": "rd_valentina_03",
+      "it": "Quando sono a Bologna, abito in un appartamento con due altre amiche, Francesca e Antonella.",
+      "es": "Cuando estoy en Bolonia, vivo en un departamento con otras dos amigas, Francesca y Antonella."
+    },
+    {
+      "id": "rd_valentina_04",
+      "it": "La mattina, prendo sempre un caffè al bar sotto casa.",
+      "es": "Por la mañana siempre tomo un café en el bar que está bajo mi casa."
+    },
+    {
+      "id": "rd_valentina_05",
+      "it": "Dopo il caffè, frequento le lezioni fino a mezzogiorno.",
+      "es": "Después del café, voy a clases hasta el mediodía."
+    },
+    {
+      "id": "rd_valentina_06",
+      "it": "A pranzo, mangio un panino in mensa.",
+      "es": "A la hora de almuerzo, como un sándwich en el comedor."
+    },
+    {
+      "id": "rd_valentina_07",
+      "it": "Passo il pomeriggio in biblioteca.",
+      "es": "Paso la tarde en la biblioteca."
+    },
+    {
+      "id": "rd_valentina_08",
+      "it": "Leggo molti articoli per i miei corsi e prendo molti appunti: mi piace scrivere!",
+      "es": "Leo muchos artículos para mis cursos y tomo muchos apuntes: ¡me gusta escribir!"
+    },
+    {
+      "id": "rd_valentina_09",
+      "it": "Mentre studio, ascolto la musica.",
+      "es": "Mientras estudio, escucho música."
+    },
+    {
+      "id": "rd_valentina_10",
+      "it": "Preferisco la musica americana perché adoro il pop e anche l'inglese!",
+      "es": "Prefiero la música estadounidense porque adoro el pop y también el inglés."
+    },
+    {
+      "id": "rd_valentina_11",
+      "it": "Sento mia madre al telefono mentre torno a casa.",
+      "es": "Hablo con mi madre por teléfono mientras vuelvo a casa."
+    },
+    {
+      "id": "rd_valentina_12",
+      "it": "Verso le 8, ceno con Francesca e Antonella e poi guardo Netflix prima di andare a dormire.",
+      "es": "Hacia las 8 ceno con Francesca y Antonella y después veo Netflix antes de irme a dormir."
+    },
+    {
+      "id": "rd_valentina_13",
+      "it": "Di solito, dormo molto perché sono molto stanca alla fine della giornata!",
+      "es": "Normalmente duermo mucho porque estoy muy cansada al final del día."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Dónde estudia Valentina?",
+      "options": [
+        "En la Universidad de Bolonia",
+        "En la Universidad de Parma",
+        "En una escuela de cocina"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Qué hace Valentina por la mañana, antes de las clases?",
+      "options": [
+        "Corre en el parque",
+        "Toma un café en el bar bajo su casa",
+        "Desayuna en la biblioteca"
+      ],
+      "answer": 1,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Con quién vive en Bolonia?",
+      "options": [
+        "Sola",
+        "Con su madre",
+        "Con dos amigas"
+      ],
+      "answer": 2,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Dónde pasa la tarde?",
+      "options": [
+        "En la biblioteca",
+        "En casa con su familia",
+        "En el comedor de la universidad"
+      ],
+      "answer": 0,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Qué música prefiere?",
+      "options": [
+        "La clásica",
+        "La estadounidense",
+        "La italiana"
+      ],
+      "answer": 1,
+      "evidence": 10
+    },
+    {
+      "prompt_es": "¿Qué hace antes de irse a dormir?",
+      "options": [
+        "Lee un libro",
+        "Llama a su madre",
+        "Ve Netflix"
+      ],
+      "answer": 2,
+      "evidence": 12
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

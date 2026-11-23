@@ -58,3 +58,13 @@ def test_cada_palabra_de_las_lecturas_tiene_glosa_y_tamiz(tmp_path):
 
 def test_tokens_separa_las_elisiones():
     assert readings.tokens("L'amico è qui, Giuditta.") == ["l", "amico", "è", "qui", "giuditta"]
+
+
+def test_las_lecturas_de_examen_no_las_usa_ninguna_unidad_y_el_documento_exige_tabla():
+    rs = {r["id"]: r for r in readings.load_readings(SRC)}
+    exam = {i for i, r in rs.items() if r.get("exam")}
+    assert exam == {"rd_valentina", "rd_orario"}
+    used = {i for u in json.loads(COURSE.read_text(encoding="utf8"))["units"] for i in u.get("readings", [])}
+    assert not exam & used, "una lectura de examen ya no sería «no vista»"
+    d = dict(rs["rd_orario"], table={"head": ["a", "b"], "rows": [["x"]]})
+    assert any("table" in e for e in readings.validate(d))

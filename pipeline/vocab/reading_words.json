@@ -72,6 +72,10 @@
 "g": "ahora",
 "k": "opaca"
 },
+"adoro": {
+"g": "adoro",
+"k": "transparente"
+},
 "aereo": {
 "g": "avión / aéreo",
 "k": "transparente"
@@ -219,6 +223,14 @@
 "g": "ambulantes",
 "k": "transparente"
 },
+"americana": {
+"g": "estadounidense / americana",
+"k": "transparente"
+},
+"amiche": {
+"g": "amigas",
+"k": "opaca"
+},
 "amici": {
 "g": "amigos",
 "k": "transparente"
@@ -332,6 +344,10 @@
 "g": "recién",
 "k": "transparente"
 },
+"appunti": {
+"g": "apuntes",
+"k": "opaca"
+},
 "arancia": {
 "g": "naranja",
 "k": "opaca"
@@ -374,6 +390,10 @@
 "g": "artes / gremios",
 "k": "transparente"
 },
+"articoli": {
+"g": "artículos",
+"k": "transparente"
+},
 "artigiani": {
 "g": "artesanos",
 "k": "transparente"
@@ -388,6 +408,10 @@
 },
 "ascolta": {
 "g": "escucha",
+"k": "opaca"
+},
+"ascolto": {
+"g": "escucho",
 "k": "opaca"
 },
 "aspirapolvere": {
@@ -626,6 +650,10 @@
 "g": "azul",
 "k": "opaca"
 },
+"bologna": {
+"g": "Bolonia",
+"k": "transparente"
+},
 "bottiglia": {
 "g": "botella",
 "k": "regular",
@@ -829,6 +857,10 @@
 "cena": {
 "g": "cena",
 "k": "transparente"
+},
+"ceno": {
+"g": "ceno",
+"k": "opaca"
 },
 "centri": {
 "g": "centros",
@@ -1153,6 +1185,10 @@
 "r": "otro",
 "n": "ct→tt: correcto→corretto"
 },
+"corsi": {
+"g": "cursos",
+"k": "transparente"
+},
 "corso": {
 "g": "curso",
 "k": "regular",
@@ -1440,9 +1476,17 @@
 "g": "después",
 "k": "opaca"
 },
+"dormire": {
+"g": "dormir",
+"k": "opaca"
+},
 "dormito": {
 "g": "dormido",
 "k": "transparente"
+},
+"dormo": {
+"g": "duermo",
+"k": "opaca"
 },
 "dov": {
 "g": "dónde (dov'è = dónde está)",
@@ -1689,6 +1733,10 @@
 "g": "película",
 "k": "transparente"
 },
+"fine": {
+"g": "fin / final",
+"k": "transparente"
+},
 "finita": {
 "g": "terminada",
 "k": "transparente"
@@ -1696,6 +1744,10 @@
 "finito": {
 "g": "terminado",
 "k": "transparente"
+},
+"fino": {
+"g": "hasta",
+"k": "opaca"
 },
 "firenze": {
 "g": "nombre propio",
@@ -2191,6 +2243,10 @@
 "g": "lees",
 "k": "opaca"
 },
+"leggo": {
+"g": "leo",
+"k": "opaca"
+},
 "lei": {
 "g": "ella",
 "k": "opaca"
@@ -2375,6 +2431,10 @@
 "g": "comido",
 "k": "opaca"
 },
+"mangio": {
+"g": "como (comer)",
+"k": "opaca"
+},
 "marco": {
 "g": "nombre propio",
 "k": "transparente"
@@ -2429,6 +2489,14 @@
 "g": "medicina",
 "k": "transparente"
 },
+"mensa": {
+"g": "comedor (universitario)",
+"k": "opaca"
+},
+"mentre": {
+"g": "mientras",
+"k": "opaca"
+},
 "menù": {
 "g": "menú",
 "k": "transparente"
@@ -2478,6 +2546,10 @@
 "g": "medianoche",
 "k": "opaca"
 },
+"mezzogiorno": {
+"g": "mediodía",
+"k": "opaca"
+},
 "mi": {
 "g": "me",
 "k": "transparente"
@@ -2520,6 +2592,10 @@
 },
 "mio": {
 "g": "mi / mío",
+"k": "transparente"
+},
+"mmm": {
+"g": "mmm",
 "k": "transparente"
 },
 "moda": {
@@ -2576,6 +2652,10 @@
 },
 "museo": {
 "g": "museo",
+"k": "transparente"
+},
+"musica": {
+"g": "música",
 "k": "transparente"
 },
 "n": {
@@ -2649,6 +2729,10 @@
 "nessun": {
 "g": "ningún",
 "k": "opaca"
+},
+"netflix": {
+"g": "Netflix",
+"k": "transparente"
 },
 "nicola": {
 "g": "nombre propio",
@@ -2892,6 +2976,15 @@
 "g": "hablan (ustedes)",
 "k": "opaca"
 },
+"parma": {
+"g": "Parma",
+"k": "transparente"
+},
+"parmigiano": {
+"g": "parmesano",
+"k": "regular",
+"r": "otro"
+},
 "part": {
 "g": "a tiempo parcial (part-time)",
 "k": "opaca"
@@ -3129,6 +3222,10 @@
 "k": "regular",
 "r": "ue-o"
 },
+"pop": {
+"g": "pop",
+"k": "transparente"
+},
 "popolano": {
 "g": "el Popular (apodo)",
 "k": "transparente"
@@ -3322,12 +3419,20 @@
 "g": "justamente, propio",
 "k": "transparente"
 },
+"prosciutto": {
+"g": "jamón",
+"k": "opaca"
+},
 "provare": {
 "g": "probar",
 "k": "transparente"
 },
 "provato": {
 "g": "probado",
+"k": "transparente"
+},
+"psicologia": {
+"g": "psicología",
 "k": "transparente"
 },
 "pub": {
@@ -3530,6 +3635,10 @@
 "g": "regalo",
 "k": "transparente"
 },
+"reggiano": {
+"g": "reggiano (de Reggio Emilia)",
+"k": "opaca"
+},
 "regione": {
 "g": "región",
 "k": "transparente"
@@ -3710,6 +3819,10 @@
 "g": "pasado",
 "k": "opaca"
 },
+"scrivere": {
+"g": "escribir",
+"k": "opaca"
+},
 "scudo": {
 "g": "escudo",
 "k": "transparente"
@@ -3767,6 +3880,11 @@
 "g": "semáforo",
 "k": "transparente"
 },
+"sempre": {
+"g": "siempre",
+"k": "regular",
+"r": "otro"
+},
 "sentiamo": {
 "g": "nos hablamos (ci sentiamo)",
 "k": "opaca"
@@ -3774,6 +3892,10 @@
 "sentirmi": {
 "g": "sentirme",
 "k": "transparente"
+},
+"sento": {
+"g": "oigo / hablo con (aquí: hablo con mi madre)",
+"k": "opaca"
 },
 "sentono": {
 "g": "se oyen",
@@ -4014,6 +4136,10 @@
 },
 "stampo": {
 "g": "imprimo (yo)",
+"k": "opaca"
+},
+"stanca": {
+"g": "cansada",
 "k": "opaca"
 },
 "stanco": {
@@ -4289,6 +4415,10 @@
 "g": "volver",
 "k": "opaca"
 },
+"torno": {
+"g": "vuelvo",
+"k": "opaca"
+},
 "toscana": {
 "g": "Toscana",
 "k": "transparente"
@@ -4471,6 +4601,10 @@
 "vai": {
 "g": "vas / ve",
 "k": "opaca"
+},
+"valentina": {
+"g": "Valentina",
+"k": "transparente"
 },
 "valeria": {
 "g": "nombre propio",

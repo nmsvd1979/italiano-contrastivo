@@ -168,3 +168,8 @@ ul.library p { margin: 6px 0; }
 
 .reading p[data-playing="true"] { background: var(--accent-soft); border-radius: 8px; }
 .speaker { font-family: var(--sans, inherit); font-size: 15px; color: var(--accent); }
+
+/* Documentos (horarios, agendas): tabla con las celdas tal cual del libro */
+table.doc { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 0.9rem; margin: 8px 0 16px; }
+table.doc th, table.doc td { border: 1px solid var(--line, #d9d2c5); padding: 6px 8px; text-align: left; vertical-align: top; }
+table.doc thead th { background: var(--card, #fff); }
