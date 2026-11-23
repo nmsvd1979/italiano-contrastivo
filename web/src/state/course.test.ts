@@ -67,3 +67,22 @@ describe("ruta", () => {
     expect(unitViews(course, [], false).map((x) => x.state)).toEqual(["current", "locked", "locked"]);
   });
 });
+
+import { readFileSync } from "node:fs";
+describe("orden de la ruta A1 (auditoría 2026-11-23)", () => {
+  const ids = (JSON.parse(readFileSync("public/content/course.json", "utf8")) as { units: { id: string; level: string }[] }).units.filter((u) => u.level === "A1").map((u) => u.id);
+  const SOUNDS = ["u18", "u19", "u20", "u63", "u64"];
+  it("lo primero es saludar y presentarte, no un bloque de sonidos", () => {
+    expect(ids.slice(0, 2)).toEqual(["u37", "u60"]);
+  });
+  it("los sonidos van intercalados: nunca dos seguidos y como mucho uno entre las 4 primeras unidades", () => {
+    const pos = SOUNDS.map((s) => ids.indexOf(s)).sort((a, b) => a - b);
+    expect(pos.every((p) => p >= 0)).toBe(true);
+    for (let i = 1; i < pos.length; i++) expect(pos[i] - pos[i - 1], `sonidos ${pos}`).toBeGreaterThanOrEqual(4);
+    expect(pos.filter((p) => p < 4).length).toBeLessThanOrEqual(1);
+  });
+  it("los verbos en -are llegan pronto (entre las 12 primeras), después de essere/avere", () => {
+    expect(ids.indexOf("u14")).toBeLessThan(12);
+    expect(ids.indexOf("u14")).toBeGreaterThan(ids.indexOf("u13"));
+  });
+});

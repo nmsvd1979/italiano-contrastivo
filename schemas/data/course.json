@@ -30,6 +30,34 @@
   ],
   "units": [
     {
+      "id": "u37",
+      "level": "A1",
+      "title": "Vocabulario: saludar y ser cortés",
+      "goal_es": "Buongiorno, buonasera, ciao, arrivederci, grazie, prego, scusi/scusa… y cuándo usar el trato formal.",
+      "codes": [
+        "ERR_VOC_SALUTI"
+      ],
+      "why_here": "Las primeras palabras de cualquier conversación: con esto ya puedes saludar el primer día.",
+      "ficha_es": "Fórmulas de contacto: buongiorno (hasta la tarde), buonasera (desde la tarde), buonanotte (para despedirse e irse a dormir), ciao (informal, sirve para saludar y despedirse), arrivederci (despedida neutra), salve (saludo neutro), grazie y prego (de nada).\n\nRegistro: con una persona a quien tratas con respeto se usa «Lei» (scusi, come sta?); entre amigos, «tu» (scusa, come stai?). «Prego» significa también «adelante, pase». Ojo: «piacere» es «mucho gusto» al conocer a alguien; «per piacere» es «por favor».",
+      "readings": [
+        "rd_ciao"
+      ]
+    },
+    {
+      "id": "u60",
+      "level": "A1",
+      "title": "Presentarte: mi chiamo, ti chiami",
+      "goal_es": "Mi chiamo, ti chiami, si chiama: el reflexivo es mi/ti/si (no «me, te, se»).",
+      "codes": [
+        "ERR_CHIAMARSI"
+      ],
+      "why_here": "Lo primero que dices al conocer a alguien, junto a los saludos.",
+      "ficha_es": "Para presentarte: Mi chiamo Ana (me llamo Ana), Sono cilena, Ho venti anni, Piacere (mucho gusto). Para preguntar el nombre a un amigo: Come ti chiami?; a una persona que tratas de usted: Come si chiama?\n\nChiamarsi es un verbo reflexivo: mi chiamo, ti chiami, si chiama, ci chiamiamo, vi chiamate, si chiamano. El español usa me, te, se, nos, os: «me chiamo» o «come te chiami» no existen en italiano. Otra forma es Il mio nome è… (mi nombre es…). Fuente: Leggiamo (LBCC), capítulo «Presentarsi».",
+      "readings": [
+        "rd_saluti"
+      ]
+    },
+    {
       "id": "u18",
       "level": "A1",
       "title": "Sonidos: c y g (ce, ci, che, chi)",
@@ -37,7 +65,7 @@
       "codes": [
         "ERR_C_G_PALATAL"
       ],
-      "why_here": "Las fuentes ponen la fonética primero: es lo que más confunde al empezar.",
+      "why_here": "El primer sonido que el español escribe distinto (c y g). Llega después de saludar y presentarte para que ya tengas palabras con las que practicarlo.",
       "ficha_es": "Las letras c y g suenan fuerte (como en «casa», «gato») ante a, o, u, y suave ante e, i: ce se lee «che» como en «chico» (cena), ci se lee «chi» (cinema); ge y gi suenan como la «j» inglesa de «jam» (gelato, giorno), no como la «j» española. Para el sonido fuerte ante e, i se agrega una h: che, chi, ghe, ghi (che, chiave, spaghetti, ghiaccio).\n\nCuidado: el español hace lo contrario con «que, qui» y «gue, gui». En italiano «che» se lee «ke» y «ce» se lee «che» (como la «ch» de «chico»). Escucha cada palabra y fíjate en la h.",
       "words": [
         {
@@ -136,6 +164,90 @@
           "num": "s",
           "gloss": "junio"
         }
+      ]
+    },
+    {
+      "id": "u13",
+      "level": "A1",
+      "title": "Essere y avere: sono, ho",
+      "goal_es": "Conjugar los dos verbos base: sono, sei, è, siamo, siete, sono / ho, hai, ha, abbiamo, avete, hanno.",
+      "codes": [
+        "ERR_PRESENT_ESSERE_AVERE"
+      ],
+      "why_here": "Son la base de casi todo lo demás: presentarse, describir y los tiempos compuestos.",
+      "readings": [
+        "rd_zaino"
+      ],
+      "ficha_es": "Essere (ser/estar) y avere (tener/haber): sono, sei, è, siamo, siete, sono; ho, hai, ha, abbiamo, avete, hanno. En italiano la h de «ho, hai, ha, hanno» no se pronuncia: se escribe pero no suena.\n\nEssere sirve para ser y para estar en un lugar (sono a casa), y avere para la edad (ho venti anni: «tengo veinte años»). Hay que decir el pronombre solo para dar énfasis: «sono stanco» ya es «estoy cansado»."
+    },
+    {
+      "id": "u45",
+      "level": "A1",
+      "title": "Vocabulario: países y nacionalidades",
+      "goal_es": "Italiano, spagnolo, francese, inglese, cileno… y que se escriben con minúscula (parlo spagnolo).",
+      "codes": [
+        "ERR_VOC_NAZIONALITA"
+      ],
+      "why_here": "Decir de dónde eres y qué idiomas hablas, con essere y los adjetivos ya vistos.",
+      "ficha_es": "Las nacionalidades y los idiomas se escriben con minúscula en italiano: sono cileno, parlo spagnolo, è italiana. Cambian como los adjetivos: italiano/italiana/italiani/italiane. Las terminadas en -e (francese, inglese, giapponese, cinese) valen para masculino y femenino.\n\nEl idioma es masculino y suele llevar artículo: l'italiano è bello; pero con parlare y con in no lo lleva: parlo italiano, scrivo in italiano.",
+      "readings": [
+        "rd_descriviamo"
+      ]
+    },
+    {
+      "id": "u26",
+      "level": "A1",
+      "title": "Vocabulario: los números",
+      "goal_es": "Due, tre, quattro… venti, cento, mille, en oraciones reales (hora, edad, cantidades).",
+      "codes": [
+        "ERR_VOC_NUMERI"
+      ],
+      "why_here": "Edad, hora y precios aparecen desde el primer día.",
+      "readings": [
+        "rd_bargello"
+      ],
+      "ficha_es": "Los números del 0 al 10: zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci. Del 11 al 16: undici, dodici, tredici, quattordici, quindici, sedici. Las decenas: venti, trenta, quaranta, cinquanta; y cento, mille (mil), con plural «mila» (duemila).\n\nEl español dice «veintiuno»; el italiano une las palabras: ventuno, ventidue, ventitré (con acento en tré). Y los números llevan acento en las formas compuestas con tre: ventitré, trentatré. La hora usa los mismos números: sono le otto."
+    },
+    {
+      "id": "u54",
+      "level": "A1",
+      "title": "Género: il latte, la mappa (distinto del español)",
+      "goal_es": "Il latte, il sale, il fiore, il sangue… son masculinos aunque en español sean femeninos; la mappa y la matita, al revés. Y el plural: -o → -i, -a → -e.",
+      "codes": [
+        "ERR_GENERE_ES"
+      ],
+      "why_here": "Después de los artículos determinativos, el género que no coincide con el español es el primer error de fondo.",
+      "ficha_es": "Hay palabras que tienen otro género que en español. Masculinas en italiano: il latte (la leche), il sale (la sal), il miele (la miel), il sangue (la sangre), il fiore (la flor), il naso (la nariz), il sorriso (la sonrisa). Femeninas en italiano: la mappa (el mapa), la matita (el lápiz), la penna (el bolígrafo), la scarpa (el zapato), la borsa (el bolso).\n\nPlurales: -o cambia a -i (libro → libri), -a cambia a -e (casa → case) y -e cambia a -i (notte → notti). El artículo cambia igual: il → i, la → le. No se agrega -s.",
+      "readings": [
+        "rd_zaino"
+      ]
+    },
+    {
+      "id": "u55",
+      "level": "A1",
+      "title": "Un, uno, una, un': el artículo indefinido",
+      "goal_es": "Un amico, pero uno studente y uno zio; una casa, pero un'amica con apóstrofo.",
+      "codes": [
+        "ERR_INDEFINITE_ARTICLE"
+      ],
+      "why_here": "Es el par de los artículos determinativos: cambia con la primera letra, como il / lo.",
+      "ficha_es": "El artículo indefinido tiene cuatro formas: un (masculino: un amico), uno (masculino ante s + consonante, z, gn, ps: uno studente, uno zio), una (femenino: una casa) y un' (femenino ante vocal: un'amica).\n\nEn español solo «un/una» (un estudiante, una amiga): por eso el error típico es «un studente» o «un amica». Mira la letra con que empieza la palabra siguiente. Ojo: un amico (masculino) no lleva apóstrofo; un'amica (femenino) sí.",
+      "readings": [
+        "rd_routine"
+      ]
+    },
+    {
+      "id": "u07",
+      "level": "A1",
+      "title": "Il, lo, l' y gli, i: elegir el artículo",
+      "goal_es": "Ante s+consonante, z, gn o ps se usa lo (lo studente) y gli (gli studenti), no il / i.",
+      "codes": [
+        "ERR_ARTICLE_ALLOMORPH"
+      ],
+      "why_here": "Cierra los artículos de A1 una vez vistas las contracciones.",
+      "ficha_es": "El artículo determinativo masculino es il (il libro), lo ante s + consonante, z, gn, ps (lo studente, lo zio) y l' ante vocal (l'amico). Plural: i (i libri) y gli (gli studenti, gli amici). Femenino: la (la casa), l' ante vocal (l'amica) y plural le (le case).\n\nEl español solo tiene «el, la, los, las». El italiano cambia el artículo según la primera letra de la palabra siguiente: por eso hay que fijarse en cómo empieza el sustantivo.",
+      "readings": [
+        "rd_medici"
       ]
     },
     {
@@ -242,6 +354,104 @@
       ]
     },
     {
+      "id": "u14",
+      "level": "A1",
+      "title": "Verbos en -are: parlo, parli, parla",
+      "goal_es": "Terminaciones del presente de los verbos en -are; el español -as, -amos, -an no existe en italiano.",
+      "codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "why_here": "Los verbos son lo que te permite hablar de ti: los regulares en -are son el grupo más grande y donde más pesa el calco de las terminaciones. Van pronto, para que tengas con qué decir cosas.",
+      "readings": [
+        "rd_routine"
+      ],
+      "ficha_es": "Los verbos en -are (parlare) hacen el presente con -o, -i, -a, -iamo, -ate, -ano: parlo, parli, parla, parliamo, parlate, parlano. El español dice -o, -as, -a, -amos, -áis, -an.\n\nCuidado: tu parli (no «parlas»), voi parlate (no «parláis»). El sujeto (io, tu, lui…) se omite casi siempre porque la terminación ya dice quién es. Los verbos en -iare (studiare) y -care/-gare (cercare) tienen pequeñas particularidades."
+    },
+    {
+      "id": "u15",
+      "level": "A1",
+      "title": "Verbos en -ere e -ire: leggo, dormo, finisco",
+      "goal_es": "Terminaciones de -ere (leggo, leggi, legge…) y de -ire, con -isc- en finire, capire, preferire.",
+      "codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "why_here": "Completa los dos grupos regulares tras los verbos en -are.",
+      "readings": [
+        "rd_tempolibero"
+      ],
+      "ficha_es": "Los verbos en -ere (leggere, vendere) hacen el presente con -o, -i, -e, -iamo, -ete, -ono: leggo, leggi, legge, leggiamo, leggete, leggono. Los en -ire (dormire) igual con -ite: dormo, dormi, dorme, dormiamo, dormite, dormono. Algunos -ire agregan -isc-: finire → finisco, finisci, finisce, finiamo, finite, finiscono.\n\nFíjate en el «noi» (-iamo) y en el «loro» (-ono) que son iguales en todos los grupos. El español tiene «-emos / -imos»: aquí es siempre -iamo."
+    },
+    {
+      "id": "u21",
+      "level": "A1",
+      "title": "Vocabulario: la familia y las personas",
+      "goal_es": "Madre, padre, hermano, hijo, amigo… con su artículo y su género.",
+      "codes": [
+        "ERR_VOC_FAMILIA"
+      ],
+      "why_here": "Primer vocabulario: hablar de ti y de tu gente.",
+      "readings": [
+        "rd_incontro"
+      ],
+      "ficha_es": "La familia: madre, padre, fratello (hermano), sorella (hermana), figlio, figlia, nonno, nonna, zio, zia, cugino, cugina, marito, moglie. Plurales: i genitori (los padres), i figli (los hijos, hijos e hijas), i nonni.\n\n«Genitori» son los padres (madre y padre); «parenti» son los parientes. «Famiglia» y «amici» se usan mucho con posesivo: la mia famiglia. Mira la lista de palabras y fíjate en el género de cada una."
+    },
+    {
+      "id": "u01",
+      "level": "A1",
+      "title": "El posesivo lleva artículo",
+      "goal_es": "Decir «la mia casa», no «mia casa»: en italiano el posesivo lleva artículo (salvo parentesco singular).",
+      "codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "why_here": "Las fuentes piden frenar este calco desde el primer día.",
+      "readings": [
+        "rd_comesei"
+      ],
+      "ficha_es": "En italiano el posesivo lleva artículo: il mio libro, la tua casa, i miei amici. El español dice «mi libro» sin artículo.\n\nExcepción importante: con parentesco en singular no se usa el artículo: mio padre, tua madre, suo fratello (pero i miei fratelli, la mia sorella maggiore). Y con loro siempre va artículo: la loro casa."
+    },
+    {
+      "id": "u02",
+      "level": "A1",
+      "title": "Escribir mio, tuo, suo (no mi, tu, su)",
+      "goal_es": "El posesivo italiano cambia de forma: il mio libro, la tua casa, i suoi amici; «mi», «tu» y «su» son formas del español.",
+      "codes": [
+        "ERR_POSSESSIVE_SPELLING"
+      ],
+      "why_here": "Va justo después del artículo con posesivo: es la misma estructura vista por su forma.",
+      "readings": [
+        "rd_dati"
+      ],
+      "ficha_es": "La grafía de los posesivos: mio, mia, miei, mie; tuo, tua, tuoi, tue; suo, sua, suoi, sue. En español se escribe «mi, tu, su» (sin distinguir género) y «mis, tus, sus»; en italiano cambian con el género y el número de lo poseído.\n\nError típico: «mi libro» o «tu casa» en italiano. Se dice il mio libro y la tua casa. Y «suo» es «su» de él, de ella o de usted: el contexto lo aclara."
+    },
+    {
+      "id": "u16",
+      "level": "A1",
+      "title": "Andare, fare, stare, venire: vado, faccio",
+      "goal_es": "Las formas irregulares más usadas: vado, faccio, sto, vengo, do, dico, so, esco.",
+      "codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques.",
+      "ficha_es": "Cuatro verbos muy usados e irregulares: andare (vado, vai, va, andiamo, andate, vanno), fare (faccio, fai, fa, facciamo, fate, fanno), stare (sto, stai, sta, stiamo, state, stanno), venire (vengo, vieni, viene, veniamo, venite, vengono).\n\nStare sirve para «estar» en la salud y en estar + gerundio (sto mangiando), y essere para el resto. Fare entra en muchas expresiones: fare colazione (desayunar), fare una doccia, fa caldo (hace calor).",
+      "readings": [
+        "rd_stasera"
+      ]
+    },
+    {
+      "id": "u17",
+      "level": "A1",
+      "title": "Volere, potere, dovere: voglio, posso, devo",
+      "goal_es": "Los tres modales irregulares y su uso con un infinitivo: voglio mangiare, posso venire, devo studiare.",
+      "codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación.",
+      "ficha_es": "Volere, potere y dovere (querer, poder, deber) van con infinitivo: voglio mangiare, posso venire, devo studiare. Presente: voglio, vuoi, vuole, vogliamo, volete, vogliono; posso, puoi, può, possiamo, potete, possono; devo, devi, deve, dobbiamo, dovete, devono.\n\nSon irregulares: aprende las formas de memoria. Ojo: «tengo que» se dice devo; «tener ganas de» es avere voglia di.",
+      "readings": [
+        "rd_festa"
+      ]
+    },
+    {
       "id": "u20",
       "level": "A1",
       "title": "Sonidos: gli (figlio, famiglia)",
@@ -345,6 +555,168 @@
       ]
     },
     {
+      "id": "u49",
+      "level": "A1",
+      "title": "Vocabulario: objetos de todos los días",
+      "goal_es": "Telefono, cellulare, zaino, matita, lettera, regalo, foglio… y «lettera» = carta que se envía.",
+      "codes": [
+        "ERR_VOC_OGGETTI"
+      ],
+      "why_here": "Nombrar lo que usas y llevas a diario.",
+      "ficha_es": "Objetos de todos los días: telefono, cellulare, zaino, matita, lettera, regalo, foglio, quadro, cuscino… Aprende cada palabra con su artículo: il telefono, la lettera, lo zaino.\n\nOjo con los parecidos: «lettera» es la carta que se envía (no «carta», que es el papel o la carta de la baraja). «Foglio» es una hoja de papel; «zaino» es la mochila. Pasa por la lista de palabras antes de practicar."
+    },
+    {
+      "id": "u41",
+      "level": "A1",
+      "title": "Vocabulario: cómo es (adjetivos)",
+      "goal_es": "Alto, bello, buono, grande, simpatico, giovane… y la concordancia en género (alto/alta) y en -e (grande).",
+      "codes": [
+        "ERR_VOC_AGGETTIVI"
+      ],
+      "why_here": "Describir personas y cosas, con los colores y el vocabulario ya visto.",
+      "readings": [
+        "rd_david"
+      ],
+      "ficha_es": "El adjetivo concuerda en género y número con el sustantivo: un ragazzo alto, una ragazza alta, ragazzi alti, ragazze alte. Los adjetivos terminados en -e valen para los dos géneros: un uomo grande, una donna grande (plural: grandi).\n\nEn italiano el adjetivo suele ir después del sustantivo (una casa nuova), pero bello, buono, grande, piccolo, vecchio y nuovo van muchas veces antes y cambian de forma (un bel libro, un buon amico)."
+    },
+    {
+      "id": "u32",
+      "level": "A1",
+      "title": "Vocabulario: los colores",
+      "goal_es": "Rosso, bianco, nero, giallo, verde, blu… y cómo cambian con el género (rossa) o no cambian (blu, rosa).",
+      "codes": [
+        "ERR_VOC_COLORI"
+      ],
+      "why_here": "Describir cosas y personas con colores que concuerdan con lo que describen.",
+      "ficha_es": "Los colores concuerdan con el sustantivo: rosso/rossa/rossi/rosse. Pero rosa, viola y blu no cambian nunca (due gonne blu), y verde cambia solo en plural (verdi). Azzurro es el azul claro (el cielo) y blu es el azul oscuro.\n\nLos colores se usan después del sustantivo: una gonna rossa, un gatto nero. Con el artículo se pueden nombrar solos: il rosso, il blu.",
+      "readings": [
+        "rd_aspetto"
+      ]
+    },
+    {
+      "id": "u30",
+      "level": "A1",
+      "title": "Vocabulario: preguntar (dove, quando, perché…)",
+      "goal_es": "Dove, quando, perché, come, chi, quanto, quale, cosa: reconocerlas al oírlas y usarlas en preguntas reales.",
+      "codes": [
+        "ERR_VOC_INTERROG"
+      ],
+      "why_here": "Con ellas ya se pueden hacer preguntas desde el primer día.",
+      "readings": [
+        "rd_dovesei"
+      ],
+      "ficha_es": "Palabras para preguntar: dove (dónde), quando (cuándo), perché (por qué y porque), come (cómo), chi (quién), quanto/a/i/e (cuánto), quale (cuál), cosa o che cosa (qué).\n\nOjo: «perché» sirve para preguntar (¿por qué?) y para responder (porque). «Che cosa» y «cosa» equivalen a «qué»; «quale» concuerda solo en número (quali). La entonación sube al final de la pregunta, y no se invierte el sujeto como en inglés."
+    },
+    {
+      "id": "u38",
+      "level": "A1",
+      "title": "Questo y quello: este y aquel",
+      "goal_es": "Questo/questa/questi/queste (cerca) y quel/quella/quei/quelle (lejos), que concuerdan con el sustantivo.",
+      "codes": [
+        "ERR_VOC_DIMOSTRATIVI"
+      ],
+      "why_here": "Señalar cosas al comprar o describir, con los artículos y el género ya vistos.",
+      "readings": [
+        "rd_stemmi"
+      ],
+      "ficha_es": "Questo (cerca): questo, questa, questi, queste. Quello (lejos): quello, quella, quelli, quelle; ante un sustantivo cambia como el artículo: quel libro, quello studente, quell'amico, quei libri, quegli studenti.\n\nEl español distingue tres distancias (este, ese, aquel); el italiano solo dos: questo y quello. «Ese» se dice con quello o con codesto (poco usado hoy)."
+    },
+    {
+      "id": "u39",
+      "level": "A1",
+      "title": "Molto, poco, troppo, tanto",
+      "goal_es": "Molto, poco, troppo, tanto, abbastanza: cuándo concuerdan (molta acqua, molti amici) y cuándo no (mangio molto).",
+      "codes": [
+        "ERR_VOC_QUANTITA"
+      ],
+      "why_here": "Decir cuánto o cuántos, con el vocabulario de las cosas ya visto.",
+      "ficha_es": "Molto, poco, troppo, tanto, abbastanza. Antes de un sustantivo concuerdan: molta acqua, molti amici, poche ore. Como adverbio no cambian: mangio molto, studia poco.\n\n«Abbastanza» (bastante) no cambia nunca. Atención con el sentido: «poco» es «poco» (tengo poco tempo); «un poco» se dice un po' (un po' di pane)."
+    },
+    {
+      "id": "u04",
+      "level": "A1",
+      "title": "Tener no es «tenere»: ho fame",
+      "goal_es": "Sensaciones y edad con avere (ho fame, ho paura), no con tenere.",
+      "codes": [
+        "ERR_TENERE_AVERE"
+      ],
+      "why_here": "Léxico básico de A1 con calco muy frecuente.",
+      "readings": [
+        "rd_faccende"
+      ],
+      "ficha_es": "El español usa «tener» con hambre, sed, frío, calor, sueño, miedo y años; el italiano usa avere, no tenere: ho fame, ho sete, ho freddo, ho caldo, ho sonno, ho paura, ho venti anni.\n\n«Tenere» existe pero significa «sostener, mantener» (tieni la porta). Así que «tengo hambre» es «ho fame» y no «tengo fame». Este es el calco más frecuente al hablar de estados físicos."
+    },
+    {
+      "id": "u25",
+      "level": "A1",
+      "title": "Vocabulario: días, meses y estaciones",
+      "goal_es": "Giorno, settimana, mese, anno, lunedì…domenica, estate, inverno.",
+      "codes": [
+        "ERR_VOC_TEMPO"
+      ],
+      "why_here": "Hablar de rutinas y planes.",
+      "readings": [
+        "rd_materie"
+      ],
+      "ficha_es": "Los días van sin mayúscula: lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica. Los meses también: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre. Las estaciones: primavera, estate, autunno, inverno.\n\n«Il lunedì» (con artículo) es «los lunes» (todos); «lunedì» solo es «este lunes». «In estate / d'estate» es «en verano». Los meses se usan con «a» o «in»: a marzo, in marzo."
+    },
+    {
+      "id": "u59",
+      "level": "A1",
+      "title": "La hora: sono le due e mezza, è l'una",
+      "goal_es": "Sono le… (plural) pero è l'una; «e un quarto», «e mezza», «meno»: no «y cuarto» ni «y media».",
+      "codes": [
+        "ERR_ORA_ES"
+      ],
+      "why_here": "Decir la hora y a qué hora haces las cosas, con los números y los días ya vistos.",
+      "ficha_es": "Para preguntar la hora: Che ore sono? o Che ora è? La respuesta usa el plural: Sono le due, Sono le tre… pero el singular para la una y el mediodía: È l'una, È mezzogiorno, È mezzanotte.\n\nLos minutos se dicen con e: Sono le tre e venti. Pasada la media hora se dice la hora siguiente + meno + los minutos que faltan: Sono le cinque meno dieci. Para cuarto y media: e un quarto, e mezza (o e mezzo), meno un quarto. El español dice «y cuarto» y «y media»: en italiano no se omite el «un» (e un quarto, no «e quarto») y se dice mezza (no «media»).\n\nPara decir a qué hora: alle due, alle tre; all'una; a mezzogiorno, a mezzanotte (sin artículo). Y para el momento del día: di mattina, del pomeriggio, di sera, di notte. Fuente: Piacere! (Univ. de Iowa), capítulo «L'ora».",
+      "readings": [
+        "rd_giornata"
+      ]
+    },
+    {
+      "id": "u40",
+      "level": "A1",
+      "title": "Ieri, oggi, domani, sempre, mai",
+      "goal_es": "Ieri, oggi, domani, adesso, stasera, presto, tardi, sempre, mai, già, ancora: situar las cosas en el tiempo.",
+      "codes": [
+        "ERR_VOC_AVVERBI"
+      ],
+      "why_here": "Hablar de cuándo pasan las cosas, con los días y los meses ya vistos.",
+      "readings": [
+        "rd_albergo"
+      ],
+      "ficha_es": "Ieri (ayer), oggi (hoy), domani (mañana), adesso (ahora), stasera (esta tarde-noche), presto (temprano), tardi (tarde), sempre (siempre), mai (nunca), già (ya), ancora (todavía), spesso (a menudo).\n\nLos adverbios no cambian. Con «mai» el verbo lleva «non»: non vado mai (nunca voy). «Ancora» significa «todavía» y también «otra vez»: non è ancora qui. «Domani» es mañana (el día siguiente); «mañana por la mañana» es domani mattina."
+    },
+    {
+      "id": "u36",
+      "level": "A1",
+      "title": "Vocabulario: tiempo libre",
+      "goal_es": "Calcio, musica, film, canzone, festa… y «giocare a calcio» (con «a»).",
+      "codes": [
+        "ERR_VOC_TEMPOLIBERO"
+      ],
+      "why_here": "Contar qué haces en tu tiempo libre con los verbos de presente.",
+      "ficha_es": "Tiempo libre: il calcio, il tennis, la musica, il film, la canzone, la festa, il concerto, la passeggiata, le vacanze. Con giocare se dice giocare a calcio, a tennis (con «a»); con suonare, suonare la chitarra, il pianoforte (con artículo).\n\n«Film», «sport» y «hobby» no cambian en plural (i film, gli sport). Una passeggiata es un paseo; fare una passeggiata, «dar un paseo».",
+      "readings": [
+        "rd_passatempi"
+      ]
+    },
+    {
+      "id": "u56",
+      "level": "A1",
+      "title": "Rutina diaria: mi sveglio, ti alzi (reflexivos)",
+      "goal_es": "Mi, ti, si, ci, vi (no «me, te, se, nos, os»): mi sveglio, si lava, ci vestiamo.",
+      "codes": [
+        "ERR_RIFLESSIVO_PRONOME"
+      ],
+      "why_here": "Hablar de tu día con los verbos de presente ya vistos.",
+      "ficha_es": "Los verbos reflexivos (svegliarsi, alzarsi, lavarsi, vestirsi) usan los pronombres mi, ti, si, ci, vi: mi sveglio, ti alzi, si lava, ci vestiamo, vi riposate, si divertono. El español usa me, te, se, nos, os.\n\nEl pronombre va antes del verbo y siempre concuerda con el sujeto. Cuidado: el «se» español se escribe «si» en italiano (si lava) y no se confunde con «sì» (con tilde, «sí») ni con «se» (la conjunción «si» condicional). Algunos verbos son reflexivos en un idioma y no en el otro.",
+      "readings": [
+        "rd_giornatabrutta"
+      ]
+    },
+    {
       "id": "u63",
       "level": "A1",
       "title": "Sonidos: gn y z (gnocchi, pizza, grazie)",
@@ -352,7 +724,7 @@
       "codes": [
         "ERR_GN_Z_SPELLING"
       ],
-      "why_here": "Después de c/g, sc y gli, los sonidos que el español escribe distinto.",
+      "why_here": "Los sonidos que el español escribe distinto (gn, z), con palabras de comida y casa que ya conoces.",
       "ficha_es": "El grupo gn suena como la ñ española: gnocchi se pronuncia «ñoqui», lasagne «lasaña», bagno «baño». Se escribe siempre gn, nunca ñ.\\n\\nLa z italiana suena [ts] (pizza, grazie, zio con [dz]): se parece a «ts», no a la «z» española de España ni a una simple «s». No se escribe «c» ante e, i: grazie, pazienza (no «gracie», no «pacienza»). La doble zz es más larga: pizza, no «piza». En esta unidad escuchas una frase y eliges cómo se escribe. La voz es sintética: sus fonemas se comprobaron (gn → ɲ, z → ts/dz), pero un nativo no la verificó.",
       "words": [
         {
@@ -451,6 +823,104 @@
           "num": "s",
           "gloss": "la montaña"
         }
+      ]
+    },
+    {
+      "id": "u23",
+      "level": "A1",
+      "title": "Vocabulario: la casa",
+      "goal_es": "Stanza, cucina, camera, bagno, porta, finestra, tavolo… y el artículo con vocal inicial (l'appartamento).",
+      "codes": [
+        "ERR_VOC_CASA"
+      ],
+      "why_here": "Describir dónde vives, con los verbos de presente ya vistos.",
+      "readings": [
+        "rd_casa"
+      ],
+      "ficha_es": "La casa: stanza y camera (habitación, «camera» es dormitorio, no «cámara»), cucina, bagno, salotto, porta, finestra, tavolo, sedia, giardino, balcone. Con vocal inicial el artículo se apostrofa: l'appartamento, l'armadio.\n\n«Tavolo» es la mesa; la «tavola» es la mesa puesta para comer. «Piano» es el piso: al secondo piano (en el segundo piso)."
+    },
+    {
+      "id": "u03",
+      "level": "A1",
+      "title": "Hay: c'è y ci sono",
+      "goal_es": "Elegir c'è (uno) o ci sono (varios): el español «hay» no cambia.",
+      "codes": [
+        "ERR_CE_AGREEMENT"
+      ],
+      "why_here": "Estructura de uso inmediato en las primeras frases.",
+      "readings": [
+        "rd_viviamo"
+      ],
+      "ficha_es": "C'è (hay, singular) y ci sono (hay, plural): c'è un libro, ci sono due libri. El español usa «hay» para los dos; el italiano cambia el verbo según lo que hay.\n\nError típico: «c'è due libri» o «ci sono un libro». También sirve para preguntar: c'è un bagno? ci sono camere libere? Con un lugar delante: qui c'è, lì ci sono."
+    },
+    {
+      "id": "u24",
+      "level": "A1",
+      "title": "Vocabulario: la ciudad y la naturaleza",
+      "goal_es": "Città, strada, piazza, stazione, mare, fiume, montagna…",
+      "codes": [
+        "ERR_VOC_CITTA"
+      ],
+      "why_here": "Moverse y preguntar por lugares; prepara las preposiciones a / in.",
+      "readings": [
+        "rd_firenze"
+      ],
+      "ficha_es": "La ciudad: città, strada, piazza, chiesa, stazione, aeroporto, ponte, mercato, parco, museo, biblioteca, quartiere, spiaggia, montagna, mare, fiume, lago. Muchas palabras en -e no revelan el género: il ponte, il mare, il fiume, pero la stazione, la città.\n\n«Biblioteca» es la que presta libros; «libreria» es la que los vende. «Piazza» es la plaza; «strada» es la calle; «via» se usa en los nombres (via Roma)."
+    },
+    {
+      "id": "u05",
+      "level": "A1",
+      "title": "Ciudades y países: a / in",
+      "goal_es": "Vivo a Roma, vivo in Italia: ciudades con a, países con in.",
+      "codes": [
+        "ERR_PREP_PLACE"
+      ],
+      "why_here": "Preposiciones simples de A1.",
+      "readings": [
+        "rd_spese"
+      ],
+      "ficha_es": "Con ciudades se usa a: vado a Roma, sono a Milano. Con países se usa in: vado in Italia, abito in Spagna, sono in Cile. El español dice «a/en» para todo.\n\nError típico: «vado in Roma» o «abito a Italia». Con países en plural o con artículo (gli Stati Uniti), in + artículo: negli Stati Uniti. Para ir a casa de alguien, da: vado da Marco."
+    },
+    {
+      "id": "u06",
+      "level": "A1",
+      "title": "Preposición + artículo: nel, sul, dal",
+      "goal_es": "Fundir preposición y artículo: nella, no «in la».",
+      "codes": [
+        "ERR_PREP_ARTICLE_CONTRACTION"
+      ],
+      "why_here": "Se apoya en las preposiciones de la unidad anterior.",
+      "readings": [
+        "rd_signoria"
+      ],
+      "ficha_es": "La preposición se une al artículo: in + il = nel, su + il = sul, da + il = dal, di + il = del, a + il = al. Con el resto de artículos: nella, sulla, dalla, dello, agli, ai, alle, dei, delle, negli, sui…\n\nEn español solo hay «al» y «del»; en italiano casi todas las combinaciones se contraen (nel, nella, sul, dal). Error típico: «in il» o «su la». Se escribe junto: nella casa, no «in la casa»."
+    },
+    {
+      "id": "u61",
+      "level": "A1",
+      "title": "Pronombres tónicos: con me, per te",
+      "goal_es": "Tras preposición: con me, per te, da me (no «con io», «per tu»).",
+      "codes": [
+        "ERR_PRONOME_TONICO"
+      ],
+      "why_here": "Después de las preposiciones ya vistas, para hablar de ti y de mí.",
+      "ficha_es": "Después de una preposición (con, per, da, di, a, senza, su, tra, fra) el italiano usa los pronombres tónicos: me, te, lui, lei, noi, voi, loro. Con el pronombre de «yo» y «tú» no se usan io y tu: con me, per te, da me, a te, senza di te.\n\nEl español junta la preposición en «conmigo» y «contigo»; el italiano las separa: con me, con te. Con lui, lei, noi, voi y loro el pronombre es igual que el de sujeto (con lui, per noi). También se usan para dar énfasis tras el verbo: Cerco proprio te. Fuente: Piacere! (Univ. de Iowa), capítulo «I pronomi tonici».",
+      "readings": [
+        "rd_regalo"
+      ]
+    },
+    {
+      "id": "u57",
+      "level": "A1",
+      "title": "Direcciones: a destra, a sinistra, dritto",
+      "goal_es": "Destra, sinistra, dritto, vicino, lontano, davanti, dietro… para pedir y dar el camino.",
+      "codes": [
+        "ERR_VOC_DIREZIONI"
+      ],
+      "why_here": "Moverte por la ciudad, con los lugares y las preposiciones ya vistos.",
+      "ficha_es": "Para pedir y dar el camino: dov'è…? (¿dónde está…?), a destra (a la derecha), a sinistra (a la izquierda), dritto (derecho), davanti a (delante de), dietro (detrás de), vicino a (cerca de), lontano da (lejos de), all'angolo (en la esquina).\n\nOjo con las preposiciones: vicino a y davanti a llevan «a», pero lontano da lleva «da». Para dar instrucciones se usa mucho giri a destra / vada dritto (con Lei).",
+      "readings": [
+        "rd_poste"
       ]
     },
     {
@@ -560,476 +1030,6 @@
           "num": "x",
           "gloss": "todo"
         }
-      ]
-    },
-    {
-      "id": "u37",
-      "level": "A1",
-      "title": "Vocabulario: saludar y ser cortés",
-      "goal_es": "Buongiorno, buonasera, ciao, arrivederci, grazie, prego, scusi/scusa… y cuándo usar el trato formal.",
-      "codes": [
-        "ERR_VOC_SALUTI"
-      ],
-      "why_here": "Las primeras palabras de cualquier conversación, antes de presentarte.",
-      "ficha_es": "Fórmulas de contacto: buongiorno (hasta la tarde), buonasera (desde la tarde), buonanotte (para despedirse e irse a dormir), ciao (informal, sirve para saludar y despedirse), arrivederci (despedida neutra), salve (saludo neutro), grazie y prego (de nada).\n\nRegistro: con una persona a quien tratas con respeto se usa «Lei» (scusi, come sta?); entre amigos, «tu» (scusa, come stai?). «Prego» significa también «adelante, pase». Ojo: «piacere» es «mucho gusto» al conocer a alguien; «per piacere» es «por favor».",
-      "readings": [
-        "rd_ciao"
-      ]
-    },
-    {
-      "id": "u60",
-      "level": "A1",
-      "title": "Presentarte: mi chiamo, ti chiami",
-      "goal_es": "Mi chiamo, ti chiami, si chiama: el reflexivo es mi/ti/si (no «me, te, se»).",
-      "codes": [
-        "ERR_CHIAMARSI"
-      ],
-      "why_here": "Es lo primero que dices al conocer a alguien, junto a los saludos.",
-      "ficha_es": "Para presentarte: Mi chiamo Ana (me llamo Ana), Sono cilena, Ho venti anni, Piacere (mucho gusto). Para preguntar el nombre a un amigo: Come ti chiami?; a una persona que tratas de usted: Come si chiama?\n\nChiamarsi es un verbo reflexivo: mi chiamo, ti chiami, si chiama, ci chiamiamo, vi chiamate, si chiamano. El español usa me, te, se, nos, os: «me chiamo» o «come te chiami» no existen en italiano. Otra forma es Il mio nome è… (mi nombre es…). Fuente: Leggiamo (LBCC), capítulo «Presentarsi».",
-      "readings": [
-        "rd_saluti"
-      ]
-    },
-    {
-      "id": "u26",
-      "level": "A1",
-      "title": "Vocabulario: los números",
-      "goal_es": "Due, tre, quattro… venti, cento, mille, en oraciones reales (hora, edad, cantidades).",
-      "codes": [
-        "ERR_VOC_NUMERI"
-      ],
-      "why_here": "Edad, hora y precios aparecen desde el primer día.",
-      "readings": [
-        "rd_bargello"
-      ],
-      "ficha_es": "Los números del 0 al 10: zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci. Del 11 al 16: undici, dodici, tredici, quattordici, quindici, sedici. Las decenas: venti, trenta, quaranta, cinquanta; y cento, mille (mil), con plural «mila» (duemila).\n\nEl español dice «veintiuno»; el italiano une las palabras: ventuno, ventidue, ventitré (con acento en tré). Y los números llevan acento en las formas compuestas con tre: ventitré, trentatré. La hora usa los mismos números: sono le otto."
-    },
-    {
-      "id": "u13",
-      "level": "A1",
-      "title": "Essere y avere: sono, ho",
-      "goal_es": "Conjugar los dos verbos base: sono, sei, è, siamo, siete, sono / ho, hai, ha, abbiamo, avete, hanno.",
-      "codes": [
-        "ERR_PRESENT_ESSERE_AVERE"
-      ],
-      "why_here": "Son la base de casi todo lo demás: presentarse, describir y los tiempos compuestos.",
-      "readings": [
-        "rd_zaino"
-      ],
-      "ficha_es": "Essere (ser/estar) y avere (tener/haber): sono, sei, è, siamo, siete, sono; ho, hai, ha, abbiamo, avete, hanno. En italiano la h de «ho, hai, ha, hanno» no se pronuncia: se escribe pero no suena.\n\nEssere sirve para ser y para estar en un lugar (sono a casa), y avere para la edad (ho venti anni: «tengo veinte años»). Hay que decir el pronombre solo para dar énfasis: «sono stanco» ya es «estoy cansado»."
-    },
-    {
-      "id": "u54",
-      "level": "A1",
-      "title": "Género: il latte, la mappa (distinto del español)",
-      "goal_es": "Il latte, il sale, il fiore, il sangue… son masculinos aunque en español sean femeninos; la mappa y la matita, al revés. Y el plural: -o → -i, -a → -e.",
-      "codes": [
-        "ERR_GENERE_ES"
-      ],
-      "why_here": "Después de los artículos determinativos, el género que no coincide con el español es el primer error de fondo.",
-      "ficha_es": "Hay palabras que tienen otro género que en español. Masculinas en italiano: il latte (la leche), il sale (la sal), il miele (la miel), il sangue (la sangre), il fiore (la flor), il naso (la nariz), il sorriso (la sonrisa). Femeninas en italiano: la mappa (el mapa), la matita (el lápiz), la penna (el bolígrafo), la scarpa (el zapato), la borsa (el bolso).\n\nPlurales: -o cambia a -i (libro → libri), -a cambia a -e (casa → case) y -e cambia a -i (notte → notti). El artículo cambia igual: il → i, la → le. No se agrega -s.",
-      "readings": [
-        "rd_zaino"
-      ]
-    },
-    {
-      "id": "u55",
-      "level": "A1",
-      "title": "Un, uno, una, un': el artículo indefinido",
-      "goal_es": "Un amico, pero uno studente y uno zio; una casa, pero un'amica con apóstrofo.",
-      "codes": [
-        "ERR_INDEFINITE_ARTICLE"
-      ],
-      "why_here": "Es el par de los artículos determinativos: cambia con la primera letra, como il / lo.",
-      "ficha_es": "El artículo indefinido tiene cuatro formas: un (masculino: un amico), uno (masculino ante s + consonante, z, gn, ps: uno studente, uno zio), una (femenino: una casa) y un' (femenino ante vocal: un'amica).\n\nEn español solo «un/una» (un estudiante, una amiga): por eso el error típico es «un studente» o «un amica». Mira la letra con que empieza la palabra siguiente. Ojo: un amico (masculino) no lleva apóstrofo; un'amica (femenino) sí.",
-      "readings": [
-        "rd_routine"
-      ]
-    },
-    {
-      "id": "u07",
-      "level": "A1",
-      "title": "Il, lo, l' y gli, i: elegir el artículo",
-      "goal_es": "Ante s+consonante, z, gn o ps se usa lo (lo studente) y gli (gli studenti), no il / i.",
-      "codes": [
-        "ERR_ARTICLE_ALLOMORPH"
-      ],
-      "why_here": "Cierra los artículos de A1 una vez vistas las contracciones.",
-      "ficha_es": "El artículo determinativo masculino es il (il libro), lo ante s + consonante, z, gn, ps (lo studente, lo zio) y l' ante vocal (l'amico). Plural: i (i libri) y gli (gli studenti, gli amici). Femenino: la (la casa), l' ante vocal (l'amica) y plural le (le case).\n\nEl español solo tiene «el, la, los, las». El italiano cambia el artículo según la primera letra de la palabra siguiente: por eso hay que fijarse en cómo empieza el sustantivo.",
-      "readings": [
-        "rd_medici"
-      ]
-    },
-    {
-      "id": "u49",
-      "level": "A1",
-      "title": "Vocabulario: objetos de todos los días",
-      "goal_es": "Telefono, cellulare, zaino, matita, lettera, regalo, foglio… y «lettera» = carta que se envía.",
-      "codes": [
-        "ERR_VOC_OGGETTI"
-      ],
-      "why_here": "Nombrar lo que usas y llevas a diario.",
-      "ficha_es": "Objetos de todos los días: telefono, cellulare, zaino, matita, lettera, regalo, foglio, quadro, cuscino… Aprende cada palabra con su artículo: il telefono, la lettera, lo zaino.\n\nOjo con los parecidos: «lettera» es la carta que se envía (no «carta», que es el papel o la carta de la baraja). «Foglio» es una hoja de papel; «zaino» es la mochila. Pasa por la lista de palabras antes de practicar."
-    },
-    {
-      "id": "u41",
-      "level": "A1",
-      "title": "Vocabulario: cómo es (adjetivos)",
-      "goal_es": "Alto, bello, buono, grande, simpatico, giovane… y la concordancia en género (alto/alta) y en -e (grande).",
-      "codes": [
-        "ERR_VOC_AGGETTIVI"
-      ],
-      "why_here": "Describir personas y cosas, con los colores y el vocabulario ya visto.",
-      "readings": [
-        "rd_david"
-      ],
-      "ficha_es": "El adjetivo concuerda en género y número con el sustantivo: un ragazzo alto, una ragazza alta, ragazzi alti, ragazze alte. Los adjetivos terminados en -e valen para los dos géneros: un uomo grande, una donna grande (plural: grandi).\n\nEn italiano el adjetivo suele ir después del sustantivo (una casa nuova), pero bello, buono, grande, piccolo, vecchio y nuovo van muchas veces antes y cambian de forma (un bel libro, un buon amico)."
-    },
-    {
-      "id": "u32",
-      "level": "A1",
-      "title": "Vocabulario: los colores",
-      "goal_es": "Rosso, bianco, nero, giallo, verde, blu… y cómo cambian con el género (rossa) o no cambian (blu, rosa).",
-      "codes": [
-        "ERR_VOC_COLORI"
-      ],
-      "why_here": "Describir cosas y personas con colores que concuerdan con lo que describen.",
-      "ficha_es": "Los colores concuerdan con el sustantivo: rosso/rossa/rossi/rosse. Pero rosa, viola y blu no cambian nunca (due gonne blu), y verde cambia solo en plural (verdi). Azzurro es el azul claro (el cielo) y blu es el azul oscuro.\n\nLos colores se usan después del sustantivo: una gonna rossa, un gatto nero. Con el artículo se pueden nombrar solos: il rosso, il blu.",
-      "readings": [
-        "rd_aspetto"
-      ]
-    },
-    {
-      "id": "u45",
-      "level": "A1",
-      "title": "Vocabulario: países y nacionalidades",
-      "goal_es": "Italiano, spagnolo, francese, inglese, cileno… y que se escriben con minúscula (parlo spagnolo).",
-      "codes": [
-        "ERR_VOC_NAZIONALITA"
-      ],
-      "why_here": "Decir de dónde eres y qué idiomas hablas, con essere y los adjetivos ya vistos.",
-      "ficha_es": "Las nacionalidades y los idiomas se escriben con minúscula en italiano: sono cileno, parlo spagnolo, è italiana. Cambian como los adjetivos: italiano/italiana/italiani/italiane. Las terminadas en -e (francese, inglese, giapponese, cinese) valen para masculino y femenino.\n\nEl idioma es masculino y suele llevar artículo: l'italiano è bello; pero con parlare y con in no lo lleva: parlo italiano, scrivo in italiano.",
-      "readings": [
-        "rd_descriviamo"
-      ]
-    },
-    {
-      "id": "u30",
-      "level": "A1",
-      "title": "Vocabulario: preguntar (dove, quando, perché…)",
-      "goal_es": "Dove, quando, perché, come, chi, quanto, quale, cosa: reconocerlas al oírlas y usarlas en preguntas reales.",
-      "codes": [
-        "ERR_VOC_INTERROG"
-      ],
-      "why_here": "Con ellas ya se pueden hacer preguntas desde el primer día.",
-      "readings": [
-        "rd_dovesei"
-      ],
-      "ficha_es": "Palabras para preguntar: dove (dónde), quando (cuándo), perché (por qué y porque), come (cómo), chi (quién), quanto/a/i/e (cuánto), quale (cuál), cosa o che cosa (qué).\n\nOjo: «perché» sirve para preguntar (¿por qué?) y para responder (porque). «Che cosa» y «cosa» equivalen a «qué»; «quale» concuerda solo en número (quali). La entonación sube al final de la pregunta, y no se invierte el sujeto como en inglés."
-    },
-    {
-      "id": "u21",
-      "level": "A1",
-      "title": "Vocabulario: la familia y las personas",
-      "goal_es": "Madre, padre, hermano, hijo, amigo… con su artículo y su género.",
-      "codes": [
-        "ERR_VOC_FAMILIA"
-      ],
-      "why_here": "Primer vocabulario: hablar de ti y de tu gente.",
-      "readings": [
-        "rd_incontro"
-      ],
-      "ficha_es": "La familia: madre, padre, fratello (hermano), sorella (hermana), figlio, figlia, nonno, nonna, zio, zia, cugino, cugina, marito, moglie. Plurales: i genitori (los padres), i figli (los hijos, hijos e hijas), i nonni.\n\n«Genitori» son los padres (madre y padre); «parenti» son los parientes. «Famiglia» y «amici» se usan mucho con posesivo: la mia famiglia. Mira la lista de palabras y fíjate en el género de cada una."
-    },
-    {
-      "id": "u01",
-      "level": "A1",
-      "title": "El posesivo lleva artículo",
-      "goal_es": "Decir «la mia casa», no «mia casa»: en italiano el posesivo lleva artículo (salvo parentesco singular).",
-      "codes": [
-        "ERR_POSSESSIVE_ARTICLE"
-      ],
-      "why_here": "Las fuentes piden frenar este calco desde el primer día.",
-      "readings": [
-        "rd_comesei"
-      ],
-      "ficha_es": "En italiano el posesivo lleva artículo: il mio libro, la tua casa, i miei amici. El español dice «mi libro» sin artículo.\n\nExcepción importante: con parentesco en singular no se usa el artículo: mio padre, tua madre, suo fratello (pero i miei fratelli, la mia sorella maggiore). Y con loro siempre va artículo: la loro casa."
-    },
-    {
-      "id": "u02",
-      "level": "A1",
-      "title": "Escribir mio, tuo, suo (no mi, tu, su)",
-      "goal_es": "El posesivo italiano cambia de forma: il mio libro, la tua casa, i suoi amici; «mi», «tu» y «su» son formas del español.",
-      "codes": [
-        "ERR_POSSESSIVE_SPELLING"
-      ],
-      "why_here": "Va justo después del artículo con posesivo: es la misma estructura vista por su forma.",
-      "readings": [
-        "rd_dati"
-      ],
-      "ficha_es": "La grafía de los posesivos: mio, mia, miei, mie; tuo, tua, tuoi, tue; suo, sua, suoi, sue. En español se escribe «mi, tu, su» (sin distinguir género) y «mis, tus, sus»; en italiano cambian con el género y el número de lo poseído.\n\nError típico: «mi libro» o «tu casa» en italiano. Se dice il mio libro y la tua casa. Y «suo» es «su» de él, de ella o de usted: el contexto lo aclara."
-    },
-    {
-      "id": "u38",
-      "level": "A1",
-      "title": "Questo y quello: este y aquel",
-      "goal_es": "Questo/questa/questi/queste (cerca) y quel/quella/quei/quelle (lejos), que concuerdan con el sustantivo.",
-      "codes": [
-        "ERR_VOC_DIMOSTRATIVI"
-      ],
-      "why_here": "Señalar cosas al comprar o describir, con los artículos y el género ya vistos.",
-      "readings": [
-        "rd_stemmi"
-      ],
-      "ficha_es": "Questo (cerca): questo, questa, questi, queste. Quello (lejos): quello, quella, quelli, quelle; ante un sustantivo cambia como el artículo: quel libro, quello studente, quell'amico, quei libri, quegli studenti.\n\nEl español distingue tres distancias (este, ese, aquel); el italiano solo dos: questo y quello. «Ese» se dice con quello o con codesto (poco usado hoy)."
-    },
-    {
-      "id": "u39",
-      "level": "A1",
-      "title": "Molto, poco, troppo, tanto",
-      "goal_es": "Molto, poco, troppo, tanto, abbastanza: cuándo concuerdan (molta acqua, molti amici) y cuándo no (mangio molto).",
-      "codes": [
-        "ERR_VOC_QUANTITA"
-      ],
-      "why_here": "Decir cuánto o cuántos, con el vocabulario de las cosas ya visto.",
-      "ficha_es": "Molto, poco, troppo, tanto, abbastanza. Antes de un sustantivo concuerdan: molta acqua, molti amici, poche ore. Como adverbio no cambian: mangio molto, studia poco.\n\n«Abbastanza» (bastante) no cambia nunca. Atención con el sentido: «poco» es «poco» (tengo poco tempo); «un poco» se dice un po' (un po' di pane)."
-    },
-    {
-      "id": "u04",
-      "level": "A1",
-      "title": "Tener no es «tenere»: ho fame",
-      "goal_es": "Sensaciones y edad con avere (ho fame, ho paura), no con tenere.",
-      "codes": [
-        "ERR_TENERE_AVERE"
-      ],
-      "why_here": "Léxico básico de A1 con calco muy frecuente.",
-      "readings": [
-        "rd_faccende"
-      ],
-      "ficha_es": "El español usa «tener» con hambre, sed, frío, calor, sueño, miedo y años; el italiano usa avere, no tenere: ho fame, ho sete, ho freddo, ho caldo, ho sonno, ho paura, ho venti anni.\n\n«Tenere» existe pero significa «sostener, mantener» (tieni la porta). Así que «tengo hambre» es «ho fame» y no «tengo fame». Este es el calco más frecuente al hablar de estados físicos."
-    },
-    {
-      "id": "u14",
-      "level": "A1",
-      "title": "Verbos en -are: parlo, parli, parla",
-      "goal_es": "Terminaciones del presente de los verbos en -are; el español -as, -amos, -an no existe en italiano.",
-      "codes": [
-        "ERR_PRESENT_ARE"
-      ],
-      "why_here": "Es el grupo más grande de verbos y donde más pesa el calco de las terminaciones.",
-      "readings": [
-        "rd_routine"
-      ],
-      "ficha_es": "Los verbos en -are (parlare) hacen el presente con -o, -i, -a, -iamo, -ate, -ano: parlo, parli, parla, parliamo, parlate, parlano. El español dice -o, -as, -a, -amos, -áis, -an.\n\nCuidado: tu parli (no «parlas»), voi parlate (no «parláis»). El sujeto (io, tu, lui…) se omite casi siempre porque la terminación ya dice quién es. Los verbos en -iare (studiare) y -care/-gare (cercare) tienen pequeñas particularidades."
-    },
-    {
-      "id": "u15",
-      "level": "A1",
-      "title": "Verbos en -ere e -ire: leggo, dormo, finisco",
-      "goal_es": "Terminaciones de -ere (leggo, leggi, legge…) y de -ire, con -isc- en finire, capire, preferire.",
-      "codes": [
-        "ERR_PRESENT_ERE_IRE"
-      ],
-      "why_here": "Completa los dos grupos regulares tras los verbos en -are.",
-      "readings": [
-        "rd_tempolibero"
-      ],
-      "ficha_es": "Los verbos en -ere (leggere, vendere) hacen el presente con -o, -i, -e, -iamo, -ete, -ono: leggo, leggi, legge, leggiamo, leggete, leggono. Los en -ire (dormire) igual con -ite: dormo, dormi, dorme, dormiamo, dormite, dormono. Algunos -ire agregan -isc-: finire → finisco, finisci, finisce, finiamo, finite, finiscono.\n\nFíjate en el «noi» (-iamo) y en el «loro» (-ono) que son iguales en todos los grupos. El español tiene «-emos / -imos»: aquí es siempre -iamo."
-    },
-    {
-      "id": "u16",
-      "level": "A1",
-      "title": "Andare, fare, stare, venire: vado, faccio",
-      "goal_es": "Las formas irregulares más usadas: vado, faccio, sto, vengo, do, dico, so, esco.",
-      "codes": [
-        "ERR_PRESENT_IRREGULAR"
-      ],
-      "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques.",
-      "ficha_es": "Cuatro verbos muy usados e irregulares: andare (vado, vai, va, andiamo, andate, vanno), fare (faccio, fai, fa, facciamo, fate, fanno), stare (sto, stai, sta, stiamo, state, stanno), venire (vengo, vieni, viene, veniamo, venite, vengono).\n\nStare sirve para «estar» en la salud y en estar + gerundio (sto mangiando), y essere para el resto. Fare entra en muchas expresiones: fare colazione (desayunar), fare una doccia, fa caldo (hace calor).",
-      "readings": [
-        "rd_stasera"
-      ]
-    },
-    {
-      "id": "u17",
-      "level": "A1",
-      "title": "Volere, potere, dovere: voglio, posso, devo",
-      "goal_es": "Los tres modales irregulares y su uso con un infinitivo: voglio mangiare, posso venire, devo studiare.",
-      "codes": [
-        "ERR_PRESENT_MODAL"
-      ],
-      "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación.",
-      "ficha_es": "Volere, potere y dovere (querer, poder, deber) van con infinitivo: voglio mangiare, posso venire, devo studiare. Presente: voglio, vuoi, vuole, vogliamo, volete, vogliono; posso, puoi, può, possiamo, potete, possono; devo, devi, deve, dobbiamo, dovete, devono.\n\nSon irregulares: aprende las formas de memoria. Ojo: «tengo que» se dice devo; «tener ganas de» es avere voglia di.",
-      "readings": [
-        "rd_festa"
-      ]
-    },
-    {
-      "id": "u36",
-      "level": "A1",
-      "title": "Vocabulario: tiempo libre",
-      "goal_es": "Calcio, musica, film, canzone, festa… y «giocare a calcio» (con «a»).",
-      "codes": [
-        "ERR_VOC_TEMPOLIBERO"
-      ],
-      "why_here": "Contar qué haces en tu tiempo libre con los verbos de presente.",
-      "ficha_es": "Tiempo libre: il calcio, il tennis, la musica, il film, la canzone, la festa, il concerto, la passeggiata, le vacanze. Con giocare se dice giocare a calcio, a tennis (con «a»); con suonare, suonare la chitarra, il pianoforte (con artículo).\n\n«Film», «sport» y «hobby» no cambian en plural (i film, gli sport). Una passeggiata es un paseo; fare una passeggiata, «dar un paseo».",
-      "readings": [
-        "rd_passatempi"
-      ]
-    },
-    {
-      "id": "u25",
-      "level": "A1",
-      "title": "Vocabulario: días, meses y estaciones",
-      "goal_es": "Giorno, settimana, mese, anno, lunedì…domenica, estate, inverno.",
-      "codes": [
-        "ERR_VOC_TEMPO"
-      ],
-      "why_here": "Hablar de rutinas y planes.",
-      "readings": [
-        "rd_materie"
-      ],
-      "ficha_es": "Los días van sin mayúscula: lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica. Los meses también: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre. Las estaciones: primavera, estate, autunno, inverno.\n\n«Il lunedì» (con artículo) es «los lunes» (todos); «lunedì» solo es «este lunes». «In estate / d'estate» es «en verano». Los meses se usan con «a» o «in»: a marzo, in marzo."
-    },
-    {
-      "id": "u59",
-      "level": "A1",
-      "title": "La hora: sono le due e mezza, è l'una",
-      "goal_es": "Sono le… (plural) pero è l'una; «e un quarto», «e mezza», «meno»: no «y cuarto» ni «y media».",
-      "codes": [
-        "ERR_ORA_ES"
-      ],
-      "why_here": "Decir la hora y a qué hora haces las cosas, con los números y los días ya vistos.",
-      "ficha_es": "Para preguntar la hora: Che ore sono? o Che ora è? La respuesta usa el plural: Sono le due, Sono le tre… pero el singular para la una y el mediodía: È l'una, È mezzogiorno, È mezzanotte.\n\nLos minutos se dicen con e: Sono le tre e venti. Pasada la media hora se dice la hora siguiente + meno + los minutos que faltan: Sono le cinque meno dieci. Para cuarto y media: e un quarto, e mezza (o e mezzo), meno un quarto. El español dice «y cuarto» y «y media»: en italiano no se omite el «un» (e un quarto, no «e quarto») y se dice mezza (no «media»).\n\nPara decir a qué hora: alle due, alle tre; all'una; a mezzogiorno, a mezzanotte (sin artículo). Y para el momento del día: di mattina, del pomeriggio, di sera, di notte. Fuente: Piacere! (Univ. de Iowa), capítulo «L'ora».",
-      "readings": [
-        "rd_giornata"
-      ]
-    },
-    {
-      "id": "u40",
-      "level": "A1",
-      "title": "Ieri, oggi, domani, sempre, mai",
-      "goal_es": "Ieri, oggi, domani, adesso, stasera, presto, tardi, sempre, mai, già, ancora: situar las cosas en el tiempo.",
-      "codes": [
-        "ERR_VOC_AVVERBI"
-      ],
-      "why_here": "Hablar de cuándo pasan las cosas, con los días y los meses ya vistos.",
-      "readings": [
-        "rd_albergo"
-      ],
-      "ficha_es": "Ieri (ayer), oggi (hoy), domani (mañana), adesso (ahora), stasera (esta tarde-noche), presto (temprano), tardi (tarde), sempre (siempre), mai (nunca), già (ya), ancora (todavía), spesso (a menudo).\n\nLos adverbios no cambian. Con «mai» el verbo lleva «non»: non vado mai (nunca voy). «Ancora» significa «todavía» y también «otra vez»: non è ancora qui. «Domani» es mañana (el día siguiente); «mañana por la mañana» es domani mattina."
-    },
-    {
-      "id": "u56",
-      "level": "A1",
-      "title": "Rutina diaria: mi sveglio, ti alzi (reflexivos)",
-      "goal_es": "Mi, ti, si, ci, vi (no «me, te, se, nos, os»): mi sveglio, si lava, ci vestiamo.",
-      "codes": [
-        "ERR_RIFLESSIVO_PRONOME"
-      ],
-      "why_here": "Hablar de tu día con los verbos de presente ya vistos.",
-      "ficha_es": "Los verbos reflexivos (svegliarsi, alzarsi, lavarsi, vestirsi) usan los pronombres mi, ti, si, ci, vi: mi sveglio, ti alzi, si lava, ci vestiamo, vi riposate, si divertono. El español usa me, te, se, nos, os.\n\nEl pronombre va antes del verbo y siempre concuerda con el sujeto. Cuidado: el «se» español se escribe «si» en italiano (si lava) y no se confunde con «sì» (con tilde, «sí») ni con «se» (la conjunción «si» condicional). Algunos verbos son reflexivos en un idioma y no en el otro.",
-      "readings": [
-        "rd_giornatabrutta"
-      ]
-    },
-    {
-      "id": "u23",
-      "level": "A1",
-      "title": "Vocabulario: la casa",
-      "goal_es": "Stanza, cucina, camera, bagno, porta, finestra, tavolo… y el artículo con vocal inicial (l'appartamento).",
-      "codes": [
-        "ERR_VOC_CASA"
-      ],
-      "why_here": "Describir dónde vives, con los verbos de presente ya vistos.",
-      "readings": [
-        "rd_casa"
-      ],
-      "ficha_es": "La casa: stanza y camera (habitación, «camera» es dormitorio, no «cámara»), cucina, bagno, salotto, porta, finestra, tavolo, sedia, giardino, balcone. Con vocal inicial el artículo se apostrofa: l'appartamento, l'armadio.\n\n«Tavolo» es la mesa; la «tavola» es la mesa puesta para comer. «Piano» es el piso: al secondo piano (en el segundo piso)."
-    },
-    {
-      "id": "u03",
-      "level": "A1",
-      "title": "Hay: c'è y ci sono",
-      "goal_es": "Elegir c'è (uno) o ci sono (varios): el español «hay» no cambia.",
-      "codes": [
-        "ERR_CE_AGREEMENT"
-      ],
-      "why_here": "Estructura de uso inmediato en las primeras frases.",
-      "readings": [
-        "rd_viviamo"
-      ],
-      "ficha_es": "C'è (hay, singular) y ci sono (hay, plural): c'è un libro, ci sono due libri. El español usa «hay» para los dos; el italiano cambia el verbo según lo que hay.\n\nError típico: «c'è due libri» o «ci sono un libro». También sirve para preguntar: c'è un bagno? ci sono camere libere? Con un lugar delante: qui c'è, lì ci sono."
-    },
-    {
-      "id": "u24",
-      "level": "A1",
-      "title": "Vocabulario: la ciudad y la naturaleza",
-      "goal_es": "Città, strada, piazza, stazione, mare, fiume, montagna…",
-      "codes": [
-        "ERR_VOC_CITTA"
-      ],
-      "why_here": "Moverse y preguntar por lugares; prepara las preposiciones a / in.",
-      "readings": [
-        "rd_firenze"
-      ],
-      "ficha_es": "La ciudad: città, strada, piazza, chiesa, stazione, aeroporto, ponte, mercato, parco, museo, biblioteca, quartiere, spiaggia, montagna, mare, fiume, lago. Muchas palabras en -e no revelan el género: il ponte, il mare, il fiume, pero la stazione, la città.\n\n«Biblioteca» es la que presta libros; «libreria» es la que los vende. «Piazza» es la plaza; «strada» es la calle; «via» se usa en los nombres (via Roma)."
-    },
-    {
-      "id": "u05",
-      "level": "A1",
-      "title": "Ciudades y países: a / in",
-      "goal_es": "Vivo a Roma, vivo in Italia: ciudades con a, países con in.",
-      "codes": [
-        "ERR_PREP_PLACE"
-      ],
-      "why_here": "Preposiciones simples de A1.",
-      "readings": [
-        "rd_spese"
-      ],
-      "ficha_es": "Con ciudades se usa a: vado a Roma, sono a Milano. Con países se usa in: vado in Italia, abito in Spagna, sono in Cile. El español dice «a/en» para todo.\n\nError típico: «vado in Roma» o «abito a Italia». Con países en plural o con artículo (gli Stati Uniti), in + artículo: negli Stati Uniti. Para ir a casa de alguien, da: vado da Marco."
-    },
-    {
-      "id": "u06",
-      "level": "A1",
-      "title": "Preposición + artículo: nel, sul, dal",
-      "goal_es": "Fundir preposición y artículo: nella, no «in la».",
-      "codes": [
-        "ERR_PREP_ARTICLE_CONTRACTION"
-      ],
-      "why_here": "Se apoya en las preposiciones de la unidad anterior.",
-      "readings": [
-        "rd_signoria"
-      ],
-      "ficha_es": "La preposición se une al artículo: in + il = nel, su + il = sul, da + il = dal, di + il = del, a + il = al. Con el resto de artículos: nella, sulla, dalla, dello, agli, ai, alle, dei, delle, negli, sui…\n\nEn español solo hay «al» y «del»; en italiano casi todas las combinaciones se contraen (nel, nella, sul, dal). Error típico: «in il» o «su la». Se escribe junto: nella casa, no «in la casa»."
-    },
-    {
-      "id": "u61",
-      "level": "A1",
-      "title": "Pronombres tónicos: con me, per te",
-      "goal_es": "Tras preposición: con me, per te, da me (no «con io», «per tu»).",
-      "codes": [
-        "ERR_PRONOME_TONICO"
-      ],
-      "why_here": "Después de las preposiciones ya vistas, para hablar de ti y de mí.",
-      "ficha_es": "Después de una preposición (con, per, da, di, a, senza, su, tra, fra) el italiano usa los pronombres tónicos: me, te, lui, lei, noi, voi, loro. Con el pronombre de «yo» y «tú» no se usan io y tu: con me, per te, da me, a te, senza di te.\n\nEl español junta la preposición en «conmigo» y «contigo»; el italiano las separa: con me, con te. Con lui, lei, noi, voi y loro el pronombre es igual que el de sujeto (con lui, per noi). También se usan para dar énfasis tras el verbo: Cerco proprio te. Fuente: Piacere! (Univ. de Iowa), capítulo «I pronomi tonici».",
-      "readings": [
-        "rd_regalo"
-      ]
-    },
-    {
-      "id": "u57",
-      "level": "A1",
-      "title": "Direcciones: a destra, a sinistra, dritto",
-      "goal_es": "Destra, sinistra, dritto, vicino, lontano, davanti, dietro… para pedir y dar el camino.",
-      "codes": [
-        "ERR_VOC_DIREZIONI"
-      ],
-      "why_here": "Moverte por la ciudad, con los lugares y las preposiciones ya vistos.",
-      "ficha_es": "Para pedir y dar el camino: dov'è…? (¿dónde está…?), a destra (a la derecha), a sinistra (a la izquierda), dritto (derecho), davanti a (delante de), dietro (detrás de), vicino a (cerca de), lontano da (lejos de), all'angolo (en la esquina).\n\nOjo con las preposiciones: vicino a y davanti a llevan «a», pero lontano da lleva «da». Para dar instrucciones se usa mucho giri a destra / vada dritto (con Lei).",
-      "readings": [
-        "rd_poste"
       ]
     },
     {

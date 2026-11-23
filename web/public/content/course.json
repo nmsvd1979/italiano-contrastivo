@@ -29,6 +29,355 @@
   ],
   "units": [
     {
+      "id": "u37",
+      "level": "A1",
+      "title": "Vocabulario: saludar y ser cortés",
+      "goal_es": "Buongiorno, buonasera, ciao, arrivederci, grazie, prego, scusi/scusa… y cuándo usar el trato formal.",
+      "codes": [
+        "ERR_VOC_SALUTI"
+      ],
+      "why_here": "Las primeras palabras de cualquier conversación: con esto ya puedes saludar el primer día.",
+      "ficha_es": "Fórmulas de contacto: buongiorno (hasta la tarde), buonasera (desde la tarde), buonanotte (para despedirse e irse a dormir), ciao (informal, sirve para saludar y despedirse), arrivederci (despedida neutra), salve (saludo neutro), grazie y prego (de nada).\n\nRegistro: con una persona a quien tratas con respeto se usa «Lei» (scusi, come sta?); entre amigos, «tu» (scusa, come stai?). «Prego» significa también «adelante, pase». Ojo: «piacere» es «mucho gusto» al conocer a alguien; «per piacere» es «por favor».",
+      "readings": [
+        "rd_ciao"
+      ],
+      "words": [
+        {
+          "form": "buongiorno",
+          "gender": "-",
+          "num": "-",
+          "gloss": "buenos días",
+          "audio": "f0fa9097a41d",
+          "sieve": "opaca"
+        },
+        {
+          "form": "buonasera",
+          "gender": "-",
+          "num": "-",
+          "gloss": "buenas tardes o buenas noches (al llegar)",
+          "audio": "c3eb54e68a19",
+          "sieve": "opaca"
+        },
+        {
+          "form": "buonanotte",
+          "gender": "-",
+          "num": "-",
+          "gloss": "buenas noches (al despedirse)",
+          "audio": "fab33a7549d2",
+          "sieve": "regular",
+          "rule": "ue-uo"
+        },
+        {
+          "form": "ciao",
+          "gender": "-",
+          "num": "-",
+          "gloss": "hola o chao (informal)",
+          "audio": "1e4e888ac66f",
+          "sieve": "transparente",
+          "note": "'chao' se usa en Chile"
+        },
+        {
+          "form": "arrivederci",
+          "gender": "-",
+          "num": "-",
+          "gloss": "hasta luego (al despedirse)",
+          "audio": "0fd32ba65c5e",
+          "sieve": "opaca"
+        },
+        {
+          "form": "grazie",
+          "gender": "-",
+          "num": "-",
+          "gloss": "gracias",
+          "audio": "bd57224e34ea",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "gracias→grazie (c→z, -ias→-ie)"
+        },
+        {
+          "form": "prego",
+          "gender": "-",
+          "num": "-",
+          "gloss": "de nada o adelante",
+          "audio": "9aa482c33a8a",
+          "sieve": "opaca"
+        },
+        {
+          "form": "scusi",
+          "gender": "-",
+          "num": "-",
+          "gloss": "disculpe (formal)",
+          "audio": "84290c8aaf24",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "dis- → s-: disculpe→scusi"
+        },
+        {
+          "form": "scusa",
+          "gender": "-",
+          "num": "-",
+          "gloss": "disculpa (informal)",
+          "audio": "5e73628e9369",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "dis- → s-: disculpa→scusa"
+        },
+        {
+          "form": "salve",
+          "gender": "-",
+          "num": "-",
+          "gloss": "hola (neutro)",
+          "audio": "87251213fc40",
+          "sieve": "opaca"
+        },
+        {
+          "form": "auguri",
+          "gender": "-",
+          "num": "-",
+          "gloss": "felicitaciones por una fiesta",
+          "audio": "7f8a1b3edc81",
+          "sieve": "opaca"
+        },
+        {
+          "form": "complimenti",
+          "gender": "-",
+          "num": "-",
+          "gloss": "felicitaciones por un logro",
+          "audio": "b6c86f8b11f6",
+          "sieve": "opaca"
+        },
+        {
+          "form": "benvenuto",
+          "gender": "m",
+          "num": "s",
+          "gloss": "bienvenido",
+          "audio": "2fd4230873ee",
+          "sieve": "regular",
+          "rule": "ie-e"
+        },
+        {
+          "form": "benvenuta",
+          "gender": "f",
+          "num": "s",
+          "gloss": "bienvenida",
+          "audio": "dcbeec40377b",
+          "sieve": "regular",
+          "rule": "ie-e"
+        },
+        {
+          "form": "benvenuti",
+          "gender": "m",
+          "num": "p",
+          "gloss": "bienvenidos",
+          "audio": "d9e89b831d69",
+          "sieve": "regular",
+          "rule": "ie-e"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Buongiorno, buonasera, ciao, arrivederci, grazie, prego, scusi… «Buongiorno» se usa hasta la tarde y «buonasera» desde la tarde; «buonanotte» solo para despedirse a dormir. A un desconocido o con respeto se dice «scusi» y «arrivederLa»; entre amigos, «scusa» y «ciao».",
+      "parts": {
+        "descubre": [
+          "s_7796553",
+          "s_4387186",
+          "s_4387187",
+          "s_383014"
+        ],
+        "practica": [
+          "s_7796553",
+          "s_4387186",
+          "s_4387187",
+          "s_383014",
+          "s_559619",
+          "s_559605",
+          "s_9712470",
+          "s_3122315",
+          "s_3122330",
+          "s_3291223",
+          "s_6598255",
+          "s_9712469",
+          "s_754982",
+          "s_1055122",
+          "s_1098118",
+          "s_12701068",
+          "s_7536374",
+          "s_12226086",
+          "s_1969143",
+          "s_616050",
+          "s_2856759",
+          "s_11464680",
+          "s_2856758",
+          "s_2856760",
+          "s_3101862",
+          "s_383008",
+          "s_5041050",
+          "s_860808",
+          "s_1659499",
+          "s_578277",
+          "s_911128",
+          "s_3778384",
+          "s_1858138",
+          "s_836536",
+          "s_993082",
+          "s_1004011",
+          "s_4060616"
+        ],
+        "escucha": [
+          "s_7796553",
+          "s_559619",
+          "s_3122330",
+          "s_754982",
+          "s_7536374",
+          "s_2856759",
+          "s_3101862",
+          "s_1659499"
+        ],
+        "prueba": [
+          "s_2720978",
+          "s_524339",
+          "s_1711122",
+          "s_3608286",
+          "s_3423488",
+          "s_1492622"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_7796553",
+          "start": 0,
+          "end": 4,
+          "wrong": "Buongiorno"
+        },
+        {
+          "id": "s_4387186",
+          "start": 0,
+          "end": 4,
+          "wrong": "Prego"
+        },
+        {
+          "id": "s_4387187",
+          "start": 0,
+          "end": 5,
+          "wrong": "Grazie"
+        },
+        {
+          "id": "s_383014",
+          "start": 0,
+          "end": 5,
+          "wrong": "Auguri"
+        }
+      ]
+    },
+    {
+      "id": "u60",
+      "level": "A1",
+      "title": "Presentarte: mi chiamo, ti chiami",
+      "goal_es": "Mi chiamo, ti chiami, si chiama: el reflexivo es mi/ti/si (no «me, te, se»).",
+      "codes": [
+        "ERR_CHIAMARSI"
+      ],
+      "why_here": "Lo primero que dices al conocer a alguien, junto a los saludos.",
+      "ficha_es": "Para presentarte: Mi chiamo Ana (me llamo Ana), Sono cilena, Ho venti anni, Piacere (mucho gusto). Para preguntar el nombre a un amigo: Come ti chiami?; a una persona que tratas de usted: Come si chiama?\n\nChiamarsi es un verbo reflexivo: mi chiamo, ti chiami, si chiama, ci chiamiamo, vi chiamate, si chiamano. El español usa me, te, se, nos, os: «me chiamo» o «come te chiami» no existen en italiano. Otra forma es Il mio nome è… (mi nombre es…). Fuente: Leggiamo (LBCC), capítulo «Presentarsi».",
+      "readings": [
+        "rd_saluti"
+      ],
+      "status": "active",
+      "explanation_es": "Mi chiamo, ti chiami, si chiama, ci chiamiamo, vi chiamate, si chiamano. El español usa me, te, se, nos, os: «me chiamo» no existe. Come ti chiami? (a un amigo) y Come si chiama? (a una persona que tratas de usted). Para presentarte: Mi chiamo Ana, sono cilena, ho venti anni.",
+      "parts": {
+        "descubre": [
+          "s_2695325",
+          "s_14070041",
+          "s_1551030",
+          "s_2579471"
+        ],
+        "practica": [
+          "s_2695325",
+          "s_14070041",
+          "s_1551030",
+          "s_2579471",
+          "s_2695312",
+          "s_2795458",
+          "s_2695177",
+          "s_2695370",
+          "s_2706885",
+          "s_3264294",
+          "s_3874029",
+          "s_1979229",
+          "s_4682783",
+          "s_3291224",
+          "s_2975129",
+          "s_2975130",
+          "s_2975132",
+          "s_2975133",
+          "s_4404219",
+          "s_606944",
+          "s_2695402",
+          "s_2715571",
+          "s_3511546",
+          "s_8887236",
+          "s_2695388",
+          "s_2696930",
+          "s_3309794",
+          "s_7670790",
+          "s_10561081",
+          "s_12192483",
+          "s_7823134",
+          "s_8939332",
+          "s_7831484",
+          "s_5121170",
+          "s_10766213",
+          "s_5704041",
+          "s_1251688",
+          "s_1688510",
+          "s_1701567"
+        ],
+        "escucha": [
+          "s_2695325",
+          "s_2695312",
+          "s_2706885",
+          "s_4682783",
+          "s_2975132",
+          "s_2695402",
+          "s_2695388",
+          "s_10561081"
+        ],
+        "prueba": [
+          "s_2695310",
+          "s_2707026",
+          "s_4939115",
+          "s_1176187",
+          "s_6167265",
+          "s_1020293"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2695325",
+          "start": 3,
+          "end": 5,
+          "wrong": "me"
+        },
+        {
+          "id": "s_14070041",
+          "start": 8,
+          "end": 10,
+          "wrong": "te"
+        },
+        {
+          "id": "s_1551030",
+          "start": 3,
+          "end": 5,
+          "wrong": "me"
+        },
+        {
+          "id": "s_2579471",
+          "start": 3,
+          "end": 5,
+          "wrong": "me"
+        }
+      ]
+    },
+    {
       "id": "u18",
       "level": "A1",
       "title": "Sonidos: c y g (ce, ci, che, chi)",
@@ -36,7 +385,7 @@
       "codes": [
         "ERR_C_G_PALATAL"
       ],
-      "why_here": "Las fuentes ponen la fonética primero: es lo que más confunde al empezar.",
+      "why_here": "El primer sonido que el español escribe distinto (c y g). Llega después de saludar y presentarte para que ya tengas palabras con las que practicarlo.",
       "ficha_es": "Las letras c y g suenan fuerte (como en «casa», «gato») ante a, o, u, y suave ante e, i: ce se lee «che» como en «chico» (cena), ci se lee «chi» (cinema); ge y gi suenan como la «j» inglesa de «jam» (gelato, giorno), no como la «j» española. Para el sonido fuerte ante e, i se agrega una h: che, chi, ghe, ghi (che, chiave, spaghetti, ghiaccio).\n\nCuidado: el español hace lo contrario con «que, qui» y «gue, gui». En italiano «che» se lee «ke» y «ce» se lee «che» (como la «ch» de «chico»). Escucha cada palabra y fíjate en la h.",
       "words": [
         {
@@ -305,1367 +654,441 @@
       ]
     },
     {
-      "id": "u19",
+      "id": "u13",
       "level": "A1",
-      "title": "Sonidos: sce, sci y sche, schi",
-      "goal_es": "Sce y sci suenan /ʃe/, /ʃi/ (como «sh»); sche y schi suenan /ske/, /ski/. El español no tiene el sonido /ʃ/.",
+      "title": "Essere y avere: sono, ho",
+      "goal_es": "Conjugar los dos verbos base: sono, sei, è, siamo, siete, sono / ho, hai, ha, abbiamo, avete, hanno.",
       "codes": [
-        "ERR_SC_PALATAL"
+        "ERR_PRESENT_ESSERE_AVERE"
       ],
-      "why_here": "Sigue a c y g: mismo mecanismo de e/i con la h que endurece.",
-      "ficha_es": "El grupo sc suena «sh» suave ante e, i: sce y sci (scena, scienza, pesce, sciare). Con h vuelve a sonar «sk»: sche, schi (schema, schiena, pesche).\n\nPara un hispanohablante la dificultad es escribir lo que oyes: «pesce» (pez) y «pesche» (duraznos) se distinguen solo por la h. En esta unidad escuchas una frase y eliges la que está bien escrita.",
-      "words": [
-        {
-          "form": "scena",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la escena",
-          "audio": "6f6012b7f928",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "scienza",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la ciencia",
-          "audio": "db06fbc3b240",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "pesce",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el pescado",
-          "audio": "6fbec0ade2ec",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "sci",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el esquí",
-          "audio": "d39590e8cade",
-          "art": "lo",
-          "sieve": "transparente"
-        },
-        {
-          "form": "scuola",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la escuela",
-          "audio": "3486c0109a14",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "ue-uo"
-        },
-        {
-          "form": "schiena",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la espalda",
-          "audio": "889eefa3019f",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "schema",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el esquema",
-          "audio": "fe7042cb74a5",
-          "art": "lo",
-          "sieve": "transparente"
-        },
-        {
-          "form": "schermo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la pantalla",
-          "audio": "569e1ab2ef32",
-          "art": "lo",
-          "sieve": "opaca"
-        },
-        {
-          "form": "fascia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la banda",
-          "audio": "de9a1d2c4207",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "scimmia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el mono",
-          "audio": "5892ced43a66",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "sciopero",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la huelga",
-          "audio": "b45f8044bd34",
-          "art": "lo",
-          "sieve": "opaca"
-        },
-        {
-          "form": "scherzo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la broma",
-          "audio": "1ba8e46ba36c",
-          "art": "lo",
-          "sieve": "opaca"
-        },
-        {
-          "form": "pesche",
-          "gender": "f",
-          "num": "p",
-          "gloss": "los duraznos",
-          "audio": "046b47044471",
-          "art": "le",
-          "sieve": "opaca"
-        },
-        {
-          "form": "scarpa",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el zapato",
-          "audio": "bff69c754da8",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "sciocco",
-          "gender": "x",
-          "num": "x",
-          "gloss": "tonto",
-          "audio": "30ab7ef53e43",
-          "sieve": "opaca"
-        }
+      "why_here": "Son la base de casi todo lo demás: presentarse, describir y los tiempos compuestos.",
+      "readings": [
+        "rd_zaino"
       ],
+      "ficha_es": "Essere (ser/estar) y avere (tener/haber): sono, sei, è, siamo, siete, sono; ho, hai, ha, abbiamo, avete, hanno. En italiano la h de «ho, hai, ha, hanno» no se pronuncia: se escribe pero no suena.\n\nEssere sirve para ser y para estar en un lugar (sono a casa), y avere para la edad (ho venti anni: «tengo veinte años»). Hay que decir el pronombre solo para dar énfasis: «sono stanco» ya es «estoy cansado».",
       "status": "active",
-      "explanation_es": "Sc ante i/e es un único sonido /ʃ/ (geminado entre vocales), no s + c.",
+      "explanation_es": "Essere y avere son irregulares: sono, sei, è, siamo, siete, sono / ho, hai, ha, abbiamo, avete, hanno. Ojo: «sono» sirve para «yo soy» y «ellos son», y la h de ho, hai, ha, hanno no se pronuncia.",
       "parts": {
         "descubre": [
-          "s_1215046",
-          "s_4383741",
-          "s_11949804",
-          "s_1970624"
+          "s_3569180",
+          "s_374011",
+          "s_759977",
+          "s_1086273"
         ],
         "practica": [
-          "s_1215046",
-          "s_4383741",
-          "s_11949804",
-          "s_1970624",
-          "s_3410486",
-          "s_1512719",
-          "s_5903125",
-          "s_2020815",
-          "s_8779576",
-          "s_1679194",
-          "s_5563569",
-          "s_3326122",
-          "s_3212574",
-          "s_398782",
-          "s_4561967",
-          "s_632849",
-          "s_12980466",
-          "s_381789",
-          "s_2810522",
-          "s_646997",
-          "s_1082726",
-          "s_711452",
-          "s_613807",
-          "s_1000808"
+          "s_3569180",
+          "s_374011",
+          "s_759977",
+          "s_1086273",
+          "s_1452076",
+          "s_1496045",
+          "s_1984303",
+          "s_2556071",
+          "s_3154113",
+          "s_4176581",
+          "s_7727077",
+          "s_2928259",
+          "s_675684",
+          "s_1255726",
+          "s_1260451",
+          "s_1271068",
+          "s_714437",
+          "s_1082986",
+          "s_2515854",
+          "s_1253841",
+          "s_411802",
+          "s_1547614",
+          "s_1727425",
+          "s_4297945",
+          "s_2028803",
+          "s_8037532",
+          "s_3309704",
+          "s_1128428"
         ],
         "escucha": [
-          "s_1215046",
-          "s_1970624",
-          "s_5903125",
-          "s_1679194",
-          "s_3212574",
-          "s_632849",
-          "s_2810522",
-          "s_711452"
+          "s_3569180",
+          "s_1086273",
+          "s_1984303",
+          "s_4176581",
+          "s_675684",
+          "s_1271068",
+          "s_2515854",
+          "s_1547614"
         ],
         "prueba": [
-          "s_379137",
-          "s_951720",
-          "s_2845274",
-          "s_995972",
-          "s_4484720",
-          "s_5709274"
+          "s_13594619",
+          "s_4256076",
+          "s_2557059",
+          "s_1332710",
+          "s_1326288",
+          "s_1679179"
         ]
       },
       "divergences": [
         {
-          "id": "s_1215046",
-          "start": 11,
-          "end": 18,
-          "wrong": "schimmia"
-        },
-        {
-          "id": "s_4383741",
-          "start": 11,
-          "end": 19,
-          "wrong": "schioglie"
-        },
-        {
-          "id": "s_11949804",
-          "start": 0,
-          "end": 7,
-          "wrong": "Capische"
-        },
-        {
-          "id": "s_1970624",
-          "start": 4,
-          "end": 11,
-          "wrong": "conosche"
-        }
-      ]
-    },
-    {
-      "id": "u20",
-      "level": "A1",
-      "title": "Sonidos: gli (figlio, famiglia)",
-      "goal_es": "Gli suena como una «ll» muy palatal /ʎ/ (figlio, famiglia, meglio); no es «gl» ni «li».",
-      "codes": [
-        "ERR_GLI_PALATAL"
-      ],
-      "why_here": "Tercer sonido que el español no tiene como tal; aparece en palabras de familia y cotidianas.",
-      "ficha_es": "gli se pronuncia como la «ll» del español de España (llave) o la «lli» de «million» en inglés: una l palatal, larga y suave (figlio, famiglia, moglie, voglio). No se lee «gli» como «gui-li» ni como una simple «l».\n\nSe escribe gli solo ante vocal en estas palabras; el artículo «gli» (gli amici) se pronuncia igual. Escucha y repite despacio: tu oído para esta combinación es el que más ayuda a escribir bien.",
-      "words": [
-        {
-          "form": "figlio",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el hijo",
-          "audio": "bac653e17fbe",
-          "art": "il",
-          "sieve": "regular",
-          "rule": "j-gli"
-        },
-        {
-          "form": "famiglia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la familia",
-          "audio": "9162fe5d6278",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "familia→famiglia (-lia→-glia)"
-        },
-        {
-          "form": "moglie",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la esposa",
-          "audio": "e83f6b6b4457",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "voglio",
-          "gender": "x",
-          "num": "x",
-          "gloss": "quiero",
-          "audio": "d4e369d3252f",
-          "sieve": "opaca"
-        },
-        {
-          "form": "foglio",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la hoja de papel",
-          "audio": "a762370637b1",
-          "art": "il",
-          "sieve": "regular",
-          "rule": "j-gli"
-        },
-        {
-          "form": "aglio",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el ajo",
-          "audio": "ab50b3f471fb",
-          "art": "l'",
-          "sieve": "regular",
-          "rule": "j-gli"
-        },
-        {
-          "form": "meglio",
-          "gender": "x",
-          "num": "x",
-          "gloss": "mejor",
-          "audio": "66ef20ced47a",
-          "sieve": "regular",
-          "rule": "j-gli"
-        },
-        {
-          "form": "tovaglia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el mantel",
-          "audio": "2ed0911662f5",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "sbaglio",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el error",
-          "audio": "a8d0ea4d294f",
-          "art": "lo",
-          "sieve": "opaca"
-        },
-        {
-          "form": "luglio",
-          "gender": "m",
-          "num": "s",
-          "gloss": "julio",
-          "audio": "b72b545014b3",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "julio→luglio (ju-→lu-, -lio→-glio)"
-        },
-        {
-          "form": "figlia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la hija",
-          "audio": "dd87a0b183ea",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "j-gli"
-        },
-        {
-          "form": "bottiglia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la botella",
-          "audio": "da3da60b4379",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "j-gli"
-        },
-        {
-          "form": "paglia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la paja",
-          "audio": "6bd1cf526996",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "j-gli"
-        },
-        {
-          "form": "coniglio",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el conejo",
-          "audio": "4a136cc918b2",
-          "art": "il",
-          "sieve": "regular",
-          "rule": "j-gli"
-        },
-        {
-          "form": "consiglio",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el consejo",
-          "audio": "6171c87de8de",
-          "art": "il",
-          "sieve": "regular",
-          "rule": "j-gli"
-        }
-      ],
-      "status": "active",
-      "explanation_es": "Gli es la lateral palatal /ʎ/ (geminada entre vocales); muchos hispanohablantes la reducen a /li/ o la separan en g + l.",
-      "parts": {
-        "descubre": [
-          "s_1191467",
-          "s_1155617",
-          "s_3334124",
-          "s_4461392"
-        ],
-        "practica": [
-          "s_1191467",
-          "s_1155617",
-          "s_3334124",
-          "s_4461392",
-          "s_11871336",
-          "s_1945187",
-          "s_10451845",
-          "s_872892",
-          "s_1255377",
-          "s_4024799",
-          "s_3112095",
-          "s_610158",
-          "s_1333588",
-          "s_384502",
-          "s_3128415",
-          "s_5181633",
-          "s_3298422",
-          "s_626875",
-          "s_14054462",
-          "s_1467605",
-          "s_977112",
-          "s_2556097",
-          "s_350634",
-          "s_1333103",
-          "s_3233436",
-          "s_3233437",
-          "s_2006193",
-          "s_3770405"
-        ],
-        "escucha": [
-          "s_1191467",
-          "s_4461392",
-          "s_10451845",
-          "s_4024799",
-          "s_1333588",
-          "s_5181633",
-          "s_14054462",
-          "s_2556097"
-        ],
-        "prueba": [
-          "s_3401520",
-          "s_511140",
-          "s_1343993",
-          "s_5932215",
-          "s_2556099",
-          "s_4402316"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_1191467",
+          "id": "s_3569180",
           "start": 3,
+          "end": 5,
+          "wrong": "abbiamo"
+        },
+        {
+          "id": "s_374011",
+          "start": 8,
           "end": 9,
-          "wrong": "tolie"
+          "wrong": "sono"
         },
         {
-          "id": "s_1155617",
-          "start": 10,
-          "end": 19,
-          "wrong": "consillio"
+          "id": "s_759977",
+          "start": 4,
+          "end": 5,
+          "wrong": "sono"
         },
         {
-          "id": "s_3334124",
-          "start": 10,
-          "end": 19,
-          "wrong": "bilietto"
-        },
-        {
-          "id": "s_4461392",
-          "start": 13,
-          "end": 19,
-          "wrong": "molie"
+          "id": "s_1086273",
+          "start": 3,
+          "end": 5,
+          "wrong": "abbiamo"
         }
       ]
     },
     {
-      "id": "u63",
+      "id": "u45",
       "level": "A1",
-      "title": "Sonidos: gn y z (gnocchi, pizza, grazie)",
-      "goal_es": "Gn suena como la ñ pero se escribe gn; la z suena [ts] o [dz] y no es «s» ni «c».",
+      "title": "Vocabulario: países y nacionalidades",
+      "goal_es": "Italiano, spagnolo, francese, inglese, cileno… y que se escriben con minúscula (parlo spagnolo).",
       "codes": [
-        "ERR_GN_Z_SPELLING"
+        "ERR_VOC_NAZIONALITA"
       ],
-      "why_here": "Después de c/g, sc y gli, los sonidos que el español escribe distinto.",
-      "ficha_es": "El grupo gn suena como la ñ española: gnocchi se pronuncia «ñoqui», lasagne «lasaña», bagno «baño». Se escribe siempre gn, nunca ñ.\\n\\nLa z italiana suena [ts] (pizza, grazie, zio con [dz]): se parece a «ts», no a la «z» española de España ni a una simple «s». No se escribe «c» ante e, i: grazie, pazienza (no «gracie», no «pacienza»). La doble zz es más larga: pizza, no «piza». En esta unidad escuchas una frase y eliges cómo se escribe. La voz es sintética: sus fonemas se comprobaron (gn → ɲ, z → ts/dz), pero un nativo no la verificó.",
+      "why_here": "Decir de dónde eres y qué idiomas hablas, con essere y los adjetivos ya vistos.",
+      "ficha_es": "Las nacionalidades y los idiomas se escriben con minúscula en italiano: sono cileno, parlo spagnolo, è italiana. Cambian como los adjetivos: italiano/italiana/italiani/italiane. Las terminadas en -e (francese, inglese, giapponese, cinese) valen para masculino y femenino.\n\nEl idioma es masculino y suele llevar artículo: l'italiano è bello; pero con parlare y con in no lo lleva: parlo italiano, scrivo in italiano.",
+      "readings": [
+        "rd_descriviamo"
+      ],
       "words": [
         {
-          "form": "gnocchi",
-          "gender": "m",
-          "num": "p",
-          "gloss": "los ñoquis",
-          "audio": "943c80744f8b",
-          "art": "gli",
-          "sieve": "regular",
-          "rule": "n-gn"
-        },
-        {
-          "form": "lasagne",
-          "gender": "f",
-          "num": "p",
-          "gloss": "las lasañas",
-          "audio": "7d48c5efcc20",
-          "art": "le",
-          "sieve": "regular",
-          "rule": "n-gn"
-        },
-        {
-          "form": "bagno",
+          "form": "italiano",
           "gender": "m",
           "num": "s",
-          "gloss": "el baño",
-          "audio": "3d35ceeafd25",
-          "art": "il",
-          "sieve": "regular",
-          "rule": "n-gn"
-        },
-        {
-          "form": "signora",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la señora",
-          "audio": "0623f9369249",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "n-gn"
-        },
-        {
-          "form": "ogni",
-          "gender": "x",
-          "num": "x",
-          "gloss": "cada",
-          "audio": "4b1afd33ccff",
-          "sieve": "opaca"
-        },
-        {
-          "form": "insegnante",
-          "gender": "x",
-          "num": "x",
-          "gloss": "el profesor",
-          "audio": "0b93df7691d4",
-          "sieve": "opaca"
-        },
-        {
-          "form": "pizza",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la pizza",
-          "audio": "1f6ccd2be75f",
-          "art": "la",
+          "gloss": "italiano",
+          "audio": "4f2896dd3711",
           "sieve": "transparente"
         },
         {
-          "form": "grazie",
-          "gender": "x",
-          "num": "x",
-          "gloss": "gracias",
-          "audio": "bd57224e34ea",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "gracias→grazie (c→z, -ias→-ie)"
-        },
-        {
-          "form": "zio",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el tío",
-          "audio": "c62e58500094",
-          "art": "lo",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "tía/tío→zia/zio: t→z"
-        },
-        {
-          "form": "zucchero",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el azúcar",
-          "audio": "962ff646e3a0",
-          "art": "lo",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "azúcar→zucchero: z/c→zz/cch, -ar→-ero"
-        },
-        {
-          "form": "nazione",
+          "form": "italiana",
           "gender": "f",
           "num": "s",
-          "gloss": "la nación",
-          "audio": "50a2008fd882",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "cion-zione"
-        },
-        {
-          "form": "stazione",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la estación",
-          "audio": "83a64c73a666",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "cion-zione"
-        },
-        {
-          "form": "pazienza",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la paciencia",
-          "audio": "41b111e71c0c",
-          "art": "la",
+          "gloss": "italiana",
+          "audio": "87753b88e248",
           "sieve": "transparente"
         },
         {
-          "form": "ragazzo",
+          "form": "italiani",
           "gender": "m",
-          "num": "s",
-          "gloss": "el chico",
-          "audio": "e4a17010b05a",
-          "art": "il",
-          "sieve": "opaca"
+          "num": "p",
+          "gloss": "italianos",
+          "audio": "1e075dae477d",
+          "sieve": "transparente"
+        },
+        {
+          "form": "italiane",
+          "gender": "f",
+          "num": "p",
+          "gloss": "italianas",
+          "audio": "a1a0c746651c",
+          "sieve": "transparente"
         },
         {
           "form": "spagnolo",
-          "gender": "x",
-          "num": "x",
+          "gender": "m",
+          "num": "s",
           "gloss": "español",
           "audio": "dbc2918e9044",
           "sieve": "regular",
           "rule": "n-gn"
         },
         {
-          "form": "montagna",
+          "form": "spagnola",
           "gender": "f",
           "num": "s",
-          "gloss": "la montaña",
-          "audio": "2af00479029a",
-          "art": "la",
+          "gloss": "española",
+          "audio": "313ff1229b1c",
           "sieve": "regular",
           "rule": "n-gn"
-        }
-      ],
-      "status": "active",
-      "explanation_es": "El grupo gn suena como la ñ española (gnocchi = ñoqui, lasagne, bagno, signora) y se escribe gn, no ñ. La z suena [ts] o [dz] (pizza, grazie, zio): no se pronuncia como la «z» española de España ni como una simple «s», y no se escribe «c» ante e, i (grazie, no «gracie»). La doble zz es más larga (pizza, no «piza»).",
-      "parts": {
-        "descubre": [
-          "s_1358794",
-          "s_1110071",
-          "s_3287523",
-          "s_2611941"
-        ],
-        "practica": [
-          "s_1358794",
-          "s_1110071",
-          "s_3287523",
-          "s_2611941",
-          "s_812801",
-          "s_470141",
-          "s_7872410",
-          "s_1068397",
-          "s_1520685",
-          "s_3162320",
-          "s_4226433",
-          "s_809576",
-          "s_1100345",
-          "s_2795476",
-          "s_1142101",
-          "s_380207",
-          "s_388508",
-          "s_861024",
-          "s_1246289",
-          "s_13227736",
-          "s_1831112",
-          "s_5370137",
-          "s_1472973",
-          "s_2514188",
-          "s_825688",
-          "s_7430249",
-          "s_753335",
-          "s_7596197",
-          "s_840725",
-          "s_11969548",
-          "s_1275229",
-          "s_1497492",
-          "s_1517492",
-          "s_2571151",
-          "s_7116253",
-          "s_1512102",
-          "s_3860643",
-          "s_2832611",
-          "s_6879111",
-          "s_1426795",
-          "s_1539200",
-          "s_388801",
-          "s_1317111",
-          "s_2835002",
-          "s_4121756",
-          "s_4541826",
-          "s_6458851",
-          "s_6830490",
-          "s_1083035",
-          "s_7104179",
-          "s_378697",
-          "s_534955",
-          "s_6301373",
-          "s_3220250"
-        ],
-        "escucha": [
-          "s_1358794",
-          "s_7872410",
-          "s_1100345",
-          "s_1246289",
-          "s_825688",
-          "s_1275229",
-          "s_3860643",
-          "s_1317111"
-        ],
-        "prueba": [
-          "s_1310171",
-          "s_626954",
-          "s_1017019",
-          "s_2560883",
-          "s_634292",
-          "s_2052028"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_1358794",
-          "start": 9,
-          "end": 14,
-          "wrong": "soño"
         },
         {
-          "id": "s_1110071",
-          "start": 10,
-          "end": 15,
-          "wrong": "soño"
-        },
-        {
-          "id": "s_3287523",
-          "start": 11,
-          "end": 18,
-          "wrong": "bisoño"
-        },
-        {
-          "id": "s_2611941",
-          "start": 9,
-          "end": 19,
-          "wrong": "policiotto"
-        }
-      ]
-    },
-    {
-      "id": "u64",
-      "level": "A1",
-      "title": "Consonantes dobles (fato / fatto, sete / sette)",
-      "goal_es": "Las consonantes dobles se pronuncian más largas y cambian el significado: fato / fatto, caro / carro, pala / palla.",
-      "codes": [
-        "ERR_CONSONANTE_DOPPIA"
-      ],
-      "why_here": "Cierra los sonidos de A1: la diferencia de duración que el español casi no usa.",
-      "ficha_es": "En italiano las consonantes dobles no son un detalle de ortografía: se pronuncian más largas y cambian el sentido. Fato es el destino y fatto es «hecho»; sete es «sed» y sette es «siete»; pala es la pala y palla es la pelota; caro es «querido» y carro es «carro».\\n\\nPara decir la doble se mantiene el cierre de la consonante casi el doble de tiempo (t, p, c, l, n, m, r, b, d, g). Medimos la voz sintética Serena con pares mínimos: alarga el cierre de las oclusivas entre 1,5 y 3,5 veces y también las nasales y la l; no lo hace bien con la «ss», por eso esta unidad no la incluye. Practicas escuchando y eligiendo cómo se escribe; no se mide tu pronunciación y un nativo no ha verificado el audio.",
-      "words": [
-        {
-          "form": "fato",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el destino",
-          "audio": "c4dc7117a29f",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "fatto",
-          "gender": "x",
-          "num": "x",
-          "gloss": "hecho",
-          "audio": "0e596a8dcc01",
-          "sieve": "regular",
-          "rule": "ch-tt"
-        },
-        {
-          "form": "sete",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la sed",
-          "audio": "0f961cd8aca6",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "d final→t con -e: sed→sete"
-        },
-        {
-          "form": "sette",
-          "gender": "x",
-          "num": "x",
-          "gloss": "siete",
-          "audio": "6824e8afca7c",
-          "sieve": "regular",
-          "rule": "ie-e"
-        },
-        {
-          "form": "pala",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la pala",
-          "audio": "95213d57ff5c",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "palla",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la pelota",
-          "audio": "4d90834b94d5",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "caro",
-          "gender": "x",
-          "num": "x",
-          "gloss": "querido, caro",
-          "audio": "732849d5bc94",
-          "sieve": "transparente"
-        },
-        {
-          "form": "carro",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el carro",
-          "audio": "3959fc6166e0",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "pena",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la pena",
-          "audio": "b96ab516bf07",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "penna",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el bolígrafo",
-          "audio": "87a98fc469e6",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "nono",
-          "gender": "x",
-          "num": "x",
-          "gloss": "noveno",
-          "audio": "a00191c82379",
-          "sieve": "transparente"
-        },
-        {
-          "form": "nonno",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el abuelo",
-          "audio": "d44b27aaa9a8",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "mamma",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la mamá",
-          "audio": "916c014031a7",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "bello",
-          "gender": "x",
-          "num": "x",
-          "gloss": "hermoso",
-          "audio": "c3240b9898ae",
-          "sieve": "transparente"
-        },
-        {
-          "form": "cappello",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el sombrero",
-          "audio": "ffc8d46bc706",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "tutto",
-          "gender": "x",
-          "num": "x",
-          "gloss": "todo",
-          "audio": "5662716a1a81",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "todo→tutto: o→u y t doble"
-        }
-      ],
-      "status": "active",
-      "explanation_es": "En italiano las consonantes dobles se pronuncian más largas y cambian el significado: fato (destino) / fatto (hecho), sete (sed) / sette (siete), pala (pala) / palla (pelota), caro (querido) / carro (carro), pena / penna. Hay que mantener el cierre de la t, p, c, l, n, m, r, b, d y g más tiempo (casi el doble). En la app esta unidad practica las que la voz sintética pronuncia bien; no incluye la «ss» ni la «zz».",
-      "parts": {
-        "descubre": [
-          "s_1446016",
-          "s_963675",
-          "s_4243177",
-          "s_1221730"
-        ],
-        "practica": [
-          "s_1446016",
-          "s_963675",
-          "s_4243177",
-          "s_1221730",
-          "s_373873",
-          "s_4333778",
-          "s_4562309",
-          "s_4541",
-          "s_2701565",
-          "s_350994",
-          "s_1451644",
-          "s_3237227",
-          "s_3375596",
-          "s_3796401",
-          "s_3796402",
-          "s_4641",
-          "s_5133701",
-          "s_1701522",
-          "s_3363404",
-          "s_374039",
-          "s_378681",
-          "s_499903",
-          "s_8672395",
-          "s_13339312",
-          "s_1592254",
-          "s_2702073",
-          "s_14037442",
-          "s_4503103",
-          "s_511252",
-          "s_8890732",
-          "s_375662",
-          "s_391177",
-          "s_4480656",
-          "s_634288",
-          "s_11571774",
-          "s_1389686",
-          "s_1966458",
-          "s_5190524",
-          "s_623376",
-          "s_651073",
-          "s_1310172",
-          "s_735474",
-          "s_2917325",
-          "s_2090461",
-          "s_2887453",
-          "s_4989467",
-          "s_5991669",
-          "s_6463372",
-          "s_1701472",
-          "s_691722",
-          "s_930244",
-          "s_948967",
-          "s_996844",
-          "s_5654821",
-          "s_643191",
-          "s_4636276"
-        ],
-        "escucha": [
-          "s_1446016",
-          "s_4541",
-          "s_3796402",
-          "s_499903",
-          "s_511252",
-          "s_1389686",
-          "s_2917325",
-          "s_691722"
-        ],
-        "prueba": [
-          "s_2362996",
-          "s_1193498",
-          "s_693925",
-          "s_7766399",
-          "s_520926",
-          "s_758824"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_1446016",
-          "start": 11,
-          "end": 18,
-          "wrong": "corere"
-        },
-        {
-          "id": "s_963675",
-          "start": 9,
-          "end": 19,
-          "wrong": "giocatolo"
-        },
-        {
-          "id": "s_4243177",
-          "start": 14,
-          "end": 20,
-          "wrong": "piati"
-        },
-        {
-          "id": "s_1221730",
-          "start": 14,
-          "end": 21,
-          "wrong": "dolari"
-        }
-      ]
-    },
-    {
-      "id": "u37",
-      "level": "A1",
-      "title": "Vocabulario: saludar y ser cortés",
-      "goal_es": "Buongiorno, buonasera, ciao, arrivederci, grazie, prego, scusi/scusa… y cuándo usar el trato formal.",
-      "codes": [
-        "ERR_VOC_SALUTI"
-      ],
-      "why_here": "Las primeras palabras de cualquier conversación, antes de presentarte.",
-      "ficha_es": "Fórmulas de contacto: buongiorno (hasta la tarde), buonasera (desde la tarde), buonanotte (para despedirse e irse a dormir), ciao (informal, sirve para saludar y despedirse), arrivederci (despedida neutra), salve (saludo neutro), grazie y prego (de nada).\n\nRegistro: con una persona a quien tratas con respeto se usa «Lei» (scusi, come sta?); entre amigos, «tu» (scusa, come stai?). «Prego» significa también «adelante, pase». Ojo: «piacere» es «mucho gusto» al conocer a alguien; «per piacere» es «por favor».",
-      "readings": [
-        "rd_ciao"
-      ],
-      "words": [
-        {
-          "form": "buongiorno",
-          "gender": "-",
-          "num": "-",
-          "gloss": "buenos días",
-          "audio": "f0fa9097a41d",
-          "sieve": "opaca"
-        },
-        {
-          "form": "buonasera",
-          "gender": "-",
-          "num": "-",
-          "gloss": "buenas tardes o buenas noches (al llegar)",
-          "audio": "c3eb54e68a19",
-          "sieve": "opaca"
-        },
-        {
-          "form": "buonanotte",
-          "gender": "-",
-          "num": "-",
-          "gloss": "buenas noches (al despedirse)",
-          "audio": "fab33a7549d2",
-          "sieve": "regular",
-          "rule": "ue-uo"
-        },
-        {
-          "form": "ciao",
-          "gender": "-",
-          "num": "-",
-          "gloss": "hola o chao (informal)",
-          "audio": "1e4e888ac66f",
-          "sieve": "transparente",
-          "note": "'chao' se usa en Chile"
-        },
-        {
-          "form": "arrivederci",
-          "gender": "-",
-          "num": "-",
-          "gloss": "hasta luego (al despedirse)",
-          "audio": "0fd32ba65c5e",
-          "sieve": "opaca"
-        },
-        {
-          "form": "grazie",
-          "gender": "-",
-          "num": "-",
-          "gloss": "gracias",
-          "audio": "bd57224e34ea",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "gracias→grazie (c→z, -ias→-ie)"
-        },
-        {
-          "form": "prego",
-          "gender": "-",
-          "num": "-",
-          "gloss": "de nada o adelante",
-          "audio": "9aa482c33a8a",
-          "sieve": "opaca"
-        },
-        {
-          "form": "scusi",
-          "gender": "-",
-          "num": "-",
-          "gloss": "disculpe (formal)",
-          "audio": "84290c8aaf24",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "dis- → s-: disculpe→scusi"
-        },
-        {
-          "form": "scusa",
-          "gender": "-",
-          "num": "-",
-          "gloss": "disculpa (informal)",
-          "audio": "5e73628e9369",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "dis- → s-: disculpa→scusa"
-        },
-        {
-          "form": "salve",
-          "gender": "-",
-          "num": "-",
-          "gloss": "hola (neutro)",
-          "audio": "87251213fc40",
-          "sieve": "opaca"
-        },
-        {
-          "form": "auguri",
-          "gender": "-",
-          "num": "-",
-          "gloss": "felicitaciones por una fiesta",
-          "audio": "7f8a1b3edc81",
-          "sieve": "opaca"
-        },
-        {
-          "form": "complimenti",
-          "gender": "-",
-          "num": "-",
-          "gloss": "felicitaciones por un logro",
-          "audio": "b6c86f8b11f6",
-          "sieve": "opaca"
-        },
-        {
-          "form": "benvenuto",
-          "gender": "m",
-          "num": "s",
-          "gloss": "bienvenido",
-          "audio": "2fd4230873ee",
-          "sieve": "regular",
-          "rule": "ie-e"
-        },
-        {
-          "form": "benvenuta",
-          "gender": "f",
-          "num": "s",
-          "gloss": "bienvenida",
-          "audio": "dcbeec40377b",
-          "sieve": "regular",
-          "rule": "ie-e"
-        },
-        {
-          "form": "benvenuti",
+          "form": "spagnoli",
           "gender": "m",
           "num": "p",
-          "gloss": "bienvenidos",
-          "audio": "d9e89b831d69",
+          "gloss": "españoles",
+          "audio": "9ff678214e29",
           "sieve": "regular",
-          "rule": "ie-e"
+          "rule": "n-gn"
+        },
+        {
+          "form": "spagnole",
+          "gender": "f",
+          "num": "p",
+          "gloss": "españolas",
+          "audio": "b08a9d6757ee",
+          "sieve": "regular",
+          "rule": "n-gn"
+        },
+        {
+          "form": "francese",
+          "gender": "-",
+          "num": "s",
+          "gloss": "francés o francesa",
+          "audio": "ecec83d94d7c",
+          "sieve": "transparente"
+        },
+        {
+          "form": "francesi",
+          "gender": "-",
+          "num": "p",
+          "gloss": "franceses o francesas",
+          "audio": "d2e9ef54c98d",
+          "sieve": "transparente"
+        },
+        {
+          "form": "inglese",
+          "gender": "-",
+          "num": "s",
+          "gloss": "inglés o inglesa",
+          "audio": "c16231c65d2f",
+          "sieve": "transparente"
+        },
+        {
+          "form": "inglesi",
+          "gender": "-",
+          "num": "p",
+          "gloss": "ingleses o inglesas",
+          "audio": "e84a0490340e",
+          "sieve": "transparente"
+        },
+        {
+          "form": "tedesco",
+          "gender": "m",
+          "num": "s",
+          "gloss": "alemán",
+          "audio": "3debdc5730b3",
+          "sieve": "opaca"
+        },
+        {
+          "form": "tedesca",
+          "gender": "f",
+          "num": "s",
+          "gloss": "alemana",
+          "audio": "72b4a65691a5",
+          "sieve": "opaca"
+        },
+        {
+          "form": "tedeschi",
+          "gender": "m",
+          "num": "p",
+          "gloss": "alemanes",
+          "audio": "684216b107e9",
+          "sieve": "opaca"
+        },
+        {
+          "form": "americano",
+          "gender": "m",
+          "num": "s",
+          "gloss": "estadounidense (masculino)",
+          "audio": "6a07296dc3e8",
+          "sieve": "transparente",
+          "note": "La glosa es 'estadounidense', pero se reconoce por 'americano'"
+        },
+        {
+          "form": "americana",
+          "gender": "f",
+          "num": "s",
+          "gloss": "estadounidense (femenino)",
+          "audio": "5df84c5517b2",
+          "sieve": "transparente",
+          "note": "La glosa es 'estadounidense', pero se reconoce por 'americano'"
+        },
+        {
+          "form": "americani",
+          "gender": "m",
+          "num": "p",
+          "gloss": "estadounidenses (masculino)",
+          "audio": "98a9ec03f5c7",
+          "sieve": "transparente",
+          "note": "La glosa es 'estadounidense', pero se reconoce por 'americano'"
+        },
+        {
+          "form": "cinese",
+          "gender": "-",
+          "num": "s",
+          "gloss": "chino o china",
+          "audio": "e307996be654",
+          "sieve": "opaca"
+        },
+        {
+          "form": "giapponese",
+          "gender": "-",
+          "num": "s",
+          "gloss": "japonés o japonesa",
+          "audio": "2cadc3e1f6b1",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "japonés→giapponese (j→gi)"
+        },
+        {
+          "form": "russo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "ruso",
+          "audio": "0a72cbd38bd6",
+          "sieve": "transparente"
+        },
+        {
+          "form": "russa",
+          "gender": "f",
+          "num": "s",
+          "gloss": "rusa",
+          "audio": "cdeb4cb838a9",
+          "sieve": "transparente"
+        },
+        {
+          "form": "portoghese",
+          "gender": "-",
+          "num": "s",
+          "gloss": "portugués o portuguesa",
+          "audio": "a75cc28566a3",
+          "sieve": "transparente"
+        },
+        {
+          "form": "messicano",
+          "gender": "m",
+          "num": "s",
+          "gloss": "mexicano",
+          "audio": "91f291f02baf",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "x→ss (México se pronuncia con /s/ en italiano: messicano)."
+        },
+        {
+          "form": "messicana",
+          "gender": "f",
+          "num": "s",
+          "gloss": "mexicana",
+          "audio": "3f8e60a9c9f7",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "x→ss (México se pronuncia con /s/ en italiano: messicano)."
+        },
+        {
+          "form": "cileno",
+          "gender": "m",
+          "num": "s",
+          "gloss": "chileno",
+          "audio": "83bf6e85c34b",
+          "sieve": "transparente"
+        },
+        {
+          "form": "cilena",
+          "gender": "f",
+          "num": "s",
+          "gloss": "chilena",
+          "audio": "7ba5b733cc9b",
+          "sieve": "transparente"
+        },
+        {
+          "form": "argentino",
+          "gender": "m",
+          "num": "s",
+          "gloss": "argentino",
+          "audio": "f902a5622873",
+          "sieve": "transparente"
+        },
+        {
+          "form": "argentina",
+          "gender": "f",
+          "num": "s",
+          "gloss": "argentina",
+          "audio": "1187c0b5e46c",
+          "sieve": "transparente"
         }
       ],
       "status": "active",
-      "explanation_es": "Buongiorno, buonasera, ciao, arrivederci, grazie, prego, scusi… «Buongiorno» se usa hasta la tarde y «buonasera» desde la tarde; «buonanotte» solo para despedirse a dormir. A un desconocido o con respeto se dice «scusi» y «arrivederLa»; entre amigos, «scusa» y «ciao».",
+      "explanation_es": "Italiano, spagnolo, francese, inglese, cileno, americano… En italiano las nacionalidades y los idiomas se escriben con minúscula (sono cileno, parlo spagnolo). Cambian como los adjetivos: italiano/italiana; los terminados en -e (francese, inglese) valen para masculino y femenino.",
       "parts": {
         "descubre": [
-          "s_7796553",
-          "s_4387186",
-          "s_4387187",
-          "s_383014"
+          "s_379139",
+          "s_702487",
+          "s_374394",
+          "s_581911"
         ],
         "practica": [
-          "s_7796553",
-          "s_4387186",
-          "s_4387187",
-          "s_383014",
-          "s_559619",
-          "s_559605",
-          "s_9712470",
-          "s_3122315",
-          "s_3122330",
-          "s_3291223",
-          "s_6598255",
-          "s_9712469",
-          "s_754982",
-          "s_1055122",
-          "s_1098118",
-          "s_12701068",
-          "s_7536374",
-          "s_12226086",
-          "s_1969143",
-          "s_616050",
-          "s_2856759",
-          "s_11464680",
-          "s_2856758",
-          "s_2856760",
-          "s_3101862",
-          "s_383008",
-          "s_5041050",
-          "s_860808",
-          "s_1659499",
-          "s_578277",
-          "s_911128",
-          "s_3778384",
-          "s_1858138",
-          "s_836536",
-          "s_993082",
-          "s_1004011",
-          "s_4060616"
+          "s_379139",
+          "s_702487",
+          "s_374394",
+          "s_581911",
+          "s_1472941",
+          "s_1655267",
+          "s_1113206",
+          "s_1113245",
+          "s_4167171",
+          "s_1003028",
+          "s_1017085",
+          "s_3626015",
+          "s_801711",
+          "s_10146459",
+          "s_1828153",
+          "s_2798859",
+          "s_1132479",
+          "s_6751038",
+          "s_12935662",
+          "s_1187115",
+          "s_671770",
+          "s_719204",
+          "s_374578",
+          "s_2436763"
         ],
         "escucha": [
-          "s_7796553",
-          "s_559619",
-          "s_3122330",
-          "s_754982",
-          "s_7536374",
-          "s_2856759",
-          "s_3101862",
-          "s_1659499"
+          "s_379139",
+          "s_581911",
+          "s_1113206",
+          "s_1003028",
+          "s_801711",
+          "s_2798859",
+          "s_12935662",
+          "s_719204"
         ],
         "prueba": [
-          "s_2720978",
-          "s_524339",
-          "s_1711122",
-          "s_3608286",
-          "s_3423488",
-          "s_1492622"
+          "s_1188133",
+          "s_526289",
+          "s_382388",
+          "s_1353266",
+          "s_4528825",
+          "s_2577081"
         ]
       },
       "divergences": [
         {
-          "id": "s_7796553",
-          "start": 0,
-          "end": 4,
-          "wrong": "Buongiorno"
+          "id": "s_379139",
+          "start": 13,
+          "end": 19,
+          "wrong": "francese"
         },
         {
-          "id": "s_4387186",
-          "start": 0,
-          "end": 4,
-          "wrong": "Prego"
+          "id": "s_702487",
+          "start": 10,
+          "end": 19,
+          "wrong": "italiano"
         },
         {
-          "id": "s_4387187",
-          "start": 0,
-          "end": 5,
-          "wrong": "Grazie"
-        },
-        {
-          "id": "s_383014",
-          "start": 0,
-          "end": 5,
-          "wrong": "Auguri"
-        }
-      ]
-    },
-    {
-      "id": "u60",
-      "level": "A1",
-      "title": "Presentarte: mi chiamo, ti chiami",
-      "goal_es": "Mi chiamo, ti chiami, si chiama: el reflexivo es mi/ti/si (no «me, te, se»).",
-      "codes": [
-        "ERR_CHIAMARSI"
-      ],
-      "why_here": "Es lo primero que dices al conocer a alguien, junto a los saludos.",
-      "ficha_es": "Para presentarte: Mi chiamo Ana (me llamo Ana), Sono cilena, Ho venti anni, Piacere (mucho gusto). Para preguntar el nombre a un amigo: Come ti chiami?; a una persona que tratas de usted: Come si chiama?\n\nChiamarsi es un verbo reflexivo: mi chiamo, ti chiami, si chiama, ci chiamiamo, vi chiamate, si chiamano. El español usa me, te, se, nos, os: «me chiamo» o «come te chiami» no existen en italiano. Otra forma es Il mio nome è… (mi nombre es…). Fuente: Leggiamo (LBCC), capítulo «Presentarsi».",
-      "readings": [
-        "rd_saluti"
-      ],
-      "status": "active",
-      "explanation_es": "Mi chiamo, ti chiami, si chiama, ci chiamiamo, vi chiamate, si chiamano. El español usa me, te, se, nos, os: «me chiamo» no existe. Come ti chiami? (a un amigo) y Come si chiama? (a una persona que tratas de usted). Para presentarte: Mi chiamo Ana, sono cilena, ho venti anni.",
-      "parts": {
-        "descubre": [
-          "s_2695325",
-          "s_14070041",
-          "s_1551030",
-          "s_2579471"
-        ],
-        "practica": [
-          "s_2695325",
-          "s_14070041",
-          "s_1551030",
-          "s_2579471",
-          "s_2695312",
-          "s_2795458",
-          "s_2695177",
-          "s_2695370",
-          "s_2706885",
-          "s_3264294",
-          "s_3874029",
-          "s_1979229",
-          "s_4682783",
-          "s_3291224",
-          "s_2975129",
-          "s_2975130",
-          "s_2975132",
-          "s_2975133",
-          "s_4404219",
-          "s_606944",
-          "s_2695402",
-          "s_2715571",
-          "s_3511546",
-          "s_8887236",
-          "s_2695388",
-          "s_2696930",
-          "s_3309794",
-          "s_7670790",
-          "s_10561081",
-          "s_12192483",
-          "s_7823134",
-          "s_8939332",
-          "s_7831484",
-          "s_5121170",
-          "s_10766213",
-          "s_5704041",
-          "s_1251688",
-          "s_1688510",
-          "s_1701567"
-        ],
-        "escucha": [
-          "s_2695325",
-          "s_2695312",
-          "s_2706885",
-          "s_4682783",
-          "s_2975132",
-          "s_2695402",
-          "s_2695388",
-          "s_10561081"
-        ],
-        "prueba": [
-          "s_2695310",
-          "s_2707026",
-          "s_4939115",
-          "s_1176187",
-          "s_6167265",
-          "s_1020293"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_2695325",
-          "start": 3,
-          "end": 5,
-          "wrong": "me"
-        },
-        {
-          "id": "s_14070041",
-          "start": 8,
+          "id": "s_374394",
+          "start": 2,
           "end": 10,
-          "wrong": "te"
+          "wrong": "argentino"
         },
         {
-          "id": "s_1551030",
-          "start": 3,
-          "end": 5,
-          "wrong": "me"
-        },
-        {
-          "id": "s_2579471",
-          "start": 3,
-          "end": 5,
-          "wrong": "me"
+          "id": "s_581911",
+          "start": 12,
+          "end": 22,
+          "wrong": "cinese"
         }
       ]
     },
@@ -1917,104 +1340,6 @@
           "start": 7,
           "end": 10,
           "wrong": "dodici"
-        }
-      ]
-    },
-    {
-      "id": "u13",
-      "level": "A1",
-      "title": "Essere y avere: sono, ho",
-      "goal_es": "Conjugar los dos verbos base: sono, sei, è, siamo, siete, sono / ho, hai, ha, abbiamo, avete, hanno.",
-      "codes": [
-        "ERR_PRESENT_ESSERE_AVERE"
-      ],
-      "why_here": "Son la base de casi todo lo demás: presentarse, describir y los tiempos compuestos.",
-      "readings": [
-        "rd_zaino"
-      ],
-      "ficha_es": "Essere (ser/estar) y avere (tener/haber): sono, sei, è, siamo, siete, sono; ho, hai, ha, abbiamo, avete, hanno. En italiano la h de «ho, hai, ha, hanno» no se pronuncia: se escribe pero no suena.\n\nEssere sirve para ser y para estar en un lugar (sono a casa), y avere para la edad (ho venti anni: «tengo veinte años»). Hay que decir el pronombre solo para dar énfasis: «sono stanco» ya es «estoy cansado».",
-      "status": "active",
-      "explanation_es": "Essere y avere son irregulares: sono, sei, è, siamo, siete, sono / ho, hai, ha, abbiamo, avete, hanno. Ojo: «sono» sirve para «yo soy» y «ellos son», y la h de ho, hai, ha, hanno no se pronuncia.",
-      "parts": {
-        "descubre": [
-          "s_3569180",
-          "s_374011",
-          "s_759977",
-          "s_1086273"
-        ],
-        "practica": [
-          "s_3569180",
-          "s_374011",
-          "s_759977",
-          "s_1086273",
-          "s_1452076",
-          "s_1496045",
-          "s_1984303",
-          "s_2556071",
-          "s_3154113",
-          "s_4176581",
-          "s_7727077",
-          "s_2928259",
-          "s_675684",
-          "s_1255726",
-          "s_1260451",
-          "s_1271068",
-          "s_714437",
-          "s_1082986",
-          "s_2515854",
-          "s_1253841",
-          "s_411802",
-          "s_1547614",
-          "s_1727425",
-          "s_4297945",
-          "s_2028803",
-          "s_8037532",
-          "s_3309704",
-          "s_1128428"
-        ],
-        "escucha": [
-          "s_3569180",
-          "s_1086273",
-          "s_1984303",
-          "s_4176581",
-          "s_675684",
-          "s_1271068",
-          "s_2515854",
-          "s_1547614"
-        ],
-        "prueba": [
-          "s_13594619",
-          "s_4256076",
-          "s_2557059",
-          "s_1332710",
-          "s_1326288",
-          "s_1679179"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_3569180",
-          "start": 3,
-          "end": 5,
-          "wrong": "abbiamo"
-        },
-        {
-          "id": "s_374011",
-          "start": 8,
-          "end": 9,
-          "wrong": "sono"
-        },
-        {
-          "id": "s_759977",
-          "start": 4,
-          "end": 5,
-          "wrong": "sono"
-        },
-        {
-          "id": "s_1086273",
-          "start": 3,
-          "end": 5,
-          "wrong": "abbiamo"
         }
       ]
     },
@@ -2313,6 +1638,1418 @@
           "start": 8,
           "end": 10,
           "wrong": "il"
+        }
+      ]
+    },
+    {
+      "id": "u19",
+      "level": "A1",
+      "title": "Sonidos: sce, sci y sche, schi",
+      "goal_es": "Sce y sci suenan /ʃe/, /ʃi/ (como «sh»); sche y schi suenan /ske/, /ski/. El español no tiene el sonido /ʃ/.",
+      "codes": [
+        "ERR_SC_PALATAL"
+      ],
+      "why_here": "Sigue a c y g: mismo mecanismo de e/i con la h que endurece.",
+      "ficha_es": "El grupo sc suena «sh» suave ante e, i: sce y sci (scena, scienza, pesce, sciare). Con h vuelve a sonar «sk»: sche, schi (schema, schiena, pesche).\n\nPara un hispanohablante la dificultad es escribir lo que oyes: «pesce» (pez) y «pesche» (duraznos) se distinguen solo por la h. En esta unidad escuchas una frase y eliges la que está bien escrita.",
+      "words": [
+        {
+          "form": "scena",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la escena",
+          "audio": "6f6012b7f928",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "scienza",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la ciencia",
+          "audio": "db06fbc3b240",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "pesce",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el pescado",
+          "audio": "6fbec0ade2ec",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "sci",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el esquí",
+          "audio": "d39590e8cade",
+          "art": "lo",
+          "sieve": "transparente"
+        },
+        {
+          "form": "scuola",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la escuela",
+          "audio": "3486c0109a14",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "ue-uo"
+        },
+        {
+          "form": "schiena",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la espalda",
+          "audio": "889eefa3019f",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "schema",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el esquema",
+          "audio": "fe7042cb74a5",
+          "art": "lo",
+          "sieve": "transparente"
+        },
+        {
+          "form": "schermo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la pantalla",
+          "audio": "569e1ab2ef32",
+          "art": "lo",
+          "sieve": "opaca"
+        },
+        {
+          "form": "fascia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la banda",
+          "audio": "de9a1d2c4207",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "scimmia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el mono",
+          "audio": "5892ced43a66",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "sciopero",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la huelga",
+          "audio": "b45f8044bd34",
+          "art": "lo",
+          "sieve": "opaca"
+        },
+        {
+          "form": "scherzo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la broma",
+          "audio": "1ba8e46ba36c",
+          "art": "lo",
+          "sieve": "opaca"
+        },
+        {
+          "form": "pesche",
+          "gender": "f",
+          "num": "p",
+          "gloss": "los duraznos",
+          "audio": "046b47044471",
+          "art": "le",
+          "sieve": "opaca"
+        },
+        {
+          "form": "scarpa",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el zapato",
+          "audio": "bff69c754da8",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "sciocco",
+          "gender": "x",
+          "num": "x",
+          "gloss": "tonto",
+          "audio": "30ab7ef53e43",
+          "sieve": "opaca"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Sc ante i/e es un único sonido /ʃ/ (geminado entre vocales), no s + c.",
+      "parts": {
+        "descubre": [
+          "s_1215046",
+          "s_4383741",
+          "s_11949804",
+          "s_1970624"
+        ],
+        "practica": [
+          "s_1215046",
+          "s_4383741",
+          "s_11949804",
+          "s_1970624",
+          "s_3410486",
+          "s_1512719",
+          "s_5903125",
+          "s_2020815",
+          "s_8779576",
+          "s_1679194",
+          "s_5563569",
+          "s_3326122",
+          "s_3212574",
+          "s_398782",
+          "s_4561967",
+          "s_632849",
+          "s_12980466",
+          "s_381789",
+          "s_2810522",
+          "s_646997",
+          "s_1082726",
+          "s_711452",
+          "s_613807",
+          "s_1000808"
+        ],
+        "escucha": [
+          "s_1215046",
+          "s_1970624",
+          "s_5903125",
+          "s_1679194",
+          "s_3212574",
+          "s_632849",
+          "s_2810522",
+          "s_711452"
+        ],
+        "prueba": [
+          "s_379137",
+          "s_951720",
+          "s_2845274",
+          "s_995972",
+          "s_4484720",
+          "s_5709274"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1215046",
+          "start": 11,
+          "end": 18,
+          "wrong": "schimmia"
+        },
+        {
+          "id": "s_4383741",
+          "start": 11,
+          "end": 19,
+          "wrong": "schioglie"
+        },
+        {
+          "id": "s_11949804",
+          "start": 0,
+          "end": 7,
+          "wrong": "Capische"
+        },
+        {
+          "id": "s_1970624",
+          "start": 4,
+          "end": 11,
+          "wrong": "conosche"
+        }
+      ]
+    },
+    {
+      "id": "u14",
+      "level": "A1",
+      "title": "Verbos en -are: parlo, parli, parla",
+      "goal_es": "Terminaciones del presente de los verbos en -are; el español -as, -amos, -an no existe en italiano.",
+      "codes": [
+        "ERR_PRESENT_ARE"
+      ],
+      "why_here": "Los verbos son lo que te permite hablar de ti: los regulares en -are son el grupo más grande y donde más pesa el calco de las terminaciones. Van pronto, para que tengas con qué decir cosas.",
+      "readings": [
+        "rd_routine"
+      ],
+      "ficha_es": "Los verbos en -are (parlare) hacen el presente con -o, -i, -a, -iamo, -ate, -ano: parlo, parli, parla, parliamo, parlate, parlano. El español dice -o, -as, -a, -amos, -áis, -an.\n\nCuidado: tu parli (no «parlas»), voi parlate (no «parláis»). El sujeto (io, tu, lui…) se omite casi siempre porque la terminación ya dice quién es. Los verbos en -iare (studiare) y -care/-gare (cercare) tienen pequeñas particularidades.",
+      "status": "active",
+      "explanation_es": "Los verbos en -are hacen el presente con -o, -i, -a, -iamo, -ate, -ano. El español dice -as, -amos, -áis, -an: «parlas», «parlamos» o «parlan» no existen en italiano (tu parli, noi parliamo, voi parlate, loro parlano).",
+      "parts": {
+        "descubre": [
+          "s_10617953",
+          "s_3440351",
+          "s_2126345",
+          "s_4525880"
+        ],
+        "practica": [
+          "s_10617953",
+          "s_3440351",
+          "s_2126345",
+          "s_4525880",
+          "s_916304",
+          "s_2019946",
+          "s_758881",
+          "s_1714805",
+          "s_2575149",
+          "s_4477263",
+          "s_529194",
+          "s_2001704",
+          "s_2796586",
+          "s_5119223",
+          "s_373511",
+          "s_2315649",
+          "s_2714088",
+          "s_3161600",
+          "s_3306091",
+          "s_977762",
+          "s_1863858",
+          "s_3828344",
+          "s_622120",
+          "s_3827503",
+          "s_4642906",
+          "s_5073572",
+          "s_894222",
+          "s_2187361",
+          "s_993617",
+          "s_4166822"
+        ],
+        "escucha": [
+          "s_10617953",
+          "s_4525880",
+          "s_758881",
+          "s_4477263",
+          "s_2796586",
+          "s_2315649",
+          "s_3306091",
+          "s_3828344"
+        ],
+        "prueba": [
+          "s_4473727",
+          "s_1324839",
+          "s_1003044",
+          "s_707287",
+          "s_5399318",
+          "s_719220"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_10617953",
+          "start": 3,
+          "end": 8,
+          "wrong": "pensiamo"
+        },
+        {
+          "id": "s_3440351",
+          "start": 3,
+          "end": 6,
+          "wrong": "amiamo"
+        },
+        {
+          "id": "s_2126345",
+          "start": 3,
+          "end": 6,
+          "wrong": "amiamo"
+        },
+        {
+          "id": "s_4525880",
+          "start": 3,
+          "end": 6,
+          "wrong": "amiamo"
+        }
+      ]
+    },
+    {
+      "id": "u15",
+      "level": "A1",
+      "title": "Verbos en -ere e -ire: leggo, dormo, finisco",
+      "goal_es": "Terminaciones de -ere (leggo, leggi, legge…) y de -ire, con -isc- en finire, capire, preferire.",
+      "codes": [
+        "ERR_PRESENT_ERE_IRE"
+      ],
+      "why_here": "Completa los dos grupos regulares tras los verbos en -are.",
+      "readings": [
+        "rd_tempolibero"
+      ],
+      "ficha_es": "Los verbos en -ere (leggere, vendere) hacen el presente con -o, -i, -e, -iamo, -ete, -ono: leggo, leggi, legge, leggiamo, leggete, leggono. Los en -ire (dormire) igual con -ite: dormo, dormi, dorme, dormiamo, dormite, dormono. Algunos -ire agregan -isc-: finire → finisco, finisci, finisce, finiamo, finite, finiscono.\n\nFíjate en el «noi» (-iamo) y en el «loro» (-ono) que son iguales en todos los grupos. El español tiene «-emos / -imos»: aquí es siempre -iamo.",
+      "status": "active",
+      "explanation_es": "Los verbos en -ere hacen -o, -i, -e, -iamo, -ete, -ono y los en -ire -o, -i, -e, -iamo, -ite, -ono (algunos añaden -isc-: finisco, finisci, finisce, finiamo, finite, finiscono). El español -es, -emos, -en, -imos no existe: leggi, leggiamo, leggono.",
+      "parts": {
+        "descubre": [
+          "s_2019943",
+          "s_2019957",
+          "s_1311899",
+          "s_2927168"
+        ],
+        "practica": [
+          "s_2019943",
+          "s_2019957",
+          "s_1311899",
+          "s_2927168",
+          "s_4465190",
+          "s_724510",
+          "s_960343",
+          "s_1324837",
+          "s_2019970",
+          "s_534944",
+          "s_4465222",
+          "s_1572986",
+          "s_3867801",
+          "s_4430302",
+          "s_3554225",
+          "s_3564577",
+          "s_714339",
+          "s_929180",
+          "s_1985431",
+          "s_3435223",
+          "s_3341513",
+          "s_2516185",
+          "s_5093561",
+          "s_993615",
+          "s_10831886",
+          "s_1018003",
+          "s_4356628",
+          "s_1993864"
+        ],
+        "escucha": [
+          "s_2019943",
+          "s_2927168",
+          "s_960343",
+          "s_534944",
+          "s_3867801",
+          "s_3564577",
+          "s_1985431",
+          "s_2516185"
+        ],
+        "prueba": [
+          "s_4465187",
+          "s_1872701",
+          "s_2681907",
+          "s_1073661",
+          "s_1664909",
+          "s_3202879"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2019943",
+          "start": 4,
+          "end": 8,
+          "wrong": "vivono"
+        },
+        {
+          "id": "s_2019957",
+          "start": 4,
+          "end": 8,
+          "wrong": "vivono"
+        },
+        {
+          "id": "s_1311899",
+          "start": 4,
+          "end": 8,
+          "wrong": "vivono"
+        },
+        {
+          "id": "s_2927168",
+          "start": 4,
+          "end": 8,
+          "wrong": "aprono"
+        }
+      ]
+    },
+    {
+      "id": "u21",
+      "level": "A1",
+      "title": "Vocabulario: la familia y las personas",
+      "goal_es": "Madre, padre, hermano, hijo, amigo… con su artículo y su género.",
+      "codes": [
+        "ERR_VOC_FAMILIA"
+      ],
+      "why_here": "Primer vocabulario: hablar de ti y de tu gente.",
+      "readings": [
+        "rd_incontro"
+      ],
+      "ficha_es": "La familia: madre, padre, fratello (hermano), sorella (hermana), figlio, figlia, nonno, nonna, zio, zia, cugino, cugina, marito, moglie. Plurales: i genitori (los padres), i figli (los hijos, hijos e hijas), i nonni.\n\n«Genitori» son los padres (madre y padre); «parenti» son los parientes. «Famiglia» y «amici» se usan mucho con posesivo: la mia famiglia. Mira la lista de palabras y fíjate en el género de cada una.",
+      "words": [
+        {
+          "form": "madre",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la madre",
+          "audio": "10c4070b4a87",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "padre",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el padre",
+          "audio": "05d4ac9a1600",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "fratello",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el hermano",
+          "audio": "2662c1d24455",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "sorella",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la hermana",
+          "audio": "4c36b488f181",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "figlio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el hijo",
+          "audio": "bac653e17fbe",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "j-gli"
+        },
+        {
+          "form": "figlia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la hija",
+          "audio": "dd87a0b183ea",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "j-gli"
+        },
+        {
+          "form": "nonno",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el abuelo",
+          "audio": "d44b27aaa9a8",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "nonna",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la abuela",
+          "audio": "6b0285751e44",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "zio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el tío",
+          "audio": "c62e58500094",
+          "art": "lo",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "tía/tío→zia/zio: t→z"
+        },
+        {
+          "form": "zia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la tía",
+          "audio": "4e03a774654d",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "tía/tío→zia/zio: t→z"
+        },
+        {
+          "form": "marito",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el marido",
+          "audio": "cc774053e221",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "moglie",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la esposa",
+          "audio": "e83f6b6b4457",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "cugino",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el primo",
+          "audio": "7b5e9e4d22cf",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "cugina",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la prima",
+          "audio": "2d747174f589",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "bambino",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el niño",
+          "audio": "94e1753d60b3",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "bambina",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la niña",
+          "audio": "e7284fe35f32",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "ragazzo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el chico",
+          "audio": "e4a17010b05a",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "ragazza",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la chica",
+          "audio": "3589c02318dd",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "amico",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el amigo",
+          "audio": "b397a3769a83",
+          "art": "l'",
+          "sieve": "transparente"
+        },
+        {
+          "form": "amica",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la amiga",
+          "audio": "fc70e0b10d47",
+          "art": "l'",
+          "sieve": "transparente"
+        },
+        {
+          "form": "amici",
+          "gender": "m",
+          "num": "p",
+          "gloss": "los amigos",
+          "audio": "dc1862e1b22b",
+          "art": "gli",
+          "sieve": "transparente"
+        },
+        {
+          "form": "figli",
+          "gender": "m",
+          "num": "p",
+          "gloss": "los hijos",
+          "audio": "118ade9dff51",
+          "art": "i",
+          "sieve": "regular",
+          "rule": "j-gli"
+        },
+        {
+          "form": "fratelli",
+          "gender": "m",
+          "num": "p",
+          "gloss": "los hermanos",
+          "audio": "ee4a4cbce741",
+          "art": "i",
+          "sieve": "opaca"
+        },
+        {
+          "form": "genitori",
+          "gender": "m",
+          "num": "p",
+          "gloss": "los padres (madre y padre)",
+          "audio": "440a8545b16d",
+          "art": "i",
+          "sieve": "opaca"
+        },
+        {
+          "form": "famiglia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la familia",
+          "audio": "9162fe5d6278",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "familia→famiglia (-lia→-glia)"
+        },
+        {
+          "form": "uomo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el hombre",
+          "audio": "5627a33f3bef",
+          "art": "l'",
+          "sieve": "opaca"
+        },
+        {
+          "form": "donna",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la mujer",
+          "audio": "db218f600453",
+          "art": "la",
+          "sieve": "opaca"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Madre, padre, hermano, hijo, amigo… Fíjate en el género y el artículo: il padre / la madre, i figli / le figlie. «Genitori» significa «los padres» (madre y padre), no «parientes».",
+      "parts": {
+        "descubre": [
+          "s_2870294",
+          "s_382052",
+          "s_2905863",
+          "s_3437358"
+        ],
+        "practica": [
+          "s_2870294",
+          "s_382052",
+          "s_2905863",
+          "s_3437358",
+          "s_3601695",
+          "s_1535842",
+          "s_608992",
+          "s_663079",
+          "s_1260047",
+          "s_13313121",
+          "s_569539",
+          "s_375672",
+          "s_612269",
+          "s_365723",
+          "s_373499",
+          "s_2395367",
+          "s_3298648",
+          "s_377164",
+          "s_4629",
+          "s_1669726",
+          "s_377190",
+          "s_11303994",
+          "s_2733860",
+          "s_2699649",
+          "s_616075",
+          "s_10461055",
+          "s_662876",
+          "s_877571",
+          "s_993178",
+          "s_1000571"
+        ],
+        "escucha": [
+          "s_2870294",
+          "s_3437358",
+          "s_608992",
+          "s_13313121",
+          "s_612269",
+          "s_2395367",
+          "s_4629",
+          "s_11303994"
+        ],
+        "prueba": [
+          "s_632220",
+          "s_6612777",
+          "s_706307",
+          "s_475665",
+          "s_547094",
+          "s_7713808"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2870294",
+          "start": 10,
+          "end": 16,
+          "wrong": "cugino"
+        },
+        {
+          "id": "s_382052",
+          "start": 9,
+          "end": 17,
+          "wrong": "ragazzo"
+        },
+        {
+          "id": "s_2905863",
+          "start": 13,
+          "end": 18,
+          "wrong": "uomo"
+        },
+        {
+          "id": "s_3437358",
+          "start": 13,
+          "end": 18,
+          "wrong": "zia"
+        }
+      ]
+    },
+    {
+      "id": "u01",
+      "level": "A1",
+      "title": "El posesivo lleva artículo",
+      "goal_es": "Decir «la mia casa», no «mia casa»: en italiano el posesivo lleva artículo (salvo parentesco singular).",
+      "codes": [
+        "ERR_POSSESSIVE_ARTICLE"
+      ],
+      "why_here": "Las fuentes piden frenar este calco desde el primer día.",
+      "readings": [
+        "rd_comesei"
+      ],
+      "ficha_es": "En italiano el posesivo lleva artículo: il mio libro, la tua casa, i miei amici. El español dice «mi libro» sin artículo.\n\nExcepción importante: con parentesco en singular no se usa el artículo: mio padre, tua madre, suo fratello (pero i miei fratelli, la mia sorella maggiore). Y con loro siempre va artículo: la loro casa.",
+      "status": "active",
+      "explanation_es": "En italiano el posesivo lleva artículo (il mio libro), salvo con parentesco singular (mio fratello). El español 'mi libro' no lo lleva, y 'mi hermano' tampoco, lo que induce a omitirlo o a sobreusarlo.",
+      "parts": {
+        "descubre": [
+          "s_1999832",
+          "s_1084099",
+          "s_1655825",
+          "s_7047758"
+        ],
+        "practica": [
+          "s_1999832",
+          "s_1084099",
+          "s_1655825",
+          "s_7047758",
+          "s_777326",
+          "s_571371",
+          "s_1019631",
+          "s_2729180",
+          "s_1701505",
+          "s_2917130",
+          "s_2845274",
+          "s_1021338",
+          "s_1195171",
+          "s_373744",
+          "s_2448705",
+          "s_2719440",
+          "s_2719442",
+          "s_10273528",
+          "s_13120165",
+          "s_600300",
+          "s_2143646",
+          "s_3237328",
+          "s_386837",
+          "s_1843021",
+          "s_677396",
+          "s_2970987",
+          "s_2970988"
+        ],
+        "escucha": [
+          "s_1999832",
+          "s_7047758",
+          "s_1019631",
+          "s_2917130",
+          "s_1195171",
+          "s_2719440",
+          "s_13120165",
+          "s_3237328"
+        ],
+        "prueba": [
+          "s_1067268",
+          "s_1571096",
+          "s_1126958",
+          "s_4078263",
+          "s_1559218",
+          "s_941983"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1999832",
+          "start": 6,
+          "end": 12,
+          "wrong": "mia"
+        },
+        {
+          "id": "s_1084099",
+          "start": 4,
+          "end": 10,
+          "wrong": "tuoi"
+        },
+        {
+          "id": "s_1655825",
+          "start": 5,
+          "end": 11,
+          "wrong": "suoi"
+        },
+        {
+          "id": "s_7047758",
+          "start": 0,
+          "end": 6,
+          "wrong": "Mio"
+        }
+      ]
+    },
+    {
+      "id": "u02",
+      "level": "A1",
+      "title": "Escribir mio, tuo, suo (no mi, tu, su)",
+      "goal_es": "El posesivo italiano cambia de forma: il mio libro, la tua casa, i suoi amici; «mi», «tu» y «su» son formas del español.",
+      "codes": [
+        "ERR_POSSESSIVE_SPELLING"
+      ],
+      "why_here": "Va justo después del artículo con posesivo: es la misma estructura vista por su forma.",
+      "readings": [
+        "rd_dati"
+      ],
+      "ficha_es": "La grafía de los posesivos: mio, mia, miei, mie; tuo, tua, tuoi, tue; suo, sua, suoi, sue. En español se escribe «mi, tu, su» (sin distinguir género) y «mis, tus, sus»; en italiano cambian con el género y el número de lo poseído.\n\nError típico: «mi libro» o «tu casa» en italiano. Se dice il mio libro y la tua casa. Y «suo» es «su» de él, de ella o de usted: el contexto lo aclara.",
+      "status": "active",
+      "explanation_es": "El posesivo español 'mi' se escribe mio en italiano cuando es masculino singular.",
+      "parts": {
+        "descubre": [
+          "s_2077177",
+          "s_3996278",
+          "s_377545",
+          "s_2199984"
+        ],
+        "practica": [
+          "s_2077177",
+          "s_3996278",
+          "s_377545",
+          "s_2199984",
+          "s_2199989",
+          "s_945591",
+          "s_3636895",
+          "s_13976565",
+          "s_3836485",
+          "s_1131235",
+          "s_1249271",
+          "s_1083499",
+          "s_2758388",
+          "s_409594",
+          "s_6612336",
+          "s_1126956",
+          "s_9723298",
+          "s_2448704",
+          "s_389110",
+          "s_1005627",
+          "s_1306655",
+          "s_4347087",
+          "s_4656878"
+        ],
+        "escucha": [
+          "s_2077177",
+          "s_377545",
+          "s_2199989",
+          "s_3636895",
+          "s_3836485",
+          "s_1249271",
+          "s_2758388",
+          "s_6612336"
+        ],
+        "prueba": [
+          "s_374617",
+          "s_6039237",
+          "s_1195313",
+          "s_11816160",
+          "s_1141626",
+          "s_2841533"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2077177",
+          "start": 9,
+          "end": 12,
+          "wrong": "mi"
+        },
+        {
+          "id": "s_3996278",
+          "start": 9,
+          "end": 12,
+          "wrong": "mi"
+        },
+        {
+          "id": "s_377545",
+          "start": 10,
+          "end": 13,
+          "wrong": "tu"
+        },
+        {
+          "id": "s_2199984",
+          "start": 10,
+          "end": 13,
+          "wrong": "tu"
+        }
+      ]
+    },
+    {
+      "id": "u16",
+      "level": "A1",
+      "title": "Andare, fare, stare, venire: vado, faccio",
+      "goal_es": "Las formas irregulares más usadas: vado, faccio, sto, vengo, do, dico, so, esco.",
+      "codes": [
+        "ERR_PRESENT_IRREGULAR"
+      ],
+      "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques.",
+      "ficha_es": "Cuatro verbos muy usados e irregulares: andare (vado, vai, va, andiamo, andate, vanno), fare (faccio, fai, fa, facciamo, fate, fanno), stare (sto, stai, sta, stiamo, state, stanno), venire (vengo, vieni, viene, veniamo, venite, vengono).\n\nStare sirve para «estar» en la salud y en estar + gerundio (sto mangiando), y essere para el resto. Fare entra en muchas expresiones: fare colazione (desayunar), fare una doccia, fa caldo (hace calor).",
+      "readings": [
+        "rd_stasera"
+      ],
+      "status": "active",
+      "explanation_es": "Andare, fare, stare, venire, dare, dire, sapere y uscire son irregulares y no siguen la regla: vado, vai, va, andiamo, andate, vanno. Hay que aprender cada forma; la persona la marca la terminación, no solo el sujeto.",
+      "parts": {
+        "descubre": [
+          "s_529480",
+          "s_1687759",
+          "s_4204662",
+          "s_2968348"
+        ],
+        "practica": [
+          "s_529480",
+          "s_1687759",
+          "s_4204662",
+          "s_2968348",
+          "s_395876",
+          "s_2486027",
+          "s_5432019",
+          "s_717772",
+          "s_836586",
+          "s_2020811",
+          "s_1484065",
+          "s_2846518",
+          "s_520740",
+          "s_3473741",
+          "s_7730518",
+          "s_1554589",
+          "s_3133978",
+          "s_5692682",
+          "s_2016164",
+          "s_758758",
+          "s_1504380",
+          "s_1647793",
+          "s_1689003",
+          "s_3306088",
+          "s_10820356",
+          "s_4196837",
+          "s_1740706",
+          "s_7017591",
+          "s_1584459",
+          "s_3647103"
+        ],
+        "escucha": [
+          "s_529480",
+          "s_2968348",
+          "s_5432019",
+          "s_2020811",
+          "s_520740",
+          "s_1554589",
+          "s_2016164",
+          "s_1647793"
+        ],
+        "prueba": [
+          "s_1258226",
+          "s_2411939",
+          "s_1341750",
+          "s_7017593",
+          "s_4420703",
+          "s_3297612"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_529480",
+          "start": 3,
+          "end": 6,
+          "wrong": "sapete"
+        },
+        {
+          "id": "s_1687759",
+          "start": 3,
+          "end": 5,
+          "wrong": "sappiamo"
+        },
+        {
+          "id": "s_4204662",
+          "start": 7,
+          "end": 9,
+          "wrong": "sappiamo"
+        },
+        {
+          "id": "s_2968348",
+          "start": 3,
+          "end": 6,
+          "wrong": "stiamo"
+        }
+      ]
+    },
+    {
+      "id": "u17",
+      "level": "A1",
+      "title": "Volere, potere, dovere: voglio, posso, devo",
+      "goal_es": "Los tres modales irregulares y su uso con un infinitivo: voglio mangiare, posso venire, devo studiare.",
+      "codes": [
+        "ERR_PRESENT_MODAL"
+      ],
+      "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación.",
+      "ficha_es": "Volere, potere y dovere (querer, poder, deber) van con infinitivo: voglio mangiare, posso venire, devo studiare. Presente: voglio, vuoi, vuole, vogliamo, volete, vogliono; posso, puoi, può, possiamo, potete, possono; devo, devi, deve, dobbiamo, dovete, devono.\n\nSon irregulares: aprende las formas de memoria. Ojo: «tengo que» se dice devo; «tener ganas de» es avere voglia di.",
+      "readings": [
+        "rd_festa"
+      ],
+      "status": "active",
+      "explanation_es": "Volere, potere y dovere son irregulares y muy frecuentes: voglio, vuoi, vuole, vogliamo, volete, vogliono / posso, puoi, può, possiamo, potete, possono / devo, devi, deve, dobbiamo, dovete, devono. Van con un infinitivo: voglio mangiare.",
+      "parts": {
+        "descubre": [
+          "s_7727081",
+          "s_4043175",
+          "s_2722184",
+          "s_812434"
+        ],
+        "practica": [
+          "s_7727081",
+          "s_4043175",
+          "s_2722184",
+          "s_812434",
+          "s_1233789",
+          "s_2762217",
+          "s_4703335",
+          "s_736718",
+          "s_7728791",
+          "s_5252118",
+          "s_2458199",
+          "s_1295792",
+          "s_1623104",
+          "s_2477543",
+          "s_3014754",
+          "s_1454035",
+          "s_1926329",
+          "s_4347362",
+          "s_7568042",
+          "s_1261696",
+          "s_2020912",
+          "s_3388037",
+          "s_14036523",
+          "s_2669986",
+          "s_1471842",
+          "s_3783839",
+          "s_3626019",
+          "s_4725368",
+          "s_5034579",
+          "s_5074038"
+        ],
+        "escucha": [
+          "s_7727081",
+          "s_812434",
+          "s_4703335",
+          "s_5252118",
+          "s_1623104",
+          "s_1454035",
+          "s_7568042",
+          "s_3388037"
+        ],
+        "prueba": [
+          "s_3847022",
+          "s_2574881",
+          "s_3485622",
+          "s_7727142",
+          "s_4915676",
+          "s_1547426"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_7727081",
+          "start": 3,
+          "end": 9,
+          "wrong": "vogliamo"
+        },
+        {
+          "id": "s_4043175",
+          "start": 3,
+          "end": 8,
+          "wrong": "possiamo"
+        },
+        {
+          "id": "s_2722184",
+          "start": 3,
+          "end": 9,
+          "wrong": "vogliamo"
+        },
+        {
+          "id": "s_812434",
+          "start": 3,
+          "end": 7,
+          "wrong": "volete"
+        }
+      ]
+    },
+    {
+      "id": "u20",
+      "level": "A1",
+      "title": "Sonidos: gli (figlio, famiglia)",
+      "goal_es": "Gli suena como una «ll» muy palatal /ʎ/ (figlio, famiglia, meglio); no es «gl» ni «li».",
+      "codes": [
+        "ERR_GLI_PALATAL"
+      ],
+      "why_here": "Tercer sonido que el español no tiene como tal; aparece en palabras de familia y cotidianas.",
+      "ficha_es": "gli se pronuncia como la «ll» del español de España (llave) o la «lli» de «million» en inglés: una l palatal, larga y suave (figlio, famiglia, moglie, voglio). No se lee «gli» como «gui-li» ni como una simple «l».\n\nSe escribe gli solo ante vocal en estas palabras; el artículo «gli» (gli amici) se pronuncia igual. Escucha y repite despacio: tu oído para esta combinación es el que más ayuda a escribir bien.",
+      "words": [
+        {
+          "form": "figlio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el hijo",
+          "audio": "bac653e17fbe",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "j-gli"
+        },
+        {
+          "form": "famiglia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la familia",
+          "audio": "9162fe5d6278",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "familia→famiglia (-lia→-glia)"
+        },
+        {
+          "form": "moglie",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la esposa",
+          "audio": "e83f6b6b4457",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "voglio",
+          "gender": "x",
+          "num": "x",
+          "gloss": "quiero",
+          "audio": "d4e369d3252f",
+          "sieve": "opaca"
+        },
+        {
+          "form": "foglio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la hoja de papel",
+          "audio": "a762370637b1",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "j-gli"
+        },
+        {
+          "form": "aglio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el ajo",
+          "audio": "ab50b3f471fb",
+          "art": "l'",
+          "sieve": "regular",
+          "rule": "j-gli"
+        },
+        {
+          "form": "meglio",
+          "gender": "x",
+          "num": "x",
+          "gloss": "mejor",
+          "audio": "66ef20ced47a",
+          "sieve": "regular",
+          "rule": "j-gli"
+        },
+        {
+          "form": "tovaglia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el mantel",
+          "audio": "2ed0911662f5",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "sbaglio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el error",
+          "audio": "a8d0ea4d294f",
+          "art": "lo",
+          "sieve": "opaca"
+        },
+        {
+          "form": "luglio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "julio",
+          "audio": "b72b545014b3",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "julio→luglio (ju-→lu-, -lio→-glio)"
+        },
+        {
+          "form": "figlia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la hija",
+          "audio": "dd87a0b183ea",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "j-gli"
+        },
+        {
+          "form": "bottiglia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la botella",
+          "audio": "da3da60b4379",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "j-gli"
+        },
+        {
+          "form": "paglia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la paja",
+          "audio": "6bd1cf526996",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "j-gli"
+        },
+        {
+          "form": "coniglio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el conejo",
+          "audio": "4a136cc918b2",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "j-gli"
+        },
+        {
+          "form": "consiglio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el consejo",
+          "audio": "6171c87de8de",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "j-gli"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Gli es la lateral palatal /ʎ/ (geminada entre vocales); muchos hispanohablantes la reducen a /li/ o la separan en g + l.",
+      "parts": {
+        "descubre": [
+          "s_1191467",
+          "s_1155617",
+          "s_3334124",
+          "s_4461392"
+        ],
+        "practica": [
+          "s_1191467",
+          "s_1155617",
+          "s_3334124",
+          "s_4461392",
+          "s_11871336",
+          "s_1945187",
+          "s_10451845",
+          "s_872892",
+          "s_1255377",
+          "s_4024799",
+          "s_3112095",
+          "s_610158",
+          "s_1333588",
+          "s_384502",
+          "s_3128415",
+          "s_5181633",
+          "s_3298422",
+          "s_626875",
+          "s_14054462",
+          "s_1467605",
+          "s_977112",
+          "s_2556097",
+          "s_350634",
+          "s_1333103",
+          "s_3233436",
+          "s_3233437",
+          "s_2006193",
+          "s_3770405"
+        ],
+        "escucha": [
+          "s_1191467",
+          "s_4461392",
+          "s_10451845",
+          "s_4024799",
+          "s_1333588",
+          "s_5181633",
+          "s_14054462",
+          "s_2556097"
+        ],
+        "prueba": [
+          "s_3401520",
+          "s_511140",
+          "s_1343993",
+          "s_5932215",
+          "s_2556099",
+          "s_4402316"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1191467",
+          "start": 3,
+          "end": 9,
+          "wrong": "tolie"
+        },
+        {
+          "id": "s_1155617",
+          "start": 10,
+          "end": 19,
+          "wrong": "consillio"
+        },
+        {
+          "id": "s_3334124",
+          "start": 10,
+          "end": 19,
+          "wrong": "bilietto"
+        },
+        {
+          "id": "s_4461392",
+          "start": 13,
+          "end": 19,
+          "wrong": "molie"
         }
       ]
     },
@@ -3360,347 +4097,6 @@
       ]
     },
     {
-      "id": "u45",
-      "level": "A1",
-      "title": "Vocabulario: países y nacionalidades",
-      "goal_es": "Italiano, spagnolo, francese, inglese, cileno… y que se escriben con minúscula (parlo spagnolo).",
-      "codes": [
-        "ERR_VOC_NAZIONALITA"
-      ],
-      "why_here": "Decir de dónde eres y qué idiomas hablas, con essere y los adjetivos ya vistos.",
-      "ficha_es": "Las nacionalidades y los idiomas se escriben con minúscula en italiano: sono cileno, parlo spagnolo, è italiana. Cambian como los adjetivos: italiano/italiana/italiani/italiane. Las terminadas en -e (francese, inglese, giapponese, cinese) valen para masculino y femenino.\n\nEl idioma es masculino y suele llevar artículo: l'italiano è bello; pero con parlare y con in no lo lleva: parlo italiano, scrivo in italiano.",
-      "readings": [
-        "rd_descriviamo"
-      ],
-      "words": [
-        {
-          "form": "italiano",
-          "gender": "m",
-          "num": "s",
-          "gloss": "italiano",
-          "audio": "4f2896dd3711",
-          "sieve": "transparente"
-        },
-        {
-          "form": "italiana",
-          "gender": "f",
-          "num": "s",
-          "gloss": "italiana",
-          "audio": "87753b88e248",
-          "sieve": "transparente"
-        },
-        {
-          "form": "italiani",
-          "gender": "m",
-          "num": "p",
-          "gloss": "italianos",
-          "audio": "1e075dae477d",
-          "sieve": "transparente"
-        },
-        {
-          "form": "italiane",
-          "gender": "f",
-          "num": "p",
-          "gloss": "italianas",
-          "audio": "a1a0c746651c",
-          "sieve": "transparente"
-        },
-        {
-          "form": "spagnolo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "español",
-          "audio": "dbc2918e9044",
-          "sieve": "regular",
-          "rule": "n-gn"
-        },
-        {
-          "form": "spagnola",
-          "gender": "f",
-          "num": "s",
-          "gloss": "española",
-          "audio": "313ff1229b1c",
-          "sieve": "regular",
-          "rule": "n-gn"
-        },
-        {
-          "form": "spagnoli",
-          "gender": "m",
-          "num": "p",
-          "gloss": "españoles",
-          "audio": "9ff678214e29",
-          "sieve": "regular",
-          "rule": "n-gn"
-        },
-        {
-          "form": "spagnole",
-          "gender": "f",
-          "num": "p",
-          "gloss": "españolas",
-          "audio": "b08a9d6757ee",
-          "sieve": "regular",
-          "rule": "n-gn"
-        },
-        {
-          "form": "francese",
-          "gender": "-",
-          "num": "s",
-          "gloss": "francés o francesa",
-          "audio": "ecec83d94d7c",
-          "sieve": "transparente"
-        },
-        {
-          "form": "francesi",
-          "gender": "-",
-          "num": "p",
-          "gloss": "franceses o francesas",
-          "audio": "d2e9ef54c98d",
-          "sieve": "transparente"
-        },
-        {
-          "form": "inglese",
-          "gender": "-",
-          "num": "s",
-          "gloss": "inglés o inglesa",
-          "audio": "c16231c65d2f",
-          "sieve": "transparente"
-        },
-        {
-          "form": "inglesi",
-          "gender": "-",
-          "num": "p",
-          "gloss": "ingleses o inglesas",
-          "audio": "e84a0490340e",
-          "sieve": "transparente"
-        },
-        {
-          "form": "tedesco",
-          "gender": "m",
-          "num": "s",
-          "gloss": "alemán",
-          "audio": "3debdc5730b3",
-          "sieve": "opaca"
-        },
-        {
-          "form": "tedesca",
-          "gender": "f",
-          "num": "s",
-          "gloss": "alemana",
-          "audio": "72b4a65691a5",
-          "sieve": "opaca"
-        },
-        {
-          "form": "tedeschi",
-          "gender": "m",
-          "num": "p",
-          "gloss": "alemanes",
-          "audio": "684216b107e9",
-          "sieve": "opaca"
-        },
-        {
-          "form": "americano",
-          "gender": "m",
-          "num": "s",
-          "gloss": "estadounidense (masculino)",
-          "audio": "6a07296dc3e8",
-          "sieve": "transparente",
-          "note": "La glosa es 'estadounidense', pero se reconoce por 'americano'"
-        },
-        {
-          "form": "americana",
-          "gender": "f",
-          "num": "s",
-          "gloss": "estadounidense (femenino)",
-          "audio": "5df84c5517b2",
-          "sieve": "transparente",
-          "note": "La glosa es 'estadounidense', pero se reconoce por 'americano'"
-        },
-        {
-          "form": "americani",
-          "gender": "m",
-          "num": "p",
-          "gloss": "estadounidenses (masculino)",
-          "audio": "98a9ec03f5c7",
-          "sieve": "transparente",
-          "note": "La glosa es 'estadounidense', pero se reconoce por 'americano'"
-        },
-        {
-          "form": "cinese",
-          "gender": "-",
-          "num": "s",
-          "gloss": "chino o china",
-          "audio": "e307996be654",
-          "sieve": "opaca"
-        },
-        {
-          "form": "giapponese",
-          "gender": "-",
-          "num": "s",
-          "gloss": "japonés o japonesa",
-          "audio": "2cadc3e1f6b1",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "japonés→giapponese (j→gi)"
-        },
-        {
-          "form": "russo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "ruso",
-          "audio": "0a72cbd38bd6",
-          "sieve": "transparente"
-        },
-        {
-          "form": "russa",
-          "gender": "f",
-          "num": "s",
-          "gloss": "rusa",
-          "audio": "cdeb4cb838a9",
-          "sieve": "transparente"
-        },
-        {
-          "form": "portoghese",
-          "gender": "-",
-          "num": "s",
-          "gloss": "portugués o portuguesa",
-          "audio": "a75cc28566a3",
-          "sieve": "transparente"
-        },
-        {
-          "form": "messicano",
-          "gender": "m",
-          "num": "s",
-          "gloss": "mexicano",
-          "audio": "91f291f02baf",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "x→ss (México se pronuncia con /s/ en italiano: messicano)."
-        },
-        {
-          "form": "messicana",
-          "gender": "f",
-          "num": "s",
-          "gloss": "mexicana",
-          "audio": "3f8e60a9c9f7",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "x→ss (México se pronuncia con /s/ en italiano: messicano)."
-        },
-        {
-          "form": "cileno",
-          "gender": "m",
-          "num": "s",
-          "gloss": "chileno",
-          "audio": "83bf6e85c34b",
-          "sieve": "transparente"
-        },
-        {
-          "form": "cilena",
-          "gender": "f",
-          "num": "s",
-          "gloss": "chilena",
-          "audio": "7ba5b733cc9b",
-          "sieve": "transparente"
-        },
-        {
-          "form": "argentino",
-          "gender": "m",
-          "num": "s",
-          "gloss": "argentino",
-          "audio": "f902a5622873",
-          "sieve": "transparente"
-        },
-        {
-          "form": "argentina",
-          "gender": "f",
-          "num": "s",
-          "gloss": "argentina",
-          "audio": "1187c0b5e46c",
-          "sieve": "transparente"
-        }
-      ],
-      "status": "active",
-      "explanation_es": "Italiano, spagnolo, francese, inglese, cileno, americano… En italiano las nacionalidades y los idiomas se escriben con minúscula (sono cileno, parlo spagnolo). Cambian como los adjetivos: italiano/italiana; los terminados en -e (francese, inglese) valen para masculino y femenino.",
-      "parts": {
-        "descubre": [
-          "s_379139",
-          "s_702487",
-          "s_374394",
-          "s_581911"
-        ],
-        "practica": [
-          "s_379139",
-          "s_702487",
-          "s_374394",
-          "s_581911",
-          "s_1472941",
-          "s_1655267",
-          "s_1113206",
-          "s_1113245",
-          "s_4167171",
-          "s_1003028",
-          "s_1017085",
-          "s_3626015",
-          "s_801711",
-          "s_10146459",
-          "s_1828153",
-          "s_2798859",
-          "s_1132479",
-          "s_6751038",
-          "s_12935662",
-          "s_1187115",
-          "s_671770",
-          "s_719204",
-          "s_374578",
-          "s_2436763"
-        ],
-        "escucha": [
-          "s_379139",
-          "s_581911",
-          "s_1113206",
-          "s_1003028",
-          "s_801711",
-          "s_2798859",
-          "s_12935662",
-          "s_719204"
-        ],
-        "prueba": [
-          "s_1188133",
-          "s_526289",
-          "s_382388",
-          "s_1353266",
-          "s_4528825",
-          "s_2577081"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_379139",
-          "start": 13,
-          "end": 19,
-          "wrong": "francese"
-        },
-        {
-          "id": "s_702487",
-          "start": 10,
-          "end": 19,
-          "wrong": "italiano"
-        },
-        {
-          "id": "s_374394",
-          "start": 2,
-          "end": 10,
-          "wrong": "argentino"
-        },
-        {
-          "id": "s_581911",
-          "start": 12,
-          "end": 22,
-          "wrong": "cinese"
-        }
-      ]
-    },
-    {
       "id": "u30",
       "level": "A1",
       "title": "Vocabulario: preguntar (dove, quando, perché…)",
@@ -3862,550 +4258,6 @@
           "start": 4,
           "end": 8,
           "wrong": "cosa"
-        }
-      ]
-    },
-    {
-      "id": "u21",
-      "level": "A1",
-      "title": "Vocabulario: la familia y las personas",
-      "goal_es": "Madre, padre, hermano, hijo, amigo… con su artículo y su género.",
-      "codes": [
-        "ERR_VOC_FAMILIA"
-      ],
-      "why_here": "Primer vocabulario: hablar de ti y de tu gente.",
-      "readings": [
-        "rd_incontro"
-      ],
-      "ficha_es": "La familia: madre, padre, fratello (hermano), sorella (hermana), figlio, figlia, nonno, nonna, zio, zia, cugino, cugina, marito, moglie. Plurales: i genitori (los padres), i figli (los hijos, hijos e hijas), i nonni.\n\n«Genitori» son los padres (madre y padre); «parenti» son los parientes. «Famiglia» y «amici» se usan mucho con posesivo: la mia famiglia. Mira la lista de palabras y fíjate en el género de cada una.",
-      "words": [
-        {
-          "form": "madre",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la madre",
-          "audio": "10c4070b4a87",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "padre",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el padre",
-          "audio": "05d4ac9a1600",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "fratello",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el hermano",
-          "audio": "2662c1d24455",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "sorella",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la hermana",
-          "audio": "4c36b488f181",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "figlio",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el hijo",
-          "audio": "bac653e17fbe",
-          "art": "il",
-          "sieve": "regular",
-          "rule": "j-gli"
-        },
-        {
-          "form": "figlia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la hija",
-          "audio": "dd87a0b183ea",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "j-gli"
-        },
-        {
-          "form": "nonno",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el abuelo",
-          "audio": "d44b27aaa9a8",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "nonna",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la abuela",
-          "audio": "6b0285751e44",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "zio",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el tío",
-          "audio": "c62e58500094",
-          "art": "lo",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "tía/tío→zia/zio: t→z"
-        },
-        {
-          "form": "zia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la tía",
-          "audio": "4e03a774654d",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "tía/tío→zia/zio: t→z"
-        },
-        {
-          "form": "marito",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el marido",
-          "audio": "cc774053e221",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "moglie",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la esposa",
-          "audio": "e83f6b6b4457",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "cugino",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el primo",
-          "audio": "7b5e9e4d22cf",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "cugina",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la prima",
-          "audio": "2d747174f589",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "bambino",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el niño",
-          "audio": "94e1753d60b3",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "bambina",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la niña",
-          "audio": "e7284fe35f32",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "ragazzo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el chico",
-          "audio": "e4a17010b05a",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "ragazza",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la chica",
-          "audio": "3589c02318dd",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "amico",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el amigo",
-          "audio": "b397a3769a83",
-          "art": "l'",
-          "sieve": "transparente"
-        },
-        {
-          "form": "amica",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la amiga",
-          "audio": "fc70e0b10d47",
-          "art": "l'",
-          "sieve": "transparente"
-        },
-        {
-          "form": "amici",
-          "gender": "m",
-          "num": "p",
-          "gloss": "los amigos",
-          "audio": "dc1862e1b22b",
-          "art": "gli",
-          "sieve": "transparente"
-        },
-        {
-          "form": "figli",
-          "gender": "m",
-          "num": "p",
-          "gloss": "los hijos",
-          "audio": "118ade9dff51",
-          "art": "i",
-          "sieve": "regular",
-          "rule": "j-gli"
-        },
-        {
-          "form": "fratelli",
-          "gender": "m",
-          "num": "p",
-          "gloss": "los hermanos",
-          "audio": "ee4a4cbce741",
-          "art": "i",
-          "sieve": "opaca"
-        },
-        {
-          "form": "genitori",
-          "gender": "m",
-          "num": "p",
-          "gloss": "los padres (madre y padre)",
-          "audio": "440a8545b16d",
-          "art": "i",
-          "sieve": "opaca"
-        },
-        {
-          "form": "famiglia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la familia",
-          "audio": "9162fe5d6278",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "familia→famiglia (-lia→-glia)"
-        },
-        {
-          "form": "uomo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el hombre",
-          "audio": "5627a33f3bef",
-          "art": "l'",
-          "sieve": "opaca"
-        },
-        {
-          "form": "donna",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la mujer",
-          "audio": "db218f600453",
-          "art": "la",
-          "sieve": "opaca"
-        }
-      ],
-      "status": "active",
-      "explanation_es": "Madre, padre, hermano, hijo, amigo… Fíjate en el género y el artículo: il padre / la madre, i figli / le figlie. «Genitori» significa «los padres» (madre y padre), no «parientes».",
-      "parts": {
-        "descubre": [
-          "s_2870294",
-          "s_382052",
-          "s_2905863",
-          "s_3437358"
-        ],
-        "practica": [
-          "s_2870294",
-          "s_382052",
-          "s_2905863",
-          "s_3437358",
-          "s_3601695",
-          "s_1535842",
-          "s_608992",
-          "s_663079",
-          "s_1260047",
-          "s_13313121",
-          "s_569539",
-          "s_375672",
-          "s_612269",
-          "s_365723",
-          "s_373499",
-          "s_2395367",
-          "s_3298648",
-          "s_377164",
-          "s_4629",
-          "s_1669726",
-          "s_377190",
-          "s_11303994",
-          "s_2733860",
-          "s_2699649",
-          "s_616075",
-          "s_10461055",
-          "s_662876",
-          "s_877571",
-          "s_993178",
-          "s_1000571"
-        ],
-        "escucha": [
-          "s_2870294",
-          "s_3437358",
-          "s_608992",
-          "s_13313121",
-          "s_612269",
-          "s_2395367",
-          "s_4629",
-          "s_11303994"
-        ],
-        "prueba": [
-          "s_632220",
-          "s_6612777",
-          "s_706307",
-          "s_475665",
-          "s_547094",
-          "s_7713808"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_2870294",
-          "start": 10,
-          "end": 16,
-          "wrong": "cugino"
-        },
-        {
-          "id": "s_382052",
-          "start": 9,
-          "end": 17,
-          "wrong": "ragazzo"
-        },
-        {
-          "id": "s_2905863",
-          "start": 13,
-          "end": 18,
-          "wrong": "uomo"
-        },
-        {
-          "id": "s_3437358",
-          "start": 13,
-          "end": 18,
-          "wrong": "zia"
-        }
-      ]
-    },
-    {
-      "id": "u01",
-      "level": "A1",
-      "title": "El posesivo lleva artículo",
-      "goal_es": "Decir «la mia casa», no «mia casa»: en italiano el posesivo lleva artículo (salvo parentesco singular).",
-      "codes": [
-        "ERR_POSSESSIVE_ARTICLE"
-      ],
-      "why_here": "Las fuentes piden frenar este calco desde el primer día.",
-      "readings": [
-        "rd_comesei"
-      ],
-      "ficha_es": "En italiano el posesivo lleva artículo: il mio libro, la tua casa, i miei amici. El español dice «mi libro» sin artículo.\n\nExcepción importante: con parentesco en singular no se usa el artículo: mio padre, tua madre, suo fratello (pero i miei fratelli, la mia sorella maggiore). Y con loro siempre va artículo: la loro casa.",
-      "status": "active",
-      "explanation_es": "En italiano el posesivo lleva artículo (il mio libro), salvo con parentesco singular (mio fratello). El español 'mi libro' no lo lleva, y 'mi hermano' tampoco, lo que induce a omitirlo o a sobreusarlo.",
-      "parts": {
-        "descubre": [
-          "s_1999832",
-          "s_1084099",
-          "s_1655825",
-          "s_7047758"
-        ],
-        "practica": [
-          "s_1999832",
-          "s_1084099",
-          "s_1655825",
-          "s_7047758",
-          "s_777326",
-          "s_571371",
-          "s_1019631",
-          "s_2729180",
-          "s_1701505",
-          "s_2917130",
-          "s_2845274",
-          "s_1021338",
-          "s_1195171",
-          "s_373744",
-          "s_2448705",
-          "s_2719440",
-          "s_2719442",
-          "s_10273528",
-          "s_13120165",
-          "s_600300",
-          "s_2143646",
-          "s_3237328",
-          "s_386837",
-          "s_1843021",
-          "s_677396",
-          "s_2970987",
-          "s_2970988"
-        ],
-        "escucha": [
-          "s_1999832",
-          "s_7047758",
-          "s_1019631",
-          "s_2917130",
-          "s_1195171",
-          "s_2719440",
-          "s_13120165",
-          "s_3237328"
-        ],
-        "prueba": [
-          "s_1067268",
-          "s_1571096",
-          "s_1126958",
-          "s_4078263",
-          "s_1559218",
-          "s_941983"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_1999832",
-          "start": 6,
-          "end": 12,
-          "wrong": "mia"
-        },
-        {
-          "id": "s_1084099",
-          "start": 4,
-          "end": 10,
-          "wrong": "tuoi"
-        },
-        {
-          "id": "s_1655825",
-          "start": 5,
-          "end": 11,
-          "wrong": "suoi"
-        },
-        {
-          "id": "s_7047758",
-          "start": 0,
-          "end": 6,
-          "wrong": "Mio"
-        }
-      ]
-    },
-    {
-      "id": "u02",
-      "level": "A1",
-      "title": "Escribir mio, tuo, suo (no mi, tu, su)",
-      "goal_es": "El posesivo italiano cambia de forma: il mio libro, la tua casa, i suoi amici; «mi», «tu» y «su» son formas del español.",
-      "codes": [
-        "ERR_POSSESSIVE_SPELLING"
-      ],
-      "why_here": "Va justo después del artículo con posesivo: es la misma estructura vista por su forma.",
-      "readings": [
-        "rd_dati"
-      ],
-      "ficha_es": "La grafía de los posesivos: mio, mia, miei, mie; tuo, tua, tuoi, tue; suo, sua, suoi, sue. En español se escribe «mi, tu, su» (sin distinguir género) y «mis, tus, sus»; en italiano cambian con el género y el número de lo poseído.\n\nError típico: «mi libro» o «tu casa» en italiano. Se dice il mio libro y la tua casa. Y «suo» es «su» de él, de ella o de usted: el contexto lo aclara.",
-      "status": "active",
-      "explanation_es": "El posesivo español 'mi' se escribe mio en italiano cuando es masculino singular.",
-      "parts": {
-        "descubre": [
-          "s_2077177",
-          "s_3996278",
-          "s_377545",
-          "s_2199984"
-        ],
-        "practica": [
-          "s_2077177",
-          "s_3996278",
-          "s_377545",
-          "s_2199984",
-          "s_2199989",
-          "s_945591",
-          "s_3636895",
-          "s_13976565",
-          "s_3836485",
-          "s_1131235",
-          "s_1249271",
-          "s_1083499",
-          "s_2758388",
-          "s_409594",
-          "s_6612336",
-          "s_1126956",
-          "s_9723298",
-          "s_2448704",
-          "s_389110",
-          "s_1005627",
-          "s_1306655",
-          "s_4347087",
-          "s_4656878"
-        ],
-        "escucha": [
-          "s_2077177",
-          "s_377545",
-          "s_2199989",
-          "s_3636895",
-          "s_3836485",
-          "s_1249271",
-          "s_2758388",
-          "s_6612336"
-        ],
-        "prueba": [
-          "s_374617",
-          "s_6039237",
-          "s_1195313",
-          "s_11816160",
-          "s_1141626",
-          "s_2841533"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_2077177",
-          "start": 9,
-          "end": 12,
-          "wrong": "mi"
-        },
-        {
-          "id": "s_3996278",
-          "start": 9,
-          "end": 12,
-          "wrong": "mi"
-        },
-        {
-          "id": "s_377545",
-          "start": 10,
-          "end": 13,
-          "wrong": "tu"
-        },
-        {
-          "id": "s_2199984",
-          "start": 10,
-          "end": 13,
-          "wrong": "tu"
         }
       ]
     },
@@ -4927,715 +4779,6 @@
           "start": 8,
           "end": 10,
           "wrong": "tiene"
-        }
-      ]
-    },
-    {
-      "id": "u14",
-      "level": "A1",
-      "title": "Verbos en -are: parlo, parli, parla",
-      "goal_es": "Terminaciones del presente de los verbos en -are; el español -as, -amos, -an no existe en italiano.",
-      "codes": [
-        "ERR_PRESENT_ARE"
-      ],
-      "why_here": "Es el grupo más grande de verbos y donde más pesa el calco de las terminaciones.",
-      "readings": [
-        "rd_routine"
-      ],
-      "ficha_es": "Los verbos en -are (parlare) hacen el presente con -o, -i, -a, -iamo, -ate, -ano: parlo, parli, parla, parliamo, parlate, parlano. El español dice -o, -as, -a, -amos, -áis, -an.\n\nCuidado: tu parli (no «parlas»), voi parlate (no «parláis»). El sujeto (io, tu, lui…) se omite casi siempre porque la terminación ya dice quién es. Los verbos en -iare (studiare) y -care/-gare (cercare) tienen pequeñas particularidades.",
-      "status": "active",
-      "explanation_es": "Los verbos en -are hacen el presente con -o, -i, -a, -iamo, -ate, -ano. El español dice -as, -amos, -áis, -an: «parlas», «parlamos» o «parlan» no existen en italiano (tu parli, noi parliamo, voi parlate, loro parlano).",
-      "parts": {
-        "descubre": [
-          "s_10617953",
-          "s_3440351",
-          "s_2126345",
-          "s_4525880"
-        ],
-        "practica": [
-          "s_10617953",
-          "s_3440351",
-          "s_2126345",
-          "s_4525880",
-          "s_916304",
-          "s_2019946",
-          "s_758881",
-          "s_1714805",
-          "s_2575149",
-          "s_4477263",
-          "s_529194",
-          "s_2001704",
-          "s_2796586",
-          "s_5119223",
-          "s_373511",
-          "s_2315649",
-          "s_2714088",
-          "s_3161600",
-          "s_3306091",
-          "s_977762",
-          "s_1863858",
-          "s_3828344",
-          "s_622120",
-          "s_3827503",
-          "s_4642906",
-          "s_5073572",
-          "s_894222",
-          "s_2187361",
-          "s_993617",
-          "s_4166822"
-        ],
-        "escucha": [
-          "s_10617953",
-          "s_4525880",
-          "s_758881",
-          "s_4477263",
-          "s_2796586",
-          "s_2315649",
-          "s_3306091",
-          "s_3828344"
-        ],
-        "prueba": [
-          "s_4473727",
-          "s_1324839",
-          "s_1003044",
-          "s_707287",
-          "s_5399318",
-          "s_719220"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_10617953",
-          "start": 3,
-          "end": 8,
-          "wrong": "pensiamo"
-        },
-        {
-          "id": "s_3440351",
-          "start": 3,
-          "end": 6,
-          "wrong": "amiamo"
-        },
-        {
-          "id": "s_2126345",
-          "start": 3,
-          "end": 6,
-          "wrong": "amiamo"
-        },
-        {
-          "id": "s_4525880",
-          "start": 3,
-          "end": 6,
-          "wrong": "amiamo"
-        }
-      ]
-    },
-    {
-      "id": "u15",
-      "level": "A1",
-      "title": "Verbos en -ere e -ire: leggo, dormo, finisco",
-      "goal_es": "Terminaciones de -ere (leggo, leggi, legge…) y de -ire, con -isc- en finire, capire, preferire.",
-      "codes": [
-        "ERR_PRESENT_ERE_IRE"
-      ],
-      "why_here": "Completa los dos grupos regulares tras los verbos en -are.",
-      "readings": [
-        "rd_tempolibero"
-      ],
-      "ficha_es": "Los verbos en -ere (leggere, vendere) hacen el presente con -o, -i, -e, -iamo, -ete, -ono: leggo, leggi, legge, leggiamo, leggete, leggono. Los en -ire (dormire) igual con -ite: dormo, dormi, dorme, dormiamo, dormite, dormono. Algunos -ire agregan -isc-: finire → finisco, finisci, finisce, finiamo, finite, finiscono.\n\nFíjate en el «noi» (-iamo) y en el «loro» (-ono) que son iguales en todos los grupos. El español tiene «-emos / -imos»: aquí es siempre -iamo.",
-      "status": "active",
-      "explanation_es": "Los verbos en -ere hacen -o, -i, -e, -iamo, -ete, -ono y los en -ire -o, -i, -e, -iamo, -ite, -ono (algunos añaden -isc-: finisco, finisci, finisce, finiamo, finite, finiscono). El español -es, -emos, -en, -imos no existe: leggi, leggiamo, leggono.",
-      "parts": {
-        "descubre": [
-          "s_2019943",
-          "s_2019957",
-          "s_1311899",
-          "s_2927168"
-        ],
-        "practica": [
-          "s_2019943",
-          "s_2019957",
-          "s_1311899",
-          "s_2927168",
-          "s_4465190",
-          "s_724510",
-          "s_960343",
-          "s_1324837",
-          "s_2019970",
-          "s_534944",
-          "s_4465222",
-          "s_1572986",
-          "s_3867801",
-          "s_4430302",
-          "s_3554225",
-          "s_3564577",
-          "s_714339",
-          "s_929180",
-          "s_1985431",
-          "s_3435223",
-          "s_3341513",
-          "s_2516185",
-          "s_5093561",
-          "s_993615",
-          "s_10831886",
-          "s_1018003",
-          "s_4356628",
-          "s_1993864"
-        ],
-        "escucha": [
-          "s_2019943",
-          "s_2927168",
-          "s_960343",
-          "s_534944",
-          "s_3867801",
-          "s_3564577",
-          "s_1985431",
-          "s_2516185"
-        ],
-        "prueba": [
-          "s_4465187",
-          "s_1872701",
-          "s_2681907",
-          "s_1073661",
-          "s_1664909",
-          "s_3202879"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_2019943",
-          "start": 4,
-          "end": 8,
-          "wrong": "vivono"
-        },
-        {
-          "id": "s_2019957",
-          "start": 4,
-          "end": 8,
-          "wrong": "vivono"
-        },
-        {
-          "id": "s_1311899",
-          "start": 4,
-          "end": 8,
-          "wrong": "vivono"
-        },
-        {
-          "id": "s_2927168",
-          "start": 4,
-          "end": 8,
-          "wrong": "aprono"
-        }
-      ]
-    },
-    {
-      "id": "u16",
-      "level": "A1",
-      "title": "Andare, fare, stare, venire: vado, faccio",
-      "goal_es": "Las formas irregulares más usadas: vado, faccio, sto, vengo, do, dico, so, esco.",
-      "codes": [
-        "ERR_PRESENT_IRREGULAR"
-      ],
-      "why_here": "Verbos de uso diario que no siguen la regla y se aprenden como bloques.",
-      "ficha_es": "Cuatro verbos muy usados e irregulares: andare (vado, vai, va, andiamo, andate, vanno), fare (faccio, fai, fa, facciamo, fate, fanno), stare (sto, stai, sta, stiamo, state, stanno), venire (vengo, vieni, viene, veniamo, venite, vengono).\n\nStare sirve para «estar» en la salud y en estar + gerundio (sto mangiando), y essere para el resto. Fare entra en muchas expresiones: fare colazione (desayunar), fare una doccia, fa caldo (hace calor).",
-      "readings": [
-        "rd_stasera"
-      ],
-      "status": "active",
-      "explanation_es": "Andare, fare, stare, venire, dare, dire, sapere y uscire son irregulares y no siguen la regla: vado, vai, va, andiamo, andate, vanno. Hay que aprender cada forma; la persona la marca la terminación, no solo el sujeto.",
-      "parts": {
-        "descubre": [
-          "s_529480",
-          "s_1687759",
-          "s_4204662",
-          "s_2968348"
-        ],
-        "practica": [
-          "s_529480",
-          "s_1687759",
-          "s_4204662",
-          "s_2968348",
-          "s_395876",
-          "s_2486027",
-          "s_5432019",
-          "s_717772",
-          "s_836586",
-          "s_2020811",
-          "s_1484065",
-          "s_2846518",
-          "s_520740",
-          "s_3473741",
-          "s_7730518",
-          "s_1554589",
-          "s_3133978",
-          "s_5692682",
-          "s_2016164",
-          "s_758758",
-          "s_1504380",
-          "s_1647793",
-          "s_1689003",
-          "s_3306088",
-          "s_10820356",
-          "s_4196837",
-          "s_1740706",
-          "s_7017591",
-          "s_1584459",
-          "s_3647103"
-        ],
-        "escucha": [
-          "s_529480",
-          "s_2968348",
-          "s_5432019",
-          "s_2020811",
-          "s_520740",
-          "s_1554589",
-          "s_2016164",
-          "s_1647793"
-        ],
-        "prueba": [
-          "s_1258226",
-          "s_2411939",
-          "s_1341750",
-          "s_7017593",
-          "s_4420703",
-          "s_3297612"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_529480",
-          "start": 3,
-          "end": 6,
-          "wrong": "sapete"
-        },
-        {
-          "id": "s_1687759",
-          "start": 3,
-          "end": 5,
-          "wrong": "sappiamo"
-        },
-        {
-          "id": "s_4204662",
-          "start": 7,
-          "end": 9,
-          "wrong": "sappiamo"
-        },
-        {
-          "id": "s_2968348",
-          "start": 3,
-          "end": 6,
-          "wrong": "stiamo"
-        }
-      ]
-    },
-    {
-      "id": "u17",
-      "level": "A1",
-      "title": "Volere, potere, dovere: voglio, posso, devo",
-      "goal_es": "Los tres modales irregulares y su uso con un infinitivo: voglio mangiare, posso venire, devo studiare.",
-      "codes": [
-        "ERR_PRESENT_MODAL"
-      ],
-      "why_here": "Con ellos ya se pueden pedir cosas, permisos y expresar obligación.",
-      "ficha_es": "Volere, potere y dovere (querer, poder, deber) van con infinitivo: voglio mangiare, posso venire, devo studiare. Presente: voglio, vuoi, vuole, vogliamo, volete, vogliono; posso, puoi, può, possiamo, potete, possono; devo, devi, deve, dobbiamo, dovete, devono.\n\nSon irregulares: aprende las formas de memoria. Ojo: «tengo que» se dice devo; «tener ganas de» es avere voglia di.",
-      "readings": [
-        "rd_festa"
-      ],
-      "status": "active",
-      "explanation_es": "Volere, potere y dovere son irregulares y muy frecuentes: voglio, vuoi, vuole, vogliamo, volete, vogliono / posso, puoi, può, possiamo, potete, possono / devo, devi, deve, dobbiamo, dovete, devono. Van con un infinitivo: voglio mangiare.",
-      "parts": {
-        "descubre": [
-          "s_7727081",
-          "s_4043175",
-          "s_2722184",
-          "s_812434"
-        ],
-        "practica": [
-          "s_7727081",
-          "s_4043175",
-          "s_2722184",
-          "s_812434",
-          "s_1233789",
-          "s_2762217",
-          "s_4703335",
-          "s_736718",
-          "s_7728791",
-          "s_5252118",
-          "s_2458199",
-          "s_1295792",
-          "s_1623104",
-          "s_2477543",
-          "s_3014754",
-          "s_1454035",
-          "s_1926329",
-          "s_4347362",
-          "s_7568042",
-          "s_1261696",
-          "s_2020912",
-          "s_3388037",
-          "s_14036523",
-          "s_2669986",
-          "s_1471842",
-          "s_3783839",
-          "s_3626019",
-          "s_4725368",
-          "s_5034579",
-          "s_5074038"
-        ],
-        "escucha": [
-          "s_7727081",
-          "s_812434",
-          "s_4703335",
-          "s_5252118",
-          "s_1623104",
-          "s_1454035",
-          "s_7568042",
-          "s_3388037"
-        ],
-        "prueba": [
-          "s_3847022",
-          "s_2574881",
-          "s_3485622",
-          "s_7727142",
-          "s_4915676",
-          "s_1547426"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_7727081",
-          "start": 3,
-          "end": 9,
-          "wrong": "vogliamo"
-        },
-        {
-          "id": "s_4043175",
-          "start": 3,
-          "end": 8,
-          "wrong": "possiamo"
-        },
-        {
-          "id": "s_2722184",
-          "start": 3,
-          "end": 9,
-          "wrong": "vogliamo"
-        },
-        {
-          "id": "s_812434",
-          "start": 3,
-          "end": 7,
-          "wrong": "volete"
-        }
-      ]
-    },
-    {
-      "id": "u36",
-      "level": "A1",
-      "title": "Vocabulario: tiempo libre",
-      "goal_es": "Calcio, musica, film, canzone, festa… y «giocare a calcio» (con «a»).",
-      "codes": [
-        "ERR_VOC_TEMPOLIBERO"
-      ],
-      "why_here": "Contar qué haces en tu tiempo libre con los verbos de presente.",
-      "ficha_es": "Tiempo libre: il calcio, il tennis, la musica, il film, la canzone, la festa, il concerto, la passeggiata, le vacanze. Con giocare se dice giocare a calcio, a tennis (con «a»); con suonare, suonare la chitarra, il pianoforte (con artículo).\n\n«Film», «sport» y «hobby» no cambian en plural (i film, gli sport). Una passeggiata es un paseo; fare una passeggiata, «dar un paseo».",
-      "readings": [
-        "rd_passatempi"
-      ],
-      "words": [
-        {
-          "form": "calcio",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el fútbol",
-          "audio": "11b77325b222",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "tennis",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el tenis",
-          "audio": "9c881bdb6bc9",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "partita",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el partido",
-          "audio": "e4453e40f907",
-          "art": "la",
-          "gdiv": true,
-          "sieve": "opaca"
-        },
-        {
-          "form": "squadra",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el equipo",
-          "audio": "4149cb8ad976",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "musica",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la música",
-          "audio": "ea425b7fc146",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "film",
-          "gender": "m",
-          "num": "s",
-          "gloss": "la película",
-          "audio": "ad363a93848b",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "canzone",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la canción",
-          "audio": "c0cad84edf01",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "cion-zione"
-        },
-        {
-          "form": "passeggiata",
-          "gender": "f",
-          "num": "s",
-          "gloss": "el paseo",
-          "audio": "cbb1fd07ccf1",
-          "art": "la",
-          "sieve": "opaca"
-        },
-        {
-          "form": "vacanze",
-          "gender": "f",
-          "num": "p",
-          "gloss": "las vacaciones",
-          "audio": "2b0b1a4e7904",
-          "art": "le",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "vacaciones→vacanze: -ciones→-nze"
-        },
-        {
-          "form": "festa",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la fiesta",
-          "audio": "00c42ebe0aab",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "ie-e"
-        },
-        {
-          "form": "concerto",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el concierto",
-          "audio": "26b7eb0d481f",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "pallone",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el balón",
-          "audio": "b48ed6f64fb1",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "sport",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el deporte",
-          "audio": "8ab6a8a0cf06",
-          "art": "lo",
-          "sieve": "opaca"
-        },
-        {
-          "form": "stadio",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el estadio",
-          "audio": "ddbe75e07d5b",
-          "art": "lo",
-          "sieve": "transparente"
-        },
-        {
-          "form": "sci",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el esquí",
-          "audio": "d39590e8cade",
-          "art": "lo",
-          "sieve": "transparente"
-        },
-        {
-          "form": "ciclismo",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el ciclismo",
-          "audio": "a66e4087a52a",
-          "art": "il",
-          "sieve": "transparente"
-        },
-        {
-          "form": "hobby",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el pasatiempo",
-          "audio": "54b7e849c6d2",
-          "art": "l'",
-          "sieve": "opaca"
-        },
-        {
-          "form": "giornale",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el diario",
-          "audio": "acd0a761ddef",
-          "art": "il",
-          "sieve": "opaca"
-        },
-        {
-          "form": "rivista",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la revista",
-          "audio": "6a44be50e12a",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "fotografia",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la fotografía",
-          "audio": "b013004fe1f6",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "pittura",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la pintura",
-          "audio": "7d41c5685e7d",
-          "art": "la",
-          "sieve": "transparente"
-        },
-        {
-          "form": "chitarra",
-          "gender": "f",
-          "num": "s",
-          "gloss": "la guitarra",
-          "audio": "34492d9d31c8",
-          "art": "la",
-          "sieve": "regular",
-          "rule": "otro",
-          "note": "gu→ch: guitarra/chitarra"
-        },
-        {
-          "form": "pianoforte",
-          "gender": "m",
-          "num": "s",
-          "gloss": "el piano",
-          "audio": "76e5ff7c3beb",
-          "art": "il",
-          "sieve": "transparente"
-        }
-      ],
-      "status": "active",
-      "explanation_es": "Calcio, tennis, musica, film, canzone, festa, concerto… Con «giocare» se dice «giocare a calcio, a tennis» (con «a»). Film, sport y hobby no cambian en plural (i film, gli sport).",
-      "parts": {
-        "descubre": [
-          "s_5766148",
-          "s_858099",
-          "s_4739616",
-          "s_1137563"
-        ],
-        "practica": [
-          "s_5766148",
-          "s_858099",
-          "s_4739616",
-          "s_1137563",
-          "s_5284250",
-          "s_350296",
-          "s_819785",
-          "s_373819",
-          "s_399112",
-          "s_1079844",
-          "s_1551257",
-          "s_359410",
-          "s_11963774",
-          "s_373964",
-          "s_379635",
-          "s_637221",
-          "s_383033",
-          "s_938030",
-          "s_4984431",
-          "s_571363",
-          "s_878860",
-          "s_1541088",
-          "s_1309894",
-          "s_373822",
-          "s_2694982"
-        ],
-        "escucha": [
-          "s_5766148",
-          "s_1137563",
-          "s_819785",
-          "s_1079844",
-          "s_11963774",
-          "s_637221",
-          "s_4984431",
-          "s_1541088"
-        ],
-        "prueba": [
-          "s_373505",
-          "s_962438",
-          "s_1547493",
-          "s_373508",
-          "s_1494553",
-          "s_2780694"
-        ]
-      },
-      "divergences": [
-        {
-          "id": "s_5766148",
-          "start": 13,
-          "end": 18,
-          "wrong": "chitarra"
-        },
-        {
-          "id": "s_858099",
-          "start": 12,
-          "end": 18,
-          "wrong": "hobby"
-        },
-        {
-          "id": "s_4739616",
-          "start": 11,
-          "end": 19,
-          "wrong": "partita"
-        },
-        {
-          "id": "s_1137563",
-          "start": 11,
-          "end": 21,
-          "wrong": "musica"
         }
       ]
     },
@@ -6324,6 +5467,317 @@
       ]
     },
     {
+      "id": "u36",
+      "level": "A1",
+      "title": "Vocabulario: tiempo libre",
+      "goal_es": "Calcio, musica, film, canzone, festa… y «giocare a calcio» (con «a»).",
+      "codes": [
+        "ERR_VOC_TEMPOLIBERO"
+      ],
+      "why_here": "Contar qué haces en tu tiempo libre con los verbos de presente.",
+      "ficha_es": "Tiempo libre: il calcio, il tennis, la musica, il film, la canzone, la festa, il concerto, la passeggiata, le vacanze. Con giocare se dice giocare a calcio, a tennis (con «a»); con suonare, suonare la chitarra, il pianoforte (con artículo).\n\n«Film», «sport» y «hobby» no cambian en plural (i film, gli sport). Una passeggiata es un paseo; fare una passeggiata, «dar un paseo».",
+      "readings": [
+        "rd_passatempi"
+      ],
+      "words": [
+        {
+          "form": "calcio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el fútbol",
+          "audio": "11b77325b222",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "tennis",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el tenis",
+          "audio": "9c881bdb6bc9",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "partita",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el partido",
+          "audio": "e4453e40f907",
+          "art": "la",
+          "gdiv": true,
+          "sieve": "opaca"
+        },
+        {
+          "form": "squadra",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el equipo",
+          "audio": "4149cb8ad976",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "musica",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la música",
+          "audio": "ea425b7fc146",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "film",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la película",
+          "audio": "ad363a93848b",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "canzone",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la canción",
+          "audio": "c0cad84edf01",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "cion-zione"
+        },
+        {
+          "form": "passeggiata",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el paseo",
+          "audio": "cbb1fd07ccf1",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "vacanze",
+          "gender": "f",
+          "num": "p",
+          "gloss": "las vacaciones",
+          "audio": "2b0b1a4e7904",
+          "art": "le",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "vacaciones→vacanze: -ciones→-nze"
+        },
+        {
+          "form": "festa",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la fiesta",
+          "audio": "00c42ebe0aab",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "ie-e"
+        },
+        {
+          "form": "concerto",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el concierto",
+          "audio": "26b7eb0d481f",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "pallone",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el balón",
+          "audio": "b48ed6f64fb1",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "sport",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el deporte",
+          "audio": "8ab6a8a0cf06",
+          "art": "lo",
+          "sieve": "opaca"
+        },
+        {
+          "form": "stadio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el estadio",
+          "audio": "ddbe75e07d5b",
+          "art": "lo",
+          "sieve": "transparente"
+        },
+        {
+          "form": "sci",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el esquí",
+          "audio": "d39590e8cade",
+          "art": "lo",
+          "sieve": "transparente"
+        },
+        {
+          "form": "ciclismo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el ciclismo",
+          "audio": "a66e4087a52a",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "hobby",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el pasatiempo",
+          "audio": "54b7e849c6d2",
+          "art": "l'",
+          "sieve": "opaca"
+        },
+        {
+          "form": "giornale",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el diario",
+          "audio": "acd0a761ddef",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "rivista",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la revista",
+          "audio": "6a44be50e12a",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "fotografia",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la fotografía",
+          "audio": "b013004fe1f6",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "pittura",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la pintura",
+          "audio": "7d41c5685e7d",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "chitarra",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la guitarra",
+          "audio": "34492d9d31c8",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "gu→ch: guitarra/chitarra"
+        },
+        {
+          "form": "pianoforte",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el piano",
+          "audio": "76e5ff7c3beb",
+          "art": "il",
+          "sieve": "transparente"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Calcio, tennis, musica, film, canzone, festa, concerto… Con «giocare» se dice «giocare a calcio, a tennis» (con «a»). Film, sport y hobby no cambian en plural (i film, gli sport).",
+      "parts": {
+        "descubre": [
+          "s_5766148",
+          "s_858099",
+          "s_4739616",
+          "s_1137563"
+        ],
+        "practica": [
+          "s_5766148",
+          "s_858099",
+          "s_4739616",
+          "s_1137563",
+          "s_5284250",
+          "s_350296",
+          "s_819785",
+          "s_373819",
+          "s_399112",
+          "s_1079844",
+          "s_1551257",
+          "s_359410",
+          "s_11963774",
+          "s_373964",
+          "s_379635",
+          "s_637221",
+          "s_383033",
+          "s_938030",
+          "s_4984431",
+          "s_571363",
+          "s_878860",
+          "s_1541088",
+          "s_1309894",
+          "s_373822",
+          "s_2694982"
+        ],
+        "escucha": [
+          "s_5766148",
+          "s_1137563",
+          "s_819785",
+          "s_1079844",
+          "s_11963774",
+          "s_637221",
+          "s_4984431",
+          "s_1541088"
+        ],
+        "prueba": [
+          "s_373505",
+          "s_962438",
+          "s_1547493",
+          "s_373508",
+          "s_1494553",
+          "s_2780694"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_5766148",
+          "start": 13,
+          "end": 18,
+          "wrong": "chitarra"
+        },
+        {
+          "id": "s_858099",
+          "start": 12,
+          "end": 18,
+          "wrong": "hobby"
+        },
+        {
+          "id": "s_4739616",
+          "start": 11,
+          "end": 19,
+          "wrong": "partita"
+        },
+        {
+          "id": "s_1137563",
+          "start": 11,
+          "end": 21,
+          "wrong": "musica"
+        }
+      ]
+    },
+    {
       "id": "u56",
       "level": "A1",
       "title": "Rutina diaria: mi sveglio, ti alzi (reflexivos)",
@@ -6426,6 +5880,283 @@
           "start": 3,
           "end": 5,
           "wrong": "me"
+        }
+      ]
+    },
+    {
+      "id": "u63",
+      "level": "A1",
+      "title": "Sonidos: gn y z (gnocchi, pizza, grazie)",
+      "goal_es": "Gn suena como la ñ pero se escribe gn; la z suena [ts] o [dz] y no es «s» ni «c».",
+      "codes": [
+        "ERR_GN_Z_SPELLING"
+      ],
+      "why_here": "Los sonidos que el español escribe distinto (gn, z), con palabras de comida y casa que ya conoces.",
+      "ficha_es": "El grupo gn suena como la ñ española: gnocchi se pronuncia «ñoqui», lasagne «lasaña», bagno «baño». Se escribe siempre gn, nunca ñ.\\n\\nLa z italiana suena [ts] (pizza, grazie, zio con [dz]): se parece a «ts», no a la «z» española de España ni a una simple «s». No se escribe «c» ante e, i: grazie, pazienza (no «gracie», no «pacienza»). La doble zz es más larga: pizza, no «piza». En esta unidad escuchas una frase y eliges cómo se escribe. La voz es sintética: sus fonemas se comprobaron (gn → ɲ, z → ts/dz), pero un nativo no la verificó.",
+      "words": [
+        {
+          "form": "gnocchi",
+          "gender": "m",
+          "num": "p",
+          "gloss": "los ñoquis",
+          "audio": "943c80744f8b",
+          "art": "gli",
+          "sieve": "regular",
+          "rule": "n-gn"
+        },
+        {
+          "form": "lasagne",
+          "gender": "f",
+          "num": "p",
+          "gloss": "las lasañas",
+          "audio": "7d48c5efcc20",
+          "art": "le",
+          "sieve": "regular",
+          "rule": "n-gn"
+        },
+        {
+          "form": "bagno",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el baño",
+          "audio": "3d35ceeafd25",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "n-gn"
+        },
+        {
+          "form": "signora",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la señora",
+          "audio": "0623f9369249",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "n-gn"
+        },
+        {
+          "form": "ogni",
+          "gender": "x",
+          "num": "x",
+          "gloss": "cada",
+          "audio": "4b1afd33ccff",
+          "sieve": "opaca"
+        },
+        {
+          "form": "insegnante",
+          "gender": "x",
+          "num": "x",
+          "gloss": "el profesor",
+          "audio": "0b93df7691d4",
+          "sieve": "opaca"
+        },
+        {
+          "form": "pizza",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la pizza",
+          "audio": "1f6ccd2be75f",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "grazie",
+          "gender": "x",
+          "num": "x",
+          "gloss": "gracias",
+          "audio": "bd57224e34ea",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "gracias→grazie (c→z, -ias→-ie)"
+        },
+        {
+          "form": "zio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el tío",
+          "audio": "c62e58500094",
+          "art": "lo",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "tía/tío→zia/zio: t→z"
+        },
+        {
+          "form": "zucchero",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el azúcar",
+          "audio": "962ff646e3a0",
+          "art": "lo",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "azúcar→zucchero: z/c→zz/cch, -ar→-ero"
+        },
+        {
+          "form": "nazione",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la nación",
+          "audio": "50a2008fd882",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "cion-zione"
+        },
+        {
+          "form": "stazione",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la estación",
+          "audio": "83a64c73a666",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "cion-zione"
+        },
+        {
+          "form": "pazienza",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la paciencia",
+          "audio": "41b111e71c0c",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "ragazzo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el chico",
+          "audio": "e4a17010b05a",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "spagnolo",
+          "gender": "x",
+          "num": "x",
+          "gloss": "español",
+          "audio": "dbc2918e9044",
+          "sieve": "regular",
+          "rule": "n-gn"
+        },
+        {
+          "form": "montagna",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la montaña",
+          "audio": "2af00479029a",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "n-gn"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "El grupo gn suena como la ñ española (gnocchi = ñoqui, lasagne, bagno, signora) y se escribe gn, no ñ. La z suena [ts] o [dz] (pizza, grazie, zio): no se pronuncia como la «z» española de España ni como una simple «s», y no se escribe «c» ante e, i (grazie, no «gracie»). La doble zz es más larga (pizza, no «piza»).",
+      "parts": {
+        "descubre": [
+          "s_1358794",
+          "s_1110071",
+          "s_3287523",
+          "s_2611941"
+        ],
+        "practica": [
+          "s_1358794",
+          "s_1110071",
+          "s_3287523",
+          "s_2611941",
+          "s_812801",
+          "s_470141",
+          "s_7872410",
+          "s_1068397",
+          "s_1520685",
+          "s_3162320",
+          "s_4226433",
+          "s_809576",
+          "s_1100345",
+          "s_2795476",
+          "s_1142101",
+          "s_380207",
+          "s_388508",
+          "s_861024",
+          "s_1246289",
+          "s_13227736",
+          "s_1831112",
+          "s_5370137",
+          "s_1472973",
+          "s_2514188",
+          "s_825688",
+          "s_7430249",
+          "s_753335",
+          "s_7596197",
+          "s_840725",
+          "s_11969548",
+          "s_1275229",
+          "s_1497492",
+          "s_1517492",
+          "s_2571151",
+          "s_7116253",
+          "s_1512102",
+          "s_3860643",
+          "s_2832611",
+          "s_6879111",
+          "s_1426795",
+          "s_1539200",
+          "s_388801",
+          "s_1317111",
+          "s_2835002",
+          "s_4121756",
+          "s_4541826",
+          "s_6458851",
+          "s_6830490",
+          "s_1083035",
+          "s_7104179",
+          "s_378697",
+          "s_534955",
+          "s_6301373",
+          "s_3220250"
+        ],
+        "escucha": [
+          "s_1358794",
+          "s_7872410",
+          "s_1100345",
+          "s_1246289",
+          "s_825688",
+          "s_1275229",
+          "s_3860643",
+          "s_1317111"
+        ],
+        "prueba": [
+          "s_1310171",
+          "s_626954",
+          "s_1017019",
+          "s_2560883",
+          "s_634292",
+          "s_2052028"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1358794",
+          "start": 9,
+          "end": 14,
+          "wrong": "soño"
+        },
+        {
+          "id": "s_1110071",
+          "start": 10,
+          "end": 15,
+          "wrong": "soño"
+        },
+        {
+          "id": "s_3287523",
+          "start": 11,
+          "end": 18,
+          "wrong": "bisoño"
+        },
+        {
+          "id": "s_2611941",
+          "start": 9,
+          "end": 19,
+          "wrong": "policiotto"
         }
       ]
     },
@@ -7830,6 +7561,275 @@
           "start": 14,
           "end": 17,
           "wrong": "là"
+        }
+      ]
+    },
+    {
+      "id": "u64",
+      "level": "A1",
+      "title": "Consonantes dobles (fato / fatto, sete / sette)",
+      "goal_es": "Las consonantes dobles se pronuncian más largas y cambian el significado: fato / fatto, caro / carro, pala / palla.",
+      "codes": [
+        "ERR_CONSONANTE_DOPPIA"
+      ],
+      "why_here": "Cierra los sonidos de A1: la diferencia de duración que el español casi no usa.",
+      "ficha_es": "En italiano las consonantes dobles no son un detalle de ortografía: se pronuncian más largas y cambian el sentido. Fato es el destino y fatto es «hecho»; sete es «sed» y sette es «siete»; pala es la pala y palla es la pelota; caro es «querido» y carro es «carro».\\n\\nPara decir la doble se mantiene el cierre de la consonante casi el doble de tiempo (t, p, c, l, n, m, r, b, d, g). Medimos la voz sintética Serena con pares mínimos: alarga el cierre de las oclusivas entre 1,5 y 3,5 veces y también las nasales y la l; no lo hace bien con la «ss», por eso esta unidad no la incluye. Practicas escuchando y eligiendo cómo se escribe; no se mide tu pronunciación y un nativo no ha verificado el audio.",
+      "words": [
+        {
+          "form": "fato",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el destino",
+          "audio": "c4dc7117a29f",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "fatto",
+          "gender": "x",
+          "num": "x",
+          "gloss": "hecho",
+          "audio": "0e596a8dcc01",
+          "sieve": "regular",
+          "rule": "ch-tt"
+        },
+        {
+          "form": "sete",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la sed",
+          "audio": "0f961cd8aca6",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "d final→t con -e: sed→sete"
+        },
+        {
+          "form": "sette",
+          "gender": "x",
+          "num": "x",
+          "gloss": "siete",
+          "audio": "6824e8afca7c",
+          "sieve": "regular",
+          "rule": "ie-e"
+        },
+        {
+          "form": "pala",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la pala",
+          "audio": "95213d57ff5c",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "palla",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la pelota",
+          "audio": "4d90834b94d5",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "caro",
+          "gender": "x",
+          "num": "x",
+          "gloss": "querido, caro",
+          "audio": "732849d5bc94",
+          "sieve": "transparente"
+        },
+        {
+          "form": "carro",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el carro",
+          "audio": "3959fc6166e0",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "pena",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la pena",
+          "audio": "b96ab516bf07",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "penna",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el bolígrafo",
+          "audio": "87a98fc469e6",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "nono",
+          "gender": "x",
+          "num": "x",
+          "gloss": "noveno",
+          "audio": "a00191c82379",
+          "sieve": "transparente"
+        },
+        {
+          "form": "nonno",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el abuelo",
+          "audio": "d44b27aaa9a8",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "mamma",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la mamá",
+          "audio": "916c014031a7",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "bello",
+          "gender": "x",
+          "num": "x",
+          "gloss": "hermoso",
+          "audio": "c3240b9898ae",
+          "sieve": "transparente"
+        },
+        {
+          "form": "cappello",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el sombrero",
+          "audio": "ffc8d46bc706",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "tutto",
+          "gender": "x",
+          "num": "x",
+          "gloss": "todo",
+          "audio": "5662716a1a81",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "todo→tutto: o→u y t doble"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "En italiano las consonantes dobles se pronuncian más largas y cambian el significado: fato (destino) / fatto (hecho), sete (sed) / sette (siete), pala (pala) / palla (pelota), caro (querido) / carro (carro), pena / penna. Hay que mantener el cierre de la t, p, c, l, n, m, r, b, d y g más tiempo (casi el doble). En la app esta unidad practica las que la voz sintética pronuncia bien; no incluye la «ss» ni la «zz».",
+      "parts": {
+        "descubre": [
+          "s_1446016",
+          "s_963675",
+          "s_4243177",
+          "s_1221730"
+        ],
+        "practica": [
+          "s_1446016",
+          "s_963675",
+          "s_4243177",
+          "s_1221730",
+          "s_373873",
+          "s_4333778",
+          "s_4562309",
+          "s_4541",
+          "s_2701565",
+          "s_350994",
+          "s_1451644",
+          "s_3237227",
+          "s_3375596",
+          "s_3796401",
+          "s_3796402",
+          "s_4641",
+          "s_5133701",
+          "s_1701522",
+          "s_3363404",
+          "s_374039",
+          "s_378681",
+          "s_499903",
+          "s_8672395",
+          "s_13339312",
+          "s_1592254",
+          "s_2702073",
+          "s_14037442",
+          "s_4503103",
+          "s_511252",
+          "s_8890732",
+          "s_375662",
+          "s_391177",
+          "s_4480656",
+          "s_634288",
+          "s_11571774",
+          "s_1389686",
+          "s_1966458",
+          "s_5190524",
+          "s_623376",
+          "s_651073",
+          "s_1310172",
+          "s_735474",
+          "s_2917325",
+          "s_2090461",
+          "s_2887453",
+          "s_4989467",
+          "s_5991669",
+          "s_6463372",
+          "s_1701472",
+          "s_691722",
+          "s_930244",
+          "s_948967",
+          "s_996844",
+          "s_5654821",
+          "s_643191",
+          "s_4636276"
+        ],
+        "escucha": [
+          "s_1446016",
+          "s_4541",
+          "s_3796402",
+          "s_499903",
+          "s_511252",
+          "s_1389686",
+          "s_2917325",
+          "s_691722"
+        ],
+        "prueba": [
+          "s_2362996",
+          "s_1193498",
+          "s_693925",
+          "s_7766399",
+          "s_520926",
+          "s_758824"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1446016",
+          "start": 11,
+          "end": 18,
+          "wrong": "corere"
+        },
+        {
+          "id": "s_963675",
+          "start": 9,
+          "end": 19,
+          "wrong": "giocatolo"
+        },
+        {
+          "id": "s_4243177",
+          "start": 14,
+          "end": 20,
+          "wrong": "piati"
+        },
+        {
+          "id": "s_1221730",
+          "start": 14,
+          "end": 21,
+          "wrong": "dolari"
         }
       ]
     },
