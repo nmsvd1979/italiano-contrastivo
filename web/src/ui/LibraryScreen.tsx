@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import type { ContentPack, Resource, ResourceKind } from "../content/load";
-import { currentView, unitViews } from "../state/course";
+import { currentView } from "../state/course";
+import { moduleViews } from "../state/modules";
 import { KIND_LABEL, kindsIn, LANG_LABEL, LEVEL_FILTERS, type LevelFilter, pick } from "../state/library";
 import { addDaySeconds, STRAND_LABEL } from "../state/strands";
 import type { Store } from "../state/store";
@@ -18,7 +19,7 @@ export function LibraryScreen({ pack, store }: { pack: ContentPack; store: Store
   const [logged, setLogged] = useState<Record<string, number>>({});
   useEffect(() => { // por defecto, el nivel de la unidad en la que vas
     store.allUnits().then((u) => {
-      const cur = currentView(unitViews(pack.course, u))?.unit.level.replace("+", "") as LevelFilter | undefined;
+      const cur = currentView(moduleViews(pack.course, u).units)?.unit.level.replace("+", "") as LevelFilter | undefined;
       if (cur && LEVEL_FILTERS.includes(cur)) setLevel(cur);
     }).catch(() => undefined);
   }, [pack, store]);

@@ -11,7 +11,10 @@ const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code
 const U1 = pack.course.units[0].id;
 const NOW = new Date("2026-11-18T12:00:00.000Z");
 const day: DayProgress = { date: "2026-11-18", reviewsDone: 0, capsulesDone: [] };
-const sessionFor = (units = [] as ReturnType<typeof emptyProgress>[], d: DayProgress = day) =>
+const M1 = pack.course.modules![0].id;
+// Con la Entrada del primer módulo hecha, la primera cápsula es la actual; si no, «Hoy» propone la Entrada.
+const entradaHecha = { ...emptyProgress(`mod:${M1}`), done: { entrada: NOW.toISOString() } };
+const sessionFor = (units = [entradaHecha] as ReturnType<typeof emptyProgress>[], d: DayProgress = day) =>
   planSession({ plan: planToday({ pack, cards: [], day: d, now: NOW, units }), day: d, pack });
 
 describe("sesión de hoy", () => {
@@ -38,6 +41,13 @@ describe("sesión de hoy", () => {
   });
   it("sin unidades por hacer solo queda el repaso", () => {
     const all = pack.course.units.map((u: { id: string }) => STEPS.reduce((p, s) => markStep({ ...p, completed: true }, s, NOW), emptyProgress(u.id)));
-    expect(sessionFor(all).map((b) => b.key)).toEqual(["repaso"]);
+    const mods = pack.course.modules!.map((m) => ({ ...emptyProgress(`mod:${m.id}`), completed: true }));   // y todos los módulos cerrados
+    expect(sessionFor([...all, ...mods]).map((b) => b.key)).toEqual(["repaso"]);
+  });
+  it("al empezar (sin Entrada hecha) la sesión propone la Entrada del primer módulo", () => {
+    const b = sessionFor([]);
+    expect(b.map((x) => x.key)).toEqual(["repaso", "lectura"]);
+    expect(b[1]).toMatchObject({ href: `#/modulo/${M1}/entrada`, done: false });
+    expect(b[1].subtitle).toContain("Entrada");
   });
 });

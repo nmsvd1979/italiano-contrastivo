@@ -55,8 +55,7 @@
         "ph_piacere"
       ],
       "library": "forvo",
-      "library_task_es": "Escucha cómo suenan tu nombre y el de tus conocidos en Forvo y repítelos.",
-      "gap_es": "Sin tarea oral propia (la de «Mi presento» está en el módulo 2)."
+      "library_task_es": "Escucha cómo suenan tu nombre y el de tus conocidos en Forvo y repítelos."
     },
     {
       "id": "m02",
@@ -65,11 +64,13 @@
       "can_do_es": [
         "Decir de dónde eres y dónde vives.",
         "Decir tu edad y tu dirección con los números.",
+        "Usar los verbos en -are para decir dónde vives, qué hablas y qué haces (parlo, abito).",
         "Deletrear tu nombre con el alfabeto italiano.",
         "Dar tus datos cuando te los piden con «Lei»."
       ],
       "units": [
         "u45",
+        "u14",
         "u26",
         "u54",
         "u55"
@@ -138,8 +139,7 @@
       ],
       "phrase_groups": [],
       "library": "piacere",
-      "library_task_es": "Lee en Piacere! un capítulo corto sobre la familia y marca los posesivos.",
-      "gap_es": "Sin juego de roles propio."
+      "library_task_es": "Lee en Piacere! un capítulo corto sobre la familia y marca los posesivos."
     },
     {
       "id": "m05",
@@ -152,7 +152,6 @@
         "Hablar de tu día con verbos reflexivos."
       ],
       "units": [
-        "u14",
         "u15",
         "u25",
         "u59",
@@ -166,8 +165,7 @@
       ],
       "phrase_groups": [],
       "library": "leggiamo",
-      "library_task_es": "Lee en Leggiamo el capítulo de la rutina y subraya los verbos reflexivos.",
-      "gap_es": "Sin juego de roles propio."
+      "library_task_es": "Lee en Leggiamo el capítulo de la rutina y subraya los verbos reflexivos."
     },
     {
       "id": "m06",
@@ -193,8 +191,7 @@
       "tasks": [],
       "phrase_groups": [],
       "library": "tutti-a-tavola",
-      "library_task_es": "Lee en Tutt* a tavola! la sección de pasatiempos y cuenta tus planes en voz alta.",
-      "gap_es": "Sin tarea oral propia."
+      "library_task_es": "Lee en Tutt* a tavola! la sección de pasatiempos y cuenta tus planes en voz alta."
     },
     {
       "id": "m07",

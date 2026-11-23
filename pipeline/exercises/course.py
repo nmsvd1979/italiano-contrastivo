@@ -127,6 +127,16 @@ def build_course(sentences: list[dict], catalog: dict[str, dict]) -> dict:
                       "divergences": [_divergence(code, by_id[i]) for i in parts["descubre"]]})
     active = {u["id"] for u in units}
     modules = [{**m, "units": [x for x in m["units"] if x in active]} for m in raw.get("modules", [])]  # una unidad que baja a `planned` sale de su módulo (nunca se inventa)
+    # La ruta sigue el orden de los módulos: las unidades de módulos ocupan, en ese orden, los mismos huecos que tenían en la lista.
+    position = {u: i for i, u in enumerate(x for m in modules for x in m["units"])}
+    slots = [i for i, u in enumerate(units) if u["id"] in position]
+    ordered = sorted((units[i] for i in slots), key=lambda u: position[u["id"]])
+    for i, u in zip(slots, ordered):
+        units[i] = u
+    entry = {x: m["entry_reading"] for m in modules for x in m["units"]}
+    for u in units:  # si la lectura de la unidad es el texto de entrada de su módulo, el paso «Lectura» no se repite en la unidad
+        if u.get("readings") and u["readings"][0] == entry.get(u["id"]):
+            u["reading_is_entry"] = True
     return {"version": raw["version"], "levels": raw["levels"], "modules": modules, "units": units, "planned": planned}
 
 

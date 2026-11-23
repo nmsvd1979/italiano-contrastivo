@@ -4,17 +4,19 @@ import { stepSeconds } from "../state/steps";
 import { formatDuration, loadSamples } from "../state/timing";
 import { hitoId, milestoneOpen } from "../state/milestone";
 import { isPreview } from "../state/preview";
+import { MODULE_STEP_LABEL, moduleSummary, type ModuleView } from "../state/modules";
 
 const ICON = { completed: "✓", current: "▶", locked: "🔒" } as const;
 
-export function RouteScreen({ views, pack, hito }: { views: UnitView[]; pack: ContentPack; hito?: Record<string, { completed: boolean; best: number | null }> }) {
+export function RouteScreen({ views, pack, hito, modules = [] }: { views: UnitView[]; pack: ContentPack; hito?: Record<string, { completed: boolean; best: number | null }>; modules?: ModuleView[] }) {
   const { done, total } = summary(views);
+  const ms = moduleSummary(modules);
   const samples = loadSamples();
   return (
     <main>
       <h1>Tu ruta</h1>
-      <p>{done} de {total} unidades completadas. Cada unidad tiene varios pasos; la siguiente se abre cuando apruebas la prueba (80 % o más).</p>
-      <progress max={total} value={done} aria-label="Unidades completadas" />
+      <p>{modules.length ? `${ms.done} de ${ms.total} módulos completados (${done} de ${total} cápsulas). ` : `${done} de ${total} unidades completadas. `}{modules.length ? "Cada módulo es una situación: entras con un texto real, estudias sus cápsulas, produces tú (hablas y escribes), ganas fluidez y cierras con una prueba (80 % o más)." : "Cada unidad tiene varios pasos; la siguiente se abre cuando apruebas la prueba (80 % o más)."}</p>
+      <progress max={modules.length ? ms.total : total} value={modules.length ? ms.done : done} aria-label={modules.length ? "Módulos completados" : "Unidades completadas"} />
       {pack.course.levels.map((level) => {
         const units = views.filter((v) => v.unit.level === level.id);
         const planned = pack.course.planned.filter((p) => p.level === level.id);
@@ -24,11 +26,25 @@ export function RouteScreen({ views, pack, hito }: { views: UnitView[]; pack: Co
             <div className="level-head"><h2>{level.title}</h2></div>
             <p><small>
               En la app hoy: {units.length} {units.length === 1 ? "unidad" : "unidades"}
-              {units.length ? ` (≈ ${formatDuration(units.reduce((t, v) => t + stepsFor(v.unit).reduce((a, s) => a + stepSeconds(v.unit, s, pack, samples), 0), 0))} de pasos según tiempos supuestos que se ajustan a los tuyos; sin contar repasos)` : ""}.
+              {units.length ? ` (${formatDuration(units.reduce((t, v) => t + stepsFor(v.unit).reduce((a, s) => a + stepSeconds(v.unit, s, pack, samples), 0), 0))} de pasos según tiempos supuestos que se ajustan a los tuyos; sin contar repasos)` : ""}.
               Referencia general (blogs de academias, no un dato medido) para llegar al nivel: {level.guided_hours}.
             </small></p>
             <ul className="path">
-              {units.map((v) => (
+              {level.id === "A1" && modules.length > 0 && modules.map((m) => (
+                <li key={m.module.id} data-state={m.state}>
+                  <span className="node" aria-hidden="true">{ICON[m.state]}</span>
+                  <span className="label">
+                    {m.state === "locked" ? <strong>{m.module.title}</strong> : <a href={`#/modulo/${m.module.id}`}><strong>{m.index + 1}. {m.module.title}</strong></a>}
+                    <small>
+                      {m.state === "completed" ? `Completado${m.byPlacement ? " (por la prueba de ubicación)" : ""}`
+                        : m.state === "current" ? `Siguiente: ${m.next ? MODULE_STEP_LABEL[m.next] : "—"} · ${m.units.filter((u) => u.progress.completed).length} de ${m.units.length} cápsulas`
+                        : "Se abre al completar el módulo anterior"}
+                    </small>
+                    <small>{m.module.can_do_es[0]}</small>
+                  </span>
+                </li>
+              ))}
+              {!(level.id === "A1" && modules.length > 0) && units.map((v) => (
                 <li key={v.unit.id} data-state={v.state}>
                   <span className="node" aria-hidden="true">{ICON[v.state]}</span>
                   <span className="label">
@@ -43,14 +59,14 @@ export function RouteScreen({ views, pack, hito }: { views: UnitView[]; pack: Co
               ))}
               {level.id === "A1" && units.length > 0 && (() => {
                 const done = new Set(views.filter((v) => v.state === "completed").map((v) => v.unit.id));
-                const open = milestoneOpen(pack, done, "A1", isPreview());
+                const open = modules.length ? modules.every((m) => m.state === "completed") || isPreview() : milestoneOpen(pack, done, "A1", isPreview());
                 const h = hito?.[hitoId("A1")];
                 return (
                   <li data-state={h?.completed ? "completed" : open ? "current" : "locked"}>
                     <span className="node" aria-hidden="true">{h?.completed ? "★" : open ? "★" : "🔒"}</span>
                     <span className="label">
                       {open ? <a href="#/hito/A1"><strong>Examen de hito A1</strong></a> : <strong>Examen de hito A1</strong>}
-                      <small>{h?.completed ? `Aprobado${h.best !== null ? ` (${Math.round(h.best * 100)} %)` : ""}` : open ? "Listo: 40 preguntas de todo A1" : "Se abre al completar todas las unidades de A1"}</small>
+                      <small>{h?.completed ? `Aprobado${h.best !== null ? ` (${Math.round(h.best * 100)} %)` : ""}` : open ? "Listo: 40 preguntas de todo A1" : "Se abre al completar todos los módulos de A1"}</small>
                     </span>
                   </li>
                 );
@@ -65,6 +81,12 @@ export function RouteScreen({ views, pack, hito }: { views: UnitView[]; pack: Co
           </section>
         );
       })}
+      <section aria-label="Práctica libre">
+        <h2>Práctica libre</h2>
+        <p><small>Para practicar por tu cuenta cuando quieras, fuera del orden de los módulos. Dentro de cada módulo ya hay una Salida obligatoria que usa estas mismas herramientas.</small></p>
+        <p><a className="button" href="#/hablar">Hablar: juegos de roles, tareas y frases</a></p>
+        <p><a className="button" href="#/escribir">Escribir: reconstruir textos y mi propio texto</a></p>
+      </section>
     </main>
   );
 }

@@ -1,5 +1,6 @@
 import { STEP_LABEL } from "../state/course";
 import { BLOCKS, type SessionBlock } from "../state/dayplan";
+import { MODULE_STEP_LABEL } from "../state/modules";
 import type { TodayPlan } from "../state/session";
 import type { DayProgress } from "../state/store";
 import type { Seconds } from "../state/strands";
@@ -14,6 +15,7 @@ export function nextAction(plan: TodayPlan): { href: string; label: string } {
   const pending = plan.review.due + plan.review.newAvailable;
   if (plan.review.due > 0) return { href: "#/repaso", label: `Repaso · ${formatDuration(plan.review.seconds)}` };
   if (plan.unit) return { href: `#/unidad/${plan.unit.view.unit.id}/${plan.unit.step}`, label: `${STEP_LABEL[plan.unit.step]} · ${formatDuration(plan.unit.seconds)}` };
+  if (plan.module) return { href: `#/modulo/${plan.module.view.module.id}/${plan.module.step}`, label: `${MODULE_STEP_LABEL[plan.module.step]} · ${formatDuration(plan.module.seconds)}` };
   if (pending + plan.review.filler > 0) return { href: "#/repaso", label: `Repaso · ${formatDuration(plan.review.seconds)}` };
   return { href: "#/ruta", label: "Ver la ruta" };
 }
@@ -38,7 +40,7 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, 
       {firstTime && (
         <section>
           <h2>Cómo empezar</h2>
-          <p>Sigue la ruta: cada unidad trabaja un punto del italiano en pasos cortos (ver, practicar, escuchar, probar). Haz uno o dos al día; el repaso te devuelve lo aprendido justo antes de olvidarlo. Si ya sabes algo, la <a href="#/ubicacion">prueba de ubicación</a> te deja saltarlo.</p>
+          <p>Sigue la ruta: cada módulo es una situación (por ejemplo, presentarte): entras con un texto real, estudias sus cápsulas, hablas y escribes tú, y cierras con una prueba. Haz uno o dos al día; el repaso te devuelve lo aprendido justo antes de olvidarlo. Si ya sabes algo, la <a href="#/ubicacion">prueba de ubicación</a> te deja saltarlo.</p>
         </section>
       )}
       <div className="hero">
@@ -46,6 +48,12 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, 
           <>
             <div className="eyebrow">{unit.view.unit.level} · Unidad {unit.view.index + 1} de {route.total}</div>
             <div className="title" lang="it">{unit.view.unit.title}</div>
+          </>
+        ) : plan.module ? (
+          <>
+            <div className="eyebrow">{plan.module.view.module.level} · Módulo {plan.module.view.index + 1}</div>
+            <div className="title">{plan.module.view.module.title}</div>
+            <p><small>Ahora: {MODULE_STEP_LABEL[plan.module.step]}</small></p>
           </>
         ) : (
           <div className="title">Completaste todas las unidades disponibles. <a href="#/ruta">Ver la ruta</a></div>

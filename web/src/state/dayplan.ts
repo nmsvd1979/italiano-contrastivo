@@ -1,4 +1,5 @@
 import { STEP_LABEL, stepsFor } from "./course";
+import { MODULE_STEP_LABEL, type ModuleStepId } from "./modules";
 import type { TodayPlan } from "./session";
 import type { DayProgress, StepId } from "./store";
 import { stepSeconds } from "./steps";
@@ -14,6 +15,9 @@ export const BLOCKS: Record<BlockKey, { n: string; title: string; color: string 
 };
 /** Qué bloque de la sesión de las fuentes trabaja cada paso de la unidad. */
 export const BLOCK_OF_STEP: Record<StepId, BlockKey> = { descubre: "lectura", palabras: "repaso", lectura: "lectura", capsula: "gimnasio", practica: "gimnasio", escucha: "voz", practica2: "gimnasio", prueba: "gimnasio" };
+
+/** Qué bloque de la sesión trabaja cada paso propio de un módulo. */
+export const BLOCK_OF_MODULE_STEP: Record<ModuleStepId, BlockKey> = { entrada: "lectura", salida: "voz", fluidez: "voz", cierre: "gimnasio" };
 
 export type SessionBlock = { key: BlockKey; title: string; subtitle: string; seconds: number; href: string; done: boolean; step?: StepId };
 export const SESSION_BUDGET_SECONDS = 25 * 60;
@@ -31,6 +35,11 @@ export function planSession(input: { plan: TodayPlan; day: DayProgress; pack: Co
     subtitle: pending > 0 ? `Tienes ${pending} para repasar${plan.review.filler ? " + práctica de unidades anteriores" : ""}` : plan.review.filler ? "Práctica de recuperación de unidades anteriores" : "No tienes repasos pendientes ahora.",
   }];
   const unit = plan.unit?.view.unit;
+  if (!unit && plan.module) {   // la sesión del día es un paso propio del módulo (Entrada, Salida, Fluidez o Cierre)
+    const { view, step, seconds } = plan.module;
+    blocks.push({ key: BLOCK_OF_MODULE_STEP[step], title: BLOCKS[BLOCK_OF_MODULE_STEP[step]].title, subtitle: `Módulo ${view.index + 1} · ${MODULE_STEP_LABEL[step]}`, seconds, href: `#/modulo/${view.module.id}/${step}`, done: false });
+    return blocks;
+  }
   if (!unit || !plan.unit) return blocks;
   const doneToday = new Set(day.stepsDone ?? []);
   const doneSteps = stepsFor(unit).filter((s) => doneToday.has(`${unit.id}:${s}`) && plan.unit!.view.progress.done[s]);

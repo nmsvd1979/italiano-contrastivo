@@ -4,7 +4,7 @@ import type { StepId, UnitProgress } from "./store";
 
 export const STEPS: StepId[] = ["descubre", "palabras", "lectura", "capsula", "practica", "escucha", "practica2", "prueba"];
 /** Los pasos de una unidad: «Lectura» solo si tiene un texto asignado y «Palabras» solo si es de vocabulario (lista de palabras del tema). */
-export const stepsFor = (unit?: Unit): StepId[] => (unit ? STEPS.filter((s) => (s !== "lectura" || !!unit.readings?.length) && (s !== "palabras" || !!unit.words?.length)) : STEPS);
+export const stepsFor = (unit?: Unit): StepId[] => (unit ? STEPS.filter((s) => (s !== "lectura" || (!!unit.readings?.length && !unit.reading_is_entry)) && (s !== "palabras" || !!unit.words?.length)) : STEPS);
 export const STEP_LABEL: Record<StepId, string> = {
   descubre: "Descubre", palabras: "Palabras", lectura: "Lectura", capsula: "Cápsula", practica: "Práctica", escucha: "Escucha", practica2: "Práctica 2", prueba: "Prueba de la unidad",
 };

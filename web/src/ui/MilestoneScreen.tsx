@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type { ContentPack } from "../content/load";
 import { HITO, hitoId, milestoneItems, milestoneListenSentences, milestoneOpen, milestoneOralTask, milestoneReadings, milestoneProgress, milestoneWriteItems, oralPassed, type Part, scoreMilestone } from "../state/milestone";
 import { isPreview } from "../state/preview";
+import { moduleViews } from "../state/modules";
 import type { Store } from "../state/store";
 import { formatDuration, estimateSeconds, loadSamples } from "../state/timing";
 import { fromDictations, fromItems, ItemRunner, type RunItem } from "./ItemRunner";
@@ -21,7 +22,11 @@ export function MilestoneScreen({ pack, store, level = "A1" }: { pack: ContentPa
   const [partial, setPartial] = useState<ReturnType<typeof scoreMilestone> | null>(null);
   const [res, setRes] = useState<Result | null>(null);
   useEffect(() => {
-    store.allUnits().then((u) => setOpen(milestoneOpen(pack, new Set(u.filter((x) => x.completed).map((x) => x.unitId)), level, isPreview())));
+    store.allUnits().then((u) => {
+      const units = milestoneOpen(pack, new Set(u.filter((x) => x.completed).map((x) => x.unitId)), level, isPreview());
+      const mods = moduleViews(pack.course, u).modules.filter((m) => m.module.level === level);
+      setOpen(units && (isPreview() || mods.every((m) => m.state === "completed")));   // el examen pide completar también cada módulo (salida y cierre)
+    });
   }, [store, pack, level]);
   const exam = useMemo(() => {
     const rec = milestoneItems(pack, level);
@@ -35,7 +40,7 @@ export function MilestoneScreen({ pack, store, level = "A1" }: { pack: ContentPa
   const task = milestoneOralTask(pack, level);
   const readings = useMemo(() => milestoneReadings(pack, level), [pack, level]);
   if (open === null) return <p>Cargando…</p>;
-  if (!open) return <main><h1>Examen de hito {level}</h1><p>Se abre cuando completes todas las unidades de {level}.</p><p><a className="button" href="#/ruta">Ver la ruta</a></p></main>;
+  if (!open) return <main><h1>Examen de hito {level}</h1><p>Se abre cuando completes todos los módulos de {level} (cápsulas, salida, fluidez y cierre).</p><p><a className="button" href="#/ruta">Ver la ruta</a></p></main>;
 
   const save = async (s: ReturnType<typeof scoreMilestone>, oral: { checked: number; total: number } | null) => {
     const passedAll = s.passed && (oral === null || oralPassed(oral.checked, oral.total));

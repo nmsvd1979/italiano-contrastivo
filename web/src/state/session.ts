@@ -4,7 +4,8 @@ import type { Card } from "../generated/card";
 import type { Item } from "../generated/item";
 import type { ReviewLog } from "../generated/review-log";
 import { score, type CapsuleState } from "./capsuleMachine";
-import { currentView, summary, unitViews, type UnitView } from "./course";
+import { currentView, isOptional, summary, type UnitView } from "./course";
+import { currentModule, MODULE_STEP_SECONDS, moduleViews, type ModuleStepId, type ModuleView } from "./modules";
 import { dueCards, newCard, review } from "./srs";
 import { kindOf, stepSeconds } from "./steps";
 import { estimateSeconds, type Samples } from "./timing";
@@ -27,6 +28,8 @@ export type TodayPlan = {
   review: { due: number; newAvailable: number; doneToday: number; cap: number; seconds: number; filler: number };
   /** Unidad actual y su siguiente paso (null si no queda ninguna unidad por hacer). */
   unit: { view: UnitView; step: StepId; seconds: number } | null;
+  /** Paso propio del módulo actual (Entrada, Salida, Fluidez o Cierre) cuando no toca una cápsula. */
+  module: { view: ModuleView; step: ModuleStepId; seconds: number } | null;
   route: { done: number; total: number };
   stepsToday: number;
 };
@@ -53,12 +56,17 @@ export function planToday(input: { pack: ContentPack; cards: Card[]; day: DayPro
   const room = Math.max(0, REVIEW_CAP - Math.min(due, REVIEW_CAP));
   const queue = reviewQueue({ pack, cards, now, units, samples });
   const seconds = queue.reduce((t, e) => t + entrySeconds(e, samples), 0);
-  const views = unitViews(pack.course, units);
-  const cur = currentView(views);
+  const mv = moduleViews(pack.course, units);
+  const views = mv.units;
+  const cm = currentModule(mv.modules);
+  const anyCur = currentView(views);
+  const cur = anyCur && isOptional(anyCur.unit) && cm ? undefined : anyCur;   // mientras un módulo pide un paso propio, no se ofrece una unidad opcional
   const step = cur?.next ?? null;
+  const modStep = cm && cm.next && cm.next !== "capsulas" ? cm.next : null;
   return {
     review: { due, newAvailable: freshAllowed(units) ? Math.min(NEW_LEXEMES_PER_BATCH, room, unseenLexemes(pack, cards).length) : 0, doneToday: day.reviewsDone, cap: REVIEW_CAP, seconds, filler: queue.filter((e) => "filler" in e).length },
     unit: cur && step ? { view: cur, step, seconds: stepSeconds(cur.unit, step, pack, samples) } : null,
+    module: cm && modStep ? { view: cm, step: modStep, seconds: MODULE_STEP_SECONDS[modStep] } : null,
     route: { done: summary(views).done, total: views.length },
     stepsToday: (day.stepsDone ?? []).length,
   };

@@ -7,7 +7,7 @@ export type StepId = "descubre" | "palabras" | "lectura" | "capsula" | "practica
 /** Avance de una unidad: pasos hechos (fecha ISO), mejor nota de la prueba y si quedó completada. */
 export type UnitProgress = {
   unitId: string;
-  done: Partial<Record<StepId, string>>;
+  done: Partial<Record<string, string>>;   // pasos de la unidad, o de un módulo (id «mod:…»: entrada, salida, fluidez, cierre y las partes «salida:…»)
   testBest: number | null;
   completed: boolean;
   completedAt?: string;

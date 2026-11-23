@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import type { ContentPack } from "../content/load";
-import { canDoStep, STEP_LABEL, stepsFor, unitViews, type UnitView } from "../state/course";
+import { canDoStep, STEP_LABEL, stepsFor, type UnitView } from "../state/course";
+import { moduleViews } from "../state/modules";
 import { finishStep, finishTest } from "../state/progress";
 import { addWordCards } from "../state/words";
 import { practiceItems, readingOf, reconstructionItems, stepSeconds, testItems, voiceItems } from "../state/steps";
@@ -23,7 +24,7 @@ export function StepScreen({ unitId, step, pack, store }: { unitId: string; step
   const [phase, setPhase] = useState<"notice" | "rebuild">("notice");
   useStrandTimer(store, STRAND_OF_STEP[step], done === null);
   useEffect(() => {
-    store.allUnits().then((all) => setViews(unitViews(pack.course, all)));
+    store.allUnits().then((all) => setViews(moduleViews(pack.course, all).units));
   }, [store, pack, done]);
   if (!views) return <p>Cargando…</p>;
   const view = views.find((v) => v.unit.id === unitId);

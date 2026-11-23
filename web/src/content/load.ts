@@ -20,6 +20,8 @@ export type Unit = {
   parts: { descubre: string[]; practica: string[]; escucha: string[]; prueba: string[] };
   divergences: { id: string; start: number; end: number; wrong: string }[];
   readings?: string[];
+  /** Su lectura es el texto de entrada del módulo: el paso «Lectura» no se repite en la unidad. */
+  reading_is_entry?: boolean;
   words?: { form: string; gender: string; num: string; gloss: string; audio?: string; art?: string; gdiv?: boolean; ff?: boolean; sieve?: "transparente" | "regular" | "opaca"; rule?: string; note?: string }[];
   ficha_es?: string;
 };

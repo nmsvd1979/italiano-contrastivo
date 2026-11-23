@@ -2,6 +2,16 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 — Ruta por módulos (etapas 1–4 del plan `docs/specs/2026-11-24-plan-modulos.md`)
+**Hecho:**
+1. **Datos:** 10 módulos de A1 en `schemas/data/course.json` (`modules`): título, «sé hacer», unidades (cápsulas), texto de entrada, juegos de roles, tareas, frases, sugerencia de Biblioteca y hueco declarado. `pipeline/exercises/modules.py` valida que cada unidad esté en exactamente un módulo y que todo lo referenciado exista; la ruta (`course.units`) sigue el orden de los módulos. Nuevo juego de roles de moda (`rp_moda`). Los verbos en -are (u14) están en el módulo 2 para no retrasar el habla.
+2. **Estado:** `web/src/state/modules.ts` (`moduleViews`): módulos y unidades con bloqueos (la Entrada abre las cápsulas si no empezaste ninguna; un módulo se abre al completar el anterior; la ubicación puede saltar un módulo entero). Progreso de pasos del módulo en el mismo almacén con id `mod:mNN`.
+3. **Pantallas:** Ruta por módulos, pantalla de módulo, pasos Entrada / Salida (juego de roles o tarea oral + mensaje escrito con revisión de calcos; el hueco se declara si el módulo no tiene diálogo) / Fluidez / Cierre («sé hacer» + 12 frases escritas, 80 %, sin autoaprobación). «Hoy» y la sesión proponen el paso del módulo. El examen de hito pide todos los módulos completos.
+4. **Limpieza:** pestañas Hoy · Ruta · Repaso · Biblioteca · Ajustes; «Hablar» y «Escribir» quedan como «Práctica libre» en la Ruta; el paso Lectura no se repite en unidades cuya lectura es la entrada del módulo.
+**Costos declarados:** el orden cambia otra vez; con progreso anterior, cada módulo con todas sus unidades hechas pide aún Salida, Fluidez y Cierre. Los módulos 3 y 10 no tienen juego de roles ni tarea oral propios (no hay fuente abierta). El tamaño de los módulos (4–6 cápsulas) y los «sé hacer» son criterio mío, no medidos.
+**Pruebas:** Python 1258 y web 912 en verde; ruta y módulo vistos a 375 px. **No se probó** el recorrido completo de un módulo en el navegador, ni en iPhone.
+**Siguiente (fuera de este plan):** seguimiento de puntos calientes y pruebas diferidas; comprobar si hay material real para A2 y construir A2 con este molde; B1–B2.
+
 ## 2026-11-23 (11) — Investigación de métodos y veredicto sobre la estructura de la app
 **Pregunta del usuario:** ¿la app se está dispersando en «otros modos»? ¿Debe seguir lo construido, su propuesta original (módulos en cápsulas) u otra cosa? Informe completo en `docs/metodos-y-estructura-de-la-app.md` (5 frentes de investigación; varias fuentes clásicas quedaron sin verificar por bloqueos y se declaran).
 **Veredicto (deducido de principios y de cómo están hechos sílabos y manuales; ningún estudio compara estas arquitecturas directamente):**

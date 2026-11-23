@@ -77,7 +77,8 @@ export function SpeakingScreen({ pack, store }: { pack: ContentPack; store: Stor
   );
 }
 
-function RolePlayRun({ rp, reading, store, onExit }: { rp: RolePlay; reading: Reading; store: Store; onExit: () => void }) {
+/** Juego de roles. `onComplete` se llama al terminar la última réplica (el módulo lo usa para marcar la Salida). */
+export function RolePlayRun({ rp, reading, store, onExit, onComplete, exitLabel = "Volver a Hablar" }: { rp: RolePlay; reading: Reading; store: Store; onExit: () => void; onComplete?: () => void; exitLabel?: string }) {
   const turns = turnsOf(rp, reading);
   const speakers = speakersOf(turns);
   const player = usePlayer();
@@ -99,7 +100,8 @@ function RolePlayRun({ rp, reading, store, onExit }: { rp: RolePlay; reading: Re
   const next = () => { gaps.current.push((Date.now() - mark.current) / 1000); mark.current = Date.now(); setReveal(false); rec.reset(); setI((x) => x + 1); };
   const finished = me !== null && i >= turns.length;
   useEffect(() => { // el tiempo de la vuelta suma una sola vez a «Escribir y hablar»
-    if (finished && !logged.current) { logged.current = true; void addDaySeconds(store, "salida", cappedSeconds(gaps.current)); }
+    if (finished && !logged.current) { logged.current = true; void addDaySeconds(store, "salida", cappedSeconds(gaps.current)); onComplete?.(); }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [finished, store]);
   if (!me) {
     return (
@@ -121,7 +123,7 @@ function RolePlayRun({ rp, reading, store, onExit }: { rp: RolePlay; reading: Re
         <p>Dijiste {ratings.length} frases: {sum.bien} bien, {sum.casi} casi, {sum.otra} para repetir. Es tu propia nota: la app no escuchó tu pronunciación.</p>
         <p><small>Se sumaron ~{Math.max(1, Math.round(cappedSeconds(gaps.current) / 60))} min a «Escribir y hablar».</small></p>
         {sum.otra + sum.casi > 0 && <p>Repítelo otro día: lo que dijiste «casi» o «otra vez» es lo que más se gana repitiendo.</p>}
-        <div style={{ marginTop: 16 }}><button type="button" className="primary block" onClick={onExit}>Volver a Hablar</button></div>
+        <div style={{ marginTop: 16 }}><button type="button" className="primary block" onClick={onExit}>{exitLabel}</button></div>
       </main>
     );
   }
@@ -274,7 +276,7 @@ function AlphabetPanel({ speaking, onExit }: { speaking: Speaking; onExit: () =>
   );
 }
 
-function PhrasesPanel({ phrases, onExit }: { phrases: NonNullable<Speaking["phrases"]>; onExit: () => void }) {
+export function PhrasesPanel({ phrases, onExit, only }: { phrases: NonNullable<Speaking["phrases"]>; onExit: () => void; only?: string[] }) {
   const player = usePlayer();
   const [shown, setShown] = useState<Set<string>>(new Set());
   const toggle = (k: string) => setShown((s) => { const n = new Set(s); if (n.has(k)) n.delete(k); else n.add(k); return n; });
@@ -282,7 +284,7 @@ function PhrasesPanel({ phrases, onExit }: { phrases: NonNullable<Speaking["phra
     <main>
       <h1>{phrases.title}</h1>
       <p>{phrases.intro_es}</p>
-      {phrases.groups.map((g) => (
+      {phrases.groups.filter((g) => !only || only.includes(g.id)).map((g) => (
         <section key={g.id} aria-label={g.title}>
           <h2>{g.title}</h2>
           <ul className="library">
@@ -302,7 +304,8 @@ function PhrasesPanel({ phrases, onExit }: { phrases: NonNullable<Speaking["phra
   );
 }
 
-function FluencyRun({ reading, store, onExit }: { reading: Reading; store: Store; onExit: () => void }) {
+/** Releer y reescuchar a velocidad creciente. `onComplete` se llama al terminar las tres pasadas. */
+export function FluencyRun({ reading, store, onExit, onComplete }: { reading: Reading; store: Store; onExit: () => void; onComplete?: () => void }) {
   const player = usePlayer();
   const [pass, setPass] = useState(0);
   const [playing, setPlaying] = useState<number | null>(null);
@@ -322,9 +325,18 @@ function FluencyRun({ reading, store, onExit }: { reading: Reading; store: Store
     }
     seconds.current += Math.min((Date.now() - t0) / 1000, 600);
     setPlaying(null);
-    if (!cancel.current) setFinished((f) => f.map((v, k) => v || k === pass));
+    if (!cancel.current) {
+      const next = finished.map((v, k) => v || k === pass);
+      setFinished(next);
+      if (next.every(Boolean)) onComplete?.();
+    }
   };
   const stop = () => { cancel.current = true; stopSay(); setPlaying(null); };
+  useEffect(() => () => { // si la pantalla se cierra sin pulsar «Salir» (p. ej. al terminar las tres pasadas), el tiempo se registra igual
+    cancel.current = true; stopSay();
+    if (!logged.current && seconds.current > 0) { logged.current = true; void addDaySeconds(store, "fluidez", Math.round(seconds.current)); }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   const leave = () => {
     stop();
     if (!logged.current && seconds.current > 0) { logged.current = true; void addDaySeconds(store, "fluidez", Math.round(seconds.current)); }

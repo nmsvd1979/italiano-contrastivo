@@ -1,6 +1,7 @@
 import type { Course, Unit } from "../content/load";
 import type { Card } from "../generated/card";
 import { applyTest, emptyProgress, markStep, masterByPlacement } from "./course";
+import { applyModuleTest, markModuleStep, moduleProgressId, salidaKey, salidaMissing, type ModuleStepId, type SalidaPart } from "./modules";
 import { newCard, review } from "./srs";
 import { localDate, type Store, type StepId, type UnitProgress } from "./store";
 import { normalizeDay } from "./session";
@@ -44,3 +45,30 @@ export async function placeUnits(store: Store, mastered: Unit[], now: Date): Pro
 }
 
 export const unitOf = (course: Course, id: string): Unit | undefined => course.units.find((u) => u.id === id);
+
+
+/** Marca un paso del módulo (Entrada, Fluidez…). Los ya hechos no se deshacen. */
+export async function finishModuleStep(store: Store, moduleId: string, step: ModuleStepId, now: Date): Promise<UnitProgress> {
+  const p = markModuleStep(await load(store, moduleProgressId(moduleId)), step, now);
+  await store.putUnit(p);
+  await bumpDay(store, `${moduleProgressId(moduleId)}:${step}`, now);
+  return p;
+}
+
+/** Marca una parte de la Salida; cuando están todas las que el módulo exige, la Salida queda hecha. */
+export async function finishSalidaPart(store: Store, module: import("../content/load").CourseModule, part: SalidaPart, now: Date): Promise<UnitProgress> {
+  let p = await load(store, moduleProgressId(module.id));
+  p = { ...p, done: { ...p.done, [salidaKey(part)]: p.done[salidaKey(part)] ?? now.toISOString() } };
+  if (salidaMissing(module, p).length === 0) p = markModuleStep(p, "salida", now);
+  await store.putUnit(p);
+  await bumpDay(store, `${moduleProgressId(module.id)}:${salidaKey(part)}`, now);
+  return p;
+}
+
+/** Registra la prueba de cierre del módulo; con 80 % o más el módulo queda completado y se abre el siguiente. */
+export async function finishModuleTest(store: Store, moduleId: string, correct: number, total: number, now: Date): Promise<{ progress: UnitProgress; passed: boolean }> {
+  const r = applyModuleTest(await load(store, moduleProgressId(moduleId)), correct, total, now);
+  await store.putUnit(r.progress);
+  await bumpDay(store, `${moduleProgressId(moduleId)}:cierre`, now);
+  return r;
+}

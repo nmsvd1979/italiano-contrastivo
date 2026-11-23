@@ -52,3 +52,18 @@ def test_el_curso_real_reparte_las_51_unidades_de_a1_en_10_modulos_sin_perder_ni
     for m in course["modules"]:
         assert 3 <= len(m["units"]) <= 8, m["id"]          # una situación con pocas cápsulas: ni migas ni bloques enormes
         assert 3 <= len(m["can_do_es"]) <= 5, m["id"]
+
+
+def test_una_unidad_cuya_lectura_es_la_entrada_de_su_modulo_no_repite_el_paso_de_lectura():
+    course = json.loads((PACK / "course.json").read_text(encoding="utf8"))
+    entry = {u: m["entry_reading"] for m in course["modules"] for u in m["units"]}
+    for u in course["units"]:
+        es_entrada = bool(u.get("readings")) and u["readings"][0] == entry.get(u["id"])
+        assert bool(u.get("reading_is_entry")) == es_entrada, u["id"]
+
+
+def test_la_ruta_sigue_el_orden_de_los_modulos():
+    course = json.loads((PACK / "course.json").read_text(encoding="utf8"))
+    en_modulos = [u for m in course["modules"] for u in m["units"]]
+    orden = [u["id"] for u in course["units"] if u["id"] in set(en_modulos)]
+    assert orden == en_modulos

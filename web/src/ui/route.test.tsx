@@ -7,7 +7,7 @@ import { unitViews } from "../state/course";
 import { reconstructionItems, testItems } from "../state/steps";
 import { markStep, stepsFor } from "../state/course";
 import { emptyProgress } from "../state/course";
-import { finishStep, finishTest, placeUnits } from "../state/progress";
+import { finishModuleStep, finishStep, finishTest, placeUnits } from "../state/progress";
 import { memoryStore } from "../state/store";
 import { judgeDictation } from "./DictationItem";
 import { fromItems, ItemRunner } from "./ItemRunner";
@@ -184,6 +184,7 @@ describe("flujo completo de una unidad en la interfaz", () => {
 
   it("Descubre (bloque de lectura): tarjetas, preguntas de significado y reconstrucción llevan a «Paso completado»", async () => {
     const store = memoryStore();
+    await finishModuleStep(store, pack.course.modules![0].id, "entrada", NOW);   // la Entrada del módulo abre sus cápsulas
     render(<StepScreen unitId={U1} step="descubre" pack={pack} store={store} />);
     for (let i = 0; i < 4; i++) fireEvent.click(await screen.findByText("Siguiente"));
     for (let q = 0; q < 2; q++) {

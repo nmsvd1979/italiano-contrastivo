@@ -7,7 +7,7 @@ import { normalizeDay, planToday } from "./state/session";
 import { type DayProgress, localDate, memoryStore, openStore, type StepId, type Store, StoreUnavailableError, type UnitProgress } from "./state/store";
 import { loadSamples } from "./state/timing";
 import { buildInfo } from "./pwa";
-import { unitViews } from "./state/course";
+import { moduleViews, type ModuleStepId } from "./state/modules";
 import { UpdateBanner } from "./ui/UpdateBanner";
 import { AboutScreen } from "./ui/AboutScreen";
 import { CapsuleScreen } from "./ui/CapsuleScreen";
@@ -27,6 +27,8 @@ import { isPreview, PREVIEW_DB, REAL_DB, setPreview } from "./state/preview";
 import { WriteScreen } from "./ui/WriteScreen";
 import { DictationTestScreen } from "./ui/DictationTestScreen";
 import { LibraryScreen } from "./ui/LibraryScreen";
+import { ModuleScreen } from "./ui/ModuleScreen";
+import { ModuleStepScreen } from "./ui/ModuleStepScreen";
 import { SpeakingScreen } from "./ui/SpeakingScreen";
 import "./styles.css";
 
@@ -61,10 +63,10 @@ function Today({ pack, store, storeError }: Ready) {
 }
 
 function useViews(ready: Ready, hash: string) {
-  const [views, setViews] = useState<ReturnType<typeof unitViews> | null>(null);
+  const [views, setViews] = useState<ReturnType<typeof moduleViews> | null>(null);
   useEffect(() => {
     let live = true;
-    ready.store.allUnits().then((u) => live && setViews(unitViews(ready.pack.course, u)));
+    ready.store.allUnits().then((u) => live && setViews(moduleViews(ready.pack.course, u)));
     return () => { live = false; };
   }, [ready, hash]);
   return views;
@@ -75,12 +77,16 @@ function Routes({ ready, hash }: { ready: Ready; hash: string }) {
   const [hito, setHito] = useState<Record<string, { completed: boolean; best: number | null }>>({});
   useEffect(() => { ready.store.allUnits().then((u) => setHito(Object.fromEntries(u.filter((x) => x.unitId.startsWith("hito:")).map((x) => [x.unitId, { completed: x.completed, best: x.testBest }])))); }, [ready, hash]);
   const m = hash.match(/^#\/unidad\/(u\d+)(?:\/(\w+))?$/);
+  const mod = hash.match(/^#\/modulo\/(m\d+)(?:\/(\w+))?$/);
   if (hash === "#/hito/A1") return <MilestoneScreen pack={ready.pack} store={ready.store} level="A1" />;
   if (hash === "#/ubicacion") return <PlacementScreen pack={ready.pack} store={ready.store} units={ready.pack.course.units} />;
   if (!views) return <p>Cargando…</p>;
-  if (hash === "#/ruta") return <RouteScreen views={views} pack={ready.pack} hito={hito} />;
+  if (hash === "#/ruta") return <RouteScreen views={views.units} modules={views.modules} pack={ready.pack} hito={hito} />;
+  if (mod && mod[2]) return <ModuleStepScreen key={hash} moduleId={mod[1]} step={mod[2] as ModuleStepId} pack={ready.pack} store={ready.store} />;
+  const modView = mod && views.modules.find((v) => v.module.id === mod[1]);
+  if (modView) return <ModuleScreen view={modView} pack={ready.pack} />;
   if (m && m[2]) return <StepScreen key={hash} unitId={m[1]} step={m[2] as StepId} pack={ready.pack} store={ready.store} />;
-  const view = m && views.find((v) => v.unit.id === m[1]);
+  const view = m && views.units.find((v) => v.unit.id === m[1]);
   if (view) return <UnitScreen view={view} pack={ready.pack} />;
   return <main><p>No encontré esa pantalla.</p><p><a className="button" href="#/ruta">Ir a la ruta</a></p></main>;
 }
@@ -120,7 +126,7 @@ export function App() {
         : hash === "#/escribir" ? <WriteScreen pack={ready.pack} store={ready.store} />
         : hash === "#/ajustes" ? <SettingsScreen store={ready.store} memoryOnly={ready.storeError !== null} />
         : hash === "#/acerca" ? <AboutScreen manifest={ready.pack.manifest} sentences={ready.pack.sentences} readings={ready.pack.readings} />
-        : hash === "#/ruta" || hash === "#/ubicacion" || hash === "#/hito/A1" || hash.startsWith("#/unidad/") ? <Routes ready={ready} hash={hash} />
+        : hash === "#/ruta" || hash === "#/ubicacion" || hash === "#/hito/A1" || hash.startsWith("#/unidad/") || hash.startsWith("#/modulo/") ? <Routes ready={ready} hash={hash} />
         : capsule ? <CapsuleScreen key={capsule.id} capsule={capsule} store={ready.store} />
         : <Today {...ready} />}
     {!isFocusRoute(hash) && <footer className="version"><small>Versión {buildInfo().id}</small></footer>}
