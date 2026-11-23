@@ -22,6 +22,12 @@ const KNOWN_GAPS: Record<string, string[]> = {
   // Además salió de la ruta u47 (opcional, A1+): bajó a 17 oraciones utilizables con los mismos filtros. Faltan oraciones cortas nuevas.
   u19: ["oraciones"],
   u20: ["oraciones"],
+  // 2026-11-23: tope de 12 oraciones por palabra del tema (balance_by_word) y u65 sin «voglio»: u39, u35, u42 y u65 quedan bajo 30. Es escasez real de oraciones
+  // (Tatoeba); la solución son diálogos y oraciones propias de las fuentes (Bloque 2 de docs/auditoria-cobertura-a1.md).
+  u39: ["oraciones"],
+  u35: ["oraciones"],
+  u65: ["oraciones"],
+  u42: ["oraciones"],
 };
 
 function gaps(): Record<string, string[]> {

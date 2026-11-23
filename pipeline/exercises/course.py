@@ -85,12 +85,32 @@ def _with_contrast(w: dict) -> dict:
     return out
 
 
+MAX_PER_WORD = 12  # una palabra del tema no debe dominar la unidad (u42 tenía 28 de 35 oraciones con «soldi»)
+
+
+def balance_by_word(usable: list[dict], code: str, cap: int = MAX_PER_WORD, floor: int = MIN_USABLE) -> list[dict]:
+    """En unidades de vocabulario, como mucho `cap` oraciones por palabra del tema (las más fáciles). Si así quedan menos de `floor`,
+    se reponen las descartadas hasta llegar a `floor`: mejor una unidad algo desbalanceada que ninguna."""
+    if code not in vocab.VOCAB_CODES:
+        return usable
+    seen: dict[str, int] = {}
+    keep, spare = [], []
+    for s in usable:
+        hit = vocab.find_vocab(code, s["it"])
+        w = hit[2].lower() if hit else ""
+        seen[w] = seen.get(w, 0) + 1
+        (keep if seen[w] <= cap else spare).append(s)
+    keep += spare[: max(0, floor - len(keep))]
+    keep_ids = {s["id"] for s in keep}
+    return [s for s in usable if s["id"] in keep_ids]
+
+
 def build_course(sentences: list[dict], catalog: dict[str, dict]) -> dict:
     """Devuelve el curso para la app. Una unidad sin oraciones suficientes baja a `planned` con la razón (nunca se inventa)."""
     raw = load_course()
     units, planned = [], [dict(p) for p in raw["planned"]]
     for u in raw["units"]:
-        usable = {c: [s for s in usable_sentences(c, sentences) if fit_for_level(s, u["level"], c)] for c in u["codes"]}
+        usable = {c: balance_by_word([s for s in usable_sentences(c, sentences) if fit_for_level(s, u["level"], c)], c) for c in u["codes"]}
         total = sum(len(v) for v in usable.values())
         if len(u["codes"]) != 1 or total < MIN_USABLE:  # una unidad = un objetivo atómico (un código)
             planned.append({"level": u["level"], "title": u["title"], "reason": f"Solo {total} oraciones validadas utilizables (se necesitan {MIN_USABLE})."})

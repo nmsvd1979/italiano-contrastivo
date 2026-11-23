@@ -390,7 +390,7 @@
     "ERR_VOC_VORREI": {
       "capsule": true,
       "reason": null,
-      "usable": 56
+      "usable": 38
     }
   },
   "levels": {
@@ -403,9 +403,9 @@
     "llm-audit": 2379,
     "me": 27
   },
-  "sentences_used": 2254,
+  "sentences_used": 2236,
   "translation_kind": {
-    "direct": 1883,
+    "direct": 1865,
     "llm": 371
   }
 }

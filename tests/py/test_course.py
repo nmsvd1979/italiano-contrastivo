@@ -79,3 +79,29 @@ def test_curso_real_es_consistente():
         for d in u["divergences"]:  # el tramo resaltado cae dentro de la oración
             assert 0 <= d["start"] < d["end"] <= len(sentences[d["id"]]["it"])
     assert all(p["reason"] for p in course["planned"])
+
+
+def test_ninguna_palabra_domina_una_unidad_de_vocabulario():
+    """Auditoría 2026-11-23: u42 tenía 28 de 35 oraciones con «soldi». Tope por palabra en `balance_by_word`; u65 queda por encima por falta de oraciones."""
+    import collections
+    from pipeline.exercises import vocab
+    sent = {s["id"]: s for s in json.loads((PACK / "sentences.json").read_text(encoding="utf8"))}
+    known_thin = {"u65": "pocas oraciones de «pedir con cortesía» en Tatoeba: necesita diálogos propios (Bloque 2)"}
+    for u in json.loads((PACK / "course.json").read_text(encoding="utf8"))["units"]:
+        code = u["codes"][0]
+        if code not in vocab.VOCAB_CODES or u["id"] in known_thin:
+            continue
+        ids = set(u["parts"]["practica"]) | set(u["parts"]["prueba"])
+        hits = collections.Counter(h[2].lower() for i in ids if (h := vocab.find_vocab(code, sent[i]["it"])))
+        assert hits.most_common(1)[0][1] / sum(hits.values()) <= 0.65, (u["id"], hits.most_common(3))
+
+
+def test_u65_practica_solo_vorrei_y_prendo():
+    sent = {s["id"]: s for s in json.loads((PACK / "sentences.json").read_text(encoding="utf8"))}
+    u = next(x for x in json.loads((PACK / "course.json").read_text(encoding="utf8"))["units"] if x["id"] == "u65")
+    caps = {c["id"]: c for c in json.loads((PACK / "capsules.json").read_text(encoding="utf8"))}
+    for i in u["parts"]["practica"] + u["parts"]["prueba"]:
+        assert not __import__("re").search(r"\b(voglio|vogliamo)\b", sent[i]["it"], __import__("re").I), sent[i]["it"]
+    cap = caps["cap_err_voc_vorrei"]
+    text = json.dumps([cap["trigger"], cap["retrieval"]], ensure_ascii=False).lower()  # los ejercicios (la explicación sí compara con «voglio»)
+    assert "voglio" not in text

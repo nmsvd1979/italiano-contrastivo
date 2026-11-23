@@ -9008,24 +9008,24 @@
     "id": "cap_err_voc_vorrei",
     "retrieval": [
       {
-        "id": "it_choice_s_340683_ERR_VOC_VORREI",
+        "id": "it_choice_s_3998742_ERR_VOC_VORREI",
         "listen": true,
         "options": [
           {
             "correct": true,
-            "text": "Voglio andare a Tokyo."
+            "text": "Prendiamo qualcosa da bere."
           },
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_VORREI",
-            "text": "Vorrei andare a Tokyo."
+            "text": "Vorremmo qualcosa da bere."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_340683",
+        "sentence_id": "s_3998742",
         "target_error_codes": [
           "ERR_VOC_VORREI"
         ],
@@ -9033,61 +9033,63 @@
       },
       {
         "answers": [
-          "Voglio"
+          "prendiamo"
         ],
-        "hint_es": "Quiero cocinar para ti.",
-        "id": "it_cloze_s_3927072_ERR_VOC_VORREI",
+        "hint_es": "¿Por qué no tomamos un taxi?",
+        "id": "it_cloze_s_841131_ERR_VOC_VORREI",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_3927072",
+        "sentence_id": "s_841131",
         "target_error_codes": [
           "ERR_VOC_VORREI"
         ],
-        "text": "___ cucinare per te.",
+        "text": "Perché non ___ un taxi?",
         "type": "cloze"
       },
       {
         "answer": [
-          "Voglio",
-          "giocare",
-          "a",
-          "calcio."
+          "Prendo",
+          "delle",
+          "vitamine",
+          "ogni",
+          "giorno."
         ],
-        "id": "it_reorder_s_5384317_ERR_VOC_VORREI",
-        "prompt_es": "Ordena las palabras: «Quiero jugar al fútbol.»",
+        "id": "it_reorder_s_4984420_ERR_VOC_VORREI",
+        "prompt_es": "Ordena las palabras: «Tomo vitaminas todos los días.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_5384317",
+        "sentence_id": "s_4984420",
         "target_error_codes": [
           "ERR_VOC_VORREI"
         ],
         "tokens": [
-          "calcio.",
-          "Voglio",
-          "giocare",
-          "a"
+          "ogni",
+          "Prendo",
+          "giorno.",
+          "delle",
+          "vitamine"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_5429858_ERR_VOC_VORREI",
+        "id": "it_choice_s_9706447_ERR_VOC_VORREI",
         "listen": true,
         "options": [
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_VORREI",
-            "text": "Prendo vedere i cavalli."
+            "text": "La prossima volta vorrei il treno."
           },
           {
             "correct": true,
-            "text": "Voglio vedere i cavalli."
+            "text": "La prossima volta prendo il treno."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_5429858",
+        "sentence_id": "s_9706447",
         "target_error_codes": [
           "ERR_VOC_VORREI"
         ],
@@ -9095,41 +9097,39 @@
       },
       {
         "answers": [
-          "prendo"
+          "Vorrei"
         ],
-        "hint_es": "Yo tomo vitaminas.",
-        "id": "it_cloze_s_2559224_ERR_VOC_VORREI",
+        "hint_es": "Me gustaría tener un gato.",
+        "id": "it_cloze_s_1305566_ERR_VOC_VORREI",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2559224",
+        "sentence_id": "s_1305566",
         "target_error_codes": [
           "ERR_VOC_VORREI"
         ],
-        "text": "Io ___ delle vitamine.",
+        "text": "___ avere un gatto.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Voglio",
-          "un",
-          "letto",
-          "ad",
-          "acqua."
+          "Vorrei",
+          "essere",
+          "come",
+          "lui!"
         ],
-        "id": "it_reorder_s_3783835_ERR_VOC_VORREI",
-        "prompt_es": "Ordena las palabras: «Quiero una cama de agua.»",
+        "id": "it_reorder_s_1351844_ERR_VOC_VORREI",
+        "prompt_es": "Ordena las palabras: «¡Quisiera ser como él!»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_3783835",
+        "sentence_id": "s_1351844",
         "target_error_codes": [
           "ERR_VOC_VORREI"
         ],
         "tokens": [
-          "letto",
-          "un",
-          "acqua.",
-          "ad",
-          "Voglio"
+          "lui!",
+          "come",
+          "essere",
+          "Vorrei"
         ],
         "type": "reorder"
       }
@@ -9140,13 +9140,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Voglio andare con te."
+        "Io prendo delle vitamine."
       ],
-      "id": "it_translate_s_609618_ERR_VOC_VORREI",
+      "id": "it_translate_s_2559224_ERR_VOC_VORREI",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_609618",
-      "source_es": "Quiero ir contigo.",
+      "sentence_id": "s_2559224",
+      "source_es": "Yo tomo vitaminas.",
       "target_error_codes": [
         "ERR_VOC_VORREI"
       ],

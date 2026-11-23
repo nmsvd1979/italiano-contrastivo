@@ -1985,11 +1985,6 @@
     "wrong": "Lei tiene paura dei tuoni."
   },
   {
-    "code": "ERR_PREP_PLACE",
-    "correct": "Voglio abitare in Italia.",
-    "wrong": "Voglio abitare a Italia."
-  },
-  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Vi piace il risotto allo zafferano?",
     "wrong": "Vi piace il risotto a lo zafferano?"
