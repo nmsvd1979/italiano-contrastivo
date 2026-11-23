@@ -3,6 +3,8 @@ import { readFileSync } from "node:fs";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import type { ContentPack } from "../content/load";
 import { memoryStore } from "../state/store";
+import { ItemRunner } from "./ItemRunner";
+import { writeItemOf } from "../state/write";
 import { ReviewScreen } from "./ReviewScreen";
 import { WriteScreen } from "./WriteScreen";
 
@@ -77,5 +79,36 @@ describe("errores corregidos → repaso", () => {
     fireEvent.click(await screen.findByText("Continuar"));
     await waitFor(async () => expect((await store.allCards()).find((c) => c.subject.kind === "writing_fix")!.fsrs.reps).toBe(1));
     expect((await store.allLogs())).toHaveLength(1);
+  });
+});
+
+describe("prueba de unidad: comodín limitado", () => {
+  const mk = (id: string, it: string, es: string) => writeItemOf({ id, it, es, cefr_estimate: "A1", author: "x", license: "x" } as never, "ERR_X");
+  it("«Mi versión también es correcta» se puede usar una vez; en la segunda ya cuenta como fallo", () => {
+    const items = [mk("s1", "Ho fame.", "Tengo hambre."), mk("s2", "Ho sete.", "Tengo sed.")].map((item) => ({ id: item.id, kind: "translate" as const, item }));
+    const finished: boolean[][] = [];
+    render(<ItemRunner items={items} overrideBudget={1} onFinish={(r) => finished.push(r.answers)} />);
+    fireEvent.change(screen.getByLabelText("Tu traducción"), { target: { value: "Io tengo fame" } });
+    fireEvent.click(screen.getByText("Comprobar"));
+    expect(screen.getByText(/Te queda 1 comodín en esta prueba/)).toBeTruthy();
+    fireEvent.click(screen.getByText("Mi versión también es correcta"));
+    fireEvent.click(screen.getByText("Continuar"));
+    fireEvent.change(screen.getByLabelText("Tu traducción"), { target: { value: "Io tengo sete" } });
+    fireEvent.click(screen.getByText("Comprobar"));
+    expect(screen.getByText(/Ya usaste el comodín de esta prueba/)).toBeTruthy();
+    expect(screen.queryByText("Mi versión también es correcta")).toBeNull();
+    fireEvent.click(screen.getByText("Continuar"));
+    expect(finished).toEqual([[true, false]]);
+  });
+  it("en la práctica (sin presupuesto) el botón no se agota", () => {
+    const items = [mk("s1", "Ho fame.", "Tengo hambre."), mk("s2", "Ho sete.", "Tengo sed.")].map((item) => ({ id: item.id, kind: "translate" as const, item }));
+    render(<ItemRunner items={items} onFinish={() => undefined} />);
+    fireEvent.change(screen.getByLabelText("Tu traducción"), { target: { value: "Tengo fame" } });
+    fireEvent.click(screen.getByText("Comprobar"));
+    fireEvent.click(screen.getByText("Mi versión también es correcta"));
+    fireEvent.click(screen.getByText("Continuar"));
+    fireEvent.change(screen.getByLabelText("Tu traducción"), { target: { value: "Tengo sete" } });
+    fireEvent.click(screen.getByText("Comprobar"));
+    expect(screen.getByText("Mi versión también es correcta")).toBeTruthy();
   });
 });

@@ -60,7 +60,7 @@ export function StepScreen({ unitId, step, pack, store }: { unitId: string; step
       {step === "practica" && <ItemRunner {...run} persistKey={`${unitId}:practica`} items={fromItems(practiceItems(unit, pack, samples))} requeueWrong onFinish={(r) => void finish(r)} />}
       {step === "practica2" && <ItemRunner {...run} persistKey={`${unitId}:practica2`} items={fromItems(practiceItems(unit, pack, samples, undefined, 2))} requeueWrong onFinish={(r) => void finish(r)} />}
       {step === "escucha" && <ItemRunner {...run} persistKey={`${unitId}:escucha`} items={fromVoice(voiceItems(unit, pack, samples))} onFinish={(r) => void finish(r)} />}
-      {step === "prueba" && <ItemRunner {...run} persistKey={`${unitId}:prueba`} items={fromItems(testItems(unit, pack))} onFinish={(r) => void finish(r)} />}
+      {step === "prueba" && <ItemRunner {...run} persistKey={`${unitId}:prueba`} overrideBudget={1} items={fromItems(testItems(unit, pack))} onFinish={(r) => void finish(r)} />}
     </main>
   );
 }

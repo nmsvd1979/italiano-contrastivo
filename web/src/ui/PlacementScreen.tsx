@@ -7,7 +7,7 @@ import type { Store } from "../state/store";
 import { estimateSeconds, formatDuration, loadSamples } from "../state/timing";
 import { fromItems, ItemRunner } from "./ItemRunner";
 
-export const PLACEMENT_PER_UNIT = 3;
+export const PLACEMENT_PER_UNIT = 4;
 
 /** Ítems de ubicación: 3 por unidad, tomados de las oraciones reservadas de su prueba. */
 export function placementPlan(units: Unit[], pack: ContentPack): { unit: Unit; items: Item[] }[] {
@@ -54,7 +54,7 @@ export function PlacementScreen({ pack, store, units }: { pack: ContentPack; sto
     return (
       <main>
         <h1>Prueba de ubicación</h1>
-        <p>Preguntas de 3 en 3 por unidad, en el orden de la ruta. Si aciertas las 3, la unidad se marca como dominada y la saltas. Se detiene sola cuando fallas dos unidades seguidas: si empiezas de cero, dura un par de minutos; el máximo es ≈{formatDuration(total)}. Si dudas, responde lo que te suene mejor.</p>
+        <p>Sirve solo para saltarte lo que ya sabes (no mide tu nivel de italiano). Preguntas de 4 en 4 por unidad, en el orden de la ruta: si aciertas las 4, la unidad se marca como dominada y no la ves dos veces. Se detiene sola cuando fallas dos unidades seguidas: si empiezas de cero, dura un par de minutos; el máximo es ≈{formatDuration(total)}. Si dudas, responde lo que te suene mejor.</p>
         <div className="actions-bottom"><button type="button" className="primary block" onClick={() => setStarted(true)}>Empezar</button></div>
       </main>
     );

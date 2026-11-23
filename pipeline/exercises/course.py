@@ -11,6 +11,8 @@ from pipeline.exercises.calques import find_calque
 from pipeline.exercises.capsules import usable_sentences
 
 TEST_SIZE = 6
+LARGE_TEST_SIZE = 8   # unidades con suficientes oraciones: una prueba de 6 frases deja pasar demasiado por azar o autoaprobación
+LARGE_UNIT = 34
 DISCOVER_SIZE = 4
 LISTEN_SIZE = 8
 MIN_USABLE = TEST_SIZE + 12  # prueba + práctica mínima
@@ -42,9 +44,10 @@ def fit_for_level(s: dict, level: str, code: str | None = None) -> bool:
 def assign_parts(usable: list[dict], codes: list[str]) -> dict:
     """`usable` viene de la más fácil a la más difícil. «Descubre» = las más fáciles; la prueba (reservada) se reparte
     de forma pareja por todo el resto, para medir la dificultad real de la unidad y no solo su extremo más duro."""
+    n_test = LARGE_TEST_SIZE if len(usable) >= LARGE_UNIT else TEST_SIZE
     rest = usable[DISCOVER_SIZE:]
-    step = len(rest) / TEST_SIZE
-    picked = {int(step * i + step / 2) for i in range(TEST_SIZE)}
+    step = len(rest) / n_test
+    picked = {int(step * i + step / 2) for i in range(n_test)}
     test = [s for i, s in enumerate(rest) if i in picked]
     pool = usable[:DISCOVER_SIZE] + [s for i, s in enumerate(rest) if i not in picked]
     step = max(1, len(pool) // LISTEN_SIZE)

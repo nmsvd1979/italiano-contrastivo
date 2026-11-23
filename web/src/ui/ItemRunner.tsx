@@ -23,9 +23,10 @@ export type RunResult = { correct: number; total: number; answers: boolean[] };
  * y tiempo restante. Mide cuánto tarda cada ejercicio. Con `requeueWrong`, lo fallado vuelve una vez al final; la nota
  * cuenta solo el primer intento. Con `persistKey` se puede retomar a la mitad.
  */
-export function ItemRunner({ items, requeueWrong = false, onFinish, exitHref = "#/", why, persistKey }: {
-  items: RunItem[]; requeueWrong?: boolean; onFinish: (r: RunResult) => void; exitHref?: string; why?: string; persistKey?: string;
+export function ItemRunner({ items, requeueWrong = false, onFinish, exitHref = "#/", why, persistKey, overrideBudget }: {
+  items: RunItem[]; requeueWrong?: boolean; onFinish: (r: RunResult) => void; exitHref?: string; why?: string; persistKey?: string; overrideBudget?: number;
 }) {
+  const [overridesLeft, setOverridesLeft] = useState(overrideBudget ?? 0);
   const ids = items.map((i) => i.id);
   const saved = useRef(persistKey ? loadRun(persistKey, ids) : null).current;
   const [queue, setQueue] = useState<number[]>(() => saved?.queue ?? items.map((_, i) => i));
@@ -68,7 +69,7 @@ export function ItemRunner({ items, requeueWrong = false, onFinish, exitHref = "
   const samples = loadSamples();
   const remaining = queue.slice(pos).reduce((s, i) => s + estimateSeconds(items[i].kind, samples), 0);
   return (
-    <RunProvider value={{ why, requeue: requeueWrong && !requeued.current.has(idx) }}>
+    <RunProvider value={{ why, requeue: requeueWrong && !requeued.current.has(idx), overrides: overrideBudget === undefined ? undefined : { left: overridesLeft, use: () => setOverridesLeft((n) => Math.max(0, n - 1)) } }}>
       <FocusHead progress={items.length ? done.length / items.length : 0} exitHref={exitHref} />
       <p className="runner-meta">Ejercicio {pos + 1} de {queue.length} · quedan {formatDuration(remaining)}{saved && pos === saved.pos && pos > 0 ? " · retomado" : ""}</p>
       {streak > 0 && streak % 5 === 0 && <p className="cheer" role="note">¡{streak} aciertos seguidos!</p>}

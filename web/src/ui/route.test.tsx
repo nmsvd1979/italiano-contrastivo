@@ -88,7 +88,7 @@ describe("persistencia de la ruta", () => {
     expect((await store.allLogs()).length).toBe(1);
     expect((await store.allUnits())[0].mastery).toBe("ubicacion");
   });
-  it("el plan de ubicación pide 3 preguntas por unidad", () => {
+  it("el plan de ubicación pide 4 preguntas por unidad", () => {
     for (const p of placementPlan(pack.course.units, pack)) expect(p.items.length).toBe(PLACEMENT_PER_UNIT);
   });
 });

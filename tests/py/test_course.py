@@ -23,10 +23,12 @@ def test_la_prueba_se_reserva_y_no_aparece_en_la_practica():
 
 def test_la_prueba_se_reparte_por_todo_el_rango_de_dificultad():
     parts = C.assign_parts(_sents(40), ["ERR_X"])
+    assert len(parts["prueba"]) == C.LARGE_TEST_SIZE                       # 40 oraciones: prueba de 8
+    assert len(C.assign_parts(_sents(30), ["ERR_X"])["prueba"]) == C.TEST_SIZE  # 30: se queda en 6
     idx = [int(i[1:]) for i in parts["prueba"]]
     assert idx == sorted(idx) and min(idx) >= C.DISCOVER_SIZE  # no usa las 4 más fáciles (van a «Descubre»)
     assert idx[0] < 12 and idx[-1] > 33  # cubre desde lo fácil hasta lo difícil, no solo el extremo duro
-    assert len(parts["practica"]) == 34 and set(parts["descubre"]) == {f"s{i:03d}" for i in range(4)}
+    assert len(parts["practica"]) == 32 and set(parts["descubre"]) == {f"s{i:03d}" for i in range(4)}
 
 
 def test_unidades_a1_solo_aceptan_oraciones_que_pasan_el_prefiltro():
