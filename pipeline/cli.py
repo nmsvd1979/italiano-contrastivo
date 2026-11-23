@@ -101,6 +101,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--model", default=nlp.MODEL_NAME)
     ap.add_argument("--out-dir", type=Path, default=config.ROOT / "content", help="carpeta de salida del export")
     ap.add_argument("--pack-dir", type=Path, default=config.ROOT / "web" / "public" / "content", help="salida del paquete de la app")
+    ap.add_argument("--tts-model2", default=str(Path.home() / "Downloads" / "it_IT-paola-medium.onnx"), help="segunda voz Piper (diálogos) para la etapa tts")
     ap.add_argument("--tts-model", default=str(Path.home() / "Downloads" / "it_IT-serena-high.onnx"), help="modelo Piper para la etapa tts")
     ap.add_argument("--native-dir", type=Path, default=None, help="carpeta con grabaciones nativas existentes (<palabra>--<voz>.mp3 + ATTRIBUZIONI.md); sin ella se conservan las palabras ya copiadas")
     ap.add_argument("--audio-dir", type=Path, default=config.ROOT / "web" / "public" / "audio", help="salida de los clips de la etapa tts")
@@ -168,12 +169,19 @@ def main(argv: list[str] | None = None) -> int:
                 texts = tg.texts_for_pack(args.pack_dir)
                 index_file = args.audio_dir / "index.json"
                 prev = json.loads(index_file.read_text(encoding="utf8")) if index_file.exists() else []
-                pending = len(tg.plan_clips(texts, prev, args.audio_dir)["generate"])
+                texts2 = tg.second_voice_texts(args.pack_dir)
+                pending = len(tg.plan_clips(texts, prev, args.audio_dir, texts2)["generate"])
+                pending2 = len(tg.plan_clips2(texts2, prev, args.audio_dir))
+                model2 = Path(args.tts_model2)
+                if pending2 and not model2.exists():
+                    print(f"No encuentro la segunda voz {model2}. Indícala con --tts-model2 <ruta a it_IT-paola-medium.onnx>.", file=sys.stderr)
+                    return 2
                 model = Path(args.tts_model)
                 if pending and not model.exists():
                     print(f"No encuentro el modelo de voz {model}. Indícalo con --tts-model <ruta a it_IT-serena-high.onnx>.", file=sys.stderr)
                     return 2
-                idx = tg.generate(args.pack_dir, args.audio_dir, piper_lote.make_synthesizer(model) if pending else None, piper_lote.lame_to_mp3)
+                idx = tg.generate(args.pack_dir, args.audio_dir, piper_lote.make_synthesizer(model) if pending else None, piper_lote.lame_to_mp3,
+                                 synthesize2=piper_lote.make_synthesizer(model2) if pending2 else None)
                 lexemes = json.loads((args.pack_dir / "lexemes.json").read_text(encoding="utf8"))
                 words_file = args.audio_dir / "words.json"
                 if args.native_dir is not None:
@@ -187,7 +195,7 @@ def main(argv: list[str] | None = None) -> int:
                         f.unlink()
                 words_file.write_text(json.dumps(words, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
                 (args.audio_dir / "ATTRIBUZIONI-audio.md").write_text(tg.attribution_text(words), encoding="utf8")
-                print(f"  clips generados: {pending} de {len(idx)}; palabras nativas: {len(words)}; carpeta {args.audio_dir}")
+                print(f"  clips generados: {pending} (+{pending2} de la segunda voz) de {len(idx)}; palabras nativas: {len(words)}; carpeta {args.audio_dir}")
             elif st == "report":
                 print(report_mod.format_report(report_mod.build_report(store.connect(args.authoring_db))))
             elif st == "review":

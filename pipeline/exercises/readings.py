@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 
 from pipeline import config
-from pipeline.tts.ids import clip_id
+from pipeline.tts.ids import clip_id, clip_id2
 
 MIN_QUESTIONS = 4
 KINDS = {"lectura", "dialogo"}
@@ -70,13 +70,30 @@ def build_reading_words(readings: list[dict]) -> dict[str, dict]:
     return {t: src[t] for t in used}
 
 
+def voices_of(sentences: list[dict]) -> dict[str, int]:
+    """Voz de cada hablante de un diálogo (0 = primera voz, 1 = segunda). Cada hablante nuevo toma la voz contraria a la de quien hablaba justo antes,
+    para que dos que conversan no suenen igual. Sin hablantes (lecturas) o con uno solo no hay segunda voz."""
+    voices: dict[str, int] = {}
+    prev = None
+    for s in sentences:
+        sp = s.get("speaker")
+        if not sp:
+            continue
+        if sp not in voices:
+            voices[sp] = 1 - voices[prev] if prev in voices else 0
+        prev = sp
+    return voices if len(voices) >= 2 else {}
+
+
 def build_pack(src_dir: Path, pack_dir: Path) -> list[dict]:
     readings = load_readings(src_dir)
     pack = []
     for r in readings:
         d = {k: r[k] for k in ("id", "title", "level", "kind", "source", "translation", "questions")}
+        voices = voices_of(r["sentences"])
+        second = lambda s: voices.get(s.get("speaker", ""), 0) == 1  # noqa: E731
         d["sentences"] = [{"id": s["id"], "it": s["it"], "es": s["es"], **({"speaker": s["speaker"]} if s.get("speaker") else {}),
-                          "audio": clip_id(s["it"])} for s in r["sentences"]]
+                          "audio": clip_id2(s["it"]) if second(s) else clip_id(s["it"]), **({"voice": 2} if second(s) else {})} for s in r["sentences"]]
         pack.append(d)
     pack_dir = Path(pack_dir)
     (pack_dir / "readings.json").write_text(json.dumps(pack, ensure_ascii=False, indent=2) + "\n", encoding="utf8")

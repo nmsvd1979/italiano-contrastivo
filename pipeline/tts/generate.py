@@ -11,7 +11,7 @@ import tempfile
 from pathlib import Path
 from typing import Callable
 
-from pipeline.tts.ids import LICENSE, VOICE, clip_id, sha1
+from pipeline.tts.ids import LICENSE, LICENSE2, VOICE, VOICE2, clip_id, clip_id2, sha1
 
 MAX_BYTES = 32_000_000
 _SERENA = (
@@ -21,7 +21,11 @@ _SERENA = (
     "generada automáticamente; no es una grabación de una persona.\n\n"
     "- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)\n"
     "- Conjunto de datos: https://huggingface.co/datasets/committa/serena-synthetic-it-27h\n"
-    "- Modelo: https://huggingface.co/rhasspy/piper-voices (it/it_IT/serena/high)\n"
+    "- Modelo: https://huggingface.co/rhasspy/piper-voices (it/it_IT/serena/high)\n\n"
+    "## Segunda voz (solo diálogos)\n\n"
+    "Voz sintética Piper `it_IT-paola-medium` (conjunto de datos CC0, OHF-Voice/voice-datasets), generada automáticamente; no es una grabación de una persona.\n\n"
+    "- Licencia: CC0 1.0\n"
+    "- Modelo: https://huggingface.co/rhasspy/piper-voices (it/it_IT/paola/medium)\n"
 )
 
 
@@ -73,10 +77,24 @@ def texts_for_pack(pack_dir: Path) -> list[str]:
     return sorted({s["it"] for s in sentences} | {l["form"] for l in lexemes} | {s["it"] for r in readings for s in r["sentences"]} | words | spoken)
 
 
-def plan_clips(texts: list[str], index: list[dict], out_dir: Path) -> dict:
+def second_voice_texts(pack_dir: Path) -> list[str]:
+    """Frases de diálogos que dice la segunda voz (marcadas `voice: 2` en readings.json)."""
+    rf = Path(pack_dir) / "readings.json"
+    readings = json.loads(rf.read_text(encoding="utf8")) if rf.exists() else []
+    return sorted({s["it"] for r in readings for s in r["sentences"] if s.get("voice") == 2})
+
+
+def plan_clips2(texts2: list[str], index: list[dict], out_dir: Path) -> list[str]:
+    """Textos de la segunda voz que faltan o cambiaron."""
     tts = Path(out_dir) / "tts"
     by_id = {e["id"]: e for e in index}
-    ids = {clip_id(t) for t in texts}
+    return [t for t in texts2 if not ((e := by_id.get(clip_id2(t))) and e["sha1"] == sha1(t) and e["voice"] == VOICE2 and (tts / f"{clip_id2(t)}.mp3").exists())]
+
+
+def plan_clips(texts: list[str], index: list[dict], out_dir: Path, texts2: list[str] | None = None) -> dict:
+    tts = Path(out_dir) / "tts"
+    by_id = {e["id"]: e for e in index}
+    ids = {clip_id(t) for t in texts} | {clip_id2(t) for t in (texts2 or [])}
     keep, generate = [], []
     for t in texts:
         e = by_id.get(clip_id(t))
@@ -92,13 +110,26 @@ def _read_index(out_dir: Path) -> list[dict]:
 
 
 def generate(pack_dir: Path, out_dir: Path, synthesize: Callable[[str, Path], None],
-             to_mp3: Callable[[Path, Path], None], max_bytes: int = MAX_BYTES) -> list[dict]:
+             to_mp3: Callable[[Path, Path], None], max_bytes: int = MAX_BYTES, synthesize2: Callable[[str, Path], None] | None = None) -> list[dict]:
     out_dir = Path(out_dir)
     tts = out_dir / "tts"
     tts.mkdir(parents=True, exist_ok=True)
     texts = texts_for_pack(pack_dir)
-    plan = plan_clips(texts, _read_index(out_dir), out_dir)
+    texts2 = second_voice_texts(pack_dir)
+    plan = plan_clips(texts, _read_index(out_dir), out_dir, texts2)
+    pending2 = plan_clips2(texts2, _read_index(out_dir), out_dir)
+    if pending2 and synthesize2 is None:
+        raise ValueError(f"Faltan {len(pending2)} clips de la segunda voz y no hay modelo para generarlos.")
     with tempfile.TemporaryDirectory() as tmp:
+        for t in pending2:
+            wav = Path(tmp) / f"{clip_id2(t)}.wav"
+            partial = tts / f"{clip_id2(t)}.mp3.tmp"
+            synthesize2(t, wav)
+            try:
+                to_mp3(wav, partial)
+                os.replace(partial, tts / f"{clip_id2(t)}.mp3")
+            finally:
+                partial.unlink(missing_ok=True)
         for t in plan["generate"]:
             wav = Path(tmp) / f"{clip_id(t)}.wav"
             partial = tts / f"{clip_id(t)}.mp3.tmp"
@@ -112,7 +143,8 @@ def generate(pack_dir: Path, out_dir: Path, synthesize: Callable[[str, Path], No
     total = sum(p.stat().st_size for p in tts.glob("*.mp3") if p.stem not in orphans)
     if total > max_bytes:
         raise ValueError(f"El peso del audio ({total} bytes) supera el tope de {max_bytes} bytes; decídelo antes de seguir.")
-    index = sorted(({"id": clip_id(t), "sha1": sha1(t), "text": t, "voice": VOICE, "license": LICENSE} for t in texts), key=lambda e: e["id"])
+    index = sorted([{"id": clip_id(t), "sha1": sha1(t), "text": t, "voice": VOICE, "license": LICENSE} for t in texts]
+                   + [{"id": clip_id2(t), "sha1": sha1(t), "text": t, "voice": VOICE2, "license": LICENSE2} for t in texts2], key=lambda e: e["id"])
     tmp_index = out_dir / "index.json.tmp"
     tmp_index.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
     os.replace(tmp_index, out_dir / "index.json")

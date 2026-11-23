@@ -8,6 +8,13 @@ Voz sintética Piper `it_IT-serena-high` (conjunto de datos CC BY 4.0, committa/
 - Conjunto de datos: https://huggingface.co/datasets/committa/serena-synthetic-it-27h
 - Modelo: https://huggingface.co/rhasspy/piper-voices (it/it_IT/serena/high)
 
+## Segunda voz (solo diálogos)
+
+Voz sintética Piper `it_IT-paola-medium` (conjunto de datos CC0, OHF-Voice/voice-datasets), generada automáticamente; no es una grabación de una persona.
+
+- Licencia: CC0 1.0
+- Modelo: https://huggingface.co/rhasspy/piper-voices (it/it_IT/paola/medium)
+
 ## Grabaciones de hablantes nativos (palabras sueltas)
 
 Grabaciones de [Lingua Libre](https://lingualibre.org/), publicadas en Wikimedia Commons bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
