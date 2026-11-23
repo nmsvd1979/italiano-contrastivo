@@ -117,3 +117,31 @@ describe("pantalla Hablar", () => {
     expect(screen.getByText(/Come si dice\.\.\.\?/)).toBeTruthy();
   });
 });
+
+describe("fluidez: releer y reescuchar", () => {
+  it("solo ofrece lecturas de unidades completadas y con audio en todas sus frases", async () => {
+    const { fluencyReadings, PASSES } = await import("../state/fluency");
+    expect(fluencyReadings(pack, new Set()).length).toBe(0);
+    const unit = pack.course.units.find((u) => (u.readings ?? []).length)!;
+    const got = fluencyReadings(pack, new Set([unit.id]));
+    expect(got.length).toBeGreaterThan(0);
+    expect(got.every((r) => r.sentences.every((s) => s.audio))).toBe(true);
+    expect(PASSES.map((p) => p.rate)).toEqual([...PASSES.map((p) => p.rate)].sort((a, b) => a - b));   // cada pasada más rápida
+    expect(PASSES.filter((p) => !p.showText).length).toBeGreaterThan(0);                                // y con menos apoyo
+  });
+  it("la pantalla pide completar unidades y, con una completada, ofrece su lectura y la pasada rápida oculta el texto", async () => {
+    const store = memoryStore();
+    const unit = pack.course.units.find((u) => (u.readings ?? []).length && readings.find((r: { id: string; sentences: { audio?: string }[] }) => r.id === u.readings![0])?.sentences.every((s) => s.audio))!;
+    const { rerender } = render(<SpeakingScreen pack={pack} store={store} />);
+    expect(screen.getByText(/lecturas de las unidades que completes/)).toBeTruthy();
+    await store.putUnit({ unitId: unit.id, completed: true } as never);
+    cleanup();
+    render(<SpeakingScreen pack={pack} store={store} />);
+    const reading = readings.find((r: { id: string }) => r.id === unit.readings![0]);
+    await screen.findByText(/Tres pasadas de una lectura/);   // las unidades completadas se leen de forma asíncrona
+    fireEvent.click(screen.getAllByRole("button", { name: "Empezar" }).at(-1)!);   // la lectura se ofrece después de las tareas orales
+    expect(await screen.findByText(/Pasada 1 de 3: Despacio/)).toBeTruthy();
+    expect(screen.getByText(reading.sentences[0].it)).toBeTruthy();
+    void rerender;
+  });
+});

@@ -782,6 +782,12 @@
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_ARE",
+            "text": "Ora, tu cantate."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PRESENT_ARE",
             "text": "Ora, tu cantas."
           }
         ],
@@ -823,6 +829,12 @@
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_ARE",
             "text": "Io amiamo i viaggi."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PRESENT_ARE",
+            "text": "Io ami i viaggi."
           },
           {
             "correct": true,
@@ -887,6 +899,12 @@
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_ARE",
+            "text": "Tu cantate sempre."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PRESENT_ARE",
             "text": "Tu cantas sempre."
           }
         ],
@@ -933,6 +951,12 @@
           {
             "correct": true,
             "text": "Voi vivete qui?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PRESENT_ERE_IRE",
+            "text": "Voi vivi qui?"
           },
           {
             "correct": false,
@@ -996,6 +1020,12 @@
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_ERE_IRE",
             "text": "Tu vives da sola?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PRESENT_ERE_IRE",
+            "text": "Tu vivete da sola?"
           },
           {
             "correct": true,
@@ -1086,6 +1116,12 @@
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_ESSERE_AVERE",
+            "text": "Tu è qui."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PRESENT_ESSERE_AVERE",
             "text": "Tu siete qui."
           }
         ],
@@ -1142,6 +1178,12 @@
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_ESSERE_AVERE",
             "text": "Tu siete Mary?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PRESENT_ESSERE_AVERE",
+            "text": "Tu è Mary?"
           },
           {
             "correct": true,
@@ -1232,6 +1274,12 @@
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_IRREGULAR",
+            "text": "Tu sa com'è."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PRESENT_IRREGULAR",
             "text": "Tu sapete com'è."
           }
         ],
@@ -1288,6 +1336,12 @@
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_IRREGULAR",
             "text": "Tu sapete tutto."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PRESENT_IRREGULAR",
+            "text": "Tu sa tutto."
           },
           {
             "correct": true,
@@ -1378,6 +1432,12 @@
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_MODAL",
+            "text": "Tu vuole farla?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PRESENT_MODAL",
             "text": "Tu volete farla?"
           }
         ],
@@ -1434,6 +1494,12 @@
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_MODAL",
             "text": "Tu dovete venire."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PRESENT_MODAL",
+            "text": "Tu deve venire."
           },
           {
             "correct": true,
@@ -2344,6 +2410,12 @@
             "distractor_kind": "morphological",
             "error_code": "ERR_CONSONANTE_DOPPIA",
             "text": "Ammeto il mio errore."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_CONSONANTE_DOPPIA",
+            "text": "Ametto il mio errore."
           },
           {
             "correct": true,
@@ -4012,6 +4084,12 @@
             "text": "Dov'è la tua sciarpa?"
           },
           {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_ABITI",
+            "text": "Dov'è la tua borsa?"
+          },
+          {
             "correct": true,
             "text": "Dov'è la tua cravatta?"
           }
@@ -4096,6 +4174,12 @@
           {
             "correct": true,
             "text": "È un libro nuovo."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_AGGETTIVI",
+            "text": "È un libro basso."
           },
           {
             "correct": false,
@@ -4253,6 +4337,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_ANIMALI",
+            "text": "Il topo è tuo."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_ANIMALI",
             "text": "Il serpente è tuo."
           }
         ],
@@ -4312,6 +4402,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_ANIMALI",
             "text": "I gatti sono leali."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_ANIMALI",
+            "text": "I cavalli sono leali."
           },
           {
             "correct": true,
@@ -4400,6 +4496,12 @@
           {
             "correct": true,
             "text": "Qual è il segreto?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_ASTRATTI",
+            "text": "Qual è il problema?"
           },
           {
             "correct": false,
@@ -4557,6 +4659,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_AVVERBI",
+            "text": "Lui è già vivo."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_AVVERBI",
             "text": "Lui è prima vivo."
           }
         ],
@@ -4616,6 +4724,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_AVVERBI",
             "text": "Non ho tempo già."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_AVVERBI",
+            "text": "Non ho tempo tardi."
           },
           {
             "correct": true,
@@ -4709,6 +4823,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_BAR",
+            "text": "Dov'è il mio tovagliolo?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_BAR",
             "text": "Dov'è il mio succo?"
           }
         ],
@@ -4768,6 +4888,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_BAR",
             "text": "Abbiamo solo del succo."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_BAR",
+            "text": "Abbiamo solo del cappuccino."
           },
           {
             "correct": true,
@@ -4863,6 +4989,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_CASA",
+            "text": "Tom è in divano."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CASA",
             "text": "Tom è in cortile."
           }
         ],
@@ -4922,6 +5054,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_CASA",
             "text": "Andiamo a parete mia."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CASA",
+            "text": "Andiamo a chiave mia."
           },
           {
             "correct": true,
@@ -5015,6 +5153,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_CIBO",
+            "text": "È pizza di ratto."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CIBO",
             "text": "È pera di ratto."
           }
         ],
@@ -5074,6 +5218,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_CIBO",
             "text": "Il caffè è piccolo."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CIBO",
+            "text": "Il pollo è piccolo."
           },
           {
             "correct": true,
@@ -5167,6 +5317,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_CITTA",
+            "text": "Mi piace il lago."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CITTA",
             "text": "Mi piace il cinema."
           }
         ],
@@ -5226,6 +5382,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_CITTA",
             "text": "Il polpo è nel ristorante."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CITTA",
+            "text": "Il polpo è nel mercato."
           },
           {
             "correct": true,
@@ -5321,6 +5483,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_CLIMA",
+            "text": "Mi piace il fulmine."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CLIMA",
             "text": "Mi piace il ghiaccio."
           }
         ],
@@ -5380,6 +5548,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_CLIMA",
             "text": "Il ghiaccio è azzurro."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CLIMA",
+            "text": "Il sole è azzurro."
           },
           {
             "correct": true,
@@ -5473,6 +5647,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_COLORI",
+            "text": "Il fiore è rosa."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_COLORI",
             "text": "Il fiore è verde."
           }
         ],
@@ -5532,6 +5712,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_COLORI",
             "text": "L'auto è nera."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_COLORI",
+            "text": "L'auto è rossa."
           },
           {
             "correct": true,
@@ -5625,6 +5811,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_CORPO",
+            "text": "Ho mal di testa."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CORPO",
             "text": "Ho mal di bocca."
           }
         ],
@@ -5684,6 +5876,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_CORPO",
             "text": "Mi fa male la schiena."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CORPO",
+            "text": "Mi fa male la spalla."
           },
           {
             "correct": true,
@@ -5779,6 +5977,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_CUCINA",
+            "text": "La lavastoviglie è pronta."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CUCINA",
             "text": "La porzione è pronta."
           }
         ],
@@ -5840,6 +6044,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_CUCINA",
             "text": "Amo il fornello coreano."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CUCINA",
+            "text": "Amo il sapore coreano."
           },
           {
             "correct": true,
@@ -6148,6 +6358,12 @@
             "text": "Io amo quel cellulare."
           },
           {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_DIMOSTRATIVI",
+            "text": "Io amo quello cellulare."
+          },
+          {
             "correct": true,
             "text": "Io amo questo cellulare."
           }
@@ -6300,6 +6516,12 @@
             "text": "Cosa c'è lì dritto?"
           },
           {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_DIREZIONI",
+            "text": "Cosa c'è lì sotto?"
+          },
+          {
             "correct": true,
             "text": "Cosa c'è lì dentro?"
           }
@@ -6393,6 +6615,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_FAMILIA",
+            "text": "È di mio figlio."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_FAMILIA",
             "text": "È di mio ragazzo."
           }
         ],
@@ -6452,6 +6680,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_FAMILIA",
             "text": "Dov'è vostra bambina?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_FAMILIA",
+            "text": "Dov'è vostra cugina?"
           },
           {
             "correct": true,
@@ -6606,6 +6840,12 @@
             "text": "Devo aggiungere il pepe?"
           },
           {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_FRUTTA",
+            "text": "Devo aggiungere il melone?"
+          },
+          {
             "correct": true,
             "text": "Devo aggiungere il sale?"
           }
@@ -6697,6 +6937,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_IGIENE",
+            "text": "Dov'è il sapone?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_IGIENE",
             "text": "Dov'è il pettine?"
           }
         ],
@@ -6758,6 +7004,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_IGIENE",
             "text": "Devo farmi una vasca."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_IGIENE",
+            "text": "Devo farmi una spazzola."
           },
           {
             "correct": true,
@@ -6851,6 +7103,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_INTERROG",
+            "text": "Quanto si può fare?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_INTERROG",
             "text": "Chi si può fare?"
           }
         ],
@@ -6910,6 +7168,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_INTERROG",
             "text": "Chi sono le docce?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_INTERROG",
+            "text": "Quanto sono le docce?"
           },
           {
             "correct": true,
@@ -7003,6 +7267,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_LAVORO",
+            "text": "Il compito è grande."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_LAVORO",
             "text": "Il professore è grande."
           }
         ],
@@ -7064,6 +7334,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_LAVORO",
             "text": "Il suo cuoco è rosso."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_LAVORO",
+            "text": "Il suo cameriere è rosso."
           },
           {
             "correct": true,
@@ -7154,6 +7430,12 @@
           {
             "correct": true,
             "text": "Il fuoco è spento."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_NATURA",
+            "text": "Il bosco è spento."
           },
           {
             "correct": false,
@@ -7315,6 +7597,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_NAZIONALITA",
+            "text": "Lui non è argentino."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_NAZIONALITA",
             "text": "Lui non è italiano."
           }
         ],
@@ -7374,6 +7662,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_NAZIONALITA",
             "text": "Suo padre è cinese."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_NAZIONALITA",
+            "text": "Suo padre è francese."
           },
           {
             "correct": true,
@@ -7469,6 +7763,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_NEGOZI",
+            "text": "La lavanderia è aperta."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_NEGOZI",
             "text": "La macelleria è aperta."
           }
         ],
@@ -7528,6 +7828,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_NEGOZI",
             "text": "La pescheria è vicina al parco."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_NEGOZI",
+            "text": "La gioielleria è vicina al parco."
           },
           {
             "correct": true,
@@ -7623,6 +7929,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_NUMERI",
+            "text": "Io ho ottanta occhi."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_NUMERI",
             "text": "Io ho tredici occhi."
           }
         ],
@@ -7682,6 +7994,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_NUMERI",
             "text": "Ho dodici anni."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_NUMERI",
+            "text": "Ho tredici anni."
           },
           {
             "correct": true,
@@ -7775,6 +8093,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_OGGETTI",
+            "text": "Non è un foglio."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_OGGETTI",
             "text": "Non è un quadro."
           }
         ],
@@ -7834,6 +8158,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_OGGETTI",
             "text": "È una palla recente?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_OGGETTI",
+            "text": "È una candela recente?"
           },
           {
             "correct": true,
@@ -7927,6 +8257,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_QUANTITA",
+            "text": "Non ha tanti amici."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_QUANTITA",
             "text": "Non ha troppi amici."
           }
         ],
@@ -7986,6 +8322,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_QUANTITA",
             "text": "Egli ha molti amici."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_QUANTITA",
+            "text": "Egli ha troppi amici."
           },
           {
             "correct": true,
@@ -8079,6 +8421,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_SALUTE",
+            "text": "Ho medicina di te."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_SALUTE",
             "text": "Ho ferita di te."
           }
         ],
@@ -8138,6 +8486,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_SALUTE",
             "text": "Anche Tom ha visita."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_SALUTE",
+            "text": "Anche Tom ha sete."
           },
           {
             "correct": true,
@@ -8231,6 +8585,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_SALUTI",
+            "text": "Arrivederci? C'è nessuno?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_SALUTI",
             "text": "Prego? C'è nessuno?"
           }
         ],
@@ -8290,6 +8650,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_SALUTI",
             "text": "Complimenti, è libero qui?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_SALUTI",
+            "text": "Ciao, è libero qui?"
           },
           {
             "correct": true,
@@ -8383,6 +8749,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_SCUOLA",
+            "text": "Quella è la mia compagna!"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_SCUOLA",
             "text": "Quella è la mia traduzione!"
           }
         ],
@@ -8442,6 +8814,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_SCUOLA",
             "text": "La materia non è completa."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_SCUOLA",
+            "text": "La compagna non è completa."
           },
           {
             "correct": true,
@@ -8537,6 +8915,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_TEMPO",
+            "text": "Ora è lunedì."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_TEMPO",
             "text": "Ora è marzo."
           }
         ],
@@ -8594,6 +8978,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_TEMPO",
             "text": "Vengo a maggio."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_TEMPO",
+            "text": "Vengo a martedì."
           },
           {
             "correct": true,
@@ -8685,6 +9075,12 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_TEMPOLIBERO",
+            "text": "Mi piace il ciclismo."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_TEMPOLIBERO",
             "text": "Mi piace il hobby."
           }
         ],
@@ -8744,6 +9140,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_TEMPOLIBERO",
             "text": "Tom suona la rivista."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_TEMPOLIBERO",
+            "text": "Tom suona la passeggiata."
           },
           {
             "correct": true,
@@ -8898,6 +9300,12 @@
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_TRASPORTI",
             "text": "Dov'è la mia fermata?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_TRASPORTI",
+            "text": "Dov'è la mia benzina?"
           },
           {
             "correct": true,

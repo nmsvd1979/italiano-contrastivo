@@ -1,13 +1,14 @@
 import { useEffect, useRef, useState } from "react";
 import { usePlayer } from "../audio/AudioContext";
 import type { ContentPack, Reading, RolePlay, Speaking, SpeakingTask } from "../content/load";
+import { fluencyReadings, PASSES } from "../state/fluency";
 import { cappedSeconds, missingBefore, type Rating, ratingSummary, speakersOf, spell, turnsOf, voicePrompt } from "../state/speaking";
 import { addDaySeconds } from "../state/strands";
 import type { Store } from "../state/store";
 import { useRecorder } from "./recorder";
 import { stopSay, waitCurrentEnd } from "./speech";
 
-type View = { kind: "home" } | { kind: "phrases" } | { kind: "roleplay"; rp: RolePlay } | { kind: "task"; task: SpeakingTask } | { kind: "alphabet" };
+type View = { kind: "home" } | { kind: "fluency"; reading: Reading } | { kind: "phrases" } | { kind: "roleplay"; rp: RolePlay } | { kind: "task"; task: SpeakingTask } | { kind: "alphabet" };
 
 /**
  * Hablar: tres formas de practicar la voz sin pagar y sin que la app finja corregirte. (1) Juegos de roles con diálogos de libros abiertos: la
@@ -23,8 +24,10 @@ export function SpeakingScreen({ pack, store }: { pack: ContentPack; store: Stor
   const back = () => setView({ kind: "home" });
   if (view.kind === "roleplay") return <RolePlayRun rp={view.rp} reading={(pack.readings ?? []).find((r) => r.id === view.rp.reading)!} store={store} onExit={back} />;
   if (view.kind === "task") return <TaskRun task={view.task} store={store} onExit={back} />;
+  if (view.kind === "fluency") return <FluencyRun reading={view.reading} store={store} onExit={back} />;
   if (view.kind === "phrases" && sp.phrases) return <PhrasesPanel phrases={sp.phrases} onExit={back} />;
   if (view.kind === "alphabet") return <AlphabetPanel speaking={sp} onExit={back} />;
+  const fluent = fluencyReadings(pack, done);
   const titleOf = (id: string) => pack.course.units.find((u) => u.id === id)?.title ?? id;
   const hint = (after: string[]) => { const m = missingBefore(after, done); return m.length ? `Mejor después de: ${m.map(titleOf).join("; ")}.` : "Ya viste lo que necesita."; };
   return (
@@ -62,6 +65,11 @@ export function SpeakingScreen({ pack, store }: { pack: ContentPack; store: Stor
           <p><button type="button" onClick={() => setView({ kind: "phrases" })}>Ver las frases</button></p>
         </>
       )}
+      <h2>Fluidez: releer y reescuchar</h2>
+      {fluent.length === 0
+        ? <p><small>Aparecen aquí las lecturas de las unidades que completes. La fluidez se entrena con lo que ya entiendes.</small></p>
+        : <><p><small>Tres pasadas de una lectura que ya conoces: despacio, normal y rápido, con cada vez menos apoyo.</small></p>
+          <ul className="library">{fluent.map((r) => <li key={r.id}><h3 lang="it">{r.title}</h3><button type="button" onClick={() => setView({ kind: "fluency", reading: r })}>Empezar</button></li>)}</ul></>}
       <h2>Alfabeto y deletreo</h2>
       <p>Para decir «Come si scrive?» y que te entiendan al deletrear tu nombre.</p>
       <p><button type="button" onClick={() => setView({ kind: "alphabet" })}>Abrir</button></p>
@@ -285,6 +293,61 @@ function PhrasesPanel({ phrases, onExit }: { phrases: NonNullable<Speaking["phra
       </ul>
       <p><small>{phrases.missing_es} Fuente: {phrases.source.book} ({phrases.source.authors}), {phrases.source.license}, <a href={phrases.source.url} target="_blank" rel="noopener noreferrer">{phrases.source.chapter}</a>. Traducciones: IA, sin revisar por un nativo.</small></p>
       <p><button type="button" onClick={onExit}>← Volver</button></p>
+    </main>
+  );
+}
+
+function FluencyRun({ reading, store, onExit }: { reading: Reading; store: Store; onExit: () => void }) {
+  const player = usePlayer();
+  const [pass, setPass] = useState(0);
+  const [playing, setPlaying] = useState<number | null>(null);
+  const [finished, setFinished] = useState<boolean[]>(PASSES.map(() => false));
+  const [peek, setPeek] = useState(false);
+  const cancel = useRef(false);
+  const seconds = useRef(0);
+  const logged = useRef(false);
+  const run = async () => {
+    cancel.current = false;
+    const t0 = Date.now();
+    for (let i = 0; i < reading.sentences.length && !cancel.current; i++) {
+      setPlaying(i);
+      const r = await player(reading.sentences[i].it, PASSES[pass].rate);
+      if (r === "superseded" || r === "no_voice") { cancel.current = true; break; }
+      await waitCurrentEnd();
+    }
+    seconds.current += Math.min((Date.now() - t0) / 1000, 600);
+    setPlaying(null);
+    if (!cancel.current) setFinished((f) => f.map((v, k) => v || k === pass));
+  };
+  const stop = () => { cancel.current = true; stopSay(); setPlaying(null); };
+  const leave = () => {
+    stop();
+    if (!logged.current && seconds.current > 0) { logged.current = true; void addDaySeconds(store, "fluidez", Math.round(seconds.current)); }
+    onExit();
+  };
+  const p = PASSES[pass];
+  const show = p.showText || peek;
+  return (
+    <main>
+      <h1 lang="it">{reading.title}</h1>
+      <p className="runner-meta">Pasada {pass + 1} de {PASSES.length}: {p.label} (×{p.rate})</p>
+      <p>{p.help}</p>
+      <p>{playing === null ? <button type="button" className="primary" onClick={() => void run()}>🔊 Escuchar esta pasada</button> : <button type="button" onClick={stop}>⏹ Detener</button>}</p>
+      {!p.showText && <p><label><input type="checkbox" checked={peek} onChange={(e) => setPeek(e.target.checked)} /> Ver el texto</label></p>}
+      <div className="reading">
+        {reading.sentences.map((s, i) => (
+          <p key={s.id} data-playing={playing === i ? "true" : undefined}>
+            {s.speaker && <strong className="speaker">{s.speaker}: </strong>}
+            {show ? <span lang="it">{s.it}</span> : <span aria-hidden="true">· · ·</span>}
+          </p>
+        ))}
+      </div>
+      <p>
+        {pass > 0 && <button type="button" onClick={() => { stop(); setPeek(false); setPass(pass - 1); }}>← Pasada anterior</button>}{" "}
+        {pass < PASSES.length - 1 && <button type="button" disabled={!finished[pass]} onClick={() => { stop(); setPeek(false); setPass(pass + 1); }}>Siguiente pasada →</button>}
+      </p>
+      <p><small>Se suma a «Fluidez» el tiempo que pasas escuchando.</small></p>
+      <p><button type="button" className={finished.every(Boolean) ? "primary" : ""} onClick={leave}>{finished.every(Boolean) ? "Terminar" : "← Salir"}</button></p>
     </main>
   );
 }

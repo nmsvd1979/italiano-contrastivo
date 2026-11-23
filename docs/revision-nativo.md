@@ -4,42 +4,6 @@ Este documento reúne lo que más importa revisar. Para cada elemento marca ✅ 
 
 ## A. Fichas de enseñanza (qué dice la app antes de practicar)
 
-### u18 · Sonidos: c y g (ce, ci, che, chi)
-
-Las letras c y g suenan fuerte (como en «casa», «gato») ante a, o, u, y suave ante e, i: ce se lee «che» como en «chico» (cena), ci se lee «chi» (cinema); ge y gi suenan como la «j» inglesa de «jam» (gelato, giorno), no como la «j» española. Para el sonido fuerte ante e, i se agrega una h: che, chi, ghe, ghi (che, chiave, spaghetti, ghiaccio).
-
-Cuidado: el español hace lo contrario con «que, qui» y «gue, gui». En italiano «che» se lee «ke» y «ce» se lee «che» (como la «ch» de «chico»). Escucha cada palabra y fíjate en la h.
-
-Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
-
-### u19 · Sonidos: sce, sci y sche, schi
-
-El grupo sc suena «sh» suave ante e, i: sce y sci (scena, scienza, pesce, sciare). Con h vuelve a sonar «sk»: sche, schi (schema, schiena, pesche).
-
-Para un hispanohablante la dificultad es escribir lo que oyes: «pesce» (pez) y «pesche» (duraznos) se distinguen solo por la h. En esta unidad escuchas una frase y eliges la que está bien escrita.
-
-Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
-
-### u20 · Sonidos: gli (figlio, famiglia)
-
-gli se pronuncia como la «ll» del español de España (llave) o la «lli» de «million» en inglés: una l palatal, larga y suave (figlio, famiglia, moglie, voglio). No se lee «gli» como «gui-li» ni como una simple «l».
-
-Se escribe gli solo ante vocal en estas palabras; el artículo «gli» (gli amici) se pronuncia igual. Escucha y repite despacio: tu oído para esta combinación es el que más ayuda a escribir bien.
-
-Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
-
-### u63 · Sonidos: gn y z (gnocchi, pizza, grazie)
-
-El grupo gn suena como la ñ española: gnocchi se pronuncia «ñoqui», lasagne «lasaña», bagno «baño». Se escribe siempre gn, nunca ñ.\n\nLa z italiana suena [ts] (pizza, grazie, zio con [dz]): se parece a «ts», no a la «z» española de España ni a una simple «s». No se escribe «c» ante e, i: grazie, pazienza (no «gracie», no «pacienza»). La doble zz es más larga: pizza, no «piza». En esta unidad escuchas una frase y eliges cómo se escribe. La voz es sintética: sus fonemas se comprobaron (gn → ɲ, z → ts/dz), pero un nativo no la verificó.
-
-Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
-
-### u64 · Consonantes dobles (fato / fatto, sete / sette)
-
-En italiano las consonantes dobles no son un detalle de ortografía: se pronuncian más largas y cambian el sentido. Fato es el destino y fatto es «hecho»; sete es «sed» y sette es «siete»; pala es la pala y palla es la pelota; caro es «querido» y carro es «carro».\n\nPara decir la doble se mantiene el cierre de la consonante casi el doble de tiempo (t, p, c, l, n, m, r, b, d, g). Medimos la voz sintética Serena con pares mínimos: alarga el cierre de las oclusivas entre 1,5 y 3,5 veces y también las nasales y la l; no lo hace bien con la «ss», por eso esta unidad no la incluye. Practicas escuchando y eligiendo cómo se escribe; no se mide tu pronunciación y un nativo no ha verificado el audio.
-
-Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
-
 ### u37 · Vocabulario: saludar y ser cortés
 
 Fórmulas de contacto: buongiorno (hasta la tarde), buonasera (desde la tarde), buonanotte (para despedirse e irse a dormir), ciao (informal, sirve para saludar y despedirse), arrivederci (despedida neutra), salve (saludo neutro), grazie y prego (de nada).
@@ -56,11 +20,11 @@ Chiamarsi es un verbo reflexivo: mi chiamo, ti chiami, si chiama, ci chiamiamo, 
 
 Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
 
-### u26 · Vocabulario: los números
+### u18 · Sonidos: c y g (ce, ci, che, chi)
 
-Los números del 0 al 10: zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci. Del 11 al 16: undici, dodici, tredici, quattordici, quindici, sedici. Las decenas: venti, trenta, quaranta, cinquanta; y cento, mille (mil), con plural «mila» (duemila).
+Las letras c y g suenan fuerte (como en «casa», «gato») ante a, o, u, y suave ante e, i: ce se lee «che» como en «chico» (cena), ci se lee «chi» (cinema); ge y gi suenan como la «j» inglesa de «jam» (gelato, giorno), no como la «j» española. Para el sonido fuerte ante e, i se agrega una h: che, chi, ghe, ghi (che, chiave, spaghetti, ghiaccio).
 
-El español dice «veintiuno»; el italiano une las palabras: ventuno, ventidue, ventitré (con acento en tré). Y los números llevan acento en las formas compuestas con tre: ventitré, trentatré. La hora usa los mismos números: sono le otto.
+Cuidado: el español hace lo contrario con «que, qui» y «gue, gui». En italiano «che» se lee «ke» y «ce» se lee «che» (como la «ch» de «chico»). Escucha cada palabra y fíjate en la h.
 
 Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
 
@@ -69,6 +33,22 @@ Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario:
 Essere (ser/estar) y avere (tener/haber): sono, sei, è, siamo, siete, sono; ho, hai, ha, abbiamo, avete, hanno. En italiano la h de «ho, hai, ha, hanno» no se pronuncia: se escribe pero no suena.
 
 Essere sirve para ser y para estar en un lugar (sono a casa), y avere para la edad (ho venti anni: «tengo veinte años»). Hay que decir el pronombre solo para dar énfasis: «sono stanco» ya es «estoy cansado».
+
+Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
+
+### u45 · Vocabulario: países y nacionalidades
+
+Las nacionalidades y los idiomas se escriben con minúscula en italiano: sono cileno, parlo spagnolo, è italiana. Cambian como los adjetivos: italiano/italiana/italiani/italiane. Las terminadas en -e (francese, inglese, giapponese, cinese) valen para masculino y femenino.
+
+El idioma es masculino y suele llevar artículo: l'italiano è bello; pero con parlare y con in no lo lleva: parlo italiano, scrivo in italiano.
+
+Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
+
+### u26 · Vocabulario: los números
+
+Los números del 0 al 10: zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci. Del 11 al 16: undici, dodici, tredici, quattordici, quindici, sedici. Las decenas: venti, trenta, quaranta, cinquanta; y cento, mille (mil), con plural «mila» (duemila).
+
+El español dice «veintiuno»; el italiano une las palabras: ventuno, ventidue, ventitré (con acento en tré). Y los números llevan acento en las formas compuestas con tre: ventitré, trentatré. La hora usa los mismos números: sono le otto.
 
 Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
 
@@ -96,43 +76,27 @@ El español solo tiene «el, la, los, las». El italiano cambia el artículo seg
 
 Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
 
-### u49 · Vocabulario: objetos de todos los días
+### u19 · Sonidos: sce, sci y sche, schi
 
-Objetos de todos los días: telefono, cellulare, zaino, matita, lettera, regalo, foglio, quadro, cuscino… Aprende cada palabra con su artículo: il telefono, la lettera, lo zaino.
+El grupo sc suena «sh» suave ante e, i: sce y sci (scena, scienza, pesce, sciare). Con h vuelve a sonar «sk»: sche, schi (schema, schiena, pesche).
 
-Ojo con los parecidos: «lettera» es la carta que se envía (no «carta», que es el papel o la carta de la baraja). «Foglio» es una hoja de papel; «zaino» es la mochila. Pasa por la lista de palabras antes de practicar.
-
-Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
-
-### u41 · Vocabulario: cómo es (adjetivos)
-
-El adjetivo concuerda en género y número con el sustantivo: un ragazzo alto, una ragazza alta, ragazzi alti, ragazze alte. Los adjetivos terminados en -e valen para los dos géneros: un uomo grande, una donna grande (plural: grandi).
-
-En italiano el adjetivo suele ir después del sustantivo (una casa nuova), pero bello, buono, grande, piccolo, vecchio y nuovo van muchas veces antes y cambian de forma (un bel libro, un buon amico).
+Para un hispanohablante la dificultad es escribir lo que oyes: «pesce» (pez) y «pesche» (duraznos) se distinguen solo por la h. En esta unidad escuchas una frase y eliges la que está bien escrita.
 
 Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
 
-### u32 · Vocabulario: los colores
+### u14 · Verbos en -are: parlo, parli, parla
 
-Los colores concuerdan con el sustantivo: rosso/rossa/rossi/rosse. Pero rosa, viola y blu no cambian nunca (due gonne blu), y verde cambia solo en plural (verdi). Azzurro es el azul claro (el cielo) y blu es el azul oscuro.
+Los verbos en -are (parlare) hacen el presente con -o, -i, -a, -iamo, -ate, -ano: parlo, parli, parla, parliamo, parlate, parlano. El español dice -o, -as, -a, -amos, -áis, -an.
 
-Los colores se usan después del sustantivo: una gonna rossa, un gatto nero. Con el artículo se pueden nombrar solos: il rosso, il blu.
-
-Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
-
-### u45 · Vocabulario: países y nacionalidades
-
-Las nacionalidades y los idiomas se escriben con minúscula en italiano: sono cileno, parlo spagnolo, è italiana. Cambian como los adjetivos: italiano/italiana/italiani/italiane. Las terminadas en -e (francese, inglese, giapponese, cinese) valen para masculino y femenino.
-
-El idioma es masculino y suele llevar artículo: l'italiano è bello; pero con parlare y con in no lo lleva: parlo italiano, scrivo in italiano.
+Cuidado: tu parli (no «parlas»), voi parlate (no «parláis»). El sujeto (io, tu, lui…) se omite casi siempre porque la terminación ya dice quién es. Los verbos en -iare (studiare) y -care/-gare (cercare) tienen pequeñas particularidades.
 
 Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
 
-### u30 · Vocabulario: preguntar (dove, quando, perché…)
+### u15 · Verbos en -ere e -ire: leggo, dormo, finisco
 
-Palabras para preguntar: dove (dónde), quando (cuándo), perché (por qué y porque), come (cómo), chi (quién), quanto/a/i/e (cuánto), quale (cuál), cosa o che cosa (qué).
+Los verbos en -ere (leggere, vendere) hacen el presente con -o, -i, -e, -iamo, -ete, -ono: leggo, leggi, legge, leggiamo, leggete, leggono. Los en -ire (dormire) igual con -ite: dormo, dormi, dorme, dormiamo, dormite, dormono. Algunos -ire agregan -isc-: finire → finisco, finisci, finisce, finiamo, finite, finiscono.
 
-Ojo: «perché» sirve para preguntar (¿por qué?) y para responder (porque). «Che cosa» y «cosa» equivalen a «qué»; «quale» concuerda solo en número (quali). La entonación sube al final de la pregunta, y no se invierte el sujeto como en inglés.
+Fíjate en el «noi» (-iamo) y en el «loro» (-ono) que son iguales en todos los grupos. El español tiene «-emos / -imos»: aquí es siempre -iamo.
 
 Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
 
@@ -160,6 +124,62 @@ Error típico: «mi libro» o «tu casa» en italiano. Se dice il mio libro y la
 
 Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
 
+### u16 · Andare, fare, stare, venire: vado, faccio
+
+Cuatro verbos muy usados e irregulares: andare (vado, vai, va, andiamo, andate, vanno), fare (faccio, fai, fa, facciamo, fate, fanno), stare (sto, stai, sta, stiamo, state, stanno), venire (vengo, vieni, viene, veniamo, venite, vengono).
+
+Stare sirve para «estar» en la salud y en estar + gerundio (sto mangiando), y essere para el resto. Fare entra en muchas expresiones: fare colazione (desayunar), fare una doccia, fa caldo (hace calor).
+
+Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
+
+### u17 · Volere, potere, dovere: voglio, posso, devo
+
+Volere, potere y dovere (querer, poder, deber) van con infinitivo: voglio mangiare, posso venire, devo studiare. Presente: voglio, vuoi, vuole, vogliamo, volete, vogliono; posso, puoi, può, possiamo, potete, possono; devo, devi, deve, dobbiamo, dovete, devono.
+
+Son irregulares: aprende las formas de memoria. Ojo: «tengo que» se dice devo; «tener ganas de» es avere voglia di.
+
+Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
+
+### u20 · Sonidos: gli (figlio, famiglia)
+
+gli se pronuncia como la «ll» del español de España (llave) o la «lli» de «million» en inglés: una l palatal, larga y suave (figlio, famiglia, moglie, voglio). No se lee «gli» como «gui-li» ni como una simple «l».
+
+Se escribe gli solo ante vocal en estas palabras; el artículo «gli» (gli amici) se pronuncia igual. Escucha y repite despacio: tu oído para esta combinación es el que más ayuda a escribir bien.
+
+Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
+
+### u49 · Vocabulario: objetos de todos los días
+
+Objetos de todos los días: telefono, cellulare, zaino, matita, lettera, regalo, foglio, quadro, cuscino… Aprende cada palabra con su artículo: il telefono, la lettera, lo zaino.
+
+Ojo con los parecidos: «lettera» es la carta que se envía (no «carta», que es el papel o la carta de la baraja). «Foglio» es una hoja de papel; «zaino» es la mochila. Pasa por la lista de palabras antes de practicar.
+
+Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
+
+### u41 · Vocabulario: cómo es (adjetivos)
+
+El adjetivo concuerda en género y número con el sustantivo: un ragazzo alto, una ragazza alta, ragazzi alti, ragazze alte. Los adjetivos terminados en -e valen para los dos géneros: un uomo grande, una donna grande (plural: grandi).
+
+En italiano el adjetivo suele ir después del sustantivo (una casa nuova), pero bello, buono, grande, piccolo, vecchio y nuovo van muchas veces antes y cambian de forma (un bel libro, un buon amico).
+
+Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
+
+### u32 · Vocabulario: los colores
+
+Los colores concuerdan con el sustantivo: rosso/rossa/rossi/rosse. Pero rosa, viola y blu no cambian nunca (due gonne blu), y verde cambia solo en plural (verdi). Azzurro es el azul claro (el cielo) y blu es el azul oscuro.
+
+Los colores se usan después del sustantivo: una gonna rossa, un gatto nero. Con el artículo se pueden nombrar solos: il rosso, il blu.
+
+Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
+
+### u30 · Vocabulario: preguntar (dove, quando, perché…)
+
+Palabras para preguntar: dove (dónde), quando (cuándo), perché (por qué y porque), come (cómo), chi (quién), quanto/a/i/e (cuánto), quale (cuál), cosa o che cosa (qué).
+
+Ojo: «perché» sirve para preguntar (¿por qué?) y para responder (porque). «Che cosa» y «cosa» equivalen a «qué»; «quale» concuerda solo en número (quali). La entonación sube al final de la pregunta, y no se invierte el sujeto como en inglés.
+
+Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
+
 ### u38 · Questo y quello: este y aquel
 
 Questo (cerca): questo, questa, questi, queste. Quello (lejos): quello, quella, quelli, quelle; ante un sustantivo cambia como el artículo: quel libro, quello studente, quell'amico, quei libri, quegli studenti.
@@ -181,46 +201,6 @@ Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario:
 El español usa «tener» con hambre, sed, frío, calor, sueño, miedo y años; el italiano usa avere, no tenere: ho fame, ho sete, ho freddo, ho caldo, ho sonno, ho paura, ho venti anni.
 
 «Tenere» existe pero significa «sostener, mantener» (tieni la porta). Así que «tengo hambre» es «ho fame» y no «tengo fame». Este es el calco más frecuente al hablar de estados físicos.
-
-Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
-
-### u14 · Verbos en -are: parlo, parli, parla
-
-Los verbos en -are (parlare) hacen el presente con -o, -i, -a, -iamo, -ate, -ano: parlo, parli, parla, parliamo, parlate, parlano. El español dice -o, -as, -a, -amos, -áis, -an.
-
-Cuidado: tu parli (no «parlas»), voi parlate (no «parláis»). El sujeto (io, tu, lui…) se omite casi siempre porque la terminación ya dice quién es. Los verbos en -iare (studiare) y -care/-gare (cercare) tienen pequeñas particularidades.
-
-Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
-
-### u15 · Verbos en -ere e -ire: leggo, dormo, finisco
-
-Los verbos en -ere (leggere, vendere) hacen el presente con -o, -i, -e, -iamo, -ete, -ono: leggo, leggi, legge, leggiamo, leggete, leggono. Los en -ire (dormire) igual con -ite: dormo, dormi, dorme, dormiamo, dormite, dormono. Algunos -ire agregan -isc-: finire → finisco, finisci, finisce, finiamo, finite, finiscono.
-
-Fíjate en el «noi» (-iamo) y en el «loro» (-ono) que son iguales en todos los grupos. El español tiene «-emos / -imos»: aquí es siempre -iamo.
-
-Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
-
-### u16 · Andare, fare, stare, venire: vado, faccio
-
-Cuatro verbos muy usados e irregulares: andare (vado, vai, va, andiamo, andate, vanno), fare (faccio, fai, fa, facciamo, fate, fanno), stare (sto, stai, sta, stiamo, state, stanno), venire (vengo, vieni, viene, veniamo, venite, vengono).
-
-Stare sirve para «estar» en la salud y en estar + gerundio (sto mangiando), y essere para el resto. Fare entra en muchas expresiones: fare colazione (desayunar), fare una doccia, fa caldo (hace calor).
-
-Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
-
-### u17 · Volere, potere, dovere: voglio, posso, devo
-
-Volere, potere y dovere (querer, poder, deber) van con infinitivo: voglio mangiare, posso venire, devo studiare. Presente: voglio, vuoi, vuole, vogliamo, volete, vogliono; posso, puoi, può, possiamo, potete, possono; devo, devi, deve, dobbiamo, dovete, devono.
-
-Son irregulares: aprende las formas de memoria. Ojo: «tengo que» se dice devo; «tener ganas de» es avere voglia di.
-
-Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
-
-### u36 · Vocabulario: tiempo libre
-
-Tiempo libre: il calcio, il tennis, la musica, il film, la canzone, la festa, il concerto, la passeggiata, le vacanze. Con giocare se dice giocare a calcio, a tennis (con «a»); con suonare, suonare la chitarra, il pianoforte (con artículo).
-
-«Film», «sport» y «hobby» no cambian en plural (i film, gli sport). Una passeggiata es un paseo; fare una passeggiata, «dar un paseo».
 
 Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
 
@@ -250,11 +230,25 @@ Los adverbios no cambian. Con «mai» el verbo lleva «non»: non vado mai (nunc
 
 Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
 
+### u36 · Vocabulario: tiempo libre
+
+Tiempo libre: il calcio, il tennis, la musica, il film, la canzone, la festa, il concerto, la passeggiata, le vacanze. Con giocare se dice giocare a calcio, a tennis (con «a»); con suonare, suonare la chitarra, il pianoforte (con artículo).
+
+«Film», «sport» y «hobby» no cambian en plural (i film, gli sport). Una passeggiata es un paseo; fare una passeggiata, «dar un paseo».
+
+Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
+
 ### u56 · Rutina diaria: mi sveglio, ti alzi (reflexivos)
 
 Los verbos reflexivos (svegliarsi, alzarsi, lavarsi, vestirsi) usan los pronombres mi, ti, si, ci, vi: mi sveglio, ti alzi, si lava, ci vestiamo, vi riposate, si divertono. El español usa me, te, se, nos, os.
 
 El pronombre va antes del verbo y siempre concuerda con el sujeto. Cuidado: el «se» español se escribe «si» en italiano (si lava) y no se confunde con «sì» (con tilde, «sí») ni con «se» (la conjunción «si» condicional). Algunos verbos son reflexivos en un idioma y no en el otro.
+
+Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
+
+### u63 · Sonidos: gn y z (gnocchi, pizza, grazie)
+
+El grupo gn suena como la ñ española: gnocchi se pronuncia «ñoqui», lasagne «lasaña», bagno «baño». Se escribe siempre gn, nunca ñ.\n\nLa z italiana suena [ts] (pizza, grazie, zio con [dz]): se parece a «ts», no a la «z» española de España ni a una simple «s». No se escribe «c» ante e, i: grazie, pazienza (no «gracie», no «pacienza»). La doble zz es más larga: pizza, no «piza». En esta unidad escuchas una frase y eliges cómo se escribe. La voz es sintética: sus fonemas se comprobaron (gn → ɲ, z → ts/dz), pero un nativo no la verificó.
 
 Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
 
@@ -314,6 +308,12 @@ Ojo con las preposiciones: vicino a y davanti a llevan «a», pero lontano da ll
 
 Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
 
+### u64 · Consonantes dobles (fato / fatto, sete / sette)
+
+En italiano las consonantes dobles no son un detalle de ortografía: se pronuncian más largas y cambian el sentido. Fato es el destino y fatto es «hecho»; sete es «sed» y sette es «siete»; pala es la pala y palla es la pelota; caro es «querido» y carro es «carro».\n\nPara decir la doble se mantiene el cierre de la consonante casi el doble de tiempo (t, p, c, l, n, m, r, b, d, g). Medimos la voz sintética Serena con pares mínimos: alarga el cierre de las oclusivas entre 1,5 y 3,5 veces y también las nasales y la l; no lo hace bien con la «ss», por eso esta unidad no la incluye. Practicas escuchando y eligiendo cómo se escribe; no se mide tu pronunciación y un nativo no ha verificado el audio.
+
+Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
+
 ### u22 · Vocabulario: comida y bebida
 
 Comida y bebida: pane, latte, acqua, vino, caffè, mela, pesce, carne, pollo, riso, pasta, formaggio, uovo, frutta, verdura, zucchero, birra, pizza, gelato. Los sustantivos en -e o -o no siempre coinciden con el español: il latte (la leche), il pane.
@@ -335,6 +335,12 @@ Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario:
 En el bar: un caffè, un cappuccino, un tè, una spremuta (jugo exprimido), un panino (sándwich), il conto (la cuenta), la mancia (la propina). Para pedir: vorrei un caffè (quisiera un café), per favore, il conto, per favore.
 
 Menù y tè no cambian en plural (due menù, due tè). En un bar italiano se paga en la caja antes, o al final en la mesa, según el lugar.
+
+Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
+
+### u65 · Pedir con cortesía: vorrei, prendo
+
+Para pedir algo con cortesía se usa vorrei (quisiera): Vorrei un caffè, per favore. Voglio (quiero) existe y es correcto, pero en un bar o una tienda suena demasiado directo. Otra fórmula frecuente es prendo (tomo, me llevo): Prendo un cappuccino.\n\nEn plural: vorremmo (quisiéramos) y prendiamo (tomamos): Vorremmo due caffè. Para pagar: Il conto, per favore (la cuenta, por favor). El español usa «quisiera» o «me gustaría»; el italiano, vorrei, que es una forma del condicional que se aprende ya en A1 solo como fórmula de cortesía. Fuente: sillabo A1 de los enti certificatori y Piacere! (capítulos «I saluti» y «Al ristorante»).
 
 Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
 
@@ -463,14 +469,6 @@ Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario:
 Frutas, verduras y condimentos: patata, cipolla, carota, fragola, uva, banana, noce, miele, marmellata, sale, pepe, aceto, panna, fagioli, funghi, spinaci. «Patata» y «cipolla» son femeninas; «sale» y «pepe» son masculinos.
 
 «Fagioli», «funghi» y «spinaci» se usan casi siempre en plural. «Panna» es la crema de leche; «marmellata» es la mermelada.
-
-Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
-
-### u47 · Vocabulario: tiendas y comercios
-
-Tiendas y comercios: pasticceria, panificio, gelateria, libreria, edicola, macelleria, pescheria, tabaccheria, profumeria, cartoleria, gioielleria, lavanderia. Casi todos terminan en -eria y son femeninos.
-
-«Libreria» es donde se compran libros; la biblioteca es «biblioteca». La «edicola» es el quiosco de diarios y la «tabaccheria» vende tabaco y estampillas. Se va in libreria, in panetteria, en la tienda.
 
 Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario: 
 
@@ -1231,103 +1229,103 @@ Revisión: ☐ ✅  ☐ ✏️  ☐ ❌   Comentario:
 
 | id | Italiano | Español | Autor de la traducción | ✅/✏️/❌ |
 |---|---|---|---|---|
-| s_1005627 | Il suo negozio è sempre pieno di clienti. | Su negocio está siempre lleno de clientes. | Tatoeba | |
+| s_1002602 | In un minuto ci sono sessanta secondi. | En un minuto hay sesenta segundos. | IA | |
 | s_10060197 | Il fiore è blu. | La flor es azul. | Tatoeba | |
-| s_10461055 | Mia madre sta comprando una gonna. | Mi madre está comprando una falda. | Tatoeba | |
-| s_1055340 | Apri gli occhi, per favore. | Abre los ojos, por favor. | IA | |
-| s_1100207 | Siamo abituati ad indossare le scarpe. | Estamos acostumbrados a llevar zapatos. | Tatoeba | |
-| s_1110071 | È solo un sogno. | Es solo un sueño. | Tatoeba | |
-| s_1113245 | Tom ci insegna il francese. | Tom nos enseña francés. | Tatoeba | |
-| s_1157761 | La gonna rossa è nuova. | La falda roja es nueva. | Tatoeba | |
-| s_11710396 | Bevi il tuo vino. | Bebe tu vino. | IA | |
-| s_1239005 | Gli alberi saranno presto spogli. | Los árboles pronto quedarán desnudos. | Tatoeba | |
-| s_1253756 | Ho il mal di testa adesso. | Me duele la cabeza ahora. | Tatoeba | |
-| s_13156244 | La scuola comincia alle otto e mezza. | La escuela empieza a las ocho y media. | IA | |
-| s_1332710 | Io non sono un esperto. | No soy un experto. | Tatoeba | |
-| s_13521465 | Di che colore sono le nuvole? | ¿De qué color son las nubes? | Tatoeba | |
-| s_14083170 | Metti l'asciugamano sul porta asciugamani per farlo asciugare. | Pon la toalla en el toallero para secarla. | Tatoeba | |
-| s_1426795 | Mi piace fare colazione con lei. | Me gusta desayunar con ella. | Tatoeba | |
-| s_1442900 | Siamo venuti qui per divertirci. | Vinimos aquí para divertirnos. | Tatoeba | |
-| s_1446016 | A me piace correre. | Me gusta correr. | Tatoeba | |
-| s_1482371 | La sua risposta era logica. | Su respuesta fue lógica. | Tatoeba | |
-| s_1492622 | Grazie, ho capito tutto. | Gracias, lo entendí todo. | Tatoeba | |
-| s_1511150 | Il cane di Ken è bianco. | El perro de Ken es blanco. | Tatoeba | |
-| s_1512102 | Oggi devo ripassare spagnolo. | Hoy tengo que repasar español. | Tatoeba | |
-| s_1523829 | Puoi venire alle nove? | ¿Puedes venir a las nueve? | Tatoeba | |
-| s_1610237 | L'amore non perdona. | El amor no perdona. | Tatoeba | |
-| s_1688510 | Come si chiama questo insetto in inglese? | ¿Cómo se llama este insecto en inglés? | Tatoeba | |
-| s_1689003 | Naturalmente io sto scherzando! | ¡Por supuesto que estoy bromeando! | Tatoeba | |
-| s_1701554 | Questo televisore è pesante. | Este televisor es pesado. | Tatoeba | |
-| s_1727425 | Noi siamo in una biblioteca. | Estamos en una biblioteca. | Tatoeba | |
+| s_1017047 | Lo scandalo ha rovinato la sua carriera. | El escándalo arruinó su carrera. | Tatoeba | |
+| s_1019958 | Lei non si veste mai di verde. | Ella nunca se viste de verde. | Tatoeba | |
+| s_1035835 | Come posso risolvere questo problema? | ¿Cómo puedo solucionar este problema? | Tatoeba | |
+| s_10513483 | Parla spesso con lui. | Habla a menudo con él. | Tatoeba | |
+| s_10819798 | Siamo stati bloccati nell'ascensore per un'ora. | Nos hemos quedado atascados en un ascensor durante una hora. | Tatoeba | |
+| s_1103424 | Dobbiamo prendere l'autobus? | ¿Tenemos que tomar el autobús? | Tatoeba | |
+| s_1104199 | Perché sei in bagno? | ¿Por qué estás en el baño? | Tatoeba | |
+| s_1127638 | Gli alberi non crescono fino al cielo. | Los árboles no crecen hasta el cielo. | Tatoeba | |
+| s_1133603 | Ora lavora in Francia. | Ahora trabaja en Francia. | Tatoeba | |
+| s_1221313 | Questo cappello è mio. | Este sombrero es mío. | Tatoeba | |
+| s_1244879 | Io voglio la pizza, ma non ho voglia di uscire, e a quest'ora gli egiziani della pizzeria all'angolo non me la portano. | Quiero una pizza, pero no tengo ganas de salir, y a esta hora los egipcios de la pizzería de la esquina no me la traen. | Tatoeba | |
+| s_1257883 | Tom ha baciato Mary. | Tom besó a Mary. | Tatoeba | |
+| s_12676650 | Sono le nove e un quarto del mattino. | Son las nueve y cuarto de la mañana. | Tatoeba | |
+| s_1308149 | Vorrei bere un po' di tè o di caffè. | Querría tomar un poco de té o café. | Tatoeba | |
+| s_13185467 | Tom ha il naso appuntito. | Tom tiene la nariz puntiaguda. | Tatoeba | |
+| s_1326288 | Lui ha una grande famiglia. | Él tiene una familia grande. | Tatoeba | |
+| s_1354239 | Sono troppo stanco per correre. | Estoy demasiado cansado para correr. | Tatoeba | |
+| s_13576911 | Mi piace il mare. | Me gusta el mar. | Tatoeba | |
+| s_14083171 | Ho tre gatti intorno a me. | Tengo tres gatos alrededor de mí. | Tatoeba | |
+| s_1475704 | I contadini coltivano la terra. | Los granjeros cultivan la tierra. | Tatoeba | |
+| s_1517186 | Sono le due meno un quarto. | Son las dos menos cuarto. | Tatoeba | |
+| s_1551257 | Mary suona il pianoforte. | Mary toca el piano. | Tatoeba | |
+| s_1574207 | Lei non ha paura. | No tiene miedo. | Tatoeba | |
+| s_1623104 | Io voglio vivere in Italia. | Quiero vivir en Italia. | Tatoeba | |
+| s_1701472 | Questo libro costa quattro dollari. | Este libro cuesta cuatro dólares. | Tatoeba | |
+| s_1802972 | La mia sorella maggiore ha i capelli che le cadono sulle spalle. | A mi hermana mayor el cabello le llega hasta los hombros. | Tatoeba | |
+| s_1871597 | Io non ho paura. | No tengo miedo. | Tatoeba | |
 | s_1905334 | Il gatto sembra estremamente felice. | El gato parece muy feliz. | Tatoeba | |
-| s_2022155 | Ho tagliato le cipolle e le ho messe in una casseruola con burro e olio. | Piqué las cebollas y las puse en una cacerola con mantequilla y aceite. | Tatoeba | |
-| s_2052027 | In questi giorni sono molto impegnato. | Estoy muy ocupado estos días. | Tatoeba | |
-| s_2077177 | Bob è il mio amico. | Bob es mi amigo. | Tatoeba | |
-| s_2282212 | È esattamente lo stesso principio di questa! | ¡Es exactamente el mismo principio que ésta! | Tatoeba | |
-| s_2347061 | L'hotel ha un'atmosfera gradevole. | El hotel tiene una atmósfera agradable. | Tatoeba | |
-| s_2399430 | Ha paura di perdere influenza e attenzione. | Ella teme perder influencia y atención. | Tatoeba | |
-| s_2830534 | Devi tenerti pulite le scarpe. | Debes mantener limpios tus zapatos. | IA | |
-| s_3021027 | L'uomo che ha dato la sua busta paga alla moglie è stato più saggio di quello che l'ha data all'amante. | El hombre que le dio su cheque de pago a su esposa fue más sabio que el que se lo dio a su amante. | Tatoeba | |
-| s_3128415 | Lei indossa un maglione di lana. | Ella está usando un suéter de lana. | Tatoeba | |
-| s_3175523 | Vuole che chiami Tom? | ¿Quiere que llame a Tom? | IA | |
-| s_3183017 | Prendi Luisa con te. | Lleva a Luisa contigo. | Tatoeba | |
-| s_3241446 | È la cosa più difficile che io abbia mai fatto. | Es la cosa más difícil que yo he hecho jamás. | IA | |
-| s_3322047 | Sei sicura che conosci Tom? | ¿Estás segura de que conoces a Tom? | IA | |
-| s_3437335 | A noi piacciono i fagioli. | Nos gustan los frijoles. | Tatoeba | |
-| s_3437762 | Io non voglio pensarci. | Yo no quiero pensar en eso. | IA | |
-| s_3511546 | Lui si chiama Tom, non John. | Él se llama Tom, no John. | IA | |
-| s_3538187 | Mi lavo i capelli ogni giorno. | Me lavo el pelo todos los días. | IA | |
-| s_3608286 | Sto solo guardando, grazie. | Solo estoy mirando, gracias. | IA | |
-| s_374219 | Il gatto beve il latte. | El gato bebe leche. | Tatoeba | |
-| s_3768543 | Non puoi andare a casa fino alle due e mezza. | No puedes irte a casa hasta las dos y media. | IA | |
-| s_3783546 | Cominciamo alle due e mezza. | Empezamos a las dos y media. | IA | |
+| s_2019957 | Lui vive a Tokyo. | Él vive en Tokio. | Tatoeba | |
+| s_2426336 | Sfortunatamente, Nancy aveva ragione. | Desafortunadamente, Nancy tenía razón. | IA | |
+| s_2556097 | Mi manca mia moglie. | Extraño a mi esposa. | IA | |
+| s_2681756 | Aveva ragione dopo tutto. | Tenía razón después de todo. | IA | |
+| s_2798859 | Tom è un immigrato messicano. | Tom es un inmigrante mejicano. | Tatoeba | |
+| s_2856760 | Buongiorno. Come state oggi? | Buenos días. ¿Cómo están hoy? | IA | |
+| s_3014567 | Mi piace la loro casa. | Me gusta su casa. | Tatoeba | |
+| s_3055534 | Loro sono qui? | ¿Ellos están aquí? | IA | |
+| s_3156369 | Mi piace il latte. | Me gusta la leche. | Tatoeba | |
+| s_3317351 | La scatola è pesante. | La caja es pesada. | Tatoeba | |
+| s_3377406 | Io mi sposo con lei a giugno. | Yo me caso con ella en junio. | IA | |
+| s_3421963 | Sono bellissimi tutti e quattro. | Los cuatro son hermosos. | Tatoeba | |
+| s_3423545 | Qui ci annoiamo senza di te! | ¡Aquí nos aburrimos sin ti! | Tatoeba | |
+| s_351001 | È pericoloso nuotare in questo lago. | Es peligroso nadar en este lago. | Tatoeba | |
+| s_3516070 | Ho dimenticato il libro a casa. | Olvidé el libro en casa. | Tatoeba | |
+| s_3635296 | Vorrei un altro po' di burro. | Quisiera un poco más de mantequilla. | Tatoeba | |
+| s_3637343 | Tu vuoi farla? | ¿Tú quieres hacerla? | IA | |
+| s_377100 | Non ci piace la pioggia. | No nos gusta la lluvia. | Tatoeba | |
+| s_377116 | I giorni di pioggia mi deprimono. | Los días de lluvia me deprimen. | Tatoeba | |
 | s_378681 | Sto scrivendo una lettera. | Estoy escribiendo una carta. | Tatoeba | |
-| s_382866 | Roma è una città antica. | Roma es una ciudad antigua. | Tatoeba | |
-| s_383008 | Scusi, chi è questa signora? | Disculpe, ¿quién es esta señora? | IA | |
-| s_3838494 | Voglio i soldi di Tom. | Quiero el dinero de Tom. | IA | |
-| s_384842 | Che cos'hai regalato a Mike per il suo compleanno? | ¿Qué le regalaste a Mike para su cumpleaños? | Tatoeba | |
-| s_389496 | Gli piace questo genere di musica. | Le gusta esta clase de música. | Tatoeba | |
-| s_409847 | Questa è la penna che ho perso ieri. | Esta es la pluma que se me perdió ayer. | Tatoeba | |
-| s_4106066 | Ti lavi le mani prima di mangiare? | ¿Te lavas las manos antes de comer? | Tatoeba | |
-| s_418435 | Siamo andati a Londra l'anno scorso. | Fuimos a Londres el año pasado. | Tatoeba | |
-| s_418993 | C'è un giardino davanti alla casa. | Hay un jardín en frente de la casa. | Tatoeba | |
-| s_427926 | Ha un'auto straniera. | Tiene un coche extranjero. | Tatoeba | |
-| s_428814 | Quanto vale questo anello? | ¿Cuánto vale este anillo? | Tatoeba | |
-| s_4387187 | Salve? C'è nessuno? | ¿Hola? ¿Hay alguien? | IA | |
-| s_4425 | Vuoi ballare con me? | ¿Bailas conmigo? | Tatoeba | |
-| s_4465222 | Io vedo la mia corona. | Veo mi corona. | Tatoeba | |
-| s_4667408 | Metti questo libro sopra agli altri. | Pon ese libro sobre los demás. | Tatoeba | |
-| s_4703335 | Noi non vogliamo questa. | No queremos ésta. | Tatoeba | |
-| s_4918210 | Abbiamo intenzione di andare in treno. | Tenemos la intención de ir en tren. | Tatoeba | |
-| s_5021301 | L'italiano è una lingua difficile. | El italiano es un idioma difícil. | Tatoeba | |
-| s_5098701 | Siamo pronte per la cena. | Estamos listas para la cena. | Tatoeba | |
-| s_5330590 | Io vado a letto alle dieci e mezza. | Me acuesto a las diez y media. | IA | |
-| s_5697264 | Domani finalmente mia moglie viene in Italia! | Mañana, por fin, viene mi mujer a Italia. | Tatoeba | |
-| s_5775140 | Posso sedermi accanto a lei? | ¿Puedo sentarme al lado de ella? | Tatoeba | |
-| s_607489 | I russi non sorridono mai. | Los rusos nunca sonríen. | Tatoeba | |
+| s_378685 | Hai ricevuto la mia lettera? | ¿Has recibido mi carta? | Tatoeba | |
+| s_3796402 | Qual è il suo soprannome? | ¿Cuál es su sobrenombre? | Tatoeba | |
+| s_387346 | Prendi questa medicina se non ti senti bene. | Tómate esta medicina si no te sientes bien. | Tatoeba | |
+| s_3883769 | Mi piace parlare di amore. | Me gusta hablar del amor. | Tatoeba | |
+| s_388801 | Ho bisogno di un nuovo computer. | Necesito un computador nuevo. | IA | |
+| s_3966973 | L'auto è gialla. | El auto es amarillo. | IA | |
+| s_4043175 | Io posso aiutare Tom. | Puedo ayudar a Tom. | Tatoeba | |
+| s_4461392 | Questa è mia moglie. | Esta es mi esposa. | Tatoeba | |
+| s_4525882 | Amo la birra fredda. | Amo la cerveza fría. | Tatoeba | |
+| s_4641 | Accetta carte di credito? | ¿Acepta tarjeta de crédito? | Tatoeba | |
+| s_4711129 | Quella è la mia frase! | ¡Esa es mi frase! | Tatoeba | |
+| s_475635 | Non ho né il tempo né i soldi. | No tengo ni tiempo ni dinero. | Tatoeba | |
+| s_479753 | Non sono contento del mio lavoro. | No estoy contento con mi trabajo. | Tatoeba | |
+| s_499903 | Quella casa mi appartiene. | Aquella casa me pertenece. | Tatoeba | |
+| s_5184653 | Fa molto freddo qui a febbraio. | Aquí hace mucho frío en febrero. | IA | |
+| s_527182 | L'aeroporto è abbastanza lontano dal centro della città. | El aeropuerto está bastante lejos del centro de la ciudad. | Tatoeba | |
+| s_5570671 | Tom è nato a ottobre. | Tom nació en octubre. | IA | |
+| s_5633830 | Mi piace il gelato alla fragola. | Me gusta el helado de frutilla. | IA | |
+| s_5654822 | Questo studente viene dal Giappone. | Este estudiante viene de Japón. | Tatoeba | |
+| s_569259 | Non voglio rischiare la mia vita. | Yo no quiero arriesgar mi vida. | Tatoeba | |
+| s_5766148 | Per chi è la festa? | ¿Para quién es la fiesta? | Tatoeba | |
+| s_609164 | La rosa è un fiore e la colomba è un uccello. | La rosa es una flor y la paloma es un ave. | Tatoeba | |
 | s_634395 | Dicembre ha trentuno giorni. | Diciembre tiene treinta y un días. | Tatoeba | |
-| s_646997 | Gli manca la disciplina. | Le hace falta disciplina. | Tatoeba | |
-| s_6476779 | Per favore, chiama Tom. | Por favor, llama a Tom. | IA | |
-| s_6598139 | La partita inizia alle due e mezza. | El partido empieza a las dos y media. | IA | |
-| s_6609111 | Questo quaderno è blu? | Este cuaderno es azul. | Tatoeba | |
-| s_6765107 | Io non mi preoccupo per Tom. | Yo no me preocupo por Tom. | IA | |
-| s_702487 | Lui non è americano. | Él no es americano. | Tatoeba | |
-| s_7558833 | Lui vuole un orologio come il tuo. | Él quiere un reloj como el tuyo. | Tatoeba | |
-| s_7670790 | Come si chiama quell'animale? | ¿Cómo se llama ese animal? | IA | |
-| s_767156 | Ci sono molte uova nella scatola. | Hay muchos huevos en la caja. | Tatoeba | |
-| s_7716415 | Siete già a casa? | ¿Ya están en casa? | IA | |
-| s_7751123 | È pericoloso giocare col fuoco. | Es peligroso jugar con fuego. | Tatoeba | |
-| s_838753 | Mi ha telefonato a mezzanotte. | Él me llamó a medianoche. | Tatoeba | |
-| s_867346 | Mia madre non si alza mai presto. | Mi madre nunca se levanta temprano. | Tatoeba | |
-| s_878860 | Ho una rivista nella mia stanza. | Tengo una revista en mi cuarto. | Tatoeba | |
-| s_883315 | Mi ha parlato sussurrando. | Me habló susurrando. | Tatoeba | |
-| s_885803 | Mi piace andare al cinema. | Me gusta ir al cine. | Tatoeba | |
+| s_634680 | Nessuno può risolvere questo problema. | Nadie puede resolver este problema. | Tatoeba | |
+| s_643191 | Questo è il nostro obiettivo principale. | Éste es nuestro principal objetivo. | Tatoeba | |
+| s_6555475 | Noi amiamo gli alberi. | Nosotros amamos los árboles. | IA | |
+| s_6617786 | Quel tavolo è sporco. | Aquella mesa está sucia. | Tatoeba | |
+| s_6735692 | Vanno in vacanza in Italia? | ¿Van de vacaciones a Italia? | Tatoeba | |
+| s_701460 | Vorrei essere un buon cantante. | Quisiera ser un buen cantante. | Tatoeba | |
+| s_7017591 | Lei sta mangiando degli spaghetti. | Ella se está comiendo espaguetis. | Tatoeba | |
+| s_704976 | Riesci a distinguere l'argento dallo stagno? | ¿Puedes distinguir la plata del estaño? | Tatoeba | |
+| s_716408 | Ha paura di fare errori. | Él tiene miedo de cometer errores. | Tatoeba | |
+| s_749858 | Lei ha il naso lungo. | Ella tiene la nariz larga. | IA | |
+| s_7529340 | Alcuni animali si riproducono negli zoo. | Algunos animales se reproducen en los zoológicos. | Tatoeba | |
+| s_753336 | Ho bisogno di una mappa. | Necesito un mapa. | Tatoeba | |
+| s_758881 | Lei abita a Kyoto. | Ella vive en Kioto. | Tatoeba | |
+| s_7794216 | È un lupo quello? | ¿Acaso es un lobo? | Tatoeba | |
+| s_7796553 | Ciao, tu sei Ana? | Hola, ¿eres Ana? | IA | |
+| s_822438 | Oggi è il primo settembre. | Hoy es primero de septiembre. | IA | |
+| s_824694 | La carota è uno spuntino salutare. | La zanahoria es una colación saludable. | IA | |
+| s_841278 | Dobbiamo essere fedeli ai nostri principi. | Debemos ser leales a nuestros principios. | Tatoeba | |
+| s_8887236 | Come si chiama questo gioco? | ¿Cómo se llama este juego? | IA | |
+| s_893690 | Quel libro è piccolo. | Ese libro es pequeño. | Tatoeba | |
 | s_894175 | Anche a me piacciono i dolci. | A mí también me gustan los dulces. | Tatoeba | |
-| s_894765 | C'è un cagnolino marrone sotto quel tavolo. | Hay un pequeño perro marrón bajo esa mesa. | Tatoeba | |
-| s_916627 | Sono più basso di te. | Soy más bajo que tú. | Tatoeba | |
-| s_916628 | Sono più bassa di te. | Soy más baja que tú. | Tatoeba | |
-| s_948023 | Oggi lei si sente male. | Ella se siente mal hoy. | Tatoeba | |
-| s_9712353 | Qualcuno è ancora nella doccia. | Alguien todavía está en la ducha. | IA | |
-| s_975256 | Posso scattarti una foto? | ¿Puedo sacarte una foto? | Tatoeba | |
-| s_978867 | Ho lavorato alla fattoria tutto il giorno. | Estuve todo el día trabajando en la granja. | Tatoeba | |
-| s_993614 | Vivono in una casa affittata. | Viven en una casa alquilada. | Tatoeba | |
+| s_894191 | Come ti senti oggi? | ¿Cómo te sientes hoy? | IA | |
+| s_946942 | Questo orologio antico vale mille dollari. | Este reloj antiguo cuesta mil dólares. | Tatoeba | |
+| s_969543 | Non posso approvare questo progetto. | No puedo aprobar este proyecto. | Tatoeba | |
+| s_9707292 | Mi piace la campagna. | Me gusta el campo. | Tatoeba | |
+| s_976551 | Vorrei regalare alla mamma una pianta. | Quisiera regalarle una planta a mamá. | IA | |
+| s_977762 | Lui porta gli occhiali. | Él usa lentes. | IA | |

@@ -37,3 +37,27 @@ def find_phonetic(code: str, it: str):
             if wrong != word and not is_word(wrong, es=not allow_es):
                 return m.start(), m.end(), word, wrong
     return None
+
+
+def second_wrong(code: str, it: str, first_wrong: str) -> str | None:
+    """Otra forma mal escrita para un tercer distractor: la misma palabra con otra regla o, si no, otra palabra de la oración. Siempre una no-palabra."""
+    first = find_phonetic(code, it)
+    if not first:
+        return None
+    start, end = first[0], first[1]
+    for m in _WORD.finditer(it):
+        word = m.group(0)
+        if len(word) < MIN_LEN or "'" in word:
+            continue
+        for rule in RULES[code]:
+            pattern, repl = rule[0], rule[1]
+            allow_es = len(rule) > 2 and rule[2]
+            wrong = re.sub(pattern, repl, word, count=1, flags=re.I)
+            if wrong == word or is_word(wrong, es=not allow_es):
+                continue
+            if word[0].isupper():
+                wrong = wrong[0].upper() + wrong[1:]
+            text = it[:m.start()] + wrong + it[m.end():]
+            if text != it[:start] + first_wrong + it[end:]:
+                return text
+    return None

@@ -17,12 +17,40 @@ def _base(kind: str, sentence: dict, code: str | None) -> dict:
     return d
 
 
+def extra_wrong_text(it: str, calque: Calque) -> str | None:
+    """Texto completo de un SEGUNDO distractor del mismo error (tercera opción), cuando el generador del código puede armar otro distinto del primero.
+    Con dos opciones se acierta el 50 % por azar; con tres, el 33 %. Presente: otra persona del mismo verbo; vocabulario: otra palabra del tema;
+    sonidos: otra grafía imposible. Los demás códigos quedan con dos opciones."""
+    first = it[:calque.start] + calque.wrong + it[calque.end:]
+    from pipeline.exercises import phonetics, present, vocab
+    if calque.code in present.PRESENT_CODES:
+        for f in present.FORMS.get(calque.correct.lower(), []):
+            if f.code != calque.code:
+                continue
+            for step in (3, 1, 2, 4, 5):
+                cand = f.forms[(f.person + step) % 6]
+                if cand not in (f.forms[f.person], calque.wrong.lower()):
+                    cand = cand.capitalize() if calque.correct[:1].isupper() else cand
+                    return it[:calque.start] + cand + it[calque.end:]
+        return None
+    if calque.code in vocab.VOCAB_CODES:
+        alt = vocab.second_replacement(calque.code, it)
+        return it[:calque.start] + alt + it[calque.end:] if alt and alt.lower() != calque.wrong.lower() else None
+    if calque.code in phonetics.RULES:
+        text = phonetics.second_wrong(calque.code, it, calque.wrong)
+        return text if text and text != first else None
+    return None
+
+
 def build_choice(sentence: dict, calque: Calque, seed: int) -> dict:
     it = sentence["it"]
     good = {"text": it, "correct": True}
     bad = {"text": it[:calque.start] + calque.wrong + it[calque.end:], "correct": False,
            "error_code": calque.code, "distractor_kind": calque.kind}
     options = [bad, good] if seed % 2 else [good, bad]
+    extra = extra_wrong_text(it, calque)
+    if extra:
+        options.insert((seed + 1) % 3, {"text": extra, "correct": False, "error_code": calque.code, "distractor_kind": calque.kind})
     item = {**_base("choice", sentence, calque.code), "type": "choice_l1_distractor",
             "prompt_es": "Escucha la frase y elige cómo se escribe." if calque.listen else "¿Cuál es la frase correcta en italiano?", "options": options}
     if calque.listen:

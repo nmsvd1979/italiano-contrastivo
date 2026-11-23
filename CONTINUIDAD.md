@@ -2,6 +2,14 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-23 (7) — Bloque 3 (parte): tercer distractor, fluidez y revisión nativa
+**Hecho:**
+1. **Distractores:** las elecciones con 2 opciones bajaron de 2.570 a 1.100 (ahora 2.681 tienen 3). Tercera opción: otra persona del mismo verbo (presente), otra palabra del tema (vocabulario, se distingue por audio) u otra grafía imposible (sonidos). Los códigos sin generador (chiamarsi, piacere, riflessivo, tenere, artículos, género…) siguen con 2: son errores de una sola forma.
+2. **Fluidez** (en «Hablar»): tres pasadas de una lectura de una unidad ya completada, a ×0,8, ×1 y ×1,15, la última sin texto; suma a la hebra «Fluidez».
+3. **Revisión nativa:** `pipeline/review/native.py` + `scripts/revision_nativo_aplicar.py` leen `docs/revision-nativo.md` ya marcado (✅/✏️/❌), miden la **tasa de error real por origen (IA/Tatoeba)** y con `--registrar` guardan `reviewer="native"`. El documento se regeneró (100 oraciones). Hoy no hay ninguna marca: **la tasa de error real del contenido sigue sin medirse**.
+**No hecho:** segunda voz Piper (hay que descargar un modelo: pendiente de tu permiso, y verificar su licencia); textos tipo PLIDA (menú, cartel, horario, sms): no hay fuente abierta verificada y no se inventan.
+**Pruebas:** Python 1240 y web 890 en verde; pantalla vista a 375 px (estado vacío de fluidez). **No se probó** el audio acelerado en iPhone.
+
 ## 2026-11-23 (6) — Bloque 2: habla guiada, hito de cuatro partes y números que faltaban
 **Hecho:**
 1. **Números:** 27 oraciones nuevas (13, 15, 16, 18, 20, 30, 40, 50; auditoría IA, no nativo) y `sedici`/`diciotto` agregados al vocabulario. Medido: ahora aparecen 13, 15, 20, 30, 40, 50 (2–6 veces). **Sigue en 0: *diciannove*** (en la base solo hay «diciannovesimo»).

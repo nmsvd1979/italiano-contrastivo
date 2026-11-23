@@ -88,6 +88,20 @@ def find_vocab(code: str, it: str):
     return m.start(), m.end(), m.group(0), repl, e.gloss, (d1, d2)
 
 
+def second_replacement(code: str, it: str) -> str | None:
+    """Otra palabra del tema (distinta de la sustituta de `find_vocab`) para un tercer distractor; None si no hay otra con el mismo género y número."""
+    hit = find_vocab(code, it)
+    if not hit:
+        return None
+    start, end, word, first = hit[0], hit[1], hit[2], hit[3]
+    e = next(x for x in topics()[code] if x.form.lower() == word.lower())
+    same = [x for x in topics()[code] if x.form != e.form and x.form.lower() != first.lower() and (x.gender, x.num) == (e.gender, e.num) and art_class(x) == art_class(e)]
+    if not same:
+        return None
+    repl = _pick(same, it + e.form + "2").form
+    return repl[0].upper() + repl[1:] if word[0].isupper() else repl
+
+
 # --- artículo italiano y avisos contrastivos del paso «Palabras» -------------------------------------------------------------------
 _ES_ARTICLE = re.compile(r"^(el|la|los|las)\s+(\w+)", re.I)
 _ES_FEM_EL = {"agua", "hambre", "alma", "águila", "área", "arma", "hacha", "aula", "ala"}  # femeninos con «el» ante a- tónica
