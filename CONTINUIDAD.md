@@ -2,6 +2,19 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-23 (5) — Bloque 1 de la auditoría de A1 (arreglos rápidos)
+**Hecho (sin prueba de nivel inicial en la app, por decisión del usuario; la ubicación solo sirve para saltar unidades que ya sabes):**
+1. Ruta de A1 reordenada: saludar y presentarte primero, verbos regulares en la posición 11, sonidos intercalados cada 4–8 unidades.
+2. Unidades de sonidos y primer día: frases de ≤7 palabras, sin enclíticos (*pensarci*), sin passato con *essere* ni gramática futura; sin repaso de falsos amigos hasta completar dos unidades.
+3. Lecturas: se ve quién habla, «Escuchar todo» sin traducción y cuatro lecturas pasan a su unidad.
+4. Prueba de unidad: un solo comodín de autoaprobación, 8 frases en unidades grandes; la ubicación exige 4 aciertos por unidad.
+5. u65 sin «voglio»; tope de 12 oraciones por palabra en vocabulario (`balance_by_word`) con pruebas que lo vigilan.
+6. Huecos de contenido: 275 oraciones nuevas (meses, números, personas tu/noi/voi/loro) auditadas por IA (`reviewer="llm-audit"`, **no** por un nativo), 292 audios nuevos con Piper, 17 tamices nuevos. `scripts/gap_pack.py` elige candidatos por palabra objetivo.
+**Medido tras el cambio:** los 12 meses aparecen (1–8 veces cada uno); tu/noi/voi/loro 60–87 veces. **Sigue faltando:** 13, 15, 16, 19, 20, 30, 40 y 50 no aparecen en ninguna oración.
+**Costos declarados:** `KNOWN_GAPS` ahora incluye u19, u20, u39, u35, u65, u42 (bajo 30 oraciones: escasez real en Tatoeba); u47 pasó a «planificada»; u65 tiene 18 oraciones; el audio pesa ≈35 MB.
+**Pruebas:** Python 1225 y web 871 en verde. No se corrió `tsc` ni se probó en iPhone ni se escucharon los audios nuevos.
+**Siguiente:** Bloque 2 (unidades funcionales con diálogos de libros abiertos: aclaraciones, deletreo, datos personales, hora, direcciones, bar; tareas orales; hito de 4 destrezas) y completar los números faltantes.
+
 ## 2026-11-23 (4) — Auditoría de cobertura de A1 (veredicto: «parcialmente»)
 Informe en `docs/auditoria-cobertura-a1.md` (+ revisión independiente de IA en `docs/auditoria-a1-revisor-independiente.md`). Cubre gramática y léxico; **no cubre las funciones comunicativas** (aclaraciones, datos personales, direcciones, pedir en el bar), ni producción oral, ni evalúa con las cuatro destrezas. Hallazgos medidos: faltan 7 meses, números 14/17/19/60–90, el verbo *dire*, *lavorare/mettere/partire/pensare/credere*, y las personas tu/noi/voi casi no se practican; las 5 primeras unidades son solo de sonidos; el primer «Hoy» propone repaso de falsos amigos sin haber estudiado; el campo `speaker` de los diálogos no se muestra; la cápsula de u65 practica «voglio». Plan en 3 bloques (arreglos rápidos → funciones y habla → calidad) dentro del informe. **Siguiente:** el usuario elige por dónde empezar (recomendado: Bloque 1).
 

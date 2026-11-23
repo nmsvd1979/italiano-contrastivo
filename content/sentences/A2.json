@@ -1,5 +1,28 @@
 [
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "En un minuto hay sesenta segundos.",
+    "es_author": "IA (Claude)",
+    "id": "s_1002602",
+    "it": "In un minuto ci sono sessanta secondi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1002602",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -222,6 +245,29 @@
       "ERR_PREP_FIXED_GOV": "preposizione_governo_fisso"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Somos de la misma estatura: un metro sesenta.",
+    "es_author": "IA (Claude)",
+    "id": "s_10254991",
+    "it": "Siamo della stessa altezza: un metro e sessanta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10254991",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "carlosalberto",
@@ -492,6 +538,28 @@
     "source_id": "11005680",
     "tag_rules": {
       "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "marcospinello",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_TEMPO"
+    ],
+    "es": "Jack nació el diez de agosto.",
+    "es_author": "Shishir",
+    "es_source_id": "521944",
+    "id": "s_1101806",
+    "it": "Jack è nato il dieci agosto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1101806",
+    "tag_rules": {
+      "ERR_VOC_TEMPO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1966,6 +2034,29 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_TEMPO"
+    ],
+    "es": "Mi cumpleaños es el diez de noviembre.",
+    "es_author": "IA (Claude)",
+    "id": "s_13534327",
+    "it": "Il mio compleanno è il dieci novembre.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13534327",
+    "tag_rules": {
+      "ERR_VOC_TEMPO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -4546,6 +4637,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_TEMPO"
+    ],
+    "es": "Jack nació el diez de agosto.",
+    "es_author": "IA (Claude)",
+    "id": "s_3011657",
+    "it": "Jack è nato il dieci di agosto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3011657",
+    "tag_rules": {
+      "ERR_VOC_TEMPO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -4978,6 +5092,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_TEMPO"
+    ],
+    "es": "Yo me caso con ella en junio.",
+    "es_author": "IA (Claude)",
+    "id": "s_3377406",
+    "it": "Io mi sposo con lei a giugno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3377406",
+    "tag_rules": {
+      "ERR_VOC_TEMPO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -5210,6 +5347,29 @@
       "ERR_VOC_BAR": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_TEMPO"
+    ],
+    "es": "La escuela empieza en septiembre en Europa.",
+    "es_author": "IA (Claude)",
+    "id": "s_3592339",
+    "it": "La scuola inizia a settembre in Europa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3592339",
+    "tag_rules": {
+      "ERR_VOC_TEMPO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -6927,6 +7087,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Hay sesenta segundos en un minuto.",
+    "es_author": "IA (Claude)",
+    "id": "s_484781",
+    "it": "Ci sono sessanta secondi in un minuto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "484781",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "ianna",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -7343,6 +7526,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_TEMPO"
+    ],
+    "es": "Tom nació en octubre.",
+    "es_author": "IA (Claude)",
+    "id": "s_5570671",
+    "it": "Tom è nato a ottobre.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5570671",
+    "tag_rules": {
+      "ERR_VOC_TEMPO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -7572,6 +7778,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_TEMPO"
+    ],
+    "es": "En Japón la escuela empieza en abril.",
+    "es_author": "IA (Claude)",
+    "id": "s_621054",
+    "it": "In Giappone la scuola comincia in aprile.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "621054",
+    "tag_rules": {
+      "ERR_VOC_TEMPO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -7663,6 +7892,29 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_TEMPO"
+    ],
+    "es": "En agosto voy a Japón con mi novia.",
+    "es_author": "IA (Claude)",
+    "id": "s_632300",
+    "it": "In agosto vado in Giappone con la mia ragazza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "632300",
+    "tag_rules": {
+      "ERR_VOC_TEMPO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -8049,6 +8301,28 @@
     "source_id": "6893632",
     "tag_rules": {
       "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_TEMPO"
+    ],
+    "es": "Nací en julio.",
+    "es_author": "carlosalberto",
+    "es_source_id": "9995810",
+    "id": "s_6894788",
+    "it": "Sono nata in luglio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6894788",
+    "tag_rules": {
+      "ERR_VOC_TEMPO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -9008,6 +9282,29 @@
       "ERR_CE_AGREEMENT": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Este libro tiene más de ochenta páginas.",
+    "es_author": "IA (Claude)",
+    "id": "s_8963222",
+    "it": "Questo libro ha più di ottanta pagine.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8963222",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",

@@ -140,6 +140,11 @@
     "wrong": "Ci sono molte lingue in il mondo."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Lavoro nella biblioteca da gennaio.",
+    "wrong": "Lavoro in la biblioteca da gennaio."
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Sami conosce Layla dalle medie.",
     "wrong": "Sami conosce a Layla dalle medie."
@@ -248,6 +253,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Agli orsi piace il miele.",
     "wrong": "A gli orsi piace il miele."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio compleanno è a novembre.",
+    "wrong": "Mio compleanno è a novembre."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -595,6 +605,11 @@
     "wrong": "Tokyo è più grande che Yokohama."
   },
   {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Voi lavorate a Milano.",
+    "wrong": "Voi lavorate in Milano."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Sto cercando il mio orologio.",
     "wrong": "Sto cercando mio orologio."
@@ -880,6 +895,16 @@
     "wrong": "Suo tappeto è completamente bianco."
   },
   {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Tu hai fame?",
+    "wrong": "Tu tieni fame?"
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Voi avete fame?",
+    "wrong": "Voi tenete fame?"
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "È carina la tua gonna.",
     "wrong": "È carina tua gonna."
@@ -985,6 +1010,11 @@
     "wrong": "Suo libro è rosso."
   },
   {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Voi avete sete.",
+    "wrong": "Voi tenete sete."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Oggi pomeriggio devo andare dal dentista.",
     "wrong": "Oggi pomeriggio devo andare da il dentista."
@@ -1003,6 +1033,21 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il tuo sangue è rosso.",
     "wrong": "Tuo sangue è rosso."
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Tu hai sete.",
+    "wrong": "Tu tieni sete."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio amico ha diciassette anni.",
+    "wrong": "Mio amico ha diciassette anni."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La mia amica ha diciassette anni.",
+    "wrong": "Mia amica ha diciassette anni."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -1038,6 +1083,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "È molto interessato alla biologia.",
     "wrong": "È molto interessato a la biologia."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Loro corrono nel parco.",
+    "wrong": "Loro corrono in il parco."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -1110,6 +1160,11 @@
     "wrong": "Il telefono blu è su il tavolo."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Voi credete agli UFO?",
+    "wrong": "Voi credete a gli UFO?"
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "In Italia si mangia molta pasta.",
     "wrong": "A Italia si mangia molta pasta."
@@ -1138,6 +1193,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Quand'è il tuo compleanno?",
     "wrong": "Quand'è tuo compleanno?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio compleanno è in novembre.",
+    "wrong": "Mio compleanno è in novembre."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -1675,6 +1735,11 @@
     "wrong": "Vanno in vacanza a Italia?"
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Loro amano i loro figli.",
+    "wrong": "Loro amano loro figli."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Lei ha paura di cantare.",
     "wrong": "Lei tiene paura di cantare."
@@ -2125,6 +2190,11 @@
     "wrong": "Come si chiama tua pagina web?"
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Siamo della stessa altezza: un metro e sessanta.",
+    "wrong": "Siamo di la stessa altezza: un metro e sessanta."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Ho cercato di conoscere la mia anima.",
     "wrong": "Ho cercato di conoscere mia anima."
@@ -2168,6 +2238,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "C'è un gatto davanti al cancello.",
     "wrong": "C'è un gatto davanti a il cancello."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Jack è nato il dieci agosto.",
+    "wrong": "Jack ha nato il dieci agosto."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2288,6 +2363,11 @@
     "code": "ERR_TENERE_AVERE",
     "correct": "Vedrete che ho ragione.",
     "wrong": "Vedrete che tengo ragione."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio compleanno è il dieci novembre.",
+    "wrong": "Mio compleanno è il dieci novembre."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -2543,6 +2623,11 @@
     "code": "ERR_PERSONAL_A",
     "correct": "Tom ama Mary, però lei non ama lui.",
     "wrong": "Tom ama a Mary, però lei non ama lui."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Jack è nato il dieci di agosto.",
+    "wrong": "Jack ha nato il dieci di agosto."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2890,6 +2975,11 @@
     "wrong": "Cosa succede qui a le due e mezza?"
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Tom è nato a ottobre.",
+    "wrong": "Tom ha nato a ottobre."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Domani finalmente mia moglie viene in Italia!",
     "wrong": "Domani finalmente mia moglie viene a Italia!"
@@ -2928,6 +3018,11 @@
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Lei è molto più alta di me.",
     "wrong": "Lei è molto più alta che me."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "In agosto vado in Giappone con la mia ragazza.",
+    "wrong": "In agosto vado in Giappone con mia ragazza."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",

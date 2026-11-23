@@ -772,27 +772,86 @@
     "id": "cap_err_present_are",
     "retrieval": [
       {
-        "id": "it_choice_s_3440351_ERR_PRESENT_ARE",
+        "id": "it_choice_s_9708151_ERR_PRESENT_ARE",
         "options": [
           {
             "correct": true,
-            "text": "Io amo l'amore."
+            "text": "Ora, tu canti."
           },
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_ARE",
-            "text": "Io amiamo l'amore."
+            "text": "Ora, tu cantas."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_3440351",
+        "sentence_id": "s_9708151",
         "target_error_codes": [
           "ERR_PRESENT_ARE"
         ],
         "type": "choice_l1_distractor"
+      },
+      {
+        "answer": [
+          "Anche",
+          "tu",
+          "cucini?"
+        ],
+        "id": "it_reorder_s_11670258_ERR_PRESENT_ARE",
+        "prompt_es": "Ordena las palabras: «¿Tú también cocinas?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11670258",
+        "target_error_codes": [
+          "ERR_PRESENT_ARE"
+        ],
+        "tokens": [
+          "Anche",
+          "cucini?",
+          "tu"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_2126345_ERR_PRESENT_ARE",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PRESENT_ARE",
+            "text": "Io amiamo i viaggi."
+          },
+          {
+            "correct": true,
+            "text": "Io amo i viaggi."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2126345",
+        "target_error_codes": [
+          "ERR_PRESENT_ARE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "pensi"
+        ],
+        "hint_es": "Tú piensas demasiado.",
+        "id": "it_cloze_s_374400_ERR_PRESENT_ARE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_374400",
+        "target_error_codes": [
+          "ERR_PRESENT_ARE"
+        ],
+        "text": "Tu ___ troppo.",
+        "type": "cloze"
       },
       {
         "answer": [
@@ -810,102 +869,35 @@
           "ERR_PRESENT_ARE"
         ],
         "tokens": [
-          "amo",
           "Io",
+          "birra.",
           "la",
-          "birra."
+          "amo"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_916304_ERR_PRESENT_ARE",
-        "options": [
-          {
-            "correct": false,
-            "distractor_kind": "morphological",
-            "error_code": "ERR_PRESENT_ARE",
-            "text": "Lui amano il caffè."
-          },
-          {
-            "correct": true,
-            "text": "Lui ama il caffè."
-          }
-        ],
-        "prompt_es": "¿Cuál es la frase correcta en italiano?",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_916304",
-        "target_error_codes": [
-          "ERR_PRESENT_ARE"
-        ],
-        "type": "choice_l1_distractor"
-      },
-      {
-        "answer": [
-          "Io",
-          "amo",
-          "l'occitano."
-        ],
-        "id": "it_reorder_s_4473727_ERR_PRESENT_ARE",
-        "prompt_es": "Ordena las palabras: «Yo amo el occitano.»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_4473727",
-        "target_error_codes": [
-          "ERR_PRESENT_ARE"
-        ],
-        "tokens": [
-          "amo",
-          "l'occitano.",
-          "Io"
-        ],
-        "type": "reorder"
-      },
-      {
-        "id": "it_choice_s_758881_ERR_PRESENT_ARE",
+        "id": "it_choice_s_994403_ERR_PRESENT_ARE",
         "options": [
           {
             "correct": true,
-            "text": "Lei abita a Kyoto."
+            "text": "Tu canti sempre."
           },
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_ARE",
-            "text": "Lei abitano a Kyoto."
+            "text": "Tu cantas sempre."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_758881",
+        "sentence_id": "s_994403",
         "target_error_codes": [
           "ERR_PRESENT_ARE"
         ],
         "type": "choice_l1_distractor"
-      },
-      {
-        "answer": [
-          "Io",
-          "amo",
-          "il",
-          "francese."
-        ],
-        "id": "it_reorder_s_2575149_ERR_PRESENT_ARE",
-        "prompt_es": "Ordena las palabras: «Me encanta el francés.»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_2575149",
-        "target_error_codes": [
-          "ERR_PRESENT_ARE"
-        ],
-        "tokens": [
-          "francese.",
-          "il",
-          "amo",
-          "Io"
-        ],
-        "type": "reorder"
       }
     ],
     "review_status": "validated",
@@ -936,23 +928,23 @@
     "id": "cap_err_present_ere_ire",
     "retrieval": [
       {
-        "id": "it_choice_s_2019943_ERR_PRESENT_ERE_IRE",
+        "id": "it_choice_s_3410241_ERR_PRESENT_ERE_IRE",
         "options": [
           {
             "correct": true,
-            "text": "Lui vive a Osaka."
+            "text": "Voi vivete qui?"
           },
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_ERE_IRE",
-            "text": "Lui vivono a Osaka."
+            "text": "Voi viveis qui?"
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2019943",
+        "sentence_id": "s_3410241",
         "target_error_codes": [
           "ERR_PRESENT_ERE_IRE"
         ],
@@ -960,60 +952,60 @@
       },
       {
         "answers": [
-          "vive"
+          "capisci"
         ],
-        "hint_es": "Él vive en Tokio.",
-        "id": "it_cloze_s_2019957_ERR_PRESENT_ERE_IRE",
+        "hint_es": "Tú no entiendes.",
+        "id": "it_cloze_s_6672216_ERR_PRESENT_ERE_IRE",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2019957",
+        "sentence_id": "s_6672216",
         "target_error_codes": [
           "ERR_PRESENT_ERE_IRE"
         ],
-        "text": "Lui ___ a Tokyo.",
+        "text": "Tu non ___.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Lei",
-          "vive",
-          "a",
-          "Londra."
+          "Tu",
+          "vivi",
+          "da",
+          "solo?"
         ],
-        "id": "it_reorder_s_1311899_ERR_PRESENT_ERE_IRE",
-        "prompt_es": "Ordena las palabras: «Ella vive en Londres.»",
+        "id": "it_reorder_s_2515188_ERR_PRESENT_ERE_IRE",
+        "prompt_es": "Ordena las palabras: «¿Tú vives solo?»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1311899",
+        "sentence_id": "s_2515188",
         "target_error_codes": [
           "ERR_PRESENT_ERE_IRE"
         ],
         "tokens": [
-          "vive",
-          "a",
-          "Lei",
-          "Londra."
+          "da",
+          "vivi",
+          "solo?",
+          "Tu"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_2927168_ERR_PRESENT_ERE_IRE",
+        "id": "it_choice_s_2515191_ERR_PRESENT_ERE_IRE",
         "options": [
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_ERE_IRE",
-            "text": "Lei aprono la porta."
+            "text": "Tu vives da sola?"
           },
           {
             "correct": true,
-            "text": "Lei apre la porta."
+            "text": "Tu vivi da sola?"
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2927168",
+        "sentence_id": "s_2515191",
         "target_error_codes": [
           "ERR_PRESENT_ERE_IRE"
         ],
@@ -1021,37 +1013,37 @@
       },
       {
         "answers": [
-          "vedo"
+          "vendi"
         ],
-        "hint_es": "Veo la corona.",
-        "id": "it_cloze_s_4465190_ERR_PRESENT_ERE_IRE",
+        "hint_es": "Tú vendes zapatos.",
+        "id": "it_cloze_s_2865496_ERR_PRESENT_ERE_IRE",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_4465190",
+        "sentence_id": "s_2865496",
         "target_error_codes": [
           "ERR_PRESENT_ERE_IRE"
         ],
-        "text": "Io ___ la corona.",
+        "text": "Tu ___ scarpe.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Lui",
-          "legge",
-          "l'arabo."
+          "Tu",
+          "soffri,",
+          "vero?"
         ],
-        "id": "it_reorder_s_724510_ERR_PRESENT_ERE_IRE",
-        "prompt_es": "Ordena las palabras: «Él lee árabe.»",
+        "id": "it_reorder_s_3504759_ERR_PRESENT_ERE_IRE",
+        "prompt_es": "Ordena las palabras: «Tú sufres, ¿verdad?»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_724510",
+        "sentence_id": "s_3504759",
         "target_error_codes": [
           "ERR_PRESENT_ERE_IRE"
         ],
         "tokens": [
-          "l'arabo.",
-          "legge",
-          "Lui"
+          "vero?",
+          "Tu",
+          "soffri,"
         ],
         "type": "reorder"
       }
@@ -1062,13 +1054,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Io credo in Dio."
+        "Tu vivi qui?"
       ],
-      "id": "it_translate_s_723305_ERR_PRESENT_ERE_IRE",
+      "id": "it_translate_s_3410236_ERR_PRESENT_ERE_IRE",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_723305",
-      "source_es": "Creo en Dios.",
+      "sentence_id": "s_3410236",
+      "source_es": "¿Tú vives aquí?",
       "target_error_codes": [
         "ERR_PRESENT_ERE_IRE"
       ],
@@ -1084,23 +1076,23 @@
     "id": "cap_err_present_essere_avere",
     "retrieval": [
       {
-        "id": "it_choice_s_374011_ERR_PRESENT_ESSERE_AVERE",
+        "id": "it_choice_s_5292938_ERR_PRESENT_ESSERE_AVERE",
         "options": [
           {
             "correct": true,
-            "text": "Lei non è alta."
+            "text": "Tu sei qui."
           },
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_ESSERE_AVERE",
-            "text": "Lei non sono alta."
+            "text": "Tu siete qui."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_374011",
+        "sentence_id": "s_5292938",
         "target_error_codes": [
           "ERR_PRESENT_ESSERE_AVERE"
         ],
@@ -1108,60 +1100,58 @@
       },
       {
         "answers": [
-          "è"
+          "hai"
         ],
-        "hint_es": "Él es poeta.",
-        "id": "it_cloze_s_759977_ERR_PRESENT_ESSERE_AVERE",
+        "hint_es": "¿Tú tienes hambre?",
+        "id": "it_cloze_s_2797603_ERR_PRESENT_ESSERE_AVERE",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_759977",
+        "sentence_id": "s_2797603",
         "target_error_codes": [
           "ERR_PRESENT_ESSERE_AVERE"
         ],
-        "text": "Lui ___ un poeta.",
+        "text": "Tu ___ fame?",
         "type": "cloze"
       },
       {
         "answer": [
-          "Io",
-          "ho",
-          "due",
-          "libri."
+          "Tu",
+          "hai",
+          "sete."
         ],
-        "id": "it_reorder_s_1086273_ERR_PRESENT_ESSERE_AVERE",
-        "prompt_es": "Ordena las palabras: «Tengo dos libros.»",
+        "id": "it_reorder_s_3251789_ERR_PRESENT_ESSERE_AVERE",
+        "prompt_es": "Ordena las palabras: «Tú tienes sed.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1086273",
+        "sentence_id": "s_3251789",
         "target_error_codes": [
           "ERR_PRESENT_ESSERE_AVERE"
         ],
         "tokens": [
-          "ho",
-          "Io",
-          "due",
-          "libri."
+          "sete.",
+          "hai",
+          "Tu"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_1452076_ERR_PRESENT_ESSERE_AVERE",
+        "id": "it_choice_s_8453033_ERR_PRESENT_ESSERE_AVERE",
         "options": [
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_ESSERE_AVERE",
-            "text": "Lui sono mio padre."
+            "text": "Tu siete Mary?"
           },
           {
             "correct": true,
-            "text": "Lui è mio padre."
+            "text": "Tu sei Mary?"
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1452076",
+        "sentence_id": "s_8453033",
         "target_error_codes": [
           "ERR_PRESENT_ESSERE_AVERE"
         ],
@@ -1169,39 +1159,37 @@
       },
       {
         "answers": [
-          "ho"
+          "hai"
         ],
-        "hint_es": "Tengo un camión.",
-        "id": "it_cloze_s_1496045_ERR_PRESENT_ESSERE_AVERE",
+        "hint_es": "¿Tú tienes tiempo?",
+        "id": "it_cloze_s_4471065_ERR_PRESENT_ESSERE_AVERE",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1496045",
+        "sentence_id": "s_4471065",
         "target_error_codes": [
           "ERR_PRESENT_ESSERE_AVERE"
         ],
-        "text": "Io ___ un camion.",
+        "text": "Tu ___ tempo?",
         "type": "cloze"
       },
       {
         "answer": [
           "Tu",
           "sei",
-          "mia",
-          "figlia."
+          "umano."
         ],
-        "id": "it_reorder_s_13594619_ERR_PRESENT_ESSERE_AVERE",
-        "prompt_es": "Ordena las palabras: «Tú eres mi hija.»",
+        "id": "it_reorder_s_4570059_ERR_PRESENT_ESSERE_AVERE",
+        "prompt_es": "Ordena las palabras: «Tú eres humano.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_13594619",
+        "sentence_id": "s_4570059",
         "target_error_codes": [
           "ERR_PRESENT_ESSERE_AVERE"
         ],
         "tokens": [
-          "mia",
-          "Tu",
-          "figlia.",
-          "sei"
+          "sei",
+          "umano.",
+          "Tu"
         ],
         "type": "reorder"
       }
@@ -1212,13 +1200,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Io ho una mela."
+        "Tu sei Tom?"
       ],
-      "id": "it_translate_s_3569180_ERR_PRESENT_ESSERE_AVERE",
+      "id": "it_translate_s_10636969_ERR_PRESENT_ESSERE_AVERE",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_3569180",
-      "source_es": "Tengo una manzana.",
+      "sentence_id": "s_10636969",
+      "source_es": "¿Tú eres Tom?",
       "target_error_codes": [
         "ERR_PRESENT_ESSERE_AVERE"
       ],
@@ -1234,23 +1222,23 @@
     "id": "cap_err_present_irregular",
     "retrieval": [
       {
-        "id": "it_choice_s_1687759_ERR_PRESENT_IRREGULAR",
+        "id": "it_choice_s_1682738_ERR_PRESENT_IRREGULAR",
         "options": [
           {
             "correct": true,
-            "text": "Io so che lei sa."
+            "text": "Tu sai com'è."
           },
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_IRREGULAR",
-            "text": "Io sappiamo che lei sa."
+            "text": "Tu sapete com'è."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1687759",
+        "sentence_id": "s_1682738",
         "target_error_codes": [
           "ERR_PRESENT_IRREGULAR"
         ],
@@ -1258,62 +1246,58 @@
       },
       {
         "answers": [
-          "so"
+          "state"
         ],
-        "hint_es": "No sé nada.",
-        "id": "it_cloze_s_4204662_ERR_PRESENT_IRREGULAR",
+        "hint_es": "Ustedes están ahí.",
+        "id": "it_cloze_s_2584089_ERR_PRESENT_IRREGULAR",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_4204662",
+        "sentence_id": "s_2584089",
         "target_error_codes": [
           "ERR_PRESENT_IRREGULAR"
         ],
-        "text": "Io non ___ niente.",
+        "text": "Voi ___ lì.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Io",
-          "sto",
-          "da",
-          "mia",
-          "zia."
+          "Tu",
+          "sai",
+          "cos'è?"
         ],
-        "id": "it_reorder_s_2968348_ERR_PRESENT_IRREGULAR",
-        "prompt_es": "Ordena las palabras: «Estoy en casa de mi tía.»",
+        "id": "it_reorder_s_2942743_ERR_PRESENT_IRREGULAR",
+        "prompt_es": "Ordena las palabras: «¿Tú sabes qué es?»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2968348",
+        "sentence_id": "s_2942743",
         "target_error_codes": [
           "ERR_PRESENT_IRREGULAR"
         ],
         "tokens": [
-          "sto",
-          "da",
-          "mia",
-          "Io",
-          "zia."
+          "sai",
+          "Tu",
+          "cos'è?"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_395876_ERR_PRESENT_IRREGULAR",
+        "id": "it_choice_s_3781189_ERR_PRESENT_IRREGULAR",
         "options": [
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_IRREGULAR",
-            "text": "Io sappiamo il tuo nome."
+            "text": "Tu sapete tutto."
           },
           {
             "correct": true,
-            "text": "Io so il tuo nome."
+            "text": "Tu sai tutto."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_395876",
+        "sentence_id": "s_3781189",
         "target_error_codes": [
           "ERR_PRESENT_IRREGULAR"
         ],
@@ -1321,39 +1305,37 @@
       },
       {
         "answers": [
-          "sappiamo"
+          "sai"
         ],
-        "hint_es": "Nosotros sabemos quién es.",
-        "id": "it_cloze_s_2486027_ERR_PRESENT_IRREGULAR",
+        "hint_es": "Tú sabes quién es.",
+        "id": "it_cloze_s_417523_ERR_PRESENT_IRREGULAR",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2486027",
+        "sentence_id": "s_417523",
         "target_error_codes": [
           "ERR_PRESENT_IRREGULAR"
         ],
-        "text": "Noi ___ chi è.",
+        "text": "Tu ___ chi è.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Lui",
-          "sta",
-          "nuotando",
-          "ora."
+          "Tu",
+          "sai",
+          "ballare?"
         ],
-        "id": "it_reorder_s_1258226_ERR_PRESENT_IRREGULAR",
-        "prompt_es": "Ordena las palabras: «Él está nadando ahora.»",
+        "id": "it_reorder_s_4242600_ERR_PRESENT_IRREGULAR",
+        "prompt_es": "Ordena las palabras: «¿Tú sabes bailar?»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1258226",
+        "sentence_id": "s_4242600",
         "target_error_codes": [
           "ERR_PRESENT_IRREGULAR"
         ],
         "tokens": [
-          "Lui",
-          "nuotando",
-          "ora.",
-          "sta"
+          "sai",
+          "Tu",
+          "ballare?"
         ],
         "type": "reorder"
       }
@@ -1364,13 +1346,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Tu sai cos'è."
+        "Tu stai lì."
       ],
-      "id": "it_translate_s_529480_ERR_PRESENT_IRREGULAR",
+      "id": "it_translate_s_2584087_ERR_PRESENT_IRREGULAR",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_529480",
-      "source_es": "Tú sabes lo que es.",
+      "sentence_id": "s_2584087",
+      "source_es": "Tú estás ahí.",
       "target_error_codes": [
         "ERR_PRESENT_IRREGULAR"
       ],
@@ -1386,23 +1368,23 @@
     "id": "cap_err_present_modal",
     "retrieval": [
       {
-        "id": "it_choice_s_4043175_ERR_PRESENT_MODAL",
+        "id": "it_choice_s_3637343_ERR_PRESENT_MODAL",
         "options": [
           {
             "correct": true,
-            "text": "Io posso aiutare Tom."
+            "text": "Tu vuoi farla?"
           },
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_MODAL",
-            "text": "Io possiamo aiutare Tom."
+            "text": "Tu volete farla?"
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_4043175",
+        "sentence_id": "s_3637343",
         "target_error_codes": [
           "ERR_PRESENT_MODAL"
         ],
@@ -1410,60 +1392,58 @@
       },
       {
         "answers": [
-          "voglio"
+          "vuoi"
         ],
-        "hint_es": "¡Quiero pizza!",
-        "id": "it_cloze_s_2722184_ERR_PRESENT_MODAL",
+        "hint_es": "¿Tú quieres esto?",
+        "id": "it_cloze_s_2560243_ERR_PRESENT_MODAL",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2722184",
+        "sentence_id": "s_2560243",
         "target_error_codes": [
           "ERR_PRESENT_MODAL"
         ],
-        "text": "Io ___ della pizza!",
+        "text": "Tu ___ questo?",
         "type": "cloze"
       },
       {
         "answer": [
           "Tu",
-          "vuoi",
-          "essere",
-          "onesto."
+          "devi",
+          "andare."
         ],
-        "id": "it_reorder_s_812434_ERR_PRESENT_MODAL",
-        "prompt_es": "Ordena las palabras: «Quieres ser honesto.»",
+        "id": "it_reorder_s_2842785_ERR_PRESENT_MODAL",
+        "prompt_es": "Ordena las palabras: «Tú debes irte.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_812434",
+        "sentence_id": "s_2842785",
         "target_error_codes": [
           "ERR_PRESENT_MODAL"
         ],
         "tokens": [
-          "onesto.",
-          "essere",
-          "vuoi",
-          "Tu"
+          "andare.",
+          "Tu",
+          "devi"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_1233789_ERR_PRESENT_MODAL",
+        "id": "it_choice_s_4227895_ERR_PRESENT_MODAL",
         "options": [
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PRESENT_MODAL",
-            "text": "Io vogliamo una chitarra."
+            "text": "Tu dovete venire."
           },
           {
             "correct": true,
-            "text": "Io voglio una chitarra."
+            "text": "Tu devi venire."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1233789",
+        "sentence_id": "s_4227895",
         "target_error_codes": [
           "ERR_PRESENT_MODAL"
         ],
@@ -1471,39 +1451,35 @@
       },
       {
         "answers": [
-          "voglio"
+          "vuoi"
         ],
-        "hint_es": "No quiero el dinero.",
-        "id": "it_cloze_s_2762217_ERR_PRESENT_MODAL",
+        "hint_es": "¿Tú quieres leer?",
+        "id": "it_cloze_s_4122103_ERR_PRESENT_MODAL",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2762217",
+        "sentence_id": "s_4122103",
         "target_error_codes": [
           "ERR_PRESENT_MODAL"
         ],
-        "text": "Io non ___ il denaro.",
+        "text": "Tu ___ leggere?",
         "type": "cloze"
       },
       {
         "answer": [
           "Tu",
           "vuoi",
-          "solo",
-          "la",
-          "potenza."
+          "dormire?"
         ],
-        "id": "it_reorder_s_3847022_ERR_PRESENT_MODAL",
-        "prompt_es": "Ordena las palabras: «Tú solo quieres poder.»",
+        "id": "it_reorder_s_4422890_ERR_PRESENT_MODAL",
+        "prompt_es": "Ordena las palabras: «¿Tú quieres dormir?»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_3847022",
+        "sentence_id": "s_4422890",
         "target_error_codes": [
           "ERR_PRESENT_MODAL"
         ],
         "tokens": [
-          "solo",
-          "potenza.",
-          "la",
+          "dormire?",
           "vuoi",
           "Tu"
         ],
@@ -1516,13 +1492,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Io voglio lo stesso."
+        "Tu vuoi farlo?"
       ],
-      "id": "it_translate_s_7727081_ERR_PRESENT_MODAL",
+      "id": "it_translate_s_3637341_ERR_PRESENT_MODAL",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_7727081",
-      "source_es": "Quiero lo mismo.",
+      "sentence_id": "s_3637341",
+      "source_es": "¿Tú quieres hacerlo?",
       "target_error_codes": [
         "ERR_PRESENT_MODAL"
       ],
@@ -7647,7 +7623,7 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_NUMERI",
-            "text": "Io ho venti cugini."
+            "text": "Io ho cinquanta cugini."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
@@ -7705,7 +7681,7 @@
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_NUMERI",
-            "text": "Sono le tre e mezza."
+            "text": "Sono le diciassette e mezza."
           },
           {
             "correct": true,
@@ -7723,41 +7699,41 @@
       },
       {
         "answers": [
-          "nove"
+          "diciassette"
         ],
-        "hint_es": "Son las nueve y media.",
-        "id": "it_cloze_s_4729152_ERR_VOC_NUMERI",
+        "hint_es": "Tiene diecisiete años.",
+        "id": "it_cloze_s_5030703_ERR_VOC_NUMERI",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_4729152",
+        "sentence_id": "s_5030703",
         "target_error_codes": [
           "ERR_VOC_NUMERI"
         ],
-        "text": "Sono le ___ e mezza.",
+        "text": "Ha ___ anni.",
         "type": "cloze"
       },
       {
         "answer": [
           "Sono",
           "le",
-          "dieci",
+          "nove",
           "e",
           "mezza."
         ],
-        "id": "it_reorder_s_12655939_ERR_VOC_NUMERI",
-        "prompt_es": "Ordena las palabras: «Son las diez y media.»",
+        "id": "it_reorder_s_4729152_ERR_VOC_NUMERI",
+        "prompt_es": "Ordena las palabras: «Son las nueve y media.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_12655939",
+        "sentence_id": "s_4729152",
         "target_error_codes": [
           "ERR_VOC_NUMERI"
         ],
         "tokens": [
-          "mezza.",
-          "dieci",
           "le",
+          "nove",
           "e",
-          "Sono"
+          "Sono",
+          "mezza."
         ],
         "type": "reorder"
       }
@@ -8552,24 +8528,24 @@
     "id": "cap_err_voc_tempo",
     "retrieval": [
       {
-        "id": "it_choice_s_1506141_ERR_VOC_TEMPO",
+        "id": "it_choice_s_11323797_ERR_VOC_TEMPO",
         "listen": true,
         "options": [
           {
             "correct": true,
-            "text": "Sudo tutti i giorni."
+            "text": "Ora è giugno."
           },
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_TEMPO",
-            "text": "Sudo tutti i mesi."
+            "text": "Ora è marzo."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1506141",
+        "sentence_id": "s_11323797",
         "target_error_codes": [
           "ERR_VOC_TEMPO"
         ],
@@ -8577,59 +8553,59 @@
       },
       {
         "answers": [
-          "giorno"
+          "luglio"
         ],
-        "hint_es": "Veo a Tom todos los días.",
-        "id": "it_cloze_s_2023154_ERR_VOC_TEMPO",
+        "hint_es": "Ahora es julio.",
+        "id": "it_cloze_s_12883969_ERR_VOC_TEMPO",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2023154",
+        "sentence_id": "s_12883969",
         "target_error_codes": [
           "ERR_VOC_TEMPO"
         ],
-        "text": "Vedo Tom ogni ___.",
+        "text": "È ___ ora.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Martedì",
-          "c'è",
-          "spagnolo?"
+          "Adesso",
+          "è",
+          "marzo."
         ],
-        "id": "it_reorder_s_7565805_ERR_VOC_TEMPO",
-        "prompt_es": "Ordena las palabras: «¿El martes toca español?»",
+        "id": "it_reorder_s_10231743_ERR_VOC_TEMPO",
+        "prompt_es": "Ordena las palabras: «Ahora es marzo.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_7565805",
+        "sentence_id": "s_10231743",
         "target_error_codes": [
           "ERR_VOC_TEMPO"
         ],
         "tokens": [
-          "c'è",
-          "spagnolo?",
-          "Martedì"
+          "marzo.",
+          "Adesso",
+          "è"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_13965505_ERR_VOC_TEMPO",
+        "id": "it_choice_s_898688_ERR_VOC_TEMPO",
         "listen": true,
         "options": [
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_TEMPO",
-            "text": "L'autunno termina oggi."
+            "text": "Vengo a maggio."
           },
           {
             "correct": true,
-            "text": "L'inverno termina oggi."
+            "text": "Vengo a luglio."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_13965505",
+        "sentence_id": "s_898688",
         "target_error_codes": [
           "ERR_VOC_TEMPO"
         ],
@@ -8637,39 +8613,37 @@
       },
       {
         "answers": [
-          "autunno"
+          "giugno"
         ],
-        "hint_es": "El otoño termina hoy.",
-        "id": "it_cloze_s_13965577_ERR_VOC_TEMPO",
+        "hint_es": "Ahora es junio.",
+        "id": "it_cloze_s_11323798_ERR_VOC_TEMPO",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_13965577",
+        "sentence_id": "s_11323798",
         "target_error_codes": [
           "ERR_VOC_TEMPO"
         ],
-        "text": "L'___ termina oggi.",
+        "text": "Adesso è ___.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Mancano",
-          "solo",
-          "due",
-          "giorni!"
+          "È",
+          "luglio",
+          "adesso."
         ],
-        "id": "it_reorder_s_1870526_ERR_VOC_TEMPO",
-        "prompt_es": "Ordena las palabras: «¡Faltan solo dos días!»",
+        "id": "it_reorder_s_12883970_ERR_VOC_TEMPO",
+        "prompt_es": "Ordena las palabras: «Ahora es julio.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1870526",
+        "sentence_id": "s_12883970",
         "target_error_codes": [
           "ERR_VOC_TEMPO"
         ],
         "tokens": [
-          "solo",
-          "due",
-          "giorni!",
-          "Mancano"
+          "adesso.",
+          "luglio",
+          "È"
         ],
         "type": "reorder"
       }
@@ -8680,13 +8654,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "È già lunedì oggi."
+        "Ora è marzo."
       ],
-      "id": "it_translate_s_2858225_ERR_VOC_TEMPO",
+      "id": "it_translate_s_10231742_ERR_VOC_TEMPO",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_2858225",
-      "source_es": "Hoy ya es lunes.",
+      "sentence_id": "s_10231742",
+      "source_es": "Ahora es marzo.",
       "target_error_codes": [
         "ERR_VOC_TEMPO"
       ],

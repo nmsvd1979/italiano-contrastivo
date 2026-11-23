@@ -157,7 +157,7 @@ def test_ningun_calco_aparece_en_el_corpus_validado():
             if code == "ERR_COMPARATIVE_DI":  # «che me» solo es calco tras «più/meno + adjetivo»; «prima che me lo scordi» es otra cosa
                 phrase = r"(?:più|meno) \w+ " + re.escape(phrase)
             if c.kind == "omission":  # «tua idea» está dentro de «la tua idea»: solo cuenta si no lleva artículo antes
-                bare = re.search(r"(?<!il )(?<!la )(?<!le )(?<!lo )(?<!i )(?<!gli )" + re.escape(phrase), corpus.lower())
+                bare = re.search(r"(?<!il )(?<!la )(?<!le )(?<!lo )(?<!i )(?<!gli )(?<!una )(?<!un )" + re.escape(phrase), corpus.lower())  # «una mia amica» es correcto
                 assert not bare, (code, phrase)
             else:
                 pattern = phrase if code == "ERR_COMPARATIVE_DI" else re.escape(phrase)

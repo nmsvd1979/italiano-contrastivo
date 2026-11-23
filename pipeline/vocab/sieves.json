@@ -34,6 +34,9 @@
   "k": "regular",
   "r": "j-gli"
  },
+ "agosto": {
+  "k": "transparente"
+ },
  "albergo": {
   "k": "opaca",
   "n": "Recuerda a 'albergue', pero en el curso es 'hotel'"
@@ -128,6 +131,9 @@
   "k": "transparente"
  },
  "appartamento": {
+  "k": "transparente"
+ },
+ "aprile": {
   "k": "transparente"
  },
  "arancia": {
@@ -701,6 +707,19 @@
  "destra": {
   "k": "opaca"
  },
+ "dicembre": {
+  "k": "transparente"
+ },
+ "diciannove": {
+  "k": "regular",
+  "r": "otro",
+  "n": "diciannove = diez + nueve (dici-annove)"
+ },
+ "diciassette": {
+  "k": "regular",
+  "r": "otro",
+  "n": "diciassette = diez + siete (dici-assette)"
+ },
  "dieci": {
   "k": "transparente"
  },
@@ -822,6 +841,9 @@
  "fatto": {
   "k": "regular",
   "r": "ch-tt"
+ },
+ "febbraio": {
+  "k": "transparente"
  },
  "febbre": {
   "k": "regular",
@@ -976,6 +998,9 @@
  },
  "genitori": {
   "k": "opaca"
+ },
+ "gennaio": {
+  "k": "transparente"
  },
  "gente": {
   "k": "transparente"
@@ -1262,6 +1287,9 @@
  "maestro": {
   "k": "transparente"
  },
+ "maggio": {
+  "k": "transparente"
+ },
  "maglia": {
   "k": "opaca"
  },
@@ -1309,6 +1337,9 @@
   "n": "En español «marrón» existe, pero en Chile el color se dice «café»."
  },
  "martedì": {
+  "k": "transparente"
+ },
+ "marzo": {
   "k": "transparente"
  },
  "materia": {
@@ -1475,9 +1506,17 @@
   "k": "regular",
   "r": "ch-tt"
  },
+ "novanta": {
+  "k": "regular",
+  "r": "otro",
+  "n": "-anta = -enta: novanta = noventa"
+ },
  "nove": {
   "k": "regular",
   "r": "ue-o"
+ },
+ "novembre": {
+  "k": "transparente"
  },
  "nuova": {
   "k": "regular",
@@ -1543,9 +1582,17 @@
  "ospedale": {
   "k": "transparente"
  },
+ "ottanta": {
+  "k": "regular",
+  "r": "otro",
+  "n": "-anta = -enta: ottanta = ochenta"
+ },
  "otto": {
   "k": "regular",
   "r": "ch-tt"
+ },
+ "ottobre": {
+  "k": "transparente"
  },
  "ovest": {
   "k": "transparente"
@@ -1837,6 +1884,11 @@
  "quartiere": {
   "k": "opaca"
  },
+ "quattordici": {
+  "k": "regular",
+  "r": "otro",
+  "n": "quattordici = cuatro + diez; -dici = diez"
+ },
  "quattro": {
   "k": "transparente"
  },
@@ -2050,14 +2102,27 @@
   "k": "regular",
   "r": "ie-e"
  },
+ "sessanta": {
+  "k": "regular",
+  "r": "otro",
+  "n": "-anta = -enta: sessanta = sesenta"
+ },
  "sete": {
   "k": "regular",
   "r": "otro",
   "n": "d final→t con -e: sed→sete"
  },
+ "settanta": {
+  "k": "regular",
+  "r": "otro",
+  "n": "-anta = -enta: settanta = setenta"
+ },
  "sette": {
   "k": "regular",
   "r": "ie-e"
+ },
+ "settembre": {
+  "k": "transparente"
  },
  "settimana": {
   "k": "regular",

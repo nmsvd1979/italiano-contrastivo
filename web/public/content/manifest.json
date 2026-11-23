@@ -180,27 +180,27 @@
     "ERR_PRESENT_ARE": {
       "capsule": true,
       "reason": null,
-      "usable": 36
+      "usable": 82
     },
     "ERR_PRESENT_ERE_IRE": {
       "capsule": true,
       "reason": null,
-      "usable": 36
+      "usable": 75
     },
     "ERR_PRESENT_ESSERE_AVERE": {
       "capsule": true,
       "reason": null,
-      "usable": 35
+      "usable": 78
     },
     "ERR_PRESENT_IRREGULAR": {
       "capsule": true,
       "reason": null,
-      "usable": 36
+      "usable": 74
     },
     "ERR_PRESENT_MODAL": {
       "capsule": true,
       "reason": null,
-      "usable": 36
+      "usable": 78
     },
     "ERR_PRONOME_TONICO": {
       "capsule": true,
@@ -345,7 +345,7 @@
     "ERR_VOC_NUMERI": {
       "capsule": true,
       "reason": null,
-      "usable": 37
+      "usable": 52
     },
     "ERR_VOC_OGGETTI": {
       "capsule": true,
@@ -375,7 +375,7 @@
     "ERR_VOC_TEMPO": {
       "capsule": true,
       "reason": null,
-      "usable": 33
+      "usable": 83
     },
     "ERR_VOC_TEMPOLIBERO": {
       "capsule": true,
@@ -394,18 +394,18 @@
     }
   },
   "levels": {
-    "A1": 1854,
-    "A2": 399,
+    "A1": 2116,
+    "A2": 412,
     "B1": 146,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 2379,
+    "llm-audit": 2654,
     "me": 27
   },
-  "sentences_used": 2236,
+  "sentences_used": 2509,
   "translation_kind": {
-    "direct": 1865,
-    "llm": 371
+    "direct": 1872,
+    "llm": 637
   }
 }
