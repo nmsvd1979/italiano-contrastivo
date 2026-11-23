@@ -2,6 +2,12 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-23 (2) — Fase 3: capa de tamices dentro de las lecturas
+**Hecho:** en el paso «Lectura», la casilla «Ver el parentesco con el español (tamices)» convierte cada frase en palabras tocables coloreadas (verde = se parece al español, punteada = cambio regular, sombreada = opaca); al tocar una se ve su glosa en contexto, el tamiz, la regla y, si aplica, la nota de falso amigo; «Traducción» muestra la frase. Glosario de las **1.105 palabras distintas de las 38 lecturas** en `pipeline/vocab/reading_words.json` (la tubería lo copia al paquete y FALLA si una lectura trae una palabra sin glosa): 482 transparentes, 174 regulares, 449 opacas, 24 falsos amigos.
+**Cómo se hizo (límites):** 6 subagentes de IA glosaron y clasificaron cada palabra con su frase de contexto y una lista cerrada de reglas; yo revisé una muestra de 35 (sin errores graves; hay notas imprecisas, p. ej. «trucco» o «costa» como falso amigo es discutible). **No es verificación de un nativo ni de un diccionario.** Los falsos amigos de las lecturas que no están en el catálogo del cuaderno NO tienen fuente propia.
+**Verificado:** web 867 y Python 1.222 pruebas; app construida (precache 6,9 MB de 9); recorrido a 375 px (la palabra «studentessa» muestra «estudiante (mujer) · cambio regular… e- protética»). **No verificado:** en iPhone.
+**Falta de la Fase 3:** importar Wiktionary para el acento tónico y conjugaciones; revisar con una fuente los falsos amigos y glosas dudosos.
+
 ## 2026-11-23 — Fase 3: vocabulario por tamices y repaso español → italiano
 **Hecho:**
 - **Tamices de las 752 palabras distintas (795 entradas):** cada palabra es *transparente* (se parece al español; 288), *regular* (cambio regular con su regla, p. ej. «ch → tt (noche → notte)»; 192) u *opaca* (hay que aprenderla; 315), más 9 falsos amigos (los 7 del catálogo + `bugia` y `vasca` que marcó la IA, sin fuente: revisar). Datos en `pipeline/vocab/sieves.json`; en el curso cada palabra trae `sieve`, `rule`, `note`. En «Palabras» se ve el chip de cada palabra (las opacas destacadas).

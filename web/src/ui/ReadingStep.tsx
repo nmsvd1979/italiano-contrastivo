@@ -1,5 +1,6 @@
 import { useState } from "react";
-import type { Reading } from "../content/load";
+import type { Reading, ReadingWord } from "../content/load";
+import { RULE_TEXT } from "../state/words";
 import { Feedback } from "./kit/Feedback";
 import { FocusHead } from "./kit/FocusHead";
 import { SpeakButton } from "./SpeakButton";
@@ -8,9 +9,11 @@ import { SpeakButton } from "./SpeakButton";
  * «Lectura»: un texto real de un libro abierto, con audio y traducción de cada oración (marcada como traducción de IA),
  * seguido de preguntas de comprensión escritas en español. No se inventa italiano: el texto es el del libro.
  */
-export function ReadingStep({ reading, onFinish, exitHref = "#/" }: { reading: Reading; onFinish: () => void; exitHref?: string }) {
+export function ReadingStep({ reading, words = {}, onFinish, exitHref = "#/" }: { reading: Reading; words?: Record<string, ReadingWord>; onFinish: () => void; exitHref?: string }) {
   const [phase, setPhase] = useState<"read" | "ask">("read");
   const [shown, setShown] = useState<Set<number>>(new Set());
+  const [layer, setLayer] = useState(false);           // capa de tamices: palabras tocables y coloreadas por su parentesco con el español
+  const [picked1, setPicked1] = useState<{ i: number; w: string } | null>(null);
   const [q, setQ] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const toggle = (i: number) => setShown((s) => { const n = new Set(s); if (n.has(i)) n.delete(i); else n.add(i); return n; });
@@ -21,11 +24,40 @@ export function ReadingStep({ reading, onFinish, exitHref = "#/" }: { reading: R
         <FocusHead progress={0.1} exitHref={exitHref} />
         <h2 lang="it">{reading.title}</h2>
         <p><small>{reading.kind === "dialogo" ? "Diálogo" : "Lectura"} · {reading.source.book} ({reading.source.authors}), {reading.source.license}. Traducción al español: IA, sin revisar por un nativo.</small></p>
-        <p>Toca una frase para oírla y ver su traducción.</p>
+        <p>{layer ? "Toca una palabra para ver qué es y cómo se parece al español; «Traducción» muestra la frase." : "Toca una frase para oírla y ver su traducción."}</p>
+        {Object.keys(words).length > 0 && (
+          <p><label><input type="checkbox" checked={layer} onChange={(e) => { setLayer(e.target.checked); setPicked1(null); }} /> Ver el parentesco con el español (tamices)</label></p>
+        )}
+        {layer && <p><small><span className="tok" data-k="transparente">verde</span> se parece al español · <span className="tok" data-k="regular">punteada</span> cambio regular · <span className="tok" data-k="opaca">sombreada</span> opaca (hay que aprenderla). Clasificado por IA, sin revisar por un nativo.</small></p>}
         <div className="reading">
           {reading.sentences.map((s, i) => (
             <p key={s.id}>
-              <button type="button" className="sentence" lang="it" aria-expanded={shown.has(i)} onClick={() => toggle(i)}>{s.it}</button>
+              {layer ? (
+                <>
+                  <span className="sentence-tokens" lang="it">
+                    {s.it.split(/([A-Za-zÀ-ÖØ-öø-ÿ]+)/).map((part, k) => {
+                      const w = words[part.toLowerCase()];
+                      return k % 2 === 1 && w
+                        ? <button key={k} type="button" className="tok" data-k={w.k} aria-pressed={picked1?.i === i && picked1.w === part.toLowerCase()} onClick={() => setPicked1({ i, w: part.toLowerCase() })}>{part}</button>
+                        : <span key={k}>{part}</span>;
+                    })}
+                  </span>{" "}
+                  <button type="button" className="mini" aria-expanded={shown.has(i)} onClick={() => toggle(i)}>Traducción</button>
+                  {picked1?.i === i && (() => {
+                    const w = words[picked1.w];
+                    return (
+                      <span className="wordcard" role="status">
+                        <strong lang="it">{picked1.w}</strong> — {w.g}
+                        <small> · {w.k === "regular" ? `cambio regular${w.r ? `: ${RULE_TEXT[w.r] ?? w.r}` : ""}` : w.k === "transparente" ? "se parece al español" : "opaca: hay que aprenderla"}</small>
+                        {w.ff && <small className="note"> · ⚠ Falso amigo{w.n ? `: ${w.n}` : ""}</small>}
+                        {!w.ff && w.n && <small> · {w.n}</small>}
+                      </span>
+                    );
+                  })()}
+                </>
+              ) : (
+                <button type="button" className="sentence" lang="it" aria-expanded={shown.has(i)} onClick={() => toggle(i)}>{s.it}</button>
+              )}
               {shown.has(i) && <span className="gloss"><small>{s.es}</small> <SpeakButton text={s.it} /></span>}
             </p>
           ))}

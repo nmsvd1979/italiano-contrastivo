@@ -44,3 +44,17 @@ def test_pack_tiene_audio_y_alimenta_el_tts(tmp_path):
     s = rs[0]["sentences"][0]
     assert s["audio"] == clip_id(s["it"])
     assert s["it"] in texts_for_pack(tmp_path)
+
+
+def test_cada_palabra_de_las_lecturas_tiene_glosa_y_tamiz(tmp_path):
+    rs = readings.build_pack(SRC, tmp_path)
+    words = json.loads((tmp_path / "reading_words.json").read_text(encoding="utf8"))
+    used = {t for r in rs for s in r["sentences"] for t in readings.tokens(s["it"])}
+    assert used == set(words)
+    for w, v in words.items():
+        assert v["g"] and v["k"] in {"transparente", "regular", "opaca"}, w
+        assert (v["k"] == "regular") == bool(v.get("r")), w
+
+
+def test_tokens_separa_las_elisiones():
+    assert readings.tokens("L'amico è qui, Giuditta.") == ["l", "amico", "è", "qui", "giuditta"]

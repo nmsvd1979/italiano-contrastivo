@@ -30,6 +30,7 @@ export type Reading = {
   source: { book: string; authors: string; url: string; license: string };
   translation: string; sentences: ReadingSentence[]; questions: ReadingQuestion[];
 };
+export type ReadingWord = { g: string; k: "transparente" | "regular" | "opaca"; r?: string; ff?: boolean; n?: string };
 export type PlannedUnit = { level: string; title: string; reason: string };
 export type Course = { version: number; levels: { id: string; title: string; guided_hours: string }[]; units: Unit[]; planned: PlannedUnit[] };
 export type ContentPack = {
@@ -38,6 +39,8 @@ export type ContentPack = {
   /** Ejercicios derivados de cada lectura (texto del libro): traducir, ordenar y completar. */
   /** Clave «unidad:lectura». */
   readingItems?: Record<string, Item[]>;
+  /** Glosa y tamiz de cada palabra de las lecturas (clasificado por IA). */
+  readingWords?: Record<string, ReadingWord>;
   capsules: Capsule[];
   itemsByCode: Record<string, Item[]>;
   lexemes: Lexeme[];
@@ -70,7 +73,7 @@ async function getJson<T>(fetcher: Fetcher, base: string, file: string): Promise
 }
 
 export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: string = import.meta.env.BASE_URL ?? "/"): Promise<ContentPack> {
-  const [capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems] = await Promise.all([
+  const [capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems, readingWords] = await Promise.all([
     getJson<Capsule[]>(fetcher, base, "capsules.json"),
     getJson<Record<string, Item[]>>(fetcher, base, "items_by_code.json"),
     getJson<Lexeme[]>(fetcher, base, "lexemes.json"),
@@ -79,6 +82,7 @@ export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: stri
     getJson<Course>(fetcher, base, "course.json"),
     getJson<Reading[]>(fetcher, base, "readings.json").catch((): Reading[] => []), // aún no hay lecturas publicadas: no es un error
     getJson<Record<string, Item[]>>(fetcher, base, "reading_items.json").catch((): Record<string, Item[]> => ({})),
+    getJson<Record<string, ReadingWord>>(fetcher, base, "reading_words.json").catch((): Record<string, ReadingWord> => ({})),
   ]);
   const vCapsule = schemaValidator("capsule");
   const vItem = schemaValidator("item");
@@ -97,5 +101,5 @@ export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: stri
   }
   const rd = new Set(readings.map((r) => r.id));
   for (const u of course.units) for (const id of u.readings ?? []) if (!rd.has(id)) throw new ContentError(`La unidad ${u.id} usa una lectura que no está en el paquete (${id}).`);
-  return { capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems };
+  return { capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems, readingWords };
 }

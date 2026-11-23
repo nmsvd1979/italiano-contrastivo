@@ -4,8 +4,10 @@ Fuente: `content/readings/<id>.json` (texto italiano tomado tal cual del libro, 
 No se inventa italiano: cada oración conserva el texto original y las preguntas van en español.
 """
 import json
+import re
 from pathlib import Path
 
+from pipeline import config
 from pipeline.tts.ids import clip_id
 
 MIN_QUESTIONS = 4
@@ -49,6 +51,25 @@ def load_readings(src_dir: Path) -> list[dict]:
     return out
 
 
+READING_WORDS = config.ROOT / "pipeline" / "vocab" / "reading_words.json"
+_WORD = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿ]+")
+
+
+def tokens(text: str) -> list[str]:
+    """Palabras de una frase en minúscula; «l'amico» da «l» y «amico»."""
+    return [m.group(0).lower() for m in _WORD.finditer(text)]
+
+
+def build_reading_words(readings: list[dict]) -> dict[str, dict]:
+    """Glosa y tamiz (parentesco con el español) de cada palabra que aparece en las lecturas. Clasificado por IA; falla si falta alguna."""
+    src = json.loads(READING_WORDS.read_text(encoding="utf8"))
+    used = sorted({t for r in readings for s in r["sentences"] for t in tokens(s["it"])})
+    missing = [t for t in used if t not in src]
+    if missing:
+        raise ValueError(f"Faltan {len(missing)} palabras de las lecturas en reading_words.json: {missing[:15]}")
+    return {t: src[t] for t in used}
+
+
 def build_pack(src_dir: Path, pack_dir: Path) -> list[dict]:
     readings = load_readings(src_dir)
     pack = []
@@ -59,4 +80,5 @@ def build_pack(src_dir: Path, pack_dir: Path) -> list[dict]:
         pack.append(d)
     pack_dir = Path(pack_dir)
     (pack_dir / "readings.json").write_text(json.dumps(pack, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
+    (pack_dir / "reading_words.json").write_text(json.dumps(build_reading_words(readings), ensure_ascii=False, separators=(",", ":"), sort_keys=True) + "\n", encoding="utf8")
     return pack

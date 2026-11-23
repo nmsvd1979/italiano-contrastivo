@@ -1,12 +1,33 @@
 import { cleanup, fireEvent, render, screen } from "@testing-library/react";
 import { readFileSync } from "node:fs";
 import { afterEach, describe, expect, it, vi } from "vitest";
-import type { Reading } from "../content/load";
+import type { Reading, ReadingWord } from "../content/load";
 import { ReadingStep } from "./ReadingStep";
 
 afterEach(cleanup);
 const readings: Reading[] = JSON.parse(readFileSync("public/content/readings.json", "utf8"));
 const reading = readings.find((r) => r.id === "rd_zaino")!;
+const words: Record<string, ReadingWord> = JSON.parse(readFileSync("public/content/reading_words.json", "utf8"));
+
+describe("capa de tamices en la lectura", () => {
+  it("sin glosario no ofrece la capa; con él, las palabras se colorean y al tocar una se ve qué es y su parentesco", () => {
+    const { unmount } = render(<ReadingStep reading={reading} onFinish={() => undefined} />);
+    expect(screen.queryByLabelText(/Ver el parentesco con el español/)).toBeNull();
+    unmount();
+    render(<ReadingStep reading={reading} words={words} onFinish={() => undefined} />);
+    fireEvent.click(screen.getByLabelText(/Ver el parentesco con el español/));
+    const first = reading.sentences[0].it.match(/[A-Za-zÀ-ÖØ-öø-ÿ]+/g)!.find((w) => words[w.toLowerCase()])!;
+    const tok = screen.getAllByText(first).find((e) => e.tagName === "BUTTON")!;
+    expect(tok.getAttribute("data-k")).toBe(words[first.toLowerCase()].k);
+    fireEvent.click(tok);
+    expect(screen.getByRole("status").textContent).toContain(words[first.toLowerCase()].g);
+    fireEvent.click(screen.getAllByText("Traducción")[0]);
+    expect(screen.getByText(reading.sentences[0].es)).toBeTruthy();
+  });
+  it("todas las palabras de todas las lecturas están en el glosario", () => {
+    for (const r of readings) for (const s of r.sentences) for (const t of s.it.match(/[A-Za-zÀ-ÖØ-öø-ÿ]+/g) ?? []) expect(words[t.toLowerCase()], `${r.id}: ${t}`).toBeTruthy();
+  });
+});
 
 describe("paso de lectura", () => {
   it("muestra el texto con su fuente y marca la traducción como de IA; tocar una frase la traduce", () => {

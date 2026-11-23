@@ -55,7 +55,7 @@ export function StepScreen({ unitId, step, pack, store }: { unitId: string; step
         <ItemRunner {...run} persistKey={`${unitId}:descubre`} items={fromItems(reconstructionItems(unit, pack, samples))} requeueWrong onFinish={(r) => void finish(r)} />
       )}
       {step === "palabras" && <WordsStep unit={unit} exitHref={exit} onFinish={() => void finish()} />}
-      {step === "lectura" && readingOf(unit, pack) && <ReadingStep reading={readingOf(unit, pack)!} exitHref={exit} onFinish={() => void finish()} />}
+      {step === "lectura" && readingOf(unit, pack) && <ReadingStep reading={readingOf(unit, pack)!} words={pack.readingWords} exitHref={exit} onFinish={() => void finish()} />}
       {step === "capsula" && <CapsuleScreen capsule={pack.capsules.find((c) => c.target_error_codes[0] === unit.codes[0])!} store={store} embedded exitHref={exit} onComplete={() => void finish()} />}
       {step === "practica" && <ItemRunner {...run} persistKey={`${unitId}:practica`} items={fromItems(practiceItems(unit, pack, samples))} requeueWrong onFinish={(r) => void finish(r)} />}
       {step === "practica2" && <ItemRunner {...run} persistKey={`${unitId}:practica2`} items={fromItems(practiceItems(unit, pack, samples, undefined, 2))} requeueWrong onFinish={(r) => void finish(r)} />}
