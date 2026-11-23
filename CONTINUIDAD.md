@@ -2,6 +2,15 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 (2) — Cierre de lo que A1 permitía sin prueba del usuario
+**Decisión del usuario:** no hay hablante nativo; se confía en que las fuentes (libros abiertos y Tatoeba) y la auditoría/traducción de la IA bastan. **Sigue siendo validación solo por IA, declarada en la app.**
+**Hecho:**
+1. **Cantidad:** las nueve unidades de A1 con menos de 30 oraciones (u07, u02, u05, u19, u20, u35, u39, u42, u65) quedan en 30 o más: 161 oraciones nuevas de Tatoeba, elegidas con `scripts/fill_pack.py`, auditadas una por una por la IA (italiano correcto, nivel A1, sin vulgaridades ni modismos) con traducción mía donde Tatoeba no trae español. Se rechazaron algunas por coincidir con otra variante del corpus o por no tener cobertura del revisor de calcos de «Escribir». `KNOWN_GAPS` de `cierreA1.test.ts` queda vacío: cualquier hueco nuevo falla la prueba. Para u65 («pedir con cortesía») Tatoeba no trae pedidos de bar con «prendo»: se usaron frases de «prendere» = tomar (transporte, objetos), declarado en el veredicto.
+2. **Salida oral en todos los módulos:** el módulo 3 suma el juego de roles «Hablar de tus estudios y de tu horario» (*Leggiamo*) y el módulo 10 dos tareas orales de *Piacere!* («Tu trabajo» y «Qué hiciste», con las preguntas en presente y con «avere»; las demás se omitieron por nivel). Ya no hay módulos con hueco de salida declarado.
+3. **Recorrido real en el navegador:** Entrada (leer, 6 preguntas, pantalla de «completada»), Cierre (lista «sé hacer» y primera pregunta de la prueba) y Salida del módulo 8 se vieron funcionando a 375 px en modo de prueba.
+**Sigue sin poder hacerse (requiere tu prueba o no hay fuente):** probar en iPhone (micrófono, grabación, audio, tabla del horario); escuchar los audios; diálogos abiertos de tiempo atmosférico, tienda y hotel; textos reales tipo menú/cartel/SMS; «Può ripetere?» formal; revisión de un nativo; comprobar si los candados entre módulos resultan demasiado rígidos en uso real.
+**Pruebas:** Python 1258 y web 913 en verde.
+
 ## 2026-11-24 — Ruta por módulos (etapas 1–4 del plan `docs/specs/2026-11-24-plan-modulos.md`)
 **Hecho:**
 1. **Datos:** 10 módulos de A1 en `schemas/data/course.json` (`modules`): título, «sé hacer», unidades (cápsulas), texto de entrada, juegos de roles, tareas, frases, sugerencia de Biblioteca y hueco declarado. `pipeline/exercises/modules.py` valida que cada unidad esté en exactamente un módulo y que todo lo referenciado exista; la ruta (`course.units`) sigue el orden de los módulos. Nuevo juego de roles de moda (`rp_moda`). Los verbos en -are (u14) están en el módulo 2 para no retrasar el habla.

@@ -105,14 +105,15 @@
         "u32"
       ],
       "entry_reading": "rd_zaino",
-      "roleplays": [],
+      "roleplays": [
+        "rp_studi"
+      ],
       "tasks": [],
       "phrase_groups": [
         "ph_aula"
       ],
       "library": "wordreference",
-      "library_task_es": "Busca en WordReference cinco objetos de tu escritorio y anota su artículo.",
-      "gap_es": "No hay un juego de roles propio: no se encontró un diálogo abierto de clase."
+      "library_task_es": "Busca en WordReference cinco objetos de tu escritorio y anota su artículo."
     },
     {
       "id": "m04",
@@ -301,13 +302,15 @@
       ],
       "entry_reading": "rd_viaggio",
       "roleplays": [],
-      "tasks": [],
+      "tasks": [
+        "ht_lavoro",
+        "ht_passato"
+      ],
       "phrase_groups": [
         "ph_tempo"
       ],
       "library": "plida-a1",
-      "library_task_es": "Revisa el ejemplo de PLIDA A1 e identifica qué partes ya sabrías hacer.",
-      "gap_es": "No hay juego de roles ni tarea oral propios: no se encontró una fuente abierta del pasado ni del tiempo en diálogo."
+      "library_task_es": "Revisa el ejemplo de PLIDA A1 e identifica qué partes ya sabrías hacer."
     }
   ],
   "units": [

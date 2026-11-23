@@ -68,9 +68,11 @@ describe("módulos: salida y prueba de cierre", () => {
     const withSpeech = M1;
     expect(salidaMissing(withSpeech, modDone(withSpeech.id))).toEqual(["habla", "escritura"]);
     expect(salidaMissing(withSpeech, modDone(withSpeech.id, { [salidaKey("habla")]: at }))).toEqual(["escritura"]);
-    const noSpeech = pack.course.modules!.find((m) => m.roleplays.length + m.tasks.length === 0)!;
-    expect(noSpeech.gap_es).toBeTruthy();                  // el hueco está declarado
+    const noSpeech = { ...M1, roleplays: [], tasks: [], gap_es: "sin diálogo abierto" };   // un módulo sin práctica hablada declara su hueco
     expect(salidaMissing(noSpeech, modDone(noSpeech.id))).toEqual(["escritura"]);
+  });
+  it("hoy todos los módulos de A1 tienen práctica hablada propia (juego de roles o tarea oral)", () => {
+    for (const m of pack.course.modules!) expect(m.roleplays.length + m.tasks.length, m.id).toBeGreaterThan(0);
   });
   it("el cierre aprueba con 80 % o más y guarda la mejor nota; si no aprueba, no completa", () => {
     const ok = applyModuleTest(modDone(M1.id), 10, 12, NOW);

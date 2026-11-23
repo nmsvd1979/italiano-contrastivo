@@ -242,6 +242,18 @@
         "u42"
       ],
       "goal_es": "Hablar de moda, proponer ir a las tiendas, decir que no puedes y decir hacia dónde vas."
+    },
+    {
+      "id": "rp_studi",
+      "title": "Hablar de tus estudios y de tu horario",
+      "function_es": "Hablar de tus estudios",
+      "reading": "rd_materie",
+      "from": 1,
+      "to": 15,
+      "after": [
+        "u25"
+      ],
+      "goal_es": "Preguntar y decir qué estudias, cuándo tienes clase y cuándo es tu cumpleaños."
     }
   ],
   "tasks": [
@@ -484,6 +496,100 @@
         }
       ],
       "adaptation": "El libro escribe «Dov'è (name of building)?»: se usó «il museo» como ejemplo. Se omitieron las preguntas sobre trabajo y actividades.",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que ya estudié: artículos (il/la), posesivos con artículo, género distinto del español.",
+        "Me escuché y las palabras con ci/ce/chi/che y las consonantes dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_lavoro",
+      "title": "Tu trabajo",
+      "function_es": "Hablar de tu trabajo",
+      "level": "A1",
+      "minutes": 3,
+      "after": [
+        "u29"
+      ],
+      "source": {
+        "book": "Piacere! Elementary Italian",
+        "authors": "Lucia Gemmani, Irene Lottini y Claudia Sartini-Rideout",
+        "license": "CC BY-NC-SA 4.0",
+        "url": "https://pressbooks.uiowa.edu/piacere/chapter/conversazione-il-lavoro/",
+        "chapter": "Conversazione: il lavoro"
+      },
+      "intro_es": "Habla 1–2 minutos de tu trabajo (o de uno que imagines), en presente y sin leer. Saluda al principio y despídete al final.",
+      "questions": [
+        {
+          "it": "Hai un lavoro ora?",
+          "es": "¿Tienes un trabajo ahora?",
+          "audio": "e8733030d104"
+        },
+        {
+          "it": "Che lavoro fai?",
+          "es": "¿A qué te dedicas? / ¿Qué trabajo haces?",
+          "audio": "c8093ea0de4b"
+        },
+        {
+          "it": "Ti piace il tuo lavoro? Perché?",
+          "es": "¿Te gusta tu trabajo? ¿Por qué?",
+          "audio": "e67a6a2d2523"
+        },
+        {
+          "it": "Che cosa non ti piace del tuo lavoro? Perché?",
+          "es": "¿Qué no te gusta de tu trabajo? ¿Por qué?",
+          "audio": "c4812bc96ff4"
+        }
+      ],
+      "adaptation": "Se usaron solo las preguntas en presente. Se omitieron las de infanzia (imperfetto), las del futuro y las del imperativo, de niveles mayores. Pensada para después de «Vocabulario: la escuela y el trabajo».",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que ya estudié: artículos (il/la), posesivos con artículo, género distinto del español.",
+        "Me escuché y las palabras con ci/ce/chi/che y las consonantes dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_passato",
+      "title": "Qué hiciste",
+      "function_es": "Contar lo que hiciste",
+      "level": "A1",
+      "minutes": 3,
+      "after": [
+        "u58"
+      ],
+      "source": {
+        "book": "Piacere! Elementary Italian",
+        "authors": "Lucia Gemmani, Irene Lottini y Claudia Sartini-Rideout",
+        "license": "CC BY-NC-SA 4.0",
+        "url": "https://pressbooks.uiowa.edu/piacere/chapter/conversazione-un-salto-nel-passato/",
+        "chapter": "Conversazione: Un salto nel passato"
+      },
+      "intro_es": "Cuenta en 1–2 minutos algo que hiciste en un viaje o un día, real o inventado, con «ho + participio» (ho mangiato, ho visto…). Sin leer.",
+      "questions": [
+        {
+          "it": "Che cosa hai visto?",
+          "es": "¿Qué viste?",
+          "audio": "5448d8ac0e10"
+        },
+        {
+          "it": "Che cosa hai fatto?",
+          "es": "¿Qué hiciste?",
+          "audio": "11f2430ed986"
+        },
+        {
+          "it": "Che cibo hai mangiato? E che cosa hai bevuto?",
+          "es": "¿Qué comida comiste? ¿Y qué bebiste?",
+          "audio": "bff3eaf3c467"
+        },
+        {
+          "it": "Chi hai incontrato?",
+          "es": "¿A quién encontraste?",
+          "audio": "e7153f7b14fd"
+        }
+      ],
+      "adaptation": "Se usaron solo las preguntas con «avere» (passato prossimo de «ho + participio»). Se omitieron «Dove sei andato/a?», «Chi è venuto con te?» y «Che cosa ti è piaciuto?» (auxiliar «essere»: A2).",
       "checklist_es": [
         "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
         "No leí: hablé de corrido, aunque con pausas.",
