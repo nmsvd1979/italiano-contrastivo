@@ -73,7 +73,7 @@ def texts_for_pack(pack_dir: Path) -> list[str]:
     words = {w["form"] for u in (json.loads(cf.read_text(encoding="utf8"))["units"] if cf.exists() else []) for w in u.get("words", [])}
     sp = pack_dir / "speaking.json"
     speaking = json.loads(sp.read_text(encoding="utf8")) if sp.exists() else {"tasks": [], "alphabet": {"letters": []}}
-    spoken = {q["it"] for t in speaking["tasks"] for q in t["questions"]} | {x["name"] for x in speaking["alphabet"]["letters"]} | {x["it"] for x in speaking.get("phrases", {}).get("items", [])}
+    spoken = {q["it"] for t in speaking["tasks"] for q in t["questions"]} | {x["name"] for x in speaking["alphabet"]["letters"]} | {x["it"] for g in speaking.get("phrases", {}).get("groups", []) for x in g["items"]}
     return sorted({s["it"] for s in sentences} | {l["form"] for l in lexemes} | {s["it"] for r in readings for s in r["sentences"]} | words | spoken)
 
 

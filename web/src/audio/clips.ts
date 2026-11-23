@@ -24,7 +24,7 @@ export function audioIdFor(text: string, pack: Pick<ContentPack, "sentences" | "
     ?? pack.course?.units.flatMap((u) => u.words ?? []).find((w) => w.form === text)?.audio
     ?? pack.speaking?.tasks.flatMap((t) => t.questions).find((q) => q.it === text)?.audio
     ?? pack.speaking?.alphabet.letters.find((l) => l.name === text)?.audio
-    ?? pack.speaking?.phrases?.items.find((q) => q.it === text)?.audio;
+    ?? pack.speaking?.phrases?.groups.flatMap((g) => g.items).find((q) => q.it === text)?.audio;
 }
 
 /** Palabra → archivo de grabación nativa (`audio/words/<archivo>`). Sin el archivo o sin red: vacío. */

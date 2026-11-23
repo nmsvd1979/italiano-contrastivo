@@ -282,16 +282,21 @@ function PhrasesPanel({ phrases, onExit }: { phrases: NonNullable<Speaking["phra
     <main>
       <h1>{phrases.title}</h1>
       <p>{phrases.intro_es}</p>
-      <ul className="library">
-        {phrases.items.map((p) => (
-          <li key={p.it}>
-            <p className="big">{p.es}</p>
-            <button type="button" aria-expanded={shown.has(p.it)} onClick={() => { toggle(p.it); if (!shown.has(p.it)) void player(p.it); }}>{shown.has(p.it) ? "Ocultar" : "Ver cómo se dice"}</button>
-            {shown.has(p.it) && <p lang="it" className="big">{p.it} <button type="button" className="mini" aria-label={`Escuchar: ${p.it}`} onClick={() => void player(p.it)}>🔊</button></p>}
-          </li>
-        ))}
-      </ul>
-      <p><small>{phrases.missing_es} Fuente: {phrases.source.book} ({phrases.source.authors}), {phrases.source.license}, <a href={phrases.source.url} target="_blank" rel="noopener noreferrer">{phrases.source.chapter}</a>. Traducciones: IA, sin revisar por un nativo.</small></p>
+      {phrases.groups.map((g) => (
+        <section key={g.id} aria-label={g.title}>
+          <h2>{g.title}</h2>
+          <ul className="library">
+            {g.items.map((p) => (
+              <li key={p.it}>
+                <p className="big">{p.es}</p>
+                <button type="button" aria-expanded={shown.has(p.it)} onClick={() => { toggle(p.it); if (!shown.has(p.it)) void player(p.it); }}>{shown.has(p.it) ? "Ocultar" : "Ver cómo se dice"}</button>
+                {shown.has(p.it) && <p lang="it" className="big">{p.it} <button type="button" className="mini" aria-label={`Escuchar: ${p.it}`} onClick={() => void player(p.it)}>🔊</button></p>}
+              </li>
+            ))}
+          </ul>
+          <p><small>{g.missing_es} Fuente: {g.source.book} ({g.source.authors}), {g.source.license}, <a href={g.source.url} target="_blank" rel="noopener noreferrer">{g.source.chapter}</a>. Traducciones: IA, sin revisar por un nativo.</small></p>
+        </section>
+      ))}
       <p><button type="button" onClick={onExit}>← Volver</button></p>
     </main>
   );

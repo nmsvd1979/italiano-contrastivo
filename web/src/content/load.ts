@@ -56,7 +56,7 @@ export type SpeakingTask = {
 export type Speaking = {
   version: number; note: string;
   alphabet: { source: { book: string; authors: string; url: string; license: string }; letters: { letter: string; name: string; audio?: string }[]; missing_es: string };
-  phrases?: { title: string; intro_es: string; missing_es: string; source: { book: string; authors: string; url: string; license: string; chapter: string }; items: SpeakingQuestion[] };
+  phrases?: { title: string; intro_es: string; groups: { id: string; title: string; missing_es: string; source: { book: string; authors: string; url: string; license: string; chapter: string }; items: SpeakingQuestion[] }[] };
   roleplays: RolePlay[]; tasks: SpeakingTask[];
 };
 export type PlannedUnit = { level: string; title: string; reason: string };

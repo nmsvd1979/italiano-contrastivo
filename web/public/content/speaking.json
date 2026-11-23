@@ -468,70 +468,179 @@
   ],
   "phrases": {
     "title": "Frases para no quedarte callado",
-    "source": {
-      "book": "Piacere! Elementary Italian",
-      "authors": "Lucia Gemmani, Irene Lottini y Claudia Sartini-Rideout",
-      "license": "CC BY-NC-SA 4.0",
-      "url": "https://pressbooks.uiowa.edu/piacere/chapter/2-i-saluti/",
-      "chapter": "I saluti (Domande e espressioni utili)"
-    },
-    "intro_es": "Las del libro para pedir aclaraciones y ser cortés. Tápalas, di la frase en italiano a partir del español y compruébala.",
-    "missing_es": "El libro no trae «Può ripetere?» ni «Non capisco»: no se incluyeron para no inventar italiano. Aprende esas dos con un recurso de la Biblioteca.",
-    "items": [
+    "intro_es": "Frases reales de fuentes abiertas. Tápalas, di la frase en italiano a partir del español y compruébala.",
+    "groups": [
       {
-        "it": "Come si dice...?",
-        "es": "¿Cómo se dice...?",
-        "audio": "73d40a0671b7"
+        "id": "ph_piacere",
+        "title": "Aclarar y ser cortés",
+        "source": {
+          "book": "Piacere! Elementary Italian",
+          "authors": "Lucia Gemmani, Irene Lottini y Claudia Sartini-Rideout",
+          "license": "CC BY-NC-SA 4.0",
+          "url": "https://pressbooks.uiowa.edu/piacere/chapter/2-i-saluti/",
+          "chapter": "I saluti (Domande e espressioni utili)"
+        },
+        "missing_es": "El libro no trae «Può ripetere?» ni «Non capisco»: no se incluyeron para no inventar italiano. Aprende esas dos con un recurso de la Biblioteca.",
+        "items": [
+          {
+            "it": "Come si dice...?",
+            "es": "¿Cómo se dice...?",
+            "audio": "73d40a0671b7"
+          },
+          {
+            "it": "Cosa vuol dire...?",
+            "es": "¿Qué significa...?",
+            "audio": "71d5dc2c169f"
+          },
+          {
+            "it": "Come si scrive?",
+            "es": "¿Cómo se escribe?",
+            "audio": "30a8ce7c294c"
+          },
+          {
+            "it": "Scusi",
+            "es": "Disculpe (trato formal)",
+            "audio": "e44954bdda8b"
+          },
+          {
+            "it": "Scusa",
+            "es": "Disculpa (trato informal)",
+            "audio": "599e37fdafdb"
+          },
+          {
+            "it": "Mi dispiace",
+            "es": "Lo siento",
+            "audio": "b2ad87df9dfb"
+          },
+          {
+            "it": "Per favore",
+            "es": "Por favor",
+            "audio": "556ce59e704b"
+          },
+          {
+            "it": "Per piacere",
+            "es": "Por favor (otra forma)",
+            "audio": "b0383ef3841a"
+          },
+          {
+            "it": "Prego",
+            "es": "De nada / adelante",
+            "audio": "7732a2f9868a"
+          },
+          {
+            "it": "Come sta?",
+            "es": "¿Cómo está? (trato formal)",
+            "audio": "2340d42691e2"
+          },
+          {
+            "it": "Come stai?",
+            "es": "¿Cómo estás? (trato informal)",
+            "audio": "7d0277b3bb0f"
+          }
+        ]
       },
       {
-        "it": "Cosa vuol dire...?",
-        "es": "¿Qué significa...?",
-        "audio": "71d5dc2c169f"
+        "id": "ph_bar",
+        "title": "En el bar: pedir y pagar",
+        "source": {
+          "book": "Beginners' Italian: food and drink (The Open University, OpenLearn)",
+          "authors": "The Open University",
+          "license": "CC BY-NC-SA 4.0 (según el PDF del curso; la página web solo dice «All rights reserved»)",
+          "url": "https://www.open.edu/openlearn/languages/beginners-italian-food-and-drink/content-section-3",
+          "chapter": "3 Ordering and paying"
+        },
+        "missing_es": "Es un cuadro de frases, no un diálogo completo: el transcripto del audio del curso no se pudo leer. En un bar con cassa se paga primero y con el scontrino se pide en la barra; los dos carteles son los de la página.",
+        "items": [
+          {
+            "it": "Desidera?",
+            "es": "¿Qué desea? (lo dice quien atiende)",
+            "audio": "51001454b6d6"
+          },
+          {
+            "it": "Mi dica.",
+            "es": "Dígame. (¿en qué puedo ayudarle?)",
+            "audio": "8d16dec4d593"
+          },
+          {
+            "it": "E per Lei?",
+            "es": "¿Y para usted?",
+            "audio": "391c75622c6b"
+          },
+          {
+            "it": "Vorrei…",
+            "es": "Quisiera…",
+            "audio": "57a6ea50cacd"
+          },
+          {
+            "it": "Per me…",
+            "es": "Para mí…",
+            "audio": "1af4ff761382"
+          },
+          {
+            "it": "Scusi!",
+            "es": "¡Disculpe! (para llamar la atención)",
+            "audio": "884b69587405"
+          },
+          {
+            "it": "Allora…",
+            "es": "Entonces…",
+            "audio": "b105cf5b1ee7"
+          },
+          {
+            "it": "Ecco!",
+            "es": "¡Aquí tiene!",
+            "audio": "d18f05f30e01"
+          },
+          {
+            "it": "Si prega di pagare alla cassa.",
+            "es": "Cartel: se ruega pagar en la caja.",
+            "audio": "51179dc3de52"
+          },
+          {
+            "it": "Si prega di fare lo scontrino alla cassa.",
+            "es": "Cartel: se ruega sacar el comprobante en la caja.",
+            "audio": "e0f758faba2c"
+          }
+        ]
       },
       {
-        "it": "Come si scrive?",
-        "es": "¿Cómo se escribe?",
-        "audio": "30a8ce7c294c"
-      },
-      {
-        "it": "Scusi",
-        "es": "Disculpe (trato formal)",
-        "audio": "e44954bdda8b"
-      },
-      {
-        "it": "Scusa",
-        "es": "Disculpa (trato informal)",
-        "audio": "599e37fdafdb"
-      },
-      {
-        "it": "Mi dispiace",
-        "es": "Lo siento",
-        "audio": "b2ad87df9dfb"
-      },
-      {
-        "it": "Per favore",
-        "es": "Por favor",
-        "audio": "556ce59e704b"
-      },
-      {
-        "it": "Per piacere",
-        "es": "Por favor (otra forma)",
-        "audio": "b0383ef3841a"
-      },
-      {
-        "it": "Prego",
-        "es": "De nada / adelante",
-        "audio": "7732a2f9868a"
-      },
-      {
-        "it": "Come sta?",
-        "es": "¿Cómo está? (trato formal)",
-        "audio": "2340d42691e2"
-      },
-      {
-        "it": "Come stai?",
-        "es": "¿Cómo estás? (trato informal)",
-        "audio": "7d0277b3bb0f"
+        "id": "ph_wv",
+        "title": "No entiendo, más despacio y la cuenta",
+        "source": {
+          "book": "Wikivoyage, «Italian phrasebook»",
+          "authors": "Colaboradores de Wikivoyage",
+          "license": "CC BY-SA 3.0/4.0 (Wikivoyage: «Creative Commons Attribution-ShareAlike»)",
+          "url": "https://en.wikivoyage.org/wiki/Italian_phrasebook",
+          "chapter": "Italian phrasebook"
+        },
+        "missing_es": "«Può ripetere?» y «Come si dice…?» no están en esta fuente.",
+        "items": [
+          {
+            "it": "Non capisco.",
+            "es": "No entiendo.",
+            "audio": "c8243ee169b5"
+          },
+          {
+            "it": "Parli più lentamente, per favore.",
+            "es": "Hable más despacio, por favor (trato formal).",
+            "audio": "fb90dc910dbf"
+          },
+          {
+            "it": "Cosa significa?",
+            "es": "¿Qué significa?",
+            "audio": "efe313060af1"
+          },
+          {
+            "it": "Il conto, per favore.",
+            "es": "La cuenta, por favor.",
+            "audio": "778ad155144d"
+          },
+          {
+            "it": "Scusi, cameriere?",
+            "es": "¿Disculpe, camarero?",
+            "audio": "594bfe52e310"
+          }
+        ]
       }
     ]
   }

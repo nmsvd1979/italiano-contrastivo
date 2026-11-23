@@ -1204,6 +1204,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "89df63aa6860",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Hay diecinueve estudiantes en esta clase de economía.",
+    "es_author": "IA (Claude)",
+    "id": "s_10978888",
+    "it": "Ci sono diciannove studenti in questa classe di economia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10978888",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "57e30a3bc0ba",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Hay diecinueve alumnas en esta clase de economía.",
+    "es_author": "IA (Claude)",
+    "id": "s_10978889",
+    "it": "Ci sono diciannove studentesse in questa classe di economia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10978889",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "584c3c9eaebc",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -14697,6 +14721,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "d5bbf664fe18",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Tengo 19 años.",
+    "es_author": "Shishir",
+    "es_source_id": "651680",
+    "id": "s_374685",
+    "it": "Ho diciannove anni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "374685",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "a86728e38567",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -20908,6 +20945,18 @@
     "it": "Loro vivono con lei?",
     "license": "CC BY 2.0 FR",
     "source_id": "5732403",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c7e73d1cf38e",
+    "author": "dnnywld",
+    "cefr_estimate": "A1",
+    "es": "Mi hija Meva cumple hoy diecinueve años.",
+    "es_author": "IA (Claude)",
+    "id": "s_5738845",
+    "it": "Mia figlia Meva compie oggi diciannove anni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5738845",
     "translation_kind": "llm"
   },
   {

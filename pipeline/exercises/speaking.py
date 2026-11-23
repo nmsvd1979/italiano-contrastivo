@@ -59,7 +59,7 @@ def validate(doc: dict, readings: list[dict], unit_ids: set[str]) -> list[str]:
 
 def texts(doc: dict) -> list[str]:
     """Textos italianos que necesitan audio: preguntas de las tareas y nombres de las letras."""
-    return [q["it"] for t in doc["tasks"] for q in t["questions"]] + [x["name"] for x in doc["alphabet"]["letters"]] + [x["it"] for x in doc.get("phrases", {}).get("items", [])]
+    return [q["it"] for t in doc["tasks"] for q in t["questions"]] + [x["name"] for x in doc["alphabet"]["letters"]] + [x["it"] for g in doc.get("phrases", {}).get("groups", []) for x in g["items"]]
 
 
 def build_pack(pack_dir: Path) -> dict:
@@ -75,7 +75,11 @@ def build_pack(pack_dir: Path) -> dict:
             q["audio"] = clip_id(q["it"])
     for x in doc["alphabet"]["letters"]:
         x["audio"] = clip_id(x["name"])
-    for x in doc.get("phrases", {}).get("items", []):
-        x["audio"] = clip_id(x["it"])
+    for g in doc.get("phrases", {}).get("groups", []):
+        for k in ("source", "items"):
+            if not g.get(k):
+                raise ValueError(f"Habla guiada inválida: el grupo de frases {g.get('id')} no tiene {k}")
+        for x in g["items"]:
+            x["audio"] = clip_id(x["it"])
     (pack_dir / "speaking.json").write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
     return doc

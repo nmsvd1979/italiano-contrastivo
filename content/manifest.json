@@ -16,7 +16,7 @@
     "Eldad": 2,
     "Emmanuel_Maldini": 1,
     "Gloria7": 2,
-    "Guybrush88": 1805,
+    "Guybrush88": 1807,
     "Heracleum": 15,
     "IdiomHunter": 3,
     "JLGQ_": 3,
@@ -26,7 +26,7 @@
     "Nadialene": 1,
     "Nuel": 8,
     "PazEr": 1,
-    "Pharamp": 273,
+    "Pharamp": 274,
     "Ricardo14": 6,
     "Rovo": 4,
     "Safari": 2,
@@ -59,7 +59,7 @@
     "ciampix": 3,
     "cristina_fulginiti": 1,
     "davzog": 1,
-    "dnnywld": 35,
+    "dnnywld": 36,
     "dpu": 1,
     "elgranjuego": 3,
     "ema_rega": 1,
@@ -201,7 +201,7 @@
     "ERR_VOC_NATURA": 22,
     "ERR_VOC_NAZIONALITA": 32,
     "ERR_VOC_NEGOZI": 20,
-    "ERR_VOC_NUMERI": 79,
+    "ERR_VOC_NUMERI": 83,
     "ERR_VOC_OGGETTI": 33,
     "ERR_VOC_QUANTITA": 32,
     "ERR_VOC_SALUTE": 24,
@@ -279,17 +279,17 @@
     "s_9981034"
   ],
   "levels": {
-    "A1": 2142,
+    "A1": 2146,
     "A2": 413,
     "B1": 146,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 2681,
+    "llm-audit": 2685,
     "me": 27
   },
   "translation_kind": {
-    "direct": 1941,
-    "llm": 767
+    "direct": 1942,
+    "llm": 770
   }
 }

@@ -2227,6 +2227,52 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Hay diecinueve estudiantes en esta clase de economía.",
+    "es_author": "IA (Claude)",
+    "id": "s_10978888",
+    "it": "Ci sono diciannove studenti in questa classe di economia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10978888",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Hay diecinueve alumnas en esta clase de economía.",
+    "es_author": "IA (Claude)",
+    "id": "s_10978889",
+    "it": "Ci sono diciannove studentesse in questa classe di economia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10978889",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_CITTA"
     ],
     "es": "El mercado es grande.",
@@ -27051,6 +27097,28 @@
     "error_codes": [
       "ERR_VOC_NUMERI"
     ],
+    "es": "Tengo 19 años.",
+    "es_author": "Shishir",
+    "es_source_id": "651680",
+    "id": "s_374685",
+    "it": "Ho diciannove anni.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "374685",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
     "es": "Tengo dieciocho años.",
     "es_author": "Shishir",
     "es_source_id": "631763",
@@ -38501,6 +38569,29 @@
     "source_id": "5732403",
     "tag_rules": {
       "ERR_PRESENT_ERE_IRE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Mi hija Meva cumple hoy diecinueve años.",
+    "es_author": "IA (Claude)",
+    "id": "s_5738845",
+    "it": "Mia figlia Meva compie oggi diciannove anni.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5738845",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
     },
     "translation_kind": "llm"
   },

@@ -103,10 +103,11 @@ describe("pantalla Hablar", () => {
     expect(screen.getByLabelText("Nombres de las letras").textContent).toBe("a – enne – a");
   });
   it("las frases de supervivencia traen audio y no incluyen lo que el libro no trae", () => {
-    const items = speaking.phrases!.items;
-    expect(items.map((i) => i.it)).toContain("Come si dice...?");
+    const items = speaking.phrases!.groups.flatMap((g) => g.items);
+    expect(items.map((i) => i.it)).toEqual(expect.arrayContaining(["Come si dice...?", "Desidera?", "Si prega di pagare alla cassa.", "Non capisco."]));
+    for (const g of speaking.phrases!.groups) { expect(g.source.url, g.id).toMatch(/^https:\/\//); expect(g.source.license, g.id).toBeTruthy(); }
     expect(items.every((i) => /^[0-9a-f]{12}$/.test(i.audio ?? ""))).toBe(true);
-    expect(JSON.stringify(items)).not.toMatch(/ripetere|capisco/i);   // no están en la fuente: no se inventa
+    expect(JSON.stringify(items)).not.toMatch(/ripetere/i);   // «Può ripetere?» no está en ninguna fuente abierta verificada: no se inventa
   });
   it("las frases se ocultan hasta pedir cómo se dicen", () => {
     render(<SpeakingScreen pack={pack} store={memoryStore()} />);
