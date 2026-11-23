@@ -96,6 +96,10 @@ def build_pack(src_dir: Path, pack_dir: Path) -> list[dict]:
         d = {k: r[k] for k in ("id", "title", "level", "kind", "source", "translation", "questions")}
         if r.get("exam"):
             d["exam"] = True   # lectura NO vista: solo para el examen de hito (ninguna unidad la usa)
+        if r.get("listen"):
+            d["listen"] = True   # comprensión auditiva: se escucha sin ver el texto
+        if r.get("authored"):
+            d["authored"] = True   # escrito por la IA para esta app (no es de un libro): la interfaz lo declara
         if r.get("table"):
             d["table"] = r["table"]
         voices = voices_of(r["sentences"])

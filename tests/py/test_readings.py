@@ -16,7 +16,7 @@ def test_las_lecturas_del_repo_son_validas():
     assert len(rs) >= 4
     for r in rs:
         assert r["translation"].startswith("IA")
-        assert r["source"]["license"].startswith("CC BY-NC")
+        assert r.get("authored") or r["source"]["license"].startswith("CC BY-NC")   # los textos propios (authored) lo declaran
 
 
 def test_las_unidades_apuntan_a_lecturas_que_existen():
@@ -41,7 +41,7 @@ def test_pack_tiene_audio_y_alimenta_el_tts(tmp_path):
     (tmp_path / "sentences.json").write_text("[]")
     (tmp_path / "lexemes.json").write_text("[]")
     rs = readings.build_pack(SRC, tmp_path)
-    s = rs[0]["sentences"][0]
+    s = next(r["sentences"][0] for r in rs if r["sentences"] and r["sentences"][0].get("voice") != 2)   # los documentos no traen oraciones
     assert s["audio"] == clip_id(s["it"])
     assert s["it"] in texts_for_pack(tmp_path)
 
@@ -63,7 +63,7 @@ def test_tokens_separa_las_elisiones():
 def test_las_lecturas_de_examen_no_las_usa_ninguna_unidad_y_el_documento_exige_tabla():
     rs = {r["id"]: r for r in readings.load_readings(SRC)}
     exam = {i for i, r in rs.items() if r.get("exam")}
-    assert exam == {"rd_valentina", "rd_orario"}
+    assert {"rd_valentina", "rd_orario", "rd_sms_esame", "rd_stazione"} <= exam
     used = {i for u in json.loads(COURSE.read_text(encoding="utf8"))["units"] for i in u.get("readings", [])}
     assert not exam & used, "una lectura de examen ya no sería «no vista»"
     d = dict(rs["rd_orario"], table={"head": ["a", "b"], "rows": [["x"]]})

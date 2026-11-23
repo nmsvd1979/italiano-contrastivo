@@ -1,0 +1,82 @@
+{
+  "id": "doc_annuncio",
+  "title": "Affittasi stanza",
+  "level": "A1",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Anuncio de alquiler escrito por la IA; documento tipo PLIDA A1 «leer un anuncio».",
+  "table": {
+    "head": [
+      "Dato",
+      "Informazione"
+    ],
+    "rows": [
+      [
+        "Annuncio",
+        "Affittasi stanza singola"
+      ],
+      [
+        "Zona",
+        "centro, vicino alla metropolitana"
+      ],
+      [
+        "Prezzo",
+        "350 euro al mese"
+      ],
+      [
+        "Disponibile da",
+        "1 marzo"
+      ],
+      [
+        "Telefono",
+        "333 765 4321"
+      ]
+    ]
+  },
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿Qué se arrienda?",
+      "options": [
+        "Un departamento entero",
+        "Una habitación individual",
+        "Una casa"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta al mes?",
+      "options": [
+        "350 euros",
+        "530 euros",
+        "250 euros"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Dónde está?",
+      "options": [
+        "En el centro, cerca del metro",
+        "Cerca del mar",
+        "En las afueras"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Desde cuándo está disponible?",
+      "options": [
+        "Desde el 1 de marzo",
+        "Desde el 1 de mayo",
+        "Ya"
+      ],
+      "answer": 0
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

@@ -1,0 +1,125 @@
+{
+  "id": "rd_stazione",
+  "title": "In stazione: un biglietto per Firenze",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo de examen escrito por la IA para comprobar comprensión auditiva (se escucha sin ver el texto); usa horarios y precios como los del programa A1 de CILS y PLIDA.",
+  "sentences": [
+    {
+      "id": "rd_stazione_00",
+      "it": "Buongiorno, un biglietto per Firenze, per favore.",
+      "es": "Buenos días, un boleto para Florencia, por favor.",
+      "speaker": "Viaggiatore"
+    },
+    {
+      "id": "rd_stazione_01",
+      "it": "Andata e ritorno?",
+      "es": "¿Ida y vuelta?",
+      "speaker": "Impiegato"
+    },
+    {
+      "id": "rd_stazione_02",
+      "it": "Solo andata. A che ora parte il prossimo treno?",
+      "es": "Solo ida. ¿A qué hora sale el próximo tren?",
+      "speaker": "Viaggiatore"
+    },
+    {
+      "id": "rd_stazione_03",
+      "it": "Il treno parte alle dieci e venti dal binario tre.",
+      "es": "El tren sale a las diez y veinte del andén tres.",
+      "speaker": "Impiegato"
+    },
+    {
+      "id": "rd_stazione_04",
+      "it": "Quanto costa il biglietto?",
+      "es": "¿Cuánto cuesta el boleto?",
+      "speaker": "Viaggiatore"
+    },
+    {
+      "id": "rd_stazione_05",
+      "it": "Costa venti euro.",
+      "es": "Cuesta veinte euros.",
+      "speaker": "Impiegato"
+    },
+    {
+      "id": "rd_stazione_06",
+      "it": "Ecco, venti euro. Quando arriva a Firenze?",
+      "es": "Aquí tiene, veinte euros. ¿Cuándo llega a Florencia?",
+      "speaker": "Viaggiatore"
+    },
+    {
+      "id": "rd_stazione_07",
+      "it": "Arriva alle undici e cinquanta.",
+      "es": "Llega a las once y cincuenta.",
+      "speaker": "Impiegato"
+    },
+    {
+      "id": "rd_stazione_08",
+      "it": "Grazie mille. Arrivederci!",
+      "es": "Muchas gracias. ¡Hasta luego!",
+      "speaker": "Viaggiatore"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿A dónde viaja?",
+      "options": [
+        "A Roma",
+        "A Florencia",
+        "A Milán"
+      ],
+      "answer": 1,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Qué tipo de boleto quiere?",
+      "options": [
+        "Ida y vuelta",
+        "Solo ida",
+        "Para dos personas"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿A qué hora sale el tren?",
+      "options": [
+        "A las diez y veinte",
+        "A las once y cincuenta",
+        "A las nueve"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta el boleto?",
+      "options": [
+        "Diez euros",
+        "Veinte euros",
+        "Treinta euros"
+      ],
+      "answer": 1,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿A qué hora llega a Florencia?",
+      "options": [
+        "A las diez y veinte",
+        "A las doce",
+        "A las once y cincuenta"
+      ],
+      "answer": 2,
+      "evidence": 7
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "exam": true,
+  "listen": true
+}

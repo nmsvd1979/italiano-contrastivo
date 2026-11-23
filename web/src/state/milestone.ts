@@ -69,7 +69,11 @@ export function milestoneListenSentences(pack: ContentPack, level = "A1", used: 
 
 /** Lecturas NO vistas del examen (ninguna unidad las usa): un texto y un documento, sin traducción. */
 export const milestoneReadings = (pack: ContentPack, level = "A1"): Reading[] =>
-  (pack.readings ?? []).filter((r) => r.exam && r.level === level).sort((a, b) => a.id.localeCompare(b.id));
+  (pack.readings ?? []).filter((r) => r.exam && !r.listen && r.level === level).sort((a, b) => a.id.localeCompare(b.id));
+
+/** Comprensión auditiva: diálogos de examen que solo se escuchan (el texto no se ve) y se responden con preguntas. Cuentan en la parte «escuchar». */
+export const milestoneListening = (pack: ContentPack, level = "A1"): Reading[] =>
+  (pack.readings ?? []).filter((r) => r.exam && r.listen && r.level === level).sort((a, b) => a.id.localeCompare(b.id));
 
 /** Tarea oral del hito: la primera del nivel (se autoevalúa con su rúbrica). */
 export const milestoneOralTask = (pack: ContentPack, level = "A1"): SpeakingTask | undefined => pack.speaking?.tasks.find((t) => t.level === level);

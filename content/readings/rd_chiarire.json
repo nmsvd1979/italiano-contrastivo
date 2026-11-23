@@ -1,0 +1,135 @@
+{
+  "id": "rd_chiarire",
+  "title": "In classe: non capisco",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo escrito por la IA con las frases de clase de Giornate italiane («Come si scrive?», «Cosa vuol dire?», «Non capisco, puoi ripetere?») y de Wikivoyage («Parli più lentamente»), en trato formal («Può ripetere?») y con los nombres de las letras de Piacere!.",
+  "sentences": [
+    {
+      "id": "rd_chiarire_00",
+      "it": "Aprite il libro a pagina dieci.",
+      "es": "Abran el libro en la página diez.",
+      "speaker": "Insegnante"
+    },
+    {
+      "id": "rd_chiarire_01",
+      "it": "Scusi, non capisco. Può ripetere, per favore?",
+      "es": "Disculpe, no entiendo. ¿Puede repetir, por favor?",
+      "speaker": "Studente"
+    },
+    {
+      "id": "rd_chiarire_02",
+      "it": "Certo. Aprite il libro a pagina dieci.",
+      "es": "Claro. Abran el libro en la página diez.",
+      "speaker": "Insegnante"
+    },
+    {
+      "id": "rd_chiarire_03",
+      "it": "Più lentamente, per favore.",
+      "es": "Más despacio, por favor.",
+      "speaker": "Studente"
+    },
+    {
+      "id": "rd_chiarire_04",
+      "it": "Va bene, più lentamente: aprite il libro a pagina dieci.",
+      "es": "Está bien, más despacio: abran el libro en la página diez.",
+      "speaker": "Insegnante"
+    },
+    {
+      "id": "rd_chiarire_05",
+      "it": "Ho capito, grazie! Scusi, cosa vuol dire «pagina»?",
+      "es": "¡Entendí, gracias! Disculpe, ¿qué quiere decir «pagina»?",
+      "speaker": "Studente"
+    },
+    {
+      "id": "rd_chiarire_06",
+      "it": "Pagina è una parte del libro.",
+      "es": "«Pagina» es una parte del libro.",
+      "speaker": "Insegnante"
+    },
+    {
+      "id": "rd_chiarire_07",
+      "it": "Come si scrive «pagina»?",
+      "es": "¿Cómo se escribe «pagina»?",
+      "speaker": "Studente"
+    },
+    {
+      "id": "rd_chiarire_08",
+      "it": "Si scrive: pi, a, gi, i, enne, a.",
+      "es": "Se escribe: pi, a, gi, i, enne, a.",
+      "speaker": "Insegnante"
+    },
+    {
+      "id": "rd_chiarire_09",
+      "it": "Grazie mille!",
+      "es": "¡Muchas gracias!",
+      "speaker": "Studente"
+    },
+    {
+      "id": "rd_chiarire_10",
+      "it": "Prego!",
+      "es": "¡De nada!",
+      "speaker": "Insegnante"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué pide la profesora al comienzo?",
+      "options": [
+        "Cerrar el libro",
+        "Abrir el libro en la página diez",
+        "Leer en voz alta"
+      ],
+      "answer": 1,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Qué le pide el estudiante cuando no entiende?",
+      "options": [
+        "Que repita",
+        "Que se vaya",
+        "Que escriba en la pizarra"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué más pide el estudiante?",
+      "options": [
+        "Más rápido",
+        "Más despacio",
+        "Más fuerte"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Qué quiere saber sobre «pagina»?",
+      "options": [
+        "Qué significa",
+        "Dónde está",
+        "Cuánto cuesta"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Cómo se escribe «pagina»?",
+      "options": [
+        "pi, a, gi, i, enne, a",
+        "pi, a, ci, i, emme, a",
+        "bi, a, gi, i, enne, a"
+      ],
+      "answer": 0,
+      "evidence": 8
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

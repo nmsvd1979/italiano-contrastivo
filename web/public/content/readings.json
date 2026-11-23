@@ -1,5 +1,506 @@
 [
   {
+    "id": "doc_annuncio",
+    "title": "Affittasi stanza",
+    "level": "A1",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué se arrienda?",
+        "options": [
+          "Un departamento entero",
+          "Una habitación individual",
+          "Una casa"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta al mes?",
+        "options": [
+          "350 euros",
+          "530 euros",
+          "250 euros"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Dónde está?",
+        "options": [
+          "En el centro, cerca del metro",
+          "Cerca del mar",
+          "En las afueras"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Desde cuándo está disponible?",
+        "options": [
+          "Desde el 1 de marzo",
+          "Desde el 1 de mayo",
+          "Ya"
+        ],
+        "answer": 0
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Dato",
+        "Informazione"
+      ],
+      "rows": [
+        [
+          "Annuncio",
+          "Affittasi stanza singola"
+        ],
+        [
+          "Zona",
+          "centro, vicino alla metropolitana"
+        ],
+        [
+          "Prezzo",
+          "350 euro al mese"
+        ],
+        [
+          "Disponibile da",
+          "1 marzo"
+        ],
+        [
+          "Telefono",
+          "333 765 4321"
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
+    "id": "doc_cartelli",
+    "title": "Cartelli",
+    "level": "A1",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué hay que hacer con «Spingere»?",
+        "options": [
+          "Empujar la puerta",
+          "Tirar de la puerta",
+          "Pagar"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Qué significa «Vietato fumare»?",
+        "options": [
+          "Prohibido fumar",
+          "Se vende tabaco",
+          "Salida"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Qué significa «Chiuso»?",
+        "options": [
+          "Abierto",
+          "Cerrado",
+          "Gratis"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Dónde hay que pagar según el último cartel?",
+        "options": [
+          "En la puerta",
+          "En la caja",
+          "En la salida"
+        ],
+        "answer": 1
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Cartello"
+      ],
+      "rows": [
+        [
+          "Vietato fumare"
+        ],
+        [
+          "Spingere"
+        ],
+        [
+          "Tirare"
+        ],
+        [
+          "Aperto"
+        ],
+        [
+          "Chiuso"
+        ],
+        [
+          "Uscita di emergenza"
+        ],
+        [
+          "Ingresso libero"
+        ],
+        [
+          "Si prega di pagare alla cassa"
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
+    "id": "doc_menu",
+    "title": "Il menù della trattoria",
+    "level": "A1",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cuánto cuesta la lasaña?",
+        "options": [
+          "8 euros",
+          "10 euros",
+          "12 euros"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Cuál es el primer plato más barato?",
+        "options": [
+          "Spaghetti al pomodoro",
+          "Lasagne",
+          "Risotto ai funghi"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta el cubierto (coperto)?",
+        "options": [
+          "1 euro",
+          "2 euros",
+          "4 euros"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Qué postres hay?",
+        "options": [
+          "Tiramisù y gelato",
+          "Bruschetta y gelato",
+          "Tiramisù y caffè"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "Pedro pide pollo asado y agua. ¿Cuánto es, sin el cubierto?",
+        "options": [
+          "12 euros",
+          "14 euros",
+          "17 euros"
+        ],
+        "answer": 1
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "",
+        "Prezzo"
+      ],
+      "rows": [
+        [
+          "ANTIPASTI",
+          ""
+        ],
+        [
+          "Bruschetta",
+          "5 €"
+        ],
+        [
+          "Prosciutto e melone",
+          "8 €"
+        ],
+        [
+          "PRIMI",
+          ""
+        ],
+        [
+          "Spaghetti al pomodoro",
+          "9 €"
+        ],
+        [
+          "Lasagne",
+          "10 €"
+        ],
+        [
+          "Risotto ai funghi",
+          "11 €"
+        ],
+        [
+          "SECONDI",
+          ""
+        ],
+        [
+          "Pollo arrosto",
+          "12 €"
+        ],
+        [
+          "Pesce del giorno",
+          "15 €"
+        ],
+        [
+          "CONTORNI",
+          ""
+        ],
+        [
+          "Insalata mista",
+          "4 €"
+        ],
+        [
+          "Patate fritte",
+          "4 €"
+        ],
+        [
+          "DOLCI",
+          ""
+        ],
+        [
+          "Tiramisù",
+          "5 €"
+        ],
+        [
+          "Gelato",
+          "4 €"
+        ],
+        [
+          "BEVANDE",
+          ""
+        ],
+        [
+          "Acqua",
+          "2 €"
+        ],
+        [
+          "Vino della casa",
+          "3 €"
+        ],
+        [
+          "Caffè",
+          "1 €"
+        ],
+        [
+          "Coperto",
+          "2 €"
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
+    "id": "doc_modulo",
+    "title": "Modulo d'iscrizione",
+    "level": "A1",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cómo se llama la persona?",
+        "options": [
+          "Anna Rossi",
+          "Rossi Anna Torino",
+          "Anna Milano"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Dónde nació?",
+        "options": [
+          "En Milán",
+          "En Turín",
+          "En Roma"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Cuál es su nacionalidad?",
+        "options": [
+          "Italiana",
+          "Francesa",
+          "Española"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿En qué ciudad vive?",
+        "options": [
+          "Turín",
+          "Roma",
+          "Milán"
+        ],
+        "answer": 2
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Campo",
+        "Dato"
+      ],
+      "rows": [
+        [
+          "Nome",
+          "Anna"
+        ],
+        [
+          "Cognome",
+          "Rossi"
+        ],
+        [
+          "Data di nascita",
+          "12/05/1998"
+        ],
+        [
+          "Luogo di nascita",
+          "Torino"
+        ],
+        [
+          "Nazionalità",
+          "italiana"
+        ],
+        [
+          "Indirizzo",
+          "Via Roma 15, Milano"
+        ],
+        [
+          "Telefono",
+          "333 123 4567"
+        ],
+        [
+          "E-mail",
+          "anna.rossi@example.com"
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
+    "id": "doc_orari",
+    "title": "Orari del negozio",
+    "level": "A1",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué día está cerrado el negocio, además del domingo?",
+        "options": [
+          "El lunes",
+          "El sábado",
+          "El viernes"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿A qué hora abre el martes?",
+        "options": [
+          "A las 9:00",
+          "A las 15:00",
+          "A las 13:00"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Hasta qué hora está abierto el sábado?",
+        "options": [
+          "Hasta las 19:00",
+          "Hasta las 13:00",
+          "Hasta las 15:00"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Se puede comprar el jueves a las 14:00?",
+        "options": [
+          "Sí",
+          "No: está cerrado a esa hora",
+          "Solo con reserva"
+        ],
+        "answer": 1
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Giorno",
+        "Orario"
+      ],
+      "rows": [
+        [
+          "lunedì",
+          "chiuso"
+        ],
+        [
+          "martedì",
+          "9:00–13:00 e 15:00–19:00"
+        ],
+        [
+          "mercoledì",
+          "9:00–13:00 e 15:00–19:00"
+        ],
+        [
+          "giovedì",
+          "9:00–13:00 e 15:00–19:00"
+        ],
+        [
+          "venerdì",
+          "9:00–13:00 e 15:00–19:00"
+        ],
+        [
+          "sabato",
+          "9:00–13:00"
+        ],
+        [
+          "domenica",
+          "chiuso"
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
     "id": "rd_albergo",
     "title": "All'albergo e a fare la spesa",
     "level": "A1",
@@ -290,6 +791,171 @@
         "speaker": "Artemisia",
         "audio": "3b57e9df1b23",
         "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_bar",
+    "title": "Al bar: ordinare e pagare",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué pide el cliente?",
+        "options": [
+          "Un café solo",
+          "Un capuchino y una brioche",
+          "Un té y un cuerno"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Cuánto paga?",
+        "options": [
+          "Tres euros con cincuenta",
+          "Cuatro euros",
+          "Dos euros"
+        ],
+        "answer": 0,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Qué hace el cliente primero?",
+        "options": [
+          "Pide en la barra",
+          "Paga en la caja y recibe el comprobante",
+          "Busca una mesa"
+        ],
+        "answer": 1,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Qué le entrega al barista?",
+        "options": [
+          "El dinero",
+          "El comprobante",
+          "El menú"
+        ],
+        "answer": 1,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Dónde está el baño?",
+        "options": [
+          "Al fondo a la derecha",
+          "Afuera",
+          "A la izquierda de la caja"
+        ],
+        "answer": 0,
+        "evidence": 10
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_bar_00",
+        "it": "Buongiorno! Desidera?",
+        "es": "¡Buenos días! ¿Qué desea?",
+        "speaker": "Cassiera",
+        "audio": "a224805660a5"
+      },
+      {
+        "id": "rd_bar_01",
+        "it": "Buongiorno. Vorrei un cappuccino e una brioche, per favore.",
+        "es": "Buenos días. Quisiera un capuchino y una brioche, por favor.",
+        "speaker": "Cliente",
+        "audio": "16aae535b0e2",
+        "voice": 2
+      },
+      {
+        "id": "rd_bar_02",
+        "it": "Sono tre euro e cinquanta.",
+        "es": "Son tres euros con cincuenta.",
+        "speaker": "Cassiera",
+        "audio": "982b37f4dc9a"
+      },
+      {
+        "id": "rd_bar_03",
+        "it": "Ecco a Lei.",
+        "es": "Aquí tiene.",
+        "speaker": "Cliente",
+        "audio": "9282941f4965",
+        "voice": 2
+      },
+      {
+        "id": "rd_bar_04",
+        "it": "Grazie. Ecco lo scontrino.",
+        "es": "Gracias. Aquí tiene el comprobante.",
+        "speaker": "Cassiera",
+        "audio": "14fea6b1a7e2"
+      },
+      {
+        "id": "rd_bar_05",
+        "it": "Grazie mille.",
+        "es": "Muchas gracias.",
+        "speaker": "Cliente",
+        "audio": "6ddb4d95c24e",
+        "voice": 2
+      },
+      {
+        "id": "rd_bar_06",
+        "it": "Mi dica!",
+        "es": "¡Dígame!",
+        "speaker": "Barista",
+        "audio": "b61ba8b5ef5e"
+      },
+      {
+        "id": "rd_bar_07",
+        "it": "Un cappuccino e una brioche, per favore. Ecco lo scontrino.",
+        "es": "Un capuchino y una brioche, por favor. Aquí está el comprobante.",
+        "speaker": "Cliente",
+        "audio": "cba9fb142ab9",
+        "voice": 2
+      },
+      {
+        "id": "rd_bar_08",
+        "it": "Subito! Ecco il cappuccino.",
+        "es": "¡Enseguida! Aquí está el capuchino.",
+        "speaker": "Barista",
+        "audio": "76856e55fa30"
+      },
+      {
+        "id": "rd_bar_09",
+        "it": "Grazie. Scusi, dov'è il bagno?",
+        "es": "Gracias. Disculpe, ¿dónde está el baño?",
+        "speaker": "Cliente",
+        "audio": "c48a28fecbd6",
+        "voice": 2
+      },
+      {
+        "id": "rd_bar_10",
+        "it": "È in fondo a destra.",
+        "es": "Está al fondo a la derecha.",
+        "speaker": "Barista",
+        "audio": "44a8b3405f0b"
+      },
+      {
+        "id": "rd_bar_11",
+        "it": "Grazie. Arrivederci!",
+        "es": "Gracias. ¡Hasta luego!",
+        "speaker": "Cliente",
+        "audio": "f17744d554a0",
+        "voice": 2
+      },
+      {
+        "id": "rd_bar_12",
+        "it": "Arrivederci, buona giornata!",
+        "es": "Hasta luego, ¡que tenga un buen día!",
+        "speaker": "Barista",
+        "audio": "1bd694672f38"
       }
     ]
   },
@@ -705,6 +1371,156 @@
         "es": "Vamos a ver este apartamento.",
         "speaker": "Barbara",
         "audio": "b6f9d90cc738"
+      }
+    ]
+  },
+  {
+    "id": "rd_chiarire",
+    "title": "In classe: non capisco",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué pide la profesora al comienzo?",
+        "options": [
+          "Cerrar el libro",
+          "Abrir el libro en la página diez",
+          "Leer en voz alta"
+        ],
+        "answer": 1,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Qué le pide el estudiante cuando no entiende?",
+        "options": [
+          "Que repita",
+          "Que se vaya",
+          "Que escriba en la pizarra"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Qué más pide el estudiante?",
+        "options": [
+          "Más rápido",
+          "Más despacio",
+          "Más fuerte"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué quiere saber sobre «pagina»?",
+        "options": [
+          "Qué significa",
+          "Dónde está",
+          "Cuánto cuesta"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Cómo se escribe «pagina»?",
+        "options": [
+          "pi, a, gi, i, enne, a",
+          "pi, a, ci, i, emme, a",
+          "bi, a, gi, i, enne, a"
+        ],
+        "answer": 0,
+        "evidence": 8
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_chiarire_00",
+        "it": "Aprite il libro a pagina dieci.",
+        "es": "Abran el libro en la página diez.",
+        "speaker": "Insegnante",
+        "audio": "d79bdf93a1ae"
+      },
+      {
+        "id": "rd_chiarire_01",
+        "it": "Scusi, non capisco. Può ripetere, per favore?",
+        "es": "Disculpe, no entiendo. ¿Puede repetir, por favor?",
+        "speaker": "Studente",
+        "audio": "a27619fe9854",
+        "voice": 2
+      },
+      {
+        "id": "rd_chiarire_02",
+        "it": "Certo. Aprite il libro a pagina dieci.",
+        "es": "Claro. Abran el libro en la página diez.",
+        "speaker": "Insegnante",
+        "audio": "7c6f037388a4"
+      },
+      {
+        "id": "rd_chiarire_03",
+        "it": "Più lentamente, per favore.",
+        "es": "Más despacio, por favor.",
+        "speaker": "Studente",
+        "audio": "7ee2e21dc0cd",
+        "voice": 2
+      },
+      {
+        "id": "rd_chiarire_04",
+        "it": "Va bene, più lentamente: aprite il libro a pagina dieci.",
+        "es": "Está bien, más despacio: abran el libro en la página diez.",
+        "speaker": "Insegnante",
+        "audio": "bceeff109aa3"
+      },
+      {
+        "id": "rd_chiarire_05",
+        "it": "Ho capito, grazie! Scusi, cosa vuol dire «pagina»?",
+        "es": "¡Entendí, gracias! Disculpe, ¿qué quiere decir «pagina»?",
+        "speaker": "Studente",
+        "audio": "3752d3bc45d3",
+        "voice": 2
+      },
+      {
+        "id": "rd_chiarire_06",
+        "it": "Pagina è una parte del libro.",
+        "es": "«Pagina» es una parte del libro.",
+        "speaker": "Insegnante",
+        "audio": "d8006150618c"
+      },
+      {
+        "id": "rd_chiarire_07",
+        "it": "Come si scrive «pagina»?",
+        "es": "¿Cómo se escribe «pagina»?",
+        "speaker": "Studente",
+        "audio": "7c88d4b2ecce",
+        "voice": 2
+      },
+      {
+        "id": "rd_chiarire_08",
+        "it": "Si scrive: pi, a, gi, i, enne, a.",
+        "es": "Se escribe: pi, a, gi, i, enne, a.",
+        "speaker": "Insegnante",
+        "audio": "b7686624cf2b"
+      },
+      {
+        "id": "rd_chiarire_09",
+        "it": "Grazie mille!",
+        "es": "¡Muchas gracias!",
+        "speaker": "Studente",
+        "audio": "345a495a67e4",
+        "voice": 2
+      },
+      {
+        "id": "rd_chiarire_10",
+        "it": "Prego!",
+        "es": "¡De nada!",
+        "speaker": "Insegnante",
+        "audio": "4ce39d0509b4"
       }
     ]
   },
@@ -3199,6 +4015,164 @@
     ]
   },
   {
+    "id": "rd_meteo",
+    "title": "Che tempo fa?",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Dónde está Marta?",
+        "options": [
+          "En Milán",
+          "En Roma",
+          "En Florencia"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Qué tiempo hace en Milán hoy?",
+        "options": [
+          "Hace sol",
+          "Llueve y hace frío",
+          "Hay niebla"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Cuántos grados hay en Milán?",
+        "options": [
+          "Diez",
+          "Veinte",
+          "Cinco"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué tiempo habrá mañana en Milán?",
+        "options": [
+          "Lluvia",
+          "Sol y un poco de viento",
+          "Nieve"
+        ],
+        "answer": 1,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Cómo llega Luca a Roma?",
+        "options": [
+          "En avión",
+          "En tren",
+          "En auto"
+        ],
+        "answer": 1,
+        "evidence": 9
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_meteo_00",
+        "it": "Ciao Luca, sei a Milano?",
+        "es": "Hola Luca, ¿estás en Milán?",
+        "speaker": "Marta",
+        "audio": "b2c4930c628e"
+      },
+      {
+        "id": "rd_meteo_01",
+        "it": "Sì, sono a Milano. E tu dove sei?",
+        "es": "Sí, estoy en Milán. ¿Y tú dónde estás?",
+        "speaker": "Luca",
+        "audio": "ef46408c0811",
+        "voice": 2
+      },
+      {
+        "id": "rd_meteo_02",
+        "it": "Sono a Roma. Qui c'è il sole e fa caldo.",
+        "es": "Estoy en Roma. Aquí hay sol y hace calor.",
+        "speaker": "Marta",
+        "audio": "7e7ded34d1a3"
+      },
+      {
+        "id": "rd_meteo_03",
+        "it": "Che bello! Qui piove da ieri.",
+        "es": "¡Qué bien! Aquí llueve desde ayer.",
+        "speaker": "Luca",
+        "audio": "a3ae05af00ae",
+        "voice": 2
+      },
+      {
+        "id": "rd_meteo_04",
+        "it": "Fa freddo?",
+        "es": "¿Hace frío?",
+        "speaker": "Marta",
+        "audio": "52c10fe8b5ab"
+      },
+      {
+        "id": "rd_meteo_05",
+        "it": "Sì, fa freddo. Ci sono solo dieci gradi.",
+        "es": "Sí, hace frío. Hay solo diez grados.",
+        "speaker": "Luca",
+        "audio": "06cf8fd331bd",
+        "voice": 2
+      },
+      {
+        "id": "rd_meteo_06",
+        "it": "Che brutto tempo! E domani?",
+        "es": "¡Qué mal tiempo! ¿Y mañana?",
+        "speaker": "Marta",
+        "audio": "ccb2e38eea91"
+      },
+      {
+        "id": "rd_meteo_07",
+        "it": "Domani c'è il sole, ma c'è un po' di vento.",
+        "es": "Mañana hay sol, pero hay un poco de viento.",
+        "speaker": "Luca",
+        "audio": "0a828356bf05",
+        "voice": 2
+      },
+      {
+        "id": "rd_meteo_08",
+        "it": "Allora vieni a Roma sabato?",
+        "es": "Entonces, ¿vienes a Roma el sábado?",
+        "speaker": "Marta",
+        "audio": "cb84a3cca6bc"
+      },
+      {
+        "id": "rd_meteo_09",
+        "it": "Volentieri! Arrivo in treno alle undici.",
+        "es": "¡Con gusto! Llego en tren a las once.",
+        "speaker": "Luca",
+        "audio": "d0644824fb3f",
+        "voice": 2
+      },
+      {
+        "id": "rd_meteo_10",
+        "it": "Perfetto. A sabato!",
+        "es": "Perfecto. ¡Hasta el sábado!",
+        "speaker": "Marta",
+        "audio": "24ef1a11539f"
+      },
+      {
+        "id": "rd_meteo_11",
+        "it": "A sabato, ciao!",
+        "es": "¡Hasta el sábado, chao!",
+        "speaker": "Luca",
+        "audio": "c2feaea439b6",
+        "voice": 2
+      }
+    ]
+  },
+  {
     "id": "rd_moda",
     "title": "La moda italiana",
     "level": "A1",
@@ -3382,6 +4356,171 @@
         "speaker": "Signor Mattarella",
         "audio": "769b5f567e25",
         "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_negozio",
+    "title": "In un negozio di abbigliamento",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué busca el cliente?",
+        "options": [
+          "Una chaqueta negra",
+          "Una camisa blanca",
+          "Un pantalón azul"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Qué talla usa?",
+        "options": [
+          "La pequeña",
+          "La mediana",
+          "La grande"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta la camisa?",
+        "options": [
+          "Treinta y cinco euros",
+          "Quince euros",
+          "Cincuenta euros"
+        ],
+        "answer": 0,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿Qué descuento hay hoy?",
+        "options": [
+          "Cinco por ciento",
+          "Veinte por ciento",
+          "Diez por ciento"
+        ],
+        "answer": 2,
+        "evidence": 10
+      },
+      {
+        "prompt_es": "¿Cómo quiere pagar?",
+        "options": [
+          "En efectivo",
+          "Con tarjeta",
+          "No quiere pagar"
+        ],
+        "answer": 1,
+        "evidence": 11
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_negozio_00",
+        "it": "Buongiorno, come posso aiutarla?",
+        "es": "Buenos días, ¿cómo puedo ayudarla?",
+        "speaker": "Commessa",
+        "audio": "3d9c7efe7590"
+      },
+      {
+        "id": "rd_negozio_01",
+        "it": "Buongiorno. Cerco una camicia bianca.",
+        "es": "Buenos días. Busco una camisa blanca.",
+        "speaker": "Cliente",
+        "audio": "3e5a366e411e",
+        "voice": 2
+      },
+      {
+        "id": "rd_negozio_02",
+        "it": "Che taglia porta?",
+        "es": "¿Qué talla usa?",
+        "speaker": "Commessa",
+        "audio": "c4831a7bbc30"
+      },
+      {
+        "id": "rd_negozio_03",
+        "it": "Porto la media.",
+        "es": "Uso la mediana.",
+        "speaker": "Cliente",
+        "audio": "29fe1ca98cab",
+        "voice": 2
+      },
+      {
+        "id": "rd_negozio_04",
+        "it": "Ecco una camicia bianca. Le piace?",
+        "es": "Aquí tiene una camisa blanca. ¿Le gusta?",
+        "speaker": "Commessa",
+        "audio": "c8df13186e0f"
+      },
+      {
+        "id": "rd_negozio_05",
+        "it": "Sì, mi piace molto. Posso provare la camicia?",
+        "es": "Sí, me gusta mucho. ¿Puedo probarme la camisa?",
+        "speaker": "Cliente",
+        "audio": "b617ed4259eb",
+        "voice": 2
+      },
+      {
+        "id": "rd_negozio_06",
+        "it": "Certo! Il camerino è là, a sinistra.",
+        "es": "¡Claro! El probador está allá, a la izquierda.",
+        "speaker": "Commessa",
+        "audio": "d5fba676973d"
+      },
+      {
+        "id": "rd_negozio_07",
+        "it": "Va bene, è perfetta. Quanto costa?",
+        "es": "Está bien, es perfecta. ¿Cuánto cuesta?",
+        "speaker": "Cliente",
+        "audio": "2199aa8a1c13",
+        "voice": 2
+      },
+      {
+        "id": "rd_negozio_08",
+        "it": "Costa trentacinque euro.",
+        "es": "Cuesta treinta y cinco euros.",
+        "speaker": "Commessa",
+        "audio": "ace1e0418494"
+      },
+      {
+        "id": "rd_negozio_09",
+        "it": "È un po' cara. C'è uno sconto?",
+        "es": "Es un poco cara. ¿Hay descuento?",
+        "speaker": "Cliente",
+        "audio": "435c455115bc",
+        "voice": 2
+      },
+      {
+        "id": "rd_negozio_10",
+        "it": "Sì, oggi c'è il dieci per cento di sconto.",
+        "es": "Sí, hoy hay un diez por ciento de descuento.",
+        "speaker": "Commessa",
+        "audio": "6ca94d96ae52"
+      },
+      {
+        "id": "rd_negozio_11",
+        "it": "Bene, la prendo. Posso pagare con la carta?",
+        "es": "Bien, me la llevo. ¿Puedo pagar con tarjeta?",
+        "speaker": "Cliente",
+        "audio": "92e3e3954765",
+        "voice": 2
+      },
+      {
+        "id": "rd_negozio_12",
+        "it": "Certo. Alla cassa, prego.",
+        "es": "Claro. En la caja, por favor.",
+        "speaker": "Commessa",
+        "audio": "d776aaf89dbd"
       }
     ]
   },
@@ -5053,6 +6192,245 @@
     ]
   },
   {
+    "id": "rd_sms",
+    "title": "Messaggi: che fai stasera?",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿A dónde va Sara esta noche?",
+        "options": [
+          "Al cine",
+          "A una fiesta",
+          "Al restaurante"
+        ],
+        "answer": 0,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿A qué hora empieza?",
+        "options": [
+          "A las siete y media",
+          "A las ocho",
+          "A las nueve"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Dónde se encuentran?",
+        "options": [
+          "En la casa de Marco",
+          "Frente al cine",
+          "En el bar"
+        ],
+        "answer": 1,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿A qué hora se encuentran?",
+        "options": [
+          "A las ocho",
+          "A las siete y media",
+          "A las siete"
+        ],
+        "answer": 1,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Qué propone Marco?",
+        "options": [
+          "Llevar a Luca",
+          "Ir solo",
+          "Cambiar de película"
+        ],
+        "answer": 0,
+        "evidence": 5
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_sms_00",
+        "it": "Ciao Marco, che fai stasera?",
+        "es": "Hola Marco, ¿qué haces esta noche?",
+        "speaker": "Sara",
+        "audio": "7a2756078a34"
+      },
+      {
+        "id": "rd_sms_01",
+        "it": "Niente di speciale. E tu?",
+        "es": "Nada especial. ¿Y tú?",
+        "speaker": "Marco",
+        "audio": "15398396b1bc",
+        "voice": 2
+      },
+      {
+        "id": "rd_sms_02",
+        "it": "Vado al cinema alle otto. Vieni?",
+        "es": "Voy al cine a las ocho. ¿Vienes?",
+        "speaker": "Sara",
+        "audio": "9e8d0f10a1ea"
+      },
+      {
+        "id": "rd_sms_03",
+        "it": "Volentieri! Dove ci vediamo?",
+        "es": "¡Con gusto! ¿Dónde nos vemos?",
+        "speaker": "Marco",
+        "audio": "ed19079eae67",
+        "voice": 2
+      },
+      {
+        "id": "rd_sms_04",
+        "it": "Davanti al cinema alle sette e mezza.",
+        "es": "Frente al cine a las siete y media.",
+        "speaker": "Sara",
+        "audio": "1ebd04ff3724"
+      },
+      {
+        "id": "rd_sms_05",
+        "it": "D'accordo. Porto anche Luca?",
+        "es": "De acuerdo. ¿Llevo también a Luca?",
+        "speaker": "Marco",
+        "audio": "85ec4a94aac8",
+        "voice": 2
+      },
+      {
+        "id": "rd_sms_06",
+        "it": "Certo, più siamo meglio è!",
+        "es": "Claro, ¡cuantos más seamos, mejor!",
+        "speaker": "Sara",
+        "audio": "2d50fbf40fd7"
+      },
+      {
+        "id": "rd_sms_07",
+        "it": "A dopo!",
+        "es": "¡Hasta luego!",
+        "speaker": "Marco",
+        "audio": "f1e0be681f88",
+        "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_sms_esame",
+    "title": "Messaggi: dove ci vediamo?",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Por qué Paolo se disculpa?",
+        "options": [
+          "Está atrasado",
+          "No puede ir",
+          "Perdió el tren"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Dónde está Giulia?",
+        "options": [
+          "En su casa",
+          "En un bar cerca de la estación",
+          "En el autobús"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Cómo llega Paolo?",
+        "options": [
+          "En autobús",
+          "En taxi",
+          "A pie"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Cómo quiere el café Paolo?",
+        "options": [
+          "Con azúcar",
+          "Con leche",
+          "Sin azúcar"
+        ],
+        "answer": 2,
+        "evidence": 5
+      }
+    ],
+    "exam": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_sms_esame_00",
+        "it": "Ciao Paolo, sei in ritardo?",
+        "es": "Hola Paolo, ¿vas atrasado?",
+        "speaker": "Giulia",
+        "audio": "616c15335a77"
+      },
+      {
+        "id": "rd_sms_esame_01",
+        "it": "Scusa, sono ancora a casa. Arrivo tra dieci minuti.",
+        "es": "Perdón, todavía estoy en casa. Llego en diez minutos.",
+        "speaker": "Paolo",
+        "audio": "7465e432c893",
+        "voice": 2
+      },
+      {
+        "id": "rd_sms_esame_02",
+        "it": "Va bene. Io sono già al bar vicino alla stazione.",
+        "es": "Está bien. Yo ya estoy en el bar cerca de la estación.",
+        "speaker": "Giulia",
+        "audio": "51828c196542"
+      },
+      {
+        "id": "rd_sms_esame_03",
+        "it": "Prendo l'autobus. Prendi tu il caffè per me?",
+        "es": "Tomo el autobús. ¿Pides tú el café por mí?",
+        "speaker": "Paolo",
+        "audio": "b550af56b29e",
+        "voice": 2
+      },
+      {
+        "id": "rd_sms_esame_04",
+        "it": "Certo. Lo vuoi con lo zucchero?",
+        "es": "Claro. ¿Lo quieres con azúcar?",
+        "speaker": "Giulia",
+        "audio": "49146464c6fa"
+      },
+      {
+        "id": "rd_sms_esame_05",
+        "it": "No, senza zucchero. Grazie!",
+        "es": "No, sin azúcar. ¡Gracias!",
+        "speaker": "Paolo",
+        "audio": "435fbebc479f",
+        "voice": 2
+      },
+      {
+        "id": "rd_sms_esame_06",
+        "it": "Di niente. Ti aspetto!",
+        "es": "De nada. ¡Te espero!",
+        "speaker": "Giulia",
+        "audio": "16a22079c92f"
+      }
+    ]
+  },
+  {
     "id": "rd_spese",
     "title": "Fare le spese",
     "level": "A1",
@@ -5270,6 +6648,143 @@
         "es": "Trabajo. Todos los jueves doy clases de yoga.",
         "speaker": "Sara",
         "audio": "602a9b666d7c"
+      }
+    ]
+  },
+  {
+    "id": "rd_stazione",
+    "title": "In stazione: un biglietto per Firenze",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿A dónde viaja?",
+        "options": [
+          "A Roma",
+          "A Florencia",
+          "A Milán"
+        ],
+        "answer": 1,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Qué tipo de boleto quiere?",
+        "options": [
+          "Ida y vuelta",
+          "Solo ida",
+          "Para dos personas"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿A qué hora sale el tren?",
+        "options": [
+          "A las diez y veinte",
+          "A las once y cincuenta",
+          "A las nueve"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta el boleto?",
+        "options": [
+          "Diez euros",
+          "Veinte euros",
+          "Treinta euros"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿A qué hora llega a Florencia?",
+        "options": [
+          "A las diez y veinte",
+          "A las doce",
+          "A las once y cincuenta"
+        ],
+        "answer": 2,
+        "evidence": 7
+      }
+    ],
+    "exam": true,
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_stazione_00",
+        "it": "Buongiorno, un biglietto per Firenze, per favore.",
+        "es": "Buenos días, un boleto para Florencia, por favor.",
+        "speaker": "Viaggiatore",
+        "audio": "9f2ad540de88"
+      },
+      {
+        "id": "rd_stazione_01",
+        "it": "Andata e ritorno?",
+        "es": "¿Ida y vuelta?",
+        "speaker": "Impiegato",
+        "audio": "9fc3b034ffe3",
+        "voice": 2
+      },
+      {
+        "id": "rd_stazione_02",
+        "it": "Solo andata. A che ora parte il prossimo treno?",
+        "es": "Solo ida. ¿A qué hora sale el próximo tren?",
+        "speaker": "Viaggiatore",
+        "audio": "efa63a78478e"
+      },
+      {
+        "id": "rd_stazione_03",
+        "it": "Il treno parte alle dieci e venti dal binario tre.",
+        "es": "El tren sale a las diez y veinte del andén tres.",
+        "speaker": "Impiegato",
+        "audio": "5e277857640e",
+        "voice": 2
+      },
+      {
+        "id": "rd_stazione_04",
+        "it": "Quanto costa il biglietto?",
+        "es": "¿Cuánto cuesta el boleto?",
+        "speaker": "Viaggiatore",
+        "audio": "267998ace464"
+      },
+      {
+        "id": "rd_stazione_05",
+        "it": "Costa venti euro.",
+        "es": "Cuesta veinte euros.",
+        "speaker": "Impiegato",
+        "audio": "62db94f5b198",
+        "voice": 2
+      },
+      {
+        "id": "rd_stazione_06",
+        "it": "Ecco, venti euro. Quando arriva a Firenze?",
+        "es": "Aquí tiene, veinte euros. ¿Cuándo llega a Florencia?",
+        "speaker": "Viaggiatore",
+        "audio": "cce64695cbaa"
+      },
+      {
+        "id": "rd_stazione_07",
+        "it": "Arriva alle undici e cinquanta.",
+        "es": "Llega a las once y cincuenta.",
+        "speaker": "Impiegato",
+        "audio": "325d427a89ec",
+        "voice": 2
+      },
+      {
+        "id": "rd_stazione_08",
+        "it": "Grazie mille. Arrivederci!",
+        "es": "Muchas gracias. ¡Hasta luego!",
+        "speaker": "Viaggiatore",
+        "audio": "28cca5950240"
       }
     ]
   },

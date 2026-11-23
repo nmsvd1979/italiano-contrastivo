@@ -1,0 +1,117 @@
+{
+  "id": "rd_sms",
+  "title": "Messaggi: che fai stasera?",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Mensajes de chat escritos por la IA, en frases cortas como los del examen PLIDA A1 (emparejar SMS con su respuesta); incluyen «Volentieri» y «D'accordo» (Tatoeba y Giornate italiane).",
+  "sentences": [
+    {
+      "id": "rd_sms_00",
+      "it": "Ciao Marco, che fai stasera?",
+      "es": "Hola Marco, ¿qué haces esta noche?",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_sms_01",
+      "it": "Niente di speciale. E tu?",
+      "es": "Nada especial. ¿Y tú?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_sms_02",
+      "it": "Vado al cinema alle otto. Vieni?",
+      "es": "Voy al cine a las ocho. ¿Vienes?",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_sms_03",
+      "it": "Volentieri! Dove ci vediamo?",
+      "es": "¡Con gusto! ¿Dónde nos vemos?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_sms_04",
+      "it": "Davanti al cinema alle sette e mezza.",
+      "es": "Frente al cine a las siete y media.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_sms_05",
+      "it": "D'accordo. Porto anche Luca?",
+      "es": "De acuerdo. ¿Llevo también a Luca?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_sms_06",
+      "it": "Certo, più siamo meglio è!",
+      "es": "Claro, ¡cuantos más seamos, mejor!",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_sms_07",
+      "it": "A dopo!",
+      "es": "¡Hasta luego!",
+      "speaker": "Marco"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿A dónde va Sara esta noche?",
+      "options": [
+        "Al cine",
+        "A una fiesta",
+        "Al restaurante"
+      ],
+      "answer": 0,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿A qué hora empieza?",
+      "options": [
+        "A las siete y media",
+        "A las ocho",
+        "A las nueve"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Dónde se encuentran?",
+      "options": [
+        "En la casa de Marco",
+        "Frente al cine",
+        "En el bar"
+      ],
+      "answer": 1,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿A qué hora se encuentran?",
+      "options": [
+        "A las ocho",
+        "A las siete y media",
+        "A las siete"
+      ],
+      "answer": 1,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Qué propone Marco?",
+      "options": [
+        "Llevar a Luca",
+        "Ir solo",
+        "Cambiar de película"
+      ],
+      "answer": 0,
+      "evidence": 5
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

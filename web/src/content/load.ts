@@ -31,6 +31,10 @@ export type Reading = {
   id: string; title: string; level: string; kind: "lectura" | "dialogo" | "documento";
   /** Lectura NO vista: solo la usa el examen de hito (ninguna unidad). */
   exam?: boolean;
+  /** Comprensión auditiva del examen: se escucha sin ver el texto. */
+  listen?: boolean;
+  /** Escrito por la IA para esta app (no es de un libro). */
+  authored?: boolean;
   /** Documento (horario, agenda): tabla con las celdas tal cual del libro. */
   table?: { head: string[]; rows: string[][] };
   source: { book: string; authors: string; url: string; license: string };
@@ -69,6 +73,8 @@ export type CourseModule = {
   units: string[];                     // cápsulas (ids de unidad), en orden
   entry_reading: string;               // texto real de entrada
   roleplays: string[]; tasks: string[]; phrase_groups: string[];   // salida (ids de speaking.json)
+  extra_readings?: string[];           // textos reales opcionales (documentos, mensajes) del tema
+  writing_es?: string;                 // propuesta del mensaje escrito de la Salida
   library: string; library_task_es: string;                        // 10 minutos sugeridos de la Biblioteca
   gap_es?: string;                     // lo que le falta al módulo, declarado
 };

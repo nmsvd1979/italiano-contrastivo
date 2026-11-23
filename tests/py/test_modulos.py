@@ -10,7 +10,7 @@ PACK = Path(__file__).resolve().parents[2] / "web/public/content"
 
 def _base():
     course = {"units": [{"id": "u1", "level": "A1"}, {"id": "u2", "level": "A1"}],
-              "modules": [{"id": "m1", "level": "A1", "can_do_es": ["a", "b", "c"], "units": ["u1", "u2"], "entry_reading": "rd1", "roleplays": ["rp1"], "tasks": [], "phrase_groups": ["g1"], "library": "l1", "library_task_es": "x"}]}
+              "modules": [{"id": "m1", "level": "A1", "can_do_es": ["a", "b", "c"], "units": ["u1", "u2"], "entry_reading": "rd1", "roleplays": ["rp1"], "tasks": [], "phrase_groups": ["g1"], "library": "l1", "library_task_es": "x", "writing_es": "x"}]}
     return course, [{"id": "rd1"}], {"roleplays": [{"id": "rp1"}], "tasks": [], "phrases": {"groups": [{"id": "g1"}]}}, [{"id": "l1"}]
 
 

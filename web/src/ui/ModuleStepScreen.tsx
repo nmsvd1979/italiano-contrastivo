@@ -72,7 +72,7 @@ function Salida({ view, pack, store, exit, onChange }: { view: ModuleView; pack:
     return (
       <main>
         <h1>Tu mensaje escrito</h1>
-        <OwnText store={store} prompt_es={`Escribe 3 o 4 frases tuyas para practicar esto: «${module.can_do_es[0]}»`} onChecked={() => void mark("escritura")} />
+        <OwnText store={store} prompt_es={module.writing_es ?? `Escribe 3 o 4 frases tuyas para practicar esto: «${module.can_do_es[0]}»`} onChecked={() => void mark("escritura")} />
         <p><button type="button" onClick={back}>← Volver a la Salida</button></p>
       </main>
     );
@@ -157,6 +157,17 @@ function Cierre({ view, pack, store, exit, onDone }: { view: ModuleView; pack: C
       </div>
     </main>
   );
+}
+
+/** Un texto real opcional del módulo (documento, mensajes): se lee sin traducción y se responde; no es un paso obligatorio. */
+export function ModuleTextScreen({ moduleId, textId, pack, store }: { moduleId: string; textId: string; pack: ContentPack; store: Store }) {
+  const [done, setDone] = useState(false);
+  useStrandTimer(store, "entrada", !done);
+  const reading = (pack.readings ?? []).find((r) => r.id === textId);
+  const exit = `#/modulo/${moduleId}`;
+  if (!reading) return <main><p>No encuentro ese texto.</p><p><a className="button" href={exit}>Ver el módulo</a></p></main>;
+  if (done) return <Done title="Texto leído ✓" text="Puedes volver a leerlo cuando quieras. Estos textos no cuentan para completar el módulo: sirven para practicar la lectura real." exit={exit} />;
+  return <main className="focus"><ReadingStep reading={reading} words={pack.readingWords} exitHref={exit} hideTranslation onFinish={() => setDone(true)} /></main>;
 }
 
 export const moduleStepTitle = (s: ModuleStepId) => MODULE_STEP_LABEL[s];

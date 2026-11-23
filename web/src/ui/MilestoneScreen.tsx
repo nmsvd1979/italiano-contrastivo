@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { ContentPack } from "../content/load";
-import { HITO, hitoId, milestoneItems, milestoneListenSentences, milestoneOpen, milestoneOralTask, milestoneReadings, milestoneProgress, milestoneWriteItems, oralPassed, type Part, scoreMilestone } from "../state/milestone";
+import { HITO, hitoId, milestoneItems, milestoneListening, milestoneListenSentences, milestoneOpen, milestoneOralTask, milestoneReadings, milestoneProgress, milestoneWriteItems, oralPassed, type Part, scoreMilestone } from "../state/milestone";
 import { isPreview } from "../state/preview";
 import { moduleViews } from "../state/modules";
 import type { Store } from "../state/store";
@@ -18,7 +18,7 @@ export function MilestoneScreen({ pack, store, level = "A1" }: { pack: ContentPa
   const [phase, setPhase] = useState<"intro" | "run" | "read" | "oral" | "done">("intro");
   const [readIdx, setReadIdx] = useState(0);
   const [runDone, setRunDone] = useState<{ parts: Part[]; answers: boolean[] } | null>(null);
-  const readAcc = useRef<boolean[]>([]);
+  const readAcc = useRef<{ part: Part; ok: boolean }[]>([]);
   const [partial, setPartial] = useState<ReturnType<typeof scoreMilestone> | null>(null);
   const [res, setRes] = useState<Result | null>(null);
   useEffect(() => {
@@ -38,7 +38,10 @@ export function MilestoneScreen({ pack, store, level = "A1" }: { pack: ContentPa
     return { run, parts, write: write.length, listen: listen.length, recognition: rec.items.length };
   }, [pack, level]);
   const task = milestoneOralTask(pack, level);
-  const readings = useMemo(() => milestoneReadings(pack, level), [pack, level]);
+  const readings = useMemo(() => [
+    ...milestoneListening(pack, level).map((r) => ({ r, part: "listen" as Part, listenOnly: true })),   // primero se escucha sin ver el texto
+    ...milestoneReadings(pack, level).map((r) => ({ r, part: "read" as Part, listenOnly: false })),
+  ], [pack, level]);
   if (open === null) return <p>Cargando…</p>;
   if (!open) return <main><h1>Examen de hito {level}</h1><p>Se abre cuando completes todos los módulos de {level} (cápsulas, salida, fluidez y cierre).</p><p><a className="button" href="#/ruta">Ver la ruta</a></p></main>;
 
@@ -72,7 +75,7 @@ export function MilestoneScreen({ pack, store, level = "A1" }: { pack: ContentPa
     return (
       <main>
         <h1>Examen de hito {level}</h1>
-        <p>{exam.recognition} preguntas de reconocimiento ({Math.round(HITO.A1.lex * 100)} % léxico y {100 - Math.round(HITO.A1.lex * 100)} % gramática y sonidos), {exam.write} frases para <strong>escribir en italiano desde el español</strong> y {exam.listen} dictados{readings.length ? `, la lectura de ${readings.length} textos que no has visto (sin traducción)` : ""} ({formatDuration(secs)} sin contar la lectura){task ? ", y al final una tarea oral que te autoevalúas con una rúbrica" : ""}.</p>
+        <p>{exam.recognition} preguntas de reconocimiento ({Math.round(HITO.A1.lex * 100)} % léxico y {100 - Math.round(HITO.A1.lex * 100)} % gramática y sonidos), {exam.write} frases para <strong>escribir en italiano desde el español</strong> y {exam.listen} dictados{readings.length ? `, ${readings.length} textos que no has visto (uno solo para escuchar, sin ver el texto; los demás para leer, sin traducción)` : ""} ({formatDuration(secs)} sin contar la lectura){task ? ", y al final una tarea oral que te autoevalúas con una rúbrica" : ""}.</p>
         <p>Se aprueba con 65 % o más en total y 50 % o más en cada parte{task ? "; en la parte oral, cumpliendo la mitad de la rúbrica" : ""}. No hay pistas, ni repetición de lo fallado, ni «mi versión también es correcta».</p>
         <div className="actions-bottom"><button type="button" className="primary block" onClick={() => setPhase("run")}>Empezar</button></div>
       </main>
@@ -94,11 +97,11 @@ export function MilestoneScreen({ pack, store, level = "A1" }: { pack: ContentPa
   if (phase === "read" && runDone) {
     return (
       <main className="focus">
-        <ReadingStep key={readings[readIdx].id} reading={readings[readIdx]} hideTranslation exitHref="#/ruta" onFinish={async (correct, total) => {
-          readAcc.current.push(...Array.from({ length: total }, (_, i) => i < correct));
+        <ReadingStep key={readings[readIdx].r.id} reading={readings[readIdx].r} hideTranslation listenOnly={readings[readIdx].listenOnly} exitHref="#/ruta" onFinish={async (correct, total) => {
+          readAcc.current.push(...Array.from({ length: total }, (_, i) => ({ part: readings[readIdx].part, ok: i < correct })));
           if (readIdx + 1 < readings.length) { setReadIdx(readIdx + 1); return; }
-          const parts = [...runDone.parts, ...readAcc.current.map((): Part => "read")];
-          const s = scoreMilestone(parts, [...runDone.answers, ...readAcc.current]);
+          const parts = [...runDone.parts, ...readAcc.current.map((x) => x.part)];
+          const s = scoreMilestone(parts, [...runDone.answers, ...readAcc.current.map((x) => x.ok)]);
           if (task) { setPartial(s); setPhase("oral"); } else await save(s, null);
         }} />
       </main>

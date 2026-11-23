@@ -1,0 +1,147 @@
+{
+  "id": "rd_negozio",
+  "title": "In un negozio di abbigliamento",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo escrito por la IA con las expresiones de «Espressioni per comprare in un negozio di abbigliamento» (Giornate italiane, CC BY-NC-SA): Come posso aiutarla?, Quanto costa?, la taglia, lo sconto, pagare con la carta.",
+  "sentences": [
+    {
+      "id": "rd_negozio_00",
+      "it": "Buongiorno, come posso aiutarla?",
+      "es": "Buenos días, ¿cómo puedo ayudarla?",
+      "speaker": "Commessa"
+    },
+    {
+      "id": "rd_negozio_01",
+      "it": "Buongiorno. Cerco una camicia bianca.",
+      "es": "Buenos días. Busco una camisa blanca.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_negozio_02",
+      "it": "Che taglia porta?",
+      "es": "¿Qué talla usa?",
+      "speaker": "Commessa"
+    },
+    {
+      "id": "rd_negozio_03",
+      "it": "Porto la media.",
+      "es": "Uso la mediana.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_negozio_04",
+      "it": "Ecco una camicia bianca. Le piace?",
+      "es": "Aquí tiene una camisa blanca. ¿Le gusta?",
+      "speaker": "Commessa"
+    },
+    {
+      "id": "rd_negozio_05",
+      "it": "Sì, mi piace molto. Posso provare la camicia?",
+      "es": "Sí, me gusta mucho. ¿Puedo probarme la camisa?",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_negozio_06",
+      "it": "Certo! Il camerino è là, a sinistra.",
+      "es": "¡Claro! El probador está allá, a la izquierda.",
+      "speaker": "Commessa"
+    },
+    {
+      "id": "rd_negozio_07",
+      "it": "Va bene, è perfetta. Quanto costa?",
+      "es": "Está bien, es perfecta. ¿Cuánto cuesta?",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_negozio_08",
+      "it": "Costa trentacinque euro.",
+      "es": "Cuesta treinta y cinco euros.",
+      "speaker": "Commessa"
+    },
+    {
+      "id": "rd_negozio_09",
+      "it": "È un po' cara. C'è uno sconto?",
+      "es": "Es un poco cara. ¿Hay descuento?",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_negozio_10",
+      "it": "Sì, oggi c'è il dieci per cento di sconto.",
+      "es": "Sí, hoy hay un diez por ciento de descuento.",
+      "speaker": "Commessa"
+    },
+    {
+      "id": "rd_negozio_11",
+      "it": "Bene, la prendo. Posso pagare con la carta?",
+      "es": "Bien, me la llevo. ¿Puedo pagar con tarjeta?",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_negozio_12",
+      "it": "Certo. Alla cassa, prego.",
+      "es": "Claro. En la caja, por favor.",
+      "speaker": "Commessa"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué busca el cliente?",
+      "options": [
+        "Una chaqueta negra",
+        "Una camisa blanca",
+        "Un pantalón azul"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué talla usa?",
+      "options": [
+        "La pequeña",
+        "La mediana",
+        "La grande"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta la camisa?",
+      "options": [
+        "Treinta y cinco euros",
+        "Quince euros",
+        "Cincuenta euros"
+      ],
+      "answer": 0,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿Qué descuento hay hoy?",
+      "options": [
+        "Cinco por ciento",
+        "Veinte por ciento",
+        "Diez por ciento"
+      ],
+      "answer": 2,
+      "evidence": 10
+    },
+    {
+      "prompt_es": "¿Cómo quiere pagar?",
+      "options": [
+        "En efectivo",
+        "Con tarjeta",
+        "No quiere pagar"
+      ],
+      "answer": 1,
+      "evidence": 11
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

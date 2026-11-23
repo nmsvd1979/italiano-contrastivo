@@ -1,0 +1,102 @@
+{
+  "id": "rd_sms_esame",
+  "title": "Messaggi: dove ci vediamo?",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Mensajes de chat escritos por la IA; lectura NO vista del examen de hito (ninguna unidad la usa).",
+  "sentences": [
+    {
+      "id": "rd_sms_esame_00",
+      "it": "Ciao Paolo, sei in ritardo?",
+      "es": "Hola Paolo, ¿vas atrasado?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_sms_esame_01",
+      "it": "Scusa, sono ancora a casa. Arrivo tra dieci minuti.",
+      "es": "Perdón, todavía estoy en casa. Llego en diez minutos.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "rd_sms_esame_02",
+      "it": "Va bene. Io sono già al bar vicino alla stazione.",
+      "es": "Está bien. Yo ya estoy en el bar cerca de la estación.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_sms_esame_03",
+      "it": "Prendo l'autobus. Prendi tu il caffè per me?",
+      "es": "Tomo el autobús. ¿Pides tú el café por mí?",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "rd_sms_esame_04",
+      "it": "Certo. Lo vuoi con lo zucchero?",
+      "es": "Claro. ¿Lo quieres con azúcar?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_sms_esame_05",
+      "it": "No, senza zucchero. Grazie!",
+      "es": "No, sin azúcar. ¡Gracias!",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "rd_sms_esame_06",
+      "it": "Di niente. Ti aspetto!",
+      "es": "De nada. ¡Te espero!",
+      "speaker": "Giulia"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Por qué Paolo se disculpa?",
+      "options": [
+        "Está atrasado",
+        "No puede ir",
+        "Perdió el tren"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Dónde está Giulia?",
+      "options": [
+        "En su casa",
+        "En un bar cerca de la estación",
+        "En el autobús"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Cómo llega Paolo?",
+      "options": [
+        "En autobús",
+        "En taxi",
+        "A pie"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Cómo quiere el café Paolo?",
+      "options": [
+        "Con azúcar",
+        "Con leche",
+        "Sin azúcar"
+      ],
+      "answer": 2,
+      "evidence": 5
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "exam": true
+}

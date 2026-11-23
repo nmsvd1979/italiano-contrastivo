@@ -233,6 +233,69 @@
     "u25"
    ],
    "goal_es": "Preguntar y decir qué estudias, cuándo tienes clase y cuándo es tu cumpleaños."
+  },
+  {
+   "id": "rp_bar",
+   "title": "En el bar: pagar en la caja y pedir en la barra",
+   "function_es": "Pedir y pagar en un bar",
+   "reading": "rd_bar",
+   "from": 0,
+   "to": 12,
+   "after": [
+    "u35",
+    "u65"
+   ],
+   "goal_es": "Pedir en la caja, pagar, recibir el comprobante y pedirlo en la barra."
+  },
+  {
+   "id": "rp_negozio",
+   "title": "Comprar una camisa en una tienda",
+   "function_es": "Comprar ropa",
+   "reading": "rd_negozio",
+   "from": 0,
+   "to": 12,
+   "after": [
+    "u31",
+    "u42"
+   ],
+   "goal_es": "Decir qué buscas y tu talla, probarte la prenda, preguntar el precio y pagar."
+  },
+  {
+   "id": "rp_meteo",
+   "title": "Hablar del tiempo por teléfono",
+   "function_es": "Hablar del tiempo",
+   "reading": "rd_meteo",
+   "from": 0,
+   "to": 11,
+   "after": [
+    "u33"
+   ],
+   "goal_es": "Decir dónde estás, qué tiempo hace hoy y mañana, y quedar para el sábado."
+  },
+  {
+   "id": "rp_chiarire",
+   "title": "En clase: pedir que repitan y preguntar qué significa",
+   "function_es": "Aclarar lo que no entiendes",
+   "reading": "rd_chiarire",
+   "from": 0,
+   "to": 10,
+   "after": [
+    "u53"
+   ],
+   "goal_es": "Decir que no entiendes, pedir que repitan más despacio y preguntar qué significa y cómo se escribe una palabra."
+  },
+  {
+   "id": "rp_sms",
+   "title": "Quedar por mensaje para ir al cine",
+   "function_es": "Quedar con alguien",
+   "reading": "rd_sms",
+   "from": 0,
+   "to": 7,
+   "after": [
+    "u36",
+    "u69"
+   ],
+   "goal_es": "Proponer un plan, aceptar, decir dónde y a qué hora se encuentran."
   }
  ],
  "tasks": [

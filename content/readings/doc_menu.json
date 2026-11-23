@@ -1,0 +1,155 @@
+{
+  "id": "doc_menu",
+  "title": "Il menù della trattoria",
+  "level": "A1",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Menú escrito por la IA como los de un restaurante italiano (platos tradicionales y precios inventados); documento tipo PLIDA A1 «leer un menú».",
+  "table": {
+    "head": [
+      "",
+      "Prezzo"
+    ],
+    "rows": [
+      [
+        "ANTIPASTI",
+        ""
+      ],
+      [
+        "Bruschetta",
+        "5 €"
+      ],
+      [
+        "Prosciutto e melone",
+        "8 €"
+      ],
+      [
+        "PRIMI",
+        ""
+      ],
+      [
+        "Spaghetti al pomodoro",
+        "9 €"
+      ],
+      [
+        "Lasagne",
+        "10 €"
+      ],
+      [
+        "Risotto ai funghi",
+        "11 €"
+      ],
+      [
+        "SECONDI",
+        ""
+      ],
+      [
+        "Pollo arrosto",
+        "12 €"
+      ],
+      [
+        "Pesce del giorno",
+        "15 €"
+      ],
+      [
+        "CONTORNI",
+        ""
+      ],
+      [
+        "Insalata mista",
+        "4 €"
+      ],
+      [
+        "Patate fritte",
+        "4 €"
+      ],
+      [
+        "DOLCI",
+        ""
+      ],
+      [
+        "Tiramisù",
+        "5 €"
+      ],
+      [
+        "Gelato",
+        "4 €"
+      ],
+      [
+        "BEVANDE",
+        ""
+      ],
+      [
+        "Acqua",
+        "2 €"
+      ],
+      [
+        "Vino della casa",
+        "3 €"
+      ],
+      [
+        "Caffè",
+        "1 €"
+      ],
+      [
+        "Coperto",
+        "2 €"
+      ]
+    ]
+  },
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿Cuánto cuesta la lasaña?",
+      "options": [
+        "8 euros",
+        "10 euros",
+        "12 euros"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Cuál es el primer plato más barato?",
+      "options": [
+        "Spaghetti al pomodoro",
+        "Lasagne",
+        "Risotto ai funghi"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta el cubierto (coperto)?",
+      "options": [
+        "1 euro",
+        "2 euros",
+        "4 euros"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Qué postres hay?",
+      "options": [
+        "Tiramisù y gelato",
+        "Bruschetta y gelato",
+        "Tiramisù y caffè"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "Pedro pide pollo asado y agua. ¿Cuánto es, sin el cubierto?",
+      "options": [
+        "12 euros",
+        "14 euros",
+        "17 euros"
+      ],
+      "answer": 1
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

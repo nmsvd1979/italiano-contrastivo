@@ -3,7 +3,7 @@ import { readFileSync } from "node:fs";
 import { afterEach, describe, expect, it } from "vitest";
 import type { ContentPack } from "../content/load";
 import { masterByPlacement, emptyProgress } from "../state/course";
-import { milestoneReadings, hitoId, HITO, milestoneItems, milestoneListenSentences, milestoneOpen, milestoneProgress, milestoneWriteItems, oralPassed, scoreMilestone } from "../state/milestone";
+import { milestoneListening, milestoneReadings, hitoId, HITO, milestoneItems, milestoneListenSentences, milestoneOpen, milestoneProgress, milestoneWriteItems, oralPassed, scoreMilestone } from "../state/milestone";
 import { setPreview } from "../state/preview";
 import { memoryStore } from "../state/store";
 import { MilestoneScreen } from "./MilestoneScreen";
@@ -140,7 +140,7 @@ const withReadings = { ...pack, speaking, readings: readingsAll } as ContentPack
 
 /** Lee las lecturas no vistas y responde (bien o mal todas). */
 async function answerReadings(p: ContentPack, right: boolean) {
-  for (const r of milestoneReadings(p)) {
+  for (const r of [...milestoneListening(p), ...milestoneReadings(p)]) {
     fireEvent.click(await screen.findByText("Ya lo leí: preguntas"));
     for (const q of r.questions) {
       const good = q.options[q.answer];
@@ -152,9 +152,10 @@ async function answerReadings(p: ContentPack, right: boolean) {
 }
 
 describe("hito: lectura de textos no vistos", () => {
-  it("hay una lectura y un documento de examen que ninguna unidad usa, sin traducción visible", () => {
-    const ex = milestoneReadings(withReadings);
-    expect(ex.map((r) => r.id)).toEqual(["rd_orario", "rd_valentina"]);
+  it("hay lecturas, un documento y un diálogo para escuchar que ninguna unidad usa, sin traducción visible", () => {
+    const ex = [...milestoneReadings(withReadings), ...milestoneListening(withReadings)];
+    expect(milestoneReadings(withReadings).map((r) => r.id)).toEqual(["rd_orario", "rd_sms_esame", "rd_valentina"]);
+    expect(milestoneListening(withReadings).map((r) => r.id)).toEqual(["rd_stazione"]);
     const used = new Set(pack.course.units.flatMap((u) => u.readings ?? []));
     expect(ex.some((r) => used.has(r.id))).toBe(false);
     expect(ex.find((r) => r.id === "rd_orario")!.table!.rows.length).toBeGreaterThan(3);
@@ -165,7 +166,7 @@ describe("hito: lectura de textos no vistos", () => {
     render(<MilestoneScreen pack={withReadings} store={store} />);
     fireEvent.click(await screen.findByText("Empezar"));
     await answerAll(withReadings);
-    expect(await screen.findByText(/Aquí no hay traducción|Documento/)).toBeTruthy();
+    expect(await screen.findByText(/Solo escucha|Aquí no hay traducción|Documento/)).toBeTruthy();
     expect(screen.queryByText(/Traducción al español: IA/)).toBeNull();
     await answerReadings(withReadings, true);
     fireEvent.click(await screen.findByRole("button", { name: /Empezar a hablar/ }));

@@ -1,0 +1,147 @@
+{
+  "id": "rd_bar",
+  "title": "Al bar: ordinare e pagare",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo escrito por la IA con las frases del curso de OpenLearn «Ordering and paying» (Desidera?, Mi dica, Vorrei, Ecco lo scontrino) y el sistema italiano de pagar en la cassa y pedir en la barra con el scontrino.",
+  "sentences": [
+    {
+      "id": "rd_bar_00",
+      "it": "Buongiorno! Desidera?",
+      "es": "¡Buenos días! ¿Qué desea?",
+      "speaker": "Cassiera"
+    },
+    {
+      "id": "rd_bar_01",
+      "it": "Buongiorno. Vorrei un cappuccino e una brioche, per favore.",
+      "es": "Buenos días. Quisiera un capuchino y una brioche, por favor.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_bar_02",
+      "it": "Sono tre euro e cinquanta.",
+      "es": "Son tres euros con cincuenta.",
+      "speaker": "Cassiera"
+    },
+    {
+      "id": "rd_bar_03",
+      "it": "Ecco a Lei.",
+      "es": "Aquí tiene.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_bar_04",
+      "it": "Grazie. Ecco lo scontrino.",
+      "es": "Gracias. Aquí tiene el comprobante.",
+      "speaker": "Cassiera"
+    },
+    {
+      "id": "rd_bar_05",
+      "it": "Grazie mille.",
+      "es": "Muchas gracias.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_bar_06",
+      "it": "Mi dica!",
+      "es": "¡Dígame!",
+      "speaker": "Barista"
+    },
+    {
+      "id": "rd_bar_07",
+      "it": "Un cappuccino e una brioche, per favore. Ecco lo scontrino.",
+      "es": "Un capuchino y una brioche, por favor. Aquí está el comprobante.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_bar_08",
+      "it": "Subito! Ecco il cappuccino.",
+      "es": "¡Enseguida! Aquí está el capuchino.",
+      "speaker": "Barista"
+    },
+    {
+      "id": "rd_bar_09",
+      "it": "Grazie. Scusi, dov'è il bagno?",
+      "es": "Gracias. Disculpe, ¿dónde está el baño?",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_bar_10",
+      "it": "È in fondo a destra.",
+      "es": "Está al fondo a la derecha.",
+      "speaker": "Barista"
+    },
+    {
+      "id": "rd_bar_11",
+      "it": "Grazie. Arrivederci!",
+      "es": "Gracias. ¡Hasta luego!",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "rd_bar_12",
+      "it": "Arrivederci, buona giornata!",
+      "es": "Hasta luego, ¡que tenga un buen día!",
+      "speaker": "Barista"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué pide el cliente?",
+      "options": [
+        "Un café solo",
+        "Un capuchino y una brioche",
+        "Un té y un cuerno"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Cuánto paga?",
+      "options": [
+        "Tres euros con cincuenta",
+        "Cuatro euros",
+        "Dos euros"
+      ],
+      "answer": 0,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Qué hace el cliente primero?",
+      "options": [
+        "Pide en la barra",
+        "Paga en la caja y recibe el comprobante",
+        "Busca una mesa"
+      ],
+      "answer": 1,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Qué le entrega al barista?",
+      "options": [
+        "El dinero",
+        "El comprobante",
+        "El menú"
+      ],
+      "answer": 1,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Dónde está el baño?",
+      "options": [
+        "Al fondo a la derecha",
+        "Afuera",
+        "A la izquierda de la caja"
+      ],
+      "answer": 0,
+      "evidence": 10
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

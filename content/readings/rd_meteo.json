@@ -1,0 +1,141 @@
+{
+  "id": "rd_meteo",
+  "title": "Che tempo fa?",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo escrito por la IA con el vocabulario del tiempo de «V 3.3 I mesi e le stagioni» (Giornate italiane, CC BY-NC-SA): Che tempo fa?, fa caldo, fa freddo, piove, c'è il sole, c'è il vento, Quanti gradi ci sono?",
+  "sentences": [
+    {
+      "id": "rd_meteo_00",
+      "it": "Ciao Luca, sei a Milano?",
+      "es": "Hola Luca, ¿estás en Milán?",
+      "speaker": "Marta"
+    },
+    {
+      "id": "rd_meteo_01",
+      "it": "Sì, sono a Milano. E tu dove sei?",
+      "es": "Sí, estoy en Milán. ¿Y tú dónde estás?",
+      "speaker": "Luca"
+    },
+    {
+      "id": "rd_meteo_02",
+      "it": "Sono a Roma. Qui c'è il sole e fa caldo.",
+      "es": "Estoy en Roma. Aquí hay sol y hace calor.",
+      "speaker": "Marta"
+    },
+    {
+      "id": "rd_meteo_03",
+      "it": "Che bello! Qui piove da ieri.",
+      "es": "¡Qué bien! Aquí llueve desde ayer.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "rd_meteo_04",
+      "it": "Fa freddo?",
+      "es": "¿Hace frío?",
+      "speaker": "Marta"
+    },
+    {
+      "id": "rd_meteo_05",
+      "it": "Sì, fa freddo. Ci sono solo dieci gradi.",
+      "es": "Sí, hace frío. Hay solo diez grados.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "rd_meteo_06",
+      "it": "Che brutto tempo! E domani?",
+      "es": "¡Qué mal tiempo! ¿Y mañana?",
+      "speaker": "Marta"
+    },
+    {
+      "id": "rd_meteo_07",
+      "it": "Domani c'è il sole, ma c'è un po' di vento.",
+      "es": "Mañana hay sol, pero hay un poco de viento.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "rd_meteo_08",
+      "it": "Allora vieni a Roma sabato?",
+      "es": "Entonces, ¿vienes a Roma el sábado?",
+      "speaker": "Marta"
+    },
+    {
+      "id": "rd_meteo_09",
+      "it": "Volentieri! Arrivo in treno alle undici.",
+      "es": "¡Con gusto! Llego en tren a las once.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "rd_meteo_10",
+      "it": "Perfetto. A sabato!",
+      "es": "Perfecto. ¡Hasta el sábado!",
+      "speaker": "Marta"
+    },
+    {
+      "id": "rd_meteo_11",
+      "it": "A sabato, ciao!",
+      "es": "¡Hasta el sábado, chao!",
+      "speaker": "Luca"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Dónde está Marta?",
+      "options": [
+        "En Milán",
+        "En Roma",
+        "En Florencia"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Qué tiempo hace en Milán hoy?",
+      "options": [
+        "Hace sol",
+        "Llueve y hace frío",
+        "Hay niebla"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Cuántos grados hay en Milán?",
+      "options": [
+        "Diez",
+        "Veinte",
+        "Cinco"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Qué tiempo habrá mañana en Milán?",
+      "options": [
+        "Lluvia",
+        "Sol y un poco de viento",
+        "Nieve"
+      ],
+      "answer": 1,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Cómo llega Luca a Roma?",
+      "options": [
+        "En avión",
+        "En tren",
+        "En auto"
+      ],
+      "answer": 1,
+      "evidence": 9
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

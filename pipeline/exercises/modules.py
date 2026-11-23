@@ -26,6 +26,11 @@ def validate_modules(course: dict, readings: list[dict], speaking: dict, library
             errs.append(f"{i}: necesita al menos {MIN_CAN_DO} frases «sé hacer»")
         if not m.get("library_task_es") or m.get("library") not in lib:
             errs.append(f"{i}: la sugerencia de Biblioteca no existe ({m.get('library')})")
+        if not m.get("writing_es"):
+            errs.append(f"{i}: falta la propuesta de mensaje escrito (writing_es)")
+        for x in m.get("extra_readings", []):
+            if x not in reading_ids:
+                errs.append(f"{i}: la lectura extra {x} no existe")
         if m["entry_reading"] not in reading_ids:
             errs.append(f"{i}: el texto de entrada {m['entry_reading']} no existe")
         for k, pool in (("roleplays", roleplays), ("tasks", tasks), ("phrase_groups", groups)):

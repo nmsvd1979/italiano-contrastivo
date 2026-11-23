@@ -1,0 +1,94 @@
+{
+  "id": "doc_modulo",
+  "title": "Modulo d'iscrizione",
+  "level": "A1",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Formulario con datos personales escrito por la IA; documento tipo PLIDA/CILS A1 «formulario con datos personales».",
+  "table": {
+    "head": [
+      "Campo",
+      "Dato"
+    ],
+    "rows": [
+      [
+        "Nome",
+        "Anna"
+      ],
+      [
+        "Cognome",
+        "Rossi"
+      ],
+      [
+        "Data di nascita",
+        "12/05/1998"
+      ],
+      [
+        "Luogo di nascita",
+        "Torino"
+      ],
+      [
+        "Nazionalità",
+        "italiana"
+      ],
+      [
+        "Indirizzo",
+        "Via Roma 15, Milano"
+      ],
+      [
+        "Telefono",
+        "333 123 4567"
+      ],
+      [
+        "E-mail",
+        "anna.rossi@example.com"
+      ]
+    ]
+  },
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿Cómo se llama la persona?",
+      "options": [
+        "Anna Rossi",
+        "Rossi Anna Torino",
+        "Anna Milano"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Dónde nació?",
+      "options": [
+        "En Milán",
+        "En Turín",
+        "En Roma"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Cuál es su nacionalidad?",
+      "options": [
+        "Italiana",
+        "Francesa",
+        "Española"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿En qué ciudad vive?",
+      "options": [
+        "Turín",
+        "Roma",
+        "Milán"
+      ],
+      "answer": 2
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

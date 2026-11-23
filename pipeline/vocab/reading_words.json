@@ -53,6 +53,10 @@
 "k": "regular",
 "r": "doble"
 },
+"accordo": {
+"g": "acuerdo (d'accordo)",
+"k": "transparente"
+},
 "accorto": {
 "g": "dado cuenta (accorgersi)",
 "k": "opaca"
@@ -107,6 +111,10 @@
 },
 "ai": {
 "g": "a los",
+"k": "opaca"
+},
+"aiutarla": {
+"g": "ayudarla",
 "k": "opaca"
 },
 "al": {
@@ -357,6 +365,10 @@
 "g": "apuntes",
 "k": "opaca"
 },
+"aprite": {
+"g": "abran",
+"k": "opaca"
+},
 "arancia": {
 "g": "naranja",
 "k": "opaca"
@@ -371,6 +383,10 @@
 "ff": true,
 "n": "Parece «aria» (pieza de ópera) pero significa aire"
 },
+"arriva": {
+"g": "llega",
+"k": "transparente"
+},
 "arrivano": {
 "g": "llegan",
 "k": "opaca"
@@ -382,6 +398,14 @@
 "arrivato": {
 "g": "llegado",
 "k": "opaca"
+},
+"arrivederci": {
+"g": "hasta luego",
+"k": "opaca"
+},
+"arrivo": {
+"g": "llego",
+"k": "transparente"
 },
 "arrosto": {
 "g": "asado",
@@ -421,6 +445,10 @@
 },
 "ascolto": {
 "g": "escucho",
+"k": "opaca"
+},
+"aspetto": {
+"g": "espero",
 "k": "opaca"
 },
 "aspirapolvere": {
@@ -603,6 +631,10 @@
 "g": "bebido",
 "k": "opaca"
 },
+"bianca": {
+"g": "blanca",
+"k": "opaca"
+},
 "bianchi": {
 "g": "blancos",
 "k": "opaca"
@@ -633,6 +665,10 @@
 },
 "biglietto": {
 "g": "entrada / boleto",
+"k": "opaca"
+},
+"binario": {
+"g": "andén",
 "k": "opaca"
 },
 "biologia": {
@@ -677,6 +713,10 @@
 "r": "otro",
 "n": "ll → gli (botella → bottiglia)"
 },
+"brioche": {
+"g": "brioche (bollo dulce)",
+"k": "transparente"
+},
 "bruni": {
 "g": "castaños",
 "k": "opaca"
@@ -687,6 +727,10 @@
 },
 "brutta": {
 "g": "fea",
+"k": "opaca"
+},
+"brutto": {
+"g": "feo / malo",
 "k": "opaca"
 },
 "buon": {
@@ -777,6 +821,11 @@
 "g": "probador",
 "k": "opaca"
 },
+"camicia": {
+"g": "camisa",
+"k": "regular",
+"r": "otro"
+},
 "camillo": {
 "g": "nombre propio",
 "k": "transparente"
@@ -803,6 +852,14 @@
 "g": "cabello",
 "k": "opaca"
 },
+"capisco": {
+"g": "entiendo",
+"k": "opaca"
+},
+"capito": {
+"g": "entendido",
+"k": "opaca"
+},
 "cappella": {
 "g": "capilla",
 "k": "transparente"
@@ -813,6 +870,10 @@
 },
 "cappuccino": {
 "g": "capuchino",
+"k": "transparente"
+},
+"cara": {
+"g": "cara (de precio)",
 "k": "transparente"
 },
 "carciofo": {
@@ -887,6 +948,11 @@
 "ceno": {
 "g": "ceno",
 "k": "opaca"
+},
+"cento": {
+"g": "cien",
+"k": "regular",
+"r": "otro"
 },
 "centri": {
 "g": "centros",
@@ -1020,6 +1086,11 @@
 "cinema": {
 "g": "cine",
 "k": "transparente"
+},
+"cinquanta": {
+"g": "cincuenta",
+"k": "regular",
+"r": "otro"
 },
 "circa": {
 "g": "aproximadamente",
@@ -1415,8 +1486,16 @@
 "g": "deriva",
 "k": "transparente"
 },
+"desidera": {
+"g": "desea",
+"k": "transparente"
+},
 "desiderate": {
 "g": "desean (ustedes)",
+"k": "opaca"
+},
+"destra": {
+"g": "derecha",
 "k": "opaca"
 },
 "detersivi": {
@@ -1440,6 +1519,10 @@
 "g": "de",
 "k": "opaca"
 },
+"dica": {
+"g": "diga",
+"k": "transparente"
+},
 "dichiarato": {
 "g": "declarado",
 "k": "regular",
@@ -1459,6 +1542,10 @@
 "g": "difícil",
 "k": "regular",
 "r": "doble"
+},
+"dire": {
+"g": "decir",
+"k": "transparente"
 },
 "disordine": {
 "g": "desorden",
@@ -1593,6 +1680,10 @@
 "elena": {
 "g": "nombre propio",
 "k": "transparente"
+},
+"enne": {
+"g": "ene (nombre de la letra n)",
+"k": "opaca"
 },
 "entrano": {
 "g": "entran",
@@ -1808,6 +1899,10 @@
 "g": "fluido",
 "k": "transparente"
 },
+"fondo": {
+"g": "fondo",
+"k": "transparente"
+},
 "fontana": {
 "g": "fuente",
 "k": "regular",
@@ -1912,6 +2007,10 @@
 "g": "nombre propio",
 "k": "transparente"
 },
+"gi": {
+"g": "ye (nombre de la letra g)",
+"k": "opaca"
+},
 "gialli": {
 "g": "policiales (género)",
 "k": "opaca"
@@ -1988,6 +2087,10 @@
 "g": "nombre propio",
 "k": "transparente"
 },
+"già": {
+"g": "ya",
+"k": "opaca"
+},
 "gli": {
 "g": "los / le",
 "k": "opaca"
@@ -2007,6 +2110,10 @@
 },
 "gottoso": {
 "g": "gotoso (apodo)",
+"k": "transparente"
+},
+"gradi": {
+"g": "grados",
 "k": "transparente"
 },
 "grande": {
@@ -2315,6 +2422,10 @@
 "g": "ella",
 "k": "opaca"
 },
+"lentamente": {
+"g": "lentamente / despacio",
+"k": "transparente"
+},
 "lente": {
 "g": "lente",
 "k": "transparente"
@@ -2439,6 +2550,10 @@
 "g": "lugar",
 "k": "opaca"
 },
+"là": {
+"g": "allá",
+"k": "opaca"
+},
 "lì": {
 "g": "allí",
 "k": "opaca"
@@ -2557,9 +2672,17 @@
 "g": "mí",
 "k": "opaca"
 },
+"media": {
+"g": "mediana",
+"k": "transparente"
+},
 "medicina": {
 "g": "medicina",
 "k": "transparente"
+},
+"meglio": {
+"g": "mejor",
+"k": "opaca"
 },
 "mensa": {
 "g": "comedor (universitario)",
@@ -2614,6 +2737,10 @@
 "g": "puesto (de poner)",
 "k": "opaca"
 },
+"mezza": {
+"g": "media (y media)",
+"k": "opaca"
+},
 "mezzanotte": {
 "g": "medianoche",
 "k": "opaca"
@@ -2645,6 +2772,10 @@
 "miei": {
 "g": "mis",
 "k": "opaca"
+},
+"milano": {
+"g": "Milán",
+"k": "transparente"
 },
 "mille": {
 "g": "mil",
@@ -2814,6 +2945,10 @@
 "g": "nombre propio",
 "k": "transparente"
 },
+"niente": {
+"g": "nada",
+"k": "opaca"
+},
 "nina": {
 "g": "nombre propio",
 "k": "transparente"
@@ -2981,6 +3116,11 @@
 "r": "otro",
 "n": "hostal→ostello, h muda"
 },
+"otto": {
+"g": "ocho",
+"k": "regular",
+"r": "otro"
+},
 "padre": {
 "g": "padre",
 "k": "transparente"
@@ -2992,6 +3132,11 @@
 "pagare": {
 "g": "pagar",
 "k": "transparente"
+},
+"pagina": {
+"g": "página",
+"k": "regular",
+"r": "otro"
 },
 "palazzo": {
 "g": "palacio / edificio",
@@ -3147,6 +3292,10 @@
 "g": "porque",
 "k": "transparente"
 },
+"perfetta": {
+"g": "perfecta",
+"k": "transparente"
+},
 "perfetto": {
 "g": "perfecto",
 "k": "regular",
@@ -3184,6 +3333,10 @@
 "pesto": {
 "g": "pesto",
 "k": "transparente"
+},
+"pi": {
+"g": "pe (nombre de la letra p)",
+"k": "opaca"
 },
 "piacciono": {
 "g": "gustan",
@@ -3262,6 +3415,10 @@
 "pietro": {
 "g": "nombre propio",
 "k": "transparente"
+},
+"piove": {
+"g": "llueve",
+"k": "opaca"
 },
 "pittore": {
 "g": "pintor",
@@ -3514,6 +3671,10 @@
 "prosciutto": {
 "g": "jamón",
 "k": "opaca"
+},
+"prossimo": {
+"g": "próximo",
+"k": "transparente"
 },
 "provare": {
 "g": "probar",
@@ -3779,6 +3940,10 @@
 "g": "Renacimiento",
 "k": "transparente"
 },
+"ripetere": {
+"g": "repetir",
+"k": "transparente"
+},
 "riposo": {
 "g": "descanso",
 "k": "transparente"
@@ -3814,6 +3979,10 @@
 "ritardo": {
 "g": "retraso",
 "k": "opaca"
+},
+"ritorno": {
+"g": "vuelta / regreso",
+"k": "transparente"
 },
 "roma": {
 "g": "nombre propio",
@@ -3911,9 +4080,21 @@
 "g": "espuma",
 "k": "opaca"
 },
+"sconto": {
+"g": "descuento",
+"k": "opaca"
+},
+"scontrino": {
+"g": "comprobante / boleta",
+"k": "opaca"
+},
 "scorso": {
 "g": "pasado",
 "k": "opaca"
+},
+"scrive": {
+"g": "escribe",
+"k": "transparente"
 },
 "scrivere": {
 "g": "escribir",
@@ -3939,6 +4120,10 @@
 "g": "escuela",
 "k": "regular",
 "r": "ue-uo"
+},
+"scusa": {
+"g": "perdona",
+"k": "opaca"
 },
 "scusi": {
 "g": "disculpe",
@@ -3997,6 +4182,10 @@
 "g": "se oyen",
 "k": "opaca"
 },
+"senza": {
+"g": "sin",
+"k": "transparente"
+},
 "sera": {
 "g": "tarde, noche",
 "k": "opaca"
@@ -4004,6 +4193,11 @@
 "serrature": {
 "g": "cerraduras",
 "k": "opaca"
+},
+"sette": {
+"g": "siete",
+"k": "regular",
+"r": "otro"
 },
 "settimana": {
 "g": "semana",
@@ -4185,6 +4379,10 @@
 "k": "regular",
 "r": "j-cchi"
 },
+"speciale": {
+"g": "especial",
+"k": "transparente"
+},
 "speciali": {
 "g": "especiales",
 "k": "regular",
@@ -4289,6 +4487,11 @@
 "k": "regular",
 "r": "otro",
 "n": "e- protética (st-/sp- → est-/esp-)"
+},
+"stazione": {
+"g": "estación",
+"k": "regular",
+"r": "cion-zione"
 },
 "stazioni": {
 "g": "estaciones",
@@ -4571,6 +4774,11 @@
 "g": "treinta",
 "k": "transparente"
 },
+"trentacinque": {
+"g": "treinta y cinco",
+"k": "regular",
+"r": "otro"
+},
 "trevi": {
 "g": "nombre propio",
 "k": "transparente"
@@ -4653,6 +4861,11 @@
 "una": {
 "g": "una",
 "k": "transparente"
+},
+"undici": {
+"g": "once",
+"k": "regular",
+"r": "otro"
 },
 "unesco": {
 "g": "nombre propio",
@@ -4791,6 +5004,11 @@
 "r": "otro",
 "n": "ei-e"
 },
+"vento": {
+"g": "viento",
+"k": "regular",
+"r": "otro"
+},
 "ventotto": {
 "g": "veintiocho",
 "k": "regular",
@@ -4920,6 +5138,10 @@
 "g": "quieren / se necesitan",
 "k": "opaca"
 },
+"volentieri": {
+"g": "con gusto",
+"k": "opaca"
+},
 "volta": {
 "g": "vez",
 "k": "opaca"
@@ -4931,6 +5153,10 @@
 "vuoi": {
 "g": "quieres",
 "k": "opaca"
+},
+"vuol": {
+"g": "quiere (vuol dire = quiere decir)",
+"k": "transparente"
 },
 "vuole": {
 "g": "quiere",
@@ -4974,6 +5200,10 @@
 },
 "zucca": {
 "g": "calabaza / zapallo",
+"k": "opaca"
+},
+"zucchero": {
+"g": "azúcar",
 "k": "opaca"
 },
 "è": {

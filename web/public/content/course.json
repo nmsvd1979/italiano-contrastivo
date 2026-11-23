@@ -54,7 +54,8 @@
         "ph_piacere"
       ],
       "library": "forvo",
-      "library_task_es": "Escucha cómo suenan tu nombre y el de tus conocidos en Forvo y repítelos."
+      "library_task_es": "Escucha cómo suenan tu nombre y el de tus conocidos en Forvo y repítelos.",
+      "writing_es": "Escribe un mensaje corto para saludar a alguien nuevo y decirle cómo te llamas y cómo estás."
     },
     {
       "id": "m02",
@@ -85,7 +86,11 @@
       ],
       "phrase_groups": [],
       "library": "learnamo-sonidos",
-      "library_task_es": "Mira la guía de sonidos de LearnAmo y repite los que te cuesten."
+      "library_task_es": "Mira la guía de sonidos de LearnAmo y repite los que te cuesten.",
+      "writing_es": "Escribe tus datos como en un formulario: nombre, apellido, de dónde eres, cuántos años tienes y dónde vives.",
+      "extra_readings": [
+        "doc_modulo"
+      ]
     },
     {
       "id": "m03",
@@ -107,14 +112,16 @@
       ],
       "entry_reading": "rd_zaino",
       "roleplays": [
-        "rp_studi"
+        "rp_studi",
+        "rp_chiarire"
       ],
       "tasks": [],
       "phrase_groups": [
         "ph_aula"
       ],
       "library": "wordreference",
-      "library_task_es": "Busca en WordReference cinco objetos de tu escritorio y anota su artículo."
+      "library_task_es": "Busca en WordReference cinco objetos de tu escritorio y anota su artículo.",
+      "writing_es": "Escribe 3 o 4 frases sobre tu escritorio: qué objetos hay, de qué color son y cuál es tuyo."
     },
     {
       "id": "m04",
@@ -141,7 +148,8 @@
       ],
       "phrase_groups": [],
       "library": "piacere",
-      "library_task_es": "Lee en Piacere! un capítulo corto sobre la familia y marca los posesivos."
+      "library_task_es": "Lee en Piacere! un capítulo corto sobre la familia y marca los posesivos.",
+      "writing_es": "Escribe 4 frases sobre una persona de tu familia: cómo se llama, cómo es y qué hace."
     },
     {
       "id": "m05",
@@ -168,7 +176,11 @@
       ],
       "phrase_groups": [],
       "library": "leggiamo",
-      "library_task_es": "Lee en Leggiamo el capítulo de la rutina y subraya los verbos reflexivos."
+      "library_task_es": "Lee en Leggiamo el capítulo de la rutina y subraya los verbos reflexivos.",
+      "writing_es": "Escribe 4 frases sobre tu semana: qué haces cada día y a qué hora.",
+      "extra_readings": [
+        "doc_orari"
+      ]
     },
     {
       "id": "m06",
@@ -193,12 +205,14 @@
       ],
       "entry_reading": "rd_stasera",
       "roleplays": [
-        "rp_stasera"
+        "rp_stasera",
+        "rp_sms"
       ],
       "tasks": [],
       "phrase_groups": [],
       "library": "tutti-a-tavola",
-      "library_task_es": "Lee en Tutt* a tavola! la sección de pasatiempos y cuenta tus planes en voz alta."
+      "library_task_es": "Lee en Tutt* a tavola! la sección de pasatiempos y cuenta tus planes en voz alta.",
+      "writing_es": "Escribe un mensaje a un amigo para proponerle un plan y decirle cuándo y dónde se ven."
     },
     {
       "id": "m07",
@@ -231,7 +245,12 @@
       ],
       "phrase_groups": [],
       "library": "integrazione-migranti",
-      "library_task_es": "Abre un curso A1 de Integrazione Migranti y mira una lección de la ciudad."
+      "library_task_es": "Abre un curso A1 de Integrazione Migranti y mira una lección de la ciudad.",
+      "writing_es": "Escribe 4 frases sobre tu ciudad: qué hay, dónde está y cómo se llega.",
+      "extra_readings": [
+        "doc_cartelli",
+        "doc_annuncio"
+      ]
     },
     {
       "id": "m08",
@@ -256,7 +275,8 @@
       "entry_reading": "rd_trattoria",
       "roleplays": [
         "rp_trattoria",
-        "rp_bere"
+        "rp_bere",
+        "rp_bar"
       ],
       "tasks": [],
       "phrase_groups": [
@@ -264,7 +284,11 @@
         "ph_ristorante"
       ],
       "library": "wordreference",
-      "library_task_es": "Busca en WordReference cinco platos de un menú y anota su artículo."
+      "library_task_es": "Busca en WordReference cinco platos de un menú y anota su artículo.",
+      "writing_es": "Escribe tu pedido en un restaurante: qué quieres comer, qué quieres beber y pide la cuenta.",
+      "extra_readings": [
+        "doc_menu"
+      ]
     },
     {
       "id": "m09",
@@ -284,14 +308,16 @@
       ],
       "entry_reading": "rd_moda",
       "roleplays": [
-        "rp_moda"
+        "rp_moda",
+        "rp_negozio"
       ],
       "tasks": [],
       "phrase_groups": [
         "ph_negozio"
       ],
       "library": "aulafacil-a1",
-      "library_task_es": "Haz una lección A1 de Aula Fácil sobre compras."
+      "library_task_es": "Haz una lección A1 de Aula Fácil sobre compras.",
+      "writing_es": "Escribe 4 frases para comprar una prenda: qué buscas, tu talla, el precio y cómo pagas."
     },
     {
       "id": "m10",
@@ -312,7 +338,9 @@
         "u51"
       ],
       "entry_reading": "rd_medici",
-      "roleplays": [],
+      "roleplays": [
+        "rp_meteo"
+      ],
       "tasks": [
         "ht_lavoro"
       ],
@@ -320,7 +348,8 @@
         "ph_tempo"
       ],
       "library": "plida-a1",
-      "library_task_es": "Revisa el ejemplo de PLIDA A1 e identifica qué partes ya sabrías hacer."
+      "library_task_es": "Revisa el ejemplo de PLIDA A1 e identifica qué partes ya sabrías hacer.",
+      "writing_es": "Escribe 4 frases sobre el tiempo de hoy y qué te duele o cómo te sientes."
     },
     {
       "id": "m11",
@@ -346,7 +375,8 @@
       ],
       "phrase_groups": [],
       "library": "plida-a1",
-      "library_task_es": "Revisa el ejemplo de PLIDA A1 e identifica qué partes ya sabrías hacer."
+      "library_task_es": "Revisa el ejemplo de PLIDA A1 e identifica qué partes ya sabrías hacer.",
+      "writing_es": "Escribe 4 frases sobre lo que hiciste ayer, con «ho + participio» o «sono + participio»."
     }
   ],
   "units": [

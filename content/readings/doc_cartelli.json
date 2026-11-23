@@ -1,0 +1,85 @@
+{
+  "id": "doc_cartelli",
+  "title": "Cartelli",
+  "level": "A1",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Lista de carteles públicos escrita por la IA; incluye el cartel «Si prega di pagare alla cassa» del curso OpenLearn. Documento tipo PLIDA A1 «leer carteles».",
+  "table": {
+    "head": [
+      "Cartello"
+    ],
+    "rows": [
+      [
+        "Vietato fumare"
+      ],
+      [
+        "Spingere"
+      ],
+      [
+        "Tirare"
+      ],
+      [
+        "Aperto"
+      ],
+      [
+        "Chiuso"
+      ],
+      [
+        "Uscita di emergenza"
+      ],
+      [
+        "Ingresso libero"
+      ],
+      [
+        "Si prega di pagare alla cassa"
+      ]
+    ]
+  },
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿Qué hay que hacer con «Spingere»?",
+      "options": [
+        "Empujar la puerta",
+        "Tirar de la puerta",
+        "Pagar"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Qué significa «Vietato fumare»?",
+      "options": [
+        "Prohibido fumar",
+        "Se vende tabaco",
+        "Salida"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Qué significa «Chiuso»?",
+      "options": [
+        "Abierto",
+        "Cerrado",
+        "Gratis"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Dónde hay que pagar según el último cartel?",
+      "options": [
+        "En la puerta",
+        "En la caja",
+        "En la salida"
+      ],
+      "answer": 1
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}

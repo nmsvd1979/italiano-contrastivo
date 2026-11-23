@@ -28,7 +28,7 @@ import { WriteScreen } from "./ui/WriteScreen";
 import { DictationTestScreen } from "./ui/DictationTestScreen";
 import { LibraryScreen } from "./ui/LibraryScreen";
 import { ModuleScreen } from "./ui/ModuleScreen";
-import { ModuleStepScreen } from "./ui/ModuleStepScreen";
+import { ModuleStepScreen, ModuleTextScreen } from "./ui/ModuleStepScreen";
 import { SpeakingScreen } from "./ui/SpeakingScreen";
 import "./styles.css";
 
@@ -78,10 +78,12 @@ function Routes({ ready, hash }: { ready: Ready; hash: string }) {
   useEffect(() => { ready.store.allUnits().then((u) => setHito(Object.fromEntries(u.filter((x) => x.unitId.startsWith("hito:")).map((x) => [x.unitId, { completed: x.completed, best: x.testBest }])))); }, [ready, hash]);
   const m = hash.match(/^#\/unidad\/(u\d+)(?:\/(\w+))?$/);
   const mod = hash.match(/^#\/modulo\/(m\d+)(?:\/(\w+))?$/);
+  const txt = hash.match(/^#\/modulo\/(m\d+)\/texto\/(\w+)$/);
   if (hash === "#/hito/A1") return <MilestoneScreen pack={ready.pack} store={ready.store} level="A1" />;
   if (hash === "#/ubicacion") return <PlacementScreen pack={ready.pack} store={ready.store} units={ready.pack.course.units} />;
   if (!views) return <p>Cargando…</p>;
   if (hash === "#/ruta") return <RouteScreen views={views.units} modules={views.modules} pack={ready.pack} hito={hito} />;
+  if (txt) return <ModuleTextScreen key={hash} moduleId={txt[1]} textId={txt[2]} pack={ready.pack} store={ready.store} />;
   if (mod && mod[2]) return <ModuleStepScreen key={hash} moduleId={mod[1]} step={mod[2] as ModuleStepId} pack={ready.pack} store={ready.store} />;
   const modView = mod && views.modules.find((v) => v.module.id === mod[1]);
   if (modView) return <ModuleScreen view={modView} pack={ready.pack} />;

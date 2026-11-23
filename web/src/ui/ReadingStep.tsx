@@ -11,11 +11,14 @@ import { stopSay, waitCurrentEnd } from "./speech";
  * «Lectura»: un texto real de un libro abierto, con audio y traducción de cada oración (marcada como traducción de IA),
  * seguido de preguntas de comprensión escritas en español. No se inventa italiano: el texto es el del libro.
  */
-export function ReadingStep({ reading, words = {}, onFinish, exitHref = "#/", hideTranslation = false }: {
+export function ReadingStep({ reading, words = {}, onFinish, exitHref = "#/", hideTranslation = false, listenOnly = false }: {
   reading: Reading; words?: Record<string, ReadingWord>; onFinish: (correct: number, total: number) => void; exitHref?: string;
   /** Examen: sin traducción ni tamices, para medir si entiendes el texto de verdad. */
   hideTranslation?: boolean;
+  /** Comprensión auditiva: el texto no se ve; solo se oye (y se responde). Implica sin traducción. */
+  listenOnly?: boolean;
 }) {
+  if (listenOnly) hideTranslation = true;
   const [phase, setPhase] = useState<"read" | "ask">("read");
   const [shown, setShown] = useState<Set<number>>(new Set());
   const [layer, setLayer] = useState(false);           // capa de tamices: palabras tocables y coloreadas por su parentesco con el español
@@ -44,7 +47,7 @@ export function ReadingStep({ reading, words = {}, onFinish, exitHref = "#/", hi
       <div>
         <FocusHead progress={0.1} exitHref={exitHref} />
         <h2 lang="it">{reading.title}</h2>
-        <p><small>{reading.kind === "dialogo" ? "Diálogo" : reading.kind === "documento" ? "Documento" : "Lectura"} · {reading.source.book} ({reading.source.authors}), {reading.source.license}.{hideTranslation ? "" : " Traducción al español: IA, sin revisar por un nativo."}</small></p>
+        <p><small>{reading.kind === "dialogo" ? "Diálogo" : reading.kind === "documento" ? "Documento" : "Lectura"} · {reading.authored ? "Texto escrito por la IA (Claude) para esta app: no es de un libro ni lo revisó un nativo." : `${reading.source.book} (${reading.source.authors}), ${reading.source.license}.`}{hideTranslation ? "" : " Traducción al español: IA, sin revisar por un nativo."}</small></p>
         {reading.table && (
           <div style={{ overflowX: "auto" }}>
             <table className="doc" lang="it">
@@ -59,7 +62,7 @@ export function ReadingStep({ reading, words = {}, onFinish, exitHref = "#/", hi
             : <button type="button" onClick={stopAll}>⏹ Detener</button>}{" "}
           <small>Escúchalo primero sin mirar la traducción: es mejor para entrenar el oído.</small>
         </p>}
-        {!reading.table && <p>{hideTranslation ? "Toca 🔊 para oír una frase. Aquí no hay traducción: se trata de entender el texto." : layer ? "Toca una palabra para ver qué es y cómo se parece al español; «Traducción» muestra la frase." : "Toca una frase para oírla y ver su traducción."}</p>}
+        {!reading.table && <p>{listenOnly ? "Solo escucha: el texto no se muestra. Puedes oírlo las veces que quieras y luego responde." : hideTranslation ? "Toca 🔊 para oír una frase. Aquí no hay traducción: se trata de entender el texto." : layer ? "Toca una palabra para ver qué es y cómo se parece al español; «Traducción» muestra la frase." : "Toca una frase para oírla y ver su traducción."}</p>}
         {Object.keys(words).length > 0 && !hideTranslation && (
           <p><label><input type="checkbox" checked={layer} onChange={(e) => { setLayer(e.target.checked); setPicked1(null); }} /> Ver el parentesco con el español (tamices)</label></p>
         )}
@@ -93,7 +96,7 @@ export function ReadingStep({ reading, words = {}, onFinish, exitHref = "#/", hi
                   })()}
                 </>
               ) : (
-                <button type="button" className="sentence" lang="it" aria-expanded={shown.has(i)} onClick={() => (hideTranslation ? void player(s.it) : toggle(i))}>{s.it}</button>
+                <button type="button" className="sentence" lang="it" aria-expanded={shown.has(i)} onClick={() => (hideTranslation ? void player(s.it) : toggle(i))}>{listenOnly ? "🔊 Frase " + (i + 1) + " (sin texto)" : s.it}</button>
               )}
               {shown.has(i) && <span className="gloss"><small>{s.es}</small> <SpeakButton text={s.it} /></span>}
             </p>

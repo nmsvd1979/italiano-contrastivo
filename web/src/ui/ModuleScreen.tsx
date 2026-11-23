@@ -52,6 +52,18 @@ export function ModuleScreen({ view, pack }: { view: ModuleView; pack: ContentPa
           );
         })}
       </ol>
+      {(module.extra_readings ?? []).length > 0 && (
+        <section aria-label="Textos reales para leer">
+          <h2>Textos para leer (opcional)</h2>
+          <p><small>Documentos y mensajes como los que verás de verdad. Léelos sin traducción y responde las preguntas.</small></p>
+          <ul>
+            {module.extra_readings!.map((id) => {
+              const r = (pack.readings ?? []).find((x) => x.id === id);
+              return r ? <li key={id}><a href={`#/modulo/${module.id}/texto/${id}`} lang="it">{r.title}</a>{r.authored ? <small> · escrito por la IA</small> : null}</li> : null;
+            })}
+          </ul>
+        </section>
+      )}
       {view.progress.testBest !== null && <p><small>Mejor nota en la prueba de cierre: {Math.round(view.progress.testBest * 100)} %.</small></p>}
     </main>
   );

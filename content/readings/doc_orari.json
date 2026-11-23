@@ -1,0 +1,90 @@
+{
+  "id": "doc_orari",
+  "title": "Orari del negozio",
+  "level": "A1",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Horario de un negocio escrito por la IA (tabla de días y horas); documento tipo PLIDA A1 «leer un horario».",
+  "table": {
+    "head": [
+      "Giorno",
+      "Orario"
+    ],
+    "rows": [
+      [
+        "lunedì",
+        "chiuso"
+      ],
+      [
+        "martedì",
+        "9:00–13:00 e 15:00–19:00"
+      ],
+      [
+        "mercoledì",
+        "9:00–13:00 e 15:00–19:00"
+      ],
+      [
+        "giovedì",
+        "9:00–13:00 e 15:00–19:00"
+      ],
+      [
+        "venerdì",
+        "9:00–13:00 e 15:00–19:00"
+      ],
+      [
+        "sabato",
+        "9:00–13:00"
+      ],
+      [
+        "domenica",
+        "chiuso"
+      ]
+    ]
+  },
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿Qué día está cerrado el negocio, además del domingo?",
+      "options": [
+        "El lunes",
+        "El sábado",
+        "El viernes"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿A qué hora abre el martes?",
+      "options": [
+        "A las 9:00",
+        "A las 15:00",
+        "A las 13:00"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Hasta qué hora está abierto el sábado?",
+      "options": [
+        "Hasta las 19:00",
+        "Hasta las 13:00",
+        "Hasta las 15:00"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Se puede comprar el jueves a las 14:00?",
+      "options": [
+        "Sí",
+        "No: está cerrado a esa hora",
+        "Solo con reserva"
+      ],
+      "answer": 1
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo"
+}
