@@ -74,7 +74,9 @@ def texts_for_pack(pack_dir: Path) -> list[str]:
     sp = pack_dir / "speaking.json"
     speaking = json.loads(sp.read_text(encoding="utf8")) if sp.exists() else {"tasks": [], "alphabet": {"letters": []}}
     spoken = {q["it"] for t in speaking["tasks"] for q in t["questions"]} | {x["name"] for x in speaking["alphabet"]["letters"]} | {x["it"] for g in speaking.get("phrases", {}).get("groups", []) for x in g["items"]}
-    return sorted({s["it"] for s in sentences} | {l["form"] for l in lexemes} | {s["it"] for r in readings for s in r["sentences"]} | words | spoken)
+    # Las frases que dice la segunda voz tienen su propio clip: no se genera además el de la primera (a menos que el mismo texto se use en otro sitio).
+    first_voice = {s["it"] for r in readings for s in r["sentences"] if s.get("voice") != 2}
+    return sorted({s["it"] for s in sentences} | {l["form"] for l in lexemes} | first_voice | words | spoken)
 
 
 def second_voice_texts(pack_dir: Path) -> list[str]:

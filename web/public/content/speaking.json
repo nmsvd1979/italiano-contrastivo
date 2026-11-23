@@ -216,6 +216,19 @@
         "u65"
       ],
       "goal_es": "Elegir qué beber, compartir una botella y llamar al camarero."
+    },
+    {
+      "id": "rp_trattoria",
+      "title": "Ordenar en una trattoria y pedir la cuenta",
+      "function_es": "Pedir en el restaurante",
+      "reading": "rd_trattoria",
+      "from": 0,
+      "to": 12,
+      "after": [
+        "u35",
+        "u65"
+      ],
+      "goal_es": "Pedir entrada, primero, segundo y bebida, cambiar un pedido y pedir la cuenta."
     }
   ],
   "tasks": [
@@ -639,6 +652,277 @@
             "it": "Scusi, cameriere?",
             "es": "¿Disculpe, camarero?",
             "audio": "594bfe52e310"
+          }
+        ]
+      },
+      {
+        "id": "ph_aula",
+        "title": "En clase: preguntar y pedir que repitan",
+        "source": {
+          "book": "Giornate italiane",
+          "authors": "Amanda Bush y Silvia Luongo (University of Texas at Austin)",
+          "license": "CC BY-NC-SA 4.0",
+          "url": "https://utexas.pressbooks.pub/le-giornate-italiane/chapter/v-2-1-la-classe/",
+          "chapter": "V 2.1 – La classe e la cartoleria"
+        },
+        "missing_es": "Es la lista de frases de clase del libro, con «puoi» (trato informal). «Può ripetere?» (formal) no está.",
+        "items": [
+          {
+            "it": "Come si dice…?",
+            "es": "¿Cómo se dice…?",
+            "audio": "70bd79423dd6"
+          },
+          {
+            "it": "Ho una domanda…",
+            "es": "Tengo una pregunta…",
+            "audio": "c8b6156d530f"
+          },
+          {
+            "it": "Non capisco, puoi ripetere?",
+            "es": "No entiendo, ¿puedes repetir?",
+            "audio": "c9c7fe9863f7"
+          },
+          {
+            "it": "Salute!",
+            "es": "¡Salud! (cuando alguien estornuda)",
+            "audio": "2866c9f1a0a0"
+          }
+        ]
+      },
+      {
+        "id": "ph_tempo",
+        "title": "El tiempo y las estaciones",
+        "source": {
+          "book": "Giornate italiane",
+          "authors": "Amanda Bush y Silvia Luongo (University of Texas at Austin)",
+          "license": "CC BY-NC-SA 4.0",
+          "url": "https://utexas.pressbooks.pub/le-giornate-italiane/chapter/v3-3-le-stagioni/",
+          "chapter": "V 3.3 – I mesi e le stagioni"
+        },
+        "missing_es": "Es vocabulario en lista, sin diálogo. «Quanti gradi ci sono?» se responde «Ci sono … gradi».",
+        "items": [
+          {
+            "it": "Che tempo fa?",
+            "es": "¿Qué tiempo hace?",
+            "audio": "88f24c4ea35d"
+          },
+          {
+            "it": "fa caldo",
+            "es": "hace calor",
+            "audio": "0a0a6105acad"
+          },
+          {
+            "it": "fa freddo",
+            "es": "hace frío",
+            "audio": "f45abdfde7b7"
+          },
+          {
+            "it": "fa bel tempo",
+            "es": "hace buen tiempo",
+            "audio": "9453a2481f4a"
+          },
+          {
+            "it": "fa brutto tempo",
+            "es": "hace mal tiempo",
+            "audio": "84022f45d23d"
+          },
+          {
+            "it": "piove",
+            "es": "llueve",
+            "audio": "dd6a566b1578"
+          },
+          {
+            "it": "nevica",
+            "es": "nieva",
+            "audio": "6e5d1bacc184"
+          },
+          {
+            "it": "c'è il sole",
+            "es": "hay sol",
+            "audio": "41bbc9717ead"
+          },
+          {
+            "it": "c'è il vento",
+            "es": "hay viento",
+            "audio": "f94a999b104a"
+          },
+          {
+            "it": "c'è la nebbia",
+            "es": "hay niebla",
+            "audio": "d6ef051f1980"
+          },
+          {
+            "it": "c'è il temporale",
+            "es": "hay tormenta",
+            "audio": "557d8907ca62"
+          },
+          {
+            "it": "è nuvoloso",
+            "es": "está nublado",
+            "audio": "9c66e8f524bd"
+          },
+          {
+            "it": "è sereno",
+            "es": "está despejado",
+            "audio": "494160fcef48"
+          },
+          {
+            "it": "è afoso",
+            "es": "está bochornoso",
+            "audio": "afe72407beab"
+          },
+          {
+            "it": "Quanti gradi ci sono?",
+            "es": "¿Cuántos grados hay?",
+            "audio": "95f6622748d8"
+          },
+          {
+            "it": "l'inverno",
+            "es": "el invierno",
+            "audio": "d96c6fb47232"
+          },
+          {
+            "it": "la primavera",
+            "es": "la primavera",
+            "audio": "ee81e2090993"
+          },
+          {
+            "it": "l'estate",
+            "es": "el verano",
+            "audio": "055c78495944"
+          },
+          {
+            "it": "l'autunno",
+            "es": "el otoño",
+            "audio": "3c3861fc5c2d"
+          }
+        ]
+      },
+      {
+        "id": "ph_ristorante",
+        "title": "Pedir en un bar o restaurante",
+        "source": {
+          "book": "Giornate italiane",
+          "authors": "Amanda Bush y Silvia Luongo (University of Texas at Austin)",
+          "license": "CC BY-NC-SA 4.0",
+          "url": "https://utexas.pressbooks.pub/le-giornate-italiane/chapter/v5-3-i-prezzi/",
+          "chapter": "V 5.2 – Al ristorante"
+        },
+        "missing_es": "Son las «espressioni per ordinare al bar / ristorante» del libro, en lista. Se separaron las variantes que el libro une con «/».",
+        "items": [
+          {
+            "it": "Ho una prenotazione per…",
+            "es": "Tengo una reserva para…",
+            "audio": "20a153e54992"
+          },
+          {
+            "it": "Può portare il menù?",
+            "es": "¿Puede traer el menú?",
+            "audio": "28c67860f7e2"
+          },
+          {
+            "it": "Che cosa desidera?",
+            "es": "¿Qué desea? (trato formal)",
+            "audio": "566a821194de"
+          },
+          {
+            "it": "Che cosa prendi?",
+            "es": "¿Qué tomas? (informal)",
+            "audio": "0f39ecf29c60"
+          },
+          {
+            "it": "Che cosa prende?",
+            "es": "¿Qué toma? (formal)",
+            "audio": "e2efd6b7174f"
+          },
+          {
+            "it": "Mi può portare…?",
+            "es": "¿Me puede traer…?",
+            "audio": "db8cc06e20e9"
+          },
+          {
+            "it": "Ho fame e prendo…",
+            "es": "Tengo hambre y pido…",
+            "audio": "71616757e7be"
+          },
+          {
+            "it": "Ho sete e prendo…",
+            "es": "Tengo sed y pido…",
+            "audio": "dd3da495274c"
+          },
+          {
+            "it": "Quanto costa…?",
+            "es": "¿Cuánto cuesta…?",
+            "audio": "d9f27177eb89"
+          },
+          {
+            "it": "Posso avere il conto, per favore?",
+            "es": "¿Puedo tener la cuenta, por favor?",
+            "audio": "4c02a1f7d842"
+          },
+          {
+            "it": "Posso pagare con la carta di credito?",
+            "es": "¿Puedo pagar con tarjeta de crédito?",
+            "audio": "6030eda7b4f2"
+          },
+          {
+            "it": "Posso pagare in contanti?",
+            "es": "¿Puedo pagar en efectivo?",
+            "audio": "6fa5c8518186"
+          },
+          {
+            "it": "Buon appetito!",
+            "es": "¡Buen provecho!",
+            "audio": "346c0e21415b"
+          },
+          {
+            "it": "Cin cin!",
+            "es": "¡Salud! (al brindar)",
+            "audio": "46c2e88b0c91"
+          }
+        ]
+      },
+      {
+        "id": "ph_negozio",
+        "title": "Comprar en una tienda de ropa",
+        "source": {
+          "book": "Giornate italiane",
+          "authors": "Amanda Bush y Silvia Luongo (University of Texas at Austin)",
+          "license": "CC BY-NC-SA 4.0",
+          "url": "https://utexas.pressbooks.pub/le-giornate-italiane/chapter/v3-2-labbigliamento/",
+          "chapter": "V 3.2 – L'abbigliamento"
+        },
+        "missing_es": "Son las «espressioni per comprare in un negozio di abbigliamento» del libro, en lista; no hay diálogo.",
+        "items": [
+          {
+            "it": "Come posso aiutarla?",
+            "es": "¿Cómo puedo ayudarla?",
+            "audio": "68d3be919e8b"
+          },
+          {
+            "it": "Quanto costa?",
+            "es": "¿Cuánto cuesta?",
+            "audio": "ebea6fea9baa"
+          },
+          {
+            "it": "Costa 10 euro.",
+            "es": "Cuesta 10 euros.",
+            "audio": "db891e786b21"
+          },
+          {
+            "it": "È caro.",
+            "es": "Es caro.",
+            "audio": "c5ee3e8757f0"
+          },
+          {
+            "it": "È economico.",
+            "es": "Es barato.",
+            "audio": "7cc0ea1a8a46"
+          },
+          {
+            "it": "Ha un prezzo abbordabile.",
+            "es": "Tiene un precio accesible.",
+            "audio": "0b91c169ad44"
           }
         ]
       }

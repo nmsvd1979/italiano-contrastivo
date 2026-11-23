@@ -2,6 +2,14 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-23 (10) — Capítulos pendientes: diálogo de trattoria y frases de clase, tiempo, restaurante y tienda
+**Hallazgos (leídos en el navegador, licencia citada de la página):**
+- ***Tutt\* a tavola! vol. 2*** (UMass, CC BY-NC 4.0), cap. 11, ejercicio B: **diálogo real en una trattoria** (Cameriere, Tommaso, Madison): pedir entrada, primero, segundo y bebida, cambiar el pedido y pedir la cuenta. Entra como lectura `rd_trattoria` (13 réplicas, 6 preguntas, 29 palabras clasificadas) y como **juego de roles** «Ordenar en una trattoria y pedir la cuenta» (con las dos voces Piper). Se omitieron réplicas de nivel mayor y se declara.
+- ***Giornate italiane*** (UT Austin, CC BY-NC-SA 4.0; Bush y Luongo): listas de frases verbatim → 4 grupos nuevos en «Hablar → Frases»: **en clase** («Come si dice…?», «Non capisco, puoi ripetere?», «Ho una domanda…»), **el tiempo y las estaciones** (Che tempo fa?, fa caldo, piove, nevica, c'è il sole… 19 ítems), **pedir en bar/restaurante** (Posso avere il conto, per favore?, Ho una prenotazione per…) y **tienda de ropa** (Come posso aiutarla?, Quanto costa?, È caro.).
+**Cierra:** «puoi ripetere» (informal) y «Come si dice…?» ya tienen fuente; el bar/restaurante ya tiene un diálogo completo; el tiempo tiene vocabulario verbatim. **«Può ripetere?» (formal) sigue sin fuente.** El tiempo atmosférico **sigue sin diálogo** (solo lista); tienda e hotel siguen sin diálogo. *Cotto e mangiato* (Haverford bloqueado) y el libro de Kennesaw no se pudieron revisar.
+**Técnico:** las frases que dice la segunda voz ya no se sintetizan además con Serena (el presupuesto de audio de 32 MB se había pasado por 237 KB: se resolvió quitando duplicados, sin subir el tope); el audio queda en ≈32 MB.
+**Pruebas:** Python 1245 y web 893 en verde. Todo el italiano nuevo es de libros abiertos; traducciones IA sin revisar por un nativo.
+
 ## 2026-11-23 (9) — Investigación de fuentes abiertas e integración de lo verificado
 **Investigación:** 5 investigadores (diálogos funcionales, tiempo/números/horarios, textos tipo PLIDA, audio y datasets, catálogo de libros y corpus); 4 se cortaron por un corte de red y se reanudaron, así que **la cobertura es parcial**. Informe completo en `docs/fuentes-abiertas-a1-a2.md`. Conclusiones: no hay fuente abierta verificada de menús, carteles, SMS ni diálogos de tiempo/tienda/hotel; PLIDA, CILS y CERTIT son de derechos reservados (solo enlazar o imitar el formato); el audio nativo abierto es de oraciones sueltas (Tatoeba NM1, 1.591 clips CC BY 4.0) y palabras (Lingua Libre), nunca de diálogos; los datasets de diálogos de Hugging Face son sintéticos (descartados).
 **Integrado:**

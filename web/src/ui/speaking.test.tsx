@@ -104,10 +104,10 @@ describe("pantalla Hablar", () => {
   });
   it("las frases de supervivencia traen audio y no incluyen lo que el libro no trae", () => {
     const items = speaking.phrases!.groups.flatMap((g) => g.items);
-    expect(items.map((i) => i.it)).toEqual(expect.arrayContaining(["Come si dice...?", "Desidera?", "Si prega di pagare alla cassa.", "Non capisco."]));
+    expect(items.map((i) => i.it)).toEqual(expect.arrayContaining(["Come si dice...?", "Desidera?", "Si prega di pagare alla cassa.", "Non capisco.", "Non capisco, puoi ripetere?", "Che tempo fa?", "piove", "Posso avere il conto, per favore?", "Quanto costa?"]));
     for (const g of speaking.phrases!.groups) { expect(g.source.url, g.id).toMatch(/^https:\/\//); expect(g.source.license, g.id).toBeTruthy(); }
     expect(items.every((i) => /^[0-9a-f]{12}$/.test(i.audio ?? ""))).toBe(true);
-    expect(JSON.stringify(items)).not.toMatch(/ripetere/i);   // «Può ripetere?» no está en ninguna fuente abierta verificada: no se inventa
+    expect(JSON.stringify(items)).not.toMatch(/Può ripetere/);   // el trato formal «Può ripetere?» no está en ninguna fuente abierta verificada: no se inventa (sí «puoi ripetere», de Giornate italiane)
   });
   it("las frases se ocultan hasta pedir cómo se dicen", () => {
     render(<SpeakingScreen pack={pack} store={memoryStore()} />);

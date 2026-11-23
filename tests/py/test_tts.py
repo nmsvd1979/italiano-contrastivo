@@ -25,7 +25,7 @@ def test_textos_solo_de_oraciones_y_lexemas_y_nunca_un_distractor():
     forms = {l["form"] for l in json.loads((PACK / "lexemes.json").read_text(encoding="utf8"))}
     assert texts and len(texts) == len(set(texts)) and texts == sorted(texts)
     rf = PACK / "readings.json"  # las oraciones de las lecturas de libros abiertos también se voz
-    reading = {x["it"] for r in (json.loads(rf.read_text(encoding="utf8")) if rf.exists() else []) for x in r["sentences"]}
+    reading = {x["it"] for r in (json.loads(rf.read_text(encoding="utf8")) if rf.exists() else []) for x in r["sentences"] if x.get("voice") != 2}  # las de la segunda voz tienen clip propio
     cf = PACK / "course.json"  # las palabras de las listas de vocabulario («Palabras») también tienen voz
     course_words = {w["form"] for u in json.loads(cf.read_text(encoding="utf8"))["units"] for w in u.get("words", [])}
     from pipeline.exercises import speaking  # preguntas de las tareas orales, nombres de letras y frases de supervivencia (del libro)

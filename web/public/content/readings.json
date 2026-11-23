@@ -5619,6 +5619,178 @@
     ]
   },
   {
+    "id": "rd_trattoria",
+    "title": "Alla trattoria",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Tutt* a tavola! Volume 2 (UMass Amherst)",
+      "authors": "Stacy Giufre y Melina Masterson",
+      "url": "https://openbooks.library.umass.edu/tutt-a-tavola-vol-2/chapter/capitolo-11/",
+      "license": "CC BY-NC 4.0"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué toma Madison de primero?",
+        "options": [
+          "Espaguetis a la amatriciana",
+          "Ñoquis con choritos",
+          "Flores de calabacín"
+        ],
+        "answer": 0,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Qué quiere beber Madison?",
+        "options": [
+          "Vino tinto",
+          "Vino blanco",
+          "Té frío"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Por qué el camarero no le trae el capuchino a Madison?",
+        "options": [
+          "No tienen café",
+          "Después del mediodía no se toma leche",
+          "Es muy caro"
+        ],
+        "answer": 1,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿Qué pide al final Madison en vez del capuchino?",
+        "options": [
+          "Un limoncello",
+          "Un macchiato",
+          "Agua con gas"
+        ],
+        "answer": 1,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Qué hace Tommaso al final del diálogo?",
+        "options": [
+          "Paga con tarjeta",
+          "Pide la cuenta",
+          "Pide otro postre"
+        ],
+        "answer": 1,
+        "evidence": 12
+      },
+      {
+        "prompt_es": "¿Qué toma Tommaso para beber?",
+        "options": [
+          "Vino blanco",
+          "Vino tinto",
+          "Un cappuccino"
+        ],
+        "answer": 0,
+        "evidence": 4
+      }
+    ],
+    "sentences": [
+      {
+        "id": "rd_trattoria_00",
+        "it": "Buonasera, signori. Cosa desiderate?",
+        "es": "Buenas noches, señores. ¿Qué desean?",
+        "speaker": "Cameriere",
+        "audio": "1a5ea2565823"
+      },
+      {
+        "id": "rd_trattoria_01",
+        "it": "Per l'antipasto, prendiamo i fiori di zucca e un carciofo alla giudia.",
+        "es": "De entrada tomamos flores de calabacín y una alcachofa a la judía.",
+        "speaker": "Tommaso",
+        "audio": "e15facff14ca",
+        "voice": 2
+      },
+      {
+        "id": "rd_trattoria_02",
+        "it": "Per il primo prendo gli spaghetti all'amatriciana e per il secondo prendo l'ossobuco con gli spinaci al burro.",
+        "es": "De primero tomo los espaguetis a la amatriciana y de segundo el osobuco con espinacas a la mantequilla.",
+        "speaker": "Madison",
+        "audio": "c6bb169ac2c8"
+      },
+      {
+        "id": "rd_trattoria_03",
+        "it": "Benissimo, e Lei, signore?",
+        "es": "Muy bien, ¿y usted, señor?",
+        "speaker": "Cameriere",
+        "audio": "b8d9e127d09a"
+      },
+      {
+        "id": "rd_trattoria_04",
+        "it": "Per il primo prendo gli gnocchi alle cozze e per il secondo prendo il fritto misto di mare. Da bere, un bicchiere di vino bianco per me e del vino rosso per lei.",
+        "es": "De primero tomo ñoquis con choritos y de segundo la fritura mixta de mariscos. Para beber, una copa de vino blanco para mí y vino tinto para ella.",
+        "speaker": "Tommaso",
+        "audio": "b3f2b61a583a",
+        "voice": 2
+      },
+      {
+        "id": "rd_trattoria_05",
+        "it": "Ma, Tommaso, non mi piace il vino rosso. Voglio il vino bianco anch'io!",
+        "es": "Pero, Tommaso, no me gusta el vino tinto. ¡Yo también quiero vino blanco!",
+        "speaker": "Madison",
+        "audio": "d3d9596b7937"
+      },
+      {
+        "id": "rd_trattoria_06",
+        "it": "Desiderate altro?",
+        "es": "¿Desean algo más?",
+        "speaker": "Cameriere",
+        "audio": "edf9b346b5b6"
+      },
+      {
+        "id": "rd_trattoria_07",
+        "it": "Sì, vorrei un cappuccino per favore.",
+        "es": "Sí, quisiera un capuchino, por favor.",
+        "speaker": "Madison",
+        "audio": "511fa469ef07"
+      },
+      {
+        "id": "rd_trattoria_08",
+        "it": "Mi dispiace, signora. Purtroppo non si beve il latte dopo mezzogiorno. Fa male!",
+        "es": "Lo siento, señora. Lamentablemente no se toma leche después del mediodía. ¡Hace mal!",
+        "speaker": "Cameriere",
+        "audio": "d6a7c1024ed1"
+      },
+      {
+        "id": "rd_trattoria_09",
+        "it": "Un macchiato, per favore?",
+        "es": "¿Un macchiato, por favor?",
+        "speaker": "Madison",
+        "audio": "89768b304516"
+      },
+      {
+        "id": "rd_trattoria_10",
+        "it": "Un limoncello per me. Grazie.",
+        "es": "Un limoncello para mí. Gracias.",
+        "speaker": "Tommaso",
+        "audio": "4e0e6748e7e5",
+        "voice": 2
+      },
+      {
+        "id": "rd_trattoria_11",
+        "it": "Come mai non ci porta il conto?",
+        "es": "¿Por qué no nos trae la cuenta?",
+        "speaker": "Madison",
+        "audio": "a7637b7016b9"
+      },
+      {
+        "id": "rd_trattoria_12",
+        "it": "Oddio…chiedo il conto adesso.",
+        "es": "Ay, Dios… pido la cuenta ahora.",
+        "speaker": "Tommaso",
+        "audio": "e22743ca1280",
+        "voice": 2
+      }
+    ]
+  },
+  {
     "id": "rd_valentina",
     "title": "La giornata di Valentina",
     "level": "A1",

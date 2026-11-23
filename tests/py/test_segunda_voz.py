@@ -34,7 +34,7 @@ def test_generate_crea_los_clips_de_la_segunda_voz_y_los_marca_en_el_indice(tmp_
     made1, made2 = [], []
     idx = gen.generate(pack, out, lambda t, w: (made1.append(t), w.write_bytes(b"w")), lambda w, d: d.write_bytes(b"m"),
                        synthesize2=lambda t, w: (made2.append(t), w.write_bytes(b"w")))
-    assert made2 == ["Ciao."] and set(made1) == {"Buongiorno.", "Ciao."}
+    assert made2 == ["Ciao."] and set(made1) == {"Buongiorno."}   # lo que dice la segunda voz no se sintetiza además con la primera
     by = {e["id"]: e for e in idx}
     assert by[clip_id2("Ciao.")]["voice"] == VOICE2 and by[clip_id2("Ciao.")]["license"] == "CC0 1.0"
     assert (out / "tts" / f"{clip_id2('Ciao.')}.mp3").exists()
