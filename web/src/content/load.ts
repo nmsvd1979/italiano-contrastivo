@@ -60,7 +60,17 @@ export type Speaking = {
   roleplays: RolePlay[]; tasks: SpeakingTask[];
 };
 export type PlannedUnit = { level: string; title: string; reason: string };
-export type Course = { version: number; levels: { id: string; title: string; guided_hours: string }[]; units: Unit[]; planned: PlannedUnit[] };
+/** Módulo temático: una situación comunicativa con su texto de entrada, sus cápsulas (unidades), su salida y su cierre. */
+export type CourseModule = {
+  id: string; level: string; title: string;
+  can_do_es: string[];                 // «sé hacer»: lo que podrás hacer al terminar
+  units: string[];                     // cápsulas (ids de unidad), en orden
+  entry_reading: string;               // texto real de entrada
+  roleplays: string[]; tasks: string[]; phrase_groups: string[];   // salida (ids de speaking.json)
+  library: string; library_task_es: string;                        // 10 minutos sugeridos de la Biblioteca
+  gap_es?: string;                     // lo que le falta al módulo, declarado
+};
+export type Course = { version: number; levels: { id: string; title: string; guided_hours: string }[]; modules?: CourseModule[]; units: Unit[]; planned: PlannedUnit[] };
 export type ContentPack = {
   course: Course;
   readings?: Reading[];

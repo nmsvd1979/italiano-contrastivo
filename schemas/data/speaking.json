@@ -208,6 +208,19 @@
     "u65"
    ],
    "goal_es": "Pedir entrada, primero, segundo y bebida, cambiar un pedido y pedir la cuenta."
+  },
+  {
+   "id": "rp_moda",
+   "title": "Hablar de moda y proponer ir de compras",
+   "function_es": "Proponer un plan de compras",
+   "reading": "rd_moda",
+   "from": 1,
+   "to": 15,
+   "after": [
+    "u31",
+    "u42"
+   ],
+   "goal_es": "Hablar de moda, proponer ir a las tiendas, decir que no puedes y decir hacia dónde vas."
   }
  ],
  "tasks": [

@@ -125,7 +125,9 @@ def build_course(sentences: list[dict], catalog: dict[str, dict]) -> dict:
         words = [_with_contrast(w) for w in words]
         units.append({**u, **({"words": words} if words else {}), "status": "active", "explanation_es": catalog[code]["explanation_es"], "parts": parts,
                       "divergences": [_divergence(code, by_id[i]) for i in parts["descubre"]]})
-    return {"version": raw["version"], "levels": raw["levels"], "units": units, "planned": planned}
+    active = {u["id"] for u in units}
+    modules = [{**m, "units": [x for x in m["units"] if x in active]} for m in raw.get("modules", [])]  # una unidad que baja a `planned` sale de su módulo (nunca se inventa)
+    return {"version": raw["version"], "levels": raw["levels"], "modules": modules, "units": units, "planned": planned}
 
 
 def write_course(out_dir: Path, sentences: list[dict], catalog: dict[str, dict]) -> dict:

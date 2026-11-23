@@ -68,6 +68,9 @@ def build_pack(pack_dir: Path) -> dict:
     readings = json.loads((pack_dir / "readings.json").read_text(encoding="utf8"))
     course = json.loads((pack_dir / "course.json").read_text(encoding="utf8"))
     errs = validate(doc, readings, {u["id"] for u in course["units"]})
+    from pipeline.exercises.modules import validate_modules
+    lib_file = pack_dir / "library.json"
+    errs += validate_modules(course, readings, doc, json.loads(lib_file.read_text(encoding="utf8")) if lib_file.exists() else [])
     if errs:
         raise ValueError("Habla guiada inválida:\n" + "\n".join(errs))
     for t in doc["tasks"]:
