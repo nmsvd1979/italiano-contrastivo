@@ -148,3 +148,6 @@ ul.week { list-style: none; padding: 0; margin: 8px 0; display: grid; gap: 10px;
 ul.week .t { display: flex; justify-content: space-between; }
 ul.week .bar { display: block; height: 8px; border-radius: 4px; background: var(--line); margin: 4px 0; overflow: hidden; }
 ul.week .bar i { display: block; height: 100%; background: var(--accent); }
+
+.words .sieve { color: var(--muted); }
+.words .sieve.opaca { color: var(--accent); font-weight: 600; }

@@ -61,7 +61,14 @@ def _with_contrast(w: dict) -> dict:
         out["art"] = art
     if vocab.gender_differs(w["form"], w["gender"], w["gloss"]):
         out["gdiv"] = True
-    if w["form"].lower() in vocab.false_friend_forms():
+    s = vocab.sieves().get(w["form"])
+    if s:
+        out["sieve"] = s["k"]
+        if s.get("r"):
+            out["rule"] = s["r"]
+        if s.get("n"):
+            out["note"] = s["n"]
+    if w["form"].lower() in vocab.false_friend_forms() or (s or {}).get("ff"):
         out["ff"] = True
     return out
 

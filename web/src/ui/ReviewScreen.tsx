@@ -8,6 +8,7 @@ import { newCard, review } from "../state/srs";
 import { localDate, type Store } from "../state/store";
 import { loadSamples } from "../state/timing";
 import { SpeakButton } from "./SpeakButton";
+import { WordRecall } from "./items/WordRecall";
 import { ItemView } from "./items/ItemView";
 import { FocusHead } from "./kit/FocusHead";
 import { Ring } from "./kit/Ring";
@@ -97,7 +98,9 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
       <FocusHead progress={i / Math.max(1, queue.length)} exitHref="#/" />
       <p className="runner-meta">Repaso {i + 1} de {queue.length}</p>
       {saveError && <p role="alert" className="alert">No se pudo guardar tu respuesta. Inténtalo de nuevo.</p>}
-      {lexeme ? (
+      {lexeme && lexeme.id.startsWith("w:") ? (
+        <WordRecall key={`${lexeme.id}-${i}`} lexeme={lexeme} onRate={(r) => void grade(r)} />
+      ) : lexeme ? (
         <section>
           <h2 lang="it">{withArticle(lexeme.form, lexeme.art)}</h2>
           <SpeakButton text={lexeme.form} />

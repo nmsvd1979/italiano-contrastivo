@@ -26,3 +26,22 @@ describe("gradeWrite", () => {
     expect(r.best).toBe("Sono andato a casa mia.");
   });
 });
+
+import { gradeWord } from "./write";
+describe("gradeWord (repaso español → italiano)", () => {
+  it("exige la palabra con su artículo", () => {
+    expect(gradeWord("il latte", "latte", "il")).toMatchObject({ rating: 3, result: "ok", expected: "il latte" });
+    expect(gradeWord("l'acqua", "acqua", "l'")).toMatchObject({ rating: 3 });
+    expect(gradeWord("l' acqua", "acqua", "l'").rating).toBe(3);
+  });
+  it("sin artículo o con un acento mal cuesta «difícil»; con el artículo equivocado (género) es fallo", () => {
+    expect(gradeWord("latte", "latte", "il")).toMatchObject({ rating: 2, result: "sin_articulo" });
+    expect(gradeWord("il caffe", "caffè", "il")).toMatchObject({ rating: 2, result: "acento" });
+    expect(gradeWord("la latte", "latte", "il")).toMatchObject({ rating: 1, result: "articulo" });
+  });
+  it("otra palabra es fallo; adjetivos y verbos no llevan artículo", () => {
+    expect(gradeWord("il pane", "latte", "il").rating).toBe(1);
+    expect(gradeWord("Alto", "alto").rating).toBe(3);
+    expect(gradeWord("il alto", "alto").rating).toBe(1);
+  });
+});

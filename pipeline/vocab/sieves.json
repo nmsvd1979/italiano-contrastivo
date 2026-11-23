@@ -1,0 +1,2538 @@
+{
+ "abbastanza": {
+  "k": "regular",
+  "r": "otro",
+  "n": "Raíz de bastare/bastante; -anza = -ante"
+ },
+ "accanto": {
+  "k": "opaca"
+ },
+ "aceto": {
+  "k": "opaca",
+  "ff": true,
+  "n": "Parece 'aceite' pero significa vinagre; aceite = olio"
+ },
+ "acqua": {
+  "k": "regular",
+  "r": "otro",
+  "n": "qu→g: aqua/agua"
+ },
+ "adesso": {
+  "k": "opaca"
+ },
+ "aereo": {
+  "k": "opaca"
+ },
+ "aeroporto": {
+  "k": "regular",
+  "r": "ue-o"
+ },
+ "affitto": {
+  "k": "opaca"
+ },
+ "aglio": {
+  "k": "regular",
+  "r": "j-gli"
+ },
+ "albergo": {
+  "k": "opaca",
+  "n": "Recuerda a 'albergue', pero en el curso es 'hotel'"
+ },
+ "albero": {
+  "k": "regular",
+  "r": "otro",
+  "n": "árbol/albero: reconocible con -ol↔-er-"
+ },
+ "alta": {
+  "k": "transparente"
+ },
+ "alto": {
+  "k": "transparente"
+ },
+ "ambulanza": {
+  "k": "regular",
+  "r": "otro",
+  "n": "-ancia→-anza"
+ },
+ "americana": {
+  "k": "transparente",
+  "n": "La glosa es 'estadounidense', pero se reconoce por 'americano'"
+ },
+ "americani": {
+  "k": "transparente",
+  "n": "La glosa es 'estadounidense', pero se reconoce por 'americano'"
+ },
+ "americano": {
+  "k": "transparente",
+  "n": "La glosa es 'estadounidense', pero se reconoce por 'americano'"
+ },
+ "amica": {
+  "k": "transparente"
+ },
+ "amici": {
+  "k": "transparente"
+ },
+ "amicizia": {
+  "k": "regular",
+  "r": "otro",
+  "n": "amistad/amicizia: -istad ↔ -icizia"
+ },
+ "amico": {
+  "k": "transparente"
+ },
+ "amore": {
+  "k": "transparente"
+ },
+ "anche": {
+  "k": "opaca"
+ },
+ "ancora": {
+  "k": "opaca"
+ },
+ "anello": {
+  "k": "transparente"
+ },
+ "angolo": {
+  "k": "opaca",
+  "n": "Parece 'ángulo' pero en el curso es 'esquina'"
+ },
+ "animale": {
+  "k": "transparente"
+ },
+ "animali": {
+  "k": "transparente"
+ },
+ "anni": {
+  "k": "regular",
+  "r": "otro",
+  "n": "ñ→nn: año/anno"
+ },
+ "anno": {
+  "k": "regular",
+  "r": "otro",
+  "n": "ñ→nn: año/anno"
+ },
+ "antipasto": {
+  "k": "opaca"
+ },
+ "antipatica": {
+  "k": "transparente"
+ },
+ "antipatico": {
+  "k": "transparente"
+ },
+ "ape": {
+  "k": "opaca"
+ },
+ "aperitivo": {
+  "k": "transparente"
+ },
+ "appartamento": {
+  "k": "transparente"
+ },
+ "arancia": {
+  "k": "opaca",
+  "n": "Emparentado con naranja, pero no se adivina"
+ },
+ "arancione": {
+  "k": "opaca",
+  "n": "Emparentado con naranja, pero no se adivina"
+ },
+ "argentina": {
+  "k": "transparente"
+ },
+ "argentino": {
+  "k": "transparente"
+ },
+ "armadio": {
+  "k": "regular",
+  "r": "otro",
+  "n": "armario/armadio: -ario→-adio"
+ },
+ "arrivederci": {
+  "k": "opaca"
+ },
+ "asciugamano": {
+  "k": "opaca"
+ },
+ "auguri": {
+  "k": "opaca"
+ },
+ "autobus": {
+  "k": "transparente"
+ },
+ "automobile": {
+  "k": "transparente"
+ },
+ "autunno": {
+  "k": "regular",
+  "r": "otro",
+  "n": "otoño/autunno: au→o, ñ→nn"
+ },
+ "avvocato": {
+  "k": "regular",
+  "r": "otro",
+  "n": "abogado/avvocato: b→vv, -gado→-cato"
+ },
+ "azzurra": {
+  "k": "opaca"
+ },
+ "azzurro": {
+  "k": "opaca"
+ },
+ "bagno": {
+  "k": "regular",
+  "r": "n-gn"
+ },
+ "balcone": {
+  "k": "transparente"
+ },
+ "bambina": {
+  "k": "opaca"
+ },
+ "bambino": {
+  "k": "opaca"
+ },
+ "bambola": {
+  "k": "opaca"
+ },
+ "banana": {
+  "k": "transparente",
+  "n": "'banana' se usa también en español"
+ },
+ "banca": {
+  "k": "transparente"
+ },
+ "banconota": {
+  "k": "opaca"
+ },
+ "bar": {
+  "k": "transparente"
+ },
+ "barca": {
+  "k": "transparente"
+ },
+ "bassa": {
+  "k": "regular",
+  "r": "otro",
+  "n": "j→ss: bajo/basso"
+ },
+ "basso": {
+  "k": "regular",
+  "r": "otro",
+  "n": "j→ss: bajo/basso"
+ },
+ "bella": {
+  "k": "transparente"
+ },
+ "bello": {
+  "k": "transparente"
+ },
+ "benvenuta": {
+  "k": "regular",
+  "r": "ie-e"
+ },
+ "benvenuti": {
+  "k": "regular",
+  "r": "ie-e"
+ },
+ "benvenuto": {
+  "k": "regular",
+  "r": "ie-e"
+ },
+ "benzina": {
+  "k": "transparente"
+ },
+ "bianca": {
+  "k": "regular",
+  "r": "otro",
+  "n": "bl→bi: blanco/bianco"
+ },
+ "bianco": {
+  "k": "regular",
+  "r": "otro",
+  "n": "bl→bi: blanco/bianco"
+ },
+ "bibita": {
+  "k": "opaca"
+ },
+ "biblioteca": {
+  "k": "transparente"
+ },
+ "bicchiere": {
+  "k": "opaca"
+ },
+ "bicicletta": {
+  "k": "transparente"
+ },
+ "biglietti": {
+  "k": "opaca"
+ },
+ "biglietto": {
+  "k": "opaca"
+ },
+ "binario": {
+  "k": "opaca"
+ },
+ "bionda": {
+  "k": "opaca"
+ },
+ "biondo": {
+  "k": "opaca"
+ },
+ "birra": {
+  "k": "opaca"
+ },
+ "biscotto": {
+  "k": "opaca"
+ },
+ "blu": {
+  "k": "opaca"
+ },
+ "bocca": {
+  "k": "regular",
+  "r": "doble"
+ },
+ "bolletta": {
+  "k": "opaca"
+ },
+ "borsa": {
+  "k": "regular",
+  "r": "otro",
+  "n": "bolso/borsa: l→r"
+ },
+ "borsetta": {
+  "k": "opaca"
+ },
+ "bosco": {
+  "k": "regular",
+  "r": "otro",
+  "n": "bosque/bosco: -sque→-sco"
+ },
+ "bottega": {
+  "k": "opaca",
+  "n": "Recuerda a 'bodega' pero significa tienda pequeña"
+ },
+ "bottiglia": {
+  "k": "regular",
+  "r": "j-gli"
+ },
+ "braccia": {
+  "k": "regular",
+  "r": "otro",
+  "n": "z→cc: brazo/braccio"
+ },
+ "braccio": {
+  "k": "regular",
+  "r": "otro",
+  "n": "z→cc: brazo/braccio"
+ },
+ "brutta": {
+  "k": "opaca"
+ },
+ "brutto": {
+  "k": "opaca"
+ },
+ "bugia": {
+  "k": "opaca",
+  "ff": true,
+  "n": "Parece 'bujía' pero significa mentira"
+ },
+ "buona": {
+  "k": "regular",
+  "r": "ue-uo"
+ },
+ "buonanotte": {
+  "k": "regular",
+  "r": "ue-uo"
+ },
+ "buonasera": {
+  "k": "opaca"
+ },
+ "buongiorno": {
+  "k": "opaca"
+ },
+ "buono": {
+  "k": "regular",
+  "r": "ue-uo"
+ },
+ "burro": {
+  "k": "opaca",
+  "ff": true,
+  "n": "Parece 'burro' (animal) pero significa mantequilla"
+ },
+ "caffè": {
+  "k": "transparente"
+ },
+ "calcio": {
+  "k": "opaca"
+ },
+ "caldo": {
+  "k": "opaca",
+  "ff": true,
+  "n": "Parece 'caldo' (sopa) pero significa calor"
+ },
+ "calzini": {
+  "k": "opaca"
+ },
+ "camera": {
+  "k": "opaca",
+  "n": "Parece 'cámara' pero es el dormitorio"
+ },
+ "cameriere": {
+  "k": "regular",
+  "r": "otro",
+  "n": "camarero/cameriere: -ero→-iere"
+ },
+ "camicia": {
+  "k": "transparente",
+  "n": "camisa/camicia: pequeño cambio de grafía"
+ },
+ "camion": {
+  "k": "transparente"
+ },
+ "campo": {
+  "k": "transparente"
+ },
+ "candela": {
+  "k": "opaca",
+  "n": "Existe 'candela' en español con otro sentido; aquí es vela"
+ },
+ "cane": {
+  "k": "opaca"
+ },
+ "cani": {
+  "k": "opaca"
+ },
+ "canzone": {
+  "k": "regular",
+  "r": "cion-zione"
+ },
+ "capelli": {
+  "k": "regular",
+  "r": "otro",
+  "n": "p/v→b: cabello, cabra, caballo"
+ },
+ "cappello": {
+  "k": "opaca"
+ },
+ "cappotto": {
+  "k": "opaca"
+ },
+ "cappuccino": {
+  "k": "transparente"
+ },
+ "capra": {
+  "k": "regular",
+  "r": "otro",
+  "n": "p/v→b: cabello, cabra, caballo"
+ },
+ "carne": {
+  "k": "transparente"
+ },
+ "caro": {
+  "k": "transparente"
+ },
+ "carota": {
+  "k": "opaca"
+ },
+ "carro": {
+  "k": "transparente"
+ },
+ "cartoleria": {
+  "k": "opaca"
+ },
+ "casa": {
+  "k": "transparente"
+ },
+ "cascata": {
+  "k": "transparente"
+ },
+ "cassa": {
+  "k": "opaca"
+ },
+ "cattiva": {
+  "k": "opaca"
+ },
+ "cattivo": {
+  "k": "opaca"
+ },
+ "cavalli": {
+  "k": "regular",
+  "r": "otro",
+  "n": "p/v→b: cabello, cabra, caballo"
+ },
+ "cavallo": {
+  "k": "regular",
+  "r": "otro",
+  "n": "p/v→b: cabello, cabra, caballo"
+ },
+ "cellulare": {
+  "k": "transparente"
+ },
+ "cena": {
+  "k": "transparente"
+ },
+ "centesimo": {
+  "k": "transparente"
+ },
+ "cento": {
+  "k": "regular",
+  "r": "ie-e"
+ },
+ "che": {
+  "k": "regular",
+  "r": "otro",
+  "n": "qu→ch: que/che, quién/chi"
+ },
+ "chi": {
+  "k": "regular",
+  "r": "otro",
+  "n": "qu→ch: que/che, quién/chi"
+ },
+ "chiave": {
+  "k": "regular",
+  "r": "ll-chi"
+ },
+ "chiesa": {
+  "k": "opaca"
+ },
+ "chitarra": {
+  "k": "regular",
+  "r": "otro",
+  "n": "gu→ch: guitarra/chitarra"
+ },
+ "ciao": {
+  "k": "transparente",
+  "n": "'chao' se usa en Chile"
+ },
+ "cibo": {
+  "k": "opaca"
+ },
+ "ciclismo": {
+  "k": "transparente"
+ },
+ "cielo": {
+  "k": "transparente"
+ },
+ "cilena": {
+  "k": "transparente"
+ },
+ "cileno": {
+  "k": "transparente"
+ },
+ "ciliegia": {
+  "k": "opaca"
+ },
+ "cinema": {
+  "k": "transparente"
+ },
+ "cinese": {
+  "k": "opaca"
+ },
+ "cinquanta": {
+  "k": "transparente"
+ },
+ "cinque": {
+  "k": "transparente"
+ },
+ "cioccolato": {
+  "k": "transparente"
+ },
+ "cipolla": {
+  "k": "regular",
+  "r": "otro",
+  "n": "cebolla/cipolla: b→p"
+ },
+ "città": {
+  "k": "regular",
+  "r": "dad-ta"
+ },
+ "classe": {
+  "k": "transparente"
+ },
+ "clima": {
+  "k": "transparente"
+ },
+ "colazione": {
+  "k": "opaca"
+ },
+ "collina": {
+  "k": "transparente"
+ },
+ "collo": {
+  "k": "regular",
+  "r": "ue-o"
+ },
+ "colore": {
+  "k": "transparente"
+ },
+ "colori": {
+  "k": "transparente"
+ },
+ "coltello": {
+  "k": "opaca"
+ },
+ "come": {
+  "k": "transparente"
+ },
+ "compagna": {
+  "k": "regular",
+  "r": "n-gn"
+ },
+ "compagno": {
+  "k": "regular",
+  "r": "n-gn"
+ },
+ "compito": {
+  "k": "opaca"
+ },
+ "complimenti": {
+  "k": "opaca"
+ },
+ "computer": {
+  "k": "transparente"
+ },
+ "concerto": {
+  "k": "transparente"
+ },
+ "coniglio": {
+  "k": "regular",
+  "r": "j-gli"
+ },
+ "consiglio": {
+  "k": "regular",
+  "r": "j-gli"
+ },
+ "contadino": {
+  "k": "opaca"
+ },
+ "contanti": {
+  "k": "opaca"
+ },
+ "contenta": {
+  "k": "transparente"
+ },
+ "contento": {
+  "k": "transparente"
+ },
+ "conto": {
+  "k": "regular",
+  "r": "ue-o"
+ },
+ "contorno": {
+  "k": "opaca"
+ },
+ "coperta": {
+  "k": "opaca"
+ },
+ "corso": {
+  "k": "transparente"
+ },
+ "cortile": {
+  "k": "opaca"
+ },
+ "cosa": {
+  "k": "opaca",
+  "n": "Se parece a 'cosa' pero en el curso significa 'qué'"
+ },
+ "cravatta": {
+  "k": "regular",
+  "r": "otro",
+  "n": "corbata/cravatta"
+ },
+ "crema": {
+  "k": "transparente"
+ },
+ "cucchiaino": {
+  "k": "regular",
+  "r": "otro",
+  "n": "cuchara/cucchiaio: ch→cch"
+ },
+ "cucchiaio": {
+  "k": "regular",
+  "r": "otro",
+  "n": "cuchara/cucchiaio: ch→cch"
+ },
+ "cucina": {
+  "k": "regular",
+  "r": "u-o"
+ },
+ "cugina": {
+  "k": "opaca"
+ },
+ "cugino": {
+  "k": "opaca"
+ },
+ "cuoco": {
+  "k": "regular",
+  "r": "otro",
+  "n": "cocinero/cuoco: raíz coc-/cuoc-"
+ },
+ "cuore": {
+  "k": "opaca"
+ },
+ "cuscino": {
+  "k": "opaca"
+ },
+ "davanti": {
+  "k": "opaca"
+ },
+ "dente": {
+  "k": "regular",
+  "r": "ie-e"
+ },
+ "denti": {
+  "k": "regular",
+  "r": "ie-e"
+ },
+ "dentifricio": {
+  "k": "opaca"
+ },
+ "dentro": {
+  "k": "transparente"
+ },
+ "deodorante": {
+  "k": "transparente"
+ },
+ "deserto": {
+  "k": "transparente"
+ },
+ "destra": {
+  "k": "opaca"
+ },
+ "dieci": {
+  "k": "transparente"
+ },
+ "dietro": {
+  "k": "opaca"
+ },
+ "difficile": {
+  "k": "regular",
+  "r": "doble"
+ },
+ "diploma": {
+  "k": "transparente"
+ },
+ "direttore": {
+  "k": "transparente"
+ },
+ "direzione": {
+  "k": "regular",
+  "r": "cion-zione"
+ },
+ "dito": {
+  "k": "opaca"
+ },
+ "divano": {
+  "k": "opaca"
+ },
+ "dizionario": {
+  "k": "regular",
+  "r": "otro",
+  "n": "diccionario→dizionario (cc→zz)"
+ },
+ "doccia": {
+  "k": "opaca"
+ },
+ "dodici": {
+  "k": "opaca"
+ },
+ "dolore": {
+  "k": "transparente"
+ },
+ "domani": {
+  "k": "opaca"
+ },
+ "domenica": {
+  "k": "transparente"
+ },
+ "donna": {
+  "k": "opaca"
+ },
+ "dopo": {
+  "k": "opaca"
+ },
+ "dottore": {
+  "k": "regular",
+  "r": "doble"
+ },
+ "dove": {
+  "k": "opaca"
+ },
+ "dritto": {
+  "k": "regular",
+  "r": "ch-tt"
+ },
+ "due": {
+  "k": "opaca"
+ },
+ "edicola": {
+  "k": "opaca"
+ },
+ "elefante": {
+  "k": "transparente"
+ },
+ "erba": {
+  "k": "opaca"
+ },
+ "errore": {
+  "k": "transparente"
+ },
+ "esame": {
+  "k": "regular",
+  "r": "x-s"
+ },
+ "est": {
+  "k": "transparente"
+ },
+ "estate": {
+  "k": "opaca"
+ },
+ "euro": {
+  "k": "transparente"
+ },
+ "facile": {
+  "k": "transparente"
+ },
+ "fagioli": {
+  "k": "opaca"
+ },
+ "fame": {
+  "k": "regular",
+  "r": "h-f"
+ },
+ "famiglia": {
+  "k": "regular",
+  "r": "otro",
+  "n": "familia→famiglia (-lia→-glia)"
+ },
+ "farfalla": {
+  "k": "opaca"
+ },
+ "farmacia": {
+  "k": "transparente"
+ },
+ "fascia": {
+  "k": "opaca"
+ },
+ "fato": {
+  "k": "opaca"
+ },
+ "fatto": {
+  "k": "regular",
+  "r": "ch-tt"
+ },
+ "febbre": {
+  "k": "regular",
+  "r": "ie-e",
+  "n": "fiebre→febbre; además -bb- doble"
+ },
+ "felice": {
+  "k": "transparente"
+ },
+ "ferita": {
+  "k": "regular",
+  "r": "h-f"
+ },
+ "fermata": {
+  "k": "opaca"
+ },
+ "festa": {
+  "k": "regular",
+  "r": "ie-e"
+ },
+ "figli": {
+  "k": "regular",
+  "r": "j-gli"
+ },
+ "figlia": {
+  "k": "regular",
+  "r": "j-gli"
+ },
+ "figlio": {
+  "k": "regular",
+  "r": "j-gli"
+ },
+ "film": {
+  "k": "opaca"
+ },
+ "finestra": {
+  "k": "opaca"
+ },
+ "fiore": {
+  "k": "regular",
+  "r": "fl-fi"
+ },
+ "fiume": {
+  "k": "opaca"
+ },
+ "foglia": {
+  "k": "regular",
+  "r": "j-gli"
+ },
+ "foglio": {
+  "k": "regular",
+  "r": "j-gli"
+ },
+ "forchetta": {
+  "k": "opaca"
+ },
+ "foresta": {
+  "k": "opaca"
+ },
+ "formaggio": {
+  "k": "opaca"
+ },
+ "formica": {
+  "k": "regular",
+  "r": "h-f"
+ },
+ "fornello": {
+  "k": "regular",
+  "r": "h-f"
+ },
+ "forno": {
+  "k": "regular",
+  "r": "h-f"
+ },
+ "forte": {
+  "k": "regular",
+  "r": "ue-o"
+ },
+ "foto": {
+  "k": "transparente"
+ },
+ "fotografia": {
+  "k": "transparente"
+ },
+ "fragola": {
+  "k": "opaca"
+ },
+ "francese": {
+  "k": "transparente"
+ },
+ "francesi": {
+  "k": "transparente"
+ },
+ "frase": {
+  "k": "opaca"
+ },
+ "fratelli": {
+  "k": "opaca"
+ },
+ "fratello": {
+  "k": "opaca"
+ },
+ "freddo": {
+  "k": "opaca"
+ },
+ "frigorifero": {
+  "k": "opaca"
+ },
+ "frutta": {
+  "k": "regular",
+  "r": "doble"
+ },
+ "fulmine": {
+  "k": "opaca"
+ },
+ "funghi": {
+  "k": "opaca"
+ },
+ "fuoco": {
+  "k": "regular",
+  "r": "ue-uo"
+ },
+ "fuori": {
+  "k": "opaca"
+ },
+ "gallina": {
+  "k": "transparente"
+ },
+ "gamba": {
+  "k": "opaca",
+  "ff": true,
+  "n": "gamba/gambe significa pierna(s); en español 'gamba' es un camarón (crustáceo)"
+ },
+ "gambe": {
+  "k": "opaca",
+  "ff": true,
+  "n": "gamba/gambe significa pierna(s); en español 'gamba' es un camarón (crustáceo)"
+ },
+ "gatti": {
+  "k": "regular",
+  "r": "doble"
+ },
+ "gatto": {
+  "k": "regular",
+  "r": "doble"
+ },
+ "gelateria": {
+  "k": "opaca"
+ },
+ "gelato": {
+  "k": "opaca"
+ },
+ "genitori": {
+  "k": "opaca"
+ },
+ "gente": {
+  "k": "transparente"
+ },
+ "gentile": {
+  "k": "opaca"
+ },
+ "ghiaccio": {
+  "k": "opaca"
+ },
+ "giacca": {
+  "k": "opaca"
+ },
+ "gialla": {
+  "k": "opaca"
+ },
+ "giallo": {
+  "k": "opaca"
+ },
+ "giapponese": {
+  "k": "regular",
+  "r": "otro",
+  "n": "japonés→giapponese (j→gi)"
+ },
+ "giardino": {
+  "k": "regular",
+  "r": "otro",
+  "n": "jardín→giardino (j→gi)"
+ },
+ "giocattolo": {
+  "k": "opaca"
+ },
+ "gioia": {
+  "k": "opaca"
+ },
+ "gioielleria": {
+  "k": "regular",
+  "r": "otro",
+  "n": "joyería→gioielleria (j→gi)"
+ },
+ "giornale": {
+  "k": "opaca"
+ },
+ "giorni": {
+  "k": "opaca"
+ },
+ "giorno": {
+  "k": "opaca"
+ },
+ "giovane": {
+  "k": "regular",
+  "r": "otro",
+  "n": "joven→giovane (j→gi)"
+ },
+ "giovedì": {
+  "k": "regular",
+  "r": "otro",
+  "n": "jueves→giovedì (j→gi, ue→o)"
+ },
+ "giugno": {
+  "k": "regular",
+  "r": "otro",
+  "n": "junio→giugno (j→gi, ni→gn)"
+ },
+ "già": {
+  "k": "opaca"
+ },
+ "gnocchi": {
+  "k": "regular",
+  "r": "n-gn"
+ },
+ "gomma": {
+  "k": "regular",
+  "r": "doble"
+ },
+ "gonna": {
+  "k": "opaca"
+ },
+ "gradi": {
+  "k": "transparente"
+ },
+ "grammatica": {
+  "k": "regular",
+  "r": "doble"
+ },
+ "grande": {
+  "k": "transparente"
+ },
+ "grassa": {
+  "k": "opaca"
+ },
+ "grasso": {
+  "k": "opaca"
+ },
+ "grazie": {
+  "k": "regular",
+  "r": "otro",
+  "n": "gracias→grazie (c→z, -ias→-ie)"
+ },
+ "grigia": {
+  "k": "transparente"
+ },
+ "grigio": {
+  "k": "transparente"
+ },
+ "guanti": {
+  "k": "transparente"
+ },
+ "guanto": {
+  "k": "transparente"
+ },
+ "guerra": {
+  "k": "transparente"
+ },
+ "hobby": {
+  "k": "opaca"
+ },
+ "idea": {
+  "k": "transparente"
+ },
+ "ieri": {
+  "k": "opaca"
+ },
+ "importante": {
+  "k": "transparente"
+ },
+ "incrocio": {
+  "k": "opaca"
+ },
+ "indirizzo": {
+  "k": "opaca"
+ },
+ "infermiera": {
+  "k": "regular",
+  "r": "otro",
+  "n": "enfermera→infermiera (en-→in-)"
+ },
+ "influenza": {
+  "k": "opaca"
+ },
+ "inglese": {
+  "k": "transparente"
+ },
+ "inglesi": {
+  "k": "transparente"
+ },
+ "ingrediente": {
+  "k": "transparente"
+ },
+ "insalata": {
+  "k": "regular",
+  "r": "otro",
+  "n": "ensalada→insalata (en-→in-, d→t)"
+ },
+ "insegnante": {
+  "k": "opaca"
+ },
+ "intelligente": {
+  "k": "regular",
+  "r": "doble"
+ },
+ "inverno": {
+  "k": "regular",
+  "r": "ie-e"
+ },
+ "isola": {
+  "k": "transparente"
+ },
+ "italiana": {
+  "k": "transparente"
+ },
+ "italiane": {
+  "k": "transparente"
+ },
+ "italiani": {
+  "k": "transparente"
+ },
+ "italiano": {
+  "k": "transparente"
+ },
+ "jeans": {
+  "k": "transparente"
+ },
+ "lago": {
+  "k": "transparente"
+ },
+ "lampada": {
+  "k": "transparente"
+ },
+ "lasagne": {
+  "k": "regular",
+  "r": "n-gn"
+ },
+ "latte": {
+  "k": "regular",
+  "r": "ch-tt"
+ },
+ "laurea": {
+  "k": "opaca"
+ },
+ "lavagna": {
+  "k": "opaca"
+ },
+ "lavanderia": {
+  "k": "transparente"
+ },
+ "lavandino": {
+  "k": "opaca"
+ },
+ "lavastoviglie": {
+  "k": "opaca"
+ },
+ "lavoro": {
+  "k": "opaca"
+ },
+ "leone": {
+  "k": "transparente"
+ },
+ "lettera": {
+  "k": "opaca"
+ },
+ "lezione": {
+  "k": "regular",
+  "r": "cion-zione",
+  "n": "lección→lezione (-cción→-zione)"
+ },
+ "libertà": {
+  "k": "regular",
+  "r": "dad-ta"
+ },
+ "libreria": {
+  "k": "transparente"
+ },
+ "libro": {
+  "k": "transparente"
+ },
+ "limone": {
+  "k": "transparente"
+ },
+ "lingua": {
+  "k": "opaca"
+ },
+ "lontano": {
+  "k": "opaca"
+ },
+ "luglio": {
+  "k": "regular",
+  "r": "otro",
+  "n": "julio→luglio (ju-→lu-, -lio→-glio)"
+ },
+ "luna": {
+  "k": "transparente"
+ },
+ "lunedì": {
+  "k": "transparente"
+ },
+ "lunga": {
+  "k": "opaca"
+ },
+ "lungo": {
+  "k": "opaca"
+ },
+ "lupo": {
+  "k": "opaca"
+ },
+ "là": {
+  "k": "opaca"
+ },
+ "macchina": {
+  "k": "opaca"
+ },
+ "macchine": {
+  "k": "opaca"
+ },
+ "macelleria": {
+  "k": "opaca"
+ },
+ "madre": {
+  "k": "transparente"
+ },
+ "maestra": {
+  "k": "transparente"
+ },
+ "maestro": {
+  "k": "transparente"
+ },
+ "maglia": {
+  "k": "opaca"
+ },
+ "maglione": {
+  "k": "opaca"
+ },
+ "magra": {
+  "k": "opaca"
+ },
+ "magro": {
+  "k": "opaca"
+ },
+ "mai": {
+  "k": "opaca"
+ },
+ "maiale": {
+  "k": "opaca"
+ },
+ "malattia": {
+  "k": "opaca"
+ },
+ "mamma": {
+  "k": "transparente"
+ },
+ "mancia": {
+  "k": "opaca"
+ },
+ "mani": {
+  "k": "transparente"
+ },
+ "mano": {
+  "k": "transparente"
+ },
+ "mare": {
+  "k": "transparente"
+ },
+ "marito": {
+  "k": "transparente"
+ },
+ "marmellata": {
+  "k": "transparente"
+ },
+ "marrone": {
+  "k": "opaca",
+  "n": "En español «marrón» existe, pero en Chile el color se dice «café»."
+ },
+ "martedì": {
+  "k": "transparente"
+ },
+ "materia": {
+  "k": "transparente",
+  "n": "En Chile «materia» también es la asignatura o el contenido; la glosa usa «asignatura»."
+ },
+ "matita": {
+  "k": "opaca"
+ },
+ "mattina": {
+  "k": "opaca"
+ },
+ "medicina": {
+  "k": "opaca",
+  "n": "Existe «medicina» en español; la glosa del curso es «remedio» (en italiano «medicina» también es remedio, parentesco claro)."
+ },
+ "medico": {
+  "k": "transparente"
+ },
+ "meglio": {
+  "k": "regular",
+  "r": "j-gli"
+ },
+ "mela": {
+  "k": "opaca"
+ },
+ "melone": {
+  "k": "transparente"
+ },
+ "menù": {
+  "k": "transparente"
+ },
+ "mercato": {
+  "k": "transparente"
+ },
+ "mercoledì": {
+  "k": "regular",
+  "r": "ie-e"
+ },
+ "mese": {
+  "k": "transparente"
+ },
+ "mesi": {
+  "k": "transparente"
+ },
+ "messicana": {
+  "k": "regular",
+  "r": "otro",
+  "n": "x→ss (México se pronuncia con /s/ en italiano: messicano)."
+ },
+ "messicano": {
+  "k": "regular",
+  "r": "otro",
+  "n": "x→ss (México se pronuncia con /s/ en italiano: messicano)."
+ },
+ "metropolitana": {
+  "k": "opaca",
+  "n": "Abreviatura de «ferrovia metropolitana»; el español dice «metro»."
+ },
+ "miele": {
+  "k": "transparente"
+ },
+ "mille": {
+  "k": "transparente"
+ },
+ "minuto": {
+  "k": "transparente"
+ },
+ "moglie": {
+  "k": "opaca"
+ },
+ "molta": {
+  "k": "regular",
+  "r": "u-o"
+ },
+ "molte": {
+  "k": "regular",
+  "r": "u-o"
+ },
+ "molti": {
+  "k": "regular",
+  "r": "u-o"
+ },
+ "molto": {
+  "k": "regular",
+  "r": "u-o"
+ },
+ "moneta": {
+  "k": "transparente"
+ },
+ "montagna": {
+  "k": "regular",
+  "r": "n-gn"
+ },
+ "morte": {
+  "k": "regular",
+  "r": "ue-o"
+ },
+ "mosca": {
+  "k": "transparente"
+ },
+ "moto": {
+  "k": "transparente"
+ },
+ "mucca": {
+  "k": "opaca"
+ },
+ "museo": {
+  "k": "transparente"
+ },
+ "musica": {
+  "k": "transparente"
+ },
+ "naso": {
+  "k": "opaca"
+ },
+ "nave": {
+  "k": "opaca",
+  "n": "Existe «nave» en español (embarcación grande), pero la glosa es «barco»."
+ },
+ "nazione": {
+  "k": "regular",
+  "r": "cion-zione"
+ },
+ "nebbia": {
+  "k": "opaca"
+ },
+ "negozi": {
+  "k": "opaca"
+ },
+ "negozio": {
+  "k": "opaca"
+ },
+ "nera": {
+  "k": "transparente"
+ },
+ "nero": {
+  "k": "transparente"
+ },
+ "neve": {
+  "k": "regular",
+  "r": "ie-e"
+ },
+ "noce": {
+  "k": "regular",
+  "r": "ue-o"
+ },
+ "nonna": {
+  "k": "opaca"
+ },
+ "nonno": {
+  "k": "opaca"
+ },
+ "nono": {
+  "k": "transparente"
+ },
+ "nord": {
+  "k": "transparente"
+ },
+ "notizia": {
+  "k": "transparente"
+ },
+ "notte": {
+  "k": "regular",
+  "r": "ch-tt"
+ },
+ "nove": {
+  "k": "regular",
+  "r": "ue-o"
+ },
+ "nuova": {
+  "k": "regular",
+  "r": "ue-uo"
+ },
+ "nuovo": {
+  "k": "regular",
+  "r": "ue-uo"
+ },
+ "nuvola": {
+  "k": "opaca"
+ },
+ "nuvole": {
+  "k": "opaca"
+ },
+ "occhi": {
+  "k": "regular",
+  "r": "j-cchi"
+ },
+ "occhiali": {
+  "k": "opaca"
+ },
+ "occhio": {
+  "k": "regular",
+  "r": "j-cchi"
+ },
+ "offerta": {
+  "k": "regular",
+  "r": "doble"
+ },
+ "oggi": {
+  "k": "opaca"
+ },
+ "ogni": {
+  "k": "opaca"
+ },
+ "olio": {
+  "k": "opaca"
+ },
+ "ombrello": {
+  "k": "opaca"
+ },
+ "onda": {
+  "k": "transparente",
+  "n": "En español «onda» existe, pero la glosa es «ola» (ola de mar); «onda» se usa más para ondas de radio o de sonido."
+ },
+ "operaio": {
+  "k": "opaca"
+ },
+ "ore": {
+  "k": "transparente"
+ },
+ "orecchio": {
+  "k": "regular",
+  "r": "j-cchi"
+ },
+ "orologio": {
+  "k": "opaca"
+ },
+ "orso": {
+  "k": "transparente"
+ },
+ "ospedale": {
+  "k": "transparente"
+ },
+ "otto": {
+  "k": "regular",
+  "r": "ch-tt"
+ },
+ "ovest": {
+  "k": "transparente"
+ },
+ "pace": {
+  "k": "transparente"
+ },
+ "padella": {
+  "k": "opaca"
+ },
+ "padre": {
+  "k": "transparente"
+ },
+ "pagina": {
+  "k": "transparente"
+ },
+ "paglia": {
+  "k": "regular",
+  "r": "j-gli"
+ },
+ "pala": {
+  "k": "transparente"
+ },
+ "palla": {
+  "k": "opaca"
+ },
+ "pallone": {
+  "k": "opaca"
+ },
+ "pancia": {
+  "k": "opaca"
+ },
+ "pane": {
+  "k": "transparente"
+ },
+ "panificio": {
+  "k": "opaca"
+ },
+ "panini": {
+  "k": "opaca"
+ },
+ "panino": {
+  "k": "opaca"
+ },
+ "panna": {
+  "k": "opaca"
+ },
+ "pantaloni": {
+  "k": "transparente"
+ },
+ "parco": {
+  "k": "transparente"
+ },
+ "parete": {
+  "k": "transparente"
+ },
+ "parola": {
+  "k": "opaca"
+ },
+ "partita": {
+  "k": "opaca"
+ },
+ "passaporto": {
+  "k": "transparente"
+ },
+ "passeggiata": {
+  "k": "opaca"
+ },
+ "pasta": {
+  "k": "transparente"
+ },
+ "pasticceria": {
+  "k": "opaca"
+ },
+ "pastiglia": {
+  "k": "regular",
+  "r": "otro",
+  "n": "ll→gli (pastilla→pastiglia)."
+ },
+ "patata": {
+  "k": "opaca"
+ },
+ "patate": {
+  "k": "opaca"
+ },
+ "paura": {
+  "k": "opaca"
+ },
+ "paziente": {
+  "k": "transparente"
+ },
+ "pazienza": {
+  "k": "transparente"
+ },
+ "pecora": {
+  "k": "opaca"
+ },
+ "pelle": {
+  "k": "regular",
+  "r": "ie-e"
+ },
+ "pena": {
+  "k": "transparente"
+ },
+ "penna": {
+  "k": "opaca"
+ },
+ "pentola": {
+  "k": "opaca"
+ },
+ "pepe": {
+  "k": "opaca"
+ },
+ "pera": {
+  "k": "transparente"
+ },
+ "perché": {
+  "k": "transparente"
+ },
+ "pesce": {
+  "k": "transparente"
+ },
+ "pesche": {
+  "k": "opaca"
+ },
+ "pescheria": {
+  "k": "transparente"
+ },
+ "pettine": {
+  "k": "opaca"
+ },
+ "pianoforte": {
+  "k": "transparente"
+ },
+ "piatto": {
+  "k": "regular",
+  "r": "pl-pi"
+ },
+ "piazza": {
+  "k": "regular",
+  "r": "pl-pi"
+ },
+ "piccola": {
+  "k": "opaca"
+ },
+ "piccolo": {
+  "k": "opaca"
+ },
+ "piede": {
+  "k": "transparente"
+ },
+ "piedi": {
+  "k": "transparente"
+ },
+ "pietra": {
+  "k": "transparente"
+ },
+ "pigra": {
+  "k": "opaca"
+ },
+ "pigro": {
+  "k": "opaca"
+ },
+ "pioggia": {
+  "k": "regular",
+  "r": "ll-pi",
+  "n": "lluvia→pioggia: ll→pi (como llano→piano); el resto de la palabra cambia más."
+ },
+ "pittore": {
+  "k": "transparente"
+ },
+ "pittura": {
+  "k": "transparente"
+ },
+ "pizza": {
+  "k": "transparente"
+ },
+ "pizzeria": {
+  "k": "transparente"
+ },
+ "poca": {
+  "k": "transparente"
+ },
+ "poche": {
+  "k": "transparente"
+ },
+ "pochi": {
+  "k": "transparente"
+ },
+ "poco": {
+  "k": "transparente"
+ },
+ "poi": {
+  "k": "opaca"
+ },
+ "poliziotto": {
+  "k": "transparente"
+ },
+ "pollo": {
+  "k": "transparente"
+ },
+ "pomeriggio": {
+  "k": "opaca"
+ },
+ "pomodoro": {
+  "k": "opaca"
+ },
+ "ponte": {
+  "k": "regular",
+  "r": "ue-o"
+ },
+ "porta": {
+  "k": "regular",
+  "r": "ue-o"
+ },
+ "portafoglio": {
+  "k": "opaca"
+ },
+ "portoghese": {
+  "k": "transparente"
+ },
+ "porzione": {
+  "k": "regular",
+  "r": "cion-zione"
+ },
+ "pranzo": {
+  "k": "opaca"
+ },
+ "prego": {
+  "k": "opaca"
+ },
+ "prendiamo": {
+  "k": "opaca"
+ },
+ "prendo": {
+  "k": "opaca"
+ },
+ "prenotazione": {
+  "k": "opaca"
+ },
+ "presto": {
+  "k": "opaca"
+ },
+ "prezzo": {
+  "k": "transparente"
+ },
+ "prima": {
+  "k": "opaca"
+ },
+ "primavera": {
+  "k": "transparente"
+ },
+ "problema": {
+  "k": "transparente"
+ },
+ "professore": {
+  "k": "transparente"
+ },
+ "professoressa": {
+  "k": "transparente"
+ },
+ "profumeria": {
+  "k": "transparente"
+ },
+ "profumo": {
+  "k": "transparente"
+ },
+ "prosciutto": {
+  "k": "opaca"
+ },
+ "quaderno": {
+  "k": "transparente"
+ },
+ "quadro": {
+  "k": "transparente"
+ },
+ "quale": {
+  "k": "transparente"
+ },
+ "quando": {
+  "k": "transparente"
+ },
+ "quanto": {
+  "k": "transparente"
+ },
+ "quaranta": {
+  "k": "transparente"
+ },
+ "quartiere": {
+  "k": "opaca"
+ },
+ "quattro": {
+  "k": "transparente"
+ },
+ "quei": {
+  "k": "transparente"
+ },
+ "quel": {
+  "k": "transparente"
+ },
+ "quella": {
+  "k": "transparente"
+ },
+ "quelle": {
+  "k": "transparente"
+ },
+ "quello": {
+  "k": "transparente"
+ },
+ "questa": {
+  "k": "transparente"
+ },
+ "queste": {
+  "k": "transparente"
+ },
+ "questi": {
+  "k": "transparente"
+ },
+ "questo": {
+  "k": "transparente"
+ },
+ "qui": {
+  "k": "transparente"
+ },
+ "quindici": {
+  "k": "transparente"
+ },
+ "raffreddore": {
+  "k": "opaca"
+ },
+ "ragazza": {
+  "k": "opaca"
+ },
+ "ragazzo": {
+  "k": "opaca"
+ },
+ "rana": {
+  "k": "transparente"
+ },
+ "rasoio": {
+  "k": "opaca"
+ },
+ "regalo": {
+  "k": "transparente"
+ },
+ "ricetta": {
+  "k": "transparente"
+ },
+ "ricevuta": {
+  "k": "transparente"
+ },
+ "riso": {
+  "k": "opaca"
+ },
+ "ristorante": {
+  "k": "transparente"
+ },
+ "rivista": {
+  "k": "transparente"
+ },
+ "roccia": {
+  "k": "regular",
+  "r": "doble"
+ },
+ "rosa": {
+  "k": "transparente"
+ },
+ "rossa": {
+  "k": "opaca"
+ },
+ "rosso": {
+  "k": "opaca"
+ },
+ "russa": {
+  "k": "transparente"
+ },
+ "russo": {
+  "k": "transparente"
+ },
+ "sabato": {
+  "k": "transparente"
+ },
+ "sabbia": {
+  "k": "opaca"
+ },
+ "sacchetto": {
+  "k": "opaca"
+ },
+ "salame": {
+  "k": "transparente"
+ },
+ "saldi": {
+  "k": "opaca"
+ },
+ "sale": {
+  "k": "transparente"
+ },
+ "salute": {
+  "k": "transparente"
+ },
+ "salve": {
+  "k": "opaca"
+ },
+ "sangue": {
+  "k": "transparente"
+ },
+ "sapone": {
+  "k": "opaca"
+ },
+ "sapore": {
+  "k": "transparente"
+ },
+ "sbaglio": {
+  "k": "opaca"
+ },
+ "scarpa": {
+  "k": "opaca"
+ },
+ "scarpe": {
+  "k": "opaca"
+ },
+ "scatola": {
+  "k": "opaca"
+ },
+ "scena": {
+  "k": "transparente"
+ },
+ "schema": {
+  "k": "transparente"
+ },
+ "schermo": {
+  "k": "opaca"
+ },
+ "scherzo": {
+  "k": "opaca"
+ },
+ "schiena": {
+  "k": "opaca"
+ },
+ "sci": {
+  "k": "transparente"
+ },
+ "sciarpa": {
+  "k": "opaca"
+ },
+ "scienza": {
+  "k": "transparente"
+ },
+ "scimmia": {
+  "k": "opaca"
+ },
+ "sciocco": {
+  "k": "opaca"
+ },
+ "sciopero": {
+  "k": "opaca"
+ },
+ "sconto": {
+  "k": "regular",
+  "r": "otro",
+  "n": "des- → s-: descuento→sconto"
+ },
+ "scrittore": {
+  "k": "transparente"
+ },
+ "scuola": {
+  "k": "regular",
+  "r": "ue-uo"
+ },
+ "scusa": {
+  "k": "regular",
+  "r": "otro",
+  "n": "dis- → s-: disculpa→scusa"
+ },
+ "scusi": {
+  "k": "regular",
+  "r": "otro",
+  "n": "dis- → s-: disculpe→scusi"
+ },
+ "sedia": {
+  "k": "opaca"
+ },
+ "segretaria": {
+  "k": "transparente"
+ },
+ "segreto": {
+  "k": "transparente"
+ },
+ "semaforo": {
+  "k": "transparente"
+ },
+ "sempre": {
+  "k": "regular",
+  "r": "ie-e"
+ },
+ "sentiero": {
+  "k": "regular",
+  "r": "otro",
+  "n": "d→t y ie: sendero→sentiero"
+ },
+ "serpente": {
+  "k": "regular",
+  "r": "ie-e"
+ },
+ "sete": {
+  "k": "regular",
+  "r": "otro",
+  "n": "d final→t con -e: sed→sete"
+ },
+ "sette": {
+  "k": "regular",
+  "r": "ie-e"
+ },
+ "settimana": {
+  "k": "regular",
+  "r": "otro",
+  "n": "semana→settimana (t doble intercalada)"
+ },
+ "settimane": {
+  "k": "regular",
+  "r": "otro",
+  "n": "semana→settimana (t doble intercalada)"
+ },
+ "shampoo": {
+  "k": "transparente"
+ },
+ "signora": {
+  "k": "regular",
+  "r": "n-gn"
+ },
+ "simpatica": {
+  "k": "transparente"
+ },
+ "simpatico": {
+  "k": "transparente"
+ },
+ "sinistra": {
+  "k": "opaca"
+ },
+ "sogno": {
+  "k": "regular",
+  "r": "otro",
+  "n": "sueño→sogno: ue→o y n→gn"
+ },
+ "soldato": {
+  "k": "transparente"
+ },
+ "soldi": {
+  "k": "opaca"
+ },
+ "sole": {
+  "k": "transparente"
+ },
+ "sonno": {
+  "k": "regular",
+  "r": "ue-o"
+ },
+ "sopra": {
+  "k": "opaca"
+ },
+ "sorella": {
+  "k": "opaca"
+ },
+ "sorpresa": {
+  "k": "transparente"
+ },
+ "sotto": {
+  "k": "opaca"
+ },
+ "spaghetti": {
+  "k": "transparente"
+ },
+ "spagnola": {
+  "k": "regular",
+  "r": "n-gn"
+ },
+ "spagnole": {
+  "k": "regular",
+  "r": "n-gn"
+ },
+ "spagnoli": {
+  "k": "regular",
+  "r": "n-gn"
+ },
+ "spagnolo": {
+  "k": "regular",
+  "r": "n-gn"
+ },
+ "spalla": {
+  "k": "opaca",
+  "ff": true,
+  "n": "spalla significa 'hombro'; no es 'espalda' (= schiena)"
+ },
+ "spazzola": {
+  "k": "opaca"
+ },
+ "spazzolino": {
+  "k": "opaca"
+ },
+ "specchio": {
+  "k": "regular",
+  "r": "j-cchi"
+ },
+ "speranza": {
+  "k": "transparente"
+ },
+ "spesa": {
+  "k": "opaca"
+ },
+ "spesso": {
+  "k": "opaca"
+ },
+ "spiaggia": {
+  "k": "regular",
+  "r": "pl-pi"
+ },
+ "spinaci": {
+  "k": "transparente"
+ },
+ "sport": {
+  "k": "opaca"
+ },
+ "spremuta": {
+  "k": "opaca"
+ },
+ "spuntino": {
+  "k": "opaca"
+ },
+ "squadra": {
+  "k": "opaca"
+ },
+ "stadio": {
+  "k": "transparente"
+ },
+ "stamattina": {
+  "k": "opaca"
+ },
+ "stanotte": {
+  "k": "opaca"
+ },
+ "stanza": {
+  "k": "opaca"
+ },
+ "stasera": {
+  "k": "opaca"
+ },
+ "stazione": {
+  "k": "regular",
+  "r": "cion-zione"
+ },
+ "stella": {
+  "k": "transparente"
+ },
+ "stelle": {
+  "k": "transparente"
+ },
+ "stipendio": {
+  "k": "opaca"
+ },
+ "stivale": {
+  "k": "opaca"
+ },
+ "storia": {
+  "k": "transparente"
+ },
+ "strada": {
+  "k": "opaca"
+ },
+ "studente": {
+  "k": "transparente"
+ },
+ "studentessa": {
+  "k": "transparente"
+ },
+ "subito": {
+  "k": "opaca"
+ },
+ "successo": {
+  "k": "opaca"
+ },
+ "succo": {
+  "k": "opaca"
+ },
+ "sud": {
+  "k": "transparente"
+ },
+ "supermercato": {
+  "k": "transparente"
+ },
+ "tabaccheria": {
+  "k": "opaca"
+ },
+ "taglia": {
+  "k": "regular",
+  "r": "otro",
+  "n": "ll→gl: talla→taglia"
+ },
+ "tanta": {
+  "k": "transparente"
+ },
+ "tante": {
+  "k": "transparente"
+ },
+ "tanti": {
+  "k": "transparente"
+ },
+ "tanto": {
+  "k": "transparente"
+ },
+ "tappeto": {
+  "k": "opaca"
+ },
+ "tardi": {
+  "k": "transparente"
+ },
+ "tavolo": {
+  "k": "opaca"
+ },
+ "taxi": {
+  "k": "transparente"
+ },
+ "tazza": {
+  "k": "regular",
+  "r": "doble"
+ },
+ "teatro": {
+  "k": "transparente"
+ },
+ "tedesca": {
+  "k": "opaca"
+ },
+ "tedeschi": {
+  "k": "opaca"
+ },
+ "tedesco": {
+  "k": "opaca"
+ },
+ "telefono": {
+  "k": "transparente"
+ },
+ "televisione": {
+  "k": "regular",
+  "r": "otro",
+  "n": "-sión→-sione"
+ },
+ "temperatura": {
+  "k": "transparente"
+ },
+ "temporale": {
+  "k": "opaca",
+  "n": "'temporal' en español es otra cosa (mal tiempo prolongado); aquí es tormenta"
+ },
+ "tennis": {
+  "k": "transparente"
+ },
+ "terra": {
+  "k": "regular",
+  "r": "ie-e"
+ },
+ "testa": {
+  "k": "opaca"
+ },
+ "testo": {
+  "k": "regular",
+  "r": "x-s"
+ },
+ "tetto": {
+  "k": "opaca"
+ },
+ "tigre": {
+  "k": "transparente"
+ },
+ "tonno": {
+  "k": "opaca"
+ },
+ "topo": {
+  "k": "opaca",
+  "ff": true,
+  "n": "topo significa 'ratón'; en español 'topo' es el animal que vive bajo tierra (talpa)"
+ },
+ "torta": {
+  "k": "opaca",
+  "n": "en Chile 'torta' también se usa; la glosa del curso es 'pastel'"
+ },
+ "tosse": {
+  "k": "transparente"
+ },
+ "tovaglia": {
+  "k": "opaca"
+ },
+ "tovagliolo": {
+  "k": "opaca"
+ },
+ "traduzione": {
+  "k": "regular",
+  "r": "cion-zione"
+ },
+ "traffico": {
+  "k": "transparente"
+ },
+ "trattoria": {
+  "k": "transparente"
+ },
+ "tre": {
+  "k": "transparente"
+ },
+ "tredici": {
+  "k": "transparente"
+ },
+ "treni": {
+  "k": "transparente"
+ },
+ "treno": {
+  "k": "transparente"
+ },
+ "trenta": {
+  "k": "transparente"
+ },
+ "triste": {
+  "k": "transparente"
+ },
+ "troppa": {
+  "k": "opaca"
+ },
+ "troppe": {
+  "k": "opaca"
+ },
+ "troppi": {
+  "k": "opaca"
+ },
+ "troppo": {
+  "k": "opaca"
+ },
+ "trucco": {
+  "k": "opaca"
+ },
+ "tutto": {
+  "k": "regular",
+  "r": "otro",
+  "n": "todo→tutto: o→u y t doble"
+ },
+ "tè": {
+  "k": "transparente"
+ },
+ "uccelli": {
+  "k": "opaca"
+ },
+ "uccello": {
+  "k": "opaca"
+ },
+ "ufficio": {
+  "k": "regular",
+  "r": "otro",
+  "n": "oficina/oficio→ufficio: o→u, f doble"
+ },
+ "undici": {
+  "k": "opaca"
+ },
+ "università": {
+  "k": "regular",
+  "r": "dad-ta"
+ },
+ "uomo": {
+  "k": "opaca"
+ },
+ "uovo": {
+  "k": "regular",
+  "r": "ue-uo"
+ },
+ "uva": {
+  "k": "transparente"
+ },
+ "vacanze": {
+  "k": "regular",
+  "r": "otro",
+  "n": "vacaciones→vacanze: -ciones→-nze"
+ },
+ "valigia": {
+  "k": "opaca"
+ },
+ "valle": {
+  "k": "transparente"
+ },
+ "vasca": {
+  "k": "opaca",
+  "ff": true,
+  "n": "vasca significa 'tina/bañera'; en español 'vasca' es la mujer del País Vasco"
+ },
+ "vecchia": {
+  "k": "regular",
+  "r": "j-cchi"
+ },
+ "vecchio": {
+  "k": "regular",
+  "r": "j-cchi"
+ },
+ "venerdì": {
+  "k": "regular",
+  "r": "otro",
+  "n": "viernes→venerdì: ie→e, -s→-dì"
+ },
+ "venti": {
+  "k": "transparente"
+ },
+ "vento": {
+  "k": "regular",
+  "r": "ie-e"
+ },
+ "verde": {
+  "k": "transparente"
+ },
+ "verdura": {
+  "k": "transparente"
+ },
+ "verità": {
+  "k": "regular",
+  "r": "dad-ta"
+ },
+ "vestito": {
+  "k": "transparente"
+ },
+ "viaggi": {
+  "k": "transparente"
+ },
+ "viaggio": {
+  "k": "transparente"
+ },
+ "vicino": {
+  "k": "opaca"
+ },
+ "vino": {
+  "k": "transparente"
+ },
+ "viola": {
+  "k": "transparente"
+ },
+ "visita": {
+  "k": "opaca"
+ },
+ "viso": {
+  "k": "opaca"
+ },
+ "vita": {
+  "k": "transparente"
+ },
+ "vogliamo": {
+  "k": "opaca"
+ },
+ "voglio": {
+  "k": "opaca"
+ },
+ "vorrei": {
+  "k": "opaca"
+ },
+ "vorremmo": {
+  "k": "opaca"
+ },
+ "voto": {
+  "k": "opaca"
+ },
+ "vulcano": {
+  "k": "transparente"
+ },
+ "yogurt": {
+  "k": "transparente"
+ },
+ "zaino": {
+  "k": "opaca"
+ },
+ "zia": {
+  "k": "regular",
+  "r": "otro",
+  "n": "tía/tío→zia/zio: t→z"
+ },
+ "zio": {
+  "k": "regular",
+  "r": "otro",
+  "n": "tía/tío→zia/zio: t→z"
+ },
+ "zucchero": {
+  "k": "regular",
+  "r": "otro",
+  "n": "azúcar→zucchero: z/c→zz/cch, -ar→-ero"
+ },
+ "zuppa": {
+  "k": "regular",
+  "r": "otro",
+  "n": "sopa→zuppa: s→z, o→u, p doble"
+ }
+}

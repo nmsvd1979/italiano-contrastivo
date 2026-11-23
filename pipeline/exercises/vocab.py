@@ -4,6 +4,7 @@
 - hueco (la palabra en blanco, con la traducción de pista) y orden;
 - significado: «¿qué significa X?» con la glosa correcta y dos de otras palabras del tema (glosas distintas entre sí)."""
 import difflib
+import json
 import re
 import unicodedata
 import zlib
@@ -125,6 +126,17 @@ def gender_differs(form: str, gender: str, gloss: str) -> bool:
         return False
     es = "f" if m.group(1).lower() in ("la", "las") or (m.group(1).lower() == "el" and m.group(2).lower() in _ES_FEM_EL) else "m"
     return es != gender
+
+
+SIEVES = config.ROOT / "pipeline" / "vocab" / "sieves.json"
+RULES = {"cion-zione", "dad-ta", "ch-tt", "ll-chi", "ll-pi", "fl-fi", "pl-pi", "ie-e", "ue-o", "ue-uo", "n-gn", "j-gli", "j-cchi", "h-f", "u-o", "x-s", "doble", "inf-e", "otro"}
+
+
+@lru_cache(maxsize=1)
+def sieves() -> dict[str, dict]:
+    """Parentesco de cada palabra con el español (tamices de EuroComRom): transparente, cambio regular (con su regla) u opaca.
+    Clasificado por IA (no es verificación de un nativo) y revisado por muestreo; la lista de falsos amigos del catálogo manda sobre `ff`."""
+    return json.loads(SIEVES.read_text(encoding="utf8"))
 
 
 @lru_cache(maxsize=1)

@@ -1,4 +1,4 @@
-import { cleanup, fireEvent, render, screen } from "@testing-library/react";
+import { cleanup, fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { readFileSync } from "node:fs";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import type { Course } from "../content/load";
@@ -41,7 +41,7 @@ describe("paso «Palabras»", () => {
     const body = course.units.find((u) => u.words?.some((w) => w.form === "burro"))!;
     render(<WordsStep unit={body} onFinish={() => undefined} />);
     expect(screen.getByText("il burro")).toBeTruthy();
-    expect(screen.getAllByText(/Falso amigo: se parece a «burro»/).length).toBe(1);
+    expect(screen.getAllByText(/Falso amigo: Parece 'burro' \(animal\) pero significa mantequilla/).length).toBe(1);
   });
   it("el paso tiene duración estimada por palabra", () => {
     expect(stepSeconds(vocab, "palabras", pack)).toBe(vocab.words!.length * 15);
@@ -101,20 +101,55 @@ describe("palabras en el repaso espaciado", () => {
   });
 });
 
-describe("pantalla de repaso con una palabra", () => {
-  it("muestra la palabra, revela el significado y no dice «falso amigo»", async () => {
+describe("tamices: parentesco con el español", () => {
+  const allWords = course.units.flatMap((u) => u.words ?? []);
+  it("todas las palabras traen su tamiz y las regulares su regla", () => {
+    for (const w of allWords) expect(["transparente", "regular", "opaca"], w.form).toContain(w.sieve);
+    expect(allWords.filter((w) => w.sieve === "regular").every((w) => !!w.rule)).toBe(true);
+    expect(allWords.some((w) => w.sieve === "transparente") && allWords.some((w) => w.sieve === "opaca")).toBe(true);
+  });
+  it("el paso Palabras dice qué tan reconocible es cada palabra", () => {
+    const unit = course.units.find((u) => u.words?.some((w) => w.form === "notte"))!;
+    render(<WordsStep unit={unit} onFinish={() => undefined} />);
+    expect(screen.getAllByText(/cambio regular: ch → tt \(noche → notte\)/).length).toBeGreaterThan(0);
+  });
+  it("calibra el repaso: parecidas = cognado (intervalos largos), opacas = neutral, falsos amigos = falso amigo", async () => {
+    const { lexicalTypeOf } = await import("../state/words");
+    expect(lexicalTypeOf({ sieve: "transparente" })).toBe("cognate");
+    expect(lexicalTypeOf({ sieve: "regular" })).toBe("cognate");
+    expect(lexicalTypeOf({ sieve: "opaca" })).toBe("neutral");
+    expect(lexicalTypeOf({ sieve: "opaca", ff: true })).toBe("false_friend");
+    expect(lexicalTypeOf({})).toBe("neutral");
+  });
+  it("al terminar «Palabras» las tarjetas nacen con el tipo léxico de cada palabra", async () => {
     const { memoryStore } = await import("../state/store");
     const { addWordCards } = await import("../state/words");
+    const store = memoryStore();
+    const unit = course.units.find((u) => u.words?.some((w) => w.form === "latte") && u.words?.some((w) => w.form === "burro"))!;
+    await addWordCards(store, unit, new Date());
+    const types = new Map((await store.allCards()).map((c) => [c.id, c.lexical_type]));
+    expect(types.get("lexeme:w:burro")).toBe("false_friend");
+    expect(types.get("lexeme:w:latte")).toBe("cognate" /* parecida a «leche» por cambio regular */);
+  });
+});
+
+describe("pantalla de repaso con una palabra", () => {
+  it("pide escribir la palabra en italiano (con su artículo) desde la glosa, y la corrige", async () => {
+    const { memoryStore } = await import("../state/store");
+    const { addWordCards, withArticle } = await import("../state/words");
     const { ReviewScreen } = await import("./ReviewScreen");
     const store = memoryStore();
     const now = new Date("2026-11-20T10:00:00Z");
     await addWordCards(store, vocab, now);
     render(<ReviewScreen pack={pack} store={store} now={new Date(now.getTime() + 60_000)} />);
     const w = vocab.words![0];
-    expect((await screen.findAllByText(w.form)).length).toBeGreaterThan(0);
-    fireEvent.click(await screen.findByText("Mostrar significado"));
-    expect(screen.queryByText(/Falso amigo/)).toBeNull();
-    expect(screen.getByText(w.gloss)).toBeTruthy();
+    expect(await screen.findByText(new RegExp(`«${w.gloss.replace(/[()]/g, "\\$&")}»`))).toBeTruthy(); // se ve la glosa en español, NO la palabra italiana
+    expect(screen.queryByText(w.form)).toBeNull();
+    fireEvent.change(screen.getByLabelText("Tu respuesta"), { target: { value: withArticle(w.form, w.art) } });
+    fireEvent.click(screen.getByText("Comprobar"));
+    expect(await screen.findByText("¡Correcto!")).toBeTruthy();
+    fireEvent.click(screen.getByText("Continuar"));
+    await waitFor(async () => expect((await store.allCards()).some((c) => c.fsrs.reps === 1)).toBe(true));
   });
 });
 

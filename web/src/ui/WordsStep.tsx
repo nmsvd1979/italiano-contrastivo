@@ -2,7 +2,7 @@ import { useState } from "react";
 import type { Unit } from "../content/load";
 import { FocusHead } from "./kit/FocusHead";
 import { SpeakButton } from "./SpeakButton";
-import { falseFriendNote, GENDER_NOTE, withArticle } from "../state/words";
+import { falseFriendNote, GENDER_NOTE, sieveText, withArticle } from "../state/words";
 
 const KIND: Record<string, string> = { "m|s": "masculino", "f|s": "femenino", "m|p": "masculino plural", "f|p": "femenino plural", "-|s": "masculino y femenino", "-|p": "plural", "-|-": "no cambia" };
 
@@ -29,8 +29,9 @@ export function WordsStep({ unit, onFinish, exitHref = "#/" }: { unit: Unit; onF
             {hide && !shown.has(w.form)
               ? <button type="button" onClick={() => toggle(w.form)}>Ver significado</button>
               : <span>{w.gloss}{KIND[`${w.gender}|${w.num}`] && <small> ({KIND[`${w.gender}|${w.num}`]})</small>}
+                  {w.sieve && <small className={`sieve ${w.sieve}`}> · {sieveText(w)}</small>}
                   {w.gdiv && <small className="note"> · ⚠ {GENDER_NOTE}</small>}
-                  {w.ff && <small className="note"> · ⚠ {falseFriendNote(w.form, w.gloss)}</small>}</span>}
+                  {w.ff && <small className="note"> · ⚠ Falso amigo: {w.note ?? falseFriendNote(w.form, w.gloss).replace(/^Falso amigo: /, "")}</small>}</span>}
           </li>
         ))}
       </ul>

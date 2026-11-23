@@ -2,7 +2,7 @@ import type { Capsule } from "../generated/capsule";
 import type { Item } from "../generated/item";
 import { schemaValidator } from "./schemas";
 
-export type Lexeme = { id: string; form: string; gloss_es: string; lexical_type: "false_friend" | "neutral"; source: string; audio?: string; art?: string; gdiv?: boolean };
+export type Lexeme = { id: string; form: string; gloss_es: string; lexical_type: "false_friend" | "neutral"; source: string; audio?: string; art?: string; gdiv?: boolean; ff?: boolean };
 export type PackSentence = {
   id: string; it: string; es: string; author?: string; es_author?: string; license?: string;
   source_id?: string; es_source_id?: string; translation_kind?: "direct" | "llm"; cefr_estimate: string; audio?: string;
@@ -20,7 +20,7 @@ export type Unit = {
   parts: { descubre: string[]; practica: string[]; escucha: string[]; prueba: string[] };
   divergences: { id: string; start: number; end: number; wrong: string }[];
   readings?: string[];
-  words?: { form: string; gender: string; num: string; gloss: string; audio?: string; art?: string; gdiv?: boolean; ff?: boolean }[];
+  words?: { form: string; gender: string; num: string; gloss: string; audio?: string; art?: string; gdiv?: boolean; ff?: boolean; sieve?: "transparente" | "regular" | "opaca"; rule?: string; note?: string }[];
   ficha_es?: string;
 };
 export type ReadingSentence = { id: string; it: string; es: string; audio?: string };
