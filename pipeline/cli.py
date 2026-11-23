@@ -155,6 +155,10 @@ def main(argv: list[str] | None = None) -> int:
 
                 ri = reading_items.build_pack(args.pack_dir, Path("schemas/data/course.json"))
                 print(f"  ejercicios de lecturas: {sum(len(v) for v in ri.values())}")
+                from pipeline.exercises import speaking
+
+                sp = speaking.build_pack(args.pack_dir)
+                print(f"  habla guiada: {len(sp['roleplays'])} juegos de roles, {len(sp['tasks'])} tareas, {len(sp['alphabet']['letters'])} letras")
             elif st == "tts":
                 from pipeline.tts import generate as tg, piper_lote
 

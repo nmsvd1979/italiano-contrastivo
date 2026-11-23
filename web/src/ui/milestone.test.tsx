@@ -3,15 +3,39 @@ import { readFileSync } from "node:fs";
 import { afterEach, describe, expect, it } from "vitest";
 import type { ContentPack } from "../content/load";
 import { masterByPlacement, emptyProgress } from "../state/course";
-import { hitoId, milestoneItems, milestoneOpen, milestoneProgress, scoreMilestone } from "../state/milestone";
+import { hitoId, HITO, milestoneItems, milestoneListenSentences, milestoneOpen, milestoneProgress, milestoneWriteItems, oralPassed, scoreMilestone } from "../state/milestone";
 import { setPreview } from "../state/preview";
 import { memoryStore } from "../state/store";
 import { MilestoneScreen } from "./MilestoneScreen";
 
 afterEach(() => { cleanup(); localStorage.clear(); });
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
+const speaking = read("speaking.json");
 const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
 const NOW = new Date("2026-11-18T12:00:00.000Z");
+/** Responde bien todo el examen: elección, escribir y dictados (sale el mismo armado que usa la pantalla). */
+async function answerAll(p: ContentPack) {
+  const m = milestoneItems(p);
+  const used = new Set(m.items.map((i) => (i as { sentence_id?: string }).sentence_id).filter((x): x is string => !!x));
+  const write = milestoneWriteItems(p, "A1", used);
+  const listen = milestoneListenSentences(p, "A1", used);
+  for (const item of m.items) {
+    const good = (item as unknown as { options: { text: string; correct: boolean }[] }).options.find((o) => o.correct)!.text;
+    fireEvent.click(await screen.findByText(good));
+    fireEvent.click(await screen.findByText("Continuar"));
+  }
+  for (const w of write) {
+    fireEvent.change(await screen.findByLabelText("Tu traducción"), { target: { value: (w as { accepted_it: string[] }).accepted_it[0] } });
+    fireEvent.click(screen.getByRole("button", { name: "Comprobar" }));
+    fireEvent.click(await screen.findByText("Continuar"));
+  }
+  for (const s of listen) {
+    fireEvent.change(await screen.findByLabelText("Lo que escuchaste"), { target: { value: s.it } });
+    fireEvent.click(screen.getByRole("button", { name: "Comprobar" }));
+    fireEvent.click(await screen.findByText("Continuar"));
+  }
+}
+
 
 describe("examen de hito A1", () => {
   it("tiene 40 preguntas: 14 de léxico (35 %) y 26 de gramática y sonidos (65 %), sin repetir ítems", () => {
@@ -52,14 +76,61 @@ describe("examen de hito A1", () => {
     setPreview(true);
     render(<MilestoneScreen pack={pack} store={store} />);
     fireEvent.click(await screen.findByText("Empezar"));
-    const m = milestoneItems(pack);
-    for (const item of m.items) {
-      const good = (item as unknown as { options: { text: string; correct: boolean }[] }).options.find((o) => o.correct)!.text;
-      fireEvent.click(await screen.findByText(good));
-      fireEvent.click(await screen.findByText("Continuar"));
-    }
+    await answerAll(pack);
     expect(await screen.findByText("¡Nivel A1 completado!")).toBeTruthy();
     expect((await store.allUnits()).find((u) => u.unitId === hitoId("A1"))).toMatchObject({ completed: true, testBest: 1 });
     void masterByPlacement; void emptyProgress;
+  });
+
+  it("suma producción y escucha: 12 frases para escribir y 6 dictados, sin repetir oraciones del reconocimiento", () => {
+    const m = milestoneItems(pack);
+    const used = new Set(m.items.map((i) => (i as { sentence_id?: string }).sentence_id).filter((x): x is string => !!x));
+    const before = new Set(used);
+    const write = milestoneWriteItems(pack, "A1", used);
+    const listen = milestoneListenSentences(pack, "A1", used);
+    expect(write.length).toBe(HITO.WRITE);
+    expect(listen.length).toBe(HITO.LISTEN);
+    const ids = [...write.map((w) => (w as { sentence_id: string }).sentence_id), ...listen.map((l) => l.id)];
+    expect(new Set(ids).size).toBe(ids.length);
+    expect(ids.some((i) => before.has(i))).toBe(false);
+  });
+  it("no se aprueba con la parte de escribir bajo 50 % aunque el total supere 65 %", () => {
+    const parts = [...Array(40).fill("gram"), ...Array(12).fill("write")] as ("gram" | "write")[];
+    const answers = parts.map((p, i) => (p === "gram" ? true : i - 40 < 4)); // 44 de 52 = 85 %, pero 4 de 12 en escribir
+    expect(scoreMilestone(parts, answers)).toMatchObject({ passed: false });
+    expect(scoreMilestone(parts, parts.map((p, i) => (p === "gram" ? true : i - 40 < 6))).passed).toBe(true);
+  });
+  it("la parte oral es autoevaluación: pide la mitad de la rúbrica", () => {
+    expect(oralPassed(2, 4)).toBe(true);
+    expect(oralPassed(1, 4)).toBe(false);
+    expect(oralPassed(0, 0)).toBe(false);
+  });
+  it("con tarea oral, el examen termina en la rúbrica y solo aprueba si cumples la mitad", async () => {
+    const withOral = { ...pack, speaking } as ContentPack;
+    setPreview(true);
+    const store = memoryStore();
+    render(<MilestoneScreen pack={withOral} store={store} />);
+    fireEvent.click(await screen.findByText("Empezar"));
+    await answerAll(withOral);
+    fireEvent.click(await screen.findByRole("button", { name: /Empezar a hablar/ }));
+    fireEvent.click(await screen.findByRole("button", { name: "Terminé" }));
+    fireEvent.click(await screen.findByRole("button", { name: "Ver mi resultado" })); // 0 de 4: no cumple la rúbrica
+    expect(await screen.findByText("Todavía no")).toBeTruthy();
+    expect((await store.allUnits()).find((u) => u.unitId === hitoId("A1"))?.completed).toBeFalsy();
+  });
+  it("con tarea oral y la rúbrica cumplida, aprueba y guarda el nivel", async () => {
+    const withOral = { ...pack, speaking } as ContentPack;
+    setPreview(true);
+    const store = memoryStore();
+    render(<MilestoneScreen pack={withOral} store={store} />);
+    fireEvent.click(await screen.findByText("Empezar"));
+    await answerAll(withOral);
+    fireEvent.click(await screen.findByRole("button", { name: /Empezar a hablar/ }));
+    fireEvent.click(await screen.findByRole("button", { name: "Terminé" }));
+    for (const box of await screen.findAllByRole("checkbox")) fireEvent.click(box);
+    fireEvent.click(screen.getByRole("button", { name: "Ver mi resultado" }));
+    expect(await screen.findByText("¡Nivel A1 completado!")).toBeTruthy();
+    expect(screen.getByText(/Hablar \(autoevaluación\)/)).toBeTruthy();
+    expect((await store.allUnits()).find((u) => u.unitId === hitoId("A1"))).toMatchObject({ completed: true });
   });
 });

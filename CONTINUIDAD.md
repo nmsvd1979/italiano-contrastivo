@@ -2,6 +2,16 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-23 (6) — Bloque 2: habla guiada, hito de cuatro partes y números que faltaban
+**Hecho:**
+1. **Números:** 27 oraciones nuevas (13, 15, 16, 18, 20, 30, 40, 50; auditoría IA, no nativo) y `sedici`/`diciotto` agregados al vocabulario. Medido: ahora aparecen 13, 15, 20, 30, 40, 50 (2–6 veces). **Sigue en 0: *diciannove*** (en la base solo hay «diciannovesimo»).
+2. **Pestaña «Hablar»** (`#/hablar`, 6.ª pestaña): 8 **juegos de roles** sobre diálogos de libros abiertos ya en las lecturas (saludar con Lei/tu, presentarte, datos personales, boletería, **direcciones con Lei**, hotel, planes, pedir de beber): la app dice una voz con audio y tú respondes la otra viendo solo el español, te grabas (el audio no sale del teléfono), ves el modelo y te autoevalúas. 5 **tareas orales** con las preguntas de *Piacere!* (Conversazione: Mi presento, Descrizioni, La famiglia e la casa, La mia settimana, La mia città ideale), con rúbrica y **encargo copiable para el modo de voz de una IA gratuita**. **Alfabeto** con el nombre de las 21 letras de la tabla del libro y deletreo de tu nombre. **Frases de supervivencia** del libro (*Come si dice…?*, *Cosa vuol dire…?*, *Come si scrive?*, *Scusi*, *Mi dispiace*…). Todo suma tiempo a «Escribir y hablar».
+3. **Hito A1 de cuatro partes:** 40 de reconocimiento + **12 frases escritas desde el español (sin «mi versión también es correcta»)** + **6 dictados** + **tarea oral autoevaluada** con rúbrica (hay que cumplir la mitad). Cada parte exige ≥50 %.
+**Fuentes y honestidad:** el italiano nuevo sale de *Piacere!* (CC BY-NC-SA, leído en el navegador porque el lector automático recibe 403) y de diálogos ya presentes; se corrigió la errata «Quani»→«Quanti» y se omitieron preguntas dudosas, declarado en cada tarea. Traducciones y rúbricas: IA. **«Può ripetere?» y «Non capisco» no están en el libro: no se incluyeron** (los cubre la Biblioteca).
+**No cubierto (sigue pendiente):** un diálogo propio de bar completo (café, *Quant'è?*) y de **tiempo atmosférico** (no se encontró fuente accesible), lectura de un texto no visto dentro del hito, segunda voz para los diálogos (hoy todas las voces son la misma), y verificación por un nativo.
+**Pruebas:** Python 1233 y web 888 en verde; recorrido a 375 px del juego de roles en el navegador. **No se probó** en iPhone (grabación, micrófono, audio) ni se escucharon los audios nuevos; `tsc` no disponible.
+**Siguiente:** probar Hablar en el iPhone; completar bar y tiempo con fuente; Bloque 3 (segunda voz, fluidez, textos tipo PLIDA, distractores de 3–4 opciones).
+
 ## 2026-11-23 (5) — Bloque 1 de la auditoría de A1 (arreglos rápidos)
 **Hecho (sin prueba de nivel inicial en la app, por decisión del usuario; la ubicación solo sirve para saltar unidades que ya sabes):**
 1. Ruta de A1 reordenada: saludar y presentarte primero, verbos regulares en la posición 11, sonidos intercalados cada 4–8 unidades.

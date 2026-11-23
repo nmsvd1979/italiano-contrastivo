@@ -1,0 +1,538 @@
+{
+  "version": 1,
+  "note": "Todo el italiano de esta pantalla viene de libros abiertos (los diálogos de las lecturas y las preguntas y el alfabeto de Piacere!): la app no escribe italiano propio. Las traducciones al español y las rúbricas son de la app (IA, sin revisar por un nativo).",
+  "alphabet": {
+    "source": {
+      "book": "Piacere! Elementary Italian",
+      "authors": "Lucia Gemmani, Irene Lottini y Claudia Sartini-Rideout",
+      "license": "CC BY-NC-SA 4.0",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/chapter-1/"
+    },
+    "letters": [
+      {
+        "letter": "a",
+        "name": "a",
+        "audio": "86f7e437faa5"
+      },
+      {
+        "letter": "b",
+        "name": "bi",
+        "audio": "aab9b7bd1700"
+      },
+      {
+        "letter": "c",
+        "name": "ci",
+        "audio": "5a4fe08359c7"
+      },
+      {
+        "letter": "d",
+        "name": "di",
+        "audio": "f502e82c25bb"
+      },
+      {
+        "letter": "e",
+        "name": "e",
+        "audio": "58e6b3a414a1"
+      },
+      {
+        "letter": "f",
+        "name": "effe",
+        "audio": "7dce5e045403"
+      },
+      {
+        "letter": "g",
+        "name": "gi",
+        "audio": "fc7794c8c4e6"
+      },
+      {
+        "letter": "h",
+        "name": "acca",
+        "audio": "0191f4fd5ab3"
+      },
+      {
+        "letter": "i",
+        "name": "i",
+        "audio": "042dc4512fa3"
+      },
+      {
+        "letter": "l",
+        "name": "elle",
+        "audio": "910a90401e7b"
+      },
+      {
+        "letter": "m",
+        "name": "emme",
+        "audio": "174eab80bb98"
+      },
+      {
+        "letter": "n",
+        "name": "enne",
+        "audio": "c606cbc33c71"
+      },
+      {
+        "letter": "o",
+        "name": "o",
+        "audio": "7a81af3e591a"
+      },
+      {
+        "letter": "p",
+        "name": "pi",
+        "audio": "b02e5b66ace6"
+      },
+      {
+        "letter": "q",
+        "name": "qu",
+        "audio": "f4dd46b081ff"
+      },
+      {
+        "letter": "r",
+        "name": "erre",
+        "audio": "55544adceb7f"
+      },
+      {
+        "letter": "s",
+        "name": "esse",
+        "audio": "d77661cd826f"
+      },
+      {
+        "letter": "t",
+        "name": "ti",
+        "audio": "41c76e521817"
+      },
+      {
+        "letter": "u",
+        "name": "u",
+        "audio": "51e69892ab49"
+      },
+      {
+        "letter": "v",
+        "name": "vu",
+        "audio": "a29d050bee78"
+      },
+      {
+        "letter": "z",
+        "name": "zeta",
+        "audio": "bd2c4ee3a2d2"
+      }
+    ],
+    "missing_es": "La tabla del libro no trae j, k, w, x, y (letras de palabras extranjeras): para esas, pregunta «Come si scrive?» y pide que te las digan."
+  },
+  "roleplays": [
+    {
+      "id": "rp_saluti_formale",
+      "title": "Saludar con «Lei» y con «tu»",
+      "function_es": "Saludar y despedirte",
+      "reading": "rd_saluti",
+      "from": 0,
+      "to": 8,
+      "after": [
+        "u37"
+      ],
+      "goal_es": "Saludar a un profesor (trato formal) y presentarte a alguien de tu edad (trato informal)."
+    },
+    {
+      "id": "rp_conoscersi",
+      "title": "Presentarte y preguntar cómo está el otro",
+      "function_es": "Presentarte",
+      "reading": "rd_aspetto",
+      "from": 8,
+      "to": 11,
+      "after": [
+        "u60"
+      ],
+      "goal_es": "Decir cómo te llamas y preguntar cómo está la otra persona."
+    },
+    {
+      "id": "rp_dove_sei",
+      "title": "De dónde eres y dónde vives",
+      "function_es": "Dar y pedir datos personales",
+      "reading": "rd_dovesei",
+      "from": 0,
+      "to": 8,
+      "after": [
+        "u60",
+        "u13",
+        "u45"
+      ],
+      "goal_es": "Preguntar y responder nacionalidad, ciudad y dirección."
+    },
+    {
+      "id": "rp_dati",
+      "title": "Dar tus datos en una boletería",
+      "function_es": "Dar y pedir datos personales",
+      "reading": "rd_dati",
+      "from": 2,
+      "to": 10,
+      "after": [
+        "u13"
+      ],
+      "goal_es": "Decir tu apellido y mostrar un documento al comprar entradas."
+    },
+    {
+      "id": "rp_poste",
+      "title": "Preguntar cómo llegar a un lugar",
+      "function_es": "Preguntar direcciones (trato «Lei»)",
+      "reading": "rd_poste",
+      "from": 2,
+      "to": 11,
+      "after": [
+        "u57"
+      ],
+      "goal_es": "Pedir una información a un desconocido y entender cómo llegar."
+    },
+    {
+      "id": "rp_albergo",
+      "title": "En la recepción del hotel",
+      "function_es": "Pedir un servicio",
+      "reading": "rd_albergo",
+      "from": 2,
+      "to": 10,
+      "after": [
+        "u17"
+      ],
+      "goal_es": "Pedir las llaves de la habitación y quedar a una hora."
+    },
+    {
+      "id": "rp_stasera",
+      "title": "Qué haces esta noche",
+      "function_es": "Quedar y hablar de planes",
+      "reading": "rd_stasera",
+      "from": 0,
+      "to": 4,
+      "after": [
+        "u36"
+      ],
+      "goal_es": "Preguntar cómo está alguien y qué hace esta noche."
+    },
+    {
+      "id": "rp_bere",
+      "title": "Pedir de beber en un restaurante",
+      "function_es": "Pedir en el restaurante",
+      "reading": "rd_ristorante",
+      "from": 18,
+      "to": 29,
+      "after": [
+        "u35",
+        "u65"
+      ],
+      "goal_es": "Elegir qué beber, compartir una botella y llamar al camarero."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ht_mi_presento",
+      "title": "Mi presento",
+      "function_es": "Presentarte",
+      "level": "A1",
+      "minutes": 3,
+      "after": [
+        "u60",
+        "u13"
+      ],
+      "source": {
+        "book": "Piacere! Elementary Italian",
+        "authors": "Lucia Gemmani, Irene Lottini y Claudia Sartini-Rideout",
+        "license": "CC BY-NC-SA 4.0",
+        "url": "https://pressbooks.uiowa.edu/piacere/chapter/conversazione-mi-presento/",
+        "chapter": "Conversazione: Mi presento"
+      },
+      "intro_es": "Habla unos 60 segundos presentándote, sin leer. Saluda al principio y despídete al final. Responde estas preguntas con frases completas.",
+      "questions": [
+        {
+          "it": "Come ti chiami?",
+          "es": "¿Cómo te llamas?",
+          "audio": "32febe068f37"
+        },
+        {
+          "it": "Come si scrive il tuo nome?",
+          "es": "¿Cómo se escribe tu nombre? (deletréalo con el alfabeto italiano)",
+          "audio": "61dd91838d07"
+        },
+        {
+          "it": "Quanti anni hai?",
+          "es": "¿Cuántos años tienes?",
+          "audio": "f71c461f6a3c"
+        },
+        {
+          "it": "Di dove sei?",
+          "es": "¿De dónde eres?",
+          "audio": "f0d3263d440a"
+        },
+        {
+          "it": "Come stai?",
+          "es": "¿Cómo estás?",
+          "audio": "7d0277b3bb0f"
+        }
+      ],
+      "adaptation": "El libro escribe «Quani anni hai?»: se corrigió a «Quanti anni hai?». «Come si scrive [nome]?» se completó con «il tuo nome».",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que ya estudié: artículos (il/la), posesivos con artículo, género distinto del español.",
+        "Me escuché y las palabras con ci/ce/chi/che y las consonantes dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_descrizioni",
+      "title": "Descríbete y describe a un amigo",
+      "function_es": "Describir personas",
+      "level": "A1",
+      "minutes": 4,
+      "after": [
+        "u41",
+        "u45"
+      ],
+      "source": {
+        "book": "Piacere! Elementary Italian",
+        "authors": "Lucia Gemmani, Irene Lottini y Claudia Sartini-Rideout",
+        "license": "CC BY-NC-SA 4.0",
+        "url": "https://pressbooks.uiowa.edu/piacere/chapter/conversazione-descrizioni/",
+        "chapter": "Conversazione: Descrizioni"
+      },
+      "intro_es": "Habla hasta 2 minutos sobre ti y sobre un amigo o una amiga (puedes inventar). Usa muchos adjetivos.",
+      "questions": [
+        {
+          "it": "Come sei?",
+          "es": "¿Cómo eres? (aspecto y personalidad)",
+          "audio": "0f8ea3958289"
+        },
+        {
+          "it": "Com'è il tuo amico? / Com'è la tua amica?",
+          "es": "¿Cómo es tu amigo o amiga?",
+          "audio": "8ce87d52adc3"
+        },
+        {
+          "it": "Di che nazionalità sei?",
+          "es": "¿De qué nacionalidad eres?",
+          "audio": "9a42a9c342b3"
+        },
+        {
+          "it": "Di che nazionalità è il tuo amico? / Di che nazionalità è la tua amica?",
+          "es": "¿De qué nacionalidad es tu amigo o amiga?",
+          "audio": "ee395dadc6c7"
+        }
+      ],
+      "adaptation": "Se escribieron las dos formas, masculina y femenina, que el libro marca como «il tuo amico/la tua amica».",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que ya estudié: artículos (il/la), posesivos con artículo, género distinto del español.",
+        "Me escuché y las palabras con ci/ce/chi/che y las consonantes dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_famiglia",
+      "title": "Mi familia y mi casa",
+      "function_es": "Hablar de tu familia y tu casa",
+      "level": "A1",
+      "minutes": 4,
+      "after": [
+        "u21",
+        "u23"
+      ],
+      "source": {
+        "book": "Piacere! Elementary Italian",
+        "authors": "Lucia Gemmani, Irene Lottini y Claudia Sartini-Rideout",
+        "license": "CC BY-NC-SA 4.0",
+        "url": "https://pressbooks.uiowa.edu/piacere/chapter/conversazione-la-famiglia-e-la-casa/",
+        "chapter": "Conversazione: La famiglia e la casa"
+      },
+      "intro_es": "Habla 2–3 minutos de tu familia y de tu casa. Si prefieres no hablar de lo personal, usa una familia inventada o de una serie.",
+      "questions": [
+        {
+          "it": "Quante persone ci sono nella tua famiglia?",
+          "es": "¿Cuántas personas hay en tu familia?",
+          "audio": "06aaf0abe576"
+        },
+        {
+          "it": "Chi sono e come sono?",
+          "es": "¿Quiénes son y cómo son?",
+          "audio": "a2a0afe2c57e"
+        },
+        {
+          "it": "Che cosa fate insieme?",
+          "es": "¿Qué hacen juntos?",
+          "audio": "b4cbec12fd53"
+        },
+        {
+          "it": "Com'è la vostra casa?",
+          "es": "¿Cómo es su casa?",
+          "audio": "a4bd341e21b8"
+        }
+      ],
+      "adaptation": "Se omitió «Che attività fanno queste persone?» (necesita vocabulario de A2).",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que ya estudié: artículos (il/la), posesivos con artículo, género distinto del español.",
+        "Me escuché y las palabras con ci/ce/chi/che y las consonantes dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_settimana",
+      "title": "Mi semana",
+      "function_es": "Hablar de tu rutina",
+      "level": "A1",
+      "minutes": 5,
+      "after": [
+        "u59",
+        "u25",
+        "u36"
+      ],
+      "source": {
+        "book": "Piacere! Elementary Italian",
+        "authors": "Lucia Gemmani, Irene Lottini y Claudia Sartini-Rideout",
+        "license": "CC BY-NC-SA 4.0",
+        "url": "https://pressbooks.uiowa.edu/piacere/chapter/conversazione-la-mia-settimana/",
+        "chapter": "Conversazione: La mia settimana"
+      },
+      "intro_es": "Habla 2–3 minutos de tu semana: qué haces, a qué hora y en tu tiempo libre.",
+      "questions": [
+        {
+          "it": "Che cosa fai durante la settimana?",
+          "es": "¿Qué haces durante la semana?",
+          "audio": "0c4999e7475e"
+        },
+        {
+          "it": "Che cosa fai nel tempo libero?",
+          "es": "¿Qué haces en tu tiempo libre?",
+          "audio": "9f12d5be0088"
+        },
+        {
+          "it": "Quando vai in vacanza?",
+          "es": "¿Cuándo vas de vacaciones?",
+          "audio": "e4c59276592f"
+        },
+        {
+          "it": "Quando è il tuo compleanno?",
+          "es": "¿Cuándo es tu cumpleaños?",
+          "audio": "58a35ab797ef"
+        }
+      ],
+      "adaptation": "Se omitieron «Con chi spendi il tempo libero?» (giro poco natural en italiano), las preguntas sobre clases del semestre y las de vacaciones en pasado.",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que ya estudié: artículos (il/la), posesivos con artículo, género distinto del español.",
+        "Me escuché y las palabras con ci/ce/chi/che y las consonantes dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_citta",
+      "title": "Mi ciudad ideal",
+      "function_es": "Describir un lugar y dónde está todo",
+      "level": "A1",
+      "minutes": 5,
+      "after": [
+        "u24",
+        "u57"
+      ],
+      "source": {
+        "book": "Piacere! Elementary Italian",
+        "authors": "Lucia Gemmani, Irene Lottini y Claudia Sartini-Rideout",
+        "license": "CC BY-NC-SA 4.0",
+        "url": "https://pressbooks.uiowa.edu/piacere/chapter/conversazione-la-mia-citta-ideale/",
+        "chapter": "Conversazione: La mia città ideale"
+      },
+      "intro_es": "Habla 2–3 minutos de una ciudad real o inventada: qué edificios hay y dónde están. Si te ayuda, dibuja un mapa.",
+      "questions": [
+        {
+          "it": "Quali edifici ci sono?",
+          "es": "¿Qué edificios hay?",
+          "audio": "b78300069bcc"
+        },
+        {
+          "it": "Dov'è il museo?",
+          "es": "¿Dónde está el museo? (cambia «museo» por otro edificio)",
+          "audio": "64d198bbf2b9"
+        },
+        {
+          "it": "Dove puoi andare in questa città?",
+          "es": "¿A dónde puedes ir en esta ciudad?",
+          "audio": "a01bd5be72a6"
+        },
+        {
+          "it": "Quali sono i tuoi luoghi preferiti?",
+          "es": "¿Cuáles son tus lugares favoritos?",
+          "audio": "626ad493ff54"
+        }
+      ],
+      "adaptation": "El libro escribe «Dov'è (name of building)?»: se usó «il museo» como ejemplo. Se omitieron las preguntas sobre trabajo y actividades.",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que ya estudié: artículos (il/la), posesivos con artículo, género distinto del español.",
+        "Me escuché y las palabras con ci/ce/chi/che y las consonantes dobles sonaron como en el modelo."
+      ]
+    }
+  ],
+  "phrases": {
+    "title": "Frases para no quedarte callado",
+    "source": {
+      "book": "Piacere! Elementary Italian",
+      "authors": "Lucia Gemmani, Irene Lottini y Claudia Sartini-Rideout",
+      "license": "CC BY-NC-SA 4.0",
+      "url": "https://pressbooks.uiowa.edu/piacere/chapter/2-i-saluti/",
+      "chapter": "I saluti (Domande e espressioni utili)"
+    },
+    "intro_es": "Las del libro para pedir aclaraciones y ser cortés. Tápalas, di la frase en italiano a partir del español y compruébala.",
+    "missing_es": "El libro no trae «Può ripetere?» ni «Non capisco»: no se incluyeron para no inventar italiano. Aprende esas dos con un recurso de la Biblioteca.",
+    "items": [
+      {
+        "it": "Come si dice...?",
+        "es": "¿Cómo se dice...?",
+        "audio": "73d40a0671b7"
+      },
+      {
+        "it": "Cosa vuol dire...?",
+        "es": "¿Qué significa...?",
+        "audio": "71d5dc2c169f"
+      },
+      {
+        "it": "Come si scrive?",
+        "es": "¿Cómo se escribe?",
+        "audio": "30a8ce7c294c"
+      },
+      {
+        "it": "Scusi",
+        "es": "Disculpe (trato formal)",
+        "audio": "e44954bdda8b"
+      },
+      {
+        "it": "Scusa",
+        "es": "Disculpa (trato informal)",
+        "audio": "599e37fdafdb"
+      },
+      {
+        "it": "Mi dispiace",
+        "es": "Lo siento",
+        "audio": "b2ad87df9dfb"
+      },
+      {
+        "it": "Per favore",
+        "es": "Por favor",
+        "audio": "556ce59e704b"
+      },
+      {
+        "it": "Per piacere",
+        "es": "Por favor (otra forma)",
+        "audio": "b0383ef3841a"
+      },
+      {
+        "it": "Prego",
+        "es": "De nada / adelante",
+        "audio": "7732a2f9868a"
+      },
+      {
+        "it": "Come sta?",
+        "es": "¿Cómo está? (trato formal)",
+        "audio": "2340d42691e2"
+      },
+      {
+        "it": "Come stai?",
+        "es": "¿Cómo estás? (trato informal)",
+        "audio": "7d0277b3bb0f"
+      }
+    ]
+  }
+}

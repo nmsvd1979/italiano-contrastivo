@@ -2,6 +2,7 @@ const TABS = [
   { href: "#/", ico: "●", label: "Hoy", match: (h: string) => h === "#/" || h === "" || h === "#" },
   { href: "#/ruta", ico: "☰", label: "Ruta", match: (h: string) => h.startsWith("#/ruta") || h.startsWith("#/unidad") },
   { href: "#/escribir", ico: "✎", label: "Escribir", match: (h: string) => h.startsWith("#/escribir") },
+  { href: "#/hablar", ico: "🎙", label: "Hablar", match: (h: string) => h.startsWith("#/hablar") },
   { href: "#/biblioteca", ico: "📚", label: "Biblioteca", match: (h: string) => h.startsWith("#/biblioteca") },
   { href: "#/ajustes", ico: "⚙", label: "Ajustes", match: (h: string) => h.startsWith("#/ajustes") || h.startsWith("#/acerca") },
 ];

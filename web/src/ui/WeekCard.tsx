@@ -22,7 +22,7 @@ export function WeekCard({ week }: { week: Seconds }) {
           </li>
         ))}
       </ul>
-      {low && <p><small>La que menos trabajas esta semana es «{STRAND_LABEL[low]}». Un curso equilibrado reparte el tiempo en partes parecidas (guía de Nation, orientativa). La app cubre sobre todo «Estudiar la lengua»: entender y fluidez se completan con exposición fuera de ella: mira la <a href="#/biblioteca">Biblioteca</a>.</small></p>}
+      {low && <p><small>La que menos trabajas esta semana es «{STRAND_LABEL[low]}». Un curso equilibrado reparte el tiempo en partes parecidas (guía de Nation, orientativa). La app cubre sobre todo «Estudiar la lengua»: entender y fluidez se completan con exposición fuera de ella: mira la <a href="#/biblioteca">Biblioteca</a>. Para «Escribir y hablar», practica la voz en <a href="#/hablar">Hablar</a> y escribe en <a href="#/escribir">Escribir</a>.</small></p>}
     </section>
   );
 }

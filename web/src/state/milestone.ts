@@ -1,12 +1,17 @@
-import type { ContentPack, Unit } from "../content/load";
+import type { ContentPack, PackSentence, SpeakingTask, Unit } from "../content/load";
 import type { Item } from "../generated/item";
 import { emptyProgress } from "./course";
 import type { UnitProgress } from "./store";
 import { recognitionItems } from "./steps";
+import { writeItemOf } from "./write";
 
-/** Examen de hito (fuentes): A1 pondera 35 % léxico / 65 % gramática. Se aprueba con ≥65 % global y ≥50 % en cada parte. */
-export const HITO = { A1: { lex: 0.35, total: 40 }, PASS_GLOBAL: 0.65, PASS_PART: 0.5 } as const;
-export type Part = "lex" | "gram";
+/**
+ * Examen de hito (fuentes): A1 pondera 35 % léxico / 65 % gramática en las 40 preguntas de reconocimiento. Desde 2026-11-23 suma
+ * producción (12 frases escritas desde el español, sin «mi versión también es correcta»), escucha (6 dictados) y una tarea oral
+ * autoevaluada con rúbrica. Se aprueba con ≥65 % global y ≥50 % en cada parte, y la parte oral exige cumplir la mitad de la rúbrica.
+ */
+export const HITO = { A1: { lex: 0.35, total: 40 }, WRITE: 12, LISTEN: 6, PASS_GLOBAL: 0.65, PASS_PART: 0.5, PASS_ORAL: 0.5 } as const;
+export type Part = "lex" | "gram" | "write" | "listen";
 export const partOf = (u: Unit): Part => (u.codes[0].startsWith("ERR_VOC_") ? "lex" : "gram");
 export const hitoId = (level: string) => `hito:${level}`;
 
@@ -34,14 +39,47 @@ export function milestoneItems(pack: ContentPack, level = "A1"): MilestoneItems 
   return out;
 }
 
+/** Elige `n` unidades repartidas por toda la ruta del nivel (no solo las primeras); `shift` desplaza la elección para no coincidir con otra parte. */
+const spreadUnits = (units: Unit[], n: number, shift = 0.5): Unit[] =>
+  units.length <= n ? units : Array.from({ length: n }, (_, i) => units[Math.min(units.length - 1, Math.floor(((i + shift) * units.length) / n))]);
+
+/** Producción: una frase por unidad, escrita desde el español, de las reservadas de la prueba y distinta de las que ya salieron como reconocimiento. */
+export function milestoneWriteItems(pack: ContentPack, level = "A1", used: Set<string> = new Set()): Item[] {
+  const sentences = new Map(pack.sentences.map((s) => [s.id, s]));
+  const units = pack.course.units.filter((u) => u.level === level);
+  const out: Item[] = [];
+  for (const u of spreadUnits(units, HITO.WRITE, 0.5)) {
+    const s = u.parts.prueba.map((id) => sentences.get(id)).find((x): x is PackSentence => !!x && !used.has(x.id) && x.it.split(/\s+/).length <= 10);
+    if (s) { out.push(writeItemOf(s, u.codes[0])); used.add(s.id); }
+  }
+  return out;
+}
+
+/** Escucha: dictados de oraciones de «Escucha» de unidades repartidas (otras unidades y otras frases que las de producción). */
+export function milestoneListenSentences(pack: ContentPack, level = "A1", used: Set<string> = new Set()): PackSentence[] {
+  const sentences = new Map(pack.sentences.map((s) => [s.id, s]));
+  const out: PackSentence[] = [];
+  for (const u of spreadUnits(pack.course.units.filter((x) => x.level === level), HITO.LISTEN, 0.15)) {
+    const s = u.parts.escucha.map((id) => sentences.get(id)).find((x): x is PackSentence => !!x && !!x.audio && !used.has(x.id) && x.it.split(/\s+/).length <= 9);
+    if (s) { out.push(s); used.add(s.id); }
+  }
+  return out;
+}
+
+/** Tarea oral del hito: la primera del nivel (se autoevalúa con su rúbrica). */
+export const milestoneOralTask = (pack: ContentPack, level = "A1"): SpeakingTask | undefined => pack.speaking?.tasks.find((t) => t.level === level);
+
 export function scoreMilestone(parts: Part[], answers: boolean[]) {
   const tally = (p: Part) => ({ correct: answers.filter((a, i) => a && parts[i] === p).length, total: parts.filter((x) => x === p).length });
-  const lex = tally("lex"), gram = tally("gram");
+  const lex = tally("lex"), gram = tally("gram"), write = tally("write"), listen = tally("listen");
   const total = answers.length ? answers.filter(Boolean).length / answers.length : 0;
   const ratio = (t: { correct: number; total: number }) => (t.total ? t.correct / t.total : 1);
-  const passed = total >= HITO.PASS_GLOBAL && ratio(lex) >= HITO.PASS_PART && ratio(gram) >= HITO.PASS_PART;
-  return { lex, gram, total, passed };
+  const passed = total >= HITO.PASS_GLOBAL && [lex, gram, write, listen].every((t) => ratio(t) >= HITO.PASS_PART);
+  return { lex, gram, write, listen, total, passed };
 }
+
+/** La parte oral es autoevaluación: se pasa cumpliendo la mitad de la rúbrica. */
+export const oralPassed = (checked: number, total: number): boolean => total > 0 && checked / total >= HITO.PASS_ORAL;
 
 export const milestoneProgress = (prev: UnitProgress | undefined, level: string, score: number, passed: boolean, now: Date): UnitProgress => {
   const p = prev ?? emptyProgress(hitoId(level));

@@ -41,6 +41,20 @@ export type Resource = {
   strand: "entrada" | "foco" | "fluidez";            // a qué hebra suma el tiempo que registres
   note: string; task: string; warning?: string; verified: string;
 };
+/** Habla guiada (`speaking.json`): juegos de roles sobre diálogos de las lecturas, tareas orales del libro y el alfabeto. */
+export type SpeakingQuestion = { it: string; es: string; audio?: string };
+export type RolePlay = { id: string; title: string; function_es: string; reading: string; from: number; to: number; after: string[]; goal_es: string };
+export type SpeakingTask = {
+  id: string; title: string; function_es: string; level: string; minutes: number; after: string[]; intro_es: string; adaptation: string;
+  source: { book: string; authors: string; url: string; license: string; chapter: string };
+  questions: SpeakingQuestion[]; checklist_es: string[];
+};
+export type Speaking = {
+  version: number; note: string;
+  alphabet: { source: { book: string; authors: string; url: string; license: string }; letters: { letter: string; name: string; audio?: string }[]; missing_es: string };
+  phrases?: { title: string; intro_es: string; missing_es: string; source: { book: string; authors: string; url: string; license: string; chapter: string }; items: SpeakingQuestion[] };
+  roleplays: RolePlay[]; tasks: SpeakingTask[];
+};
 export type PlannedUnit = { level: string; title: string; reason: string };
 export type Course = { version: number; levels: { id: string; title: string; guided_hours: string }[]; units: Unit[]; planned: PlannedUnit[] };
 export type ContentPack = {
@@ -52,6 +66,7 @@ export type ContentPack = {
   /** Glosa y tamiz de cada palabra de las lecturas (clasificado por IA). */
   readingWords?: Record<string, ReadingWord>;
   library?: Resource[];
+  speaking?: Speaking | null;
   capsules: Capsule[];
   itemsByCode: Record<string, Item[]>;
   lexemes: Lexeme[];
@@ -84,7 +99,7 @@ async function getJson<T>(fetcher: Fetcher, base: string, file: string): Promise
 }
 
 export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: string = import.meta.env.BASE_URL ?? "/"): Promise<ContentPack> {
-  const [capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems, readingWords, library] = await Promise.all([
+  const [capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems, readingWords, library, speaking] = await Promise.all([
     getJson<Capsule[]>(fetcher, base, "capsules.json"),
     getJson<Record<string, Item[]>>(fetcher, base, "items_by_code.json"),
     getJson<Lexeme[]>(fetcher, base, "lexemes.json"),
@@ -95,6 +110,7 @@ export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: stri
     getJson<Record<string, Item[]>>(fetcher, base, "reading_items.json").catch((): Record<string, Item[]> => ({})),
     getJson<Record<string, ReadingWord>>(fetcher, base, "reading_words.json").catch((): Record<string, ReadingWord> => ({})),
     getJson<Resource[]>(fetcher, base, "library.json").catch((): Resource[] => []),
+    getJson<Speaking | null>(fetcher, base, "speaking.json").catch((): Speaking | null => null),
   ]);
   const vCapsule = schemaValidator("capsule");
   const vItem = schemaValidator("item");
@@ -113,5 +129,5 @@ export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: stri
   }
   const rd = new Set(readings.map((r) => r.id));
   for (const u of course.units) for (const id of u.readings ?? []) if (!rd.has(id)) throw new ContentError(`La unidad ${u.id} usa una lectura que no está en el paquete (${id}).`);
-  return { capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems, readingWords, library };
+  return { capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems, readingWords, library, speaking };
 }

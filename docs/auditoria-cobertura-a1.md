@@ -40,9 +40,9 @@ Fichas contrastivas claras y dirigidas a calcos reales; práctica de recuperaci�
 6. **Prueba automática de alineación:** ≥60 % de las oraciones de práctica, prueba y cápsula de cada unidad contienen la forma objetivo; corregir u65, u57, u35, u33.
 
 **Bloque 2 — Lo que hace que sirva para *hablar* (esfuerzo medio/alto)**
-7. **Unidades funcionales con diálogos de los libros abiertos** (no de Tatoeba): pedir aclaraciones, alfabeto y deletreo, datos personales (preguntar y responder), tiempo atmosférico, direcciones con la forma de Lei, pedir en el bar completo. Ejercicios a mano, marcados `needs_review`.
-8. **Una «tarea hablada» por unidad funcional:** guion con turnos, grabarse respondiendo, comparar con el modelo y encargo listo para el modo de voz de una IA gratuita, con registro de minutos.
-9. **Hito en 4 partes:** lectura de un texto no visto, escucha, 12 frases ES→IT sin autoaprobación y una tarea oral con rúbrica.
+7. *(2026-11-23: hecho en parte como pestaña «Hablar»; faltan bar completo y tiempo atmosférico por falta de fuente)* **Unidades funcionales con diálogos de los libros abiertos** (no de Tatoeba): pedir aclaraciones, alfabeto y deletreo, datos personales (preguntar y responder), tiempo atmosférico, direcciones con la forma de Lei, pedir en el bar completo. Ejercicios a mano, marcados `needs_review`.
+8. *(hecho: 5 tareas orales + 8 juegos de roles)* **Una «tarea hablada» por unidad funcional:** guion con turnos, grabarse respondiendo, comparar con el modelo y encargo listo para el modo de voz de una IA gratuita, con registro de minutos.
+9. *(hecho salvo la lectura de un texto no visto)* **Hito en 4 partes:** lectura de un texto no visto, escucha, 12 frases ES→IT sin autoaprobación y una tarea oral con rúbrica.
 
 **Bloque 3 — Calidad a mediano plazo**
 10. Segunda voz Piper italiana (verificar licencia) para diálogos; paso de fluidez (releer/reescuchar a velocidad creciente); textos tipo PLIDA (menú, cartel, horario, sms); distractores de 3–4 opciones con calcos reales; revisión nativa por muestreo.
