@@ -2,6 +2,15 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-23 (11) — Investigación de métodos y veredicto sobre la estructura de la app
+**Pregunta del usuario:** ¿la app se está dispersando en «otros modos»? ¿Debe seguir lo construido, su propuesta original (módulos en cápsulas) u otra cosa? Informe completo en `docs/metodos-y-estructura-de-la-app.md` (5 frentes de investigación; varias fuentes clásicas quedaron sin verificar por bloqueos y se declaran).
+**Veredicto (deducido de principios y de cómo están hechos sílabos y manuales; ningún estudio compara estas arquitecturas directamente):**
+- La sospecha es correcta en lo esencial: los ingredientes de «Hablar» y «Escribir» son los correctos, pero **viven fuera de la ruta y son opcionales**, y la ruta practica oraciones sueltas ordenadas por código de error, no por situación comunicativa.
+- Desproporción: 51 unidades en A1 y 5 más allá, cuando los cursos para hispanohablantes dan a A1+A2 cerca de un tercio de las horas.
+- Estructura recomendada: **unas 10 unidades temáticas por nivel** (situación + función), cada una con 4–5 sesiones cortas y un ciclo de 9 pasos (texto real → notar → palabras → 1–3 cápsulas de contraste → práctica en bloque y mezclada → escucha → tarea de salida escrita y oral → fluidez → cierre «sé hacer» + prueba). Las unidades atómicas actuales pasan a ser **cápsulas dentro de módulos temáticos**: es el esqueleto de la propuesta original con el ciclo actual. Fuera de la ruta quedan solo Repaso, Biblioteca y Consulta/Progreso.
+- Dejar de hacer: abrir modos nuevos, sumar unidades sueltas de A1, medir avance por unidades cerradas.
+**Pendiente de decisión del usuario:** aprobar el rediseño. Antes de planificar B1–B2 hay que comprobar si existe material real suficiente (no inventado) para unidades temáticas en esos niveles.
+
 ## 2026-11-23 (10) — Capítulos pendientes: diálogo de trattoria y frases de clase, tiempo, restaurante y tienda
 **Hallazgos (leídos en el navegador, licencia citada de la página):**
 - ***Tutt\* a tavola! vol. 2*** (UMass, CC BY-NC 4.0), cap. 11, ejercicio B: **diálogo real en una trattoria** (Cameriere, Tommaso, Madison): pedir entrada, primero, segundo y bebida, cambiar el pedido y pedir la cuenta. Entra como lectura `rd_trattoria` (13 réplicas, 6 preguntas, 29 palabras clasificadas) y como **juego de roles** «Ordenar en una trattoria y pedir la cuenta» (con las dos voces Piper). Se omitieron réplicas de nivel mayor y se declara.
