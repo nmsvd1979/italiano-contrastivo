@@ -7612,24 +7612,24 @@
     "id": "cap_err_voc_numeri",
     "retrieval": [
       {
-        "id": "it_choice_s_1307429_ERR_VOC_NUMERI",
+        "id": "it_choice_s_1577912_ERR_VOC_NUMERI",
         "listen": true,
         "options": [
           {
             "correct": true,
-            "text": "Io ho tre cugini."
+            "text": "Io ho due occhi."
           },
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_NUMERI",
-            "text": "Io ho cinquanta cugini."
+            "text": "Io ho tredici occhi."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1307429",
+        "sentence_id": "s_1577912",
         "target_error_codes": [
           "ERR_VOC_NUMERI"
         ],
@@ -7637,17 +7637,79 @@
       },
       {
         "answers": [
-          "otto"
+          "tre"
         ],
-        "hint_es": "Él tiene ocho años.",
-        "id": "it_cloze_s_2808996_ERR_VOC_NUMERI",
+        "hint_es": "Tengo tres primos.",
+        "id": "it_cloze_s_1307429_ERR_VOC_NUMERI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1307429",
+        "target_error_codes": [
+          "ERR_VOC_NUMERI"
+        ],
+        "text": "Io ho ___ cugini.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Lui",
+          "ha",
+          "otto",
+          "anni."
+        ],
+        "id": "it_reorder_s_2808996_ERR_VOC_NUMERI",
+        "prompt_es": "Ordena las palabras: «Él tiene ocho años.»",
         "requires_server": false,
         "review_status": "validated",
         "sentence_id": "s_2808996",
         "target_error_codes": [
           "ERR_VOC_NUMERI"
         ],
-        "text": "Lui ha ___ anni.",
+        "tokens": [
+          "otto",
+          "anni.",
+          "Lui",
+          "ha"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_374689_ERR_VOC_NUMERI",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_NUMERI",
+            "text": "Ho dodici anni."
+          },
+          {
+            "correct": true,
+            "text": "Ho diciotto anni."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_374689",
+        "target_error_codes": [
+          "ERR_VOC_NUMERI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "tredici"
+        ],
+        "hint_es": "Tengo trece gatos.",
+        "id": "it_cloze_s_4470818_ERR_VOC_NUMERI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4470818",
+        "target_error_codes": [
+          "ERR_VOC_NUMERI"
+        ],
+        "text": "Ho ___ gatti.",
         "type": "cloze"
       },
       {
@@ -7666,74 +7728,10 @@
           "ERR_VOC_NUMERI"
         ],
         "tokens": [
-          "Ken",
           "gatti.",
           "due",
+          "Ken",
           "ha"
-        ],
-        "type": "reorder"
-      },
-      {
-        "id": "it_choice_s_13385319_ERR_VOC_NUMERI",
-        "listen": true,
-        "options": [
-          {
-            "correct": false,
-            "distractor_kind": "different_word",
-            "error_code": "ERR_VOC_NUMERI",
-            "text": "Sono le diciassette e mezza."
-          },
-          {
-            "correct": true,
-            "text": "Sono le due e mezza."
-          }
-        ],
-        "prompt_es": "Escucha la frase y elige cómo se escribe.",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_13385319",
-        "target_error_codes": [
-          "ERR_VOC_NUMERI"
-        ],
-        "type": "choice_l1_distractor"
-      },
-      {
-        "answers": [
-          "diciassette"
-        ],
-        "hint_es": "Tiene diecisiete años.",
-        "id": "it_cloze_s_5030703_ERR_VOC_NUMERI",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_5030703",
-        "target_error_codes": [
-          "ERR_VOC_NUMERI"
-        ],
-        "text": "Ha ___ anni.",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Sono",
-          "le",
-          "nove",
-          "e",
-          "mezza."
-        ],
-        "id": "it_reorder_s_4729152_ERR_VOC_NUMERI",
-        "prompt_es": "Ordena las palabras: «Son las nueve y media.»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_4729152",
-        "target_error_codes": [
-          "ERR_VOC_NUMERI"
-        ],
-        "tokens": [
-          "le",
-          "nove",
-          "e",
-          "Sono",
-          "mezza."
         ],
         "type": "reorder"
       }
@@ -7744,13 +7742,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Io ho due occhi."
+        "Ha venti figli."
       ],
-      "id": "it_translate_s_1577912_ERR_VOC_NUMERI",
+      "id": "it_translate_s_3338386_ERR_VOC_NUMERI",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_1577912",
-      "source_es": "Tengo dos ojos.",
+      "sentence_id": "s_3338386",
+      "source_es": "Tiene veinte hijos.",
       "target_error_codes": [
         "ERR_VOC_NUMERI"
       ],

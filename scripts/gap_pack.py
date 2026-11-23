@@ -3,7 +3,7 @@ cubren lo que falta, con el mismo formato que `scripts/capsule_pack.py` (luego: 
 
   persons   presente con sujeto tu / noi / voi / loro (casi no se practicaban en las unidades de verbos)
   months    meses del año (solo había 5 de 12)
-  numbers   números 14, 17, 19 y 60–90
+  numbers   números 13, 15, 16, 20, 30, 40 y 50 (segunda tanda; la primera cubrió 14, 17, 19 y 60–90)
 
 Uso: python scripts/gap_pack.py persons|months|numbers [por_grupo]"""
 import json
@@ -25,7 +25,7 @@ PER = int(sys.argv[2]) if len(sys.argv) > 2 else 8
 OUT = ROOT / "data/work/capsules"
 OUT.mkdir(parents=True, exist_ok=True)
 MONTHS = "gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre".split()
-NUMS = "quattordici diciassette diciannove sessanta settanta ottanta novanta".split()
+NUMS = "sedici diciotto diciannove".split()
 SUBJECTS = ("tu", "noi", "voi", "loro")
 
 auth = sqlite3.connect(f"file:{ROOT/'data/work/authoring.db'}?mode=ro", uri=True)

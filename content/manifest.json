@@ -16,7 +16,7 @@
     "Eldad": 2,
     "Emmanuel_Maldini": 1,
     "Gloria7": 2,
-    "Guybrush88": 1783,
+    "Guybrush88": 1805,
     "Heracleum": 15,
     "IdiomHunter": 3,
     "JLGQ_": 3,
@@ -26,7 +26,7 @@
     "Nadialene": 1,
     "Nuel": 8,
     "PazEr": 1,
-    "Pharamp": 272,
+    "Pharamp": 273,
     "Ricardo14": 6,
     "Rovo": 4,
     "Safari": 2,
@@ -48,14 +48,14 @@
     "al_ex_an_der": 13,
     "alberto": 2,
     "alesimpa": 1,
-    "alexmarcelo": 33,
+    "alexmarcelo": 34,
     "aliceinwire": 1,
     "allenmanbear": 1,
     "antilope": 2,
     "apancirolli": 2,
     "bailujia": 4,
     "bruno_b": 4,
-    "carlosalberto": 42,
+    "carlosalberto": 44,
     "ciampix": 3,
     "cristina_fulginiti": 1,
     "davzog": 1,
@@ -69,6 +69,7 @@
     "felix63": 1,
     "fullyfledged_pigeon": 1,
     "ghetta": 1,
+    "gina": 1,
     "giullina": 2,
     "glossboss": 9,
     "gltapps": 1,
@@ -200,7 +201,7 @@
     "ERR_VOC_NATURA": 22,
     "ERR_VOC_NAZIONALITA": 32,
     "ERR_VOC_NEGOZI": 20,
-    "ERR_VOC_NUMERI": 52,
+    "ERR_VOC_NUMERI": 79,
     "ERR_VOC_OGGETTI": 33,
     "ERR_VOC_QUANTITA": 32,
     "ERR_VOC_SALUTE": 24,
@@ -278,17 +279,17 @@
     "s_9981034"
   ],
   "levels": {
-    "A1": 2116,
-    "A2": 412,
+    "A1": 2142,
+    "A2": 413,
     "B1": 146,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 2654,
+    "llm-audit": 2681,
     "me": 27
   },
   "translation_kind": {
-    "direct": 1938,
-    "llm": 743
+    "direct": 1941,
+    "llm": 767
   }
 }

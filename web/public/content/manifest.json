@@ -345,7 +345,7 @@
     "ERR_VOC_NUMERI": {
       "capsule": true,
       "reason": null,
-      "usable": 52
+      "usable": 79
     },
     "ERR_VOC_OGGETTI": {
       "capsule": true,
@@ -394,18 +394,18 @@
     }
   },
   "levels": {
-    "A1": 2116,
-    "A2": 412,
+    "A1": 2142,
+    "A2": 413,
     "B1": 146,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 2654,
+    "llm-audit": 2681,
     "me": 27
   },
-  "sentences_used": 2509,
+  "sentences_used": 2536,
   "translation_kind": {
-    "direct": 1872,
-    "llm": 637
+    "direct": 1875,
+    "llm": 661
   }
 }

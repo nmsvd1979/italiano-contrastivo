@@ -808,6 +808,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2a0afdf1d0b2",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "Hay cuarenta personas en el grupo.",
+    "es_author": "IA (Claude)",
+    "id": "s_10717138",
+    "it": "Ci sono quaranta persone nel gruppo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10717138",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "96454ef322b3",
     "author": "leonardo",
     "cefr_estimate": "A1",
@@ -1497,6 +1509,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "cae9a22b94d7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Este libro contiene cuarenta fotografías.",
+    "es_author": "IA (Claude)",
+    "id": "s_11225996",
+    "it": "Questo libro contiene quaranta fotografie.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11225996",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "371e4cfe3620",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1560,6 +1584,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1128562",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "33348b6e3d58",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Mi hija acaba de cumplir quince años.",
+    "es_author": "IA (Claude)",
+    "id": "s_1129212",
+    "it": "Mia figlia ha appena quindici anni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1129212",
+    "translation_kind": "llm"
   },
   {
     "audio": "a82347bd92e4",
@@ -6024,6 +6060,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "e541aa799166",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Cuenta hasta treinta.",
+    "es_author": "IA (Claude)",
+    "id": "s_1549808",
+    "it": "Conta fino a trenta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1549808",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "c38c1f14a803",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -6689,6 +6737,19 @@
     "it": "Questa camicia costa dieci dollari.",
     "license": "CC BY 2.0 FR",
     "source_id": "1701463",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0f7e4e1a629f",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A1",
+    "es": "El libro cuesta quince dólares.",
+    "es_author": "lukaszpp",
+    "es_source_id": "462591",
+    "id": "s_1701465",
+    "it": "Il libro costa quindici dollari.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1701465",
     "translation_kind": "direct"
   },
   {
@@ -9093,6 +9154,18 @@
     "it": "Voi sapete chi sono?",
     "license": "CC BY 2.0 FR",
     "source_id": "2477447",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1f2d8295c78a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Este autobús puede llevar a cincuenta personas.",
+    "es_author": "IA (Claude)",
+    "id": "s_2477528",
+    "it": "Questo autobus può contenere cinquanta persone.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2477528",
     "translation_kind": "llm"
   },
   {
@@ -12262,6 +12335,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7bd426d8f659",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Mikey tiene trece años.",
+    "es_author": "IA (Claude)",
+    "id": "s_3289635",
+    "it": "Mikey ha tredici anni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3289635",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "0e02648e4389",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -12536,6 +12621,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3338077",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "a3f77909e634",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tiene veinte hijos.",
+    "es_author": "IA (Claude)",
+    "id": "s_3338386",
+    "it": "Ha venti figli.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3338386",
+    "translation_kind": "llm"
   },
   {
     "audio": "af9645e74958",
@@ -12935,6 +13032,42 @@
     "it": "Voi sentite qualcosa?",
     "license": "CC BY 2.0 FR",
     "source_id": "3417786",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "49b4aff7bcd0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tienes treinta segundos.",
+    "es_author": "IA (Claude)",
+    "id": "s_3420484",
+    "it": "Hai trenta secondi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3420484",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e1f01dfdf9d7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tiene treinta segundos.",
+    "es_author": "IA (Claude)",
+    "id": "s_3420485",
+    "it": "Ha trenta secondi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3420485",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "970ceeadf76e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ustedes tienen treinta segundos.",
+    "es_author": "IA (Claude)",
+    "id": "s_3420486",
+    "it": "Avete trenta secondi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3420486",
     "translation_kind": "llm"
   },
   {
@@ -13533,6 +13666,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3564577",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "0275d8c4e55b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom tiene que almorzar en quince minutos.",
+    "es_author": "IA (Claude)",
+    "id": "s_3564817",
+    "it": "Tom deve pranzare in quindici minuti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3564817",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d6fc97dd493c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Cuenten hasta treinta.",
+    "es_author": "IA (Claude)",
+    "id": "s_3565509",
+    "it": "Contate fino a trenta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3565509",
+    "translation_kind": "llm"
   },
   {
     "audio": "04895aad95e3",
@@ -14538,6 +14695,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "374617",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "a86728e38567",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Tengo dieciocho años.",
+    "es_author": "Shishir",
+    "es_source_id": "631763",
+    "id": "s_374689",
+    "it": "Ho diciotto anni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "374689",
+    "translation_kind": "direct"
   },
   {
     "audio": "3a7ff76835ef",
@@ -17672,6 +17842,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "ceb7eb9b1cfb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tengo trece gatos.",
+    "es_author": "IA (Claude)",
+    "id": "s_4470818",
+    "it": "Ho tredici gatti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4470818",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "169e80f9af60",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -18552,6 +18734,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "918ebe3881ac",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Él tiene veinte hijos.",
+    "es_author": "IA (Claude)",
+    "id": "s_4708880",
+    "it": "Lui ha venti figli.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4708880",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "cc54a7470835",
     "author": "oskrocha",
     "cefr_estimate": "A1",
@@ -18640,6 +18834,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4739616",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "e2c9744a3b04",
+    "author": "gina",
+    "cefr_estimate": "A1",
+    "es": "Tengo más de dieciocho años.",
+    "es_author": "IA (Claude)",
+    "id": "s_4750870",
+    "it": "Ho più di diciotto anni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4750870",
+    "translation_kind": "llm"
   },
   {
     "audio": "9ba05524e0d8",
@@ -19364,6 +19570,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2fcf03947688",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El hotel puede alojar a cincuenta personas.",
+    "es_author": "IA (Claude)",
+    "id": "s_5180524",
+    "it": "L'hotel può ospitare cinquanta persone.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5180524",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "39d20349e95e",
     "author": "Adelpa",
     "cefr_estimate": "A1",
@@ -19914,6 +20132,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a5eb9d5b26a9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom solo tiene trece años.",
+    "es_author": "IA (Claude)",
+    "id": "s_5353882",
+    "it": "Tom ha solo tredici anni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5353882",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "2e3d9ca4f8d8",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -20274,6 +20504,18 @@
     "it": "Noi non sentiamo nulla.",
     "license": "CC BY 2.0 FR",
     "source_id": "5520809",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "911184eaa6cf",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tiene treinta mensajes.",
+    "es_author": "IA (Claude)",
+    "id": "s_5531428",
+    "it": "Ha trenta messaggi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5531428",
     "translation_kind": "llm"
   },
   {
@@ -22628,6 +22870,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b0370948f52a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Solo tengo trece años.",
+    "es_author": "IA (Claude)",
+    "id": "s_6931409",
+    "it": "Ho solo tredici anni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6931409",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "2e4da0dceda1",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -22780,6 +23034,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "7037742",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "db1c625d3718",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Nuestra clase tiene cuarenta estudiantes.",
+    "es_author": "IA (Claude)",
+    "id": "s_7037745",
+    "it": "La nostra classe ha quaranta studenti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7037745",
+    "translation_kind": "llm"
   },
   {
     "audio": "d478ee884721",
@@ -23749,6 +24015,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "59e0b63e8058",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "\"¿Cuántos años tienes?\" - \"Tengo dieciséis años.\"",
+    "es_author": "enteka",
+    "es_source_id": "1285350",
+    "id": "s_758861",
+    "it": "\"Quanti anni hai?\" \"Ho sedici anni.\"",
+    "license": "CC BY 2.0 FR",
+    "source_id": "758861",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "42dcad05674e",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -24322,6 +24601,18 @@
     "it": "Come si chiama quella stazione?",
     "license": "CC BY 2.0 FR",
     "source_id": "7831484",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "76d6311265ff",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tiene veinte niños.",
+    "es_author": "IA (Claude)",
+    "id": "s_7849359",
+    "it": "Ha venti bambini.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7849359",
     "translation_kind": "llm"
   },
   {
@@ -25201,6 +25492,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a81f84c3cdfc",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "Hay unas cuarenta personas aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_8815567",
+    "it": "Ci sono circa quaranta persone qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8815567",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "95927b9e92b5",
     "author": "riccioberto",
     "cefr_estimate": "A1",
@@ -25839,6 +26142,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "963675",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "5070c9197627",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Mi padre tiene solo quince años.",
+    "es_author": "IA (Claude)",
+    "id": "s_963720",
+    "it": "Mio padre ha solo quindici anni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "963720",
+    "translation_kind": "llm"
   },
   {
     "audio": "4ddb6f7249c8",
@@ -29163,6 +29478,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "389110",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "687e4865a544",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Solo vinieron cincuenta personas.",
+    "es_author": "IA (Claude)",
+    "id": "s_3953878",
+    "it": "Sono venute solo cinquanta persone.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3953878",
+    "translation_kind": "llm"
   },
   {
     "audio": "b08ebbfac943",

@@ -6294,6 +6294,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Solo vinieron cincuenta personas.",
+    "es_author": "IA (Claude)",
+    "id": "s_3953878",
+    "it": "Sono venute solo cinquanta persone.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3953878",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",

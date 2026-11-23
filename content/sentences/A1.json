@@ -1488,6 +1488,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Hay cuarenta personas en el grupo.",
+    "es_author": "IA (Claude)",
+    "id": "s_10717138",
+    "it": "Ci sono quaranta persone nel gruppo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10717138",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "leonardo",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -2845,6 +2868,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Este libro contiene cuarenta fotografías.",
+    "es_author": "IA (Claude)",
+    "id": "s_11225996",
+    "it": "Questo libro contiene quaranta fotografie.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11225996",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_CONGIUNTIVO_OVERUSE_FORSE"
     ],
     "es": "Quizás soy un amigo.",
@@ -2997,6 +3043,29 @@
       "ERR_INDEFINITE_ARTICLE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Mi hija acaba de cumplir quince años.",
+    "es_author": "IA (Claude)",
+    "id": "s_1129212",
+    "it": "Mia figlia ha appena quindici anni.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1129212",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -11115,6 +11184,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Cuenta hasta treinta.",
+    "es_author": "IA (Claude)",
+    "id": "s_1549808",
+    "it": "Conta fino a trenta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1549808",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_CHIAMARSI"
     ],
     "es": "Yo me llamo Luis.",
@@ -12283,6 +12375,28 @@
     "source_id": "1701463",
     "tag_rules": {
       "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "El libro cuesta quince dólares.",
+    "es_author": "lukaszpp",
+    "es_source_id": "462591",
+    "id": "s_1701465",
+    "it": "Il libro costa quindici dollari.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1701465",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -16626,6 +16740,29 @@
     "source_id": "2477447",
     "tag_rules": {
       "ERR_PRESENT_IRREGULAR": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Este autobús puede llevar a cincuenta personas.",
+    "es_author": "IA (Claude)",
+    "id": "s_2477528",
+    "it": "Questo autobus può contenere cinquanta persone.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2477528",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -22551,6 +22688,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Mikey tiene trece años.",
+    "es_author": "IA (Claude)",
+    "id": "s_3289635",
+    "it": "Mikey ha tredici anni.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3289635",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_SALUTI"
     ],
     "es": "Hola, ¿cómo se llama usted?",
@@ -23050,6 +23210,30 @@
       "ERR_VOC_AGGETTIVI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Tiene veinte hijos.",
+    "es_author": "IA (Claude)",
+    "id": "s_3338386",
+    "it": "Ha venti figli.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3338386",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Ricardo14",
@@ -23830,6 +24014,75 @@
     "source_id": "3417786",
     "tag_rules": {
       "ERR_PRESENT_ERE_IRE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Tienes treinta segundos.",
+    "es_author": "IA (Claude)",
+    "id": "s_3420484",
+    "it": "Hai trenta secondi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3420484",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Tiene treinta segundos.",
+    "es_author": "IA (Claude)",
+    "id": "s_3420485",
+    "it": "Ha trenta secondi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3420485",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Ustedes tienen treinta segundos.",
+    "es_author": "IA (Claude)",
+    "id": "s_3420486",
+    "it": "Avete trenta secondi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3420486",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -24899,6 +25152,53 @@
       "ERR_PRESENT_ERE_IRE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Tom tiene que almorzar en quince minutos.",
+    "es_author": "IA (Claude)",
+    "id": "s_3564817",
+    "it": "Tom deve pranzare in quindici minuti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3564817",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Cuenten hasta treinta.",
+    "es_author": "IA (Claude)",
+    "id": "s_3565509",
+    "it": "Contate fino a trenta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3565509",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -26743,6 +27043,30 @@
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Tengo dieciocho años.",
+    "es_author": "Shishir",
+    "es_source_id": "631763",
+    "id": "s_374689",
+    "it": "Ho diciotto anni.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "374689",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -32469,6 +32793,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Tengo trece gatos.",
+    "es_author": "IA (Claude)",
+    "id": "s_4470818",
+    "it": "Ho tredici gatti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4470818",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_ESSERE_AVERE"
     ],
     "es": "¿Tú tienes tiempo?",
@@ -34068,6 +34415,30 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Él tiene veinte hijos.",
+    "es_author": "IA (Claude)",
+    "id": "s_4708880",
+    "it": "Lui ha venti figli.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4708880",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "oskrocha",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -34247,6 +34618,29 @@
       "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "gina",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Tengo más de dieciocho años.",
+    "es_author": "IA (Claude)",
+    "id": "s_4750870",
+    "it": "Ho più di diciotto anni.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4750870",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -35549,6 +35943,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "El hotel puede alojar a cincuenta personas.",
+    "es_author": "IA (Claude)",
+    "id": "s_5180524",
+    "it": "L'hotel può ospitare cinquanta persone.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5180524",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Adelpa",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -36628,6 +37045,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Tom solo tiene trece años.",
+    "es_author": "IA (Claude)",
+    "id": "s_5353882",
+    "it": "Tom ha solo tredici anni.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5353882",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_AVVERBI"
     ],
     "es": "El cliente no siempre tiene razón.",
@@ -37324,6 +37764,30 @@
     "source_id": "5520809",
     "tag_rules": {
       "ERR_PRESENT_ERE_IRE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Tiene treinta mensajes.",
+    "es_author": "IA (Claude)",
+    "id": "s_5531428",
+    "it": "Ha trenta messaggi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5531428",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -41605,6 +42069,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Solo tengo trece años.",
+    "es_author": "IA (Claude)",
+    "id": "s_6931409",
+    "it": "Ho solo tredici anni.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6931409",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_MODAL"
     ],
     "es": "¿Ustedes no quieren esto?",
@@ -41875,6 +42362,29 @@
       "ERR_VOC_AVVERBI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Nuestra clase tiene cuarenta estudiantes.",
+    "es_author": "IA (Claude)",
+    "id": "s_7037745",
+    "it": "La nostra classe ha quaranta studenti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7037745",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -43593,6 +44103,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "\"¿Cuántos años tienes?\" - \"Tengo dieciséis años.\"",
+    "es_author": "enteka",
+    "es_source_id": "1285350",
+    "id": "s_758861",
+    "it": "\"Quanti anni hai?\" \"Ho sedici anni.\"",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "758861",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_ARE"
     ],
     "es": "Ella vive en Kioto.",
@@ -44605,6 +45137,30 @@
     "source_id": "7831484",
     "tag_rules": {
       "ERR_CHIAMARSI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Tiene veinte niños.",
+    "es_author": "IA (Claude)",
+    "id": "s_7849359",
+    "it": "Ha venti bambini.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7849359",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -46190,6 +46746,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Hay unas cuarenta personas aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_8815567",
+    "it": "Ci sono circa quaranta persone qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8815567",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -47321,6 +47900,30 @@
       "ERR_CONSONANTE_DOPPIA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_NUMERI"
+    ],
+    "es": "Mi padre tiene solo quince años.",
+    "es_author": "IA (Claude)",
+    "id": "s_963720",
+    "it": "Mio padre ha solo quindici anni.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "963720",
+    "tag_rules": {
+      "ERR_VOC_NUMERI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "riccioberto",

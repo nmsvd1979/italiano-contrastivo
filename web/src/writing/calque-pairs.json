@@ -75,6 +75,11 @@
     "wrong": "Sua bicicletta è blu."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ci sono quaranta persone nel gruppo.",
+    "wrong": "Ci sono quaranta persone in il gruppo."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Anche Tom ha fame.",
     "wrong": "Anche Tom tiene fame."
@@ -1793,6 +1798,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "La mia camicia non è marrone.",
     "wrong": "Mia camicia non è marrone."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La nostra classe ha quaranta studenti.",
+    "wrong": "Nostra classe ha quaranta studenti."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",

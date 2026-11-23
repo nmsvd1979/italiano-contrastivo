@@ -2599,5 +2599,15 @@
   "k": "regular",
   "r": "otro",
   "n": "sopa→zuppa: s→z, o→u, p doble"
+ },
+ "sedici": {
+  "k": "regular",
+  "r": "otro",
+  "n": "sedici = seis + diez (se-dici); con tilde en español: dieciséis"
+ },
+ "diciotto": {
+  "k": "regular",
+  "r": "otro",
+  "n": "diciotto = diez + ocho (dici-otto)"
  }
 }
