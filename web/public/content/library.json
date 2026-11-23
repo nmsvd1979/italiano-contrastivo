@@ -1,0 +1,401 @@
+[
+ {
+  "id": "podcast-italiano",
+  "title": "Podcast Italiano",
+  "url": "https://www.podcastitaliano.com/",
+  "kind": "podcast",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "lang": "it",
+  "cost": "freemium",
+  "strand": "entrada",
+  "note": "Podcast hecho para quien aprende italiano, todo en italiano. El sitio declara cubrir de A1 a C2 y ofrece un test de nivel; tiene parte gratuita y cursos de pago.",
+  "task": "Elige un episodio corto de tu nivel y escúchalo 5 minutos sin leer nada; luego otros 5 siguiéndolo con la transcripción si el episodio la ofrece. Anota 5 palabras que no entendiste.",
+  "verified": "2026-11-23",
+  "warning": "Todo en italiano: en A1 puede resultar muy difícil. Empieza por el test de nivel del sitio."
+ },
+ {
+  "id": "easy-italian",
+  "title": "Easy Italian (YouTube)",
+  "url": "https://www.youtube.com/@EasyItalian",
+  "kind": "video",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "lang": "it",
+  "cost": "gratis",
+  "strand": "entrada",
+  "note": "Canal de YouTube de videos para aprender italiano.",
+  "task": "Mira un video corto sin pausar para ver cuánto entiendes por el contexto; después míralo con subtítulos (si los tiene) y anota 5 palabras nuevas.",
+  "verified": "2026-11-23",
+  "warning": "No pude confirmar el nivel ni el formato de los videos: prueba uno y decide si lo entiendes."
+ },
+ {
+  "id": "raiplay-sound",
+  "title": "RaiPlay Sound",
+  "url": "https://www.raiplaysound.it/",
+  "kind": "podcast",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "lang": "it",
+  "cost": "gratis",
+  "strand": "entrada",
+  "note": "Radio y podcasts de la RAI (televisión pública italiana), en italiano nativo.",
+  "task": "Elige un programa breve de un tema que te interese y escucha 10 minutos. No intentes entenderlo todo: busca solo las ideas principales y 3 palabras que se repitan.",
+  "verified": "2026-11-23",
+  "warning": "Italiano nativo sin adaptar. No pude confirmar si todo el contenido está disponible fuera de Italia."
+ },
+ {
+  "id": "raiplay",
+  "title": "RaiPlay (video)",
+  "url": "https://www.raiplay.it/",
+  "kind": "video",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "lang": "it",
+  "cost": "gratis",
+  "strand": "entrada",
+  "note": "Video a la carta de la RAI (series, documentales, programas), en italiano nativo.",
+  "task": "Mira 10 minutos de un documental o programa corto; usa los subtítulos en italiano si están disponibles y anota 5 palabras.",
+  "verified": "2026-11-23",
+  "warning": "Según guías de terceros, mucho video está bloqueado fuera de Italia (no lo pude confirmar desde Chile)."
+ },
+ {
+  "id": "librivox",
+  "title": "LibriVox (audiolibros)",
+  "url": "https://librivox.org/",
+  "kind": "audio",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "lang": "it",
+  "cost": "gratis",
+  "strand": "entrada",
+  "note": "Audiolibros gratuitos de dominio público leídos por voluntarios. En la búsqueda filtra por idioma «Italiano».",
+  "task": "Elige un relato corto, escucha 10 minutos y sigue el texto escrito si lo consigues. Repite el primer minuto dos veces.",
+  "verified": "2026-11-23",
+  "warning": "Son obras clásicas: el italiano puede ser antiguo y difícil, y las lecturas son de voluntarios. Fuera de EE. UU. conviene revisar los derechos de autor locales."
+ },
+ {
+  "id": "wordreference",
+  "title": "WordReference italiano–español",
+  "url": "https://www.wordreference.com/ites/",
+  "kind": "diccionario",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "lang": "es",
+  "cost": "gratis",
+  "strand": "foco",
+  "note": "Diccionario italiano–español con ejemplos y conjugador de verbos.",
+  "task": "Busca 3 palabras de tu lectura actual, lee los ejemplos y escribe una frase tuya con cada una.",
+  "verified": "2026-11-23",
+  "warning": "Incluye una sección de traducciones generadas por IA (beta): contrástala con los ejemplos y con la app."
+ },
+ {
+  "id": "linguee",
+  "title": "Linguee español–italiano",
+  "url": "https://www.linguee.es/espanol-italiano/",
+  "kind": "diccionario",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "lang": "es",
+  "cost": "gratis",
+  "strand": "foco",
+  "note": "Diccionario español–italiano con traducciones en contexto sacadas de textos de la web.",
+  "task": "Cuando dudes cómo se dice algo, busca la expresión completa y compara 3 ejemplos antes de elegir.",
+  "verified": "2026-11-23",
+  "warning": "Los ejemplos vienen de textos de la web y pueden tener errores; tiene publicidad."
+ },
+ {
+  "id": "reverso-context",
+  "title": "Reverso Context italiano–español",
+  "url": "https://context.reverso.net/traduccion/italiano-espanol/",
+  "kind": "diccionario",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "lang": "es",
+  "cost": "freemium",
+  "strand": "foco",
+  "note": "Traducción de palabras y frases con ejemplos reales en italiano y su versión en español.",
+  "task": "Busca una palabra opaca de tu unidad y lee 5 ejemplos: fíjate qué preposiciones y artículos la acompañan.",
+  "verified": "2026-11-23",
+  "warning": "Los ejemplos son traducciones automáticas o de textos de la web: pueden fallar. Tiene una versión Premium."
+ },
+ {
+  "id": "treccani",
+  "title": "Treccani, Vocabolario",
+  "url": "https://www.treccani.it/vocabolario/",
+  "kind": "diccionario",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "lang": "it",
+  "cost": "gratis",
+  "strand": "foco",
+  "note": "Diccionario italiano–italiano de la Enciclopedia Italiana, para entender una palabra sin pasar por el español.",
+  "task": "Busca 3 palabras de una lectura y lee la definición en italiano; luego escribe una frase tuya con una de ellas.",
+  "verified": "2026-11-23",
+  "warning": "Definiciones en italiano: exigen un nivel B1 o más. Muestra un aviso de suscripción por app."
+ },
+ {
+  "id": "wikizionario",
+  "title": "Wikizionario (Wikcionario en italiano)",
+  "url": "https://it.wiktionary.org/",
+  "kind": "diccionario",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "lang": "it",
+  "cost": "gratis",
+  "strand": "foco",
+  "note": "Diccionario libre y colaborativo con unas 757.000 entradas, con definiciones en italiano.",
+  "task": "Busca un verbo irregular que estés estudiando y mira cómo lo describe; compara con lo que viste en la app.",
+  "verified": "2026-11-23",
+  "warning": "Contenido colaborativo: la calidad varía. Definiciones en italiano."
+ },
+ {
+  "id": "forvo",
+  "title": "Forvo (pronunciación italiana)",
+  "url": "https://forvo.com/languages/it/",
+  "kind": "diccionario",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "lang": "en",
+  "cost": "gratis",
+  "strand": "foco",
+  "note": "Diccionario de pronunciación con grabaciones de hablantes de italiano.",
+  "task": "Busca 5 palabras de tu unidad (las de consonantes dobles son las mejores), escucha a dos hablantes distintos y repite imitando el ritmo.",
+  "verified": "2026-11-23",
+  "warning": "Grabaciones de voluntarios, de calidad variable; no pude confirmar límites de uso."
+ },
+ {
+  "id": "learnamo-sonidos",
+  "title": "LearnAmo: los sonidos difíciles del italiano",
+  "url": "https://learnamo.com/es/sonidos-dificiles-italiano/",
+  "kind": "referencia",
+  "levels": [
+   "A1",
+   "A2"
+  ],
+  "lang": "es",
+  "cost": "freemium",
+  "strand": "foco",
+  "note": "Lección en español sobre consonantes dobles, sc, gl, gn, la r, acentuación y entonación, con pares mínimos, un quiz gratuito de 10 preguntas y un podcast de unos 16 minutos.",
+  "task": "Lee la lección y haz el quiz; después repite en voz alta los pares mínimos que fallaste y compáralos con la unidad «Consonantes dobles» de la app.",
+  "verified": "2026-11-23",
+  "warning": "El PDF con ejercicios y las transcripciones son de pago: es un sitio comercial que vende clases y membresía."
+ },
+ {
+  "id": "aulafacil-a1",
+  "title": "Aula Fácil: curso de italiano A1",
+  "url": "https://www.aulafacil.com/cursos/italiano/nivel-a1-t1407",
+  "kind": "curso",
+  "levels": [
+   "A1"
+  ],
+  "lang": "mixto",
+  "cost": "gratis",
+  "strand": "foco",
+  "note": "Curso gratuito de nivel A1 en español, con 17 unidades (presentarse, familia, rutina, turismo…), diálogos y ejercicios.",
+  "task": "Haz una unidad que corresponda a lo que estás viendo en la app y rehaz solo los diálogos hablando en voz alta.",
+  "verified": "2026-11-23",
+  "warning": "No evalué la calidad del italiano del curso. Para guardar el progreso o el certificado puede pedir cuenta (no confirmado)."
+ },
+ {
+  "id": "integrazione-migranti",
+  "title": "Portale Integrazione Migranti: aprender italiano en línea",
+  "url": "https://integrazionemigranti.gov.it/en-gb/Dettaglio-approfondimento/id/53",
+  "kind": "curso",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "lang": "mixto",
+  "cost": "gratis",
+  "strand": "foco",
+  "note": "Colección del Ministerio del Trabajo de Italia con cursos en línea, páginas, apps, juegos y tests gratuitos para aprender italiano de forma autónoma.",
+  "task": "Elige un recurso de la lista de tu nivel, haz 10 minutos de sus ejercicios interactivos y anota qué errores cometiste.",
+  "verified": "2026-11-23",
+  "warning": "Es un directorio: los recursos son de terceros y no revisé cada uno. Portal en inglés e italiano."
+ },
+ {
+  "id": "loescher-italiano",
+  "title": "Loescher: Italiano per stranieri",
+  "url": "https://italianoperstranieri.loescher.it/",
+  "kind": "curso",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "lang": "it",
+  "cost": "freemium",
+  "strand": "foco",
+  "note": "Portal de una editorial con materiales por nivel MCER: fichas de gramática y vocabulario, podcast, historias graduadas y una sección Plus gratuita con registro.",
+  "task": "Busca la ficha de gramática del tema que estás estudiando y haz sus ejercicios; compara con la ficha de la app.",
+  "verified": "2026-11-23",
+  "warning": "Es un portal comercial pensado sobre todo para docentes; no todo es gratuito."
+ },
+ {
+  "id": "piacere",
+  "title": "Piacere! (libro abierto, Univ. de Iowa)",
+  "url": "https://pressbooks.uiowa.edu/piacere/",
+  "kind": "curso",
+  "levels": [
+   "A1",
+   "A2"
+  ],
+  "lang": "en",
+  "cost": "gratis",
+  "strand": "foco",
+  "note": "Libro abierto de italiano elemental con 21 capítulos (gramática, vocabulario, conversaciones y lecturas). Licencia CC BY-NC-SA. Es una de las fuentes de las lecturas de esta app.",
+  "task": "Lee la «Lettura» del capítulo que corresponde a tu unidad y haz la «Conversazione» en voz alta con otra voz (la tuya y la del audio de la app).",
+  "verified": "2026-11-23",
+  "warning": "Pensado para estudiantes que hablan inglés: las explicaciones están en inglés."
+ },
+ {
+  "id": "leggiamo",
+  "title": "Leggiamo (libro abierto, LBCC)",
+  "url": "https://lbcc.pressbooks.pub/leggiamo/",
+  "kind": "curso",
+  "levels": [
+   "A1",
+   "A2"
+  ],
+  "lang": "en",
+  "cost": "gratis",
+  "strand": "foco",
+  "note": "Libro abierto de italiano de Rossella Pescatori organizado por unidades (Incontri, La famiglia, Casa y vida cotidiana, En la ciudad). Licencia CC BY-NC. Es fuente de varias lecturas de la app.",
+  "task": "Lee un texto de la unidad que coincide con tu tema y resume en una frase en italiano qué pasa.",
+  "verified": "2026-11-23",
+  "warning": "Pensado para estudiantes que hablan inglés."
+ },
+ {
+  "id": "tutti-a-tavola",
+  "title": "Tutt* a tavola! vol. 1 (libro abierto, UMass)",
+  "url": "https://openbooks.library.umass.edu/tutt-a-tavola-vol-1/",
+  "kind": "curso",
+  "levels": [
+   "A1"
+  ],
+  "lang": "en",
+  "cost": "gratis",
+  "strand": "foco",
+  "note": "Libro abierto de italiano elemental con guía de pronunciación, frases útiles y cuaderno de ejercicios. Licencia CC BY-NC.",
+  "task": "Haz la guía de pronunciación y repite en voz alta las frases útiles; luego un capítulo de tu tema.",
+  "verified": "2026-11-23",
+  "warning": "Pensado para estudiantes que hablan inglés."
+ },
+ {
+  "id": "plida-a1",
+  "title": "PLIDA Juniores A1: ejemplo de examen",
+  "url": "https://plida.dante.global/it",
+  "kind": "examen",
+  "levels": [
+   "A1"
+  ],
+  "lang": "it",
+  "cost": "gratis",
+  "strand": "foco",
+  "note": "Sitio de la certificación PLIDA (Società Dante Alighieri). En su sección «preparati all'esame» hay una prueba de ejemplo de PLIDA Juniores A1 y criterios de evaluación de hablar y escribir.",
+  "task": "Cuando termines A1, haz la prueba de ejemplo de lectura y compara tu resultado con el examen de hito de la app.",
+  "verified": "2026-11-23",
+  "warning": "El examen oficial es de pago; solo los materiales de preparación son gratuitos. Solo vi un ejemplo (A1 Juniores)."
+ },
+ {
+  "id": "il-post",
+  "title": "Il Post",
+  "url": "https://www.ilpost.it/",
+  "kind": "lectura",
+  "levels": [
+   "B2"
+  ],
+  "lang": "it",
+  "cost": "freemium",
+  "strand": "entrada",
+  "note": "Periódico digital italiano con noticias, podcasts y newsletter.",
+  "task": "Lee un artículo corto de un tema que ya conoces por las noticias en español: así entiendes más y te fijas en cómo se dice.",
+  "verified": "2026-11-23",
+  "warning": "Texto de periódico sin adaptar: nivel alto. Tiene suscripción y publicidad."
+ },
+ {
+  "id": "wikipedia-it",
+  "title": "Wikipedia en italiano",
+  "url": "https://it.wikipedia.org/",
+  "kind": "lectura",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "lang": "it",
+  "cost": "gratis",
+  "strand": "entrada",
+  "note": "Enciclopedia libre en italiano.",
+  "task": "Busca un tema que conozcas muy bien (tu ciudad, tu carrera) y lee el primer párrafo; conocer el tema te ayuda a entender el italiano.",
+  "verified": "2026-11-23",
+  "warning": "Texto nativo no graduado; el nivel varía y suele ser alto."
+ },
+ {
+  "id": "vikidia-it",
+  "title": "Vikidia en italiano",
+  "url": "https://it.vikidia.org/",
+  "kind": "lectura",
+  "levels": [
+   "A2",
+   "B1"
+  ],
+  "lang": "it",
+  "cost": "gratis",
+  "strand": "entrada",
+  "note": "Enciclopedia en italiano pensada para lectores de 8 a 13 años: frases más simples que Wikipedia.",
+  "task": "Lee un artículo corto de un tema que te guste y subraya mentalmente 5 palabras que no conocías.",
+  "verified": "2026-11-23",
+  "warning": "Está hecha para niños nativos, no para aprendices; no confirmé su licencia de reutilización."
+ },
+ {
+  "id": "oviedo-pronombres",
+  "title": "El sistema pronominal italiano (Univ. de Oviedo)",
+  "url": "https://digibuo.uniovi.es/dspace/bitstream/handle/10651/71923/El%20sistema%20pronominal%20italiano%20web.pdf?sequence=3&isAllowed=y",
+  "kind": "referencia",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "lang": "es",
+  "cost": "gratis",
+  "strand": "foco",
+  "note": "PDF de la Universidad de Oviedo sobre el sistema de pronombres del italiano (clíticos, ci y ne), en español; fuente del cuaderno de diseño de esta app.",
+  "task": "Consúltalo cuando llegues a ci/ne y pronombres combinados: lee una sección y escribe 3 frases propias.",
+  "verified": "2026-11-23",
+  "warning": "Es un PDF largo (2,7 MB) de nivel universitario; no verifiqué su contenido completo."
+ }
+]

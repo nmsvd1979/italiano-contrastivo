@@ -31,6 +31,16 @@ export type Reading = {
   translation: string; sentences: ReadingSentence[]; questions: ReadingQuestion[];
 };
 export type ReadingWord = { g: string; k: "transparente" | "regular" | "opaca"; r?: string; ff?: boolean; n?: string };
+/** Un recurso externo verificado (la app solo enlaza: no copia ni aloja su contenido). */
+export type ResourceKind = "video" | "podcast" | "audio" | "lectura" | "diccionario" | "pronunciacion" | "curso" | "examen" | "referencia";
+export type Resource = {
+  id: string; title: string; url: string; kind: ResourceKind;
+  levels: ("A1" | "A2" | "B1" | "B2")[];            // niveles para los que lo recomendamos (criterio del proyecto + lo que declara el sitio)
+  lang: "it" | "es" | "en" | "mixto";                // idioma en que se explica
+  cost: "gratis" | "freemium" | "pago";
+  strand: "entrada" | "foco" | "fluidez";            // a qué hebra suma el tiempo que registres
+  note: string; task: string; warning?: string; verified: string;
+};
 export type PlannedUnit = { level: string; title: string; reason: string };
 export type Course = { version: number; levels: { id: string; title: string; guided_hours: string }[]; units: Unit[]; planned: PlannedUnit[] };
 export type ContentPack = {
@@ -41,6 +51,7 @@ export type ContentPack = {
   readingItems?: Record<string, Item[]>;
   /** Glosa y tamiz de cada palabra de las lecturas (clasificado por IA). */
   readingWords?: Record<string, ReadingWord>;
+  library?: Resource[];
   capsules: Capsule[];
   itemsByCode: Record<string, Item[]>;
   lexemes: Lexeme[];
@@ -73,7 +84,7 @@ async function getJson<T>(fetcher: Fetcher, base: string, file: string): Promise
 }
 
 export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: string = import.meta.env.BASE_URL ?? "/"): Promise<ContentPack> {
-  const [capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems, readingWords] = await Promise.all([
+  const [capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems, readingWords, library] = await Promise.all([
     getJson<Capsule[]>(fetcher, base, "capsules.json"),
     getJson<Record<string, Item[]>>(fetcher, base, "items_by_code.json"),
     getJson<Lexeme[]>(fetcher, base, "lexemes.json"),
@@ -83,6 +94,7 @@ export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: stri
     getJson<Reading[]>(fetcher, base, "readings.json").catch((): Reading[] => []), // aún no hay lecturas publicadas: no es un error
     getJson<Record<string, Item[]>>(fetcher, base, "reading_items.json").catch((): Record<string, Item[]> => ({})),
     getJson<Record<string, ReadingWord>>(fetcher, base, "reading_words.json").catch((): Record<string, ReadingWord> => ({})),
+    getJson<Resource[]>(fetcher, base, "library.json").catch((): Resource[] => []),
   ]);
   const vCapsule = schemaValidator("capsule");
   const vItem = schemaValidator("item");
@@ -101,5 +113,5 @@ export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: stri
   }
   const rd = new Set(readings.map((r) => r.id));
   for (const u of course.units) for (const id of u.readings ?? []) if (!rd.has(id)) throw new ContentError(`La unidad ${u.id} usa una lectura que no está en el paquete (${id}).`);
-  return { capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems, readingWords };
+  return { capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems, readingWords, library };
 }

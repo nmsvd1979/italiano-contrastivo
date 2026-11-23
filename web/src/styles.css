@@ -160,3 +160,8 @@ ul.week .bar i { display: block; height: 100%; background: var(--accent); }
 .sentence-tokens { font-family: var(--serif); font-size: 20px; line-height: 1.7; }
 .mini { min-height: 0; padding: 2px 8px; font-size: 13px; }
 .wordcard { display: block; margin: 4px 6px 8px; padding: 6px 10px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; font-size: 15px; }
+
+ul.library { list-style: none; padding: 0; margin: 12px 0; display: grid; gap: 14px; }
+ul.library li { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 12px 14px; }
+ul.library h2 { margin: 0 0 4px; font-size: 18px; }
+ul.library p { margin: 6px 0; }

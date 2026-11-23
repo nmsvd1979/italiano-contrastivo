@@ -26,6 +26,7 @@ import { planSession } from "./state/dayplan";
 import { isPreview, PREVIEW_DB, REAL_DB, setPreview } from "./state/preview";
 import { WriteScreen } from "./ui/WriteScreen";
 import { DictationTestScreen } from "./ui/DictationTestScreen";
+import { LibraryScreen } from "./ui/LibraryScreen";
 import "./styles.css";
 
 type Ready = { pack: ContentPack; store: Store; storeError: string | null; audio: AudioIndex; words: Map<string, string> };
@@ -112,6 +113,7 @@ export function App() {
         </p>
       )}
       {hash === "#/repaso" ? <ReviewScreen pack={ready.pack} store={ready.store} />
+        : hash === "#/biblioteca" ? <LibraryScreen pack={ready.pack} store={ready.store} />
         : hash === "#/prueba-dictado" ? <DictationTestScreen pack={ready.pack} />
         : hash === "#/escribir" ? <WriteScreen pack={ready.pack} store={ready.store} />
         : hash === "#/ajustes" ? <SettingsScreen store={ready.store} memoryOnly={ready.storeError !== null} />
