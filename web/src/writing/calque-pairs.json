@@ -91,6 +91,11 @@
   },
   {
     "code": "ERR_PREP_PLACE",
+    "correct": "Sono a Parigi.",
+    "wrong": "Sono in Parigi."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
     "correct": "Domani vado a Parigi.",
     "wrong": "Domani vado in Parigi."
   },
@@ -133,6 +138,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Ci sono molti fiori nel giardino?",
     "wrong": "Ci sono molti fiori in il giardino?"
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Siamo a Parigi.",
+    "wrong": "Siamo in Parigi."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -228,6 +238,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Il sangue scorre nelle vene.",
     "wrong": "Il sangue scorre in le vene."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Resto in Italia.",
+    "wrong": "Resto a Italia."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -376,6 +391,11 @@
   },
   {
     "code": "ERR_PREP_PLACE",
+    "correct": "Vive a Londra.",
+    "wrong": "Vive in Londra."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
     "correct": "Lei vive a Londra.",
     "wrong": "Lei vive in Londra."
   },
@@ -485,6 +505,11 @@
     "wrong": "I ratti abbondano in la discarica municipale."
   },
   {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Io abito a Milano.",
+    "wrong": "Io abito in Milano."
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è uno zoo a Boston?",
     "wrong": "Ci sono uno zoo a Boston?"
@@ -543,6 +568,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Tu puoi utilizzare la mia bicicletta.",
     "wrong": "Tu puoi utilizzare mia bicicletta."
+  },
+  {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "C'è un bar laggiù.",
+    "wrong": "Ci sono un bar laggiù."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -611,8 +641,18 @@
   },
   {
     "code": "ERR_PREP_PLACE",
+    "correct": "Lavorate a Milano.",
+    "wrong": "Lavorate in Milano."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
     "correct": "Voi lavorate a Milano.",
     "wrong": "Voi lavorate in Milano."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Lavora a Milano.",
+    "wrong": "Lavora in Milano."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -673,6 +713,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Dov'è la mia auto?",
     "wrong": "Dov'è mia auto?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Tom è al bar.",
+    "wrong": "Tom è a il bar."
   },
   {
     "code": "ERR_TENERE_AVERE",
@@ -816,6 +861,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Prendo delle vitamine.",
+    "wrong": "Prendo di le vitamine."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io prendo delle vitamine.",
     "wrong": "Io prendo di le vitamine."
   },
@@ -856,6 +906,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Beve del tè.",
+    "wrong": "Beve di il tè."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Copia questo programma nel tuo computer.",
     "wrong": "Copia questo programma in il tuo computer."
   },
@@ -863,6 +918,26 @@
     "code": "ERR_PREP_PLACE",
     "correct": "Voglio tornare in Spagna.",
     "wrong": "Voglio tornare a Spagna."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Vivo a Roma.",
+    "wrong": "Vivo in Roma."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Abita a Roma.",
+    "wrong": "Abita in Roma."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Vive a Roma.",
+    "wrong": "Vive in Roma."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Lui vive a Roma.",
+    "wrong": "Lui vive in Roma."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -975,6 +1050,11 @@
     "wrong": "Loro tappeto è completamente bianco."
   },
   {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Siamo in Italia.",
+    "wrong": "Siamo a Italia."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Tu non hai caldo?",
     "wrong": "Tu non tieni caldo?"
@@ -1003,6 +1083,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Vieni a dirmelo nella mia camera.",
     "wrong": "Vieni a dirmelo in la mia camera."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Ritorna in Cile!",
+    "wrong": "Ritorna a Cile!"
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -1080,6 +1165,11 @@
     "wrong": "Tu conosci a Tom di persona?"
   },
   {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Vado a Londra.",
+    "wrong": "Vado in Londra."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io solitamente mi alzo alle otto.",
     "wrong": "Io solitamente mi alzo a le otto."
@@ -1108,6 +1198,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Tu credi in cose del genere?",
     "wrong": "Tu credi in cose di il genere?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Paga alla cassa.",
+    "wrong": "Paga a la cassa."
   },
   {
     "code": "ERR_TENERE_AVERE",
@@ -1308,6 +1403,11 @@
     "code": "ERR_TENERE_AVERE",
     "correct": "Forse hai ragione.",
     "wrong": "Forse tieni ragione."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Sono a Londra.",
+    "wrong": "Sono in Londra."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -1736,6 +1836,11 @@
   },
   {
     "code": "ERR_PREP_PLACE",
+    "correct": "Andiamo in Spagna.",
+    "wrong": "Andiamo a Spagna."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
     "correct": "Vanno in vacanza in Italia?",
     "wrong": "Vanno in vacanza a Italia?"
   },
@@ -2045,6 +2150,11 @@
     "wrong": "Mia penna è nuova."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Beve del succo.",
+    "wrong": "Beve di il succo."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Mi piace la sua musica.",
     "wrong": "Mi piace sua musica."
@@ -2305,6 +2415,11 @@
     "wrong": "Non ho notato tuoi capelli grigi."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Prendiamo il nostro tè con lo zucchero.",
+    "wrong": "Prendiamo nostro tè con lo zucchero."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Siamo stati a Londra per due settimane.",
     "wrong": "Siamo stati in Londra per due settimane."
@@ -2403,6 +2518,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Ho capito il mio errore.",
     "wrong": "Ho capito mio errore."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Vorrei del tè col limone.",
+    "wrong": "Vorrei di il tè col limone."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",

@@ -570,6 +570,30 @@
     "error_codes": [
       "ERR_VOC_VORREI"
     ],
+    "es": "Quisiera otra cerveza.",
+    "es_author": "IA (Claude)",
+    "id": "s_1107994",
+    "it": "Vorrei un'altra birra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1107994",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
     "es": "Me gustaría tanto abrir un restaurante.",
     "es_author": "hayastan",
     "es_source_id": "1121882",
@@ -1087,6 +1111,29 @@
       "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Tomamos nuestro té con azúcar.",
+    "es_author": "IA (Claude)",
+    "id": "s_11862231",
+    "it": "Prendiamo il nostro tè con lo zucchero.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11862231",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Adelpa",
@@ -2286,6 +2333,29 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quisiera té con limón.",
+    "es_author": "IA (Claude)",
+    "id": "s_14023946",
+    "it": "Vorrei del tè col limone.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14023946",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "unforgiven95",
@@ -3714,6 +3784,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "hitori37",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quisiera tomar un café.",
+    "es_author": "IA (Claude)",
+    "id": "s_2137196",
+    "it": "Vorrei prendere un caffè.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2137196",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Sirio60",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -4051,6 +4144,29 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quisiera un café.",
+    "es_author": "IA (Claude)",
+    "id": "s_2443442",
+    "it": "Vorrei avere un caffè.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2443442",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_POSSESSIVE_SPELLING"
     ],
     "es": "Ella exhibió sus talentos.",
@@ -4195,6 +4311,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quisiera un poco de helado.",
+    "es_author": "IA (Claude)",
+    "id": "s_2516415",
+    "it": "Vorrei un po' di gelato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2516415",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -4272,6 +4411,29 @@
       "ERR_GLI_PALATAL": "gli_palatale",
       "ERR_MANCARE": "mancare",
       "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quisiera una ensalada.",
+    "es_author": "IA (Claude)",
+    "id": "s_2561137",
+    "it": "Vorrei un'insalata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2561137",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -5068,6 +5230,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quisiera un poco de vino.",
+    "es_author": "IA (Claude)",
+    "id": "s_3262493",
+    "it": "Vorrei un po' di vino.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3262493",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "bailujia",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -5183,6 +5369,28 @@
       "ERR_GLI_PALATAL": "gli_palatale"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quisiera una birra.",
+    "es_author": "hayastan",
+    "es_source_id": "9820554",
+    "id": "s_3475686",
+    "it": "Vorrei una birra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3475686",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "martin",
@@ -5325,6 +5533,29 @@
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quisiera una manzana.",
+    "es_author": "IA (Claude)",
+    "id": "s_3569833",
+    "it": "Vorrei una mela.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3569833",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -7046,6 +7277,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Yo pido un café y un cuerno (cornetto).",
+    "es_author": "IA (Claude)",
+    "id": "s_470011",
+    "it": "Io prendo un caffè e un cornetto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "470011",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_VOC_BAR"
     ],
     "es": "¿Dónde está el té con leche?",
@@ -7501,6 +7755,30 @@
       "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quisiera un jugo de naranja.",
+    "es_author": "IA (Claude)",
+    "id": "s_5363419",
+    "it": "Vorrei un succo d'arancia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5363419",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -8561,6 +8839,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quisiera cenar contigo.",
+    "es_author": "IA (Claude)",
+    "id": "s_714596",
+    "it": "Vorrei cenare con te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "714596",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -9376,6 +9677,29 @@
       "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VORREI"
+    ],
+    "es": "Quisiera una taza de café.",
+    "es_author": "IA (Claude)",
+    "id": "s_946623",
+    "it": "Vorrei una tazza di caffè.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "946623",
+    "tag_rules": {
+      "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",

@@ -70,7 +70,7 @@
     "ERR_ARTICLE_ALLOMORPH": {
       "capsule": true,
       "reason": null,
-      "usable": 31
+      "usable": 45
     },
     "ERR_AUX_ESSERE": {
       "capsule": true,
@@ -115,7 +115,7 @@
     "ERR_GLI_PALATAL": {
       "capsule": true,
       "reason": null,
-      "usable": 39
+      "usable": 59
     },
     "ERR_GN_Z_SPELLING": {
       "capsule": true,
@@ -165,7 +165,7 @@
     "ERR_POSSESSIVE_SPELLING": {
       "capsule": true,
       "reason": null,
-      "usable": 34
+      "usable": 49
     },
     "ERR_PREP_ARTICLE_CONTRACTION": {
       "capsule": true,
@@ -175,7 +175,7 @@
     "ERR_PREP_PLACE": {
       "capsule": true,
       "reason": null,
-      "usable": 31
+      "usable": 47
     },
     "ERR_PRESENT_ARE": {
       "capsule": true,
@@ -215,7 +215,7 @@
     "ERR_SC_PALATAL": {
       "capsule": true,
       "reason": null,
-      "usable": 34
+      "usable": 52
     },
     "ERR_TENERE_AVERE": {
       "capsule": true,
@@ -250,7 +250,7 @@
     "ERR_VOC_BAR": {
       "capsule": true,
       "reason": null,
-      "usable": 35
+      "usable": 51
     },
     "ERR_VOC_CASA": {
       "capsule": true,
@@ -290,7 +290,7 @@
     "ERR_VOC_DENARO": {
       "capsule": true,
       "reason": null,
-      "usable": 35
+      "usable": 50
     },
     "ERR_VOC_DIMOSTRATIVI": {
       "capsule": true,
@@ -355,7 +355,7 @@
     "ERR_VOC_QUANTITA": {
       "capsule": true,
       "reason": null,
-      "usable": 32
+      "usable": 51
     },
     "ERR_VOC_SALUTE": {
       "capsule": true,
@@ -390,22 +390,22 @@
     "ERR_VOC_VORREI": {
       "capsule": true,
       "reason": null,
-      "usable": 38
+      "usable": 63
     }
   },
   "levels": {
-    "A1": 2146,
-    "A2": 413,
+    "A1": 2290,
+    "A2": 427,
     "B1": 146,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 2685,
+    "llm-audit": 2843,
     "me": 27
   },
-  "sentences_used": 2540,
+  "sentences_used": 2698,
   "translation_kind": {
-    "direct": 1876,
-    "llm": 664
+    "direct": 1897,
+    "llm": 801
   }
 }

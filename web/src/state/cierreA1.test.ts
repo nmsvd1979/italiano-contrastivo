@@ -12,23 +12,9 @@ const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code
   course: read("course.json"), readings: read("readings.json"), readingItems: read("reading_items.json") } as ContentPack;
 const MIN_SENTENCES = 30; // el objetivo original era 40 (MIN_SENTENCES_TARGET): se exige 30 y se declara la diferencia
 
-const KNOWN_GAPS: Record<string, string[]> = {
-  // Cayeron bajo 30 oraciones (2026-11-22) al aplicar el prefiltro de auditoría a las unidades A1: se quitaron las que traían
-  // imperfetto, congiuntivo, condicional o más de 14 palabras. Quedan: u07 27, u02 29, u05 27. Faltan oraciones nuevas de A1.
-  u07: ["oraciones"],
-  u02: ["oraciones"],
-  u05: ["oraciones"],
-  // 2026-11-23: las unidades de sonidos ahora exigen frases de ≤7 palabras y sin enclíticos (pensarci) ni passato con essere; u19 queda en 25 y u20 en 28.
-  // Además salió de la ruta u47 (opcional, A1+): bajó a 17 oraciones utilizables con los mismos filtros. Faltan oraciones cortas nuevas.
-  u19: ["oraciones"],
-  u20: ["oraciones"],
-  // 2026-11-23: tope de 12 oraciones por palabra del tema (balance_by_word) y u65 sin «voglio»: u39, u35, u42 y u65 quedan bajo 30. Es escasez real de oraciones
-  // (Tatoeba); la solución son diálogos y oraciones propias de las fuentes (Bloque 2 de docs/auditoria-cobertura-a1.md).
-  u39: ["oraciones"],
-  u35: ["oraciones"],
-  u65: ["oraciones"],
-  u42: ["oraciones"],
-};
+// Sin huecos conocidos (2026-11-24): las nueve unidades que estaban bajo 30 oraciones se completaron con oraciones de Tatoeba auditadas por IA
+// (ver CONTINUIDAD.md). Cualquier hueco nuevo falla este test y debe declararse aquí con su razón.
+const KNOWN_GAPS: Record<string, string[]> = {};
 
 function gaps(): Record<string, string[]> {
   const out: Record<string, string[]> = {};

@@ -158,24 +158,24 @@
     "id": "cap_err_gli_palatal",
     "retrieval": [
       {
-        "id": "it_choice_s_1155617_ERR_GLI_PALATAL",
+        "id": "it_choice_s_1114710_ERR_GLI_PALATAL",
         "listen": true,
         "options": [
           {
             "correct": true,
-            "text": "È solo un consiglio."
+            "text": "È suo figlio."
           },
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_GLI_PALATAL",
-            "text": "È solo un consillio."
+            "text": "È suo fillio."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1155617",
+        "sentence_id": "s_1114710",
         "target_error_codes": [
           "ERR_GLI_PALATAL"
         ],
@@ -183,61 +183,59 @@
       },
       {
         "answers": [
-          "biglietto"
+          "figlio"
         ],
-        "hint_es": "Tom tiene un boleto.",
-        "id": "it_cloze_s_3334124_ERR_GLI_PALATAL",
+        "hint_es": "Es mi hijo.",
+        "id": "it_cloze_s_1974641_ERR_GLI_PALATAL",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_3334124",
+        "sentence_id": "s_1974641",
         "target_error_codes": [
           "ERR_GLI_PALATAL"
         ],
-        "text": "Tom ha un ___.",
+        "text": "È mio ___.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Questa",
-          "è",
+          "È",
           "mia",
           "moglie."
         ],
-        "id": "it_reorder_s_4461392_ERR_GLI_PALATAL",
-        "prompt_es": "Ordena las palabras: «Esta es mi esposa.»",
+        "id": "it_reorder_s_2238067_ERR_GLI_PALATAL",
+        "prompt_es": "Ordena las palabras: «Es mi esposa.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_4461392",
+        "sentence_id": "s_2238067",
         "target_error_codes": [
           "ERR_GLI_PALATAL"
         ],
         "tokens": [
+          "moglie.",
           "mia",
-          "è",
-          "Questa",
-          "moglie."
+          "È"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_11871336_ERR_GLI_PALATAL",
+        "id": "it_choice_s_2870293_ERR_GLI_PALATAL",
         "listen": true,
         "options": [
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_GLI_PALATAL",
-            "text": "Non volliamo la guerra."
+            "text": "Ha un fillio."
           },
           {
             "correct": true,
-            "text": "Non vogliamo la guerra."
+            "text": "Ha un figlio."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_11871336",
+        "sentence_id": "s_2870293",
         "target_error_codes": [
           "ERR_GLI_PALATAL"
         ],
@@ -245,41 +243,37 @@
       },
       {
         "answers": [
-          "meglio"
+          "figlio"
         ],
-        "hint_es": "Estoy mejor.",
-        "id": "it_cloze_s_1945187_ERR_GLI_PALATAL",
+        "hint_es": "Tengo un hijo.",
+        "id": "it_cloze_s_3574257_ERR_GLI_PALATAL",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1945187",
+        "sentence_id": "s_3574257",
         "target_error_codes": [
           "ERR_GLI_PALATAL"
         ],
-        "text": "Mi sto sentendo ___.",
+        "text": "Ho un ___.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Questo",
-          "non",
-          "è",
-          "mio",
-          "figlio."
+          "È",
+          "tua",
+          "moglie?"
         ],
-        "id": "it_reorder_s_3401520_ERR_GLI_PALATAL",
-        "prompt_es": "Ordena las palabras: «Ese no es mi hijo.»",
+        "id": "it_reorder_s_5680247_ERR_GLI_PALATAL",
+        "prompt_es": "Ordena las palabras: «¿Es tu esposa?»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_3401520",
+        "sentence_id": "s_5680247",
         "target_error_codes": [
           "ERR_GLI_PALATAL"
         ],
         "tokens": [
-          "non",
-          "mio",
-          "figlio.",
-          "Questo",
-          "è"
+          "tua",
+          "È",
+          "moglie?"
         ],
         "type": "reorder"
       }
@@ -290,13 +284,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Ti toglie il fiato."
+        "È tuo figlio."
       ],
-      "id": "it_translate_s_1191467_ERR_GLI_PALATAL",
+      "id": "it_translate_s_1114707_ERR_GLI_PALATAL",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_1191467",
-      "source_es": "Te deja sin aliento.",
+      "sentence_id": "s_1114707",
+      "source_es": "Es tu hijo.",
       "target_error_codes": [
         "ERR_GLI_PALATAL"
       ],
@@ -312,24 +306,30 @@
     "id": "cap_err_sc_palatal",
     "retrieval": [
       {
-        "id": "it_choice_s_4383741_ERR_SC_PALATAL",
+        "id": "it_choice_s_3622809_ERR_SC_PALATAL",
         "listen": true,
         "options": [
           {
             "correct": true,
-            "text": "La neve si scioglie."
+            "text": "Scenda da lì."
           },
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_SC_PALATAL",
-            "text": "La neve si schioglie."
+            "text": "Schenda da lì."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_SC_PALATAL",
+            "text": "schenda da lì."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_4383741",
+        "sentence_id": "s_3622809",
         "target_error_codes": [
           "ERR_SC_PALATAL"
         ],
@@ -337,61 +337,59 @@
       },
       {
         "answers": [
-          "Capisce"
+          "scelte"
         ],
-        "hint_es": "Entiende cómo te sientes.",
-        "id": "it_cloze_s_11949804_ERR_SC_PALATAL",
+        "hint_es": "Tiene tres opciones.",
+        "id": "it_cloze_s_10540721_ERR_SC_PALATAL",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_11949804",
+        "sentence_id": "s_10540721",
         "target_error_codes": [
           "ERR_SC_PALATAL"
         ],
-        "text": "___ come ti senti.",
+        "text": "Ha tre ___.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Lui",
-          "conosce",
-          "la",
-          "verità."
+          "Tu",
+          "mi",
+          "capisci."
         ],
-        "id": "it_reorder_s_1970624_ERR_SC_PALATAL",
-        "prompt_es": "Ordena las palabras: «Él sabe la verdad.»",
+        "id": "it_reorder_s_1188209_ERR_SC_PALATAL",
+        "prompt_es": "Ordena las palabras: «Tú me entiendes.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1970624",
+        "sentence_id": "s_1188209",
         "target_error_codes": [
           "ERR_SC_PALATAL"
         ],
         "tokens": [
-          "verità.",
-          "conosce",
-          "la",
-          "Lui"
+          "capisci.",
+          "Tu",
+          "mi"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_3410486_ERR_SC_PALATAL",
+        "id": "it_choice_s_13297701_ERR_SC_PALATAL",
         "listen": true,
         "options": [
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_SC_PALATAL",
-            "text": "La sua pelle è lischia."
+            "text": "Io amo schiare."
           },
           {
             "correct": true,
-            "text": "La sua pelle è liscia."
+            "text": "Io amo sciare."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_3410486",
+        "sentence_id": "s_13297701",
         "target_error_codes": [
           "ERR_SC_PALATAL"
         ],
@@ -399,39 +397,37 @@
       },
       {
         "answers": [
-          "riesce"
+          "scherzo"
         ],
-        "hint_es": "A ella se le da bien cantar.",
-        "id": "it_cloze_s_1512719_ERR_SC_PALATAL",
+        "hint_es": "¿Es una broma?",
+        "id": "it_cloze_s_1805304_ERR_SC_PALATAL",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1512719",
+        "sentence_id": "s_1805304",
         "target_error_codes": [
           "ERR_SC_PALATAL"
         ],
-        "text": "Cantare le ___ bene.",
+        "text": "È uno ___?",
         "type": "cloze"
       },
       {
         "answer": [
-          "Mary",
-          "capisce",
-          "il",
-          "cinese."
+          "Tu",
+          "la",
+          "conosci."
         ],
-        "id": "it_reorder_s_379137_ERR_SC_PALATAL",
-        "prompt_es": "Ordena las palabras: «Maria entiende chino.»",
+        "id": "it_reorder_s_2521268_ERR_SC_PALATAL",
+        "prompt_es": "Ordena las palabras: «Tú la conoces.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_379137",
+        "sentence_id": "s_2521268",
         "target_error_codes": [
           "ERR_SC_PALATAL"
         ],
         "tokens": [
-          "cinese.",
-          "capisce",
-          "il",
-          "Mary"
+          "conosci.",
+          "la",
+          "Tu"
         ],
         "type": "reorder"
       }
@@ -442,13 +438,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "È carne di scimmia."
+        "Scendi da lì."
       ],
-      "id": "it_translate_s_1215046_ERR_SC_PALATAL",
+      "id": "it_translate_s_3622808_ERR_SC_PALATAL",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_1215046",
-      "source_es": "Es carne de mono.",
+      "sentence_id": "s_3622808",
+      "source_es": "Baja de ahí.",
       "target_error_codes": [
         "ERR_SC_PALATAL"
       ],
@@ -464,23 +460,84 @@
     "id": "cap_err_possessive_spelling",
     "retrieval": [
       {
-        "id": "it_choice_s_3996278_ERR_POSSESSIVE_SPELLING",
+        "id": "it_choice_s_12939128_ERR_POSSESSIVE_SPELLING",
         "options": [
           {
             "correct": true,
-            "text": "Tom è il mio dentista."
+            "text": "È il tuo DVD?"
           },
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_POSSESSIVE_SPELLING",
-            "text": "Tom è il mi dentista."
+            "text": "È il tu DVD?"
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_3996278",
+        "sentence_id": "s_12939128",
+        "target_error_codes": [
+          "ERR_POSSESSIVE_SPELLING"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "suo"
+        ],
+        "hint_es": "¿Es su DVD?",
+        "id": "it_cloze_s_12939129_ERR_POSSESSIVE_SPELLING",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_12939129",
+        "target_error_codes": [
+          "ERR_POSSESSIVE_SPELLING"
+        ],
+        "text": "È il ___ DVD?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Non",
+          "è",
+          "la",
+          "mia."
+        ],
+        "id": "it_reorder_s_3349015_ERR_POSSESSIVE_SPELLING",
+        "prompt_es": "Ordena las palabras: «No es la mía.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3349015",
+        "target_error_codes": [
+          "ERR_POSSESSIVE_SPELLING"
+        ],
+        "tokens": [
+          "mia.",
+          "la",
+          "Non",
+          "è"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_4714089_ERR_POSSESSIVE_SPELLING",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_POSSESSIVE_SPELLING",
+            "text": "Non è il mi."
+          },
+          {
+            "correct": true,
+            "text": "Non è il mio."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4714089",
         "target_error_codes": [
           "ERR_POSSESSIVE_SPELLING"
         ],
@@ -490,102 +547,37 @@
         "answers": [
           "tua"
         ],
-        "hint_es": "¿Cuál es tu opinión?",
-        "id": "it_cloze_s_377545_ERR_POSSESSIVE_SPELLING",
+        "hint_es": "¿Es tu casa?",
+        "id": "it_cloze_s_11078608_ERR_POSSESSIVE_SPELLING",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_377545",
+        "sentence_id": "s_11078608",
         "target_error_codes": [
           "ERR_POSSESSIVE_SPELLING"
         ],
-        "text": "Qual è la ___ opinione?",
+        "text": "È la ___ casa?",
         "type": "cloze"
       },
       {
         "answer": [
-          "Qual",
-          "è",
-          "il",
-          "tuo",
-          "preferito?"
+          "È",
+          "la",
+          "sua",
+          "casa?"
         ],
-        "id": "it_reorder_s_2199984_ERR_POSSESSIVE_SPELLING",
-        "prompt_es": "Ordena las palabras: «¿Cuál es tu preferido?»",
+        "id": "it_reorder_s_11078609_ERR_POSSESSIVE_SPELLING",
+        "prompt_es": "Ordena las palabras: «¿Es su casa?»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2199984",
+        "sentence_id": "s_11078609",
         "target_error_codes": [
           "ERR_POSSESSIVE_SPELLING"
         ],
         "tokens": [
-          "tuo",
-          "Qual",
-          "preferito?",
-          "è",
-          "il"
-        ],
-        "type": "reorder"
-      },
-      {
-        "id": "it_choice_s_2199989_ERR_POSSESSIVE_SPELLING",
-        "options": [
-          {
-            "correct": false,
-            "distractor_kind": "morphological",
-            "error_code": "ERR_POSSESSIVE_SPELLING",
-            "text": "Qual è la su preferita?"
-          },
-          {
-            "correct": true,
-            "text": "Qual è la sua preferita?"
-          }
-        ],
-        "prompt_es": "¿Cuál es la frase correcta en italiano?",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_2199989",
-        "target_error_codes": [
-          "ERR_POSSESSIVE_SPELLING"
-        ],
-        "type": "choice_l1_distractor"
-      },
-      {
-        "answers": [
-          "tuo"
-        ],
-        "hint_es": "Tu deber es estudiar.",
-        "id": "it_cloze_s_945591_ERR_POSSESSIVE_SPELLING",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_945591",
-        "target_error_codes": [
-          "ERR_POSSESSIVE_SPELLING"
-        ],
-        "text": "È il ___ dovere studiare.",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Dove",
-          "sono",
-          "i",
-          "miei",
-          "occhiali?"
-        ],
-        "id": "it_reorder_s_374617_ERR_POSSESSIVE_SPELLING",
-        "prompt_es": "Ordena las palabras: «¿Dónde están mis lentes?»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_374617",
-        "target_error_codes": [
-          "ERR_POSSESSIVE_SPELLING"
-        ],
-        "tokens": [
-          "i",
-          "Dove",
-          "miei",
-          "sono",
-          "occhiali?"
+          "È",
+          "sua",
+          "la",
+          "casa?"
         ],
         "type": "reorder"
       }
@@ -596,13 +588,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Bob è il mio amico."
+        "È il mio CD."
       ],
-      "id": "it_translate_s_2077177_ERR_POSSESSIVE_SPELLING",
+      "id": "it_translate_s_1255270_ERR_POSSESSIVE_SPELLING",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_2077177",
-      "source_es": "Bob es mi amigo.",
+      "sentence_id": "s_1255270",
+      "source_es": "Es mi CD.",
       "target_error_codes": [
         "ERR_POSSESSIVE_SPELLING"
       ],
@@ -1580,84 +1572,23 @@
     "id": "cap_err_article_allomorph",
     "retrieval": [
       {
-        "id": "it_choice_s_482546_ERR_ARTICLE_ALLOMORPH",
+        "id": "it_choice_s_8162756_ERR_ARTICLE_ALLOMORPH",
         "options": [
           {
             "correct": true,
-            "text": "Non parlo lo svedese."
+            "text": "Odio gli zoo."
           },
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_ARTICLE_ALLOMORPH",
-            "text": "Non parlo il svedese."
+            "text": "Odio i zoo."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_482546",
-        "target_error_codes": [
-          "ERR_ARTICLE_ALLOMORPH"
-        ],
-        "type": "choice_l1_distractor"
-      },
-      {
-        "answers": [
-          "gli"
-        ],
-        "hint_es": "¿Dónde están los ascensores?",
-        "id": "it_cloze_s_10636288_ERR_ARTICLE_ALLOMORPH",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_10636288",
-        "target_error_codes": [
-          "ERR_ARTICLE_ALLOMORPH"
-        ],
-        "text": "Dove sono ___ ascensori?",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Abbiamo",
-          "lo",
-          "stesso",
-          "padre."
-        ],
-        "id": "it_reorder_s_11815370_ERR_ARTICLE_ALLOMORPH",
-        "prompt_es": "Ordena las palabras: «Tenemos el mismo padre.»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_11815370",
-        "target_error_codes": [
-          "ERR_ARTICLE_ALLOMORPH"
-        ],
-        "tokens": [
-          "Abbiamo",
-          "stesso",
-          "lo",
-          "padre."
-        ],
-        "type": "reorder"
-      },
-      {
-        "id": "it_choice_s_2423241_ERR_ARTICLE_ALLOMORPH",
-        "options": [
-          {
-            "correct": false,
-            "distractor_kind": "morphological",
-            "error_code": "ERR_ARTICLE_ALLOMORPH",
-            "text": "I studenti sono pigri."
-          },
-          {
-            "correct": true,
-            "text": "Gli studenti sono pigri."
-          }
-        ],
-        "prompt_es": "¿Cuál es la frase correcta en italiano?",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_2423241",
+        "sentence_id": "s_8162756",
         "target_error_codes": [
           "ERR_ARTICLE_ALLOMORPH"
         ],
@@ -1667,39 +1598,94 @@
         "answers": [
           "lo"
         ],
-        "hint_es": "Aquí se habla español.",
-        "id": "it_cloze_s_2352895_ERR_ARTICLE_ALLOMORPH",
+        "hint_es": "¿Dónde está el zoológico?",
+        "id": "it_cloze_s_868634_ERR_ARTICLE_ALLOMORPH",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2352895",
+        "sentence_id": "s_868634",
         "target_error_codes": [
           "ERR_ARTICLE_ALLOMORPH"
         ],
-        "text": "Si parla ___ spagnolo qui.",
+        "text": "Dov'è ___ zoo?",
         "type": "cloze"
       },
       {
         "answer": [
-          "Mary",
-          "ha",
+          "Amo",
           "gli",
-          "occhi",
-          "grandi."
+          "sport."
         ],
-        "id": "it_reorder_s_2457911_ERR_ARTICLE_ALLOMORPH",
-        "prompt_es": "Ordena las palabras: «Mary tiene los ojos grandes.»",
+        "id": "it_reorder_s_2895776_ERR_ARTICLE_ALLOMORPH",
+        "prompt_es": "Ordena las palabras: «Amo los deportes.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2457911",
+        "sentence_id": "s_2895776",
         "target_error_codes": [
           "ERR_ARTICLE_ALLOMORPH"
         ],
         "tokens": [
-          "ha",
-          "grandi.",
+          "sport.",
+          "Amo",
+          "gli"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_4798271_ERR_ARTICLE_ALLOMORPH",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_ARTICLE_ALLOMORPH",
+            "text": "Ho i incubi."
+          },
+          {
+            "correct": true,
+            "text": "Ho gli incubi."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4798271",
+        "target_error_codes": [
+          "ERR_ARTICLE_ALLOMORPH"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "gli"
+        ],
+        "hint_es": "¿Tienes pesadillas?",
+        "id": "it_cloze_s_1449174_ERR_ARTICLE_ALLOMORPH",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1449174",
+        "target_error_codes": [
+          "ERR_ARTICLE_ALLOMORPH"
+        ],
+        "text": "Hai ___ incubi?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Apri",
           "gli",
-          "Mary",
-          "occhi"
+          "occhi."
+        ],
+        "id": "it_reorder_s_967950_ERR_ARTICLE_ALLOMORPH",
+        "prompt_es": "Ordena las palabras: «Abre los ojos.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_967950",
+        "target_error_codes": [
+          "ERR_ARTICLE_ALLOMORPH"
+        ],
+        "tokens": [
+          "gli",
+          "occhi.",
+          "Apri"
         ],
         "type": "reorder"
       }
@@ -1710,13 +1696,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Ho gli occhi azzurri."
+        "È lo stesso."
       ],
-      "id": "it_translate_s_2396988_ERR_ARTICLE_ALLOMORPH",
+      "id": "it_translate_s_5230097_ERR_ARTICLE_ALLOMORPH",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_2396988",
-      "source_es": "Tengo ojos azules.",
+      "sentence_id": "s_5230097",
+      "source_es": "Es lo mismo.",
       "target_error_codes": [
         "ERR_ARTICLE_ALLOMORPH"
       ],
@@ -2038,23 +2024,23 @@
     "id": "cap_err_prep_place",
     "retrieval": [
       {
-        "id": "it_choice_s_13267842_ERR_PREP_PLACE",
+        "id": "it_choice_s_2706954_ERR_PREP_PLACE",
         "options": [
           {
             "correct": true,
-            "text": "Io abito a Parigi."
+            "text": "Vive a Roma."
           },
           {
             "correct": false,
             "distractor_kind": "l1_calque",
             "error_code": "ERR_PREP_PLACE",
-            "text": "Io abito in Parigi."
+            "text": "Vive in Roma."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_13267842",
+        "sentence_id": "s_2706954",
         "target_error_codes": [
           "ERR_PREP_PLACE"
         ],
@@ -2064,58 +2050,56 @@
         "answers": [
           "a"
         ],
-        "hint_es": "Ella vive en Londres.",
-        "id": "it_cloze_s_1311901_ERR_PREP_PLACE",
+        "hint_es": "Ella vive en Roma.",
+        "id": "it_cloze_s_2706953_ERR_PREP_PLACE",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1311901",
+        "sentence_id": "s_2706953",
         "target_error_codes": [
           "ERR_PREP_PLACE"
         ],
-        "text": "Lei abita ___ Londra.",
+        "text": "Abita ___ Roma.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Domani",
-          "vado",
+          "Sono",
           "a",
           "Parigi."
         ],
-        "id": "it_reorder_s_1082492_ERR_PREP_PLACE",
-        "prompt_es": "Ordena las palabras: «Mañana voy a París.»",
+        "id": "it_reorder_s_1082488_ERR_PREP_PLACE",
+        "prompt_es": "Ordena las palabras: «Estoy en París.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1082492",
+        "sentence_id": "s_1082488",
         "target_error_codes": [
           "ERR_PREP_PLACE"
         ],
         "tokens": [
-          "Domani",
           "Parigi.",
-          "a",
-          "vado"
+          "Sono",
+          "a"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_13267986_ERR_PREP_PLACE",
+        "id": "it_choice_s_1311898_ERR_PREP_PLACE",
         "options": [
           {
             "correct": false,
             "distractor_kind": "l1_calque",
             "error_code": "ERR_PREP_PLACE",
-            "text": "Vado in Parigi domani."
+            "text": "Vive in Londra."
           },
           {
             "correct": true,
-            "text": "Vado a Parigi domani."
+            "text": "Vive a Londra."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_13267986",
+        "sentence_id": "s_1311898",
         "target_error_codes": [
           "ERR_PREP_PLACE"
         ],
@@ -2123,40 +2107,36 @@
       },
       {
         "answers": [
-          "in"
+          "a"
         ],
-        "hint_es": "Ahora trabaja en Francia.",
-        "id": "it_cloze_s_1133603_ERR_PREP_PLACE",
+        "hint_es": "Voy a Londres.",
+        "id": "it_cloze_s_3336672_ERR_PREP_PLACE",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1133603",
+        "sentence_id": "s_3336672",
         "target_error_codes": [
           "ERR_PREP_PLACE"
         ],
-        "text": "Ora lavora ___ Francia.",
+        "text": "Vado ___ Londra.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Tutto",
-          "è",
-          "caro",
+          "Sono",
           "a",
           "Londra."
         ],
-        "id": "it_reorder_s_1701493_ERR_PREP_PLACE",
-        "prompt_es": "Ordena las palabras: «Todo es caro en Londres.»",
+        "id": "it_reorder_s_395460_ERR_PREP_PLACE",
+        "prompt_es": "Ordena las palabras: «Estoy en Londres.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1701493",
+        "sentence_id": "s_395460",
         "target_error_codes": [
           "ERR_PREP_PLACE"
         ],
         "tokens": [
-          "caro",
           "Londra.",
-          "Tutto",
-          "è",
+          "Sono",
           "a"
         ],
         "type": "reorder"
@@ -2168,13 +2148,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Roma è in Italia."
+        "Vivo a Roma."
       ],
-      "id": "it_translate_s_375345_ERR_PREP_PLACE",
+      "id": "it_translate_s_2706916_ERR_PREP_PLACE",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_375345",
-      "source_es": "Roma queda en Italia.",
+      "sentence_id": "s_2706916",
+      "source_es": "Vivo en Roma.",
       "target_error_codes": [
         "ERR_PREP_PLACE"
       ],
@@ -4812,98 +4792,30 @@
     "id": "cap_err_voc_bar",
     "retrieval": [
       {
-        "id": "it_choice_s_1999830_ERR_VOC_BAR",
+        "id": "it_choice_s_2792285_ERR_VOC_BAR",
         "listen": true,
         "options": [
           {
             "correct": true,
-            "text": "Dov'è il mio tè?"
+            "text": "Amo il tè."
           },
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_BAR",
-            "text": "Dov'è il mio tovagliolo?"
+            "text": "Amo il tovagliolo."
           },
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_BAR",
-            "text": "Dov'è il mio succo?"
+            "text": "Amo il conto."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1999830",
-        "target_error_codes": [
-          "ERR_VOC_BAR"
-        ],
-        "type": "choice_l1_distractor"
-      },
-      {
-        "answers": [
-          "cucchiaio"
-        ],
-        "hint_es": "Hay una cuchara.",
-        "id": "it_cloze_s_7061114_ERR_VOC_BAR",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_7061114",
-        "target_error_codes": [
-          "ERR_VOC_BAR"
-        ],
-        "text": "C'è un ___.",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Noi",
-          "non",
-          "abbiamo",
-          "tè."
-        ],
-        "id": "it_reorder_s_3985008_ERR_VOC_BAR",
-        "prompt_es": "Ordena las palabras: «No tenemos té.»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_3985008",
-        "target_error_codes": [
-          "ERR_VOC_BAR"
-        ],
-        "tokens": [
-          "tè.",
-          "non",
-          "Noi",
-          "abbiamo"
-        ],
-        "type": "reorder"
-      },
-      {
-        "id": "it_choice_s_423815_ERR_VOC_BAR",
-        "listen": true,
-        "options": [
-          {
-            "correct": false,
-            "distractor_kind": "different_word",
-            "error_code": "ERR_VOC_BAR",
-            "text": "Abbiamo solo del succo."
-          },
-          {
-            "correct": false,
-            "distractor_kind": "different_word",
-            "error_code": "ERR_VOC_BAR",
-            "text": "Abbiamo solo del cappuccino."
-          },
-          {
-            "correct": true,
-            "text": "Abbiamo solo del tè."
-          }
-        ],
-        "prompt_es": "Escucha la frase y elige cómo se escribe.",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_423815",
+        "sentence_id": "s_2792285",
         "target_error_codes": [
           "ERR_VOC_BAR"
         ],
@@ -4913,39 +4825,105 @@
         "answers": [
           "tè"
         ],
-        "hint_es": "Bebo el té con limón.",
-        "id": "it_cloze_s_11142019_ERR_VOC_BAR",
+        "hint_es": "Bebe té.",
+        "id": "it_cloze_s_2696943_ERR_VOC_BAR",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_11142019",
+        "sentence_id": "s_2696943",
         "target_error_codes": [
           "ERR_VOC_BAR"
         ],
-        "text": "Bevo il ___ al limone.",
+        "text": "Beve del ___.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Vuoi",
-          "bere",
-          "tè",
-          "o",
-          "caffè?"
+          "Tom",
+          "è",
+          "al",
+          "bar."
         ],
-        "id": "it_reorder_s_1308150_ERR_VOC_BAR",
-        "prompt_es": "Ordena las palabras: «¿Quieres beber té o café?»",
+        "id": "it_reorder_s_2018462_ERR_VOC_BAR",
+        "prompt_es": "Ordena las palabras: «Tom está en el bar.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1308150",
+        "sentence_id": "s_2018462",
         "target_error_codes": [
           "ERR_VOC_BAR"
         ],
         "tokens": [
-          "bere",
-          "Vuoi",
-          "tè",
-          "o",
-          "caffè?"
+          "al",
+          "è",
+          "bar.",
+          "Tom"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_12537721_ERR_VOC_BAR",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_BAR",
+            "text": "Il menù è dolce."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_BAR",
+            "text": "Il cucchiaio è dolce."
+          },
+          {
+            "correct": true,
+            "text": "Il tè è dolce."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_12537721",
+        "target_error_codes": [
+          "ERR_VOC_BAR"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "tè"
+        ],
+        "hint_es": "El té está caliente.",
+        "id": "it_cloze_s_3350600_ERR_VOC_BAR",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3350600",
+        "target_error_codes": [
+          "ERR_VOC_BAR"
+        ],
+        "text": "Il ___ è caldo.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Non",
+          "è",
+          "in",
+          "menù."
+        ],
+        "id": "it_reorder_s_3540890_ERR_VOC_BAR",
+        "prompt_es": "Ordena las palabras: «No está en el menú.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3540890",
+        "target_error_codes": [
+          "ERR_VOC_BAR"
+        ],
+        "tokens": [
+          "Non",
+          "menù.",
+          "in",
+          "è"
         ],
         "type": "reorder"
       }
@@ -4956,13 +4934,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Gli piace il tè."
+        "È un bar."
       ],
-      "id": "it_translate_s_1118828_ERR_VOC_BAR",
+      "id": "it_translate_s_5393608_ERR_VOC_BAR",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_1118828",
-      "source_es": "Le gusta el té.",
+      "sentence_id": "s_5393608",
+      "source_es": "Es un bar.",
       "target_error_codes": [
         "ERR_VOC_BAR"
       ],
@@ -6132,24 +6110,24 @@
     "id": "cap_err_voc_denaro",
     "retrieval": [
       {
-        "id": "it_choice_s_373885_ERR_VOC_DENARO",
+        "id": "it_choice_s_2800658_ERR_VOC_DENARO",
         "listen": true,
         "options": [
           {
             "correct": true,
-            "text": "Non ho molti soldi."
+            "text": "Ha dei soldi?"
           },
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_DENARO",
-            "text": "Non ho molti contanti."
+            "text": "Ha dei contanti?"
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_373885",
+        "sentence_id": "s_2800658",
         "target_error_codes": [
           "ERR_VOC_DENARO"
         ],
@@ -6159,59 +6137,63 @@
         "answers": [
           "soldi"
         ],
-        "hint_es": "Tom quiere dinero.",
-        "id": "it_cloze_s_5285265_ERR_VOC_DENARO",
+        "hint_es": "No tengo dinero.",
+        "id": "it_cloze_s_373416_ERR_VOC_DENARO",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_5285265",
+        "sentence_id": "s_373416",
         "target_error_codes": [
           "ERR_VOC_DENARO"
         ],
-        "text": "Tom vuole dei ___.",
+        "text": "Non ho ___.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Mi",
-          "deve",
-          "molti",
+          "Non",
+          "ha",
           "soldi."
         ],
-        "id": "it_reorder_s_8710304_ERR_VOC_DENARO",
-        "prompt_es": "Ordena las palabras: «Él me debe mucho dinero.»",
+        "id": "it_reorder_s_635160_ERR_VOC_DENARO",
+        "prompt_es": "Ordena las palabras: «No tiene dinero.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_8710304",
+        "sentence_id": "s_635160",
         "target_error_codes": [
           "ERR_VOC_DENARO"
         ],
         "tokens": [
-          "deve",
-          "Mi",
           "soldi.",
-          "molti"
+          "ha",
+          "Non"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_1256041_ERR_VOC_DENARO",
+        "id": "it_choice_s_13295354_ERR_VOC_DENARO",
         "listen": true,
         "options": [
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_DENARO",
-            "text": "Non ho contanti per ora."
+            "text": "Ha una spesa?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_DENARO",
+            "text": "Ha una banconota?"
           },
           {
             "correct": true,
-            "text": "Non ho soldi per ora."
+            "text": "Ha una moneta?"
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1256041",
+        "sentence_id": "s_13295354",
         "target_error_codes": [
           "ERR_VOC_DENARO"
         ],
@@ -6219,41 +6201,37 @@
       },
       {
         "answers": [
-          "soldi"
+          "moneta"
         ],
-        "hint_es": "Yo no quiero el dinero.",
-        "id": "it_cloze_s_2762214_ERR_VOC_DENARO",
+        "hint_es": "¿Tienes una moneda?",
+        "id": "it_cloze_s_13295353_ERR_VOC_DENARO",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2762214",
+        "sentence_id": "s_13295353",
         "target_error_codes": [
           "ERR_VOC_DENARO"
         ],
-        "text": "Io non voglio i ___.",
+        "text": "Hai una ___?",
         "type": "cloze"
       },
       {
         "answer": [
-          "Voglio",
-          "i",
-          "soldi",
-          "di",
-          "Tom."
+          "Ho",
+          "dei",
+          "contanti."
         ],
-        "id": "it_reorder_s_3838494_ERR_VOC_DENARO",
-        "prompt_es": "Ordena las palabras: «Quiero el dinero de Tom.»",
+        "id": "it_reorder_s_2433169_ERR_VOC_DENARO",
+        "prompt_es": "Ordena las palabras: «Tengo efectivo.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_3838494",
+        "sentence_id": "s_2433169",
         "target_error_codes": [
           "ERR_VOC_DENARO"
         ],
         "tokens": [
-          "Voglio",
-          "Tom.",
-          "soldi",
-          "i",
-          "di"
+          "contanti.",
+          "dei",
+          "Ho"
         ],
         "type": "reorder"
       }
@@ -6264,13 +6242,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Ma non ho soldi."
+        "Ho i soldi."
       ],
-      "id": "it_translate_s_677429_ERR_VOC_DENARO",
+      "id": "it_translate_s_3005883_ERR_VOC_DENARO",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_677429",
-      "source_es": "Pero no tengo dinero.",
+      "sentence_id": "s_3005883",
+      "source_es": "Tengo el dinero.",
       "target_error_codes": [
         "ERR_VOC_DENARO"
       ],
@@ -8246,30 +8224,30 @@
     "id": "cap_err_voc_quantita",
     "retrieval": [
       {
-        "id": "it_choice_s_569335_ERR_VOC_QUANTITA",
+        "id": "it_choice_s_11095961_ERR_VOC_QUANTITA",
         "listen": true,
         "options": [
           {
             "correct": true,
-            "text": "Non ha molti amici."
+            "text": "Ha poco pane."
           },
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_QUANTITA",
-            "text": "Non ha tanti amici."
+            "text": "Ha tanto pane."
           },
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_QUANTITA",
-            "text": "Non ha troppi amici."
+            "text": "Ha molto pane."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_569335",
+        "sentence_id": "s_11095961",
         "target_error_codes": [
           "ERR_VOC_QUANTITA"
         ],
@@ -8277,67 +8255,65 @@
       },
       {
         "answers": [
-          "molte"
+          "molto"
         ],
-        "hint_es": "Tienes muchas amigas.",
-        "id": "it_cloze_s_2515845_ERR_VOC_QUANTITA",
+        "hint_es": "Él te ama mucho.",
+        "id": "it_cloze_s_2742807_ERR_VOC_QUANTITA",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2515845",
+        "sentence_id": "s_2742807",
         "target_error_codes": [
           "ERR_VOC_QUANTITA"
         ],
-        "text": "Tu hai ___ amiche.",
+        "text": "Ti ama ___.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Lei",
-          "ha",
-          "poche",
-          "amiche."
+          "È",
+          "molto",
+          "alta."
         ],
-        "id": "it_reorder_s_2948066_ERR_VOC_QUANTITA",
-        "prompt_es": "Ordena las palabras: «Ella tiene pocas amigas.»",
+        "id": "it_reorder_s_3301490_ERR_VOC_QUANTITA",
+        "prompt_es": "Ordena las palabras: «Es muy alta.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2948066",
+        "sentence_id": "s_3301490",
         "target_error_codes": [
           "ERR_VOC_QUANTITA"
         ],
         "tokens": [
-          "ha",
-          "Lei",
-          "poche",
-          "amiche."
+          "È",
+          "alta.",
+          "molto"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_609170_ERR_VOC_QUANTITA",
+        "id": "it_choice_s_374008_ERR_VOC_QUANTITA",
         "listen": true,
         "options": [
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_QUANTITA",
-            "text": "Egli ha molti amici."
+            "text": "È troppo alto."
           },
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_QUANTITA",
-            "text": "Egli ha troppi amici."
+            "text": "È tanto alto."
           },
           {
             "correct": true,
-            "text": "Egli ha pochi amici."
+            "text": "È molto alto."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_609170",
+        "sentence_id": "s_374008",
         "target_error_codes": [
           "ERR_VOC_QUANTITA"
         ],
@@ -8347,37 +8323,35 @@
         "answers": [
           "troppo"
         ],
-        "hint_es": "Tom es demasiado joven.",
-        "id": "it_cloze_s_2009106_ERR_VOC_QUANTITA",
+        "hint_es": "Es demasiado alto.",
+        "id": "it_cloze_s_1255701_ERR_VOC_QUANTITA",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2009106",
+        "sentence_id": "s_1255701",
         "target_error_codes": [
           "ERR_VOC_QUANTITA"
         ],
-        "text": "Tom è ___ giovane.",
+        "text": "È ___ alto.",
         "type": "cloze"
       },
       {
         "answer": [
-          "L'auto",
-          "è",
+          "È",
           "molto",
-          "veloce."
+          "lenta."
         ],
-        "id": "it_reorder_s_1700522_ERR_VOC_QUANTITA",
-        "prompt_es": "Ordena las palabras: «El auto es muy rápido.»",
+        "id": "it_reorder_s_13299559_ERR_VOC_QUANTITA",
+        "prompt_es": "Ordena las palabras: «Es muy lenta.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1700522",
+        "sentence_id": "s_13299559",
         "target_error_codes": [
           "ERR_VOC_QUANTITA"
         ],
         "tokens": [
-          "molto",
-          "veloce.",
-          "L'auto",
-          "è"
+          "lenta.",
+          "È",
+          "molto"
         ],
         "type": "reorder"
       }
@@ -8388,13 +8362,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Io ho poco denaro."
+        "Ti amo molto."
       ],
-      "id": "it_translate_s_1677721_ERR_VOC_QUANTITA",
+      "id": "it_translate_s_1003979_ERR_VOC_QUANTITA",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_1677721",
-      "source_es": "Apenas tengo dinero.",
+      "sentence_id": "s_1003979",
+      "source_es": "Te amo mucho.",
       "target_error_codes": [
         "ERR_VOC_QUANTITA"
       ],
@@ -9388,24 +9362,24 @@
     "id": "cap_err_voc_vorrei",
     "retrieval": [
       {
-        "id": "it_choice_s_3998742_ERR_VOC_VORREI",
+        "id": "it_choice_s_4007802_ERR_VOC_VORREI",
         "listen": true,
         "options": [
           {
             "correct": true,
-            "text": "Prendiamo qualcosa da bere."
+            "text": "Prendiamo un taxi."
           },
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_VORREI",
-            "text": "Vorremmo qualcosa da bere."
+            "text": "Vorremmo un taxi."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_3998742",
+        "sentence_id": "s_4007802",
         "target_error_codes": [
           "ERR_VOC_VORREI"
         ],
@@ -9413,63 +9387,59 @@
       },
       {
         "answers": [
-          "prendiamo"
+          "Prendiamo"
         ],
-        "hint_es": "¿Por qué no tomamos un taxi?",
-        "id": "it_cloze_s_841131_ERR_VOC_VORREI",
+        "hint_es": "Tomamos un tren.",
+        "id": "it_cloze_s_4832572_ERR_VOC_VORREI",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_841131",
+        "sentence_id": "s_4832572",
         "target_error_codes": [
           "ERR_VOC_VORREI"
         ],
-        "text": "Perché non ___ un taxi?",
+        "text": "___ un treno.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Prendo",
-          "delle",
-          "vitamine",
-          "ogni",
-          "giorno."
+          "Prendiamo",
+          "un",
+          "autobus."
         ],
-        "id": "it_reorder_s_4984420_ERR_VOC_VORREI",
-        "prompt_es": "Ordena las palabras: «Tomo vitaminas todos los días.»",
+        "id": "it_reorder_s_967708_ERR_VOC_VORREI",
+        "prompt_es": "Ordena las palabras: «Tomamos un autobús.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_4984420",
+        "sentence_id": "s_967708",
         "target_error_codes": [
           "ERR_VOC_VORREI"
         ],
         "tokens": [
-          "ogni",
-          "Prendo",
-          "giorno.",
-          "delle",
-          "vitamine"
+          "autobus.",
+          "un",
+          "Prendiamo"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_9706447_ERR_VOC_VORREI",
+        "id": "it_choice_s_2559223_ERR_VOC_VORREI",
         "listen": true,
         "options": [
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_VORREI",
-            "text": "La prossima volta vorrei il treno."
+            "text": "Vorrei delle vitamine."
           },
           {
             "correct": true,
-            "text": "La prossima volta prendo il treno."
+            "text": "Prendo delle vitamine."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_9706447",
+        "sentence_id": "s_2559223",
         "target_error_codes": [
           "ERR_VOC_VORREI"
         ],
@@ -9477,39 +9447,37 @@
       },
       {
         "answers": [
-          "Vorrei"
+          "Prendiamo"
         ],
-        "hint_es": "Me gustaría tener un gato.",
-        "id": "it_cloze_s_1305566_ERR_VOC_VORREI",
+        "hint_es": "Tomamos el ascensor.",
+        "id": "it_cloze_s_4470306_ERR_VOC_VORREI",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1305566",
+        "sentence_id": "s_4470306",
         "target_error_codes": [
           "ERR_VOC_VORREI"
         ],
-        "text": "___ avere un gatto.",
+        "text": "___ l'ascensore.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Vorrei",
-          "essere",
-          "come",
-          "lui!"
+          "Dove",
+          "prendo",
+          "l'autobus?"
         ],
-        "id": "it_reorder_s_1351844_ERR_VOC_VORREI",
-        "prompt_es": "Ordena las palabras: «¡Quisiera ser como él!»",
+        "id": "it_reorder_s_5921770_ERR_VOC_VORREI",
+        "prompt_es": "Ordena las palabras: «¿Dónde tomo el autobús?»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1351844",
+        "sentence_id": "s_5921770",
         "target_error_codes": [
           "ERR_VOC_VORREI"
         ],
         "tokens": [
-          "lui!",
-          "come",
-          "essere",
-          "Vorrei"
+          "prendo",
+          "Dove",
+          "l'autobus?"
         ],
         "type": "reorder"
       }
@@ -9520,13 +9488,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Io prendo delle vitamine."
+        "Prendiamo un bus."
       ],
-      "id": "it_translate_s_2559224_ERR_VOC_VORREI",
+      "id": "it_translate_s_967709_ERR_VOC_VORREI",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_2559224",
-      "source_es": "Yo tomo vitaminas.",
+      "sentence_id": "s_967709",
+      "source_es": "Tomamos un bus.",
       "target_error_codes": [
         "ERR_VOC_VORREI"
       ],
