@@ -1,0 +1,846 @@
+{
+ "version": 1,
+ "nivel": "A2",
+ "cierre": false,
+ "fuentes": "Sillabo CILS A2 y PLIDA A2 (funciones, gramática y áreas); los requisitos se redactaron a partir de los programas oficiales y de la hoja de ruta, sin revisión de un nativo. Confirmar cada requisito contra los PDF antes de cerrar el nivel (por verificar).",
+ "nota": "Archivo escrito ANTES de construir A2 (lección de A1: descubrir los huecos al final obligó a una segunda pasada). Cada requisito pertenece a un módulo planificado de `modulos_planificados`. «cierre»: false = A2 sin construir; al cerrar el nivel debe pasar a true y la prueba exige el 80 % cubierto.",
+ "modulos_planificados": [
+  {
+   "id": "a2m01",
+   "title_es": "Contar el pasado (con avere y essere)",
+   "can_do_es": [
+    "Contar qué hiciste ayer o el fin de semana con passato prossimo",
+    "Elegir avere o essere y concordar el participio",
+    "Preguntar a otros qué hicieron"
+   ],
+   "codes": [
+    "ERR_PP_AUSILIARE",
+    "ERR_PP_PARTICIPI_IRREG",
+    "ERR_PP_RIFLESSIVI",
+    "u09 (ya existe: ERR_PARTICIPLE_AGREEMENT)"
+   ],
+   "work_es": "generadores: participio irregular (preso, fatto, visto…), elección de ausiliare por verbo; reflexivos en pasado (mi sono alzato/a)",
+   "sources_es": "Piacere! cap. de passato prossimo (avere/essere, concordancia); Giornate italiane u. 6; Tatoeba",
+   "authored_texts": "rd_weekend (diálogo, 10 líneas), doc_diario (tabla/agenda)",
+   "speaking": "rp_weekend, ht_ieri",
+   "note_es": "rd_viaggio ya existe como texto de A1; sirve de lectura extra"
+  },
+  {
+   "id": "a2m02",
+   "title_es": "Describir cómo eran las cosas (imperfetto)",
+   "can_do_es": [
+    "Describir cómo era tu vida de niño o un lugar antes",
+    "Hablar de hábitos pasados",
+    "Decir desde cuándo y hace cuánto"
+   ],
+   "codes": [
+    "ERR_IMPERFETTO_FORMA",
+    "ERR_IMPERFETTO_IRREG",
+    "ERR_DA_QUANTO_TEMPO"
+   ],
+   "work_es": "generador de imperfetto regular (-avo/-evo/-ivo) e irregulares (ero, facevo, dicevo, bevevo); «da/fa» + tiempo",
+   "sources_es": "Piacere! «L'imperfetto»; Tutt* a tavola! vol. 2 cap. 7–8; Tatoeba",
+   "authored_texts": "rd_infanzia (texto), rd_nonni (diálogo)",
+   "speaking": "ht_infanzia",
+   "note_es": ""
+  },
+  {
+   "id": "a2m03",
+   "title_es": "Contar y describir a la vez (passato prossimo vs imperfetto)",
+   "can_do_es": [
+    "Contar una anécdota con trama y fondo",
+    "Elegir pasado vs imperfecto según la función",
+    "Entender un relato corto"
+   ],
+   "codes": [
+    "ERR_PP_VS_IMPERFETTO",
+    "ERR_MENTRE_QUANDO"
+   ],
+   "work_es": "no hay generador mecánico fiable (decisión semántica): usar oraciones auditadas con marca de contexto (mentre/quando/ogni giorno/ieri) y ejercicios de elegir; ver «planned» en course.json",
+   "sources_es": "Tutt* a tavola! vol. 2 cap. 8 (verificado); Giornate u. 7; Tatoeba por palabras clave",
+   "authored_texts": "rd_incidente (relato), rd_vacanze (relato)",
+   "speaking": "ht_aneddoto",
+   "note_es": "módulo difícil: puede partirse en dos cápsulas por función"
+  },
+  {
+   "id": "a2m04",
+   "title_es": "Pronombres que ahorran palabras (lo, la, li, le; mi, ti, gli; ci y ne)",
+   "can_do_es": [
+    "Reemplazar objetos conocidos por pronombres átonos",
+    "Usar ci y ne en frases comunes",
+    "Colocar el pronombre antes del verbo o pegado al infinitivo"
+   ],
+   "codes": [
+    "ERR_CLITICO_DIRETTO",
+    "ERR_CLITICO_INDIRETTO",
+    "ERR_CLITICO_POSIZIONE",
+    "ERR_CI_NE",
+    "u71 (ya existe: mi/ti)"
+   ],
+   "work_es": "generadores de clíticos directos (mangio la mela → la mangio) e indirectos; ci/ne exige oraciones auditadas a mano",
+   "sources_es": "Piacere! «Pronomi di oggetto diretto/indiretto»; Tatoeba",
+   "authored_texts": "rd_ristorante2 (diálogo con lo/la/ne)",
+   "speaking": "rp_lo_prendo",
+   "note_es": "los clíticos combinados (glielo) quedan para B1"
+  },
+  {
+   "id": "a2m05",
+   "title_es": "Comparar y elegir",
+   "can_do_es": [
+    "Comparar dos cosas o personas",
+    "Decir cuál es el mejor o el más…",
+    "Pedir y dar una opinión sobre lo que prefieres"
+   ],
+   "codes": [
+    "u11 (ya existe: ERR_COMPARATIVE_DI)",
+    "ERR_SUPERLATIVO",
+    "ERR_COMPARATIVO_IRREG"
+   ],
+   "work_es": "generador de superlativo (il più alto di), irregulares (migliore, peggiore, meglio)",
+   "sources_es": "Piacere! «Comparativi e superlativi»; Tatoeba",
+   "authored_texts": "rd_confronto (diálogo en tienda)",
+   "speaking": "ht_preferenze",
+   "note_es": ""
+  },
+  {
+   "id": "a2m06",
+   "title_es": "Planes y decisiones (futuro y condicional de cortesía)",
+   "can_do_es": [
+    "Hablar de planes e intenciones con futuro",
+    "Pedir cosas con cortesía (vorrei, potrebbe)",
+    "Hacer hipótesis simples"
+   ],
+   "codes": [
+    "ERR_FUTURO_FORMA",
+    "ERR_FUTURO_IRREG",
+    "ERR_CONDIZIONALE_CORTESIA"
+   ],
+   "work_es": "generador de futuro regular e irregular (sarò, avrò, andrò); condicional de dovere/potere/volere",
+   "sources_es": "Piacere! «Il futuro», «Il condizionale»; Giornate u. 8 y 11",
+   "authored_texts": "rd_programmi (texto), rd_prenotare (diálogo)",
+   "speaking": "ht_programmi",
+   "note_es": "futuro: reconocer en A2, producir en B1 (decisión de la hoja de ruta)"
+  },
+  {
+   "id": "a2m07",
+   "title_es": "Dar y pedir instrucciones, consejos y permisos",
+   "can_do_es": [
+    "Dar instrucciones y consejos con imperativo (tu, Lei, noi, voi)",
+    "Pedir y dar permiso",
+    "Usar el imperativo con pronombres"
+   ],
+   "codes": [
+    "ERR_IMPERATIVO_LEI",
+    "ERR_IMPERATIVO_PRONOMI",
+    "ERR_POTERE_PERMESSO"
+   ],
+   "work_es": "extender los generadores de imperativo (u62/u67) a Lei y a pronombres pegados (dammelo, aspettami)",
+   "sources_es": "Piacere! «L'imperativo»; Wikivoyage phrasebook",
+   "authored_texts": "rd_ricetta (receta/instrucciones)",
+   "speaking": "rp_consigli",
+   "note_es": ""
+  },
+  {
+   "id": "a2m08",
+   "title_es": "Viajar y resolver problemas",
+   "can_do_es": [
+    "Comprar billetes y preguntar horarios y andenes",
+    "Reservar y reclamar en un alojamiento",
+    "Explicar un problema simple y pedir ayuda"
+   ],
+   "codes": [
+    "u10 (ya existe: ERR_PERSONAL_A)",
+    "ERR_VOC_VIAGGIO",
+    "ERR_VOC_ALLOGGIO",
+    "ERR_VOC_PROBLEMI"
+   ],
+   "work_es": "tres temas de vocabulario (viaje, alojamiento, problemas) con el mismo flujo de u73/u74",
+   "sources_es": "Giornate u. 9; Wikivoyage phrasebook; Tatoeba",
+   "authored_texts": "rd_stazione2, rd_albergo2, doc_prenotazione, rd_reclamo",
+   "speaking": "rp_biglietto, rp_problema",
+   "note_es": "cubre el requisito PLIDA «viajes»"
+  },
+  {
+   "id": "a2m09",
+   "title_es": "Trabajo, estudios y vida diaria",
+   "can_do_es": [
+    "Hablar de tu trabajo o estudios actuales y pasados",
+    "Entender un anuncio de empleo y un CV simple",
+    "Hablar de la casa, la salud y las compras con más detalle"
+   ],
+   "codes": [
+    "ERR_VOC_CV",
+    "ERR_VOC_SALUTE2",
+    "ERR_VOC_CASA2"
+   ],
+   "work_es": "vocabulario de trabajo ampliado (rd_lavoro ya existe), salud y casa a nivel A2",
+   "sources_es": "Piacere! «Cercare lavoro»; Leggiamo; Tatoeba",
+   "authored_texts": "doc_annuncio_lavoro, doc_cv, rd_dottore",
+   "speaking": "ht_curriculum",
+   "note_es": ""
+  },
+  {
+   "id": "a2m10",
+   "title_es": "Opinar y reconocer el congiuntivo",
+   "can_do_es": [
+    "Dar tu opinión con «penso che», «credo che»",
+    "Reconocer el congiuntivo presente en textos",
+    "Estar de acuerdo o no con cortesía"
+   ],
+   "codes": [
+    "u12 (ya existe: ERR_CONGIUNTIVO_OPINION, hoy B1)",
+    "ERR_ACCORDO_OPINIONE"
+   ],
+   "work_es": "solo reconocer: oraciones auditadas con «che + congiuntivo»; producir queda para B1",
+   "sources_es": "Piacere! «Il congiuntivo presente»; Tatoeba",
+   "authored_texts": "rd_opinioni (diálogo)",
+   "speaking": "ht_opinione",
+   "note_es": "decidir si u12 pasa de B1 a A2 al terminar a2m09"
+  }
+ ],
+ "requisitos": [
+  {
+   "id": "g01",
+   "area": "gramatica",
+   "source": "CILS A2",
+   "text_es": "Passato prossimo con avere",
+   "status": "gap",
+   "module": "a2m01",
+   "refs": {},
+   "gap_es": "No hay unidad de passato prossimo con avere en A2 (u58 solo introduce el uso en A1).",
+   "how_es": "Cápsulas a2m01: ERR_PP_PARTICIPI_IRREG y ERR_PP_AUSILIARE."
+  },
+  {
+   "id": "g02",
+   "area": "gramatica",
+   "source": "CILS A2",
+   "text_es": "Passato prossimo con essere y concordancia del participio",
+   "status": "partial",
+   "module": "a2m01",
+   "refs": {
+    "units": [
+     "u09",
+     "u58"
+    ]
+   },
+   "gap_es": "u09 existe pero no está en un módulo ni tiene generadores de ausiliare.",
+   "how_es": "Integrar u09 en a2m01 y añadir ERR_PP_AUSILIARE."
+  },
+  {
+   "id": "g03",
+   "area": "gramatica",
+   "source": "CILS A2",
+   "text_es": "Participios irregulares frecuentes",
+   "status": "gap",
+   "module": "a2m01",
+   "refs": {},
+   "gap_es": "Sin generador.",
+   "how_es": "Generador de participios irregulares (fatto, preso, visto, aperto…)."
+  },
+  {
+   "id": "g04",
+   "area": "gramatica",
+   "source": "CILS A2",
+   "text_es": "Verbos reflexivos en passato prossimo",
+   "status": "gap",
+   "module": "a2m01",
+   "refs": {},
+   "gap_es": "Sin unidad.",
+   "how_es": "ERR_PP_RIFLESSIVI con oraciones de Tatoeba auditadas."
+  },
+  {
+   "id": "g05",
+   "area": "gramatica",
+   "source": "CILS A2",
+   "text_es": "Imperfetto regular e irregular",
+   "status": "gap",
+   "module": "a2m02",
+   "refs": {},
+   "gap_es": "Sin unidad.",
+   "how_es": "Generador ERR_IMPERFETTO_FORMA / ERR_IMPERFETTO_IRREG."
+  },
+  {
+   "id": "g06",
+   "area": "gramatica",
+   "source": "PLIDA A2",
+   "text_es": "Passato prossimo e imperfetto en un mismo relato",
+   "status": "gap",
+   "module": "a2m03",
+   "refs": {},
+   "gap_es": "Decisión semántica; no hay generador mecánico.",
+   "how_es": "Cápsulas de elegir con oraciones auditadas y marca de contexto (mentre, quando, ogni giorno)."
+  },
+  {
+   "id": "g07",
+   "area": "gramatica",
+   "source": "CILS A2",
+   "text_es": "Pronombres directos lo, la, li, le",
+   "status": "gap",
+   "module": "a2m04",
+   "refs": {},
+   "gap_es": "Sin unidad.",
+   "how_es": "Generador ERR_CLITICO_DIRETTO."
+  },
+  {
+   "id": "g08",
+   "area": "gramatica",
+   "source": "CILS A2",
+   "text_es": "Pronombres indirectos mi, ti, gli, le, ci, vi",
+   "status": "partial",
+   "module": "a2m04",
+   "refs": {
+    "units": [
+     "u71"
+    ]
+   },
+   "gap_es": "u71 cubre solo mi/ti.",
+   "how_es": "ERR_CLITICO_INDIRETTO para gli, le, ci, vi."
+  },
+  {
+   "id": "g09",
+   "area": "gramatica",
+   "source": "PLIDA A2",
+   "text_es": "Ci y ne (lugar, cantidad, partitivo)",
+   "status": "gap",
+   "module": "a2m04",
+   "refs": {},
+   "gap_es": "Sin generador fiable.",
+   "how_es": "Oraciones auditadas a mano; ver course.json → planned."
+  },
+  {
+   "id": "g10",
+   "area": "gramatica",
+   "source": "CILS A2",
+   "text_es": "Posición de los pronombres con infinitivo y modales",
+   "status": "gap",
+   "module": "a2m04",
+   "refs": {},
+   "gap_es": "Sin unidad.",
+   "how_es": "ERR_CLITICO_POSIZIONE."
+  },
+  {
+   "id": "g11",
+   "area": "gramatica",
+   "source": "CILS A2",
+   "text_es": "Comparativos de mayoría, minoría e igualdad",
+   "status": "partial",
+   "module": "a2m05",
+   "refs": {
+    "units": [
+     "u11"
+    ]
+   },
+   "gap_es": "u11 cubre «più… di»; falta «come/quanto» y «che».",
+   "how_es": "Ampliar u11 y añadir ERR_COMPARATIVO_IRREG."
+  },
+  {
+   "id": "g12",
+   "area": "gramatica",
+   "source": "CILS A2",
+   "text_es": "Superlativo relativo y absoluto",
+   "status": "gap",
+   "module": "a2m05",
+   "refs": {},
+   "gap_es": "Sin unidad.",
+   "how_es": "Generador ERR_SUPERLATIVO."
+  },
+  {
+   "id": "g13",
+   "area": "gramatica",
+   "source": "CILS A2",
+   "text_es": "Futuro simple regular e irregular",
+   "status": "gap",
+   "module": "a2m06",
+   "refs": {},
+   "gap_es": "Sin unidad.",
+   "how_es": "Generador ERR_FUTURO_FORMA / ERR_FUTURO_IRREG."
+  },
+  {
+   "id": "g14",
+   "area": "gramatica",
+   "source": "PLIDA A2",
+   "text_es": "Condicional de cortesía (vorrei, potrebbe, dovrebbe)",
+   "status": "partial",
+   "module": "a2m06",
+   "refs": {
+    "units": [
+     "u65"
+    ]
+   },
+   "gap_es": "u65 solo cubre «vorrei».",
+   "how_es": "ERR_CONDIZIONALE_CORTESIA."
+  },
+  {
+   "id": "g15",
+   "area": "gramatica",
+   "source": "CILS A2",
+   "text_es": "Imperativo formal (Lei) y con pronombres",
+   "status": "partial",
+   "module": "a2m07",
+   "refs": {
+    "units": [
+     "u62",
+     "u67"
+    ]
+   },
+   "gap_es": "A1 cubre tu y negativo.",
+   "how_es": "ERR_IMPERATIVO_LEI y ERR_IMPERATIVO_PRONOMI."
+  },
+  {
+   "id": "g16",
+   "area": "gramatica",
+   "source": "PLIDA A2",
+   "text_es": "«a» personal: no se usa en italiano",
+   "status": "partial",
+   "module": "a2m08",
+   "refs": {
+    "units": [
+     "u10"
+    ]
+   },
+   "gap_es": "u10 existe, sin módulo.",
+   "how_es": "Integrar u10 en a2m08."
+  },
+  {
+   "id": "g17",
+   "area": "gramatica",
+   "source": "PLIDA A2",
+   "text_es": "Reconocer el congiuntivo presente tras creder/pensare",
+   "status": "partial",
+   "module": "a2m10",
+   "refs": {
+    "units": [
+     "u12"
+    ]
+   },
+   "gap_es": "u12 está marcada B1.",
+   "how_es": "Decidir nivel; ERR_ACCORDO_OPINIONE."
+  },
+  {
+   "id": "g18",
+   "area": "gramatica",
+   "source": "CILS A2",
+   "text_es": "Preposiciones articuladas y de lugar con más detalle",
+   "status": "partial",
+   "module": "a2m08",
+   "refs": {
+    "units": [
+     "u70",
+     "u05",
+     "u06"
+    ]
+   },
+   "gap_es": "A1 las introduce.",
+   "how_es": "Cápsulas de repaso en a2m08 (sin unidad nueva)."
+  },
+  {
+   "id": "g19",
+   "area": "gramatica",
+   "source": "CILS A2",
+   "text_es": "Da / fa / per con expresiones de tiempo",
+   "status": "gap",
+   "module": "a2m02",
+   "refs": {},
+   "gap_es": "Sin unidad.",
+   "how_es": "ERR_DA_QUANTO_TEMPO."
+  },
+  {
+   "id": "g20",
+   "area": "gramatica",
+   "source": "CILS A2",
+   "text_es": "Conectores de causa y consecuencia (perché, quindi, mentre, quando)",
+   "status": "partial",
+   "module": "a2m03",
+   "refs": {
+    "units": [
+     "u68"
+    ]
+   },
+   "gap_es": "u68 cubre conectores simples.",
+   "how_es": "ERR_MENTRE_QUANTO en a2m03."
+  },
+  {
+   "id": "f01",
+   "area": "funciones",
+   "source": "CILS A2",
+   "text_es": "Contar experiencias pasadas",
+   "status": "gap",
+   "module": "a2m01",
+   "refs": {},
+   "gap_es": "Sin módulo.",
+   "how_es": "a2m01."
+  },
+  {
+   "id": "f02",
+   "area": "funciones",
+   "source": "CILS A2",
+   "text_es": "Describir hábitos y lugares del pasado",
+   "status": "gap",
+   "module": "a2m02",
+   "refs": {},
+   "gap_es": "Sin módulo.",
+   "how_es": "a2m02."
+  },
+  {
+   "id": "f03",
+   "area": "funciones",
+   "source": "CILS A2",
+   "text_es": "Contar una anécdota",
+   "status": "gap",
+   "module": "a2m03",
+   "refs": {},
+   "gap_es": "Sin módulo.",
+   "how_es": "a2m03."
+  },
+  {
+   "id": "f04",
+   "area": "funciones",
+   "source": "CILS A2",
+   "text_es": "Expresar planes e intenciones",
+   "status": "gap",
+   "module": "a2m06",
+   "refs": {},
+   "gap_es": "Sin módulo.",
+   "how_es": "a2m06."
+  },
+  {
+   "id": "f05",
+   "area": "funciones",
+   "source": "CILS A2",
+   "text_es": "Pedir y dar consejos, permisos y órdenes",
+   "status": "gap",
+   "module": "a2m07",
+   "refs": {},
+   "gap_es": "Sin módulo.",
+   "how_es": "a2m07."
+  },
+  {
+   "id": "f06",
+   "area": "funciones",
+   "source": "CILS A2",
+   "text_es": "Comparar y expresar preferencias",
+   "status": "gap",
+   "module": "a2m05",
+   "refs": {},
+   "gap_es": "Sin módulo.",
+   "how_es": "a2m05."
+  },
+  {
+   "id": "f07",
+   "area": "funciones",
+   "source": "CILS A2",
+   "text_es": "Opinar y mostrar acuerdo o desacuerdo",
+   "status": "gap",
+   "module": "a2m10",
+   "refs": {},
+   "gap_es": "Sin módulo.",
+   "how_es": "a2m10."
+  },
+  {
+   "id": "f08",
+   "area": "funciones",
+   "source": "PLIDA A2",
+   "text_es": "Reservar, comprar billetes y reclamar",
+   "status": "gap",
+   "module": "a2m08",
+   "refs": {},
+   "gap_es": "Sin módulo.",
+   "how_es": "a2m08."
+  },
+  {
+   "id": "f09",
+   "area": "funciones",
+   "source": "PLIDA A2",
+   "text_es": "Pedir en restaurante y comprar con más detalle",
+   "status": "partial",
+   "module": "a2m04",
+   "refs": {
+    "modules": [
+     "m08"
+    ],
+    "roleplays": [
+     "rp_trattoria"
+    ]
+   },
+   "gap_es": "A1 cubre pedir; falta usar pronombres («lo prendo»).",
+   "how_es": "rd_ristorante2 en a2m04."
+  },
+  {
+   "id": "f10",
+   "area": "funciones",
+   "source": "CILS A2",
+   "text_es": "Hablar de trabajo y estudios",
+   "status": "partial",
+   "module": "a2m09",
+   "refs": {
+    "modules": [
+     "m10"
+    ],
+    "tasks": [
+     "ht_lavoro"
+    ]
+   },
+   "gap_es": "A1 cubre lo básico.",
+   "how_es": "a2m09."
+  },
+  {
+   "id": "f11",
+   "area": "funciones",
+   "source": "CILS A2",
+   "text_es": "Describir síntomas y pedir ayuda médica",
+   "status": "gap",
+   "module": "a2m09",
+   "refs": {},
+   "gap_es": "A1 solo tiene vocabulario del cuerpo.",
+   "how_es": "ERR_VOC_SALUTE2 y rd_dottore."
+  },
+  {
+   "id": "f12",
+   "area": "funciones",
+   "source": "PLIDA A2",
+   "text_es": "Dar y entender direcciones más complejas",
+   "status": "partial",
+   "module": "a2m08",
+   "refs": {
+    "units": [
+     "u57"
+    ]
+   },
+   "gap_es": "A1 cubre lo básico.",
+   "how_es": "rd_stazione2."
+  },
+  {
+   "id": "l01",
+   "area": "lessico",
+   "source": "PLIDA A2",
+   "text_es": "Viajes y turismo",
+   "status": "gap",
+   "module": "a2m08",
+   "refs": {},
+   "gap_es": "Sin tema.",
+   "how_es": "ERR_VOC_VIAGGIO."
+  },
+  {
+   "id": "l02",
+   "area": "lessico",
+   "source": "PLIDA A2",
+   "text_es": "Alojamiento",
+   "status": "gap",
+   "module": "a2m08",
+   "refs": {},
+   "gap_es": "Sin tema.",
+   "how_es": "ERR_VOC_ALLOGGIO."
+  },
+  {
+   "id": "l03",
+   "area": "lessico",
+   "source": "PLIDA A2",
+   "text_es": "Problemas y reclamos",
+   "status": "gap",
+   "module": "a2m08",
+   "refs": {},
+   "gap_es": "Sin tema.",
+   "how_es": "ERR_VOC_PROBLEMI."
+  },
+  {
+   "id": "l04",
+   "area": "lessico",
+   "source": "PLIDA A2",
+   "text_es": "Trabajo y CV",
+   "status": "partial",
+   "module": "a2m09",
+   "refs": {
+    "units": [
+     "u29"
+    ]
+   },
+   "gap_es": "A1 solo tiene profesiones.",
+   "how_es": "ERR_VOC_CV."
+  },
+  {
+   "id": "l05",
+   "area": "lessico",
+   "source": "PLIDA A2",
+   "text_es": "Salud y bienestar",
+   "status": "partial",
+   "module": "a2m09",
+   "refs": {
+    "units": [
+     "u27"
+    ]
+   },
+   "gap_es": "A1 solo tiene el cuerpo.",
+   "how_es": "ERR_VOC_SALUTE2."
+  },
+  {
+   "id": "l06",
+   "area": "lessico",
+   "source": "PLIDA A2",
+   "text_es": "Casa, barrio y servicios domésticos",
+   "status": "partial",
+   "module": "a2m09",
+   "refs": {
+    "units": [
+     "u23"
+    ]
+   },
+   "gap_es": "A1 tiene vocabulario básico.",
+   "how_es": "ERR_VOC_CASA2."
+  },
+  {
+   "id": "l07",
+   "area": "lessico",
+   "source": "PLIDA A2",
+   "text_es": "Cine, música y lectura (tiempo libre ampliado)",
+   "status": "partial",
+   "module": "a2m05",
+   "refs": {
+    "units": [
+     "u36"
+    ]
+   },
+   "gap_es": "A1 tiene lo básico.",
+   "how_es": "Ampliar ERR_VOC_TEMPOLIBERO."
+  },
+  {
+   "id": "l08",
+   "area": "lessico",
+   "source": "PLIDA A2",
+   "text_es": "Medios y tecnología",
+   "status": "partial",
+   "module": "a2m09",
+   "refs": {
+    "units": [
+     "u73"
+    ]
+   },
+   "gap_es": "A1 tiene lo básico.",
+   "how_es": "Cápsula de repaso."
+  },
+  {
+   "id": "t01",
+   "area": "testi",
+   "source": "CILS A2",
+   "text_es": "Leer mensajes y correos breves",
+   "status": "partial",
+   "module": "a2m06",
+   "refs": {
+    "readings": [
+     "rd_sms",
+     "rd_posta"
+    ]
+   },
+   "gap_es": "A1 tiene SMS; falta correo.",
+   "how_es": "rd_prenotare."
+  },
+  {
+   "id": "t02",
+   "area": "testi",
+   "source": "CILS A2",
+   "text_es": "Leer anuncios de empleo y alquiler",
+   "status": "partial",
+   "module": "a2m09",
+   "refs": {
+    "readings": [
+     "doc_annuncio"
+    ]
+   },
+   "gap_es": "Falta empleo.",
+   "how_es": "doc_annuncio_lavoro."
+  },
+  {
+   "id": "t03",
+   "area": "testi",
+   "source": "CILS A2",
+   "text_es": "Entender relatos cortos en pasado",
+   "status": "gap",
+   "module": "a2m03",
+   "refs": {},
+   "gap_es": "Sin textos.",
+   "how_es": "rd_incidente, rd_vacanze."
+  },
+  {
+   "id": "t04",
+   "area": "testi",
+   "source": "PLIDA A2",
+   "text_es": "Escuchar anuncios y avisos con más datos",
+   "status": "partial",
+   "module": "a2m08",
+   "refs": {
+    "readings": [
+     "rd_avvisi",
+     "rd_stazione"
+    ]
+   },
+   "gap_es": "A1 tiene lo básico.",
+   "how_es": "rd_stazione2."
+  },
+  {
+   "id": "t05",
+   "area": "testi",
+   "source": "CILS A2",
+   "text_es": "Escribir un mensaje o correo de unas 40 palabras",
+   "status": "partial",
+   "module": "a2m06",
+   "refs": {
+    "modules": [
+     "m12"
+    ]
+   },
+   "gap_es": "Cada módulo de A1 propone un mensaje.",
+   "how_es": "writing_es en cada módulo A2."
+  },
+  {
+   "id": "t06",
+   "area": "testi",
+   "source": "CILS A2",
+   "text_es": "Escribir sobre el pasado (diario, anécdota)",
+   "status": "gap",
+   "module": "a2m01",
+   "refs": {},
+   "gap_es": "Sin tarea escrita.",
+   "how_es": "writing_es de a2m01 y a2m03."
+  },
+  {
+   "id": "p01",
+   "area": "pronuncia",
+   "source": "CILS A2",
+   "text_es": "Entonación de preguntas y pausas",
+   "status": "gap",
+   "module": "a2m06",
+   "refs": {},
+   "gap_es": "Necesita audio nativo.",
+   "how_es": "Mantener declarado como hueco hasta tener audio nativo verificado."
+  },
+  {
+   "id": "f13",
+   "area": "funciones",
+   "source": "PLIDA A2",
+   "text_es": "Pedir y dar permiso («posso…?», «puoi…?»)",
+   "status": "partial",
+   "module": "a2m07",
+   "refs": {
+    "units": [
+     "u17"
+    ]
+   },
+   "gap_es": "A1 cubre los modales, no la función de permiso.",
+   "how_es": "ERR_POTERE_PERMESSO y rp_consigli."
+  },
+  {
+   "id": "f14",
+   "area": "funciones",
+   "source": "CILS A2",
+   "text_es": "Argumentar una preferencia con «perché» y dar una razón simple",
+   "status": "partial",
+   "module": "a2m10",
+   "refs": {
+    "units": [
+     "u68"
+    ]
+   },
+   "gap_es": "A1 tiene conectores, no la función de argumentar.",
+   "how_es": "rd_opinioni y ht_opinione."
+  }
+ ]
+}

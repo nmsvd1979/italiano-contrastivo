@@ -48,7 +48,7 @@ def test_todas_las_unidades_de_a1_sirven_a_algun_requisito_o_son_de_apoyo():
     used = {u for q in DOC["requisitos"] for u in q["refs"].get("units", [])}
     course = json.loads((PACK / "course.json").read_text(encoding="utf8"))
     mod_ok = {u for q in DOC["requisitos"] for mid in q["refs"].get("modules", []) for m in course["modules"] if m["id"] == mid for u in m["units"]}
-    soporte = {"u28", "u71", "u72"}   # animales: vocabulario de la lista PLIDA «ambiente», sin requisito propio
+    soporte = {"u28"}   # animales: vocabulario de la lista PLIDA «ambiente», sin requisito propio
     sueltas = {u for u in _ids()["units"] if u not in used | mod_ok | soporte}
     assert not sueltas, sorted(sueltas)
 
