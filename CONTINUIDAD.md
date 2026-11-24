@@ -2,6 +2,14 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 (17) — Cupo de palabras nuevas que se ajusta solo
+**Pedido del usuario:** que el atraso de palabras (si completas unidades más rápido que el cupo) se solucione; elegida la opción «cupo adaptativo».
+**Hecho:** `newWordsCap` (`state/session.ts`): 12 palabras nuevas por día; si al empezar el día esperan más de 40 (se mide con las que esperan + las abiertas hoy, así el cupo no cambia mientras repasas), sube a 18 hasta vaciar la fila y vuelve a 12. Hoy lo explica: «hoy se abren hasta 18, porque tienes muchas esperando» (`TodayPlan.review.newWordsCap`).
+**Decisiones mías (a revisar):** los valores 12 / 18 / 40 son míos; no hay evidencia del cupo ideal (solo se midió que 44 de golpe no caben en 15 min). No hay ajuste manual en Ajustes.
+**Comprobado:** web 1217 pruebas en verde (las dos antiguas de 44 palabras pasaron a 40, porque 44 ya activa el cupo de 18) y `tsc` limpio; en el navegador con 60 palabras sembradas (ya borradas): Hoy dice «18 para repasar · 42 esperan…».
+**No comprobado:** iPhone real; el recorrido de dos tandas seguidas con el cupo de 18 a mano (solo por prueba automática).
+**Límite:** si vas mucho más rápido que 18 al día, el atraso sigue creciendo (solo se avisa).
+
 ## 2026-11-24 (16) — Segunda auditoría de A1 (independiente) y dos arreglos
 **Pedido del usuario:** repetir el análisis para ver si A1 quedó cubierto y listo. Un auditor independiente (sin ver mis conclusiones) y yo revisamos los cambios nuevos y la cobertura del programa.
 **Resultado:** nada crítico; A1 se puede usar de principio a fin. Pruebas: web 1214, pytest 878 y tsc, en verde.

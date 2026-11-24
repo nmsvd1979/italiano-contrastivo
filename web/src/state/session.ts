@@ -21,15 +21,21 @@ const freshAllowed = (units: UnitProgress[] | undefined) => (units ?? []).filter
 
 /** Palabras nunca vistas que se abren por día: el resto de las tarjetas nuevas espera, sin perderse, para los días siguientes. */
 export const NEW_WORDS_PER_DAY = 12;
+/** Si al empezar el día esperan más de 40 palabras nuevas (vas más rápido que el repaso), el cupo sube a 18 hasta vaciar la fila. */
+export const NEW_WORDS_BACKLOG = 40;
+export const NEW_WORDS_CATCHUP = 18;
+export const newWordsCap = (backlog: number): number => (backlog > NEW_WORDS_BACKLOG ? NEW_WORDS_CATCHUP : NEW_WORDS_PER_DAY);
 export const isNewWord = (c: Card): boolean => c.subject.kind === "lexeme" && c.subject.ref.startsWith(WORD_PREFIX) && c.fsrs.reps === 0;
 
 /** Quita las palabras nuevas que no caben hoy (las más antiguas entran primero). Las tarjetas ya vistas nunca se recortan. */
-export function withinNewWordQuota(cards: Card[], day?: DayProgress): { cards: Card[]; waiting: number } {
-  let room = Math.max(0, NEW_WORDS_PER_DAY - (day?.newWords ?? 0));
+export function withinNewWordQuota(cards: Card[], day?: DayProgress): { cards: Card[]; waiting: number; cap: number } {
+  // La fila del comienzo del día = las que esperan + las que ya abriste hoy: así el cupo no cambia mientras repasas.
+  const cap = newWordsCap(cards.filter(isNewWord).length + (day?.newWords ?? 0));
+  let room = Math.max(0, cap - (day?.newWords ?? 0));
   const ordered = [...cards].sort((a, b) => new Date(a.fsrs.due).getTime() - new Date(b.fsrs.due).getTime());
   const skip = new Set<string>();
   for (const c of ordered) if (isNewWord(c)) { if (room > 0) room--; else skip.add(c.id); }
-  return { cards: cards.filter((c) => !skip.has(c.id)), waiting: skip.size };
+  return { cards: cards.filter((c) => !skip.has(c.id)), waiting: skip.size, cap };
 }
 
 export const REVIEW_SECONDS = 5 * 60; // presupuesto del bloque ① de las fuentes
@@ -40,7 +46,7 @@ export type ReviewEntry = { card: Card } | { lexeme: Lexeme } | { filler: Item }
 export const entrySeconds = (e: ReviewEntry, samples: Samples = {}): number =>
   "filler" in e ? estimateSeconds(kindOf(e.filler), samples) : estimateSeconds("card" in e ? (e.card.subject.kind === "error_code" ? "choice" : e.card.subject.kind === "writing_fix" ? "cloze" : "flashcard") : "flashcard", samples);
 export type TodayPlan = {
-  review: { due: number; newAvailable: number; /** Palabras nuevas que esperan a los próximos días por el cupo diario. */ waitingWords?: number; doneToday: number; cap: number; seconds: number; filler: number };
+  review: { due: number; newAvailable: number; /** Palabras nuevas que esperan a los próximos días por el cupo diario. */ waitingWords?: number; /** Cupo de palabras nuevas de hoy (12, o 18 si la fila es larga). */ newWordsCap?: number; doneToday: number; cap: number; seconds: number; filler: number };
   /** Unidad actual y su siguiente paso (null si no queda ninguna unidad por hacer). */
   unit: { view: UnitView; step: StepId; seconds: number } | null;
   /** Paso propio del módulo actual (Entrada, Salida, Fluidez o Cierre) cuando no toca una cápsula. */
@@ -84,7 +90,7 @@ export function planToday(input: { pack: ContentPack; cards: Card[]; day: DayPro
   const step = cur?.next ?? null;
   const modStep = cm && cm.next && cm.next !== "capsulas" ? cm.next : null;
   return {
-    review: { due, waitingWords: quota.waiting, newAvailable: freshAllowed(units) ? Math.min(NEW_LEXEMES_PER_BATCH, room, unseenLexemes(pack, cards).length) : 0, doneToday: day.reviewsDone, cap: REVIEW_CAP, seconds, filler: queue.filter((e) => "filler" in e).length },
+    review: { due, waitingWords: quota.waiting, newWordsCap: quota.cap, newAvailable: freshAllowed(units) ? Math.min(NEW_LEXEMES_PER_BATCH, room, unseenLexemes(pack, cards).length) : 0, doneToday: day.reviewsDone, cap: REVIEW_CAP, seconds, filler: queue.filter((e) => "filler" in e).length },
     unit: cur && step ? { view: cur, step, seconds: stepSeconds(cur.unit, step, pack, samples) } : null,
     module: cm && modStep ? { view: cm, step: modStep, seconds: MODULE_STEP_SECONDS[modStep] } : null,
     route: { done: summary(views).done, total: views.length },

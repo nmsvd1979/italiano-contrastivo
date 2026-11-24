@@ -3,7 +3,7 @@ import type { Capsule } from "../generated/capsule";
 import type { Card } from "../generated/card";
 import type { Item } from "../generated/item";
 import type { ContentPack, Lexeme } from "../content/load";
-import { afterCapsule, afterReview, closeCapsule, entrySeconds, normalizeDay, pickItem, planToday, ratingFromAnswer, reviewQueue } from "./session";
+import { NEW_WORDS_BACKLOG, NEW_WORDS_CATCHUP, newWordsCap, afterCapsule, afterReview, closeCapsule, entrySeconds, normalizeDay, pickItem, planToday, ratingFromAnswer, reviewQueue } from "./session";
 import { newCard } from "./srs";
 import { localDate } from "./store";
 import { masterByPlacement, emptyProgress } from "./course";
@@ -145,14 +145,15 @@ describe("closeCapsule", () => {
 describe("cupo diario de palabras nuevas", () => {
   const wordCard = (i: number): Card => newCard({ kind: "lexeme", ref: `w:palabra${i}` }, "neutral", new Date(NOW.getTime() - (100 - i) * 1000));
   const words = Array.from({ length: 44 }, (_, i) => wordCard(i));
-  it("de 44 palabras nuevas vencidas solo se ofrecen 12; el resto espera y Hoy cuenta lo mismo que la tanda", () => {
-    const p = planToday({ pack: pack(), cards: words, day: emptyDay, now: NOW });
+  it("de 40 palabras nuevas vencidas solo se ofrecen 12; el resto espera y Hoy cuenta lo mismo que la tanda", () => {
+    const forty = words.slice(0, 40);
+    const p = planToday({ pack: pack(), cards: forty, day: emptyDay, now: NOW });
     expect(p.review.due).toBe(12);
-    expect(p.review.waitingWords).toBe(32);
-    expect(reviewQueue({ pack: pack(), cards: words, now: NOW, day: emptyDay })).toHaveLength(12);
+    expect(p.review.waitingWords).toBe(28);
+    expect(reviewQueue({ pack: pack(), cards: forty, now: NOW, day: emptyDay })).toHaveLength(12);
   });
   it("las palabras abiertas hoy descuentan del cupo y al día siguiente vuelve a abrirse", () => {
-    const left = words.slice(12);
+    const left = words.slice(12, 40);
     expect(planToday({ pack: pack(), cards: left, day: { ...emptyDay, newWords: 12 }, now: NOW }).review.due).toBe(0);
     expect(planToday({ pack: pack(), cards: left, day: { ...emptyDay, newWords: 5 }, now: NOW }).review.due).toBe(7);
     const tomorrow = new Date(NOW.getTime() + 36 * 3600_000);
@@ -161,6 +162,28 @@ describe("cupo diario de palabras nuevas", () => {
   it("las tarjetas ya vistas nunca se recortan", () => {
     const seen = Array.from({ length: 20 }, (_, i) => { const c = wordCard(i); return { ...c, fsrs: { ...c.fsrs, reps: 3, state: 2 } }; });
     expect(planToday({ pack: pack(), cards: seen, day: { ...emptyDay, newWords: 12 }, now: NOW }).review.due).toBe(20);
+  });
+  it("con más de 40 palabras en fila el cupo sube a 18; con 40 o menos se queda en 12", () => {
+    expect(newWordsCap(NEW_WORDS_BACKLOG)).toBe(12);
+    expect(newWordsCap(NEW_WORDS_BACKLOG + 1)).toBe(NEW_WORDS_CATCHUP);
+    const big = Array.from({ length: 60 }, (_, i) => wordCard(i));
+    const p = planToday({ pack: pack(), cards: big, day: emptyDay, now: NOW });
+    expect(p.review.due).toBe(18);
+    expect(p.review.waitingWords).toBe(42);
+    expect(p.review.newWordsCap).toBe(18);
+    expect(planToday({ pack: pack(), cards: big.slice(0, 40), day: emptyDay, now: NOW }).review.due).toBe(12);
+  });
+  it("el cupo no cambia mientras repasas: la fila se mide con lo ya abierto hoy", () => {
+    const big = Array.from({ length: 60 }, (_, i) => wordCard(i));
+    // 13 ya abiertas hoy (salieron de la fila): quedan 47, pero el comienzo del día tenía 60 → sigue siendo 18, faltan 5
+    const p = planToday({ pack: pack(), cards: big.slice(13), day: { ...emptyDay, newWords: 13 }, now: NOW });
+    expect(p.review.newWordsCap).toBe(18);
+    expect(p.review.due).toBe(5);
+  });
+  it("cuando la fila se vacía el cupo vuelve a 12", () => {
+    const p = planToday({ pack: pack(), cards: Array.from({ length: 30 }, (_, i) => wordCard(i)), day: emptyDay, now: NOW });
+    expect(p.review.newWordsCap).toBe(12);
+    expect(p.review.due).toBe(12);
   });
   it("calificar una palabra nueva suma al cupo; una ya vista no", () => {
     expect(afterReview(emptyDay, true).newWords).toBe(1);

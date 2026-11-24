@@ -1,7 +1,7 @@
 import { STEP_LABEL, stepsFor } from "./course";
 import { STRAND_OF_STEP, type Strand } from "./strands";
 import { MODULE_STEP_LABEL, type ModuleStepId } from "./modules";
-import type { TodayPlan } from "./session";
+import { NEW_WORDS_PER_DAY, type TodayPlan } from "./session";
 import type { DayProgress, StepId } from "./store";
 import { stepSeconds } from "./steps";
 import type { ContentPack } from "../content/load";
@@ -45,7 +45,7 @@ export function planSession(input: { plan: TodayPlan; day: DayProgress; pack: Co
   const work = pending + plan.review.filler;
   const blocks: SessionBlock[] = [{
     key: "repaso", strand: "foco", label: "Repaso", title: BLOCKS.repaso.title, seconds: plan.review.seconds, href: "#/repaso", done: work === 0 || (day.reviewsDone > 0 && pending === 0),
-    subtitle: pending > 0 ? `Tienes ${pending} para repasar${plan.review.filler ? " + práctica de unidades anteriores" : ""}${plan.review.waitingWords ? ` · ${plan.review.waitingWords} palabras nuevas esperan a los próximos días` : ""}` : plan.review.filler ? "Práctica de recuperación de unidades anteriores" : "No tienes repasos pendientes ahora.",
+    subtitle: pending > 0 ? `Tienes ${pending} para repasar${plan.review.filler ? " + práctica de unidades anteriores" : ""}${plan.review.waitingWords ? ` · ${plan.review.waitingWords} palabras nuevas esperan a los próximos días${plan.review.newWordsCap && plan.review.newWordsCap > NEW_WORDS_PER_DAY ? ` (hoy se abren hasta ${plan.review.newWordsCap}, porque tienes muchas esperando)` : ""}` : ""}` : plan.review.filler ? "Práctica de recuperación de unidades anteriores" : "No tienes repasos pendientes ahora.",
   }];
   if (weak.length > 0) {
     blocks.push({

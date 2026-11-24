@@ -51,7 +51,7 @@ Si hoy se agregara `a2m01` a `schemas/data/course.json`, pasaría esto: al termi
 - `g16` (subordinadas perché/quando/per + infinitivo) y `g13` (imperativo de «voi») quedaron «partial» en `syllabus-a1.json`: son candidatos a cápsulas de A2.
 - `f10` (invitar, pedir permiso) y `l07` (emociones) están «covered» pero débiles; revisarlos al cotejar con los PDF.
 - Conviene que `tests/py/test_cobertura_aN.py` compruebe contenido (por ejemplo, que haya frases con la estructura pedida), no solo que el id exista.
-- Si las palabras nuevas por unidad superan lo que el cupo diario permite, el atraso crece sin aviso: decidir si A2 dosifica el vocabulario o muestra un aviso.
+- El cupo de palabras nuevas ya se ajusta solo (12 al día, 18 si esperan más de 40: `newWordsCap`). Si A2 trae mucho más vocabulario por unidad, revisar los valores; más allá de 18 al día el atraso sigue creciendo.
 
 ## Lo que no se hizo en A1 y A2 puede heredar como riesgo
 
