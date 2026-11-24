@@ -2,6 +2,18 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 (6) — Rediseño del frontend, etapa 3 (módulo y cápsula)
+**Pedido del usuario:** «Sigue con la etapa 3». Plan: `docs/plans/2026-11-24-rediseno-frontend-etapa-3.md`.
+**Hecho:**
+1. **Módulo como línea de tiempo:** las cinco etapas en una pantalla, con etiqueta de hebra y estado también en texto. Las cápsulas llevan sus pasos como puntos; tocar la cápsula en curso va **directo a su siguiente paso** (enlace «Ficha» aparte) y hay un botón fijo «Continuar · …» (`moduleAction`). «Al terminar sabrás» y los textos opcionales quedan plegados.
+2. **Ficha de la cápsula (`UnitScreen`):** tira de pasos (filas iguales, sin partir palabras), sección «Contraste» con tarjetas ES → IT hechas con las divergencias reales de la unidad, ficha en texto y un solo botón «Empezar · paso · minutos». Desaparece la lista de siete tarjetas «Hacer».
+3. En unidades de vocabulario (`ERR_VOC_*`) la tarjeta dice «No es lo mismo» en vez de «Error típico»: ahí lo marcado es otra palabra, no un error de hispanohablantes.
+**Decisiones mías (a revisar):** `ConjugationTable` queda fuera (la ficha es texto libre; no hay formas estructuradas ni se escribe contenido nuevo sin su flujo `authored`/`needs_review`); `Timeline` va dentro de `ModuleScreen`; el estado de cada paso va en texto oculto, no en `aria-label`.
+**Comprobado:** web 1069 pruebas en verde; recorrido en el navegador a 375 y 320 px, claro y oscuro, sin errores de consola, sin desborde y sin toques menores de 44 px en la ficha.
+**No comprobado:** iPhone real; tsc (no está instalado en web/).
+**Duda de contenido (sin resolver):** en «Descubre» (NoticeStep) las unidades de vocabulario siguen rotulando como «Error típico de hispanohablantes» una palabra distinta; conviene revisar ese texto igual que se hizo en la ficha.
+**Pendiente / siguiente paso:** etapa 4 (ejercicio y corrección: frase en español al centro, «Dijiste / Se dice», «Ver ficha» hacia `#/unidad/{id}`), etapa 5 (Progreso con «sé hacer»; «Lo que más te cuesta» exige un almacén nuevo de aciertos por tipo de error).
+
 ## 2026-11-24 (5) — Rediseño del frontend, etapas 1 y 2
 **Pedido del usuario:** analizar a fondo el frontend y proponer el mejor diseño. Aprobado el diseño (`docs/specs/2026-11-24-rediseno-frontend.md`, maqueta en `docs/specs/2026-11-24-rediseno-frontend-maqueta.html`) y el plan (`docs/plans/2026-11-24-rediseno-frontend-etapas-1-2.md`).
 **Hecho (etapas 1 y 2):**

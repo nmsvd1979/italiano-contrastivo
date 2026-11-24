@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import { canDoStep, STEP_LABEL, stepsFor, type UnitView } from "../../state/course";
 import type { StepId } from "../../state/store";
 
@@ -13,9 +14,11 @@ export const unitStepStates = (view: UnitView): UnitStepState[] =>
 
 /** Los pasos de la unidad como tira: los abiertos son enlaces al paso; el estado va también en texto (no solo en color). */
 export function UnitStrip({ view }: { view: UnitView }) {
+  const steps = unitStepStates(view);
+  const cols = steps.length <= 5 ? steps.length : Math.ceil(steps.length / 2); // en dos filas iguales cuando son muchos, para que las etiquetas no se partan
   return (
-    <ol className="ustrip" aria-label="Pasos de la unidad">
-      {unitStepStates(view).map((s) => {
+    <ol className="ustrip" aria-label="Pasos de la unidad" style={{ "--cols": cols } as CSSProperties}>
+      {steps.map((s) => {
         const inner = <><i aria-hidden="true" /><span>{s.label}<span className="sr"> · {STATE_TEXT[s.state]}</span></span></>;
         return (
           <li key={s.id} data-state={s.state}>

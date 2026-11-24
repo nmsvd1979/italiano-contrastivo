@@ -37,4 +37,10 @@ describe("tira de pasos de la unidad", () => {
     render(<UnitStrip view={view({ state: "completed", next: null, progress: { ...emptyProgress("u01"), completed: true, done: { descubre: "x", capsula: "x", practica: "x", escucha: "x", practica2: "x", prueba: "x" } } })} />);
     expect(screen.getAllByRole("link")).toHaveLength(6);
   });
+  it("reparte los pasos en filas iguales para que las etiquetas no se partan", () => {
+    const cols = (u: Unit) => { const { container } = render(<UnitStrip view={view({ unit: u })} />); const v = (container.querySelector("ol") as HTMLElement).style.getPropertyValue("--cols"); cleanup(); return v; };
+    const full = { ...unit, words: [{ form: "a" }], readings: ["rd"] } as unknown as Unit;
+    expect(cols(unit)).toBe("3");   // 6 pasos → 3 + 3
+    expect(cols(full)).toBe("4");   // 8 pasos → 4 + 4
+  });
 });

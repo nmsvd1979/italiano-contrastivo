@@ -11,7 +11,7 @@ const unit = (over: Partial<Unit> = {}) => ({ id: "u01", codes: ["ERR_PRESENT_ES
 
 describe("tarjeta de contraste", () => {
   it("contrastCards arma antes/cambio/después con la frase y su traducción", () => {
-    expect(contrastCards(unit(), pack, 1)).toEqual([{ id: "s1", es: "¿Tú eres Tom?", before: "Tu ", changed: "sei", after: " Tom?", wrong: "siete", soundOnly: false, author: "a1" }]);
+    expect(contrastCards(unit(), pack, 1)).toEqual([{ id: "s1", es: "¿Tú eres Tom?", before: "Tu ", changed: "sei", after: " Tom?", wrong: "siete", soundOnly: false, vocab: false, author: "a1" }]);
   });
   it("devuelve como máximo 3 y lista vacía si la unidad no tiene divergencias", () => {
     expect(contrastCards(unit(), pack)).toHaveLength(3);
@@ -21,7 +21,7 @@ describe("tarjeta de contraste", () => {
     expect(contrastCards(unit({ divergences: [{ id: "nope", start: 0, end: 1, wrong: "x" }] }), pack)).toEqual([]);
   });
   it("la tarjeta resalta lo que cambia y muestra el error típico", () => {
-    const data: ContrastData = { id: "s1", es: "¿Tú eres Tom?", before: "Tu ", changed: "sei", after: " Tom?", wrong: "siete", soundOnly: false, author: "a1" };
+    const data: ContrastData = { id: "s1", es: "¿Tú eres Tom?", before: "Tu ", changed: "sei", after: " Tom?", wrong: "siete", soundOnly: false, vocab: false, author: "a1" };
     render(<ContrastCard data={data} />);
     expect(screen.getByText("sei").tagName).toBe("MARK");
     expect(screen.getByText(/Error típico de hispanohablantes/)).toBeTruthy();
@@ -34,5 +34,14 @@ describe("tarjeta de contraste", () => {
     render(<ContrastCard data={{ ...contrastCards(u, pack, 1)[0] }} />);
     expect(screen.getByText(/Así no se escribe/)).toBeTruthy();
     expect(screen.queryByText(/Error típico de hispanohablantes/)).toBeNull();
+  });
+  it("en unidades de vocabulario no llama «error típico» a otra palabra", () => {
+    const u = unit({ codes: ["ERR_VOC_SALUTI"] });
+    const data = contrastCards(u, pack, 1)[0];
+    expect(data.vocab).toBe(true);
+    render(<ContrastCard data={data} />);
+    expect(screen.getByText(/No es lo mismo/)).toBeTruthy();
+    expect(screen.queryByText(/Error típico/)).toBeNull();
+    expect(screen.getByText("Tu siete Tom?").tagName).not.toBe("DEL");
   });
 });
