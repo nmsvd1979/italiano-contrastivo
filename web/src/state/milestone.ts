@@ -75,8 +75,11 @@ export const milestoneReadings = (pack: ContentPack, level = "A1"): Reading[] =>
 export const milestoneListening = (pack: ContentPack, level = "A1"): Reading[] =>
   (pack.readings ?? []).filter((r) => r.exam && r.listen && r.level === level).sort((a, b) => a.id.localeCompare(b.id));
 
-/** Tarea oral del hito: la primera del nivel (se autoevalúa con su rúbrica). */
-export const milestoneOralTask = (pack: ContentPack, level = "A1"): SpeakingTask | undefined => pack.speaking?.tasks.find((t) => t.level === level);
+/** Tarea oral del hito: una del nivel que cambia con cada intento (se autoevalúa con su rúbrica). */
+export const milestoneOralTask = (pack: ContentPack, level = "A1", attempt = 0): SpeakingTask | undefined => {
+  const tasks = (pack.speaking?.tasks ?? []).filter((t) => t.level === level);
+  return tasks.length ? tasks[attempt % tasks.length] : undefined;
+};
 
 export function scoreMilestone(parts: Part[], answers: boolean[]) {
   const tally = (p: Part) => ({ correct: answers.filter((a, i) => a && parts[i] === p).length, total: parts.filter((x) => x === p).length });

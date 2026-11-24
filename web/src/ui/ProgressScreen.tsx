@@ -43,7 +43,7 @@ export function ProgressScreen({ week, days, today, modules, weak }: { week: Sec
               </details>
             );
           })}
-          <p><small>«Marcado por ti» es una autoevaluación. «Módulo completado» viene de la prueba de cierre: hasta 12 frases escritas que no evalúan cada punto ni la pronunciación. «Saltado» viene de la prueba de ubicación, que es de reconocimiento. Ninguna es una verificación de un hablante nativo.</small></p>
+          <p><small>«Marcado por ti» es una autoevaluación. «Módulo completado» viene de la prueba de cierre: hasta 12 frases escritas que no evalúan cada punto ni la pronunciación. «Saltado» viene de la prueba de ubicación, que es de reconocimiento. Lo que dice «escribir» o «hablar» se da por hecho al completarlo: nadie lo corrige, tú te autoevalúas. Ninguna es una verificación de un hablante nativo.</small></p>
         </section>
       )}
       <section aria-label="Lo que más te cuesta">

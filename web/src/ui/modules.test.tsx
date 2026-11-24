@@ -61,7 +61,7 @@ describe("pantallas de módulo", () => {
     render(<ModuleStepScreen moduleId={mods[0].id} step="salida" pack={pack} store={memoryStore()} />);
     expect(await screen.findByText(/Todavía no puedes hacer este paso/)).toBeTruthy();
   });
-  it("Salida de un módulo sin juego de roles: un mensaje escrito basta, y queda declarado el hueco", async () => {
+  it("Salida de un módulo sin juego de roles: un mensaje escrito de 20 palabras basta (uno corto no), y queda declarado el hueco", async () => {
     const noSpeech = { ...mods[2], roleplays: [], tasks: [], gap_es: "No hay un diálogo abierto de este tema." };
     const pack2 = { ...pack, course: { ...pack.course, modules: mods.map((m) => (m.id === noSpeech.id ? noSpeech : m)) } } as ContentPack;
     const idx = 2;
@@ -72,6 +72,9 @@ describe("pantallas de módulo", () => {
     expect(await screen.findByText(noSpeech.gap_es!, { exact: false })).toBeTruthy();
     fireEvent.click(screen.getByRole("button", { name: "Escribir mi mensaje" }));
     fireEvent.change(await screen.findByLabelText("Tu texto en italiano"), { target: { value: "Questo è il mio zaino." } });
+    fireEvent.click(screen.getByRole("button", { name: "Revisar" }));
+    expect((await store.getUnit(moduleProgressId(noSpeech.id)))?.done.salida).toBeFalsy();   // 5 palabras: se revisa, pero no se da por hecho
+    fireEvent.change(screen.getByLabelText("Tu texto en italiano"), { target: { value: Array.from({ length: 20 }, () => "zaino").join(" ") } });
     fireEvent.click(screen.getByRole("button", { name: "Revisar" }));
     await waitFor(async () => expect((await store.getUnit(moduleProgressId(noSpeech.id)))?.done.salida).toBeTruthy());
   });

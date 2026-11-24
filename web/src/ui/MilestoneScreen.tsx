@@ -39,7 +39,7 @@ export function MilestoneScreen({ pack, store, level = "A1" }: { pack: ContentPa
     const parts: Part[] = [...rec.parts, ...write.map((): Part => "write"), ...listen.map((): Part => "listen")];
     return { run, parts, write: write.length, listen: listen.length, recognition: rec.items.length };
   }, [pack, level, tries]);
-  const task = milestoneOralTask(pack, level);
+  const task = milestoneOralTask(pack, level, tries);
   const readings = useMemo(() => [
     ...milestoneListening(pack, level).map((r) => ({ r, part: "listen" as Part, listenOnly: true })),   // primero se escucha sin ver el texto
     ...milestoneReadings(pack, level).map((r) => ({ r, part: "read" as Part, listenOnly: false })),

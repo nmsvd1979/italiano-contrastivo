@@ -23,7 +23,11 @@ export function WriteScreen({ pack, store }: { pack: ContentPack; store: Store }
   );
 }
 
-/** Escribir un texto propio con la revisión de calcos. `prompt_es` propone el tema (en un módulo, la situación); `onChecked` avisa al revisar un texto de verdad (≥ 12 caracteres). */
+/** Escribir un texto propio con la revisión de calcos. `prompt_es` propone el tema (en un módulo, la situación); `onChecked` avisa al revisar un texto de verdad (≥ 20 palabras). */
+/** Palabras mínimas para que un texto propio cuente como hecho en la Salida (antes bastaban 12 caracteres). */
+export const OWN_TEXT_MIN_WORDS = 20;
+export const wordCount = (t: string): number => t.trim().split(/\s+/).filter(Boolean).length;
+
 export function OwnText({ store, prompt_es, onChecked }: { store: Store; prompt_es?: string; onChecked?: () => void }) {
   const [text, setText] = useState("");
   const [checked, setChecked] = useState<{ text: string; errors: WritingError[] } | null>(null);
@@ -33,7 +37,8 @@ export function OwnText({ store, prompt_es, onChecked }: { store: Store; prompt_
       <p>Escribe en italiano y revisa los errores típicos de hispanohablantes. El texto no sale de tu teléfono ni se guarda, salvo que tú lo copies para pedir una corrección.</p>
       <label htmlFor="write-text">Tu texto en italiano</label>
       <textarea id="write-text" lang="it" rows={5} value={text} onChange={(e) => { setText(e.target.value); setChecked(null); }} />
-      <button type="button" disabled={!text.trim()} onClick={() => { setChecked({ text, errors: detectErrors(text) }); if (text.trim().length >= 12) onChecked?.(); }}>Revisar</button>
+      <button type="button" disabled={!text.trim()} onClick={() => { setChecked({ text, errors: detectErrors(text) }); if (wordCount(text) >= OWN_TEXT_MIN_WORDS) onChecked?.(); }}>Revisar</button>
+      {onChecked && wordCount(text) < OWN_TEXT_MIN_WORDS && <p><small>Para dar este paso por hecho escribe al menos {OWN_TEXT_MIN_WORDS} palabras ({wordCount(text)} hasta ahora).</small></p>}
       {checked && (
         <section aria-live="polite">
           {checked.errors.length === 0 ? (
