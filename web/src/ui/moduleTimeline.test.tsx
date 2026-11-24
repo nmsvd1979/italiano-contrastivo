@@ -75,4 +75,35 @@ describe("módulo como línea de tiempo", () => {
     expect(screen.getByRole("status").textContent).toMatch(/se abre cuando completes el anterior/);
     expect(screen.queryByRole("link", { name: /^Continuar · / })).toBeNull();
   });
+  const esc = (t: string) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const capLinks = (v: ReturnType<typeof m1>) => v.units.map((u) => screen.queryByRole("link", { name: new RegExp(`^${esc(u.unit.title)}`) }));
+  it("con la Entrada sin hacer ninguna cápsula es un enlace (aún no se puede entrar)", () => {
+    const v = m1([]);
+    render(<ModuleScreen view={v} pack={pack} />);
+    expect(capLinks(v).every((l) => l === null)).toBe(true);
+    expect(screen.queryByRole("link", { name: "Ficha" })).toBeNull();
+  });
+  it("en un módulo bloqueado ninguna cápsula es un enlace", () => {
+    const v = moduleViews(pack.course, [], false).modules[1];
+    render(<ModuleScreen view={v} pack={pack} />);
+    expect(capLinks(v).every((l) => l === null)).toBe(true);
+  });
+  it("en el modo de prueba (todo abierto) las cápsulas sí son enlaces", () => {
+    const v = moduleViews(pack.course, [], true).modules[0];
+    render(<ModuleScreen view={v} pack={pack} />);
+    expect(capLinks(v).every((l) => l !== null)).toBe(true);
+  });
+  it("una cápsula bloqueada lo dice en texto, no solo en color", () => {
+    const v = m1([entradaHecha]);
+    const { container } = render(<ModuleScreen view={v} pack={pack} />);
+    const locked = container.querySelectorAll('.caps li[data-state="locked"]');
+    expect(locked.length).toBeGreaterThan(0);
+    for (const li of locked) expect(li.textContent).toMatch(/bloqueada/);
+  });
+});
+describe("toques del módulo", () => {
+  const css = readFileSync(`${process.cwd()}/src/styles.css`, "utf8");
+  it("el título de la cápsula mide al menos 44 px", () => {
+    expect(Number(css.match(/\.caps a\.cap-title\s*\{[^}]*min-height:\s*(\d+)px/)?.[1] ?? 0)).toBeGreaterThanOrEqual(44);
+  });
 });

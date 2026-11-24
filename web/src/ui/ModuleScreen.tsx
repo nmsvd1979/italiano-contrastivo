@@ -28,6 +28,7 @@ export function ModuleScreen({ view, pack }: { view: ModuleView; pack: ContentPa
   const action = moduleAction(view, pack, samples);
   const part = (k: "habla" | "escritura") => !!view.progress.done[salidaKey(k)];
   const capsulesDone = view.units.filter((u) => u.progress.completed).length;
+  const capsulesOpen = !!view.steps.find((x) => x.id === "capsulas")?.open; // sin la Entrada hecha (o con el módulo bloqueado) las cápsulas aún no se pueden abrir
   return (
     <main className="module">
       <p><a className="tap" href="#/ruta" style={{ textDecoration: "none" }}>‹ Ruta</a></p>
@@ -62,13 +63,15 @@ export function ModuleScreen({ view, pack }: { view: ModuleView; pack: ContentPa
                     {view.units.map((u) => {
                       const steps = stepsFor(u.unit);
                       const doneSteps = steps.filter((st) => u.progress.done[st]).length;
-                      const isNow = u.state === "current" && !!u.next;
+                      const canOpen = u.state === "completed" || (capsulesOpen && u.state === "current");
+                      const isNow = canOpen && u.state === "current" && !!u.next;
+                      const status = u.state === "completed" ? "Completada" : `${doneSteps} de ${steps.length} pasos hechos`;
                       return (
-                        <li key={u.unit.id} data-state={u.state}>
-                          {u.state === "locked"
-                            ? <span className="cap-title">{u.unit.title}</span>
-                            : <a className="cap-title" href={isNow ? `#/unidad/${u.unit.id}/${u.next}` : `#/unidad/${u.unit.id}`}>{u.unit.title}</a>}
-                          <span className="pips" role="img" aria-label={u.state === "completed" ? "Completada" : `${doneSteps} de ${steps.length} pasos hechos`}>
+                        <li key={u.unit.id} data-state={canOpen ? u.state : "locked"}>
+                          {canOpen
+                            ? <a className="cap-title" href={isNow ? `#/unidad/${u.unit.id}/${u.next}` : `#/unidad/${u.unit.id}`}>{u.unit.title}</a>
+                            : <span className="cap-title">{u.unit.title}<span className="sr"> · bloqueada</span></span>}
+                          <span className="pips" role="img" aria-label={canOpen ? status : "Bloqueada"}>
                             {steps.map((st) => <i key={st} className={u.progress.done[st] || u.state === "completed" ? "d" : ""} />)}
                           </span>
                           {isNow && <a className="tap" href={`#/unidad/${u.unit.id}`}>Ficha</a>}

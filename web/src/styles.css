@@ -252,6 +252,7 @@ ol.tl { list-style: none; padding: 0; margin: 14px 0; display: flex; flex-direct
 .caps li { display: flex; align-items: center; gap: 10px; min-height: 44px; border-top: 1px dashed var(--line); }
 .caps li:first-child { border-top: 0; }
 .caps .cap-title { flex: 1; min-width: 0; color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
+.caps a.cap-title { display: flex; align-items: center; align-self: stretch; min-height: 44px; }
 .caps li[data-state="locked"] .cap-title { color: var(--muted); }
 .pips { display: flex; gap: 3px; flex: none; }
 .pips i { width: 7px; height: 7px; border-radius: 50%; box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--muted) 55%, transparent); }
