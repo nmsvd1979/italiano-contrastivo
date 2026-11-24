@@ -30,7 +30,9 @@ export function NoticeStep({ unit, pack, onFinish, exitHref = "#/" }: { unit: Un
         <h2>Fíjate ({i + 1} de {cards.length})</h2>
         <p className="big" lang="it">{sentence.it.slice(0, start)}<mark>{sentence.it.slice(start, end)}</mark>{sentence.it.slice(end)}</p>
         <p>{sentence.es}</p>
-        <p><small>{SOUND_CODES.has(unit.codes[0]) ? "Así no se escribe (no sonaría igual)" : "Error típico de hispanohablantes"}: <del lang="it">{faulty}</del></small></p>
+        {unit.codes[0].startsWith("ERR_VOC_")   // en vocabulario lo marcado es otra palabra, no un error típico
+          ? <p><small>No es lo mismo: <span lang="it">{faulty}</span></small></p>
+          : <p><small>{SOUND_CODES.has(unit.codes[0]) ? "Así no se escribe (no sonaría igual)" : "Error típico de hispanohablantes"}: <del lang="it">{faulty}</del></small></p>}
         <SpeakButton text={sentence.it} />
         <div className="actions-bottom"><button type="button" className="primary block" onClick={next}>Siguiente</button></div>
       </div>
