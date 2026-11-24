@@ -2,6 +2,19 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 (5) — Rediseño del frontend, etapas 1 y 2
+**Pedido del usuario:** analizar a fondo el frontend y proponer el mejor diseño. Aprobado el diseño (`docs/specs/2026-11-24-rediseno-frontend.md`, maqueta en `docs/specs/2026-11-24-rediseno-frontend-maqueta.html`) y el plan (`docs/plans/2026-11-24-rediseno-frontend-etapas-1-2.md`).
+**Hecho (etapas 1 y 2):**
+1. Al cambiar de pantalla vuelve arriba (`useScrollTop`); antes el scroll quedaba a mitad de la pantalla nueva.
+2. Colores de hebra (`--s-in`, `--s-form`, `--s-out`, `--s-flu`) con prueba de contraste ≥ 4,5:1 en claro y oscuro (en claro se oscurecieron Entender y Producir para pasarla), etiqueta `Tag`, iconos SVG propios.
+3. Cinco pestañas: Hoy · Ruta · Practicar · Biblioteca · Progreso. Practicar reúne Repaso, Hablar y Escribir; Progreso (mínimo: semana, Ajustes, Acerca). Se quitó «Práctica libre» de la Ruta.
+4. Hoy: sesión con etiqueta de hebra por fila, barra semanal apilada, botón «Empezar»/«Continuar» y salidas «Solo N min» / «Elegir otra cosa».
+5. Ruta: módulo en curso destacado con tira de etapas, el resto en filas compactas, método y horas plegados en «Cómo funciona».
+**Decisiones mías (a revisar):** qué hacen «Solo N min» (bloque pendiente más corto de hasta 5 min) y «Elegir otra cosa» (Practicar); ContrastCard, tabla de conjugación y línea de tiempo pasan a la etapa 3; los pasos de unidad en Hoy no repiten el nombre de la unidad.
+**Comprobado:** web 1035 pruebas en verde; recorrido en el navegador a 375 y 320 px, claro y oscuro, sin errores de consola ni desborde horizontal.
+**No comprobado:** iPhone real; tsc (no está instalado en web/); Biblioteca y Hablar/Escribir con el menú nuevo solo por pruebas.
+**Pendiente / siguiente paso:** etapa 3 (módulo y cápsula: línea de tiempo, ficha contrastiva, acceso directo al paso siguiente), etapa 4 (ejercicio y corrección), etapa 5 (Progreso con «sé hacer»; «Lo que más te cuesta» exige un almacén nuevo de aciertos por tipo de error, que hoy no existe).
+
 ## 2026-11-24 (4) — Se cierran los huecos que A1 aún declaraba
 **Pedido del usuario:** resolver todos los huecos de A1 sin más iteraciones y dejar el plan completo de A2.
 **Hecho:**

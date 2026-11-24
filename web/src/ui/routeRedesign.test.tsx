@@ -36,7 +36,7 @@ describe("ruta rediseñada", () => {
   it("un módulo bloqueado no es un enlace pero muestra lo que sabrás hacer", () => {
     const v = moduleViews(pack.course, [], false);
     render(<RouteScreen views={v.units} modules={v.modules} pack={pack} />);
-    expect(screen.getByText(new RegExp(`^2\\. ${mods[1].title}`)).closest("a")).toBeNull();
+    expect(screen.getByText(mods[1].title).closest("a")).toBeNull();
     expect(screen.getByText(mods[1].can_do_es[0])).toBeTruthy();
   });
   it("sin ningún módulo en curso no falla y muestra el examen de hito", () => {

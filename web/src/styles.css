@@ -214,3 +214,4 @@ ol.strip i { display: block; height: 6px; border-radius: 4px; background: var(--
 ol.strip li[data-state="done"] i { background: var(--ok); }
 ol.strip li[data-state="current"] i { background: linear-gradient(90deg, var(--ok) 35%, var(--line) 35%); }
 ol.strip li[data-state="current"] span { color: var(--ink); font-weight: 600; }
+section.route-level { background: none; border: 0; padding: 0; }

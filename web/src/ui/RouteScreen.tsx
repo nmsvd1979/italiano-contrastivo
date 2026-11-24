@@ -30,8 +30,8 @@ export function RouteScreen({ views, pack, hito, modules = [] }: { views: UnitVi
     );
   };
   const moduleRow = (m: ModuleView) => {
-    const title = `${m.index + 1}. ${m.module.title}`;
     if (m.state === "current") {
+      const title = `${m.index + 1}. ${m.module.title}`;
       return (
         <li key={m.module.id} className="mod-card" data-state="current">
           <a href={`#/modulo/${m.module.id}`}><strong>{title}</strong></a>
@@ -45,7 +45,7 @@ export function RouteScreen({ views, pack, hito, modules = [] }: { views: UnitVi
       <li key={m.module.id} className="mod-row" data-state={m.state}>
         <span className="n" aria-hidden="true">{m.state === "completed" ? "✓" : m.index + 1}</span>
         <span className="label">
-          {m.state === "locked" ? <strong>{title}</strong> : <a href={`#/modulo/${m.module.id}`}><strong>{title}</strong></a>}
+          {m.state === "locked" ? <strong>{m.module.title}</strong> : <a href={`#/modulo/${m.module.id}`}><strong>{m.module.title}</strong></a>}
           <small>{m.state === "completed" ? `Completado${m.byPlacement ? " (por la prueba de ubicación)" : ""}` : m.module.can_do_es[0]}</small>
         </span>
       </li>

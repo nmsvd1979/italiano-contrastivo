@@ -52,7 +52,7 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, 
       </div>
       {storeError && <p role="alert" className="alert">{storeError}</p>}
       {firstTime && (
-        <details className="how" open>
+        <details className="how">
           <summary>Cómo empezar</summary>
           <p>Sigue la ruta: cada módulo es una situación (por ejemplo, presentarte): entras con un texto real, estudias sus cápsulas, hablas y escribes tú, y cierras con una prueba. Haz uno o dos al día; el repaso te devuelve lo aprendido justo antes de olvidarlo. Si ya sabes algo, la <a href="#/ubicacion">prueba de ubicación</a> te deja saltarlo.</p>
         </details>
