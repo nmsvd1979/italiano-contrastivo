@@ -74,10 +74,10 @@ export function applyTest(p: UnitProgress, correct: number, total: number, now: 
   const ratio = total ? correct / total : 0;
   const best = Math.max(p.testBest ?? 0, ratio);
   if (ratio >= PASS_RATIO) {
-    return { passed: true, progress: { ...p, testBest: best, done: { ...p.done, prueba: now.toISOString() }, completed: true, completedAt: now.toISOString(), mastery: p.mastery === "ubicacion" ? "ubicacion" : "prueba" } };
+    return { passed: true, progress: { ...p, tries: (p.tries ?? 0) + 1, testBest: best, done: { ...p.done, prueba: now.toISOString() }, completed: true, completedAt: now.toISOString(), mastery: p.mastery === "ubicacion" ? "ubicacion" : "prueba" } };
   }
   const { practica: _a, practica2: _b, prueba: _t, ...rest } = p.done;  // hay que rehacer las dos tandas de práctica
-  return { passed: false, progress: { ...p, testBest: best, done: rest } };
+  return { passed: false, progress: { ...p, tries: (p.tries ?? 0) + 1, testBest: best, done: rest } };
 }
 
 export function masterByPlacement(p: UnitProgress, now: Date): UnitProgress {

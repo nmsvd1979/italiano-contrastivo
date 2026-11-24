@@ -11,6 +11,8 @@ export type UnitProgress = {
   testBest: number | null;
   completed: boolean;
   completedAt?: string;
+  /** Veces que se rindió la prueba (de la cápsula, del Cierre o del hito): rota las frases para no repetir siempre las mismas. */
+  tries?: number;
   mastery?: "prueba" | "ubicacion";
 };
 export type CapsuleProgress = {

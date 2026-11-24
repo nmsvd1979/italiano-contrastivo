@@ -4,7 +4,7 @@ import { isPreview } from "./preview";
 import type { Item } from "../generated/item";
 import type { ContentPack } from "../content/load";
 import type { UnitProgress } from "./store";
-import { testItems } from "./steps";
+import { reserveItems, rotate, testItems } from "./steps";
 
 /**
  * Módulos temáticos: una situación comunicativa (qué sabrás hacer) hecha de pasos propios y de cápsulas (las unidades).
@@ -98,8 +98,8 @@ export function applyModuleTest(p: UnitProgress, correct: number, total: number,
   const ratio = total ? correct / total : 0;
   const best = Math.max(p.testBest ?? 0, ratio);
   const at = now.toISOString();
-  if (ratio >= MODULE_PASS_RATIO) return { passed: true, progress: { ...p, testBest: best, done: { ...p.done, cierre: at }, completed: true, completedAt: at, mastery: "prueba" } };
-  return { passed: false, progress: { ...p, testBest: best } };
+  if (ratio >= MODULE_PASS_RATIO) return { passed: true, progress: { ...p, tries: (p.tries ?? 0) + 1, testBest: best, done: { ...p.done, cierre: at }, completed: true, completedAt: at, mastery: "prueba" } };
+  return { passed: false, progress: { ...p, tries: (p.tries ?? 0) + 1, testBest: best } };
 }
 
 export const markModuleStep = (p: UnitProgress, step: ModuleStepId, now: Date): UnitProgress => ({ ...p, done: { ...p.done, [step]: p.done[step] ?? now.toISOString() } });
@@ -132,10 +132,16 @@ export function salidaMissing(m: CourseModule, p: UnitProgress): SalidaPart[] {
 
 export const MODULE_TEST_MAX = 12;
 export const MODULE_TEST_PER_UNIT = 2;
-/** Prueba de cierre: frases reservadas de la prueba de cada cápsula, de a dos por unidad y mezcladas entre unidades; se escribe desde el español. */
-export function moduleTestItems(view: ModuleView, pack: ContentPack): Item[] {
+/**
+ * Prueba de cierre: de cada cápsula, una frase de su prueba (la que ya escribiste) y una de la reserva (que no viste practicando), de a dos por unidad y
+ * mezcladas entre unidades; se escribe desde el español. Cada reintento (`attempt`) empieza en otra frase.
+ */
+export function moduleTestItems(view: ModuleView, pack: ContentPack, attempt = 0): Item[] {
   const perUnit = view.units.length < 3 ? MODULE_TEST_PER_UNIT + 1 : MODULE_TEST_PER_UNIT;   // con solo dos cápsulas, tres frases de cada una para no quedar en una prueba corta
-  const pools = view.units.map((v) => testItems(v.unit, pack).slice(0, perUnit));
+  const pools = view.units.map((v) => {
+    const seen = rotate(testItems(v.unit, pack), attempt), fresh = rotate(reserveItems(v.unit, pack), attempt);
+    return [seen[0], fresh[0], seen[1], fresh[1], seen[2]].filter((x): x is Item => !!x).slice(0, perUnit);
+  });
   const out: Item[] = [];
   for (let round = 0; round < perUnit && out.length < MODULE_TEST_MAX; round++) {
     for (const pool of pools) if (pool[round] && out.length < MODULE_TEST_MAX) out.push(pool[round]);

@@ -17,7 +17,7 @@ export type Manifest = {
 };
 export type Unit = {
   id: string; level: string; title: string; goal_es: string; why_here: string; codes: string[]; status: "active"; explanation_es: string;
-  parts: { descubre: string[]; practica: string[]; escucha: string[]; prueba: string[] };
+  parts: { descubre: string[]; practica: string[]; escucha: string[]; prueba: string[]; /** Frases apartadas de la práctica al cargar: solo las ven el Cierre del módulo y el hito. */ reserva?: string[] };
   divergences: { id: string; start: number; end: number; wrong: string }[];
   readings?: string[];
   /** Su lectura es el texto de entrada del módulo: el paso «Lectura» no se repite en la unidad. */
@@ -96,6 +96,26 @@ export type ContentPack = {
   manifest: Manifest;
 };
 
+export const RESERVE_SIZE = 3;
+export const RESERVE_MAX_WORDS = 9;
+
+/**
+ * Aparta de la práctica de cada unidad unas pocas frases (repartidas de la más fácil a la más difícil, cortas, que no sean de «Descubre» ni de «Escucha»)
+ * para que el Cierre del módulo y el examen de hito midan con frases que no viste practicando. Se hace al cargar: no cambia el contenido publicado.
+ */
+export function reserveParts(course: Course, sentences: PackSentence[]): void {
+  const byId = new Map(sentences.map((s) => [s.id, s]));
+  for (const u of course.units) {
+    if (u.parts.reserva) continue;
+    const skip = new Set([...u.parts.descubre, ...u.parts.escucha]);
+    const candidates = u.parts.practica.filter((id) => !skip.has(id) && (byId.get(id)?.it.split(/\s+/).length ?? 99) <= RESERVE_MAX_WORDS);
+    if (u.parts.practica.length < 20 || candidates.length < RESERVE_SIZE) { u.parts.reserva = []; continue; }
+    const picked = new Set(Array.from({ length: RESERVE_SIZE }, (_, i) => candidates[Math.floor(((i + 0.5) * candidates.length) / RESERVE_SIZE)]));
+    u.parts.reserva = [...picked];
+    u.parts.practica = u.parts.practica.filter((id) => !picked.has(id));
+  }
+}
+
 export class ContentError extends Error {
   constructor(message: string) {
     super(message);
@@ -151,5 +171,6 @@ export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: stri
   }
   const rd = new Set(readings.map((r) => r.id));
   for (const u of course.units) for (const id of u.readings ?? []) if (!rd.has(id)) throw new ContentError(`La unidad ${u.id} usa una lectura que no está en el paquete (${id}).`);
+  reserveParts(course, sentences);
   return { capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems, readingWords, library, speaking };
 }

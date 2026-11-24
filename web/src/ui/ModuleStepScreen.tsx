@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { ContentPack, CourseModule, RolePlay, SpeakingTask } from "../content/load";
 import { canDoKey, setCanDo } from "../state/cando";
 import { emptyProgress } from "../state/course";
@@ -152,7 +152,7 @@ function Cierre({ view, pack, store, exit, onDone }: { view: ModuleView; pack: C
     }).catch(() => undefined);
   };
   const [res, setRes] = useState<{ passed: boolean; correct: number; total: number } | null>(null);
-  const items = moduleTestItems(view, pack);
+  const items = useMemo(() => moduleTestItems(view, pack, view.progress.tries ?? 0), [pack, view.module.id, view.progress.tries]);
   useStrandTimer(store, "salida", phase === "test");
   const lib = (pack.library ?? []).find((r) => r.id === module.library);
   if (phase === "checklist") {

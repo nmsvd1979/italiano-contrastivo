@@ -2,7 +2,7 @@ import type { ContentPack, PackSentence, Reading, SpeakingTask, Unit } from "../
 import type { Item } from "../generated/item";
 import { emptyProgress } from "./course";
 import type { UnitProgress } from "./store";
-import { recognitionItems } from "./steps";
+import { recognitionItems, reserveChoiceItems, rotate } from "./steps";
 import { writeItemOf } from "./write";
 
 /**
@@ -19,12 +19,12 @@ export const hitoId = (level: string) => `hito:${level}`;
 export type MilestoneItems = { items: Item[]; parts: Part[] };
 
 /** Elige ítems de las pruebas de las unidades del nivel, de a uno por unidad y por vuelta, respetando la ponderación. */
-export function milestoneItems(pack: ContentPack, level = "A1"): MilestoneItems {
+export function milestoneItems(pack: ContentPack, level = "A1", attempt = 0): MilestoneItems {
   const units = pack.course.units.filter((u) => u.level === level);
   const want = { lex: Math.round(HITO.A1.total * HITO.A1.lex), gram: HITO.A1.total - Math.round(HITO.A1.total * HITO.A1.lex) };
   const out: MilestoneItems = { items: [], parts: [] };
   for (const part of ["gram", "lex"] as const) {
-    const all = units.filter((u) => partOf(u) === part).map((u) => recognitionItems(u, pack).filter((i) => i.type === "choice_l1_distractor")).filter((p) => p.length);
+    const all = units.filter((u) => partOf(u) === part).map((u) => [...rotate(reserveChoiceItems(u, pack), attempt), ...rotate(recognitionItems(u, pack).filter((i) => i.type === "choice_l1_distractor"), attempt)]).filter((p) => p.length);   // primero frases de la reserva (que no viste practicando)
     // Si hay más unidades que preguntas, se toman unidades repartidas a lo largo de TODA la ruta (no solo las primeras); si hay menos, se da otra vuelta.
     const pools = all.length > want[part] ? Array.from({ length: want[part] }, (_, i) => all[Math.floor(((i + 0.5) * all.length) / want[part])]) : all;
     for (let round = 0; out.parts.filter((p) => p === part).length < want[part] && round < 12; round++) {
@@ -45,12 +45,12 @@ const spreadUnits = (units: Unit[], n: number, shift = 0.5): Unit[] =>
   units.length <= n ? units : Array.from({ length: n }, (_, i) => units[Math.min(units.length - 1, Math.floor(((i + shift) * units.length) / n))]);
 
 /** Producción: una frase por unidad, escrita desde el español, de las reservadas de la prueba y distinta de las que ya salieron como reconocimiento. */
-export function milestoneWriteItems(pack: ContentPack, level = "A1", used: Set<string> = new Set()): Item[] {
+export function milestoneWriteItems(pack: ContentPack, level = "A1", used: Set<string> = new Set(), attempt = 0): Item[] {
   const sentences = new Map(pack.sentences.map((s) => [s.id, s]));
   const units = pack.course.units.filter((u) => u.level === level);
   const out: Item[] = [];
   for (const u of spreadUnits(units, HITO.WRITE, 0.5)) {
-    const s = u.parts.prueba.map((id) => sentences.get(id)).find((x): x is PackSentence => !!x && !used.has(x.id) && x.it.split(/\s+/).length <= 10);
+    const s = [...rotate(u.parts.reserva ?? [], attempt), ...rotate(u.parts.prueba, attempt)].map((id) => sentences.get(id)).find((x): x is PackSentence => !!x && !used.has(x.id) && x.it.split(/\s+/).length <= 10);
     if (s) { out.push(writeItemOf(s, u.codes[0])); used.add(s.id); }
   }
   return out;
@@ -92,7 +92,7 @@ export const oralPassed = (checked: number, total: number): boolean => total > 0
 
 export const milestoneProgress = (prev: UnitProgress | undefined, level: string, score: number, passed: boolean, now: Date): UnitProgress => {
   const p = prev ?? emptyProgress(hitoId(level));
-  return { ...p, testBest: Math.max(p.testBest ?? 0, score), completed: passed || p.completed, completedAt: passed && !p.completed ? now.toISOString() : p.completedAt };
+  return { ...p, tries: (p.tries ?? 0) + 1, testBest: Math.max(p.testBest ?? 0, score), completed: passed || p.completed, completedAt: passed && !p.completed ? now.toISOString() : p.completedAt };
 };
 
 /** El examen se abre al completar todas las unidades del nivel (o en modo de prueba). */

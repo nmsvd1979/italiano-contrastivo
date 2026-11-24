@@ -75,6 +75,21 @@ export function testItems(unit: Unit, pack: ContentPack): Item[] {
   return unit.parts.prueba.map((id) => idx.get(id)).filter((x): x is PackSentence => !!x).map((x) => writeItemOf(x, unit.codes[0]));
 }
 
+/** Gira una lista `k` lugares (para que cada reintento empiece en otra frase). */
+export const rotate = <T,>(xs: T[], k: number): T[] => (xs.length ? xs.map((_, i) => xs[(i + k) % xs.length]) : xs);
+
+/** Frases de la reserva (apartadas de la práctica al cargar), para escribirlas desde el español: solo las ven el Cierre y el hito. */
+export function reserveItems(unit: Unit, pack: ContentPack): Item[] {
+  const idx = sentenceIndex(pack);
+  return (unit.parts.reserva ?? []).map((id) => idx.get(id)).filter((x): x is PackSentence => !!x).map((x) => writeItemOf(x, unit.codes[0]));
+}
+
+/** Elección (reconocimiento) de las frases de la reserva. */
+export function reserveChoiceItems(unit: Unit, pack: ContentPack): Item[] {
+  const bySentence = unitItems(unit, pack, unit.parts.reserva ?? []);
+  return [...bySentence.values()].map((list) => list.find((x) => x.type === "choice_l1_distractor")).filter((x): x is Item => !!x);
+}
+
 /** Ítems de reconocimiento de las oraciones reservadas (una elección por oración y huecos/orden para completar 10): ubicación y examen de hito. */
 export function recognitionItems(unit: Unit, pack: ContentPack): Item[] {
   const bySentence = unitItems(unit, pack, unit.parts.prueba);

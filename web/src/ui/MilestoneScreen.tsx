@@ -21,22 +21,24 @@ export function MilestoneScreen({ pack, store, level = "A1" }: { pack: ContentPa
   const readAcc = useRef<{ part: Part; ok: boolean }[]>([]);
   const [partial, setPartial] = useState<ReturnType<typeof scoreMilestone> | null>(null);
   const [res, setRes] = useState<Result | null>(null);
+  const [tries, setTries] = useState(0);
   useEffect(() => {
     store.allUnits().then((u) => {
+      setTries(u.find((x) => x.unitId === hitoId(level))?.tries ?? 0);
       const units = milestoneOpen(pack, new Set(u.filter((x) => x.completed).map((x) => x.unitId)), level, isPreview());
       const mods = moduleViews(pack.course, u).modules.filter((m) => m.module.level === level);
       setOpen(units && (isPreview() || mods.every((m) => m.state === "completed")));   // el examen pide completar también cada módulo (salida y cierre)
     });
   }, [store, pack, level]);
   const exam = useMemo(() => {
-    const rec = milestoneItems(pack, level);
+    const rec = milestoneItems(pack, level, tries);
     const used = new Set(rec.items.map((i) => (i as { sentence_id?: string }).sentence_id).filter((x): x is string => !!x));
-    const write = milestoneWriteItems(pack, level, used);
+    const write = milestoneWriteItems(pack, level, used, tries);
     const listen = milestoneListenSentences(pack, level, used);
     const run: RunItem[] = [...fromItems(rec.items), ...fromItems(write), ...fromDictations(listen)];
     const parts: Part[] = [...rec.parts, ...write.map((): Part => "write"), ...listen.map((): Part => "listen")];
     return { run, parts, write: write.length, listen: listen.length, recognition: rec.items.length };
-  }, [pack, level]);
+  }, [pack, level, tries]);
   const task = milestoneOralTask(pack, level);
   const readings = useMemo(() => [
     ...milestoneListening(pack, level).map((r) => ({ r, part: "listen" as Part, listenOnly: true })),   // primero se escucha sin ver el texto
