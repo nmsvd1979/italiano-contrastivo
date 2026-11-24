@@ -26,13 +26,17 @@ export function Feedback({ ok, answer, said, why, extra, onContinue }: { ok: boo
         {!ok && !said && answer && <p className="answer" lang="it">{answer}</p>}
         {!ok && why && <p className="why">{why}</p>}
         {extra}
-        {!ok && run.why && (
-          <details>
-            <summary>Ver la regla</summary>
-            <p>{run.why}</p>
-          </details>
+        {!ok && (run.why || run.fichaHref) && (
+          <div className="acts">
+            {run.why && (
+              <details>
+                <summary>Ver la regla</summary>
+                <p>{run.why}</p>
+              </details>
+            )}
+            {run.fichaHref && <a className="button" href={run.fichaHref}>Ver ficha</a>}
+          </div>
         )}
-        {!ok && run.fichaHref && <p><a className="button" href={run.fichaHref}>Ver ficha</a></p>}
         {!ok && run.requeue && <p className="again">Este ejercicio volverá al final para que lo repases.</p>}
         <button type="button" className="primary" onClick={onContinue}>Continuar</button>
       </div>

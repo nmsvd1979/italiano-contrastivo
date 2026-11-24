@@ -59,7 +59,7 @@ progress { width: 100%; height: 10px; accent-color: var(--ok); }
 
 /* modo concentrado */
 .focus-head { display: flex; align-items: center; gap: 12px; margin: 0 0 14px; }
-.focus-head .x { min-height: 40px; min-width: 40px; padding: 0; font-size: 22px; border: none; background: transparent; color: var(--muted); }
+.focus-head .x { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; padding: 0; font-size: 22px; border: none; background: transparent; color: var(--muted); }
 .bar { flex: 1; height: 12px; background: var(--line); border-radius: 8px; overflow: hidden; }
 .bar > i { display: block; height: 100%; background: var(--ok); border-radius: 8px; transition: width .35s ease; }
 .bar.seg { display: flex; gap: 4px; background: none; overflow: visible; height: 10px; }
@@ -267,6 +267,10 @@ ol.tl { list-style: none; padding: 0; margin: 14px 0; display: flex; flex-direct
 .feedback dl.cmp del { color: var(--bad); text-decoration-thickness: 1.5px; }
 .feedback .why { margin: 4px 0 8px; font-size: 14.5px; }
 .feedback a.button { min-height: 44px; }
+.feedback .acts { display: flex; gap: 12px; align-items: flex-start; justify-content: space-between; }
+.feedback .acts details { flex: 1; min-width: 0; }
+.feedback .acts a.button { flex: none; }
+.speak button { min-height: 44px; }
 .feedback summary { min-height: 44px; display: flex; align-items: center; }
 .focus-head .count { font-size: 14px; font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
 
@@ -275,3 +279,4 @@ main.focus .item { display: flex; flex-direction: column; min-height: calc(100dv
 .ask { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 8px 0 16px; }
 .ask .eyebrow { margin: 0; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
 .ask .es { margin: 0 0 4px; font-size: 24px; line-height: 1.3; }
+main.focus .item:has(.feedback) { min-height: 0; }   /* con la hoja de corrección abierta, las opciones suben para verse sobre ella */

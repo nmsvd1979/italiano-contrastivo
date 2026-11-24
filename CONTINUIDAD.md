@@ -2,6 +2,18 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 (7) — Rediseño del frontend, etapa 4 (ejercicio y corrección)
+**Pedido del usuario:** «Sigue con la etapa 4». Plan: `docs/plans/2026-11-24-rediseno-frontend-etapa-4.md`.
+**Hecho:**
+1. **Corrección:** al fallar, la hoja muestra «Dijiste» (tachado) frente a «Se dice» (con lo que cambia resaltado), el porqué del ejercicio a la vista, la regla de la unidad plegada («Ver la regla») y «Ver ficha» junto a ella (solo en los pasos de una unidad; en repaso, ubicación e hito no hay ficha propia). Al acertar sigue breve.
+2. **Contador «8 / 24»** en la cabecera (sin «quedan ≈ N min»); «Retomado donde lo dejaste» al volver a un bloque a medias. «Ver ficha» abre `#/unidad/{id}`; al volver al paso el avance se conserva (comprobado a mano: vuelve en el mismo ejercicio).
+3. **Ejercicio:** «Quieres decir» + la frase en español grande al centro y las respuestas abajo. En «elegir» la frase sale de `sentences.json` por `sentence_id` (no en los de escuchar, para no cambiar el ejercicio); si no se encuentra, se ve como antes. Con la hoja abierta las opciones suben para verse sobre ella.
+4. Toques a 44 px: «Escuchar»/«Lento», «×» de salida, «Ver la regla», «Ver ficha».
+**Decisiones mías (a revisar):** «Dijiste» solo al fallar; el porqué visible es el del ejercicio y la regla de la unidad va plegada; Cloze y Reorder ya no repiten «La respuesta era…» porque «Se dice» la muestra.
+**Comprobado:** web 1090 pruebas en verde; recorrido en el navegador a 375 y 320 px, claro y oscuro (elegir y hueco con corrección, «Ver ficha» y volver), sin errores de consola ni desborde.
+**No comprobado:** iPhone real; tsc; los ejercicios de ordenar, escribir y escuchar solo por pruebas (no a mano); el uso de `:has()` para subir las opciones (Safari 15.4 o superior).
+**Pendiente / siguiente paso:** etapa 5 (Progreso con «sé hacer»; «Lo que más te cuesta» exige un almacén nuevo de aciertos por tipo de error, que hoy no existe).
+
 ## 2026-11-24 (6) — Rediseño del frontend, etapa 3 (módulo y cápsula)
 **Pedido del usuario:** «Sigue con la etapa 3». Plan: `docs/plans/2026-11-24-rediseno-frontend-etapa-3.md`.
 **Hecho:**
