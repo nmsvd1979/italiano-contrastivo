@@ -20,6 +20,7 @@ import { UnitScreen } from "./ui/UnitScreen";
 import { ReviewScreen } from "./ui/ReviewScreen";
 import { TodayScreen } from "./ui/TodayScreen";
 import { TabBar, isFocusRoute } from "./ui/kit/TabBar";
+import { useScrollTop } from "./ui/kit/useScrollTop";
 import { computeStreak } from "./state/streak";
 import { weekTotals } from "./state/strands";
 import { planSession } from "./state/dayplan";
@@ -95,6 +96,7 @@ function Routes({ ready, hash }: { ready: Ready; hash: string }) {
 
 export function App() {
   const hash = useHash();
+  useScrollTop(hash);
   const [ready, setReady] = useState<Ready | null>(null);
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
