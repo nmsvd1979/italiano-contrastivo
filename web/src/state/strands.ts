@@ -9,6 +9,8 @@ import { localDate } from "./store";
 export type Strand = "entrada" | "foco" | "salida" | "fluidez";
 export const STRANDS: Strand[] = ["entrada", "foco", "salida", "fluidez"];
 export const STRAND_LABEL: Record<Strand, string> = { entrada: "Entender", foco: "Estudiar la lengua", salida: "Escribir y hablar", fluidez: "Fluidez" };
+/** Nombre corto de cada hebra para etiquetas y barras. */
+export const STRAND_TAG: Record<Strand, string> = { entrada: "Entender", foco: "Estudiar", salida: "Producir", fluidez: "Fluidez" };
 export const STRAND_HELP: Record<Strand, string> = {
   entrada: "leer y escuchar para entender el mensaje (lecturas, textos, series, podcasts)",
   foco: "estudiar la forma: ver reglas, practicar, repasar tarjetas",
