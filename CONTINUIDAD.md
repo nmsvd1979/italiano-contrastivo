@@ -2,6 +2,19 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 (13) — «Hoy» como plan por contenido, con 15 min diarios de referencia
+**Pedido del usuario:** «Hoy» lo mandaba a Practicar al elegir otra cosa; quería un plan claro de qué hacer y en qué orden, robusto por sí solo para enseñar todo el contenido, sin que el tiempo lo gobierne (solo ≈15 min diarios como referencia). Maqueta aprobada antes de implementar.
+**Hecho:**
+1. **Plan del día sin corte por tiempo** (`state/dayplan.ts`): Repaso → Refuerzo (si hay temas débiles) → todos los pasos que faltan de la cápsula, cada uno con una línea de qué se hace (`STEP_HINT`). Se elimina `SESSION_BUDGET_SECONDS`.
+2. **Refuerzo dentro del plan:** la tanda de «Lo que más te cuesta» (`#/debiles`) es una fila de Hoy, una vez al día (`REFUERZO_KEY` en `stepsDone`, `finishRefuerzo` en `state/progress.ts`); sus salidas vuelven a Hoy.
+3. **Hoy:** encabezado «A1 · Módulo N · Cápsula i de k» (`TodayPlan.place`), botón principal sin minutos (repaso vencido → refuerzo → siguiente paso), línea «Hoy llevas X de 15 min» (`DAILY_MIN_SECONDS`, tiempo activo real); desaparecen «Solo N min», «Elegir otra cosa» y los minutos por fila (y `shortDuration`).
+4. **Navegación:** 4 pestañas (Hoy, Ruta, Biblioteca, Progreso); Practicar y sus pantallas siguen existiendo y se abren desde «Práctica extra (opcional)» en Progreso (la pestaña Progreso queda activa en ellas).
+5. **Tandas fijas:** `StepScreen` arma descubre/práctica/escucha sin los tiempos medidos del usuario, así cada cápsula trae siempre los mismos ejercicios.
+**Decisiones mías (a revisar):** el repaso sigue primero; con la Entrada pendiente Hoy muestra solo Repaso + Entrada (el paso propio del módulo), no el resto del módulo; el repaso (`reviewQueue`) sigue dimensionándose con los tiempos medidos; el Refuerzo cuenta como paso del día (racha y «pasos de hoy»).
+**Comprobado:** web 1195 pruebas en verde; build y precache ok; en el navegador a 375 px (sin datos y con datos sembrados, ya borrados): Hoy con plan completo, Refuerzo pendiente y hecho, línea de 9 y de 16 min, botón principal que pasa de Refuerzo a Descubre, 4 pestañas, enlace en Progreso, sin errores de consola ni desborde.
+**No comprobado:** iPhone real; tsc (no está instalado en el proyecto); terminar a mano la tanda de Refuerzo hasta «Tanda terminada» (la anotación en el día se probó por prueba automática y el estado «hecho» a mano sembrando el dato); 320 px y modo oscuro de lo nuevo.
+**Pendiente / siguiente paso:** probar en un iPhone real; después, A2 (módulo a2m01).
+
 ## 2026-11-24 (12) — Revisión de diseño gráfico: sistema visual nuevo
 **Pedido del usuario:** revisar la app «como diseñador gráfico y de frontend»: limpia, ordenada, tipografía, interlineado, separación, simbología y cómo se muestra el progreso, sin romper los lineamientos iniciales.
 **Hecho:** se reescribió `web/src/styles.css` como un sistema (tokens → base → componentes → navegación → ejercicio → pantallas) y se ajustó el marcado de Hoy, Ruta, Progreso, Ajustes y los botones de voz. Detalle y razones en `docs/specs/2026-11-24-sistema-visual.md`. En corto: escala tipográfica y de espacio únicas; una tarjeta por grupo con filas dentro (sin tarjetas anidadas); el tipo de práctica como punto de color + nombre en vez de etiqueta en mayúsculas; una sola forma de barra de progreso; estados con círculos (hecho / toca ahora / pendiente); un botón principal por pantalla; «volver» unificado; iconos de trazo en lugar de emoji; Ajustes con selector segmentado y filas; leyenda en el calendario.
