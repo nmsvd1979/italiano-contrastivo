@@ -132,7 +132,7 @@ describe("fluidez: releer y reescuchar", () => {
   });
   it("la pantalla pide completar unidades y, con una completada, ofrece su lectura y la pasada rápida oculta el texto", async () => {
     const store = memoryStore();
-    const unit = pack.course.units.find((u) => (u.readings ?? []).length && readings.find((r: { id: string; sentences: { audio?: string }[] }) => r.id === u.readings![0])?.sentences.every((s) => s.audio))!;
+    const unit = pack.course.units.find((u) => (u.readings ?? []).length && readings.find((r: { id: string; sentences: { audio?: string }[] }) => r.id === u.readings![0])?.sentences.every((s: { audio?: string }) => s.audio))!;
     const { rerender } = render(<SpeakingScreen pack={pack} store={store} />);
     expect(screen.getByText(/lecturas de las unidades que completes/)).toBeTruthy();
     await store.putUnit({ unitId: unit.id, completed: true } as never);

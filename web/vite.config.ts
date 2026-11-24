@@ -32,7 +32,7 @@ export default defineConfig({
       // `audio-v1`: se guarda al escucharlo y se puede bajar entero desde Ajustes.
       workbox: {
         globPatterns: ["**/*.{js,css,html,json,md,png,svg}"],
-        maximumFileSizeToCacheInBytes: 6 * 1024 * 1024, // items_by_code.json crece con cada unidad (hoy ≈2,5 MiB; llega comprimido ≈0,25 MiB)
+        maximumFileSizeToCacheInBytes: 6 * 1024 * 1024, // items_by_code.json crece con cada unidad (2026-11-24: 4,5 MB sin comprimir, ≈75 % del tope; A2 lo rompe: ver docs/pistas-a2.md)
         runtimeCaching: [{
           urlPattern: ({ url }) => url.pathname.endsWith(".mp3"),
           handler: "CacheFirst",
