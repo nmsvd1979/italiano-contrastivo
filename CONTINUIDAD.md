@@ -2,6 +2,21 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 (14) — La ruta como camino único para completar A1
+**Pedido del usuario:** investigar las mejores prácticas (más allá de Duolingo) y dejar «una pura ruta» como camino principal y único para aprender: seguirla sola debe bastar para completar A1 y, después, los demás niveles; y analizar si el contenido lo permite. Plan aprobado y maqueta aprobada.
+**Investigación (resumen en `docs/metodos-y-estructura-de-la-app.md`):** el control del orden no cambia el aprendizaje; Duolingo/Busuu/Babbel usan camino fijo con pruebas que abren lo siguiente (evidencia propia de las empresas, no independiente); la meta cercana visible tiene respaldo de laboratorio; gamificación pequeña y rachas mixtas. Sin puntos ni ligas.
+**Diagnóstico de huecos y arreglos:**
+1. El **hito no estaba en Hoy** (solo en Ruta) → ahora, con los módulos del nivel completos, el siguiente tramo de Hoy es «Examen de hito A1» (`TodayPlan.milestone`).
+2. Tras A1, Hoy habría ofrecido **unidades sueltas de A2/B1** (u09–u12, fuera de todo módulo) → `moduleViews` las bloquea («En construcción» en Ruta).
+3. **8 requisitos de A1 se cubrían solo con textos opcionales** → nueva etapa obligatoria **«Textos reales»** (solo en los 6 módulos que los tienen; marcas `texto:<id>`).
+4. **5 funciones del habla** (iniciar y cerrar conversación, pedir que repitan, pedir en bar/tienda, invitar y agradecer, el tiempo) solo se practicaban en juegos de rol concretos y la Salida pedía uno cualquiera → la Salida pide **todos los juegos de rol y tareas orales** del módulo (decisión del usuario; marcas `salida:habla:<id>`; la marca general anterior sigue valiendo).
+5. Hoy muestra la **tira de etapas del módulo** y «A1 · Módulo N de 12 · Cápsula i de k».
+**Pruebas que sostienen la regla:** `web/src/state/ruta.test.ts` (recorre los 12 módulos siguiendo solo lo que ofrece Hoy, llega al hito y no ofrece nada de otro nivel) y `tests/py/ruta_obligatoria.py` usado por `test_cobertura_a1.py` y, al cerrar A2, por `test_cobertura_a2.py` (todo «covered» debe apoyarse en algo obligatorio).
+**Decisiones mías (a revisar):** los textos reales son contenido escrito por la IA y ahora obligatorios (declarado en pantalla); los juegos de rol cuentan como hechos al terminar su práctica, sin umbral de calidad; la parte hablada de módulos ya completados no se vuelve a exigir.
+**Comprobado:** web 1200 pruebas en verde, pytest de cobertura A1 y A2 (10) en verde, build ok; en el navegador a 375 px (progreso sembrado, ya borrado): módulo 7 con la tira de 6 etapas y «Textos reales» como siguiente, pantalla de Textos, Hoy con todos los módulos hechos ofreciendo el hito, Ruta con A2/B1 sin enlaces; sin errores de consola.
+**No comprobado:** iPhone real; tsc (no está instalado); leer un texto hasta marcarlo y completar una Salida con varios juegos de rol a mano (solo por pruebas automáticas); 320 px y modo oscuro.
+**Pendiente / siguiente paso:** probar en un iPhone real; A2 (módulo a2m01) con esta misma forma.
+
 ## 2026-11-24 (13) — «Hoy» como plan por contenido, con 15 min diarios de referencia
 **Pedido del usuario:** «Hoy» lo mandaba a Practicar al elegir otra cosa; quería un plan claro de qué hacer y en qué orden, robusto por sí solo para enseñar todo el contenido, sin que el tiempo lo gobierne (solo ≈15 min diarios como referencia). Maqueta aprobada antes de implementar.
 **Hecho:**

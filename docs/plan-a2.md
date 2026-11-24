@@ -43,3 +43,6 @@ Total aproximado: 30 cápsulas nuevas y ≈ 20 textos propios, con 10 módulos. 
 ## Cierre de A2
 
 (1) todos los requisitos de `syllabus-a2.json` en «covered» salvo los declarados; `cierre: true` y el 80 % exigido por la prueba; (2) hito A2 con las cinco partes (copiando `milestone.ts`); (3) el usuario completa los módulos. Más allá de A2, el mismo método sirve para B1 y B2; antes de planificarlos hay que confirmar qué material abierto hay de verdad (hoja de ruta §8).
+
+## Regla heredada: la ruta es el camino único
+Cada módulo de A2 sigue la misma forma que los de A1 (Entrada → Cápsulas → Textos reales si los tiene → Salida con todos sus juegos de rol y tareas → Fluidez → Cierre) y se registra en `modules` de `schemas/data/course.json`; una unidad A2 fuera de un módulo no se ofrece. Todo requisito `covered` de `syllabus-a2.json` debe apoyarse en algo obligatorio de la ruta (lo verifica `test_cobertura_a2.py` al poner `cierre: true`, con `tests/py/ruta_obligatoria.py`); lo que solo exista como frases útiles o Biblioteca se declara `partial`.

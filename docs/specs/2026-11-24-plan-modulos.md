@@ -40,9 +40,10 @@ Total: 51 unidades, ninguna se pierde. Las 9 de vocabulario opcional («A1+») s
 ## Qué cambia en cada pantalla
 
 - **Ruta:** muestra módulos (título = lo que sabrás hacer) y, dentro, sus pasos. Se avanza en orden dentro del módulo.
-- **Módulo (pantalla nueva):** Entrada → Cápsulas → Salida → Fluidez → Cierre.
+- **Módulo (pantalla nueva):** Entrada → Cápsulas → Textos reales (solo si el módulo los tiene) → Salida → Fluidez → Cierre.
+- **Textos reales (obligatorio, desde 2026-11-24 tarde):** los documentos y mensajes del módulo (`extra_readings`: carteles, menús, horarios, billetes…) se leen sin traducción y se responden; cada uno queda marcado (`texto:<id>` en el progreso del módulo) y con todos leídos la etapa queda hecha. Antes eran opcionales y 8 requisitos de A1 se cubrían solo con ellos.
 - **Cápsula:** la unidad actual, con sus mismos pasos. Si su lectura pasó a ser la entrada del módulo, ese paso se quita para no verlo dos veces.
-- **Salida (obligatoria):** el juego de roles y la tarea oral (pantallas ya hechas en «Hablar») más una tarea escrita: reconstruir el texto de entrada de memoria y escribir tus propias respuestas a las preguntas de la tarea, con el detector de calcos y el encargo para la IA externa (ya hechos en «Escribir»).
+- **Salida (obligatoria):** TODOS los juegos de roles y tareas orales del módulo (desde 2026-11-24 tarde; antes bastaba uno, y 5 funciones del programa solo se practicaban en juegos concretos; cada uno se marca con `salida:habla:<id>`) (pantallas ya hechas en «Hablar») más una tarea escrita: reconstruir el texto de entrada de memoria y escribir tus propias respuestas a las preguntas de la tarea, con el detector de calcos y el encargo para la IA externa (ya hechos en «Escribir»).
 - **Cierre:** lista «sé hacer» (marcas tú), prueba mezclada con frases de todas las cápsulas del módulo, y una sugerencia de 10 minutos de la Biblioteca.
 - **Barra inferior:** Hoy · Ruta · Repaso · Biblioteca · Ajustes. «Hablar» y «Escribir» dejan de ser pestañas; quedan accesibles como «Práctica libre» desde la Ruta.
 - **Hoy:** propone el siguiente paso del módulo en curso y muestra el avance por «sé hacer», no por unidades cerradas.
@@ -80,3 +81,6 @@ Oraciones, cápsulas, audio, repaso espaciado (FSRS), examen de hito de cinco pa
 - Test de migración: con progreso antiguo (unidades completadas), el módulo calcula bien su estado y nada se pierde.
 - Recorrido de un módulo completo en la vista previa a 375 px, con capturas para ti antes de seguir a la etapa siguiente.
 - Commits pequeños en `main`, un tema por commit; subir a GitHub solo cuando lo pidas.
+
+## La ruta como camino único (2026-11-24 tarde)
+Quien solo siga «Hoy» debe poder completar A1 (y luego cada nivel). Reglas: (1) con módulos definidos, ninguna unidad fuera de ellos se ofrece (A2/B1 sueltas quedan bloqueadas, «en construcción»); (2) con todos los módulos del nivel completos, el siguiente tramo de Hoy es el examen de hito; (3) todo requisito «covered» de `syllabus-aN.json` debe apoyarse en algo **obligatorio** (cápsulas, texto de entrada o real, juegos de rol y tareas de la Salida; no las frases útiles ni la Biblioteca): lo comprueba `tests/py/ruta_obligatoria.py` desde `test_cobertura_a1.py` (y desde `test_cobertura_a2.py` al cerrar A2); (4) `web/src/state/ruta.test.ts` recorre A1 entero siguiendo solo lo que ofrece Hoy. Hoy muestra la tira de etapas del módulo y «Módulo N de 12 · A1».
