@@ -306,3 +306,4 @@ ul.weaklist { list-style: none; padding: 0; margin: 8px 0; display: grid; gap: 1
 ul.weaklist .t { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
 ul.weaklist .bar { display: block; height: 8px; border-radius: 4px; background: var(--line); margin: 4px 0; overflow: hidden; }
 ul.weaklist .bar i { display: block; height: 100%; background: var(--bad); }
+ul.weaklist .pct { white-space: nowrap; font-variant-numeric: tabular-nums; }

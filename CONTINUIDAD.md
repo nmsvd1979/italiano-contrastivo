@@ -2,6 +2,18 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 (10) — Pendientes del rediseño: «Lo que más te cuesta», retomar bloques y rótulo de vocabulario
+**Pedido del usuario:** «Dale con todo» (los pendientes) y, después, «quita la prueba del iPhone, eso lo hago yo». Plan: `docs/plans/2026-11-24-pendientes-del-rediseno.md`.
+**Hecho:**
+1. **«Descubre» en vocabulario** (`ERR_VOC_*`) dice «No es lo mismo» con la otra palabra sin tachar, en vez de «Error típico de hispanohablantes» (igual que ya hacía la ficha).
+2. **Retomar un bloque a medias ya no depende de recalcularlo:** el guardado (`state/runState.ts`) incluye los propios ejercicios y su fecha; caduca a los 7 días; los guardados antiguos sin ejercicios siguen valiendo si la lista coincide. Antes se perdía si cambiaba el número de ejercicios (que depende de los tiempos medidos). Sin `persistKey` el ejecutor sigue usando la lista que llega.
+3. **Se guardan los primeros intentos por tema:** `DayProgress.attempts` (por día y por código de error, sin cambiar la base de datos; entra en la copia de seguridad). Cuenta el primer intento de cada ejercicio con tema en prácticas, pruebas, hito y repaso con ejercicios; no la ubicación, ni dictado/voz (sin tema), ni los ejercicios del tutorial de la cápsula. Las escrituras del día (tiempo medido e intentos) se serializan para no pisarse (`state/attempts.ts`, `updateDay`).
+4. **Lo que más te cuesta:** `state/weak.ts` calcula los temas con peor precisión de las últimas 3 semanas (mínimo 5 intentos, menos de 80 % a la primera, hasta 3). Aparece en Progreso (con porcentaje, «k de n a la primera» y «Practicar esto») y en Practicar; `#/debiles` es una tanda de hasta 10 ejercicios de esos temas, repartida por turnos y distinta cada día. Sin datos suficientes la pantalla lo dice, y explica cómo se calcula.
+**Decisiones mías (a revisar):** `attempts` vive en el día (no en un almacén nuevo); umbrales 5 intentos / 80 % / 21 días / 3 temas, valores míos; los intentos anteriores a este cambio no existen (se llena desde ahora); el guardado de un bloque caduca a los 7 días y un contenido actualizado no cambia un bloque ya empezado.
+**Comprobado:** web 1171 pruebas en verde; en el navegador (375 y 320 px, claro y oscuro, con intentos de ejemplo sembrados y ya borrados) Progreso y Practicar con puntos débiles, `#/debiles` sin menú, y los intentos guardados de verdad al continuar cada ejercicio (un acierto suma 1/1 y un fallo 0/1, una sola vez).
+**No comprobado:** iPhone real (lo hace el usuario); tsc; retomar un bloque tras cambiar el recuento solo por pruebas (no a mano).
+**Pendiente:** probar todo en un iPhone real (el usuario). Los demás pendientes del rediseño quedan cerrados. Las anotaciones menores de las revisiones (código duplicado, leyenda del calendario, etc.) siguen en este registro.
+
 ## 2026-11-24 (9) — Arreglo: repasar una unidad saltada por ubicación ya no descompleta el módulo
 **Pedido del usuario:** «Sigue con el arreglo de la ubicación» (pendiente anotado en la entrada 8).
 **Causa:** `applyTest` (`state/course.ts`) ponía `mastery: "prueba"` al aprobar la prueba de una unidad aunque ya estuviera completada por la prueba de ubicación, y `moduleViews` (`state/modules.ts`) solo da un módulo por saltado si **todas** sus unidades siguen en `mastery = "ubicacion"`. Al repasar y aprobar una sola unidad el módulo volvía a «en curso», se bloqueaban los siguientes y «Ya sabes hacer» bajaba.

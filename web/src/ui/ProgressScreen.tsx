@@ -53,7 +53,7 @@ export function ProgressScreen({ week, days, today, modules, weak }: { week: Sec
             <ul className="weaklist">
               {weak.spots.map((w) => (
                 <li key={w.code}>
-                  <span className="t"><b>{w.title}</b><span>{Math.round(w.accuracy * 100)} %</span></span>
+                  <span className="t"><b>{w.title}</b><span className="pct">{Math.round(w.accuracy * 100)} %</span></span>
                   <span className="bar" aria-hidden="true"><i style={{ width: `${Math.round(w.accuracy * 100)}%` }} /></span>
                   <small>{w.ok} de {w.n} a la primera</small>
                 </li>
