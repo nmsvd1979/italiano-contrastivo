@@ -235,3 +235,24 @@ ol.ustrip li[data-state="current"] span { font-weight: 600; color: var(--ink); }
 .contrast .itx { font: 500 19px/1.3 var(--serif); }
 .contrast .rule { grid-column: 2; font-size: 13px; color: var(--muted); }
 .contrast del { color: var(--bad); text-decoration-thickness: 1.5px; }
+
+/* módulo: línea de tiempo */
+ol.tl { list-style: none; padding: 0; margin: 14px 0; display: flex; flex-direction: column; }
+.st { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 12px; padding-bottom: 16px; position: relative; }
+.st::before { content: ""; position: absolute; left: 10px; top: 24px; bottom: 0; width: 2px; background: var(--line); }
+.st:last-child::before { display: none; }
+.st .dot { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--line); background: var(--bg); display: flex; align-items: center; justify-content: center; font-size: 12px; color: var(--bg); margin-top: 2px; }
+.st[data-state="done"] .dot { background: var(--ok); border-color: var(--ok); }
+.st[data-state="current"] .dot { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
+.st .body { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.st .row { display: flex; align-items: center; min-height: 44px; color: var(--ink); text-decoration: none; }
+.st .h { display: flex; justify-content: space-between; align-items: center; gap: 10px; width: 100%; }
+.st .h b { font-size: 17px; }
+.caps { list-style: none; padding: 0; margin: 4px 0 0; display: flex; flex-direction: column; }
+.caps li { display: flex; align-items: center; gap: 10px; min-height: 44px; border-top: 1px dashed var(--line); }
+.caps li:first-child { border-top: 0; }
+.caps .cap-title { flex: 1; min-width: 0; color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
+.caps li[data-state="locked"] .cap-title { color: var(--muted); }
+.pips { display: flex; gap: 3px; flex: none; }
+.pips i { width: 7px; height: 7px; border-radius: 50%; background: var(--line); }
+.pips i.d { background: var(--ok); }

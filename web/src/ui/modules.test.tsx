@@ -35,7 +35,7 @@ describe("pantallas de módulo", () => {
     render(<ModuleScreen view={view} pack={pack} />);
     for (const c of mods[0].can_do_es) expect(screen.getByText(c)).toBeTruthy();
     for (const label of ["Entrada", "Cápsulas", "Salida", "Fluidez", "Cierre"]) expect(screen.getAllByText(new RegExp(`${label}$`)).length).toBeGreaterThan(0);
-    expect(screen.getByRole("link", { name: "Empezar" }).getAttribute("href")).toBe(`#/modulo/${mods[0].id}/entrada`);
+    expect(screen.getByRole("link", { name: /^Continuar · Entrada/ }).getAttribute("href")).toBe(`#/modulo/${mods[0].id}/entrada`);
   });
   it("«Hoy» propone la Entrada al empezar, y la Salida cuando terminas las cápsulas", () => {
     const base = { pack, cards: [], day: { date: "2026-11-24", reviewsDone: 0, capsulesDone: [] }, now: NOW };
