@@ -27,7 +27,7 @@ export function WordRecall({ lexeme, onRate }: { lexeme: Lexeme & { gdiv?: boole
       {graded === null ? (
         <div className="actions-bottom"><button type="button" className="primary block" disabled={!value.trim()} onClick={() => setGraded(gradeWord(value, lexeme.form, lexeme.art))}>Comprobar</button></div>
       ) : (
-        <Feedback ok={rating === 3} answer={<span>{graded.expected}</span>}
+        <Feedback ok={rating === 3} answer={<span>{graded.expected}</span>} said={rating === 3 ? undefined : value}
           why={override ? undefined : MESSAGE[graded.result] || undefined}
           extra={<>
             <SpeakButton text={lexeme.form} />

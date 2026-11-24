@@ -26,9 +26,9 @@ export function Write({ item, onAnswer, allowOverride = true }: { item: WriteIte
       ) : (
         <Feedback ok={ok}
           answer={ok && !override ? <span>{graded.best}</span> : <Marked segs={diffWords(graded.best, value)} />}
+          said={ok ? undefined : value}
           why={graded.result === "accent" ? "Las palabras son las correctas: lo que falta es el acento (en italiano cambia la palabra o su pronunciación)." : graded.result === "wrong" ? "Lo marcado es lo que tu versión no tenía." : undefined}
           extra={<>
-            {graded.result !== "ok" && <p><small>Escribiste: <span lang="it">{value}</span></small></p>}
             <SpeakButton text={graded.best} />
             {graded.result === "wrong" && allowOverride && !override && (budget && budget.left <= 0
               ? <p><small>Ya usaste el comodín de esta prueba: aquí la respuesta cuenta como fallo.</small></p>

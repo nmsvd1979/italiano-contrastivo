@@ -7,25 +7,32 @@ export const Marked = ({ segs }: { segs: Seg[] }) => (
 );
 
 /**
- * Hoja inferior de retroalimentación: al acertar, confirmación breve; al fallar, la respuesta correcta con lo que cambia
- * resaltado, «¿Por qué?» (explicación en el momento) y el aviso de que el ejercicio volverá.
+ * Hoja inferior de corrección. Al acertar, confirmación breve. Al fallar: «Dijiste» (tachado) frente a «Se dice» (con lo que cambia
+ * resaltado), el porqué del ejercicio a la vista, la regla de la unidad plegada, «Ver ficha» si hay ficha y el aviso de que volverá.
  */
-export function Feedback({ ok, answer, why, extra, onContinue }: { ok: boolean; answer?: ReactNode; why?: string; extra?: ReactNode; onContinue: () => void }) {
+export function Feedback({ ok, answer, said, why, extra, onContinue }: { ok: boolean; answer?: ReactNode; said?: ReactNode; why?: string; extra?: ReactNode; onContinue: () => void }) {
   const run = useRun();
-  const explanation = [why, run.why].filter(Boolean).join(" ");
   return (
     <div className="feedback" role="status" data-state={ok ? "correct" : "wrong"}>
       <div>
-        <p className="head">{ok ? "¡Correcto!" : "Casi. Así se dice:"}</p>
-        {!ok && answer && <p className="answer" lang="it">{answer}</p>}
+        <p className="head">{ok ? "¡Correcto!" : "Casi"}</p>
         {ok && answer && <p className="answer" lang="it">{answer}</p>}
+        {!ok && said && answer && (
+          <dl className="cmp">
+            <dt>Dijiste</dt><dd lang="it"><del>{said}</del></dd>
+            <dt>Se dice</dt><dd lang="it" className="answer">{answer}</dd>
+          </dl>
+        )}
+        {!ok && !said && answer && <p className="answer" lang="it">{answer}</p>}
+        {!ok && why && <p className="why">{why}</p>}
         {extra}
-        {!ok && explanation && (
+        {!ok && run.why && (
           <details>
-            <summary>¿Por qué?</summary>
-            <p>{explanation}</p>
+            <summary>Ver la regla</summary>
+            <p>{run.why}</p>
           </details>
         )}
+        {!ok && run.fichaHref && <p><a className="button" href={run.fichaHref}>Ver ficha</a></p>}
         {!ok && run.requeue && <p className="again">Este ejercicio volverá al final para que lo repases.</p>}
         <button type="button" className="primary" onClick={onContinue}>Continuar</button>
       </div>

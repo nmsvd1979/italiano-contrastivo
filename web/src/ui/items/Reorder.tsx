@@ -28,7 +28,7 @@ export function Reorder({ item, onAnswer }: { item: ReorderItem; onAnswer: (corr
         </div>
       ) : (
         <Feedback ok={result} answer={result ? undefined : <Marked segs={diffWords(item.answer.join(" "), built.join(" "))} />}
-          why={result ? undefined : `El orden correcto era «${item.answer.join(" ")}».`} onContinue={() => onAnswer(result)} />
+          said={result ? undefined : built.join(" ")} onContinue={() => onAnswer(result)} />
       )}
     </div>
   );

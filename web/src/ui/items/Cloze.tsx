@@ -26,7 +26,7 @@ export function Cloze({ item, onAnswer }: { item: ClozeItem; onAnswer: (correct:
         </div>
       ) : (
         <Feedback ok={result} answer={result ? undefined : <Marked segs={fillSegments(item.text, item.answers[0])} />}
-          why={result ? undefined : `La respuesta era «${item.answers[0]}».`} onContinue={() => onAnswer(result)} />
+          said={result ? undefined : `${before}${value.trim()}${after}`} onContinue={() => onAnswer(result)} />
       )}
     </div>
   );

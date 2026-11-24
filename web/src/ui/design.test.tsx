@@ -29,21 +29,22 @@ describe("resaltado de lo que cambia", () => {
 });
 
 describe("hoja de retroalimentación", () => {
-  it("al fallar muestra la respuesta con lo que cambia resaltado, «¿Por qué?» y el aviso de que vuelve", () => {
+  it("al fallar muestra la respuesta con lo que cambia resaltado, «Ver la regla» y el aviso de que vuelve", () => {
     render(<ItemRunner items={fromItems([choice(1)])} requeueWrong why="El español usa tener; el italiano avere." onFinish={() => undefined} />);
     fireEvent.click(screen.getByText("Io tengo fame."));
     const sheet = screen.getByRole("status");
-    expect(sheet.textContent).toContain("Casi. Así se dice:");
+    expect(sheet.textContent).toContain("Casi");
+    expect(sheet.textContent).toContain("Se dice");
     expect(sheet.querySelector("mark")?.textContent).toBe("ho");
-    expect(screen.getByText("¿Por qué?")).toBeTruthy();
+    expect(screen.getByText("Ver la regla")).toBeTruthy();
     expect(sheet.textContent).toContain("El español usa tener; el italiano avere.");
     expect(sheet.textContent).toContain("volverá al final");
   });
-  it("al acertar es breve y no ofrece «¿Por qué?»", () => {
+  it("al acertar es breve y no ofrece «Ver la regla»", () => {
     render(<ItemRunner items={fromItems([choice(1)])} why="x" onFinish={() => undefined} />);
     fireEvent.click(screen.getByText("Io ho fame."));
     expect(screen.getByRole("status").textContent).toContain("¡Correcto!");
-    expect(screen.queryByText("¿Por qué?")).toBeNull();
+    expect(screen.queryByText("Ver la regla")).toBeNull();
   });
 });
 

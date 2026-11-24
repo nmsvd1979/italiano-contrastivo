@@ -38,8 +38,8 @@ describe("Choice", () => {
     render(<ItemView item={choice} onAnswer={onAnswer} />);
     expect(screen.getAllByRole("button").every((b) => b.getAttribute("data-state") === "idle")).toBe(true);
     fireEvent.click(screen.getByText("Vedrai che tengo ragione."));
-    expect(screen.getByText("Vedrai che tengo ragione.").getAttribute("data-state")).toBe("wrong");
-    expect(screen.getByText("Vedrai che ho ragione.").getAttribute("data-state")).toBe("correct");
+    expect(screen.getByRole("button", { name: "Vedrai che tengo ragione." }).getAttribute("data-state")).toBe("wrong");   // la hoja repite la frase en «Dijiste»
+    expect(screen.getByRole("button", { name: "Vedrai che ho ragione." }).getAttribute("data-state")).toBe("correct");
     expect(screen.getByRole("status").textContent).toContain("error típico de hispanohablantes");
     fireEvent.click(screen.getByText("Continuar"));
     expect(onAnswer).toHaveBeenCalledWith(false);
@@ -71,7 +71,9 @@ describe("Cloze", () => {
     render(<ItemView item={cloze} onAnswer={onAnswer} />);
     fireEvent.change(screen.getByLabelText("Respuesta"), { target: { value: "tengo" } });
     fireEvent.click(screen.getByText("Comprobar"));
-    expect(screen.getByRole("status").textContent).toContain("«ho»");
+    const sheet = screen.getByRole("status");
+    expect(sheet.textContent).toContain("Se dice");
+    expect(sheet.querySelector("mark")?.textContent).toBe("ho");
     fireEvent.click(screen.getByText("Continuar"));
     expect(onAnswer).toHaveBeenCalledWith(false);
   });

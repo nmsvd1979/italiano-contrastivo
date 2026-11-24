@@ -34,7 +34,7 @@ export function Choice({ item, onAnswer }: { item: ChoiceItem; onAnswer: (correc
         ))}
       </ul>
       {chosen && (
-        <Feedback ok={chosen.correct} answer={chosen.correct ? undefined : <Marked segs={diffWords(right.text, chosen.text)} />}
+        <Feedback ok={chosen.correct} answer={chosen.correct ? undefined : <Marked segs={diffWords(right.text, chosen.text)} />} said={chosen.correct ? undefined : chosen.text}
           why={chosen.correct ? undefined : WHY[chosen.distractor_kind ?? ""] ?? "Esa opción es un error típico."}
           extra={item.listen ? undefined : <SpeakButton text={right.text} />} onContinue={() => onAnswer(chosen.correct)} />
       )}
