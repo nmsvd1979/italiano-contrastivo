@@ -1,3 +1,4 @@
+import { updateDay } from "./attempts";
 import type { DayProgress, StepId, Store } from "./store";
 import { localDate } from "./store";
 
@@ -43,9 +44,6 @@ export function weekTotals(days: DayProgress[], today: string, n = 7): Seconds {
 export const totalSeconds = (s: Seconds): number => STRANDS.reduce((t, k) => t + (s[k] ?? 0), 0);
 
 /** Suma segundos a la hebra del día de hoy. No debe romper el estudio si falla el guardado. */
-export async function addDaySeconds(store: Store, strand: Strand, seconds: number, now = new Date()): Promise<void> {
-  try {
-    const day = await store.getDay(localDate(now));
-    await store.putDay(addSeconds(day, strand, seconds));
-  } catch { /* sin almacenamiento: se pierde esta medición, no el estudio */ }
+export function addDaySeconds(store: Store, strand: Strand, seconds: number, now = new Date()): Promise<void> {
+  return updateDay(store, now, (day) => addSeconds(day, strand, seconds));
 }

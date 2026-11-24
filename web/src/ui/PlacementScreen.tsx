@@ -63,7 +63,7 @@ export function PlacementScreen({ pack, store, units }: { pack: ContentPack; sto
   return (
     <main className="focus">
       <p className="runner-meta">Unidad {idx + 1} de {plan.length} · {cur.unit.level}</p>
-      <ItemRunner key={cur.unit.id} items={fromItems(cur.items)} exitHref="#/" onFinish={(r) => {
+      <ItemRunner key={cur.unit.id} items={fromItems(cur.items)} exitHref="#/" track={false} onFinish={(r) => {
         const next = [...flags, r.answers.every(Boolean)];
         setFlags(next);
         if (shouldStop(next) || idx + 1 >= plan.length) void finish(next);

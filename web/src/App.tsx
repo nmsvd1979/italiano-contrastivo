@@ -9,6 +9,7 @@ import { loadSamples } from "./state/timing";
 import { buildInfo } from "./pwa";
 import { moduleViews, type ModuleStepId } from "./state/modules";
 import { UpdateBanner } from "./ui/UpdateBanner";
+import { AttemptsProvider } from "./ui/kit/AttemptsContext";
 import { AboutScreen } from "./ui/AboutScreen";
 import { CapsuleScreen } from "./ui/CapsuleScreen";
 import { SettingsScreen } from "./ui/SettingsScreen";
@@ -140,6 +141,7 @@ export function App() {
   const capsule = hash.startsWith("#/capsula/") ? ready.pack.capsules.find((c) => c.id === hash.slice("#/capsula/".length)) : undefined;
   return (
     <AudioProvider pack={ready.pack} index={ready.audio} words={ready.words}>
+    <AttemptsProvider store={ready.store}>
       <UpdateBanner />
       {isPreview() && (
         <p role="status" className="banner">
@@ -161,6 +163,7 @@ export function App() {
         : <Today {...ready} />}
     {!isFocusRoute(hash) && <footer className="version"><small>Versión {buildInfo().id}</small></footer>}
     {!isFocusRoute(hash) && <TabBar hash={hash} />}
+    </AttemptsProvider>
     </AudioProvider>
   );
 }

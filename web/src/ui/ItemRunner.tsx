@@ -8,6 +8,7 @@ import { DictationItem } from "./DictationItem";
 import { ItemView } from "./items/ItemView";
 import { SpeakItem } from "./SpeakItem";
 import { FocusHead } from "./kit/FocusHead";
+import { useTrackAttempt } from "./kit/AttemptsContext";
 import { RunProvider } from "./kit/RunContext";
 
 export type RunItem = { id: string; kind: Kind; item?: Item; dictation?: PackSentence; shadow?: PackSentence };
@@ -23,9 +24,11 @@ export type RunResult = { correct: number; total: number; answers: boolean[] };
  * y tiempo restante. Mide cuánto tarda cada ejercicio. Con `requeueWrong`, lo fallado vuelve una vez al final; la nota
  * cuenta solo el primer intento. Con `persistKey` se puede retomar a la mitad.
  */
-export function ItemRunner({ items, requeueWrong = false, onFinish, exitHref = "#/", why, fichaHref, persistKey, overrideBudget }: {
+export function ItemRunner({ items, requeueWrong = false, onFinish, exitHref = "#/", why, fichaHref, persistKey, overrideBudget, track = true }: {
   items: RunItem[]; requeueWrong?: boolean; onFinish: (r: RunResult) => void; exitHref?: string; why?: string; fichaHref?: string; persistKey?: string; overrideBudget?: number;
+  /** Anotar el primer intento de cada ejercicio en su tema (para «lo que más te cuesta»); la ubicación no lo hace. */ track?: boolean;
 }) {
+  const trackAttempt = useTrackAttempt();
   const [overridesLeft, setOverridesLeft] = useState(overrideBudget ?? 0);
   // Un bloque a medias se retoma con sus propios ejercicios (guardados con él); un guardado antiguo, sin ellos, solo vale si la lista coincide.
   const [resume] = useState<{ saved: RunSnapshot | null; list: RunItem[] }>(() => {
@@ -52,6 +55,7 @@ export function ItemRunner({ items, requeueWrong = false, onFinish, exitHref = "
     if (first.current[idx] === null) {
       first.current[idx] = correct;
       recordSample(current.kind, (Date.now() - started.current) / 1000);
+      if (track && current.item) trackAttempt(current.item, correct);
     }
     let q = queue;
     const willRequeue = !correct && requeueWrong && !requeued.current.has(idx);
