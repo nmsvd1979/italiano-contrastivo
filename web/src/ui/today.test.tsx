@@ -41,14 +41,14 @@ describe("Hoy: la sesión", () => {
 });
 
 describe("secondaryActions", () => {
-  const a = block({ seconds: 180, href: "#/a" });
+  const a = block({ seconds: 180, href: "#/repaso" }); // el repaso siempre se puede abrir
   const b = block({ seconds: 420, href: "#/b" });
-  it("«Solo N min» es el bloque pendiente más corto y no repite el principal", () => {
-    expect(secondaryActions(plan(), [a, b], "#/b").short).toEqual({ href: "#/a", label: "Solo 3 min" });
-    expect(secondaryActions(plan(), [a, b], "#/a").short).toBeNull(); // el otro dura más de 5 min
+  it("«Solo N min» es el bloque abrible más corto y no repite el principal", () => {
+    expect(secondaryActions(plan(), [a, b], "#/b").short).toEqual({ href: "#/repaso", label: "Solo 3 min" });
+    expect(secondaryActions(plan(), [a, b], "#/repaso").short).toBeNull(); // el otro dura más de 5 min
   });
   it("con un solo bloque no hay «Solo N min»", () => {
-    expect(secondaryActions(plan(), [a], "#/a").short).toBeNull();
+    expect(secondaryActions(plan(), [a], "#/repaso").short).toBeNull();
   });
   it("sin bloques no falla y «Elegir otra cosa» lleva a Practicar", () => {
     expect(secondaryActions(plan(), undefined, "#/ruta")).toEqual({ short: null, other: { href: "#/practicar", label: "Elegir otra cosa" } });
