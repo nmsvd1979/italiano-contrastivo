@@ -2,6 +2,18 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 (8) — Rediseño del frontend, etapa 5 (Progreso)
+**Pedido del usuario:** «Sigue con la etapa 5». Plan: `docs/plans/2026-11-24-rediseno-frontend-etapa-5.md`.
+**Hecho:**
+1. **«Ya sabes hacer»:** los «sé hacer» de cada módulo con su estado: «probado» (módulo completado por la prueba de cierre ≥ 80 % o por la de ubicación), «marcado por ti» (autoevaluación) o pendiente (dicho también en texto). Total «N de M» con barra; un bloque desplegable por módulo (abierto el que está en curso). Una nota dice que ninguna de las dos es una verificación de un hablante nativo.
+2. **El Cierre del módulo ahora guarda lo que marcas** (antes las casillas se perdían al salir): se guarda en `done["sabe:<hash del texto>"]` del progreso del módulo, sin cambiar el esquema; desmarcar la quita; no cuenta para completar el módulo.
+3. **Constancia:** calendario de las últimas 4 semanas (lunes a domingo, la última fila es la semana en curso, sin pintar los días futuros) con «N días de estudio · H h M min en total». Un día cuenta si se hizo algo o hay tiempo medido; 10 min o más es «bastante» (umbral mío).
+4. Se mantienen el tiempo real por tipo de práctica (`WeekCard`), «Ajustes» y «Acerca de».
+**Decisiones mías (a revisar):** las marcas viven en `done` del módulo y su clave depende del texto del «sé hacer» (si el contenido cambia ese texto, la marca se pierde en silencio); un módulo completado da por «probados» todos sus «sé hacer» aunque no los marcaras (aproximación); la etiqueta es «probado», no «probado en el cierre», porque también se completa por ubicación.
+**Comprobado:** web 1124 pruebas en verde; recorrido en el navegador a 375 y 320 px, claro y oscuro, con un progreso de ejemplo sembrado (ya borrado): lista, marcas, calendario y tiempo por práctica, sin errores de consola ni desborde.
+**No comprobado:** iPhone real; tsc; marcar/desmarcar en el Cierre solo por pruebas (no a mano en el navegador).
+**Pendiente:** «Lo que más te cuesta» (la pantalla lo dice sin prometer fecha): exige guardar los aciertos por tipo de error, que hoy no se guarda. Y la fragilidad del guardado de avance de un bloque (ver entrada 7). Con esto las 5 etapas del rediseño quedan hechas; faltan solo esos dos puntos y probar todo en un iPhone real.
+
 ## 2026-11-24 (7) — Rediseño del frontend, etapa 4 (ejercicio y corrección)
 **Pedido del usuario:** «Sigue con la etapa 4». Plan: `docs/plans/2026-11-24-rediseno-frontend-etapa-4.md`.
 **Hecho:**
