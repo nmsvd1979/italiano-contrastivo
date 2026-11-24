@@ -5,6 +5,7 @@ const REVIEWER: Record<string, string> = { me: "revisadas por ti (sin conocimien
 export function AboutScreen({ manifest, sentences, readings = [] }: { manifest: Manifest; sentences: PackSentence[]; readings?: Reading[] }) {
   return (
     <main>
+      <p><a href="#/progreso" style={{ textDecoration: "none" }}>← Progreso</a></p>
       <h1>Cómo se revisó este contenido</h1>
       <p>El contenido fue revisado con ayuda de IA y por una persona que no sabe italiano: sin validación de nativos. Puede haber errores.</p>
       <ul>

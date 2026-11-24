@@ -81,12 +81,6 @@ export function RouteScreen({ views, pack, hito, modules = [] }: { views: UnitVi
           </section>
         );
       })}
-      <section aria-label="Práctica libre">
-        <h2>Práctica libre</h2>
-        <p><small>Para practicar por tu cuenta cuando quieras, fuera del orden de los módulos. Dentro de cada módulo ya hay una Salida obligatoria que usa estas mismas herramientas.</small></p>
-        <p><a className="button" href="#/hablar">Hablar: juegos de roles, tareas y frases</a></p>
-        <p><a className="button" href="#/escribir">Escribir: reconstruir textos y mi propio texto</a></p>
-      </section>
     </main>
   );
 }
