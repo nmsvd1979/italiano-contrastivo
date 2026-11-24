@@ -216,3 +216,14 @@ ol.strip li[data-state="current"] i { background: linear-gradient(90deg, var(--o
 ol.strip li[data-state="current"] span { color: var(--ink); font-weight: 600; }
 section.route-level { background: none; border: 0; padding: 0; }
 a.tap { display: inline-flex; align-items: center; min-height: 44px; }
+
+/* tira de pasos de la unidad */
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+ol.ustrip { list-style: none; padding: 0; margin: 12px 0; display: flex; gap: 4px; }
+ol.ustrip li { flex: 1; min-width: 0; }
+ol.ustrip a, ol.ustrip li > div { display: flex; flex-direction: column; gap: 6px; min-height: 44px; padding-top: 4px; text-decoration: none; color: var(--muted); font-size: 11px; text-align: center; overflow-wrap: anywhere; }
+ol.ustrip a { color: var(--ink); }
+ol.ustrip i { display: block; height: 6px; border-radius: 4px; background: var(--line); }
+ol.ustrip li[data-state="done"] i { background: var(--ok); }
+ol.ustrip li[data-state="current"] i { background: linear-gradient(90deg, var(--ok) 35%, var(--line) 35%); }
+ol.ustrip li[data-state="current"] span { font-weight: 600; color: var(--ink); }
