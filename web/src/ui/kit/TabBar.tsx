@@ -3,9 +3,8 @@ import { Icon, type IconName } from "./Icon";
 const TABS: { href: string; ico: IconName; label: string; match: (h: string) => boolean }[] = [
   { href: "#/", ico: "hoy", label: "Hoy", match: (h) => h === "#/" || h === "" || h === "#" },
   { href: "#/ruta", ico: "ruta", label: "Ruta", match: (h) => h.startsWith("#/ruta") || h.startsWith("#/unidad") || h.startsWith("#/modulo") },
-  { href: "#/practicar", ico: "practicar", label: "Practicar", match: (h) => h.startsWith("#/practicar") || h.startsWith("#/hablar") || h.startsWith("#/escribir") },
   { href: "#/biblioteca", ico: "biblioteca", label: "Biblioteca", match: (h) => h.startsWith("#/biblioteca") },
-  { href: "#/progreso", ico: "progreso", label: "Progreso", match: (h) => h.startsWith("#/progreso") || h.startsWith("#/ajustes") || h.startsWith("#/acerca") },
+  { href: "#/progreso", ico: "progreso", label: "Progreso", match: (h) => h.startsWith("#/progreso") || h.startsWith("#/ajustes") || h.startsWith("#/acerca") || h.startsWith("#/practicar") || h.startsWith("#/hablar") || h.startsWith("#/escribir") },
 ];
 
 export function TabBar({ hash }: { hash: string }) {

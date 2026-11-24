@@ -78,6 +78,7 @@ export function ProgressScreen({ week, days, today, modules, weak }: { week: Sec
         <p className="cal-key"><span><i aria-hidden="true" />menos de 10 min</span><span><i aria-hidden="true" />10 min o más</span></p>
       </section>
       <WeekCard week={week} />
+      <p><a className="tap" href="#/practicar">Práctica extra (opcional): hablar, escribir y repasar más</a></p>
       <p><a className="tap" href="#/acerca">Acerca de la app, licencias y revisión del contenido</a></p>
     </main>
   );

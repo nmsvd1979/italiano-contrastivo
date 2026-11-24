@@ -9,19 +9,14 @@ afterEach(cleanup);
 const review = (due: number) => ({ due, newAvailable: 0, doneToday: 0, cap: 30, seconds: due * 30, filler: 0 });
 
 describe("barra de pestañas", () => {
-  it("hay cinco pestañas en orden", () => {
+  it("hay cuatro pestañas en orden (sin Practicar)", () => {
     render(<TabBar hash="#/" />);
     const links = screen.getByRole("navigation").querySelectorAll("a");
-    expect([...links].map((a) => a.textContent)).toEqual(["Hoy", "Ruta", "Practicar", "Biblioteca", "Progreso"]);
+    expect([...links].map((a) => a.textContent)).toEqual(["Hoy", "Ruta", "Biblioteca", "Progreso"]);
   });
-  it.each(["#/practicar", "#/hablar", "#/escribir"])("Practicar está activa en %s", (hash) => {
-    render(<TabBar hash={hash} />);
-    expect(screen.getByText("Practicar").closest("a")?.getAttribute("aria-current")).toBe("page");
-  });
-  it.each(["#/progreso", "#/ajustes", "#/acerca"])("Progreso está activa en %s", (hash) => {
+  it.each(["#/progreso", "#/ajustes", "#/acerca", "#/practicar", "#/hablar", "#/escribir"])("Progreso está activa en %s", (hash) => {
     render(<TabBar hash={hash} />);
     expect(screen.getByText("Progreso").closest("a")?.getAttribute("aria-current")).toBe("page");
-    expect(screen.getByText("Practicar").closest("a")?.getAttribute("aria-current")).toBeNull();
   });
   it("cada pestaña lleva un icono SVG y ningún emoji", () => {
     render(<TabBar hash="#/" />);
