@@ -300,3 +300,9 @@ ul.cando .how-known { display: block; color: var(--muted); }
 .cal i[data-level="2"] { background: var(--ok); }
 .cal i[data-future="true"] { background: transparent; border: 1px dashed var(--line); }
 ul.options label { display: flex; gap: 10px; align-items: center; min-height: 44px; }
+
+/* Lo que más te cuesta */
+ul.weaklist { list-style: none; padding: 0; margin: 8px 0; display: grid; gap: 12px; }
+ul.weaklist .t { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+ul.weaklist .bar { display: block; height: 8px; border-radius: 4px; background: var(--line); margin: 4px 0; overflow: hidden; }
+ul.weaklist .bar i { display: block; height: 100%; background: var(--bad); }

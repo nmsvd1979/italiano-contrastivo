@@ -17,7 +17,7 @@ const TODAY = "2026-11-24";
 const placed = (id: string): UnitProgress => ({ ...emptyProgress(id), completed: true, testBest: 1, mastery: "ubicacion" });
 const day = (date: string, over: Partial<DayProgress> = {}): DayProgress => ({ date, reviewsDone: 0, capsulesDone: [], ...over });
 const show = (units: UnitProgress[] = [], days: DayProgress[] = [], modules = moduleViews(course, units, false).modules) =>
-  render(<ProgressScreen week={{}} days={days} today={TODAY} modules={modules} />);
+  render(<ProgressScreen week={{}} days={days} today={TODAY} modules={modules} weak={{ spots: [], attempts: 0 }} />);
 
 describe("pantalla Progreso", () => {
   it("sin datos: «Ya sabes hacer» en cero y el calendario explica cómo se llena", () => {

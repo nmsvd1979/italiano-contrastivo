@@ -34,16 +34,16 @@ describe("barra de pestañas", () => {
 
 describe("Practicar", () => {
   it("con repasos pendientes muestra el conteo y enlaza al repaso", () => {
-    render(<PracticeScreen review={review(6)} />);
+    render(<PracticeScreen review={review(6)} weak={[]} />);
     expect(screen.getByText(/6 tarjetas/)).toBeTruthy();
     expect(screen.getByText("Repasar").closest("a")?.getAttribute("href")).toBe("#/repaso");
   });
   it("sin repasos pendientes lo dice", () => {
-    render(<PracticeScreen review={review(0)} />);
+    render(<PracticeScreen review={review(0)} weak={[]} />);
     expect(screen.getByText(/No tienes repasos pendientes ahora/)).toBeTruthy();
   });
   it("enlaza a Hablar y a Escribir", () => {
-    render(<PracticeScreen review={review(0)} />);
+    render(<PracticeScreen review={review(0)} weak={[]} />);
     expect(screen.getByText(/Juegos de roles/).closest("a")?.getAttribute("href")).toBe("#/hablar");
     expect(screen.getByText(/Reconstruir un texto/).closest("a")?.getAttribute("href")).toBe("#/escribir");
   });
@@ -51,7 +51,7 @@ describe("Practicar", () => {
 
 describe("Progreso", () => {
   it("enlaza a Ajustes y a Acerca de", () => {
-    render(<ProgressScreen week={{}} days={[]} today="2026-11-24" modules={[]} />);
+    render(<ProgressScreen week={{}} days={[]} today="2026-11-24" modules={[]} weak={{ spots: [], attempts: 0 }} />);
     expect(screen.getByRole("heading", { name: "Progreso" })).toBeTruthy();
     expect(screen.getByText("Ajustes").closest("a")?.getAttribute("href")).toBe("#/ajustes");
     expect(screen.getByText(/Acerca de la app/).closest("a")?.getAttribute("href")).toBe("#/acerca");

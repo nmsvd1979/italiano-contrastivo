@@ -38,7 +38,7 @@ describe("«Solo N min» solo lleva a lo que se puede abrir ya", () => {
 
 describe("Practicar", () => {
   it("con solo práctica de recuperación (sin tarjetas vencidas) sigue ofreciendo «Repasar»", () => {
-    render(<PracticeScreen review={{ due: 0, newAvailable: 0, doneToday: 0, cap: 30, seconds: 90, filler: 3 }} />);
+    render(<PracticeScreen review={{ due: 0, newAvailable: 0, doneToday: 0, cap: 30, seconds: 90, filler: 3 }} weak={[]} />);
     expect(screen.getByText("Repasar").closest("a")?.getAttribute("href")).toBe("#/repaso");
     expect(screen.queryByText(/No tienes repasos pendientes/)).toBeNull();
   });
@@ -51,7 +51,7 @@ describe("objetivos táctiles de al menos 44 px", () => {
     expect(minHeight(sel)).toBeGreaterThanOrEqual(44);
   });
   it("Hablar y Escribir en Practicar son botones y los accesos de Progreso usan la clase tap", () => {
-    render(<PracticeScreen review={{ due: 0, newAvailable: 0, doneToday: 0, cap: 30, seconds: 0, filler: 0 }} />);
+    render(<PracticeScreen review={{ due: 0, newAvailable: 0, doneToday: 0, cap: 30, seconds: 0, filler: 0 }} weak={[]} />);
     expect(screen.getByText(/Juegos de roles/).closest("a")?.classList.contains("button")).toBe(true);
     expect(screen.getByText(/Reconstruir un texto/).closest("a")?.classList.contains("button")).toBe(true);
   });

@@ -1,9 +1,10 @@
 import type { TodayPlan } from "../state/session";
 import { formatDuration } from "../state/timing";
+import type { WeakSpot } from "../state/weak";
 import { Tag } from "./kit/Tag";
 
 /** «Practicar»: todo lo que se hace fuera del orden de los módulos (repaso, hablar, escribir). */
-export function PracticeScreen({ review }: { review: TodayPlan["review"] }) {
+export function PracticeScreen({ review, weak }: { review: TodayPlan["review"]; weak: WeakSpot[] }) {
   const pending = review.due + review.newAvailable;
   const available = pending + review.filler; // sin tarjetas vencidas aún hay práctica de recuperación en el repaso
   return (
@@ -24,6 +25,12 @@ export function PracticeScreen({ review }: { review: TodayPlan["review"] }) {
       <section aria-label="Escribir">
         <div className="top"><h2>Escribir</h2><Tag strand="salida" /></div>
         <p><a className="button block" href="#/escribir">Reconstruir un texto y escribir el tuyo</a></p>
+      </section>
+      <section aria-label="Lo que más te cuesta">
+        <div className="top"><h2>Lo que más te cuesta</h2><Tag strand="foco" /></div>
+        {weak.length > 0
+          ? <><p>{weak.map((w) => w.title).join(" · ")}</p><p><a className="button primary block" href="#/debiles">Practicar 10 frases</a></p></>
+          : <p><small>Aparece cuando un tema lleva al menos 5 intentos y menos del 80 % de aciertos a la primera.</small></p>}
       </section>
     </main>
   );

@@ -27,6 +27,8 @@ import { weekTotals } from "./state/strands";
 import { planSession } from "./state/dayplan";
 import { isPreview, PREVIEW_DB, REAL_DB, setPreview } from "./state/preview";
 import { WriteScreen } from "./ui/WriteScreen";
+import { WeakScreen } from "./ui/WeakScreen";
+import { weakSpots } from "./state/weak";
 import { PracticeScreen } from "./ui/PracticeScreen";
 import { ProgressScreen } from "./ui/ProgressScreen";
 import { DictationTestScreen } from "./ui/DictationTestScreen";
@@ -78,14 +80,14 @@ function Practice({ pack, store }: Ready) {
   const data = useDayData(store);
   if (!data) return <p>Cargando…</p>;
   const plan = planToday({ pack, cards: data.cards, day: data.day, now: new Date(), units: data.units, samples: loadSamples() });
-  return <PracticeScreen review={plan.review} />;
+  return <PracticeScreen review={plan.review} weak={weakSpots(data.days, pack.course, localDate(new Date())).spots} />;
 }
 
 function Progress({ pack, store }: Ready) {
   const data = useDayData(store);
   if (!data) return <p>Cargando…</p>;
   const today = localDate(new Date());
-  return <ProgressScreen week={weekTotals(data.days, today)} days={data.days} today={today} modules={moduleViews(pack.course, data.units).modules} />;
+  return <ProgressScreen week={weekTotals(data.days, today)} days={data.days} today={today} modules={moduleViews(pack.course, data.units).modules} weak={weakSpots(data.days, pack.course, today)} />;
 }
 
 function useViews(ready: Ready, hash: string) {
@@ -150,6 +152,7 @@ export function App() {
         </p>
       )}
       {hash === "#/repaso" ? <ReviewScreen pack={ready.pack} store={ready.store} />
+        : hash === "#/debiles" ? <WeakScreen pack={ready.pack} store={ready.store} />
         : hash === "#/practicar" ? <Practice {...ready} />
         : hash === "#/progreso" ? <Progress {...ready} />
         : hash === "#/hablar" ? <SpeakingScreen pack={ready.pack} store={ready.store} />
