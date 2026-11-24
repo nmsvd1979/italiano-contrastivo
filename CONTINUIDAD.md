@@ -2,6 +2,20 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 (15) — Auditoría de A1 y cierre de A1 en código
+**Pedido del usuario:** auditar si la app permite aprender A1 con la ruta y «Hoy», y si sirve de base para A2–B2; luego, arreglar lo que falte de A1 y dejar pistas para planificar A2 en otra conversación. Informe: `docs/auditoria-2026-11-24-a1-y-niveles.md` (mi revisión + la de un auditor independiente; coincidieron).
+**Hecho (A1):**
+1. **Tope diario de palabras nuevas** (`NEW_WORDS_PER_DAY = 12`, `withinNewWordQuota` en `state/session.ts`; `DayProgress.newWords`): antes, al terminar «Palabras» entraban hasta 44 tarjetas vencidas de golpe. Las que no caben esperan a los días siguientes (Hoy lo dice) y las ya vistas nunca se recortan.
+2. **Frases reservadas** (`reserveParts` en `content/load.ts`): 3 frases por unidad salen de la práctica al cargar y solo las ven el Cierre del módulo (una frase de la prueba y una de la reserva por cápsula) y el hito (reconocimiento y escritura). Cada reintento rota la lista (`UnitProgress.tries`).
+3. **Producción:** la escritura de la Salida pide 20 palabras (antes, 12 caracteres); la tarea oral del hito rota por intento; «Ya sabes hacer» aclara que hablar y escribir se dan por hechos al completarlos.
+4. Limpieza: error de tipos de `speaking.test.tsx` y comentario del tope de precache.
+**Hecho (A2):** `docs/pistas-a2.md` con el Paso 0 (nivel fijo en «A1» en la ruta y el hito; topes de tamaño; respaldo de los veredictos; esquemas) y las decisiones abiertas; enlazado desde `docs/plan-a2.md` y `CLAUDE.md`.
+**Decisiones mías (a revisar):** 12 palabras nuevas por día; 3 frases de reserva por cápsula; 20 palabras mínimas; la reserva se calcula al cargar y no en el pipeline (evita reconstruir contenido; conviene moverla a `assign_parts`).
+**Comprobado:** web 1213 pruebas en verde (eran 1200); `tsc` sin errores (con el TypeScript de la copia principal, porque esta copia de trabajo no lo trae); build y precache ok (9,39 MB de 11); en el navegador con 44 palabras sembradas (ya borradas): Hoy dice «12 para repasar · 32 palabras nuevas esperan», el repaso ofrece 12 y calificar una guarda `newWords`, y Hoy baja a 11; sin errores de consola. Las pruebas con el contenido real confirman que cada unidad A1 aparta 3 frases con su ejercicio y que ninguna sale en práctica, escucha ni descubre.
+**No comprobado:** pytest de esta sesión (no se tocó Python; la última corrida completa fue 878 en verde); el Cierre y el hito con las frases nuevas a mano en el navegador (solo pruebas automáticas); el mínimo de 20 palabras a mano (solo prueba de pantalla); iPhone real; 320 px y modo oscuro de lo nuevo.
+**Límites declarados:** la prueba de cada cápsula sigue con sus 6–8 frases fijas (solo rota el orden en el Cierre y el hito); son 3 frases nuevas por cápsula, no un banco grande; los juegos de rol siguen contando al terminarlos.
+**Pendiente / siguiente paso:** probar en un iPhone real; después, A2 empezando por el Paso 0 de `docs/pistas-a2.md`.
+
 ## 2026-11-24 (14) — La ruta como camino único para completar A1
 **Pedido del usuario:** investigar las mejores prácticas (más allá de Duolingo) y dejar «una pura ruta» como camino principal y único para aprender: seguirla sola debe bastar para completar A1 y, después, los demás niveles; y analizar si el contenido lo permite. Plan aprobado y maqueta aprobada.
 **Investigación (resumen en `docs/metodos-y-estructura-de-la-app.md`):** el control del orden no cambia el aprendizaje; Duolingo/Busuu/Babbel usan camino fijo con pruebas que abren lo siguiente (evidencia propia de las empresas, no independiente); la meta cercana visible tiene respaldo de laboratorio; gamificación pequeña y rachas mixtas. Sin puntos ni ligas.

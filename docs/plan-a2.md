@@ -1,5 +1,7 @@
 # Plan de A2 ejecutable (escrito el 2026-11-24)
 
+> **Paso 0 antes de a2m01:** leer `docs/pistas-a2.md`. El código de la ruta, el hito y los topes de tamaño están pensados solo para A1 y hay que ajustarlos antes de agregar el primer módulo de A2.
+
 Complementa `docs/hoja-de-ruta-a2-b2.md` (método y fuentes) con el trabajo concreto, módulo por módulo. La lista de requisitos está en `schemas/data/syllabus-a2.json` y la vigila `tests/py/test_cobertura_a2.py`: cada requisito pertenece a un módulo planificado y declara qué falta. **Es un plan, no contenido hecho: A2 aún no existe en la app** (solo u09–u12, sin módulo).
 
 Límite honesto: los requisitos están redactados desde los programas CILS/PLIDA y la hoja de ruta, no copiados de los PDF; hay que cotejarlos antes de cerrar el nivel. Los esfuerzos son estimaciones mías.
