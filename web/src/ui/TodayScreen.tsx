@@ -5,6 +5,7 @@ import type { TodayPlan } from "../state/session";
 import type { DayProgress } from "../state/store";
 import type { Seconds } from "../state/strands";
 import { formatDuration, shortDuration } from "../state/timing";
+import { Icon } from "./kit/Icon";
 import { Tag } from "./kit/Tag";
 import { WeekBar } from "./kit/WeekBar";
 
@@ -54,7 +55,7 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, 
         <h1>Hoy</h1>
         {streak && streak.streak > 0 && (
           <span className="chip" title={streak.protectorUsed ? "Un día sin estudiar se perdonó (protector semanal)" : undefined}>
-            🔥 {plural(streak.streak, "día", "días")}{streak.studiedToday ? "" : " · estudia hoy"}
+            <Icon name="racha" />{plural(streak.streak, "día", "días")}{streak.studiedToday ? "" : " · estudia hoy"}
           </span>
         )}
       </div>
@@ -84,21 +85,21 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, 
           <ul className="blocks">
             {blocks.map((b, i) => (
               <li key={`${b.key}-${b.step ?? "r"}-${i}`} data-done={b.done} data-next={!b.done && blocks.findIndex((x) => !x.done) === i}>
-                <Tag strand={b.strand} />
-                <span className="t"><b>{b.label}</b>{b.subtitle && <small>{b.subtitle}</small>}</span>
-                <span className="min">{b.done ? "✓" : shortDuration(b.seconds)}</span>
+                <span className="mk" aria-hidden="true">{b.done ? "✓" : ""}</span>
+                <span className="t"><b>{b.label}</b>{b.subtitle && <small>{b.subtitle}</small>}<Tag strand={b.strand} /></span>
+                <span className="min">{b.done ? <span className="sr">hecho</span> : shortDuration(b.seconds)}</span>
               </li>
             ))}
           </ul>
         )}
-        <p><small>Hoy llevas {plural(plan.stepsToday, "paso", "pasos")} y {plural(day.reviewsDone, "repaso", "repasos")}. Cada bloque se puede hacer por separado.</small></p>
+        <p className="tally"><small>Hoy llevas {plural(plan.stepsToday, "paso", "pasos")} y {plural(day.reviewsDone, "repaso", "repasos")}.</small></p>
+      </div>
+      <div className="secondary">
+        {extra.short && <a className="button" href={extra.short.href}>{extra.short.label}</a>}
+        <a className="button" href={extra.other.href}>{extra.other.label}</a>
       </div>
       {week && <WeekBar week={week} />}
       <div className="actions-bottom above-tabs">
-        <div className="secondary">
-          {extra.short && <a className="button" href={extra.short.href}>{extra.short.label}</a>}
-          <a className="button" href={extra.other.href}>{extra.other.label}</a>
-        </div>
         <a className="button primary block" href={action.href}>{action.href === "#/ruta" ? action.label : `${nothingToday ? "Empezar" : "Continuar"} · ${action.label}`}</a>
       </div>
     </main>

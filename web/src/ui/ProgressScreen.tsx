@@ -25,7 +25,7 @@ export function ProgressScreen({ week, days, today, modules, weak }: { week: Sec
       {can.total > 0 && (
         <section aria-label="Ya sabes hacer">
           <h2>Ya sabes hacer</h2>
-          <p><b>{can.known} de {can.total}</b></p>
+          <p className="figure"><b aria-hidden="true">{can.known}</b><span aria-hidden="true">de {can.total}</span><span className="sr">{can.known} de {can.total}</span></p>
           <progress max={can.total} value={can.known} aria-label="«Sé hacer» conseguidos" />
           {can.groups.map((g) => {
             const known = g.items.filter((i) => i.state !== "pendiente").length;
@@ -75,6 +75,7 @@ export function ProgressScreen({ week, days, today, modules, weak }: { week: Sec
           {DOW.map((l) => <span key={l} className="dow">{l}</span>)}
           {cal.cells.map((c) => <i key={c.date} data-level={c.level} data-future={c.future ? "true" : undefined} />)}
         </div>
+        <p className="cal-key"><span><i aria-hidden="true" />menos de 10 min</span><span><i aria-hidden="true" />10 min o más</span></p>
       </section>
       <WeekCard week={week} />
       <p><a className="tap" href="#/acerca">Acerca de la app, licencias y revisión del contenido</a></p>

@@ -15,7 +15,7 @@ export function WeekCard({ week }: { week: Seconds }) {
       <p><small>{mins(total)} min de estudio activo en 7 días (se deja de contar tras 2 min sin tocar la pantalla).</small></p>
       <ul className="week">
         {STRANDS.map((s) => (
-          <li key={s}>
+          <li key={s} data-strand={s}>
             <span className="t"><b>{STRAND_LABEL[s]}</b> <span>{mins(week[s] ?? 0)} min</span></span>
             <span className="bar" aria-hidden="true"><i style={{ width: `${Math.round(((week[s] ?? 0) / total) * 100)}%` }} /></span>
             <small>{STRAND_HELP[s]}</small>

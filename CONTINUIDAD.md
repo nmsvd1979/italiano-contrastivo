@@ -2,6 +2,13 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 (12) — Revisión de diseño gráfico: sistema visual nuevo
+**Pedido del usuario:** revisar la app «como diseñador gráfico y de frontend»: limpia, ordenada, tipografía, interlineado, separación, simbología y cómo se muestra el progreso, sin romper los lineamientos iniciales.
+**Hecho:** se reescribió `web/src/styles.css` como un sistema (tokens → base → componentes → navegación → ejercicio → pantallas) y se ajustó el marcado de Hoy, Ruta, Progreso, Ajustes y los botones de voz. Detalle y razones en `docs/specs/2026-11-24-sistema-visual.md`. En corto: escala tipográfica y de espacio únicas; una tarjeta por grupo con filas dentro (sin tarjetas anidadas); el tipo de práctica como punto de color + nombre en vez de etiqueta en mayúsculas; una sola forma de barra de progreso; estados con círculos (hecho / toca ahora / pendiente); un botón principal por pantalla; «volver» unificado; iconos de trazo en lugar de emoji; Ajustes con selector segmentado y filas; leyenda en el calendario.
+**Decisiones mías (a revisar):** fuentes del sistema (sin fuentes web, por ser PWA sin conexión); la serif queda solo para el italiano (los títulos de unidad pasan a sans); en Hoy solo queda fijo el botón principal y «Elegir otra cosa» va en el flujo.
+**Comprobado:** web 1189 pruebas en verde; en el navegador a 375 px: Hoy, Ruta, Módulo, ficha, ejercicio de escuchar, hueco con corrección, Practicar, Progreso, Ajustes y Biblioteca en claro; Hoy y Módulo en oscuro; sin errores de consola ni desborde horizontal.
+**No comprobado:** iPhone real; 320 px; Hablar, Escribir, Entrada/lectura, Cierre, hito y ubicación solo heredan el sistema (no los miré uno por uno); tsc.
+
 ## 2026-11-24 (11) — Arreglos vistos en un iPhone real: apariencia, barra inferior y filas de Hoy
 **Pedido del usuario:** capturas del iPhone (modo oscuro) de Hoy y Practicar: no se parecían a lo mostrado y no había dónde cambiar el color.
 **Causa y arreglos:**

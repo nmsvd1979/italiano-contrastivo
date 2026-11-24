@@ -68,10 +68,12 @@ export function RouteScreen({ views, pack, hito, modules = [] }: { views: UnitVi
   return (
     <main>
       <h1>Ruta</h1>
-      {byModules
-        ? <p><b>{ms.done} de {ms.total} módulos completados</b> <small>({done} de {total} cápsulas)</small></p>
-        : <p>{done} de {total} unidades completadas. Cada unidad tiene varios pasos; la siguiente se abre cuando apruebas la prueba (80 % o más).</p>}
-      <progress max={byModules ? ms.total : total} value={byModules ? ms.done : done} aria-label={byModules ? "Módulos completados" : "Unidades completadas"} />
+      <div className="route-head">
+        {byModules
+          ? <p><b>{ms.done} de {ms.total} módulos completados</b> <small>({done} de {total} cápsulas)</small></p>
+          : <p>{done} de {total} unidades completadas. Cada unidad tiene varios pasos; la siguiente se abre cuando apruebas la prueba (80 % o más).</p>}
+        <progress max={byModules ? ms.total : total} value={byModules ? ms.done : done} aria-label={byModules ? "Módulos completados" : "Unidades completadas"} />
+      </div>
       {pack.course.levels.map((level) => {
         const units = views.filter((v) => v.unit.level === level.id);
         const planned = pack.course.planned.filter((p) => p.level === level.id);

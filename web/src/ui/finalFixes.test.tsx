@@ -47,7 +47,7 @@ describe("Practicar", () => {
 describe("objetivos táctiles de al menos 44 px", () => {
   const css = readFileSync(resolve(process.cwd(), "src/styles.css"), "utf8");
   const minHeight = (selector: string) => Number(css.match(new RegExp(`${selector.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*\\{[^}]*min-height:\\s*(\\d+)px`))?.[1] ?? 0);
-  it.each([".actions-bottom .secondary .button", "a.tap", "details.how summary"])("%s mide ≥ 44 px", (sel) => {
+  it.each([".today .secondary .button", "a.tap", "details.how summary"])("%s mide ≥ 44 px", (sel) => {
     expect(minHeight(sel)).toBeGreaterThanOrEqual(44);
   });
   it("Hablar y Escribir en Practicar son botones y los accesos de Progreso usan la clase tap", () => {

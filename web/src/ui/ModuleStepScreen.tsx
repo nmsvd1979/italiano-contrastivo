@@ -75,7 +75,7 @@ function Salida({ view, pack, store, exit, onChange }: { view: ModuleView; pack:
       <main>
         <h1>Tu mensaje escrito</h1>
         <OwnText store={store} prompt_es={module.writing_es ?? `Escribe 3 o 4 frases tuyas para practicar esto: «${module.can_do_es[0]}»`} onChecked={() => void mark("escritura")} />
-        <p><button type="button" onClick={back}>← Volver a la Salida</button></p>
+        <p><button type="button" onClick={back}>‹ Volver a la Salida</button></p>
       </main>
     );
   }
@@ -86,7 +86,7 @@ function Salida({ view, pack, store, exit, onChange }: { view: ModuleView; pack:
   const doneMark = (k: "habla" | "escritura") => (view.progress.done[salidaKey(k)] ? " ✓" : "");
   return (
     <main>
-      <p><a href={exit} style={{ textDecoration: "none" }}>← {module.title}</a></p>
+      <p><a className="tap" href={exit}>‹ {module.title}</a></p>
       <h1>Salida</h1>
       <p>Aquí pasas de reconocer a <strong>producir</strong>. Para completar la Salida hace falta {module.roleplays.length + module.tasks.length > 0 ? "una práctica hablada y " : ""}un mensaje escrito tuyo. {missing.length === 0 ? "Ya cumpliste lo que se pide." : ""}</p>
       {module.gap_es && <p className="note"><small>⚠ {module.gap_es}</small></p>}
@@ -133,7 +133,7 @@ function Cierre({ view, pack, store, exit, onDone }: { view: ModuleView; pack: C
   if (phase === "checklist") {
     return (
       <main>
-        <p><a href={exit} style={{ textDecoration: "none" }}>← {module.title}</a></p>
+        <p><a className="tap" href={exit}>‹ {module.title}</a></p>
         <h1>Cierre del módulo</h1>
         <h2>¿Qué sabes hacer ya?</h2>
         <p><small>Marca lo que de verdad puedes hacer sin mirar. Se guarda en este dispositivo y aparece en Progreso como «marcado por ti»; no cuenta para completar el módulo. Lo que quede sin marcar conviene repasarlo antes de la prueba.</small></p>

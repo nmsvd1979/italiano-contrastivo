@@ -111,7 +111,7 @@ export function RolePlayRun({ rp, reading, store, onExit, onComplete, exitLabel 
         <p>¿Qué voz quieres decir tú? La otra la dice la app.</p>
         <ul className="options">{speakers.map((s) => <li key={s}><button type="button" onClick={() => { setMe(s); mark.current = Date.now(); }}>{s}</button></li>)}</ul>
         <p><small>Diálogo de {reading.source.book} ({reading.source.authors}), {reading.source.license}. Traducción al español: IA, sin revisar por un nativo.</small></p>
-        <p><button type="button" onClick={onExit}>← Volver</button></p>
+        <p><button type="button" onClick={onExit}>‹ Volver</button></p>
       </main>
     );
   }
@@ -232,7 +232,7 @@ export function TaskRun({ task, store, onExit, onComplete }: { task: SpeakingTas
             : <button type="button" className="primary block" onClick={onExit}>Volver a Hablar</button>}</div>
         </>
       )}
-      {phase !== "check" && <p><button type="button" onClick={onExit}>← Volver</button></p>}
+      {phase !== "check" && <p><button type="button" onClick={onExit}>‹ Volver</button></p>}
     </main>
   );
 }
@@ -271,7 +271,7 @@ function AlphabetPanel({ speaking, onExit }: { speaking: Speaking; onExit: () =>
           <p><small>Ahora dilo tú en voz alta sin mirar, y comprueba.</small></p>
         </>
       )}
-      <p><button type="button" onClick={onExit}>← Volver</button></p>
+      <p><button type="button" onClick={onExit}>‹ Volver</button></p>
     </main>
   );
 }
@@ -299,7 +299,7 @@ export function PhrasesPanel({ phrases, onExit, only }: { phrases: NonNullable<S
           <p><small>{g.missing_es} Fuente: {g.source.book} ({g.source.authors}), {g.source.license}, <a href={g.source.url} target="_blank" rel="noopener noreferrer">{g.source.chapter}</a>. Traducciones: IA, sin revisar por un nativo.</small></p>
         </section>
       ))}
-      <p><button type="button" onClick={onExit}>← Volver</button></p>
+      <p><button type="button" onClick={onExit}>‹ Volver</button></p>
     </main>
   );
 }
@@ -360,7 +360,7 @@ export function FluencyRun({ reading, store, onExit, onComplete }: { reading: Re
         ))}
       </div>
       <p>
-        {pass > 0 && <button type="button" onClick={() => { stop(); setPeek(false); setPass(pass - 1); }}>← Pasada anterior</button>}{" "}
+        {pass > 0 && <button type="button" onClick={() => { stop(); setPeek(false); setPass(pass - 1); }}>‹ Pasada anterior</button>}{" "}
         {pass < PASSES.length - 1 && <button type="button" disabled={!finished[pass]} onClick={() => { stop(); setPeek(false); setPass(pass + 1); }}>Siguiente pasada →</button>}
       </p>
       <p><small>Se suma a «Fluidez» el tiempo que pasas escuchando.</small></p>
