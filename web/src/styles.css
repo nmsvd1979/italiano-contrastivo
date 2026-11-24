@@ -268,10 +268,9 @@ main.today { padding-bottom: calc(var(--tab-h) + env(safe-area-inset-bottom, 0px
 .blocks .t small { font-size: var(--t-cap); }
 .blocks li[data-done="true"] .t b { color: var(--muted); font-weight: 500; }
 .blocks li[data-soon="true"] { opacity: .5; }
-.blocks .min { font-size: var(--t-sm); font-weight: 500; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; flex: none; }
-.blocks li[data-next="true"] .min { color: var(--ink); font-weight: 600; }
-.today .secondary { display: flex; gap: var(--sp2); margin: 0 0 var(--sp4); }
-.today .secondary .button { flex: 1; min-height: 44px; font-size: var(--t-sm); background: transparent; }
+.today .daily { display: grid; gap: var(--sp2); }
+.today .daily .top { display: flex; justify-content: space-between; align-items: baseline; gap: var(--sp3); }
+.today .daily .bar { display: block; flex: none; width: 100%; }
 .week-legend { margin: 0 0 var(--sp2); }
 .week-legend small, section[aria-label="Tu semana"] small { font-size: var(--t-cap); }
 

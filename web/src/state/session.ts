@@ -32,6 +32,8 @@ export type TodayPlan = {
   module: { view: ModuleView; step: ModuleStepId; seconds: number } | null;
   route: { done: number; total: number };
   stepsToday: number;
+  /** Dónde vas en el contenido: módulo actual y, si toca una cápsula, cuál es (i de k). */
+  place?: { level: string; module: number; title: string; capsule: number | null; capsules: number };
 };
 
 /** El progreso de otra fecha local equivale a un día vacío (la sesión cambia a medianoche local). */
@@ -69,6 +71,7 @@ export function planToday(input: { pack: ContentPack; cards: Card[]; day: DayPro
     module: cm && modStep ? { view: cm, step: modStep, seconds: MODULE_STEP_SECONDS[modStep] } : null,
     route: { done: summary(views).done, total: views.length },
     stepsToday: (day.stepsDone ?? []).length,
+    place: cm ? { level: cm.module.level, module: cm.index + 1, title: cm.module.title, capsule: cur && cm.units.some((v) => v.unit.id === cur.unit.id) ? cm.units.findIndex((v) => v.unit.id === cur.unit.id) + 1 : null, capsules: cm.units.length } : undefined,
   };
 }
 

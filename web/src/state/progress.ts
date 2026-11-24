@@ -5,12 +5,16 @@ import { applyModuleTest, markModuleStep, moduleProgressId, salidaKey, salidaMis
 import { newCard, review } from "./srs";
 import { localDate, type Store, type StepId, type UnitProgress } from "./store";
 import { normalizeDay } from "./session";
+import { REFUERZO_KEY } from "./dayplan";
 
 async function bumpDay(store: Store, key: string, now: Date): Promise<void> {
   const day = normalizeDay(await store.getDay(localDate(now)), now);
   const steps = day.stepsDone ?? [];
   if (!steps.includes(key)) await store.putDay({ ...day, stepsDone: [...steps, key] });
 }
+
+/** Anota que hoy se hizo la tanda de «Lo que más te cuesta» (el Refuerzo del plan de hoy). */
+export const finishRefuerzo = (store: Store, now: Date): Promise<void> => bumpDay(store, REFUERZO_KEY, now);
 
 const load = async (store: Store, unitId: string) => (await store.getUnit(unitId)) ?? emptyProgress(unitId);
 

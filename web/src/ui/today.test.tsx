@@ -3,7 +3,7 @@ import { afterEach, describe, expect, it } from "vitest";
 import type { SessionBlock } from "../state/dayplan";
 import type { TodayPlan } from "../state/session";
 import type { DayProgress } from "../state/store";
-import { secondaryActions, TodayScreen } from "./TodayScreen";
+import { nextAction, TodayScreen } from "./TodayScreen";
 import { WeekBar } from "./kit/WeekBar";
 
 afterEach(cleanup);
@@ -40,21 +40,42 @@ describe("Hoy: la sesión", () => {
   });
 });
 
-describe("secondaryActions", () => {
-  const a = block({ seconds: 180, href: "#/repaso" }); // el repaso siempre se puede abrir
-  const b = block({ seconds: 420, href: "#/b" });
-  it("«Solo N min» es el bloque abrible más corto y no repite el principal", () => {
-    expect(secondaryActions(plan(), [a, b], "#/b").short).toEqual({ href: "#/repaso", label: "Solo 3 min" });
-    expect(secondaryActions(plan(), [a, b], "#/repaso").short).toBeNull(); // el otro dura más de 5 min
+describe("Hoy: referencia diaria y plan por contenido", () => {
+  it("no hay «Solo N min», «Elegir otra cosa» ni minutos por fila", () => {
+    render(<TodayScreen plan={plan({}, 6)} day={day()} blocks={[block({ seconds: 180 }), block({ key: "lectura", step: "descubre", label: "Descubre", seconds: 420, href: "#/unidad/u01/descubre" })]} />);
+    expect(screen.queryByText(/Solo \d+ min/)).toBeNull();
+    expect(screen.queryByText("Elegir otra cosa")).toBeNull();
+    expect(screen.queryByText(/≈|<1 min/)).toBeNull();
+    expect(document.querySelector('a[href="#/practicar"]')).toBeNull();
   });
-  it("con un solo bloque no hay «Solo N min»", () => {
-    expect(secondaryActions(plan(), [a], "#/repaso").short).toBeNull();
+  it("muestra los minutos de hoy frente a los 15 de referencia", () => {
+    render(<TodayScreen plan={plan()} day={day({ seconds: { foco: 5 * 60, fluidez: 4 * 60 + 30 } })} />);
+    expect(screen.getByText("Hoy llevas 9 de 15 min")).toBeTruthy();
+    expect(screen.getByRole("progressbar").getAttribute("aria-valuenow")).toBe("9");
   });
-  it("sin bloques no falla y «Elegir otra cosa» lleva a Practicar", () => {
-    expect(secondaryActions(plan(), undefined, "#/ruta")).toEqual({ short: null, other: { href: "#/practicar", label: "Elegir otra cosa" } });
+  it("al llegar a 15 min dice que el mínimo está cumplido y que puede seguir", () => {
+    render(<TodayScreen plan={plan()} day={day({ seconds: { foco: 16 * 60 } })} />);
+    expect(screen.getByText("Hoy llevas 16 min")).toBeTruthy();
+    expect(screen.getByText(/Mínimo de hoy cumplido/)).toBeTruthy();
   });
-  it("ignora los bloques ya hechos", () => {
-    expect(secondaryActions(plan(), [block({ seconds: 60, href: "#/x", done: true }), b], "#/b").short).toBeNull();
+  it("sin tiempo medido muestra 0 de 15", () => {
+    render(<TodayScreen plan={plan()} day={day()} />);
+    expect(screen.getByText("Hoy llevas 0 de 15 min")).toBeTruthy();
+  });
+  it("el botón principal pasa al Refuerzo cuando toca y no hay repaso vencido", () => {
+    const refuerzo = block({ label: "Refuerzo", href: "#/debiles" });
+    render(<TodayScreen plan={plan()} day={day()} blocks={[refuerzo]} />);
+    expect(screen.getByText(/^Empezar · Refuerzo/).closest("a")?.getAttribute("href")).toBe("#/debiles");
+  });
+  it("el repaso vencido va antes que el Refuerzo", () => {
+    expect(nextAction(plan({}, 4), true)).toEqual({ href: "#/repaso", label: "Repaso" });
+    expect(nextAction(plan(), true)).toEqual({ href: "#/debiles", label: "Refuerzo" });
+    expect(nextAction(plan(), false)).toEqual({ href: "#/ruta", label: "Ver la ruta" });
+  });
+  it("el encabezado dice módulo y cápsula i de k", () => {
+    const unit = { view: { unit: { id: "u02", level: "A1", title: "Ser y estar" }, index: 1 }, step: "practica", seconds: 600 } as unknown as TodayPlan["unit"];
+    render(<TodayScreen plan={plan({ unit, place: { level: "A1", module: 3, title: "Presentarte", capsule: 2, capsules: 5 } })} day={day()} />);
+    expect(screen.getByText("A1 · Módulo 3 · Cápsula 2 de 5")).toBeTruthy();
   });
 });
 
@@ -67,6 +88,6 @@ describe("barra de la semana", () => {
     render(<WeekBar week={{ foco: 25 * 60, entrada: 5 * 60, salida: 60 }} />);
     expect(screen.getByText(/Estudiar 25/)).toBeTruthy();
     expect(screen.getByText(/Fluidez va corto esta semana/)).toBeTruthy();
-    expect(screen.getByText(/va corto/).closest("p")?.querySelector("a")?.getAttribute("href")).toBe("#/practicar");
+    expect(screen.getByText(/va corto/).closest("p")?.querySelector("a")).toBeNull();
   });
 });

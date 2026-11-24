@@ -10,7 +10,7 @@ import { planToday } from "../state/session";
 import type { DayProgress } from "../state/store";
 import { PracticeScreen } from "./PracticeScreen";
 import { RouteScreen } from "./RouteScreen";
-import { nextAction, secondaryActions } from "./TodayScreen";
+import { nextAction } from "./TodayScreen";
 
 afterEach(cleanup);
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
@@ -21,18 +21,17 @@ const day: DayProgress = { date: "2026-11-24", reviewsDone: 0, capsulesDone: [] 
 const M1 = pack.course.modules![0].id;
 const entradaHecha = { ...emptyProgress(moduleProgressId(M1)), done: { entrada: NOW.toISOString() } };
 
-describe("«Solo N min» solo lleva a lo que se puede abrir ya", () => {
-  it("con una unidad en curso, nunca apunta a un paso posterior bloqueado", () => {
+describe("el botón principal de Hoy solo lleva a lo que se puede abrir ya", () => {
+  const firstPending = (blocks: ReturnType<typeof planSession>) => blocks.find((b) => !b.done && b.key !== "repaso")?.href;
+  it("con una unidad en curso, apunta al primer paso pendiente y no a uno posterior bloqueado", () => {
     const plan = planToday({ pack, cards: [], day, now: NOW, units: [entradaHecha] });
     const blocks = planSession({ plan, day, pack });
-    const { short } = secondaryActions(plan, blocks, nextAction(plan).href);
-    expect(short === null || short.href === "#/repaso").toBe(true);
+    expect(nextAction(plan).href).toBe(firstPending(blocks));
   });
-  it("con un paso propio del módulo en curso, tampoco", () => {
+  it("con un paso propio del módulo en curso, apunta a ese paso", () => {
     const plan = planToday({ pack, cards: [], day, now: NOW, units: [] });
     const blocks = planSession({ plan, day, pack });
-    const { short } = secondaryActions(plan, blocks, nextAction(plan).href);
-    expect(short === null || short.href === "#/repaso").toBe(true);
+    expect(nextAction(plan).href).toBe(firstPending(blocks));
   });
 });
 
@@ -47,7 +46,7 @@ describe("Practicar", () => {
 describe("objetivos táctiles de al menos 44 px", () => {
   const css = readFileSync(resolve(process.cwd(), "src/styles.css"), "utf8");
   const minHeight = (selector: string) => Number(css.match(new RegExp(`${selector.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*\\{[^}]*min-height:\\s*(\\d+)px`))?.[1] ?? 0);
-  it.each([".today .secondary .button", "a.tap", "details.how summary"])("%s mide ≥ 44 px", (sel) => {
+  it.each(["a.tap", "details.how summary"])("%s mide ≥ 44 px", (sel) => {
     expect(minHeight(sel)).toBeGreaterThanOrEqual(44);
   });
   it("Hablar y Escribir en Practicar son botones y los accesos de Progreso usan la clase tap", () => {

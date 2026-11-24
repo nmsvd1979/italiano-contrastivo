@@ -1,8 +1,9 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import type { ContentPack } from "../content/load";
-import { BLOCK_OF_STEP, planSession, SESSION_BUDGET_SECONDS } from "./dayplan";
-import { emptyProgress, markStep, STEPS } from "./course";
+import { BLOCK_OF_STEP, planSession, REFUERZO_KEY } from "./dayplan";
+import type { WeakSpot } from "./weak";
+import { emptyProgress, markStep, STEPS, stepsFor } from "./course";
 import { planToday } from "./session";
 import type { DayProgress } from "./store";
 
@@ -14,8 +15,9 @@ const day: DayProgress = { date: "2026-11-18", reviewsDone: 0, capsulesDone: [] 
 const M1 = pack.course.modules![0].id;
 // Con la Entrada del primer módulo hecha, la primera cápsula es la actual; si no, «Hoy» propone la Entrada.
 const entradaHecha = { ...emptyProgress(`mod:${M1}`), done: { entrada: NOW.toISOString() } };
-const sessionFor = (units = [entradaHecha] as ReturnType<typeof emptyProgress>[], d: DayProgress = day) =>
-  planSession({ plan: planToday({ pack, cards: [], day: d, now: NOW, units }), day: d, pack });
+const sessionFor = (units = [entradaHecha] as ReturnType<typeof emptyProgress>[], d: DayProgress = day, weak: WeakSpot[] = []) =>
+  planSession({ plan: planToday({ pack, cards: [], day: d, now: NOW, units }), day: d, pack, weak });
+const WEAK: WeakSpot[] = [{ code: pack.course.units[0].codes[0], unitId: U1, title: "Tema débil", ok: 2, n: 8, accuracy: 0.25 }];
 
 describe("sesión de hoy", () => {
   it("cada paso de la unidad pertenece a un bloque de las fuentes", () => {
@@ -27,10 +29,23 @@ describe("sesión de hoy", () => {
     expect(b[1]).toMatchObject({ key: "lectura", step: "descubre", done: false });
     expect(b.map((x) => x.step)).toContain("capsula"); // las unidades de vocabulario y de sonidos intercalan «Palabras» antes
   });
-  it("llena la sesión de ≈25–30 min sin pasarse mucho", () => {
-    const total = sessionFor().reduce((t, b) => t + b.seconds, 0);
-    expect(total).toBeGreaterThanOrEqual(20 * 60);
-    expect(total).toBeLessThanOrEqual(SESSION_BUDGET_SECONDS + 8 * 60);
+  it("no se corta por tiempo: trae todos los pasos que faltan de la cápsula, en orden", () => {
+    const b = sessionFor();
+    const unit = pack.course.units[0];
+    expect(b.filter((x) => x.step).map((x) => x.step)).toEqual(stepsFor(unit));
+    expect(b.filter((x) => x.step).every((x) => x.subtitle.length > 0)).toBe(true);
+  });
+  it("sin temas débiles no hay fila de Refuerzo", () => {
+    expect(sessionFor().some((x) => x.label === "Refuerzo")).toBe(false);
+  });
+  it("con temas débiles el Refuerzo va después del repaso y antes de los pasos", () => {
+    const b = sessionFor(undefined, day, WEAK);
+    expect(b[1]).toMatchObject({ label: "Refuerzo", href: "#/debiles", done: false, strand: "foco" });
+    expect(b[2].step).toBe("descubre");
+  });
+  it("el Refuerzo queda hecho cuando hoy se anotó la tanda", () => {
+    const b = sessionFor(undefined, { ...day, stepsDone: [REFUERZO_KEY] }, WEAK);
+    expect(b.find((x) => x.label === "Refuerzo")).toMatchObject({ done: true });
   });
   it("cada bloque lleva su hebra y su etiqueta", () => {
     const b = sessionFor();

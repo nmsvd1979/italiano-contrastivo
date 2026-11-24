@@ -4,3 +4,5 @@ export const UNIT_TARGET_MINUTES = Object.values(TARGET_MINUTES).reduce((a, b) =
 export const A1_TARGET_HOURS = 50;
 export const MIN_SENTENCES_TARGET = 40; // oraciones validadas con audio por unidad
 export const UNIT_MIN_MINUTES = 48; // mínimo de pasos por unidad para dar A1 por cerrado (≈85 % del objetivo)
+/** Referencia diaria de estudio (15 min de tiempo activo). Es una guía: no bloquea ni cambia el plan. */
+export const DAILY_MIN_SECONDS = 15 * 60;

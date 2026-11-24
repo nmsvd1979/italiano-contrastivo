@@ -1,7 +1,6 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
-import { shortDuration } from "../../state/timing";
 
 const css = readFileSync(resolve(process.cwd(), "src/styles.css"), "utf8");
 const rule = (selector: string) => css.match(new RegExp(`${selector.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*\\{([^}]*)\\}`))?.[1] ?? "";
@@ -17,14 +16,7 @@ describe("zona segura del iPhone (barra inferior del sistema)", () => {
 });
 
 describe("Hoy: filas de la sesión", () => {
-  it("los minutos no se parten ni empujan el texto", () => {
-    expect(rule(".blocks .min")).toMatch(/white-space:\s*nowrap/);
-  });
-  it("shortDuration es corta: «<1 min» o «≈ N min»", () => {
-    expect(shortDuration(10)).toBe("<1 min");
-    expect(shortDuration(30)).toBe("<1 min");
-    expect(shortDuration(60)).toBe("≈ 1 min");
-    expect(shortDuration(480)).toBe("≈ 8 min");
-    expect(shortDuration(500)).toBe("≈ 8 min");
+  it("la referencia diaria usa la barra a todo el ancho", () => {
+    expect(rule(".today .daily .bar")).toMatch(/width:\s*100%/);
   });
 });

@@ -17,7 +17,7 @@ export function WeekBar({ week }: { week: Seconds }) {
         {STRANDS.filter((s) => (week[s] ?? 0) > 0).map((s) => <i key={s} style={{ flex: week[s], background: COLOR[s] }} />)}
       </div>
       <p className="week-legend"><small>{STRANDS.map((s) => `${STRAND_TAG[s]} ${mins(week[s] ?? 0)}`).join(" · ")}</small></p>
-      {low && <p><small>{STRAND_TAG[low]} va corto esta semana. <a href="#/practicar">Practicar</a></small></p>}
+      {low && <p><small>{STRAND_TAG[low]} va corto esta semana.</small></p>}
     </section>
   );
 }

@@ -4,7 +4,8 @@ import { MODULE_STEP_LABEL } from "../state/modules";
 import type { TodayPlan } from "../state/session";
 import type { DayProgress } from "../state/store";
 import type { Seconds } from "../state/strands";
-import { formatDuration, shortDuration } from "../state/timing";
+import { totalSeconds } from "../state/strands";
+import { DAILY_MIN_SECONDS } from "../state/targets";
 import { Icon } from "./kit/Icon";
 import { Tag } from "./kit/Tag";
 import { WeekBar } from "./kit/WeekBar";
@@ -12,43 +13,37 @@ import { WeekBar } from "./kit/WeekBar";
 const plural = (n: number, one: string, many: string) => `${n} ${n === 1 ? one : many}`;
 export type Streak = { streak: number; studiedToday: boolean; protectorUsed: boolean };
 
-/** Qué hace «Continuar»: primero el repaso si hay tarjetas vencidas, si no el siguiente paso de tu unidad. */
-export function nextAction(plan: TodayPlan): { href: string; label: string } {
+/** Qué hace «Continuar»: primero el repaso si hay tarjetas vencidas, luego el refuerzo si toca y, si no, el siguiente paso de tu unidad. */
+export function nextAction(plan: TodayPlan, refuerzoPending = false): { href: string; label: string } {
   const pending = plan.review.due + plan.review.newAvailable;
-  if (plan.review.due > 0) return { href: "#/repaso", label: `Repaso · ${formatDuration(plan.review.seconds)}` };
-  if (plan.unit) return { href: `#/unidad/${plan.unit.view.unit.id}/${plan.unit.step}`, label: `${STEP_LABEL[plan.unit.step]} · ${formatDuration(plan.unit.seconds)}` };
-  if (plan.module) return { href: `#/modulo/${plan.module.view.module.id}/${plan.module.step}`, label: `${MODULE_STEP_LABEL[plan.module.step]} · ${formatDuration(plan.module.seconds)}` };
-  if (pending + plan.review.filler > 0) return { href: "#/repaso", label: `Repaso · ${formatDuration(plan.review.seconds)}` };
+  if (plan.review.due > 0) return { href: "#/repaso", label: "Repaso" };
+  if (refuerzoPending) return { href: "#/debiles", label: "Refuerzo" };
+  if (plan.unit) return { href: `#/unidad/${plan.unit.view.unit.id}/${plan.unit.step}`, label: STEP_LABEL[plan.unit.step] };
+  if (plan.module) return { href: `#/modulo/${plan.module.view.module.id}/${plan.module.step}`, label: MODULE_STEP_LABEL[plan.module.step] };
+  if (pending + plan.review.filler > 0) return { href: "#/repaso", label: "Repaso" };
   return { href: "#/ruta", label: "Ver la ruta" };
 }
 
-const SHORT_SECONDS = 5 * 60;
-/** Lo que se puede abrir ya: el repaso y el paso actual de la unidad o del módulo (los pasos siguientes siguen bloqueados). */
-function openableHrefs(plan: TodayPlan): Set<string> {
-  const hrefs = new Set(["#/repaso"]);
-  if (plan.unit) hrefs.add(`#/unidad/${plan.unit.view.unit.id}/${plan.unit.step}`);
-  if (plan.module) hrefs.add(`#/modulo/${plan.module.view.module.id}/${plan.module.step}`);
-  return hrefs;
-}
-/** Salidas de «Hoy»: «Solo N min» (el bloque abrible más corto de hasta 5 min, si no es el principal) y «Elegir otra cosa». */
-export function secondaryActions(plan: TodayPlan, blocks: SessionBlock[] | undefined, primaryHref: string): { short: { href: string; label: string } | null; other: { href: string; label: string } } {
-  const openable = openableHrefs(plan);
-  const candidates = (blocks ?? []).filter((b) => !b.done && b.seconds <= SHORT_SECONDS && b.href !== primaryHref && openable.has(b.href)).sort((x, y) => x.seconds - y.seconds);
-  const first = candidates[0];
-  return {
-    short: first ? { href: first.href, label: `Solo ${Math.ceil(first.seconds / 60)} min` } : null,
-    other: { href: "#/practicar", label: "Elegir otra cosa" },
-  };
+/** Referencia diaria: los minutos de estudio activo de hoy frente a los 15 de guía. No bloquea nada. */
+function DailyMinimum({ day }: { day: DayProgress }) {
+  const total = totalSeconds(day.seconds ?? {});
+  const mins = Math.floor(total / 60);
+  const met = total >= DAILY_MIN_SECONDS;
+  return (
+    <section className="daily" aria-label="Referencia diaria">
+      <div className="top"><span>{met ? `Hoy llevas ${mins} min` : `Hoy llevas ${mins} de ${DAILY_MIN_SECONDS / 60} min`}</span><small>referencia diaria</small></div>
+      <div className="bar" role="progressbar" aria-valuemin={0} aria-valuemax={DAILY_MIN_SECONDS / 60} aria-valuenow={Math.min(mins, DAILY_MIN_SECONDS / 60)} aria-label="Minutos de estudio de hoy"><i style={{ width: `${Math.min(100, (total / DAILY_MIN_SECONDS) * 100)}%` }} /></div>
+      <small>{met ? "Mínimo de hoy cumplido. Puedes seguir." : "Es solo una guía: el plan sigue aunque pases de 15 min."}</small>
+    </section>
+  );
 }
 
 export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, week }: { plan: TodayPlan; day: DayProgress; storeError?: string | null; firstTime?: boolean; streak?: Streak; blocks?: SessionBlock[]; week?: Seconds }) {
   const pending = plan.review.due + plan.review.newAvailable;
   const { unit, route } = plan;
-  const action = nextAction(plan);
+  const refuerzoPending = !!blocks?.some((b) => b.href === "#/debiles" && !b.done);
+  const action = nextAction(plan, refuerzoPending);
   const nothingToday = day.reviewsDone === 0 && plan.stepsToday === 0;
-  const extra = secondaryActions(plan, blocks, action.href);
-  const reviewDone = day.reviewsDone > 0 && pending === 0;
-  const unitDone = plan.stepsToday > 0;
   return (
     <main className="today">
       <div className="top">
@@ -63,13 +58,13 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, 
       {firstTime && (
         <details className="how">
           <summary>Cómo empezar</summary>
-          <p>Sigue la ruta: cada módulo es una situación (por ejemplo, presentarte): entras con un texto real, estudias sus cápsulas, hablas y escribes tú, y cierras con una prueba. Haz uno o dos al día; el repaso te devuelve lo aprendido justo antes de olvidarlo. Si ya sabes algo, la <a href="#/ubicacion">prueba de ubicación</a> te deja saltarlo.</p>
+          <p>Aquí está tu plan de hoy, en orden: cada módulo es una situación (por ejemplo, presentarte): entras con un texto real, estudias sus cápsulas, hablas y escribes tú, y cierras con una prueba. Solo tienes que seguir las filas; el repaso te devuelve lo aprendido justo antes de olvidarlo. Como referencia, apunta a unos 15 minutos al día. Si ya sabes algo, la <a href="#/ubicacion">prueba de ubicación</a> te deja saltarlo.</p>
         </details>
       )}
       <div className="hero">
         {unit ? (
           <>
-            <div className="eyebrow">{unit.view.unit.level} · Unidad {unit.view.index + 1} de {route.total}</div>
+            <div className="eyebrow">{plan.place ? `${plan.place.level} · Módulo ${plan.place.module}${plan.place.capsule ? ` · Cápsula ${plan.place.capsule} de ${plan.place.capsules}` : ""}` : `${unit.view.unit.level} · Unidad ${unit.view.index + 1} de ${route.total}`}</div>
             <div className="title" lang="it">{unit.view.unit.title}</div>
           </>
         ) : plan.module ? (
@@ -87,17 +82,14 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, 
               <li key={`${b.key}-${b.step ?? "r"}-${i}`} data-done={b.done} data-next={!b.done && blocks.findIndex((x) => !x.done) === i}>
                 <span className="mk" aria-hidden="true">{b.done ? "✓" : ""}</span>
                 <span className="t"><b>{b.label}</b>{b.subtitle && <small>{b.subtitle}</small>}<Tag strand={b.strand} /></span>
-                <span className="min">{b.done ? <span className="sr">hecho</span> : shortDuration(b.seconds)}</span>
+                {b.done && <span className="sr">hecho</span>}
               </li>
             ))}
           </ul>
         )}
         <p className="tally"><small>Hoy llevas {plural(plan.stepsToday, "paso", "pasos")} y {plural(day.reviewsDone, "repaso", "repasos")}.</small></p>
       </div>
-      <div className="secondary">
-        {extra.short && <a className="button" href={extra.short.href}>{extra.short.label}</a>}
-        <a className="button" href={extra.other.href}>{extra.other.label}</a>
-      </div>
+      <DailyMinimum day={day} />
       {week && <WeekBar week={week} />}
       <div className="actions-bottom above-tabs">
         <a className="button primary block" href={action.href}>{action.href === "#/ruta" ? action.label : `${nothingToday ? "Empezar" : "Continuar"} · ${action.label}`}</a>

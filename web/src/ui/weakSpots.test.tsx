@@ -69,12 +69,12 @@ describe("pantalla de práctica de puntos débiles", () => {
     await store.putDay({ date: localDate(new Date()), reviewsDone: 0, capsulesDone: [], attempts: { [code]: { ok: 1, n: 10 } } });
     render(<WeakScreen pack={pack} store={store} />);
     expect(await screen.findByText(/^1 \/ \d+$/)).toBeTruthy();
-    expect(screen.getByLabelText("Salir").getAttribute("href")).toBe("#/practicar");
+    expect(screen.getByLabelText("Salir").getAttribute("href")).toBe("#/");
   });
   it("sin puntos débiles no falla y ofrece volver", async () => {
     render(<WeakScreen pack={pack} store={memoryStore()} />);
     expect(await screen.findByText(/No tienes puntos débiles ahora/)).toBeTruthy();
-    expect(screen.getByRole("link", { name: "Volver a Practicar" }).getAttribute("href")).toBe("#/practicar");
+    expect(screen.getByRole("link", { name: "Volver a Hoy" }).getAttribute("href")).toBe("#/");
   });
   it("un tema sin ejercicios en el paquete tampoco falla", async () => {
     const store = memoryStore();

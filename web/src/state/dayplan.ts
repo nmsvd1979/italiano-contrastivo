@@ -5,7 +5,8 @@ import type { TodayPlan } from "./session";
 import type { DayProgress, StepId } from "./store";
 import { stepSeconds } from "./steps";
 import type { ContentPack } from "../content/load";
-import type { Samples } from "./timing";
+import { estimateSeconds, type Samples } from "./timing";
+import type { WeakSpot } from "./weak";
 
 export type BlockKey = "repaso" | "lectura" | "gimnasio" | "voz";
 export const BLOCKS: Record<BlockKey, { n: string; title: string; color: string }> = {
@@ -24,20 +25,34 @@ export const BLOCK_OF_MODULE_STEP: Record<ModuleStepId, BlockKey> = { entrada: "
 export const STRAND_OF_MODULE_STEP: Record<ModuleStepId, Strand> = { entrada: "entrada", salida: "salida", fluidez: "fluidez", cierre: "salida" };
 
 export type SessionBlock = { key: BlockKey; strand: Strand; label: string; title: string; subtitle: string; seconds: number; href: string; done: boolean; step?: StepId };
-export const SESSION_BUDGET_SECONDS = 25 * 60;
+
+/** Marca en `DayProgress.stepsDone` de la tanda de «Lo que más te cuesta» (el Refuerzo del plan de hoy). */
+export const REFUERZO_KEY = "refuerzo";
+/** Qué se hace en cada paso de la unidad, en pocas palabras (la fila de Hoy). */
+export const STEP_HINT: Record<StepId, string> = {
+  descubre: "Ejemplos reales y el punto clave", palabras: "El vocabulario de la cápsula", lectura: "Un texto corto para entender", capsula: "La regla en pocos minutos",
+  practica: "Ejercicios de la cápsula", escucha: "Dictado y repetir en voz alta", practica2: "Más ejercicios, con otras frases", prueba: "Escribe las frases desde el español",
+};
 
 /**
- * La sesión de hoy: el repaso y los siguientes pasos de tu unidad (cada uno es un bloque de las fuentes) hasta llenar ≈25–30 min.
- * Los pasos ya hechos hoy se muestran como hechos. El orden respeta el ciclo de la unidad (descubrir → practicar → escuchar → probar).
+ * El plan de hoy, por contenido y no por tiempo: el repaso, el refuerzo (si hay temas débiles) y TODOS los pasos que faltan de tu cápsula
+ * (o el paso propio del módulo). Los pasos ya hechos hoy se muestran como hechos. El orden respeta el ciclo de la unidad
+ * (descubrir → practicar → escuchar → probar). El tiempo no recorta nada: los minutos son solo una referencia.
  */
-export function planSession(input: { plan: TodayPlan; day: DayProgress; pack: ContentPack; samples?: Samples }): SessionBlock[] {
-  const { plan, day, pack, samples = {} } = input;
+export function planSession(input: { plan: TodayPlan; day: DayProgress; pack: ContentPack; samples?: Samples; weak?: WeakSpot[] }): SessionBlock[] {
+  const { plan, day, pack, samples = {}, weak = [] } = input;
   const pending = plan.review.due + plan.review.newAvailable;
   const work = pending + plan.review.filler;
   const blocks: SessionBlock[] = [{
     key: "repaso", strand: "foco", label: "Repaso", title: BLOCKS.repaso.title, seconds: plan.review.seconds, href: "#/repaso", done: work === 0 || (day.reviewsDone > 0 && pending === 0),
     subtitle: pending > 0 ? `Tienes ${pending} para repasar${plan.review.filler ? " + práctica de unidades anteriores" : ""}` : plan.review.filler ? "Práctica de recuperación de unidades anteriores" : "No tienes repasos pendientes ahora.",
   }];
+  if (weak.length > 0) {
+    blocks.push({
+      key: "gimnasio", strand: "foco", label: "Refuerzo", title: BLOCKS.gimnasio.title, seconds: 10 * estimateSeconds("choice", samples), href: "#/debiles",
+      done: (day.stepsDone ?? []).includes(REFUERZO_KEY), subtitle: "Lo que más te cuesta: 10 frases",
+    });
+  }
   const unit = plan.unit?.view.unit;
   if (!unit && plan.module) {   // la sesión del día es un paso propio del módulo (Entrada, Salida, Fluidez o Cierre)
     const { view, step, seconds } = plan.module;
@@ -50,16 +65,11 @@ export function planSession(input: { plan: TodayPlan; day: DayProgress; pack: Co
   for (const step of doneSteps) {
     blocks.push({ key: BLOCK_OF_STEP[step], strand: STRAND_OF_STEP[step], label: STEP_LABEL[step], step, title: BLOCKS[BLOCK_OF_STEP[step]].title, subtitle: "Hecho hoy", seconds: stepSeconds(unit, step, pack, samples), href: `#/unidad/${unit.id}/${step}`, done: true });
   }
-  let total = plan.review.seconds + blocks.filter((b) => b.done && b.key !== "repaso").reduce((t, b) => t + b.seconds, 0);
   const steps = stepsFor(unit);
   const start = steps.indexOf(plan.unit.step);
   for (const step of steps.slice(start)) {
     if (plan.unit.view.progress.done[step]) continue;
-    const seconds = stepSeconds(unit, step, pack, samples);
-    if (total > 0 && total + seconds > SESSION_BUDGET_SECONDS + 5 * 60 && blocks.some((b) => !b.done && b.key !== "repaso")) break;
-    blocks.push({ key: BLOCK_OF_STEP[step], strand: STRAND_OF_STEP[step], label: STEP_LABEL[step], step, title: BLOCKS[BLOCK_OF_STEP[step]].title, subtitle: "", seconds, href: `#/unidad/${unit.id}/${step}`, done: false });
-    total += seconds;
-    if (total >= SESSION_BUDGET_SECONDS) break;
+    blocks.push({ key: BLOCK_OF_STEP[step], strand: STRAND_OF_STEP[step], label: STEP_LABEL[step], step, title: BLOCKS[BLOCK_OF_STEP[step]].title, subtitle: STEP_HINT[step], seconds: stepSeconds(unit, step, pack, samples), href: `#/unidad/${unit.id}/${step}`, done: false });
   }
   return blocks;
 }

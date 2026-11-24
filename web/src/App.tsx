@@ -73,7 +73,7 @@ function Today({ pack, store, storeError }: Ready) {
   if (!data) return <p>Cargando…</p>;
   const samples = loadSamples();
   const plan = planToday({ pack, cards: data.cards, day: data.day, now: new Date(), units: data.units, samples });
-  return <TodayScreen plan={plan} blocks={planSession({ plan, day: data.day, pack, samples })} day={data.day} storeError={storeError} firstTime={data.cards.length === 0 && data.units.length === 0 && data.day.reviewsDone === 0} streak={computeStreak(data.days, localDate(new Date()))} week={weekTotals(data.days, localDate(new Date()))} />;
+  return <TodayScreen plan={plan} blocks={planSession({ plan, day: data.day, pack, samples, weak: weakSpots(data.days, pack.course, localDate(new Date())).spots })} day={data.day} storeError={storeError} firstTime={data.cards.length === 0 && data.units.length === 0 && data.day.reviewsDone === 0} streak={computeStreak(data.days, localDate(new Date()))} week={weekTotals(data.days, localDate(new Date()))} />;
 }
 
 function Practice({ pack, store }: Ready) {
