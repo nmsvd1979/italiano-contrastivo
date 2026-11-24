@@ -13,13 +13,15 @@ export function Cloze({ item, onAnswer }: { item: ClozeItem; onAnswer: (correct:
   const [before, after] = item.text.split("___");
   return (
     <div className="item">
-      {item.hint_es && <p><small>Pista: {item.hint_es}</small></p>}
-      <p className="big" lang="it">
-        {before}
-        <input lang="it" aria-label="Respuesta" value={value} disabled={result !== null} autoCapitalize="off" autoCorrect="off" size={Math.max(5, value.length + 1)}
-          onChange={(e) => setValue(e.target.value)} />
-        {after}
-      </p>
+      <div className="ask">
+        {item.hint_es && <><p className="eyebrow">Quieres decir</p><p className="es">{item.hint_es}</p></>}
+        <p className="big" lang="it">
+          {before}
+          <input lang="it" aria-label="Respuesta" value={value} disabled={result !== null} autoCapitalize="off" autoCorrect="off" size={Math.max(5, value.length + 1)}
+            onChange={(e) => setValue(e.target.value)} />
+          {after}
+        </p>
+      </div>
       {result === null ? (
         <div className="actions-bottom">
           <button type="button" className="primary block" disabled={!value.trim()} onClick={() => setResult(item.answers.some((a) => norm(a) === norm(value)))}>Comprobar</button>

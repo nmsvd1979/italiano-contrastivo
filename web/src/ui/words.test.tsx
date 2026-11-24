@@ -145,7 +145,7 @@ describe("pantalla de repaso con una palabra", () => {
     await addWordCards(store, vocab, now);
     render(<ReviewScreen pack={pack} store={store} now={new Date(now.getTime() + 60_000)} />);
     const w = vocab.words![0];
-    expect(await screen.findByText(new RegExp(`«${w.gloss.replace(/[()]/g, "\\$&")}»`))).toBeTruthy(); // se ve la glosa en español, NO la palabra italiana
+    expect(await screen.findByText(w.gloss)).toBeTruthy(); // se ve la glosa en español, NO la palabra italiana
     expect(screen.queryByText(w.form)).toBeNull();
     fireEvent.change(screen.getByLabelText("Tu respuesta"), { target: { value: withArticle(w.form, w.art) } });
     fireEvent.click(screen.getByText("Comprobar"));

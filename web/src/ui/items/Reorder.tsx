@@ -9,9 +9,12 @@ export function Reorder({ item, onAnswer }: { item: ReorderItem; onAnswer: (corr
   const [chosen, setChosen] = useState<number[]>([]);
   const [result, setResult] = useState<boolean | null>(null);
   const built = chosen.map((i) => item.tokens[i]);
+  const prompt = item.prompt_es.match(/^(.*?):\s*«(.+)»\.?$/); // «Ordena las palabras: «Es lo mismo.»» → consigna + frase en español
   return (
     <div className="item">
-      <p>{item.prompt_es}</p>
+      <div className="ask">
+        {prompt ? <><p className="eyebrow">{prompt[1]}</p><p className="es">{prompt[2]}</p></> : <p className="es">{item.prompt_es}</p>}
+      </div>
       <p className="built" aria-label="Tu orden">
         {chosen.map((idx, pos) => (
           <button key={pos} type="button" lang="it" disabled={result !== null} onClick={() => setChosen(chosen.filter((_, p) => p !== pos))}>{item.tokens[idx]}</button>

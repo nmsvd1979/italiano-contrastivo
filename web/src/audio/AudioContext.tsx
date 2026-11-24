@@ -1,4 +1,4 @@
-import { createContext, type ReactNode, useContext } from "react";
+import { createContext, type ReactNode, useContext, useMemo } from "react";
 import type { ContentPack } from "../content/load";
 import { say, type SpeakResult } from "../ui/speech";
 import { type AudioIndex, audioIdFor } from "./clips";
@@ -27,4 +27,11 @@ export function useSay(text: string): { source: "native" | "clip" | "system"; pl
   const hasClip = !!clipId && !!ctx?.index.has(clipId);
   const nativeFile = ctx?.words.get(text);
   return { source: nativeFile ? "native" : hasClip ? "clip" : "system", play: (rate = 1) => say(text, { nativeFile, clipId, index: ctx?.index, rate }) };
+}
+
+/** La frase en español de una oración (por su id), si el paquete la tiene; `undefined` sin id, sin proveedor o sin esa oración. */
+export function useSpanishOf(sentenceId?: string): string | undefined {
+  const ctx = useContext(Ctx);
+  const byId = useMemo(() => new Map((ctx?.pack.sentences ?? []).map((x) => [x.id, x.es])), [ctx?.pack.sentences]);
+  return sentenceId ? byId.get(sentenceId) : undefined;
 }

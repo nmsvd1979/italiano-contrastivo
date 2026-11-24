@@ -21,7 +21,7 @@ export function WordRecall({ lexeme, onRate }: { lexeme: Lexeme & { gdiv?: boole
   const rating = override ? 3 : graded?.rating ?? 1;
   return (
     <div className="item">
-      <p>Escribe en italiano: <strong>«{lexeme.gloss_es}»</strong></p>
+      <div className="ask"><p className="eyebrow">Escribe en italiano</p><p className="es">{lexeme.gloss_es}</p></div>
       <input lang="it" aria-label="Tu respuesta" value={value} disabled={graded !== null} autoCapitalize="off" autoCorrect="off" spellCheck={false} style={{ width: "100%" }}
         onChange={(e) => setValue(e.target.value)} onKeyDown={(e) => { if (e.key === "Enter" && value.trim() && !graded) setGraded(gradeWord(value, lexeme.form, lexeme.art)); }} />
       {graded === null ? (

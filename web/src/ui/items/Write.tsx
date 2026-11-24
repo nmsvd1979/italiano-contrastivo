@@ -18,7 +18,7 @@ export function Write({ item, onAnswer, allowOverride = true }: { item: WriteIte
   const ok = graded?.result === "ok" || override;
   return (
     <div className="item">
-      <p>Escribe en italiano: «{item.source_es}»</p>
+      <div className="ask"><p className="eyebrow">Escribe en italiano</p><p className="es">{item.source_es}</p></div>
       <textarea lang="it" aria-label="Tu traducción" rows={2} value={value} disabled={graded !== null} autoCapitalize="off" autoCorrect="off" spellCheck={false}
         onChange={(e) => setValue(e.target.value)} />
       {graded === null ? (
