@@ -29,9 +29,9 @@ export function useSay(text: string): { source: "native" | "clip" | "system"; pl
   return { source: nativeFile ? "native" : hasClip ? "clip" : "system", play: (rate = 1) => say(text, { nativeFile, clipId, index: ctx?.index, rate }) };
 }
 
-/** La frase en español de una oración (por su id), si el paquete la tiene; `undefined` sin id, sin proveedor o sin esa oración. */
-export function useSpanishOf(sentenceId?: string): string | undefined {
+/** La frase (italiano y español) de una oración por su id, si el paquete la tiene; `undefined` sin id, sin proveedor o sin esa oración. */
+export function useSentenceOf(sentenceId?: string): { it: string; es: string } | undefined {
   const ctx = useContext(Ctx);
-  const byId = useMemo(() => new Map((ctx?.pack.sentences ?? []).map((x) => [x.id, x.es])), [ctx?.pack.sentences]);
+  const byId = useMemo(() => new Map((ctx?.pack.sentences ?? []).map((x) => [x.id, { it: x.it, es: x.es }])), [ctx?.pack.sentences]);
   return sentenceId ? byId.get(sentenceId) : undefined;
 }

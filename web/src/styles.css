@@ -266,6 +266,7 @@ ol.tl { list-style: none; padding: 0; margin: 14px 0; display: flex; flex-direct
 .feedback dl.cmp dd.answer { font-size: 21px; }
 .feedback dl.cmp del { color: var(--bad); text-decoration-thickness: 1.5px; }
 .feedback .why { margin: 4px 0 8px; font-size: 14.5px; }
+.feedback { max-height: 85dvh; overflow-y: auto; }
 .feedback a.button { min-height: 44px; }
 .feedback .acts { display: flex; gap: 12px; align-items: flex-start; justify-content: space-between; }
 .feedback .acts details { flex: 1; min-width: 0; }

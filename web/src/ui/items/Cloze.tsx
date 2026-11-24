@@ -27,7 +27,7 @@ export function Cloze({ item, onAnswer }: { item: ClozeItem; onAnswer: (correct:
           <button type="button" className="primary block" disabled={!value.trim()} onClick={() => setResult(item.answers.some((a) => norm(a) === norm(value)))}>Comprobar</button>
         </div>
       ) : (
-        <Feedback ok={result} answer={result ? undefined : <Marked segs={fillSegments(item.text, item.answers[0])} />}
+        <Feedback ok={result} answer={result ? undefined : <Marked segs={fillSegments(item.text, item.answers[0])} glue="" />}
           said={result ? undefined : `${before}${value.trim()}${after}`} onContinue={() => onAnswer(result)} />
       )}
     </div>
