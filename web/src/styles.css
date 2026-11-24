@@ -183,3 +183,15 @@ table.doc thead th { background: var(--card, #fff); }
 .tag[data-strand="foco"] { background: var(--s-form); }
 .tag[data-strand="salida"] { background: var(--s-out); }
 .tag[data-strand="fluidez"] { background: var(--s-flu); }
+
+/* Hoy rediseñado */
+.blocks li { gap: 10px; }
+.blocks .t { min-width: 0; }
+.stack { display: flex; height: 10px; border-radius: 6px; overflow: hidden; gap: 2px; margin: 6px 0; }
+.stack i { display: block; height: 100%; }
+.week-legend { margin: 4px 0; }
+details.how { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 10px 16px; margin: 12px 0; }
+details.how summary { cursor: pointer; font-weight: 600; min-height: 32px; }
+.actions-bottom .secondary { width: 100%; gap: 8px; margin: 0 auto 8px; }
+main.today { padding-bottom: calc(var(--tab-h) + 170px); }
+.actions-bottom .secondary .button { flex: 1; min-height: 40px; font-size: 14px; }

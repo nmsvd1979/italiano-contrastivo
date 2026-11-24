@@ -32,6 +32,13 @@ describe("sesión de hoy", () => {
     expect(total).toBeGreaterThanOrEqual(20 * 60);
     expect(total).toBeLessThanOrEqual(SESSION_BUDGET_SECONDS + 8 * 60);
   });
+  it("cada bloque lleva su hebra y su etiqueta", () => {
+    const b = sessionFor();
+    expect(b[0]).toMatchObject({ strand: "foco", label: "Repaso" });
+    expect(b[1]).toMatchObject({ strand: "foco", label: "Descubre" });
+    const m = sessionFor([]); // sin la Entrada hecha, hoy toca un paso propio del módulo
+    expect(m[1]).toMatchObject({ strand: "entrada", label: "Entrada" });
+  });
   it("los pasos hechos hoy aparecen como hechos y los demás continúan", () => {
     const u = markStep(emptyProgress(U1), "descubre", NOW);
     const d = { ...day, stepsDone: [`${U1}:descubre`] };

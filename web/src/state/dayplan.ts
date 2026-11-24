@@ -1,4 +1,5 @@
 import { STEP_LABEL, stepsFor } from "./course";
+import { STRAND_OF_STEP, type Strand } from "./strands";
 import { MODULE_STEP_LABEL, type ModuleStepId } from "./modules";
 import type { TodayPlan } from "./session";
 import type { DayProgress, StepId } from "./store";
@@ -19,7 +20,10 @@ export const BLOCK_OF_STEP: Record<StepId, BlockKey> = { descubre: "lectura", pa
 /** Qué bloque de la sesión trabaja cada paso propio de un módulo. */
 export const BLOCK_OF_MODULE_STEP: Record<ModuleStepId, BlockKey> = { entrada: "lectura", salida: "voz", fluidez: "voz", cierre: "gimnasio" };
 
-export type SessionBlock = { key: BlockKey; title: string; subtitle: string; seconds: number; href: string; done: boolean; step?: StepId };
+/** Hebra de cada paso propio de un módulo (el cierre es una prueba: produce). */
+export const STRAND_OF_MODULE_STEP: Record<ModuleStepId, Strand> = { entrada: "entrada", salida: "salida", fluidez: "fluidez", cierre: "salida" };
+
+export type SessionBlock = { key: BlockKey; strand: Strand; label: string; title: string; subtitle: string; seconds: number; href: string; done: boolean; step?: StepId };
 export const SESSION_BUDGET_SECONDS = 25 * 60;
 
 /**
@@ -31,20 +35,20 @@ export function planSession(input: { plan: TodayPlan; day: DayProgress; pack: Co
   const pending = plan.review.due + plan.review.newAvailable;
   const work = pending + plan.review.filler;
   const blocks: SessionBlock[] = [{
-    key: "repaso", title: BLOCKS.repaso.title, seconds: plan.review.seconds, href: "#/repaso", done: work === 0 || (day.reviewsDone > 0 && pending === 0),
+    key: "repaso", strand: "foco", label: "Repaso", title: BLOCKS.repaso.title, seconds: plan.review.seconds, href: "#/repaso", done: work === 0 || (day.reviewsDone > 0 && pending === 0),
     subtitle: pending > 0 ? `Tienes ${pending} para repasar${plan.review.filler ? " + práctica de unidades anteriores" : ""}` : plan.review.filler ? "Práctica de recuperación de unidades anteriores" : "No tienes repasos pendientes ahora.",
   }];
   const unit = plan.unit?.view.unit;
   if (!unit && plan.module) {   // la sesión del día es un paso propio del módulo (Entrada, Salida, Fluidez o Cierre)
     const { view, step, seconds } = plan.module;
-    blocks.push({ key: BLOCK_OF_MODULE_STEP[step], title: BLOCKS[BLOCK_OF_MODULE_STEP[step]].title, subtitle: `Módulo ${view.index + 1} · ${MODULE_STEP_LABEL[step]}`, seconds, href: `#/modulo/${view.module.id}/${step}`, done: false });
+    blocks.push({ key: BLOCK_OF_MODULE_STEP[step], strand: STRAND_OF_MODULE_STEP[step], label: MODULE_STEP_LABEL[step], title: BLOCKS[BLOCK_OF_MODULE_STEP[step]].title, subtitle: `Módulo ${view.index + 1} · ${MODULE_STEP_LABEL[step]}`, seconds, href: `#/modulo/${view.module.id}/${step}`, done: false });
     return blocks;
   }
   if (!unit || !plan.unit) return blocks;
   const doneToday = new Set(day.stepsDone ?? []);
   const doneSteps = stepsFor(unit).filter((s) => doneToday.has(`${unit.id}:${s}`) && plan.unit!.view.progress.done[s]);
   for (const step of doneSteps) {
-    blocks.push({ key: BLOCK_OF_STEP[step], step, title: BLOCKS[BLOCK_OF_STEP[step]].title, subtitle: `${STEP_LABEL[step]} · hecho`, seconds: stepSeconds(unit, step, pack, samples), href: `#/unidad/${unit.id}/${step}`, done: true });
+    blocks.push({ key: BLOCK_OF_STEP[step], strand: STRAND_OF_STEP[step], label: STEP_LABEL[step], step, title: BLOCKS[BLOCK_OF_STEP[step]].title, subtitle: "Hecho hoy", seconds: stepSeconds(unit, step, pack, samples), href: `#/unidad/${unit.id}/${step}`, done: true });
   }
   let total = plan.review.seconds + blocks.filter((b) => b.done && b.key !== "repaso").reduce((t, b) => t + b.seconds, 0);
   const steps = stepsFor(unit);
@@ -53,7 +57,7 @@ export function planSession(input: { plan: TodayPlan; day: DayProgress; pack: Co
     if (plan.unit.view.progress.done[step]) continue;
     const seconds = stepSeconds(unit, step, pack, samples);
     if (total > 0 && total + seconds > SESSION_BUDGET_SECONDS + 5 * 60 && blocks.some((b) => !b.done && b.key !== "repaso")) break;
-    blocks.push({ key: BLOCK_OF_STEP[step], step, title: BLOCKS[BLOCK_OF_STEP[step]].title, subtitle: STEP_LABEL[step], seconds, href: `#/unidad/${unit.id}/${step}`, done: false });
+    blocks.push({ key: BLOCK_OF_STEP[step], strand: STRAND_OF_STEP[step], label: STEP_LABEL[step], step, title: BLOCKS[BLOCK_OF_STEP[step]].title, subtitle: "", seconds, href: `#/unidad/${unit.id}/${step}`, done: false });
     total += seconds;
     if (total >= SESSION_BUDGET_SECONDS) break;
   }
