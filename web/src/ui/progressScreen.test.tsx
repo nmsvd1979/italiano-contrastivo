@@ -26,10 +26,18 @@ describe("pantalla Progreso", () => {
     expect(screen.getByText(`0 de ${TOTAL}`)).toBeTruthy();
     expect(screen.getByText(/Cuando estudies, aquí verás tu constancia/)).toBeTruthy();
   });
-  it("un módulo completado (también por ubicación) cuenta sus «sé hacer» como probados", () => {
-    show(mods[0].units.map(placed));
+  it("un módulo completado con la prueba de cierre se rotula «módulo completado»", () => {
+    const cierre: UnitProgress = { ...emptyProgress(moduleProgressId(mods[0].id)), completed: true, done: { cierre: "x" } };
+    const units = [...mods[0].units.map((id) => ({ ...emptyProgress(id), completed: true, testBest: 1, mastery: "prueba" as const })), cierre];
+    show(units);
     expect(screen.getByText(`${mods[0].can_do_es.length} de ${TOTAL}`)).toBeTruthy();
-    expect(screen.getAllByText("probado")).toHaveLength(mods[0].can_do_es.length);
+    expect(screen.getAllByText("módulo completado (prueba de cierre)")).toHaveLength(mods[0].can_do_es.length);
+  });
+  it("un módulo saltado por la prueba de ubicación se rotula como tal, no como completado", () => {
+    show(mods[0].units.map(placed));
+    expect(screen.getAllByText("módulo saltado por la prueba de ubicación")).toHaveLength(mods[0].can_do_es.length);
+    expect(screen.queryByText("módulo completado (prueba de cierre)")).toBeNull();
+    expect(screen.queryByText("probado")).toBeNull();
   });
   it("lo que marcaste en un módulo en curso aparece como «marcado por ti» y ese módulo viene desplegado", () => {
     const entrada: UnitProgress = { ...emptyProgress(moduleProgressId(mods[0].id)), done: { entrada: "x", [canDoKey(mods[0].can_do_es[0])]: "x" } };
@@ -56,6 +64,7 @@ describe("pantalla Progreso", () => {
     show();
     expect(screen.getByText(/autoevaluación/)).toBeTruthy();
     expect(screen.getByText(/hablante nativo/)).toBeTruthy();
+    expect(screen.getByText(/pronunciación/)).toBeTruthy();   // la prueba de cierre no la evalúa
     expect(screen.getByText(/Lo que más te cuesta/)).toBeTruthy();
   });
   it("Ajustes y Acerca de siguen y se pueden tocar (≥ 44 px)", () => {
@@ -63,5 +72,17 @@ describe("pantalla Progreso", () => {
     expect(screen.getByText("Ajustes").closest("a")?.getAttribute("href")).toBe("#/ajustes");
     expect(screen.getByText("Ajustes").classList.contains("tap")).toBe(true);
     expect(screen.getByText(/Acerca de la app/).closest("a")?.classList.contains("tap")).toBe(true);
+  });
+  it("sin tiempo medido no dice «menos de 1 min en total»", () => {
+    show([], [day("2026-11-10", { reviewsDone: 2 }), day("2026-11-11", { stepsDone: ["u01:descubre"] })]);
+    expect(screen.getByText("2 días de estudio")).toBeTruthy();
+    expect(screen.queryByText(/en total/)).toBeNull();
+  });
+});
+
+describe("casillas del Cierre", () => {
+  const css = readFileSync(`${process.cwd()}/src/styles.css`, "utf8");
+  it("cada «sé hacer» se puede tocar (≥ 44 px)", () => {
+    expect(Number(css.match(/ul\.options label\s*\{[^}]*min-height:\s*(\d+)px/)?.[1] ?? 0)).toBeGreaterThanOrEqual(44);
   });
 });

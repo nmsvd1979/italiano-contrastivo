@@ -6,7 +6,7 @@ import type { Seconds } from "../state/strands";
 import { WeekCard } from "./WeekCard";
 
 const DOW = ["L", "M", "X", "J", "V", "S", "D"];
-const LABEL = { probado: "probado", marcado: "marcado por ti", pendiente: "pendiente" } as const;
+const LABEL = { completado: "módulo completado (prueba de cierre)", saltado: "módulo saltado por la prueba de ubicación", marcado: "marcado por ti", pendiente: "pendiente" } as const;
 
 function total(seconds: number): string {
   const min = Math.round(seconds / 60);
@@ -42,14 +42,14 @@ export function ProgressScreen({ week, days, today, modules }: { week: Seconds; 
               </details>
             );
           })}
-          <p><small>«Marcado por ti» es una autoevaluación; «probado» viene de la prueba de cierre del módulo o de la de ubicación. Ninguna es una verificación de un hablante nativo.</small></p>
+          <p><small>«Marcado por ti» es una autoevaluación. «Módulo completado» viene de la prueba de cierre: hasta 12 frases escritas que no evalúan cada punto ni la pronunciación. «Saltado» viene de la prueba de ubicación, que es de reconocimiento. Ninguna es una verificación de un hablante nativo.</small></p>
         </section>
       )}
       <section aria-label="Constancia">
         <h2>Últimas 4 semanas</h2>
         {cal.studiedDays === 0
           ? <p><small>Cuando estudies, aquí verás tu constancia.</small></p>
-          : <p><b>{cal.studiedDays} {cal.studiedDays === 1 ? "día" : "días"} de estudio · {total(cal.seconds)} en total</b></p>}
+          : <p><b>{cal.studiedDays} {cal.studiedDays === 1 ? "día" : "días"} de estudio{cal.seconds > 0 ? ` · ${total(cal.seconds)} en total` : ""}</b></p>}
         <div className="cal" aria-hidden="true">
           {DOW.map((l) => <span key={l} className="dow">{l}</span>)}
           {cal.cells.map((c) => <i key={c.date} data-level={c.level} data-future={c.future ? "true" : undefined} />)}

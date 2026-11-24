@@ -4,8 +4,8 @@ import { canDoKey, canDoSummary, setCanDo } from "./cando";
 import { emptyProgress } from "./course";
 
 const NOW = new Date("2026-11-24T12:00:00.000Z");
-const mod = (id: string, index: number, state: ModuleView["state"], can: string[], done: Record<string, string> = {}): ModuleView =>
-  ({ module: { id, title: `Módulo ${id}`, can_do_es: can }, index, state, progress: { ...emptyProgress(`mod:${id}`), done } }) as unknown as ModuleView;
+const mod = (id: string, index: number, state: ModuleView["state"], can: string[], done: Record<string, string> = {}, byPlacement = false): ModuleView =>
+  ({ module: { id, title: `Módulo ${id}`, can_do_es: can }, index, state, byPlacement, progress: { ...emptyProgress(`mod:${id}`), done } }) as unknown as ModuleView;
 
 describe("claves de «sé hacer»", () => {
   it("son estables y distintas para textos distintos", () => {
@@ -26,11 +26,16 @@ describe("claves de «sé hacer»", () => {
 });
 
 describe("resumen de «sé hacer»", () => {
-  it("un módulo completado da por probados todos sus «sé hacer», aunque no estén marcados (también por ubicación)", () => {
+  it("un módulo completado con la prueba de cierre da por «completados» sus «sé hacer», aunque no estén marcados", () => {
     const s = canDoSummary([mod("m01", 0, "completed", ["a", "b"])]);
     expect(s.known).toBe(2);
     expect(s.total).toBe(2);
-    expect(s.groups[0].items.map((i) => i.state)).toEqual(["probado", "probado"]);
+    expect(s.groups[0].items.map((i) => i.state)).toEqual(["completado", "completado"]);
+  });
+  it("un módulo saltado por la prueba de ubicación se distingue: «saltado», no «completado»", () => {
+    const s = canDoSummary([mod("m01", 0, "completed", ["a", "b"], {}, true)]);
+    expect(s.groups[0].items.map((i) => i.state)).toEqual(["saltado", "saltado"]);
+    expect(s.known).toBe(2);
   });
   it("en un módulo en curso cuentan solo las marcadas por ti", () => {
     const s = canDoSummary([mod("m02", 1, "current", ["a", "b", "c"], { [canDoKey("b")]: NOW.toISOString() })]);

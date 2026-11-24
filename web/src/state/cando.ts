@@ -15,12 +15,13 @@ export function setCanDo(p: UnitProgress, text: string, on: boolean, now: Date):
   return { ...p, done: on ? { ...rest, [key]: now.toISOString() } : rest };
 }
 
-export type CanDoItem = { text: string; state: "probado" | "marcado" | "pendiente" };
+export type CanDoItem = { text: string; state: "completado" | "saltado" | "marcado" | "pendiente" };
 export type CanDoGroup = { moduleId: string; title: string; index: number; state: ModuleView["state"]; items: CanDoItem[] };
 
 /**
- * Lo que ya sabes hacer: «probado» si el módulo está completado (prueba de cierre ≥ 80 % o prueba de ubicación), «marcado» si lo marcaste tú
- * en el Cierre (autoevaluación) y «pendiente» si no. `known` suma probados y marcados.
+ * Lo que ya sabes hacer. «Completado»: el módulo se completó con la prueba de cierre (hasta 12 frases escritas, ≥ 80 %); no evalúa cada punto
+ * ni la pronunciación. «Saltado»: el módulo se dio por hecho con la prueba de ubicación (de reconocimiento). «Marcado»: lo marcaste tú en el
+ * Cierre (autoevaluación). `known` suma todos menos los pendientes.
  */
 export function canDoSummary(modules: ModuleView[]): { known: number; total: number; groups: CanDoGroup[] } {
   const groups: CanDoGroup[] = [];
@@ -28,7 +29,7 @@ export function canDoSummary(modules: ModuleView[]): { known: number; total: num
   for (const m of modules) {
     if (!m.module.can_do_es.length) continue;
     const items = m.module.can_do_es.map((text): CanDoItem => ({
-      text, state: m.state === "completed" ? "probado" : m.progress.done[canDoKey(text)] ? "marcado" : "pendiente",
+      text, state: m.state === "completed" ? (m.byPlacement ? "saltado" : "completado") : m.progress.done[canDoKey(text)] ? "marcado" : "pendiente",
     }));
     known += items.filter((i) => i.state !== "pendiente").length;
     total += items.length;
