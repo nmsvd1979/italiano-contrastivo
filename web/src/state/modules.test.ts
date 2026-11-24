@@ -96,3 +96,29 @@ describe("módulos: salida y prueba de cierre", () => {
     expect(M2.units).toContain("u14");
   });
 });
+
+describe("Salida: todos los juegos de rol y tareas orales", () => {
+  const m = pack.course.modules!.find((x) => x.roleplays.length + x.tasks.length >= 2)!;
+  const p = (done: Record<string, string> = {}) => ({ ...emptyProgress(moduleProgressId(m.id)), done });
+  it("la parte hablada falta hasta que se marca cada práctica del módulo", async () => {
+    const { hablaKey, hablaMissing } = await import("./modules");
+    const items = [...m.roleplays, ...m.tasks];
+    expect(hablaMissing(m, p())).toEqual(items);
+    expect(hablaMissing(m, p({ [hablaKey(items[0])]: "x" }))).toEqual(items.slice(1));
+    expect(hablaMissing(m, p(Object.fromEntries(items.map((id) => [hablaKey(id), "x"]))))).toEqual([]);
+  });
+  it("la marca general de antes (`salida:habla`) sigue valiendo", async () => {
+    const { hablaMissing } = await import("./modules");
+    expect(hablaMissing(m, p({ [salidaKey("habla")]: "x" }))).toEqual([]);
+  });
+  it("finishSalidaPart con una práctica no completa la parte hasta tenerlas todas", async () => {
+    const { finishSalidaPart } = await import("./progress");
+    const { memoryStore } = await import("./store");
+    const store = memoryStore();
+    const items = [...m.roleplays, ...m.tasks];
+    let prog = await finishSalidaPart(store, m, "habla", new Date(), items[0]);
+    expect(prog.done[salidaKey("habla")]).toBeUndefined();
+    for (const id of items.slice(1)) prog = await finishSalidaPart(store, m, "habla", new Date(), id);
+    expect(prog.done[salidaKey("habla")]).toBeDefined();
+  });
+});

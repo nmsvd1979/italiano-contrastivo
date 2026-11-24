@@ -7,6 +7,7 @@ import type { Seconds } from "../state/strands";
 import { totalSeconds } from "../state/strands";
 import { DAILY_MIN_SECONDS } from "../state/targets";
 import { Icon } from "./kit/Icon";
+import { ModuleStrip } from "./kit/ModuleStrip";
 import { Tag } from "./kit/Tag";
 import { WeekBar } from "./kit/WeekBar";
 
@@ -20,6 +21,7 @@ export function nextAction(plan: TodayPlan, refuerzoPending = false): { href: st
   if (refuerzoPending) return { href: "#/debiles", label: "Refuerzo" };
   if (plan.unit) return { href: `#/unidad/${plan.unit.view.unit.id}/${plan.unit.step}`, label: STEP_LABEL[plan.unit.step] };
   if (plan.module) return { href: `#/modulo/${plan.module.view.module.id}/${plan.module.step}`, label: MODULE_STEP_LABEL[plan.module.step] };
+  if (plan.milestone && !plan.milestone.passed) return { href: `#/hito/${plan.milestone.level}`, label: `Examen de hito ${plan.milestone.level}` };
   if (pending + plan.review.filler > 0) return { href: "#/repaso", label: "Repaso" };
   return { href: "#/ruta", label: "Ver la ruta" };
 }
@@ -64,18 +66,27 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, 
       <div className="hero">
         {unit ? (
           <>
-            <div className="eyebrow">{plan.place ? `${plan.place.level} · Módulo ${plan.place.module}${plan.place.capsule ? ` · Cápsula ${plan.place.capsule} de ${plan.place.capsules}` : ""}` : `${unit.view.unit.level} · Unidad ${unit.view.index + 1} de ${route.total}`}</div>
+            <div className="eyebrow">{plan.place ? `${plan.place.level} · Módulo ${plan.place.module} de ${plan.place.modules}${plan.place.capsule ? ` · Cápsula ${plan.place.capsule} de ${plan.place.capsules}` : ""}` : `${unit.view.unit.level} · Unidad ${unit.view.index + 1} de ${route.total}`}</div>
             <div className="title" lang="it">{unit.view.unit.title}</div>
           </>
         ) : plan.module ? (
           <>
-            <div className="eyebrow">{plan.module.view.module.level} · Módulo {plan.module.view.index + 1}</div>
+            <div className="eyebrow">{plan.module.view.module.level} · Módulo {plan.module.view.index + 1}{plan.place ? ` de ${plan.place.modules}` : ""}</div>
             <div className="title">{plan.module.view.module.title}</div>
             <p><small>Ahora: {MODULE_STEP_LABEL[plan.module.step]}</small></p>
           </>
+        ) : plan.milestone && !plan.milestone.passed ? (
+          <>
+            <div className="eyebrow">{plan.milestone.level} · Último paso</div>
+            <div className="title">Examen de hito {plan.milestone.level}</div>
+            <p><small>Completaste los módulos. Ahora la prueba de todo el nivel.</small></p>
+          </>
+        ) : plan.milestone ? (
+          <div className="title">{plan.milestone.level} completo. El siguiente nivel está en construcción. <a href="#/ruta">Ver la ruta</a></div>
         ) : (
           <div className="title">Completaste todas las unidades disponibles. <a href="#/ruta">Ver la ruta</a></div>
         )}
+        {plan.place && <ModuleStrip view={plan.place.view} />}
         {blocks && (
           <ul className="blocks">
             {blocks.map((b, i) => (

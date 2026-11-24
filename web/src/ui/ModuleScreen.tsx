@@ -1,12 +1,12 @@
 import type { ContentPack } from "../content/load";
 import { STEP_LABEL, stepsFor } from "../state/course";
-import { MODULE_STEP_LABEL, MODULE_STEP_SECONDS, type ModuleNext, type ModuleStepId, type ModuleView, salidaKey, salidaMissing } from "../state/modules";
+import { MODULE_STEP_LABEL, MODULE_STEP_SECONDS, type ModuleNext, type ModuleStepId, type ModuleView, hablaMissing, salidaKey, salidaMissing, textosMissing } from "../state/modules";
 import { stepSeconds } from "../state/steps";
 import type { Strand } from "../state/strands";
 import { formatDuration, loadSamples, type Samples } from "../state/timing";
 import { Tag } from "./kit/Tag";
 
-const STRAND_OF: Record<ModuleNext, Strand> = { entrada: "entrada", capsulas: "foco", salida: "salida", fluidez: "fluidez", cierre: "salida" };
+const STRAND_OF: Record<ModuleNext, Strand> = { entrada: "entrada", capsulas: "foco", textos: "entrada", salida: "salida", fluidez: "fluidez", cierre: "salida" };
 const STATE_TEXT = { done: "hecho", current: "toca ahora", todo: "pendiente" } as const;
 
 /** Qué hace el botón fijo del módulo: ir directo al paso que toca (el de la cápsula en curso, o el propio del módulo). Null si no hay nada que hacer ahora. */
@@ -20,7 +20,7 @@ export function moduleAction(view: ModuleView, pack: ContentPack, samples: Sampl
   return { href: `#/modulo/${view.module.id}/${view.next}`, label: `${MODULE_STEP_LABEL[view.next]} · ${formatDuration(MODULE_STEP_SECONDS[view.next as ModuleStepId])}` };
 }
 
-/** Un módulo: lo que sabrás hacer y sus cinco etapas (Entrada, Cápsulas, Salida, Fluidez, Cierre) como línea de tiempo. */
+/** Un módulo: lo que sabrás hacer y sus etapas (Entrada, Cápsulas, Textos reales si los tiene, Salida, Fluidez, Cierre) como línea de tiempo. */
 export function ModuleScreen({ view, pack }: { view: ModuleView; pack: ContentPack }) {
   const { module } = view;
   const samples = loadSamples();
@@ -54,8 +54,9 @@ export function ModuleScreen({ view, pack }: { view: ModuleView; pack: ContentPa
                   : <div className="row">{head}</div>}
                 <small>{s.id === "capsulas" ? `${capsulesDone} de ${view.units.length} cápsulas` : formatDuration(secs)}{s.done && s.id !== "capsulas" ? " · repetir" : ""}</small>
                 {s.id === "entrada" && entry && <small lang="it">Texto: «{entry.title}»</small>}
+                {s.id === "textos" && !s.done && <small>{(module.extra_readings ?? []).length - textosMissing(module, view.progress).length} de {(module.extra_readings ?? []).length} textos leídos</small>}
                 {s.id === "salida" && !s.done && (
-                  <small>{salidaMissing(module, view.progress).length === 0 ? "Listo." : `Falta: ${salidaMissing(module, view.progress).map((k) => (k === "habla" ? "una práctica hablada" : "un mensaje escrito tuyo")).join(" y ")}.`}
+                  <small>{salidaMissing(module, view.progress).length === 0 ? "Listo." : `Falta: ${salidaMissing(module, view.progress).map((k) => (k === "habla" ? (hablaMissing(module, view.progress).length === 1 ? "una práctica hablada" : `${hablaMissing(module, view.progress).length} prácticas habladas`) : "un mensaje escrito tuyo")).join(" y ")}.`}
                     {part("habla") ? " Hablada ✓." : ""}{part("escritura") ? " Escrita ✓." : ""}</small>
                 )}
                 {s.id === "capsulas" && (
@@ -90,18 +91,6 @@ export function ModuleScreen({ view, pack }: { view: ModuleView; pack: ContentPa
         <summary>Al terminar sabrás</summary>
         <ul>{module.can_do_es.map((c) => <li key={c}>{c}</li>)}</ul>
       </details>
-      {(module.extra_readings ?? []).length > 0 && (
-        <details className="how" aria-label="Textos reales para leer">
-          <summary>Textos para leer (opcional)</summary>
-          <p><small>Documentos y mensajes como los que verás de verdad. Léelos sin traducción y responde las preguntas.</small></p>
-          <ul>
-            {module.extra_readings!.map((id) => {
-              const r = (pack.readings ?? []).find((x) => x.id === id);
-              return r ? <li key={id}><a href={`#/modulo/${module.id}/texto/${id}`} lang="it">{r.title}</a>{r.authored ? <small> · escrito por la IA</small> : null}</li> : null;
-            })}
-          </ul>
-        </details>
-      )}
       {view.progress.testBest !== null && <p><small>Mejor nota en la prueba de cierre: {Math.round(view.progress.testBest * 100)} %.</small></p>}
       {action && (
         <div className="actions-bottom above-tabs">

@@ -1,5 +1,5 @@
 import type { Course, CourseModule } from "../content/load";
-import { emptyProgress, unitViews, type UnitView } from "./course";
+import { emptyProgress, isOptional, unitViews, type UnitView } from "./course";
 import { isPreview } from "./preview";
 import type { Item } from "../generated/item";
 import type { ContentPack } from "../content/load";
@@ -11,13 +11,14 @@ import { testItems } from "./steps";
  * Orden dentro del módulo: Entrada → Cápsulas → Salida → Fluidez → Cierre. El progreso de los pasos del módulo se guarda
  * en el mismo almacén de unidades con el id `mod:<id>` (como `hito:A1`).
  */
-export type ModuleStepId = "entrada" | "salida" | "fluidez" | "cierre";
-export const MODULE_STEPS: ModuleStepId[] = ["entrada", "salida", "fluidez", "cierre"];
+export type ModuleStepId = "entrada" | "textos" | "salida" | "fluidez" | "cierre";
+export const MODULE_STEPS: ModuleStepId[] = ["entrada", "textos", "salida", "fluidez", "cierre"];
 export type ModuleNext = ModuleStepId | "capsulas";
-export const MODULE_STEP_LABEL: Record<ModuleNext, string> = { entrada: "Entrada", capsulas: "Cápsulas", salida: "Salida", fluidez: "Fluidez", cierre: "Cierre" };
+export const MODULE_STEP_LABEL: Record<ModuleNext, string> = { entrada: "Entrada", capsulas: "Cápsulas", textos: "Textos reales", salida: "Salida", fluidez: "Fluidez", cierre: "Cierre" };
 export const MODULE_STEP_PURPOSE: Record<ModuleNext, string> = {
   entrada: "Un diálogo o texto real de la situación: léelo, escúchalo y entiende la idea antes de estudiar los detalles.",
   capsulas: "Las unidades del módulo, una por una: cada cápsula trabaja un punto y trae su práctica y su prueba.",
+  textos: "Documentos y mensajes de la vida real (carteles, menús, horarios…): se leen sin traducción y se responden. Solo en los módulos que los tienen.",
   salida: "Usa lo aprendido: juego de roles, tarea oral y un mensaje escrito tuyo. Aquí se pasa de reconocer a producir.",
   fluidez: "Relee y reescucha lo que ya conoces, cada vez más rápido y con menos apoyo.",
   cierre: "Marca lo que ya sabes hacer y haz la prueba mezclada del módulo (80 % o más para completarlo).",
@@ -66,7 +67,7 @@ export function moduleViews(course: Course, all: UnitProgress[], unlockAll: bool
     const completed = byPlacement || progress.completed;
     const unlocked = unlockAll || previousDone;
     const done = (id: ModuleNext) => (id === "capsulas" ? capsulasDone : !!progress.done[id as ModuleStepId]) || completed;
-    const order: ModuleNext[] = ["entrada", "capsulas", "salida", "fluidez", "cierre"];
+    const order: ModuleNext[] = ["entrada", "capsulas", ...((module.extra_readings ?? []).length > 0 ? ["textos" as const] : []), "salida", "fluidez", "cierre"];   // «Textos reales» solo en los módulos que traen textos
     const required = (id: ModuleNext) => id !== "entrada" || entradaGates || !!progress.done.entrada;   // si ya empezaste unidades, la Entrada es recomendada pero no bloquea
     const steps = order.map((id, i) => ({ id, done: done(id), open: unlockAll || (unlocked && (completed || order.slice(0, i).filter(required).every(done))) }));
     const state: ModuleState = completed ? "completed" : unlocked ? "current" : "locked";
@@ -79,6 +80,9 @@ export function moduleViews(course: Course, all: UnitProgress[], unlockAll: bool
     }
     previousDone = completed;
   });
+  // Con módulos definidos, una unidad que no está en ninguno (A2, B1…) no se ofrece: la ruta es el único camino. Las opcionales («A1+») siguen libres.
+  const inModule = new Set(modules.flatMap((m) => m.units));
+  if (!unlockAll) for (const v of base) if (!inModule.has(v.unit.id) && !v.progress.completed && !isOptional(v.unit)) replaced.set(v.unit.id, { ...v, state: "locked", next: null });
   // Tras bloquear unidades hay que mantener la regla «una sola unidad actual por cadena»: si la actual quedó bloqueada, ninguna otra del núcleo se abre.
   const units = base.map((v) => replaced.get(v.unit.id) ?? v);
   const firstLockedCurrent = base.findIndex((v) => replaced.has(v.unit.id) && v.state === "current" && !v.unit.level.endsWith("+"));
@@ -104,11 +108,20 @@ export const markModuleStep = (p: UnitProgress, step: ModuleStepId, now: Date): 
 export const moduleSummary = (views: ModuleView[]) => ({ done: views.filter((m) => m.state === "completed").length, total: views.length });
 
 /** Duración orientativa de cada paso del módulo (el resto se mide con tiempo real). */
-export const MODULE_STEP_SECONDS: Record<ModuleStepId, number> = { entrada: 8 * 60, salida: 18 * 60, fluidez: 6 * 60, cierre: 10 * 60 };
+export const MODULE_STEP_SECONDS: Record<ModuleStepId, number> = { entrada: 8 * 60, textos: 6 * 60, salida: 18 * 60, fluidez: 6 * 60, cierre: 10 * 60 };
+
+/** Marca de un texto real leído, en el progreso del módulo (`done`); el paso «Textos reales» se completa con todas. */
+export const textoKey = (id: string) => `texto:${id}`;
+export const textosMissing = (m: CourseModule, p: UnitProgress): string[] => (m.extra_readings ?? []).filter((id) => !p.done[textoKey(id)]);
 
 /** Partes de la Salida: al menos una práctica hablada (juego de roles o tarea oral, si el módulo la tiene) y un mensaje escrito tuyo. */
 export type SalidaPart = "habla" | "escritura";
 export const salidaKey = (part: SalidaPart | string) => `salida:${part}`;
+/** Cada juego de rol o tarea oral del módulo tiene su marca; la parte «habla» se da por hecha (`salida:habla`) cuando están todas. */
+export const hablaKey = (itemId: string) => `salida:habla:${itemId}`;
+export const hablaItems = (m: CourseModule): string[] => [...m.roleplays, ...m.tasks];
+/** Juegos de rol y tareas orales que faltan (con la marca general `salida:habla` de antes, ninguno). */
+export const hablaMissing = (m: CourseModule, p: UnitProgress): string[] => (p.done[salidaKey("habla")] ? [] : hablaItems(m).filter((id) => !p.done[hablaKey(id)]));
 export function salidaMissing(m: CourseModule, p: UnitProgress): SalidaPart[] {
   const speaks = m.roleplays.length + m.tasks.length > 0;
   const out: SalidaPart[] = [];

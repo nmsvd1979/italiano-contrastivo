@@ -40,6 +40,8 @@ describe("Hoy: la sesión", () => {
   });
 });
 
+const moduleView = { module: { id: "m03", level: "A1", title: "Presentarte" }, index: 2, state: "current", units: [], progress: {}, next: "capsulas", byPlacement: false, steps: [{ id: "entrada", done: true, open: true }, { id: "capsulas", done: false, open: true }, { id: "salida", done: false, open: false }] } as unknown as import("../state/modules").ModuleView;
+
 describe("Hoy: referencia diaria y plan por contenido", () => {
   it("no hay «Solo N min», «Elegir otra cosa» ni minutos por fila", () => {
     render(<TodayScreen plan={plan({}, 6)} day={day()} blocks={[block({ seconds: 180 }), block({ key: "lectura", step: "descubre", label: "Descubre", seconds: 420, href: "#/unidad/u01/descubre" })]} />);
@@ -74,8 +76,9 @@ describe("Hoy: referencia diaria y plan por contenido", () => {
   });
   it("el encabezado dice módulo y cápsula i de k", () => {
     const unit = { view: { unit: { id: "u02", level: "A1", title: "Ser y estar" }, index: 1 }, step: "practica", seconds: 600 } as unknown as TodayPlan["unit"];
-    render(<TodayScreen plan={plan({ unit, place: { level: "A1", module: 3, title: "Presentarte", capsule: 2, capsules: 5 } })} day={day()} />);
-    expect(screen.getByText("A1 · Módulo 3 · Cápsula 2 de 5")).toBeTruthy();
+    render(<TodayScreen plan={plan({ unit, place: { level: "A1", module: 3, modules: 12, title: "Presentarte", capsule: 2, capsules: 5, view: moduleView } })} day={day()} />);
+    expect(screen.getByText("A1 · Módulo 3 de 12 · Cápsula 2 de 5")).toBeTruthy();
+    expect(screen.getByRole("list", { name: "Etapas del módulo" })).toBeTruthy();
   });
 });
 

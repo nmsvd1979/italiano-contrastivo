@@ -19,10 +19,10 @@ export const BLOCKS: Record<BlockKey, { n: string; title: string; color: string 
 export const BLOCK_OF_STEP: Record<StepId, BlockKey> = { descubre: "lectura", palabras: "repaso", lectura: "lectura", capsula: "gimnasio", practica: "gimnasio", escucha: "voz", practica2: "gimnasio", prueba: "gimnasio" };
 
 /** Qué bloque de la sesión trabaja cada paso propio de un módulo. */
-export const BLOCK_OF_MODULE_STEP: Record<ModuleStepId, BlockKey> = { entrada: "lectura", salida: "voz", fluidez: "voz", cierre: "gimnasio" };
+export const BLOCK_OF_MODULE_STEP: Record<ModuleStepId, BlockKey> = { entrada: "lectura", textos: "lectura", salida: "voz", fluidez: "voz", cierre: "gimnasio" };
 
 /** Hebra de cada paso propio de un módulo (el cierre es una prueba: produce). */
-export const STRAND_OF_MODULE_STEP: Record<ModuleStepId, Strand> = { entrada: "entrada", salida: "salida", fluidez: "fluidez", cierre: "salida" };
+export const STRAND_OF_MODULE_STEP: Record<ModuleStepId, Strand> = { entrada: "entrada", textos: "entrada", salida: "salida", fluidez: "fluidez", cierre: "salida" };
 
 export type SessionBlock = { key: BlockKey; strand: Strand; label: string; title: string; subtitle: string; seconds: number; href: string; done: boolean; step?: StepId };
 
@@ -57,6 +57,10 @@ export function planSession(input: { plan: TodayPlan; day: DayProgress; pack: Co
   if (!unit && plan.module) {   // la sesión del día es un paso propio del módulo (Entrada, Salida, Fluidez o Cierre)
     const { view, step, seconds } = plan.module;
     blocks.push({ key: BLOCK_OF_MODULE_STEP[step], strand: STRAND_OF_MODULE_STEP[step], label: MODULE_STEP_LABEL[step], title: BLOCKS[BLOCK_OF_MODULE_STEP[step]].title, subtitle: `Módulo ${view.index + 1} · ${MODULE_STEP_LABEL[step]}`, seconds, href: `#/modulo/${view.module.id}/${step}`, done: false });
+    return blocks;
+  }
+  if (!unit && plan.milestone && !plan.milestone.passed) {   // todos los módulos hechos: el siguiente tramo del camino es el examen de hito
+    blocks.push({ key: "gimnasio", strand: "salida", label: `Examen de hito ${plan.milestone.level}`, title: BLOCKS.gimnasio.title, subtitle: "La prueba de todo el nivel", seconds: 30 * 60, href: `#/hito/${plan.milestone.level}`, done: false });
     return blocks;
   }
   if (!unit || !plan.unit) return blocks;

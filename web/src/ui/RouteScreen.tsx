@@ -60,7 +60,7 @@ export function RouteScreen({ views, pack, hito, modules = [] }: { views: UnitVi
         <small>
           {v.state === "completed" ? `Completada${v.progress.mastery === "ubicacion" ? " (por la prueba de ubicación)" : ""}`
             : v.state === "current" ? `${isOptional(v.unit) ? "Opcional, empieza cuando quieras" : "Siguiente"}: ${STEP_LABEL[v.next ?? "descubre"]}`
-            : isOptional(v.unit) ? "Opcional: se abre al completar la anterior de este bloque" : "Se abre al completar la anterior"}
+            : isOptional(v.unit) ? "Opcional: se abre al completar la anterior de este bloque" : "En construcción: se abre cuando termines el nivel anterior"}
         </small>
       </span>
     </li>

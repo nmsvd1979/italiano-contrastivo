@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import type { ContentPack, CourseModule, RolePlay, SpeakingTask } from "../content/load";
 import { canDoKey, setCanDo } from "../state/cando";
 import { emptyProgress } from "../state/course";
-import { finishModuleStep, finishModuleTest, finishSalidaPart } from "../state/progress";
-import { type ModuleStepId, type ModuleView, MODULE_STEP_LABEL, moduleProgressId, moduleTestItems, moduleViews, salidaKey, salidaMissing } from "../state/modules";
+import { finishModuleStep, finishModuleTest, finishModuleText, finishSalidaPart } from "../state/progress";
+import { type ModuleStepId, type ModuleView, MODULE_STEP_LABEL, moduleProgressId, moduleTestItems, moduleViews, hablaKey, hablaMissing, salidaKey, salidaMissing, textoKey } from "../state/modules";
 import type { Store } from "../state/store";
 import { fromItems, ItemRunner, type RunResult } from "./ItemRunner";
 import { Ring } from "./kit/Ring";
@@ -14,7 +14,7 @@ import { OwnText } from "./WriteScreen";
 
 type Mode = { kind: "menu" } | { kind: "roleplay"; rp: RolePlay } | { kind: "task"; task: SpeakingTask } | { kind: "write" } | { kind: "phrases" };
 
-/** Pasos propios de un módulo: Entrada, Salida, Fluidez y Cierre (las cápsulas son las unidades de siempre). */
+/** Pasos propios de un módulo: Entrada, Textos reales, Salida, Fluidez y Cierre (las cápsulas son las unidades de siempre). */
 export function ModuleStepScreen({ moduleId, step, pack, store }: { moduleId: string; step: ModuleStepId; pack: ContentPack; store: Store }) {
   const [view, setView] = useState<ModuleView | null>(null);
   const [tick, setTick] = useState(0);
@@ -26,6 +26,7 @@ export function ModuleStepScreen({ moduleId, step, pack, store }: { moduleId: st
   const exit = `#/modulo/${moduleId}`;
   const reload = () => setTick((t) => t + 1);
   if (step === "entrada") return <Entrada view={view} pack={pack} store={store} exit={exit} onDone={reload} />;
+  if (step === "textos") return <Textos view={view} pack={pack} exit={exit} />;
   if (step === "salida") return <Salida view={view} pack={pack} store={store} exit={exit} onChange={reload} />;
   if (step === "fluidez") return <Fluidez view={view} pack={pack} store={store} exit={exit} onDone={reload} />;
   return <Cierre view={view} pack={pack} store={store} exit={exit} onDone={reload} />;
@@ -52,6 +53,28 @@ function Entrada({ view, pack, store, exit, onDone }: { view: ModuleView; pack: 
   return <main className="focus"><ReadingStep reading={reading} words={pack.readingWords} exitHref={exit} onFinish={() => { void finishModuleStep(store, view.module.id, "entrada", new Date()).then(() => { setDone(true); onDone(); }); }} /></main>;
 }
 
+/** Los textos reales del módulo (carteles, menús, horarios…): cada uno se lee sin traducción; con todos leídos se sigue con la Salida. */
+function Textos({ view, pack, exit }: { view: ModuleView; pack: ContentPack; exit: string }) {
+  const { module } = view;
+  const ids = module.extra_readings ?? [];
+  const all = ids.every((id) => !!view.progress.done[textoKey(id)]);
+  return (
+    <main>
+      <p><a className="tap" href={exit}>‹ {module.title}</a></p>
+      <h1>Textos reales</h1>
+      <p>Documentos y mensajes como los que verás de verdad. Léelos sin traducción y responde las preguntas. {all ? "Ya leíste todos." : "Para pasar a la Salida hace falta leer todos."}</p>
+      <ul className="library">
+        {ids.map((id) => {
+          const r = (pack.readings ?? []).find((x) => x.id === id);
+          const read = !!view.progress.done[textoKey(id)];
+          return r ? <li key={id}><h3 lang="it">{r.title}{read ? " ✓" : ""}</h3>{r.authored && <p><small>Escrito por la IA</small></p>}<a className="button" href={`#/modulo/${module.id}/texto/${id}`}>{read ? "Volver a leer" : "Leer"}</a></li> : null;
+        })}
+      </ul>
+      {all && <p><a className="button primary block" href={`#/modulo/${module.id}/salida`}>Seguir con la Salida</a></p>}
+    </main>
+  );
+}
+
 function Fluidez({ view, pack, store, exit, onDone }: { view: ModuleView; pack: ContentPack; store: Store; exit: string; onDone: () => void }) {
   const [done, setDone] = useState(false);
   const reading = (pack.readings ?? []).find((r) => r.id === view.module.entry_reading);
@@ -65,11 +88,11 @@ function Salida({ view, pack, store, exit, onChange }: { view: ModuleView; pack:
   const { module } = view;
   const sp = pack.speaking;
   useStrandTimer(store, "salida", mode.kind === "write");
-  const mark = async (part: "habla" | "escritura") => { await finishSalidaPart(store, module, part, new Date()); onChange(); };
+  const mark = async (part: "habla" | "escritura", itemId?: string) => { await finishSalidaPart(store, module, part, new Date(), itemId); onChange(); };
   const back = () => setMode({ kind: "menu" });
   const readingOf = (id: string) => (pack.readings ?? []).find((r) => r.id === id);
-  if (mode.kind === "roleplay") { const r = readingOf(mode.rp.reading); return r ? <RolePlayRun rp={mode.rp} reading={r} store={store} onExit={back} exitLabel="Volver a la Salida" onComplete={() => void mark("habla")} /> : <p>Falta el diálogo.</p>; }
-  if (mode.kind === "task") return <TaskRun task={mode.task} store={store} onExit={back} onComplete={() => { void mark("habla"); back(); }} />;
+  if (mode.kind === "roleplay") { const r = readingOf(mode.rp.reading); return r ? <RolePlayRun rp={mode.rp} reading={r} store={store} onExit={back} exitLabel="Volver a la Salida" onComplete={() => void mark("habla", mode.rp.id)} /> : <p>Falta el diálogo.</p>; }
+  if (mode.kind === "task") return <TaskRun task={mode.task} store={store} onExit={back} onComplete={() => { void mark("habla", mode.task.id); back(); }} />;
   if (mode.kind === "write") {
     return (
       <main>
@@ -84,18 +107,20 @@ function Salida({ view, pack, store, exit, onChange }: { view: ModuleView; pack:
   const rps = (sp?.roleplays ?? []).filter((r) => module.roleplays.includes(r.id));
   const tasks = (sp?.tasks ?? []).filter((t) => module.tasks.includes(t.id));
   const doneMark = (k: "habla" | "escritura") => (view.progress.done[salidaKey(k)] ? " ✓" : "");
+  const itemDone = (id: string) => !!view.progress.done[salidaKey("habla")] || !!view.progress.done[hablaKey(id)];
+  const speakMissing = hablaMissing(module, view.progress).length;
   return (
     <main>
       <p><a className="tap" href={exit}>‹ {module.title}</a></p>
       <h1>Salida</h1>
-      <p>Aquí pasas de reconocer a <strong>producir</strong>. Para completar la Salida hace falta {module.roleplays.length + module.tasks.length > 0 ? "una práctica hablada y " : ""}un mensaje escrito tuyo. {missing.length === 0 ? "Ya cumpliste lo que se pide." : ""}</p>
+      <p>Aquí pasas de reconocer a <strong>producir</strong>. Para completar la Salida hace falta {module.roleplays.length + module.tasks.length > 0 ? `${module.roleplays.length + module.tasks.length === 1 ? "la práctica hablada" : `las ${module.roleplays.length + module.tasks.length} prácticas habladas`} (${speakMissing === 0 ? "ya están" : `te falta${speakMissing === 1 ? "" : "n"} ${speakMissing}`}) y ` : ""}un mensaje escrito tuyo. {missing.length === 0 ? "Ya cumpliste lo que se pide." : ""}</p>
       {module.gap_es && <p className="note"><small>⚠ {module.gap_es}</small></p>}
       {(rps.length > 0 || tasks.length > 0) && (
         <>
           <h2>Hablar{doneMark("habla")}</h2>
           <ul className="library">
-            {rps.map((rp) => <li key={rp.id}><h3>{rp.title}</h3><p>{rp.goal_es}</p><button type="button" onClick={() => setMode({ kind: "roleplay", rp })}>Practicar</button></li>)}
-            {tasks.map((t) => <li key={t.id}><h3>{t.title}</h3><p><small>~{t.minutes} min · tarea oral</small></p><button type="button" onClick={() => setMode({ kind: "task", task: t })}>Empezar</button></li>)}
+            {rps.map((rp) => <li key={rp.id}><h3>{rp.title}{itemDone(rp.id) ? " ✓" : ""}</h3><p>{rp.goal_es}</p><button type="button" onClick={() => setMode({ kind: "roleplay", rp })}>Practicar</button></li>)}
+            {tasks.map((t) => <li key={t.id}><h3>{t.title}{itemDone(t.id) ? " ✓" : ""}</h3><p><small>~{t.minutes} min · tarea oral</small></p><button type="button" onClick={() => setMode({ kind: "task", task: t })}>Empezar</button></li>)}
           </ul>
         </>
       )}
@@ -170,15 +195,16 @@ function Cierre({ view, pack, store, exit, onDone }: { view: ModuleView; pack: C
   );
 }
 
-/** Un texto real opcional del módulo (documento, mensajes): se lee sin traducción y se responde; no es un paso obligatorio. */
+/** Un texto real del módulo (documento, mensajes): se lee sin traducción y se responde; al terminar queda marcado como leído. */
 export function ModuleTextScreen({ moduleId, textId, pack, store }: { moduleId: string; textId: string; pack: ContentPack; store: Store }) {
   const [done, setDone] = useState(false);
   useStrandTimer(store, "entrada", !done);
   const reading = (pack.readings ?? []).find((r) => r.id === textId);
+  const module = pack.course.modules?.find((m) => m.id === moduleId);
   const exit = `#/modulo/${moduleId}`;
   if (!reading) return <main><p>No encuentro ese texto.</p><p><a className="button" href={exit}>Ver el módulo</a></p></main>;
-  if (done) return <Done title="Texto leído ✓" text="Puedes volver a leerlo cuando quieras. Estos textos no cuentan para completar el módulo: sirven para practicar la lectura real." exit={exit} />;
-  return <main className="focus"><ReadingStep reading={reading} words={pack.readingWords} exitHref={exit} hideTranslation listenOnly={!!reading.listen && !reading.exam} onFinish={() => setDone(true)} /></main>;
+  if (done) return <Done title="Texto leído ✓" text="Puedes volver a leerlo cuando quieras." exit={exit} next={{ href: `#/modulo/${moduleId}/textos`, label: "Ver los textos del módulo" }} />;
+  return <main className="focus"><ReadingStep reading={reading} words={pack.readingWords} exitHref={exit} hideTranslation listenOnly={!!reading.listen && !reading.exam} onFinish={() => { void (module ? finishModuleText(store, module, textId, new Date()) : Promise.resolve()).then(() => setDone(true)); }} /></main>;
 }
 
 export const moduleStepTitle = (s: ModuleStepId) => MODULE_STEP_LABEL[s];

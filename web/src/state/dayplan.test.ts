@@ -61,10 +61,13 @@ describe("sesión de hoy", () => {
     expect(b.find((x) => x.step === "descubre")).toMatchObject({ done: true });
     expect(b.find((x) => x.step === "capsula")).toMatchObject({ done: false });
   });
-  it("sin unidades por hacer solo queda el repaso", () => {
+  it("con todos los módulos hechos Hoy ofrece el hito y, aprobado, solo el repaso", () => {
     const all = pack.course.units.map((u: { id: string }) => STEPS.reduce((p, s) => markStep({ ...p, completed: true }, s, NOW), emptyProgress(u.id)));
     const mods = pack.course.modules!.map((m) => ({ ...emptyProgress(`mod:${m.id}`), completed: true }));   // y todos los módulos cerrados
-    expect(sessionFor([...all, ...mods]).map((b) => b.key)).toEqual(["repaso"]);
+    const b = sessionFor([...all, ...mods]);   // sin hito aprobado, el siguiente tramo del camino es el examen de hito
+    expect(b.map((x) => x.href)).toEqual(["#/repaso", "#/hito/A1"]);
+    const passed = sessionFor([...all, ...mods, { ...emptyProgress("hito:A1"), completed: true }]);   // con el hito aprobado solo queda el repaso: no se ofrece ninguna unidad de otro nivel
+    expect(passed.map((x) => x.key)).toEqual(["repaso"]);
   });
   it("al empezar (sin Entrada hecha) la sesión propone la Entrada del primer módulo", () => {
     const b = sessionFor([]);

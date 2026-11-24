@@ -1,7 +1,7 @@
 import type { Course, Unit } from "../content/load";
 import type { Card } from "../generated/card";
 import { applyTest, emptyProgress, markStep, masterByPlacement } from "./course";
-import { applyModuleTest, markModuleStep, moduleProgressId, salidaKey, salidaMissing, type ModuleStepId, type SalidaPart } from "./modules";
+import { applyModuleTest, hablaKey, hablaMissing, markModuleStep, moduleProgressId, salidaKey, salidaMissing, textoKey, textosMissing, type ModuleStepId, type SalidaPart } from "./modules";
 import { newCard, review } from "./srs";
 import { localDate, type Store, type StepId, type UnitProgress } from "./store";
 import { normalizeDay } from "./session";
@@ -59,13 +59,32 @@ export async function finishModuleStep(store: Store, moduleId: string, step: Mod
   return p;
 }
 
-/** Marca una parte de la Salida; cuando están todas las que el módulo exige, la Salida queda hecha. */
-export async function finishSalidaPart(store: Store, module: import("../content/load").CourseModule, part: SalidaPart, now: Date): Promise<UnitProgress> {
+/** Marca un texto real del módulo como leído; cuando están todos, el paso «Textos reales» queda hecho. */
+export async function finishModuleText(store: Store, module: import("../content/load").CourseModule, textId: string, now: Date): Promise<UnitProgress> {
   let p = await load(store, moduleProgressId(module.id));
-  p = { ...p, done: { ...p.done, [salidaKey(part)]: p.done[salidaKey(part)] ?? now.toISOString() } };
+  p = { ...p, done: { ...p.done, [textoKey(textId)]: p.done[textoKey(textId)] ?? now.toISOString() } };
+  if (textosMissing(module, p).length === 0) p = markModuleStep(p, "textos", now);
+  await store.putUnit(p);
+  await bumpDay(store, `${moduleProgressId(module.id)}:${textoKey(textId)}`, now);
+  return p;
+}
+
+/**
+ * Marca una parte de la Salida. La parte hablada pide TODOS los juegos de rol y tareas orales del módulo: con `itemId` se marca ese y la parte
+ * queda hecha cuando están todos; sin `itemId` se da por hecha entera. Con todas las partes, la Salida queda hecha.
+ */
+export async function finishSalidaPart(store: Store, module: import("../content/load").CourseModule, part: SalidaPart, now: Date, itemId?: string): Promise<UnitProgress> {
+  let p = await load(store, moduleProgressId(module.id));
+  const at = now.toISOString();
+  if (part === "habla" && itemId) {
+    p = { ...p, done: { ...p.done, [hablaKey(itemId)]: p.done[hablaKey(itemId)] ?? at } };
+    if (hablaMissing(module, p).length === 0) p = { ...p, done: { ...p.done, [salidaKey("habla")]: p.done[salidaKey("habla")] ?? at } };
+  } else {
+    p = { ...p, done: { ...p.done, [salidaKey(part)]: p.done[salidaKey(part)] ?? at } };
+  }
   if (salidaMissing(module, p).length === 0) p = markModuleStep(p, "salida", now);
   await store.putUnit(p);
-  await bumpDay(store, `${moduleProgressId(module.id)}:${salidaKey(part)}`, now);
+  await bumpDay(store, `${moduleProgressId(module.id)}:${salidaKey(part)}${itemId ? `:${itemId}` : ""}`, now);
   return p;
 }
 
