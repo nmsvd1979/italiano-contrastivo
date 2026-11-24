@@ -11,12 +11,13 @@ export const RUN_MAX_AGE_MS = 7 * 24 * 3600 * 1000;
 const KEY = (k: string) => `italiano-contrastivo.run.${k}`;
 export const signature = (ids: string[]) => `${ids.length}:${ids[0] ?? ""}:${ids[ids.length - 1] ?? ""}`;
 
-export function loadRun(key: string, ids: string[]): RunSnapshot | null {
+export function loadRun(key: string, ids: string[], now = Date.now()): RunSnapshot | null {
   try {
     const raw = localStorage.getItem(KEY(key));
     if (!raw) return null;
     const s = JSON.parse(raw) as RunSnapshot;
-    const ok = s.sig === signature(ids) && Array.isArray(s.queue) && s.queue.every((i) => Number.isInteger(i) && i >= 0 && i < ids.length)
+    const fresh = typeof s.savedAt !== "number" || now - s.savedAt < RUN_MAX_AGE_MS;   // un guardado con fecha caduca a los 7 días también por esta vía
+    const ok = fresh && s.sig === signature(ids) && Array.isArray(s.queue) && s.queue.every((i) => Number.isInteger(i) && i >= 0 && i < ids.length)
       && Number.isInteger(s.pos) && s.pos >= 0 && s.pos < s.queue.length && Array.isArray(s.first) && s.first.length === ids.length;
     return ok ? s : null;
   } catch {

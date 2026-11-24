@@ -231,6 +231,15 @@ describe("ReviewScreen", () => {
     expect((await store.getCard(c.id))?.fsrs.reps).toBe(1);
     expect((await store.getDay(localDate(NOW))).reviewsDone).toBe(1);
   });
+  it("anota el primer intento del repaso en su tema", async () => {
+    const store = memoryStore();
+    await store.putCard(newCard({ kind: "error_code", ref: "ERR_TENERE_AVERE" }, "not_applicable", NOW));
+    render(<ReviewScreen pack={pack({ lexemes: [] })} store={store} now={NOW} />);
+    fireEvent.click(await screen.findByText("Vedrai che tengo ragione."));   // opción incorrecta
+    fireEvent.click(screen.getByText("Continuar"));
+    await screen.findByText(/Terminaste esta tanda/);
+    expect((await store.getDay(localDate(NOW))).attempts?.ERR_TENERE_AVERE).toEqual({ ok: 0, n: 1 });
+  });
   it("introduce un falso amigo nuevo con autocalificación", async () => {
     const store = memoryStore();
     for (const id of ["x1", "x2"]) await store.putUnit(masterByPlacement(emptyProgress(id), NOW)); // los falsos amigos nuevos entran tras 2 unidades completadas

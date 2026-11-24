@@ -24,8 +24,13 @@ export function updateDay(store: Store, now: Date, fn: (d: DayProgress) => DayPr
   return next;
 }
 
+/** Anota un primer intento en un tema por su código de error. */
+export function trackAttemptCode(store: Store, code: string, correct: boolean, now = new Date()): Promise<void> {
+  return updateDay(store, now, (d) => recordAttempt(d, code, correct));
+}
+
 /** Anota el primer intento de un ejercicio en su tema (`target_error_codes[0]`); sin tema no hace nada. */
 export function trackAttempt(store: Store, item: Item, correct: boolean, now = new Date()): Promise<void> {
   const code = (item as { target_error_codes?: string[] }).target_error_codes?.[0];
-  return code ? updateDay(store, now, (d) => recordAttempt(d, code, correct)) : Promise.resolve();
+  return code ? trackAttemptCode(store, code, correct, now) : Promise.resolve();
 }

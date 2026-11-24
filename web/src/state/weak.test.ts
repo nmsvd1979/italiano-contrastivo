@@ -42,8 +42,18 @@ describe("puntos débiles", () => {
     expect(r.attempts).toBe(12);
     expect(r.spots).toEqual([]);
   });
+  it("evaluated cuenta los temas con intentos suficientes, débiles o no", () => {
+    const r = weakSpots([day(TODAY, { ERR_A: { ok: 10, n: 10 }, ERR_B: { ok: 1, n: 4 }, ERR_C: { ok: 1, n: 5 } })], course, TODAY);
+    expect(r.evaluated).toBe(2);   // ERR_B no llega a 5 intentos
+    expect(weakSpots([day(TODAY, { ERR_A: { ok: 0, n: 4 }, ERR_B: { ok: 0, n: 4 }, ERR_C: { ok: 0, n: 4 } })], course, TODAY)).toMatchObject({ evaluated: 0, attempts: 12 });
+  });
+  it("ignora entradas dañadas sin lanzar", () => {
+    const broken = [day(TODAY, { ERR_A: null, ERR_B: { ok: "x", n: 9 }, ERR_C: { ok: 1, n: 10 } } as unknown as DayProgress["attempts"])];
+    expect(() => weakSpots(broken, course, TODAY)).not.toThrow();
+    expect(weakSpots(broken, course, TODAY).spots.map((s) => s.code)).toEqual(["ERR_C"]);
+  });
   it("sin días no falla", () => {
-    expect(weakSpots([], course, TODAY)).toEqual({ spots: [], attempts: 0 });
+    expect(weakSpots([], course, TODAY)).toEqual({ spots: [], attempts: 0, evaluated: 0 });
   });
 });
 

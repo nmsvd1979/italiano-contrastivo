@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import { type ReactNode, useEffect } from "react";
 import { useRun } from "./RunContext";
 import type { Seg } from "./diff";
 
@@ -13,6 +13,8 @@ export const Marked = ({ segs, glue = " " }: { segs: Seg[]; glue?: string }) => 
  */
 export function Feedback({ ok, answer, said, why, extra, lang = "it", onContinue }: { ok: boolean; answer?: ReactNode; said?: ReactNode; why?: string; extra?: ReactNode; lang?: "it" | "es"; onContinue: () => void }) {
   const run = useRun();
+  // el primer intento cuenta al comprobar: salir con la × tras fallar no lo convierte en acierto
+  useEffect(() => { run.onCheck?.(ok); }, []); // eslint-disable-line react-hooks/exhaustive-deps
   return (
     <div className="feedback" role="status" data-state={ok ? "correct" : "wrong"}>
       <div>

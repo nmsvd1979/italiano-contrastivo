@@ -36,6 +36,13 @@ describe("retomar un bloque con sus propios ejercicios", () => {
     expect(screen.getByText("1 / 4")).toBeTruthy();
     expect(screen.getByText("Otro 0")).toBeTruthy();
   });
+  it("un guardado de hace más de 7 días se ignora también si la lista coincide", () => {
+    const old = Date.now() - 8 * 24 * 3600 * 1000;
+    saveRun(KEY, { sig: signature(A.map((i) => i.id)), queue: [0, 1, 2], pos: 1, first: [true, null, null], requeued: [], done: [0], streak: 1, items: fromItems(A), savedAt: old });
+    render(<ItemRunner items={fromItems(A)} persistKey={KEY} onFinish={() => undefined} />);
+    expect(screen.getByText("1 / 3")).toBeTruthy();
+    expect(screen.queryByText(/Retomado/)).toBeNull();
+  });
   it("un guardado antiguo, sin ejercicios, se sigue retomando si la lista coincide", () => {
     saveRun(KEY, { sig: signature(A.map((i) => i.id)), queue: [0, 1, 2], pos: 1, first: [true, null, null], requeued: [], done: [0], streak: 1 });
     render(<ItemRunner items={fromItems(A)} persistKey={KEY} onFinish={() => undefined} />);

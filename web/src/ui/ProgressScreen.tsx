@@ -3,7 +3,7 @@ import { fourWeeks } from "../state/calendar";
 import type { ModuleView } from "../state/modules";
 import type { DayProgress } from "../state/store";
 import type { Seconds } from "../state/strands";
-import { WEAK_MIN_ATTEMPTS, type WeakSpot } from "../state/weak";
+import type { WeakSpot } from "../state/weak";
 import { WeekCard } from "./WeekCard";
 
 const DOW = ["L", "M", "X", "J", "V", "S", "D"];
@@ -16,7 +16,7 @@ function total(seconds: number): string {
 }
 
 /** «Progreso»: lo que ya sabes hacer (probado o marcado por ti), tu constancia de cuatro semanas y el tiempo real por tipo de práctica. */
-export function ProgressScreen({ week, days, today, modules, weak }: { week: Seconds; days: DayProgress[]; today: string; modules: ModuleView[]; weak: { spots: WeakSpot[]; attempts: number } }) {
+export function ProgressScreen({ week, days, today, modules, weak }: { week: Seconds; days: DayProgress[]; today: string; modules: ModuleView[]; weak: { spots: WeakSpot[]; attempts: number; evaluated: number } }) {
   const can = canDoSummary(modules);
   const cal = fourWeeks(days, today);
   return (
@@ -53,15 +53,15 @@ export function ProgressScreen({ week, days, today, modules, weak }: { week: Sec
             <ul className="weaklist">
               {weak.spots.map((w) => (
                 <li key={w.code}>
-                  <span className="t"><b>{w.title}</b><span className="pct">{Math.round(w.accuracy * 100)} %</span></span>
-                  <span className="bar" aria-hidden="true"><i style={{ width: `${Math.round(w.accuracy * 100)}%` }} /></span>
+                  <span className="t"><b>{w.title}</b><span className="pct">{Math.floor(w.accuracy * 100)} %</span></span>
+                  <span className="bar" aria-hidden="true"><i style={{ width: `${Math.floor(w.accuracy * 100)}%` }} /></span>
                   <small>{w.ok} de {w.n} a la primera</small>
                 </li>
               ))}
             </ul>
             <p><a className="button primary" href="#/debiles">Practicar esto</a></p>
           </>
-        ) : weak.attempts < WEAK_MIN_ATTEMPTS
+        ) : weak.evaluated === 0
           ? <p><small>Todavía no hay datos suficientes: un tema aparece cuando llevas al menos 5 intentos en él.</small></p>
           : <p>Ningún tema por debajo del 80 % en las últimas 3 semanas.</p>}
         <p><small>Cuenta solo tu primer intento en cada ejercicio, de los últimos 21 días.</small></p>

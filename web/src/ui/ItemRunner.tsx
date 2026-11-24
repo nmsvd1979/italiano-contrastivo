@@ -51,12 +51,17 @@ export function ItemRunner({ items, requeueWrong = false, onFinish, exitHref = "
 
   const idx = queue[pos];
   const current = list[idx];
+  // El primer intento de un ejercicio se anota al comprobarlo (al mostrar la corrección), no al pulsar «Continuar»: así salir con la ×
+  // después de fallar no lo convierte en acierto al volver. Los ejercicios sin hoja de corrección lo anotan al responder.
+  const register = (correct: boolean) => {
+    if (first.current[idx] !== null) return;
+    first.current[idx] = correct;
+    recordSample(current.kind, (Date.now() - started.current) / 1000);
+    if (track && current.item) trackAttempt(current.item, correct);
+    if (persistKey) saveRun(persistKey, { sig: signature(ids), queue, pos, first: first.current, requeued: [...requeued.current], done, streak, items: list, savedAt: Date.now() });
+  };
   const answer = (correct: boolean) => {
-    if (first.current[idx] === null) {
-      first.current[idx] = correct;
-      recordSample(current.kind, (Date.now() - started.current) / 1000);
-      if (track && current.item) trackAttempt(current.item, correct);
-    }
+    register(correct);
     let q = queue;
     const willRequeue = !correct && requeueWrong && !requeued.current.has(idx);
     if (willRequeue) {
@@ -79,7 +84,7 @@ export function ItemRunner({ items, requeueWrong = false, onFinish, exitHref = "
   };
 
   return (
-    <RunProvider value={{ why, fichaHref, requeue: requeueWrong && !requeued.current.has(idx), overrides: overrideBudget === undefined ? undefined : { left: overridesLeft, use: () => setOverridesLeft((n) => Math.max(0, n - 1)) } }}>
+    <RunProvider value={{ why, fichaHref, onCheck: register, onOverride: () => { first.current[idx] = true; }, requeue: requeueWrong && !requeued.current.has(idx), overrides: overrideBudget === undefined ? undefined : { left: overridesLeft, use: () => setOverridesLeft((n) => Math.max(0, n - 1)) } }}>
       <FocusHead progress={list.length ? done.length / list.length : 0} exitHref={exitHref} count={`${pos + 1} / ${queue.length}`} />
       {saved && pos === saved.pos && pos > 0 && <p className="runner-meta">Retomado donde lo dejaste</p>}
       {streak > 0 && streak % 5 === 0 && <p className="cheer" role="note">¡{streak} aciertos seguidos!</p>}

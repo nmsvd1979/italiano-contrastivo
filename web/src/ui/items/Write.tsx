@@ -14,7 +14,8 @@ export function Write({ item, onAnswer, allowOverride = true }: { item: WriteIte
   const [value, setValue] = useState("");
   const [graded, setGraded] = useState<ReturnType<typeof gradeWrite> | null>(null);
   const [override, setOverride] = useState(false);
-  const budget = useRun().overrides;   // en la prueba de unidad: un comodín por prueba
+  const run = useRun();
+  const budget = run.overrides;   // en la prueba de unidad: un comodín por prueba
   const ok = graded?.result === "ok" || override;
   return (
     <div className="item">
@@ -32,7 +33,7 @@ export function Write({ item, onAnswer, allowOverride = true }: { item: WriteIte
             <SpeakButton text={graded.best} />
             {graded.result === "wrong" && allowOverride && !override && (budget && budget.left <= 0
               ? <p><small>Ya usaste el comodín de esta prueba: aquí la respuesta cuenta como fallo.</small></p>
-              : <p><button type="button" onClick={() => { budget?.use(); setOverride(true); }}>Mi versión también es correcta</button><br />
+              : <p><button type="button" onClick={() => { budget?.use(); run.onOverride?.(); setOverride(true); }}>Mi versión también es correcta</button><br />
                 <small>Solo hay una respuesta guardada y a veces el italiano admite otra: tú decides.{budget ? ` Te queda ${budget.left} ${budget.left === 1 ? "comodín" : "comodines"} en esta prueba.` : ""}</small></p>)}
           </>}
           onContinue={() => onAnswer(ok)} />

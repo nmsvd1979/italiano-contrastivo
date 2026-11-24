@@ -12,6 +12,7 @@ import { WordRecall } from "./items/WordRecall";
 import { ItemView } from "./items/ItemView";
 import { FocusHead } from "./kit/FocusHead";
 import { Ring } from "./kit/Ring";
+import { trackAttempt, trackAttemptCode } from "../state/attempts";
 import { RunProvider } from "./kit/RunContext";
 import { useStrandTimer } from "./kit/useStrandTimer";
 
@@ -47,7 +48,7 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
         <RunProvider value={{ why: pack.capsules.find((c) => c.target_error_codes[0] === code)?.explanation.text_es }}>
           <FocusHead progress={i / Math.max(1, queue.length)} exitHref="#/" />
           <p className="runner-meta">Práctica de unidades anteriores · {i + 1} de {queue.length}</p>
-          <ItemView key={`${entry.filler.id}-${i}`} item={entry.filler} onAnswer={() => void advance()} />
+          <ItemView key={`${entry.filler.id}-${i}`} item={entry.filler} onAnswer={(c) => { void trackAttempt(store, entry.filler, c, now ?? new Date()); void advance(); }} />
         </RunProvider>
       </main>
     );
@@ -120,7 +121,7 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
           )}
         </section>
       ) : (
-        <ItemView key={`${card!.id}-${i}`} item={pickItem(items!, card!.fsrs.reps)} onAnswer={(c) => grade(ratingFromAnswer(c))} />
+        <ItemView key={`${card!.id}-${i}`} item={pickItem(items!, card!.fsrs.reps)} onAnswer={(c) => { if (card!.subject.kind === "error_code") void trackAttemptCode(store, card!.subject.ref, c, now ?? new Date()); grade(ratingFromAnswer(c)); }} />
       )}
       </RunProvider>
     </main>

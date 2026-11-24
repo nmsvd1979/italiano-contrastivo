@@ -14,11 +14,11 @@ const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8
 const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
 const spot = (over: Partial<WeakSpot> = {}): WeakSpot => ({ code: "ERR_A", unitId: "u1", title: "Essere y avere", ok: 4, n: 20, accuracy: 0.2, ...over });
 const review = { due: 0, newAvailable: 0, doneToday: 0, cap: 30, seconds: 0, filler: 0 };
-const progress = (weak: { spots: WeakSpot[]; attempts: number }) => render(<ProgressScreen week={{}} days={[]} today="2026-11-24" modules={[]} weak={weak} />);
+const progress = (weak: { spots: WeakSpot[]; attempts: number; evaluated: number }) => render(<ProgressScreen week={{}} days={[]} today="2026-11-24" modules={[]} weak={weak} />);
 
 describe("Progreso: lo que más te cuesta", () => {
   it("con puntos débiles muestra el tema, el porcentaje, los aciertos a la primera y el enlace a practicar", () => {
-    progress({ spots: [spot()], attempts: 20 });
+    progress({ spots: [spot()], attempts: 20, evaluated: 1 });
     expect(screen.getByRole("heading", { name: "Lo que más te cuesta" })).toBeTruthy();
     expect(screen.getByText("Essere y avere")).toBeTruthy();
     expect(screen.getByText("20 %")).toBeTruthy();
@@ -26,16 +26,25 @@ describe("Progreso: lo que más te cuesta", () => {
     expect(screen.getByRole("link", { name: "Practicar esto" }).getAttribute("href")).toBe("#/debiles");
   });
   it("sin datos suficientes lo dice y no inventa nada", () => {
-    progress({ spots: [], attempts: 2 });
+    progress({ spots: [], attempts: 2, evaluated: 0 });
     expect(screen.getByText(/Todavía no hay datos suficientes/)).toBeTruthy();
     expect(screen.queryByRole("link", { name: "Practicar esto" })).toBeNull();
   });
   it("con datos y sin temas débiles lo dice", () => {
-    progress({ spots: [], attempts: 40 });
+    progress({ spots: [], attempts: 40, evaluated: 2 });
     expect(screen.getByText(/Ningún tema por debajo del 80 %/)).toBeTruthy();
   });
+  it("con muchos intentos repartidos en temas que no llegan a 5 no dice que no hay temas débiles", () => {
+    progress({ spots: [], attempts: 12, evaluated: 0 });
+    expect(screen.getByText(/Todavía no hay datos suficientes/)).toBeTruthy();
+    expect(screen.queryByText(/Ningún tema por debajo/)).toBeNull();
+  });
+  it("el porcentaje no redondea hacia arriba un tema débil (79,7 % se ve como 79 %)", () => {
+    progress({ spots: [spot({ accuracy: 0.797, ok: 35, n: 44 })], attempts: 44, evaluated: 1 });
+    expect(screen.getByText("79 %")).toBeTruthy();
+  });
   it("explica cómo se calcula", () => {
-    progress({ spots: [], attempts: 0 });
+    progress({ spots: [], attempts: 0, evaluated: 0 });
     expect(screen.getByText(/primer intento/)).toBeTruthy();
     expect(screen.getByText(/21 días/)).toBeTruthy();
   });

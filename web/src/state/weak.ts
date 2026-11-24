@@ -13,15 +13,16 @@ export type WeakSpot = { code: string; unitId: string; title: string; ok: number
 /**
  * Lo que más te cuesta: los temas (códigos de error) con peor precisión en el primer intento durante las últimas 3 semanas (contando hoy).
  * Solo se opina de un tema con al menos 5 intentos; un tema sin unidad en el curso se omite. `attempts` es el total de intentos de la ventana
- * (sirve para distinguir «aún no hay datos» de «no hay temas débiles»).
+ * y `evaluated` cuántos temas (con unidad) llegaron al mínimo de intentos: juntos distinguen «aún no hay datos» de «no hay temas débiles».
  */
-export function weakSpots(days: DayProgress[], course: Course, today: string, max = 3): { spots: WeakSpot[]; attempts: number } {
+export function weakSpots(days: DayProgress[], course: Course, today: string, max = 3): { spots: WeakSpot[]; attempts: number; evaluated: number } {
   const keep = new Set(lastDates(today, WEAK_WINDOW_DAYS));
   const totals = new Map<string, { ok: number; n: number }>();
   let attempts = 0;
   for (const d of days) {
     if (!keep.has(d.date)) continue;
     for (const [code, a] of Object.entries(d.attempts ?? {})) {
+      if (!a || !Number.isFinite(a.ok) || !Number.isFinite(a.n)) continue;   // datos dañados (copia editada): se ignoran
       const t = totals.get(code) ?? { ok: 0, n: 0 };
       totals.set(code, { ok: t.ok + a.ok, n: t.n + a.n });
       attempts += a.n;
@@ -29,13 +30,15 @@ export function weakSpots(days: DayProgress[], course: Course, today: string, ma
   }
   const unitOf = new Map(course.units.map((u) => [u.codes[0], u]));
   const spots: WeakSpot[] = [];
+  let evaluated = 0;
   for (const [code, t] of totals) {
     const unit = unitOf.get(code);
     const accuracy = t.n ? t.ok / t.n : 1;
+    if (unit && t.n >= WEAK_MIN_ATTEMPTS) evaluated++;
     if (unit && t.n >= WEAK_MIN_ATTEMPTS && accuracy < WEAK_ACCURACY) spots.push({ code, unitId: unit.id, title: unit.title, ok: t.ok, n: t.n, accuracy });
   }
   spots.sort((a, b) => a.accuracy - b.accuracy || b.n - a.n);
-  return { spots: spots.slice(0, max), attempts };
+  return { spots: spots.slice(0, max), attempts, evaluated };
 }
 
 const TYPES = new Set(["choice_l1_distractor", "cloze", "reorder"]);

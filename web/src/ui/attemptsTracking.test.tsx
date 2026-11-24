@@ -50,4 +50,17 @@ describe("primeros intentos por tema", () => {
     render(<ItemRunner items={fromItems([cloze("a", "ERR_A")])} onFinish={() => undefined} />);
     expect(() => answer("hai")).not.toThrow();
   });
+  it("fallar y salir sin pulsar «Continuar» cuenta el fallo, y al volver no se cuenta otra vez", async () => {
+    const store = memoryStore();
+    const items = [cloze("a", "ERR_A"), cloze("b", "ERR_B")];
+    const first = render(<AttemptsProvider store={store}><ItemRunner items={fromItems(items)} persistKey="u01:practica" onFinish={() => undefined} /></AttemptsProvider>);
+    fireEvent.change(screen.getByLabelText("Respuesta"), { target: { value: "hai" } });
+    fireEvent.click(screen.getByText("Comprobar"));   // ve la corrección y sale con la ×
+    await waitFor(async () => expect((await day(store)).attempts?.ERR_A).toEqual({ ok: 0, n: 1 }));
+    first.unmount();
+    render(<AttemptsProvider store={store}><ItemRunner items={fromItems(items)} persistKey="u01:practica" onFinish={() => undefined} /></AttemptsProvider>);
+    answer("ho");   // vuelve al mismo ejercicio y esta vez acierta
+    await new Promise((r) => setTimeout(r, 40));
+    expect((await day(store)).attempts?.ERR_A).toEqual({ ok: 0, n: 1 });
+  });
 });
