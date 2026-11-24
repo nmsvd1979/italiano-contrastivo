@@ -147,11 +147,11 @@ describe("pantallas de la ruta con el contenido real", () => {
     expect(screen.getByText(pack.course.planned.find((x) => x.level === "A1")!.title)).toBeTruthy(); // la primera unidad A1 aún «próximamente»
     expect(screen.getAllByText(/próximamente/).length).toBe(pack.course.planned.length);
   });
-  it("la unidad lista 5 pasos con minutos y solo deja entrar al siguiente", async () => {
+  it("la unidad lista sus pasos en una tira y solo ofrece entrar al siguiente", async () => {
     const views = unitViews(pack.course, []);
     render(<UnitScreen view={views[0]} pack={pack} />);
-    for (const s of ["Descubre", "Cápsula", "Práctica", "Escucha", "Prueba de la unidad"]) expect(screen.getByText(s)).toBeTruthy();
-    expect(screen.getAllByRole("link", { name: /Empezar|Hacer|Repetir/ }).length).toBe(1);
+    for (const s of ["Descubre", "Cápsula", "Práctica", "Escucha", "Prueba"]) expect(screen.getAllByText(new RegExp(`^${s}`)).length).toBeGreaterThan(0);
+    expect(screen.getAllByRole("link", { name: /^Empezar · / }).length).toBe(1);
   });
   it("un paso que no toca todavía no se abre", async () => {
     render(<StepScreen unitId={U1} step="prueba" pack={pack} store={memoryStore()} />);
