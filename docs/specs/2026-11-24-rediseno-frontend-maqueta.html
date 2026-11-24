@@ -1,0 +1,449 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Maqueta Italiano Contrastivo</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: página de revisión; cada sección = un teléfono con la pantalla propuesta + notas al lado (se apilan en móvil). */
+:root{
+  --bg:#fbf7f0; --ink:#2b2a27; --muted:#6f695f; --card:#ffffff; --line:#e2dacb; --page:#f1ebe0;
+  --accent:#c8553d; --accent-ink:#ffffff; --accent-soft:#f6e1d9; --mark:#f5c4b3;
+  --ok:#2d6a4f; --ok-bg:#ddefe4; --bad:#b23a48; --bad-bg:#fbe3e1;
+  --s-in:#2f7bc4; --s-form:#6f66cf; --s-out:#b7791f; --s-flu:#1f7a7a;
+  --serif:ui-serif,"New York","Iowan Old Style",Georgia,"Times New Roman",serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#1a1815; --ink:#f1ede4; --muted:#aaa294; --card:#25221e; --line:#3a352e; --page:#121110;
+  --accent:#e07a5f; --accent-ink:#1a1815; --accent-soft:#3a2822; --mark:#6b3a2c;
+  --ok:#74c69d; --ok-bg:#1f3a2c; --bad:#ff8f9c; --bad-bg:#3c2024;
+  --s-in:#6fb0ea; --s-form:#a39bff; --s-out:#e0a84f; --s-flu:#5cc2c2; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1a1815; --ink:#f1ede4; --muted:#aaa294; --card:#25221e; --line:#3a352e; --page:#121110;
+  --accent:#e07a5f; --accent-ink:#1a1815; --accent-soft:#3a2822; --mark:#6b3a2c;
+  --ok:#74c69d; --ok-bg:#1f3a2c; --bad:#ff8f9c; --bad-bg:#3c2024;
+  --s-in:#6fb0ea; --s-form:#a39bff; --s-out:#e0a84f; --s-flu:#5cc2c2; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--page);color:var(--ink);font:16px/1.5 var(--sans);padding-block:28px 64px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1040px;margin:0 auto;display:flex;flex-direction:column;gap:44px}
+h1{font:600 30px/1.15 var(--serif);margin:0;text-wrap:balance}
+h2{font:600 22px/1.2 var(--serif);margin:0;text-wrap:balance}
+h3{font:600 13px/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0}
+p{margin:0}
+.lead{max-width:66ch;color:var(--muted)}
+.it{font-family:var(--serif)}
+header.top{display:flex;flex-direction:column;gap:10px}
+.find{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;padding:0;margin:0;list-style:none}
+.find li{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px 14px;min-width:0}
+.find b{display:block;margin-bottom:2px}
+.find span{color:var(--muted);font-size:14.5px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:14px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px}
+section.shot{display:grid;grid-template-columns:auto minmax(0,1fr);gap:28px;align-items:start;border-top:1px solid var(--line);padding-top:28px}
+section.shot.two{grid-template-columns:auto auto minmax(0,1fr)}
+@media (max-width:1000px){section.shot.two{grid-template-columns:auto minmax(0,1fr)} section.shot.two .notes{grid-column:1/-1}}
+@media (max-width:700px){section.shot,section.shot.two{grid-template-columns:minmax(0,1fr);justify-items:center} .notes{justify-self:stretch}}
+.notes{display:flex;flex-direction:column;gap:12px;min-width:0;max-width:62ch}
+.notes ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.notes .now{color:var(--muted)}
+.why{font-size:14px;color:var(--muted);border-left:3px solid var(--line);padding-left:10px}
+
+/* teléfono */
+.phone{width:320px;max-width:100%;height:660px;background:var(--bg);border:1px solid var(--line);border-radius:34px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 10px 30px rgb(0 0 0 / .10);font-size:14.5px;line-height:1.4;position:relative}
+.scr{flex:1;overflow:hidden;padding:18px 16px 12px;display:flex;flex-direction:column;gap:12px;min-height:0}
+.tabs{display:flex;border-top:1px solid var(--line);background:var(--card);height:56px;flex:none}
+.tabs span{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:10.5px;font-weight:500;color:var(--muted)}
+.tabs span.on{color:var(--accent)}
+.tabs svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.row{display:flex;align-items:center;gap:10px}
+.sp{justify-content:space-between}
+.t1{font:600 24px/1.15 var(--sans)}
+.eyebrow{font-size:11px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.btn{display:flex;align-items:center;justify-content:center;min-height:48px;border-radius:12px;background:var(--accent);color:var(--accent-ink);font-weight:600;font-size:15.5px;flex:none}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line);min-height:40px;font-weight:500;font-size:14px;padding:0 12px}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;background:var(--accent-soft);font-weight:600;font-size:12.5px}
+.muted{color:var(--muted)} .sm{font-size:12.5px}
+.num{font-variant-numeric:tabular-nums}
+.tag{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:2px 7px;border-radius:6px;color:var(--card);flex:none}
+.in{background:var(--s-in)} .form{background:var(--s-form)} .out{background:var(--s-out)} .flu{background:var(--s-flu)}
+.blk{display:flex;align-items:center;gap:10px;padding:9px 0;border-top:1px solid var(--line)}
+.blk:first-of-type{border-top:0}
+.blk .g{flex:1;min-width:0}
+.stack{display:flex;height:10px;border-radius:6px;overflow:hidden;gap:2px}
+.stack i{display:block;height:100%}
+.bar{height:6px;border-radius:4px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--ok)}
+.seg{display:flex;gap:4px}
+.seg i{flex:1;height:6px;border-radius:4px;background:var(--line)}
+.seg i.d{background:var(--ok)} .seg i.h{background:linear-gradient(90deg,var(--ok) 25%,var(--line) 25%)}
+.seglab{display:flex;gap:4px;font-size:10px;color:var(--muted)}
+.seglab span{flex:1;text-align:center}
+.mod{display:flex;gap:12px;align-items:flex-start;padding:10px 2px;border-top:1px solid var(--line)}
+.n{width:28px;height:28px;border-radius:50%;border:1.5px solid var(--line);display:flex;align-items:center;justify-content:center;font-weight:600;font-size:13px;color:var(--muted);flex:none}
+.n.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.n.ok{background:var(--ok);border-color:var(--ok);color:var(--bg)}
+.tl{display:flex;flex-direction:column}
+.st{display:grid;grid-template-columns:20px minmax(0,1fr);gap:10px;padding-bottom:12px;position:relative}
+.st::before{content:"";position:absolute;left:9px;top:20px;bottom:0;width:2px;background:var(--line)}
+.st:last-child::before{display:none}
+.dot{width:20px;height:20px;border-radius:50%;border:2px solid var(--line);background:var(--bg);display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--bg)}
+.dot.ok{background:var(--ok);border-color:var(--ok)} .dot.on{border-color:var(--accent);box-shadow:0 0 0 4px var(--accent-soft)}
+.cap{display:flex;justify-content:space-between;gap:8px;padding:6px 0;border-top:1px dashed var(--line);font-size:13.5px}
+.pips{display:flex;gap:3px;align-items:center;flex:none}
+.pips i{width:7px;height:7px;border-radius:50%;background:var(--line)} .pips i.d{background:var(--ok)}
+.contrast{display:grid;grid-template-columns:28px minmax(0,1fr);gap:4px 8px;align-items:baseline;padding:10px 12px;border-radius:12px;background:var(--bg);border:1px solid var(--line)}
+.contrast .l{font-size:10.5px;font-weight:700;letter-spacing:.05em;color:var(--muted)}
+.contrast .es{color:var(--muted)}
+.contrast .itx{font:500 19px/1.3 var(--serif)}
+.contrast .rule{grid-column:2;font-size:12.5px;color:var(--muted)}
+mark{background:var(--mark);color:inherit;border-radius:4px;padding:0 3px}
+del{color:var(--bad);text-decoration-thickness:1.5px}
+table.cj{width:100%;border-collapse:collapse;font-size:14px}
+table.cj th{font:600 11px var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);text-align:left;padding:2px 0 4px}
+table.cj td{padding:4px 0;border-top:1px solid var(--line)}
+table.cj td:first-child{color:var(--muted);font-size:12.5px;width:34%}
+table.cj td+td{font-family:var(--serif);font-size:16px}
+.stepper{display:flex;gap:4px}
+.stepper span{flex:1;text-align:center;font-size:10px;color:var(--muted);padding-top:9px;border-top:4px solid var(--line);border-radius:2px}
+.stepper span.d{border-color:var(--ok)} .stepper span.on{border-color:var(--accent);color:var(--ink);font-weight:600}
+.fh{display:flex;align-items:center;gap:10px}
+.fh .x{font-size:20px;color:var(--muted);line-height:1}
+.fh .bar{flex:1;height:10px}
+.opt{border:1.5px solid var(--line);background:var(--card);border-radius:12px;padding:12px 14px;font:400 17px var(--serif)}
+.opt.ok{border-color:var(--ok);background:var(--ok-bg)} .opt.bad{border-color:var(--bad);background:var(--bad-bg)}
+.grow{flex:1}
+.sheet{background:var(--bad-bg);border-top:2px solid var(--bad);margin:0 -16px -12px;padding:12px 16px 14px;display:flex;flex-direction:column;gap:8px}
+.sheet .btn{background:var(--bad);color:#fff}
+.kv{display:grid;grid-template-columns:64px minmax(0,1fr);gap:2px 8px;align-items:baseline}
+.kv .k{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.hot{display:grid;grid-template-columns:minmax(0,1fr) 70px 34px;gap:8px;align-items:center;padding:6px 0;border-top:1px solid var(--line);font-size:13.5px}
+.hot:first-of-type{border-top:0}
+.cando{display:flex;gap:8px;align-items:flex-start;font-size:13.5px}
+.cb{width:16px;height:16px;border-radius:5px;border:1.5px solid var(--line);flex:none;margin-top:2px;display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--bg)}
+.cb.ok{background:var(--ok);border-color:var(--ok)}
+.cal{display:grid;grid-template-columns:repeat(14,1fr);gap:4px}
+.cal i{aspect-ratio:1;border-radius:4px;background:var(--line)} .cal i.a{background:var(--ok)} .cal i.b{background:color-mix(in srgb,var(--ok) 45%,var(--line))}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.steps li{counter-increment:s;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px 14px;min-width:0}
+.steps li::before{content:"Etapa " counter(s);display:block;font:600 11px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-bottom:2px}
+.steps span{color:var(--muted);font-size:14.5px}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-hoy" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M5.6 18.4 7 17M17 7l1.4-1.4"/></symbol>
+  <symbol id="i-ruta" viewBox="0 0 24 24"><circle cx="6" cy="5" r="2"/><circle cx="18" cy="19" r="2"/><path d="M8 5h7a3 3 0 0 1 0 6H9a3 3 0 0 0 0 6h7"/></symbol>
+  <symbol id="i-prac" viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 14-5.3L20 9M20 4v5h-5M20 12a8 8 0 0 1-14 5.3L4 15M4 20v-5h5"/></symbol>
+  <symbol id="i-bib" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h5v16H6a2 2 0 0 0-2 2zM20 5a2 2 0 0 0-2-2h-5v16h5a2 2 0 0 1 2 2z"/></symbol>
+  <symbol id="i-prog" viewBox="0 0 24 24"><path d="M5 20v-6M12 20V5M19 20v-9"/></symbol>
+</svg>
+
+<div class="wrap">
+<header class="top">
+  <h3>Italiano contrastivo · propuesta de diseño · 23 nov 2026</h3>
+  <h1>Que cada pantalla responda una sola pregunta</h1>
+  <p class="lead">La app ya tiene las piezas correctas de método. Lo que frena es cómo se presentan: mucho texto explicativo, tres niveles de listas antes de llegar a un ejercicio y nada que muestre a simple vista la idea central, el contraste español–italiano. Estas siete pantallas son la propuesta. Son maquetas estáticas con contenido real del módulo 1; nada del código cambió todavía.</p>
+</header>
+
+<div>
+  <h3 style="margin-bottom:12px">Lo que encontré al recorrer la app</h3>
+  <ul class="find">
+    <li><b>Demasiado texto antes de la acción</b><span>Ruta, Hablar y Biblioteca abren con dos o tres párrafos (método, avisos de fuentes, «≈ 3832 min»). El contenido útil queda bajo el pliegue.</span></li>
+    <li><b>Tres listas anidadas</b><span>Ruta → Módulo (5 pasos) → Unidad (7 pasos) → ejercicio. Cada nivel es otra pantalla de tarjetas iguales con botones «Hacer».</span></li>
+    <li><b>Vocabulario que se pisa</b><span>«Unidad» y «cápsula» nombran lo mismo, y «Cápsula» además es un paso. Hoy muestra bloques ④ ① ④ ② ② fuera de orden y nombres internos como «Gimnasio sintáctico».</span></li>
+    <li><b>El contraste no se ve</b><span>La ficha es un párrafo corrido y las conjugaciones van en una frase. El error típico aparece en gris pequeño. Es el corazón del método y no tiene forma propia.</span></li>
+    <li><b>Jerarquía plana</b><span>Todas las tarjetas pesan igual, los títulos son enlaces subrayados, los iconos mezclan emoji y símbolos, y el ejercicio deja media pantalla vacía con las opciones lejos del pulgar.</span></li>
+    <li><b>El avance cuenta pasos, no capacidades</b><span>«0 de 73 cápsulas» no dice qué sabes hacer ni qué te cuesta. «Sé hacer» solo aparece al cerrar un módulo.</span></li>
+  </ul>
+</div>
+
+<div>
+  <h3 style="margin-bottom:10px">Un código de color para las cuatro hebras, igual en toda la app</h3>
+  <div class="legend">
+    <span><i style="background:var(--s-in)"></i>Entender (leer y escuchar)</span>
+    <span><i style="background:var(--s-form)"></i>Estudiar la forma</span>
+    <span><i style="background:var(--s-out)"></i>Producir (hablar y escribir)</span>
+    <span><i style="background:var(--s-flu)"></i>Fluidez</span>
+    <span><i style="background:var(--accent)"></i>Terracota: solo la acción principal y lo que hay que notar</span>
+  </div>
+</div>
+
+<!-- 1 HOY -->
+<section class="shot">
+  <div class="phone" aria-label="Maqueta de la pantalla Hoy">
+    <div class="scr">
+      <div class="row sp"><span class="t1">Hoy</span><span class="chip num">4 días seguidos</span></div>
+      <div class="card">
+        <div><div class="eyebrow">Módulo 1 · Saludar y presentarte</div>
+        <div class="row sp" style="margin-top:2px"><b style="font-size:17px">Tu sesión</b><span class="muted num">≈ 16 min</span></div></div>
+        <div>
+          <div class="blk"><span class="tag form">Repaso</span><span class="g">6 tarjetas que tocan hoy</span><span class="muted num">3 min</span></div>
+          <div class="blk"><span class="tag form">Estudiar</span><span class="g"><span class="it">Essere</span> y <span class="it">avere</span> · Descubre</span><span class="muted num">7 min</span></div>
+          <div class="blk"><span class="tag flu">Fluidez</span><span class="g">Escucha y repite</span><span class="muted num">6 min</span></div>
+        </div>
+        <div class="btn">Empezar · Repaso</div>
+        <div class="row" style="gap:8px"><span class="btn ghost grow">Solo 5 min</span><span class="btn ghost grow">Elegir otra cosa</span></div>
+      </div>
+      <div class="card">
+        <div class="row sp"><b>Esta semana</b><span class="muted num">85 min</span></div>
+        <div class="stack"><i class="in" style="flex:22"></i><i class="form" style="flex:48"></i><i class="out" style="flex:9"></i><i class="flu" style="flex:6"></i></div>
+        <div class="row sp sm muted num"><span>Entender 22</span><span>Estudiar 48</span><span>Producir 9</span><span>Fluidez 6</span></div>
+        <p class="sm">Producir va corto. La Salida del módulo te toca en 2 pasos.</p>
+      </div>
+      <div class="sm muted">Módulo 1 · 3 de 9 pasos</div>
+      <div class="bar" style="margin-top:-6px"><i style="width:33%"></i></div>
+    </div>
+    <div class="tabs"><span class="on"><svg><use href="#i-hoy"/></svg>Hoy</span><span><svg><use href="#i-ruta"/></svg>Ruta</span><span><svg><use href="#i-prac"/></svg>Practicar</span><span><svg><use href="#i-bib"/></svg>Biblioteca</span><span><svg><use href="#i-prog"/></svg>Progreso</span></div>
+  </div>
+  <div class="notes">
+    <h2>1 · Hoy: «¿qué hago ahora y cuánto dura?»</h2>
+    <p class="now">Ahora: lista de hasta seis bloques numerados sin orden, texto «Cómo empezar» de cinco líneas, y «Tu semana» con cuatro barras y cuatro explicaciones.</p>
+    <ul>
+      <li>Una sesión de tres filas en el orden real en que las harás, con nombres que entiendes y el color de su hebra.</li>
+      <li>Un botón principal. Dos salidas secundarias para cuando tienes poco tiempo o quieres otra cosa (hoy solo existe «Continuar»).</li>
+      <li>La semana en una sola barra apilada y una frase que dice qué falta y cuándo llegará.</li>
+      <li>La racha se queda como dato discreto. Si se corta, no se anuncia.</li>
+    </ul>
+    <p class="why">Por qué: Duolingo pasó a un camino único porque la gente no sabía si usaba bien la app; la crítica fue perder la opción de elegir. Aquí hay camino claro y salida lateral. Sobre rachas, un estudio de 2023 encontró que resaltar una racha rota hace abandonar.</p>
+  </div>
+</section>
+
+<!-- 2 RUTA -->
+<section class="shot">
+  <div class="phone" aria-label="Maqueta de la pantalla Ruta">
+    <div class="scr">
+      <div class="row sp"><span class="t1">Ruta</span><span class="chip">A1</span></div>
+      <div><div class="row sp sm muted num"><span>0 de 12 módulos</span><span>examen A1 al final</span></div><div class="bar" style="margin-top:4px"><i style="width:4%"></i></div></div>
+      <div class="card" style="border-color:var(--accent)">
+        <div class="row"><span class="n on">1</span><b style="font-size:16px">Saludar y presentarte</b></div>
+        <div class="seg"><i class="d"></i><i class="h"></i><i></i><i></i><i></i></div>
+        <div class="seglab"><span>Entrada</span><span>Cápsulas</span><span>Salida</span><span>Fluidez</span><span>Cierre</span></div>
+        <div class="btn">Continuar · <span class="it" style="margin-left:5px">Essere</span>&nbsp;y&nbsp;<span class="it">avere</span></div>
+      </div>
+      <div>
+        <div class="mod"><span class="n">2</span><div><b>Dar tus datos</b><div class="sm muted">Origen, edad, deletrear tu nombre</div></div></div>
+        <div class="mod"><span class="n">3</span><div><b>La clase y tus cosas</b><div class="sm muted">Nombrar objetos con «questo» y «quello»</div></div></div>
+        <div class="mod"><span class="n">4</span><div><b>Tu familia y cómo es la gente</b><div class="sm muted">Presentar a tu familia con los posesivos</div></div></div>
+        <div class="mod"><span class="n">5</span><div><b>Tu rutina y tu semana</b><div class="sm muted">Contar qué haces cada día y a qué hora</div></div></div>
+        <div class="mod"><span class="n">6</span><div><b>Tiempo libre y planes</b><div class="sm muted">Proponer un plan y aceptarlo o rechazarlo</div></div></div>
+      </div>
+    </div>
+    <div class="tabs"><span><svg><use href="#i-hoy"/></svg>Hoy</span><span class="on"><svg><use href="#i-ruta"/></svg>Ruta</span><span><svg><use href="#i-prac"/></svg>Practicar</span><span><svg><use href="#i-bib"/></svg>Biblioteca</span><span><svg><use href="#i-prog"/></svg>Progreso</span></div>
+  </div>
+  <div class="notes">
+    <h2>2 · Ruta: «¿dónde estoy en el camino?»</h2>
+    <p class="now">Ahora: dos párrafos de método y de horas estimadas, y doce nodos en zigzag con título subrayado y tres líneas cada uno. En un teléfono caben dos módulos y medio.</p>
+    <ul>
+      <li>El módulo en curso es la única tarjeta destacada, con sus cinco etapas en una tira y el botón para seguir.</li>
+      <li>Los demás son filas compactas: número, lo que sabrás hacer, nada más. Caben seis o siete por pantalla.</li>
+      <li>Las horas de referencia, la explicación del método y los avisos pasan a un «Cómo funciona» plegado al final.</li>
+      <li>Hablar y Escribir libres salen de aquí y van a la pestaña Practicar.</li>
+    </ul>
+    <p class="why">Por qué: quitar lo que no hace falta para la tarea mejora el aprendizaje (principio de coherencia de Mayer: 18 de 19 experimentos a favor). Los avisos de honestidad se conservan, pero donde se consultan, no donde estorban.</p>
+  </div>
+</section>
+
+<!-- 3 MÓDULO -->
+<section class="shot">
+  <div class="phone" aria-label="Maqueta de la pantalla de módulo">
+    <div class="scr">
+      <div class="sm muted">‹ Ruta · Módulo 1</div>
+      <div class="t1" style="font-size:21px;margin-top:-6px">Saludar y presentarte</div>
+      <div class="tl">
+        <div class="st"><span class="dot ok">✓</span><div><div class="row sp"><b>Entrada</b><span class="tag in">Entender</span></div><div class="sm muted"><span class="it">I saluti</span> · diálogo real</div></div></div>
+        <div class="st"><span class="dot on"></span><div><div class="row sp"><b>Cápsulas · 1 de 4</b><span class="tag form">Estudiar</span></div>
+          <div class="cap" style="border-top:0"><span>Saludar y ser cortés</span><span class="pips"><i class="d"></i><i class="d"></i><i class="d"></i><i class="d"></i><i class="d"></i></span></div>
+          <div class="cap"><span><b><span class="it">Essere</span> y <span class="it">avere</span></b><br><span class="sm muted">Sigue: Descubre · 7 min</span></span><span class="pips"><i></i><i></i><i></i><i></i><i></i><i></i></span></div>
+          <div class="cap muted"><span><span class="it">Mi chiamo, ti chiami</span></span><span class="pips"><i></i><i></i><i></i><i></i><i></i></span></div>
+          <div class="cap muted"><span>Sonidos c y g</span><span class="pips"><i></i><i></i><i></i><i></i><i></i></span></div>
+        </div></div>
+        <div class="st"><span class="dot"></span><div><div class="row sp"><b>Salida</b><span class="tag out">Producir</span></div><div class="sm muted">Un juego de roles y un mensaje tuyo</div></div></div>
+        <div class="st"><span class="dot"></span><div><div class="row sp"><b>Fluidez</b><span class="tag flu">Fluidez</span></div><div class="sm muted">Releer y reescuchar, más rápido</div></div></div>
+        <div class="st"><span class="dot"></span><div><b>Cierre</b><div class="sm muted">Prueba mezclada · 80 % para completar</div></div></div>
+      </div>
+      <div class="grow"></div>
+      <div class="btn">Continuar · Descubre · 7 min</div>
+    </div>
+    <div class="tabs"><span><svg><use href="#i-hoy"/></svg>Hoy</span><span class="on"><svg><use href="#i-ruta"/></svg>Ruta</span><span><svg><use href="#i-prac"/></svg>Practicar</span><span><svg><use href="#i-bib"/></svg>Biblioteca</span><span><svg><use href="#i-prog"/></svg>Progreso</span></div>
+  </div>
+  <div class="notes">
+    <h2>3 · Módulo: «¿qué me falta para terminar esto?»</h2>
+    <p class="now">Ahora: cinco tarjetas grandes con explicación y botón «Hacer» cada una; hay que desplazarse tres pantallas para ver el módulo entero. Al tocar una cápsula se abre otra pantalla con siete tarjetas más.</p>
+    <ul>
+      <li>El módulo completo cabe en una pantalla como línea de tiempo. Se ve de un vistazo lo hecho, lo actual y lo que falta.</li>
+      <li>Cada cápsula muestra sus pasos como puntos. Tocar la cápsula actual lleva directo al paso siguiente; la pantalla intermedia de siete tarjetas deja de ser parada obligada.</li>
+      <li>Un solo botón fijo abajo, el mismo que en Hoy. Repetir un paso ya hecho se ofrece al tocarlo.</li>
+      <li>«Al terminar sabrás» y los textos opcionales quedan debajo, plegados.</li>
+    </ul>
+    <p class="why">Por qué: dividir el material en tramos cortos que tú controlas ayuda (principio de segmentación), pero cada pantalla de índice adicional es carga que no enseña italiano.</p>
+  </div>
+</section>
+
+<!-- 4 CÁPSULA / FICHA -->
+<section class="shot">
+  <div class="phone" aria-label="Maqueta de la ficha de una cápsula">
+    <div class="scr">
+      <div class="sm muted">‹ Saludar y presentarte</div>
+      <div class="t1 it" style="font-size:22px;margin-top:-6px">Essere e avere</div>
+      <div class="stepper"><span class="on">Descubre</span><span>Cápsula</span><span>Práctica</span><span>Escucha</span><span>Práctica 2</span><span>Prueba</span></div>
+      <div class="contrast"><span class="l">ES</span><span class="es">Estoy cansado.</span><span class="l">IT</span><span class="itx"><mark>Sono</mark> stanco.</span><span class="rule"><span class="it">Essere</span> vale para «ser» y para «estar».</span></div>
+      <div class="contrast"><span class="l">ES</span><span class="es">Tengo veinte años.</span><span class="l">IT</span><span class="itx"><mark>Ho</mark> venti anni.</span><span class="rule">La h de <span class="it">ho, hai, ha, hanno</span> se escribe y no suena.</span></div>
+      <table class="cj"><thead><tr><th></th><th>essere</th><th>avere</th></tr></thead><tbody>
+        <tr><td>io</td><td>sono</td><td>ho</td></tr><tr><td>tu</td><td>sei</td><td>hai</td></tr><tr><td>lui, lei</td><td>è</td><td>ha</td></tr>
+        <tr><td>noi</td><td>siamo</td><td>abbiamo</td></tr><tr><td>voi</td><td>siete</td><td>avete</td></tr><tr><td>loro</td><td>sono</td><td>hanno</td></tr></tbody></table>
+      <div class="grow"></div>
+      <div class="btn">Empezar · Descubre · 7 min</div>
+    </div>
+  </div>
+  <div class="notes">
+    <h2>4 · Ficha de la cápsula: el contraste con forma propia</h2>
+    <p class="now">Ahora: objetivo, «por qué aquí», y la ficha como dos párrafos donde las doce formas del verbo van separadas por comas dentro de una frase.</p>
+    <ul>
+      <li>Una tarjeta de contraste que se repite en toda la app: español en gris, italiano en serif grande, lo que cambia resaltado y la regla en una línea.</li>
+      <li>Las conjugaciones en tabla, que es como se consultan.</li>
+      <li>Los pasos como tira horizontal; se ve cuántos son sin ocupar la pantalla.</li>
+      <li>La misma ficha se abre desde cualquier ejercicio de la cápsula con un toque («Ver ficha»).</li>
+    </ul>
+    <p class="why">Por qué: un estudio con 68 hispanohablantes concluyó que resaltar ejemplos correctos no basta para desaprender un rasgo del español; hace falta enseñanza explícita. Y añadir a la explicación cómo funciona la lengua materna mejoró precisión y velocidad (McManus y Marsden 2017). Ambos ya están citados en tu documento de métodos.</p>
+  </div>
+</section>
+
+<!-- 5 EJERCICIO -->
+<section class="shot two">
+  <div class="phone" aria-label="Maqueta de un ejercicio">
+    <div class="scr">
+      <div class="fh"><span class="x">×</span><div class="bar"><i style="width:30%"></i></div><span class="sm muted num">8 / 24</span></div>
+      <div class="row sp"><span class="eyebrow">Elige la frase correcta</span><span class="sm" style="color:var(--accent);font-weight:600">Ver ficha</span></div>
+      <div class="grow" style="display:flex;flex-direction:column;justify-content:center;gap:6px">
+        <div class="eyebrow">Quieres decir</div>
+        <div style="font-size:22px;line-height:1.3">¿Tú eres Tom?</div>
+      </div>
+      <div class="opt">Tu sei Tom?</div>
+      <div class="opt">Tu è Tom?</div>
+      <div class="opt">Tu siete Tom?</div>
+    </div>
+  </div>
+  <div class="phone" aria-label="Maqueta de la corrección tras un error">
+    <div class="scr">
+      <div class="fh"><span class="x">×</span><div class="bar"><i style="width:30%"></i></div><span class="sm muted num">8 / 24</span></div>
+      <div class="eyebrow">Elige la frase correcta</div>
+      <div style="font-size:18px">¿Tú eres Tom?</div>
+      <div class="opt ok">Tu sei Tom?</div>
+      <div class="opt" style="opacity:.55">Tu è Tom?</div>
+      <div class="opt bad">Tu siete Tom?</div>
+      <div class="grow"></div>
+      <div class="sheet">
+        <b style="color:var(--bad)">Casi</b>
+        <div class="kv"><span class="k">Dijiste</span><span class="it"><del>Tu siete Tom?</del></span><span class="k">Se dice</span><span class="it" style="font-size:19px">Tu <mark>sei</mark> Tom?</span></div>
+        <p class="sm"><span class="it">Siete</span> es la forma de <span class="it">voi</span>. Con <span class="it">tu</span> va <span class="it">sei</span>.</p>
+        <div class="row" style="gap:8px"><span class="btn ghost">Escuchar</span><span class="btn ghost">Ver ficha</span></div>
+        <div class="btn">Continuar</div>
+        <span class="sm muted">Volverá al final de esta tanda.</span>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <h2>5 · Ejercicio y corrección</h2>
+    <p class="now">Ahora: la consigna va en gris pequeño arriba, las opciones pegadas a ella y media pantalla vacía. El porqué del error está escondido tras «¿Por qué?».</p>
+    <ul>
+      <li>Lo que quieres decir, en español y grande, al centro. Las respuestas abajo, donde llega el pulgar.</li>
+      <li>La corrección compara tu respuesta con la correcta y muestra el porqué a la vista, en una línea. Se comprende sin tocar nada.</li>
+      <li>Contador simple (8 / 24) en vez de «Ejercicio 1 de 24 · quedan ≈ 11 min».</li>
+      <li>La hoja de corrección actual ya está bien encaminada; esto la afina, no la reemplaza.</li>
+    </ul>
+    <p class="why">Por qué: una corrección que muestra qué falló exactamente rinde más que un correcto/incorrecto (Ngo et al. 2024, en tu documento). Pendiente de comprobar: que cada ejercicio de elección tenga su frase en español en los datos; si no, se mantiene la consigna actual.</p>
+  </div>
+</section>
+
+<!-- 6 PRACTICAR -->
+<section class="shot">
+  <div class="phone" aria-label="Maqueta de la pestaña Practicar">
+    <div class="scr">
+      <span class="t1">Practicar</span>
+      <div class="card">
+        <div class="row sp"><b>Repaso</b><span class="tag form">Estudiar</span></div>
+        <div class="muted">6 tarjetas tocan hoy · 3 min</div>
+        <div class="btn">Repasar</div>
+      </div>
+      <div class="card">
+        <div class="row sp"><b>Hablar</b><span class="tag out">Producir</span></div>
+        <div class="blk" style="padding-top:0"><span class="g">Juegos de roles</span><span class="muted num">2 abiertos</span></div>
+        <div class="blk"><span class="g">Tareas orales</span><span class="muted num">1 abierta</span></div>
+        <div class="blk"><span class="g">Frases útiles</span><span class="muted">›</span></div>
+      </div>
+      <div class="card">
+        <div class="row sp"><b>Escribir</b><span class="tag out">Producir</span></div>
+        <div class="blk" style="padding-top:0"><span class="g">Reconstruir un texto</span><span class="muted">›</span></div>
+        <div class="blk"><span class="g">Mi propio texto</span><span class="muted">›</span></div>
+      </div>
+      <div class="card">
+        <div class="row sp"><b>Lo que más te cuesta</b><span class="tag form">Estudiar</span></div>
+        <div class="muted">10 frases de tus tres puntos débiles</div>
+      </div>
+    </div>
+    <div class="tabs"><span><svg><use href="#i-hoy"/></svg>Hoy</span><span><svg><use href="#i-ruta"/></svg>Ruta</span><span class="on"><svg><use href="#i-prac"/></svg>Practicar</span><span><svg><use href="#i-bib"/></svg>Biblioteca</span><span><svg><use href="#i-prog"/></svg>Progreso</span></div>
+  </div>
+  <div class="notes">
+    <h2>6 · Practicar: todo lo libre en un solo lugar</h2>
+    <p class="now">Ahora: «Repaso» es una pestaña que casi siempre muestra «No tienes repasos pendientes». Hablar y Escribir están al final de la Ruta, tras doce módulos. Ajustes ocupa una pestaña entera.</p>
+    <ul>
+      <li>La pestaña Repaso pasa a ser Practicar: repaso, hablar, escribir y práctica de puntos débiles.</li>
+      <li>Hablar abre con su lista de práctica; los tres párrafos de avisos van a un «Acerca de esta práctica» plegado.</li>
+      <li>Ajustes y Acerca se abren desde un engranaje en Progreso.</li>
+    </ul>
+    <p class="why">«Lo que más te cuesta» es nuevo y depende de datos que hay que confirmar que la app ya guarda (aciertos por código de error). Tu plan de módulos lo deja como siguiente paso.</p>
+  </div>
+</section>
+
+<!-- 7 PROGRESO -->
+<section class="shot">
+  <div class="phone" aria-label="Maqueta de la pestaña Progreso">
+    <div class="scr">
+      <div class="row sp"><span class="t1">Progreso</span><span class="muted">Ajustes</span></div>
+      <div class="card">
+        <div class="row sp"><b>Ya sabes hacer</b><span class="muted num">3 de 46</span></div>
+        <div class="cando"><span class="cb ok">✓</span><span>Saludar y despedirte con «tu» y con «Lei»</span></div>
+        <div class="cando"><span class="cb ok">✓</span><span>Decir tu nombre y preguntar el de otra persona</span></div>
+        <div class="cando"><span class="cb"></span><span>Decir cómo estás y preguntar cómo está el otro</span></div>
+        <div class="cando"><span class="cb"></span><span>Pronunciar bien <span class="it">ci, ce, chi, che</span></span></div>
+      </div>
+      <div class="card">
+        <b>Lo que más te cuesta</b>
+        <div>
+          <div class="hot"><span>Consonantes dobles</span><div class="bar"><i style="width:45%;background:var(--bad)"></i></div><span class="muted num sm">45 %</span></div>
+          <div class="hot"><span><span class="it">il / lo / l’</span></span><div class="bar"><i style="width:62%;background:var(--s-out)"></i></div><span class="muted num sm">62 %</span></div>
+          <div class="hot"><span><span class="it">essere / avere</span></span><div class="bar"><i style="width:80%"></i></div><span class="muted num sm">80 %</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row sp"><b>Últimas 4 semanas</b><span class="muted num">5 h 40 min</span></div>
+        <div class="cal"><i class="a"></i><i class="b"></i><i></i><i class="a"></i><i class="a"></i><i class="b"></i><i></i><i class="a"></i><i class="a"></i><i></i><i class="b"></i><i class="a"></i><i class="a"></i><i></i><i class="b"></i><i class="a"></i><i class="a"></i><i></i><i></i><i class="a"></i><i class="b"></i><i class="a"></i><i class="a"></i><i class="a"></i><i class="b"></i><i class="a"></i><i></i><i class="b"></i></div>
+      </div>
+    </div>
+    <div class="tabs"><span><svg><use href="#i-hoy"/></svg>Hoy</span><span><svg><use href="#i-ruta"/></svg>Ruta</span><span><svg><use href="#i-prac"/></svg>Practicar</span><span><svg><use href="#i-bib"/></svg>Biblioteca</span><span class="on"><svg><use href="#i-prog"/></svg>Progreso</span></div>
+  </div>
+  <div class="notes">
+    <h2>7 · Progreso: «¿estoy aprendiendo?»</h2>
+    <p class="now">Ahora: el avance se reparte entre Hoy (minutos por hebra), Ruta (conteo de módulos) y el cierre de cada módulo («sé hacer»). No hay un lugar donde verlo junto.</p>
+    <ul>
+      <li>Primero lo que ya sabes hacer, con las frases del programa CILS/PLIDA que ya están en cada módulo.</li>
+      <li>Después tus puntos débiles por precisión, que es el objetivo declarado de la app: evitar que el error se fije.</li>
+      <li>Al final el tiempo real, como calendario. Los números de la maqueta son de ejemplo.</li>
+    </ul>
+    <p class="why">Por qué: los programas oficiales italianos describen cada nivel por lo que la persona sabe hacer, no por unidades cerradas. Y en apps, el mejor predictor del resultado es el tiempo real de estudio (Loewen et al. 2020).</p>
+  </div>
+</section>
+
+<div style="border-top:1px solid var(--line);padding-top:28px;display:flex;flex-direction:column;gap:14px">
+  <h2>Cómo lo construiría</h2>
+  <p class="lead">Se conserva la identidad actual (papel, tinta y terracota, italiano en serif, modo oscuro) y toda la lógica de progreso, repaso y contenido. Cambian la organización y los componentes. Cada etapa deja la app usable y te muestro capturas antes de pasar a la siguiente.</p>
+  <ol class="steps">
+    <li><b>Base visual</b><br><span>Colores de hebra, iconos propios, tarjeta de contraste, tabla de conjugación, fila compacta. Arreglo del desplazamiento que no vuelve arriba al cambiar de pantalla.</span></li>
+    <li><b>Hoy y Ruta</b><br><span>Sesión de tres filas, barra semanal, ruta compacta, textos largos plegados.</span></li>
+    <li><b>Módulo y cápsula</b><br><span>Línea de tiempo, pasos como puntos, ficha contrastiva, acceso directo al paso siguiente.</span></li>
+    <li><b>Ejercicio y corrección</b><br><span>Consigna al centro, respuestas abajo, porqué visible, «Ver ficha».</span></li>
+    <li><b>Practicar y Progreso</b><br><span>Nuevas pestañas; puntos débiles solo si los datos ya existen.</span></li>
+  </ol>
+</div>
+</div>
+
+</body></html>

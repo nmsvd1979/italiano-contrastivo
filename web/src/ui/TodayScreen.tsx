@@ -1,11 +1,12 @@
 import { STEP_LABEL } from "../state/course";
-import { BLOCKS, type SessionBlock } from "../state/dayplan";
+import type { SessionBlock } from "../state/dayplan";
 import { MODULE_STEP_LABEL } from "../state/modules";
 import type { TodayPlan } from "../state/session";
 import type { DayProgress } from "../state/store";
 import type { Seconds } from "../state/strands";
 import { formatDuration } from "../state/timing";
-import { WeekCard } from "./WeekCard";
+import { Tag } from "./kit/Tag";
+import { WeekBar } from "./kit/WeekBar";
 
 const plural = (n: number, one: string, many: string) => `${n} ${n === 1 ? one : many}`;
 export type Streak = { streak: number; studiedToday: boolean; protectorUsed: boolean };
@@ -20,14 +21,35 @@ export function nextAction(plan: TodayPlan): { href: string; label: string } {
   return { href: "#/ruta", label: "Ver la ruta" };
 }
 
+const SHORT_SECONDS = 5 * 60;
+/** Lo que se puede abrir ya: el repaso y el paso actual de la unidad o del módulo (los pasos siguientes siguen bloqueados). */
+function openableHrefs(plan: TodayPlan): Set<string> {
+  const hrefs = new Set(["#/repaso"]);
+  if (plan.unit) hrefs.add(`#/unidad/${plan.unit.view.unit.id}/${plan.unit.step}`);
+  if (plan.module) hrefs.add(`#/modulo/${plan.module.view.module.id}/${plan.module.step}`);
+  return hrefs;
+}
+/** Salidas de «Hoy»: «Solo N min» (el bloque abrible más corto de hasta 5 min, si no es el principal) y «Elegir otra cosa». */
+export function secondaryActions(plan: TodayPlan, blocks: SessionBlock[] | undefined, primaryHref: string): { short: { href: string; label: string } | null; other: { href: string; label: string } } {
+  const openable = openableHrefs(plan);
+  const candidates = (blocks ?? []).filter((b) => !b.done && b.seconds <= SHORT_SECONDS && b.href !== primaryHref && openable.has(b.href)).sort((x, y) => x.seconds - y.seconds);
+  const first = candidates[0];
+  return {
+    short: first ? { href: first.href, label: `Solo ${Math.ceil(first.seconds / 60)} min` } : null,
+    other: { href: "#/practicar", label: "Elegir otra cosa" },
+  };
+}
+
 export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, week }: { plan: TodayPlan; day: DayProgress; storeError?: string | null; firstTime?: boolean; streak?: Streak; blocks?: SessionBlock[]; week?: Seconds }) {
   const pending = plan.review.due + plan.review.newAvailable;
   const { unit, route } = plan;
   const action = nextAction(plan);
+  const nothingToday = day.reviewsDone === 0 && plan.stepsToday === 0;
+  const extra = secondaryActions(plan, blocks, action.href);
   const reviewDone = day.reviewsDone > 0 && pending === 0;
   const unitDone = plan.stepsToday > 0;
   return (
-    <main>
+    <main className="today">
       <div className="top">
         <h1>Hoy</h1>
         {streak && streak.streak > 0 && (
@@ -38,10 +60,10 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, 
       </div>
       {storeError && <p role="alert" className="alert">{storeError}</p>}
       {firstTime && (
-        <section>
-          <h2>Cómo empezar</h2>
+        <details className="how">
+          <summary>Cómo empezar</summary>
           <p>Sigue la ruta: cada módulo es una situación (por ejemplo, presentarte): entras con un texto real, estudias sus cápsulas, hablas y escribes tú, y cierras con una prueba. Haz uno o dos al día; el repaso te devuelve lo aprendido justo antes de olvidarlo. Si ya sabes algo, la <a href="#/ubicacion">prueba de ubicación</a> te deja saltarlo.</p>
-        </section>
+        </details>
       )}
       <div className="hero">
         {unit ? (
@@ -59,26 +81,25 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, 
           <div className="title">Completaste todas las unidades disponibles. <a href="#/ruta">Ver la ruta</a></div>
         )}
         {blocks && (
-          <>
-            <div className="bar seg" aria-hidden="true">
-              {blocks.map((b, i) => <i key={i} style={{ flex: Math.max(1, Math.round(b.seconds / 60)), background: b.done ? BLOCKS[b.key].color : "var(--line)" }} />)}
-            </div>
-            <ul className="blocks">
-              {blocks.map((b, i) => (
-                <li key={`${b.key}-${b.step ?? "r"}-${i}`} data-done={b.done} data-next={!b.done && blocks.findIndex((x) => !x.done) === i}>
-                  <span className="dot" style={{ background: BLOCKS[b.key].color }} />
-                  <span className="t"><b>{BLOCKS[b.key].n} {b.title}</b><small>{b.subtitle}</small></span>
-                  <span className="min">{b.done ? "✓" : formatDuration(b.seconds)}</span>
-                </li>
-              ))}
-            </ul>
-          </>
+          <ul className="blocks">
+            {blocks.map((b, i) => (
+              <li key={`${b.key}-${b.step ?? "r"}-${i}`} data-done={b.done} data-next={!b.done && blocks.findIndex((x) => !x.done) === i}>
+                <Tag strand={b.strand} />
+                <span className="t"><b>{b.label}</b>{b.subtitle && <small>{b.subtitle}</small>}</span>
+                <span className="min">{b.done ? "✓" : formatDuration(b.seconds)}</span>
+              </li>
+            ))}
+          </ul>
         )}
         <p><small>Hoy llevas {plural(plan.stepsToday, "paso", "pasos")} y {plural(day.reviewsDone, "repaso", "repasos")}. Cada bloque se puede hacer por separado.</small></p>
       </div>
-      {week && <WeekCard week={week} />}
+      {week && <WeekBar week={week} />}
       <div className="actions-bottom above-tabs">
-        <a className="button primary block" href={action.href}>Continuar · {action.label}</a>
+        <div className="secondary">
+          {extra.short && <a className="button" href={extra.short.href}>{extra.short.label}</a>}
+          <a className="button" href={extra.other.href}>{extra.other.label}</a>
+        </div>
+        <a className="button primary block" href={action.href}>{action.href === "#/ruta" ? action.label : `${nothingToday ? "Empezar" : "Continuar"} · ${action.label}`}</a>
       </div>
     </main>
   );

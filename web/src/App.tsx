@@ -20,11 +20,14 @@ import { UnitScreen } from "./ui/UnitScreen";
 import { ReviewScreen } from "./ui/ReviewScreen";
 import { TodayScreen } from "./ui/TodayScreen";
 import { TabBar, isFocusRoute } from "./ui/kit/TabBar";
+import { useScrollTop } from "./ui/kit/useScrollTop";
 import { computeStreak } from "./state/streak";
 import { weekTotals } from "./state/strands";
 import { planSession } from "./state/dayplan";
 import { isPreview, PREVIEW_DB, REAL_DB, setPreview } from "./state/preview";
 import { WriteScreen } from "./ui/WriteScreen";
+import { PracticeScreen } from "./ui/PracticeScreen";
+import { ProgressScreen } from "./ui/ProgressScreen";
 import { DictationTestScreen } from "./ui/DictationTestScreen";
 import { LibraryScreen } from "./ui/LibraryScreen";
 import { ModuleScreen } from "./ui/ModuleScreen";
@@ -44,10 +47,13 @@ function useHash() {
   return hash;
 }
 
-function Today({ pack, store, storeError }: Ready) {
-  const [data, setData] = useState<{ cards: Card[]; day: DayProgress; units: UnitProgress[]; days: DayProgress[] } | null>(null);
+type DayData = { cards: Card[]; day: DayProgress; units: UnitProgress[]; days: DayProgress[] };
+
+/** Carga lo guardado del día; al volver a la app (p. ej. otro día) se recalcula. */
+function useDayData(store: Store): DayData | null {
+  const [data, setData] = useState<DayData | null>(null);
   const [tick, setTick] = useState(0);
-  useEffect(() => { // al volver a la app (p. ej. otro día) se recalcula la sesión de hoy
+  useEffect(() => {
     const on = () => document.visibilityState === "visible" && setTick((t) => t + 1);
     document.addEventListener("visibilitychange", on);
     return () => document.removeEventListener("visibilitychange", on);
@@ -56,10 +62,28 @@ function Today({ pack, store, storeError }: Ready) {
     const now = new Date();
     Promise.all([store.allCards(), store.getDay(localDate(now)), store.allUnits(), store.allDays()]).then(([cards, day, units, days]) => setData({ cards, day: normalizeDay(day, now), units, days }));
   }, [store, tick]);
+  return data;
+}
+
+function Today({ pack, store, storeError }: Ready) {
+  const data = useDayData(store);
   if (!data) return <p>Cargando…</p>;
   const samples = loadSamples();
   const plan = planToday({ pack, cards: data.cards, day: data.day, now: new Date(), units: data.units, samples });
   return <TodayScreen plan={plan} blocks={planSession({ plan, day: data.day, pack, samples })} day={data.day} storeError={storeError} firstTime={data.cards.length === 0 && data.units.length === 0 && data.day.reviewsDone === 0} streak={computeStreak(data.days, localDate(new Date()))} week={weekTotals(data.days, localDate(new Date()))} />;
+}
+
+function Practice({ pack, store }: Ready) {
+  const data = useDayData(store);
+  if (!data) return <p>Cargando…</p>;
+  const plan = planToday({ pack, cards: data.cards, day: data.day, now: new Date(), units: data.units, samples: loadSamples() });
+  return <PracticeScreen review={plan.review} />;
+}
+
+function Progress({ store }: Ready) {
+  const data = useDayData(store);
+  if (!data) return <p>Cargando…</p>;
+  return <ProgressScreen week={weekTotals(data.days, localDate(new Date()))} />;
 }
 
 function useViews(ready: Ready, hash: string) {
@@ -95,6 +119,7 @@ function Routes({ ready, hash }: { ready: Ready; hash: string }) {
 
 export function App() {
   const hash = useHash();
+  useScrollTop(hash);
   const [ready, setReady] = useState<Ready | null>(null);
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
@@ -122,6 +147,8 @@ export function App() {
         </p>
       )}
       {hash === "#/repaso" ? <ReviewScreen pack={ready.pack} store={ready.store} />
+        : hash === "#/practicar" ? <Practice {...ready} />
+        : hash === "#/progreso" ? <Progress {...ready} />
         : hash === "#/hablar" ? <SpeakingScreen pack={ready.pack} store={ready.store} />
         : hash === "#/biblioteca" ? <LibraryScreen pack={ready.pack} store={ready.store} />
         : hash === "#/prueba-dictado" ? <DictationTestScreen pack={ready.pack} />

@@ -1,9 +1,11 @@
-const TABS = [
-  { href: "#/", ico: "●", label: "Hoy", match: (h: string) => h === "#/" || h === "" || h === "#" },
-  { href: "#/ruta", ico: "☰", label: "Ruta", match: (h: string) => h.startsWith("#/ruta") || h.startsWith("#/unidad") || h.startsWith("#/modulo") },
-  { href: "#/repaso", ico: "↻", label: "Repaso", match: (h: string) => h.startsWith("#/repaso") },
-  { href: "#/biblioteca", ico: "📚", label: "Biblioteca", match: (h: string) => h.startsWith("#/biblioteca") },
-  { href: "#/ajustes", ico: "⚙", label: "Ajustes", match: (h: string) => h.startsWith("#/ajustes") || h.startsWith("#/acerca") },
+import { Icon, type IconName } from "./Icon";
+
+const TABS: { href: string; ico: IconName; label: string; match: (h: string) => boolean }[] = [
+  { href: "#/", ico: "hoy", label: "Hoy", match: (h) => h === "#/" || h === "" || h === "#" },
+  { href: "#/ruta", ico: "ruta", label: "Ruta", match: (h) => h.startsWith("#/ruta") || h.startsWith("#/unidad") || h.startsWith("#/modulo") },
+  { href: "#/practicar", ico: "practicar", label: "Practicar", match: (h) => h.startsWith("#/practicar") || h.startsWith("#/hablar") || h.startsWith("#/escribir") },
+  { href: "#/biblioteca", ico: "biblioteca", label: "Biblioteca", match: (h) => h.startsWith("#/biblioteca") },
+  { href: "#/progreso", ico: "progreso", label: "Progreso", match: (h) => h.startsWith("#/progreso") || h.startsWith("#/ajustes") || h.startsWith("#/acerca") },
 ];
 
 export function TabBar({ hash }: { hash: string }) {
@@ -11,7 +13,7 @@ export function TabBar({ hash }: { hash: string }) {
     <nav className="tabbar" aria-label="Principal">
       {TABS.map((t) => (
         <a key={t.href} href={t.href} aria-current={t.match(hash) ? "page" : undefined}>
-          <span className="ico" aria-hidden="true">{t.ico}</span>{t.label}
+          <Icon name={t.ico} />{t.label}
         </a>
       ))}
     </nav>

@@ -72,6 +72,7 @@ export function SettingsScreen({ store, memoryOnly }: { store: Store; memoryOnly
 
   return (
     <main>
+      <p><a className="tap" href="#/progreso" style={{ textDecoration: "none" }}>← Progreso</a></p>
       <h1>Ajustes</h1>
       <p><a href="#/acerca">Acerca de, licencias y cómo se revisó el contenido</a></p>
       <p><a href="#/ubicacion">Prueba de ubicación: dónde empezar en la app</a></p>

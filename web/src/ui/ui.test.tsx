@@ -127,8 +127,8 @@ describe("TodayScreen", () => {
     const plan = planToday({ pack: pack(), cards: [], day, now: NOW, units: twoDone });
     render(<TodayScreen plan={plan} day={day} blocks={planSession({ plan, day, pack: pack() })} />);
     expect(screen.getByText("Tener no es tenere")).toBeTruthy();
-    expect(screen.getByText("① Repaso")).toBeTruthy();
-    expect(screen.getByText("④ Lectura y reconstrucción")).toBeTruthy();
+    expect(screen.getByText("Repaso")).toBeTruthy();
+    expect(screen.getByText("Descubre")).toBeTruthy();
     const go = screen.getByText(/^Continuar · Descubre/) as HTMLAnchorElement;
     expect(go.getAttribute("href")).toBe("#/unidad/u01/descubre");
     expect(screen.getByText(/2 repasos/)).toBeTruthy();
