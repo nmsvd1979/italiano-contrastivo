@@ -86,10 +86,10 @@
 - [ ] **Step 2: Run** → FAIL. **Step 3: Implement** (los wrappers `Progress`/`Practice` de `App.tsx` calculan `weakSpots(data.days, pack.course, today)`). **Step 4: Run** suite completa → verde.
 - [ ] **Step 5: Commit** `git commit -m "Lo que más te cuesta: puntos débiles en Progreso y una tanda de práctica"`.
 
-### Task 6: Verificación, simulador de iOS y registro
+### Task 6: Verificación y registro
 
 - [ ] **Step 1:** `npm --prefix web run build`; navegador a 375 y 320 px, claro y oscuro: sembrar días con `attempts` para ver Progreso y Practicar con puntos débiles, correr `#/debiles`, fallar un ejercicio y comprobar que se guarda el intento (leer IndexedDB); salir de un bloque a mitad (a la ficha) y volver para ver «Retomado» con el mismo ejercicio. Borrar lo sembrado.
-- [ ] **Step 2:** Simulador de iOS (si hay uno disponible): abrir la app en Safari del simulador para comprobar `:has()`/`dvh`, el menú inferior y las áreas seguras. Es WebKit real pero no un iPhone: no se marca como «probado en iPhone».
+- [ ] **Step 2:** (Retirado a petición del usuario: la prueba en iPhone la hace él; no se intenta ni en el simulador de iOS.)
 - [ ] **Step 3:** `CONTINUIDAD.md` (entrada nueva y quitar los pendientes cerrados) y `CLAUDE.md`; commit `Registro: pendientes del rediseño cerrados`.
 
 ## Decisiones que tomé yo (a revisar)

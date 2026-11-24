@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { PackSentence } from "../content/load";
 import type { Item } from "../generated/item";
-import { clearRun, loadRun, saveRun, signature } from "../state/runState";
+import { clearRun, loadRun, loadRunFrozen, saveRun, signature, type RunSnapshot } from "../state/runState";
 import { kindOf } from "../state/steps";
 import { type Kind, recordSample } from "../state/timing";
 import { DictationItem } from "./DictationItem";
@@ -27,19 +27,27 @@ export function ItemRunner({ items, requeueWrong = false, onFinish, exitHref = "
   items: RunItem[]; requeueWrong?: boolean; onFinish: (r: RunResult) => void; exitHref?: string; why?: string; fichaHref?: string; persistKey?: string; overrideBudget?: number;
 }) {
   const [overridesLeft, setOverridesLeft] = useState(overrideBudget ?? 0);
-  const ids = items.map((i) => i.id);
-  const saved = useRef(persistKey ? loadRun(persistKey, ids) : null).current;
-  const [queue, setQueue] = useState<number[]>(() => saved?.queue ?? items.map((_, i) => i));
+  // Un bloque a medias se retoma con sus propios ejercicios (guardados con él); un guardado antiguo, sin ellos, solo vale si la lista coincide.
+  const [resume] = useState<{ saved: RunSnapshot | null; list: RunItem[] }>(() => {
+    if (!persistKey) return { saved: null, list: items };
+    const frozen = loadRunFrozen(persistKey);
+    if (frozen) return { saved: frozen, list: frozen.items as RunItem[] };
+    return { saved: loadRun(persistKey, items.map((i) => i.id)), list: items };
+  });
+  const { saved } = resume;
+  const list = persistKey ? resume.list : items;   // sin guardado, la lista es la que llega (como antes)
+  const ids = list.map((i) => i.id);
+  const [queue, setQueue] = useState<number[]>(() => saved?.queue ?? list.map((_, i) => i));
   const [pos, setPos] = useState(saved?.pos ?? 0);
   const [done, setDone] = useState<number[]>(saved?.done ?? []);
   const [streak, setStreak] = useState(saved?.streak ?? 0);
-  const first = useRef<(boolean | null)[]>(saved?.first ?? items.map(() => null));
+  const first = useRef<(boolean | null)[]>(saved?.first ?? list.map(() => null));
   const requeued = useRef(new Set<number>(saved?.requeued ?? []));
   const started = useRef(Date.now());
   useEffect(() => { started.current = Date.now(); }, [pos]);
 
   const idx = queue[pos];
-  const current = items[idx];
+  const current = list[idx];
   const answer = (correct: boolean) => {
     if (first.current[idx] === null) {
       first.current[idx] = correct;
@@ -59,16 +67,16 @@ export function ItemRunner({ items, requeueWrong = false, onFinish, exitHref = "
     if (pos + 1 >= q.length) {
       if (persistKey) clearRun(persistKey);
       const answers = first.current.map((a) => a === true);
-      onFinish({ correct: answers.filter(Boolean).length, total: items.length, answers });
+      onFinish({ correct: answers.filter(Boolean).length, total: list.length, answers });
     } else {
       setPos(pos + 1);
-      if (persistKey) saveRun(persistKey, { sig: signature(ids), queue: q, pos: pos + 1, first: first.current, requeued: [...requeued.current], done: nextDone, streak: nextStreak });
+      if (persistKey) saveRun(persistKey, { sig: signature(ids), queue: q, pos: pos + 1, first: first.current, requeued: [...requeued.current], done: nextDone, streak: nextStreak, items: list, savedAt: Date.now() });
     }
   };
 
   return (
     <RunProvider value={{ why, fichaHref, requeue: requeueWrong && !requeued.current.has(idx), overrides: overrideBudget === undefined ? undefined : { left: overridesLeft, use: () => setOverridesLeft((n) => Math.max(0, n - 1)) } }}>
-      <FocusHead progress={items.length ? done.length / items.length : 0} exitHref={exitHref} count={`${pos + 1} / ${queue.length}`} />
+      <FocusHead progress={list.length ? done.length / list.length : 0} exitHref={exitHref} count={`${pos + 1} / ${queue.length}`} />
       {saved && pos === saved.pos && pos > 0 && <p className="runner-meta">Retomado donde lo dejaste</p>}
       {streak > 0 && streak % 5 === 0 && <p className="cheer" role="note">¡{streak} aciertos seguidos!</p>}
       {current.dictation
