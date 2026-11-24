@@ -65,12 +65,16 @@ export function markStep(p: UnitProgress, step: StepId, now: Date): UnitProgress
   return { ...p, done: { ...p.done, [step]: p.done[step] ?? now.toISOString() } };
 }
 
-/** Resultado de la prueba: ≥80 % completa la unidad; si no, hay que rehacer la práctica antes de reintentar. */
+/**
+ * Resultado de la prueba: ≥80 % completa la unidad; si no, hay que rehacer la práctica antes de reintentar. Cómo se completó la unidad
+ * (`mastery`) no cambia al repasar: una unidad saltada por la prueba de ubicación sigue contando como saltada, para que su módulo no deje de
+ * darse por saltado (y se bloqueen los siguientes) solo por haber vuelto a aprobar su prueba.
+ */
 export function applyTest(p: UnitProgress, correct: number, total: number, now: Date): { progress: UnitProgress; passed: boolean } {
   const ratio = total ? correct / total : 0;
   const best = Math.max(p.testBest ?? 0, ratio);
   if (ratio >= PASS_RATIO) {
-    return { passed: true, progress: { ...p, testBest: best, done: { ...p.done, prueba: now.toISOString() }, completed: true, completedAt: now.toISOString(), mastery: "prueba" } };
+    return { passed: true, progress: { ...p, testBest: best, done: { ...p.done, prueba: now.toISOString() }, completed: true, completedAt: now.toISOString(), mastery: p.mastery === "ubicacion" ? "ubicacion" : "prueba" } };
   }
   const { practica: _a, practica2: _b, prueba: _t, ...rest } = p.done;  // hay que rehacer las dos tandas de práctica
   return { passed: false, progress: { ...p, testBest: best, done: rest } };

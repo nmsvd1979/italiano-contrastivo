@@ -2,6 +2,15 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 (9) — Arreglo: repasar una unidad saltada por ubicación ya no descompleta el módulo
+**Pedido del usuario:** «Sigue con el arreglo de la ubicación» (pendiente anotado en la entrada 8).
+**Causa:** `applyTest` (`state/course.ts`) ponía `mastery: "prueba"` al aprobar la prueba de una unidad aunque ya estuviera completada por la prueba de ubicación, y `moduleViews` (`state/modules.ts`) solo da un módulo por saltado si **todas** sus unidades siguen en `mastery = "ubicacion"`. Al repasar y aprobar una sola unidad el módulo volvía a «en curso», se bloqueaban los siguientes y «Ya sabes hacer» bajaba.
+**Hecho:** al aprobar, `mastery` conserva «ubicacion» si la unidad ya la tenía (suspender ya no la cambiaba). Una prueba con el curso real reproduce el caso: módulo 1 saltado, se aprueba una de sus unidades y se suspende otra, y el módulo sigue completado y el 2 abierto. Una unidad completada con la prueba normal sigue con «prueba» y un módulo completado unidad a unidad sigue sin darse por saltado.
+**Decisión mía:** la procedencia («cómo se completó») no cambia al repasar; el mejor resultado de la prueba (`testBest`) sí se actualiza.
+**Límite:** no hay forma de recuperar el estado de quien ya haya repasado una unidad saltada antes de este arreglo (su `mastery` ya quedó en «prueba»); no hay migración. En el uso personal actual no se conoce ningún caso.
+**Comprobado:** web 1133 pruebas en verde y build compilando. No se revisó en el navegador (es lógica, sin cambio visual) ni con tsc.
+**Pendiente:** «Lo que más te cuesta» (necesita guardar aciertos por tipo de error), la fragilidad del guardado de avance de un bloque (entrada 7), «Descubre» (rótulo «Error típico» en vocabulario) y probar en iPhone real.
+
 ## 2026-11-24 (8) — Rediseño del frontend, etapa 5 (Progreso)
 **Pedido del usuario:** «Sigue con la etapa 5». Plan: `docs/plans/2026-11-24-rediseno-frontend-etapa-5.md`.
 **Hecho:**
@@ -13,7 +22,6 @@ Registro de avances. Lo más reciente arriba.
 **Tras la revisión final (revisor independiente):** «probado» afirmaba más de lo probado (corregido: ver punto 1), las casillas del Cierre medían unos 25 px (ahora 44) y los días sin tiempo medido decían «menos de 1 min en total» (ahora no dicen tiempo). Los rótulos nuevos no se volvieron a mirar en el navegador.
 **Comprobado:** web 1128 pruebas en verde; recorrido en el navegador a 375 y 320 px, claro y oscuro, con un progreso de ejemplo sembrado (ya borrado): lista, marcas, calendario y tiempo por práctica, sin errores de consola ni desborde.
 **No comprobado:** iPhone real; tsc; marcar/desmarcar en el Cierre solo por pruebas (no a mano en el navegador).
-**Pendiente aparte (lógica anterior):** un módulo completado por la prueba de ubicación deja de estarlo si luego apruebas la prueba de una de sus unidades (`state/modules.ts`: `byPlacement` exige que todas las unidades sigan en `mastery = ubicacion`); el módulo vuelve a «en curso», se bloquean los siguientes y «Ya sabes hacer» baja.
 **Pendiente:** «Lo que más te cuesta» (la pantalla lo dice sin prometer fecha): exige guardar los aciertos por tipo de error, que hoy no se guarda. Y la fragilidad del guardado de avance de un bloque (ver entrada 7). Con esto las 5 etapas del rediseño quedan hechas; faltan solo esos dos puntos y probar todo en un iPhone real.
 
 ## 2026-11-24 (7) — Rediseño del frontend, etapa 4 (ejercicio y corrección)
