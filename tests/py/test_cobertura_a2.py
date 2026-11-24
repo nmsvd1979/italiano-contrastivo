@@ -4,6 +4,8 @@ import json
 from collections import Counter
 from pathlib import Path
 
+from ruta_obligatoria import obligatorio
+
 ROOT = Path(__file__).resolve().parents[2]
 PACK = ROOT / "web/public/content"
 DOC = json.loads((ROOT / "schemas/data/syllabus-a2.json").read_text(encoding="utf8"))
@@ -56,3 +58,12 @@ def test_al_cerrar_el_nivel_se_exige_la_cobertura():
         return
     c = Counter(q["status"] for q in DOC["requisitos"])
     assert c["covered"] / (sum(c.values()) - c["deferred"]) >= 0.8, c
+
+
+def test_al_cerrar_a2_lo_cubierto_se_apoya_en_algo_obligatorio_de_la_ruta():
+    """Misma regla que en A1: la ruta es el camino único. Solo se exige al cerrar el nivel (hasta entonces el plan declara huecos)."""
+    if not DOC["cierre"]:
+        return
+    oblig = obligatorio("A2")
+    flojos = [q["id"] for q in DOC["requisitos"] if q["status"] == "covered" and not any(x in oblig.get(kind, set()) for kind, refs in q["refs"].items() for x in refs)]
+    assert not flojos, flojos

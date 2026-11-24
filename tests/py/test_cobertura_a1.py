@@ -3,6 +3,8 @@ Es el criterio de «A1 terminado» del proyecto: cobertura declarada + hito + qu
 import json
 from pathlib import Path
 
+from ruta_obligatoria import obligatorio
+
 ROOT = Path(__file__).resolve().parents[2]
 PACK = ROOT / "web/public/content"
 DOC = json.loads((ROOT / "schemas/data/syllabus-a1.json").read_text(encoding="utf8"))
@@ -57,3 +59,11 @@ def test_la_cobertura_es_suficiente_y_los_huecos_son_pocos():
     from collections import Counter
     c = Counter(q["status"] for q in DOC["requisitos"])
     assert c["covered"] / (sum(c.values()) - c["deferred"]) >= 0.9, c
+
+
+def test_lo_cubierto_se_apoya_en_algo_obligatorio_de_la_ruta():
+    """La ruta es el camino único: un requisito «covered» que solo se practica en algo opcional (frases útiles, Biblioteca, otra unidad)
+    se podría saltar siguiendo solo «Hoy». Debe apuntar al menos a una cápsula, texto, juego de rol o tarea que la ruta exige."""
+    oblig = obligatorio("A1")
+    flojos = [q["id"] for q in DOC["requisitos"] if q["status"] == "covered" and not any(x in oblig.get(kind, set()) for kind, refs in q["refs"].items() for x in refs)]
+    assert not flojos, flojos
