@@ -3,7 +3,7 @@ import type { PackSentence } from "../content/load";
 import type { Item } from "../generated/item";
 import { clearRun, loadRun, saveRun, signature } from "../state/runState";
 import { kindOf } from "../state/steps";
-import { estimateSeconds, formatDuration, type Kind, loadSamples, recordSample } from "../state/timing";
+import { type Kind, recordSample } from "../state/timing";
 import { DictationItem } from "./DictationItem";
 import { ItemView } from "./items/ItemView";
 import { SpeakItem } from "./SpeakItem";
@@ -23,8 +23,8 @@ export type RunResult = { correct: number; total: number; answers: boolean[] };
  * y tiempo restante. Mide cuánto tarda cada ejercicio. Con `requeueWrong`, lo fallado vuelve una vez al final; la nota
  * cuenta solo el primer intento. Con `persistKey` se puede retomar a la mitad.
  */
-export function ItemRunner({ items, requeueWrong = false, onFinish, exitHref = "#/", why, persistKey, overrideBudget }: {
-  items: RunItem[]; requeueWrong?: boolean; onFinish: (r: RunResult) => void; exitHref?: string; why?: string; persistKey?: string; overrideBudget?: number;
+export function ItemRunner({ items, requeueWrong = false, onFinish, exitHref = "#/", why, fichaHref, persistKey, overrideBudget }: {
+  items: RunItem[]; requeueWrong?: boolean; onFinish: (r: RunResult) => void; exitHref?: string; why?: string; fichaHref?: string; persistKey?: string; overrideBudget?: number;
 }) {
   const [overridesLeft, setOverridesLeft] = useState(overrideBudget ?? 0);
   const ids = items.map((i) => i.id);
@@ -66,12 +66,10 @@ export function ItemRunner({ items, requeueWrong = false, onFinish, exitHref = "
     }
   };
 
-  const samples = loadSamples();
-  const remaining = queue.slice(pos).reduce((s, i) => s + estimateSeconds(items[i].kind, samples), 0);
   return (
-    <RunProvider value={{ why, requeue: requeueWrong && !requeued.current.has(idx), overrides: overrideBudget === undefined ? undefined : { left: overridesLeft, use: () => setOverridesLeft((n) => Math.max(0, n - 1)) } }}>
-      <FocusHead progress={items.length ? done.length / items.length : 0} exitHref={exitHref} />
-      <p className="runner-meta">Ejercicio {pos + 1} de {queue.length} · quedan {formatDuration(remaining)}{saved && pos === saved.pos && pos > 0 ? " · retomado" : ""}</p>
+    <RunProvider value={{ why, fichaHref, requeue: requeueWrong && !requeued.current.has(idx), overrides: overrideBudget === undefined ? undefined : { left: overridesLeft, use: () => setOverridesLeft((n) => Math.max(0, n - 1)) } }}>
+      <FocusHead progress={items.length ? done.length / items.length : 0} exitHref={exitHref} count={`${pos + 1} / ${queue.length}`} />
+      {saved && pos === saved.pos && pos > 0 && <p className="runner-meta">Retomado donde lo dejaste</p>}
       {streak > 0 && streak % 5 === 0 && <p className="cheer" role="note">¡{streak} aciertos seguidos!</p>}
       {current.dictation
         ? <DictationItem key={`${idx}-${pos}`} sentence={current.dictation} onAnswer={answer} />

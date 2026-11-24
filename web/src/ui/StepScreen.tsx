@@ -46,7 +46,7 @@ export function StepScreen({ unitId, step, pack, store }: { unitId: string; step
   };
   const samples = loadSamples();
   const exit = `#/unidad/${unitId}`;
-  const run = { exitHref: exit, why: unit.explanation_es };
+  const run = { exitHref: exit, why: unit.explanation_es, fichaHref: exit };
   return (
     <main className="focus">
       {step === "descubre" && phase === "notice" && (

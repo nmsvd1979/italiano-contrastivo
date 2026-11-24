@@ -268,3 +268,4 @@ ol.tl { list-style: none; padding: 0; margin: 14px 0; display: flex; flex-direct
 .feedback .why { margin: 4px 0 8px; font-size: 14.5px; }
 .feedback a.button { min-height: 44px; }
 .feedback summary { min-height: 44px; display: flex; align-items: center; }
+.focus-head .count { font-size: 14px; font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }

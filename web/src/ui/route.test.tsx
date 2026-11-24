@@ -46,10 +46,10 @@ describe("ItemRunner", () => {
   it("lo fallado vuelve una vez y la nota cuenta solo el primer intento", async () => {
     let result: { correct: number; total: number; answers: boolean[] } | null = null;
     render(<ItemRunner items={fromItems([cloze(1), cloze(2)])} requeueWrong onFinish={(r) => (result = r)} />);
-    expect(screen.getByText(/Ejercicio 1 de 2/)).toBeTruthy();
+    expect(screen.getByText("1 / 2")).toBeTruthy();
     answerCloze("ho");       // 1.º correcto
     answerCloze("hai");      // 2.º falla → vuelve
-    expect(screen.getByText(/Ejercicio 3 de 3/)).toBeTruthy();
+    expect(screen.getByText("3 / 3")).toBeTruthy();
     answerCloze("hai");      // falla otra vez: no vuelve de nuevo
     await waitFor(() => expect(result).not.toBeNull());
     expect(result).toEqual({ correct: 1, total: 2, answers: [true, false] });
@@ -193,7 +193,7 @@ describe("flujo completo de una unidad en la interfaz", () => {
       fireEvent.click(screen.getByText(/Continuar|Terminar/));
     }
     const items = reconstructionItems(pack.course.units[0], pack);
-    expect(await screen.findByText(new RegExp(`Ejercicio 1 de ${items.length}`))).toBeTruthy();
+    expect(await screen.findByText(`1 / ${items.length}`)).toBeTruthy();
     for (const item of items) await solve(item);
     await screen.findByText("Paso completado ✓");
     expect((await store.getUnit(U1))?.done.descubre).toBeTruthy();

@@ -71,7 +71,7 @@ describe("modo concentrado", () => {
     fireEvent.click(screen.getByText("Io tengo fame.")); // falla el 2.º: no avanza
     fireEvent.click(screen.getByText("Continuar"));
     expect(now()).toBe(50);
-    expect(screen.getByText(/Ejercicio 3 de 3/)).toBeTruthy(); // vuelve al final
+    expect(screen.getByText("3 / 3")).toBeTruthy(); // vuelve al final
   });
   it("tiene salida (×) a donde se indica y felicita cada 5 aciertos seguidos", () => {
     render(<ItemRunner items={fromItems([1, 2, 3, 4, 5, 6].map(choice))} exitHref="#/unidad/u01" onFinish={() => undefined} />);
@@ -99,8 +99,8 @@ describe("retomar un bloque a medias", () => {
     fireEvent.click(screen.getByText("Continuar"));
     first.unmount();
     render(<ItemRunner items={items} persistKey="u01:practica" onFinish={() => undefined} />);
-    expect(screen.getByText(/Ejercicio 2 de 3/)).toBeTruthy();
-    expect(screen.getByText(/retomado/)).toBeTruthy();
+    expect(screen.getByText("2 / 3")).toBeTruthy();
+    expect(screen.getByText(/Retomado/)).toBeTruthy();
   });
   it("al terminar se borra lo guardado", () => {
     render(<ItemRunner items={fromItems([choice(1)])} persistKey="k" onFinish={() => undefined} />);
