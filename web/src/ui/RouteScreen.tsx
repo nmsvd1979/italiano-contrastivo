@@ -51,6 +51,20 @@ export function RouteScreen({ views, pack, hito, modules = [] }: { views: UnitVi
       </li>
     );
   };
+  /** Unidades de los niveles que aún no tienen módulos (A2, B1): misma fila compacta que los módulos. */
+  const unitRow = (v: UnitView) => (
+    <li key={v.unit.id} className="mod-row" data-state={v.state}>
+      <span className="n" aria-hidden="true">{v.state === "completed" ? "✓" : "·"}</span>
+      <span className="label">
+        {v.state === "locked" ? <strong>{v.unit.title}</strong> : <a href={`#/unidad/${v.unit.id}`}><strong>{v.unit.title}</strong></a>}
+        <small>
+          {v.state === "completed" ? `Completada${v.progress.mastery === "ubicacion" ? " (por la prueba de ubicación)" : ""}`
+            : v.state === "current" ? `${isOptional(v.unit) ? "Opcional, empieza cuando quieras" : "Siguiente"}: ${STEP_LABEL[v.next ?? "descubre"]}`
+            : isOptional(v.unit) ? "Opcional: se abre al completar la anterior de este bloque" : "Se abre al completar la anterior"}
+        </small>
+      </span>
+    </li>
+  );
   return (
     <main>
       <h1>Ruta</h1>
@@ -75,13 +89,13 @@ export function RouteScreen({ views, pack, hito, modules = [] }: { views: UnitVi
             <span className="label"><strong>{p.title}</strong> <small>(próximamente)</small><small>{p.reason}</small></span>
           </li>
         ));
-        if (level.id === "A1" && byModules) {
+        if (byModules) {
           return (
             <section key={level.id} className="route-level">
               <h2>{level.title}</h2>
               <ul className="mod-list">
-                {modules.map(moduleRow)}
-                {units.length > 0 && hitoRow(level.id)}
+                {level.id === "A1" ? modules.map(moduleRow) : units.map(unitRow)}
+                {level.id === "A1" && units.length > 0 && hitoRow(level.id)}
                 {plannedRows}
               </ul>
             </section>
@@ -135,11 +149,11 @@ export function RouteScreen({ views, pack, hito, modules = [] }: { views: UnitVi
           <p>Cada módulo es una situación: entras con un texto real, estudias sus cápsulas, produces tú (hablas y escribes), ganas fluidez y cierras con una prueba (80 % o más).</p>
           {pack.course.levels.map((level) => {
             const units = views.filter((v) => v.unit.level === level.id);
-            if (!units.length) return null;
+            if (!units.length && !pack.course.planned.some((p) => p.level === level.id)) return null;
             return (
               <p key={level.id}><small>
                 {level.title}. En la app hoy: {units.length} {units.length === 1 ? "unidad" : "unidades"}
-                {` (${formatDuration(units.reduce((t, v) => t + stepsFor(v.unit).reduce((a, st) => a + stepSeconds(v.unit, st, pack, samples), 0), 0))} de pasos según tiempos supuestos que se ajustan a los tuyos; sin contar repasos)`}.
+                {units.length ? ` (${formatDuration(units.reduce((t, v) => t + stepsFor(v.unit).reduce((a, st) => a + stepSeconds(v.unit, st, pack, samples), 0), 0))} de pasos según tiempos supuestos que se ajustan a los tuyos; sin contar repasos)` : ""}.
                 Referencia general (blogs de academias, no un dato medido) para llegar al nivel: {level.guided_hours}.
               </small></p>
             );

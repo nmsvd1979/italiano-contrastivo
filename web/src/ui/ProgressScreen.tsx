@@ -5,9 +5,9 @@ import { WeekCard } from "./WeekCard";
 export function ProgressScreen({ week }: { week: Seconds }) {
   return (
     <main>
-      <div className="top"><h1>Progreso</h1><a href="#/ajustes">Ajustes</a></div>
+      <div className="top"><h1>Progreso</h1><a className="tap" href="#/ajustes">Ajustes</a></div>
       <WeekCard week={week} />
-      <p><a href="#/acerca">Acerca de la app, licencias y revisión del contenido</a></p>
+      <p><a className="tap" href="#/acerca">Acerca de la app, licencias y revisión del contenido</a></p>
     </main>
   );
 }

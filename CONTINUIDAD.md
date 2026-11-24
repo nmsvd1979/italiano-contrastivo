@@ -10,6 +10,7 @@ Registro de avances. Lo más reciente arriba.
 3. Cinco pestañas: Hoy · Ruta · Practicar · Biblioteca · Progreso. Practicar reúne Repaso, Hablar y Escribir; Progreso (mínimo: semana, Ajustes, Acerca). Se quitó «Práctica libre» de la Ruta.
 4. Hoy: sesión con etiqueta de hebra por fila, barra semanal apilada, botón «Empezar»/«Continuar» y salidas «Solo N min» / «Elegir otra cosa».
 5. Ruta: módulo en curso destacado con tira de etapas, el resto en filas compactas, método y horas plegados en «Cómo funciona».
+**Tras la revisión final (revisor independiente):** se corrigió que «Solo N min» llevaba a pasos bloqueados, que Practicar ocultaba la práctica de recuperación, los toques menores de 44 px y que A2/B1/B2 seguían con el diseño antiguo. «Cómo empezar» queda plegado a propósito.
 **Decisiones mías (a revisar):** qué hacen «Solo N min» (bloque pendiente más corto de hasta 5 min) y «Elegir otra cosa» (Practicar); ContrastCard, tabla de conjugación y línea de tiempo pasan a la etapa 3; los pasos de unidad en Hoy no repiten el nombre de la unidad.
 **Comprobado:** web 1035 pruebas en verde; recorrido en el navegador a 375 y 320 px, claro y oscuro, sin errores de consola ni desborde horizontal.
 **No comprobado:** iPhone real; tsc (no está instalado en web/); Biblioteca y Hablar/Escribir con el menú nuevo solo por pruebas.

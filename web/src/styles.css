@@ -191,10 +191,10 @@ table.doc thead th { background: var(--card, #fff); }
 .stack i { display: block; height: 100%; }
 .week-legend { margin: 4px 0; }
 details.how { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 10px 16px; margin: 12px 0; }
-details.how summary { cursor: pointer; font-weight: 600; min-height: 32px; }
+details.how summary { cursor: pointer; font-weight: 600; min-height: 44px; display: flex; align-items: center; }
 .actions-bottom .secondary { width: 100%; gap: 8px; margin: 0 auto 8px; }
 main.today { padding-bottom: calc(var(--tab-h) + 170px); }
-.actions-bottom .secondary .button { flex: 1; min-height: 40px; font-size: 14px; }
+.actions-bottom .secondary .button { flex: 1; min-height: 44px; font-size: 14px; }
 
 /* Ruta rediseñada */
 ul.mod-list { list-style: none; padding: 0; margin: 10px 0; display: grid; gap: 0; }
@@ -215,3 +215,4 @@ ol.strip li[data-state="done"] i { background: var(--ok); }
 ol.strip li[data-state="current"] i { background: linear-gradient(90deg, var(--ok) 35%, var(--line) 35%); }
 ol.strip li[data-state="current"] span { color: var(--ink); font-weight: 600; }
 section.route-level { background: none; border: 0; padding: 0; }
+a.tap { display: inline-flex; align-items: center; min-height: 44px; }

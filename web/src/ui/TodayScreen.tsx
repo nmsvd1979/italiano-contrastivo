@@ -22,9 +22,17 @@ export function nextAction(plan: TodayPlan): { href: string; label: string } {
 }
 
 const SHORT_SECONDS = 5 * 60;
-/** Salidas de «Hoy»: «Solo N min» (el bloque pendiente más corto de hasta 5 min, si no es el principal) y «Elegir otra cosa». */
-export function secondaryActions(_plan: TodayPlan, blocks: SessionBlock[] | undefined, primaryHref: string): { short: { href: string; label: string } | null; other: { href: string; label: string } } {
-  const candidates = (blocks ?? []).filter((b) => !b.done && b.seconds <= SHORT_SECONDS && b.href !== primaryHref).sort((a, b) => a.seconds - b.seconds);
+/** Lo que se puede abrir ya: el repaso y el paso actual de la unidad o del módulo (los pasos siguientes siguen bloqueados). */
+function openableHrefs(plan: TodayPlan): Set<string> {
+  const hrefs = new Set(["#/repaso"]);
+  if (plan.unit) hrefs.add(`#/unidad/${plan.unit.view.unit.id}/${plan.unit.step}`);
+  if (plan.module) hrefs.add(`#/modulo/${plan.module.view.module.id}/${plan.module.step}`);
+  return hrefs;
+}
+/** Salidas de «Hoy»: «Solo N min» (el bloque abrible más corto de hasta 5 min, si no es el principal) y «Elegir otra cosa». */
+export function secondaryActions(plan: TodayPlan, blocks: SessionBlock[] | undefined, primaryHref: string): { short: { href: string; label: string } | null; other: { href: string; label: string } } {
+  const openable = openableHrefs(plan);
+  const candidates = (blocks ?? []).filter((b) => !b.done && b.seconds <= SHORT_SECONDS && b.href !== primaryHref && openable.has(b.href)).sort((x, y) => x.seconds - y.seconds);
   const first = candidates[0];
   return {
     short: first ? { href: first.href, label: `Solo ${Math.ceil(first.seconds / 60)} min` } : null,
