@@ -2,6 +2,17 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 (11) — Arreglos vistos en un iPhone real: apariencia, barra inferior y filas de Hoy
+**Pedido del usuario:** capturas del iPhone (modo oscuro) de Hoy y Practicar: no se parecían a lo mostrado y no había dónde cambiar el color.
+**Causa y arreglos:**
+1. **Apariencia:** la app seguía el modo oscuro del teléfono sin opción de cambiarlo, y lo que se mostró era el tema claro. Ahora hay **Ajustes → Apariencia** con «Claro» (por defecto, como el diseño), «Oscuro» y «Como el teléfono» (`state/theme.ts`, `data-theme` en la raíz; un script en `index.html` lo aplica antes de pintar para que no parpadee). El oscuro automático y el elegido llevan exactamente los mismos colores (lo comprueba una prueba).
+2. **Barra de pestañas:** su alto (`--tab-h`) incluía la zona segura de la barra inferior del iPhone, así que los iconos quedaban aplastados. Ahora el alto es `--tab-h` + zona segura, y el relleno del contenido y de «Hoy» también la suman.
+3. **Hoy:** la fila de Repaso se apretaba («Tienes 1 / para / repasar») porque «menos de 1 min» es muy ancho. Las filas usan `shortDuration` («<1 min», «≈ 8 min») y los minutos no se parten.
+**Decisión mía:** el tema por defecto pasa a ser claro (antes seguía al teléfono); quien prefiera lo anterior elige «Como el teléfono».
+**Comprobado:** web 1189 pruebas en verde; en el navegador (teléfono emulado en modo oscuro) la app arranca en claro, y Claro/Oscuro/Como el teléfono cambian y se recuerdan. La zona segura solo está comprobada por prueba de CSS y por la causa vista en tus capturas; no se pudo reproducir en el navegador de escritorio.
+**No comprobado:** que los iconos de la barra y la fila de Repaso queden bien en tu iPhone (hace falta que lo mires tú tras actualizar).
+**Sin cambiar (señalado al comparar con la maqueta):** el chip de racha conserva su emoji de fuego, «Solo N min» casi nunca aparece y la sesión de Hoy tiene más filas que la maqueta.
+
 ## 2026-11-24 (10) — Pendientes del rediseño: «Lo que más te cuesta», retomar bloques y rótulo de vocabulario
 **Pedido del usuario:** «Dale con todo» (los pendientes) y, después, «quita la prueba del iPhone, eso lo hago yo». Plan: `docs/plans/2026-11-24-pendientes-del-rediseno.md`.
 **Hecho:**

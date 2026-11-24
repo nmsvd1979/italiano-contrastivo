@@ -28,6 +28,11 @@ export function addSample(samples: Samples, kind: Kind, seconds: number): Sample
 export const totalSeconds = (kinds: Kind[], samples: Samples = {}) => kinds.reduce((t, k) => t + estimateSeconds(k, samples), 0);
 
 /** «≈ 5 min» para bloques largos; «menos de 1 min» / «≈ 40 s» para los cortos (no se redondea 40 s a 1 min). */
+/** Duración corta para filas estrechas: «<1 min» o «≈ N min». */
+export function shortDuration(seconds: number): string {
+  return seconds < 45 ? "<1 min" : `≈ ${Math.max(1, Math.round(seconds / 60))} min`;
+}
+
 export function formatDuration(seconds: number): string {
   if (seconds < 20) return "menos de 1 min";
   if (seconds < 90) return `≈ ${Math.round(seconds / 10) * 10} s`;

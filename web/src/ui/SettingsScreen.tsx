@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { audioUrls, cachedCount, cacheSupported, downloadAudio } from "../audio/offline";
 import { isPreview, setPreview } from "../state/preview";
+import { applyTheme, loadTheme, saveTheme, type Theme } from "../state/theme";
 import { buildInfo, checkForUpdate, repairApp } from "../pwa";
 import { BackupError, exportBackup, parseBackup, restoreBackup } from "../state/backup";
 import { localDate, type Store } from "../state/store";
@@ -9,6 +10,8 @@ type Notice = { kind: "ok" | "error"; text: string };
 
 export function SettingsScreen({ store, memoryOnly }: { store: Store; memoryOnly: boolean }) {
   const [notice, setNotice] = useState<Notice | null>(null);
+  const [theme, setTheme] = useState<Theme>(loadTheme);
+  const pick = (t: Theme) => { setTheme(t); saveTheme(t); applyTheme(t); };
   const [protectedStorage, setProtectedStorage] = useState<boolean | null>(null);
   useEffect(() => {
     navigator.storage?.persisted?.().then(setProtectedStorage).catch(() => setProtectedStorage(null));
@@ -74,6 +77,13 @@ export function SettingsScreen({ store, memoryOnly }: { store: Store; memoryOnly
     <main>
       <p><a className="tap" href="#/progreso" style={{ textDecoration: "none" }}>← Progreso</a></p>
       <h1>Ajustes</h1>
+      <h2>Apariencia</h2>
+      <p><small>«Claro» es el diseño de la app. «Como el teléfono» usa el modo oscuro cuando tu teléfono lo tiene activado.</small></p>
+      <p style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+        {([["claro", "Claro"], ["oscuro", "Oscuro"], ["auto", "Como el teléfono"]] as const).map(([t, label]) => (
+          <button key={t} type="button" aria-pressed={theme === t} className={theme === t ? "primary" : undefined} onClick={() => pick(t)}>{label}</button>
+        ))}
+      </p>
       <p><a href="#/acerca">Acerca de, licencias y cómo se revisó el contenido</a></p>
       <p><a href="#/ubicacion">Prueba de ubicación: dónde empezar en la app</a></p>
       <p><a href="#/prueba-dictado">Prueba técnica del dictado (para saber si el iPhone puede comprobar tu pronunciación)</a></p>

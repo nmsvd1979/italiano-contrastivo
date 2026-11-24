@@ -4,7 +4,9 @@ import { describe, expect, it } from "vitest";
 
 const css = readFileSync(resolve(process.cwd(), "src/styles.css"), "utf8"); // las pruebas web corren desde web/
 const light = css.match(/:root\s*\{([^}]*)\}/)![1];
-const dark = css.match(/@media \(prefers-color-scheme: dark\)\s*\{\s*:root\s*\{([^}]*)\}/)![1];
+const dark = css.match(/@media \(prefers-color-scheme: dark\)\s*\{\s*:root:not\(\[data-theme\]\)\s*\{([^}]*)\}/)![1];   // «automático»: sin data-theme sigue al teléfono
+const darkForced = css.match(/:root\[data-theme="dark"\]\s*\{([^}]*)\}/)![1];                                  // oscuro elegido en Ajustes
+const vars = (b: string) => Object.fromEntries([...b.matchAll(/(--[\w-]+):\s*([^;]+);/g)].map((m) => [m[1], m[2].trim()]));
 const token = (block: string, name: string) => block.match(new RegExp(`${name}:\\s*(#[0-9a-fA-F]{6})`))?.[1] ?? "";
 
 const channel = (hex: string, i: number) => {
@@ -30,4 +32,12 @@ describe("contraste de las etiquetas de hebra (texto --card sobre el color de la
       });
     }
   }
+});
+
+describe("tema oscuro elegido y tema oscuro automático", () => {
+  it("usan exactamente los mismos colores", () => {
+    const { ["color-scheme"]: _a, ...forced } = vars(darkForced) as Record<string, string>;
+    expect(vars(dark)).toEqual(forced);
+    expect(Object.keys(vars(dark)).length).toBeGreaterThan(10);
+  });
 });

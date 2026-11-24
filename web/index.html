@@ -8,6 +8,13 @@
     <meta name="apple-mobile-web-app-title" content="Italiano" />
     <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
     <title>Italiano contrastivo</title>
+    <script>
+      /* Apariencia elegida en Ajustes (claro por defecto): se aplica antes de pintar para que no parpadee el modo del teléfono. */
+      try {
+        var t = localStorage.getItem("italiano-contrastivo.theme");
+        if (t !== "auto") document.documentElement.setAttribute("data-theme", t === "oscuro" ? "dark" : "light");
+      } catch (e) { document.documentElement.setAttribute("data-theme", "light"); }
+    </script>
   </head>
   <body>
     <div id="root"></div>

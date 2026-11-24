@@ -4,7 +4,7 @@ import { MODULE_STEP_LABEL } from "../state/modules";
 import type { TodayPlan } from "../state/session";
 import type { DayProgress } from "../state/store";
 import type { Seconds } from "../state/strands";
-import { formatDuration } from "../state/timing";
+import { formatDuration, shortDuration } from "../state/timing";
 import { Tag } from "./kit/Tag";
 import { WeekBar } from "./kit/WeekBar";
 
@@ -86,7 +86,7 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, 
               <li key={`${b.key}-${b.step ?? "r"}-${i}`} data-done={b.done} data-next={!b.done && blocks.findIndex((x) => !x.done) === i}>
                 <Tag strand={b.strand} />
                 <span className="t"><b>{b.label}</b>{b.subtitle && <small>{b.subtitle}</small>}</span>
-                <span className="min">{b.done ? "✓" : formatDuration(b.seconds)}</span>
+                <span className="min">{b.done ? "✓" : shortDuration(b.seconds)}</span>
               </li>
             ))}
           </ul>
