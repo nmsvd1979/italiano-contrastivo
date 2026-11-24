@@ -44,7 +44,7 @@ export function StepScreen({ unitId, step, pack, store }: { unitId: string; step
       setDone(r ? { correct: r.correct, total: r.total } : {});
     }
   };
-  const samples = loadSamples();
+  const samples = {};   // las tandas son las mismas para todos: no dependen de tus tiempos medidos
   const exit = `#/unidad/${unitId}`;
   const run = { exitHref: exit, why: unit.explanation_es, fichaHref: exit };
   return (
