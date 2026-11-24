@@ -281,3 +281,20 @@ main.focus .item { display: flex; flex-direction: column; min-height: calc(100dv
 .ask .eyebrow { margin: 0; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
 .ask .es { margin: 0 0 4px; font-size: 24px; line-height: 1.3; }
 main.focus .item:has(.feedback) { min-height: 0; }   /* con la hoja de corrección abierta, las opciones suben para verse sobre ella */
+
+/* Progreso */
+details.cando-group { border-top: 1px solid var(--line); }
+details.cando-group > summary { display: flex; justify-content: space-between; align-items: center; gap: 10px; min-height: 44px; cursor: pointer; font-weight: 600; }
+ul.cando { list-style: none; padding: 0; margin: 0 0 8px; display: flex; flex-direction: column; gap: 6px; }
+ul.cando li { display: flex; gap: 8px; align-items: flex-start; font-size: 15px; }
+ul.cando .cb { width: 18px; height: 18px; border-radius: 5px; border: 1.5px solid var(--line); flex: none; margin-top: 2px; display: flex; align-items: center; justify-content: center; font-size: 12px; color: var(--bg); }
+ul.cando li[data-state="probado"] .cb, ul.cando li[data-state="marcado"] .cb { background: var(--ok); border-color: var(--ok); }
+ul.cando li[data-state="pendiente"] { color: var(--muted); }
+ul.cando .how-known { color: var(--muted); }
+ul.cando .how-known::before { content: " · "; }
+.cal { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; margin: 10px 0 4px; }
+.cal .dow { text-align: center; font-size: 11px; color: var(--muted); }
+.cal i { display: block; aspect-ratio: 1; border-radius: 6px; background: var(--line); }
+.cal i[data-level="1"] { background: color-mix(in srgb, var(--ok) 45%, var(--line)); }
+.cal i[data-level="2"] { background: var(--ok); }
+.cal i[data-future="true"] { background: transparent; border: 1px dashed var(--line); }

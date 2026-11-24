@@ -51,7 +51,7 @@ describe("Practicar", () => {
 
 describe("Progreso", () => {
   it("enlaza a Ajustes y a Acerca de", () => {
-    render(<ProgressScreen week={{}} />);
+    render(<ProgressScreen week={{}} days={[]} today="2026-11-24" modules={[]} />);
     expect(screen.getByRole("heading", { name: "Progreso" })).toBeTruthy();
     expect(screen.getByText("Ajustes").closest("a")?.getAttribute("href")).toBe("#/ajustes");
     expect(screen.getByText(/Acerca de la app/).closest("a")?.getAttribute("href")).toBe("#/acerca");

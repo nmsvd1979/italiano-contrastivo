@@ -80,10 +80,11 @@ function Practice({ pack, store }: Ready) {
   return <PracticeScreen review={plan.review} />;
 }
 
-function Progress({ store }: Ready) {
+function Progress({ pack, store }: Ready) {
   const data = useDayData(store);
   if (!data) return <p>Cargando…</p>;
-  return <ProgressScreen week={weekTotals(data.days, localDate(new Date()))} />;
+  const today = localDate(new Date());
+  return <ProgressScreen week={weekTotals(data.days, today)} days={data.days} today={today} modules={moduleViews(pack.course, data.units).modules} />;
 }
 
 function useViews(ready: Ready, hash: string) {
