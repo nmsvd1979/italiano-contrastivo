@@ -45,7 +45,7 @@ export function planSession(input: { plan: TodayPlan; day: DayProgress; pack: Co
   const work = pending + plan.review.filler;
   const blocks: SessionBlock[] = [{
     key: "repaso", strand: "foco", label: "Repaso", title: BLOCKS.repaso.title, seconds: plan.review.seconds, href: "#/repaso", done: work === 0 || (day.reviewsDone > 0 && pending === 0),
-    subtitle: pending > 0 ? `Tienes ${pending} para repasar${plan.review.filler ? " + práctica de unidades anteriores" : ""}` : plan.review.filler ? "Práctica de recuperación de unidades anteriores" : "No tienes repasos pendientes ahora.",
+    subtitle: pending > 0 ? `Tienes ${pending} para repasar${plan.review.filler ? " + práctica de unidades anteriores" : ""}${plan.review.waitingWords ? ` · ${plan.review.waitingWords} palabras nuevas esperan a los próximos días` : ""}` : plan.review.filler ? "Práctica de recuperación de unidades anteriores" : "No tienes repasos pendientes ahora.",
   }];
   if (weak.length > 0) {
     blocks.push({

@@ -141,3 +141,29 @@ describe("closeCapsule", () => {
     expect(closeCapsule(c, { phase: "closing", index: 0, answers: answers(4) }, [errCard("ERR_A")], NOW)).toBeNull();
   });
 });
+
+describe("cupo diario de palabras nuevas", () => {
+  const wordCard = (i: number): Card => newCard({ kind: "lexeme", ref: `w:palabra${i}` }, "neutral", new Date(NOW.getTime() - (100 - i) * 1000));
+  const words = Array.from({ length: 44 }, (_, i) => wordCard(i));
+  it("de 44 palabras nuevas vencidas solo se ofrecen 12; el resto espera y Hoy cuenta lo mismo que la tanda", () => {
+    const p = planToday({ pack: pack(), cards: words, day: emptyDay, now: NOW });
+    expect(p.review.due).toBe(12);
+    expect(p.review.waitingWords).toBe(32);
+    expect(reviewQueue({ pack: pack(), cards: words, now: NOW, day: emptyDay })).toHaveLength(12);
+  });
+  it("las palabras abiertas hoy descuentan del cupo y al día siguiente vuelve a abrirse", () => {
+    const left = words.slice(12);
+    expect(planToday({ pack: pack(), cards: left, day: { ...emptyDay, newWords: 12 }, now: NOW }).review.due).toBe(0);
+    expect(planToday({ pack: pack(), cards: left, day: { ...emptyDay, newWords: 5 }, now: NOW }).review.due).toBe(7);
+    const tomorrow = new Date(NOW.getTime() + 36 * 3600_000);
+    expect(planToday({ pack: pack(), cards: left, day: { ...emptyDay, newWords: 12 }, now: tomorrow }).review.due).toBe(12);
+  });
+  it("las tarjetas ya vistas nunca se recortan", () => {
+    const seen = Array.from({ length: 20 }, (_, i) => { const c = wordCard(i); return { ...c, fsrs: { ...c.fsrs, reps: 3, state: 2 } }; });
+    expect(planToday({ pack: pack(), cards: seen, day: { ...emptyDay, newWords: 12 }, now: NOW }).review.due).toBe(20);
+  });
+  it("calificar una palabra nueva suma al cupo; una ya vista no", () => {
+    expect(afterReview(emptyDay, true).newWords).toBe(1);
+    expect(afterReview(emptyDay, false).newWords).toBeUndefined();
+  });
+});

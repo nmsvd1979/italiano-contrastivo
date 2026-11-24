@@ -11,12 +11,26 @@ import { kindOf, stepSeconds } from "./steps";
 import { estimateSeconds, type Samples } from "./timing";
 import { type DayProgress, localDate, type StepId, type UnitProgress } from "./store";
 import { hitoId } from "./milestone";
+import { WORD_PREFIX } from "./words";
 
 export const REVIEW_CAP = 12; // ≈5 min por tanda
 export const NEW_LEXEMES_PER_BATCH = 3;
 /** Los falsos amigos nuevos entran al repaso solo cuando ya completaste algunas unidades: el primer día no se repasa lo que no has estudiado. */
 export const FRESH_AFTER_UNITS = 2;
 const freshAllowed = (units: UnitProgress[] | undefined) => (units ?? []).filter((u) => u.completed).length >= FRESH_AFTER_UNITS;
+
+/** Palabras nunca vistas que se abren por día: el resto de las tarjetas nuevas espera, sin perderse, para los días siguientes. */
+export const NEW_WORDS_PER_DAY = 12;
+export const isNewWord = (c: Card): boolean => c.subject.kind === "lexeme" && c.subject.ref.startsWith(WORD_PREFIX) && c.fsrs.reps === 0;
+
+/** Quita las palabras nuevas que no caben hoy (las más antiguas entran primero). Las tarjetas ya vistas nunca se recortan. */
+export function withinNewWordQuota(cards: Card[], day?: DayProgress): { cards: Card[]; waiting: number } {
+  let room = Math.max(0, NEW_WORDS_PER_DAY - (day?.newWords ?? 0));
+  const ordered = [...cards].sort((a, b) => new Date(a.fsrs.due).getTime() - new Date(b.fsrs.due).getTime());
+  const skip = new Set<string>();
+  for (const c of ordered) if (isNewWord(c)) { if (room > 0) room--; else skip.add(c.id); }
+  return { cards: cards.filter((c) => !skip.has(c.id)), waiting: skip.size };
+}
 
 export const REVIEW_SECONDS = 5 * 60; // presupuesto del bloque ① de las fuentes
 export const FILLER_MAX = 20;
@@ -26,7 +40,7 @@ export type ReviewEntry = { card: Card } | { lexeme: Lexeme } | { filler: Item }
 export const entrySeconds = (e: ReviewEntry, samples: Samples = {}): number =>
   "filler" in e ? estimateSeconds(kindOf(e.filler), samples) : estimateSeconds("card" in e ? (e.card.subject.kind === "error_code" ? "choice" : e.card.subject.kind === "writing_fix" ? "cloze" : "flashcard") : "flashcard", samples);
 export type TodayPlan = {
-  review: { due: number; newAvailable: number; doneToday: number; cap: number; seconds: number; filler: number };
+  review: { due: number; newAvailable: number; /** Palabras nuevas que esperan a los próximos días por el cupo diario. */ waitingWords?: number; doneToday: number; cap: number; seconds: number; filler: number };
   /** Unidad actual y su siguiente paso (null si no queda ninguna unidad por hacer). */
   unit: { view: UnitView; step: StepId; seconds: number } | null;
   /** Paso propio del módulo actual (Entrada, Salida, Fluidez o Cierre) cuando no toca una cápsula. */
@@ -45,7 +59,7 @@ export function normalizeDay(day: DayProgress, now: Date): DayProgress {
   return day.date === date ? day : { date, reviewsDone: 0, capsulesDone: [] };
 }
 
-export const afterReview = (day: DayProgress): DayProgress => ({ ...day, reviewsDone: day.reviewsDone + 1 });
+export const afterReview = (day: DayProgress, openedNewWord = false): DayProgress => ({ ...day, reviewsDone: day.reviewsDone + 1, ...(openedNewWord ? { newWords: (day.newWords ?? 0) + 1 } : {}) });
 export const afterCapsule = (day: DayProgress, capsuleId: string): DayProgress =>
   day.capsulesDone.includes(capsuleId) ? day : { ...day, capsulesDone: [...day.capsulesDone, capsuleId] };
 
@@ -57,9 +71,10 @@ const unseenLexemes = (pack: ContentPack, cards: Card[]) => {
 export function planToday(input: { pack: ContentPack; cards: Card[]; day: DayProgress; now: Date; units?: UnitProgress[]; samples?: Samples }): TodayPlan {
   const { pack, cards, now, units = [], samples = {} } = input;
   const day = normalizeDay(input.day, now);
-  const due = dueCards(cards, now, Infinity).length;
+  const quota = withinNewWordQuota(dueCards(cards, now, Infinity), day);
+  const due = quota.cards.length;
   const room = Math.max(0, REVIEW_CAP - Math.min(due, REVIEW_CAP));
-  const queue = reviewQueue({ pack, cards, now, units, samples });
+  const queue = reviewQueue({ pack, cards, now, units, samples, day });
   const seconds = queue.reduce((t, e) => t + entrySeconds(e, samples), 0);
   const mv = moduleViews(pack.course, units);
   const views = mv.units;
@@ -69,7 +84,7 @@ export function planToday(input: { pack: ContentPack; cards: Card[]; day: DayPro
   const step = cur?.next ?? null;
   const modStep = cm && cm.next && cm.next !== "capsulas" ? cm.next : null;
   return {
-    review: { due, newAvailable: freshAllowed(units) ? Math.min(NEW_LEXEMES_PER_BATCH, room, unseenLexemes(pack, cards).length) : 0, doneToday: day.reviewsDone, cap: REVIEW_CAP, seconds, filler: queue.filter((e) => "filler" in e).length },
+    review: { due, waitingWords: quota.waiting, newAvailable: freshAllowed(units) ? Math.min(NEW_LEXEMES_PER_BATCH, room, unseenLexemes(pack, cards).length) : 0, doneToday: day.reviewsDone, cap: REVIEW_CAP, seconds, filler: queue.filter((e) => "filler" in e).length },
     unit: cur && step ? { view: cur, step, seconds: stepSeconds(cur.unit, step, pack, samples) } : null,
     module: cm && modStep ? { view: cm, step: modStep, seconds: MODULE_STEP_SECONDS[modStep] } : null,
     route: { done: summary(views).done, total: views.length },
@@ -84,8 +99,9 @@ export function planToday(input: { pack: ContentPack; cards: Card[]; day: DayPro
  * 5 min, práctica de recuperación con ejercicios de unidades ya completadas (intercalados entre unidades). Nunca se inventa relleno
  * si aún no hay unidades completadas: el bloque simplemente dura lo que dura.
  */
-export function reviewQueue(input: { pack: ContentPack; cards: Card[]; now: Date; units?: UnitProgress[]; samples?: Samples }): ReviewEntry[] {
-  const due = dueCards(input.cards, input.now, REVIEW_CAP).map((card) => ({ card }));
+export function reviewQueue(input: { pack: ContentPack; cards: Card[]; now: Date; units?: UnitProgress[]; samples?: Samples; day?: DayProgress }): ReviewEntry[] {
+  const day = input.day && normalizeDay(input.day, input.now);
+  const due = dueCards(withinNewWordQuota(dueCards(input.cards, input.now, Infinity), day).cards, input.now, REVIEW_CAP).map((card) => ({ card }));
   const room = REVIEW_CAP - due.length;
   const fresh = freshAllowed(input.units) ? unseenLexemes(input.pack, input.cards).slice(0, Math.min(NEW_LEXEMES_PER_BATCH, room)).map((lexeme) => ({ lexeme })) : [];
   const queue: ReviewEntry[] = [...due, ...fresh];

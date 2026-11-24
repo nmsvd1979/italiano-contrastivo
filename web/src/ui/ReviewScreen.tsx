@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import type { ContentPack, Lexeme } from "../content/load";
 import { GENDER_NOTE, wordLexeme, withArticle } from "../state/words";
 import type { Card } from "../generated/card";
-import { afterReview, normalizeDay, pickItem, ratingFromAnswer, reviewQueue, type ReviewEntry } from "../state/session";
+import { afterReview, normalizeDay, pickItem, ratingFromAnswer, reviewQueue, isNewWord, type ReviewEntry } from "../state/session";
 import { fixItemOf } from "../state/fixes";
 import { newCard, review } from "../state/srs";
 import { localDate, type Store } from "../state/store";
@@ -24,7 +24,7 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
   useStrandTimer(store, "foco");
   const busy = useRef(false); // un segundo toque mientras se guarda no debe calificar dos veces
   useEffect(() => {
-    Promise.all([store.allCards(), store.allUnits()]).then(([cards, units]) => setQueue(reviewQueue({ pack, cards, now: now ?? new Date(), units, samples: loadSamples() })));
+    Promise.all([store.allCards(), store.allUnits(), store.getDay(localDate(now ?? new Date()))]).then(([cards, units, day]) => setQueue(reviewQueue({ pack, cards, now: now ?? new Date(), units, samples: loadSamples(), day })));
   }, [pack, store, now]);
   if (!queue) return <p>Cargando…</p>;
   if (queue.length === 0) return <main><p>No tienes repasos pendientes ahora.</p><p><a className="button" href="#/">Volver a Hoy</a></p></main>;
@@ -40,7 +40,7 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
     const advance = async () => {
       const at = now ?? new Date();
       const day = normalizeDay(await store.getDay(localDate(at)), at);
-      await store.putDay(afterReview(day));
+      await store.putDay(afterReview(day, !!card && isNewWord(card)));
       setI(i + 1);
     };
     return (
@@ -73,7 +73,7 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
     await store.putCard(updated);
     await store.addReviewLog(log);
     const day = normalizeDay(await store.getDay(localDate(at)), at);
-    await store.putDay(afterReview(day));
+    await store.putDay(afterReview(day, !!card && isNewWord(card)));
     setRevealed(false);
     setI(i + 1);
   };
