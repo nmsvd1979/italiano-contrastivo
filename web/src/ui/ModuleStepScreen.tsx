@@ -1,7 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { ContentPack, CourseModule, RolePlay, SpeakingTask } from "../content/load";
+import { canDoKey, setCanDo } from "../state/cando";
+import { emptyProgress } from "../state/course";
 import { finishModuleStep, finishModuleTest, finishSalidaPart } from "../state/progress";
-import { type ModuleStepId, type ModuleView, MODULE_STEP_LABEL, moduleTestItems, moduleViews, salidaKey, salidaMissing } from "../state/modules";
+import { type ModuleStepId, type ModuleView, MODULE_STEP_LABEL, moduleProgressId, moduleTestItems, moduleViews, salidaKey, salidaMissing } from "../state/modules";
 import type { Store } from "../state/store";
 import { fromItems, ItemRunner, type RunResult } from "./ItemRunner";
 import { Ring } from "./kit/Ring";
@@ -114,7 +116,16 @@ function Salida({ view, pack, store, exit, onChange }: { view: ModuleView; pack:
 function Cierre({ view, pack, store, exit, onDone }: { view: ModuleView; pack: ContentPack; store: Store; exit: string; onDone: () => void }) {
   const { module } = view;
   const [phase, setPhase] = useState<"checklist" | "test" | "result">("checklist");
-  const [checks, setChecks] = useState<boolean[]>(module.can_do_es.map(() => false));
+  const [checks, setChecks] = useState<boolean[]>(() => module.can_do_es.map((c) => !!view.progress.done[canDoKey(c)]));
+  const saving = useRef<Promise<void>>(Promise.resolve());   // las marcas se guardan una tras otra: dos seguidas no se pisan
+  const toggle = (i: number, on: boolean) => {
+    setChecks((x) => x.map((v, k) => (k === i ? on : v)));
+    const id = moduleProgressId(module.id);
+    saving.current = saving.current.then(async () => {
+      const p = (await store.getUnit(id)) ?? emptyProgress(id);
+      await store.putUnit(setCanDo(p, module.can_do_es[i], on, new Date()));
+    }).catch(() => undefined);
+  };
   const [res, setRes] = useState<{ passed: boolean; correct: number; total: number } | null>(null);
   const items = moduleTestItems(view, pack);
   useStrandTimer(store, "salida", phase === "test");
@@ -125,8 +136,8 @@ function Cierre({ view, pack, store, exit, onDone }: { view: ModuleView; pack: C
         <p><a href={exit} style={{ textDecoration: "none" }}>← {module.title}</a></p>
         <h1>Cierre del módulo</h1>
         <h2>¿Qué sabes hacer ya?</h2>
-        <p><small>Marca lo que de verdad puedes hacer sin mirar. Es solo para ti: lo que quede sin marcar conviene repasarlo antes de la prueba.</small></p>
-        <ul className="options">{module.can_do_es.map((c, i) => <li key={c}><label><input type="checkbox" checked={checks[i]} onChange={(e) => setChecks((x) => x.map((v, k) => (k === i ? e.target.checked : v)))} /> {c}</label></li>)}</ul>
+        <p><small>Marca lo que de verdad puedes hacer sin mirar. Se guarda en este dispositivo y aparece en Progreso como «marcado por ti»; no cuenta para completar el módulo. Lo que quede sin marcar conviene repasarlo antes de la prueba.</small></p>
+        <ul className="options">{module.can_do_es.map((c, i) => <li key={c}><label><input type="checkbox" checked={checks[i]} onChange={(e) => toggle(i, e.target.checked)} /> {c}</label></li>)}</ul>
         <p>La prueba son {items.length} frases mezcladas de todas las cápsulas, que escribes en italiano desde el español. Sin opciones ni «mi versión también es correcta». Con 80 % o más completas el módulo.</p>
         <div style={{ marginTop: 16 }}><button type="button" className="primary block" disabled={items.length === 0} onClick={() => setPhase("test")}>Empezar la prueba</button></div>
       </main>
