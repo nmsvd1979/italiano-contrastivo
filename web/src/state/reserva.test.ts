@@ -3,7 +3,8 @@ import { describe, expect, it } from "vitest";
 import { reserveParts, RESERVE_SIZE, type ContentPack } from "../content/load";
 import { moduleTestItems, moduleViews } from "./modules";
 import { milestoneItems, milestoneWriteItems } from "./milestone";
-import { rotate, reserveChoiceItems, reserveItems, practiceItems } from "./steps";
+import { weakItems } from "./weak";
+import { rotate, withoutReserve, reserveChoiceItems, reserveItems, practiceItems } from "./steps";
 
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
 const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"),
@@ -44,6 +45,16 @@ describe("frases reservadas (contenido real de A1)", () => {
     const w0 = milestoneWriteItems(pack, "A1", new Set(), 0), w1 = milestoneWriteItems(pack, "A1", new Set(), 1);
     expect(w0.filter((i) => reserved.has(sid(i))).length).toBeGreaterThan(w0.length / 2);
     expect(w0.map((i) => i.id).join()).not.toBe(w1.map((i) => i.id).join());
+  });
+  it("el repaso y el refuerzo no usan frases reservadas", () => {
+    const u = a1[0], code = u.codes[0];
+    const all = pack.itemsByCode[code];
+    const ids = new Set(u.parts.reserva);
+    expect(all.some((i) => ids.has(sid(i)))).toBe(true);                                   // sin el filtro sí saldrían
+    expect(withoutReserve(all, pack.course).some((i) => ids.has(sid(i)))).toBe(false);
+    const out = weakItems([{ code, correct: 0, total: 5 } as never], pack, "2026-11-24", 40);
+    expect(out.length).toBeGreaterThan(0);
+    expect(out.some((i) => ids.has(sid(i)))).toBe(false);
   });
   it("rotate gira sin perder elementos", () => {
     expect(rotate([1, 2, 3], 1)).toEqual([2, 3, 1]);

@@ -47,6 +47,12 @@ Si hoy se agregara `a2m01` a `schemas/data/course.json`, pasaría esto: al termi
 - **Mínimo de producción:** la escritura de la Salida pide 20 palabras (`OWN_TEXT_MIN_WORDS`) y la tarea oral del hito rota por intento. No hay corrección automática del italiano; el módulo sigue basándose en autoevaluación.
 - **Pruebas de ruta y de cobertura** (`web/src/state/ruta.test.ts`, `tests/py/ruta_obligatoria.py`) ya son genéricas por nivel salvo lo del Paso 0.
 
+## Hallazgos de la segunda auditoría que A2 hereda
+- `g16` (subordinadas perché/quando/per + infinitivo) y `g13` (imperativo de «voi») quedaron «partial» en `syllabus-a1.json`: son candidatos a cápsulas de A2.
+- `f10` (invitar, pedir permiso) y `l07` (emociones) están «covered» pero débiles; revisarlos al cotejar con los PDF.
+- Conviene que `tests/py/test_cobertura_aN.py` compruebe contenido (por ejemplo, que haya frases con la estructura pedida), no solo que el id exista.
+- Si las palabras nuevas por unidad superan lo que el cupo diario permite, el atraso crece sin aviso: decidir si A2 dosifica el vocabulario o muestra un aviso.
+
 ## Lo que no se hizo en A1 y A2 puede heredar como riesgo
 
 - La prueba de una cápsula usa solo sus 6–8 frases fijas (se rota el orden en el Cierre y el hito, no en la prueba de la cápsula).

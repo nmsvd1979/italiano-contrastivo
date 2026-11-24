@@ -75,6 +75,20 @@ export function testItems(unit: Unit, pack: ContentPack): Item[] {
   return unit.parts.prueba.map((id) => idx.get(id)).filter((x): x is PackSentence => !!x).map((x) => writeItemOf(x, unit.codes[0]));
 }
 
+const reservedCache = new WeakMap<object, Set<string>>();
+/** Ids de las frases reservadas de todas las unidades: no deben salir en ningún repaso ni refuerzo (el Cierre y el hito las presentan como no vistas). */
+export function reservedIds(course: { units: Unit[] } | undefined): Set<string> {
+  if (!course) return new Set();
+  let ids = reservedCache.get(course);
+  if (!ids) { ids = new Set(course.units.flatMap((u) => u.parts.reserva ?? [])); reservedCache.set(course, ids); }
+  return ids;
+}
+/** Quita de una lista de ejercicios los que son de una frase reservada. */
+export const withoutReserve = (items: Item[], course: { units: Unit[] } | undefined): Item[] => {
+  const ids = reservedIds(course);
+  return ids.size ? items.filter((i) => !ids.has((i as Item & { sentence_id?: string }).sentence_id ?? "")) : items;
+};
+
 /** Gira una lista `k` lugares (para que cada reintento empiece en otra frase). */
 export const rotate = <T,>(xs: T[], k: number): T[] => (xs.length ? xs.map((_, i) => xs[(i + k) % xs.length]) : xs);
 

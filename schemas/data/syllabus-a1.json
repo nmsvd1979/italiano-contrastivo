@@ -161,7 +161,9 @@
    "area": "gramatica",
    "source": "CILS A1",
    "text_es": "Imperativo de «tu» y «voi», afirmativo y negativo",
-   "status": "covered",
+   "status": "partial",
+   "gap_es": "Hay práctica del imperativo de «tu» (u62), pero ninguna frase de imperativo afirmativo de «voi» y las explicaciones solo tratan «tu».",
+   "how_es": "Ampliar u62 (o una cápsula de A2) con el imperativo de «voi».",
    "refs": {
     "units": [
      "u62",
@@ -199,7 +201,9 @@
    "area": "gramatica",
    "source": "CILS A1",
    "text_es": "Subordinadas: perché (causa), quando (tiempo), per + infinitivo (finalidad)",
-   "status": "covered",
+   "status": "partial",
+   "gap_es": "Las unidades de referencia (u30, u70) enseñan interrogativos y preposiciones, no la estructura de las subordinadas: «quando» subordinada aparece 1 vez en A1, «perché» causal 11 y «per + infinitivo» 8.",
+   "how_es": "Una cápsula de «perché / quando / per + infinitivo» en A2, con frases auditadas.",
    "refs": {
     "units": [
      "u30",

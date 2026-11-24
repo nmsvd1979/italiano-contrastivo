@@ -13,6 +13,7 @@ import { ItemView } from "./items/ItemView";
 import { FocusHead } from "./kit/FocusHead";
 import { Ring } from "./kit/Ring";
 import { trackAttempt, trackAttemptCode } from "../state/attempts";
+import { withoutReserve } from "../state/steps";
 import { RunProvider } from "./kit/RunContext";
 import { useStrandTimer } from "./kit/useStrandTimer";
 
@@ -33,7 +34,7 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
   const entry = queue[i];
   const card: Card | null = "card" in entry ? entry.card : null;
   const lexeme: Lexeme | undefined = "lexeme" in entry ? entry.lexeme : card?.subject.kind === "lexeme" ? pack.lexemes.find((l) => l.id === card.subject.ref) ?? wordLexeme(pack, card.subject.ref) : undefined;
-  const items = card?.subject.kind === "error_code" ? pack.itemsByCode[card.subject.ref] : undefined;
+  const items = card?.subject.kind === "error_code" ? withoutReserve(pack.itemsByCode[card.subject.ref] ?? [], pack.course) : undefined;
 
   if ("filler" in entry) {
     const code = (entry.filler as { target_error_codes?: string[] }).target_error_codes?.[0];

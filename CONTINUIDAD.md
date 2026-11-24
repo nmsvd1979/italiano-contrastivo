@@ -2,6 +2,13 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-24 (16) — Segunda auditoría de A1 (independiente) y dos arreglos
+**Pedido del usuario:** repetir el análisis para ver si A1 quedó cubierto y listo. Un auditor independiente (sin ver mis conclusiones) y yo revisamos los cambios nuevos y la cobertura del programa.
+**Resultado:** nada crítico; A1 se puede usar de principio a fin. Pruebas: web 1214, pytest 878 y tsc, en verde.
+**Arreglado:** (1) las frases reservadas se colaban en el repaso espaciado y en «Lo que más te cuesta» (733 de 10.856 ejercicios de A1, contado por los dos): ahora `withoutReserve` (`state/steps.ts`) las excluye en `ReviewScreen` y `weakItems`, con prueba. (2) El programa estaba algo inflado: g16 (subordinadas) y g13 (imperativo de «voi») pasan de «covered» a «partial», con su hueco y cómo cerrarlo (A2).
+**Sin cambiar (declarado):** el cupo de 12 palabras puede acumular atraso si completas unidades rápido (solo se muestra cuántas esperan); el reconocimiento del hito es solo elección múltiple; 2 frases reservadas de u18 se practican en otras unidades; f10 (invitar/pedir permiso) y l07 (emociones) son débiles pero siguen «covered»; la prueba de cobertura solo comprueba ids, no si la referencia enseña lo pedido; entonación (p02) sigue como hueco.
+**No comprobado:** iPhone real; pantallas del Cierre y del hito a mano.
+
 ## 2026-11-24 (15) — Auditoría de A1 y cierre de A1 en código
 **Pedido del usuario:** auditar si la app permite aprender A1 con la ruta y «Hoy», y si sirve de base para A2–B2; luego, arreglar lo que falte de A1 y dejar pistas para planificar A2 en otra conversación. Informe: `docs/auditoria-2026-11-24-a1-y-niveles.md` (mi revisión + la de un auditor independiente; coincidieron).
 **Hecho (A1):**

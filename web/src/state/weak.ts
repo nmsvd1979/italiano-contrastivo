@@ -2,6 +2,7 @@ import type { ContentPack, Course } from "../content/load";
 import type { Item } from "../generated/item";
 import type { DayProgress } from "./store";
 import { lastDates } from "./strands";
+import { withoutReserve } from "./steps";
 
 /** Intentos mínimos de un tema para opinar sobre él, aciertos por debajo de los cuales es «débil» y días que se miran. Valores del proyecto. */
 export const WEAK_MIN_ATTEMPTS = 5;
@@ -48,9 +49,9 @@ const hash = (s: string) => { let h = 5381; for (let i = 0; i < s.length; i++) h
  * Una tanda de ejercicios de los puntos débiles: reparte por turnos entre ellos (el más débil primero), sin repetir y hasta `max`.
  * Cada tema empieza en una posición que depende de la fecha, para que no sea siempre la misma tanda.
  */
-export function weakItems(spots: WeakSpot[], pack: Pick<ContentPack, "itemsByCode">, today: string, max = 10): Item[] {
+export function weakItems(spots: WeakSpot[], pack: Pick<ContentPack, "itemsByCode"> & Partial<Pick<ContentPack, "course">>, today: string, max = 10): Item[] {
   const pools = spots.map((s) => {
-    const all = (pack.itemsByCode[s.code] ?? []).filter((i) => TYPES.has(i.type ?? ""));
+    const all = withoutReserve((pack.itemsByCode[s.code] ?? []).filter((i) => TYPES.has(i.type ?? "")), pack.course);
     const start = all.length ? hash(`${today}:${s.code}`) % all.length : 0;
     return [...all.slice(start), ...all.slice(0, start)];
   });
