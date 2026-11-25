@@ -14665,7 +14665,7 @@
       "codes": [
         "ERR_PARTICIPIO_ES"
       ],
-      "why_here": "Contar lo que hiciste; el A2 completa el pasado con el auxiliar essere.",
+      "why_here": "Contar lo que hiciste con avere; la unidad siguiente (u08) completa el pasado con el auxiliar essere.",
       "ficha_es": "El passato prossimo se forma con avere + participio: ho mangiato, hai parlato, ha venduto, abbiamo dormito. El participio termina en -ato (-are), -uto (-ere) o -ito (-ire). No es -ado / -ido como en español (comido, hablado).\n\nEs el pasado de «lo que hice» (ho mangiato la pizza). Hay participios irregulares muy comunes (fatto, preso, letto, visto, detto), y muchos verbos de movimiento usan essere en vez de avere (sono andato): eso se trabaja en A2.",
       "readings": [
         "rd_viaggio"
@@ -14767,8 +14767,8 @@
       "codes": [
         "ERR_AUX_ESSERE"
       ],
-      "why_here": "Contar lo que hiciste con verbos de movimiento: el programa de CILS A1 pide elegir bien el auxiliar (essere o avere); la concordancia del participio llega en A2.",
-      "ficha_es": "En A2 aprendes que los verbos de movimiento y de cambio de estado usan essere como auxiliar: sono andato, sono arrivata, sono partiti. El español usa «haber» siempre («he ido, he llegado»).\n\nError típico: «ho andato» en vez de sono andato. Con essere el participio concuerda con el sujeto (sono andata, siamo partiti).",
+      "why_here": "Contar lo que hiciste con verbos de movimiento: el programa de CILS A1 pide elegir bien el auxiliar (essere o avere). Con essere el participio concuerda con el sujeto (sono andata): aquí lo reconoces y en A2 lo practicas a fondo.",
+      "ficha_es": "Aquí aprendes que los verbos de movimiento y de cambio de estado usan essere como auxiliar: sono andato, sono arrivata, sono partiti. El español usa «haber» siempre («he ido, he llegado»).\n\nError típico: «ho andato» en vez de sono andato. Con essere el participio concuerda con el sujeto (sono andata, siamo partiti).",
       "readings": [
         "rd_giornatabrutta"
       ],
