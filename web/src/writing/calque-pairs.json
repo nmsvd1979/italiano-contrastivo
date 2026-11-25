@@ -336,11 +336,6 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
-    "correct": "Dovreste vedere il mio gatto ora.",
-    "wrong": "Dovreste vedere mio gatto ora."
-  },
-  {
-    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il tuo insegnante è vecchio.",
     "wrong": "Tuo insegnante è vecchio."
   },
@@ -418,11 +413,6 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "La sua personalità è affascinante.",
     "wrong": "Sua personalità è affascinante."
-  },
-  {
-    "code": "ERR_PREP_ARTICLE_CONTRACTION",
-    "correct": "È una pugnalata alla schiena.",
-    "wrong": "È una pugnalata a la schiena."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -538,11 +528,6 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il mio pappagallo è verde.",
     "wrong": "Mio pappagallo è verde."
-  },
-  {
-    "code": "ERR_TENERE_AVERE",
-    "correct": "La forza ha ragione.",
-    "wrong": "La forza tiene ragione."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -1150,11 +1135,6 @@
     "wrong": "Il prezzo di la benzina sta crescendo."
   },
   {
-    "code": "ERR_PREP_ARTICLE_CONTRACTION",
-    "correct": "Immaginati sulla cima di una montagna.",
-    "wrong": "Immaginati su la cima di una montagna."
-  },
-  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Tom non conosce i suoi vicini.",
     "wrong": "Tom non conosce suoi vicini."
@@ -1421,11 +1401,6 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
-    "correct": "Ho bisogno del primo soccorso.",
-    "wrong": "Ho bisogno di il primo soccorso."
-  },
-  {
-    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Cosa c'è nella scatola?",
     "wrong": "Cosa c'è in la scatola?"
   },
@@ -1676,11 +1651,6 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
-    "correct": "Al mare non piove mai.",
-    "wrong": "A il mare non piove mai."
-  },
-  {
-    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "È contento di andare all'ospedale.",
     "wrong": "È contento di andare a l'ospedale."
   },
@@ -1693,11 +1663,6 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Mi piace mangiare della zuppa calda.",
     "wrong": "Mi piace mangiare di la zuppa calda."
-  },
-  {
-    "code": "ERR_TENERE_AVERE",
-    "correct": "Ho paura ad andare da solo.",
-    "wrong": "Tengo paura ad andare da solo."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -1743,11 +1708,6 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Con chi sei venuto?",
     "wrong": "Con chi hai venuto?"
-  },
-  {
-    "code": "ERR_POSSESSIVE_ARTICLE",
-    "correct": "Io vedo la mia corona.",
-    "wrong": "Io vedo mia corona."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -1905,21 +1865,6 @@
     "wrong": "Ci sono un grande supermercato."
   },
   {
-    "code": "ERR_PREP_ARTICLE_CONTRACTION",
-    "correct": "Hai fino alle due e mezza.",
-    "wrong": "Hai fino a le due e mezza."
-  },
-  {
-    "code": "ERR_PREP_ARTICLE_CONTRACTION",
-    "correct": "Ha fino alle due e mezza.",
-    "wrong": "Ha fino a le due e mezza."
-  },
-  {
-    "code": "ERR_PREP_ARTICLE_CONTRACTION",
-    "correct": "Avete fino alle due e mezza.",
-    "wrong": "Avete fino a le due e mezza."
-  },
-  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è un grosso buco.",
     "wrong": "Ci sono un grosso buco."
@@ -2013,11 +1958,6 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "La mia bottiglia si è rotta.",
     "wrong": "Mia bottiglia si è rotta."
-  },
-  {
-    "code": "ERR_PREP_ARTICLE_CONTRACTION",
-    "correct": "Tutta la città è al corrente.",
-    "wrong": "Tutta la città è a il corrente."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2266,11 +2206,6 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
-    "correct": "Sono uno studente dall'Italia.",
-    "wrong": "Sono uno studente da l'Italia."
-  },
-  {
-    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Casa mia è vicina alla chiesa.",
     "wrong": "Casa mia è vicina a la chiesa."
   },
@@ -2298,11 +2233,6 @@
     "code": "ERR_CE_AGREEMENT",
     "correct": "Oh, là c'è una farfalla!",
     "wrong": "Oh, là ci sono una farfalla!"
-  },
-  {
-    "code": "ERR_PREP_PLACE",
-    "correct": "Vado a costruire edifici in Italia.",
-    "wrong": "Vado a costruire edifici a Italia."
   },
   {
     "code": "ERR_AUX_ESSERE",

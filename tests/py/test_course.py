@@ -132,4 +132,6 @@ def test_pruebas_a1_del_paquete_sin_b1():
         if u["level"] == "A1":
             levels = [lv[i] for i in u["parts"]["prueba"]]
             assert all(x in ("A1", "A2") for x in levels), u["id"]
-            assert levels.count("A2") == 0 or u["id"] in ("u58", "u67"), u["id"]   # A2 solo donde el estimador marca A2 la estructura enseñada
+            if "A2" in levels:   # A2 solo para completar: la unidad no tenía frases A1 suficientes fuera de «Descubre»
+                pool = [i for i in u["parts"]["practica"] + u["parts"]["prueba"] if i not in u["parts"]["descubre"]]
+                assert sum(lv[i] == "A1" for i in pool) < len(u["parts"]["prueba"]), u["id"]

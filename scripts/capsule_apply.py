@@ -20,7 +20,7 @@ auth = store.connect(ROOT / "data" / "work" / "authoring.db")
 from pipeline.promote import ensure_catalog  # noqa: E402
 ensure_catalog(auth)  # los códigos de tema también deben existir en la base (clave foránea)
 auth.commit()
-verdicts = json.loads((ROOT / "data/work/capsules/verdicts.json").read_text(encoding="utf8"))
+verdicts = json.loads((Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "data/work/capsules/verdicts.json").read_text(encoding="utf8"))  # ruta opcional: otra tanda
 words = lambda t: len(re.findall(r"\w+", t))
 summary = Counter()
 for v in verdicts:

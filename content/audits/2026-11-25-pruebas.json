@@ -1,0 +1,830 @@
+{
+ "fecha": "2026-11-25",
+ "revisor": "llm-audit (Claude, sesión principal)",
+ "alcance": "frases de prueba y de reserva de las unidades A1 (716 frases únicas); segunda vuelta: las 113 frases que entraron en reemplazo de las rechazadas; tercera vuelta: las que entraron tras la segunda",
+ "criterios": "reject = absurda, poco natural, elíptica, calco o fuera de A1; fix = el español no lleva al italiano esperado o es regional; drop_alt = alternativa aceptada por error. Las demás quedaron sin cambios.",
+ "veredictos": [
+  {
+   "id": "s_13437351",
+   "v": "reject",
+   "nota": "«La forza ha ragione»: calco de un refrán inglés, sin sentido como frase A1.",
+   "it": "La forza ha ragione.",
+   "es_antes": "La fuerza tiene razón."
+  },
+  {
+   "id": "s_841278",
+   "v": "fix",
+   "es": "Debemos ser fieles a nuestros principios.",
+   "nota": "fedeli = fieles; «leales» lleva a «leali».",
+   "it": "Dobbiamo essere fedeli ai nostri principi.",
+   "es_antes": "Debemos ser leales a nuestros principios."
+  },
+  {
+   "id": "s_4256076",
+   "v": "fix",
+   "es": "Él es el campeón.",
+   "nota": "El italiano trae «Lui» explícito y el corrector no tolera lui/lei: el español debe pedirlo.",
+   "it": "Lui è il campione.",
+   "es_antes": "Es el campeón."
+  },
+  {
+   "id": "s_3420485",
+   "v": "reject",
+   "nota": "«Ha trenta secondi»: elíptica, sin contexto no tiene sentido.",
+   "it": "Ha trenta secondi.",
+   "es_antes": "Tiene treinta segundos."
+  },
+  {
+   "id": "s_946942",
+   "v": "fix",
+   "es": "Este reloj antiguo vale mil dólares.",
+   "nota": "vale = vale; «cuesta» lleva a «costa».",
+   "it": "Questo orologio antico vale mille dollari.",
+   "es_antes": "Este reloj antiguo cuesta mil dólares."
+  },
+  {
+   "id": "s_13170186",
+   "v": "fix",
+   "es": "La leche te hace bien.",
+   "nota": "«es buena para ti» lleva a «è buono per te», no a «ti fa bene».",
+   "it": "Il latte ti fa bene.",
+   "es_antes": "La leche es buena para ti."
+  },
+  {
+   "id": "s_1900583",
+   "v": "reject",
+   "nota": "«Dov'è uno specchio?» es poco natural y el español «¿Dónde hay…?» pide «Dove c'è…?».",
+   "it": "Dov'è uno specchio?",
+   "es_antes": "¿Dónde hay un espejo?"
+  },
+  {
+   "id": "s_12018274",
+   "v": "reject",
+   "nota": "El español dice «usted» y el italiano usa «tu»; además la frase no tiene sentido comunicativo.",
+   "it": "Usi gli avverbi.",
+   "es_antes": "Usted usa los adverbios."
+  },
+  {
+   "id": "s_2423241",
+   "v": "fix",
+   "es": "Los estudiantes son perezosos.",
+   "nota": "«flojos» es regional; español neutro.",
+   "it": "Gli studenti sono pigri.",
+   "es_antes": "Los estudiantes son flojos."
+  },
+  {
+   "id": "s_5121170",
+   "v": "fix",
+   "es": "¿Cómo se llama el abogado de ustedes?",
+   "nota": "«su abogado» admite «il suo»; el italiano pide «vostro».",
+   "it": "Come si chiama il vostro avvocato?",
+   "es_antes": "¿Cómo se llama su abogado?"
+  },
+  {
+   "id": "s_381789",
+   "v": "reject",
+   "nota": "«impazzisce per» es idiomático y el español «le apasiona» no lleva a esa forma.",
+   "it": "John impazzisce per la musica pop.",
+   "es_antes": "A Jon le apasiona la música pop."
+  },
+  {
+   "id": "s_1512719",
+   "v": "reject",
+   "nota": "«Cantare le riesce bene»: construcción idiomática de B1.",
+   "it": "Cantare le riesce bene.",
+   "es_antes": "A ella se le da bien cantar."
+  },
+  {
+   "id": "s_632122",
+   "v": "reject",
+   "nota": "Relativo con comas, poco natural y fuera de A1.",
+   "it": "Questi fiori, che vedi, sono rose.",
+   "es_antes": "Estas flores que ves son rosas."
+  },
+  {
+   "id": "s_4461306",
+   "v": "fix",
+   "es": "¿Qué idioma habla?",
+   "nota": "El italiano no lleva «lei»; con «ella» al final el corrector exigiría «parla lei».",
+   "it": "Che lingua parla?",
+   "es_antes": "¿Qué idioma habla ella?"
+  },
+  {
+   "id": "s_4629",
+   "v": "reject",
+   "nota": "«a cui» (relativo con preposición) es de B1.",
+   "it": "Ecco il ragazzo a cui penso.",
+   "es_antes": "Este es el chico en quien pienso."
+  },
+  {
+   "id": "s_877571",
+   "v": "fix",
+   "es": "El niño está comiendo pan.",
+   "nota": "bambino = niño; «chico» lleva a «ragazzo».",
+   "it": "Il bambino sta mangiando del pane.",
+   "es_antes": "El chico está comiendo pan."
+  },
+  {
+   "id": "s_373744",
+   "v": "fix",
+   "es": "La música nutre nuestra imaginación.",
+   "nota": "nutre = nutre; «alimenta» lleva a «alimenta».",
+   "it": "La musica nutre la nostra immaginazione.",
+   "es_antes": "La música alimenta nuestra imaginación."
+  },
+  {
+   "id": "s_1195313",
+   "v": "reject",
+   "nota": "Condicional «dovreste»: fuera de A1.",
+   "it": "Dovreste vedere il mio gatto ora.",
+   "es_antes": "Deberían ver a mi gato ahora."
+  },
+  {
+   "id": "s_5493244",
+   "v": "fix",
+   "es": "Tom es una persona perezosa.",
+   "nota": "El español omitía «una persona».",
+   "it": "Tom è una persona pigra.",
+   "es_antes": "Tom es perezoso."
+  },
+  {
+   "id": "s_715654",
+   "v": "fix",
+   "es": "Esa habitación no es muy grande.",
+   "nota": "molto = muy; «tan» lleva a «così/tanto».",
+   "it": "Quella stanza non è molto grande.",
+   "es_antes": "Esa habitación no es tan grande."
+  },
+  {
+   "id": "s_3156538",
+   "v": "fix",
+   "es": "Trabaja para una gran empresa.",
+   "nota": "«per» = para; «en» lleva a «in».",
+   "it": "Lavora per una grande società.",
+   "es_antes": "Trabaja en una empresa grande."
+  },
+  {
+   "id": "s_10451845",
+   "v": "fix",
+   "es": "Los boletos son costosos.",
+   "nota": "«tickets» es anglicismo; español neutro.",
+   "it": "I biglietti sono costosi.",
+   "es_antes": "Los tickets son costosos."
+  },
+  {
+   "id": "s_4465222",
+   "v": "reject",
+   "nota": "«Io vedo la mia corona»: frase sin sentido comunicativo.",
+   "it": "Io vedo la mia corona.",
+   "es_antes": "Veo mi corona."
+  },
+  {
+   "id": "s_398782",
+   "v": "reject",
+   "nota": "Abreviatura «Sig.»: nadie la escribe igual; la respuesta esperada es imposible de adivinar.",
+   "it": "Conosce bene il Sig. Davidson.",
+   "es_antes": "Él conoce bien al señor Davidson."
+  },
+  {
+   "id": "s_5533477",
+   "v": "reject",
+   "nota": "Elíptica («Ha fino alle due e mezza»): sin contexto no tiene sentido.",
+   "it": "Ha fino alle due e mezza.",
+   "es_antes": "Tiene hasta las dos y media."
+  },
+  {
+   "id": "s_5533475",
+   "v": "reject",
+   "nota": "Elíptica: sin contexto no tiene sentido.",
+   "it": "Hai fino alle due e mezza.",
+   "es_antes": "Tienes hasta las dos y media."
+  },
+  {
+   "id": "s_5533481",
+   "v": "reject",
+   "nota": "Elíptica: sin contexto no tiene sentido.",
+   "it": "Avete fino alle due e mezza.",
+   "es_antes": "Tienen hasta las dos y media."
+  },
+  {
+   "id": "s_3444074",
+   "v": "reject",
+   "nota": "«Ti senti di…» no corresponde a «¿Tienes ganas…?» (sería «Hai voglia di…»).",
+   "it": "Ti senti di andare a sciare?",
+   "es_antes": "¿Tienes ganas de ir a esquiar?"
+  },
+  {
+   "id": "s_1355288",
+   "v": "reject",
+   "nota": "«ci credo» (clítico ci) es de A2 y el español «lo creo» lleva a otra forma.",
+   "it": "Ancora non ci credo!",
+   "es_antes": "¡Aún no lo creo!"
+  },
+  {
+   "id": "s_1253756",
+   "v": "reject",
+   "nota": "«Ho il mal di testa» con artículo es poco natural; el español «me duele» no lleva a esa forma.",
+   "it": "Ho il mal di testa adesso.",
+   "es_antes": "Me duele la cabeza ahora."
+  },
+  {
+   "id": "s_630472",
+   "v": "fix",
+   "es": "El ascensor está fuera de servicio hoy.",
+   "nota": "«fuori servizio» = fuera de servicio.",
+   "it": "L'ascensore è fuori servizio oggi.",
+   "es_antes": "El ascensor no funciona hoy."
+  },
+  {
+   "id": "s_5631109",
+   "v": "fix",
+   "es": "¿Qué tipo de champú utiliza?",
+   "nota": "utilizza = utiliza.",
+   "it": "Che tipo di shampoo utilizza?",
+   "es_antes": "¿Qué tipo de champú usa?"
+  },
+  {
+   "id": "s_4813430",
+   "v": "fix",
+   "es": "Ese perfume tiene buen olor.",
+   "nota": "«ha un buon odore» = tiene buen olor; «huele bien» lleva a «profuma».",
+   "it": "Quel profumo ha un buon odore.",
+   "es_antes": "Ese perfume huele bien."
+  },
+  {
+   "id": "s_520740",
+   "v": "fix",
+   "es": "Ella va a la escuela a pie.",
+   "nota": "«a piedi» = a pie.",
+   "it": "Lei va a scuola a piedi.",
+   "es_antes": "Ella va a la escuela caminando."
+  },
+  {
+   "id": "s_962438",
+   "v": "fix",
+   "es": "Tom ama estudiar música.",
+   "nota": "ama = ama; «adora» lleva a «adora».",
+   "it": "Tom ama studiare musica.",
+   "es_antes": "Tom adora estudiar música."
+  },
+  {
+   "id": "s_4577451",
+   "v": "fix",
+   "es": "¿Quién quiere un pedazo de torta?",
+   "nota": "«un pezzo» = un pedazo.",
+   "it": "Chi vuole un pezzo di torta?",
+   "es_antes": "¿Quién quiere un poco de torta?"
+  },
+  {
+   "id": "s_1330875",
+   "v": "fix",
+   "es": "¿Cómo van los negocios?",
+   "nota": "«gli affari» es plural.",
+   "it": "Come vanno gli affari?",
+   "es_antes": "¿Cómo va el negocio?"
+  },
+  {
+   "id": "s_388805",
+   "v": "fix",
+   "es": "¿Cuándo se come? ¡Tengo hambre!",
+   "nota": "«si mangia» es impersonal.",
+   "it": "Quando si mangia? Ho fame!",
+   "es_antes": "¿Cuándo comemos? ¡Tengo hambre!"
+  },
+  {
+   "id": "s_1068397",
+   "v": "fix",
+   "es": "Yo no hablo español.",
+   "nota": "«castellano» → español neutro, como el italiano «spagnolo».",
+   "it": "Io non parlo spagnolo.",
+   "es_antes": "Yo no hablo castellano."
+  },
+  {
+   "id": "s_3787217",
+   "v": "reject",
+   "nota": "«È libertà di espressione»: elíptica y abstracta.",
+   "it": "È libertà di espressione.",
+   "es_antes": "Es libertad de expresión."
+  },
+  {
+   "id": "s_810560",
+   "v": "reject",
+   "nota": "«Vivi e impara»: calco del inglés «live and learn».",
+   "it": "Vivi e impara.",
+   "es_antes": "Vive y aprende."
+  },
+  {
+   "id": "s_3533012",
+   "v": "reject",
+   "nota": "«Aspetta e guarda»: calco del inglés «wait and see».",
+   "it": "Aspetta e guarda.",
+   "es_antes": "Espera y mira."
+  },
+  {
+   "id": "s_1300996",
+   "v": "fix",
+   "es": "Obviamente no tiene razón.",
+   "nota": "«ha torto» = no tiene razón; «está equivocado» lleva a «si sbaglia».",
+   "it": "Ovviamente ha torto.",
+   "es_antes": "Obviamente está equivocado."
+  },
+  {
+   "id": "s_2831900",
+   "v": "fix",
+   "es": "La casa de ustedes es grande.",
+   "nota": "«Su casa» admite «casa sua»; el italiano pide «vostra».",
+   "it": "Casa vostra è grande.",
+   "es_antes": "Su casa es grande."
+  },
+  {
+   "id": "s_610311",
+   "v": "reject",
+   "nota": "«essere al corrente» es idiomático de B1.",
+   "it": "Tutta la città è al corrente.",
+   "es_antes": "Toda la ciudad está al corriente."
+  },
+  {
+   "id": "s_2823744",
+   "v": "reject",
+   "nota": "Imperativo reflexivo con enclítico («Immaginati»): fuera de A1.",
+   "it": "Immaginati sulla cima di una montagna.",
+   "es_antes": "Imagínate en la cima de una montaña."
+  },
+  {
+   "id": "s_948354",
+   "v": "fix",
+   "es": "No conozco este barrio demasiado bien.",
+   "nota": "troppo = demasiado.",
+   "it": "Non conosco questo quartiere troppo bene.",
+   "es_antes": "No conozco muy bien este barrio."
+  },
+  {
+   "id": "s_7611594",
+   "v": "reject",
+   "nota": "«Vado a costruire» (ir a un lugar a construir) se confunde con la perífrasis de futuro del español «voy a construir».",
+   "it": "Vado a costruire edifici in Italia.",
+   "es_antes": "Voy a construir edificios en Italia."
+  },
+  {
+   "id": "s_1285594",
+   "v": "fix",
+   "es": "¿De verdad vas a estudiar a Londres?",
+   "nota": "El español tenía un «ir» de más.",
+   "it": "Davvero vai a studiare a Londra?",
+   "es_antes": "¿De verdad vas a ir a estudiar a Londres?"
+  },
+  {
+   "id": "s_3590343",
+   "v": "reject",
+   "nota": "«Ho bisogno del primo soccorso»: poco natural.",
+   "it": "Ho bisogno del primo soccorso.",
+   "es_antes": "Yo necesito primeros auxilios."
+  },
+  {
+   "id": "s_2700858",
+   "v": "fix",
+   "es": "Copia este programa en tu computadora.",
+   "nota": "«computador» es regional.",
+   "it": "Copia questo programma nel tuo computer.",
+   "es_antes": "Copia este programa en tu computador."
+  },
+  {
+   "id": "s_3497125",
+   "v": "fix",
+   "es": "Tom todavía no está aquí.",
+   "nota": "Orden del español poco natural.",
+   "it": "Tom non è ancora qui.",
+   "es_antes": "Todavía no está aquí Tom."
+  },
+  {
+   "id": "s_7750493",
+   "v": "fix",
+   "es": "Puede sentarse a mi lado.",
+   "nota": "«Si può sedere» es «usted puede sentarse», no impersonal.",
+   "it": "Si può sedere accanto a me.",
+   "es_antes": "Se puede sentar a mi lado."
+  },
+  {
+   "id": "s_3275563",
+   "v": "fix",
+   "es": "¿En qué dirección va esta calle?",
+   "nota": "El español «¿A dónde conduce este camino?» lleva a otra frase.",
+   "it": "In che direzione va questa strada?",
+   "es_antes": "¿A dónde conduce este camino?"
+  },
+  {
+   "id": "s_373503",
+   "v": "fix",
+   "es": "Me gustan los gatos.",
+   "nota": "«Me encantan» lleva a «adoro», no a «mi piacciono».",
+   "it": "Mi piacciono i gatti.",
+   "es_antes": "Me encantan los gatos."
+  },
+  {
+   "id": "s_13837581",
+   "v": "reject",
+   "nota": "«Vedi una tazza»: sin sentido comunicativo.",
+   "it": "Vedi una tazza.",
+   "es_antes": "Ves una taza."
+  },
+  {
+   "id": "s_1515977",
+   "v": "fix",
+   "es": "El refresco es realmente delicioso.",
+   "nota": "davvero = realmente.",
+   "it": "La bibita è davvero deliziosa.",
+   "es_antes": "El refresco es muy delicioso."
+  },
+  {
+   "id": "s_741490",
+   "v": "reject",
+   "nota": "«Prendiamo un giornale» con el español «compramos»: la respuesta esperada no se deduce de la consigna.",
+   "it": "Prendiamo un giornale.",
+   "es_antes": "Compramos un periódico."
+  },
+  {
+   "id": "s_1702261",
+   "v": "reject",
+   "nota": "Igual que s_741490: el español «compramos» no lleva a «prendiamo».",
+   "it": "Noi prendiamo un giornale.",
+   "es_antes": "Nosotros compramos un periódico."
+  },
+  {
+   "id": "s_424341",
+   "v": "reject",
+   "nota": "«paura ad andare» es coloquial; la forma estándar es «paura di andare».",
+   "it": "Ho paura ad andare da solo.",
+   "es_antes": "Tengo miedo de ir solo."
+  },
+  {
+   "id": "s_693925",
+   "v": "reject",
+   "nota": "«Non ti resta che…» es de B1.",
+   "it": "Non ti resta che aspettare.",
+   "es_antes": "No te queda otra que esperar."
+  },
+  {
+   "id": "s_996844",
+   "v": "fix",
+   "es": "Soy un programador de videojuegos.",
+   "nota": "Ortografía: videojuegos.",
+   "it": "Sono un programmatore di videogiochi.",
+   "es_antes": "Soy un programador de video juegos."
+  },
+  {
+   "id": "s_5633830",
+   "v": "fix",
+   "es": "Me gusta el helado de fresa.",
+   "nota": "«frutilla» es regional.",
+   "it": "Mi piace il gelato alla fragola.",
+   "es_antes": "Me gusta el helado de frutilla."
+  },
+  {
+   "id": "s_824694",
+   "v": "fix",
+   "es": "La zanahoria es un tentempié saludable.",
+   "nota": "«colación» es regional.",
+   "it": "La carota è uno spuntino salutare.",
+   "es_antes": "La zanahoria es una colación saludable."
+  },
+  {
+   "id": "s_1274677",
+   "v": "fix",
+   "es": "Esta sopa tiene buen sabor.",
+   "nota": "«ha un buon sapore» = tiene buen sabor.",
+   "it": "Questa minestra ha un buon sapore.",
+   "es_antes": "Esta sopa sabe bien."
+  },
+  {
+   "id": "s_14008532",
+   "v": "fix",
+   "es": "¿Qué tienes en la bolsa blanca?",
+   "nota": "«Cos'hai» = qué tienes.",
+   "it": "Cos'hai nella borsa bianca ?",
+   "es_antes": "¿Qué hay en la bolsa blanca?"
+  },
+  {
+   "id": "s_904468",
+   "v": "reject",
+   "nota": "«Qual è il prezzo per questa?»: poco natural (se dice «Quanto costa questa?»).",
+   "it": "Qual è il prezzo per questa?",
+   "es_antes": "¿Cuál es el precio de esta?"
+  },
+  {
+   "id": "s_1677721",
+   "v": "fix",
+   "es": "Tengo poco dinero.",
+   "nota": "«Apenas tengo» lleva a otra forma.",
+   "it": "Io ho poco denaro.",
+   "es_antes": "Apenas tengo dinero."
+  },
+  {
+   "id": "s_609170",
+   "v": "reject",
+   "nota": "«Egli» es arcaico o de registro escrito.",
+   "it": "Egli ha pochi amici.",
+   "es_antes": "Él tiene pocos amigos."
+  },
+  {
+   "id": "s_14083171",
+   "v": "reject",
+   "nota": "«Ho tre gatti intorno a me»: frase rara.",
+   "it": "Ho tre gatti intorno a me.",
+   "es_antes": "Tengo tres gatos alrededor de mí."
+  },
+  {
+   "id": "s_13071592",
+   "v": "reject",
+   "nota": "«pugnalata alla schiena»: expresión idiomática de B1.",
+   "it": "È una pugnalata alla schiena.",
+   "es_antes": "Es una puñalada por la espalda."
+  },
+  {
+   "id": "s_1506608",
+   "v": "reject",
+   "nota": "«farsi tagliare» (causativo) es de B1.",
+   "it": "Qualcuno vuole farsi tagliare i capelli.",
+   "es_antes": "Alguien quiere cortarse el pelo."
+  },
+  {
+   "id": "s_1905334",
+   "v": "fix",
+   "es": "El gato parece extremadamente feliz.",
+   "nota": "estremamente = extremadamente.",
+   "it": "Il gatto sembra estremamente felice.",
+   "es_antes": "El gato parece muy feliz."
+  },
+  {
+   "id": "s_3451880",
+   "v": "fix",
+   "es": "Él está preocupado por perder el trabajo.",
+   "nota": "«il lavoro» = el trabajo.",
+   "it": "È preoccupato di perdere il lavoro.",
+   "es_antes": "Él está preocupado de perder su empleo."
+  },
+  {
+   "id": "s_1002526",
+   "v": "fix",
+   "es": "Él tiene miedo de su abuelo.",
+   "nota": "«le teme» lleva a «teme», no a «ha paura di».",
+   "it": "Ha paura di suo nonno.",
+   "es_antes": "Él le teme a su abuelo."
+  },
+  {
+   "id": "s_2804011",
+   "v": "fix",
+   "es": "La Tierra es demasiado pequeña.",
+   "nota": "Mayúscula: el planeta.",
+   "it": "La Terra è troppo piccola.",
+   "es_antes": "La tierra es demasiado pequeña."
+  },
+  {
+   "id": "s_763066",
+   "v": "reject",
+   "nota": "«cibarsi» es léxico de B1.",
+   "it": "Le pecore si cibano di erba.",
+   "es_antes": "Las ovejas se alimentan de hierba."
+  },
+  {
+   "id": "s_385851",
+   "v": "fix",
+   "es": "¿Cuándo empezaste a estudiar alemán?",
+   "nota": "studiare = estudiar.",
+   "it": "Quando hai cominciato a studiare tedesco?",
+   "es_antes": "¿Cuándo empezaste a aprender alemán?"
+  },
+  {
+   "id": "s_883315",
+   "v": "reject",
+   "nota": "Gerundio modal «sussurrando»: fuera de A1.",
+   "it": "Mi ha parlato sussurrando.",
+   "es_antes": "Me habló susurrando."
+  },
+  {
+   "id": "s_410216",
+   "v": "fix",
+   "es": "Conocí a una chica estadounidense.",
+   "nota": "«Ho incontrato» = conocí; «norteamericana» es ambiguo.",
+   "it": "Ho incontrato una ragazza americana.",
+   "es_antes": "Me encontré con una chica norteamericana."
+  },
+  {
+   "id": "s_4298711",
+   "v": "reject",
+   "nota": "«e basta» con «y ya»: coloquial y ambiguo.",
+   "it": "Apri la porta e basta.",
+   "es_antes": "Abre la puerta y ya."
+  },
+  {
+   "id": "s_374604",
+   "v": "fix",
+   "es": "Apaga la radio, por favor.",
+   "nota": "«el radio» es regional.",
+   "it": "Spegni la radio, per favore.",
+   "es_antes": "Apaga el radio, por favor."
+  },
+  {
+   "id": "s_1104312",
+   "v": "fix",
+   "es": "Ordena tu habitación.",
+   "nota": "«pieza» es regional.",
+   "it": "Metti in ordine la tua stanza.",
+   "es_antes": "Ordena tu pieza."
+  },
+  {
+   "id": "s_427951",
+   "v": "fix",
+   "es": "No abras la puerta.",
+   "nota": "«Non aprire» es de «tu»; «No abra» es de «usted».",
+   "it": "Non aprire la porta.",
+   "es_antes": "No abra la puerta."
+  },
+  {
+   "id": "s_1282681",
+   "v": "fix",
+   "es": "¿Dónde está la taquilla?",
+   "nota": "«boletería» es regional.",
+   "it": "Dove si trova la biglietteria?",
+   "es_antes": "¿Dónde está la boletería?"
+  },
+  {
+   "id": "s_898424",
+   "v": "drop_alt",
+   "alt": "Non sia ridicolo!",
+   "nota": "La alternativa «Non sia» es de «Lei»; la consigna es de «tú».",
+   "it": "Non essere ridicolo!",
+   "es_antes": "¡No seas ridículo!"
+  },
+  {
+   "id": "s_740282",
+   "v": "reject",
+   "nota": "«Sono uno studente dall'Italia» es poco natural (se dice «uno studente italiano»).",
+   "it": "Sono uno studente dall'Italia.",
+   "es_antes": "Soy un estudiante de Italia.",
+   "vuelta": 2
+  },
+  {
+   "id": "s_3212574",
+   "v": "reject",
+   "nota": "Vocativo intercalado poco natural y sin función comunicativa.",
+   "it": "Tu, John, conosci molti paesi.",
+   "es_antes": "Tú, John, conoces muchos países.",
+   "vuelta": 2
+  },
+  {
+   "id": "s_4561967",
+   "v": "reject",
+   "nota": "Refrán: no se traduce palabra por palabra.",
+   "it": "Tutto è bene quando finisce bene.",
+   "es_antes": "Bien está lo que bien acaba.",
+   "vuelta": 2
+  },
+  {
+   "id": "s_399832",
+   "v": "reject",
+   "nota": "«occuparsi di» con enclítico es de B1.",
+   "it": "Devo occuparmi di questo gatto.",
+   "es_antes": "Tengo que cuidar de este gato.",
+   "vuelta": 2
+  },
+  {
+   "id": "s_1131235",
+   "v": "reject",
+   "nota": "Infinitivo con enclítico como sujeto: fuera de A1.",
+   "it": "Farlo è la tua responsabilità.",
+   "es_antes": "Hacerlo es tu responsabilidad.",
+   "vuelta": 2
+  },
+  {
+   "id": "s_3867801",
+   "v": "reject",
+   "nota": "«Io vedo tanta ipocrisia»: frase rara.",
+   "it": "Io vedo tanta ipocrisia.",
+   "es_antes": "Veo mucha hipocresía.",
+   "vuelta": 2
+  },
+  {
+   "id": "s_423352",
+   "v": "reject",
+   "nota": "«Al mare» (en la costa) se confunde con «en el mar»: el español lleva a otra frase.",
+   "it": "Al mare non piove mai.",
+   "es_antes": "En el mar no llueve nunca.",
+   "vuelta": 2
+  },
+  {
+   "id": "s_1016644",
+   "v": "fix",
+   "es": "Nosotros venimos de Francia.",
+   "nota": "«veniamo dalla» = venimos de; «Somos de» lleva a «Siamo».",
+   "it": "Noi veniamo dalla Francia.",
+   "es_antes": "Somos de Francia.",
+   "vuelta": 2
+  },
+  {
+   "id": "s_379137",
+   "v": "fix",
+   "es": "Mary entiende chino.",
+   "nota": "El italiano dice «Mary».",
+   "it": "Mary capisce il cinese.",
+   "es_antes": "Maria entiende chino.",
+   "vuelta": 2
+  },
+  {
+   "id": "s_880380",
+   "v": "fix",
+   "es": "La entrada a la biblioteca es libre.",
+   "nota": "«ingresso» = entrada; «libero» = libre.",
+   "it": "L'ingresso alla biblioteca è libero.",
+   "es_antes": "El ingreso a la biblioteca es gratis.",
+   "vuelta": 2
+  },
+  {
+   "id": "s_3475686",
+   "v": "fix",
+   "es": "Quisiera una cerveza.",
+   "nota": "«birra» en el español.",
+   "it": "Vorrei una birra.",
+   "es_antes": "Quisiera una birra.",
+   "vuelta": 2
+  },
+  {
+   "id": "s_470011",
+   "v": "fix",
+   "es": "Yo pido un café y un cruasán.",
+   "nota": "Español con una palabra italiana entre paréntesis.",
+   "it": "Io prendo un caffè e un cornetto.",
+   "es_antes": "Yo pido un café y un cuerno (cornetto).",
+   "vuelta": 2
+  },
+  {
+   "id": "s_3491025",
+   "v": "fix",
+   "es": "Paga en la caja.",
+   "nota": "«Paga» es de «tu»; «Pague» es de «usted».",
+   "it": "Paga alla cassa.",
+   "es_antes": "Pague en la caja.",
+   "vuelta": 2
+  },
+  {
+   "id": "s_3588049",
+   "v": "fix",
+   "es": "¿Tus manos están limpias?",
+   "nota": "«Le tue mani sono…» = tus manos están.",
+   "it": "Le tue mani sono pulite?",
+   "es_antes": "¿Tienes las manos limpias?",
+   "vuelta": 2
+  },
+  {
+   "id": "s_375783",
+   "v": "fix",
+   "es": "El pelo largo está fuera de moda.",
+   "nota": "«fuori moda» = fuera de moda.",
+   "it": "I capelli lunghi sono fuori moda.",
+   "es_antes": "El pelo largo pasó de moda.",
+   "vuelta": 2
+  },
+  {
+   "id": "s_1215046",
+   "v": "reject",
+   "nota": "«È carne di scimmia»: frase rara.",
+   "it": "È carne di scimmia.",
+   "es_antes": "Es carne de mono.",
+   "vuelta": 3
+  },
+  {
+   "id": "s_4465272",
+   "v": "reject",
+   "nota": "«Voi vedete la corona?»: sin sentido comunicativo.",
+   "it": "Voi vedete la corona?",
+   "es_antes": "¿Ustedes ven la corona?",
+   "vuelta": 3
+  },
+  {
+   "id": "s_1970624",
+   "v": "fix",
+   "es": "Él conoce la verdad.",
+   "nota": "conosce = conoce; «sabe» lleva a «sa».",
+   "it": "Lui conosce la verità.",
+   "es_antes": "Él sabe la verdad.",
+   "vuelta": 3
+  },
+  {
+   "id": "s_3435223",
+   "v": "fix",
+   "es": "¿Tú crees en cosas así?",
+   "nota": "El italiano lleva «Tu» y «del genere» = así.",
+   "it": "Tu credi in cose del genere?",
+   "es_antes": "¿Crees en esas cosas?",
+   "vuelta": 3
+  },
+  {
+   "id": "s_2810522",
+   "v": "fix",
+   "es": "El precio de la gasolina está subiendo.",
+   "nota": "«sta crescendo» es progresivo: está subiendo.",
+   "it": "Il prezzo della benzina sta crescendo.",
+   "es_antes": "El precio de la gasolina sube.",
+   "vuelta": 4
+  }
+ ]
+}

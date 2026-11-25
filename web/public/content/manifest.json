@@ -79,7 +79,7 @@
     "ERR_ARTICLE_ALLOMORPH": {
       "capsule": true,
       "reason": null,
-      "usable": 45
+      "usable": 44
     },
     "ERR_AUX_ESSERE": {
       "capsule": true,
@@ -114,12 +114,12 @@
     "ERR_CONSONANTE_DOPPIA": {
       "capsule": true,
       "reason": null,
-      "usable": 62
+      "usable": 61
     },
     "ERR_C_G_PALATAL": {
       "capsule": true,
       "reason": null,
-      "usable": 83
+      "usable": 82
     },
     "ERR_GENERE_ES": {
       "capsule": true,
@@ -139,7 +139,7 @@
     "ERR_IMPERATIVO_FORMA": {
       "capsule": true,
       "reason": null,
-      "usable": 35
+      "usable": 34
     },
     "ERR_IMPERATIVO_NEG": {
       "capsule": true,
@@ -149,17 +149,17 @@
     "ERR_INDEFINITE_ARTICLE": {
       "capsule": true,
       "reason": null,
-      "usable": 40
+      "usable": 38
     },
     "ERR_ORA_ES": {
       "capsule": true,
       "reason": null,
-      "usable": 35
+      "usable": 32
     },
     "ERR_PARTICIPIO_ES": {
       "capsule": true,
       "reason": null,
-      "usable": 38
+      "usable": 37
     },
     "ERR_PARTICIPLE_AGREEMENT": {
       "capsule": true,
@@ -189,17 +189,17 @@
     "ERR_POSSESSIVE_SPELLING": {
       "capsule": true,
       "reason": null,
-      "usable": 49
+      "usable": 47
     },
     "ERR_PREP_ARTICLE_CONTRACTION": {
       "capsule": true,
       "reason": null,
-      "usable": 38
+      "usable": 37
     },
     "ERR_PREP_PLACE": {
       "capsule": true,
       "reason": null,
-      "usable": 47
+      "usable": 46
     },
     "ERR_PRESENT_ARE": {
       "capsule": true,
@@ -209,7 +209,7 @@
     "ERR_PRESENT_ERE_IRE": {
       "capsule": true,
       "reason": null,
-      "usable": 75
+      "usable": 72
     },
     "ERR_PRESENT_ESSERE_AVERE": {
       "capsule": true,
@@ -229,17 +229,17 @@
     "ERR_PRONOME_TONICO": {
       "capsule": true,
       "reason": null,
-      "usable": 31
+      "usable": 30
     },
     "ERR_RIFLESSIVO_PRONOME": {
       "capsule": true,
       "reason": null,
-      "usable": 42
+      "usable": 41
     },
     "ERR_SC_PALATAL": {
       "capsule": true,
       "reason": null,
-      "usable": 52
+      "usable": 46
     },
     "ERR_STARE_GERUNDIO": {
       "capsule": true,
@@ -249,7 +249,7 @@
     "ERR_TENERE_AVERE": {
       "capsule": true,
       "reason": null,
-      "usable": 42
+      "usable": 40
     },
     "ERR_VOC_ABITI": {
       "capsule": true,
@@ -274,17 +274,17 @@
     "ERR_VOC_ASTRATTI": {
       "capsule": true,
       "reason": null,
-      "usable": 30
+      "usable": 34
     },
     "ERR_VOC_AVVERBI": {
       "capsule": true,
       "reason": null,
-      "usable": 41
+      "usable": 39
     },
     "ERR_VOC_BAR": {
       "capsule": true,
       "reason": null,
-      "usable": 51
+      "usable": 50
     },
     "ERR_VOC_CASA": {
       "capsule": true,
@@ -299,7 +299,7 @@
     "ERR_VOC_CITTA": {
       "capsule": true,
       "reason": null,
-      "usable": 36
+      "usable": 33
     },
     "ERR_VOC_CLIMA": {
       "capsule": true,
@@ -319,12 +319,12 @@
     "ERR_VOC_CONNETTIVI": {
       "capsule": true,
       "reason": null,
-      "usable": 33
+      "usable": 31
     },
     "ERR_VOC_CORPO": {
       "capsule": true,
       "reason": null,
-      "usable": 36
+      "usable": 34
     },
     "ERR_VOC_CUCINA": {
       "capsule": true,
@@ -334,12 +334,12 @@
     "ERR_VOC_DENARO": {
       "capsule": true,
       "reason": null,
-      "usable": 50
+      "usable": 54
     },
     "ERR_VOC_DIMOSTRATIVI": {
       "capsule": true,
       "reason": null,
-      "usable": 42
+      "usable": 40
     },
     "ERR_VOC_DIREZIONI": {
       "capsule": true,
@@ -349,7 +349,7 @@
     "ERR_VOC_FAMILIA": {
       "capsule": true,
       "reason": null,
-      "usable": 37
+      "usable": 36
     },
     "ERR_VOC_FRUTTA": {
       "capsule": true,
@@ -374,7 +374,7 @@
     "ERR_VOC_NATURA": {
       "capsule": true,
       "reason": null,
-      "usable": 34
+      "usable": 33
     },
     "ERR_VOC_NAZIONALITA": {
       "capsule": true,
@@ -389,7 +389,7 @@
     "ERR_VOC_NUMERI": {
       "capsule": true,
       "reason": null,
-      "usable": 83
+      "usable": 82
     },
     "ERR_VOC_OGGETTI": {
       "capsule": true,
@@ -404,7 +404,7 @@
     "ERR_VOC_QUANTITA": {
       "capsule": true,
       "reason": null,
-      "usable": 51
+      "usable": 50
     },
     "ERR_VOC_SALUTE": {
       "capsule": true,
@@ -444,22 +444,22 @@
     "ERR_VOC_VORREI": {
       "capsule": true,
       "reason": null,
-      "usable": 63
+      "usable": 66
     }
   },
   "levels": {
-    "A1": 2748,
-    "A2": 478,
+    "A1": 2718,
+    "A2": 477,
     "B1": 146,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 3352,
-    "me": 27
+    "llm-audit": 3322,
+    "me": 26
   },
-  "sentences_used": 3201,
+  "sentences_used": 3170,
   "translation_kind": {
-    "direct": 1961,
-    "llm": 1240
+    "direct": 1884,
+    "llm": 1286
   }
 }

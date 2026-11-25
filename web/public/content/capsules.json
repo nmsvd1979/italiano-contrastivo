@@ -108,24 +108,24 @@
       },
       {
         "answer": [
-          "La",
-          "forza",
-          "ha",
-          "ragione."
+          "Forse",
+          "non",
+          "è",
+          "giovane."
         ],
-        "id": "it_reorder_s_13437351_ERR_C_G_PALATAL",
-        "prompt_es": "Ordena las palabras: «La fuerza tiene razón.»",
+        "id": "it_reorder_s_3630534_ERR_C_G_PALATAL",
+        "prompt_es": "Ordena las palabras: «Quizás no es joven.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_13437351",
+        "sentence_id": "s_3630534",
         "target_error_codes": [
           "ERR_C_G_PALATAL"
         ],
         "tokens": [
-          "ha",
-          "La",
-          "ragione.",
-          "forza"
+          "giovane.",
+          "non",
+          "è",
+          "Forse"
         ],
         "type": "reorder"
       }
@@ -3149,7 +3149,7 @@
         "answers": [
           "Il"
         ],
-        "hint_es": "La leche es buena para ti.",
+        "hint_es": "La leche te hace bien.",
         "id": "it_cloze_s_13170186_ERR_GENERE_ES",
         "requires_server": false,
         "review_status": "validated",
@@ -3451,39 +3451,39 @@
       },
       {
         "answers": [
-          "Apri"
+          "Bevi"
         ],
-        "hint_es": "Abre la puerta y ya.",
-        "id": "it_cloze_s_4298711_ERR_IMPERATIVO_FORMA",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_4298711",
-        "target_error_codes": [
-          "ERR_IMPERATIVO_FORMA"
-        ],
-        "text": "___ la porta e basta.",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Bevi",
-          "un",
-          "altro",
-          "bicchiere."
-        ],
-        "id": "it_reorder_s_1598274_ERR_IMPERATIVO_FORMA",
-        "prompt_es": "Ordena las palabras: «Bebe otro vaso.»",
+        "hint_es": "Bebe otro vaso.",
+        "id": "it_cloze_s_1598274_ERR_IMPERATIVO_FORMA",
         "requires_server": false,
         "review_status": "validated",
         "sentence_id": "s_1598274",
         "target_error_codes": [
           "ERR_IMPERATIVO_FORMA"
         ],
+        "text": "___ un altro bicchiere.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Vieni",
+          "a",
+          "trovarmi",
+          "domani."
+        ],
+        "id": "it_reorder_s_4587424_ERR_IMPERATIVO_FORMA",
+        "prompt_es": "Ordena las palabras: «Ven a visitarme mañana.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4587424",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_FORMA"
+        ],
         "tokens": [
-          "bicchiere.",
-          "un",
-          "altro",
-          "Bevi"
+          "domani.",
+          "a",
+          "Vieni",
+          "trovarmi"
         ],
         "type": "reorder"
       }
@@ -3616,22 +3616,22 @@
       },
       {
         "answer": [
-          "Dov'è",
-          "uno",
-          "specchio?"
+          "Sumatra",
+          "è",
+          "un'isola."
         ],
-        "id": "it_reorder_s_1900583_ERR_INDEFINITE_ARTICLE",
-        "prompt_es": "Ordena las palabras: «¿Dónde hay un espejo?»",
+        "id": "it_reorder_s_479911_ERR_INDEFINITE_ARTICLE",
+        "prompt_es": "Ordena las palabras: «Sumatra es una isla.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1900583",
+        "sentence_id": "s_479911",
         "target_error_codes": [
           "ERR_INDEFINITE_ARTICLE"
         ],
         "tokens": [
-          "uno",
-          "specchio?",
-          "Dov'è"
+          "Sumatra",
+          "un'isola.",
+          "è"
         ],
         "type": "reorder"
       }
@@ -3749,43 +3749,43 @@
       },
       {
         "answers": [
-          "mezza"
+          "e un"
         ],
-        "hint_es": "Tiene hasta las dos y media.",
-        "id": "it_cloze_s_5533477_ERR_ORA_ES",
+        "hint_es": "Son las doce y cuarto.",
+        "id": "it_cloze_s_13045506_ERR_ORA_ES",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_5533477",
+        "sentence_id": "s_13045506",
         "target_error_codes": [
           "ERR_ORA_ES"
         ],
-        "text": "Ha fino alle due e ___.",
+        "text": "Sono le dodici ___ quarto.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Hai",
-          "fino",
-          "alle",
-          "due",
-          "e",
-          "mezza."
+          "Sono",
+          "le",
+          "otto",
+          "meno",
+          "un",
+          "quarto."
         ],
-        "id": "it_reorder_s_5533475_ERR_ORA_ES",
-        "prompt_es": "Ordena las palabras: «Tienes hasta las dos y media.»",
+        "id": "it_reorder_s_1708376_ERR_ORA_ES",
+        "prompt_es": "Ordena las palabras: «Son las ocho menos cuarto.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_5533475",
+        "sentence_id": "s_1708376",
         "target_error_codes": [
           "ERR_ORA_ES"
         ],
         "tokens": [
-          "Hai",
-          "fino",
-          "e",
-          "alle",
-          "due",
-          "mezza."
+          "quarto.",
+          "Sono",
+          "meno",
+          "un",
+          "otto",
+          "le"
         ],
         "type": "reorder"
       }
@@ -5225,132 +5225,130 @@
     "id": "cap_err_voc_astratti",
     "retrieval": [
       {
-        "id": "it_choice_s_4513254_ERR_VOC_ASTRATTI",
+        "id": "it_choice_s_2480549_ERR_VOC_ASTRATTI",
         "listen": true,
         "options": [
           {
             "correct": true,
-            "text": "Qual è il segreto?"
+            "text": "È un errore."
           },
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_ASTRATTI",
-            "text": "Qual è il problema?"
-          },
-          {
-            "correct": false,
-            "distractor_kind": "different_word",
-            "error_code": "ERR_VOC_ASTRATTI",
-            "text": "Qual è il successo?"
+            "text": "È un amore."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2480549",
+        "target_error_codes": [
+          "ERR_VOC_ASTRATTI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "verità"
+        ],
+        "hint_es": "Es la verdad.",
+        "id": "it_cloze_s_2702315_ERR_VOC_ASTRATTI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2702315",
+        "target_error_codes": [
+          "ERR_VOC_ASTRATTI"
+        ],
+        "text": "È la ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Ho",
+          "un",
+          "sogno."
+        ],
+        "id": "it_reorder_s_373736_ERR_VOC_ASTRATTI",
+        "prompt_es": "Ordena las palabras: «Tengo un sueño.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_373736",
+        "target_error_codes": [
+          "ERR_VOC_ASTRATTI"
+        ],
+        "tokens": [
+          "Ho",
+          "sogno.",
+          "un"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_707930_ERR_VOC_ASTRATTI",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_ASTRATTI",
+            "text": "È un sogno."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_ASTRATTI",
+            "text": "È un problema."
+          },
+          {
+            "correct": true,
+            "text": "È un segreto."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_707930",
+        "target_error_codes": [
+          "ERR_VOC_ASTRATTI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "verità"
+        ],
+        "hint_es": "Es la pura verdad.",
+        "id": "it_cloze_s_4485_ERR_VOC_ASTRATTI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4485",
+        "target_error_codes": [
+          "ERR_VOC_ASTRATTI"
+        ],
+        "text": "È la pura ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Qual",
+          "è",
+          "il",
+          "segreto?"
+        ],
+        "id": "it_reorder_s_4513254_ERR_VOC_ASTRATTI",
+        "prompt_es": "Ordena las palabras: «¿Cuál es el secreto?»",
         "requires_server": false,
         "review_status": "validated",
         "sentence_id": "s_4513254",
         "target_error_codes": [
           "ERR_VOC_ASTRATTI"
         ],
-        "type": "choice_l1_distractor"
-      },
-      {
-        "answers": [
-          "vita"
-        ],
-        "hint_es": "La vida es injusta.",
-        "id": "it_cloze_s_1697390_ERR_VOC_ASTRATTI",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_1697390",
-        "target_error_codes": [
-          "ERR_VOC_ASTRATTI"
-        ],
-        "text": "La ___ è ingiusta.",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Com'è",
-          "corta",
-          "la",
-          "vita!"
-        ],
-        "id": "it_reorder_s_1136232_ERR_VOC_ASTRATTI",
-        "prompt_es": "Ordena las palabras: «¡Qué corta es la vida!»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_1136232",
-        "target_error_codes": [
-          "ERR_VOC_ASTRATTI"
-        ],
         "tokens": [
-          "la",
-          "Com'è",
-          "vita!",
-          "corta"
-        ],
-        "type": "reorder"
-      },
-      {
-        "id": "it_choice_s_1610237_ERR_VOC_ASTRATTI",
-        "listen": true,
-        "options": [
-          {
-            "correct": false,
-            "distractor_kind": "different_word",
-            "error_code": "ERR_VOC_ASTRATTI",
-            "text": "L'errore non perdona."
-          },
-          {
-            "correct": true,
-            "text": "L'amore non perdona."
-          }
-        ],
-        "prompt_es": "Escucha la frase y elige cómo se escribe.",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_1610237",
-        "target_error_codes": [
-          "ERR_VOC_ASTRATTI"
-        ],
-        "type": "choice_l1_distractor"
-      },
-      {
-        "answers": [
-          "storia"
-        ],
-        "hint_es": "La historia se repite.",
-        "id": "it_cloze_s_707236_ERR_VOC_ASTRATTI",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_707236",
-        "target_error_codes": [
-          "ERR_VOC_ASTRATTI"
-        ],
-        "text": "La ___ si ripete.",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Com'è",
-          "strana",
-          "la",
-          "vita!"
-        ],
-        "id": "it_reorder_s_1124849_ERR_VOC_ASTRATTI",
-        "prompt_es": "Ordena las palabras: «¡Qué extraña es la vida!»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_1124849",
-        "target_error_codes": [
-          "ERR_VOC_ASTRATTI"
-        ],
-        "tokens": [
-          "strana",
-          "la",
-          "Com'è",
-          "vita!"
+          "segreto?",
+          "Qual",
+          "è",
+          "il"
         ],
         "type": "reorder"
       }
@@ -5361,13 +5359,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "È la pura verità."
+        "Ho un'idea."
       ],
-      "id": "it_translate_s_4485_ERR_VOC_ASTRATTI",
+      "id": "it_translate_s_377559_ERR_VOC_ASTRATTI",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_4485",
-      "source_es": "Es la pura verdad.",
+      "sentence_id": "s_377559",
+      "source_es": "Tengo una idea.",
       "target_error_codes": [
         "ERR_VOC_ASTRATTI"
       ],
@@ -5497,24 +5495,24 @@
       },
       {
         "answer": [
-          "Ancora",
-          "non",
-          "ci",
-          "credo!"
+          "Parla",
+          "spesso",
+          "con",
+          "lui."
         ],
-        "id": "it_reorder_s_1355288_ERR_VOC_AVVERBI",
-        "prompt_es": "Ordena las palabras: «¡Aún no lo creo!»",
+        "id": "it_reorder_s_10513483_ERR_VOC_AVVERBI",
+        "prompt_es": "Ordena las palabras: «Habla a menudo con él.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1355288",
+        "sentence_id": "s_10513483",
         "target_error_codes": [
           "ERR_VOC_AVVERBI"
         ],
         "tokens": [
-          "credo!",
-          "non",
-          "Ancora",
-          "ci"
+          "lui.",
+          "Parla",
+          "con",
+          "spesso"
         ],
         "type": "reorder"
       }
@@ -6153,26 +6151,26 @@
       },
       {
         "answer": [
-          "Al",
-          "mare",
-          "non",
-          "piove",
-          "mai."
+          "Il",
+          "lago",
+          "è",
+          "profondo",
+          "qui."
         ],
-        "id": "it_reorder_s_423352_ERR_VOC_CITTA",
-        "prompt_es": "Ordena las palabras: «En el mar no llueve nunca.»",
+        "id": "it_reorder_s_1253962_ERR_VOC_CITTA",
+        "prompt_es": "Ordena las palabras: «El lago es profundo por aquí.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_423352",
+        "sentence_id": "s_1253962",
         "target_error_codes": [
           "ERR_VOC_CITTA"
         ],
         "tokens": [
-          "piove",
-          "mai.",
-          "Al",
-          "non",
-          "mare"
+          "è",
+          "profondo",
+          "lago",
+          "qui.",
+          "Il"
         ],
         "type": "reorder"
       }
@@ -7289,37 +7287,37 @@
       },
       {
         "answers": [
-          "moneta"
+          "soldi"
         ],
-        "hint_es": "¿Tienes una moneda?",
-        "id": "it_cloze_s_13295353_ERR_VOC_DENARO",
+        "hint_es": "¿Tienes dinero?",
+        "id": "it_cloze_s_756506_ERR_VOC_DENARO",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_756506",
+        "target_error_codes": [
+          "ERR_VOC_DENARO"
+        ],
+        "text": "Hai dei ___?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Hai",
+          "una",
+          "moneta?"
+        ],
+        "id": "it_reorder_s_13295353_ERR_VOC_DENARO",
+        "prompt_es": "Ordena las palabras: «¿Tienes una moneda?»",
         "requires_server": false,
         "review_status": "validated",
         "sentence_id": "s_13295353",
         "target_error_codes": [
           "ERR_VOC_DENARO"
         ],
-        "text": "Hai una ___?",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Ho",
-          "dei",
-          "contanti."
-        ],
-        "id": "it_reorder_s_2433169_ERR_VOC_DENARO",
-        "prompt_es": "Ordena las palabras: «Tengo efectivo.»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_2433169",
-        "target_error_codes": [
-          "ERR_VOC_DENARO"
-        ],
         "tokens": [
-          "contanti.",
-          "dei",
-          "Ho"
+          "Hai",
+          "moneta?",
+          "una"
         ],
         "type": "reorder"
       }
@@ -10071,7 +10069,7 @@
           "parla?"
         ],
         "id": "it_reorder_s_4461306_ERR_VOC_SCUOLA",
-        "prompt_es": "Ordena las palabras: «¿Qué idioma habla ella?»",
+        "prompt_es": "Ordena las palabras: «¿Qué idioma habla?»",
         "requires_server": false,
         "review_status": "validated",
         "sentence_id": "s_4461306",
@@ -10762,18 +10760,78 @@
     "id": "cap_err_voc_vorrei",
     "retrieval": [
       {
-        "id": "it_choice_s_4007802_ERR_VOC_VORREI",
+        "id": "it_choice_s_2551770_ERR_VOC_VORREI",
         "listen": true,
         "options": [
           {
             "correct": true,
-            "text": "Prendiamo un taxi."
+            "text": "Io vorrei andare."
           },
           {
             "correct": false,
             "distractor_kind": "different_word",
             "error_code": "ERR_VOC_VORREI",
+            "text": "Io prendo andare."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2551770",
+        "target_error_codes": [
+          "ERR_VOC_VORREI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Prendiamo"
+        ],
+        "hint_es": "Tomamos un bus.",
+        "id": "it_cloze_s_967709_ERR_VOC_VORREI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_967709",
+        "target_error_codes": [
+          "ERR_VOC_VORREI"
+        ],
+        "text": "___ un bus.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Io",
+          "vorrei",
+          "aiutare."
+        ],
+        "id": "it_reorder_s_2006277_ERR_VOC_VORREI",
+        "prompt_es": "Ordena las palabras: «Yo quisiera ayudar.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2006277",
+        "target_error_codes": [
+          "ERR_VOC_VORREI"
+        ],
+        "tokens": [
+          "vorrei",
+          "Io",
+          "aiutare."
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_4007802_ERR_VOC_VORREI",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_VORREI",
             "text": "Vorremmo un taxi."
+          },
+          {
+            "correct": true,
+            "text": "Prendiamo un taxi."
           }
         ],
         "prompt_es": "Escucha la frase y elige cómo se escribe.",
@@ -10787,97 +10845,37 @@
       },
       {
         "answers": [
-          "Prendiamo"
+          "Prendo"
         ],
-        "hint_es": "Tomamos un tren.",
-        "id": "it_cloze_s_4832572_ERR_VOC_VORREI",
+        "hint_es": "Tomo el teléfono.",
+        "id": "it_cloze_s_11546667_ERR_VOC_VORREI",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_4832572",
+        "sentence_id": "s_11546667",
         "target_error_codes": [
           "ERR_VOC_VORREI"
         ],
-        "text": "___ un treno.",
+        "text": "___ il telefono.",
         "type": "cloze"
       },
       {
         "answer": [
           "Prendiamo",
           "un",
-          "autobus."
+          "treno."
         ],
-        "id": "it_reorder_s_967708_ERR_VOC_VORREI",
-        "prompt_es": "Ordena las palabras: «Tomamos un autobús.»",
+        "id": "it_reorder_s_4832572_ERR_VOC_VORREI",
+        "prompt_es": "Ordena las palabras: «Tomamos un tren.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_967708",
+        "sentence_id": "s_4832572",
         "target_error_codes": [
           "ERR_VOC_VORREI"
         ],
         "tokens": [
-          "autobus.",
+          "treno.",
           "un",
           "Prendiamo"
-        ],
-        "type": "reorder"
-      },
-      {
-        "id": "it_choice_s_2559223_ERR_VOC_VORREI",
-        "listen": true,
-        "options": [
-          {
-            "correct": false,
-            "distractor_kind": "different_word",
-            "error_code": "ERR_VOC_VORREI",
-            "text": "Vorrei delle vitamine."
-          },
-          {
-            "correct": true,
-            "text": "Prendo delle vitamine."
-          }
-        ],
-        "prompt_es": "Escucha la frase y elige cómo se escribe.",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_2559223",
-        "target_error_codes": [
-          "ERR_VOC_VORREI"
-        ],
-        "type": "choice_l1_distractor"
-      },
-      {
-        "answers": [
-          "Prendiamo"
-        ],
-        "hint_es": "Tomamos el ascensor.",
-        "id": "it_cloze_s_4470306_ERR_VOC_VORREI",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_4470306",
-        "target_error_codes": [
-          "ERR_VOC_VORREI"
-        ],
-        "text": "___ l'ascensore.",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Dove",
-          "prendo",
-          "l'autobus?"
-        ],
-        "id": "it_reorder_s_5921770_ERR_VOC_VORREI",
-        "prompt_es": "Ordena las palabras: «¿Dónde tomo el autobús?»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_5921770",
-        "target_error_codes": [
-          "ERR_VOC_VORREI"
-        ],
-        "tokens": [
-          "prendo",
-          "Dove",
-          "l'autobus?"
         ],
         "type": "reorder"
       }
@@ -10888,13 +10886,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Prendiamo un bus."
+        "Vorrei un libro."
       ],
-      "id": "it_translate_s_967709_ERR_VOC_VORREI",
+      "id": "it_translate_s_1518507_ERR_VOC_VORREI",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_967709",
-      "source_es": "Tomamos un bus.",
+      "sentence_id": "s_1518507",
+      "source_es": "Quisiera un libro.",
       "target_error_codes": [
         "ERR_VOC_VORREI"
       ],

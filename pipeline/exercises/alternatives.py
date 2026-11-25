@@ -28,6 +28,16 @@ def _persons(t: str) -> set[str]:
     return {m.group(1).lower()[:2] if not m.group(1).lower().startswith(("nostr", "vostr", "loro")) else m.group(1).lower()[:4] for m in _POSSESSIVE.finditer(t)}
 
 
+def _excluded(content_dir: Path) -> set[tuple[str, str]]:
+    """Alternativas descartadas a mano en una auditoría (`drop_alt` en content/audits/*.json): (id de oración, texto)."""
+    out = set()
+    for f in sorted((content_dir / "audits").glob("*.json")):
+        data = json.loads(f.read_text(encoding="utf8"))
+        if isinstance(data, dict):   # las tandas de relleno son listas sin veredictos de alternativas
+            out |= {(v["id"], v["alt"]) for v in data.get("veredictos", []) if v["v"] == "drop_alt"}
+    return out
+
+
 def _key(t: str) -> str:
     return re.sub(r"[^\w]+", " ", t.lower()).strip()
 
@@ -49,6 +59,7 @@ def build(raw_dir: Path, content_dir: Path) -> dict[str, list[dict]]:
             p = line.rstrip("\n").split("\t")
             if len(p) >= 4 and p[0] in wanted:
                 ita[p[0]] = (p[2], p[3])
+    excluded = _excluded(content_dir)
     out: dict[str, list[dict]] = {}
     for s in sorted(direct, key=lambda x: x["id"]):
         seen = {_key(s["it"])}
@@ -57,7 +68,7 @@ def build(raw_dir: Path, content_dir: Path) -> dict[str, list[dict]]:
             if i == str(s["source_id"]) or i not in ita:
                 continue
             text, author = ita[i]
-            if (_key(text) in seen or italian_issue(text, "A1") or _ARCAICO.search(text) or _persons(text) != _persons(s["it"])
+            if (_key(text) in seen or italian_issue(text, "A1") or _ARCAICO.search(text) or _persons(text) != _persons(s["it"]) or (s["id"], text) in excluded
                     or not author or author == r"\N"):
                 continue
             seen.add(_key(text))

@@ -5983,20 +5983,21 @@
     "error_codes": [
       "ERR_VOC_VORREI"
     ],
-    "es": "Quisiera una birra.",
-    "es_author": "hayastan",
-    "es_source_id": "9820554",
+    "es": "Quisiera una cerveza.",
+    "es_author": "IA (Claude)",
     "id": "s_3475686",
     "it": "Vorrei una birra.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "3475686",
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "martin",
@@ -7011,13 +7012,13 @@
     "error_codes": [
       "ERR_PARTICIPIO_ES"
     ],
-    "es": "¿Cuándo empezaste a aprender alemán?",
-    "es_author": "Shishir",
-    "es_source_id": "600217",
+    "es": "¿Cuándo empezaste a estudiar alemán?",
+    "es_author": "IA (Claude)",
     "id": "s_385851",
     "it": "Quando hai cominciato a studiare tedesco?",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -7026,7 +7027,7 @@
     "tag_rules": {
       "ERR_PARTICIPIO_ES": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -7503,20 +7504,21 @@
     "error_codes": [
       "ERR_PARTICIPIO_ES"
     ],
-    "es": "Me encontré con una chica norteamericana.",
-    "es_author": "tatoerique",
-    "es_source_id": "358685",
+    "es": "Conocí a una chica estadounidense.",
+    "es_author": "IA (Claude)",
     "id": "s_410216",
     "it": "Ho incontrato una ragazza americana.",
     "license": "CC BY 2.0 FR",
-    "qa_flags": [],
+    "qa_flags": [
+      "llm"
+    ],
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "410216",
     "tag_rules": {
       "ERR_PARTICIPIO_ES": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -7705,13 +7707,13 @@
     "error_codes": [
       "ERR_IMPERATIVO_NEG"
     ],
-    "es": "No abra la puerta.",
-    "es_author": "Leono",
-    "es_source_id": "545922",
+    "es": "No abras la puerta.",
+    "es_author": "IA (Claude)",
     "id": "s_427951",
     "it": "Non aprire la porta.",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
+      "llm",
       "multi_translation"
     ],
     "review_status": "validated",
@@ -7720,7 +7722,7 @@
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -8118,7 +8120,7 @@
     "error_codes": [
       "ERR_VOC_VORREI"
     ],
-    "es": "Yo pido un café y un cuerno (cornetto).",
+    "es": "Yo pido un café y un cruasán.",
     "es_author": "IA (Claude)",
     "id": "s_470011",
     "it": "Io prendo un caffè e un cornetto.",
@@ -10588,28 +10590,6 @@
       "ERR_VOC_NEGOZI": "capsule_calque"
     },
     "translation_kind": "llm"
-  },
-  {
-    "author": "Guybrush88",
-    "cefr_confidence": 0.6,
-    "cefr_estimate": "A2",
-    "error_codes": [
-      "ERR_PARTICIPIO_ES"
-    ],
-    "es": "Me habló susurrando.",
-    "es_author": "Ardea",
-    "es_source_id": "2136570",
-    "id": "s_883315",
-    "it": "Mi ha parlato sussurrando.",
-    "license": "CC BY 2.0 FR",
-    "qa_flags": [],
-    "review_status": "validated",
-    "source": "tatoeba",
-    "source_id": "883315",
-    "tag_rules": {
-      "ERR_PARTICIPIO_ES": "capsule_calque"
-    },
-    "translation_kind": "direct"
   },
   {
     "author": "riccioberto",
