@@ -86,3 +86,16 @@ describe("casillas del Cierre", () => {
     expect(Number(css.match(/ul\.options label\s*\{[^}]*min-height:\s*(\d+)px/)?.[1] ?? 0)).toBeGreaterThanOrEqual(44);
   });
 });
+
+describe("Progreso: colección de sellos", () => {
+  it("hay un sello por módulo y solo el completado está ganado", () => {
+    const cierre: UnitProgress = { ...emptyProgress(moduleProgressId(mods[0].id)), completed: true, done: { cierre: "x" } };
+    const units = [...mods[0].units.map((id) => ({ ...emptyProgress(id), completed: true, testBest: 1, mastery: "prueba" as const })), cierre];
+    show(units);
+    const grid = screen.getByRole("list", { name: "Sellos de los módulos" });
+    expect(grid.querySelectorAll("li")).toHaveLength(mods.length);
+    expect(grid.querySelectorAll('[data-earned="true"]')).toHaveLength(1);
+    expect(screen.getByRole("img", { name: "Sello del módulo 1, ganado" })).toBeTruthy();
+    expect(screen.getByRole("img", { name: "Sello del módulo 2, pendiente" })).toBeTruthy();
+  });
+});

@@ -487,7 +487,7 @@ svg.motif { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: r
 .stamp::after { content: ""; position: absolute; inset: 4px; border-radius: 50%; border: 1px dashed var(--c); opacity: .7; }
 .stamp svg { width: 50%; height: 50%; }
 .stamp[data-size="sm"] { --s: 44px; }
-.stamp[data-size="lg"] { --s: 190px; border-width: 5px; }
+.stamp[data-size="lg"] { --s: 160px; border-width: 5px; }
 .stamp[data-size="lg"]::after { inset: 10px; border-width: 2px; }
 .stamp[data-earned="false"] { --c: var(--muted); border-color: var(--line); background: none; transform: none; }
 .stamp[data-earned="false"]::after { display: none; }
@@ -556,3 +556,33 @@ main.today .actions-bottom a.button.primary { background: var(--c, var(--accent)
 .mod-row .stamp { margin-right: 2px; }
 
 label.check { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; margin: 0; font-weight: 500; }
+
+/* ── Cierre de sesión y sellos ── */
+.scorering { position: relative; width: 132px; height: 132px; margin: 0 auto var(--sp4); }
+.scorering svg { width: 100%; height: 100%; }
+.scorering-fg { transition: stroke-dasharray var(--dur-slow) var(--ease-out); animation: ring-in var(--dur-slow) var(--ease-out); }
+@keyframes ring-in { from { stroke-dasharray: 0 400; } }
+.scorering-c { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.scorering-c b { font-size: 30px; line-height: 1; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.scorering-c small { color: var(--muted); font-size: var(--t-cap); }
+.summary { display: flex; flex-direction: column; gap: var(--sp3); margin-bottom: var(--sp3); }
+.summary .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: var(--sp2); }
+.summary .stats div { background: var(--fill); border-radius: 14px; padding: var(--sp3) var(--sp2); }
+.summary .stats b { display: block; font-size: 19px; }
+.summary .stats small { color: var(--muted); font-size: 12px; }
+.summary .fixed { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: var(--sp4); text-align: left; }
+.summary .fixed h3 { margin: 0 0 var(--sp2); font-size: var(--t-sm); }
+.summary .fixed .es { color: var(--muted); font-size: var(--t-sm); margin: 0 0 2px; }
+.summary .fixed .itx { font: 500 21px/1.3 var(--serif); margin: 0; }
+.summary .missed { margin: 0; color: var(--muted); }
+main.fin { padding-top: 32px; }
+.award { display: flex; justify-content: center; margin: var(--sp4) 0 var(--sp5); }
+.cando-done { text-align: left; }
+.cando-done h2 { font-size: var(--t-h3); margin: 0 0 var(--sp2); }
+
+/* colección de sellos en Progreso */
+ul.sealgrid { list-style: none; padding: 0; margin: var(--sp3) 0 var(--sp4); display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: var(--sp3) var(--sp1); justify-items: center; }
+ul.sealgrid li { display: flex; flex-direction: column; align-items: center; gap: 4px; margin: 0; }
+ul.sealgrid small { font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+main.fin .actions-bottom { display: flex; gap: var(--sp3); }
+main.fin[data-tone] .actions-bottom a.button.primary { background: var(--c); border-color: var(--c); color: var(--on-tone); }

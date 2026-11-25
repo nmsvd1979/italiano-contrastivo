@@ -4,6 +4,7 @@ import type { ModuleView } from "../state/modules";
 import type { DayProgress } from "../state/store";
 import type { Seconds } from "../state/strands";
 import type { WeakSpot } from "../state/weak";
+import { Stamp } from "./kit/Stamp";
 import { WeekCard } from "./WeekCard";
 
 const DOW = ["L", "M", "X", "J", "V", "S", "D"];
@@ -27,6 +28,9 @@ export function ProgressScreen({ week, days, today, modules, weak }: { week: Sec
           <h2>Ya sabes hacer</h2>
           <p className="figure"><b aria-hidden="true">{can.known}</b><span aria-hidden="true">de {can.total}</span><span className="sr">{can.known} de {can.total}</span></p>
           <progress max={can.total} value={can.known} aria-label="«Sé hacer» conseguidos" />
+          <ul className="sealgrid" aria-label="Sellos de los módulos">
+            {modules.map((m) => <li key={m.module.id}><Stamp index={m.index} earned={m.state === "completed"} size="sm" /><small>{m.index + 1}</small></li>)}
+          </ul>
           {can.groups.map((g) => {
             const known = g.items.filter((i) => i.state !== "pendiente").length;
             return (

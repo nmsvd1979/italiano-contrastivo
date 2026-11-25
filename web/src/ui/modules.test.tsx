@@ -95,6 +95,8 @@ describe("pantallas de módulo", () => {
         fireEvent.click(await screen.findByText("Continuar"));
       }
       expect(await screen.findByText(right ? "¡Módulo completado!" : "Casi")).toBeTruthy();
+      expect(!!screen.queryByRole("img", { name: "Sello del módulo 1, ganado" })).toBe(right);
+      expect(!!screen.queryByRole("region", { name: "Ya sabes hacer" })).toBe(right);
       const after = moduleViews(pack.course, await store.allUnits(), false).modules;
       expect(after[0].state).toBe(right ? "completed" : "current");
       expect(after[1].state).toBe(right ? "current" : "locked");

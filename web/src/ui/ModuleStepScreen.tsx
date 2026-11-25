@@ -7,6 +7,8 @@ import { type ModuleStepId, type ModuleView, MODULE_STEP_LABEL, moduleProgressId
 import type { Store } from "../state/store";
 import { fromItems, ItemRunner, type RunResult } from "./ItemRunner";
 import { Ring } from "./kit/Ring";
+import { toneOf } from "./kit/ModuleMotif";
+import { Stamp } from "./kit/Stamp";
 import { useStrandTimer } from "./kit/useStrandTimer";
 import { ReadingStep } from "./ReadingStep";
 import { FluencyRun, PhrasesPanel, RolePlayRun, TaskRun } from "./SpeakingScreen";
@@ -182,10 +184,17 @@ function Cierre({ view, pack, store, exit, onDone }: { view: ModuleView; pack: C
   }
   const pct = Math.round(((res?.correct ?? 0) / Math.max(1, res?.total ?? 1)) * 100);
   return (
-    <main className="center">
-      {res?.passed && <Ring />}
+    <main className="center fin" data-tone={toneOf(view.index)}>
+      {res?.passed && <div className="award"><Stamp index={view.index} earned size="lg" fresh label={`Sello del módulo ${view.index + 1}, ganado`} /></div>}
       <h1>{res?.passed ? "¡Módulo completado!" : "Casi"}</h1>
       <p>Acertaste {res?.correct} de {res?.total} ({pct} %). {res?.passed ? "Se abrió el módulo siguiente." : "Hacen falta 80 % o más. Repasa las cápsulas que más te costaron y reintenta cuando quieras."}</p>
+      {res?.passed && (
+        <section className="cando-done" aria-label="Ya sabes hacer">
+          <h2>Ya sabes hacer</h2>
+          <ul className="cando">{module.can_do_es.map((c) => <li key={c} data-state="completado"><span className="cb" aria-hidden="true">✓</span><span>{c}</span></li>)}</ul>
+          <p><small>Se dan por conseguidos al aprobar la prueba de cierre: son {res.total} frases escritas, que no evalúan cada punto ni la pronunciación.</small></p>
+        </section>
+      )}
       {res?.passed && lib && <p><small>Sugerencia de 10 minutos: {module.library_task_es} (<a href={lib.url} target="_blank" rel="noopener noreferrer">{lib.title}</a>)</small></p>}
       <div className="actions-bottom" style={{ gap: 10 }}>
         <a className="button primary" style={{ flex: 1 }} href="#/ruta">Ver la ruta</a>

@@ -9,9 +9,12 @@ import type { StepId, Store } from "../state/store";
 import { formatDuration, loadSamples } from "../state/timing";
 import { CapsuleScreen } from "./CapsuleScreen";
 import { fromItems, fromVoice, ItemRunner, type RunResult } from "./ItemRunner";
-import { Ring } from "./kit/Ring";
+import { contrastCards } from "./kit/ContrastCard";
+import { SessionSummary } from "./kit/SessionSummary";
 import { STRAND_OF_STEP } from "../state/strands";
 import { toneOf } from "./kit/ModuleMotif";
+import { totalSeconds } from "../state/strands";
+import { localDate } from "../state/store";
 import { useStrandTimer } from "./kit/useStrandTimer";
 import { NoticeStep } from "./NoticeStep";
 import { ReadingStep } from "./ReadingStep";
@@ -34,7 +37,7 @@ export function StepScreen({ unitId, step, pack, store }: { unitId: string; step
   const { unit } = view;
   const now = () => new Date();
 
-  if (done) return <StepDone view={view} step={step} done={done} pack={pack} />;
+  if (done) return <StepDone view={view} step={step} done={done} pack={pack} store={store} />;
   const finish = async (r?: RunResult) => {
     if (step === "prueba" && r) {
       const res = await finishTest(store, unitId, r.correct, r.total, now());
@@ -68,16 +71,23 @@ export function StepScreen({ unitId, step, pack, store }: { unitId: string; step
   );
 }
 
-function StepDone({ view, step, done, pack }: { view: UnitView; step: StepId; done: Done; pack: ContentPack }) {
+function StepDone({ view, step, done, pack, store }: { view: UnitView; step: StepId; done: Done; pack: ContentPack; store: Store }) {
   const { unit } = view;
   const steps = stepsFor(unit);
   const nextStep = steps[steps.indexOf(step) + 1];
   const samples = loadSamples();
+  const [day, setDay] = useState<{ seconds: number; newWords: number } | null>(null);
+  useEffect(() => {
+    store.getDay(localDate(new Date())).then((d) => setDay({ seconds: totalSeconds(d?.seconds ?? {}), newWords: d?.newWords ?? 0 })).catch(() => undefined);
+  }, [store]);
+  const moduleIndex = (pack.course.modules ?? []).findIndex((m) => m.units.includes(unit.id));
+  const tone = moduleIndex >= 0 ? toneOf(moduleIndex) : undefined;
+  const summary = <SessionSummary correct={done.correct} total={done.total} daySeconds={day?.seconds} newWords={day?.newWords} fixed={contrastCards(unit, pack, 1)[0]} />;
   if (step === "prueba") {
     const pct = Math.round(((done.correct ?? 0) / Math.max(1, done.total ?? 1)) * 100);
     return (
-      <main className="center">
-        {done.passed && <Ring />}
+      <main className="center fin" data-tone={tone}>
+        {summary}
         <h1>{done.passed ? "¡Unidad completada!" : "Casi"}</h1>
         <p>Acertaste {done.correct} de {done.total} ({pct} %). {done.passed ? "Desbloqueaste la siguiente unidad." : "Hacen falta 80 % o más. Vuelve a la práctica: lo que falles se repite, y luego reintentas la prueba."}</p>
         <div className="actions-bottom"><a className="button primary block" href={done.passed ? "#/ruta" : `#/unidad/${unit.id}`}>{done.passed ? "Ver la ruta" : "Volver a la unidad"}</a></div>
@@ -85,8 +95,8 @@ function StepDone({ view, step, done, pack }: { view: UnitView; step: StepId; do
     );
   }
   return (
-    <main className="center">
-      <Ring />
+    <main className="center fin" data-tone={tone}>
+      {summary}
       <h1>Paso completado ✓</h1>
       {done.total !== undefined && <p>Acertaste {done.correct} de {done.total} a la primera.</p>}
       {nextStep ? (
