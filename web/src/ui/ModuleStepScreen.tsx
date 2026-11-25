@@ -65,12 +65,12 @@ function Textos({ view, pack, exit }: { view: ModuleView; pack: ContentPack; exi
     <main>
       <p><a className="tap" href={exit}>‹ {module.title}</a></p>
       <h1>Textos reales</h1>
-      <p>Documentos y mensajes como los que verás de verdad. Léelos sin traducción y responde las preguntas. {all ? "Ya leíste todos." : "Para pasar a la Salida hace falta leer todos."}</p>
+      <p>Documentos, mensajes y conversaciones como los que verás y oirás de verdad. Léelos o escúchalos sin traducción y responde las preguntas. {all ? "Ya hiciste todos." : "Para pasar a la Salida hace falta hacerlos todos."}</p>
       <ul className="library">
         {ids.map((id) => {
           const r = (pack.readings ?? []).find((x) => x.id === id);
           const read = !!view.progress.done[textoKey(id)];
-          return r ? <li key={id}><h3 lang="it">{r.title}{read ? " ✓" : ""}</h3>{r.authored && <p><small>Escrito por la IA</small></p>}<a className="button" href={`#/modulo/${module.id}/texto/${id}`}>{read ? "Volver a leer" : "Leer"}</a></li> : null;
+          return r ? <li key={id}><h3 lang="it">{r.title}{read ? " ✓" : ""}</h3><p><small>{r.listen ? "🎧 Escucha sin ver el texto" : "Para leer"}{r.authored ? " · Escrito por la IA" : ""}</small></p><a className="button" href={`#/modulo/${module.id}/texto/${id}`}>{r.listen ? (read ? "Volver a escuchar" : "Escuchar") : read ? "Volver a leer" : "Leer"}</a></li> : null;
         })}
       </ul>
       {all && <p><a className="button primary block" href={`#/modulo/${module.id}/salida`}>Seguir con la Salida</a></p>}

@@ -141,7 +141,7 @@ const withReadings = { ...pack, speaking, readings: readingsAll } as ContentPack
 /** Lee las lecturas no vistas y responde (bien o mal todas). */
 async function answerReadings(p: ContentPack, right: boolean) {
   for (const r of [...milestoneListening(p), ...milestoneReadings(p)]) {
-    fireEvent.click(await screen.findByText("Ya lo leí: preguntas"));
+    fireEvent.click(await screen.findByText(/^Ya lo (leí|escuché): preguntas$/));
     for (const q of r.questions) {
       const good = q.options[q.answer];
       const bad = q.options.find((_, i) => i !== q.answer)!;

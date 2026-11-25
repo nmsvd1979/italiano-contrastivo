@@ -18,7 +18,7 @@ export const MODULE_STEP_LABEL: Record<ModuleNext, string> = { entrada: "Entrada
 export const MODULE_STEP_PURPOSE: Record<ModuleNext, string> = {
   entrada: "Un diálogo o texto real de la situación: léelo, escúchalo y entiende la idea antes de estudiar los detalles.",
   capsulas: "Las unidades del módulo, una por una: cada cápsula trabaja un punto y trae su práctica y su prueba.",
-  textos: "Documentos y mensajes de la vida real (carteles, menús, horarios…): se leen sin traducción y se responden. Solo en los módulos que los tienen.",
+  textos: "Documentos de la vida real (carteles, menús, horarios…) y una escucha sin texto: se leen o se oyen sin traducción y se responden.",
   salida: "Usa lo aprendido: juego de roles, tarea oral y un mensaje escrito tuyo. Aquí se pasa de reconocer a producir.",
   fluidez: "Relee y reescucha lo que ya conoces, cada vez más rápido y con menos apoyo.",
   cierre: "Marca lo que ya sabes hacer y haz la prueba mezclada del módulo (80 % o más para completarlo).",

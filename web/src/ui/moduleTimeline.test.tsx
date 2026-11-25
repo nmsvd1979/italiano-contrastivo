@@ -39,13 +39,14 @@ describe("acción del módulo", () => {
 });
 
 describe("módulo como línea de tiempo", () => {
-  it("muestra las cinco etapas con su estado en texto", () => {
+  it("muestra las seis etapas (con Textos reales: la escucha) y su estado en texto", () => {
     const { container } = render(<ModuleScreen view={m1([entradaHecha])} pack={pack} />);
     const items = container.querySelectorAll("ol.tl > li");
-    expect(items).toHaveLength(5);
+    expect(items).toHaveLength(6);
     expect(items[0].textContent).toMatch(/Entrada.*hecho/);
     expect(items[1].textContent).toMatch(/Cápsulas.*toca ahora/);
-    expect(items[2].textContent).toMatch(/Salida.*pendiente/);
+    expect(items[2].textContent).toMatch(/Textos reales.*pendiente/);
+    expect(items[3].textContent).toMatch(/Salida.*pendiente/);
   });
   it("la cápsula en curso enlaza directo a su paso y tiene un enlace «Ficha»", () => {
     const v = m1([entradaHecha]);

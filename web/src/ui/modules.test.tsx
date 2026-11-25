@@ -37,12 +37,14 @@ describe("pantallas de módulo", () => {
     for (const label of ["Entrada", "Cápsulas", "Salida", "Fluidez", "Cierre"]) expect(screen.getAllByText(new RegExp(`${label}$`)).length).toBeGreaterThan(0);
     expect(screen.getByRole("link", { name: /^Continuar · Entrada/ }).getAttribute("href")).toBe(`#/modulo/${mods[0].id}/entrada`);
   });
-  it("«Hoy» propone la Entrada al empezar, y la Salida cuando terminas las cápsulas", () => {
+  it("«Hoy» propone la Entrada al empezar, la escucha (Textos reales) al terminar las cápsulas y luego la Salida", () => {
     const base = { pack, cards: [], day: { date: "2026-11-24", reviewsDone: 0, capsulesDone: [] }, now: NOW };
     const a = nextAction(planToday({ ...base, units: [] }));
     expect(a.href).toBe(`#/modulo/${mods[0].id}/entrada`);
     const b = nextAction(planToday({ ...base, units: mods[0].units.map(doneUnit) }));
-    expect(b.href).toBe(`#/modulo/${mods[0].id}/salida`);
+    expect(b.href).toBe(`#/modulo/${mods[0].id}/textos`);
+    const c = nextAction(planToday({ ...base, units: [...mods[0].units.map(doneUnit), { ...emptyProgress(moduleProgressId(mods[0].id)), done: { textos: at } }] }));
+    expect(c.href).toBe(`#/modulo/${mods[0].id}/salida`);
   });
   it("Entrada: leer el texto y responder marca el paso y abre las cápsulas", async () => {
     const store = memoryStore();
@@ -68,6 +70,7 @@ describe("pantallas de módulo", () => {
     const store = memoryStore();
     for (const m of mods.slice(0, idx)) { await withUnits(store, m); await store.putUnit({ ...emptyProgress(moduleProgressId(m.id)), done: { cierre: at }, completed: true }); }
     await withUnits(store, noSpeech);
+    await putMod(store, noSpeech.id, { textos: at });                                       // la escucha del módulo ya hecha
     render(<ModuleStepScreen moduleId={noSpeech.id} step="salida" pack={pack2} store={store} />);
     expect(await screen.findByText(noSpeech.gap_es!, { exact: false })).toBeTruthy();
     fireEvent.click(screen.getByRole("button", { name: "Escribir mi mensaje" }));
@@ -84,7 +87,7 @@ describe("pantallas de módulo", () => {
       const m = mods[0];
       const store = memoryStore();
       await withUnits(store, m);
-      await putMod(store, m.id, { entrada: at, salida: at, fluidez: at });
+      await putMod(store, m.id, { entrada: at, textos: at, salida: at, fluidez: at });
       render(<ModuleStepScreen moduleId={m.id} step="cierre" pack={pack} store={store} />);
       fireEvent.click(await screen.findByRole("button", { name: "Empezar la prueba" }));
       const view = moduleViews(pack.course, await store.allUnits(), false).modules[0];

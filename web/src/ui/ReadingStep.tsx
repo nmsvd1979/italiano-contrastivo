@@ -73,7 +73,7 @@ export function ReadingStep({ reading, words = {}, onFinish, exitHref = "#/", hi
           {playing === null
             ? <button type="button" onClick={() => void listenAll()}>🔊 Escuchar todo el texto</button>
             : <button type="button" onClick={stopAll}>⏹ Detener</button>}{" "}
-          <small>Escúchalo primero sin mirar la traducción: es mejor para entrenar el oído.</small>
+          {!hideTranslation && <small>Escúchalo primero sin mirar la traducción: es mejor para entrenar el oído.</small>}
         </p>}
         {!reading.table && <p>{listenOnly ? "Solo escucha: el texto no se muestra. Puedes oírlo las veces que quieras y luego responde." : hideTranslation ? "Toca 🔊 para oír una frase. Aquí no hay traducción: se trata de entender el texto." : layer ? "Toca una palabra para ver qué es y cómo se parece al español; «Traducción» muestra la frase." : "Toca una frase para oírla y ver su traducción."}</p>}
         {Object.keys(words).length > 0 && !hideTranslation && (
@@ -109,13 +109,13 @@ export function ReadingStep({ reading, words = {}, onFinish, exitHref = "#/", hi
                   })()}
                 </>
               ) : (
-                <button type="button" className="sentence" lang="it" aria-expanded={shown.has(i)} onClick={() => (hideTranslation ? void player(s.it) : toggle(i))}>{listenOnly ? "🔊 Frase " + (i + 1) + " (sin texto)" : s.it}</button>
+                <button type="button" className="sentence" lang="it" aria-expanded={shown.has(i)} onClick={() => (hideTranslation ? void player(s.it) : toggle(i))}>{listenOnly ? `Frase ${i + 1} (sin texto)` : s.it}</button>
               )}
               {shown.has(i) && <span className="gloss"><small>{s.es}</small> <SpeakButton text={s.it} /></span>}
             </p>
           ))}
         </div>
-        <div className="actions-bottom"><button type="button" className="primary block" onClick={() => setPhase("ask")}>Ya lo leí: preguntas</button></div>
+        <div className="actions-bottom"><button type="button" className="primary block" onClick={() => setPhase("ask")}>{listenOnly ? "Ya lo escuché: preguntas" : "Ya lo leí: preguntas"}</button></div>
       </div>
     );
   }

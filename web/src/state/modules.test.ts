@@ -33,11 +33,14 @@ describe("módulos: estado y bloqueos", () => {
     expect(currentView(v.units)!.unit.id).toBe(M1.units[0]);
     expect(v.modules[0].steps.find((s) => s.id === "entrada")!.open).toBe(true);
   });
-  it("con todas las cápsulas hechas toca la Salida; Fluidez y Cierre esperan a la anterior", () => {
+  it("con todas las cápsulas hechas tocan los Textos reales (la escucha); luego la Salida; Fluidez y Cierre esperan a la anterior", () => {
     const v = moduleViews(pack.course, M1.units.map((u) => completed(u)), false).modules[0];
-    expect(v.next).toBe("salida");
-    expect(v.steps.map((s) => [s.id, s.open])).toEqual([["entrada", true], ["capsulas", true], ["salida", true], ["fluidez", false], ["cierre", false]]);
-    const v2 = moduleViews(pack.course, [...M1.units.map((u) => completed(u)), modDone(M1.id, { salida: at })], false).modules[0];
+    expect(v.next).toBe("textos");
+    expect(v.steps.map((s) => [s.id, s.open])).toEqual([["entrada", true], ["capsulas", true], ["textos", true], ["salida", false], ["fluidez", false], ["cierre", false]]);
+    expect(M1.extra_readings).toEqual(["ls_m01"]);                                               // la escucha sin texto del módulo
+    const vS = moduleViews(pack.course, [...M1.units.map((u) => completed(u)), modDone(M1.id, { textos: at })], false).modules[0];
+    expect(vS.next).toBe("salida");
+    const v2 = moduleViews(pack.course, [...M1.units.map((u) => completed(u)), modDone(M1.id, { textos: at, salida: at })], false).modules[0];
     expect(v2.next).toBe("fluidez");
     expect(v2.steps.find((s) => s.id === "cierre")!.open).toBe(false);
   });
