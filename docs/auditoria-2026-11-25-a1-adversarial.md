@@ -118,3 +118,4 @@ Con 1–4 hechos, A1 queda **listo como material**. Con 5, queda **listo para la
 - **A4, resuelto (tu decisión: dejar y avisar):** las 4 lecturas A2 se quedan con un aviso visible de nivel y las fichas de u08 y u58 ya no se contradicen.
 - **A5, resuelto con voz sintética:** cada módulo A1 tiene una escucha sin texto, con dos voces y 4 preguntas (11 nuevas, escritas por la IA). La voz humana sigue pendiente: es el punto (c)1.
 - **Interacción sin guion, resuelta en lo posible sin servidor:** ronda obligatoria de 6 preguntas por voz en la Salida de cada módulo A1 (63 preguntas; 36 escritas por la IA). La evaluación sigue siendo tuya.
+- **(c)1 Audio humano, resuelto en parte:** Tatoeba (NM1, CC BY 4.0). 90 frases de la app suenan con voz humana y cada módulo tiene un dictado con voz humana (192 frases nuevas, auditadas). Sigue sin haber diálogos humanos abiertos y no se sabe si NM1 es nativo.
