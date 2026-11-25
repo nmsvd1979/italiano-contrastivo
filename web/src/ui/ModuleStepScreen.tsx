@@ -53,7 +53,7 @@ function Entrada({ view, pack, store, exit, onDone }: { view: ModuleView; pack: 
   const reading = (pack.readings ?? []).find((r) => r.id === view.module.entry_reading);
   if (!reading) return <main><p>No encuentro el texto de entrada de este módulo.</p></main>;
   if (done) return <Done title="Entrada completada ✓" text="Ya viste la situación en italiano real. Ahora vienen las cápsulas: cada una trabaja un punto de lo que acabas de leer." exit={exit} next={{ href: exit, label: "Seguir con las cápsulas" }} />;
-  return <main className="focus"><ReadingStep reading={reading} words={pack.readingWords} exitHref={exit} onFinish={() => { void finishModuleStep(store, view.module.id, "entrada", new Date()).then(() => { setDone(true); onDone(); }); }} /></main>;
+  return <main className="focus"><ReadingStep reading={reading} words={pack.readingWords} exitHref={exit} learnerLevel={view.module.level} onFinish={() => { void finishModuleStep(store, view.module.id, "entrada", new Date()).then(() => { setDone(true); onDone(); }); }} /></main>;
 }
 
 /** Los textos reales del módulo (carteles, menús, horarios…): cada uno se lee sin traducción; con todos leídos se sigue con la Salida. */

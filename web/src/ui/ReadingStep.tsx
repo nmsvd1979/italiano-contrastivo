@@ -11,8 +11,15 @@ import { stopSay, waitCurrentEnd } from "./speech";
  * «Lectura»: un texto real de un libro abierto, con audio y traducción de cada oración (marcada como traducción de IA),
  * seguido de preguntas de comprensión escritas en español. No se inventa italiano: el texto es el del libro.
  */
-export function ReadingStep({ reading, words = {}, onFinish, exitHref = "#/", hideTranslation = false, listenOnly = false }: {
+const RANK: Record<string, number> = { A1: 0, "A1+": 0, A2: 1, B1: 2, B2: 3 };
+/** El texto es de un nivel más alto que el de la unidad o módulo donde aparece (auditoría 2026-11-25: se decidió dejarlo y avisar). */
+export const aboveLevel = (reading: Reading, learnerLevel?: string): boolean =>
+  learnerLevel !== undefined && learnerLevel in RANK && reading.level in RANK && RANK[reading.level] > RANK[learnerLevel];
+
+export function ReadingStep({ reading, words = {}, onFinish, exitHref = "#/", hideTranslation = false, listenOnly = false, learnerLevel }: {
   reading: Reading; words?: Record<string, ReadingWord>; onFinish: (correct: number, total: number) => void; exitHref?: string;
+  /** Nivel de la unidad o módulo: si el texto es de un nivel más alto, se avisa. */
+  learnerLevel?: string;
   /** Examen: sin traducción ni tamices, para medir si entiendes el texto de verdad. */
   hideTranslation?: boolean;
   /** Comprensión auditiva: el texto no se ve; solo se oye (y se responde). Implica sin traducción. */
@@ -47,6 +54,9 @@ export function ReadingStep({ reading, words = {}, onFinish, exitHref = "#/", hi
       <div>
         <FocusHead progress={0.1} exitHref={exitHref} />
         <h2 lang="it">{reading.title}</h2>
+        {!hideTranslation && aboveLevel(reading, learnerLevel) && (
+          <p className="note"><small>⚠ Texto de nivel {reading.level}, un poco por encima del tuyo: puede traer formas que todavía no viste. Usa la traducción de cada frase; no hace falta entenderlo todo.</small></p>
+        )}
         <details className="how src">
           <summary>{reading.kind === "dialogo" ? "Diálogo" : reading.kind === "documento" ? "Documento" : "Lectura"} · fuente y traducción (IA, sin revisar por un nativo)</summary>
           <p><small>{reading.kind === "dialogo" ? "Diálogo" : reading.kind === "documento" ? "Documento" : "Lectura"} · {reading.authored ? "Texto escrito por la IA (Claude) para esta app: no es de un libro ni lo revisó un nativo." : `${reading.source.book} (${reading.source.authors}), ${reading.source.license}.`}{hideTranslation ? "" : " Traducción al español: IA, sin revisar por un nativo."}</small></p>

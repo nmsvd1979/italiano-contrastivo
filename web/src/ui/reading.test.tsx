@@ -2,7 +2,7 @@ import { cleanup, fireEvent, render, screen } from "@testing-library/react";
 import { readFileSync } from "node:fs";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import type { Reading, ReadingWord } from "../content/load";
-import { ReadingStep } from "./ReadingStep";
+import { aboveLevel, ReadingStep } from "./ReadingStep";
 
 afterEach(cleanup);
 const readings: Reading[] = JSON.parse(readFileSync("public/content/readings.json", "utf8"));
@@ -66,5 +66,27 @@ describe("paso de lectura", () => {
       fireEvent.click(screen.getByText(/Continuar|Siguiente/));
     });
     expect(onFinish).toHaveBeenCalledTimes(1);
+  });
+});
+
+describe("aviso de texto por encima del nivel", () => {
+  const r = (level: string) => ({ level } as never);
+  it("avisa solo si el texto es de un nivel más alto que la unidad o el módulo", () => {
+    expect(aboveLevel(r("A2"), "A1")).toBe(true);
+    expect(aboveLevel(r("A2"), "A1+")).toBe(true);
+    expect(aboveLevel(r("A1"), "A1")).toBe(false);
+    expect(aboveLevel(r("A2"), "A2")).toBe(false);
+    expect(aboveLevel(r("A2"), undefined)).toBe(false);   // examen u otros usos sin nivel: sin aviso
+  });
+});
+
+describe("aviso de nivel en pantalla", () => {
+  const reading = { id: "rd_x", title: "Prova", level: "A2", kind: "lectura", source: { book: "B", authors: "A", license: "CC" }, sentences: [{ id: "x0", it: "Sono andata.", es: "Fui." }], questions: [] } as unknown as Reading;
+  it("se ve en una unidad A1 y no en el examen", () => {
+    render(<ReadingStep reading={reading} learnerLevel="A1" onFinish={() => {}} />);
+    expect(screen.getByText(/un poco por encima del tuyo/)).toBeTruthy();
+    cleanup();
+    render(<ReadingStep reading={reading} learnerLevel="A1" hideTranslation onFinish={() => {}} />);
+    expect(screen.queryByText(/un poco por encima del tuyo/)).toBeNull();
   });
 });
