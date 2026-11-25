@@ -39,7 +39,7 @@ export function LibraryScreen({ pack, store }: { pack: ContentPack; store: Store
         <p><small>Los enlaces se verificaron al armar esta lista ({library[0]?.verified ?? "sin fecha"}), pero los sitios cambian.</small></p>
       </details>
       <div role="group" aria-label="Nivel" style={{ display: "flex", gap: 6, flexWrap: "wrap", margin: "8px 0" }}>
-        {LEVEL_FILTERS.map((l) => <button key={l} type="button" aria-pressed={level === l} className={level === l ? "primary" : ""} style={{ minHeight: 36, padding: "4px 12px" }} onClick={() => setLevel(l)}>{l === "todos" ? "Todos" : l}</button>)}
+        {LEVEL_FILTERS.map((l) => <button key={l} type="button" aria-pressed={level === l} className={level === l ? "level primary" : "level"} onClick={() => setLevel(l)}>{l === "todos" ? "Todos" : l}</button>)}
       </div>
       <label htmlFor="lib-kind">Tipo</label>{" "}
       <select id="lib-kind" value={kind} onChange={(e) => setKind(e.target.value as ResourceKind | "todos")}>
@@ -58,7 +58,7 @@ export function LibraryScreen({ pack, store }: { pack: ContentPack; store: Store
             {r.warning && <p className="note"><small>⚠ {r.warning}</small></p>}
             <details>
               <summary>Registrar el tiempo que le dediqué</summary>
-              <p>{MINUTES.map((m) => <button key={m} type="button" style={{ minHeight: 36, padding: "4px 12px", marginRight: 6 }} onClick={() => void log(r, m)}>{m} min</button>)}</p>
+              <p>{MINUTES.map((m) => <button key={m} type="button" className="level" style={{ marginRight: 6 }} onClick={() => void log(r, m)}>{m} min</button>)}</p>
               <p><small>Suma a «{STRAND_LABEL[r.strand]}».</small></p>
             </details>
             {logged[r.id] ? <p role="status"><small>Registrado: {logged[r.id]} min en «{STRAND_LABEL[r.strand]}».</small></p> : null}

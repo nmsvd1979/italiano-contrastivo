@@ -4,13 +4,13 @@
 /* ───────── 1. Tokens ───────── */
 :root {
   color-scheme: light;
-  --bg: #fbf7f0; --ink: #2b2a27; --muted: #6f695f; --card: #ffffff; --line: #e2dacb; --accent: #c8553d; --accent-ink: #ffffff;
+  --bg: #fbf7f0; --ink: #2b2a27; --muted: #6f695f; --card: #ffffff; --line: #e2dacb; --accent: #a83f2b; --accent-ink: #ffffff;
   --accent-soft: #f6e1d9; --ok: #2d6a4f; --ok-bg: #ddefe4; --bad: #b23a48; --bad-bg: #fbe3e1; --mark: #f5c4b3;
   --b1: #2f7bc4; --b2: #c8553d; --b3: #6f66cf; --b4: #2d6a4f;
   --s-in: #2a73bb; --s-form: #6f66cf; --s-out: #9a6416; --s-flu: #1f7a7a;
   --fill: #f3ede2;
   /* seis tonos de módulo (fuerte / tinte / tinta): rotan por número de módulo con data-tone="1".."6" */
-  --t1: #bc4b34; --t1s: #f6e1d9; --t1i: #4a1b0c;
+  --t1: #a83f2b; --t1s: #f6e1d9; --t1i: #4a1b0c;
   --t2: #8f6210; --t2s: #f6e8c8; --t2i: #4a3208;
   --t3: #55703a; --t3s: #e4ebd2; --t3i: #26340f;
   --t4: #2a6bb0; --t4s: #dbe9f6; --t4i: #0f2f52;
@@ -607,3 +607,8 @@ main.loading { display: flex; align-items: center; justify-content: center; min-
 main.loading p { display: inline-flex; align-items: center; gap: var(--sp3); color: var(--muted); margin: 0; }
 .spinner { width: 18px; height: 18px; border-radius: 50%; border: 2.5px solid var(--line); border-top-color: var(--accent); animation: spin .8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Etapa 6: accesibilidad ── */
+.hero .gloss, .mod-card .gloss { color: inherit; display: block; margin: 0; }
+header.mhead small, .hero .eyebrow, .hero .unit-title { opacity: 1; }
+button.level { min-height: 44px; padding: 6px 14px; }

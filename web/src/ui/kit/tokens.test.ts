@@ -59,3 +59,16 @@ describe("tonos de módulo (seis, rotan por número de módulo)", () => {
     expect(new Set([1, 2, 3, 4, 5, 6].map((n) => token(light, `--t${n}`))).size).toBe(6);
   });
 });
+
+describe("color de acción (--accent): texto del botón y enlaces legibles", () => {
+  const themes: [string, string][] = [["claro", light], ["oscuro", dark]];
+  for (const [theme, block] of themes) {
+    it(`en ${theme}: el texto sobre el botón y el acento sobre el fondo llegan a 4,5:1`, () => {
+      const accent = token(block, "--accent") || token(light, "--accent");
+      const ink = token(block, "--accent-ink") || token(light, "--accent-ink");
+      const bg = token(block, "--bg") || token(light, "--bg");
+      expect(contrast(ink, accent)).toBeGreaterThanOrEqual(4.5);
+      expect(contrast(accent, bg)).toBeGreaterThanOrEqual(4.5);
+    });
+  }
+});
