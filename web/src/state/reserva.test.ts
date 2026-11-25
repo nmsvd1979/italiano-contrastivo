@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { reserveParts, RESERVE_SIZE, type ContentPack } from "../content/load";
+import { reserveParts, RESERVE_MAX_WORDS, RESERVE_SIZE, type ContentPack } from "../content/load";
 import { moduleTestItems, moduleViews } from "./modules";
 import { milestoneItems, milestoneWriteItems } from "./milestone";
 import { weakItems } from "./weak";
@@ -36,6 +36,23 @@ describe("frases reservadas (contenido real de A1)", () => {
     const lists = [0, 1, 2].map((n) => moduleTestItems(mv, pack, n));
     expect(lists[0].some((i) => reserved.has(sid(i)))).toBe(true);
     expect(new Set(lists.map((l) => l.map((i) => i.id).join())).size).toBe(3);
+  });
+  it("el Cierre de cada módulo A1 usa solo frases de la reserva (ninguna ya escrita en la prueba de la cápsula)", () => {
+    for (const mv of moduleViews(pack.course, [], true).modules.filter((m) => m.module.level === "A1")) {
+      const reserved = new Set(mv.units.flatMap((v) => v.unit.parts.reserva ?? []));
+      for (const n of [0, 1, 2]) for (const i of moduleTestItems(mv, pack, n)) expect(reserved.has(sid(i)), `${mv.module.id}:${sid(i)}`).toBe(true);
+    }
+  });
+  it("en A1 la reserva no trae frases B1 o más, y solo usa A2 si no hay frases A1 suficientes", () => {
+    const lv = new Map(pack.sentences.map((s) => [s.id, s.cefr_estimate]));
+    for (const u of a1) {
+      const levels = (u.parts.reserva ?? []).map((id) => lv.get(id));
+      expect(levels.every((l) => l === "A1" || l === "A2"), u.id).toBe(true);
+      if (!levels.includes("A2")) continue;
+      const skip = new Set([...u.parts.descubre, ...u.parts.escucha]), words = new Map(pack.sentences.map((s) => [s.id, s.it.split(/\s+/).length]));
+      const shortA1 = [...u.parts.practica, ...(u.parts.reserva ?? [])].filter((id) => !skip.has(id) && (words.get(id) ?? 99) <= RESERVE_MAX_WORDS && lv.get(id) === "A1");
+      expect(shortA1.length, u.id).toBeLessThan(RESERVE_SIZE);
+    }
   });
   it("el hito usa frases de la reserva en reconocimiento y escritura, y un reintento no repite las mismas", () => {
     const reserved = new Set(a1.flatMap((u) => u.parts.reserva ?? []));

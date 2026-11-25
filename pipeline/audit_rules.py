@@ -14,7 +14,7 @@ _VOSEO = re.compile(r"\b(vos|sos|tenés|querés|sabés|podés|vivís|decís|hac�
 _VOSOTROS = re.compile(r"\b(vosotros|vosotras|vuestro|vuestra|vuestros|vuestras|\w{3,}áis|(?!dieciséis|veintiséis)\w{2,}éis|vais|sois|oís|os)\b", re.I)
 _REGIONAL = re.compile(r"\b(birome|remera|pibe|pibita|pibes|laburo|guita|boludo|coger|cogió|cogí|cogiste|coges|coge|follar|joder|chaval)\b", re.I)
 _NO_LATIN = re.compile(r"[^\x00-\xFF\u2010-\u2027\u20AC]")  # el español solo usa Latin-1 (acentos, ñ, ¿, ¡)
-_OBSCENO = re.compile(r"\b(cazzo|merda|puttana|fottere|vaffanculo|stronzo|stronza|troia|coglione|sesso|sessuale|nudo|nuda|stupro|droga|cocaina|suicidio|genocidio|terrorist\w+|nazist\w+|satana|diavolo|inferno)\b", re.I)
+_OBSCENO = re.compile(r"\b(cazzo|merda|puttana|fottere|vaffanculo|stronzo|stronza|troia|coglione|sesso|sessuale|nudo|nuda|stupro|droga|drogat\w+|cocaina|suicidio|genocidio|terrorist\w+|nazist\w+|satana|diavolo|inferno)\b", re.I)
 _RELIGIOSO = re.compile(r"\b(Dio|Gesù|Cristo|Allah|Madonna|santo|santi|Bibbia|biblico|biblica|profeta|paradiso|peccato)\b")
 _MORBIDO = re.compile(r"\b(uccidere|ucciso|uccisa|assassin\w+|omicid\w+|cadavere|tomba|funerale|ammazzat\w+)\b", re.I)
 

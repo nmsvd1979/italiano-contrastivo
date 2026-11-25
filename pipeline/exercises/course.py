@@ -41,13 +41,27 @@ def fit_for_level(s: dict, level: str, code: str | None = None) -> bool:
     return not (italian_issue(s["it"], "A1") or spanish_issue(s.get("es")) or length_issue(s["it"], s.get("es")))
 
 
-def assign_parts(usable: list[dict], codes: list[str]) -> dict:
+def test_rank(s: dict, level: str) -> int | None:
+    """Aptitud de una frase para la PRUEBA de una unidad A1: 0 = A1 (preferida), 1 = A2 (solo para completar, p. ej. en u58, donde el estimador
+    marca A2 el propio passato prossimo), None = B1 o más (nunca). La práctica admite algo de A2 como entrada, pero la prueba mide lo que la
+    unidad enseñó (auditoría 2026-11-25: 65 frases A2/B1 en las pruebas A1, como «Io ne ho visti tantissimi di concerti»)."""
+    if level not in A1_LEVELS:
+        return 0
+    return {"A1": 0, "A2": 1}.get(s.get("cefr_estimate", "A1"))
+
+
+def assign_parts(usable: list[dict], codes: list[str], level: str = "A1") -> dict:
     """`usable` viene de la más fácil a la más difícil. «Descubre» = las más fáciles; la prueba (reservada) se reparte
-    de forma pareja por todo el resto, para medir la dificultad real de la unidad y no solo su extremo más duro."""
+    de forma pareja por todo el resto (solo entre las aptas para prueba), para medir la dificultad real de la unidad y no solo su extremo más duro."""
     n_test = LARGE_TEST_SIZE if len(usable) >= LARGE_UNIT else TEST_SIZE
     rest = usable[DISCOVER_SIZE:]
-    step = len(rest) / n_test
-    picked = {int(step * i + step / 2) for i in range(n_test)}
+    picked: set[int] = set()
+    for rank in (0, 1):  # primero se reparte entre las A1; si no alcanzan, se completa con A2
+        eligible = [i for i, s in enumerate(rest) if test_rank(s, level) == rank]
+        want = min(n_test - len(picked), len(eligible))
+        if want > 0:
+            step = len(eligible) / want
+            picked |= {eligible[int(step * k + step / 2)] for k in range(want)}
     test = [s for i, s in enumerate(rest) if i in picked]
     pool = usable[:DISCOVER_SIZE] + [s for i, s in enumerate(rest) if i not in picked]
     step = max(1, len(pool) // LISTEN_SIZE)
@@ -116,7 +130,7 @@ def build_course(sentences: list[dict], catalog: dict[str, dict]) -> dict:
             planned.append({"level": u["level"], "title": u["title"], "reason": f"Solo {total} oraciones validadas utilizables (se necesitan {MIN_USABLE})."})
             continue
         code = u["codes"][0]
-        parts = assign_parts(usable[code], u["codes"])
+        parts = assign_parts(usable[code], u["codes"], u["level"])
         by_id = {s["id"]: s for s in usable[code]}
         from pipeline.tts.ids import clip_id
         verbal = code in ("ERR_VOC_VORREI",)  # formas verbales: sin género ni número que mostrar

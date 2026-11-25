@@ -133,14 +133,15 @@ export function salidaMissing(m: CourseModule, p: UnitProgress): SalidaPart[] {
 export const MODULE_TEST_MAX = 12;
 export const MODULE_TEST_PER_UNIT = 2;
 /**
- * Prueba de cierre: de cada cápsula, una frase de su prueba (la que ya escribiste) y una de la reserva (que no viste practicando), de a dos por unidad y
- * mezcladas entre unidades; se escribe desde el español. Cada reintento (`attempt`) empieza en otra frase.
+ * Prueba de cierre: de cada cápsula, frases de su reserva (que no viste practicando ni escribiste en la prueba de la cápsula), de a dos por unidad y
+ * mezcladas entre unidades; se escribe desde el español. Solo si la reserva no alcanza se completa con frases de la prueba de la cápsula
+ * (auditoría 2026-11-25: antes la mitad eran frases ya escritas y el Cierre medía en parte memoria). Cada reintento (`attempt`) empieza en otra frase.
  */
 export function moduleTestItems(view: ModuleView, pack: ContentPack, attempt = 0): Item[] {
   const perUnit = view.units.length < 3 ? MODULE_TEST_PER_UNIT + 1 : MODULE_TEST_PER_UNIT;   // con solo dos cápsulas, tres frases de cada una para no quedar en una prueba corta
   const pools = view.units.map((v) => {
     const seen = rotate(testItems(v.unit, pack), attempt), fresh = rotate(reserveItems(v.unit, pack), attempt);
-    return [seen[0], fresh[0], seen[1], fresh[1], seen[2]].filter((x): x is Item => !!x).slice(0, perUnit);
+    return [...fresh, ...seen].slice(0, perUnit);
   });
   const out: Item[] = [];
   for (let round = 0; round < perUnit && out.length < MODULE_TEST_MAX; round++) {

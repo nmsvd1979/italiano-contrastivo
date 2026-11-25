@@ -105,3 +105,31 @@ def test_u65_practica_solo_vorrei_y_prendo():
     cap = caps["cap_err_voc_vorrei"]
     text = json.dumps([cap["trigger"], cap["retrieval"]], ensure_ascii=False).lower()  # los ejercicios (la explicación sí compara con «voglio»)
     assert "voglio" not in text
+
+
+def test_prueba_a1_prefiere_a1_completa_con_a2_y_nunca_b1():
+    """Auditoría 2026-11-25: las pruebas A1 traían frases A2/B1. Ahora: primero A1, A2 solo para completar, nunca B1."""
+    def mk(n, lv):
+        return [{"id": f"{lv}{i}", "it": f"frase {lv} {i}", "es": "x", "cefr_estimate": lv} for i in range(n)]
+    mixed = mk(30, "A1") + mk(10, "B1")
+    assert {s[0:2] for s in C.assign_parts(mixed, ["ERR_X"], "A1")["prueba"]} == {"A1"}
+    few = mk(10, "A1") + mk(10, "A2") + mk(10, "B1")   # 4 van a «Descubre»: quedan 6 A1 para una prueba de 6
+    prueba = C.assign_parts(few, ["ERR_X"], "A1")["prueba"]
+    assert len(prueba) == C.TEST_SIZE and all(i.startswith("A1") for i in prueba)
+    a2 = mk(6, "A1") + mk(20, "A2") + mk(5, "B1")      # solo 2 A1 después de «Descubre»: se completa con A2
+    prueba = C.assign_parts(a2, ["ERR_X"], "A1")["prueba"]
+    assert len(prueba) == C.TEST_SIZE and not any(i.startswith("B1") for i in prueba) and any(i.startswith("A2") for i in prueba)
+    assert any(i.startswith("B1") for i in C.assign_parts(mk(20, "B1"), ["ERR_X"], "B1")["prueba"])   # en otros niveles no se filtra
+
+
+def test_pruebas_a1_del_paquete_sin_b1():
+    import json
+    from pathlib import Path
+    pack = Path(__file__).resolve().parents[2] / "web/public/content"
+    course = json.loads((pack / "course.json").read_text(encoding="utf8"))
+    lv = {s["id"]: s["cefr_estimate"] for s in json.loads((pack / "sentences.json").read_text(encoding="utf8"))}
+    for u in course["units"]:
+        if u["level"] == "A1":
+            levels = [lv[i] for i in u["parts"]["prueba"]]
+            assert all(x in ("A1", "A2") for x in levels), u["id"]
+            assert levels.count("A2") == 0 or u["id"] in ("u58", "u67"), u["id"]   # A2 solo donde el estimador marca A2 la estructura enseñada
