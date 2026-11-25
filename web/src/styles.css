@@ -324,7 +324,7 @@ ul.mod-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 0; }
 .mod-row[data-state="locked"] .label strong, .mod-row[data-state="planned"] .label strong { color: var(--muted); font-weight: 500; }
 .mod-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--r-l); padding: var(--sp5); margin: 0 0 var(--sp2); display: flex; flex-direction: column; gap: var(--sp3); box-shadow: 0 1px 0 var(--line), 0 10px 24px -18px color-mix(in srgb, var(--ink) 55%, transparent); }
 .mod-card + .mod-row { border-top: 0; }
-.mod-card > a:first-child { text-decoration: none; color: var(--ink); font-size: 20px; line-height: 1.2; letter-spacing: -.01em; }
+.mod-card > a:first-of-type { text-decoration: none; color: var(--ink); font-size: 20px; line-height: 1.2; letter-spacing: -.01em; }
 .mod-card > a:first-child strong { font-weight: 650; }
 .mod-card small { color: var(--muted); margin-top: -8px; }
 ol.strip { list-style: none; padding: 0; margin: 0; display: flex; gap: 4px; }
@@ -513,3 +513,35 @@ main.empty h1 { font-size: 24px; line-height: 1.2; margin-bottom: var(--sp2); }
   ::view-transition-old(root) { animation: vt-out .12s ease both; }
   ::view-transition-new(root) { animation: vt-in .24s var(--ease-out) both; }
 }
+
+/* ── Hoy y Ruta con el tono del módulo ── */
+.hero { background: var(--cs, var(--card)); color: var(--ci, var(--ink)); border-color: transparent; border-radius: 24px; position: relative; overflow: hidden; }
+.hero > :not(.motif-bg) { position: relative; }
+.hero .motif-bg, .mod-card .motif-bg { position: absolute; right: -14px; top: -10px; width: 130px; height: 130px; color: var(--c); opacity: .2; pointer-events: none; }
+.hero .eyebrow { color: inherit; opacity: .85; }
+.hero .phrase { font-family: var(--serif); font-size: 36px; line-height: 1.05; font-weight: 600; letter-spacing: -.02em; margin: var(--sp3) 0 var(--sp2); overflow-wrap: anywhere; text-wrap: balance; }
+.hero .phrase[data-long="true"] { font-size: 28px; line-height: 1.1; }
+.hero .phrase mark { background: color-mix(in srgb, var(--c) 28%, transparent); border-radius: 6px; padding: 0 4px; }
+.hero .gloss { font-size: var(--t-sm); opacity: .92; max-width: 280px; }
+.hero .unit-title { margin: var(--sp3) 0 0; font-size: var(--t-cap); font-weight: 600; opacity: .85; }
+.hero ol.strip, .mod-card ol.strip { margin-top: var(--sp4); }
+.hero ol.strip li, .mod-card ol.strip li { color: inherit; }
+.hero ol.strip i, .mod-card ol.strip i { background: color-mix(in srgb, var(--ci) 16%, transparent); }
+.hero ol.strip li[data-state="done"] i, .mod-card ol.strip li[data-state="done"] i { background: var(--c); }
+.hero ol.strip li[data-state="current"] i, .mod-card ol.strip li[data-state="current"] i { background: linear-gradient(90deg, var(--c) 40%, color-mix(in srgb, var(--ci) 16%, transparent) 40%); }
+.hero ol.strip li[data-state="current"] span, .mod-card ol.strip li[data-state="current"] span { color: inherit; }
+.dayrow { display: flex; align-items: center; gap: var(--sp4); margin: 0 0 var(--sp4); padding: 0 2px; }
+.dayrow .t { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.dayrow .t small { color: var(--muted); }
+main.today ol.pathlist { margin: 0 0 var(--sp3); }
+main.today .tally { margin: 0 0 var(--sp4); }
+main.today .actions-bottom a.button.primary { background: var(--c, var(--accent)); border-color: var(--c, var(--accent)); color: var(--on-tone); }
+
+/* Ruta: el módulo en curso toma su color; los demás llevan su sello */
+.mod-card[data-tone] { background: var(--cs); color: var(--ci); border-color: transparent; position: relative; overflow: hidden; box-shadow: none; }
+.mod-card[data-tone] > :not(.motif-bg) { position: relative; }
+.mod-card[data-tone] > a:first-of-type, .mod-card[data-tone] small { color: var(--ci); }
+.mod-card[data-tone] small { opacity: .92; }
+.mod-card[data-tone] a.button.primary { background: var(--c); border-color: var(--c); color: var(--on-tone); }
+.mod-row { align-items: center; }
+.mod-row .stamp { margin-right: 2px; }

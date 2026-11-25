@@ -6,8 +6,12 @@ import type { DayProgress } from "../state/store";
 import type { Seconds } from "../state/strands";
 import { totalSeconds } from "../state/strands";
 import { DAILY_MIN_SECONDS } from "../state/targets";
+import type { ContrastData } from "./kit/ContrastCard";
+import { DayRing } from "./kit/DayRing";
 import { Icon } from "./kit/Icon";
+import { ModuleMotif, toneOf } from "./kit/ModuleMotif";
 import { ModuleStrip } from "./kit/ModuleStrip";
+import { PathList } from "./kit/PathList";
 import { Tag } from "./kit/Tag";
 import { WeekBar } from "./kit/WeekBar";
 
@@ -26,28 +30,33 @@ export function nextAction(plan: TodayPlan, refuerzoPending = false): { href: st
   return { href: "#/ruta", label: "Ver la ruta" };
 }
 
-/** Referencia diaria: los minutos de estudio activo de hoy frente a los 15 de guía. No bloquea nada. */
+/** Referencia diaria: los minutos de estudio activo de hoy frente a los 15 de guía, en un anillo. No bloquea nada. */
 function DailyMinimum({ day }: { day: DayProgress }) {
   const total = totalSeconds(day.seconds ?? {});
   const mins = Math.floor(total / 60);
   const met = total >= DAILY_MIN_SECONDS;
   return (
-    <section className="daily" aria-label="Referencia diaria">
-      <div className="top"><span>{met ? `Hoy llevas ${mins} min` : `Hoy llevas ${mins} de ${DAILY_MIN_SECONDS / 60} min`}</span><small>referencia diaria</small></div>
-      <div className="bar" role="progressbar" aria-valuemin={0} aria-valuemax={DAILY_MIN_SECONDS / 60} aria-valuenow={Math.min(mins, DAILY_MIN_SECONDS / 60)} aria-label="Minutos de estudio de hoy"><i style={{ width: `${Math.min(100, (total / DAILY_MIN_SECONDS) * 100)}%` }} /></div>
-      <small>{met ? "Mínimo de hoy cumplido. Puedes seguir." : "Es solo una guía: el plan sigue aunque pases de 15 min."}</small>
-    </section>
+    <div className="dayrow" role="group" aria-label="Referencia diaria">
+      <DayRing seconds={total} goalSeconds={DAILY_MIN_SECONDS} />
+      <div className="t">
+        <b>{met ? `Hoy llevas ${mins} min` : `Hoy llevas ${mins} de ${DAILY_MIN_SECONDS / 60} min`}</b>
+        <small>{met ? "Mínimo de hoy cumplido. Puedes seguir." : "Es solo una guía: el plan sigue aunque pases de 15 min."}</small>
+      </div>
+    </div>
   );
 }
 
-export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, week }: { plan: TodayPlan; day: DayProgress; storeError?: string | null; firstTime?: boolean; streak?: Streak; blocks?: SessionBlock[]; week?: Seconds }) {
+/** `phrase`: un ejemplo real (frase de fuente abierta) de la cápsula de hoy, para abrir la pantalla con el italiano. */
+export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, week, phrase }: { plan: TodayPlan; day: DayProgress; storeError?: string | null; firstTime?: boolean; streak?: Streak; blocks?: SessionBlock[]; week?: Seconds; phrase?: ContrastData }) {
   const pending = plan.review.due + plan.review.newAvailable;
   const { unit, route } = plan;
   const refuerzoPending = !!blocks?.some((b) => b.href === "#/debiles" && !b.done);
   const action = nextAction(plan, refuerzoPending);
   const nothingToday = day.reviewsDone === 0 && plan.stepsToday === 0;
+  const moduleIndex = plan.place?.view.index ?? plan.module?.view.index;
+  const nowIndex = blocks ? blocks.findIndex((x) => !x.done) : -1;
   return (
-    <main className="today">
+    <main className="today" data-tone={moduleIndex === undefined ? undefined : toneOf(moduleIndex)}>
       <div className="top">
         <h1>Hoy</h1>
         {streak && streak.streak > 0 && (
@@ -64,10 +73,17 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, 
         </details>
       )}
       <div className="hero">
+        {moduleIndex !== undefined && <ModuleMotif index={moduleIndex} className="motif motif-bg" />}
         {unit ? (
           <>
             <div className="eyebrow">{plan.place ? `${plan.place.level} · Módulo ${plan.place.module} de ${plan.place.modules}${plan.place.capsule ? ` · Cápsula ${plan.place.capsule} de ${plan.place.capsules}` : ""}` : `${unit.view.unit.level} · Unidad ${unit.view.index + 1} de ${route.total}`}</div>
-            <div className="title" lang="it">{unit.view.unit.title}</div>
+            {phrase ? (
+              <>
+                <p className="phrase" lang="it" data-long={(phrase.before + phrase.changed + phrase.after).length > 26}>{phrase.before}<mark>{phrase.changed}</mark>{phrase.after}</p>
+                <p className="gloss">{phrase.es}</p>
+                <p className="unit-title">{unit.view.unit.title}</p>
+              </>
+            ) : <div className="title" lang="it">{unit.view.unit.title}</div>}
           </>
         ) : plan.module ? (
           <>
@@ -87,20 +103,12 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, 
           <div className="title">Completaste todas las unidades disponibles. <a href="#/ruta">Ver la ruta</a></div>
         )}
         {plan.place && <ModuleStrip view={plan.place.view} />}
-        {blocks && (
-          <ul className="blocks">
-            {blocks.map((b, i) => (
-              <li key={`${b.key}-${b.step ?? "r"}-${i}`} data-done={b.done} data-next={!b.done && blocks.findIndex((x) => !x.done) === i}>
-                <span className="mk" aria-hidden="true">{b.done ? "✓" : ""}</span>
-                <span className="t"><b>{b.label}</b>{b.subtitle && <small>{b.subtitle}</small>}<Tag strand={b.strand} /></span>
-                {b.done && <span className="sr">hecho</span>}
-              </li>
-            ))}
-          </ul>
-        )}
-        <p className="tally"><small>Hoy llevas {plural(plan.stepsToday, "paso", "pasos")} y {plural(day.reviewsDone, "repaso", "repasos")}.</small></p>
       </div>
       <DailyMinimum day={day} />
+      {blocks && (
+        <PathList items={blocks.map((b, i) => ({ key: `${b.key}-${b.step ?? "r"}-${i}`, label: b.label, subtitle: b.subtitle || undefined, state: b.done ? "done" : i === nowIndex ? "now" : "todo", tag: <Tag strand={b.strand} /> }))} />
+      )}
+      <p className="tally"><small>Hoy llevas {plural(plan.stepsToday, "paso", "pasos")} y {plural(day.reviewsDone, "repaso", "repasos")}.</small></p>
       {week && <WeekBar week={week} />}
       <div className="actions-bottom above-tabs">
         <a className="button primary block" href={action.href}>{action.href === "#/ruta" ? action.label : `${nothingToday ? "Empezar" : "Continuar"} · ${action.label}`}</a>

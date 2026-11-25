@@ -5,7 +5,9 @@ import { formatDuration, loadSamples } from "../state/timing";
 import { hitoId, milestoneOpen } from "../state/milestone";
 import { isPreview } from "../state/preview";
 import { MODULE_STEP_LABEL, moduleSummary, type ModuleView } from "../state/modules";
+import { ModuleMotif, toneOf } from "./kit/ModuleMotif";
 import { ModuleStrip } from "./kit/ModuleStrip";
+import { Stamp } from "./kit/Stamp";
 
 const ICON = { completed: "✓", current: "▶", locked: "🔒" } as const;
 
@@ -33,7 +35,8 @@ export function RouteScreen({ views, pack, hito, modules = [] }: { views: UnitVi
     if (m.state === "current") {
       const title = `${m.index + 1}. ${m.module.title}`;
       return (
-        <li key={m.module.id} className="mod-card" data-state="current">
+        <li key={m.module.id} className="mod-card" data-state="current" data-tone={toneOf(m.index)}>
+          <ModuleMotif index={m.index} className="motif motif-bg" />
           <a href={`#/modulo/${m.module.id}`}><strong>{title}</strong></a>
           <small>{m.module.can_do_es[0]}</small>
           <ModuleStrip view={m} />
@@ -43,7 +46,7 @@ export function RouteScreen({ views, pack, hito, modules = [] }: { views: UnitVi
     }
     return (
       <li key={m.module.id} className="mod-row" data-state={m.state}>
-        <span className="n" aria-hidden="true">{m.state === "completed" ? "✓" : m.index + 1}</span>
+        <Stamp index={m.index} earned={m.state === "completed"} size="sm" />
         <span className="label">
           {m.state === "locked" ? <strong>{m.module.title}</strong> : <a href={`#/modulo/${m.module.id}`}><strong>{m.module.title}</strong></a>}
           <small>{m.state === "completed" ? `Completado${m.byPlacement ? " (por la prueba de ubicación)" : ""}` : m.module.can_do_es[0]}</small>

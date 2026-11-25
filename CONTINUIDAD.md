@@ -2,6 +2,14 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-25 (18) — Salto de interfaz, etapas 0–2 (base, Hoy y Ruta)
+**Pedido del usuario:** una mejora fuerte de aspecto y experiencia («se ve simple, plana, ejercicios fríos, mucho texto, mala guía visual»), revisando mejores prácticas de apps de aprendizaje. Elegidos: evolución fuerte en versión «más atrevida» y sellos por módulo. Plan en `/Users/administrador/.claude/plans/a-ver-la-app-swirling-clover.md`; spec `docs/specs/2026-11-25-salto-ui.md`; maqueta aprobada `docs/specs/2026-11-25-salto-ui-maqueta.html`.
+**Hecho (etapas 0–2 de 6):** (0) maqueta y spec. (1) Base: seis tonos de módulo con `data-tone` (`--c`/`--cs`/`--ci`, claro y oscuro, contraste ≥ 4,5:1 probado), componentes `ModuleMotif` (12 dibujos de trazo), `Stamp`, `DayRing`, `PathList`, `EmptyState` en `web/src/ui/kit/`, y fundido entre pantallas con View Transitions (solo donde el navegador lo admite y sin «reducir movimiento»). (2) **Hoy:** cabecera a color con una frase real de la cápsula (ejemplo de Tatoeba con lo que cambia resaltado, de `contrastCards`), anillo de minutos y plan como camino; el botón principal toma el color del módulo. **Ruta:** el módulo en curso en tarjeta a color con su dibujo y los demás con su sello en gris.
+**Decisiones mías (a revisar):** el tono rota por posición del módulo (1→6, 7→1…); si la cápsula no tiene ejemplo, Hoy muestra el título como antes; los 12 dibujos son míos (simples); aún no hay letra de exhibición (usa la serif del sistema).
+**Comprobado:** web 1238 pruebas en verde, `tsc` limpio, build y precache ok (9,40 MB de 11); en el navegador a 375 px: Hoy y Ruta en claro y oscuro, y tonos distintos por módulo; sin errores de consola.
+**No comprobado:** iPhone real; 320 px; módulos completados con sello a color (la ruta real arrancó vacía; se verá al ganar un módulo); transición entre pantallas a ojo.
+**Pendiente / siguiente paso:** etapa 3 (ejercicio y corrección), 4 (cierre de sesión y sellos), 5 (módulo, ficha, Progreso, menos texto), 6 (accesibilidad y cierre). Falta decidir la letra de exhibición (Fraunces: verificar licencia OFL antes de descargar).
+
 ## 2026-11-24 (17) — Cupo de palabras nuevas que se ajusta solo
 **Pedido del usuario:** que el atraso de palabras (si completas unidades más rápido que el cupo) se solucione; elegida la opción «cupo adaptativo».
 **Hecho:** `newWordsCap` (`state/session.ts`): 12 palabras nuevas por día; si al empezar el día esperan más de 40 (se mide con las que esperan + las abiertas hoy, así el cupo no cambia mientras repasas), sube a 18 hasta vaciar la fila y vuelve a 12. Hoy lo explica: «hoy se abren hasta 18, porque tienes muchas esperando» (`TodayPlan.review.newWordsCap`).

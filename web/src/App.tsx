@@ -21,6 +21,7 @@ import { StepScreen } from "./ui/StepScreen";
 import { UnitScreen } from "./ui/UnitScreen";
 import { ReviewScreen } from "./ui/ReviewScreen";
 import { TodayScreen } from "./ui/TodayScreen";
+import { contrastCards } from "./ui/kit/ContrastCard";
 import { TabBar, isFocusRoute } from "./ui/kit/TabBar";
 import { useScrollTop } from "./ui/kit/useScrollTop";
 import { computeStreak } from "./state/streak";
@@ -80,7 +81,7 @@ function Today({ pack, store, storeError }: Ready) {
   if (!data) return <p>Cargando…</p>;
   const samples = loadSamples();
   const plan = planToday({ pack, cards: data.cards, day: data.day, now: new Date(), units: data.units, samples });
-  return <TodayScreen plan={plan} blocks={planSession({ plan, day: data.day, pack, samples, weak: weakSpots(data.days, pack.course, localDate(new Date())).spots })} day={data.day} storeError={storeError} firstTime={data.cards.length === 0 && data.units.length === 0 && data.day.reviewsDone === 0} streak={computeStreak(data.days, localDate(new Date()))} week={weekTotals(data.days, localDate(new Date()))} />;
+  return <TodayScreen plan={plan} blocks={planSession({ plan, day: data.day, pack, samples, weak: weakSpots(data.days, pack.course, localDate(new Date())).spots })} day={data.day} storeError={storeError} firstTime={data.cards.length === 0 && data.units.length === 0 && data.day.reviewsDone === 0} streak={computeStreak(data.days, localDate(new Date()))} week={weekTotals(data.days, localDate(new Date()))} phrase={plan.unit ? contrastCards(plan.unit.view.unit, pack, 1)[0] : undefined} />;
 }
 
 function Practice({ pack, store }: Ready) {

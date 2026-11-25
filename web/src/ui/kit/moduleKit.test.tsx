@@ -38,7 +38,8 @@ describe("sello", () => {
 describe("anillo del día", () => {
   it("dice los minutos en texto y no pasa del círculo completo", () => {
     const { container } = render(<DayRing seconds={9 * 60 + 20} goalSeconds={15 * 60} />);
-    expect(screen.getByRole("img").getAttribute("aria-label")).toBe("9 de 15 minutos de estudio hoy");
+    const bar = screen.getByRole("progressbar");
+    expect([bar.getAttribute("aria-valuenow"), bar.getAttribute("aria-valuemax")]).toEqual(["9", "15"]);
     const fg = container.querySelector(".dayring-fg")!;
     const [on, total] = fg.getAttribute("stroke-dasharray")!.split(" ").map(Number);
     expect(on / total).toBeCloseTo((9 * 60 + 20) / 900, 1);
