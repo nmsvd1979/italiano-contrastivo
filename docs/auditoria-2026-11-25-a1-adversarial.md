@@ -108,3 +108,9 @@ Con 1–4 hechos, A1 queda **listo como material**. Con 5, queda **listo para la
 - No la probé en un iPhone.
 - La calidad del italiano la juzgaron dos IA sobre una muestra de unas 70 frases. No hubo un nativo.
 - Las horas se calcularon con los tiempos a priori de `timing.ts` y `targets.ts`, no con uso real.
+
+## Qué quedó resuelto (2026-11-25, misma jornada)
+- **A1, resuelto:** las pruebas y reservas A1 ya no traen frases B1. Las A2 quedan solo en u58 y u67, donde la estructura enseñada está marcada A2. Hay pruebas automáticas que lo vigilan. Las frases absurdas que no detecta un filtro de temas se revisarán en la auditoría IA (A2 parte 2).
+- **A2 parte 1, resuelto:** el corrector acepta las traducciones alternativas de Tatoeba (286 frases).
+- **A3, resuelto:** el Cierre usa solo frases de reserva.
+- **Corrección a este informe:** el corrector ya toleraba el pronombre sujeto io/tu/noi/voi, así que los falsos negativos eran menos de lo que estimó el agente.
