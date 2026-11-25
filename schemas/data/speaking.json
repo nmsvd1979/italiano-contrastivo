@@ -1,6 +1,6 @@
 {
  "version": 1,
- "note": "Todo el italiano de esta pantalla viene de libros abiertos (los diálogos de las lecturas y las preguntas y el alfabeto de Piacere!): la app no escribe italiano propio. Las traducciones al español y las rúbricas son de la app (IA, sin revisar por un nativo).",
+ "note": "El italiano de los juegos de rol viene de los diálogos de las lecturas: de libros abiertos o escritos por la IA para esta app (marcados así en cada lectura). Las preguntas de las tareas orales y el alfabeto son de Piacere!; las preguntas por voz de los módulos sin tarea oral, de la IA. Las traducciones al español y las rúbricas son de la app (IA, sin revisar por un nativo).",
  "alphabet": {
   "source": {
    "book": "Piacere! Elementary Italian",
@@ -1012,6 +1012,263 @@
       "es": "Tiene un precio accesible."
      }
     ]
+   }
+  ]
+ },
+ "interview": {
+  "note": "Preguntas por voz (Salida de cada módulo): la app hace preguntas solo por audio, en orden al azar, y respondes sin guion. Las de las tareas orales vienen de Piacere! (se toman de «tasks»); las de los módulos sin tarea oral las escribió la IA (Claude) a pedido del usuario (2026-11-25), en italiano simple del nivel, sin revisión de un nativo.",
+  "questions": [
+   {
+    "id": "iq_m01_1",
+    "module": "m01",
+    "it": "Ciao! Come stai?",
+    "es": "¡Hola! ¿Cómo estás?",
+    "authored": true
+   },
+   {
+    "id": "iq_m01_2",
+    "module": "m01",
+    "it": "Buongiorno! Come sta?",
+    "es": "¡Buenos días! ¿Cómo está usted?",
+    "authored": true
+   },
+   {
+    "id": "iq_m01_3",
+    "module": "m01",
+    "it": "Lei come si chiama?",
+    "es": "¿Usted cómo se llama?",
+    "authored": true
+   },
+   {
+    "id": "iq_m01_4",
+    "module": "m01",
+    "it": "Sei italiano?",
+    "es": "¿Eres italiano?",
+    "authored": true
+   },
+   {
+    "id": "iq_m01_5",
+    "module": "m01",
+    "it": "Hai fame?",
+    "es": "¿Tienes hambre?",
+    "authored": true
+   },
+   {
+    "id": "iq_m01_6",
+    "module": "m01",
+    "it": "Sei stanco oggi?",
+    "es": "¿Estás cansado (o cansada) hoy?",
+    "authored": true
+   },
+   {
+    "id": "iq_m03_1",
+    "module": "m03",
+    "it": "Hai una penna?",
+    "es": "¿Tienes un bolígrafo?",
+    "authored": true
+   },
+   {
+    "id": "iq_m03_2",
+    "module": "m03",
+    "it": "Che lingue parli?",
+    "es": "¿Qué idiomas hablas?",
+    "authored": true
+   },
+   {
+    "id": "iq_m03_3",
+    "module": "m03",
+    "it": "Studi l'italiano a casa?",
+    "es": "¿Estudias italiano en casa?",
+    "authored": true
+   },
+   {
+    "id": "iq_m03_4",
+    "module": "m03",
+    "it": "Hai un dizionario?",
+    "es": "¿Tienes un diccionario?",
+    "authored": true
+   },
+   {
+    "id": "iq_m03_5",
+    "module": "m03",
+    "it": "Qual è il tuo colore preferito?",
+    "es": "¿Cuál es tu color favorito?",
+    "authored": true
+   },
+   {
+    "id": "iq_m03_6",
+    "module": "m03",
+    "it": "Come si dice «mesa» in italiano?",
+    "es": "¿Cómo se dice «mesa» en italiano?",
+    "authored": true
+   },
+   {
+    "id": "iq_m06_1",
+    "module": "m06",
+    "it": "Che cosa fai il fine settimana?",
+    "es": "¿Qué haces el fin de semana?",
+    "authored": true
+   },
+   {
+    "id": "iq_m06_2",
+    "module": "m06",
+    "it": "Vai spesso al cinema?",
+    "es": "¿Vas al cine a menudo?",
+    "authored": true
+   },
+   {
+    "id": "iq_m06_3",
+    "module": "m06",
+    "it": "Che sport fai?",
+    "es": "¿Qué deporte practicas?",
+    "authored": true
+   },
+   {
+    "id": "iq_m06_4",
+    "module": "m06",
+    "it": "Vuoi venire al cinema stasera?",
+    "es": "¿Quieres venir al cine esta noche?",
+    "authored": true
+   },
+   {
+    "id": "iq_m06_5",
+    "module": "m06",
+    "it": "Che cosa vuoi fare domani?",
+    "es": "¿Qué quieres hacer mañana?",
+    "authored": true
+   },
+   {
+    "id": "iq_m06_6",
+    "module": "m06",
+    "it": "Sei felice oggi? Perché?",
+    "es": "¿Estás feliz hoy? ¿Por qué?",
+    "authored": true
+   },
+   {
+    "id": "iq_m08_1",
+    "module": "m08",
+    "it": "Che cosa mangi a colazione?",
+    "es": "¿Qué comes en el desayuno?",
+    "authored": true
+   },
+   {
+    "id": "iq_m08_2",
+    "module": "m08",
+    "it": "Ti piace la pizza?",
+    "es": "¿Te gusta la pizza?",
+    "authored": true
+   },
+   {
+    "id": "iq_m08_3",
+    "module": "m08",
+    "it": "Che cosa prendi al bar?",
+    "es": "¿Qué pides en el bar?",
+    "authored": true
+   },
+   {
+    "id": "iq_m08_4",
+    "module": "m08",
+    "it": "Hai fame adesso?",
+    "es": "¿Tienes hambre ahora?",
+    "authored": true
+   },
+   {
+    "id": "iq_m08_5",
+    "module": "m08",
+    "it": "Qual è il tuo piatto preferito?",
+    "es": "¿Cuál es tu plato favorito?",
+    "authored": true
+   },
+   {
+    "id": "iq_m08_6",
+    "module": "m08",
+    "it": "Buongiorno! Cosa desidera?",
+    "es": "¡Buenos días! ¿Qué desea?",
+    "authored": true
+   },
+   {
+    "id": "iq_m09_1",
+    "module": "m09",
+    "it": "Che cosa porti oggi?",
+    "es": "¿Qué llevas puesto hoy?",
+    "authored": true
+   },
+   {
+    "id": "iq_m09_2",
+    "module": "m09",
+    "it": "Di che colore è la tua giacca?",
+    "es": "¿De qué color es tu chaqueta?",
+    "authored": true
+   },
+   {
+    "id": "iq_m09_3",
+    "module": "m09",
+    "it": "Quanto costa un caffè nel tuo paese?",
+    "es": "¿Cuánto cuesta un café en tu país?",
+    "authored": true
+   },
+   {
+    "id": "iq_m09_4",
+    "module": "m09",
+    "it": "Ti piace fare shopping?",
+    "es": "¿Te gusta ir de compras?",
+    "authored": true
+   },
+   {
+    "id": "iq_m09_5",
+    "module": "m09",
+    "it": "Vuoi venire al mercato con me?",
+    "es": "¿Quieres venir al mercado conmigo?",
+    "authored": true
+   },
+   {
+    "id": "iq_m09_6",
+    "module": "m09",
+    "it": "Preferisci pagare con la carta o in contanti?",
+    "es": "¿Prefieres pagar con tarjeta o en efectivo?",
+    "authored": true
+   },
+   {
+    "id": "iq_m12_1",
+    "module": "m12",
+    "it": "Qual è il tuo numero di telefono?",
+    "es": "¿Cuál es tu número de teléfono?",
+    "authored": true
+   },
+   {
+    "id": "iq_m12_2",
+    "module": "m12",
+    "it": "Hai un indirizzo e-mail?",
+    "es": "¿Tienes una dirección de correo electrónico?",
+    "authored": true
+   },
+   {
+    "id": "iq_m12_3",
+    "module": "m12",
+    "it": "Pronto! Chi parla?",
+    "es": "¿Hola? ¿Quién habla?",
+    "authored": true
+   },
+   {
+    "id": "iq_m12_4",
+    "module": "m12",
+    "it": "Scrivi molti messaggi?",
+    "es": "¿Escribes muchos mensajes?",
+    "authored": true
+   },
+   {
+    "id": "iq_m12_5",
+    "module": "m12",
+    "it": "Usi spesso il computer?",
+    "es": "¿Usas la computadora a menudo?",
+    "authored": true
+   },
+   {
+    "id": "iq_m12_6",
+    "module": "m12",
+    "it": "Dov'è l'ufficio postale nella tua città?",
+    "es": "¿Dónde está la oficina de correos en tu ciudad?",
+    "authored": true
    }
   ]
  }

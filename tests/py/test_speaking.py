@@ -54,3 +54,22 @@ def test_el_paquete_real_trae_audio_de_cada_pregunta_y_letra_y_los_dialogos_son_
     index = {r["id"] for r in json.loads((PACK / "../audio/index.json").read_text(encoding="utf8"))}
     texts = speaking.texts(sp)
     assert all(clip_id(t) in index for t in texts), "falta el audio de alguna pregunta o letra (python -m pipeline tts)"
+
+
+def test_preguntas_por_voz_del_paquete():
+    """Auditoría 2026-11-25: cada módulo A1 tiene al menos 4 preguntas por voz de su tema, con audio y sin variantes «A / B»."""
+    import json
+    from pathlib import Path
+    pack = Path(__file__).resolve().parents[2] / "web/public/content"
+    sp = json.loads((pack / "speaking.json").read_text(encoding="utf8"))
+    course = json.loads((pack / "course.json").read_text(encoding="utf8"))
+    audio = {e["id"] for e in json.loads((pack.parent / "audio/index.json").read_text(encoding="utf8"))}
+    bank = sp["interview"]["questions"]
+    assert len({q["it"] for q in bank}) == len(bank)
+    for m in course["modules"]:
+        if m["level"] == "A1":
+            mine = [q for q in bank if q["module"] == m["id"]]
+            assert len(mine) >= 4, m["id"]
+    for q in bank:
+        assert q["audio"] in audio and " / " not in q["it"], q["id"]
+        assert q.get("authored") or q.get("task"), q["id"]          # o es de la IA (declarado) o viene de una tarea del libro

@@ -57,9 +57,43 @@ def validate(doc: dict, readings: list[dict], unit_ids: set[str]) -> list[str]:
     return errs
 
 
+MIN_INTERVIEW = 4   # preguntas por voz mínimas de cada módulo A1 (de su tema; la ronda completa se llena con módulos anteriores)
+
+
+def interview_bank(doc: dict, course: dict) -> list[dict]:
+    """Preguntas por voz de cada módulo, en el orden de la ruta: las de sus tareas orales (Piacere!) y las escritas por la IA para los módulos
+    sin tarea. Se omiten las preguntas con variantes «A / B», que no se entienden bien solo al oído, y las repetidas."""
+    task_module = {t: m["id"] for m in course["modules"] for t in m["tasks"]}
+    authored = (doc.get("interview") or {}).get("questions", [])
+    out, seen = [], set()
+    for m in course["modules"]:
+        for t in doc["tasks"]:
+            if task_module.get(t["id"]) == m["id"]:
+                for i, q in enumerate(t["questions"]):
+                    if " / " not in q["it"] and q["it"] not in seen:
+                        out.append({"id": f"iq_{t['id']}_{i + 1}", "module": m["id"], "it": q["it"], "es": q["es"], "task": t["id"]})
+                        seen.add(q["it"])
+        for q in authored:
+            if q["module"] == m["id"] and q["it"] not in seen:
+                out.append(dict(q))
+                seen.add(q["it"])
+    for q in out:
+        q["audio"] = clip_id(q["it"])
+    return out
+
+
+def interview_errors(bank: list[dict], course: dict) -> list[str]:
+    counts = {m["id"]: 0 for m in course["modules"] if m["level"] == "A1"}
+    for q in bank:
+        if q["module"] in counts:
+            counts[q["module"]] += 1
+    return [f"{m}: solo {n} preguntas por voz (mínimo {MIN_INTERVIEW})" for m, n in counts.items() if n < MIN_INTERVIEW]
+
+
 def texts(doc: dict) -> list[str]:
     """Textos italianos que necesitan audio: preguntas de las tareas y nombres de las letras."""
-    return [q["it"] for t in doc["tasks"] for q in t["questions"]] + [x["name"] for x in doc["alphabet"]["letters"]] + [x["it"] for g in doc.get("phrases", {}).get("groups", []) for x in g["items"]]
+    return ([q["it"] for t in doc["tasks"] for q in t["questions"]] + [x["name"] for x in doc["alphabet"]["letters"]]
+            + [x["it"] for g in doc.get("phrases", {}).get("groups", []) for x in g["items"]] + [q["it"] for q in (doc.get("interview") or {}).get("questions", [])])
 
 
 def build_pack(pack_dir: Path) -> dict:
@@ -71,6 +105,8 @@ def build_pack(pack_dir: Path) -> dict:
     from pipeline.exercises.modules import validate_modules
     lib_file = pack_dir / "library.json"
     errs += validate_modules(course, readings, doc, json.loads(lib_file.read_text(encoding="utf8")) if lib_file.exists() else [])
+    bank = interview_bank(doc, course)
+    errs += interview_errors(bank, course)
     if errs:
         raise ValueError("Habla guiada inválida:\n" + "\n".join(errs))
     for t in doc["tasks"]:
@@ -84,5 +120,6 @@ def build_pack(pack_dir: Path) -> dict:
                 raise ValueError(f"Habla guiada inválida: el grupo de frases {g.get('id')} no tiene {k}")
         for x in g["items"]:
             x["audio"] = clip_id(x["it"])
+    doc["interview"] = {"note": doc.get("interview", {}).get("note", ""), "questions": bank}
     (pack_dir / "speaking.json").write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
     return doc
