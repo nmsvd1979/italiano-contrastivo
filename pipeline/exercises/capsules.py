@@ -2,7 +2,6 @@
 import glob
 import json
 import re
-import shutil
 from pathlib import Path
 
 import yaml
@@ -109,7 +108,10 @@ def build_pack(content_dir: Path, out_dir: Path) -> dict:
     lexemes = [{"id": f"lx_{e['form']}", "form": e["form"], "gloss_es": e["gloss_es"], "lexical_type": "false_friend", "source": e["source"],
                 "audio": clip_id(e["form"])}
                for e in sorted(fa, key=lambda e: e["form"])]
-    used_sentences = [{**{k: s[k] for k in SENTENCE_FIELDS if k in s}, "audio": clip_id(s["it"])} for s in sentences if s["id"] in used]
+    from pipeline.exercises import alternatives
+    alts = alternatives.load(content_dir)   # otras traducciones de Tatoeba: solo para aceptar respuestas al escribir
+    used_sentences = [{**{k: s[k] for k in SENTENCE_FIELDS if k in s}, "audio": clip_id(s["it"]),
+                       **({"alt": [a["it"] for a in alts[s["id"]]]} if s["id"] in alts else {})} for s in sentences if s["id"] in used]
 
     from pipeline.exercises.course import write_course  # import local: course.py usa usable_sentences de este módulo
     write_course(out_dir, sentences, catalog)
@@ -117,7 +119,8 @@ def build_pack(content_dir: Path, out_dir: Path) -> dict:
     _dump(out_dir / "items_by_code.json", items_by_code)
     _dump(out_dir / "lexemes.json", lexemes)
     _dump(out_dir / "sentences.json", used_sentences)
-    shutil.copyfile(content_dir / "ATTRIBUZIONI-tatoeba.md", out_dir / "ATTRIBUZIONI-tatoeba.md")
+    (out_dir / "ATTRIBUZIONI-tatoeba.md").write_text((content_dir / "ATTRIBUZIONI-tatoeba.md").read_text(encoding="utf8").rstrip("\n") + "\n"
+                                                    + alternatives.attribution(alts, used), encoding="utf8")
     manifest = {"capsules": [c["id"] for c in ordered], "codes": codes_info, "levels": export_manifest["levels"],
                 "reviewers": export_manifest["reviewers"], "sentences_used": len(used_sentences),
                 "translation_kind": {k: sum(1 for s in used_sentences if s.get("translation_kind") == k)

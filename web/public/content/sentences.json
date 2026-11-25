@@ -104,6 +104,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Parla dieci lingue."
+    ],
     "audio": "271000a80b7e",
     "author": "Tradukero",
     "cefr_estimate": "A1",
@@ -216,6 +219,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ritorno fra un'ora."
+    ],
     "audio": "a8b85e85499f",
     "author": "elgranjuego",
     "cefr_estimate": "A1",
@@ -482,6 +488,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lei non si veste mai di verde."
+    ],
     "audio": "8726f100c374",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -495,6 +504,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Cosa vuole fare?"
+    ],
     "audio": "db2c237f091a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1027,6 +1039,11 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non parlo spagnolo.",
+      "Non parlo lo spagnolo.",
+      "Io non parlo lo spagnolo."
+    ],
     "audio": "c96bbe8e6d74",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1396,6 +1413,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ho due libri."
+    ],
     "audio": "2c9b5d1ba0c4",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1771,6 +1791,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "L'uomo ha mangiato del pane."
+    ],
     "audio": "aae37834148d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1994,6 +2017,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "A lui piace il tè."
+    ],
     "audio": "30d61724ee55",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2294,6 +2320,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Si parla inglese a Singapore."
+    ],
     "audio": "9922870f92d6",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2346,6 +2375,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ha una foto.",
+      "Lei ha una fotografia."
+    ],
     "audio": "533e105f7bf7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2359,6 +2392,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ha una foto.",
+      "Lei ha una foto."
+    ],
     "audio": "42061cb59664",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2908,6 +2945,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "È il nostro professore di inglese."
+    ],
     "audio": "4556350c9aba",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3462,6 +3502,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Voglio una chitarra."
+    ],
     "audio": "e9c89cb1efbc",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3627,6 +3670,11 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "È molto impegnato ora.",
+      "Lui è molto impegnato ora.",
+      "Lui è molto impegnato adesso."
+    ],
     "audio": "4f7a76b8773a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3802,6 +3850,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Non sei uno studente."
+    ],
     "audio": "f0af3d19183b",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3929,6 +3980,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "C'è un autobus qua."
+    ],
     "audio": "356efd27e21f",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4028,6 +4082,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Sono un uomo libero."
+    ],
     "audio": "c93d73984c07",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4105,6 +4162,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lui non mi conosce."
+    ],
     "audio": "364c6bdc1e06",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4260,6 +4320,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non c'è nessuno nella stanza."
+    ],
     "audio": "ab36d119cdf4",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4273,6 +4336,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "È l'autore dell'articolo."
+    ],
     "audio": "77ff67106e9f",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4411,6 +4477,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Io non ho quattro sorelle."
+    ],
     "audio": "daadb4cc4d87",
     "author": "Shishir",
     "cefr_estimate": "A1",
@@ -4649,6 +4718,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Voglio andare a Seattle."
+    ],
     "audio": "ad47113de83c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4675,6 +4747,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non gli piace il caffè."
+    ],
     "audio": "2519024651ae",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4701,6 +4776,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Queste cose capitano solo a me."
+    ],
     "audio": "24b41b644b2e",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4841,6 +4919,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Ho tre cugini."
+    ],
     "audio": "3fe4f8da8197",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -5058,6 +5139,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Lei abita a Londra."
+    ],
     "audio": "fc58d8f3d824",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -5071,6 +5155,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lei vive a Londra."
+    ],
     "audio": "7972f76c5379",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -5374,6 +5461,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Lui abita in Marocco."
+    ],
     "audio": "3e7419ab4e85",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -5387,6 +5477,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lui vive in Marocco."
+    ],
     "audio": "ce4dab413580",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -5425,6 +5518,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Io ho paura delle tenebre."
+    ],
     "audio": "96ef76a1caab",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -5793,6 +5889,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Non sono un esperto."
+    ],
     "audio": "f9a962331028",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -5981,6 +6080,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Quel muro è molto freddo."
+    ],
     "audio": "d525cb2694e9",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -6235,6 +6337,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Ho un sogno."
+    ],
     "audio": "95e002a3e6a2",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -6853,6 +6958,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Come si chiama?"
+    ],
     "audio": "81ef89ba4fd3",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -6866,6 +6974,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Mi piace correre."
+    ],
     "audio": "82b0d416a8d7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -6943,6 +7054,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Possiamo solo insegnare."
+    ],
     "audio": "4dca902bdef6",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7019,6 +7133,11 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Voglio essere in grado di parlare inglese.",
+      "Io voglio essere in grado di parlare inglese.",
+      "Voglio poter parlare inglese."
+    ],
     "audio": "f5ee3b4ca821",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7032,6 +7151,11 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non parlo giapponese.",
+      "Io non parlo giapponese.",
+      "Io non parlo il giapponese."
+    ],
     "audio": "691e91f7ea01",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7084,6 +7208,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Sto mangiando frutta."
+    ],
     "audio": "0332b6b37bd8",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7123,6 +7250,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Mi piacciono le rose rosse."
+    ],
     "audio": "4e8ad7f71ca6",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7173,6 +7303,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ho un camion."
+    ],
     "audio": "6adeda6a2c19",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7186,6 +7319,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "È in ospedale."
+    ],
     "audio": "72b7047011db",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7290,6 +7426,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Vi piace l'inglese, vero?",
+      "Le piace l'inglese, vero?"
+    ],
     "audio": "768472f82b58",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7354,6 +7494,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ha talento nel cantare."
+    ],
     "audio": "c986cdc94df5",
     "author": "Shadd",
     "cefr_estimate": "A1",
@@ -7535,6 +7678,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Io ho bisogno di un traduttore."
+    ],
     "audio": "c1b87da12cc1",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7574,6 +7720,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Puoi venire alle 9?"
+    ],
     "audio": "b62b90bdc8c0",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7587,6 +7736,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lei è una persona molto strana."
+    ],
     "audio": "3508b42d3905",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7651,6 +7803,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Sono una scrittrice giapponese."
+    ],
     "audio": "d9474c450740",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7791,6 +7946,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Sono abbastanza stanco."
+    ],
     "audio": "e8273c7cdf42",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7852,6 +8010,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Mary suona il piano."
+    ],
     "audio": "f79d42992b35",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7889,6 +8050,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Oggi andiamo a ballare."
+    ],
     "audio": "c12f167628e3",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8030,6 +8194,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non ha paura."
+    ],
     "audio": "829eccd09897",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8056,6 +8223,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ho due occhi."
+    ],
     "audio": "eb8f0d0952bf",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8172,6 +8342,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "La piovra è nel mare."
+    ],
     "audio": "3d0063b9d25e",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8185,6 +8358,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Voglio abitare in Italia."
+    ],
     "audio": "689258a0905c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8338,6 +8514,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Io odio i suoi genitori."
+    ],
     "audio": "782541b8a3da",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8425,6 +8604,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non mi piace il caffè."
+    ],
     "audio": "396225817a8b",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8487,6 +8669,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "È una ragazza intelligente."
+    ],
     "audio": "2959dbe38d49",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8550,6 +8735,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Sono già pronto."
+    ],
     "audio": "50324b7d36b0",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8563,6 +8751,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Io non ti amo."
+    ],
     "audio": "0b1fdf06c01e",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8602,6 +8793,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Naturalmente io sto scherzando!",
+      "Certo che sto scherzando."
+    ],
     "audio": "b167e791e285",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8615,6 +8810,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Naturalmente sto scherzando!",
+      "Certo che sto scherzando."
+    ],
     "audio": "e3de9cd96950",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -8654,6 +8853,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "L'automobile è molto veloce.",
+      "La macchina è molto veloce."
+    ],
     "audio": "228a5c728299",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9056,6 +9259,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Siamo in una biblioteca."
+    ],
     "audio": "ec7362c39d01",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9094,6 +9300,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Io faccio sport quasi ogni giorno."
+    ],
     "audio": "61d88443ad5d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9107,6 +9316,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Faccio sport quasi ogni giorno."
+    ],
     "audio": "9138ee2cf8bb",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9258,6 +9470,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lei si alza sempre alle sei."
+    ],
     "audio": "ab100bed5813",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9271,6 +9486,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Si alza sempre alle sei."
+    ],
     "audio": "12ae68434564",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9322,6 +9540,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Io mi lavo i denti ogni mattina."
+    ],
     "audio": "8abee79a8e3c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9335,6 +9556,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non ho un cane."
+    ],
     "audio": "1f8cc6465c75",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9373,6 +9597,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "La sua teoria è difficile da capire.",
+      "La sua teoria è difficile da comprendere."
+    ],
     "audio": "bacc5dc8611e",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9386,6 +9614,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "È difficile capire la sua teoria."
+    ],
     "audio": "26b7e7fd1d0c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9515,6 +9746,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non ho paura."
+    ],
     "audio": "6d7912ed2cf8",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9528,6 +9762,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Leggo una lettera."
+    ],
     "audio": "2cbe36046f6e",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9541,6 +9778,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Sono le 3:30."
+    ],
     "audio": "6d536f8ef451",
     "author": "sixtynine",
     "cefr_estimate": "A1",
@@ -9604,6 +9844,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "È ovvio che lui ha ragione."
+    ],
     "audio": "821c7d5915e5",
     "author": "Shadd",
     "cefr_estimate": "A1",
@@ -9617,6 +9860,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Io voglio andare sulla luna."
+    ],
     "audio": "a04d04f16faa",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9630,6 +9876,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Voglio andare sulla luna."
+    ],
     "audio": "f308e39c58e7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9656,6 +9905,12 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Io mi sto sentendo meglio.",
+      "Va meglio.",
+      "Sto meglio.",
+      "Io sto meglio."
+    ],
     "audio": "3b4a31d52280",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9717,6 +9972,11 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Non ti posso promettere niente.",
+      "Io non ti posso promettere niente.",
+      "Io non ti posso promettere nulla."
+    ],
     "audio": "750d3b0865da",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9841,6 +10101,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Che cosa non ti piace?"
+    ],
     "audio": "e82f8bf0bea2",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9929,6 +10192,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Amo questo lavoro."
+    ],
     "audio": "a0d9ee02d602",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9942,6 +10208,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Io ho bisogno di un avvocato."
+    ],
     "audio": "5ad837ffb15a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9968,6 +10237,11 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "\"Amo viaggiare.\" \"Anche io.\"",
+      "\"Amo viaggiare.\" \"Anch'io.\"",
+      "\"A me piace viaggiare.\" \"Anche a me.\""
+    ],
     "audio": "4223ed9f5ef3",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -10007,6 +10281,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Io sto leggendo una lettera."
+    ],
     "audio": "69ded2170d44",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -10020,6 +10297,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Sto leggendo una lettera."
+    ],
     "audio": "41efd5efea05",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -10058,6 +10338,11 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Vive a Osaka.",
+      "Abita a Osaka.",
+      "Lui abita a Osaka."
+    ],
     "audio": "e61f666e0b13",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -10071,6 +10356,11 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Vive a Osaka.",
+      "Lui vive a Osaka.",
+      "Abita a Osaka."
+    ],
     "audio": "7c1c335c794f",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -10084,6 +10374,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Vive a Tokyo.",
+      "Lui abita a Tokyo."
+    ],
     "audio": "2c26c678484b",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -10474,6 +10768,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Il denaro è importante per me?"
+    ],
     "audio": "972b5e3d974e",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -10500,6 +10797,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Bob è mio amico."
+    ],
     "audio": "ba9f0913267b",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -10576,6 +10876,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Amo i viaggi."
+    ],
     "audio": "01d6bda0875e",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -10601,6 +10904,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "La tua casa è grande."
+    ],
     "audio": "0b4a651bc62d",
     "author": "sixtynine",
     "cefr_estimate": "A1",
@@ -10676,6 +10982,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Mi piace camminare nei boschi.",
+      "Mi piace passeggiare nei boschi."
+    ],
     "audio": "e68c35fc85ac",
     "author": "Sirio60",
     "cefr_estimate": "A1",
@@ -10763,6 +11073,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Io non ho fame."
+    ],
     "audio": "ca2116e9b330",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -10776,6 +11089,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non ho fame."
+    ],
     "audio": "1cd95351a0a6",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11148,6 +11464,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Però non voglio."
+    ],
     "audio": "4314e16f6d1d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11161,6 +11480,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ma non voglio."
+    ],
     "audio": "7888dd80aaae",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11251,6 +11573,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "L'inverno sta arrivando."
+    ],
     "audio": "03f0bd39d0af",
     "author": "zhou24",
     "cefr_estimate": "A1",
@@ -11301,6 +11626,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Il cielo è blu."
+    ],
     "audio": "e502eb894096",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11377,6 +11705,11 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "So che John è onesto.",
+      "Lo so che John è onesto.",
+      "Io lo so che John è onesto."
+    ],
     "audio": "2e8f5a706e71",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11524,6 +11857,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Mi piace l'arte."
+    ],
     "audio": "12562cd8804a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11576,6 +11912,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Gli italiani mangiano sempre spaghetti."
+    ],
     "audio": "825bb71c7574",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11689,6 +12028,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Perché non può venire?"
+    ],
     "audio": "014af2874aac",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11714,6 +12056,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Questo prodotto viene fabbricato in Italia."
+    ],
     "audio": "94aaab9a7ae2",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11813,6 +12158,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ha una bella voce."
+    ],
     "audio": "2f68b5a9b967",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -12085,6 +12433,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Hai molte amiche."
+    ],
     "audio": "c8835efbe017",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -12430,6 +12781,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Ho bisogno di più spazio."
+    ],
     "audio": "b60135dede99",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -12493,6 +12847,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Voglio il suo rispetto."
+    ],
     "audio": "cfd8b6cd6bbb",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -12506,6 +12863,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Amo il francese."
+    ],
     "audio": "e0b0bfa70997",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -12532,6 +12892,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Studio storia dell'arte."
+    ],
     "audio": "e2664c66e879",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -12657,6 +13020,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Tom è straniero."
+    ],
     "audio": "c63c23e5f84d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -12720,6 +13086,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Tom ha tre anni ora."
+    ],
     "audio": "4c43680f93de",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -12770,6 +13139,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Tom non ha abbastanza denaro."
+    ],
     "audio": "daa378256264",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -12822,6 +13194,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non è qui."
+    ],
     "audio": "eaa85328c202",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -12873,6 +13248,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "La musica è il linguaggio internazionale."
+    ],
     "audio": "361908d5db1c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13182,6 +13560,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Voglio ritornare in Spagna."
+    ],
     "audio": "4e07984cd0b7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13279,6 +13660,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Non parlo irlandese."
+    ],
     "audio": "c955f207b5ac",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13329,6 +13713,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Voglio della pizza!"
+    ],
     "audio": "7cd6d9c68838",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13367,6 +13754,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Loro hanno chiamato il loro cane Rex."
+    ],
     "audio": "cef5fa5c613d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13392,6 +13782,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Io non conosco i miei vicini."
+    ],
     "audio": "f642a82ab92e",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13417,6 +13810,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Sei un ragazzo intelligente."
+    ],
     "audio": "1867e332cc3a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13805,6 +14201,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Ha otto anni."
+    ],
     "audio": "db27417d3576",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13831,6 +14230,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Il prezzo della benzina sta aumentando.",
+      "Il prezzo della benzina sta crescendo."
+    ],
     "audio": "8dfa2b7eb3b3",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13844,6 +14247,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Il prezzo della benzina aumenta.",
+      "Il prezzo della benzina sta crescendo."
+    ],
     "audio": "a7af66b7f09a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13857,6 +14264,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Il prezzo della benzina aumenta.",
+      "Il prezzo della benzina sta aumentando."
+    ],
     "audio": "e753ed584e73",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13906,6 +14317,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Tom sa la verità."
+    ],
     "audio": "65b89c406a2d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -14019,6 +14433,11 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Non ci serve una scala.",
+      "A noi non serve una scala.",
+      "Noi non abbiamo bisogno di una scala."
+    ],
     "audio": "0b0cfb8bab33",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -14168,6 +14587,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Io voglio una risposta a quella domanda."
+    ],
     "audio": "3baa2d2aee8c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -14181,6 +14603,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Io non lo vedo da molto tempo."
+    ],
     "audio": "2e9b9e684539",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -14659,6 +15084,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "La mia casa è vicina al mare."
+    ],
     "audio": "4eb99e8d5ec5",
     "author": "alexmarcelo",
     "cefr_estimate": "A1",
@@ -14672,6 +15100,11 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ha pochi soldi.",
+      "Ha poco denaro.",
+      "Lui ha poco denaro."
+    ],
     "audio": "65fdf9dcc6ec",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -15142,6 +15575,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "A me piace la loro casa."
+    ],
     "audio": "3e0351628b81",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -15155,6 +15591,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non voglio il tuo aiuto."
+    ],
     "audio": "13222f303dd9",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -15501,6 +15940,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ho molti libri."
+    ],
     "audio": "9f8ba3ccc6f0",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -16178,6 +16620,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Ha una macchina giapponese."
+    ],
     "audio": "e694e335b341",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -16403,6 +16848,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Mi piacciono gli orologi."
+    ],
     "audio": "fe29ae1e3194",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -16453,6 +16901,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Io sono d'accordo."
+    ],
     "audio": "e5182df40d3d",
     "author": "axcutul",
     "cefr_estimate": "A1",
@@ -16736,6 +17187,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Non devo niente a nessuno."
+    ],
     "audio": "9e9ae2562690",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -16786,6 +17240,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lui ha molti amici negli Stati Uniti."
+    ],
     "audio": "297afc2f682f",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -16873,6 +17330,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lo conosco da un anno."
+    ],
     "audio": "7f391bf50e19",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -16985,6 +17445,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Mi piace parlare con lei."
+    ],
     "audio": "b7a284ad998d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -17048,6 +17511,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "A noi piacciono i fagioli."
+    ],
     "audio": "5a2af6ca8f3a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -17337,6 +17803,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "A me non piacciono i bambini viziati."
+    ],
     "audio": "2a24810a7337",
     "author": "martin",
     "cefr_estimate": "A1",
@@ -17465,6 +17934,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Voglio vivere una vita felice."
+    ],
     "audio": "b399be47b04d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -17843,6 +18315,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Ho una mela."
+    ],
     "audio": "04895aad95e3",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -18018,6 +18493,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Che cosa c'è nella scatola?",
+      "Che c'è nella scatola?"
+    ],
     "audio": "b3835ae58c90",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -18031,6 +18510,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Cosa c'è nella scatola?",
+      "Che c'è nella scatola?"
+    ],
     "audio": "d72cfad87bdc",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -18044,6 +18527,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Cosa c'è nella scatola?",
+      "Che cosa c'è nella scatola?"
+    ],
     "audio": "f3376f0319a9",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -18118,6 +18605,11 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Io non voglio studiare tedesco.",
+      "Non voglio studiare il tedesco.",
+      "Io non voglio studiare il tedesco."
+    ],
     "audio": "afc8bfcbdd24",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -18131,6 +18623,11 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non voglio studiare tedesco.",
+      "Io non voglio studiare tedesco.",
+      "Non voglio studiare il tedesco."
+    ],
     "audio": "bcda62895154",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -18746,6 +19243,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non ho molto denaro.",
+      "Io non ho molto denaro."
+    ],
     "audio": "acee7e6ed917",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -18810,6 +19311,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Quando è il tuo compleanno?"
+    ],
     "audio": "6b2c1ba395b5",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -18950,6 +19454,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Io sono di Tokyo."
+    ],
     "audio": "85e3be92b1e2",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -19126,6 +19633,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Ho 19 anni."
+    ],
     "audio": "d5bbf664fe18",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -19139,6 +19649,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ho 18 anni."
+    ],
     "audio": "a86728e38567",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -19204,6 +19717,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Mi piace fare foto."
+    ],
     "audio": "0b465aaf05a0",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -19308,6 +19824,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lei è sempre molto educata."
+    ],
     "audio": "75cb1b8d8e61",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -19334,6 +19853,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Mi ha accompagnato all'ospedale."
+    ],
     "audio": "e5b1e9e4d011",
     "author": "martin",
     "cefr_estimate": "A1",
@@ -19489,6 +20011,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "I miei genitori sono vecchi."
+    ],
     "audio": "149f12d441ea",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -19666,6 +20191,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "A me piacciono le rose rosse."
+    ],
     "audio": "d27014e2f1f1",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -19805,6 +20333,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Maria capisce il cinese."
+    ],
     "audio": "64498300a1f5",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -20012,6 +20543,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Chiamate la polizia!"
+    ],
     "audio": "8e273fced7ec",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -20142,6 +20676,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Parlo molto velocemente."
+    ],
     "audio": "31e7a04c263b",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -20521,6 +21058,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Tom sta mungendo la vacca."
+    ],
     "audio": "a0be6eb550a4",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -20534,6 +21074,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Affronta la vita sorridendo!"
+    ],
     "audio": "bec99cccb384",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -20560,6 +21103,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Una vacca ha la coda lunga."
+    ],
     "audio": "ffa2e7e3576f",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -20573,6 +21119,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Una mucca ha la coda lunga."
+    ],
     "audio": "9cd6bbec3b65",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -20599,6 +21148,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Il cielo è azzurro."
+    ],
     "audio": "fdc1fc60d595",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -20675,6 +21227,11 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "A me piace parlare di amore.",
+      "Mi piace parlare d'amore.",
+      "A me piace parlare d'amore."
+    ],
     "audio": "9099b2290f47",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -20790,6 +21347,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "È un'ombra."
+    ],
     "audio": "bc96d84401ce",
     "author": "valealb",
     "cefr_estimate": "A1",
@@ -20893,6 +21453,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non è lontana da Parigi."
+    ],
     "audio": "8006e66dc6a4",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -21047,6 +21610,10 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Mi fa male lo stomaco.",
+      "Ho mal di stomaco."
+    ],
     "audio": "64efc0cb9d33",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -21388,6 +21955,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Posso aiutare Tom."
+    ],
     "audio": "9b1517064438",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -21702,6 +22272,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lui è inglese ma vive in India."
+    ],
     "audio": "30e946efda6d",
     "author": "valealb",
     "cefr_estimate": "A1",
@@ -21752,6 +22325,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "È una ragazza."
+    ],
     "audio": "2dd6a5fbe086",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -21879,6 +22455,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Tom non sa ancora niente."
+    ],
     "audio": "cfc82b638a59",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -21904,6 +22483,11 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Mi piace parlare di amore.",
+      "A me piace parlare di amore.",
+      "Mi piace parlare d'amore."
+    ],
     "audio": "1d1d3ca86f2c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -22116,6 +22700,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Io devo lavare i piatti."
+    ],
     "audio": "696bd23396fe",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -22331,6 +22918,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "È perché sei una ragazza."
+    ],
     "audio": "214aaa84377b",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -22368,6 +22958,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Non c'è alcun errore."
+    ],
     "audio": "60a0f7f00be1",
     "author": "bailujia",
     "cefr_estimate": "A1",
@@ -22406,6 +22999,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Viviamo in una società democratica."
+    ],
     "audio": "243921f3202d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -22804,6 +23400,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Ho mal di testa."
+    ],
     "audio": "22f98091a54e",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -23031,6 +23630,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Amo gli animali."
+    ],
     "audio": "fcbee2b3e177",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -23057,6 +23659,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "New York è una città enorme."
+    ],
     "audio": "0c92182c9473",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -23070,6 +23675,12 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Mi sto sentendo meglio.",
+      "Io mi sto sentendo meglio.",
+      "Va meglio.",
+      "Sto meglio."
+    ],
     "audio": "142ac3575c34",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -24196,6 +24807,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Il mio amico studia il coreano."
+    ],
     "audio": "fd8e41a2c98e",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -24285,6 +24899,12 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Faccio degli incubi.",
+      "Io faccio degli incubi.",
+      "Faccio gli incubi.",
+      "Ho degli incubi."
+    ],
     "audio": "197f02027ee9",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -24976,6 +25596,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Lui è orgoglioso e arrogante."
+    ],
     "audio": "3372aa956cf7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -25266,6 +25889,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Tom vuole del denaro."
+    ],
     "audio": "c9704bf9de77",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -25845,6 +26471,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Dico sempre la verità."
+    ],
     "audio": "f85ae8e35497",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -26043,6 +26672,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Naturalmente sto scherzando!",
+      "Naturalmente io sto scherzando!"
+    ],
     "audio": "76c4c95008df",
     "author": "dnnywld",
     "cefr_estimate": "A1",
@@ -26451,6 +27084,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Deve essere un ristorante molto caro!"
+    ],
     "audio": "986339b9d308",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -26816,6 +27452,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Mi posso sedere accanto a lei?"
+    ],
     "audio": "dc1d61ad40b2",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -26915,6 +27554,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Io ho una barca."
+    ],
     "audio": "adb9d45d09bb",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -27028,6 +27670,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Io non sono un adolescente."
+    ],
     "audio": "f503f2fd50c4",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -27673,6 +28318,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Abito con Tom."
+    ],
     "audio": "3c75de12bce4",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -27800,6 +28448,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "La donna parla lo spagnolo."
+    ],
     "audio": "97ce677c5c5e",
     "author": "Cero",
     "cefr_estimate": "A1",
@@ -28168,6 +28819,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Questo è il nostro obbiettivo principale."
+    ],
     "audio": "9ae73accc9d6",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -28692,6 +29346,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Io ho uno zio ricco."
+    ],
     "audio": "890c0b87bcdd",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -28705,6 +29362,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ho uno zio ricco."
+    ],
     "audio": "53fc2b397b0d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -28766,6 +29426,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Io vengo dall'Italia e parlo italiano."
+    ],
     "audio": "86a5f558fbc8",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -29145,6 +29808,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non le piace il calcio."
+    ],
     "audio": "249c25d918d9",
     "author": "rado",
     "cefr_estimate": "A1",
@@ -29171,6 +29837,11 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Sei un uomo ora.",
+      "Tu sei un uomo ora.",
+      "Sei un uomo adesso."
+    ],
     "audio": "1fcab59b0792",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -29384,6 +30055,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Io amo i viaggi."
+    ],
     "audio": "af1d6bf18459",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -29397,6 +30071,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lei sta mangiando spaghetti."
+    ],
     "audio": "422007ff5f43",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -29410,6 +30087,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lei sta mangiando degli spaghetti."
+    ],
     "audio": "74acc7c563a8",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -29461,6 +30141,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Sei già mia moglie!"
+    ],
     "audio": "1d328bd3c698",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -29775,6 +30458,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Mancano due pagine a questo libro."
+    ],
     "audio": "c5d4f7b77ff2",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -29814,6 +30500,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lui è un ragazzo alto."
+    ],
     "audio": "31d27b258246",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -29827,6 +30516,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "È un ragazzo alto."
+    ],
     "audio": "ddc0a0158723",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -29853,6 +30545,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Preferisco storia a geografia."
+    ],
     "audio": "6b221445b9a8",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -30046,6 +30741,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Gli italiani mangiano sempre degli spaghetti."
+    ],
     "audio": "468037db6b97",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -30123,6 +30821,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Legge l'arabo."
+    ],
     "audio": "f3c769d79701",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -30175,6 +30876,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Quella bici non è sua."
+    ],
     "audio": "1e593dfbacf4",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -30278,6 +30982,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Questa è una biro."
+    ],
     "audio": "c158e4a2eda5",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -30291,6 +30998,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Cosa non ti piace?"
+    ],
     "audio": "78610dc15ffc",
     "author": "DeSha",
     "cefr_estimate": "A1",
@@ -30317,6 +31027,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "La mia casa è vicina alla chiesa."
+    ],
     "audio": "15ae8fb3a9cb",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -30367,6 +31080,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Le lezioni cominciano lunedì."
+    ],
     "audio": "0899d6cb3738",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -30443,6 +31159,10 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Ho bisogno di una cartina.",
+      "Ho bisogno di una mappa."
+    ],
     "audio": "7715c4f73990",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -30456,6 +31176,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ho bisogno di una cartina.",
+      "Ho bisogno di una piantina."
+    ],
     "audio": "b92731636f91",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -30495,6 +31219,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "A me piace fare foto."
+    ],
     "audio": "b240993c15b1",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -30663,6 +31390,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "È un poeta."
+    ],
     "audio": "2192b97f2e3a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -30741,6 +31471,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non ho soldi, però ho dei sogni.",
+      "Non ho denaro, però ho dei sogni."
+    ],
     "audio": "973fee3825e5",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -31035,6 +31769,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Io non ho piani per stasera."
+    ],
     "audio": "9ff6c48b41be",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -31442,6 +32179,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lui ha paura della morte."
+    ],
     "audio": "962aee069b0a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -31507,6 +32247,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ho bisogno di più caffeina."
+    ],
     "audio": "e8fcda640869",
     "author": "Ricardo14",
     "cefr_estimate": "A1",
@@ -31659,6 +32402,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "A lei non piace il calcio."
+    ],
     "audio": "1085d6ac5d30",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -31783,6 +32529,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "C'è ancora molto da fare."
+    ],
     "audio": "0db490474333",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -31808,6 +32557,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Vengo dal Giappone."
+    ],
     "audio": "16107069e03b",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -31881,6 +32633,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Spera di visitare Parigi."
+    ],
     "audio": "0a4e215557b1",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -32008,6 +32763,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Sei Mary?"
+    ],
     "audio": "1d1860f58aa9",
     "author": "Luiaard",
     "cefr_estimate": "A1",
@@ -32335,6 +33093,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lei è la sposa di Alain."
+    ],
     "audio": "6d136d6be125",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -32752,6 +33513,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non sia ridicolo!"
+    ],
     "audio": "bbd49fa2f115",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -33144,6 +33908,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "A me piacciono gli orologi."
+    ],
     "audio": "eb446033fcd7",
     "author": "riccioberto",
     "cefr_estimate": "A1",
@@ -33311,6 +34078,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non leggo libri."
+    ],
     "audio": "e94fc483d873",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -33324,6 +34094,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Tom ama studiare la musica."
+    ],
     "audio": "e1f8c764a5f9",
     "author": "Cero",
     "cefr_estimate": "A1",
@@ -33571,6 +34344,11 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Siamo veramente molto buone.",
+      "Siamo davvero molto brave.",
+      "Siamo veramente molto brave."
+    ],
     "audio": "11d97316b608",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -33610,6 +34388,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "È uno storico."
+    ],
     "audio": "dba08e2967e3",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -33815,6 +34596,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Abitano in una casa affittata."
+    ],
     "audio": "49c6af490152",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -33828,6 +34612,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Loro abitano in una casa affittata."
+    ],
     "audio": "b0d95878105f",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -33841,6 +34628,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Loro vivono in una casa affittata."
+    ],
     "audio": "0c348743d379",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -34083,6 +34873,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non si veste mai di verde."
+    ],
     "audio": "f4634e679ce7",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -34146,6 +34939,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Non posso respirare dal naso."
+    ],
     "audio": "57933ee7fb77",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -34690,6 +35486,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Sono le nove e un quarto di mattina."
+    ],
     "audio": "2e4114a19593",
     "author": "glossboss",
     "cefr_estimate": "A2",
@@ -34740,6 +35539,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ieri nel bosco abbiamo visto un grosso lupo."
+    ],
     "audio": "6f64e7e44797",
     "author": "Adelpa",
     "cefr_estimate": "A2",
@@ -35424,6 +36226,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Io vorrei un tavolo vicino alla finestra."
+    ],
     "audio": "4a8861c22a24",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35437,6 +36242,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Vorrei un tavolo vicino alla finestra."
+    ],
     "audio": "1f204cfdbd46",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35462,6 +36270,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Non è più forte di me."
+    ],
     "audio": "ac332af1df00",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35514,6 +36325,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Sono le nove e un quarto del mattino."
+    ],
     "audio": "a21f0d885715",
     "author": "alexmarcelo",
     "cefr_estimate": "A2",
@@ -35564,6 +36378,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "C'è un McDonald's da queste parti?"
+    ],
     "audio": "92af3f4e6eca",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35602,6 +36419,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Mi lavo i denti ogni mattina."
+    ],
     "audio": "dc10f79b5b92",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35641,6 +36461,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Anche i tedeschi hanno il senso dell'umorismo."
+    ],
     "audio": "c5b72105f017",
     "author": "al_ex_an_der",
     "cefr_estimate": "A2",
@@ -35716,6 +36539,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Tom si preoccupa molto per il denaro."
+    ],
     "audio": "7b4c0152e615",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35729,6 +36555,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Tom si preoccupa molto per i soldi."
+    ],
     "audio": "0dccd4b81a21",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35866,6 +36695,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Adesso che sei in Italia, devi vedere Napoli."
+    ],
     "audio": "9feabb49803e",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35905,6 +36737,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lei ha evitato di rispondere alle mie domande."
+    ],
     "audio": "c28edefe599c",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35970,6 +36805,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "C'è un piccolo giardino davanti a casa mia."
+    ],
     "audio": "65d99c405ed8",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35983,6 +36821,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "C'è un piccolo giardino davanti alla mia casa."
+    ],
     "audio": "cd5775dd47ce",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36046,6 +36887,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Lei ha mostrato i suoi talenti."
+    ],
     "audio": "bf6b014f325b",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36059,6 +36903,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ha mostrato i suoi talenti."
+    ],
     "audio": "bc5cca70e6c7",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36147,6 +36994,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Non andare nella mia camera."
+    ],
     "audio": "1f7e32f84a68",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36343,6 +37193,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Si può dire che lui è morto felice."
+    ],
     "audio": "63d306fba933",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36393,6 +37246,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Vorrei essere giovane."
+    ],
     "audio": "d4ad23fc5188",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36631,6 +37487,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Ci piacciono i fagioli."
+    ],
     "audio": "7473bfa5daa8",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36669,6 +37528,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lui è arrivato prima del solito."
+    ],
     "audio": "ee7cd507b3ba",
     "author": "martin",
     "cefr_estimate": "A2",
@@ -36872,6 +37734,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Non parlare in questo modo."
+    ],
     "audio": "8f8985eb94df",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -36973,6 +37838,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Vorrei studiare a Parigi."
+    ],
     "audio": "d0f287ebe91f",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36986,6 +37854,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Vorrei studiare a Parigi."
+    ],
     "audio": "aba733b1654a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -37330,6 +38201,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Io vorrei avere un altro po' d'acqua."
+    ],
     "audio": "905d9907a343",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -37788,6 +38662,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Sono andata in libreria."
+    ],
     "audio": "b4430df469dd",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -37878,6 +38755,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Noi siamo diventati tutti comunisti."
+    ],
     "audio": "3fb91d0fff43",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -38279,6 +39159,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Dovete togliervi le scarpe prima di entrare nella stanza."
+    ],
     "audio": "3ef13b0172c3",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38525,6 +39408,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Sai qual è la differenza tra argento e stagno?"
+    ],
     "audio": "2a21df6d03ba",
     "author": "Heracleum",
     "cefr_estimate": "A2",
@@ -38667,6 +39553,11 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "C'è una biro tra la mela e il libro.",
+      "C'è una penna fra la mela e il libro.",
+      "C'è una penna tra la mela e il libro."
+    ],
     "audio": "1497e5dbe9ad",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38680,6 +39571,11 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "C'è una biro tra la mela e il libro.",
+      "C'è una biro fra la mela e il libro.",
+      "C'è una penna fra la mela e il libro."
+    ],
     "audio": "94a2db70e66e",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38719,6 +39615,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Siamo nate nello stesso anno."
+    ],
     "audio": "4738c85641d6",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38732,6 +39631,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Siamo nati nello stesso anno."
+    ],
     "audio": "2652e4dfa383",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38861,6 +39763,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Siamo andate al centro commerciale ieri."
+    ],
     "audio": "369b212117f7",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38874,6 +39779,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Siamo andati al centro commerciale ieri."
+    ],
     "audio": "20d63c946977",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38964,6 +39872,10 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "È arrivato prima del solito.",
+      "Lui è arrivato prima del solito."
+    ],
     "audio": "022d9d30052b",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -39079,6 +39991,9 @@
     "translation_kind": "direct"
   },
   {
+    "alt": [
+      "Lei mi ha parlato in spagnolo."
+    ],
     "audio": "ad3573262b1e",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -39786,6 +40701,9 @@
     "translation_kind": "llm"
   },
   {
+    "alt": [
+      "Questa è la mia amica Rachel. Siamo andate alle superiori assieme."
+    ],
     "audio": "9248feb06a21",
     "author": "Guybrush88",
     "cefr_estimate": "B1",

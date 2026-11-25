@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { gradeWrite } from "./write";
+import { gradeWrite, writeItemOf } from "./write";
 
 const OK = ["Io ho fame."];
 describe("gradeWrite", () => {
@@ -43,5 +43,14 @@ describe("gradeWord (repaso español → italiano)", () => {
     expect(gradeWord("il pane", "latte", "il").rating).toBe(1);
     expect(gradeWord("Alto", "alto").rating).toBe(3);
     expect(gradeWord("il alto", "alto").rating).toBe(1);
+  });
+});
+
+describe("writeItemOf: traducciones alternativas de Tatoeba", () => {
+  it("acepta la traducción guardada y las alternativas, que van después", () => {
+    const item = writeItemOf({ id: "s_1", it: "Vorrei studiare a Parigi.", es: "Me gustaría estudiar en París.", cefr_estimate: "A1", alt: ["Mi piacerebbe studiare a Parigi."] });
+    expect(item.accepted_it).toEqual(["Vorrei studiare a Parigi.", "Mi piacerebbe studiare a Parigi."]);
+    expect(gradeWrite("Mi piacerebbe studiare a Parigi", item.accepted_it).result).toBe("ok");
+    expect(writeItemOf({ id: "s_2", it: "Ciao.", es: "Hola.", cefr_estimate: "A1" }).accepted_it).toEqual(["Ciao."]);
   });
 });

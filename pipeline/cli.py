@@ -8,7 +8,7 @@ from pipeline import cefr, config, export, filters, ingest, nlp, pivot, promote,
 from pipeline.db import store
 from pipeline.tagging import engine
 
-STAGES = ["ingest", "pivot", "filter", "annotate", "tag", "promote", "all", "review", "export", "report", "capsules", "readings", "tts"]
+STAGES = ["ingest", "pivot", "filter", "annotate", "tag", "promote", "all", "review", "export", "report", "alternatives", "capsules", "readings", "tts"]
 
 
 def _ok_candidates(con):
@@ -140,6 +140,11 @@ def main(argv: list[str] | None = None) -> int:
             elif st == "export":
                 m = export.export(store.connect(args.authoring_db), args.out_dir)
                 report(st, {**{f"nivel {k}": v for k, v in m["levels"].items()}, "excluidas sin atribución": len(m["excluded_missing_attribution"])})
+            elif st == "alternatives":
+                from pipeline.exercises import alternatives
+
+                alts = alternatives.build(args.raw_dir, args.out_dir)
+                print(f"  oraciones con traducción alternativa: {len(alts)}, alternativas: {sum(len(v) for v in alts.values())}")
             elif st == "capsules":
                 from pipeline.exercises import capsules
 
