@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Maqueta del salto de interfaz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&display=swap" rel="stylesheet">
+<style>
+/* Maqueta ESTÁTICA (no es la app). Contenido real del módulo 1 y 2; el italiano sale de frases ya verificadas en la app.
+   Tipografía de exhibición candidata: Fraunces (OFL, por verificar). Sin ella cae a la serif del sistema. */
+:root{
+  --bg:#fbf7f0;--ink:#2b2a27;--muted:#6f695f;--card:#fff;--line:#e2dacb;--fill:#f3ede2;
+  --ok:#2d6a4f;--ok-bg:#ddefe4;--bad:#b23a48;--bad-bg:#fbe3e1;--mark:#f5c4b3;
+  --stage:#e9e3d6;
+  --serif:"Fraunces",ui-serif,"New York",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;
+  /* seis tonos de módulo: fuerte / tinte / tinta */
+  --t1:#c8553d;--t1s:#f6e1d9;--t1i:#4a1b0c;
+  --t2:#b07a14;--t2s:#f6e8c8;--t2i:#4a3208;
+  --t3:#5f7a3a;--t3s:#e4ebd2;--t3i:#26340f;
+  --t4:#2a73bb;--t4s:#dbe9f6;--t4i:#0f2f52;
+  --t5:#8e2f4a;--t5s:#f1dbe2;--t5i:#4a1226;
+  --t6:#b0627e;--t6s:#f6e3ea;--t6i:#5a2539;
+}
+:root[data-theme="dark"]{
+  --bg:#1a1815;--ink:#f1ede4;--muted:#aaa294;--card:#25221e;--line:#3a352e;--fill:#2e2a25;
+  --ok:#74c69d;--ok-bg:#1f3a2c;--bad:#ff8f9c;--bad-bg:#3c2024;--mark:#6b3a2c;--stage:#0f0e0c;
+  --t1:#e07a5f;--t1s:#3a2822;--t1i:#f6d9cf;
+  --t2:#e0a84f;--t2s:#3a2f17;--t2i:#f5e2b8;
+  --t3:#9cc16b;--t3s:#2a3219;--t3i:#dbe8c0;
+  --t4:#6fb0ea;--t4s:#1b2c3d;--t4i:#cfe3f6;
+  --t5:#e07a96;--t5s:#3a1d27;--t5i:#f3cfd9;
+  --t6:#e39ab3;--t6s:#3a2530;--t6i:#f5d6e0;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--stage);color:var(--ink);font:15px/1.4 var(--sans);padding:24px 16px 64px}
+.bar{max-width:1280px;margin:0 auto 20px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.bar h1{font-size:20px;margin:0;flex:1;min-width:220px}
+.bar button{font:inherit;padding:8px 14px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.grid{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(375px,1fr));gap:28px;justify-items:center}
+figure{margin:0}
+figcaption{margin:10px 4px 0;font-size:13px;color:var(--muted);max-width:375px}
+.phone{width:375px;min-height:760px;background:var(--bg);border-radius:36px;border:8px solid #2b2a27;overflow:hidden;position:relative;display:flex;flex-direction:column}
+.scroll{flex:1;overflow:hidden;padding:48px 20px 16px;display:flex;flex-direction:column;gap:12px}
+.scroll>*{flex-shrink:0}
+.it{font-family:var(--serif)}
+.mu{color:var(--muted)}
+small{font-size:13px}
+/* barra de pestañas */
+.tabs{height:62px;border-top:1px solid var(--line);display:flex;background:var(--card);flex:none}
+.tabs div{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:11px;color:var(--muted)}
+.tabs div.on{color:var(--t1);font-weight:650}
+.tabs svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.cta{background:var(--t1);color:#fff;border-radius:16px;min-height:54px;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:16px}
+:root[data-theme="dark"] .cta{color:#1a1815}
+.dock{padding:10px 20px 12px;background:var(--bg);flex:none}
+.m1{--c:var(--t1);--cs:var(--t1s);--ci:var(--t1i)}
+.m2{--c:var(--t2);--cs:var(--t2s);--ci:var(--t2i)}
+.m3{--c:var(--t3);--cs:var(--t3s);--ci:var(--t3i)}
+.m4{--c:var(--t4);--cs:var(--t4s);--ci:var(--t4i)}
+.m5{--c:var(--t5);--cs:var(--t5s);--ci:var(--t5i)}
+.m6{--c:var(--t6);--cs:var(--t6s);--ci:var(--t6i)}
+.motif{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* 1 · Hoy */
+.top{display:flex;justify-content:space-between;align-items:center}
+.top h2{margin:0;font-size:30px;letter-spacing:-.02em}
+.chip{display:inline-flex;gap:6px;align-items:center;background:var(--cs);color:var(--ci);padding:6px 12px;border-radius:99px;font-size:13px;font-weight:600}
+.hero{background:var(--cs);color:var(--ci);border-radius:24px;padding:20px 20px 18px;position:relative;overflow:hidden}
+.hero .motif-bg{position:absolute;right:-14px;top:-10px;width:130px;height:130px;color:var(--c);opacity:.22}
+.hero .eyebrow{font-size:13px;font-weight:600;opacity:.85}
+.hero .phrase{font-family:var(--serif);font-size:40px;line-height:1.02;letter-spacing:-.02em;margin:10px 0 6px;font-weight:600}
+.hero .gloss{font-size:15px;opacity:.9;max-width:240px}
+.segs{display:flex;gap:4px;margin-top:16px}
+.segs i{flex:1;height:6px;border-radius:3px;background:color-mix(in srgb,var(--ci) 16%,transparent)}
+.segs i.d{background:var(--c)}
+.segs i.n{background:linear-gradient(90deg,var(--c) 40%,color-mix(in srgb,var(--ci) 16%,transparent) 40%)}
+.dayrow{display:flex;align-items:center;gap:14px;padding:2px 2px 0}
+.dayrow .t{flex:1}
+.dayrow b{display:block;font-size:15px}
+.path{list-style:none;margin:0;padding:0}
+.path li{display:grid;grid-template-columns:28px 1fr auto;gap:12px;align-items:center;min-height:54px;position:relative}
+.path li::before{content:"";position:absolute;left:13px;top:-27px;bottom:27px;width:2px;background:var(--line)}
+.path li:first-child::before{display:none}
+.path .dot{width:28px;height:28px;border-radius:50%;border:2px solid var(--line);background:var(--bg);display:flex;align-items:center;justify-content:center;z-index:1;font-size:13px;color:#fff}
+.path li.done .dot{background:var(--ok);border-color:var(--ok)}
+.path li.now .dot{border-color:var(--c);box-shadow:0 0 0 5px var(--cs);background:var(--bg)}
+.path li.now b{font-size:17px}
+.path b{display:block;font-weight:600}
+.path li.done b{color:var(--muted);font-weight:500}
+.path li.todo b{color:var(--muted);font-weight:500}
+.path .tag{font-size:12px;color:var(--muted);display:flex;gap:6px;align-items:center}
+.path .tag::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.path .tag.in::before{background:#2a73bb}.path .tag.fo::before{background:#6f66cf}.path .tag.ou::before{background:#9a6416}
+
+/* 2 · Ejercicio */
+.fhead{display:flex;align-items:center;gap:12px;margin-top:-4px}
+.fhead .x{font-size:26px;color:var(--muted);width:28px;line-height:1}
+.fhead .n{font-size:13px;font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}
+.tramos{flex:1;display:flex;gap:3px}
+.tramos i{flex:1;height:8px;border-radius:4px;background:var(--fill)}
+.tramos i.d{background:var(--ok)}
+.ask{background:var(--cs);color:var(--ci);border-radius:22px;padding:20px;margin-top:4px}
+.ask .q{font-size:13px;font-weight:600;opacity:.85}
+.ask .es{font-size:27px;line-height:1.12;font-weight:650;letter-spacing:-.015em;margin-top:6px}
+.opt{border:1.5px solid var(--line);background:var(--card);border-radius:16px;padding:16px 18px;font-family:var(--serif);font-size:21px;min-height:60px;display:flex;align-items:center}
+.opt.ok{border-color:var(--ok);background:var(--ok-bg)}
+.opt.bad{border-color:var(--bad);background:var(--bad-bg)}
+.sheet{background:var(--card);border-top:3px solid var(--bad);border-radius:22px 22px 0 0;padding:18px 20px 14px;margin:0 -20px -16px;box-shadow:0 -10px 30px -18px rgba(0,0,0,.4)}
+.sheet .h{font-size:20px;font-weight:700;color:var(--bad);margin-bottom:10px}
+.cmp{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;align-items:baseline;margin-bottom:10px}
+.cmp dt{font-size:13px;font-weight:600;color:var(--muted)}
+.cmp dd{margin:0;font-family:var(--serif);font-size:22px}
+.cmp del{color:var(--bad)}
+.cmp mark{background:var(--mark);color:inherit;border-radius:5px;padding:0 4px}
+.why{font-size:15px;margin:0 0 10px}
+.pills{display:flex;gap:8px;margin-bottom:12px}
+.pills span{background:var(--fill);border-radius:99px;padding:9px 14px;font-size:14px;font-weight:500}
+.cta.bad{background:var(--bad);color:#fff}
+
+/* 3 · Cierre de sesión */
+.fin{text-align:center;padding-top:8px}
+.fin .it.big{font-size:44px;line-height:1;letter-spacing:-.02em;font-weight:600;margin:8px 0 2px}
+.ringwrap{width:132px;height:132px;margin:0 auto;position:relative}
+.ringwrap svg{width:132px;height:132px}
+.ringwrap .c{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.ringwrap .c b{font-size:30px;letter-spacing:-.02em;line-height:1}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.stats div{background:var(--fill);border-radius:14px;padding:10px 6px}
+.stats b{display:block;font-size:19px}
+.stats small{font-size:12px;color:var(--muted)}
+.fixed{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 16px;text-align:left}
+.fixed h3{margin:0 0 8px;font-size:15px}
+.fixed .row{display:grid;grid-template-columns:1fr;gap:2px;margin-bottom:8px}
+.fixed .row:last-child{margin-bottom:0}
+.fixed .row .es{font-size:14px;color:var(--muted)}
+.fixed .row .itx{font-family:var(--serif);font-size:19px}
+.fixed mark{background:var(--mark);color:inherit;border-radius:4px;padding:0 3px}
+
+/* 4 · Ruta */
+.rhead h2{margin:0;font-size:30px;letter-spacing:-.02em}
+.rhead .bar2{display:flex;gap:4px;margin-top:10px}
+.rhead .bar2 i{flex:1;height:6px;border-radius:3px;background:var(--fill)}
+.rhead .bar2 i.d{background:var(--ok)}
+.rhead .bar2 i.n{background:var(--t2)}
+.stamp{width:56px;height:56px;border-radius:50%;border:2.5px solid var(--c);color:var(--c);display:flex;align-items:center;justify-content:center;flex:none;position:relative;transform:rotate(-7deg);background:color-mix(in srgb,var(--c) 8%,transparent)}
+.stamp::after{content:"";position:absolute;inset:4px;border-radius:50%;border:1px dashed var(--c);opacity:.7}
+.stamp svg{width:28px;height:28px}
+.stamp.lock{border-color:var(--line);color:var(--muted);transform:none;background:none}
+.stamp.lock::after{display:none}
+.stamp.sm{width:44px;height:44px}
+.stamp.sm svg{width:22px;height:22px}
+.stampline{display:flex;gap:14px;align-items:center}
+.stampline .phr{font-family:var(--serif);font-size:18px}
+.link{width:2px;height:16px;background:var(--line);margin-left:27px}
+.mcard{background:var(--cs);color:var(--ci);border-radius:22px;padding:18px;position:relative;overflow:hidden}
+.mcard .motif-bg{position:absolute;right:-10px;bottom:-14px;width:110px;height:110px;color:var(--c);opacity:.2}
+.mcard .k{font-size:13px;font-weight:600;opacity:.85}
+.mcard .tt{font-size:20px;font-weight:650;line-height:1.15;margin:3px 0 8px;letter-spacing:-.01em}
+.mcard .can{font-size:14px;opacity:.92;max-width:250px}
+.etapas{display:flex;gap:4px;margin:14px 0 4px}
+.etapas i{flex:1;height:6px;border-radius:3px;background:color-mix(in srgb,var(--ci) 16%,transparent)}
+.etapas i.d{background:var(--c)}
+.etapas i.n{background:linear-gradient(90deg,var(--c) 45%,color-mix(in srgb,var(--ci) 16%,transparent) 45%)}
+.etl{display:flex;gap:4px;font-size:11px;opacity:.85}
+.etl span{flex:1;text-align:center}
+.cta.mod{background:var(--c);margin-top:12px;min-height:48px}
+:root[data-theme="dark"] .cta.mod{color:#1a1815}
+
+/* 5 · Sello */
+.award{text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px;padding-top:30px}
+.bigstamp{width:190px;height:190px;border-radius:50%;border:5px solid var(--c);color:var(--c);display:flex;align-items:center;justify-content:center;position:relative;transform:rotate(-8deg);background:color-mix(in srgb,var(--c) 8%,transparent)}
+.bigstamp::after{content:"";position:absolute;inset:10px;border-radius:50%;border:2px dashed var(--c);opacity:.7}
+.bigstamp svg{width:84px;height:84px}
+.award .it.big{font-size:38px;line-height:1.05;font-weight:600;letter-spacing:-.02em}
+.award .list{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 16px;text-align:left;width:100%}
+.award .list b{font-size:15px}
+.award .list li{font-size:14px;margin-top:6px;list-style:none;display:flex;gap:8px;color:var(--muted)}
+.award .list li::before{content:"";width:16px;height:16px;border-radius:50%;background:var(--ok);flex:none;margin-top:2px}
+.award ul{margin:8px 0 0;padding:0}
+
+/* 6 · Progreso */
+.fig{display:flex;align-items:baseline;gap:8px}
+.fig b{font-size:44px;line-height:1;letter-spacing:-.03em}
+.sealgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px 6px;justify-items:center}
+.sealgrid div{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:11px;color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:16px}
+.card h3{margin:0 0 10px;font-size:17px}
+.weak li{list-style:none;margin-bottom:10px}
+.weak .t{display:flex;justify-content:space-between;font-size:14px}
+.weak .b{height:8px;border-radius:4px;background:var(--fill);margin-top:5px;overflow:hidden}
+.weak .b i{display:block;height:100%;background:var(--bad)}
+.weak ul{margin:0;padding:0}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}
+.cal i{aspect-ratio:1;border-radius:7px;background:var(--fill)}
+.cal i.a{background:color-mix(in srgb,var(--ok) 40%,var(--fill))}
+.cal i.b{background:var(--ok)}
+</style>
+</head>
+<body>
+<div class="bar">
+  <h1>Salto de interfaz · maqueta (estática, no es la app)</h1>
+  <button id="tema" type="button">Ver en oscuro</button>
+</div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- motivos de trazo: uno por módulo (aquí 4 de 12 como muestra) -->
+    <symbol id="mo1" viewBox="0 0 48 48"><g class="motif"><path d="M6 10h22a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H16l-6 5v-5H6a4 4 0 0 1-4-4v-8a4 4 0 0 1 4-4z"/><path d="M22 30v2a4 4 0 0 0 4 4h6l6 5v-5h2a4 4 0 0 0 4-4v-8a4 4 0 0 0-4-4h-2"/></g></symbol>
+    <symbol id="mo2" viewBox="0 0 48 48"><g class="motif"><path d="M24 44s14-12 14-23a14 14 0 0 0-28 0c0 11 14 23 14 23z"/><circle cx="24" cy="21" r="5"/></g></symbol>
+    <symbol id="mo3" viewBox="0 0 48 48"><g class="motif"><path d="M8 38l4-14 22-16 6 8-22 16z"/><path d="M12 24l8 10"/><path d="M6 42h36"/></g></symbol>
+    <symbol id="mo4" viewBox="0 0 48 48"><g class="motif"><path d="M6 24L24 8l18 16"/><path d="M12 22v18h24V22"/><path d="M20 40V30h8v10"/></g></symbol>
+    <symbol id="ico-hoy" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M5.6 18.4L7 17M17 7l1.4-1.4"/></symbol>
+    <symbol id="ico-ruta" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.5 6H15a3 3 0 0 1 0 6H9a3 3 0 0 0 0 6h6.5"/></symbol>
+    <symbol id="ico-bib" viewBox="0 0 24 24"><path d="M3 5.5C5 4.5 8 4.5 12 6c4-1.5 7-1.5 9-.5V19c-2-1-5-1-9 .5-4-1.5-7-1.5-9-.5z"/><path d="M12 6v13.5"/></symbol>
+    <symbol id="ico-prog" viewBox="0 0 24 24"><path d="M5 20V12M12 20V5M19 20v-9"/></symbol>
+    <symbol id="ico-fire" viewBox="0 0 24 24"><path d="M12 3c1 4 5 5.5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 .3 1.2 1 2 2 2-.5-3 0-5 1-8z"/></symbol>
+  </defs>
+</svg>
+
+<div class="grid">
+
+<!-- 1 · HOY -->
+<figure>
+<div class="phone m1">
+  <div class="scroll">
+    <div class="top"><h2>Hoy</h2><span class="chip"><svg width="16" height="16" class="motif" style="stroke-width:1.8"><use href="#ico-fire"/></svg>4 días</span></div>
+    <div class="hero">
+      <svg class="motif-bg"><use href="#mo1"/></svg>
+      <div class="eyebrow">A1 · Módulo 1 de 12 · Cápsula 2 de 4</div>
+      <div class="phrase">Mi chiamo…</div>
+      <div class="gloss">Presentarte sin «me»: en italiano el pronombre es «mi».</div>
+      <div class="segs"><i class="d"></i><i class="n"></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="dayrow">
+      <svg width="52" height="52" viewBox="0 0 52 52" role="img" aria-label="9 de 15 minutos"><circle cx="26" cy="26" r="21" fill="none" stroke="var(--fill)" stroke-width="6"/><circle cx="26" cy="26" r="21" fill="none" stroke="var(--c)" stroke-width="6" stroke-linecap="round" stroke-dasharray="79 132" transform="rotate(-90 26 26)"/><text x="26" y="30" text-anchor="middle" font-size="12" font-weight="600" fill="var(--ink)">9′</text></svg>
+      <div class="t"><b>Hoy llevas 9 de 15 min</b><small class="mu">Es una guía: el plan sigue si pasas de 15.</small></div>
+    </div>
+    <ul class="path">
+      <li class="done"><span class="dot">✓</span><div><b>Repaso</b><small class="mu">12 tarjetas</small></div><span class="tag fo">Estudiar</span></li>
+      <li class="now"><span class="dot"></span><div><b>Práctica</b><small class="mu">24 ejercicios sobre el contraste</small></div><span class="tag fo">Estudiar</span></li>
+      <li class="todo"><span class="dot"></span><div><b>Escucha</b></div><span class="tag in">Entender</span></li>
+      <li class="todo"><span class="dot"></span><div><b>Prueba de la cápsula</b></div><span class="tag fo">Estudiar</span></li>
+    </ul>
+  </div>
+  <div class="dock"><div class="cta">Continuar · Práctica</div></div>
+  <div class="tabs"><div class="on"><svg><use href="#ico-hoy"/></svg>Hoy</div><div><svg><use href="#ico-ruta"/></svg>Ruta</div><div><svg><use href="#ico-bib"/></svg>Biblioteca</div><div><svg><use href="#ico-prog"/></svg>Progreso</div></div>
+</div>
+<figcaption><b>1 · Hoy.</b> La frase italiana del día es la cara de la pantalla; el color es el del módulo. Anillo de minutos reales, plan como camino y un solo botón. Sin «Cómo empezar» salvo la primera vez.</figcaption>
+</figure>
+
+<!-- 2 · EJERCICIO: fallo -->
+<figure>
+<div class="phone m1">
+  <div class="scroll">
+    <div class="fhead"><span class="x">×</span><div class="tramos"><i class="d"></i><i class="d"></i><i class="d"></i><i class="d"></i><i class="d"></i><i class="d"></i><i class="d"></i><i></i><i></i><i></i><i></i><i></i></div><span class="n">8 / 24</span></div>
+    <div class="ask"><div class="q">Quieres decir</div><div class="es">Yo me llamo Shu.</div></div>
+    <div class="opt ok">Io mi chiamo Shu.</div>
+    <div class="opt bad">Io me chiamo Shu.</div>
+    <div style="flex:1"></div>
+    <div class="sheet">
+      <div class="h">Casi. Mira la diferencia</div>
+      <dl class="cmp"><dt>Dijiste</dt><dd><del>Io me chiamo Shu.</del></dd><dt>Se dice</dt><dd>Io <mark>mi</mark> chiamo Shu.</dd></dl>
+      <p class="why">En italiano el pronombre es «mi», no «me». Este ejercicio vuelve al final.</p>
+      <div class="pills"><span>Escuchar</span><span>Ver ficha</span></div>
+      <div class="cta bad">Continuar</div>
+    </div>
+  </div>
+</div>
+<figcaption><b>2 · Ejercicio con error.</b> La pregunta vive en una tarjeta de color (se acaba el vacío), el avance va por tramos y la hoja de corrección pone «Dijiste / Se dice» con lo que cambia resaltado. Al acertar, la hoja es más breve y verde.</figcaption>
+</figure>
+
+<!-- 3 · CIERRE DE SESIÓN -->
+<figure>
+<div class="phone m1">
+  <div class="scroll fin">
+    <div class="ringwrap">
+      <svg viewBox="0 0 132 132"><circle cx="66" cy="66" r="58" fill="none" stroke="var(--fill)" stroke-width="10"/><circle cx="66" cy="66" r="58" fill="none" stroke="var(--ok)" stroke-width="10" stroke-linecap="round" stroke-dasharray="318 365" transform="rotate(-90 66 66)"/></svg>
+      <div class="c"><b>21/24</b><small class="mu">a la primera</small></div>
+    </div>
+    <div class="it big">Ben fatto.</div>
+    <small class="mu">Práctica de «Presentarte: mi chiamo»</small>
+    <div class="stats"><div><b>14 min</b><small>de estudio real</small></div><div><b>6</b><small>palabras nuevas</small></div><div><b>3</b><small>vuelven al repaso</small></div></div>
+    <div class="fixed">
+      <h3>Hoy fijaste</h3>
+      <div class="row"><span class="es">Yo me llamo Shu.</span><span class="itx">Io <mark>mi</mark> chiamo Shu.</span></div>
+    </div>
+    <div class="fixed">
+      <h3>Vuelve en el repaso</h3>
+      <div class="row"><span class="itx">Io <mark>mi</mark> chiamo Shu.</span></div>
+    </div>
+    <div style="flex:1"></div>
+    <small class="mu">Siguiente: Escucha</small>
+  </div>
+  <div class="dock"><div class="cta">Seguir con Escucha</div></div>
+</div>
+<figcaption><b>3 · Cierre de sesión (nuevo).</b> Reemplaza «Paso completado ✓». Todo sale de datos que ya se guardan (aciertos del primer intento, minutos medidos, palabras nuevas del día, ejercicios fallados). Sin puntos ni premios.</figcaption>
+</figure>
+
+<!-- 4 · RUTA -->
+<figure>
+<div class="phone m2">
+  <div class="scroll">
+    <div class="rhead"><h2>Ruta</h2><small class="mu">A1 · 1 de 12 módulos</small>
+      <div class="bar2"><i class="d"></i><i class="n"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+    <div class="stampline m1"><div class="stamp"><svg><use href="#mo1"/></svg></div><div><div class="it phr">Buon giorno</div><small style="color:var(--ok)">Completado · 4 cosas que ya sabes hacer</small></div></div>
+    <div class="link"></div>
+    <div class="mcard">
+      <svg class="motif-bg"><use href="#mo2"/></svg>
+      <div class="k">Módulo 2 · en curso</div>
+      <div class="tt">Dar tus datos: origen, edad y deletrear</div>
+      <div class="can">Decir de dónde eres y dónde vives. Decir tu edad con los números.</div>
+      <div class="etapas"><i class="d"></i><i class="n"></i><i></i><i></i><i></i></div>
+      <div class="etl"><span>Entrada</span><span>Cápsulas</span><span>Salida</span><span>Fluidez</span><span>Cierre</span></div>
+      <div class="cta mod">Continuar · Cápsulas</div>
+    </div>
+    <div class="link"></div>
+    <div class="stampline"><div class="stamp lock"><svg width="22" height="22" class="motif"><use href="#mo3"/></svg></div><div><b>3 · La clase y tus cosas</b><br><small class="mu">Nombrar objetos y señalar «questo» y «quello».</small></div></div>
+    <div class="link"></div>
+    <div class="stampline"><div class="stamp lock"><svg width="22" height="22" class="motif"><use href="#mo4"/></svg></div><div><b>4 · Tu familia y cómo es la gente</b><br><small class="mu">Presentar a tu familia con los posesivos.</small></div></div>
+  </div>
+  <div class="tabs"><div><svg><use href="#ico-hoy"/></svg>Hoy</div><div class="on"><svg><use href="#ico-ruta"/></svg>Ruta</div><div><svg><use href="#ico-bib"/></svg>Biblioteca</div><div><svg><use href="#ico-prog"/></svg>Progreso</div></div>
+</div>
+<figcaption><b>4 · Ruta.</b> Camino con sellos, no lista. El módulo en curso es la única tarjeta grande y toma su color (ocre en el 2). Los bloqueados quedan en gris con su motivo. Los horarios y el método van a «Cómo funciona», plegado.</figcaption>
+</figure>
+
+<!-- 5 · SELLO -->
+<figure>
+<div class="phone m4">
+  <div class="scroll award">
+    <small class="mu">Módulo 4 completado · prueba de cierre 92 %</small>
+    <div class="bigstamp"><svg><use href="#mo4"/></svg></div>
+    <div class="it big">La mia casa</div>
+    <small class="mu" style="max-width:260px">Ya sabes presentar a tu familia con los posesivos bien usados.</small>
+    <div class="list"><b>Ya sabes hacer</b>
+      <ul><li>Presentar a tu familia con los posesivos</li><li>Describir a una persona por fuera y por dentro</li></ul></div>
+  </div>
+  <div class="dock"><div class="cta" style="background:var(--c)">Ver la ruta</div></div>
+</div>
+<figcaption><b>5 · Sello al cerrar un módulo.</b> Una sola celebración, con animación de «estampado» única y mensaje en español. La frase del sello sale de contenido ya verificado (aquí, «la mia casa», el ejemplo de la ficha del posesivo); si un módulo no la tiene, el sello lleva solo motivo y número. No se escribe italiano nuevo.</figcaption>
+</figure>
+
+<!-- 6 · PROGRESO -->
+<figure>
+<div class="phone m1">
+  <div class="scroll">
+    <div class="top"><h2 style="margin:0;font-size:30px;letter-spacing:-.02em">Progreso</h2><small style="color:var(--t1);font-weight:600">Ajustes</small></div>
+    <div class="card"><h3>Ya sabes hacer</h3>
+      <div class="fig"><b>9</b><span class="mu">de 53</span></div>
+      <div style="height:8px;border-radius:4px;background:var(--fill);margin:10px 0 14px;overflow:hidden"><i style="display:block;width:17%;height:100%;background:var(--ok)"></i></div>
+      <div class="sealgrid">
+        <div class="m1"><div class="stamp sm"><svg><use href="#mo1"/></svg></div>1</div>
+        <div class="m2"><div class="stamp sm lock"><svg class="motif"><use href="#mo2"/></svg></div>2</div>
+        <div class="m3"><div class="stamp sm lock"><svg class="motif"><use href="#mo3"/></svg></div>3</div>
+        <div class="m4"><div class="stamp sm lock"><svg class="motif"><use href="#mo4"/></svg></div>4</div>
+      </div>
+    </div>
+    <div class="card weak"><h3>Lo que más te cuesta</h3>
+      <ul><li><div class="t"><b>Posesivo con artículo</b><span>58 %</span></div><div class="b"><i style="width:58%"></i></div><small class="mu">7 de 12 a la primera</small></li>
+      <li><div class="t"><b>«mi» o «me» al presentarte</b><span>71 %</span></div><div class="b"><i style="width:71%"></i></div><small class="mu">10 de 14 a la primera</small></li></ul>
+      <div class="cta mod" style="margin-top:6px">Practicar esto</div>
+    </div>
+    <div class="card"><h3>Constancia</h3>
+      <div class="cal"><i class="a"></i><i class="b"></i><i></i><i class="b"></i><i class="a"></i><i class="b"></i><i class="b"></i><i class="b"></i><i></i><i class="a"></i><i class="b"></i><i class="b"></i><i></i><i></i></div>
+    </div>
+  </div>
+  <div class="tabs"><div><svg><use href="#ico-hoy"/></svg>Hoy</div><div><svg><use href="#ico-ruta"/></svg>Ruta</div><div><svg><use href="#ico-bib"/></svg>Biblioteca</div><div class="on"><svg><use href="#ico-prog"/></svg>Progreso</div></div>
+</div>
+<figcaption><b>6 · Progreso.</b> La colección de sellos arriba de «Ya sabes hacer»: se ve el avance como una colección, no como una cifra. Cifras de ejemplo.</figcaption>
+</figure>
+
+</div>
+
+<script>
+var b=document.getElementById('tema'),r=document.documentElement;
+b.onclick=function(){var d=r.getAttribute('data-theme')==='dark';r.setAttribute('data-theme',d?'light':'dark');b.textContent=d?'Ver en oscuro':'Ver en claro'};
+</script>
+</body>
+</html>
