@@ -41,3 +41,21 @@ describe("tema oscuro elegido y tema oscuro automático", () => {
     expect(Object.keys(vars(dark)).length).toBeGreaterThan(10);
   });
 });
+
+describe("tonos de módulo (seis, rotan por número de módulo)", () => {
+  const themes: [string, string][] = [["claro", light], ["oscuro", dark]];
+  for (const [theme, block] of themes) {
+    for (let n = 1; n <= 6; n++) {
+      it(`tono ${n} en ${theme}: el texto sobre el color fuerte y la tinta sobre el tinte llegan a 4,5:1`, () => {
+        const strong = token(block, `--t${n}`), tint = token(block, `--t${n}s`), ink = token(block, `--t${n}i`);
+        const on = token(block, "--on-tone") || token(light, "--on-tone");
+        expect([strong, tint, ink, on].every(Boolean)).toBe(true);
+        expect(contrast(on, strong)).toBeGreaterThanOrEqual(4.5);
+        expect(contrast(ink, tint)).toBeGreaterThanOrEqual(4.5);
+      });
+    }
+  }
+  it("los seis tonos son colores distintos", () => {
+    expect(new Set([1, 2, 3, 4, 5, 6].map((n) => token(light, `--t${n}`))).size).toBe(6);
+  });
+});

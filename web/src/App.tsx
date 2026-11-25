@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { flushSync } from "react-dom";
 import { AudioProvider } from "./audio/AudioContext";
 import { type AudioIndex, loadAudioIndex, loadNativeWords } from "./audio/clips";
 import { type ContentPack, loadContent } from "./content/load";
@@ -43,7 +44,13 @@ type Ready = { pack: ContentPack; store: Store; storeError: string | null; audio
 function useHash() {
   const [hash, setHash] = useState(window.location.hash || "#/");
   useEffect(() => {
-    const on = () => setHash(window.location.hash || "#/");
+    const apply = () => setHash(window.location.hash || "#/");
+    // Fundido corto entre pantallas donde el navegador lo admite (iOS 18+); en cualquier otro caso, cambio directo.
+    const on = () => {
+      const vt = (document as Document & { startViewTransition?: (cb: () => void) => unknown }).startViewTransition;
+      if (vt && !window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) vt.call(document, () => flushSync(apply));
+      else apply();
+    };
     window.addEventListener("hashchange", on);
     return () => window.removeEventListener("hashchange", on);
   }, []);

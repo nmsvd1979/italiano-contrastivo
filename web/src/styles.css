@@ -9,6 +9,15 @@
   --b1: #2f7bc4; --b2: #c8553d; --b3: #6f66cf; --b4: #2d6a4f;
   --s-in: #2a73bb; --s-form: #6f66cf; --s-out: #9a6416; --s-flu: #1f7a7a;
   --fill: #f3ede2;
+  /* seis tonos de módulo (fuerte / tinte / tinta): rotan por número de módulo con data-tone="1".."6" */
+  --t1: #bc4b34; --t1s: #f6e1d9; --t1i: #4a1b0c;
+  --t2: #8f6210; --t2s: #f6e8c8; --t2i: #4a3208;
+  --t3: #55703a; --t3s: #e4ebd2; --t3i: #26340f;
+  --t4: #2a6bb0; --t4s: #dbe9f6; --t4i: #0f2f52;
+  --t5: #8e2f4a; --t5s: #f1dbe2; --t5i: #4a1226;
+  --t6: #a8506c; --t6s: #f6e3ea; --t6i: #5a2539;
+  --on-tone: #ffffff;
+  --ease-out: cubic-bezier(.22, 1, .36, 1); --ease-pop: cubic-bezier(.34, 1.56, .64, 1); --dur-fast: .15s; --dur: .3s; --dur-slow: .6s;
   --serif: ui-serif, "New York", "Iowan Old Style", Georgia, "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, "Segoe UI", sans-serif;
   /* escala de espacio (múltiplos de 4) y de texto */
@@ -23,14 +32,36 @@
     --accent-soft: #3a2822; --ok: #74c69d; --ok-bg: #1f3a2c; --bad: #ff8f9c; --bad-bg: #3c2024; --mark: #6b3a2c;
     --b1: #6fb0ea; --b2: #e07a5f; --b3: #a39bff; --b4: #74c69d;
     --s-in: #6fb0ea; --s-form: #a39bff; --s-out: #e0a84f; --s-flu: #5cc2c2;
-    --fill: #2e2a25; }
+    --fill: #2e2a25;
+    --t1: #e07a5f; --t1s: #3a2822; --t1i: #f6d9cf;
+    --t2: #e0a84f; --t2s: #3a2f17; --t2i: #f5e2b8;
+    --t3: #9cc16b; --t3s: #2a3219; --t3i: #dbe8c0;
+    --t4: #6fb0ea; --t4s: #1b2c3d; --t4i: #cfe3f6;
+    --t5: #e07a96; --t5s: #3a1d27; --t5i: #f3cfd9;
+    --t6: #e39ab3; --t6s: #3a2530; --t6i: #f5d6e0;
+    --on-tone: #1a1815; }
 }
 :root[data-theme="dark"] { color-scheme: dark;
     --bg: #1a1815; --ink: #f1ede4; --muted: #aaa294; --card: #25221e; --line: #3a352e; --accent: #e07a5f; --accent-ink: #1a1815;
     --accent-soft: #3a2822; --ok: #74c69d; --ok-bg: #1f3a2c; --bad: #ff8f9c; --bad-bg: #3c2024; --mark: #6b3a2c;
     --b1: #6fb0ea; --b2: #e07a5f; --b3: #a39bff; --b4: #74c69d;
     --s-in: #6fb0ea; --s-form: #a39bff; --s-out: #e0a84f; --s-flu: #5cc2c2;
-    --fill: #2e2a25; }
+    --fill: #2e2a25;
+    --t1: #e07a5f; --t1s: #3a2822; --t1i: #f6d9cf;
+    --t2: #e0a84f; --t2s: #3a2f17; --t2i: #f5e2b8;
+    --t3: #9cc16b; --t3s: #2a3219; --t3i: #dbe8c0;
+    --t4: #6fb0ea; --t4s: #1b2c3d; --t4i: #cfe3f6;
+    --t5: #e07a96; --t5s: #3a1d27; --t5i: #f3cfd9;
+    --t6: #e39ab3; --t6s: #3a2530; --t6i: #f5d6e0;
+    --on-tone: #1a1815; }
+
+/* tono del módulo: quien lleve data-tone redefine --c (fuerte), --cs (tinte) y --ci (tinta) para todo lo de dentro */
+[data-tone="1"] { --c: var(--t1); --cs: var(--t1s); --ci: var(--t1i); }
+[data-tone="2"] { --c: var(--t2); --cs: var(--t2s); --ci: var(--t2i); }
+[data-tone="3"] { --c: var(--t3); --cs: var(--t3s); --ci: var(--t3i); }
+[data-tone="4"] { --c: var(--t4); --cs: var(--t4s); --ci: var(--t4i); }
+[data-tone="5"] { --c: var(--t5); --cs: var(--t5s); --ci: var(--t5i); }
+[data-tone="6"] { --c: var(--t6); --cs: var(--t6s); --ci: var(--t6i); }
 
 /* ───────── 2. Base ───────── */
 * { box-sizing: border-box; }
@@ -438,3 +469,47 @@ section[aria-label="Constancia"] > p > b { font-size: var(--t-sm); font-weight: 
 section a.button.block:not(.primary) { justify-content: space-between; text-align: left; background: var(--fill); border-color: transparent; font-weight: 500; font-size: 16px; }
 section a.button.block:not(.primary)::after { content: ""; width: 8px; height: 8px; border-right: 2px solid var(--muted); border-top: 2px solid var(--muted); transform: rotate(45deg); flex: none; margin-right: 4px; }
 ul.library { margin-top: var(--sp4); }
+
+/* ───────── 8. Salto de interfaz (2026-11-25): tono por módulo, sellos, anillo, camino ───────── */
+svg.motif { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+/* sello: el dibujo del módulo en un círculo punteado, ladeado como un sello de goma */
+.stamp { --s: 56px; position: relative; flex: none; display: inline-flex; align-items: center; justify-content: center; width: var(--s); height: var(--s); border-radius: 50%; border: 2.5px solid var(--c); color: var(--c); background: color-mix(in srgb, var(--c) 8%, transparent); transform: rotate(-7deg); }
+.stamp::after { content: ""; position: absolute; inset: 4px; border-radius: 50%; border: 1px dashed var(--c); opacity: .7; }
+.stamp svg { width: 50%; height: 50%; }
+.stamp[data-size="sm"] { --s: 44px; }
+.stamp[data-size="lg"] { --s: 190px; border-width: 5px; }
+.stamp[data-size="lg"]::after { inset: 10px; border-width: 2px; }
+.stamp[data-earned="false"] { --c: var(--muted); border-color: var(--line); background: none; transform: none; }
+.stamp[data-earned="false"]::after { display: none; }
+.stamp[data-fresh="true"] { animation: stamp-in var(--dur-slow) var(--ease-pop) both; }
+@keyframes stamp-in { 0% { transform: rotate(-22deg) scale(1.9); opacity: 0; } 55% { opacity: 1; } 100% { transform: rotate(-7deg) scale(1); opacity: 1; } }
+
+/* anillo del día */
+.dayring { width: 52px; height: 52px; flex: none; }
+.dayring-fg { transition: stroke-dasharray var(--dur-slow) var(--ease-out); }
+
+/* plan como camino */
+ol.pathlist { list-style: none; padding: 0; margin: 0; }
+.pathlist li { display: grid; grid-template-columns: 28px minmax(0, 1fr) auto; gap: var(--sp3); align-items: center; min-height: 56px; margin: 0; position: relative; }
+.pathlist li + li::before { content: ""; position: absolute; left: 13px; top: -28px; height: 56px; width: 2px; background: var(--line); }
+.pathlist .pdot { position: relative; z-index: 1; width: 28px; height: 28px; border-radius: 50%; border: 2px solid var(--line); background: var(--bg); display: flex; align-items: center; justify-content: center; font-size: 13px; color: var(--bg); }
+.pathlist li[data-state="done"] .pdot { background: var(--ok); border-color: var(--ok); }
+.pathlist li[data-state="now"] .pdot { border-color: var(--c, var(--accent)); box-shadow: 0 0 0 5px var(--cs, var(--accent-soft)); }
+.pathlist .ptext { min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.pathlist .ptext b { font-weight: 600; }
+.pathlist .ptext small { font-size: var(--t-cap); color: var(--muted); }
+.pathlist li[data-state="done"] .ptext b, .pathlist li[data-state="todo"] .ptext b { color: var(--muted); font-weight: 500; }
+.pathlist li[data-state="now"] .ptext b { font-size: var(--t-h3); }
+
+/* pantalla de estado (cargando, bloqueado, sin repasos) */
+main.empty { padding-top: 64px; }
+main.empty h1 { font-size: 24px; line-height: 1.2; margin-bottom: var(--sp2); }
+
+/* transición entre pantallas: un fundido corto (solo donde el navegador la admite y sin «reducir movimiento») */
+@keyframes vt-out { to { opacity: 0; } }
+@keyframes vt-in { from { opacity: 0; transform: translateY(6px); } }
+@media (prefers-reduced-motion: no-preference) {
+  ::view-transition-old(root) { animation: vt-out .12s ease both; }
+  ::view-transition-new(root) { animation: vt-in .24s var(--ease-out) both; }
+}
