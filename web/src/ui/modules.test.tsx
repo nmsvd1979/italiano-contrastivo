@@ -3,7 +3,7 @@ import { readFileSync } from "node:fs";
 import { afterEach, describe, expect, it } from "vitest";
 import type { ContentPack } from "../content/load";
 import { emptyProgress } from "../state/course";
-import { moduleProgressId, moduleTestItems, moduleViews } from "../state/modules";
+import { hablaKey, moduleProgressId, moduleTestItems, moduleViews } from "../state/modules";
 import { planToday } from "../state/session";
 import { memoryStore, type UnitProgress } from "../state/store";
 import { ModuleScreen } from "./ModuleScreen";
@@ -70,7 +70,7 @@ describe("pantallas de módulo", () => {
     const store = memoryStore();
     for (const m of mods.slice(0, idx)) { await withUnits(store, m); await store.putUnit({ ...emptyProgress(moduleProgressId(m.id)), done: { cierre: at }, completed: true }); }
     await withUnits(store, noSpeech);
-    await putMod(store, noSpeech.id, { textos: at });                                       // la escucha del módulo ya hecha
+    await putMod(store, noSpeech.id, { textos: at, [hablaKey("entrevista")]: at });          // escucha y preguntas por voz ya hechas
     render(<ModuleStepScreen moduleId={noSpeech.id} step="salida" pack={pack2} store={store} />);
     expect(await screen.findByText(noSpeech.gap_es!, { exact: false })).toBeTruthy();
     fireEvent.click(screen.getByRole("button", { name: "Escribir mi mensaje" }));

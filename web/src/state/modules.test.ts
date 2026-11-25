@@ -71,7 +71,9 @@ describe("módulos: salida y prueba de cierre", () => {
     const withSpeech = M1;
     expect(salidaMissing(withSpeech, modDone(withSpeech.id))).toEqual(["habla", "escritura"]);
     expect(salidaMissing(withSpeech, modDone(withSpeech.id, { [salidaKey("habla")]: at }))).toEqual(["escritura"]);
-    const noSpeech = { ...M1, roleplays: [], tasks: [], gap_es: "sin diálogo abierto" };   // un módulo sin práctica hablada declara su hueco
+    const noRoleplay = { ...M1, roleplays: [], tasks: [], gap_es: "sin diálogo abierto" };   // en A1 queda la ronda de preguntas por voz
+    expect(salidaMissing(noRoleplay, modDone(noRoleplay.id))).toEqual(["habla", "escritura"]);
+    const noSpeech = { ...noRoleplay, level: "A2" };                                            // fuera de A1 (por ahora), sin práctica hablada
     expect(salidaMissing(noSpeech, modDone(noSpeech.id))).toEqual(["escritura"]);
   });
   it("hoy todos los módulos de A1 tienen práctica hablada propia (juego de roles o tarea oral)", () => {
@@ -100,12 +102,13 @@ describe("módulos: salida y prueba de cierre", () => {
   });
 });
 
-describe("Salida: todos los juegos de rol y tareas orales", () => {
+describe("Salida: todos los juegos de rol, tareas orales y la ronda de preguntas por voz", () => {
   const m = pack.course.modules!.find((x) => x.roleplays.length + x.tasks.length >= 2)!;
   const p = (done: Record<string, string> = {}) => ({ ...emptyProgress(moduleProgressId(m.id)), done });
   it("la parte hablada falta hasta que se marca cada práctica del módulo", async () => {
-    const { hablaKey, hablaMissing } = await import("./modules");
-    const items = [...m.roleplays, ...m.tasks];
+    const { hablaItems, hablaKey, hablaMissing } = await import("./modules");
+    const items = hablaItems(m);
+    expect(items[items.length - 1]).toBe("entrevista");                                        // la ronda de preguntas por voz va al final
     expect(hablaMissing(m, p())).toEqual(items);
     expect(hablaMissing(m, p({ [hablaKey(items[0])]: "x" }))).toEqual(items.slice(1));
     expect(hablaMissing(m, p(Object.fromEntries(items.map((id) => [hablaKey(id), "x"]))))).toEqual([]);
@@ -117,8 +120,9 @@ describe("Salida: todos los juegos de rol y tareas orales", () => {
   it("finishSalidaPart con una práctica no completa la parte hasta tenerlas todas", async () => {
     const { finishSalidaPart } = await import("./progress");
     const { memoryStore } = await import("./store");
+    const { hablaItems } = await import("./modules");
     const store = memoryStore();
-    const items = [...m.roleplays, ...m.tasks];
+    const items = hablaItems(m);
     let prog = await finishSalidaPart(store, m, "habla", new Date(), items[0]);
     expect(prog.done[salidaKey("habla")]).toBeUndefined();
     for (const id of items.slice(1)) prog = await finishSalidaPart(store, m, "habla", new Date(), id);

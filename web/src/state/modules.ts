@@ -1,3 +1,4 @@
+import { INTERVIEW_ID } from "./interview";
 import type { Course, CourseModule } from "../content/load";
 import { emptyProgress, isOptional, unitViews, type UnitView } from "./course";
 import { isPreview } from "./preview";
@@ -119,13 +120,14 @@ export type SalidaPart = "habla" | "escritura";
 export const salidaKey = (part: SalidaPart | string) => `salida:${part}`;
 /** Cada juego de rol o tarea oral del módulo tiene su marca; la parte «habla» se da por hecha (`salida:habla`) cuando están todas. */
 export const hablaKey = (itemId: string) => `salida:habla:${itemId}`;
-export const hablaItems = (m: CourseModule): string[] => [...m.roleplays, ...m.tasks];
+/** Juegos de rol, tareas orales y, en A1, la ronda de preguntas por voz (auditoría 2026-11-25: interacción sin guion). */
+export const hablaItems = (m: CourseModule): string[] => [...m.roleplays, ...m.tasks, ...(m.level === "A1" ? [INTERVIEW_ID] : [])];
 /** Juegos de rol y tareas orales que faltan (con la marca general `salida:habla` de antes, ninguno). */
 export const hablaMissing = (m: CourseModule, p: UnitProgress): string[] => (p.done[salidaKey("habla")] ? [] : hablaItems(m).filter((id) => !p.done[hablaKey(id)]));
 export function salidaMissing(m: CourseModule, p: UnitProgress): SalidaPart[] {
-  const speaks = m.roleplays.length + m.tasks.length > 0;
+  const speaks = hablaItems(m).length > 0;
   const out: SalidaPart[] = [];
-  if (speaks && !p.done[salidaKey("habla")]) out.push("habla");
+  if (speaks && hablaMissing(m, p).length > 0) out.push("habla");   // por práctica: así una marca suelta (p. ej. la ronda ya hecha) también cuenta
   if (!p.done[salidaKey("escritura")]) out.push("escritura");
   return out;
 }

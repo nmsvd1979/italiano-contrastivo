@@ -3,7 +3,8 @@ import type { ContentPack, CourseModule, RolePlay, SpeakingTask } from "../conte
 import { canDoKey, setCanDo } from "../state/cando";
 import { emptyProgress } from "../state/course";
 import { finishModuleStep, finishModuleTest, finishModuleText, finishSalidaPart } from "../state/progress";
-import { type ModuleStepId, type ModuleView, MODULE_STEP_LABEL, moduleProgressId, moduleTestItems, moduleViews, hablaKey, hablaMissing, salidaKey, salidaMissing, textoKey } from "../state/modules";
+import { type ModuleStepId, type ModuleView, MODULE_STEP_LABEL, moduleProgressId, moduleTestItems, moduleViews, hablaItems, hablaKey, hablaMissing, salidaKey, salidaMissing, textoKey } from "../state/modules";
+import { INTERVIEW_ID, INTERVIEW_SIZE, interviewRound } from "../state/interview";
 import type { Store } from "../state/store";
 import { fromItems, ItemRunner, type RunResult } from "./ItemRunner";
 import { Ring } from "./kit/Ring";
@@ -13,9 +14,10 @@ import { ScoreRing } from "./kit/SessionSummary";
 import { useStrandTimer } from "./kit/useStrandTimer";
 import { ReadingStep } from "./ReadingStep";
 import { FluencyRun, PhrasesPanel, RolePlayRun, TaskRun } from "./SpeakingScreen";
+import { InterviewRun } from "./InterviewRun";
 import { OwnText } from "./WriteScreen";
 
-type Mode = { kind: "menu" } | { kind: "roleplay"; rp: RolePlay } | { kind: "task"; task: SpeakingTask } | { kind: "write" } | { kind: "phrases" };
+type Mode = { kind: "menu" } | { kind: "roleplay"; rp: RolePlay } | { kind: "task"; task: SpeakingTask } | { kind: "interview" } | { kind: "write" } | { kind: "phrases" };
 
 /** Pasos propios de un módulo: Entrada, Textos reales, Salida, Fluidez y Cierre (las cápsulas son las unidades de siempre). */
 export function ModuleStepScreen({ moduleId, step, pack, store }: { moduleId: string; step: ModuleStepId; pack: ContentPack; store: Store }) {
@@ -95,6 +97,7 @@ function Salida({ view, pack, store, exit, onChange }: { view: ModuleView; pack:
   const back = () => setMode({ kind: "menu" });
   const readingOf = (id: string) => (pack.readings ?? []).find((r) => r.id === id);
   if (mode.kind === "roleplay") { const r = readingOf(mode.rp.reading); return r ? <RolePlayRun rp={mode.rp} reading={r} store={store} onExit={back} exitLabel="Volver a la Salida" onComplete={() => void mark("habla", mode.rp.id)} /> : <p>Falta el diálogo.</p>; }
+  if (mode.kind === "interview") return <InterviewRun questions={interviewRound(sp, pack.course, module.id, Math.floor(Date.now() / 86_400_000))   /* cambia cada día */} store={store} onExit={back} onComplete={() => { void mark("habla", INTERVIEW_ID); back(); }} />;
   if (mode.kind === "task") return <TaskRun task={mode.task} store={store} onExit={back} onComplete={() => { void mark("habla", mode.task.id); back(); }} />;
   if (mode.kind === "write") {
     return (
@@ -116,14 +119,15 @@ function Salida({ view, pack, store, exit, onChange }: { view: ModuleView; pack:
     <main>
       <p><a className="tap" href={exit}>‹ {module.title}</a></p>
       <h1>Salida</h1>
-      <p>Aquí pasas de reconocer a <strong>producir</strong>. Para completar la Salida hace falta {module.roleplays.length + module.tasks.length > 0 ? `${module.roleplays.length + module.tasks.length === 1 ? "la práctica hablada" : `las ${module.roleplays.length + module.tasks.length} prácticas habladas`} (${speakMissing === 0 ? "ya están" : `te falta${speakMissing === 1 ? "" : "n"} ${speakMissing}`}) y ` : ""}un mensaje escrito tuyo. {missing.length === 0 ? "Ya cumpliste lo que se pide." : ""}</p>
+      <p>Aquí pasas de reconocer a <strong>producir</strong>. Para completar la Salida necesitas {hablaItems(module).length > 0 ? `${hablaItems(module).length === 1 ? "la práctica hablada" : `las ${hablaItems(module).length} prácticas habladas`} (${speakMissing === 0 ? "ya están" : `te falta${speakMissing === 1 ? "" : "n"} ${speakMissing}`}) y ` : ""}un mensaje escrito tuyo. {missing.length === 0 ? "Ya cumpliste lo que se pide." : ""}</p>
       {module.gap_es && <p className="note"><small>⚠ {module.gap_es}</small></p>}
-      {(rps.length > 0 || tasks.length > 0) && (
+      {hablaItems(module).length > 0 && (
         <>
           <h2>Hablar{doneMark("habla")}</h2>
           <ul className="library">
             {rps.map((rp) => <li key={rp.id}><h3>{rp.title}{itemDone(rp.id) ? " ✓" : ""}</h3><p>{rp.goal_es}</p><button type="button" onClick={() => setMode({ kind: "roleplay", rp })}>Practicar</button></li>)}
             {tasks.map((t) => <li key={t.id}><h3>{t.title}{itemDone(t.id) ? " ✓" : ""}</h3><p><small>~{t.minutes} min · tarea oral</small></p><button type="button" onClick={() => setMode({ kind: "task", task: t })}>Empezar</button></li>)}
+            {hablaItems(module).includes(INTERVIEW_ID) && <li key={INTERVIEW_ID}><h3>Preguntas por voz{itemDone(INTERVIEW_ID) ? " ✓" : ""}</h3><p>Te hacen preguntas solo al oído, en orden al azar, y respondes sin guion.</p><p><small>~5 min · {INTERVIEW_SIZE} preguntas</small></p><button type="button" onClick={() => setMode({ kind: "interview" })}>Empezar</button></li>}
           </ul>
         </>
       )}

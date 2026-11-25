@@ -66,7 +66,10 @@ export type Speaking = {
   alphabet: { source: { book: string; authors: string; url: string; license: string }; letters: { letter: string; name: string; audio?: string }[]; missing_es: string };
   phrases?: { title: string; intro_es: string; groups: { id: string; title: string; missing_es: string; source: { book: string; authors: string; url: string; license: string; chapter: string }; items: SpeakingQuestion[] }[] };
   roleplays: RolePlay[]; tasks: SpeakingTask[];
+  /** Preguntas por voz de la Salida: las de las tareas orales (Piacere!) y las escritas por la IA para los módulos sin tarea (`authored`). */
+  interview?: { note: string; questions: InterviewQuestion[] };
 };
+export type InterviewQuestion = { id: string; module: string; it: string; es: string; audio?: string; authored?: boolean; task?: string };
 export type PlannedUnit = { level: string; title: string; reason: string };
 /** Módulo temático: una situación comunicativa con su texto de entrada, sus cápsulas (unidades), su salida y su cierre. */
 export type CourseModule = {
