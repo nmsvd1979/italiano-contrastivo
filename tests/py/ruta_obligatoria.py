@@ -18,7 +18,7 @@ def obligatorio(level: str) -> dict[str, set[str]]:
     mods = [m for m in course["modules"] if m["level"] == level]
     in_mods = {u for m in mods for u in m["units"]}
     units = {u["id"]: u for u in course["units"] if u["id"] in in_mods}
-    readings = {m["entry_reading"] for m in mods} | {x for m in mods for x in m.get("extra_readings", [])}
+    readings = {m["entry_reading"] for m in mods} | {x for m in mods for x in m.get("extra_readings", []) if not x.startswith("vh_")}   # vh_: dictado, no lectura
     readings |= {r for u in units.values() for r in u.get("readings", [])}
     readings |= {roleplays[rp]["reading"] for m in mods for rp in m["roleplays"]}
     return {

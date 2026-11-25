@@ -78,6 +78,6 @@ def test_cada_modulo_a1_tiene_una_escucha_sin_texto():
     readings = {r["id"]: r for r in json.loads((pack / "readings.json").read_text(encoding="utf8"))}
     for m in course["modules"]:
         if m["level"] == "A1":
-            listen = [r for r in m.get("extra_readings", []) if readings[r].get("listen") and not readings[r].get("exam")]
+            listen = [r for r in m.get("extra_readings", []) if r in readings and readings[r].get("listen") and not readings[r].get("exam")]
             assert listen, m["id"]
             assert all(len(readings[r]["questions"]) >= 4 for r in listen), m["id"]

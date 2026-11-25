@@ -6,6 +6,13 @@
    "it": "Parla dieci lingue."
   }
  ],
+ "s_1006731": [
+  {
+   "author": "Guybrush88",
+   "id": "2681989",
+   "it": "Dov'è la tua camera?"
+  }
+ ],
  "s_1008747": [
   {
    "author": "Pharamp",
@@ -34,6 +41,13 @@
    "it": "Cosa vuole fare?"
   }
  ],
+ "s_1062078": [
+  {
+   "author": "riccioberto",
+   "id": "978329",
+   "it": "Vive qui?"
+  }
+ ],
  "s_1068375": [
   {
    "author": "Pharamp",
@@ -53,6 +67,13 @@
    "author": "Guybrush88",
    "id": "717437",
    "it": "Ho due libri."
+  }
+ ],
+ "s_1101599": [
+  {
+   "author": "Guybrush88",
+   "id": "748193",
+   "it": "La vita non è una passeggiata."
   }
  ],
  "s_1107219": [
@@ -98,6 +119,13 @@
    "author": "Guybrush88",
    "id": "1137561",
    "it": "Lei ha una foto."
+  }
+ ],
+ "s_1170293": [
+  {
+   "author": "Guybrush88",
+   "id": "1260047",
+   "it": "Io sono un uomo libero."
   }
  ],
  "s_1187115": [
@@ -1331,6 +1359,25 @@
    "it": "A me non piacciono i bambini viziati."
   }
  ],
+ "s_350764": [
+  {
+   "author": "Guybrush88",
+   "id": "1233789",
+   "it": "Io voglio una chitarra."
+  }
+ ],
+ "s_350953": [
+  {
+   "author": "martin",
+   "id": "350954",
+   "it": "Che fai?"
+  },
+  {
+   "author": "megamanenm",
+   "id": "376072",
+   "it": "Cosa stai facendo?"
+  }
+ ],
  "s_3518897": [
   {
    "author": "Guybrush88",
@@ -1465,6 +1512,13 @@
    "it": "Quando è il tuo compleanno?"
   }
  ],
+ "s_374328": [
+  {
+   "author": "Guybrush88",
+   "id": "1922258",
+   "it": "A me piace il tennis."
+  }
+ ],
  "s_374434": [
   {
    "author": "Guybrush88",
@@ -1477,6 +1531,13 @@
    "author": "Guybrush88",
    "id": "1122321",
    "it": "Ho 19 anni."
+  }
+ ],
+ "s_374688": [
+  {
+   "author": "Guybrush88",
+   "id": "2808996",
+   "it": "Lui ha otto anni."
   }
  ],
  "s_374689": [
@@ -1521,6 +1582,30 @@
    "it": "I miei genitori sono vecchi."
   }
  ],
+ "s_377217": [
+  {
+   "author": "dnnywld",
+   "id": "5455881",
+   "it": "Lui ha un cane."
+  }
+ ],
+ "s_378125": [
+  {
+   "author": "Guybrush88",
+   "id": "3433197",
+   "it": "Benvenuta a casa."
+  },
+  {
+   "author": "Guybrush88",
+   "id": "3433198",
+   "it": "Benvenuti a casa."
+  },
+  {
+   "author": "Guybrush88",
+   "id": "3433199",
+   "it": "Benvenute a casa."
+  }
+ ],
  "s_378148": [
   {
    "author": "Guybrush88",
@@ -1540,6 +1625,13 @@
    "author": "Guybrush88",
    "id": "4461",
    "it": "Vorrei studiare a Parigi."
+  }
+ ],
+ "s_380234": [
+  {
+   "author": "Pharamp",
+   "id": "4448",
+   "it": "Mi fa male la testa."
   }
  ],
  "s_380537": [
@@ -1698,6 +1790,13 @@
    "author": "Pharamp",
    "id": "380348",
    "it": "È perché sei una ragazza."
+  }
+ ],
+ "s_433049": [
+  {
+   "author": "Guybrush88",
+   "id": "1669232",
+   "it": "A me non piace il caffè."
   }
  ],
  "s_4333778": [
@@ -2011,6 +2110,13 @@
    "it": "Legge l'arabo."
   }
  ],
+ "s_725569": [
+  {
+   "author": "riccioberto",
+   "id": "978308",
+   "it": "Dov'è tuo fratello?"
+  }
+ ],
  "s_726372": [
   {
    "author": "Guybrush88",
@@ -2142,6 +2248,13 @@
    "author": "Guybrush88",
    "id": "7681452",
    "it": "Siamo nati nello stesso anno."
+  }
+ ],
+ "s_769350": [
+  {
+   "author": "Guybrush88",
+   "id": "1871597",
+   "it": "Io non ho paura."
   }
  ],
  "s_7766399": [
@@ -2283,6 +2396,13 @@
    "author": "Guybrush88",
    "id": "976857",
    "it": "È uno storico."
+  }
+ ],
+ "s_978308": [
+  {
+   "author": "rado",
+   "id": "725569",
+   "it": "Dove è tuo fratello?"
   }
  ],
  "s_993614": [

@@ -1,0 +1,1839 @@
+{
+ "fecha": "2026-11-25",
+ "revisor": "llm-audit (Claude, sesión principal)",
+ "alcance": "Frases A1 de Tatoeba con audio humano (NM1, CC BY 4.0) que la app no usaba: candidatas por módulo (3–9 palabras, prefiltro A1, punto del módulo presente), hasta 29 por módulo.",
+ "criterios": "keep = italiano correcto, natural y de A1 para su módulo (si la traducción no era directa, «es» es mía desde el italiano); reject = imperativos o clíticos antes de tiempo, modismos, léxico de B1, frases raras o casi repetidas.",
+ "veredictos": [
+  {
+   "id": "s_395924",
+   "module": "m06",
+   "it": "Chi sono io?",
+   "v": "keep",
+   "audio": "993429"
+  },
+  {
+   "id": "s_611012",
+   "module": "m06",
+   "it": "Che cosa fa?",
+   "v": "keep",
+   "audio": "1001366"
+  },
+  {
+   "id": "s_1516976",
+   "module": "m06",
+   "it": "So la verità.",
+   "v": "keep",
+   "audio": "1001412"
+  },
+  {
+   "id": "s_617575",
+   "module": "m06",
+   "it": "Chi sono loro?",
+   "v": "keep",
+   "audio": "993444"
+  },
+  {
+   "id": "s_350770",
+   "module": "m06",
+   "it": "Domani è festa.",
+   "v": "keep",
+   "audio": "1009983"
+  },
+  {
+   "id": "s_376618",
+   "module": "m06",
+   "it": "È una sorpresa.",
+   "v": "keep",
+   "audio": "1001324"
+  },
+  {
+   "id": "s_4428",
+   "module": "m06",
+   "it": "Come ti chiami?",
+   "v": "keep",
+   "audio": "1003183"
+  },
+  {
+   "id": "s_381807",
+   "module": "m06",
+   "it": "Ciao! Come stai?",
+   "v": "keep",
+   "audio": "1001350",
+   "es": "¡Hola! ¿Cómo estás?"
+  },
+  {
+   "id": "s_4382",
+   "module": "m06",
+   "it": "Perché lo chiedi?",
+   "v": "keep",
+   "audio": "1000150"
+  },
+  {
+   "id": "s_1208919",
+   "module": "m06",
+   "it": "Chi è il prossimo?",
+   "v": "keep",
+   "audio": "993479"
+  },
+  {
+   "id": "s_373782",
+   "module": "m06",
+   "it": "Dov'è il problema?",
+   "v": "keep",
+   "audio": "1006374"
+  },
+  {
+   "id": "s_380660",
+   "module": "m06",
+   "it": "Sono un insegnante.",
+   "v": "keep",
+   "audio": "1000202"
+  },
+  {
+   "id": "s_409370",
+   "module": "m06",
+   "it": "Giochiamo a calcio!",
+   "v": "keep",
+   "audio": "1003243",
+   "es": "¡Juguemos al fútbol!"
+  },
+  {
+   "id": "s_978858",
+   "module": "m06",
+   "it": "OK. Sono d'accordo.",
+   "v": "keep",
+   "audio": "993463",
+   "es": "Ok. Estoy de acuerdo."
+  },
+  {
+   "id": "s_350764",
+   "module": "m06",
+   "it": "Voglio una chitarra.",
+   "v": "keep",
+   "audio": "1001292"
+  },
+  {
+   "id": "s_416588",
+   "module": "m06",
+   "it": "Cosa stai guardando?",
+   "v": "keep",
+   "audio": "1010042"
+  },
+  {
+   "id": "s_568596",
+   "module": "m06",
+   "it": "Noi studiamo musica.",
+   "v": "keep",
+   "audio": "1000224"
+  },
+  {
+   "id": "s_725569",
+   "module": "m06",
+   "it": "Dove è tuo fratello?",
+   "v": "keep",
+   "audio": "1010069"
+  },
+  {
+   "id": "s_1049256",
+   "module": "m06",
+   "it": "Cantiamo una canzone.",
+   "v": "keep",
+   "audio": "1003279"
+  },
+  {
+   "id": "s_1101599",
+   "module": "m06",
+   "it": "La vita non è facile.",
+   "v": "keep",
+   "audio": "1001396"
+  },
+  {
+   "id": "s_374009",
+   "module": "m04",
+   "it": "Com'è alto!",
+   "v": "keep",
+   "audio": "1001305",
+   "es": "¡Qué alto es!"
+  },
+  {
+   "id": "s_374464",
+   "module": "m04",
+   "it": "Sono un uomo.",
+   "v": "keep",
+   "audio": "993401",
+   "es": "Soy un hombre."
+  },
+  {
+   "id": "s_375297",
+   "module": "m04",
+   "it": "Ho una famiglia.",
+   "v": "keep",
+   "audio": "1001316"
+  },
+  {
+   "id": "s_375671",
+   "module": "m04",
+   "it": "Sono un ragazzo.",
+   "v": "keep",
+   "audio": "993406"
+  },
+  {
+   "id": "s_4492",
+   "module": "m04",
+   "it": "Sei il mio tipo.",
+   "v": "keep",
+   "audio": "1000153"
+  },
+  {
+   "id": "s_374572",
+   "module": "m04",
+   "it": "Nuotare è facile.",
+   "v": "keep",
+   "audio": "1003212"
+  },
+  {
+   "id": "s_378854",
+   "module": "m04",
+   "it": "Vogliamo un'auto.",
+   "v": "keep",
+   "audio": "1000191",
+   "es": "Queremos un auto."
+  },
+  {
+   "id": "s_4385",
+   "module": "m04",
+   "it": "Non è importante.",
+   "v": "keep",
+   "audio": "1003182"
+  },
+  {
+   "id": "s_375355",
+   "module": "m04",
+   "it": "Nessuno mi capisce.",
+   "v": "keep",
+   "audio": "1010005"
+  },
+  {
+   "id": "s_384865",
+   "module": "m04",
+   "it": "Tom è un mio amico.",
+   "v": "keep",
+   "audio": "1001353"
+  },
+  {
+   "id": "s_643156",
+   "module": "m04",
+   "it": "Lei ha sette figli.",
+   "v": "keep",
+   "audio": "1003963",
+   "es": "Ella tiene siete hijos."
+  },
+  {
+   "id": "s_978308",
+   "module": "m04",
+   "it": "Dov'è tuo fratello?",
+   "v": "keep",
+   "audio": "1006462"
+  },
+  {
+   "id": "s_1170293",
+   "module": "m04",
+   "it": "Sono un uomo libero.",
+   "v": "keep",
+   "audio": "1000263"
+  },
+  {
+   "id": "s_381431",
+   "module": "m04",
+   "it": "Sei un bravo ragazzo.",
+   "v": "keep",
+   "audio": "1003934"
+  },
+  {
+   "id": "s_373767",
+   "module": "m04",
+   "it": "Suo figlio è un genio.",
+   "v": "keep",
+   "audio": "1004653"
+  },
+  {
+   "id": "s_934579",
+   "module": "m04",
+   "it": "Le auguro buona fortuna.",
+   "v": "reject",
+   "nota": "Clítico de cortesía «Le auguro»: A2."
+  },
+  {
+   "id": "s_377170",
+   "module": "m04",
+   "it": "Mia madre non può venire.",
+   "v": "keep",
+   "audio": "1006400"
+  },
+  {
+   "id": "s_736756",
+   "module": "m04",
+   "it": "Desidero essere migliore.",
+   "v": "reject",
+   "nota": "Poco natural."
+  },
+  {
+   "id": "s_350606",
+   "module": "m04",
+   "it": "Le sue scarpe sono marroni.",
+   "v": "keep",
+   "audio": "1004642"
+  },
+  {
+   "id": "s_520882",
+   "module": "m04",
+   "it": "Lei è la mia migliore amica.",
+   "v": "keep",
+   "audio": "1006430"
+  },
+  {
+   "id": "s_4278250",
+   "module": "m07",
+   "it": "È un fiume?",
+   "v": "keep",
+   "audio": "1001456",
+   "es": "¿Es un río?"
+  },
+  {
+   "id": "s_1062078",
+   "module": "m07",
+   "it": "Lui vive qui?",
+   "v": "keep",
+   "audio": "1003280"
+  },
+  {
+   "id": "s_1276454",
+   "module": "m07",
+   "it": "È di mio padre.",
+   "v": "keep",
+   "audio": "1004001"
+  },
+  {
+   "id": "s_378859",
+   "module": "m07",
+   "it": "Ha una macchina.",
+   "v": "keep",
+   "audio": "993412"
+  },
+  {
+   "id": "s_378125",
+   "module": "m07",
+   "it": "Benvenuto a casa.",
+   "v": "keep",
+   "audio": "993409"
+  },
+  {
+   "id": "s_4422",
+   "module": "m07",
+   "it": "È lontana da qui?",
+   "v": "keep",
+   "audio": "1004635"
+  },
+  {
+   "id": "s_707927",
+   "module": "m07",
+   "it": "Di cosa si tratta?",
+   "v": "reject",
+   "nota": "«si tratta di»: B1."
+  },
+  {
+   "id": "s_791282",
+   "module": "m07",
+   "it": "Il tavolo è verde.",
+   "v": "keep",
+   "audio": "1004714"
+  },
+  {
+   "id": "s_926998",
+   "module": "m07",
+   "it": "Puoi studiare qui.",
+   "v": "keep",
+   "audio": "1004715"
+  },
+  {
+   "id": "s_506016",
+   "module": "m07",
+   "it": "C'è dello zucchero?",
+   "v": "keep",
+   "audio": "1003954"
+  },
+  {
+   "id": "s_1006731",
+   "module": "m07",
+   "it": "Dov'è la tua stanza?",
+   "v": "keep",
+   "audio": "1004724"
+  },
+  {
+   "id": "s_1015712",
+   "module": "m07",
+   "it": "Vedo la televisione.",
+   "v": "keep",
+   "audio": "1003986",
+   "es": "Veo la televisión."
+  },
+  {
+   "id": "s_3533142",
+   "module": "m07",
+   "it": "Sto venendo per Tom.",
+   "v": "reject",
+   "nota": "Poco natural."
+  },
+  {
+   "id": "s_373718",
+   "module": "m07",
+   "it": "Dov'è la tua scuola?",
+   "v": "keep",
+   "audio": "1006372"
+  },
+  {
+   "id": "s_1271184",
+   "module": "m07",
+   "it": "Quella casa è grande.",
+   "v": "keep",
+   "audio": "1003291"
+  },
+  {
+   "id": "s_383479",
+   "module": "m07",
+   "it": "Mi sento di piangere.",
+   "v": "reject",
+   "nota": "«sentirsi di»: B1."
+  },
+  {
+   "id": "s_4393",
+   "module": "m07",
+   "it": "È un gioco di parole.",
+   "v": "keep",
+   "audio": "1000151"
+  },
+  {
+   "id": "s_387541",
+   "module": "m07",
+   "it": "La casa sta bruciando.",
+   "v": "keep",
+   "audio": "1006414"
+  },
+  {
+   "id": "s_741751",
+   "module": "m07",
+   "it": "Sono contro la guerra.",
+   "v": "keep",
+   "audio": "1004711"
+  },
+  {
+   "id": "s_373716",
+   "module": "m07",
+   "it": "Questa è la mia scuola.",
+   "v": "keep",
+   "audio": "1003891"
+  },
+  {
+   "id": "s_4398",
+   "module": "m01",
+   "it": "Sei un angelo!",
+   "v": "keep",
+   "audio": "1001283"
+  },
+  {
+   "id": "s_3505216",
+   "module": "m01",
+   "it": "Non mi cercare.",
+   "v": "reject",
+   "nota": "Imperativo negativo con clítico: fuera del m01."
+  },
+  {
+   "id": "s_377187",
+   "module": "m01",
+   "it": "Siamo vecchi amici.",
+   "v": "keep",
+   "audio": "1003916"
+  },
+  {
+   "id": "s_373855",
+   "module": "m01",
+   "it": "Non abbiamo zucchero.",
+   "v": "keep",
+   "audio": "1003202"
+  },
+  {
+   "id": "s_1111479",
+   "module": "m01",
+   "it": "Tom mangia molto poco.",
+   "v": "keep",
+   "audio": "1006479"
+  },
+  {
+   "id": "s_1870180",
+   "module": "m01",
+   "it": "Non è semplice la risposta?",
+   "v": "reject",
+   "nota": "Orden poco natural."
+  },
+  {
+   "id": "s_5446856",
+   "module": "m01",
+   "it": "Ho le chiavi.",
+   "v": "keep",
+   "audio": "1001466",
+   "es": "Tengo las llaves."
+  },
+  {
+   "id": "s_3532957",
+   "module": "m01",
+   "it": "Hai a che farci.",
+   "v": "reject",
+   "nota": "Modismo («avere a che farci»)."
+  },
+  {
+   "id": "s_630125",
+   "module": "m01",
+   "it": "Lei non è povera.",
+   "v": "keep",
+   "audio": "1000229",
+   "es": "Ella no es pobre."
+  },
+  {
+   "id": "s_3533129",
+   "module": "m01",
+   "it": "Non sono fotogenico.",
+   "v": "keep",
+   "audio": "1004036",
+   "es": "No soy fotogénico."
+  },
+  {
+   "id": "s_1512364",
+   "module": "m01",
+   "it": "Me lo chiedono tutti.",
+   "v": "reject",
+   "nota": "Clíticos combinados («me lo»): B1."
+  },
+  {
+   "id": "s_379538",
+   "module": "m01",
+   "it": "Devono essere felici.",
+   "v": "reject",
+   "nota": "Modal antes de verlo (m06)."
+  },
+  {
+   "id": "s_3532966",
+   "module": "m01",
+   "it": "Sei solo un marmocchio.",
+   "v": "reject",
+   "nota": "«marmocchio»: léxico poco útil."
+  },
+  {
+   "id": "s_3533189",
+   "module": "m01",
+   "it": "Possiamo cominciare ora?",
+   "v": "keep",
+   "audio": "1010136",
+   "es": "¿Podemos empezar ahora?"
+  },
+  {
+   "id": "s_4426",
+   "module": "m05",
+   "it": "Che ore sono?",
+   "v": "keep",
+   "audio": "1001284"
+  },
+  {
+   "id": "s_662785",
+   "module": "m05",
+   "it": "Oggi è sabato.",
+   "v": "keep",
+   "audio": "1003964"
+  },
+  {
+   "id": "s_350953",
+   "module": "m05",
+   "it": "Che stai facendo?",
+   "v": "keep",
+   "audio": "1003884"
+  },
+  {
+   "id": "s_373963",
+   "module": "m05",
+   "it": "Sono libero oggi.",
+   "v": "keep",
+   "audio": "1000166",
+   "es": "Hoy estoy libre."
+  },
+  {
+   "id": "s_409423",
+   "module": "m05",
+   "it": "Domani è domenica.",
+   "v": "keep",
+   "audio": "1004693"
+  },
+  {
+   "id": "s_374473",
+   "module": "m05",
+   "it": "Mi sento bene oggi.",
+   "v": "keep",
+   "audio": "1003211"
+  },
+  {
+   "id": "s_1109912",
+   "module": "m05",
+   "it": "Tom sta migliorando.",
+   "v": "keep",
+   "audio": "1003286"
+  },
+  {
+   "id": "s_374190",
+   "module": "m05",
+   "it": "Si lamentano sempre.",
+   "v": "keep",
+   "audio": "1006378",
+   "es": "Siempre se quejan."
+  },
+  {
+   "id": "s_376588",
+   "module": "m05",
+   "it": "Sta guardando la TV.",
+   "v": "keep",
+   "audio": "1003221"
+  },
+  {
+   "id": "s_392465",
+   "module": "m05",
+   "it": "La donna sta leggendo.",
+   "v": "keep",
+   "audio": "1006415"
+  },
+  {
+   "id": "s_374307",
+   "module": "m05",
+   "it": "Sono libero la domenica.",
+   "v": "keep",
+   "audio": "1003900",
+   "es": "Estoy libre los domingos."
+  },
+  {
+   "id": "s_374471",
+   "module": "m05",
+   "it": "Oggi è piovoso.",
+   "v": "reject",
+   "nota": "«piovoso» poco natural aquí."
+  },
+  {
+   "id": "s_374468",
+   "module": "m05",
+   "it": "Oggi è nuvoloso.",
+   "v": "keep",
+   "audio": "1003210",
+   "es": "Hoy está nublado."
+  },
+  {
+   "id": "s_379527",
+   "module": "m05",
+   "it": "È sempre felice.",
+   "v": "keep",
+   "audio": "1003925",
+   "es": "Él siempre está feliz."
+  },
+  {
+   "id": "s_4617589",
+   "module": "m05",
+   "it": "Tom è OK adesso.",
+   "v": "reject",
+   "nota": "Anglicismo «OK»."
+  },
+  {
+   "id": "s_963498",
+   "module": "m05",
+   "it": "Lei scrive bene.",
+   "v": "keep",
+   "audio": "1000245",
+   "es": "Ella escribe bien."
+  },
+  {
+   "id": "s_3533047",
+   "module": "m05",
+   "it": "Ti sbagli ancora.",
+   "v": "reject",
+   "nota": "Pronominal «sbagliarsi»: A2."
+  },
+  {
+   "id": "s_1317182",
+   "module": "m05",
+   "it": "Ora sto studiando.",
+   "v": "keep",
+   "audio": "1003296",
+   "es": "Ahora estoy estudiando."
+  },
+  {
+   "id": "s_410789",
+   "module": "m05",
+   "it": "Mi sto sbagliando?",
+   "v": "reject",
+   "nota": "Pronominal en progresivo: A2."
+  },
+  {
+   "id": "s_967260",
+   "module": "m05",
+   "it": "Mi sveglio presto.",
+   "v": "keep",
+   "audio": "1001385",
+   "es": "Me despierto temprano."
+  },
+  {
+   "id": "s_379664",
+   "module": "m03",
+   "it": "Tutto lo zucchero è dolce.",
+   "v": "reject",
+   "nota": "Frase rara."
+  },
+  {
+   "id": "s_350445",
+   "module": "m03",
+   "it": "Unisciti a noi.",
+   "v": "reject",
+   "nota": "Imperativo reflexivo: B1."
+  },
+  {
+   "id": "s_5689166",
+   "module": "m03",
+   "it": "Dammi la palla.",
+   "v": "reject",
+   "nota": "Imperativo con clítico."
+  },
+  {
+   "id": "s_3533009",
+   "module": "m03",
+   "it": "Conosci le regole.",
+   "v": "keep",
+   "audio": "1004785",
+   "es": "Conoces las reglas."
+  },
+  {
+   "id": "s_987155",
+   "module": "m03",
+   "it": "Il voto è unanime.",
+   "v": "reject",
+   "nota": "Léxico de B1 («unanime»)."
+  },
+  {
+   "id": "s_1071729",
+   "module": "m03",
+   "it": "Amo questo dipinto.",
+   "v": "keep",
+   "audio": "1004726",
+   "es": "Amo esta pintura."
+  },
+  {
+   "id": "s_1198596",
+   "module": "m03",
+   "it": "Qualcuno lo conosce?",
+   "v": "reject",
+   "nota": "Clítico «lo» fuera del tema."
+  },
+  {
+   "id": "s_5254115",
+   "module": "m03",
+   "it": "Lo zucchero è veleno?",
+   "v": "reject",
+   "nota": "Frase rara."
+  },
+  {
+   "id": "s_376596",
+   "module": "m03",
+   "it": "Questo video è noioso.",
+   "v": "keep",
+   "audio": "1006397",
+   "es": "Este video es aburrido."
+  },
+  {
+   "id": "s_691468",
+   "module": "m03",
+   "it": "Assaggia questa salsa.",
+   "v": "reject",
+   "nota": "Imperativo: m11."
+  },
+  {
+   "id": "s_5574040",
+   "module": "m03",
+   "it": "I libri mi affascinano.",
+   "v": "reject",
+   "nota": "Léxico de B1."
+  },
+  {
+   "id": "s_1208593",
+   "module": "m03",
+   "it": "Posso usare il telefono?",
+   "v": "keep",
+   "audio": "1004739",
+   "es": "¿Puedo usar el teléfono?"
+  },
+  {
+   "id": "s_375686",
+   "module": "m03",
+   "it": "Posso usare questa bici?",
+   "v": "keep",
+   "audio": "1004670",
+   "es": "¿Puedo usar esta bicicleta?"
+  },
+  {
+   "id": "s_380831",
+   "module": "m03",
+   "it": "Distruggi questo tempio.",
+   "v": "reject",
+   "nota": "Frase rara."
+  },
+  {
+   "id": "s_632017",
+   "module": "m03",
+   "it": "Queste mele sono grandi.",
+   "v": "keep",
+   "audio": "1006440",
+   "es": "Estas manzanas son grandes."
+  },
+  {
+   "id": "s_3532920",
+   "module": "m03",
+   "it": "Puoi lasciare andare Tom.",
+   "v": "reject",
+   "nota": "«lasciare andare»: B1."
+  },
+  {
+   "id": "s_2193169",
+   "module": "m03",
+   "it": "Tom non riesce a decidere.",
+   "v": "reject",
+   "nota": "«riuscire a»: A2."
+  },
+  {
+   "id": "s_380830",
+   "module": "m03",
+   "it": "Distruggete questo tempio.",
+   "v": "reject",
+   "nota": "Frase rara e imperativo de «voi»."
+  },
+  {
+   "id": "s_409592",
+   "module": "m03",
+   "it": "Posso usare questa matita?",
+   "v": "keep",
+   "audio": "1010038",
+   "es": "¿Puedo usar este lápiz?"
+  },
+  {
+   "id": "s_3533183",
+   "module": "m03",
+   "it": "Possiamo chiudere a chiave questa porta?",
+   "v": "reject",
+   "nota": "«chiudere a chiave»: B1."
+  },
+  {
+   "id": "s_373495",
+   "module": "m10",
+   "it": "Ho un cane.",
+   "v": "keep",
+   "audio": "994212"
+  },
+  {
+   "id": "s_377217",
+   "module": "m10",
+   "it": "Ha un cane.",
+   "v": "keep",
+   "audio": "993408"
+  },
+  {
+   "id": "s_519544",
+   "module": "m10",
+   "it": "Ho un libro.",
+   "v": "keep",
+   "audio": "1000222"
+  },
+  {
+   "id": "s_1272326",
+   "module": "m10",
+   "it": "Non ho sonno.",
+   "v": "keep",
+   "audio": "1000267"
+  },
+  {
+   "id": "s_375678",
+   "module": "m10",
+   "it": "Non hai sete?",
+   "v": "keep",
+   "audio": "1003911"
+  },
+  {
+   "id": "s_769350",
+   "module": "m10",
+   "it": "Non ho paura.",
+   "v": "keep",
+   "audio": "1000235"
+  },
+  {
+   "id": "s_617569",
+   "module": "m10",
+   "it": "Vedo un leone.",
+   "v": "keep",
+   "audio": "994224"
+  },
+  {
+   "id": "s_373930",
+   "module": "m10",
+   "it": "Dammi il libro.",
+   "v": "reject",
+   "nota": "Imperativo con clítico: m11."
+  },
+  {
+   "id": "s_373931",
+   "module": "m10",
+   "it": "Dov'è il libro?",
+   "v": "keep",
+   "audio": "1003896"
+  },
+  {
+   "id": "s_374197",
+   "module": "m10",
+   "it": "Ho sempre fame.",
+   "v": "keep",
+   "audio": "1003206",
+   "es": "Siempre tengo hambre."
+  },
+  {
+   "id": "s_5455881",
+   "module": "m10",
+   "it": "Lui ha un cane.",
+   "v": "reject",
+   "nota": "Casi igual a s_377217."
+  },
+  {
+   "id": "s_380234",
+   "module": "m10",
+   "it": "Ho mal di testa.",
+   "v": "keep",
+   "audio": "1000200"
+  },
+  {
+   "id": "s_1002979",
+   "module": "m10",
+   "it": "Come sta il cane?",
+   "v": "keep",
+   "audio": "1000250"
+  },
+  {
+   "id": "s_1310208",
+   "module": "m10",
+   "it": "Lavatevi i piedi.",
+   "v": "reject",
+   "nota": "Imperativo reflexivo de «voi»."
+  },
+  {
+   "id": "s_373941",
+   "module": "m10",
+   "it": "Il libro è facile.",
+   "v": "keep",
+   "audio": "1003204"
+  },
+  {
+   "id": "s_374478",
+   "module": "m10",
+   "it": "Ho lezione domani.",
+   "v": "keep",
+   "audio": "1009999"
+  },
+  {
+   "id": "s_1101898",
+   "module": "m10",
+   "it": "Mio padre è medico.",
+   "v": "keep",
+   "audio": "1006475"
+  },
+  {
+   "id": "s_409884",
+   "module": "m10",
+   "it": "Oggi fa molto caldo.",
+   "v": "keep",
+   "audio": "1004694"
+  },
+  {
+   "id": "s_373934",
+   "module": "m10",
+   "it": "Questo libro è nuovo.",
+   "v": "keep",
+   "audio": "1001302"
+  },
+  {
+   "id": "s_914298",
+   "module": "m10",
+   "it": "Mi fa male la spalla.",
+   "v": "keep",
+   "audio": "1003265"
+  },
+  {
+   "id": "s_377254",
+   "module": "m09",
+   "it": "È molto bella.",
+   "v": "keep",
+   "audio": "1000182"
+  },
+  {
+   "id": "s_375656",
+   "module": "m09",
+   "it": "Lei parla molto.",
+   "v": "keep",
+   "audio": "1001319"
+  },
+  {
+   "id": "s_379242",
+   "module": "m09",
+   "it": "È molto occupata.",
+   "v": "keep",
+   "audio": "1003231"
+  },
+  {
+   "id": "s_373487",
+   "module": "m09",
+   "it": "Vai troppo lontano.",
+   "v": "keep",
+   "audio": "1006369"
+  },
+  {
+   "id": "s_375631",
+   "module": "m09",
+   "it": "Posso correre con te?",
+   "v": "keep",
+   "audio": "1003910"
+  },
+  {
+   "id": "s_433298",
+   "module": "m09",
+   "it": "Sono troppo occupato per andare.",
+   "v": "keep",
+   "audio": "1003946"
+  },
+  {
+   "id": "s_628787",
+   "module": "m09",
+   "it": "Penso a te.",
+   "v": "keep",
+   "audio": "1004704",
+   "es": "Pienso en ti."
+  },
+  {
+   "id": "s_377251",
+   "module": "m09",
+   "it": "È molto onesto.",
+   "v": "keep",
+   "audio": "1003223",
+   "es": "Él es muy honesto."
+  },
+  {
+   "id": "s_5873911",
+   "module": "m09",
+   "it": "Io parlo molto.",
+   "v": "keep",
+   "audio": "994239",
+   "es": "Yo hablo mucho."
+  },
+  {
+   "id": "s_602528",
+   "module": "m09",
+   "it": "Ho molti sogni.",
+   "v": "keep",
+   "audio": "1003961",
+   "es": "Tengo muchos sueños."
+  },
+  {
+   "id": "s_374005",
+   "module": "m09",
+   "it": "Sono molto alto.",
+   "v": "keep",
+   "audio": "1000168",
+   "es": "Soy muy alto."
+  },
+  {
+   "id": "s_5976881",
+   "module": "m09",
+   "it": "Non mangio molto.",
+   "v": "keep",
+   "audio": "1003379",
+   "es": "No como mucho."
+  },
+  {
+   "id": "s_3052709",
+   "module": "m09",
+   "it": "Sono troppo basso.",
+   "v": "keep",
+   "audio": "1000302",
+   "es": "Soy demasiado bajo."
+  },
+  {
+   "id": "s_375629",
+   "module": "m09",
+   "it": "Puoi venire con me.",
+   "v": "keep",
+   "audio": "1006390",
+   "es": "Puedes venir conmigo."
+  },
+  {
+   "id": "s_896800",
+   "module": "m09",
+   "it": "È un regalo per te.",
+   "v": "keep",
+   "audio": "1006456",
+   "es": "Es un regalo para ti."
+  },
+  {
+   "id": "s_1109826",
+   "module": "m09",
+   "it": "Tom è molto gentile.",
+   "v": "keep",
+   "audio": "1001399",
+   "es": "Tom es muy amable."
+  },
+  {
+   "id": "s_376558",
+   "module": "m09",
+   "it": "La lettera è per me.",
+   "v": "keep",
+   "audio": "1006396",
+   "es": "La carta es para mí."
+  },
+  {
+   "id": "s_378656",
+   "module": "m09",
+   "it": "Sono molto occupato.",
+   "v": "keep",
+   "audio": "1000189",
+   "es": "Estoy muy ocupado."
+  },
+  {
+   "id": "s_3869912",
+   "module": "m09",
+   "it": "Dov'è la mia giacca?",
+   "v": "keep",
+   "audio": "1001451",
+   "es": "¿Dónde está mi chaqueta?"
+  },
+  {
+   "id": "s_703610",
+   "module": "m09",
+   "it": "Voglio molto di più.",
+   "v": "reject",
+   "nota": "«molto di più»: A2."
+  },
+  {
+   "id": "s_987822",
+   "module": "m08",
+   "it": "Non ho sorelle.",
+   "v": "keep",
+   "audio": "1003273"
+  },
+  {
+   "id": "s_380183",
+   "module": "m08",
+   "it": "La cena è pronta.",
+   "v": "keep",
+   "audio": "1000198"
+  },
+  {
+   "id": "s_1006734",
+   "module": "m08",
+   "it": "È davvero orribile.",
+   "v": "keep",
+   "audio": "1006467"
+  },
+  {
+   "id": "s_373876",
+   "module": "m08",
+   "it": "È un errore comune.",
+   "v": "keep",
+   "audio": "1009989"
+  },
+  {
+   "id": "s_374328",
+   "module": "m08",
+   "it": "Mi piace il tennis.",
+   "v": "keep",
+   "audio": "1000173"
+  },
+  {
+   "id": "s_3018887",
+   "module": "m08",
+   "it": "Tom sembra annoiato.",
+   "v": "keep",
+   "audio": "1001429",
+   "es": "Tom parece aburrido."
+  },
+  {
+   "id": "s_375247",
+   "module": "m08",
+   "it": "Questo è il Giappone.",
+   "v": "keep",
+   "audio": "1000176",
+   "es": "Esto es Japón."
+  },
+  {
+   "id": "s_4333777",
+   "module": "m08",
+   "it": "Non c'è alcun errore.",
+   "v": "reject",
+   "nota": "«alcun»: B1."
+  },
+  {
+   "id": "s_375462",
+   "module": "m08",
+   "it": "Non mi piace l'estate.",
+   "v": "keep",
+   "audio": "1004667"
+  },
+  {
+   "id": "s_433049",
+   "module": "m08",
+   "it": "Non mi piace il caffè.",
+   "v": "keep",
+   "audio": "1001361"
+  },
+  {
+   "id": "s_691467",
+   "module": "m08",
+   "it": "Le banane sono gialle.",
+   "v": "keep",
+   "audio": "1003969"
+  },
+  {
+   "id": "s_430302",
+   "module": "m08",
+   "it": "Questi insetti pungono?",
+   "v": "keep",
+   "audio": "1010047"
+  },
+  {
+   "id": "s_433542",
+   "module": "m08",
+   "it": "Sto mangiando una mela.",
+   "v": "keep",
+   "audio": "1004696"
+  },
+  {
+   "id": "s_2379822",
+   "module": "m08",
+   "it": "Mi piace la pizza fredda.",
+   "v": "keep",
+   "audio": "1003314"
+  },
+  {
+   "id": "s_693921",
+   "module": "m08",
+   "it": "Ho bisogno di un coltello.",
+   "v": "keep",
+   "audio": "1000232"
+  },
+  {
+   "id": "s_965245",
+   "module": "m08",
+   "it": "Ha del tonno?",
+   "v": "keep",
+   "audio": "1006460",
+   "es": "¿Tiene atún?"
+  },
+  {
+   "id": "s_2192950",
+   "module": "m08",
+   "it": "Avete del tonno?",
+   "v": "keep",
+   "audio": "1006499",
+   "es": "¿Tienen atún?"
+  },
+  {
+   "id": "s_1272422",
+   "module": "m08",
+   "it": "Lui è giapponese?",
+   "v": "keep",
+   "audio": "1000277",
+   "es": "¿Él es japonés?"
+  },
+  {
+   "id": "s_1274721",
+   "module": "m08",
+   "it": "È una dottoressa?",
+   "v": "keep",
+   "audio": "1001405",
+   "es": "¿Es doctora?"
+  },
+  {
+   "id": "s_2055948",
+   "module": "m08",
+   "it": "Vi piace l'estate?",
+   "v": "keep",
+   "audio": "1004011",
+   "es": "¿Les gusta el verano?"
+  },
+  {
+   "id": "s_940956",
+   "module": "m12",
+   "it": "Posso lasciare un messaggio?",
+   "v": "keep",
+   "audio": "1006459"
+  },
+  {
+   "id": "s_884238",
+   "module": "m12",
+   "it": "Posso avere un sacchetto di carta?",
+   "v": "keep",
+   "audio": "1010075",
+   "es": "¿Puedo tener una bolsa de papel?"
+  },
+  {
+   "id": "s_1529209",
+   "module": "m12",
+   "it": "La rete è enorme.",
+   "v": "reject",
+   "nota": "Frase rara."
+  },
+  {
+   "id": "s_374606",
+   "module": "m12",
+   "it": "La radio è troppo alta.",
+   "v": "keep",
+   "audio": "1010001",
+   "es": "La radio está demasiado alta."
+  },
+  {
+   "id": "s_476132",
+   "module": "m12",
+   "it": "La carta è facile da bruciare.",
+   "v": "reject",
+   "nota": "«facile da» + infinitivo: A2."
+  },
+  {
+   "id": "s_374688",
+   "module": "m02",
+   "it": "Ha otto anni.",
+   "v": "keep",
+   "audio": "993403"
+  },
+  {
+   "id": "s_430078",
+   "module": "m02",
+   "it": "Le mele sono rosse.",
+   "v": "keep",
+   "audio": "1000217"
+  },
+  {
+   "id": "s_1894907",
+   "module": "m02",
+   "it": "È un'arma.",
+   "v": "keep",
+   "audio": "1000289",
+   "es": "Es un arma."
+  },
+  {
+   "id": "s_3498471",
+   "module": "m02",
+   "it": "Dammi un'ora.",
+   "v": "reject",
+   "nota": "Imperativo con clítico (dammi): m11."
+  },
+  {
+   "id": "s_379738",
+   "module": "m02",
+   "it": "Ha dieci mucche.",
+   "v": "keep",
+   "audio": "1001336",
+   "es": "Tiene diez vacas."
+  },
+  {
+   "id": "s_6866924",
+   "module": "m02",
+   "it": "Fate un'offerta.",
+   "v": "reject",
+   "nota": "Imperativo de «voi»."
+  },
+  {
+   "id": "s_5551662",
+   "module": "m02",
+   "it": "Tom è uno psicologo.",
+   "v": "keep",
+   "audio": "1010159",
+   "es": "Tom es un psicólogo."
+  },
+  {
+   "id": "s_375243",
+   "module": "m02",
+   "it": "Entrambe le storie sono vere.",
+   "v": "keep",
+   "audio": "1006389",
+   "es": "Las dos historias son verdaderas."
+  },
+  {
+   "id": "s_5586533",
+   "module": "m02",
+   "it": "Ho due macchine fotografiche.",
+   "v": "keep",
+   "audio": "1004067",
+   "es": "Tengo dos cámaras de fotos."
+  },
+  {
+   "id": "s_1113189",
+   "module": "m02",
+   "it": "Tom non sa leggere in francese.",
+   "v": "keep",
+   "audio": "1010090",
+   "es": "Tom no sabe leer en francés."
+  },
+  {
+   "id": "s_379723",
+   "module": "m11",
+   "it": "Apri la bocca!",
+   "v": "keep",
+   "audio": "1001334"
+  },
+  {
+   "id": "s_1001280",
+   "module": "m11",
+   "it": "Chiudi la bocca.",
+   "v": "keep",
+   "audio": "1001389"
+  },
+  {
+   "id": "s_378899",
+   "module": "m11",
+   "it": "Rispondi alla domanda.",
+   "v": "keep",
+   "audio": "1004679",
+   "es": "Responde a la pregunta."
+  },
+  {
+   "id": "s_377280",
+   "module": "m11",
+   "it": "Apri la finestra.",
+   "v": "keep",
+   "audio": "1001326",
+   "es": "Abre la ventana."
+  },
+  {
+   "id": "s_377289",
+   "module": "m11",
+   "it": "Chiudi la finestra.",
+   "v": "keep",
+   "audio": "1001327",
+   "es": "Cierra la ventana."
+  },
+  {
+   "id": "s_1198608",
+   "module": "m11",
+   "it": "Per favore, accendi una candela.",
+   "v": "keep",
+   "audio": "1010094",
+   "es": "Por favor, enciende una vela."
+  },
+  {
+   "id": "s_2398383",
+   "module": "m04",
+   "it": "Non è bello?",
+   "v": "keep",
+   "audio": "1004019",
+   "es": "¿No es hermoso?"
+  },
+  {
+   "id": "s_373838",
+   "module": "m04",
+   "it": "Non è nuovo.",
+   "v": "keep",
+   "audio": "994215",
+   "es": "No es nuevo."
+  },
+  {
+   "id": "s_374001",
+   "module": "m04",
+   "it": "Maria è alta.",
+   "v": "keep",
+   "audio": "994217",
+   "es": "María es alta."
+  },
+  {
+   "id": "s_3533157",
+   "module": "m04",
+   "it": "Non sono brutto.",
+   "v": "keep",
+   "audio": "994235",
+   "es": "No soy feo."
+  },
+  {
+   "id": "s_379525",
+   "module": "m04",
+   "it": "Mi sento felice.",
+   "v": "keep",
+   "audio": "994221",
+   "es": "Me siento feliz."
+  },
+  {
+   "id": "s_3532937",
+   "module": "m04",
+   "it": "Hai il mio casco.",
+   "v": "reject",
+   "nota": "Frase rara."
+  },
+  {
+   "id": "s_3533158",
+   "module": "m04",
+   "it": "Non sono giovane.",
+   "v": "keep",
+   "audio": "1000318",
+   "es": "No soy joven."
+  },
+  {
+   "id": "s_374000",
+   "module": "m04",
+   "it": "Mio padre è alto.",
+   "v": "keep",
+   "audio": "1003205",
+   "es": "Mi padre es alto."
+  },
+  {
+   "id": "s_1086091",
+   "module": "m04",
+   "it": "Lei sembra felice.",
+   "v": "keep",
+   "audio": "1000256",
+   "es": "Ella parece feliz."
+  },
+  {
+   "id": "s_376193",
+   "module": "m05",
+   "it": "Devo andare adesso.",
+   "v": "reject",
+   "nota": "Modal antes de verlo (m06)."
+  },
+  {
+   "id": "s_4263976",
+   "module": "m05",
+   "it": "Ti senti fortunato?",
+   "v": "keep",
+   "audio": "1003358",
+   "es": "¿Te sientes afortunado?"
+  },
+  {
+   "id": "s_374469",
+   "module": "m05",
+   "it": "Oggi sono fortunato.",
+   "v": "reject",
+   "nota": "La traducción no corresponde y es poco natural."
+  },
+  {
+   "id": "s_374474",
+   "module": "m05",
+   "it": "Mi sento meglio oggi.",
+   "v": "keep",
+   "audio": "1004664",
+   "es": "Hoy me siento mejor."
+  },
+  {
+   "id": "s_379882",
+   "module": "m05",
+   "it": "Corro tutti i giorni.",
+   "v": "keep",
+   "audio": "1001337",
+   "es": "Corro todos los días."
+  },
+  {
+   "id": "s_570367",
+   "module": "m05",
+   "it": "Stai andando anche tu?",
+   "v": "reject",
+   "nota": "Progresivo con «anche tu»: poco natural."
+  },
+  {
+   "id": "s_351263",
+   "module": "m05",
+   "it": "Non sono ancora pronto.",
+   "v": "keep",
+   "audio": "1003189",
+   "es": "Todavía no estoy listo."
+  },
+  {
+   "id": "s_3532985",
+   "module": "m05",
+   "it": "Adesso non puoi andare.",
+   "v": "reject",
+   "nota": "Modal antes de verlo (m06)."
+  },
+  {
+   "id": "s_3533188",
+   "module": "m05",
+   "it": "Posso passare la notte?",
+   "v": "reject",
+   "nota": "Modal antes de verlo (m06)."
+  },
+  {
+   "id": "s_380214",
+   "module": "m07",
+   "it": "Ti proibisco di fumare.",
+   "v": "reject",
+   "nota": "«proibire di»: B1."
+  },
+  {
+   "id": "s_377299",
+   "module": "m07",
+   "it": "Posso aprire la finestra?",
+   "v": "keep",
+   "audio": "1006402"
+  },
+  {
+   "id": "s_374256",
+   "module": "m07",
+   "it": "Persi la mia macchina fotografica.",
+   "v": "reject",
+   "nota": "Passato remoto."
+  },
+  {
+   "id": "s_378127",
+   "module": "m07",
+   "it": "Sono a casa.",
+   "v": "keep",
+   "audio": "993410",
+   "es": "Estoy en casa."
+  },
+  {
+   "id": "s_465462",
+   "module": "m07",
+   "it": "È libero qui?",
+   "v": "reject",
+   "nota": "El español no corresponde."
+  },
+  {
+   "id": "s_6018622",
+   "module": "m07",
+   "it": "Non sono qui.",
+   "v": "reject",
+   "nota": "Frase rara."
+  },
+  {
+   "id": "s_3365754",
+   "module": "m07",
+   "it": "Loro sono qui.",
+   "v": "keep",
+   "audio": "1000307",
+   "es": "Ellos están aquí."
+  },
+  {
+   "id": "s_373668",
+   "module": "m07",
+   "it": "Vado in città.",
+   "v": "keep",
+   "audio": "1003890",
+   "es": "Voy a la ciudad."
+  },
+  {
+   "id": "s_384567",
+   "module": "m07",
+   "it": "È nei problemi.",
+   "v": "reject",
+   "nota": "«essere nei problemi»: poco natural."
+  },
+  {
+   "id": "s_379646",
+   "module": "m08",
+   "it": "Voglio dell'acqua.",
+   "v": "keep",
+   "audio": "1003232",
+   "es": "Quiero agua."
+  },
+  {
+   "id": "s_691464",
+   "module": "m08",
+   "it": "Mi piace il pesce.",
+   "v": "keep",
+   "audio": "993448",
+   "es": "Me gusta el pescado."
+  },
+  {
+   "id": "s_1867236",
+   "module": "m08",
+   "it": "Mi serve del latte.",
+   "v": "keep",
+   "audio": "1001416",
+   "es": "Necesito leche."
+  },
+  {
+   "id": "s_1910151",
+   "module": "m08",
+   "it": "Devo aspettare qui.",
+   "v": "reject",
+   "nota": "Repite el patrón de otra frase; poco útil."
+  },
+  {
+   "id": "s_373746",
+   "module": "m08",
+   "it": "Ti piace la musica?",
+   "v": "keep",
+   "audio": "1003198",
+   "es": "¿Te gusta la música?"
+  },
+  {
+   "id": "s_378622",
+   "module": "m08",
+   "it": "Coltiviamo il riso.",
+   "v": "reject",
+   "nota": "Poco útil."
+  },
+  {
+   "id": "s_410242",
+   "module": "m08",
+   "it": "Mi piace la storia.",
+   "v": "keep",
+   "audio": "1000210",
+   "es": "Me gusta la historia."
+  },
+  {
+   "id": "s_4262809",
+   "module": "m08",
+   "it": "Mi piace la frutta.",
+   "v": "keep",
+   "audio": "994236",
+   "es": "Me gusta la fruta."
+  },
+  {
+   "id": "s_1073634",
+   "module": "m08",
+   "it": "Mi piacciono i film.",
+   "v": "keep",
+   "audio": "1000254",
+   "es": "Me gustan las películas."
+  },
+  {
+   "id": "s_704153",
+   "module": "m09",
+   "it": "Voglio quella borsa.",
+   "v": "keep",
+   "audio": "1001371",
+   "es": "Quiero esa bolsa."
+  },
+  {
+   "id": "s_3533156",
+   "module": "m09",
+   "it": "Anche a me manca Tom.",
+   "v": "reject",
+   "nota": "«mancare»: A2."
+  },
+  {
+   "id": "s_5677825",
+   "module": "m09",
+   "it": "Non ho bisogno di te.",
+   "v": "reject",
+   "nota": "Clítico tónico: m09 ya lo cubre con otras."
+  },
+  {
+   "id": "s_3533256",
+   "module": "m09",
+   "it": "La tua borsa è aperta.",
+   "v": "keep",
+   "audio": "1001446",
+   "es": "Tu bolso está abierto."
+  },
+  {
+   "id": "s_426705",
+   "module": "m09",
+   "it": "Questo per me è arabo.",
+   "v": "reject",
+   "nota": "Modismo."
+  },
+  {
+   "id": "s_2433745",
+   "module": "m09",
+   "it": "Dove sono i miei soldi?",
+   "v": "keep",
+   "audio": "1003316",
+   "es": "¿Dónde está mi dinero?"
+  },
+  {
+   "id": "s_5384548",
+   "module": "m09",
+   "it": "Tom è molto presuntuoso.",
+   "v": "reject",
+   "nota": "Léxico de B1."
+  },
+  {
+   "id": "s_1758124",
+   "module": "m09",
+   "it": "Non abbiamo bisogno di te.",
+   "v": "reject",
+   "nota": "Casi igual a otra frase."
+  },
+  {
+   "id": "s_2055931",
+   "module": "m09",
+   "it": "Anche a me piace la torta.",
+   "v": "keep",
+   "audio": "1001421",
+   "es": "A mí también me gusta la torta."
+  },
+  {
+   "id": "s_1298796",
+   "module": "m10",
+   "it": "Il cuore è un muscolo.",
+   "v": "keep",
+   "audio": "1010097"
+  },
+  {
+   "id": "s_373935",
+   "module": "m10",
+   "it": "Questo libro è piccolo.",
+   "v": "keep",
+   "audio": "1004655"
+  },
+  {
+   "id": "s_373938",
+   "module": "m10",
+   "it": "Questo libro è vecchio.",
+   "v": "keep",
+   "audio": "1003203"
+  },
+  {
+   "id": "s_3633971",
+   "module": "m10",
+   "it": "Il mio cavallo è bianco.",
+   "v": "keep",
+   "audio": "1003351"
+  },
+  {
+   "id": "s_357983",
+   "module": "m10",
+   "it": "Quanti anni ha quel cane?",
+   "v": "keep",
+   "audio": "1004645"
+  },
+  {
+   "id": "s_3665320",
+   "module": "m10",
+   "it": "Per favore, leggete quel libro.",
+   "v": "reject",
+   "nota": "Imperativo de «voi»: m11."
+  },
+  {
+   "id": "s_425386",
+   "module": "m10",
+   "it": "I tuoi capelli sono troppo lunghi.",
+   "v": "keep",
+   "audio": "1010043"
+  },
+  {
+   "id": "s_374526",
+   "module": "m10",
+   "it": "È un libro.",
+   "v": "reject",
+   "nota": "Demasiado obvia."
+  },
+  {
+   "id": "s_2133054",
+   "module": "m10",
+   "it": "Tu sei medico?",
+   "v": "keep",
+   "audio": "1001422",
+   "es": "¿Tú eres médico?"
+  }
+ ]
+}

@@ -29,6 +29,8 @@ def validate_modules(course: dict, readings: list[dict], speaking: dict, library
         if not m.get("writing_es"):
             errs.append(f"{i}: falta la propuesta de mensaje escrito (writing_es)")
         for x in m.get("extra_readings", []):
+            if x == f"vh_{i}":   # dictado con voz humana del módulo (web/public/content/listening_human.json), no es una lectura
+                continue
             if x not in reading_ids:
                 errs.append(f"{i}: la lectura extra {x} no existe")
         if m["entry_reading"] not in reading_ids:
