@@ -6,7 +6,8 @@ import { finishModuleStep, finishModuleTest, finishModuleText, finishSalidaPart 
 import { type ModuleStepId, type ModuleView, MODULE_STEP_LABEL, moduleProgressId, moduleTestItems, moduleViews, hablaItems, hablaKey, hablaMissing, salidaKey, salidaMissing, textoKey } from "../state/modules";
 import { INTERVIEW_ID, INTERVIEW_SIZE, interviewRound } from "../state/interview";
 import type { Store } from "../state/store";
-import { fromItems, ItemRunner, type RunResult } from "./ItemRunner";
+import { fromDictations, fromItems, ItemRunner, type RunResult } from "./ItemRunner";
+import { HUMAN_DICTATION_SIZE, humanDictationRound, isHumanDictation } from "../state/humanDictation";
 import { Ring } from "./kit/Ring";
 import { toneOf } from "./kit/ModuleMotif";
 import { Stamp } from "./kit/Stamp";
@@ -72,6 +73,7 @@ function Textos({ view, pack, exit }: { view: ModuleView; pack: ContentPack; exi
         {ids.map((id) => {
           const r = (pack.readings ?? []).find((x) => x.id === id);
           const read = !!view.progress.done[textoKey(id)];
+          if (isHumanDictation(id)) return <li key={id}><h3>Dictado con voz humana{read ? " ✓" : ""}</h3><p><small>🎧 {HUMAN_DICTATION_SIZE} frases grabadas por una persona (Tatoeba): escucha y escribe lo que oyes</small></p><a className="button" href={`#/modulo/${module.id}/texto/${id}`}>{read ? "Volver a hacerlo" : "Empezar"}</a></li>;
           return r ? <li key={id}><h3 lang="it">{r.title}{read ? " ✓" : ""}</h3><p><small>{r.listen ? "🎧 Escucha sin ver el texto" : "Para leer"}{r.authored ? " · Escrito por la IA" : ""}</small></p><a className="button" href={`#/modulo/${module.id}/texto/${id}`}>{r.listen ? (read ? "Volver a escuchar" : "Escuchar") : read ? "Volver a leer" : "Leer"}</a></li> : null;
         })}
       </ul>
@@ -217,6 +219,12 @@ export function ModuleTextScreen({ moduleId, textId, pack, store }: { moduleId: 
   const reading = (pack.readings ?? []).find((r) => r.id === textId);
   const module = pack.course.modules?.find((m) => m.id === moduleId);
   const exit = `#/modulo/${moduleId}`;
+  const dictation = useMemo(() => (isHumanDictation(textId) ? humanDictationRound(pack, moduleId, Math.floor(Date.now() / 86_400_000)) : []), [pack, moduleId, textId]);
+  if (isHumanDictation(textId)) {
+    if (done) return <Done title="Dictado hecho ✓" text="Escuchaste a una persona real, no a la voz sintética. Las frases cambian cada día." exit={exit} next={{ href: `#/modulo/${moduleId}/textos`, label: "Ver los textos del módulo" }} />;
+    if (dictation.length === 0) return <main><p>Este módulo todavía no tiene frases con voz humana.</p><p><a className="button" href={exit}>Ver el módulo</a></p></main>;
+    return <main className="focus"><ItemRunner items={fromDictations(dictation)} exitHref={exit} why="Dictado con voz humana: frases grabadas por una persona (Tatoeba, usuario NM1, CC BY 4.0). Escucha las veces que quieras y escribe lo que oyes." onFinish={() => { void (module ? finishModuleText(store, module, textId, new Date()) : Promise.resolve()).then(() => setDone(true)); }} /></main>;
+  }
   if (!reading) return <main><p>No encuentro ese texto.</p><p><a className="button" href={exit}>Ver el módulo</a></p></main>;
   if (done) return <Done title="Texto leído ✓" text="Puedes volver a leerlo cuando quieras." exit={exit} next={{ href: `#/modulo/${moduleId}/textos`, label: "Ver los textos del módulo" }} />;
   return <main className="focus"><ReadingStep reading={reading} words={pack.readingWords} exitHref={exit} hideTranslation listenOnly={!!reading.listen && !reading.exam} onFinish={() => { void (module ? finishModuleText(store, module, textId, new Date()) : Promise.resolve()).then(() => setDone(true)); }} /></main>;

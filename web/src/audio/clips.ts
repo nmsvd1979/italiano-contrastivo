@@ -27,16 +27,19 @@ export function audioIdFor(text: string, pack: Pick<ContentPack, "sentences" | "
     ?? pack.speaking?.phrases?.groups.flatMap((g) => g.items).find((q) => q.it === text)?.audio;
 }
 
-/** Palabra → archivo de grabación nativa (`audio/words/<archivo>`). Sin el archivo o sin red: vacío. */
+/**
+ * Texto → grabación de una persona: palabras de Lingua Libre (`audio/words/<archivo>`) y frases de Tatoeba (`audio/human/<archivo>`, se
+ * guardan como «human/<archivo>»). Sin los archivos o sin red: vacío y suena la voz sintética.
+ */
 export async function loadNativeWords(
   fetcher: (url: string) => Promise<Response> = (u) => fetch(u),
   base: string = import.meta.env.BASE_URL ?? "/",
 ): Promise<Map<string, string>> {
   try {
-    const res = await fetcher(`${base}audio/words.json`);
-    if (!res.ok) return new Map();
-    const rows = (await res.json()) as { form: string; file: string }[];
-    return new Map(rows.map((r) => [r.form, r.file]));
+    const [res, human] = await Promise.all([fetcher(`${base}audio/words.json`), fetcher(`${base}audio/human.json`).catch(() => null)]);
+    const rows = res.ok ? ((await res.json()) as { form: string; file: string }[]) : [];
+    const hrows = human?.ok ? ((await human.json()) as { form: string; file: string }[]) : [];
+    return new Map([...rows.map((r): [string, string] => [r.form, r.file]), ...hrows.map((r): [string, string] => [r.form, `human/${r.file}`])]);
   } catch {
     return new Map();
   }

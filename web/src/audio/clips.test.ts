@@ -96,9 +96,18 @@ describe("grabación nativa", () => {
     FakeAudio.prototype.play = orig;
   });
   it("loadNativeWords devuelve forma → archivo y tolera la descarga fallida", async () => {
-    const f = async () => new Response(JSON.stringify([{ form: "burro", file: "burro--ana.mp3" }]));
+    const f = async (u: string) => (u.endsWith("words.json") ? new Response(JSON.stringify([{ form: "burro", file: "burro--ana.mp3" }])) : new Response("no", { status: 404 }));
     expect([...(await loadNativeWords(f, "/")).entries()]).toEqual([["burro", "burro--ana.mp3"]]);
     expect((await loadNativeWords(async () => new Response("no", { status: 404 }), "/")).size).toBe(0);
+  });
+  it("suma las frases con voz humana de Tatoeba (audio/human/…) y say las busca en su carpeta", async () => {
+    const f = async (u: string) => new Response(JSON.stringify(u.endsWith("human.json") ? [{ form: "Ho un cane.", file: "123.mp3" }] : [{ form: "burro", file: "burro--ana.mp3" }]));
+    const m = await loadNativeWords(f, "/");
+    expect(m.get("Ho un cane.")).toBe("human/123.mp3");
+    expect(m.get("burro")).toBe("burro--ana.mp3");
+    FakeAudio.made = [];
+    expect(await say("Ho un cane.", { nativeFile: "human/123.mp3", base: "/" })).toBe("native");
+    expect(FakeAudio.made[0].src).toBe("/audio/human/123.mp3");
   });
 });
 

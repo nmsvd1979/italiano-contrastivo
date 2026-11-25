@@ -36,7 +36,7 @@ export async function say(text: string, opts: { nativeFile?: string; clipId?: st
   if (typeof window !== "undefined") window.speechSynthesis?.cancel?.();
   const { nativeFile, clipId, index, base = import.meta.env.BASE_URL ?? "/", rate = 1 } = opts;
   const attempts: [SpeakResult, string][] = [];
-  if (nativeFile) attempts.push(["native", `${base}audio/words/${nativeFile}`]);
+  if (nativeFile) attempts.push(["native", `${base}audio/${nativeFile.includes("/") ? nativeFile : `words/${nativeFile}`}`]);   // «human/…»: frase con voz humana
   if (clipId && index?.has(clipId)) attempts.push(["clip", `${base}audio/tts/${clipId}.mp3`]);
   for (const [kind, url] of attempts) {
     const audio = new Audio(url);

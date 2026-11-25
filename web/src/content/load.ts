@@ -69,6 +69,7 @@ export type Speaking = {
   /** Preguntas por voz de la Salida: las de las tareas orales (Piacere!) y las escritas por la IA para los módulos sin tarea (`authored`). */
   interview?: { note: string; questions: InterviewQuestion[] };
 };
+export type HumanSentence = { id: string; module: string; it: string; es: string; tatoeba: string };
 export type InterviewQuestion = { id: string; module: string; it: string; es: string; audio?: string; authored?: boolean; task?: string };
 export type PlannedUnit = { level: string; title: string; reason: string };
 /** Módulo temático: una situación comunicativa con su texto de entrada, sus cápsulas (unidades), su salida y su cierre. */
@@ -94,6 +95,8 @@ export type ContentPack = {
   readingWords?: Record<string, ReadingWord>;
   library?: Resource[];
   speaking?: Speaking | null;
+  /** Frases A1 grabadas por una persona (Tatoeba, NM1): el dictado con voz humana de cada módulo. */
+  listeningHuman?: HumanSentence[];
   capsules: Capsule[];
   itemsByCode: Record<string, Item[]>;
   lexemes: Lexeme[];
@@ -149,7 +152,7 @@ async function getJson<T>(fetcher: Fetcher, base: string, file: string): Promise
 }
 
 export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: string = import.meta.env.BASE_URL ?? "/"): Promise<ContentPack> {
-  const [capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems, readingWords, library, speaking] = await Promise.all([
+  const [capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems, readingWords, library, speaking, listeningHuman] = await Promise.all([
     getJson<Capsule[]>(fetcher, base, "capsules.json"),
     getJson<Record<string, Item[]>>(fetcher, base, "items_by_code.json"),
     getJson<Lexeme[]>(fetcher, base, "lexemes.json"),
@@ -161,6 +164,7 @@ export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: stri
     getJson<Record<string, ReadingWord>>(fetcher, base, "reading_words.json").catch((): Record<string, ReadingWord> => ({})),
     getJson<Resource[]>(fetcher, base, "library.json").catch((): Resource[] => []),
     getJson<Speaking | null>(fetcher, base, "speaking.json").catch((): Speaking | null => null),
+    getJson<HumanSentence[]>(fetcher, base, "listening_human.json").catch((): HumanSentence[] => []),
   ]);
   const vCapsule = schemaValidator("capsule");
   const vItem = schemaValidator("item");
@@ -180,5 +184,5 @@ export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: stri
   const rd = new Set(readings.map((r) => r.id));
   for (const u of course.units) for (const id of u.readings ?? []) if (!rd.has(id)) throw new ContentError(`La unidad ${u.id} usa una lectura que no está en el paquete (${id}).`);
   reserveParts(course, sentences);
-  return { capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems, readingWords, library, speaking };
+  return { capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems, readingWords, library, speaking, listeningHuman };
 }

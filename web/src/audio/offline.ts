@@ -2,10 +2,11 @@
 export const AUDIO_CACHE = "audio-v1";
 
 export async function audioUrls(base: string = import.meta.env.BASE_URL ?? "/", fetcher: (u: string) => Promise<Response> = (u) => fetch(u)): Promise<string[]> {
-  const [idx, words] = await Promise.all([fetcher(`${base}audio/index.json`), fetcher(`${base}audio/words.json`)]);
+  const [idx, words, human] = await Promise.all([fetcher(`${base}audio/index.json`), fetcher(`${base}audio/words.json`), fetcher(`${base}audio/human.json`).catch(() => null)]);
   const ids = idx.ok ? ((await idx.json()) as { id: string }[]).map((r) => `${base}audio/tts/${r.id}.mp3`) : [];
   const files = words.ok ? ((await words.json()) as { file: string }[]).map((r) => `${base}audio/words/${r.file}`) : [];
-  return [...ids, ...files];
+  const voices = human?.ok ? ((await human.json()) as { file: string }[]).map((r) => `${base}audio/human/${r.file}`) : [];
+  return [...ids, ...files, ...voices];
 }
 
 const abs = (u: string) => new URL(u, document.baseURI).href;

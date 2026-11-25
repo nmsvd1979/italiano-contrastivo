@@ -17,6 +17,7 @@ export function AboutScreen({ manifest, sentences, readings = [] }: { manifest: 
       <h2>Voces</h2>
       <p>Las oraciones se escuchan con una voz sintética: Piper «it_IT-serena-high» (datos de entrenamiento CC BY 4.0), generada automáticamente; no es una persona. En los diálogos, una segunda voz sintética (Piper «it_IT-paola-medium», CC0) hace de interlocutor; ambas son voces femeninas, así que se distinguen poco.</p>
       <p>Algunas palabras sueltas usan grabaciones de hablantes nativos de Lingua Libre (CC BY-SA 4.0). Si falta el clip, suena la voz del sistema. Licencias y hablantes: <a href={`${import.meta.env.BASE_URL ?? "./"}audio/ATTRIBUZIONI-audio.md`}>Atribuciones de audio</a>.</p>
+      <p>Unas 280 frases suenan con <strong>voz humana</strong>: grabaciones de Tatoeba del usuario NM1 (CC BY 4.0), recomprimidas para la app. Se usan en el dictado con voz humana de cada módulo y, cuando el texto coincide, en lugar de la voz sintética. No sabemos si NM1 es hablante nativo. Lista completa: <a href={`${import.meta.env.BASE_URL ?? "./"}audio/ATTRIBUZIONI-voz-humana.md`}>Atribuciones de la voz humana</a>.</p>
       <h2>Atribuciones</h2>
       <p>Las oraciones provienen de Tatoeba (tatoeba.org) bajo la licencia CC BY 2.0 FR.</p>
       <p>La letra del italiano es Fraunces, de The Fraunces Project Authors (Undercase Type), bajo la licencia SIL Open Font License 1.1: <a href={`${import.meta.env.BASE_URL ?? "./"}fonts/Fraunces-OFL.txt`}>texto de la licencia</a>.</p>

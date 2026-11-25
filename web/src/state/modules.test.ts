@@ -37,7 +37,7 @@ describe("módulos: estado y bloqueos", () => {
     const v = moduleViews(pack.course, M1.units.map((u) => completed(u)), false).modules[0];
     expect(v.next).toBe("textos");
     expect(v.steps.map((s) => [s.id, s.open])).toEqual([["entrada", true], ["capsulas", true], ["textos", true], ["salida", false], ["fluidez", false], ["cierre", false]]);
-    expect(M1.extra_readings).toEqual(["ls_m01"]);                                               // la escucha sin texto del módulo
+    expect(M1.extra_readings).toEqual(["ls_m01", "vh_m01"]);                                     // la escucha sin texto y el dictado con voz humana
     const vS = moduleViews(pack.course, [...M1.units.map((u) => completed(u)), modDone(M1.id, { textos: at })], false).modules[0];
     expect(vS.next).toBe("salida");
     const v2 = moduleViews(pack.course, [...M1.units.map((u) => completed(u)), modDone(M1.id, { textos: at, salida: at })], false).modules[0];
