@@ -18,10 +18,22 @@ const shared = (a: string, b: string) => {
   return clean(b).split(" ").filter((w) => A.has(w)).length;
 };
 
-export function gradeWrite(answer: string, accepted: string[]): WriteResult {
-  const mine = clean(answer);
-  for (const a of accepted) if (clean(a) === mine) return { result: "ok", best: a };
-  for (const a of accepted) if (fold(clean(a)) === fold(mine)) return { result: "accent", best: a };
+/**
+ * Si la consigna en español nombra al sujeto («Él…», «Ella…»), poner u omitir «lui»/«lei» al comienzo no cambia el sentido: se tolera
+ * (auditoría 2026-11-25: «Él no sabe tocar…» → «Non sa suonare…» marcaba error al escribir «Lui non sa…»). Sin esa pista no se tolera.
+ */
+const thirdPerson = (es?: string): RegExp | undefined => {
+  const words = new Set((es ?? "").toLowerCase().normalize("NFC").split(/[^\p{L}]+/u));
+  const p = [words.has("él") ? "lui" : "", words.has("ella") ? "lei" : ""].filter(Boolean);
+  return p.length ? new RegExp(`^(${p.join("|")})\\s+`) : undefined;
+};
+
+export function gradeWrite(answer: string, accepted: string[], es?: string): WriteResult {
+  const third = thirdPerson(es);
+  const norm = (s: string) => (third ? clean(s).replace(third, "") : clean(s));
+  const mine = norm(answer);
+  for (const a of accepted) if (norm(a) === mine) return { result: "ok", best: a };
+  for (const a of accepted) if (fold(norm(a)) === fold(mine)) return { result: "accent", best: a };
   const best = accepted.reduce((b, a) => (shared(answer, a) > shared(answer, b) ? a : b), accepted[0]);
   return { result: "wrong", best };
 }

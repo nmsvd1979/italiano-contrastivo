@@ -15,6 +15,13 @@ describe("gradeWrite", () => {
     expect(gradeWrite("Lui parla", ["Lei parla."]).result).toBe("wrong");
     expect(gradeWrite("Lei parla", ["Parla."]).result).toBe("wrong");
   });
+  it("tolera lui/lei al comienzo solo si el español nombra al sujeto (él/ella)", () => {
+    expect(gradeWrite("Lui non sa suonare la chitarra", ["Non sa suonare la chitarra."], "Él no sabe tocar guitarra.").result).toBe("ok");
+    expect(gradeWrite("Non mi ama!", ["Lei non mi ama!"], "¡Ella no me ama!").result).toBe("ok");
+    expect(gradeWrite("Lei non mi ama", ["Non mi ama!"], "¡Ella no me ama!").result).toBe("ok");
+    expect(gradeWrite("Lei non mi ama", ["Non mi ama!"], "¡No me ama!").result).toBe("wrong");        // sin pista, no
+    expect(gradeWrite("Lui non mi ama", ["Non mi ama!"], "¡Ella no me ama!").result).toBe("wrong");   // «lui» con «ella», no
+  });
   it("no perdona acentos: avisa que solo falta el acento", () => {
     expect(gradeWrite("Perche no", ["Perché no."]).result).toBe("accent");
     expect(gradeWrite("E qui", ["È qui."]).result).toBe("accent");

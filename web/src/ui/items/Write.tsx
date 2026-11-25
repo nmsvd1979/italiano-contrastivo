@@ -23,7 +23,7 @@ export function Write({ item, onAnswer, allowOverride = true }: { item: WriteIte
       <textarea lang="it" aria-label="Tu traducción" rows={2} value={value} disabled={graded !== null} autoCapitalize="off" autoCorrect="off" spellCheck={false}
         onChange={(e) => setValue(e.target.value)} />
       {graded === null ? (
-        <div className="actions-bottom"><button type="button" className="primary block" disabled={!value.trim()} onClick={() => setGraded(gradeWrite(value, item.accepted_it))}>Comprobar</button></div>
+        <div className="actions-bottom"><button type="button" className="primary block" disabled={!value.trim()} onClick={() => setGraded(gradeWrite(value, item.accepted_it, item.source_es))}>Comprobar</button></div>
       ) : (
         <Feedback ok={ok}
           answer={ok && !override ? <span>{graded.best}</span> : <Marked segs={diffWords(graded.best, value)} />}
