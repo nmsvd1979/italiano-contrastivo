@@ -114,3 +114,4 @@ Con 1–4 hechos, A1 queda **listo como material**. Con 5, queda **listo para la
 - **A2 parte 1, resuelto:** el corrector acepta las traducciones alternativas de Tatoeba (286 frases).
 - **A3, resuelto:** el Cierre usa solo frases de reserva.
 - **Corrección a este informe:** el corrector ya toleraba el pronombre sujeto io/tu/noi/voi, así que los falsos negativos eran menos de lo que estimó el agente.
+- **A2 parte 2, resuelto:** auditoría IA de 716 frases de prueba y reserva, más las que entraron de reemplazo: 46 rechazadas, 59 con el español corregido y 1 alternativa descartada (`content/audits/2026-11-25-pruebas.json`). El corrector ahora tolera lui/lei cuando el español dice él/ella. Sigue sin ser una revisión nativa.
