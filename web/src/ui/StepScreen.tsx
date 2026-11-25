@@ -11,6 +11,7 @@ import { CapsuleScreen } from "./CapsuleScreen";
 import { fromItems, fromVoice, ItemRunner, type RunResult } from "./ItemRunner";
 import { Ring } from "./kit/Ring";
 import { STRAND_OF_STEP } from "../state/strands";
+import { toneOf } from "./kit/ModuleMotif";
 import { useStrandTimer } from "./kit/useStrandTimer";
 import { NoticeStep } from "./NoticeStep";
 import { ReadingStep } from "./ReadingStep";
@@ -46,9 +47,10 @@ export function StepScreen({ unitId, step, pack, store }: { unitId: string; step
   };
   const samples = {};   // las tandas son las mismas para todos: no dependen de tus tiempos medidos
   const exit = `#/unidad/${unitId}`;
+  const moduleIndex = (pack.course.modules ?? []).findIndex((m) => m.units.includes(unitId));
   const run = { exitHref: exit, why: unit.explanation_es, fichaHref: exit };
   return (
-    <main className="focus">
+    <main className="focus" data-tone={moduleIndex >= 0 ? toneOf(moduleIndex) : undefined}>
       {step === "descubre" && phase === "notice" && (
         <NoticeStep unit={unit} pack={pack} exitHref={exit} onFinish={() => (reconstructionItems(unit, pack, samples).length ? setPhase("rebuild") : void finish())} />
       )}

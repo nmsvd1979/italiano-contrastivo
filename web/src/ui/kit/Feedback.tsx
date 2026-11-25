@@ -1,5 +1,6 @@
 import { type ReactNode, useEffect } from "react";
 import { useRun } from "./RunContext";
+import { playCue } from "../../state/sound";
 import type { Seg } from "./diff";
 
 /** `glue`: lo que se pone entre segmentos (un espacio para palabras; nada para una frase con el hueco rellenado). */
@@ -14,11 +15,11 @@ export const Marked = ({ segs, glue = " " }: { segs: Seg[]; glue?: string }) => 
 export function Feedback({ ok, answer, said, why, extra, lang = "it", onContinue }: { ok: boolean; answer?: ReactNode; said?: ReactNode; why?: string; extra?: ReactNode; lang?: "it" | "es"; onContinue: () => void }) {
   const run = useRun();
   // el primer intento cuenta al comprobar: salir con la × tras fallar no lo convierte en acierto
-  useEffect(() => { run.onCheck?.(ok); }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => { run.onCheck?.(ok); playCue(ok ? "ok" : "bad"); }, []); // eslint-disable-line react-hooks/exhaustive-deps
   return (
     <div className="feedback" role="status" data-state={ok ? "correct" : "wrong"}>
       <div>
-        <p className="head">{ok ? "¡Correcto!" : "Casi"}</p>
+        <p className="head">{ok ? "¡Correcto!" : said && answer ? "Casi. Mira la diferencia" : "Casi"}</p>
         {ok && answer && <p className="answer" lang={lang}>{answer}</p>}
         {!ok && said && answer && (
           <dl className="cmp">

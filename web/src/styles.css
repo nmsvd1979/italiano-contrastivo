@@ -189,28 +189,36 @@ details.how[open] { padding-bottom: var(--sp4); }
 /* modo concentrado */
 .focus-head { display: flex; align-items: center; gap: var(--sp3); margin: -8px 0 var(--sp4) -10px; }
 .focus-head .x { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; padding: 0; font-size: 26px; font-weight: 300; line-height: 1; border: none; background: transparent; color: var(--muted); }
+.tramos { flex: 1; display: flex; gap: 3px; }
+.tramos i { flex: 1; height: 8px; border-radius: 4px; background: var(--fill); transition: background var(--dur) var(--ease-out); }
+.tramos i.d { background: var(--ok); }
 .focus-head .count { font-size: var(--t-cap); font-weight: 600; font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
 .runner-meta { color: var(--muted); font-size: var(--t-cap); margin: -8px 0 var(--sp3); }
 .cheer { text-align: center; color: var(--ok); font-weight: 600; font-size: var(--t-sm); margin: 0 0 var(--sp2); animation: pop .4s ease; }
 
 /* ───────── 5. Ejercicio y corrección ───────── */
-main.focus .item { display: flex; flex-direction: column; min-height: calc(100dvh - 210px); }
+main.focus .item { display: flex; flex-direction: column; }
 main.focus .item:has(.feedback) { min-height: 0; }   /* con la hoja de corrección abierta, las opciones suben para verse sobre ella */
 .item > p:first-child { color: var(--muted); }
-.ask { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: var(--sp1); padding: var(--sp2) 0 var(--sp5); }
+/* la pregunta vive en una tarjeta con el color del módulo: se acaba el vacío y las respuestas quedan a mano */
+.ask { display: flex; flex-direction: column; gap: var(--sp1); padding: var(--sp5); margin: var(--sp2) 0 var(--sp4); background: var(--cs, var(--accent-soft)); color: var(--ci, var(--ink)); border-radius: 22px; }
 .ask > p { margin: 0; }
-.ask .eyebrow { font-size: var(--t-sm); font-weight: 500; color: var(--muted); }
+.ask .eyebrow { font-size: var(--t-cap); font-weight: 600; color: inherit; opacity: .85; }
+.ask .es-line { font-size: var(--t-sm); opacity: .9; }
 .ask .es { font-size: 26px; line-height: 1.22; font-weight: 600; letter-spacing: -.012em; margin: 2px 0 var(--sp2); text-wrap: balance; }
 .ask .big { margin-top: var(--sp3); }
 .big { font-size: 24px; line-height: 1.4; font-family: var(--serif); }
-.big input { font-family: var(--serif); font-size: 22px; padding: 4px 10px; margin: 0 2px; border-width: 0 0 2px; border-radius: 6px 6px 0 0; background: var(--fill); text-align: center; }
+.big input { font-family: var(--serif); font-size: 22px; padding: 4px 10px; margin: 0 2px; border-width: 0 0 2px; border-radius: 6px 6px 0 0; background: color-mix(in srgb, var(--ci, var(--ink)) 12%, transparent); color: inherit; text-align: center; }
+.ask mark { background: color-mix(in srgb, var(--c, var(--accent)) 28%, transparent); }
 
 .options { list-style: none; padding: 0; margin: 0 0 var(--sp3); display: grid; gap: 10px; }
 .options li { margin: 0; }
 .options button { width: 100%; text-align: left; justify-content: flex-start; min-height: 58px; font-size: 19px; font-weight: 400; padding: 12px 18px; }
 ul.options label { display: flex; gap: 10px; align-items: center; min-height: 44px; margin: 0; font-weight: 500; }
-button[data-state="correct"] { border-color: var(--ok); background: var(--ok-bg); opacity: 1; }
-button[data-state="wrong"] { border-color: var(--bad); background: var(--bad-bg); opacity: 1; }
+button[data-state="correct"] { border-color: var(--ok); background: var(--ok-bg); opacity: 1; animation: opt-ok var(--dur) var(--ease-pop); }
+button[data-state="wrong"] { border-color: var(--bad); background: var(--bad-bg); opacity: 1; animation: shake .32s ease; }
+@keyframes opt-ok { 50% { transform: scale(1.03); } }
+@keyframes shake { 20% { transform: translateX(-5px); } 40% { transform: translateX(5px); } 60% { transform: translateX(-3px); } 80% { transform: translateX(3px); } }
 [role="status"][data-state="wrong"] { color: var(--bad); }
 [role="status"][data-state="correct"] { color: var(--ok); }
 .built, .bank { display: flex; flex-wrap: wrap; gap: var(--sp2); min-height: 56px; padding: 6px 0; margin: 0; }
@@ -218,11 +226,12 @@ button[data-state="wrong"] { border-color: var(--bad); background: var(--bad-bg)
 .built button, .bank button { font-size: 18px; font-weight: 400; min-height: 46px; padding: 8px 14px; }
 .bank button:disabled { opacity: .25; }
 
-.feedback { position: fixed; left: 0; right: 0; bottom: 0; z-index: 6; padding: var(--sp4) 20px calc(var(--sp4) + env(safe-area-inset-bottom)); border-top: 2px solid; border-radius: var(--r-l) var(--r-l) 0 0; animation: up .22s ease; max-height: 85dvh; overflow-y: auto; }
+.feedback { position: fixed; left: 0; right: 0; bottom: 0; z-index: 6; padding: var(--sp4) 20px calc(var(--sp4) + env(safe-area-inset-bottom)); border-top: 3px solid; border-radius: 22px 22px 0 0; animation: sheet-in var(--dur) cubic-bezier(.3, 1.15, .5, 1); max-height: 85dvh; overflow-y: auto; box-shadow: 0 -10px 30px -18px color-mix(in srgb, var(--ink) 55%, transparent); }
+@keyframes sheet-in { from { transform: translateY(100%); } to { transform: none; } }
 .feedback > div { max-width: 520px; margin: 0 auto; }
 .feedback p { margin: 0 0 var(--sp2); }
 .feedback[data-state="correct"] { background: var(--ok-bg); border-color: var(--ok); color: var(--ink); }
-.feedback[data-state="wrong"] { background: var(--bad-bg); border-color: var(--bad); color: var(--ink); }
+.feedback[data-state="wrong"] { background: var(--card); border-color: var(--bad); color: var(--ink); }
 .feedback .head { font-weight: 700; font-size: 20px; letter-spacing: -.01em; margin: 0 0 var(--sp2); }
 .feedback[data-state="correct"] .head { color: var(--ok); }
 .feedback[data-state="wrong"] .head { color: var(--bad); }
@@ -545,3 +554,5 @@ main.today .actions-bottom a.button.primary { background: var(--c, var(--accent)
 .mod-card[data-tone] a.button.primary { background: var(--c); border-color: var(--c); color: var(--on-tone); }
 .mod-row { align-items: center; }
 .mod-row .stamp { margin-right: 2px; }
+
+label.check { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; margin: 0; font-weight: 500; }

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { audioUrls, cachedCount, cacheSupported, downloadAudio } from "../audio/offline";
 import { isPreview, setPreview } from "../state/preview";
+import { loadSound, saveSound } from "../state/sound";
 import { applyTheme, loadTheme, saveTheme, type Theme } from "../state/theme";
 import { buildInfo, checkForUpdate, repairApp } from "../pwa";
 import { BackupError, exportBackup, parseBackup, restoreBackup } from "../state/backup";
@@ -12,6 +13,8 @@ export function SettingsScreen({ store, memoryOnly }: { store: Store; memoryOnly
   const [notice, setNotice] = useState<Notice | null>(null);
   const [theme, setTheme] = useState<Theme>(loadTheme);
   const pick = (t: Theme) => { setTheme(t); saveTheme(t); applyTheme(t); };
+  const [sound, setSound] = useState(loadSound);
+  const toggleSound = (on: boolean) => { setSound(on); saveSound(on); };
   const [protectedStorage, setProtectedStorage] = useState<boolean | null>(null);
   useEffect(() => {
     navigator.storage?.persisted?.().then(setProtectedStorage).catch(() => setProtectedStorage(null));
@@ -84,6 +87,8 @@ export function SettingsScreen({ store, memoryOnly }: { store: Store; memoryOnly
           <button key={t} type="button" aria-pressed={theme === t} onClick={() => pick(t)}>{label}</button>
         ))}
       </p>
+      <h2>Sonido</h2>
+      <p><label className="check"><input type="checkbox" checked={sound} onChange={(e) => toggleSound(e.target.checked)} /> Sonido breve al acertar o fallar</label><br /><small>Apagado por defecto. Solo suena si el teléfono no está en silencio.</small></p>
       <ul className="rows">
         <li><a href="#/ubicacion"><span>Prueba de ubicación<small>Dónde empezar en la app</small></span></a></li>
         <li><a href="#/prueba-dictado"><span>Prueba técnica del dictado<small>Para saber si el iPhone puede comprobar tu pronunciación</small></span></a></li>

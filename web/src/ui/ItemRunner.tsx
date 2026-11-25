@@ -85,7 +85,7 @@ export function ItemRunner({ items, requeueWrong = false, onFinish, exitHref = "
 
   return (
     <RunProvider value={{ why, fichaHref, onCheck: register, onOverride: () => { first.current[idx] = true; }, requeue: requeueWrong && !requeued.current.has(idx), overrides: overrideBudget === undefined ? undefined : { left: overridesLeft, use: () => setOverridesLeft((n) => Math.max(0, n - 1)) } }}>
-      <FocusHead progress={list.length ? done.length / list.length : 0} exitHref={exitHref} count={`${pos + 1} / ${queue.length}`} />
+      <FocusHead progress={list.length ? done.length / list.length : 0} exitHref={exitHref} count={`${pos + 1} / ${queue.length}`} segments={{ total: list.length, done: done.length }} />
       {saved && pos === saved.pos && pos > 0 && <p className="runner-meta">Retomado donde lo dejaste</p>}
       {streak > 0 && streak % 5 === 0 && <p className="cheer" role="note">¡{streak} aciertos seguidos!</p>}
       {current.dictation

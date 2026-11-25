@@ -20,7 +20,7 @@ export function NoticeStep({ unit, pack, onFinish, exitHref = "#/" }: { unit: Un
     if (i + 1 >= cards.length + questions.length) onFinish(); else setI(i + 1);
   };
 
-  const head = <FocusHead progress={i / Math.max(1, cards.length + questions.length)} exitHref={exitHref} />;
+  const head = <FocusHead progress={i / Math.max(1, cards.length + questions.length)} exitHref={exitHref} segments={{ total: cards.length + questions.length, done: i }} />;
   if (i < cards.length) {
     const { sentence, start, end, wrong } = cards[i];
     const faulty = sentence.it.slice(0, start) + wrong + sentence.it.slice(end);
@@ -28,8 +28,10 @@ export function NoticeStep({ unit, pack, onFinish, exitHref = "#/" }: { unit: Un
       <div>
         {head}
         <h2>Fíjate ({i + 1} de {cards.length})</h2>
-        <p className="big" lang="it">{sentence.it.slice(0, start)}<mark>{sentence.it.slice(start, end)}</mark>{sentence.it.slice(end)}</p>
-        <p>{sentence.es}</p>
+        <div className="ask">
+          <p className="big" lang="it">{sentence.it.slice(0, start)}<mark>{sentence.it.slice(start, end)}</mark>{sentence.it.slice(end)}</p>
+          <p className="es-line">{sentence.es}</p>
+        </div>
         {unit.codes[0].startsWith("ERR_VOC_")   // en vocabulario lo marcado es otra palabra, no un error típico
           ? <p><small>No es lo mismo: <span lang="it">{faulty}</span></small></p>
           : <p><small>{SOUND_CODES.has(unit.codes[0]) ? "Así no se escribe (no sonaría igual)" : "Error típico de hispanohablantes"}: <del lang="it">{faulty}</del></small></p>}
