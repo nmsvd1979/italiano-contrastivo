@@ -1,0 +1,114 @@
+{
+  "id": "ls_m10",
+  "title": "Dal medico",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Escucha escrita por la IA para el módulo m10: diálogo corto con lo visto hasta ese módulo; se oye sin ver el texto.",
+  "sentences": [
+    {
+      "id": "ls_m10_00",
+      "it": "Buongiorno, signora. Come sta?",
+      "es": "Buenos días, señora. ¿Cómo está?",
+      "speaker": "Medico"
+    },
+    {
+      "id": "ls_m10_01",
+      "it": "Non molto bene, dottore. Ho mal di testa e ho la febbre.",
+      "es": "No muy bien, doctor. Me duele la cabeza y tengo fiebre.",
+      "speaker": "Paziente"
+    },
+    {
+      "id": "ls_m10_02",
+      "it": "Da quanti giorni?",
+      "es": "¿Desde hace cuántos días?",
+      "speaker": "Medico"
+    },
+    {
+      "id": "ls_m10_03",
+      "it": "Da due giorni. E ho anche mal di gola.",
+      "es": "Desde hace dos días. Y también me duele la garganta.",
+      "speaker": "Paziente"
+    },
+    {
+      "id": "ls_m10_04",
+      "it": "Ha la tosse?",
+      "es": "¿Tiene tos?",
+      "speaker": "Medico"
+    },
+    {
+      "id": "ls_m10_05",
+      "it": "Sì, un po'.",
+      "es": "Sí, un poco.",
+      "speaker": "Paziente"
+    },
+    {
+      "id": "ls_m10_06",
+      "it": "È l'influenza. Deve stare a letto tre giorni e bere molta acqua.",
+      "es": "Es la gripe. Tiene que estar en cama tres días y tomar mucha agua.",
+      "speaker": "Medico"
+    },
+    {
+      "id": "ls_m10_07",
+      "it": "Posso andare al lavoro? Sono insegnante.",
+      "es": "¿Puedo ir al trabajo? Soy profesora.",
+      "speaker": "Paziente"
+    },
+    {
+      "id": "ls_m10_08",
+      "it": "No, per tre giorni deve restare a casa. Fa freddo e piove: è meglio non uscire.",
+      "es": "No, por tres días tiene que quedarse en casa. Hace frío y llueve: es mejor no salir.",
+      "speaker": "Medico"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué le duele a la paciente?",
+      "options": [
+        "La cabeza y la garganta",
+        "El estómago",
+        "La espalda"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Desde cuándo está enferma?",
+      "options": [
+        "Desde ayer",
+        "Desde hace dos días",
+        "Desde hace una semana"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Qué le dice el médico?",
+      "options": [
+        "Que vaya a trabajar",
+        "Que se quede en casa tres días",
+        "Que salga a caminar"
+      ],
+      "answer": 1,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿En qué trabaja la paciente?",
+      "options": [
+        "Es médica",
+        "Es profesora",
+        "Es vendedora"
+      ],
+      "answer": 1,
+      "evidence": 7
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "listen": true
+}

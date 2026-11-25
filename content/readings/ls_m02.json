@@ -1,0 +1,132 @@
+{
+  "id": "ls_m02",
+  "title": "In segreteria: i tuoi dati",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Escucha escrita por la IA para el módulo m02: diálogo corto con lo visto hasta ese módulo; se oye sin ver el texto.",
+  "sentences": [
+    {
+      "id": "ls_m02_00",
+      "it": "Buongiorno. Come si chiama?",
+      "es": "Buenos días. ¿Cómo se llama?",
+      "speaker": "Segretaria"
+    },
+    {
+      "id": "ls_m02_01",
+      "it": "Mi chiamo Diego Fuentes.",
+      "es": "Me llamo Diego Fuentes.",
+      "speaker": "Diego"
+    },
+    {
+      "id": "ls_m02_02",
+      "it": "Di dov'è?",
+      "es": "¿De dónde es?",
+      "speaker": "Segretaria"
+    },
+    {
+      "id": "ls_m02_03",
+      "it": "Sono cileno, di Santiago.",
+      "es": "Soy chileno, de Santiago.",
+      "speaker": "Diego"
+    },
+    {
+      "id": "ls_m02_04",
+      "it": "Quanti anni ha?",
+      "es": "¿Cuántos años tiene?",
+      "speaker": "Segretaria"
+    },
+    {
+      "id": "ls_m02_05",
+      "it": "Ho ventotto anni.",
+      "es": "Tengo veintiocho años.",
+      "speaker": "Diego"
+    },
+    {
+      "id": "ls_m02_06",
+      "it": "Parla inglese?",
+      "es": "¿Habla inglés?",
+      "speaker": "Segretaria"
+    },
+    {
+      "id": "ls_m02_07",
+      "it": "Sì, parlo inglese e spagnolo. E studio l'italiano!",
+      "es": "Sí, hablo inglés y español. ¡Y estudio italiano!",
+      "speaker": "Diego"
+    },
+    {
+      "id": "ls_m02_08",
+      "it": "Come si scrive il cognome?",
+      "es": "¿Cómo se escribe el apellido?",
+      "speaker": "Segretaria"
+    },
+    {
+      "id": "ls_m02_09",
+      "it": "Effe, u, e, enne, ti, e, esse.",
+      "es": "F, u, e, ene, te, e, ese.",
+      "speaker": "Diego"
+    },
+    {
+      "id": "ls_m02_10",
+      "it": "E il numero di telefono?",
+      "es": "¿Y el número de teléfono?",
+      "speaker": "Segretaria"
+    },
+    {
+      "id": "ls_m02_11",
+      "it": "Tre tre tre, quattro cinque sei, sette otto nove zero.",
+      "es": "Tres tres tres, cuatro cinco seis, siete ocho nueve cero.",
+      "speaker": "Diego"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿De dónde es Diego?",
+      "options": [
+        "De Chile",
+        "De España",
+        "De Argentina"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Cuántos años tiene?",
+      "options": [
+        "Dieciocho",
+        "Veintiocho",
+        "Treinta y ocho"
+      ],
+      "answer": 1,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Qué idiomas habla, además del italiano que estudia?",
+      "options": [
+        "Inglés y español",
+        "Solo español",
+        "Francés y español"
+      ],
+      "answer": 0,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Cómo se escribe su apellido?",
+      "options": [
+        "Fuentes",
+        "Fontes",
+        "Fuentez"
+      ],
+      "answer": 0,
+      "evidence": 9
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "listen": true
+}

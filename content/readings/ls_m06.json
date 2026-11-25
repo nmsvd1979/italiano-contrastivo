@@ -1,0 +1,114 @@
+{
+  "id": "ls_m06",
+  "title": "Che cosa fai sabato?",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Escucha escrita por la IA para el módulo m06: diálogo corto con lo visto hasta ese módulo; se oye sin ver el texto.",
+  "sentences": [
+    {
+      "id": "ls_m06_00",
+      "it": "Che cosa fai sabato sera?",
+      "es": "¿Qué haces el sábado por la noche?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_m06_01",
+      "it": "Non lo so. Forse vado al cinema.",
+      "es": "No sé. Quizás voy al cine.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_m06_02",
+      "it": "Vuoi venire a una festa? È a casa di Paola.",
+      "es": "¿Quieres venir a una fiesta? Es en casa de Paola.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_m06_03",
+      "it": "Sì, volentieri! A che ora?",
+      "es": "¡Sí, con gusto! ¿A qué hora?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_m06_04",
+      "it": "Alle nove. Puoi portare qualcosa da bere?",
+      "es": "A las nueve. ¿Puedes llevar algo para tomar?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_m06_05",
+      "it": "Certo. Ma devo lavorare fino alle otto, quindi arrivo un po' tardi.",
+      "es": "Claro. Pero tengo que trabajar hasta las ocho, así que llego un poco tarde.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_m06_06",
+      "it": "Non c'è problema. Vieni con Sara?",
+      "es": "No hay problema. ¿Vienes con Sara?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_m06_07",
+      "it": "Forse. Sara è stanca perché studia molto.",
+      "es": "Quizás. Sara está cansada porque estudia mucho.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_m06_08",
+      "it": "D'accordo. Allora, a sabato!",
+      "es": "De acuerdo. Entonces, ¡hasta el sábado!",
+      "speaker": "Giulia"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Adónde invita Giulia a Marco?",
+      "options": [
+        "Al cine",
+        "A una fiesta en casa de Paola",
+        "A un concierto"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Qué tiene que llevar Marco?",
+      "options": [
+        "Algo para tomar",
+        "Comida",
+        "Música"
+      ],
+      "answer": 0,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Por qué Marco llega un poco tarde?",
+      "options": [
+        "Trabaja hasta las ocho",
+        "Está cansado",
+        "Va antes al cine"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Por qué Sara quizás no va?",
+      "options": [
+        "Está cansada porque estudia mucho",
+        "Tiene que trabajar",
+        "Está enferma"
+      ],
+      "answer": 0,
+      "evidence": 7
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "listen": true
+}

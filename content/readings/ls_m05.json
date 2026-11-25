@@ -1,0 +1,114 @@
+{
+  "id": "ls_m05",
+  "title": "Al telefono: quando ci vediamo?",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Escucha escrita por la IA para el módulo m05: diálogo corto con lo visto hasta ese módulo; se oye sin ver el texto.",
+  "sentences": [
+    {
+      "id": "ls_m05_00",
+      "it": "Pronto, Luca? Cosa stai facendo?",
+      "es": "¿Hola, Luca? ¿Qué estás haciendo?",
+      "speaker": "Chiara"
+    },
+    {
+      "id": "ls_m05_01",
+      "it": "Sto leggendo un libro. E tu?",
+      "es": "Estoy leyendo un libro. ¿Y tú?",
+      "speaker": "Luca"
+    },
+    {
+      "id": "ls_m05_02",
+      "it": "Sto preparando la cena. Domani sei libero?",
+      "es": "Estoy preparando la cena. ¿Mañana estás libre?",
+      "speaker": "Chiara"
+    },
+    {
+      "id": "ls_m05_03",
+      "it": "Domani è martedì… No, il martedì lavoro fino alle sei.",
+      "es": "Mañana es martes… No, los martes trabajo hasta las seis.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "ls_m05_04",
+      "it": "E mercoledì?",
+      "es": "¿Y el miércoles?",
+      "speaker": "Chiara"
+    },
+    {
+      "id": "ls_m05_05",
+      "it": "Mercoledì sì. Mi sveglio tardi e il pomeriggio sono libero.",
+      "es": "El miércoles sí. Me despierto tarde y por la tarde estoy libre.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "ls_m05_06",
+      "it": "Perfetto! Prendiamo un caffè alle quattro e mezza?",
+      "es": "¡Perfecto! ¿Tomamos un café a las cuatro y media?",
+      "speaker": "Chiara"
+    },
+    {
+      "id": "ls_m05_07",
+      "it": "Va bene. A mercoledì!",
+      "es": "Está bien. ¡Hasta el miércoles!",
+      "speaker": "Luca"
+    },
+    {
+      "id": "ls_m05_08",
+      "it": "Ciao, a mercoledì!",
+      "es": "¡Adiós, hasta el miércoles!",
+      "speaker": "Chiara"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué está haciendo Luca?",
+      "options": [
+        "Cocinando",
+        "Leyendo un libro",
+        "Durmiendo"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Por qué no puede verse el martes?",
+      "options": [
+        "Trabaja hasta las seis",
+        "Está enfermo",
+        "Tiene clase"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿A qué hora se ven el miércoles?",
+      "options": [
+        "A las tres y media",
+        "A las cuatro y media",
+        "A las seis"
+      ],
+      "answer": 1,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Qué está haciendo Chiara?",
+      "options": [
+        "Preparando la cena",
+        "Leyendo",
+        "Trabajando"
+      ],
+      "answer": 0,
+      "evidence": 2
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "listen": true
+}

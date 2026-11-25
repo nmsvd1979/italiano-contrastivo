@@ -1,0 +1,120 @@
+{
+  "id": "ls_m01",
+  "title": "Il primo giorno di corso",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Escucha escrita por la IA para el módulo m01: diálogo corto con lo visto hasta ese módulo; se oye sin ver el texto.",
+  "sentences": [
+    {
+      "id": "ls_m01_00",
+      "it": "Ciao! Sei nuova?",
+      "es": "¡Hola! ¿Eres nueva?",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_m01_01",
+      "it": "Sì, sono nuova. Mi chiamo Marta. E tu, come ti chiami?",
+      "es": "Sí, soy nueva. Me llamo Marta. Y tú, ¿cómo te llamas?",
+      "speaker": "Marta"
+    },
+    {
+      "id": "ls_m01_02",
+      "it": "Mi chiamo Paolo. Piacere!",
+      "es": "Me llamo Paolo. ¡Mucho gusto!",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_m01_03",
+      "it": "Piacere mio! Come stai?",
+      "es": "¡El gusto es mío! ¿Cómo estás?",
+      "speaker": "Marta"
+    },
+    {
+      "id": "ls_m01_04",
+      "it": "Bene, grazie. E tu?",
+      "es": "Bien, gracias. ¿Y tú?",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_m01_05",
+      "it": "Abbastanza bene, ma ho sonno!",
+      "es": "Bastante bien, ¡pero tengo sueño!",
+      "speaker": "Marta"
+    },
+    {
+      "id": "ls_m01_06",
+      "it": "Buongiorno a tutti! Io sono la professoressa Bianchi.",
+      "es": "¡Buenos días a todos! Yo soy la profesora Bianchi.",
+      "speaker": "Professoressa"
+    },
+    {
+      "id": "ls_m01_07",
+      "it": "Buongiorno, professoressa!",
+      "es": "¡Buenos días, profesora!",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_m01_08",
+      "it": "Lei come si chiama?",
+      "es": "¿Usted cómo se llama?",
+      "speaker": "Professoressa"
+    },
+    {
+      "id": "ls_m01_09",
+      "it": "Mi chiamo Marta Rossi.",
+      "es": "Me llamo Marta Rossi.",
+      "speaker": "Marta"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cómo se llama el chico?",
+      "options": [
+        "Marta",
+        "Paolo",
+        "Bianchi"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Cómo está Marta?",
+      "options": [
+        "Muy mal",
+        "Bastante bien, pero con sueño",
+        "Muy bien y con hambre"
+      ],
+      "answer": 1,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Cómo trata la profesora a Marta?",
+      "options": [
+        "De tú («tu»)",
+        "De usted («Lei»)",
+        "No le habla"
+      ],
+      "answer": 1,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿Qué apellido tiene Marta?",
+      "options": [
+        "Bianchi",
+        "Rossi",
+        "Paolo"
+      ],
+      "answer": 1,
+      "evidence": 9
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "listen": true
+}

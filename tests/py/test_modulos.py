@@ -67,3 +67,17 @@ def test_la_ruta_sigue_el_orden_de_los_modulos():
     en_modulos = [u for m in course["modules"] for u in m["units"]]
     orden = [u["id"] for u in course["units"] if u["id"] in set(en_modulos)]
     assert orden == en_modulos
+
+
+def test_cada_modulo_a1_tiene_una_escucha_sin_texto():
+    """Auditoría adversarial 2026-11-25 (A5): cada módulo A1 trae en «Textos reales» al menos un texto que se oye sin verlo."""
+    import json
+    from pathlib import Path
+    pack = Path(__file__).resolve().parents[2] / "web/public/content"
+    course = json.loads((pack / "course.json").read_text(encoding="utf8"))
+    readings = {r["id"]: r for r in json.loads((pack / "readings.json").read_text(encoding="utf8"))}
+    for m in course["modules"]:
+        if m["level"] == "A1":
+            listen = [r for r in m.get("extra_readings", []) if readings[r].get("listen") and not readings[r].get("exam")]
+            assert listen, m["id"]
+            assert all(len(readings[r]["questions"]) >= 4 for r in listen), m["id"]

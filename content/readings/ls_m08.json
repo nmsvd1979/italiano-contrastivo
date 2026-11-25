@@ -1,0 +1,120 @@
+{
+  "id": "ls_m08",
+  "title": "Al ristorante",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Escucha escrita por la IA para el módulo m08: diálogo corto con lo visto hasta ese módulo; se oye sin ver el texto.",
+  "sentences": [
+    {
+      "id": "ls_m08_00",
+      "it": "Buonasera! Siete in due?",
+      "es": "¡Buenas noches! ¿Son dos?",
+      "speaker": "Cameriere"
+    },
+    {
+      "id": "ls_m08_01",
+      "it": "Sì, siamo in due.",
+      "es": "Sí, somos dos.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "ls_m08_02",
+      "it": "Ecco il menù. Cosa prendete da bere?",
+      "es": "Aquí está el menú. ¿Qué van a tomar?",
+      "speaker": "Cameriere"
+    },
+    {
+      "id": "ls_m08_03",
+      "it": "Una bottiglia d'acqua naturale, per favore.",
+      "es": "Una botella de agua sin gas, por favor.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "ls_m08_04",
+      "it": "E da mangiare?",
+      "es": "¿Y para comer?",
+      "speaker": "Cameriere"
+    },
+    {
+      "id": "ls_m08_05",
+      "it": "Io vorrei gli spaghetti al pomodoro.",
+      "es": "Yo quisiera los espaguetis con tomate.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "ls_m08_06",
+      "it": "Io prendo il pesce con le patate. Ho molta fame!",
+      "es": "Yo pido el pescado con papas. ¡Tengo mucha hambre!",
+      "speaker": "Amica"
+    },
+    {
+      "id": "ls_m08_07",
+      "it": "Mi dispiace, oggi il pesce non c'è.",
+      "es": "Lo siento, hoy no hay pescado.",
+      "speaker": "Cameriere"
+    },
+    {
+      "id": "ls_m08_08",
+      "it": "Allora prendo una pizza margherita.",
+      "es": "Entonces pido una pizza margarita.",
+      "speaker": "Amica"
+    },
+    {
+      "id": "ls_m08_09",
+      "it": "Perfetto. Arriva subito!",
+      "es": "Perfecto. ¡Sale enseguida!",
+      "speaker": "Cameriere"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué piden para tomar?",
+      "options": [
+        "Vino tinto",
+        "Agua sin gas",
+        "Cerveza"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Qué pide el cliente para comer?",
+      "options": [
+        "Espaguetis con tomate",
+        "Pescado con papas",
+        "Pizza"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Por qué la amiga cambia su pedido?",
+      "options": [
+        "No le gusta el pescado",
+        "Hoy no hay pescado",
+        "El pescado es muy caro"
+      ],
+      "answer": 1,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Cuántas personas son?",
+      "options": [
+        "Una",
+        "Dos",
+        "Tres"
+      ],
+      "answer": 1,
+      "evidence": 1
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "listen": true
+}

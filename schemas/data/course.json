@@ -56,7 +56,10 @@
       ],
       "library": "forvo",
       "library_task_es": "Escucha cómo suenan tu nombre y el de tus conocidos en Forvo y repítelos.",
-      "writing_es": "Escribe un mensaje corto para saludar a alguien nuevo y decirle cómo te llamas y cómo estás."
+      "writing_es": "Escribe un mensaje corto para saludar a alguien nuevo y decirle cómo te llamas y cómo estás.",
+      "extra_readings": [
+        "ls_m01"
+      ]
     },
     {
       "id": "m02",
@@ -90,7 +93,8 @@
       "library_task_es": "Mira la guía de sonidos de LearnAmo y repite los que te cuesten.",
       "writing_es": "Escribe tus datos como en un formulario: nombre, apellido, de dónde eres, cuántos años tienes y dónde vives.",
       "extra_readings": [
-        "doc_modulo"
+        "doc_modulo",
+        "ls_m02"
       ]
     },
     {
@@ -122,7 +126,10 @@
       ],
       "library": "wordreference",
       "library_task_es": "Busca en WordReference cinco objetos de tu escritorio y anota su artículo.",
-      "writing_es": "Escribe 3 o 4 frases sobre tu escritorio: qué objetos hay, de qué color son y cuál es tuyo."
+      "writing_es": "Escribe 3 o 4 frases sobre tu escritorio: qué objetos hay, de qué color son y cuál es tuyo.",
+      "extra_readings": [
+        "ls_m03"
+      ]
     },
     {
       "id": "m04",
@@ -151,7 +158,10 @@
       "phrase_groups": [],
       "library": "piacere",
       "library_task_es": "Lee en Piacere! un capítulo corto sobre la familia y marca los posesivos.",
-      "writing_es": "Escribe 4 frases sobre una persona de tu familia: cómo se llama, cómo es y qué hace."
+      "writing_es": "Escribe 4 frases sobre una persona de tu familia: cómo se llama, cómo es y qué hace.",
+      "extra_readings": [
+        "ls_m04"
+      ]
     },
     {
       "id": "m05",
@@ -183,7 +193,8 @@
       "library_task_es": "Lee en Leggiamo el capítulo de la rutina y subraya los verbos reflexivos.",
       "writing_es": "Escribe 4 frases sobre tu semana: qué haces cada día y a qué hora.",
       "extra_readings": [
-        "doc_orari"
+        "doc_orari",
+        "ls_m05"
       ]
     },
     {
@@ -216,7 +227,10 @@
       "phrase_groups": [],
       "library": "tutti-a-tavola",
       "library_task_es": "Lee en Tutt* a tavola! la sección de pasatiempos y cuenta tus planes en voz alta.",
-      "writing_es": "Escribe un mensaje a un amigo para proponerle un plan y decirle cuándo y dónde se ven."
+      "writing_es": "Escribe un mensaje a un amigo para proponerle un plan y decirle cuándo y dónde se ven.",
+      "extra_readings": [
+        "ls_m06"
+      ]
     },
     {
       "id": "m07",
@@ -253,7 +267,8 @@
       "writing_es": "Escribe 4 frases sobre tu ciudad: qué hay, dónde está y cómo se llega.",
       "extra_readings": [
         "doc_cartelli",
-        "doc_annuncio"
+        "doc_annuncio",
+        "ls_m07"
       ]
     },
     {
@@ -291,7 +306,8 @@
       "library_task_es": "Busca en WordReference cinco platos de un menú y anota su artículo.",
       "writing_es": "Escribe tu pedido en un restaurante: qué quieres comer, qué quieres beber y pide la cuenta.",
       "extra_readings": [
-        "doc_menu"
+        "doc_menu",
+        "ls_m08"
       ]
     },
     {
@@ -321,7 +337,10 @@
       ],
       "library": "aulafacil-a1",
       "library_task_es": "Haz una lección A1 de Aula Fácil sobre compras.",
-      "writing_es": "Escribe 4 frases para comprar una prenda: qué buscas, tu talla, el precio y cómo pagas."
+      "writing_es": "Escribe 4 frases para comprar una prenda: qué buscas, tu talla, el precio y cómo pagas.",
+      "extra_readings": [
+        "ls_m09"
+      ]
     },
     {
       "id": "m10",
@@ -353,7 +372,10 @@
       ],
       "library": "plida-a1",
       "library_task_es": "Revisa el ejemplo de PLIDA A1 e identifica qué partes ya sabrías hacer.",
-      "writing_es": "Escribe 4 frases sobre el tiempo de hoy y qué te duele o cómo te sientes."
+      "writing_es": "Escribe 4 frases sobre el tiempo de hoy y qué te duele o cómo te sientes.",
+      "extra_readings": [
+        "ls_m10"
+      ]
     },
     {
       "id": "m11",
@@ -380,7 +402,10 @@
       "phrase_groups": [],
       "library": "plida-a1",
       "library_task_es": "Revisa el ejemplo de PLIDA A1 e identifica qué partes ya sabrías hacer.",
-      "writing_es": "Escribe 4 frases sobre lo que hiciste ayer, con «ho + participio» o «sono + participio»."
+      "writing_es": "Escribe 4 frases sobre lo que hiciste ayer, con «ho + participio» o «sono + participio».",
+      "extra_readings": [
+        "ls_m11"
+      ]
     },
     {
       "id": "m12",

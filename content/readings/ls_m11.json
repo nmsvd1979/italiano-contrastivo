@@ -1,0 +1,114 @@
+{
+  "id": "ls_m11",
+  "title": "Com'è andato il fine settimana?",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Escucha escrita por la IA para el módulo m11: diálogo corto con lo visto hasta ese módulo; se oye sin ver el texto.",
+  "sentences": [
+    {
+      "id": "ls_m11_00",
+      "it": "Ciao Matteo! Com'è andato il fine settimana?",
+      "es": "¡Hola, Matteo! ¿Cómo te fue el fin de semana?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_m11_01",
+      "it": "Benissimo! Sabato sono andato al mare con mia sorella.",
+      "es": "¡Muy bien! El sábado fui a la playa con mi hermana.",
+      "speaker": "Matteo"
+    },
+    {
+      "id": "ls_m11_02",
+      "it": "Che bello! Che cosa avete fatto?",
+      "es": "¡Qué bien! ¿Qué hicieron?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_m11_03",
+      "it": "Abbiamo nuotato e abbiamo mangiato il pesce in un ristorante.",
+      "es": "Nadamos y comimos pescado en un restaurante.",
+      "speaker": "Matteo"
+    },
+    {
+      "id": "ls_m11_04",
+      "it": "E tu?",
+      "es": "¿Y tú?",
+      "speaker": "Matteo"
+    },
+    {
+      "id": "ls_m11_05",
+      "it": "Io sono rimasta a casa. Ho studiato per l'esame di lunedì.",
+      "es": "Yo me quedé en casa. Estudié para el examen del lunes.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_m11_06",
+      "it": "Allora stasera vieni al cinema con noi. Non dire di no!",
+      "es": "Entonces esta noche vienes al cine con nosotros. ¡No digas que no!",
+      "speaker": "Matteo"
+    },
+    {
+      "id": "ls_m11_07",
+      "it": "Va bene, vengo. Ma prima finisco gli esercizi.",
+      "es": "Está bien, voy. Pero primero termino los ejercicios.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_m11_08",
+      "it": "Perfetto. Telefona quando sei pronta!",
+      "es": "Perfecto. ¡Llama cuando estés lista!",
+      "speaker": "Matteo"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Adónde fue Matteo el sábado?",
+      "options": [
+        "A la montaña",
+        "A la playa",
+        "Al cine"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué hizo Elena el fin de semana?",
+      "options": [
+        "Fue a la playa",
+        "Se quedó en casa y estudió",
+        "Trabajó"
+      ],
+      "answer": 1,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Qué propone Matteo para esta noche?",
+      "options": [
+        "Ir al cine",
+        "Estudiar juntos",
+        "Comer pescado"
+      ],
+      "answer": 0,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Con quién fue Matteo a la playa?",
+      "options": [
+        "Con Elena",
+        "Con su hermana",
+        "Solo"
+      ],
+      "answer": 1,
+      "evidence": 1
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "listen": true
+}

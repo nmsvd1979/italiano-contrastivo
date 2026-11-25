@@ -767,6 +767,1446 @@
     "sentences": []
   },
   {
+    "id": "ls_m01",
+    "title": "Il primo giorno di corso",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cómo se llama el chico?",
+        "options": [
+          "Marta",
+          "Paolo",
+          "Bianchi"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Cómo está Marta?",
+        "options": [
+          "Muy mal",
+          "Bastante bien, pero con sueño",
+          "Muy bien y con hambre"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Cómo trata la profesora a Marta?",
+        "options": [
+          "De tú («tu»)",
+          "De usted («Lei»)",
+          "No le habla"
+        ],
+        "answer": 1,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿Qué apellido tiene Marta?",
+        "options": [
+          "Bianchi",
+          "Rossi",
+          "Paolo"
+        ],
+        "answer": 1,
+        "evidence": 9
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_m01_00",
+        "it": "Ciao! Sei nuova?",
+        "es": "¡Hola! ¿Eres nueva?",
+        "speaker": "Paolo",
+        "audio": "e27650f5658c"
+      },
+      {
+        "id": "ls_m01_01",
+        "it": "Sì, sono nuova. Mi chiamo Marta. E tu, come ti chiami?",
+        "es": "Sí, soy nueva. Me llamo Marta. Y tú, ¿cómo te llamas?",
+        "speaker": "Marta",
+        "audio": "8637397c8d39",
+        "voice": 2
+      },
+      {
+        "id": "ls_m01_02",
+        "it": "Mi chiamo Paolo. Piacere!",
+        "es": "Me llamo Paolo. ¡Mucho gusto!",
+        "speaker": "Paolo",
+        "audio": "58d570200f13"
+      },
+      {
+        "id": "ls_m01_03",
+        "it": "Piacere mio! Come stai?",
+        "es": "¡El gusto es mío! ¿Cómo estás?",
+        "speaker": "Marta",
+        "audio": "874699aa1042",
+        "voice": 2
+      },
+      {
+        "id": "ls_m01_04",
+        "it": "Bene, grazie. E tu?",
+        "es": "Bien, gracias. ¿Y tú?",
+        "speaker": "Paolo",
+        "audio": "2c2cde827975"
+      },
+      {
+        "id": "ls_m01_05",
+        "it": "Abbastanza bene, ma ho sonno!",
+        "es": "Bastante bien, ¡pero tengo sueño!",
+        "speaker": "Marta",
+        "audio": "98ed534837e4",
+        "voice": 2
+      },
+      {
+        "id": "ls_m01_06",
+        "it": "Buongiorno a tutti! Io sono la professoressa Bianchi.",
+        "es": "¡Buenos días a todos! Yo soy la profesora Bianchi.",
+        "speaker": "Professoressa",
+        "audio": "4689a7192c3c"
+      },
+      {
+        "id": "ls_m01_07",
+        "it": "Buongiorno, professoressa!",
+        "es": "¡Buenos días, profesora!",
+        "speaker": "Paolo",
+        "audio": "7c497a1db535"
+      },
+      {
+        "id": "ls_m01_08",
+        "it": "Lei come si chiama?",
+        "es": "¿Usted cómo se llama?",
+        "speaker": "Professoressa",
+        "audio": "1f58a76655da"
+      },
+      {
+        "id": "ls_m01_09",
+        "it": "Mi chiamo Marta Rossi.",
+        "es": "Me llamo Marta Rossi.",
+        "speaker": "Marta",
+        "audio": "c13f52788c47",
+        "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "ls_m02",
+    "title": "In segreteria: i tuoi dati",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿De dónde es Diego?",
+        "options": [
+          "De Chile",
+          "De España",
+          "De Argentina"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Cuántos años tiene?",
+        "options": [
+          "Dieciocho",
+          "Veintiocho",
+          "Treinta y ocho"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué idiomas habla, además del italiano que estudia?",
+        "options": [
+          "Inglés y español",
+          "Solo español",
+          "Francés y español"
+        ],
+        "answer": 0,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Cómo se escribe su apellido?",
+        "options": [
+          "Fuentes",
+          "Fontes",
+          "Fuentez"
+        ],
+        "answer": 0,
+        "evidence": 9
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_m02_00",
+        "it": "Buongiorno. Come si chiama?",
+        "es": "Buenos días. ¿Cómo se llama?",
+        "speaker": "Segretaria",
+        "audio": "41d42500d641"
+      },
+      {
+        "id": "ls_m02_01",
+        "it": "Mi chiamo Diego Fuentes.",
+        "es": "Me llamo Diego Fuentes.",
+        "speaker": "Diego",
+        "audio": "747a29f44b0f",
+        "voice": 2
+      },
+      {
+        "id": "ls_m02_02",
+        "it": "Di dov'è?",
+        "es": "¿De dónde es?",
+        "speaker": "Segretaria",
+        "audio": "60ee7bf8ca1d"
+      },
+      {
+        "id": "ls_m02_03",
+        "it": "Sono cileno, di Santiago.",
+        "es": "Soy chileno, de Santiago.",
+        "speaker": "Diego",
+        "audio": "29bdc3e17617",
+        "voice": 2
+      },
+      {
+        "id": "ls_m02_04",
+        "it": "Quanti anni ha?",
+        "es": "¿Cuántos años tiene?",
+        "speaker": "Segretaria",
+        "audio": "a811a3695264"
+      },
+      {
+        "id": "ls_m02_05",
+        "it": "Ho ventotto anni.",
+        "es": "Tengo veintiocho años.",
+        "speaker": "Diego",
+        "audio": "373be8ab5649",
+        "voice": 2
+      },
+      {
+        "id": "ls_m02_06",
+        "it": "Parla inglese?",
+        "es": "¿Habla inglés?",
+        "speaker": "Segretaria",
+        "audio": "3619ae0dc64c"
+      },
+      {
+        "id": "ls_m02_07",
+        "it": "Sì, parlo inglese e spagnolo. E studio l'italiano!",
+        "es": "Sí, hablo inglés y español. ¡Y estudio italiano!",
+        "speaker": "Diego",
+        "audio": "dfc5158db252",
+        "voice": 2
+      },
+      {
+        "id": "ls_m02_08",
+        "it": "Come si scrive il cognome?",
+        "es": "¿Cómo se escribe el apellido?",
+        "speaker": "Segretaria",
+        "audio": "da95dd200d6a"
+      },
+      {
+        "id": "ls_m02_09",
+        "it": "Effe, u, e, enne, ti, e, esse.",
+        "es": "F, u, e, ene, te, e, ese.",
+        "speaker": "Diego",
+        "audio": "11b40dc58d28",
+        "voice": 2
+      },
+      {
+        "id": "ls_m02_10",
+        "it": "E il numero di telefono?",
+        "es": "¿Y el número de teléfono?",
+        "speaker": "Segretaria",
+        "audio": "7aa93e16e3b1"
+      },
+      {
+        "id": "ls_m02_11",
+        "it": "Tre tre tre, quattro cinque sei, sette otto nove zero.",
+        "es": "Tres tres tres, cuatro cinco seis, siete ocho nueve cero.",
+        "speaker": "Diego",
+        "audio": "3fa3e83a049c",
+        "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "ls_m03",
+    "title": "In classe: una penna, per favore",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué le pide Anna a Luca primero?",
+        "options": [
+          "Un bolígrafo",
+          "Un cuaderno",
+          "Un libro"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿De quién es el cuaderno verde?",
+        "options": [
+          "De Luca",
+          "De Marco",
+          "De Giulia"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Cómo se dice «borrador» en italiano?",
+        "options": [
+          "Penna",
+          "Matita",
+          "Gomma"
+        ],
+        "answer": 2,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿De quién son los libros?",
+        "options": [
+          "De Anna",
+          "De Marco",
+          "De Giulia"
+        ],
+        "answer": 2,
+        "evidence": 5
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_m03_00",
+        "it": "Scusa, hai una penna?",
+        "es": "Perdona, ¿tienes un bolígrafo?",
+        "speaker": "Anna",
+        "audio": "e98aa94a6652"
+      },
+      {
+        "id": "ls_m03_01",
+        "it": "Sì, ho una penna blu e una matita.",
+        "es": "Sí, tengo un bolígrafo azul y un lápiz.",
+        "speaker": "Luca",
+        "audio": "8a22603db73d",
+        "voice": 2
+      },
+      {
+        "id": "ls_m03_02",
+        "it": "Grazie! E quel quaderno verde?",
+        "es": "¡Gracias! ¿Y ese cuaderno verde?",
+        "speaker": "Anna",
+        "audio": "0611f2a50d92"
+      },
+      {
+        "id": "ls_m03_03",
+        "it": "Quel quaderno è di Marco.",
+        "es": "Ese cuaderno es de Marco.",
+        "speaker": "Luca",
+        "audio": "0e69bef43532",
+        "voice": 2
+      },
+      {
+        "id": "ls_m03_04",
+        "it": "E questi libri?",
+        "es": "¿Y estos libros?",
+        "speaker": "Anna",
+        "audio": "f55a84071f1a"
+      },
+      {
+        "id": "ls_m03_05",
+        "it": "Sono di Giulia.",
+        "es": "Son de Giulia.",
+        "speaker": "Luca",
+        "audio": "8c343e1fc785",
+        "voice": 2
+      },
+      {
+        "id": "ls_m03_06",
+        "it": "Come si dice «borrador» in italiano?",
+        "es": "¿Cómo se dice «borrador» en italiano?",
+        "speaker": "Anna",
+        "audio": "6e04909c4cdb"
+      },
+      {
+        "id": "ls_m03_07",
+        "it": "Si dice «gomma». Ecco una gomma.",
+        "es": "Se dice «gomma». Aquí tienes una goma.",
+        "speaker": "Luca",
+        "audio": "973c3b6ad9f4",
+        "voice": 2
+      },
+      {
+        "id": "ls_m03_08",
+        "it": "Grazie mille, sei gentile!",
+        "es": "¡Muchas gracias, eres amable!",
+        "speaker": "Anna",
+        "audio": "a4d0c3983eb4"
+      }
+    ]
+  },
+  {
+    "id": "ls_m04",
+    "title": "La foto di famiglia",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cómo es el padre de Sara?",
+        "options": [
+          "Alto y simpático",
+          "Bajo y serio",
+          "Rubio y tímido"
+        ],
+        "answer": 0,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿En qué trabaja la madre?",
+        "options": [
+          "Es médica",
+          "Es profesora",
+          "Es estudiante"
+        ],
+        "answer": 1,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Cuántos años tiene el hermano de Sara?",
+        "options": [
+          "Diez",
+          "Doce",
+          "Veinte"
+        ],
+        "answer": 1,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Cómo es el perro?",
+        "options": [
+          "Grande y negro",
+          "Pequeño y simpático",
+          "Viejo y tranquilo"
+        ],
+        "answer": 1,
+        "evidence": 8
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_m04_00",
+        "it": "Ecco la mia famiglia!",
+        "es": "¡Aquí está mi familia!",
+        "speaker": "Sara",
+        "audio": "79cafee17690"
+      },
+      {
+        "id": "ls_m04_01",
+        "it": "Che bella foto! Chi è questo signore alto?",
+        "es": "¡Qué linda foto! ¿Quién es este señor alto?",
+        "speaker": "Tommaso",
+        "audio": "2832a97e2762",
+        "voice": 2
+      },
+      {
+        "id": "ls_m04_02",
+        "it": "È mio padre. Si chiama Giorgio. È molto simpatico.",
+        "es": "Es mi padre. Se llama Giorgio. Es muy simpático.",
+        "speaker": "Sara",
+        "audio": "9f003e8bfcba"
+      },
+      {
+        "id": "ls_m04_03",
+        "it": "E la signora bionda?",
+        "es": "¿Y la señora rubia?",
+        "speaker": "Tommaso",
+        "audio": "e34de2895708",
+        "voice": 2
+      },
+      {
+        "id": "ls_m04_04",
+        "it": "È mia madre, Elena. Fa l'insegnante.",
+        "es": "Es mi madre, Elena. Es profesora.",
+        "speaker": "Sara",
+        "audio": "571a57ce9d72"
+      },
+      {
+        "id": "ls_m04_05",
+        "it": "Hai fratelli?",
+        "es": "¿Tienes hermanos?",
+        "speaker": "Tommaso",
+        "audio": "10bf5074d854",
+        "voice": 2
+      },
+      {
+        "id": "ls_m04_06",
+        "it": "Sì, ho un fratello e una sorella. Mio fratello ha dodici anni e mia sorella ha vent'anni.",
+        "es": "Sí, tengo un hermano y una hermana. Mi hermano tiene doce años y mi hermana, veinte.",
+        "speaker": "Sara",
+        "audio": "220b029fbf11"
+      },
+      {
+        "id": "ls_m04_07",
+        "it": "E questo cane?",
+        "es": "¿Y este perro?",
+        "speaker": "Tommaso",
+        "audio": "a969102acfee",
+        "voice": 2
+      },
+      {
+        "id": "ls_m04_08",
+        "it": "È il nostro cane, Fido. È piccolo, ma molto simpatico.",
+        "es": "Es nuestro perro, Fido. Es pequeño, pero muy simpático.",
+        "speaker": "Sara",
+        "audio": "7f49fb900067"
+      }
+    ]
+  },
+  {
+    "id": "ls_m05",
+    "title": "Al telefono: quando ci vediamo?",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué está haciendo Luca?",
+        "options": [
+          "Cocinando",
+          "Leyendo un libro",
+          "Durmiendo"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Por qué no puede verse el martes?",
+        "options": [
+          "Trabaja hasta las seis",
+          "Está enfermo",
+          "Tiene clase"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿A qué hora se ven el miércoles?",
+        "options": [
+          "A las tres y media",
+          "A las cuatro y media",
+          "A las seis"
+        ],
+        "answer": 1,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Qué está haciendo Chiara?",
+        "options": [
+          "Preparando la cena",
+          "Leyendo",
+          "Trabajando"
+        ],
+        "answer": 0,
+        "evidence": 2
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_m05_00",
+        "it": "Pronto, Luca? Cosa stai facendo?",
+        "es": "¿Hola, Luca? ¿Qué estás haciendo?",
+        "speaker": "Chiara",
+        "audio": "6ee2bc773922"
+      },
+      {
+        "id": "ls_m05_01",
+        "it": "Sto leggendo un libro. E tu?",
+        "es": "Estoy leyendo un libro. ¿Y tú?",
+        "speaker": "Luca",
+        "audio": "3d5d4d7b7359",
+        "voice": 2
+      },
+      {
+        "id": "ls_m05_02",
+        "it": "Sto preparando la cena. Domani sei libero?",
+        "es": "Estoy preparando la cena. ¿Mañana estás libre?",
+        "speaker": "Chiara",
+        "audio": "0230ab6bfa96"
+      },
+      {
+        "id": "ls_m05_03",
+        "it": "Domani è martedì… No, il martedì lavoro fino alle sei.",
+        "es": "Mañana es martes… No, los martes trabajo hasta las seis.",
+        "speaker": "Luca",
+        "audio": "2c0e2b0848f7",
+        "voice": 2
+      },
+      {
+        "id": "ls_m05_04",
+        "it": "E mercoledì?",
+        "es": "¿Y el miércoles?",
+        "speaker": "Chiara",
+        "audio": "fdcbb822acbb"
+      },
+      {
+        "id": "ls_m05_05",
+        "it": "Mercoledì sì. Mi sveglio tardi e il pomeriggio sono libero.",
+        "es": "El miércoles sí. Me despierto tarde y por la tarde estoy libre.",
+        "speaker": "Luca",
+        "audio": "963e2e969be9",
+        "voice": 2
+      },
+      {
+        "id": "ls_m05_06",
+        "it": "Perfetto! Prendiamo un caffè alle quattro e mezza?",
+        "es": "¡Perfecto! ¿Tomamos un café a las cuatro y media?",
+        "speaker": "Chiara",
+        "audio": "394a3d8ea7dc"
+      },
+      {
+        "id": "ls_m05_07",
+        "it": "Va bene. A mercoledì!",
+        "es": "Está bien. ¡Hasta el miércoles!",
+        "speaker": "Luca",
+        "audio": "a61e1cfc5771",
+        "voice": 2
+      },
+      {
+        "id": "ls_m05_08",
+        "it": "Ciao, a mercoledì!",
+        "es": "¡Adiós, hasta el miércoles!",
+        "speaker": "Chiara",
+        "audio": "5acedeade217"
+      }
+    ]
+  },
+  {
+    "id": "ls_m06",
+    "title": "Che cosa fai sabato?",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Adónde invita Giulia a Marco?",
+        "options": [
+          "Al cine",
+          "A una fiesta en casa de Paola",
+          "A un concierto"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Qué tiene que llevar Marco?",
+        "options": [
+          "Algo para tomar",
+          "Comida",
+          "Música"
+        ],
+        "answer": 0,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Por qué Marco llega un poco tarde?",
+        "options": [
+          "Trabaja hasta las ocho",
+          "Está cansado",
+          "Va antes al cine"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Por qué Sara quizás no va?",
+        "options": [
+          "Está cansada porque estudia mucho",
+          "Tiene que trabajar",
+          "Está enferma"
+        ],
+        "answer": 0,
+        "evidence": 7
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_m06_00",
+        "it": "Che cosa fai sabato sera?",
+        "es": "¿Qué haces el sábado por la noche?",
+        "speaker": "Giulia",
+        "audio": "53dea168a698"
+      },
+      {
+        "id": "ls_m06_01",
+        "it": "Non lo so. Forse vado al cinema.",
+        "es": "No sé. Quizás voy al cine.",
+        "speaker": "Marco",
+        "audio": "43fbd53d885e",
+        "voice": 2
+      },
+      {
+        "id": "ls_m06_02",
+        "it": "Vuoi venire a una festa? È a casa di Paola.",
+        "es": "¿Quieres venir a una fiesta? Es en casa de Paola.",
+        "speaker": "Giulia",
+        "audio": "e1eda4d66295"
+      },
+      {
+        "id": "ls_m06_03",
+        "it": "Sì, volentieri! A che ora?",
+        "es": "¡Sí, con gusto! ¿A qué hora?",
+        "speaker": "Marco",
+        "audio": "bb6efb2b151b",
+        "voice": 2
+      },
+      {
+        "id": "ls_m06_04",
+        "it": "Alle nove. Puoi portare qualcosa da bere?",
+        "es": "A las nueve. ¿Puedes llevar algo para tomar?",
+        "speaker": "Giulia",
+        "audio": "92ec85dc2aed"
+      },
+      {
+        "id": "ls_m06_05",
+        "it": "Certo. Ma devo lavorare fino alle otto, quindi arrivo un po' tardi.",
+        "es": "Claro. Pero tengo que trabajar hasta las ocho, así que llego un poco tarde.",
+        "speaker": "Marco",
+        "audio": "f53069695743",
+        "voice": 2
+      },
+      {
+        "id": "ls_m06_06",
+        "it": "Non c'è problema. Vieni con Sara?",
+        "es": "No hay problema. ¿Vienes con Sara?",
+        "speaker": "Giulia",
+        "audio": "0399246684c4"
+      },
+      {
+        "id": "ls_m06_07",
+        "it": "Forse. Sara è stanca perché studia molto.",
+        "es": "Quizás. Sara está cansada porque estudia mucho.",
+        "speaker": "Marco",
+        "audio": "20d40ad78d0f",
+        "voice": 2
+      },
+      {
+        "id": "ls_m06_08",
+        "it": "D'accordo. Allora, a sabato!",
+        "es": "De acuerdo. Entonces, ¡hasta el sábado!",
+        "speaker": "Giulia",
+        "audio": "3a38e02f14de"
+      }
+    ]
+  },
+  {
+    "id": "ls_m07",
+    "title": "Scusi, dov'è la stazione?",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cómo quiere ir el turista?",
+        "options": [
+          "En bus",
+          "A pie",
+          "En taxi"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Qué tiene que hacer en la plaza?",
+        "options": [
+          "Doblar a la derecha",
+          "Doblar a la izquierda",
+          "Tomar el bus"
+        ],
+        "answer": 0,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Dónde está la farmacia?",
+        "options": [
+          "En la plaza, a la izquierda",
+          "Al lado de la estación",
+          "Después del puente"
+        ],
+        "answer": 0,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Dónde está la estación?",
+        "options": [
+          "Después del puente, cerca del supermercado",
+          "En la plaza",
+          "Al lado de la farmacia"
+        ],
+        "answer": 0,
+        "evidence": 5
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_m07_00",
+        "it": "Scusi, dov'è la stazione?",
+        "es": "Disculpe, ¿dónde está la estación?",
+        "speaker": "Turista",
+        "audio": "caebcf3e3e35"
+      },
+      {
+        "id": "ls_m07_01",
+        "it": "La stazione? È un po' lontana. Prende l'autobus?",
+        "es": "¿La estación? Está un poco lejos. ¿Toma el bus?",
+        "speaker": "Signora",
+        "audio": "686339d024c9",
+        "voice": 2
+      },
+      {
+        "id": "ls_m07_02",
+        "it": "No, preferisco andare a piedi.",
+        "es": "No, prefiero ir a pie.",
+        "speaker": "Turista",
+        "audio": "70d6f1e870fc"
+      },
+      {
+        "id": "ls_m07_03",
+        "it": "Allora, Lei va dritto fino alla piazza.",
+        "es": "Entonces, usted sigue derecho hasta la plaza.",
+        "speaker": "Signora",
+        "audio": "9539d5299a3d",
+        "voice": 2
+      },
+      {
+        "id": "ls_m07_04",
+        "it": "In piazza gira a destra.",
+        "es": "En la plaza dobla a la derecha.",
+        "speaker": "Signora",
+        "audio": "bcc74513a35c",
+        "voice": 2
+      },
+      {
+        "id": "ls_m07_05",
+        "it": "La stazione è dopo il ponte, vicino al supermercato.",
+        "es": "La estación está después del puente, cerca del supermercado.",
+        "speaker": "Signora",
+        "audio": "8adf50ae31b4",
+        "voice": 2
+      },
+      {
+        "id": "ls_m07_06",
+        "it": "Grazie. C'è una farmacia qui vicino?",
+        "es": "Gracias. ¿Hay una farmacia aquí cerca?",
+        "speaker": "Turista",
+        "audio": "fa3fd3c52384"
+      },
+      {
+        "id": "ls_m07_07",
+        "it": "Sì, c'è una farmacia nella piazza, a sinistra.",
+        "es": "Sí, hay una farmacia en la plaza, a la izquierda.",
+        "speaker": "Signora",
+        "audio": "ae38fd162596",
+        "voice": 2
+      },
+      {
+        "id": "ls_m07_08",
+        "it": "Grazie mille!",
+        "es": "¡Muchas gracias!",
+        "speaker": "Turista",
+        "audio": "840aaeacfe71"
+      },
+      {
+        "id": "ls_m07_09",
+        "it": "Prego, buona giornata!",
+        "es": "De nada, ¡que tenga un buen día!",
+        "speaker": "Signora",
+        "audio": "79f6afea2619",
+        "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "ls_m08",
+    "title": "Al ristorante",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué piden para tomar?",
+        "options": [
+          "Vino tinto",
+          "Agua sin gas",
+          "Cerveza"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué pide el cliente para comer?",
+        "options": [
+          "Espaguetis con tomate",
+          "Pescado con papas",
+          "Pizza"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Por qué la amiga cambia su pedido?",
+        "options": [
+          "No le gusta el pescado",
+          "Hoy no hay pescado",
+          "El pescado es muy caro"
+        ],
+        "answer": 1,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Cuántas personas son?",
+        "options": [
+          "Una",
+          "Dos",
+          "Tres"
+        ],
+        "answer": 1,
+        "evidence": 1
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_m08_00",
+        "it": "Buonasera! Siete in due?",
+        "es": "¡Buenas noches! ¿Son dos?",
+        "speaker": "Cameriere",
+        "audio": "1f73287d0a27"
+      },
+      {
+        "id": "ls_m08_01",
+        "it": "Sì, siamo in due.",
+        "es": "Sí, somos dos.",
+        "speaker": "Cliente",
+        "audio": "bb44b306d9b4",
+        "voice": 2
+      },
+      {
+        "id": "ls_m08_02",
+        "it": "Ecco il menù. Cosa prendete da bere?",
+        "es": "Aquí está el menú. ¿Qué van a tomar?",
+        "speaker": "Cameriere",
+        "audio": "ae7f36a17042"
+      },
+      {
+        "id": "ls_m08_03",
+        "it": "Una bottiglia d'acqua naturale, per favore.",
+        "es": "Una botella de agua sin gas, por favor.",
+        "speaker": "Cliente",
+        "audio": "35ec13bd2f60",
+        "voice": 2
+      },
+      {
+        "id": "ls_m08_04",
+        "it": "E da mangiare?",
+        "es": "¿Y para comer?",
+        "speaker": "Cameriere",
+        "audio": "133a7b2ed0d3"
+      },
+      {
+        "id": "ls_m08_05",
+        "it": "Io vorrei gli spaghetti al pomodoro.",
+        "es": "Yo quisiera los espaguetis con tomate.",
+        "speaker": "Cliente",
+        "audio": "d27104cc9af3",
+        "voice": 2
+      },
+      {
+        "id": "ls_m08_06",
+        "it": "Io prendo il pesce con le patate. Ho molta fame!",
+        "es": "Yo pido el pescado con papas. ¡Tengo mucha hambre!",
+        "speaker": "Amica",
+        "audio": "33ac2b2e74aa"
+      },
+      {
+        "id": "ls_m08_07",
+        "it": "Mi dispiace, oggi il pesce non c'è.",
+        "es": "Lo siento, hoy no hay pescado.",
+        "speaker": "Cameriere",
+        "audio": "8a3f9463bdc9"
+      },
+      {
+        "id": "ls_m08_08",
+        "it": "Allora prendo una pizza margherita.",
+        "es": "Entonces pido una pizza margarita.",
+        "speaker": "Amica",
+        "audio": "560e9ac220fa"
+      },
+      {
+        "id": "ls_m08_09",
+        "it": "Perfetto. Arriva subito!",
+        "es": "Perfecto. ¡Sale enseguida!",
+        "speaker": "Cameriere",
+        "audio": "b28526827adb"
+      }
+    ]
+  },
+  {
+    "id": "ls_m09",
+    "title": "Al mercato",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué problema tiene la primera camiseta?",
+        "options": [
+          "Es muy cara",
+          "Es demasiado grande",
+          "No le gusta el color"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Cuánto cuestan los pantalones?",
+        "options": [
+          "Diez euros",
+          "Quince euros",
+          "Veinticinco euros"
+        ],
+        "answer": 2,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Cómo paga al final?",
+        "options": [
+          "Con tarjeta",
+          "En efectivo",
+          "No compra nada"
+        ],
+        "answer": 1,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Cuánto paga el cliente?",
+        "options": [
+          "Diez euros",
+          "Veinticinco euros",
+          "Treinta y cinco euros"
+        ],
+        "answer": 0,
+        "evidence": 8
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_m09_00",
+        "it": "Buongiorno! Questa maglietta costa solo dieci euro.",
+        "es": "¡Buenos días! Esta camiseta cuesta solo diez euros.",
+        "speaker": "Venditore",
+        "audio": "42a45c3b60c9"
+      },
+      {
+        "id": "ls_m09_01",
+        "it": "È bella, ma è troppo grande per me.",
+        "es": "Es linda, pero es demasiado grande para mí.",
+        "speaker": "Cliente",
+        "audio": "25938f7b2a8b",
+        "voice": 2
+      },
+      {
+        "id": "ls_m09_02",
+        "it": "Ecco una maglietta più piccola.",
+        "es": "Aquí tiene una camiseta más pequeña.",
+        "speaker": "Venditore",
+        "audio": "0223a0d17ddc"
+      },
+      {
+        "id": "ls_m09_03",
+        "it": "Sì, questa va bene. Ha anche dei pantaloni neri?",
+        "es": "Sí, esta está bien. ¿Tiene también pantalones negros?",
+        "speaker": "Cliente",
+        "audio": "3a3ad1ad9704",
+        "voice": 2
+      },
+      {
+        "id": "ls_m09_04",
+        "it": "Sì, costano venticinque euro.",
+        "es": "Sí, cuestan veinticinco euros.",
+        "speaker": "Venditore",
+        "audio": "da29927c05f4"
+      },
+      {
+        "id": "ls_m09_05",
+        "it": "Sono un po' cari. Prendo solo la maglietta.",
+        "es": "Son un poco caros. Me llevo solo la camiseta.",
+        "speaker": "Cliente",
+        "audio": "49c4fa303eb6",
+        "voice": 2
+      },
+      {
+        "id": "ls_m09_06",
+        "it": "Posso pagare con la carta?",
+        "es": "¿Puedo pagar con tarjeta?",
+        "speaker": "Cliente",
+        "audio": "1d48d810bf26",
+        "voice": 2
+      },
+      {
+        "id": "ls_m09_07",
+        "it": "No, mi dispiace, solo contanti.",
+        "es": "No, lo siento, solo efectivo.",
+        "speaker": "Venditore",
+        "audio": "574de904286d"
+      },
+      {
+        "id": "ls_m09_08",
+        "it": "Va bene, ecco dieci euro.",
+        "es": "Está bien, aquí tiene diez euros.",
+        "speaker": "Cliente",
+        "audio": "fcd38d80d3d0",
+        "voice": 2
+      },
+      {
+        "id": "ls_m09_09",
+        "it": "Grazie, e buona giornata!",
+        "es": "¡Gracias, y que tenga un buen día!",
+        "speaker": "Venditore",
+        "audio": "e7fbc4c6284f"
+      }
+    ]
+  },
+  {
+    "id": "ls_m10",
+    "title": "Dal medico",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué le duele a la paciente?",
+        "options": [
+          "La cabeza y la garganta",
+          "El estómago",
+          "La espalda"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Desde cuándo está enferma?",
+        "options": [
+          "Desde ayer",
+          "Desde hace dos días",
+          "Desde hace una semana"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué le dice el médico?",
+        "options": [
+          "Que vaya a trabajar",
+          "Que se quede en casa tres días",
+          "Que salga a caminar"
+        ],
+        "answer": 1,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿En qué trabaja la paciente?",
+        "options": [
+          "Es médica",
+          "Es profesora",
+          "Es vendedora"
+        ],
+        "answer": 1,
+        "evidence": 7
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_m10_00",
+        "it": "Buongiorno, signora. Come sta?",
+        "es": "Buenos días, señora. ¿Cómo está?",
+        "speaker": "Medico",
+        "audio": "d24ee0e8ac24"
+      },
+      {
+        "id": "ls_m10_01",
+        "it": "Non molto bene, dottore. Ho mal di testa e ho la febbre.",
+        "es": "No muy bien, doctor. Me duele la cabeza y tengo fiebre.",
+        "speaker": "Paziente",
+        "audio": "e525999f244f",
+        "voice": 2
+      },
+      {
+        "id": "ls_m10_02",
+        "it": "Da quanti giorni?",
+        "es": "¿Desde hace cuántos días?",
+        "speaker": "Medico",
+        "audio": "46c455e35160"
+      },
+      {
+        "id": "ls_m10_03",
+        "it": "Da due giorni. E ho anche mal di gola.",
+        "es": "Desde hace dos días. Y también me duele la garganta.",
+        "speaker": "Paziente",
+        "audio": "20ec585ed462",
+        "voice": 2
+      },
+      {
+        "id": "ls_m10_04",
+        "it": "Ha la tosse?",
+        "es": "¿Tiene tos?",
+        "speaker": "Medico",
+        "audio": "56b377aa19d6"
+      },
+      {
+        "id": "ls_m10_05",
+        "it": "Sì, un po'.",
+        "es": "Sí, un poco.",
+        "speaker": "Paziente",
+        "audio": "0cce28ca4f0f",
+        "voice": 2
+      },
+      {
+        "id": "ls_m10_06",
+        "it": "È l'influenza. Deve stare a letto tre giorni e bere molta acqua.",
+        "es": "Es la gripe. Tiene que estar en cama tres días y tomar mucha agua.",
+        "speaker": "Medico",
+        "audio": "8005302077f3"
+      },
+      {
+        "id": "ls_m10_07",
+        "it": "Posso andare al lavoro? Sono insegnante.",
+        "es": "¿Puedo ir al trabajo? Soy profesora.",
+        "speaker": "Paziente",
+        "audio": "95220cd9f40f",
+        "voice": 2
+      },
+      {
+        "id": "ls_m10_08",
+        "it": "No, per tre giorni deve restare a casa. Fa freddo e piove: è meglio non uscire.",
+        "es": "No, por tres días tiene que quedarse en casa. Hace frío y llueve: es mejor no salir.",
+        "speaker": "Medico",
+        "audio": "9339ebaa698a"
+      }
+    ]
+  },
+  {
+    "id": "ls_m11",
+    "title": "Com'è andato il fine settimana?",
+    "level": "A1",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Adónde fue Matteo el sábado?",
+        "options": [
+          "A la montaña",
+          "A la playa",
+          "Al cine"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Qué hizo Elena el fin de semana?",
+        "options": [
+          "Fue a la playa",
+          "Se quedó en casa y estudió",
+          "Trabajó"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué propone Matteo para esta noche?",
+        "options": [
+          "Ir al cine",
+          "Estudiar juntos",
+          "Comer pescado"
+        ],
+        "answer": 0,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Con quién fue Matteo a la playa?",
+        "options": [
+          "Con Elena",
+          "Con su hermana",
+          "Solo"
+        ],
+        "answer": 1,
+        "evidence": 1
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_m11_00",
+        "it": "Ciao Matteo! Com'è andato il fine settimana?",
+        "es": "¡Hola, Matteo! ¿Cómo te fue el fin de semana?",
+        "speaker": "Elena",
+        "audio": "1463546e0124"
+      },
+      {
+        "id": "ls_m11_01",
+        "it": "Benissimo! Sabato sono andato al mare con mia sorella.",
+        "es": "¡Muy bien! El sábado fui a la playa con mi hermana.",
+        "speaker": "Matteo",
+        "audio": "58b0b64fe558",
+        "voice": 2
+      },
+      {
+        "id": "ls_m11_02",
+        "it": "Che bello! Che cosa avete fatto?",
+        "es": "¡Qué bien! ¿Qué hicieron?",
+        "speaker": "Elena",
+        "audio": "a0926e985dce"
+      },
+      {
+        "id": "ls_m11_03",
+        "it": "Abbiamo nuotato e abbiamo mangiato il pesce in un ristorante.",
+        "es": "Nadamos y comimos pescado en un restaurante.",
+        "speaker": "Matteo",
+        "audio": "93bf8cdf4a8a",
+        "voice": 2
+      },
+      {
+        "id": "ls_m11_04",
+        "it": "E tu?",
+        "es": "¿Y tú?",
+        "speaker": "Matteo",
+        "audio": "df9adaa3a599",
+        "voice": 2
+      },
+      {
+        "id": "ls_m11_05",
+        "it": "Io sono rimasta a casa. Ho studiato per l'esame di lunedì.",
+        "es": "Yo me quedé en casa. Estudié para el examen del lunes.",
+        "speaker": "Elena",
+        "audio": "ffaa3af1afa5"
+      },
+      {
+        "id": "ls_m11_06",
+        "it": "Allora stasera vieni al cinema con noi. Non dire di no!",
+        "es": "Entonces esta noche vienes al cine con nosotros. ¡No digas que no!",
+        "speaker": "Matteo",
+        "audio": "3d60e9b2b100",
+        "voice": 2
+      },
+      {
+        "id": "ls_m11_07",
+        "it": "Va bene, vengo. Ma prima finisco gli esercizi.",
+        "es": "Está bien, voy. Pero primero termino los ejercicios.",
+        "speaker": "Elena",
+        "audio": "ed129fdaf96f"
+      },
+      {
+        "id": "ls_m11_08",
+        "it": "Perfetto. Telefona quando sei pronta!",
+        "es": "Perfecto. ¡Llama cuando estés lista!",
+        "speaker": "Matteo",
+        "audio": "7c506408471e",
+        "voice": 2
+      }
+    ]
+  },
+  {
     "id": "rd_albergo",
     "title": "All'albergo e a fare la spesa",
     "level": "A1",

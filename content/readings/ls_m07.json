@@ -1,0 +1,120 @@
+{
+  "id": "ls_m07",
+  "title": "Scusi, dov'è la stazione?",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Escucha escrita por la IA para el módulo m07: diálogo corto con lo visto hasta ese módulo; se oye sin ver el texto.",
+  "sentences": [
+    {
+      "id": "ls_m07_00",
+      "it": "Scusi, dov'è la stazione?",
+      "es": "Disculpe, ¿dónde está la estación?",
+      "speaker": "Turista"
+    },
+    {
+      "id": "ls_m07_01",
+      "it": "La stazione? È un po' lontana. Prende l'autobus?",
+      "es": "¿La estación? Está un poco lejos. ¿Toma el bus?",
+      "speaker": "Signora"
+    },
+    {
+      "id": "ls_m07_02",
+      "it": "No, preferisco andare a piedi.",
+      "es": "No, prefiero ir a pie.",
+      "speaker": "Turista"
+    },
+    {
+      "id": "ls_m07_03",
+      "it": "Allora, Lei va dritto fino alla piazza.",
+      "es": "Entonces, usted sigue derecho hasta la plaza.",
+      "speaker": "Signora"
+    },
+    {
+      "id": "ls_m07_04",
+      "it": "In piazza gira a destra.",
+      "es": "En la plaza dobla a la derecha.",
+      "speaker": "Signora"
+    },
+    {
+      "id": "ls_m07_05",
+      "it": "La stazione è dopo il ponte, vicino al supermercato.",
+      "es": "La estación está después del puente, cerca del supermercado.",
+      "speaker": "Signora"
+    },
+    {
+      "id": "ls_m07_06",
+      "it": "Grazie. C'è una farmacia qui vicino?",
+      "es": "Gracias. ¿Hay una farmacia aquí cerca?",
+      "speaker": "Turista"
+    },
+    {
+      "id": "ls_m07_07",
+      "it": "Sì, c'è una farmacia nella piazza, a sinistra.",
+      "es": "Sí, hay una farmacia en la plaza, a la izquierda.",
+      "speaker": "Signora"
+    },
+    {
+      "id": "ls_m07_08",
+      "it": "Grazie mille!",
+      "es": "¡Muchas gracias!",
+      "speaker": "Turista"
+    },
+    {
+      "id": "ls_m07_09",
+      "it": "Prego, buona giornata!",
+      "es": "De nada, ¡que tenga un buen día!",
+      "speaker": "Signora"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cómo quiere ir el turista?",
+      "options": [
+        "En bus",
+        "A pie",
+        "En taxi"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Qué tiene que hacer en la plaza?",
+      "options": [
+        "Doblar a la derecha",
+        "Doblar a la izquierda",
+        "Tomar el bus"
+      ],
+      "answer": 0,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Dónde está la farmacia?",
+      "options": [
+        "En la plaza, a la izquierda",
+        "Al lado de la estación",
+        "Después del puente"
+      ],
+      "answer": 0,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Dónde está la estación?",
+      "options": [
+        "Después del puente, cerca del supermercado",
+        "En la plaza",
+        "Al lado de la farmacia"
+      ],
+      "answer": 0,
+      "evidence": 5
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "listen": true
+}

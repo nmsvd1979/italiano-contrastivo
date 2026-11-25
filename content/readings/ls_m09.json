@@ -1,0 +1,120 @@
+{
+  "id": "ls_m09",
+  "title": "Al mercato",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Escucha escrita por la IA para el módulo m09: diálogo corto con lo visto hasta ese módulo; se oye sin ver el texto.",
+  "sentences": [
+    {
+      "id": "ls_m09_00",
+      "it": "Buongiorno! Questa maglietta costa solo dieci euro.",
+      "es": "¡Buenos días! Esta camiseta cuesta solo diez euros.",
+      "speaker": "Venditore"
+    },
+    {
+      "id": "ls_m09_01",
+      "it": "È bella, ma è troppo grande per me.",
+      "es": "Es linda, pero es demasiado grande para mí.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "ls_m09_02",
+      "it": "Ecco una maglietta più piccola.",
+      "es": "Aquí tiene una camiseta más pequeña.",
+      "speaker": "Venditore"
+    },
+    {
+      "id": "ls_m09_03",
+      "it": "Sì, questa va bene. Ha anche dei pantaloni neri?",
+      "es": "Sí, esta está bien. ¿Tiene también pantalones negros?",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "ls_m09_04",
+      "it": "Sì, costano venticinque euro.",
+      "es": "Sí, cuestan veinticinco euros.",
+      "speaker": "Venditore"
+    },
+    {
+      "id": "ls_m09_05",
+      "it": "Sono un po' cari. Prendo solo la maglietta.",
+      "es": "Son un poco caros. Me llevo solo la camiseta.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "ls_m09_06",
+      "it": "Posso pagare con la carta?",
+      "es": "¿Puedo pagar con tarjeta?",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "ls_m09_07",
+      "it": "No, mi dispiace, solo contanti.",
+      "es": "No, lo siento, solo efectivo.",
+      "speaker": "Venditore"
+    },
+    {
+      "id": "ls_m09_08",
+      "it": "Va bene, ecco dieci euro.",
+      "es": "Está bien, aquí tiene diez euros.",
+      "speaker": "Cliente"
+    },
+    {
+      "id": "ls_m09_09",
+      "it": "Grazie, e buona giornata!",
+      "es": "¡Gracias, y que tenga un buen día!",
+      "speaker": "Venditore"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué problema tiene la primera camiseta?",
+      "options": [
+        "Es muy cara",
+        "Es demasiado grande",
+        "No le gusta el color"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Cuánto cuestan los pantalones?",
+      "options": [
+        "Diez euros",
+        "Quince euros",
+        "Veinticinco euros"
+      ],
+      "answer": 2,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Cómo paga al final?",
+      "options": [
+        "Con tarjeta",
+        "En efectivo",
+        "No compra nada"
+      ],
+      "answer": 1,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Cuánto paga el cliente?",
+      "options": [
+        "Diez euros",
+        "Veinticinco euros",
+        "Treinta y cinco euros"
+      ],
+      "answer": 0,
+      "evidence": 8
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "listen": true
+}

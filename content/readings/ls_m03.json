@@ -1,0 +1,114 @@
+{
+  "id": "ls_m03",
+  "title": "In classe: una penna, per favore",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Escucha escrita por la IA para el módulo m03: diálogo corto con lo visto hasta ese módulo; se oye sin ver el texto.",
+  "sentences": [
+    {
+      "id": "ls_m03_00",
+      "it": "Scusa, hai una penna?",
+      "es": "Perdona, ¿tienes un bolígrafo?",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_m03_01",
+      "it": "Sì, ho una penna blu e una matita.",
+      "es": "Sí, tengo un bolígrafo azul y un lápiz.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "ls_m03_02",
+      "it": "Grazie! E quel quaderno verde?",
+      "es": "¡Gracias! ¿Y ese cuaderno verde?",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_m03_03",
+      "it": "Quel quaderno è di Marco.",
+      "es": "Ese cuaderno es de Marco.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "ls_m03_04",
+      "it": "E questi libri?",
+      "es": "¿Y estos libros?",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_m03_05",
+      "it": "Sono di Giulia.",
+      "es": "Son de Giulia.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "ls_m03_06",
+      "it": "Come si dice «borrador» in italiano?",
+      "es": "¿Cómo se dice «borrador» en italiano?",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_m03_07",
+      "it": "Si dice «gomma». Ecco una gomma.",
+      "es": "Se dice «gomma». Aquí tienes una goma.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "ls_m03_08",
+      "it": "Grazie mille, sei gentile!",
+      "es": "¡Muchas gracias, eres amable!",
+      "speaker": "Anna"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué le pide Anna a Luca primero?",
+      "options": [
+        "Un bolígrafo",
+        "Un cuaderno",
+        "Un libro"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿De quién es el cuaderno verde?",
+      "options": [
+        "De Luca",
+        "De Marco",
+        "De Giulia"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Cómo se dice «borrador» en italiano?",
+      "options": [
+        "Penna",
+        "Matita",
+        "Gomma"
+      ],
+      "answer": 2,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿De quién son los libros?",
+      "options": [
+        "De Anna",
+        "De Marco",
+        "De Giulia"
+      ],
+      "answer": 2,
+      "evidence": 5
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "listen": true
+}

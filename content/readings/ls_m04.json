@@ -1,0 +1,114 @@
+{
+  "id": "ls_m04",
+  "title": "La foto di famiglia",
+  "level": "A1",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Escucha escrita por la IA para el módulo m04: diálogo corto con lo visto hasta ese módulo; se oye sin ver el texto.",
+  "sentences": [
+    {
+      "id": "ls_m04_00",
+      "it": "Ecco la mia famiglia!",
+      "es": "¡Aquí está mi familia!",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_m04_01",
+      "it": "Che bella foto! Chi è questo signore alto?",
+      "es": "¡Qué linda foto! ¿Quién es este señor alto?",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "ls_m04_02",
+      "it": "È mio padre. Si chiama Giorgio. È molto simpatico.",
+      "es": "Es mi padre. Se llama Giorgio. Es muy simpático.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_m04_03",
+      "it": "E la signora bionda?",
+      "es": "¿Y la señora rubia?",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "ls_m04_04",
+      "it": "È mia madre, Elena. Fa l'insegnante.",
+      "es": "Es mi madre, Elena. Es profesora.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_m04_05",
+      "it": "Hai fratelli?",
+      "es": "¿Tienes hermanos?",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "ls_m04_06",
+      "it": "Sì, ho un fratello e una sorella. Mio fratello ha dodici anni e mia sorella ha vent'anni.",
+      "es": "Sí, tengo un hermano y una hermana. Mi hermano tiene doce años y mi hermana, veinte.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_m04_07",
+      "it": "E questo cane?",
+      "es": "¿Y este perro?",
+      "speaker": "Tommaso"
+    },
+    {
+      "id": "ls_m04_08",
+      "it": "È il nostro cane, Fido. È piccolo, ma molto simpatico.",
+      "es": "Es nuestro perro, Fido. Es pequeño, pero muy simpático.",
+      "speaker": "Sara"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cómo es el padre de Sara?",
+      "options": [
+        "Alto y simpático",
+        "Bajo y serio",
+        "Rubio y tímido"
+      ],
+      "answer": 0,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿En qué trabaja la madre?",
+      "options": [
+        "Es médica",
+        "Es profesora",
+        "Es estudiante"
+      ],
+      "answer": 1,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Cuántos años tiene el hermano de Sara?",
+      "options": [
+        "Diez",
+        "Doce",
+        "Veinte"
+      ],
+      "answer": 1,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Cómo es el perro?",
+      "options": [
+        "Grande y negro",
+        "Pequeño y simpático",
+        "Viejo y tranquilo"
+      ],
+      "answer": 1,
+      "evidence": 8
+    }
+  ],
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "listen": true
+}
