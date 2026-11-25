@@ -31,7 +31,7 @@ export default defineConfig({
       // El precache es solo la app y el contenido (liviano: se instala rápido y no se aborta). El audio va aparte, a la caché
       // `audio-v1`: se guarda al escucharlo y se puede bajar entero desde Ajustes.
       workbox: {
-        globPatterns: ["**/*.{js,css,html,json,md,png,svg}"],
+        globPatterns: ["**/*.{js,css,html,json,md,png,svg,woff2,txt}"],
         maximumFileSizeToCacheInBytes: 6 * 1024 * 1024, // items_by_code.json crece con cada unidad (2026-11-24: 4,5 MB sin comprimir, ≈75 % del tope; A2 lo rompe: ver docs/pistas-a2.md)
         runtimeCaching: [{
           urlPattern: ({ url }) => url.pathname.endsWith(".mp3"),

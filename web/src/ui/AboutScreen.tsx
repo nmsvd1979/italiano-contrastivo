@@ -19,6 +19,7 @@ export function AboutScreen({ manifest, sentences, readings = [] }: { manifest: 
       <p>Algunas palabras sueltas usan grabaciones de hablantes nativos de Lingua Libre (CC BY-SA 4.0). Si falta el clip, suena la voz del sistema. Licencias y hablantes: <a href={`${import.meta.env.BASE_URL ?? "./"}audio/ATTRIBUZIONI-audio.md`}>Atribuciones de audio</a>.</p>
       <h2>Atribuciones</h2>
       <p>Las oraciones provienen de Tatoeba (tatoeba.org) bajo la licencia CC BY 2.0 FR.</p>
+      <p>La letra del italiano es Fraunces, de The Fraunces Project Authors (Undercase Type), bajo la licencia SIL Open Font License 1.1: <a href={`${import.meta.env.BASE_URL ?? "./"}fonts/Fraunces-OFL.txt`}>texto de la licencia</a>.</p>
       {readings.length > 0 && (
         <>
           <h2>Lecturas y diálogos</h2>
