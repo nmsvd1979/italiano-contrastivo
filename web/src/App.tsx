@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Loading } from "./ui/kit/EmptyState";
 import { flushSync } from "react-dom";
 import { AudioProvider } from "./audio/AudioContext";
 import { type AudioIndex, loadAudioIndex, loadNativeWords } from "./audio/clips";
@@ -78,7 +79,7 @@ function useDayData(store: Store): DayData | null {
 
 function Today({ pack, store, storeError }: Ready) {
   const data = useDayData(store);
-  if (!data) return <p>Cargando…</p>;
+  if (!data) return <Loading />;
   const samples = loadSamples();
   const plan = planToday({ pack, cards: data.cards, day: data.day, now: new Date(), units: data.units, samples });
   return <TodayScreen plan={plan} blocks={planSession({ plan, day: data.day, pack, samples, weak: weakSpots(data.days, pack.course, localDate(new Date())).spots })} day={data.day} storeError={storeError} firstTime={data.cards.length === 0 && data.units.length === 0 && data.day.reviewsDone === 0} streak={computeStreak(data.days, localDate(new Date()))} week={weekTotals(data.days, localDate(new Date()))} phrase={plan.unit ? contrastCards(plan.unit.view.unit, pack, 1)[0] : undefined} />;
@@ -86,14 +87,14 @@ function Today({ pack, store, storeError }: Ready) {
 
 function Practice({ pack, store }: Ready) {
   const data = useDayData(store);
-  if (!data) return <p>Cargando…</p>;
+  if (!data) return <Loading />;
   const plan = planToday({ pack, cards: data.cards, day: data.day, now: new Date(), units: data.units, samples: loadSamples() });
   return <PracticeScreen review={plan.review} weak={weakSpots(data.days, pack.course, localDate(new Date())).spots} />;
 }
 
 function Progress({ pack, store }: Ready) {
   const data = useDayData(store);
-  if (!data) return <p>Cargando…</p>;
+  if (!data) return <Loading />;
   const today = localDate(new Date());
   return <ProgressScreen week={weekTotals(data.days, today)} days={data.days} today={today} modules={moduleViews(pack.course, data.units).modules} weak={weakSpots(data.days, pack.course, today)} />;
 }
@@ -117,7 +118,7 @@ function Routes({ ready, hash }: { ready: Ready; hash: string }) {
   const txt = hash.match(/^#\/modulo\/(m\d+)\/texto\/(\w+)$/);
   if (hash === "#/hito/A1") return <MilestoneScreen pack={ready.pack} store={ready.store} level="A1" />;
   if (hash === "#/ubicacion") return <PlacementScreen pack={ready.pack} store={ready.store} units={ready.pack.course.units} />;
-  if (!views) return <p>Cargando…</p>;
+  if (!views) return <Loading />;
   if (hash === "#/ruta") return <RouteScreen views={views.units} modules={views.modules} pack={ready.pack} hito={hito} />;
   if (txt) return <ModuleTextScreen key={hash} moduleId={txt[1]} textId={txt[2]} pack={ready.pack} store={ready.store} />;
   if (mod && mod[2]) return <ModuleStepScreen key={hash} moduleId={mod[1]} step={mod[2] as ModuleStepId} pack={ready.pack} store={ready.store} />;
@@ -147,7 +148,7 @@ export function App() {
     })().catch((e: Error) => setError(e.message));
   }, []);
   if (error) return <p role="alert" className="alert">{error}</p>;
-  if (!ready) return <p>Cargando…</p>;
+  if (!ready) return <Loading />;
   const capsule = hash.startsWith("#/capsula/") ? ready.pack.capsules.find((c) => c.id === hash.slice("#/capsula/".length)) : undefined;
   return (
     <AudioProvider pack={ready.pack} index={ready.audio} words={ready.words}>

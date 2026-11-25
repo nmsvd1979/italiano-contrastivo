@@ -32,8 +32,12 @@ export function LibraryScreen({ pack, store }: { pack: ContentPack; store: Store
   return (
     <main>
       <h1>Biblioteca</h1>
-      <p>La app te enseña la lengua, pero <strong>entender y ganar fluidez</strong> salen sobre todo de oír y leer italiano real. Aquí hay recursos externos para eso, con una tarea corta cada uno. Lo que hagas fuera, regístralo y suma a «Tu semana».</p>
-      <p><small>Los enlaces se verificaron al armar esta lista ({library[0]?.verified ?? "sin fecha"}), pero los sitios cambian. La app no es dueña de ese contenido y no lo revisó un nativo.</small></p>
+      <p>Italiano real para oír y leer, con una tarea corta en cada recurso. La app no es dueña de ese contenido ni lo revisó un nativo.</p>
+      <details className="how">
+        <summary>Cómo usarla</summary>
+        <p>La app te enseña la lengua, pero <strong>entender y ganar fluidez</strong> salen sobre todo de oír y leer italiano real. Elige un recurso de tu nivel, haz su tarea de 10 minutos y, lo que hagas fuera, regístralo: suma a «Tu semana».</p>
+        <p><small>Los enlaces se verificaron al armar esta lista ({library[0]?.verified ?? "sin fecha"}), pero los sitios cambian.</small></p>
+      </details>
       <div role="group" aria-label="Nivel" style={{ display: "flex", gap: 6, flexWrap: "wrap", margin: "8px 0" }}>
         {LEVEL_FILTERS.map((l) => <button key={l} type="button" aria-pressed={level === l} className={level === l ? "primary" : ""} style={{ minHeight: 36, padding: "4px 12px" }} onClick={() => setLevel(l)}>{l === "todos" ? "Todos" : l}</button>)}
       </div>

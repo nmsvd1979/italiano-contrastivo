@@ -3,6 +3,7 @@ import { canDoStep, STEP_LABEL, stepsFor, type UnitView } from "../state/course"
 import { stepSeconds } from "../state/steps";
 import { formatDuration, loadSamples } from "../state/timing";
 import { ContrastCard, contrastCards } from "./kit/ContrastCard";
+import { toneOf } from "./kit/ModuleMotif";
 import { UnitStrip } from "./kit/UnitStrip";
 
 /** La ficha de una cápsula: sus pasos como tira, el contraste con el español y un solo botón al paso que toca. */
@@ -10,11 +11,12 @@ export function UnitScreen({ view, pack }: { view: UnitView; pack: ContentPack }
   const { unit, progress } = view;
   const samples = loadSamples();
   const total = stepsFor(unit).reduce((t, s) => t + stepSeconds(unit, s, pack, samples), 0);
-  const module = (pack.course.modules ?? []).find((m) => m.units.includes(unit.id));
+  const modules = pack.course.modules ?? [];
+  const module = modules.find((m) => m.units.includes(unit.id));
   const cards = contrastCards(unit, pack);
   const next = view.next && canDoStep(view, view.next) ? view.next : null;
   return (
-    <main className="unit">
+    <main className="unit" data-tone={module ? toneOf(modules.indexOf(module)) : undefined}>
       <p><a className="tap" href={module ? `#/modulo/${module.id}` : "#/ruta"} style={{ textDecoration: "none" }}>‹ {module ? module.title : "Ruta"}</a></p>
       <p><small>{unit.level} · Unidad {view.index + 1}</small></p>
       <h1 lang="it">{unit.title}</h1>

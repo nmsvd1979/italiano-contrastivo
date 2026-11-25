@@ -11,3 +11,8 @@ export function EmptyState({ title, body, action, children }: { title: string; b
     </main>
   );
 }
+
+/** Mientras se carga: una pantalla tranquila en vez de una línea suelta arriba a la izquierda. */
+export function Loading({ text = "Cargando…" }: { text?: string }) {
+  return <main className="empty loading" aria-busy="true"><p role="status"><span className="spinner" aria-hidden="true" />{text}</p></main>;
+}

@@ -47,7 +47,10 @@ export function ReadingStep({ reading, words = {}, onFinish, exitHref = "#/", hi
       <div>
         <FocusHead progress={0.1} exitHref={exitHref} />
         <h2 lang="it">{reading.title}</h2>
-        <p><small>{reading.kind === "dialogo" ? "Diálogo" : reading.kind === "documento" ? "Documento" : "Lectura"} · {reading.authored ? "Texto escrito por la IA (Claude) para esta app: no es de un libro ni lo revisó un nativo." : `${reading.source.book} (${reading.source.authors}), ${reading.source.license}.`}{hideTranslation ? "" : " Traducción al español: IA, sin revisar por un nativo."}</small></p>
+        <details className="how src">
+          <summary>{reading.kind === "dialogo" ? "Diálogo" : reading.kind === "documento" ? "Documento" : "Lectura"} · fuente y traducción (IA, sin revisar por un nativo)</summary>
+          <p><small>{reading.kind === "dialogo" ? "Diálogo" : reading.kind === "documento" ? "Documento" : "Lectura"} · {reading.authored ? "Texto escrito por la IA (Claude) para esta app: no es de un libro ni lo revisó un nativo." : `${reading.source.book} (${reading.source.authors}), ${reading.source.license}.`}{hideTranslation ? "" : " Traducción al español: IA, sin revisar por un nativo."}</small></p>
+        </details>
         {reading.table && (
           <div style={{ overflowX: "auto" }}>
             <table className={reading.table.head.length > 3 ? "doc wide" : "doc"} lang="it">

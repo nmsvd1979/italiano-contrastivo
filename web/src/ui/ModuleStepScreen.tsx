@@ -9,6 +9,7 @@ import { fromItems, ItemRunner, type RunResult } from "./ItemRunner";
 import { Ring } from "./kit/Ring";
 import { toneOf } from "./kit/ModuleMotif";
 import { Stamp } from "./kit/Stamp";
+import { ScoreRing } from "./kit/SessionSummary";
 import { useStrandTimer } from "./kit/useStrandTimer";
 import { ReadingStep } from "./ReadingStep";
 import { FluencyRun, PhrasesPanel, RolePlayRun, TaskRun } from "./SpeakingScreen";
@@ -185,6 +186,7 @@ function Cierre({ view, pack, store, exit, onDone }: { view: ModuleView; pack: C
   const pct = Math.round(((res?.correct ?? 0) / Math.max(1, res?.total ?? 1)) * 100);
   return (
     <main className="center fin" data-tone={toneOf(view.index)}>
+      {res && !res.passed && <ScoreRing correct={res.correct} total={res.total} />}
       {res?.passed && <div className="award"><Stamp index={view.index} earned size="lg" fresh label={`Sello del módulo ${view.index + 1}, ganado`} /></div>}
       <h1>{res?.passed ? "¡Módulo completado!" : "Casi"}</h1>
       <p>Acertaste {res?.correct} de {res?.total} ({pct} %). {res?.passed ? "Se abrió el módulo siguiente." : "Hacen falta 80 % o más. Repasa las cápsulas que más te costaron y reintenta cuando quieras."}</p>

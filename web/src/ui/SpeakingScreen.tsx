@@ -33,8 +33,12 @@ export function SpeakingScreen({ pack, store }: { pack: ContentPack; store: Stor
   return (
     <main>
       <h1>Hablar</h1>
-      <p>Aquí practicas la voz: oyes, hablas en voz alta y te autoevalúas. <strong>La app no mide tu pronunciación</strong> (no se puede hacer gratis en el teléfono): te escuchas, te comparas con el modelo y marcas cómo te fue. Lo que hables suma a «Escribir y hablar» en «Tu semana».</p>
-      <p><small>{sp.note}</small></p>
+      <p>Oyes, hablas en voz alta y te autoevalúas. <strong>La app no mide tu pronunciación.</strong></p>
+      <details className="how">
+        <summary>Cómo funciona y de dónde sale el italiano</summary>
+        <p>No se puede medir la pronunciación gratis en el teléfono: te escuchas, te comparas con el modelo y marcas cómo te fue. Lo que hables suma a «Escribir y hablar» en «Tu semana».</p>
+        <p><small>{sp.note}</small></p>
+      </details>
       <h2>Juegos de roles</h2>
       <p><small>Un diálogo real: la app dice una voz y tú respondes la otra, mirando solo el español.</small></p>
       <ul className="library">

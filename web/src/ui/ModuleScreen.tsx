@@ -4,6 +4,7 @@ import { MODULE_STEP_LABEL, MODULE_STEP_SECONDS, type ModuleNext, type ModuleSte
 import { stepSeconds } from "../state/steps";
 import type { Strand } from "../state/strands";
 import { formatDuration, loadSamples, type Samples } from "../state/timing";
+import { ModuleMotif, toneOf } from "./kit/ModuleMotif";
 import { Tag } from "./kit/Tag";
 
 const STRAND_OF: Record<ModuleNext, Strand> = { entrada: "entrada", capsulas: "foco", textos: "entrada", salida: "salida", fluidez: "fluidez", cierre: "salida" };
@@ -30,10 +31,14 @@ export function ModuleScreen({ view, pack }: { view: ModuleView; pack: ContentPa
   const capsulesDone = view.units.filter((u) => u.progress.completed).length;
   const capsulesOpen = !!view.steps.find((x) => x.id === "capsulas")?.open; // sin la Entrada hecha (o con el módulo bloqueado) las cápsulas aún no se pueden abrir
   return (
-    <main className="module">
+    <main className="module" data-tone={toneOf(view.index)}>
       <p><a className="tap" href="#/ruta" style={{ textDecoration: "none" }}>‹ Ruta</a></p>
-      <p><small>{module.level} · Módulo {view.index + 1}</small></p>
-      <h1>{module.title}</h1>
+      <header className="mhead">
+        <ModuleMotif index={view.index} className="motif motif-bg" />
+        <small>{module.level} · Módulo {view.index + 1}</small>
+        <h1>{module.title}</h1>
+        <p>{view.state === "completed" ? "Módulo completado" : `${view.steps.filter((s) => s.done).length} de ${view.steps.length} etapas hechas`}</p>
+      </header>
       {view.state === "locked" && <p role="status">Este módulo se abre cuando completes el anterior.</p>}
       <ol className="tl" aria-label="Etapas del módulo">
         {view.steps.map((s) => {

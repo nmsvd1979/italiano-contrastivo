@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { EmptyState, Loading } from "./kit/EmptyState";
 import type { ContentPack } from "../content/load";
 import { canDoStep, STEP_LABEL, stepsFor, type UnitView } from "../state/course";
 import { moduleViews } from "../state/modules";
@@ -30,10 +31,10 @@ export function StepScreen({ unitId, step, pack, store }: { unitId: string; step
   useEffect(() => {
     store.allUnits().then((all) => setViews(moduleViews(pack.course, all).units));
   }, [store, pack, done]);
-  if (!views) return <p>Cargando…</p>;
+  if (!views) return <Loading />;
   const view = views.find((v) => v.unit.id === unitId);
   if (!view || !stepsFor(view.unit).includes(step)) return <main><p>Esa unidad o paso no existe.</p><p><a className="button" href="#/ruta">Ir a la ruta</a></p></main>;
-  if (!canDoStep(view, step)) return <main><p>Todavía no puedes hacer este paso: completa antes los anteriores.</p><p><a className="button" href={`#/unidad/${unitId}`}>Ver la unidad</a></p></main>;
+  if (!canDoStep(view, step)) return <EmptyState title="Todavía no puedes hacer este paso" body="Completa antes los anteriores." action={{ href: `#/unidad/${unitId}`, label: "Ver la unidad" }} />;
   const { unit } = view;
   const now = () => new Date();
 

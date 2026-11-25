@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { EmptyState, Loading } from "./kit/EmptyState";
 import type { ContentPack, Lexeme } from "../content/load";
 import { GENDER_NOTE, wordLexeme, withArticle } from "../state/words";
 import type { Card } from "../generated/card";
@@ -27,8 +28,8 @@ export function ReviewScreen({ pack, store, now }: { pack: ContentPack; store: S
   useEffect(() => {
     Promise.all([store.allCards(), store.allUnits(), store.getDay(localDate(now ?? new Date()))]).then(([cards, units, day]) => setQueue(reviewQueue({ pack, cards, now: now ?? new Date(), units, samples: loadSamples(), day })));
   }, [pack, store, now]);
-  if (!queue) return <p>Cargando…</p>;
-  if (queue.length === 0) return <main><p>No tienes repasos pendientes ahora.</p><p><a className="button" href="#/">Volver a Hoy</a></p></main>;
+  if (!queue) return <Loading />;
+  if (queue.length === 0) return <EmptyState title="No tienes repasos pendientes ahora." body="Cuando vuelvan tarjetas, aparecerán en Hoy." action={{ href: "#/", label: "Volver a Hoy" }} />;
   if (i >= queue.length) return <main className="center"><Ring /><h2>Terminaste esta tanda.</h2><div className="actions-bottom"><a className="button primary block" href="#/">Volver a Hoy</a></div></main>;
 
   const entry = queue[i];
