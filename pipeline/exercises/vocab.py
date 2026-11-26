@@ -16,6 +16,7 @@ import yaml
 from pipeline import config
 
 LEXICON = config.ROOT / "pipeline" / "vocab" / "vocab_a1.yaml"  # fuera de lexicons/: el motor de etiquetado carga todo lo que hay allí
+LEXICONS = sorted((config.ROOT / "pipeline" / "vocab").glob("vocab_a[0-9]*.yaml"))   # un archivo por nivel (A1, A2…): el vocabulario de un nivel nunca repite una forma del anterior
 _VOWELS = "aeiouàèéìòù"
 
 
@@ -43,8 +44,13 @@ def art_class(e: Entry) -> str:
 
 @lru_cache(maxsize=1)
 def topics() -> dict[str, list[Entry]]:
-    raw = yaml.safe_load(LEXICON.read_text(encoding="utf8"))["topics"]
     out: dict[str, list[Entry]] = {}
+    raw: dict[str, list[str]] = {}
+    for f in LEXICONS:
+        for code, rows in yaml.safe_load(f.read_text(encoding="utf8"))["topics"].items():
+            if code in raw:
+                raise ValueError(f"el tema {code} está en dos archivos de vocabulario")
+            raw[code] = rows
     for code, rows in raw.items():
         entries = []
         for row in rows:

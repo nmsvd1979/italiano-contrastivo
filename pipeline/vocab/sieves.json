@@ -2813,5 +2813,359 @@
   "k": "regular",
   "r": "cion-zione",
   "n": "informazione = información"
+ },
+ "album": {
+  "k": "transparente"
+ },
+ "appuntamento": {
+  "k": "opaca"
+ },
+ "argomento": {
+  "k": "regular",
+  "r": "u-o",
+  "n": "argumento→argomento: u→o",
+  "ff": true
+ },
+ "arrivo": {
+  "k": "regular",
+  "r": "otro",
+  "n": "arribo→arrivo: b→v"
+ },
+ "assegno": {
+  "k": "opaca"
+ },
+ "atterraggio": {
+  "k": "opaca"
+ },
+ "attore": {
+  "k": "regular",
+  "r": "otro",
+  "n": "actor→attore: ct→tt, -or→-ore"
+ },
+ "azienda": {
+  "k": "opaca"
+ },
+ "bancomat": {
+  "k": "opaca"
+ },
+ "brocca": {
+  "k": "opaca"
+ },
+ "calze": {
+  "k": "regular",
+  "r": "otro",
+  "n": "calzas→calze: -as→-e",
+  "ff": true
+ },
+ "campeggio": {
+  "k": "regular",
+  "r": "otro",
+  "n": "camping→campeggio"
+ },
+ "cassetto": {
+  "k": "opaca"
+ },
+ "certificato": {
+  "k": "transparente"
+ },
+ "cintura": {
+  "k": "transparente"
+ },
+ "ciotola": {
+  "k": "opaca"
+ },
+ "coincidenza": {
+  "k": "regular",
+  "r": "otro",
+  "n": "coincidencia→coincidenza: -cia→-za",
+  "ff": true
+ },
+ "comune": {
+  "k": "transparente"
+ },
+ "contratto": {
+  "k": "regular",
+  "r": "doble",
+  "n": "contrato→contratto: t doble"
+ },
+ "copertina": {
+  "k": "opaca"
+ },
+ "corsa": {
+  "k": "opaca"
+ },
+ "costume": {
+  "k": "regular",
+  "r": "otro",
+  "n": "costumbre→costume: pierde -bre",
+  "ff": true
+ },
+ "curioso": {
+  "k": "transparente"
+ },
+ "domanda": {
+  "k": "opaca",
+  "ff": true,
+  "n": "Parece 'demanda' pero significa pregunta o solicitud"
+ },
+ "fattoria": {
+  "k": "regular",
+  "r": "otro",
+  "n": "factoría→fattoria: ct→tt",
+  "ff": true
+ },
+ "fermo": {
+  "k": "opaca"
+ },
+ "fidanzata": {
+  "k": "opaca"
+ },
+ "fidanzato": {
+  "k": "opaca"
+ },
+ "fila": {
+  "k": "transparente"
+ },
+ "firma": {
+  "k": "transparente"
+ },
+ "frontiera": {
+  "k": "regular",
+  "r": "otro",
+  "n": "frontera→frontiera: o→ie"
+ },
+ "gelosa": {
+  "k": "regular",
+  "r": "otro",
+  "n": "celosa→gelosa: c→g"
+ },
+ "geloso": {
+  "k": "regular",
+  "r": "otro",
+  "n": "celoso→geloso: c→g"
+ },
+ "gita": {
+  "k": "opaca"
+ },
+ "guida": {
+  "k": "regular",
+  "r": "otro",
+  "n": "guía→guida"
+ },
+ "imbarazzata": {
+  "k": "regular",
+  "r": "otro",
+  "n": "embarazada→imbarazzata: em→im, z doble",
+  "ff": true
+ },
+ "imbarazzato": {
+  "k": "regular",
+  "r": "otro",
+  "n": "embarazado→imbarazzato: em→im, z doble",
+  "ff": true
+ },
+ "impiegato": {
+  "k": "opaca"
+ },
+ "incinta": {
+  "k": "transparente"
+ },
+ "largo": {
+  "k": "opaca",
+  "ff": true,
+  "n": "Parece 'largo' pero significa ancho; largo = lungo"
+ },
+ "lenzuolo": {
+  "k": "opaca"
+ },
+ "mappa": {
+  "k": "regular",
+  "r": "doble",
+  "n": "mapa→mappa: p doble"
+ },
+ "marciapiede": {
+  "k": "opaca"
+ },
+ "minestra": {
+  "k": "regular",
+  "r": "otro",
+  "n": "menestra→minestra: e→i",
+  "ff": true
+ },
+ "morbido": {
+  "k": "opaca",
+  "ff": true,
+  "n": "Parece 'mórbido' pero significa suave"
+ },
+ "mostra": {
+  "k": "opaca",
+  "ff": true,
+  "n": "Parece 'muestra' pero es la exposición"
+ },
+ "multa": {
+  "k": "transparente"
+ },
+ "officina": {
+  "k": "regular",
+  "r": "doble",
+  "n": "oficina→officina: f doble",
+  "ff": true
+ },
+ "orario": {
+  "k": "regular",
+  "r": "otro",
+  "n": "horario→orario: pierde la h"
+ },
+ "pagamento": {
+  "k": "regular",
+  "r": "otro",
+  "n": "pago→pagamento: -mento"
+ },
+ "parcheggio": {
+  "k": "opaca"
+ },
+ "partenza": {
+  "k": "opaca"
+ },
+ "passaggio": {
+  "k": "regular",
+  "r": "otro",
+  "n": "pasaje→passaggio: -je→-ggio, s doble"
+ },
+ "password": {
+  "k": "transparente"
+ },
+ "patente": {
+  "k": "opaca",
+  "ff": true,
+  "n": "Parece 'patente' pero es el carné de conducir"
+ },
+ "permesso": {
+  "k": "regular",
+  "r": "otro",
+  "n": "permiso→permesso: i→e, s doble"
+ },
+ "personaggio": {
+  "k": "regular",
+  "r": "otro",
+  "n": "personaje→personaggio: -je→-ggio"
+ },
+ "pesca": {
+  "k": "transparente"
+ },
+ "programma": {
+  "k": "transparente"
+ },
+ "pronto": {
+  "k": "opaca",
+  "ff": true,
+  "n": "Parece 'pronto' (rápido) pero significa listo; rápido, pronto = presto"
+ },
+ "pubblicità": {
+  "k": "regular",
+  "r": "dad-ta",
+  "n": "publicidad→pubblicità: -dad→-tà"
+ },
+ "ritardo": {
+  "k": "opaca"
+ },
+ "romanzo": {
+  "k": "opaca",
+  "ff": true,
+  "n": "Parece 'romance' pero es la novela"
+ },
+ "rubinetto": {
+  "k": "opaca"
+ },
+ "sincero": {
+  "k": "transparente"
+ },
+ "stampante": {
+  "k": "opaca"
+ },
+ "statua": {
+  "k": "regular",
+  "r": "otro",
+  "n": "estatua→statua: pierde la e-"
+ },
+ "straniera": {
+  "k": "regular",
+  "r": "otro",
+  "n": "extranjera→straniera: pierde ex-"
+ },
+ "stufa": {
+  "k": "regular",
+  "r": "otro",
+  "n": "estufa→stufa: pierde la e-"
+ },
+ "tasca": {
+  "k": "opaca",
+  "ff": true,
+  "n": "Parece 'tasca' (taberna) pero significa bolsillo"
+ },
+ "tasche": {
+  "k": "opaca",
+  "ff": true,
+  "n": "Plural de tasca: bolsillos"
+ },
+ "tassa": {
+  "k": "regular",
+  "r": "doble",
+  "n": "tasa→tassa: s doble"
+ },
+ "telegiornale": {
+  "k": "opaca"
+ },
+ "tenda": {
+  "k": "opaca",
+  "ff": true,
+  "n": "Parece 'tienda' (comercio) pero es tienda de campaña o cortina"
+ },
+ "timida": {
+  "k": "transparente"
+ },
+ "timido": {
+  "k": "transparente"
+ },
+ "tranquilla": {
+  "k": "regular",
+  "r": "doble",
+  "n": "tranquila→tranquilla: l doble"
+ },
+ "tranquillo": {
+  "k": "regular",
+  "r": "doble",
+  "n": "tranquilo→tranquillo: l doble"
+ },
+ "turisti": {
+  "k": "transparente"
+ },
+ "vacanza": {
+  "k": "regular",
+  "r": "otro",
+  "n": "vacación→vacanza: -ción→-nza"
+ },
+ "vaso": {
+  "k": "opaca",
+  "ff": true,
+  "n": "Parece 'vaso' pero es el florero o la maceta; el vaso de beber es bicchiere"
+ },
+ "vicina": {
+  "k": "regular",
+  "r": "otro",
+  "n": "vecina→vicina: e→i"
+ },
+ "video": {
+  "k": "transparente"
+ },
+ "voli": {
+  "k": "regular",
+  "r": "ue-o",
+  "n": "vuelos→voli: ue→o"
+ },
+ "volo": {
+  "k": "regular",
+  "r": "ue-o",
+  "n": "vuelo→volo: ue→o"
  }
 }

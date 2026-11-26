@@ -1104,5 +1104,89 @@
     ],
     "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
     "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_CARATTERE",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Cómo es una persona y cómo te relacionas: timido, curioso, geloso (celoso), sincero, tranquillo, fidanzato/a (el novio o la novia con compromiso; el simple «novio» sin compromiso es ragazzo), straniero/a (extranjero), vicina (vecina). Los adjetivos concuerdan: timido, timida.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A2 por temas (vocab_a2.yaml); programa PLIDA A2 (áreas semánticas) y falsos amigos del español.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_FALSI_CASA",
+    "category": "L1_FALSE_FRIEND",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Palabras de la casa, la ropa y la comida que se parecen al español pero significan otra cosa: largo es «ancho» (lo largo es lungo), vaso es el florero o la maceta (el vaso de beber es bicchiere), morbido es «suave», minestra es «sopa», tasca es «bolsillo», calze son «medias», costume es la costumbre o el traje de baño, tenda es la tienda de campaña o la cortina.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A2 por temas (vocab_a2.yaml); programa PLIDA A2 (áreas semánticas) y falsos amigos del español.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_FALSI_CITTA",
+    "category": "L1_FALSE_FRIEND",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Palabras de la ciudad, el viaje y las acciones que engañan: pronto es «listo» (lo pronto es presto), imbarazzato/a es «avergonzado» (embarazada es incinta), officina es «taller» (oficina es ufficio), argomento es «tema», fattoria es «granja», coincidenza es el enlace entre trenes, azienda es «empresa», marciapiede es «acera», parcheggio es «estacionamiento».",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A2 por temas (vocab_a2.yaml); programa PLIDA A2 (áreas semánticas) y falsos amigos del español.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_UFFICI",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Oficinas, banco y trámites: firma, fila (la cola), multa, tassa e tasse (impuestos), domanda (la solicitud; también «pregunta»), patente (el carné de conducir, no la patente), permesso (permiso), appuntamento (cita), certificato, contratto, assegno (cheque), pagamento, bancomat (cajero), comune (ayuntamiento), impiegato (empleado). Las palabras de A1 como sportello, modulo o pacco ya están vistas.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A2 por temas (vocab_a2.yaml); programa PLIDA A2 (áreas semánticas) y falsos amigos del español.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_CULTURA",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Cultura, medios y tecnología: mostra (exposición), romanzo (novela), personaggio, copertina (portada), statua, album, video, programma, telegiornale (noticiero), pubblicità, password (contraseña), stampante (impresora), attore. Las que se parecen al español: programma, video, album; mostra no es «muestra» sino «exposición».",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A2 por temas (vocab_a2.yaml); programa PLIDA A2 (áreas semánticas) y falsos amigos del español.",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_VOC_VIAGGIO",
+    "category": "LEXICAL_CHOICE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Viajar: ritardo (retraso), volo, orario (horario), arrivo, partenza (salida), passaggio, atterraggio (aterrizaje), campeggio (camping), frontiera, mappa, guida, gita (excursión corta), turisti, voli. Con el tren y el hotel de A1 (binario, biglietto, camera) forman el vocabulario del viaje.",
+    "example_wrong": "—",
+    "example_right": "—",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo: vocabulario A2 por temas (vocab_a2.yaml); programa PLIDA A2 (áreas semánticas) y falsos amigos del español.",
+    "review_status": "needs_review"
   }
 ]
