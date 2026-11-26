@@ -51,8 +51,8 @@
     },
     {
       "id": "rd_a2m07_a_06",
-      "it": "Allora ci vediamo alle sei, davanti al cinema.",
-      "es": "Entonces nos vemos a las seis, frente al cine.",
+      "it": "Allora potresti venire alle sei, davanti al cinema?",
+      "es": "Entonces, ¿podrías venir a las seis, frente al cine?",
       "speaker": "Matteo"
     },
     {
@@ -63,8 +63,8 @@
     },
     {
       "id": "rd_a2m07_a_08",
-      "it": "Cerco di chiamare Paolo: verrà anche lui?",
-      "es": "Trato de llamar a Paolo: ¿vendrá él también?",
+      "it": "Vorrei chiamare Paolo: verrà anche lui?",
+      "es": "Quisiera llamar a Paolo: ¿vendrá él también?",
       "speaker": "Matteo"
     },
     {
@@ -122,7 +122,7 @@
       "evidence": 5
     },
     {
-      "prompt_es": "¿A quién intentará llamar Matteo?",
+      "prompt_es": "¿A quién quiere llamar Matteo?",
       "options": [
         "A Sara",
         "A Paolo",

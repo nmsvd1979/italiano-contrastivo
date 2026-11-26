@@ -844,6 +844,317 @@
     ]
   },
   {
+    "id": "doc_a2m07_cinema",
+    "title": "Programma del cinema",
+    "level": "A2",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿A qué hora empieza «Due amici al mare»?",
+        "options": [
+          "Alle 20.00",
+          "Alle 18.30",
+          "Alle 21.15"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Cuál es la última película del día?",
+        "options": [
+          "La città di sera",
+          "La cena di Natale",
+          "Il viaggio di Anna"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿En qué sala dan «Il gatto e la luna»?",
+        "options": [
+          "Sala 1",
+          "Sala 2",
+          "Sala 3"
+        ],
+        "answer": 2
+      },
+      {
+        "prompt_es": "¿Qué película empieza a las 16.00?",
+        "options": [
+          "Il gatto e la luna",
+          "Due amici al mare",
+          "Il viaggio di Anna"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Cuántas películas hay en la sala 1?",
+        "options": [
+          "Una",
+          "Dos",
+          "Tres"
+        ],
+        "answer": 1
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Film",
+        "Orario",
+        "Sala"
+      ],
+      "rows": [
+        [
+          "Il gatto e la luna",
+          "16.00",
+          "Sala 3"
+        ],
+        [
+          "La città di sera",
+          "18.30",
+          "Sala 1"
+        ],
+        [
+          "Due amici al mare",
+          "20.00",
+          "Sala 2"
+        ],
+        [
+          "Il viaggio di Anna",
+          "21.15",
+          "Sala 1"
+        ],
+        [
+          "La cena di Natale",
+          "22.30",
+          "Sala 3"
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
+    "id": "doc_a2m07_invito",
+    "title": "E-mail: non posso venire alla festa",
+    "level": "A2",
+    "kind": "lectura",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué responde Sara a la invitación?",
+        "options": [
+          "Que no puede ir",
+          "Que irá",
+          "Que llegará tarde"
+        ],
+        "answer": 0,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Dónde estará Sara el sábado en la noche?",
+        "options": [
+          "En Roma",
+          "En Florencia",
+          "En su casa"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué hará si vuelve temprano?",
+        "options": [
+          "Se quedará en casa",
+          "Llamará por teléfono",
+          "Pasará a saludar"
+        ],
+        "answer": 2,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Qué propone Sara?",
+        "options": [
+          "Una cena la próxima semana",
+          "Un viaje",
+          "Un cine el sábado"
+        ],
+        "answer": 0,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Qué días está libre?",
+        "options": [
+          "Martes o miércoles",
+          "Jueves o viernes",
+          "Sábado o domingo"
+        ],
+        "answer": 1,
+        "evidence": 8
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "doc_a2m07_invito_00",
+        "it": "Cara Chiara,",
+        "es": "Querida Chiara:",
+        "audio": "7c6db079edf7"
+      },
+      {
+        "id": "doc_a2m07_invito_01",
+        "it": "grazie per l'invito alla tua festa di sabato!",
+        "es": "¡gracias por la invitación a tu fiesta del sábado!",
+        "audio": "528fefa54fdd"
+      },
+      {
+        "id": "doc_a2m07_invito_02",
+        "it": "Vorrei tanto venire, ma purtroppo non posso.",
+        "es": "Me encantaría ir, pero lamentablemente no puedo.",
+        "audio": "c33005f982d7"
+      },
+      {
+        "id": "doc_a2m07_invito_03",
+        "it": "Sabato sera sarò a Firenze da mia nonna.",
+        "es": "El sábado en la noche estaré en Florencia donde mi abuela.",
+        "audio": "8ae37532af2b"
+      },
+      {
+        "id": "doc_a2m07_invito_04",
+        "it": "Se torno presto, passo da te per un saluto.",
+        "es": "Si vuelvo temprano, paso por tu casa a saludar.",
+        "audio": "300f577a4317"
+      },
+      {
+        "id": "doc_a2m07_invito_05",
+        "it": "Smetto di lavorare alle sei e parto subito.",
+        "es": "Dejo de trabajar a las seis y salgo de inmediato.",
+        "audio": "5ae82fc32b1d"
+      },
+      {
+        "id": "doc_a2m07_invito_06",
+        "it": "Penserò a voi durante la festa!",
+        "es": "¡Pensaré en ustedes durante la fiesta!",
+        "audio": "9418d59c72df"
+      },
+      {
+        "id": "doc_a2m07_invito_07",
+        "it": "Posso invitarti a cena la settimana prossima?",
+        "es": "¿Puedo invitarte a cenar la próxima semana?",
+        "audio": "314d176cb05b"
+      },
+      {
+        "id": "doc_a2m07_invito_08",
+        "it": "Dipende da te: sono libera giovedì o venerdì.",
+        "es": "Depende de ti: estoy libre el jueves o el viernes.",
+        "audio": "aff8e4f9c2d6"
+      },
+      {
+        "id": "doc_a2m07_invito_09",
+        "it": "Un abbraccio, Sara",
+        "es": "Un abrazo, Sara",
+        "audio": "dad7ac90c615"
+      }
+    ]
+  },
+  {
+    "id": "doc_a2m07_meteo",
+    "title": "Previsioni del tempo: cinque giorni",
+    "level": "A2",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué tiempo hay el sábado?",
+        "options": [
+          "Lluvia y viento",
+          "Sol",
+          "Nublado"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Qué día hará más calor?",
+        "options": [
+          "Lunes",
+          "Domingo",
+          "Martes"
+        ],
+        "answer": 2
+      },
+      {
+        "prompt_es": "¿Qué día hay sol y 12–18 grados?",
+        "options": [
+          "Viernes",
+          "Domingo",
+          "Lunes"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Qué tiempo hay el lunes?",
+        "options": [
+          "Nublado",
+          "Sol",
+          "Lluvia"
+        ],
+        "answer": 0
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Giorno",
+        "Tempo",
+        "Temperatura"
+      ],
+      "rows": [
+        [
+          "Venerdì",
+          "Pioggia",
+          "14° – 17°"
+        ],
+        [
+          "Sabato",
+          "Pioggia e vento",
+          "13° – 16°"
+        ],
+        [
+          "Domenica",
+          "Sole",
+          "12° – 18°"
+        ],
+        [
+          "Lunedì",
+          "Nuvoloso",
+          "11° – 17°"
+        ],
+        [
+          "Martedì",
+          "Sole e qualche nuvola",
+          "12° – 20°"
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
     "id": "doc_annuncio",
     "title": "Affittasi stanza",
     "level": "A1",
@@ -2687,6 +2998,187 @@
         "es": "Muy bien, hasta mañana.",
         "speaker": "Elena",
         "audio": "4407f6ba646d"
+      }
+    ]
+  },
+  {
+    "id": "ls_a2m07",
+    "title": "Il tempo del fine settimana",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué tiempo hará el sábado?",
+        "options": [
+          "Sol",
+          "Lluvia todo el día",
+          "Viento"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Adónde irán el domingo?",
+        "options": [
+          "Al cine",
+          "A la montaña",
+          "Al lago"
+        ],
+        "answer": 2,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué hará Luca el sábado?",
+        "options": [
+          "Irá a casa de Giulia a las seis",
+          "Cocinará en su casa",
+          "Irá al lago"
+        ],
+        "answer": 0,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿A qué hora saldrán el domingo?",
+        "options": [
+          "A las seis",
+          "A las ocho",
+          "A las doce"
+        ],
+        "answer": 1,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Qué temperatura habrá en la mañana?",
+        "options": [
+          "Dieciocho grados",
+          "Doce grados",
+          "Veinte grados"
+        ],
+        "answer": 1,
+        "evidence": 11
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_a2m07_00",
+        "it": "Hai visto le previsioni per sabato?",
+        "es": "¿Viste el pronóstico para el sábado?",
+        "speaker": "Giulia",
+        "audio": "3dda9e72a342"
+      },
+      {
+        "id": "ls_a2m07_01",
+        "it": "Sì. Sabato pioverà tutto il giorno.",
+        "es": "Sí. El sábado lloverá todo el día.",
+        "speaker": "Luca",
+        "audio": "fb767623cfe3",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m07_02",
+        "it": "Peccato. Domenica invece ci sarà il sole.",
+        "es": "Qué lástima. En cambio el domingo habrá sol.",
+        "speaker": "Giulia",
+        "audio": "1372f0d5e91d"
+      },
+      {
+        "id": "ls_a2m07_03",
+        "it": "Allora andremo al lago domenica.",
+        "es": "Entonces iremos al lago el domingo.",
+        "speaker": "Luca",
+        "audio": "72702d8be02d",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m07_04",
+        "it": "Bene! Se piove sabato, resto a casa.",
+        "es": "¡Bien! Si llueve el sábado, me quedo en casa.",
+        "speaker": "Giulia",
+        "audio": "f932922de553"
+      },
+      {
+        "id": "ls_a2m07_05",
+        "it": "Potrei venire da te, se resti a casa.",
+        "es": "Podría ir a verte, si te quedas en casa.",
+        "speaker": "Luca",
+        "audio": "e9f69745bf45",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m07_06",
+        "it": "Certo! Cucinerò io. Verrai verso le sei?",
+        "es": "¡Claro! Cocinaré yo. ¿Vendrás hacia las seis?",
+        "speaker": "Giulia",
+        "audio": "edf5d5417222"
+      },
+      {
+        "id": "ls_a2m07_07",
+        "it": "Sì, verrò alle sei con un film.",
+        "es": "Sí, iré a las seis con una película.",
+        "speaker": "Luca",
+        "audio": "b67e9b819390",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m07_08",
+        "it": "Perfetto. Vorrei sapere a che ora partiamo domenica.",
+        "es": "Perfecto. Quisiera saber a qué hora salimos el domingo.",
+        "speaker": "Giulia",
+        "audio": "65f972a4b4ac"
+      },
+      {
+        "id": "ls_a2m07_09",
+        "it": "Alle otto. Domenica mattina sarò puntuale, promesso!",
+        "es": "A las ocho. El domingo en la mañana seré puntual, ¡prometido!",
+        "speaker": "Luca",
+        "audio": "8cb1498198e5",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m07_10",
+        "it": "Quanti gradi ci saranno? Avrò freddo?",
+        "es": "¿Cuántos grados habrá? ¿Tendré frío?",
+        "speaker": "Giulia",
+        "audio": "f0e02456630f"
+      },
+      {
+        "id": "ls_a2m07_11",
+        "it": "Dodici la mattina e diciotto nel pomeriggio.",
+        "es": "Doce en la mañana y dieciocho en la tarde.",
+        "speaker": "Luca",
+        "audio": "abcdb40d8c9f",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m07_12",
+        "it": "Allora porterò una giacca.",
+        "es": "Entonces llevaré una chaqueta.",
+        "speaker": "Giulia",
+        "audio": "9cad2f736f52"
+      },
+      {
+        "id": "ls_a2m07_13",
+        "it": "Potresti portare anche l'acqua? Io porto il pane.",
+        "es": "¿Podrías llevar también el agua? Yo llevo el pan.",
+        "speaker": "Luca",
+        "audio": "df79ec62e85e",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m07_14",
+        "it": "Va bene, ci vediamo domenica!",
+        "es": "Bien, ¡nos vemos el domingo!",
+        "speaker": "Giulia",
+        "audio": "99bdb17cab1f"
       }
     ]
   },
@@ -5984,6 +6476,306 @@
         "speaker": "Impiegata",
         "audio": "cbf4a6d6833c",
         "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m07_a",
+    "title": "Cosa fai sabato?",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿De qué depende el plan de Laura?",
+        "options": [
+          "Del tiempo",
+          "Del dinero",
+          "De Paolo"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Qué harán si hace buen tiempo?",
+        "options": [
+          "Irán al cine",
+          "Irán en bicicleta",
+          "Se quedarán en casa"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Qué propone Matteo si llueve?",
+        "options": [
+          "Cenar en casa",
+          "Ir al lago",
+          "Ir al cine"
+        ],
+        "answer": 2,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿A qué hora dejará de trabajar Laura?",
+        "options": [
+          "A las cinco",
+          "A las seis",
+          "A las siete"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿A quién quiere llamar Matteo?",
+        "options": [
+          "A Sara",
+          "A Paolo",
+          "A Luca"
+        ],
+        "answer": 1,
+        "evidence": 8
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m07_a_00",
+        "it": "Ciao Laura! Cosa fai sabato?",
+        "es": "¡Hola Laura! ¿Qué haces el sábado?",
+        "speaker": "Matteo",
+        "audio": "cf49f5543ced"
+      },
+      {
+        "id": "rd_a2m07_a_01",
+        "it": "Non lo so ancora. Dipende dal tempo.",
+        "es": "Todavía no lo sé. Depende del tiempo.",
+        "speaker": "Laura",
+        "audio": "c27eb6ae2185",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m07_a_02",
+        "it": "Se fa bel tempo, andiamo in bicicletta?",
+        "es": "Si hace buen tiempo, ¿vamos en bicicleta?",
+        "speaker": "Matteo",
+        "audio": "1197cee615ef"
+      },
+      {
+        "id": "rd_a2m07_a_03",
+        "it": "Volentieri! Ma se piove, che cosa facciamo?",
+        "es": "¡Con gusto! Pero si llueve, ¿qué hacemos?",
+        "speaker": "Laura",
+        "audio": "0c9fb2f65d35",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m07_a_04",
+        "it": "Vorrei prenotare due biglietti al cinema.",
+        "es": "Quisiera reservar dos entradas para el cine.",
+        "speaker": "Matteo",
+        "audio": "8cb37c506dc2"
+      },
+      {
+        "id": "rd_a2m07_a_05",
+        "it": "Buona idea. Smetto di lavorare alle cinque.",
+        "es": "Buena idea. Dejo de trabajar a las cinco.",
+        "speaker": "Laura",
+        "audio": "280e085ea43e",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m07_a_06",
+        "it": "Allora potresti venire alle sei, davanti al cinema?",
+        "es": "Entonces, ¿podrías venir a las seis, frente al cine?",
+        "speaker": "Matteo",
+        "audio": "a4a9a3fccb94"
+      },
+      {
+        "id": "rd_a2m07_a_07",
+        "it": "Va bene. Verrò in bici se c'è il sole.",
+        "es": "Bien. Iré en bici si hay sol.",
+        "speaker": "Laura",
+        "audio": "d667d181a5aa",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m07_a_08",
+        "it": "Vorrei chiamare Paolo: verrà anche lui?",
+        "es": "Quisiera llamar a Paolo: ¿vendrá él también?",
+        "speaker": "Matteo",
+        "audio": "7cd853449930"
+      },
+      {
+        "id": "rd_a2m07_a_09",
+        "it": "Sì, e Sara? Sarà libera?",
+        "es": "Sí, ¿y Sara? ¿Estará libre?",
+        "speaker": "Laura",
+        "audio": "82369f77b5c7",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m07_a_10",
+        "it": "Non lo so. Ti scrivo domani.",
+        "es": "No lo sé. Te escribo mañana.",
+        "speaker": "Matteo",
+        "audio": "8074ebfc2008"
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m07_b",
+    "title": "Un invito a cena",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Para qué día invita Elena?",
+        "options": [
+          "Para el sábado",
+          "Para el viernes",
+          "Para el jueves"
+        ],
+        "answer": 1,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Quiénes más estarán?",
+        "options": [
+          "Marco y Anna",
+          "Sara y Luca",
+          "Nadie más"
+        ],
+        "answer": 0,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Qué cocinará Elena?",
+        "options": [
+          "Pizza",
+          "Carne",
+          "Pasta"
+        ],
+        "answer": 2,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Qué le pide Elena a Davide que lleve?",
+        "options": [
+          "El postre",
+          "El vino",
+          "El pan"
+        ],
+        "answer": 1,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿En qué piso vive Elena?",
+        "options": [
+          "En el tercero",
+          "En el segundo",
+          "En el primero"
+        ],
+        "answer": 0,
+        "evidence": 7
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m07_b_00",
+        "it": "Davide, vorrei invitarti a cena venerdì.",
+        "es": "Davide, quisiera invitarte a cenar el viernes.",
+        "speaker": "Elena",
+        "audio": "4d70ccd18320"
+      },
+      {
+        "id": "rd_a2m07_b_01",
+        "it": "Che bella idea! A che ora?",
+        "es": "¡Qué buena idea! ¿A qué hora?",
+        "speaker": "Davide",
+        "audio": "d893a954a0ff",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m07_b_02",
+        "it": "Alle otto. Ci saranno anche Marco e Anna.",
+        "es": "A las ocho. También estarán Marco y Anna.",
+        "speaker": "Elena",
+        "audio": "7bcce89cf268"
+      },
+      {
+        "id": "rd_a2m07_b_03",
+        "it": "Cosa potrei portare? Dipende da cosa cucini.",
+        "es": "¿Qué podría llevar? Depende de lo que cocines.",
+        "speaker": "Davide",
+        "audio": "3fecefdeb75e",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m07_b_04",
+        "it": "Cucinerò la pasta. Vorrei chiederti di portare il vino.",
+        "es": "Cocinaré pasta. Quisiera pedirte que lleves el vino.",
+        "speaker": "Elena",
+        "audio": "4a477dcf678b"
+      },
+      {
+        "id": "rd_a2m07_b_05",
+        "it": "Volentieri. Se finisco presto, arrivo prima.",
+        "es": "Con gusto. Si termino temprano, llego antes.",
+        "speaker": "Davide",
+        "audio": "8c7e969998ef",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m07_b_06",
+        "it": "Perfetto. Ti ricordi dove abito?",
+        "es": "Perfecto. ¿Recuerdas dónde vivo?",
+        "speaker": "Elena",
+        "audio": "fbe737208ad5"
+      },
+      {
+        "id": "rd_a2m07_b_07",
+        "it": "Penso di sì: in via Verdi, al terzo piano?",
+        "es": "Creo que sí: ¿en via Verdi, en el tercer piso?",
+        "speaker": "Davide",
+        "audio": "d03c3fe6ba84",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m07_b_08",
+        "it": "Esatto. Potresti arrivare verso le otto?",
+        "es": "Exacto. ¿Podrías llegar hacia las ocho?",
+        "speaker": "Elena",
+        "audio": "c1751d4cc8a1"
+      },
+      {
+        "id": "rd_a2m07_b_09",
+        "it": "Grazie dell'invito! Ci vediamo venerdì.",
+        "es": "¡Gracias por la invitación! Nos vemos el viernes.",
+        "speaker": "Davide",
+        "audio": "0ad8857bdb5d",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m07_b_10",
+        "it": "A venerdì! Sarà una bella serata.",
+        "es": "¡Hasta el viernes! Será una linda velada.",
+        "speaker": "Elena",
+        "audio": "1b9e0dedd091"
       }
     ]
   },
@@ -11255,6 +12047,156 @@
         "es": "Leonardo, escucha, no mires el teléfono y presta atención.",
         "speaker": "Professore",
         "audio": "cc7d7b78381b"
+      }
+    ]
+  },
+  {
+    "id": "rd_programmi",
+    "title": "Che programmi hai per sabato?",
+    "level": "A2",
+    "kind": "lectura",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Con quién irá Marco al lago?",
+        "options": [
+          "Con Paolo",
+          "Con Luca",
+          "Con Elena"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿A qué hora quisiera salir Marco?",
+        "options": [
+          "A las ocho",
+          "A las nueve",
+          "A las diez"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Por qué Marco no irá el domingo en la noche?",
+        "options": [
+          "Está de viaje",
+          "Estará cansado",
+          "Tendrá un examen el lunes"
+        ],
+        "answer": 2,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Qué ofrece cocinar Marco?",
+        "options": [
+          "Pizza",
+          "Pasta",
+          "Carne"
+        ],
+        "answer": 1,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Cuándo estará libre Marco?",
+        "options": [
+          "El sábado en la noche",
+          "El domingo",
+          "El lunes"
+        ],
+        "answer": 0,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿A quién debería invitar también Luca?",
+        "options": [
+          "A Sara",
+          "A Paolo",
+          "A Elena"
+        ],
+        "answer": 2,
+        "evidence": 10
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_programmi_00",
+        "it": "Ciao Giulia! Che programmi hai per sabato?",
+        "es": "¡Hola Giulia! ¿Qué planes tienes para el sábado?",
+        "audio": "13022b0d1456"
+      },
+      {
+        "id": "rd_programmi_01",
+        "it": "Se non piove, andrò al lago con Paolo.",
+        "es": "Si no llueve, iré al lago con Paolo.",
+        "audio": "e39b87419ef5"
+      },
+      {
+        "id": "rd_programmi_02",
+        "it": "Potresti venire anche tu? Ci sarà anche Sara.",
+        "es": "¿Podrías venir tú también? También estará Sara.",
+        "audio": "3b6fa1cbc9eb"
+      },
+      {
+        "id": "rd_programmi_03",
+        "it": "Vorrei partire alle nove, se ti va bene.",
+        "es": "Quisiera salir a las nueve, si te parece bien.",
+        "audio": "4e24e83fd276"
+      },
+      {
+        "id": "rd_programmi_04",
+        "it": "Se vieni, ti porto un panino!",
+        "es": "Si vienes, ¡te llevo un sándwich!",
+        "audio": "81f349b734ae"
+      },
+      {
+        "id": "rd_programmi_05",
+        "it": "Ciao Luca! Grazie dell'invito per domenica sera.",
+        "es": "¡Hola Luca! Gracias por la invitación del domingo en la noche.",
+        "audio": "226c1450a318"
+      },
+      {
+        "id": "rd_programmi_06",
+        "it": "Mi dispiace, non verrò: avrò un esame lunedì.",
+        "es": "Lo siento, no iré: tendré un examen el lunes.",
+        "audio": "49ca4d74e6b5"
+      },
+      {
+        "id": "rd_programmi_07",
+        "it": "Domenica devo studiare tutto il giorno.",
+        "es": "El domingo debo estudiar todo el día.",
+        "audio": "cd013c5d5e47"
+      },
+      {
+        "id": "rd_programmi_08",
+        "it": "Ma sabato sera sarò libero: potrei cucinare io.",
+        "es": "Pero el sábado en la noche estaré libre: podría cocinar yo.",
+        "audio": "c67431c2401a"
+      },
+      {
+        "id": "rd_programmi_09",
+        "it": "Se vuoi, cucinerò la pasta per tutti.",
+        "es": "Si quieres, cocinaré pasta para todos.",
+        "audio": "6e47978be262"
+      },
+      {
+        "id": "rd_programmi_10",
+        "it": "Dovresti invitare anche Elena, così saremo in cinque.",
+        "es": "Deberías invitar también a Elena, así seremos cinco.",
+        "audio": "ac72ac74cac5"
+      },
+      {
+        "id": "rd_programmi_11",
+        "it": "Ci sentiamo venerdì! Un abbraccio, Marco.",
+        "es": "¡Hablamos el viernes! Un abrazo, Marco.",
+        "audio": "6a1372441cfe"
       }
     ]
   },

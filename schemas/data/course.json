@@ -661,6 +661,42 @@
         "doc_a2m06_orari",
         "vh_a2m06"
       ]
+    },
+    {
+      "id": "a2m07",
+      "level": "A2",
+      "title": "Planes, invitaciones e hipótesis",
+      "can_do_es": [
+        "Hablar de planes con futuro (reconocer) y con presente.",
+        "Invitar, aceptar y rechazar con un motivo.",
+        "Hacer hipótesis simples con «se» + presente.",
+        "Entender un pronóstico del tiempo y un programa de cine."
+      ],
+      "units": [
+        "u97",
+        "u98",
+        "u99"
+      ],
+      "entry_reading": "rd_programmi",
+      "roleplays": [
+        "rp_a2m07_a",
+        "rp_a2m07_b"
+      ],
+      "tasks": [
+        "ht_a2m07"
+      ],
+      "phrase_groups": [],
+      "library": "leggiamo",
+      "library_task_es": "Lee en Leggiamo un texto de la unidad que coincide con tu tema y resume en una frase en italiano qué planea el protagonista.",
+      "writing_es": "Escribe en italiano un texto de 40–60 palabras sobre tus planes para el próximo fin de semana. Usa al menos 3 verbos en futuro (uno irregular: verrò, andrò, sarò o avrò) y una frase con «se + presente» (por ejemplo, se piove, resto a casa).",
+      "writing_short_es": "Escribe en italiano un mensaje de 25–50 palabras para invitar a un amigo al cine o a cenar. Usa «vorrei», indica día y hora, y un verbo con preposición (smettere di, cercare di o pensare a).",
+      "extra_readings": [
+        "ls_a2m07",
+        "doc_a2m07_meteo",
+        "doc_a2m07_cinema",
+        "doc_a2m07_invito",
+        "vh_a2m07"
+      ]
     }
   ],
   "units": [
@@ -2338,6 +2374,40 @@
       ],
       "why_here": "Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles.",
       "ficha_es": "Oficinas, banco y trámites: firma, fila (la cola), multa, tassa e tasse (impuestos), domanda (la solicitud; también «pregunta»), patente (el carné de conducir, no la patente), permesso (permiso), appuntamento (cita), certificato, contratto, assegno (cheque), pagamento, bancomat (cajero), comune (ayuntamiento), impiegato (empleado). Las palabras de A1 como sportello, modulo o pacco ya están vistas.\n\nError típico: firma, ricevuta, prelevare, versare, bancomat, codice fiscale, spedire (≠ «expedir»), raccomandata (sportello, modulo, pacco y bolletta ya están en u74/A1)\n\nQué practicas aquí: Área temática PLIDA A2: Instituciones y vida política; Área temática PLIDA A2: Oficinas públicas y servicios; Hacer un trámite en una oficina pública (comune, anagrafe, questura): pedir un documento.\n\nSituación del módulo: Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles."
+    },
+    {
+      "id": "u97",
+      "level": "A2",
+      "title": "Futuro y condicional: la raíz",
+      "goal_es": "Futuro y condicional: la raíz (solo reconocer)",
+      "codes": [
+        "ERR_FUTURO_RADICE"
+      ],
+      "why_here": "Qué harás el fin de semana, el pronóstico del tiempo, invitar y rechazar con un motivo, «si llueve, no voy».",
+      "ficha_es": "Futuro y condicional comparten la raíz: parlerò / parlerei (los verbos en -are cambian la -a- por -e-, no *parlarò) y varios verbos tienen raíz propia: andrò, verrò, potrò, saprò, vedrò, dovrò, avrò, sarò (no *anderò, *venirò, *esserò). El español dice «vendré»: en italiano es verrò.\n\nError típico: *parlarò/*parlaría → parlerò/parlerei; *vendrò → verrò; *anderò, *poterò → andrò, potrò; vorremmo ≠ vorremo; «voy a llover» → *va a piovere → pioverà (sto per = a punto de). Válido y no es error: quando arrivi ti chiamo (presente de «tu»: válido); se pioverà / se piove (ambas válidas); volerò (de volare, válido); vado a mangiare (con movimiento); vorrei (volerei es válido)\n\nQué practicas aquí: Futuro simple regular e irregular (reconocer); Condicional de cortesía en fórmulas para pedir un favor: vorrei, potrei (dovresti y mi piacerebbe: solo reconocer).\n\nSituación del módulo: Qué harás el fin de semana, el pronóstico del tiempo, invitar y rechazar con un motivo, «si llueve, no voy».",
+      "productive": false
+    },
+    {
+      "id": "u98",
+      "level": "A2",
+      "title": "Verbos con preposición: smettere di, cercare di, pensare a",
+      "goal_es": "Verbos con preposición: smettere di, cercare di, pensare a",
+      "codes": [
+        "ERR_PREP_FIXED_GOV"
+      ],
+      "why_here": "Qué harás el fin de semana, el pronóstico del tiempo, invitar y rechazar con un motivo, «si llueve, no voy».",
+      "ficha_es": "Régimen preposicional fijo que no coincide con el español: dipendere da (depender de), venire da (venir de), essere interessato a (interesado en).\n\nError típico: *lasciare di, *trattare di → smettere di, cercare di; *pensare in te → pensare a te; dipendere da; sognare di. Válido y no es error: penso a questo (válido; el error real es no usar ci)\n\nQué practicas aquí: Verbos con preposición (smettere di, cercare di, pensare a, dipendere da).\n\nSituación del módulo: Qué harás el fin de semana, el pronóstico del tiempo, invitar y rechazar con un motivo, «si llueve, no voy»."
+    },
+    {
+      "id": "u99",
+      "level": "A2",
+      "title": "Vocabulario: cultura, medios y tecnología",
+      "goal_es": "Vocabulario: cultura, medios y tecnología",
+      "codes": [
+        "ERR_VOC_CULTURA"
+      ],
+      "why_here": "Qué harás el fin de semana, el pronóstico del tiempo, invitar y rechazar con un motivo, «si llueve, no voy».",
+      "ficha_es": "Cultura, medios y tecnología: mostra (exposición), romanzo (novela), personaggio, copertina (portada), statua, album, video, programma, telegiornale (noticiero), pubblicità, password (contraseña), stampante (impresora), attore. Las que se parecen al español: programma, video, album; mostra no es «muestra» sino «exposición».\n\nError típico: mostra, spettacolo, concerto, telegiornale, notizia, puntata, scaricare, caricare, password (sin repetir u73)\n\nQué practicas aquí: Área temática PLIDA A2: Arte, cultura y tiempo libre; Área temática PLIDA A2: Comunicación y medios; Área temática PLIDA A2: Tecnología y ciencia.\n\nSituación del módulo: Qué harás el fin de semana, el pronóstico del tiempo, invitar y rechazar con un motivo, «si llueve, no voy»."
     }
   ],
   "planned": [

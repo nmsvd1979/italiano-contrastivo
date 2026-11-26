@@ -12097,6 +12097,152 @@
     "cefr": "A2",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Futuro y condicional comparten la raíz: parlerò / parlerei (los verbos en -are cambian la -a- por -e-, no *parlarò) y varios verbos tienen raíz propia: andrò, verrò, potrò, saprò, vedrò, dovrò, avrò, sarò (no *anderò, *venirò, *esserò). El español dice «vendré»: en italiano es verrò."
+    },
+    "id": "cap_err_futuro_radice",
+    "retrieval": [
+      {
+        "id": "it_choice_s_3532892_ERR_FUTURO_RADICE",
+        "options": [
+          {
+            "correct": true,
+            "text": "Sai dove sarò."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_FUTURO_RADICE",
+            "text": "Sai dove esserò."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3532892",
+        "target_error_codes": [
+          "ERR_FUTURO_RADICE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Andrai"
+        ],
+        "hint_es": "¿Irás con Tom?",
+        "id": "it_cloze_s_375634_ERR_FUTURO_RADICE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_375634",
+        "target_error_codes": [
+          "ERR_FUTURO_RADICE"
+        ],
+        "text": "___ con Tom?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Sarà",
+          "qui",
+          "presto."
+        ],
+        "id": "it_reorder_s_1020342_ERR_FUTURO_RADICE",
+        "prompt_es": "Ordena las palabras: «Él estará pronto aquí.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1020342",
+        "target_error_codes": [
+          "ERR_FUTURO_RADICE"
+        ],
+        "tokens": [
+          "qui",
+          "presto.",
+          "Sarà"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_3306542_ERR_FUTURO_RADICE",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_FUTURO_RADICE",
+            "text": "Non averà freddo."
+          },
+          {
+            "correct": true,
+            "text": "Non avrà freddo."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3306542",
+        "target_error_codes": [
+          "ERR_FUTURO_RADICE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Andrai"
+        ],
+        "hint_es": "¿Irás en tren?",
+        "id": "it_cloze_s_399671_ERR_FUTURO_RADICE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_399671",
+        "target_error_codes": [
+          "ERR_FUTURO_RADICE"
+        ],
+        "text": "___ in treno?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Marie",
+          "avrà",
+          "fame."
+        ],
+        "id": "it_reorder_s_4237589_ERR_FUTURO_RADICE",
+        "prompt_es": "Ordena las palabras: «Marie tendrá hambre.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4237589",
+        "target_error_codes": [
+          "ERR_FUTURO_RADICE"
+        ],
+        "tokens": [
+          "avrà",
+          "Marie",
+          "fame."
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_FUTURO_RADICE"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Sarò a casa."
+      ],
+      "id": "it_translate_s_3565314_ERR_FUTURO_RADICE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3565314",
+      "source_es": "Estaré en casa.",
+      "target_error_codes": [
+        "ERR_FUTURO_RADICE"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "En español la 1.ª y la 3.ª persona del imperfecto son iguales (yo hablaba, él hablaba). En italiano no: io parlavo, lui parlava; io ero, lui era. Además se escribe con v: parlavo, no *parlabo."
     },
     "id": "cap_err_imperfetto_forma",
@@ -14069,6 +14215,152 @@
     "cefr": "A2",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Régimen preposicional fijo que no coincide con el español: dipendere da (depender de), venire da (venir de), essere interessato a (interesado en)."
+    },
+    "id": "cap_err_prep_fixed_gov",
+    "retrieval": [
+      {
+        "id": "it_choice_s_11737452_ERR_PREP_FIXED_GOV",
+        "options": [
+          {
+            "correct": true,
+            "text": "Pensa a me."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_PREP_FIXED_GOV",
+            "text": "Pensa in me."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11737452",
+        "target_error_codes": [
+          "ERR_PREP_FIXED_GOV"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "a"
+        ],
+        "hint_es": "Piense en mí.",
+        "id": "it_cloze_s_11737454_ERR_PREP_FIXED_GOV",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11737454",
+        "target_error_codes": [
+          "ERR_PREP_FIXED_GOV"
+        ],
+        "text": "Pensi ___ me.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Pensa",
+          "a",
+          "lei."
+        ],
+        "id": "it_reorder_s_11737423_ERR_PREP_FIXED_GOV",
+        "prompt_es": "Ordena las palabras: «Piensa en ella.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11737423",
+        "target_error_codes": [
+          "ERR_PREP_FIXED_GOV"
+        ],
+        "tokens": [
+          "Pensa",
+          "lei.",
+          "a"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_11737425_ERR_PREP_FIXED_GOV",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_PREP_FIXED_GOV",
+            "text": "Pensi in lei."
+          },
+          {
+            "correct": true,
+            "text": "Pensi a lei."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11737425",
+        "target_error_codes": [
+          "ERR_PREP_FIXED_GOV"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "a"
+        ],
+        "hint_es": "Piensen en mí.",
+        "id": "it_cloze_s_11737455_ERR_PREP_FIXED_GOV",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11737455",
+        "target_error_codes": [
+          "ERR_PREP_FIXED_GOV"
+        ],
+        "text": "Pensate ___ me.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Pensate",
+          "a",
+          "lei."
+        ],
+        "id": "it_reorder_s_11737424_ERR_PREP_FIXED_GOV",
+        "prompt_es": "Ordena las palabras: «Piensen en ella.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11737424",
+        "target_error_codes": [
+          "ERR_PREP_FIXED_GOV"
+        ],
+        "tokens": [
+          "Pensate",
+          "lei.",
+          "a"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_PREP_FIXED_GOV"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Tom dipende da Mary."
+      ],
+      "id": "it_translate_s_1265972_ERR_PREP_FIXED_GOV",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1265972",
+      "source_es": "Tom depende de Mary.",
+      "target_error_codes": [
+        "ERR_PREP_FIXED_GOV"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "Las locuciones de lugar llevan a: di fronte a, accanto a, in fondo a, davanti a (no *di fronte di, *accanto di)."
     },
     "id": "cap_err_spazio_prep",
@@ -14379,6 +14671,162 @@
       "source_es": "Tom es tímido.",
       "target_error_codes": [
         "ERR_VOC_CARATTERE"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Cultura, medios y tecnología: mostra (exposición), romanzo (novela), personaggio, copertina (portada), statua, album, video, programma, telegiornale (noticiero), pubblicità, password (contraseña), stampante (impresora), attore. Las que se parecen al español: programma, video, album; mostra no es «muestra» sino «exposición»."
+    },
+    "id": "cap_err_voc_cultura",
+    "retrieval": [
+      {
+        "id": "it_choice_s_3349173_ERR_VOC_CULTURA",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Tom è un attore?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CULTURA",
+            "text": "Tom è un album?"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3349173",
+        "target_error_codes": [
+          "ERR_VOC_CULTURA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "attore"
+        ],
+        "hint_es": "Él es actor.",
+        "id": "it_cloze_s_946841_ERR_VOC_CULTURA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_946841",
+        "target_error_codes": [
+          "ERR_VOC_CULTURA"
+        ],
+        "text": "Lui è un ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Amo",
+          "questo",
+          "album."
+        ],
+        "id": "it_reorder_s_3074768_ERR_VOC_CULTURA",
+        "prompt_es": "Ordena las palabras: «Amo este álbum.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3074768",
+        "target_error_codes": [
+          "ERR_VOC_CULTURA"
+        ],
+        "tokens": [
+          "album.",
+          "Amo",
+          "questo"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_4258175_ERR_VOC_CULTURA",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CULTURA",
+            "text": "Amo questo telegiornale."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CULTURA",
+            "text": "Amo questo personaggio."
+          },
+          {
+            "correct": true,
+            "text": "Amo questo video."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4258175",
+        "target_error_codes": [
+          "ERR_VOC_CULTURA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "attore"
+        ],
+        "hint_es": "Soy actor.",
+        "id": "it_cloze_s_7321320_ERR_VOC_CULTURA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_7321320",
+        "target_error_codes": [
+          "ERR_VOC_CULTURA"
+        ],
+        "text": "Io sono un ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Qual",
+          "è",
+          "la",
+          "password?"
+        ],
+        "id": "it_reorder_s_5590696_ERR_VOC_CULTURA",
+        "prompt_es": "Ordena las palabras: «¿Cuál es la contraseña?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5590696",
+        "target_error_codes": [
+          "ERR_VOC_CULTURA"
+        ],
+        "tokens": [
+          "è",
+          "Qual",
+          "la",
+          "password?"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Io ho il video."
+      ],
+      "id": "it_translate_s_1311375_ERR_VOC_CULTURA",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1311375",
+      "source_es": "Tengo el vídeo.",
+      "target_error_codes": [
+        "ERR_VOC_CULTURA"
       ],
       "type": "translate_es_it"
     }

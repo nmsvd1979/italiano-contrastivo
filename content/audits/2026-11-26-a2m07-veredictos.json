@@ -1,0 +1,1224 @@
+[
+ {
+  "id": "s_375634",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "¿Irás con Tom?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_399671",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "¿Irás en tren?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1996695",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Yo iré primero.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_10161746",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Deberías dárselo a Tom.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_350547",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Iré aunque llueva.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4220843",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Sé que aprenderán mucho.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_538861",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Deberías ir a la escuela.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_641692",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "¿Podrías hacerme un favor?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3665277",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Entonces, ¿lo comprarás o no?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3546260",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Tú deberías dejar de fumar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7558830",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Da lo máximo y tendrás éxito.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6920256",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Deberías pedirle un consejo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5613840",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "¿Podrías no mentir durante un mes?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_398755",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Durante el verano iré a Francia.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_602338",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántos años tendrás el próximo año?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_14028837",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Deberías tomar precauciones.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2422720",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Yo también iré a la universidad mañana.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3565314",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Estaré en casa.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3532892",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Sabes dónde estaré.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4237589",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Marie tendrá hambre.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1020342",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Estará aquí pronto.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3306542",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "No tendrá frío.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11504511",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Estaremos mañana.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_949665",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Serás mi yerno.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1316291",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Yo no tendré miedo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5955453",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Iremos a verlas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3015889",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "¿Habrá una torta?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2552750",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Yo podría ayudar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5446426",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Estará listo pronto.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3868051",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Te llamaré mañana.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6305049",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Seré buena con él.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2555034",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Iré a revisar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2046389",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Tom tendrá que esperar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2575086",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Yo estaré fuera de la ciudad.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_8776550",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "¿Adónde iremos mañana?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3603806",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Aprenderás mucho aquí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1461885",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "¿A quién debería informar?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_819244",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Iré a Tokio mañana.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2941637",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "reject",
+  "nota": "venganza, tono violento"
+ },
+ {
+  "id": "s_5065969",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "No estará interesada.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2565317",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Podría no graduarme.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_569343",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Mañana estará nublado.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_8267458",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "No deberían salir.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1277446",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Tom no irá solo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4215500",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Sé que aprenderá mucho.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1199407",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "¿Cuándo estarás en Londres?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2816633",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Estaré aquí cuando vuelvas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_8355914",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "reject",
+  "nota": "subordinada con congiuntivo/espero que, registro dudoso"
+ },
+ {
+  "id": "s_5898642",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "¿Qué debería hacer Tom?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4188634",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Deberíamos ser amigos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3262469",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "No estaré muy feliz.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2960721",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Yo estaré libre esta noche.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1471862",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Nosotros estaremos de todos modos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5521789",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Seré una buena chica.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5468074",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "¿Por qué debería ayudarte?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7162204",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Debería tomar esto.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_531712",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Mañana iré a verla.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_376637",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "¿Podría tener la llave?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2414596",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "keep",
+  "espanol": "Laurie irá a España.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1471306",
+  "codigo": "ERR_FUTURO_RADICE",
+  "veredicto": "reject",
+  "nota": "ambigua, connotación violenta"
+ },
+ {
+  "id": "s_14037435",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Yo no pienso en ti.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1738961",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Dejen de leer.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_10512387",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "imperativo con pronombre (smettila/smettetela/la smetta)"
+ },
+ {
+  "id": "s_1661907",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Debes dejar de beber.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_10512386",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "imperativo con pronombre (smettila/smettetela/la smetta)"
+ },
+ {
+  "id": "s_6575755",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "vulgar"
+ },
+ {
+  "id": "s_401639",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Debes dejar de fumar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3351501",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Estoy dejando de fumar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13356128",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Debo dejar de fumar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_935949",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Deja de mirarme así.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6575757",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "vulgar"
+ },
+ {
+  "id": "s_2992367",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "imperativo con pronombre (smettila/smettetela/la smetta)"
+ },
+ {
+  "id": "s_794952",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Soy adicto a Tatoeba.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3981676",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "imperativo con pronombre (smettila/smettetela/la smetta)"
+ },
+ {
+  "id": "s_995482",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "imperativo con pronombre (smettila/smettetela/la smetta)"
+ },
+ {
+  "id": "s_5796672",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Diles que dejen de preocuparse.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_14077748",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Ustedes han dejado de fumar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6212367",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Intenté hablar con él.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_602491",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "tema muerte"
+ },
+ {
+  "id": "s_2752359",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "El teléfono no dejaba de sonar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7321610",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Desde ayer no deja de llover.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1147243",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "No significa que dejaré de hacerlo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5556588",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "estructura distinta, no cercare di"
+ },
+ {
+  "id": "s_14039392",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Intenta perder peso corriendo un poco.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3528831",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "tema adicción, abstracto"
+ },
+ {
+  "id": "s_4865172",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Partiremos en cuanto deje de llover.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7321607",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Hace semanas que no deja de llover.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1516060",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "recíproco, nivel B1"
+ },
+ {
+  "id": "s_2811332",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "vulgar"
+ },
+ {
+  "id": "s_602369",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Mi padre dejó de fumar el año pasado.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_427755",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Deja de hablar cuando el profesor entre.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_350474",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "tema suicidio"
+ },
+ {
+  "id": "s_895291",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "imperativo con pronombre (smettila/smettetela/la smetta)"
+ },
+ {
+  "id": "s_350280",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Intentaré resolver el problema a toda costa.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_716957",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "delitos y drogas"
+ },
+ {
+  "id": "s_5570956",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "frase larga, nivel B1"
+ },
+ {
+  "id": "s_13991806",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "imperativo con pronombre, abstracto"
+ },
+ {
+  "id": "s_3044958",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "abstracto B1, adicción"
+ },
+ {
+  "id": "s_1315031",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "congiuntivo imperfetto"
+ },
+ {
+  "id": "s_11737452",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Piensa en mí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11737454",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Piense en mí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11737423",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Piensa en ella.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11737425",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Piense en ella.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11737455",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Piensen en mí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11737424",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Piensen en ella.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1244820",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Depende de ella.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5184519",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "¡Intente nadar!",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3613967",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "imperativo con pronombre (smettila/smettetela/la smetta)"
+ },
+ {
+  "id": "s_4854683",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Intenta calmarte.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1811431",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Deje de leer.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1526986",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "No depende de mí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1811430",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Deja de leer.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5184518",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "¡Intenten nadar!",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4854685",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Intente calmarse.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3613969",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "imperativo con pronombre (smettila/smettetela/la smetta)"
+ },
+ {
+  "id": "s_4564813",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "imperativo con pronombre (smettila/smettetela/la smetta)"
+ },
+ {
+  "id": "s_3597690",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "imperativo con pronombre (smettila/smettetela/la smetta)"
+ },
+ {
+  "id": "s_3597692",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "reject",
+  "nota": "imperativo con pronombre (smettila/smettetela/la smetta)"
+ },
+ {
+  "id": "s_11444060",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "Deja de ir allí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13058799",
+  "codigo": "ERR_PREP_FIXED_GOV",
+  "veredicto": "keep",
+  "espanol": "¿Dejarán de decirlo?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1311375",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Tengo el video.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3349173",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "¿Tom es actor?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5692302",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Mi álbum está aquí.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1104544",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "reject",
+  "nota": "«programma» como plan, no medios"
+ },
+ {
+  "id": "s_374419",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Soy un actor famoso.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_13834828",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "No sé su contraseña.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_565599",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "reject",
+  "nota": "Contraseña con nombre propio, poco natural"
+ },
+ {
+  "id": "s_698677",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Esta novela me aburre.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1712921",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Charlie Chaplin es actor.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_976991",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "¿Quién es tu actor preferido?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1969699",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "reject",
+  "nota": "Frase poco natural"
+ },
+ {
+  "id": "s_1668794",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "¡Esta es la mejor del álbum!",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2700855",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "reject",
+  "nota": "«programma» vago, sentido poco claro"
+ },
+ {
+  "id": "s_8910725",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "¿Por qué quiere ser actor?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_976528",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Laura está viendo el noticiero.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_13574063",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "¿Alguien conoce la contraseña del notebook?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6687636",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "reject",
+  "nota": "Locución idiomática «in programma»"
+ },
+ {
+  "id": "s_7706030",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Tom escribía una novela.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3338089",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Escribí un programa en Java.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_714568",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Compré esta impresora ayer.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1347620",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "¿Cuál es su novela más reciente?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1440508",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "¿Terminaste de leer esa novela?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2214805",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "reject",
+  "nota": "«programma» de evento, no claro"
+ },
+ {
+  "id": "s_2700978",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "reject",
+  "nota": "«programma» ambiguo"
+ },
+ {
+  "id": "s_1349172",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "El programa de TV parecía muy interesante.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2514720",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "reject",
+  "nota": "Passato remoto"
+ },
+ {
+  "id": "s_2700896",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Mi programa no es compatible con Windows.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2700843",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Vimos un programa nuevo en la televisión.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_517937",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "reject",
+  "nota": "«programma» como plan de estudios"
+ },
+ {
+  "id": "s_2520355",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "¿Cuál es tu personaje de Disney preferido?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2041978",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Esta novela de ciencia ficción es muy interesante.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2700885",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Ayer instalé un programa nuevo en mi computador.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2040474",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "reject",
+  "nota": "Italiano poco natural"
+ },
+ {
+  "id": "s_1645875",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "¿Y tú qué piensas de este nuevo álbum?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_946841",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Él es actor.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3074768",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Amo este álbum.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4258175",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Amo este video.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_7321320",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Soy actor.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5766069",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "No soy actor.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5590696",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "¿Cuál es la contraseña?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_9115360",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Mi álbum está aquí.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_9708189",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Odio la publicidad.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3352775",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "La contraseña es corta.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2468929",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "La contraseña es larga.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_12305795",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Soy un buen actor.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3352776",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "reject",
+  "nota": "Redundante con «corta»; poco natural"
+ },
+ {
+  "id": "s_2574818",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Necesito la contraseña.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_12305796",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Soy un buen actor.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1271613",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Brad Pitt es actor.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_14022651",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "No conozco la contraseña.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1836110",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Me encanta ese anuncio.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5260670",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Está leyendo una novela.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_13071611",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Estoy viendo unos videos.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_951962",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Esta novela es aburrida.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5770506",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Me gusta su novela.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_6911744",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "La impresora no funciona.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_11090207",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Elija su personaje.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_11090206",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Elige tu personaje.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5770507",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "Me gusta su novela.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4086548",
+  "codigo": "ERR_VOC_CULTURA",
+  "veredicto": "keep",
+  "espanol": "James Bond no es actor.",
+  "nivel": "A2"
+ }
+]

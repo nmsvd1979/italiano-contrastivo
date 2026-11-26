@@ -1082,7 +1082,7 @@
   },
   {
    "id": "a2m07",
-   "estado": "planificado",
+   "estado": "cerrado",
    "title_es": "Planes, invitaciones e hipótesis",
    "situacion_es": "Qué harás el fin de semana, el pronóstico del tiempo, invitar y rechazar con un motivo, «si llueve, no voy».",
    "can_do_es": [
@@ -1140,8 +1140,8 @@
    "unidades_existentes": [],
    "entrada": {
     "id": "rd_programmi",
-    "fuente": "Tutt* a tavola! vol. 2, cap. 10 §10.3 (SMS de planes, ~90 palabras) o Piacere! «La mia storia e il mio futuro»",
-    "nota": "adaptación breve"
+    "fuente": "Texto propio: mensajes de planes para el fin de semana (no hay texto abierto adaptable corto de nivel A2)",
+    "nota": "authored"
    },
    "libro_entrada_es": "T/capitolo-10/ §10.3 o P/lettura-la-mia-storia-e-il-mio-futuro/",
    "libros_preguntas_es": "P/il-futuro/, P/conversazione-il-mio-futuro/ (15 preguntas), P/il-condizionale-di-dovere-potere-e-volere/, P/costruzioni-con-linfinito/, T/capitolo-10 §10.5 (se + futuro)",

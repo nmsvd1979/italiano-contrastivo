@@ -2485,6 +2485,13 @@
   "tatoeba": "1111442"
  },
  {
+  "id": "s_3533143",
+  "module": "a2m07",
+  "it": "Verrò con Tom.",
+  "es": "Vendré con Tom.",
+  "tatoeba": "3533143"
+ },
+ {
   "id": "s_380622",
   "module": "nivel",
   "it": "È un girasole.",
@@ -2590,6 +2597,13 @@
   "tatoeba": "1257653"
  },
  {
+  "id": "s_382051",
+  "module": "a2m07",
+  "it": "Nessuno lo saprà.",
+  "es": "Nadie lo sabrá.",
+  "tatoeba": "382051"
+ },
+ {
   "id": "s_928127",
   "module": "nivel",
   "it": "Sono un tennista.",
@@ -2609,6 +2623,13 @@
   "it": "C'era molto vento.",
   "es": "Había mucho viento.",
   "tatoeba": "1248113"
+ },
+ {
+  "id": "s_635492",
+  "module": "a2m07",
+  "it": "Chi verrà con noi?",
+  "es": "¿Quién vendrá con nosotros?",
+  "tatoeba": "635492"
  },
  {
   "id": "s_4108291",
@@ -2672,6 +2693,13 @@
   "it": "Non ha funzionato.",
   "es": "No funcionó.",
   "tatoeba": "3505219"
+ },
+ {
+  "id": "s_365719",
+  "module": "a2m07",
+  "it": "Pioverà di sicuro.",
+  "es": "Seguro que lloverá.",
+  "tatoeba": "365719"
  },
  {
   "id": "s_1174158",
@@ -2765,6 +2793,13 @@
   "tatoeba": "374477"
  },
  {
+  "id": "s_1111919",
+  "module": "a2m07",
+  "it": "Tom non ti aiuterà.",
+  "es": "Tom no te ayudará.",
+  "tatoeba": "1111919"
+ },
+ {
   "id": "s_4261235",
   "module": "a2m04",
   "it": "Tom ti ha chiamato.",
@@ -2842,11 +2877,32 @@
   "tatoeba": "950242"
  },
  {
+  "id": "s_1926248",
+  "module": "a2m07",
+  "it": "Pagherò io il conto.",
+  "es": "Yo pagaré la cuenta.",
+  "tatoeba": "1926248"
+ },
+ {
   "id": "s_1287482",
   "module": "a2m01",
   "it": "Sono appena tornato.",
   "es": "Acabo de volver.",
   "tatoeba": "1287482"
+ },
+ {
+  "id": "s_5223860",
+  "module": "a2m07",
+  "it": "Tom andrà per primo.",
+  "es": "Tom irá primero.",
+  "tatoeba": "5223860"
+ },
+ {
+  "id": "s_691383",
+  "module": "a2m07",
+  "it": "Vorrei essere ricco.",
+  "es": "Quisiera ser rico.",
+  "tatoeba": "691383"
  },
  {
   "id": "s_1243680",
@@ -2891,6 +2947,13 @@
   "tatoeba": "373939"
  },
  {
+  "id": "s_778303",
+  "module": "a2m07",
+  "it": "Ho parlato di musica.",
+  "es": "Hablé de música.",
+  "tatoeba": "778303"
+ },
+ {
   "id": "s_632233",
   "module": "a2m02",
   "it": "Il cane nero correva.",
@@ -2931,6 +2994,13 @@
   "it": "Non intendevo questo.",
   "es": "No me refería a eso.",
   "tatoeba": "350350"
+ },
+ {
+  "id": "s_350990",
+  "module": "a2m07",
+  "it": "Quello non succederà.",
+  "es": "Eso no pasará.",
+  "tatoeba": "350990"
  },
  {
   "id": "s_1109809",
@@ -3017,6 +3087,13 @@
   "tatoeba": "3533000"
  },
  {
+  "id": "s_409382",
+  "module": "a2m07",
+  "it": "Hai sentito le notizie?",
+  "es": "¿Has oído las noticias?",
+  "tatoeba": "409382"
+ },
+ {
   "id": "s_1003133",
   "module": "a2m05",
   "it": "Ho comprato quell'auto.",
@@ -3073,6 +3150,20 @@
   "tatoeba": "4226660"
  },
  {
+  "id": "s_921343",
+  "module": "a2m07",
+  "it": "Ha continuato a cantare.",
+  "es": "Siguió cantando.",
+  "tatoeba": "921343"
+ },
+ {
+  "id": "s_720432",
+  "module": "a2m07",
+  "it": "Hanno smesso di parlare.",
+  "es": "Dejaron de hablar.",
+  "tatoeba": "720432"
+ },
+ {
   "id": "s_378177",
   "module": "a2m01",
   "it": "L'orologio si è fermato.",
@@ -3092,6 +3183,13 @@
   "it": "Ne vale davvero la pena?",
   "es": "¿De verdad vale la pena?",
   "tatoeba": "880149"
+ },
+ {
+  "id": "s_410260",
+  "module": "a2m07",
+  "it": "Non ti dimenticherò mai.",
+  "es": "Nunca te olvidaré.",
+  "tatoeba": "410260"
  },
  {
   "id": "s_378887",
@@ -3115,11 +3213,25 @@
   "tatoeba": "378160"
  },
  {
+  "id": "s_4662",
+  "module": "a2m07",
+  "it": "Ho parlato a degli amici.",
+  "es": "Hablé con unos amigos.",
+  "tatoeba": "4662"
+ },
+ {
   "id": "s_373999",
   "module": "a2m01",
   "it": "Il ghiaccio si è sciolto.",
   "es": "El hielo se derritió.",
   "tatoeba": "373999"
+ },
+ {
+  "id": "s_377590",
+  "module": "a2m07",
+  "it": "Questa legna non brucerà.",
+  "es": "Esta leña no arderá.",
+  "tatoeba": "377590"
  },
  {
   "id": "s_350916",

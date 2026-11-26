@@ -45,8 +45,8 @@
     },
     {
       "id": "ls_a2m07_05",
-      "it": "Se resti a casa, vengo da te.",
-      "es": "Si te quedas en casa, voy a verte.",
+      "it": "Potrei venire da te, se resti a casa.",
+      "es": "Podría ir a verte, si te quedas en casa.",
       "speaker": "Luca"
     },
     {
@@ -63,8 +63,8 @@
     },
     {
       "id": "ls_a2m07_08",
-      "it": "Perfetto. E domenica a che ora partiamo?",
-      "es": "Perfecto. ¿Y el domingo a qué hora salimos?",
+      "it": "Perfetto. Vorrei sapere a che ora partiamo domenica.",
+      "es": "Perfecto. Quisiera saber a qué hora salimos el domingo.",
       "speaker": "Giulia"
     },
     {
@@ -93,14 +93,14 @@
     },
     {
       "id": "ls_a2m07_13",
-      "it": "Io porterò il pane e il formaggio.",
-      "es": "Yo llevaré el pan y el queso.",
+      "it": "Potresti portare anche l'acqua? Io porto il pane.",
+      "es": "¿Podrías llevar también el agua? Yo llevo el pan.",
       "speaker": "Luca"
     },
     {
       "id": "ls_a2m07_14",
-      "it": "Ottimo, ci vediamo domenica!",
-      "es": "¡Excelente, nos vemos el domingo!",
+      "it": "Va bene, ci vediamo domenica!",
+      "es": "Bien, ¡nos vemos el domingo!",
       "speaker": "Giulia"
     }
   ],

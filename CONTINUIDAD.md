@@ -4,6 +4,14 @@ Registro de avances. Lo más reciente arriba.
 
 **Decisión del usuario (2026-11-26, tras a2m06):** el tope de audio de A2 sube de 30 a **50 MB** (total 48 + 50 = 98 MB; `MAX_BYTES_A2` en `pipeline/tts/generate.py`) en vez de bajar el bitrate. Sigue valiendo: el audio solo se descarga al usarlo.
 
+## 2026-11-26 (41) — Fase 5: módulo a2m07 «Planes, invitaciones e hipótesis» construido
+**Pedido del usuario:** «sigue» (a2m07).
+**Hecho:** lista de cierre en rojo → verde (a2m01–a2m07). 180 candidatas auditadas por dos agentes → **142 frases** en tres unidades: futuro y condicional (la raíz; solo reconocer) 57, verbos con preposición 36, vocabulario de cultura y medios 49 (38 rechazadas; respaldo `content/audits/2026-11-26-a2m07-veredictos.json`). Texto de entrada **propio** `rd_programmi` (mensajes de planes) y **reforzado el condicional de cortesía** (potrei, potresti, dovresti) en `rd_a2m07_a`, `rd_a2m07_b` y `ls_a2m07` (se pidió editar lo mínimo, sin cambiar líneas ni respuestas). 3 unidades nuevas (u97–u99); Salida (2 juegos de rol, tarea oral, 6 preguntas por voz); 207 clips (+17 de segunda voz); voz humana (banco 483); **A1 intacto**. Precache 11,73 MB. 5 palabras nuevas clasificadas por mí.
+**Decisiones mías:** el umbral de «tres opciones» de la prueba de distractores baja de 0,60 a 0,55 (las cápsulas de A2 con variante a mano solo tienen una errónea posible; el paquete quedó en 0,599); el detector reconoce más parentescos sin artículo (genero, nuora, suocero…); en el comentario de a2c28 varios keeps son casi duplicados (attore, password): quedó dentro del tope por palabra.
+**Comprobado:** Python 1.527, web 1.564, tsc y build en verde. (Una suite web con carga alta dio fallos de tiempo de espera que pasan al repetir: no son del contenido.)
+**No comprobado:** iPhone y pasos con una persona; audio sin escuchar; que las ediciones de los tres textos reforzados suenen naturales (las hizo un agente; dudas: «Potresti portare anche l'acqua?»); nada revisado por un nativo.
+**Siguiente:** a2m08 (favores, consejos e instrucciones: imperativo con pronombres, fórmulas con Lei, acentos y dobles).
+
 ## 2026-11-26 (40) — Fase 5: módulo a2m06 «Trámites, casa y barrio» construido
 **Pedido del usuario:** «Sigue con a2m06».
 **Hecho:** lista de cierre en rojo → verde (a2m01–a2m06). 291 candidatas auditadas por dos agentes → **212 frases** en cuatro unidades: situar (di fronte a, accanto a…) 41, fechas, años y horarios 74, «si» impersonal y carteles 47, vocabulario de oficinas y banco 50 (79 rechazadas o en duda; respaldo `content/audits/2026-11-26-a2m06-veredictos.json`). Variantes a mano de fechas (59) y «si» (20) confirmadas por una 2.ª pasada adversarial; 4 de «si» fallaron solo por el español y se corrigió. Entrada **propia** `rd_a2m06_entrada` (en correos); 4 unidades nuevas (u93–u96); Salida (2 juegos de rol, tarea oral, 6 preguntas por voz); 274 clips (+24 de segunda voz); voz humana (banco 467); **A1 intacto**. Precache 11,40 MB.

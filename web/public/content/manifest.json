@@ -77,6 +77,7 @@
     "cap_err_clitic_direct_indirect",
     "cap_err_comparative_di",
     "cap_err_comparativo_irreg",
+    "cap_err_futuro_radice",
     "cap_err_imperfetto_forma",
     "cap_err_indefiniti",
     "cap_err_pp_ausiliare",
@@ -90,8 +91,10 @@
     "cap_err_participle_agreement",
     "cap_err_date_orari",
     "cap_err_personal_a",
+    "cap_err_prep_fixed_gov",
     "cap_err_spazio_prep",
     "cap_err_voc_carattere",
+    "cap_err_voc_cultura",
     "cap_err_voc_uffici",
     "cap_err_voc_falsi_casa",
     "cap_err_congiuntivo_opinion",
@@ -185,9 +188,9 @@
       "usable": 74
     },
     "ERR_FUTURO_RADICE": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 57
     },
     "ERR_GENERE_ES": {
       "capsule": true,
@@ -310,9 +313,9 @@
       "usable": 37
     },
     "ERR_PREP_FIXED_GOV": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 1
+      "capsule": true,
+      "reason": null,
+      "usable": 37
     },
     "ERR_PREP_PLACE": {
       "capsule": true,
@@ -490,9 +493,9 @@
       "usable": 40
     },
     "ERR_VOC_CULTURA": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 49
     },
     "ERR_VOC_DENARO": {
       "capsule": true,
@@ -636,18 +639,18 @@
     "B1": "items_B1.json"
   },
   "levels": {
-    "A1": 3329,
-    "A2": 1480,
+    "A1": 3364,
+    "A2": 1587,
     "B1": 156,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 4946,
+    "llm-audit": 5088,
     "me": 26
   },
-  "sentences_used": 4295,
+  "sentences_used": 4438,
   "translation_kind": {
-    "direct": 2321,
-    "llm": 1974
+    "direct": 2423,
+    "llm": 2015
   }
 }

@@ -379,6 +379,10 @@
 "g": "iremos",
 "k": "opaca"
 },
+"andrò": {
+"g": "iré",
+"k": "opaca"
+},
 "animati": {
 "g": "animados",
 "k": "transparente"
@@ -3336,6 +3340,10 @@
 "g": "en cambio",
 "k": "opaca"
 },
+"invitare": {
+"g": "invitar",
+"k": "transparente"
+},
 "invitarti": {
 "g": "invitarte",
 "k": "transparente"
@@ -5133,6 +5141,10 @@
 "k": "regular",
 "r": "ue-o"
 },
+"potrei": {
+"g": "podría",
+"k": "opaca"
+},
 "potresti": {
 "g": "podrías",
 "k": "opaca"
@@ -5354,6 +5366,10 @@
 "g": "programa",
 "k": "regular",
 "r": "doble"
+},
+"programmi": {
+"g": "planes / programas",
+"k": "transparente"
 },
 "promesso": {
 "g": "prometido",
@@ -5982,6 +5998,10 @@
 },
 "saranno": {
 "g": "serán",
+"k": "opaca"
+},
+"saremo": {
+"g": "seremos",
 "k": "opaca"
 },
 "sarà": {

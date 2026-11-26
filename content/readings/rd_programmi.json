@@ -1,0 +1,139 @@
+{
+  "id": "rd_programmi",
+  "title": "Che programmi hai per sabato?",
+  "level": "A2",
+  "kind": "lectura",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Mensajes cortos de Marco a dos amigos para planear el fin de semana (futuro, condicional de cortesía y se + presente), escritos por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_programmi_00",
+      "it": "Ciao Giulia! Che programmi hai per sabato?",
+      "es": "¡Hola Giulia! ¿Qué planes tienes para el sábado?"
+    },
+    {
+      "id": "rd_programmi_01",
+      "it": "Se non piove, andrò al lago con Paolo.",
+      "es": "Si no llueve, iré al lago con Paolo."
+    },
+    {
+      "id": "rd_programmi_02",
+      "it": "Potresti venire anche tu? Ci sarà anche Sara.",
+      "es": "¿Podrías venir tú también? También estará Sara."
+    },
+    {
+      "id": "rd_programmi_03",
+      "it": "Vorrei partire alle nove, se ti va bene.",
+      "es": "Quisiera salir a las nueve, si te parece bien."
+    },
+    {
+      "id": "rd_programmi_04",
+      "it": "Se vieni, ti porto un panino!",
+      "es": "Si vienes, ¡te llevo un sándwich!"
+    },
+    {
+      "id": "rd_programmi_05",
+      "it": "Ciao Luca! Grazie dell'invito per domenica sera.",
+      "es": "¡Hola Luca! Gracias por la invitación del domingo en la noche."
+    },
+    {
+      "id": "rd_programmi_06",
+      "it": "Mi dispiace, non verrò: avrò un esame lunedì.",
+      "es": "Lo siento, no iré: tendré un examen el lunes."
+    },
+    {
+      "id": "rd_programmi_07",
+      "it": "Domenica devo studiare tutto il giorno.",
+      "es": "El domingo debo estudiar todo el día."
+    },
+    {
+      "id": "rd_programmi_08",
+      "it": "Ma sabato sera sarò libero: potrei cucinare io.",
+      "es": "Pero el sábado en la noche estaré libre: podría cocinar yo."
+    },
+    {
+      "id": "rd_programmi_09",
+      "it": "Se vuoi, cucinerò la pasta per tutti.",
+      "es": "Si quieres, cocinaré pasta para todos."
+    },
+    {
+      "id": "rd_programmi_10",
+      "it": "Dovresti invitare anche Elena, così saremo in cinque.",
+      "es": "Deberías invitar también a Elena, así seremos cinco."
+    },
+    {
+      "id": "rd_programmi_11",
+      "it": "Ci sentiamo venerdì! Un abbraccio, Marco.",
+      "es": "¡Hablamos el viernes! Un abrazo, Marco."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Con quién irá Marco al lago?",
+      "options": [
+        "Con Paolo",
+        "Con Luca",
+        "Con Elena"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿A qué hora quisiera salir Marco?",
+      "options": [
+        "A las ocho",
+        "A las nueve",
+        "A las diez"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Por qué Marco no irá el domingo en la noche?",
+      "options": [
+        "Está de viaje",
+        "Estará cansado",
+        "Tendrá un examen el lunes"
+      ],
+      "answer": 2,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Qué ofrece cocinar Marco?",
+      "options": [
+        "Pizza",
+        "Pasta",
+        "Carne"
+      ],
+      "answer": 1,
+      "evidence": 9
+    },
+    {
+      "prompt_es": "¿Cuándo estará libre Marco?",
+      "options": [
+        "El sábado en la noche",
+        "El domingo",
+        "El lunes"
+      ],
+      "answer": 0,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿A quién debería invitar también Luca?",
+      "options": [
+        "A Sara",
+        "A Paolo",
+        "A Elena"
+      ],
+      "answer": 2,
+      "evidence": 10
+    }
+  ]
+}

@@ -1980,6 +1980,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "5e1666a3c169",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Elige tu personaje.",
+    "es_author": "IA (Claude)",
+    "id": "s_11090206",
+    "it": "Scegli il tuo personaggio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11090206",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "7275a96f4980",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Elija su personaje.",
+    "es_author": "IA (Claude)",
+    "id": "s_11090207",
+    "it": "Scelga il suo personaggio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11090207",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "2c4ab2993651",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3783,6 +3807,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "0f65a15a84a4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Soy un buen actor.",
+    "es_author": "IA (Claude)",
+    "id": "s_12305795",
+    "it": "Sono un buon attore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12305795",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "573076a92dc3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Soy un buen actor.",
+    "es_author": "IA (Claude)",
+    "id": "s_12305796",
+    "it": "Sono un bravo attore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12305796",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "0ec3338bbd68",
     "author": "Rovo",
     "cefr_estimate": "A1",
@@ -4585,6 +4633,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "56f6f76bcadc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom depende de Mary.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1296887",
+    "id": "s_1265972",
+    "it": "Tom dipende da Mary.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1265972",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "20fdb89949cd",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4661,6 +4722,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1271068",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "b401b5e81ae3",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "Brad Pitt es actor.",
+    "es_author": "IA (Claude)",
+    "id": "s_1271613",
+    "it": "Brad Pitt è un attore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1271613",
+    "translation_kind": "llm"
   },
   {
     "alt": [
@@ -5295,6 +5368,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ee699829d9b5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estoy viendo unos videos.",
+    "es_author": "IA (Claude)",
+    "id": "s_13071611",
+    "it": "Sto guardando dei video.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13071611",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "27edb2e44e26",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -5512,6 +5597,19 @@
     "it": "Mangia e bevi.",
     "license": "CC BY 2.0 FR",
     "source_id": "1311084",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "40a6bad9a675",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tengo el vídeo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1289489",
+    "id": "s_1311375",
+    "it": "Io ho il video.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1311375",
     "translation_kind": "direct"
   },
   {
@@ -6963,6 +7061,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2b9ec5aafb82",
+    "author": "rul",
+    "cefr_estimate": "A1",
+    "es": "No sé su contraseña.",
+    "es_author": "rul",
+    "es_source_id": "13834806",
+    "id": "s_13834828",
+    "it": "Non so la sua password.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13834828",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "071577a07469",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7183,6 +7294,18 @@
     "it": "Cos'hai nella borsa bianca ?",
     "license": "CC BY 2.0 FR",
     "source_id": "14008532",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "f4e03c1109df",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No conozco la contraseña.",
+    "es_author": "IA (Claude)",
+    "id": "s_14022651",
+    "it": "Non conosco la password.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14022651",
     "translation_kind": "llm"
   },
   {
@@ -9213,6 +9336,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "214732278ddd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡Esta es la mejor del álbum!",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1669615",
+    "id": "s_1668794",
+    "it": "Questa è la migliore dell'album!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1668794",
+    "translation_kind": "direct"
+  },
+  {
     "alt": [
       "Non mi piace il caffè."
     ],
@@ -9782,6 +9918,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "950c0578089f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Charlie Chaplin es un actor.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1713017",
+    "id": "s_1712921",
+    "it": "Charlie Chaplin è un attore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1712921",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "76d200850f6c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -10346,6 +10495,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1836070",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "2bc9cfa1e489",
+    "author": "hitori37",
+    "cefr_estimate": "A1",
+    "es": "Me encanta ese anuncio.",
+    "es_author": "IA (Claude)",
+    "id": "s_1836110",
+    "it": "Adoro quella pubblicità.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1836110",
+    "translation_kind": "llm"
   },
   {
     "audio": "822dff522fcd",
@@ -12993,6 +13154,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "2dcef63d9151",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "La contraseña es larga.",
+    "es_author": "IA (Claude)",
+    "id": "s_2468929",
+    "it": "La password è lunga.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2468929",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "ac2800d60885",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13912,6 +14085,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2571151",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "2daadefc7e8c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Necesito la contraseña.",
+    "es_author": "IA (Claude)",
+    "id": "s_2574818",
+    "it": "Mi serve la password.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2574818",
+    "translation_kind": "llm"
   },
   {
     "alt": [
@@ -16995,6 +17180,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "3e48d5680ea3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Amo este álbum.",
+    "es_author": "IA (Claude)",
+    "id": "s_3074768",
+    "it": "Amo questo album.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3074768",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "2075c702c5e0",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -18273,6 +18470,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "490de1320b65",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tom es un actor?",
+    "es_author": "Shishir",
+    "es_source_id": "4558741",
+    "id": "s_3349173",
+    "it": "Tom è un attore?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3349173",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "8172b9c7b0ef",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -18322,6 +18532,18 @@
     "it": "Voi parlate arabo?",
     "license": "CC BY 2.0 FR",
     "source_id": "3352769",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d44988678953",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "La contraseña es corta.",
+    "es_author": "IA (Claude)",
+    "id": "s_3352775",
+    "it": "La password è corta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3352775",
     "translation_kind": "llm"
   },
   {
@@ -21039,6 +21261,19 @@
     "it": "Lavati le mani prima di mangiare.",
     "license": "CC BY 2.0 FR",
     "source_id": "374410",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "9e2f0f54edd3",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Yo soy un actor famoso.",
+    "es_author": "aye1995",
+    "es_source_id": "930945",
+    "id": "s_374419",
+    "it": "Sono un attore famoso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "374419",
     "translation_kind": "direct"
   },
   {
@@ -24559,6 +24794,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "567b49ea5985",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Amo este video.",
+    "es_author": "IA (Claude)",
+    "id": "s_4258175",
+    "it": "Amo questo video.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4258175",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "c46b50ba24b4",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -27901,6 +28148,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "fd6bff996568",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Está leyendo una novela.",
+    "es_author": "IA (Claude)",
+    "id": "s_5260670",
+    "it": "Sta leggendo un romanzo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5260670",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "1f57c79476c6",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -29108,6 +29367,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "34d9eec05bbd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Cuál es la contraseña?",
+    "es_author": "IA (Claude)",
+    "id": "s_5590696",
+    "it": "Qual è la password?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5590696",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "c4fe0076887c",
     "author": "dnnywld",
     "cefr_estimate": "A1",
@@ -29382,6 +29653,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "1932138069fb",
+    "author": "dnnywld",
+    "cefr_estimate": "A1",
+    "es": "Mi album está aquí.",
+    "es_author": "rains_and_shadows",
+    "es_source_id": "4814785",
+    "id": "s_5692302",
+    "it": "Il mio album è qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5692302",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "821c5cd53f79",
     "author": "bruno_b",
     "cefr_estimate": "A1",
@@ -29620,6 +29904,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e9d8146a889c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No soy actor.",
+    "es_author": "IA (Claude)",
+    "id": "s_5766069",
+    "it": "Non sono un attore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5766069",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "95fa1d1b8342",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -29631,6 +29927,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "5766148",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "132e18718bf8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me gusta su novela.",
+    "es_author": "IA (Claude)",
+    "id": "s_5770506",
+    "it": "Mi piace il suo romanzo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5770506",
+    "translation_kind": "llm"
   },
   {
     "audio": "e27df496d92e",
@@ -32165,6 +32473,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7d4b8a556a34",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "La impresora no funciona.",
+    "es_author": "IA (Claude)",
+    "id": "s_6911744",
+    "it": "La stampante non funziona.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6911744",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "491c88c1e405",
     "author": "Heracleum",
     "cefr_estimate": "A1",
@@ -32449,6 +32769,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "698550",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "c8e3ebc9f940",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Esta novela me aburre.",
+    "es_author": "Leono",
+    "es_source_id": "631152",
+    "id": "s_698677",
+    "it": "Questo romanzo mi annoia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "698677",
+    "translation_kind": "direct"
   },
   {
     "audio": "29ab81fe4cd8",
@@ -33040,6 +33373,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "52c0e00aa65f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ayer compré esta impresora.",
+    "es_author": "Shishir",
+    "es_source_id": "574571",
+    "id": "s_714568",
+    "it": "Ho comprato questa stampante ieri.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "714568",
+    "translation_kind": "direct"
+  },
+  {
     "alt": [
       "Preferisco storia a geografia."
     ],
@@ -33409,6 +33755,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "7307206",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "7d42741e0f3d",
+    "author": "Valdast",
+    "cefr_estimate": "A1",
+    "es": "Soy actor.",
+    "es_author": "IA (Claude)",
+    "id": "s_7321320",
+    "it": "Io sono un attore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7321320",
+    "translation_kind": "llm"
   },
   {
     "audio": "d4dace4435d8",
@@ -34039,6 +34397,19 @@
     "it": "Ci sono molte uova nella scatola.",
     "license": "CC BY 2.0 FR",
     "source_id": "767156",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2ff3d572189f",
+    "author": "Valdast",
+    "cefr_estimate": "A1",
+    "es": "Tom escribía una novela.",
+    "es_author": "Domingo33",
+    "es_source_id": "7703265",
+    "id": "s_7706030",
+    "it": "Tom scriveva un romanzo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7706030",
     "translation_kind": "direct"
   },
   {
@@ -35970,6 +36341,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "90d76826c8fa",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Por qué quiere ser actor?",
+    "es_author": "saverius",
+    "es_source_id": "10803324",
+    "id": "s_8910725",
+    "it": "Perché vuole diventare un attore?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8910725",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "7088eacd10ae",
     "author": "carlosalberto",
     "cefr_estimate": "A1",
@@ -36280,6 +36664,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "334193f62d8b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Mi álbum está aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_9115360",
+    "it": "Il mio album è qua.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9115360",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4d857745248b",
     "author": "carlosalberto",
     "cefr_estimate": "A1",
@@ -36548,6 +36944,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "64c37ad5daa3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Él es actor.",
+    "es_author": "IA (Claude)",
+    "id": "s_946841",
+    "it": "Lui è un attore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "946841",
+    "translation_kind": "llm"
+  },
+  {
     "alt": [
       "A me piacciono gli orologi."
     ],
@@ -36664,6 +37072,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "951720",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "edf66783c1f0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Esta novela es aburrida.",
+    "es_author": "IA (Claude)",
+    "id": "s_951962",
+    "it": "Questo romanzo è noioso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "951962",
+    "translation_kind": "llm"
   },
   {
     "audio": "f60e7fe02b5c",
@@ -36977,6 +37397,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "5e75a2ef5c02",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Odio la publicidad.",
+    "es_author": "IA (Claude)",
+    "id": "s_9708189",
+    "it": "Odio la pubblicità.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9708189",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "0593c907d529",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -37079,6 +37511,19 @@
     "it": "Questo è un piatto.",
     "license": "CC BY 2.0 FR",
     "source_id": "9754030",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b03152ad18b6",
+    "author": "hundo",
+    "cefr_estimate": "A1",
+    "es": "Laura está viendo el telediario.",
+    "es_author": "hundo",
+    "es_source_id": "976582",
+    "id": "s_976528",
+    "it": "Laura sta seguendo il telegiornale.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "976528",
     "translation_kind": "direct"
   },
   {
@@ -38105,6 +38550,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "5a5d5b859e34",
+    "author": "Tajador",
+    "cefr_estimate": "A2",
+    "es": "Deberías dárselo a Tom.",
+    "es_author": "Shishir",
+    "es_source_id": "10163545",
+    "id": "s_10161746",
+    "it": "Dovresti darlo a Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10161746",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "cc0fe6074664",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38195,6 +38653,19 @@
     "it": "Come si chiama la tua pagina web?",
     "license": "CC BY 2.0 FR",
     "source_id": "1020293",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ab3a79ca6c86",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "Él estará pronto aquí.",
+    "es_author": "arashi_29",
+    "es_source_id": "727084",
+    "id": "s_1020342",
+    "it": "Sarà qui presto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1020342",
     "translation_kind": "direct"
   },
   {
@@ -39145,6 +39616,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "d01ad9ba0e7a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Deja de ir allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_11444060",
+    "it": "Smetti di andare là.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11444060",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "bf5eb737dd3c",
     "author": "carlosalberto",
     "cefr_estimate": "A2",
@@ -39167,6 +39650,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "11458511",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "3eaf4fe4c662",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No significa que dejaré de hacerlo.",
+    "es_author": "nancy",
+    "es_source_id": "1147637",
+    "id": "s_1147243",
+    "it": "Non significa che smetterò di farlo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1147243",
+    "translation_kind": "direct"
   },
   {
     "audio": "5bf72821daa4",
@@ -39192,6 +39688,19 @@
     "it": "È il mio migliore amico.",
     "license": "CC BY 2.0 FR",
     "source_id": "1149144",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2c94b07cdf98",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Estaremos allí mañana.",
+    "es_author": "manufrutos",
+    "es_source_id": "10044266",
+    "id": "s_11504511",
+    "it": "Ci saremo domani.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11504511",
     "translation_kind": "direct"
   },
   {
@@ -39351,6 +39860,78 @@
     "it": "Non farla uscire dopo il tramonto.",
     "license": "CC BY 2.0 FR",
     "source_id": "11726364",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "0ab5a98bdee5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Piensa en ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_11737423",
+    "it": "Pensa a lei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11737423",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "0a8e02232b8d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Piensen en ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_11737424",
+    "it": "Pensate a lei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11737424",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b9adb30babb4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Piense en ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_11737425",
+    "it": "Pensi a lei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11737425",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "94da70494c78",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Piensa en mí.",
+    "es_author": "IA (Claude)",
+    "id": "s_11737452",
+    "it": "Pensa a me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11737452",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "7a85af24057f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Piense en mí.",
+    "es_author": "IA (Claude)",
+    "id": "s_11737454",
+    "it": "Pensi a me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11737454",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "3e3c167b134e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Piensen en mí.",
+    "es_author": "IA (Claude)",
+    "id": "s_11737455",
+    "it": "Pensate a me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11737455",
     "translation_kind": "llm"
   },
   {
@@ -39542,6 +40123,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "11977067",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "da09bfaefa50",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuándo estarás en Londres?",
+    "es_author": "cueyayotl",
+    "es_source_id": "1200517",
+    "id": "s_1199407",
+    "it": "Quando sarai a Londra?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1199407",
+    "translation_kind": "direct"
   },
   {
     "audio": "32826abcd4cb",
@@ -39757,6 +40351,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1242399",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "0ef188ecd92e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Depende de ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_1244820",
+    "it": "Dipende da lei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1244820",
+    "translation_kind": "llm"
   },
   {
     "audio": "828c159875e4",
@@ -40063,6 +40669,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "ba2daa7e961e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom no va a ir solo.",
+    "es_author": "nancy",
+    "es_source_id": "1582115",
+    "id": "s_1277446",
+    "it": "Tom non andrà da solo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1277446",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "9d2b3b606e7e",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -40266,6 +40885,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c1564d823f24",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Dejarán de decirlo?",
+    "es_author": "IA (Claude)",
+    "id": "s_13058799",
+    "it": "Smetterete di dirlo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13058799",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "54296eb2dbbb",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -40392,6 +41023,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "13156244",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "9b302e29e230",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No tendré miedo.",
+    "es_author": "Shishir",
+    "es_source_id": "1610867",
+    "id": "s_1316291",
+    "it": "Io non avrò paura.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1316291",
+    "translation_kind": "direct"
   },
   {
     "audio": "ba59eddb93b9",
@@ -40532,6 +41176,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "0a1f2d553c5e",
+    "author": "Adelpa",
+    "cefr_estimate": "A2",
+    "es": "Tengo que dejar de fumar.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1745362",
+    "id": "s_13356128",
+    "it": "Devo smettere di fumare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13356128",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ad1928208acd",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -40630,6 +41287,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "292dc24430f2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuál es su novela más reciente?",
+    "es_author": "Shishir",
+    "es_source_id": "1322014",
+    "id": "s_1347620",
+    "it": "Qual è il suo romanzo più recente?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1347620",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "afdfff3838cd",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -40640,6 +41310,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "13481856",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "cf9acc927a6a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El programa se veía muy interesante.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1608865",
+    "id": "s_1349172",
+    "it": "Il programma TV sembrava molto interessante.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1349172",
+    "translation_kind": "direct"
   },
   {
     "audio": "f45b2071716a",
@@ -40690,6 +41373,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "13534327",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "5b99c871b0f5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Alguien conoce la contraseña del portátil?",
+    "es_author": "Seael",
+    "es_source_id": "13574075",
+    "id": "s_13574063",
+    "it": "Qualcuno conosce la password del portatile?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13574063",
+    "translation_kind": "direct"
   },
   {
     "audio": "99957145fc71",
@@ -40999,6 +41695,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "694846a9cb8a",
+    "author": "unforgiven95",
+    "cefr_estimate": "A2",
+    "es": "Convendría que tomases precauciones.",
+    "es_author": "Seael",
+    "es_source_id": "13597920",
+    "id": "s_14028837",
+    "it": "Dovresti prendere delle precauzioni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14028837",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d7a360b80b51",
     "author": "unforgiven95",
     "cefr_estimate": "A2",
@@ -41064,6 +41773,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9e0e950fbf80",
+    "author": "unforgiven95",
+    "cefr_estimate": "A2",
+    "es": "Yo no pienso en ti.",
+    "es_author": "pchamorro",
+    "es_source_id": "4392325",
+    "id": "s_14037435",
+    "it": "Io non penso a te.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14037435",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "548e691ab0c4",
     "author": "unforgiven95",
     "cefr_estimate": "A2",
@@ -41074,6 +41796,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "14038352",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "4d8bd693c4ea",
+    "author": "unforgiven95",
+    "cefr_estimate": "A2",
+    "es": "Intenta perder peso corriendo un poco.",
+    "es_author": "Shishir",
+    "es_source_id": "995777",
+    "id": "s_14039392",
+    "it": "Cerca di perdere peso correndo un po'.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14039392",
+    "translation_kind": "direct"
   },
   {
     "audio": "01a203d1b60e",
@@ -41112,6 +41847,19 @@
     "it": "Le ho chiesto consiglio.",
     "license": "CC BY 2.0 FR",
     "source_id": "14070048",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0c7431e917ec",
+    "author": "unforgiven95",
+    "cefr_estimate": "A2",
+    "es": "Ustedes han dejado de fumar.",
+    "es_author": "Amastan",
+    "es_source_id": "2174276",
+    "id": "s_14077748",
+    "it": "Voi avete smesso di fumare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14077748",
     "translation_kind": "direct"
   },
   {
@@ -41214,6 +41962,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "a01ebc796e3b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Has terminado de leer esa novela?",
+    "es_author": "Shishir",
+    "es_source_id": "536237",
+    "id": "s_1440508",
+    "it": "Hai finito di leggere quel romanzo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1440508",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "61f69c4694d3",
     "author": "rado",
     "cefr_estimate": "A2",
@@ -41227,6 +41988,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4bb4070d6073",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿A quién debería informar?",
+    "es_author": "teskmon",
+    "es_source_id": "2112039",
+    "id": "s_1461885",
+    "it": "Chi dovrei informare?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1461885",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "17bae67df1d8",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -41237,6 +42011,19 @@
     "it": "Non si può avere tutto.",
     "license": "CC BY 2.0 FR",
     "source_id": "1471250",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7665c918578c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Sea lo que sea, allí estaremos.",
+    "es_author": "estambulista",
+    "es_source_id": "2766795",
+    "id": "s_1471862",
+    "it": "Noi ci saremo comunque.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1471862",
     "translation_kind": "direct"
   },
   {
@@ -41490,6 +42277,18 @@
     "it": "Riesce a venire alle nove?",
     "license": "CC BY 2.0 FR",
     "source_id": "1523835",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "9a4fde9b28b1",
+    "author": "Shadd",
+    "cefr_estimate": "A2",
+    "es": "No depende de mí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1526986",
+    "it": "Non dipende da me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1526986",
     "translation_kind": "llm"
   },
   {
@@ -41899,6 +42698,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2d2dbfed6da0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Pero qué piensas sobre este nuevo álbum?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1646112",
+    "id": "s_1645875",
+    "it": "Ma tu cosa ne pensi di questo nuovo album?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1645875",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "39be763d7c03",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -41924,6 +42736,19 @@
     "it": "Lui non è più forte di me.",
     "license": "CC BY 2.0 FR",
     "source_id": "1652088",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "44fe4b223e49",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tienes que dejar de beber.",
+    "es_author": "Shishir",
+    "es_source_id": "2004282",
+    "id": "s_1661907",
+    "it": "Devi smettere di bere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1661907",
     "translation_kind": "direct"
   },
   {
@@ -42264,6 +43089,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "891551e13923",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Dejen de leer.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4505711",
+    "id": "s_1738961",
+    "it": "Smettete di leggere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1738961",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "0a9ee8f9cb6d",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -42381,6 +43219,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1803390",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "09f826e17302",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Deja de leer.",
+    "es_author": "IA (Claude)",
+    "id": "s_1811430",
+    "it": "Smetti di leggere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1811430",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6103e6b724b7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Deje de leer.",
+    "es_author": "IA (Claude)",
+    "id": "s_1811431",
+    "it": "Smetta di leggere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1811431",
+    "translation_kind": "llm"
   },
   {
     "audio": "a70258611fbd",
@@ -42651,6 +43513,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1993864",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "e7e1c4b8a9a4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo iré primero.",
+    "es_author": "Shishir",
+    "es_source_id": "1987582",
+    "id": "s_1996695",
+    "it": "Io andrò per primo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1996695",
+    "translation_kind": "direct"
   },
   {
     "audio": "ec5f56ac765e",
@@ -42983,6 +43858,32 @@
     "it": "Pensavo di essere da solo.",
     "license": "CC BY 2.0 FR",
     "source_id": "2041917",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "fc3d0f00eedd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Esta novela de ciencia ficción es muy interesante.",
+    "es_author": "arashi_29",
+    "es_source_id": "1317494",
+    "id": "s_2041978",
+    "it": "Questo romanzo di fantascienza è molto interessante.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2041978",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "f87be42bc1ec",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom tendrá que esperar.",
+    "es_author": "hayastan",
+    "es_source_id": "2135019",
+    "id": "s_2046389",
+    "it": "Tom dovrà aspettare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2046389",
     "translation_kind": "direct"
   },
   {
@@ -43649,6 +44550,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "d7a8c45a7b9c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Laurie irá a España.",
+    "es_author": "Seael",
+    "es_source_id": "10551706",
+    "id": "s_2414596",
+    "it": "Laurie andrà in Spagna.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2414596",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "8b0cfd387bae",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -43671,6 +44585,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2416913",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "7072ae0f2fa8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo también iré a la universidad mañana.",
+    "es_author": "Shishir",
+    "es_source_id": "2422998",
+    "id": "s_2422720",
+    "it": "Anche io andrò all'università domani.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2422720",
+    "translation_kind": "direct"
   },
   {
     "audio": "ee2d03a6b859",
@@ -43993,6 +44920,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "89c4bd0b0b6a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuál es tu personaje de Disney preferido?",
+    "es_author": "cueyayotl",
+    "es_source_id": "3881241",
+    "id": "s_2520355",
+    "it": "Qual è il tuo personaggio della Disney preferito?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2520355",
+    "translation_kind": "direct"
+  },
+  {
     "alt": [
       "Non andare nella mia camera."
     ],
@@ -44071,6 +45011,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "bbbb6b7465a8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo podría ayudar.",
+    "es_author": "glossboss",
+    "es_source_id": "10269431",
+    "id": "s_2552750",
+    "it": "Io potrei aiutare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2552750",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "697c1350b28d",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -44081,6 +45034,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2554703",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "2a397a76f66e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Iré a ver.",
+    "es_author": "Shishir",
+    "es_source_id": "2711408",
+    "id": "s_2555034",
+    "it": "Andrò a controllare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2555034",
+    "translation_kind": "direct"
   },
   {
     "audio": "dab3cc583bce",
@@ -44192,6 +45158,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "19f65c39cc66",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Podría no graduarme.",
+    "es_author": "Seael",
+    "es_source_id": "3679962",
+    "id": "s_2565317",
+    "it": "Potrei non laurearmi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2565317",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d11c0d1708f5",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -44202,6 +45181,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2565449",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "a41701ef9da1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estaré fuera de la ciudad.",
+    "es_author": "saverius",
+    "es_source_id": "10802708",
+    "id": "s_2575086",
+    "it": "Io sarò fuori città.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2575086",
+    "translation_kind": "direct"
   },
   {
     "audio": "46af3c6a7129",
@@ -44300,6 +45292,45 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2681756",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "f6962e397c81",
+    "author": "Emmanuel_Maldini",
+    "cefr_estimate": "A2",
+    "es": "Nosotros vimos un nuevo programa en televisión.",
+    "es_author": "quarzoliquido",
+    "es_source_id": "482086",
+    "id": "s_2700843",
+    "it": "Abbiamo visto un nuovo programma in televisione.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2700843",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "8e5dcc26c7f1",
+    "author": "Emmanuel_Maldini",
+    "cefr_estimate": "A2",
+    "es": "Ayer instalé un nuevo programa en mi ordenador.",
+    "es_author": "Shishir",
+    "es_source_id": "1018675",
+    "id": "s_2700885",
+    "it": "Ho installato ieri un nuovo programma nel mio computer.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2700885",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "559fb377b139",
+    "author": "Emmanuel_Maldini",
+    "cefr_estimate": "A2",
+    "es": "Mi programa no es compatible con Windows.",
+    "es_author": "jmdm78",
+    "es_source_id": "1110897",
+    "id": "s_2700896",
+    "it": "Il mio programma non è compatibile con Windows.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2700896",
+    "translation_kind": "direct"
   },
   {
     "audio": "e6160745feba",
@@ -44439,6 +45470,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "cb461538da80",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El teléfono no paraba de sonar.",
+    "es_author": "hayastan",
+    "es_source_id": "3686660",
+    "id": "s_2752359",
+    "it": "Il telefono non smetteva di suonare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2752359",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "19fb559d5470",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -44534,6 +45578,19 @@
     "it": "Puoi pagarmi in anticipo?",
     "license": "CC BY 2.0 FR",
     "source_id": "2797631",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "77bddc053b3f",
+    "author": "hitori37",
+    "cefr_estimate": "A2",
+    "es": "Estaré aquí cuando vuelvas.",
+    "es_author": "nancy",
+    "es_source_id": "2816717",
+    "id": "s_2816633",
+    "it": "Sarò qui quando torni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2816633",
     "translation_kind": "direct"
   },
   {
@@ -44790,6 +45847,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "26ecb374aede",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estaré libre esta noche.",
+    "es_author": "ficion",
+    "es_source_id": "3570005",
+    "id": "s_2960721",
+    "it": "Io sarò libera stasera.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2960721",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "99830038a265",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -44891,6 +45961,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3011657",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "f25c0c1766e6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Habrá un pastel?",
+    "es_author": "UsuarioX",
+    "es_source_id": "6618529",
+    "id": "s_3015889",
+    "it": "Ci sarà una torta?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3015889",
+    "translation_kind": "direct"
   },
   {
     "audio": "645b5dbaffe0",
@@ -45346,6 +46429,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "e840e2f30e25",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No seré muy feliz.",
+    "es_author": "Seael",
+    "es_source_id": "13849755",
+    "id": "s_3262469",
+    "it": "Non sarò molto felice.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3262469",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "8a4cba0646ae",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -45380,6 +46476,19 @@
     "it": "Fai una bellissima cosa.",
     "license": "CC BY 2.0 FR",
     "source_id": "3299288",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "cd2f5fcfb0c3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No tendrá frío.",
+    "es_author": "saverius",
+    "es_source_id": "10462148",
+    "id": "s_3306542",
+    "it": "Non avrà freddo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3306542",
     "translation_kind": "direct"
   },
   {
@@ -45419,6 +46528,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "4b4bdaa31e80",
+    "author": "bailujia",
+    "cefr_estimate": "A2",
+    "es": "He escrito un programa en Java.",
+    "es_author": "Julian_L",
+    "es_source_id": "6022842",
+    "id": "s_3338089",
+    "it": "Ho scritto un programma in Java.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3338089",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "9d03b0479410",
     "author": "bailujia",
     "cefr_estimate": "A2",
@@ -45453,6 +46575,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3347497",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "c83732bafe8d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estoy dejando de fumar.",
+    "es_author": "umano",
+    "es_source_id": "4353373",
+    "id": "s_3351501",
+    "it": "Sto smettendo di fumare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3351501",
+    "translation_kind": "direct"
   },
   {
     "audio": "7a522f114e8d",
@@ -45809,6 +46944,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7d1d4a519336",
+    "author": "martin",
+    "cefr_estimate": "A2",
+    "es": "Intentaré resolver el problema cueste lo que cueste.",
+    "es_author": "hayastan",
+    "es_source_id": "984595",
+    "id": "s_350280",
+    "it": "Cercherò di risolvere il problema ad ogni costo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "350280",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f9b7ca2c678a",
     "author": "martin",
     "cefr_estimate": "A2",
@@ -45857,6 +47005,19 @@
     "it": "Dove si sono conosciuti?",
     "license": "CC BY 2.0 FR",
     "source_id": "3505209",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7a7e60ab8f72",
+    "author": "martin",
+    "cefr_estimate": "A2",
+    "es": "Iré aunque llueva.",
+    "es_author": "hayastan",
+    "es_source_id": "991342",
+    "id": "s_350547",
+    "it": "Andrò anche se piove.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "350547",
     "translation_kind": "direct"
   },
   {
@@ -45997,6 +47158,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "c68619569a77",
+    "author": "Vallysing",
+    "cefr_estimate": "A2",
+    "es": "Sabes donde estaré.",
+    "es_author": "gianich73",
+    "es_source_id": "3406848",
+    "id": "s_3532892",
+    "it": "Sai dove sarò.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3532892",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "0f6f08c4dca8",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -46047,6 +47221,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "054911cfaae9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Deberías dejar el tabaco.",
+    "es_author": "tatoerique",
+    "es_source_id": "343362",
+    "id": "s_3546260",
+    "it": "Tu dovresti smettere di fumare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3546260",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "e64befe317dd",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -46070,6 +47257,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3561284",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "20297c869976",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estaré en casa.",
+    "es_author": "Shishir",
+    "es_source_id": "9855666",
+    "id": "s_3565314",
+    "it": "Sarò a casa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3565314",
+    "translation_kind": "direct"
   },
   {
     "audio": "e988c3d2ad30",
@@ -46132,6 +47332,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3592339",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "0eb9424a3c61",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Aprenderás mucho aquí.",
+    "es_author": "cueyayotl",
+    "es_source_id": "3603804",
+    "id": "s_3603806",
+    "it": "Imparerai molto qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3603806",
+    "translation_kind": "direct"
   },
   {
     "audio": "412070bc067f",
@@ -46269,6 +47482,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3663120",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "5eb11ad74f5b",
+    "author": "ema_rega",
+    "cefr_estimate": "A2",
+    "es": "Entonces, ¿lo comprarás o no?",
+    "es_author": "cueyayotl",
+    "es_source_id": "3857397",
+    "id": "s_3665277",
+    "it": "Quindi, lo comprerai o no?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3665277",
+    "translation_kind": "direct"
   },
   {
     "audio": "7dcf5ab0c0f7",
@@ -46438,6 +47664,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "5817cdb5de0f",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "¿Irás con Tom?",
+    "es_author": "UsuarioX",
+    "es_source_id": "7411292",
+    "id": "s_375634",
+    "it": "Andrai con Tom?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "375634",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "14ad2771c19b",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -46539,6 +47778,19 @@
     "it": "Ho catturato una bellissima farfalla.",
     "license": "CC BY 2.0 FR",
     "source_id": "376595",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b58b42d8afea",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "¿Yo podría tener la llave?",
+    "es_author": "Leono",
+    "es_source_id": "614016",
+    "id": "s_376637",
+    "it": "Potrei avere la chiave?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "376637",
     "translation_kind": "direct"
   },
   {
@@ -47126,6 +48378,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "4e53a15eaea7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Te llamaré mañana.",
+    "es_author": "hayastan",
+    "es_source_id": "1483299",
+    "id": "s_3868051",
+    "it": "Ti chiamerò domani.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3868051",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "98eb55c5d295",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -47443,6 +48708,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "404191601305",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Durante las vacaciones, iré a Francia.",
+    "es_author": "mane",
+    "es_source_id": "398973",
+    "id": "s_398755",
+    "it": "Durante l'estate andrò in Francia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "398755",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "c7d9250365c5",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -47453,6 +48731,32 @@
     "it": "Penso che sia meglio non essere maleducati.",
     "license": "CC BY 2.0 FR",
     "source_id": "399292",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "49beb4c35290",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "¿Irás en tren?",
+    "es_author": "catakaoe",
+    "es_source_id": "399577",
+    "id": "s_399671",
+    "it": "Andrai in treno?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "399671",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "9092457416c9",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Tienes que dejar de fumar.",
+    "es_author": "hermeneggu",
+    "es_source_id": "401612",
+    "id": "s_401639",
+    "it": "Devi smettere di fumare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "401639",
     "translation_kind": "direct"
   },
   {
@@ -47558,6 +48862,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4078263",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "3f7d843e18af",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "James Bond no es actor.",
+    "es_author": "IA (Claude)",
+    "id": "s_4086548",
+    "it": "James Bond non è un attore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4086548",
+    "translation_kind": "llm"
   },
   {
     "audio": "d11c71107592",
@@ -47750,6 +49066,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "8c9165f92f99",
+    "author": "valealb",
+    "cefr_estimate": "A2",
+    "es": "Deberíamos ser amigos.",
+    "es_author": "maaster",
+    "es_source_id": "4332404",
+    "id": "s_4188634",
+    "it": "Dovremmo essere amici.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4188634",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "75fab9e1c019",
     "author": "meursault",
     "cefr_estimate": "A2",
@@ -47811,6 +49140,32 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "8c9a4338f797",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Sé que aprenderá mucho.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4640799",
+    "id": "s_4215500",
+    "it": "So che imparerà molto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4215500",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "a2e690c4c221",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Sé que aprenderán mucho.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4640804",
+    "id": "s_4220843",
+    "it": "So che imparerete molto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4220843",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d4482dd4b29a",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -47833,6 +49188,19 @@
     "it": "Il mio appartamento è al quarto piano.",
     "license": "CC BY 2.0 FR",
     "source_id": "422372",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "f757be3465f8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Marie tendrá hambre.",
+    "es_author": "Seael",
+    "es_source_id": "8005208",
+    "id": "s_4237589",
+    "it": "Marie avrà fame.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4237589",
     "translation_kind": "direct"
   },
   {
@@ -47957,6 +49325,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4269159",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "0bf1a518c0e8",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Deja de hablar cuando entra el maestro.",
+    "es_author": "darinmex",
+    "es_source_id": "658794",
+    "id": "s_427755",
+    "it": "Smetti di parlare quando il professore entra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "427755",
+    "translation_kind": "direct"
   },
   {
     "audio": "92a89a0d40ca",
@@ -48746,6 +50127,43 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "9778b06e2f41",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Intenta calmarte.",
+    "es_author": "IA (Claude)",
+    "id": "s_4854683",
+    "it": "Cerca di calmarti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4854683",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "38cd26bde089",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Intente calmarse.",
+    "es_author": "IA (Claude)",
+    "id": "s_4854685",
+    "it": "Cerchi di calmarsi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4854685",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "71c6ff2d436d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Nos iremos apenas escampe.",
+    "es_author": "MrMultilingual",
+    "es_source_id": "5781429",
+    "id": "s_4865172",
+    "it": "Noi partiremo appena smette di piovere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4865172",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "eff0999c6e57",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -48834,6 +50252,19 @@
     "it": "Non c'è nessun problema?",
     "license": "CC BY 2.0 FR",
     "source_id": "5005403",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "06411c5d8d9e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No estará interesada.",
+    "es_author": "saverius",
+    "es_source_id": "10796731",
+    "id": "s_5065969",
+    "it": "Non sarà interessata.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5065969",
     "translation_kind": "direct"
   },
   {
@@ -48949,6 +50380,30 @@
     "it": "All'improvviso si è ammalato.",
     "license": "CC BY 2.0 FR",
     "source_id": "5170219",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "65230f7e7e54",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡Intenten nadar!",
+    "es_author": "IA (Claude)",
+    "id": "s_5184518",
+    "it": "Cercate di nuotare!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5184518",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "ea2cb694512d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡Intente nadar!",
+    "es_author": "IA (Claude)",
+    "id": "s_5184519",
+    "it": "Cerchi di nuotare!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5184519",
     "translation_kind": "llm"
   },
   {
@@ -49241,6 +50696,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "f71c6d96f992",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Mañana voy a ir a verla.",
+    "es_author": "Shishir",
+    "es_source_id": "531708",
+    "id": "s_531712",
+    "it": "Domani andrò a vederla.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "531712",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "db0a0974e4cd",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -49403,6 +50871,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "7041fcabd2b4",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Deberías ir al colegio.",
+    "es_author": "Shishir",
+    "es_source_id": "538854",
+    "id": "s_538861",
+    "it": "Dovresti andare a scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "538861",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "4cdaae5a69e0",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -49453,6 +50934,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "4e3197608bb0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estará listo pronto.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2826732",
+    "id": "s_5446426",
+    "it": "Sarà pronto presto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5446426",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "96def0358bb1",
     "author": "dnnywld",
     "cefr_estimate": "A2",
@@ -49463,6 +50957,19 @@
     "it": "Posso dire tutto al mio migliore amico.",
     "license": "CC BY 2.0 FR",
     "source_id": "5468068",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3012aa155e69",
+    "author": "dnnywld",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué debería ayudarte?",
+    "es_author": "Shishir",
+    "es_source_id": "2295369",
+    "id": "s_5468074",
+    "it": "Perché dovrei aiutarti?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5468074",
     "translation_kind": "direct"
   },
   {
@@ -49526,6 +51033,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "5515836",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "6218b5eb51c2",
+    "author": "dnnywld",
+    "cefr_estimate": "A2",
+    "es": "Seré una buena chica.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1110840",
+    "id": "s_5521789",
+    "it": "Sarò una brava ragazza.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5521789",
+    "translation_kind": "direct"
   },
   {
     "audio": "dbc7582de60d",
@@ -49602,6 +51122,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "7c1d50b5f308",
+    "author": "dnnywld",
+    "cefr_estimate": "A2",
+    "es": "¿Podrías pasar un mes sin decir mentiras?",
+    "es_author": "hayastan",
+    "es_source_id": "1408359",
+    "id": "s_5613840",
+    "it": "Potresti non mentire per un mese?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5613840",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "65ce087db898",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -49648,6 +51181,19 @@
     "it": "È stato un sogno?",
     "license": "CC BY 2.0 FR",
     "source_id": "5688443",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5e4e07280582",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Mañana estará nublado.",
+    "es_author": "darinmex",
+    "es_source_id": "569085",
+    "id": "s_569343",
+    "it": "Domani sarà nuvoloso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "569343",
     "translation_kind": "direct"
   },
   {
@@ -49919,6 +51465,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "6ca7ecef2987",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me gusta su novela.",
+    "es_author": "IA (Claude)",
+    "id": "s_5770507",
+    "it": "A me piace il suo romanzo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5770507",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "8a3e3eaf0a12",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -49966,6 +51524,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "5796047",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "42b4c24bfea8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Diles que dejen de preocuparse.",
+    "es_author": "saverius",
+    "es_source_id": "10805224",
+    "id": "s_5796672",
+    "it": "Di' loro di smettere di preoccuparsi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5796672",
+    "translation_kind": "direct"
   },
   {
     "audio": "b71d772862e0",
@@ -50053,6 +51624,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "10288d9835f9",
+    "author": "Valdast",
+    "cefr_estimate": "A2",
+    "es": "¿Qué debería hacer Tom?",
+    "es_author": "baudelaire",
+    "es_source_id": "5898107",
+    "id": "s_5898642",
+    "it": "Che dovrebbe fare Tom?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5898642",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "8e14c9b72150",
     "author": "ver",
     "cefr_estimate": "A2",
@@ -50088,6 +51672,19 @@
     "it": "Abbiamo passato un fine settimana bellissimo.",
     "license": "CC BY 2.0 FR",
     "source_id": "5932210",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0b02dc3d6ca4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Iremos a verlas.",
+    "es_author": "saverius",
+    "es_source_id": "10144403",
+    "id": "s_5955453",
+    "it": "Andremo a vederle.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5955453",
     "translation_kind": "direct"
   },
   {
@@ -50164,6 +51761,32 @@
     "it": "Dove sei stato quella notte?",
     "license": "CC BY 2.0 FR",
     "source_id": "6020583",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "976cbdb44e3f",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "¿Cuántos años tendrás el próximo año?",
+    "es_author": "darinmex",
+    "es_source_id": "602210",
+    "id": "s_602338",
+    "it": "Quanti anni avrai l'anno prossimo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "602338",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "726f426c1c24",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Mi padre dejó de fumar el año pasado.",
+    "es_author": "Shishir",
+    "es_source_id": "528691",
+    "id": "s_602369",
+    "it": "Mio padre ha smesso di fumare l'anno scorso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "602369",
     "translation_kind": "direct"
   },
   {
@@ -50446,6 +52069,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "9cbd71c4b49e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "He tratado de hablar con él.",
+    "es_author": "tsetse1019",
+    "es_source_id": "9192670",
+    "id": "s_6212367",
+    "it": "Ho cercato di parlare con lui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6212367",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "730b3a028446",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -50545,6 +52181,19 @@
     "it": "Lei è molto più alta di me.",
     "license": "CC BY 2.0 FR",
     "source_id": "627271",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "05c016d809c4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Seré buena con él.",
+    "es_author": "saverius",
+    "es_source_id": "10295522",
+    "id": "s_6305049",
+    "it": "Sarò buona con lui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6305049",
     "translation_kind": "direct"
   },
   {
@@ -50673,6 +52322,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "6371896",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "71796c4912e2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Puedes hacerme un favor?",
+    "es_author": "Dejo",
+    "es_source_id": "633062",
+    "id": "s_641692",
+    "it": "Potresti farmi un favore?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "641692",
+    "translation_kind": "direct"
   },
   {
     "audio": "2b47f953d59b",
@@ -51130,6 +52792,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "679ca022ebb5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Deberías pedirle consejo a él.",
+    "es_author": "Coyolxauhqui",
+    "es_source_id": "855080",
+    "id": "s_6920256",
+    "it": "Dovresti chiedergli un consiglio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6920256",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "6fed47705b7e",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -51521,6 +53196,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2af17df98dd7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo debería tomar esto.",
+    "es_author": "pchamorro",
+    "es_source_id": "4368498",
+    "id": "s_7162204",
+    "it": "Dovrei prendere questo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7162204",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "c32bf01517d0",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -51620,6 +53308,32 @@
     "it": "Non posso aiutarti.",
     "license": "CC BY 2.0 FR",
     "source_id": "731163",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c4af5280ad72",
+    "author": "Valdast",
+    "cefr_estimate": "A2",
+    "es": "Hace semanas que no para de llover.",
+    "es_author": "arh",
+    "es_source_id": "7320843",
+    "id": "s_7321607",
+    "it": "Sono settimane che non smette di piovere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7321607",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "44bfae7b2724",
+    "author": "Valdast",
+    "cefr_estimate": "A2",
+    "es": "No para de llover desde ayer.",
+    "es_author": "arh",
+    "es_source_id": "7320844",
+    "id": "s_7321610",
+    "it": "È da ieri che non smette di piovere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7321610",
     "translation_kind": "direct"
   },
   {
@@ -51758,6 +53472,19 @@
     "it": "Ti ho dato tutto quello che hai chiesto.",
     "license": "CC BY 2.0 FR",
     "source_id": "7529344",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d551c4df4d42",
+    "author": "Valdast",
+    "cefr_estimate": "A2",
+    "es": "Da lo mejor, y tendrás éxito.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1508355",
+    "id": "s_7558830",
+    "it": "Da' il massimo e avrai successo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7558830",
     "translation_kind": "direct"
   },
   {
@@ -52342,6 +54069,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c923a64ed6b1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Soy adicto a Tatoeba.",
+    "es_author": "Ricardo14",
+    "es_source_id": "746369",
+    "id": "s_794952",
+    "it": "Sono dipendente da Tatoeba.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "794952",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3e2369ad4c3d",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -52417,6 +54157,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "4b97fbe41363",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Mañana iré a Tokio.",
+    "es_author": "Leynaf",
+    "es_source_id": "855210",
+    "id": "s_819244",
+    "it": "Andrò a Tokyo domani.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "819244",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "74afd75e98e6",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -52439,6 +54192,19 @@
     "it": "Non ho ancora pranzato.",
     "license": "CC BY 2.0 FR",
     "source_id": "826582",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e2571c676d7e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No deberían salir.",
+    "es_author": "Seael",
+    "es_source_id": "13627660",
+    "id": "s_8267458",
+    "it": "Non dovrebbero uscire.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8267458",
     "translation_kind": "direct"
   },
   {
@@ -52695,6 +54461,19 @@
     "it": "Ho fame perché non ho fatto colazione.",
     "license": "CC BY 2.0 FR",
     "source_id": "876842",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "83eeed052a4b",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "¿A dónde iremos mañana?",
+    "es_author": "User87977",
+    "es_source_id": "8775560",
+    "id": "s_8776550",
+    "it": "Dove andremo domani?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8776550",
     "translation_kind": "direct"
   },
   {
@@ -53052,6 +54831,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9d604ed4cc87",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "Deja de mirarme así.",
+    "es_author": "Shishir",
+    "es_source_id": "554952",
+    "id": "s_935949",
+    "it": "Smetti di guardarmi così.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "935949",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "2483f5bcafb5",
     "author": "riccioberto",
     "cefr_estimate": "A2",
@@ -53167,6 +54959,19 @@
     "it": "In questa città esiste solo una cartoleria.",
     "license": "CC BY 2.0 FR",
     "source_id": "948300",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7ea082b9b63b",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "Serás mi yerno.",
+    "es_author": "riccioberto",
+    "es_source_id": "949670",
+    "id": "s_949665",
+    "it": "Sarai mio genero.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "949665",
     "translation_kind": "direct"
   },
   {
@@ -53342,6 +55147,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "976551",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "124cc8b026c2",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "¿Quién es tu actor favorito?",
+    "es_author": "catakaoe",
+    "es_source_id": "398600",
+    "id": "s_976991",
+    "it": "Chi è il tuo attore preferito?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "976991",
+    "translation_kind": "direct"
   },
   {
     "audio": "b47dd0455bfe",

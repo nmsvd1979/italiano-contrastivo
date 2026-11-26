@@ -220,6 +220,16 @@
     "wrong": "L'uomo mangiò di il pane."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Scegli il tuo personaggio.",
+    "wrong": "Scegli tuo personaggio."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Scelga il suo personaggio.",
+    "wrong": "Scelga suo personaggio."
+  },
+  {
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Tom è più alto di me.",
     "wrong": "Tom è più alto che me."
@@ -610,6 +620,11 @@
     "wrong": "Sei andato a Italia."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Non so la sua password.",
+    "wrong": "Non so sua password."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Devo prelevare al bancomat.",
     "wrong": "Devo prelevare a il bancomat."
@@ -778,6 +793,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Odio i suoi genitori.",
     "wrong": "Odio suoi genitori."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Questa è la migliore dell'album!",
+    "wrong": "Questa è la migliore di l'album!"
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -2146,6 +2166,11 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio album è qui.",
+    "wrong": "Mio album è qui."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Non voglio rischiare la mia vita.",
     "wrong": "Non voglio rischiare mia vita."
   },
@@ -2153,6 +2178,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il suo ragazzo è turco.",
     "wrong": "Suo ragazzo è turco."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Mi piace il suo romanzo.",
+    "wrong": "Mi piace suo romanzo."
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -2750,6 +2780,11 @@
     "wrong": "C'è un bar in l'hotel."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio album è qua.",
+    "wrong": "Mio album è qua."
+  },
+  {
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Sono più alto di te.",
     "wrong": "Sono più alto che te."
@@ -3095,6 +3130,11 @@
     "wrong": "Sua risposta è stata breve."
   },
   {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Quando sarai a Londra?",
+    "wrong": "Quando sarai in Londra?"
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Il pranzo inizia alle dodici.",
     "wrong": "Il pranzo inizia a le dodici."
@@ -3245,6 +3285,11 @@
     "wrong": "Mio compleanno è il dieci novembre."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Qualcuno conosce la password del portatile?",
+    "wrong": "Qualcuno conosce la password di il portatile?"
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Noi siamo arrivati in tempo all'ufficio.",
     "wrong": "Noi abbiamo arrivati in tempo all'ufficio."
@@ -3293,6 +3338,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Vorrei del tè col limone.",
     "wrong": "Vorrei di il tè col limone."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Dovresti prendere delle precauzioni.",
+    "wrong": "Dovresti prendere di le precauzioni."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3725,6 +3775,16 @@
     "wrong": "Peter ama a Jane."
   },
   {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Laurie andrà in Spagna.",
+    "wrong": "Laurie andrà a Spagna."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Anche io andrò all'università domani.",
+    "wrong": "Anche io andrò a l'università domani."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Ha mostrato i suoi talenti.",
     "wrong": "Ha mostrato suoi talenti."
@@ -3771,6 +3831,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Qual è il tuo personaggio della Disney preferito?",
+    "wrong": "Qual è il tuo personaggio di la Disney preferito?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Non andare nella mia stanza.",
     "wrong": "Non andare in la mia stanza."
   },
@@ -3803,6 +3868,16 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Tom è arrivato otto giorni fa.",
     "wrong": "Tom ha arrivato otto giorni fa."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ho installato ieri un nuovo programma nel mio computer.",
+    "wrong": "Ho installato ieri un nuovo programma in il mio computer."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio programma non è compatibile con Windows.",
+    "wrong": "Mio programma non è compatibile con Windows."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -4275,6 +4350,11 @@
     "wrong": "Dopo un'ora di macchina, siamo arrivati a l'aeroporto."
   },
   {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Durante l'estate andrò in Francia.",
+    "wrong": "Durante l'estate andrò a Francia."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Abbiamo una riunione alle due e mezza.",
     "wrong": "Abbiamo una riunione a le due e mezza."
@@ -4593,6 +4673,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La lezione comincia alle dieci.",
     "wrong": "La lezione comincia a le dieci."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "A me piace il suo romanzo.",
+    "wrong": "A me piace suo romanzo."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",

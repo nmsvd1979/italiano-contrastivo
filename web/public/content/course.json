@@ -660,6 +660,42 @@
         "doc_a2m06_orari",
         "vh_a2m06"
       ]
+    },
+    {
+      "id": "a2m07",
+      "level": "A2",
+      "title": "Planes, invitaciones e hipótesis",
+      "can_do_es": [
+        "Hablar de planes con futuro (reconocer) y con presente.",
+        "Invitar, aceptar y rechazar con un motivo.",
+        "Hacer hipótesis simples con «se» + presente.",
+        "Entender un pronóstico del tiempo y un programa de cine."
+      ],
+      "units": [
+        "u97",
+        "u98",
+        "u99"
+      ],
+      "entry_reading": "rd_programmi",
+      "roleplays": [
+        "rp_a2m07_a",
+        "rp_a2m07_b"
+      ],
+      "tasks": [
+        "ht_a2m07"
+      ],
+      "phrase_groups": [],
+      "library": "leggiamo",
+      "library_task_es": "Lee en Leggiamo un texto de la unidad que coincide con tu tema y resume en una frase en italiano qué planea el protagonista.",
+      "writing_es": "Escribe en italiano un texto de 40–60 palabras sobre tus planes para el próximo fin de semana. Usa al menos 3 verbos en futuro (uno irregular: verrò, andrò, sarò o avrò) y una frase con «se + presente» (por ejemplo, se piove, resto a casa).",
+      "writing_short_es": "Escribe en italiano un mensaje de 25–50 palabras para invitar a un amigo al cine o a cenar. Usa «vorrei», indica día y hora, y un verbo con preposición (smettere di, cercare di o pensare a).",
+      "extra_readings": [
+        "ls_a2m07",
+        "doc_a2m07_meteo",
+        "doc_a2m07_cinema",
+        "doc_a2m07_invito",
+        "vh_a2m07"
+      ]
     }
   ],
   "units": [
@@ -18804,6 +18840,442 @@
           "start": 9,
           "end": 16,
           "wrong": "fila"
+        }
+      ]
+    },
+    {
+      "id": "u97",
+      "level": "A2",
+      "title": "Futuro y condicional: la raíz",
+      "goal_es": "Futuro y condicional: la raíz (solo reconocer)",
+      "codes": [
+        "ERR_FUTURO_RADICE"
+      ],
+      "why_here": "Qué harás el fin de semana, el pronóstico del tiempo, invitar y rechazar con un motivo, «si llueve, no voy».",
+      "ficha_es": "Futuro y condicional comparten la raíz: parlerò / parlerei (los verbos en -are cambian la -a- por -e-, no *parlarò) y varios verbos tienen raíz propia: andrò, verrò, potrò, saprò, vedrò, dovrò, avrò, sarò (no *anderò, *venirò, *esserò). El español dice «vendré»: en italiano es verrò.\n\nError típico: *parlarò/*parlaría → parlerò/parlerei; *vendrò → verrò; *anderò, *poterò → andrò, potrò; vorremmo ≠ vorremo; «voy a llover» → *va a piovere → pioverà (sto per = a punto de). Válido y no es error: quando arrivi ti chiamo (presente de «tu»: válido); se pioverà / se piove (ambas válidas); volerò (de volare, válido); vado a mangiare (con movimiento); vorrei (volerei es válido)\n\nQué practicas aquí: Futuro simple regular e irregular (reconocer); Condicional de cortesía en fórmulas para pedir un favor: vorrei, potrei (dovresti y mi piacerebbe: solo reconocer).\n\nSituación del módulo: Qué harás el fin de semana, el pronóstico del tiempo, invitar y rechazar con un motivo, «si llueve, no voy».",
+      "productive": false,
+      "status": "active",
+      "explanation_es": "Futuro y condicional comparten la raíz: parlerò / parlerei (los verbos en -are cambian la -a- por -e-, no *parlarò) y varios verbos tienen raíz propia: andrò, verrò, potrò, saprò, vedrò, dovrò, avrò, sarò (no *anderò, *venirò, *esserò). El español dice «vendré»: en italiano es verrò.",
+      "parts": {
+        "descubre": [
+          "s_3565314",
+          "s_3532892",
+          "s_375634",
+          "s_1020342"
+        ],
+        "practica": [
+          "s_3565314",
+          "s_3532892",
+          "s_375634",
+          "s_1020342",
+          "s_3306542",
+          "s_399671",
+          "s_4237589",
+          "s_949665",
+          "s_1316291",
+          "s_2552750",
+          "s_3015889",
+          "s_5955453",
+          "s_3868051",
+          "s_5446426",
+          "s_6305049",
+          "s_2046389",
+          "s_2555034",
+          "s_2575086",
+          "s_8776550",
+          "s_10161746",
+          "s_1461885",
+          "s_2565317",
+          "s_350547",
+          "s_5065969",
+          "s_819244",
+          "s_1199407",
+          "s_1277446",
+          "s_2816633",
+          "s_3262469",
+          "s_4215500",
+          "s_5898642",
+          "s_8267458",
+          "s_1471862",
+          "s_2414596",
+          "s_2960721",
+          "s_531712",
+          "s_5468074",
+          "s_5521789",
+          "s_7162204",
+          "s_4220843",
+          "s_538861",
+          "s_3665277",
+          "s_3546260",
+          "s_7558830",
+          "s_5613840",
+          "s_6920256",
+          "s_602338",
+          "s_14028837",
+          "s_2422720"
+        ],
+        "escucha": [
+          "s_3565314",
+          "s_4237589",
+          "s_3868051",
+          "s_8776550",
+          "s_819244",
+          "s_5898642",
+          "s_5468074",
+          "s_3546260"
+        ],
+        "prueba": [
+          "s_11504511",
+          "s_1996695",
+          "s_3603806",
+          "s_569343",
+          "s_4188634",
+          "s_376637",
+          "s_641692",
+          "s_398755"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_3565314",
+          "start": 0,
+          "end": 4,
+          "wrong": "Esserò"
+        },
+        {
+          "id": "s_3532892",
+          "start": 9,
+          "end": 13,
+          "wrong": "esserò"
+        },
+        {
+          "id": "s_375634",
+          "start": 0,
+          "end": 6,
+          "wrong": "Anderai"
+        },
+        {
+          "id": "s_1020342",
+          "start": 0,
+          "end": 4,
+          "wrong": "Esserà"
+        }
+      ]
+    },
+    {
+      "id": "u98",
+      "level": "A2",
+      "title": "Verbos con preposición: smettere di, cercare di, pensare a",
+      "goal_es": "Verbos con preposición: smettere di, cercare di, pensare a",
+      "codes": [
+        "ERR_PREP_FIXED_GOV"
+      ],
+      "why_here": "Qué harás el fin de semana, el pronóstico del tiempo, invitar y rechazar con un motivo, «si llueve, no voy».",
+      "ficha_es": "Régimen preposicional fijo que no coincide con el español: dipendere da (depender de), venire da (venir de), essere interessato a (interesado en).\n\nError típico: *lasciare di, *trattare di → smettere di, cercare di; *pensare in te → pensare a te; dipendere da; sognare di. Válido y no es error: penso a questo (válido; el error real es no usar ci)\n\nQué practicas aquí: Verbos con preposición (smettere di, cercare di, pensare a, dipendere da).\n\nSituación del módulo: Qué harás el fin de semana, el pronóstico del tiempo, invitar y rechazar con un motivo, «si llueve, no voy».",
+      "status": "active",
+      "explanation_es": "Régimen preposicional fijo que no coincide con el español: dipendere da (depender de), venire da (venir de), essere interessato a (interesado en).",
+      "parts": {
+        "descubre": [
+          "s_1265972",
+          "s_11737452",
+          "s_11737454",
+          "s_11737423"
+        ],
+        "practica": [
+          "s_1265972",
+          "s_11737452",
+          "s_11737454",
+          "s_11737423",
+          "s_11737425",
+          "s_11737455",
+          "s_1244820",
+          "s_14037435",
+          "s_1526986",
+          "s_1811431",
+          "s_4854683",
+          "s_5184519",
+          "s_5184518",
+          "s_11444060",
+          "s_13058799",
+          "s_1661907",
+          "s_13356128",
+          "s_3351501",
+          "s_935949",
+          "s_14077748",
+          "s_794952",
+          "s_1147243",
+          "s_2752359",
+          "s_7321610",
+          "s_14039392",
+          "s_4865172",
+          "s_7321607",
+          "s_427755",
+          "s_350280"
+        ],
+        "escucha": [
+          "s_1265972",
+          "s_11737423",
+          "s_1244820",
+          "s_1811431",
+          "s_5184518",
+          "s_1661907",
+          "s_935949",
+          "s_1147243"
+        ],
+        "prueba": [
+          "s_11737424",
+          "s_1811430",
+          "s_4854685",
+          "s_1738961",
+          "s_401639",
+          "s_6212367",
+          "s_5796672",
+          "s_602369"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1265972",
+          "start": 12,
+          "end": 14,
+          "wrong": "di"
+        },
+        {
+          "id": "s_11737452",
+          "start": 6,
+          "end": 7,
+          "wrong": "in"
+        },
+        {
+          "id": "s_11737454",
+          "start": 6,
+          "end": 7,
+          "wrong": "in"
+        },
+        {
+          "id": "s_11737423",
+          "start": 6,
+          "end": 7,
+          "wrong": "in"
+        }
+      ]
+    },
+    {
+      "id": "u99",
+      "level": "A2",
+      "title": "Vocabulario: cultura, medios y tecnología",
+      "goal_es": "Vocabulario: cultura, medios y tecnología",
+      "codes": [
+        "ERR_VOC_CULTURA"
+      ],
+      "why_here": "Qué harás el fin de semana, el pronóstico del tiempo, invitar y rechazar con un motivo, «si llueve, no voy».",
+      "ficha_es": "Cultura, medios y tecnología: mostra (exposición), romanzo (novela), personaggio, copertina (portada), statua, album, video, programma, telegiornale (noticiero), pubblicità, password (contraseña), stampante (impresora), attore. Las que se parecen al español: programma, video, album; mostra no es «muestra» sino «exposición».\n\nError típico: mostra, spettacolo, concerto, telegiornale, notizia, puntata, scaricare, caricare, password (sin repetir u73)\n\nQué practicas aquí: Área temática PLIDA A2: Arte, cultura y tiempo libre; Área temática PLIDA A2: Comunicación y medios; Área temática PLIDA A2: Tecnología y ciencia.\n\nSituación del módulo: Qué harás el fin de semana, el pronóstico del tiempo, invitar y rechazar con un motivo, «si llueve, no voy».",
+      "words": [
+        {
+          "form": "telegiornale",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el noticiero",
+          "audio": "c01c0b656f06",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "programma",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el programa",
+          "audio": "a3efc3cf6c38",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "romanzo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la novela",
+          "audio": "69b3840813f8",
+          "art": "il",
+          "sieve": "opaca",
+          "note": "Parece 'romance' pero es la novela",
+          "ff": true
+        },
+        {
+          "form": "video",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el video",
+          "audio": "ffbaf58f1231",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "album",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el álbum",
+          "audio": "0323809aff09",
+          "art": "l'",
+          "sieve": "transparente"
+        },
+        {
+          "form": "personaggio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el personaje",
+          "audio": "971e2407e2a4",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "personaje→personaggio: -je→-ggio"
+        },
+        {
+          "form": "attore",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el actor",
+          "audio": "2f2627b1ca6d",
+          "art": "l'",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "actor→attore: ct→tt, -or→-ore"
+        },
+        {
+          "form": "password",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la contraseña",
+          "audio": "5baa61e4c9b9",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "copertina",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la portada",
+          "audio": "7983bf007e31",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "pubblicità",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la publicidad",
+          "audio": "97d896e8aa7b",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "dad-ta",
+          "note": "publicidad→pubblicità: -dad→-tà"
+        },
+        {
+          "form": "stampante",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la impresora",
+          "audio": "8e2f7641df81",
+          "art": "la",
+          "sieve": "opaca"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Cultura, medios y tecnología: mostra (exposición), romanzo (novela), personaggio, copertina (portada), statua, album, video, programma, telegiornale (noticiero), pubblicità, password (contraseña), stampante (impresora), attore. Las que se parecen al español: programma, video, album; mostra no es «muestra» sino «exposición».",
+      "parts": {
+        "descubre": [
+          "s_1311375",
+          "s_3349173",
+          "s_946841",
+          "s_3074768"
+        ],
+        "practica": [
+          "s_1311375",
+          "s_3349173",
+          "s_946841",
+          "s_3074768",
+          "s_4258175",
+          "s_7321320",
+          "s_5692302",
+          "s_5766069",
+          "s_9115360",
+          "s_9708189",
+          "s_12305795",
+          "s_3352775",
+          "s_12305796",
+          "s_2574818",
+          "s_1271613",
+          "s_374419",
+          "s_13071611",
+          "s_14022651",
+          "s_1836110",
+          "s_5260670",
+          "s_7706030",
+          "s_951962",
+          "s_698677",
+          "s_11090206",
+          "s_11090207",
+          "s_1712921",
+          "s_1668794",
+          "s_8910725",
+          "s_714568",
+          "s_5770507",
+          "s_4086548",
+          "s_976991",
+          "s_3338089",
+          "s_1347620",
+          "s_1645875",
+          "s_13574063",
+          "s_1349172",
+          "s_2700896",
+          "s_2700843",
+          "s_2041978",
+          "s_2700885"
+        ],
+        "escucha": [
+          "s_1311375",
+          "s_7321320",
+          "s_12305795",
+          "s_374419",
+          "s_7706030",
+          "s_1712921",
+          "s_4086548",
+          "s_13574063"
+        ],
+        "prueba": [
+          "s_5590696",
+          "s_2468929",
+          "s_13834828",
+          "s_5770506",
+          "s_6911744",
+          "s_976528",
+          "s_1440508",
+          "s_2520355"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1311375",
+          "start": 9,
+          "end": 14,
+          "wrong": "telegiornale"
+        },
+        {
+          "id": "s_3349173",
+          "start": 9,
+          "end": 15,
+          "wrong": "album"
+        },
+        {
+          "id": "s_946841",
+          "start": 9,
+          "end": 15,
+          "wrong": "album"
+        },
+        {
+          "id": "s_3074768",
+          "start": 11,
+          "end": 16,
+          "wrong": "attore"
         }
       ]
     },

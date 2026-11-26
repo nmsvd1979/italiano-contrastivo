@@ -4050,6 +4050,54 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Elige tu personaje.",
+    "es_author": "IA (Claude)",
+    "id": "s_11090206",
+    "it": "Scegli il tuo personaggio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11090206",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Elija su personaje.",
+    "es_author": "IA (Claude)",
+    "id": "s_11090207",
+    "it": "Scelga il suo personaggio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11090207",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_CUCINA"
     ],
     "es": "¿Ese pan tiene buen sabor?",
@@ -7786,6 +7834,52 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Soy un buen actor.",
+    "es_author": "IA (Claude)",
+    "id": "s_12305795",
+    "it": "Sono un buon attore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12305795",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Soy un buen actor.",
+    "es_author": "IA (Claude)",
+    "id": "s_12305796",
+    "it": "Sono un bravo attore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12305796",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Rovo",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -9444,6 +9538,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Brad Pitt es actor.",
+    "es_author": "IA (Claude)",
+    "id": "s_1271613",
+    "it": "Brad Pitt è un attore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1271613",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -10717,6 +10834,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Estoy viendo unos videos.",
+    "es_author": "IA (Claude)",
+    "id": "s_13071611",
+    "it": "Sto guardando dei video.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13071611",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_NATURA"
     ],
     "es": "La piedra es pesada.",
@@ -11094,6 +11234,28 @@
     "source_id": "1311084",
     "tag_rules": {
       "ERR_VOC_CONNETTIVI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Tengo el vídeo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1289489",
+    "id": "s_1311375",
+    "it": "Io ho il video.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1311375",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -13789,6 +13951,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "rul",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "No sé su contraseña.",
+    "es_author": "rul",
+    "es_source_id": "13834806",
+    "id": "s_13834828",
+    "it": "Non so la sua password.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13834828",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -14252,6 +14436,29 @@
     "source_id": "14008532",
     "tag_rules": {
       "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "No conozco la contraseña.",
+    "es_author": "IA (Claude)",
+    "id": "s_14022651",
+    "it": "Non conosco la password.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14022651",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -17859,6 +18066,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "¡Esta es la mejor del álbum!",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1669615",
+    "id": "s_1668794",
+    "it": "Questa è la migliore dell'album!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1668794",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRONOME_TONICO"
     ],
     "es": "No me gusta el café.",
@@ -18837,6 +19066,28 @@
       "ERR_VOC_SERVIZI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Charlie Chaplin es un actor.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1713017",
+    "id": "s_1712921",
+    "it": "Charlie Chaplin è un attore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1712921",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -19845,6 +20096,29 @@
       "ERR_CLITICO_MI_TI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "hitori37",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Me encanta ese anuncio.",
+    "es_author": "IA (Claude)",
+    "id": "s_1836110",
+    "it": "Adoro quella pubblicità.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1836110",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "hitori37",
@@ -24821,6 +25095,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "La contraseña es larga.",
+    "es_author": "IA (Claude)",
+    "id": "s_2468929",
+    "it": "La password è lunga.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2468929",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_SERVIZI"
     ],
     "es": "Llamemos a la policía.",
@@ -26526,6 +26823,29 @@
       "ERR_GN_Z_SPELLING": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Necesito la contraseña.",
+    "es_author": "IA (Claude)",
+    "id": "s_2574818",
+    "it": "Mi serve la password.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2574818",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -32311,6 +32631,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Amo este álbum.",
+    "es_author": "IA (Claude)",
+    "id": "s_3074768",
+    "it": "Amo questo album.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3074768",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_IRREGULAR"
     ],
     "es": "Ustedes no están bien.",
@@ -34713,6 +35056,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "¿Tom es un actor?",
+    "es_author": "Shishir",
+    "es_source_id": "4558741",
+    "id": "s_3349173",
+    "it": "Tom è un attore?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3349173",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_BAR"
     ],
     "es": "El té está caliente.",
@@ -34800,6 +35165,29 @@
     "source_id": "3352769",
     "tag_rules": {
       "ERR_PRESENT_ARE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "La contraseña es corta.",
+    "es_author": "IA (Claude)",
+    "id": "s_3352775",
+    "it": "La password è corta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3352775",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -41442,6 +41830,30 @@
     "source_id": "374410",
     "tag_rules": {
       "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Yo soy un actor famoso.",
+    "es_author": "aye1995",
+    "es_source_id": "930945",
+    "id": "s_374419",
+    "it": "Sono un attore famoso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "374419",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -49862,6 +50274,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Amo este video.",
+    "es_author": "IA (Claude)",
+    "id": "s_4258175",
+    "it": "Amo questo video.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4258175",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -56490,6 +56925,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Está leyendo una novela.",
+    "es_author": "IA (Claude)",
+    "id": "s_5260670",
+    "it": "Sta leggendo un romanzo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5260670",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -59041,6 +59499,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "¿Cuál es la contraseña?",
+    "es_author": "IA (Claude)",
+    "id": "s_5590696",
+    "it": "Qual è la password?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5590696",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "dnnywld",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -59609,6 +60090,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Mi album está aquí.",
+    "es_author": "rains_and_shadows",
+    "es_source_id": "4814785",
+    "id": "s_5692302",
+    "it": "Il mio album è qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5692302",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "bruno_b",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -60069,6 +60572,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "No soy actor.",
+    "es_author": "IA (Claude)",
+    "id": "s_5766069",
+    "it": "Non sono un attore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5766069",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_TEMPOLIBERO"
     ],
     "es": "¿Para quién es la fiesta?",
@@ -60085,6 +60611,29 @@
       "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Me gusta su novela.",
+    "es_author": "IA (Claude)",
+    "id": "s_5770506",
+    "it": "Mi piace il suo romanzo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5770506",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -65049,6 +65598,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "La impresora no funciona.",
+    "es_author": "IA (Claude)",
+    "id": "s_6911744",
+    "it": "La stampante non funziona.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6911744",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Heracleum",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -65626,6 +66198,28 @@
       "ERR_CLITICO_MI_TI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Esta novela me aburre.",
+    "es_author": "Leono",
+    "es_source_id": "631152",
+    "id": "s_698677",
+    "it": "Questo romanzo mi annoia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "698677",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -66776,6 +67370,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Ayer compré esta impresora.",
+    "es_author": "Shishir",
+    "es_source_id": "574571",
+    "id": "s_714568",
+    "it": "Ho comprato questa stampante ieri.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "714568",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
@@ -67435,6 +68051,29 @@
       "ERR_VOC_ANIMALI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Valdast",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Soy actor.",
+    "es_author": "IA (Claude)",
+    "id": "s_7321320",
+    "it": "Io sono un attore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7321320",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "antilope",
@@ -68567,6 +69206,28 @@
     "source": "tatoeba",
     "source_id": "769350",
     "tag_rules": {},
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Valdast",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Tom escribía una novela.",
+    "es_author": "Domingo33",
+    "es_source_id": "7703265",
+    "id": "s_7706030",
+    "it": "Tom scriveva un romanzo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7706030",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
     "translation_kind": "direct"
   },
   {
@@ -72165,6 +72826,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "¿Por qué quiere ser actor?",
+    "es_author": "saverius",
+    "es_source_id": "10803324",
+    "id": "s_8910725",
+    "it": "Perché vuole diventare un attore?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8910725",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "carlosalberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -72761,6 +73444,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Mi álbum está aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_9115360",
+    "it": "Il mio album è qua.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9115360",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -73318,6 +74024,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Él es actor.",
+    "es_author": "IA (Claude)",
+    "id": "s_946841",
+    "it": "Lui è un attore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "946841",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -73545,6 +74274,29 @@
       "ERR_SC_PALATAL": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Esta novela es aburrida.",
+    "es_author": "IA (Claude)",
+    "id": "s_951962",
+    "it": "Questo romanzo è noioso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "951962",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -74184,6 +74936,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Odio la publicidad.",
+    "es_author": "IA (Claude)",
+    "id": "s_9708189",
+    "it": "Odio la pubblicità.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9708189",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRIMA_DI"
     ],
     "es": "Tengo matemáticas después del recreo.",
@@ -74360,6 +75135,28 @@
     "source_id": "9754030",
     "tag_rules": {
       "ERR_VOC_CASA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "hundo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CULTURA"
+    ],
+    "es": "Laura está viendo el telediario.",
+    "es_author": "hundo",
+    "es_source_id": "976582",
+    "id": "s_976528",
+    "it": "Laura sta seguendo il telegiornale.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "976528",
+    "tag_rules": {
+      "ERR_VOC_CULTURA": "capsule_calque"
     },
     "translation_kind": "direct"
   },

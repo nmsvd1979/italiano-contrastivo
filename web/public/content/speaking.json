@@ -485,6 +485,30 @@
         "u96"
       ],
       "goal_es": "Preguntar por una oficina, entender el camino y averiguar el piso."
+    },
+    {
+      "id": "rp_a2m07_a",
+      "title": "Hacer planes según el tiempo",
+      "function_es": "Proponer un plan",
+      "reading": "rd_a2m07_a",
+      "from": 0,
+      "to": 10,
+      "after": [
+        "u99"
+      ],
+      "goal_es": "Proponer un plan para el sábado, decir de qué depende y quedar en una hora y un lugar."
+    },
+    {
+      "id": "rp_a2m07_b",
+      "title": "Invitar a cenar con cortesía",
+      "function_es": "Invitar y aceptar",
+      "reading": "rd_a2m07_b",
+      "from": 0,
+      "to": 10,
+      "after": [
+        "u99"
+      ],
+      "goal_es": "Invitar a un amigo a cenar, pedirle que lleve algo y confirmar hora y lugar."
     }
   ],
   "tasks": [
@@ -1126,6 +1150,57 @@
         "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
         "No leí: hablé de corrido, aunque con pausas.",
         "Cuidé lo que enseña este módulo: Situar: di fronte a, accanto a, in fondo a; Fechas, años y horarios; «Si» impersonal y carteles.",
+        "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_a2m07",
+      "title": "Planes, invitaciones e hipótesis",
+      "function_es": "Hablar de planes y de qué haces según el tiempo",
+      "level": "A2",
+      "minutes": 2,
+      "after": [
+        "u99"
+      ],
+      "source": {
+        "book": "Texto escrito por la IA (Claude) para esta app",
+        "authors": "Claude (IA), a pedido del usuario",
+        "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+        "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+      },
+      "intro_es": "Habla unos 2 minutos, sin leer. Usa el futuro (verrò, andrò, sarò, avrò), frases con «se + presente» y verbos como smettere di, cercare di, pensare a.",
+      "questions": [
+        {
+          "it": "Che cosa farai sabato prossimo?",
+          "es": "¿Qué harás el próximo sábado?",
+          "audio": "6b42fc40a07a"
+        },
+        {
+          "it": "Se piove, che cosa fai? E se c'è il sole?",
+          "es": "Si llueve, ¿qué haces? ¿Y si hay sol?",
+          "audio": "ca8b0f4723b8"
+        },
+        {
+          "it": "Chi vuoi invitare a cena e che cosa cucinerai?",
+          "es": "¿A quién quieres invitar a cenar y qué cocinarás?",
+          "audio": "b90ef0e3210f"
+        },
+        {
+          "it": "Che film o che serie ti piace? Quando la guardi?",
+          "es": "¿Qué película o serie te gusta? ¿Cuándo la ves?",
+          "audio": "2fe29e0fd3a5"
+        },
+        {
+          "it": "Da che cosa dipende il tuo fine settimana?",
+          "es": "¿De qué depende tu fin de semana?",
+          "audio": "7c665797ee54"
+        }
+      ],
+      "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que enseña este módulo: Futuro y condicional: la raíz; Verbos con preposición: smettere di, cercare di, pensare a; Vocabulario: cultura, medios y tecnología.",
         "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
       ]
     }
@@ -2581,6 +2656,94 @@
         "es": "¿A qué hora abre el banco en tu ciudad?",
         "authored": true,
         "audio": "25a3d2785564"
+      },
+      {
+        "id": "iq_ht_a2m07_1",
+        "module": "a2m07",
+        "it": "Che cosa farai sabato prossimo?",
+        "es": "¿Qué harás el próximo sábado?",
+        "task": "ht_a2m07",
+        "audio": "6b42fc40a07a"
+      },
+      {
+        "id": "iq_ht_a2m07_2",
+        "module": "a2m07",
+        "it": "Se piove, che cosa fai? E se c'è il sole?",
+        "es": "Si llueve, ¿qué haces? ¿Y si hay sol?",
+        "task": "ht_a2m07",
+        "audio": "ca8b0f4723b8"
+      },
+      {
+        "id": "iq_ht_a2m07_3",
+        "module": "a2m07",
+        "it": "Chi vuoi invitare a cena e che cosa cucinerai?",
+        "es": "¿A quién quieres invitar a cenar y qué cocinarás?",
+        "task": "ht_a2m07",
+        "audio": "b90ef0e3210f"
+      },
+      {
+        "id": "iq_ht_a2m07_4",
+        "module": "a2m07",
+        "it": "Che film o che serie ti piace? Quando la guardi?",
+        "es": "¿Qué película o serie te gusta? ¿Cuándo la ves?",
+        "task": "ht_a2m07",
+        "audio": "2fe29e0fd3a5"
+      },
+      {
+        "id": "iq_ht_a2m07_5",
+        "module": "a2m07",
+        "it": "Da che cosa dipende il tuo fine settimana?",
+        "es": "¿De qué depende tu fin de semana?",
+        "task": "ht_a2m07",
+        "audio": "7c665797ee54"
+      },
+      {
+        "id": "iq_a2m07_1",
+        "module": "a2m07",
+        "it": "Che cosa farai questo fine settimana?",
+        "es": "¿Qué harás este fin de semana?",
+        "authored": true,
+        "audio": "f2fc113a1abb"
+      },
+      {
+        "id": "iq_a2m07_2",
+        "module": "a2m07",
+        "it": "Dove andrai nelle prossime vacanze?",
+        "es": "¿Adónde irás en las próximas vacaciones?",
+        "authored": true,
+        "audio": "d6c186dfdc5a"
+      },
+      {
+        "id": "iq_a2m07_3",
+        "module": "a2m07",
+        "it": "Se domani piove, che cosa fai?",
+        "es": "Si mañana llueve, ¿qué haces?",
+        "authored": true,
+        "audio": "6afee3149a7d"
+      },
+      {
+        "id": "iq_a2m07_4",
+        "module": "a2m07",
+        "it": "Chi verrà a casa tua questo mese?",
+        "es": "¿Quién vendrá a tu casa este mes?",
+        "authored": true,
+        "audio": "ae96cbe362f5"
+      },
+      {
+        "id": "iq_a2m07_5",
+        "module": "a2m07",
+        "it": "Qual è l'ultimo film che hai visto?",
+        "es": "¿Cuál es la última película que viste?",
+        "authored": true,
+        "audio": "a645958f696b"
+      },
+      {
+        "id": "iq_a2m07_6",
+        "module": "a2m07",
+        "it": "A che cosa pensi la sera prima di dormire?",
+        "es": "¿En qué piensas por la noche antes de dormir?",
+        "authored": true,
+        "audio": "4fe98d4bc781"
       }
     ]
   }

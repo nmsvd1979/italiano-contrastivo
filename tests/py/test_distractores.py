@@ -33,7 +33,7 @@ def test_codigos_sin_generador_de_segundo_error_siguen_con_dos_opciones():
 def test_la_mayoria_de_las_elecciones_del_paquete_tienen_tres_opciones_sin_repetidas_ni_dos_correctas():
     items = [i for v in load_items(PACK).values() for i in v if i.get("type") == "choice_l1_distractor"]
     three = [i for i in items if len(i["options"]) == 3]
-    assert len(three) / len(items) > 0.6, "con dos opciones se acierta por azar la mitad de las veces"
+    assert len(three) / len(items) > 0.55, "con dos opciones se acierta por azar la mitad de las veces"   # 0,60 en A1; las cápsulas de A2 con variante a mano (cambio de tiempo, fechas, «si») solo tienen una errónea posible: umbral 0,55 (2026-11-26)
     for i in items:
         texts = [o["text"] for o in i["options"]]
         assert len(set(texts)) == len(texts) and sum(o["correct"] for o in i["options"]) == 1, i["id"]
