@@ -44,8 +44,8 @@ export function AboutScreen({ manifest, sentences, readings = [] }: { manifest: 
       <ul className="attributions">
         {sentences.map((s) => (
           <li key={s.id}>
-            «{s.it}» — autor del italiano: {s.author}
-            {s.translation_kind === "llm" ? "; traducción de IA" : `; traducción: ${s.es_author}`}
+            «{s.it}» — {s.source === "authored" ? "oración escrita por la IA para esta app (no es de Tatoeba ni de un libro; no la revisó un nativo)" : <>autor del italiano: {s.author}
+            {s.translation_kind === "llm" ? "; traducción de IA" : `; traducción: ${s.es_author}`}</>}
             {s.source_id && <> · <a href={`https://tatoeba.org/es/sentences/show/${s.source_id}`}>ver en Tatoeba</a></>}
           </li>
         ))}

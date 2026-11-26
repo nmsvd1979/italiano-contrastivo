@@ -136,7 +136,7 @@ def build_pack(content_dir: Path, out_dir: Path) -> dict:
                for e in sorted(fa, key=lambda e: e["form"])]
     from pipeline.exercises import alternatives
     alts = alternatives.load(content_dir)   # otras traducciones de Tatoeba: solo para aceptar respuestas al escribir
-    used_sentences = [{**{k: s[k] for k in SENTENCE_FIELDS if k in s}, "audio": clip_id(s["it"]),
+    used_sentences = [{**{k: s[k] for k in SENTENCE_FIELDS if k in s}, **({"source": "authored"} if s.get("source") == "authored" else {}), "audio": clip_id(s["it"]),
                        **({"alt": [a["it"] for a in alts[s["id"]]]} if s["id"] in alts else {})} for s in sentences if s["id"] in used]
 
     from pipeline.exercises.course import write_course  # import local: course.py usa usable_sentences de este módulo

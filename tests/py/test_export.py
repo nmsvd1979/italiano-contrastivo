@@ -139,3 +139,13 @@ def test_pivot_translations_are_never_exported_even_if_validated(auth, tmp_path)
     m = export.export(auth, tmp_path)
     assert [d["id"] for d in read(tmp_path, "A1")] == ["s_2"] and m["excluded_pivot"] == ["s_1"]
     assert "s_1" not in (tmp_path / "ATTRIBUZIONI-tatoeba.md").read_text(encoding="utf8")
+
+
+def test_una_frase_propia_de_la_ia_exporta_con_su_declaracion():
+    """Las frases `authored` no tienen id de Tatoeba: basta autor y licencia, y la atribución dice que las escribió la IA."""
+    from pipeline.export import _has_attribution
+    from scripts.frases_propias import make_doc
+    d = make_doc("Ne ho due.", "Tengo dos.")
+    assert d["source"] == "authored" and d["translation_kind"] == "llm" and d["review_status"] == "needs_review"
+    assert _has_attribution(d)
+    assert not _has_attribution({**d, "license": ""})

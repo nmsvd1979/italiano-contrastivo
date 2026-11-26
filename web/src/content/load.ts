@@ -8,6 +8,8 @@ export type PackSentence = {
   source_id?: string; es_source_id?: string; translation_kind?: "direct" | "llm"; cefr_estimate: string; audio?: string;
   /** Otras traducciones italianas de Tatoeba de la misma oración española: solo se usan para aceptar respuestas al escribir. */
   alt?: string[];
+  /** "authored" = escrita por la IA para la app (no es de Tatoeba ni de un libro); la interfaz lo declara. */
+  source?: "authored";
 };
 export type Manifest = {
   capsules: string[];

@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from pipeline import filters  # noqa: E402
 from pipeline.db import store  # noqa: E402
+from pipeline.exercises import calques  # noqa: E402
 from pipeline.exercises.calques import find_calque  # noqa: E402
 from pipeline.review import batch  # noqa: E402
 
@@ -36,7 +37,19 @@ for v in verdicts:
         summary[v["veredicto"]] += 1
         continue
     if not find_calque(code, doc["it"]):
-        raise SystemExit(f"{sid}: el generador de {code} no encuentra su patrón")
+        # Cápsulas de método manual (A2): el veredicto trae la variante errónea y la segunda pasada (audit2) la confirmó; se guarda en manual_calques.json.
+        if not (v.get("correcto") and v.get("errado") and v.get("kind")):
+            raise SystemExit(f"{sid}: el generador de {code} no encuentra su patrón y el veredicto no trae variante a mano (correcto/errado/kind)")
+        entry = {"it": doc["it"], "correct": v["correcto"], "wrong": v["errado"], "kind": v["kind"], "audit2": v.get("audit2", "")}
+        problems = calques.validate_manual_entry(entry)
+        if problems:
+            raise SystemExit(f"{sid}: variante a mano rechazada ({'; '.join(problems)})")
+        table = json.loads(calques.MANUAL_FILE.read_text(encoding="utf8")) if calques.MANUAL_FILE.exists() else {}
+        table.setdefault(code, [])
+        table[code] = [e for e in table[code] if e["it"] != doc["it"]] + [entry]
+        calques.MANUAL_FILE.write_text(json.dumps(table, ensure_ascii=False, indent=1) + "\n", encoding="utf8")
+        calques.manual_table.cache_clear()
+        summary["variante_a_mano"] += 1
     new = dict(doc)
     if doc.get("translation_kind") == "pivot":
         new = {k: val for k, val in doc.items() if k not in ("es_source_id", "pivot_via")}

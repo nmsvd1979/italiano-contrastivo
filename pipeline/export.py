@@ -18,6 +18,8 @@ def _write_json(path: Path, obj) -> None:
 
 def _has_attribution(d: dict) -> bool:
     # En las traducciones generadas por IA no hay oración española de Tatoeba que citar.
+    if d.get("source") == "authored":   # escrita por la IA para la app: no hay autor ni id de Tatoeba que citar, pero sí quién la escribió y bajo qué condición
+        return all(d.get(k) for k in ("author", "license"))
     needed = ("author", "license", "source_id") if d.get("translation_kind") == "llm" else ("author", "es_author", "license", "source_id", "es_source_id")
     return all(d.get(k) for k in needed)
 
@@ -59,6 +61,7 @@ def export(auth, out_dir: Path) -> dict:
     _write_json(out / "manifest.json", manifest)
 
     lines = [
+        f"- {d['id']}: oración escrita por IA para esta app (no es de Tatoeba ni de un libro); no la revisó un hablante nativo — {d['license']}" if d.get("source") == "authored" else
         f"- {d['id']}: italiano #{d['source_id']} por {d['author']} ({URL.format(d['source_id'])}); "
         + (f"español: traducción generada por IA a partir del italiano — {d['license']}" if d.get("translation_kind") == "llm"
            else f"español #{d['es_source_id']} por {d['es_author']} ({URL.format(d['es_source_id'])}) — {d['license']}")
