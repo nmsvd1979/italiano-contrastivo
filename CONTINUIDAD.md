@@ -2,6 +2,12 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-26 (27) — Publicado: la app con todo A1 en GitHub Pages
+**Pedido del usuario:** «Probar en el iPhone» y, después, «Sí, súbelo».
+**Hecho:** se subió `main` a GitHub (22 commits, de `88d5f67` a `0638652`). La publicación «Publicar app» (ejecución 45732438794) pasó las pruebas, el build y el despliegue. URL: https://nmsvd1979.github.io/italiano-contrastivo/
+**Comprobado:** en la URL publicada están `listening_human.json`, `audio/human.json` y las 63 preguntas por voz, y un audio humano responde 200 como audio/mp3. En este Mac no hay simulador de iPhone (falta Xcode), así que no hubo prueba previa en iOS.
+**Pendiente / siguiente paso:** **tu prueba en el iPhone** con la lista que se te dio (carga de la versión nueva, audio de Serena, voz humana y dos voces, micrófono en Preguntas por voz, dictado del teclado en italiano, audio sin conexión, aspecto). Con eso se cierra A1; después viene A2 (Paso 0 de `docs/pistas-a2.md`).
+
 ## 2026-11-25 (26) — Voz humana, segunda tanda: todas las candidatas restantes
 **Pedido del usuario:** «Sumar más voz humana» (después de aprobar la voz de NM1).
 **Hecho:** se auditaron las 243 candidatas A1 de NM1 que quedaban (todas de m04–m10; m01–m03, m11 y m12 no tienen más): 161 aprobadas y 82 rechazadas (imperativos antes de m11, clíticos, modismos, léxico de B1, casi repetidas). Están en `content/audits/2026-11-25-voz-humana.json` con `"tanda": 2`. Se aplicaron con `voz_humana_apply.py` (respaldo `authoring.pre-voz-humana-2.db`) y `voz_humana.py` bajó 160 audios. Ahora hay **442 grabaciones (5,3 MB)** y el dictado con voz humana tiene **353 frases**: m01 8, m02 8, m03 7, m04 36, m05 23, m06 60, m07 65, m08 45, m09 26, m10 66, m11 6, m12 3. `voz_humana.py` tiene un tope propio de 8 MB para la voz humana, aparte de los 48 MB de Piper. «Acerca de» ahora dice unas 440 frases.
