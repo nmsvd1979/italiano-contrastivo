@@ -14,7 +14,7 @@ from typing import Callable
 from pipeline.tts.ids import LICENSE, LICENSE2, VOICE, VOICE2, clip_id, clip_id2, sha1
 
 MAX_BYTES_A1 = 48_000_000
-MAX_BYTES_A2 = 30_000_000   # tope propio de A2 (plan A2 §5.2), aparte del de A1: el audio solo se descarga al usarlo y GitHub Pages admite 1 GB
+MAX_BYTES_A2 = 50_000_000   # tope propio de A2: el plan decía 30 MB y con 6 módulos ya había ≈ 27 MB; el usuario decidió subirlo a 50 MB el 2026-11-26 (en vez de bajar el bitrate), aparte del de A1: el audio solo se descarga al usarlo y GitHub Pages admite 1 GB
 MAX_BYTES = MAX_BYTES_A1 + MAX_BYTES_A2   # total con A2 en el paquete; (A1 solo: subido de 32 MB el 2026-11-24 (decisión del asistente, por encargo del usuario de cerrar A1): el audio solo se descarga al usarlo y GitHub Pages admite 1 GB; revisar al llegar a A2
 _SERENA = (
     "# Atribuciones de audio\n\n"

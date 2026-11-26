@@ -2,6 +2,8 @@
 
 Registro de avances. Lo más reciente arriba.
 
+**Decisión del usuario (2026-11-26, tras a2m06):** el tope de audio de A2 sube de 30 a **50 MB** (total 48 + 50 = 98 MB; `MAX_BYTES_A2` en `pipeline/tts/generate.py`) en vez de bajar el bitrate. Sigue valiendo: el audio solo se descarga al usarlo.
+
 ## 2026-11-26 (40) — Fase 5: módulo a2m06 «Trámites, casa y barrio» construido
 **Pedido del usuario:** «Sigue con a2m06».
 **Hecho:** lista de cierre en rojo → verde (a2m01–a2m06). 291 candidatas auditadas por dos agentes → **212 frases** en cuatro unidades: situar (di fronte a, accanto a…) 41, fechas, años y horarios 74, «si» impersonal y carteles 47, vocabulario de oficinas y banco 50 (79 rechazadas o en duda; respaldo `content/audits/2026-11-26-a2m06-veredictos.json`). Variantes a mano de fechas (59) y «si» (20) confirmadas por una 2.ª pasada adversarial; 4 de «si» fallaron solo por el español y se corrigió. Entrada **propia** `rd_a2m06_entrada` (en correos); 4 unidades nuevas (u93–u96); Salida (2 juegos de rol, tarea oral, 6 preguntas por voz); 274 clips (+24 de segunda voz); voz humana (banco 467); **A1 intacto**. Precache 11,40 MB.
