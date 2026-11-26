@@ -38,6 +38,27 @@ class Metric(Enum):
     phoneme_match = 'phoneme_match'
 
 
+class Option1(RootModel[str]):
+    root: Annotated[str, Field(min_length=1)]
+
+
+class Gap(BaseModel):
+    model_config = ConfigDict(
+        extra='forbid',
+    )
+    options: Annotated[list[Option1], Field(max_length=2, min_length=2)]
+    answer: Annotated[
+        int, Field(description='Índice de la opción correcta.', ge=0, le=1)
+    ]
+    why_es: Annotated[
+        str,
+        Field(
+            description='Por qué: la pista de la frase que decide el tiempo.',
+            min_length=1,
+        ),
+    ]
+
+
 class Base(BaseModel):
     id: Annotated[str, Field(min_length=1)]
     requires_server: Annotated[
@@ -144,8 +165,38 @@ class Item7(Base):
     ]
 
 
-class Item(RootModel[Item1 | Item2 | Item3 | Item4 | Item5 | Item6 | Item7]):
+class Item8(Base):
+    type: Literal['cloze_text']
+    text: Annotated[
+        str,
+        Field(
+            description='Relato corto con marcadores {1}, {2}… (uno por hueco, en orden, cada uno una sola vez). Primera persona; cada hueco con un disparador inequívoco en su misma frase.',
+            min_length=20,
+        ),
+    ]
+    gaps: Annotated[list[Gap], Field(max_length=8, min_length=4)]
+    translation_es: Annotated[str, Field(min_length=1)]
+    pass_ratio: Annotated[
+        float | None,
+        Field(
+            description='Fracción de huecos correctos para aprobar (por defecto 0,8).',
+            ge=0.5,
+            le=1.0,
+        ),
+    ] = None
+    exam: Annotated[
+        bool | None, Field(description='true = solo lo usa el examen de hito.')
+    ] = None
+    authored: Annotated[
+        bool | None, Field(description='Escrito por la IA para esta app.')
+    ] = None
+    requires_server: Annotated[
+        Literal[False], Field(description='true si necesita el Mac (LT/SLM/ASR).')
+    ]
+
+
+class Item(RootModel[Item1 | Item2 | Item3 | Item4 | Item5 | Item6 | Item7 | Item8]):
     root: Annotated[
-        Item1 | Item2 | Item3 | Item4 | Item5 | Item6 | Item7,
+        Item1 | Item2 | Item3 | Item4 | Item5 | Item6 | Item7 | Item8,
         Field(description='Ejercicio. Unión discriminada por `type`.', title='Item'),
     ]

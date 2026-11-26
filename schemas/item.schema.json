@@ -341,6 +341,86 @@
           "const": true
         }
       }
+    },
+    {
+      "allOf": [
+        {
+          "$ref": "#/$defs/Base"
+        }
+      ],
+      "type": "object",
+      "required": [
+        "text",
+        "gaps",
+        "translation_es"
+      ],
+      "properties": {
+        "type": {
+          "const": "cloze_text"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 20,
+          "description": "Relato corto con marcadores {1}, {2}… (uno por hueco, en orden, cada uno una sola vez). Primera persona; cada hueco con un disparador inequívoco en su misma frase."
+        },
+        "gaps": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "options",
+              "answer",
+              "why_es"
+            ],
+            "properties": {
+              "options": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "answer": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 1,
+                "description": "Índice de la opción correcta."
+              },
+              "why_es": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Por qué: la pista de la frase que decide el tiempo."
+              }
+            }
+          }
+        },
+        "translation_es": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pass_ratio": {
+          "type": "number",
+          "minimum": 0.5,
+          "maximum": 1,
+          "description": "Fracción de huecos correctos para aprobar (por defecto 0,8)."
+        },
+        "exam": {
+          "type": "boolean",
+          "description": "true = solo lo usa el examen de hito."
+        },
+        "authored": {
+          "type": "boolean",
+          "description": "Escrito por la IA para esta app."
+        },
+        "requires_server": {
+          "const": false
+        }
+      }
     }
   ]
 }

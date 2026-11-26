@@ -615,3 +615,12 @@ main.loading p { display: inline-flex; align-items: center; gap: var(--sp3); col
 .hero .gloss, .mod-card .gloss { color: inherit; display: block; margin: 0; }
 header.mhead small, .hero .eyebrow, .hero .unit-title { opacity: 1; }
 button.level { min-height: 44px; padding: 6px 14px; }
+
+/* Relato con huecos (cloze_text): los huecos son botones dentro del texto */
+.cloze-text .big { line-height: 2.1; }
+.cloze-text .gap { display: inline-block; min-width: 4.5em; min-height: 0; padding: 0 10px; margin: 0 2px; font: inherit; border: 1px dashed var(--line, #b9b5ad); border-radius: 8px; background: transparent; }
+.cloze-text .gap[data-state="open"] { border-style: solid; }
+.cloze-text .gap[data-state="correct"] { border-style: solid; }
+.cloze-text .gap[data-state="wrong"] { border-style: solid; text-decoration: line-through; }
+.cloze-text .gap-options { grid-template-columns: 1fr 1fr; }
+.cloze-text .why { margin: 0 0 var(--sp3); }

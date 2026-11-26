@@ -2,9 +2,16 @@
   "ERR_AUX_ESSERE": "El español usa solo 'haber'; en italiano los verbos de movimiento con meta, cambio de estado y reflexivos piden essere.",
   "ERR_CE_AGREEMENT": "C'è se usa con singular y ci sono con plural; el español 'hay' no varía.",
   "ERR_COMPARATIVE_DI": "En el segundo término de una comparación entre nombres o pronombres el italiano usa di; el español usa 'que'.",
+  "ERR_FUTURO_RADICE": "Futuro y condicional comparten la raíz: parlerò / parlerei (los verbos en -are cambian la -a- por -e-, no *parlarò) y varios verbos tienen raíz propia: andrò, verrò, potrò, saprò, vedrò, dovrò, avrò, sarò (no *anderò, *venirò, *esserò). El español dice «vendré»: en italiano es verrò.",
+  "ERR_INDEFINITI": "Qualche va siempre con un nombre en singular (qualche libro, no *qualche libri). Para «algo + adjetivo» el italiano pone di: qualcosa di buono, niente di speciale. Delante de un nombre masculino que no empieza por s + consonante, nessuno se apocopa: nessun libro (no *nessuno libro).",
+  "ERR_OPINIONE": "Para opinar se dice secondo me (no *secondo io) y para estar de acuerdo, sono d'accordo (no *sto d'accordo ni *di accordo). Con el mismo sujeto el italiano usa di + infinitivo: credo di avere ragione, penso di sì.",
   "ERR_PERSONAL_A": "El español marca el objeto directo animado con 'a'; el italiano no. Verbos típicos: cercare, chiamare, aspettare, vedere, aiutare.",
   "ERR_POSSESSIVE_ARTICLE": "En italiano el posesivo lleva artículo (il mio libro), salvo con parentesco singular (mio fratello). El español 'mi libro' no lo lleva, y 'mi hermano' tampoco, lo que induce a omitirlo o a sobreusarlo.",
+  "ERR_PP_AUSILIARE": "El español usa siempre «haber» (he estado, me ha gustado, se ha quedado). En italiano estos verbos piden essere: sono stato, mi è piaciuto, sono rimasto, sono diventato, sono riuscito. Al revés, verbos como camminare, viaggiare, dormire o nuotare piden avere: ho camminato (no *sono camminato).",
   "ERR_PREP_ARTICLE_CONTRACTION": "El italiano funde preposición y artículo (in + la = nella); el español deja 'en la' separado.",
   "ERR_PREP_PLACE": "Con ciudades se usa a (vivo a Roma, arrivo a Roma); con países y regiones, in (vado in Italia). El español usa 'en' para vivir y 'a' para ir sin distinguir ciudad de país.",
+  "ERR_REFLEXIVE_AUX": "Los reflexivos forman los tiempos compuestos con essere (mi sono sentito); el español usa siempre haber (me he sentido).",
+  "ERR_RELATIVO_CHE": "«Lo que» se dice quello che o ciò che, nunca *lo che. El relativo che sirve para sujeto y objeto: la ragazza che abita qui, il libro che leggo.",
+  "ERR_SUBORDINATE": "«Porque» y «por qué» se escriben perché: una sola palabra y con acento agudo (no *per che ni *perchè). Con un verbo, «para + infinitivo» es per + infinitivo (per studiare).",
   "ERR_TENERE_AVERE": "'Tener' del español corresponde a avere (hai ragione), no a tenere (sostener, mantener)."
 }

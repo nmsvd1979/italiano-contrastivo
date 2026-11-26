@@ -54,3 +54,48 @@ describe("detectErrors con los calcos del corpus", () => {
     for (const p of pairs.filter((q) => !hueco.test(q.wrong) && !pronombre.test(q.wrong) && !loro.test(q.wrong))) expect(codes(p.wrong), p.wrong).toContain(p.code);
   });
 });
+
+describe("detectErrors: reglas de A2", () => {
+  const malos: [string, string, string][] = [
+    ["Ieri mi ho alzato tardi.", "ERR_REFLEXIVE_AUX", "sono"],
+    ["Ti hai lavato le mani?", "ERR_REFLEXIVE_AUX", "sei"],
+    ["Ieri ho stato a Roma.", "ERR_PP_AUSILIARE", "sono"],
+    ["Non mi ha piaciuto il film.", "ERR_PP_AUSILIARE", "è"],
+    ["Non capisco lo che dici.", "ERR_RELATIVO_CHE", "quello che"],
+    ["Sono di accordo con te.", "ERR_OPINIONE", "d'accordo"],
+    ["Secondo io è giusto.", "ERR_OPINIONE", "me"],
+    ["Ho comprato qualche libri.", "ERR_INDEFINITI", "alcuni"],
+    ["Domani anderò al mare.", "ERR_FUTURO_RADICE", "andrò"],
+    ["Domani venirò da te.", "ERR_FUTURO_RADICE", "verrò"],
+    ["Poterei venire domani.", "ERR_FUTURO_RADICE", "Potrei"],
+    ["Ho visto a Marco ieri.", "ERR_PERSONAL_A", ""],
+    ["Vado para mangiare.", "ERR_SUBORDINATE", "per"],
+  ];
+  it.each(malos)("%s → %s", (texto, code, sug) => {
+    const e = detectErrors(texto).find((x) => x.code === code);
+    expect(e, texto).toBeTruthy();
+    expect(e!.suggestion).toBe(sug);
+  });
+
+  it("corrige sin dejar espacios raros", () => {
+    const t = "Ho visto a Marco ieri.";
+    const e = detectErrors(t).find((x) => x.code === "ERR_PERSONAL_A")!;
+    expect(t.slice(0, e.start) + e.suggestion + t.slice(e.end)).toBe("Ho visto Marco ieri.");
+    const u = "Non capisco lo che dici.";
+    const f = detectErrors(u).find((x) => x.code === "ERR_RELATIVO_CHE")!;
+    expect(u.slice(0, f.start) + f.suggestion + u.slice(f.end)).toBe("Non capisco quello che dici.");
+  });
+
+  it.each([
+    "Mi sono alzato tardi.", "Mi ha detto la verità.", "Ti ho visto ieri.", "Ci abbiamo pensato molto.", "Vi ho chiamato ieri.",
+    "Sono stato a Roma.", "Mi è piaciuto il film.", "Il biglietto ha costato troppo.", "Il pranzo non è bastato.",
+    "Non capisco quello che dici.", "Sono d'accordo con te.", "Secondo me è giusto.", "Sono d'accordo, secondo me.",
+    "Ho comprato qualche libro.", "C'è stata una crisi: qualche crisi ogni anno.", "Ho qualche amico a Roma.",
+    "Domani andrò al mare.", "Verrò da te.", "Potrei venire domani.", "Volerò a Roma domani.", "Viverò a Milano.", "Sarò a casa.",
+    "Ho visto Marco ieri.", "Ho telefonato a Marco ieri.", "Ho chiamato a Roma.", "Vado per mangiare.", "Paradiso e para-medico.",
+    "Mi hanno detto che hai comprato i biglietti.",
+  ])("no marca italiano correcto: %s", (t) => {
+    const hits = detectErrors(t).filter((e) => ["ERR_REFLEXIVE_AUX", "ERR_PP_AUSILIARE", "ERR_RELATIVO_CHE", "ERR_OPINIONE", "ERR_INDEFINITI", "ERR_FUTURO_RADICE", "ERR_SUBORDINATE", "ERR_PERSONAL_A"].includes(e.code));
+    expect(hits).toEqual([]);
+  });
+});

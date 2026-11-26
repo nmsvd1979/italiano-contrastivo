@@ -12,6 +12,6 @@ def test_fixture_de_pares_al_dia():
 
 
 def test_explicaciones_coinciden_con_el_catalogo():
-    cat = {e["code"]: e["explanation_es"] for e in json.loads((ROOT / "schemas/data/error-codes.json").read_text(encoding="utf8"))}
+    cat = {e["code"]: e["explanation_es"] for f in ("error-codes", "topic-codes") for e in json.loads((ROOT / f"schemas/data/{f}.json").read_text(encoding="utf8"))}
     ex = json.loads((ROOT / "web/src/writing/explanations.json").read_text(encoding="utf8"))
-    assert len(ex) == 8 and all(cat[c] == t for c, t in ex.items())
+    assert len(ex) == 15 and all(cat[c] == t for c, t in ex.items())

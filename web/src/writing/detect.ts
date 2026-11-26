@@ -87,7 +87,7 @@ const RULES: Rule[] = [
   },
   {
     code: "ERR_PERSONAL_A",
-    run: (t) => all(new RegExp(`${B}(?:${PEOPLE_VERBS})\\s+(a)\\s+(?=\\p{Lu})(?!${PLACES}${E})`, "dgu"), t)
+    run: (t) => all(new RegExp(`${B}(?:${PEOPLE_VERBS}|(?:[Hh]o|[Hh]ai|[Hh]a|[Aa]bbiamo|[Aa]vete|[Hh]anno)\\s+(?:visto|conosciuto|incontrato|chiamato|aspettato|cercato|salutato|invitato|ringraziato))\\s+(a)\\s+(?=\\p{Lu})(?!${PLACES}${E})`, "dgu"), t)
       .map((m) => ({ start: span(m, 1)[0], end: span(m, 1)[1] + 1, suggestion: "" })),
   },
   {
@@ -126,9 +126,58 @@ const RULES: Rule[] = [
   },
 ];
 
+
+// Futuro y condicional: la raíz regular que el español sugiere (*anderò) frente a la irregular (andrò). Lista cerrada; «volerò» (de volare) y «viverò» son válidos y no están.
+const FUT_STEMS: [string, string][] = [["ander", "andr"], ["venir", "verr"], ["poter", "potr"], ["saper", "sapr"], ["veder", "vedr"], ["dover", "dovr"], ["aver", "avr"], ["esser", "sar"]];
+const FUT_ENDINGS = ["ò", "ai", "à", "emo", "ete", "anno", "ei", "esti", "ebbe", "emmo", "este", "ebbero"];
+const FUT_FIX = new Map<string, string>(FUT_STEMS.flatMap(([bad, good]) => FUT_ENDINGS.map((e) => [bad + e, good + e] as [string, string])));
+// «qualche» + plural: solo las terminadas en -i; estos singulares en -i son válidos.
+const SING_I = new Set(["crisi", "analisi", "tesi", "ipotesi", "brindisi", "bici", "sintesi", "diagnosi", "parentesi", "oasi", "pausa", "metropoli", "alibi", "safari", "taxi", "menù"]);
+const A2_RULES: Rule[] = [
+  {
+    code: "ERR_REFLEXIVE_AUX",   // *mi ho alzato → mi sono alzato (mi ho, ti hai y vi avete no existen; «ci abbiamo pensato» sí, y «mi ha detto» también: no se tocan)
+    run: (t) => all(new RegExp(`${B}(?:mi\\s+(ho)|ti\\s+(hai)|vi\\s+(avete))\\s+${L}+(?:at|ut|it)[oaie]${E}`, "dgiu"), t).map((m) => {
+      const g = m[1] ? 1 : m[2] ? 2 : 3;
+      return { start: span(m, g)[0], end: span(m, g)[1], suggestion: cap(({ ho: "sono", hai: "sei", avete: "siete" } as Record<string, string>)[m[g].toLowerCase()], m[g]) };
+    }),
+  },
+  {
+    code: "ERR_PP_AUSILIARE",   // *ho stato, *ha piaciuto. «ha costato/bastato» se aceptan con avere: no se marcan.
+    run: (t) => all(new RegExp(`${B}(ho|hai|ha|abbiamo|avete|hanno)\\s+(?:stat[oaie]|piaciut[oaie])${E}`, "dgiu"), t).map((m) => ({
+      start: span(m, 1)[0], end: span(m, 1)[1], suggestion: cap({ ho: "sono", hai: "sei", ha: "è", abbiamo: "siamo", avete: "siete", hanno: "sono" }[m[1].toLowerCase() as "ho"], m[1]),
+    })),
+  },
+  {
+    code: "ERR_RELATIVO_CHE",    // *lo che → quello che
+    run: (t) => all(new RegExp(`${B}([Ll]o)\\s+che${E}`, "dgu"), t).map((m) => ({ start: span(m, 1)[0], end: span(m, 1)[1] + 4, suggestion: cap("quello che", m[1]) })),
+  },
+  {
+    code: "ERR_OPINIONE",        // *di accordo → d'accordo; *secondo io → secondo me
+    run: (t) => [
+      ...all(new RegExp(`${B}(?:sono|siamo|sei|è|siete|era|ero)\\s+(di\\s+accordo)${E}`, "dgiu"), t).map((m) => ({ start: span(m, 1)[0], end: span(m, 1)[1], suggestion: "d'accordo" })),
+      ...all(new RegExp(`${B}[Ss]econdo\\s+(io|tu)${E}`, "dgu"), t).map((m) => ({ start: span(m, 1)[0], end: span(m, 1)[1], suggestion: m[1] === "io" ? "me" : "te" })),
+    ],
+  },
+  {
+    code: "ERR_INDEFINITI",      // *qualche libri → alcuni libri (solo plurales en -i; los nombres en -e son ambiguos y no se marcan)
+    run: (t) => all(new RegExp(`${B}([Qq]ualche)\\s+(${L}+i)${E}`, "dgu"), t)
+      .filter((m) => !SING_I.has(m[2].toLowerCase()))
+      .map((m) => ({ start: span(m, 1)[0], end: span(m, 1)[1], suggestion: cap("alcuni", m[1]) })),
+  },
+  {
+    code: "ERR_FUTURO_RADICE",   // *anderò → andrò, *venirò → verrò, *poterei → potrei…
+    run: (t) => all(new RegExp(`${B}(${L}+)${E}`, "dgu"), t).filter((m) => FUT_FIX.has(m[1].toLowerCase()))
+      .map((m) => ({ start: span(m, 1)[0], end: span(m, 1)[1], suggestion: cap(FUT_FIX.get(m[1].toLowerCase())!, m[1]) })),
+  },
+  {
+    code: "ERR_SUBORDINATE",     // *para mangiare → per mangiare («para» no es italiano)
+    run: (t) => all(new RegExp(`${B}([Pp]ara)\\s+${L}+(?:are|ere|ire|arsi|ersi|irsi)${E}`, "dgu"), t).map((m) => ({ start: span(m, 1)[0], end: span(m, 1)[1], suggestion: cap("per", m[1]) })),
+  },
+];
+
 export function detectErrors(text: string): WritingError[] {
   const out: WritingError[] = [];
-  for (const rule of RULES) {
+  for (const rule of [...RULES, ...A2_RULES]) {
     for (const h of rule.run(text)) {
       out.push({ code: rule.code, start: h.start, end: h.end, found: text.slice(h.start, h.end), suggestion: h.suggestion, message: explanations[rule.code] });
     }

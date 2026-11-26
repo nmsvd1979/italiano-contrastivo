@@ -73,6 +73,492 @@ export type Item =
       prompt_es: string;
       min_chars?: number;
       requires_server?: true;
+    })
+  | (Base & {
+      type?: "cloze_text";
+      /**
+       * Relato corto con marcadores {1}, {2}… (uno por hueco, en orden, cada uno una sola vez). Primera persona; cada hueco con un disparador inequívoco en su misma frase.
+       */
+      text: string;
+      /**
+       * @minItems 4
+       * @maxItems 8
+       */
+      gaps:
+        | [
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            }
+          ]
+        | [
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            }
+          ]
+        | [
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            }
+          ]
+        | [
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            }
+          ]
+        | [
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            }
+          ];
+      translation_es: string;
+      /**
+       * Fracción de huecos correctos para aprobar (por defecto 0,8).
+       */
+      pass_ratio?: number;
+      /**
+       * true = solo lo usa el examen de hito.
+       */
+      exam?: boolean;
+      /**
+       * Escrito por la IA para esta app.
+       */
+      authored?: boolean;
+      requires_server?: false;
     });
 /**
  * Ejercicio. Unión discriminada por `type`.
@@ -147,6 +633,492 @@ export type Item1 =
       prompt_es: string;
       min_chars?: number;
       requires_server?: true;
+    })
+  | (Base & {
+      type?: "cloze_text";
+      /**
+       * Relato corto con marcadores {1}, {2}… (uno por hueco, en orden, cada uno una sola vez). Primera persona; cada hueco con un disparador inequívoco en su misma frase.
+       */
+      text: string;
+      /**
+       * @minItems 4
+       * @maxItems 8
+       */
+      gaps:
+        | [
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            }
+          ]
+        | [
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            }
+          ]
+        | [
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            }
+          ]
+        | [
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            }
+          ]
+        | [
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            },
+            {
+              /**
+               * @minItems 2
+               * @maxItems 2
+               */
+              options: [string, string];
+              /**
+               * Índice de la opción correcta.
+               */
+              answer: number;
+              /**
+               * Por qué: la pista de la frase que decide el tiempo.
+               */
+              why_es: string;
+            }
+          ];
+      translation_es: string;
+      /**
+       * Fracción de huecos correctos para aprobar (por defecto 0,8).
+       */
+      pass_ratio?: number;
+      /**
+       * true = solo lo usa el examen de hito.
+       */
+      exam?: boolean;
+      /**
+       * Escrito por la IA para esta app.
+       */
+      authored?: boolean;
+      requires_server?: false;
     });
 
 /**
