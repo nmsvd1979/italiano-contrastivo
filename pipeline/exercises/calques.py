@@ -4,30 +4,15 @@ Cada generador busca un patrón en una oración italiana ya validada y devuelve 
 errónea. Todo usa listas cerradas: si el patrón no aparece, aparece dos veces o es ambiguo, devuelve None.
 El resultado `wrong` es un error por construcción; nunca se genera italiano nuevo que pudiera ser válido.
 """
+import json
 import re
 from functools import lru_cache
+from pathlib import Path
 from dataclasses import dataclass
 from typing import Callable
 
 
-@dataclass(frozen=True)
-class Calque:
-    code: str
-    start: int
-    end: int
-    correct: str
-    wrong: str
-    kind: str  # distractor_kind del esquema de ítems
-    listen: bool = False  # el ítem de elección se presenta como audio («escucha y elige»)
-
-
-def _cap(wrong: str, correct: str) -> str:
-    return wrong[0].upper() + wrong[1:] if correct[:1].isupper() else wrong
-
-
-def _only(pattern: re.Pattern, it: str):
-    found = list(pattern.finditer(it))
-    return found[0] if len(found) == 1 else None
+from pipeline.exercises.calque_base import Calque, _cap, _only  # noqa: E402,F401  (se reexportan: otros módulos los importan de aquí)
 
 
 CITIES = "Roma|Milano|Napoli|Torino|Firenze|Venezia|Bologna|Parigi|Londra|Madrid"
@@ -488,9 +473,61 @@ _GENERATORS: dict[str, Callable[[str], Calque | None]] = {
     **{c: _phonetic_for(c) for c in ("ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL", "ERR_GN_Z_SPELLING", "ERR_CONSONANTE_DOPPIA")},
     **{c: _present_for(c) for c in ("ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL")},
 }
-CALQUE_CODES: tuple[str, ...] = tuple(_GENERATORS)
+# ── A2: generadores de calques_a2.py (importado aquí al final porque ese módulo usa Calque y helpers de este) ──────────────────
+from pipeline.exercises import calques_a2 as _a2  # noqa: E402
+
+_GENERATORS.update(_a2.GENERATORS)
+for _code, _ext in _a2.EXTENSIONS.items():   # generadores que ya existían (u09, u10): el original manda y el de A2 completa
+    _GENERATORS[_code] = (lambda base, ext: lambda it: base(it) or ext(it))(_GENERATORS[_code], _ext)
+
+
+# ── Variantes erróneas escritas a mano (cápsulas sin generador seguro: pasado vs imperfetto, ci, adverbios…) ─────────────────────
+MANUAL_FILE = Path(__file__).with_name("manual_calques.json")
+MANUAL_KINDS = {"l1_calque", "hypercorrection", "morphological", "omission", "tense_mismatch", "aspect_mismatch", "different_word"}
+
+
+@lru_cache(maxsize=1)
+def manual_table() -> dict[str, dict[str, dict]]:
+    """código → {oración italiana: entrada}. Cada entrada: it, correct (tramo que aparece UNA vez), wrong, kind, audit2 == "ok"."""
+    raw = json.loads(MANUAL_FILE.read_text(encoding="utf8")) if MANUAL_FILE.exists() else {}
+    return {code: {e["it"]: e for e in entries} for code, entries in raw.items()}
+
+
+def manual_codes() -> tuple[str, ...]:
+    return tuple(manual_table())
+
+
+def validate_manual_entry(e: dict) -> list[str]:
+    """Defectos de una entrada manual (vacío = válida): la segunda auditoría es obligatoria y el tramo correcto debe aparecer una sola vez."""
+    errs = []
+    if not all(k in e for k in ("it", "correct", "wrong", "kind", "audit2")):
+        return ["faltan campos"]
+    if e["audit2"] != "ok":
+        errs.append("sin segunda auditoría (audit2 != ok)")
+    if e["kind"] not in MANUAL_KINDS:
+        errs.append(f"kind desconocido: {e['kind']}")
+    if e["it"].count(e["correct"]) != 1:
+        errs.append("el tramo correcto no aparece exactamente una vez")
+    if e["wrong"] == e["correct"] or not e["wrong"].strip():
+        errs.append("la variante errónea es igual al tramo correcto o está vacía")
+    return errs
+
+
+def _manual(code: str, it: str) -> Calque | None:
+    e = manual_table().get(code, {}).get(it)
+    if not e or validate_manual_entry(e):
+        return None
+    i = it.index(e["correct"])
+    return Calque(code, i, i + len(e["correct"]), e["correct"], e["wrong"], e["kind"], manual=True)
+
+
+CALQUE_CODES: tuple[str, ...] = tuple(dict.fromkeys([*_GENERATORS, *manual_codes()]))
 
 
 def find_calque(code: str, it: str) -> Calque | None:
+    """Primero la variante a mano (si la hay para esa oración), luego el generador del código."""
+    c = _manual(code, it)
+    if c:
+        return c
     gen = _GENERATORS.get(code)
     return gen(it) if gen else None

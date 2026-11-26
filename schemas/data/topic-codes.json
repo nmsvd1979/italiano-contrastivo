@@ -824,5 +824,285 @@
     "review_status": "needs_review",
     "source": "Proyecto italiano-contrastivo: programa A1 de CILS y PLIDA (schemas/data/syllabus-a1.json).",
     "explanation_es": "Palabras de oficinas y trámites: posta (correo), pacco (paquete), busta (sobre), francobollo (estampilla), cartolina (postal), modulo (formulario), sportello (ventanilla), biglietteria (boletería), dogana (aduana), polizia, documento, informazione, carta (tarjeta o papel)."
+  },
+  {
+    "code": "ERR_PP_PARTICIPI_IRREG",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Algunos participios italianos son irregulares aunque el verbo se parezca al español: prendere → preso (no *prenduto), mettere → messo, chiudere → chiuso, leggere → letto, decidere → deciso, chiedere → chiesto, scegliere → scelto, rispondere → risposto, spendere → speso. Hay que aprenderlos como formas propias.",
+    "example_wrong": "Ho prenduto il treno.",
+    "example_right": "Ho preso il treno.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_PP_AUSILIARE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "El español usa siempre «haber» (he estado, me ha gustado, se ha quedado). En italiano estos verbos piden essere: sono stato, mi è piaciuto, sono rimasto, sono diventato, sono riuscito. Al revés, verbos como camminare, viaggiare, dormire o nuotare piden avere: ho camminato (no *sono camminato).",
+    "example_wrong": "Ho stato a Roma.",
+    "example_right": "Sono stato a Roma.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_IMPERFETTO_FORMA",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "En español la 1.ª y la 3.ª persona del imperfecto son iguales (yo hablaba, él hablaba). En italiano no: io parlavo, lui parlava; io ero, lui era. Además se escribe con v: parlavo, no *parlabo.",
+    "example_wrong": "Io parlava italiano.",
+    "example_right": "Io parlavo italiano.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_CE_IMPERFETTO",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "El imperfecto de «c'è / ci sono» concuerda con lo que había: c'era una casa, c'erano molte persone. El español dice «había» para el singular y para el plural, y por eso se tiende a decir *c'era molte persone.",
+    "example_wrong": "C'era molte persone.",
+    "example_right": "C'erano molte persone.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_TEMPO_FA_DA",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "En italiano «fa» va después del tiempo (due anni fa); el español pone «hace» antes (hace dos años). Para lo que dura hasta ahora se usa da (studio italiano da due anni) y para un plazo futuro, fra o tra (fra due giorni), no *in due giorni.",
+    "example_wrong": "Fa due anni sono arrivato.",
+    "example_right": "Sono arrivato due anni fa.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_CLITICO_POSIZIONE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Con el infinitivo el pronombre se pega al final y el infinitivo pierde la -e: fare + lo = farlo, vedere + la = vederla. No se dice *farelo ni *fare lo. Con un verbo modal también puede ir antes (lo posso fare); las dos formas son correctas.",
+    "example_wrong": "Posso farelo domani.",
+    "example_right": "Posso farlo domani.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_COMPARATIVO_IRREG",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Buono y bene tienen comparativos propios: migliore (adjetivo: la mia migliore amica) y meglio (adverbio: parla meglio); cattivo y male: peggiore y peggio. No se dice *più bene ni *parla migliore. El superlativo absoluto lleva -issimo con dos eses: bellissimo, no *bellisimo.",
+    "example_wrong": "Parla migliore di me.",
+    "example_right": "Parla meglio di me.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_INDEFINITI",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Qualche va siempre con un nombre en singular (qualche libro, no *qualche libri). Para «algo + adjetivo» el italiano pone di: qualcosa di buono, niente di speciale. Delante de un nombre masculino que no empieza por s + consonante, nessuno se apocopa: nessun libro (no *nessuno libro).",
+    "example_wrong": "Ho qualche libri.",
+    "example_right": "Ho qualche libro.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_RELATIVO_CHE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "«Lo que» se dice quello che o ciò che, nunca *lo che. El relativo che sirve para sujeto y objeto: la ragazza che abita qui, il libro che leggo.",
+    "example_wrong": "Lo che dici è vero.",
+    "example_right": "Quello che dici è vero.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_FUTURO_RADICE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Futuro y condicional comparten la raíz: parlerò / parlerei (los verbos en -are cambian la -a- por -e-, no *parlarò) y varios verbos tienen raíz propia: andrò, verrò, potrò, saprò, vedrò, dovrò, avrò, sarò (no *anderò, *venirò, *esserò). El español dice «vendré»: en italiano es verrò.",
+    "example_wrong": "Domani parlarò con lui.",
+    "example_right": "Domani parlerò con lui.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_IMPERATIVO_PRONOMI",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Con el imperativo el pronombre se pega y la consonante se duplica: dammi, dimmi, fammi, dacci, dallo, fallo, dillo, vacci (no *dami, *dimi, *fami). Es la forma de tu de da', di', fa', va' más el pronombre.",
+    "example_wrong": "Dami il libro!",
+    "example_right": "Dammi il libro!",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_IMPERATIVO_LEI",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Con «lei» (trato formal) el imperativo usa la forma de lei: scusi, senta, prenda, venga, si accomodi, mi dica. Mezclar la forma de tu (scusa, senti, prendi) con un trato formal es un error de registro.",
+    "example_wrong": "Scusa, signore, dov'è la posta?",
+    "example_right": "Scusi, signore, dov'è la posta?",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_OPINIONE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Para opinar se dice secondo me (no *secondo io) y para estar de acuerdo, sono d'accordo (no *sto d'accordo ni *di accordo). Con el mismo sujeto el italiano usa di + infinitivo: credo di avere ragione, penso di sì.",
+    "example_wrong": "Secondo io è giusto.",
+    "example_right": "Secondo me è giusto.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_SUBORDINATE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "«Porque» y «por qué» se escriben perché: una sola palabra y con acento agudo (no *per che ni *perchè). Con un verbo, «para + infinitivo» es per + infinitivo (per studiare).",
+    "example_wrong": "Studio per che voglio imparare.",
+    "example_right": "Studio perché voglio imparare.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_SPAZIO_PREP",
+    "category": "PREPOSITIONAL_GOVERNANCE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Las locuciones de lugar llevan a: di fronte a, accanto a, in fondo a, davanti a (no *di fronte di, *accanto di).",
+    "example_wrong": "La banca è di fronte di la stazione.",
+    "example_right": "La banca è di fronte alla stazione.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_DATE_ORARI",
+    "category": "PREPOSITIONAL_GOVERNANCE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Con los pisos se usa al: al terzo piano (no *nel terzo piano). Con los años, nel: nel 2020 (no *in 2020). Con el día del mes va el número sin «de»: il 3 maggio; el primero es il primo maggio.",
+    "example_wrong": "Abito nel terzo piano.",
+    "example_right": "Abito al terzo piano.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_SI_IMPERSONALE",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "El español dice «se habla»; el italiano, si parla, si può, si dice (con si, no *se). Es la misma construcción con otra palabra: si vendono case.",
+    "example_wrong": "Qui se parla italiano.",
+    "example_right": "Qui si parla italiano.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_AVVERBI_PASSATO",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Con el passato prossimo, già, appena, ancora, mai y sempre van entre el auxiliar y el participio (ho già mangiato, sono appena arrivato, non ho ancora deciso). «Ya no» es non… più (non abito più), no *già non; «acabo de» es appena (sono appena arrivato), no *finisco di.",
+    "example_wrong": "Già non abito qui.",
+    "example_right": "Non abito più qui.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_PP_VS_IMPERFETTO",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "El passato prossimo cuenta lo que pasó (una acción terminada); el imperfetto describe el fondo, la costumbre o lo que estaba pasando: Mentre dormivo, è suonato il telefono. Se elige por la función de la frase, no por la palabra que la acompaña: «Quando ero piccolo giocavo…» lleva imperfetto aunque haya «quando».",
+    "example_wrong": "Mentre ho dormito, è suonato il telefono.",
+    "example_right": "Mentre dormivo, è suonato il telefono.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
+  },
+  {
+    "code": "ERR_PRIMA_DI",
+    "category": "L1_SINTACTIC_CALQUE",
+    "sieve": null,
+    "cefr_min": "A2",
+    "explanation_es": "Antes de un infinitivo se usa prima di (prima di uscire), no *prima uscire ni *prima de. Con un sustantivo, dopo + sustantivo (dopo cena); dopo aver + participio es la forma completa.",
+    "example_wrong": "Mangio prima uscire.",
+    "example_right": "Mangio prima di uscire.",
+    "detectors": [
+      "autocheck"
+    ],
+    "source": "Proyecto italiano-contrastivo, plan de A2 (docs/specs/2026-11-26-plan-a2.md y schemas/data/syllabus-a2.json); errores contrastivos con cita en el cuaderno NotebookLM «App para aprender italiano».",
+    "review_status": "needs_review"
   }
 ]

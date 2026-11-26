@@ -4,7 +4,7 @@ import re
 
 import pytest
 
-from pipeline.exercises import calques
+from pipeline.exercises import calques, calques_a2
 from pipeline.exercises.calques import Calque, find_calque
 
 # (código, oración de entrada, oración con el calco aplicado, tramo que cambia, kind)
@@ -85,7 +85,7 @@ def test_sin_patron_devuelve_none(code):
     ("ERR_ARTICLE_ALLOMORPH", "Lo studente e lo zio sono qui."),  # dos casos
     ("ERR_ARTICLE_ALLOMORPH", "Vedo l'amico."),  # elisión: no se cubre
     ("ERR_PARTICIPLE_AGREEMENT", "Marco è andato a casa."),  # ya masculino singular
-    ("ERR_PARTICIPLE_AGREEMENT", "Maria è andata a casa."),  # «è andato» puede ser válido (impersonal, otro sujeto)
+    ("ERR_PARTICIPLE_AGREEMENT", "La signora è andata a casa."),  # sujeto fuera de la lista cerrada de A2: «è andato» puede ser válido (impersonal, otro sujeto)
     ("ERR_PARTICIPLE_AGREEMENT", "Ci sono stata."),  # «sono stato» es válido si habla un hombre
     ("ERR_PARTICIPLE_AGREEMENT", "Ho mangiato la pizza."),  # avere
     ("ERR_POSSESSIVE_SPELLING", "Mio fratello è alto."),  # sin artículo antes
@@ -106,7 +106,7 @@ def test_casos_ambiguos_o_validos_devuelven_none(code, it):
 
 
 def test_los_codigos_cubiertos():
-    assert set(calques.CALQUE_CODES) == {
+    assert set(calques.CALQUE_CODES) == set(calques_a2.GENERATORS) | {
         "ERR_AUX_ESSERE", "ERR_PREP_PLACE", "ERR_CE_AGREEMENT", "ERR_PERSONAL_A",
         "ERR_POSSESSIVE_ARTICLE", "ERR_PREP_ARTICLE_CONTRACTION", "ERR_COMPARATIVE_DI", "ERR_TENERE_AVERE",
         "ERR_ARTICLE_ALLOMORPH", "ERR_PARTICIPLE_AGREEMENT", "ERR_POSSESSIVE_SPELLING", "ERR_CONGIUNTIVO_OPINION",
@@ -123,10 +123,14 @@ def test_los_codigos_cubiertos():
     assert find_calque("ERR_NO_EXISTE", "Ho fame.") is None
 
 
-NEW_CODES = {"ERR_ARTICLE_ALLOMORPH", "ERR_PARTICIPLE_AGREEMENT", "ERR_POSSESSIVE_SPELLING", "ERR_CONGIUNTIVO_OPINION",
+NEW_CODES = set(calques_a2.GENERATORS) | {"ERR_ARTICLE_ALLOMORPH", "ERR_PARTICIPLE_AGREEMENT", "ERR_POSSESSIVE_SPELLING", "ERR_CONGIUNTIVO_OPINION",
              "ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL",
              "ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL", "ERR_PIACERE_ACCORDO",
              "ERR_GENERE_ES", "ERR_INDEFINITE_ARTICLE", "ERR_RIFLESSIVO_PRONOME", "ERR_PARTICIPIO_ES", "ERR_ORA_ES", "ERR_CHIAMARSI", "ERR_PRONOME_TONICO"}
+
+
+# Error de REGISTRO, no de forma: «scusa» es válido con «tu»; solo es error junto a un vocativo formal («Scusa, signore»). El generador exige ese vocativo.
+REGISTRO = {"ERR_IMPERATIVO_LEI"}
 
 
 def test_ningun_calco_aparece_en_el_corpus_validado():
@@ -138,7 +142,7 @@ def test_ningun_calco_aparece_en_el_corpus_validado():
     corpus = " ".join(d["it"] for d in docs)
     hits = 0
     for d in docs:
-        for code in (c for c in calques.CALQUE_CODES if not c.startswith("ERR_VOC_")):  # en vocabulario la palabra sustituta es válida en otros contextos: la diferencia la marca el audio
+        for code in (c for c in calques.CALQUE_CODES if not c.startswith("ERR_VOC_") and c not in REGISTRO):  # en vocabulario la palabra sustituta es válida en otros contextos: la diferencia la marca el audio
             c = find_calque(code, d["it"])
             if not c:
                 continue

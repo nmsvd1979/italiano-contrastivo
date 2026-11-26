@@ -17,7 +17,9 @@ def test_topic_codes_cumplen_el_esquema_y_no_pisan_el_catalogo():
     for t in topics:
         v.validate(t)
     from pipeline.exercises import vocab
-    assert {t["code"] for t in topics} == set(present.PRESENT_CODES) | set(vocab.VOCAB_CODES) | {"ERR_PIACERE_ACCORDO", "ERR_GENERE_ES", "ERR_INDEFINITE_ARTICLE", "ERR_RIFLESSIVO_PRONOME", "ERR_PARTICIPIO_ES", "ERR_ORA_ES", "ERR_CHIAMARSI", "ERR_PRONOME_TONICO", "ERR_IMPERATIVO_FORMA", "ERR_GN_Z_SPELLING", "ERR_CONSONANTE_DOPPIA", "ERR_PLURAL_FORMA", "ERR_IMPERATIVO_NEG", "ERR_STARE_GERUNDIO", "ERR_CLITICO_MI_TI"}
+    syl = json.loads((ROOT / "schemas/data/syllabus-a2.json").read_text(encoding="utf8"))   # los códigos de A2 que no están en el catálogo salen del plan de cápsulas
+    a2_nuevos = {c["code"] for m in syl["modulos_planificados"] for c in m["capsulas"] if not c["code"].startswith("ERR_VOC_")} - catalog
+    assert {t["code"] for t in topics} == set(present.PRESENT_CODES) | set(vocab.VOCAB_CODES) | {"ERR_PIACERE_ACCORDO", "ERR_GENERE_ES", "ERR_INDEFINITE_ARTICLE", "ERR_RIFLESSIVO_PRONOME", "ERR_PARTICIPIO_ES", "ERR_ORA_ES", "ERR_CHIAMARSI", "ERR_PRONOME_TONICO", "ERR_IMPERATIVO_FORMA", "ERR_GN_Z_SPELLING", "ERR_CONSONANTE_DOPPIA", "ERR_PLURAL_FORMA", "ERR_IMPERATIVO_NEG", "ERR_STARE_GERUNDIO", "ERR_CLITICO_MI_TI"} | a2_nuevos
     assert not catalog & {t["code"] for t in topics}
 
 
