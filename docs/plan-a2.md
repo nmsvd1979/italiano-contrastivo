@@ -1,5 +1,7 @@
 # Plan de A2 ejecutable (escrito el 2026-11-24)
 
+> **SUPERADO el 2026-11-26** por `docs/specs/2026-11-26-plan-a2.md` (10 módulos, 36 cápsulas, fases con compuertas, revisado por tres agentes independientes). Los hallazgos están en `docs/referencias/revision-adversarial-plan-a2.md` y las fuentes en `docs/referencias/a2-programas-y-libros.md`. Este documento queda solo como historia: varias cápsulas de aquí marcaban como error italiano correcto.
+
 > **Paso 0 antes de a2m01:** leer `docs/pistas-a2.md`. El código de la ruta, el hito y los topes de tamaño están pensados solo para A1 y hay que ajustarlos antes de agregar el primer módulo de A2.
 
 Complementa `docs/hoja-de-ruta-a2-b2.md` (método y fuentes) con el trabajo concreto, módulo por módulo. La lista de requisitos está en `schemas/data/syllabus-a2.json` y la vigila `tests/py/test_cobertura_a2.py`: cada requisito pertenece a un módulo planificado y declara qué falta. **Es un plan, no contenido hecho: A2 aún no existe en la app** (solo u09–u12, sin módulo).

@@ -2,6 +2,15 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-26 (29) — Plan de A2 completo y revisado (sin construir nada)
+**Pedido del usuario:** planificar A2 de la forma más robusta posible: fuentes, accesos, voces, diálogos, unidades y contenidos, con análisis adversariales, para que luego «solo haya que construir».
+**Hecho:** plan en `docs/specs/2026-11-26-plan-a2.md` (10 módulos, 36 cápsulas, textos y fuentes por módulo, cambios de código, 7 fases con compuertas numéricas). Se leyeron completos los PDF oficiales de CILS A2 y PLIDA, se consultó NotebookLM (acotado a ≤5 fuentes, si no da timeout), se inventariaron 102 páginas de Piacere!, Tutt\* a tavola! 2, Giornate italiane y Leggiamo (`docs/referencias/a2-programas-y-libros.md`), se midió el corpus por patrón y lo revisaron un arquitecto y dos revisores independientes (`docs/referencias/revision-adversarial-plan-a2.md`). El borrador inicial tenía fallas: 3 cápsulas marcaban como error italiano correcto, 2 proponían una «corrección» falsa, el vocabulario duplicaba A1 y faltaban 4 mecanismos de código.
+**Decisiones del usuario:** alcance «oficial + ampliado»; el hito A1 bloquea A2; ejercicio nuevo de relato (con maqueta antes de programarlo).
+**Decisiones mías (a revisar):** 36 cápsulas en vez de 44; futuro, condicional, ci/ne, Lei y congiuntivo como solo reconocer ([A]) porque CILS no los exige en A2; u12 se queda en B1; se parte el contenido por nivel; conectores y fechas con frases propias marcadas `authored`.
+**Comprobado:** acceso a los libros (solo con el navegador integrado; curl da 403), a los PDF oficiales y a NotebookLM. Conteos del corpus por regex y revisión a ojo de muestras (±15 puntos).
+**No comprobado:** que `tsc`, pytest y vitest pasen hoy (este worktree no tiene `data/`, `.venv` ni `node_modules`); la voz masculina Piper (`riccardo`, calidad x_low, licencia sin aclarar); el audio de Giornate (licencia por confirmar); nada se probó en iPhone.
+**Pendiente / siguiente paso:** paso «Previo» y Fase 0 del plan (enlaces simbólicos al checkout principal, línea base en verde, pruebas de dos niveles). Pendiente antiguo: aviso de licencia del repositorio público (textos NC-SA).
+
 ## 2026-11-26 (28) — Prueba en el iPhone: todo funciona
 **El usuario probó la app publicada en su iPhone** y dijo: «Ya lo probé, todo funciona bien, cualquier cosa te aviso». Con esto **A1 queda cerrado como material**: construido, auditado (2026-11-24 y 2026-11-25), publicado y probado en el dispositivo real. Para dar el nivel por terminado según la regla del proyecto falta que el usuario complete los módulos.
 **Límites que siguen (declarados, no se resuelven sin servidor ni nativo):** la corrección del habla y la escritura libres es autoevaluación; el italiano lo revisó una IA, no un nativo; no hay diálogos grabados por personas con licencia abierta.

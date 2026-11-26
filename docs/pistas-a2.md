@@ -1,5 +1,7 @@
 # Pistas para empezar A2 (escritas el 2026-11-24, al cerrar A1)
 
+> **Actualización 2026-11-26:** el plan vigente es `docs/specs/2026-11-26-plan-a2.md`. El «Paso 0» de aquí quedó ampliado (la Fase 0 del plan añade tres roturas que este documento no mencionaba: las rutas `m\d+` no aceptan `a2m01`, u09–u11 sin módulo bloquean el hito A2 y la numeración global daría «Módulo 13 de 10»). Decisiones tomadas: el hito A1 **bloquea** A2; el contenido se parte por nivel (`items_<NIVEL>.json`); u09–u11 entran a módulos A2 y u12 queda B1; A2 tiene 10 módulos.
+
 **Para quién es:** la conversación que planifique y construya A2. Aquí no hay un plan hecho: hay lo que la auditoría de A1 (`docs/auditoria-2026-11-24-a1-y-niveles.md`) encontró que A2 va a necesitar, con archivo y función para que no haya que volver a buscarlo, y las decisiones que quedan abiertas. Léelo junto con `docs/plan-a2.md` (qué contenido) y `docs/hoja-de-ruta-a2-b2.md` (método y fuentes).
 
 Los números de línea cambian con cada edición: busca por el nombre de la función.
