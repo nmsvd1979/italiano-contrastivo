@@ -1,7 +1,7 @@
 {
  "fecha": "2026-11-25",
  "revisor": "llm-audit (Claude, sesión principal)",
- "alcance": "Frases A1 de Tatoeba con audio humano (NM1, CC BY 4.0) que la app no usaba: candidatas por módulo (3–9 palabras, prefiltro A1, punto del módulo presente), hasta 29 por módulo.",
+ "alcance": "Frases A1 de Tatoeba con audio humano (NM1, CC BY 4.0) que la app no usaba: candidatas por módulo (3–9 palabras, prefiltro A1, punto del módulo presente), hasta 29 por módulo. Segunda tanda (misma fecha, tras aprobar el usuario la voz de NM1): todas las candidatas restantes de m04–m10.",
  "criterios": "keep = italiano correcto, natural y de A1 para su módulo (si la traducción no era directa, «es» es mía desde el italiano); reject = imperativos o clíticos antes de tiempo, modismos, léxico de B1, frases raras o casi repetidas.",
  "veredictos": [
   {
@@ -1834,6 +1834,2105 @@
    "v": "keep",
    "audio": "1001422",
    "es": "¿Tú eres médico?"
+  },
+  {
+   "id": "s_375298",
+   "module": "m04",
+   "it": "Conosco la sua famiglia.",
+   "v": "keep",
+   "audio": "1003214",
+   "tanda": 2,
+   "es": "Conozco a su familia."
+  },
+  {
+   "id": "s_375667",
+   "module": "m04",
+   "it": "Il ragazzo è gentile.",
+   "v": "keep",
+   "audio": "1001320",
+   "tanda": 2,
+   "es": "El chico es amable."
+  },
+  {
+   "id": "s_375670",
+   "module": "m04",
+   "it": "Conosco il ragazzo.",
+   "v": "keep",
+   "audio": "1000178",
+   "tanda": 2,
+   "es": "Conozco al chico."
+  },
+  {
+   "id": "s_378696",
+   "module": "m04",
+   "it": "Mi sento un po' stanco.",
+   "v": "keep",
+   "audio": "1010018",
+   "tanda": 2,
+   "es": "Me siento un poco cansado."
+  },
+  {
+   "id": "s_612478",
+   "module": "m04",
+   "it": "Il mio sarto è ricco.",
+   "v": "reject",
+   "nota": "Léxico poco útil («sarto»).",
+   "tanda": 2
+  },
+  {
+   "id": "s_711293",
+   "module": "m04",
+   "it": "È una donna tranquilla.",
+   "v": "keep",
+   "audio": "1006448",
+   "tanda": 2,
+   "es": "Es una mujer tranquila."
+  },
+  {
+   "id": "s_808946",
+   "module": "m04",
+   "it": "Lui è il mio capo.",
+   "v": "keep",
+   "audio": "1000236",
+   "tanda": 2,
+   "es": "Él es mi jefe."
+  },
+  {
+   "id": "s_1283471",
+   "module": "m04",
+   "it": "Questo è il tuo DVD?",
+   "v": "reject",
+   "nota": "Sigla «DVD»: poco útil al oído.",
+   "tanda": 2
+  },
+  {
+   "id": "s_1317120",
+   "module": "m04",
+   "it": "Tuo padre ti vuole.",
+   "v": "reject",
+   "nota": "Poco natural.",
+   "tanda": 2
+  },
+  {
+   "id": "s_1389727",
+   "module": "m04",
+   "it": "È questo il nostro hotel?",
+   "v": "keep",
+   "audio": "1003297",
+   "tanda": 2,
+   "es": "¿Es este nuestro hotel?"
+  },
+  {
+   "id": "s_1517739",
+   "module": "m04",
+   "it": "Ho un'altra sorella.",
+   "v": "keep",
+   "audio": "1010103",
+   "tanda": 2,
+   "es": "Tengo otra hermana."
+  },
+  {
+   "id": "s_2161110",
+   "module": "m04",
+   "it": "Il suo colore è rosso.",
+   "v": "reject",
+   "nota": "Frase rara.",
+   "tanda": 2
+  },
+  {
+   "id": "s_2196400",
+   "module": "m04",
+   "it": "Sono un uomo sposato.",
+   "v": "keep",
+   "audio": "1003311",
+   "tanda": 2,
+   "es": "Soy un hombre casado."
+  },
+  {
+   "id": "s_3532913",
+   "module": "m04",
+   "it": "Sei solo una ragazza.",
+   "v": "reject",
+   "nota": "Casi igual a otra frase.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3532965",
+   "module": "m04",
+   "it": "Sei solo un bambino.",
+   "v": "keep",
+   "audio": "1004025",
+   "tanda": 2,
+   "es": "Solo eres un niño."
+  },
+  {
+   "id": "s_3533043",
+   "module": "m04",
+   "it": "Sei una donna pazza.",
+   "v": "reject",
+   "nota": "Poco útil y ofensiva.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533184",
+   "module": "m04",
+   "it": "Posso portare i miei amici?",
+   "v": "reject",
+   "nota": "Modal antes de verlo (m06).",
+   "tanda": 2
+  },
+  {
+   "id": "s_373864",
+   "module": "m05",
+   "it": "Mia sorella piange spesso.",
+   "v": "keep",
+   "audio": "1009988",
+   "tanda": 2,
+   "es": "Mi hermana llora a menudo."
+  },
+  {
+   "id": "s_374302",
+   "module": "m05",
+   "it": "Tieniti libero domenica prossima.",
+   "v": "reject",
+   "nota": "Imperativo reflexivo.",
+   "tanda": 2
+  },
+  {
+   "id": "s_377740",
+   "module": "m05",
+   "it": "Trasloco il mese prossimo.",
+   "v": "reject",
+   "nota": "Léxico de A2 («traslocare»).",
+   "tanda": 2
+  },
+  {
+   "id": "s_4108682",
+   "module": "m05",
+   "it": "Arriva sempre in orario.",
+   "v": "keep",
+   "audio": "1006540",
+   "tanda": 2,
+   "es": "Siempre llega puntual."
+  },
+  {
+   "id": "s_5269448",
+   "module": "m05",
+   "it": "Mi stai prendendo in giro.",
+   "v": "reject",
+   "nota": "Modismo.",
+   "tanda": 2
+  },
+  {
+   "id": "s_5574049",
+   "module": "m05",
+   "it": "Tom non è mai stato avido.",
+   "v": "reject",
+   "nota": "Passato con essere: m11.",
+   "tanda": 2
+  },
+  {
+   "id": "s_5605867",
+   "module": "m05",
+   "it": "Il bambino sta piangendo.",
+   "v": "keep",
+   "audio": "1004070",
+   "tanda": 2,
+   "es": "El bebé está llorando."
+  },
+  {
+   "id": "s_4678",
+   "module": "m06",
+   "it": "Chi sono costoro?",
+   "v": "reject",
+   "nota": "«costoro»: arcaico.",
+   "tanda": 2
+  },
+  {
+   "id": "s_350936",
+   "module": "m06",
+   "it": "Sta' zitto e ascolta!",
+   "v": "reject",
+   "nota": "Imperativo: m11.",
+   "tanda": 2
+  },
+  {
+   "id": "s_373507",
+   "module": "m06",
+   "it": "Sai suonare la chitarra?",
+   "v": "keep",
+   "audio": "1004647",
+   "tanda": 2
+  },
+  {
+   "id": "s_373655",
+   "module": "m06",
+   "it": "Come sta tua madre?",
+   "v": "keep",
+   "audio": "1003192",
+   "tanda": 2,
+   "es": "¿Cómo está tu madre?"
+  },
+  {
+   "id": "s_373748",
+   "module": "m06",
+   "it": "La musica è universale.",
+   "v": "keep",
+   "audio": "1003893",
+   "tanda": 2,
+   "es": "La música es universal."
+  },
+  {
+   "id": "s_373751",
+   "module": "m06",
+   "it": "Tutti amano la musica.",
+   "v": "keep",
+   "audio": "1006373",
+   "tanda": 2,
+   "es": "Todos aman la música."
+  },
+  {
+   "id": "s_373783",
+   "module": "m06",
+   "it": "Non c'è nessun problema!",
+   "v": "keep",
+   "audio": "1003199",
+   "tanda": 2,
+   "es": "¡No hay ningún problema!"
+  },
+  {
+   "id": "s_373786",
+   "module": "m06",
+   "it": "C'è qualche problema?",
+   "v": "keep",
+   "audio": "1003894",
+   "tanda": 2,
+   "es": "¿Hay algún problema?"
+  },
+  {
+   "id": "s_373823",
+   "module": "m06",
+   "it": "Mia sorella ha un pianoforte.",
+   "v": "keep",
+   "audio": "1009986",
+   "tanda": 2
+  },
+  {
+   "id": "s_373956",
+   "module": "m06",
+   "it": "La libertà non è gratuita.",
+   "v": "keep",
+   "audio": "1004657",
+   "tanda": 2
+  },
+  {
+   "id": "s_374320",
+   "module": "m06",
+   "it": "Giocare a tennis è divertente.",
+   "v": "keep",
+   "audio": "1009996",
+   "tanda": 2,
+   "es": "Jugar al tenis es divertido."
+  },
+  {
+   "id": "s_374321",
+   "module": "m06",
+   "it": "Mi piace giocare a tennis.",
+   "v": "keep",
+   "audio": "1009997",
+   "tanda": 2,
+   "es": "Me gusta jugar al tenis."
+  },
+  {
+   "id": "s_374537",
+   "module": "m06",
+   "it": "Lei sa parlare francese.",
+   "v": "keep",
+   "audio": "1006386",
+   "tanda": 2,
+   "es": "Ella sabe hablar francés."
+  },
+  {
+   "id": "s_374546",
+   "module": "m06",
+   "it": "Lei ci insegna il francese.",
+   "v": "keep",
+   "audio": "1010000",
+   "tanda": 2,
+   "es": "Ella nos enseña francés."
+  },
+  {
+   "id": "s_374614",
+   "module": "m06",
+   "it": "Chi sta vincendo?",
+   "v": "keep",
+   "audio": "1000174",
+   "tanda": 2,
+   "es": "¿Quién está ganando?"
+  },
+  {
+   "id": "s_377142",
+   "module": "m06",
+   "it": "Come sta vostra madre?",
+   "v": "keep",
+   "audio": "1003222",
+   "tanda": 2,
+   "es": "¿Cómo está la madre de ustedes?"
+  },
+  {
+   "id": "s_377565",
+   "module": "m06",
+   "it": "È una buona idea!",
+   "v": "keep",
+   "audio": "1003917",
+   "tanda": 2,
+   "es": "¡Es una buena idea!"
+  },
+  {
+   "id": "s_378150",
+   "module": "m06",
+   "it": "L'amore è cieco.",
+   "v": "keep",
+   "audio": "1000186",
+   "tanda": 2,
+   "es": "El amor es ciego."
+  },
+  {
+   "id": "s_380653",
+   "module": "m06",
+   "it": "Non sono un insegnante.",
+   "v": "keep",
+   "audio": "1003932",
+   "tanda": 2
+  },
+  {
+   "id": "s_381872",
+   "module": "m06",
+   "it": "Cosa ti rende così triste?",
+   "v": "reject",
+   "nota": "«rendere» + adjetivo: B1.",
+   "tanda": 2
+  },
+  {
+   "id": "s_393266",
+   "module": "m06",
+   "it": "E ora cosa facciamo?",
+   "v": "keep",
+   "audio": "1006416",
+   "tanda": 2,
+   "es": "¿Y ahora qué hacemos?"
+  },
+  {
+   "id": "s_410793",
+   "module": "m06",
+   "it": "Quando possiamo mangiare?",
+   "v": "keep",
+   "audio": "1001358",
+   "tanda": 2,
+   "es": "¿Cuándo podemos comer?"
+  },
+  {
+   "id": "s_411442",
+   "module": "m06",
+   "it": "Cosa stai cucinando?",
+   "v": "keep",
+   "audio": "1006424",
+   "tanda": 2,
+   "es": "¿Qué estás cocinando?"
+  },
+  {
+   "id": "s_425711",
+   "module": "m06",
+   "it": "Perché sei così felice?",
+   "v": "keep",
+   "audio": "1006427",
+   "tanda": 2,
+   "es": "¿Por qué estás tan feliz?"
+  },
+  {
+   "id": "s_448298",
+   "module": "m06",
+   "it": "Il legno brucia facilmente.",
+   "v": "reject",
+   "nota": "Poco útil.",
+   "tanda": 2
+  },
+  {
+   "id": "s_569327",
+   "module": "m06",
+   "it": "Come vanno le cose?",
+   "v": "keep",
+   "audio": "1000225",
+   "tanda": 2,
+   "es": "¿Cómo van las cosas?"
+  },
+  {
+   "id": "s_578262",
+   "module": "m06",
+   "it": "Che cosa significa?",
+   "v": "keep",
+   "audio": "1003959",
+   "tanda": 2,
+   "es": "¿Qué significa?"
+  },
+  {
+   "id": "s_602284",
+   "module": "m06",
+   "it": "Non faccio sport.",
+   "v": "keep",
+   "audio": "1004700",
+   "tanda": 2,
+   "es": "No hago deporte."
+  },
+  {
+   "id": "s_636618",
+   "module": "m06",
+   "it": "Dimmi la verità.",
+   "v": "reject",
+   "nota": "Imperativo con clítico: m11.",
+   "tanda": 2
+  },
+  {
+   "id": "s_703592",
+   "module": "m06",
+   "it": "Voglio cantare una canzone.",
+   "v": "keep",
+   "audio": "1010066",
+   "tanda": 2
+  },
+  {
+   "id": "s_704847",
+   "module": "m06",
+   "it": "Cominciamo la festa!",
+   "v": "keep",
+   "audio": "1010067",
+   "tanda": 2,
+   "es": "¡Empecemos la fiesta!"
+  },
+  {
+   "id": "s_711419",
+   "module": "m06",
+   "it": "Sai chi è lei?",
+   "v": "keep",
+   "audio": "1010068",
+   "tanda": 2,
+   "es": "¿Sabes quién es ella?"
+  },
+  {
+   "id": "s_1003105",
+   "module": "m06",
+   "it": "I miei occhi sono azzurri.",
+   "v": "keep",
+   "audio": "1001392",
+   "tanda": 2
+  },
+  {
+   "id": "s_1035838",
+   "module": "m06",
+   "it": "Che cosa fai ora?",
+   "v": "keep",
+   "audio": "1004725",
+   "tanda": 2,
+   "es": "¿Qué haces ahora?"
+  },
+  {
+   "id": "s_1061311",
+   "module": "m06",
+   "it": "Come puoi dirlo?",
+   "v": "reject",
+   "nota": "Infinitivo con enclítico: A2.",
+   "tanda": 2
+  },
+  {
+   "id": "s_1111456",
+   "module": "m06",
+   "it": "Non temo la morte.",
+   "v": "keep",
+   "audio": "1003991",
+   "tanda": 2,
+   "es": "No temo a la muerte."
+  },
+  {
+   "id": "s_1272386",
+   "module": "m06",
+   "it": "La vita è dolce.",
+   "v": "keep",
+   "audio": "1000268",
+   "tanda": 2,
+   "es": "La vida es dulce."
+  },
+  {
+   "id": "s_1272394",
+   "module": "m06",
+   "it": "Chi la pensa così?",
+   "v": "reject",
+   "nota": "«pensarla così»: modismo.",
+   "tanda": 2
+  },
+  {
+   "id": "s_1550115",
+   "module": "m06",
+   "it": "Dove sono adesso?",
+   "v": "keep",
+   "audio": "1000286",
+   "tanda": 2,
+   "es": "¿Dónde estoy ahora?"
+  },
+  {
+   "id": "s_1559895",
+   "module": "m06",
+   "it": "Chi c'è lì?",
+   "v": "keep",
+   "audio": "993496",
+   "tanda": 2,
+   "es": "¿Quién está ahí?"
+  },
+  {
+   "id": "s_1876935",
+   "module": "m06",
+   "it": "Perché non rispondi?",
+   "v": "keep",
+   "audio": "1006490",
+   "tanda": 2,
+   "es": "¿Por qué no respondes?"
+  },
+  {
+   "id": "s_2262459",
+   "module": "m06",
+   "it": "Tom e Mary concordano.",
+   "v": "reject",
+   "nota": "Léxico de B1.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3347247",
+   "module": "m06",
+   "it": "L'errore è mio.",
+   "v": "keep",
+   "audio": "994231",
+   "tanda": 2,
+   "es": "El error es mío."
+  },
+  {
+   "id": "s_3532964",
+   "module": "m06",
+   "it": "Sei solo un ragazzino.",
+   "v": "reject",
+   "nota": "Casi igual a otra frase.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533192",
+   "module": "m06",
+   "it": "Possiamo spegnere la TV?",
+   "v": "keep",
+   "audio": "1010138",
+   "tanda": 2,
+   "es": "¿Podemos apagar la tele?"
+  },
+  {
+   "id": "s_4019979",
+   "module": "m06",
+   "it": "Questa è una storia vera.",
+   "v": "keep",
+   "audio": "1006538",
+   "tanda": 2,
+   "es": "Esta es una historia verdadera."
+  },
+  {
+   "id": "s_4516020",
+   "module": "m06",
+   "it": "Lui sa leggere.",
+   "v": "keep",
+   "audio": "993528",
+   "tanda": 2,
+   "es": "Él sabe leer."
+  },
+  {
+   "id": "s_5475013",
+   "module": "m06",
+   "it": "Tom gioca a tennis.",
+   "v": "keep",
+   "audio": "1003372",
+   "tanda": 2,
+   "es": "Tom juega al tenis."
+  },
+  {
+   "id": "s_5492129",
+   "module": "m06",
+   "it": "Perché siete così felici?",
+   "v": "keep",
+   "audio": "1006553",
+   "tanda": 2,
+   "es": "¿Por qué están tan felices?"
+  },
+  {
+   "id": "s_350731",
+   "module": "m09",
+   "it": "Siamo tutti d'accordo con te.",
+   "v": "keep",
+   "audio": "1009982",
+   "tanda": 2,
+   "es": "Todos estamos de acuerdo contigo."
+  },
+  {
+   "id": "s_374049",
+   "module": "m09",
+   "it": "Fra poco è il mio compleanno.",
+   "v": "keep",
+   "audio": "1009990",
+   "tanda": 2,
+   "es": "Pronto es mi cumpleaños."
+  },
+  {
+   "id": "s_635701",
+   "module": "m09",
+   "it": "Per favore, aspetta un poco.",
+   "v": "reject",
+   "nota": "Imperativo: m11.",
+   "tanda": 2
+  },
+  {
+   "id": "s_1109836",
+   "module": "m09",
+   "it": "A Tom piace fare la maglia.",
+   "v": "reject",
+   "nota": "Modismo («fare la maglia»).",
+   "tanda": 2
+  },
+  {
+   "id": "s_2029071",
+   "module": "m09",
+   "it": "Sono troppo basso di statura.",
+   "v": "reject",
+   "nota": "Casi igual a otra frase.",
+   "tanda": 2
+  },
+  {
+   "id": "s_2379824",
+   "module": "m09",
+   "it": "A me piace la pizza fredda.",
+   "v": "keep",
+   "audio": "1003315",
+   "tanda": 2,
+   "es": "A mí me gusta la pizza fría."
+  },
+  {
+   "id": "s_340685",
+   "module": "m07",
+   "it": "Pulisci la camera.",
+   "v": "reject",
+   "nota": "Imperativo: m11.",
+   "tanda": 2
+  },
+  {
+   "id": "s_350290",
+   "module": "m07",
+   "it": "Tutti gli autobus sono pieni.",
+   "v": "keep",
+   "audio": "1009975",
+   "tanda": 2,
+   "es": "Todos los autobuses están llenos."
+  },
+  {
+   "id": "s_350529",
+   "module": "m07",
+   "it": "È la tua bicicletta questa?",
+   "v": "keep",
+   "audio": "1003186",
+   "tanda": 2,
+   "es": "¿Esta es tu bicicleta?"
+  },
+  {
+   "id": "s_350581",
+   "module": "m07",
+   "it": "Quanto è profondo il lago Biwa?",
+   "v": "reject",
+   "nota": "Nombre propio poco útil.",
+   "tanda": 2
+  },
+  {
+   "id": "s_350772",
+   "module": "m07",
+   "it": "Quella macchina è sua.",
+   "v": "keep",
+   "audio": "1001293",
+   "tanda": 2,
+   "es": "Ese auto es suyo."
+  },
+  {
+   "id": "s_351067",
+   "module": "m07",
+   "it": "Quanto è profondo questo lago?",
+   "v": "keep",
+   "audio": "1009984",
+   "tanda": 2,
+   "es": "¿Qué profundidad tiene este lago?"
+  },
+  {
+   "id": "s_373720",
+   "module": "m07",
+   "it": "Lei va a scuola.",
+   "v": "keep",
+   "audio": "1003892",
+   "tanda": 2,
+   "es": "Ella va a la escuela."
+  },
+  {
+   "id": "s_373738",
+   "module": "m07",
+   "it": "Stai qui con noi.",
+   "v": "reject",
+   "nota": "Imperativo: m11.",
+   "tanda": 2
+  },
+  {
+   "id": "s_373739",
+   "module": "m07",
+   "it": "Resta qui con noi.",
+   "v": "reject",
+   "nota": "Imperativo: m11.",
+   "tanda": 2
+  },
+  {
+   "id": "s_373766",
+   "module": "m07",
+   "it": "Sono fiero di mio figlio.",
+   "v": "keep",
+   "audio": "1004652",
+   "tanda": 2,
+   "es": "Estoy orgulloso de mi hijo."
+  },
+  {
+   "id": "s_373835",
+   "module": "m07",
+   "it": "Vogliamo qualcosa di nuovo.",
+   "v": "keep",
+   "audio": "1009987",
+   "tanda": 2,
+   "es": "Queremos algo nuevo."
+  },
+  {
+   "id": "s_373836",
+   "module": "m07",
+   "it": "È nuovo di zecca.",
+   "v": "reject",
+   "nota": "Modismo.",
+   "tanda": 2
+  },
+  {
+   "id": "s_373852",
+   "module": "m07",
+   "it": "Vuoi dello zucchero?",
+   "v": "keep",
+   "audio": "1003201",
+   "tanda": 2,
+   "es": "¿Quieres azúcar?"
+  },
+  {
+   "id": "s_374196",
+   "module": "m07",
+   "it": "Mangio sempre fuori casa.",
+   "v": "keep",
+   "audio": "1001307",
+   "tanda": 2,
+   "es": "Siempre como fuera de casa."
+  },
+  {
+   "id": "s_374298",
+   "module": "m07",
+   "it": "Cade di domenica.",
+   "v": "reject",
+   "nota": "Poco claro sin contexto.",
+   "tanda": 2
+  },
+  {
+   "id": "s_374311",
+   "module": "m07",
+   "it": "Vediamoci di domenica.",
+   "v": "reject",
+   "nota": "Imperativo reflexivo.",
+   "tanda": 2
+  },
+  {
+   "id": "s_374325",
+   "module": "m07",
+   "it": "Sono un giocatore di tennis.",
+   "v": "keep",
+   "audio": "1004661",
+   "tanda": 2,
+   "es": "Soy un jugador de tenis."
+  },
+  {
+   "id": "s_374398",
+   "module": "m07",
+   "it": "Per favore, pensaci.",
+   "v": "reject",
+   "nota": "Imperativo con «ci».",
+   "tanda": 2
+  },
+  {
+   "id": "s_374623",
+   "module": "m07",
+   "it": "Un bambino ha bisogno di amore.",
+   "v": "keep",
+   "audio": "1003903",
+   "tanda": 2,
+   "es": "Un niño necesita amor."
+  },
+  {
+   "id": "s_375232",
+   "module": "m07",
+   "it": "Conosco il suo indirizzo.",
+   "v": "keep",
+   "audio": "1003904",
+   "tanda": 2,
+   "es": "Conozco su dirección."
+  },
+  {
+   "id": "s_375307",
+   "module": "m07",
+   "it": "È per la mia famiglia.",
+   "v": "keep",
+   "audio": "1003905",
+   "tanda": 2,
+   "es": "Es para mi familia."
+  },
+  {
+   "id": "s_375330",
+   "module": "m07",
+   "it": "Scegli fra i due.",
+   "v": "reject",
+   "nota": "Imperativo: m11.",
+   "tanda": 2
+  },
+  {
+   "id": "s_375621",
+   "module": "m07",
+   "it": "Sono d'accordo con voi.",
+   "v": "keep",
+   "audio": "1001317",
+   "tanda": 2,
+   "es": "Estoy de acuerdo con ustedes."
+  },
+  {
+   "id": "s_375626",
+   "module": "m07",
+   "it": "Non sono d'accordo con voi.",
+   "v": "keep",
+   "audio": "1004669",
+   "tanda": 2,
+   "es": "No estoy de acuerdo con ustedes."
+  },
+  {
+   "id": "s_376191",
+   "module": "m07",
+   "it": "Conta da uno a dieci.",
+   "v": "reject",
+   "nota": "Imperativo: m11.",
+   "tanda": 2
+  },
+  {
+   "id": "s_376656",
+   "module": "m07",
+   "it": "Mi ricordo di averla vista.",
+   "v": "reject",
+   "nota": "Infinitivo pasado: B1.",
+   "tanda": 2
+  },
+  {
+   "id": "s_378849",
+   "module": "m07",
+   "it": "La mia macchina è tedesca.",
+   "v": "keep",
+   "audio": "1001331",
+   "tanda": 2,
+   "es": "Mi auto es alemán."
+  },
+  {
+   "id": "s_380649",
+   "module": "m07",
+   "it": "Vado a casa ora.",
+   "v": "keep",
+   "audio": "1003931",
+   "tanda": 2,
+   "es": "Ahora voy a casa."
+  },
+  {
+   "id": "s_395745",
+   "module": "m07",
+   "it": "Ti sento lontano.",
+   "v": "reject",
+   "nota": "Poco natural.",
+   "tanda": 2
+  },
+  {
+   "id": "s_409583",
+   "module": "m07",
+   "it": "Quella casa è la mia.",
+   "v": "keep",
+   "audio": "1003941",
+   "tanda": 2,
+   "es": "Aquella casa es la mía."
+  },
+  {
+   "id": "s_409822",
+   "module": "m07",
+   "it": "Sto aumentando di peso.",
+   "v": "reject",
+   "nota": "Modismo.",
+   "tanda": 2
+  },
+  {
+   "id": "s_410803",
+   "module": "m07",
+   "it": "Oggi è un giorno di festa.",
+   "v": "keep",
+   "audio": "1004695",
+   "tanda": 2,
+   "es": "Hoy es un día festivo."
+  },
+  {
+   "id": "s_410816",
+   "module": "m07",
+   "it": "Io studio all'estero.",
+   "v": "keep",
+   "audio": "1000211",
+   "tanda": 2,
+   "es": "Estudio en el extranjero."
+  },
+  {
+   "id": "s_410951",
+   "module": "m07",
+   "it": "C'è una macchina che arriva.",
+   "v": "reject",
+   "nota": "Relativa poco natural.",
+   "tanda": 2
+  },
+  {
+   "id": "s_415487",
+   "module": "m07",
+   "it": "È un giocatore di tennis.",
+   "v": "keep",
+   "audio": "1010041",
+   "tanda": 2,
+   "es": "Es un jugador de tenis."
+  },
+  {
+   "id": "s_441386",
+   "module": "m07",
+   "it": "Ho un'assicurazione sulla vita.",
+   "v": "reject",
+   "nota": "Léxico de B1.",
+   "tanda": 2
+  },
+  {
+   "id": "s_581640",
+   "module": "m07",
+   "it": "Ho intenzione di andare.",
+   "v": "reject",
+   "nota": "«avere intenzione di»: A2.",
+   "tanda": 2
+  },
+  {
+   "id": "s_637635",
+   "module": "m07",
+   "it": "Andiamo a casa!",
+   "v": "keep",
+   "audio": "1000230",
+   "tanda": 2,
+   "es": "¡Vamos a casa!"
+  },
+  {
+   "id": "s_736746",
+   "module": "m07",
+   "it": "Mio padre è in casa.",
+   "v": "keep",
+   "audio": "1001373",
+   "tanda": 2,
+   "es": "Mi padre está en casa."
+  },
+  {
+   "id": "s_788105",
+   "module": "m07",
+   "it": "Ho bisogno di voi.",
+   "v": "keep",
+   "audio": "993451",
+   "tanda": 2,
+   "es": "Los necesito a ustedes."
+  },
+  {
+   "id": "s_828747",
+   "module": "m07",
+   "it": "Questa macchina fotografica è economica.",
+   "v": "keep",
+   "audio": "1006454",
+   "tanda": 2,
+   "es": "Esta cámara de fotos es barata."
+  },
+  {
+   "id": "s_876861",
+   "module": "m07",
+   "it": "Chiedo scusa per questo.",
+   "v": "reject",
+   "nota": "Poco natural.",
+   "tanda": 2
+  },
+  {
+   "id": "s_928152",
+   "module": "m07",
+   "it": "Penso di capire.",
+   "v": "reject",
+   "nota": "«pensare di»: A2.",
+   "tanda": 2
+  },
+  {
+   "id": "s_946701",
+   "module": "m07",
+   "it": "Questa è la tua chiave.",
+   "v": "keep",
+   "audio": "1003266",
+   "tanda": 2,
+   "es": "Esta es tu llave."
+  },
+  {
+   "id": "s_950359",
+   "module": "m07",
+   "it": "Dov'è casa tua?",
+   "v": "keep",
+   "audio": "1004718",
+   "tanda": 2,
+   "es": "¿Dónde está tu casa?"
+  },
+  {
+   "id": "s_1090916",
+   "module": "m07",
+   "it": "Mi dispiace per il ritardo.",
+   "v": "keep",
+   "audio": "1003988",
+   "tanda": 2,
+   "es": "Siento el retraso."
+  },
+  {
+   "id": "s_1130625",
+   "module": "m07",
+   "it": "Puoi farlo di nuovo?",
+   "v": "reject",
+   "nota": "Infinitivo con enclítico: A2.",
+   "tanda": 2
+  },
+  {
+   "id": "s_1202913",
+   "module": "m07",
+   "it": "Di chi è questa bicicletta?",
+   "v": "keep",
+   "audio": "1004738",
+   "tanda": 2,
+   "es": "¿De quién es esta bicicleta?"
+  },
+  {
+   "id": "s_1269471",
+   "module": "m07",
+   "it": "Sono nella macchina.",
+   "v": "keep",
+   "audio": "1000266",
+   "tanda": 2,
+   "es": "Estoy en el auto."
+  },
+  {
+   "id": "s_1272365",
+   "module": "m07",
+   "it": "Posso andare a casa?",
+   "v": "keep",
+   "audio": "993483",
+   "tanda": 2,
+   "es": "¿Puedo ir a casa?"
+  },
+  {
+   "id": "s_1397543",
+   "module": "m07",
+   "it": "Dov'è la porta di imbarco?",
+   "v": "keep",
+   "audio": "1004003",
+   "tanda": 2,
+   "es": "¿Dónde está la puerta de embarque?"
+  },
+  {
+   "id": "s_1564232",
+   "module": "m07",
+   "it": "C'è qualcuno lì dentro?",
+   "v": "keep",
+   "audio": "1004008",
+   "tanda": 2,
+   "es": "¿Hay alguien ahí dentro?"
+  },
+  {
+   "id": "s_3160416",
+   "module": "m07",
+   "it": "Sono il fratello di Tom.",
+   "v": "keep",
+   "audio": "1003318",
+   "tanda": 2,
+   "es": "Soy el hermano de Tom."
+  },
+  {
+   "id": "s_3342618",
+   "module": "m07",
+   "it": "Per favore, non piangere.",
+   "v": "reject",
+   "nota": "Imperativo negativo: m11.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3380248",
+   "module": "m07",
+   "it": "La mia porta è sempre aperta.",
+   "v": "keep",
+   "audio": "1010113",
+   "tanda": 2,
+   "es": "Mi puerta siempre está abierta."
+  },
+  {
+   "id": "s_3532940",
+   "module": "m07",
+   "it": "Hai bisogno di aiuto.",
+   "v": "keep",
+   "audio": "1000314",
+   "tanda": 2,
+   "es": "Necesitas ayuda."
+  },
+  {
+   "id": "s_3532984",
+   "module": "m07",
+   "it": "Non puoi dire di no.",
+   "v": "reject",
+   "nota": "Poco natural.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533049",
+   "module": "m07",
+   "it": "So di sbagliarmi.",
+   "v": "reject",
+   "nota": "Pronominal con «di»: B1.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533111",
+   "module": "m07",
+   "it": "Sono di larghe vedute.",
+   "v": "reject",
+   "nota": "Modismo.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533116",
+   "module": "m07",
+   "it": "Ho bisogno di un pisolino.",
+   "v": "reject",
+   "nota": "Léxico poco útil.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533118",
+   "module": "m07",
+   "it": "Ho delle novità.",
+   "v": "keep",
+   "audio": "993509",
+   "tanda": 2,
+   "es": "Tengo novedades."
+  },
+  {
+   "id": "s_3533149",
+   "module": "m07",
+   "it": "Mi piace stare con Tom.",
+   "v": "keep",
+   "audio": "1010124",
+   "tanda": 2,
+   "es": "Me gusta estar con Tom."
+  },
+  {
+   "id": "s_3533151",
+   "module": "m07",
+   "it": "Non posso tornare con Tom.",
+   "v": "reject",
+   "nota": "Poco claro.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533167",
+   "module": "m07",
+   "it": "Posso vedere delle carte d'identità?",
+   "v": "reject",
+   "nota": "Poco natural.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533181",
+   "module": "m07",
+   "it": "Puoi aprire questa porta?",
+   "v": "keep",
+   "audio": "1010133",
+   "tanda": 2,
+   "es": "¿Puedes abrir esta puerta?"
+  },
+  {
+   "id": "s_3533193",
+   "module": "m07",
+   "it": "Possiamo spegnere la televisione?",
+   "v": "reject",
+   "nota": "Casi igual a otra frase.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533199",
+   "module": "m07",
+   "it": "Puoi portarmi da Tom?",
+   "v": "reject",
+   "nota": "Enclítico: A2.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533227",
+   "module": "m07",
+   "it": "Posso guidare, per favore?",
+   "v": "reject",
+   "nota": "Poco natural.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3846961",
+   "module": "m07",
+   "it": "Sono sicuro di questo.",
+   "v": "keep",
+   "audio": "1001450",
+   "tanda": 2,
+   "es": "Estoy seguro de esto."
+  },
+  {
+   "id": "s_4264077",
+   "module": "m07",
+   "it": "Fai con comodo.",
+   "v": "reject",
+   "nota": "Modismo.",
+   "tanda": 2
+  },
+  {
+   "id": "s_4396575",
+   "module": "m07",
+   "it": "Voglio parlare con lui.",
+   "v": "keep",
+   "audio": "1010148",
+   "tanda": 2,
+   "es": "Quiero hablar con él."
+  },
+  {
+   "id": "s_5447224",
+   "module": "m07",
+   "it": "Ho delle brutte notizie.",
+   "v": "keep",
+   "audio": "1001468",
+   "tanda": 2,
+   "es": "Tengo malas noticias."
+  },
+  {
+   "id": "s_5447274",
+   "module": "m07",
+   "it": "Dov'è la chiave?",
+   "v": "keep",
+   "audio": "1001470",
+   "tanda": 2,
+   "es": "¿Dónde está la llave?"
+  },
+  {
+   "id": "s_5493282",
+   "module": "m07",
+   "it": "Dite a Tom che sono qui.",
+   "v": "reject",
+   "nota": "Imperativo de «voi».",
+   "tanda": 2
+  },
+  {
+   "id": "s_5551744",
+   "module": "m07",
+   "it": "Cosa abbiamo qui?",
+   "v": "reject",
+   "nota": "Poco natural.",
+   "tanda": 2
+  },
+  {
+   "id": "s_6002740",
+   "module": "m07",
+   "it": "Quella bicicletta è mia.",
+   "v": "keep",
+   "audio": "1006558",
+   "tanda": 2,
+   "es": "Aquella bicicleta es mía."
+  },
+  {
+   "id": "s_373659",
+   "module": "m08",
+   "it": "A mia madre piace la musica.",
+   "v": "keep",
+   "audio": "1009985",
+   "tanda": 2,
+   "es": "A mi madre le gusta la música."
+  },
+  {
+   "id": "s_375457",
+   "module": "m08",
+   "it": "Mio padre adora la pizza.",
+   "v": "keep",
+   "audio": "1010006",
+   "tanda": 2,
+   "es": "Mi padre adora la pizza."
+  },
+  {
+   "id": "s_377174",
+   "module": "m08",
+   "it": "È una varietà di arancia.",
+   "v": "reject",
+   "nota": "Poco útil.",
+   "tanda": 2
+  },
+  {
+   "id": "s_379639",
+   "module": "m08",
+   "it": "Una spugna assorbe l'acqua.",
+   "v": "reject",
+   "nota": "Léxico de B1.",
+   "tanda": 2
+  },
+  {
+   "id": "s_379643",
+   "module": "m08",
+   "it": "Fai bollire un po' d'acqua.",
+   "v": "reject",
+   "nota": "Causativo «far bollire»: B1.",
+   "tanda": 2
+  },
+  {
+   "id": "s_379648",
+   "module": "m08",
+   "it": "L'acqua è un liquido.",
+   "v": "keep",
+   "audio": "1003926",
+   "tanda": 2,
+   "es": "El agua es un líquido."
+  },
+  {
+   "id": "s_379650",
+   "module": "m08",
+   "it": "L'acqua riflette la luce.",
+   "v": "reject",
+   "nota": "Léxico poco útil.",
+   "tanda": 2
+  },
+  {
+   "id": "s_379727",
+   "module": "m08",
+   "it": "Mi piace la cioccolata.",
+   "v": "keep",
+   "audio": "1001335",
+   "tanda": 2,
+   "es": "Me gusta el chocolate."
+  },
+  {
+   "id": "s_380210",
+   "module": "m08",
+   "it": "Mi piace la musica pop.",
+   "v": "keep",
+   "audio": "1001339",
+   "tanda": 2,
+   "es": "Me gusta la música pop."
+  },
+  {
+   "id": "s_383571",
+   "module": "m08",
+   "it": "Ammiro il tuo coraggio.",
+   "v": "keep",
+   "audio": "1010032",
+   "tanda": 2,
+   "es": "Admiro tu valentía."
+  },
+  {
+   "id": "s_383780",
+   "module": "m08",
+   "it": "Aggiungi un po' di latte.",
+   "v": "reject",
+   "nota": "Imperativo: m11.",
+   "tanda": 2
+  },
+  {
+   "id": "s_410587",
+   "module": "m08",
+   "it": "A lei piacciono le arance.",
+   "v": "keep",
+   "audio": "1003245",
+   "tanda": 2,
+   "es": "A ella le gustan las naranjas."
+  },
+  {
+   "id": "s_411808",
+   "module": "m08",
+   "it": "Giochiamo a pallavolo.",
+   "v": "keep",
+   "audio": "1010040",
+   "tanda": 2,
+   "es": "Juguemos al voleibol."
+  },
+  {
+   "id": "s_1100668",
+   "module": "m08",
+   "it": "Le banane sono ottime.",
+   "v": "keep",
+   "audio": "1006474",
+   "tanda": 2,
+   "es": "Los plátanos son buenísimos."
+  },
+  {
+   "id": "s_1107340",
+   "module": "m08",
+   "it": "Voglio un'altra birra.",
+   "v": "keep",
+   "audio": "1004729",
+   "tanda": 2,
+   "es": "Quiero otra cerveza."
+  },
+  {
+   "id": "s_1109920",
+   "module": "m08",
+   "it": "Tom sa correre veloce.",
+   "v": "keep",
+   "audio": "1003287",
+   "tanda": 2,
+   "es": "Tom sabe correr rápido."
+  },
+  {
+   "id": "s_1168029",
+   "module": "m08",
+   "it": "Questa è carne buona.",
+   "v": "reject",
+   "nota": "Poco natural.",
+   "tanda": 2
+  },
+  {
+   "id": "s_2030889",
+   "module": "m08",
+   "it": "Mi piace il baseball.",
+   "v": "keep",
+   "audio": "1001420",
+   "tanda": 2,
+   "es": "Me gusta el béisbol."
+  },
+  {
+   "id": "s_3018886",
+   "module": "m08",
+   "it": "Tom sembra annoiarsi.",
+   "v": "reject",
+   "nota": "Infinitivo pronominal: A2.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3532942",
+   "module": "m08",
+   "it": "Voi ragazzi aspettate qui.",
+   "v": "reject",
+   "nota": "Poco natural.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533058",
+   "module": "m08",
+   "it": "Mi piace l'atteggiamento di Tom.",
+   "v": "keep",
+   "audio": "1010121",
+   "tanda": 2,
+   "es": "Me gusta la actitud de Tom."
+  },
+  {
+   "id": "s_3533123",
+   "module": "m08",
+   "it": "Non sono in sovrappeso.",
+   "v": "reject",
+   "nota": "Léxico poco útil.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533144",
+   "module": "m08",
+   "it": "Mi prendo cura di Tom.",
+   "v": "reject",
+   "nota": "Modismo.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533161",
+   "module": "m08",
+   "it": "Ho trecento dollari.",
+   "v": "keep",
+   "audio": "993514",
+   "tanda": 2,
+   "es": "Tengo trescientos dólares."
+  },
+  {
+   "id": "s_3533200",
+   "module": "m08",
+   "it": "Posso avere dell'acqua?",
+   "v": "keep",
+   "audio": "1006531",
+   "tanda": 2,
+   "es": "¿Me puede dar agua?"
+  },
+  {
+   "id": "s_5110231",
+   "module": "m08",
+   "it": "Questa banana è marcia.",
+   "v": "keep",
+   "audio": "1010149",
+   "tanda": 2,
+   "es": "Este plátano está podrido."
+  },
+  {
+   "id": "s_5209573",
+   "module": "m08",
+   "it": "Mi piacciono le vecchie automobili.",
+   "v": "keep",
+   "audio": "1001462",
+   "tanda": 2,
+   "es": "Me gustan los autos viejos."
+  },
+  {
+   "id": "s_5449912",
+   "module": "m08",
+   "it": "Ti piace il francese?",
+   "v": "keep",
+   "audio": "1004058",
+   "tanda": 2,
+   "es": "¿Te gusta el francés?"
+  },
+  {
+   "id": "s_6025193",
+   "module": "m08",
+   "it": "Mi piacciono le tue idee.",
+   "v": "keep",
+   "audio": "1003380",
+   "tanda": 2,
+   "es": "Me gustan tus ideas."
+  },
+  {
+   "id": "s_350554",
+   "module": "m10",
+   "it": "È un gatto quello?",
+   "v": "reject",
+   "nota": "Orden poco natural.",
+   "tanda": 2
+  },
+  {
+   "id": "s_350632",
+   "module": "m10",
+   "it": "Tutti i cani sono vivi.",
+   "v": "reject",
+   "nota": "Frase rara.",
+   "tanda": 2
+  },
+  {
+   "id": "s_373496",
+   "module": "m10",
+   "it": "Ho paura dei cani.",
+   "v": "keep",
+   "audio": "1003887",
+   "tanda": 2,
+   "es": "Tengo miedo de los perros."
+  },
+  {
+   "id": "s_373498",
+   "module": "m10",
+   "it": "I cani possono nuotare.",
+   "v": "keep",
+   "audio": "1000159",
+   "tanda": 2,
+   "es": "Los perros pueden nadar."
+  },
+  {
+   "id": "s_373504",
+   "module": "m10",
+   "it": "Non ho un gatto.",
+   "v": "keep",
+   "audio": "1003888",
+   "tanda": 2,
+   "es": "No tengo un gato."
+  },
+  {
+   "id": "s_373523",
+   "module": "m10",
+   "it": "Tom è uno studente.",
+   "v": "keep",
+   "audio": "1003190",
+   "tanda": 2,
+   "es": "Tom es estudiante."
+  },
+  {
+   "id": "s_373525",
+   "module": "m10",
+   "it": "Sei uno studente?",
+   "v": "keep",
+   "audio": "1003191",
+   "tanda": 2,
+   "es": "¿Eres estudiante?"
+  },
+  {
+   "id": "s_373526",
+   "module": "m10",
+   "it": "Sono uno studente.",
+   "v": "keep",
+   "audio": "1000160",
+   "tanda": 2,
+   "es": "Soy estudiante."
+  },
+  {
+   "id": "s_373936",
+   "module": "m10",
+   "it": "Questo libro è pesante.",
+   "v": "keep",
+   "audio": "1004656",
+   "tanda": 2,
+   "es": "Este libro es pesado."
+  },
+  {
+   "id": "s_373937",
+   "module": "m10",
+   "it": "Questo libro è mio.",
+   "v": "keep",
+   "audio": "1003897",
+   "tanda": 2,
+   "es": "Este libro es mío."
+  },
+  {
+   "id": "s_374216",
+   "module": "m10",
+   "it": "Non mi piacciono i cani.",
+   "v": "keep",
+   "audio": "1003207",
+   "tanda": 2,
+   "es": "No me gustan los perros."
+  },
+  {
+   "id": "s_374220",
+   "module": "m10",
+   "it": "Guarda il gatto.",
+   "v": "reject",
+   "nota": "Imperativo: m11.",
+   "tanda": 2
+  },
+  {
+   "id": "s_374304",
+   "module": "m10",
+   "it": "Lavoro perfino di domenica.",
+   "v": "keep",
+   "audio": "1009994",
+   "tanda": 2,
+   "es": "Trabajo incluso los domingos."
+  },
+  {
+   "id": "s_374347",
+   "module": "m10",
+   "it": "Il nostro cane morde raramente.",
+   "v": "reject",
+   "nota": "Léxico de B1.",
+   "tanda": 2
+  },
+  {
+   "id": "s_374527",
+   "module": "m10",
+   "it": "Qual è il tuo libro?",
+   "v": "keep",
+   "audio": "1004665",
+   "tanda": 2,
+   "es": "¿Cuál es tu libro?"
+  },
+  {
+   "id": "s_375782",
+   "module": "m10",
+   "it": "Mi piacciono i capelli corti.",
+   "v": "keep",
+   "audio": "1003219",
+   "tanda": 2,
+   "es": "Me gusta el pelo corto."
+  },
+  {
+   "id": "s_376579",
+   "module": "m10",
+   "it": "Ho un computer.",
+   "v": "keep",
+   "audio": "1003220",
+   "tanda": 2,
+   "es": "Tengo una computadora."
+  },
+  {
+   "id": "s_377221",
+   "module": "m10",
+   "it": "Lascia il cane fuori.",
+   "v": "reject",
+   "nota": "Imperativo: m11.",
+   "tanda": 2
+  },
+  {
+   "id": "s_379729",
+   "module": "m10",
+   "it": "Il ghiaccio si sta sciogliendo.",
+   "v": "keep",
+   "audio": "1003929",
+   "tanda": 2,
+   "es": "El hielo se está derritiendo."
+  },
+  {
+   "id": "s_379731",
+   "module": "m10",
+   "it": "Vuoi del ghiaccio?",
+   "v": "keep",
+   "audio": "1004681",
+   "tanda": 2,
+   "es": "¿Quieres hielo?"
+  },
+  {
+   "id": "s_380240",
+   "module": "m10",
+   "it": "Che lavoro fai?",
+   "v": "keep",
+   "audio": "1001340",
+   "tanda": 2,
+   "es": "¿En qué trabajas?"
+  },
+  {
+   "id": "s_380430",
+   "module": "m10",
+   "it": "La volpe è un animale selvaggio.",
+   "v": "reject",
+   "nota": "Poco útil.",
+   "tanda": 2
+  },
+  {
+   "id": "s_387547",
+   "module": "m10",
+   "it": "Va a scuola a piedi.",
+   "v": "keep",
+   "audio": "1003938",
+   "tanda": 2,
+   "es": "Va a la escuela a pie."
+  },
+  {
+   "id": "s_388810",
+   "module": "m10",
+   "it": "Aprite la bocca!",
+   "v": "reject",
+   "nota": "Imperativo de «voi».",
+   "tanda": 2
+  },
+  {
+   "id": "s_399833",
+   "module": "m10",
+   "it": "Vi piacciono i gatti neri?",
+   "v": "keep",
+   "audio": "1010036",
+   "tanda": 2,
+   "es": "¿Les gustan los gatos negros?"
+  },
+  {
+   "id": "s_416623",
+   "module": "m10",
+   "it": "Mio padre è un dottore.",
+   "v": "keep",
+   "audio": "1006426",
+   "tanda": 2,
+   "es": "Mi padre es médico."
+  },
+  {
+   "id": "s_466548",
+   "module": "m10",
+   "it": "Che lavoro fa?",
+   "v": "keep",
+   "audio": "1001363",
+   "tanda": 2,
+   "es": "¿En qué trabaja?"
+  },
+  {
+   "id": "s_479736",
+   "module": "m10",
+   "it": "Come va il lavoro?",
+   "v": "keep",
+   "audio": "993439",
+   "tanda": 2,
+   "es": "¿Cómo va el trabajo?"
+  },
+  {
+   "id": "s_559591",
+   "module": "m10",
+   "it": "Sono un professore.",
+   "v": "keep",
+   "audio": "1000223",
+   "tanda": 2,
+   "es": "Soy profesor."
+  },
+  {
+   "id": "s_559595",
+   "module": "m10",
+   "it": "Sono una professoressa.",
+   "v": "reject",
+   "nota": "Casi igual a otra frase.",
+   "tanda": 2
+  },
+  {
+   "id": "s_585930",
+   "module": "m10",
+   "it": "Il braccio mi fa ancora male.",
+   "v": "keep",
+   "audio": "1003960",
+   "tanda": 2,
+   "es": "Todavía me duele el brazo."
+  },
+  {
+   "id": "s_614317",
+   "module": "m10",
+   "it": "Ho la pelle secca.",
+   "v": "keep",
+   "audio": "1001368",
+   "tanda": 2,
+   "es": "Tengo la piel seca."
+  },
+  {
+   "id": "s_706015",
+   "module": "m10",
+   "it": "Ho la febbre alta.",
+   "v": "keep",
+   "audio": "1004708",
+   "tanda": 2,
+   "es": "Tengo fiebre alta."
+  },
+  {
+   "id": "s_741749",
+   "module": "m10",
+   "it": "Ho paura dei gufi.",
+   "v": "reject",
+   "nota": "Léxico poco útil («gufi»).",
+   "tanda": 2
+  },
+  {
+   "id": "s_989686",
+   "module": "m10",
+   "it": "Il mio lavoro mi piace davvero.",
+   "v": "keep",
+   "audio": "1010082",
+   "tanda": 2,
+   "es": "Mi trabajo me gusta de verdad."
+  },
+  {
+   "id": "s_1002962",
+   "module": "m10",
+   "it": "Questo è il mio libro.",
+   "v": "keep",
+   "audio": "1001390",
+   "tanda": 2,
+   "es": "Este es mi libro."
+  },
+  {
+   "id": "s_1089437",
+   "module": "m10",
+   "it": "Sai usare un computer?",
+   "v": "keep",
+   "audio": "1010087",
+   "tanda": 2,
+   "es": "¿Sabes usar una computadora?"
+  },
+  {
+   "id": "s_1103537",
+   "module": "m10",
+   "it": "Ho ancora sete.",
+   "v": "keep",
+   "audio": "1003285",
+   "tanda": 2,
+   "es": "Todavía tengo sed."
+  },
+  {
+   "id": "s_1109815",
+   "module": "m10",
+   "it": "Tom è un bravo cuoco.",
+   "v": "keep",
+   "audio": "1004731",
+   "tanda": 2,
+   "es": "Tom es un buen cocinero."
+  },
+  {
+   "id": "s_1135788",
+   "module": "m10",
+   "it": "So andare a cavallo.",
+   "v": "reject",
+   "nota": "«andare a cavallo»: poco útil.",
+   "tanda": 2
+  },
+  {
+   "id": "s_1369321",
+   "module": "m10",
+   "it": "Quale cane è il tuo?",
+   "v": "keep",
+   "audio": "1004747",
+   "tanda": 2,
+   "es": "¿Cuál perro es el tuyo?"
+  },
+  {
+   "id": "s_1389728",
+   "module": "m10",
+   "it": "Questo è un leone.",
+   "v": "keep",
+   "audio": "1000281",
+   "tanda": 2,
+   "es": "Este es un león."
+  },
+  {
+   "id": "s_1509177",
+   "module": "m10",
+   "it": "Non ho per niente fame.",
+   "v": "reject",
+   "nota": "«per niente»: A2.",
+   "tanda": 2
+  },
+  {
+   "id": "s_1541985",
+   "module": "m10",
+   "it": "Non ho mica fame!",
+   "v": "reject",
+   "nota": "«mica»: coloquial, A2.",
+   "tanda": 2
+  },
+  {
+   "id": "s_1807372",
+   "module": "m10",
+   "it": "Mi piace il tuo cane.",
+   "v": "keep",
+   "audio": "1001415",
+   "tanda": 2,
+   "es": "Me gusta tu perro."
+  },
+  {
+   "id": "s_2242234",
+   "module": "m10",
+   "it": "Sto scrivendo un libro.",
+   "v": "keep",
+   "audio": "1004018",
+   "tanda": 2,
+   "es": "Estoy escribiendo un libro."
+  },
+  {
+   "id": "s_2362978",
+   "module": "m10",
+   "it": "Tutti gli uccelli possono volare?",
+   "v": "keep",
+   "audio": "1003313",
+   "tanda": 2,
+   "es": "¿Todos los pájaros pueden volar?"
+  },
+  {
+   "id": "s_2803415",
+   "module": "m10",
+   "it": "A lui piacciono gli animali.",
+   "v": "keep",
+   "audio": "1001427",
+   "tanda": 2,
+   "es": "A él le gustan los animales."
+  },
+  {
+   "id": "s_3532960",
+   "module": "m10",
+   "it": "Hai il lavoro.",
+   "v": "reject",
+   "nota": "Poco claro.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533089",
+   "module": "m10",
+   "it": "Non sono in buona salute.",
+   "v": "reject",
+   "nota": "Poco natural.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533102",
+   "module": "m10",
+   "it": "Sto solo facendo il mio lavoro.",
+   "v": "reject",
+   "nota": "Poco natural.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533125",
+   "module": "m10",
+   "it": "Non sono paziente.",
+   "v": "reject",
+   "nota": "Casi igual a otra frase.",
+   "tanda": 2
+  },
+  {
+   "id": "s_3533126",
+   "module": "m10",
+   "it": "Non sono molto paziente.",
+   "v": "keep",
+   "audio": "1006521",
+   "tanda": 2,
+   "es": "No soy muy paciente."
+  },
+  {
+   "id": "s_4271707",
+   "module": "m10",
+   "it": "Ti piace la neve?",
+   "v": "keep",
+   "audio": "1001455",
+   "tanda": 2,
+   "es": "¿Te gusta la nieve?"
+  },
+  {
+   "id": "s_4484269",
+   "module": "m10",
+   "it": "Perché stai perdendo sangue?",
+   "v": "reject",
+   "nota": "Léxico de B1.",
+   "tanda": 2
+  },
+  {
+   "id": "s_5447273",
+   "module": "m10",
+   "it": "Dov'è il cane?",
+   "v": "keep",
+   "audio": "1001469",
+   "tanda": 2,
+   "es": "¿Dónde está el perro?"
+  },
+  {
+   "id": "s_5486510",
+   "module": "m10",
+   "it": "Lavoro tutto il giorno.",
+   "v": "keep",
+   "audio": "1000340",
+   "tanda": 2,
+   "es": "Trabajo todo el día."
+  },
+  {
+   "id": "s_5582716",
+   "module": "m10",
+   "it": "Il tuo cane morde?",
+   "v": "keep",
+   "audio": "1004066",
+   "tanda": 2,
+   "es": "¿Tu perro muerde?"
+  },
+  {
+   "id": "s_8820833",
+   "module": "m10",
+   "it": "Mi piace la pioggia.",
+   "v": "keep",
+   "audio": "1029962",
+   "tanda": 2,
+   "es": "Me gusta la lluvia."
   }
  ]
 }

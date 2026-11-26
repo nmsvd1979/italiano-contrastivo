@@ -448,13 +448,13 @@
     }
   },
   "levels": {
-    "A1": 2909,
+    "A1": 3070,
     "A2": 477,
     "B1": 146,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 3513,
+    "llm-audit": 3674,
     "me": 26
   },
   "sentences_used": 3170,

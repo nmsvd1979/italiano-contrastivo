@@ -2,28 +2,42 @@
 
 Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con la licencia que indica cada línea. La app las usa en lugar de la voz sintética cuando el texto coincide.
 
+- `human/1003245.mp3` — «A lei piacciono le arance.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/410587
+- `human/1001427.mp3` — «A lui piacciono gli animali.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2803415
+- `human/1003315.mp3` — «A me piace la pizza fredda.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2379824
+- `human/1009985.mp3` — «A mia madre piace la musica.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373659
 - `human/1003902.mp3` — «Accendi la radio.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374591
 - `human/1001425.mp3` — «Adoro le feste.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2196367
 - `human/1006443.mp3` — «Ai gatti non piace l'acqua.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/694333
 - `human/1003895.mp3` — «Ammetto il mio errore.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373873
+- `human/1010032.mp3` — «Ammiro il tuo coraggio.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/383571
 - `human/993388.mp3` — «Amo i gatti.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373502
 - `human/994230.mp3` — «Amo i libri.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2883964
 - `human/1004726.mp3` — «Amo questo dipinto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1071729
 - `human/1001421.mp3` — «Anche a me piace la torta.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2055931
+- `human/1000230.mp3` — «Andiamo a casa!», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/637635
 - `human/1001334.mp3` — «Apri la bocca!», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379723
 - `human/1001326.mp3` — «Apri la finestra.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/377280
+- `human/1006540.mp3` — «Arriva sempre in orario.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4108682
 - `human/1006499.mp3` — «Avete del tonno?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2192950
 - `human/993409.mp3` — «Benvenuto a casa.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378125
 - `human/1003954.mp3` — «C'è dello zucchero?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/506016
+- `human/1003894.mp3` — «C'è qualche problema?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373786
+- `human/1004008.mp3` — «C'è qualcuno lì dentro?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1564232
 - `human/1000171.mp3` — «C'è un gatto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374218
 - `human/1003279.mp3` — «Cantiamo una canzone.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1049256
 - `human/1004013.mp3` — «Casa tua è grande.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2137752
 - `human/1001366.mp3` — «Che cosa fa?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/611012
+- `human/1004725.mp3` — «Che cosa fai ora?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1035838
+- `human/1003959.mp3` — «Che cosa significa?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/578262
+- `human/1001363.mp3` — «Che lavoro fa?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/466548
 - `human/1001340.mp3` — «Che lavoro fai?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380240
 - `human/1001284.mp3` — «Che ore sono?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4426
 - `human/1003884.mp3` — «Che stai facendo?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350953
+- `human/993496.mp3` — «Chi c'è lì?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1559895
 - `human/993429.mp3` — «Chi sono io?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/395924
 - `human/993444.mp3` — «Chi sono loro?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/617575
+- `human/1000174.mp3` — «Chi sta vincendo?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374614
 - `human/993479.mp3` — «Chi è il prossimo?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1208919
 - `human/1000201.mp3` — «Chiama la polizia!», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380537
 - `human/1001389.mp3` — «Chiudi la bocca.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1001280
@@ -31,27 +45,46 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1001350.mp3` — «Ciao! Come stai?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/381807
 - `human/1001305.mp3` — «Com'è alto!», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374009
 - `human/1000250.mp3` — «Come sta il cane?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1002979
+- `human/1003192.mp3` — «Come sta tua madre?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373655
+- `human/1003222.mp3` — «Come sta vostra madre?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/377142
 - `human/993458.mp3` — «Come stai?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/921297
 - `human/1003183.mp3` — «Come ti chiami?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4428
+- `human/993439.mp3` — «Come va il lavoro?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/479736
+- `human/1000225.mp3` — «Come vanno le cose?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/569327
+- `human/1010067.mp3` — «Cominciamo la festa!», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/704847
 - `human/1004785.mp3` — «Conosci le regole.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533009
+- `human/1000178.mp3` — «Conosco il ragazzo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375670
+- `human/1003904.mp3` — «Conosco il suo indirizzo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375232
+- `human/1003214.mp3` — «Conosco la sua famiglia.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375298
 - `human/1001337.mp3` — «Corro tutti i giorni.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379882
+- `human/1006424.mp3` — «Cosa stai cucinando?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/411442
 - `human/1010042.mp3` — «Cosa stai guardando?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/416588
 - `human/1003933.mp3` — «Credo che sia felice.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380758
 - `human/1004684.mp3` — «Credo che sia malata.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380817
+- `human/1004738.mp3` — «Di chi è questa bicicletta?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1202913
 - `human/1004693.mp3` — «Domani è domenica.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/409423
 - `human/1009983.mp3` — «Domani è festa.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350770
+- `human/1004718.mp3` — «Dov'è casa tua?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/950359
+- `human/1001469.mp3` — «Dov'è il cane?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5447273
 - `human/1003896.mp3` — «Dov'è il libro?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373931
 - `human/1006374.mp3` — «Dov'è il problema?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373782
+- `human/1001470.mp3` — «Dov'è la chiave?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5447274
 - `human/1001451.mp3` — «Dov'è la mia giacca?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3869912
+- `human/1004003.mp3` — «Dov'è la porta di imbarco?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1397543
 - `human/1006372.mp3` — «Dov'è la tua scuola?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373718
 - `human/1004724.mp3` — «Dov'è la tua stanza?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1006731
 - `human/1006462.mp3` — «Dov'è tuo fratello?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/978308
+- `human/1000286.mp3` — «Dove sono adesso?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1550115
 - `human/1006388.mp3` — «Dove sono i miei occhiali?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374617
 - `human/1003316.mp3` — «Dove sono i miei soldi?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2433745
 - `human/1010069.mp3` — «Dove è tuo fratello?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/725569
+- `human/1006416.mp3` — «E ora cosa facciamo?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/393266
 - `human/1006389.mp3` — «Entrambe le storie sono vere.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375243
 - `human/1001311.mp3` — «Fai i compiti.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374392
+- `human/1009990.mp3` — «Fra poco è il mio compleanno.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374049
+- `human/1009996.mp3` — «Giocare a tennis è divertente.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374320
 - `human/1003243.mp3` — «Giochiamo a calcio!», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/409370
+- `human/1010040.mp3` — «Giochiamo a pallavolo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/411808
 - `human/993506.mp3` — «Grazie mille!», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3138248
 - `human/993506.mp3` — «Grazie mille.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3138248
 - `human/1006460.mp3` — «Ha del tonno?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/965245
@@ -59,103 +92,166 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/993403.mp3` — «Ha otto anni.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374688
 - `human/993408.mp3` — «Ha un cane.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/377217
 - `human/993412.mp3` — «Ha una macchina.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378859
+- `human/1000314.mp3` — «Hai bisogno di aiuto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3532940
 - `human/1003928.mp3` — «Hai fame ora?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379687
 - `human/1000195.mp3` — «Hai fame?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379692
 - `human/1006472.mp3` — «Hai un sito web?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1082386
+- `human/1003285.mp3` — «Ho ancora sete.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1103537
 - `human/1000237.mp3` — «Ho bisogno di amici.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/812801
 - `human/1000232.mp3` — «Ho bisogno di un coltello.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/693921
+- `human/993451.mp3` — «Ho bisogno di voi.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/788105
+- `human/1001468.mp3` — «Ho delle brutte notizie.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5447224
+- `human/993509.mp3` — «Ho delle novità.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533118
 - `human/1004067.mp3` — «Ho due macchine fotografiche.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5586533
+- `human/1004708.mp3` — «Ho la febbre alta.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/706015
 - `human/1000214.mp3` — «Ho la febbre.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/417975
+- `human/1001368.mp3` — «Ho la pelle secca.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/614317
 - `human/1001466.mp3` — «Ho le chiavi.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5446856
 - `human/1009999.mp3` — «Ho lezione domani.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374478
 - `human/1000200.mp3` — «Ho mal di testa.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380234
 - `human/1001321.mp3` — «Ho molta sete.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375680
 - `human/1003961.mp3` — «Ho molti sogni.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/602528
+- `human/1003887.mp3` — «Ho paura dei cani.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373496
 - `human/1003206.mp3` — «Ho sempre fame.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374197
+- `human/993514.mp3` — «Ho trecento dollari.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533161
 - `human/994212.mp3` — «Ho un cane.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373495
+- `human/1003220.mp3` — «Ho un computer.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/376579
 - `human/1000222.mp3` — «Ho un libro.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/519544
 - `human/1000162.mp3` — «Ho un sogno.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373736
+- `human/1010103.mp3` — «Ho un'altra sorella.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1517739
 - `human/1000184.mp3` — «Ho un'idea.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/377559
 - `human/1004671.mp3` — «Ho una bicicletta nuova.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375693
 - `human/1001316.mp3` — «Ho una famiglia.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375297
 - `human/994220.mp3` — «Ho una macchina.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378850
+- `human/1000159.mp3` — «I cani possono nuotare.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373498
+- `human/1001392.mp3` — «I miei occhi sono azzurri.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1003105
 - `human/1010043.mp3` — «I tuoi capelli sono troppo lunghi.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/425386
+- `human/1004070.mp3` — «Il bambino sta piangendo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5605867
+- `human/1003960.mp3` — «Il braccio mi fa ancora male.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/585930
 - `human/1006429.mp3` — «Il caffè mi mantiene sveglia.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/475622
 - `human/1010097.mp3` — «Il cuore è un muscolo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1298796
 - `human/993420.mp3` — «Il fuoco brucia.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379734
 - `human/1010024.mp3` — «Il fuoco è molto pericoloso.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379732
+- `human/1003929.mp3` — «Il ghiaccio si sta sciogliendo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379729
 - `human/1003204.mp3` — «Il libro è facile.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373941
 - `human/1003351.mp3` — «Il mio cavallo è bianco.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3633971
+- `human/1010082.mp3` — «Il mio lavoro mi piace davvero.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/989686
+- `human/1001320.mp3` — «Il ragazzo è gentile.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375667
 - `human/1004714.mp3` — «Il tavolo è verde.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/791282
+- `human/1004066.mp3` — «Il tuo cane morde?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5582716
 - `human/994239.mp3` — «Io parlo molto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5873911
+- `human/1000211.mp3` — «Io studio all'estero.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/410816
+- `human/1003926.mp3` — «L'acqua è un liquido.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379648
+- `human/1000186.mp3` — «L'amore è cieco.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378150
+- `human/994231.mp3` — «L'errore è mio.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3347247
 - `human/1006414.mp3` — «La casa sta bruciando.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/387541
 - `human/1000198.mp3` — «La cena è pronta!», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380183
 - `human/1000198.mp3` — «La cena è pronta.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380183
 - `human/1006415.mp3` — «La donna sta leggendo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/392465
 - `human/1006396.mp3` — «La lettera è per me.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/376558
+- `human/1004657.mp3` — «La libertà non è gratuita.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373956
+- `human/1001331.mp3` — «La mia macchina è tedesca.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378849
 - `human/1000240.mp3` — «La mia penna è nuova.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/841982
+- `human/1010113.mp3` — «La mia porta è sempre aperta.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3380248
+- `human/1003893.mp3` — «La musica è universale.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373748
 - `human/1010001.mp3` — «La radio è troppo alta.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374606
 - `human/1001446.mp3` — «La tua borsa è aperta.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533256
 - `human/1001396.mp3` — «La vita non è facile.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1101599
+- `human/1000268.mp3` — «La vita è dolce.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1272386
+- `human/1009994.mp3` — «Lavoro perfino di domenica.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374304
+- `human/1000340.mp3` — «Lavoro tutto il giorno.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5486510
 - `human/1003969.mp3` — «Le banane sono gialle.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/691467
+- `human/1006474.mp3` — «Le banane sono ottime.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1100668
 - `human/1000217.mp3` — «Le mele sono rosse.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/430078
 - `human/1004642.mp3` — «Le sue scarpe sono marroni.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350606
+- `human/1010000.mp3` — «Lei ci insegna il francese.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374546
 - `human/1003963.mp3` — «Lei ha sette figli.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/643156
 - `human/1001306.mp3` — «Lei non è alta.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374011
 - `human/1000229.mp3` — «Lei non è povera.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/630125
 - `human/1001319.mp3` — «Lei parla molto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375656
+- `human/1006386.mp3` — «Lei sa parlare francese.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374537
 - `human/1000245.mp3` — «Lei scrive bene.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/963498
 - `human/1000256.mp3` — «Lei sembra felice.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1086091
+- `human/1003892.mp3` — «Lei va a scuola.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373720
 - `human/1006430.mp3` — «Lei è la mia migliore amica.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/520882
 - `human/1000307.mp3` — «Loro sono qui.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3365754
 - `human/1000307.mp3` — «Loro sono qui?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3365754
+- `human/993528.mp3` — «Lui sa leggere.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4516020
 - `human/1003280.mp3` — «Lui vive qui?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1062078
 - `human/1000277.mp3` — «Lui è giapponese?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1272422
+- `human/1000236.mp3` — «Lui è il mio capo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/808946
+- `human/1001307.mp3` — «Mangio sempre fuori casa.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374196
 - `human/994217.mp3` — «Maria è alta.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374001
+- `human/1003988.mp3` — «Mi dispiace per il ritardo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1090916
 - `human/1003265.mp3` — «Mi fa male la spalla.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/914298
 - `human/1000152.mp3` — «Mi fa male la testa.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4448
+- `human/1003219.mp3` — «Mi piacciono i capelli corti.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375782
 - `human/1000254.mp3` — «Mi piacciono i film.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1073634
 - `human/993389.mp3` — «Mi piacciono i gatti.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373503
 - `human/1000199.mp3` — «Mi piacciono le lasagne.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380207
 - `human/1001328.mp3` — «Mi piacciono le rose rosse.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378148
+- `human/1003380.mp3` — «Mi piacciono le tue idee.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/6025193
+- `human/1001462.mp3` — «Mi piacciono le vecchie automobili.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5209573
+- `human/1009997.mp3` — «Mi piace giocare a tennis.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374321
+- `human/1001420.mp3` — «Mi piace il baseball.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2030889
 - `human/993393.mp3` — «Mi piace il jazz.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373754
 - `human/993448.mp3` — «Mi piace il pesce.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/691464
 - `human/993424.mp3` — «Mi piace il rock.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380208
 - `human/1000173.mp3` — «Mi piace il tennis.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374328
+- `human/1001415.mp3` — «Mi piace il tuo cane.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1807372
+- `human/1010121.mp3` — «Mi piace l'atteggiamento di Tom.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533058
+- `human/1001335.mp3` — «Mi piace la cioccolata.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379727
 - `human/994236.mp3` — «Mi piace la frutta.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4262809
+- `human/1001339.mp3` — «Mi piace la musica pop.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380210
+- `human/1029962.mp3` — «Mi piace la pioggia.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/8820833
 - `human/1003314.mp3` — «Mi piace la pizza fredda.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2379822
 - `human/1000242.mp3` — «Mi piace la primavera.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/897934
 - `human/1000210.mp3` — «Mi piace la storia.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/410242
 - `human/1001377.mp3` — «Mi piace la sua musica.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/860635
+- `human/1010124.mp3` — «Mi piace stare con Tom.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533149
 - `human/1003211.mp3` — «Mi sento bene oggi.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374473
 - `human/994221.mp3` — «Mi sento felice.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379525
 - `human/1004664.mp3` — «Mi sento meglio oggi.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374474
+- `human/1010018.mp3` — «Mi sento un po' stanco.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378696
 - `human/1001416.mp3` — «Mi serve del latte.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1867236
 - `human/1003901.mp3` — «Mi serve una busta.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374495
 - `human/1001385.mp3` — «Mi sveglio presto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/967260
 - `human/1006400.mp3` — «Mia madre non può venire.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/377170
+- `human/1009986.mp3` — «Mia sorella ha un pianoforte.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373823
+- `human/1009988.mp3` — «Mia sorella piange spesso.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373864
+- `human/1010006.mp3` — «Mio padre adora la pizza.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375457
 - `human/1003205.mp3` — «Mio padre è alto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374000
+- `human/1001373.mp3` — «Mio padre è in casa.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/736746
 - `human/1006475.mp3` — «Mio padre è medico.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1101898
+- `human/1006426.mp3` — «Mio padre è un dottore.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/416623
 - `human/1010005.mp3` — «Nessuno mi capisce.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375355
 - `human/1000224.mp3` — «Noi studiamo musica.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/568596
 - `human/1003202.mp3` — «Non abbiamo zucchero.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373855
+- `human/1003199.mp3` — «Non c'è nessun problema!», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373783
 - `human/1004673.mp3` — «Non ci piace la pioggia.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/377100
 - `human/993418.mp3` — «Non essere triste.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379545
+- `human/1004700.mp3` — «Non faccio sport.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/602284
 - `human/1000247.mp3` — «Non fare tardi.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/984731
 - `human/1003911.mp3` — «Non hai sete?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375678
 - `human/1003999.mp3` — «Non ho la macchina.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1257658
 - `human/1000235.mp3` — «Non ho paura.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/769350
 - `human/1000267.mp3` — «Non ho sonno.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1272326
 - `human/1003273.mp3` — «Non ho sorelle.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/987822
+- `human/1003888.mp3` — «Non ho un gatto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373504
 - `human/1003379.mp3` — «Non mangio molto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5976881
+- `human/1003207.mp3` — «Non mi piacciono i cani.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374216
 - `human/1001361.mp3` — «Non mi piace il caffè.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/433049
 - `human/1004667.mp3` — «Non mi piace l'estate.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375462
 - `human/1004672.mp3` — «Non mi piace la primavera.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/376573
 - `human/1003189.mp3` — «Non sono ancora pronto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/351263
 - `human/994235.mp3` — «Non sono brutto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533157
 - `human/1004668.mp3` — «Non sono d'accordo con te.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375625
+- `human/1004669.mp3` — «Non sono d'accordo con voi.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375626
 - `human/1004036.mp3` — «Non sono fotogenico.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533129
 - `human/1000318.mp3` — «Non sono giovane.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533158
+- `human/1006521.mp3` — «Non sono molto paziente.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533126
+- `human/1003932.mp3` — «Non sono un insegnante.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380653
+- `human/1003991.mp3` — «Non temo la morte.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1111456
 - `human/1009981.mp3` — «Non viziare tuo figlio.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350634
 - `human/1004019.mp3` — «Non è bello?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2398383
 - `human/1003182.mp3` — «Non è importante.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4385
@@ -165,14 +261,21 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1004694.mp3` — «Oggi fa molto caldo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/409884
 - `human/1003210.mp3` — «Oggi è nuvoloso.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374468
 - `human/1003964.mp3` — «Oggi è sabato.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/662785
+- `human/1004695.mp3` — «Oggi è un giorno di festa.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/410803
 - `human/1003296.mp3` — «Ora sto studiando.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1317182
 - `human/1004704.mp3` — «Penso a te.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/628787
 - `human/1010094.mp3` — «Per favore, accendi una candela.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1198608
 - `human/1003966.mp3` — «Perché la neve è bianca?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/677748
 - `human/1000150.mp3` — «Perché lo chiedi?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4382
+- `human/1006490.mp3` — «Perché non rispondi?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1876935
+- `human/1006427.mp3` — «Perché sei così felice?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/425711
+- `human/1006553.mp3` — «Perché siete così felici?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5492129
 - `human/993402.mp3` — «Perfetto!», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374569
 - `human/1010136.mp3` — «Possiamo cominciare ora?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533189
+- `human/1010138.mp3` — «Possiamo spegnere la TV?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533192
+- `human/993483.mp3` — «Posso andare a casa?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1272365
 - `human/1006402.mp3` — «Posso aprire la finestra?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/377299
+- `human/1006531.mp3` — «Posso avere dell'acqua?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533200
 - `human/1010010.mp3` — «Posso avere questa arancia?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/376641
 - `human/1010075.mp3` — «Posso avere un sacchetto di carta?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/884238
 - `human/1004005.mp3` — «Posso contare su di te?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1516140
@@ -182,105 +285,162 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1004670.mp3` — «Posso usare questa bici?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375686
 - `human/1010038.mp3` — «Posso usare questa matita?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/409592
 - `human/1001452.mp3` — «Prendiamo un taxi.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4007802
+- `human/1010133.mp3` — «Puoi aprire questa porta?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533181
 - `human/1004715.mp3` — «Puoi studiare qui.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/926998
 - `human/1006452.mp3` — «Puoi usare questa penna.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/762997
 - `human/1006390.mp3` — «Puoi venire con me.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375629
+- `human/1004665.mp3` — «Qual è il tuo libro?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374527
 - `human/1006371.mp3` — «Qual è la tua chitarra?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373505
+- `human/1004747.mp3` — «Quale cane è il tuo?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1369321
 - `human/1006377.mp3` — «Quand'è il tuo compleanno?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374039
+- `human/1001358.mp3` — «Quando possiamo mangiare?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/410793
 - `human/1004645.mp3` — «Quanti anni ha quel cane?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/357983
+- `human/1009984.mp3` — «Quanto è profondo questo lago?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/351067
 - `human/1003257.mp3` — «Quell'uomo è morto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/772483
+- `human/1006558.mp3` — «Quella bicicletta è mia.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/6002740
 - `human/1003291.mp3` — «Quella casa è grande.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1271184
+- `human/1003941.mp3` — «Quella casa è la mia.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/409583
+- `human/1001293.mp3` — «Quella macchina è sua.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350772
 - `human/1000175.mp3` — «Quella è una bambola.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374616
+- `human/1010149.mp3` — «Questa banana è marcia.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5110231
+- `human/1006454.mp3` — «Questa macchina fotografica è economica.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/828747
 - `human/1010096.mp3` — «Questa minestra ha un buon sapore.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1274677
 - `human/1000190.mp3` — «Questa è la mia macchina.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378847
 - `human/1003891.mp3` — «Questa è la mia scuola.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373716
+- `human/1003266.mp3` — «Questa è la tua chiave.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/946701
 - `human/1003962.mp3` — «Questa è mia sorella.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/632220
 - `human/1003267.mp3` — «Questa è una matita.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/948092
+- `human/1006538.mp3` — «Questa è una storia vera.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4019979
 - `human/1006440.mp3` — «Queste mele sono grandi.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/632017
 - `human/1010047.mp3` — «Questi insetti pungono?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/430302
+- `human/1003897.mp3` — «Questo libro è mio.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373937
 - `human/1001302.mp3` — «Questo libro è nuovo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373934
+- `human/1004656.mp3` — «Questo libro è pesante.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373936
 - `human/1004655.mp3` — «Questo libro è piccolo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373935
 - `human/1003203.mp3` — «Questo libro è vecchio.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373938
 - `human/1006397.mp3` — «Questo video è noioso.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/376596
 - `human/1000176.mp3` — «Questo è il Giappone.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375247
+- `human/1001390.mp3` — «Questo è il mio libro.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1002962
 - `human/1000252.mp3` — «Questo è un cane.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1061083
+- `human/1000281.mp3` — «Questo è un leone.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1389728
 - `human/1004679.mp3` — «Rispondi alla domanda.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378899
 - `human/1003215.mp3` — «Roma è in Italia.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375345
+- `human/1010068.mp3` — «Sai chi è lei?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/711419
+- `human/1004647.mp3` — «Sai suonare la chitarra?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373507
+- `human/1010087.mp3` — «Sai usare un computer?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1089437
 - `human/1006470.mp3` — «Sei arrivato in treno?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1071896
 - `human/1000153.mp3` — «Sei il mio tipo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4492
+- `human/1004025.mp3` — «Sei solo un bambino.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3532965
 - `human/1001283.mp3` — «Sei un angelo!», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4398
 - `human/1003934.mp3` — «Sei un bravo ragazzo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/381431
+- `human/1003191.mp3` — «Sei uno studente?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373525
 - `human/1006378.mp3` — «Si lamentano sempre.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374190
 - `human/1003321.mp3` — «Siamo partiti in treno.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3353952
+- `human/1009982.mp3` — «Siamo tutti d'accordo con te.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350731
 - `human/1003916.mp3` — «Siamo vecchi amici.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/377187
 - `human/1001412.mp3` — «So la verità.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1516976
 - `human/1009976.mp3` — «So suonare la chitarra.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350296
 - `human/993410.mp3` — «Sono a casa.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378127
 - `human/1004711.mp3` — «Sono contro la guerra.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/741751
 - `human/1001318.mp3` — «Sono d'accordo con te.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375622
+- `human/1001317.mp3` — «Sono d'accordo con voi.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375621
+- `human/1004652.mp3` — «Sono fiero di mio figlio.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373766
+- `human/1003318.mp3` — «Sono il fratello di Tom.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3160416
 - `human/1003900.mp3` — «Sono libero la domenica.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374307
 - `human/1000166.mp3` — «Sono libero oggi.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373963
 - `human/1000168.mp3` — «Sono molto alto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374005
 - `human/1000189.mp3` — «Sono molto occupato.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378656
+- `human/1000266.mp3` — «Sono nella macchina.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1269471
+- `human/1001450.mp3` — «Sono sicuro di questo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3846961
 - `human/1000302.mp3` — «Sono troppo basso.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3052709
 - `human/1003946.mp3` — «Sono troppo occupato per andare.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/433298
+- `human/1004661.mp3` — «Sono un giocatore di tennis.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374325
 - `human/1000202.mp3` — «Sono un insegnante.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380660
+- `human/1000223.mp3` — «Sono un professore.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/559591
 - `human/993406.mp3` — «Sono un ragazzo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375671
 - `human/1000263.mp3` — «Sono un uomo libero.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1170293
+- `human/1003311.mp3` — «Sono un uomo sposato.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2196400
 - `human/993401.mp3` — «Sono un uomo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374464
+- `human/1000160.mp3` — «Sono uno studente.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373526
 - `human/1003221.mp3` — «Sta guardando la TV.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/376588
 - `human/1004696.mp3` — «Sto mangiando una mela.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/433542
+- `human/1004018.mp3` — «Sto scrivendo un libro.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2242234
 - `human/1006404.mp3` — «Sto scrivendo una lettera.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378681
 - `human/1004653.mp3` — «Suo figlio è un genio.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373767
+- `human/1004058.mp3` — «Ti piace il francese?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5449912
 - `human/1003909.mp3` — «Ti piace l'estate?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375460
 - `human/1003198.mp3` — «Ti piace la musica?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373746
+- `human/1001455.mp3` — «Ti piace la neve?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4271707
 - `human/1001375.mp3` — «Ti piace la pioggia?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/772645
 - `human/1003378.mp3` — «Ti piace la pizza?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5962402
 - `human/1003358.mp3` — «Ti senti fortunato?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4263976
+- `human/1003372.mp3` — «Tom gioca a tennis.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5475013
 - `human/1004751.mp3` — «Tom ha i baffi.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1652871
 - `human/1006479.mp3` — «Tom mangia molto poco.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1111479
 - `human/1010090.mp3` — «Tom non sa leggere in francese.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1113189
+- `human/1003287.mp3` — «Tom sa correre veloce.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1109920
 - `human/1001429.mp3` — «Tom sembra annoiato.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3018887
 - `human/1003286.mp3` — «Tom sta migliorando.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1109912
 - `human/1001399.mp3` — «Tom è molto gentile.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1109826
 - `human/1010089.mp3` — «Tom è più alto di me.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1110030
+- `human/1004731.mp3` — «Tom è un bravo cuoco.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1109815
 - `human/1001353.mp3` — «Tom è un mio amico.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/384865
 - `human/1010159.mp3` — «Tom è uno psicologo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5551662
+- `human/1003190.mp3` — «Tom è uno studente.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373523
 - `human/1004662.mp3` — «Tu pensi troppo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374400
 - `human/1001422.mp3` — «Tu sei medico?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2133054
+- `human/1006373.mp3` — «Tutti amano la musica.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373751
+- `human/1009975.mp3` — «Tutti gli autobus sono pieni.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350290
+- `human/1003313.mp3` — «Tutti gli uccelli possono volare?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2362978
+- `human/1003903.mp3` — «Un bambino ha bisogno di amore.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374623
 - `human/1004674.mp3` — «Un cane ha quattro zampe.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/377220
+- `human/1003938.mp3` — «Va a scuola a piedi.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/387547
+- `human/1003931.mp3` — «Vado a casa ora.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380649
 - `human/1003890.mp3` — «Vado in città.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373668
 - `human/1006369.mp3` — «Vai troppo lontano.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373487
 - `human/1003986.mp3` — «Vedo la televisione.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1015712
 - `human/994224.mp3` — «Vedo un leone.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/617569
+- `human/1010036.mp3` — «Vi piacciono i gatti neri?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/399833
 - `human/1004011.mp3` — «Vi piace l'estate?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2055948
+- `human/1009987.mp3` — «Vogliamo qualcosa di nuovo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373835
 - `human/1000191.mp3` — «Vogliamo un'auto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378854
+- `human/1010066.mp3` — «Voglio cantare una canzone.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/703592
 - `human/1003232.mp3` — «Voglio dell'acqua.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379646
+- `human/1010148.mp3` — «Voglio parlare con lui.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4396575
 - `human/1001371.mp3` — «Voglio quella borsa.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/704153
+- `human/1004729.mp3` — «Voglio un'altra birra.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1107340
 - `human/1001292.mp3` — «Voglio una chitarra.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350764
+- `human/1004681.mp3` — «Vuoi del ghiaccio?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379731
+- `human/1003201.mp3` — «Vuoi dello zucchero?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373852
 - `human/1001395.mp3` — «È andato là?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1073182
 - `human/1006467.mp3` — «È davvero orribile.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1006734
 - `human/1003238.mp3` — «È di mio fratello.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/382052
 - `human/1004001.mp3` — «È di mio padre.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1276454
 - `human/1000221.mp3` — «È il tuo libro.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/499809
 - `human/1010021.mp3` — «È la mia canzone preferita.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379635
+- `human/1003186.mp3` — «È la tua bicicletta questa?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350529
 - `human/1004635.mp3` — «È lontana da qui?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4422
 - `human/1000182.mp3` — «È molto bella.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/377254
 - `human/1003231.mp3` — «È molto occupata.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379242
 - `human/1003223.mp3` — «È molto onesto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/377251
 - `human/1001359.mp3` — «È ora di cena.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/415480
+- `human/1003905.mp3` — «È per la mia famiglia.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375307
 - `human/1001370.mp3` — «È pronta la cena?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/691465
 - `human/1003968.mp3` — «È pronta la colazione?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/691466
+- `human/1003297.mp3` — «È questo il nostro hotel?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1389727
 - `human/1003925.mp3` — «È sempre felice.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379527
 - `human/1003288.mp3` — «È solo un sogno.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1110071
 - `human/1009989.mp3` — «È un errore comune.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373876
 - `human/1001456.mp3` — «È un fiume?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4278250
+- `human/1010041.mp3` — «È un giocatore di tennis.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/415487
 - `human/1000151.mp3` — «È un gioco di parole.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4393
 - `human/1001367.mp3` — «È un ragazzo intelligente.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/612269
 - `human/1006456.mp3` — «È un regalo per te.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/896800
 - `human/1000234.mp3` — «È un segreto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/707930
 - `human/1003200.mp3` — «È un vecchio pianoforte.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373819
 - `human/1000289.mp3` — «È un'arma.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1894907
+- `human/1003917.mp3` — «È una buona idea!», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/377565
+- `human/1006448.mp3` — «È una donna tranquilla.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/711293
 - `human/1001405.mp3` — «È una dottoressa?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1274721
 - `human/1001324.mp3` — «È una sorpresa.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/376618
 - `human/1006502.mp3` — «È una storia molto triste.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2217351

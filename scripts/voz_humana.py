@@ -23,6 +23,7 @@ MP3 = RAW / "tatoeba_audio" / "mp3"
 PACK = ROOT / "web" / "public" / "content"
 AUDIO = ROOT / "web" / "public" / "audio"
 OK_LICENSES = {"CC BY 4.0", "CC BY-SA 4.0", "CC0 1.0"}
+MAX_HUMAN_BYTES = 8_000_000   # tope propio de la voz humana (aparte de los 48 MB de Piper): se baja solo al usarla; revisar en A2
 
 
 def key(t: str) -> str:
@@ -97,6 +98,8 @@ def main() -> None:
         "La app las usa en lugar de la voz sintética cuando el texto coincide.\n\n" + "\n".join(lines) + "\n", encoding="utf8")
     (PACK / "listening_human.json").write_text(json.dumps(bank, ensure_ascii=False, indent=1) + "\n", encoding="utf8")
     size = sum(f.stat().st_size for f in (AUDIO / "human").glob("*.mp3"))
+    if size > MAX_HUMAN_BYTES:
+        raise SystemExit(f"La voz humana pesa {size / 1e6:.1f} MB, más que el tope de {MAX_HUMAN_BYTES / 1e6:.0f} MB")
     print(f"audios: {len(rows)} (bajados ahora: {downloaded}), {size / 1e6:.1f} MB; banco del dictado: {len(bank)} frases")
 
 
