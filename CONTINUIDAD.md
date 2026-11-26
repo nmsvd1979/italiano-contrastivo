@@ -2,6 +2,13 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-25 (26) — Voz humana, segunda tanda: todas las candidatas restantes
+**Pedido del usuario:** «Sumar más voz humana» (después de aprobar la voz de NM1).
+**Hecho:** se auditaron las 243 candidatas A1 de NM1 que quedaban (todas de m04–m10; m01–m03, m11 y m12 no tienen más): 161 aprobadas y 82 rechazadas (imperativos antes de m11, clíticos, modismos, léxico de B1, casi repetidas). Están en `content/audits/2026-11-25-voz-humana.json` con `"tanda": 2`. Se aplicaron con `voz_humana_apply.py` (respaldo `authoring.pre-voz-humana-2.db`) y `voz_humana.py` bajó 160 audios. Ahora hay **442 grabaciones (5,3 MB)** y el dictado con voz humana tiene **353 frases**: m01 8, m02 8, m03 7, m04 36, m05 23, m06 60, m07 65, m08 45, m09 26, m10 66, m11 6, m12 3. `voz_humana.py` tiene un tope propio de 8 MB para la voz humana, aparte de los 48 MB de Piper. «Acerca de» ahora dice unas 440 frases.
+**Comprobado:** Python 1.288 y web 1.271 en verde, `tsc` limpio, build ok. Las unidades no cambiaron: `course.json` y `sentences.json` son los mismos. El audio total queda en unos 51 MB (44,7 de Piper, 5,3 humanos y las palabras).
+**No comprobado:** las grabaciones nuevas una por una; iPhone real.
+**Pendiente / siguiente paso:** m01–m03, m11 y m12 dependen de frases de módulos anteriores para completar su dictado (Tatoeba no tiene más). «Porto la media» en `rd_negozio`. Fuera de A1: A2 (Paso 0 de `docs/pistas-a2.md`).
+
 ## 2026-11-25 (25) — Voz humana de Tatoeba: reemplazo y dictado por módulo
 **Pedido del usuario:** «Ve si encuentras algo… ¿Serena no sirve?»; después autorizó bajar el índice de audio de Tatoeba (6,4 MB) y eligió «Reemplazar y sumar 200».
 **Hallazgos:** (1) **Serena**, según lo medido en `docs/plan-cierre-a1.md`: sirve para los sonidos (gn, z, c/g, gli) y alarga bien las dobles (cierre ×1,5–3,5), pero falla en la entonación de pregunta (7 de 10) y en «ss». Además es una sola voz femenina y siempre limpia: no prepara para escuchar a gente real. (2) El índice de Tatoeba trae, por audio, usuario, licencia y URL de atribución. En italiano hay 1.591 frases, todas de **NM1** con **CC BY 4.0**. NM1 no declara su idioma nativo, así que no se sabe si es nativo. (3) Solo 83 coincidían con frases de la app; en la base había 758 A1 más sin revisar.
