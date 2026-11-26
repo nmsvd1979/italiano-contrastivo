@@ -1,1 +1,244 @@
-{}
+{
+ "ERR_CLITIC_NE": [
+  {
+   "it": "Quanti fratelli hai? Ne ho due.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Hai delle mele? Sì, ne ho tre.",
+   "correct": "ne ho",
+   "wrong": "ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanti caffè bevi? Ne bevo due al giorno.",
+   "correct": "Ne bevo",
+   "wrong": "Bevo",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Hai fratelli? Sì, ne ho uno.",
+   "correct": "ne ho",
+   "wrong": "ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quante sorelle hai? Ne ho una.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Hai soldi? Ne ho pochi.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanti biscotti mangi? Ne mangio tre.",
+   "correct": "Ne mangio",
+   "wrong": "Mangio",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanti libri compri? Ne compro quattro.",
+   "correct": "Ne compro",
+   "wrong": "Compro",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quante amiche hai? Ne ho molte.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Guardi film? Ne guardo tanti.",
+   "correct": "Ne guardo",
+   "wrong": "Guardo",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quante mele vuoi? Ne voglio quattro.",
+   "correct": "Ne voglio",
+   "wrong": "Voglio",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Hai dubbi? Sì, ne ho molti.",
+   "correct": "ne ho",
+   "wrong": "ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Hai gatti? Sì, ne ho due.",
+   "correct": "ne ho",
+   "wrong": "ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanti panini vuoi? Ne voglio uno.",
+   "correct": "Ne voglio",
+   "wrong": "Voglio",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Hai della frutta? Sì, ne ho tanta.",
+   "correct": "ne ho",
+   "wrong": "ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanti figli ha Marco? Ne ha due.",
+   "correct": "Ne ha",
+   "wrong": "Ha",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanti amici inviti? Ne invito sei.",
+   "correct": "Ne invito",
+   "wrong": "Invito",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quante lezioni hai? Ne ho cinque alla settimana.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Scrivi messaggi? Ne scrivo tanti.",
+   "correct": "Ne scrivo",
+   "wrong": "Scrivo",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quante mail ricevi? Ne ricevo dieci al giorno.",
+   "correct": "Ne ricevo",
+   "wrong": "Ricevo",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanti film vedi? Ne vedo uno a settimana.",
+   "correct": "Ne vedo",
+   "wrong": "Vedo",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Hai delle foto? Sì, ne ho molte.",
+   "correct": "ne ho",
+   "wrong": "ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quante pizze mangiate? Ne mangiamo due.",
+   "correct": "Ne mangiamo",
+   "wrong": "Mangiamo",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanti libri leggi? Ne leggo uno al mese.",
+   "correct": "Ne leggo",
+   "wrong": "Leggo",
+   "kind": "omission",
+   "audit2": "ok"
+  }
+ ],
+ "ERR_AVVERBI_PASSATO": [
+  {
+   "it": "Non beve più.",
+   "correct": "Non beve più",
+   "wrong": "Già non beve",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non torno più.",
+   "correct": "Non torno più",
+   "wrong": "Già non torno",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non sei più mio amico.",
+   "correct": "Non sei più mio amico",
+   "wrong": "Già non sei mio amico",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Sei già stato a Parigi?",
+   "correct": "Sei già stato",
+   "wrong": "Hai già stato",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non sei più un bambino.",
+   "correct": "Non sei più un bambino",
+   "wrong": "Già non sei un bambino",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non sei più una bambina.",
+   "correct": "Non sei più una bambina",
+   "wrong": "Già non sei una bambina",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non sono più vegetariano.",
+   "correct": "Non sono più vegetariano",
+   "wrong": "Già non sono vegetariano",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Tom non vive più a Boston.",
+   "correct": "non vive più a Boston",
+   "wrong": "già non vive a Boston",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Sei già stato in Italia prima?",
+   "correct": "Sei già stato",
+   "wrong": "Hai già stato",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Noi non lavoriamo più per Tom.",
+   "correct": "non lavoriamo più",
+   "wrong": "già non lavoriamo",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  }
+ ]
+}
