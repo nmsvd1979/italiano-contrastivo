@@ -2,6 +2,11 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-26 (28) — Prueba en el iPhone: todo funciona
+**El usuario probó la app publicada en su iPhone** y dijo: «Ya lo probé, todo funciona bien, cualquier cosa te aviso». Con esto **A1 queda cerrado como material**: construido, auditado (2026-11-24 y 2026-11-25), publicado y probado en el dispositivo real. Para dar el nivel por terminado según la regla del proyecto falta que el usuario complete los módulos.
+**Límites que siguen (declarados, no se resuelven sin servidor ni nativo):** la corrección del habla y la escritura libres es autoevaluación; el italiano lo revisó una IA, no un nativo; no hay diálogos grabados por personas con licencia abierta.
+**Pendiente / siguiente paso:** cualquier falla que el usuario encuentre al usar la app; «Porto la media» en `rd_negozio`; después, A2 (Paso 0 de `docs/pistas-a2.md`).
+
 ## 2026-11-26 (27) — Publicado: la app con todo A1 en GitHub Pages
 **Pedido del usuario:** «Probar en el iPhone» y, después, «Sí, súbelo».
 **Hecho:** se subió `main` a GitHub (22 commits, de `88d5f67` a `0638652`). La publicación «Publicar app» (ejecución 45732438794) pasó las pruebas, el build y el despliegue. URL: https://nmsvd1979.github.io/italiano-contrastivo/
