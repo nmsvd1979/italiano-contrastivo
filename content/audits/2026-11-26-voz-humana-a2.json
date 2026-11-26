@@ -1,0 +1,2120 @@
+{
+ "fecha": "2026-11-26",
+ "revisor": "llm-audit (agente independiente, no hablante nativo)",
+ "alcance": "Frases de Tatoeba con audio humano (NM1, CC BY 4.0) sin uso, candidatas a A2 (3–12 palabras, filtro A2). Auditoría de italiano y asignación a módulo a2m01–a2m10; «es» escrito desde el italiano en las aceptadas. Sin uso aún: se aplicará al construir cada módulo.",
+ "criterios": "keep = italiano correcto, natural y de A2; reject = B1+ (congiuntivo, trapassato, remoto, combinados), fragmentos, modismos, temas inadecuados, casi duplicadas o difíciles de dictar.",
+ "veredictos": [
+  {
+   "id": "s_1984575",
+   "module": "a2m02",
+   "it": "Ero a casa.",
+   "v": "keep",
+   "audio": "993497",
+   "es": "Estaba en casa."
+  },
+  {
+   "id": "s_1111442",
+   "module": "a2m02",
+   "it": "Era un topo.",
+   "v": "keep",
+   "audio": "1000261",
+   "es": "Era un ratón."
+  },
+  {
+   "id": "s_1984581",
+   "module": "nivel",
+   "it": "Ero in casa.",
+   "v": "reject",
+   "audio": "1000291",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_3489981",
+   "module": "nivel",
+   "it": "Non fu facile.",
+   "v": "reject",
+   "audio": "1000309",
+   "nota": "passato remoto (B1+)"
+  },
+  {
+   "id": "s_3533143",
+   "module": "a2m07",
+   "it": "Verrò con Tom.",
+   "v": "keep",
+   "audio": "1004038",
+   "es": "Vendré con Tom."
+  },
+  {
+   "id": "s_380622",
+   "module": "nivel",
+   "it": "È un girasole.",
+   "v": "keep",
+   "audio": "1001341",
+   "es": "Es un girasol."
+  },
+  {
+   "id": "s_954924",
+   "module": "nivel",
+   "it": "Ho quasi fatto.",
+   "v": "reject",
+   "audio": "1001381",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_3532959",
+   "module": "nivel",
+   "it": "Lo hai mancato.",
+   "v": "reject",
+   "audio": "1004781",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_987797",
+   "module": "a2m04",
+   "it": "Mi hai sentito?",
+   "v": "keep",
+   "audio": "1001387",
+   "es": "¿Me has oído?"
+  },
+  {
+   "id": "s_381446",
+   "module": "a2m01",
+   "it": "Mi sei mancato.",
+   "v": "keep",
+   "audio": "994222",
+   "es": "Te he echado de menos."
+  },
+  {
+   "id": "s_3533086",
+   "module": "a2m02",
+   "it": "Non ero felice.",
+   "v": "keep",
+   "audio": "1000316",
+   "es": "No era feliz."
+  },
+  {
+   "id": "s_377563",
+   "module": "a2m04",
+   "it": "Non ne ho idea.",
+   "v": "keep",
+   "audio": "1000185",
+   "es": "No tengo idea."
+  },
+  {
+   "id": "s_5121182",
+   "module": "a2m01",
+   "it": "Sono andati lì.",
+   "v": "keep",
+   "audio": "1001461",
+   "es": "Ellos fueron allí."
+  },
+  {
+   "id": "s_1090893",
+   "module": "a2m04",
+   "it": "Chi lo ha fatto?",
+   "v": "keep",
+   "audio": "993474",
+   "es": "¿Quién lo hizo?"
+  },
+  {
+   "id": "s_1310220",
+   "module": "nivel",
+   "it": "Egli aveva sete.",
+   "v": "reject",
+   "audio": "1000280",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_626095",
+   "module": "a2m02",
+   "it": "Mi sentivo solo.",
+   "v": "keep",
+   "audio": "994225",
+   "es": "Me sentía solo."
+  },
+  {
+   "id": "s_350931",
+   "module": "a2m08",
+   "it": "Non giocare qua.",
+   "v": "keep",
+   "audio": "1001294",
+   "es": "No juegues aquí."
+  },
+  {
+   "id": "s_1509964",
+   "module": "a2m04",
+   "it": "Ti ho svegliato.",
+   "v": "keep",
+   "audio": "1000282",
+   "es": "Te desperté."
+  },
+  {
+   "id": "s_381447",
+   "module": "nivel",
+   "it": "Ti sono mancato?",
+   "v": "reject",
+   "audio": "1001349",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_4081576",
+   "module": "nivel",
+   "it": "Tom fu adottato.",
+   "v": "reject",
+   "audio": "1001453",
+   "nota": "passato remoto (B1+)"
+  },
+  {
+   "id": "s_396597",
+   "module": "a2m04",
+   "it": "Dove l'hai preso?",
+   "v": "keep",
+   "audio": "1006417",
+   "es": "¿Dónde lo conseguiste?"
+  },
+  {
+   "id": "s_1071813",
+   "module": "a2m02",
+   "it": "Eri con qualcuno?",
+   "v": "keep",
+   "audio": "1006469",
+   "es": "¿Estabas con alguien?"
+  },
+  {
+   "id": "s_2205893",
+   "module": "a2m01",
+   "it": "Hai dormito bene?",
+   "v": "keep",
+   "audio": "1004017",
+   "es": "¿Dormiste bien?"
+  },
+  {
+   "id": "s_940163",
+   "module": "a2m01",
+   "it": "Ho avuto fortuna.",
+   "v": "keep",
+   "audio": "993460",
+   "es": "Tuve suerte."
+  },
+  {
+   "id": "s_699598",
+   "module": "a2m04",
+   "it": "Ho visto il cane.",
+   "v": "keep",
+   "audio": "1000233",
+   "es": "Vi al perro."
+  },
+  {
+   "id": "s_373497",
+   "module": "nivel",
+   "it": "Ho visto un cane.",
+   "v": "reject",
+   "audio": "993387",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_1257653",
+   "module": "nivel",
+   "it": "Il caso è chiuso.",
+   "v": "keep",
+   "audio": "1003998",
+   "es": "El caso está cerrado."
+  },
+  {
+   "id": "s_701063",
+   "module": "nivel",
+   "it": "Lo sentii uscire.",
+   "v": "reject",
+   "audio": "1003971",
+   "nota": "passato remoto (B1+)"
+  },
+  {
+   "id": "s_350452",
+   "module": "nivel",
+   "it": "Lo vidi scappare.",
+   "v": "reject",
+   "audio": "1003879",
+   "nota": "passato remoto (B1+)"
+  },
+  {
+   "id": "s_2112196",
+   "module": "nivel",
+   "it": "Mi hai frainteso.",
+   "v": "reject",
+   "audio": "1006496",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_382051",
+   "module": "a2m07",
+   "it": "Nessuno lo saprà.",
+   "v": "keep",
+   "audio": "1000206",
+   "es": "Nadie lo sabrá."
+  },
+  {
+   "id": "s_3351029",
+   "module": "a2m08",
+   "it": "Non fare ritardo.",
+   "v": "keep",
+   "audio": "1000304",
+   "es": "No llegues tarde."
+  },
+  {
+   "id": "s_656309",
+   "module": "a2m08",
+   "it": "Non ridere di me.",
+   "v": "keep",
+   "audio": "1003253",
+   "es": "No te rías de mí."
+  },
+  {
+   "id": "s_3533139",
+   "module": "nivel",
+   "it": "Pregherò per Tom.",
+   "v": "reject",
+   "audio": "1003339",
+   "nota": "tema inadecuado o violento"
+  },
+  {
+   "id": "s_1280827",
+   "module": "nivel",
+   "it": "Smise di parlare.",
+   "v": "reject",
+   "audio": "1004002",
+   "nota": "passato remoto (B1+)"
+  },
+  {
+   "id": "s_928127",
+   "module": "nivel",
+   "it": "Sono un tennista.",
+   "v": "keep",
+   "audio": "1004716",
+   "es": "Soy tenista."
+  },
+  {
+   "id": "s_1194871",
+   "module": "nivel",
+   "it": "Sì che lo voglio.",
+   "v": "reject",
+   "audio": "993478",
+   "nota": "tema inadecuado o violento"
+  },
+  {
+   "id": "s_3779339",
+   "module": "nivel",
+   "it": "Tom non lo saprà.",
+   "v": "reject",
+   "audio": "1000323",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_2615774",
+   "module": "a2m04",
+   "it": "Tom troverà Mary.",
+   "v": "keep",
+   "audio": "1004761",
+   "es": "Tom encontrará a Mary."
+  },
+  {
+   "id": "s_711473",
+   "module": "nivel",
+   "it": "È stata promossa.",
+   "v": "reject",
+   "audio": "1003256",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_1248113",
+   "module": "a2m02",
+   "it": "C'era molto vento.",
+   "v": "keep",
+   "audio": "1003290",
+   "es": "Había mucho viento."
+  },
+  {
+   "id": "s_635492",
+   "module": "a2m07",
+   "it": "Chi verrà con noi?",
+   "v": "keep",
+   "audio": "1010054",
+   "es": "¿Quién vendrá con nosotros?"
+  },
+  {
+   "id": "s_1478311",
+   "module": "nivel",
+   "it": "Fu baciata da lui.",
+   "v": "reject",
+   "audio": "1010100",
+   "nota": "passato remoto (B1+)"
+  },
+  {
+   "id": "s_378718",
+   "module": "nivel",
+   "it": "Ha dormito un'ora.",
+   "v": "reject",
+   "audio": "1001330",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_4108291",
+   "module": "a2m01",
+   "it": "Ha fatto una foto.",
+   "v": "keep",
+   "audio": "1003353",
+   "es": "Sacó una foto."
+  },
+  {
+   "id": "s_1003087",
+   "module": "a2m01",
+   "it": "Ho letto il libro.",
+   "v": "keep",
+   "audio": "1001391",
+   "es": "He leído el libro."
+  },
+  {
+   "id": "s_374301",
+   "module": "a2m06",
+   "it": "Ieri era domenica.",
+   "v": "keep",
+   "audio": "1006380",
+   "es": "Ayer era domingo."
+  },
+  {
+   "id": "s_969310",
+   "module": "a2m04",
+   "it": "L'ho avuto gratis.",
+   "v": "keep",
+   "audio": "1003271",
+   "es": "Lo conseguí gratis."
+  },
+  {
+   "id": "s_3349538",
+   "module": "a2m01",
+   "it": "Lei dove è andata?",
+   "v": "keep",
+   "audio": "1004766",
+   "es": "¿Adónde fue ella?"
+  },
+  {
+   "id": "s_977544",
+   "module": "a2m04",
+   "it": "Lei gli obbedisce.",
+   "v": "keep",
+   "audio": "1000246",
+   "es": "Ella le obedece."
+  },
+  {
+   "id": "s_1272420",
+   "module": "nivel",
+   "it": "Mi sto divertendo.",
+   "v": "keep",
+   "audio": "1000276",
+   "es": "Me estoy divirtiendo."
+  },
+  {
+   "id": "s_991812",
+   "module": "a2m01",
+   "it": "Non chiamarmi più.",
+   "v": "keep",
+   "audio": "1006464",
+   "es": "No me llames más."
+  },
+  {
+   "id": "s_3533131",
+   "module": "nivel",
+   "it": "Non ero preparato.",
+   "v": "reject",
+   "audio": "1003337",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_2128726",
+   "module": "a2m08",
+   "it": "Non essere deluso.",
+   "v": "keep",
+   "audio": "1006498",
+   "es": "No estés decepcionado."
+  },
+  {
+   "id": "s_3505219",
+   "module": "a2m01",
+   "it": "Non ha funzionato.",
+   "v": "keep",
+   "audio": "1000310",
+   "es": "No funcionó."
+  },
+  {
+   "id": "s_5449890",
+   "module": "a2m10",
+   "it": "Pensi in francese?",
+   "v": "keep",
+   "audio": "1010155",
+   "es": "¿Piensas en francés?"
+  },
+  {
+   "id": "s_365719",
+   "module": "a2m07",
+   "it": "Pioverà di sicuro.",
+   "v": "keep",
+   "audio": "1003886",
+   "es": "Seguro que lloverá."
+  },
+  {
+   "id": "s_378655",
+   "module": "nivel",
+   "it": "Sono occupato ora.",
+   "v": "reject",
+   "audio": "994219",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_1174158",
+   "module": "a2m02",
+   "it": "Tom odiava Boston.",
+   "v": "keep",
+   "audio": "1003289",
+   "es": "Tom odiaba Boston."
+  },
+  {
+   "id": "s_5119060",
+   "module": "nivel",
+   "it": "È diventato matto.",
+   "v": "reject",
+   "audio": "1001459",
+   "nota": "tema inadecuado o violento"
+  },
+  {
+   "id": "s_5496786",
+   "module": "a2m02",
+   "it": "A Tom piaceva Mary.",
+   "v": "keep",
+   "audio": "1000341",
+   "es": "A Tom le gustaba Mary."
+  },
+  {
+   "id": "s_4680",
+   "module": "a2m04",
+   "it": "Ce l'abbiamo fatta!",
+   "v": "keep",
+   "audio": "993382",
+   "es": "¡Lo logramos!"
+  },
+  {
+   "id": "s_388816",
+   "module": "a2m01",
+   "it": "Che cos'è successo?",
+   "v": "keep",
+   "audio": "1000207",
+   "es": "¿Qué ocurrió?"
+  },
+  {
+   "id": "s_3345480",
+   "module": "a2m01",
+   "it": "Ci siamo divertiti.",
+   "v": "keep",
+   "audio": "993507",
+   "es": "Nos divertimos."
+  },
+  {
+   "id": "s_1100240",
+   "module": "a2m02",
+   "it": "Era molto occupata.",
+   "v": "keep",
+   "audio": "1003284",
+   "es": "Estaba muy ocupada."
+  },
+  {
+   "id": "s_606194",
+   "module": "nivel",
+   "it": "Ero impegnato ieri.",
+   "v": "reject",
+   "audio": "1006435",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_417031",
+   "module": "a2m10",
+   "it": "Ha perso il lavoro.",
+   "v": "keep",
+   "audio": "1001360",
+   "es": "Perdió su trabajo."
+  },
+  {
+   "id": "s_5512094",
+   "module": "a2m01",
+   "it": "Ho bevuto il caffè.",
+   "v": "keep",
+   "audio": "1004061",
+   "es": "Bebí el café."
+  },
+  {
+   "id": "s_373872",
+   "module": "a2m01",
+   "it": "Ho fatto un errore.",
+   "v": "keep",
+   "audio": "1001300",
+   "es": "Cometí un error."
+  },
+  {
+   "id": "s_820620",
+   "module": "a2m04",
+   "it": "Ho visto tuo padre.",
+   "v": "keep",
+   "audio": "1003261",
+   "es": "Vi a tu padre."
+  },
+  {
+   "id": "s_379778",
+   "module": "a2m02",
+   "it": "Ieri faceva freddo.",
+   "v": "keep",
+   "audio": "1010025",
+   "es": "Ayer hacía frío."
+  },
+  {
+   "id": "s_701196",
+   "module": "a2m04",
+   "it": "L'hai visto uscire?",
+   "v": "keep",
+   "audio": "1010060",
+   "es": "¿Lo viste salir?"
+  },
+  {
+   "id": "s_377637",
+   "module": "a2m02",
+   "it": "L'oceano era calmo.",
+   "v": "keep",
+   "audio": "1004677",
+   "es": "El océano estaba calmado."
+  },
+  {
+   "id": "s_2112198",
+   "module": "nivel",
+   "it": "Mi avete frainteso.",
+   "v": "reject",
+   "audio": "1006497",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_374477",
+   "module": "nivel",
+   "it": "Oggi sono occupato.",
+   "v": "keep",
+   "audio": "1001314",
+   "es": "Hoy estoy ocupado."
+  },
+  {
+   "id": "s_374403",
+   "module": "nivel",
+   "it": "Penso che sia vero.",
+   "v": "reject",
+   "audio": "1003209",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_350971",
+   "module": "nivel",
+   "it": "Sei stato occupato.",
+   "v": "reject",
+   "audio": "1004643",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_1111919",
+   "module": "a2m07",
+   "it": "Tom non ti aiuterà.",
+   "v": "keep",
+   "audio": "1004733",
+   "es": "Tom no te ayudará."
+  },
+  {
+   "id": "s_4261235",
+   "module": "a2m04",
+   "it": "Tom ti ha chiamato.",
+   "v": "keep",
+   "audio": "1000325",
+   "es": "Tom te llamó."
+  },
+  {
+   "id": "s_351140",
+   "module": "a2m06",
+   "it": "Tornerò per le sei.",
+   "v": "keep",
+   "audio": "1004644",
+   "es": "Volveré para las seis."
+  },
+  {
+   "id": "s_3532962",
+   "module": "a2m10",
+   "it": "Troverai un lavoro.",
+   "v": "keep",
+   "audio": "1004023",
+   "es": "Encontrarás un trabajo."
+  },
+  {
+   "id": "s_3531983",
+   "module": "a2m05",
+   "it": "È ciò che ho detto.",
+   "v": "keep",
+   "audio": "1004022",
+   "es": "Es lo que dije."
+  },
+  {
+   "id": "s_949664",
+   "module": "nivel",
+   "it": "È una principiante.",
+   "v": "keep",
+   "audio": "1003268",
+   "es": "Es una principiante."
+  },
+  {
+   "id": "s_2143643",
+   "module": "nivel",
+   "it": "Chi lo ha disegnato?",
+   "v": "reject",
+   "audio": "993501",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_5121162",
+   "module": "nivel",
+   "it": "Ci mostri la stanza.",
+   "v": "reject",
+   "audio": "1003363",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_378689",
+   "module": "a2m02",
+   "it": "Ero un po' sorpreso.",
+   "v": "keep",
+   "audio": "1010017",
+   "es": "Estaba un poco sorprendido."
+  },
+  {
+   "id": "s_740725",
+   "module": "nivel",
+   "it": "Hai visto mio padre?",
+   "v": "reject",
+   "audio": "1006451",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_3543381",
+   "module": "nivel",
+   "it": "Ho bevuto del caffè.",
+   "v": "reject",
+   "audio": "1000321",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_1003104",
+   "module": "a2m05",
+   "it": "Ho bevuto del latte.",
+   "v": "keep",
+   "audio": "993467",
+   "es": "Bebí un poco de leche."
+  },
+  {
+   "id": "s_350796",
+   "module": "a2m01",
+   "it": "Ho dormito nove ore.",
+   "v": "keep",
+   "audio": "1003881",
+   "es": "Dormí nueve horas."
+  },
+  {
+   "id": "s_2119874",
+   "module": "nivel",
+   "it": "Ho il passe-partout.",
+   "v": "reject",
+   "audio": "1010106",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_351114",
+   "module": "a2m01",
+   "it": "Ho perso l'orologio.",
+   "v": "keep",
+   "audio": "1001296",
+   "es": "Perdí el reloj."
+  },
+  {
+   "id": "s_814066",
+   "module": "nivel",
+   "it": "Ho smesso di fumare.",
+   "v": "reject",
+   "audio": "1000238",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_373940",
+   "module": "nivel",
+   "it": "Ho venduto un libro.",
+   "v": "reject",
+   "audio": "1000165",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_1020290",
+   "module": "nivel",
+   "it": "Lascia che parli io.",
+   "v": "reject",
+   "audio": "1010083",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_381449",
+   "module": "nivel",
+   "it": "Mi mancherete tutti.",
+   "v": "reject",
+   "audio": "1004688",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_377566",
+   "module": "a2m01",
+   "it": "Mi è venuta un'idea.",
+   "v": "keep",
+   "audio": "1003918",
+   "es": "Se me ocurrió una idea."
+  },
+  {
+   "id": "s_1867379",
+   "module": "a2m05",
+   "it": "Non hai detto nulla.",
+   "v": "keep",
+   "audio": "1003300",
+   "es": "No dijiste nada."
+  },
+  {
+   "id": "s_950242",
+   "module": "a2m04",
+   "it": "Non l'ho incontrato.",
+   "v": "keep",
+   "audio": "1003269",
+   "es": "No lo encontré."
+  },
+  {
+   "id": "s_1926248",
+   "module": "a2m07",
+   "it": "Pagherò io il conto.",
+   "v": "keep",
+   "audio": "1003302",
+   "es": "Yo pagaré la cuenta."
+  },
+  {
+   "id": "s_1287482",
+   "module": "a2m01",
+   "it": "Sono appena tornato.",
+   "v": "keep",
+   "audio": "1004744",
+   "es": "Acabo de volver."
+  },
+  {
+   "id": "s_5223860",
+   "module": "a2m07",
+   "it": "Tom andrà per primo.",
+   "v": "keep",
+   "audio": "1004056",
+   "es": "Tom irá primero."
+  },
+  {
+   "id": "s_2028894",
+   "module": "nivel",
+   "it": "Tom mi ha ingannato.",
+   "v": "reject",
+   "audio": "1000293",
+   "nota": "tema inadecuado o violento"
+  },
+  {
+   "id": "s_702563",
+   "module": "nivel",
+   "it": "Vorrei averla vista.",
+   "v": "reject",
+   "audio": "1010063",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_691383",
+   "module": "a2m07",
+   "it": "Vorrei essere ricco.",
+   "v": "keep",
+   "audio": "1003967",
+   "es": "Quisiera ser rico."
+  },
+  {
+   "id": "s_1243680",
+   "module": "a2m01",
+   "it": "È andato al negozio.",
+   "v": "keep",
+   "audio": "1004740",
+   "es": "Fue a la tienda."
+  },
+  {
+   "id": "s_388769",
+   "module": "a2m02",
+   "it": "È arrabbiata con me.",
+   "v": "keep",
+   "audio": "1003240",
+   "es": "Está enfadada conmigo."
+  },
+  {
+   "id": "s_612486",
+   "module": "a2m01",
+   "it": "Chi ha rotto il vaso?",
+   "v": "keep",
+   "audio": "1004701",
+   "es": "¿Quién rompió el jarrón?"
+  },
+  {
+   "id": "s_3353939",
+   "module": "nivel",
+   "it": "Ci domandiamo perché.",
+   "v": "reject",
+   "audio": "1000306",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_701384",
+   "module": "nivel",
+   "it": "Ci ha fatto da guida.",
+   "v": "reject",
+   "audio": "1006444",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_1317029",
+   "module": "a2m08",
+   "it": "Fai come ti ho detto.",
+   "v": "keep",
+   "audio": "1001410",
+   "es": "Haz como te dije."
+  },
+  {
+   "id": "s_373494",
+   "module": "nivel",
+   "it": "Ha agito saggiamente.",
+   "v": "reject",
+   "audio": "1004646",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_837951",
+   "module": "a2m01",
+   "it": "Hai finito il lavoro?",
+   "v": "keep",
+   "audio": "1010073",
+   "es": "¿Terminaste el trabajo?"
+  },
+  {
+   "id": "s_374054",
+   "module": "a2m09",
+   "it": "Hanno perso il treno.",
+   "v": "keep",
+   "audio": "1009992",
+   "es": "Perdieron el tren."
+  },
+  {
+   "id": "s_2051488",
+   "module": "a2m01",
+   "it": "Ho bruciato la torta.",
+   "v": "keep",
+   "audio": "1003304",
+   "es": "Quemé el pastel."
+  },
+  {
+   "id": "s_373939",
+   "module": "a2m01",
+   "it": "Ho comprato un libro.",
+   "v": "keep",
+   "audio": "1001303",
+   "es": "Compré un libro."
+  },
+  {
+   "id": "s_778303",
+   "module": "a2m07",
+   "it": "Ho parlato di musica.",
+   "v": "keep",
+   "audio": "1006453",
+   "es": "Hablé de música."
+  },
+  {
+   "id": "s_351079",
+   "module": "a2m09",
+   "it": "Ho viaggiato da solo.",
+   "v": "keep",
+   "audio": "1006367",
+   "es": "Viajé solo."
+  },
+  {
+   "id": "s_3533055",
+   "module": "nivel",
+   "it": "Ho visto Tom in giro.",
+   "v": "reject",
+   "audio": "1004792",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_632233",
+   "module": "a2m02",
+   "it": "Il cane nero correva.",
+   "v": "keep",
+   "audio": "1003250",
+   "es": "El perro negro corría."
+  },
+  {
+   "id": "s_3884912",
+   "module": "a2m01",
+   "it": "L'ho già detto a Tom.",
+   "v": "keep",
+   "audio": "1004048",
+   "es": "Ya se lo dije a Tom."
+  },
+  {
+   "id": "s_381448",
+   "module": "nivel",
+   "it": "Mi sei mancato molto.",
+   "v": "reject",
+   "audio": "1003935",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_749811",
+   "module": "a2m01",
+   "it": "Mi sono chiuso fuori.",
+   "v": "keep",
+   "audio": "1004712",
+   "es": "Me quedé encerrado afuera."
+  },
+  {
+   "id": "s_375359",
+   "module": "a2m05",
+   "it": "Nessuno era presente.",
+   "v": "keep",
+   "audio": "1003906",
+   "es": "Nadie estaba presente."
+  },
+  {
+   "id": "s_1273339",
+   "module": "a2m05",
+   "it": "Non ho visto nessuno.",
+   "v": "keep",
+   "audio": "1004742",
+   "es": "No vi a nadie."
+  },
+  {
+   "id": "s_350350",
+   "module": "a2m02",
+   "it": "Non intendevo questo.",
+   "v": "keep",
+   "audio": "1001288",
+   "es": "No me refería a eso."
+  },
+  {
+   "id": "s_1299433",
+   "module": "a2m08",
+   "it": "Non toccare il vetro.",
+   "v": "keep",
+   "audio": "1006488",
+   "es": "No toques el vidrio."
+  },
+  {
+   "id": "s_375356",
+   "module": "nivel",
+   "it": "Non è venuto nessuno.",
+   "v": "reject",
+   "audio": "993405",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_350990",
+   "module": "a2m07",
+   "it": "Quello non succederà.",
+   "v": "keep",
+   "audio": "1003188",
+   "es": "Eso no pasará."
+  },
+  {
+   "id": "s_374055",
+   "module": "a2m09",
+   "it": "Sono sceso dal treno.",
+   "v": "keep",
+   "audio": "1004659",
+   "es": "Me bajé del tren."
+  },
+  {
+   "id": "s_1463411",
+   "module": "nivel",
+   "it": "Tom ha bevuto troppo.",
+   "v": "reject",
+   "audio": "1004748",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_4617573",
+   "module": "nivel",
+   "it": "Tom ha già chiamato ?",
+   "v": "reject",
+   "audio": "1004055",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_1271170",
+   "module": "nivel",
+   "it": "Tom salì in macchina.",
+   "v": "reject",
+   "audio": "1006485",
+   "nota": "passato remoto (B1+)"
+  },
+  {
+   "id": "s_1109809",
+   "module": "a2m01",
+   "it": "Tom è stato anche là.",
+   "v": "keep",
+   "audio": "1004730",
+   "es": "Tom también estuvo allí."
+  },
+  {
+   "id": "s_3361523",
+   "module": "nivel",
+   "it": "Anch'io sono stato lì.",
+   "v": "reject",
+   "audio": "1003322",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_376182",
+   "module": "nivel",
+   "it": "Chi ha rotto la tazza?",
+   "v": "reject",
+   "audio": "1003913",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_374613",
+   "module": "nivel",
+   "it": "Chi ha scritto Amleto?",
+   "v": "reject",
+   "audio": "1003213",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_377272",
+   "module": "a2m02",
+   "it": "Eravamo molto stanchi.",
+   "v": "keep",
+   "audio": "1004675",
+   "es": "Estábamos muy cansados."
+  },
+  {
+   "id": "s_3532971",
+   "module": "nivel",
+   "it": "Hai infranto la legge.",
+   "v": "reject",
+   "audio": "1004027",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_414478",
+   "module": "a2m10",
+   "it": "Ho avuto un incidente.",
+   "v": "keep",
+   "audio": "1003246",
+   "es": "Tuve un accidente."
+  },
+  {
+   "id": "s_3532873",
+   "module": "a2m04",
+   "it": "Lo hai fatto di nuovo.",
+   "v": "keep",
+   "audio": "1003325",
+   "es": "Lo hiciste otra vez."
+  },
+  {
+   "id": "s_949486",
+   "module": "a2m01",
+   "it": "Mi sono appena alzato.",
+   "v": "keep",
+   "audio": "1000244",
+   "es": "Acabo de levantarme."
+  },
+  {
+   "id": "s_1073688",
+   "module": "a2m02",
+   "it": "Mia sorella è sposata.",
+   "v": "keep",
+   "audio": "1006471",
+   "es": "Mi hermana está casada."
+  },
+  {
+   "id": "s_5887928",
+   "module": "a2m04",
+   "it": "Ne abbiamo abbastanza.",
+   "v": "keep",
+   "audio": "1000345",
+   "es": "Ya tenemos suficiente."
+  },
+  {
+   "id": "s_899254",
+   "module": "a2m04",
+   "it": "Ne comprerò uno nuovo.",
+   "v": "keep",
+   "audio": "1003979",
+   "es": "Compraré uno nuevo."
+  },
+  {
+   "id": "s_1317507",
+   "module": "a2m08",
+   "it": "Non dire stupidaggini!",
+   "v": "keep",
+   "audio": "1004745",
+   "es": "No digas tonterías."
+  },
+  {
+   "id": "s_694337",
+   "module": "a2m01",
+   "it": "Non è ancora arrivato.",
+   "v": "keep",
+   "audio": "1003970",
+   "es": "Todavía no ha llegado."
+  },
+  {
+   "id": "s_401787",
+   "module": "a2m04",
+   "it": "Perché l'hai comprato?",
+   "v": "keep",
+   "audio": "1004691",
+   "es": "¿Por qué lo compraste?"
+  },
+  {
+   "id": "s_1287478",
+   "module": "nivel",
+   "it": "Sono appena ritornato.",
+   "v": "reject",
+   "audio": "1004743",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_350545",
+   "module": "a2m08",
+   "it": "Stai zitto un momento.",
+   "v": "keep",
+   "audio": "1006364",
+   "es": "Cállate un momento."
+  },
+  {
+   "id": "s_1154116",
+   "module": "nivel",
+   "it": "Tom era davvero matto.",
+   "v": "reject",
+   "audio": "1004736",
+   "nota": "tema inadecuado o violento"
+  },
+  {
+   "id": "s_1122072",
+   "module": "nivel",
+   "it": "Tom è andato a Boston.",
+   "v": "reject",
+   "audio": "1004735",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_702292",
+   "module": "nivel",
+   "it": "Vorrei essere giovane.",
+   "v": "reject",
+   "audio": "1004707",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_410947",
+   "module": "a2m03",
+   "it": "Che cos'hai fatto dopo?",
+   "v": "keep",
+   "audio": "1006421",
+   "es": "¿Qué hiciste después?"
+  },
+  {
+   "id": "s_988471",
+   "module": "a2m02",
+   "it": "Era una giornata calda.",
+   "v": "keep",
+   "audio": "1003274",
+   "es": "Era un día caluroso."
+  },
+  {
+   "id": "s_3533000",
+   "module": "a2m01",
+   "it": "Hai fatto la tua parte.",
+   "v": "keep",
+   "audio": "1004030",
+   "es": "Hiciste tu parte."
+  },
+  {
+   "id": "s_3532899",
+   "module": "nivel",
+   "it": "Hai fatto piangere Tom.",
+   "v": "reject",
+   "audio": "1003326",
+   "nota": "tema inadecuado o violento"
+  },
+  {
+   "id": "s_4645",
+   "module": "a2m09",
+   "it": "Hai lasciato la mancia?",
+   "v": "keep",
+   "audio": "1004637",
+   "es": "¿Dejaste propina?"
+  },
+  {
+   "id": "s_409382",
+   "module": "a2m07",
+   "it": "Hai sentito le notizie?",
+   "v": "keep",
+   "audio": "1006418",
+   "es": "¿Has oído las noticias?"
+  },
+  {
+   "id": "s_1003133",
+   "module": "a2m05",
+   "it": "Ho comprato quell'auto.",
+   "v": "keep",
+   "audio": "1003275",
+   "es": "Compré ese coche."
+  },
+  {
+   "id": "s_379715",
+   "module": "nivel",
+   "it": "Il suo naso sanguinava.",
+   "v": "reject",
+   "audio": "1000196",
+   "nota": "tema inadecuado o violento"
+  },
+  {
+   "id": "s_374052",
+   "module": "a2m09",
+   "it": "Il treno era affollato.",
+   "v": "keep",
+   "audio": "1009991",
+   "es": "El tren estaba lleno."
+  },
+  {
+   "id": "s_378178",
+   "module": "a2m06",
+   "it": "L'orologio è sbagliato.",
+   "v": "keep",
+   "audio": "1003919",
+   "es": "El reloj está mal."
+  },
+  {
+   "id": "s_2003388",
+   "module": "a2m01",
+   "it": "Le ragazze hanno vinto.",
+   "v": "keep",
+   "audio": "1000292",
+   "es": "Las chicas ganaron."
+  },
+  {
+   "id": "s_814010",
+   "module": "a2m05",
+   "it": "Mi ha fatto un vestito.",
+   "v": "keep",
+   "audio": "1003260",
+   "es": "Me hizo un vestido."
+  },
+  {
+   "id": "s_988193",
+   "module": "nivel",
+   "it": "Mia madre è arrabbiata.",
+   "v": "reject",
+   "audio": "1003984",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_410810",
+   "module": "nivel",
+   "it": "Mio padre era occupato.",
+   "v": "reject",
+   "audio": "1003943",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_383776",
+   "module": "a2m02",
+   "it": "Non era mia intenzione.",
+   "v": "keep",
+   "audio": "1010033",
+   "es": "No era mi intención."
+  },
+  {
+   "id": "s_378888",
+   "module": "nivel",
+   "it": "Tom ha perso il lavoro.",
+   "v": "reject",
+   "audio": "1003230",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_701477",
+   "module": "nivel",
+   "it": "Vorrei essere più alto.",
+   "v": "reject",
+   "audio": "1006446",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_381869",
+   "module": "a2m01",
+   "it": "Abbiamo camminato molto.",
+   "v": "keep",
+   "audio": "1001351",
+   "es": "Caminamos mucho."
+  },
+  {
+   "id": "s_741773",
+   "module": "a2m01",
+   "it": "Che cosa hai fatto oggi?",
+   "v": "keep",
+   "audio": "1010070",
+   "es": "¿Qué hiciste hoy?"
+  },
+  {
+   "id": "s_4226660",
+   "module": "a2m01",
+   "it": "Chi ha scritto il libro?",
+   "v": "keep",
+   "audio": "1004816",
+   "es": "¿Quién escribió el libro?"
+  },
+  {
+   "id": "s_379249",
+   "module": "nivel",
+   "it": "Ero molto occupato oggi.",
+   "v": "reject",
+   "audio": "1010020",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_921343",
+   "module": "a2m07",
+   "it": "Ha continuato a cantare.",
+   "v": "keep",
+   "audio": "1001380",
+   "es": "Siguió cantando."
+  },
+  {
+   "id": "s_720432",
+   "module": "a2m07",
+   "it": "Hanno smesso di parlare.",
+   "v": "keep",
+   "audio": "1006450",
+   "es": "Dejaron de hablar."
+  },
+  {
+   "id": "s_378177",
+   "module": "a2m01",
+   "it": "L'orologio si è fermato.",
+   "v": "keep",
+   "audio": "1003226",
+   "es": "El reloj se detuvo."
+  },
+  {
+   "id": "s_376568",
+   "module": "a2m01",
+   "it": "La primavera è arrivata.",
+   "v": "keep",
+   "audio": "1001323",
+   "es": "Llegó la primavera."
+  },
+  {
+   "id": "s_3532967",
+   "module": "nivel",
+   "it": "Mi hai fatto fare tardi.",
+   "v": "reject",
+   "audio": "1003329",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_792251",
+   "module": "nivel",
+   "it": "Mi sei mancata un sacco.",
+   "v": "reject",
+   "audio": "1003976",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_880149",
+   "module": "a2m04",
+   "it": "Ne vale davvero la pena?",
+   "v": "keep",
+   "audio": "1010074",
+   "es": "¿De verdad vale la pena?"
+  },
+  {
+   "id": "s_989824",
+   "module": "a2m08",
+   "it": "Non avvicinarti al cane.",
+   "v": "keep",
+   "audio": "1006463",
+   "es": "No te acerques al perro."
+  },
+  {
+   "id": "s_382050",
+   "module": "nivel",
+   "it": "Non dimenticarti di noi!",
+   "v": "reject",
+   "audio": "1006413",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_410260",
+   "module": "a2m07",
+   "it": "Non ti dimenticherò mai.",
+   "v": "keep",
+   "audio": "1010039",
+   "es": "Nunca te olvidaré."
+  },
+  {
+   "id": "s_429805",
+   "module": "nivel",
+   "it": "Ottenne il primo premio.",
+   "v": "reject",
+   "audio": "1010045",
+   "nota": "passato remoto (B1+)"
+  },
+  {
+   "id": "s_4484268",
+   "module": "nivel",
+   "it": "Perché stai sanguinando?",
+   "v": "reject",
+   "audio": "1006545",
+   "nota": "tema inadecuado o violento"
+  },
+  {
+   "id": "s_3532879",
+   "module": "a2m10",
+   "it": "Ti sei rotto il braccio.",
+   "v": "keep",
+   "audio": "1004772",
+   "es": "Te rompiste el brazo."
+  },
+  {
+   "id": "s_3532900",
+   "module": "nivel",
+   "it": "Avete fatto piangere Tom.",
+   "v": "reject",
+   "audio": "1003327",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_377288",
+   "module": "nivel",
+   "it": "Chi ha rotto la finestra?",
+   "v": "reject",
+   "audio": "1006401",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_378887",
+   "module": "a2m04",
+   "it": "Gli ho trovato un lavoro.",
+   "v": "keep",
+   "audio": "1003229",
+   "es": "Le encontré un trabajo."
+  },
+  {
+   "id": "s_378700",
+   "module": "a2m05",
+   "it": "Ha più o meno la mia età.",
+   "v": "keep",
+   "audio": "1003921",
+   "es": "Tiene más o menos mi edad."
+  },
+  {
+   "id": "s_378160",
+   "module": "a2m01",
+   "it": "Ho fatto una passeggiata.",
+   "v": "keep",
+   "audio": "1000187",
+   "es": "Di un paseo."
+  },
+  {
+   "id": "s_4662",
+   "module": "a2m07",
+   "it": "Ho parlato a degli amici.",
+   "v": "keep",
+   "audio": "1004638",
+   "es": "Hablé con unos amigos."
+  },
+  {
+   "id": "s_375425",
+   "module": "nivel",
+   "it": "Ho perso il mio ombrello.",
+   "v": "reject",
+   "audio": "1003908",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_373999",
+   "module": "a2m01",
+   "it": "Il ghiaccio si è sciolto.",
+   "v": "keep",
+   "audio": "1000167",
+   "es": "El hielo se derritió."
+  },
+  {
+   "id": "s_350583",
+   "module": "a2m08",
+   "it": "Indovina dove sono stato.",
+   "v": "keep",
+   "audio": "1006365",
+   "es": "Adivina dónde estuve."
+  },
+  {
+   "id": "s_350927",
+   "module": "nivel",
+   "it": "L'abbiamo perso di vista.",
+   "v": "reject",
+   "audio": "1006366",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_1561832",
+   "module": "nivel",
+   "it": "Mi sono rotto il braccio.",
+   "v": "reject",
+   "audio": "1000287",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_377590",
+   "module": "a2m07",
+   "it": "Questa legna non brucerà.",
+   "v": "keep",
+   "audio": "1006403",
+   "es": "Esta leña no arderá."
+  },
+  {
+   "id": "s_373642",
+   "module": "nivel",
+   "it": "Sembra che stia piovendo.",
+   "v": "reject",
+   "audio": "1003889",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_978346",
+   "module": "nivel",
+   "it": "Sono appena arrivato qui.",
+   "v": "reject",
+   "audio": "1010079",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_606181",
+   "module": "nivel",
+   "it": "Sono stato occupato ieri.",
+   "v": "reject",
+   "audio": "1006434",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_3533088",
+   "module": "nivel",
+   "it": "Spero che Tom sia felice.",
+   "v": "reject",
+   "audio": "1004795",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_8616298",
+   "module": "nivel",
+   "it": "Tom aveva una sola gamba.",
+   "v": "reject",
+   "audio": "1006560",
+   "nota": "tema inadecuado o violento"
+  },
+  {
+   "id": "s_1109923",
+   "module": "nivel",
+   "it": "Tom ha rotto la finestra.",
+   "v": "reject",
+   "audio": "1006478",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_350916",
+   "module": "a2m04",
+   "it": "Tom mi ha dato una penna.",
+   "v": "keep",
+   "audio": "1003882",
+   "es": "Tom me dio un bolígrafo."
+  },
+  {
+   "id": "s_378879",
+   "module": "nivel",
+   "it": "Chi ha fatto questa torta?",
+   "v": "reject",
+   "audio": "1003922",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_376546",
+   "module": "nivel",
+   "it": "Chi ha scritto la lettera?",
+   "v": "reject",
+   "audio": "1006395",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_8618322",
+   "module": "nivel",
+   "it": "Ci siamo licenziati tutti.",
+   "v": "reject",
+   "audio": "993543",
+   "nota": "tema inadecuado o violento"
+  },
+  {
+   "id": "s_3533063",
+   "module": "a2m01",
+   "it": "Ho incontrato Tom al club.",
+   "v": "keep",
+   "audio": "1004793",
+   "es": "Me encontré con Tom en el club."
+  },
+  {
+   "id": "s_5827208",
+   "module": "a2m02",
+   "it": "Lei continuava a piangere.",
+   "v": "keep",
+   "audio": "1004072",
+   "es": "Ella seguía llorando."
+  },
+  {
+   "id": "s_937783",
+   "module": "nivel",
+   "it": "Mi ha colpito sulla testa.",
+   "v": "reject",
+   "audio": "1010077",
+   "nota": "tema inadecuado o violento"
+  },
+  {
+   "id": "s_430307",
+   "module": "nivel",
+   "it": "Noi tutti eravamo stanchi.",
+   "v": "reject",
+   "audio": "1003945",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_2105112",
+   "module": "a2m08",
+   "it": "Non andare troppo lontano.",
+   "v": "keep",
+   "audio": "1006495",
+   "es": "No vayas demasiado lejos."
+  },
+  {
+   "id": "s_1265834",
+   "module": "a2m01",
+   "it": "Non ho mai giocato a golf.",
+   "v": "keep",
+   "audio": "1004741",
+   "es": "Nunca he jugado al golf."
+  },
+  {
+   "id": "s_701480",
+   "module": "nivel",
+   "it": "Vorrei essere più giovane.",
+   "v": "reject",
+   "audio": "1010062",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_585875",
+   "module": "nivel",
+   "it": "Abbiamo giocato a baseball.",
+   "v": "reject",
+   "audio": "1004699",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_5273123",
+   "module": "a2m01",
+   "it": "Abbiamo parlato per un po'.",
+   "v": "keep",
+   "audio": "1010152",
+   "es": "Hablamos un rato."
+  },
+  {
+   "id": "s_350603",
+   "module": "nivel",
+   "it": "Gli diedi il mio indirizzo.",
+   "v": "reject",
+   "audio": "1009979",
+   "nota": "passato remoto (B1+)"
+  },
+  {
+   "id": "s_5273152",
+   "module": "a2m04",
+   "it": "Ho comprato un libro a Tom.",
+   "v": "keep",
+   "audio": "1004825",
+   "es": "Le compré un libro a Tom."
+  },
+  {
+   "id": "s_607359",
+   "module": "a2m09",
+   "it": "Lei è arrivata in macchina.",
+   "v": "keep",
+   "audio": "1006436",
+   "es": "Ella llegó en coche."
+  },
+  {
+   "id": "s_2055839",
+   "module": "nivel",
+   "it": "Ne prenda nota, per favore.",
+   "v": "reject",
+   "audio": "1006493",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_3344013",
+   "module": "nivel",
+   "it": "Pensi che io stia mentendo?",
+   "v": "reject",
+   "audio": "1010109",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_2142980",
+   "module": "nivel",
+   "it": "Sono appena tornato a casa.",
+   "v": "reject",
+   "audio": "1004759",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_671602",
+   "module": "a2m04",
+   "it": "Ti ho comprato un aquilone.",
+   "v": "keep",
+   "audio": "1004705",
+   "es": "Te compré una cometa."
+  },
+  {
+   "id": "s_5479775",
+   "module": "a2m01",
+   "it": "Tom ha mangiato un'arancia.",
+   "v": "keep",
+   "audio": "1004059",
+   "es": "Tom comió una naranja."
+  },
+  {
+   "id": "s_702314",
+   "module": "nivel",
+   "it": "Vorrei avere un'automobile.",
+   "v": "reject",
+   "audio": "1003972",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_711486",
+   "module": "nivel",
+   "it": "È stata colpita da un'auto.",
+   "v": "reject",
+   "audio": "1006449",
+   "nota": "tema inadecuado o violento"
+  },
+  {
+   "id": "s_4669",
+   "module": "a2m08",
+   "it": "Dimmi quello che è successo.",
+   "v": "keep",
+   "audio": "1009974",
+   "es": "Dime lo que pasó."
+  },
+  {
+   "id": "s_429813",
+   "module": "a2m01",
+   "it": "Ha ottenuto il primo premio.",
+   "v": "keep",
+   "audio": "1010046",
+   "es": "Obtuvo el primer premio."
+  },
+  {
+   "id": "s_374212",
+   "module": "a2m01",
+   "it": "Ho dato da mangiare al cane.",
+   "v": "keep",
+   "audio": "1000170",
+   "es": "Le di de comer al perro."
+  },
+  {
+   "id": "s_381876",
+   "module": "nivel",
+   "it": "La notizia l'ha resa triste.",
+   "v": "reject",
+   "audio": "1010030",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_3780289",
+   "module": "nivel",
+   "it": "Lascia che ti faccia vedere.",
+   "v": "reject",
+   "audio": "1001448",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_3345462",
+   "module": "a2m08",
+   "it": "Non guardare la televisione.",
+   "v": "keep",
+   "audio": "1000303",
+   "es": "No veas la televisión."
+  },
+  {
+   "id": "s_934512",
+   "module": "nivel",
+   "it": "Penso che lui abbia ragione.",
+   "v": "reject",
+   "audio": "1003980",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_2056118",
+   "module": "a2m04",
+   "it": "Questo non gli farà piacere.",
+   "v": "keep",
+   "audio": "1004012",
+   "es": "Esto no le va a gustar."
+  },
+  {
+   "id": "s_1285141",
+   "module": "nivel",
+   "it": "Correvo per salvarmi la vita.",
+   "v": "reject",
+   "audio": "1003294",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_3532901",
+   "module": "a2m01",
+   "it": "Hai avuto una lunga giornata.",
+   "v": "keep",
+   "audio": "1004775",
+   "es": "Tuviste un día largo."
+  },
+  {
+   "id": "s_409489",
+   "module": "a2m10",
+   "it": "Quel bambino si è fatto male.",
+   "v": "keep",
+   "audio": "1003244",
+   "es": "Ese niño se hizo daño."
+  },
+  {
+   "id": "s_373683",
+   "module": "a2m09",
+   "it": "Vorrei una mappa della città.",
+   "v": "keep",
+   "audio": "1004651",
+   "es": "Quisiera un mapa de la ciudad."
+  },
+  {
+   "id": "s_376552",
+   "module": "nivel",
+   "it": "Chi ha scritto questa lettera?",
+   "v": "reject",
+   "audio": "1010009",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_375467",
+   "module": "a2m02",
+   "it": "La scatola era troppo pesante.",
+   "v": "keep",
+   "audio": "1010007",
+   "es": "La caja era demasiado pesada."
+  },
+  {
+   "id": "s_3351035",
+   "module": "nivel",
+   "it": "Tommaso non mi ha mai toccata.",
+   "v": "reject",
+   "audio": "1006506",
+   "nota": "tema inadecuado o violento"
+  },
+  {
+   "id": "s_3351037",
+   "module": "nivel",
+   "it": "Tommaso non mi ha mai toccato.",
+   "v": "reject",
+   "audio": "1006507",
+   "nota": "tema inadecuado o violento"
+  },
+  {
+   "id": "s_3532902",
+   "module": "nivel",
+   "it": "Avete avuto una lunga giornata.",
+   "v": "reject",
+   "audio": "1004776",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_926748",
+   "module": "nivel",
+   "it": "Ho preso in prestito un tavolo.",
+   "v": "reject",
+   "audio": "1010076",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_5209498",
+   "module": "nivel",
+   "it": "La macchina di Tom è in fiamme.",
+   "v": "reject",
+   "audio": "1006549",
+   "nota": "tema inadecuado o violento"
+  },
+  {
+   "id": "s_693958",
+   "module": "a2m05",
+   "it": "Qualcuno mi ha rubato la borsa.",
+   "v": "keep",
+   "audio": "1006442",
+   "es": "Alguien me robó el bolso."
+  },
+  {
+   "id": "s_701459",
+   "module": "nivel",
+   "it": "Si è avverato il tuo desiderio?",
+   "v": "reject",
+   "audio": "1006445",
+   "nota": "fragmento, idiomático o difícil"
+  },
+  {
+   "id": "s_3533095",
+   "module": "nivel",
+   "it": "Sono felice che Tom sia a casa.",
+   "v": "reject",
+   "audio": "1006519",
+   "nota": "congiuntivo/condicional/B1+"
+  },
+  {
+   "id": "s_373682",
+   "module": "nivel",
+   "it": "Vorrei una cartina della città.",
+   "v": "reject",
+   "audio": "1004650",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_1038810",
+   "module": "a2m02",
+   "it": "Così è come ci siamo conosciuti.",
+   "v": "keep",
+   "audio": "1003277",
+   "es": "Así fue como nos conocimos."
+  },
+  {
+   "id": "s_3533077",
+   "module": "nivel",
+   "it": "Ho avuto una giornata difficile.",
+   "v": "reject",
+   "audio": "1003336",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_2078806",
+   "module": "a2m01",
+   "it": "Mi sono dimenticato il suo nome.",
+   "v": "keep",
+   "audio": "1003306",
+   "es": "Se me olvidó su nombre."
+  },
+  {
+   "id": "s_1794752",
+   "module": "a2m06",
+   "it": "Sono arrivato a casa alle sette.",
+   "v": "keep",
+   "audio": "1004752",
+   "es": "Llegué a casa a las siete."
+  },
+  {
+   "id": "s_375238",
+   "module": "a2m01",
+   "it": "Non mi è mai piaciuta la biologia.",
+   "v": "keep",
+   "audio": "1010002",
+   "es": "Nunca me gustó la biología."
+  },
+  {
+   "id": "s_1005811",
+   "module": "a2m06",
+   "it": "Si può fare affidamento su di lui.",
+   "v": "keep",
+   "audio": "1004723",
+   "es": "Se puede contar con él."
+  },
+  {
+   "id": "s_4217875",
+   "module": "a2m10",
+   "it": "Lui si è preso una giornata libera.",
+   "v": "keep",
+   "audio": "1003354",
+   "es": "Se tomó un día libre."
+  },
+  {
+   "id": "s_1049239",
+   "module": "nivel",
+   "it": "Questo è tutto quello che posseggo.",
+   "v": "reject",
+   "audio": "1003278",
+   "nota": "tema inadecuado o violento"
+  },
+  {
+   "id": "s_627118",
+   "module": "a2m01",
+   "it": "Sono restato a casa tutto il giorno.",
+   "v": "keep",
+   "audio": "1010052",
+   "es": "Me quedé en casa todo el día."
+  },
+  {
+   "id": "s_374255",
+   "module": "nivel",
+   "it": "Ho perso la mia macchina fotografica.",
+   "v": "reject",
+   "audio": "1001309",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_374258",
+   "module": "a2m04",
+   "it": "Hai visto la mia macchina fotografica?",
+   "v": "keep",
+   "audio": "1006379",
+   "es": "¿Has visto mi cámara?"
+  },
+  {
+   "id": "s_374275",
+   "module": "nivel",
+   "it": "Papà ha comprato una macchina fotografica.",
+   "v": "reject",
+   "audio": "1004660",
+   "nota": "casi duplicada de otra aceptada"
+  },
+  {
+   "id": "s_378851",
+   "module": "nivel",
+   "it": "La mia macchina ha bisogno di essere lavata.",
+   "v": "reject",
+   "audio": "1006405",
+   "nota": "fragmento, idiomático o difícil"
+  }
+ ]
+}
