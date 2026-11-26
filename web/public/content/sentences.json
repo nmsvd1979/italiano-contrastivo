@@ -2049,6 +2049,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "28e965c9a4cf",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "Tom ya no está viviendo en Boston.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1439757",
+    "id": "s_1122031",
+    "it": "Tom non vive più a Boston.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1122031",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "02f15ef6d4a7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4088,6 +4101,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2169d7ab67fc",
+    "author": "Adelpa",
+    "cefr_estimate": "A1",
+    "es": "Ya no llueve.",
+    "es_author": "arh",
+    "es_source_id": "8189028",
+    "id": "s_12604083",
+    "it": "Non piove più.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12604083",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ad973debdd5a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4204,6 +4230,19 @@
     "it": "È l'una meno venticinque.",
     "license": "CC BY 2.0 FR",
     "source_id": "12656242",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "20fdb89949cd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ya no eres un niño.",
+    "es_author": "tatoerique",
+    "es_source_id": "345843",
+    "id": "s_1268766",
+    "it": "Non sei più una bambina.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1268766",
     "translation_kind": "direct"
   },
   {
@@ -5750,6 +5789,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "77818e4bff08",
+    "author": "Adelpa",
+    "cefr_estimate": "A1",
+    "es": "Ya no me acuerdo de su nombre.",
+    "es_author": "ildefonk",
+    "es_source_id": "861984",
+    "id": "s_13307972",
+    "it": "Non ricordo più il suo nome.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13307972",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "75c6699f4a06",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -6436,6 +6488,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1389686",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "65ce08a6d51a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No tengo más tiempo para nada.",
+    "es_author": "hayastan",
+    "es_source_id": "1395775",
+    "id": "s_1395772",
+    "it": "Non ho più tempo per nulla.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1395772",
+    "translation_kind": "direct"
   },
   {
     "audio": "b03bafa95581",
@@ -8350,6 +8415,19 @@
     "it": "Tom ha i baffi.",
     "license": "CC BY 2.0 FR",
     "source_id": "1652871",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c7f7a252aaa7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ya no eres mi amigo.",
+    "es_author": "Shishir",
+    "es_source_id": "1687170",
+    "id": "s_1653296",
+    "it": "Non sei più mio amico.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1653296",
     "translation_kind": "direct"
   },
   {
@@ -11757,6 +11835,19 @@
     "it": "A me piace questo.",
     "license": "CC BY 2.0 FR",
     "source_id": "2433446",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2ef8eccac05e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Él ya no bebe.",
+    "es_author": "Shishir",
+    "es_source_id": "10204353",
+    "id": "s_2435893",
+    "it": "Non beve più.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2435893",
     "translation_kind": "direct"
   },
   {
@@ -15617,6 +15708,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "d569e44a862f",
+    "author": "faehrmann",
+    "cefr_estimate": "A1",
+    "es": "Estuvimos afuera.",
+    "es_author": "IA (Claude)",
+    "id": "s_3081279",
+    "it": "Siamo stati fuori.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3081279",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "404a7dbf322a",
     "author": "rado",
     "cefr_estimate": "A1",
@@ -17663,6 +17766,19 @@
     "it": "Non mi piacciono i bambini viziati.",
     "license": "CC BY 2.0 FR",
     "source_id": "350763",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "55e9721a946f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No voy a volver.",
+    "es_author": "Fanki",
+    "es_source_id": "726553",
+    "id": "s_3507703",
+    "it": "Non torno più.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3507703",
     "translation_kind": "direct"
   },
   {
@@ -23011,6 +23127,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "088215159c09",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estuvimos aquí dos días.",
+    "es_author": "IA (Claude)",
+    "id": "s_4415930",
+    "it": "Siamo stati qui per due giorni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4415930",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e192ab9005ab",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estuvimos aquí dos días.",
+    "es_author": "IA (Claude)",
+    "id": "s_4415932",
+    "it": "Siamo state qui per due giorni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4415932",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "e0c70036fdeb",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -24262,6 +24402,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "2e19bc870145",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estuvimos juntos un año.",
+    "es_author": "IA (Claude)",
+    "id": "s_4698298",
+    "it": "Siamo stati insieme per un anno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4698298",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c1f672134f18",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estuvimos juntas un año.",
+    "es_author": "IA (Claude)",
+    "id": "s_4698302",
+    "it": "Siamo state insieme per un anno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4698302",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "55ac8018188c",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -24810,6 +24974,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4951779",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "f4875aa3884b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ya no trabajamos para Tom.",
+    "es_author": "Shishir",
+    "es_source_id": "10142388",
+    "id": "s_4953049",
+    "it": "Noi non lavoriamo più per Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4953049",
+    "translation_kind": "direct"
   },
   {
     "audio": "e16b1b9c2214",
@@ -25831,6 +26008,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "b8742a768eba",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estuvimos en casa anoche.",
+    "es_author": "IA (Claude)",
+    "id": "s_5339513",
+    "it": "Siamo stati a casa ieri sera.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5339513",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "f5328027d852",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -26102,6 +26291,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "5390190",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "4d7dcc37a772",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Ya no soy vegetariano.",
+    "es_author": "enteka",
+    "es_source_id": "1307908",
+    "id": "s_539113",
+    "it": "Non sono più vegetariano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "539113",
+    "translation_kind": "direct"
   },
   {
     "audio": "a1755e0ca854",
@@ -28949,6 +29151,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e9dfb6c58018",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ya no eres un niño.",
+    "es_author": "tatoerique",
+    "es_source_id": "345843",
+    "id": "s_663766",
+    "it": "Non sei più un bambino.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "663766",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "aa860e639683",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -29028,6 +29243,30 @@
     "it": "Voi dormite abbastanza?",
     "license": "CC BY 2.0 FR",
     "source_id": "6689907",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "63645bfdf1bb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde estuvieron ustedes esta semana?",
+    "es_author": "IA (Claude)",
+    "id": "s_6707078",
+    "it": "Dove siete stati questa settimana?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6707078",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1eb131bf43e1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde estuvieron ustedes esta semana?",
+    "es_author": "IA (Claude)",
+    "id": "s_6707080",
+    "it": "Dove siete state questa settimana?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6707080",
     "translation_kind": "llm"
   },
   {
@@ -32440,6 +32679,54 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "fe32f9d517f2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estuvimos allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_8550350",
+    "it": "Siamo stati lì.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8550350",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1411a6a6ac3e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estuvimos allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_8550351",
+    "it": "Siamo state lì.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8550351",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "cb066f31effd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estuvimos allá.",
+    "es_author": "IA (Claude)",
+    "id": "s_8550352",
+    "it": "Siamo stati là.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8550352",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "8269a5cf3cec",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estuvimos allá.",
+    "es_author": "IA (Claude)",
+    "id": "s_8550353",
+    "it": "Siamo state là.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8550353",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "f37288ca2dc0",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -34321,6 +34608,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "97571504cbb7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Dónde han estado ustedes (chicas)?",
+    "es_author": "IA (Claude)",
+    "id": "s_1003986",
+    "it": "Dove siete state?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1003986",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "d70faddfead1",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -34410,6 +34709,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "127ae255cce2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Acabo de leer este libro.",
+    "es_author": "DanaDescalza",
+    "es_source_id": "1017965",
+    "id": "s_1019236",
+    "it": "Ho appena letto questo libro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1019236",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "5e305a41cebb",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -34420,6 +34732,19 @@
     "it": "Il treno ha attraversato un tunnel.",
     "license": "CC BY 2.0 FR",
     "source_id": "1019321",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "10a95a30b8b9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Siempre hemos sido amigas.",
+    "es_author": "Shishir",
+    "es_source_id": "975479",
+    "id": "s_1019853",
+    "it": "Siamo sempre stati amici.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1019853",
     "translation_kind": "direct"
   },
   {
@@ -34465,6 +34790,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "82044652eabf",
+    "author": "Nuel",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto dinero has gastado hoy?",
+    "es_author": "saverius",
+    "es_source_id": "10255886",
+    "id": "s_10249417",
+    "it": "Quanti soldi hai speso ieri?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10249417",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "9ea02df0a48f",
     "author": "carlosalberto",
     "cefr_estimate": "A2",
@@ -34489,6 +34827,71 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "680e9cc21ff2",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "¿Pudiste encontrar el libro?",
+    "es_author": "Shishir",
+    "es_source_id": "544276",
+    "id": "s_1035841",
+    "it": "Sei riuscito a trovare il libro?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1035841",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "444f685e3cf5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Su vida ha sido corta.",
+    "es_author": "saverius",
+    "es_source_id": "10803545",
+    "id": "s_10467445",
+    "it": "La sua vita è stata corta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10467445",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ab2ddf3e19f5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me casé joven.",
+    "es_author": "Seael",
+    "es_source_id": "13447101",
+    "id": "s_10480996",
+    "it": "Mi sono sposata giovane.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10480996",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e9450a9048ef",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ella se ha despertado antes que él.",
+    "es_author": "saverius",
+    "es_source_id": "10514726",
+    "id": "s_10513528",
+    "it": "Si è svegliata prima di lui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10513528",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "f92a9946e2a3",
+    "author": "leonardo",
+    "cefr_estimate": "A2",
+    "es": "¿Ya cenaste?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1063319",
+    "id": "s_1061233",
+    "it": "Hai già cenato?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1061233",
+    "translation_kind": "direct"
+  },
+  {
     "alt": [
       "Non posso respirare dal naso."
     ],
@@ -34505,6 +34908,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "6b270baf1122",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Hay algo más estúpido y odioso que la burocracia universitaria?",
+    "es_author": "nancy",
+    "es_source_id": "1160850",
+    "id": "s_1072949",
+    "it": "Esiste qualcosa di più stupido e odioso della burocrazia universitaria?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1072949",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "4354c704fc09",
     "author": "leonardo",
     "cefr_estimate": "A2",
@@ -34515,6 +34931,32 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1073182",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "b1a3762ca885",
+    "author": "Eldad",
+    "cefr_estimate": "A2",
+    "es": "Hoy desperté temprano.",
+    "es_author": "Eldad",
+    "es_source_id": "1081057",
+    "id": "s_1081053",
+    "it": "Oggi mi sono svegliato presto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1081053",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b625a69d0b71",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ustedes están equivocados.",
+    "es_author": "nancy",
+    "es_source_id": "1228301",
+    "id": "s_1081894",
+    "it": "Voi vi siete sbagliati.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1081894",
+    "translation_kind": "direct"
   },
   {
     "audio": "4d0b1291421f",
@@ -34552,6 +34994,32 @@
     "it": "Nel mezzo della discussione si è alzato ed è uscito.",
     "license": "CC BY 2.0 FR",
     "source_id": "1082726",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2cf0fecc1b63",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Desde que Marco está a dieta no come más dulces.",
+    "es_author": "nancy",
+    "es_source_id": "1178763",
+    "id": "s_1083953",
+    "it": "Da quando Marco è a dieta non mangia più dolci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1083953",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "99ec68a05911",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ayer estaba nublado.",
+    "es_author": "Shishir",
+    "es_source_id": "1089603",
+    "id": "s_1089688",
+    "it": "Ieri è stato nuvoloso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1089688",
     "translation_kind": "direct"
   },
   {
@@ -34607,6 +35075,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4b39e8a931e8",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "Mi padre atrapó tres peces ayer.",
+    "es_author": "kylecito",
+    "es_source_id": "336396",
+    "id": "s_1106380",
+    "it": "Mio padre ha preso tre pesci ieri.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1106380",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "4fa0020a0e67",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -34654,6 +35135,31 @@
     "it": "L'aeroporto si trova a nord della città.",
     "license": "CC BY 2.0 FR",
     "source_id": "11229822",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3f5b92e140d0",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué salieron ustedes?",
+    "es_author": "IA (Claude)",
+    "id": "s_11254137",
+    "it": "Perché siete usciti?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11254137",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "abab8abe3598",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "He pedido prestado dos libros.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4549648",
+    "id": "s_1125652",
+    "it": "Ho preso in prestito due libri.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1125652",
     "translation_kind": "direct"
   },
   {
@@ -34706,6 +35212,19 @@
     "it": "Gli alberi non crescono fino al cielo.",
     "license": "CC BY 2.0 FR",
     "source_id": "1127638",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e34ceb8a77ef",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "Decidí continuar estudiando.",
+    "es_author": "fgreco",
+    "es_source_id": "2375706",
+    "id": "s_1131858",
+    "it": "Ho deciso di continuare a studiare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1131858",
     "translation_kind": "direct"
   },
   {
@@ -34834,6 +35353,44 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "e2dba9779e3e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ya no bebo cerveza.",
+    "es_author": "IA (Claude)",
+    "id": "s_11712040",
+    "it": "Non bevo più birra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11712040",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1d507b02be2e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Leí el informe.",
+    "es_author": "Seael",
+    "es_source_id": "11759910",
+    "id": "s_11759900",
+    "it": "Ho letto il rapporto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11759900",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c8425897ea80",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo dormí, ¿y tú?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1535603",
+    "id": "s_1176174",
+    "it": "Io ho dormito, e tu?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1176174",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "1d154091985b",
     "author": "Shishir",
     "cefr_estimate": "A2",
@@ -34897,6 +35454,32 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "4b9017bb12f1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Al menos has almorzado?",
+    "es_author": "saverius",
+    "es_source_id": "11967662",
+    "id": "s_11964359",
+    "it": "Almeno hai pranzato?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11964359",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "bc43058de6c0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Su respuesta fue breve.",
+    "es_author": "Seael",
+    "es_source_id": "11969554",
+    "id": "s_11969550",
+    "it": "La sua risposta è stata breve.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11969550",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "b11d342d6629",
     "author": "Adelpa",
     "cefr_estimate": "A2",
@@ -34933,6 +35516,44 @@
     "it": "Prendi il tuo tempo prima di rispondere.",
     "license": "CC BY 2.0 FR",
     "source_id": "12124075",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "bab364004200",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo también me divertí.",
+    "es_author": "nancy",
+    "es_source_id": "1222650",
+    "id": "s_1222409",
+    "it": "Anche io mi sono divertito.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1222409",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b4b281d4ae61",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Ya no ando en moto.",
+    "es_author": "IA (Claude)",
+    "id": "s_12294326",
+    "it": "Non vado più in moto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12294326",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "9c9661eb54b4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Has cogido pizza?",
+    "es_author": "saverius",
+    "es_source_id": "12316124",
+    "id": "s_12311832",
+    "it": "Hai preso della pizza?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12311832",
     "translation_kind": "direct"
   },
   {
@@ -34987,6 +35608,56 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "0996a0c8fc8e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Nos besamos.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1127798",
+    "id": "s_1254189",
+    "it": "Ci siamo baciati.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1254189",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d7cd3a15674f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ya no vivo con ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_12550658",
+    "it": "Non abito più con lei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12550658",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "0f252ea2b070",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ella salió.",
+    "es_author": "hayastan",
+    "es_source_id": "1255619",
+    "id": "s_1255616",
+    "it": "Lei è uscita.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1255616",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d8102d7b2c84",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Nosotros llegamos.",
+    "es_author": "IA (Claude)",
+    "id": "s_1255846",
+    "it": "Noi siamo arrivati.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1255846",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "761851b4e702",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35021,6 +35692,19 @@
     "it": "Tom ha baciato Mary.",
     "license": "CC BY 2.0 FR",
     "source_id": "1257883",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "257d11922fa2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Pidió una cerveza.",
+    "es_author": "hayastan",
+    "es_source_id": "1357551",
+    "id": "s_1264152",
+    "it": "Ha chiesto una birra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1264152",
     "translation_kind": "direct"
   },
   {
@@ -35105,6 +35789,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "48987b3143f3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ya no vive aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1300641",
+    "it": "Non vive più qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1300641",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "933daf0c75a1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ya no vive aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1300643",
+    "it": "Non abita più qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1300643",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "182510debef0",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35115,6 +35823,19 @@
     "it": "Vorrei avere un gatto.",
     "license": "CC BY 2.0 FR",
     "source_id": "1305566",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "54296eb2dbbb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Él ha estado en la India.",
+    "es_author": "Shishir",
+    "es_source_id": "734393",
+    "id": "s_1306591",
+    "it": "È stato in India.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1306591",
     "translation_kind": "direct"
   },
   {
@@ -35154,6 +35875,19 @@
     "it": "Ci sono dei negozi lungo la strada.",
     "license": "CC BY 2.0 FR",
     "source_id": "1310200",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "a71ea3491d84",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Así ha sido siempre.",
+    "es_author": "Shishir",
+    "es_source_id": "2562",
+    "id": "s_1311008",
+    "it": "È sempre stato così.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1311008",
     "translation_kind": "direct"
   },
   {
@@ -35230,6 +35964,19 @@
     "it": "Apri la porta e lascia entrare il cane.",
     "license": "CC BY 2.0 FR",
     "source_id": "1329353",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "a55108ae8703",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ayer cerró la fábrica.",
+    "es_author": "arh",
+    "es_source_id": "6703413",
+    "id": "s_13308934",
+    "it": "La fabbrica ha chiuso ieri.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13308934",
     "translation_kind": "direct"
   },
   {
@@ -35318,6 +36065,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "13481856",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "f45b2071716a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ha habido un problema.",
+    "es_author": "Alpha",
+    "es_source_id": "1448291",
+    "id": "s_1350098",
+    "it": "C'è stato un incidente.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1350098",
+    "translation_kind": "direct"
   },
   {
     "audio": "8fd2b2c3fae4",
@@ -35447,6 +36207,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "9dbcc0911ea0",
+    "author": "unforgiven95",
+    "cefr_estimate": "A2",
+    "es": "El aparcamiento era una pesadilla.",
+    "es_author": "uptonpark1973",
+    "es_source_id": "7899115",
+    "id": "s_14008527",
+    "it": "Il parcheggio è stato un incubo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14008527",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "6539cebc2f4b",
     "author": "unforgiven95",
     "cefr_estimate": "A2",
@@ -35472,6 +36245,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "bbb40e2500d5",
+    "author": "unforgiven95",
+    "cefr_estimate": "A2",
+    "es": "Ya huelo el salado olor del océano.",
+    "es_author": "marcelostockle",
+    "es_source_id": "3302353",
+    "id": "s_14034621",
+    "it": "Sento già l'odore salato dell'oceano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14034621",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "548e691ab0c4",
     "author": "unforgiven95",
     "cefr_estimate": "A2",
@@ -35494,6 +36280,19 @@
     "it": "I ragazzi hanno trovato una moneta.",
     "license": "CC BY 2.0 FR",
     "source_id": "1404994",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "6df71cb8f526",
+    "author": "unforgiven95",
+    "cefr_estimate": "A2",
+    "es": "Le pedí consejo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2188018",
+    "id": "s_14070048",
+    "it": "Le ho chiesto consiglio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14070048",
     "translation_kind": "direct"
   },
   {
@@ -35533,6 +36332,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1433807",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "6b5d8796ebeb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuándo se fueron ustedes?",
+    "es_author": "IA (Claude)",
+    "id": "s_1438874",
+    "it": "Quando siete andati?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1438874",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6b456a9e3d99",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuándo se fueron ustedes (chicas)?",
+    "es_author": "IA (Claude)",
+    "id": "s_1438876",
+    "it": "Quando siete andate?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1438876",
+    "translation_kind": "llm"
   },
   {
     "audio": "61f69c4694d3",
@@ -35626,6 +36449,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2c58e184675e",
+    "author": "Shadd",
+    "cefr_estimate": "A2",
+    "es": "Mi madre nació en el norte de México.",
+    "es_author": "hayastan",
+    "es_source_id": "1011110",
+    "id": "s_1512622",
+    "it": "Mia madre è nata nel nord del Messico.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1512622",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c77e48698114",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Fue un completo fracaso.",
+    "es_author": "nancy",
+    "es_source_id": "1155970",
+    "id": "s_1513490",
+    "it": "È stato un fallimento totale.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1513490",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "1558a27c9aa8",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35637,6 +36486,31 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1517011",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "c8ebfd0fa199",
+    "author": "Shadd",
+    "cefr_estimate": "A2",
+    "es": "No he leído todos estos libros.",
+    "es_author": "marco87",
+    "es_source_id": "1517128",
+    "id": "s_1517044",
+    "it": "Non ho letto tutti questi libri.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1517044",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c4c60ee994a2",
+    "author": "Vy",
+    "cefr_estimate": "A2",
+    "es": "Ya no tengo fuerzas.",
+    "es_author": "IA (Claude)",
+    "id": "s_1518906",
+    "it": "Non ho più forze.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1518906",
+    "translation_kind": "llm"
   },
   {
     "audio": "556b1d0a9457",
@@ -35687,6 +36561,32 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1547603",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "25a16bc439c7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Te lavaste las manos?",
+    "es_author": "hayastan",
+    "es_source_id": "1075426",
+    "id": "s_1548596",
+    "it": "Ti sei lavato le mani?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1548596",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0fe2dcfd18be",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Te lavaste las manos?",
+    "es_author": "hayastan",
+    "es_source_id": "1075426",
+    "id": "s_1548597",
+    "it": "Ti sei lavata le mani?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1548597",
+    "translation_kind": "direct"
   },
   {
     "audio": "88c923b25d7a",
@@ -35836,6 +36736,67 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "639995831061",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Dónde nacieron ustedes?",
+    "es_author": "IA (Claude)",
+    "id": "s_1669733",
+    "it": "Dove siete nati?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1669733",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "465d6758a022",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Dónde nacieron ustedes?",
+    "es_author": "IA (Claude)",
+    "id": "s_1669735",
+    "it": "Dove siete nate?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1669735",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "4b457fc7cb42",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cómo entraron ustedes?",
+    "es_author": "IA (Claude)",
+    "id": "s_1671816",
+    "it": "Come siete entrati?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1671816",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "28c9c5558ccc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cómo entraron ustedes (chicas)?",
+    "es_author": "IA (Claude)",
+    "id": "s_1671817",
+    "it": "Come siete entrate?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1671817",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "3ce464f1f741",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "He leído todos los comentarios.",
+    "es_author": "Shishir",
+    "es_source_id": "1803853",
+    "id": "s_1679227",
+    "it": "Ho letto tutti i commenti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1679227",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "65037ba1574f",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35915,6 +36876,67 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "dd78e3b3b693",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A2",
+    "es": "¿Adónde fueron ustedes (chicas)?",
+    "es_author": "IA (Claude)",
+    "id": "s_1711074",
+    "it": "Dove siete andate?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1711074",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "ad36fdcca1b3",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A2",
+    "es": "¿Adónde fueron ustedes?",
+    "es_author": "IA (Claude)",
+    "id": "s_1711075",
+    "it": "Dove siete andati?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1711075",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "7c3e70722a08",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Dónde estuvieron todo este tiempo?",
+    "es_author": "IA (Claude)",
+    "id": "s_1724745",
+    "it": "Dove siete stati tutto questo tempo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1724745",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a42d37a3ff1d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Dónde estuvieron todo este tiempo?",
+    "es_author": "IA (Claude)",
+    "id": "s_1724749",
+    "it": "Dove siete state tutto questo tempo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1724749",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "0a9ee8f9cb6d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me he cortado.",
+    "es_author": "fgreco",
+    "es_source_id": "2444293",
+    "id": "s_1739679",
+    "it": "Io mi sono tagliato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1739679",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "b6ffbb277c63",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35954,6 +36976,19 @@
     "it": "La mia sorella maggiore ha i capelli che le cadono sulle spalle.",
     "license": "CC BY 2.0 FR",
     "source_id": "1802972",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "a70258611fbd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No leí ningún libro ayer.",
+    "es_author": "Leynaf",
+    "es_source_id": "855199",
+    "id": "s_1824232",
+    "it": "Non ho letto alcun libro ieri.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1824232",
     "translation_kind": "direct"
   },
   {
@@ -36089,6 +37124,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "d70696973e03",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Lo pasasteis bien?",
+    "es_author": "arh",
+    "es_source_id": "7929292",
+    "id": "s_2004952",
+    "it": "Vi siete divertiti?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2004952",
+    "translation_kind": "direct"
+  },
+  {
     "alt": [
       "Tom si preoccupa molto per il denaro."
     ],
@@ -36207,6 +37255,32 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "c6c696f43c08",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Quién se ha casado?",
+    "es_author": "saverius",
+    "es_source_id": "10264299",
+    "id": "s_2084388",
+    "it": "Chi si è sposato?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2084388",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "a957725d4cbc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Has estado en la India alguna vez?",
+    "es_author": "darinmex",
+    "es_source_id": "791924",
+    "id": "s_2102525",
+    "it": "Sei mai stato in India?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2102525",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "fa73bb1cf427",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36230,6 +37304,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2137196",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "eb3b0e18f771",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Te gustó la bicicleta?",
+    "es_author": "BraveSentry",
+    "es_source_id": "2368315",
+    "id": "s_2137504",
+    "it": "Ti è piaciuta la bicicletta?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2137504",
+    "translation_kind": "direct"
   },
   {
     "audio": "168246ca6822",
@@ -36272,6 +37359,66 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2180426",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "3d200039e197",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ellos se fueron.",
+    "es_author": "IA (Claude)",
+    "id": "s_2191277",
+    "it": "Loro sono andati.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2191277",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b4334909b00f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ellas se fueron.",
+    "es_author": "IA (Claude)",
+    "id": "s_2191280",
+    "it": "Loro sono andate.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2191280",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "cf8771983526",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ellos se fueron.",
+    "es_author": "IA (Claude)",
+    "id": "s_2191283",
+    "it": "Loro sono partiti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2191283",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "4a61feb2c1ed",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ellos volvieron.",
+    "es_author": "IA (Claude)",
+    "id": "s_2191762",
+    "it": "Loro sono tornati.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2191762",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "84fff008025a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ellas volvieron.",
+    "es_author": "IA (Claude)",
+    "id": "s_2191764",
+    "it": "Loro sono tornate.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2191764",
+    "translation_kind": "llm"
   },
   {
     "audio": "947ea466ea8e",
@@ -36342,6 +37489,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1b13b024b50b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Nos fuimos cuatro días después.",
+    "es_author": "IA (Claude)",
+    "id": "s_2255744",
+    "it": "Siamo partiti quattro giorni più tardi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2255744",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "41e67152466a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36353,6 +37512,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2282212",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "2404cbd86f1b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuándo nacieron ustedes?",
+    "es_author": "IA (Claude)",
+    "id": "s_2349199",
+    "it": "Quando siete nati?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2349199",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e2b360a0b16d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuándo nacieron ustedes (chicas)?",
+    "es_author": "IA (Claude)",
+    "id": "s_2349200",
+    "it": "Quando siete nate?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2349200",
+    "translation_kind": "llm"
   },
   {
     "alt": [
@@ -36400,6 +37583,31 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "02f90aa3661d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Fue una noche divertida.",
+    "es_author": "cadininbiri",
+    "es_source_id": "3753164",
+    "id": "s_2413881",
+    "it": "È stata una nottata divertente.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2413881",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "722aa095d6aa",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ustedes fueron geniales.",
+    "es_author": "IA (Claude)",
+    "id": "s_2416913",
+    "it": "Siete stati grandi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2416913",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "16d6b6f11ccf",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36435,6 +37643,32 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2443442",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "13d9aafd878d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "He estado en la India.",
+    "es_author": "cueyayotl",
+    "es_source_id": "2879933",
+    "id": "s_2448614",
+    "it": "Sono stato in India.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2448614",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ab1518a9ed54",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "He estado en la India.",
+    "es_author": "cueyayotl",
+    "es_source_id": "2879933",
+    "id": "s_2448616",
+    "it": "Sono stata in India.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2448616",
+    "translation_kind": "direct"
   },
   {
     "alt": [
@@ -36518,6 +37752,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2478334",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "2526bd9e6c21",
+    "author": "al_ex_an_der",
+    "cefr_estimate": "A2",
+    "es": "Leí sus diarios.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2486648",
+    "id": "s_2486527",
+    "it": "Ho letto i suoi diari.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2486527",
+    "translation_kind": "direct"
   },
   {
     "audio": "b032d1894237",
@@ -36617,6 +37864,18 @@
     "it": "Vorrei un'insalata.",
     "license": "CC BY 2.0 FR",
     "source_id": "2561137",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "317ca2c1cb4e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ya no puedo trabajar.",
+    "es_author": "IA (Claude)",
+    "id": "s_2593892",
+    "it": "Non posso più lavorare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2593892",
     "translation_kind": "llm"
   },
   {
@@ -36730,6 +37989,32 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "87674f0f0e6a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡No quiero más volver a casa!",
+    "es_author": "alexmarcelo",
+    "es_source_id": "2924677",
+    "id": "s_2825572",
+    "it": "Io non voglio più tornare a casa!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2825572",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "a30e6535fae0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿En qué restaurante has estado?",
+    "es_author": "saverius",
+    "es_source_id": "10141336",
+    "id": "s_2825657",
+    "it": "In che ristorante sei stata?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2825657",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "7711f60ef507",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36768,6 +38053,30 @@
     "it": "Non correre qui.",
     "license": "CC BY 2.0 FR",
     "source_id": "2855315",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "64316acb3367",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ella nació en Ohio.",
+    "es_author": "IA (Claude)",
+    "id": "s_2908665",
+    "it": "Lei è nata in Ohio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2908665",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "2e4ab038aa4c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Mary entró.",
+    "es_author": "IA (Claude)",
+    "id": "s_2918316",
+    "it": "Mary è entrata.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2918316",
     "translation_kind": "llm"
   },
   {
@@ -36836,6 +38145,31 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "645b5dbaffe0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡Has estado fatal!",
+    "es_author": "saverius",
+    "es_source_id": "10262544",
+    "id": "s_3033587",
+    "it": "Sei stato pessimo!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3033587",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "432640ef9fcc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Nosotras llegamos.",
+    "es_author": "IA (Claude)",
+    "id": "s_3049192",
+    "it": "Noi siamo arrivate.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3049192",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "d75da932f229",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36858,6 +38192,19 @@
     "it": "C'è un lago ad est del villaggio.",
     "license": "CC BY 2.0 FR",
     "source_id": "3061525",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "9956e24aa96c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Has leído \"Romeo y Julieta\"?",
+    "es_author": "marcelostockle",
+    "es_source_id": "3106506",
+    "id": "s_3066301",
+    "it": "Tu hai letto \"Romeo e Giulietta\"?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3066301",
     "translation_kind": "direct"
   },
   {
@@ -36959,6 +38306,32 @@
     "it": "Vieni al campo a vedere il fenomeno questa sera.",
     "license": "CC BY 2.0 FR",
     "source_id": "3176285",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5a32de1bbcb4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡Adivinen cuanto gasté!",
+    "es_author": "cueyayotl",
+    "es_source_id": "3466299",
+    "id": "s_3183045",
+    "it": "Indovinate quanto ho speso!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3183045",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "6e4d1e44c067",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Se casó Marika?",
+    "es_author": "alexmarcelo",
+    "es_source_id": "2924711",
+    "id": "s_3233299",
+    "it": "Marika si è sposata?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3233299",
     "translation_kind": "direct"
   },
   {
@@ -37065,6 +38438,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "5bea30304cea",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cómo es que no se ha parado?",
+    "es_author": "saverius",
+    "es_source_id": "10144410",
+    "id": "s_3472953",
+    "it": "Come mai non si è fermato?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3472953",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3bb79e869e9b",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -37106,6 +38492,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "53d946817bb5",
+    "author": "capiceddhra",
+    "cefr_estimate": "A2",
+    "es": "¿Dónde se conocieron?",
+    "es_author": "hayastan",
+    "es_source_id": "2564651",
+    "id": "s_3505209",
+    "it": "Dove si sono conosciuti?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3505209",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "2e896a53d587",
     "author": "martin",
     "cefr_estimate": "A2",
@@ -37131,6 +38530,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "3e7769faa16d",
+    "author": "martin",
+    "cefr_estimate": "A2",
+    "es": "Ya no trabaja aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_351137",
+    "it": "Non lavora più qua.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "351137",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "51aba182b8ee",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -37141,6 +38552,19 @@
     "it": "Ho dimenticato il libro a casa.",
     "license": "CC BY 2.0 FR",
     "source_id": "3516070",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "a833db3ffc36",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡He obtenido mi licencia de conducir!",
+    "es_author": "Serrot",
+    "es_source_id": "13557422",
+    "id": "s_3518231",
+    "it": "Ho preso la patente!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3518231",
     "translation_kind": "direct"
   },
   {
@@ -37217,6 +38641,55 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3635296",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "73fb08936f50",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿No has cenado?",
+    "es_author": "cueyayotl",
+    "es_source_id": "6171012",
+    "id": "s_3635508",
+    "it": "Non hai cenato?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3635508",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "9bab638d9d59",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Te extraño tanto.",
+    "es_author": "IA (Claude)",
+    "id": "s_3637742",
+    "it": "Mi manchi così tanto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3637742",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "30ce40026c06",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Lo extraño tanto.",
+    "es_author": "IA (Claude)",
+    "id": "s_3637744",
+    "it": "Mi manca così tanto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3637744",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "513160a421f6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Los extraño tanto.",
+    "es_author": "IA (Claude)",
+    "id": "s_3637746",
+    "it": "Mi mancate così tanto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3637746",
+    "translation_kind": "llm"
   },
   {
     "audio": "ab5dab6946bb",
@@ -37296,6 +38769,31 @@
     "it": "Non parlare così.",
     "license": "CC BY 2.0 FR",
     "source_id": "375657",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "80952046ba08",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ya no puede caminar.",
+    "es_author": "IA (Claude)",
+    "id": "s_3758991",
+    "it": "Non può più camminare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3758991",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1ec5533efe3e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No se levantó temprano.",
+    "es_author": "kylecito",
+    "es_source_id": "336757",
+    "id": "s_3761237",
+    "it": "Non si è alzato presto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3761237",
     "translation_kind": "direct"
   },
   {
@@ -37454,6 +38952,45 @@
     "it": "Oh, i miei pantaloni bianchi! Erano nuovi.",
     "license": "CC BY 2.0 FR",
     "source_id": "380662",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e418e101e512",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Fue divertido?",
+    "es_author": "cueyayotl",
+    "es_source_id": "4587013",
+    "id": "s_3808104",
+    "it": "È stato divertente?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3808104",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0b17cc0aac0d",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "He decidido decirle que la quiero.",
+    "es_author": "Shishir",
+    "es_source_id": "1595434",
+    "id": "s_380824",
+    "it": "Ho deciso di dirgli che la amo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "380824",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "02854bbe8fc1",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "La película era tan triste que todos lloraron.",
+    "es_author": "kylecito",
+    "es_source_id": "337098",
+    "id": "s_381874",
+    "it": "Il film era così triste che tutti hanno pianto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "381874",
     "translation_kind": "direct"
   },
   {
@@ -37648,6 +39185,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "57c7a3bde14e",
+    "author": "valealb",
+    "cefr_estimate": "A2",
+    "es": "Me he cepillado los dientes.",
+    "es_author": "Shishir",
+    "es_source_id": "10460510",
+    "id": "s_3884947",
+    "it": "Mi sono lavato i denti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3884947",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "40b88f272fd2",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "¿Qué has respondido?",
+    "es_author": "Shishir",
+    "es_source_id": "2631",
+    "id": "s_388817",
+    "it": "Che cos'hai risposto?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "388817",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "5a8c33e94bf0",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -37658,6 +39221,19 @@
     "it": "La mia lingua non si trova nella lista!",
     "license": "CC BY 2.0 FR",
     "source_id": "389110",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "02a746906a44",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "¿Ya has estado en París?",
+    "es_author": "Shishir",
+    "es_source_id": "795884",
+    "id": "s_390650",
+    "it": "Sei già stato a Parigi?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "390650",
     "translation_kind": "direct"
   },
   {
@@ -37803,6 +39379,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "83f1f1542ca9",
+    "author": "shoras",
+    "cefr_estimate": "A2",
+    "es": "Ella fue a Chicago en autobús.",
+    "es_author": "Shishir",
+    "es_source_id": "940748",
+    "id": "s_409814",
+    "it": "Lei è andata a Chicago in autobus.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "409814",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "29dd94761b2e",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -37893,6 +39482,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a65a14114030",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo ya no bebo.",
+    "es_author": "IA (Claude)",
+    "id": "s_4243995",
+    "it": "Io non bevo più.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4243995",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b112a62138f0",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -37918,6 +39519,42 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "8f850e4e0c5f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ella se quedó.",
+    "es_author": "IA (Claude)",
+    "id": "s_4260526",
+    "it": "Lei è rimasta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4260526",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "81eed812e271",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ustedes se quedaron.",
+    "es_author": "IA (Claude)",
+    "id": "s_4260528",
+    "it": "Voi siete rimasti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4260528",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "0a876b0b60ce",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ustedes (chicas) se quedaron.",
+    "es_author": "IA (Claude)",
+    "id": "s_4260531",
+    "it": "Voi siete rimaste.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4260531",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "92a89a0d40ca",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -37927,6 +39564,18 @@
     "it": "Non aprire la porta.",
     "license": "CC BY 2.0 FR",
     "source_id": "427951",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "7caa641425bb",
+    "author": "Nox",
+    "cefr_estimate": "A2",
+    "es": "Ya no tienen vino.",
+    "es_author": "IA (Claude)",
+    "id": "s_432028",
+    "it": "Non hanno più vino.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "432028",
     "translation_kind": "llm"
   },
   {
@@ -38005,6 +39654,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "49bf7fc8b74c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ya no quiero jugar.",
+    "es_author": "IA (Claude)",
+    "id": "s_4472340",
+    "it": "Non voglio più giocare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4472340",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "34ee6a9ebdfd",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38056,6 +39717,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "40bae85a399d",
+    "author": "ianna",
+    "cefr_estimate": "A2",
+    "es": "Fue un beso muy romántico.",
+    "es_author": "ianna",
+    "es_source_id": "4739405",
+    "id": "s_4523622",
+    "it": "È stato un bacio molto romantico.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4523622",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c333a7394ebe",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Quién se detuvo?",
+    "es_author": "ignacio",
+    "es_source_id": "9423028",
+    "id": "s_4569287",
+    "it": "Chi si è fermato?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4569287",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "80b0da8074c3",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38066,6 +39753,19 @@
     "it": "Tutti i fiori nel giardino sono gialli.",
     "license": "CC BY 2.0 FR",
     "source_id": "4571433",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d3f22652ece8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La fiesta fue bastante salvaje.",
+    "es_author": "Viqui",
+    "es_source_id": "12024548",
+    "id": "s_4583987",
+    "it": "La festa è stata piuttosto selvaggia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4583987",
     "translation_kind": "direct"
   },
   {
@@ -38082,6 +39782,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "475c73d64118",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Conseguí entrar.",
+    "es_author": "hundo",
+    "es_source_id": "957071",
+    "id": "s_4639",
+    "it": "Sono riuscito a entrare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4639",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "317de9f2b90a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38091,6 +39804,18 @@
     "it": "Non ascoltare Tom.",
     "license": "CC BY 2.0 FR",
     "source_id": "4668061",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c3f39602879a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Fuimos demasiado lejos.",
+    "es_author": "IA (Claude)",
+    "id": "s_4690733",
+    "it": "Noi siamo andate troppo lontano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4690733",
     "translation_kind": "llm"
   },
   {
@@ -38142,6 +39867,19 @@
     "it": "Non ho né il tempo né i soldi.",
     "license": "CC BY 2.0 FR",
     "source_id": "475635",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3f1d83513839",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Estaba equivocado.",
+    "es_author": "Shishir",
+    "es_source_id": "473444",
+    "id": "s_475662",
+    "it": "Mi sono sbagliato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "475662",
     "translation_kind": "direct"
   },
   {
@@ -38237,6 +39975,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "6ec80bcd1954",
+    "author": "WM3DAS",
+    "cefr_estimate": "A2",
+    "es": "Ha sido agradable hablar contigo.",
+    "es_author": "Shishir",
+    "es_source_id": "2205601",
+    "id": "s_5114929",
+    "it": "È stato bello parlare con te.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5114929",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "4600bc51ebb0",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38301,6 +40052,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "109411519f37",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Nosotros volvimos.",
+    "es_author": "IA (Claude)",
+    "id": "s_5281025",
+    "it": "Noi siamo tornati.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5281025",
+    "translation_kind": "llm"
+  },
+  {
     "alt": [
       "Noi siamo diventati tutti comunisti."
     ],
@@ -38341,6 +40104,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "a4d58e802c0d",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Ella se despertó.",
+    "es_author": "Shishir",
+    "es_source_id": "528465",
+    "id": "s_529473",
+    "it": "Si è svegliata.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "529473",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "db0a0974e4cd",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38351,6 +40127,45 @@
     "license": "CC BY 2.0 FR",
     "source_id": "5330590",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "85db2de28c45",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom pidió algo de dinero.",
+    "es_author": "Shishir",
+    "es_source_id": "4435903",
+    "id": "s_5339590",
+    "it": "Tom ha chiesto un po' di denaro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5339590",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3f54a357276a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me desperté.",
+    "es_author": "ignacio",
+    "es_source_id": "9452763",
+    "id": "s_5345809",
+    "it": "Mi sono svegliato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5345809",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "1077e9f8468d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me desperté.",
+    "es_author": "ignacio",
+    "es_source_id": "9452763",
+    "id": "s_5345812",
+    "it": "Mi sono svegliata.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5345812",
+    "translation_kind": "direct"
   },
   {
     "audio": "1f924d9c814b",
@@ -38402,6 +40217,32 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "bac1698bb62a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Mi hija se ha resfriado",
+    "es_author": "AlfredoSeimandi",
+    "es_source_id": "12296366",
+    "id": "s_5370728",
+    "it": "Mia figlia ha preso il raffreddore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5370728",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "33692e535704",
+    "author": "dnnywld",
+    "cefr_estimate": "A2",
+    "es": "Ella cerró los ojos lentamente.",
+    "es_author": "darinmex",
+    "es_source_id": "578417",
+    "id": "s_5402346",
+    "it": "Lei ha chiuso gli occhi lentamente.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5402346",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "30786b9c769a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38411,6 +40252,31 @@
     "it": "Non dire troppo.",
     "license": "CC BY 2.0 FR",
     "source_id": "5403124",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "defbf5c61d7f",
+    "author": "dnnywld",
+    "cefr_estimate": "A2",
+    "es": "Él se ha sentado allí.",
+    "es_author": "saverius",
+    "es_source_id": "5469341",
+    "id": "s_5469331",
+    "it": "Lui si è seduto lì.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5469331",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "681ceff7b256",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Le gustó Moscú?",
+    "es_author": "IA (Claude)",
+    "id": "s_5515836",
+    "it": "Le è piaciuta Mosca?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5515836",
     "translation_kind": "llm"
   },
   {
@@ -38438,6 +40304,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "be39ebc7c68a",
+    "author": "amweingarten",
+    "cefr_estimate": "A2",
+    "es": "Ayer me levanté pronto.",
+    "es_author": "Shishir",
+    "es_source_id": "2189600",
+    "id": "s_5563452",
+    "it": "Ieri mi sono alzato presto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5563452",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ac89a44f9bff",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38460,6 +40339,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "5631306",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "0fd61b6c7395",
+    "author": "dnnywld",
+    "cefr_estimate": "A2",
+    "es": "¿Era un sueño?",
+    "es_author": "Shishir",
+    "es_source_id": "2008117",
+    "id": "s_5688443",
+    "it": "È stato un sogno?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5688443",
+    "translation_kind": "direct"
   },
   {
     "audio": "4b8aed060715",
@@ -38486,6 +40378,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "5697264",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "072c60585a59",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom ya no trabaja.",
+    "es_author": "IA (Claude)",
+    "id": "s_5712690",
+    "it": "Tom non lavora più.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5712690",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "26426e1d7045",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ya no me importa.",
+    "es_author": "IA (Claude)",
+    "id": "s_5766105",
+    "it": "A me non importa più.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5766105",
+    "translation_kind": "llm"
   },
   {
     "audio": "850a883df52d",
@@ -38538,6 +40454,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9956d26aa30a",
+    "author": "Julian_L",
+    "cefr_estimate": "A2",
+    "es": "¿Dónde estuviste esa noche?",
+    "es_author": "Shishir",
+    "es_source_id": "2722035",
+    "id": "s_6020583",
+    "it": "Dove sei stato quella notte?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6020583",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "b5aec1a9ce38",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -38577,6 +40506,45 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9314d1939929",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La gente se levantó.",
+    "es_author": "jorgearestrepo",
+    "es_source_id": "860202",
+    "id": "s_611971",
+    "it": "La gente si è alzata.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "611971",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "61f4143f45a5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Le he pedido que venga.",
+    "es_author": "glossboss",
+    "es_source_id": "13743985",
+    "id": "s_6141494",
+    "it": "Gli ho chiesto di venire.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6141494",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5d943dfdf4dd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Le he pedido que venga.",
+    "es_author": "glossboss",
+    "es_source_id": "13743985",
+    "id": "s_6141496",
+    "it": "Le ho chiesto di venire.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6141496",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "9c432d3cb5a9",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38587,6 +40555,19 @@
     "it": "Le scarpe che hai comprato sono troppo piccole.",
     "license": "CC BY 2.0 FR",
     "source_id": "6142802",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "4aa404c9fe54",
+    "author": "dnnywld",
+    "cefr_estimate": "A2",
+    "es": "Me casé joven.",
+    "es_author": "Seael",
+    "es_source_id": "13447101",
+    "id": "s_6143177",
+    "it": "Mi sono sposato giovane.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6143177",
     "translation_kind": "direct"
   },
   {
@@ -38603,6 +40584,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "007a2aaa274b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ella se enfadó.",
+    "es_author": "Shishir",
+    "es_source_id": "508488",
+    "id": "s_618233",
+    "it": "Si è arrabbiata.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "618233",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "7c3cc6ccc901",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38613,6 +40607,19 @@
     "it": "Ho visto delfini più intelligenti di te.",
     "license": "CC BY 2.0 FR",
     "source_id": "619812",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b9426b1efad1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ha puesto mucho azúcar en el café.",
+    "es_author": "hundo",
+    "es_source_id": "959196",
+    "id": "s_620732",
+    "it": "Ha messo molto zucchero nel caffè.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "620732",
     "translation_kind": "direct"
   },
   {
@@ -38721,6 +40728,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "050faf294d83",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No hemos venido (nosotras).",
+    "es_author": "IA (Claude)",
+    "id": "s_6371895",
+    "it": "Non siamo venute.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6371895",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "82ed434ed69c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No hemos venido.",
+    "es_author": "IA (Claude)",
+    "id": "s_6371896",
+    "it": "Non siamo venuti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6371896",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "2b47f953d59b",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38744,6 +40775,19 @@
     "it": "Vorrei venire con te, ma sono senza soldi.",
     "license": "CC BY 2.0 FR",
     "source_id": "643069",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e64f8d031ed6",
+    "author": "rado",
+    "cefr_estimate": "A2",
+    "es": "¿Has estado en Italia alguna vez?",
+    "es_author": "hundo",
+    "es_source_id": "963910",
+    "id": "s_644717",
+    "it": "Sei già stato in Italia prima?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "644717",
     "translation_kind": "direct"
   },
   {
@@ -38915,6 +40959,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "3b93e0d49de6",
+    "author": "Heracleum",
+    "cefr_estimate": "A2",
+    "es": "Él ya no trabaja aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_694513",
+    "it": "Lui non lavora più qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "694513",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "70c6fa386e24",
     "author": "Heracleum",
     "cefr_estimate": "A2",
@@ -38954,6 +41010,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a2437d3f36d4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Has estado alguna vez en Asia?",
+    "es_author": "saverius",
+    "es_source_id": "11857931",
+    "id": "s_7045755",
+    "it": "Sei mai stato in Asia?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7045755",
+    "translation_kind": "direct"
+  },
+  {
     "alt": [
       "Sai qual è la differenza tra argento e stagno?"
     ],
@@ -38968,6 +41037,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "704976",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "c7f8a60249cc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ya no quiero hablar.",
+    "es_author": "IA (Claude)",
+    "id": "s_7097942",
+    "it": "Non voglio più parlare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7097942",
+    "translation_kind": "llm"
   },
   {
     "audio": "05de105f42b7",
@@ -39047,6 +41128,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a9c83b6c93bf",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Has ido a Nara alguna vez?",
+    "es_author": "darinmex",
+    "es_source_id": "673415",
+    "id": "s_716494",
+    "it": "Sei mai stato a Nara?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "716494",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "cdf230c1d6ed",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -39070,6 +41164,19 @@
     "it": "Abbiamo provato a fermare Tom.",
     "license": "CC BY 2.0 FR",
     "source_id": "7418888",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "1510916379c0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ella se levantó tarde.",
+    "es_author": "Shishir",
+    "es_source_id": "959644",
+    "id": "s_749939",
+    "it": "Lei si è alzata tardi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "749939",
     "translation_kind": "direct"
   },
   {
@@ -39133,6 +41240,43 @@
     "license": "CC BY 2.0 FR",
     "source_id": "757576",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "7500a1df6409",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El aterrizaje fue perfecto.",
+    "es_author": "nancy",
+    "es_source_id": "1588904",
+    "id": "s_761661",
+    "it": "L'atterraggio è stato perfetto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "761661",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7a128f6ec089",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ya no trabajo aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_7623222",
+    "it": "Non lavoro più qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7623222",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b6c0412833b9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ya no trabajo aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_7623224",
+    "it": "Non lavoro più qua.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7623224",
+    "translation_kind": "llm"
   },
   {
     "audio": "16cf90cf4002",
@@ -39296,6 +41440,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ffb10305cb1d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No he leído todas sus novelas.",
+    "es_author": "darinmex",
+    "es_source_id": "886185",
+    "id": "s_7824015",
+    "it": "Non ho letto tutte le sue novelle.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7824015",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "0a0b36d5f4cf",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -39341,6 +41498,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1cc09ed30243",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Lo he leído en el periódico.",
+    "es_author": "chinopinyin",
+    "es_source_id": "791108",
+    "id": "s_791112",
+    "it": "L'ho letto sul giornale.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "791112",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "e531b365de55",
     "author": "rado",
     "cefr_estimate": "A2",
@@ -39351,6 +41521,19 @@
     "it": "Le ricchezze non rendono più saggi gli uomini.",
     "license": "CC BY 2.0 FR",
     "source_id": "797199",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "a72fab925f3f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Todavía no he comido.",
+    "es_author": "Shishir",
+    "es_source_id": "573187",
+    "id": "s_826582",
+    "it": "Non ho ancora pranzato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "826582",
     "translation_kind": "direct"
   },
   {
@@ -39390,6 +41573,19 @@
     "it": "Ha perso l'orologio di suo padre.",
     "license": "CC BY 2.0 FR",
     "source_id": "841039",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "9036b5788d9e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Leyó el poema en voz alta.",
+    "es_author": "Shishir",
+    "es_source_id": "859429",
+    "id": "s_859423",
+    "it": "Ha letto la poesia ad alta voce.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "859423",
     "translation_kind": "direct"
   },
   {
@@ -39486,6 +41682,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e4b8378e4f58",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Se casó el año pasado.",
+    "es_author": "hayastan",
+    "es_source_id": "1349525",
+    "id": "s_890950",
+    "it": "Si è sposata l'anno scorso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "890950",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "e2c5ba788044",
     "author": "riccioberto",
     "cefr_estimate": "A2",
@@ -39511,6 +41720,70 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "ce1ab47a9ebb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom se ha quedado en Australia.",
+    "es_author": "saverius",
+    "es_source_id": "10087110",
+    "id": "s_8980603",
+    "it": "Tom è rimasto in Australia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8980603",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "678110dd7dcb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ella se fue a casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_903238",
+    "it": "Lei è andata a casa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "903238",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b726efa5f54b",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "Dicen que ella nació en Alemania.",
+    "es_author": "hayastan",
+    "es_source_id": "1031871",
+    "id": "s_905717",
+    "it": "Dicono che lei è nata in Germania.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "905717",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "64f3d11fc01c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ha decidido que lo hará.",
+    "es_author": "arh",
+    "es_source_id": "9226722",
+    "id": "s_9211547",
+    "it": "Ha deciso che lo farà.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9211547",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "10b5c46767b8",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "He estado en el extranjero.",
+    "es_author": "hundo",
+    "es_source_id": "956719",
+    "id": "s_921335",
+    "it": "Sono stato all'estero.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "921335",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "663137c5d6f5",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -39521,6 +41794,19 @@
     "it": "Mia moglie non si alza prima di me.",
     "license": "CC BY 2.0 FR",
     "source_id": "929106",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "8747e0c1f23e",
+    "author": "zhou24",
+    "cefr_estimate": "A2",
+    "es": "Nos divertimos mucho anoche.",
+    "es_author": "lukaszpp",
+    "es_source_id": "464381",
+    "id": "s_934492",
+    "it": "Ci siamo divertiti ieri sera.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "934492",
     "translation_kind": "direct"
   },
   {
@@ -39537,6 +41823,31 @@
     "it": "Mi ha parlato in spagnolo.",
     "license": "CC BY 2.0 FR",
     "source_id": "945585",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3e6174d0b7cb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Llevamos aquí bastante tiempo.",
+    "es_author": "IA (Claude)",
+    "id": "s_945974",
+    "it": "Siamo stati qui abbastanza a lungo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "945974",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "03365aeb74d9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me levanté temprano.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1279981",
+    "id": "s_946207",
+    "it": "Mi sono alzata presto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "946207",
     "translation_kind": "direct"
   },
   {
@@ -39574,6 +41885,18 @@
     "it": "Siete venuti troppo tardi.",
     "license": "CC BY 2.0 FR",
     "source_id": "950173",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c9a8edadc19e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ella vino.",
+    "es_author": "IA (Claude)",
+    "id": "s_965377",
+    "it": "Lei è venuta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "965377",
     "translation_kind": "llm"
   },
   {
@@ -39777,6 +42100,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "86af11a47620",
+    "author": "Nuel",
+    "cefr_estimate": "B1",
+    "es": "Me he sentido como un tonto.",
+    "es_author": "saverius",
+    "es_source_id": "10251170",
+    "id": "s_10249854",
+    "it": "Mi sono sentito uno sciocco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10249854",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "27c1bd1c0f59",
     "author": "elgranjuego",
     "cefr_estimate": "B1",
@@ -39958,6 +42294,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "d0a4acd0dac2",
+    "author": "IdiomHunter",
+    "cefr_estimate": "B1",
+    "es": "Me gradué en historia.",
+    "es_author": "dexiee",
+    "es_source_id": "1006991",
+    "id": "s_13970900",
+    "it": "Mi sono laureato in storia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13970900",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "dfc60790458e",
     "author": "unforgiven95",
     "cefr_estimate": "B1",
@@ -40048,6 +42397,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "67b4c2c6ed2a",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Se dieron un apretón de manos.",
+    "es_author": "roimg3",
+    "es_source_id": "883750",
+    "id": "s_2846987",
+    "it": "Si sono dati la mano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2846987",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "beb5df4951ff",
     "author": "Guybrush88",
     "cefr_estimate": "B1",
@@ -40119,6 +42481,19 @@
     "it": "Annibale, mentre stava per superare le Alpi, rafforzò gli animi dei soldati.",
     "license": "CC BY 2.0 FR",
     "source_id": "3161121",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "55aea6267fff",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "¡Ojalá fuera realmente así!",
+    "es_author": "carlosalberto",
+    "es_source_id": "12211090",
+    "id": "s_3165434",
+    "it": "Magari fosse davvero così!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3165434",
     "translation_kind": "direct"
   },
   {
@@ -40219,6 +42594,31 @@
     "it": "Devi tenere in mente che lei è molto più giovane di te.",
     "license": "CC BY 2.0 FR",
     "source_id": "3358101",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "f3db833dde97",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "¿Por qué debería irse él?",
+    "es_author": "IA (Claude)",
+    "id": "s_3415922",
+    "it": "Perché lui dovrebbe andarsene?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3415922",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "3af5eb94884a",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Usted malinterpretó lo que escribí.",
+    "es_author": "carlosalberto",
+    "es_source_id": "3442088",
+    "id": "s_3441647",
+    "it": "Hai letto male ciò che ho scritto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3441647",
     "translation_kind": "direct"
   },
   {
@@ -40552,6 +42952,19 @@
     "it": "Lui ha paura di dire ai suoi genitori che è omosessuale.",
     "license": "CC BY 2.0 FR",
     "source_id": "5962421",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "6fe1b6d0cf87",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "He sido la última en verlo.",
+    "es_author": "saverius",
+    "es_source_id": "11816455",
+    "id": "s_6067788",
+    "it": "Sono stata l'ultima a vederlo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6067788",
     "translation_kind": "direct"
   },
   {

@@ -123,14 +123,15 @@ def test_los_codigos_cubiertos():
     assert find_calque("ERR_NO_EXISTE", "Ho fame.") is None
 
 
-NEW_CODES = set(calques_a2.GENERATORS) | {"ERR_ARTICLE_ALLOMORPH", "ERR_PARTICIPLE_AGREEMENT", "ERR_POSSESSIVE_SPELLING", "ERR_CONGIUNTIVO_OPINION",
+NEW_CODES = set(calques_a2.GENERATORS) | {"ERR_ARTICLE_ALLOMORPH", "ERR_POSSESSIVE_ARTICLE", "ERR_PERSONAL_A", "ERR_PARTICIPLE_AGREEMENT", "ERR_POSSESSIVE_SPELLING", "ERR_CONGIUNTIVO_OPINION",
              "ERR_PRESENT_ARE", "ERR_PRESENT_ERE_IRE", "ERR_PRESENT_ESSERE_AVERE", "ERR_PRESENT_IRREGULAR", "ERR_PRESENT_MODAL",
              "ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL", "ERR_PIACERE_ACCORDO",
              "ERR_GENERE_ES", "ERR_INDEFINITE_ARTICLE", "ERR_RIFLESSIVO_PRONOME", "ERR_PARTICIPIO_ES", "ERR_ORA_ES", "ERR_CHIAMARSI", "ERR_PRONOME_TONICO"}
 
 
 # Error de REGISTRO, no de forma: «scusa» es válido con «tu»; solo es error junto a un vocativo formal («Scusa, signore»). El generador exige ese vocativo.
-REGISTRO = {"ERR_IMPERATIVO_LEI"}
+# La forma sin concordar de un participio («è uscito») es válida con otro sujeto: en la consigna el español fija el género (decisión 2026-11-26, a2m01).
+REGISTRO = {"ERR_IMPERATIVO_LEI", "ERR_PARTICIPLE_AGREEMENT", "ERR_PARTICIPLE_AGREEMENT_CLITIC"}
 
 
 def test_ningun_calco_aparece_en_el_corpus_validado():
@@ -153,7 +154,7 @@ def test_ningun_calco_aparece_en_el_corpus_validado():
             after = re.match(r"\s*\S+", d["it"][c.end:])
             phrase = (c.wrong + (after.group(0) if after else "")).lower()
             if code in NEW_CODES:  # su calco solo es error dentro de su contexto («siamo stato», «che è», «il mi»): se busca con la palabra anterior
-                n = 2 if code.startswith("ERR_PRESENT_") else 1  # presente: pronombre + (non) + verbo
+                n = 2 if code.startswith("ERR_PRESENT_") or code == "ERR_CONGIUNTIVO_OPINION" else 1  # presente: pronombre + (non) + verbo; «che è successo» es válido tras «quello» (se mira también el verbo de opinión)
                 before = re.search(r"((?:\S+\s+){0,%d}\S+)\s*$" % (n - 1), d["it"][:c.start])
                 phrase = (before.group(0).strip() + " " if before else "").lower() + phrase
             if code in ("ERR_IMPERATIVO_FORMA", "ERR_IMPERATIVO_NEG"):  # «apre la» / «non parli» solo son error como mandato al comienzo de la frase; en medio son «él abre» / «tú no hablas»
@@ -163,7 +164,7 @@ def test_ningun_calco_aparece_en_el_corpus_validado():
             if code == "ERR_COMPARATIVE_DI":  # «che me» solo es calco tras «più/meno + adjetivo»; «prima che me lo scordi» es otra cosa
                 phrase = r"(?:più|meno) \w+ " + re.escape(phrase)
             if c.kind == "omission":  # «tua idea» está dentro de «la tua idea»: solo cuenta si no lleva artículo antes
-                bare = re.search(r"(?<!il )(?<!la )(?<!le )(?<!lo )(?<!i )(?<!gli )(?<!una )(?<!un )(?<!nel )(?<!del )(?<!al )(?<!dal )(?<!sul )(?<!col )" + re.escape(phrase), corpus.lower())  # «una mia amica» y «nel nostro tè» son correctos
+                bare = re.search(r"(?<!il )(?<!la )(?<!le )(?<!lo )(?<!i )(?<!gli )(?<!una )(?<!un )(?<!nel )(?<!del )(?<!al )(?<!dal )(?<!sul )(?<!col )(?<!più )(?<!è )(?<!sei )(?<!era )(?<!sono )" + re.escape(phrase), corpus.lower())  # «una mia amica», «nel nostro tè» y «non sei più mio amico» (uso predicativo) son correctos
                 assert not bare, (code, phrase)
             else:
                 pattern = phrase if code == "ERR_COMPARATIVE_DI" else re.escape(phrase)

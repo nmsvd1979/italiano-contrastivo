@@ -69,13 +69,23 @@
     "cap_err_voc_tempolibero",
     "cap_err_voc_trasporti",
     "cap_err_voc_vorrei",
+    "cap_err_accent_transfer",
     "cap_err_aux_essere",
+    "cap_err_avverbi_passato",
     "cap_err_comparative_di",
+    "cap_err_pp_ausiliare",
+    "cap_err_pp_participi_irreg",
+    "cap_err_reflexive_aux",
     "cap_err_participle_agreement",
     "cap_err_personal_a",
     "cap_err_congiuntivo_opinion"
   ],
   "codes": {
+    "ERR_ACCENT_TRANSFER": {
+      "capsule": true,
+      "reason": null,
+      "usable": 8
+    },
     "ERR_ARTICLE_ALLOMORPH": {
       "capsule": true,
       "reason": null,
@@ -86,10 +96,20 @@
       "reason": null,
       "usable": 46
     },
+    "ERR_AVVERBI_PASSATO": {
+      "capsule": true,
+      "reason": null,
+      "usable": 31
+    },
     "ERR_CE_AGREEMENT": {
       "capsule": true,
       "reason": null,
       "usable": 31
+    },
+    "ERR_CE_IMPERFETTO": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
     },
     "ERR_CHIAMARSI": {
       "capsule": true,
@@ -101,10 +121,30 @@
       "reason": null,
       "usable": 38
     },
+    "ERR_CLITICO_POSIZIONE": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
+    "ERR_CLITIC_DIRECT_INDIRECT": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 1
+    },
+    "ERR_CLITIC_NE": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
     "ERR_COMPARATIVE_DI": {
       "capsule": true,
       "reason": null,
       "usable": 18
+    },
+    "ERR_COMPARATIVO_IRREG": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
     },
     "ERR_CONGIUNTIVO_OPINION": {
       "capsule": true,
@@ -120,6 +160,16 @@
       "capsule": true,
       "reason": null,
       "usable": 82
+    },
+    "ERR_DATE_ORARI": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
+    "ERR_FUTURO_RADICE": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
     },
     "ERR_GENERE_ES": {
       "capsule": true,
@@ -141,15 +191,40 @@
       "reason": null,
       "usable": 34
     },
+    "ERR_IMPERATIVO_LEI": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
     "ERR_IMPERATIVO_NEG": {
       "capsule": true,
       "reason": null,
       "usable": 49
     },
+    "ERR_IMPERATIVO_PRONOMI": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
+    "ERR_IMPERFETTO_FORMA": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
     "ERR_INDEFINITE_ARTICLE": {
       "capsule": true,
       "reason": null,
       "usable": 38
+    },
+    "ERR_INDEFINITI": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
+    "ERR_OPINIONE": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
     },
     "ERR_ORA_ES": {
       "capsule": true,
@@ -164,7 +239,12 @@
     "ERR_PARTICIPLE_AGREEMENT": {
       "capsule": true,
       "reason": null,
-      "usable": 24
+      "usable": 78
+    },
+    "ERR_PARTICIPLE_AGREEMENT_CLITIC": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 2
     },
     "ERR_PERSONAL_A": {
       "capsule": true,
@@ -191,10 +271,25 @@
       "reason": null,
       "usable": 47
     },
+    "ERR_PP_AUSILIARE": {
+      "capsule": true,
+      "reason": null,
+      "usable": 35
+    },
+    "ERR_PP_PARTICIPI_IRREG": {
+      "capsule": true,
+      "reason": null,
+      "usable": 31
+    },
     "ERR_PREP_ARTICLE_CONTRACTION": {
       "capsule": true,
       "reason": null,
       "usable": 37
+    },
+    "ERR_PREP_FIXED_GOV": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 1
     },
     "ERR_PREP_PLACE": {
       "capsule": true,
@@ -231,6 +326,16 @@
       "reason": null,
       "usable": 30
     },
+    "ERR_REFLEXIVE_AUX": {
+      "capsule": true,
+      "reason": null,
+      "usable": 35
+    },
+    "ERR_RELATIVO_CHE": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
     "ERR_RIFLESSIVO_PRONOME": {
       "capsule": true,
       "reason": null,
@@ -241,10 +346,30 @@
       "reason": null,
       "usable": 46
     },
+    "ERR_SI_IMPERSONALE": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
+    "ERR_SPAZIO_PREP": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
     "ERR_STARE_GERUNDIO": {
       "capsule": true,
       "reason": null,
       "usable": 39
+    },
+    "ERR_SUBORDINATE": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
+    "ERR_TEMPO_FA_DA": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
     },
     "ERR_TENERE_AVERE": {
       "capsule": true,
@@ -285,6 +410,11 @@
       "capsule": true,
       "reason": null,
       "usable": 50
+    },
+    "ERR_VOC_CARATTERE": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
     },
     "ERR_VOC_CASA": {
       "capsule": true,
@@ -331,6 +461,11 @@
       "reason": null,
       "usable": 40
     },
+    "ERR_VOC_CULTURA": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
     "ERR_VOC_DENARO": {
       "capsule": true,
       "reason": null,
@@ -345,6 +480,16 @@
       "capsule": true,
       "reason": null,
       "usable": 49
+    },
+    "ERR_VOC_FALSI_CASA": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
+    "ERR_VOC_FALSI_CITTA": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
     },
     "ERR_VOC_FAMILIA": {
       "capsule": true,
@@ -441,6 +586,16 @@
       "reason": null,
       "usable": 35
     },
+    "ERR_VOC_UFFICI": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
+    "ERR_VOC_VIAGGIO": {
+      "capsule": false,
+      "reason": "menos de 3 oraciones utilizables",
+      "usable": 0
+    },
     "ERR_VOC_VORREI": {
       "capsule": true,
       "reason": null,
@@ -453,18 +608,18 @@
     "B1": "items_B1.json"
   },
   "levels": {
-    "A1": 3070,
-    "A2": 477,
-    "B1": 146,
+    "A1": 3093,
+    "A2": 789,
+    "B1": 151,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 3674,
+    "llm-audit": 4014,
     "me": 26
   },
-  "sentences_used": 3170,
+  "sentences_used": 3361,
   "translation_kind": {
-    "direct": 1884,
-    "llm": 1286
+    "direct": 2005,
+    "llm": 1356
   }
 }

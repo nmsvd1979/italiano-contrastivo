@@ -1,0 +1,2100 @@
+[
+ {
+  "id": "s_3427735",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "doubt",
+  "nota": "\"Ho letto ora\" poco natural; preferible adesso"
+ },
+ {
+  "id": "s_1003087",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Leí el libro.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3518231",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¡Saqué mi licencia de conducir!",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_388817",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Qué respondiste?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1264152",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Pidió una cerveza.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11759900",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Leí el informe.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2486527",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Leí sus diarios.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_9211547",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Decidió que lo hará.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_12311832",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Tomaste pizza?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_716378",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "reject",
+  "nota": "modismo (prendere fuoco)"
+ },
+ {
+  "id": "s_13566020",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "doubt",
+  "nota": "\"preso\" por comprar: dudoso, ambiguo"
+ },
+ {
+  "id": "s_14070048",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Le pedí consejo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6141496",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Le pedí que viniera.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_791112",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Lo leí en el periódico.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6141494",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Le pedí que viniera.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_886418",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "reject",
+  "nota": "violencia física (agarrar del cuello)"
+ },
+ {
+  "id": "s_1679227",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Leí todos los comentarios.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13308934",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "La fábrica cerró ayer.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_8980603",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Tom se quedó en Australia.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3183045",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¡Adivinen cuánto gasté!",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3352040",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "reject",
+  "nota": "\"una mia decisione\" poco natural"
+ },
+ {
+  "id": "s_977796",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "reject",
+  "nota": "\"colonia\" léxico raro, poco natural"
+ },
+ {
+  "id": "s_10249417",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Cuánto dinero gastaste ayer?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1019236",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Acabo de leer este libro.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1824232",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ayer no leí ningún libro.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_380824",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Decidí decirle que la amo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1125652",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Pedí prestados dos libros.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5339590",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Tom pidió algo de dinero.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1517044",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "No he leído todos estos libros.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1191249",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "reject",
+  "nota": "\"essere avvocato\": natural sería diventare"
+ },
+ {
+  "id": "s_859423",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Leyó el poema en voz alta.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3066301",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Leíste \"Romeo y Julieta\"?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1124187",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "doubt",
+  "nota": "\"preso un paio di scarpe\": ambiguo con comprar"
+ },
+ {
+  "id": "s_620732",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Puso mucho azúcar en el café.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3441647",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Leíste mal lo que escribí.",
+  "nivel": "B1"
+ },
+ {
+  "id": "s_7824015",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "No he leído todos sus cuentos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1106380",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Mi papá pescó tres peces ayer.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1131858",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Decidí seguir estudiando.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5402346",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ella cerró los ojos lentamente.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5370728",
+  "codigo": "ERR_PP_PARTICIPI_IRREG",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Mi hija se resfrió.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5688443",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Fue un sueño?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3033587",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¡Estuviste pésimo!",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3808104",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Fue divertido?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2448614",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "He estado en la India.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2448616",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "He estado en la India.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_14034620",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "reject",
+  "nota": "\"bel tocco\" poco natural"
+ },
+ {
+  "id": "s_1019361",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "reject",
+  "nota": "ambiguo: \"solo\" puede ser adverbio"
+ },
+ {
+  "id": "s_921335",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "He estado en el extranjero.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1089688",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ayer estuvo nublado.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_390650",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Ya has estado en París?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1008373",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "reject",
+  "nota": "incompleto, falta complemento de lugar"
+ },
+ {
+  "id": "s_1019853",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Siempre hemos sido amigos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_511310",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "reject",
+  "nota": "pasiva, nivel B1"
+ },
+ {
+  "id": "s_10467445",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Su vida fue corta.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6020583",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Dónde estuviste esa noche?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2825657",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿En qué restaurante estuviste?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5114929",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Fue agradable hablar contigo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1513490",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Fue un fracaso total.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_644717",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Ya has estado antes en Italia?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11969550",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Su respuesta fue breve.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6067788",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Fui la última en verlo.",
+  "nivel": "B1"
+ },
+ {
+  "id": "s_2413881",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Fue una noche divertida.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_761661",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "El aterrizaje fue perfecto.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_14008527",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "El estacionamiento fue una pesadilla.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1035841",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Pudiste encontrar el libro?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4523622",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Fue un beso muy romántico.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4583987",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "La fiesta fue bastante salvaje.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3635508",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿No cenaste?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1061233",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Ya cenaste?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1306591",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Él ha estado en la India.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11964359",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Al menos almorzaste?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_350796",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Dormí nueve horas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1176174",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Yo dormí, ¿y tú?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1311008",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Siempre ha sido así.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_716494",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Has ido alguna vez a Nara?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7045755",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Has estado alguna vez en Asia?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_826582",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Todavía no almorcé.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1350098",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Hubo un accidente.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2102525",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Has estado alguna vez en la India?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4639",
+  "codigo": "ERR_PP_AUSILIARE",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Logré entrar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13956350",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "reject",
+  "nota": "espacio erróneo antes de \"?\""
+ },
+ {
+  "id": "s_529473",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ella se despertó.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_618233",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ella se enojó.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4569287",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Quién se detuvo?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2084388",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Quién se casó?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1254189",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Nos besamos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5345809",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Me desperté.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5345812",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Me desperté.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_475662",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Me equivoqué.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5469331",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Él se sentó allí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2004952",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Se divirtieron?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1739679",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Me corté.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3233299",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Se casó Marika?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_611971",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "La gente se levantó.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2846987",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Se dieron la mano.",
+  "nivel": "B1"
+ },
+ {
+  "id": "s_749939",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ella se levantó tarde.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_946207",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Me levanté temprano.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1548596",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Te lavaste las manos?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1548597",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Te lavaste las manos?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1081894",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ustedes se equivocaron.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3761237",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "No se levantó temprano.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3884947",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Me lavé los dientes.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6143177",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Me casé joven.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3505209",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Dónde se conocieron?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_10480996",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Me casé joven.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3337163",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "reject",
+  "nota": "depresión, tema sensible y B1"
+ },
+ {
+  "id": "s_3472953",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Cómo es que no se detuvo?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_993166",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "reject",
+  "nota": "política (voto), léxico B1+"
+ },
+ {
+  "id": "s_890950",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Se casó el año pasado.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1222409",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Yo también me divertí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4929256",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "reject",
+  "nota": "rivelarsi, léxico B2"
+ },
+ {
+  "id": "s_5563452",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ayer me levanté temprano.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13970900",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Me gradué en historia.",
+  "nivel": "B1"
+ },
+ {
+  "id": "s_10513528",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ella se despertó antes que él.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_10249854",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Me sentí como un tonto.",
+  "nivel": "B1"
+ },
+ {
+  "id": "s_6021610",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "reject",
+  "nota": "construcción compleja B1+"
+ },
+ {
+  "id": "s_934492",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Nos divertimos anoche.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1516111",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "reject",
+  "nota": "modismo raro (giogo al collo)"
+ },
+ {
+  "id": "s_2993754",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "doubt",
+  "nota": "\"sbagliarsi di molto\" poco seguro"
+ },
+ {
+  "id": "s_1081053",
+  "codigo": "ERR_REFLEXIVE_AUX",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Hoy me desperté temprano.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1255616",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ella salió.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2137504",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Te gustó la bicicleta?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_409814",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ella fue a Chicago en autobús.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_905717",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Dicen que ella nació en Alemania.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1512622",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Mi madre nació en el norte de México.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6551037",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "reject",
+  "nota": "pasivo con violencia (atacados), B1"
+ },
+ {
+  "id": "s_1086466",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "reject",
+  "nota": "pasivo, nivel B1"
+ },
+ {
+  "id": "s_1311014",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "reject",
+  "nota": "arresto (delito) y pasivo B1"
+ },
+ {
+  "id": "s_8550350",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Estuvimos allí.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_8550353",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Estuvimos allá.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_8550351",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Estuvimos allí.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_8550352",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Estuvimos allá.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3081279",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Estuvimos afuera.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5504050",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "reject",
+  "nota": "«siamo stati meglio» poco natural"
+ },
+ {
+  "id": "s_5504053",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "reject",
+  "nota": "«siamo state meglio» poco natural"
+ },
+ {
+  "id": "s_2416914",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "doubt",
+  "nota": "«siete state grandi» ambigua, poco natural"
+ },
+ {
+  "id": "s_2416913",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ustedes fueron geniales.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2357284",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "reject",
+  "nota": "«siete stati in piedi» raro, poco natural"
+ },
+ {
+  "id": "s_2357285",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "reject",
+  "nota": "«siete state in piedi» raro, poco natural"
+ },
+ {
+  "id": "s_3398952",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "reject",
+  "nota": "pasivo, nivel B1"
+ },
+ {
+  "id": "s_3364964",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "reject",
+  "nota": "«stati di fuori» poco natural"
+ },
+ {
+  "id": "s_5339513",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Estuvimos en casa anoche.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4415930",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Estuvimos aquí dos días.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4415932",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Estuvimos aquí dos días.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4698298",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Estuvimos juntos un año.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4698302",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Estuvimos juntas un año.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4690733",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Fuimos demasiado lejos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6707080",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Dónde estuvieron ustedes esta semana?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_6707078",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Dónde estuvieron ustedes esta semana?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_945974",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Llevamos aquí bastante tiempo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1724745",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Dónde estuvieron todo este tiempo?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1724749",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Dónde estuvieron todo este tiempo?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2255744",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Nos fuimos cuatro días después.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5020579",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "reject",
+  "nota": "léxico B1 (premurosi) y estructura"
+ },
+ {
+  "id": "s_5020581",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "reject",
+  "nota": "léxico B1 (premurose) y estructura"
+ },
+ {
+  "id": "s_965377",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ella vino.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4260526",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ella se quedó.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2918316",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Mary entró.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1669733",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Dónde nacieron ustedes?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1669735",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Dónde nacieron ustedes?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3059017",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_2435893",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no bebe.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_12604083",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no llueve.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3507703",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no vuelvo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_628461",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "«non voglio più» ambigua (más/ya no)"
+ },
+ {
+  "id": "s_2507348",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_1685668",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_4847462",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_1230149",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_3441954",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_4661337",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_373755",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_1299444",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "«ancora più» = aún más, no el punto"
+ },
+ {
+  "id": "s_10154046",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "«ragione mai» posible; sin error definitivo"
+ },
+ {
+  "id": "s_383021",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "«già non so» podría ser válido"
+ },
+ {
+  "id": "s_2848964",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_1653296",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no eres mi amigo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1177762",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_1652099",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "«non è più forte» es comparativo, no «ya no»"
+ },
+ {
+  "id": "s_663766",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no eres un niño.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1273326",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_1574726",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_1268766",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no eres una niña.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4204687",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "«ancora non» válido; sin error definitivo"
+ },
+ {
+  "id": "s_4685911",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_2866814",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "«nulla da dire» natural, pero «già non» dudoso"
+ },
+ {
+  "id": "s_2352366",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_539113",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no soy vegetariano.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3509238",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_1122031",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Tom ya no vive en Boston.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3838259",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "léxico B1 (ospedalizzato), sin error"
+ },
+ {
+  "id": "s_1395772",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no tengo tiempo para nada.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5469327",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_700314",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "sin error definitivo posible"
+ },
+ {
+  "id": "s_3344879",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "ambigua: «ya no llega» vs «nunca»"
+ },
+ {
+  "id": "s_13307972",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no recuerdo su nombre.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1114937",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "«ancora non» válido; sin error definitivo"
+ },
+ {
+  "id": "s_4953049",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no trabajamos para Tom.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2191277",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ellos se fueron.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1003986",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Dónde han estado ustedes (chicas)?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6371896",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "No hemos venido.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2191280",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ellas se fueron.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6371895",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "No hemos venido (nosotras).",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2054431",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "reject",
+  "nota": "Tema sensible (ceguera de nacimiento); poco útil."
+ },
+ {
+  "id": "s_4857719",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "reject",
+  "nota": "«è piaciuto» sería válido (neutro/singular); errado no definitivo."
+ },
+ {
+  "id": "s_1711074",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Adónde fueron ustedes (chicas)?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4260531",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ustedes (chicas) se quedaron.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2191762",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ellos volvieron.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1711075",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Adónde fueron ustedes?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4260528",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ustedes se quedaron.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2349200",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Cuándo nacieron ustedes (chicas)?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2349199",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Cuándo nacieron ustedes?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2443752",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "reject",
+  "nota": "«è piaciuto» sería válido (neutro/singular); errado no definitivo."
+ },
+ {
+  "id": "s_2191283",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ellos se fueron.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5281025",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Nosotros volvimos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2191764",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ellas volvieron.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1671816",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Cómo entraron ustedes?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1255846",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Nosotros llegamos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1671817",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Cómo entraron ustedes (chicas)?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2908665",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ella nació en Ohio.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3049192",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Nosotras llegamos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4581015",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "reject",
+  "nota": "«andare dentro» ambiguo, puede significar ir preso."
+ },
+ {
+  "id": "s_1438876",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Cuándo se fueron ustedes (chicas)?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1438874",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Cuándo se fueron ustedes?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_903238",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ella se fue a casa.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5515836",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Le gustó Moscú?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3000215",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "reject",
+  "nota": "«è piaciuto» sería válido (neutro/singular); errado no definitivo."
+ },
+ {
+  "id": "s_11254137",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¿Por qué salieron ustedes?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_8663311",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "«già non» podría leerse válido; errado no definitivo."
+ },
+ {
+  "id": "s_7695512",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "Largo, idiomático, «più di» o tema inadecuado."
+ },
+ {
+  "id": "s_1083843",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "«già non» podría leerse válido; errado no definitivo."
+ },
+ {
+  "id": "s_1804589",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "Largo, idiomático, «più di» o tema inadecuado."
+ },
+ {
+  "id": "s_2825572",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "¡Ya no quiero volver a casa!",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1141537",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "Largo, idiomático, «più di» o tema inadecuado."
+ },
+ {
+  "id": "s_6590285",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "Largo, idiomático, «più di» o tema inadecuado."
+ },
+ {
+  "id": "s_1238738",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "«già non» podría leerse válido; errado no definitivo."
+ },
+ {
+  "id": "s_935911",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "Largo, idiomático, «più di» o tema inadecuado."
+ },
+ {
+  "id": "s_3279919",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "Largo, idiomático, «più di» o tema inadecuado."
+ },
+ {
+  "id": "s_1083953",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Desde que Marco está a dieta, ya no come dulces.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_977358",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "Largo, idiomático, «più di» o tema inadecuado."
+ },
+ {
+  "id": "s_10721043",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "reject",
+  "nota": "Largo, idiomático, «più di» o tema inadecuado."
+ },
+ {
+  "id": "s_3441399",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_375432",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_883125",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_4538457",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "«già non» podría leerse válido; errado no definitivo."
+ },
+ {
+  "id": "s_2928149",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "«già non» podría leerse válido; errado no definitivo."
+ },
+ {
+  "id": "s_4243995",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Yo ya no bebo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1518906",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no tengo fuerzas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1300641",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no vive aquí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4538455",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "«già non» podría leerse válido; errado no definitivo."
+ },
+ {
+  "id": "s_10841302",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_12212330",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_1328432",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_12212332",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_1300643",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no vive aquí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5712690",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Tom ya no trabaja.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_351137",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no trabaja aquí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_432028",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no tienen vino.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7623224",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no trabajo aquí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7623222",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no trabajo aquí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4538459",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "«già non» podría leerse válido; errado no definitivo."
+ },
+ {
+  "id": "s_11712040",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no bebo cerveza.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1969884",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "«già non» podría leerse válido; errado no definitivo."
+ },
+ {
+  "id": "s_3291710",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_6908452",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_1494538",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "«già non» podría leerse válido; errado no definitivo."
+ },
+ {
+  "id": "s_2939486",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_1328427",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_2939484",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_1482083",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "«già non» podría leerse válido; errado no definitivo."
+ },
+ {
+  "id": "s_381430",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_380829",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_5766105",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no me importa.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_10151023",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_12294326",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no ando en moto.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1328429",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_3417815",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_3758991",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no puede caminar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5366997",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_12550658",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no vivo con ella.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1653300",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_3650377",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_2593892",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no puedo trabajar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_694513",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Él ya no trabaja aquí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5873572",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "«già non» podría leerse válido; errado no definitivo."
+ },
+ {
+  "id": "s_10145595",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "doubt",
+  "nota": "Copulativa: «già non» legible como válido; poco discriminante."
+ },
+ {
+  "id": "s_4472340",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no quiero jugar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7097942",
+  "codigo": "ERR_AVVERBI_PASSATO",
+  "veredicto": "keep",
+  "nota": null,
+  "espanol": "Ya no quiero hablar.",
+  "nivel": "A2"
+ }
+]

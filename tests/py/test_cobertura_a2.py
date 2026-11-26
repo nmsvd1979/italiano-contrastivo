@@ -118,7 +118,8 @@ def test_hay_36_capsulas_bien_formadas_y_sus_codigos_no_se_pisan():
         assert c["title_es"] and c["metodo"] and c["calco_es"], c["id"]
         if c["code"].startswith("ERR_VOC_"):
             assert "vocabulario" in c["metodo"], c["id"]
-        if c["code"] in unit_of:   # un código ya usado por una unidad solo se reutiliza si esa unidad pasa al módulo
+        built = {m["id"] for m in course["modules"]}
+        if c["code"] in unit_of and c["module"] not in built:   # un código ya usado por una unidad solo se reutiliza si esa unidad pasa al módulo (si el módulo ya se construyó, la unidad es suya)
             mod = next(m for m in DOC["modulos_planificados"] if m["id"] == c["module"])
             assert unit_of[c["code"]] in mod["unidades_existentes"], (c["id"], c["code"], unit_of[c["code"]])
 
@@ -130,6 +131,7 @@ def test_cada_modulo_declara_sus_capsulas_codigos_textos_y_tareas():
     seen_planned: set[str] = set()
     ids = _ids()
     existing = ids["readings"] | ids["roleplays"] | ids["tasks"] | ids["phrase_groups"]
+    built = {m["id"] for m in json.loads((PACK / "course.json").read_text(encoding="utf8"))["modules"]}
     for m in mods:
         assert m["estado"] in {"planificado", "en_construccion", "cerrado"}, m["id"]
         assert 3 <= len(m["can_do_es"]) <= 5 and m["situacion_es"], m["id"]
@@ -144,7 +146,7 @@ def test_cada_modulo_declara_sus_capsulas_codigos_textos_y_tareas():
             for x in p.get(kind, []):
                 assert x not in seen_planned, f"{x} está planificado dos veces"
                 seen_planned.add(x)
-                assert x not in existing, f"{x} ya existe en la app: se pisaría"
+                assert x not in existing or m["id"] in built, f"{x} ya existe en la app: se pisaría"   # en un módulo ya construido sus textos existen a propósito
         assert m["entrada"]["id"] not in seen_planned
     assert len(DOC["modulos_planificados"][2]["planned"]["relatos"]) >= 7   # el ejercicio de relato de a2m03
 

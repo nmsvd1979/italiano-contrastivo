@@ -20,7 +20,7 @@ def test_cada_audio_humano_existe_y_tiene_licencia_y_atribucion():
 
 def test_banco_del_dictado_aprobado_y_con_audio():
     bank = json.loads((PACK / "listening_human.json").read_text(encoding="utf8"))
-    audit = {v["id"]: v for v in json.loads((ROOT / "content/audits/2026-11-25-voz-humana.json").read_text(encoding="utf8"))["veredictos"]}
+    audit = {v["id"]: v for f in ("2026-11-25-voz-humana.json", "2026-11-26-voz-humana-a2.json") for v in json.loads((ROOT / "content/audits" / f).read_text(encoding="utf8"))["veredictos"]}
     voiced = {r["form"] for r in json.loads((AUDIO / "human.json").read_text(encoding="utf8"))}
     course = json.loads((PACK / "course.json").read_text(encoding="utf8"))
     for s in bank:

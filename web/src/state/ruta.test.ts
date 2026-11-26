@@ -43,7 +43,7 @@ describe("la ruta es el único camino para completar A1", () => {
       else await finishModuleStep(store, module.id, step, NOW);
     }
 
-    const mods = pack.course.modules!;
+    const mods = pack.course.modules!.filter((m) => m.level === "A1");   // el módulo a2m01 existe en el paquete: estas pruebas son de A1
     expect(mods).toHaveLength(12);
     for (const m of mods) {
       const stages = seen.get(m.id) ?? new Set();
@@ -54,7 +54,7 @@ describe("la ruta es el único camino para completar A1", () => {
 
     const units = await store.allUnits();
     const plan = planToday({ pack, cards: [], day: await store.getDay(localDate(NOW)), now: NOW, units });
-    expect(moduleViews(pack.course, units).modules.every((m) => m.state === "completed")).toBe(true);
+    expect(moduleViews(pack.course, units).modules.filter((m) => m.module.level === "A1").every((m) => m.state === "completed")).toBe(true);
     expect(plan.unit).toBeNull();
     expect(plan.module).toBeNull();
     expect(plan.milestone).toEqual({ level: "A1", passed: false });
@@ -65,8 +65,9 @@ describe("la ruta es el único camino para completar A1", () => {
 
     await store.putUnit({ ...emptyProgress("hito:A1"), completed: true });
     const after = planToday({ pack, cards: [], day: await store.getDay(localDate(NOW)), now: NOW, units: await store.allUnits() });
-    expect(after.milestone).toEqual({ level: "A1", passed: true });
-    expect(["#/repaso", "#/ruta"]).toContain(nextAction(after).href);   // con el hito aprobado solo queda el repaso de lo aprendido (o ver la ruta): ninguna unidad de otro nivel
+    // Con el hito de A1 aprobado se abre A2: Hoy ofrece el módulo a2m01 (el hito de A1 ya no queda pendiente).
+    expect(after.module?.view.module.id).toBe("a2m01");
+    expect(after.milestone).toBeNull();
   }, 120_000);
 
   it("cada unidad de A1 está en un módulo (si no, la ruta no la alcanzaría)", () => {

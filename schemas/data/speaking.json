@@ -320,6 +320,30 @@
     "u74"
    ],
    "goal_es": "Mandar una carta, preguntar cuánto cuesta un paquete y llenar un formulario."
+  },
+  {
+   "id": "rp_a2m01_a",
+   "title": "Contar el día de ayer",
+   "function_es": "Contar qué hiciste ayer",
+   "reading": "rd_a2m01_a",
+   "from": 0,
+   "to": 9,
+   "after": [
+    "u78"
+   ],
+   "goal_es": "Responde como Paolo y cuenta tu día con passato prossimo."
+  },
+  {
+   "id": "rp_a2m01_b",
+   "title": "El fin de semana",
+   "function_es": "Contar cómo estuvo tu fin de semana",
+   "reading": "rd_a2m01_b",
+   "from": 0,
+   "to": 10,
+   "after": [
+    "u78"
+   ],
+   "goal_es": "Responde como Matteo y cuenta tu fin de semana, incluido lo que te gustó o no."
   }
  ],
  "tasks": [
@@ -632,6 +656,52 @@
     "No leí: hablé de corrido, aunque con pausas.",
     "Cuidé lo que ya estudié: artículos (il/la), posesivos con artículo, género distinto del español.",
     "Me escuché y las palabras con ci/ce/chi/che y las consonantes dobles sonaron como en el modelo."
+   ]
+  },
+  {
+   "id": "ht_a2m01",
+   "title": "Cuenta tu semana",
+   "function_es": "Contar lo que hiciste con passato prossimo",
+   "level": "A2",
+   "minutes": 2,
+   "after": [
+    "u78"
+   ],
+   "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+   },
+   "intro_es": "Cuenta en italiano, en 2 minutos, lo que hiciste la semana pasada. Usa passato prossimo con avere y con essere.",
+   "questions": [
+    {
+     "it": "Che cosa hai fatto lunedì?",
+     "es": "¿Qué hiciste el lunes?"
+    },
+    {
+     "it": "Dove sei andato durante la settimana?",
+     "es": "¿Adónde fuiste durante la semana?"
+    },
+    {
+     "it": "Chi hai incontrato?",
+     "es": "¿A quién viste?"
+    },
+    {
+     "it": "Che cosa hai mangiato di buono?",
+     "es": "¿Qué comiste rico?"
+    },
+    {
+     "it": "Che cosa ti è piaciuto di più?",
+     "es": "¿Qué te gustó más?"
+    }
+   ],
+   "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
+   "checklist_es": [
+    "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+    "No leí: hablé de corrido, aunque con pausas.",
+    "Cuidé lo que enseña este módulo: Participios que el español no anticipa; ¿Avere o essere?; Reflexivos en pasado.",
+    "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
    ]
   }
  ],
@@ -1268,6 +1338,48 @@
     "module": "m12",
     "it": "Dov'è l'ufficio postale nella tua città?",
     "es": "¿Dónde está la oficina de correos en tu ciudad?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m01_1",
+    "module": "a2m01",
+    "it": "Che cosa hai fatto ieri sera?",
+    "es": "¿Qué hiciste anoche?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m01_2",
+    "module": "a2m01",
+    "it": "A che ora ti sei alzato stamattina?",
+    "es": "¿A qué hora te levantaste hoy en la mañana?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m01_3",
+    "module": "a2m01",
+    "it": "Dove sei andato sabato?",
+    "es": "¿Adónde fuiste el sábado?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m01_4",
+    "module": "a2m01",
+    "it": "Che cosa hai mangiato a pranzo oggi?",
+    "es": "¿Qué almorzaste hoy?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m01_5",
+    "module": "a2m01",
+    "it": "Hai già fatto la spesa questa settimana?",
+    "es": "¿Ya hiciste las compras esta semana?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m01_6",
+    "module": "a2m01",
+    "it": "Sei mai stato in Italia?",
+    "es": "¿Has estado alguna vez en Italia?",
     "authored": true
    }
   ]

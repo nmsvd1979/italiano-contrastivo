@@ -434,7 +434,7 @@
  "modulos_planificados": [
   {
    "id": "a2m01",
-   "estado": "planificado",
+   "estado": "cerrado",
    "title_es": "Contar lo que hiciste",
    "situacion_es": "El fin de semana, ayer, un viaje: contar lo que hiciste y preguntar a otros.",
    "can_do_es": [

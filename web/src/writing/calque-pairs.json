@@ -511,6 +511,11 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Non ricordo più il suo nome.",
+    "wrong": "Non ricordo più suo nome."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Amo il suo profumo!",
     "wrong": "Amo suo profumo!"
   },
@@ -2560,6 +2565,16 @@
     "wrong": "Ho cercato di conoscere mia anima."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La sua vita è stata corta.",
+    "wrong": "Sua vita è stata corta."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Esiste qualcosa di più stupido e odioso della burocrazia universitaria?",
+    "wrong": "Esiste qualcosa di più stupido e odioso di la burocrazia universitaria?"
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "È andato là?",
     "wrong": "Ha andato là?"
@@ -2615,6 +2630,11 @@
     "wrong": "L'aeroporto si trova a nord di la città."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Perché siete usciti?",
+    "wrong": "Perché avete usciti?"
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La pigrizia è il divano del diavolo.",
     "wrong": "La pigrizia è il divano di il diavolo."
@@ -2665,6 +2685,11 @@
     "wrong": "Prendiamo nostro tè con lo zucchero."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La sua risposta è stata breve.",
+    "wrong": "Sua risposta è stata breve."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Siamo stati a Londra per due settimane.",
     "wrong": "Siamo stati in Londra per due settimane."
@@ -2673,6 +2698,21 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Prendi il tuo tempo prima di rispondere.",
     "wrong": "Prendi tuo tempo prima di rispondere."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Hai preso della pizza?",
+    "wrong": "Hai preso di la pizza?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Lei è uscita.",
+    "wrong": "Lei ha uscita."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Noi siamo arrivati.",
+    "wrong": "Noi abbiamo arrivati."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2770,6 +2810,11 @@
     "wrong": "Vorrei di il tè col limone."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sento già l'odore salato dell'oceano.",
+    "wrong": "Sento già l'odore salato di l'oceano."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il mio cellulare è nella tasca dei miei pantaloni.",
     "wrong": "Mio cellulare è nella tasca dei miei pantaloni."
@@ -2791,6 +2836,16 @@
   },
   {
     "code": "ERR_AUX_ESSERE",
+    "correct": "Quando siete andati?",
+    "wrong": "Quando avete andati?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Quando siete andate?",
+    "wrong": "Quando avete andate?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
     "correct": "Siamo venuti qui per divertirci.",
     "wrong": "Abbiamo venuti qui per divertirci."
   },
@@ -2808,6 +2863,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Le nubi minacciose si stavano avvicinando, così siamo entrati.",
     "wrong": "Le nubi minacciose si stavano avvicinando, così abbiamo entrati."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Mia madre è nata nel nord del Messico.",
+    "wrong": "Mia madre ha nata nel nord del Messico."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -2855,6 +2915,26 @@
     "wrong": "Lui non è più forte che me."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Dove siete nati?",
+    "wrong": "Dove avete nati?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Dove siete nate?",
+    "wrong": "Dove avete nate?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Come siete entrati?",
+    "wrong": "Come avete entrati?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Come siete entrate?",
+    "wrong": "Come avete entrate?"
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Io conosco Jim da quando ero bambina.",
     "wrong": "Io conosco a Jim da quando ero bambina."
@@ -2868,6 +2948,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Il nostro treno parte alle otto e mezza.",
     "wrong": "Il nostro treno parte a le otto e mezza."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Dove siete andate?",
+    "wrong": "Dove avete andate?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Dove siete andati?",
+    "wrong": "Dove avete andati?"
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -2940,6 +3030,21 @@
     "wrong": "Metti la copertina su il piccolo, fa freddo."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Siamo partiti quattro giorni più tardi.",
+    "wrong": "Abbiamo partiti quattro giorni più tardi."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Quando siete nati?",
+    "wrong": "Quando avete nati?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Quando siete nate?",
+    "wrong": "Quando avete nate?"
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è un piccolo giardino davanti alla mia casa.",
     "wrong": "Ci sono un piccolo giardino davanti alla mia casa."
@@ -2980,6 +3085,11 @@
     "wrong": "Tom ha venuto."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Ho letto i suoi diari.",
+    "wrong": "Ho letto suoi diari."
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Tom è in macchina che aspetta Mary.",
     "wrong": "Tom è in macchina che aspetta a Mary."
@@ -3010,6 +3120,16 @@
     "wrong": "Si può dire che ha morto felice."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Lei è nata in Ohio.",
+    "wrong": "Lei ha nata in Ohio."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Mary è entrata.",
+    "wrong": "Mary ha entrata."
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Tom ama Mary, però lei non ama lui.",
     "wrong": "Tom ama a Mary, però lei non ama lui."
@@ -3018,6 +3138,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Jack è nato il dieci di agosto.",
     "wrong": "Jack ha nato il dieci di agosto."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Noi siamo arrivate.",
+    "wrong": "Noi abbiamo arrivate."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3230,6 +3355,11 @@
     "wrong": "La mia lingua non si trova in la lista!"
   },
   {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Sei già stato a Parigi?",
+    "wrong": "Sei già stato in Parigi?"
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Dopo un'ora di macchina, siamo arrivati all'aeroporto.",
     "wrong": "Dopo un'ora di macchina, abbiamo arrivati all'aeroporto."
@@ -3248,6 +3378,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Lui abbreviava i suoi discorsi.",
     "wrong": "Lui abbreviava suoi discorsi."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Lei è andata a Chicago in autobus.",
+    "wrong": "Lei ha andata a Chicago in autobus."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -3318,6 +3453,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Tutti i fiori nel giardino sono gialli.",
     "wrong": "Tutti i fiori in il giardino sono gialli."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Noi siamo andate troppo lontano.",
+    "wrong": "Noi abbiamo andate troppo lontano."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3415,6 +3555,11 @@
     "wrong": "Ho visto delfini più intelligenti che te."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ha messo molto zucchero nel caffè.",
+    "wrong": "Ha messo molto zucchero in il caffè."
+  },
+  {
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Lei è molto più alta di me.",
     "wrong": "Lei è molto più alta che me."
@@ -3433,6 +3578,21 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Devi toglierti le scarpe prima di entrare nella stanza.",
     "wrong": "Devi toglierti le scarpe prima di entrare in la stanza."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Non siamo venute.",
+    "wrong": "Non abbiamo venute."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Non siamo venuti.",
+    "wrong": "Non abbiamo venuti."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Sei già stato in Italia prima?",
+    "wrong": "Sei già stato a Italia prima?"
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -3550,6 +3710,11 @@
     "wrong": "Siamo stati in Parigi."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Non ho letto tutte le sue novelle.",
+    "wrong": "Non ho letto tutte sue novelle."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Siamo andati al centro commerciale ieri.",
     "wrong": "Abbiamo andati al centro commerciale ieri."
@@ -3568,6 +3733,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Siamo andate al centro commerciale ieri.",
     "wrong": "Siamo andate a il centro commerciale ieri."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "L'ho letto sul giornale.",
+    "wrong": "L'ho letto su il giornale."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3591,8 +3761,33 @@
   },
   {
     "code": "ERR_AUX_ESSERE",
+    "correct": "Lei è andata a casa.",
+    "wrong": "Lei ha andata a casa."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Dicono che lei è nata in Germania.",
+    "wrong": "Dicono che lei ha nata in Germania."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Dicono che lei è nata in Germania.",
+    "wrong": "Dicono che lei è nata a Germania."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sono stato all'estero.",
+    "wrong": "Sono stato a l'estero."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
     "correct": "Siete venuti troppo tardi.",
     "wrong": "Avete venuti troppo tardi."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Lei è venuta.",
+    "wrong": "Lei ha venuta."
   },
   {
     "code": "ERR_AUX_ESSERE",

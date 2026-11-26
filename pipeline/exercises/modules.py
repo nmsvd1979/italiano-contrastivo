@@ -3,14 +3,29 @@
 Un módulo = qué sabrás hacer (`can_do_es`) + texto real de entrada + cápsulas (unidades) + salida (juegos de roles, tareas orales, frases) + una sugerencia
 de Biblioteca. La validación exige que todo lo que referencia exista y que ninguna unidad quede fuera o en dos módulos: así no se pierde contenido al reagrupar.
 """
+import json
+
+from pipeline import config
+
 MIN_CAN_DO = 3
+
+
+def pending_units(course: dict) -> set[str]:
+    """Unidades de A2 que ya existen en el curso (u09, u10, u11) pero cuyo módulo aún no se construyó: no se ofrecen y no cuentan como «sueltas».
+    Salen de `unidades_existentes` de los módulos planificados en schemas/data/syllabus-a2.json que todavía no están en el curso."""
+    f = config.ROOT / "schemas" / "data" / "syllabus-a2.json"
+    if not f.exists():
+        return set()
+    built = {m["id"] for m in course.get("modules", [])}
+    syl = json.loads(f.read_text(encoding="utf8"))
+    return {u for m in syl["modulos_planificados"] if m["id"] not in built for u in m.get("unidades_existentes", [])}
 
 
 def validate_modules(course: dict, readings: list[dict], speaking: dict, library: list[dict]) -> list[str]:
     errs: list[str] = []
     modules = course.get("modules") or []
     unit_ids = {u["id"] for u in course["units"]}
-    core = {u["id"] for u in course["units"] if u["level"] in {m["level"] for m in modules}}
+    core = {u["id"] for u in course["units"] if u["level"] in {m["level"] for m in modules}} - pending_units(course)
     reading_ids = {r["id"] for r in readings}
     roleplays = {r["id"] for r in speaking["roleplays"]}
     tasks = {t["id"] for t in speaking["tasks"]}

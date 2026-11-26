@@ -1,5 +1,103 @@
 [
   {
+    "id": "doc_a2m01_agenda",
+    "title": "L'agenda di Elena: la settimana scorsa",
+    "level": "A2",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cómo viajó Elena a Turín el lunes?",
+        "options": [
+          "En tren",
+          "En auto",
+          "En autobús"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Con quién tomó un café el martes?",
+        "options": [
+          "Con Paolo",
+          "Con Sara",
+          "Con Chiara"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Hasta qué hora se quedó en la oficina el miércoles?",
+        "options": [
+          "Hasta las seis",
+          "Hasta las siete",
+          "Hasta las ocho"
+        ],
+        "answer": 2
+      },
+      {
+        "prompt_es": "¿Qué le pasó al regalo de Paolo?",
+        "options": [
+          "Le gustó mucho",
+          "Lo perdió",
+          "Lo cambió por otro"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Qué hizo Elena el domingo?",
+        "options": [
+          "Salió con amigos",
+          "Descansó en casa",
+          "Fue al mercado"
+        ],
+        "answer": 1
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Giorno",
+        "Cosa ho fatto"
+      ],
+      "rows": [
+        [
+          "Lunedì",
+          "Mi sono alzata alle sette e ho preso il treno per Torino."
+        ],
+        [
+          "Martedì",
+          "Ho incontrato Sara e abbiamo preso un caffè."
+        ],
+        [
+          "Mercoledì",
+          "Sono rimasta in ufficio fino alle otto. Ho scritto tre e-mail."
+        ],
+        [
+          "Giovedì",
+          "Ho messo in ordine l'armadio e ho letto un libro."
+        ],
+        [
+          "Venerdì",
+          "Ho scelto un regalo per Paolo. Gli è piaciuto molto."
+        ],
+        [
+          "Sabato",
+          "Mi sono divertita alla festa di Chiara. Sono tornata a mezzanotte."
+        ],
+        [
+          "Domenica",
+          "Non sono uscita. Ho dormito molto e ho già preparato la valigia."
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
     "id": "doc_annuncio",
     "title": "Affittasi stanza",
     "level": "A1",
@@ -765,6 +863,180 @@
       ]
     },
     "sentences": []
+  },
+  {
+    "id": "ls_a2m01",
+    "title": "Due amici parlano di lunedì",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué hizo Giulia después del trabajo?",
+        "options": [
+          "Salió con Anna",
+          "Se quedó en casa",
+          "Estudió con Marco"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Qué comieron Giulia y Anna?",
+        "options": [
+          "Pasta",
+          "Un sándwich",
+          "Pizza"
+        ],
+        "answer": 2,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué hizo Marco el lunes?",
+        "options": [
+          "Fue al cine",
+          "Se quedó en casa",
+          "Salió con Luca"
+        ],
+        "answer": 1,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Marco terminó el libro?",
+        "options": [
+          "Sí, ayer",
+          "No, todavía no",
+          "No, lo dejó"
+        ],
+        "answer": 1,
+        "evidence": 10
+      },
+      {
+        "prompt_es": "¿Qué acaba de comprar Giulia?",
+        "options": [
+          "Una entrada de cine",
+          "Un libro nuevo para Marco",
+          "El mismo libro que lee Marco"
+        ],
+        "answer": 2,
+        "evidence": 11
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_a2m01_00",
+        "it": "Ciao Giulia! Che cosa hai fatto lunedì?",
+        "es": "¡Hola, Giulia! ¿Qué hiciste el lunes?",
+        "speaker": "Marco",
+        "audio": "62890b920fed"
+      },
+      {
+        "id": "ls_a2m01_01",
+        "it": "Ho lavorato fino alle sei. Poi sono uscita con Anna.",
+        "es": "Trabajé hasta las seis. Después salí con Anna.",
+        "speaker": "Giulia",
+        "audio": "c3ba44f845a8",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m01_02",
+        "it": "Dove siete andate?",
+        "es": "¿Adónde fueron?",
+        "speaker": "Marco",
+        "audio": "dd78e3b3b693"
+      },
+      {
+        "id": "ls_a2m01_03",
+        "it": "Siamo andate al cinema. Ho visto un film divertente.",
+        "es": "Fuimos al cine. Vi una película divertida.",
+        "speaker": "Giulia",
+        "audio": "d011cce98e7f",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m01_04",
+        "it": "Avete mangiato qualcosa?",
+        "es": "¿Comieron algo?",
+        "speaker": "Marco",
+        "audio": "ba7f26ce9578"
+      },
+      {
+        "id": "ls_a2m01_05",
+        "it": "Sì, abbiamo preso una pizza. Io ho scelto la margherita.",
+        "es": "Sí, pedimos una pizza. Yo elegí la margarita.",
+        "speaker": "Giulia",
+        "audio": "86ceb0e27967",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m01_06",
+        "it": "Io invece mi sono alzato tardi e sono rimasto a casa.",
+        "es": "Yo, en cambio, me levanté tarde y me quedé en casa.",
+        "speaker": "Marco",
+        "audio": "bdd14cfe7737"
+      },
+      {
+        "id": "ls_a2m01_07",
+        "it": "Hai studiato?",
+        "es": "¿Estudiaste?",
+        "speaker": "Giulia",
+        "audio": "dfdeaf84212f",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m01_08",
+        "it": "Ho letto un po', poi ho messo in ordine la camera.",
+        "es": "Leí un poco y después ordené la habitación.",
+        "speaker": "Marco",
+        "audio": "c981abf66334"
+      },
+      {
+        "id": "ls_a2m01_09",
+        "it": "Hai già finito il libro di Luca?",
+        "es": "¿Ya terminaste el libro de Luca?",
+        "speaker": "Giulia",
+        "audio": "731bf002f4d8",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m01_10",
+        "it": "No, non l'ho ancora finito. Mi è piaciuto molto, però.",
+        "es": "No, todavía no lo terminé. Pero me gustó mucho.",
+        "speaker": "Marco",
+        "audio": "ac85614cd136"
+      },
+      {
+        "id": "ls_a2m01_11",
+        "it": "Anch'io! Ho appena comprato lo stesso libro.",
+        "es": "¡Yo también! Acabo de comprar el mismo libro.",
+        "speaker": "Giulia",
+        "audio": "141faf6d2443",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m01_12",
+        "it": "Bravissima! Non ho mai letto un libro così bello.",
+        "es": "¡Genial! Nunca leí un libro tan bonito.",
+        "speaker": "Marco",
+        "audio": "5d1186635778"
+      },
+      {
+        "id": "ls_a2m01_13",
+        "it": "Allora ci sentiamo domani. Ciao!",
+        "es": "Entonces hablamos mañana. ¡Chao!",
+        "speaker": "Giulia",
+        "audio": "89e7144dd821",
+        "voice": 2
+      }
+    ]
   },
   {
     "id": "ls_m01",
@@ -2203,6 +2475,289 @@
         "speaker": "Matteo",
         "audio": "7c506408471e",
         "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m01_a",
+    "title": "Che cosa hai fatto ieri?",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué hizo Paolo ayer en la mañana después de levantarse?",
+        "options": [
+          "Fue al gimnasio",
+          "Cocinó pasta",
+          "Escribió correos"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Dónde almorzó Paolo?",
+        "options": [
+          "En un restaurante",
+          "En casa",
+          "En el gimnasio"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué hizo Paolo en la tarde?",
+        "options": [
+          "Salió con Luca",
+          "Corrió una hora",
+          "Estudió y escribió correos"
+        ],
+        "answer": 2,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Con quién se encontró Paolo en la noche?",
+        "options": [
+          "Con Luca",
+          "Con Sara",
+          "Con Anna"
+        ],
+        "answer": 0,
+        "evidence": 9
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m01_a_00",
+        "it": "Ciao Paolo! Che cosa hai fatto ieri?",
+        "es": "¡Hola, Paolo! ¿Qué hiciste ayer?",
+        "speaker": "Sara",
+        "audio": "23d06f02084c"
+      },
+      {
+        "id": "rd_a2m01_a_01",
+        "it": "Ieri mattina mi sono alzato presto.",
+        "es": "Ayer en la mañana me levanté temprano.",
+        "speaker": "Paolo",
+        "audio": "a7b4a6c9ab84",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m01_a_02",
+        "it": "E poi?",
+        "es": "¿Y después?",
+        "speaker": "Sara",
+        "audio": "8df7ec640641"
+      },
+      {
+        "id": "rd_a2m01_a_03",
+        "it": "Sono andato in palestra e ho corso un'ora.",
+        "es": "Fui al gimnasio y corrí una hora.",
+        "speaker": "Paolo",
+        "audio": "ddbeedc30ed2",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m01_a_04",
+        "it": "Hai mangiato fuori a pranzo?",
+        "es": "¿Almorzaste afuera?",
+        "speaker": "Sara",
+        "audio": "3745f4a10544"
+      },
+      {
+        "id": "rd_a2m01_a_05",
+        "it": "No, ho preparato la pasta a casa.",
+        "es": "No, preparé pasta en casa.",
+        "speaker": "Paolo",
+        "audio": "f168782bbbf2",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m01_a_06",
+        "it": "E nel pomeriggio?",
+        "es": "¿Y en la tarde?",
+        "speaker": "Sara",
+        "audio": "043bad0a512f"
+      },
+      {
+        "id": "rd_a2m01_a_07",
+        "it": "Ho studiato e ho scritto due e-mail.",
+        "es": "Estudié y escribí dos correos.",
+        "speaker": "Paolo",
+        "audio": "a46026f13d42",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m01_a_08",
+        "it": "Sei uscito la sera?",
+        "es": "¿Saliste en la noche?",
+        "speaker": "Sara",
+        "audio": "6eb0cc2deccf"
+      },
+      {
+        "id": "rd_a2m01_a_09",
+        "it": "Sì, ho incontrato Luca e abbiamo preso una birra.",
+        "es": "Sí, me encontré con Luca y tomamos una cerveza.",
+        "speaker": "Paolo",
+        "audio": "9c2524e4753c",
+        "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m01_b",
+    "title": "Com'è stato il weekend?",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Adónde fue Matteo el sábado?",
+        "options": [
+          "A un lago",
+          "Al mar",
+          "A la montaña"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Cuánto caminaron Matteo y Chiara?",
+        "options": [
+          "Una hora",
+          "Dos horas",
+          "Todo el día"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué hizo Matteo el domingo?",
+        "options": [
+          "Fue al cine",
+          "Cocinó para amigos",
+          "Se quedó en casa descansando"
+        ],
+        "answer": 2,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué le pasó a Matteo con la película?",
+        "options": [
+          "No le gustó mucho",
+          "Le gustó mucho",
+          "No la terminó"
+        ],
+        "answer": 0,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Qué hizo Elena con sus amigos?",
+        "options": [
+          "Cocinó para ellos",
+          "Fue al lago",
+          "Vio una película"
+        ],
+        "answer": 0,
+        "evidence": 8
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m01_b_00",
+        "it": "Ciao Matteo! Com'è stato il weekend?",
+        "es": "¡Hola, Matteo! ¿Cómo estuvo el fin de semana?",
+        "speaker": "Elena",
+        "audio": "15be21305997"
+      },
+      {
+        "id": "rd_a2m01_b_01",
+        "it": "Bellissimo! Sabato sono andato al lago con Chiara.",
+        "es": "¡Hermoso! El sábado fui al lago con Chiara.",
+        "speaker": "Matteo",
+        "audio": "208d29193848",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m01_b_02",
+        "it": "Che bello! Avete fatto una passeggiata?",
+        "es": "¡Qué lindo! ¿Dieron un paseo?",
+        "speaker": "Elena",
+        "audio": "1a671c04220d"
+      },
+      {
+        "id": "rd_a2m01_b_03",
+        "it": "Sì, abbiamo camminato due ore e abbiamo fatto molte foto.",
+        "es": "Sí, caminamos dos horas y sacamos muchas fotos.",
+        "speaker": "Matteo",
+        "audio": "b97344b93861",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m01_b_04",
+        "it": "E domenica?",
+        "es": "¿Y el domingo?",
+        "speaker": "Elena",
+        "audio": "dc641dbed4ef"
+      },
+      {
+        "id": "rd_a2m01_b_05",
+        "it": "Sono rimasto a casa. Mi sono riposato tutto il giorno.",
+        "es": "Me quedé en casa. Descansé todo el día.",
+        "speaker": "Matteo",
+        "audio": "293a07ee4da2",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m01_b_06",
+        "it": "Non sei uscito per niente?",
+        "es": "¿No saliste para nada?",
+        "speaker": "Elena",
+        "audio": "8d5857251fec"
+      },
+      {
+        "id": "rd_a2m01_b_07",
+        "it": "No, ho solo guardato un film. Non mi è piaciuto molto.",
+        "es": "No, solo vi una película. No me gustó mucho.",
+        "speaker": "Matteo",
+        "audio": "d81643bac109",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m01_b_08",
+        "it": "Peccato! Io invece ho cucinato per i miei amici.",
+        "es": "¡Qué lástima! Yo, en cambio, cociné para mis amigos.",
+        "speaker": "Elena",
+        "audio": "19aecfd6adb3"
+      },
+      {
+        "id": "rd_a2m01_b_09",
+        "it": "Che bello! Hai fatto un dolce?",
+        "es": "¡Qué lindo! ¿Hiciste un postre?",
+        "speaker": "Matteo",
+        "audio": "970d0e71d5ca",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m01_b_10",
+        "it": "Sì, ho fatto una torta.",
+        "es": "Sí, hice una torta.",
+        "speaker": "Elena",
+        "audio": "2496cc328d1e"
       }
     ]
   },

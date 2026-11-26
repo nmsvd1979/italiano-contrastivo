@@ -17,13 +17,18 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1003028: italiano #1003028 por Tradukero (https://tatoeba.org/en/sentences/show/1003028); español #1003107 por hayastan (https://tatoeba.org/en/sentences/show/1003107) — CC BY 2.0 FR
 - s_1003044: italiano #1003044 por Tradukero (https://tatoeba.org/en/sentences/show/1003044); español #1003048 por Shishir (https://tatoeba.org/en/sentences/show/1003048) — CC BY 2.0 FR
 - s_1003081: italiano #1003081 por Tradukero (https://tatoeba.org/en/sentences/show/1003081); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1003087: italiano #1003087 por Tradukero (https://tatoeba.org/en/sentences/show/1003087); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1003104: italiano #1003104 por Tradukero (https://tatoeba.org/en/sentences/show/1003104); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1003105: italiano #1003105 por Tradukero (https://tatoeba.org/en/sentences/show/1003105); español #704387 por Shishir (https://tatoeba.org/en/sentences/show/704387) — CC BY 2.0 FR
+- s_1003133: italiano #1003133 por Tradukero (https://tatoeba.org/en/sentences/show/1003133); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1003819: italiano #1003819 por Shishir (https://tatoeba.org/en/sentences/show/1003819); español #927352 por mrc3306 (https://tatoeba.org/en/sentences/show/927352) — CC BY 2.0 FR
 - s_1003979: italiano #1003979 por Guybrush88 (https://tatoeba.org/en/sentences/show/1003979); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1003986: italiano #1003986 por Guybrush88 (https://tatoeba.org/en/sentences/show/1003986); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1004011: italiano #1004011 por Guybrush88 (https://tatoeba.org/en/sentences/show/1004011); español #4459624 por cueyayotl (https://tatoeba.org/en/sentences/show/4459624) — CC BY 2.0 FR
 - s_1004209: italiano #1004209 por Guybrush88 (https://tatoeba.org/en/sentences/show/1004209); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1005159: italiano #1005159 por Guybrush88 (https://tatoeba.org/en/sentences/show/1005159); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1005627: italiano #1005627 por riccioberto (https://tatoeba.org/en/sentences/show/1005627); español #1202406 por marcelostockle (https://tatoeba.org/en/sentences/show/1202406) — CC BY 2.0 FR
+- s_1005811: italiano #1005811 por riccioberto (https://tatoeba.org/en/sentences/show/1005811); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_10060197: italiano #10060197 por carlosalberto (https://tatoeba.org/en/sentences/show/10060197); español #10059958 por Shishir (https://tatoeba.org/en/sentences/show/10059958) — CC BY 2.0 FR
 - s_10066981: italiano #10066981 por Guybrush88 (https://tatoeba.org/en/sentences/show/10066981); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1006731: italiano #1006731 por riccioberto (https://tatoeba.org/en/sentences/show/1006731); español #564598 por Shishir (https://tatoeba.org/en/sentences/show/564598) — CC BY 2.0 FR
@@ -57,8 +62,10 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1018003: italiano #1018003 por Guybrush88 (https://tatoeba.org/en/sentences/show/1018003); español #1007947 por hundo (https://tatoeba.org/en/sentences/show/1007947) — CC BY 2.0 FR
 - s_1018858: italiano #1018858 por Guybrush88 (https://tatoeba.org/en/sentences/show/1018858); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1018977: italiano #1018977 por Guybrush88 (https://tatoeba.org/en/sentences/show/1018977); español #745261 por laszchamachla (https://tatoeba.org/en/sentences/show/745261) — CC BY 2.0 FR
+- s_1019236: italiano #1019236 por Guybrush88 (https://tatoeba.org/en/sentences/show/1019236); español #1017965 por DanaDescalza (https://tatoeba.org/en/sentences/show/1017965) — CC BY 2.0 FR
 - s_1019321: italiano #1019321 por Guybrush88 (https://tatoeba.org/en/sentences/show/1019321); español #754060 por Shishir (https://tatoeba.org/en/sentences/show/754060) — CC BY 2.0 FR
 - s_1019631: italiano #1019631 por Guybrush88 (https://tatoeba.org/en/sentences/show/1019631); español #435089 por lukaszpp (https://tatoeba.org/en/sentences/show/435089) — CC BY 2.0 FR
+- s_1019853: italiano #1019853 por Guybrush88 (https://tatoeba.org/en/sentences/show/1019853); español #975479 por Shishir (https://tatoeba.org/en/sentences/show/975479) — CC BY 2.0 FR
 - s_1019957: italiano #1019957 por Guybrush88 (https://tatoeba.org/en/sentences/show/1019957); español #1045046 por Shishir (https://tatoeba.org/en/sentences/show/1045046) — CC BY 2.0 FR
 - s_1019958: italiano #1019958 por Guybrush88 (https://tatoeba.org/en/sentences/show/1019958); español #1045046 por Shishir (https://tatoeba.org/en/sentences/show/1045046) — CC BY 2.0 FR
 - s_1020221: italiano #1020221 por Guybrush88 (https://tatoeba.org/en/sentences/show/1020221); español #763143 por Shishir (https://tatoeba.org/en/sentences/show/763143) — CC BY 2.0 FR
@@ -72,6 +79,8 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_10231742: italiano #10231742 por Guybrush88 (https://tatoeba.org/en/sentences/show/10231742); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_10231743: italiano #10231743 por Guybrush88 (https://tatoeba.org/en/sentences/show/10231743); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_10231935: italiano #10231935 por Guybrush88 (https://tatoeba.org/en/sentences/show/10231935); español #10231945 por saverius (https://tatoeba.org/en/sentences/show/10231945) — CC BY 2.0 FR
+- s_10249417: italiano #10249417 por Nuel (https://tatoeba.org/en/sentences/show/10249417); español #10255886 por saverius (https://tatoeba.org/en/sentences/show/10255886) — CC BY 2.0 FR
+- s_10249854: italiano #10249854 por Nuel (https://tatoeba.org/en/sentences/show/10249854); español #10251170 por saverius (https://tatoeba.org/en/sentences/show/10251170) — CC BY 2.0 FR
 - s_10251668: italiano #10251668 por Guybrush88 (https://tatoeba.org/en/sentences/show/10251668); español #10255878 por saverius (https://tatoeba.org/en/sentences/show/10255878) — CC BY 2.0 FR
 - s_10254991: italiano #10254991 por carlosalberto (https://tatoeba.org/en/sentences/show/10254991); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_10273528: italiano #10273528 por carlosalberto (https://tatoeba.org/en/sentences/show/10273528); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -80,7 +89,9 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1035746: italiano #1035746 por riccioberto (https://tatoeba.org/en/sentences/show/1035746); español #1035755 por riccioberto (https://tatoeba.org/en/sentences/show/1035755) — CC BY 2.0 FR
 - s_1035835: italiano #1035835 por riccioberto (https://tatoeba.org/en/sentences/show/1035835); español #1035837 por riccioberto (https://tatoeba.org/en/sentences/show/1035837) — CC BY 2.0 FR
 - s_1035838: italiano #1035838 por riccioberto (https://tatoeba.org/en/sentences/show/1035838); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1035841: italiano #1035841 por riccioberto (https://tatoeba.org/en/sentences/show/1035841); español #544276 por Shishir (https://tatoeba.org/en/sentences/show/544276) — CC BY 2.0 FR
 - s_1038767: italiano #1038767 por elgranjuego (https://tatoeba.org/en/sentences/show/1038767); español #1292049 por Shishir (https://tatoeba.org/en/sentences/show/1292049) — CC BY 2.0 FR
+- s_1038810: italiano #1038810 por riccioberto (https://tatoeba.org/en/sentences/show/1038810); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1038861: italiano #1038861 por riccioberto (https://tatoeba.org/en/sentences/show/1038861); español #1491697 por hayastan (https://tatoeba.org/en/sentences/show/1491697) — CC BY 2.0 FR
 - s_10451321: italiano #10451321 por Guybrush88 (https://tatoeba.org/en/sentences/show/10451321); español #10451391 por saverius (https://tatoeba.org/en/sentences/show/10451391) — CC BY 2.0 FR
 - s_10451845: italiano #10451845 por Guybrush88 (https://tatoeba.org/en/sentences/show/10451845); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -91,9 +102,12 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_10461725: italiano #10461725 por Guybrush88 (https://tatoeba.org/en/sentences/show/10461725); español #10462187 por saverius (https://tatoeba.org/en/sentences/show/10462187) — CC BY 2.0 FR
 - s_10461736: italiano #10461736 por Guybrush88 (https://tatoeba.org/en/sentences/show/10461736); español #10462171 por saverius (https://tatoeba.org/en/sentences/show/10462171) — CC BY 2.0 FR
 - s_10461738: italiano #10461738 por Guybrush88 (https://tatoeba.org/en/sentences/show/10461738); español #10462170 por saverius (https://tatoeba.org/en/sentences/show/10462170) — CC BY 2.0 FR
+- s_10467445: italiano #10467445 por Guybrush88 (https://tatoeba.org/en/sentences/show/10467445); español #10803545 por saverius (https://tatoeba.org/en/sentences/show/10803545) — CC BY 2.0 FR
+- s_10480996: italiano #10480996 por Guybrush88 (https://tatoeba.org/en/sentences/show/10480996); español #13447101 por Seael (https://tatoeba.org/en/sentences/show/13447101) — CC BY 2.0 FR
 - s_10490134: italiano #10490134 por Guybrush88 (https://tatoeba.org/en/sentences/show/10490134); español #10490139 por Seael (https://tatoeba.org/en/sentences/show/10490139) — CC BY 2.0 FR
 - s_1049256: italiano #1049256 por iltrex (https://tatoeba.org/en/sentences/show/1049256); español #1350913 por marcelostockle (https://tatoeba.org/en/sentences/show/1350913) — CC BY 2.0 FR
 - s_10513483: italiano #10513483 por Guybrush88 (https://tatoeba.org/en/sentences/show/10513483); español #10514727 por saverius (https://tatoeba.org/en/sentences/show/10514727) — CC BY 2.0 FR
+- s_10513528: italiano #10513528 por Guybrush88 (https://tatoeba.org/en/sentences/show/10513528); español #10514726 por saverius (https://tatoeba.org/en/sentences/show/10514726) — CC BY 2.0 FR
 - s_10532260: italiano #10532260 por Guybrush88 (https://tatoeba.org/en/sentences/show/10532260); español #7906215 por baudelaire (https://tatoeba.org/en/sentences/show/7906215) — CC BY 2.0 FR
 - s_10532272: italiano #10532272 por Guybrush88 (https://tatoeba.org/en/sentences/show/10532272); español #10198838 por Seael (https://tatoeba.org/en/sentences/show/10198838) — CC BY 2.0 FR
 - s_10540720: italiano #10540720 por Guybrush88 (https://tatoeba.org/en/sentences/show/10540720); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -104,6 +118,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_10561081: italiano #10561081 por Guybrush88 (https://tatoeba.org/en/sentences/show/10561081); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_10582587: italiano #10582587 por carlosalberto (https://tatoeba.org/en/sentences/show/10582587); español #10580378 por Adelpa (https://tatoeba.org/en/sentences/show/10580378) — CC BY 2.0 FR
 - s_1061083: italiano #1061083 por leonardo (https://tatoeba.org/en/sentences/show/1061083); español #1364595 por Kiraness (https://tatoeba.org/en/sentences/show/1364595) — CC BY 2.0 FR
+- s_1061233: italiano #1061233 por leonardo (https://tatoeba.org/en/sentences/show/1061233); español #1063319 por marcelostockle (https://tatoeba.org/en/sentences/show/1063319) — CC BY 2.0 FR
 - s_10617953: italiano #10617953 por Adelpa (https://tatoeba.org/en/sentences/show/10617953); español #506010 por darinmex (https://tatoeba.org/en/sentences/show/506010) — CC BY 2.0 FR
 - s_1062078: italiano #1062078 por leonardo (https://tatoeba.org/en/sentences/show/1062078); español #570232 por Shishir (https://tatoeba.org/en/sentences/show/570232) — CC BY 2.0 FR
 - s_1062152: italiano #1062152 por leonardo (https://tatoeba.org/en/sentences/show/1062152); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -123,11 +138,13 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1068397: italiano #1068397 por Guybrush88 (https://tatoeba.org/en/sentences/show/1068397); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_10717138: italiano #10717138 por carlosalberto (https://tatoeba.org/en/sentences/show/10717138); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1071729: italiano #1071729 por leonardo (https://tatoeba.org/en/sentences/show/1071729); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1071813: italiano #1071813 por leonardo (https://tatoeba.org/en/sentences/show/1071813); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1071896: italiano #1071896 por leonardo (https://tatoeba.org/en/sentences/show/1071896); español #1501925 por Virgilia (https://tatoeba.org/en/sentences/show/1501925) — CC BY 2.0 FR
 - s_1072949: italiano #1072949 por Guybrush88 (https://tatoeba.org/en/sentences/show/1072949); español #1160850 por nancy (https://tatoeba.org/en/sentences/show/1160850) — CC BY 2.0 FR
 - s_1073182: italiano #1073182 por leonardo (https://tatoeba.org/en/sentences/show/1073182); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1073634: italiano #1073634 por leonardo (https://tatoeba.org/en/sentences/show/1073634); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1073661: italiano #1073661 por leonardo (https://tatoeba.org/en/sentences/show/1073661); español #1073666 por hayastan (https://tatoeba.org/en/sentences/show/1073666) — CC BY 2.0 FR
+- s_1073688: italiano #1073688 por leonardo (https://tatoeba.org/en/sentences/show/1073688); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_10739332: italiano #10739332 por Guybrush88 (https://tatoeba.org/en/sentences/show/10739332); español #10802654 por saverius (https://tatoeba.org/en/sentences/show/10802654) — CC BY 2.0 FR
 - s_1073991: italiano #1073991 por Guybrush88 (https://tatoeba.org/en/sentences/show/1073991); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1073992: italiano #1073992 por Guybrush88 (https://tatoeba.org/en/sentences/show/1073992); español #475558 por Shishir (https://tatoeba.org/en/sentences/show/475558) — CC BY 2.0 FR
@@ -139,8 +156,10 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_10798391: italiano #10798391 por dnnywld (https://tatoeba.org/en/sentences/show/10798391); español #10799256 por saverius (https://tatoeba.org/en/sentences/show/10799256) — CC BY 2.0 FR
 - s_1079844: italiano #1079844 por Guybrush88 (https://tatoeba.org/en/sentences/show/1079844); español #1079845 por marcelostockle (https://tatoeba.org/en/sentences/show/1079845) — CC BY 2.0 FR
 - s_10802388: italiano #10802388 por Guybrush88 (https://tatoeba.org/en/sentences/show/10802388); español #10802573 por saverius (https://tatoeba.org/en/sentences/show/10802573) — CC BY 2.0 FR
+- s_1081053: italiano #1081053 por Eldad (https://tatoeba.org/en/sentences/show/1081053); español #1081057 por Eldad (https://tatoeba.org/en/sentences/show/1081057) — CC BY 2.0 FR
 - s_1081411: italiano #1081411 por Guybrush88 (https://tatoeba.org/en/sentences/show/1081411); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_10814750: italiano #10814750 por carlosalberto (https://tatoeba.org/en/sentences/show/10814750); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1081894: italiano #1081894 por Guybrush88 (https://tatoeba.org/en/sentences/show/1081894); español #1228301 por nancy (https://tatoeba.org/en/sentences/show/1228301) — CC BY 2.0 FR
 - s_10819720: italiano #10819720 por carlosalberto (https://tatoeba.org/en/sentences/show/10819720); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_10819798: italiano #10819798 por Bethanielle (https://tatoeba.org/en/sentences/show/10819798); español #10822407 por saverius (https://tatoeba.org/en/sentences/show/10822407) — CC BY 2.0 FR
 - s_10819800: italiano #10819800 por Bethanielle (https://tatoeba.org/en/sentences/show/10819800); español #10822405 por saverius (https://tatoeba.org/en/sentences/show/10822405) — CC BY 2.0 FR
@@ -159,6 +178,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_10831886: italiano #10831886 por dnnywld (https://tatoeba.org/en/sentences/show/10831886); español #10831891 por saverius (https://tatoeba.org/en/sentences/show/10831891) — CC BY 2.0 FR
 - s_1083201: italiano #1083201 por Guybrush88 (https://tatoeba.org/en/sentences/show/1083201); español #1359529 por hayastan (https://tatoeba.org/en/sentences/show/1359529) — CC BY 2.0 FR
 - s_1083499: italiano #1083499 por Guybrush88 (https://tatoeba.org/en/sentences/show/1083499); español #1160703 por nancy (https://tatoeba.org/en/sentences/show/1160703) — CC BY 2.0 FR
+- s_1083953: italiano #1083953 por Guybrush88 (https://tatoeba.org/en/sentences/show/1083953); español #1178763 por nancy (https://tatoeba.org/en/sentences/show/1178763) — CC BY 2.0 FR
 - s_1084099: italiano #1084099 por Guybrush88 (https://tatoeba.org/en/sentences/show/1084099); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1086091: italiano #1086091 por leonardo (https://tatoeba.org/en/sentences/show/1086091); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1086143: italiano #1086143 por riccioberto (https://tatoeba.org/en/sentences/show/1086143); español #1086356 por hayastan (https://tatoeba.org/en/sentences/show/1086356) — CC BY 2.0 FR
@@ -170,7 +190,9 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1088047: italiano #1088047 por Guybrush88 (https://tatoeba.org/en/sentences/show/1088047); español #1610737 por Shishir (https://tatoeba.org/en/sentences/show/1610737) — CC BY 2.0 FR
 - s_10881863: italiano #10881863 por dnnywld (https://tatoeba.org/en/sentences/show/10881863); español #13709399 por ecorralest101 (https://tatoeba.org/en/sentences/show/13709399) — CC BY 2.0 FR
 - s_1089437: italiano #1089437 por riccioberto (https://tatoeba.org/en/sentences/show/1089437); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1089688: italiano #1089688 por Guybrush88 (https://tatoeba.org/en/sentences/show/1089688); español #1089603 por Shishir (https://tatoeba.org/en/sentences/show/1089603) — CC BY 2.0 FR
 - s_1090834: italiano #1090834 por leonardo (https://tatoeba.org/en/sentences/show/1090834); español #5013071 por hayastan (https://tatoeba.org/en/sentences/show/5013071) — CC BY 2.0 FR
+- s_1090893: italiano #1090893 por leonardo (https://tatoeba.org/en/sentences/show/1090893); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1090916: italiano #1090916 por leonardo (https://tatoeba.org/en/sentences/show/1090916); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1096724: italiano #1096724 por Guybrush88 (https://tatoeba.org/en/sentences/show/1096724); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1097819: italiano #1097819 por Guybrush88 (https://tatoeba.org/en/sentences/show/1097819); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -186,6 +208,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_10987113: italiano #10987113 por carlosalberto (https://tatoeba.org/en/sentences/show/10987113); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1099947: italiano #1099947 por Guybrush88 (https://tatoeba.org/en/sentences/show/1099947); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1100207: italiano #1100207 por riccioberto (https://tatoeba.org/en/sentences/show/1100207); español #1281465 por Shishir (https://tatoeba.org/en/sentences/show/1281465) — CC BY 2.0 FR
+- s_1100240: italiano #1100240 por riccioberto (https://tatoeba.org/en/sentences/show/1100240); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1100328: italiano #1100328 por riccioberto (https://tatoeba.org/en/sentences/show/1100328); español #1100989 por hayastan (https://tatoeba.org/en/sentences/show/1100989) — CC BY 2.0 FR
 - s_1100345: italiano #1100345 por Guybrush88 (https://tatoeba.org/en/sentences/show/1100345); español #1100987 por hayastan (https://tatoeba.org/en/sentences/show/1100987) — CC BY 2.0 FR
 - s_11005680: italiano #11005680 por carlosalberto (https://tatoeba.org/en/sentences/show/11005680); español #11003504 por DJ_Saidez (https://tatoeba.org/en/sentences/show/11003504) — CC BY 2.0 FR
@@ -206,6 +229,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1105352: italiano #1105352 por Guybrush88 (https://tatoeba.org/en/sentences/show/1105352); español #976257 por hundo (https://tatoeba.org/en/sentences/show/976257) — CC BY 2.0 FR
 - s_1105386: italiano #1105386 por rado (https://tatoeba.org/en/sentences/show/1105386); español #1123041 por hayastan (https://tatoeba.org/en/sentences/show/1123041) — CC BY 2.0 FR
 - s_1105417: italiano #1105417 por Guybrush88 (https://tatoeba.org/en/sentences/show/1105417); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1106380: italiano #1106380 por riccioberto (https://tatoeba.org/en/sentences/show/1106380); español #336396 por kylecito (https://tatoeba.org/en/sentences/show/336396) — CC BY 2.0 FR
 - s_1107219: italiano #1107219 por Guybrush88 (https://tatoeba.org/en/sentences/show/1107219); español #854184 por pa_wer (https://tatoeba.org/en/sentences/show/854184) — CC BY 2.0 FR
 - s_1107279: italiano #1107279 por Guybrush88 (https://tatoeba.org/en/sentences/show/1107279); español #1107288 por Espi (https://tatoeba.org/en/sentences/show/1107288) — CC BY 2.0 FR
 - s_1107340: italiano #1107340 por riccioberto (https://tatoeba.org/en/sentences/show/1107340); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -214,6 +238,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1107994: italiano #1107994 por Guybrush88 (https://tatoeba.org/en/sentences/show/1107994); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_11095856: italiano #11095856 por Guybrush88 (https://tatoeba.org/en/sentences/show/11095856); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_11095961: italiano #11095961 por Guybrush88 (https://tatoeba.org/en/sentences/show/11095961); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1109809: italiano #1109809 por riccioberto (https://tatoeba.org/en/sentences/show/1109809); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1109815: italiano #1109815 por riccioberto (https://tatoeba.org/en/sentences/show/1109815); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1109826: italiano #1109826 por riccioberto (https://tatoeba.org/en/sentences/show/1109826); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1109912: italiano #1109912 por riccioberto (https://tatoeba.org/en/sentences/show/1109912); español #922588 por Shishir (https://tatoeba.org/en/sentences/show/922588) — CC BY 2.0 FR
@@ -221,8 +246,10 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1109938: italiano #1109938 por riccioberto (https://tatoeba.org/en/sentences/show/1109938); español #922596 por Shishir (https://tatoeba.org/en/sentences/show/922596) — CC BY 2.0 FR
 - s_1110030: italiano #1110030 por riccioberto (https://tatoeba.org/en/sentences/show/1110030); español #1520611 por marcelostockle (https://tatoeba.org/en/sentences/show/1520611) — CC BY 2.0 FR
 - s_1110071: italiano #1110071 por riccioberto (https://tatoeba.org/en/sentences/show/1110071); español #1110085 por hayastan (https://tatoeba.org/en/sentences/show/1110085) — CC BY 2.0 FR
+- s_1111442: italiano #1111442 por riccioberto (https://tatoeba.org/en/sentences/show/1111442); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1111456: italiano #1111456 por rado (https://tatoeba.org/en/sentences/show/1111456); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1111479: italiano #1111479 por riccioberto (https://tatoeba.org/en/sentences/show/1111479); español #1052104 por mesiaca (https://tatoeba.org/en/sentences/show/1052104) — CC BY 2.0 FR
+- s_1111919: italiano #1111919 por riccioberto (https://tatoeba.org/en/sentences/show/1111919); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1113189: italiano #1113189 por riccioberto (https://tatoeba.org/en/sentences/show/1113189); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1113206: italiano #1113206 por riccioberto (https://tatoeba.org/en/sentences/show/1113206); español #1469804 por marcelostockle (https://tatoeba.org/en/sentences/show/1469804) — CC BY 2.0 FR
 - s_1113245: italiano #1113245 por riccioberto (https://tatoeba.org/en/sentences/show/1113245); español #1598141 por teskmon (https://tatoeba.org/en/sentences/show/1598141) — CC BY 2.0 FR
@@ -240,6 +267,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1119223: italiano #1119223 por Guybrush88 (https://tatoeba.org/en/sentences/show/1119223); español #1121882 por hayastan (https://tatoeba.org/en/sentences/show/1121882) — CC BY 2.0 FR
 - s_1119414: italiano #1119414 por riccioberto (https://tatoeba.org/en/sentences/show/1119414); español #1876514 por Shishir (https://tatoeba.org/en/sentences/show/1876514) — CC BY 2.0 FR
 - s_11208051: italiano #11208051 por carlosalberto (https://tatoeba.org/en/sentences/show/11208051); español #11208049 por carlosalberto (https://tatoeba.org/en/sentences/show/11208049) — CC BY 2.0 FR
+- s_1122031: italiano #1122031 por riccioberto (https://tatoeba.org/en/sentences/show/1122031); español #1439757 por marcelostockle (https://tatoeba.org/en/sentences/show/1439757) — CC BY 2.0 FR
 - s_1122033: italiano #1122033 por riccioberto (https://tatoeba.org/en/sentences/show/1122033); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1122049: italiano #1122049 por riccioberto (https://tatoeba.org/en/sentences/show/1122049); español #1122062 por hayastan (https://tatoeba.org/en/sentences/show/1122062) — CC BY 2.0 FR
 - s_1122088: italiano #1122088 por riccioberto (https://tatoeba.org/en/sentences/show/1122088); español #1122108 por hayastan (https://tatoeba.org/en/sentences/show/1122108) — CC BY 2.0 FR
@@ -255,6 +283,8 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_11243390: italiano #11243390 por carlosalberto (https://tatoeba.org/en/sentences/show/11243390); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1124849: italiano #1124849 por Guybrush88 (https://tatoeba.org/en/sentences/show/1124849); español #454606 por Shishir (https://tatoeba.org/en/sentences/show/454606) — CC BY 2.0 FR
 - s_11254135: italiano #11254135 por carlosalberto (https://tatoeba.org/en/sentences/show/11254135); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_11254137: italiano #11254137 por carlosalberto (https://tatoeba.org/en/sentences/show/11254137); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1125652: italiano #1125652 por Guybrush88 (https://tatoeba.org/en/sentences/show/1125652); español #4549648 por cueyayotl (https://tatoeba.org/en/sentences/show/4549648) — CC BY 2.0 FR
 - s_1125710: italiano #1125710 por Guybrush88 (https://tatoeba.org/en/sentences/show/1125710); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1125711: italiano #1125711 por Guybrush88 (https://tatoeba.org/en/sentences/show/1125711); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1125712: italiano #1125712 por Guybrush88 (https://tatoeba.org/en/sentences/show/1125712); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -271,6 +301,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_11301415: italiano #11301415 por Guybrush88 (https://tatoeba.org/en/sentences/show/11301415); español #13368600 por Shishir (https://tatoeba.org/en/sentences/show/13368600) — CC BY 2.0 FR
 - s_11303994: italiano #11303994 por carlosalberto (https://tatoeba.org/en/sentences/show/11303994); español #11303990 por carlosalberto (https://tatoeba.org/en/sentences/show/11303990) — CC BY 2.0 FR
 - s_11312187: italiano #11312187 por carlosalberto (https://tatoeba.org/en/sentences/show/11312187); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1131858: italiano #1131858 por riccioberto (https://tatoeba.org/en/sentences/show/1131858); español #2375706 por fgreco (https://tatoeba.org/en/sentences/show/2375706) — CC BY 2.0 FR
 - s_1132156: italiano #1132156 por Guybrush88 (https://tatoeba.org/en/sentences/show/1132156); español #463319 por lukaszpp (https://tatoeba.org/en/sentences/show/463319) — CC BY 2.0 FR
 - s_1132217: italiano #1132217 por Guybrush88 (https://tatoeba.org/en/sentences/show/1132217); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_11323797: italiano #11323797 por Guybrush88 (https://tatoeba.org/en/sentences/show/11323797); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -318,6 +349,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_11706699: italiano #11706699 por Guybrush88 (https://tatoeba.org/en/sentences/show/11706699); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_11706744: italiano #11706744 por Guybrush88 (https://tatoeba.org/en/sentences/show/11706744); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_11710396: italiano #11710396 por Guybrush88 (https://tatoeba.org/en/sentences/show/11710396); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_11712040: italiano #11712040 por Guybrush88 (https://tatoeba.org/en/sentences/show/11712040); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1171294: italiano #1171294 por Guybrush88 (https://tatoeba.org/en/sentences/show/1171294); español #1544433 por hayastan (https://tatoeba.org/en/sentences/show/1544433) — CC BY 2.0 FR
 - s_11717417: italiano #11717417 por Guybrush88 (https://tatoeba.org/en/sentences/show/11717417); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_11717501: italiano #11717501 por Guybrush88 (https://tatoeba.org/en/sentences/show/11717501); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -326,6 +358,9 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_11728273: italiano #11728273 por Guybrush88 (https://tatoeba.org/en/sentences/show/11728273); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_11728461: italiano #11728461 por Guybrush88 (https://tatoeba.org/en/sentences/show/11728461); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_11735147: italiano #11735147 por WM3DAS (https://tatoeba.org/en/sentences/show/11735147); español #12020579 por Adelpa (https://tatoeba.org/en/sentences/show/12020579) — CC BY 2.0 FR
+- s_1174158: italiano #1174158 por riccioberto (https://tatoeba.org/en/sentences/show/1174158); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_11759900: italiano #11759900 por Guybrush88 (https://tatoeba.org/en/sentences/show/11759900); español #11759910 por Seael (https://tatoeba.org/en/sentences/show/11759910) — CC BY 2.0 FR
+- s_1176174: italiano #1176174 por Guybrush88 (https://tatoeba.org/en/sentences/show/1176174); español #1535603 por marcelostockle (https://tatoeba.org/en/sentences/show/1535603) — CC BY 2.0 FR
 - s_1176187: italiano #1176187 por Guybrush88 (https://tatoeba.org/en/sentences/show/1176187); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_11770374: italiano #11770374 por Rovo (https://tatoeba.org/en/sentences/show/11770374); español #11949889 por Seael (https://tatoeba.org/en/sentences/show/11949889) — CC BY 2.0 FR
 - s_1177705: italiano #1177705 por Guybrush88 (https://tatoeba.org/en/sentences/show/1177705); español #1411149 por marcelostockle (https://tatoeba.org/en/sentences/show/1411149) — CC BY 2.0 FR
@@ -360,7 +395,9 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_11949804: italiano #11949804 por Rovo (https://tatoeba.org/en/sentences/show/11949804); español #11950408 por saverius (https://tatoeba.org/en/sentences/show/11950408) — CC BY 2.0 FR
 - s_1195171: italiano #1195171 por Guybrush88 (https://tatoeba.org/en/sentences/show/1195171); español #1195374 por nancy (https://tatoeba.org/en/sentences/show/1195374) — CC BY 2.0 FR
 - s_11963774: italiano #11963774 por Guybrush88 (https://tatoeba.org/en/sentences/show/11963774); español #11967669 por saverius (https://tatoeba.org/en/sentences/show/11967669) — CC BY 2.0 FR
+- s_11964359: italiano #11964359 por Guybrush88 (https://tatoeba.org/en/sentences/show/11964359); español #11967662 por saverius (https://tatoeba.org/en/sentences/show/11967662) — CC BY 2.0 FR
 - s_11969548: italiano #11969548 por Guybrush88 (https://tatoeba.org/en/sentences/show/11969548); español #11969551 por Seael (https://tatoeba.org/en/sentences/show/11969551) — CC BY 2.0 FR
+- s_11969550: italiano #11969550 por Guybrush88 (https://tatoeba.org/en/sentences/show/11969550); español #11969554 por Seael (https://tatoeba.org/en/sentences/show/11969554) — CC BY 2.0 FR
 - s_11969555: italiano #11969555 por Guybrush88 (https://tatoeba.org/en/sentences/show/11969555); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_11969600: italiano #11969600 por Guybrush88 (https://tatoeba.org/en/sentences/show/11969600); español #11969598 por Seael (https://tatoeba.org/en/sentences/show/11969598) — CC BY 2.0 FR
 - s_1198608: italiano #1198608 por riccioberto (https://tatoeba.org/en/sentences/show/1198608); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -391,9 +428,12 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1221313: italiano #1221313 por Guybrush88 (https://tatoeba.org/en/sentences/show/1221313); español #540348 por Shishir (https://tatoeba.org/en/sentences/show/540348) — CC BY 2.0 FR
 - s_1221730: italiano #1221730 por nancy (https://tatoeba.org/en/sentences/show/1221730); español #1221733 por nancy (https://tatoeba.org/en/sentences/show/1221733) — CC BY 2.0 FR
 - s_1221894: italiano #1221894 por Guybrush88 (https://tatoeba.org/en/sentences/show/1221894); español #1501982 por Virgilia (https://tatoeba.org/en/sentences/show/1501982) — CC BY 2.0 FR
+- s_1222409: italiano #1222409 por Guybrush88 (https://tatoeba.org/en/sentences/show/1222409); español #1222650 por nancy (https://tatoeba.org/en/sentences/show/1222650) — CC BY 2.0 FR
 - s_12226086: italiano #12226086 por Nadialene (https://tatoeba.org/en/sentences/show/12226086); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_12265801: italiano #12265801 por Guybrush88 (https://tatoeba.org/en/sentences/show/12265801); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1228000: italiano #1228000 por Guybrush88 (https://tatoeba.org/en/sentences/show/1228000); español #1458421 por marcelostockle (https://tatoeba.org/en/sentences/show/1458421) — CC BY 2.0 FR
+- s_12294326: italiano #12294326 por carlosalberto (https://tatoeba.org/en/sentences/show/12294326); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_12311832: italiano #12311832 por Guybrush88 (https://tatoeba.org/en/sentences/show/12311832); español #12316124 por saverius (https://tatoeba.org/en/sentences/show/12316124) — CC BY 2.0 FR
 - s_12311936: italiano #12311936 por Rovo (https://tatoeba.org/en/sentences/show/12311936); español #12316122 por saverius (https://tatoeba.org/en/sentences/show/12316122) — CC BY 2.0 FR
 - s_1231432: italiano #1231432 por Guybrush88 (https://tatoeba.org/en/sentences/show/1231432); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1231433: italiano #1231433 por Guybrush88 (https://tatoeba.org/en/sentences/show/1231433); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -412,6 +452,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1241613: italiano #1241613 por Guybrush88 (https://tatoeba.org/en/sentences/show/1241613); español #1645942 por marcelostockle (https://tatoeba.org/en/sentences/show/1645942) — CC BY 2.0 FR
 - s_1241614: italiano #1241614 por Guybrush88 (https://tatoeba.org/en/sentences/show/1241614); español #1384748 por hayastan (https://tatoeba.org/en/sentences/show/1384748) — CC BY 2.0 FR
 - s_12434343: italiano #12434343 por Guybrush88 (https://tatoeba.org/en/sentences/show/12434343); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1243680: italiano #1243680 por riccioberto (https://tatoeba.org/en/sentences/show/1243680); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1243897: italiano #1243897 por Guybrush88 (https://tatoeba.org/en/sentences/show/1243897); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1243898: italiano #1243898 por Guybrush88 (https://tatoeba.org/en/sentences/show/1243898); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1244879: italiano #1244879 por Guybrush88 (https://tatoeba.org/en/sentences/show/1244879); español #1245234 por hayastan (https://tatoeba.org/en/sentences/show/1245234) — CC BY 2.0 FR
@@ -423,6 +464,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1246738: italiano #1246738 por Guybrush88 (https://tatoeba.org/en/sentences/show/1246738); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1246742: italiano #1246742 por Guybrush88 (https://tatoeba.org/en/sentences/show/1246742); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1246881: italiano #1246881 por Guybrush88 (https://tatoeba.org/en/sentences/show/1246881); español #825015 por juamoran (https://tatoeba.org/en/sentences/show/825015) — CC BY 2.0 FR
+- s_1248113: italiano #1248113 por rado (https://tatoeba.org/en/sentences/show/1248113); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1249225: italiano #1249225 por Guybrush88 (https://tatoeba.org/en/sentences/show/1249225); español #536480 por Leono (https://tatoeba.org/en/sentences/show/536480) — CC BY 2.0 FR
 - s_1249271: italiano #1249271 por Guybrush88 (https://tatoeba.org/en/sentences/show/1249271); español #1249279 por hayastan (https://tatoeba.org/en/sentences/show/1249279) — CC BY 2.0 FR
 - s_1250484: italiano #1250484 por Guybrush88 (https://tatoeba.org/en/sentences/show/1250484); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -435,19 +477,24 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1253841: italiano #1253841 por Guybrush88 (https://tatoeba.org/en/sentences/show/1253841); español #1326175 por marcelostockle (https://tatoeba.org/en/sentences/show/1326175) — CC BY 2.0 FR
 - s_1253962: italiano #1253962 por Guybrush88 (https://tatoeba.org/en/sentences/show/1253962); español #1363112 por marcelostockle (https://tatoeba.org/en/sentences/show/1363112) — CC BY 2.0 FR
 - s_1254118: italiano #1254118 por Guybrush88 (https://tatoeba.org/en/sentences/show/1254118); español #1254413 por Shishir (https://tatoeba.org/en/sentences/show/1254413) — CC BY 2.0 FR
+- s_1254189: italiano #1254189 por Guybrush88 (https://tatoeba.org/en/sentences/show/1254189); español #1127798 por alexmarcelo (https://tatoeba.org/en/sentences/show/1127798) — CC BY 2.0 FR
 - s_1254484: italiano #1254484 por Guybrush88 (https://tatoeba.org/en/sentences/show/1254484); español #616145 por Shishir (https://tatoeba.org/en/sentences/show/616145) — CC BY 2.0 FR
+- s_12550658: italiano #12550658 por Guybrush88 (https://tatoeba.org/en/sentences/show/12550658); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1255270: italiano #1255270 por Guybrush88 (https://tatoeba.org/en/sentences/show/1255270); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1255377: italiano #1255377 por Guybrush88 (https://tatoeba.org/en/sentences/show/1255377); español #778676 por chinopinyin (https://tatoeba.org/en/sentences/show/778676) — CC BY 2.0 FR
+- s_1255616: italiano #1255616 por Guybrush88 (https://tatoeba.org/en/sentences/show/1255616); español #1255619 por hayastan (https://tatoeba.org/en/sentences/show/1255619) — CC BY 2.0 FR
 - s_1255683: italiano #1255683 por Guybrush88 (https://tatoeba.org/en/sentences/show/1255683); español #513440 por Shishir (https://tatoeba.org/en/sentences/show/513440) — CC BY 2.0 FR
 - s_1255701: italiano #1255701 por Guybrush88 (https://tatoeba.org/en/sentences/show/1255701); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1255726: italiano #1255726 por Guybrush88 (https://tatoeba.org/en/sentences/show/1255726); español #582492 por Shishir (https://tatoeba.org/en/sentences/show/582492) — CC BY 2.0 FR
 - s_1255783: italiano #1255783 por Guybrush88 (https://tatoeba.org/en/sentences/show/1255783); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1255846: italiano #1255846 por Guybrush88 (https://tatoeba.org/en/sentences/show/1255846); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_12559888: italiano #12559888 por Guybrush88 (https://tatoeba.org/en/sentences/show/12559888); español #1547961 por marcelostockle (https://tatoeba.org/en/sentences/show/1547961) — CC BY 2.0 FR
 - s_1256041: italiano #1256041 por Guybrush88 (https://tatoeba.org/en/sentences/show/1256041); español #10086953 por saverius (https://tatoeba.org/en/sentences/show/10086953) — CC BY 2.0 FR
 - s_1256343: italiano #1256343 por Guybrush88 (https://tatoeba.org/en/sentences/show/1256343); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1256379: italiano #1256379 por Guybrush88 (https://tatoeba.org/en/sentences/show/1256379); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1257392: italiano #1257392 por Guybrush88 (https://tatoeba.org/en/sentences/show/1257392); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1257393: italiano #1257393 por Guybrush88 (https://tatoeba.org/en/sentences/show/1257393); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1257653: italiano #1257653 por riccioberto (https://tatoeba.org/en/sentences/show/1257653); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1257658: italiano #1257658 por riccioberto (https://tatoeba.org/en/sentences/show/1257658); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1257883: italiano #1257883 por Guybrush88 (https://tatoeba.org/en/sentences/show/1257883); español #1284311 por marcelostockle (https://tatoeba.org/en/sentences/show/1284311) — CC BY 2.0 FR
 - s_1258226: italiano #1258226 por Guybrush88 (https://tatoeba.org/en/sentences/show/1258226); español #1076504 por hayastan (https://tatoeba.org/en/sentences/show/1076504) — CC BY 2.0 FR
@@ -457,11 +504,13 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_12601865: italiano #12601865 por Adelpa (https://tatoeba.org/en/sentences/show/12601865); español #12601872 por Adelpa (https://tatoeba.org/en/sentences/show/12601872) — CC BY 2.0 FR
 - s_1260282: italiano #1260282 por Guybrush88 (https://tatoeba.org/en/sentences/show/1260282); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1260284: italiano #1260284 por Guybrush88 (https://tatoeba.org/en/sentences/show/1260284); español #1279982 por marcelostockle (https://tatoeba.org/en/sentences/show/1279982) — CC BY 2.0 FR
+- s_12604083: italiano #12604083 por Adelpa (https://tatoeba.org/en/sentences/show/12604083); español #8189028 por arh (https://tatoeba.org/en/sentences/show/8189028) — CC BY 2.0 FR
 - s_1260451: italiano #1260451 por Guybrush88 (https://tatoeba.org/en/sentences/show/1260451); español #1713553 por hayastan (https://tatoeba.org/en/sentences/show/1713553) — CC BY 2.0 FR
 - s_1260543: italiano #1260543 por Guybrush88 (https://tatoeba.org/en/sentences/show/1260543); español #1979080 por Shishir (https://tatoeba.org/en/sentences/show/1979080) — CC BY 2.0 FR
 - s_1261681: italiano #1261681 por Guybrush88 (https://tatoeba.org/en/sentences/show/1261681); español #340657 por tatoerique (https://tatoeba.org/en/sentences/show/340657) — CC BY 2.0 FR
 - s_1261696: italiano #1261696 por Guybrush88 (https://tatoeba.org/en/sentences/show/1261696); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1261712: italiano #1261712 por Guybrush88 (https://tatoeba.org/en/sentences/show/1261712); español #966977 por hundo (https://tatoeba.org/en/sentences/show/966977) — CC BY 2.0 FR
+- s_1264152: italiano #1264152 por Guybrush88 (https://tatoeba.org/en/sentences/show/1264152); español #1357551 por hayastan (https://tatoeba.org/en/sentences/show/1357551) — CC BY 2.0 FR
 - s_1264182: italiano #1264182 por Guybrush88 (https://tatoeba.org/en/sentences/show/1264182); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1264183: italiano #1264183 por Guybrush88 (https://tatoeba.org/en/sentences/show/1264183); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1264186: italiano #1264186 por Guybrush88 (https://tatoeba.org/en/sentences/show/1264186); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -471,8 +520,10 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_12655939: italiano #12655939 por glossboss (https://tatoeba.org/en/sentences/show/12655939); español #12655956 por glossboss (https://tatoeba.org/en/sentences/show/12655956) — CC BY 2.0 FR
 - s_12656127: italiano #12656127 por glossboss (https://tatoeba.org/en/sentences/show/12656127); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_12656242: italiano #12656242 por glossboss (https://tatoeba.org/en/sentences/show/12656242); español #12656237 por glossboss (https://tatoeba.org/en/sentences/show/12656237) — CC BY 2.0 FR
+- s_1265834: italiano #1265834 por rado (https://tatoeba.org/en/sentences/show/1265834); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1265972: italiano #1265972 por Guybrush88 (https://tatoeba.org/en/sentences/show/1265972); español #1296887 por marcelostockle (https://tatoeba.org/en/sentences/show/1296887) — CC BY 2.0 FR
 - s_12676650: italiano #12676650 por glossboss (https://tatoeba.org/en/sentences/show/12676650); español #1113235 por alexmarcelo (https://tatoeba.org/en/sentences/show/1113235) — CC BY 2.0 FR
+- s_1268766: italiano #1268766 por Guybrush88 (https://tatoeba.org/en/sentences/show/1268766); español #345843 por tatoerique (https://tatoeba.org/en/sentences/show/345843) — CC BY 2.0 FR
 - s_1269471: italiano #1269471 por riccioberto (https://tatoeba.org/en/sentences/show/1269471); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1269997: italiano #1269997 por Guybrush88 (https://tatoeba.org/en/sentences/show/1269997); español #1630449 por hayastan (https://tatoeba.org/en/sentences/show/1630449) — CC BY 2.0 FR
 - s_12701068: italiano #12701068 por Adelpa (https://tatoeba.org/en/sentences/show/12701068); español #12701072 por Adelpa (https://tatoeba.org/en/sentences/show/12701072) — CC BY 2.0 FR
@@ -488,7 +539,9 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1272326: italiano #1272326 por ValentinaM (https://tatoeba.org/en/sentences/show/1272326); español #1272323 por marcelostockle (https://tatoeba.org/en/sentences/show/1272323) — CC BY 2.0 FR
 - s_1272365: italiano #1272365 por ValentinaM (https://tatoeba.org/en/sentences/show/1272365); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1272386: italiano #1272386 por ValentinaM (https://tatoeba.org/en/sentences/show/1272386); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1272420: italiano #1272420 por ValentinaM (https://tatoeba.org/en/sentences/show/1272420); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1272422: italiano #1272422 por ValentinaM (https://tatoeba.org/en/sentences/show/1272422); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1273339: italiano #1273339 por riccioberto (https://tatoeba.org/en/sentences/show/1273339); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1274677: italiano #1274677 por riccioberto (https://tatoeba.org/en/sentences/show/1274677); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1274721: italiano #1274721 por riccioberto (https://tatoeba.org/en/sentences/show/1274721); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1275229: italiano #1275229 por Guybrush88 (https://tatoeba.org/en/sentences/show/1275229); español #1275967 por Shishir (https://tatoeba.org/en/sentences/show/1275967) — CC BY 2.0 FR
@@ -517,6 +570,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_12834656: italiano #12834656 por Guybrush88 (https://tatoeba.org/en/sentences/show/12834656); español #6989198 por cueyayotl (https://tatoeba.org/en/sentences/show/6989198) — CC BY 2.0 FR
 - s_1283937: italiano #1283937 por rado (https://tatoeba.org/en/sentences/show/1283937); español #1651987 por marcelostockle (https://tatoeba.org/en/sentences/show/1651987) — CC BY 2.0 FR
 - s_1285594: italiano #1285594 por riccioberto (https://tatoeba.org/en/sentences/show/1285594); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1287482: italiano #1287482 por Tradukero (https://tatoeba.org/en/sentences/show/1287482); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_12883969: italiano #12883969 por Guybrush88 (https://tatoeba.org/en/sentences/show/12883969); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_12883970: italiano #12883970 por Guybrush88 (https://tatoeba.org/en/sentences/show/12883970); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_12908379: italiano #12908379 por Adelpa (https://tatoeba.org/en/sentences/show/12908379); español #6679224 por baudelaire (https://tatoeba.org/en/sentences/show/6679224) — CC BY 2.0 FR
@@ -532,7 +586,10 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_12980466: italiano #12980466 por Nuel (https://tatoeba.org/en/sentences/show/12980466); español #13232563 por UccelloRosso (https://tatoeba.org/en/sentences/show/13232563) — CC BY 2.0 FR
 - s_1298796: italiano #1298796 por riccioberto (https://tatoeba.org/en/sentences/show/1298796); español #1651393 por alexmarcelo (https://tatoeba.org/en/sentences/show/1651393) — CC BY 2.0 FR
 - s_1299369: italiano #1299369 por Guybrush88 (https://tatoeba.org/en/sentences/show/1299369); español #1450985 por Elenitigormiti (https://tatoeba.org/en/sentences/show/1450985) — CC BY 2.0 FR
+- s_1299433: italiano #1299433 por riccioberto (https://tatoeba.org/en/sentences/show/1299433); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1300584: italiano #1300584 por Guybrush88 (https://tatoeba.org/en/sentences/show/1300584); español #1088572 por alexmarcelo (https://tatoeba.org/en/sentences/show/1088572) — CC BY 2.0 FR
+- s_1300641: italiano #1300641 por Guybrush88 (https://tatoeba.org/en/sentences/show/1300641); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1300643: italiano #1300643 por Guybrush88 (https://tatoeba.org/en/sentences/show/1300643); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1300801: italiano #1300801 por Guybrush88 (https://tatoeba.org/en/sentences/show/1300801); español #1302110 por Shishir (https://tatoeba.org/en/sentences/show/1302110) — CC BY 2.0 FR
 - s_1300996: italiano #1300996 por Guybrush88 (https://tatoeba.org/en/sentences/show/1300996); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1300997: italiano #1300997 por Guybrush88 (https://tatoeba.org/en/sentences/show/1300997); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -545,6 +602,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_13049441: italiano #13049441 por Adelpa (https://tatoeba.org/en/sentences/show/13049441); español #13049436 por Adelpa (https://tatoeba.org/en/sentences/show/13049436) — CC BY 2.0 FR
 - s_1305566: italiano #1305566 por Guybrush88 (https://tatoeba.org/en/sentences/show/1305566); español #1305553 por marcelostockle (https://tatoeba.org/en/sentences/show/1305553) — CC BY 2.0 FR
 - s_13064767: italiano #13064767 por Adelpa (https://tatoeba.org/en/sentences/show/13064767); español #13064775 por Adelpa (https://tatoeba.org/en/sentences/show/13064775) — CC BY 2.0 FR
+- s_1306591: italiano #1306591 por Guybrush88 (https://tatoeba.org/en/sentences/show/1306591); español #734393 por Shishir (https://tatoeba.org/en/sentences/show/734393) — CC BY 2.0 FR
 - s_1306655: italiano #1306655 por Guybrush88 (https://tatoeba.org/en/sentences/show/1306655); español #1333058 por Shishir (https://tatoeba.org/en/sentences/show/1333058) — CC BY 2.0 FR
 - s_13073530: italiano #13073530 por Guybrush88 (https://tatoeba.org/en/sentences/show/13073530); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1307429: italiano #1307429 por Guybrush88 (https://tatoeba.org/en/sentences/show/1307429); español #428825 por mrlem (https://tatoeba.org/en/sentences/show/428825) — CC BY 2.0 FR
@@ -564,6 +622,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1310200: italiano #1310200 por Bibi81 (https://tatoeba.org/en/sentences/show/1310200); español #850572 por Warnerbroder (https://tatoeba.org/en/sentences/show/850572) — CC BY 2.0 FR
 - s_1310218: italiano #1310218 por Bibi81 (https://tatoeba.org/en/sentences/show/1310218); español #1172250 por erjabi (https://tatoeba.org/en/sentences/show/1172250) — CC BY 2.0 FR
 - s_13108587: italiano #13108587 por Adelpa (https://tatoeba.org/en/sentences/show/13108587); español #1163660 por marcelostockle (https://tatoeba.org/en/sentences/show/1163660) — CC BY 2.0 FR
+- s_1311008: italiano #1311008 por Guybrush88 (https://tatoeba.org/en/sentences/show/1311008); español #2562 por Shishir (https://tatoeba.org/en/sentences/show/2562) — CC BY 2.0 FR
 - s_1311084: italiano #1311084 por Guybrush88 (https://tatoeba.org/en/sentences/show/1311084); español #855829 por miravalles (https://tatoeba.org/en/sentences/show/855829) — CC BY 2.0 FR
 - s_1311898: italiano #1311898 por Guybrush88 (https://tatoeba.org/en/sentences/show/1311898); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1311899: italiano #1311899 por Guybrush88 (https://tatoeba.org/en/sentences/show/1311899); español #1160492 por Shishir (https://tatoeba.org/en/sentences/show/1160492) — CC BY 2.0 FR
@@ -579,8 +638,10 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_13156244: italiano #13156244 por Guybrush88 (https://tatoeba.org/en/sentences/show/13156244); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1316970: italiano #1316970 por giullina (https://tatoeba.org/en/sentences/show/1316970); español #1502231 por marcelostockle (https://tatoeba.org/en/sentences/show/1502231) — CC BY 2.0 FR
 - s_13170186: italiano #13170186 por Guybrush88 (https://tatoeba.org/en/sentences/show/13170186); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1317029: italiano #1317029 por giullina (https://tatoeba.org/en/sentences/show/1317029); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1317111: italiano #1317111 por giullina (https://tatoeba.org/en/sentences/show/1317111); español #532779 por Shishir (https://tatoeba.org/en/sentences/show/532779) — CC BY 2.0 FR
 - s_1317182: italiano #1317182 por giullina (https://tatoeba.org/en/sentences/show/1317182); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1317507: italiano #1317507 por zhou24 (https://tatoeba.org/en/sentences/show/1317507); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1317747: italiano #1317747 por Guybrush88 (https://tatoeba.org/en/sentences/show/1317747); español #462655 por lukaszpp (https://tatoeba.org/en/sentences/show/462655) — CC BY 2.0 FR
 - s_13181861: italiano #13181861 por Guybrush88 (https://tatoeba.org/en/sentences/show/13181861); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1318413: italiano #1318413 por Guybrush88 (https://tatoeba.org/en/sentences/show/1318413); español #1535496 por marcelostockle (https://tatoeba.org/en/sentences/show/1535496) — CC BY 2.0 FR
@@ -628,7 +689,9 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_13300838: italiano #13300838 por Guybrush88 (https://tatoeba.org/en/sentences/show/13300838); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_13303132: italiano #13303132 por Guybrush88 (https://tatoeba.org/en/sentences/show/13303132); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1330585: italiano #1330585 por Guybrush88 (https://tatoeba.org/en/sentences/show/1330585); español #1136524 por aliamondano (https://tatoeba.org/en/sentences/show/1136524) — CC BY 2.0 FR
+- s_13307972: italiano #13307972 por Adelpa (https://tatoeba.org/en/sentences/show/13307972); español #861984 por ildefonk (https://tatoeba.org/en/sentences/show/861984) — CC BY 2.0 FR
 - s_1330875: italiano #1330875 por Guybrush88 (https://tatoeba.org/en/sentences/show/1330875); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_13308934: italiano #13308934 por Guybrush88 (https://tatoeba.org/en/sentences/show/13308934); español #6703413 por arh (https://tatoeba.org/en/sentences/show/6703413) — CC BY 2.0 FR
 - s_1330925: italiano #1330925 por Guybrush88 (https://tatoeba.org/en/sentences/show/1330925); español #1118731 por lilianmtzc (https://tatoeba.org/en/sentences/show/1118731) — CC BY 2.0 FR
 - s_1331082: italiano #1331082 por Guybrush88 (https://tatoeba.org/en/sentences/show/1331082); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_13313121: italiano #13313121 por Guybrush88 (https://tatoeba.org/en/sentences/show/13313121); español #13523420 por Seael (https://tatoeba.org/en/sentences/show/13523420) — CC BY 2.0 FR
@@ -670,6 +733,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_13455094: italiano #13455094 por Guybrush88 (https://tatoeba.org/en/sentences/show/13455094); español #13463405 por Adelpa (https://tatoeba.org/en/sentences/show/13463405) — CC BY 2.0 FR
 - s_1345585: italiano #1345585 por Guybrush88 (https://tatoeba.org/en/sentences/show/1345585); español #1422770 por hayastan (https://tatoeba.org/en/sentences/show/1422770) — CC BY 2.0 FR
 - s_13481856: italiano #13481856 por Guybrush88 (https://tatoeba.org/en/sentences/show/13481856); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1350098: italiano #1350098 por Guybrush88 (https://tatoeba.org/en/sentences/show/1350098); español #1448291 por Alpha (https://tatoeba.org/en/sentences/show/1448291) — CC BY 2.0 FR
 - s_13503970: italiano #13503970 por Guybrush88 (https://tatoeba.org/en/sentences/show/13503970); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1350803: italiano #1350803 por Guybrush88 (https://tatoeba.org/en/sentences/show/1350803); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1351844: italiano #1351844 por Guybrush88 (https://tatoeba.org/en/sentences/show/1351844); español #1354442 por hayastan (https://tatoeba.org/en/sentences/show/1354442) — CC BY 2.0 FR
@@ -708,10 +772,12 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1389728: italiano #1389728 por Heracleum (https://tatoeba.org/en/sentences/show/1389728); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1394655: italiano #1394655 por riccioberto (https://tatoeba.org/en/sentences/show/1394655); español #532527 por Shishir (https://tatoeba.org/en/sentences/show/532527) — CC BY 2.0 FR
 - s_13956341: italiano #13956341 por unforgiven95 (https://tatoeba.org/en/sentences/show/13956341); español #13913746 por Shishir (https://tatoeba.org/en/sentences/show/13913746) — CC BY 2.0 FR
+- s_1395772: italiano #1395772 por Guybrush88 (https://tatoeba.org/en/sentences/show/1395772); español #1395775 por hayastan (https://tatoeba.org/en/sentences/show/1395775) — CC BY 2.0 FR
 - s_13965505: italiano #13965505 por IdiomHunter (https://tatoeba.org/en/sentences/show/13965505); español #13965504 por IdiomHunter (https://tatoeba.org/en/sentences/show/13965504) — CC BY 2.0 FR
 - s_13965514: italiano #13965514 por IdiomHunter (https://tatoeba.org/en/sentences/show/13965514); español #13965513 por IdiomHunter (https://tatoeba.org/en/sentences/show/13965513) — CC BY 2.0 FR
 - s_13965577: italiano #13965577 por Guybrush88 (https://tatoeba.org/en/sentences/show/13965577); español #13965519 por IdiomHunter (https://tatoeba.org/en/sentences/show/13965519) — CC BY 2.0 FR
 - s_13970896: italiano #13970896 por IdiomHunter (https://tatoeba.org/en/sentences/show/13970896); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_13970900: italiano #13970900 por IdiomHunter (https://tatoeba.org/en/sentences/show/13970900); español #1006991 por dexiee (https://tatoeba.org/en/sentences/show/1006991) — CC BY 2.0 FR
 - s_1397475: italiano #1397475 por Guybrush88 (https://tatoeba.org/en/sentences/show/1397475); español #445680 por Shishir (https://tatoeba.org/en/sentences/show/445680) — CC BY 2.0 FR
 - s_1397543: italiano #1397543 por riccioberto (https://tatoeba.org/en/sentences/show/1397543); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_13976565: italiano #13976565 por unforgiven95 (https://tatoeba.org/en/sentences/show/13976565); español #10478653 por DJ_Saidez (https://tatoeba.org/en/sentences/show/10478653) — CC BY 2.0 FR
@@ -722,6 +788,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_13995632: italiano #13995632 por Guybrush88 (https://tatoeba.org/en/sentences/show/13995632); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_14000522: italiano #14000522 por unforgiven95 (https://tatoeba.org/en/sentences/show/14000522); español #1567035 por Alba (https://tatoeba.org/en/sentences/show/1567035) — CC BY 2.0 FR
 - s_14002417: italiano #14002417 por Guybrush88 (https://tatoeba.org/en/sentences/show/14002417); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_14008527: italiano #14008527 por unforgiven95 (https://tatoeba.org/en/sentences/show/14008527); español #7899115 por uptonpark1973 (https://tatoeba.org/en/sentences/show/7899115) — CC BY 2.0 FR
 - s_14008531: italiano #14008531 por unforgiven95 (https://tatoeba.org/en/sentences/show/14008531); español #3441815 por Shishir (https://tatoeba.org/en/sentences/show/3441815) — CC BY 2.0 FR
 - s_14008532: italiano #14008532 por unforgiven95 (https://tatoeba.org/en/sentences/show/14008532); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_14009499: italiano #14009499 por unforgiven95 (https://tatoeba.org/en/sentences/show/14009499); español #4303604 por marcelostockle (https://tatoeba.org/en/sentences/show/4303604) — CC BY 2.0 FR
@@ -740,6 +807,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_14059925: italiano #14059925 por unforgiven95 (https://tatoeba.org/en/sentences/show/14059925); español #2078674 por marcelostockle (https://tatoeba.org/en/sentences/show/2078674) — CC BY 2.0 FR
 - s_14060016: italiano #14060016 por carlosalberto (https://tatoeba.org/en/sentences/show/14060016); español #14060017 por carlosalberto (https://tatoeba.org/en/sentences/show/14060017) — CC BY 2.0 FR
 - s_14070041: italiano #14070041 por unforgiven95 (https://tatoeba.org/en/sentences/show/14070041); español #1613646 por Alba (https://tatoeba.org/en/sentences/show/1613646) — CC BY 2.0 FR
+- s_14070048: italiano #14070048 por unforgiven95 (https://tatoeba.org/en/sentences/show/14070048); español #2188018 por marcelostockle (https://tatoeba.org/en/sentences/show/2188018) — CC BY 2.0 FR
 - s_14083170: italiano #14083170 por unforgiven95 (https://tatoeba.org/en/sentences/show/14083170); español #6565529 por arh (https://tatoeba.org/en/sentences/show/6565529) — CC BY 2.0 FR
 - s_14084234: italiano #14084234 por unforgiven95 (https://tatoeba.org/en/sentences/show/14084234); español #13095293 por samir_t (https://tatoeba.org/en/sentences/show/13095293) — CC BY 2.0 FR
 - s_1408750: italiano #1408750 por Guybrush88 (https://tatoeba.org/en/sentences/show/1408750); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -751,6 +819,8 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1435697: italiano #1435697 por Guybrush88 (https://tatoeba.org/en/sentences/show/1435697); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1435701: italiano #1435701 por Guybrush88 (https://tatoeba.org/en/sentences/show/1435701); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1438708: italiano #1438708 por Guybrush88 (https://tatoeba.org/en/sentences/show/1438708); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1438874: italiano #1438874 por Guybrush88 (https://tatoeba.org/en/sentences/show/1438874); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1438876: italiano #1438876 por Guybrush88 (https://tatoeba.org/en/sentences/show/1438876); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1439223: italiano #1439223 por Guybrush88 (https://tatoeba.org/en/sentences/show/1439223); español #2132487 por hayastan (https://tatoeba.org/en/sentences/show/2132487) — CC BY 2.0 FR
 - s_1440503: italiano #1440503 por Guybrush88 (https://tatoeba.org/en/sentences/show/1440503); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1441832: italiano #1441832 por Guybrush88 (https://tatoeba.org/en/sentences/show/1441832); español #461028 por Shishir (https://tatoeba.org/en/sentences/show/461028) — CC BY 2.0 FR
@@ -793,12 +863,15 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1506238: italiano #1506238 por marco87 (https://tatoeba.org/en/sentences/show/1506238); español #1506241 por marco87 (https://tatoeba.org/en/sentences/show/1506241) — CC BY 2.0 FR
 - s_1506623: italiano #1506623 por Guybrush88 (https://tatoeba.org/en/sentences/show/1506623); español #1506639 por marco87 (https://tatoeba.org/en/sentences/show/1506639) — CC BY 2.0 FR
 - s_1507861: italiano #1507861 por Guybrush88 (https://tatoeba.org/en/sentences/show/1507861); español #624989 por Leono (https://tatoeba.org/en/sentences/show/624989) — CC BY 2.0 FR
+- s_1509964: italiano #1509964 por Shadd (https://tatoeba.org/en/sentences/show/1509964); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1510820: italiano #1510820 por Shadd (https://tatoeba.org/en/sentences/show/1510820); español #701539 por darinmex (https://tatoeba.org/en/sentences/show/701539) — CC BY 2.0 FR
 - s_1510979: italiano #1510979 por Shadd (https://tatoeba.org/en/sentences/show/1510979); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1511150: italiano #1511150 por Shadd (https://tatoeba.org/en/sentences/show/1511150); español #1288042 por enteka (https://tatoeba.org/en/sentences/show/1288042) — CC BY 2.0 FR
 - s_1512102: italiano #1512102 por Guybrush88 (https://tatoeba.org/en/sentences/show/1512102); español #2587928 por hayastan (https://tatoeba.org/en/sentences/show/2587928) — CC BY 2.0 FR
 - s_1512398: italiano #1512398 por Shadd (https://tatoeba.org/en/sentences/show/1512398); español #1507158 por marcelostockle (https://tatoeba.org/en/sentences/show/1507158) — CC BY 2.0 FR
+- s_1512622: italiano #1512622 por Shadd (https://tatoeba.org/en/sentences/show/1512622); español #1011110 por hayastan (https://tatoeba.org/en/sentences/show/1011110) — CC BY 2.0 FR
 - s_1513462: italiano #1513462 por Guybrush88 (https://tatoeba.org/en/sentences/show/1513462); español #862253 por jorgearestrepo (https://tatoeba.org/en/sentences/show/862253) — CC BY 2.0 FR
+- s_1513490: italiano #1513490 por Guybrush88 (https://tatoeba.org/en/sentences/show/1513490); español #1155970 por nancy (https://tatoeba.org/en/sentences/show/1155970) — CC BY 2.0 FR
 - s_1513672: italiano #1513672 por Guybrush88 (https://tatoeba.org/en/sentences/show/1513672); español #1513877 por marcelostockle (https://tatoeba.org/en/sentences/show/1513877) — CC BY 2.0 FR
 - s_1514800: italiano #1514800 por Guybrush88 (https://tatoeba.org/en/sentences/show/1514800); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1515977: italiano #1515977 por marco87 (https://tatoeba.org/en/sentences/show/1515977); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -812,11 +885,13 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1516677: italiano #1516677 por Guybrush88 (https://tatoeba.org/en/sentences/show/1516677); español #857794 por KitanoGirl (https://tatoeba.org/en/sentences/show/857794) — CC BY 2.0 FR
 - s_1516976: italiano #1516976 por Shadd (https://tatoeba.org/en/sentences/show/1516976); español #855480 por Pablete (https://tatoeba.org/en/sentences/show/855480) — CC BY 2.0 FR
 - s_1517011: italiano #1517011 por Guybrush88 (https://tatoeba.org/en/sentences/show/1517011); español #1517143 por marco87 (https://tatoeba.org/en/sentences/show/1517143) — CC BY 2.0 FR
+- s_1517044: italiano #1517044 por Shadd (https://tatoeba.org/en/sentences/show/1517044); español #1517128 por marco87 (https://tatoeba.org/en/sentences/show/1517128) — CC BY 2.0 FR
 - s_1517079: italiano #1517079 por Shadd (https://tatoeba.org/en/sentences/show/1517079); español #621855 por darinmex (https://tatoeba.org/en/sentences/show/621855) — CC BY 2.0 FR
 - s_1517186: italiano #1517186 por Guybrush88 (https://tatoeba.org/en/sentences/show/1517186); español #1438799 por Shishir (https://tatoeba.org/en/sentences/show/1438799) — CC BY 2.0 FR
 - s_1517492: italiano #1517492 por Guybrush88 (https://tatoeba.org/en/sentences/show/1517492); español #1390185 por alexmarcelo (https://tatoeba.org/en/sentences/show/1390185) — CC BY 2.0 FR
 - s_1517739: italiano #1517739 por Shadd (https://tatoeba.org/en/sentences/show/1517739); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1518507: italiano #1518507 por Guybrush88 (https://tatoeba.org/en/sentences/show/1518507); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1518906: italiano #1518906 por Vy (https://tatoeba.org/en/sentences/show/1518906); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1520394: italiano #1520394 por Guybrush88 (https://tatoeba.org/en/sentences/show/1520394); español #1829390 por FiRez (https://tatoeba.org/en/sentences/show/1829390) — CC BY 2.0 FR
 - s_1520685: italiano #1520685 por Guybrush88 (https://tatoeba.org/en/sentences/show/1520685); español #1520692 por marcelostockle (https://tatoeba.org/en/sentences/show/1520692) — CC BY 2.0 FR
 - s_1521722: italiano #1521722 por Guybrush88 (https://tatoeba.org/en/sentences/show/1521722); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -850,6 +925,8 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1547780: italiano #1547780 por Guybrush88 (https://tatoeba.org/en/sentences/show/1547780); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1547782: italiano #1547782 por Guybrush88 (https://tatoeba.org/en/sentences/show/1547782); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1548271: italiano #1548271 por Guybrush88 (https://tatoeba.org/en/sentences/show/1548271); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1548596: italiano #1548596 por Guybrush88 (https://tatoeba.org/en/sentences/show/1548596); español #1075426 por hayastan (https://tatoeba.org/en/sentences/show/1075426) — CC BY 2.0 FR
+- s_1548597: italiano #1548597 por Guybrush88 (https://tatoeba.org/en/sentences/show/1548597); español #1075426 por hayastan (https://tatoeba.org/en/sentences/show/1075426) — CC BY 2.0 FR
 - s_1549808: italiano #1549808 por Guybrush88 (https://tatoeba.org/en/sentences/show/1549808); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1550115: italiano #1550115 por chinro (https://tatoeba.org/en/sentences/show/1550115); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1551030: italiano #1551030 por Guybrush88 (https://tatoeba.org/en/sentences/show/1551030); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -902,6 +979,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1652088: italiano #1652088 por Guybrush88 (https://tatoeba.org/en/sentences/show/1652088); español #1687108 por Shishir (https://tatoeba.org/en/sentences/show/1687108) — CC BY 2.0 FR
 - s_1652103: italiano #1652103 por Guybrush88 (https://tatoeba.org/en/sentences/show/1652103); español #1386218 por marcelostockle (https://tatoeba.org/en/sentences/show/1386218) — CC BY 2.0 FR
 - s_1652871: italiano #1652871 por riccioberto (https://tatoeba.org/en/sentences/show/1652871); español #12938217 por Tom9358 (https://tatoeba.org/en/sentences/show/12938217) — CC BY 2.0 FR
+- s_1653296: italiano #1653296 por Guybrush88 (https://tatoeba.org/en/sentences/show/1653296); español #1687170 por Shishir (https://tatoeba.org/en/sentences/show/1687170) — CC BY 2.0 FR
 - s_1653528: italiano #1653528 por Guybrush88 (https://tatoeba.org/en/sentences/show/1653528); español #2886231 por nancy (https://tatoeba.org/en/sentences/show/2886231) — CC BY 2.0 FR
 - s_1655267: italiano #1655267 por Guybrush88 (https://tatoeba.org/en/sentences/show/1655267); español #1088023 por alexmarcelo (https://tatoeba.org/en/sentences/show/1088023) — CC BY 2.0 FR
 - s_1655414: italiano #1655414 por Guybrush88 (https://tatoeba.org/en/sentences/show/1655414); español #2181191 por Shishir (https://tatoeba.org/en/sentences/show/2181191) — CC BY 2.0 FR
@@ -916,10 +994,15 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1669232: italiano #1669232 por Guybrush88 (https://tatoeba.org/en/sentences/show/1669232); español #483365 por Eckhardtgabriel (https://tatoeba.org/en/sentences/show/483365) — CC BY 2.0 FR
 - s_1669726: italiano #1669726 por Guybrush88 (https://tatoeba.org/en/sentences/show/1669726); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1669731: italiano #1669731 por Guybrush88 (https://tatoeba.org/en/sentences/show/1669731); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1669733: italiano #1669733 por Guybrush88 (https://tatoeba.org/en/sentences/show/1669733); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1669735: italiano #1669735 por Guybrush88 (https://tatoeba.org/en/sentences/show/1669735); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1671814: italiano #1671814 por Guybrush88 (https://tatoeba.org/en/sentences/show/1671814); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1671816: italiano #1671816 por Guybrush88 (https://tatoeba.org/en/sentences/show/1671816); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1671817: italiano #1671817 por Guybrush88 (https://tatoeba.org/en/sentences/show/1671817); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1677721: italiano #1677721 por Guybrush88 (https://tatoeba.org/en/sentences/show/1677721); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1679179: italiano #1679179 por Guybrush88 (https://tatoeba.org/en/sentences/show/1679179); español #1686399 por Shishir (https://tatoeba.org/en/sentences/show/1686399) — CC BY 2.0 FR
 - s_1679194: italiano #1679194 por Guybrush88 (https://tatoeba.org/en/sentences/show/1679194); español #1335578 por marcelostockle (https://tatoeba.org/en/sentences/show/1335578) — CC BY 2.0 FR
+- s_1679227: italiano #1679227 por Guybrush88 (https://tatoeba.org/en/sentences/show/1679227); español #1803853 por Shishir (https://tatoeba.org/en/sentences/show/1803853) — CC BY 2.0 FR
 - s_1680620: italiano #1680620 por Guybrush88 (https://tatoeba.org/en/sentences/show/1680620); español #483142 por quarzoliquido (https://tatoeba.org/en/sentences/show/483142) — CC BY 2.0 FR
 - s_1682738: italiano #1682738 por Guybrush88 (https://tatoeba.org/en/sentences/show/1682738); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1682740: italiano #1682740 por Guybrush88 (https://tatoeba.org/en/sentences/show/1682740); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -959,11 +1042,15 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1708388: italiano #1708388 por alexmarcelo (https://tatoeba.org/en/sentences/show/1708388); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1710297: italiano #1710297 por alexmarcelo (https://tatoeba.org/en/sentences/show/1710297); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1710302: italiano #1710302 por alexmarcelo (https://tatoeba.org/en/sentences/show/1710302); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1711074: italiano #1711074 por alexmarcelo (https://tatoeba.org/en/sentences/show/1711074); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1711075: italiano #1711075 por alexmarcelo (https://tatoeba.org/en/sentences/show/1711075); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1711122: italiano #1711122 por alexmarcelo (https://tatoeba.org/en/sentences/show/1711122); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1712509: italiano #1712509 por Guybrush88 (https://tatoeba.org/en/sentences/show/1712509); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1714805: italiano #1714805 por Guybrush88 (https://tatoeba.org/en/sentences/show/1714805); español #2656077 por Shishir (https://tatoeba.org/en/sentences/show/2656077) — CC BY 2.0 FR
 - s_1718293: italiano #1718293 por alexmarcelo (https://tatoeba.org/en/sentences/show/1718293); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1723311: italiano #1723311 por Guybrush88 (https://tatoeba.org/en/sentences/show/1723311); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1724745: italiano #1724745 por Guybrush88 (https://tatoeba.org/en/sentences/show/1724745); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1724749: italiano #1724749 por Guybrush88 (https://tatoeba.org/en/sentences/show/1724749); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1725058: italiano #1725058 por Guybrush88 (https://tatoeba.org/en/sentences/show/1725058); español #3196371 por cueyayotl (https://tatoeba.org/en/sentences/show/3196371) — CC BY 2.0 FR
 - s_1725897: italiano #1725897 por Guybrush88 (https://tatoeba.org/en/sentences/show/1725897); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1725898: italiano #1725898 por Guybrush88 (https://tatoeba.org/en/sentences/show/1725898); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -972,6 +1059,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1730298: italiano #1730298 por Shadd (https://tatoeba.org/en/sentences/show/1730298); español #1148413 por FiRez (https://tatoeba.org/en/sentences/show/1148413) — CC BY 2.0 FR
 - s_1738623: italiano #1738623 por Guybrush88 (https://tatoeba.org/en/sentences/show/1738623); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1738889: italiano #1738889 por Guybrush88 (https://tatoeba.org/en/sentences/show/1738889); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1739679: italiano #1739679 por Guybrush88 (https://tatoeba.org/en/sentences/show/1739679); español #2444293 por fgreco (https://tatoeba.org/en/sentences/show/2444293) — CC BY 2.0 FR
 - s_1740705: italiano #1740705 por Guybrush88 (https://tatoeba.org/en/sentences/show/1740705); español #1745887 por marcelostockle (https://tatoeba.org/en/sentences/show/1745887) — CC BY 2.0 FR
 - s_1740706: italiano #1740706 por Guybrush88 (https://tatoeba.org/en/sentences/show/1740706); español #1745887 por marcelostockle (https://tatoeba.org/en/sentences/show/1745887) — CC BY 2.0 FR
 - s_1740931: italiano #1740931 por Shadd (https://tatoeba.org/en/sentences/show/1740931); español #1466542 por BlueDecember (https://tatoeba.org/en/sentences/show/1466542) — CC BY 2.0 FR
@@ -982,6 +1070,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1764209: italiano #1764209 por Guybrush88 (https://tatoeba.org/en/sentences/show/1764209); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1765926: italiano #1765926 por Guybrush88 (https://tatoeba.org/en/sentences/show/1765926); español #3070087 por zukerx (https://tatoeba.org/en/sentences/show/3070087) — CC BY 2.0 FR
 - s_1767270: italiano #1767270 por Guybrush88 (https://tatoeba.org/en/sentences/show/1767270); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1794752: italiano #1794752 por hitori37 (https://tatoeba.org/en/sentences/show/1794752); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1794866: italiano #1794866 por hitori37 (https://tatoeba.org/en/sentences/show/1794866); español #1043381 por Shishir (https://tatoeba.org/en/sentences/show/1043381) — CC BY 2.0 FR
 - s_1800323: italiano #1800323 por al_ex_an_der (https://tatoeba.org/en/sentences/show/1800323); español #1800328 por al_ex_an_der (https://tatoeba.org/en/sentences/show/1800328) — CC BY 2.0 FR
 - s_1802925: italiano #1802925 por Guybrush88 (https://tatoeba.org/en/sentences/show/1802925); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -993,6 +1082,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1816328: italiano #1816328 por Guybrush88 (https://tatoeba.org/en/sentences/show/1816328); español #632690 por Shishir (https://tatoeba.org/en/sentences/show/632690) — CC BY 2.0 FR
 - s_1816329: italiano #1816329 por Guybrush88 (https://tatoeba.org/en/sentences/show/1816329); español #632690 por Shishir (https://tatoeba.org/en/sentences/show/632690) — CC BY 2.0 FR
 - s_1816669: italiano #1816669 por Guybrush88 (https://tatoeba.org/en/sentences/show/1816669); español #5549043 por Shishir (https://tatoeba.org/en/sentences/show/5549043) — CC BY 2.0 FR
+- s_1824232: italiano #1824232 por Guybrush88 (https://tatoeba.org/en/sentences/show/1824232); español #855199 por Leynaf (https://tatoeba.org/en/sentences/show/855199) — CC BY 2.0 FR
 - s_1824273: italiano #1824273 por Guybrush88 (https://tatoeba.org/en/sentences/show/1824273); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1828153: italiano #1828153 por Guybrush88 (https://tatoeba.org/en/sentences/show/1828153); español #1088020 por alexmarcelo (https://tatoeba.org/en/sentences/show/1088020) — CC BY 2.0 FR
 - s_1828186: italiano #1828186 por Guybrush88 (https://tatoeba.org/en/sentences/show/1828186); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -1019,6 +1109,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1860945: italiano #1860945 por Guybrush88 (https://tatoeba.org/en/sentences/show/1860945); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1863858: italiano #1863858 por hitori37 (https://tatoeba.org/en/sentences/show/1863858); español #1441610 por Shishir (https://tatoeba.org/en/sentences/show/1441610) — CC BY 2.0 FR
 - s_1867236: italiano #1867236 por sixtynine (https://tatoeba.org/en/sentences/show/1867236); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1867379: italiano #1867379 por sixtynine (https://tatoeba.org/en/sentences/show/1867379); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1870526: italiano #1870526 por Guybrush88 (https://tatoeba.org/en/sentences/show/1870526); español #2585659 por hayastan (https://tatoeba.org/en/sentences/show/2585659) — CC BY 2.0 FR
 - s_1871597: italiano #1871597 por Guybrush88 (https://tatoeba.org/en/sentences/show/1871597); español #769352 por Shishir (https://tatoeba.org/en/sentences/show/769352) — CC BY 2.0 FR
 - s_1872701: italiano #1872701 por Guybrush88 (https://tatoeba.org/en/sentences/show/1872701); español #2011068 por Shishir (https://tatoeba.org/en/sentences/show/2011068) — CC BY 2.0 FR
@@ -1029,6 +1120,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1905056: italiano #1905056 por Guybrush88 (https://tatoeba.org/en/sentences/show/1905056); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1905334: italiano #1905334 por Guybrush88 (https://tatoeba.org/en/sentences/show/1905334); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1912844: italiano #1912844 por Shadd (https://tatoeba.org/en/sentences/show/1912844); español #356214 por tatoerique (https://tatoeba.org/en/sentences/show/356214) — CC BY 2.0 FR
+- s_1926248: italiano #1926248 por Shadd (https://tatoeba.org/en/sentences/show/1926248); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1926328: italiano #1926328 por Guybrush88 (https://tatoeba.org/en/sentences/show/1926328); español #1256140 por marcelostockle (https://tatoeba.org/en/sentences/show/1256140) — CC BY 2.0 FR
 - s_1926329: italiano #1926329 por Guybrush88 (https://tatoeba.org/en/sentences/show/1926329); español #1256140 por marcelostockle (https://tatoeba.org/en/sentences/show/1256140) — CC BY 2.0 FR
 - s_1931400: italiano #1931400 por Guybrush88 (https://tatoeba.org/en/sentences/show/1931400); español #1355638 por marcelostockle (https://tatoeba.org/en/sentences/show/1355638) — CC BY 2.0 FR
@@ -1049,6 +1141,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_1974641: italiano #1974641 por Guybrush88 (https://tatoeba.org/en/sentences/show/1974641); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1979229: italiano #1979229 por Guybrush88 (https://tatoeba.org/en/sentences/show/1979229); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1984303: italiano #1984303 por Guybrush88 (https://tatoeba.org/en/sentences/show/1984303); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_1984575: italiano #1984575 por hitori37 (https://tatoeba.org/en/sentences/show/1984575); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_1985431: italiano #1985431 por Guybrush88 (https://tatoeba.org/en/sentences/show/1985431); español #729430 por Shishir (https://tatoeba.org/en/sentences/show/729430) — CC BY 2.0 FR
 - s_1989130: italiano #1989130 por Guybrush88 (https://tatoeba.org/en/sentences/show/1989130); español #2074795 por Shishir (https://tatoeba.org/en/sentences/show/2074795) — CC BY 2.0 FR
 - s_1990123: italiano #1990123 por Guybrush88 (https://tatoeba.org/en/sentences/show/1990123); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -1062,6 +1155,8 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_2001704: italiano #2001704 por Guybrush88 (https://tatoeba.org/en/sentences/show/2001704); español #2011145 por Shishir (https://tatoeba.org/en/sentences/show/2011145) — CC BY 2.0 FR
 - s_2001781: italiano #2001781 por Guybrush88 (https://tatoeba.org/en/sentences/show/2001781); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2001783: italiano #2001783 por Guybrush88 (https://tatoeba.org/en/sentences/show/2001783); español #2011144 por Shishir (https://tatoeba.org/en/sentences/show/2011144) — CC BY 2.0 FR
+- s_2003388: italiano #2003388 por hitori37 (https://tatoeba.org/en/sentences/show/2003388); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_2004952: italiano #2004952 por Guybrush88 (https://tatoeba.org/en/sentences/show/2004952); español #7929292 por arh (https://tatoeba.org/en/sentences/show/7929292) — CC BY 2.0 FR
 - s_2006193: italiano #2006193 por Guybrush88 (https://tatoeba.org/en/sentences/show/2006193); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2006277: italiano #2006277 por Guybrush88 (https://tatoeba.org/en/sentences/show/2006277); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2006280: italiano #2006280 por Guybrush88 (https://tatoeba.org/en/sentences/show/2006280); español #2006320 por Shishir (https://tatoeba.org/en/sentences/show/2006320) — CC BY 2.0 FR
@@ -1111,6 +1206,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_2038714: italiano #2038714 por Guybrush88 (https://tatoeba.org/en/sentences/show/2038714); español #1897565 por Shishir (https://tatoeba.org/en/sentences/show/1897565) — CC BY 2.0 FR
 - s_2041814: italiano #2041814 por Guybrush88 (https://tatoeba.org/en/sentences/show/2041814); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2041876: italiano #2041876 por Guybrush88 (https://tatoeba.org/en/sentences/show/2041876); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_2051488: italiano #2051488 por rado (https://tatoeba.org/en/sentences/show/2051488); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2052027: italiano #2052027 por Guybrush88 (https://tatoeba.org/en/sentences/show/2052027); español #868423 por inmachan (https://tatoeba.org/en/sentences/show/868423) — CC BY 2.0 FR
 - s_2052028: italiano #2052028 por Guybrush88 (https://tatoeba.org/en/sentences/show/2052028); español #2052096 por Shishir (https://tatoeba.org/en/sentences/show/2052096) — CC BY 2.0 FR
 - s_2052944: italiano #2052944 por Guybrush88 (https://tatoeba.org/en/sentences/show/2052944); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -1118,22 +1214,29 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_2055931: italiano #2055931 por Sirio60 (https://tatoeba.org/en/sentences/show/2055931); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2055945: italiano #2055945 por Sirio60 (https://tatoeba.org/en/sentences/show/2055945); español #336317 por kylecito (https://tatoeba.org/en/sentences/show/336317) — CC BY 2.0 FR
 - s_2055948: italiano #2055948 por Sirio60 (https://tatoeba.org/en/sentences/show/2055948); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_2056118: italiano #2056118 por Sirio60 (https://tatoeba.org/en/sentences/show/2056118); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2058854: italiano #2058854 por hitori37 (https://tatoeba.org/en/sentences/show/2058854); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2068107: italiano #2068107 por Guybrush88 (https://tatoeba.org/en/sentences/show/2068107); español #2016463 por Shishir (https://tatoeba.org/en/sentences/show/2016463) — CC BY 2.0 FR
 - s_2068383: italiano #2068383 por Guybrush88 (https://tatoeba.org/en/sentences/show/2068383); español #2068379 por Shishir (https://tatoeba.org/en/sentences/show/2068379) — CC BY 2.0 FR
 - s_2071088: italiano #2071088 por Tamy (https://tatoeba.org/en/sentences/show/2071088); español #2071102 por Tamy (https://tatoeba.org/en/sentences/show/2071102) — CC BY 2.0 FR
 - s_2074004: italiano #2074004 por Guybrush88 (https://tatoeba.org/en/sentences/show/2074004); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2077177: italiano #2077177 por Guybrush88 (https://tatoeba.org/en/sentences/show/2077177); español #540477 por Shishir (https://tatoeba.org/en/sentences/show/540477) — CC BY 2.0 FR
+- s_2078806: italiano #2078806 por Sirio60 (https://tatoeba.org/en/sentences/show/2078806); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2079902: italiano #2079902 por aliceinwire (https://tatoeba.org/en/sentences/show/2079902); español #2214178 por nancy (https://tatoeba.org/en/sentences/show/2214178) — CC BY 2.0 FR
 - s_2083690: italiano #2083690 por Guybrush88 (https://tatoeba.org/en/sentences/show/2083690); español #2214135 por nancy (https://tatoeba.org/en/sentences/show/2214135) — CC BY 2.0 FR
+- s_2084388: italiano #2084388 por Guybrush88 (https://tatoeba.org/en/sentences/show/2084388); español #10264299 por saverius (https://tatoeba.org/en/sentences/show/10264299) — CC BY 2.0 FR
 - s_2084399: italiano #2084399 por Guybrush88 (https://tatoeba.org/en/sentences/show/2084399); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2090461: italiano #2090461 por Sirio60 (https://tatoeba.org/en/sentences/show/2090461); español #1312313 por Kiraness (https://tatoeba.org/en/sentences/show/1312313) — CC BY 2.0 FR
+- s_2102525: italiano #2102525 por Guybrush88 (https://tatoeba.org/en/sentences/show/2102525); español #791924 por darinmex (https://tatoeba.org/en/sentences/show/791924) — CC BY 2.0 FR
+- s_2105112: italiano #2105112 por rado (https://tatoeba.org/en/sentences/show/2105112); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2126208: italiano #2126208 por Guybrush88 (https://tatoeba.org/en/sentences/show/2126208); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2126345: italiano #2126345 por Guybrush88 (https://tatoeba.org/en/sentences/show/2126345); español #432192 por Leono (https://tatoeba.org/en/sentences/show/432192) — CC BY 2.0 FR
 - s_2126412: italiano #2126412 por Guybrush88 (https://tatoeba.org/en/sentences/show/2126412); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_2128726: italiano #2128726 por Sirio60 (https://tatoeba.org/en/sentences/show/2128726); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2133054: italiano #2133054 por Sirio60 (https://tatoeba.org/en/sentences/show/2133054); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2134732: italiano #2134732 por Guybrush88 (https://tatoeba.org/en/sentences/show/2134732); español #1082588 por Shishir (https://tatoeba.org/en/sentences/show/1082588) — CC BY 2.0 FR
 - s_2137196: italiano #2137196 por hitori37 (https://tatoeba.org/en/sentences/show/2137196); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_2137504: italiano #2137504 por Guybrush88 (https://tatoeba.org/en/sentences/show/2137504); español #2368315 por BraveSentry (https://tatoeba.org/en/sentences/show/2368315) — CC BY 2.0 FR
 - s_2137752: italiano #2137752 por sixtynine (https://tatoeba.org/en/sentences/show/2137752); español #602554 por Shishir (https://tatoeba.org/en/sentences/show/602554) — CC BY 2.0 FR
 - s_2143646: italiano #2143646 por Sirio60 (https://tatoeba.org/en/sentences/show/2143646); español #359750 por tatoerique (https://tatoeba.org/en/sentences/show/359750) — CC BY 2.0 FR
 - s_2157469: italiano #2157469 por Guybrush88 (https://tatoeba.org/en/sentences/show/2157469); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -1157,8 +1260,13 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_2190461: italiano #2190461 por Guybrush88 (https://tatoeba.org/en/sentences/show/2190461); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2190660: italiano #2190660 por Guybrush88 (https://tatoeba.org/en/sentences/show/2190660); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2191248: italiano #2191248 por Guybrush88 (https://tatoeba.org/en/sentences/show/2191248); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_2191277: italiano #2191277 por Guybrush88 (https://tatoeba.org/en/sentences/show/2191277); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_2191280: italiano #2191280 por Guybrush88 (https://tatoeba.org/en/sentences/show/2191280); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_2191283: italiano #2191283 por Guybrush88 (https://tatoeba.org/en/sentences/show/2191283); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2191458: italiano #2191458 por Guybrush88 (https://tatoeba.org/en/sentences/show/2191458); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2191601: italiano #2191601 por Guybrush88 (https://tatoeba.org/en/sentences/show/2191601); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_2191762: italiano #2191762 por Guybrush88 (https://tatoeba.org/en/sentences/show/2191762); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_2191764: italiano #2191764 por Guybrush88 (https://tatoeba.org/en/sentences/show/2191764); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2191809: italiano #2191809 por Guybrush88 (https://tatoeba.org/en/sentences/show/2191809); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2191812: italiano #2191812 por Guybrush88 (https://tatoeba.org/en/sentences/show/2191812); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2191814: italiano #2191814 por Guybrush88 (https://tatoeba.org/en/sentences/show/2191814); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -1172,6 +1280,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_2198710: italiano #2198710 por graphite (https://tatoeba.org/en/sentences/show/2198710); español #1003131 por arashi_29 (https://tatoeba.org/en/sentences/show/1003131) — CC BY 2.0 FR
 - s_2199984: italiano #2199984 por Guybrush88 (https://tatoeba.org/en/sentences/show/2199984); español #3173492 por cueyayotl (https://tatoeba.org/en/sentences/show/3173492) — CC BY 2.0 FR
 - s_2199989: italiano #2199989 por Guybrush88 (https://tatoeba.org/en/sentences/show/2199989); español #3173497 por cueyayotl (https://tatoeba.org/en/sentences/show/3173497) — CC BY 2.0 FR
+- s_2205893: italiano #2205893 por miccap (https://tatoeba.org/en/sentences/show/2205893); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2206721: italiano #2206721 por Guybrush88 (https://tatoeba.org/en/sentences/show/2206721); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2213776: italiano #2213776 por Guybrush88 (https://tatoeba.org/en/sentences/show/2213776); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2217351: italiano #2217351 por hitori37 (https://tatoeba.org/en/sentences/show/2217351); español #1364643 por Kiraness (https://tatoeba.org/en/sentences/show/1364643) — CC BY 2.0 FR
@@ -1186,6 +1295,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_2238067: italiano #2238067 por Guybrush88 (https://tatoeba.org/en/sentences/show/2238067); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2242234: italiano #2242234 por miccap (https://tatoeba.org/en/sentences/show/2242234); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2252441: italiano #2252441 por Guybrush88 (https://tatoeba.org/en/sentences/show/2252441); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_2255744: italiano #2255744 por Guybrush88 (https://tatoeba.org/en/sentences/show/2255744); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2256837: italiano #2256837 por hitori37 (https://tatoeba.org/en/sentences/show/2256837); español #725725 por Shishir (https://tatoeba.org/en/sentences/show/725725) — CC BY 2.0 FR
 - s_2259841: italiano #2259841 por Guybrush88 (https://tatoeba.org/en/sentences/show/2259841); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2268210: italiano #2268210 por hitori37 (https://tatoeba.org/en/sentences/show/2268210); español #2268007 por cueyayotl (https://tatoeba.org/en/sentences/show/2268007) — CC BY 2.0 FR
@@ -1200,6 +1310,8 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_2347061: italiano #2347061 por Guybrush88 (https://tatoeba.org/en/sentences/show/2347061); español #1717479 por marcelostockle (https://tatoeba.org/en/sentences/show/1717479) — CC BY 2.0 FR
 - s_2347419: italiano #2347419 por Guybrush88 (https://tatoeba.org/en/sentences/show/2347419); español #2246767 por Shishir (https://tatoeba.org/en/sentences/show/2246767) — CC BY 2.0 FR
 - s_2347422: italiano #2347422 por Guybrush88 (https://tatoeba.org/en/sentences/show/2347422); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_2349199: italiano #2349199 por Guybrush88 (https://tatoeba.org/en/sentences/show/2349199); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_2349200: italiano #2349200 por Guybrush88 (https://tatoeba.org/en/sentences/show/2349200); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2352408: italiano #2352408 por Guybrush88 (https://tatoeba.org/en/sentences/show/2352408); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2352895: italiano #2352895 por Guybrush88 (https://tatoeba.org/en/sentences/show/2352895); español #462473 por lukaszpp (https://tatoeba.org/en/sentences/show/462473) — CC BY 2.0 FR
 - s_2352896: italiano #2352896 por Guybrush88 (https://tatoeba.org/en/sentences/show/2352896); español #831400 por LugoIlmer (https://tatoeba.org/en/sentences/show/831400) — CC BY 2.0 FR
@@ -1221,6 +1333,8 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_2399430: italiano #2399430 por al_ex_an_der (https://tatoeba.org/en/sentences/show/2399430); español #2399437 por marcelostockle (https://tatoeba.org/en/sentences/show/2399437) — CC BY 2.0 FR
 - s_2400902: italiano #2400902 por Guybrush88 (https://tatoeba.org/en/sentences/show/2400902); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2411939: italiano #2411939 por Guybrush88 (https://tatoeba.org/en/sentences/show/2411939); español #580483 por Leono (https://tatoeba.org/en/sentences/show/580483) — CC BY 2.0 FR
+- s_2413881: italiano #2413881 por Guybrush88 (https://tatoeba.org/en/sentences/show/2413881); español #3753164 por cadininbiri (https://tatoeba.org/en/sentences/show/3753164) — CC BY 2.0 FR
+- s_2416913: italiano #2416913 por Guybrush88 (https://tatoeba.org/en/sentences/show/2416913); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2422698: italiano #2422698 por Guybrush88 (https://tatoeba.org/en/sentences/show/2422698); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2422702: italiano #2422702 por Guybrush88 (https://tatoeba.org/en/sentences/show/2422702); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2422721: italiano #2422721 por Guybrush88 (https://tatoeba.org/en/sentences/show/2422721); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -1238,6 +1352,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_2433370: italiano #2433370 por Guybrush88 (https://tatoeba.org/en/sentences/show/2433370); español #3445611 por ulymarrero (https://tatoeba.org/en/sentences/show/3445611) — CC BY 2.0 FR
 - s_2433446: italiano #2433446 por Guybrush88 (https://tatoeba.org/en/sentences/show/2433446); español #3297387 por gianich73 (https://tatoeba.org/en/sentences/show/3297387) — CC BY 2.0 FR
 - s_2433745: italiano #2433745 por bruno_b (https://tatoeba.org/en/sentences/show/2433745); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_2435893: italiano #2435893 por Guybrush88 (https://tatoeba.org/en/sentences/show/2435893); español #10204353 por Shishir (https://tatoeba.org/en/sentences/show/10204353) — CC BY 2.0 FR
 - s_2436421: italiano #2436421 por al_ex_an_der (https://tatoeba.org/en/sentences/show/2436421); español #2436408 por fgreco (https://tatoeba.org/en/sentences/show/2436408) — CC BY 2.0 FR
 - s_2436763: italiano #2436763 por Guybrush88 (https://tatoeba.org/en/sentences/show/2436763); español #2652499 por ramonj (https://tatoeba.org/en/sentences/show/2652499) — CC BY 2.0 FR
 - s_2437315: italiano #2437315 por Guybrush88 (https://tatoeba.org/en/sentences/show/2437315); español #4622192 por Shishir (https://tatoeba.org/en/sentences/show/4622192) — CC BY 2.0 FR
@@ -1245,6 +1360,8 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_2441385: italiano #2441385 por Guybrush88 (https://tatoeba.org/en/sentences/show/2441385); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2443442: italiano #2443442 por Guybrush88 (https://tatoeba.org/en/sentences/show/2443442); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2448486: italiano #2448486 por Guybrush88 (https://tatoeba.org/en/sentences/show/2448486); español #2454612 por HikkiSakura (https://tatoeba.org/en/sentences/show/2454612) — CC BY 2.0 FR
+- s_2448614: italiano #2448614 por Guybrush88 (https://tatoeba.org/en/sentences/show/2448614); español #2879933 por cueyayotl (https://tatoeba.org/en/sentences/show/2879933) — CC BY 2.0 FR
+- s_2448616: italiano #2448616 por Guybrush88 (https://tatoeba.org/en/sentences/show/2448616); español #2879933 por cueyayotl (https://tatoeba.org/en/sentences/show/2879933) — CC BY 2.0 FR
 - s_2448704: italiano #2448704 por Guybrush88 (https://tatoeba.org/en/sentences/show/2448704); español #592576 por darinmex (https://tatoeba.org/en/sentences/show/592576) — CC BY 2.0 FR
 - s_2448705: italiano #2448705 por Guybrush88 (https://tatoeba.org/en/sentences/show/2448705); español #592576 por darinmex (https://tatoeba.org/en/sentences/show/592576) — CC BY 2.0 FR
 - s_2454976: italiano #2454976 por Guybrush88 (https://tatoeba.org/en/sentences/show/2454976); español #3307563 por gianich73 (https://tatoeba.org/en/sentences/show/3307563) — CC BY 2.0 FR
@@ -1269,6 +1386,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_2484142: italiano #2484142 por Guybrush88 (https://tatoeba.org/en/sentences/show/2484142); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2485881: italiano #2485881 por Guybrush88 (https://tatoeba.org/en/sentences/show/2485881); español #522946 por Shishir (https://tatoeba.org/en/sentences/show/522946) — CC BY 2.0 FR
 - s_2486027: italiano #2486027 por Guybrush88 (https://tatoeba.org/en/sentences/show/2486027); español #10325776 por DJ_Saidez (https://tatoeba.org/en/sentences/show/10325776) — CC BY 2.0 FR
+- s_2486527: italiano #2486527 por al_ex_an_der (https://tatoeba.org/en/sentences/show/2486527); español #2486648 por marcelostockle (https://tatoeba.org/en/sentences/show/2486648) — CC BY 2.0 FR
 - s_2487821: italiano #2487821 por Guybrush88 (https://tatoeba.org/en/sentences/show/2487821); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2495493: italiano #2495493 por Guybrush88 (https://tatoeba.org/en/sentences/show/2495493); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2496070: italiano #2496070 por Guybrush88 (https://tatoeba.org/en/sentences/show/2496070); español #2054936 por Shishir (https://tatoeba.org/en/sentences/show/2054936) — CC BY 2.0 FR
@@ -1343,9 +1461,11 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_2581705: italiano #2581705 por Guybrush88 (https://tatoeba.org/en/sentences/show/2581705); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2584087: italiano #2584087 por Guybrush88 (https://tatoeba.org/en/sentences/show/2584087); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2584089: italiano #2584089 por Guybrush88 (https://tatoeba.org/en/sentences/show/2584089); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_2593892: italiano #2593892 por Guybrush88 (https://tatoeba.org/en/sentences/show/2593892); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2603600: italiano #2603600 por rado (https://tatoeba.org/en/sentences/show/2603600); español #2603588 por arkan (https://tatoeba.org/en/sentences/show/2603588) — CC BY 2.0 FR
 - s_2611712: italiano #2611712 por Guybrush88 (https://tatoeba.org/en/sentences/show/2611712); español #2385288 por hayastan (https://tatoeba.org/en/sentences/show/2385288) — CC BY 2.0 FR
 - s_2611941: italiano #2611941 por Guybrush88 (https://tatoeba.org/en/sentences/show/2611941); español #6116123 por Adelpa (https://tatoeba.org/en/sentences/show/6116123) — CC BY 2.0 FR
+- s_2615774: italiano #2615774 por julius26 (https://tatoeba.org/en/sentences/show/2615774); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2617671: italiano #2617671 por Guybrush88 (https://tatoeba.org/en/sentences/show/2617671); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2617692: italiano #2617692 por Guybrush88 (https://tatoeba.org/en/sentences/show/2617692); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2618316: italiano #2618316 por Guybrush88 (https://tatoeba.org/en/sentences/show/2618316); español #5630713 por arh (https://tatoeba.org/en/sentences/show/5630713) — CC BY 2.0 FR
@@ -1465,6 +1585,8 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_2822073: italiano #2822073 por Guybrush88 (https://tatoeba.org/en/sentences/show/2822073); español #2857543 por Besatnias (https://tatoeba.org/en/sentences/show/2857543) — CC BY 2.0 FR
 - s_2824957: italiano #2824957 por Guybrush88 (https://tatoeba.org/en/sentences/show/2824957); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2825371: italiano #2825371 por Guybrush88 (https://tatoeba.org/en/sentences/show/2825371); español #1923239 por marcelostockle (https://tatoeba.org/en/sentences/show/1923239) — CC BY 2.0 FR
+- s_2825572: italiano #2825572 por Guybrush88 (https://tatoeba.org/en/sentences/show/2825572); español #2924677 por alexmarcelo (https://tatoeba.org/en/sentences/show/2924677) — CC BY 2.0 FR
+- s_2825657: italiano #2825657 por Guybrush88 (https://tatoeba.org/en/sentences/show/2825657); español #10141336 por saverius (https://tatoeba.org/en/sentences/show/10141336) — CC BY 2.0 FR
 - s_2829539: italiano #2829539 por Guybrush88 (https://tatoeba.org/en/sentences/show/2829539); español #10802678 por saverius (https://tatoeba.org/en/sentences/show/10802678) — CC BY 2.0 FR
 - s_2830235: italiano #2830235 por Guybrush88 (https://tatoeba.org/en/sentences/show/2830235); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2830534: italiano #2830534 por Guybrush88 (https://tatoeba.org/en/sentences/show/2830534); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -1486,6 +1608,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_2845274: italiano #2845274 por Guybrush88 (https://tatoeba.org/en/sentences/show/2845274); español #1585306 por termito2nd (https://tatoeba.org/en/sentences/show/1585306) — CC BY 2.0 FR
 - s_2845495: italiano #2845495 por Guybrush88 (https://tatoeba.org/en/sentences/show/2845495); español #3350297 por Shishir (https://tatoeba.org/en/sentences/show/3350297) — CC BY 2.0 FR
 - s_2846518: italiano #2846518 por Guybrush88 (https://tatoeba.org/en/sentences/show/2846518); español #8637129 por pcarolina (https://tatoeba.org/en/sentences/show/8637129) — CC BY 2.0 FR
+- s_2846987: italiano #2846987 por Guybrush88 (https://tatoeba.org/en/sentences/show/2846987); español #883750 por roimg3 (https://tatoeba.org/en/sentences/show/883750) — CC BY 2.0 FR
 - s_2848375: italiano #2848375 por Guybrush88 (https://tatoeba.org/en/sentences/show/2848375); español #1698803 por alexmarcelo (https://tatoeba.org/en/sentences/show/1698803) — CC BY 2.0 FR
 - s_2849004: italiano #2849004 por Guybrush88 (https://tatoeba.org/en/sentences/show/2849004); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2850887: italiano #2850887 por Guybrush88 (https://tatoeba.org/en/sentences/show/2850887); español #2158913 por hayastan (https://tatoeba.org/en/sentences/show/2158913) — CC BY 2.0 FR
@@ -1516,6 +1639,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_2896124: italiano #2896124 por Guybrush88 (https://tatoeba.org/en/sentences/show/2896124); español #1236852 por Shishir (https://tatoeba.org/en/sentences/show/1236852) — CC BY 2.0 FR
 - s_2905863: italiano #2905863 por Guybrush88 (https://tatoeba.org/en/sentences/show/2905863); español #6149275 por xjjAstrus (https://tatoeba.org/en/sentences/show/6149275) — CC BY 2.0 FR
 - s_2908216: italiano #2908216 por Guybrush88 (https://tatoeba.org/en/sentences/show/2908216); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_2908665: italiano #2908665 por Guybrush88 (https://tatoeba.org/en/sentences/show/2908665); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2914399: italiano #2914399 por Guybrush88 (https://tatoeba.org/en/sentences/show/2914399); español #2924596 por alexmarcelo (https://tatoeba.org/en/sentences/show/2924596) — CC BY 2.0 FR
 - s_2916132: italiano #2916132 por Guybrush88 (https://tatoeba.org/en/sentences/show/2916132); español #1943857 por hayastan (https://tatoeba.org/en/sentences/show/1943857) — CC BY 2.0 FR
 - s_2916504: italiano #2916504 por Guybrush88 (https://tatoeba.org/en/sentences/show/2916504); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -1525,6 +1649,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_2917325: italiano #2917325 por alexmarcelo (https://tatoeba.org/en/sentences/show/2917325); español #2917318 por marcelostockle (https://tatoeba.org/en/sentences/show/2917318) — CC BY 2.0 FR
 - s_2917410: italiano #2917410 por alexmarcelo (https://tatoeba.org/en/sentences/show/2917410); español #2921185 por marcelostockle (https://tatoeba.org/en/sentences/show/2921185) — CC BY 2.0 FR
 - s_2917439: italiano #2917439 por alexmarcelo (https://tatoeba.org/en/sentences/show/2917439); español #2917430 por marcelostockle (https://tatoeba.org/en/sentences/show/2917430) — CC BY 2.0 FR
+- s_2918316: italiano #2918316 por Guybrush88 (https://tatoeba.org/en/sentences/show/2918316); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2920682: italiano #2920682 por Guybrush88 (https://tatoeba.org/en/sentences/show/2920682); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_2923698: italiano #2923698 por Guybrush88 (https://tatoeba.org/en/sentences/show/2923698); español #3012421 por hayastan (https://tatoeba.org/en/sentences/show/3012421) — CC BY 2.0 FR
 - s_2924177: italiano #2924177 por alexmarcelo (https://tatoeba.org/en/sentences/show/2924177); español #343681 por tatoerique (https://tatoeba.org/en/sentences/show/343681) — CC BY 2.0 FR
@@ -1590,18 +1715,22 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_3022765: italiano #3022765 por Guybrush88 (https://tatoeba.org/en/sentences/show/3022765); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3025682: italiano #3025682 por Guybrush88 (https://tatoeba.org/en/sentences/show/3025682); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3028365: italiano #3028365 por Guybrush88 (https://tatoeba.org/en/sentences/show/3028365); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3033587: italiano #3033587 por Guybrush88 (https://tatoeba.org/en/sentences/show/3033587); español #10262544 por saverius (https://tatoeba.org/en/sentences/show/10262544) — CC BY 2.0 FR
 - s_3040606: italiano #3040606 por Guybrush88 (https://tatoeba.org/en/sentences/show/3040606); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3040607: italiano #3040607 por Guybrush88 (https://tatoeba.org/en/sentences/show/3040607); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3042980: italiano #3042980 por Guybrush88 (https://tatoeba.org/en/sentences/show/3042980); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3049192: italiano #3049192 por Guybrush88 (https://tatoeba.org/en/sentences/show/3049192); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3050344: italiano #3050344 por Guybrush88 (https://tatoeba.org/en/sentences/show/3050344); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3050501: italiano #3050501 por Guybrush88 (https://tatoeba.org/en/sentences/show/3050501); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3052709: italiano #3052709 por bailujia (https://tatoeba.org/en/sentences/show/3052709); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3055534: italiano #3055534 por Guybrush88 (https://tatoeba.org/en/sentences/show/3055534); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3061525: italiano #3061525 por Guybrush88 (https://tatoeba.org/en/sentences/show/3061525); español #556549 por Shishir (https://tatoeba.org/en/sentences/show/556549) — CC BY 2.0 FR
 - s_3062154: italiano #3062154 por Guybrush88 (https://tatoeba.org/en/sentences/show/3062154); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3066301: italiano #3066301 por Guybrush88 (https://tatoeba.org/en/sentences/show/3066301); español #3106506 por marcelostockle (https://tatoeba.org/en/sentences/show/3106506) — CC BY 2.0 FR
 - s_3067574: italiano #3067574 por Guybrush88 (https://tatoeba.org/en/sentences/show/3067574); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3070810: italiano #3070810 por Guybrush88 (https://tatoeba.org/en/sentences/show/3070810); español #2824749 por cueyayotl (https://tatoeba.org/en/sentences/show/2824749) — CC BY 2.0 FR
 - s_3075600: italiano #3075600 por Guybrush88 (https://tatoeba.org/en/sentences/show/3075600); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3081279: italiano #3081279 por faehrmann (https://tatoeba.org/en/sentences/show/3081279); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3083457: italiano #3083457 por rado (https://tatoeba.org/en/sentences/show/3083457); español #3083631 por Shishir (https://tatoeba.org/en/sentences/show/3083631) — CC BY 2.0 FR
 - s_3090822: italiano #3090822 por Guybrush88 (https://tatoeba.org/en/sentences/show/3090822); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3090824: italiano #3090824 por Guybrush88 (https://tatoeba.org/en/sentences/show/3090824); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -1648,6 +1777,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_3176285: italiano #3176285 por Guybrush88 (https://tatoeba.org/en/sentences/show/3176285); español #3795646 por cueyayotl (https://tatoeba.org/en/sentences/show/3795646) — CC BY 2.0 FR
 - s_3176709: italiano #3176709 por Guybrush88 (https://tatoeba.org/en/sentences/show/3176709); español #3556939 por Lakeseayesno (https://tatoeba.org/en/sentences/show/3556939) — CC BY 2.0 FR
 - s_3183017: italiano #3183017 por Guybrush88 (https://tatoeba.org/en/sentences/show/3183017); español #3857398 por cueyayotl (https://tatoeba.org/en/sentences/show/3857398) — CC BY 2.0 FR
+- s_3183045: italiano #3183045 por Guybrush88 (https://tatoeba.org/en/sentences/show/3183045); español #3466299 por cueyayotl (https://tatoeba.org/en/sentences/show/3466299) — CC BY 2.0 FR
 - s_3187744: italiano #3187744 por Guybrush88 (https://tatoeba.org/en/sentences/show/3187744); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3190046: italiano #3190046 por Guybrush88 (https://tatoeba.org/en/sentences/show/3190046); español #1257785 por marcelostockle (https://tatoeba.org/en/sentences/show/1257785) — CC BY 2.0 FR
 - s_3194066: italiano #3194066 por emigonza (https://tatoeba.org/en/sentences/show/3194066); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -1655,6 +1785,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_3202879: italiano #3202879 por Guybrush88 (https://tatoeba.org/en/sentences/show/3202879); español #1683535 por marcelostockle (https://tatoeba.org/en/sentences/show/1683535) — CC BY 2.0 FR
 - s_3220250: italiano #3220250 por Guybrush88 (https://tatoeba.org/en/sentences/show/3220250); español #4045536 por gianich73 (https://tatoeba.org/en/sentences/show/4045536) — CC BY 2.0 FR
 - s_3230255: italiano #3230255 por Guybrush88 (https://tatoeba.org/en/sentences/show/3230255); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3233299: italiano #3233299 por Guybrush88 (https://tatoeba.org/en/sentences/show/3233299); español #2924711 por alexmarcelo (https://tatoeba.org/en/sentences/show/2924711) — CC BY 2.0 FR
 - s_3233436: italiano #3233436 por Guybrush88 (https://tatoeba.org/en/sentences/show/3233436); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3233437: italiano #3233437 por Guybrush88 (https://tatoeba.org/en/sentences/show/3233437); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3235351: italiano #3235351 por carlosalberto (https://tatoeba.org/en/sentences/show/3235351); español #3235346 por carlosalberto (https://tatoeba.org/en/sentences/show/3235346) — CC BY 2.0 FR
@@ -1718,9 +1849,13 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_3343634: italiano #3343634 por bailujia (https://tatoeba.org/en/sentences/show/3343634); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3343673: italiano #3343673 por Guybrush88 (https://tatoeba.org/en/sentences/show/3343673); español #947269 por hayastan (https://tatoeba.org/en/sentences/show/947269) — CC BY 2.0 FR
 - s_3343974: italiano #3343974 por Guybrush88 (https://tatoeba.org/en/sentences/show/3343974); español #629401 por darinmex (https://tatoeba.org/en/sentences/show/629401) — CC BY 2.0 FR
+- s_3345462: italiano #3345462 por bailujia (https://tatoeba.org/en/sentences/show/3345462); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3345480: italiano #3345480 por bailujia (https://tatoeba.org/en/sentences/show/3345480); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3347247: italiano #3347247 por bailujia (https://tatoeba.org/en/sentences/show/3347247); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3349015: italiano #3349015 por Guybrush88 (https://tatoeba.org/en/sentences/show/3349015); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3349538: italiano #3349538 por bailujia (https://tatoeba.org/en/sentences/show/3349538); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3350600: italiano #3350600 por Guybrush88 (https://tatoeba.org/en/sentences/show/3350600); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3351029: italiano #3351029 por bailujia (https://tatoeba.org/en/sentences/show/3351029); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_335152: italiano #335152 por axcutul (https://tatoeba.org/en/sentences/show/335152); español #2842 por Zifre (https://tatoeba.org/en/sentences/show/2842) — CC BY 2.0 FR
 - s_3352346: italiano #3352346 por Guybrush88 (https://tatoeba.org/en/sentences/show/3352346); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3352769: italiano #3352769 por Guybrush88 (https://tatoeba.org/en/sentences/show/3352769); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -1787,10 +1922,12 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_3437358: italiano #3437358 por Guybrush88 (https://tatoeba.org/en/sentences/show/3437358); español #4998175 por cueyayotl (https://tatoeba.org/en/sentences/show/4998175) — CC BY 2.0 FR
 - s_3437762: italiano #3437762 por Guybrush88 (https://tatoeba.org/en/sentences/show/3437762); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3440351: italiano #3440351 por Guybrush88 (https://tatoeba.org/en/sentences/show/3440351); español #4445278 por cueyayotl (https://tatoeba.org/en/sentences/show/4445278) — CC BY 2.0 FR
+- s_3441647: italiano #3441647 por Guybrush88 (https://tatoeba.org/en/sentences/show/3441647); español #3442088 por carlosalberto (https://tatoeba.org/en/sentences/show/3442088) — CC BY 2.0 FR
 - s_3451880: italiano #3451880 por davzog (https://tatoeba.org/en/sentences/show/3451880); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3461643: italiano #3461643 por Guybrush88 (https://tatoeba.org/en/sentences/show/3461643); español #464419 por lukaszpp (https://tatoeba.org/en/sentences/show/464419) — CC BY 2.0 FR
 - s_3470473: italiano #3470473 por Guybrush88 (https://tatoeba.org/en/sentences/show/3470473); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3471574: italiano #3471574 por Guybrush88 (https://tatoeba.org/en/sentences/show/3471574); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3472953: italiano #3472953 por Guybrush88 (https://tatoeba.org/en/sentences/show/3472953); español #10144410 por saverius (https://tatoeba.org/en/sentences/show/10144410) — CC BY 2.0 FR
 - s_3473741: italiano #3473741 por Guybrush88 (https://tatoeba.org/en/sentences/show/3473741); español #3473925 por gianich73 (https://tatoeba.org/en/sentences/show/3473925) — CC BY 2.0 FR
 - s_3475325: italiano #3475325 por Guybrush88 (https://tatoeba.org/en/sentences/show/3475325); español #2119577 por labatteg (https://tatoeba.org/en/sentences/show/2119577) — CC BY 2.0 FR
 - s_3475686: italiano #3475686 por Guybrush88 (https://tatoeba.org/en/sentences/show/3475686); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -1804,10 +1941,15 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_350270: italiano #350270 por martin (https://tatoeba.org/en/sentences/show/350270); español #493485 por Shishir (https://tatoeba.org/en/sentences/show/493485) — CC BY 2.0 FR
 - s_350290: italiano #350290 por martin (https://tatoeba.org/en/sentences/show/350290); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_350296: italiano #350296 por martin (https://tatoeba.org/en/sentences/show/350296); español #1115635 por darinmex (https://tatoeba.org/en/sentences/show/1115635) — CC BY 2.0 FR
+- s_350350: italiano #350350 por martin (https://tatoeba.org/en/sentences/show/350350); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3504759: italiano #3504759 por Guybrush88 (https://tatoeba.org/en/sentences/show/3504759); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3504761: italiano #3504761 por Guybrush88 (https://tatoeba.org/en/sentences/show/3504761); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_350481: italiano #350481 por martin (https://tatoeba.org/en/sentences/show/350481); español #573296 por darinmex (https://tatoeba.org/en/sentences/show/573296) — CC BY 2.0 FR
+- s_3505209: italiano #3505209 por capiceddhra (https://tatoeba.org/en/sentences/show/3505209); español #2564651 por hayastan (https://tatoeba.org/en/sentences/show/2564651) — CC BY 2.0 FR
+- s_3505219: italiano #3505219 por capiceddhra (https://tatoeba.org/en/sentences/show/3505219); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_350529: italiano #350529 por martin (https://tatoeba.org/en/sentences/show/350529); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_350545: italiano #350545 por martin (https://tatoeba.org/en/sentences/show/350545); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_350583: italiano #350583 por martin (https://tatoeba.org/en/sentences/show/350583); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_350606: italiano #350606 por martin (https://tatoeba.org/en/sentences/show/350606); español #1063181 por Shishir (https://tatoeba.org/en/sentences/show/1063181) — CC BY 2.0 FR
 - s_3506063: italiano #3506063 por Guybrush88 (https://tatoeba.org/en/sentences/show/3506063); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_350634: italiano #350634 por martin (https://tatoeba.org/en/sentences/show/350634); español #1985488 por hayastan (https://tatoeba.org/en/sentences/show/1985488) — CC BY 2.0 FR
@@ -1816,31 +1958,50 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_350763: italiano #350763 por martin (https://tatoeba.org/en/sentences/show/350763); español #1985489 por hayastan (https://tatoeba.org/en/sentences/show/1985489) — CC BY 2.0 FR
 - s_350764: italiano #350764 por martin (https://tatoeba.org/en/sentences/show/350764); español #721688 por darinmex (https://tatoeba.org/en/sentences/show/721688) — CC BY 2.0 FR
 - s_350770: italiano #350770 por martin (https://tatoeba.org/en/sentences/show/350770); español #663591 por Shishir (https://tatoeba.org/en/sentences/show/663591) — CC BY 2.0 FR
+- s_3507703: italiano #3507703 por Guybrush88 (https://tatoeba.org/en/sentences/show/3507703); español #726553 por Fanki (https://tatoeba.org/en/sentences/show/726553) — CC BY 2.0 FR
 - s_350772: italiano #350772 por martin (https://tatoeba.org/en/sentences/show/350772); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_350796: italiano #350796 por martin (https://tatoeba.org/en/sentences/show/350796); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_350854: italiano #350854 por martin (https://tatoeba.org/en/sentences/show/350854); español #1502962 por Virgilia (https://tatoeba.org/en/sentences/show/1502962) — CC BY 2.0 FR
+- s_350916: italiano #350916 por martin (https://tatoeba.org/en/sentences/show/350916); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_350919: italiano #350919 por martin (https://tatoeba.org/en/sentences/show/350919); español #1016834 por Shishir (https://tatoeba.org/en/sentences/show/1016834) — CC BY 2.0 FR
+- s_350931: italiano #350931 por martin (https://tatoeba.org/en/sentences/show/350931); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_350953: italiano #350953 por martin (https://tatoeba.org/en/sentences/show/350953); español #2483 por hayastan (https://tatoeba.org/en/sentences/show/2483) — CC BY 2.0 FR
 - s_3509548: italiano #3509548 por Guybrush88 (https://tatoeba.org/en/sentences/show/3509548); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_350990: italiano #350990 por martin (https://tatoeba.org/en/sentences/show/350990); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_350994: italiano #350994 por martin (https://tatoeba.org/en/sentences/show/350994); español #1256766 por marcelostockle (https://tatoeba.org/en/sentences/show/1256766) — CC BY 2.0 FR
 - s_351001: italiano #351001 por martin (https://tatoeba.org/en/sentences/show/351001); español #1003240 por hayastan (https://tatoeba.org/en/sentences/show/1003240) — CC BY 2.0 FR
 - s_351018: italiano #351018 por martin (https://tatoeba.org/en/sentences/show/351018); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_351020: italiano #351020 por martin (https://tatoeba.org/en/sentences/show/351020); español #499734 por Shishir (https://tatoeba.org/en/sentences/show/499734) — CC BY 2.0 FR
 - s_351067: italiano #351067 por martin (https://tatoeba.org/en/sentences/show/351067); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_351077: italiano #351077 por martin (https://tatoeba.org/en/sentences/show/351077); español #346252 por tatoerique (https://tatoeba.org/en/sentences/show/346252) — CC BY 2.0 FR
+- s_351079: italiano #351079 por martin (https://tatoeba.org/en/sentences/show/351079); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_351114: italiano #351114 por martin (https://tatoeba.org/en/sentences/show/351114); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_351137: italiano #351137 por martin (https://tatoeba.org/en/sentences/show/351137); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_351140: italiano #351140 por martin (https://tatoeba.org/en/sentences/show/351140); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3511546: italiano #3511546 por Guybrush88 (https://tatoeba.org/en/sentences/show/3511546); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3512064: italiano #3512064 por Guybrush88 (https://tatoeba.org/en/sentences/show/3512064); español #12701793 por Shishir (https://tatoeba.org/en/sentences/show/12701793) — CC BY 2.0 FR
 - s_351263: italiano #351263 por martin (https://tatoeba.org/en/sentences/show/351263); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3516070: italiano #3516070 por Guybrush88 (https://tatoeba.org/en/sentences/show/3516070); español #2665771 por cueyayotl (https://tatoeba.org/en/sentences/show/2665771) — CC BY 2.0 FR
+- s_3518231: italiano #3518231 por Guybrush88 (https://tatoeba.org/en/sentences/show/3518231); español #13557422 por Serrot (https://tatoeba.org/en/sentences/show/13557422) — CC BY 2.0 FR
 - s_3518897: italiano #3518897 por Guybrush88 (https://tatoeba.org/en/sentences/show/3518897); español #1192070 por marcelostockle (https://tatoeba.org/en/sentences/show/1192070) — CC BY 2.0 FR
 - s_3527996: italiano #3527996 por Guybrush88 (https://tatoeba.org/en/sentences/show/3527996); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3530683: italiano #3530683 por Guybrush88 (https://tatoeba.org/en/sentences/show/3530683); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3531983: italiano #3531983 por Vallysing (https://tatoeba.org/en/sentences/show/3531983); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3532873: italiano #3532873 por Vallysing (https://tatoeba.org/en/sentences/show/3532873); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3532879: italiano #3532879 por Vallysing (https://tatoeba.org/en/sentences/show/3532879); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3532901: italiano #3532901 por Vallysing (https://tatoeba.org/en/sentences/show/3532901); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3532940: italiano #3532940 por Vallysing (https://tatoeba.org/en/sentences/show/3532940); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3532962: italiano #3532962 por Vallysing (https://tatoeba.org/en/sentences/show/3532962); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3532965: italiano #3532965 por Vallysing (https://tatoeba.org/en/sentences/show/3532965); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3533000: italiano #3533000 por Vallysing (https://tatoeba.org/en/sentences/show/3533000); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3533009: italiano #3533009 por Vallysing (https://tatoeba.org/en/sentences/show/3533009); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3533058: italiano #3533058 por Vallysing (https://tatoeba.org/en/sentences/show/3533058); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3533063: italiano #3533063 por Vallysing (https://tatoeba.org/en/sentences/show/3533063); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3533086: italiano #3533086 por Vallysing (https://tatoeba.org/en/sentences/show/3533086); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3533118: italiano #3533118 por Vallysing (https://tatoeba.org/en/sentences/show/3533118); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3533126: italiano #3533126 por Vallysing (https://tatoeba.org/en/sentences/show/3533126); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3533129: italiano #3533129 por Vallysing (https://tatoeba.org/en/sentences/show/3533129); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3533143: italiano #3533143 por Vallysing (https://tatoeba.org/en/sentences/show/3533143); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3533149: italiano #3533149 por Vallysing (https://tatoeba.org/en/sentences/show/3533149); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3533157: italiano #3533157 por Vallysing (https://tatoeba.org/en/sentences/show/3533157); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3533158: italiano #3533158 por Vallysing (https://tatoeba.org/en/sentences/show/3533158); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -1921,6 +2082,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_3633820: italiano #3633820 por Guybrush88 (https://tatoeba.org/en/sentences/show/3633820); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3633971: italiano #3633971 por Tradukero (https://tatoeba.org/en/sentences/show/3633971); español #2778262 por Leono (https://tatoeba.org/en/sentences/show/2778262) — CC BY 2.0 FR
 - s_3635296: italiano #3635296 por Guybrush88 (https://tatoeba.org/en/sentences/show/3635296); español #1345279 por marcelostockle (https://tatoeba.org/en/sentences/show/1345279) — CC BY 2.0 FR
+- s_3635508: italiano #3635508 por Guybrush88 (https://tatoeba.org/en/sentences/show/3635508); español #6171012 por cueyayotl (https://tatoeba.org/en/sentences/show/6171012) — CC BY 2.0 FR
 - s_3636847: italiano #3636847 por Guybrush88 (https://tatoeba.org/en/sentences/show/3636847); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3636895: italiano #3636895 por Guybrush88 (https://tatoeba.org/en/sentences/show/3636895); español #4806943 por Balamax (https://tatoeba.org/en/sentences/show/4806943) — CC BY 2.0 FR
 - s_3637341: italiano #3637341 por Guybrush88 (https://tatoeba.org/en/sentences/show/3637341); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -1933,6 +2095,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_3647103: italiano #3647103 por Guybrush88 (https://tatoeba.org/en/sentences/show/3647103); español #10146216 por saverius (https://tatoeba.org/en/sentences/show/10146216) — CC BY 2.0 FR
 - s_3649955: italiano #3649955 por Guybrush88 (https://tatoeba.org/en/sentences/show/3649955); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3653848: italiano #3653848 por Guybrush88 (https://tatoeba.org/en/sentences/show/3653848); español #10114724 por saverius (https://tatoeba.org/en/sentences/show/10114724) — CC BY 2.0 FR
+- s_365719: italiano #365719 por martin (https://tatoeba.org/en/sentences/show/365719); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_365723: italiano #365723 por martin (https://tatoeba.org/en/sentences/show/365723); español #1258094 por hayastan (https://tatoeba.org/en/sentences/show/1258094) — CC BY 2.0 FR
 - s_3658996: italiano #3658996 por Guybrush88 (https://tatoeba.org/en/sentences/show/3658996); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3659542: italiano #3659542 por Guybrush88 (https://tatoeba.org/en/sentences/show/3659542); español #2625296 por Shishir (https://tatoeba.org/en/sentences/show/2625296) — CC BY 2.0 FR
@@ -1970,6 +2133,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_373659: italiano #373659 por Pharamp (https://tatoeba.org/en/sentences/show/373659); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_373668: italiano #373668 por Pharamp (https://tatoeba.org/en/sentences/show/373668); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_373678: italiano #373678 por Pharamp (https://tatoeba.org/en/sentences/show/373678); español #745603 por Shishir (https://tatoeba.org/en/sentences/show/745603) — CC BY 2.0 FR
+- s_373683: italiano #373683 por Pharamp (https://tatoeba.org/en/sentences/show/373683); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_373686: italiano #373686 por Pharamp (https://tatoeba.org/en/sentences/show/373686); español #1713757 por hayastan (https://tatoeba.org/en/sentences/show/1713757) — CC BY 2.0 FR
 - s_373708: italiano #373708 por Pharamp (https://tatoeba.org/en/sentences/show/373708); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_373709: italiano #373709 por Pharamp (https://tatoeba.org/en/sentences/show/373709); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -1998,6 +2162,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_373852: italiano #373852 por Pharamp (https://tatoeba.org/en/sentences/show/373852); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_373855: italiano #373855 por Pharamp (https://tatoeba.org/en/sentences/show/373855); español #544264 por Shishir (https://tatoeba.org/en/sentences/show/544264) — CC BY 2.0 FR
 - s_373864: italiano #373864 por Pharamp (https://tatoeba.org/en/sentences/show/373864); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_373872: italiano #373872 por Pharamp (https://tatoeba.org/en/sentences/show/373872); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_373873: italiano #373873 por Pharamp (https://tatoeba.org/en/sentences/show/373873); español #1361863 por marcelostockle (https://tatoeba.org/en/sentences/show/1361863) — CC BY 2.0 FR
 - s_373876: italiano #373876 por Pharamp (https://tatoeba.org/en/sentences/show/373876); español #1602681 por marcelostockle (https://tatoeba.org/en/sentences/show/1602681) — CC BY 2.0 FR
 - s_373885: italiano #373885 por Pharamp (https://tatoeba.org/en/sentences/show/373885); español #339039 por tatoerique (https://tatoeba.org/en/sentences/show/339039) — CC BY 2.0 FR
@@ -2008,10 +2173,12 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_373936: italiano #373936 por Pharamp (https://tatoeba.org/en/sentences/show/373936); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_373937: italiano #373937 por Pharamp (https://tatoeba.org/en/sentences/show/373937); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_373938: italiano #373938 por Pharamp (https://tatoeba.org/en/sentences/show/373938); español #570962 por Leono (https://tatoeba.org/en/sentences/show/570962) — CC BY 2.0 FR
+- s_373939: italiano #373939 por Pharamp (https://tatoeba.org/en/sentences/show/373939); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_373941: italiano #373941 por Pharamp (https://tatoeba.org/en/sentences/show/373941); español #536555 por Shishir (https://tatoeba.org/en/sentences/show/536555) — CC BY 2.0 FR
 - s_373956: italiano #373956 por Pharamp (https://tatoeba.org/en/sentences/show/373956); español #2993 por Fanki (https://tatoeba.org/en/sentences/show/2993) — CC BY 2.0 FR
 - s_373963: italiano #373963 por Pharamp (https://tatoeba.org/en/sentences/show/373963); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_373964: italiano #373964 por Pharamp (https://tatoeba.org/en/sentences/show/373964); español #779892 por Shishir (https://tatoeba.org/en/sentences/show/779892) — CC BY 2.0 FR
+- s_373999: italiano #373999 por Pharamp (https://tatoeba.org/en/sentences/show/373999); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_374000: italiano #374000 por Pharamp (https://tatoeba.org/en/sentences/show/374000); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_374001: italiano #374001 por Pharamp (https://tatoeba.org/en/sentences/show/374001); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_374005: italiano #374005 por Pharamp (https://tatoeba.org/en/sentences/show/374005); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2022,16 +2189,22 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_374040: italiano #374040 por Pharamp (https://tatoeba.org/en/sentences/show/374040); español #567764 por darinmex (https://tatoeba.org/en/sentences/show/567764) — CC BY 2.0 FR
 - s_374043: italiano #374043 por Pharamp (https://tatoeba.org/en/sentences/show/374043); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_374049: italiano #374049 por Pharamp (https://tatoeba.org/en/sentences/show/374049); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_374052: italiano #374052 por Pharamp (https://tatoeba.org/en/sentences/show/374052); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_374054: italiano #374054 por Pharamp (https://tatoeba.org/en/sentences/show/374054); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_374055: italiano #374055 por Pharamp (https://tatoeba.org/en/sentences/show/374055); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_374060: italiano #374060 por Pharamp (https://tatoeba.org/en/sentences/show/374060); español #424838 por hayastan (https://tatoeba.org/en/sentences/show/424838) — CC BY 2.0 FR
 - s_374190: italiano #374190 por Pharamp (https://tatoeba.org/en/sentences/show/374190); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_374196: italiano #374196 por Pharamp (https://tatoeba.org/en/sentences/show/374196); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_374197: italiano #374197 por Pharamp (https://tatoeba.org/en/sentences/show/374197); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_374212: italiano #374212 por Pharamp (https://tatoeba.org/en/sentences/show/374212); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_374216: italiano #374216 por Pharamp (https://tatoeba.org/en/sentences/show/374216); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_374218: italiano #374218 por Pharamp (https://tatoeba.org/en/sentences/show/374218); español #769943 por darinmex (https://tatoeba.org/en/sentences/show/769943) — CC BY 2.0 FR
 - s_374219: italiano #374219 por Pharamp (https://tatoeba.org/en/sentences/show/374219); español #958612 por hayastan (https://tatoeba.org/en/sentences/show/958612) — CC BY 2.0 FR
 - s_374224: italiano #374224 por Pharamp (https://tatoeba.org/en/sentences/show/374224); español #336363 por kylecito (https://tatoeba.org/en/sentences/show/336363) — CC BY 2.0 FR
 - s_374246: italiano #374246 por Pharamp (https://tatoeba.org/en/sentences/show/374246); español #1451022 por Elenitigormiti (https://tatoeba.org/en/sentences/show/1451022) — CC BY 2.0 FR
 - s_374254: italiano #374254 por Pharamp (https://tatoeba.org/en/sentences/show/374254); español #339580 por tatoerique (https://tatoeba.org/en/sentences/show/339580) — CC BY 2.0 FR
+- s_374258: italiano #374258 por Pharamp (https://tatoeba.org/en/sentences/show/374258); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_374301: italiano #374301 por Pharamp (https://tatoeba.org/en/sentences/show/374301); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_374304: italiano #374304 por Pharamp (https://tatoeba.org/en/sentences/show/374304); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_374307: italiano #374307 por Pharamp (https://tatoeba.org/en/sentences/show/374307); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_374320: italiano #374320 por Pharamp (https://tatoeba.org/en/sentences/show/374320); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2047,6 +2220,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_374468: italiano #374468 por Pharamp (https://tatoeba.org/en/sentences/show/374468); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_374473: italiano #374473 por Pharamp (https://tatoeba.org/en/sentences/show/374473); español #330665 por tatoerique (https://tatoeba.org/en/sentences/show/330665) — CC BY 2.0 FR
 - s_374474: italiano #374474 por Pharamp (https://tatoeba.org/en/sentences/show/374474); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_374477: italiano #374477 por Pharamp (https://tatoeba.org/en/sentences/show/374477); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_374478: italiano #374478 por Pharamp (https://tatoeba.org/en/sentences/show/374478); español #2964 por Shishir (https://tatoeba.org/en/sentences/show/2964) — CC BY 2.0 FR
 - s_374485: italiano #374485 por Pharamp (https://tatoeba.org/en/sentences/show/374485); español #356814 por tatoerique (https://tatoeba.org/en/sentences/show/356814) — CC BY 2.0 FR
 - s_374491: italiano #374491 por Pharamp (https://tatoeba.org/en/sentences/show/374491); español #345187 por tatoerique (https://tatoeba.org/en/sentences/show/345187) — CC BY 2.0 FR
@@ -2074,6 +2248,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_3747611: italiano #3747611 por Guybrush88 (https://tatoeba.org/en/sentences/show/3747611); español #937799 por darinmex (https://tatoeba.org/en/sentences/show/937799) — CC BY 2.0 FR
 - s_375025: italiano #375025 por Pharamp (https://tatoeba.org/en/sentences/show/375025); español #1333680 por Shishir (https://tatoeba.org/en/sentences/show/1333680) — CC BY 2.0 FR
 - s_375232: italiano #375232 por Pharamp (https://tatoeba.org/en/sentences/show/375232); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_375238: italiano #375238 por Pharamp (https://tatoeba.org/en/sentences/show/375238); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_375243: italiano #375243 por Pharamp (https://tatoeba.org/en/sentences/show/375243); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_375247: italiano #375247 por Pharamp (https://tatoeba.org/en/sentences/show/375247); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_375297: italiano #375297 por Pharamp (https://tatoeba.org/en/sentences/show/375297); español #645078 por darinmex (https://tatoeba.org/en/sentences/show/645078) — CC BY 2.0 FR
@@ -2081,9 +2256,11 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_375307: italiano #375307 por Pharamp (https://tatoeba.org/en/sentences/show/375307); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_375345: italiano #375345 por Pharamp (https://tatoeba.org/en/sentences/show/375345); español #1327949 por marcelostockle (https://tatoeba.org/en/sentences/show/1327949) — CC BY 2.0 FR
 - s_375355: italiano #375355 por Pharamp (https://tatoeba.org/en/sentences/show/375355); español #2687 por Shishir (https://tatoeba.org/en/sentences/show/2687) — CC BY 2.0 FR
+- s_375359: italiano #375359 por Pharamp (https://tatoeba.org/en/sentences/show/375359); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_375457: italiano #375457 por Pharamp (https://tatoeba.org/en/sentences/show/375457); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_375460: italiano #375460 por Pharamp (https://tatoeba.org/en/sentences/show/375460); español #811439 por darinmex (https://tatoeba.org/en/sentences/show/811439) — CC BY 2.0 FR
 - s_375462: italiano #375462 por Pharamp (https://tatoeba.org/en/sentences/show/375462); español #501964 por Shishir (https://tatoeba.org/en/sentences/show/501964) — CC BY 2.0 FR
+- s_375467: italiano #375467 por Pharamp (https://tatoeba.org/en/sentences/show/375467); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3755903: italiano #3755903 por Guybrush88 (https://tatoeba.org/en/sentences/show/3755903); español #2789840 por marcelostockle (https://tatoeba.org/en/sentences/show/2789840) — CC BY 2.0 FR
 - s_375606: italiano #375606 por Pharamp (https://tatoeba.org/en/sentences/show/375606); español #755906 por marcelostockle (https://tatoeba.org/en/sentences/show/755906) — CC BY 2.0 FR
 - s_375621: italiano #375621 por Pharamp (https://tatoeba.org/en/sentences/show/375621); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2108,11 +2285,14 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_375783: italiano #375783 por Pharamp (https://tatoeba.org/en/sentences/show/375783); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3758699: italiano #3758699 por Guybrush88 (https://tatoeba.org/en/sentences/show/3758699); español #8427228 por Ricardo14 (https://tatoeba.org/en/sentences/show/8427228) — CC BY 2.0 FR
 - s_3758947: italiano #3758947 por Guybrush88 (https://tatoeba.org/en/sentences/show/3758947); español #652393 por darinmex (https://tatoeba.org/en/sentences/show/652393) — CC BY 2.0 FR
+- s_3758991: italiano #3758991 por Guybrush88 (https://tatoeba.org/en/sentences/show/3758991); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3761237: italiano #3761237 por Guybrush88 (https://tatoeba.org/en/sentences/show/3761237); español #336757 por kylecito (https://tatoeba.org/en/sentences/show/336757) — CC BY 2.0 FR
 - s_376163: italiano #376163 por martin (https://tatoeba.org/en/sentences/show/376163); español #632665 por Shishir (https://tatoeba.org/en/sentences/show/632665) — CC BY 2.0 FR
 - s_376167: italiano #376167 por martin (https://tatoeba.org/en/sentences/show/376167); español #831918 por DanaDescalza (https://tatoeba.org/en/sentences/show/831918) — CC BY 2.0 FR
 - s_376530: italiano #376530 por Pharamp (https://tatoeba.org/en/sentences/show/376530); español #1797010 por Shishir (https://tatoeba.org/en/sentences/show/1797010) — CC BY 2.0 FR
 - s_376538: italiano #376538 por Pharamp (https://tatoeba.org/en/sentences/show/376538); español #536313 por Shishir (https://tatoeba.org/en/sentences/show/536313) — CC BY 2.0 FR
 - s_376558: italiano #376558 por Pharamp (https://tatoeba.org/en/sentences/show/376558); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_376568: italiano #376568 por Pharamp (https://tatoeba.org/en/sentences/show/376568); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_376573: italiano #376573 por Pharamp (https://tatoeba.org/en/sentences/show/376573); español #985578 por hayastan (https://tatoeba.org/en/sentences/show/985578) — CC BY 2.0 FR
 - s_376577: italiano #376577 por Pharamp (https://tatoeba.org/en/sentences/show/376577); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_376579: italiano #376579 por Pharamp (https://tatoeba.org/en/sentences/show/376579); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2139,6 +2319,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_377220: italiano #377220 por Pharamp (https://tatoeba.org/en/sentences/show/377220); español #496843 por Shishir (https://tatoeba.org/en/sentences/show/496843) — CC BY 2.0 FR
 - s_377251: italiano #377251 por Pharamp (https://tatoeba.org/en/sentences/show/377251); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_377254: italiano #377254 por Pharamp (https://tatoeba.org/en/sentences/show/377254); español #955344 por cueyayotl (https://tatoeba.org/en/sentences/show/955344) — CC BY 2.0 FR
+- s_377272: italiano #377272 por Pharamp (https://tatoeba.org/en/sentences/show/377272); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_377280: italiano #377280 por Pharamp (https://tatoeba.org/en/sentences/show/377280); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_377289: italiano #377289 por Pharamp (https://tatoeba.org/en/sentences/show/377289); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_377299: italiano #377299 por Pharamp (https://tatoeba.org/en/sentences/show/377299); español #1627385 por marcelostockle (https://tatoeba.org/en/sentences/show/1627385) — CC BY 2.0 FR
@@ -2147,7 +2328,11 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_3775495: italiano #3775495 por Guybrush88 (https://tatoeba.org/en/sentences/show/3775495); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3775496: italiano #3775496 por Guybrush88 (https://tatoeba.org/en/sentences/show/3775496); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_377559: italiano #377559 por Pharamp (https://tatoeba.org/en/sentences/show/377559); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_377563: italiano #377563 por Pharamp (https://tatoeba.org/en/sentences/show/377563); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_377565: italiano #377565 por Pharamp (https://tatoeba.org/en/sentences/show/377565); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_377566: italiano #377566 por Pharamp (https://tatoeba.org/en/sentences/show/377566); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_377590: italiano #377590 por Pharamp (https://tatoeba.org/en/sentences/show/377590); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_377637: italiano #377637 por Pharamp (https://tatoeba.org/en/sentences/show/377637); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3776429: italiano #3776429 por Guybrush88 (https://tatoeba.org/en/sentences/show/3776429); español #4340937 por DarkHollow (https://tatoeba.org/en/sentences/show/4340937) — CC BY 2.0 FR
 - s_377645: italiano #377645 por Pharamp (https://tatoeba.org/en/sentences/show/377645); español #1594311 por hayastan (https://tatoeba.org/en/sentences/show/1594311) — CC BY 2.0 FR
 - s_3778384: italiano #3778384 por Guybrush88 (https://tatoeba.org/en/sentences/show/3778384); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2162,15 +2347,20 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_378140: italiano #378140 por Pharamp (https://tatoeba.org/en/sentences/show/378140); español #1004263 por hayastan (https://tatoeba.org/en/sentences/show/1004263) — CC BY 2.0 FR
 - s_378148: italiano #378148 por Pharamp (https://tatoeba.org/en/sentences/show/378148); español #622386 por arashi_29 (https://tatoeba.org/en/sentences/show/622386) — CC BY 2.0 FR
 - s_378150: italiano #378150 por Pharamp (https://tatoeba.org/en/sentences/show/378150); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_378160: italiano #378160 por Pharamp (https://tatoeba.org/en/sentences/show/378160); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_378176: italiano #378176 por Pharamp (https://tatoeba.org/en/sentences/show/378176); español #642346 por Leono (https://tatoeba.org/en/sentences/show/642346) — CC BY 2.0 FR
+- s_378177: italiano #378177 por Pharamp (https://tatoeba.org/en/sentences/show/378177); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_378178: italiano #378178 por Pharamp (https://tatoeba.org/en/sentences/show/378178); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3783546: italiano #3783546 por Guybrush88 (https://tatoeba.org/en/sentences/show/3783546); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3783835: italiano #3783835 por Guybrush88 (https://tatoeba.org/en/sentences/show/3783835); español #10611187 por saverius (https://tatoeba.org/en/sentences/show/10611187) — CC BY 2.0 FR
 - s_3783839: italiano #3783839 por Guybrush88 (https://tatoeba.org/en/sentences/show/3783839); español #10611242 por saverius (https://tatoeba.org/en/sentences/show/10611242) — CC BY 2.0 FR
 - s_378656: italiano #378656 por Pharamp (https://tatoeba.org/en/sentences/show/378656); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_378681: italiano #378681 por Pharamp (https://tatoeba.org/en/sentences/show/378681); español #522951 por Shishir (https://tatoeba.org/en/sentences/show/522951) — CC BY 2.0 FR
 - s_378685: italiano #378685 por Pharamp (https://tatoeba.org/en/sentences/show/378685); español #1869066 por Shishir (https://tatoeba.org/en/sentences/show/1869066) — CC BY 2.0 FR
+- s_378689: italiano #378689 por Pharamp (https://tatoeba.org/en/sentences/show/378689); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_378696: italiano #378696 por Pharamp (https://tatoeba.org/en/sentences/show/378696); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_378697: italiano #378697 por Pharamp (https://tatoeba.org/en/sentences/show/378697); español #867438 por Tux (https://tatoeba.org/en/sentences/show/867438) — CC BY 2.0 FR
+- s_378700: italiano #378700 por Pharamp (https://tatoeba.org/en/sentences/show/378700); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3787018: italiano #3787018 por Guybrush88 (https://tatoeba.org/en/sentences/show/3787018); español #3212804 por marcelostockle (https://tatoeba.org/en/sentences/show/3212804) — CC BY 2.0 FR
 - s_378709: italiano #378709 por Pharamp (https://tatoeba.org/en/sentences/show/378709); español #1077397 por hayastan (https://tatoeba.org/en/sentences/show/1077397) — CC BY 2.0 FR
 - s_378847: italiano #378847 por Pharamp (https://tatoeba.org/en/sentences/show/378847); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2179,6 +2369,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_378854: italiano #378854 por Pharamp (https://tatoeba.org/en/sentences/show/378854); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_378859: italiano #378859 por Pharamp (https://tatoeba.org/en/sentences/show/378859); español #536100 por darinmex (https://tatoeba.org/en/sentences/show/536100) — CC BY 2.0 FR
 - s_378865: italiano #378865 por Pharamp (https://tatoeba.org/en/sentences/show/378865); español #544018 por Shishir (https://tatoeba.org/en/sentences/show/544018) — CC BY 2.0 FR
+- s_378887: italiano #378887 por Pharamp (https://tatoeba.org/en/sentences/show/378887); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_378899: italiano #378899 por Pharamp (https://tatoeba.org/en/sentences/show/378899); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3790343: italiano #3790343 por Guybrush88 (https://tatoeba.org/en/sentences/show/3790343); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_379137: italiano #379137 por Pharamp (https://tatoeba.org/en/sentences/show/379137); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2205,6 +2396,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_379734: italiano #379734 por Pharamp (https://tatoeba.org/en/sentences/show/379734); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_379738: italiano #379738 por Pharamp (https://tatoeba.org/en/sentences/show/379738); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_379758: italiano #379758 por Pharamp (https://tatoeba.org/en/sentences/show/379758); español #958532 por hundo (https://tatoeba.org/en/sentences/show/958532) — CC BY 2.0 FR
+- s_379778: italiano #379778 por Pharamp (https://tatoeba.org/en/sentences/show/379778); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_379882: italiano #379882 por Pharamp (https://tatoeba.org/en/sentences/show/379882); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3800021: italiano #3800021 por Guybrush88 (https://tatoeba.org/en/sentences/show/3800021); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_380183: italiano #380183 por Pharamp (https://tatoeba.org/en/sentences/show/380183); español #702993 por andresevargas (https://tatoeba.org/en/sentences/show/702993) — CC BY 2.0 FR
@@ -2218,20 +2410,26 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_380448: italiano #380448 por Pharamp (https://tatoeba.org/en/sentences/show/380448); español #2941 por Shishir (https://tatoeba.org/en/sentences/show/2941) — CC BY 2.0 FR
 - s_380459: italiano #380459 por Pharamp (https://tatoeba.org/en/sentences/show/380459); español #329949 por tatoerique (https://tatoeba.org/en/sentences/show/329949) — CC BY 2.0 FR
 - s_380537: italiano #380537 por Pharamp (https://tatoeba.org/en/sentences/show/380537); español #2884 por Shishir (https://tatoeba.org/en/sentences/show/2884) — CC BY 2.0 FR
+- s_380622: italiano #380622 por Pharamp (https://tatoeba.org/en/sentences/show/380622); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_380649: italiano #380649 por Pharamp (https://tatoeba.org/en/sentences/show/380649); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_380653: italiano #380653 por Pharamp (https://tatoeba.org/en/sentences/show/380653); español #669985 por darinmex (https://tatoeba.org/en/sentences/show/669985) — CC BY 2.0 FR
 - s_380660: italiano #380660 por Pharamp (https://tatoeba.org/en/sentences/show/380660); español #354937 por tatoerique (https://tatoeba.org/en/sentences/show/354937) — CC BY 2.0 FR
 - s_380662: italiano #380662 por Pharamp (https://tatoeba.org/en/sentences/show/380662); español #2744 por Shishir (https://tatoeba.org/en/sentences/show/2744) — CC BY 2.0 FR
 - s_380667: italiano #380667 por Pharamp (https://tatoeba.org/en/sentences/show/380667); español #336816 por karacola (https://tatoeba.org/en/sentences/show/336816) — CC BY 2.0 FR
 - s_380758: italiano #380758 por Pharamp (https://tatoeba.org/en/sentences/show/380758); español #1016221 por hayastan (https://tatoeba.org/en/sentences/show/1016221) — CC BY 2.0 FR
+- s_3808104: italiano #3808104 por Guybrush88 (https://tatoeba.org/en/sentences/show/3808104); español #4587013 por cueyayotl (https://tatoeba.org/en/sentences/show/4587013) — CC BY 2.0 FR
 - s_380817: italiano #380817 por Pharamp (https://tatoeba.org/en/sentences/show/380817); español #537735 por Shishir (https://tatoeba.org/en/sentences/show/537735) — CC BY 2.0 FR
+- s_380824: italiano #380824 por Pharamp (https://tatoeba.org/en/sentences/show/380824); español #1595434 por Shishir (https://tatoeba.org/en/sentences/show/1595434) — CC BY 2.0 FR
 - s_381163: italiano #381163 por Pharamp (https://tatoeba.org/en/sentences/show/381163); español #505963 por darinmex (https://tatoeba.org/en/sentences/show/505963) — CC BY 2.0 FR
 - s_381212: italiano #381212 por ver (https://tatoeba.org/en/sentences/show/381212); español #491168 por Shishir (https://tatoeba.org/en/sentences/show/491168) — CC BY 2.0 FR
 - s_381431: italiano #381431 por Pharamp (https://tatoeba.org/en/sentences/show/381431); español #863744 por felipeselles (https://tatoeba.org/en/sentences/show/863744) — CC BY 2.0 FR
+- s_381446: italiano #381446 por Pharamp (https://tatoeba.org/en/sentences/show/381446); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3814626: italiano #3814626 por Johnny2014 (https://tatoeba.org/en/sentences/show/3814626); español #4622850 por emigonza (https://tatoeba.org/en/sentences/show/4622850) — CC BY 2.0 FR
 - s_381807: italiano #381807 por Pharamp (https://tatoeba.org/en/sentences/show/381807); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_381850: italiano #381850 por Pharamp (https://tatoeba.org/en/sentences/show/381850); español #342879 por tatoerique (https://tatoeba.org/en/sentences/show/342879) — CC BY 2.0 FR
+- s_381869: italiano #381869 por Pharamp (https://tatoeba.org/en/sentences/show/381869); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_381874: italiano #381874 por Pharamp (https://tatoeba.org/en/sentences/show/381874); español #337098 por kylecito (https://tatoeba.org/en/sentences/show/337098) — CC BY 2.0 FR
+- s_382051: italiano #382051 por Pharamp (https://tatoeba.org/en/sentences/show/382051); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_382052: italiano #382052 por Pharamp (https://tatoeba.org/en/sentences/show/382052); español #1332405 por Shishir (https://tatoeba.org/en/sentences/show/1332405) — CC BY 2.0 FR
 - s_382141: italiano #382141 por Pharamp (https://tatoeba.org/en/sentences/show/382141); español #1321926 por Shishir (https://tatoeba.org/en/sentences/show/1321926) — CC BY 2.0 FR
 - s_382189: italiano #382189 por Pharamp (https://tatoeba.org/en/sentences/show/382189); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2255,6 +2453,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_3836485: italiano #3836485 por Guybrush88 (https://tatoeba.org/en/sentences/show/3836485); español #12190761 por Adelpa (https://tatoeba.org/en/sentences/show/12190761) — CC BY 2.0 FR
 - s_383740: italiano #383740 por Pharamp (https://tatoeba.org/en/sentences/show/383740); español #2899 por Shishir (https://tatoeba.org/en/sentences/show/2899) — CC BY 2.0 FR
 - s_383745: italiano #383745 por Pharamp (https://tatoeba.org/en/sentences/show/383745); español #336522 por kylecito (https://tatoeba.org/en/sentences/show/336522) — CC BY 2.0 FR
+- s_383776: italiano #383776 por Pharamp (https://tatoeba.org/en/sentences/show/383776); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3838494: italiano #3838494 por Guybrush88 (https://tatoeba.org/en/sentences/show/3838494); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_383948: italiano #383948 por Pharamp (https://tatoeba.org/en/sentences/show/383948); español #1527879 por marcelostockle (https://tatoeba.org/en/sentences/show/1527879) — CC BY 2.0 FR
 - s_3842576: italiano #3842576 por valealb (https://tatoeba.org/en/sentences/show/3842576); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2302,12 +2501,17 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_3883769: italiano #3883769 por Guybrush88 (https://tatoeba.org/en/sentences/show/3883769); español #10358696 por DJ_Saidez (https://tatoeba.org/en/sentences/show/10358696) — CC BY 2.0 FR
 - s_388482: italiano #388482 por Pharamp (https://tatoeba.org/en/sentences/show/388482); español #3027 por Fanki (https://tatoeba.org/en/sentences/show/3027) — CC BY 2.0 FR
 - s_388484: italiano #388484 por Pharamp (https://tatoeba.org/en/sentences/show/388484); español #3029 por Shishir (https://tatoeba.org/en/sentences/show/3029) — CC BY 2.0 FR
+- s_3884912: italiano #3884912 por valealb (https://tatoeba.org/en/sentences/show/3884912); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_3884947: italiano #3884947 por valealb (https://tatoeba.org/en/sentences/show/3884947); español #10460510 por Shishir (https://tatoeba.org/en/sentences/show/10460510) — CC BY 2.0 FR
 - s_388508: italiano #388508 por Pharamp (https://tatoeba.org/en/sentences/show/388508); español #436864 por lukaszpp (https://tatoeba.org/en/sentences/show/436864) — CC BY 2.0 FR
+- s_388769: italiano #388769 por Pharamp (https://tatoeba.org/en/sentences/show/388769); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_388782: italiano #388782 por Pharamp (https://tatoeba.org/en/sentences/show/388782); español #3008 por Shishir (https://tatoeba.org/en/sentences/show/3008) — CC BY 2.0 FR
 - s_388788: italiano #388788 por Pharamp (https://tatoeba.org/en/sentences/show/388788); español #388793 por hayastan (https://tatoeba.org/en/sentences/show/388793) — CC BY 2.0 FR
 - s_388789: italiano #388789 por Pharamp (https://tatoeba.org/en/sentences/show/388789); español #3037 por Shishir (https://tatoeba.org/en/sentences/show/3037) — CC BY 2.0 FR
 - s_388801: italiano #388801 por Pharamp (https://tatoeba.org/en/sentences/show/388801); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_388805: italiano #388805 por Pharamp (https://tatoeba.org/en/sentences/show/388805); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_388816: italiano #388816 por Pharamp (https://tatoeba.org/en/sentences/show/388816); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_388817: italiano #388817 por Pharamp (https://tatoeba.org/en/sentences/show/388817); español #2631 por Shishir (https://tatoeba.org/en/sentences/show/2631) — CC BY 2.0 FR
 - s_389110: italiano #389110 por Pharamp (https://tatoeba.org/en/sentences/show/389110); español #715760 por anassara (https://tatoeba.org/en/sentences/show/715760) — CC BY 2.0 FR
 - s_3891881: italiano #3891881 por Guybrush88 (https://tatoeba.org/en/sentences/show/3891881); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3892338: italiano #3892338 por Guybrush88 (https://tatoeba.org/en/sentences/show/3892338); español #2907450 por rodolforr (https://tatoeba.org/en/sentences/show/2907450) — CC BY 2.0 FR
@@ -2321,6 +2525,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_3901366: italiano #3901366 por rado (https://tatoeba.org/en/sentences/show/3901366); español #11996324 por Adelpa (https://tatoeba.org/en/sentences/show/11996324) — CC BY 2.0 FR
 - s_390581: italiano #390581 por Pharamp (https://tatoeba.org/en/sentences/show/390581); español #329816 por hayastan (https://tatoeba.org/en/sentences/show/329816) — CC BY 2.0 FR
 - s_390623: italiano #390623 por Pharamp (https://tatoeba.org/en/sentences/show/390623); español #2073235 por marcelostockle (https://tatoeba.org/en/sentences/show/2073235) — CC BY 2.0 FR
+- s_390650: italiano #390650 por Pharamp (https://tatoeba.org/en/sentences/show/390650); español #795884 por Shishir (https://tatoeba.org/en/sentences/show/795884) — CC BY 2.0 FR
 - s_391177: italiano #391177 por Pharamp (https://tatoeba.org/en/sentences/show/391177); español #2079169 por kjono (https://tatoeba.org/en/sentences/show/2079169) — CC BY 2.0 FR
 - s_392465: italiano #392465 por Pharamp (https://tatoeba.org/en/sentences/show/392465); español #455028 por Shishir (https://tatoeba.org/en/sentences/show/455028) — CC BY 2.0 FR
 - s_3925057: italiano #3925057 por Guybrush88 (https://tatoeba.org/en/sentences/show/3925057); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2338,6 +2543,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_395944: italiano #395944 por Pharamp (https://tatoeba.org/en/sentences/show/395944); español #512424 por Shishir (https://tatoeba.org/en/sentences/show/512424) — CC BY 2.0 FR
 - s_395970: italiano #395970 por Pharamp (https://tatoeba.org/en/sentences/show/395970); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_396055: italiano #396055 por Pharamp (https://tatoeba.org/en/sentences/show/396055); español #346304 por tatoerique (https://tatoeba.org/en/sentences/show/346304) — CC BY 2.0 FR
+- s_396597: italiano #396597 por Pharamp (https://tatoeba.org/en/sentences/show/396597); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_3966973: italiano #3966973 por Guybrush88 (https://tatoeba.org/en/sentences/show/3966973); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_398002: italiano #398002 por Pharamp (https://tatoeba.org/en/sentences/show/398002); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_398121: italiano #398121 por Pharamp (https://tatoeba.org/en/sentences/show/398121); español #979064 por hayastan (https://tatoeba.org/en/sentences/show/979064) — CC BY 2.0 FR
@@ -2367,6 +2573,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_4007802: italiano #4007802 por valealb (https://tatoeba.org/en/sentences/show/4007802); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_401031: italiano #401031 por Pharamp (https://tatoeba.org/en/sentences/show/401031); español #356234 por yorickvidal (https://tatoeba.org/en/sentences/show/356234) — CC BY 2.0 FR
 - s_401195: italiano #401195 por Pharamp (https://tatoeba.org/en/sentences/show/401195); español #858828 por manufrutos (https://tatoeba.org/en/sentences/show/858828) — CC BY 2.0 FR
+- s_401787: italiano #401787 por Pharamp (https://tatoeba.org/en/sentences/show/401787); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4019979: italiano #4019979 por valealb (https://tatoeba.org/en/sentences/show/4019979); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4024799: italiano #4024799 por Guybrush88 (https://tatoeba.org/en/sentences/show/4024799); español #4050780 por hayastan (https://tatoeba.org/en/sentences/show/4050780) — CC BY 2.0 FR
 - s_4028694: italiano #4028694 por Guybrush88 (https://tatoeba.org/en/sentences/show/4028694); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2383,28 +2590,34 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_4090619: italiano #4090619 por Guybrush88 (https://tatoeba.org/en/sentences/show/4090619); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4090956: italiano #4090956 por Guybrush88 (https://tatoeba.org/en/sentences/show/4090956); español #871446 por Kokoo (https://tatoeba.org/en/sentences/show/871446) — CC BY 2.0 FR
 - s_409370: italiano #409370 por shoras (https://tatoeba.org/en/sentences/show/409370); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_409382: italiano #409382 por shoras (https://tatoeba.org/en/sentences/show/409382); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_409423: italiano #409423 por Pharamp (https://tatoeba.org/en/sentences/show/409423); español #656878 por Shishir (https://tatoeba.org/en/sentences/show/656878) — CC BY 2.0 FR
 - s_409445: italiano #409445 por shoras (https://tatoeba.org/en/sentences/show/409445); español #521885 por Shishir (https://tatoeba.org/en/sentences/show/521885) — CC BY 2.0 FR
+- s_409489: italiano #409489 por shoras (https://tatoeba.org/en/sentences/show/409489); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_409512: italiano #409512 por shoras (https://tatoeba.org/en/sentences/show/409512); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_409513: italiano #409513 por Pharamp (https://tatoeba.org/en/sentences/show/409513); español #727558 por darinmex (https://tatoeba.org/en/sentences/show/727558) — CC BY 2.0 FR
 - s_409559: italiano #409559 por Pharamp (https://tatoeba.org/en/sentences/show/409559); español #355715 por yorickvidal (https://tatoeba.org/en/sentences/show/355715) — CC BY 2.0 FR
 - s_409583: italiano #409583 por shoras (https://tatoeba.org/en/sentences/show/409583); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_409592: italiano #409592 por shoras (https://tatoeba.org/en/sentences/show/409592); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_409594: italiano #409594 por shoras (https://tatoeba.org/en/sentences/show/409594); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_409814: italiano #409814 por shoras (https://tatoeba.org/en/sentences/show/409814); español #940748 por Shishir (https://tatoeba.org/en/sentences/show/940748) — CC BY 2.0 FR
 - s_409847: italiano #409847 por Pharamp (https://tatoeba.org/en/sentences/show/409847); español #409756 por cueyayotl (https://tatoeba.org/en/sentences/show/409756) — CC BY 2.0 FR
 - s_409884: italiano #409884 por Pharamp (https://tatoeba.org/en/sentences/show/409884); español #2858 por Zifre (https://tatoeba.org/en/sentences/show/2858) — CC BY 2.0 FR
 - s_4100812: italiano #4100812 por Guybrush88 (https://tatoeba.org/en/sentences/show/4100812); español #9177831 por eltacodemex (https://tatoeba.org/en/sentences/show/9177831) — CC BY 2.0 FR
 - s_410216: italiano #410216 por shoras (https://tatoeba.org/en/sentences/show/410216); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_410237: italiano #410237 por Pharamp (https://tatoeba.org/en/sentences/show/410237); español #718844 por Shishir (https://tatoeba.org/en/sentences/show/718844) — CC BY 2.0 FR
 - s_410242: italiano #410242 por Pharamp (https://tatoeba.org/en/sentences/show/410242); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_410260: italiano #410260 por shoras (https://tatoeba.org/en/sentences/show/410260); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_410587: italiano #410587 por shoras (https://tatoeba.org/en/sentences/show/410587); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4106066: italiano #4106066 por Guybrush88 (https://tatoeba.org/en/sentences/show/4106066); español #2755604 por wallebot (https://tatoeba.org/en/sentences/show/2755604) — CC BY 2.0 FR
 - s_4107759: italiano #4107759 por Guybrush88 (https://tatoeba.org/en/sentences/show/4107759); español #2739994 por emanuel81 (https://tatoeba.org/en/sentences/show/2739994) — CC BY 2.0 FR
 - s_410793: italiano #410793 por shoras (https://tatoeba.org/en/sentences/show/410793); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_410803: italiano #410803 por shoras (https://tatoeba.org/en/sentences/show/410803); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_410816: italiano #410816 por shoras (https://tatoeba.org/en/sentences/show/410816); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_4108291: italiano #4108291 por tiramisu (https://tatoeba.org/en/sentences/show/4108291); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_410849: italiano #410849 por shoras (https://tatoeba.org/en/sentences/show/410849); español #951251 por hundo (https://tatoeba.org/en/sentences/show/951251) — CC BY 2.0 FR
 - s_4108682: italiano #4108682 por tiramisu (https://tatoeba.org/en/sentences/show/4108682); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_410947: italiano #410947 por Pharamp (https://tatoeba.org/en/sentences/show/410947); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_411442: italiano #411442 por shoras (https://tatoeba.org/en/sentences/show/411442); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_411802: italiano #411802 por shoras (https://tatoeba.org/en/sentences/show/411802); español #712267 por Shishir (https://tatoeba.org/en/sentences/show/712267) — CC BY 2.0 FR
 - s_411808: italiano #411808 por shoras (https://tatoeba.org/en/sentences/show/411808); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2416,6 +2629,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_4140535: italiano #4140535 por Guybrush88 (https://tatoeba.org/en/sentences/show/4140535); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_414470: italiano #414470 por shoras (https://tatoeba.org/en/sentences/show/414470); español #514850 por Shishir (https://tatoeba.org/en/sentences/show/514850) — CC BY 2.0 FR
 - s_414476: italiano #414476 por shoras (https://tatoeba.org/en/sentences/show/414476); español #1396133 por hayastan (https://tatoeba.org/en/sentences/show/1396133) — CC BY 2.0 FR
+- s_414478: italiano #414478 por shoras (https://tatoeba.org/en/sentences/show/414478); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4146480: italiano #4146480 por Guybrush88 (https://tatoeba.org/en/sentences/show/4146480); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4150324: italiano #4150324 por Guybrush88 (https://tatoeba.org/en/sentences/show/4150324); español #6992314 por cueyayotl (https://tatoeba.org/en/sentences/show/6992314) — CC BY 2.0 FR
 - s_415480: italiano #415480 por shoras (https://tatoeba.org/en/sentences/show/415480); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2427,6 +2641,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_4166822: italiano #4166822 por Guybrush88 (https://tatoeba.org/en/sentences/show/4166822); español #4387902 por saverius (https://tatoeba.org/en/sentences/show/4387902) — CC BY 2.0 FR
 - s_4167171: italiano #4167171 por valealb (https://tatoeba.org/en/sentences/show/4167171); español #1319749 por massama (https://tatoeba.org/en/sentences/show/1319749) — CC BY 2.0 FR
 - s_4167344: italiano #4167344 por Guybrush88 (https://tatoeba.org/en/sentences/show/4167344); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_417031: italiano #417031 por shoras (https://tatoeba.org/en/sentences/show/417031); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4173361: italiano #4173361 por Guybrush88 (https://tatoeba.org/en/sentences/show/4173361); español #4559280 por cueyayotl (https://tatoeba.org/en/sentences/show/4559280) — CC BY 2.0 FR
 - s_417523: italiano #417523 por meursault (https://tatoeba.org/en/sentences/show/417523); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4176581: italiano #4176581 por Guybrush88 (https://tatoeba.org/en/sentences/show/4176581); español #1807865 por Shishir (https://tatoeba.org/en/sentences/show/1807865) — CC BY 2.0 FR
@@ -2445,9 +2660,11 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_4208546: italiano #4208546 por Guybrush88 (https://tatoeba.org/en/sentences/show/4208546); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4208668: italiano #4208668 por Guybrush88 (https://tatoeba.org/en/sentences/show/4208668); español #10358696 por DJ_Saidez (https://tatoeba.org/en/sentences/show/10358696) — CC BY 2.0 FR
 - s_4209586: italiano #4209586 por Guybrush88 (https://tatoeba.org/en/sentences/show/4209586); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_4217875: italiano #4217875 por BEASY8 (https://tatoeba.org/en/sentences/show/4217875); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_422360: italiano #422360 por phiz (https://tatoeba.org/en/sentences/show/422360); español #1033303 por hayastan (https://tatoeba.org/en/sentences/show/1033303) — CC BY 2.0 FR
 - s_422373: italiano #422373 por phiz (https://tatoeba.org/en/sentences/show/422373); español #431770 por Leono (https://tatoeba.org/en/sentences/show/431770) — CC BY 2.0 FR
 - s_4226433: italiano #4226433 por Guybrush88 (https://tatoeba.org/en/sentences/show/4226433); español #4550537 por cueyayotl (https://tatoeba.org/en/sentences/show/4550537) — CC BY 2.0 FR
+- s_4226660: italiano #4226660 por BEASY8 (https://tatoeba.org/en/sentences/show/4226660); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4226760: italiano #4226760 por Guybrush88 (https://tatoeba.org/en/sentences/show/4226760); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4227895: italiano #4227895 por Guybrush88 (https://tatoeba.org/en/sentences/show/4227895); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4227899: italiano #4227899 por Guybrush88 (https://tatoeba.org/en/sentences/show/4227899); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2461,6 +2678,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_4242613: italiano #4242613 por Guybrush88 (https://tatoeba.org/en/sentences/show/4242613); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4242931: italiano #4242931 por Guybrush88 (https://tatoeba.org/en/sentences/show/4242931); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4243177: italiano #4243177 por Guybrush88 (https://tatoeba.org/en/sentences/show/4243177); español #13714381 por ecorralest101 (https://tatoeba.org/en/sentences/show/13714381) — CC BY 2.0 FR
+- s_4243995: italiano #4243995 por Guybrush88 (https://tatoeba.org/en/sentences/show/4243995); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4244280: italiano #4244280 por Guybrush88 (https://tatoeba.org/en/sentences/show/4244280); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_425386: italiano #425386 por Pharamp (https://tatoeba.org/en/sentences/show/425386); español #563692 por Shishir (https://tatoeba.org/en/sentences/show/563692) — CC BY 2.0 FR
 - s_425582: italiano #425582 por shoras (https://tatoeba.org/en/sentences/show/425582); español #959383 por hundo (https://tatoeba.org/en/sentences/show/959383) — CC BY 2.0 FR
@@ -2470,6 +2688,10 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_425756: italiano #425756 por Pharamp (https://tatoeba.org/en/sentences/show/425756); español #1296482 por marcelostockle (https://tatoeba.org/en/sentences/show/1296482) — CC BY 2.0 FR
 - s_425792: italiano #425792 por Pharamp (https://tatoeba.org/en/sentences/show/425792); español #609744 por arashi_29 (https://tatoeba.org/en/sentences/show/609744) — CC BY 2.0 FR
 - s_425879: italiano #425879 por Pharamp (https://tatoeba.org/en/sentences/show/425879); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_4260526: italiano #4260526 por Guybrush88 (https://tatoeba.org/en/sentences/show/4260526); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_4260528: italiano #4260528 por Guybrush88 (https://tatoeba.org/en/sentences/show/4260528); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_4260531: italiano #4260531 por Guybrush88 (https://tatoeba.org/en/sentences/show/4260531); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_4261235: italiano #4261235 por BEASY8 (https://tatoeba.org/en/sentences/show/4261235); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_426183: italiano #426183 por Pharamp (https://tatoeba.org/en/sentences/show/426183); español #9913 por tatoerique (https://tatoeba.org/en/sentences/show/9913) — CC BY 2.0 FR
 - s_4262809: italiano #4262809 por bailujia (https://tatoeba.org/en/sentences/show/4262809); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4263976: italiano #4263976 por bailujia (https://tatoeba.org/en/sentences/show/4263976); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2487,8 +2709,10 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_428814: italiano #428814 por Pharamp (https://tatoeba.org/en/sentences/show/428814); español #1148450 por nancy (https://tatoeba.org/en/sentences/show/1148450) — CC BY 2.0 FR
 - s_428859: italiano #428859 por Pharamp (https://tatoeba.org/en/sentences/show/428859); español #590265 por Shishir (https://tatoeba.org/en/sentences/show/590265) — CC BY 2.0 FR
 - s_4297945: italiano #4297945 por Guybrush88 (https://tatoeba.org/en/sentences/show/4297945); español #2554 por Shishir (https://tatoeba.org/en/sentences/show/2554) — CC BY 2.0 FR
+- s_429813: italiano #429813 por Pharamp (https://tatoeba.org/en/sentences/show/429813); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_430078: italiano #430078 por Pharamp (https://tatoeba.org/en/sentences/show/430078); español #540313 por Shishir (https://tatoeba.org/en/sentences/show/540313) — CC BY 2.0 FR
 - s_430302: italiano #430302 por tiguliano (https://tatoeba.org/en/sentences/show/430302); español #672036 por darinmex (https://tatoeba.org/en/sentences/show/672036) — CC BY 2.0 FR
+- s_432028: italiano #432028 por Nox (https://tatoeba.org/en/sentences/show/432028); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4323125: italiano #4323125 por Guybrush88 (https://tatoeba.org/en/sentences/show/4323125); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_433049: italiano #433049 por Pharamp (https://tatoeba.org/en/sentences/show/433049); español #483365 por Eckhardtgabriel (https://tatoeba.org/en/sentences/show/483365) — CC BY 2.0 FR
 - s_433298: italiano #433298 por tiguliano (https://tatoeba.org/en/sentences/show/433298); español #499702 por Shishir (https://tatoeba.org/en/sentences/show/499702) — CC BY 2.0 FR
@@ -2530,6 +2754,8 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_4408264: italiano #4408264 por Guybrush88 (https://tatoeba.org/en/sentences/show/4408264); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4413: italiano #4413 por Pharamp (https://tatoeba.org/en/sentences/show/4413); español #2813 por Shishir (https://tatoeba.org/en/sentences/show/2813) — CC BY 2.0 FR
 - s_441368: italiano #441368 por Pharamp (https://tatoeba.org/en/sentences/show/441368); español #436484 por lukaszpp (https://tatoeba.org/en/sentences/show/436484) — CC BY 2.0 FR
+- s_4415930: italiano #4415930 por Guybrush88 (https://tatoeba.org/en/sentences/show/4415930); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_4415932: italiano #4415932 por Guybrush88 (https://tatoeba.org/en/sentences/show/4415932); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4420668: italiano #4420668 por Guybrush88 (https://tatoeba.org/en/sentences/show/4420668); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4420703: italiano #4420703 por Guybrush88 (https://tatoeba.org/en/sentences/show/4420703); español #10551816 por Seael (https://tatoeba.org/en/sentences/show/10551816) — CC BY 2.0 FR
 - s_4420797: italiano #4420797 por Guybrush88 (https://tatoeba.org/en/sentences/show/4420797); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2565,6 +2791,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_4471065: italiano #4471065 por Guybrush88 (https://tatoeba.org/en/sentences/show/4471065); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4471069: italiano #4471069 por Guybrush88 (https://tatoeba.org/en/sentences/show/4471069); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4472140: italiano #4472140 por Guybrush88 (https://tatoeba.org/en/sentences/show/4472140); español #13471691 por Seael (https://tatoeba.org/en/sentences/show/13471691) — CC BY 2.0 FR
+- s_4472340: italiano #4472340 por Guybrush88 (https://tatoeba.org/en/sentences/show/4472340); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4473727: italiano #4473727 por Guybrush88 (https://tatoeba.org/en/sentences/show/4473727); español #4473731 por cueyayotl (https://tatoeba.org/en/sentences/show/4473731) — CC BY 2.0 FR
 - s_4477: italiano #4477 por Guybrush88 (https://tatoeba.org/en/sentences/show/4477); español #2922 por Eldad (https://tatoeba.org/en/sentences/show/2922) — CC BY 2.0 FR
 - s_4477263: italiano #4477263 por Guybrush88 (https://tatoeba.org/en/sentences/show/4477263); español #9452959 por ignacio (https://tatoeba.org/en/sentences/show/9452959) — CC BY 2.0 FR
@@ -2597,6 +2824,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_4514284: italiano #4514284 por Guybrush88 (https://tatoeba.org/en/sentences/show/4514284); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4515467: italiano #4515467 por Guybrush88 (https://tatoeba.org/en/sentences/show/4515467); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4516020: italiano #4516020 por Sirio60 (https://tatoeba.org/en/sentences/show/4516020); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_4523622: italiano #4523622 por ianna (https://tatoeba.org/en/sentences/show/4523622); español #4739405 por ianna (https://tatoeba.org/en/sentences/show/4739405) — CC BY 2.0 FR
 - s_4525880: italiano #4525880 por Guybrush88 (https://tatoeba.org/en/sentences/show/4525880); español #4525903 por cueyayotl (https://tatoeba.org/en/sentences/show/4525903) — CC BY 2.0 FR
 - s_4525882: italiano #4525882 por Guybrush88 (https://tatoeba.org/en/sentences/show/4525882); español #4525904 por cueyayotl (https://tatoeba.org/en/sentences/show/4525904) — CC BY 2.0 FR
 - s_4525894: italiano #4525894 por Guybrush88 (https://tatoeba.org/en/sentences/show/4525894); español #4525920 por cueyayotl (https://tatoeba.org/en/sentences/show/4525920) — CC BY 2.0 FR
@@ -2612,6 +2840,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_4553342: italiano #4553342 por Guybrush88 (https://tatoeba.org/en/sentences/show/4553342); español #13745079 por Seael (https://tatoeba.org/en/sentences/show/13745079) — CC BY 2.0 FR
 - s_4562309: italiano #4562309 por Guybrush88 (https://tatoeba.org/en/sentences/show/4562309); español #1707586 por teskmon (https://tatoeba.org/en/sentences/show/1707586) — CC BY 2.0 FR
 - s_4565946: italiano #4565946 por JeanM (https://tatoeba.org/en/sentences/show/4565946); español #503274 por Leono (https://tatoeba.org/en/sentences/show/503274) — CC BY 2.0 FR
+- s_4569287: italiano #4569287 por Guybrush88 (https://tatoeba.org/en/sentences/show/4569287); español #9423028 por ignacio (https://tatoeba.org/en/sentences/show/9423028) — CC BY 2.0 FR
 - s_4570059: italiano #4570059 por Guybrush88 (https://tatoeba.org/en/sentences/show/4570059); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4570067: italiano #4570067 por Guybrush88 (https://tatoeba.org/en/sentences/show/4570067); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4570069: italiano #4570069 por Guybrush88 (https://tatoeba.org/en/sentences/show/4570069); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2623,6 +2852,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_4581472: italiano #4581472 por Guybrush88 (https://tatoeba.org/en/sentences/show/4581472); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4581507: italiano #4581507 por Guybrush88 (https://tatoeba.org/en/sentences/show/4581507); español #6484034 por jfranco15 (https://tatoeba.org/en/sentences/show/6484034) — CC BY 2.0 FR
 - s_4583120: italiano #4583120 por Guybrush88 (https://tatoeba.org/en/sentences/show/4583120); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_4583987: italiano #4583987 por Guybrush88 (https://tatoeba.org/en/sentences/show/4583987); español #12024548 por Viqui (https://tatoeba.org/en/sentences/show/12024548) — CC BY 2.0 FR
 - s_4585228: italiano #4585228 por Guybrush88 (https://tatoeba.org/en/sentences/show/4585228); español #589178 por Shishir (https://tatoeba.org/en/sentences/show/589178) — CC BY 2.0 FR
 - s_4587424: italiano #4587424 por Guybrush88 (https://tatoeba.org/en/sentences/show/4587424); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4593: italiano #4593 por Guybrush88 (https://tatoeba.org/en/sentences/show/4593); español #449784 por Shishir (https://tatoeba.org/en/sentences/show/449784) — CC BY 2.0 FR
@@ -2642,20 +2872,28 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_4636057: italiano #4636057 por Guybrush88 (https://tatoeba.org/en/sentences/show/4636057); español #4637234 por lawka (https://tatoeba.org/en/sentences/show/4637234) — CC BY 2.0 FR
 - s_4636276: italiano #4636276 por Guybrush88 (https://tatoeba.org/en/sentences/show/4636276); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4637368: italiano #4637368 por Guybrush88 (https://tatoeba.org/en/sentences/show/4637368); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_4639: italiano #4639 por Guybrush88 (https://tatoeba.org/en/sentences/show/4639); español #957071 por hundo (https://tatoeba.org/en/sentences/show/957071) — CC BY 2.0 FR
 - s_4641: italiano #4641 por Guybrush88 (https://tatoeba.org/en/sentences/show/4641); español #360366 por tatoerique (https://tatoeba.org/en/sentences/show/360366) — CC BY 2.0 FR
 - s_4641375: italiano #4641375 por Guybrush88 (https://tatoeba.org/en/sentences/show/4641375); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4641413: italiano #4641413 por Guybrush88 (https://tatoeba.org/en/sentences/show/4641413); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4642841: italiano #4642841 por Guybrush88 (https://tatoeba.org/en/sentences/show/4642841); español #1245294 por hayastan (https://tatoeba.org/en/sentences/show/1245294) — CC BY 2.0 FR
 - s_4642906: italiano #4642906 por Guybrush88 (https://tatoeba.org/en/sentences/show/4642906); español #11790831 por saverius (https://tatoeba.org/en/sentences/show/11790831) — CC BY 2.0 FR
+- s_4645: italiano #4645 por Pharamp (https://tatoeba.org/en/sentences/show/4645); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4652716: italiano #4652716 por Guybrush88 (https://tatoeba.org/en/sentences/show/4652716); español #4652804 por saverius (https://tatoeba.org/en/sentences/show/4652804) — CC BY 2.0 FR
 - s_4652738: italiano #4652738 por valealb (https://tatoeba.org/en/sentences/show/4652738); español #4652795 por saverius (https://tatoeba.org/en/sentences/show/4652795) — CC BY 2.0 FR
 - s_4656878: italiano #4656878 por erraticfaerie (https://tatoeba.org/en/sentences/show/4656878); español #3300451 por gianich73 (https://tatoeba.org/en/sentences/show/3300451) — CC BY 2.0 FR
+- s_4662: italiano #4662 por Pharamp (https://tatoeba.org/en/sentences/show/4662); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_466548: italiano #466548 por Guybrush88 (https://tatoeba.org/en/sentences/show/466548); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4667408: italiano #4667408 por madriot (https://tatoeba.org/en/sentences/show/4667408); español #1671410 por termito2nd (https://tatoeba.org/en/sentences/show/1671410) — CC BY 2.0 FR
 - s_4668061: italiano #4668061 por Guybrush88 (https://tatoeba.org/en/sentences/show/4668061); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_4669: italiano #4669 por Pharamp (https://tatoeba.org/en/sentences/show/4669); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_4680: italiano #4680 por Pharamp (https://tatoeba.org/en/sentences/show/4680); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4682783: italiano #4682783 por Guybrush88 (https://tatoeba.org/en/sentences/show/4682783); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4690732: italiano #4690732 por Guybrush88 (https://tatoeba.org/en/sentences/show/4690732); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_4690733: italiano #4690733 por Guybrush88 (https://tatoeba.org/en/sentences/show/4690733); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4697206: italiano #4697206 por Guybrush88 (https://tatoeba.org/en/sentences/show/4697206); español #1868683 por Shishir (https://tatoeba.org/en/sentences/show/1868683) — CC BY 2.0 FR
+- s_4698298: italiano #4698298 por Guybrush88 (https://tatoeba.org/en/sentences/show/4698298); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_4698302: italiano #4698302 por Guybrush88 (https://tatoeba.org/en/sentences/show/4698302); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_470011: italiano #470011 por Guybrush88 (https://tatoeba.org/en/sentences/show/470011); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4701: italiano #4701 por Pharamp (https://tatoeba.org/en/sentences/show/4701); español #778958 por Shishir (https://tatoeba.org/en/sentences/show/778958) — CC BY 2.0 FR
 - s_470141: italiano #470141 por Guybrush88 (https://tatoeba.org/en/sentences/show/470141); español #508668 por Shishir (https://tatoeba.org/en/sentences/show/508668) — CC BY 2.0 FR
@@ -2679,6 +2917,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_475361: italiano #475361 por Pharamp (https://tatoeba.org/en/sentences/show/475361); español #475270 por Shishir (https://tatoeba.org/en/sentences/show/475270) — CC BY 2.0 FR
 - s_475622: italiano #475622 por Pharamp (https://tatoeba.org/en/sentences/show/475622); español #475522 por Shishir (https://tatoeba.org/en/sentences/show/475522) — CC BY 2.0 FR
 - s_475635: italiano #475635 por Pharamp (https://tatoeba.org/en/sentences/show/475635); español #473586 por Espi (https://tatoeba.org/en/sentences/show/473586) — CC BY 2.0 FR
+- s_475662: italiano #475662 por Pharamp (https://tatoeba.org/en/sentences/show/475662); español #473444 por Shishir (https://tatoeba.org/en/sentences/show/473444) — CC BY 2.0 FR
 - s_475665: italiano #475665 por Pharamp (https://tatoeba.org/en/sentences/show/475665); español #473447 por Shishir (https://tatoeba.org/en/sentences/show/473447) — CC BY 2.0 FR
 - s_475672: italiano #475672 por Pharamp (https://tatoeba.org/en/sentences/show/475672); español #469495 por marcelostockle (https://tatoeba.org/en/sentences/show/469495) — CC BY 2.0 FR
 - s_475682: italiano #475682 por Pharamp (https://tatoeba.org/en/sentences/show/475682); español #473454 por Shishir (https://tatoeba.org/en/sentences/show/473454) — CC BY 2.0 FR
@@ -2706,6 +2945,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_4920087: italiano #4920087 por Guybrush88 (https://tatoeba.org/en/sentences/show/4920087); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4939115: italiano #4939115 por Guybrush88 (https://tatoeba.org/en/sentences/show/4939115); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4951779: italiano #4951779 por Guybrush88 (https://tatoeba.org/en/sentences/show/4951779); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_4953049: italiano #4953049 por Guybrush88 (https://tatoeba.org/en/sentences/show/4953049); español #10142388 por Shishir (https://tatoeba.org/en/sentences/show/10142388) — CC BY 2.0 FR
 - s_4967055: italiano #4967055 por Guybrush88 (https://tatoeba.org/en/sentences/show/4967055); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4967056: italiano #4967056 por Guybrush88 (https://tatoeba.org/en/sentences/show/4967056); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_4973103: italiano #4973103 por Guybrush88 (https://tatoeba.org/en/sentences/show/4973103); español #10802981 por saverius (https://tatoeba.org/en/sentences/show/10802981) — CC BY 2.0 FR
@@ -2750,8 +2990,10 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_511139: italiano #511139 por Pharamp (https://tatoeba.org/en/sentences/show/511139); español #739313 por Shishir (https://tatoeba.org/en/sentences/show/739313) — CC BY 2.0 FR
 - s_511140: italiano #511140 por Pharamp (https://tatoeba.org/en/sentences/show/511140); español #855901 por Kokoo (https://tatoeba.org/en/sentences/show/855901) — CC BY 2.0 FR
 - s_511252: italiano #511252 por Pharamp (https://tatoeba.org/en/sentences/show/511252); español #622394 por arashi_29 (https://tatoeba.org/en/sentences/show/622394) — CC BY 2.0 FR
+- s_5114929: italiano #5114929 por WM3DAS (https://tatoeba.org/en/sentences/show/5114929); español #2205601 por Shishir (https://tatoeba.org/en/sentences/show/2205601) — CC BY 2.0 FR
 - s_5119223: italiano #5119223 por Guybrush88 (https://tatoeba.org/en/sentences/show/5119223); español #2117648 por hayastan (https://tatoeba.org/en/sentences/show/2117648) — CC BY 2.0 FR
 - s_5121170: italiano #5121170 por WM3DAS (https://tatoeba.org/en/sentences/show/5121170); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_5121182: italiano #5121182 por WM3DAS (https://tatoeba.org/en/sentences/show/5121182); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5133701: italiano #5133701 por Guybrush88 (https://tatoeba.org/en/sentences/show/5133701); español #10775507 por Shishir (https://tatoeba.org/en/sentences/show/10775507) — CC BY 2.0 FR
 - s_5162305: italiano #5162305 por Guybrush88 (https://tatoeba.org/en/sentences/show/5162305); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5162345: italiano #5162345 por Guybrush88 (https://tatoeba.org/en/sentences/show/5162345); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2773,6 +3015,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_521401: italiano #521401 por Pharamp (https://tatoeba.org/en/sentences/show/521401); español #1465194 por marcelostockle (https://tatoeba.org/en/sentences/show/1465194) — CC BY 2.0 FR
 - s_5214424: italiano #5214424 por Guybrush88 (https://tatoeba.org/en/sentences/show/5214424); español #7789760 por Adelpa (https://tatoeba.org/en/sentences/show/7789760) — CC BY 2.0 FR
 - s_5218162: italiano #5218162 por Guybrush88 (https://tatoeba.org/en/sentences/show/5218162); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_5223860: italiano #5223860 por BEASY8 (https://tatoeba.org/en/sentences/show/5223860); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5227846: italiano #5227846 por Guybrush88 (https://tatoeba.org/en/sentences/show/5227846); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5230097: italiano #5230097 por Guybrush88 (https://tatoeba.org/en/sentences/show/5230097); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_524147: italiano #524147 por Pharamp (https://tatoeba.org/en/sentences/show/524147); español #436170 por lukaszpp (https://tatoeba.org/en/sentences/show/436170) — CC BY 2.0 FR
@@ -2783,6 +3026,9 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_5252118: italiano #5252118 por Guybrush88 (https://tatoeba.org/en/sentences/show/5252118); español #6855354 por albrusgher (https://tatoeba.org/en/sentences/show/6855354) — CC BY 2.0 FR
 - s_526289: italiano #526289 por Pharamp (https://tatoeba.org/en/sentences/show/526289); español #964488 por Shishir (https://tatoeba.org/en/sentences/show/964488) — CC BY 2.0 FR
 - s_527182: italiano #527182 por Pharamp (https://tatoeba.org/en/sentences/show/527182); español #1627191 por hayastan (https://tatoeba.org/en/sentences/show/1627191) — CC BY 2.0 FR
+- s_5273123: italiano #5273123 por WM3DAS (https://tatoeba.org/en/sentences/show/5273123); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_5273152: italiano #5273152 por WM3DAS (https://tatoeba.org/en/sentences/show/5273152); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_5281025: italiano #5281025 por Guybrush88 (https://tatoeba.org/en/sentences/show/5281025); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5284250: italiano #5284250 por Guybrush88 (https://tatoeba.org/en/sentences/show/5284250); español #9685183 por Shishir (https://tatoeba.org/en/sentences/show/9685183) — CC BY 2.0 FR
 - s_5285160: italiano #5285160 por Guybrush88 (https://tatoeba.org/en/sentences/show/5285160); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5285265: italiano #5285265 por Guybrush88 (https://tatoeba.org/en/sentences/show/5285265); español #7789966 por Adelpa (https://tatoeba.org/en/sentences/show/7789966) — CC BY 2.0 FR
@@ -2800,6 +3046,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_529389: italiano #529389 por Pharamp (https://tatoeba.org/en/sentences/show/529389); español #503616 por Shishir (https://tatoeba.org/en/sentences/show/503616) — CC BY 2.0 FR
 - s_529428: italiano #529428 por Pharamp (https://tatoeba.org/en/sentences/show/529428); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_529432: italiano #529432 por Pharamp (https://tatoeba.org/en/sentences/show/529432); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_529473: italiano #529473 por Pharamp (https://tatoeba.org/en/sentences/show/529473); español #528465 por Shishir (https://tatoeba.org/en/sentences/show/528465) — CC BY 2.0 FR
 - s_529480: italiano #529480 por Pharamp (https://tatoeba.org/en/sentences/show/529480); español #956742 por hundo (https://tatoeba.org/en/sentences/show/956742) — CC BY 2.0 FR
 - s_529500: italiano #529500 por Pharamp (https://tatoeba.org/en/sentences/show/529500); español #529441 por Shishir (https://tatoeba.org/en/sentences/show/529441) — CC BY 2.0 FR
 - s_531427: italiano #531427 por Pharamp (https://tatoeba.org/en/sentences/show/531427); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2813,10 +3060,14 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_5334494: italiano #5334494 por Guybrush88 (https://tatoeba.org/en/sentences/show/5334494); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5334496: italiano #5334496 por Guybrush88 (https://tatoeba.org/en/sentences/show/5334496); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5339179: italiano #5339179 por Guybrush88 (https://tatoeba.org/en/sentences/show/5339179); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_5339513: italiano #5339513 por Guybrush88 (https://tatoeba.org/en/sentences/show/5339513); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_5339590: italiano #5339590 por Guybrush88 (https://tatoeba.org/en/sentences/show/5339590); español #4435903 por Shishir (https://tatoeba.org/en/sentences/show/4435903) — CC BY 2.0 FR
 - s_5344858: italiano #5344858 por Guybrush88 (https://tatoeba.org/en/sentences/show/5344858); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5344867: italiano #5344867 por Guybrush88 (https://tatoeba.org/en/sentences/show/5344867); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5344996: italiano #5344996 por Guybrush88 (https://tatoeba.org/en/sentences/show/5344996); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5345778: italiano #5345778 por Guybrush88 (https://tatoeba.org/en/sentences/show/5345778); español #464503 por lukaszpp (https://tatoeba.org/en/sentences/show/464503) — CC BY 2.0 FR
+- s_5345809: italiano #5345809 por Guybrush88 (https://tatoeba.org/en/sentences/show/5345809); español #9452763 por ignacio (https://tatoeba.org/en/sentences/show/9452763) — CC BY 2.0 FR
+- s_5345812: italiano #5345812 por Guybrush88 (https://tatoeba.org/en/sentences/show/5345812); español #9452763 por ignacio (https://tatoeba.org/en/sentences/show/9452763) — CC BY 2.0 FR
 - s_5346026: italiano #5346026 por Guybrush88 (https://tatoeba.org/en/sentences/show/5346026); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5346626: italiano #5346626 por Guybrush88 (https://tatoeba.org/en/sentences/show/5346626); español #5345990 por Shishir (https://tatoeba.org/en/sentences/show/5345990) — CC BY 2.0 FR
 - s_5347605: italiano #5347605 por Guybrush88 (https://tatoeba.org/en/sentences/show/5347605); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2837,15 +3088,18 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_5363419: italiano #5363419 por Guybrush88 (https://tatoeba.org/en/sentences/show/5363419); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5364183: italiano #5364183 por Guybrush88 (https://tatoeba.org/en/sentences/show/5364183); español #6143973 por Shishir (https://tatoeba.org/en/sentences/show/6143973) — CC BY 2.0 FR
 - s_5370137: italiano #5370137 por Guybrush88 (https://tatoeba.org/en/sentences/show/5370137); español #13967809 por mervert1 (https://tatoeba.org/en/sentences/show/13967809) — CC BY 2.0 FR
+- s_5370728: italiano #5370728 por Guybrush88 (https://tatoeba.org/en/sentences/show/5370728); español #12296366 por AlfredoSeimandi (https://tatoeba.org/en/sentences/show/12296366) — CC BY 2.0 FR
 - s_5384317: italiano #5384317 por Guybrush88 (https://tatoeba.org/en/sentences/show/5384317); español #10357422 por Seael (https://tatoeba.org/en/sentences/show/10357422) — CC BY 2.0 FR
 - s_538625: italiano #538625 por Pharamp (https://tatoeba.org/en/sentences/show/538625); español #538624 por Shishir (https://tatoeba.org/en/sentences/show/538624) — CC BY 2.0 FR
 - s_538895: italiano #538895 por Pharamp (https://tatoeba.org/en/sentences/show/538895); español #345082 por tatoerique (https://tatoeba.org/en/sentences/show/345082) — CC BY 2.0 FR
 - s_5390190: italiano #5390190 por Guybrush88 (https://tatoeba.org/en/sentences/show/5390190); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_539113: italiano #539113 por Pharamp (https://tatoeba.org/en/sentences/show/539113); español #1307908 por enteka (https://tatoeba.org/en/sentences/show/1307908) — CC BY 2.0 FR
 - s_5393608: italiano #5393608 por Guybrush88 (https://tatoeba.org/en/sentences/show/5393608); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5393657: italiano #5393657 por Guybrush88 (https://tatoeba.org/en/sentences/show/5393657); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5395926: italiano #5395926 por Guybrush88 (https://tatoeba.org/en/sentences/show/5395926); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5396573: italiano #5396573 por Guybrush88 (https://tatoeba.org/en/sentences/show/5396573); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5399318: italiano #5399318 por mraz (https://tatoeba.org/en/sentences/show/5399318); español #703010 por andresevargas (https://tatoeba.org/en/sentences/show/703010) — CC BY 2.0 FR
+- s_5402346: italiano #5402346 por dnnywld (https://tatoeba.org/en/sentences/show/5402346); español #578417 por darinmex (https://tatoeba.org/en/sentences/show/578417) — CC BY 2.0 FR
 - s_5403124: italiano #5403124 por Guybrush88 (https://tatoeba.org/en/sentences/show/5403124); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5403465: italiano #5403465 por Guybrush88 (https://tatoeba.org/en/sentences/show/5403465); español #5781323 por MrMultilingual (https://tatoeba.org/en/sentences/show/5781323) — CC BY 2.0 FR
 - s_5409215: italiano #5409215 por Guybrush88 (https://tatoeba.org/en/sentences/show/5409215); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2868,23 +3122,29 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_5447273: italiano #5447273 por Sofia1789 (https://tatoeba.org/en/sentences/show/5447273); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5447274: italiano #5447274 por Sofia1789 (https://tatoeba.org/en/sentences/show/5447274); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_544917: italiano #544917 por Pharamp (https://tatoeba.org/en/sentences/show/544917); español #495084 por darinmex (https://tatoeba.org/en/sentences/show/495084) — CC BY 2.0 FR
+- s_5449890: italiano #5449890 por Sofia1789 (https://tatoeba.org/en/sentences/show/5449890); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5449912: italiano #5449912 por Sofia1789 (https://tatoeba.org/en/sentences/show/5449912); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5452977: italiano #5452977 por dnnywld (https://tatoeba.org/en/sentences/show/5452977); español #8735491 por gianich73 (https://tatoeba.org/en/sentences/show/8735491) — CC BY 2.0 FR
 - s_5467296: italiano #5467296 por Guybrush88 (https://tatoeba.org/en/sentences/show/5467296); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5467303: italiano #5467303 por Guybrush88 (https://tatoeba.org/en/sentences/show/5467303); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5467308: italiano #5467308 por Guybrush88 (https://tatoeba.org/en/sentences/show/5467308); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_5469331: italiano #5469331 por dnnywld (https://tatoeba.org/en/sentences/show/5469331); español #5469341 por saverius (https://tatoeba.org/en/sentences/show/5469341) — CC BY 2.0 FR
 - s_547094: italiano #547094 por Pharamp (https://tatoeba.org/en/sentences/show/547094); español #538880 por hayastan (https://tatoeba.org/en/sentences/show/538880) — CC BY 2.0 FR
 - s_5475013: italiano #5475013 por dnnywld (https://tatoeba.org/en/sentences/show/5475013); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5477057: italiano #5477057 por dnnywld (https://tatoeba.org/en/sentences/show/5477057); español #10371932 por Seael (https://tatoeba.org/en/sentences/show/10371932) — CC BY 2.0 FR
 - s_5479258: italiano #5479258 por Guybrush88 (https://tatoeba.org/en/sentences/show/5479258); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_5479775: italiano #5479775 por dnnywld (https://tatoeba.org/en/sentences/show/5479775); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5486510: italiano #5486510 por dnnywld (https://tatoeba.org/en/sentences/show/5486510); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5490239: italiano #5490239 por Guybrush88 (https://tatoeba.org/en/sentences/show/5490239); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5492025: italiano #5492025 por Guybrush88 (https://tatoeba.org/en/sentences/show/5492025); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5492129: italiano #5492129 por dnnywld (https://tatoeba.org/en/sentences/show/5492129); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5493244: italiano #5493244 por Guybrush88 (https://tatoeba.org/en/sentences/show/5493244); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5495932: italiano #5495932 por Guybrush88 (https://tatoeba.org/en/sentences/show/5495932); español #1822001 por hayastan (https://tatoeba.org/en/sentences/show/1822001) — CC BY 2.0 FR
+- s_5496786: italiano #5496786 por dnnywld (https://tatoeba.org/en/sentences/show/5496786); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5508654: italiano #5508654 por dnnywld (https://tatoeba.org/en/sentences/show/5508654); español #8859797 por mramosch (https://tatoeba.org/en/sentences/show/8859797) — CC BY 2.0 FR
 - s_5511429: italiano #5511429 por Guybrush88 (https://tatoeba.org/en/sentences/show/5511429); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_5512094: italiano #5512094 por dnnywld (https://tatoeba.org/en/sentences/show/5512094); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_5515836: italiano #5515836 por Guybrush88 (https://tatoeba.org/en/sentences/show/5515836); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5520807: italiano #5520807 por Guybrush88 (https://tatoeba.org/en/sentences/show/5520807); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5520809: italiano #5520809 por Guybrush88 (https://tatoeba.org/en/sentences/show/5520809); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5531428: italiano #5531428 por Guybrush88 (https://tatoeba.org/en/sentences/show/5531428); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2895,6 +3155,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_5551662: italiano #5551662 por dnnywld (https://tatoeba.org/en/sentences/show/5551662); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5553815: italiano #5553815 por Guybrush88 (https://tatoeba.org/en/sentences/show/5553815); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5556143: italiano #5556143 por Guybrush88 (https://tatoeba.org/en/sentences/show/5556143); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_5563452: italiano #5563452 por amweingarten (https://tatoeba.org/en/sentences/show/5563452); español #2189600 por Shishir (https://tatoeba.org/en/sentences/show/2189600) — CC BY 2.0 FR
 - s_5563569: italiano #5563569 por Guybrush88 (https://tatoeba.org/en/sentences/show/5563569); español #10028476 por DJ_Saidez (https://tatoeba.org/en/sentences/show/10028476) — CC BY 2.0 FR
 - s_5565924: italiano #5565924 por Guybrush88 (https://tatoeba.org/en/sentences/show/5565924); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5565925: italiano #5565925 por Guybrush88 (https://tatoeba.org/en/sentences/show/5565925); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2924,6 +3185,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_5685568: italiano #5685568 por Guybrush88 (https://tatoeba.org/en/sentences/show/5685568); español #3781760 por SrTortuga (https://tatoeba.org/en/sentences/show/3781760) — CC BY 2.0 FR
 - s_568596: italiano #568596 por bruno_b (https://tatoeba.org/en/sentences/show/568596); español #506944 por Shishir (https://tatoeba.org/en/sentences/show/506944) — CC BY 2.0 FR
 - s_568678: italiano #568678 por bruno_b (https://tatoeba.org/en/sentences/show/568678); español #2496 por Shishir (https://tatoeba.org/en/sentences/show/2496) — CC BY 2.0 FR
+- s_5688443: italiano #5688443 por dnnywld (https://tatoeba.org/en/sentences/show/5688443); español #2008117 por Shishir (https://tatoeba.org/en/sentences/show/2008117) — CC BY 2.0 FR
 - s_5690089: italiano #5690089 por Guybrush88 (https://tatoeba.org/en/sentences/show/5690089); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_569259: italiano #569259 por bruno_b (https://tatoeba.org/en/sentences/show/569259); español #442206 por naikodemus (https://tatoeba.org/en/sentences/show/442206) — CC BY 2.0 FR
 - s_5692682: italiano #5692682 por Guybrush88 (https://tatoeba.org/en/sentences/show/5692682); español #7789746 por Adelpa (https://tatoeba.org/en/sentences/show/7789746) — CC BY 2.0 FR
@@ -2937,6 +3199,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_5704041: italiano #5704041 por Guybrush88 (https://tatoeba.org/en/sentences/show/5704041); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5709274: italiano #5709274 por Guybrush88 (https://tatoeba.org/en/sentences/show/5709274); español #13845749 por Seael (https://tatoeba.org/en/sentences/show/13845749) — CC BY 2.0 FR
 - s_5709386: italiano #5709386 por Guybrush88 (https://tatoeba.org/en/sentences/show/5709386); español #10802617 por saverius (https://tatoeba.org/en/sentences/show/10802617) — CC BY 2.0 FR
+- s_5712690: italiano #5712690 por Guybrush88 (https://tatoeba.org/en/sentences/show/5712690); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_571355: italiano #571355 por Pharamp (https://tatoeba.org/en/sentences/show/571355); español #1718059 por Shishir (https://tatoeba.org/en/sentences/show/1718059) — CC BY 2.0 FR
 - s_571363: italiano #571363 por Pharamp (https://tatoeba.org/en/sentences/show/571363); español #571797 por Shishir (https://tatoeba.org/en/sentences/show/571797) — CC BY 2.0 FR
 - s_571371: italiano #571371 por Pharamp (https://tatoeba.org/en/sentences/show/571371); español #571808 por Shishir (https://tatoeba.org/en/sentences/show/571808) — CC BY 2.0 FR
@@ -2945,6 +3208,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_5738845: italiano #5738845 por dnnywld (https://tatoeba.org/en/sentences/show/5738845); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5750613: italiano #5750613 por Guybrush88 (https://tatoeba.org/en/sentences/show/5750613); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5766040: italiano #5766040 por Guybrush88 (https://tatoeba.org/en/sentences/show/5766040); español #871146 por Shishir (https://tatoeba.org/en/sentences/show/871146) — CC BY 2.0 FR
+- s_5766105: italiano #5766105 por Guybrush88 (https://tatoeba.org/en/sentences/show/5766105); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5766148: italiano #5766148 por Guybrush88 (https://tatoeba.org/en/sentences/show/5766148); español #10802799 por saverius (https://tatoeba.org/en/sentences/show/10802799) — CC BY 2.0 FR
 - s_5769125: italiano #5769125 por Guybrush88 (https://tatoeba.org/en/sentences/show/5769125); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5769126: italiano #5769126 por Guybrush88 (https://tatoeba.org/en/sentences/show/5769126); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2960,6 +3224,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_5815604: italiano #5815604 por Guybrush88 (https://tatoeba.org/en/sentences/show/5815604); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5817980: italiano #5817980 por Guybrush88 (https://tatoeba.org/en/sentences/show/5817980); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_581911: italiano #581911 por manu (https://tatoeba.org/en/sentences/show/581911); español #721570 por Shishir (https://tatoeba.org/en/sentences/show/721570) — CC BY 2.0 FR
+- s_5827208: italiano #5827208 por dnnywld (https://tatoeba.org/en/sentences/show/5827208); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5829282: italiano #5829282 por Guybrush88 (https://tatoeba.org/en/sentences/show/5829282); español #8434317 por Luiaard (https://tatoeba.org/en/sentences/show/8434317) — CC BY 2.0 FR
 - s_5829654: italiano #5829654 por Valdast (https://tatoeba.org/en/sentences/show/5829654); español #5828413 por albrusgher (https://tatoeba.org/en/sentences/show/5828413) — CC BY 2.0 FR
 - s_5829668: italiano #5829668 por Guybrush88 (https://tatoeba.org/en/sentences/show/5829668); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -2971,6 +3236,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_5872409: italiano #5872409 por Guybrush88 (https://tatoeba.org/en/sentences/show/5872409); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5873911: italiano #5873911 por WM3DAS (https://tatoeba.org/en/sentences/show/5873911); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5884991: italiano #5884991 por dnnywld (https://tatoeba.org/en/sentences/show/5884991); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_5887928: italiano #5887928 por WM3DAS (https://tatoeba.org/en/sentences/show/5887928); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5888418: italiano #5888418 por Guybrush88 (https://tatoeba.org/en/sentences/show/5888418); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_5898637: italiano #5898637 por Valdast (https://tatoeba.org/en/sentences/show/5898637); español #5898120 por baudelaire (https://tatoeba.org/en/sentences/show/5898120) — CC BY 2.0 FR
 - s_5901891: italiano #5901891 por Guybrush88 (https://tatoeba.org/en/sentences/show/5901891); español #1284248 por leoruilova (https://tatoeba.org/en/sentences/show/1284248) — CC BY 2.0 FR
@@ -2999,6 +3265,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_6003305: italiano #6003305 por dnnywld (https://tatoeba.org/en/sentences/show/6003305); español #6003928 por gianich73 (https://tatoeba.org/en/sentences/show/6003928) — CC BY 2.0 FR
 - s_6007453: italiano #6007453 por Guybrush88 (https://tatoeba.org/en/sentences/show/6007453); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_600922: italiano #600922 por Guybrush88 (https://tatoeba.org/en/sentences/show/600922); español #483468 por Raimondi (https://tatoeba.org/en/sentences/show/483468) — CC BY 2.0 FR
+- s_6020583: italiano #6020583 por Julian_L (https://tatoeba.org/en/sentences/show/6020583); español #2722035 por Shishir (https://tatoeba.org/en/sentences/show/2722035) — CC BY 2.0 FR
 - s_6021598: italiano #6021598 por Valdast (https://tatoeba.org/en/sentences/show/6021598); español #6021464 por Adelpa (https://tatoeba.org/en/sentences/show/6021464) — CC BY 2.0 FR
 - s_602284: italiano #602284 por Cero (https://tatoeba.org/en/sentences/show/602284); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_6025193: italiano #6025193 por dnnywld (https://tatoeba.org/en/sentences/show/6025193); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -3012,10 +3279,12 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_6043040: italiano #6043040 por dnnywld (https://tatoeba.org/en/sentences/show/6043040); español #9211760 por ignacio (https://tatoeba.org/en/sentences/show/9211760) — CC BY 2.0 FR
 - s_6047086: italiano #6047086 por dnnywld (https://tatoeba.org/en/sentences/show/6047086); español #10803503 por saverius (https://tatoeba.org/en/sentences/show/10803503) — CC BY 2.0 FR
 - s_6057500: italiano #6057500 por Guybrush88 (https://tatoeba.org/en/sentences/show/6057500); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_6067788: italiano #6067788 por Guybrush88 (https://tatoeba.org/en/sentences/show/6067788); español #11816455 por saverius (https://tatoeba.org/en/sentences/show/11816455) — CC BY 2.0 FR
 - s_606944: italiano #606944 por rado (https://tatoeba.org/en/sentences/show/606944); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_6069808: italiano #6069808 por Guybrush88 (https://tatoeba.org/en/sentences/show/6069808); español #976258 por hundo (https://tatoeba.org/en/sentences/show/976258) — CC BY 2.0 FR
 - s_607094: italiano #607094 por rado (https://tatoeba.org/en/sentences/show/607094); español #1832370 por marcelostockle (https://tatoeba.org/en/sentences/show/1832370) — CC BY 2.0 FR
 - s_607101: italiano #607101 por Pharamp (https://tatoeba.org/en/sentences/show/607101); español #345526 por tatoerique (https://tatoeba.org/en/sentences/show/345526) — CC BY 2.0 FR
+- s_607359: italiano #607359 por Cero (https://tatoeba.org/en/sentences/show/607359); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_607489: italiano #607489 por remod (https://tatoeba.org/en/sentences/show/607489); español #574399 por Shishir (https://tatoeba.org/en/sentences/show/574399) — CC BY 2.0 FR
 - s_607500: italiano #607500 por rado (https://tatoeba.org/en/sentences/show/607500); español #1237381 por Shishir (https://tatoeba.org/en/sentences/show/1237381) — CC BY 2.0 FR
 - s_608992: italiano #608992 por rado (https://tatoeba.org/en/sentences/show/608992); español #1531186 por alexmarcelo (https://tatoeba.org/en/sentences/show/1531186) — CC BY 2.0 FR
@@ -3033,13 +3302,18 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_6117365: italiano #6117365 por Guybrush88 (https://tatoeba.org/en/sentences/show/6117365); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_611876: italiano #611876 por Guybrush88 (https://tatoeba.org/en/sentences/show/611876); español #1191722 por nancy (https://tatoeba.org/en/sentences/show/1191722) — CC BY 2.0 FR
 - s_611924: italiano #611924 por Guybrush88 (https://tatoeba.org/en/sentences/show/611924); español #726547 por Fanki (https://tatoeba.org/en/sentences/show/726547) — CC BY 2.0 FR
+- s_611971: italiano #611971 por Guybrush88 (https://tatoeba.org/en/sentences/show/611971); español #860202 por jorgearestrepo (https://tatoeba.org/en/sentences/show/860202) — CC BY 2.0 FR
 - s_612108: italiano #612108 por Guybrush88 (https://tatoeba.org/en/sentences/show/612108); español #956818 por hundo (https://tatoeba.org/en/sentences/show/956818) — CC BY 2.0 FR
 - s_612269: italiano #612269 por rado (https://tatoeba.org/en/sentences/show/612269); español #432212 por andibadajoz (https://tatoeba.org/en/sentences/show/432212) — CC BY 2.0 FR
+- s_612486: italiano #612486 por rado (https://tatoeba.org/en/sentences/show/612486); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_613807: italiano #613807 por Guybrush88 (https://tatoeba.org/en/sentences/show/613807); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_6141494: italiano #6141494 por Guybrush88 (https://tatoeba.org/en/sentences/show/6141494); español #13743985 por glossboss (https://tatoeba.org/en/sentences/show/13743985) — CC BY 2.0 FR
+- s_6141496: italiano #6141496 por Guybrush88 (https://tatoeba.org/en/sentences/show/6141496); español #13743985 por glossboss (https://tatoeba.org/en/sentences/show/13743985) — CC BY 2.0 FR
 - s_614240: italiano #614240 por Guybrush88 (https://tatoeba.org/en/sentences/show/614240); español #480193 por quarzoliquido (https://tatoeba.org/en/sentences/show/480193) — CC BY 2.0 FR
 - s_6142727: italiano #6142727 por Guybrush88 (https://tatoeba.org/en/sentences/show/6142727); español #10061110 por jxff (https://tatoeba.org/en/sentences/show/10061110) — CC BY 2.0 FR
 - s_6142802: italiano #6142802 por Guybrush88 (https://tatoeba.org/en/sentences/show/6142802); español #10544801 por Seael (https://tatoeba.org/en/sentences/show/10544801) — CC BY 2.0 FR
 - s_614317: italiano #614317 por rado (https://tatoeba.org/en/sentences/show/614317); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_6143177: italiano #6143177 por dnnywld (https://tatoeba.org/en/sentences/show/6143177); español #13447101 por Seael (https://tatoeba.org/en/sentences/show/13447101) — CC BY 2.0 FR
 - s_6143418: italiano #6143418 por Guybrush88 (https://tatoeba.org/en/sentences/show/6143418); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_614989: italiano #614989 por rado (https://tatoeba.org/en/sentences/show/614989); español #1037413 por Shishir (https://tatoeba.org/en/sentences/show/1037413) — CC BY 2.0 FR
 - s_616050: italiano #616050 por rado (https://tatoeba.org/en/sentences/show/616050); español #543449 por Shishir (https://tatoeba.org/en/sentences/show/543449) — CC BY 2.0 FR
@@ -3054,8 +3328,10 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_617544: italiano #617544 por Guybrush88 (https://tatoeba.org/en/sentences/show/617544); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_617569: italiano #617569 por rado (https://tatoeba.org/en/sentences/show/617569); español #587254 por Shishir (https://tatoeba.org/en/sentences/show/587254) — CC BY 2.0 FR
 - s_617575: italiano #617575 por rado (https://tatoeba.org/en/sentences/show/617575); español #1953327 por marcelostockle (https://tatoeba.org/en/sentences/show/1953327) — CC BY 2.0 FR
+- s_618233: italiano #618233 por Guybrush88 (https://tatoeba.org/en/sentences/show/618233); español #508488 por Shishir (https://tatoeba.org/en/sentences/show/508488) — CC BY 2.0 FR
 - s_619812: italiano #619812 por Guybrush88 (https://tatoeba.org/en/sentences/show/619812); español #799985 por Shishir (https://tatoeba.org/en/sentences/show/799985) — CC BY 2.0 FR
 - s_620645: italiano #620645 por Guybrush88 (https://tatoeba.org/en/sentences/show/620645); español #554997 por Shishir (https://tatoeba.org/en/sentences/show/554997) — CC BY 2.0 FR
+- s_620732: italiano #620732 por Guybrush88 (https://tatoeba.org/en/sentences/show/620732); español #959196 por hundo (https://tatoeba.org/en/sentences/show/959196) — CC BY 2.0 FR
 - s_621054: italiano #621054 por Guybrush88 (https://tatoeba.org/en/sentences/show/621054); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_622120: italiano #622120 por Pharamp (https://tatoeba.org/en/sentences/show/622120); español #571778 por Shishir (https://tatoeba.org/en/sentences/show/571778) — CC BY 2.0 FR
 - s_622207: italiano #622207 por Guybrush88 (https://tatoeba.org/en/sentences/show/622207); español #2826599 por nancy (https://tatoeba.org/en/sentences/show/2826599) — CC BY 2.0 FR
@@ -3064,9 +3340,11 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_623376: italiano #623376 por rado (https://tatoeba.org/en/sentences/show/623376); español #623480 por Leono (https://tatoeba.org/en/sentences/show/623480) — CC BY 2.0 FR
 - s_624592: italiano #624592 por Guybrush88 (https://tatoeba.org/en/sentences/show/624592); español #972521 por hayastan (https://tatoeba.org/en/sentences/show/972521) — CC BY 2.0 FR
 - s_625156: italiano #625156 por Guybrush88 (https://tatoeba.org/en/sentences/show/625156); español #1418943 por marcelostockle (https://tatoeba.org/en/sentences/show/1418943) — CC BY 2.0 FR
+- s_626095: italiano #626095 por remod (https://tatoeba.org/en/sentences/show/626095); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_626761: italiano #626761 por rado (https://tatoeba.org/en/sentences/show/626761); español #945721 por hayastan (https://tatoeba.org/en/sentences/show/945721) — CC BY 2.0 FR
 - s_626875: italiano #626875 por Guybrush88 (https://tatoeba.org/en/sentences/show/626875); español #336527 por kylecito (https://tatoeba.org/en/sentences/show/336527) — CC BY 2.0 FR
 - s_626954: italiano #626954 por Cero (https://tatoeba.org/en/sentences/show/626954); español #463009 por lukaszpp (https://tatoeba.org/en/sentences/show/463009) — CC BY 2.0 FR
+- s_627118: italiano #627118 por rado (https://tatoeba.org/en/sentences/show/627118); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_627199: italiano #627199 por Eldad (https://tatoeba.org/en/sentences/show/627199); español #711463 por darinmex (https://tatoeba.org/en/sentences/show/711463) — CC BY 2.0 FR
 - s_627271: italiano #627271 por Guybrush88 (https://tatoeba.org/en/sentences/show/627271); español #628292 por Leono (https://tatoeba.org/en/sentences/show/628292) — CC BY 2.0 FR
 - s_627751: italiano #627751 por Guybrush88 (https://tatoeba.org/en/sentences/show/627751); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -3081,6 +3359,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_6315305: italiano #6315305 por Guybrush88 (https://tatoeba.org/en/sentences/show/6315305); español #8864156 por Ricardo14 (https://tatoeba.org/en/sentences/show/8864156) — CC BY 2.0 FR
 - s_632017: italiano #632017 por bruno_b (https://tatoeba.org/en/sentences/show/632017); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_632220: italiano #632220 por Pharamp (https://tatoeba.org/en/sentences/show/632220); español #972997 por Shishir (https://tatoeba.org/en/sentences/show/972997) — CC BY 2.0 FR
+- s_632233: italiano #632233 por bruno_b (https://tatoeba.org/en/sentences/show/632233); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_632300: italiano #632300 por Guybrush88 (https://tatoeba.org/en/sentences/show/632300); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_632849: italiano #632849 por Guybrush88 (https://tatoeba.org/en/sentences/show/632849); español #2857 por chinopinyin (https://tatoeba.org/en/sentences/show/2857) — CC BY 2.0 FR
 - s_632992: italiano #632992 por Guybrush88 (https://tatoeba.org/en/sentences/show/632992); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -3098,10 +3377,13 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_634680: italiano #634680 por Guybrush88 (https://tatoeba.org/en/sentences/show/634680); español #507458 por callmath (https://tatoeba.org/en/sentences/show/507458) — CC BY 2.0 FR
 - s_635160: italiano #635160 por Guybrush88 (https://tatoeba.org/en/sentences/show/635160); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_635268: italiano #635268 por Guybrush88 (https://tatoeba.org/en/sentences/show/635268); español #858085 por Shishir (https://tatoeba.org/en/sentences/show/858085) — CC BY 2.0 FR
+- s_635492: italiano #635492 por rado (https://tatoeba.org/en/sentences/show/635492); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_635666: italiano #635666 por Guybrush88 (https://tatoeba.org/en/sentences/show/635666); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_635700: italiano #635700 por Cero (https://tatoeba.org/en/sentences/show/635700); español #1784811 por Shishir (https://tatoeba.org/en/sentences/show/1784811) — CC BY 2.0 FR
 - s_635782: italiano #635782 por Cero (https://tatoeba.org/en/sentences/show/635782); español #436174 por lukaszpp (https://tatoeba.org/en/sentences/show/436174) — CC BY 2.0 FR
 - s_636159: italiano #636159 por gltapps (https://tatoeba.org/en/sentences/show/636159); español #531663 por Shishir (https://tatoeba.org/en/sentences/show/531663) — CC BY 2.0 FR
+- s_6371895: italiano #6371895 por Guybrush88 (https://tatoeba.org/en/sentences/show/6371895); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_6371896: italiano #6371896 por Guybrush88 (https://tatoeba.org/en/sentences/show/6371896); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_637221: italiano #637221 por rado (https://tatoeba.org/en/sentences/show/637221); español #1104036 por Shishir (https://tatoeba.org/en/sentences/show/1104036) — CC BY 2.0 FR
 - s_637635: italiano #637635 por rado (https://tatoeba.org/en/sentences/show/637635); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_641855: italiano #641855 por rado (https://tatoeba.org/en/sentences/show/641855); español #531769 por Shishir (https://tatoeba.org/en/sentences/show/531769) — CC BY 2.0 FR
@@ -3110,6 +3392,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_643156: italiano #643156 por Guybrush88 (https://tatoeba.org/en/sentences/show/643156); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_643191: italiano #643191 por Guybrush88 (https://tatoeba.org/en/sentences/show/643191); español #639727 por Shishir (https://tatoeba.org/en/sentences/show/639727) — CC BY 2.0 FR
 - s_6444792: italiano #6444792 por Guybrush88 (https://tatoeba.org/en/sentences/show/6444792); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_644717: italiano #644717 por rado (https://tatoeba.org/en/sentences/show/644717); español #963910 por hundo (https://tatoeba.org/en/sentences/show/963910) — CC BY 2.0 FR
 - s_6451514: italiano #6451514 por Guybrush88 (https://tatoeba.org/en/sentences/show/6451514); español #10805133 por saverius (https://tatoeba.org/en/sentences/show/10805133) — CC BY 2.0 FR
 - s_6458851: italiano #6458851 por Guybrush88 (https://tatoeba.org/en/sentences/show/6458851); español #7966865 por pchamorro (https://tatoeba.org/en/sentences/show/7966865) — CC BY 2.0 FR
 - s_6463372: italiano #6463372 por dnnywld (https://tatoeba.org/en/sentences/show/6463372); español #1440184 por marcelostockle (https://tatoeba.org/en/sentences/show/1440184) — CC BY 2.0 FR
@@ -3131,6 +3414,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_655769: italiano #655769 por Pharamp (https://tatoeba.org/en/sentences/show/655769); español #452930 por Shishir (https://tatoeba.org/en/sentences/show/452930) — CC BY 2.0 FR
 - s_6562811: italiano #6562811 por Guybrush88 (https://tatoeba.org/en/sentences/show/6562811); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_656301: italiano #656301 por rado (https://tatoeba.org/en/sentences/show/656301); español #656212 por MondCivitano (https://tatoeba.org/en/sentences/show/656212) — CC BY 2.0 FR
+- s_656309: italiano #656309 por rado (https://tatoeba.org/en/sentences/show/656309); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_6568713: italiano #6568713 por Guybrush88 (https://tatoeba.org/en/sentences/show/6568713); español #10186362 por Seael (https://tatoeba.org/en/sentences/show/10186362) — CC BY 2.0 FR
 - s_6571325: italiano #6571325 por Guybrush88 (https://tatoeba.org/en/sentences/show/6571325); español #10086965 por saverius (https://tatoeba.org/en/sentences/show/10086965) — CC BY 2.0 FR
 - s_658416: italiano #658416 por rado (https://tatoeba.org/en/sentences/show/658416); español #1112548 por karenm2s (https://tatoeba.org/en/sentences/show/1112548) — CC BY 2.0 FR
@@ -3154,15 +3438,19 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_663079: italiano #663079 por Guybrush88 (https://tatoeba.org/en/sentences/show/663079); español #463309 por lukaszpp (https://tatoeba.org/en/sentences/show/463309) — CC BY 2.0 FR
 - s_663087: italiano #663087 por Guybrush88 (https://tatoeba.org/en/sentences/show/663087); español #610310 por Shishir (https://tatoeba.org/en/sentences/show/610310) — CC BY 2.0 FR
 - s_663540: italiano #663540 por rado (https://tatoeba.org/en/sentences/show/663540); español #1871380 por Shishir (https://tatoeba.org/en/sentences/show/1871380) — CC BY 2.0 FR
+- s_663766: italiano #663766 por Guybrush88 (https://tatoeba.org/en/sentences/show/663766); español #345843 por tatoerique (https://tatoeba.org/en/sentences/show/345843) — CC BY 2.0 FR
 - s_664277: italiano #664277 por Guybrush88 (https://tatoeba.org/en/sentences/show/664277); español #777607 por Shishir (https://tatoeba.org/en/sentences/show/777607) — CC BY 2.0 FR
 - s_666750: italiano #666750 por Guybrush88 (https://tatoeba.org/en/sentences/show/666750); español #772600 por Shishir (https://tatoeba.org/en/sentences/show/772600) — CC BY 2.0 FR
 - s_6668447: italiano #6668447 por Guybrush88 (https://tatoeba.org/en/sentences/show/6668447); español #9963596 por manufrutos (https://tatoeba.org/en/sentences/show/9963596) — CC BY 2.0 FR
 - s_6668448: italiano #6668448 por Guybrush88 (https://tatoeba.org/en/sentences/show/6668448); español #9963596 por manufrutos (https://tatoeba.org/en/sentences/show/9963596) — CC BY 2.0 FR
 - s_6672216: italiano #6672216 por Guybrush88 (https://tatoeba.org/en/sentences/show/6672216); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_6689907: italiano #6689907 por Guybrush88 (https://tatoeba.org/en/sentences/show/6689907); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_6707078: italiano #6707078 por Guybrush88 (https://tatoeba.org/en/sentences/show/6707078); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_6707080: italiano #6707080 por Guybrush88 (https://tatoeba.org/en/sentences/show/6707080); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_6708640: italiano #6708640 por Guybrush88 (https://tatoeba.org/en/sentences/show/6708640); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_6708814: italiano #6708814 por Guybrush88 (https://tatoeba.org/en/sentences/show/6708814); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_671054: italiano #671054 por Guybrush88 (https://tatoeba.org/en/sentences/show/671054); español #3865848 por cueyayotl (https://tatoeba.org/en/sentences/show/3865848) — CC BY 2.0 FR
+- s_671602: italiano #671602 por Pharamp (https://tatoeba.org/en/sentences/show/671602); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_671770: italiano #671770 por Pharamp (https://tatoeba.org/en/sentences/show/671770); español #1369626 por hayastan (https://tatoeba.org/en/sentences/show/1369626) — CC BY 2.0 FR
 - s_671771: italiano #671771 por Pharamp (https://tatoeba.org/en/sentences/show/671771); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_6719614: italiano #6719614 por Guybrush88 (https://tatoeba.org/en/sentences/show/6719614); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -3201,6 +3489,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_6894788: italiano #6894788 por dnnywld (https://tatoeba.org/en/sentences/show/6894788); español #9995810 por carlosalberto (https://tatoeba.org/en/sentences/show/9995810) — CC BY 2.0 FR
 - s_690617: italiano #690617 por Guybrush88 (https://tatoeba.org/en/sentences/show/690617); español #1731622 por hayastan (https://tatoeba.org/en/sentences/show/1731622) — CC BY 2.0 FR
 - s_690651: italiano #690651 por rado (https://tatoeba.org/en/sentences/show/690651); español #962581 por hayastan (https://tatoeba.org/en/sentences/show/962581) — CC BY 2.0 FR
+- s_691383: italiano #691383 por Heracleum (https://tatoeba.org/en/sentences/show/691383); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_691439: italiano #691439 por Heracleum (https://tatoeba.org/en/sentences/show/691439); español #1138611 por Shishir (https://tatoeba.org/en/sentences/show/1138611) — CC BY 2.0 FR
 - s_6914546: italiano #6914546 por Guybrush88 (https://tatoeba.org/en/sentences/show/6914546); español #10492009 por Seael (https://tatoeba.org/en/sentences/show/10492009) — CC BY 2.0 FR
 - s_691464: italiano #691464 por Heracleum (https://tatoeba.org/en/sentences/show/691464); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -3220,14 +3509,19 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_6931409: italiano #6931409 por Guybrush88 (https://tatoeba.org/en/sentences/show/6931409); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_6932717: italiano #6932717 por Guybrush88 (https://tatoeba.org/en/sentences/show/6932717); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_693921: italiano #693921 por Heracleum (https://tatoeba.org/en/sentences/show/693921); español #864399 por pisclis (https://tatoeba.org/en/sentences/show/864399) — CC BY 2.0 FR
+- s_693958: italiano #693958 por Heracleum (https://tatoeba.org/en/sentences/show/693958); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_6942216: italiano #6942216 por Ricardo14 (https://tatoeba.org/en/sentences/show/6942216); español #6942213 por Ricardo14 (https://tatoeba.org/en/sentences/show/6942213) — CC BY 2.0 FR
 - s_694333: italiano #694333 por Heracleum (https://tatoeba.org/en/sentences/show/694333); español #580919 por Shishir (https://tatoeba.org/en/sentences/show/580919) — CC BY 2.0 FR
+- s_694337: italiano #694337 por Heracleum (https://tatoeba.org/en/sentences/show/694337); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_694513: italiano #694513 por Heracleum (https://tatoeba.org/en/sentences/show/694513); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_6975916: italiano #6975916 por Guybrush88 (https://tatoeba.org/en/sentences/show/6975916); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_698550: italiano #698550 por Guybrush88 (https://tatoeba.org/en/sentences/show/698550); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_6988135: italiano #6988135 por Guybrush88 (https://tatoeba.org/en/sentences/show/6988135); español #7996486 por Seael (https://tatoeba.org/en/sentences/show/7996486) — CC BY 2.0 FR
+- s_699598: italiano #699598 por Heracleum (https://tatoeba.org/en/sentences/show/699598); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_699743: italiano #699743 por Heracleum (https://tatoeba.org/en/sentences/show/699743); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_700874: italiano #700874 por Guybrush88 (https://tatoeba.org/en/sentences/show/700874); español #702435 por darinmex (https://tatoeba.org/en/sentences/show/702435) — CC BY 2.0 FR
 - s_701161: italiano #701161 por Heracleum (https://tatoeba.org/en/sentences/show/701161); español #1445298 por marcelostockle (https://tatoeba.org/en/sentences/show/1445298) — CC BY 2.0 FR
+- s_701196: italiano #701196 por Heracleum (https://tatoeba.org/en/sentences/show/701196); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_701203: italiano #701203 por Guybrush88 (https://tatoeba.org/en/sentences/show/701203); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_701212: italiano #701212 por Guybrush88 (https://tatoeba.org/en/sentences/show/701212); español #432192 por Leono (https://tatoeba.org/en/sentences/show/432192) — CC BY 2.0 FR
 - s_701460: italiano #701460 por Heracleum (https://tatoeba.org/en/sentences/show/701460); español #941494 por hayastan (https://tatoeba.org/en/sentences/show/941494) — CC BY 2.0 FR
@@ -3243,6 +3537,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_7037745: italiano #7037745 por Guybrush88 (https://tatoeba.org/en/sentences/show/7037745); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_7037817: italiano #7037817 por Guybrush88 (https://tatoeba.org/en/sentences/show/7037817); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_704153: italiano #704153 por Heracleum (https://tatoeba.org/en/sentences/show/704153); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_7045755: italiano #7045755 por Guybrush88 (https://tatoeba.org/en/sentences/show/7045755); español #11857931 por saverius (https://tatoeba.org/en/sentences/show/11857931) — CC BY 2.0 FR
 - s_7047758: italiano #7047758 por dnnywld (https://tatoeba.org/en/sentences/show/7047758); español #7901653 por Seael (https://tatoeba.org/en/sentences/show/7901653) — CC BY 2.0 FR
 - s_704847: italiano #704847 por Heracleum (https://tatoeba.org/en/sentences/show/704847); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_704976: italiano #704976 por Heracleum (https://tatoeba.org/en/sentences/show/704976); español #1189969 por marcelostockle (https://tatoeba.org/en/sentences/show/1189969) — CC BY 2.0 FR
@@ -3260,6 +3555,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_707930: italiano #707930 por Pharamp (https://tatoeba.org/en/sentences/show/707930); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_708295: italiano #708295 por Guybrush88 (https://tatoeba.org/en/sentences/show/708295); español #740605 por darinmex (https://tatoeba.org/en/sentences/show/740605) — CC BY 2.0 FR
 - s_708790: italiano #708790 por Heracleum (https://tatoeba.org/en/sentences/show/708790); español #552554 por Leono (https://tatoeba.org/en/sentences/show/552554) — CC BY 2.0 FR
+- s_7097942: italiano #7097942 por Guybrush88 (https://tatoeba.org/en/sentences/show/7097942); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_7101124: italiano #7101124 por Guybrush88 (https://tatoeba.org/en/sentences/show/7101124); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_710357: italiano #710357 por Heracleum (https://tatoeba.org/en/sentences/show/710357); español #1716141 por hayastan (https://tatoeba.org/en/sentences/show/1716141) — CC BY 2.0 FR
 - s_7104179: italiano #7104179 por Guybrush88 (https://tatoeba.org/en/sentences/show/7104179); español #10822418 por saverius (https://tatoeba.org/en/sentences/show/10822418) — CC BY 2.0 FR
@@ -3290,6 +3586,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_715654: italiano #715654 por Guybrush88 (https://tatoeba.org/en/sentences/show/715654); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_716072: italiano #716072 por Guybrush88 (https://tatoeba.org/en/sentences/show/716072); español #667054 por Shishir (https://tatoeba.org/en/sentences/show/667054) — CC BY 2.0 FR
 - s_716408: italiano #716408 por Guybrush88 (https://tatoeba.org/en/sentences/show/716408); español #780168 por leoruilova (https://tatoeba.org/en/sentences/show/780168) — CC BY 2.0 FR
+- s_716494: italiano #716494 por Guybrush88 (https://tatoeba.org/en/sentences/show/716494); español #673415 por darinmex (https://tatoeba.org/en/sentences/show/673415) — CC BY 2.0 FR
 - s_716973: italiano #716973 por Guybrush88 (https://tatoeba.org/en/sentences/show/716973); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_717772: italiano #717772 por Guybrush88 (https://tatoeba.org/en/sentences/show/717772); español #1003264 por hayastan (https://tatoeba.org/en/sentences/show/1003264) — CC BY 2.0 FR
 - s_717857: italiano #717857 por Guybrush88 (https://tatoeba.org/en/sentences/show/717857); español #743624 por Shishir (https://tatoeba.org/en/sentences/show/743624) — CC BY 2.0 FR
@@ -3303,6 +3600,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_719266: italiano #719266 por Guybrush88 (https://tatoeba.org/en/sentences/show/719266); español #1023232 por hayastan (https://tatoeba.org/en/sentences/show/1023232) — CC BY 2.0 FR
 - s_719331: italiano #719331 por Guybrush88 (https://tatoeba.org/en/sentences/show/719331); español #2752961 por Shishir (https://tatoeba.org/en/sentences/show/2752961) — CC BY 2.0 FR
 - s_719736: italiano #719736 por Guybrush88 (https://tatoeba.org/en/sentences/show/719736); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_720432: italiano #720432 por Heracleum (https://tatoeba.org/en/sentences/show/720432); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_7223868: italiano #7223868 por Guybrush88 (https://tatoeba.org/en/sentences/show/7223868); español #9793689 por DJ_Saidez (https://tatoeba.org/en/sentences/show/9793689) — CC BY 2.0 FR
 - s_723305: italiano #723305 por Guybrush88 (https://tatoeba.org/en/sentences/show/723305); español #10571124 por Adelpa (https://tatoeba.org/en/sentences/show/10571124) — CC BY 2.0 FR
 - s_724450: italiano #724450 por Guybrush88 (https://tatoeba.org/en/sentences/show/724450); español #436638 por lukaszpp (https://tatoeba.org/en/sentences/show/436638) — CC BY 2.0 FR
@@ -3327,13 +3625,16 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_740426: italiano #740426 por Guybrush88 (https://tatoeba.org/en/sentences/show/740426); español #743331 por chinopinyin (https://tatoeba.org/en/sentences/show/743331) — CC BY 2.0 FR
 - s_7414231: italiano #7414231 por Ricardo14 (https://tatoeba.org/en/sentences/show/7414231); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_741751: italiano #741751 por Pharamp (https://tatoeba.org/en/sentences/show/741751); español #1543030 por marcelostockle (https://tatoeba.org/en/sentences/show/1543030) — CC BY 2.0 FR
+- s_741773: italiano #741773 por Pharamp (https://tatoeba.org/en/sentences/show/741773); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_7418888: italiano #7418888 por Guybrush88 (https://tatoeba.org/en/sentences/show/7418888); español #10802765 por saverius (https://tatoeba.org/en/sentences/show/10802765) — CC BY 2.0 FR
 - s_742058: italiano #742058 por Guybrush88 (https://tatoeba.org/en/sentences/show/742058); español #855388 por Kokoo (https://tatoeba.org/en/sentences/show/855388) — CC BY 2.0 FR
 - s_7430249: italiano #7430249 por Guybrush88 (https://tatoeba.org/en/sentences/show/7430249); español #5769389 por arh (https://tatoeba.org/en/sentences/show/5769389) — CC BY 2.0 FR
 - s_7451728: italiano #7451728 por Guybrush88 (https://tatoeba.org/en/sentences/show/7451728); español #10923312 por Seael (https://tatoeba.org/en/sentences/show/10923312) — CC BY 2.0 FR
 - s_747029: italiano #747029 por Pharamp (https://tatoeba.org/en/sentences/show/747029); español #671877 por hayastan (https://tatoeba.org/en/sentences/show/671877) — CC BY 2.0 FR
+- s_749811: italiano #749811 por Guybrush88 (https://tatoeba.org/en/sentences/show/749811); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_749858: italiano #749858 por Guybrush88 (https://tatoeba.org/en/sentences/show/749858); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_749876: italiano #749876 por Guybrush88 (https://tatoeba.org/en/sentences/show/749876); español #811341 por Shishir (https://tatoeba.org/en/sentences/show/811341) — CC BY 2.0 FR
+- s_749939: italiano #749939 por Guybrush88 (https://tatoeba.org/en/sentences/show/749939); español #959644 por Shishir (https://tatoeba.org/en/sentences/show/959644) — CC BY 2.0 FR
 - s_7529340: italiano #7529340 por Valdast (https://tatoeba.org/en/sentences/show/7529340); español #7528178 por gianich73 (https://tatoeba.org/en/sentences/show/7528178) — CC BY 2.0 FR
 - s_7531590: italiano #7531590 por Guybrush88 (https://tatoeba.org/en/sentences/show/7531590); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_753335: italiano #753335 por Guybrush88 (https://tatoeba.org/en/sentences/show/753335); español #1639067 por Uvulaofdoom (https://tatoeba.org/en/sentences/show/1639067) — CC BY 2.0 FR
@@ -3362,6 +3663,9 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_759977: italiano #759977 por Guybrush88 (https://tatoeba.org/en/sentences/show/759977); español #999559 por ellasevia (https://tatoeba.org/en/sentences/show/999559) — CC BY 2.0 FR
 - s_760699: italiano #760699 por Pharamp (https://tatoeba.org/en/sentences/show/760699); español #2534 por Shishir (https://tatoeba.org/en/sentences/show/2534) — CC BY 2.0 FR
 - s_7610911: italiano #7610911 por dnnywld (https://tatoeba.org/en/sentences/show/7610911); español #10805387 por saverius (https://tatoeba.org/en/sentences/show/10805387) — CC BY 2.0 FR
+- s_761661: italiano #761661 por Guybrush88 (https://tatoeba.org/en/sentences/show/761661); español #1588904 por nancy (https://tatoeba.org/en/sentences/show/1588904) — CC BY 2.0 FR
+- s_7623222: italiano #7623222 por Guybrush88 (https://tatoeba.org/en/sentences/show/7623222); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_7623224: italiano #7623224 por Guybrush88 (https://tatoeba.org/en/sentences/show/7623224); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_762905: italiano #762905 por Guybrush88 (https://tatoeba.org/en/sentences/show/762905); español #1667568 por noams (https://tatoeba.org/en/sentences/show/1667568) — CC BY 2.0 FR
 - s_762997: italiano #762997 por Pharamp (https://tatoeba.org/en/sentences/show/762997); español #762993 por Shishir (https://tatoeba.org/en/sentences/show/762993) — CC BY 2.0 FR
 - s_7630523: italiano #7630523 por Guybrush88 (https://tatoeba.org/en/sentences/show/7630523); español #10799344 por saverius (https://tatoeba.org/en/sentences/show/10799344) — CC BY 2.0 FR
@@ -3400,6 +3704,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_7765340: italiano #7765340 por Guybrush88 (https://tatoeba.org/en/sentences/show/7765340); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_7766399: italiano #7766399 por Guybrush88 (https://tatoeba.org/en/sentences/show/7766399); español #7785413 por arh (https://tatoeba.org/en/sentences/show/7785413) — CC BY 2.0 FR
 - s_777326: italiano #777326 por Guybrush88 (https://tatoeba.org/en/sentences/show/777326); español #497588 por Shishir (https://tatoeba.org/en/sentences/show/497588) — CC BY 2.0 FR
+- s_778303: italiano #778303 por Pharamp (https://tatoeba.org/en/sentences/show/778303); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_778332: italiano #778332 por Pharamp (https://tatoeba.org/en/sentences/show/778332); español #866420 por Shishir (https://tatoeba.org/en/sentences/show/866420) — CC BY 2.0 FR
 - s_7789686: italiano #7789686 por Adelpa (https://tatoeba.org/en/sentences/show/7789686); español #7789736 por Adelpa (https://tatoeba.org/en/sentences/show/7789736) — CC BY 2.0 FR
 - s_7794216: italiano #7794216 por Adelpa (https://tatoeba.org/en/sentences/show/7794216); español #3379085 por marcelostockle (https://tatoeba.org/en/sentences/show/3379085) — CC BY 2.0 FR
@@ -3416,6 +3721,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_781162: italiano #781162 por Cocorico (https://tatoeba.org/en/sentences/show/781162); español #781370 por Shishir (https://tatoeba.org/en/sentences/show/781370) — CC BY 2.0 FR
 - s_781731: italiano #781731 por Guybrush88 (https://tatoeba.org/en/sentences/show/781731); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_7823134: italiano #7823134 por Guybrush88 (https://tatoeba.org/en/sentences/show/7823134); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_7824015: italiano #7824015 por Guybrush88 (https://tatoeba.org/en/sentences/show/7824015); español #886185 por darinmex (https://tatoeba.org/en/sentences/show/886185) — CC BY 2.0 FR
 - s_7831484: italiano #7831484 por Guybrush88 (https://tatoeba.org/en/sentences/show/7831484); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_7833887: italiano #7833887 por Guybrush88 (https://tatoeba.org/en/sentences/show/7833887); español #2253218 por cueyayotl (https://tatoeba.org/en/sentences/show/2253218) — CC BY 2.0 FR
 - s_7844545: italiano #7844545 por Guybrush88 (https://tatoeba.org/en/sentences/show/7844545); español #13538651 por Seael (https://tatoeba.org/en/sentences/show/13538651) — CC BY 2.0 FR
@@ -3426,6 +3732,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_788105: italiano #788105 por Pharamp (https://tatoeba.org/en/sentences/show/788105); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_7886288: italiano #7886288 por Guybrush88 (https://tatoeba.org/en/sentences/show/7886288); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_7901546: italiano #7901546 por Guybrush88 (https://tatoeba.org/en/sentences/show/7901546); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_791112: italiano #791112 por Pharamp (https://tatoeba.org/en/sentences/show/791112); español #791108 por chinopinyin (https://tatoeba.org/en/sentences/show/791108) — CC BY 2.0 FR
 - s_791143: italiano #791143 por Pharamp (https://tatoeba.org/en/sentences/show/791143); español #998361 por Shishir (https://tatoeba.org/en/sentences/show/998361) — CC BY 2.0 FR
 - s_791273: italiano #791273 por Pharamp (https://tatoeba.org/en/sentences/show/791273); español #984951 por Shishir (https://tatoeba.org/en/sentences/show/984951) — CC BY 2.0 FR
 - s_791282: italiano #791282 por Pharamp (https://tatoeba.org/en/sentences/show/791282); español #1355604 por marcelostockle (https://tatoeba.org/en/sentences/show/1355604) — CC BY 2.0 FR
@@ -3454,11 +3761,13 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_810615: italiano #810615 por Guybrush88 (https://tatoeba.org/en/sentences/show/810615); español #1694995 por hayastan (https://tatoeba.org/en/sentences/show/1694995) — CC BY 2.0 FR
 - s_812434: italiano #812434 por rado (https://tatoeba.org/en/sentences/show/812434); español #956794 por hundo (https://tatoeba.org/en/sentences/show/956794) — CC BY 2.0 FR
 - s_812801: italiano #812801 por rado (https://tatoeba.org/en/sentences/show/812801); español #956772 por hundo (https://tatoeba.org/en/sentences/show/956772) — CC BY 2.0 FR
+- s_814010: italiano #814010 por shoras (https://tatoeba.org/en/sentences/show/814010); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_8162756: italiano #8162756 por Guybrush88 (https://tatoeba.org/en/sentences/show/8162756); español #10298485 por Seael (https://tatoeba.org/en/sentences/show/10298485) — CC BY 2.0 FR
 - s_8179957: italiano #8179957 por Guybrush88 (https://tatoeba.org/en/sentences/show/8179957); español #559042 por Mazarilla (https://tatoeba.org/en/sentences/show/559042) — CC BY 2.0 FR
 - s_819231: italiano #819231 por Guybrush88 (https://tatoeba.org/en/sentences/show/819231); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_819232: italiano #819232 por Guybrush88 (https://tatoeba.org/en/sentences/show/819232); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_819785: italiano #819785 por Guybrush88 (https://tatoeba.org/en/sentences/show/819785); español #1070551 por qweruiop (https://tatoeba.org/en/sentences/show/1070551) — CC BY 2.0 FR
+- s_820620: italiano #820620 por rado (https://tatoeba.org/en/sentences/show/820620); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_8221051: italiano #8221051 por Guybrush88 (https://tatoeba.org/en/sentences/show/8221051); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_822438: italiano #822438 por Guybrush88 (https://tatoeba.org/en/sentences/show/822438); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_822958: italiano #822958 por Guybrush88 (https://tatoeba.org/en/sentences/show/822958); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -3467,6 +3776,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_8247926: italiano #8247926 por Guybrush88 (https://tatoeba.org/en/sentences/show/8247926); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_825688: italiano #825688 por rado (https://tatoeba.org/en/sentences/show/825688); español #879398 por Shishir (https://tatoeba.org/en/sentences/show/879398) — CC BY 2.0 FR
 - s_8258572: italiano #8258572 por Guybrush88 (https://tatoeba.org/en/sentences/show/8258572); español #10802544 por saverius (https://tatoeba.org/en/sentences/show/10802544) — CC BY 2.0 FR
+- s_826582: italiano #826582 por Guybrush88 (https://tatoeba.org/en/sentences/show/826582); español #573187 por Shishir (https://tatoeba.org/en/sentences/show/573187) — CC BY 2.0 FR
 - s_8267467: italiano #8267467 por Guybrush88 (https://tatoeba.org/en/sentences/show/8267467); español #13627658 por Seael (https://tatoeba.org/en/sentences/show/13627658) — CC BY 2.0 FR
 - s_828427: italiano #828427 por riccioberto (https://tatoeba.org/en/sentences/show/828427); español #450212 por catakaoe (https://tatoeba.org/en/sentences/show/450212) — CC BY 2.0 FR
 - s_828747: italiano #828747 por riccioberto (https://tatoeba.org/en/sentences/show/828747); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -3479,6 +3789,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_8376965: italiano #8376965 por Guybrush88 (https://tatoeba.org/en/sentences/show/8376965); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_8376999: italiano #8376999 por Guybrush88 (https://tatoeba.org/en/sentences/show/8376999); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_8377061: italiano #8377061 por Guybrush88 (https://tatoeba.org/en/sentences/show/8377061); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_837951: italiano #837951 por riccioberto (https://tatoeba.org/en/sentences/show/837951); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_8387263: italiano #8387263 por jacopofar (https://tatoeba.org/en/sentences/show/8387263); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_838753: italiano #838753 por Guybrush88 (https://tatoeba.org/en/sentences/show/838753); español #746510 por Shishir (https://tatoeba.org/en/sentences/show/746510) — CC BY 2.0 FR
 - s_839307: italiano #839307 por Guybrush88 (https://tatoeba.org/en/sentences/show/839307); español #1869750 por Shishir (https://tatoeba.org/en/sentences/show/1869750) — CC BY 2.0 FR
@@ -3502,11 +3813,16 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_851034: italiano #851034 por Guybrush88 (https://tatoeba.org/en/sentences/show/851034); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_851715: italiano #851715 por Guybrush88 (https://tatoeba.org/en/sentences/show/851715); español #627071 por Leono (https://tatoeba.org/en/sentences/show/627071) — CC BY 2.0 FR
 - s_851744: italiano #851744 por Guybrush88 (https://tatoeba.org/en/sentences/show/851744); español #974439 por marcelostockle (https://tatoeba.org/en/sentences/show/974439) — CC BY 2.0 FR
+- s_8550350: italiano #8550350 por Guybrush88 (https://tatoeba.org/en/sentences/show/8550350); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_8550351: italiano #8550351 por Guybrush88 (https://tatoeba.org/en/sentences/show/8550351); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_8550352: italiano #8550352 por Guybrush88 (https://tatoeba.org/en/sentences/show/8550352); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_8550353: italiano #8550353 por Guybrush88 (https://tatoeba.org/en/sentences/show/8550353); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_8552816: italiano #8552816 por Guybrush88 (https://tatoeba.org/en/sentences/show/8552816); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_8552817: italiano #8552817 por Guybrush88 (https://tatoeba.org/en/sentences/show/8552817); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_8552820: italiano #8552820 por Guybrush88 (https://tatoeba.org/en/sentences/show/8552820); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_8552821: italiano #8552821 por Guybrush88 (https://tatoeba.org/en/sentences/show/8552821); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_858099: italiano #858099 por miravalles (https://tatoeba.org/en/sentences/show/858099); español #669354 por Jose_Gomez (https://tatoeba.org/en/sentences/show/669354) — CC BY 2.0 FR
+- s_859423: italiano #859423 por Guybrush88 (https://tatoeba.org/en/sentences/show/859423); español #859429 por Shishir (https://tatoeba.org/en/sentences/show/859429) — CC BY 2.0 FR
 - s_860635: italiano #860635 por riccioberto (https://tatoeba.org/en/sentences/show/860635); español #861223 por manufrutos (https://tatoeba.org/en/sentences/show/861223) — CC BY 2.0 FR
 - s_860808: italiano #860808 por Guybrush88 (https://tatoeba.org/en/sentences/show/860808); español #434819 por lukaszpp (https://tatoeba.org/en/sentences/show/434819) — CC BY 2.0 FR
 - s_861024: italiano #861024 por Guybrush88 (https://tatoeba.org/en/sentences/show/861024); español #861229 por manufrutos (https://tatoeba.org/en/sentences/show/861229) — CC BY 2.0 FR
@@ -3540,6 +3856,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_8786466: italiano #8786466 por carlosalberto (https://tatoeba.org/en/sentences/show/8786466); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_878860: italiano #878860 por riccioberto (https://tatoeba.org/en/sentences/show/878860); español #3192858 por cueyayotl (https://tatoeba.org/en/sentences/show/3192858) — CC BY 2.0 FR
 - s_8797485: italiano #8797485 por carlosalberto (https://tatoeba.org/en/sentences/show/8797485); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_880149: italiano #880149 por riccioberto (https://tatoeba.org/en/sentences/show/880149); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_8803542: italiano #8803542 por carlosalberto (https://tatoeba.org/en/sentences/show/8803542); español #8803545 por carlosalberto (https://tatoeba.org/en/sentences/show/8803545) — CC BY 2.0 FR
 - s_880380: italiano #880380 por Guybrush88 (https://tatoeba.org/en/sentences/show/880380); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_8815567: italiano #8815567 por carlosalberto (https://tatoeba.org/en/sentences/show/8815567); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -3555,6 +3872,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_8890731: italiano #8890731 por Valdast (https://tatoeba.org/en/sentences/show/8890731); español #2482363 por Shishir (https://tatoeba.org/en/sentences/show/2482363) — CC BY 2.0 FR
 - s_8890732: italiano #8890732 por Valdast (https://tatoeba.org/en/sentences/show/8890732); español #4623178 por Shishir (https://tatoeba.org/en/sentences/show/4623178) — CC BY 2.0 FR
 - s_890913: italiano #890913 por Guybrush88 (https://tatoeba.org/en/sentences/show/890913); español #952806 por hayastan (https://tatoeba.org/en/sentences/show/952806) — CC BY 2.0 FR
+- s_890950: italiano #890950 por Guybrush88 (https://tatoeba.org/en/sentences/show/890950); español #1349525 por hayastan (https://tatoeba.org/en/sentences/show/1349525) — CC BY 2.0 FR
 - s_8916908: italiano #8916908 por carlosalberto (https://tatoeba.org/en/sentences/show/8916908); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_8925903: italiano #8925903 por Guybrush88 (https://tatoeba.org/en/sentences/show/8925903); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_893690: italiano #893690 por Guybrush88 (https://tatoeba.org/en/sentences/show/893690); español #634724 por Shishir (https://tatoeba.org/en/sentences/show/634724) — CC BY 2.0 FR
@@ -3569,13 +3887,17 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_896936: italiano #896936 por Guybrush88 (https://tatoeba.org/en/sentences/show/896936); español #956777 por hundo (https://tatoeba.org/en/sentences/show/956777) — CC BY 2.0 FR
 - s_897647: italiano #897647 por Guybrush88 (https://tatoeba.org/en/sentences/show/897647); español #10803025 por saverius (https://tatoeba.org/en/sentences/show/10803025) — CC BY 2.0 FR
 - s_897934: italiano #897934 por riccioberto (https://tatoeba.org/en/sentences/show/897934); español #875815 por alexmarcelo (https://tatoeba.org/en/sentences/show/875815) — CC BY 2.0 FR
+- s_8980603: italiano #8980603 por Guybrush88 (https://tatoeba.org/en/sentences/show/8980603); español #10087110 por saverius (https://tatoeba.org/en/sentences/show/10087110) — CC BY 2.0 FR
 - s_898424: italiano #898424 por Guybrush88 (https://tatoeba.org/en/sentences/show/898424); español #1203831 por marcelostockle (https://tatoeba.org/en/sentences/show/1203831) — CC BY 2.0 FR
 - s_898688: italiano #898688 por elgranjuego (https://tatoeba.org/en/sentences/show/898688); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_899254: italiano #899254 por riccioberto (https://tatoeba.org/en/sentences/show/899254); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_903238: italiano #903238 por Guybrush88 (https://tatoeba.org/en/sentences/show/903238); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_9036047: italiano #9036047 por carlosalberto (https://tatoeba.org/en/sentences/show/9036047); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_9044465: italiano #9044465 por carlosalberto (https://tatoeba.org/en/sentences/show/9044465); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_9045224: italiano #9045224 por Valdast (https://tatoeba.org/en/sentences/show/9045224); español #2056337 por lazarus1907 (https://tatoeba.org/en/sentences/show/2056337) — CC BY 2.0 FR
 - s_9049223: italiano #9049223 por carlosalberto (https://tatoeba.org/en/sentences/show/9049223); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_905671: italiano #905671 por riccioberto (https://tatoeba.org/en/sentences/show/905671); español #964703 por hundo (https://tatoeba.org/en/sentences/show/964703) — CC BY 2.0 FR
+- s_905717: italiano #905717 por riccioberto (https://tatoeba.org/en/sentences/show/905717); español #1031871 por hayastan (https://tatoeba.org/en/sentences/show/1031871) — CC BY 2.0 FR
 - s_9058944: italiano #9058944 por Guybrush88 (https://tatoeba.org/en/sentences/show/9058944); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_9059195: italiano #9059195 por Guybrush88 (https://tatoeba.org/en/sentences/show/9059195); español #13769415 por rul (https://tatoeba.org/en/sentences/show/13769415) — CC BY 2.0 FR
 - s_906044: italiano #906044 por Guybrush88 (https://tatoeba.org/en/sentences/show/906044); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -3588,8 +3910,12 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_916627: italiano #916627 por Guybrush88 (https://tatoeba.org/en/sentences/show/916627); español #545203 por Shishir (https://tatoeba.org/en/sentences/show/545203) — CC BY 2.0 FR
 - s_916628: italiano #916628 por Guybrush88 (https://tatoeba.org/en/sentences/show/916628); español #545206 por Shishir (https://tatoeba.org/en/sentences/show/545206) — CC BY 2.0 FR
 - s_9180675: italiano #9180675 por Guybrush88 (https://tatoeba.org/en/sentences/show/9180675); español #10799287 por saverius (https://tatoeba.org/en/sentences/show/10799287) — CC BY 2.0 FR
+- s_9211547: italiano #9211547 por Guybrush88 (https://tatoeba.org/en/sentences/show/9211547); español #9226722 por arh (https://tatoeba.org/en/sentences/show/9226722) — CC BY 2.0 FR
+- s_921335: italiano #921335 por riccioberto (https://tatoeba.org/en/sentences/show/921335); español #956719 por hundo (https://tatoeba.org/en/sentences/show/956719) — CC BY 2.0 FR
+- s_921343: italiano #921343 por riccioberto (https://tatoeba.org/en/sentences/show/921343); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_922822: italiano #922822 por Guybrush88 (https://tatoeba.org/en/sentences/show/922822); español #671740 por Shishir (https://tatoeba.org/en/sentences/show/671740) — CC BY 2.0 FR
 - s_926998: italiano #926998 por riccioberto (https://tatoeba.org/en/sentences/show/926998); español #475712 por Shishir (https://tatoeba.org/en/sentences/show/475712) — CC BY 2.0 FR
+- s_928127: italiano #928127 por riccioberto (https://tatoeba.org/en/sentences/show/928127); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_929106: italiano #929106 por Guybrush88 (https://tatoeba.org/en/sentences/show/929106); español #1047581 por Shishir (https://tatoeba.org/en/sentences/show/1047581) — CC BY 2.0 FR
 - s_929180: italiano #929180 por Guybrush88 (https://tatoeba.org/en/sentences/show/929180); español #1536381 por marcelostockle (https://tatoeba.org/en/sentences/show/1536381) — CC BY 2.0 FR
 - s_930216: italiano #930216 por Guybrush88 (https://tatoeba.org/en/sentences/show/930216); español #1797618 por marcelostockle (https://tatoeba.org/en/sentences/show/1797618) — CC BY 2.0 FR
@@ -3597,14 +3923,18 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_933144: italiano #933144 por Guybrush88 (https://tatoeba.org/en/sentences/show/933144); español #1622050 por teskmon (https://tatoeba.org/en/sentences/show/1622050) — CC BY 2.0 FR
 - s_934324: italiano #934324 por Guybrush88 (https://tatoeba.org/en/sentences/show/934324); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_934412: italiano #934412 por rado (https://tatoeba.org/en/sentences/show/934412); español #1500472 por hayastan (https://tatoeba.org/en/sentences/show/1500472) — CC BY 2.0 FR
+- s_934492: italiano #934492 por zhou24 (https://tatoeba.org/en/sentences/show/934492); español #464381 por lukaszpp (https://tatoeba.org/en/sentences/show/464381) — CC BY 2.0 FR
 - s_935010: italiano #935010 por Guybrush88 (https://tatoeba.org/en/sentences/show/935010); español #2644 por Raimondi (https://tatoeba.org/en/sentences/show/2644) — CC BY 2.0 FR
 - s_935201: italiano #935201 por Guybrush88 (https://tatoeba.org/en/sentences/show/935201); español #945479 por hayastan (https://tatoeba.org/en/sentences/show/945479) — CC BY 2.0 FR
 - s_935771: italiano #935771 por Guybrush88 (https://tatoeba.org/en/sentences/show/935771); español #1074913 por Shishir (https://tatoeba.org/en/sentences/show/1074913) — CC BY 2.0 FR
 - s_938030: italiano #938030 por riccioberto (https://tatoeba.org/en/sentences/show/938030); español #627149 por darinmex (https://tatoeba.org/en/sentences/show/627149) — CC BY 2.0 FR
+- s_940163: italiano #940163 por riccioberto (https://tatoeba.org/en/sentences/show/940163); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_940956: italiano #940956 por zhou24 (https://tatoeba.org/en/sentences/show/940956); español #949182 por hayastan (https://tatoeba.org/en/sentences/show/949182) — CC BY 2.0 FR
 - s_941983: italiano #941983 por riccioberto (https://tatoeba.org/en/sentences/show/941983); español #346576 por tatoerique (https://tatoeba.org/en/sentences/show/346576) — CC BY 2.0 FR
 - s_945585: italiano #945585 por Guybrush88 (https://tatoeba.org/en/sentences/show/945585); español #966299 por Shishir (https://tatoeba.org/en/sentences/show/966299) — CC BY 2.0 FR
 - s_945591: italiano #945591 por Guybrush88 (https://tatoeba.org/en/sentences/show/945591); español #1785304 por marcelostockle (https://tatoeba.org/en/sentences/show/1785304) — CC BY 2.0 FR
+- s_945974: italiano #945974 por Guybrush88 (https://tatoeba.org/en/sentences/show/945974); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_946207: italiano #946207 por Guybrush88 (https://tatoeba.org/en/sentences/show/946207); español #1279981 por marcelostockle (https://tatoeba.org/en/sentences/show/1279981) — CC BY 2.0 FR
 - s_946623: italiano #946623 por Guybrush88 (https://tatoeba.org/en/sentences/show/946623); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_946701: italiano #946701 por riccioberto (https://tatoeba.org/en/sentences/show/946701); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_946936: italiano #946936 por riccioberto (https://tatoeba.org/en/sentences/show/946936); español #947269 por hayastan (https://tatoeba.org/en/sentences/show/947269) — CC BY 2.0 FR
@@ -3615,8 +3945,11 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_948351: italiano #948351 por Guybrush88 (https://tatoeba.org/en/sentences/show/948351); español #949149 por hayastan (https://tatoeba.org/en/sentences/show/949149) — CC BY 2.0 FR
 - s_948354: italiano #948354 por Guybrush88 (https://tatoeba.org/en/sentences/show/948354); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_948967: italiano #948967 por Guybrush88 (https://tatoeba.org/en/sentences/show/948967); español #2099952 por marcelostockle (https://tatoeba.org/en/sentences/show/2099952) — CC BY 2.0 FR
+- s_949486: italiano #949486 por riccioberto (https://tatoeba.org/en/sentences/show/949486); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_949664: italiano #949664 por riccioberto (https://tatoeba.org/en/sentences/show/949664); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_950172: italiano #950172 por Guybrush88 (https://tatoeba.org/en/sentences/show/950172); español #1009865 por Shishir (https://tatoeba.org/en/sentences/show/1009865) — CC BY 2.0 FR
 - s_950173: italiano #950173 por Guybrush88 (https://tatoeba.org/en/sentences/show/950173); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_950242: italiano #950242 por riccioberto (https://tatoeba.org/en/sentences/show/950242); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_950359: italiano #950359 por riccioberto (https://tatoeba.org/en/sentences/show/950359); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_951720: italiano #951720 por Guybrush88 (https://tatoeba.org/en/sentences/show/951720); español #12390261 por Adelpa (https://tatoeba.org/en/sentences/show/12390261) — CC BY 2.0 FR
 - s_954956: italiano #954956 por Guybrush88 (https://tatoeba.org/en/sentences/show/954956); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -3629,6 +3962,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_963675: italiano #963675 por Guybrush88 (https://tatoeba.org/en/sentences/show/963675); español #995661 por Shishir (https://tatoeba.org/en/sentences/show/995661) — CC BY 2.0 FR
 - s_963720: italiano #963720 por Guybrush88 (https://tatoeba.org/en/sentences/show/963720); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_965245: italiano #965245 por riccioberto (https://tatoeba.org/en/sentences/show/965245); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_965377: italiano #965377 por Guybrush88 (https://tatoeba.org/en/sentences/show/965377); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_965625: italiano #965625 por riccioberto (https://tatoeba.org/en/sentences/show/965625); español #992249 por hayastan (https://tatoeba.org/en/sentences/show/992249) — CC BY 2.0 FR
 - s_967260: italiano #967260 por riccioberto (https://tatoeba.org/en/sentences/show/967260); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_967672: italiano #967672 por Guybrush88 (https://tatoeba.org/en/sentences/show/967672); español #967675 por hundo (https://tatoeba.org/en/sentences/show/967675) — CC BY 2.0 FR
@@ -3636,6 +3970,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_967709: italiano #967709 por Guybrush88 (https://tatoeba.org/en/sentences/show/967709); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_967950: italiano #967950 por Guybrush88 (https://tatoeba.org/en/sentences/show/967950); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_9690082: italiano #9690082 por Guybrush88 (https://tatoeba.org/en/sentences/show/9690082); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_969310: italiano #969310 por riccioberto (https://tatoeba.org/en/sentences/show/969310); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_969345: italiano #969345 por riccioberto (https://tatoeba.org/en/sentences/show/969345); español #969583 por Shishir (https://tatoeba.org/en/sentences/show/969583) — CC BY 2.0 FR
 - s_969543: italiano #969543 por Guybrush88 (https://tatoeba.org/en/sentences/show/969543); español #969571 por Shishir (https://tatoeba.org/en/sentences/show/969571) — CC BY 2.0 FR
 - s_9706447: italiano #9706447 por Guybrush88 (https://tatoeba.org/en/sentences/show/9706447); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
@@ -3663,6 +3998,7 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_977439: italiano #977439 por hundo (https://tatoeba.org/en/sentences/show/977439); español #977473 por hundo (https://tatoeba.org/en/sentences/show/977473) — CC BY 2.0 FR
 - s_977440: italiano #977440 por hundo (https://tatoeba.org/en/sentences/show/977440); español #977472 por hundo (https://tatoeba.org/en/sentences/show/977472) — CC BY 2.0 FR
 - s_977536: italiano #977536 por riccioberto (https://tatoeba.org/en/sentences/show/977536); español #855365 por fran_trujillo (https://tatoeba.org/en/sentences/show/855365) — CC BY 2.0 FR
+- s_977544: italiano #977544 por riccioberto (https://tatoeba.org/en/sentences/show/977544); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_977762: italiano #977762 por Guybrush88 (https://tatoeba.org/en/sentences/show/977762); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_978308: italiano #978308 por riccioberto (https://tatoeba.org/en/sentences/show/978308); español #871995 por melissa83 (https://tatoeba.org/en/sentences/show/871995) — CC BY 2.0 FR
 - s_978795: italiano #978795 por riccioberto (https://tatoeba.org/en/sentences/show/978795); español #978801 por hayastan (https://tatoeba.org/en/sentences/show/978801) — CC BY 2.0 FR
@@ -3674,12 +4010,16 @@ Las oraciones de esta carpeta provienen de [Tatoeba](https://tatoeba.org) y se u
 - s_984718: italiano #984718 por riccioberto (https://tatoeba.org/en/sentences/show/984718); español #757599 por Shishir (https://tatoeba.org/en/sentences/show/757599) — CC BY 2.0 FR
 - s_984731: italiano #984731 por riccioberto (https://tatoeba.org/en/sentences/show/984731); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_987163: italiano #987163 por rado (https://tatoeba.org/en/sentences/show/987163); español #2766977 por estambulista (https://tatoeba.org/en/sentences/show/2766977) — CC BY 2.0 FR
+- s_987797: italiano #987797 por riccioberto (https://tatoeba.org/en/sentences/show/987797); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_987822: italiano #987822 por riccioberto (https://tatoeba.org/en/sentences/show/987822); español #564219 por darinmex (https://tatoeba.org/en/sentences/show/564219) — CC BY 2.0 FR
 - s_987826: italiano #987826 por riccioberto (https://tatoeba.org/en/sentences/show/987826); español #2444302 por fgreco (https://tatoeba.org/en/sentences/show/2444302) — CC BY 2.0 FR
+- s_988471: italiano #988471 por riccioberto (https://tatoeba.org/en/sentences/show/988471); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_989675: italiano #989675 por riccioberto (https://tatoeba.org/en/sentences/show/989675); español #576080 por darinmex (https://tatoeba.org/en/sentences/show/576080) — CC BY 2.0 FR
 - s_989686: italiano #989686 por riccioberto (https://tatoeba.org/en/sentences/show/989686); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
+- s_989824: italiano #989824 por riccioberto (https://tatoeba.org/en/sentences/show/989824); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_989905: italiano #989905 por riccioberto (https://tatoeba.org/en/sentences/show/989905); español #989549 por hayastan (https://tatoeba.org/en/sentences/show/989549) — CC BY 2.0 FR
 - s_990389: italiano #990389 por riccioberto (https://tatoeba.org/en/sentences/show/990389); español #990398 por hayastan (https://tatoeba.org/en/sentences/show/990398) — CC BY 2.0 FR
+- s_991812: italiano #991812 por riccioberto (https://tatoeba.org/en/sentences/show/991812); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_9920566: italiano #9920566 por Guybrush88 (https://tatoeba.org/en/sentences/show/9920566); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_9922632: italiano #9922632 por fullyfledged_pigeon (https://tatoeba.org/en/sentences/show/9922632); español: traducción generada por IA a partir del italiano — CC BY 2.0 FR
 - s_992597: italiano #992597 por Guybrush88 (https://tatoeba.org/en/sentences/show/992597); español #992643 por hayastan (https://tatoeba.org/en/sentences/show/992643) — CC BY 2.0 FR

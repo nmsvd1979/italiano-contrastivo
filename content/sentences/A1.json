@@ -4341,6 +4341,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Tom ya no está viviendo en Boston.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1439757",
+    "id": "s_1122031",
+    "it": "Tom non vive più a Boston.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1122031",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PREP_PLACE"
     ],
     "es": "Tom vive en Boston.",
@@ -8331,6 +8353,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Adelpa",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no llueve.",
+    "es_author": "arh",
+    "es_source_id": "8189028",
+    "id": "s_12604083",
+    "it": "Non piove più.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12604083",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -8552,6 +8596,30 @@
     "source_id": "1265972",
     "tag_rules": {
       "ERR_PREP_FIXED_GOV": "preposizione_governo_fisso"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no eres un niño.",
+    "es_author": "tatoerique",
+    "es_source_id": "345843",
+    "id": "s_1268766",
+    "it": "Non sei più una bambina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1268766",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -11527,6 +11595,30 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Adelpa",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no me acuerdo de su nombre.",
+    "es_author": "ildefonk",
+    "es_source_id": "861984",
+    "id": "s_13307972",
+    "it": "Non ricordo più il suo nome.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13307972",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -12834,6 +12926,28 @@
     "source_id": "1389728",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "No tengo más tiempo para nada.",
+    "es_author": "hayastan",
+    "es_source_id": "1395775",
+    "id": "s_1395772",
+    "it": "Non ho più tempo per nulla.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1395772",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "IdiomHunter",
@@ -16232,6 +16346,30 @@
     "source_id": "1652871",
     "tag_rules": {
       "ERR_PLURAL_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no eres mi amigo.",
+    "es_author": "Shishir",
+    "es_source_id": "1687170",
+    "id": "s_1653296",
+    "it": "Non sei più mio amico.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1653296",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -22504,6 +22642,28 @@
     "source_id": "2433745",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Él ya no bebe.",
+    "es_author": "Shishir",
+    "es_source_id": "10204353",
+    "id": "s_2435893",
+    "it": "Non beve più.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2435893",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "al_ex_an_der",
@@ -29690,6 +29850,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "faehrmann",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Estuvimos afuera.",
+    "es_author": "IA (Claude)",
+    "id": "s_3081279",
+    "it": "Siamo stati fuori.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3081279",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "rado",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -33668,6 +33851,30 @@
     "source": "tatoeba",
     "source_id": "350770",
     "tag_rules": {},
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "No voy a volver.",
+    "es_author": "Fanki",
+    "es_source_id": "726553",
+    "id": "s_3507703",
+    "it": "Non torno più.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3507703",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
     "translation_kind": "direct"
   },
   {
@@ -47137,6 +47344,52 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Estuvimos aquí dos días.",
+    "es_author": "IA (Claude)",
+    "id": "s_4415930",
+    "it": "Siamo stati qui per due giorni.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4415930",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Estuvimos aquí dos días.",
+    "es_author": "IA (Claude)",
+    "id": "s_4415932",
+    "it": "Siamo state qui per due giorni.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4415932",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_IRREGULAR"
     ],
     "es": "Estoy intentando protegerte.",
@@ -49529,6 +49782,52 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Estuvimos juntos un año.",
+    "es_author": "IA (Claude)",
+    "id": "s_4698298",
+    "it": "Siamo stati insieme per un anno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4698298",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Estuvimos juntas un año.",
+    "es_author": "IA (Claude)",
+    "id": "s_4698302",
+    "it": "Siamo state insieme per un anno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4698302",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -50553,6 +50852,28 @@
       "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no trabajamos para Tom.",
+    "es_author": "Shishir",
+    "es_source_id": "10142388",
+    "id": "s_4953049",
+    "it": "Noi non lavoriamo più per Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4953049",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -52574,6 +52895,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Estuvimos en casa anoche.",
+    "es_author": "IA (Claude)",
+    "id": "s_5339513",
+    "it": "Siamo stati a casa ieri sera.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5339513",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_MODAL"
     ],
     "es": "¿Podemos irnos?",
@@ -53114,6 +53459,28 @@
       "ERR_VOC_DENARO": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no soy vegetariano.",
+    "es_author": "enteka",
+    "es_source_id": "1307908",
+    "id": "s_539113",
+    "it": "Non sono più vegetariano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "539113",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -58946,6 +59313,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no eres un niño.",
+    "es_author": "tatoerique",
+    "es_source_id": "345843",
+    "id": "s_663766",
+    "it": "Non sei più un bambino.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "663766",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_NUMERI"
     ],
     "es": "Tiene más de cinco diccionarios.",
@@ -59075,6 +59466,52 @@
     "source_id": "6689907",
     "tag_rules": {
       "ERR_PRESENT_ERE_IRE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Dónde estuvieron ustedes esta semana?",
+    "es_author": "IA (Claude)",
+    "id": "s_6707078",
+    "it": "Dove siete stati questa settimana?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6707078",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Dónde estuvieron ustedes esta semana?",
+    "es_author": "IA (Claude)",
+    "id": "s_6707080",
+    "it": "Dove siete state questa settimana?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6707080",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -65429,6 +65866,98 @@
       "ERR_VOC_INTERROG": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Estuvimos allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_8550350",
+    "it": "Siamo stati lì.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8550350",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Estuvimos allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_8550351",
+    "it": "Siamo state lì.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8550351",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Estuvimos allá.",
+    "es_author": "IA (Claude)",
+    "id": "s_8550352",
+    "it": "Siamo stati là.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8550352",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Estuvimos allá.",
+    "es_author": "IA (Claude)",
+    "id": "s_8550353",
+    "it": "Siamo state là.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8550353",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",

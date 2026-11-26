@@ -89,8 +89,30 @@ def voices_of(sentences: list[dict]) -> dict[str, int]:
     return voices if len(voices) >= 2 else {}
 
 
+_A2_MODULE = re.compile(r"^(?:ls|rd|doc)_a2m(\d\d)")
+_A2_HITO = re.compile(r"^(?:ls|rd|doc)_a2hito")
+
+
+def built_only(readings: list[dict], course: dict) -> list[dict]:
+    """Los textos de A2 se escribieron todos antes de construir los módulos (Fase 4), pero solo viajan en el paquete (y reciben audio) los de módulos que
+    ya están en el curso, y los del examen de hito cuando el hito de A2 está abierto. Así no se paga peso ni audio por módulos sin construir."""
+    built = {m["id"] for m in course.get("modules", [])}
+    hito = any(l["id"] == "A2" and l.get("milestone") for l in course.get("levels", []))
+    out = []
+    for r in readings:
+        m = _A2_MODULE.match(r["id"])
+        if m and f"a2m{m.group(1)}" not in built:
+            continue
+        if _A2_HITO.match(r["id"]) and not hito:
+            continue
+        out.append(r)
+    return out
+
+
 def build_pack(src_dir: Path, pack_dir: Path) -> list[dict]:
-    readings = load_readings(src_dir)
+    from pipeline.exercises.course import load_course
+
+    readings = built_only(load_readings(src_dir), load_course())
     pack = []
     for r in readings:
         d = {k: r[k] for k in ("id", "title", "level", "kind", "source", "translation", "questions")}

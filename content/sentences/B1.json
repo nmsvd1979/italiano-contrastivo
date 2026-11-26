@@ -57,6 +57,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Nuel",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Me he sentido como un tonto.",
+    "es_author": "saverius",
+    "es_source_id": "10251170",
+    "id": "s_10249854",
+    "it": "Mi sono sentito uno sciocco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10249854",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "elgranjuego",
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
@@ -708,6 +730,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "IdiomHunter",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Me gradué en historia.",
+    "es_author": "dexiee",
+    "es_source_id": "1006991",
+    "id": "s_13970900",
+    "it": "Mi sono laureato in storia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13970900",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "unforgiven95",
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
@@ -1229,6 +1273,28 @@
       "ERR_C_G_PALATAL": "c_g_palatale"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Se dieron un apretón de manos.",
+    "es_author": "roimg3",
+    "es_source_id": "883750",
+    "id": "s_2846987",
+    "it": "Si sono dati la mano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2846987",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -1877,6 +1943,28 @@
       "ERR_PRONOMINAL_VERB": "verbo_pronominale"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Usted malinterpretó lo que escribí.",
+    "es_author": "carlosalberto",
+    "es_source_id": "3442088",
+    "id": "s_3441647",
+    "it": "Hai letto male ciò che ho scritto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3441647",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -2999,6 +3087,28 @@
     "source_id": "6047086",
     "tag_rules": {
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "He sido la última en verlo.",
+    "es_author": "saverius",
+    "es_source_id": "11816455",
+    "id": "s_6067788",
+    "it": "Sono stata l'ultima a vederlo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6067788",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
     },
     "translation_kind": "direct"
   },

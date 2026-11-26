@@ -7,6 +7,8 @@ from pipeline.exercises.calques import find_calque
 # Códigos que el detector de escritura de la web (web/src/writing/detect.ts) sabe reconocer.
 DETECTOR_CODES = ("ERR_AUX_ESSERE", "ERR_PREP_PLACE", "ERR_CE_AGREEMENT", "ERR_PERSONAL_A", "ERR_POSSESSIVE_ARTICLE",
                   "ERR_PREP_ARTICLE_CONTRACTION", "ERR_COMPARATIVE_DI", "ERR_TENERE_AVERE")
+# Las reglas de A2 del detector (mi ho, ho stato, lo che…) se prueban con casos escritos en detect.test.ts: sus formas erróneas son muchas más
+# de las que una regla de riesgo casi nulo reconoce («abbiamo sempre stato», «sei già cenato»), así que no se exige que cubra todos los pares generados.
 
 
 def build_pairs(sentences_json: Path) -> list[dict]:

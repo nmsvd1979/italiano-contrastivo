@@ -451,6 +451,41 @@
       "writing_es": "Escribe un mensaje para dejar en un contestador: quién eres, por qué llamas y a qué número te pueden llamar.",
       "library": "integrazione-migranti",
       "library_task_es": "Abre un curso A1 de Integrazione Migranti y mira una lección sobre servicios."
+    },
+    {
+      "id": "a2m01",
+      "level": "A2",
+      "title": "Contar lo que hiciste",
+      "can_do_es": [
+        "Contar qué hiciste ayer o el fin de semana con passato prossimo.",
+        "Elegir avere o essere y concordar el participio.",
+        "Preguntar a otros qué hicieron y cuándo."
+      ],
+      "units": [
+        "u75",
+        "u76",
+        "u77",
+        "u09",
+        "u78"
+      ],
+      "entry_reading": "rd_giornatabrutta",
+      "roleplays": [
+        "rp_a2m01_a",
+        "rp_a2m01_b"
+      ],
+      "tasks": [
+        "ht_a2m01"
+      ],
+      "phrase_groups": [],
+      "library": "piacere",
+      "library_task_es": "Lee la «Lettura» y haz la «Conversazione» del capítulo de passato prossimo de Piacere!; después cuéntale en voz alta a alguien lo que hiciste ayer.",
+      "writing_es": "Cuenta en 40–60 palabras qué hiciste ayer, en italiano. Incluye al menos 3 verbos con avere, 2 con essere y un verbo reflexivo en pasado («mi sono alzato/a»).",
+      "writing_short_es": "Escribe un mensaje de 25–50 palabras a un amigo para contarle cómo estuvo tu fin de semana. Usa «già» o «non… più» y al menos una vez «è piaciuto» o «sono andato/a».",
+      "extra_readings": [
+        "ls_a2m01",
+        "doc_a2m01_agenda",
+        "vh_a2m01"
+      ]
     }
   ],
   "units": [
@@ -1883,18 +1918,62 @@
       ],
       "why_here": "Cierra el área «oficinas públicas y servicios» del programa A1: mandar un paquete, llenar un formulario, comprar un boleto.",
       "ficha_es": "En la oficina de correos o en una ventanilla: la posta (correo), il pacco (paquete), la busta (sobre), il francobollo (estampilla), la cartolina (postal), il modulo (formulario), lo sportello (ventanilla), la biglietteria (boletería), la dogana (aduana), la polizia (policía).\n\nTrámites útiles: Compili questo modulo. Ho bisogno di un francobollo. Dov'è la biglietteria?"
+    },
+    {
+      "id": "u75",
+      "level": "A2",
+      "title": "Participios que el español no anticipa",
+      "goal_es": "Participios que el español no anticipa",
+      "codes": [
+        "ERR_PP_PARTICIPI_IRREG"
+      ],
+      "why_here": "El fin de semana, ayer, un viaje: contar lo que hiciste y preguntar a otros.",
+      "ficha_es": "Algunos participios italianos son irregulares aunque el verbo se parezca al español: prendere → preso (no *prenduto), mettere → messo, chiudere → chiuso, leggere → letto, decidere → deciso, chiedere → chiesto, scegliere → scelto, rispondere → risposto, spendere → speso. Hay que aprenderlos como formas propias.\n\nError típico: *prenduto, *chiudito, *leggiuto, *metuto → preso, chiuso, letto, messo; también *vendito/*ricevito → venduto/ricevuto. Válido y no es error: veduto y perduto (válidos); fatto, detto, scritto, aperto (no son errores típicos: el español también es irregular)"
+    },
+    {
+      "id": "u76",
+      "level": "A2",
+      "title": "¿Avere o essere?",
+      "goal_es": "¿Avere o essere?",
+      "codes": [
+        "ERR_PP_AUSILIARE"
+      ],
+      "why_here": "El fin de semana, ayer, un viaje: contar lo que hiciste y preguntar a otros.",
+      "ficha_es": "El español usa siempre «haber» (he estado, me ha gustado, se ha quedado). En italiano estos verbos piden essere: sono stato, mi è piaciuto, sono rimasto, sono diventato, sono riuscito. Al revés, verbos como camminare, viaggiare, dormire o nuotare piden avere: ho camminato (no *sono camminato).\n\nError típico: *ha piaciuto, *ha costato, *ho stato, *ha rimasto → è piaciuto, è costato, sono stato, è rimasto; y en sentido contrario *sono camminato, *sono viaggiato → ho camminato, ho viaggiato. Válido y no es error: ha successo (= tener éxito); sono corso a casa / ho corso; ho/sono salito, ho/sono cambiato, ho/è finito, ha/è piovuto (doble auxiliar); ho dovuto andare / sono dovuto andare"
+    },
+    {
+      "id": "u77",
+      "level": "A2",
+      "title": "Reflexivos en pasado",
+      "goal_es": "Reflexivos en pasado",
+      "codes": [
+        "ERR_REFLEXIVE_AUX"
+      ],
+      "why_here": "El fin de semana, ayer, un viaje: contar lo que hiciste y preguntar a otros.",
+      "ficha_es": "Los reflexivos forman los tiempos compuestos con essere (mi sono sentito); el español usa siempre haber (me he sentido).\n\nError típico: *mi ho alzato, *si ha svegliato → mi sono alzato/a, si è svegliato/a. Válido y no es error: mi sono dovuto alzare / ho dovuto alzarmi (las dos valen)"
+    },
+    {
+      "id": "u78",
+      "level": "A2",
+      "title": "Già, non… ancora, appena, non… più, mai",
+      "goal_es": "Già, non… ancora, appena, non… più, mai",
+      "codes": [
+        "ERR_AVVERBI_PASSATO"
+      ],
+      "why_here": "El fin de semana, ayer, un viaje: contar lo que hiciste y preguntar a otros.",
+      "ficha_es": "Con el passato prossimo, già, appena, ancora, mai y sempre van entre el auxiliar y el participio (ho già mangiato, sono appena arrivato, non ho ancora deciso). «Ya no» es non… più (non abito più), no *già non; «acabo de» es appena (sono appena arrivato), no *finisco di.\n\nError típico: *già non abito → non abito più; *finisco di arrivare → sono appena arrivato; *non ho mai (ya) visto/ancora non ho mangiato (coloquial). Válido y no es error: ancora non ho mangiato (válido, menos frecuente)"
     }
   ],
   "planned": [
     {
       "level": "A2",
       "title": "Passato prossimo e imperfetto",
-      "reason": "Sin generador de ejercicios fiable todavía."
+      "reason": "Se enseña en los módulos 2 y 3 de A2 (en construcción)."
     },
     {
       "level": "A2",
       "title": "Ci y ne",
-      "reason": "Sin generador fiable todavía."
+      "reason": "Se enseña en los módulos 4 y 9 de A2 (en construcción)."
     },
     {
       "level": "B1",

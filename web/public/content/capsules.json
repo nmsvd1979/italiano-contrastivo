@@ -10903,6 +10903,158 @@
     "cefr": "A2",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Tildes puestas por analogía con el español: en italiano las palabras llanas no llevan tilde (perdere, no pérdere); solo se escribe acento en la vocal final de las agudas (parlerò, città)."
+    },
+    "id": "cap_err_accent_transfer",
+    "retrieval": [
+      {
+        "id": "it_choice_s_3637742_ERR_ACCENT_TRANSFER",
+        "options": [
+          {
+            "correct": true,
+            "text": "Mi manchi così tanto."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_ACCENT_TRANSFER",
+            "text": "Mi manchi cosi tanto."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3637742",
+        "target_error_codes": [
+          "ERR_ACCENT_TRANSFER"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "così"
+        ],
+        "hint_es": "Los extraño tanto.",
+        "id": "it_cloze_s_3637746_ERR_ACCENT_TRANSFER",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3637746",
+        "target_error_codes": [
+          "ERR_ACCENT_TRANSFER"
+        ],
+        "text": "Mi mancate ___ tanto.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Sento",
+          "già",
+          "l'odore",
+          "salato",
+          "dell'oceano."
+        ],
+        "id": "it_reorder_s_14034621_ERR_ACCENT_TRANSFER",
+        "prompt_es": "Ordena las palabras: «Ya huelo el salado olor del océano.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_14034621",
+        "target_error_codes": [
+          "ERR_ACCENT_TRANSFER"
+        ],
+        "tokens": [
+          "salato",
+          "già",
+          "dell'oceano.",
+          "Sento",
+          "l'odore"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_381874_ERR_ACCENT_TRANSFER",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_ACCENT_TRANSFER",
+            "text": "Il film era cosi triste che tutti hanno pianto."
+          },
+          {
+            "correct": true,
+            "text": "Il film era così triste che tutti hanno pianto."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_381874",
+        "target_error_codes": [
+          "ERR_ACCENT_TRANSFER"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "più"
+        ],
+        "hint_es": "¿Hay algo más estúpido y odioso que la burocracia universitaria?",
+        "id": "it_cloze_s_1072949_ERR_ACCENT_TRANSFER",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1072949",
+        "target_error_codes": [
+          "ERR_ACCENT_TRANSFER"
+        ],
+        "text": "Esiste qualcosa di ___ stupido e odioso della burocrazia universitaria?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Magari",
+          "fosse",
+          "davvero",
+          "così!"
+        ],
+        "id": "it_reorder_s_3165434_ERR_ACCENT_TRANSFER",
+        "prompt_es": "Ordena las palabras: «¡Ojalá fuera realmente así!»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3165434",
+        "target_error_codes": [
+          "ERR_ACCENT_TRANSFER"
+        ],
+        "tokens": [
+          "Magari",
+          "così!",
+          "davvero",
+          "fosse"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Mi manca così tanto."
+      ],
+      "id": "it_translate_s_3637744_ERR_ACCENT_TRANSFER",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3637744",
+      "source_es": "Lo extraño tanto.",
+      "target_error_codes": [
+        "ERR_ACCENT_TRANSFER"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "El español usa solo 'haber'; en italiano los verbos de movimiento con meta, cambio de estado y reflexivos piden essere."
     },
     "id": "cap_err_aux_essere",
@@ -11045,6 +11197,158 @@
       "source_es": "¿Dónde naciste?",
       "target_error_codes": [
         "ERR_AUX_ESSERE"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Con el passato prossimo, già, appena, ancora, mai y sempre van entre el auxiliar y el participio (ho già mangiato, sono appena arrivato, non ho ancora deciso). «Ya no» es non… più (non abito più), no *già non; «acabo de» es appena (sono appena arrivato), no *finisco di."
+    },
+    "id": "cap_err_avverbi_passato",
+    "retrieval": [
+      {
+        "id": "it_choice_s_12604083_ERR_AVVERBI_PASSATO",
+        "options": [
+          {
+            "correct": true,
+            "text": "Non piove più."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "aspect_mismatch",
+            "error_code": "ERR_AVVERBI_PASSATO",
+            "text": "Non piove ancora."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_12604083",
+        "target_error_codes": [
+          "ERR_AVVERBI_PASSATO"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Non torno più"
+        ],
+        "hint_es": "No voy a volver.",
+        "id": "it_cloze_s_3507703_ERR_AVVERBI_PASSATO",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3507703",
+        "target_error_codes": [
+          "ERR_AVVERBI_PASSATO"
+        ],
+        "text": "___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Non",
+          "sei",
+          "più",
+          "mio",
+          "amico."
+        ],
+        "id": "it_reorder_s_1653296_ERR_AVVERBI_PASSATO",
+        "prompt_es": "Ordena las palabras: «Ya no eres mi amigo.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1653296",
+        "target_error_codes": [
+          "ERR_AVVERBI_PASSATO"
+        ],
+        "tokens": [
+          "più",
+          "Non",
+          "sei",
+          "mio",
+          "amico."
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_663766_ERR_AVVERBI_PASSATO",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "aspect_mismatch",
+            "error_code": "ERR_AVVERBI_PASSATO",
+            "text": "Non sei ancora un bambino."
+          },
+          {
+            "correct": true,
+            "text": "Non sei più un bambino."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_663766",
+        "target_error_codes": [
+          "ERR_AVVERBI_PASSATO"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Non sei più una bambina"
+        ],
+        "hint_es": "Ya no eres un niño.",
+        "id": "it_cloze_s_1268766_ERR_AVVERBI_PASSATO",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1268766",
+        "target_error_codes": [
+          "ERR_AVVERBI_PASSATO"
+        ],
+        "text": "___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Non",
+          "sono",
+          "più",
+          "vegetariano."
+        ],
+        "id": "it_reorder_s_539113_ERR_AVVERBI_PASSATO",
+        "prompt_es": "Ordena las palabras: «Ya no soy vegetariano.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_539113",
+        "target_error_codes": [
+          "ERR_AVVERBI_PASSATO"
+        ],
+        "tokens": [
+          "sono",
+          "Non",
+          "vegetariano.",
+          "più"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Non beve più."
+      ],
+      "id": "it_translate_s_2435893_ERR_AVVERBI_PASSATO",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2435893",
+      "source_es": "Él ya no bebe.",
+      "target_error_codes": [
+        "ERR_AVVERBI_PASSATO"
       ],
       "type": "translate_es_it"
     }
@@ -11209,28 +11513,478 @@
     "cefr": "A2",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "El español usa siempre «haber» (he estado, me ha gustado, se ha quedado). En italiano estos verbos piden essere: sono stato, mi è piaciuto, sono rimasto, sono diventato, sono riuscito. Al revés, verbos como camminare, viaggiare, dormire o nuotare piden avere: ho camminato (no *sono camminato)."
+    },
+    "id": "cap_err_pp_ausiliare",
+    "retrieval": [
+      {
+        "id": "it_choice_s_3635508_ERR_PP_AUSILIARE",
+        "options": [
+          {
+            "correct": true,
+            "text": "Non hai cenato?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "hypercorrection",
+            "error_code": "ERR_PP_AUSILIARE",
+            "text": "Non sei cenato?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3635508",
+        "target_error_codes": [
+          "ERR_PP_AUSILIARE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "È stato"
+        ],
+        "hint_es": "Él ha estado en la India.",
+        "id": "it_cloze_s_1306591_ERR_PP_AUSILIARE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1306591",
+        "target_error_codes": [
+          "ERR_PP_AUSILIARE"
+        ],
+        "text": "___ in India.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "È",
+          "stato",
+          "un",
+          "sogno?"
+        ],
+        "id": "it_reorder_s_5688443_ERR_PP_AUSILIARE",
+        "prompt_es": "Ordena las palabras: «¿Era un sueño?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5688443",
+        "target_error_codes": [
+          "ERR_PP_AUSILIARE"
+        ],
+        "tokens": [
+          "un",
+          "sogno?",
+          "È",
+          "stato"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_3033587_ERR_PP_AUSILIARE",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_PP_AUSILIARE",
+            "text": "Hai stato pessimo!"
+          },
+          {
+            "correct": true,
+            "text": "Sei stato pessimo!"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3033587",
+        "target_error_codes": [
+          "ERR_PP_AUSILIARE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "È stato"
+        ],
+        "hint_es": "¿Fue divertido?",
+        "id": "it_cloze_s_3808104_ERR_PP_AUSILIARE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3808104",
+        "target_error_codes": [
+          "ERR_PP_AUSILIARE"
+        ],
+        "text": "___ divertente?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Io",
+          "ho",
+          "dormito,",
+          "e",
+          "tu?"
+        ],
+        "id": "it_reorder_s_1176174_ERR_PP_AUSILIARE",
+        "prompt_es": "Ordena las palabras: «Yo dormí, ¿y tú?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1176174",
+        "target_error_codes": [
+          "ERR_PP_AUSILIARE"
+        ],
+        "tokens": [
+          "ho",
+          "e",
+          "dormito,",
+          "tu?",
+          "Io"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Hai già cenato?"
+      ],
+      "id": "it_translate_s_1061233_ERR_PP_AUSILIARE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1061233",
+      "source_es": "¿Ya cenaste?",
+      "target_error_codes": [
+        "ERR_PP_AUSILIARE"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Algunos participios italianos son irregulares aunque el verbo se parezca al español: prendere → preso (no *prenduto), mettere → messo, chiudere → chiuso, leggere → letto, decidere → deciso, chiedere → chiesto, scegliere → scelto, rispondere → risposto, spendere → speso. Hay que aprenderlos como formas propias."
+    },
+    "id": "cap_err_pp_participi_irreg",
+    "retrieval": [
+      {
+        "id": "it_choice_s_11759900_ERR_PP_PARTICIPI_IRREG",
+        "options": [
+          {
+            "correct": true,
+            "text": "Ho letto il rapporto."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PP_PARTICIPI_IRREG",
+            "text": "Ho leggiuto il rapporto."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11759900",
+        "target_error_codes": [
+          "ERR_PP_PARTICIPI_IRREG"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "chiesto"
+        ],
+        "hint_es": "Pidió una cerveza.",
+        "id": "it_cloze_s_1264152_ERR_PP_PARTICIPI_IRREG",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1264152",
+        "target_error_codes": [
+          "ERR_PP_PARTICIPI_IRREG"
+        ],
+        "text": "Ha ___ una birra.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Che",
+          "cos'hai",
+          "risposto?"
+        ],
+        "id": "it_reorder_s_388817_ERR_PP_PARTICIPI_IRREG",
+        "prompt_es": "Ordena las palabras: «¿Qué has respondido?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_388817",
+        "target_error_codes": [
+          "ERR_PP_PARTICIPI_IRREG"
+        ],
+        "tokens": [
+          "Che",
+          "risposto?",
+          "cos'hai"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_12311832_ERR_PP_PARTICIPI_IRREG",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PP_PARTICIPI_IRREG",
+            "text": "Hai prenduto della pizza?"
+          },
+          {
+            "correct": true,
+            "text": "Hai preso della pizza?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_12311832",
+        "target_error_codes": [
+          "ERR_PP_PARTICIPI_IRREG"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "letto"
+        ],
+        "hint_es": "Leí sus diarios.",
+        "id": "it_cloze_s_2486527_ERR_PP_PARTICIPI_IRREG",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2486527",
+        "target_error_codes": [
+          "ERR_PP_PARTICIPI_IRREG"
+        ],
+        "text": "Ho ___ i suoi diari.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Ha",
+          "deciso",
+          "che",
+          "lo",
+          "farà."
+        ],
+        "id": "it_reorder_s_9211547_ERR_PP_PARTICIPI_IRREG",
+        "prompt_es": "Ordena las palabras: «Ha decidido que lo hará.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_9211547",
+        "target_error_codes": [
+          "ERR_PP_PARTICIPI_IRREG"
+        ],
+        "tokens": [
+          "che",
+          "deciso",
+          "lo",
+          "Ha",
+          "farà."
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Ho preso la patente!"
+      ],
+      "id": "it_translate_s_3518231_ERR_PP_PARTICIPI_IRREG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3518231",
+      "source_es": "¡He obtenido mi licencia de conducir!",
+      "target_error_codes": [
+        "ERR_PP_PARTICIPI_IRREG"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Los reflexivos forman los tiempos compuestos con essere (mi sono sentito); el español usa siempre haber (me he sentido)."
+    },
+    "id": "cap_err_reflexive_aux",
+    "retrieval": [
+      {
+        "id": "it_choice_s_618233_ERR_REFLEXIVE_AUX",
+        "options": [
+          {
+            "correct": true,
+            "text": "Si è arrabbiata."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_REFLEXIVE_AUX",
+            "text": "Si ha arrabbiata."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_618233",
+        "target_error_codes": [
+          "ERR_REFLEXIVE_AUX"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Ci siamo"
+        ],
+        "hint_es": "Nos besamos.",
+        "id": "it_cloze_s_1254189_ERR_REFLEXIVE_AUX",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1254189",
+        "target_error_codes": [
+          "ERR_REFLEXIVE_AUX"
+        ],
+        "text": "___ baciati.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Chi",
+          "si",
+          "è",
+          "sposato?"
+        ],
+        "id": "it_reorder_s_2084388_ERR_REFLEXIVE_AUX",
+        "prompt_es": "Ordena las palabras: «¿Quién se ha casado?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2084388",
+        "target_error_codes": [
+          "ERR_REFLEXIVE_AUX"
+        ],
+        "tokens": [
+          "sposato?",
+          "si",
+          "è",
+          "Chi"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_4569287_ERR_REFLEXIVE_AUX",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_REFLEXIVE_AUX",
+            "text": "Chi si ha fermato?"
+          },
+          {
+            "correct": true,
+            "text": "Chi si è fermato?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4569287",
+        "target_error_codes": [
+          "ERR_REFLEXIVE_AUX"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Mi sono"
+        ],
+        "hint_es": "Estaba equivocado.",
+        "id": "it_cloze_s_475662_ERR_REFLEXIVE_AUX",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_475662",
+        "target_error_codes": [
+          "ERR_REFLEXIVE_AUX"
+        ],
+        "text": "___ sbagliato.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Mi",
+          "sono",
+          "svegliato."
+        ],
+        "id": "it_reorder_s_5345809_ERR_REFLEXIVE_AUX",
+        "prompt_es": "Ordena las palabras: «Me desperté.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5345809",
+        "target_error_codes": [
+          "ERR_REFLEXIVE_AUX"
+        ],
+        "tokens": [
+          "sono",
+          "Mi",
+          "svegliato."
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Si è svegliata."
+      ],
+      "id": "it_translate_s_529473_ERR_REFLEXIVE_AUX",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_529473",
+      "source_es": "Ella se despertó.",
+      "target_error_codes": [
+        "ERR_REFLEXIVE_AUX"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "Con essere el participio concuerda en género y número con el sujeto."
     },
     "id": "cap_err_participle_agreement",
     "retrieval": [
       {
-        "id": "it_choice_s_529428_ERR_PARTICIPLE_AGREEMENT",
+        "id": "it_choice_s_8550351_ERR_PARTICIPLE_AGREEMENT",
         "options": [
           {
             "correct": true,
-            "text": "In che anno siete nate?"
+            "text": "Siamo state lì."
           },
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PARTICIPLE_AGREEMENT",
-            "text": "In che anno siete nato?"
+            "text": "Siamo stato lì."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_529428",
+        "sentence_id": "s_8550351",
         "target_error_codes": [
           "ERR_PARTICIPLE_AGREEMENT"
         ],
@@ -11238,62 +11992,58 @@
       },
       {
         "answers": [
-          "nati"
+          "stati"
         ],
-        "hint_es": "¿En qué año nacieron?",
-        "id": "it_cloze_s_529432_ERR_PARTICIPLE_AGREEMENT",
+        "hint_es": "Estuvimos allá.",
+        "id": "it_cloze_s_8550352_ERR_PARTICIPLE_AGREEMENT",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_529432",
+        "sentence_id": "s_8550352",
         "target_error_codes": [
           "ERR_PARTICIPLE_AGREEMENT"
         ],
-        "text": "In che anno siete ___?",
+        "text": "Siamo ___ là.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Non",
-          "siamo",
-          "andati",
-          "a",
-          "Torino."
+          "Siamo",
+          "state",
+          "là."
         ],
-        "id": "it_reorder_s_3174439_ERR_PARTICIPLE_AGREEMENT",
-        "prompt_es": "Ordena las palabras: «No fuimos a Turín.»",
+        "id": "it_reorder_s_8550353_ERR_PARTICIPLE_AGREEMENT",
+        "prompt_es": "Ordena las palabras: «Estuvimos allá.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_3174439",
+        "sentence_id": "s_8550353",
         "target_error_codes": [
           "ERR_PARTICIPLE_AGREEMENT"
         ],
         "tokens": [
-          "andati",
-          "siamo",
-          "Non",
-          "Torino.",
-          "a"
+          "là.",
+          "Siamo",
+          "state"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_950173_ERR_PARTICIPLE_AGREEMENT",
+        "id": "it_choice_s_3081279_ERR_PARTICIPLE_AGREEMENT",
         "options": [
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_PARTICIPLE_AGREEMENT",
-            "text": "Siete venuto troppo tardi."
+            "text": "Siamo stato fuori."
           },
           {
             "correct": true,
-            "text": "Siete venuti troppo tardi."
+            "text": "Siamo stati fuori."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_950173",
+        "sentence_id": "s_3081279",
         "target_error_codes": [
           "ERR_PARTICIPLE_AGREEMENT"
         ],
@@ -11301,41 +12051,43 @@
       },
       {
         "answers": [
-          "usciti"
+          "stati"
         ],
-        "hint_es": "Salimos por la ventana.",
-        "id": "it_cloze_s_1082620_ERR_PARTICIPLE_AGREEMENT",
+        "hint_es": "Estuvimos en casa anoche.",
+        "id": "it_cloze_s_5339513_ERR_PARTICIPLE_AGREEMENT",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1082620",
+        "sentence_id": "s_5339513",
         "target_error_codes": [
           "ERR_PARTICIPLE_AGREEMENT"
         ],
-        "text": "Siamo ___ dalla finestra.",
+        "text": "Siamo ___ a casa ieri sera.",
         "type": "cloze"
       },
       {
         "answer": [
           "Siamo",
-          "nati",
-          "nello",
-          "stesso",
-          "anno."
+          "stati",
+          "qui",
+          "per",
+          "due",
+          "giorni."
         ],
-        "id": "it_reorder_s_7681452_ERR_PARTICIPLE_AGREEMENT",
-        "prompt_es": "Ordena las palabras: «Nacimos el mismo año.»",
+        "id": "it_reorder_s_4415930_ERR_PARTICIPLE_AGREEMENT",
+        "prompt_es": "Ordena las palabras: «Estuvimos aquí dos días.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_7681452",
+        "sentence_id": "s_4415930",
         "target_error_codes": [
           "ERR_PARTICIPLE_AGREEMENT"
         ],
         "tokens": [
-          "nati",
           "Siamo",
-          "nello",
-          "anno.",
-          "stesso"
+          "qui",
+          "due",
+          "giorni.",
+          "stati",
+          "per"
         ],
         "type": "reorder"
       }
@@ -11346,13 +12098,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Siete venute in città?"
+        "Siamo stati lì."
       ],
-      "id": "it_translate_s_1152789_ERR_PARTICIPLE_AGREEMENT",
+      "id": "it_translate_s_8550350_ERR_PARTICIPLE_AGREEMENT",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_1152789",
-      "source_es": "¿Vinieron a la ciudad?",
+      "sentence_id": "s_8550350",
+      "source_es": "Estuvimos allí.",
       "target_error_codes": [
         "ERR_PARTICIPLE_AGREEMENT"
       ],

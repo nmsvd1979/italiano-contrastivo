@@ -23,7 +23,8 @@ MP3 = RAW / "tatoeba_audio" / "mp3"
 PACK = ROOT / "web" / "public" / "content"
 AUDIO = ROOT / "web" / "public" / "audio"
 OK_LICENSES = {"CC BY 4.0", "CC BY-SA 4.0", "CC0 1.0"}
-MAX_HUMAN_BYTES = 8_000_000   # tope propio de la voz humana (aparte de los 48 MB de Piper): se baja solo al usarla; revisar en A2
+AUDITS = ["2026-11-25-voz-humana.json", "2026-11-26-voz-humana-a2.json"]   # A1 y A2
+MAX_HUMAN_BYTES = 14_000_000   # tope propio de la voz humana (aparte de los clips de Piper): 8 MB de A1 + 6 MB de A2 (plan A2 §5.2)
 
 
 def key(t: str) -> str:
@@ -48,9 +49,13 @@ def main() -> None:
 
     sentences = [s for f in sorted(glob.glob(str(ROOT / "content" / "sentences" / "*.json"))) for s in json.loads(Path(f).read_text(encoding="utf8"))]
     exported = {s["id"]: s for s in sentences}
-    audit = json.loads((ROOT / "content" / "audits" / "2026-11-25-voz-humana.json").read_text(encoding="utf8"))["veredictos"]
+    course = json.loads((PACK / "course.json").read_text(encoding="utf8"))
+    built = {m["id"] for m in course["modules"]}   # el banco de cada módulo de A2 solo entra cuando el módulo está construido
+    audit = [v for f in AUDITS for v in json.loads((ROOT / "content" / "audits" / f).read_text(encoding="utf8"))["veredictos"]]
     bank = []
     for v in audit:
+        if v["module"] != "nivel" and v["module"] not in built:
+            continue
         s = exported.get(v["id"])
         if v["v"] != "keep" or not s or s["source_id"] not in rec:
             continue

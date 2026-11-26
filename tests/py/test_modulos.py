@@ -47,9 +47,10 @@ def test_un_hueco_declarado_permite_un_modulo_sin_salida_oral():
 def test_el_curso_real_reparte_todas_las_unidades_de_a1_en_12_modulos_sin_perder_ni_repetir():
     course = json.loads((PACK / "course.json").read_text(encoding="utf8"))
     a1 = [u["id"] for u in course["units"] if u["level"] == "A1"]
-    in_modules = [u for m in course["modules"] for u in m["units"]]
-    assert len(course["modules"]) == 12 and sorted(in_modules) == sorted(a1) and len(a1) == 69
-    for m in course["modules"]:
+    mods = [m for m in course["modules"] if m["level"] == "A1"]   # los módulos de A2 se prueban en test_cierre_a2
+    in_modules = [u for m in mods for u in m["units"]]
+    assert len(mods) == 12 and sorted(in_modules) == sorted(a1) and len(a1) == 69
+    for m in mods:
         assert 2 <= len(m["units"]) <= 8, m["id"]          # una situación con pocas cápsulas: ni migas ni bloques enormes
         assert 3 <= len(m["can_do_es"]) <= 5, m["id"]
 

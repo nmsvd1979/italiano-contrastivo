@@ -13,7 +13,7 @@ afterEach(cleanup);
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
 const pack = { capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"),
   course: read("course.json"), readings: read("readings.json"), readingWords: read("reading_words.json"), speaking: read("speaking.json"), library: read("library.json") } as ContentPack;
-const mods = pack.course.modules!;
+const mods = pack.course.modules!.filter((m) => m.level === "A1");   // el módulo a2m01 existe en el paquete: estas pruebas son de A1
 const placed = (id: string): UnitProgress => ({ ...emptyProgress(id), completed: true, testBest: 1, mastery: "ubicacion" });
 
 describe("tira de etapas", () => {
@@ -42,7 +42,7 @@ describe("ruta rediseñada", () => {
   });
   it("sin ningún módulo en curso no falla y muestra el examen de hito", () => {
     const v = moduleViews(pack.course, mods.flatMap((m) => m.units.map(placed)), false);
-    expect(v.modules.every((m) => m.state === "completed")).toBe(true);
+    expect(v.modules.filter((m) => m.module.level === "A1").every((m) => m.state === "completed")).toBe(true);
     render(<RouteScreen views={v.units} modules={v.modules} pack={pack} />);
     expect(screen.queryByText(/^Continuar ·/)).toBeNull();
     expect(screen.getByText("Examen de hito A1").closest("a")?.getAttribute("href")).toBe("#/hito/A1");

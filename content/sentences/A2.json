@@ -23,6 +23,90 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Tradukero",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "He leído el libro.",
+    "es_author": "IA (Claude)",
+    "id": "s_1003087",
+    "it": "Ho letto il libro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1003087",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Tradukero",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Bebí un poco de leche.",
+    "es_author": "IA (Claude)",
+    "id": "s_1003104",
+    "it": "Ho bevuto del latte.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1003104",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Tradukero",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Compré ese coche.",
+    "es_author": "IA (Claude)",
+    "id": "s_1003133",
+    "it": "Ho comprato quell'auto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1003133",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Dónde han estado ustedes (chicas)?",
+    "es_author": "IA (Claude)",
+    "id": "s_1003986",
+    "it": "Dove siete state?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1003986",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -65,6 +149,26 @@
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Se puede contar con él.",
+    "es_author": "IA (Claude)",
+    "id": "s_1005811",
+    "it": "Si può fare affidamento su di lui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1005811",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -183,6 +287,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Acabo de leer este libro.",
+    "es_author": "DanaDescalza",
+    "es_source_id": "1017965",
+    "id": "s_1019236",
+    "it": "Ho appena letto questo libro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1019236",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PARTICIPIO_ES"
     ],
     "es": "El tren atravesó un túnel.",
@@ -199,6 +325,30 @@
     "source_id": "1019321",
     "tag_rules": {
       "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "Siempre hemos sido amigas.",
+    "es_author": "Shishir",
+    "es_source_id": "975479",
+    "id": "s_1019853",
+    "it": "Siamo sempre stati amici.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1019853",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -293,6 +443,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Nuel",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "¿Cuánto dinero has gastado hoy?",
+    "es_author": "saverius",
+    "es_source_id": "10255886",
+    "id": "s_10249417",
+    "it": "Quanti soldi hai speso ieri?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10249417",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "carlosalberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -369,6 +541,137 @@
     "translation_kind": "direct"
   },
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "¿Pudiste encontrar el libro?",
+    "es_author": "Shishir",
+    "es_source_id": "544276",
+    "id": "s_1035841",
+    "it": "Sei riuscito a trovare il libro?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1035841",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Así fue como nos conocimos.",
+    "es_author": "IA (Claude)",
+    "id": "s_1038810",
+    "it": "Così è come ci siamo conosciuti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1038810",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "Su vida ha sido corta.",
+    "es_author": "saverius",
+    "es_source_id": "10803545",
+    "id": "s_10467445",
+    "it": "La sua vita è stata corta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10467445",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Me casé joven.",
+    "es_author": "Seael",
+    "es_source_id": "13447101",
+    "id": "s_10480996",
+    "it": "Mi sono sposata giovane.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10480996",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Ella se ha despertado antes que él.",
+    "es_author": "saverius",
+    "es_source_id": "10514726",
+    "id": "s_10513528",
+    "it": "Si è svegliata prima di lui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10513528",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "leonardo",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "¿Ya cenaste?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1063319",
+    "id": "s_1061233",
+    "it": "Hai già cenato?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1061233",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -389,6 +692,25 @@
       "ERR_GENERE_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "leonardo",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Estabas con alguien?",
+    "es_author": "IA (Claude)",
+    "id": "s_1071813",
+    "it": "Eri con qualcuno?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1071813",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -440,6 +762,25 @@
     "translation_kind": "llm"
   },
   {
+    "author": "leonardo",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Mi hermana está casada.",
+    "es_author": "IA (Claude)",
+    "id": "s_1073688",
+    "it": "Mia sorella è sposata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1073688",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -462,6 +803,50 @@
       "ERR_AUX_OVERGENERALIZATION": "avere_con_verbo_inergativo",
       "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Eldad",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Hoy desperté temprano.",
+    "es_author": "Eldad",
+    "es_source_id": "1081057",
+    "id": "s_1081053",
+    "it": "Oggi mi sono svegliato presto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1081053",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Ustedes están equivocados.",
+    "es_author": "nancy",
+    "es_source_id": "1228301",
+    "id": "s_1081894",
+    "it": "Voi vi siete sbagliati.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1081894",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -544,6 +929,71 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Desde que Marco está a dieta no come más dulces.",
+    "es_author": "nancy",
+    "es_source_id": "1178763",
+    "id": "s_1083953",
+    "it": "Da quando Marco è a dieta non mangia più dolci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1083953",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "Ayer estaba nublado.",
+    "es_author": "Shishir",
+    "es_source_id": "1089603",
+    "id": "s_1089688",
+    "it": "Ieri è stato nuvoloso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1089688",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "leonardo",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Quién lo hizo?",
+    "es_author": "IA (Claude)",
+    "id": "s_1090893",
+    "it": "Chi lo ha fatto?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1090893",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -565,6 +1015,25 @@
       "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Estaba muy ocupada.",
+    "es_author": "IA (Claude)",
+    "id": "s_1100240",
+    "it": "Era molto occupata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1100240",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "riccioberto",
@@ -633,6 +1102,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Mi padre atrapó tres peces ayer.",
+    "es_author": "kylecito",
+    "es_source_id": "336396",
+    "id": "s_1106380",
+    "it": "Mio padre ha preso tre pesci ieri.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1106380",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -654,6 +1147,63 @@
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
     },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Tom también estuvo allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1109809",
+    "it": "Tom è stato anche là.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1109809",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Era un ratón.",
+    "es_author": "IA (Claude)",
+    "id": "s_1111442",
+    "it": "Era un topo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1111442",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Tom no te ayudará.",
+    "es_author": "IA (Claude)",
+    "id": "s_1111919",
+    "it": "Tom non ti aiuterà.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1111919",
+    "tag_rules": {},
     "translation_kind": "llm"
   },
   {
@@ -742,6 +1292,51 @@
     "source_id": "11229822",
     "tag_rules": {
       "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Por qué salieron ustedes?",
+    "es_author": "IA (Claude)",
+    "id": "s_11254137",
+    "it": "Perché siete usciti?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11254137",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "He pedido prestado dos libros.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4549648",
+    "id": "s_1125652",
+    "it": "Ho preso in prestito due libri.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1125652",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -904,6 +1499,28 @@
     "source_id": "1127638",
     "tag_rules": {
       "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Decidí continuar estudiando.",
+    "es_author": "fgreco",
+    "es_source_id": "2375706",
+    "id": "s_1131858",
+    "it": "Ho deciso di continuare a studiare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1131858",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1138,6 +1755,94 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no bebo cerveza.",
+    "es_author": "IA (Claude)",
+    "id": "s_11712040",
+    "it": "Non bevo più birra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11712040",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Tom odiaba Boston.",
+    "es_author": "IA (Claude)",
+    "id": "s_1174158",
+    "it": "Tom odiava Boston.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1174158",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Leí el informe.",
+    "es_author": "Seael",
+    "es_source_id": "11759910",
+    "id": "s_11759900",
+    "it": "Ho letto il rapporto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11759900",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "Yo dormí, ¿y tú?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1535603",
+    "id": "s_1176174",
+    "it": "Io ho dormito, e tu?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1176174",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Shishir",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -1252,6 +1957,50 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "¿Al menos has almorzado?",
+    "es_author": "saverius",
+    "es_source_id": "11967662",
+    "id": "s_11964359",
+    "it": "Almeno hai pranzato?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11964359",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "Su respuesta fue breve.",
+    "es_author": "Seael",
+    "es_source_id": "11969554",
+    "id": "s_11969550",
+    "it": "La sua risposta è stata breve.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11969550",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Adelpa",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -1352,6 +2101,75 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Yo también me divertí.",
+    "es_author": "nancy",
+    "es_source_id": "1222650",
+    "id": "s_1222409",
+    "it": "Anche io mi sono divertito.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1222409",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no ando en moto.",
+    "es_author": "IA (Claude)",
+    "id": "s_12294326",
+    "it": "Non vado più in moto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12294326",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "¿Has cogido pizza?",
+    "es_author": "saverius",
+    "es_source_id": "12316124",
+    "id": "s_12311832",
+    "it": "Hai preso della pizza?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12311832",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_ARTICLE_ALLOMORPH"
     ],
     "es": "Los árboles pronto quedarán desnudos.",
@@ -1390,6 +2208,46 @@
       "ERR_GENERE_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Fue a la tienda.",
+    "es_author": "IA (Claude)",
+    "id": "s_1243680",
+    "it": "È andato al negozio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1243680",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Había mucho viento.",
+    "es_author": "IA (Claude)",
+    "id": "s_1248113",
+    "it": "C'era molto vento.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1248113",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -1441,6 +2299,97 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Nos besamos.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1127798",
+    "id": "s_1254189",
+    "it": "Ci siamo baciati.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1254189",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no vivo con ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_12550658",
+    "it": "Non abito più con lei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12550658",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Ella salió.",
+    "es_author": "hayastan",
+    "es_source_id": "1255619",
+    "id": "s_1255616",
+    "it": "Lei è uscita.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1255616",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Nosotros llegamos.",
+    "es_author": "IA (Claude)",
+    "id": "s_1255846",
+    "it": "Noi siamo arrivati.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1255846",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_NEG"
     ],
     "es": "¡No digas nada!",
@@ -1483,6 +2432,25 @@
     "translation_kind": "llm"
   },
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "El caso está cerrado.",
+    "es_author": "IA (Claude)",
+    "id": "s_1257653",
+    "it": "Il caso è chiuso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1257653",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -1501,6 +2469,30 @@
     "source_id": "1257883",
     "tag_rules": {
       "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Pidió una cerveza.",
+    "es_author": "hayastan",
+    "es_source_id": "1357551",
+    "id": "s_1264152",
+    "it": "Ha chiesto una birra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1264152",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1645,6 +2637,26 @@
     "translation_kind": "llm"
   },
   {
+    "author": "rado",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Nunca he jugado al golf.",
+    "es_author": "IA (Claude)",
+    "id": "s_1265834",
+    "it": "Non ho mai giocato a golf.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1265834",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "glossboss",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -1687,6 +2699,44 @@
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "ValentinaM",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Me estoy divirtiendo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1272420",
+    "it": "Mi sto divertendo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1272420",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No vi a nadie.",
+    "es_author": "IA (Claude)",
+    "id": "s_1273339",
+    "it": "Non ho visto nessuno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1273339",
+    "tag_rules": {},
     "translation_kind": "llm"
   },
   {
@@ -1789,6 +2839,25 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Tradukero",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Acabo de volver.",
+    "es_author": "IA (Claude)",
+    "id": "s_1287482",
+    "it": "Sono appena tornato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1287482",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Adelpa",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -1809,6 +2878,73 @@
       "ERR_VOC_NATURA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No toques el vidrio.",
+    "es_author": "IA (Claude)",
+    "id": "s_1299433",
+    "it": "Non toccare il vetro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1299433",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no vive aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1300641",
+    "it": "Non vive più qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1300641",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no vive aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1300643",
+    "it": "Non abita più qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1300643",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -1852,6 +2988,28 @@
     "source_id": "1305566",
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "Él ha estado en la India.",
+    "es_author": "Shishir",
+    "es_source_id": "734393",
+    "id": "s_1306591",
+    "it": "È stato in India.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1306591",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1918,6 +3076,30 @@
     "source_id": "1310200",
     "tag_rules": {
       "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "Así ha sido siempre.",
+    "es_author": "Shishir",
+    "es_source_id": "2562",
+    "id": "s_1311008",
+    "it": "È sempre stato così.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1311008",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -2012,6 +3194,45 @@
     "translation_kind": "llm"
   },
   {
+    "author": "giullina",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Haz como te dije.",
+    "es_author": "IA (Claude)",
+    "id": "s_1317029",
+    "it": "Fai come ti ho detto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1317029",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "zhou24",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No digas tonterías.",
+    "es_author": "IA (Claude)",
+    "id": "s_1317507",
+    "it": "Non dire stupidaggini!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1317507",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Rovo",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -2080,6 +3301,28 @@
       "ERR_CLITIC_DIRECT_INDIRECT": "clitico_diretto_indiretto",
       "ERR_INDIRECT_PRONOUN_GENDER": "pronome_indiretto_genere",
       "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Ayer cerró la fábrica.",
+    "es_author": "arh",
+    "es_source_id": "6703413",
+    "id": "s_13308934",
+    "it": "La fabbrica ha chiuso ieri.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13308934",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -2342,6 +3585,30 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "Ha habido un problema.",
+    "es_author": "Alpha",
+    "es_source_id": "1448291",
+    "id": "s_1350098",
+    "it": "C'è stato un incidente.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1350098",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_VOC_VORREI"
     ],
     "es": "¡Quisiera ser como él!",
@@ -2591,6 +3858,28 @@
   },
   {
     "author": "unforgiven95",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "El aparcamiento era una pesadilla.",
+    "es_author": "uptonpark1973",
+    "es_source_id": "7899115",
+    "id": "s_14008527",
+    "it": "Il parcheggio è stato un incubo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14008527",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "unforgiven95",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -2707,6 +3996,28 @@
   },
   {
     "author": "unforgiven95",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Le pedí consejo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2188018",
+    "id": "s_14070048",
+    "it": "Le ho chiesto consiglio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14070048",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "unforgiven95",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -2796,6 +4107,52 @@
       "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Cuándo se fueron ustedes?",
+    "es_author": "IA (Claude)",
+    "id": "s_1438874",
+    "it": "Quando siete andati?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1438874",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Cuándo se fueron ustedes (chicas)?",
+    "es_author": "IA (Claude)",
+    "id": "s_1438876",
+    "it": "Quando siete andate?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1438876",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "rado",
@@ -2933,6 +4290,25 @@
   },
   {
     "author": "Shadd",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Te desperté.",
+    "es_author": "IA (Claude)",
+    "id": "s_1509964",
+    "it": "Ti ho svegliato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1509964",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Shadd",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -2950,6 +4326,50 @@
     "source_id": "1510820",
     "tag_rules": {
       "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Shadd",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Mi madre nació en el norte de México.",
+    "es_author": "hayastan",
+    "es_source_id": "1011110",
+    "id": "s_1512622",
+    "it": "Mia madre è nata nel nord del Messico.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1512622",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "Fue un completo fracaso.",
+    "es_author": "nancy",
+    "es_source_id": "1155970",
+    "id": "s_1513490",
+    "it": "È stato un fallimento totale.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1513490",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -2976,6 +4396,51 @@
       "ERR_AUX_ESSERE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Shadd",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "No he leído todos estos libros.",
+    "es_author": "marco87",
+    "es_source_id": "1517128",
+    "id": "s_1517044",
+    "it": "Non ho letto tutti questi libri.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1517044",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Vy",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no tengo fuerzas.",
+    "es_author": "IA (Claude)",
+    "id": "s_1518906",
+    "it": "Non ho più forze.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1518906",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -3142,6 +4607,54 @@
       "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "¿Te lavaste las manos?",
+    "es_author": "hayastan",
+    "es_source_id": "1075426",
+    "id": "s_1548596",
+    "it": "Ti sei lavato le mani?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1548596",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "¿Te lavaste las manos?",
+    "es_author": "hayastan",
+    "es_source_id": "1075426",
+    "id": "s_1548597",
+    "it": "Ti sei lavata le mani?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1548597",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -3426,6 +4939,124 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Dónde nacieron ustedes?",
+    "es_author": "IA (Claude)",
+    "id": "s_1669733",
+    "it": "Dove siete nati?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1669733",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Dónde nacieron ustedes?",
+    "es_author": "IA (Claude)",
+    "id": "s_1669735",
+    "it": "Dove siete nate?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1669735",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Cómo entraron ustedes?",
+    "es_author": "IA (Claude)",
+    "id": "s_1671816",
+    "it": "Come siete entrati?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1671816",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Cómo entraron ustedes (chicas)?",
+    "es_author": "IA (Claude)",
+    "id": "s_1671817",
+    "it": "Come siete entrate?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1671817",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "He leído todos los comentarios.",
+    "es_author": "Shishir",
+    "es_source_id": "1803853",
+    "id": "s_1679227",
+    "it": "Ho letto tutti i commenti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1679227",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -3560,6 +5191,102 @@
     "translation_kind": "llm"
   },
   {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Adónde fueron ustedes (chicas)?",
+    "es_author": "IA (Claude)",
+    "id": "s_1711074",
+    "it": "Dove siete andate?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1711074",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Adónde fueron ustedes?",
+    "es_author": "IA (Claude)",
+    "id": "s_1711075",
+    "it": "Dove siete andati?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1711075",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Dónde estuvieron todo este tiempo?",
+    "es_author": "IA (Claude)",
+    "id": "s_1724745",
+    "it": "Dove siete stati tutto questo tempo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1724745",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Dónde estuvieron todo este tiempo?",
+    "es_author": "IA (Claude)",
+    "id": "s_1724749",
+    "it": "Dove siete state tutto questo tempo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1724749",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -3583,6 +5310,30 @@
       "ERR_CONGIUNTIVO_OVERUSE_FORSE": "forse_con_indicativo"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Me he cortado.",
+    "es_author": "fgreco",
+    "es_source_id": "2444293",
+    "id": "s_1739679",
+    "it": "Io mi sono tagliato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1739679",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -3629,6 +5380,25 @@
       "ERR_CE_AGREEMENT": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "hitori37",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Llegué a casa a las siete.",
+    "es_author": "IA (Claude)",
+    "id": "s_1794752",
+    "it": "Sono arrivato a casa alle sette.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1794752",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -3686,6 +5456,28 @@
       "ERR_INDIRECT_PRONOUN_GENDER": "pronome_indiretto_genere",
       "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo",
       "ERR_PREP_ARTICLE_CONTRACTION": "preposizione_articolata_in_su"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "No leí ningún libro ayer.",
+    "es_author": "Leynaf",
+    "es_source_id": "855199",
+    "id": "s_1824232",
+    "it": "Non ho letto alcun libro ieri.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1824232",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3910,6 +5702,45 @@
     "translation_kind": "llm"
   },
   {
+    "author": "sixtynine",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No dijiste nada.",
+    "es_author": "IA (Claude)",
+    "id": "s_1867379",
+    "it": "Non hai detto nulla.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1867379",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Shadd",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Yo pagaré la cuenta.",
+    "es_author": "IA (Claude)",
+    "id": "s_1926248",
+    "it": "Pagherò io il conto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1926248",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -3932,6 +5763,25 @@
       "ERR_AUX_ESSERE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "hitori37",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Estaba en casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_1984575",
+    "it": "Ero a casa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1984575",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -3978,6 +5828,49 @@
       "ERR_MANCARE": "mancare"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "hitori37",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Las chicas ganaron.",
+    "es_author": "IA (Claude)",
+    "id": "s_2003388",
+    "it": "Le ragazze hanno vinto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2003388",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "¿Lo pasasteis bien?",
+    "es_author": "arh",
+    "es_source_id": "7929292",
+    "id": "s_2004952",
+    "it": "Vi siete divertiti?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2004952",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -4178,6 +6071,45 @@
     "translation_kind": "direct"
   },
   {
+    "author": "rado",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Quemé el pastel.",
+    "es_author": "IA (Claude)",
+    "id": "s_2051488",
+    "it": "Ho bruciato la torta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2051488",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Sirio60",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Esto no le va a gustar.",
+    "es_author": "IA (Claude)",
+    "id": "s_2056118",
+    "it": "Questo non gli farà piacere.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2056118",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -4200,6 +6132,108 @@
       "ERR_CLITIC_CI": "ci_locativo",
       "ERR_C_G_PALATAL": "c_g_palatale"
     },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Sirio60",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Se me olvidó su nombre.",
+    "es_author": "IA (Claude)",
+    "id": "s_2078806",
+    "it": "Mi sono dimenticato il suo nome.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2078806",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "¿Quién se ha casado?",
+    "es_author": "saverius",
+    "es_source_id": "10264299",
+    "id": "s_2084388",
+    "it": "Chi si è sposato?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2084388",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "¿Has estado en la India alguna vez?",
+    "es_author": "darinmex",
+    "es_source_id": "791924",
+    "id": "s_2102525",
+    "it": "Sei mai stato in India?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2102525",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No vayas demasiado lejos.",
+    "es_author": "IA (Claude)",
+    "id": "s_2105112",
+    "it": "Non andare troppo lontano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2105112",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Sirio60",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No estés decepcionado.",
+    "es_author": "IA (Claude)",
+    "id": "s_2128726",
+    "it": "Non essere deluso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2128726",
+    "tag_rules": {},
     "translation_kind": "llm"
   },
   {
@@ -4246,6 +6280,28 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Te gustó la bicicleta?",
+    "es_author": "BraveSentry",
+    "es_source_id": "2368315",
+    "id": "s_2137504",
+    "it": "Ti è piaciuta la bicicletta?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2137504",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Sirio60",
@@ -4326,6 +6382,126 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Ellos se fueron.",
+    "es_author": "IA (Claude)",
+    "id": "s_2191277",
+    "it": "Loro sono andati.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2191277",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Ellas se fueron.",
+    "es_author": "IA (Claude)",
+    "id": "s_2191280",
+    "it": "Loro sono andate.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2191280",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Ellos se fueron.",
+    "es_author": "IA (Claude)",
+    "id": "s_2191283",
+    "it": "Loro sono partiti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2191283",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Ellos volvieron.",
+    "es_author": "IA (Claude)",
+    "id": "s_2191762",
+    "it": "Loro sono tornati.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2191762",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Ellas volvieron.",
+    "es_author": "IA (Claude)",
+    "id": "s_2191764",
+    "it": "Loro sono tornate.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2191764",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "graphite",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -4354,6 +6530,26 @@
       "ERR_PLURAL_VOWEL": "plurale_vocale"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "miccap",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Dormiste bien?",
+    "es_author": "IA (Claude)",
+    "id": "s_2205893",
+    "it": "Hai dormito bene?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2205893",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -4450,6 +6646,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Nos fuimos cuatro días después.",
+    "es_author": "IA (Claude)",
+    "id": "s_2255744",
+    "it": "Siamo partiti quattro giorni più tardi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2255744",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_ARTICLE_ALLOMORPH"
     ],
     "es": "¡Es exactamente el mismo principio que ésta!",
@@ -4466,6 +6685,52 @@
       "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Cuándo nacieron ustedes?",
+    "es_author": "IA (Claude)",
+    "id": "s_2349199",
+    "it": "Quando siete nati?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2349199",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Cuándo nacieron ustedes (chicas)?",
+    "es_author": "IA (Claude)",
+    "id": "s_2349200",
+    "it": "Quando siete nate?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2349200",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -4532,6 +6797,51 @@
       "ERR_TENERE_AVERE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "Fue una noche divertida.",
+    "es_author": "cadininbiri",
+    "es_source_id": "3753164",
+    "id": "s_2413881",
+    "it": "È stata una nottata divertente.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2413881",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Ustedes fueron geniales.",
+    "es_author": "IA (Claude)",
+    "id": "s_2416913",
+    "it": "Siete stati grandi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2416913",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -4602,6 +6912,50 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "He estado en la India.",
+    "es_author": "cueyayotl",
+    "es_source_id": "2879933",
+    "id": "s_2448614",
+    "it": "Sono stato in India.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2448614",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "He estado en la India.",
+    "es_author": "cueyayotl",
+    "es_source_id": "2879933",
+    "id": "s_2448616",
+    "it": "Sono stata in India.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2448616",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -4749,6 +7103,28 @@
       "ERR_AUX_ESSERE": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "al_ex_an_der",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Leí sus diarios.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2486648",
+    "id": "s_2486527",
+    "it": "Ho letto i suoi diari.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2486527",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -4947,6 +7323,48 @@
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
     },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no puedo trabajar.",
+    "es_author": "IA (Claude)",
+    "id": "s_2593892",
+    "it": "Non posso più lavorare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2593892",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "julius26",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Tom encontrará a Mary.",
+    "es_author": "IA (Claude)",
+    "id": "s_2615774",
+    "it": "Tom troverà Mary.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2615774",
+    "tag_rules": {},
     "translation_kind": "llm"
   },
   {
@@ -5174,6 +7592,50 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "¡No quiero más volver a casa!",
+    "es_author": "alexmarcelo",
+    "es_source_id": "2924677",
+    "id": "s_2825572",
+    "it": "Io non voglio più tornare a casa!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2825572",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "¿En qué restaurante has estado?",
+    "es_author": "saverius",
+    "es_source_id": "10141336",
+    "id": "s_2825657",
+    "it": "In che ristorante sei stata?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2825657",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_POSSESSIVE_SPELLING"
     ],
     "es": "Ese restaurante es famoso por sus especialidades.",
@@ -5233,6 +7695,52 @@
     "source_id": "2855315",
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Ella nació en Ohio.",
+    "es_author": "IA (Claude)",
+    "id": "s_2908665",
+    "it": "Lei è nata in Ohio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2908665",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Mary entró.",
+    "es_author": "IA (Claude)",
+    "id": "s_2918316",
+    "it": "Mary è entrata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2918316",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -5512,6 +8020,52 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "¡Has estado fatal!",
+    "es_author": "saverius",
+    "es_source_id": "10262544",
+    "id": "s_3033587",
+    "it": "Sei stato pessimo!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3033587",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Nosotras llegamos.",
+    "es_author": "IA (Claude)",
+    "id": "s_3049192",
+    "it": "Noi siamo arrivate.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3049192",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -5561,6 +8115,28 @@
     "source_id": "3061525",
     "tag_rules": {
       "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "¿Has leído \"Romeo y Julieta\"?",
+    "es_author": "marcelostockle",
+    "es_source_id": "3106506",
+    "id": "s_3066301",
+    "it": "Tu hai letto \"Romeo e Giulietta\"?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3066301",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5792,6 +8368,50 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "¡Adivinen cuanto gasté!",
+    "es_author": "cueyayotl",
+    "es_source_id": "3466299",
+    "id": "s_3183045",
+    "it": "Indovinate quanto ho speso!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3183045",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "¿Se casó Marika?",
+    "es_author": "alexmarcelo",
+    "es_source_id": "2924711",
+    "id": "s_3233299",
+    "it": "Marika si è sposata?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3233299",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "carlosalberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -5880,6 +8500,85 @@
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
     },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "bailujia",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No veas la televisión.",
+    "es_author": "IA (Claude)",
+    "id": "s_3345462",
+    "it": "Non guardare la televisione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3345462",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "bailujia",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Nos divertimos.",
+    "es_author": "IA (Claude)",
+    "id": "s_3345480",
+    "it": "Ci siamo divertiti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3345480",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "bailujia",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Adónde fue ella?",
+    "es_author": "IA (Claude)",
+    "id": "s_3349538",
+    "it": "Lei dove è andata?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3349538",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "bailujia",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No llegues tarde.",
+    "es_author": "IA (Claude)",
+    "id": "s_3351029",
+    "it": "Non fare ritardo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3351029",
+    "tag_rules": {},
     "translation_kind": "llm"
   },
   {
@@ -5981,6 +8680,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "¿Cómo es que no se ha parado?",
+    "es_author": "saverius",
+    "es_source_id": "10144410",
+    "id": "s_3472953",
+    "it": "Come mai non si è fermato?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3472953",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_VOC_VORREI"
     ],
     "es": "Quisiera una cerveza.",
@@ -6023,6 +8744,26 @@
   },
   {
     "author": "martin",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No me refería a eso.",
+    "es_author": "IA (Claude)",
+    "id": "s_350350",
+    "it": "Non intendevo questo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "350350",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "martin",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -6042,6 +8783,86 @@
       "ERR_IMPERATIVO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "capiceddhra",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "¿Dónde se conocieron?",
+    "es_author": "hayastan",
+    "es_source_id": "2564651",
+    "id": "s_3505209",
+    "it": "Dove si sono conosciuti?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3505209",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "capiceddhra",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No funcionó.",
+    "es_author": "IA (Claude)",
+    "id": "s_3505219",
+    "it": "Non ha funzionato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3505219",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "martin",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Cállate un momento.",
+    "es_author": "IA (Claude)",
+    "id": "s_350545",
+    "it": "Stai zitto un momento.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "350545",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "martin",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Adivina dónde estuve.",
+    "es_author": "IA (Claude)",
+    "id": "s_350583",
+    "it": "Indovina dove sono stato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "350583",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "martin",
@@ -6074,6 +8895,65 @@
     "translation_kind": "direct"
   },
   {
+    "author": "martin",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Dormí nueve horas.",
+    "es_author": "IA (Claude)",
+    "id": "s_350796",
+    "it": "Ho dormito nove ore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "350796",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "martin",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Tom me dio un bolígrafo.",
+    "es_author": "IA (Claude)",
+    "id": "s_350916",
+    "it": "Tom mi ha dato una penna.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "350916",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "martin",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No juegues aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_350931",
+    "it": "Non giocare qua.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "350931",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -6098,6 +8978,109 @@
     "translation_kind": "llm"
   },
   {
+    "author": "martin",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Eso no pasará.",
+    "es_author": "IA (Claude)",
+    "id": "s_350990",
+    "it": "Quello non succederà.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "350990",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "martin",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Viajé solo.",
+    "es_author": "IA (Claude)",
+    "id": "s_351079",
+    "it": "Ho viaggiato da solo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "351079",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "martin",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Perdí el reloj.",
+    "es_author": "IA (Claude)",
+    "id": "s_351114",
+    "it": "Ho perso l'orologio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "351114",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "martin",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no trabaja aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_351137",
+    "it": "Non lavora più qua.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "351137",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "martin",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Volveré para las seis.",
+    "es_author": "IA (Claude)",
+    "id": "s_351140",
+    "it": "Tornerò per le sei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "351140",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -6118,6 +9101,200 @@
       "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "¡He obtenido mi licencia de conducir!",
+    "es_author": "Serrot",
+    "es_source_id": "13557422",
+    "id": "s_3518231",
+    "it": "Ho preso la patente!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3518231",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Vallysing",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Es lo que dije.",
+    "es_author": "IA (Claude)",
+    "id": "s_3531983",
+    "it": "È ciò che ho detto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3531983",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Vallysing",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Lo hiciste otra vez.",
+    "es_author": "IA (Claude)",
+    "id": "s_3532873",
+    "it": "Lo hai fatto di nuovo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3532873",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Vallysing",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Te rompiste el brazo.",
+    "es_author": "IA (Claude)",
+    "id": "s_3532879",
+    "it": "Ti sei rotto il braccio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3532879",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Vallysing",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Tuviste un día largo.",
+    "es_author": "IA (Claude)",
+    "id": "s_3532901",
+    "it": "Hai avuto una lunga giornata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3532901",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Vallysing",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Encontrarás un trabajo.",
+    "es_author": "IA (Claude)",
+    "id": "s_3532962",
+    "it": "Troverai un lavoro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3532962",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Vallysing",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Hiciste tu parte.",
+    "es_author": "IA (Claude)",
+    "id": "s_3533000",
+    "it": "Hai fatto la tua parte.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3533000",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Vallysing",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Me encontré con Tom en el club.",
+    "es_author": "IA (Claude)",
+    "id": "s_3533063",
+    "it": "Ho incontrato Tom al club.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3533063",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Vallysing",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No era feliz.",
+    "es_author": "IA (Claude)",
+    "id": "s_3533086",
+    "it": "Non ero felice.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3533086",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Vallysing",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Vendré con Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_3533143",
+    "it": "Verrò con Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3533143",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -6257,6 +9434,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "¿No has cenado?",
+    "es_author": "cueyayotl",
+    "es_source_id": "6171012",
+    "id": "s_3635508",
+    "it": "Non hai cenato?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3635508",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -6331,6 +9530,26 @@
     "translation_kind": "llm"
   },
   {
+    "author": "martin",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Seguro que lloverá.",
+    "es_author": "IA (Claude)",
+    "id": "s_365719",
+    "it": "Pioverà di sicuro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "365719",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -6380,6 +9599,162 @@
   },
   {
     "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Quisiera un mapa de la ciudad.",
+    "es_author": "IA (Claude)",
+    "id": "s_373683",
+    "it": "Vorrei una mappa della città.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "373683",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Cometí un error.",
+    "es_author": "IA (Claude)",
+    "id": "s_373872",
+    "it": "Ho fatto un errore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "373872",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Compré un libro.",
+    "es_author": "IA (Claude)",
+    "id": "s_373939",
+    "it": "Ho comprato un libro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "373939",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "El hielo se derritió.",
+    "es_author": "IA (Claude)",
+    "id": "s_373999",
+    "it": "Il ghiaccio si è sciolto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "373999",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "El tren estaba lleno.",
+    "es_author": "IA (Claude)",
+    "id": "s_374052",
+    "it": "Il treno era affollato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "374052",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Perdieron el tren.",
+    "es_author": "IA (Claude)",
+    "id": "s_374054",
+    "it": "Hanno perso il treno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "374054",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Me bajé del tren.",
+    "es_author": "IA (Claude)",
+    "id": "s_374055",
+    "it": "Sono sceso dal treno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "374055",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Le di de comer al perro.",
+    "es_author": "IA (Claude)",
+    "id": "s_374212",
+    "it": "Ho dato da mangiare al cane.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "374212",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -6404,6 +9779,45 @@
     "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Has visto mi cámara?",
+    "es_author": "IA (Claude)",
+    "id": "s_374258",
+    "it": "Hai visto la mia macchina fotografica?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "374258",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Ayer era domingo.",
+    "es_author": "IA (Claude)",
+    "id": "s_374301",
+    "it": "Ieri era domenica.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "374301",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
     "error_codes": [
       "ERR_AUX_ESSERE"
     ],
@@ -6423,6 +9837,85 @@
       "ERR_AUX_ESSERE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Hoy estoy ocupado.",
+    "es_author": "IA (Claude)",
+    "id": "s_374477",
+    "it": "Oggi sono occupato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "374477",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Nunca me gustó la biología.",
+    "es_author": "IA (Claude)",
+    "id": "s_375238",
+    "it": "Non mi è mai piaciuta la biologia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "375238",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Nadie estaba presente.",
+    "es_author": "IA (Claude)",
+    "id": "s_375359",
+    "it": "Nessuno era presente.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "375359",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "La caja era demasiado pesada.",
+    "es_author": "IA (Claude)",
+    "id": "s_375467",
+    "it": "La scatola era troppo pesante.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "375467",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -6495,6 +9988,53 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no puede caminar.",
+    "es_author": "IA (Claude)",
+    "id": "s_3758991",
+    "it": "Non può più camminare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3758991",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "No se levantó temprano.",
+    "es_author": "kylecito",
+    "es_source_id": "336757",
+    "id": "s_3761237",
+    "it": "Non si è alzato presto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3761237",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "martin",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -6517,6 +10057,26 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Llegó la primavera.",
+    "es_author": "IA (Claude)",
+    "id": "s_376568",
+    "it": "La primavera è arrivata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "376568",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -6592,6 +10152,26 @@
     "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Estábamos muy cansados.",
+    "es_author": "IA (Claude)",
+    "id": "s_377272",
+    "it": "Eravamo molto stanchi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "377272",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
     "error_codes": [
       "ERR_IMPERATIVO_NEG"
     ],
@@ -6610,6 +10190,84 @@
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No tengo idea.",
+    "es_author": "IA (Claude)",
+    "id": "s_377563",
+    "it": "Non ne ho idea.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "377563",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Se me ocurrió una idea.",
+    "es_author": "IA (Claude)",
+    "id": "s_377566",
+    "it": "Mi è venuta un'idea.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "377566",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Esta leña no arderá.",
+    "es_author": "IA (Claude)",
+    "id": "s_377590",
+    "it": "Questa legna non brucerà.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "377590",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "El océano estaba calmado.",
+    "es_author": "IA (Claude)",
+    "id": "s_377637",
+    "it": "L'oceano era calmo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "377637",
+    "tag_rules": {},
     "translation_kind": "llm"
   },
   {
@@ -6642,6 +10300,65 @@
     "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Di un paseo.",
+    "es_author": "IA (Claude)",
+    "id": "s_378160",
+    "it": "Ho fatto una passeggiata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378160",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "El reloj se detuvo.",
+    "es_author": "IA (Claude)",
+    "id": "s_378177",
+    "it": "L'orologio si è fermato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378177",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "El reloj está mal.",
+    "es_author": "IA (Claude)",
+    "id": "s_378178",
+    "it": "L'orologio è sbagliato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378178",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
     "error_codes": [
       "ERR_PARTICIPIO_ES"
     ],
@@ -6661,6 +10378,46 @@
       "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Estaba un poco sorprendido.",
+    "es_author": "IA (Claude)",
+    "id": "s_378689",
+    "it": "Ero un po' sorpreso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378689",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Tiene más o menos mi edad.",
+    "es_author": "IA (Claude)",
+    "id": "s_378700",
+    "it": "Ha più o meno la mia età.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378700",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -6683,6 +10440,25 @@
       "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Le encontré un trabajo.",
+    "es_author": "IA (Claude)",
+    "id": "s_378887",
+    "it": "Gli ho trovato un lavoro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378887",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -6751,6 +10527,26 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Ayer hacía frío.",
+    "es_author": "IA (Claude)",
+    "id": "s_379778",
+    "it": "Ieri faceva freddo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "379778",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -6771,6 +10567,25 @@
     "tag_rules": {
       "ERR_PERSONAL_A": "capsule_calque"
     },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Es un girasol.",
+    "es_author": "IA (Claude)",
+    "id": "s_380622",
+    "it": "È un girasole.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "380622",
+    "tag_rules": {},
     "translation_kind": "llm"
   },
   {
@@ -6798,6 +10613,93 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "¿Fue divertido?",
+    "es_author": "cueyayotl",
+    "es_source_id": "4587013",
+    "id": "s_3808104",
+    "it": "È stato divertente?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3808104",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "He decidido decirle que la quiero.",
+    "es_author": "Shishir",
+    "es_source_id": "1595434",
+    "id": "s_380824",
+    "it": "Ho deciso di dirgli che la amo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "380824",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Te he echado de menos.",
+    "es_author": "IA (Claude)",
+    "id": "s_381446",
+    "it": "Mi sei mancato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "381446",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Caminamos mucho.",
+    "es_author": "IA (Claude)",
+    "id": "s_381869",
+    "it": "Abbiamo camminato molto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "381869",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -6822,6 +10724,26 @@
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Nadie lo sabrá.",
+    "es_author": "IA (Claude)",
+    "id": "s_382051",
+    "it": "Nessuno lo saprà.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "382051",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -6960,6 +10882,26 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No era mi intención.",
+    "es_author": "IA (Claude)",
+    "id": "s_383776",
+    "it": "Non era mia intenzione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "383776",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -7204,6 +11146,111 @@
     "translation_kind": "direct"
   },
   {
+    "author": "valealb",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Ya se lo dije a Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_3884912",
+    "it": "L'ho già detto a Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3884912",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "valealb",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Me he cepillado los dientes.",
+    "es_author": "Shishir",
+    "es_source_id": "10460510",
+    "id": "s_3884947",
+    "it": "Mi sono lavato i denti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3884947",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Está enfadada conmigo.",
+    "es_author": "IA (Claude)",
+    "id": "s_388769",
+    "it": "È arrabbiata con me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "388769",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Qué ocurrió?",
+    "es_author": "IA (Claude)",
+    "id": "s_388816",
+    "it": "Che cos'è successo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "388816",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "¿Qué has respondido?",
+    "es_author": "Shishir",
+    "es_source_id": "2631",
+    "id": "s_388817",
+    "it": "Che cos'hai risposto?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "388817",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -7222,6 +11269,30 @@
     "source_id": "389110",
     "tag_rules": {
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "¿Ya has estado en París?",
+    "es_author": "Shishir",
+    "es_source_id": "795884",
+    "id": "s_390650",
+    "it": "Sei già stato a Parigi?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "390650",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -7271,6 +11342,25 @@
       "ERR_VOC_ABITI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Dónde lo conseguiste?",
+    "es_author": "IA (Claude)",
+    "id": "s_396597",
+    "it": "Dove l'hai preso?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "396597",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -7385,6 +11475,25 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Por qué lo compraste?",
+    "es_author": "IA (Claude)",
+    "id": "s_401787",
+    "it": "Perché l'hai comprato?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "401787",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -7476,6 +11585,66 @@
     "translation_kind": "direct"
   },
   {
+    "author": "shoras",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Has oído las noticias?",
+    "es_author": "IA (Claude)",
+    "id": "s_409382",
+    "it": "Hai sentito le notizie?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "409382",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "shoras",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Ese niño se hizo daño.",
+    "es_author": "IA (Claude)",
+    "id": "s_409489",
+    "it": "Quel bambino si è fatto male.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "409489",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "shoras",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Ella fue a Chicago en autobús.",
+    "es_author": "Shishir",
+    "es_source_id": "940748",
+    "id": "s_409814",
+    "it": "Lei è andata a Chicago in autobus.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "409814",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -7543,6 +11712,26 @@
     "translation_kind": "direct"
   },
   {
+    "author": "shoras",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Nunca te olvidaré.",
+    "es_author": "IA (Claude)",
+    "id": "s_410260",
+    "it": "Non ti dimenticherò mai.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "410260",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -7567,6 +11756,46 @@
     "translation_kind": "direct"
   },
   {
+    "author": "tiramisu",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Sacó una foto.",
+    "es_author": "IA (Claude)",
+    "id": "s_4108291",
+    "it": "Ha fatto una foto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4108291",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Qué hiciste después?",
+    "es_author": "IA (Claude)",
+    "id": "s_410947",
+    "it": "Che cos'hai fatto dopo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "410947",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -7587,6 +11816,45 @@
       "ERR_GENERE_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "shoras",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Tuve un accidente.",
+    "es_author": "IA (Claude)",
+    "id": "s_414478",
+    "it": "Ho avuto un incidente.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "414478",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "shoras",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Perdió su trabajo.",
+    "es_author": "IA (Claude)",
+    "id": "s_417031",
+    "it": "Ha perso il lavoro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "417031",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -7656,6 +11924,67 @@
     "translation_kind": "llm"
   },
   {
+    "author": "BEASY8",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Se tomó un día libre.",
+    "es_author": "IA (Claude)",
+    "id": "s_4217875",
+    "it": "Lui si è preso una giornata libera.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4217875",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "BEASY8",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Quién escribió el libro?",
+    "es_author": "IA (Claude)",
+    "id": "s_4226660",
+    "it": "Chi ha scritto il libro?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4226660",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Yo ya no bebo.",
+    "es_author": "IA (Claude)",
+    "id": "s_4243995",
+    "it": "Io non bevo più.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4243995",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -7701,6 +12030,94 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Ella se quedó.",
+    "es_author": "IA (Claude)",
+    "id": "s_4260526",
+    "it": "Lei è rimasta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4260526",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Ustedes se quedaron.",
+    "es_author": "IA (Claude)",
+    "id": "s_4260528",
+    "it": "Voi siete rimasti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4260528",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Ustedes (chicas) se quedaron.",
+    "es_author": "IA (Claude)",
+    "id": "s_4260531",
+    "it": "Voi siete rimaste.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4260531",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "BEASY8",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Tom te llamó.",
+    "es_author": "IA (Claude)",
+    "id": "s_4261235",
+    "it": "Tom ti ha chiamato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4261235",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -7721,6 +12138,49 @@
     "source_id": "427951",
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Obtuvo el primer premio.",
+    "es_author": "IA (Claude)",
+    "id": "s_429813",
+    "it": "Ha ottenuto il primo premio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "429813",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Nox",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no tienen vino.",
+    "es_author": "IA (Claude)",
+    "id": "s_432028",
+    "it": "Non hanno più vino.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "432028",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -7957,6 +12417,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no quiero jugar.",
+    "es_author": "IA (Claude)",
+    "id": "s_4472340",
+    "it": "Non voglio più giocare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4472340",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -8047,6 +12530,52 @@
     "translation_kind": "direct"
   },
   {
+    "author": "ianna",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "Fue un beso muy romántico.",
+    "es_author": "ianna",
+    "es_source_id": "4739405",
+    "id": "s_4523622",
+    "it": "È stato un bacio molto romantico.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4523622",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "¿Quién se detuvo?",
+    "es_author": "ignacio",
+    "es_source_id": "9423028",
+    "id": "s_4569287",
+    "it": "Chi si è fermato?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4569287",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -8065,6 +12594,28 @@
     "source_id": "4571433",
     "tag_rules": {
       "ERR_GENERE_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "La fiesta fue bastante salvaje.",
+    "es_author": "Viqui",
+    "es_source_id": "12024548",
+    "id": "s_4583987",
+    "it": "La festa è stata piuttosto selvaggia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4583987",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -8095,6 +12646,69 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "Conseguí entrar.",
+    "es_author": "hundo",
+    "es_source_id": "957071",
+    "id": "s_4639",
+    "it": "Sono riuscito a entrare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4639",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Dejaste propina?",
+    "es_author": "IA (Claude)",
+    "id": "s_4645",
+    "it": "Hai lasciato la mancia?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4645",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Hablé con unos amigos.",
+    "es_author": "IA (Claude)",
+    "id": "s_4662",
+    "it": "Ho parlato a degli amici.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4662",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_NEG"
     ],
     "es": "No escuches a Tom.",
@@ -8110,6 +12724,69 @@
     "source_id": "4668061",
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Dime lo que pasó.",
+    "es_author": "IA (Claude)",
+    "id": "s_4669",
+    "it": "Dimmi quello che è successo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4669",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¡Lo logramos!",
+    "es_author": "IA (Claude)",
+    "id": "s_4680",
+    "it": "Ce l'abbiamo fatta!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4680",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Fuimos demasiado lejos.",
+    "es_author": "IA (Claude)",
+    "id": "s_4690733",
+    "it": "Noi siamo andate troppo lontano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4690733",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -8201,6 +12878,28 @@
     "source_id": "475635",
     "tag_rules": {
       "ERR_VOC_DENARO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Estaba equivocado.",
+    "es_author": "Shishir",
+    "es_source_id": "473444",
+    "id": "s_475662",
+    "it": "Mi sono sbagliato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "475662",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -8368,6 +13067,47 @@
     "translation_kind": "direct"
   },
   {
+    "author": "WM3DAS",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "Ha sido agradable hablar contigo.",
+    "es_author": "Shishir",
+    "es_source_id": "2205601",
+    "id": "s_5114929",
+    "it": "È stato bello parlare con te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5114929",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "WM3DAS",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Ellos fueron allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_5121182",
+    "it": "Sono andati lì.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5121182",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -8437,6 +13177,25 @@
     "translation_kind": "direct"
   },
   {
+    "author": "BEASY8",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Tom irá primero.",
+    "es_author": "IA (Claude)",
+    "id": "s_5223860",
+    "it": "Tom andrà per primo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5223860",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -8481,6 +13240,68 @@
       "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "WM3DAS",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Hablamos un rato.",
+    "es_author": "IA (Claude)",
+    "id": "s_5273123",
+    "it": "Abbiamo parlato per un po'.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5273123",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "WM3DAS",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Le compré un libro a Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_5273152",
+    "it": "Ho comprato un libro a Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5273152",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Nosotros volvimos.",
+    "es_author": "IA (Claude)",
+    "id": "s_5281025",
+    "it": "Noi siamo tornati.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5281025",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -8553,6 +13374,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Ella se despertó.",
+    "es_author": "Shishir",
+    "es_source_id": "528465",
+    "id": "s_529473",
+    "it": "Si è svegliata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "529473",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -8574,6 +13417,72 @@
       "ERR_ORA_ES": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Tom pidió algo de dinero.",
+    "es_author": "Shishir",
+    "es_source_id": "4435903",
+    "id": "s_5339590",
+    "it": "Tom ha chiesto un po' di denaro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5339590",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Me desperté.",
+    "es_author": "ignacio",
+    "es_source_id": "9452763",
+    "id": "s_5345809",
+    "it": "Mi sono svegliato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5345809",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Me desperté.",
+    "es_author": "ignacio",
+    "es_source_id": "9452763",
+    "id": "s_5345812",
+    "it": "Mi sono svegliata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5345812",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -8672,6 +13581,52 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Mi hija se ha resfriado",
+    "es_author": "AlfredoSeimandi",
+    "es_source_id": "12296366",
+    "id": "s_5370728",
+    "it": "Mia figlia ha preso il raffreddore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5370728",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Ella cerró los ojos lentamente.",
+    "es_author": "darinmex",
+    "es_source_id": "578417",
+    "id": "s_5402346",
+    "it": "Lei ha chiuso gli occhi lentamente.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5402346",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_NEG"
     ],
     "es": "No digas demasiado.",
@@ -8687,6 +13642,127 @@
     "source_id": "5403124",
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Sofia1789",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Piensas en francés?",
+    "es_author": "IA (Claude)",
+    "id": "s_5449890",
+    "it": "Pensi in francese?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5449890",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Él se ha sentado allí.",
+    "es_author": "saverius",
+    "es_source_id": "5469341",
+    "id": "s_5469331",
+    "it": "Lui si è seduto lì.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5469331",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Tom comió una naranja.",
+    "es_author": "IA (Claude)",
+    "id": "s_5479775",
+    "it": "Tom ha mangiato un'arancia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5479775",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "A Tom le gustaba Mary.",
+    "es_author": "IA (Claude)",
+    "id": "s_5496786",
+    "it": "A Tom piaceva Mary.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5496786",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Bebí el café.",
+    "es_author": "IA (Claude)",
+    "id": "s_5512094",
+    "it": "Ho bevuto il caffè.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5512094",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "¿Le gustó Moscú?",
+    "es_author": "IA (Claude)",
+    "id": "s_5515836",
+    "it": "Le è piaciuta Mosca?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5515836",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -8737,6 +13813,30 @@
     "translation_kind": "llm"
   },
   {
+    "author": "amweingarten",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Ayer me levanté pronto.",
+    "es_author": "Shishir",
+    "es_source_id": "2189600",
+    "id": "s_5563452",
+    "it": "Ieri mi sono alzato presto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5563452",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -8781,6 +13881,30 @@
       "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "¿Era un sueño?",
+    "es_author": "Shishir",
+    "es_source_id": "2008117",
+    "id": "s_5688443",
+    "it": "È stato un sogno?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5688443",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Pharamp",
@@ -8830,6 +13954,71 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Tom ya no trabaja.",
+    "es_author": "IA (Claude)",
+    "id": "s_5712690",
+    "it": "Tom non lavora più.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5712690",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no me importa.",
+    "es_author": "IA (Claude)",
+    "id": "s_5766105",
+    "it": "A me non importa più.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5766105",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Ella seguía llorando.",
+    "es_author": "IA (Claude)",
+    "id": "s_5827208",
+    "it": "Lei continuava a piangere.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5827208",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -8849,6 +14038,26 @@
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "WM3DAS",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Ya tenemos suficiente.",
+    "es_author": "IA (Claude)",
+    "id": "s_5887928",
+    "it": "Ne abbiamo abbastanza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5887928",
+    "tag_rules": {},
     "translation_kind": "llm"
   },
   {
@@ -8923,6 +14132,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Julian_L",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "¿Dónde estuviste esa noche?",
+    "es_author": "Shishir",
+    "es_source_id": "2722035",
+    "id": "s_6020583",
+    "it": "Dove sei stato quella notte?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6020583",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -8943,6 +14174,25 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Cero",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Ella llegó en coche.",
+    "es_author": "IA (Claude)",
+    "id": "s_607359",
+    "it": "Lei è arrivata in macchina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "607359",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -8990,6 +14240,95 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "La gente se levantó.",
+    "es_author": "jorgearestrepo",
+    "es_source_id": "860202",
+    "id": "s_611971",
+    "it": "La gente si è alzata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "611971",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Quién rompió el jarrón?",
+    "es_author": "IA (Claude)",
+    "id": "s_612486",
+    "it": "Chi ha rotto il vaso?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "612486",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Le he pedido que venga.",
+    "es_author": "glossboss",
+    "es_source_id": "13743985",
+    "id": "s_6141494",
+    "it": "Gli ho chiesto di venire.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6141494",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Le he pedido que venga.",
+    "es_author": "glossboss",
+    "es_source_id": "13743985",
+    "id": "s_6141496",
+    "it": "Le ho chiesto di venire.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6141496",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -9007,6 +14346,28 @@
     "source_id": "6142802",
     "tag_rules": {
       "ERR_GENERE_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Me casé joven.",
+    "es_author": "Seael",
+    "es_source_id": "13447101",
+    "id": "s_6143177",
+    "it": "Mi sono sposato giovane.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6143177",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -9034,6 +14395,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Ella se enfadó.",
+    "es_author": "Shishir",
+    "es_source_id": "508488",
+    "id": "s_618233",
+    "it": "Si è arrabbiata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "618233",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -9053,6 +14438,30 @@
     "source_id": "619812",
     "tag_rules": {
       "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Ha puesto mucho azúcar en el café.",
+    "es_author": "hundo",
+    "es_source_id": "959196",
+    "id": "s_620732",
+    "it": "Ha messo molto zucchero nel caffè.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "620732",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -9130,6 +14539,45 @@
     "translation_kind": "direct"
   },
   {
+    "author": "remod",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Me sentía solo.",
+    "es_author": "IA (Claude)",
+    "id": "s_626095",
+    "it": "Mi sentivo solo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "626095",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Me quedé en casa todo el día.",
+    "es_author": "IA (Claude)",
+    "id": "s_627118",
+    "it": "Sono restato a casa tutto il giorno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "627118",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -9172,6 +14620,25 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "bruno_b",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "El perro negro corría.",
+    "es_author": "IA (Claude)",
+    "id": "s_632233",
+    "it": "Il cane nero correva.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "632233",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -9265,6 +14732,71 @@
     "translation_kind": "direct"
   },
   {
+    "author": "rado",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Quién vendrá con nosotros?",
+    "es_author": "IA (Claude)",
+    "id": "s_635492",
+    "it": "Chi verrà con noi?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "635492",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "No hemos venido (nosotras).",
+    "es_author": "IA (Claude)",
+    "id": "s_6371895",
+    "it": "Non siamo venute.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6371895",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "No hemos venido.",
+    "es_author": "IA (Claude)",
+    "id": "s_6371896",
+    "it": "Non siamo venuti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6371896",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -9307,6 +14839,28 @@
     "source_id": "643069",
     "tag_rules": {
       "ERR_VOC_DENARO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "¿Has estado en Italia alguna vez?",
+    "es_author": "hundo",
+    "es_source_id": "963910",
+    "id": "s_644717",
+    "it": "Sei già stato in Italia prima?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "644717",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -9379,6 +14933,25 @@
       "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No te rías de mí.",
+    "es_author": "IA (Claude)",
+    "id": "s_656309",
+    "it": "Non ridere di me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "656309",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -9470,6 +15043,26 @@
       "ERR_VOC_ABITI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Te compré una cometa.",
+    "es_author": "IA (Claude)",
+    "id": "s_671602",
+    "it": "Ti ho comprato un aquilone.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "671602",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "dnnywld",
@@ -9632,6 +15225,126 @@
     "author": "Heracleum",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Quisiera ser rico.",
+    "es_author": "IA (Claude)",
+    "id": "s_691383",
+    "it": "Vorrei essere ricco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "691383",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Heracleum",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Alguien me robó el bolso.",
+    "es_author": "IA (Claude)",
+    "id": "s_693958",
+    "it": "Qualcuno mi ha rubato la borsa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "693958",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Heracleum",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Todavía no ha llegado.",
+    "es_author": "IA (Claude)",
+    "id": "s_694337",
+    "it": "Non è ancora arrivato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "694337",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Heracleum",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Él ya no trabaja aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_694513",
+    "it": "Lui non lavora più qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "694513",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Heracleum",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Vi al perro.",
+    "es_author": "IA (Claude)",
+    "id": "s_699598",
+    "it": "Ho visto il cane.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "699598",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Heracleum",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Lo viste salir?",
+    "es_author": "IA (Claude)",
+    "id": "s_701196",
+    "it": "L'hai visto uscire?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "701196",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Heracleum",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
     "error_codes": [
       "ERR_VOC_VORREI"
     ],
@@ -9697,6 +15410,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "¿Has estado alguna vez en Asia?",
+    "es_author": "saverius",
+    "es_source_id": "11857931",
+    "id": "s_7045755",
+    "it": "Sei mai stato in Asia?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7045755",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Heracleum",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -9719,6 +15454,29 @@
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no quiero hablar.",
+    "es_author": "IA (Claude)",
+    "id": "s_7097942",
+    "it": "Non voglio più parlare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7097942",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Heracleum",
@@ -9866,6 +15624,48 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "¿Has ido a Nara alguna vez?",
+    "es_author": "darinmex",
+    "es_source_id": "673415",
+    "id": "s_716494",
+    "it": "Sei mai stato a Nara?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "716494",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Heracleum",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Dejaron de hablar.",
+    "es_author": "IA (Claude)",
+    "id": "s_720432",
+    "it": "Hanno smesso di parlare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "720432",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_NEG"
     ],
     "es": "No hagas esto.",
@@ -9886,6 +15686,26 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Qué hiciste hoy?",
+    "es_author": "IA (Claude)",
+    "id": "s_741773",
+    "it": "Che cosa hai fatto oggi?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "741773",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -9904,6 +15724,47 @@
     "source_id": "7418888",
     "tag_rules": {
       "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Me quedé encerrado afuera.",
+    "es_author": "IA (Claude)",
+    "id": "s_749811",
+    "it": "Mi sono chiuso fuori.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "749811",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Ella se levantó tarde.",
+    "es_author": "Shishir",
+    "es_source_id": "959644",
+    "id": "s_749939",
+    "it": "Lei si è alzata tardi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "749939",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -9996,6 +15857,74 @@
       "ERR_GENERE_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "El aterrizaje fue perfecto.",
+    "es_author": "nancy",
+    "es_source_id": "1588904",
+    "id": "s_761661",
+    "it": "L'atterraggio è stato perfetto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "761661",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no trabajo aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_7623222",
+    "it": "Non lavoro più qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7623222",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_AVVERBI_PASSATO"
+    ],
+    "es": "Ya no trabajo aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_7623224",
+    "it": "Non lavoro più qua.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7623224",
+    "tag_rules": {
+      "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -10205,6 +16134,25 @@
     "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Hablé de música.",
+    "es_author": "IA (Claude)",
+    "id": "s_778303",
+    "it": "Ho parlato di musica.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "778303",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
     "error_codes": [
       "ERR_PREP_PLACE"
     ],
@@ -10275,6 +16223,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "No he leído todas sus novelas.",
+    "es_author": "darinmex",
+    "es_source_id": "886185",
+    "id": "s_7824015",
+    "it": "Non ho letto tutte le sue novelle.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7824015",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -10340,6 +16310,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Lo he leído en el periódico.",
+    "es_author": "chinopinyin",
+    "es_source_id": "791108",
+    "id": "s_791112",
+    "it": "L'ho letto sul giornale.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "791112",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "rado",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -10358,6 +16352,68 @@
     "source_id": "797199",
     "tag_rules": {
       "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "shoras",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Me hizo un vestido.",
+    "es_author": "IA (Claude)",
+    "id": "s_814010",
+    "it": "Mi ha fatto un vestito.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "814010",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Vi a tu padre.",
+    "es_author": "IA (Claude)",
+    "id": "s_820620",
+    "it": "Ho visto tuo padre.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "820620",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "Todavía no he comido.",
+    "es_author": "Shishir",
+    "es_source_id": "573187",
+    "id": "s_826582",
+    "it": "Non ho ancora pranzato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "826582",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -10410,6 +16466,25 @@
     "translation_kind": "direct"
   },
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Terminaste el trabajo?",
+    "es_author": "IA (Claude)",
+    "id": "s_837951",
+    "it": "Hai finito il lavoro?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "837951",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -10452,6 +16527,30 @@
     "source_id": "841039",
     "tag_rules": {
       "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Leyó el poema en voz alta.",
+    "es_author": "Shishir",
+    "es_source_id": "859429",
+    "id": "s_859423",
+    "it": "Ha letto la poesia ad alta voce.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "859423",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -10593,6 +16692,25 @@
   },
   {
     "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿De verdad vale la pena?",
+    "es_author": "IA (Claude)",
+    "id": "s_880149",
+    "it": "Ne vale davvero la pena?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "880149",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -10610,6 +16728,28 @@
     "source_id": "885786",
     "tag_rules": {
       "ERR_IMPERATIVO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Se casó el año pasado.",
+    "es_author": "hayastan",
+    "es_source_id": "1349525",
+    "id": "s_890950",
+    "it": "Si è sposata l'anno scorso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "890950",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -10660,6 +16800,176 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Tom se ha quedado en Australia.",
+    "es_author": "saverius",
+    "es_source_id": "10087110",
+    "id": "s_8980603",
+    "it": "Tom è rimasto in Australia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8980603",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Compraré uno nuevo.",
+    "es_author": "IA (Claude)",
+    "id": "s_899254",
+    "it": "Ne comprerò uno nuovo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "899254",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Ella se fue a casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_903238",
+    "it": "Lei è andata a casa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "903238",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Dicen que ella nació en Alemania.",
+    "es_author": "hayastan",
+    "es_source_id": "1031871",
+    "id": "s_905717",
+    "it": "Dicono che lei è nata in Germania.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "905717",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_PARTICIPI_IRREG"
+    ],
+    "es": "Ha decidido que lo hará.",
+    "es_author": "arh",
+    "es_source_id": "9226722",
+    "id": "s_9211547",
+    "it": "Ha deciso che lo farà.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9211547",
+    "tag_rules": {
+      "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_AUSILIARE"
+    ],
+    "es": "He estado en el extranjero.",
+    "es_author": "hundo",
+    "es_source_id": "956719",
+    "id": "s_921335",
+    "it": "Sono stato all'estero.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "921335",
+    "tag_rules": {
+      "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Siguió cantando.",
+    "es_author": "IA (Claude)",
+    "id": "s_921343",
+    "it": "Ha continuato a cantare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "921343",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Soy tenista.",
+    "es_author": "IA (Claude)",
+    "id": "s_928127",
+    "it": "Sono un tennista.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "928127",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -10683,6 +16993,47 @@
     "translation_kind": "direct"
   },
   {
+    "author": "zhou24",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Nos divertimos mucho anoche.",
+    "es_author": "lukaszpp",
+    "es_source_id": "464381",
+    "id": "s_934492",
+    "it": "Ci siamo divertiti ieri sera.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "934492",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Tuve suerte.",
+    "es_author": "IA (Claude)",
+    "id": "s_940163",
+    "it": "Ho avuto fortuna.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "940163",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -10703,6 +17054,51 @@
     "source_id": "945585",
     "tag_rules": {
       "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Llevamos aquí bastante tiempo.",
+    "es_author": "IA (Claude)",
+    "id": "s_945974",
+    "it": "Siamo stati qui abbastanza a lungo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "945974",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_REFLEXIVE_AUX"
+    ],
+    "es": "Me levanté temprano.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1279981",
+    "id": "s_946207",
+    "it": "Mi sono alzata presto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "946207",
+    "tag_rules": {
+      "ERR_REFLEXIVE_AUX": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -10752,6 +17148,45 @@
     "translation_kind": "direct"
   },
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Acabo de levantarme.",
+    "es_author": "IA (Claude)",
+    "id": "s_949486",
+    "it": "Mi sono appena alzato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "949486",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Es una principiante.",
+    "es_author": "IA (Claude)",
+    "id": "s_949664",
+    "it": "È una principiante.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "949664",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -10770,6 +17205,48 @@
     "review_status": "validated",
     "source": "tatoeba",
     "source_id": "950173",
+    "tag_rules": {
+      "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No lo encontré.",
+    "es_author": "IA (Claude)",
+    "id": "s_950242",
+    "it": "Non l'ho incontrato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "950242",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT"
+    ],
+    "es": "Ella vino.",
+    "es_author": "IA (Claude)",
+    "id": "s_965377",
+    "it": "Lei è venuta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "965377",
     "tag_rules": {
       "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
     },
@@ -10828,6 +17305,25 @@
       "ERR_PREP_PENSARE": "pensare_a"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Lo conseguí gratis.",
+    "es_author": "IA (Claude)",
+    "id": "s_969310",
+    "it": "L'ho avuto gratis.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "969310",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -10944,6 +17440,25 @@
   },
   {
     "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Ella le obedece.",
+    "es_author": "IA (Claude)",
+    "id": "s_977544",
+    "it": "Lei gli obbedisce.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "977544",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -11039,6 +17554,85 @@
       "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "¿Me has oído?",
+    "es_author": "IA (Claude)",
+    "id": "s_987797",
+    "it": "Mi hai sentito?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "987797",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "Era un día caluroso.",
+    "es_author": "IA (Claude)",
+    "id": "s_988471",
+    "it": "Era una giornata calda.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "988471",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No te acerques al perro.",
+    "es_author": "IA (Claude)",
+    "id": "s_989824",
+    "it": "Non avvicinarti al cane.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "989824",
+    "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [],
+    "es": "No me llames más.",
+    "es_author": "IA (Claude)",
+    "id": "s_991812",
+    "it": "Non chiamarmi più.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm",
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "991812",
+    "tag_rules": {},
+    "translation_kind": "llm"
   },
   {
     "author": "fullyfledged_pigeon",
