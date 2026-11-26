@@ -278,13 +278,18 @@ def imperativo_pronomi(it: str):
 
 
 # ── ERR_IMPERATIVO_LEI: error de registro (tu en lugar de Lei) con un vocativo formal ────────────────────────────────────────────
-LEI_TU = {"scusi": "scusa", "senta": "senti", "prenda": "prendi", "venga": "vieni", "guardi": "guarda", "aspetti": "aspetta"}
+LEI_TU = {"scusi": "scusa", "senta": "senti", "prenda": "prendi", "venga": "vieni", "guardi": "guarda", "aspetti": "aspetta",
+          "ascolti": "ascolta", "legga": "leggi", "scriva": "scrivi", "apra": "apri", "chiuda": "chiudi", "faccia": "fai"}
 _LEI = re.compile(r"\b(" + "|".join(LEI_TU) + r")\b", re.I)
 _FORMAL = re.compile(r"\b(signor[ei]?|signora|dottor\w*|professor\w*|avvocato)\b", re.I)
 
 
+_LEI_FORMULA = re.compile(r"\b(?:scusi|senta|si accomodi|prego)\b", re.I)
+
+
 def imperativo_lei(it: str):
-    if not _FORMAL.search(it):
+    """Hace falta un vocativo formal o una fórmula de cortesía (scusi, senta…): sin ellos «scusa» sería válido con «tu». La consigna en español debe decir «(usted)»."""
+    if not (_FORMAL.search(it) or _LEI_FORMULA.search(it)):
         return None
     m = _only(_LEI, it)
     return m and _mk("ERR_IMPERATIVO_LEI", m, 1, LEI_TU[m.group(1).lower()], "different_word")
@@ -323,7 +328,7 @@ def subordinate(it: str):
 
 
 # ── ERR_SPAZIO_PREP ──────────────────────────────────────────────────────────────────────────────────────────────────────────
-_SPAZIO = re.compile(r"\b(?:di fronte|accanto|in fondo|davanti) (a)\b(?= (?:il|lo|la|l'|i|gli|le|\w+))", re.I)
+_SPAZIO = re.compile(r"\b(?:di fronte|accanto|in fondo|davanti|di fianco|in mezzo|intorno|attorno|dirimpetto) (a)\b", re.I)
 
 
 def spazio_prep(it: str):
