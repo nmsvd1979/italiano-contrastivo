@@ -105,6 +105,11 @@
     "wrong": "La pentola è su il fuoco."
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Sono quattro anni più giovane di lui.",
+    "wrong": "Sono quattro anni più giovane che lui."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Sono a Parigi.",
     "wrong": "Sono in Parigi."
@@ -220,9 +225,19 @@
     "wrong": "Tom è più alto che me."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio cappotto ha tasche.",
+    "wrong": "Mio cappotto ha tasche."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Bevo il tè al limone.",
     "wrong": "Bevo il tè a il limone."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Mio figlio è più alto di me.",
+    "wrong": "Mio figlio è più alto che me."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -250,6 +265,16 @@
     "wrong": "Mio appartamento è troppo grande."
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Sono più alto di lui.",
+    "wrong": "Sono più alto che lui."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Sono più alta di lui.",
+    "wrong": "Sono più alta che lui."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Ora lavora in Francia.",
     "wrong": "Ora lavora a Francia."
@@ -263,6 +288,11 @@
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è una lettera per me?",
     "wrong": "Ci sono una lettera per me?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "I fiori sono nel vaso.",
+    "wrong": "I fiori sono in il vaso."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -293,6 +323,11 @@
     "code": "ERR_PREP_PLACE",
     "correct": "Resto in Italia.",
     "wrong": "Resto a Italia."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Voi siete persone molto più mature di me!",
+    "wrong": "Voi siete persone molto più mature che me!"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -365,6 +400,11 @@
     "wrong": "Tom conosce a Mary da molto tempo."
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Corre più veloce di me.",
+    "wrong": "Corre più veloce che me."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Zwina non ha ragione.",
     "wrong": "Zwina non tiene ragione."
@@ -403,6 +443,16 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il mio cane è marrone.",
     "wrong": "Mio cane è marrone."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Mangio del pane morbido.",
+    "wrong": "Mangio di il pane morbido."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "È più vecchia di Tom.",
+    "wrong": "È più vecchia che Tom."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -615,9 +665,19 @@
     "wrong": "Domani io non vado a il cinema."
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "È più forte di me.",
+    "wrong": "È più forte che me."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Io ho sonno!",
     "wrong": "Io tengo sonno!"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Le mie calze sono già asciutte?",
+    "wrong": "Mie calze sono già asciutte?"
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -648,6 +708,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Tu puoi utilizzare la mia bicicletta.",
     "wrong": "Tu puoi utilizzare mia bicicletta."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Corre più forte di me.",
+    "wrong": "Corre più forte che me."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -870,6 +935,21 @@
     "wrong": "Devo andare a il lavoro adesso."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Stai indossando le calze al contrario.",
+    "wrong": "Stai indossando le calze a il contrario."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sta indossando le calze al contrario.",
+    "wrong": "Sta indossando le calze a il contrario."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "State indossando le calze al contrario.",
+    "wrong": "State indossando le calze a il contrario."
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Io non vedo Tom da mesi.",
     "wrong": "Io non vedo a Tom da mesi."
@@ -970,9 +1050,19 @@
     "wrong": "Questo prodotto è fabbricato a Italia."
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Bilal è più alto di Karam.",
+    "wrong": "Bilal è più alto che Karam."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io voglio vivere nel paese.",
     "wrong": "Io voglio vivere in il paese."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "È più giovane di me.",
+    "wrong": "È più giovane che me."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -1005,6 +1095,11 @@
     "wrong": "Io non amo a Tom."
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "È più forte di lei.",
+    "wrong": "È più forte che lei."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Io voglio il suo rispetto.",
     "wrong": "Io voglio suo rispetto."
@@ -1013,6 +1108,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io studio storia dell'arte.",
     "wrong": "Io studio storia di l'arte."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Sono più veloce di te.",
+    "wrong": "Sono più veloce che te."
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -1155,6 +1255,11 @@
     "wrong": "Cosa c'è in la valigia?"
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "È più bassa di me.",
+    "wrong": "È più bassa che me."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Sei arrivato in tempo.",
     "wrong": "Hai arrivato in tempo."
@@ -1225,9 +1330,19 @@
     "wrong": "C'è di il latte in frigorifero."
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "È più alta di lui.",
+    "wrong": "È più alta che lui."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Ritorna in Cile!",
     "wrong": "Ritorna a Cile!"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Le mie calze sono ancora umide.",
+    "wrong": "Mie calze sono ancora umide."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -1385,6 +1500,16 @@
     "wrong": "Ci sono molti animali in lo zoo?"
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Ho più soldi di Tom.",
+    "wrong": "Ho più soldi che Tom."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Ho più denaro di Tom.",
+    "wrong": "Ho più denaro che Tom."
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è un messaggio per te.",
     "wrong": "Ci sono un messaggio per te."
@@ -1395,6 +1520,11 @@
     "wrong": "Sta bevendo di il succo di mela."
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Tom è più alto di te.",
+    "wrong": "Tom è più alto che te."
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Io vedo Dana e Corina.",
     "wrong": "Io vedo a Dana e Corina."
@@ -1403,6 +1533,16 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Le tue mani sono pulite?",
     "wrong": "Tue mani sono pulite?"
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Sono più bella di te.",
+    "wrong": "Sono più bella che te."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Sono più bella di lei.",
+    "wrong": "Sono più bella che lei."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -1470,9 +1610,24 @@
     "wrong": "Ci sono un gatto."
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "È più piccola di Tokyo.",
+    "wrong": "È più piccola che Tokyo."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Roma è in Italia.",
     "wrong": "Roma è a Italia."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "È più basso di Tom.",
+    "wrong": "È più basso che Tom."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Ha più libri di me.",
+    "wrong": "Ha più libri che me."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -1523,11 +1678,6 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "C'è una mela sul tavolo.",
     "wrong": "C'è una mela su il tavolo."
-  },
-  {
-    "code": "ERR_COMPARATIVE_DI",
-    "correct": "Tom parla più lentamente di Bill.",
-    "wrong": "Tom parla più lentamente che Bill."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -1600,6 +1750,11 @@
     "wrong": "Ci sono una chiamata per te!"
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il lenzuolo è sul letto.",
+    "wrong": "Il lenzuolo è su il letto."
+  },
+  {
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Lui è più intelligente di loro.",
     "wrong": "Lui è più intelligente che loro."
@@ -1620,6 +1775,16 @@
     "wrong": "Viene qui due volte a la settimana."
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Mangi più cibo di me.",
+    "wrong": "Mangi più cibo che me."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Mangia più cibo di me.",
+    "wrong": "Mangia più cibo che me."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Nancy ha paura dei cani.",
     "wrong": "Nancy tiene paura dei cani."
@@ -1628,6 +1793,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Nessuna delle automobili è la mia.",
     "wrong": "Nessuna di le automobili è la mia."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "È nella mia tasca.",
+    "wrong": "È in la mia tasca."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -1815,9 +1985,19 @@
     "wrong": "Usa il miele invece di lo zucchero."
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "È più popolare di me.",
+    "wrong": "È più popolare che me."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Sono alla stazione di Tokyo adesso.",
     "wrong": "Sono a la stazione di Tokyo adesso."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "È più anziano di Tom?",
+    "wrong": "È più anziano che Tom?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -1875,6 +2055,11 @@
     "wrong": "Ci sono un grosso buco."
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Sono più alta di Tom.",
+    "wrong": "Sono più alta che Tom."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Hai dello shampoo?",
     "wrong": "Hai di lo shampoo?"
@@ -1915,6 +2100,16 @@
     "wrong": "Suo ragazzo è turco."
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Tom è più bello di te.",
+    "wrong": "Tom è più bello che te."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Io sono più giovane di lei.",
+    "wrong": "Io sono più giovane che lei."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Sei andato al negozio?",
     "wrong": "Hai andato al negozio?"
@@ -1923,6 +2118,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Sei andato al negozio?",
     "wrong": "Sei andato a il negozio?"
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Lei è più famosa di te.",
+    "wrong": "Lei è più famosa che te."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -1958,6 +2158,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Dov'è il tuo altro orecchino?",
     "wrong": "Dov'è tuo altro orecchino?"
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Tom è più forte di te.",
+    "wrong": "Tom è più forte che te."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -2046,6 +2251,16 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Vuoi della minestra?",
+    "wrong": "Vuoi di la minestra?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Volete della minestra?",
+    "wrong": "Volete di la minestra?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Vengo dall'Italia e parlo italiano.",
     "wrong": "Vengo da l'Italia e parlo italiano."
   },
@@ -2085,6 +2300,11 @@
     "wrong": "Tom tiene paura dei cani."
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Ho meno soldi di voi.",
+    "wrong": "Ho meno soldi che voi."
+  },
+  {
     "code": "ERR_TENERE_AVERE",
     "correct": "Perché non hai paura?",
     "wrong": "Perché non tieni paura?"
@@ -2103,6 +2323,11 @@
     "code": "ERR_TENERE_AVERE",
     "correct": "Forse hanno fame.",
     "wrong": "Forse tengono fame."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Il sole è molto più grande di Giove.",
+    "wrong": "Il sole è molto più grande che Giove."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -2148,6 +2373,11 @@
     "code": "ERR_TENERE_AVERE",
     "correct": "Tom ha paura di noi, vero?",
     "wrong": "Tom tiene paura di noi, vero?"
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Justin Bieber è più famoso di Katie Holmes.",
+    "wrong": "Justin Bieber è più famoso che Katie Holmes."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -2435,6 +2665,11 @@
     "wrong": "Perché non utilizza sua lingua?"
   },
   {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "È più giovane di lui.",
+    "wrong": "È più giovane che lui."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Come si chiama il tuo maestro?",
     "wrong": "Come si chiama tuo maestro?"
@@ -2456,6 +2691,16 @@
   },
   {
     "code": "ERR_COMPARATIVE_DI",
+    "correct": "Sono più alto di te.",
+    "wrong": "Sono più alto che te."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Sono più alta di te.",
+    "wrong": "Sono più alta che te."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
     "correct": "Sono più basso di te.",
     "wrong": "Sono più basso che te."
   },
@@ -2463,6 +2708,16 @@
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Sono più bassa di te.",
     "wrong": "Sono più bassa che te."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Sono più basso di voi.",
+    "wrong": "Sono più basso che voi."
+  },
+  {
+    "code": "ERR_COMPARATIVE_DI",
+    "correct": "Sono più bassa di voi.",
+    "wrong": "Sono più bassa che voi."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2733,6 +2988,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Il diavolo è morto.",
     "wrong": "Il diavolo ha morto."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Hai delle mani bellissime.",
+    "wrong": "Hai di le mani bellissime."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -3116,6 +3376,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'è pochissima acqua nel tuo caffè.",
+    "wrong": "C'è pochissima acqua in il tuo caffè."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La mia sorella maggiore ha i capelli che le cadono sulle spalle.",
     "wrong": "La mia sorella maggiore ha i capelli che le cadono su le spalle."
   },
@@ -3411,8 +3676,18 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Qual è il nome del tuo migliore amico?",
+    "wrong": "Qual è il nome di il tuo migliore amico?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Qual è il nome del vostro migliore amico?",
     "wrong": "Qual è il nome di il vostro migliore amico?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Qual è il nome della tua migliore amica?",
+    "wrong": "Qual è il nome di la tua migliore amica?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3745,6 +4020,11 @@
     "wrong": "Non ho potuto controllare mie lacrime."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Mary ha messo alcuni fiori nel vaso.",
+    "wrong": "Mary ha messo alcuni fiori in il vaso."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Siamo andati a Londra l'anno scorso.",
     "wrong": "Abbiamo andati a Londra l'anno scorso."
@@ -3916,6 +4196,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Posso dire tutto al mio migliore amico.",
+    "wrong": "Posso dire tutto a il mio migliore amico."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Lei ha fino alle due e mezza.",
     "wrong": "Lei ha fino a le due e mezza."
   },
@@ -4071,6 +4356,21 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La mia migliore amica è islandese.",
+    "wrong": "Mia migliore amica è islandese."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio migliore amico non era italiano?",
+    "wrong": "Mio migliore amico non era italiano?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La mia migliore amica non è napoletana?",
+    "wrong": "Mia migliore amica non è napoletana?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il mio amico era thailandese?",
     "wrong": "Mio amico era thailandese?"
   },
@@ -4078,6 +4378,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Il tempo è cambiato all'improvviso.",
     "wrong": "Il tempo è cambiato a l'improvviso."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio migliore amico non è georgiano.",
+    "wrong": "Mio migliore amico non è georgiano."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",

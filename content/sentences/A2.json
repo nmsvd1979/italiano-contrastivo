@@ -1030,6 +1030,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Los quiero muchísimo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1003978",
+    "it": "Vi amo tantissimo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1003978",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -1624,6 +1647,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Hace todo lo que le digo que haga.",
+    "es_author": "Seael",
+    "es_source_id": "10367777",
+    "id": "s_10367776",
+    "it": "Fa tutto ciò che le dico di fare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10367776",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -1865,6 +1912,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "En verano hace calor en Buenos Aires.",
+    "es_author": "Espi",
+    "es_source_id": "1437703",
+    "id": "s_1074108",
+    "it": "D'estate a Buenos Aires fa caldissimo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1074108",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Bethanielle",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -2043,6 +2112,30 @@
     "source_id": "10825704",
     "tag_rules": {
       "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Vi algo interesante.",
+    "es_author": "hayastan",
+    "es_source_id": "1082583",
+    "id": "s_1082580",
+    "it": "Ho visto qualcosa di interessante.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1082580",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -2253,6 +2346,28 @@
     "source_id": "1097835",
     "tag_rules": {
       "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Él no tiene amigos con los que charlar.",
+    "es_author": "tatoerique",
+    "es_source_id": "340035",
+    "id": "s_1098101",
+    "it": "Non ha nessun amico con cui parlare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1098101",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3071,6 +3186,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "¿Piensas lo mismo que yo?",
+    "es_author": "Shishir",
+    "es_source_id": "1136150",
+    "id": "s_1136149",
+    "it": "Pensi quello che penso io?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1136149",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_POSSESSIVE_SPELLING"
     ],
     "es": "¡Hoy no es mi día de suerte!",
@@ -3133,6 +3270,30 @@
       "ERR_PRIMA_DI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Él es mi mejor amigo.",
+    "es_author": "Shishir",
+    "es_source_id": "731666",
+    "id": "s_1149144",
+    "it": "È il mio migliore amico.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1149144",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -3433,6 +3594,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Nuel",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Tienes unas manos hermosísimas.",
+    "es_author": "IA (Claude)",
+    "id": "s_11744933",
+    "it": "Hai delle mani bellissime.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11744933",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -3616,6 +3800,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Está mejor afeitado.",
+    "es_author": "nancy",
+    "es_source_id": "1189454",
+    "id": "s_1189446",
+    "it": "Sta meglio sbarbato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1189446",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -3701,6 +3907,29 @@
     "source_id": "12017554",
     "tag_rules": {
       "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Los íconos son hermosísimos.",
+    "es_author": "IA (Claude)",
+    "id": "s_12019615",
+    "it": "Le icone sono bellissime.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12019615",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -3934,6 +4163,28 @@
     "source_id": "1239005",
     "tag_rules": {
       "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Tom no escucha lo que dice Mary.",
+    "es_author": "Shishir",
+    "es_source_id": "11110822",
+    "id": "s_1239606",
+    "it": "Tom non ascolta quello che dice Mary.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1239606",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4594,6 +4845,28 @@
     "author": "ValentinaM",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Esto es todo lo que tiene que hacer Tom.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1413509",
+    "id": "s_1272072",
+    "it": "Questo è tutto ciò che Tom deve fare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1272072",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "ValentinaM",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
     "error_codes": [],
     "es": "Me estoy divirtiendo.",
     "es_author": "IA (Claude)",
@@ -4607,6 +4880,29 @@
     "source": "tatoeba",
     "source_id": "1272420",
     "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Fue hermosísimo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1272886",
+    "it": "È stato bellissimo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1272886",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
     "translation_kind": "llm"
   },
   {
@@ -4970,6 +5266,50 @@
       "ERR_MANCARE": "mancare"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Kvantumo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Esto es todo lo que sé de él.",
+    "es_author": "Shishir",
+    "es_source_id": "561943",
+    "id": "s_1304876",
+    "it": "Questo è tutto quello che so di lui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1304876",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "saverius",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Los actores de aquella obra de teatro eran todos buenísimos.",
+    "es_author": "saverius",
+    "es_source_id": "10825926",
+    "id": "s_13050176",
+    "it": "Gli attori di quello spettacolo teatrale erano tutti bravissimi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13050176",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -6268,6 +6608,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "unforgiven95",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Justo lo que yo quería decirte.",
+    "es_author": "estambulista",
+    "es_source_id": "2765163",
+    "id": "s_14015269",
+    "it": "È esattamente quello che volevo dirti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14015269",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -6289,6 +6651,50 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "unforgiven95",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Comprendo lo que dices pero no lo comparto.",
+    "es_author": "Seael",
+    "es_source_id": "11849701",
+    "id": "s_14025248",
+    "it": "Capisco quello che dici ma non lo condivido.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14025248",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "unforgiven95",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Comprendo lo que dices pero no lo comparto.",
+    "es_author": "Seael",
+    "es_source_id": "11849701",
+    "id": "s_14025249",
+    "it": "Capisco quello che dici ma non sono d'accordo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14025249",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "unforgiven95",
@@ -6339,6 +6745,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "No me importa lo que piensen.",
+    "es_author": "Seael",
+    "es_source_id": "13605150",
+    "id": "s_14033749",
+    "it": "Non mi importa quello che pensano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14033749",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "unforgiven95",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_ACCENT_TRANSFER",
       "ERR_ARTICLE_ALLOMORPH",
       "ERR_GEMINATE_SPELLING"
@@ -6357,6 +6785,28 @@
       "ERR_ACCENT_TRANSFER": "accento_finale",
       "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "unforgiven95",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Hice lo que quise.",
+    "es_author": "don_ramon",
+    "es_source_id": "5147675",
+    "id": "s_14034627",
+    "it": "Ho fatto quello che volevo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14034627",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -8134,6 +8584,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "No soy capaz de hacer ningún otro trabajo.",
+    "es_author": "emigonza",
+    "es_source_id": "6894730",
+    "id": "s_1720904",
+    "it": "Non sono in grado di fare nessun altro lavoro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1720904",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PARTICIPLE_AGREEMENT"
     ],
     "es": "¿Dónde estuvieron todo este tiempo?",
@@ -8273,6 +8745,50 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Viscio",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Eso es lo que quería preguntar.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1767513",
+    "id": "s_1767799",
+    "it": "Questo è quello che volevo chiedere.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1767799",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "antilope",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Esto es lo que puedo hacer por ti.",
+    "es_author": "Shishir",
+    "es_source_id": "449961",
+    "id": "s_1774152",
+    "it": "Questo è ciò che posso fare per te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1774152",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "hitori37",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -8313,6 +8829,28 @@
     "source_id": "1794752",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Tu café tiene muy poca agua.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2400669",
+    "id": "s_1798130",
+    "it": "C'è pochissima acqua nel tuo caffè.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1798130",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -8793,6 +9331,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "El mundo cambia muchísimo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1972149",
+    "it": "Il mondo cambia moltissimo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1972149",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "hitori37",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -9203,6 +9764,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Haré lo que pueda.",
+    "es_author": "hayastan",
+    "es_source_id": "2580987",
+    "id": "s_2020307",
+    "it": "Farò quello che posso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2020307",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -9223,6 +9806,28 @@
       "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "AYDYL84",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "No comprendo qué es lo que quiere decir.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1582675",
+    "id": "s_2021736",
+    "it": "Non capisco quello che vuole dire.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2021736",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "AYDYL84",
@@ -9346,6 +9951,28 @@
       "ERR_PERSONAL_A": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "AYDYL84",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "En cierto sentido, lo que él dice es verdad.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1642965",
+    "id": "s_2028804",
+    "it": "In un certo senso, quello che lui dice è vero.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2028804",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Sirio60",
@@ -9590,6 +10217,72 @@
       "ERR_PERSONAL_A": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Lo que él dice es cierto.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2201616",
+    "id": "s_2087186",
+    "it": "Quello che dice è vero.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2087186",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Lo que él dice es cierto.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2201616",
+    "id": "s_2087187",
+    "it": "Ciò che dice è vero.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2087187",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Sirio60",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "No hay donde esconderse.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1505953",
+    "id": "s_2092833",
+    "it": "Non c'è nessun posto in cui nascondersi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2092833",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -10377,6 +11070,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Zaghawa",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Tom es muy joven.",
+    "es_author": "Shishir",
+    "es_source_id": "2224934",
+    "id": "s_2410930",
+    "it": "Tom è giovanissimo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2410930",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -10534,6 +11249,28 @@
     "source_id": "2437014",
     "tag_rules": {
       "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "al_ex_an_der",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Sé lo que hice.",
+    "es_author": "hayastan",
+    "es_source_id": "2440721",
+    "id": "s_2440715",
+    "it": "Io so quello che ho fatto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2440715",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -11406,6 +12143,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Tom está mejor.",
+    "es_author": "IA (Claude)",
+    "id": "s_2614642",
+    "it": "Tom sta meglio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2614642",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "julius26",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -11759,6 +12519,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Me gusta muchísimo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2790845",
+    "it": "Mi piace moltissimo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2790845",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -11800,6 +12584,29 @@
     "source_id": "2792293",
     "tag_rules": {
       "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Las frambuesas están carísimas.",
+    "es_author": "IA (Claude)",
+    "id": "s_2793115",
+    "it": "I lamponi sono carissimi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2793115",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -11893,6 +12700,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Nos queda muy poco papel.",
+    "es_author": "IA (Claude)",
+    "id": "s_2844629",
+    "it": "Ci resta pochissima carta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2844629",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -11910,6 +12740,28 @@
     "source_id": "2848375",
     "tag_rules": {
       "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Ningún problema que reportar.",
+    "es_author": "cueyayotl",
+    "es_source_id": "3763351",
+    "id": "s_2848423",
+    "it": "Nessun problema da segnalare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2848423",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -12261,6 +13113,28 @@
     "source_id": "2960484",
     "tag_rules": {
       "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Lograste lo que querías.",
+    "es_author": "halime",
+    "es_source_id": "2883317",
+    "id": "s_2962965",
+    "it": "Hai ottenuto quello che volevi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2962965",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -12771,6 +13645,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "¿Cuál es el nombre de tu mejor amigo?",
+    "es_author": "cueyayotl",
+    "es_source_id": "3591296",
+    "id": "s_3133308",
+    "it": "Qual è il nome del tuo migliore amico?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3133308",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PREP_ARTICLE_CONTRACTION"
     ],
     "es": "¿Cuál es el nombre de su mejor amigo?",
@@ -12788,6 +13684,28 @@
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "¿Cuál es el nombre de tu mejor amiga?",
+    "es_author": "cueyayotl",
+    "es_source_id": "3591299",
+    "id": "s_3133311",
+    "it": "Qual è il nome della tua migliore amica?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3133311",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -12875,6 +13793,30 @@
     "source_id": "3164518",
     "tag_rules": {
       "ERR_CLITICO_POSIZIONE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Comparto lo que dices.",
+    "es_author": "arh",
+    "es_source_id": "7411038",
+    "id": "s_3166949",
+    "it": "Condivido quello che dici.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3166949",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -12968,6 +13910,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Todo lo que podemos hacer es esperarle.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1263762",
+    "id": "s_3203481",
+    "it": "Tutto ciò che possiamo fare è aspettarlo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3203481",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -13034,6 +13998,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Cree en ti misma o nadie más lo hará.",
+    "es_author": "Shishir",
+    "es_source_id": "4526174",
+    "id": "s_3248954",
+    "it": "Credi in te stessa o nessun altro lo farà.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3248954",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -13078,6 +14066,28 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Haces algo muy bueno.",
+    "es_author": "saverius",
+    "es_source_id": "10126396",
+    "id": "s_3299288",
+    "it": "Fai una bellissima cosa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3299288",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -13623,6 +14633,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Es necesario volver a leer lo que has escrito.",
+    "es_author": "carlosalberto",
+    "es_source_id": "3442065",
+    "id": "s_3441624",
+    "it": "Devi rileggere quello che hai scritto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3441624",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERFETTO_FORMA"
     ],
     "es": "¡Pensé en ti!",
@@ -13637,6 +14669,28 @@
     "source_id": "3441780",
     "tag_rules": {
       "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "¡Eres una gran amiga!",
+    "es_author": "zahurdias",
+    "es_source_id": "1918830",
+    "id": "s_3441884",
+    "it": "Sei una grandissima amica!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3441884",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -13840,6 +14894,30 @@
       "ERR_CE_IMPERFETTO": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "martin",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Cada vez que leo este libro, encuentro algo nuevo.",
+    "es_author": "hundo",
+    "es_source_id": "956711",
+    "id": "s_350465",
+    "it": "Ogni volta che leggo questo libro, trovo qualcosa di nuovo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "350465",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "martin",
@@ -14143,6 +15221,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Todo lo que tienes que hacer es esperar.",
+    "es_author": "Shishir",
+    "es_source_id": "524567",
+    "id": "s_351117",
+    "it": "Tutto ciò che devi fare è aspettare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "351117",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "martin",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_AVVERBI_PASSATO"
     ],
     "es": "Ya no trabaja aquí.",
@@ -14291,6 +15391,30 @@
       "ERR_CLITIC_DIRECT_INDIRECT": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Estoy ocupadísima.",
+    "es_author": "IA (Claude)",
+    "id": "s_3532508",
+    "it": "Io sono occupatissima.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3532508",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Vallysing",
@@ -14842,6 +15966,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Es increíble lo que puede ocurrir.",
+    "es_author": "DJ_Saidez",
+    "es_source_id": "10346761",
+    "id": "s_3643771",
+    "it": "È incredibile quello che può succedere.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3643771",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITICO_POSIZIONE"
     ],
     "es": "La quiero hacer feliz.",
@@ -15256,6 +16402,28 @@
   },
   {
     "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Es más fácil de lo que pensé.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1214265",
+    "id": "s_374587",
+    "it": "È più facile di quello che credevo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "374587",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -15592,6 +16760,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Atrapé una hermosa mariposa.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1323394",
+    "id": "s_376595",
+    "it": "Ho catturato una bellissima farfalla.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "376595",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_AUX_ESSERE"
     ],
     "es": "Taro murió dos años atrás.",
@@ -15656,6 +16846,28 @@
       "ERR_ORA_ES": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "valealb",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Sólo quiero lo mejor para Tom.",
+    "es_author": "swyter",
+    "es_source_id": "5566619",
+    "id": "s_3770988",
+    "it": "Voglio solo ciò che è meglio per Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3770988",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Pharamp",
@@ -16191,6 +17403,30 @@
       "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "El chico tiene una manzana en el bolsillo.",
+    "es_author": "hayastan",
+    "es_source_id": "1075482",
+    "id": "s_380225",
+    "it": "Il ragazzo ha una mela in tasca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "380225",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Pharamp",
@@ -16800,6 +18036,28 @@
   },
   {
     "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Él cree todo lo que le digo.",
+    "es_author": "hayastan",
+    "es_source_id": "1069666",
+    "id": "s_385056",
+    "it": "Crede a tutto quello che dico.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "385056",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -17236,6 +18494,28 @@
     "source_id": "390650",
     "tag_rules": {
       "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "valealb",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Perdóname por lo que debo hacer.",
+    "es_author": "gianich73",
+    "es_source_id": "3938969",
+    "id": "s_3937888",
+    "it": "Perdonami per quello che devo fare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3937888",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -17771,6 +19051,28 @@
   },
   {
     "author": "shoras",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Su padre es un excelente pianista.",
+    "es_author": "Eckhardtgabriel",
+    "es_source_id": "581113",
+    "id": "s_409588",
+    "it": "Suo padre è un bravissimo pianista.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "409588",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "shoras",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -17992,6 +19294,28 @@
     "author": "shoras",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "¿Quién pintó este hermoso cuadro?",
+    "es_author": "hayastan",
+    "es_source_id": "1035922",
+    "id": "s_414477",
+    "it": "Chi ha dipinto questo bellissimo quadro?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "414477",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "shoras",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
     "error_codes": [],
     "es": "Tuve un accidente.",
     "es_author": "IA (Claude)",
@@ -18007,6 +19331,28 @@
     "source_id": "414478",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Prodepon",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Mary ha puesto algunas flores en el jarrón.",
+    "es_author": "saverius",
+    "es_source_id": "4387909",
+    "id": "s_4166831",
+    "it": "Mary ha messo alcuni fiori nel vaso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4166831",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "shoras",
@@ -18470,6 +19816,52 @@
     "source_id": "427951",
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Le debo muchísimo a Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_4280587",
+    "it": "Devo moltissimo a Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4280587",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Eres mi mejor amigo.",
+    "es_author": "IA (Claude)",
+    "id": "s_428065",
+    "it": "Sei il mio migliore amico.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "428065",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -19228,6 +20620,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "No me gusta lo que ha hecho.",
+    "es_author": "saverius",
+    "es_source_id": "4626128",
+    "id": "s_4624949",
+    "it": "Non mi piace quello che ha fatto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4624949",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -19249,6 +20665,75 @@
       "ERR_PP_AUSILIARE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "¿Estás mejor ahora?",
+    "es_author": "IA (Claude)",
+    "id": "s_4641407",
+    "it": "Stai meglio ora?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4641407",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "¿Estás mejor ahora?",
+    "es_author": "IA (Claude)",
+    "id": "s_4641411",
+    "it": "Stai meglio adesso?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4641411",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "¿Está mejor ahora?",
+    "es_author": "IA (Claude)",
+    "id": "s_4641414",
+    "it": "Sta meglio adesso?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4641414",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -19292,6 +20777,28 @@
       "ERR_CLITIC_DIRECT_INDIRECT": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Tom no se avergüenza de lo que ha hecho.",
+    "es_author": "saverius",
+    "es_source_id": "4652843",
+    "id": "s_4651877",
+    "it": "Tom non si vergogna di ciò che ha fatto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4651877",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "erraticfaerie",
@@ -19648,6 +21155,28 @@
   },
   {
     "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "No podía creer lo que estaba viendo.",
+    "es_author": "Shishir",
+    "es_source_id": "475589",
+    "id": "s_475599",
+    "it": "Non potevo credere a quello che stavo vedendo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "475599",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -19689,6 +21218,28 @@
     "source_id": "475662",
     "tag_rules": {
       "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "gina",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Me gusta muchísimo hacerles regalos a la familia y a los amigos.",
+    "es_author": "Seael",
+    "es_source_id": "13698416",
+    "id": "s_4761188",
+    "it": "Mi piace moltissimo fare regali alla famiglia e agli amici.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4761188",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -19765,6 +21316,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Mañana compraré lo que necesito.",
+    "es_author": "Shishir",
+    "es_source_id": "4927011",
+    "id": "s_4923746",
+    "it": "Domani comprerò ciò che mi serve.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4923746",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PRIMA_DI"
     ],
     "es": "A menudo juego al tenis después de la escuela.",
@@ -19779,6 +21352,28 @@
     "source_id": "4961522",
     "tag_rules": {
       "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Esto es lo que siempre he deseado.",
+    "es_author": "arh",
+    "es_source_id": "5632029",
+    "id": "s_4983640",
+    "it": "Questo è ciò che ho sempre voluto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4983640",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -19847,6 +21442,28 @@
     "source_id": "500247",
     "tag_rules": {
       "ERR_VOC_NATURA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "¿No hay ningún problema?",
+    "es_author": "Seael",
+    "es_source_id": "13869590",
+    "id": "s_5005403",
+    "it": "Non c'è nessun problema?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5005403",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -19921,6 +21538,28 @@
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Intentemos algo diferente.",
+    "es_author": "Adelpa",
+    "es_source_id": "5813006",
+    "id": "s_5091563",
+    "it": "Proviamo qualcosa di diverso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5091563",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -20757,6 +22396,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "¿Qué tan ancho era?",
+    "es_author": "IA (Claude)",
+    "id": "s_5352922",
+    "it": "Quanto era largo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5352922",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -20774,6 +22436,28 @@
     "source_id": "5355899",
     "tag_rules": {
       "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Él le da todo lo que pide.",
+    "es_author": "Shishir",
+    "es_source_id": "499632",
+    "id": "s_535851",
+    "it": "Lui le dà tutto quello che chiede.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "535851",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -20962,6 +22646,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Se lo puedo contar todo a mi mejor amigo.",
+    "es_author": "saverius",
+    "es_source_id": "5469363",
+    "id": "s_5468068",
+    "it": "Posso dire tutto al mio migliore amico.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5468068",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITICO_POSIZIONE"
     ],
     "es": "No puedo pagarlo.",
@@ -21037,6 +22743,29 @@
     "source": "tatoeba",
     "source_id": "5496786",
     "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Nosotras estuvimos mejor.",
+    "es_author": "IA (Claude)",
+    "id": "s_5504054",
+    "it": "Noi siamo state meglio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5504054",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
     "translation_kind": "llm"
   },
   {
@@ -21243,6 +22972,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Es su mejor amigo.",
+    "es_author": "IA (Claude)",
+    "id": "s_5641968",
+    "it": "È il suo migliore amico.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5641968",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "dnnywld",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -21309,6 +23061,28 @@
     "source_id": "5697264",
     "tag_rules": {
       "ERR_PREP_PLACE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "He descubierto algo interesante.",
+    "es_author": "Shishir",
+    "es_source_id": "9938544",
+    "id": "s_5703049",
+    "it": "Ho scoperto qualcosa di interessante.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5703049",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -21815,6 +23589,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Valdast",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Pasamos un fin de semana bellísimo.",
+    "es_author": "baudelaire",
+    "es_source_id": "5931654",
+    "id": "s_5932210",
+    "it": "Abbiamo passato un fine settimana bellissimo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5932210",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -22200,6 +23996,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "¿Quién canta mejor?",
+    "es_author": "IA (Claude)",
+    "id": "s_6142879",
+    "it": "Chi canta meglio?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6142879",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "dnnywld",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -22362,6 +24181,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Él es mi mejor amigo. Somos como dos hermanos.",
+    "es_author": "austriaa",
+    "es_source_id": "2869152",
+    "id": "s_620664",
+    "it": "È il mio migliore amico. Siamo come fratelli.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "620664",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -22472,6 +24315,30 @@
     "source_id": "624592",
     "tag_rules": {
       "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Haz lo que creas correcto.",
+    "es_author": "Shishir",
+    "es_source_id": "615625",
+    "id": "s_624931",
+    "it": "Fai quello che credi giusto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "624931",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -23107,6 +24974,72 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Mi mejor amiga es islandesa.",
+    "es_author": "Seael",
+    "es_source_id": "7996509",
+    "id": "s_6612148",
+    "it": "La mia migliore amica è islandese.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6612148",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "¿Mi mejor amigo no era italiano?",
+    "es_author": "saverius",
+    "es_source_id": "10805672",
+    "id": "s_6612942",
+    "it": "Il mio migliore amico non era italiano?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6612942",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "¿Mi mejor amiga no es napolitana?",
+    "es_author": "saverius",
+    "es_source_id": "10262520",
+    "id": "s_6613012",
+    "it": "La mia migliore amica non è napoletana?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6613012",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -23196,6 +25129,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Mi mejor amigo no es georgiano.",
+    "es_author": "Serrot",
+    "es_source_id": "12291616",
+    "id": "s_6632040",
+    "it": "Il mio migliore amico non è georgiano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6632040",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -23259,6 +25214,29 @@
       "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "¿Qué más tiene en el bolsillo?",
+    "es_author": "IA (Claude)",
+    "id": "s_6724446",
+    "it": "Che altro ha in tasca?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6724446",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "dnnywld",
@@ -23460,6 +25438,51 @@
     "translation_kind": "llm"
   },
   {
+    "author": "jooliaan",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Te amo muchísimo.",
+    "es_author": "IA (Claude)",
+    "id": "s_692920",
+    "it": "Ti amo tantissimo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "692920",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "jooliaan",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Tengo que encontrar algo interesante que hacer.",
+    "es_author": "Platero",
+    "es_source_id": "861916",
+    "id": "s_692924",
+    "it": "Devo trovare qualcosa di interessante da fare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "692924",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Heracleum",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -23562,6 +25585,28 @@
     "source_id": "699598",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Heracleum",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "¿Tú crees lo que él dijo?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1445292",
+    "id": "s_701131",
+    "it": "Credi a ciò che ha detto?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "701131",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Heracleum",
@@ -23693,6 +25738,30 @@
     "source_id": "704976",
     "tag_rules": {
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Mezclá la sopa.",
+    "es_author": "hayastan",
+    "es_source_id": "1405897",
+    "id": "s_706228",
+    "it": "Mescola la minestra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "706228",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -23896,6 +25965,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Este cojín es más blando que aquel otro.",
+    "es_author": "arh",
+    "es_source_id": "7145007",
+    "id": "s_7138855",
+    "it": "Questo cuscino è più morbido di quell'altro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7138855",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Tore",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CE_AGREEMENT"
     ],
     "es": "Desde lo alto de aquel árbol hay una vista fantástica.",
@@ -24073,6 +26164,52 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "No me ha dado lo que le he pedido.",
+    "es_author": "Shishir",
+    "es_source_id": "2750036",
+    "id": "s_717786",
+    "it": "Non mi avete dato ciò che ho chiesto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "717786",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Ella fuma como un carretero.",
+    "es_author": "Shishir",
+    "es_source_id": "895221",
+    "id": "s_719303",
+    "it": "Lei fuma moltissimo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "719303",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Heracleum",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -24113,6 +26250,28 @@
     "source_id": "7223868",
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Ricardo14",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Tom es el mejor amigo de mi hija.",
+    "es_author": "Ricardo14",
+    "es_source_id": "7235137",
+    "id": "s_7235135",
+    "it": "Tom è il migliore amico di mia figlia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7235135",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -24160,6 +26319,30 @@
     "source_id": "731163",
     "tag_rules": {
       "ERR_CLITICO_POSIZIONE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Es lo que hace todo el mundo.",
+    "es_author": "Seael",
+    "es_source_id": "10185749",
+    "id": "s_7362356",
+    "it": "È quello che fanno tutti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7362356",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -24412,6 +26595,28 @@
   },
   {
     "author": "Valdast",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Te he dado todo lo que pediste.",
+    "es_author": "arh",
+    "es_source_id": "7527499",
+    "id": "s_7529344",
+    "it": "Ti ho dato tutto quello che hai chiesto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7529344",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Valdast",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -24522,6 +26727,28 @@
       "ERR_PERSONAL_A": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Hizo lo que siempre hace.",
+    "es_author": "gianich73",
+    "es_source_id": "7582336",
+    "id": "s_7582256",
+    "it": "Ha fatto quello che fa sempre.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7582256",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -24747,6 +26974,28 @@
       "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Valdast",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "No te culpo por lo que ocurrió.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2063614",
+    "id": "s_7713761",
+    "it": "Non ti do la colpa per quello che è successo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7713761",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Valdast",
@@ -25000,6 +27249,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Cocorico",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Mi madre está mejor.",
+    "es_author": "IA (Claude)",
+    "id": "s_781701",
+    "it": "Mia madre sta meglio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "781701",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -25231,6 +27503,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "No es exactamente eso lo que dije.",
+    "es_author": "hayastan",
+    "es_source_id": "945734",
+    "id": "s_794942",
+    "it": "Non è esattamente quello che ho detto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "794942",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -25279,6 +27573,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Es lo que dice la ley.",
+    "es_author": "Shishir",
+    "es_source_id": "1097101",
+    "id": "s_798836",
+    "it": "Questo è quello che dice la legge.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "798836",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITICO_POSIZIONE"
     ],
     "es": "¿Por qué no quieres hacerlo?",
@@ -25318,6 +27636,29 @@
     "source_id": "801729",
     "tag_rules": {
       "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Hoy está mejor que ayer.",
+    "es_author": "IA (Claude)",
+    "id": "s_8021246",
+    "it": "Sta meglio oggi di ieri.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8021246",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -25857,6 +28198,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Mary rara vez hace lo que dice que hará.",
+    "es_author": "saverius",
+    "es_source_id": "10728279",
+    "id": "s_8857446",
+    "it": "Mary fa raramente quello che dice che farà.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8857446",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -26032,6 +28395,28 @@
     "source_id": "899254",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Valdast",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Retiro lo dicho.",
+    "es_author": "Alba",
+    "es_source_id": "1575508",
+    "id": "s_8998412",
+    "it": "Ritiro ciò che ho detto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8998412",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -26325,6 +28710,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "es": "Nunca escucha lo que intento decirle.",
+    "es_author": "Shishir",
+    "es_source_id": "1278674",
+    "id": "s_932831",
+    "it": "Non ascolta mai quello che cerco di dirgli.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "932831",
+    "tag_rules": {
+      "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "zhou24",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -26346,6 +28753,28 @@
       "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "zhou24",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Visité Rumania hace unos años atrás.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1421122",
+    "id": "s_934491",
+    "it": "Qualche anno fa sono stato in Romania.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "934491",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "zhou24",
@@ -26631,6 +29060,50 @@
     "translation_kind": "llm"
   },
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Un gran río atraviesa la ciudad.",
+    "es_author": "hayastan",
+    "es_source_id": "950310",
+    "id": "s_950274",
+    "it": "Attraverso la città scorre un largo fiume.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "950274",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "es": "Me gustan mucho ambos.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1411003",
+    "id": "s_962569",
+    "it": "Mi piacciono entrambi moltissimo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "962569",
+    "tag_rules": {
+      "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -26749,6 +29222,30 @@
       "ERR_CLITIC_DIRECT_INDIRECT": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Quítate las medias.",
+    "es_author": "IA (Claude)",
+    "id": "s_9696510",
+    "it": "Togliti le calze.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9696510",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -27129,6 +29626,28 @@
       "ERR_VOC_NEGOZI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Ese pañuelo está muy sucio, así que hay que lavarlo.",
+    "es_author": "hayastan",
+    "es_source_id": "992925",
+    "id": "s_992720",
+    "it": "Quel lenzuolo è molto sporco, quindi bisogna lavarlo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "992720",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",

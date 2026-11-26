@@ -589,6 +589,41 @@
         "doc_a2m04_nota",
         "vh_a2m04"
       ]
+    },
+    {
+      "id": "a2m05",
+      "level": "A2",
+      "title": "Comparar y comprar",
+      "can_do_es": [
+        "Comparar dos cosas o personas.",
+        "Decir cuál es el mejor o el más…",
+        "Pedir en una tienda y expresar lo que prefieres."
+      ],
+      "units": [
+        "u11",
+        "u89",
+        "u90",
+        "u91",
+        "u92"
+      ],
+      "entry_reading": "rd_negozio",
+      "roleplays": [
+        "rp_a2m05_a",
+        "rp_a2m05_b"
+      ],
+      "tasks": [
+        "ht_a2m05"
+      ],
+      "phrase_groups": [],
+      "library": "linguee",
+      "library_task_es": "Cuando dudes cómo se dice «el mejor» o «tan… como», búscalo completo en Linguee y compara 3 ejemplos antes de elegir.",
+      "writing_es": "Escribe de 40 a 60 palabras sobre un regalo o una compra que quieres hacer: compara dos cosas de una tienda y di cuál es mejor y por qué. Usa al menos 2 comparaciones con «più… di» o «più… che», «meglio» o «migliore», 1 superlativo en -issimo y «qualche» con singular o «nessun».",
+      "writing_short_es": "Escribe un mensaje de 25 a 50 palabras a un amigo: dile que quieres comprar algo para la casa (por ejemplo una tovaglia o un vaso) y pídele ayuda para elegir. Usa «qualcosa di» más un adjetivo, «quello che» y una comparación.",
+      "extra_readings": [
+        "ls_a2m05",
+        "doc_a2m05_catalogo",
+        "vh_a2m05"
+      ]
     }
   ],
   "units": [
@@ -2177,6 +2212,50 @@
       "why_here": "En la tienda y en el restaurante: «lo prendo», «gli telefono», «l'ho visto».",
       "ficha_es": "Ne partitivo: obliga a repetir la cantidad y el participio concuerda con el objeto.\n\nError típico: *Ho due → Ne ho due; *Quanti fratelli hai? Ho due. → Ne ho due\n\nQué practicas aquí: Ne de cantidad (Ne ho due).\n\nSituación del módulo: En la tienda y en el restaurante: «lo prendo», «gli telefono», «l'ho visto».",
       "productive": false
+    },
+    {
+      "id": "u89",
+      "level": "A2",
+      "title": "Meglio o migliore; -issimo",
+      "goal_es": "Meglio o migliore; -issimo",
+      "codes": [
+        "ERR_COMPARATIVO_IRREG"
+      ],
+      "why_here": "Elegir entre dos cosas en una tienda: ropa, precios, preferencias.",
+      "ficha_es": "Buono y bene tienen comparativos propios: migliore (adjetivo: la mia migliore amica) y meglio (adverbio: parla meglio); cattivo y male: peggiore y peggio. No se dice *più bene ni *parla migliore. El superlativo absoluto lleva -issimo con dos eses: bellissimo, no *bellisimo.\n\nError típico: *più bene, *più male, *parla migliore, *è meglio amico → meglio/peggio (adverbios), migliore/peggiore (adjetivos); *bellisimo → bellissimo. Válido y no es error: più buono, più cattivo (válidos)\n\nQué practicas aquí: Meglio/migliore, peggio/peggiore y el superlativo (il più…, -issimo).\n\nSituación del módulo: Elegir entre dos cosas en una tienda: ropa, precios, preferencias."
+    },
+    {
+      "id": "u90",
+      "level": "A2",
+      "title": "Qualche + singular, dei, qualcosa di",
+      "goal_es": "Qualche + singular, dei, qualcosa di",
+      "codes": [
+        "ERR_INDEFINITI"
+      ],
+      "why_here": "Elegir entre dos cosas en una tienda: ropa, precios, preferencias.",
+      "ficha_es": "Qualche va siempre con un nombre en singular (qualche libro, no *qualche libri). Para «algo + adjetivo» el italiano pone di: qualcosa di buono, niente di speciale. Delante de un nombre masculino que no empieza por s + consonante, nessuno se apocopa: nessun libro (no *nessuno libro).\n\nError típico: *qualche libri, *uni ragazzi, *qualcosa buono, *nessuno libro → qualche libro, dei ragazzi, qualcosa di buono, nessun libro. Válido y no es error: ogni giorno (singular); ogni tanto\n\nQué practicas aquí: Cuantificadores: tutto, niente, nessuno, un po', abbastanza.\n\nSituación del módulo: Elegir entre dos cosas en una tienda: ropa, precios, preferencias."
+    },
+    {
+      "id": "u91",
+      "level": "A2",
+      "title": "Quello che y el relativo «che»",
+      "goal_es": "Quello che y el relativo «che»",
+      "codes": [
+        "ERR_RELATIVO_CHE"
+      ],
+      "why_here": "Elegir entre dos cosas en una tienda: ropa, precios, preferencias.",
+      "ficha_es": "«Lo que» se dice quello che o ciò che, nunca *lo che. El relativo che sirve para sujeto y objeto: la ragazza che abita qui, il libro che leggo.\n\nError típico: *lo che → quello che / ciò che; *la persona chi → la persona che. Válido y no es error: con cui (solo reconocer)\n\nQué practicas aquí: Relativas con «che» centradas en el sujeto (la persona che…, il libro che…).\n\nSituación del módulo: Elegir entre dos cosas en una tienda: ropa, precios, preferencias."
+    },
+    {
+      "id": "u92",
+      "level": "A2",
+      "title": "Falsos amigos I: casa, comida y compras",
+      "goal_es": "Falsos amigos I: casa, comida y compras",
+      "codes": [
+        "ERR_VOC_FALSI_CASA"
+      ],
+      "why_here": "Elegir entre dos cosas en una tienda: ropa, precios, preferencias.",
+      "ficha_es": "Palabras de la casa, la ropa y la comida que se parecen al español pero significan otra cosa: largo es «ancho» (lo largo es lungo), vaso es el florero o la maceta (el vaso de beber es bicchiere), morbido es «suave», minestra es «sopa», tasca es «bolsillo», calze son «medias», costume es la costumbre o el traje de baño, tenda es la tienda de campaña o la cortina.\n\nError típico: burro, aceto, caldo, largo, vaso, tovaglia, calze, negozio, tasca, morbido, salato, costume, gamba, topo (vaso = florero/maceta; tovaglia = mantel; calze = medias); también minestra, giaccone, sandali, cognato, parente (palabras A2 que A1 no trae)\n\nQué practicas aquí: Falsos amigos de nivel A2 (casa, comida, compras, ciudad y viaje); Área temática PLIDA A2: Comida y bebida; Área temática PLIDA A2: Compras y pagar; Área temática PLIDA A2: Ropa y accesorios.\n\nSituación del módulo: Elegir entre dos cosas en una tienda: ropa, precios, preferencias."
     }
   ],
   "planned": [

@@ -434,6 +434,117 @@
     ]
   },
   {
+    "id": "doc_a2m05_catalogo",
+    "title": "Catálogo de ropa y accesorios",
+    "level": "A2",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cuál es el artículo más barato?",
+        "options": [
+          "Zaino",
+          "Borsa",
+          "Maglione di cotone"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Qué cuesta más, la giacca o el giubbotto?",
+        "options": [
+          "El giubbotto",
+          "La giacca",
+          "Cuestan lo mismo"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta el maglione di lana?",
+        "options": [
+          "29 €",
+          "39 €",
+          "49 €"
+        ],
+        "answer": 2
+      },
+      {
+        "prompt_es": "¿Cuál es el artículo más caro?",
+        "options": [
+          "Scarpe di pelle",
+          "Giacca",
+          "Scarpe da ginnastica"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Qué artículo es blanco y liviano?",
+        "options": [
+          "Maglione di cotone",
+          "Maglione di lana",
+          "Borsa"
+        ],
+        "answer": 0
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Articolo",
+        "Descrizione",
+        "Prezzo"
+      ],
+      "rows": [
+        [
+          "Maglione di lana",
+          "Blu, caldo e morbido",
+          "49 €"
+        ],
+        [
+          "Maglione di cotone",
+          "Bianco e leggero",
+          "29 €"
+        ],
+        [
+          "Giacca",
+          "Nera, molto elegante",
+          "89 €"
+        ],
+        [
+          "Giubbotto",
+          "Verde, per la pioggia",
+          "69 €"
+        ],
+        [
+          "Scarpe da ginnastica",
+          "Comode, per correre",
+          "55 €"
+        ],
+        [
+          "Scarpe di pelle",
+          "Marroni, eleganti",
+          "95 €"
+        ],
+        [
+          "Zaino",
+          "Largo, con tre tasche",
+          "39 €"
+        ],
+        [
+          "Borsa",
+          "Piccola, di tessuto",
+          "25 €"
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
     "id": "doc_annuncio",
     "title": "Affittasi stanza",
     "level": "A1",
@@ -1915,6 +2026,187 @@
         "speaker": "Anna",
         "audio": "7344a72af812",
         "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "ls_a2m05",
+    "title": "En la tienda",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Para quién buscan el regalo?",
+        "options": [
+          "Para Marco",
+          "Para Chiara",
+          "Para Sara"
+        ],
+        "answer": 1,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta la bufanda roja?",
+        "options": [
+          "Diez euros",
+          "Treinta euros",
+          "Veinte euros"
+        ],
+        "answer": 2,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Qué no tiene Chiara?",
+        "options": [
+          "Una cartera",
+          "Una bufanda",
+          "Bombones"
+        ],
+        "answer": 1,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Qué come Chiara más que fruta?",
+        "options": [
+          "Dulces",
+          "Verdura",
+          "Pan"
+        ],
+        "answer": 0,
+        "evidence": 10
+      },
+      {
+        "prompt_es": "¿Qué compran al final?",
+        "options": [
+          "Solo la cartera",
+          "La bufanda y los bombones",
+          "Un par de zapatos"
+        ],
+        "answer": 1,
+        "evidence": 11
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_a2m05_00",
+        "it": "Cerco un regalo per Chiara. Che cosa dici?",
+        "es": "Busco un regalo para Chiara. ¿Qué dices?",
+        "speaker": "Sara",
+        "audio": "575e5b9f5e62"
+      },
+      {
+        "id": "ls_a2m05_01",
+        "it": "Hai visto questa borsa? È bellissima!",
+        "es": "¿Viste esta cartera? ¡Es hermosísima!",
+        "speaker": "Marco",
+        "audio": "c4a4dfcd0be8",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m05_02",
+        "it": "Sì, ma costa più di quella grigia.",
+        "es": "Sí, pero cuesta más que la gris.",
+        "speaker": "Sara",
+        "audio": "b324e989ef2e"
+      },
+      {
+        "id": "ls_a2m05_03",
+        "it": "È vero. Ma questa è più grande.",
+        "es": "Es verdad. Pero esta es más grande.",
+        "speaker": "Marco",
+        "audio": "745d361a511e",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m05_04",
+        "it": "Chiara ha già qualche borsa. Non ha nessuna sciarpa.",
+        "es": "Chiara ya tiene alguna cartera. No tiene ninguna bufanda.",
+        "speaker": "Sara",
+        "audio": "7889162f242f"
+      },
+      {
+        "id": "ls_a2m05_05",
+        "it": "Allora è meglio una sciarpa. Questa rossa com'è?",
+        "es": "Entonces es mejor una bufanda. ¿Cómo es esta roja?",
+        "speaker": "Marco",
+        "audio": "01fb7e46b2a8",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m05_06",
+        "it": "È morbidissima! Costa solo venti euro.",
+        "es": "¡Es suavísima! Cuesta solo veinte euros.",
+        "speaker": "Sara",
+        "audio": "2f90be129ff6"
+      },
+      {
+        "id": "ls_a2m05_07",
+        "it": "Il prezzo è migliore di quello della blu.",
+        "es": "El precio es mejor que el de la azul.",
+        "speaker": "Marco",
+        "audio": "45dc79a9f85a",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m05_08",
+        "it": "Sì, ma cerco qualcosa di bello e utile.",
+        "es": "Sí, pero busco algo bonito y útil.",
+        "speaker": "Sara",
+        "audio": "938901a1b840"
+      },
+      {
+        "id": "ls_a2m05_09",
+        "it": "Compriamo anche qualcosa di buono: dei cioccolatini.",
+        "es": "Compremos también algo rico: unos bombones.",
+        "speaker": "Marco",
+        "audio": "08e4ea620d06",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m05_10",
+        "it": "Ottima idea! Chiara mangia più dolci che frutta.",
+        "es": "¡Excelente idea! Chiara come más dulces que fruta.",
+        "speaker": "Sara",
+        "audio": "1d3c139c7ee7"
+      },
+      {
+        "id": "ls_a2m05_11",
+        "it": "Allora prendiamo la sciarpa e i cioccolatini.",
+        "es": "Entonces llevamos la bufanda y los bombones.",
+        "speaker": "Marco",
+        "audio": "f369cb43eacc",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m05_12",
+        "it": "Per me, quello che conta è il pensiero.",
+        "es": "Para mí, lo que cuenta es el detalle.",
+        "speaker": "Sara",
+        "audio": "bddec5ba2df3"
+      },
+      {
+        "id": "ls_a2m05_13",
+        "it": "Hai ragione. È la scelta migliore.",
+        "es": "Tienes razón. Es la mejor elección.",
+        "speaker": "Marco",
+        "audio": "94ecf9419c19",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m05_14",
+        "it": "Bene. Andiamo alla cassa!",
+        "es": "Bien. ¡Vamos a la caja!",
+        "speaker": "Sara",
+        "audio": "0c57d74a0c46"
       }
     ]
   },
@@ -4473,6 +4765,272 @@
         "es": "Sí, le escribí antes. Llega a las ocho.",
         "speaker": "Elena",
         "audio": "dc9389e14f34"
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m05_a",
+    "title": "Quale scegli, questa o quella?",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cuál de las dos es más cómoda?",
+        "options": [
+          "Esta",
+          "Aquella",
+          "Ninguna"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta la primera opción?",
+        "options": [
+          "Cuarenta euros",
+          "Treinta euros",
+          "Cincuenta euros"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Cómo es la mochila que ya tiene Davide?",
+        "options": [
+          "Muy grande",
+          "Muy vieja",
+          "Muy pequeña"
+        ],
+        "answer": 2,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿De qué color es la mochila que elige?",
+        "options": [
+          "Roja",
+          "Gris",
+          "Verde"
+        ],
+        "answer": 1,
+        "evidence": 8
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m05_a_00",
+        "it": "Quale scegli, questa o quella?",
+        "es": "¿Cuál eliges, esta o aquella?",
+        "speaker": "Laura",
+        "audio": "8b3cea67911a"
+      },
+      {
+        "id": "rd_a2m05_a_01",
+        "it": "Non so. Questa è più bella, ma quella è più comoda.",
+        "es": "No sé. Esta es más bonita, pero aquella es más cómoda.",
+        "speaker": "Davide",
+        "audio": "b9a4a52414e1",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m05_a_02",
+        "it": "Quanto costano?",
+        "es": "¿Cuánto cuestan?",
+        "speaker": "Laura",
+        "audio": "7df83e2a7748"
+      },
+      {
+        "id": "rd_a2m05_a_03",
+        "it": "Questa costa quaranta euro. Quella costa meno di questa.",
+        "es": "Esta cuesta cuarenta euros. Aquella cuesta menos que esta.",
+        "speaker": "Davide",
+        "audio": "95ef49673ab6",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m05_a_04",
+        "it": "Allora quella è meglio. Hai bisogno di qualcosa di grande?",
+        "es": "Entonces aquella es mejor. ¿Necesitas algo grande?",
+        "speaker": "Laura",
+        "audio": "e4522a2b60dd"
+      },
+      {
+        "id": "rd_a2m05_a_05",
+        "it": "Sì, voglio uno zaino largo. Quello che ho è piccolissimo.",
+        "es": "Sí, quiero una mochila ancha. La que tengo es chiquitita.",
+        "speaker": "Davide",
+        "audio": "fcbb60386fe0",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m05_a_06",
+        "it": "Questo ha qualche tasca in più.",
+        "es": "Este tiene algún bolsillo más.",
+        "speaker": "Laura",
+        "audio": "1ce8bbab6147"
+      },
+      {
+        "id": "rd_a2m05_a_07",
+        "it": "Nessun problema: il colore va bene.",
+        "es": "Ningún problema: el color está bien.",
+        "speaker": "Davide",
+        "audio": "d56e629e81e6",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m05_a_08",
+        "it": "Allora prendi quello grigio. È migliore dell'altro.",
+        "es": "Entonces toma el gris. Es mejor que el otro.",
+        "speaker": "Laura",
+        "audio": "86669a82c4ac"
+      },
+      {
+        "id": "rd_a2m05_a_09",
+        "it": "Hai ragione. Lo prendo!",
+        "es": "Tienes razón. ¡Lo llevo!",
+        "speaker": "Davide",
+        "audio": "c6af98408386",
+        "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m05_b",
+    "title": "Al negozio di scarpe",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué busca Paolo?",
+        "options": [
+          "Zapatos cómodos",
+          "Una chaqueta",
+          "Unas sandalias"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Cuánto cuestan los zapatos que le muestran?",
+        "options": [
+          "Ochenta euros",
+          "Sesenta euros",
+          "Setenta euros"
+        ],
+        "answer": 2,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Qué número prueba Paolo?",
+        "options": [
+          "El cuarenta y cuatro",
+          "El cuarenta y tres",
+          "El cuarenta y dos"
+        ],
+        "answer": 1,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Qué dice Paolo de los zapatos al final?",
+        "options": [
+          "Que son muy caros",
+          "Que son muy pequeños",
+          "Que son muy cómodos"
+        ],
+        "answer": 2,
+        "evidence": 9
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m05_b_00",
+        "it": "Buongiorno! Posso aiutarla?",
+        "es": "¡Buenos días! ¿Puedo ayudarlo?",
+        "speaker": "Elena",
+        "audio": "37433a8a5e10"
+      },
+      {
+        "id": "rd_a2m05_b_01",
+        "it": "Buongiorno. Cerco un paio di scarpe comode.",
+        "es": "Buenos días. Busco un par de zapatos cómodos.",
+        "speaker": "Paolo",
+        "audio": "643be9d5678d",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m05_b_02",
+        "it": "Ne abbiamo molte. Queste sono più leggere di quelle nere.",
+        "es": "Tenemos muchos. Estos son más livianos que los negros.",
+        "speaker": "Elena",
+        "audio": "20c3da2d320e"
+      },
+      {
+        "id": "rd_a2m05_b_03",
+        "it": "Quanto costano? Vorrei qualcosa di non troppo caro.",
+        "es": "¿Cuánto cuestan? Quisiera algo no demasiado caro.",
+        "speaker": "Paolo",
+        "audio": "18324d4f2d65",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m05_b_04",
+        "it": "Queste costano settanta euro. Quelle costano di più.",
+        "es": "Estos cuestan setenta euros. Aquellos cuestan más.",
+        "speaker": "Elena",
+        "audio": "97a14f19d5db"
+      },
+      {
+        "id": "rd_a2m05_b_05",
+        "it": "Sono carine. Ha un numero più grande?",
+        "es": "Son bonitos. ¿Tiene un número más grande?",
+        "speaker": "Paolo",
+        "audio": "f69ef23e115a",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m05_b_06",
+        "it": "Mi dispiace, non ho nessun paio più grande.",
+        "es": "Lo siento, no tengo ningún par más grande.",
+        "speaker": "Elena",
+        "audio": "7af8a9b9d3ff"
+      },
+      {
+        "id": "rd_a2m05_b_07",
+        "it": "Peccato. Allora provo il quarantatré.",
+        "es": "Qué pena. Entonces pruebo el cuarenta y tres.",
+        "speaker": "Paolo",
+        "audio": "021b76d1afc3",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m05_b_08",
+        "it": "Come vanno? Sono comodissime, vero?",
+        "es": "¿Cómo le quedan? Son comodísimos, ¿verdad?",
+        "speaker": "Elena",
+        "audio": "4ccff63d1a27"
+      },
+      {
+        "id": "rd_a2m05_b_09",
+        "it": "Sì, sono comodissime! Le prendo.",
+        "es": "¡Sí, son comodísimos! Me los llevo.",
+        "speaker": "Paolo",
+        "audio": "c11368782ae8",
+        "voice": 2
       }
     ]
   },

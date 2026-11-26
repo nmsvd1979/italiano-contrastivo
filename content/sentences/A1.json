@@ -1641,6 +1641,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Tiene algunos libros.",
+    "es_author": "IA (Claude)",
+    "id": "s_10515033",
+    "it": "Ha qualche libro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10515033",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PIACERE_ACCORDO"
     ],
     "es": "No me gusta el alcohol.",
@@ -2478,6 +2501,28 @@
     "source_id": "1079844",
     "tag_rules": {
       "ERR_VOC_TEMPOLIBERO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Soy cuatro años menor que él.",
+    "es_author": "hayastan",
+    "es_source_id": "1078844",
+    "id": "s_1080041",
+    "it": "Sono quattro anni più giovane di lui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1080041",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3802,6 +3847,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "¿Es algo importante?",
+    "es_author": "IA (Claude)",
+    "id": "s_1105378",
+    "it": "È qualcosa di importante?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1105378",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRIMA_DI"
     ],
     "es": "Toma este medicamento después de las comidas.",
@@ -4225,6 +4294,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Mi abrigo tiene bolsillos.",
+    "es_author": "IA (Claude)",
+    "id": "s_11134144",
+    "it": "Il mio cappotto ha tasche.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11134144",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -4407,6 +4499,28 @@
       "ERR_PLURAL_FORMA": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Mi hijo es más alto que yo.",
+    "es_author": "Shishir",
+    "es_source_id": "537837",
+    "id": "s_1117122",
+    "it": "Mio figlio è più alto di me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1117122",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -4937,6 +5051,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Ningún trabajo es sencillo.",
+    "es_author": "IA (Claude)",
+    "id": "s_11296401",
+    "it": "Nessun lavoro è semplice.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11296401",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -4979,6 +5116,54 @@
       "ERR_VOC_AGGETTIVI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Soy más alto que él.",
+    "es_author": "IA (Claude)",
+    "id": "s_11302023",
+    "it": "Sono più alto di lui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11302023",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Soy más alta que él.",
+    "es_author": "IA (Claude)",
+    "id": "s_11302024",
+    "it": "Sono più alta di lui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11302024",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "carlosalberto",
@@ -5300,6 +5485,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Las flores están en el jarrón.",
+    "es_author": "IA (Claude)",
+    "id": "s_11401038",
+    "it": "I fiori sono nel vaso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11401038",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -5341,6 +5549,29 @@
     "source_id": "11426608",
     "tag_rules": {
       "ERR_VOC_TEMPO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Quiero un cojín suave.",
+    "es_author": "IA (Claude)",
+    "id": "s_11427011",
+    "it": "Voglio un cuscino morbido.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11427011",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -5777,6 +6008,28 @@
       "ERR_PRESENT_ARE": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "¡Ustedes son personas mucho más maduras que yo!",
+    "es_author": "nancy",
+    "es_source_id": "1191958",
+    "id": "s_1167070",
+    "it": "Voi siete persone molto più mature di me!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1167070",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "riccioberto",
@@ -6591,6 +6844,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "¿Quieres beber algo?",
+    "es_author": "IA (Claude)",
+    "id": "s_1189457",
+    "it": "Vuoi bere qualche cosa?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1189457",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_GLI_PALATAL"
     ],
     "es": "Te deja sin aliento.",
@@ -6786,6 +7063,29 @@
       "ERR_VOC_SALUTE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Pongamos la sábana sobre el colchón.",
+    "es_author": "IA (Claude)",
+    "id": "s_11981616",
+    "it": "Mettiamo il lenzuolo sopra il materasso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11981616",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "riccioberto",
@@ -7579,6 +7879,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Corre más rápido que yo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1240492",
+    "it": "Corre più veloce di me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1240492",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_CIBO"
     ],
     "es": "Los mamíferos producen leche.",
@@ -7896,6 +8219,29 @@
       "ERR_VOC_CIBO": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "La sopa sabe a ajo.",
+    "es_author": "IA (Claude)",
+    "id": "s_12486237",
+    "it": "La minestra sa di aglio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12486237",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -9377,6 +9723,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Como pan blando.",
+    "es_author": "IA (Claude)",
+    "id": "s_12766195",
+    "it": "Mangio del pane morbido.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12766195",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_CUCINA"
     ],
     "es": "Termina la comida.",
@@ -9460,6 +9829,29 @@
       "ERR_VOC_NUMERI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Es mayor que Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_1280453",
+    "it": "È più vecchia di Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1280453",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Adelpa",
@@ -9711,6 +10103,29 @@
     "source_id": "12922292",
     "tag_rules": {
       "ERR_VOC_FRUTTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Odio la sopa fría.",
+    "es_author": "IA (Claude)",
+    "id": "s_12922753",
+    "it": "Odio la minestra fredda.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12922753",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -11703,6 +12118,53 @@
     "source_id": "13297701",
     "tag_rules": {
       "ERR_SC_PALATAL": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Me encanta la sopa.",
+    "es_author": "IA (Claude)",
+    "id": "s_13297731",
+    "it": "Amo la minestra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13297731",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "No hay ninguna duda.",
+    "es_author": "IA (Claude)",
+    "id": "s_1329776",
+    "it": "Non c'è nessun dubbio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1329776",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -14629,6 +15091,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Es más fuerte que yo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1504749",
+    "it": "È più forte di me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1504749",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_INTERROG"
     ],
     "es": "¿Cómo se dice \"gracias\" en japonés?",
@@ -14851,6 +15337,29 @@
       "ERR_VOC_SALUTE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "¿Ya están secas mis medias?",
+    "es_author": "IA (Claude)",
+    "id": "s_1513665",
+    "it": "Le mie calze sono già asciutte?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1513665",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -15741,6 +16250,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Corre más fuerte que yo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1548309",
+    "it": "Corre più forte di me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1548309",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_NUMERI"
     ],
     "es": "Cuenta hasta treinta.",
@@ -16001,6 +16533,29 @@
     "source_id": "1561391",
     "tag_rules": {
       "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "ninuzzo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "No hay nadie más.",
+    "es_author": "IA (Claude)",
+    "id": "s_1561717",
+    "it": "Non c'è nessun altro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1561717",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -17504,6 +18059,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Esta sábana es liviana.",
+    "es_author": "lukaszpp",
+    "es_source_id": "464203",
+    "id": "s_1701546",
+    "it": "Questo lenzuolo è leggero.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1701546",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_DIMOSTRATIVI"
     ],
     "es": "Esta mesa es pesada.",
@@ -17894,6 +18471,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Haz algo útil.",
+    "es_author": "IA (Claude)",
+    "id": "s_1720986",
+    "it": "Fai qualcosa di utile.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1720986",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_MODAL"
     ],
     "es": "Debemos irnos.",
@@ -18226,6 +18826,30 @@
     "source_id": "1750833",
     "tag_rules": {
       "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "scooby",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "No tiene ningún amigo de verdad.",
+    "es_author": "IA (Claude)",
+    "id": "s_1751845",
+    "it": "Non ha nessun vero amico.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1751845",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -18930,6 +19554,29 @@
       "ERR_VOC_SALUTE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "La sopa no está fresca.",
+    "es_author": "IA (Claude)",
+    "id": "s_1872584",
+    "it": "La minestra non è fresca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1872584",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -19775,6 +20422,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "hitori37",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "El agujero es ancho.",
+    "es_author": "IA (Claude)",
+    "id": "s_2002702",
+    "it": "Il buco è largo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2002702",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A1",
@@ -19862,6 +20532,28 @@
     "source_id": "2009106",
     "tag_rules": {
       "ERR_VOC_QUANTITA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Esta sopa está demasiado salada.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2195301",
+    "id": "s_2010336",
+    "it": "Questa minestra è troppo salata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2010336",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -20816,6 +21508,75 @@
       "ERR_VOC_DENARO": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Te estás poniendo las medias al revés.",
+    "es_author": "IA (Claude)",
+    "id": "s_2069201",
+    "it": "Stai indossando le calze al contrario.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2069201",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Se está poniendo las medias al revés.",
+    "es_author": "IA (Claude)",
+    "id": "s_2069202",
+    "it": "Sta indossando le calze al contrario.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2069202",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Se están poniendo las medias al revés.",
+    "es_author": "IA (Claude)",
+    "id": "s_2069203",
+    "it": "State indossando le calze al contrario.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2069203",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Tamy",
@@ -23226,6 +23987,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Tengo alguna idea.",
+    "es_author": "IA (Claude)",
+    "id": "s_2439882",
+    "it": "Io ho qualche idea.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2439882",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_NATURA"
     ],
     "es": "Apaga el fuego.",
@@ -23429,6 +24213,97 @@
       "ERR_PREP_PLACE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Zaghawa",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Bilal es más alto que Karam.",
+    "es_author": "hayastan",
+    "es_source_id": "1003447",
+    "id": "s_2467562",
+    "it": "Bilal è più alto di Karam.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2467562",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "¿Tienes algo caliente?",
+    "es_author": "IA (Claude)",
+    "id": "s_2468899",
+    "it": "Hai qualcosa di caldo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2468899",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "¿Tiene algo caliente?",
+    "es_author": "IA (Claude)",
+    "id": "s_2468900",
+    "it": "Ha qualcosa di caldo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2468900",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "¿Tienen algo caliente?",
+    "es_author": "IA (Claude)",
+    "id": "s_2468901",
+    "it": "Avete qualcosa di caldo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2468901",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -23683,6 +24558,30 @@
     "source_id": "2487821",
     "tag_rules": {
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Es más joven que yo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2488338",
+    "it": "È più giovane di me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2488338",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -24959,6 +25858,54 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Vacía los bolsillos.",
+    "es_author": "IA (Claude)",
+    "id": "s_2565086",
+    "it": "Svuota le tasche.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2565086",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Vacíen los bolsillos.",
+    "es_author": "IA (Claude)",
+    "id": "s_2565087",
+    "it": "Svuotate le tasche.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2565087",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_CARATTERE"
     ],
     "es": "Tom es tranquilo.",
@@ -24998,6 +25945,30 @@
     "source_id": "2565689",
     "tag_rules": {
       "ERR_VOC_COMUNICAZIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Es más fuerte que ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_2567936",
+    "it": "È più forte di lei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2567936",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -25158,6 +26129,30 @@
     "source_id": "2577353",
     "tag_rules": {
       "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Soy más rápido que tú.",
+    "es_author": "cueyayotl",
+    "es_source_id": "2879251",
+    "id": "s_2578618",
+    "it": "Sono più veloce di te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2578618",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -26405,6 +27400,29 @@
     "source_id": "2702485",
     "tag_rules": {
       "ERR_VOC_QUANTITA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Ningún lugar es seguro.",
+    "es_author": "IA (Claude)",
+    "id": "s_2702503",
+    "it": "Nessun posto è sicuro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2702503",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -28919,6 +29937,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Es más baja que yo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2894293",
+    "it": "È più bassa di me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2894293",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_ARTICLE_ALLOMORPH"
     ],
     "es": "Amo los deportes.",
@@ -29482,6 +30523,29 @@
     "source_id": "2935000",
     "tag_rules": {
       "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Solo tengo algunas preguntas.",
+    "es_author": "IA (Claude)",
+    "id": "s_2935081",
+    "it": "Ho solo qualche domanda.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2935081",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -30485,6 +31549,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Es más alta que él.",
+    "es_author": "IA (Claude)",
+    "id": "s_3050024",
+    "it": "È più alta di lui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3050024",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_MODAL"
     ],
     "es": "Debemos hablar.",
@@ -31052,6 +32139,29 @@
     "source_id": "3122330",
     "tag_rules": {
       "ERR_VOC_SALUTI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Mis medias todavía están húmedas.",
+    "es_author": "IA (Claude)",
+    "id": "s_3122638",
+    "it": "Le mie calze sono ancora umide.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3122638",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -31658,6 +32768,30 @@
       "ERR_INDEFINITE_ARTICLE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Tengo algunos libros en francés.",
+    "es_author": "IA (Claude)",
+    "id": "s_3236254",
+    "it": "Ho qualche libro francese.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3236254",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -32910,6 +34044,29 @@
     "author": "bailujia",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "No conozco a ningún ciego.",
+    "es_author": "IA (Claude)",
+    "id": "s_3347185",
+    "it": "Non conosco nessun cieco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3347185",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "bailujia",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
     "error_codes": [],
     "es": "El error es mío.",
     "es_author": "IA (Claude)",
@@ -33432,6 +34589,29 @@
       "ERR_CONSONANTE_DOPPIA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Guárdate el dinero en el bolsillo.",
+    "es_author": "IA (Claude)",
+    "id": "s_3376984",
+    "it": "Mettiti i soldi in tasca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3376984",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -34395,6 +35575,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Tengo algunas preguntas para Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_3482744",
+    "it": "Ho qualche domanda per Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3482744",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_MODAL"
     ],
     "es": "¡Quiero quedarme sola!",
@@ -35182,6 +36385,52 @@
     "source_id": "3527996",
     "tag_rules": {
       "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Tengo más dinero que Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_3528762",
+    "it": "Ho più soldi di Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3528762",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Tengo más dinero que Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_3528764",
+    "it": "Ho più denaro di Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3528764",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -36238,6 +37487,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Tom es más alto que tú.",
+    "es_author": "IA (Claude)",
+    "id": "s_3577656",
+    "it": "Tom è più alto di te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3577656",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "martin",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -36367,6 +37639,54 @@
     "source_id": "3589968",
     "tag_rules": {
       "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Soy más guapa que tú.",
+    "es_author": "IA (Claude)",
+    "id": "s_3591960",
+    "it": "Sono più bella di te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3591960",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Soy más guapa que ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_3591977",
+    "it": "Sono più bella di lei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3591977",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -37363,6 +38683,29 @@
       "ERR_TENERE_AVERE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "mimline",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Tengo algunos libros en inglés.",
+    "es_author": "IA (Claude)",
+    "id": "s_370093",
+    "it": "Ho qualche libro inglese.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "370093",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -39365,6 +40708,29 @@
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Es más pequeña que Tokyo.",
+    "es_author": "IA (Claude)",
+    "id": "s_374440",
+    "it": "È più piccola di Tokyo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "374440",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
     "error_codes": [],
     "es": "Soy un hombre.",
     "es_author": "IA (Claude)",
@@ -40711,6 +42077,52 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Es más bajo que Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_3759154",
+    "it": "È più basso di Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3759154",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Tiene más libros que yo.",
+    "es_author": "IA (Claude)",
+    "id": "s_3760046",
+    "it": "Ha più libri di me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3760046",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "martin",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -41413,6 +42825,29 @@
     "source": "tatoeba",
     "source_id": "377565",
     "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Quiero algo dulce.",
+    "es_author": "IA (Claude)",
+    "id": "s_377580",
+    "it": "Voglio qualcosa di dolce.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "377580",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
     "translation_kind": "llm"
   },
   {
@@ -42871,28 +44306,28 @@
     "translation_kind": "direct"
   },
   {
-    "author": "Pharamp",
+    "author": "dif1754",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
-      "ERR_COMPARATIVE_DI"
+      "ERR_VOC_FALSI_CASA"
     ],
-    "es": "Tom habla más lentamente que Bill.",
-    "es_author": "darinmex",
-    "es_source_id": "505963",
-    "id": "s_381163",
-    "it": "Tom parla più lentamente di Bill.",
+    "es": "La mantequilla está blanda.",
+    "es_author": "IA (Claude)",
+    "id": "s_3811027",
+    "it": "Il burro è morbido.",
     "license": "CC BY 2.0 FR",
     "qa_flags": [
-      "multi_translation"
+      "multi_translation",
+      "llm"
     ],
     "review_status": "validated",
     "source": "tatoeba",
-    "source_id": "381163",
+    "source_id": "3811027",
     "tag_rules": {
-      "ERR_COMPARATIVE_DI": "capsule_calque"
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
     },
-    "translation_kind": "direct"
+    "translation_kind": "llm"
   },
   {
     "author": "ver",
@@ -43959,6 +45394,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Tengo algunos amigos.",
+    "es_author": "IA (Claude)",
+    "id": "s_386325",
+    "it": "Ho qualche amico.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "386325",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -44132,6 +45590,29 @@
       "ERR_VOC_TEMPO": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "La sopa está muy caliente.",
+    "es_author": "IA (Claude)",
+    "id": "s_3874973",
+    "it": "La minestra è molto calda.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3874973",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -45002,6 +46483,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "La sábana está sobre la cama.",
+    "es_author": "IA (Claude)",
+    "id": "s_3966902",
+    "it": "Il lenzuolo è sul letto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3966902",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_COLORI"
     ],
     "es": "El auto es amarillo.",
@@ -45617,6 +47121,52 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Comes más comida que yo.",
+    "es_author": "IA (Claude)",
+    "id": "s_4049555",
+    "it": "Mangi più cibo di me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4049555",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Come más comida que yo.",
+    "es_author": "IA (Claude)",
+    "id": "s_4049557",
+    "it": "Mangia più cibo di me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4049557",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_PREPOSIZIONI"
     ],
     "es": "Está aquí conmigo.",
@@ -46222,6 +47772,29 @@
     "source_id": "4125029",
     "tag_rules": {
       "ERR_VOC_COMUNICAZIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Está en mi bolsillo.",
+    "es_author": "IA (Claude)",
+    "id": "s_4128796",
+    "it": "È nella mia tasca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4128796",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -47018,6 +48591,30 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "¿Hay algo nuevo?",
+    "es_author": "IA (Claude)",
+    "id": "s_4231123",
+    "it": "C'è qualcosa di nuovo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4231123",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -47137,6 +48734,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Tengo algunas amigas.",
+    "es_author": "IA (Claude)",
+    "id": "s_4240823",
+    "it": "Ho qualche amica.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4240823",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_IRREGULAR"
     ],
     "es": "¿Tú sabes bailar?",
@@ -47250,6 +48870,29 @@
       "ERR_CONSONANTE_DOPPIA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Tom no lleva puestas las medias.",
+    "es_author": "IA (Claude)",
+    "id": "s_4247548",
+    "it": "Tom non sta indossando le calze.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4247548",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -47382,6 +49025,30 @@
     "source_id": "425879",
     "tag_rules": {
       "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Revísate los bolsillos.",
+    "es_author": "IA (Claude)",
+    "id": "s_4260552",
+    "it": "Controllati le tasche.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4260552",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -47927,6 +49594,29 @@
       "ERR_PRESENT_MODAL": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "¿Hay algo importante?",
+    "es_author": "IA (Claude)",
+    "id": "s_4356468",
+    "it": "C'è qualcosa di importante?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4356468",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -49214,6 +50904,29 @@
       "ERR_VOC_CASA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "¿Qué hay debajo de la sábana?",
+    "es_author": "IA (Claude)",
+    "id": "s_4472355",
+    "it": "Cosa c'è sotto il lenzuolo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4472355",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -51596,6 +53309,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "No hay ningún peligro.",
+    "es_author": "IA (Claude)",
+    "id": "s_4766467",
+    "it": "Non c'è nessun pericolo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4766467",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_SERVIZI"
     ],
     "es": "¿Dónde está la aduana?",
@@ -51699,6 +53435,52 @@
       "ERR_INDEFINITE_ARTICLE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Tom tiene tres bolígrafos en el bolsillo.",
+    "es_author": "IA (Claude)",
+    "id": "s_4811239",
+    "it": "Tom ha tre biro in tasca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4811239",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Tom tiene tres lápices en el bolsillo.",
+    "es_author": "IA (Claude)",
+    "id": "s_4811240",
+    "it": "Tom ha tre penne in tasca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4811240",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -51911,6 +53693,53 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Esto es algo nuevo.",
+    "es_author": "IA (Claude)",
+    "id": "s_4875122",
+    "it": "Questo è qualcosa di nuovo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4875122",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Es más popular que yo.",
+    "es_author": "IA (Claude)",
+    "id": "s_4876290",
+    "it": "È più popolare di me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4876290",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_CITTA"
     ],
     "es": "Estoy en la estación de Tokyo ahora.",
@@ -52016,6 +53845,29 @@
     "source_id": "4920087",
     "tag_rules": {
       "ERR_PRESENT_MODAL": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "¿Es mayor que Tom?",
+    "es_author": "IA (Claude)",
+    "id": "s_4928196",
+    "it": "È più anziano di Tom?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4928196",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -56221,6 +58073,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Soy más alta que Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_5585538",
+    "it": "Sono più alta di Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5585538",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "dnnywld",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -56587,6 +58462,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "La sopa está espesa.",
+    "es_author": "IA (Claude)",
+    "id": "s_5665851",
+    "it": "La minestra è densa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5665851",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_GLI_PALATAL"
     ],
     "es": "¿Es tu esposa?",
@@ -56627,6 +58525,29 @@
     "source_id": "5680251",
     "tag_rules": {
       "ERR_GLI_PALATAL": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Este jarrón es muy frágil.",
+    "es_author": "IA (Claude)",
+    "id": "s_5684341",
+    "it": "Questo vaso è molto fragile.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5684341",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -57310,6 +59231,51 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Tom es más guapo que tú.",
+    "es_author": "IA (Claude)",
+    "id": "s_5789185",
+    "it": "Tom è più bello di te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5789185",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Soy más joven que ella.",
+    "es_author": "saverius",
+    "es_source_id": "10803467",
+    "id": "s_5797309",
+    "it": "Io sono più giovane di lei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5797309",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_IRREGULAR"
     ],
     "es": "Nosotros vamos mañana.",
@@ -57489,6 +59455,29 @@
       "ERR_PRONOME_TONICO": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "bruno_b",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Ella es más famosa que tú.",
+    "es_author": "IA (Claude)",
+    "id": "s_585789",
+    "it": "Lei è più famosa di te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "585789",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "bruno_b",
@@ -58266,6 +60255,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Tom es más fuerte que tú.",
+    "es_author": "IA (Claude)",
+    "id": "s_6043339",
+    "it": "Tom è più forte di te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6043339",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_SCUOLA"
     ],
     "es": "¿Qué idioma hablas?",
@@ -58351,6 +60363,29 @@
       "ERR_VOC_ABITI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Hagan algo útil.",
+    "es_author": "IA (Claude)",
+    "id": "s_6071293",
+    "it": "Fate qualcosa di utile.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6071293",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "remod",
@@ -60339,6 +62374,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "¿Qué tan ancho es este río?",
+    "es_author": "IA (Claude)",
+    "id": "s_6561540",
+    "it": "Quanto è largo questo fiume?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6561540",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_ESSERE_AVERE"
     ],
     "es": "Nosotros somos árabes.",
@@ -60920,6 +62978,54 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "¿Quieres sopa?",
+    "es_author": "IA (Claude)",
+    "id": "s_664362",
+    "it": "Vuoi della minestra?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "664362",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "¿Quieren sopa?",
+    "es_author": "IA (Claude)",
+    "id": "s_664364",
+    "it": "Volete della minestra?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "664364",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_ASTRATTI"
     ],
     "es": "Él tiene muchos libros de historia.",
@@ -61243,6 +63349,52 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "¿Qué más tienes en el bolsillo?",
+    "es_author": "IA (Claude)",
+    "id": "s_6724445",
+    "it": "Che altro hai in tasca?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6724445",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "¿Qué más tienen en el bolsillo?",
+    "es_author": "IA (Claude)",
+    "id": "s_6724447",
+    "it": "Che altro avete in tasca?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6724447",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PLURAL_FORMA"
     ],
     "es": "Odio a los gatos.",
@@ -61495,6 +63647,52 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Tiene algunos amigos.",
+    "es_author": "IA (Claude)",
+    "id": "s_6800610",
+    "it": "Ha qualche amico.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6800610",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Tiene algunas amigas.",
+    "es_author": "IA (Claude)",
+    "id": "s_6800612",
+    "it": "Ha qualche amica.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6800612",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRIMA_DI"
     ],
     "es": "¿Qué hacen todos después de la escuela?",
@@ -61694,6 +63892,29 @@
       "ERR_GN_Z_SPELLING": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Tengo menos dinero que ustedes.",
+    "es_author": "IA (Claude)",
+    "id": "s_6890660",
+    "it": "Ho meno soldi di voi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6890660",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "dnnywld",
@@ -62227,6 +64448,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "El sol es mucho más grande que Júpiter.",
+    "es_author": "saverius",
+    "es_source_id": "11816509",
+    "id": "s_6949974",
+    "it": "Il sole è molto più grande di Giove.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6949974",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -62246,6 +64489,29 @@
     "source_id": "6975916",
     "tag_rules": {
       "ERR_STARE_GERUNDIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Tengo algún problema.",
+    "es_author": "IA (Claude)",
+    "id": "s_6980583",
+    "it": "Ho qualche problema.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6980583",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -62722,6 +64988,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Justin Bieber es más famoso que Katie Holmes.",
+    "es_author": "Shishir",
+    "es_source_id": "587472",
+    "id": "s_705810",
+    "it": "Justin Bieber è più famoso di Katie Holmes.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "705810",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Heracleum",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -62760,6 +65048,29 @@
     "source_id": "7061114",
     "tag_rules": {
       "ERR_VOC_BAR": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Tengo un par nuevo de medias.",
+    "es_author": "IA (Claude)",
+    "id": "s_706202",
+    "it": "Ho un nuovo paio di calze.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "706202",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -64212,6 +66523,54 @@
       "ERR_VOC_INTERROG": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "Tienes algunos libros.",
+    "es_author": "IA (Claude)",
+    "id": "s_740336",
+    "it": "Hai qualche libro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "740336",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "¿Tienen algún libro?",
+    "es_author": "IA (Claude)",
+    "id": "s_740337",
+    "it": "Avete qualche libro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "740337",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -66537,6 +68896,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "shoras",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Quítate las medias, por favor.",
+    "es_author": "IA (Claude)",
+    "id": "s_814024",
+    "it": "Togliti le calze, per favore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "814024",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -66924,6 +69307,30 @@
       "ERR_VOC_QUANTITA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "es": "¿Puedo hacer algunas preguntas?",
+    "es_author": "IA (Claude)",
+    "id": "s_836019",
+    "it": "Posso fare qualche domanda?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "836019",
+    "tag_rules": {
+      "ERR_INDEFINITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -68534,6 +70941,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Es más joven que él.",
+    "es_author": "IA (Claude)",
+    "id": "s_8872104",
+    "it": "È più giovane di lui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8872104",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "carlosalberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -68743,6 +71173,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "Las medias huelen mal.",
+    "es_author": "IA (Claude)",
+    "id": "s_896788",
+    "it": "Le calze hanno un cattivo odore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "896788",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "matsuteo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_PREPOSIZIONI"
     ],
     "es": "Soy de Kioto.",
@@ -68827,6 +71281,29 @@
       "ERR_VOC_CASA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "La sopa sabe a ajo.",
+    "es_author": "IA (Claude)",
+    "id": "s_8977597",
+    "it": "La minestra sa d'aglio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8977597",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "riccioberto",
@@ -69168,6 +71645,54 @@
     "translation_kind": "direct"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Soy más alto que tú.",
+    "es_author": "IA (Claude)",
+    "id": "s_9156123",
+    "it": "Sono più alto di te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9156123",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Soy más alta que tú.",
+    "es_author": "IA (Claude)",
+    "id": "s_9156125",
+    "it": "Sono più alta di te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9156125",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -69258,6 +71783,54 @@
       "ERR_COMPARATIVE_DI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Soy más bajo que ustedes.",
+    "es_author": "IA (Claude)",
+    "id": "s_916630",
+    "it": "Sono più basso di voi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "916630",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_COMPARATIVE_DI"
+    ],
+    "es": "Soy más baja que ustedes.",
+    "es_author": "IA (Claude)",
+    "id": "s_916631",
+    "it": "Sono più bassa di voi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "916631",
+    "tag_rules": {
+      "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -70122,6 +72695,29 @@
     "source_id": "967709",
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "es": "El río es ancho.",
+    "es_author": "IA (Claude)",
+    "id": "s_967824",
+    "it": "Il fiume è largo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "967824",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CASA": "capsule_calque"
     },
     "translation_kind": "llm"
   },

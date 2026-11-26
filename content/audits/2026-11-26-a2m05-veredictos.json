@@ -1,0 +1,1884 @@
+[
+ {
+  "id": "s_2578618",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Soy más rápido que tú.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5592685",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Tom es más sabio que yo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5793045",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Tom tiene menos amigos que yo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2467562",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Bilal es más alto que Karam.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4570721",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Tom es más valiente que yo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5797309",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Yo soy más joven que ella.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1209087",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "reject",
+  "nota": "Léxico poco frecuente (vigoroso)."
+ },
+ {
+  "id": "s_1117122",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Mi hijo es más alto que yo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_6949974",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "El sol es mucho más grande que Júpiter.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_10181438",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "reject",
+  "nota": "Compara coche con persona; semánticamente raro."
+ },
+ {
+  "id": "s_1080041",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Soy cuatro años menor que él.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1605516",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "reject",
+  "nota": "Nombre raro y comparación poco natural."
+ },
+ {
+  "id": "s_1167070",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "¡Ustedes son personas mucho más maduras que yo!",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2844763",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "reject",
+  "nota": "Metafrase sobre Tatoeba; no natural."
+ },
+ {
+  "id": "s_705810",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Justin Bieber es más famoso que Katie Holmes.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1504749",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Es más fuerte que yo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3050024",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Es más alta que él.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2894293",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Es más baja que yo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2567936",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Es más fuerte que ella.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3759154",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Es más bajo que Tom.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3760046",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Tiene más libros que yo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2488338",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Es más joven que yo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_9156125",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Soy más alta que tú.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_9156123",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Soy más alto que tú.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3528762",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Tengo más dinero que Tom.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_11302023",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Soy más alto que él.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_8872104",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Es más joven que él.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1280455",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Es mayor que Tom.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3528764",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Tengo más dinero que Tom.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_11302024",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Soy más alta que él.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5585536",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Soy más alto que Tom.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3591960",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Soy más guapa que tú.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4049555",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Comes más comida que yo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4928196",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "¿Es mayor que Tom?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4876290",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Es más popular que yo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5585538",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Soy más alta que Tom.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_6890660",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Tengo menos dinero que ustedes.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1280453",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Es mayor que Tom.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3577656",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Tom es más alto que tú.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1548309",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Corre más fuerte que yo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4049557",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Come más comida que yo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3577657",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Tom es más alto que ustedes.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2578626",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "reject",
+  "nota": "Descripción corporal; evitar."
+ },
+ {
+  "id": "s_916630",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Soy más bajo que ustedes.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3591977",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Soy más guapa que ella.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_6043339",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Tom es más fuerte que tú.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5789185",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Tom es más guapo que tú.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2578624",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "reject",
+  "nota": "Descripción corporal; evitar."
+ },
+ {
+  "id": "s_916631",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Soy más baja que ustedes.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_374440",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Es más pequeña que Tokyo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2578630",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "reject",
+  "nota": "Descripción corporal; evitar."
+ },
+ {
+  "id": "s_2578634",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "reject",
+  "nota": "Descripción corporal; evitar."
+ },
+ {
+  "id": "s_1240492",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Corre más rápido que yo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5789186",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Tom es más guapo que ustedes.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_585789",
+  "codigo": "ERR_COMPARATIVE_DI",
+  "veredicto": "keep",
+  "espanol": "Ella es más famosa que tú.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_719303",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Ella fuma muchísimo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1189446",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Se ve mejor afeitado.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3299288",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Haces algo muy hermoso.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1149144",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Es mi mejor amigo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1523838",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "reject",
+  "nota": "Léxico B1 (angusto)."
+ },
+ {
+  "id": "s_3441884",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "¡Eres una gran amiga!",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_962569",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Me gustan ambos muchísimo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6612148",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Mi mejor amiga es islandesa.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_409588",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Su padre es un pianista excelente.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_979576",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "reject",
+  "nota": "Léxico B1."
+ },
+ {
+  "id": "s_2410930",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Tom es muy joven.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1798130",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Hay muy poca agua en tu café.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_376595",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Atrapé una mariposa hermosísima.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3580624",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "reject",
+  "nota": "Léxico B1, tema social."
+ },
+ {
+  "id": "s_1074108",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "En verano en Buenos Aires hace muchísimo calor.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3133308",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "¿Cuál es el nombre de tu mejor amigo?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_707076",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "reject",
+  "nota": "Expresión hecha con il migliore."
+ },
+ {
+  "id": "s_6632040",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Mi mejor amigo no es georgiano.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_9973683",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "reject",
+  "nota": "Persona famosa; poco útil."
+ },
+ {
+  "id": "s_7235135",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Tom es el mejor amigo de mi hija.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6612942",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "¿Mi mejor amigo no era italiano?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6613012",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "¿Mi mejor amiga no es napolitana?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5468068",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Puedo contarle todo a mi mejor amigo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3133311",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "¿Cuál es el nombre de tu mejor amiga?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_414477",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "¿Quién pintó este cuadro tan hermoso?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3169124",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "reject",
+  "nota": "Léxico B1."
+ },
+ {
+  "id": "s_5932210",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Pasamos un fin de semana hermosísimo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_620664",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Es mi mejor amigo. Somos como hermanos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_619373",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "reject",
+  "nota": "Benissimo con matiz idiomático; B1."
+ },
+ {
+  "id": "s_4761188",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Me gusta muchísimo hacerles regalos a la familia y a los amigos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13050176",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Los actores de esa obra de teatro eran todos buenísimos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4390975",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "reject",
+  "nota": "Léxico/estructura B1."
+ },
+ {
+  "id": "s_666212",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "reject",
+  "nota": "Tema poco neutro/específico."
+ },
+ {
+  "id": "s_993854",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "reject",
+  "nota": "Léxico B1."
+ },
+ {
+  "id": "s_2614642",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Tom está mejor.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4641407",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "¿Estás mejor ahora?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6142879",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "¿Quién canta mejor?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_692920",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Te amo muchísimo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4641414",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "¿Está mejor ahora?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1003978",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Los quiero muchísimo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4641411",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "¿Estás mejor ahora?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1272886",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Fue hermosísimo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2790845",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Me gusta muchísimo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_781701",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Mi madre está mejor.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4280587",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Le debo muchísimo a Tom.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3532508",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Estoy ocupadísima.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5504054",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Nosotras estuvimos mejor.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5641968",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Es su mejor amigo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_8021246",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Hoy está mejor que ayer.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2793115",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Las frambuesas están carísimas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_12019615",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Los íconos son hermosísimos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_428065",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Eres mi mejor amigo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11744933",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Tienes unas manos hermosísimas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2844629",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "Nos queda muy poco papel.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1972149",
+  "codigo": "ERR_COMPARATIVO_IRREG",
+  "veredicto": "keep",
+  "espanol": "El mundo cambia muchísimo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5005403",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "¿No hay ningún problema?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7023045",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "reject",
+  "nota": "niente/nulla pronominal fuera del foco"
+ },
+ {
+  "id": "s_2848423",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Ningún problema que reportar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5091563",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Probemos algo diferente.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_500186",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "reject",
+  "nota": "niente di speciale, passato remoto"
+ },
+ {
+  "id": "s_1082580",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Vi algo interesante.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1098101",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "No tiene ningún amigo con quien hablar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5703049",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Descubrí algo interesante.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_934491",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Hace unos años estuve en Rumania.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2092833",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "No hay ningún lugar donde esconderse.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3248954",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Cree en ti misma o nadie más lo hará.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_692924",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Tengo que encontrar algo interesante que hacer.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1720904",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "No soy capaz de hacer ningún otro trabajo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_350465",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Cada vez que leo este libro, encuentro algo nuevo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3937884",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "reject",
+  "nota": "B1, poco natural"
+ },
+ {
+  "id": "s_6800610",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Tiene algunos amigos.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_6800612",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Tiene algunas amigas.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4240823",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Tengo algunas amigas.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_10515033",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Tiene algunos libros.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_386325",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Tengo algunos amigos.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_740336",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Tienes algunos libros.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2439882",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Tengo alguna idea.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_6980583",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Tengo algún problema.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_740337",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "¿Tienen algún libro?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2468900",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "¿Tiene algo caliente?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1561717",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "No hay nadie más.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2848418",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "reject",
+  "nota": "nulla di: fuera del foco"
+ },
+ {
+  "id": "s_2702503",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Ningún lugar es seguro.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4231123",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "¿Hay algo nuevo?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2848419",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "reject",
+  "nota": "niente di: fuera del foco"
+ },
+ {
+  "id": "s_2702504",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "reject",
+  "nota": "duplicado de Nessun posto è sicuro"
+ },
+ {
+  "id": "s_1329776",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "No hay ninguna duda.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2468899",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "¿Tienes algo caliente?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1720986",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Haz algo útil.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1189457",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "¿Quieres beber algo?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_6071293",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Hagan algo útil.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2935081",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Solo tengo algunas preguntas.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2468901",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "¿Tienen algo caliente?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4766467",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "No hay ningún peligro.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4507212",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "reject",
+  "nota": "nulla di: fuera del foco"
+ },
+ {
+  "id": "s_1751845",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "No tiene ningún amigo de verdad.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_370093",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Tengo algunos libros en inglés.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1105378",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "¿Es algo importante?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_377580",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Quiero algo dulce.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_11296401",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Ningún trabajo es sencillo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3347185",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "No conozco a ningún ciego.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4507211",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "reject",
+  "nota": "niente di: fuera del foco"
+ },
+ {
+  "id": "s_1663432",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "reject",
+  "nota": "poco natural, filo rosso figurado"
+ },
+ {
+  "id": "s_3236254",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Tengo algunos libros en francés.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1167344",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "reject",
+  "nota": "poético, poco natural"
+ },
+ {
+  "id": "s_836019",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "¿Puedo hacer algunas preguntas?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4875122",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Esto es algo nuevo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4356468",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "¿Hay algo importante?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3482744",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "keep",
+  "espanol": "Tengo algunas preguntas para Tom.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_6881304",
+  "codigo": "ERR_INDEFINITI",
+  "veredicto": "reject",
+  "nota": "mi mostri ambiguo, parece congiuntivo"
+ },
+ {
+  "id": "s_12653218",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "reject",
+  "nota": "tautología, poco natural"
+ },
+ {
+  "id": "s_2087187",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Lo que dice es verdad.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2020307",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Haré lo que pueda.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2087186",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Lo que dice es verdad.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3607153",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "reject",
+  "nota": "aforismo, ciò che abstracto"
+ },
+ {
+  "id": "s_7362356",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Es lo que hace todo el mundo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1136149",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "¿Piensas lo mismo que yo?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3166949",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Comparto lo que dices.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1534882",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "reject",
+  "nota": "gli pare idiomático"
+ },
+ {
+  "id": "s_624931",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Haz lo que creas justo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_385056",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Cree todo lo que le digo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4923746",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Mañana compraré lo que necesito.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2021736",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "No entiendo lo que quiere decir.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_14033749",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "No me importa lo que piensen.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3937888",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Perdóname por lo que debo hacer.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3643771",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Es increíble lo que puede pasar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_8998412",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Retiro lo que dije.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_701131",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "¿Crees lo que dijo?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2440715",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Sé lo que hice.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_14034627",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Hice lo que quería.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_653665",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "reject",
+  "nota": "sin sentido"
+ },
+ {
+  "id": "s_7582256",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Hizo lo que siempre hace.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2962965",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Conseguiste lo que querías.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4624949",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "No me gusta lo que hizo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_10367776",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Hace todo lo que le digo que haga.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4983640",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Esto es lo que siempre he querido.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_798836",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Esto es lo que dice la ley.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_535851",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Él le da todo lo que pide.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1774152",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Esto es lo que puedo hacer por ti.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_374587",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Es más fácil de lo que creía.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_351117",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Todo lo que debes hacer es esperar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1304876",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Esto es todo lo que sé de él.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1767799",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Esto es lo que quería preguntar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1239606",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Tom no escucha lo que dice Mary.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3770988",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Solo quiero lo que es mejor para Tom.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1272072",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Esto es todo lo que Tom debe hacer.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_717786",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "No me han dado lo que pedí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_794942",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "No es exactamente lo que dije.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3441624",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Debes releer lo que escribiste.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_14015269",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Es exactamente lo que quería decirte.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4651877",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Tom no se avergüenza de lo que hizo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7529344",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Te he dado todo lo que pediste.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_878716",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "reject",
+  "nota": "ha passato ambiguo, poco claro"
+ },
+ {
+  "id": "s_3203481",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Todo lo que podemos hacer es esperarlo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_852113",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "reject",
+  "nota": "tema hostil"
+ },
+ {
+  "id": "s_1743054",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "reject",
+  "nota": "proverbio, poco natural"
+ },
+ {
+  "id": "s_8857446",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Mary rara vez hace lo que dice que hará.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_932831",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Nunca escucha lo que intento decirle.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2485412",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "reject",
+  "nota": "abstracto B1"
+ },
+ {
+  "id": "s_14025248",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Entiendo lo que dices, pero no lo comparto.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3345247",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "reject",
+  "nota": "poco natural"
+ },
+ {
+  "id": "s_7713761",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "No te culpo por lo que pasó.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_475599",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "No podía creer lo que estaba viendo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2028804",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "En cierto sentido, lo que él dice es verdad.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_14025249",
+  "codigo": "ERR_RELATIVO_CHE",
+  "veredicto": "keep",
+  "espanol": "Entiendo lo que dices, pero no estoy de acuerdo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1701546",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Esta sábana es liviana.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4166837",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "reject",
+  "nota": "«vaso» ambiguo: podría ser vaso de agua."
+ },
+ {
+  "id": "s_2010336",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Esta sopa está demasiado salada.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_706228",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Revuelve la sopa.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_380225",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "El chico tiene una manzana en el bolsillo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4166831",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Mary puso algunas flores en el jarrón.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2273701",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "reject",
+  "nota": "«largo» como «amplio» es no estándar."
+ },
+ {
+  "id": "s_950274",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Un ancho río atraviesa la ciudad.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7138855",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Este cojín es más suave que el otro.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_992720",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Esa sábana está muy sucia, así que hay que lavarla.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2002702",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "El agujero es ancho.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_13297731",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Me encanta la sopa.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2565086",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Vacía los bolsillos.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_967824",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "El río es ancho.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4128796",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Está en mi bolsillo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2565087",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Vacíen los bolsillos.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3811027",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "La mantequilla está blanda.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5665851",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "La sopa está espesa.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_664362",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "¿Quieres sopa?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_6724446",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "¿Qué más tiene en el bolsillo?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4260552",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Revísate los bolsillos.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_664364",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "¿Quieren sopa?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_11401038",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Las flores están en el jarrón.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_6724445",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "¿Qué más tienes en el bolsillo?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_8977597",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "La sopa sabe a ajo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3966902",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "La sábana está sobre la cama.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_12922753",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Odio la sopa fría.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_12766195",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Como pan blando.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_8817085",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "reject",
+  "nota": "Imperativo negativo mal formado, ambiguo."
+ },
+ {
+  "id": "s_12486237",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "La sopa sabe a ajo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1872584",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "La sopa no está fresca.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3376984",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Guárdate el dinero en el bolsillo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4811239",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Tom tiene tres bolígrafos en el bolsillo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_6724447",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "¿Qué más tienen en el bolsillo?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3874973",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "La sopa está muy caliente.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_706202",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Tengo un par nuevo de medias.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4811240",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Tom tiene tres lápices en el bolsillo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_11427011",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Quiero un cojín suave.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_11134144",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Mi abrigo tiene bolsillos.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4472355",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "¿Qué hay debajo de la sábana?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_6561540",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "¿Qué tan ancho es este río?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5684341",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Este jarrón es muy frágil.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_814024",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Quítate las medias, por favor.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_12022522",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "reject",
+  "nota": "Duplicado de la frase con «per favore»."
+ },
+ {
+  "id": "s_1513665",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "¿Ya están secas mis medias?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3122638",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Mis medias todavía están húmedas.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4247548",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Tom no lleva puestas las medias.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_896788",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Las medias huelen mal.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_9211385",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "doubt",
+  "nota": "«costume» ambiguo: disfraz o traje de baño."
+ },
+ {
+  "id": "s_2069202",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Se está poniendo las medias al revés.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2069201",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Te estás poniendo las medias al revés.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2069203",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Se están poniendo las medias al revés.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_11981616",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Pongamos la sábana sobre el colchón.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_9696510",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "Quítate las medias.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5352922",
+  "codigo": "ERR_VOC_FALSI_CASA",
+  "veredicto": "keep",
+  "espanol": "¿Qué tan ancho era?",
+  "nivel": "A2"
+ }
+]

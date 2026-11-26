@@ -76,16 +76,20 @@
     "cap_err_clitico_posizione",
     "cap_err_clitic_direct_indirect",
     "cap_err_comparative_di",
+    "cap_err_comparativo_irreg",
     "cap_err_imperfetto_forma",
+    "cap_err_indefiniti",
     "cap_err_pp_ausiliare",
     "cap_err_pp_participi_irreg",
     "cap_err_pp_vs_imperfetto",
     "cap_err_prima_di",
     "cap_err_reflexive_aux",
+    "cap_err_relativo_che",
     "cap_err_tempo_fa_da",
     "cap_err_participle_agreement",
     "cap_err_personal_a",
     "cap_err_voc_carattere",
+    "cap_err_voc_falsi_casa",
     "cap_err_congiuntivo_opinion",
     "cap_err_participle_agreement_clitic",
     "cap_err_clitic_ne"
@@ -149,12 +153,12 @@
     "ERR_COMPARATIVE_DI": {
       "capsule": true,
       "reason": null,
-      "usable": 18
+      "usable": 57
     },
     "ERR_COMPARATIVO_IRREG": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 45
     },
     "ERR_CONGIUNTIVO_OPINION": {
       "capsule": true,
@@ -227,9 +231,9 @@
       "usable": 38
     },
     "ERR_INDEFINITI": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 44
     },
     "ERR_OPINIONE": {
       "capsule": false,
@@ -352,9 +356,9 @@
       "usable": 35
     },
     "ERR_RELATIVO_CHE": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 46
     },
     "ERR_RIFLESSIVO_PRONOME": {
       "capsule": true,
@@ -502,9 +506,9 @@
       "usable": 49
     },
     "ERR_VOC_FALSI_CASA": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 50
     },
     "ERR_VOC_FALSI_CITTA": {
       "capsule": false,
@@ -628,18 +632,18 @@
     "B1": "items_B1.json"
   },
   "levels": {
-    "A1": 3167,
-    "A2": 1206,
+    "A1": 3279,
+    "A2": 1318,
     "B1": 156,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 4510,
+    "llm-audit": 4734,
     "me": 26
   },
-  "sentences_used": 3859,
+  "sentences_used": 4083,
   "translation_kind": {
-    "direct": 2174,
-    "llm": 1685
+    "direct": 2271,
+    "llm": 1812
   }
 }

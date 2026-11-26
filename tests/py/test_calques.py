@@ -160,7 +160,7 @@ def test_ningun_calco_aparece_en_el_corpus_validado():
                 phrase = (before.group(0).strip() + " " if before else "").lower() + phrase
             if code in ("ERR_IMPERATIVO_FORMA", "ERR_IMPERATIVO_NEG"):  # «apre la» / «non parli» solo son error como mandato al comienzo de la frase; en medio son «él abre» / «tú no hablas»
                 full = ("non " if code == "ERR_IMPERATIVO_NEG" else "") + phrase
-                assert not re.search(r"(?:^|[.!?]\s)" + re.escape(full), corpus.lower()), (code, full)
+                assert not re.search(r"(?:^|[.!?]\s)" + re.escape(full) + r"[^.!?]*!", corpus.lower()), (code, full)   # solo cuenta como mandato (con «!»): «corre più veloce di me.» es declarativo válido
                 continue
             if code == "ERR_COMPARATIVE_DI":  # «che me» solo es calco tras «più/meno + adjetivo»; «prima che me lo scordi» es otra cosa
                 phrase = r"(?:più|meno) \w+ " + re.escape(phrase)

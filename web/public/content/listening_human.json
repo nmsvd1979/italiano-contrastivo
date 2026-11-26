@@ -2765,6 +2765,13 @@
   "tatoeba": "4261235"
  },
  {
+  "id": "s_3531983",
+  "module": "a2m05",
+  "it": "È ciò che ho detto.",
+  "es": "Es lo que dije.",
+  "tatoeba": "3531983"
+ },
+ {
   "id": "s_949664",
   "module": "nivel",
   "it": "È una principiante.",
@@ -2777,6 +2784,13 @@
   "it": "Ero un po' sorpreso.",
   "es": "Estaba un poco sorprendido.",
   "tatoeba": "378689"
+ },
+ {
+  "id": "s_1003104",
+  "module": "a2m05",
+  "it": "Ho bevuto del latte.",
+  "es": "Bebí un poco de leche.",
+  "tatoeba": "1003104"
  },
  {
   "id": "s_350796",
@@ -2798,6 +2812,13 @@
   "it": "Mi è venuta un'idea.",
   "es": "Se me ocurrió una idea.",
   "tatoeba": "377566"
+ },
+ {
+  "id": "s_1867379",
+  "module": "a2m05",
+  "it": "Non hai detto nulla.",
+  "es": "No dijiste nada.",
+  "tatoeba": "1867379"
  },
  {
   "id": "s_950242",
@@ -2875,6 +2896,20 @@
   "it": "Mi sono chiuso fuori.",
   "es": "Me quedé encerrado afuera.",
   "tatoeba": "749811"
+ },
+ {
+  "id": "s_375359",
+  "module": "a2m05",
+  "it": "Nessuno era presente.",
+  "es": "Nadie estaba presente.",
+  "tatoeba": "375359"
+ },
+ {
+  "id": "s_1273339",
+  "module": "a2m05",
+  "it": "Non ho visto nessuno.",
+  "es": "No vi a nadie.",
+  "tatoeba": "1273339"
  },
  {
   "id": "s_350350",
@@ -2968,11 +3003,25 @@
   "tatoeba": "3533000"
  },
  {
+  "id": "s_1003133",
+  "module": "a2m05",
+  "it": "Ho comprato quell'auto.",
+  "es": "Compré ese coche.",
+  "tatoeba": "1003133"
+ },
+ {
   "id": "s_2003388",
   "module": "a2m01",
   "it": "Le ragazze hanno vinto.",
   "es": "Las chicas ganaron.",
   "tatoeba": "2003388"
+ },
+ {
+  "id": "s_814010",
+  "module": "a2m05",
+  "it": "Mi ha fatto un vestito.",
+  "es": "Me hizo un vestido.",
+  "tatoeba": "814010"
  },
  {
   "id": "s_383776",
@@ -3029,6 +3078,13 @@
   "it": "Gli ho trovato un lavoro.",
   "es": "Le encontré un trabajo.",
   "tatoeba": "378887"
+ },
+ {
+  "id": "s_378700",
+  "module": "a2m05",
+  "it": "Ha più o meno la mia età.",
+  "es": "Tiene más o menos mi edad.",
+  "tatoeba": "378700"
  },
  {
   "id": "s_378160",
@@ -3134,6 +3190,13 @@
   "it": "La scatola era troppo pesante.",
   "es": "La caja era demasiado pesada.",
   "tatoeba": "375467"
+ },
+ {
+  "id": "s_693958",
+  "module": "a2m05",
+  "it": "Qualcuno mi ha rubato la borsa.",
+  "es": "Alguien me robó el bolso.",
+  "tatoeba": "693958"
  },
  {
   "id": "s_1038810",

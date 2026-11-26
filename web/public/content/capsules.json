@@ -11802,23 +11802,23 @@
     "id": "cap_err_comparative_di",
     "retrieval": [
       {
-        "id": "it_choice_s_1110030_ERR_COMPARATIVE_DI",
+        "id": "it_choice_s_2894293_ERR_COMPARATIVE_DI",
         "options": [
           {
             "correct": true,
-            "text": "Tom è più alto di me."
+            "text": "È più bassa di me."
           },
           {
             "correct": false,
             "distractor_kind": "l1_calque",
             "error_code": "ERR_COMPARATIVE_DI",
-            "text": "Tom è più alto che me."
+            "text": "È più bassa che me."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1110030",
+        "sentence_id": "s_2894293",
         "target_error_codes": [
           "ERR_COMPARATIVE_DI"
         ],
@@ -11828,60 +11828,60 @@
         "answers": [
           "di"
         ],
-        "hint_es": "Soy más bajo que tú.",
-        "id": "it_cloze_s_916627_ERR_COMPARATIVE_DI",
+        "hint_es": "Es más alta que él.",
+        "id": "it_cloze_s_3050024_ERR_COMPARATIVE_DI",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_916627",
+        "sentence_id": "s_3050024",
         "target_error_codes": [
           "ERR_COMPARATIVE_DI"
         ],
-        "text": "Sono più basso ___ te.",
+        "text": "È più alta ___ lui.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Sono",
+          "È",
           "più",
-          "bassa",
+          "forte",
           "di",
-          "te."
+          "lei."
         ],
-        "id": "it_reorder_s_916628_ERR_COMPARATIVE_DI",
-        "prompt_es": "Ordena las palabras: «Soy más baja que tú.»",
+        "id": "it_reorder_s_2567936_ERR_COMPARATIVE_DI",
+        "prompt_es": "Ordena las palabras: «Es más fuerte que ella.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_916628",
+        "sentence_id": "s_2567936",
         "target_error_codes": [
           "ERR_COMPARATIVE_DI"
         ],
         "tokens": [
+          "È",
           "di",
           "più",
-          "bassa",
-          "te.",
-          "Sono"
+          "lei.",
+          "forte"
         ],
         "type": "reorder"
       },
       {
-        "id": "it_choice_s_2578620_ERR_COMPARATIVE_DI",
+        "id": "it_choice_s_3759154_ERR_COMPARATIVE_DI",
         "options": [
           {
             "correct": false,
             "distractor_kind": "l1_calque",
             "error_code": "ERR_COMPARATIVE_DI",
-            "text": "Sono più veloce che voi."
+            "text": "È più basso che Tom."
           },
           {
             "correct": true,
-            "text": "Sono più veloce di voi."
+            "text": "È più basso di Tom."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_2578620",
+        "sentence_id": "s_3759154",
         "target_error_codes": [
           "ERR_COMPARATIVE_DI"
         ],
@@ -11891,41 +11891,39 @@
         "answers": [
           "di"
         ],
-        "hint_es": "Son mucho más altos que nosotros.",
-        "id": "it_cloze_s_663540_ERR_COMPARATIVE_DI",
+        "hint_es": "Tiene más libros que yo.",
+        "id": "it_cloze_s_3760046_ERR_COMPARATIVE_DI",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_663540",
+        "sentence_id": "s_3760046",
         "target_error_codes": [
           "ERR_COMPARATIVE_DI"
         ],
-        "text": "Sono molto più alti ___ noi.",
+        "text": "Ha più libri ___ me.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Pechino",
-          "è",
+          "È",
           "più",
-          "grande",
+          "famosa",
           "di",
-          "Roma."
+          "lui."
         ],
-        "id": "it_reorder_s_611876_ERR_COMPARATIVE_DI",
-        "prompt_es": "Ordena las palabras: «Pekín es más grande que Roma.»",
+        "id": "it_reorder_s_10231935_ERR_COMPARATIVE_DI",
+        "prompt_es": "Ordena las palabras: «Es más famosa que él.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_611876",
+        "sentence_id": "s_10231935",
         "target_error_codes": [
           "ERR_COMPARATIVE_DI"
         ],
         "tokens": [
-          "è",
-          "di",
-          "Roma.",
-          "grande",
+          "lui.",
+          "È",
           "più",
-          "Pechino"
+          "famosa",
+          "di"
         ],
         "type": "reorder"
       }
@@ -11936,15 +11934,161 @@
     ],
     "trigger": {
       "accepted_it": [
-        "È più famosa di lui."
+        "È più forte di me."
       ],
-      "id": "it_translate_s_10231935_ERR_COMPARATIVE_DI",
+      "id": "it_translate_s_1504749_ERR_COMPARATIVE_DI",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_10231935",
-      "source_es": "Es más famosa que él.",
+      "sentence_id": "s_1504749",
+      "source_es": "Es más fuerte que yo.",
       "target_error_codes": [
         "ERR_COMPARATIVE_DI"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Buono y bene tienen comparativos propios: migliore (adjetivo: la mia migliore amica) y meglio (adverbio: parla meglio); cattivo y male: peggiore y peggio. No se dice *più bene ni *parla migliore. El superlativo absoluto lleva -issimo con dos eses: bellissimo, no *bellisimo."
+    },
+    "id": "cap_err_comparativo_irreg",
+    "retrieval": [
+      {
+        "id": "it_choice_s_4641407_ERR_COMPARATIVO_IRREG",
+        "options": [
+          {
+            "correct": true,
+            "text": "Stai meglio ora?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_COMPARATIVO_IRREG",
+            "text": "Stai migliore ora?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4641407",
+        "target_error_codes": [
+          "ERR_COMPARATIVO_IRREG"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "meglio"
+        ],
+        "hint_es": "¿Quién canta mejor?",
+        "id": "it_cloze_s_6142879_ERR_COMPARATIVO_IRREG",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_6142879",
+        "target_error_codes": [
+          "ERR_COMPARATIVO_IRREG"
+        ],
+        "text": "Chi canta ___?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Vi",
+          "amo",
+          "tantissimo."
+        ],
+        "id": "it_reorder_s_1003978_ERR_COMPARATIVO_IRREG",
+        "prompt_es": "Ordena las palabras: «Los quiero muchísimo.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1003978",
+        "target_error_codes": [
+          "ERR_COMPARATIVO_IRREG"
+        ],
+        "tokens": [
+          "amo",
+          "tantissimo.",
+          "Vi"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_4641414_ERR_COMPARATIVO_IRREG",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_COMPARATIVO_IRREG",
+            "text": "Sta migliore adesso?"
+          },
+          {
+            "correct": true,
+            "text": "Sta meglio adesso?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4641414",
+        "target_error_codes": [
+          "ERR_COMPARATIVO_IRREG"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "iss"
+        ],
+        "hint_es": "Te amo muchísimo.",
+        "id": "it_cloze_s_692920_ERR_COMPARATIVO_IRREG",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_692920",
+        "target_error_codes": [
+          "ERR_COMPARATIVO_IRREG"
+        ],
+        "text": "Ti amo tant___imo.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "È",
+          "stato",
+          "bellissimo."
+        ],
+        "id": "it_reorder_s_1272886_ERR_COMPARATIVO_IRREG",
+        "prompt_es": "Ordena las palabras: «Fue hermosísimo.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1272886",
+        "target_error_codes": [
+          "ERR_COMPARATIVO_IRREG"
+        ],
+        "tokens": [
+          "bellissimo.",
+          "stato",
+          "È"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_COMPARATIVO_IRREG"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Tom sta meglio."
+      ],
+      "id": "it_translate_s_2614642_ERR_COMPARATIVO_IRREG",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2614642",
+      "source_es": "Tom está mejor.",
+      "target_error_codes": [
+        "ERR_COMPARATIVO_IRREG"
       ],
       "type": "translate_es_it"
     }
@@ -12091,6 +12235,154 @@
       "source_es": "Yo no estaba en casa.",
       "target_error_codes": [
         "ERR_IMPERFETTO_FORMA"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Qualche va siempre con un nombre en singular (qualche libro, no *qualche libri). Para «algo + adjetivo» el italiano pone di: qualcosa di buono, niente di speciale. Delante de un nombre masculino que no empieza por s + consonante, nessuno se apocopa: nessun libro (no *nessuno libro)."
+    },
+    "id": "cap_err_indefiniti",
+    "retrieval": [
+      {
+        "id": "it_choice_s_386325_ERR_INDEFINITI",
+        "options": [
+          {
+            "correct": true,
+            "text": "Ho qualche amico."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_INDEFINITI",
+            "text": "Ho qualche amici."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_386325",
+        "target_error_codes": [
+          "ERR_INDEFINITI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "amica"
+        ],
+        "hint_es": "Tengo algunas amigas.",
+        "id": "it_cloze_s_4240823_ERR_INDEFINITI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4240823",
+        "target_error_codes": [
+          "ERR_INDEFINITI"
+        ],
+        "text": "Ho qualche ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Ha",
+          "qualche",
+          "amico."
+        ],
+        "id": "it_reorder_s_6800610_ERR_INDEFINITI",
+        "prompt_es": "Ordena las palabras: «Tiene algunos amigos.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_6800610",
+        "target_error_codes": [
+          "ERR_INDEFINITI"
+        ],
+        "tokens": [
+          "amico.",
+          "Ha",
+          "qualche"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_6800612_ERR_INDEFINITI",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_INDEFINITI",
+            "text": "Ha qualche amiche."
+          },
+          {
+            "correct": true,
+            "text": "Ha qualche amica."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_6800612",
+        "target_error_codes": [
+          "ERR_INDEFINITI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "libro"
+        ],
+        "hint_es": "Tienes algunos libros.",
+        "id": "it_cloze_s_740336_ERR_INDEFINITI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_740336",
+        "target_error_codes": [
+          "ERR_INDEFINITI"
+        ],
+        "text": "Hai qualche ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Io",
+          "ho",
+          "qualche",
+          "idea."
+        ],
+        "id": "it_reorder_s_2439882_ERR_INDEFINITI",
+        "prompt_es": "Ordena las palabras: «Tengo alguna idea.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2439882",
+        "target_error_codes": [
+          "ERR_INDEFINITI"
+        ],
+        "tokens": [
+          "ho",
+          "Io",
+          "idea.",
+          "qualche"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_INDEFINITI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Ha qualche libro."
+      ],
+      "id": "it_translate_s_10515033_ERR_INDEFINITI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_10515033",
+      "source_es": "Tiene algunos libros.",
+      "target_error_codes": [
+        "ERR_INDEFINITI"
       ],
       "type": "translate_es_it"
     }
@@ -12851,6 +13143,160 @@
     "cefr": "A2",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "«Lo que» se dice quello che o ciò che, nunca *lo che. El relativo che sirve para sujeto y objeto: la ragazza che abita qui, il libro che leggo."
+    },
+    "id": "cap_err_relativo_che",
+    "retrieval": [
+      {
+        "id": "it_choice_s_2020307_ERR_RELATIVO_CHE",
+        "options": [
+          {
+            "correct": true,
+            "text": "Farò quello che posso."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_RELATIVO_CHE",
+            "text": "Farò lo che posso."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2020307",
+        "target_error_codes": [
+          "ERR_RELATIVO_CHE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Quello"
+        ],
+        "hint_es": "Lo que él dice es cierto.",
+        "id": "it_cloze_s_2087186_ERR_RELATIVO_CHE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2087186",
+        "target_error_codes": [
+          "ERR_RELATIVO_CHE"
+        ],
+        "text": "___ che dice è vero.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Ritiro",
+          "ciò",
+          "che",
+          "ho",
+          "detto."
+        ],
+        "id": "it_reorder_s_8998412_ERR_RELATIVO_CHE",
+        "prompt_es": "Ordena las palabras: «Retiro lo dicho.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_8998412",
+        "target_error_codes": [
+          "ERR_RELATIVO_CHE"
+        ],
+        "tokens": [
+          "ciò",
+          "detto.",
+          "ho",
+          "Ritiro",
+          "che"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_701131_ERR_RELATIVO_CHE",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_RELATIVO_CHE",
+            "text": "Credi a lo che ha detto?"
+          },
+          {
+            "correct": true,
+            "text": "Credi a ciò che ha detto?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_701131",
+        "target_error_codes": [
+          "ERR_RELATIVO_CHE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "quello"
+        ],
+        "hint_es": "Es lo que hace todo el mundo.",
+        "id": "it_cloze_s_7362356_ERR_RELATIVO_CHE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_7362356",
+        "target_error_codes": [
+          "ERR_RELATIVO_CHE"
+        ],
+        "text": "È ___ che fanno tutti.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Pensi",
+          "quello",
+          "che",
+          "penso",
+          "io?"
+        ],
+        "id": "it_reorder_s_1136149_ERR_RELATIVO_CHE",
+        "prompt_es": "Ordena las palabras: «¿Piensas lo mismo que yo?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1136149",
+        "target_error_codes": [
+          "ERR_RELATIVO_CHE"
+        ],
+        "tokens": [
+          "io?",
+          "Pensi",
+          "quello",
+          "penso",
+          "che"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_RELATIVO_CHE"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Ciò che dice è vero."
+      ],
+      "id": "it_translate_s_2087187_ERR_RELATIVO_CHE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2087187",
+      "source_es": "Lo que él dice es cierto.",
+      "target_error_codes": [
+        "ERR_RELATIVO_CHE"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "En italiano «fa» va después del tiempo (due anni fa); el español pone «hace» antes (hace dos años). Para lo que dura hasta ahora se usa da (studio italiano da due anni) y para un plazo futuro, fra o tra (fra due giorni), no *in due giorni."
     },
     "id": "cap_err_tempo_fa_da",
@@ -13479,6 +13925,170 @@
       "source_es": "Tom es tímido.",
       "target_error_codes": [
         "ERR_VOC_CARATTERE"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Palabras de la casa, la ropa y la comida que se parecen al español pero significan otra cosa: largo es «ancho» (lo largo es lungo), vaso es el florero o la maceta (el vaso de beber es bicchiere), morbido es «suave», minestra es «sopa», tasca es «bolsillo», calze son «medias», costume es la costumbre o el traje de baño, tenda es la tienda de campaña o la cortina."
+    },
+    "id": "cap_err_voc_falsi_casa",
+    "retrieval": [
+      {
+        "id": "it_choice_s_2002702_ERR_VOC_FALSI_CASA",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Il buco è largo."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_FALSI_CASA",
+            "text": "Il buco è morbido."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_FALSI_CASA",
+            "text": "Il buco è lenzuolo."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2002702",
+        "target_error_codes": [
+          "ERR_VOC_FALSI_CASA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "tasche"
+        ],
+        "hint_es": "Vacía los bolsillos.",
+        "id": "it_cloze_s_2565086_ERR_VOC_FALSI_CASA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2565086",
+        "target_error_codes": [
+          "ERR_VOC_FALSI_CASA"
+        ],
+        "text": "Svuota le ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Il",
+          "fiume",
+          "è",
+          "largo."
+        ],
+        "id": "it_reorder_s_967824_ERR_VOC_FALSI_CASA",
+        "prompt_es": "Ordena las palabras: «El río es ancho.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_967824",
+        "target_error_codes": [
+          "ERR_VOC_FALSI_CASA"
+        ],
+        "tokens": [
+          "Il",
+          "è",
+          "largo.",
+          "fiume"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_4128796_ERR_VOC_FALSI_CASA",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_FALSI_CASA",
+            "text": "È nella mia cintura."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_FALSI_CASA",
+            "text": "È nella mia pesca."
+          },
+          {
+            "correct": true,
+            "text": "È nella mia tasca."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4128796",
+        "target_error_codes": [
+          "ERR_VOC_FALSI_CASA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "tasche"
+        ],
+        "hint_es": "Vacíen los bolsillos.",
+        "id": "it_cloze_s_2565087_ERR_VOC_FALSI_CASA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2565087",
+        "target_error_codes": [
+          "ERR_VOC_FALSI_CASA"
+        ],
+        "text": "Svuotate le ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Il",
+          "burro",
+          "è",
+          "morbido."
+        ],
+        "id": "it_reorder_s_3811027_ERR_VOC_FALSI_CASA",
+        "prompt_es": "Ordena las palabras: «La mantequilla está blanda.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3811027",
+        "target_error_codes": [
+          "ERR_VOC_FALSI_CASA"
+        ],
+        "tokens": [
+          "è",
+          "morbido.",
+          "burro",
+          "Il"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_FALSI_CASA"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Amo la minestra."
+      ],
+      "id": "it_translate_s_13297731_ERR_VOC_FALSI_CASA",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_13297731",
+      "source_es": "Me encanta la sopa.",
+      "target_error_codes": [
+        "ERR_VOC_FALSI_CASA"
       ],
       "type": "translate_es_it"
     }

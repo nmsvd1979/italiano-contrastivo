@@ -2,6 +2,14 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-26 (39) — Fase 5: módulo a2m05 «Comparar y comprar» construido
+**Pedido del usuario:** «Sigue con a2m05».
+**Hecho:** lista de cierre en rojo → verde (a2m01–a2m05). 275 candidatas auditadas por tres agentes → **224 frases** en cinco unidades: comparativos (reutiliza u11) 57, meglio/migliore/-issimo 45, qualche/qualcosa di/nessun 44, quello che / che relativo 46, falsos amigos de casa 50 (43 rechazadas/en duda; respaldo `content/audits/2026-11-26-a2m05-veredictos.json`). La entrada **reutiliza** `rd_negozio` (diálogo propio de A1 m09). 4 unidades nuevas (u89–u92); Salida (2 juegos de rol, tarea oral, 6 preguntas por voz); 268 clips (+17 de segunda voz); voz humana (banco 462); **A1 intacto**. Precache 10,94 MB.
+**Decisiones mías:** u11 traía demasiados «Tom» (28 %): rechacé 8 frases de esqueleto repetido para quedar bajo el 20 %; el control de mandatos (imperativo) en la prueba de calcos ahora exige «!» (un «Corre più veloce di Tom.» declarativo es válido); un auditor dijo que no había revisado las traducciones una por una: muestreé 14 y estaban bien, pero no se revisaron todas.
+**Comprobado:** Python 1.517, web 1.501, tsc y build en verde.
+**No comprobado:** iPhone y pasos con una persona; audio sin escuchar; todas las traducciones de c17/c18; nada revisado por un nativo.
+**Siguiente:** a2m06 (trámites, casa y barrio: situar, fechas y horarios, si impersonal, vocabulario de oficinas; mucho texto propio de correo/banco).
+
 ## 2026-11-26 (38) — Fase 5: módulo a2m04 «Pronombres que ahorran palabras» construido
 **Pedido del usuario:** «Sigue con a2m04».
 **Hecho:** lista de cierre en rojo → verde. 265 candidatas auditadas por tres agentes → **234 frases** en cinco cápsulas: lo/la/li/le y gli/le (a2c12) 49, «a» personal (a2c13, reutiliza u10) 43 nuevas (u10 pasa de 15 a 56 frases de práctica), pronombre pegado farlo/vederla 48, l'ho vista/li ho comprati 41, «ne» de cantidad 43 (las 46 variantes ya confirmadas en la Fase 2); 41 rechazadas; respaldo `content/audits/2026-11-26-a2m04-veredictos.json`. Entrada **reutiliza** `rd_ristorante` (Piacere!, sigue en u22 y u65 de A1: no se movió). 4 unidades nuevas (u85, u86, u87, u88) + u10; Salida (2 juegos de rol, tarea oral, 6 preguntas por voz); paquete, 266 clips (+18 de segunda voz) y voz humana (banco 453); **A1 intacto** (solo cambió u10, que es de A2). Las fichas de las unidades de A2 ahora añaden «Qué practicas aquí» (lo que pide el programa) y la situación del módulo.

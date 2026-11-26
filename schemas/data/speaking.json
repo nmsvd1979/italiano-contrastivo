@@ -416,6 +416,30 @@
     "u88"
    ],
    "goal_es": "Cuenta qué compraste y para quién, y avisa a los demás con gli/le."
+  },
+  {
+   "id": "rp_a2m05_a",
+   "title": "Quale scegli?",
+   "function_es": "Elegir entre dos objetos comparándolos.",
+   "reading": "rd_a2m05_a",
+   "from": 0,
+   "to": 6,
+   "after": [
+    "u92"
+   ],
+   "goal_es": "Compara dos mochilas por precio y comodidad y di cuál prefieres."
+  },
+  {
+   "id": "rp_a2m05_b",
+   "title": "Al negozio di scarpe",
+   "function_es": "Comprar zapatos en una tienda, con trato de Lei.",
+   "reading": "rd_a2m05_b",
+   "from": 1,
+   "to": 8,
+   "after": [
+    "u92"
+   ],
+   "goal_es": "Pide zapatos cómodos, pregunta el precio y el número, y decide si los llevas."
   }
  ],
  "tasks": [
@@ -911,6 +935,48 @@
     "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
     "No leí: hablé de corrido, aunque con pausas.",
     "Cuidé lo que enseña este módulo: Lo/la/li/le o gli/le: el verbo decide; Sin «a» personal; El pronombre pegado: farlo, vederla.",
+    "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
+   ]
+  },
+  {
+   "id": "ht_a2m05",
+   "title": "Che cosa vorrei comprare",
+   "function_es": "Describir algo que quieres comprar y compararlo con otra cosa.",
+   "level": "A2",
+   "minutes": 2,
+   "after": [
+    "u92"
+   ],
+   "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+   },
+   "intro_es": "Habla 2 minutos de algo que quieres comprar: cuál es, cuánto cuesta y por qué es mejor que otra opción. Usa comparaciones, meglio o migliore y un superlativo en -issimo.",
+   "questions": [
+    {
+     "it": "Che cosa vorresti comprare? Dove lo vuoi comprare?",
+     "es": "¿Qué quisieras comprar? ¿Dónde lo quieres comprar?"
+    },
+    {
+     "it": "È più bello o più comodo di quello che hai già?",
+     "es": "¿Es más bonito o más cómodo que el que ya tienes?"
+    },
+    {
+     "it": "Quanto costa? C'è qualcosa di meno caro?",
+     "es": "¿Cuánto cuesta? ¿Hay algo menos caro?"
+    },
+    {
+     "it": "Perché è la scelta migliore? Ne hai bisogno subito?",
+     "es": "¿Por qué es la mejor elección? ¿Lo necesitas pronto?"
+    }
+   ],
+   "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
+   "checklist_es": [
+    "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+    "No leí: hablé de corrido, aunque con pausas.",
+    "Cuidé lo que enseña este módulo: Più… di / che; Meglio o migliore; -issimo; Qualche + singular, dei, qualcosa di.",
     "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
    ]
   }
@@ -1716,6 +1782,48 @@
     "module": "a2m04",
     "it": "Le tue chiavi dove le tieni? Le trovi sempre?",
     "es": "Tus llaves, ¿dónde las guardas? ¿Las encuentras siempre?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m05_1",
+    "module": "a2m05",
+    "it": "Qual è il negozio più bello della tua città? Perché?",
+    "es": "¿Cuál es la tienda más linda de tu ciudad? ¿Por qué?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m05_2",
+    "module": "a2m05",
+    "it": "In cucina usi più burro o più olio?",
+    "es": "En la cocina, ¿usas más mantequilla o más aceite?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m05_3",
+    "module": "a2m05",
+    "it": "Per l'insalata è meglio l'aceto o il limone?",
+    "es": "Para la ensalada, ¿es mejor el vinagre o el limón?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m05_4",
+    "module": "a2m05",
+    "it": "Dove fa più caldo in estate, nella tua città o a Roma?",
+    "es": "¿Dónde hace más calor en verano, en tu ciudad o en Roma?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m05_5",
+    "module": "a2m05",
+    "it": "Hai qualche vaso con fiori in casa? Ne hai molti?",
+    "es": "¿Tienes algún florero con flores en casa? ¿Tienes muchos?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m05_6",
+    "module": "a2m05",
+    "it": "Hai un costume da bagno? Di che colore è?",
+    "es": "¿Tienes un traje de baño? ¿De qué color es?",
     "authored": true
    }
   ]

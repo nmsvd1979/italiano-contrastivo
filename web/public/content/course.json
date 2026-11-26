@@ -588,6 +588,41 @@
         "doc_a2m04_nota",
         "vh_a2m04"
       ]
+    },
+    {
+      "id": "a2m05",
+      "level": "A2",
+      "title": "Comparar y comprar",
+      "can_do_es": [
+        "Comparar dos cosas o personas.",
+        "Decir cuál es el mejor o el más…",
+        "Pedir en una tienda y expresar lo que prefieres."
+      ],
+      "units": [
+        "u11",
+        "u89",
+        "u90",
+        "u91",
+        "u92"
+      ],
+      "entry_reading": "rd_negozio",
+      "roleplays": [
+        "rp_a2m05_a",
+        "rp_a2m05_b"
+      ],
+      "tasks": [
+        "ht_a2m05"
+      ],
+      "phrase_groups": [],
+      "library": "linguee",
+      "library_task_es": "Cuando dudes cómo se dice «el mejor» o «tan… como», búscalo completo en Linguee y compara 3 ejemplos antes de elegir.",
+      "writing_es": "Escribe de 40 a 60 palabras sobre un regalo o una compra que quieres hacer: compara dos cosas de una tienda y di cuál es mejor y por qué. Usa al menos 2 comparaciones con «più… di» o «più… che», «meglio» o «migliore», 1 superlativo en -issimo y «qualche» con singular o «nessun».",
+      "writing_short_es": "Escribe un mensaje de 25 a 50 palabras a un amigo: dile que quieres comprar algo para la casa (por ejemplo una tovaglia o un vaso) y pídele ayuda para elegir. Usa «qualcosa di» más un adjetivo, «quello che» y una comparación.",
+      "extra_readings": [
+        "ls_a2m05",
+        "doc_a2m05_catalogo",
+        "vh_a2m05"
+      ]
     }
   ],
   "units": [
@@ -17512,6 +17547,653 @@
       ]
     },
     {
+      "id": "u11",
+      "level": "A2",
+      "title": "Más alto di me: comparativos",
+      "goal_es": "Con nombres o pronombres el segundo término lleva di, no che.",
+      "codes": [
+        "ERR_COMPARATIVE_DI"
+      ],
+      "why_here": "Cierra A2 con una estructura de contraste.",
+      "ficha_es": "El segundo término de una comparación se introduce con di (con un sustantivo o pronombre) o con che (con adjetivo, adverbio o verbo): sei più alto di me, è più facile parlare che scrivere.\n\nError típico: «più alto che me». Con pronombres personales se usa di: di me, di te, di lui. En español se dice «que» siempre.",
+      "status": "active",
+      "explanation_es": "En el segundo término de una comparación entre nombres o pronombres el italiano usa di; el español usa 'que'.",
+      "parts": {
+        "descubre": [
+          "s_1504749",
+          "s_2894293",
+          "s_3050024",
+          "s_2567936"
+        ],
+        "practica": [
+          "s_1504749",
+          "s_2894293",
+          "s_3050024",
+          "s_2567936",
+          "s_3759154",
+          "s_3760046",
+          "s_10231935",
+          "s_3528762",
+          "s_9156123",
+          "s_9156125",
+          "s_1110030",
+          "s_11302023",
+          "s_1280453",
+          "s_3528764",
+          "s_3577656",
+          "s_3591960",
+          "s_4049555",
+          "s_4876290",
+          "s_5585538",
+          "s_6890660",
+          "s_8872104",
+          "s_916627",
+          "s_916628",
+          "s_2578618",
+          "s_3591977",
+          "s_4049557",
+          "s_5789185",
+          "s_6043339",
+          "s_916630",
+          "s_1240492",
+          "s_2578620",
+          "s_374440",
+          "s_585789",
+          "s_2467562",
+          "s_663540",
+          "s_1117122",
+          "s_611876",
+          "s_1701591",
+          "s_399099",
+          "s_6949974",
+          "s_1167070",
+          "s_705810",
+          "s_1652088",
+          "s_1394655",
+          "s_627271",
+          "s_425582",
+          "s_610182",
+          "s_619812"
+        ],
+        "escucha": [
+          "s_1504749",
+          "s_10231935",
+          "s_1280453",
+          "s_5585538",
+          "s_3591977",
+          "s_2578620",
+          "s_611876",
+          "s_1652088"
+        ],
+        "prueba": [
+          "s_2488338",
+          "s_11302024",
+          "s_4928196",
+          "s_1548309",
+          "s_916631",
+          "s_5797309",
+          "s_1080041",
+          "s_1750942"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1504749",
+          "start": 12,
+          "end": 14,
+          "wrong": "che"
+        },
+        {
+          "id": "s_2894293",
+          "start": 12,
+          "end": 14,
+          "wrong": "che"
+        },
+        {
+          "id": "s_3050024",
+          "start": 11,
+          "end": 13,
+          "wrong": "che"
+        },
+        {
+          "id": "s_2567936",
+          "start": 12,
+          "end": 14,
+          "wrong": "che"
+        }
+      ]
+    },
+    {
+      "id": "u89",
+      "level": "A2",
+      "title": "Meglio o migliore; -issimo",
+      "goal_es": "Meglio o migliore; -issimo",
+      "codes": [
+        "ERR_COMPARATIVO_IRREG"
+      ],
+      "why_here": "Elegir entre dos cosas en una tienda: ropa, precios, preferencias.",
+      "ficha_es": "Buono y bene tienen comparativos propios: migliore (adjetivo: la mia migliore amica) y meglio (adverbio: parla meglio); cattivo y male: peggiore y peggio. No se dice *più bene ni *parla migliore. El superlativo absoluto lleva -issimo con dos eses: bellissimo, no *bellisimo.\n\nError típico: *più bene, *più male, *parla migliore, *è meglio amico → meglio/peggio (adverbios), migliore/peggiore (adjetivos); *bellisimo → bellissimo. Válido y no es error: più buono, più cattivo (válidos)\n\nQué practicas aquí: Meglio/migliore, peggio/peggiore y el superlativo (il più…, -issimo).\n\nSituación del módulo: Elegir entre dos cosas en una tienda: ropa, precios, preferencias.",
+      "status": "active",
+      "explanation_es": "Buono y bene tienen comparativos propios: migliore (adjetivo: la mia migliore amica) y meglio (adverbio: parla meglio); cattivo y male: peggiore y peggio. No se dice *più bene ni *parla migliore. El superlativo absoluto lleva -issimo con dos eses: bellissimo, no *bellisimo.",
+      "parts": {
+        "descubre": [
+          "s_2614642",
+          "s_4641407",
+          "s_6142879",
+          "s_1003978"
+        ],
+        "practica": [
+          "s_2614642",
+          "s_4641407",
+          "s_6142879",
+          "s_1003978",
+          "s_4641414",
+          "s_692920",
+          "s_2410930",
+          "s_4641411",
+          "s_1189446",
+          "s_2790845",
+          "s_781701",
+          "s_3532508",
+          "s_4280587",
+          "s_5504054",
+          "s_3299288",
+          "s_5641968",
+          "s_8021246",
+          "s_12019615",
+          "s_11744933",
+          "s_2844629",
+          "s_3441884",
+          "s_428065",
+          "s_1972149",
+          "s_6612148",
+          "s_1798130",
+          "s_409588",
+          "s_376595",
+          "s_3133308",
+          "s_6632040",
+          "s_7235135",
+          "s_5468068",
+          "s_6613012",
+          "s_3133311",
+          "s_414477",
+          "s_5932210",
+          "s_4761188",
+          "s_13050176"
+        ],
+        "escucha": [
+          "s_2614642",
+          "s_4641414",
+          "s_1189446",
+          "s_4280587",
+          "s_8021246",
+          "s_3441884",
+          "s_1798130",
+          "s_6632040"
+        ],
+        "prueba": [
+          "s_1272886",
+          "s_719303",
+          "s_1149144",
+          "s_2793115",
+          "s_962569",
+          "s_1074108",
+          "s_6612942",
+          "s_620664"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2614642",
+          "start": 8,
+          "end": 14,
+          "wrong": "migliore"
+        },
+        {
+          "id": "s_4641407",
+          "start": 5,
+          "end": 11,
+          "wrong": "migliore"
+        },
+        {
+          "id": "s_6142879",
+          "start": 10,
+          "end": 16,
+          "wrong": "migliore"
+        },
+        {
+          "id": "s_1003978",
+          "start": 11,
+          "end": 14,
+          "wrong": "is"
+        }
+      ]
+    },
+    {
+      "id": "u90",
+      "level": "A2",
+      "title": "Qualche + singular, dei, qualcosa di",
+      "goal_es": "Qualche + singular, dei, qualcosa di",
+      "codes": [
+        "ERR_INDEFINITI"
+      ],
+      "why_here": "Elegir entre dos cosas en una tienda: ropa, precios, preferencias.",
+      "ficha_es": "Qualche va siempre con un nombre en singular (qualche libro, no *qualche libri). Para «algo + adjetivo» el italiano pone di: qualcosa di buono, niente di speciale. Delante de un nombre masculino que no empieza por s + consonante, nessuno se apocopa: nessun libro (no *nessuno libro).\n\nError típico: *qualche libri, *uni ragazzi, *qualcosa buono, *nessuno libro → qualche libro, dei ragazzi, qualcosa di buono, nessun libro. Válido y no es error: ogni giorno (singular); ogni tanto\n\nQué practicas aquí: Cuantificadores: tutto, niente, nessuno, un po', abbastanza.\n\nSituación del módulo: Elegir entre dos cosas en una tienda: ropa, precios, preferencias.",
+      "status": "active",
+      "explanation_es": "Qualche va siempre con un nombre en singular (qualche libro, no *qualche libri). Para «algo + adjetivo» el italiano pone di: qualcosa di buono, niente di speciale. Delante de un nombre masculino que no empieza por s + consonante, nessuno se apocopa: nessun libro (no *nessuno libro).",
+      "parts": {
+        "descubre": [
+          "s_10515033",
+          "s_386325",
+          "s_4240823",
+          "s_6800610"
+        ],
+        "practica": [
+          "s_10515033",
+          "s_386325",
+          "s_4240823",
+          "s_6800610",
+          "s_6800612",
+          "s_740336",
+          "s_6980583",
+          "s_740337",
+          "s_1561717",
+          "s_2468900",
+          "s_1720986",
+          "s_2468899",
+          "s_2702503",
+          "s_4231123",
+          "s_6071293",
+          "s_2468901",
+          "s_2935081",
+          "s_4766467",
+          "s_11296401",
+          "s_1751845",
+          "s_3347185",
+          "s_370093",
+          "s_3236254",
+          "s_3482744",
+          "s_4356468",
+          "s_4875122",
+          "s_5005403",
+          "s_2848423",
+          "s_5091563",
+          "s_1082580",
+          "s_5703049",
+          "s_934491",
+          "s_2092833",
+          "s_3248954",
+          "s_692924",
+          "s_350465"
+        ],
+        "escucha": [
+          "s_10515033",
+          "s_6800612",
+          "s_1561717",
+          "s_2702503",
+          "s_2935081",
+          "s_3347185",
+          "s_4356468",
+          "s_5091563"
+        ],
+        "prueba": [
+          "s_2439882",
+          "s_1329776",
+          "s_1189457",
+          "s_1105378",
+          "s_377580",
+          "s_836019",
+          "s_1098101",
+          "s_1720904"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_10515033",
+          "start": 11,
+          "end": 16,
+          "wrong": "libri"
+        },
+        {
+          "id": "s_386325",
+          "start": 11,
+          "end": 16,
+          "wrong": "amici"
+        },
+        {
+          "id": "s_4240823",
+          "start": 11,
+          "end": 16,
+          "wrong": "amiche"
+        },
+        {
+          "id": "s_6800610",
+          "start": 11,
+          "end": 16,
+          "wrong": "amici"
+        }
+      ]
+    },
+    {
+      "id": "u91",
+      "level": "A2",
+      "title": "Quello che y el relativo «che»",
+      "goal_es": "Quello che y el relativo «che»",
+      "codes": [
+        "ERR_RELATIVO_CHE"
+      ],
+      "why_here": "Elegir entre dos cosas en una tienda: ropa, precios, preferencias.",
+      "ficha_es": "«Lo que» se dice quello che o ciò che, nunca *lo che. El relativo che sirve para sujeto y objeto: la ragazza che abita qui, il libro che leggo.\n\nError típico: *lo che → quello che / ciò che; *la persona chi → la persona che. Válido y no es error: con cui (solo reconocer)\n\nQué practicas aquí: Relativas con «che» centradas en el sujeto (la persona che…, il libro che…).\n\nSituación del módulo: Elegir entre dos cosas en una tienda: ropa, precios, preferencias.",
+      "status": "active",
+      "explanation_es": "«Lo que» se dice quello che o ciò che, nunca *lo che. El relativo che sirve para sujeto y objeto: la ragazza che abita qui, il libro che leggo.",
+      "parts": {
+        "descubre": [
+          "s_2087187",
+          "s_2020307",
+          "s_2087186",
+          "s_8998412"
+        ],
+        "practica": [
+          "s_2087187",
+          "s_2020307",
+          "s_2087186",
+          "s_8998412",
+          "s_701131",
+          "s_7362356",
+          "s_2440715",
+          "s_3166949",
+          "s_14034627",
+          "s_624931",
+          "s_7582256",
+          "s_2962965",
+          "s_10367776",
+          "s_4624949",
+          "s_4923746",
+          "s_2021736",
+          "s_4983640",
+          "s_535851",
+          "s_798836",
+          "s_374587",
+          "s_3937888",
+          "s_1304876",
+          "s_1767799",
+          "s_1239606",
+          "s_1272072",
+          "s_3770988",
+          "s_717786",
+          "s_3441624",
+          "s_794942",
+          "s_3643771",
+          "s_4651877",
+          "s_7529344",
+          "s_8857446",
+          "s_932831",
+          "s_14025248",
+          "s_7713761",
+          "s_2028804",
+          "s_475599"
+        ],
+        "escucha": [
+          "s_2087187",
+          "s_701131",
+          "s_14034627",
+          "s_10367776",
+          "s_4983640",
+          "s_3937888",
+          "s_1272072",
+          "s_794942"
+        ],
+        "prueba": [
+          "s_1136149",
+          "s_385056",
+          "s_14033749",
+          "s_1774152",
+          "s_351117",
+          "s_14015269",
+          "s_3203481",
+          "s_14025249"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2087187",
+          "start": 0,
+          "end": 3,
+          "wrong": "Lo"
+        },
+        {
+          "id": "s_2020307",
+          "start": 5,
+          "end": 11,
+          "wrong": "lo"
+        },
+        {
+          "id": "s_2087186",
+          "start": 0,
+          "end": 6,
+          "wrong": "Lo"
+        },
+        {
+          "id": "s_8998412",
+          "start": 7,
+          "end": 10,
+          "wrong": "lo"
+        }
+      ]
+    },
+    {
+      "id": "u92",
+      "level": "A2",
+      "title": "Falsos amigos I: casa, comida y compras",
+      "goal_es": "Falsos amigos I: casa, comida y compras",
+      "codes": [
+        "ERR_VOC_FALSI_CASA"
+      ],
+      "why_here": "Elegir entre dos cosas en una tienda: ropa, precios, preferencias.",
+      "ficha_es": "Palabras de la casa, la ropa y la comida que se parecen al español pero significan otra cosa: largo es «ancho» (lo largo es lungo), vaso es el florero o la maceta (el vaso de beber es bicchiere), morbido es «suave», minestra es «sopa», tasca es «bolsillo», calze son «medias», costume es la costumbre o el traje de baño, tenda es la tienda de campaña o la cortina.\n\nError típico: burro, aceto, caldo, largo, vaso, tovaglia, calze, negozio, tasca, morbido, salato, costume, gamba, topo (vaso = florero/maceta; tovaglia = mantel; calze = medias); también minestra, giaccone, sandali, cognato, parente (palabras A2 que A1 no trae)\n\nQué practicas aquí: Falsos amigos de nivel A2 (casa, comida, compras, ciudad y viaje); Área temática PLIDA A2: Comida y bebida; Área temática PLIDA A2: Compras y pagar; Área temática PLIDA A2: Ropa y accesorios.\n\nSituación del módulo: Elegir entre dos cosas en una tienda: ropa, precios, preferencias.",
+      "words": [
+        {
+          "form": "largo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "ancho (no es «largo»: eso es lungo)",
+          "audio": "5e11eb4ff1cf",
+          "sieve": "opaca",
+          "note": "Parece 'largo' pero significa ancho; largo = lungo",
+          "ff": true
+        },
+        {
+          "form": "vaso",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el florero o la maceta (no el vaso de beber)",
+          "audio": "9a6028b4f412",
+          "art": "il",
+          "sieve": "opaca",
+          "note": "Parece 'vaso' pero es el florero o la maceta; el vaso de beber es bicchiere",
+          "ff": true
+        },
+        {
+          "form": "morbido",
+          "gender": "m",
+          "num": "s",
+          "gloss": "suave (no es «mórbido»)",
+          "audio": "dea2dc27a630",
+          "sieve": "opaca",
+          "note": "Parece 'mórbido' pero significa suave",
+          "ff": true
+        },
+        {
+          "form": "costume",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la costumbre o el traje de baño",
+          "audio": "d55c6418c759",
+          "art": "il",
+          "gdiv": true,
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "costumbre→costume: pierde -bre",
+          "ff": true
+        },
+        {
+          "form": "lenzuolo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la sábana",
+          "audio": "b3b79c6a928a",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "tasca",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el bolsillo (no es «tasca»)",
+          "audio": "65c35ffa6784",
+          "art": "la",
+          "sieve": "opaca",
+          "note": "Parece 'tasca' (taberna) pero significa bolsillo",
+          "ff": true
+        },
+        {
+          "form": "minestra",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la sopa (no es «menestra»)",
+          "audio": "56aa1e74d60c",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "menestra→minestra: e→i",
+          "ff": true
+        },
+        {
+          "form": "calze",
+          "gender": "f",
+          "num": "p",
+          "gloss": "las medias (no son «calzas»)",
+          "audio": "a7c02277440b",
+          "art": "le",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "calzas→calze: -as→-e",
+          "ff": true
+        },
+        {
+          "form": "tasche",
+          "gender": "f",
+          "num": "p",
+          "gloss": "los bolsillos",
+          "audio": "57c0ce584a57",
+          "art": "le",
+          "sieve": "opaca",
+          "note": "Plural de tasca: bolsillos",
+          "ff": true
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Palabras de la casa, la ropa y la comida que se parecen al español pero significan otra cosa: largo es «ancho» (lo largo es lungo), vaso es el florero o la maceta (el vaso de beber es bicchiere), morbido es «suave», minestra es «sopa», tasca es «bolsillo», calze son «medias», costume es la costumbre o el traje de baño, tenda es la tienda de campaña o la cortina.",
+      "parts": {
+        "descubre": [
+          "s_13297731",
+          "s_2002702",
+          "s_2565086",
+          "s_967824"
+        ],
+        "practica": [
+          "s_13297731",
+          "s_2002702",
+          "s_2565086",
+          "s_967824",
+          "s_4128796",
+          "s_2565087",
+          "s_5665851",
+          "s_664362",
+          "s_11401038",
+          "s_4260552",
+          "s_664364",
+          "s_8977597",
+          "s_12486237",
+          "s_12766195",
+          "s_12922753",
+          "s_3966902",
+          "s_3376984",
+          "s_4811239",
+          "s_6724447",
+          "s_11134144",
+          "s_11427011",
+          "s_3874973",
+          "s_4811240",
+          "s_706202",
+          "s_4472355",
+          "s_6561540",
+          "s_814024",
+          "s_1513665",
+          "s_3122638",
+          "s_2010336",
+          "s_896788",
+          "s_2069202",
+          "s_2069201",
+          "s_2069203",
+          "s_11981616",
+          "s_9696510",
+          "s_706228",
+          "s_6724446",
+          "s_380225",
+          "s_4166831",
+          "s_7138855",
+          "s_992720"
+        ],
+        "escucha": [
+          "s_13297731",
+          "s_2565087",
+          "s_664364",
+          "s_3966902",
+          "s_11427011",
+          "s_6561540",
+          "s_896788",
+          "s_9696510"
+        ],
+        "prueba": [
+          "s_3811027",
+          "s_6724445",
+          "s_1872584",
+          "s_1701546",
+          "s_5684341",
+          "s_4247548",
+          "s_5352922",
+          "s_950274"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_13297731",
+          "start": 7,
+          "end": 15,
+          "wrong": "pesca"
+        },
+        {
+          "id": "s_2002702",
+          "start": 10,
+          "end": 15,
+          "wrong": "lenzuolo"
+        },
+        {
+          "id": "s_2565086",
+          "start": 10,
+          "end": 16,
+          "wrong": "pesche"
+        },
+        {
+          "id": "s_967824",
+          "start": 11,
+          "end": 16,
+          "wrong": "rubinetto"
+        }
+      ]
+    },
+    {
       "id": "u12",
       "level": "B1",
       "title": "Congiuntivo tras creer y pensar",
@@ -17633,11 +18315,6 @@
       "level": "A1",
       "title": "Alfabeto y vocales",
       "reason": "Las vocales italianas coinciden con las españolas; lo que difiere (c/g, sc, gli, gn y z, consonantes dobles) tiene su unidad o espera audio nativo verificado."
-    },
-    {
-      "level": "A2",
-      "title": "Más alto di me: comparativos",
-      "reason": "Solo 17 oraciones validadas utilizables (se necesitan 18)."
     },
     {
       "level": "A1",

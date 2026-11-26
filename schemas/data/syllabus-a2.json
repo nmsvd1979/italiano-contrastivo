@@ -861,7 +861,7 @@
   },
   {
    "id": "a2m05",
-   "estado": "planificado",
+   "estado": "cerrado",
    "title_es": "Comparar y comprar",
    "situacion_es": "Elegir entre dos cosas en una tienda: ropa, precios, preferencias.",
    "can_do_es": [
@@ -943,9 +943,9 @@
     "u11"
    ],
    "entrada": {
-    "id": "rd_confronto",
-    "fuente": "Tutt* a tavola! vol. 2, cap. 9 §9.4 (tienda, 5 turnos) y Leggiamo 4.4 (compra de ropa)",
-    "nota": "adaptación breve"
+    "id": "rd_negozio",
+    "fuente": "Diálogo propio «In un negozio di abbigliamento» (ya en el repositorio: entrada de A1 m09, apoyado en Tutt* a tavola! 2 y OpenLearn); se reutiliza, no se mueve",
+    "nota": "reutilizada"
    },
    "libro_entrada_es": "T/capitolo-9/ §9.4 y L/4-4-epilogo/",
    "libros_preguntas_es": "P/i-comparativi/, P/i-superlativi/, P/i-comparativi-e-superlativi-irregolari/, G/g-10-1-i-comparativi/, P/aggettivi-indefiniti/",
