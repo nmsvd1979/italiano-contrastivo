@@ -26,6 +26,8 @@ export type Unit = {
   reading_is_entry?: boolean;
   words?: { form: string; gender: string; num: string; gloss: string; audio?: string; art?: string; gdiv?: boolean; ff?: boolean; sieve?: "transparente" | "regular" | "opaca"; rule?: string; note?: string }[];
   ficha_es?: string;
+  /** false = solo se reconoce (no se escribe ni se exige en la prueba, el Cierre y el hito de escritura). Por defecto, se produce. */
+  productive?: boolean;
 };
 export type ReadingSentence = { id: string; it: string; es: string; audio?: string; speaker?: string };
 export type ReadingQuestion = { prompt_es: string; options: string[]; answer: number; evidence?: number };
@@ -84,7 +86,8 @@ export type CourseModule = {
   library: string; library_task_es: string;                        // 10 minutos sugeridos de la Biblioteca
   gap_es?: string;                     // lo que le falta al módulo, declarado
 };
-export type Course = { version: number; levels: { id: string; title: string; guided_hours: string }[]; modules?: CourseModule[]; units: Unit[]; planned: PlannedUnit[] };
+export type CourseLevel = { id: string; title: string; guided_hours: string; /** El nivel tiene examen de hito que bloquea el paso al siguiente (A2 lo activa al cerrarse). */ milestone?: boolean };
+export type Course = { version: number; levels: CourseLevel[]; modules?: CourseModule[]; units: Unit[]; planned: PlannedUnit[] };
 export type ContentPack = {
   course: Course;
   readings?: Reading[];

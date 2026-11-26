@@ -71,10 +71,10 @@ describe("módulos: salida y prueba de cierre", () => {
     const withSpeech = M1;
     expect(salidaMissing(withSpeech, modDone(withSpeech.id))).toEqual(["habla", "escritura"]);
     expect(salidaMissing(withSpeech, modDone(withSpeech.id, { [salidaKey("habla")]: at }))).toEqual(["escritura"]);
-    const noRoleplay = { ...M1, roleplays: [], tasks: [], gap_es: "sin diálogo abierto" };   // en A1 queda la ronda de preguntas por voz
+    const noRoleplay = { ...M1, roleplays: [], tasks: [], gap_es: "sin diálogo abierto" };   // queda la ronda de preguntas por voz, en todo nivel
     expect(salidaMissing(noRoleplay, modDone(noRoleplay.id))).toEqual(["habla", "escritura"]);
-    const noSpeech = { ...noRoleplay, level: "A2" };                                            // fuera de A1 (por ahora), sin práctica hablada
-    expect(salidaMissing(noSpeech, modDone(noSpeech.id))).toEqual(["escritura"]);
+    const a2 = { ...noRoleplay, level: "A2" };                                                   // un módulo A2 también pide la ronda por voz
+    expect(salidaMissing(a2, modDone(a2.id))).toEqual(["habla", "escritura"]);
   });
   it("hoy todos los módulos de A1 tienen práctica hablada propia (juego de roles o tarea oral)", () => {
     for (const m of pack.course.modules!) expect(m.roleplays.length + m.tasks.length, m.id).toBeGreaterThan(0);

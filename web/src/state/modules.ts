@@ -1,6 +1,7 @@
 import { INTERVIEW_ID } from "./interview";
 import type { Course, CourseModule } from "../content/load";
 import { emptyProgress, isOptional, unitViews, type UnitView } from "./course";
+import { hitoId } from "./milestone";
 import { isPreview } from "./preview";
 import type { Item } from "../generated/item";
 import type { ContentPack } from "../content/load";
@@ -25,12 +26,17 @@ export const MODULE_STEP_PURPOSE: Record<ModuleNext, string> = {
   cierre: "Marca lo que ya sabes hacer y haz la prueba mezclada del módulo (80 % o más para completarlo).",
 };
 export const MODULE_PASS_RATIO = 0.8;
+/** Forma de un id de módulo en las direcciones de la app: `m01` (A1), `a2m01` (A2)… */
+export const MODULE_ID = String.raw`(?:[ab][12]m\d+|m\d+)`;
 export const moduleProgressId = (m: CourseModule | string) => `mod:${typeof m === "string" ? m : m.id}`;
 
 export type ModuleState = "completed" | "current" | "locked";
 export type ModuleView = {
   module: CourseModule;
+  /** Posición global en la ruta (0-based): mueve el tono, el dibujo y el sello; es estable mientras no se inserte un módulo antes. */
   index: number;
+  /** Posición dentro de su nivel (1-based): «Módulo 1 de 10» de A2. */
+  number: number;
   state: ModuleState;
   units: UnitView[];
   progress: UnitProgress;
@@ -58,28 +64,38 @@ export function moduleViews(course: Course, all: UnitProgress[], unlockAll: bool
   const out: ModuleView[] = [];
   const replaced = new Map<string, UnitView>();
   let previousDone = true;
+  let previousLevel: string | undefined;
+  const perLevel = new Map<string, number>();
+  const hitoPassed = (level: string) => !!byId.get(hitoId(level))?.completed;
+  const levelHasMilestone = (level: string) => course.levels.find((l) => l.id === level)?.milestone === true;
   modules.forEach((module, index) => {
+    // El primer módulo de un nivel solo se abre con el hito del nivel anterior aprobado (si ese nivel lo declara).
+    const crossing = previousLevel !== undefined && previousLevel !== module.level;
+    const levelGate = unlockAll || !crossing || !levelHasMilestone(previousLevel!) || hitoPassed(previousLevel!);
+    const number = (perLevel.get(module.level) ?? 0) + 1;
+    perLevel.set(module.level, number);
     const units = module.units.map((id) => byUnit.get(id)).filter((v): v is UnitView => !!v);
     const progress = byId.get(moduleProgressId(module)) ?? emptyProgress(moduleProgressId(module));
     const byPlacement = units.length > 0 && units.every((v) => v.progress.mastery === "ubicacion");
     const capsulasDone = units.every((v) => v.progress.completed);
     const started = units.some((v) => hasProgress(v.progress));
     const entradaGates = !started && !progress.done.entrada;       // sin progreso previo, la Entrada abre las cápsulas
-    const completed = byPlacement || progress.completed;
-    const unlocked = unlockAll || previousDone;
+    const completed = (byPlacement || progress.completed) && levelGate;   // un módulo de un nivel aún cerrado no cuenta como hecho aunque sus unidades se hayan saltado
+    const unlocked = unlockAll || (previousDone && levelGate);
     const done = (id: ModuleNext) => (id === "capsulas" ? capsulasDone : !!progress.done[id as ModuleStepId]) || completed;
     const order: ModuleNext[] = ["entrada", "capsulas", ...((module.extra_readings ?? []).length > 0 ? ["textos" as const] : []), "salida", "fluidez", "cierre"];   // «Textos reales» solo en los módulos que traen textos
     const required = (id: ModuleNext) => id !== "entrada" || entradaGates || !!progress.done.entrada;   // si ya empezaste unidades, la Entrada es recomendada pero no bloquea
     const steps = order.map((id, i) => ({ id, done: done(id), open: unlockAll || (unlocked && (completed || order.slice(0, i).filter(required).every(done))) }));
     const state: ModuleState = completed ? "completed" : unlocked ? "current" : "locked";
     const next: ModuleNext | null = completed || !unlocked ? null : (steps.find((st) => !st.done && required(st.id))?.id ?? null);
-    out.push({ module, index, state, units, progress, next, steps, byPlacement, preview: unlockAll });
+    out.push({ module, index, number, state, units, progress, next, steps, byPlacement, preview: unlockAll });
     // Gating de unidades: bloqueadas si el módulo está bloqueado o si falta la Entrada que las abre.
     for (const v of units) {
       if (v.progress.completed) continue;
       if ((!unlocked && !unlockAll) || (entradaGates && !unlockAll)) replaced.set(v.unit.id, { ...v, state: "locked", next: null });
     }
     previousDone = completed;
+    previousLevel = module.level;
   });
   // Con módulos definidos, una unidad que no está en ninguno (A2, B1…) no se ofrece: la ruta es el único camino. Las opcionales («A1+») siguen libres.
   const inModule = new Set(modules.flatMap((m) => m.units));
@@ -120,8 +136,8 @@ export type SalidaPart = "habla" | "escritura";
 export const salidaKey = (part: SalidaPart | string) => `salida:${part}`;
 /** Cada juego de rol o tarea oral del módulo tiene su marca; la parte «habla» se da por hecha (`salida:habla`) cuando están todas. */
 export const hablaKey = (itemId: string) => `salida:habla:${itemId}`;
-/** Juegos de rol, tareas orales y, en A1, la ronda de preguntas por voz (auditoría 2026-11-25: interacción sin guion). */
-export const hablaItems = (m: CourseModule): string[] => [...m.roleplays, ...m.tasks, ...(m.level === "A1" ? [INTERVIEW_ID] : [])];
+/** Juegos de rol, tareas orales y la ronda de preguntas por voz (auditoría 2026-11-25: interacción sin guion). */
+export const hablaItems = (m: CourseModule): string[] => [...m.roleplays, ...m.tasks, INTERVIEW_ID];
 /** Juegos de rol y tareas orales que faltan (con la marca general `salida:habla` de antes, ninguno). */
 export const hablaMissing = (m: CourseModule, p: UnitProgress): string[] => (p.done[salidaKey("habla")] ? [] : hablaItems(m).filter((id) => !p.done[hablaKey(id)]));
 export function salidaMissing(m: CourseModule, p: UnitProgress): SalidaPart[] {

@@ -1,4 +1,4 @@
-import type { ContentPack, Lexeme } from "../content/load";
+import type { ContentPack, Course, Lexeme } from "../content/load";
 import type { Capsule } from "../generated/capsule";
 import type { Card } from "../generated/card";
 import type { Item } from "../generated/item";
@@ -74,6 +74,23 @@ const unseenLexemes = (pack: ContentPack, cards: Card[]) => {
   return pack.lexemes.filter((l) => !have.has(`lexeme:${l.id}`));
 };
 
+/**
+ * El examen de hito que toca: el primer nivel que lo declara, con todos sus módulos completos y el examen sin aprobar. Si no hay ninguno
+ * pendiente, el del último nivel con módulos cuando ya está aprobado (para decir «nivel completo»); si ese nivel no lo declara o hay otro
+ * nivel después, nada.
+ */
+export function pendingMilestone(course: Course, modules: ModuleView[], units: UnitProgress[]): TodayPlan["milestone"] {
+  if (!modules.length) return null;
+  const passed = (level: string) => !!units.find((u) => u.unitId === hitoId(level))?.completed;
+  const levels = course.levels.map((l) => l.id).filter((id) => modules.some((m) => m.module.level === id));
+  const flagged = (id: string) => course.levels.find((l) => l.id === id)?.milestone === true;
+  const complete = (id: string) => modules.filter((m) => m.module.level === id).every((m) => m.state === "completed");
+  const pending = levels.find((id) => flagged(id) && complete(id) && !passed(id));
+  if (pending) return { level: pending, passed: false };
+  const last = levels[levels.length - 1];
+  return last && flagged(last) && complete(last) && passed(last) ? { level: last, passed: true } : null;
+}
+
 export function planToday(input: { pack: ContentPack; cards: Card[]; day: DayProgress; now: Date; units?: UnitProgress[]; samples?: Samples }): TodayPlan {
   const { pack, cards, now, units = [], samples = {} } = input;
   const day = normalizeDay(input.day, now);
@@ -95,8 +112,8 @@ export function planToday(input: { pack: ContentPack; cards: Card[]; day: DayPro
     module: cm && modStep ? { view: cm, step: modStep, seconds: MODULE_STEP_SECONDS[modStep] } : null,
     route: { done: summary(views).done, total: views.length },
     stepsToday: (day.stepsDone ?? []).length,
-    milestone: mv.modules.length > 0 && mv.modules.filter((m) => m.module.level === "A1").every((m) => m.state === "completed") ? { level: "A1", passed: !!units.find((u) => u.unitId === hitoId("A1"))?.completed } : null,
-    place: cm ? { level: cm.module.level, module: cm.index + 1, modules: mv.modules.filter((m) => m.module.level === cm.module.level).length, view: cm, title: cm.module.title, capsule: cur && cm.units.some((v) => v.unit.id === cur.unit.id) ? cm.units.findIndex((v) => v.unit.id === cur.unit.id) + 1 : null, capsules: cm.units.length } : undefined,
+    milestone: pendingMilestone(pack.course, mv.modules, units),
+    place: cm ? { level: cm.module.level, module: cm.number, modules: mv.modules.filter((m) => m.module.level === cm.module.level).length, view: cm, title: cm.module.title, capsule: cur && cm.units.some((v) => v.unit.id === cur.unit.id) ? cm.units.findIndex((v) => v.unit.id === cur.unit.id) + 1 : null, capsules: cm.units.length } : undefined,
   };
 }
 

@@ -4,7 +4,8 @@
     {
       "id": "A1",
       "title": "A1 · Primeros pasos sin calcos",
-      "guided_hours": "40–50 h guiadas acumuladas"
+      "guided_hours": "40–50 h guiadas acumuladas",
+      "milestone": true
     },
     {
       "id": "A1+",
@@ -14,7 +15,8 @@
     {
       "id": "A2",
       "title": "A2 · Pasado, preposiciones y comparaciones",
-      "guided_hours": "90–100 h acumuladas"
+      "guided_hours": "90–100 h acumuladas",
+      "milestone": false
     },
     {
       "id": "B1",
