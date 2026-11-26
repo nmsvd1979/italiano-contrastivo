@@ -71,6 +71,7 @@ export function practiceItems(unit: Unit, pack: ContentPack, samples: Samples = 
 
 /** Prueba de la unidad: escribir en italiano cada oración reservada (no están en la práctica), desde el español. Sin opciones: no se puede acertar adivinando. */
 export function testItems(unit: Unit, pack: ContentPack): Item[] {
+  if (unit.productive === false) return recognitionItems(unit, pack);   // lo que solo se reconoce (cápsulas [A]) se prueba eligiendo, no escribiendo
   const idx = sentenceIndex(pack);
   return unit.parts.prueba.map((id) => idx.get(id)).filter((x): x is PackSentence => !!x).map((x) => writeItemOf(x, unit.codes[0]));
 }

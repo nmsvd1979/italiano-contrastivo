@@ -6,7 +6,7 @@ import { isPreview } from "./preview";
 import type { Item } from "../generated/item";
 import type { ContentPack } from "../content/load";
 import type { UnitProgress } from "./store";
-import { reserveItems, rotate, testItems } from "./steps";
+import { reserveChoiceItems, reserveItems, rotate, testItems } from "./steps";
 
 /**
  * Módulos temáticos: una situación comunicativa (qué sabrás hacer) hecha de pasos propios y de cápsulas (las unidades).
@@ -158,7 +158,7 @@ export const MODULE_TEST_PER_UNIT = 2;
 export function moduleTestItems(view: ModuleView, pack: ContentPack, attempt = 0): Item[] {
   const perUnit = view.units.length < 3 ? MODULE_TEST_PER_UNIT + 1 : MODULE_TEST_PER_UNIT;   // con solo dos cápsulas, tres frases de cada una para no quedar en una prueba corta
   const pools = view.units.map((v) => {
-    const seen = rotate(testItems(v.unit, pack), attempt), fresh = rotate(reserveItems(v.unit, pack), attempt);
+    const seen = rotate(testItems(v.unit, pack), attempt), fresh = rotate(v.unit.productive === false ? reserveChoiceItems(v.unit, pack) : reserveItems(v.unit, pack), attempt);
     return [...fresh, ...seen].slice(0, perUnit);
   });
   const out: Item[] = [];

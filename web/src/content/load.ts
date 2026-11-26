@@ -107,6 +107,7 @@ export type ContentPack = {
   manifest: Manifest;
 };
 
+const LEVEL_RANK: Record<string, number> = { A1: 0, A2: 1, B1: 2, B2: 3 };
 export const RESERVE_SIZE = 3;
 export const RESERVE_MAX_WORDS = 9;
 
@@ -120,9 +121,10 @@ export function reserveParts(course: Course, sentences: PackSentence[]): void {
     if (u.parts.reserva) continue;
     const skip = new Set([...u.parts.descubre, ...u.parts.escucha]);
     const short = u.parts.practica.filter((id) => !skip.has(id) && (byId.get(id)?.it.split(/\s+/).length ?? 99) <= RESERVE_MAX_WORDS);
-    // En A1 la reserva mide lo enseñado: frases A1; si no alcanzan (u58: el estimador marca A2 el propio passato prossimo), también A2; nunca B1+.
-    const a1 = u.level.startsWith("A1"), lv = (id: string) => byId.get(id)?.cefr_estimate;
-    const candidates = !a1 ? short : short.filter((id) => lv(id) === "A1").length >= RESERVE_SIZE ? short.filter((id) => lv(id) === "A1") : short.filter((id) => lv(id) === "A1" || lv(id) === "A2");
+    // La reserva mide lo enseñado: frases del nivel de la unidad o de uno menor; si no alcanzan (en A1, u58: el estimador marca A2 el propio passato prossimo), de un nivel más; nunca de dos más.
+    const rank = LEVEL_RANK[u.level.replace("+", "")] ?? 0, lv = (id: string) => LEVEL_RANK[byId.get(id)?.cefr_estimate ?? ""] ?? 99;
+    const own = short.filter((id) => lv(id) <= rank);
+    const candidates = own.length >= RESERVE_SIZE ? own : short.filter((id) => lv(id) <= rank + 1);
     if (u.parts.practica.length < 20 || candidates.length < RESERVE_SIZE) { u.parts.reserva = []; continue; }
     const picked = new Set(Array.from({ length: RESERVE_SIZE }, (_, i) => candidates[Math.floor(((i + 0.5) * candidates.length) / RESERVE_SIZE)]));
     u.parts.reserva = [...picked];
