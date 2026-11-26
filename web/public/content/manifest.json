@@ -72,12 +72,16 @@
     "cap_err_accent_transfer",
     "cap_err_aux_essere",
     "cap_err_avverbi_passato",
+    "cap_err_ce_imperfetto",
     "cap_err_comparative_di",
+    "cap_err_imperfetto_forma",
     "cap_err_pp_ausiliare",
     "cap_err_pp_participi_irreg",
     "cap_err_reflexive_aux",
+    "cap_err_tempo_fa_da",
     "cap_err_participle_agreement",
     "cap_err_personal_a",
+    "cap_err_voc_carattere",
     "cap_err_congiuntivo_opinion"
   ],
   "codes": {
@@ -107,9 +111,9 @@
       "usable": 31
     },
     "ERR_CE_IMPERFETTO": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 48
     },
     "ERR_CHIAMARSI": {
       "capsule": true,
@@ -207,9 +211,9 @@
       "usable": 0
     },
     "ERR_IMPERFETTO_FORMA": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 44
     },
     "ERR_INDEFINITE_ARTICLE": {
       "capsule": true,
@@ -367,9 +371,9 @@
       "usable": 0
     },
     "ERR_TEMPO_FA_DA": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 47
     },
     "ERR_TENERE_AVERE": {
       "capsule": true,
@@ -412,9 +416,9 @@
       "usable": 50
     },
     "ERR_VOC_CARATTERE": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 30
     },
     "ERR_VOC_CASA": {
       "capsule": true,
@@ -608,18 +612,18 @@
     "B1": "items_B1.json"
   },
   "levels": {
-    "A1": 3093,
-    "A2": 789,
-    "B1": 151,
+    "A1": 3124,
+    "A2": 922,
+    "B1": 156,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 4014,
+    "llm-audit": 4183,
     "me": 26
   },
-  "sentences_used": 3361,
+  "sentences_used": 3530,
   "translation_kind": {
-    "direct": 2005,
-    "llm": 1356
+    "direct": 2065,
+    "llm": 1465
   }
 }

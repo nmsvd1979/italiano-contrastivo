@@ -365,6 +365,30 @@
         "u78"
       ],
       "goal_es": "Responde como Matteo y cuenta tu fin de semana, incluido lo que te gustó o no."
+    },
+    {
+      "id": "rp_a2m02_a",
+      "title": "Recordar la infancia",
+      "function_es": "Describir cómo eras de niño/a",
+      "reading": "rd_a2m02_a",
+      "from": 0,
+      "to": 9,
+      "after": [
+        "u82"
+      ],
+      "goal_es": "Responde como Luca: cuenta cómo eras, dónde vivías y qué hacías de niño."
+    },
+    {
+      "id": "rp_a2m02_b",
+      "title": "Reencuentro con un amigo",
+      "function_es": "Hablar de una relación pasada y describir el carácter de alguien",
+      "reading": "rd_a2m02_b",
+      "from": 0,
+      "to": 9,
+      "after": [
+        "u82"
+      ],
+      "goal_es": "Responde como Anna: recuerda a Davide, di hace cuánto tiempo pasó y acepta la invitación."
     }
   ],
   "tasks": [
@@ -756,6 +780,57 @@
         "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
         "No leí: hablé de corrido, aunque con pausas.",
         "Cuidé lo que enseña este módulo: Participios que el español no anticipa; ¿Avere o essere?; Reflexivos en pasado.",
+        "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_a2m02",
+      "title": "Cuenta cómo era tu infancia",
+      "function_es": "Describir cómo eran las cosas antes con imperfetto",
+      "level": "A2",
+      "minutes": 2,
+      "after": [
+        "u82"
+      ],
+      "source": {
+        "book": "Texto escrito por la IA (Claude) para esta app",
+        "authors": "Claude (IA), a pedido del usuario",
+        "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+        "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+      },
+      "intro_es": "Habla en italiano durante 2 minutos de cómo era tu vida cuando eras niño/a. Usa imperfetto y, si puedes, c'era / c'erano.",
+      "questions": [
+        {
+          "it": "Com'eri da piccolo?",
+          "es": "¿Cómo eras de niño?",
+          "audio": "cdd428c34046"
+        },
+        {
+          "it": "Dove abitavi e com'era la tua casa?",
+          "es": "¿Dónde vivías y cómo era tu casa?",
+          "audio": "2b559e4a4e6a"
+        },
+        {
+          "it": "Che cosa facevi con i tuoi amici?",
+          "es": "¿Qué hacías con tus amigos?",
+          "audio": "b25ecf91b3ff"
+        },
+        {
+          "it": "Com'era il tuo quartiere?",
+          "es": "¿Cómo era tu barrio?",
+          "audio": "65375a6b9d90"
+        },
+        {
+          "it": "Che cosa è cambiato da allora?",
+          "es": "¿Qué cambió desde entonces?",
+          "audio": "1e5faac47000"
+        }
+      ],
+      "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que enseña este módulo: Imperfetto: formas y personas; C'era, c'erano, c'è stato; Hace…, desde…, en…: fa, da, per, fra, scorso.",
         "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
       ]
     }
@@ -1795,6 +1870,86 @@
         "es": "¿Has estado alguna vez en Italia?",
         "authored": true,
         "audio": "1bfe2ca7346d"
+      },
+      {
+        "id": "iq_ht_a2m02_1",
+        "module": "a2m02",
+        "it": "Com'eri da piccolo?",
+        "es": "¿Cómo eras de niño?",
+        "task": "ht_a2m02",
+        "audio": "cdd428c34046"
+      },
+      {
+        "id": "iq_ht_a2m02_2",
+        "module": "a2m02",
+        "it": "Dove abitavi e com'era la tua casa?",
+        "es": "¿Dónde vivías y cómo era tu casa?",
+        "task": "ht_a2m02",
+        "audio": "2b559e4a4e6a"
+      },
+      {
+        "id": "iq_ht_a2m02_3",
+        "module": "a2m02",
+        "it": "Che cosa facevi con i tuoi amici?",
+        "es": "¿Qué hacías con tus amigos?",
+        "task": "ht_a2m02",
+        "audio": "b25ecf91b3ff"
+      },
+      {
+        "id": "iq_ht_a2m02_4",
+        "module": "a2m02",
+        "it": "Com'era il tuo quartiere?",
+        "es": "¿Cómo era tu barrio?",
+        "task": "ht_a2m02",
+        "audio": "65375a6b9d90"
+      },
+      {
+        "id": "iq_ht_a2m02_5",
+        "module": "a2m02",
+        "it": "Che cosa è cambiato da allora?",
+        "es": "¿Qué cambió desde entonces?",
+        "task": "ht_a2m02",
+        "audio": "1e5faac47000"
+      },
+      {
+        "id": "iq_a2m02_2",
+        "module": "a2m02",
+        "it": "Dove abitavi da bambino?",
+        "es": "¿Dónde vivías de niño?",
+        "authored": true,
+        "audio": "cfbdff799b6a"
+      },
+      {
+        "id": "iq_a2m02_3",
+        "module": "a2m02",
+        "it": "Che cosa facevi ogni sera da piccolo?",
+        "es": "¿Qué hacías cada noche de niño?",
+        "authored": true,
+        "audio": "a7aa4f133787"
+      },
+      {
+        "id": "iq_a2m02_4",
+        "module": "a2m02",
+        "it": "Da quanto tempo studi italiano?",
+        "es": "¿Hace cuánto tiempo estudias italiano?",
+        "authored": true,
+        "audio": "01eacfe12f34"
+      },
+      {
+        "id": "iq_a2m02_5",
+        "module": "a2m02",
+        "it": "Che cosa hai fatto l'estate scorsa?",
+        "es": "¿Qué hiciste el verano pasado?",
+        "authored": true,
+        "audio": "22928e1b8e22"
+      },
+      {
+        "id": "iq_a2m02_6",
+        "module": "a2m02",
+        "it": "Com'è il tuo migliore amico?",
+        "es": "¿Cómo es tu mejor amigo?",
+        "authored": true,
+        "audio": "63f31997680b"
       }
     ]
   }

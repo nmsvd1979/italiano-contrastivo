@@ -2571,6 +2571,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'erano molte persone alla festa?",
+    "wrong": "C'erano molte persone a la festa?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Esiste qualcosa di più stupido e odioso della burocrazia universitaria?",
     "wrong": "Esiste qualcosa di più stupido e odioso di la burocrazia universitaria?"
   },
@@ -2578,6 +2583,16 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "È andato là?",
     "wrong": "Ha andato là?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Quando era qui, nuotava al mattino.",
+    "wrong": "Quando era qui, nuotava a il mattino."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Ho visto Tom mentre nuotava.",
+    "wrong": "Ho visto a Tom mentre nuotava."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -2663,6 +2678,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Siete venute in città?",
     "wrong": "Avete venute in città?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'era un castello sulla collina.",
+    "wrong": "C'era un castello su la collina."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -2826,6 +2846,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'erano molte mele marce nella cesta.",
+    "wrong": "C'erano molte mele marce in la cesta."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Metti l'asciugamano sul porta asciugamani per farlo asciugare.",
     "wrong": "Metti l'asciugamano su il porta asciugamani per farlo asciugare."
   },
@@ -2895,6 +2920,21 @@
     "wrong": "Vorrei prenotare per domani sera a le sei."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "È andato a Londra un mese fa.",
+    "wrong": "Ha andato a Londra un mese fa."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "È andato a Londra un mese fa.",
+    "wrong": "È andato in Londra un mese fa."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Tom è partito tre giorni fa.",
+    "wrong": "Tom ha partito tre giorni fa."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Vorrei un tavolo vicino alla finestra.",
     "wrong": "Vorrei un tavolo vicino a la finestra."
@@ -2948,6 +2988,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Il nostro treno parte alle otto e mezza.",
     "wrong": "Il nostro treno parte a le otto e mezza."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'era un libro sul banco?",
+    "wrong": "C'era un libro su il banco?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'era un libro sulla scrivania?",
+    "wrong": "C'era un libro su la scrivania?"
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -3090,6 +3140,11 @@
     "wrong": "Ho letto suoi diari."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'erano molte persone nel parco.",
+    "wrong": "C'erano molte persone in il parco."
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Tom è in macchina che aspetta Mary.",
     "wrong": "Tom è in macchina che aspetta a Mary."
@@ -3098,6 +3153,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Non andare nella mia stanza.",
     "wrong": "Non andare in la mia stanza."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Tom è arrivato otto giorni fa.",
+    "wrong": "Tom ha arrivato otto giorni fa."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -3123,6 +3183,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Lei è nata in Ohio.",
     "wrong": "Lei ha nata in Ohio."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Tom è arrivato tre giorni fa.",
+    "wrong": "Tom ha arrivato tre giorni fa."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -3200,6 +3265,16 @@
     "wrong": "Vorrei viaggiare intorno a il mondo."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'erano molte persone nella stanza.",
+    "wrong": "C'erano molte persone in la stanza."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'erano molte persone nella camera.",
+    "wrong": "C'erano molte persone in la camera."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Ho incontrato i miei amici al bar.",
     "wrong": "Ho incontrato miei amici al bar."
@@ -3208,6 +3283,21 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Ho incontrato i miei amici al bar.",
     "wrong": "Ho incontrato i miei amici a il bar."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'erano alcune barche sul lago.",
+    "wrong": "C'erano alcune barche su il lago."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'era un ballo al nostro club.",
+    "wrong": "C'era un ballo a il nostro club."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Quando pensavate di ritornare negli Stati Uniti?",
+    "wrong": "Quando pensavate di ritornare in gli Stati Uniti?"
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -3221,6 +3311,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'era un libro sul tavolo?",
+    "wrong": "C'era un libro su il tavolo?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Prendi la medicina tre volte al giorno.",
     "wrong": "Prendi la medicina tre volte a il giorno."
   },
@@ -3228,6 +3323,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La popolazione dell'Uganda è in rapida crescita.",
     "wrong": "La popolazione di l'Uganda è in rapida crescita."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Lui è arrivato dall'Australia un anno fa.",
+    "wrong": "Lui ha arrivato dall'Australia un anno fa."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Lui è arrivato dall'Australia un anno fa.",
+    "wrong": "Lui è arrivato da l'Australia un anno fa."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3265,6 +3370,11 @@
     "wrong": "Hai ricevuto mia lettera?"
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "È partito un'ora fa.",
+    "wrong": "Ha partito un'ora fa."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Mi piacerebbe studiare a Parigi.",
     "wrong": "Mi piacerebbe studiare in Parigi."
@@ -3290,14 +3400,29 @@
     "wrong": "Non vedo Rick da quando è tornato da la Nuova Zelanda."
   },
   {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Questo cane è nato due mesi fa.",
+    "wrong": "Questo cane ha nato due mesi fa."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Oh, i miei pantaloni bianchi! Erano nuovi.",
     "wrong": "Oh, miei pantaloni bianchi! Erano nuovi."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sul tavolo c'era un gatto.",
+    "wrong": "Su il tavolo c'era un gatto."
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "Sopra il tavolo c'è un libro.",
     "wrong": "Sopra il tavolo ci sono un libro."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Io facevo degli esempi.",
+    "wrong": "Io facevo di gli esempi."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3380,6 +3505,11 @@
     "wrong": "Lui abbreviava suoi discorsi."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'erano molti bambini nella stanza.",
+    "wrong": "C'erano molti bambini in la stanza."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Lei è andata a Chicago in autobus.",
     "wrong": "Lei ha andata a Chicago in autobus."
@@ -3410,9 +3540,29 @@
     "wrong": "C'è un giardino davanti a la casa."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'erano dei piranha nel fiume.",
+    "wrong": "C'erano dei piranha in il fiume."
+  },
+  {
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Lui è più bravo di me a insegnare.",
     "wrong": "Lui è più bravo che me a insegnare."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "John suonava la chitarra e i suoi amici cantavano.",
+    "wrong": "John suonava la chitarra e suoi amici cantavano."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "È andato a Parigi due anni fa.",
+    "wrong": "Ha andato a Parigi due anni fa."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "È andato a Parigi due anni fa.",
+    "wrong": "È andato in Parigi due anni fa."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -3470,6 +3620,11 @@
     "wrong": "Io sono abituato a il dolore adesso."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'erano molte auto nella strada.",
+    "wrong": "C'erano molte auto in la strada."
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è una scuola vicino a casa mia.",
     "wrong": "Ci sono una scuola vicino a casa mia."
@@ -3523,6 +3678,16 @@
     "code": "ERR_PREP_PLACE",
     "correct": "Domani finalmente mia moglie viene in Italia!",
     "wrong": "Domani finalmente mia moglie viene a Italia!"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "È partito dieci minuti fa.",
+    "wrong": "Ha partito dieci minuti fa."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Se n'è andato dieci minuti fa.",
+    "wrong": "Se n'ha andato dieci minuti fa."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -3776,8 +3941,18 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La gente ballava nelle strade.",
+    "wrong": "La gente ballava in le strade."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Sono stato all'estero.",
     "wrong": "Sono stato a l'estero."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "È venuto qui dieci minuti fa.",
+    "wrong": "Ha venuto qui dieci minuti fa."
   },
   {
     "code": "ERR_AUX_ESSERE",

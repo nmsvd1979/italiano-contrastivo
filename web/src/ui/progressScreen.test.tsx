@@ -93,7 +93,7 @@ describe("Progreso: colección de sellos", () => {
     const units = [...mods[0].units.map((id) => ({ ...emptyProgress(id), completed: true, testBest: 1, mastery: "prueba" as const })), cierre];
     show(units);
     const grid = screen.getByRole("list", { name: "Sellos de los módulos" });
-    expect(grid.querySelectorAll("li")).toHaveLength(mods.length);
+    expect(grid.querySelectorAll("li")).toHaveLength(mods.length);   // todos los módulos, también los de A2 (su sello dice «de A2»)
     expect(grid.querySelectorAll('[data-earned="true"]')).toHaveLength(1);
     expect(screen.getByRole("img", { name: "Sello del módulo 1, ganado" })).toBeTruthy();
     expect(screen.getByRole("img", { name: "Sello del módulo 2, pendiente" })).toBeTruthy();

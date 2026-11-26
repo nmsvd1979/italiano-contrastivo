@@ -19205,6 +19205,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Yo soy curioso.",
+    "es_author": "IA (Claude)",
+    "id": "s_1987871",
+    "it": "Io sono curioso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1987871",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_INTERROG"
     ],
     "es": "¿Qué no te gusta?",
@@ -21119,6 +21143,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Tom es tímido.",
+    "es_author": "IA (Claude)",
+    "id": "s_2190779",
+    "it": "Tom è timido.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2190779",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_ACCORDO"
     ],
     "es": "Tom está de acuerdo.",
@@ -21530,6 +21577,54 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "No soy tímido.",
+    "es_author": "IA (Claude)",
+    "id": "s_2221443",
+    "it": "Non sono timido.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2221443",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "No soy tímida.",
+    "es_author": "IA (Claude)",
+    "id": "s_2221445",
+    "it": "Non sono timida.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2221445",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_BAR"
     ],
     "es": "¿Están bebiendo té verde?",
@@ -21589,6 +21684,29 @@
     "source": "tatoeba",
     "source_id": "2242234",
     "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Es un poco tímido.",
+    "es_author": "IA (Claude)",
+    "id": "s_2250740",
+    "it": "È un po' timido.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2250740",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
     "translation_kind": "llm"
   },
   {
@@ -24005,6 +24123,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Yo no estaba en casa.",
+    "es_author": "Shishir",
+    "es_source_id": "10574305",
+    "id": "s_2554119",
+    "it": "Io non ero a casa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2554119",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
@@ -24396,6 +24536,30 @@
       "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Tom es tranquilo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2565200",
+    "it": "Tom è tranquillo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2565200",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -26034,6 +26198,53 @@
       "ERR_CHIAMARSI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Yo soy tímido.",
+    "es_author": "IA (Claude)",
+    "id": "s_2708352",
+    "it": "Io sono timido.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2708352",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Soy muy tímido.",
+    "es_author": "marcelostockle",
+    "es_source_id": "3113421",
+    "id": "s_2708368",
+    "it": "Sono molto timido.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2708368",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -27873,6 +28084,54 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Yo no estaba ocupado.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "2924617",
+    "id": "s_2859867",
+    "it": "Io non ero occupato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2859867",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Yo no estaba ocupada.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "2924619",
+    "id": "s_2859870",
+    "it": "Io non ero occupata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2859870",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
@@ -28693,6 +28952,75 @@
       "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Tú eres tímido.",
+    "es_author": "IA (Claude)",
+    "id": "s_2934975",
+    "it": "Tu sei timido.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2934975",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Tú eres tímida.",
+    "es_author": "IA (Claude)",
+    "id": "s_2934977",
+    "it": "Tu sei timida.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2934977",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Es muy tímida.",
+    "es_author": "IA (Claude)",
+    "id": "s_2935000",
+    "it": "È molto timida.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2935000",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -29899,6 +30227,52 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "¡Soy tan celoso!",
+    "es_author": "IA (Claude)",
+    "id": "s_3089743",
+    "it": "Sono così geloso!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3089743",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "¡Soy tan celosa!",
+    "es_author": "IA (Claude)",
+    "id": "s_3089745",
+    "it": "Sono così gelosa!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3089745",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_ACCORDO"
     ],
     "es": "¿Ella está de acuerdo?",
@@ -30010,6 +30384,29 @@
       "ERR_PRONOME_TONICO": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Es un poco celoso.",
+    "es_author": "IA (Claude)",
+    "id": "s_3102494",
+    "it": "È un po' geloso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3102494",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -30868,6 +31265,52 @@
     "source_id": "3251789",
     "tag_rules": {
       "ERR_PRESENT_ESSERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Yo soy celoso.",
+    "es_author": "IA (Claude)",
+    "id": "s_3252401",
+    "it": "Io sono geloso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3252401",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Yo soy celosa.",
+    "es_author": "IA (Claude)",
+    "id": "s_3252404",
+    "it": "Io sono gelosa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3252404",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -34184,6 +34627,54 @@
       "ERR_VOC_ASTRATTI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "mraz",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "No soy celoso.",
+    "es_author": "IA (Claude)",
+    "id": "s_3519186",
+    "it": "Non sono geloso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3519186",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "mraz",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "No soy celosa.",
+    "es_author": "IA (Claude)",
+    "id": "s_3519191",
+    "it": "Non sono gelosa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3519191",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -41976,6 +42467,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Soy un chico tímido.",
+    "es_author": "hayastan",
+    "es_source_id": "382286",
+    "id": "s_382284",
+    "it": "Sono un ragazzo timido.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "382284",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "ver",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -41994,6 +42509,30 @@
     "source_id": "382388",
     "tag_rules": {
       "ERR_VOC_NAZIONALITA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "ver",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Soy muy curioso.",
+    "es_author": "hayastan",
+    "es_source_id": "952815",
+    "id": "s_382402",
+    "it": "Sono molto curioso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "382402",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -42285,6 +42824,29 @@
       "ERR_VOC_TEMPO": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "¿Tom es celoso?",
+    "es_author": "IA (Claude)",
+    "id": "s_3838159",
+    "it": "Tom è geloso?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3838159",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -45894,6 +46456,30 @@
     "source_id": "4236216",
     "tag_rules": {
       "ERR_VOC_CUCINA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "¿Todavía es celoso?",
+    "es_author": "IA (Claude)",
+    "id": "s_4236583",
+    "it": "È ancora geloso?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4236583",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -50173,6 +50759,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Ella es tranquila.",
+    "es_author": "IA (Claude)",
+    "id": "s_4741234",
+    "it": "Lei è tranquilla.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4741234",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "gina",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_NUMERI"
     ],
     "es": "Tengo más de dieciocho años.",
@@ -51077,6 +51687,29 @@
       "ERR_PIACERE_ACCORDO": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "¿Ella es celosa?",
+    "es_author": "IA (Claude)",
+    "id": "s_5017650",
+    "it": "Lei è gelosa?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5017650",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -52451,6 +53084,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Tú eres celoso.",
+    "es_author": "IA (Claude)",
+    "id": "s_5287986",
+    "it": "Tu sei geloso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5287986",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -52746,6 +53402,53 @@
     "source_id": "5326816",
     "tag_rules": {
       "ERR_PRESENT_ESSERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Yo soy sincero.",
+    "es_author": "IA (Claude)",
+    "id": "s_5327099",
+    "it": "Io sono sincero.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5327099",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Tú eres sincero.",
+    "es_author": "IA (Claude)",
+    "id": "s_5327106",
+    "it": "Tu sei sincero.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5327106",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -60461,6 +61164,30 @@
     "source_id": "691871",
     "tag_rules": {
       "ERR_VOC_NATURA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Es tan tímido como un ratoncillo.",
+    "es_author": "Seael",
+    "es_source_id": "7930048",
+    "id": "s_6921480",
+    "it": "Lui è timido come un topolino.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6921480",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
     },
     "translation_kind": "direct"
   },

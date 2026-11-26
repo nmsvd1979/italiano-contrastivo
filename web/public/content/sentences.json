@@ -10029,6 +10029,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "af5cf93c62f0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo soy curioso.",
+    "es_author": "IA (Claude)",
+    "id": "s_1987871",
+    "it": "Io sono curioso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1987871",
+    "translation_kind": "llm"
+  },
+  {
     "alt": [
       "Che cosa non ti piace?"
     ],
@@ -11094,6 +11106,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "0090fa3089c8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom es tímido.",
+    "es_author": "IA (Claude)",
+    "id": "s_2190779",
+    "it": "Tom è timido.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2190779",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "584e77e8b123",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11279,6 +11303,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b5d52fd58b42",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No soy tímido.",
+    "es_author": "IA (Claude)",
+    "id": "s_2221443",
+    "it": "Non sono timido.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2221443",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c4fe0b287dbc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No soy tímida.",
+    "es_author": "IA (Claude)",
+    "id": "s_2221445",
+    "it": "Non sono timida.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2221445",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b2baa67f958b",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -11300,6 +11348,18 @@
     "it": "È mia moglie.",
     "license": "CC BY 2.0 FR",
     "source_id": "2238067",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "7856d674f1e7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Es un poco tímido.",
+    "es_author": "IA (Claude)",
+    "id": "s_2250740",
+    "it": "È un po' timido.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2250740",
     "translation_kind": "llm"
   },
   {
@@ -12585,6 +12645,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "f6e6f3c434d9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo no estaba en casa.",
+    "es_author": "Shishir",
+    "es_source_id": "10574305",
+    "id": "s_2554119",
+    "it": "Io non ero a casa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2554119",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "066e58386d36",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -12796,6 +12869,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2565066",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "fd0951bcd720",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom es tranquilo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2565200",
+    "it": "Tom è tranquillo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2565200",
+    "translation_kind": "llm"
   },
   {
     "audio": "95675fb8c8c7",
@@ -13634,6 +13719,31 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2707026",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "6391f30b61e7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo soy tímido.",
+    "es_author": "IA (Claude)",
+    "id": "s_2708352",
+    "it": "Io sono timido.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2708352",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "f0d9b8ea1f7c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Soy muy tímido.",
+    "es_author": "marcelostockle",
+    "es_source_id": "3113421",
+    "id": "s_2708368",
+    "it": "Sono molto timido.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2708368",
+    "translation_kind": "direct"
   },
   {
     "audio": "c8fae0fe0408",
@@ -14648,6 +14758,32 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e546c7ef9eb0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo no estaba ocupado.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "2924617",
+    "id": "s_2859867",
+    "it": "Io non ero occupato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2859867",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e3756d6209b9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo no estaba ocupada.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "2924619",
+    "id": "s_2859870",
+    "it": "Io non ero occupata.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2859870",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f6008f7915fa",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -15109,6 +15245,42 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2930658",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "8861c03a29db",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tú eres tímido.",
+    "es_author": "IA (Claude)",
+    "id": "s_2934975",
+    "it": "Tu sei timido.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2934975",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "9d7dc0339347",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tú eres tímida.",
+    "es_author": "IA (Claude)",
+    "id": "s_2934977",
+    "it": "Tu sei timida.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2934977",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "10a4d8c58b54",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Es muy tímida.",
+    "es_author": "IA (Claude)",
+    "id": "s_2935000",
+    "it": "È molto timida.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2935000",
+    "translation_kind": "llm"
   },
   {
     "audio": "abca70e85469",
@@ -15733,6 +15905,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ca5642acc1dc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡Soy tan celoso!",
+    "es_author": "IA (Claude)",
+    "id": "s_3089743",
+    "it": "Sono così geloso!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3089743",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1c1d13449643",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡Soy tan celosa!",
+    "es_author": "IA (Claude)",
+    "id": "s_3089745",
+    "it": "Sono così gelosa!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3089745",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b5b69b0c6f89",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -15780,6 +15976,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3101899",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "e36273713fc8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Es un poco celoso.",
+    "es_author": "IA (Claude)",
+    "id": "s_3102494",
+    "it": "È un po' geloso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3102494",
+    "translation_kind": "llm"
   },
   {
     "audio": "895cf2b0a5af",
@@ -16248,6 +16456,30 @@
     "it": "Tu hai sete.",
     "license": "CC BY 2.0 FR",
     "source_id": "3251789",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "32836b509b9b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo soy celoso.",
+    "es_author": "IA (Claude)",
+    "id": "s_3252401",
+    "it": "Io sono geloso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3252401",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "4c35b77b3af1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo soy celosa.",
+    "es_author": "IA (Claude)",
+    "id": "s_3252404",
+    "it": "Io sono gelosa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3252404",
     "translation_kind": "llm"
   },
   {
@@ -17911,6 +18143,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3518897",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "4d9629565879",
+    "author": "mraz",
+    "cefr_estimate": "A1",
+    "es": "No soy celoso.",
+    "es_author": "IA (Claude)",
+    "id": "s_3519186",
+    "it": "Non sono geloso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3519186",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "cbf372bcfd31",
+    "author": "mraz",
+    "cefr_estimate": "A1",
+    "es": "No soy celosa.",
+    "es_author": "IA (Claude)",
+    "id": "s_3519191",
+    "it": "Non sono gelosa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3519191",
+    "translation_kind": "llm"
   },
   {
     "audio": "c04e03a7fc2c",
@@ -20594,6 +20850,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "3edf50b095ee",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Soy un chico tímido.",
+    "es_author": "hayastan",
+    "es_source_id": "382286",
+    "id": "s_382284",
+    "it": "Sono un ragazzo timido.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "382284",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "2452c466413b",
     "author": "ver",
     "cefr_estimate": "A1",
@@ -20604,6 +20873,19 @@
     "it": "Hai un dizionario d'inglese?",
     "license": "CC BY 2.0 FR",
     "source_id": "382388",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "af39fa2ece30",
+    "author": "ver",
+    "cefr_estimate": "A1",
+    "es": "Soy muy curioso.",
+    "es_author": "hayastan",
+    "es_source_id": "952815",
+    "id": "s_382402",
+    "it": "Sono molto curioso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "382402",
     "translation_kind": "direct"
   },
   {
@@ -20760,6 +21042,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "383745",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "f8fd7000e95d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tom es celoso?",
+    "es_author": "IA (Claude)",
+    "id": "s_3838159",
+    "it": "Tom è geloso?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3838159",
+    "translation_kind": "llm"
   },
   {
     "audio": "f7e92ec01639",
@@ -22501,6 +22795,18 @@
     "it": "Dov'è il cibo?",
     "license": "CC BY 2.0 FR",
     "source_id": "4236216",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "489fb238f94e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Todavía es celoso?",
+    "es_author": "IA (Claude)",
+    "id": "s_4236583",
+    "it": "È ancora geloso?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4236583",
     "translation_kind": "llm"
   },
   {
@@ -24604,6 +24910,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "8596d70f5238",
+    "author": "gina",
+    "cefr_estimate": "A1",
+    "es": "Ella es tranquila.",
+    "es_author": "IA (Claude)",
+    "id": "s_4741234",
+    "it": "Lei è tranquilla.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4741234",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "e2c9744a3b04",
     "author": "gina",
     "cefr_estimate": "A1",
@@ -25101,6 +25419,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "499912",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "65235d90da1d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Ella es celosa?",
+    "es_author": "IA (Claude)",
+    "id": "s_5017650",
+    "it": "Lei è gelosa?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5017650",
+    "translation_kind": "llm"
   },
   {
     "audio": "ddb048cdb4d7",
@@ -25800,6 +26130,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "16a0cf457ee8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tú eres celoso.",
+    "es_author": "IA (Claude)",
+    "id": "s_5287986",
+    "it": "Tu sei geloso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5287986",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "556fb54f7f13",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -25932,6 +26274,30 @@
     "it": "Voi siete forti.",
     "license": "CC BY 2.0 FR",
     "source_id": "5326816",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "9fd8a5d9a308",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Yo soy sincero.",
+    "es_author": "IA (Claude)",
+    "id": "s_5327099",
+    "it": "Io sono sincero.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5327099",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c50a62c1ef0d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tú eres sincero.",
+    "es_author": "IA (Claude)",
+    "id": "s_5327106",
+    "it": "Tu sei sincero.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5327106",
     "translation_kind": "llm"
   },
   {
@@ -29759,6 +30125,19 @@
     "it": "La Terra gira intorno al Sole.",
     "license": "CC BY 2.0 FR",
     "source_id": "691871",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "025e19c135cd",
+    "author": "dnnywld",
+    "cefr_estimate": "A1",
+    "es": "Es tan tímido como un ratoncillo.",
+    "es_author": "Seael",
+    "es_source_id": "7930048",
+    "id": "s_6921480",
+    "it": "Lui è timido come un topolino.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6921480",
     "translation_kind": "direct"
   },
   {
@@ -34803,6 +35182,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "904e68ca2fd6",
+    "author": "Nuel",
+    "cefr_estimate": "A2",
+    "es": "Yo trabajaba en un restaurante.",
+    "es_author": "saverius",
+    "es_source_id": "10255879",
+    "id": "s_10249817",
+    "it": "Lavoravo in un ristorante.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10249817",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "9ea02df0a48f",
     "author": "carlosalberto",
     "cefr_estimate": "A2",
@@ -34864,6 +35256,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "10480996",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "6478b55d05aa",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Había mucha gente en la fiesta?",
+    "es_author": "IA (Claude)",
+    "id": "s_10492022",
+    "it": "C'erano molte persone alla festa?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10492022",
+    "translation_kind": "llm"
   },
   {
     "audio": "e9450a9048ef",
@@ -34933,6 +35337,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "932003c0439d",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Cuando estaba aquí, nadaba por la mañana.",
+    "es_author": "carlosalberto",
+    "es_source_id": "10771715",
+    "id": "s_10771719",
+    "it": "Quando era qui, nuotava al mattino.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10771719",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "b1a3762ca885",
     "author": "Eldad",
     "cefr_estimate": "A2",
@@ -34956,6 +35373,19 @@
     "it": "Voi vi siete sbagliati.",
     "license": "CC BY 2.0 FR",
     "source_id": "1081894",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e192f33fa9ec",
+    "author": "dnnywld",
+    "cefr_estimate": "A2",
+    "es": "He visto a Tom mientras nadaba.",
+    "es_author": "saverius",
+    "es_source_id": "10826084",
+    "id": "s_10825704",
+    "it": "Ho visto Tom mentre nuotava.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10825704",
     "translation_kind": "direct"
   },
   {
@@ -34994,6 +35424,19 @@
     "it": "Nel mezzo della discussione si è alzato ed è uscito.",
     "license": "CC BY 2.0 FR",
     "source_id": "1082726",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "f82e6be5c3c4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Decía que sí con la cabeza, pero no escuchaba.",
+    "es_author": "nancy",
+    "es_source_id": "1160712",
+    "id": "s_1083492",
+    "it": "Diceva di sì con la testa, ma non ascoltava.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1083492",
     "translation_kind": "direct"
   },
   {
@@ -35075,6 +35518,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "144e33df66f9",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Aquí había un jardín.",
+    "es_author": "IA (Claude)",
+    "id": "s_11020842",
+    "it": "Qui c'era un giardino.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11020842",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4b39e8a931e8",
     "author": "riccioberto",
     "cefr_estimate": "A2",
@@ -35097,6 +35552,30 @@
     "it": "Vorrei un'altra birra.",
     "license": "CC BY 2.0 FR",
     "source_id": "1107994",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d384ba32ee75",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La encontré hace una hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_1114020",
+    "it": "L'ho incontrata un'ora fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1114020",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "0e7d6ba3afc3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La conocí hace una hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_1114021",
+    "it": "L'ho conosciuta un'ora fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1114021",
     "translation_kind": "llm"
   },
   {
@@ -35136,6 +35615,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "11229822",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "6a58c3ca297b",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Lo sabía hace tres horas.",
+    "es_author": "IA (Claude)",
+    "id": "s_11252197",
+    "it": "Lo sapevo tre ore fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11252197",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d82cf8e94738",
+    "author": "JeanM",
+    "cefr_estimate": "A2",
+    "es": "Llegué hace dos semanas.",
+    "es_author": "IA (Claude)",
+    "id": "s_11253985",
+    "it": "Sono arrivato due settimane fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11253985",
+    "translation_kind": "llm"
   },
   {
     "audio": "3f5b92e140d0",
@@ -35302,6 +35805,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "a7305426ea08",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Jugaba al fútbol.",
+    "es_author": "IA (Claude)",
+    "id": "s_11546473",
+    "it": "Giocavo a calcio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11546473",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "75c995490f39",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había un castillo en la colina.",
+    "es_author": "IA (Claude)",
+    "id": "s_11597024",
+    "it": "C'era un castello sulla collina.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11597024",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "af1fca3baa19",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35362,6 +35889,18 @@
     "it": "Non bevo più birra.",
     "license": "CC BY 2.0 FR",
     "source_id": "11712040",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b42941a6bdc9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había diez huevos en total.",
+    "es_author": "IA (Claude)",
+    "id": "s_11719061",
+    "it": "C'erano dieci uova in tutto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11719061",
     "translation_kind": "llm"
   },
   {
@@ -35583,6 +36122,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9f59138922ae",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "La vi en algún lugar hace dos años.",
+    "es_author": "sharin",
+    "es_source_id": "855603",
+    "id": "s_1242399",
+    "it": "L'ho vista da qualche parte due anni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1242399",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "7a555c63d00a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35720,6 +36272,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "21c98f5615fd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había tres hombres ahí.",
+    "es_author": "enteka",
+    "es_source_id": "1324549",
+    "id": "s_1266623",
+    "it": "C'erano tre uomini.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1266623",
+    "translation_kind": "direct"
+  },
+  {
     "alt": [
       "Sono le nove e un quarto di mattina."
     ],
@@ -35734,6 +36299,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "12676650",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "be378f09afaf",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había perros por todas partes.",
+    "es_author": "IA (Claude)",
+    "id": "s_12703246",
+    "it": "C'erano dei cani dappertutto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12703246",
+    "translation_kind": "llm"
   },
   {
     "audio": "5d82200066e7",
@@ -35760,6 +36337,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "cc59f89bf286",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había un puente allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1283106",
+    "it": "C'era un ponte lì.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1283106",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "69120600c9b9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había un puente allá.",
+    "es_author": "IA (Claude)",
+    "id": "s_1283107",
+    "it": "C'era un ponte là.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1283107",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "bdc93f9935fe",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35770,6 +36371,19 @@
     "it": "Chiudi gli occhi prima!",
     "license": "CC BY 2.0 FR",
     "source_id": "12834656",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e438c7247c69",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Hablaba de ti.",
+    "es_author": "Shishir",
+    "es_source_id": "1287750",
+    "id": "s_1287741",
+    "it": "Io parlavo di te.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1287741",
     "translation_kind": "direct"
   },
   {
@@ -35967,6 +36581,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "33c5a594fffd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Jugaba al tenis.",
+    "es_author": "IA (Claude)",
+    "id": "s_13302247",
+    "it": "Giocavo a tennis.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13302247",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "a55108ae8703",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36078,6 +36704,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1350098",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "eb4e0d447452",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Hace un año estábamos aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1351004",
+    "it": "Un anno fa eravamo qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1351004",
+    "translation_kind": "llm"
   },
   {
     "audio": "8fd2b2c3fae4",
@@ -36195,6 +36833,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "a1cf270aced0",
+    "author": "unforgiven95",
+    "cefr_estimate": "A2",
+    "es": "Usted no hablaba español.",
+    "es_author": "Shishir",
+    "es_source_id": "1305244",
+    "id": "s_13991807",
+    "it": "Lei non parlava spagnolo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13991807",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "1f1bceb8b460",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36270,6 +36921,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "01a203d1b60e",
+    "author": "unforgiven95",
+    "cefr_estimate": "A2",
+    "es": "Había bastantes manzanas podridas en la canasta.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1638927",
+    "id": "s_14049591",
+    "it": "C'erano molte mele marce nella cesta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14049591",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "673d80a1b7bf",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36331,6 +36995,19 @@
     "it": "Gli insetti hanno tre paia di zampe.",
     "license": "CC BY 2.0 FR",
     "source_id": "1433807",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e4ef0d9f2139",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo era más flexible.",
+    "es_author": "saverius",
+    "es_source_id": "10141452",
+    "id": "s_1438621",
+    "it": "Io ero più flessibile.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1438621",
     "translation_kind": "direct"
   },
   {
@@ -36551,6 +37228,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e478e281e96b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La conocí hace tres días.",
+    "es_author": "IA (Claude)",
+    "id": "s_1546923",
+    "it": "L'ho conosciuta tre giorni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1546923",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "32ae1e955b06",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La encontré hace tres días.",
+    "es_author": "IA (Claude)",
+    "id": "s_1546924",
+    "it": "L'ho incontrata tre giorni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1546924",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b204bb08199d",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36614,6 +37315,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "81f91c1d61ed",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había bellos cuadros en aquella pared.",
+    "es_author": "nancy",
+    "es_source_id": "2207169",
+    "id": "s_1574231",
+    "it": "C'erano dei bei quadri su quel muro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1574231",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "493f36431174",
     "author": "matsuteo",
     "cefr_estimate": "A2",
@@ -36623,6 +37337,18 @@
     "it": "Non fare rumore.",
     "license": "CC BY 2.0 FR",
     "source_id": "1576427",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e3501d35bb60",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Fue a Londres hace un mes.",
+    "es_author": "IA (Claude)",
+    "id": "s_1587014",
+    "it": "È andato a Londra un mese fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1587014",
     "translation_kind": "llm"
   },
   {
@@ -36660,6 +37386,18 @@
     "it": "Sono le otto meno un quarto adesso.",
     "license": "CC BY 2.0 FR",
     "source_id": "1611762",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "90cf9b18c9b8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom se fue hace tres días.",
+    "es_author": "IA (Claude)",
+    "id": "s_1623185",
+    "it": "Tom è partito tre giorni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1623185",
     "translation_kind": "llm"
   },
   {
@@ -36823,6 +37561,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "688f7f56894e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Él siempre hablaba muy fuerte.",
+    "es_author": "hayastan",
+    "es_source_id": "1691132",
+    "id": "s_1689806",
+    "it": "Lui parlava sempre più forte.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1689806",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "206142d2b4fd",
     "author": "alexmarcelo",
     "cefr_estimate": "A2",
@@ -36873,6 +37624,30 @@
     "it": "Il treno parte alle due e mezza del pomeriggio.",
     "license": "CC BY 2.0 FR",
     "source_id": "1708388",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "27b09ebbec1e",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A2",
+    "es": "¿Había un libro sobre el banco?",
+    "es_author": "IA (Claude)",
+    "id": "s_1710362",
+    "it": "C'era un libro sul banco?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1710362",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "af00436e9fb8",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A2",
+    "es": "¿Había un libro sobre el escritorio?",
+    "es_author": "IA (Claude)",
+    "id": "s_1710363",
+    "it": "C'era un libro sulla scrivania?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1710363",
     "translation_kind": "llm"
   },
   {
@@ -36964,6 +37739,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1765926",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "829f130342d3",
+    "author": "hitori37",
+    "cefr_estimate": "A2",
+    "es": "La vi hace una semana.",
+    "es_author": "IA (Claude)",
+    "id": "s_1794215",
+    "it": "L'ho vista una settimana fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1794215",
+    "translation_kind": "llm"
   },
   {
     "audio": "b0ca8fb27901",
@@ -37075,6 +37862,31 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "23cd23fa23b9",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A2",
+    "es": "Había una vez una hermosa muchacha.",
+    "es_author": "IA (Claude)",
+    "id": "s_1855221",
+    "it": "C'era una volta una bella ragazza.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1855221",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "8cd7f035b9f0",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A2",
+    "es": "Érase una vez una bella princesa.",
+    "es_author": "Shishir",
+    "es_source_id": "759228",
+    "id": "s_1855222",
+    "it": "C'era una volta una bella principessa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1855222",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "61d41ea2e5cb",
     "author": "enzolon",
     "cefr_estimate": "A2",
@@ -37097,6 +37909,32 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1860945",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "6fb6c0b10300",
+    "author": "radu107",
+    "cefr_estimate": "A2",
+    "es": "Comía todos los días en el buffet del restaurante.",
+    "es_author": "radu107",
+    "es_source_id": "1881062",
+    "id": "s_1881063",
+    "it": "Mangiavo tutti i giorni al buffet del ristorante.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1881063",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "bc0e079e68ba",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo estaba en las montañas.",
+    "es_author": "mamat",
+    "es_source_id": "2495",
+    "id": "s_1923128",
+    "it": "Io ero in montagna.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1923128",
+    "translation_kind": "direct"
   },
   {
     "audio": "9309e885ea1e",
@@ -37217,6 +38055,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "9aa75435381a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Pasó hace tres días.",
+    "es_author": "IA (Claude)",
+    "id": "s_2020647",
+    "it": "È successo tre giorni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2020647",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "8f34d0fa57ea",
     "author": "AYDYL84",
     "cefr_estimate": "A2",
@@ -37243,6 +38093,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1a783736db08",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Pensaba que estaba solo.",
+    "es_author": "mayahueli",
+    "es_source_id": "2247209",
+    "id": "s_2041917",
+    "it": "Pensavo di essere da solo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2041917",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3897974da0eb",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -37252,6 +38115,18 @@
     "it": "Cerco di non pensarci.",
     "license": "CC BY 2.0 FR",
     "source_id": "2074004",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6499c70fb00a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom estaba aquí hace un minuto.",
+    "es_author": "IA (Claude)",
+    "id": "s_2074930",
+    "it": "Tom era qui un minuto fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2074930",
     "translation_kind": "llm"
   },
   {
@@ -37476,6 +38351,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "45ba5d450c05",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me levanté hace una hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_2233612",
+    "it": "Mi sono alzato un'ora fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2233612",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "8c97ae94d43b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me levanté hace una hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_2233614",
+    "it": "Mi sono alzata un'ora fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2233614",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "77f487ef9ef1",
     "author": "JLGQ_",
     "cefr_estimate": "A2",
@@ -37486,6 +38385,19 @@
     "it": "Metti la copertina sul piccolo, fa freddo.",
     "license": "CC BY 2.0 FR",
     "source_id": "2233939",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3df30323ca47",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo era gordo.",
+    "es_author": "arh",
+    "es_source_id": "8813807",
+    "id": "s_2255584",
+    "it": "Io ero grasso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2255584",
     "translation_kind": "direct"
   },
   {
@@ -37633,6 +38545,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "240bff77f4fd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo tenía necesidad de espacio.",
+    "es_author": "saverius",
+    "es_source_id": "10802554",
+    "id": "s_2437014",
+    "it": "Io avevo bisogno di spazio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2437014",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f3a93725789b",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -37767,6 +38692,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "642eafcc0f0d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había mucha gente en el parque.",
+    "es_author": "IA (Claude)",
+    "id": "s_2512174",
+    "it": "C'erano molte persone nel parco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2512174",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b032d1894237",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -37807,6 +38744,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ebd8d7c6267b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom esperaba con impaciencia.",
+    "es_author": "Shishir",
+    "es_source_id": "2534095",
+    "id": "s_2529744",
+    "it": "Tom aspettava impazientemente.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2529744",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f3b5b3a329c3",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -37819,6 +38769,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "697c1350b28d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había otro problema.",
+    "es_author": "IA (Claude)",
+    "id": "s_2554703",
+    "it": "C'era un altro problema.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2554703",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "dab3cc583bce",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -37828,6 +38790,30 @@
     "it": "Non comprare quella.",
     "license": "CC BY 2.0 FR",
     "source_id": "2555829",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "22ca9bab89f9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había unas flores aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_2555912",
+    "it": "C'erano dei fiori qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2555912",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c0c05f18417b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había algunas flores aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_2555913",
+    "it": "C'erano alcuni fiori qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2555913",
     "translation_kind": "llm"
   },
   {
@@ -37855,6 +38841,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "0dde13ab72da",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo tenía mucha hambre.",
+    "es_author": "saverius",
+    "es_source_id": "10802723",
+    "id": "s_2559312",
+    "it": "Io avevo così fame.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2559312",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "6c7a2852195e",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -37877,6 +38876,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2593892",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "2f0711f5d26d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom llegó hace ocho días.",
+    "es_author": "uptonpark1973",
+    "es_source_id": "5740285",
+    "id": "s_2607886",
+    "it": "Tom è arrivato otto giorni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2607886",
+    "translation_kind": "direct"
   },
   {
     "audio": "fc8369cf8c56",
@@ -37989,6 +39001,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "f92f192b27ee",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "En la calle había mucha gente.",
+    "es_author": "IA (Claude)",
+    "id": "s_2779245",
+    "it": "In strada c'erano molte persone.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2779245",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "87674f0f0e6a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38044,6 +39068,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1a0d6b50bafb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había una gran multitud allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_2848893",
+    "it": "C'era una grande folla lì.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2848893",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "f0ddfff56b36",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38056,6 +39092,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "d8b8f20d8226",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom vivía ahí.",
+    "es_author": "hayastan",
+    "es_source_id": "2429319",
+    "id": "s_2866409",
+    "it": "Tom abitava lì.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2866409",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "64316acb3367",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38065,6 +39114,18 @@
     "it": "Lei è nata in Ohio.",
     "license": "CC BY 2.0 FR",
     "source_id": "2908665",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e274e8b99cde",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom llegó hace tres días.",
+    "es_author": "IA (Claude)",
+    "id": "s_2914592",
+    "it": "Tom è arrivato tre giorni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2914592",
     "translation_kind": "llm"
   },
   {
@@ -38121,6 +39182,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "5ca026e43350",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom vivía en Boston hace tres años.",
+    "es_author": "IA (Claude)",
+    "id": "s_3000351",
+    "it": "Tom viveva a Boston tre anni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3000351",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "0a79afe3b0bf",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38155,6 +39228,19 @@
     "it": "Sei stato pessimo!",
     "license": "CC BY 2.0 FR",
     "source_id": "3033587",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "a4e4af526140",
+    "author": "al_ex_an_der",
+    "cefr_estimate": "A2",
+    "es": "Hablé con el embajador polaco.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4703685",
+    "id": "s_3034461",
+    "it": "Parlavo con l'ambasciatore polacco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3034461",
     "translation_kind": "direct"
   },
   {
@@ -38271,6 +39357,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "cf453fced713",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Él vivía al lado de su tío.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1649534",
+    "id": "s_3134249",
+    "it": "Abitava accanto a suo zio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3134249",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3b25915436e8",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38293,6 +39392,19 @@
     "it": "Non siamo andati a Torino.",
     "license": "CC BY 2.0 FR",
     "source_id": "3174439",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "8692443d3a6b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo era uno de los mejores alumnos de la clase.",
+    "es_author": "darinmex",
+    "es_source_id": "1091896",
+    "id": "s_3175614",
+    "it": "Io ero uno degli studenti migliori della classe.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3175614",
     "translation_kind": "direct"
   },
   {
@@ -38385,6 +39497,54 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "ebcc2396f2d9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había mucha gente en la sala.",
+    "es_author": "IA (Claude)",
+    "id": "s_3347496",
+    "it": "C'erano molte persone nella stanza.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3347496",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c3918fea21c5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había mucha gente en la habitación.",
+    "es_author": "IA (Claude)",
+    "id": "s_3347497",
+    "it": "C'erano molte persone nella camera.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3347497",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "2f504ca1000d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom vivía aquí hace tres años.",
+    "es_author": "IA (Claude)",
+    "id": "s_3368821",
+    "it": "Tom viveva qui tre anni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3368821",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "3e0932c64775",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom vivía aquí hace tres años.",
+    "es_author": "IA (Claude)",
+    "id": "s_3368822",
+    "it": "Tom abitava qui tre anni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3368822",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "ed57d12ef79c",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38438,6 +39598,44 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "3555d655e089",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "También yo quería ver el mar.",
+    "es_author": "Leono",
+    "es_source_id": "4179807",
+    "id": "s_3437960",
+    "it": "Anche io volevo vedere il mare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3437960",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5106c45c86f0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡Pensé en ti!",
+    "es_author": "carlosalberto",
+    "es_source_id": "3442041",
+    "id": "s_3441780",
+    "it": "Pensavo a te!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3441780",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "392f63fd2a63",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había algunos botes en el lago.",
+    "es_author": "IA (Claude)",
+    "id": "s_3472725",
+    "it": "C'erano alcune barche sul lago.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3472725",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "5bea30304cea",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38463,6 +39661,31 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "50e848d45777",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había un baile en nuestro club.",
+    "es_author": "IA (Claude)",
+    "id": "s_3488128",
+    "it": "C'era un ballo al nostro club.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3488128",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d1dae842cd5b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuándo piensan regresar a los Estados Unidos?",
+    "es_author": "gianich73",
+    "es_source_id": "3496622",
+    "id": "s_3496462",
+    "it": "Quando pensavate di ritornare negli Stati Uniti?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3496462",
+    "translation_kind": "direct"
+  },
+  {
     "alt": [
       "Lui è arrivato prima del solito."
     ],
@@ -38477,6 +39700,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "350270",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "f9b7ca2c678a",
+    "author": "martin",
+    "cefr_estimate": "A2",
+    "es": "¿Había un libro sobre la mesa?",
+    "es_author": "IA (Claude)",
+    "id": "s_350436",
+    "it": "C'era un libro sul tavolo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "350436",
+    "translation_kind": "llm"
   },
   {
     "audio": "663b75325b0c",
@@ -38568,6 +39803,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "0f6f08c4dca8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No estaba soñando.",
+    "es_author": "Calvo",
+    "es_source_id": "2940542",
+    "id": "s_3534491",
+    "it": "Io non stavo sognando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3534491",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "8e1a8975e1e9",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38591,6 +39839,43 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3537415",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "e5f404327225",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Hace mucho tiempo había un puente allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_3544426",
+    "it": "Molto tempo fa c'era un ponte lì.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3544426",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e64befe317dd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Llegó de Australia hace un año.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1906307",
+    "id": "s_3553439",
+    "it": "Lui è arrivato dall'Australia un anno fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3553439",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "4e638c74f045",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Almorcé hace dos horas.",
+    "es_author": "IA (Claude)",
+    "id": "s_3561284",
+    "it": "Ho pranzato due ore fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3561284",
+    "translation_kind": "llm"
   },
   {
     "audio": "e988c3d2ad30",
@@ -38730,6 +40015,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "8f9dd45c562c",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "No había una nube en el cielo.",
+    "es_author": "IA (Claude)",
+    "id": "s_375031",
+    "it": "Non c'era una nuvola in cielo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "375031",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "79045d11cb30",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -38859,6 +40156,32 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "aace6743986f",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Nos casamos hace siete años.",
+    "es_author": "Shishir",
+    "es_source_id": "509763",
+    "id": "s_378135",
+    "it": "Ci siamo sposati sette anni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "378135",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "533b8a61cd8c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Sabía que Tom era tímido.",
+    "es_author": "hayastan",
+    "es_source_id": "4251129",
+    "id": "s_3783743",
+    "it": "Sapevo che Tom era timido.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3783743",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f1723b4dc62f",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -38883,6 +40206,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3787018",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "49b69bec91cb",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Se fue hace una hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_378716",
+    "it": "È partito un'ora fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "378716",
+    "translation_kind": "llm"
   },
   {
     "alt": [
@@ -38942,6 +40277,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "c1b179e4ecfb",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Este perro nació hace dos meses.",
+    "es_author": "IA (Claude)",
+    "id": "s_380167",
+    "it": "Questo cane è nato due mesi fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "380167",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "812b05a503c4",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -38994,6 +40341,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "340c08759aed",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Sobre la mesa había un gato.",
+    "es_author": "IA (Claude)",
+    "id": "s_382113",
+    "it": "Sul tavolo c'era un gatto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "382113",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "c324ded2cf6a",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -39017,6 +40376,19 @@
     "it": "Sopra il tavolo c'è un libro.",
     "license": "CC BY 2.0 FR",
     "source_id": "382408",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "01ce6466beba",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo ponía unos ejemplos.",
+    "es_author": "saverius",
+    "es_source_id": "10802803",
+    "id": "s_3830022",
+    "it": "Io facevo degli esempi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3830022",
     "translation_kind": "direct"
   },
   {
@@ -39053,6 +40425,43 @@
     "it": "Il mio appuntamento è alle due e mezza.",
     "license": "CC BY 2.0 FR",
     "source_id": "3834096",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "be69a296a493",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Llegué a Japón hace dos años.",
+    "es_author": "hayastan",
+    "es_source_id": "1713754",
+    "id": "s_383475",
+    "it": "Sono arrivato in Giappone due anni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "383475",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "1d5b5b8037f6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Cerré el negocio hace una hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_3835502",
+    "it": "Ho chiuso l'affare un'ora fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3835502",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "cde3bc39cf00",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Lo vi hace tres años.",
+    "es_author": "IA (Claude)",
+    "id": "s_383637",
+    "it": "L'ho visto tre anni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "383637",
     "translation_kind": "llm"
   },
   {
@@ -39172,6 +40581,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c6fab0635e10",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había solo un cine en la ciudad.",
+    "es_author": "gianich73",
+    "es_source_id": "3881817",
+    "id": "s_3881752",
+    "it": "C'era un solo cinema in città.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3881752",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "168ff30c99f9",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -39208,6 +40630,19 @@
     "it": "Che cos'hai risposto?",
     "license": "CC BY 2.0 FR",
     "source_id": "388817",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0a46054b4351",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom escribió esto hace tres semanas.",
+    "es_author": "Shishir",
+    "es_source_id": "4444237",
+    "id": "s_3889127",
+    "it": "Tom ha scritto questo tre settimane fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3889127",
     "translation_kind": "direct"
   },
   {
@@ -39325,6 +40760,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "836483c3a174",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Empezó hace diez minutos.",
+    "es_author": "IA (Claude)",
+    "id": "s_4029869",
+    "it": "Ha iniziato dieci minuti fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4029869",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "5198db075734",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Comenzó hace diez minutos.",
+    "es_author": "IA (Claude)",
+    "id": "s_4029870",
+    "it": "Ha cominciato dieci minuti fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4029870",
+    "translation_kind": "llm"
+  },
+  {
     "alt": [
       "Io vorrei avere un altro po' d'acqua."
     ],
@@ -39366,6 +40825,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7e8419d5a975",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No sabía que trabajabas aquí.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2471378",
+    "id": "s_4073980",
+    "it": "Non lo sapevo che lavoravi qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4073980",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "80322cb43634",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -39377,6 +40849,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4078263",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "d11c71107592",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Había muchos niños en la sala.",
+    "es_author": "IA (Claude)",
+    "id": "s_409503",
+    "it": "C'erano molti bambini nella stanza.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "409503",
+    "translation_kind": "llm"
   },
   {
     "audio": "83f1f1542ca9",
@@ -39482,6 +40966,42 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "015ff4802018",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había unas flores allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_4209266",
+    "it": "C'erano dei fiori lì.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4209266",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c27e3694a4fa",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había algunas flores allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_4209267",
+    "it": "C'erano alcuni fiori lì.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4209267",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a552ed55bf2e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había pirañas en el río.",
+    "es_author": "IA (Claude)",
+    "id": "s_4210287",
+    "it": "C'erano dei piranha nel fiume.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4210287",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "a65a14114030",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -39503,6 +41023,18 @@
     "it": "Non fare domande.",
     "license": "CC BY 2.0 FR",
     "source_id": "4244280",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "ed14810dfc2a",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Dejó de nevar hace una hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_425510",
+    "it": "Ha smesso di nevicare un'ora fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "425510",
     "translation_kind": "llm"
   },
   {
@@ -39567,6 +41099,31 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "8879670cbb50",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Había dos tortas.",
+    "es_author": "IA (Claude)",
+    "id": "s_430079",
+    "it": "C'erano due torte.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "430079",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "86754b8a6729",
+    "author": "tiguliano",
+    "cefr_estimate": "A2",
+    "es": "John tocaba la guitarra y sus amigos cantaban.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1623459",
+    "id": "s_430326",
+    "it": "John suonava la chitarra e i suoi amici cantavano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "430326",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "7caa641425bb",
     "author": "Nox",
     "cefr_estimate": "A2",
@@ -39588,6 +41145,18 @@
     "it": "Non guardare in alto.",
     "license": "CC BY 2.0 FR",
     "source_id": "4395263",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1da679656237",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Fue a París hace dos años.",
+    "es_author": "IA (Claude)",
+    "id": "s_4400036",
+    "it": "È andato a Parigi due anni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4400036",
     "translation_kind": "llm"
   },
   {
@@ -39730,6 +41299,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "da3d8b0d5cd3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Se casaron hace tres meses.",
+    "es_author": "IA (Claude)",
+    "id": "s_4567515",
+    "it": "Si sono sposati tre mesi fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4567515",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "3cad988b14d6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Se casaron hace tres meses.",
+    "es_author": "IA (Claude)",
+    "id": "s_4567518",
+    "it": "Si sono sposate tre mesi fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4567518",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "c333a7394ebe",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -39754,6 +41347,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4571433",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "d70665b32b77",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estaba decepcionado.",
+    "es_author": "IA (Claude)",
+    "id": "s_4582580",
+    "it": "Io ero deluso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4582580",
+    "translation_kind": "llm"
   },
   {
     "audio": "d3f22652ece8",
@@ -39880,6 +41485,19 @@
     "it": "Mi sono sbagliato.",
     "license": "CC BY 2.0 FR",
     "source_id": "475662",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "fbe9d7bf64f8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estaba demasiado ocupado para escribirte.",
+    "es_author": "darinmex",
+    "es_source_id": "740455",
+    "id": "s_4820692",
+    "it": "Io ero troppo impegnato per scriverti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4820692",
     "translation_kind": "direct"
   },
   {
@@ -40013,6 +41631,31 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "102ca68c9a5d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había muchos autos en la calle.",
+    "es_author": "IA (Claude)",
+    "id": "s_5197826",
+    "it": "C'erano molte auto nella strada.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5197826",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e894d7b661d4",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Yo buscaba la llave.",
+    "es_author": "Shishir",
+    "es_source_id": "521070",
+    "id": "s_521072",
+    "it": "Cercavo la chiave.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "521072",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "37b02be03de8",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -40023,6 +41666,19 @@
     "it": "C'è una scuola vicino a casa mia.",
     "license": "CC BY 2.0 FR",
     "source_id": "521080",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7bf087a39e8b",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Miguel no tenía miedo de él, y tenía mucha curiosidad.",
+    "es_author": "hayastan",
+    "es_source_id": "523815",
+    "id": "s_524218",
+    "it": "Miguel non aveva paura di lui, ed era molto curioso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "524218",
     "translation_kind": "direct"
   },
   {
@@ -40404,6 +42060,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "10baab084bca",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Se fue hace diez minutos.",
+    "es_author": "IA (Claude)",
+    "id": "s_5826143",
+    "it": "È partito dieci minuti fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5826143",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e08adc2f435f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Se fue hace diez minutos.",
+    "es_author": "IA (Claude)",
+    "id": "s_5826146",
+    "it": "Se n'è andato dieci minuti fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5826146",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "850a883df52d",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -40438,6 +42118,18 @@
     "it": "Non parlare con Tom.",
     "license": "CC BY 2.0 FR",
     "source_id": "5925192",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "23880c82c8b0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había dos puentes.",
+    "es_author": "IA (Claude)",
+    "id": "s_5980236",
+    "it": "C'erano due ponti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5980236",
     "translation_kind": "llm"
   },
   {
@@ -40571,6 +42263,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "fa1b5860c19d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había islas en el mar.",
+    "es_author": "IA (Claude)",
+    "id": "s_6143741",
+    "it": "C'erano delle isole nel mare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6143741",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "9f14087b56b3",
     "author": "rado",
     "cefr_estimate": "A2",
@@ -40632,6 +42336,30 @@
     "it": "In Giappone la scuola comincia in aprile.",
     "license": "CC BY 2.0 FR",
     "source_id": "621054",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "730b3a028446",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me casé hace diez años.",
+    "es_author": "IA (Claude)",
+    "id": "s_622287",
+    "it": "Mi sono sposata dieci anni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "622287",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "de2cc5cbffaf",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ese día había mucho viento.",
+    "es_author": "IA (Claude)",
+    "id": "s_622740",
+    "it": "C'era un forte vento quel giorno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "622740",
     "translation_kind": "llm"
   },
   {
@@ -40726,6 +42454,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "634494",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "24f98606def1",
+    "author": "bruno_b",
+    "cefr_estimate": "A2",
+    "es": "Yo lo conocí hace tres años.",
+    "es_author": "IA (Claude)",
+    "id": "s_637124",
+    "it": "Io l'ho conosciuto tre anni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "637124",
+    "translation_kind": "llm"
   },
   {
     "audio": "050faf294d83",
@@ -40881,6 +42621,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e96205124689",
+    "author": "rado",
+    "cefr_estimate": "A2",
+    "es": "Ella llevaba gafas.",
+    "es_author": "Shishir",
+    "es_source_id": "672108",
+    "id": "s_672113",
+    "it": "Lei portava gli occhiali.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "672113",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "43fa4ae6637e",
     "author": "dnnywld",
     "cefr_estimate": "A2",
@@ -40917,6 +42670,19 @@
     "it": "Lei ha paura che tu ti perda.",
     "license": "CC BY 2.0 FR",
     "source_id": "6841369",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "4a4ee7881dd5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo sabía lo que Tom estaba pensando.",
+    "es_author": "Seael",
+    "es_source_id": "10201333",
+    "id": "s_6852068",
+    "it": "Io sapevo cosa stava pensando Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6852068",
     "translation_kind": "direct"
   },
   {
@@ -41167,6 +42933,66 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c502f2bd8444",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Una vez, había un puente aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_7496432",
+    "it": "Una volta, c'era un ponte qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7496432",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c5e74a11933c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Una vez, había un puente aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_7496433",
+    "it": "Una volta, c'era un ponte qua.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7496433",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1e6aba10a20c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había un puente aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_7496792",
+    "it": "C'era un ponte qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7496792",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e22c7adbfdf7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había un puente aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_7496793",
+    "it": "C'era un ponte qua.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7496793",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1ae1d16c28fe",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había un puente sobre cada río.",
+    "es_author": "IA (Claude)",
+    "id": "s_7496805",
+    "it": "C'era un ponte su ogni fiume.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7496805",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "1510916379c0",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -41337,6 +43163,42 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7fa4eaff3795",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Fue hace solo un año.",
+    "es_author": "IA (Claude)",
+    "id": "s_7703578",
+    "it": "Era solo un anno fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7703578",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "0b4643af40fc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Fue hace apenas un año.",
+    "es_author": "IA (Claude)",
+    "id": "s_7703579",
+    "it": "Era soltanto un anno fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7703579",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a2012fd69373",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Fue hace tan solo un año.",
+    "es_author": "IA (Claude)",
+    "id": "s_7703580",
+    "it": "Era solamente un anno fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7703580",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "26cd377fcd62",
     "author": "Valdast",
     "cefr_estimate": "A2",
@@ -41386,6 +43248,19 @@
     "it": "Lui guadagna i soldi per tutta la sua famiglia.",
     "license": "CC BY 2.0 FR",
     "source_id": "7764196",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0a62a5e74158",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo quería ser profesor de francés.",
+    "es_author": "arh",
+    "es_source_id": "7785409",
+    "id": "s_7764707",
+    "it": "Io volevo essere un insegnante di francese.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7764707",
     "translation_kind": "direct"
   },
   {
@@ -41511,6 +43386,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9add74cec6a6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No estudiaba entonces.",
+    "es_author": "cueyayotl",
+    "es_source_id": "3227031",
+    "id": "s_794354",
+    "it": "Non studiavo allora.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "794354",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "e531b365de55",
     "author": "rado",
     "cefr_estimate": "A2",
@@ -41524,6 +43412,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "0e0cc1cf8a21",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Debajo de la mesa había un gato negro.",
+    "es_author": "IA (Claude)",
+    "id": "s_801729",
+    "it": "Sotto il tavolo c'era un gatto nero.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "801729",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "a72fab925f3f",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -41535,6 +43435,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "826582",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "460cfbd3b097",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Había muchas ranas en este estanque.",
+    "es_author": "IA (Claude)",
+    "id": "s_830342",
+    "it": "C'erano molte rane in questo stagno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "830342",
+    "translation_kind": "llm"
   },
   {
     "audio": "51b68987e8af",
@@ -41586,6 +43498,19 @@
     "it": "Ha letto la poesia ad alta voce.",
     "license": "CC BY 2.0 FR",
     "source_id": "859423",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "34109a057a73",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Hace dos años fui a China.",
+    "es_author": "japegon",
+    "es_source_id": "853478",
+    "id": "s_861872",
+    "it": "Due anni fa sono andata in Cina.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "861872",
     "translation_kind": "direct"
   },
   {
@@ -41657,6 +43582,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "452ef134d6c4",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Fui allí hace tres años.",
+    "es_author": "IA (Claude)",
+    "id": "s_8780918",
+    "it": "Ci sono andato tre anni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8780918",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "5086c94d65a4",
     "author": "carlosalberto",
     "cefr_estimate": "A2",
@@ -41667,6 +43604,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "8797485",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "f965bf420acd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ella solía jugar al tenis todos los domingos.",
+    "es_author": "Shishir",
+    "es_source_id": "738972",
+    "id": "s_883307",
+    "it": "Giocava a tennis ogni domenica.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "883307",
+    "translation_kind": "direct"
   },
   {
     "audio": "b135d0c3a2a4",
@@ -41680,6 +43630,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "885786",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "c4761c68baba",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Se casó hace diez años.",
+    "es_author": "IA (Claude)",
+    "id": "s_8884877",
+    "it": "Si è sposata dieci anni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8884877",
+    "translation_kind": "llm"
   },
   {
     "audio": "e4b8378e4f58",
@@ -41745,6 +43707,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "18a96cac7ecb",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "¿Había mucha gente?",
+    "es_author": "IA (Claude)",
+    "id": "s_9033269",
+    "it": "C'erano molte persone?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9033269",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "2182c48b1205",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Había una vez...",
+    "es_author": "IA (Claude)",
+    "id": "s_9045437",
+    "it": "C'era una volta...",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9045437",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b726efa5f54b",
     "author": "riccioberto",
     "cefr_estimate": "A2",
@@ -41755,6 +43741,19 @@
     "it": "Dicono che lei è nata in Germania.",
     "license": "CC BY 2.0 FR",
     "source_id": "905717",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "4e3a269270bc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La gente bailaba en las calles.",
+    "es_author": "hayastan",
+    "es_source_id": "1443665",
+    "id": "s_906068",
+    "it": "La gente ballava nelle strade.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "906068",
     "translation_kind": "direct"
   },
   {
@@ -41795,6 +43794,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "929106",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "cd40864dbbe5",
+    "author": "zhou24",
+    "cefr_estimate": "A2",
+    "es": "Vino aquí hace diez minutos.",
+    "es_author": "IA (Claude)",
+    "id": "s_934446",
+    "it": "È venuto qui dieci minuti fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "934446",
+    "translation_kind": "llm"
   },
   {
     "audio": "8747e0c1f23e",
@@ -41861,6 +43872,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "946623",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "98785dafca83",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Dejé de fumar hace dos años.",
+    "es_author": "hayastan",
+    "es_source_id": "1011667",
+    "id": "s_946825",
+    "it": "Ho smesso di fumare due anni fa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "946825",
+    "translation_kind": "direct"
   },
   {
     "audio": "4038d176e848",
@@ -42098,6 +44122,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1000808",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "e7b4f39cfbc8",
+    "author": "riccioberto",
+    "cefr_estimate": "B1",
+    "es": "Tenía curiosidad por saber por qué me miraba la gente.",
+    "es_author": "hundo",
+    "es_source_id": "972914",
+    "id": "s_1012837",
+    "it": "Ero curioso di sapere perché la gente mi guardava.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1012837",
+    "translation_kind": "direct"
   },
   {
     "audio": "86af11a47620",
@@ -42535,6 +44572,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a26ffb02e10c",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Me esperaba un nuevo fotomontaje.",
+    "es_author": "saverius",
+    "es_source_id": "10086946",
+    "id": "s_3180098",
+    "it": "Mi aspettavo un nuovo fotomontaggio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3180098",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "bd4001b8ad6d",
     "author": "Guybrush88",
     "cefr_estimate": "B1",
@@ -42813,6 +44863,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "1a29520dc9bd",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Ésta es la ciudad de la que te hablé.",
+    "es_author": "Shishir",
+    "es_source_id": "449823",
+    "id": "s_4628",
+    "it": "Ecco la città di cui ti parlavo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4628",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "17158a6ffdfe",
     "author": "Guybrush88",
     "cefr_estimate": "B1",
@@ -43032,6 +45095,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "5363b50f0516",
+    "author": "Guybrush88",
+    "cefr_estimate": "B1",
+    "es": "Había un silencio inquietante.",
+    "es_author": "IA (Claude)",
+    "id": "s_7106185",
+    "it": "C'era un silenzio inquietante.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7106185",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "7b4b641b832f",
     "author": "Guybrush88",
     "cefr_estimate": "B1",
@@ -43094,6 +45169,19 @@
     "it": "Non penso che sia una buona idea.",
     "license": "CC BY 2.0 FR",
     "source_id": "780573",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "4cbb48190c63",
+    "author": "wuiwie",
+    "cefr_estimate": "B1",
+    "es": "Ella cantaba una canción cuyo nombre no lo sé.",
+    "es_author": "gianich73",
+    "es_source_id": "7824064",
+    "id": "s_7823087",
+    "it": "Lei cantava una canzone di cui non so il nome.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7823087",
     "translation_kind": "direct"
   },
   {

@@ -1,0 +1,144 @@
+{
+  "id": "rd_infanzia",
+  "title": "Quando ero piccolo",
+  "kind": "lectura",
+  "level": "A2",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Relato en primera persona de la infancia, escrito por la IA para la entrada del módulo del imperfetto; apoyado en estructuras frecuentes de A2.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_infanzia_00",
+      "it": "Quando ero piccolo, abitavo in una casa vicino al mare.",
+      "es": "Cuando era pequeño, vivía en una casa cerca del mar."
+    },
+    {
+      "id": "rd_infanzia_01",
+      "it": "Nella casa c'era un grande giardino con molti alberi.",
+      "es": "En la casa había un gran jardín con muchos árboles."
+    },
+    {
+      "id": "rd_infanzia_02",
+      "it": "Molti anni fa, i miei nonni abitavano vicino a noi.",
+      "es": "Hace muchos años, mis abuelos vivían cerca de nosotros."
+    },
+    {
+      "id": "rd_infanzia_03",
+      "it": "Ogni domenica mangiavamo tutti insieme dai nonni.",
+      "es": "Cada domingo comíamos todos juntos donde los abuelos."
+    },
+    {
+      "id": "rd_infanzia_04",
+      "it": "Mia nonna faceva sempre la pasta e io dicevo: «Che buona!»",
+      "es": "Mi abuela siempre hacía pasta y yo decía: «¡Qué rica!»"
+    },
+    {
+      "id": "rd_infanzia_05",
+      "it": "Mio fratello era curioso e faceva mille domande.",
+      "es": "Mi hermano era curioso y hacía mil preguntas."
+    },
+    {
+      "id": "rd_infanzia_06",
+      "it": "Io invece ero timido e non dicevo molto.",
+      "es": "Yo, en cambio, era tímido y no decía mucho."
+    },
+    {
+      "id": "rd_infanzia_07",
+      "it": "A scuola c'erano venti bambini nella mia classe.",
+      "es": "En la escuela había veinte niños en mi clase."
+    },
+    {
+      "id": "rd_infanzia_08",
+      "it": "La maestra era gentile e aveva molta pazienza.",
+      "es": "La profesora era amable y tenía mucha paciencia."
+    },
+    {
+      "id": "rd_infanzia_09",
+      "it": "Dopo la scuola giocavamo in strada con gli amici.",
+      "es": "Después de la escuela jugábamos en la calle con los amigos."
+    },
+    {
+      "id": "rd_infanzia_10",
+      "it": "Avevamo una bicicletta e andavamo spesso al parco.",
+      "es": "Teníamos una bicicleta y íbamos seguido al parque."
+    },
+    {
+      "id": "rd_infanzia_11",
+      "it": "Da bambino, mi piaceva molto disegnare.",
+      "es": "De niño, me gustaba mucho dibujar."
+    },
+    {
+      "id": "rd_infanzia_12",
+      "it": "Non avevamo molte cose, ma eravamo contenti.",
+      "es": "No teníamos muchas cosas, pero estábamos contentos."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cómo era el carácter del narrador de niño?",
+      "options": [
+        "Era tímido",
+        "Era curioso",
+        "Era muy hablador"
+      ],
+      "answer": 0,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Qué había en la casa?",
+      "options": [
+        "Una piscina",
+        "Un gran jardín",
+        "Una biblioteca"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué hacía la abuela cada domingo?",
+      "options": [
+        "Pasta",
+        "Pizza",
+        "Pan"
+      ],
+      "answer": 0,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Cuántos niños había en la clase?",
+      "options": [
+        "Diez",
+        "Veinte",
+        "Treinta"
+      ],
+      "answer": 1,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Cómo era el hermano?",
+      "options": [
+        "Curioso",
+        "Tímido",
+        "Muy callado"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Qué hacían después de la escuela?",
+      "options": [
+        "Hacían las tareas",
+        "Veían televisión",
+        "Jugaban en la calle"
+      ],
+      "answer": 2,
+      "evidence": 9
+    }
+  ]
+}

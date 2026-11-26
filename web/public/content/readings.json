@@ -98,6 +98,104 @@
     "sentences": []
   },
   {
+    "id": "doc_a2m02_prima_adesso",
+    "title": "Prima e adesso: la mia città",
+    "level": "A2",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cómo era el centro antes?",
+        "options": [
+          "Pequeño y tranquilo",
+          "Grande y lleno de gente",
+          "Silencioso y oscuro"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Cuántos cines había antes?",
+        "options": [
+          "Tres",
+          "Uno solo",
+          "Ninguno"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Cómo iba antes al mercado el abuelo?",
+        "options": [
+          "En auto",
+          "En autobús",
+          "En bicicleta"
+        ],
+        "answer": 2
+      },
+      {
+        "prompt_es": "¿Qué usan ahora los chicos?",
+        "options": [
+          "El teléfono",
+          "La pelota",
+          "La bicicleta"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Cómo son hoy las calles?",
+        "options": [
+          "Estrechas y sin autos",
+          "Anchas y con mucho tráfico",
+          "Pequeñas y silenciosas"
+        ],
+        "answer": 1
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Prima",
+        "Adesso"
+      ],
+      "rows": [
+        [
+          "Il centro era piccolo e tranquillo.",
+          "Il centro è grande e pieno di gente."
+        ],
+        [
+          "C'era un solo cinema.",
+          "Ci sono tre cinema e un teatro."
+        ],
+        [
+          "Le strade erano strette e senza macchine.",
+          "Le strade sono larghe e c'è molto traffico."
+        ],
+        [
+          "Mio nonno andava al mercato in bicicletta.",
+          "Mia madre va al supermercato in macchina."
+        ],
+        [
+          "I ragazzi giocavano nella piazza.",
+          "I ragazzi usano il telefono."
+        ],
+        [
+          "C'erano molti negozi piccoli.",
+          "Ci sono pochi negozi piccoli e molti centri commerciali."
+        ],
+        [
+          "La sera la città era silenziosa.",
+          "La sera ci sono musica e luci."
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
     "id": "doc_annuncio",
     "title": "Affittasi stanza",
     "level": "A1",
@@ -1034,6 +1132,180 @@
         "es": "Entonces hablamos mañana. ¡Chao!",
         "speaker": "Giulia",
         "audio": "89e7144dd821",
+        "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "ls_a2m02",
+    "title": "Nonno, com'era il quartiere?",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué no había en el barrio cuando el abuelo era joven?",
+        "options": [
+          "Campos",
+          "Autos",
+          "Una plaza"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Cómo era el dueño de la única tienda?",
+        "options": [
+          "Muy simpático",
+          "Muy tímido",
+          "Muy celoso"
+        ],
+        "answer": 0,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Cuándo llegó el supermercado?",
+        "options": [
+          "Hace dos años",
+          "Hace veinte años",
+          "Hace diez años"
+        ],
+        "answer": 1,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Por qué le gustaba más el barrio de antes?",
+        "options": [
+          "Había más tiendas",
+          "Había más tiempo",
+          "Había más parques"
+        ],
+        "answer": 1,
+        "evidence": 11
+      },
+      {
+        "prompt_es": "¿Cuánto tiempo hace que Elena vive en el barrio?",
+        "options": [
+          "Dos años",
+          "Veinte años",
+          "Una semana"
+        ],
+        "answer": 0,
+        "evidence": 12
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_a2m02_00",
+        "it": "Nonno, com'era il quartiere quando eri giovane?",
+        "es": "Abuelo, ¿cómo era el barrio cuando eras joven?",
+        "speaker": "Elena",
+        "audio": "842a40dcb8f3"
+      },
+      {
+        "id": "ls_a2m02_01",
+        "it": "Era molto più piccolo. C'erano poche case e molti campi.",
+        "es": "Era mucho más pequeño. Había pocas casas y muchos campos.",
+        "speaker": "Paolo",
+        "audio": "5579cd6b80ea",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m02_02",
+        "it": "E dove giocavi?",
+        "es": "¿Y dónde jugabas?",
+        "speaker": "Elena",
+        "audio": "b73ef2b56c41"
+      },
+      {
+        "id": "ls_a2m02_03",
+        "it": "Giocavo in strada con i miei amici. Non c'erano macchine.",
+        "es": "Jugaba en la calle con mis amigos. No había autos.",
+        "speaker": "Paolo",
+        "audio": "cc91bf1fecd0",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m02_04",
+        "it": "Non c'era un parco?",
+        "es": "¿No había un parque?",
+        "speaker": "Elena",
+        "audio": "02f7e2bb726a"
+      },
+      {
+        "id": "ls_a2m02_05",
+        "it": "No, ma c'era una piazza con una fontana.",
+        "es": "No, pero había una plaza con una fuente.",
+        "speaker": "Paolo",
+        "audio": "bcfdc5018597",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m02_06",
+        "it": "E i negozi? C'erano come oggi?",
+        "es": "¿Y las tiendas? ¿Había como hoy?",
+        "speaker": "Elena",
+        "audio": "88fda119e691"
+      },
+      {
+        "id": "ls_a2m02_07",
+        "it": "C'era solo un negozio, e il padrone era molto simpatico.",
+        "es": "Había una sola tienda y el dueño era muy simpático.",
+        "speaker": "Paolo",
+        "audio": "488b16bd83a5",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m02_08",
+        "it": "Quando è arrivato il supermercato?",
+        "es": "¿Cuándo llegó el supermercado?",
+        "speaker": "Elena",
+        "audio": "d7870fe189d6"
+      },
+      {
+        "id": "ls_a2m02_09",
+        "it": "Il supermercato è arrivato venti anni fa.",
+        "es": "El supermercado llegó hace veinte años.",
+        "speaker": "Paolo",
+        "audio": "e735a59b4b7a",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m02_10",
+        "it": "Ti piaceva di più il quartiere di prima?",
+        "es": "¿Te gustaba más el barrio de antes?",
+        "speaker": "Elena",
+        "audio": "c16d63b4ab2d"
+      },
+      {
+        "id": "ls_a2m02_11",
+        "it": "Sì, c'era più tempo. Adesso tutti hanno fretta.",
+        "es": "Sí, había más tiempo. Ahora todos tienen prisa.",
+        "speaker": "Paolo",
+        "audio": "2bc093246c03",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m02_12",
+        "it": "Io abito qui da due anni e mi piace molto.",
+        "es": "Yo vivo aquí hace dos años y me gusta mucho.",
+        "speaker": "Elena",
+        "audio": "bd2e34b12d07"
+      },
+      {
+        "id": "ls_a2m02_13",
+        "it": "Sono contento. Vengo a trovarti fra una settimana.",
+        "es": "Me alegro. Voy a visitarte en una semana.",
+        "speaker": "Paolo",
+        "audio": "2d8a78190218",
         "voice": 2
       }
     ]
@@ -2758,6 +3030,282 @@
         "es": "Sí, hice una torta.",
         "speaker": "Elena",
         "audio": "2496cc328d1e"
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m02_a",
+    "title": "Quando eri piccolo…",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cómo era Luca de niño?",
+        "options": [
+          "Muy simpático",
+          "Muy tímido",
+          "Muy celoso"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Qué hacía Laura todos los días?",
+        "options": [
+          "Leía cómics",
+          "Veía dibujos animados",
+          "Jugaba a la pelota y andaba en bici"
+        ],
+        "answer": 2,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Qué leía Luca?",
+        "options": [
+          "Cómics",
+          "Libros de cocina",
+          "El diario"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Cómo era la casa de Luca?",
+        "options": [
+          "Grande, con piscina",
+          "Pequeña, con un lindo jardín",
+          "Pequeña, sin jardín"
+        ],
+        "answer": 1,
+        "evidence": 7
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m02_a_00",
+        "it": "Luca, com'eri da piccolo?",
+        "es": "Luca, ¿cómo eras de niño?",
+        "speaker": "Laura",
+        "audio": "9d5be4335a31"
+      },
+      {
+        "id": "rd_a2m02_a_01",
+        "it": "Ero molto timido e avevo paura del buio.",
+        "es": "Era muy tímido y le tenía miedo a la oscuridad.",
+        "speaker": "Luca",
+        "audio": "7c360870da8a",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m02_a_02",
+        "it": "Davvero? Io invece parlavo sempre con tutti.",
+        "es": "¿De verdad? Yo, en cambio, siempre hablaba con todos.",
+        "speaker": "Laura",
+        "audio": "c0f855d002b1"
+      },
+      {
+        "id": "rd_a2m02_a_03",
+        "it": "Che cosa ti piaceva fare?",
+        "es": "¿Qué te gustaba hacer?",
+        "speaker": "Luca",
+        "audio": "7920a69b465b",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m02_a_04",
+        "it": "Giocavo a pallone e andavo in bici ogni giorno.",
+        "es": "Jugaba a la pelota y andaba en bici todos los días.",
+        "speaker": "Laura",
+        "audio": "472a997c8159"
+      },
+      {
+        "id": "rd_a2m02_a_05",
+        "it": "Io leggevo fumetti e guardavo i cartoni animati.",
+        "es": "Yo leía cómics y veía dibujos animados.",
+        "speaker": "Luca",
+        "audio": "1c0fddc80dee",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m02_a_06",
+        "it": "Dove abitavi?",
+        "es": "¿Dónde vivías?",
+        "speaker": "Laura",
+        "audio": "7a19aa684fb3"
+      },
+      {
+        "id": "rd_a2m02_a_07",
+        "it": "Abitavo in una casa piccola, ma c'era un bel giardino.",
+        "es": "Vivía en una casa pequeña, pero había un lindo jardín.",
+        "speaker": "Luca",
+        "audio": "e5082dfbf24f",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m02_a_08",
+        "it": "Eri felice?",
+        "es": "¿Eras feliz?",
+        "speaker": "Laura",
+        "audio": "9d9843b46e89"
+      },
+      {
+        "id": "rd_a2m02_a_09",
+        "it": "Sì, molto. Avevo pochi amici, ma buoni.",
+        "es": "Sí, mucho. Tenía pocos amigos, pero buenos.",
+        "speaker": "Luca",
+        "audio": "9cfb4bfa39c9",
+        "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m02_b",
+    "title": "Un vecchio amico",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cuánto tiempo hace que Marco y Anna no se ven?",
+        "options": [
+          "Un año",
+          "Tres años",
+          "Una semana"
+        ],
+        "answer": 1,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Cómo era Davide según Anna?",
+        "options": [
+          "Tímido y tranquilo",
+          "Celoso pero simpático",
+          "Antipático"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Cuándo salían Anna y Davide?",
+        "options": [
+          "Todos los sábados",
+          "Todos los domingos",
+          "Todas las noches"
+        ],
+        "answer": 0,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Cuándo se fue Davide a Roma?",
+        "options": [
+          "Hace tres años",
+          "Hace una semana",
+          "Hace dos meses"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Cuándo es la fiesta de Marco?",
+        "options": [
+          "Mañana",
+          "En una semana",
+          "El sábado pasado"
+        ],
+        "answer": 1,
+        "evidence": 8
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m02_b_00",
+        "it": "Anna! Che sorpresa! Non ci vediamo da tre anni.",
+        "es": "¡Anna! ¡Qué sorpresa! Hace tres años que no nos vemos.",
+        "speaker": "Marco",
+        "audio": "fa42b5dc78db"
+      },
+      {
+        "id": "rd_a2m02_b_01",
+        "it": "È vero! A scuola eravamo sempre insieme.",
+        "es": "¡Es verdad! En el colegio siempre estábamos juntos.",
+        "speaker": "Anna",
+        "audio": "b2a54ac9969c",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m02_b_02",
+        "it": "Ti ricordi di Davide? Era il tuo fidanzato.",
+        "es": "¿Te acuerdas de Davide? Era tu novio.",
+        "speaker": "Marco",
+        "audio": "fe3f28f4347a"
+      },
+      {
+        "id": "rd_a2m02_b_03",
+        "it": "Sì, era molto geloso, ma anche simpatico.",
+        "es": "Sí, era muy celoso, pero también simpático.",
+        "speaker": "Anna",
+        "audio": "2c4d8d7c4a25",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m02_b_04",
+        "it": "Voi uscivate ogni sabato, vero?",
+        "es": "Ustedes salían todos los sábados, ¿verdad?",
+        "speaker": "Marco",
+        "audio": "772c20eb8bcd"
+      },
+      {
+        "id": "rd_a2m02_b_05",
+        "it": "Sì. Poi lui è andato a Roma tre anni fa.",
+        "es": "Sí. Después él se fue a Roma hace tres años.",
+        "speaker": "Anna",
+        "audio": "aa071f7309f8",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m02_b_06",
+        "it": "E adesso hai un altro fidanzato?",
+        "es": "¿Y ahora tienes otro novio?",
+        "speaker": "Marco",
+        "audio": "f7eb7f6903bb"
+      },
+      {
+        "id": "rd_a2m02_b_07",
+        "it": "No, sono single e sono contenta.",
+        "es": "No, estoy soltera y estoy contenta.",
+        "speaker": "Anna",
+        "audio": "bd05d93a38d5",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m02_b_08",
+        "it": "Allora vieni alla mia festa fra una settimana?",
+        "es": "Entonces, ¿vienes a mi fiesta en una semana?",
+        "speaker": "Marco",
+        "audio": "a635c7d26782"
+      },
+      {
+        "id": "rd_a2m02_b_09",
+        "it": "Volentieri! Grazie dell'invito.",
+        "es": "¡Con gusto! Gracias por la invitación.",
+        "speaker": "Anna",
+        "audio": "334b17b03b97",
+        "voice": 2
       }
     ]
   },
@@ -5916,6 +6464,162 @@
         "es": "¡Amo nuestro apartamento!",
         "speaker": "Francesco",
         "audio": "57ee5ec08a14"
+      }
+    ]
+  },
+  {
+    "id": "rd_infanzia",
+    "title": "Quando ero piccolo",
+    "level": "A2",
+    "kind": "lectura",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cómo era el carácter del narrador de niño?",
+        "options": [
+          "Era tímido",
+          "Era curioso",
+          "Era muy hablador"
+        ],
+        "answer": 0,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Qué había en la casa?",
+        "options": [
+          "Una piscina",
+          "Un gran jardín",
+          "Una biblioteca"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Qué hacía la abuela cada domingo?",
+        "options": [
+          "Pasta",
+          "Pizza",
+          "Pan"
+        ],
+        "answer": 0,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Cuántos niños había en la clase?",
+        "options": [
+          "Diez",
+          "Veinte",
+          "Treinta"
+        ],
+        "answer": 1,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Cómo era el hermano?",
+        "options": [
+          "Curioso",
+          "Tímido",
+          "Muy callado"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué hacían después de la escuela?",
+        "options": [
+          "Hacían las tareas",
+          "Veían televisión",
+          "Jugaban en la calle"
+        ],
+        "answer": 2,
+        "evidence": 9
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_infanzia_00",
+        "it": "Quando ero piccolo, abitavo in una casa vicino al mare.",
+        "es": "Cuando era pequeño, vivía en una casa cerca del mar.",
+        "audio": "16479535399a"
+      },
+      {
+        "id": "rd_infanzia_01",
+        "it": "Nella casa c'era un grande giardino con molti alberi.",
+        "es": "En la casa había un gran jardín con muchos árboles.",
+        "audio": "ffe6235f9b64"
+      },
+      {
+        "id": "rd_infanzia_02",
+        "it": "Molti anni fa, i miei nonni abitavano vicino a noi.",
+        "es": "Hace muchos años, mis abuelos vivían cerca de nosotros.",
+        "audio": "603b071dafaa"
+      },
+      {
+        "id": "rd_infanzia_03",
+        "it": "Ogni domenica mangiavamo tutti insieme dai nonni.",
+        "es": "Cada domingo comíamos todos juntos donde los abuelos.",
+        "audio": "effc691633a7"
+      },
+      {
+        "id": "rd_infanzia_04",
+        "it": "Mia nonna faceva sempre la pasta e io dicevo: «Che buona!»",
+        "es": "Mi abuela siempre hacía pasta y yo decía: «¡Qué rica!»",
+        "audio": "a04a946d3484"
+      },
+      {
+        "id": "rd_infanzia_05",
+        "it": "Mio fratello era curioso e faceva mille domande.",
+        "es": "Mi hermano era curioso y hacía mil preguntas.",
+        "audio": "08ec861ac99b"
+      },
+      {
+        "id": "rd_infanzia_06",
+        "it": "Io invece ero timido e non dicevo molto.",
+        "es": "Yo, en cambio, era tímido y no decía mucho.",
+        "audio": "453c5fe33f0a"
+      },
+      {
+        "id": "rd_infanzia_07",
+        "it": "A scuola c'erano venti bambini nella mia classe.",
+        "es": "En la escuela había veinte niños en mi clase.",
+        "audio": "a833d8df9a8e"
+      },
+      {
+        "id": "rd_infanzia_08",
+        "it": "La maestra era gentile e aveva molta pazienza.",
+        "es": "La profesora era amable y tenía mucha paciencia.",
+        "audio": "f34446d4892e"
+      },
+      {
+        "id": "rd_infanzia_09",
+        "it": "Dopo la scuola giocavamo in strada con gli amici.",
+        "es": "Después de la escuela jugábamos en la calle con los amigos.",
+        "audio": "47ca82230074"
+      },
+      {
+        "id": "rd_infanzia_10",
+        "it": "Avevamo una bicicletta e andavamo spesso al parco.",
+        "es": "Teníamos una bicicleta y íbamos seguido al parque.",
+        "audio": "4821a8fb4515"
+      },
+      {
+        "id": "rd_infanzia_11",
+        "it": "Da bambino, mi piaceva molto disegnare.",
+        "es": "De niño, me gustaba mucho dibujar.",
+        "audio": "0216a79fbfaf"
+      },
+      {
+        "id": "rd_infanzia_12",
+        "it": "Non avevamo molte cose, ma eravamo contenti.",
+        "es": "No teníamos muchas cosas, pero estábamos contentos.",
+        "audio": "ca4146bc4f9b"
       }
     ]
   },

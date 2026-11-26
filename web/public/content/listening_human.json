@@ -2471,6 +2471,20 @@
   "tatoeba": "8820833"
  },
  {
+  "id": "s_1984575",
+  "module": "a2m02",
+  "it": "Ero a casa.",
+  "es": "Estaba en casa.",
+  "tatoeba": "1984575"
+ },
+ {
+  "id": "s_1111442",
+  "module": "a2m02",
+  "it": "Era un topo.",
+  "es": "Era un ratón.",
+  "tatoeba": "1111442"
+ },
+ {
   "id": "s_380622",
   "module": "nivel",
   "it": "È un girasole.",
@@ -2485,11 +2499,32 @@
   "tatoeba": "381446"
  },
  {
+  "id": "s_3533086",
+  "module": "a2m02",
+  "it": "Non ero felice.",
+  "es": "No era feliz.",
+  "tatoeba": "3533086"
+ },
+ {
   "id": "s_5121182",
   "module": "a2m01",
   "it": "Sono andati lì.",
   "es": "Ellos fueron allí.",
   "tatoeba": "5121182"
+ },
+ {
+  "id": "s_626095",
+  "module": "a2m02",
+  "it": "Mi sentivo solo.",
+  "es": "Me sentía solo.",
+  "tatoeba": "626095"
+ },
+ {
+  "id": "s_1071813",
+  "module": "a2m02",
+  "it": "Eri con qualcuno?",
+  "es": "¿Estabas con alguien?",
+  "tatoeba": "1071813"
  },
  {
   "id": "s_2205893",
@@ -2518,6 +2553,13 @@
   "it": "Sono un tennista.",
   "es": "Soy tenista.",
   "tatoeba": "928127"
+ },
+ {
+  "id": "s_1248113",
+  "module": "a2m02",
+  "it": "C'era molto vento.",
+  "es": "Había mucho viento.",
+  "tatoeba": "1248113"
  },
  {
   "id": "s_4108291",
@@ -2562,6 +2604,20 @@
   "tatoeba": "3505219"
  },
  {
+  "id": "s_1174158",
+  "module": "a2m02",
+  "it": "Tom odiava Boston.",
+  "es": "Tom odiaba Boston.",
+  "tatoeba": "1174158"
+ },
+ {
+  "id": "s_5496786",
+  "module": "a2m02",
+  "it": "A Tom piaceva Mary.",
+  "es": "A Tom le gustaba Mary.",
+  "tatoeba": "5496786"
+ },
+ {
   "id": "s_388816",
   "module": "a2m01",
   "it": "Che cos'è successo?",
@@ -2574,6 +2630,13 @@
   "it": "Ci siamo divertiti.",
   "es": "Nos divertimos.",
   "tatoeba": "3345480"
+ },
+ {
+  "id": "s_1100240",
+  "module": "a2m02",
+  "it": "Era molto occupata.",
+  "es": "Estaba muy ocupada.",
+  "tatoeba": "1100240"
  },
  {
   "id": "s_5512094",
@@ -2590,6 +2653,20 @@
   "tatoeba": "373872"
  },
  {
+  "id": "s_379778",
+  "module": "a2m02",
+  "it": "Ieri faceva freddo.",
+  "es": "Ayer hacía frío.",
+  "tatoeba": "379778"
+ },
+ {
+  "id": "s_377637",
+  "module": "a2m02",
+  "it": "L'oceano era calmo.",
+  "es": "El océano estaba calmado.",
+  "tatoeba": "377637"
+ },
+ {
   "id": "s_374477",
   "module": "nivel",
   "it": "Oggi sono occupato.",
@@ -2602,6 +2679,13 @@
   "it": "È una principiante.",
   "es": "Es una principiante.",
   "tatoeba": "949664"
+ },
+ {
+  "id": "s_378689",
+  "module": "a2m02",
+  "it": "Ero un po' sorpreso.",
+  "es": "Estaba un poco sorprendido.",
+  "tatoeba": "378689"
  },
  {
   "id": "s_350796",
@@ -2639,6 +2723,13 @@
   "tatoeba": "1243680"
  },
  {
+  "id": "s_388769",
+  "module": "a2m02",
+  "it": "È arrabbiata con me.",
+  "es": "Está enfadada conmigo.",
+  "tatoeba": "388769"
+ },
+ {
   "id": "s_612486",
   "module": "a2m01",
   "it": "Chi ha rotto il vaso?",
@@ -2667,6 +2758,13 @@
   "tatoeba": "373939"
  },
  {
+  "id": "s_632233",
+  "module": "a2m02",
+  "it": "Il cane nero correva.",
+  "es": "El perro negro corría.",
+  "tatoeba": "632233"
+ },
+ {
   "id": "s_3884912",
   "module": "a2m01",
   "it": "L'ho già detto a Tom.",
@@ -2681,11 +2779,25 @@
   "tatoeba": "749811"
  },
  {
+  "id": "s_350350",
+  "module": "a2m02",
+  "it": "Non intendevo questo.",
+  "es": "No me refería a eso.",
+  "tatoeba": "350350"
+ },
+ {
   "id": "s_1109809",
   "module": "a2m01",
   "it": "Tom è stato anche là.",
   "es": "Tom también estuvo allí.",
   "tatoeba": "1109809"
+ },
+ {
+  "id": "s_377272",
+  "module": "a2m02",
+  "it": "Eravamo molto stanchi.",
+  "es": "Estábamos muy cansados.",
+  "tatoeba": "377272"
  },
  {
   "id": "s_949486",
@@ -2695,11 +2807,25 @@
   "tatoeba": "949486"
  },
  {
+  "id": "s_1073688",
+  "module": "a2m02",
+  "it": "Mia sorella è sposata.",
+  "es": "Mi hermana está casada.",
+  "tatoeba": "1073688"
+ },
+ {
   "id": "s_694337",
   "module": "a2m01",
   "it": "Non è ancora arrivato.",
   "es": "Todavía no ha llegado.",
   "tatoeba": "694337"
+ },
+ {
+  "id": "s_988471",
+  "module": "a2m02",
+  "it": "Era una giornata calda.",
+  "es": "Era un día caluroso.",
+  "tatoeba": "988471"
  },
  {
   "id": "s_3533000",
@@ -2714,6 +2840,13 @@
   "it": "Le ragazze hanno vinto.",
   "es": "Las chicas ganaron.",
   "tatoeba": "2003388"
+ },
+ {
+  "id": "s_383776",
+  "module": "a2m02",
+  "it": "Non era mia intenzione.",
+  "es": "No era mi intención.",
+  "tatoeba": "383776"
  },
  {
   "id": "s_381869",
@@ -2772,6 +2905,13 @@
   "tatoeba": "3533063"
  },
  {
+  "id": "s_5827208",
+  "module": "a2m02",
+  "it": "Lei continuava a piangere.",
+  "es": "Ella seguía llorando.",
+  "tatoeba": "5827208"
+ },
+ {
   "id": "s_1265834",
   "module": "a2m01",
   "it": "Non ho mai giocato a golf.",
@@ -2812,6 +2952,20 @@
   "it": "Hai avuto una lunga giornata.",
   "es": "Tuviste un día largo.",
   "tatoeba": "3532901"
+ },
+ {
+  "id": "s_375467",
+  "module": "a2m02",
+  "it": "La scatola era troppo pesante.",
+  "es": "La caja era demasiado pesada.",
+  "tatoeba": "375467"
+ },
+ {
+  "id": "s_1038810",
+  "module": "a2m02",
+  "it": "Così è come ci siamo conosciuti.",
+  "es": "Así fue como nos conocimos.",
+  "tatoeba": "1038810"
  },
  {
   "id": "s_2078806",

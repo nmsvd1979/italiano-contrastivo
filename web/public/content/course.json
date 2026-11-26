@@ -485,6 +485,41 @@
         "doc_a2m01_agenda",
         "vh_a2m01"
       ]
+    },
+    {
+      "id": "a2m02",
+      "level": "A2",
+      "title": "Cómo eran las cosas",
+      "can_do_es": [
+        "Describir cómo era tu vida de niño o un lugar antes.",
+        "Hablar de hábitos pasados.",
+        "Decir hace cuánto y desde cuándo.",
+        "Describir una foto: personas, lugares y qué hacían."
+      ],
+      "units": [
+        "u79",
+        "u80",
+        "u81",
+        "u82"
+      ],
+      "entry_reading": "rd_infanzia",
+      "roleplays": [
+        "rp_a2m02_a",
+        "rp_a2m02_b"
+      ],
+      "tasks": [
+        "ht_a2m02"
+      ],
+      "phrase_groups": [],
+      "library": "easy-italian",
+      "library_task_es": "Mira un video corto de Easy Italian sin pausar; después cuéntalo en pasado con «ero», «avevo» y «c'era».",
+      "writing_es": "Describe en 40–60 palabras cómo era tu casa o tu barrio cuando eras niño/a. Usa al menos 3 verbos en imperfetto y un «c'era» o «c'erano».",
+      "writing_short_es": "Escribe un correo de 25–50 palabras a un viejo amigo: dile hace cuánto tiempo no se ven («da… anni»), cómo era él/ella antes y cómo eran ustedes juntos. Usa «fa» o «da» y al menos 2 verbos en imperfetto.",
+      "extra_readings": [
+        "ls_a2m02",
+        "doc_a2m02_prima_adesso",
+        "vh_a2m02"
+      ]
     }
   ],
   "units": [
@@ -16122,6 +16157,511 @@
           "start": 0,
           "end": 21,
           "wrong": "Non sei ancora mio amico"
+        }
+      ]
+    },
+    {
+      "id": "u79",
+      "level": "A2",
+      "title": "Imperfetto: formas y personas",
+      "goal_es": "Imperfetto: formas y personas",
+      "codes": [
+        "ERR_IMPERFETTO_FORMA"
+      ],
+      "why_here": "La infancia, un lugar antes y ahora, costumbres de antes.",
+      "ficha_es": "En español la 1.ª y la 3.ª persona del imperfecto son iguales (yo hablaba, él hablaba). En italiano no: io parlavo, lui parlava; io ero, lui era. Además se escribe con v: parlavo, no *parlabo.\n\nError típico: *io parlava, *io era… (en español 1.ª y 3.ª coinciden); b/v: *parlaba → parlavo; ero, facevo, dicevo, bevevo. Válido y no es error: diceva, faceva (3.ª persona válidas); bevo (es presente, no error de forma)",
+      "status": "active",
+      "explanation_es": "En español la 1.ª y la 3.ª persona del imperfecto son iguales (yo hablaba, él hablaba). En italiano no: io parlavo, lui parlava; io ero, lui era. Además se escribe con v: parlavo, no *parlabo.",
+      "parts": {
+        "descubre": [
+          "s_2554119",
+          "s_2859867",
+          "s_2859870",
+          "s_3441780"
+        ],
+        "practica": [
+          "s_2554119",
+          "s_2859867",
+          "s_2859870",
+          "s_3441780",
+          "s_2255584",
+          "s_4582580",
+          "s_11546473",
+          "s_1287741",
+          "s_13302247",
+          "s_1923128",
+          "s_2559312",
+          "s_794354",
+          "s_1438621",
+          "s_3830022",
+          "s_13991807",
+          "s_672113",
+          "s_2041917",
+          "s_3134249",
+          "s_2437014",
+          "s_10825704",
+          "s_2529744",
+          "s_906068",
+          "s_3437960",
+          "s_883307",
+          "s_6852068",
+          "s_10771719",
+          "s_3034461",
+          "s_7764707",
+          "s_1083492",
+          "s_3175614",
+          "s_1881063",
+          "s_430326",
+          "s_4628",
+          "s_3180098",
+          "s_7823087",
+          "s_1012837"
+        ],
+        "escucha": [
+          "s_2554119",
+          "s_2255584",
+          "s_13302247",
+          "s_1438621",
+          "s_2041917",
+          "s_2529744",
+          "s_6852068",
+          "s_1083492"
+        ],
+        "prueba": [
+          "s_2866409",
+          "s_521072",
+          "s_3534491",
+          "s_10249817",
+          "s_1689806",
+          "s_4073980",
+          "s_4820692",
+          "s_3496462"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2554119",
+          "start": 7,
+          "end": 10,
+          "wrong": "era"
+        },
+        {
+          "id": "s_2859867",
+          "start": 7,
+          "end": 10,
+          "wrong": "era"
+        },
+        {
+          "id": "s_2859870",
+          "start": 7,
+          "end": 10,
+          "wrong": "era"
+        },
+        {
+          "id": "s_3441780",
+          "start": 0,
+          "end": 7,
+          "wrong": "Pensabo"
+        }
+      ]
+    },
+    {
+      "id": "u80",
+      "level": "A2",
+      "title": "C'era, c'erano, c'è stato",
+      "goal_es": "C'era, c'erano, c'è stato",
+      "codes": [
+        "ERR_CE_IMPERFETTO"
+      ],
+      "why_here": "La infancia, un lugar antes y ahora, costumbres de antes.",
+      "ficha_es": "El imperfecto de «c'è / ci sono» concuerda con lo que había: c'era una casa, c'erano molte persone. El español dice «había» para el singular y para el plural, y por eso se tiende a decir *c'era molte persone.\n\nError típico: *c'era molte persone, *c'erano una casa → c'erano molte persone, c'era una casa. Válido y no es error: ci sono stati / c'è stato (existencial)",
+      "status": "active",
+      "explanation_es": "El imperfecto de «c'è / ci sono» concuerda con lo que había: c'era una casa, c'erano molte persone. El español dice «había» para el singular y para el plural, y por eso se tiende a decir *c'era molte persone.",
+      "parts": {
+        "descubre": [
+          "s_1283106",
+          "s_1283107",
+          "s_430079",
+          "s_5980236"
+        ],
+        "practica": [
+          "s_1283106",
+          "s_1283107",
+          "s_430079",
+          "s_5980236",
+          "s_9045437",
+          "s_1266623",
+          "s_7496793",
+          "s_4209266",
+          "s_11020842",
+          "s_2555912",
+          "s_9033269",
+          "s_4209267",
+          "s_1710362",
+          "s_2555913",
+          "s_2848893",
+          "s_382113",
+          "s_11719061",
+          "s_12703246",
+          "s_6143741",
+          "s_3488128",
+          "s_375031",
+          "s_3881752",
+          "s_4210287",
+          "s_7496432",
+          "s_1710363",
+          "s_3472725",
+          "s_11597024",
+          "s_2512174",
+          "s_5197826",
+          "s_10492022",
+          "s_3544426",
+          "s_622740",
+          "s_3347496",
+          "s_3347497",
+          "s_409503",
+          "s_1574231",
+          "s_801729",
+          "s_14049591",
+          "s_1855222",
+          "s_7106185"
+        ],
+        "escucha": [
+          "s_1283106",
+          "s_1266623",
+          "s_9033269",
+          "s_382113",
+          "s_375031",
+          "s_3472725",
+          "s_3544426",
+          "s_1574231"
+        ],
+        "prueba": [
+          "s_7496792",
+          "s_2554703",
+          "s_350436",
+          "s_7496805",
+          "s_7496433",
+          "s_2779245",
+          "s_1855221",
+          "s_830342"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1283106",
+          "start": 2,
+          "end": 5,
+          "wrong": "erano"
+        },
+        {
+          "id": "s_1283107",
+          "start": 2,
+          "end": 5,
+          "wrong": "erano"
+        },
+        {
+          "id": "s_430079",
+          "start": 2,
+          "end": 7,
+          "wrong": "era"
+        },
+        {
+          "id": "s_5980236",
+          "start": 2,
+          "end": 7,
+          "wrong": "era"
+        }
+      ]
+    },
+    {
+      "id": "u81",
+      "level": "A2",
+      "title": "Hace…, desde…, en…: fa, da, per, fra, scorso",
+      "goal_es": "Hace…, desde…, en…: fa, da, per, fra, scorso",
+      "codes": [
+        "ERR_TEMPO_FA_DA"
+      ],
+      "why_here": "La infancia, un lugar antes y ahora, costumbres de antes.",
+      "ficha_es": "En italiano «fa» va después del tiempo (due anni fa); el español pone «hace» antes (hace dos años). Para lo que dura hasta ahora se usa da (studio italiano da due anni) y para un plazo futuro, fra o tra (fra due giorni), no *in due giorni.\n\nError típico: *fa due anni → due anni fa; *in due giorni → fra due giorni; *studio per due anni (con presente) → studio da due anni; sono due anni che studio. Válido y no es error: ho studiato per due anni (pasado cerrado: válido); la settimana passata (válida)",
+      "status": "active",
+      "explanation_es": "En italiano «fa» va después del tiempo (due anni fa); el español pone «hace» antes (hace dos años). Para lo que dura hasta ahora se usa da (studio italiano da due anni) y para un plazo futuro, fra o tra (fra due giorni), no *in due giorni.",
+      "parts": {
+        "descubre": [
+          "s_378716",
+          "s_7703578",
+          "s_11252197",
+          "s_1351004"
+        ],
+        "practica": [
+          "s_378716",
+          "s_7703578",
+          "s_11252197",
+          "s_1351004",
+          "s_3561284",
+          "s_383637",
+          "s_2020647",
+          "s_2074930",
+          "s_2233612",
+          "s_2233614",
+          "s_7703580",
+          "s_1114021",
+          "s_5826143",
+          "s_3368821",
+          "s_8780918",
+          "s_1623185",
+          "s_1794215",
+          "s_3368822",
+          "s_4029869",
+          "s_4567518",
+          "s_1587014",
+          "s_2914592",
+          "s_3835502",
+          "s_934446",
+          "s_1546924",
+          "s_2607886",
+          "s_4029870",
+          "s_4400036",
+          "s_622287",
+          "s_11253985",
+          "s_378135",
+          "s_380167",
+          "s_3000351",
+          "s_425510",
+          "s_861872",
+          "s_946825",
+          "s_383475",
+          "s_1242399",
+          "s_3553439"
+        ],
+        "escucha": [
+          "s_378716",
+          "s_3561284",
+          "s_2233612",
+          "s_5826143",
+          "s_1794215",
+          "s_1587014",
+          "s_1546924",
+          "s_622287"
+        ],
+        "prueba": [
+          "s_7703579",
+          "s_1114020",
+          "s_8884877",
+          "s_4567515",
+          "s_1546923",
+          "s_5826146",
+          "s_637124",
+          "s_3889127"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_378716",
+          "start": 10,
+          "end": 19,
+          "wrong": "fa un'ora"
+        },
+        {
+          "id": "s_7703578",
+          "start": 9,
+          "end": 19,
+          "wrong": "fa un anno"
+        },
+        {
+          "id": "s_11252197",
+          "start": 10,
+          "end": 20,
+          "wrong": "fa tre ore"
+        },
+        {
+          "id": "s_1351004",
+          "start": 0,
+          "end": 10,
+          "wrong": "Fa un anno"
+        }
+      ]
+    },
+    {
+      "id": "u82",
+      "level": "A2",
+      "title": "Vocabulario: carácter y relaciones",
+      "goal_es": "Vocabulario: carácter y relaciones",
+      "codes": [
+        "ERR_VOC_CARATTERE"
+      ],
+      "why_here": "La infancia, un lugar antes y ahora, costumbres de antes.",
+      "ficha_es": "Cómo es una persona y cómo te relacionas: timido, curioso, geloso (celoso), sincero, tranquillo, fidanzato/a (el novio o la novia con compromiso; el simple «novio» sin compromiso es ragazzo), straniero/a (extranjero), vicina (vecina). Los adjetivos concuerdan: timido, timida.\n\nError típico: gentile, simpatico, timido, collega, vicino, conoscente, fidanzato, cognato, parente (gentile ≠ «gentil»); y la concordancia nombre–adjetivo que CILS A2 pide producir: *gente simpatici, *case grande → gente simpatica, case grandi; -co/-ca → -chi/-che (amici simpatici)",
+      "words": [
+        {
+          "form": "timido",
+          "gender": "m",
+          "num": "s",
+          "gloss": "tímido",
+          "audio": "8b12e8c1f997",
+          "sieve": "transparente"
+        },
+        {
+          "form": "timida",
+          "gender": "f",
+          "num": "s",
+          "gloss": "tímida",
+          "audio": "fb80d9703f51",
+          "sieve": "transparente"
+        },
+        {
+          "form": "curioso",
+          "gender": "m",
+          "num": "s",
+          "gloss": "curioso",
+          "audio": "447c64ec2568",
+          "sieve": "transparente"
+        },
+        {
+          "form": "geloso",
+          "gender": "m",
+          "num": "s",
+          "gloss": "celoso",
+          "audio": "485f96b6a566",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "celoso→geloso: c→g"
+        },
+        {
+          "form": "gelosa",
+          "gender": "f",
+          "num": "s",
+          "gloss": "celosa",
+          "audio": "916684a5e364",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "celosa→gelosa: c→g"
+        },
+        {
+          "form": "sincero",
+          "gender": "m",
+          "num": "s",
+          "gloss": "sincero",
+          "audio": "f6e54c13e910",
+          "sieve": "transparente"
+        },
+        {
+          "form": "tranquillo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "tranquilo",
+          "audio": "3dc25248a4ce",
+          "sieve": "regular",
+          "rule": "doble",
+          "note": "tranquilo→tranquillo: l doble"
+        },
+        {
+          "form": "tranquilla",
+          "gender": "f",
+          "num": "s",
+          "gloss": "tranquila",
+          "audio": "99ff80a807d7",
+          "sieve": "regular",
+          "rule": "doble",
+          "note": "tranquila→tranquilla: l doble"
+        },
+        {
+          "form": "fidanzato",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el novio (con compromiso)",
+          "audio": "5f9efc73fd95",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "fidanzata",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la novia (con compromiso)",
+          "audio": "c7f067995466",
+          "art": "la",
+          "sieve": "opaca"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Cómo es una persona y cómo te relacionas: timido, curioso, geloso (celoso), sincero, tranquillo, fidanzato/a (el novio o la novia con compromiso; el simple «novio» sin compromiso es ragazzo), straniero/a (extranjero), vicina (vecina). Los adjetivos concuerdan: timido, timida.",
+      "parts": {
+        "descubre": [
+          "s_2190779",
+          "s_3838159",
+          "s_5017650",
+          "s_2934975"
+        ],
+        "practica": [
+          "s_2190779",
+          "s_3838159",
+          "s_5017650",
+          "s_2934975",
+          "s_2934977",
+          "s_5287986",
+          "s_2935000",
+          "s_3252401",
+          "s_3252404",
+          "s_1987871",
+          "s_2221443",
+          "s_2221445",
+          "s_3102494",
+          "s_3519186",
+          "s_3519191",
+          "s_4236583",
+          "s_2565200",
+          "s_3089743",
+          "s_3089745",
+          "s_2708368",
+          "s_382402",
+          "s_382284",
+          "s_3783743",
+          "s_524218"
+        ],
+        "escucha": [
+          "s_2190779",
+          "s_2934975",
+          "s_2935000",
+          "s_1987871",
+          "s_3102494",
+          "s_4236583",
+          "s_3089745",
+          "s_382284"
+        ],
+        "prueba": [
+          "s_2708352",
+          "s_5327106",
+          "s_2250740",
+          "s_5327099",
+          "s_4741234",
+          "s_6921480"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2190779",
+          "start": 6,
+          "end": 12,
+          "wrong": "curioso"
+        },
+        {
+          "id": "s_3838159",
+          "start": 6,
+          "end": 12,
+          "wrong": "sincero"
+        },
+        {
+          "id": "s_5017650",
+          "start": 6,
+          "end": 12,
+          "wrong": "fidanzata"
+        },
+        {
+          "id": "s_2934975",
+          "start": 7,
+          "end": 13,
+          "wrong": "tranquillo"
         }
       ]
     },

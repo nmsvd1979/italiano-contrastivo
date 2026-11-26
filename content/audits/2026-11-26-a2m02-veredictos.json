@@ -1,0 +1,1491 @@
+[
+ {
+  "id": "s_10249817",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Trabajaba en un restaurante.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4820692",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Estaba demasiado ocupado para escribirte.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3441780",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "¡Pensaba en ti!",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2255584",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Era gordo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2866409",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Tom vivía allí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1287741",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Hablaba de ti.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2554119",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "No estaba en casa.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_521072",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Buscaba la llave.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2559312",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Tenía mucha hambre.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1923128",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Estaba en la montaña.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_794354",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Entonces no estudiaba.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3534491",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "No estaba soñando.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1438621",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Era más flexible.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3830022",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Daba ejemplos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13991807",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Ella no hablaba español.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_672113",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Ella llevaba anteojos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2041917",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Pensaba que estaba solo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3134249",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Vivía al lado de su tío.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2437014",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Necesitaba espacio.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_10825704",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Vi a Tom mientras nadaba.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2816083",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "reject",
+  "nota": "Frase rara; si aspettava es forma de cortesía, no tú."
+ },
+ {
+  "id": "s_1689806",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Hablaba cada vez más fuerte.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2529744",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Tom esperaba con impaciencia.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_906068",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "La gente bailaba en las calles.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_883307",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Jugaba al tenis todos los domingos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3437960",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Yo también quería ver el mar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3034300",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "reject",
+  "nota": "Pensavo di essere mio fratello: absurdo, ambiguo."
+ },
+ {
+  "id": "s_4073980",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "No sabía que trabajabas aquí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4628",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Esta es la ciudad de la que te hablaba.",
+  "nivel": "B1"
+ },
+ {
+  "id": "s_6852068",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Yo sabía lo que Tom estaba pensando.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_10771719",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Cuando estaba aquí, nadaba por la mañana.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3034461",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Hablaba con el embajador polaco.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3180098",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Esperaba un fotomontaje nuevo.",
+  "nivel": "B1"
+ },
+ {
+  "id": "s_6570547",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "reject",
+  "nota": "Congiuntivo imperfetto (sapeste)."
+ },
+ {
+  "id": "s_7764707",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Quería ser profesor de francés.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1083492",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Decía que sí con la cabeza, pero no escuchaba.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2233929",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "reject",
+  "nota": "Mantellina: vocabulario raro, poco útil."
+ },
+ {
+  "id": "s_11949696",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "reject",
+  "nota": "Tema de amenaza; además trapassato/passato prossimo mezclado."
+ },
+ {
+  "id": "s_7823087",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Ella cantaba una canción cuyo nombre no sé.",
+  "nivel": "B1"
+ },
+ {
+  "id": "s_3496462",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "¿Cuándo pensaban volver a Estados Unidos?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3175614",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Era uno de los mejores alumnos de la clase.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1881063",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Comía todos los días en el buffet del restaurante.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_430326",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "John tocaba la guitarra y sus amigos cantaban.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1012837",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Tenía curiosidad por saber por qué me miraba la gente.",
+  "nivel": "B1"
+ },
+ {
+  "id": "s_968199",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "reject",
+  "nota": "Modismo (con tutta l'anima, tirarci su)."
+ },
+ {
+  "id": "s_2859867",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "No estaba ocupado.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2859870",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "No estaba ocupada.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_8380266",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "reject",
+  "nota": "Congiuntivo imperfetto (odiasse)."
+ },
+ {
+  "id": "s_5098636",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "reject",
+  "nota": "Congiuntivo imperfetto (conoscesse)."
+ },
+ {
+  "id": "s_3573879",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "reject",
+  "nota": "Congiuntivo imperfetto (abitasse)."
+ },
+ {
+  "id": "s_384838",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "reject",
+  "nota": "Congiuntivo imperfetto (piacesse)."
+ },
+ {
+  "id": "s_14025247",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "reject",
+  "nota": "Trapassato prossimo (avevo mangiato)."
+ },
+ {
+  "id": "s_4582580",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Estaba decepcionado.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13302247",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Jugaba al tenis.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11546473",
+  "codigo": "ERR_IMPERFETTO_FORMA",
+  "veredicto": "keep",
+  "espanol": "Jugaba al fútbol.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1266623",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había tres hombres.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3881752",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había un solo cine en la ciudad.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1574231",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había unos cuadros hermosos en esa pared.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_14049591",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había muchas manzanas podridas en la canasta.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1855222",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había una vez una hermosa princesa.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4631903",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Typo \"matina\" en el italiano."
+ },
+ {
+  "id": "s_5980236",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había dos puentes.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1283107",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había un puente allá.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_9045437",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había una vez...",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1283106",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había un puente allí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_430079",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había dos tortas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7496792",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había un puente aquí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7496793",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había un puente aquí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_9010738",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Italiano poco natural; sería \"Eravamo in dieci\"."
+ },
+ {
+  "id": "s_4209266",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había unas flores allí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_9064824",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Tema religioso (moschea)."
+ },
+ {
+  "id": "s_9064825",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Tema religioso (moschea)."
+ },
+ {
+  "id": "s_11020842",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Aquí había un jardín.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_9033269",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "¿Había mucha gente?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2555912",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había unas flores aquí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4209267",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había algunas flores allí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2554703",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había otro problema.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1710362",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "¿Había un libro sobre el banco?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2555913",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había algunas flores aquí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_382113",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Sobre la mesa había un gato.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2848893",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había una gran multitud allí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_350436",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "¿Había un libro sobre la mesa?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1905040",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Frase poco natural; ambigua."
+ },
+ {
+  "id": "s_11719061",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había diez huevos en total.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_12703246",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había perros por todas partes.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7106186",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Angoscioso: léxico B1+ poco natural."
+ },
+ {
+  "id": "s_4210290",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Ortografía errónea \"piraña\"."
+ },
+ {
+  "id": "s_6143741",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había islas en el mar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7496805",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había un puente sobre cada río.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7496433",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Una vez, había un puente aquí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7496432",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Una vez, había un puente aquí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7106185",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había un silencio inquietante.",
+  "nivel": "B1"
+ },
+ {
+  "id": "s_375031",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "No había una nube en el cielo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3488128",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había un baile en nuestro club.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4210287",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había pirañas en el río.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3472725",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había algunos botes en el lago.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1710363",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "¿Había un libro sobre el escritorio?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5197826",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había muchos autos en la calle.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2512174",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había mucha gente en el parque.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11597024",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había un castillo en la colina.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2779245",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "En la calle había mucha gente.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_10492022",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "¿Había mucha gente en la fiesta?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3544426",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Hace mucho tiempo había un puente allí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_622740",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Ese día había mucho viento.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1855221",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había una vez una hermosa muchacha.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3347497",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había mucha gente en la habitación.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_409503",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había muchos niños en la sala.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3347496",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había mucha gente en la sala.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_830342",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Había muchas ranas en este estanque.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_801729",
+  "codigo": "ERR_CE_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Debajo de la mesa había un gato negro.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1310257",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "reject",
+  "nota": "Passato remoto (smisi), no A2."
+ },
+ {
+  "id": "s_2607886",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Tom llegó hace ocho días.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_378135",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Nos casamos hace siete años.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_706234",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "reject",
+  "nota": "Frase rara y poco natural; imperfetto extraño."
+ },
+ {
+  "id": "s_861872",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Hace dos años fui a China.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_946825",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Dejé de fumar hace dos años.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_383475",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Llegué a Japón hace dos años.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3889127",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Tom escribió esto hace tres semanas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1242399",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "La vi en algún lugar hace dos años.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3553439",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Llegó de Australia hace un año.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3781995",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "doubt",
+  "nota": "Incidente: tema algo negativo."
+ },
+ {
+  "id": "s_6702088",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "reject",
+  "nota": "Sin contexto; «È stata» ambiguo."
+ },
+ {
+  "id": "s_1100303",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "reject",
+  "nota": "Sin contexto; verbo ambiguo."
+ },
+ {
+  "id": "s_4310086",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "reject",
+  "nota": "Sin contexto; verbo ambiguo."
+ },
+ {
+  "id": "s_7703578",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Fue hace solo un año.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_378716",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Se fue hace una hora.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11252197",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Lo sabía hace tres horas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3561284",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Almorcé hace dos horas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1351004",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Hace un año estábamos aquí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_383637",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Lo vi hace tres años.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7703579",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Fue hace apenas un año.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2233612",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Me levanté hace una hora.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2233614",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Me levanté hace una hora.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7703580",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Fue hace tan solo un año.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2074930",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Tom estaba aquí hace un minuto.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2020647",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Pasó hace tres días.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1114020",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "La encontré hace una hora.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1114021",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "La conocí hace una hora.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1824304",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "doubt",
+  "nota": "Enfermedad: tema algo sensible."
+ },
+ {
+  "id": "s_5826143",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Se fue hace diez minutos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4954126",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "reject",
+  "nota": "Desaparición: tema sensible."
+ },
+ {
+  "id": "s_8884877",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Se casó hace diez años.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_8780918",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Fui allí hace tres años.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3368821",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Tom vivía aquí hace tres años.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4029869",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Empezó hace diez minutos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4567515",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Se casaron hace tres meses.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4567518",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Se casaron hace tres meses.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1623185",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Tom se fue hace tres días.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3368822",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Tom vivía aquí hace tres años.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1794215",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "La vi hace una semana.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_934446",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Vino aquí hace diez minutos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1587014",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Fue a Londres hace un mes.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2914592",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Tom llegó hace tres días.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3835502",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Cerré el negocio hace una hora.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5826146",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Se fue hace diez minutos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_622287",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Me casé hace diez años.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1546924",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "La encontré hace tres días.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4029870",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Comenzó hace diez minutos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1546923",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "La conocí hace tres días.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4400036",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Fue a París hace dos años.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_380167",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Este perro nació hace dos meses.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_637124",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Yo lo conocí hace tres años.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11253985",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Llegué hace dos semanas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_425510",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Dejó de nevar hace una hora.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3000351",
+  "codigo": "ERR_TEMPO_FA_DA",
+  "veredicto": "keep",
+  "espanol": "Tom vivía en Boston hace tres años.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2708368",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Soy muy tímido.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2708370",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "Sustituta vicina: otro sentido."
+ },
+ {
+  "id": "s_382402",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Soy muy curioso.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1064250",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "Sustituta vicina: otro sentido."
+ },
+ {
+  "id": "s_382284",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Soy un chico tímido.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_6921480",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Él es tímido como un ratoncito.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_997763",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "doubt",
+  "nota": "Sustituta geloso en hueco de sustantivo forzada."
+ },
+ {
+  "id": "s_3783743",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Sabía que Tom era tímido.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2877116",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "Passato remoto (fu)."
+ },
+ {
+  "id": "s_3485625",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "Maniaco: tema inadecuado."
+ },
+ {
+  "id": "s_4641228",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "Sustituta straniera: otro sentido."
+ },
+ {
+  "id": "s_2136113",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "doubt",
+  "nota": "«alla tua timida» forzado con sustituta."
+ },
+ {
+  "id": "s_1343995",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "Sustituta straniera: otro sentido."
+ },
+ {
+  "id": "s_609121",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "doubt",
+  "nota": "«la sua timida» forzado con sustituta."
+ },
+ {
+  "id": "s_1012837",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "«geloso di sapere» imposible con sustituta."
+ },
+ {
+  "id": "s_3021886",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "Cementerio/hospital; proverbio."
+ },
+ {
+  "id": "s_524218",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Miguel no le tenía miedo y era muy curioso.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1131138",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "Sustituta vicina: otro sentido."
+ },
+ {
+  "id": "s_4581773",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "Sustituta straniera: otro sentido."
+ },
+ {
+  "id": "s_1912810",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "Sustituta straniera imposible con musica."
+ },
+ {
+  "id": "s_992566",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "Sustituta straniera: otro sentido."
+ },
+ {
+  "id": "s_5287992",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "«Lei è geloso»: concordancia dudosa."
+ },
+ {
+  "id": "s_5017650",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "¿Ella es celosa?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3838159",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "¿Tom es celoso?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2934983",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "Sustituta straniera: otro sentido."
+ },
+ {
+  "id": "s_2934981",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "«Lei è timido»: concordancia dudosa."
+ },
+ {
+  "id": "s_2190779",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Tom es tímido.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2934975",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Tú eres tímido.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5327119",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "«Lei è sincero»: concordancia dudosa."
+ },
+ {
+  "id": "s_5287986",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Tú eres celoso.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5287988",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "Sustituta straniera: otro sentido."
+ },
+ {
+  "id": "s_2934977",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Tú eres tímida.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2708354",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "Sustituta vicina: otro sentido."
+ },
+ {
+  "id": "s_2708352",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Yo soy tímido.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3252401",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Yo soy celoso.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5327106",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Tú eres sincero.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3252404",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Yo soy celosa.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2935000",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Es muy tímida.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2221445",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "No soy tímida.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5327099",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Yo soy sincero.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4236581",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "Sustituta vicina: otro sentido."
+ },
+ {
+  "id": "s_2250740",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Es un poco tímido.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2250739",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "Sustituta straniera: otro sentido."
+ },
+ {
+  "id": "s_6571772",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "«Ho un curioso» sustitución imposible."
+ },
+ {
+  "id": "s_3102494",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Es un poco celoso.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3519186",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "No soy celoso.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3503076",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "reject",
+  "nota": "«Ha un tranquillo» sustitución imposible."
+ },
+ {
+  "id": "s_2221443",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "No soy tímido.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3519191",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "No soy celosa.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4236583",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "¿Todavía es celoso?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1987871",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Yo soy curioso.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3089745",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "¡Soy tan celosa!",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3089743",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "¡Soy tan celoso!",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4741234",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Ella es tranquila.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2565200",
+  "codigo": "ERR_VOC_CARATTERE",
+  "veredicto": "keep",
+  "espanol": "Tom es tranquilo.",
+  "nivel": "A1"
+ }
+]

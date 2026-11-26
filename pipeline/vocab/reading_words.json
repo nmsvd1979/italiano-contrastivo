@@ -40,6 +40,10 @@
 "g": "vivía",
 "k": "transparente"
 },
+"abitavano": {
+"g": "vivían",
+"k": "transparente"
+},
 "abitavi": {
 "g": "vivías",
 "k": "transparente"
@@ -165,6 +169,10 @@
 "albergo": {
 "g": "hotel",
 "k": "transparente"
+},
+"alberi": {
+"g": "árboles",
+"k": "opaca"
 },
 "alcune": {
 "g": "algunas",
@@ -353,6 +361,10 @@
 },
 "andato": {
 "g": "ido",
+"k": "opaca"
+},
+"andavamo": {
+"g": "íbamos",
 "k": "opaca"
 },
 "andavo": {
@@ -619,6 +631,14 @@
 },
 "avete": {
 "g": "tienen (ustedes) / han",
+"k": "opaca"
+},
+"aveva": {
+"g": "tenía / había",
+"k": "opaca"
+},
+"avevamo": {
+"g": "teníamos",
 "k": "opaca"
 },
 "avevo": {
@@ -1505,6 +1525,10 @@
 "g": "nombre propio",
 "k": "transparente"
 },
+"classe": {
+"g": "clase",
+"k": "transparente"
+},
 "cognome": {
 "g": "apellido",
 "k": "opaca"
@@ -1887,6 +1911,10 @@
 "g": "cúpula",
 "k": "transparente"
 },
+"curioso": {
+"g": "curioso",
+"k": "transparente"
+},
 "d": {
 "g": "de (se une a la palabra siguiente)",
 "k": "opaca"
@@ -2069,6 +2097,10 @@
 "g": "dice",
 "k": "transparente"
 },
+"dicevo": {
+"g": "decía",
+"k": "opaca"
+},
 "dichiarato": {
 "g": "declarado",
 "k": "regular",
@@ -2121,6 +2153,10 @@
 "direttamente": {
 "g": "directamente",
 "k": "transparente"
+},
+"disegnare": {
+"g": "dibujar",
+"k": "opaca"
 },
 "disordine": {
 "g": "desorden",
@@ -2183,6 +2219,10 @@
 },
 "domanda": {
 "g": "pregunta",
+"k": "opaca"
+},
+"domande": {
+"g": "preguntas",
 "k": "opaca"
 },
 "domani": {
@@ -2886,6 +2926,10 @@
 },
 "giocare": {
 "g": "jugar",
+"k": "opaca"
+},
+"giocavamo": {
+"g": "jugábamos",
 "k": "opaca"
 },
 "giocavi": {
@@ -3636,6 +3680,10 @@
 "g": "madre",
 "k": "transparente"
 },
+"maestra": {
+"g": "maestra",
+"k": "transparente"
+},
 "magari": {
 "g": "ojalá / quizás",
 "k": "opaca"
@@ -3701,6 +3749,10 @@
 },
 "mangiato": {
 "g": "comido",
+"k": "opaca"
+},
+"mangiavamo": {
+"g": "comíamos",
 "k": "opaca"
 },
 "mangio": {
@@ -4682,6 +4734,10 @@
 },
 "paziente": {
 "g": "paciente",
+"k": "transparente"
+},
+"pazienza": {
+"g": "paciencia",
 "k": "transparente"
 },
 "peccato": {

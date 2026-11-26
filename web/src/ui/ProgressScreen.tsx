@@ -29,7 +29,7 @@ export function ProgressScreen({ week, days, today, modules, weak }: { week: Sec
           <p className="figure"><b aria-hidden="true">{can.known}</b><span aria-hidden="true">de {can.total}</span><span className="sr">{can.known} de {can.total}</span></p>
           <progress max={can.total} value={can.known} aria-label="«Sé hacer» conseguidos" />
           <ul className="sealgrid" aria-label="Sellos de los módulos">
-            {modules.map((m) => <li key={m.module.id}><Stamp index={m.index} number={m.number} earned={m.state === "completed"} size="sm" /><small>{m.module.level === "A1" ? m.number : `${m.module.level}·${m.number}`}</small></li>)}
+            {modules.map((m) => <li key={m.module.id}><Stamp index={m.index} number={m.number} earned={m.state === "completed"} size="sm" label={m.module.level === "A1" ? undefined : `Sello del módulo ${m.number} de ${m.module.level}, ${m.state === "completed" ? "ganado" : "pendiente"}`} /><small>{m.module.level === "A1" ? m.number : `${m.module.level}·${m.number}`}</small></li>)}
           </ul>
           {can.groups.map((g) => {
             const known = g.items.filter((i) => i.state !== "pendiente").length;

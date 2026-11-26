@@ -465,6 +465,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Nuel",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Yo trabajaba en un restaurante.",
+    "es_author": "saverius",
+    "es_source_id": "10255879",
+    "id": "s_10249817",
+    "it": "Lavoravo in un ristorante.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10249817",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "carlosalberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -630,6 +652,29 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "¿Había mucha gente en la fiesta?",
+    "es_author": "IA (Claude)",
+    "id": "s_10492022",
+    "it": "C'erano molte persone alla festa?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10492022",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_REFLEXIVE_AUX"
     ],
     "es": "Ella se ha despertado antes que él.",
@@ -781,6 +826,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Cuando estaba aquí, nadaba por la mañana.",
+    "es_author": "carlosalberto",
+    "es_source_id": "10771715",
+    "id": "s_10771719",
+    "it": "Quando era qui, nuotava al mattino.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10771719",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -847,6 +914,28 @@
     "source_id": "1081894",
     "tag_rules": {
       "ERR_REFLEXIVE_AUX": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "He visto a Tom mientras nadaba.",
+    "es_author": "saverius",
+    "es_source_id": "10826084",
+    "id": "s_10825704",
+    "it": "Ho visto Tom mentre nuotava.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10825704",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -924,6 +1013,28 @@
       "ERR_REFLEXIVE_AUX": "riflessivo_con_essere",
       "ERR_SC_PALATAL": "sc_palatale",
       "ERR_Z_AFFRICATE": "z_africata"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Decía que sí con la cabeza, pero no escuchaba.",
+    "es_author": "nancy",
+    "es_source_id": "1160712",
+    "id": "s_1083492",
+    "it": "Diceva di sì con la testa, ma non ascoltava.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1083492",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -1102,6 +1213,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Aquí había un jardín.",
+    "es_author": "IA (Claude)",
+    "id": "s_11020842",
+    "it": "Qui c'era un giardino.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11020842",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -1211,6 +1346,52 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "La encontré hace una hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_1114020",
+    "it": "L'ho incontrata un'ora fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1114020",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "La conocí hace una hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_1114021",
+    "it": "L'ho conosciuta un'ora fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1114021",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_NEG"
     ],
     "es": "No te vayas.",
@@ -1294,6 +1475,53 @@
       "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Lo sabía hace tres horas.",
+    "es_author": "IA (Claude)",
+    "id": "s_11252197",
+    "it": "Lo sapevo tre ore fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11252197",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "JeanM",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Llegué hace dos semanas.",
+    "es_author": "IA (Claude)",
+    "id": "s_11253985",
+    "it": "Sono arrivato due settimane fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11253985",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "carlosalberto",
@@ -1665,6 +1893,54 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Jugaba al fútbol.",
+    "es_author": "IA (Claude)",
+    "id": "s_11546473",
+    "it": "Giocavo a calcio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11546473",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había un castillo en la colina.",
+    "es_author": "IA (Claude)",
+    "id": "s_11597024",
+    "it": "C'era un castello sulla collina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11597024",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -1774,6 +2050,29 @@
     "source_id": "11712040",
     "tag_rules": {
       "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había diez huevos en total.",
+    "es_author": "IA (Claude)",
+    "id": "s_11719061",
+    "it": "C'erano dieci uova in tutto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11719061",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -2206,6 +2505,28 @@
     "source_id": "1241614",
     "tag_rules": {
       "ERR_GENERE_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "La vi en algún lugar hace dos años.",
+    "es_author": "sharin",
+    "es_source_id": "855603",
+    "id": "s_1242399",
+    "it": "L'ho vista da qualche parte due anni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1242399",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -2657,6 +2978,30 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había tres hombres ahí.",
+    "es_author": "enteka",
+    "es_source_id": "1324549",
+    "id": "s_1266623",
+    "it": "C'erano tre uomini.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1266623",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "glossboss",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -2677,6 +3022,29 @@
       "ERR_ORA_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había perros por todas partes.",
+    "es_author": "IA (Claude)",
+    "id": "s_12703246",
+    "it": "C'erano dei cani dappertutto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12703246",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -2821,6 +3189,52 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había un puente allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1283106",
+    "it": "C'era un ponte lì.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1283106",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había un puente allá.",
+    "es_author": "IA (Claude)",
+    "id": "s_1283107",
+    "it": "C'era un ponte là.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1283107",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_FORMA"
     ],
     "es": "¡Cierra los ojos primero!",
@@ -2856,6 +3270,28 @@
     "source_id": "1287482",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Hablaba de ti.",
+    "es_author": "Shishir",
+    "es_source_id": "1287750",
+    "id": "s_1287741",
+    "it": "Io parlavo di te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1287741",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Adelpa",
@@ -3283,6 +3719,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Jugaba al tenis.",
+    "es_author": "IA (Claude)",
+    "id": "s_13302247",
+    "it": "Giocavo a tennis.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13302247",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_DIRECT_INDIRECT",
       "ERR_INDIRECT_PRONOUN_GENDER",
       "ERR_Z_AFFRICATE"
@@ -3609,6 +4069,29 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Hace un año estábamos aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1351004",
+    "it": "Un anno fa eravamo qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1351004",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_VOC_VORREI"
     ],
     "es": "¡Quisiera ser como él!",
@@ -3834,6 +4317,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "unforgiven95",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Usted no hablaba español.",
+    "es_author": "Shishir",
+    "es_source_id": "1305244",
+    "id": "s_13991807",
+    "it": "Lei non parlava spagnolo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13991807",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -3973,6 +4478,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "unforgiven95",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había bastantes manzanas podridas en la canasta.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1638927",
+    "id": "s_14049591",
+    "it": "C'erano molte mele marce nella cesta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14049591",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -4105,6 +4632,28 @@
     "source_id": "1433807",
     "tag_rules": {
       "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Yo era más flexible.",
+    "es_author": "saverius",
+    "es_source_id": "10141452",
+    "id": "s_1438621",
+    "it": "Io ero più flessibile.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1438621",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -4589,6 +5138,52 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "La conocí hace tres días.",
+    "es_author": "IA (Claude)",
+    "id": "s_1546923",
+    "it": "L'ho conosciuta tre giorni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1546923",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "La encontré hace tres días.",
+    "es_author": "IA (Claude)",
+    "id": "s_1546924",
+    "it": "L'ho incontrata tre giorni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1546924",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_NEG"
     ],
     "es": "No digas nunca mentiras.",
@@ -4702,6 +5297,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había bellos cuadros en aquella pared.",
+    "es_author": "nancy",
+    "es_source_id": "2207169",
+    "id": "s_1574231",
+    "it": "C'erano dei bei quadri su quel muro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1574231",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "matsuteo",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -4722,6 +5339,29 @@
     "source_id": "1576427",
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Fue a Londres hace un mes.",
+    "es_author": "IA (Claude)",
+    "id": "s_1587014",
+    "it": "È andato a Londra un mese fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1587014",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -4792,6 +5432,29 @@
     "source_id": "1611762",
     "tag_rules": {
       "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Tom se fue hace tres días.",
+    "es_author": "IA (Claude)",
+    "id": "s_1623185",
+    "it": "Tom è partito tre giorni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1623185",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -5100,6 +5763,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Él siempre hablaba muy fuerte.",
+    "es_author": "hayastan",
+    "es_source_id": "1691132",
+    "id": "s_1689806",
+    "it": "Lui parlava sempre più forte.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1689806",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "alexmarcelo",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -5187,6 +5874,52 @@
     "source_id": "1708388",
     "tag_rules": {
       "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "¿Había un libro sobre el banco?",
+    "es_author": "IA (Claude)",
+    "id": "s_1710362",
+    "it": "C'era un libro sul banco?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1710362",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "¿Había un libro sobre el escritorio?",
+    "es_author": "IA (Claude)",
+    "id": "s_1710363",
+    "it": "C'era un libro sulla scrivania?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1710363",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -5380,6 +6113,29 @@
       "ERR_CE_AGREEMENT": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "hitori37",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "La vi hace una semana.",
+    "es_author": "IA (Claude)",
+    "id": "s_1794215",
+    "it": "L'ho vista una settimana fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1794215",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "hitori37",
@@ -5618,6 +6374,53 @@
     "translation_kind": "direct"
   },
   {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había una vez una hermosa muchacha.",
+    "es_author": "IA (Claude)",
+    "id": "s_1855221",
+    "it": "C'era una volta una bella ragazza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1855221",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Érase una vez una bella princesa.",
+    "es_author": "Shishir",
+    "es_source_id": "759228",
+    "id": "s_1855222",
+    "it": "C'era una volta una bella principessa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1855222",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "enzolon",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -5719,6 +6522,50 @@
     "source_id": "1867379",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "radu107",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Comía todos los días en el buffet del restaurante.",
+    "es_author": "radu107",
+    "es_source_id": "1881062",
+    "id": "s_1881063",
+    "it": "Mangiavo tutti i giorni al buffet del ristorante.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1881063",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Yo estaba en las montañas.",
+    "es_author": "mamat",
+    "es_source_id": "2495",
+    "id": "s_1923128",
+    "it": "Io ero in montagna.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1923128",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Shadd",
@@ -6015,6 +6862,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Pasó hace tres días.",
+    "es_author": "IA (Claude)",
+    "id": "s_2020647",
+    "it": "È successo tre giorni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2020647",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "AYDYL84",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -6067,6 +6937,28 @@
     "source_id": "2028898",
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Pensaba que estaba solo.",
+    "es_author": "mayahueli",
+    "es_source_id": "2247209",
+    "id": "s_2041917",
+    "it": "Pensavo di essere da solo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2041917",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -6131,6 +7023,29 @@
     "tag_rules": {
       "ERR_CLITIC_CI": "ci_locativo",
       "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Tom estaba aquí hace un minuto.",
+    "es_author": "IA (Claude)",
+    "id": "s_2074930",
+    "it": "Tom era qui un minuto fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2074930",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -6620,6 +7535,54 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Me levanté hace una hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_2233612",
+    "it": "Mi sono alzato un'ora fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2233612",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Me levanté hace una hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_2233614",
+    "it": "Mi sono alzata un'ora fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2233614",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "JLGQ_",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -6638,6 +7601,30 @@
     "source_id": "2233939",
     "tag_rules": {
       "ERR_IMPERATIVO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Yo era gordo.",
+    "es_author": "arh",
+    "es_source_id": "8813807",
+    "id": "s_2255584",
+    "it": "Io ero grasso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2255584",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -6895,6 +7882,30 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Yo tenía necesidad de espacio.",
+    "es_author": "saverius",
+    "es_source_id": "10802554",
+    "id": "s_2437014",
+    "it": "Io avevo bisogno di spazio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2437014",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_VOC_VORREI"
     ],
     "es": "Quisiera un café.",
@@ -7128,6 +8139,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había mucha gente en el parque.",
+    "es_author": "IA (Claude)",
+    "id": "s_2512174",
+    "it": "C'erano molte persone nel parco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2512174",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -7205,6 +8239,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Tom esperaba con impaciencia.",
+    "es_author": "Shishir",
+    "es_source_id": "2534095",
+    "id": "s_2529744",
+    "it": "Tom aspettava impazientemente.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2529744",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_NEG"
     ],
     "es": "No entres.",
@@ -7229,6 +8285,29 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había otro problema.",
+    "es_author": "IA (Claude)",
+    "id": "s_2554703",
+    "it": "C'era un altro problema.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2554703",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_NEG"
     ],
     "es": "No compres esa.",
@@ -7245,6 +8324,52 @@
     "source_id": "2555829",
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había unas flores aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_2555912",
+    "it": "C'erano dei fiori qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2555912",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había algunas flores aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_2555913",
+    "it": "C'erano alcuni fiori qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2555913",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -7307,6 +8432,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Yo tenía mucha hambre.",
+    "es_author": "saverius",
+    "es_source_id": "10802723",
+    "id": "s_2559312",
+    "it": "Io avevo così fame.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2559312",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_VOC_VORREI"
     ],
     "es": "Quisiera una ensalada.",
@@ -7347,6 +8494,28 @@
       "ERR_AVVERBI_PASSATO": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Tom llegó hace ocho días.",
+    "es_author": "uptonpark1973",
+    "es_source_id": "5740285",
+    "id": "s_2607886",
+    "it": "Tom è arrivato otto giorni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2607886",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "julius26",
@@ -7589,6 +8758,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "En la calle había mucha gente.",
+    "es_author": "IA (Claude)",
+    "id": "s_2779245",
+    "it": "In strada c'erano molte persone.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2779245",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -7680,6 +8872,30 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había una gran multitud allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_2848893",
+    "it": "C'era una grande folla lì.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2848893",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_NEG"
     ],
     "es": "No corras aquí.",
@@ -7703,6 +8919,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Tom vivía ahí.",
+    "es_author": "hayastan",
+    "es_source_id": "2429319",
+    "id": "s_2866409",
+    "it": "Tom abitava lì.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2866409",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PARTICIPLE_AGREEMENT"
     ],
     "es": "Ella nació en Ohio.",
@@ -7718,6 +8956,29 @@
     "source_id": "2908665",
     "tag_rules": {
       "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Tom llegó hace tres días.",
+    "es_author": "IA (Claude)",
+    "id": "s_2914592",
+    "it": "Tom è arrivato tre giorni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2914592",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -7890,6 +9151,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Tom vivía en Boston hace tres años.",
+    "es_author": "IA (Claude)",
+    "id": "s_3000351",
+    "it": "Tom viveva a Boston tre anni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3000351",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -8037,6 +9321,28 @@
     "source_id": "3033587",
     "tag_rules": {
       "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "al_ex_an_der",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Hablé con el embajador polaco.",
+    "es_author": "cueyayotl",
+    "es_source_id": "4703685",
+    "id": "s_3034461",
+    "it": "Parlavo con l'ambasciatore polacco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3034461",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -8302,6 +9608,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Él vivía al lado de su tío.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1649534",
+    "id": "s_3134249",
+    "it": "Abitava accanto a suo zio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3134249",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -8342,6 +9670,28 @@
     "source_id": "3174439",
     "tag_rules": {
       "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Yo era uno de los mejores alumnos de la clase.",
+    "es_author": "darinmex",
+    "es_source_id": "1091896",
+    "id": "s_3175614",
+    "it": "Io ero uno degli studenti migliori della classe.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3175614",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -8542,6 +9892,52 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había mucha gente en la sala.",
+    "es_author": "IA (Claude)",
+    "id": "s_3347496",
+    "it": "C'erano molte persone nella stanza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3347496",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había mucha gente en la habitación.",
+    "es_author": "IA (Claude)",
+    "id": "s_3347497",
+    "it": "C'erano molte persone nella camera.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3347497",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "bailujia",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -8579,6 +9975,52 @@
     "source": "tatoeba",
     "source_id": "3351029",
     "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Tom vivía aquí hace tres años.",
+    "es_author": "IA (Claude)",
+    "id": "s_3368821",
+    "it": "Tom viveva qui tre anni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3368821",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Tom vivía aquí hace tres años.",
+    "es_author": "IA (Claude)",
+    "id": "s_3368822",
+    "it": "Tom abitava qui tre anni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3368822",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
     "translation_kind": "llm"
   },
   {
@@ -8680,6 +10122,73 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "También yo quería ver el mar.",
+    "es_author": "Leono",
+    "es_source_id": "4179807",
+    "id": "s_3437960",
+    "it": "Anche io volevo vedere il mare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3437960",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "¡Pensé en ti!",
+    "es_author": "carlosalberto",
+    "es_source_id": "3442041",
+    "id": "s_3441780",
+    "it": "Pensavo a te!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3441780",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había algunos botes en el lago.",
+    "es_author": "IA (Claude)",
+    "id": "s_3472725",
+    "it": "C'erano alcune barche sul lago.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3472725",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_REFLEXIVE_AUX"
     ],
     "es": "¿Cómo es que no se ha parado?",
@@ -8721,6 +10230,51 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había un baile en nuestro club.",
+    "es_author": "IA (Claude)",
+    "id": "s_3488128",
+    "it": "C'era un ballo al nostro club.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3488128",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "¿Cuándo piensan regresar a los Estados Unidos?",
+    "es_author": "gianich73",
+    "es_source_id": "3496622",
+    "id": "s_3496462",
+    "it": "Quando pensavate di ritornare negli Stati Uniti?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3496462",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "martin",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -8760,6 +10314,29 @@
     "source": "tatoeba",
     "source_id": "350350",
     "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "martin",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "¿Había un libro sobre la mesa?",
+    "es_author": "IA (Claude)",
+    "id": "s_350436",
+    "it": "C'era un libro sul tavolo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "350436",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
     "translation_kind": "llm"
   },
   {
@@ -9301,6 +10878,30 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "No estaba soñando.",
+    "es_author": "Calvo",
+    "es_source_id": "2940542",
+    "id": "s_3534491",
+    "it": "Io non stavo sognando.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3534491",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_NEG"
     ],
     "es": "No hables de Tom.",
@@ -9341,6 +10942,74 @@
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Hace mucho tiempo había un puente allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_3544426",
+    "it": "Molto tempo fa c'era un ponte lì.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3544426",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Llegó de Australia hace un año.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1906307",
+    "id": "s_3553439",
+    "it": "Lui è arrivato dall'Australia un anno fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3553439",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Almorcé hace dos horas.",
+    "es_author": "IA (Claude)",
+    "id": "s_3561284",
+    "it": "Ho pranzato due ore fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3561284",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -9862,6 +11531,29 @@
     "author": "Pharamp",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "No había una nube en el cielo.",
+    "es_author": "IA (Claude)",
+    "id": "s_375031",
+    "it": "Non c'era una nuvola in cielo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "375031",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
     "error_codes": [],
     "es": "Nunca me gustó la biología.",
     "es_author": "IA (Claude)",
@@ -10300,6 +11992,28 @@
     "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Nos casamos hace siete años.",
+    "es_author": "Shishir",
+    "es_source_id": "509763",
+    "id": "s_378135",
+    "it": "Ci siamo sposati sette anni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378135",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
     "error_codes": [],
     "es": "Di un paseo.",
     "es_author": "IA (Claude)",
@@ -10354,6 +12068,28 @@
     "source_id": "378178",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Sabía que Tom era tímido.",
+    "es_author": "hayastan",
+    "es_source_id": "4251129",
+    "id": "s_3783743",
+    "it": "Sapevo che Tom era timido.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3783743",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Pharamp",
@@ -10440,6 +12176,29 @@
       "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Se fue hace una hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_378716",
+    "it": "È partito un'ora fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378716",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -10566,6 +12325,29 @@
     "source_id": "3800021",
     "tag_rules": {
       "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Este perro nació hace dos meses.",
+    "es_author": "IA (Claude)",
+    "id": "s_380167",
+    "it": "Questo cane è nato due mesi fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "380167",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -10747,6 +12529,30 @@
   },
   {
     "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Sobre la mesa había un gato.",
+    "es_author": "IA (Claude)",
+    "id": "s_382113",
+    "it": "Sul tavolo c'era un gatto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "382113",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -10786,6 +12592,28 @@
     "source_id": "382408",
     "tag_rules": {
       "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Yo ponía unos ejemplos.",
+    "es_author": "saverius",
+    "es_source_id": "10802803",
+    "id": "s_3830022",
+    "it": "Io facevo degli esempi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3830022",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -10856,6 +12684,74 @@
     "source_id": "3834096",
     "tag_rules": {
       "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Llegué a Japón hace dos años.",
+    "es_author": "hayastan",
+    "es_source_id": "1713754",
+    "id": "s_383475",
+    "it": "Sono arrivato in Giappone due anni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "383475",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Cerré el negocio hace una hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_3835502",
+    "it": "Ho chiuso l'affare un'ora fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3835502",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Lo vi hace tres años.",
+    "es_author": "IA (Claude)",
+    "id": "s_383637",
+    "it": "L'ho visto tre anni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "383637",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -11124,6 +13020,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había solo un cine en la ciudad.",
+    "es_author": "gianich73",
+    "es_source_id": "3881817",
+    "id": "s_3881752",
+    "it": "C'era un solo cinema in città.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3881752",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -11247,6 +13167,28 @@
     "source_id": "388817",
     "tag_rules": {
       "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Tom escribió esto hace tres semanas.",
+    "es_author": "Shishir",
+    "es_source_id": "4444237",
+    "id": "s_3889127",
+    "it": "Tom ha scritto questo tre settimane fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3889127",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -11495,6 +13437,52 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Empezó hace diez minutos.",
+    "es_author": "IA (Claude)",
+    "id": "s_4029869",
+    "it": "Ha iniziato dieci minuti fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4029869",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Comenzó hace diez minutos.",
+    "es_author": "IA (Claude)",
+    "id": "s_4029870",
+    "it": "Ha cominciato dieci minuti fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4029870",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -11567,6 +13555,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "No sabía que trabajabas aquí.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2471378",
+    "id": "s_4073980",
+    "it": "Non lo sapevo che lavoravi qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4073980",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_POSSESSIVE_ARTICLE"
     ],
     "es": "Él abreviaba sus discursos.",
@@ -11620,6 +13630,29 @@
     "source": "tatoeba",
     "source_id": "409489",
     "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había muchos niños en la sala.",
+    "es_author": "IA (Claude)",
+    "id": "s_409503",
+    "it": "C'erano molti bambini nella stanza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "409503",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
     "translation_kind": "llm"
   },
   {
@@ -11902,6 +13935,52 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había unas flores allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_4209266",
+    "it": "C'erano dei fiori lì.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4209266",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había algunas flores allí.",
+    "es_author": "IA (Claude)",
+    "id": "s_4209267",
+    "it": "C'erano alcuni fiori lì.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4209267",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -11920,6 +13999,29 @@
     "source_id": "4209586",
     "tag_rules": {
       "ERR_MANCARE": "mancare"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había pirañas en el río.",
+    "es_author": "IA (Claude)",
+    "id": "s_4210287",
+    "it": "C'erano dei piranha nel fiume.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4210287",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -12004,6 +14106,29 @@
     "source_id": "4244280",
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Dejó de nevar hace una hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_425510",
+    "it": "Ha smesso di nevicare un'ora fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "425510",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -12162,6 +14287,51 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había dos tortas.",
+    "es_author": "IA (Claude)",
+    "id": "s_430079",
+    "it": "C'erano due torte.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "430079",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "tiguliano",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "John tocaba la guitarra y sus amigos cantaban.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1623459",
+    "id": "s_430326",
+    "it": "John suonava la chitarra e i suoi amici cantavano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "430326",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Nox",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -12273,6 +14443,29 @@
     "source_id": "4395263",
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Fue a París hace dos años.",
+    "es_author": "IA (Claude)",
+    "id": "s_4400036",
+    "it": "È andato a Parigi due anni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4400036",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -12556,6 +14749,52 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Se casaron hace tres meses.",
+    "es_author": "IA (Claude)",
+    "id": "s_4567515",
+    "it": "Si sono sposati tre mesi fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4567515",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Se casaron hace tres meses.",
+    "es_author": "IA (Claude)",
+    "id": "s_4567518",
+    "it": "Si sono sposate tre mesi fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4567518",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_REFLEXIVE_AUX"
     ],
     "es": "¿Quién se detuvo?",
@@ -12596,6 +14835,29 @@
       "ERR_GENERE_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Estaba decepcionado.",
+    "es_author": "IA (Claude)",
+    "id": "s_4582580",
+    "it": "Io ero deluso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4582580",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -12904,6 +15166,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Estaba demasiado ocupado para escribirte.",
+    "es_author": "darinmex",
+    "es_source_id": "740455",
+    "id": "s_4820692",
+    "it": "Io ero troppo impegnato per scriverti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4820692",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -13155,6 +15439,51 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había muchos autos en la calle.",
+    "es_author": "IA (Claude)",
+    "id": "s_5197826",
+    "it": "C'erano molte auto nella strada.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5197826",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Yo buscaba la llave.",
+    "es_author": "Shishir",
+    "es_source_id": "521070",
+    "id": "s_521072",
+    "it": "Cercavo la chiave.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "521072",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -13194,6 +15523,28 @@
     "source_id": "5223860",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "es": "Miguel no tenía miedo de él, y tenía mucha curiosidad.",
+    "es_author": "hayastan",
+    "es_source_id": "523815",
+    "id": "s_524218",
+    "it": "Miguel non aveva paura di lui, ed era molto curioso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "524218",
+    "tag_rules": {
+      "ERR_VOC_CARATTERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Pharamp",
@@ -13999,6 +16350,52 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Se fue hace diez minutos.",
+    "es_author": "IA (Claude)",
+    "id": "s_5826143",
+    "it": "È partito dieci minuti fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5826143",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Se fue hace diez minutos.",
+    "es_author": "IA (Claude)",
+    "id": "s_5826146",
+    "it": "Se n'è andato dieci minuti fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5826146",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "dnnywld",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -14104,6 +16501,29 @@
     "source_id": "5925192",
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había dos puentes.",
+    "es_author": "IA (Claude)",
+    "id": "s_5980236",
+    "it": "C'erano due ponti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5980236",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -14372,6 +16792,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había islas en el mar.",
+    "es_author": "IA (Claude)",
+    "id": "s_6143741",
+    "it": "C'erano delle isole nel mare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6143741",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "rado",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -14485,6 +16928,52 @@
     "source_id": "621054",
     "tag_rules": {
       "ERR_VOC_TEMPO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Me casé hace diez años.",
+    "es_author": "IA (Claude)",
+    "id": "s_622287",
+    "it": "Mi sono sposata dieci anni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "622287",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Ese día había mucho viento.",
+    "es_author": "IA (Claude)",
+    "id": "s_622740",
+    "it": "C'era un forte vento quel giorno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "622740",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -14748,6 +17237,30 @@
     "source": "tatoeba",
     "source_id": "635492",
     "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "bruno_b",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Yo lo conocí hace tres años.",
+    "es_author": "IA (Claude)",
+    "id": "s_637124",
+    "it": "Io l'ho conosciuto tre anni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "637124",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
     "translation_kind": "llm"
   },
   {
@@ -15065,6 +17578,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "rado",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Ella llevaba gafas.",
+    "es_author": "Shishir",
+    "es_source_id": "672108",
+    "id": "s_672113",
+    "it": "Lei portava gli occhiali.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "672113",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "dnnywld",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -15127,6 +17662,28 @@
     "source_id": "6841369",
     "tag_rules": {
       "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Yo sabía lo que Tom estaba pensando.",
+    "es_author": "Seael",
+    "es_source_id": "10201333",
+    "id": "s_6852068",
+    "it": "Io sapevo cosa stava pensando Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6852068",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -15729,6 +18286,122 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Una vez, había un puente aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_7496432",
+    "it": "Una volta, c'era un ponte qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7496432",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Una vez, había un puente aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_7496433",
+    "it": "Una volta, c'era un ponte qua.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7496433",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había un puente aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_7496792",
+    "it": "C'era un ponte qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7496792",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había un puente aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_7496793",
+    "it": "C'era un ponte qua.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7496793",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había un puente sobre cada río.",
+    "es_author": "IA (Claude)",
+    "id": "s_7496805",
+    "it": "C'era un ponte su ogni fiume.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7496805",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [],
@@ -16015,6 +18688,75 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Fue hace solo un año.",
+    "es_author": "IA (Claude)",
+    "id": "s_7703578",
+    "it": "Era solo un anno fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7703578",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Fue hace apenas un año.",
+    "es_author": "IA (Claude)",
+    "id": "s_7703579",
+    "it": "Era soltanto un anno fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7703579",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Fue hace tan solo un año.",
+    "es_author": "IA (Claude)",
+    "id": "s_7703580",
+    "it": "Era solamente un anno fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7703580",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Valdast",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -16103,6 +18845,28 @@
     "source_id": "7764196",
     "tag_rules": {
       "ERR_VOC_DENARO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Yo quería ser profesor de francés.",
+    "es_author": "arh",
+    "es_source_id": "7785409",
+    "id": "s_7764707",
+    "it": "Io volevo essere un insegnante di francese.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7764707",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -16334,6 +19098,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "No estudiaba entonces.",
+    "es_author": "cueyayotl",
+    "es_source_id": "3227031",
+    "id": "s_794354",
+    "it": "Non studiavo allora.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "794354",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "rado",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -16354,6 +19142,29 @@
       "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Debajo de la mesa había un gato negro.",
+    "es_author": "IA (Claude)",
+    "id": "s_801729",
+    "it": "Sotto il tavolo c'era un gatto nero.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "801729",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "shoras",
@@ -16442,6 +19253,29 @@
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había muchas ranas en este estanque.",
+    "es_author": "IA (Claude)",
+    "id": "s_830342",
+    "it": "C'erano molte rane in questo stagno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "830342",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "riccioberto",
@@ -16551,6 +19385,28 @@
     "source_id": "859423",
     "tag_rules": {
       "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Hace dos años fui a China.",
+    "es_author": "japegon",
+    "es_source_id": "853478",
+    "id": "s_861872",
+    "it": "Due anni fa sono andata in Cina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "861872",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -16669,6 +19525,29 @@
   },
   {
     "author": "carlosalberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Fui allí hace tres años.",
+    "es_author": "IA (Claude)",
+    "id": "s_8780918",
+    "it": "Ci sono andato tre anni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8780918",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -16710,6 +19589,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Ella solía jugar al tenis todos los domingos.",
+    "es_author": "Shishir",
+    "es_source_id": "738972",
+    "id": "s_883307",
+    "it": "Giocava a tennis ogni domenica.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "883307",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -16730,6 +19631,29 @@
       "ERR_IMPERATIVO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Se casó hace diez años.",
+    "es_author": "IA (Claude)",
+    "id": "s_8884877",
+    "it": "Si è sposata dieci anni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8884877",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -16863,6 +19787,52 @@
     "translation_kind": "llm"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "¿Había mucha gente?",
+    "es_author": "IA (Claude)",
+    "id": "s_9033269",
+    "it": "C'erano molte persone?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9033269",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había una vez...",
+    "es_author": "IA (Claude)",
+    "id": "s_9045437",
+    "it": "C'era una volta...",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9045437",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -16881,6 +19851,28 @@
     "source_id": "905717",
     "tag_rules": {
       "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "La gente bailaba en las calles.",
+    "es_author": "hayastan",
+    "es_source_id": "1443665",
+    "id": "s_906068",
+    "it": "La gente ballava nelle strade.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "906068",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -16991,6 +19983,29 @@
       "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "zhou24",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Vino aquí hace diez minutos.",
+    "es_author": "IA (Claude)",
+    "id": "s_934446",
+    "it": "È venuto qui dieci minuti fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "934446",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "zhou24",
@@ -17124,6 +20139,28 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "es": "Dejé de fumar hace dos años.",
+    "es_author": "hayastan",
+    "es_source_id": "1011667",
+    "id": "s_946825",
+    "it": "Ho smesso di fumare due anni fa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "946825",
+    "tag_rules": {
+      "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",

@@ -486,6 +486,41 @@
         "doc_a2m01_agenda",
         "vh_a2m01"
       ]
+    },
+    {
+      "id": "a2m02",
+      "level": "A2",
+      "title": "Cómo eran las cosas",
+      "can_do_es": [
+        "Describir cómo era tu vida de niño o un lugar antes.",
+        "Hablar de hábitos pasados.",
+        "Decir hace cuánto y desde cuándo.",
+        "Describir una foto: personas, lugares y qué hacían."
+      ],
+      "units": [
+        "u79",
+        "u80",
+        "u81",
+        "u82"
+      ],
+      "entry_reading": "rd_infanzia",
+      "roleplays": [
+        "rp_a2m02_a",
+        "rp_a2m02_b"
+      ],
+      "tasks": [
+        "ht_a2m02"
+      ],
+      "phrase_groups": [],
+      "library": "easy-italian",
+      "library_task_es": "Mira un video corto de Easy Italian sin pausar; después cuéntalo en pasado con «ero», «avevo» y «c'era».",
+      "writing_es": "Describe en 40–60 palabras cómo era tu casa o tu barrio cuando eras niño/a. Usa al menos 3 verbos en imperfetto y un «c'era» o «c'erano».",
+      "writing_short_es": "Escribe un correo de 25–50 palabras a un viejo amigo: dile hace cuánto tiempo no se ven («da… anni»), cómo era él/ella antes y cómo eran ustedes juntos. Usa «fa» o «da» y al menos 2 verbos en imperfetto.",
+      "extra_readings": [
+        "ls_a2m02",
+        "doc_a2m02_prima_adesso",
+        "vh_a2m02"
+      ]
     }
   ],
   "units": [
@@ -1962,6 +1997,50 @@
       ],
       "why_here": "El fin de semana, ayer, un viaje: contar lo que hiciste y preguntar a otros.",
       "ficha_es": "Con el passato prossimo, già, appena, ancora, mai y sempre van entre el auxiliar y el participio (ho già mangiato, sono appena arrivato, non ho ancora deciso). «Ya no» es non… più (non abito più), no *già non; «acabo de» es appena (sono appena arrivato), no *finisco di.\n\nError típico: *già non abito → non abito più; *finisco di arrivare → sono appena arrivato; *non ho mai (ya) visto/ancora non ho mangiato (coloquial). Válido y no es error: ancora non ho mangiato (válido, menos frecuente)"
+    },
+    {
+      "id": "u79",
+      "level": "A2",
+      "title": "Imperfetto: formas y personas",
+      "goal_es": "Imperfetto: formas y personas",
+      "codes": [
+        "ERR_IMPERFETTO_FORMA"
+      ],
+      "why_here": "La infancia, un lugar antes y ahora, costumbres de antes.",
+      "ficha_es": "En español la 1.ª y la 3.ª persona del imperfecto son iguales (yo hablaba, él hablaba). En italiano no: io parlavo, lui parlava; io ero, lui era. Además se escribe con v: parlavo, no *parlabo.\n\nError típico: *io parlava, *io era… (en español 1.ª y 3.ª coinciden); b/v: *parlaba → parlavo; ero, facevo, dicevo, bevevo. Válido y no es error: diceva, faceva (3.ª persona válidas); bevo (es presente, no error de forma)"
+    },
+    {
+      "id": "u80",
+      "level": "A2",
+      "title": "C'era, c'erano, c'è stato",
+      "goal_es": "C'era, c'erano, c'è stato",
+      "codes": [
+        "ERR_CE_IMPERFETTO"
+      ],
+      "why_here": "La infancia, un lugar antes y ahora, costumbres de antes.",
+      "ficha_es": "El imperfecto de «c'è / ci sono» concuerda con lo que había: c'era una casa, c'erano molte persone. El español dice «había» para el singular y para el plural, y por eso se tiende a decir *c'era molte persone.\n\nError típico: *c'era molte persone, *c'erano una casa → c'erano molte persone, c'era una casa. Válido y no es error: ci sono stati / c'è stato (existencial)"
+    },
+    {
+      "id": "u81",
+      "level": "A2",
+      "title": "Hace…, desde…, en…: fa, da, per, fra, scorso",
+      "goal_es": "Hace…, desde…, en…: fa, da, per, fra, scorso",
+      "codes": [
+        "ERR_TEMPO_FA_DA"
+      ],
+      "why_here": "La infancia, un lugar antes y ahora, costumbres de antes.",
+      "ficha_es": "En italiano «fa» va después del tiempo (due anni fa); el español pone «hace» antes (hace dos años). Para lo que dura hasta ahora se usa da (studio italiano da due anni) y para un plazo futuro, fra o tra (fra due giorni), no *in due giorni.\n\nError típico: *fa due anni → due anni fa; *in due giorni → fra due giorni; *studio per due anni (con presente) → studio da due anni; sono due anni che studio. Válido y no es error: ho studiato per due anni (pasado cerrado: válido); la settimana passata (válida)"
+    },
+    {
+      "id": "u82",
+      "level": "A2",
+      "title": "Vocabulario: carácter y relaciones",
+      "goal_es": "Vocabulario: carácter y relaciones",
+      "codes": [
+        "ERR_VOC_CARATTERE"
+      ],
+      "why_here": "La infancia, un lugar antes y ahora, costumbres de antes.",
+      "ficha_es": "Cómo es una persona y cómo te relacionas: timido, curioso, geloso (celoso), sincero, tranquillo, fidanzato/a (el novio o la novia con compromiso; el simple «novio» sin compromiso es ragazzo), straniero/a (extranjero), vicina (vecina). Los adjetivos concuerdan: timido, timida.\n\nError típico: gentile, simpatico, timido, collega, vicino, conoscente, fidanzato, cognato, parente (gentile ≠ «gentil»); y la concordancia nombre–adjetivo que CILS A2 pide producir: *gente simpatici, *case grande → gente simpatica, case grandi; -co/-ca → -chi/-che (amici simpatici)"
     }
   ],
   "planned": [

@@ -11357,6 +11357,154 @@
     "cefr": "A2",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "El imperfecto de «c'è / ci sono» concuerda con lo que había: c'era una casa, c'erano molte persone. El español dice «había» para el singular y para el plural, y por eso se tiende a decir *c'era molte persone."
+    },
+    "id": "cap_err_ce_imperfetto",
+    "retrieval": [
+      {
+        "id": "it_choice_s_1283107_ERR_CE_IMPERFETTO",
+        "options": [
+          {
+            "correct": true,
+            "text": "C'era un ponte là."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_CE_IMPERFETTO",
+            "text": "C'erano un ponte là."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1283107",
+        "target_error_codes": [
+          "ERR_CE_IMPERFETTO"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "erano"
+        ],
+        "hint_es": "Había dos tortas.",
+        "id": "it_cloze_s_430079_ERR_CE_IMPERFETTO",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_430079",
+        "target_error_codes": [
+          "ERR_CE_IMPERFETTO"
+        ],
+        "text": "C'___ due torte.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "C'erano",
+          "due",
+          "ponti."
+        ],
+        "id": "it_reorder_s_5980236_ERR_CE_IMPERFETTO",
+        "prompt_es": "Ordena las palabras: «Había dos puentes.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5980236",
+        "target_error_codes": [
+          "ERR_CE_IMPERFETTO"
+        ],
+        "tokens": [
+          "due",
+          "ponti.",
+          "C'erano"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_9045437_ERR_CE_IMPERFETTO",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_CE_IMPERFETTO",
+            "text": "C'erano una volta..."
+          },
+          {
+            "correct": true,
+            "text": "C'era una volta..."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_9045437",
+        "target_error_codes": [
+          "ERR_CE_IMPERFETTO"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "erano"
+        ],
+        "hint_es": "Había tres hombres ahí.",
+        "id": "it_cloze_s_1266623_ERR_CE_IMPERFETTO",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1266623",
+        "target_error_codes": [
+          "ERR_CE_IMPERFETTO"
+        ],
+        "text": "C'___ tre uomini.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "C'era",
+          "un",
+          "ponte",
+          "qui."
+        ],
+        "id": "it_reorder_s_7496792_ERR_CE_IMPERFETTO",
+        "prompt_es": "Ordena las palabras: «Había un puente aquí.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_7496792",
+        "target_error_codes": [
+          "ERR_CE_IMPERFETTO"
+        ],
+        "tokens": [
+          "un",
+          "ponte",
+          "qui.",
+          "C'era"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "C'era un ponte lì."
+      ],
+      "id": "it_translate_s_1283106_ERR_CE_IMPERFETTO",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1283106",
+      "source_es": "Había un puente allí.",
+      "target_error_codes": [
+        "ERR_CE_IMPERFETTO"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "En el segundo término de una comparación entre nombres o pronombres el italiano usa di; el español usa 'que'."
     },
     "id": "cap_err_comparative_di",
@@ -11505,6 +11653,152 @@
       "source_es": "Es más famosa que él.",
       "target_error_codes": [
         "ERR_COMPARATIVE_DI"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "En español la 1.ª y la 3.ª persona del imperfecto son iguales (yo hablaba, él hablaba). En italiano no: io parlavo, lui parlava; io ero, lui era. Además se escribe con v: parlavo, no *parlabo."
+    },
+    "id": "cap_err_imperfetto_forma",
+    "retrieval": [
+      {
+        "id": "it_choice_s_2859867_ERR_IMPERFETTO_FORMA",
+        "options": [
+          {
+            "correct": true,
+            "text": "Io non ero occupato."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_IMPERFETTO_FORMA",
+            "text": "Io non era occupato."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2859867",
+        "target_error_codes": [
+          "ERR_IMPERFETTO_FORMA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "ero"
+        ],
+        "hint_es": "Yo no estaba ocupada.",
+        "id": "it_cloze_s_2859870_ERR_IMPERFETTO_FORMA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2859870",
+        "target_error_codes": [
+          "ERR_IMPERFETTO_FORMA"
+        ],
+        "text": "Io non ___ occupata.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Pensavo",
+          "a",
+          "te!"
+        ],
+        "id": "it_reorder_s_3441780_ERR_IMPERFETTO_FORMA",
+        "prompt_es": "Ordena las palabras: «¡Pensé en ti!»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3441780",
+        "target_error_codes": [
+          "ERR_IMPERFETTO_FORMA"
+        ],
+        "tokens": [
+          "te!",
+          "Pensavo",
+          "a"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_2255584_ERR_IMPERFETTO_FORMA",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_IMPERFETTO_FORMA",
+            "text": "Io era grasso."
+          },
+          {
+            "correct": true,
+            "text": "Io ero grasso."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2255584",
+        "target_error_codes": [
+          "ERR_IMPERFETTO_FORMA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "ero"
+        ],
+        "hint_es": "Estaba decepcionado.",
+        "id": "it_cloze_s_4582580_ERR_IMPERFETTO_FORMA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4582580",
+        "target_error_codes": [
+          "ERR_IMPERFETTO_FORMA"
+        ],
+        "text": "Io ___ deluso.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Tom",
+          "abitava",
+          "lì."
+        ],
+        "id": "it_reorder_s_2866409_ERR_IMPERFETTO_FORMA",
+        "prompt_es": "Ordena las palabras: «Tom vivía ahí.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2866409",
+        "target_error_codes": [
+          "ERR_IMPERFETTO_FORMA"
+        ],
+        "tokens": [
+          "Tom",
+          "lì.",
+          "abitava"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Io non ero a casa."
+      ],
+      "id": "it_translate_s_2554119_ERR_IMPERFETTO_FORMA",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2554119",
+      "source_es": "Yo no estaba en casa.",
+      "target_error_codes": [
+        "ERR_IMPERFETTO_FORMA"
       ],
       "type": "translate_es_it"
     }
@@ -11963,6 +12257,160 @@
     "cefr": "A2",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "En italiano «fa» va después del tiempo (due anni fa); el español pone «hace» antes (hace dos años). Para lo que dura hasta ahora se usa da (studio italiano da due anni) y para un plazo futuro, fra o tra (fra due giorni), no *in due giorni."
+    },
+    "id": "cap_err_tempo_fa_da",
+    "retrieval": [
+      {
+        "id": "it_choice_s_7703578_ERR_TEMPO_FA_DA",
+        "options": [
+          {
+            "correct": true,
+            "text": "Era solo un anno fa."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_TEMPO_FA_DA",
+            "text": "Era solo fa un anno."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_7703578",
+        "target_error_codes": [
+          "ERR_TEMPO_FA_DA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "tre ore fa"
+        ],
+        "hint_es": "Lo sabía hace tres horas.",
+        "id": "it_cloze_s_11252197_ERR_TEMPO_FA_DA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11252197",
+        "target_error_codes": [
+          "ERR_TEMPO_FA_DA"
+        ],
+        "text": "Lo sapevo ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Un",
+          "anno",
+          "fa",
+          "eravamo",
+          "qui."
+        ],
+        "id": "it_reorder_s_1351004_ERR_TEMPO_FA_DA",
+        "prompt_es": "Ordena las palabras: «Hace un año estábamos aquí.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1351004",
+        "target_error_codes": [
+          "ERR_TEMPO_FA_DA"
+        ],
+        "tokens": [
+          "anno",
+          "Un",
+          "fa",
+          "eravamo",
+          "qui."
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_3561284_ERR_TEMPO_FA_DA",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_TEMPO_FA_DA",
+            "text": "Ho pranzato fa due ore."
+          },
+          {
+            "correct": true,
+            "text": "Ho pranzato due ore fa."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3561284",
+        "target_error_codes": [
+          "ERR_TEMPO_FA_DA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "tre anni fa"
+        ],
+        "hint_es": "Lo vi hace tres años.",
+        "id": "it_cloze_s_383637_ERR_TEMPO_FA_DA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_383637",
+        "target_error_codes": [
+          "ERR_TEMPO_FA_DA"
+        ],
+        "text": "L'ho visto ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Era",
+          "soltanto",
+          "un",
+          "anno",
+          "fa."
+        ],
+        "id": "it_reorder_s_7703579_ERR_TEMPO_FA_DA",
+        "prompt_es": "Ordena las palabras: «Fue hace apenas un año.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_7703579",
+        "target_error_codes": [
+          "ERR_TEMPO_FA_DA"
+        ],
+        "tokens": [
+          "un",
+          "soltanto",
+          "fa.",
+          "Era",
+          "anno"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_TEMPO_FA_DA"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "È partito un'ora fa."
+      ],
+      "id": "it_translate_s_378716_ERR_TEMPO_FA_DA",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_378716",
+      "source_es": "Se fue hace una hora.",
+      "target_error_codes": [
+        "ERR_TEMPO_FA_DA"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "Con essere el participio concuerda en género y número con el sujeto."
     },
     "id": "cap_err_participle_agreement",
@@ -12277,6 +12725,166 @@
       "source_es": "No amo a Tom.",
       "target_error_codes": [
         "ERR_PERSONAL_A"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Cómo es una persona y cómo te relacionas: timido, curioso, geloso (celoso), sincero, tranquillo, fidanzato/a (el novio o la novia con compromiso; el simple «novio» sin compromiso es ragazzo), straniero/a (extranjero), vicina (vecina). Los adjetivos concuerdan: timido, timida."
+    },
+    "id": "cap_err_voc_carattere",
+    "retrieval": [
+      {
+        "id": "it_choice_s_3838159_ERR_VOC_CARATTERE",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Tom è geloso?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CARATTERE",
+            "text": "Tom è timido?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CARATTERE",
+            "text": "Tom è sincero?"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3838159",
+        "target_error_codes": [
+          "ERR_VOC_CARATTERE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "gelosa"
+        ],
+        "hint_es": "¿Ella es celosa?",
+        "id": "it_cloze_s_5017650_ERR_VOC_CARATTERE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5017650",
+        "target_error_codes": [
+          "ERR_VOC_CARATTERE"
+        ],
+        "text": "Lei è ___?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Tu",
+          "sei",
+          "timido."
+        ],
+        "id": "it_reorder_s_2934975_ERR_VOC_CARATTERE",
+        "prompt_es": "Ordena las palabras: «Tú eres tímido.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2934975",
+        "target_error_codes": [
+          "ERR_VOC_CARATTERE"
+        ],
+        "tokens": [
+          "Tu",
+          "timido.",
+          "sei"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_2934977_ERR_VOC_CARATTERE",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CARATTERE",
+            "text": "Tu sei fidanzata."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_CARATTERE",
+            "text": "Tu sei straniera."
+          },
+          {
+            "correct": true,
+            "text": "Tu sei timida."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2934977",
+        "target_error_codes": [
+          "ERR_VOC_CARATTERE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "geloso"
+        ],
+        "hint_es": "Tú eres celoso.",
+        "id": "it_cloze_s_5287986_ERR_VOC_CARATTERE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5287986",
+        "target_error_codes": [
+          "ERR_VOC_CARATTERE"
+        ],
+        "text": "Tu sei ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Io",
+          "sono",
+          "timido."
+        ],
+        "id": "it_reorder_s_2708352_ERR_VOC_CARATTERE",
+        "prompt_es": "Ordena las palabras: «Yo soy tímido.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2708352",
+        "target_error_codes": [
+          "ERR_VOC_CARATTERE"
+        ],
+        "tokens": [
+          "timido.",
+          "Io",
+          "sono"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_CARATTERE"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Tom è timido."
+      ],
+      "id": "it_translate_s_2190779_ERR_VOC_CARATTERE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2190779",
+      "source_es": "Tom es tímido.",
+      "target_error_codes": [
+        "ERR_VOC_CARATTERE"
       ],
       "type": "translate_es_it"
     }

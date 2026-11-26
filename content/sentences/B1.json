@@ -57,6 +57,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Tenía curiosidad por saber por qué me miraba la gente.",
+    "es_author": "hundo",
+    "es_source_id": "972914",
+    "id": "s_1012837",
+    "it": "Ero curioso di sapere perché la gente mi guardava.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1012837",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Nuel",
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
@@ -1634,6 +1658,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
     "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Me esperaba un nuevo fotomontaje.",
+    "es_author": "saverius",
+    "es_source_id": "10086946",
+    "id": "s_3180098",
+    "it": "Mi aspettavo un nuovo fotomontaggio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3180098",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
       "ERR_CONGIUNTIVO_SUPERLATIVE",
       "ERR_GEMINATE_SPELLING",
       "ERR_GLI_PALATAL"
@@ -2572,6 +2618,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Ésta es la ciudad de la que te hablé.",
+    "es_author": "Shishir",
+    "es_source_id": "449823",
+    "id": "s_4628",
+    "it": "Ecco la città di cui ti parlavo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4628",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "B1",
     "error_codes": [
@@ -3407,6 +3475,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_CE_IMPERFETTO"
+    ],
+    "es": "Había un silencio inquietante.",
+    "es_author": "IA (Claude)",
+    "id": "s_7106185",
+    "it": "C'era un silenzio inquietante.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7106185",
+    "tag_rules": {
+      "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "B1",
     "error_codes": [
@@ -3568,6 +3659,28 @@
     "source_id": "780573",
     "tag_rules": {
       "ERR_CONGIUNTIVO_OPINION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "wuiwie",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "B1",
+    "error_codes": [
+      "ERR_IMPERFETTO_FORMA"
+    ],
+    "es": "Ella cantaba una canción cuyo nombre no lo sé.",
+    "es_author": "gianich73",
+    "es_source_id": "7824064",
+    "id": "s_7823087",
+    "it": "Lei cantava una canzone di cui non so il nome.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7823087",
+    "tag_rules": {
+      "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
