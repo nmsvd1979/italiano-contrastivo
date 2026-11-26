@@ -157,7 +157,7 @@ def clitic_direct_indirect(it: str):
 
 
 # ── ERR_PERSONAL_A (u10): también en pasado ───────────────────────────────────────────────────────────────────────────────
-_PERSONAL_PP = re.compile(r"\b(?i:ho|hai|ha|abbiamo|avete|hanno) (?i:visto|conosciuto|incontrato|chiamato|aspettato|cercato|salutato|invitato|ringraziato) ([A-Z]\w+)\b")
+_PERSONAL_PP = re.compile(r"(?<![lL]')(?<![Ll]o )(?<![Ll]a )\b(?i:ho|hai|abbiamo|avete) (?i:visto|conosciuto|incontrato|chiamato|aspettato|cercato|salutato|invitato|ringraziato) ([A-Z]\w+)\b")
 
 
 def personal_a_pasado(it: str):
@@ -279,12 +279,12 @@ def imperativo_pronomi(it: str):
 
 # ── ERR_IMPERATIVO_LEI: error de registro (tu en lugar de Lei) con un vocativo formal ────────────────────────────────────────────
 LEI_TU = {"scusi": "scusa", "senta": "senti", "prenda": "prendi", "venga": "vieni", "guardi": "guarda", "aspetti": "aspetta",
-          "ascolti": "ascolta", "legga": "leggi", "scriva": "scrivi", "apra": "apri", "chiuda": "chiudi", "faccia": "fai"}
+          "ascolti": "ascolta", "legga": "leggi", "scriva": "scrivi", "apra": "apri", "chiuda": "chiudi"}
 _LEI = re.compile(r"\b(" + "|".join(LEI_TU) + r")\b", re.I)
 _FORMAL = re.compile(r"\b(signor[ei]?|signora|dottor\w*|professor\w*|avvocato)\b", re.I)
 
 
-_LEI_FORMULA = re.compile(r"\b(?:scusi|senta|si accomodi|prego)\b", re.I)
+_LEI_FORMULA = re.compile(r"\b(?:si accomodi|mi dica|prego|le dispiace|la ringrazio|\bLei\b)", re.I)   # sin «scusi»/«senta»: son la palabra que se cambia y con «tu» («scusa il ritardo») también valen
 
 
 def imperativo_lei(it: str):
@@ -350,7 +350,7 @@ def date_orari(it: str):
 
 
 # ── ERR_SI_IMPERSONALE [A] ───────────────────────────────────────────────────────────────────────────────────────────────────
-_SI = re.compile(r"(?:^|\b(?:qui|lì|là|ovunque|dappertutto) )(si) (?=(?:può|possono|dice|dicono|deve|devono|vende|vendono|parla|parlano|mangia|trova|vive|usa)\b)", re.I)
+_SI = re.compile(r"(?:^|\b(?:qui|lì|là|ovunque|dappertutto) )(si) (?=(?:può|possono|dice|dicono|vende|vendono|parla|parlano|mangia|trova|vive|usa)\b)", re.I)
 
 
 def si_impersonale(it: str):

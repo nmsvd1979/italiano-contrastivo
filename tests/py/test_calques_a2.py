@@ -62,7 +62,7 @@ POSITIVOS = [
     ("ERR_IMPERATIVO_PRONOMI", "Dammi il libro!", "Dammi", "Dami"),
     ("ERR_IMPERATIVO_PRONOMI", "Fallo subito.", "Fallo", "Falo"),
     ("ERR_IMPERATIVO_LEI", "Scusi, signore, dov'è la posta?", "Scusi", "Scusa"),
-    ("ERR_IMPERATIVO_LEI", "Scusi, dov'è la stazione?", "Scusi", "Scusa"),
+    ("ERR_IMPERATIVO_LEI", "Scusi, signora, dov'è la stazione?", "Scusi", "Scusa"),
     ("ERR_ACCENT_TRANSFER", "Non vengo perché sono stanco.", "perché", "perchè"),
     ("ERR_ACCENT_TRANSFER", "Questa città è bella.", "città", "citta"),
     ("ERR_OPINIONE", "Secondo me è giusto.", "Secondo me", "Secondo io"),
@@ -142,3 +142,15 @@ def test_las_listas_cerradas_no_incluyen_formas_prohibidas():
     assert not prohibidos & set(re.findall(r"[a-z]+", a2._AVERE_PP.pattern))
     assert "costat" not in a2._ESSERE_PP.pattern and "bastat" not in a2._ESSERE_PP.pattern and "mancat" not in a2._ESSERE_PP.pattern
     assert all(wrong != correct for correct, wrong in a2.IMP_PRON.items())
+
+
+def test_scusi_solo_no_es_error_de_registro():
+    """«Scusa il ritardo» es válido entre tú: sin vocativo formal el generador no marca nada (revisión de precisión 2026-11-26)."""
+    from pipeline.exercises.calques import find_calque
+    assert find_calque("ERR_IMPERATIVO_LEI", "Scusi il ritardo.") is None
+    assert find_calque("ERR_IMPERATIVO_LEI", "Scusi, dov'è il bar?") is None
+
+
+def test_si_deve_no_es_si_impersonal():
+    from pipeline.exercises.calques import find_calque
+    assert find_calque("ERR_SI_IMPERSONALE", "Si deve fermare.") is None

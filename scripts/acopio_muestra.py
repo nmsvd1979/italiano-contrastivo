@@ -22,7 +22,7 @@ rows = {}
 for cid in ids:
     c = caps[cid]
     cands = json.loads((ROOT / f"data/work/acopio/{cid}.json").read_text(encoding="utf8"))[:100]
-    sample = random.Random(11).sample(cands, min(30, len(cands)))
+    sample = random.Random(int(sys.argv[3]) if len(sys.argv) > 3 else 11).sample(cands, min(30, len(cands)))
     items = []
     for s in sample:
         item = {"id": s["id"], "it": s["it"], "es_directa": s["es"], "nivel_estimado": s["cefr_estimate"] if "cefr_estimate" in s else s.get("level")}

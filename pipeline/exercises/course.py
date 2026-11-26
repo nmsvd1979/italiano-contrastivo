@@ -150,7 +150,7 @@ def build_course(sentences: list[dict], catalog: dict[str, dict]) -> dict:
         by_id = {s["id"]: s for s in usable[code]}
         from pipeline.tts.ids import clip_id
         verbal = code in ("ERR_VOC_VORREI",)  # formas verbales: sin género ni número que mostrar
-        words = [{"form": e.form, "gender": "x" if verbal else e.gender, "num": "x" if verbal else e.num, "gloss": e.gloss, "audio": clip_id(e.form)} for e in vocab.topics().get(code, [])]
+        words = [{"form": e.form, "gender": "x" if verbal else e.gender, "num": "x" if verbal else e.num, "gloss": e.gloss, "audio": clip_id(e.form)} for e in vocab.topics().get(code, []) if e.target]
         words = words or [{**w, "audio": clip_id(w["form"])} for w in u.get("words", [])]  # unidades de sonidos: palabras clave definidas en el curso
         words = [_with_contrast(w) for w in words]
         units.append({**u, **({"words": words} if words else {}), "status": "active", "explanation_es": catalog[code]["explanation_es"], "parts": parts,

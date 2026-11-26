@@ -32,7 +32,7 @@ _IMPERATIVO_FORMALE = re.compile(r"^(?:\s*(?:Per favore|Mi scusi),?\s*)?(?:apra|
 _PART_IRREG = r"preso|messo|chiuso|perso|letto|scritto|fatto|detto|aperto|visto|rotto|risposto|scelto|deciso|corso|speso|bevuto|vissuto"
 _PART_MOV = r"stato|stata|stati|state|andato|andata|andati|andate|venuto|venuta|venuti|venute|arrivato|arrivata|arrivati|arrivate|partito|partita|partiti|partite|uscito|uscita|usciti|uscite|tornato|tornata|tornati|tornate|nato|nata|nati|nate|morto|morta|morti|morte|caduto|caduta|entrato|entrata"
 _TRAPASSATO = re.compile(r"\b(?:avevo|avevi|aveva|avevamo|avevate|avevano) (?:\w+(?:ato|uto|ito)|" + _PART_IRREG + r")\b|\b(?:ero|eri|era|eravamo|eravate|erano) (?:" + _PART_MOV + r")\b", re.I)
-_COMBINATI = re.compile(r"\bglie(?:lo|la|li|le|ne)\b|\b(?:me|te|ce|ve) (?:lo|la|li|le|ne)\b", re.I)
+_COMBINATI = re.compile(r"\bglie(?:lo|la|li|le|ne)\b|\b(?:me|te|ce|ve) (?:lo|la|li|le|ne)\b|\b(?:me|te|ce|ve|se)\s?l'|\b(?:me|te|ce|ve) ne\b", re.I)
 _MORBIDO_A2 = re.compile(r"\b(mort[oaie]|morire|muor\w+|muoio|muoi|morì|suicid\w+|impicc\w+|uccid\w+|uccis\w+|sparat\w+|pistola|sangue|cancro|tumore)\b", re.I)
 MAX_WORDS = {"A1": 14, "A2": 12}
 
@@ -63,6 +63,17 @@ def spanish_issue(es: str | None) -> str | None:
     if _NO_LATIN.search(es):
         return "la traducción trae caracteres no españoles"
     return None
+
+
+# Revisión de precisión de las candidatas A2 (2026-11-26, 4 revisores independientes, 1077 frases): lo que más se colaba.
+_A2_TEMA = re.compile(r"\b(manett\w+|denunci\w+|esorciz\w+|copula|gay|scorreg\w+|puzza|violazione|comunist\w+|islam\w*|musulman\w+|chiesa|sciopero|coma|porno\w*|bisessual\w*|omosessual\w*|colp(?:ire|isc\w+|it[oaie])|rubat\w+|rubare|rubò|vaccin\w+|seppell\w+|decedut\w+|deceduto|picchi\w+|preg(?:o|a|ava|are|hiera|hiere)|elezion\w+|politic\w+|guerra|soldat\w+|esercito|pistola|massacr\w+|ferit\w+|ferire|sangue|bomba|prigione|carcere|ladro|ladri)\b", re.I)
+_A2_LESSICO_B1 = re.compile(r"\b(migliaia|degn\w+|sputar\w+|sputare|circuito|ratifica|lacuna|edilizia|epoca|predominio|riscaldamento|nebbia|illuminist\w+|prendersi gioco|presa gioco|prendere in giro|gioco di|al volo|volo degli|interessat\w+ nel|tirar\w*te?la|tirarsela|andarsene|San Pablo|soria|piragna|un epidemia|fraintendiment\w+|alcuna|vincere una causa|intim\w+|più bisogno|intorno a (?:mezzo\w+|mezzanotte|\d+)|ultimi saranno|in lungo e in largo|le sue tasche|diametro|foro|vaso d'acqua|topo di biblioteca|merita attenzione|tizio|bivio|in vigore|ammenda|a pagamento|vagar\w+|vagav\w+|laggiù|si dice che|di fila)\b", re.I)
+_A2_REMOTO_EXTRA = re.compile(r"\b(?:sedett\w+|sedetti|apparve|lessi|chiesi|scrissi|risposi|misi|vidi|feci|dissi|venni|ebbi|fui|dovetti|dovette|potei|volli|seppi|credette|perdette|vendette|ricevette|ripetette|ruppi|diedi|nacqui|(?:diede|dette|ruppe|accadde|cadde|scese|pose|ottenne|apparse|convinse|spinse|vinse|perse|sorse|offrì|aprì|capì|partì|sentì|finì|uscì|morì|tenne|condusse|trasse))\b", re.I)
+_A2_CONGIUNTIVO = re.compile(r"\b(?:credo|penso|spero|voglio|immagino|sembra|temo|dubito|vorrei|bisogna|è meglio|peccato|nonostante|benché|affinché|purché|prima che) che\b|\b(?:prima che|affinché|benché|purché|nonostante)\b|\bci (?:sia|siano)\b|\bche (?:\w+ )?(?:sia|siano|abbia|abbiano|faccia|facciano|dica|dicano|venga|vengano|vada|vadano|possa|possano|voglia|vogliano|debba|sappia|stia|dia|conosca|senta|capisca|lasci)\b", re.I)
+
+
+_A2_CONDIZ_PASSATO = re.compile(r"\b(?:avrei|avresti|avrebbe|avremmo|avreste|avrebbero|sarei|saresti|sarebbe|saremmo|sareste|sarebbero) (?:potuto|dovuto|voluto|stato|stata|stati|state|\w+(?:ato|uto|ito))\b", re.I)
+_A2_SI_FORMALE = re.compile(r"^Si [a-zà-ù]{3,}i\b", re.I)
 
 
 def italian_issue(it: str, level: str = "A1", allow: frozenset[str] | set[str] = frozenset()) -> str | None:
@@ -97,6 +108,18 @@ def italian_issue(it: str, level: str = "A1", allow: frozenset[str] | set[str] =
             return "pronombres combinados (fuera de A2)"
         if _MORBIDO_A2.search(it):
             return "tema mórbido (muerte), poco útil para practicar"
+        if _A2_TEMA.search(it):
+            return "tema inadecuado para A2 (política, religión, violencia, delito)"
+        if _A2_LESSICO_B1.search(it):
+            return "léxico de B1 o más"
+        if _A2_REMOTO_EXTRA.search(it):
+            return "passato remoto (fuera de A2)"
+        if _A2_SI_FORMALE.search(it) and "imperativo_formale" not in allow:
+            return "imperativo formal (fuera de A2)"
+        if _A2_CONDIZ_PASSATO.search(it):
+            return "condizionale passato (fuera de A2)"
+        if _A2_CONGIUNTIVO.search(it) and "congiuntivo" not in allow:
+            return "congiuntivo (fuera de A2)"
     if _IMPERATIVO_FORMALE.search(it) and "imperativo_formale" not in allow:
         return "imperativo formal (fuera de A1)"
     if _META.search(it):

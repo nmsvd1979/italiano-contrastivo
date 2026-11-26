@@ -811,7 +811,7 @@
      "title_es": "Ne de cantidad",
      "scope": "A",
      "productive": false,
-     "metodo": "variante a mano + generador (solo con cuantificador final)",
+     "metodo": "variante a mano + frases propias (el corpus da pocas válidas)",
      "calco_es": "*Ho due → Ne ho due; *Quanti fratelli hai? Ho due. → Ne ho due",
      "existe": "error-codes.json (nivel B2 hoy: se reclasifica a A2, solo reconocer)"
     }
@@ -1205,7 +1205,7 @@
      "title_es": "Fórmulas con Lei: scusi, senta, si accomodi",
      "scope": "A",
      "productive": false,
-     "metodo": "generador con vocativo formal",
+     "metodo": "generador con vocativo formal + variante a mano",
      "calco_es": "*Scusa, signore → Scusi, signore; mezclar tu y Lei es un error de registro",
      "formas_validas_es": [
       "Prenda, Senta, Mi dica (formas Lei correctas)"
@@ -1493,8 +1493,7 @@
    "module": "a2m04",
    "refs": {},
    "capsulas": [
-    "a2c12",
-    "a2c15"
+    "a2c12"
    ],
    "evidence": {
     "regex": "\\b(lo|la|li|le|l')\\s?(ho|hai|ha|abbiamo|avete|hanno|vedo|vedi|vede|vediamo|prendo|prendi|prende|compro|compri|compra|conosco|conosci|conosce|mangio|mangi|mangia|bevo|bevi|beve|aspetto|aspetti|aspetta|chiamo|chiami|chiama|voglio|vuoi|vuole|sento|senti|sente)\\b",
@@ -1612,18 +1611,20 @@
     "a2c22"
    ],
    "evidence": {
-    "regex": "\\b(primo|prima|secondo|seconda|terzo|terza|quarto|quarta|quinto|quinta|sesto|sesta|settimo|ottavo|nono|decimo) (piano|giorno|volta|anno|figlio|figlia|classe|posto|fila|strada|traversa|capitolo|lezione|gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\\b",
+    "regex": "\\b(?:primo|prima|secondo|seconda|terzo|terza|quarto|quarta|quinto|quinta|sesto|sesta|settimo|ottavo|nono|decimo) (?:piano|giorno|anno|figlio|figlia|classe|posto|fila|strada|traversa|capitolo|lezione|gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\\b|\\bnel (?:19|20)\\d\\d\\b|\\b(?:il|dal|al) (?:\\d{1,2}|primo) (?:gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\\b|\\b(?:alle|dalle) (?:\\d{1,2}|due|tre|quattro|cinque|sei|sette|otto|nove|dieci|undici|dodici)\\b",
     "min": 10,
     "in": "sentences",
     "si": [
      "Abito al terzo piano.",
      "Oggi è il primo maggio.",
-     "È la prima volta."
+     "Sono nato nel 1990.",
+     "Il corso inizia alle nove."
     ],
     "no": [
      "Prima mangio, poi esco.",
      "Aspetta un secondo.",
-     "Secondo me è giusto."
+     "Secondo me è giusto.",
+     "È la prima volta."
     ]
    },
    "gap_es": "No hay unidad de ordinales ni de fechas (el corpus tiene 0–22 frases).",
@@ -1788,7 +1789,7 @@
     "a2c15"
    ],
    "evidence": {
-    "regex": "\\b(l'|li |le |la |lo )(ho|hai|ha|abbiamo|avete|hanno) (\\w+(ato|ata|ati|ate|uto|uta|uti|ute|ito|ita|iti|ite)|preso|presa|presi|prese|letto|letta|letti|lette|fatto|fatta|fatti|fatte|visto|vista|visti|viste|messo|messa|messi|messe|scritto|scritta|scritti|scritte)\\b",
+    "regex": "\\b(?:l'|li |le |la |lo )(?:ho|hai|ha|abbiamo|avete|hanno) (?!(?:chiesto|detto|dato|telefonato|scritto|risposto)\\b)(?:\\w+(?:ato|ata|ati|ate|uto|uta|uti|ute|ito|ita|iti|ite)|preso|presa|presi|prese|letto|letta|letti|lette|fatto|fatta|fatti|fatte|visto|vista|visti|viste|messo|messa|messi|messe)\\b",
     "min": 25,
     "in": "sentences",
     "si": [
@@ -1881,17 +1882,20 @@
     "a2c10"
    ],
    "evidence": {
-    "regex": "\\bmentre\\b|\\b(all'improvviso|a un tratto|da piccol[oa]|di solito|ogni (giorno|estate|sera|domenica|mattina|settimana))\\b",
+    "regex": "^(?=.*\\b(?:mentre|all'improvviso|a un tratto|da piccol[oa]|di solito|ogni (?:giorno|estate|sera|domenica|mattina|settimana)|quando (?:ero|eri|era|avevo|aveva|stavo|c'era))\\b)(?=.*(?:\\b(?:ho|hai|ha|abbiamo|avete|hanno|sono|sei|è|siamo|siete) (?:\\w+(?:ato|uto|ito|so|sto|tto|rto|eso)|stat[oaie])\\b|\\b[a-zà-ù]{3,}(?:avo|ava|avamo|avate|avano|evo|eva|evamo|evate|evano)|\\b(?:dorm|fin|cap|part|sent|usc|ven|serv|apr|ten)iv(?:o|a|amo|ate|ano)\\b|\\b(?:ero|eri|era|eravamo|eravate|erano)\\b)).*$",
     "min": 20,
     "in": "sentences",
     "si": [
-     "Mentre dormivo è suonato il telefono.",
-     "Da piccolo giocavo molto.",
-     "Ogni sera cenavamo insieme."
+     "Mentre leggevo, è arrivato Marco.",
+     "Da piccola giocavo sempre in giardino.",
+     "All'improvviso ho sentito un rumore.",
+     "Di solito mangiavamo alle otto."
     ],
     "no": [
-     "Il telefono suona.",
-     "Domani vado al mare."
+     "Tom beve ogni giorno.",
+     "Di solito dormo otto ore.",
+     "Mentre guida, parla poco.",
+     "Quando arrivi?"
     ]
    },
    "gap_es": "Es una decisión semántica: no hay generador mecánico.",
@@ -2008,7 +2012,7 @@
     "a2c17"
    ],
    "evidence": {
-    "regex": "\\b(più|meno) \\w+ (di|del|della|dei|delle|dello|degli|che)\\b|\\b(così|tanto) \\w+ (come|quanto)\\b",
+    "regex": "^(?!.*\\b(?:ciò che|del previsto|di quell\\w+ che|più bisogno)\\b)(?!.*\\b(?:il|la|lo|i|le|gli|l') ?(?:più|meno)\\b).*\\b(?:più|meno) (?!bisogno\\b)\\w+ (?:di|del|della|dei|delle|dello|degli|che)\\b|\\b(?:così|tanto) \\w+ (?:come|quanto)\\b",
     "min": 30,
     "in": "sentences",
     "si": [
@@ -2038,7 +2042,7 @@
     "a2c18"
    ],
    "evidence": {
-    "regex": "\\b(meglio|peggio|miglior[ei]?|peggior[ei]?)\\b|\\b\\w+issim[oaie]\\b|\\b(il|la|i|le) più \\w+",
+    "regex": "^(?!.*\\b(?:il|la|lo|i|le|gli) (?:più|meno)\\b)(?!.*\\b(?:infinitamente|angust\\w+)\\b).*(?:\\b(?:meglio (?!aver)|peggio|miglior[ei]?|peggior[ei]?)\\b|\\b\\w+issim[oaie]\\b)",
     "min": 30,
     "in": "sentences",
     "si": [
@@ -2073,17 +2077,20 @@
     "a2c19"
    ],
    "evidence": {
-    "regex": "\\b(tutto|tutta|tutti|tutte|niente|nulla|nessuno|nessuna|nessun|abbastanza|un po')\\b",
+    "regex": "\\b(?:qualche|nessun|nessuna) [a-zà-ù]{3,}|\\b(?:qualcosa|niente|nulla) di [a-zà-ù]{3,}",
     "min": 40,
     "in": "sentences",
     "si": [
-     "Non ho niente da fare.",
-     "Nessuno parla.",
-     "Ho mangiato abbastanza.",
-     "Tutti sono qui."
+     "Ho qualche problema.",
+     "Non ho nessun amico qui.",
+     "Voglio qualcosa di buono.",
+     "Non c'è niente di nuovo."
     ],
     "no": [
-     "Il treno parte."
+     "Il treno parte.",
+     "Tutti sono qui.",
+     "Non ho niente.",
+     "Nessuno parla."
     ]
    },
    "gap_es": "u39 solo trata molto, poco, troppo, tanto.",
@@ -2211,7 +2218,8 @@
     "no": [
      "Penso che sia vero.",
      "Che bello!"
-    ]
+    ],
+    "acopio": false
    },
    "gap_es": "Sin unidad.",
    "how_es": "a2c35 y los relatos; las opiniones (penso che + congiuntivo) son B1: en A2 se opina con g40."
@@ -2230,12 +2238,13 @@
     "a2c11"
    ],
    "evidence": {
-    "regex": "\\bprima di \\w+(are|ere|ire|arsi|ersi|irsi|rre)\\b",
+    "regex": "\\bprima di (?!(?:avere|aver|essere|esser)\\b)\\w+(?:are|ere|ire|arsi|ersi|irsi|rre)\\b|\\bdopo (?:(?:il|un|uno|i|gli|lo|l') [a-zà-ù]{3,}|(?:la|le|una) [a-zà-ù]{2,}[aei])\\b",
     "min": 30,
     "in": "sentences",
     "si": [
      "Mangio prima di uscire.",
-     "Prima di partire, chiamami."
+     "Prima di partire, chiamami.",
+     "Dopo la cena guardiamo un film."
     ],
     "no": [
      "Prima mangio, poi esco.",
@@ -2405,17 +2414,19 @@
     "a2c30"
    ],
    "evidence": {
-    "regex": "\\b(scusi|senta|mi dica|si accomodi|prenda|venga)\\b",
+    "regex": "^(?!.*\\b(?:che|voglio|credo|penso)\\b).*(?:^|[,;.!?] ?)(?:scusi|senta|mi dica|si accomodi|prenda|venga)\\b",
     "min": 20,
     "in": "sentences",
     "si": [
      "Scusi, dov'è la stazione?",
-     "Si accomodi!",
-     "Prenda questa medicina."
+     "Senta, ha un minuto?",
+     "Si accomodi, prego.",
+     "Mi dica, signora."
     ],
     "no": [
-     "Lui guarda la TV.",
-     "Tu entri qui."
+     "Voglio che venga domani.",
+     "Credo che si senta male.",
+     "Ti scuso."
     ]
    },
    "planned": {
@@ -2492,7 +2503,7 @@
     "a2c13"
    ],
    "evidence": {
-    "regex": "\\b(vedo|vedi|vede|ho visto|ha visto|conosco|ho conosciuto|aspetto|chiamo|ho chiamato|cerco|incontro|ho incontrato|invito) (Maria|Marco|Luca|Anna|Paolo|Giulia|Carlo|Sara|Tom|mia madre|mio padre|mio fratello|mia sorella|il professore|la professoressa|il dottore|lo zio|la zia|i miei amici|mia nonna|mio nonno|un amico|un'amica|una ragazza|un ragazzo|lui|lei)\\b",
+    "regex": "^(?!.*\\b(?:da dove|chi|quante|quanti|quale|quali)\\b)\\b(vedo|vedi|vede|ho visto|ha visto|conosco|ho conosciuto|aspetto|chiamo|ho chiamato|cerco|incontro|ho incontrato|invito) (Maria|Marco|Luca|Anna|Paolo|Giulia|Carlo|Sara|Tom|mia madre|mio padre|mio fratello|mia sorella|il professore|la professoressa|il dottore|lo zio|la zia|i miei amici|mia nonna|mio nonno|un amico|un'amica|una ragazza|un ragazzo|lui|lei)\\b",
     "min": 25,
     "in": "sentences",
     "si": [
@@ -2523,7 +2534,7 @@
     "a2c32"
    ],
    "evidence": {
-    "regex": "\\bci (vado|vai|va|andiamo|andate|vanno|sono (andat\\w+|stat\\w+)|siamo (andat\\w+|stat\\w+)|vuole|vogliono|metto|mette|mettiamo|vorrà|resto|torno)\\b",
+    "regex": "\\bci (vado|vai|va|andiamo|andate|vanno|sono (?:andat\\w+|stat[oa]\\b)|siamo (andat\\w+|stat\\w+)|vuole|vogliono|metto|mette|mettiamo|vorrà|resto|torno)\\b",
     "min": 25,
     "in": "sentences",
     "si": [
@@ -2553,7 +2564,7 @@
     "a2c16"
    ],
    "evidence": {
-    "regex": "\\bne (ho|hai|ha|abbiamo|avete|hanno|voglio|vuoi|prendo|prendi|compro|vorrei) (un|una|uno|due|tre|quattro|cinque|dieci|molto|molti|molta|poco|pochi|tanti|troppo|abbastanza|bisogno)\\b",
+    "regex": "\\bne (?:ho|hai|ha|abbiamo|avete|hanno|voglio|vuoi|prendo|prendi|compro|vorrei) (?:(?:un|una|uno|due|tre|quattro|cinque|dieci|molto|molti|molta|poco|pochi|tanti|troppo)\\b|abbastanza\\b(?! di)|un po')",
     "min": 20,
     "in": "sentences",
     "si": [

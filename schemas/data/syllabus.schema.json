@@ -188,6 +188,10 @@
       "type": "string"
      },
      "description": "Frases que la expresión NO debe detectar."
+    },
+    "acopio": {
+     "type": "boolean",
+     "description": "false = esta expresión mide la cobertura pero no sirve para juntar candidatas (demasiado amplia)"
     }
    }
   },

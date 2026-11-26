@@ -26,6 +26,7 @@ class Entry:
     gender: str  # m | f | -
     num: str     # s | p | -
     gloss: str
+    target: bool = True   # False = «s» en el archivo: solo sirve de sustituto (mismo género y número) en los ejercicios; no se enseña ni se busca en las frases
 
 
 def art_class(e: Entry) -> str:
@@ -54,8 +55,8 @@ def topics() -> dict[str, list[Entry]]:
     for code, rows in raw.items():
         entries = []
         for row in rows:
-            form, g, n, gloss = row.split("|")
-            entries.append(Entry(form, g, n, gloss))
+            form, g, n, gloss, *flag = row.split("|")
+            entries.append(Entry(form, g, n, gloss, flag != ["s"]))
         out[code] = entries
     return out
 
@@ -78,7 +79,7 @@ def find_vocab(code: str, it: str):
         nxt = re.search(r"\b(?:questo|questa|questi|queste|quel|quella|quei|quelle|quello)\s+(\w+)", it, re.I)
         if not nxt or nxt.group(1).lower() in {"è", "e", "sono", "era", "non", "che", "ha", "hanno", "di", "mi", "ti", "si", "ci", "vi", "lo", "la", "li", "le", "ne", "a"}:
             return None
-    by_form = {e.form.lower(): e for e in entries}
+    by_form = {e.form.lower(): e for e in entries if e.target}
     hits = [m for m in re.finditer(r"[\wàèéìòùÀ-Ü]+", it) if m.group(0).lower() in by_form]
     if len(hits) != 1:
         return None

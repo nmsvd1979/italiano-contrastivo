@@ -27,6 +27,7 @@ OUT = ROOT / "data/work/acopio"
 MIN_UNICAS = 45
 MIN_MANUAL = 80            # con método manual hace falta el doble: hay que escribir y auditar cada variante
 MAX_TOM_MARY = 0.20
+MAX_PROPIAS = 30           # tope de frases escritas por la IA (authored) para completar una cápsula; más es cambiar de método
 WORDS = (3, 12)
 NAMES = {"tom", "mary", "maria", "marco", "giovanni", "john", "anna", "luca", "paolo", "giulia", "carlo", "sara", "ken", "mike", "bob", "paul", "jane", "luisa", "roberto", "andrea",
          "luis", "jack", "ana", "michele", "elena", "marta", "lucia", "laura", "chiara", "alice", "lisa", "david", "tanaka", "yamada", "ken", "manuel", "francesca", "alessandro"}
@@ -55,7 +56,7 @@ def capsule_specs(doc: dict) -> dict[str, dict]:
             out[c["id"]] = {"id": c["id"], "module": m["id"], "code": c["code"], "metodo": c["metodo"], "scope": c["scope"], "title": c["title_es"], "regexes": []}
     for q in doc["requisitos"]:
         ev = q.get("evidence")
-        if ev:
+        if ev and ev.get("acopio", True):
             for cid in q.get("capsulas", []):
                 out[cid]["regexes"].append(ev["regex"])
     return out
@@ -123,12 +124,16 @@ def analyze(spec: dict, pool: list[dict], limit: int) -> tuple[dict, list[dict]]
     keep_tm = tm[: max(0, int(MAX_TOM_MARY * len(unicas)))] if len(sin) >= 0.8 * len(unicas) else tm
     final = [c for c in unicas if c in sin or c in keep_tm]
     gen_n = sum(1 for c in final if c["gen"])
+    if gen_n >= MIN_UNICAS and not is_vocab:   # con generador suficiente, las frases «solo por patrón» (más ruido, medido el 2026-11-26) no se ofrecen
+        final = [c for c in final if c["gen"]]
     # Con generador suficiente no hace falta trabajo manual; si no, la cápsula depende de variantes a mano y se pide el doble.
     usable = len(final) if is_vocab else gen_n if gen_n >= MIN_UNICAS or not manual else len(final)
     need = MIN_UNICAS if (is_vocab or gen_n >= MIN_UNICAS or not manual) else MIN_MANUAL
     rep = {"capsula": spec["id"], "modulo": spec["module"], "code": code, "scope": spec["scope"], "metodo": spec["metodo"], "titulo": spec["title"],
            "brutas": raw, "tras_filtro_a2": fit, "unicas": len(final), "con_generador": gen_n, "con_espanol_directo": sum(1 for c in final if c["kind"] != "pivot"),
-           "tom_mary": sum(1 for c in final if c in tm), "necesarias": need, "utilizables": usable, "pasa": usable >= need}
+           "tom_mary": sum(1 for c in final if c in tm), "necesarias": need, "utilizables": usable,
+           "propias_necesarias": max(0, MIN_UNICAS - len(final)) if "frases propias" in spec["metodo"] else 0,
+           "pasa": usable >= need or ("frases propias" in spec["metodo"] and MIN_UNICAS - len(final) <= MAX_PROPIAS)}
     return rep, final[:limit]
 
 
@@ -150,7 +155,7 @@ def main():
         (OUT / f"{cid}.json").write_text(json.dumps(cands, ensure_ascii=False, indent=1), encoding="utf8")
         informe.append(rep)
         print(f"{cid} {spec['code']:34s} brutas={rep['brutas']:6d} A2={rep['tras_filtro_a2']:6d} únicas={rep['unicas']:5d} gen={rep['con_generador']:5d} directas={rep['con_espanol_directo']:4d} "
-              f"{'OK' if rep['pasa'] else 'NO'} ({rep['utilizables']}/{rep['necesarias']})")
+              f"{'OK' if rep['pasa'] else 'NO'} ({rep['utilizables']}/{rep['necesarias']}{', propias ' + str(rep['propias_necesarias']) if rep['propias_necesarias'] else ''})")
     if not a.capsula:
         (OUT / "informe.json").write_text(json.dumps(informe, ensure_ascii=False, indent=1), encoding="utf8")
 
