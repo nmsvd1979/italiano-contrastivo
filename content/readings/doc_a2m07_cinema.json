@@ -1,0 +1,97 @@
+{
+  "id": "doc_a2m07_cinema",
+  "title": "Programma del cinema",
+  "level": "A2",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Programa propio de un cine con títulos inventados, escrito por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿A qué hora empieza «Due amici al mare»?",
+      "options": [
+        "Alle 20.00",
+        "Alle 18.30",
+        "Alle 21.15"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Cuál es la última película del día?",
+      "options": [
+        "La città di sera",
+        "La cena di Natale",
+        "Il viaggio di Anna"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿En qué sala dan «Il gatto e la luna»?",
+      "options": [
+        "Sala 1",
+        "Sala 2",
+        "Sala 3"
+      ],
+      "answer": 2
+    },
+    {
+      "prompt_es": "¿Qué película empieza a las 16.00?",
+      "options": [
+        "Il gatto e la luna",
+        "Due amici al mare",
+        "Il viaggio di Anna"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Cuántas películas hay en la sala 1?",
+      "options": [
+        "Una",
+        "Dos",
+        "Tres"
+      ],
+      "answer": 1
+    }
+  ],
+  "table": {
+    "head": [
+      "Film",
+      "Orario",
+      "Sala"
+    ],
+    "rows": [
+      [
+        "Il gatto e la luna",
+        "16.00",
+        "Sala 3"
+      ],
+      [
+        "La città di sera",
+        "18.30",
+        "Sala 1"
+      ],
+      [
+        "Due amici al mare",
+        "20.00",
+        "Sala 2"
+      ],
+      [
+        "Il viaggio di Anna",
+        "21.15",
+        "Sala 1"
+      ],
+      [
+        "La cena di Natale",
+        "22.30",
+        "Sala 3"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "rd_a2hito_relato",
+  "title": "Una domenica al mare",
+  "kind": "lectura",
+  "level": "A2",
+  "authored": true,
+  "exam": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Relato breve en pasado (passato prossimo e imperfetto) escrito por la IA; examen de hito.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2hito_relato_00",
+      "it": "Domenica scorsa Giulia è andata al mare con Luca.",
+      "es": "El domingo pasado Giulia fue a la playa con Luca."
+    },
+    {
+      "id": "rd_a2hito_relato_01",
+      "it": "Faceva bel tempo e c'era poca gente.",
+      "es": "Hacía buen tiempo y había poca gente."
+    },
+    {
+      "id": "rd_a2hito_relato_02",
+      "it": "Hanno lasciato la macchina vicino alla spiaggia.",
+      "es": "Dejaron el auto cerca de la playa."
+    },
+    {
+      "id": "rd_a2hito_relato_03",
+      "it": "Mentre Luca nuotava, Giulia leggeva un libro.",
+      "es": "Mientras Luca nadaba, Giulia leía un libro."
+    },
+    {
+      "id": "rd_a2hito_relato_04",
+      "it": "A mezzogiorno hanno mangiato un panino.",
+      "es": "Al mediodía comieron un sándwich."
+    },
+    {
+      "id": "rd_a2hito_relato_05",
+      "it": "Poi hanno incontrato Anna, una vecchia amica.",
+      "es": "Luego se encontraron con Anna, una vieja amiga."
+    },
+    {
+      "id": "rd_a2hito_relato_06",
+      "it": "Da piccola Anna abitava in quel paese.",
+      "es": "De pequeña, Anna vivía en ese pueblo."
+    },
+    {
+      "id": "rd_a2hito_relato_07",
+      "it": "Li ha invitati a casa sua per un caffè.",
+      "es": "Los invitó a su casa a tomar un café."
+    },
+    {
+      "id": "rd_a2hito_relato_08",
+      "it": "Alle cinque erano stanchi e sono tornati a casa.",
+      "es": "A las cinco estaban cansados y volvieron a casa."
+    },
+    {
+      "id": "rd_a2hito_relato_09",
+      "it": "Giulia ha detto: «Che bella giornata!»",
+      "es": "Giulia dijo: «¡Qué lindo día!»"
+    },
+    {
+      "id": "rd_a2hito_relato_10",
+      "it": "Luca ha risposto: «Sì, ci torniamo presto!»",
+      "es": "Luca respondió: «¡Sí, volvemos pronto!»"
+    },
+    {
+      "id": "rd_a2hito_relato_11",
+      "it": "Erano le sei quando sono arrivati a casa.",
+      "es": "Eran las seis cuando llegaron a casa."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Con quién fue Giulia al mar?",
+      "options": [
+        "Con Anna",
+        "Con Luca",
+        "Con una amiga"
+      ],
+      "answer": 1,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Qué hacía Giulia mientras Luca nadaba?",
+      "options": [
+        "Leía un libro",
+        "Comía un sándwich",
+        "Hablaba con Anna"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Qué comieron al mediodía?",
+      "options": [
+        "Un helado",
+        "Una pizza",
+        "Un sándwich"
+      ],
+      "answer": 2,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Dónde vivía Anna de pequeña?",
+      "options": [
+        "En ese pueblo",
+        "En otra ciudad",
+        "En el mar"
+      ],
+      "answer": 0,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Por qué volvieron a casa a las cinco?",
+      "options": [
+        "Llovía",
+        "Estaban cansados",
+        "Era tarde para Anna"
+      ],
+      "answer": 1,
+      "evidence": 8
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "doc_a2m08_cartelli",
+  "title": "Cartelli in un edificio pubblico",
+  "level": "A2",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Carteles propios de un edificio público, escritos por la IA (imperativo tu/voi e infinitivo).",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿Qué debes hacer si el ascensor está fuera de servicio?",
+      "options": [
+        "Esperar un rato",
+        "Usar las escaleras",
+        "Llamar al conserje"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Qué pide el cartel «Prendere il numero»?",
+      "options": [
+        "Pagar en la caja",
+        "Sacar un número y esperar el turno",
+        "Dar el número de teléfono"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Qué hay que hacer con una puerta con el cartel «Tirare»?",
+      "options": [
+        "Empujarla",
+        "Tirar de ella",
+        "Cerrarla con llave"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Qué cartel avisa que no se debe correr?",
+      "options": [
+        "Pavimento bagnato",
+        "Silenzio",
+        "Vietato fumare"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Qué piden en el cartel «Silenzio»?",
+      "options": [
+        "Que hablen bajo",
+        "Que salgan",
+        "Que apaguen la luz"
+      ],
+      "answer": 0
+    }
+  ],
+  "table": {
+    "head": [
+      "Cartello",
+      "Significato"
+    ],
+    "rows": [
+      [
+        "Vietato fumare",
+        "Non fumare in questo edificio."
+      ],
+      [
+        "Spingere",
+        "Per aprire la porta, spingi."
+      ],
+      [
+        "Tirare",
+        "Per aprire la porta, tira."
+      ],
+      [
+        "Prendere il numero",
+        "Prendi il numero e aspetta il tuo turno."
+      ],
+      [
+        "Pavimento bagnato",
+        "Attenzione: non correre."
+      ],
+      [
+        "Ascensore fuori servizio",
+        "L'ascensore non funziona: usa le scale."
+      ],
+      [
+        "Silenzio",
+        "Parlate piano, per favore."
+      ],
+      [
+        "Spegnere il cellulare",
+        "Spegnete i cellulari prima di entrare."
+      ]
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "id": "ls_a2m10",
+  "title": "In farmacia",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Escucha propia en una farmacia: un cliente con resfriado y el farmacéutico (trato formal), escrita por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "ls_a2m10_00",
+      "it": "Buongiorno. Mi dica.",
+      "es": "Buenos días. Dígame.",
+      "speaker": "Farmacista"
+    },
+    {
+      "id": "ls_a2m10_01",
+      "it": "Buongiorno. Ho il raffreddore e mi fa male la gola.",
+      "es": "Buenos días. Estoy resfriado y me duele la garganta.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m10_02",
+      "it": "Ha anche la febbre?",
+      "es": "¿Tiene también fiebre?",
+      "speaker": "Farmacista"
+    },
+    {
+      "id": "ls_a2m10_03",
+      "it": "Un po'. Ieri sera avevo trentasette e otto.",
+      "es": "Un poco. Anoche tenía treinta y siete con ocho.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m10_04",
+      "it": "Ha la tosse?",
+      "es": "¿Tiene tos?",
+      "speaker": "Farmacista"
+    },
+    {
+      "id": "ls_a2m10_05",
+      "it": "Sì, un po' di tosse, soprattutto la sera.",
+      "es": "Sí, un poco de tos, sobre todo en la noche.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m10_06",
+      "it": "Le consiglio queste pastiglie. Ne prenda due al giorno.",
+      "es": "Le aconsejo estas pastillas. Tome dos al día.",
+      "speaker": "Farmacista"
+    },
+    {
+      "id": "ls_a2m10_07",
+      "it": "Posso prenderle prima di mangiare?",
+      "es": "¿Puedo tomarlas antes de comer?",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m10_08",
+      "it": "Meglio dopo i pasti. Beva molta acqua e riposi.",
+      "es": "Mejor después de las comidas. Beba mucha agua y descanse.",
+      "speaker": "Farmacista"
+    },
+    {
+      "id": "ls_a2m10_09",
+      "it": "Credo di avere bisogno anche di uno sciroppo.",
+      "es": "Creo que también necesito un jarabe.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m10_10",
+      "it": "Secondo me, per ora bastano le pastiglie.",
+      "es": "En mi opinión, por ahora bastan las pastillas.",
+      "speaker": "Farmacista"
+    },
+    {
+      "id": "ls_a2m10_11",
+      "it": "Se la febbre sale, vada dal medico.",
+      "es": "Si la fiebre sube, vaya al médico.",
+      "speaker": "Farmacista"
+    },
+    {
+      "id": "ls_a2m10_12",
+      "it": "Sono d'accordo. Quanto costano?",
+      "es": "Estoy de acuerdo. ¿Cuánto cuestan?",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m10_13",
+      "it": "Sette euro e cinquanta in tutto.",
+      "es": "Siete euros con cincuenta en total.",
+      "speaker": "Farmacista"
+    },
+    {
+      "id": "ls_a2m10_14",
+      "it": "Ecco. Grazie, arrivederci.",
+      "es": "Aquí tiene. Gracias, hasta luego.",
+      "speaker": "Paolo"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué problemas tiene Paolo?",
+      "options": [
+        "Resfriado y dolor de garganta",
+        "Dolor de cabeza y de estómago",
+        "Solo tos"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Cuándo tose más Paolo?",
+      "options": [
+        "En la mañana",
+        "En la noche",
+        "Todo el día"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Cuándo debe tomar las pastillas?",
+      "options": [
+        "Antes de comer",
+        "Después de las comidas",
+        "Solo al acostarse"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Cuándo debe ir al médico?",
+      "options": [
+        "Si la fiebre sube",
+        "Mañana mismo",
+        "Nunca"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta todo?",
+      "options": [
+        "7,50 euros",
+        "5,70 euros",
+        "17,50 euros"
+      ],
+      "answer": 0
+    }
+  ],
+  "listen": true
+}

@@ -15,6 +15,11 @@
 "g": "ropa",
 "k": "opaca"
 },
+"abbraccio": {
+"g": "abrazo",
+"k": "regular",
+"r": "doble"
+},
 "abili": {
 "g": "hábiles",
 "k": "transparente"
@@ -29,6 +34,18 @@
 },
 "abitare": {
 "g": "vivir / habitar",
+"k": "transparente"
+},
+"abitava": {
+"g": "vivía",
+"k": "transparente"
+},
+"abitavi": {
+"g": "vivías",
+"k": "transparente"
+},
+"abitavo": {
+"g": "vivía (yo)",
 "k": "transparente"
 },
 "abiti": {
@@ -48,10 +65,18 @@
 "k": "regular",
 "r": "doble"
 },
+"accanto": {
+"g": "al lado",
+"k": "opaca"
+},
 "accomodarvi": {
 "g": "acomodarse (ustedes)",
 "k": "regular",
 "r": "doble"
+},
+"accomodi": {
+"g": "pase / póngase cómodo (usted)",
+"k": "opaca"
 },
 "accordo": {
 "g": "acuerdo (d'accordo)",
@@ -66,6 +91,10 @@
 "k": "regular",
 "r": "otro",
 "n": "agua → acqua"
+},
+"ad": {
+"g": "a (ante vocal)",
+"k": "transparente"
 },
 "addormentato": {
 "g": "dormido",
@@ -109,12 +138,24 @@
 "g": "ah",
 "k": "transparente"
 },
+"ahah": {
+"g": "jaja",
+"k": "transparente"
+},
 "ai": {
 "g": "a los",
 "k": "opaca"
 },
 "aiutarla": {
 "g": "ayudarla",
+"k": "opaca"
+},
+"aiutarmi": {
+"g": "ayudarme",
+"k": "opaca"
+},
+"aiutato": {
+"g": "ayudado",
 "k": "opaca"
 },
 "al": {
@@ -185,11 +226,21 @@
 "g": "alto",
 "k": "transparente"
 },
+"altra": {
+"g": "otra",
+"k": "regular",
+"r": "otro",
+"n": "al- → o-"
+},
 "altre": {
 "g": "otras",
 "k": "regular",
 "r": "otro",
 "n": "al- → o- (altro → otro)"
+},
+"altrettanto": {
+"g": "igualmente",
+"k": "opaca"
 },
 "altri": {
 "g": "otros",
@@ -237,6 +288,10 @@
 },
 "americana": {
 "g": "estadounidense / americana",
+"k": "transparente"
+},
+"amica": {
+"g": "amiga",
 "k": "transparente"
 },
 "amiche": {
@@ -300,11 +355,27 @@
 "g": "ido",
 "k": "opaca"
 },
+"andavo": {
+"g": "iba",
+"k": "opaca"
+},
 "andiamo": {
 "g": "vamos",
 "k": "opaca"
 },
+"andremo": {
+"g": "iremos",
+"k": "opaca"
+},
+"animati": {
+"g": "animados",
+"k": "transparente"
+},
 "anita": {
+"g": "nombre propio",
+"k": "transparente"
+},
+"anna": {
 "g": "nombre propio",
 "k": "transparente"
 },
@@ -328,6 +399,11 @@
 "g": "anuncios",
 "k": "transparente"
 },
+"annuncio": {
+"g": "anuncio",
+"k": "regular",
+"r": "doble"
+},
 "antico": {
 "g": "antiguo",
 "k": "transparente"
@@ -344,6 +420,14 @@
 "anziani": {
 "g": "ancianos",
 "k": "transparente"
+},
+"aperta": {
+"g": "abierta",
+"k": "opaca"
+},
+"aperti": {
+"g": "abiertos",
+"k": "opaca"
 },
 "aperto": {
 "g": "abierto / aire libre",
@@ -365,8 +449,20 @@
 "g": "apuntes",
 "k": "opaca"
 },
+"apri": {
+"g": "abre (tú)",
+"k": "opaca"
+},
+"aprila": {
+"g": "ábrela",
+"k": "opaca"
+},
 "aprite": {
 "g": "abran",
+"k": "opaca"
+},
+"apro": {
+"g": "abro",
 "k": "opaca"
 },
 "arancia": {
@@ -395,12 +491,20 @@
 "g": "llegar",
 "k": "opaca"
 },
+"arrivati": {
+"g": "llegados",
+"k": "opaca"
+},
 "arrivato": {
 "g": "llegado",
 "k": "opaca"
 },
 "arrivederci": {
 "g": "hasta luego",
+"k": "opaca"
+},
+"arrivi": {
+"g": "llegas",
 "k": "opaca"
 },
 "arrivo": {
@@ -447,12 +551,40 @@
 "g": "escucho",
 "k": "opaca"
 },
+"aspetta": {
+"g": "espera",
+"k": "opaca"
+},
+"aspettami": {
+"g": "espérame",
+"k": "opaca"
+},
+"aspettatemi": {
+"g": "espérenme (ustedes)",
+"k": "opaca"
+},
+"aspettava": {
+"g": "esperaba",
+"k": "opaca"
+},
+"aspetti": {
+"g": "esperas",
+"k": "opaca"
+},
+"aspettiamo": {
+"g": "esperamos",
+"k": "opaca"
+},
 "aspetto": {
 "g": "espero",
 "k": "opaca"
 },
 "aspirapolvere": {
 "g": "aspiradora",
+"k": "opaca"
+},
+"assaggiare": {
+"g": "probar (comida)",
 "k": "opaca"
 },
 "attento": {
@@ -473,6 +605,10 @@
 "g": "cruzan",
 "k": "opaca"
 },
+"aurora": {
+"g": "nombre propio",
+"k": "transparente"
+},
 "autobus": {
 "g": "autobús",
 "k": "transparente"
@@ -485,9 +621,32 @@
 "g": "tienen (ustedes) / han",
 "k": "opaca"
 },
+"avevo": {
+"g": "tenía",
+"k": "opaca"
+},
+"avrò": {
+"g": "tendré",
+"k": "opaca"
+},
 "avuto": {
 "g": "tenido",
 "k": "opaca"
+},
+"avventura": {
+"g": "aventura",
+"k": "regular",
+"r": "doble"
+},
+"avvisi": {
+"g": "avisas",
+"k": "regular",
+"r": "doble"
+},
+"avviso": {
+"g": "aviso",
+"k": "regular",
+"r": "doble"
 },
 "avvocato": {
 "g": "abogado",
@@ -515,9 +674,17 @@
 "g": "balcón",
 "k": "transparente"
 },
+"bambini": {
+"g": "niños",
+"k": "opaca"
+},
 "bambino": {
 "g": "niño",
 "k": "opaca"
+},
+"banca": {
+"g": "banco",
+"k": "transparente"
 },
 "banchi": {
 "g": "puestos de venta",
@@ -555,6 +722,10 @@
 "g": "básico",
 "k": "transparente"
 },
+"basilico": {
+"g": "albahaca",
+"k": "opaca"
+},
 "basket": {
 "g": "básquetbol",
 "k": "transparente"
@@ -566,6 +737,10 @@
 "bassi": {
 "g": "bajos",
 "k": "opaca"
+},
+"bastano": {
+"g": "bastan",
+"k": "transparente"
 },
 "bel": {
 "g": "bello",
@@ -618,6 +793,11 @@
 "g": "nombre propio",
 "k": "transparente"
 },
+"benvenuti": {
+"g": "bienvenidos",
+"k": "regular",
+"r": "ie-e"
+},
 "benvenuto": {
 "g": "nombre propio",
 "k": "transparente"
@@ -626,6 +806,10 @@
 "g": "beber",
 "k": "regular",
 "r": "inf-e"
+},
+"beva": {
+"g": "beba",
+"k": "transparente"
 },
 "beve": {
 "g": "bebe / se toma",
@@ -655,9 +839,27 @@
 "g": "vaso",
 "k": "opaca"
 },
+"bicchieri": {
+"g": "vasos",
+"k": "opaca"
+},
 "bicci": {
 "g": "nombre propio",
 "k": "transparente"
+},
+"bici": {
+"g": "bici",
+"k": "transparente"
+},
+"bicicletta": {
+"g": "bicicleta",
+"k": "regular",
+"r": "doble"
+},
+"biciclette": {
+"g": "bicicletas",
+"k": "regular",
+"r": "doble"
 },
 "biglietteria": {
 "g": "boletería",
@@ -699,6 +901,10 @@
 "g": "cerveza",
 "k": "opaca"
 },
+"biscotti": {
+"g": "galletas",
+"k": "opaca"
+},
 "bisogno": {
 "g": "necesidad",
 "k": "opaca"
@@ -711,6 +917,10 @@
 "g": "azul",
 "k": "opaca"
 },
+"bolletta": {
+"g": "cuenta (de luz, gas)",
+"k": "opaca"
+},
 "bologna": {
 "g": "Bolonia",
 "k": "transparente"
@@ -719,11 +929,21 @@
 "g": "borrador (palabra española)",
 "k": "transparente"
 },
+"borsa": {
+"g": "bolso",
+"k": "opaca",
+"n": "falso amigo: no es «bolsa» de valores; es bolso o cartera"
+},
 "bottiglia": {
 "g": "botella",
 "k": "regular",
 "r": "otro",
 "n": "ll → gli (botella → bottiglia)"
+},
+"bravissima": {
+"g": "buenísima / muy hábil",
+"k": "opaca",
+"n": "falso amigo: bravo/a no es «bravo», sino bueno, capaz"
 },
 "brioche": {
 "g": "brioche (bollo dulce)",
@@ -743,6 +963,18 @@
 },
 "brutto": {
 "g": "feo / malo",
+"k": "opaca"
+},
+"buca": {
+"g": "hoyo",
+"k": "opaca"
+},
+"bucato": {
+"g": "ropa lavada",
+"k": "opaca"
+},
+"buio": {
+"g": "oscuridad",
 "k": "opaca"
 },
 "buon": {
@@ -789,8 +1021,20 @@
 "ff": true,
 "n": "Parece «burro» (animal) pero significa mantequilla"
 },
+"buttala": {
+"g": "tírala",
+"k": "opaca"
+},
 "c": {
 "g": "hay (c'è = hay)",
+"k": "opaca"
+},
+"caduta": {
+"g": "caída",
+"k": "opaca"
+},
+"caduto": {
+"g": "caído",
 "k": "opaca"
 },
 "caffè": {
@@ -803,6 +1047,10 @@
 "ff": true,
 "n": "Parece «calcio» (el mineral) pero aquí significa fútbol"
 },
+"calda": {
+"g": "caliente",
+"k": "transparente"
+},
 "caldo": {
 "g": "calor / caliente",
 "k": "opaca",
@@ -811,6 +1059,18 @@
 },
 "calimala": {
 "g": "nombre propio",
+"k": "transparente"
+},
+"calma": {
+"g": "calma",
+"k": "transparente"
+},
+"cambiare": {
+"g": "cambiar",
+"k": "transparente"
+},
+"cambiarla": {
+"g": "cambiarla",
 "k": "transparente"
 },
 "camera": {
@@ -846,8 +1106,17 @@
 "g": "caminan",
 "k": "transparente"
 },
+"camminato": {
+"g": "caminado",
+"k": "regular",
+"r": "doble"
+},
 "campanile": {
 "g": "campanario",
+"k": "transparente"
+},
+"campi": {
+"g": "campos",
 "k": "transparente"
 },
 "campo": {
@@ -876,6 +1145,10 @@
 "g": "entendido",
 "k": "opaca"
 },
+"capovolti": {
+"g": "al revés / boca abajo",
+"k": "opaca"
+},
 "cappella": {
 "g": "capilla",
 "k": "transparente"
@@ -886,6 +1159,10 @@
 },
 "cappuccino": {
 "g": "capuchino",
+"k": "transparente"
+},
+"capsula": {
+"g": "cápsula",
 "k": "transparente"
 },
 "cara": {
@@ -900,6 +1177,11 @@
 "g": "caros",
 "k": "transparente"
 },
+"carine": {
+"g": "lindas",
+"k": "opaca",
+"n": "falso amigo: carino es lindo, no «cariño»"
+},
 "carlo": {
 "g": "nombre propio",
 "k": "transparente"
@@ -910,6 +1192,10 @@
 },
 "carta": {
 "g": "carta / tarjeta",
+"k": "transparente"
+},
+"cartoni": {
+"g": "cartones",
 "k": "transparente"
 },
 "casa": {
@@ -927,6 +1213,10 @@
 },
 "cassa": {
 "g": "caja (de pago)",
+"k": "opaca"
+},
+"cassetto": {
+"g": "cajón",
 "k": "opaca"
 },
 "cassiera": {
@@ -965,6 +1255,10 @@
 "g": "ceno",
 "k": "opaca"
 },
+"centesimi": {
+"g": "centavos",
+"k": "opaca"
+},
 "cento": {
 "g": "cien",
 "k": "regular",
@@ -992,6 +1286,11 @@
 "g": "buscar",
 "k": "opaca"
 },
+"cercato": {
+"g": "buscado",
+"k": "opaca",
+"n": "falso amigo: cercare es buscar, no «cercar»"
+},
 "cerco": {
 "g": "busco",
 "k": "opaca",
@@ -1016,6 +1315,11 @@
 "k": "regular",
 "r": "ll-chi"
 },
+"chiamami": {
+"g": "llámame",
+"k": "regular",
+"r": "ll-chi"
+},
 "chiamano": {
 "g": "se llaman",
 "k": "regular",
@@ -1024,6 +1328,16 @@
 "chiamare": {
 "g": "llamar",
 "k": "opaca"
+},
+"chiamarla": {
+"g": "llamarla",
+"k": "regular",
+"r": "ll-chi"
+},
+"chiamato": {
+"g": "llamado",
+"k": "regular",
+"r": "ll-chi"
 },
 "chiami": {
 "g": "te llamas",
@@ -1035,6 +1349,12 @@
 "k": "regular",
 "r": "ll-chi"
 },
+"chiara": {
+"g": "clara",
+"k": "regular",
+"r": "otro",
+"n": "chi- → cl-"
+},
 "chiaro": {
 "g": "claro",
 "k": "regular",
@@ -1043,6 +1363,11 @@
 },
 "chiavaioli": {
 "g": "fabricantes de llaves",
+"k": "regular",
+"r": "ll-chi"
+},
+"chiave": {
+"g": "llave",
 "k": "regular",
 "r": "ll-chi"
 },
@@ -1057,6 +1382,14 @@
 },
 "chiederle": {
 "g": "preguntarle",
+"k": "opaca"
+},
+"chiederti": {
+"g": "pedirte / preguntarte",
+"k": "opaca"
+},
+"chiedi": {
+"g": "pides / preguntas",
 "k": "opaca"
 },
 "chiedo": {
@@ -1079,6 +1412,10 @@
 "g": "kilos",
 "k": "transparente"
 },
+"chilo": {
+"g": "kilo",
+"k": "transparente"
+},
 "chimica": {
 "g": "química",
 "k": "transparente"
@@ -1089,6 +1426,22 @@
 },
 "chiude": {
 "g": "cierra",
+"k": "opaca"
+},
+"chiudi": {
+"g": "cierra (tú)",
+"k": "opaca"
+},
+"chiudiamo": {
+"g": "cerramos",
+"k": "opaca"
+},
+"chiudilo": {
+"g": "ciérralo",
+"k": "opaca"
+},
+"chiusa": {
+"g": "cerrada",
 "k": "opaca"
 },
 "ci": {
@@ -1131,6 +1484,10 @@
 "k": "regular",
 "r": "otro"
 },
+"cioccolatini": {
+"g": "bombones",
+"k": "opaca"
+},
 "circa": {
 "g": "aproximadamente",
 "k": "transparente"
@@ -1152,9 +1509,19 @@
 "g": "apellido",
 "k": "opaca"
 },
+"coincidenza": {
+"g": "conexión (de transporte)",
+"k": "opaca",
+"n": "falso amigo: además de coincidencia, es la conexión entre trenes o buses"
+},
 "colazione": {
 "g": "desayuno",
 "k": "opaca"
+},
+"collega": {
+"g": "colega",
+"k": "regular",
+"r": "doble"
 },
 "colloqui": {
 "g": "entrevistas",
@@ -1166,6 +1533,10 @@
 },
 "colorate": {
 "g": "coloridas",
+"k": "transparente"
+},
+"colore": {
+"g": "color",
 "k": "transparente"
 },
 "colosseo": {
@@ -1215,6 +1586,22 @@
 "g": "dependientes",
 "k": "opaca"
 },
+"comoda": {
+"g": "cómoda",
+"k": "transparente"
+},
+"comode": {
+"g": "cómodas",
+"k": "transparente"
+},
+"comodissime": {
+"g": "comodísimas",
+"k": "transparente"
+},
+"comodo": {
+"g": "cómodo",
+"k": "transparente"
+},
 "compilare": {
 "g": "llenar (un formulario)",
 "k": "opaca"
@@ -1241,8 +1628,32 @@
 "k": "regular",
 "r": "inf-e"
 },
+"comprate": {
+"g": "compren (ustedes)",
+"k": "transparente"
+},
+"comprati": {
+"g": "comprados",
+"k": "transparente"
+},
 "comprato": {
 "g": "comprado",
+"k": "transparente"
+},
+"compriamo": {
+"g": "compramos",
+"k": "transparente"
+},
+"compro": {
+"g": "compro",
+"k": "transparente"
+},
+"comunale": {
+"g": "municipal",
+"k": "transparente"
+},
+"comune": {
+"g": "común / municipio",
 "k": "transparente"
 },
 "con": {
@@ -1258,6 +1669,20 @@
 "k": "regular",
 "r": "cion-zione"
 },
+"condominio": {
+"g": "condominio",
+"k": "transparente"
+},
+"conferma": {
+"g": "confirmación",
+"k": "transparente"
+},
+"congratulazioni": {
+"g": "felicitaciones",
+"k": "regular",
+"r": "cion-zione",
+"n": "congratulazioni → congratulaciones"
+},
 "conosci": {
 "g": "conoces",
 "k": "transparente"
@@ -1272,6 +1697,16 @@
 "g": "considerada",
 "k": "transparente"
 },
+"consiglio": {
+"g": "consejo",
+"k": "regular",
+"r": "j-gli"
+},
+"conta": {
+"g": "cuenta",
+"k": "regular",
+"r": "ue-o"
+},
 "contanti": {
 "g": "efectivo",
 "k": "opaca"
@@ -1282,8 +1717,16 @@
 "r": "otro",
 "n": "ct→tt: contacto→contatto"
 },
+"contenta": {
+"g": "contenta",
+"k": "transparente"
+},
 "contenti": {
 "g": "contentos",
+"k": "transparente"
+},
+"contento": {
+"g": "contento",
 "k": "transparente"
 },
 "continuano": {
@@ -1304,6 +1747,10 @@
 "g": "controlar, revisar",
 "k": "regular",
 "r": "doble"
+},
+"convalidi": {
+"g": "valides (el boleto)",
+"k": "opaca"
 },
 "conversazione": {
 "g": "conversación",
@@ -1341,6 +1788,10 @@
 "g": "curso",
 "k": "regular",
 "r": "u-o"
+},
+"cortile": {
+"g": "patio",
+"k": "opaca"
 },
 "cosa": {
 "g": "qué / cosa",
@@ -1386,6 +1837,10 @@
 "g": "crédito",
 "k": "transparente"
 },
+"credo": {
+"g": "creo",
+"k": "transparente"
+},
 "crema": {
 "g": "crema",
 "k": "transparente"
@@ -1411,6 +1866,18 @@
 "k": "regular",
 "r": "otro",
 "n": "o→u: cocinar→cucinare"
+},
+"cucinato": {
+"g": "cocinado",
+"k": "opaca"
+},
+"cucinerò": {
+"g": "cocinaré",
+"k": "opaca"
+},
+"cucini": {
+"g": "cocinas",
+"k": "opaca"
 },
 "cugini": {
 "g": "primos",
@@ -1448,6 +1915,10 @@
 "g": "desde las",
 "k": "opaca"
 },
+"dammi": {
+"g": "dame",
+"k": "opaca"
+},
 "daniela": {
 "g": "nombre propio",
 "k": "transparente"
@@ -1460,6 +1931,10 @@
 "g": "dar",
 "k": "opaca"
 },
+"dato": {
+"g": "dado",
+"k": "transparente"
+},
 "davanti": {
 "g": "delante",
 "k": "opaca"
@@ -1471,6 +1946,10 @@
 "davide": {
 "g": "nombre propio",
 "k": "transparente"
+},
+"davvero": {
+"g": "de verdad",
+"k": "opaca"
 },
 "de": {
 "g": "de",
@@ -1520,10 +1999,18 @@
 "g": "de las",
 "k": "opaca"
 },
+"dello": {
+"g": "del",
+"k": "transparente"
+},
 "denti": {
 "g": "dientes",
 "k": "regular",
 "r": "ie-e"
+},
+"dentro": {
+"g": "dentro",
+"k": "transparente"
 },
 "deodorante": {
 "g": "desodorante",
@@ -1549,6 +2036,10 @@
 "g": "detergentes",
 "k": "opaca"
 },
+"detersivo": {
+"g": "detergente",
+"k": "transparente"
+},
 "detto": {
 "g": "dicho",
 "k": "regular",
@@ -1556,6 +2047,10 @@
 },
 "deve": {
 "g": "debe",
+"k": "transparente"
+},
+"devi": {
+"g": "debes",
 "k": "transparente"
 },
 "devo": {
@@ -1580,6 +2075,19 @@
 "r": "otro",
 "n": "dichiarare ~ declarar"
 },
+"dici": {
+"g": "dices",
+"k": "transparente"
+},
+"diciotto": {
+"g": "dieciocho",
+"k": "regular",
+"r": "ch-tt"
+},
+"dicono": {
+"g": "dicen",
+"k": "transparente"
+},
 "dieci": {
 "g": "diez",
 "k": "transparente"
@@ -1598,12 +2106,20 @@
 "k": "regular",
 "r": "doble"
 },
+"dimmi": {
+"g": "dime",
+"k": "transparente"
+},
 "dipende": {
 "g": "depende",
 "k": "transparente"
 },
 "dire": {
 "g": "decir",
+"k": "transparente"
+},
+"direttamente": {
+"g": "directamente",
 "k": "transparente"
 },
 "disordine": {
@@ -1614,8 +2130,20 @@
 "g": "lo siento (mi dispiace)",
 "k": "opaca"
 },
+"divano": {
+"g": "sofá",
+"k": "opaca"
+},
+"diventa": {
+"g": "se vuelve",
+"k": "opaca"
+},
 "divertente": {
 "g": "divertido",
+"k": "transparente"
+},
+"divertiremo": {
+"g": "nos divertiremos",
 "k": "transparente"
 },
 "dividere": {
@@ -1661,6 +2189,10 @@
 "g": "mañana",
 "k": "opaca"
 },
+"domenica": {
+"g": "domingo",
+"k": "transparente"
+},
 "donatello": {
 "g": "nombre propio",
 "k": "transparente"
@@ -1668,6 +2200,12 @@
 "dopo": {
 "g": "después",
 "k": "opaca"
+},
+"doppia": {
+"g": "doble",
+"k": "regular",
+"r": "otro",
+"n": "pp → b"
 },
 "dormire": {
 "g": "dormir",
@@ -1697,6 +2235,10 @@
 "g": "donde / dónde",
 "k": "opaca"
 },
+"dovresti": {
+"g": "deberías",
+"k": "opaca"
+},
 "dovuta": {
 "g": "debida (tuve que)",
 "k": "opaca"
@@ -1713,9 +2255,17 @@
 "g": "dos",
 "k": "opaca"
 },
+"duecento": {
+"g": "doscientos",
+"k": "opaca"
+},
 "duomo": {
 "g": "catedral",
 "k": "opaca"
+},
+"dura": {
+"g": "dura",
+"k": "transparente"
 },
 "durante": {
 "g": "durante",
@@ -1733,6 +2283,22 @@
 "g": "aquí tienes",
 "k": "opaca"
 },
+"eccola": {
+"g": "aquí está (ella)",
+"k": "opaca"
+},
+"eccole": {
+"g": "aquí están (ellas)",
+"k": "opaca"
+},
+"eccolo": {
+"g": "aquí está (él)",
+"k": "opaca"
+},
+"eco": {
+"g": "eco",
+"k": "transparente"
+},
 "economia": {
 "g": "economía",
 "k": "transparente"
@@ -1745,6 +2311,10 @@
 "g": "efe (letra F)",
 "k": "regular",
 "r": "doble"
+},
+"elegante": {
+"g": "elegante",
+"k": "transparente"
 },
 "eleganti": {
 "g": "elegantes",
@@ -1770,6 +2340,10 @@
 "g": "entrada",
 "k": "transparente"
 },
+"entro": {
+"g": "dentro de / antes de",
+"k": "opaca"
+},
 "era": {
 "g": "era / estaba",
 "k": "transparente"
@@ -1778,6 +2352,22 @@
 "g": "eran / estaban",
 "k": "transparente"
 },
+"eravamo": {
+"g": "éramos",
+"k": "opaca"
+},
+"eri": {
+"g": "eras",
+"k": "opaca"
+},
+"ero": {
+"g": "era",
+"k": "opaca"
+},
+"erogatore": {
+"g": "dispensador",
+"k": "opaca"
+},
 "erre": {
 "g": "erre (nombre de la letra r)",
 "k": "opaca"
@@ -1785,6 +2375,20 @@
 "esame": {
 "g": "examen",
 "k": "transparente"
+},
+"esattamente": {
+"g": "exactamente",
+"k": "regular",
+"r": "x-s"
+},
+"esatto": {
+"g": "exacto",
+"k": "regular",
+"r": "x-s"
+},
+"esca": {
+"g": "salga",
+"k": "opaca"
 },
 "esci": {
 "g": "sales",
@@ -1864,6 +2468,16 @@
 "k": "regular",
 "r": "h-f"
 },
+"faceva": {
+"g": "hacía",
+"k": "regular",
+"r": "h-f"
+},
+"facevi": {
+"g": "hacías",
+"k": "regular",
+"r": "h-f"
+},
 "facile": {
 "g": "fácil",
 "k": "transparente"
@@ -1872,6 +2486,11 @@
 "g": "haces",
 "k": "opaca"
 },
+"fallo": {
+"g": "hazlo",
+"k": "regular",
+"r": "h-f"
+},
 "fame": {
 "g": "hambre",
 "k": "opaca"
@@ -1879,6 +2498,11 @@
 "famiglia": {
 "g": "familia",
 "k": "transparente"
+},
+"fammi": {
+"g": "hazme",
+"k": "regular",
+"r": "h-f"
 },
 "famosa": {
 "g": "famosa",
@@ -1900,6 +2524,11 @@
 "g": "hacer",
 "k": "opaca"
 },
+"farlo": {
+"g": "hacerlo",
+"k": "regular",
+"r": "h-f"
+},
 "farmacia": {
 "g": "farmacia",
 "k": "transparente"
@@ -1907,6 +2536,16 @@
 "farmi": {
 "g": "hacerme",
 "k": "opaca"
+},
+"farà": {
+"g": "hará",
+"k": "regular",
+"r": "h-f"
+},
+"farò": {
+"g": "haré",
+"k": "regular",
+"r": "h-f"
 },
 "fate": {
 "g": "hacen / hagan",
@@ -1933,6 +2572,10 @@
 "felice": {
 "g": "feliz",
 "k": "transparente"
+},
+"ferma": {
+"g": "detenida / para",
+"k": "opaca"
 },
 "fermata": {
 "g": "parada",
@@ -2012,9 +2655,22 @@
 "g": "nombre propio",
 "k": "transparente"
 },
+"firma": {
+"g": "firma",
+"k": "transparente"
+},
+"firmare": {
+"g": "firmar",
+"k": "transparente"
+},
 "fluente": {
 "g": "fluido",
 "k": "transparente"
+},
+"foglio": {
+"g": "hoja",
+"k": "regular",
+"r": "j-gli"
 },
 "fondo": {
 "g": "fondo",
@@ -2027,6 +2683,10 @@
 },
 "formaggi": {
 "g": "quesos",
+"k": "opaca"
+},
+"formaggio": {
+"g": "queso",
 "k": "opaca"
 },
 "forni": {
@@ -2043,12 +2703,32 @@
 "k": "regular",
 "r": "ue-o"
 },
+"fortuna": {
+"g": "fortuna",
+"k": "transparente"
+},
 "foto": {
 "g": "foto",
 "k": "transparente"
 },
+"fotocopia": {
+"g": "fotocopia",
+"k": "transparente"
+},
+"fotocopie": {
+"g": "fotocopias",
+"k": "transparente"
+},
+"fotografare": {
+"g": "fotografiar",
+"k": "transparente"
+},
 "fra": {
 "g": "entre",
+"k": "opaca"
+},
+"fragole": {
+"g": "frutillas",
 "k": "opaca"
 },
 "francesca": {
@@ -2087,6 +2767,14 @@
 "g": "frecuento / asisto",
 "k": "transparente"
 },
+"fresca": {
+"g": "fresca",
+"k": "transparente"
+},
+"fresche": {
+"g": "frescas",
+"k": "transparente"
+},
 "fresco": {
 "g": "fresco",
 "k": "transparente"
@@ -2095,8 +2783,16 @@
 "g": "prisa",
 "k": "opaca"
 },
+"frigo": {
+"g": "refrigerador",
+"k": "opaca"
+},
 "fritto": {
 "g": "frito / fritura",
+"k": "transparente"
+},
+"fronte": {
+"g": "frente",
 "k": "transparente"
 },
 "frutta": {
@@ -2107,6 +2803,20 @@
 "fuentes": {
 "g": "nombre propio",
 "k": "transparente"
+},
+"fumare": {
+"g": "fumar",
+"k": "transparente"
+},
+"fumetti": {
+"g": "historietas / cómics",
+"k": "opaca"
+},
+"funziona": {
+"g": "funciona",
+"k": "regular",
+"r": "cion-zione",
+"n": "funziona → funciona"
 },
 "fuori": {
 "g": "fuera",
@@ -2128,8 +2838,16 @@
 "g": "helado",
 "k": "opaca"
 },
+"geloso": {
+"g": "celoso",
+"k": "opaca"
+},
 "genitori": {
 "g": "padres",
+"k": "transparente"
+},
+"gente": {
+"g": "gente",
 "k": "transparente"
 },
 "gentile": {
@@ -2144,6 +2862,14 @@
 "g": "ye (nombre de la letra g)",
 "k": "opaca"
 },
+"giacca": {
+"g": "chaqueta",
+"k": "opaca"
+},
+"giacenza": {
+"g": "(correo) retenido en depósito",
+"k": "opaca"
+},
 "gialli": {
 "g": "policiales (género)",
 "k": "opaca"
@@ -2152,8 +2878,22 @@
 "g": "nombre propio",
 "k": "transparente"
 },
+"giardino": {
+"g": "jardín",
+"k": "regular",
+"r": "otro",
+"n": "gi- → j-"
+},
 "giocare": {
 "g": "jugar",
+"k": "opaca"
+},
+"giocavi": {
+"g": "jugabas",
+"k": "opaca"
+},
+"giocavo": {
+"g": "jugaba",
 "k": "opaca"
 },
 "giorgio": {
@@ -2203,6 +2943,14 @@
 "girare": {
 "g": "girar / doblar",
 "k": "transparente"
+},
+"giri": {
+"g": "giras / vueltas",
+"k": "transparente"
+},
+"gita": {
+"g": "excursión",
+"k": "opaca"
 },
 "giudia": {
 "g": "a la judía (receta romana)",
@@ -2266,6 +3014,10 @@
 "g": "grados",
 "k": "transparente"
 },
+"graffio": {
+"g": "rasguño",
+"k": "opaca"
+},
 "grande": {
 "g": "grande",
 "k": "transparente"
@@ -2274,11 +3026,19 @@
 "g": "gratis",
 "k": "transparente"
 },
+"grave": {
+"g": "grave",
+"k": "transparente"
+},
 "grazie": {
 "g": "gracias",
 "k": "regular",
 "r": "otro",
 "n": "gracias→grazie (c→z)"
+},
+"grigia": {
+"g": "gris",
+"k": "transparente"
 },
 "grigio": {
 "g": "gris",
@@ -2301,6 +3061,26 @@
 "k": "opaca",
 "ff": true,
 "n": "Parece 'guardar' pero significa mirar"
+},
+"guardato": {
+"g": "mirado",
+"k": "opaca",
+"n": "falso amigo: guardare es mirar, no «guardar»"
+},
+"guardavano": {
+"g": "miraban",
+"k": "opaca",
+"n": "falso amigo: guardare es mirar, no «guardar»"
+},
+"guardavo": {
+"g": "miraba",
+"k": "opaca",
+"n": "falso amigo: guardare es mirar, no «guardar»"
+},
+"guardi": {
+"g": "miras / mire (usted)",
+"k": "opaca",
+"n": "falso amigo: guardare es mirar, no «guardar»"
 },
 "guardo": {
 "g": "miro / me miro",
@@ -2336,6 +3116,10 @@
 "g": "pasatiempo",
 "k": "transparente"
 },
+"hotel": {
+"g": "hotel",
+"k": "transparente"
+},
 "i": {
 "g": "los",
 "k": "opaca"
@@ -2360,6 +3144,10 @@
 "importante": {
 "g": "importante",
 "k": "transparente"
+},
+"improvviso": {
+"g": "repentino",
+"k": "opaca"
 },
 "in": {
 "g": "en",
@@ -2430,9 +3218,17 @@
 "g": "inglés",
 "k": "transparente"
 },
+"ingresso": {
+"g": "entrada",
+"k": "opaca"
+},
 "iniziano": {
 "g": "empiezan",
 "k": "transparente"
+},
+"innaffiare": {
+"g": "regar",
+"k": "opaca"
 },
 "insalata": {
 "g": "ensalada",
@@ -2450,6 +3246,10 @@
 },
 "insomma": {
 "g": "en suma / en fin",
+"k": "opaca"
+},
+"intanto": {
+"g": "mientras tanto",
 "k": "opaca"
 },
 "intelligente": {
@@ -2472,8 +3272,20 @@
 "g": "en cambio",
 "k": "opaca"
 },
+"invitarti": {
+"g": "invitarte",
+"k": "transparente"
+},
+"invitati": {
+"g": "invitados",
+"k": "transparente"
+},
 "invitato": {
 "g": "invitado",
+"k": "transparente"
+},
+"invito": {
+"g": "invitación",
 "k": "transparente"
 },
 "io": {
@@ -2522,16 +3334,33 @@
 "g": "la",
 "k": "opaca"
 },
+"lago": {
+"g": "lago",
+"k": "transparente"
+},
 "lanzi": {
 "g": "nombre propio",
 "k": "transparente"
+},
+"largo": {
+"g": "ancho",
+"k": "opaca",
+"n": "falso amigo: largo es ancho, no «largo»"
 },
 "lasciare": {
 "g": "dejar",
 "k": "opaca"
 },
+"lasciarmi": {
+"g": "dejarme",
+"k": "opaca"
+},
 "lasciate": {
 "g": "dejen",
+"k": "opaca"
+},
+"lasciato": {
+"g": "dejado",
 "k": "opaca"
 },
 "latte": {
@@ -2544,6 +3373,10 @@
 },
 "laurea": {
 "g": "título universitario",
+"k": "opaca"
+},
+"lavastoviglie": {
+"g": "lavavajillas",
 "k": "opaca"
 },
 "lavatrice": {
@@ -2560,6 +3393,10 @@
 },
 "lavorare": {
 "g": "trabajar",
+"k": "opaca"
+},
+"lavorato": {
+"g": "trabajado",
 "k": "opaca"
 },
 "lavoratori": {
@@ -2585,6 +3422,14 @@
 },
 "leggere": {
 "g": "leer",
+"k": "opaca"
+},
+"leggeva": {
+"g": "leía",
+"k": "opaca"
+},
+"leggevo": {
+"g": "leía (yo)",
 "k": "opaca"
 },
 "leggi": {
@@ -2627,6 +3472,14 @@
 "g": "cama",
 "k": "opaca"
 },
+"lettura": {
+"g": "lectura",
+"k": "transparente"
+},
+"letture": {
+"g": "lecturas",
+"k": "transparente"
+},
 "lezione": {
 "g": "lección / clase",
 "k": "regular",
@@ -2640,6 +3493,10 @@
 "li": {
 "g": "los",
 "k": "opaca"
+},
+"libera": {
+"g": "libre",
+"k": "transparente"
 },
 "libero": {
 "g": "libre",
@@ -2711,6 +3568,10 @@
 "g": "nombre propio",
 "k": "transparente"
 },
+"luce": {
+"g": "luz",
+"k": "transparente"
+},
 "lucrezia": {
 "g": "nombre propio",
 "k": "transparente"
@@ -2761,6 +3622,12 @@
 "r": "otro",
 "n": "máquina→macchina"
 },
+"macchine": {
+"g": "máquinas / autos",
+"k": "regular",
+"r": "otro",
+"n": "cch → qu"
+},
 "macroeconomia": {
 "g": "macroeconomía",
 "k": "transparente"
@@ -2793,6 +3660,10 @@
 "g": "cerdo",
 "k": "opaca"
 },
+"mail": {
+"g": "correo electrónico",
+"k": "transparente"
+},
 "mal": {
 "g": "dolor (mal di…)",
 "k": "transparente"
@@ -2800,6 +3671,11 @@
 "male": {
 "g": "mal / dolor",
 "k": "transparente"
+},
+"manda": {
+"g": "envía",
+"k": "opaca",
+"n": "falso amigo: mandare es enviar, no «mandar»"
 },
 "mandare": {
 "g": "mandar / enviar",
@@ -2811,8 +3687,16 @@
 "ff": true,
 "n": "Parece 'mando' pero significa envío"
 },
+"mangia": {
+"g": "come",
+"k": "opaca"
+},
 "mangiare": {
 "g": "comer",
+"k": "opaca"
+},
+"mangiarlo": {
+"g": "comerlo",
 "k": "opaca"
 },
 "mangiato": {
@@ -2897,9 +3781,21 @@
 "g": "medicina",
 "k": "transparente"
 },
+"medico": {
+"g": "médico",
+"k": "transparente"
+},
 "meglio": {
 "g": "mejor",
 "k": "opaca"
+},
+"mele": {
+"g": "manzanas",
+"k": "opaca"
+},
+"meno": {
+"g": "menos",
+"k": "transparente"
 },
 "mensa": {
 "g": "comedor (universitario)",
@@ -2940,9 +3836,17 @@
 "g": "nombre propio",
 "k": "transparente"
 },
+"meriti": {
+"g": "mereces",
+"k": "transparente"
+},
 "mese": {
 "g": "mes",
 "k": "transparente"
+},
+"messa": {
+"g": "puesta",
+"k": "opaca"
 },
 "messaggio": {
 "g": "mensaje",
@@ -2954,12 +3858,48 @@
 "g": "puesto (de poner)",
 "k": "opaca"
 },
+"mette": {
+"g": "pone",
+"k": "opaca"
+},
+"mettere": {
+"g": "poner",
+"k": "opaca"
+},
+"metti": {
+"g": "pones / pon",
+"k": "opaca"
+},
+"mettila": {
+"g": "ponla",
+"k": "opaca"
+},
+"mettili": {
+"g": "ponlos",
+"k": "opaca"
+},
+"mettilo": {
+"g": "ponlo",
+"k": "opaca"
+},
+"metto": {
+"g": "pongo",
+"k": "opaca"
+},
+"mezz": {
+"g": "medio (forma apocopada)",
+"k": "opaca"
+},
 "mezza": {
 "g": "media (y media)",
 "k": "opaca"
 },
 "mezzanotte": {
 "g": "medianoche",
+"k": "opaca"
+},
+"mezzo": {
+"g": "medio",
 "k": "opaca"
 },
 "mezzogiorno": {
@@ -2986,8 +3926,16 @@
 "g": "nombre propio",
 "k": "transparente"
 },
+"mie": {
+"g": "mías",
+"k": "opaca"
+},
 "miei": {
 "g": "mis",
+"k": "opaca"
+},
+"migliore": {
+"g": "mejor",
 "k": "opaca"
 },
 "milano": {
@@ -3026,6 +3974,10 @@
 "g": "moda",
 "k": "transparente"
 },
+"modena": {
+"g": "nombre propio",
+"k": "transparente"
+},
 "moderno": {
 "g": "moderno",
 "k": "transparente"
@@ -3050,9 +4002,17 @@
 "g": "muchos",
 "k": "opaca"
 },
+"moltissimo": {
+"g": "muchísimo",
+"k": "opaca"
+},
 "molto": {
 "g": "muy / mucho",
 "k": "opaca"
+},
+"momento": {
+"g": "momento",
+"k": "transparente"
 },
 "mondo": {
 "g": "mundo",
@@ -3062,9 +4022,19 @@
 "g": "estudio (depto.)",
 "k": "opaca"
 },
+"montagna": {
+"g": "montaña",
+"k": "regular",
+"r": "n-gn"
+},
 "montano": {
 "g": "montan / arman",
 "k": "transparente"
+},
+"morbidissima": {
+"g": "suavísima",
+"k": "opaca",
+"n": "falso amigo: morbido es suave, no «mórbido»"
 },
 "murano": {
 "g": "nombre propio",
@@ -3158,6 +4128,14 @@
 "g": "ningún",
 "k": "opaca"
 },
+"nessuna": {
+"g": "ninguna",
+"k": "opaca"
+},
+"nessuno": {
+"g": "ninguno",
+"k": "opaca"
+},
 "netflix": {
 "g": "Netflix",
 "k": "transparente"
@@ -3194,6 +4172,10 @@
 "g": "alquilado",
 "k": "opaca"
 },
+"nome": {
+"g": "nombre",
+"k": "transparente"
+},
 "non": {
 "g": "no",
 "k": "transparente"
@@ -3214,6 +4196,20 @@
 "g": "nuestro",
 "k": "transparente"
 },
+"notte": {
+"g": "noche",
+"k": "regular",
+"r": "ch-tt"
+},
+"notti": {
+"g": "noches",
+"k": "regular",
+"r": "ch-tt"
+},
+"novanta": {
+"g": "noventa",
+"k": "transparente"
+},
 "nove": {
 "g": "nueve",
 "k": "regular",
@@ -3225,6 +4221,10 @@
 },
 "nuotato": {
 "g": "nadado",
+"k": "opaca"
+},
+"nuotava": {
+"g": "nadaba",
 "k": "opaca"
 },
 "nuova": {
@@ -3270,6 +4270,11 @@
 "g": "ofrecido",
 "k": "transparente"
 },
+"offro": {
+"g": "ofrezco",
+"k": "regular",
+"r": "doble"
+},
 "oggetti": {
 "g": "objetos",
 "k": "transparente"
@@ -3281,6 +4286,10 @@
 "ogni": {
 "g": "cada",
 "k": "opaca"
+},
+"oh": {
+"g": "¡oh!",
+"k": "transparente"
 },
 "ok": {
 "g": "ok",
@@ -3310,6 +4319,12 @@
 "r": "otro",
 "n": "h inicial muda"
 },
+"orari": {
+"g": "horarios",
+"k": "regular",
+"r": "otro",
+"n": "h inicial muda"
+},
 "ordinano": {
 "g": "piden (en un local)",
 "k": "transparente"
@@ -3317,6 +4332,11 @@
 "ordinare": {
 "g": "pedir (en un local)",
 "k": "transparente"
+},
+"ordinarla": {
+"g": "pedirla",
+"k": "opaca",
+"n": "falso amigo: ordinare también es pedir o encargar"
 },
 "ordine": {
 "g": "orden",
@@ -3327,6 +4347,10 @@
 "k": "regular",
 "r": "otro",
 "n": "h inicial muda"
+},
+"organizzare": {
+"g": "organizar",
+"k": "transparente"
 },
 "origine": {
 "g": "origen",
@@ -3346,10 +4370,31 @@
 "r": "otro",
 "n": "hostal→ostello, h muda"
 },
+"ottanta": {
+"g": "ochenta",
+"k": "regular",
+"r": "ch-tt"
+},
+"ottima": {
+"g": "óptima / excelente",
+"k": "transparente"
+},
+"ottimi": {
+"g": "óptimos / excelentes",
+"k": "transparente"
+},
+"ottimo": {
+"g": "óptimo",
+"k": "transparente"
+},
 "otto": {
 "g": "ocho",
 "k": "regular",
 "r": "otro"
+},
+"ovunque": {
+"g": "dondequiera",
+"k": "opaca"
 },
 "pacco": {
 "g": "paquete",
@@ -3359,18 +4404,46 @@
 "g": "padre",
 "k": "transparente"
 },
+"padrone": {
+"g": "dueño",
+"k": "opaca"
+},
 "paese": {
 "g": "pueblo / país",
+"k": "transparente"
+},
+"paga": {
+"g": "paga",
+"k": "transparente"
+},
+"pagala": {
+"g": "págala",
 "k": "transparente"
 },
 "pagare": {
 "g": "pagar",
 "k": "transparente"
 },
+"pagarla": {
+"g": "pagarla",
+"k": "transparente"
+},
+"pagato": {
+"g": "pagado",
+"k": "transparente"
+},
 "pagina": {
 "g": "página",
 "k": "regular",
 "r": "otro"
+},
+"pagine": {
+"g": "páginas",
+"k": "transparente"
+},
+"paio": {
+"g": "par",
+"k": "opaca"
 },
 "palazzo": {
 "g": "palacio / edificio",
@@ -3386,6 +4459,10 @@
 },
 "palestra": {
 "g": "gimnasio",
+"k": "opaca"
+},
+"pallone": {
+"g": "balón",
 "k": "opaca"
 },
 "pane": {
@@ -3408,6 +4485,11 @@
 "g": "sandwichería",
 "k": "opaca"
 },
+"panno": {
+"g": "paño",
+"k": "regular",
+"r": "doble"
+},
 "pantaloni": {
 "g": "pantalones",
 "k": "transparente"
@@ -3426,10 +4508,26 @@
 "r": "otro",
 "n": "acento y g→gr (párrafo→paragrafo)"
 },
+"parcheggiare": {
+"g": "estacionar",
+"k": "opaca"
+},
+"parcheggio": {
+"g": "estacionamiento",
+"k": "opaca"
+},
+"parco": {
+"g": "parque",
+"k": "transparente"
+},
 "parenti": {
 "g": "parientes",
 "k": "regular",
 "r": "ie-e"
+},
+"pari": {
+"g": "par / igual",
+"k": "transparente"
 },
 "parla": {
 "g": "habla",
@@ -3449,6 +4547,18 @@
 },
 "parlate": {
 "g": "hablan (ustedes)",
+"k": "opaca"
+},
+"parlato": {
+"g": "hablado",
+"k": "opaca"
+},
+"parlavo": {
+"g": "hablaba",
+"k": "opaca"
+},
+"parliamo": {
+"g": "hablamos",
 "k": "opaca"
 },
 "parlo": {
@@ -3472,9 +4582,32 @@
 "g": "parte",
 "k": "transparente"
 },
+"partiamo": {
+"g": "salimos",
+"k": "opaca",
+"n": "falso amigo: partire es salir, no solo «partir»"
+},
+"partire": {
+"g": "salir",
+"k": "opaca",
+"n": "falso amigo: partire es salir, no solo «partir»"
+},
+"partiremo": {
+"g": "saldremos",
+"k": "opaca"
+},
+"parto": {
+"g": "salgo",
+"k": "opaca"
+},
 "passa": {
 "g": "pasa",
 "k": "transparente"
+},
+"passaggio": {
+"g": "paso / pasaje",
+"k": "regular",
+"r": "doble"
 },
 "passano": {
 "g": "pasan",
@@ -3516,11 +4649,20 @@
 "g": "pasteles",
 "k": "transparente"
 },
+"pasti": {
+"g": "comidas",
+"k": "opaca"
+},
 "pasticceria": {
 "g": "pastelería",
 "k": "regular",
 "r": "otro",
 "n": "pastel→pasticc-"
+},
+"pastiglie": {
+"g": "pastillas",
+"k": "regular",
+"r": "j-gli"
 },
 "patate": {
 "g": "papas / patatas",
@@ -3530,6 +4672,10 @@
 "g": "patrimonio",
 "k": "transparente"
 },
+"paura": {
+"g": "miedo",
+"k": "opaca"
+},
 "pavimento": {
 "g": "pavimento / piso",
 "k": "transparente"
@@ -3538,9 +4684,34 @@
 "g": "paciente",
 "k": "transparente"
 },
+"peccato": {
+"g": "lástima",
+"k": "opaca",
+"n": "falso amigo: «che peccato» es «qué lástima»"
+},
+"pedalavo": {
+"g": "pedaleaba",
+"k": "transparente"
+},
 "penna": {
 "g": "bolígrafo",
 "k": "opaca"
+},
+"penserò": {
+"g": "pensaré",
+"k": "transparente"
+},
+"pensi": {
+"g": "piensas",
+"k": "transparente"
+},
+"pensiero": {
+"g": "pensamiento",
+"k": "transparente"
+},
+"penso": {
+"g": "pienso",
+"k": "transparente"
 },
 "per": {
 "g": "para / por",
@@ -3549,6 +4720,11 @@
 "perché": {
 "g": "porque",
 "k": "transparente"
+},
+"perdo": {
+"g": "pierdo",
+"k": "regular",
+"r": "ie-e"
 },
 "perfetta": {
 "g": "perfecta",
@@ -3559,6 +4735,11 @@
 "k": "regular",
 "r": "otro",
 "n": "ct→tt"
+},
+"permesso": {
+"g": "permiso",
+"k": "regular",
+"r": "doble"
 },
 "perseo": {
 "g": "Perseo",
@@ -3602,6 +4783,10 @@
 "g": "pesto",
 "k": "transparente"
 },
+"pezzo": {
+"g": "trozo",
+"k": "opaca"
+},
 "pi": {
 "g": "pe (nombre de la letra p)",
 "k": "opaca"
@@ -3616,6 +4801,10 @@
 },
 "piacere": {
 "g": "mucho gusto",
+"k": "opaca"
+},
+"piaceva": {
+"g": "gustaba",
 "k": "opaca"
 },
 "piaciuta": {
@@ -3635,6 +4824,11 @@
 "k": "opaca",
 "ff": true,
 "n": "Parece «piano» (instrumento) pero aquí significa piso o planta"
+},
+"piante": {
+"g": "plantas",
+"k": "regular",
+"r": "pl-pi"
 },
 "piatti": {
 "g": "platos",
@@ -3657,6 +4851,10 @@
 },
 "piccoli": {
 "g": "pequeños",
+"k": "opaca"
+},
+"piccolissimo": {
+"g": "pequeñísimo",
 "k": "opaca"
 },
 "piccolo": {
@@ -3688,6 +4886,11 @@
 "g": "llueve",
 "k": "opaca"
 },
+"pioverà": {
+"g": "lloverá",
+"k": "regular",
+"r": "ll-pi"
+},
 "pittore": {
 "g": "pintor",
 "k": "regular",
@@ -3710,6 +4913,18 @@
 "g": "poco (un po')",
 "k": "opaca"
 },
+"poca": {
+"g": "poca",
+"k": "transparente"
+},
+"poche": {
+"g": "pocas",
+"k": "transparente"
+},
+"pochi": {
+"g": "pocos",
+"k": "transparente"
+},
 "poco": {
 "g": "poco",
 "k": "transparente"
@@ -3728,6 +4943,10 @@
 },
 "pomeriggio": {
 "g": "tarde",
+"k": "opaca"
+},
+"pomodori": {
+"g": "tomates",
 "k": "opaca"
 },
 "pomodoro": {
@@ -3767,12 +4986,25 @@
 "g": "llevado / traído",
 "k": "transparente"
 },
+"porterò": {
+"g": "llevaré",
+"k": "opaca",
+"n": "falso amigo: portare es llevar, no «portar»"
+},
 "porti": {
 "g": "llevas",
 "k": "transparente"
 },
+"portiere": {
+"g": "portero",
+"k": "transparente"
+},
 "porto": {
 "g": "llevo",
+"k": "transparente"
+},
+"portone": {
+"g": "portón",
 "k": "transparente"
 },
 "possiamo": {
@@ -3782,6 +5014,11 @@
 "posso": {
 "g": "puedo",
 "k": "opaca"
+},
+"posta": {
+"g": "correo",
+"k": "opaca",
+"n": "falso amigo: posta es correo, no «posta»"
 },
 "postale": {
 "g": "postal",
@@ -3807,6 +5044,10 @@
 "g": "pueden (ustedes)",
 "k": "regular",
 "r": "ue-o"
+},
+"potresti": {
+"g": "podrías",
+"k": "opaca"
 },
 "pranzo": {
 "g": "almuerzo",
@@ -3856,12 +5097,37 @@
 "g": "por favor / de nada",
 "k": "opaca"
 },
+"prelevare": {
+"g": "retirar (dinero)",
+"k": "opaca"
+},
+"premi": {
+"g": "presionas",
+"k": "opaca"
+},
+"premilo": {
+"g": "púlsalo",
+"k": "opaca"
+},
+"premo": {
+"g": "presiono",
+"k": "opaca"
+},
+"prenda": {
+"g": "tome (usted)",
+"k": "opaca",
+"n": "falso amigo: prendere es tomar, no «prenda»"
+},
 "prende": {
 "g": "toma",
 "k": "opaca"
 },
 "prendere": {
 "g": "tomar, aceptar",
+"k": "opaca"
+},
+"prenderle": {
+"g": "tomarlas",
 "k": "opaca"
 },
 "prendete": {
@@ -3880,8 +5146,28 @@
 "g": "tomo, pido",
 "k": "opaca"
 },
+"prenota": {
+"g": "reserva (tú)",
+"k": "opaca"
+},
+"prenotare": {
+"g": "reservar",
+"k": "opaca"
+},
+"prenotata": {
+"g": "reservada",
+"k": "opaca"
+},
 "prenotato": {
 "g": "reservado",
+"k": "opaca"
+},
+"prenotazione": {
+"g": "reserva",
+"k": "opaca"
+},
+"prenoto": {
+"g": "reservo",
 "k": "opaca"
 },
 "prepara": {
@@ -3892,16 +5178,32 @@
 "g": "preparando",
 "k": "transparente"
 },
+"preparato": {
+"g": "preparado",
+"k": "transparente"
+},
 "preparo": {
 "g": "preparo",
 "k": "transparente"
+},
+"presi": {
+"g": "tomé",
+"k": "opaca"
 },
 "preso": {
 "g": "tomado",
 "k": "opaca"
 },
+"prestito": {
+"g": "préstamo",
+"k": "opaca"
+},
 "presto": {
 "g": "pronto (a presto: hasta pronto)",
+"k": "opaca"
+},
+"previsioni": {
+"g": "pronóstico",
 "k": "opaca"
 },
 "prezzi": {
@@ -3909,6 +5211,12 @@
 "k": "regular",
 "r": "otro",
 "n": "-cio → -zzo"
+},
+"prezzo": {
+"g": "precio",
+"k": "regular",
+"r": "otro",
+"n": "zz → c"
 },
 "prima": {
 "g": "primera",
@@ -3950,6 +5258,15 @@
 "g": "perfumería",
 "k": "transparente"
 },
+"programma": {
+"g": "programa",
+"k": "regular",
+"r": "doble"
+},
+"promesso": {
+"g": "prometido",
+"k": "opaca"
+},
 "pronta": {
 "g": "lista",
 "k": "opaca"
@@ -3972,6 +5289,10 @@
 "g": "jamón",
 "k": "opaca"
 },
+"prossima": {
+"g": "próxima",
+"k": "transparente"
+},
 "prossimo": {
 "g": "próximo",
 "k": "transparente"
@@ -3983,6 +5304,11 @@
 "provato": {
 "g": "probado",
 "k": "transparente"
+},
+"provo": {
+"g": "pruebo",
+"k": "regular",
+"r": "ue-o"
 },
 "psicologia": {
 "g": "psicología",
@@ -4000,6 +5326,10 @@
 "g": "limpiarme",
 "k": "opaca"
 },
+"pulisci": {
+"g": "limpias",
+"k": "opaca"
+},
 "pulisco": {
 "g": "limpio",
 "k": "opaca"
@@ -4008,10 +5338,18 @@
 "g": "limpieza (tareas)",
 "k": "opaca"
 },
+"puntuale": {
+"g": "puntual",
+"k": "transparente"
+},
 "puoi": {
 "g": "puedes",
 "k": "regular",
 "r": "ue-o"
+},
+"pure": {
+"g": "también",
+"k": "opaca"
 },
 "purtroppo": {
 "g": "lamentablemente",
@@ -4072,6 +5410,26 @@
 "g": "cuánto",
 "k": "transparente"
 },
+"quaranta": {
+"g": "cuarenta",
+"k": "transparente"
+},
+"quarantacinque": {
+"g": "cuarenta y cinco",
+"k": "transparente"
+},
+"quarantatré": {
+"g": "cuarenta y tres",
+"k": "transparente"
+},
+"quartiere": {
+"g": "barrio",
+"k": "opaca"
+},
+"quarto": {
+"g": "cuarto",
+"k": "transparente"
+},
 "quasi": {
 "g": "casi",
 "k": "transparente"
@@ -4098,6 +5456,10 @@
 "k": "regular",
 "r": "otro",
 "n": "quel- = aquel-"
+},
+"quelle": {
+"g": "aquellas",
+"k": "opaca"
 },
 "quelli": {
 "g": "aquellos",
@@ -4162,12 +5524,30 @@
 "g": "cotidiana",
 "k": "transparente"
 },
+"raccolte": {
+"g": "recogidas",
+"k": "regular",
+"r": "doble"
+},
+"raccomandata": {
+"g": "carta certificada",
+"k": "opaca",
+"n": "falso amigo: no es «recomendada», es carta certificada"
+},
+"raccontami": {
+"g": "cuéntame",
+"k": "opaca"
+},
 "radi": {
 "g": "te afeitas",
 "k": "opaca"
 },
 "rado": {
 "g": "me afeito",
+"k": "opaca"
+},
+"raffreddore": {
+"g": "resfrío",
 "k": "opaca"
 },
 "ragazza": {
@@ -4214,12 +5594,20 @@
 "g": "reggiano (de Reggio Emilia)",
 "k": "opaca"
 },
+"regionale": {
+"g": "regional",
+"k": "transparente"
+},
 "regione": {
 "g": "región",
 "k": "transparente"
 },
 "regolarmente": {
 "g": "regularmente",
+"k": "transparente"
+},
+"regole": {
+"g": "reglas",
 "k": "transparente"
 },
 "resistere": {
@@ -4230,8 +5618,28 @@
 "g": "quedarse",
 "k": "opaca"
 },
+"resti": {
+"g": "te quedas",
+"k": "opaca"
+},
+"restituire": {
+"g": "devolver",
+"k": "opaca"
+},
+"restituisco": {
+"g": "devuelvo",
+"k": "opaca"
+},
+"resto": {
+"g": "me quedo",
+"k": "opaca"
+},
 "rete": {
 "g": "red (in rete: en línea)",
+"k": "opaca"
+},
+"riaccendila": {
+"g": "vuelve a encenderla",
 "k": "opaca"
 },
 "rialto": {
@@ -4254,6 +5662,22 @@
 "g": "rizados",
 "k": "opaca"
 },
+"ricevuta": {
+"g": "recibo",
+"k": "opaca"
+},
+"richiamata": {
+"g": "vuelta a llamar",
+"k": "opaca"
+},
+"ricordi": {
+"g": "recuerdas",
+"k": "opaca"
+},
+"riempi": {
+"g": "llena",
+"k": "opaca"
+},
 "rilassate": {
 "g": "relajadas",
 "k": "transparente"
@@ -4266,13 +5690,29 @@
 "g": "quedado (ella)",
 "k": "opaca"
 },
+"rimasto": {
+"g": "quedado",
+"k": "opaca"
+},
 "rinascimento": {
 "g": "Renacimiento",
 "k": "transparente"
 },
+"ringraziamo": {
+"g": "agradecemos",
+"k": "opaca"
+},
 "ripetere": {
 "g": "repetir",
 "k": "transparente"
+},
+"riposato": {
+"g": "descansado",
+"k": "opaca"
+},
+"riposi": {
+"g": "descansas",
+"k": "opaca"
 },
 "riposo": {
 "g": "descanso",
@@ -4282,12 +5722,25 @@
 "g": "se remonta",
 "k": "opaca"
 },
+"rispettano": {
+"g": "respetan",
+"k": "regular",
+"r": "doble"
+},
 "risponde": {
 "g": "responde",
 "k": "transparente"
 },
+"rispondevi": {
+"g": "respondías",
+"k": "transparente"
+},
 "rispondi": {
 "g": "respondes",
+"k": "transparente"
+},
+"rispondo": {
+"g": "respondo",
 "k": "transparente"
 },
 "risposto": {
@@ -4310,8 +5763,16 @@
 "g": "retraso",
 "k": "opaca"
 },
+"ritirare": {
+"g": "retirar / recoger",
+"k": "opaca"
+},
 "ritorno": {
 "g": "vuelta / regreso",
+"k": "transparente"
+},
+"riunione": {
+"g": "reunión",
 "k": "transparente"
 },
 "roma": {
@@ -4342,12 +5803,20 @@
 "g": "rutina",
 "k": "transparente"
 },
+"rumore": {
+"g": "ruido",
+"k": "opaca"
+},
 "sa": {
 "g": "sabe",
 "k": "transparente"
 },
 "sabato": {
 "g": "sábado",
+"k": "transparente"
+},
+"sala": {
+"g": "sala",
 "k": "transparente"
 },
 "saldi": {
@@ -4361,6 +5830,15 @@
 "k": "opaca",
 "ff": true,
 "n": "Parece 'saldo' (balance) pero significa rebaja, oferta"
+},
+"sale": {
+"g": "sal",
+"k": "transparente"
+},
+"salga": {
+"g": "suba (usted)",
+"k": "opaca",
+"n": "falso amigo: en español «salga» es lo contrario"
 },
 "salire": {
 "g": "subir",
@@ -4378,12 +5856,20 @@
 "g": "saludados (nos saludamos)",
 "k": "transparente"
 },
+"saluto": {
+"g": "saludo",
+"k": "transparente"
+},
 "san": {
 "g": "san",
 "k": "transparente"
 },
 "santiago": {
 "g": "nombre propio",
+"k": "transparente"
+},
+"sapere": {
+"g": "saber",
 "k": "transparente"
 },
 "saputo": {
@@ -4393,6 +5879,18 @@
 "sara": {
 "g": "nombre propio",
 "k": "transparente"
+},
+"saranno": {
+"g": "serán",
+"k": "opaca"
+},
+"sarà": {
+"g": "será",
+"k": "opaca"
+},
+"sarò": {
+"g": "seré",
+"k": "opaca"
 },
 "scale": {
 "g": "escaleras",
@@ -4406,12 +5904,36 @@
 "g": "zapatos",
 "k": "opaca"
 },
+"scegli": {
+"g": "eliges",
+"k": "opaca"
+},
 "scegliere": {
 "g": "elegir",
 "k": "opaca"
 },
+"scelgo": {
+"g": "elijo",
+"k": "opaca"
+},
+"scelta": {
+"g": "elección",
+"k": "opaca"
+},
+"scelto": {
+"g": "elegido",
+"k": "opaca"
+},
 "schiuma": {
 "g": "espuma",
+"k": "opaca"
+},
+"sciarpa": {
+"g": "bufanda",
+"k": "opaca"
+},
+"sciroppo": {
+"g": "jarabe",
 "k": "opaca"
 },
 "sconto": {
@@ -4422,9 +5944,21 @@
 "g": "comprobante / boleta",
 "k": "opaca"
 },
+"scorsa": {
+"g": "pasada",
+"k": "opaca"
+},
 "scorso": {
 "g": "pasado",
 "k": "opaca"
+},
+"scritto": {
+"g": "escrito",
+"k": "transparente"
+},
+"scriva": {
+"g": "escriba",
+"k": "transparente"
 },
 "scrive": {
 "g": "escribe",
@@ -4433,6 +5967,14 @@
 "scrivere": {
 "g": "escribir",
 "k": "opaca"
+},
+"scrivimi": {
+"g": "escríbeme",
+"k": "transparente"
+},
+"scrivo": {
+"g": "escribo",
+"k": "transparente"
 },
 "scudo": {
 "g": "escudo",
@@ -4466,6 +6008,10 @@
 "se": {
 "g": "si (condicional)",
 "k": "opaca"
+},
+"secondi": {
+"g": "segundos",
+"k": "transparente"
 },
 "secondo": {
 "g": "segundo",
@@ -4505,6 +6051,10 @@
 "k": "regular",
 "r": "otro"
 },
+"senta": {
+"g": "oiga (usted)",
+"k": "opaca"
+},
 "sentiamo": {
 "g": "nos hablamos (ci sentiamo)",
 "k": "opaca"
@@ -4512,6 +6062,10 @@
 "sentirmi": {
 "g": "sentirme",
 "k": "transparente"
+},
+"sentito": {
+"g": "oído",
+"k": "opaca"
 },
 "sento": {
 "g": "oigo / hablo con (aquí: hablo con mi madre)",
@@ -4529,6 +6083,14 @@
 "g": "tarde, noche",
 "k": "opaca"
 },
+"serata": {
+"g": "noche (velada)",
+"k": "opaca"
+},
+"serbatoio": {
+"g": "estanque",
+"k": "opaca"
+},
 "serrature": {
 "g": "cerraduras",
 "k": "opaca"
@@ -4536,6 +6098,11 @@
 "serve": {
 "g": "se necesita / sirve",
 "k": "opaca"
+},
+"settanta": {
+"g": "setenta",
+"k": "regular",
+"r": "doble"
 },
 "sette": {
 "g": "siete",
@@ -4608,6 +6175,14 @@
 "g": "nombre propio (Piazza della Signoria)",
 "k": "transparente"
 },
+"silenzio": {
+"g": "silencio",
+"k": "transparente"
+},
+"simbolo": {
+"g": "símbolo",
+"k": "transparente"
+},
 "simpatica": {
 "g": "simpática",
 "k": "transparente"
@@ -4615,6 +6190,10 @@
 "simpatico": {
 "g": "simpático",
 "k": "transparente"
+},
+"single": {
+"g": "soltero",
+"k": "opaca"
 },
 "singola": {
 "g": "individual",
@@ -4632,8 +6211,16 @@
 "g": "Sixtina (nombre propio)",
 "k": "transparente"
 },
+"sito": {
+"g": "sitio (web)",
+"k": "transparente"
+},
 "smesso": {
 "g": "dejado (dejé de)",
+"k": "opaca"
+},
+"smetto": {
+"g": "dejo de",
 "k": "opaca"
 },
 "so": {
@@ -4651,6 +6238,10 @@
 "sola": {
 "g": "sola",
 "k": "transparente"
+},
+"soldi": {
+"g": "dinero",
+"k": "opaca"
 },
 "sole": {
 "g": "sol",
@@ -4727,6 +6318,10 @@
 "k": "regular",
 "r": "n-gn"
 },
+"spazzatura": {
+"g": "basura",
+"k": "opaca"
+},
 "spazzola": {
 "g": "cepillo",
 "k": "opaca"
@@ -4749,6 +6344,24 @@
 "k": "regular",
 "r": "otro",
 "n": "e- protética (st-/sp- → est-/esp-)"
+},
+"spedire": {
+"g": "enviar",
+"k": "opaca"
+},
+"spegnerlo": {
+"g": "apagarlo",
+"k": "opaca"
+},
+"spegni": {
+"g": "apaga",
+"k": "opaca"
+},
+"spero": {
+"g": "espero",
+"k": "regular",
+"r": "otro",
+"n": "s+consonante → es-"
 },
 "spesa": {
 "g": "compras, mercado",
@@ -4779,6 +6392,10 @@
 "g": "deporte",
 "k": "opaca"
 },
+"sportello": {
+"g": "ventanilla",
+"k": "opaca"
+},
 "sportiva": {
 "g": "deportiva",
 "k": "opaca"
@@ -4789,6 +6406,10 @@
 },
 "squadre": {
 "g": "gremios, equipos",
+"k": "opaca"
+},
+"squillato": {
+"g": "sonado",
 "k": "opaca"
 },
 "sta": {
@@ -4809,6 +6430,10 @@
 },
 "stanca": {
 "g": "cansada",
+"k": "opaca"
+},
+"stanchi": {
+"g": "cansados",
 "k": "opaca"
 },
 "stanco": {
@@ -4836,6 +6461,12 @@
 "stata": {
 "g": "sido / fue",
 "k": "opaca"
+},
+"stato": {
+"g": "estado",
+"k": "regular",
+"r": "otro",
+"n": "st- → est-"
 },
 "statua": {
 "g": "estatua",
@@ -4867,8 +6498,20 @@
 "g": "escudos",
 "k": "opaca"
 },
+"stendere": {
+"g": "tender (la ropa)",
+"k": "opaca"
+},
 "stessa": {
 "g": "misma",
+"k": "opaca"
+},
+"stesso": {
+"g": "mismo",
+"k": "opaca"
+},
+"stia": {
+"g": "esté",
 "k": "opaca"
 },
 "stilista": {
@@ -4969,12 +6612,24 @@
 "g": "enseguida",
 "k": "opaca"
 },
+"successo": {
+"g": "ocurrido",
+"k": "opaca"
+},
 "sud": {
 "g": "sur",
 "k": "transparente"
 },
+"sul": {
+"g": "sobre el",
+"k": "opaca"
+},
 "sulla": {
 "g": "sobre la, en la",
+"k": "opaca"
+},
+"sulle": {
+"g": "sobre las",
 "k": "opaca"
 },
 "suo": {
@@ -4997,6 +6652,10 @@
 "g": "despertado / desperté",
 "k": "opaca"
 },
+"svegliavo": {
+"g": "despertaba",
+"k": "opaca"
+},
 "sveglio": {
 "g": "despierto / me despierto",
 "k": "opaca"
@@ -5009,17 +6668,52 @@
 "g": "sí",
 "k": "transparente"
 },
+"tabellone": {
+"g": "panel de horarios",
+"k": "opaca"
+},
 "taglia": {
 "g": "talla",
 "k": "opaca"
+},
+"tanta": {
+"g": "tanta",
+"k": "transparente"
+},
+"tanti": {
+"g": "tantos",
+"k": "transparente"
+},
+"tanto": {
+"g": "tanto",
+"k": "transparente"
 },
 "tardi": {
 "g": "tarde",
 "k": "opaca"
 },
+"tasca": {
+"g": "bolsillo",
+"k": "opaca",
+"n": "falso amigo: no es «tasca»"
+},
+"tasto": {
+"g": "tecla",
+"k": "opaca"
+},
 "tavolo": {
 "g": "mesa",
 "k": "opaca"
+},
+"taxi": {
+"g": "taxi",
+"k": "transparente"
+},
+"tazza": {
+"g": "taza",
+"k": "regular",
+"r": "otro",
+"n": "zz → z"
 },
 "te": {
 "g": "ti",
@@ -5046,9 +6740,18 @@
 "k": "regular",
 "r": "ie-e"
 },
+"tenerla": {
+"g": "tenerla",
+"k": "transparente"
+},
 "tennis": {
 "g": "tenis",
 "k": "transparente"
+},
+"terra": {
+"g": "tierra",
+"k": "regular",
+"r": "ie-e"
 },
 "terrazza": {
 "g": "terraza",
@@ -5058,6 +6761,14 @@
 "terzo": {
 "g": "tercero",
 "k": "transparente"
+},
+"tesoro": {
+"g": "tesoro",
+"k": "transparente"
+},
+"tessera": {
+"g": "tarjeta de socio",
+"k": "opaca"
 },
 "testa": {
 "g": "cabeza",
@@ -5069,6 +6780,10 @@
 },
 "time": {
 "g": "tiempo (part-time)",
+"k": "transparente"
+},
+"timido": {
+"g": "tímido",
 "k": "transparente"
 },
 "tipici": {
@@ -5083,6 +6798,18 @@
 "g": "práctica profesional",
 "k": "opaca"
 },
+"tisana": {
+"g": "infusión",
+"k": "opaca"
+},
+"toccare": {
+"g": "tocar",
+"k": "transparente"
+},
+"togli": {
+"g": "quitas",
+"k": "opaca"
+},
 "tommaso": {
 "g": "nombre propio",
 "k": "transparente"
@@ -5095,8 +6822,24 @@
 "g": "volver",
 "k": "opaca"
 },
+"tornati": {
+"g": "vuelve",
+"k": "opaca"
+},
+"torneremo": {
+"g": "volveremos",
+"k": "opaca"
+},
+"torniamo": {
+"g": "volvemos",
+"k": "opaca"
+},
 "torno": {
 "g": "vuelvo",
+"k": "opaca"
+},
+"torta": {
+"g": "pastel",
 "k": "opaca"
 },
 "toscana": {
@@ -5125,10 +6868,18 @@
 "g": "transbordador",
 "k": "opaca"
 },
+"tranquilla": {
+"g": "tranquila",
+"k": "transparente"
+},
 "tranquillo": {
 "g": "tranquilo",
 "k": "regular",
 "r": "doble"
+},
+"tratto": {
+"g": "tramo",
+"k": "opaca"
 },
 "tre": {
 "g": "tres",
@@ -5156,9 +6907,30 @@
 "k": "regular",
 "r": "otro"
 },
+"trentadue": {
+"g": "treinta y dos",
+"k": "regular",
+"r": "otro",
+"n": "tren- → trein-"
+},
+"trentasette": {
+"g": "treinta y siete",
+"k": "regular",
+"r": "otro",
+"n": "tren- → trein-"
+},
+"trentotto": {
+"g": "treinta y ocho",
+"k": "regular",
+"r": "ch-tt"
+},
 "trevi": {
 "g": "nombre propio",
 "k": "transparente"
+},
+"troppa": {
+"g": "demasiada",
+"k": "opaca"
 },
 "troppo": {
 "g": "demasiado",
@@ -5168,8 +6940,20 @@
 "g": "encuentra",
 "k": "opaca"
 },
+"trovarti": {
+"g": "encontrarte",
+"k": "opaca"
+},
 "trovato": {
 "g": "encontrado / encontré",
+"k": "opaca"
+},
+"trovi": {
+"g": "encuentras",
+"k": "opaca"
+},
+"trovo": {
+"g": "encuentro",
 "k": "opaca"
 },
 "trucchi": {
@@ -5282,12 +7066,24 @@
 "g": "salir",
 "k": "opaca"
 },
+"uscita": {
+"g": "salida",
+"k": "opaca"
+},
 "uscito": {
 "g": "salido / salí",
 "k": "opaca"
 },
+"uscivate": {
+"g": "salían (ustedes)",
+"k": "opaca"
+},
 "uso": {
 "g": "uso (yo)",
+"k": "transparente"
+},
+"utile": {
+"g": "útil",
 "k": "transparente"
 },
 "va": {
@@ -5296,6 +7092,10 @@
 },
 "vacanza": {
 "g": "vacaciones",
+"k": "opaca"
+},
+"vada": {
+"g": "vaya",
 "k": "opaca"
 },
 "vado": {
@@ -5314,6 +7114,10 @@
 "g": "nombre propio",
 "k": "transparente"
 },
+"vanno": {
+"g": "van",
+"k": "opaca"
+},
 "vasari": {
 "g": "nombre propio",
 "k": "transparente"
@@ -5321,6 +7125,11 @@
 "vaticano": {
 "g": "Vaticano",
 "k": "transparente"
+},
+"vecchia": {
+"g": "vieja",
+"k": "regular",
+"r": "j-cchi"
 },
 "vecchio": {
 "g": "viejo",
@@ -5342,6 +7151,10 @@
 "g": "veo",
 "k": "opaca"
 },
+"veloce": {
+"g": "rápido",
+"k": "opaca"
+},
 "velocemente": {
 "g": "rápidamente",
 "k": "transparente"
@@ -5355,6 +7168,10 @@
 "k": "regular",
 "r": "otro",
 "n": "-tori → -dores (t-d)"
+},
+"vendo": {
+"g": "vendo",
+"k": "transparente"
 },
 "venerdì": {
 "g": "viernes",
@@ -5433,6 +7250,22 @@
 "g": "Verona",
 "k": "transparente"
 },
+"verrai": {
+"g": "vendrás",
+"k": "opaca"
+},
+"verrà": {
+"g": "vendrá",
+"k": "opaca"
+},
+"verrò": {
+"g": "vendré",
+"k": "opaca"
+},
+"versare": {
+"g": "depositar / verter",
+"k": "opaca"
+},
 "verso": {
 "g": "hacia",
 "k": "opaca"
@@ -5465,6 +7298,11 @@
 "g": "viaje",
 "k": "opaca"
 },
+"vibrazione": {
+"g": "vibración",
+"k": "regular",
+"r": "cion-zione"
+},
 "vicino": {
 "g": "cerca (de)",
 "k": "opaca"
@@ -5480,6 +7318,10 @@
 "vieni": {
 "g": "vienes",
 "k": "transparente"
+},
+"vietato": {
+"g": "prohibido",
+"k": "opaca"
 },
 "vigile": {
 "g": "guardia de tránsito",
@@ -5506,6 +7348,10 @@
 "g": "vista",
 "k": "transparente"
 },
+"viste": {
+"g": "vistas",
+"k": "transparente"
+},
 "visto": {
 "g": "visto / vi",
 "k": "transparente"
@@ -5522,8 +7368,16 @@
 "g": "nombre propio",
 "k": "transparente"
 },
+"vive": {
+"g": "vive",
+"k": "transparente"
+},
 "vivo": {
 "g": "vivo",
+"k": "transparente"
+},
+"voce": {
+"g": "voz",
 "k": "transparente"
 },
 "voglio": {
@@ -5534,12 +7388,20 @@
 "g": "quieren / se necesitan",
 "k": "opaca"
 },
+"voi": {
+"g": "ustedes",
+"k": "opaca"
+},
 "volentieri": {
 "g": "con gusto",
 "k": "opaca"
 },
 "volta": {
 "g": "vez",
+"k": "opaca"
+},
+"volte": {
+"g": "veces",
 "k": "opaca"
 },
 "vorrei": {
@@ -5560,6 +7422,10 @@
 },
 "vuole": {
 "g": "quiere",
+"k": "opaca"
+},
+"weekend": {
+"g": "fin de semana",
 "k": "opaca"
 },
 "whatsapp": {
@@ -5610,6 +7476,10 @@
 },
 "zucchero": {
 "g": "azúcar",
+"k": "opaca"
+},
+"zucchine": {
+"g": "zapallos italianos",
 "k": "opaca"
 },
 "è": {

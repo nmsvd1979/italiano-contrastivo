@@ -1,0 +1,336 @@
+{
+ "version": 1,
+ "nivel": "A2",
+ "note": "Relatos para el ejercicio cloze_text (passato prossimo o imperfetto). Escritos por la IA; probados a ciegas pendiente (dos agentes sin la clave) antes de usarse en un módulo.",
+ "relatos": [
+  {
+   "id": "rl_a2m03_01",
+   "text": "Ieri sera ho invitato due amici a cena. Di solito {1} Marco, ma questa volta {2} io. Prima di cucinare ho fatto la spesa. Mentre io {3} la tavola, a un tratto Giulia {4} il vino. All'improvviso {5} la luce! Allora abbiamo mangiato con le candele. Alla fine la cena è stata bellissima. Dopo la cena abbiamo lavato i piatti insieme e abbiamo riso molto.",
+   "gaps": [
+    {
+     "options": [
+      "cucinava",
+      "ha cucinato"
+     ],
+     "answer": 0,
+     "why_es": "«Di solito» marca un hábito: imperfetto."
+    },
+    {
+     "options": [
+      "ho cucinato",
+      "cucinavo"
+     ],
+     "answer": 0,
+     "why_es": "«Questa volta» marca un hecho puntual: passato prossimo."
+    },
+    {
+     "options": [
+      "ho apparecchiato",
+      "apparecchiavo"
+     ],
+     "answer": 1,
+     "why_es": "«Mentre» marca una acción en curso: imperfetto."
+    },
+    {
+     "options": [
+      "ha aperto",
+      "apriva"
+     ],
+     "answer": 0,
+     "why_es": "A un tratto marca un hecho puntual: passato prossimo."
+    },
+    {
+     "options": [
+      "è saltata",
+      "saltava"
+     ],
+     "answer": 0,
+     "why_es": "«All'improvviso» interrumpe el fondo: passato prossimo."
+    }
+   ],
+   "translation_es": "Anoche invité a dos amigos a cenar. Normalmente cocinaba Marco, pero esta vez cociné yo. Antes de cocinar hice las compras. Mientras yo ponía la mesa, de pronto Giulia abrió el vino. De repente se fue la luz. Entonces comimos con velas. Al final, la cena fue lindísima. Después de la cena lavamos los platos juntos y nos reímos mucho."
+  },
+  {
+   "id": "rl_a2m03_02",
+   "text": "Sabato sono andata a Firenze in treno. Il treno è partito alle otto in punto. Mentre {1} il giornale, all'improvviso un signore {2} una mela dalla borsa. A un tratto {3} il telefono. Era mia madre! Di solito mia madre {4} di sera, ma questa volta {5} di mattina. Dopo la telefonata ho guardato il paesaggio. Prima di scendere ho salutato il signore.",
+   "gaps": [
+    {
+     "options": [
+      "leggevo",
+      "ho letto"
+     ],
+     "answer": 0,
+     "why_es": "«Mentre» marca una acción en curso: imperfetto."
+    },
+    {
+     "options": [
+      "ha preso",
+      "prendeva"
+     ],
+     "answer": 0,
+     "why_es": "All'improvviso marca un hecho puntual: passato prossimo."
+    },
+    {
+     "options": [
+      "ha squillato",
+      "squillava"
+     ],
+     "answer": 0,
+     "why_es": "«A un tratto» marca un hecho que interrumpe: passato prossimo."
+    },
+    {
+     "options": [
+      "ha telefonato",
+      "telefonava"
+     ],
+     "answer": 1,
+     "why_es": "«Di solito» marca un hábito: imperfetto."
+    },
+    {
+     "options": [
+      "chiamava",
+      "ha chiamato"
+     ],
+     "answer": 1,
+     "why_es": "«Questa volta» marca un hecho puntual: passato prossimo."
+    }
+   ],
+   "translation_es": "El sábado fui a Florencia en tren. El tren salió a las ocho en punto. Mientras yo leía el periódico, de pronto un señor sacó una manzana de la bolsa. De pronto sonó el teléfono. ¡Era mi mamá! Normalmente mi mamá llamaba de noche, pero esta vez llamó en la mañana. Después de la llamada miré el paisaje. Antes de bajar saludé al señor."
+  },
+  {
+   "id": "rl_a2m03_03",
+   "text": "Domenica ho visto la partita allo stadio con Luca. Da bambino {1} sempre con mio padre, ma questa volta {2} con un amico. Mentre {3} fuori, a un tratto un tifoso {4} una canzone. Alle tre in punto l'arbitro {5}. All'improvviso Matteo {6} un gol! Dopo la partita abbiamo mangiato un panino in centro. Era una partita bellissima, infatti siamo tornati a casa contenti.",
+   "gaps": [
+    {
+     "options": [
+      "andavo",
+      "sono andato"
+     ],
+     "answer": 0,
+     "why_es": "«Da bambino» marca un hábito del pasado: imperfetto."
+    },
+    {
+     "options": [
+      "andavo",
+      "sono andato"
+     ],
+     "answer": 1,
+     "why_es": "«Questa volta» marca un hecho puntual: passato prossimo."
+    },
+    {
+     "options": [
+      "aspettavamo",
+      "abbiamo aspettato"
+     ],
+     "answer": 0,
+     "why_es": "«Mentre» marca una acción en curso: imperfetto."
+    },
+    {
+     "options": [
+      "ha cantato",
+      "cantava"
+     ],
+     "answer": 0,
+     "why_es": "A un tratto marca un hecho puntual: passato prossimo."
+    },
+    {
+     "options": [
+      "fischiava",
+      "ha fischiato"
+     ],
+     "answer": 1,
+     "why_es": "«Alle tre in punto» marca un momento exacto: passato prossimo."
+    },
+    {
+     "options": [
+      "ha segnato",
+      "segnava"
+     ],
+     "answer": 0,
+     "why_es": "«All'improvviso» marca un hecho puntual: passato prossimo."
+    }
+   ],
+   "translation_es": "El domingo vi el partido en el estadio con Luca. De niño iba siempre con mi papá, pero esta vez fui con un amigo. Mientras esperábamos afuera, de pronto un hincha cantó una canción. A las tres en punto el árbitro pitó. De repente Matteo hizo un gol. Después del partido comimos un sándwich en el centro. Fue un partido lindísimo, por eso volvimos a casa contentos."
+  },
+  {
+   "id": "rl_a2m03_04",
+   "text": "Ieri mattina ho ricevuto una telefonata importante. Mentre io {1} la spesa, all'improvviso {2} il telefono. A un tratto {3} la voce di Elena. Di solito {4} io, ma questa volta {5} lei. Elena è una mia vecchia amica. Era una bella sorpresa, infatti non parlavamo da un mese. Prima di rispondere ho posato le borse. Dopo la telefonata sono tornato a casa.",
+   "gaps": [
+    {
+     "options": [
+      "ho fatto",
+      "facevo"
+     ],
+     "answer": 1,
+     "why_es": "«Mentre» marca una acción en curso: imperfetto."
+    },
+    {
+     "options": [
+      "squillava",
+      "ha squillato"
+     ],
+     "answer": 1,
+     "why_es": "All'improvviso marca un hecho puntual: passato prossimo."
+    },
+    {
+     "options": [
+      "sentivo",
+      "ho sentito"
+     ],
+     "answer": 1,
+     "why_es": "A un tratto marca un momento: passato prossimo."
+    },
+    {
+     "options": [
+      "chiamavo",
+      "ho chiamato"
+     ],
+     "answer": 0,
+     "why_es": "«Di solito» marca un hábito: imperfetto."
+    },
+    {
+     "options": [
+      "chiamava",
+      "ha chiamato"
+     ],
+     "answer": 1,
+     "why_es": "«Questa volta» marca un hecho puntual: passato prossimo."
+    }
+   ],
+   "translation_es": "Ayer en la mañana recibí una llamada importante. Mientras yo hacía las compras, de pronto sonó el teléfono. De repente oí la voz de Elena. Normalmente llamaba yo, pero esta vez llamó ella. Elena es una vieja amiga mía. Fue una linda sorpresa, de hecho no hablábamos hacía un mes. Antes de contestar dejé las bolsas. Después de la llamada volví a casa."
+  },
+  {
+   "id": "rl_a2m03_05",
+   "text": "Sabato scorso ho festeggiato il mio compleanno. Da piccola {1} sempre con i nonni, ma questa volta {2} un ristorante. Mentre io {3} i regali, a un tratto Anna {4} la torta. All'improvviso tutti {5} «Auguri!». Eravamo in dieci e c'era tanta musica. Il ristorante era piccolo, ma molto bello. Allora ho spento le candele. Dopo la torta abbiamo ballato fino a tardi.",
+   "gaps": [
+    {
+     "options": [
+      "festeggiavo",
+      "ho festeggiato"
+     ],
+     "answer": 0,
+     "why_es": "«Da piccola» marca un hábito del pasado: imperfetto."
+    },
+    {
+     "options": [
+      "sceglievo",
+      "ho scelto"
+     ],
+     "answer": 1,
+     "why_es": "«Questa volta» marca un hecho puntual: passato prossimo."
+    },
+    {
+     "options": [
+      "aprivo",
+      "ho aperto"
+     ],
+     "answer": 0,
+     "why_es": "«Mentre» marca una acción en curso: imperfetto."
+    },
+    {
+     "options": [
+      "ha portato",
+      "portava"
+     ],
+     "answer": 0,
+     "why_es": "A un tratto marca un hecho puntual: passato prossimo."
+    },
+    {
+     "options": [
+      "gridavano",
+      "hanno gridato"
+     ],
+     "answer": 1,
+     "why_es": "«All'improvviso» marca un hecho puntual: passato prossimo."
+    }
+   ],
+   "translation_es": "El sábado pasado celebré mi cumpleaños. De chica lo celebraba siempre con mis abuelos, pero esta vez elegí un restaurante. Mientras yo abría los regalos, de pronto Anna trajo la torta. De repente todos gritaron «¡Felicidades!». Éramos diez y había mucha música. El restaurante era pequeño, pero muy lindo. Entonces apagué las velas. Después de la torta bailamos hasta tarde."
+  },
+  {
+   "id": "rl_a2m03_06",
+   "text": "Domenica pioveva molto e sono rimasta a casa. Fuori il cielo era grigio e la strada era vuota. Mentre {1} un libro sul divano, a un tratto {2} il campanello. Di solito nessuno {3} da me la domenica, ma quella volta {4} Chiara con una torta! Non ero triste, anzi ero contenta. Era una sorpresa bellissima. Allora ho preparato il caffè. Dopo un caffè abbiamo giocato a carte.",
+   "gaps": [
+    {
+     "options": [
+      "ho letto",
+      "leggevo"
+     ],
+     "answer": 1,
+     "why_es": "«Mentre» marca una acción en curso: imperfetto."
+    },
+    {
+     "options": [
+      "ha suonato",
+      "suonava"
+     ],
+     "answer": 0,
+     "why_es": "El timbre interrumpe lo que hacías: passato prossimo."
+    },
+    {
+     "options": [
+      "veniva",
+      "è venuto"
+     ],
+     "answer": 0,
+     "why_es": "«Di solito» marca un hábito: imperfetto."
+    },
+    {
+     "options": [
+      "veniva",
+      "è venuta"
+     ],
+     "answer": 1,
+     "why_es": "«Quella volta» marca un hecho puntual: passato prossimo."
+    }
+   ],
+   "translation_es": "El domingo llovía mucho y me quedé en casa. Afuera el cielo estaba gris y la calle vacía. Mientras leía un libro en el sofá, de pronto sonó el timbre. Normalmente nadie venía a mi casa los domingos, pero esa vez llegó Chiara con una torta. No estaba triste, al contrario, estaba contenta. Fue una sorpresa lindísima. Entonces preparé el café. Después de un café jugamos a las cartas."
+  },
+  {
+   "id": "rl_a2m03_07",
+   "text": "Lunedì sono arrivato in ufficio alle otto in punto. Quel giorno c'era molto lavoro e tutti erano stanchi. Di solito {1} un caffè con i colleghi, ma quella volta {2} subito. Mentre {3} una e-mail, a un tratto il capo {4} in ufficio. All'improvviso il computer {5}! Prima di uscire ho chiamato Paolo. Invece Laura, la mia collega preferita, ha preso un caffè.",
+   "gaps": [
+    {
+     "options": [
+      "prendevo",
+      "ho preso"
+     ],
+     "answer": 0,
+     "why_es": "«Di solito» marca un hábito: imperfetto."
+    },
+    {
+     "options": [
+      "lavoravo",
+      "ho lavorato"
+     ],
+     "answer": 1,
+     "why_es": "«Quella volta» marca un hecho puntual: passato prossimo."
+    },
+    {
+     "options": [
+      "scrivevo",
+      "ho scritto"
+     ],
+     "answer": 0,
+     "why_es": "«Mentre» marca una acción en curso: imperfetto."
+    },
+    {
+     "options": [
+      "è entrato",
+      "entrava"
+     ],
+     "answer": 0,
+     "why_es": "A un tratto marca un hecho puntual: passato prossimo."
+    },
+    {
+     "options": [
+      "si spegneva",
+      "si è spento"
+     ],
+     "answer": 1,
+     "why_es": "«All'improvviso» marca un hecho puntual: passato prossimo."
+    }
+   ],
+   "translation_es": "El lunes llegué a la oficina a las ocho en punto. Ese día había mucho trabajo y todos estaban cansados. Normalmente tomaba un café con los colegas, pero esa vez me puse a trabajar enseguida. Mientras escribía un correo, de pronto entró el jefe a la oficina. De repente se apagó el computador. Antes de salir llamé a Paolo. En cambio, Laura, mi colega favorita, tomó un café."
+  }
+ ]
+}

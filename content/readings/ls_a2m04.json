@@ -1,0 +1,166 @@
+{
+  "id": "ls_a2m04",
+  "title": "En el mercado",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo de escucha escrito por la IA: cliente y vendedor en un puesto de mercado; ejemplifica lo/la/li/le y ne de cantidad.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "ls_a2m04_00",
+      "it": "Buongiorno! Che cosa desidera?",
+      "es": "¡Buenos días! ¿Qué desea?",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m04_01",
+      "it": "Buongiorno. Vorrei un chilo di pomodori.",
+      "es": "Buenos días. Quisiera un kilo de tomates.",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_a2m04_02",
+      "it": "Li ho presi stamattina. Sono ottimi.",
+      "es": "Los traje esta mañana. Son excelentes.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m04_03",
+      "it": "Le zucchine sono fresche?",
+      "es": "¿Los calabacines están frescos?",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_a2m04_04",
+      "it": "Sì, le ho raccolte ieri. Ne vuole un chilo?",
+      "es": "Sí, los recogí ayer. ¿Quiere un kilo?",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m04_05",
+      "it": "No, ne prendo mezzo chilo.",
+      "es": "No, llevo medio kilo.",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_a2m04_06",
+      "it": "Va bene. Ecco i pomodori e le zucchine.",
+      "es": "Bien. Aquí están los tomates y los calabacines.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m04_07",
+      "it": "Quanto costa l'insalata?",
+      "es": "¿Cuánto cuesta la lechuga?",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_a2m04_08",
+      "it": "La vendo a due euro. È molto buona.",
+      "es": "La vendo a dos euros. Es muy buena.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m04_09",
+      "it": "Bene, la prendo. Ha anche le fragole?",
+      "es": "Bien, la llevo. ¿Tiene también fresas?",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_a2m04_10",
+      "it": "Sì, sono qui. Le vuole assaggiare?",
+      "es": "Sí, están aquí. ¿Las quiere probar?",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m04_11",
+      "it": "Sì, grazie. Sono dolci! Ne prendo un chilo.",
+      "es": "Sí, gracias. ¡Son dulces! Llevo un kilo.",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_a2m04_12",
+      "it": "Allora un chilo di fragole. Altro?",
+      "es": "Entonces un kilo de fresas. ¿Algo más?",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m04_13",
+      "it": "Sì, prendo anche il basilico.",
+      "es": "Sí, también llevo albahaca.",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_a2m04_14",
+      "it": "Certo. Sono dieci euro in tutto.",
+      "es": "Claro. Son diez euros en total.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m04_15",
+      "it": "Ecco a Lei. Arrivederci!",
+      "es": "Aquí tiene. ¡Hasta luego!",
+      "speaker": "Anna"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cuánto compra Anna de tomates?",
+      "options": [
+        "Medio kilo",
+        "Un kilo",
+        "Dos kilos"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Cuánto compra Anna de calabacines?",
+      "options": [
+        "Dos kilos",
+        "Un kilo",
+        "Medio kilo"
+      ],
+      "answer": 2,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta la lechuga?",
+      "options": [
+        "Dos euros",
+        "Diez euros",
+        "Un euro"
+      ],
+      "answer": 0,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿Qué le ofrece el vendedor para probar?",
+      "options": [
+        "Los tomates",
+        "Las fresas",
+        "La albahaca"
+      ],
+      "answer": 1,
+      "evidence": 10
+    },
+    {
+      "prompt_es": "¿Cuánto paga Anna en total?",
+      "options": [
+        "Dos euros",
+        "Quince euros",
+        "Diez euros"
+      ],
+      "answer": 2,
+      "evidence": 14
+    }
+  ],
+  "listen": true
+}

@@ -1,0 +1,88 @@
+{
+  "id": "doc_a2m07_meteo",
+  "title": "Previsioni del tempo: cinque giorni",
+  "level": "A2",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Pronóstico propio de cinco días, escrito por la IA y coherente con la escucha ls_a2m07.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿Qué tiempo hay el sábado?",
+      "options": [
+        "Lluvia y viento",
+        "Sol",
+        "Nublado"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Qué día hará más calor?",
+      "options": [
+        "Lunes",
+        "Domingo",
+        "Martes"
+      ],
+      "answer": 2
+    },
+    {
+      "prompt_es": "¿Qué día hay sol y 12–18 grados?",
+      "options": [
+        "Viernes",
+        "Domingo",
+        "Lunes"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Qué tiempo hay el lunes?",
+      "options": [
+        "Nublado",
+        "Sol",
+        "Lluvia"
+      ],
+      "answer": 0
+    }
+  ],
+  "table": {
+    "head": [
+      "Giorno",
+      "Tempo",
+      "Temperatura"
+    ],
+    "rows": [
+      [
+        "Venerdì",
+        "Pioggia",
+        "14° – 17°"
+      ],
+      [
+        "Sabato",
+        "Pioggia e vento",
+        "13° – 16°"
+      ],
+      [
+        "Domenica",
+        "Sole",
+        "12° – 18°"
+      ],
+      [
+        "Lunedì",
+        "Nuvoloso",
+        "11° – 17°"
+      ],
+      [
+        "Martedì",
+        "Sole e qualche nuvola",
+        "12° – 20°"
+      ]
+    ]
+  }
+}

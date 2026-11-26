@@ -1,0 +1,119 @@
+{
+  "id": "doc_a2m04_nota",
+  "title": "Nota a un compañero de piso",
+  "level": "A2",
+  "kind": "lectura",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Nota breve escrita por la IA a un compañero de piso; ejemplifica lo/la/li/le, gli/le y ne, con el pronombre pegado al infinitivo.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "doc_a2m04_nota_00",
+      "it": "Ciao Luca, esco presto stamattina.",
+      "es": "Hola Luca, hoy salgo temprano en la mañana."
+    },
+    {
+      "id": "doc_a2m04_nota_01",
+      "it": "Ho comprato il pane e lo trovi sul tavolo.",
+      "es": "Compré el pan y lo encuentras sobre la mesa."
+    },
+    {
+      "id": "doc_a2m04_nota_02",
+      "it": "Di mele ne ho comprate cinque: le trovi in frigo.",
+      "es": "Compré cinco manzanas: las encuentras en el refrigerador."
+    },
+    {
+      "id": "doc_a2m04_nota_03",
+      "it": "Il bucato non posso farlo oggi: puoi farlo tu?",
+      "es": "La ropa sucia no puedo lavarla hoy: ¿puedes hacerlo tú?"
+    },
+    {
+      "id": "doc_a2m04_nota_04",
+      "it": "Ho visto Marco e gli ho parlato della cena.",
+      "es": "Vi a Marco y le hablé de la cena."
+    },
+    {
+      "id": "doc_a2m04_nota_05",
+      "it": "Viene alle otto.",
+      "es": "Viene a las ocho."
+    },
+    {
+      "id": "doc_a2m04_nota_06",
+      "it": "Giulia viene anche: le ho scritto ieri sera.",
+      "es": "Giulia también viene: le escribí anoche."
+    },
+    {
+      "id": "doc_a2m04_nota_07",
+      "it": "Le mie chiavi non le trovo. Le hai viste tu?",
+      "es": "No encuentro mis llaves. ¿Las has visto tú?"
+    },
+    {
+      "id": "doc_a2m04_nota_08",
+      "it": "Il libro di Anna l'ho preso io: lo restituisco domani.",
+      "es": "El libro de Anna lo tomé yo: lo devuelvo mañana."
+    },
+    {
+      "id": "doc_a2m04_nota_09",
+      "it": "A stasera! Sara",
+      "es": "¡Nos vemos esta noche! Sara"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Dónde está el pan?",
+      "options": [
+        "En el refrigerador",
+        "Sobre la mesa",
+        "En la bolsa"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿A qué hora viene Marco?",
+      "options": [
+        "A las siete",
+        "A las nueve",
+        "A las ocho"
+      ],
+      "answer": 2,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Quién tiene el libro de Anna?",
+      "options": [
+        "Quien escribe la nota",
+        "Marco",
+        "Luca"
+      ],
+      "answer": 0,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿Qué no puede hacer hoy quien escribe?",
+      "options": [
+        "Preparar la cena",
+        "Lavar la ropa sucia",
+        "Comprar el pan"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Qué cosa no encuentra quien escribe?",
+      "options": [
+        "Las llaves",
+        "El pan",
+        "Las manzanas"
+      ],
+      "answer": 0,
+      "evidence": 7
+    }
+  ]
+}

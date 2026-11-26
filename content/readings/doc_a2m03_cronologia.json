@@ -1,0 +1,111 @@
+{
+  "id": "doc_a2m03_cronologia",
+  "title": "Una gita a Genova: cronologia",
+  "level": "A2",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Tabla propia con la cronología de un viaje de un día: qué pasó (passato prossimo) y cómo era la situación (imperfetto).",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "table": {
+    "head": [
+      "Quando",
+      "Che cosa è successo",
+      "Com'era la situazione"
+    ],
+    "rows": [
+      [
+        "Alle sette in punto",
+        "Siamo partite da casa",
+        "Faceva freddo e c'era poca gente."
+      ],
+      [
+        "Alle nove",
+        "Siamo arrivate a Genova",
+        "Il sole splendeva e il mare era calmo."
+      ],
+      [
+        "Alle dieci",
+        "Abbiamo visitato l'acquario",
+        "C'erano molti bambini e tutti sorridevano."
+      ],
+      [
+        "A mezzogiorno",
+        "Abbiamo mangiato la focaccia",
+        "Eravamo stanche, ma contente."
+      ],
+      [
+        "Alle tre",
+        "Ha cominciato a piovere",
+        "Non avevamo l'ombrello."
+      ],
+      [
+        "Alle sei",
+        "Siamo tornate a casa in treno",
+        "Il treno era pieno e noi dormivamo."
+      ]
+    ]
+  },
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿A qué hora salieron de casa?",
+      "options": [
+        "A las siete en punto.",
+        "A las nueve.",
+        "A las diez."
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Qué comieron a mediodía?",
+      "options": [
+        "Pizza.",
+        "Pasta.",
+        "Focaccia."
+      ],
+      "answer": 2
+    },
+    {
+      "prompt_es": "¿Qué pasó a las tres?",
+      "options": [
+        "Llegaron al mar.",
+        "Empezó a llover.",
+        "Visitaron el acuario."
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Cómo estaba el tren a la vuelta?",
+      "options": [
+        "Vacío.",
+        "Lleno.",
+        "Con retraso."
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Qué hacían ellas en el tren?",
+      "options": [
+        "Dormían.",
+        "Leían.",
+        "Comían."
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Quiénes había en el acuario?",
+      "options": [
+        "Pocos turistas.",
+        "Muchos niños.",
+        "Nadie."
+      ],
+      "answer": 1
+    }
+  ]
+}

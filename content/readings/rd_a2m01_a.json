@@ -1,0 +1,119 @@
+{
+  "id": "rd_a2m01_a",
+  "title": "Che cosa hai fatto ieri?",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo escrito por la IA: dos amigos se cuentan el día de ayer con passato prossimo.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2m01_a_00",
+      "it": "Ciao Paolo! Che cosa hai fatto ieri?",
+      "es": "¡Hola, Paolo! ¿Qué hiciste ayer?",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_a2m01_a_01",
+      "it": "Ieri mattina mi sono alzato presto.",
+      "es": "Ayer en la mañana me levanté temprano.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "rd_a2m01_a_02",
+      "it": "E poi?",
+      "es": "¿Y después?",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_a2m01_a_03",
+      "it": "Sono andato in palestra e ho corso un'ora.",
+      "es": "Fui al gimnasio y corrí una hora.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "rd_a2m01_a_04",
+      "it": "Hai mangiato fuori a pranzo?",
+      "es": "¿Almorzaste afuera?",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_a2m01_a_05",
+      "it": "No, ho preparato la pasta a casa.",
+      "es": "No, preparé pasta en casa.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "rd_a2m01_a_06",
+      "it": "E nel pomeriggio?",
+      "es": "¿Y en la tarde?",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_a2m01_a_07",
+      "it": "Ho studiato e ho scritto due e-mail.",
+      "es": "Estudié y escribí dos correos.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "rd_a2m01_a_08",
+      "it": "Sei uscito la sera?",
+      "es": "¿Saliste en la noche?",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_a2m01_a_09",
+      "it": "Sì, ho incontrato Luca e abbiamo preso una birra.",
+      "es": "Sí, me encontré con Luca y tomamos una cerveza.",
+      "speaker": "Paolo"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué hizo Paolo ayer en la mañana después de levantarse?",
+      "options": [
+        "Fue al gimnasio",
+        "Cocinó pasta",
+        "Escribió correos"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Dónde almorzó Paolo?",
+      "options": [
+        "En un restaurante",
+        "En casa",
+        "En el gimnasio"
+      ],
+      "answer": 1,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Qué hizo Paolo en la tarde?",
+      "options": [
+        "Salió con Luca",
+        "Corrió una hora",
+        "Estudió y escribió correos"
+      ],
+      "answer": 2,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Con quién se encontró Paolo en la noche?",
+      "options": [
+        "Con Luca",
+        "Con Sara",
+        "Con Anna"
+      ],
+      "answer": 0,
+      "evidence": 9
+    }
+  ]
+}

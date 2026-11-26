@@ -1,0 +1,1149 @@
+{
+ "version": 1,
+ "nivel": "A2",
+ "note": "Datos de la Salida de los módulos de A2, escritos por la IA (Claude) a pedido del usuario el 2026-11-26: preguntas por voz, consignas de escritura, juegos de rol (sobre diálogos propios de content/readings) y tareas orales. Sin revisión de un hablante nativo. Se conectan a course.json al construir cada módulo (Fase 5).",
+ "modules": {
+  "a2m01": {
+   "interview": [
+    {
+     "id": "iq_a2m01_1",
+     "module": "a2m01",
+     "it": "Che cosa hai fatto ieri sera?",
+     "es": "¿Qué hiciste anoche?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m01_2",
+     "module": "a2m01",
+     "it": "A che ora ti sei alzato stamattina?",
+     "es": "¿A qué hora te levantaste hoy en la mañana?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m01_3",
+     "module": "a2m01",
+     "it": "Dove sei andato sabato?",
+     "es": "¿Adónde fuiste el sábado?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m01_4",
+     "module": "a2m01",
+     "it": "Che cosa hai mangiato a pranzo oggi?",
+     "es": "¿Qué almorzaste hoy?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m01_5",
+     "module": "a2m01",
+     "it": "Hai già fatto la spesa questa settimana?",
+     "es": "¿Ya hiciste las compras esta semana?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m01_6",
+     "module": "a2m01",
+     "it": "Sei mai stato in Italia?",
+     "es": "¿Has estado alguna vez en Italia?",
+     "authored": true
+    }
+   ],
+   "writing": {
+    "texto_es": "Cuenta en 40–60 palabras qué hiciste ayer, en italiano. Incluye al menos 3 verbos con avere, 2 con essere y un verbo reflexivo en pasado («mi sono alzato/a»).",
+    "mensaje_es": "Escribe un mensaje de 25–50 palabras a un amigo para contarle cómo estuvo tu fin de semana. Usa «già» o «non… più» y al menos una vez «è piaciuto» o «sono andato/a»."
+   },
+   "roleplays": [
+    {
+     "id": "rp_a2m01_a",
+     "title": "Contar el día de ayer",
+     "function_es": "Contar qué hiciste ayer",
+     "reading": "rd_a2m01_a",
+     "from": 0,
+     "to": 9,
+     "goal_es": "Responde como Paolo y cuenta tu día con passato prossimo."
+    },
+    {
+     "id": "rp_a2m01_b",
+     "title": "El fin de semana",
+     "function_es": "Contar cómo estuvo tu fin de semana",
+     "reading": "rd_a2m01_b",
+     "from": 0,
+     "to": 10,
+     "goal_es": "Responde como Matteo y cuenta tu fin de semana, incluido lo que te gustó o no."
+    }
+   ],
+   "task": {
+    "id": "ht_a2m01",
+    "title": "Cuenta tu semana",
+    "function_es": "Contar lo que hiciste con passato prossimo",
+    "level": "A2",
+    "minutes": 2,
+    "intro_es": "Cuenta en italiano, en 2 minutos, lo que hiciste la semana pasada. Usa passato prossimo con avere y con essere.",
+    "questions": [
+     {
+      "it": "Che cosa hai fatto lunedì?",
+      "es": "¿Qué hiciste el lunes?"
+     },
+     {
+      "it": "Dove sei andato durante la settimana?",
+      "es": "¿Adónde fuiste durante la semana?"
+     },
+     {
+      "it": "Chi hai incontrato?",
+      "es": "¿A quién viste?"
+     },
+     {
+      "it": "Che cosa hai mangiato di buono?",
+      "es": "¿Qué comiste rico?"
+     },
+     {
+      "it": "Che cosa ti è piaciuto di più?",
+      "es": "¿Qué te gustó más?"
+     }
+    ]
+   },
+   "readings": [
+    "ls_a2m01",
+    "doc_a2m01_agenda",
+    "rd_a2m01_a",
+    "rd_a2m01_b"
+   ]
+  },
+  "a2m02": {
+   "interview": [
+    {
+     "id": "iq_a2m02_1",
+     "module": "a2m02",
+     "it": "Com'eri da piccolo?",
+     "es": "¿Cómo eras de niño?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m02_2",
+     "module": "a2m02",
+     "it": "Dove abitavi da bambino?",
+     "es": "¿Dónde vivías de niño?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m02_3",
+     "module": "a2m02",
+     "it": "Che cosa facevi ogni sera da piccolo?",
+     "es": "¿Qué hacías cada noche de niño?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m02_4",
+     "module": "a2m02",
+     "it": "Da quanto tempo studi italiano?",
+     "es": "¿Hace cuánto tiempo estudias italiano?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m02_5",
+     "module": "a2m02",
+     "it": "Che cosa hai fatto l'estate scorsa?",
+     "es": "¿Qué hiciste el verano pasado?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m02_6",
+     "module": "a2m02",
+     "it": "Com'è il tuo migliore amico?",
+     "es": "¿Cómo es tu mejor amigo?",
+     "authored": true
+    }
+   ],
+   "writing": {
+    "texto_es": "Describe en 40–60 palabras cómo era tu casa o tu barrio cuando eras niño/a. Usa al menos 3 verbos en imperfetto y un «c'era» o «c'erano».",
+    "mensaje_es": "Escribe un correo de 25–50 palabras a un viejo amigo: dile hace cuánto tiempo no se ven («da… anni»), cómo era él/ella antes y cómo eran ustedes juntos. Usa «fa» o «da» y al menos 2 verbos en imperfetto."
+   },
+   "roleplays": [
+    {
+     "id": "rp_a2m02_a",
+     "title": "Recordar la infancia",
+     "function_es": "Describir cómo eras de niño/a",
+     "reading": "rd_a2m02_a",
+     "from": 0,
+     "to": 9,
+     "goal_es": "Responde como Luca: cuenta cómo eras, dónde vivías y qué hacías de niño."
+    },
+    {
+     "id": "rp_a2m02_b",
+     "title": "Reencuentro con un amigo",
+     "function_es": "Hablar de una relación pasada y describir el carácter de alguien",
+     "reading": "rd_a2m02_b",
+     "from": 0,
+     "to": 9,
+     "goal_es": "Responde como Anna: recuerda a Davide, di hace cuánto tiempo pasó y acepta la invitación."
+    }
+   ],
+   "task": {
+    "id": "ht_a2m02",
+    "title": "Cuenta cómo era tu infancia",
+    "function_es": "Describir cómo eran las cosas antes con imperfetto",
+    "level": "A2",
+    "minutes": 2,
+    "intro_es": "Habla en italiano durante 2 minutos de cómo era tu vida cuando eras niño/a. Usa imperfetto y, si puedes, c'era / c'erano.",
+    "questions": [
+     {
+      "it": "Com'eri da piccolo?",
+      "es": "¿Cómo eras de niño?"
+     },
+     {
+      "it": "Dove abitavi e com'era la tua casa?",
+      "es": "¿Dónde vivías y cómo era tu casa?"
+     },
+     {
+      "it": "Che cosa facevi con i tuoi amici?",
+      "es": "¿Qué hacías con tus amigos?"
+     },
+     {
+      "it": "Com'era il tuo quartiere?",
+      "es": "¿Cómo era tu barrio?"
+     },
+     {
+      "it": "Che cosa è cambiato da allora?",
+      "es": "¿Qué cambió desde entonces?"
+     }
+    ]
+   },
+   "readings": [
+    "ls_a2m02",
+    "doc_a2m02_prima_adesso",
+    "rd_a2m02_a",
+    "rd_a2m02_b"
+   ]
+  },
+  "a2m03": {
+   "interview": [
+    {
+     "id": "iq_a2m03_1",
+     "module": "a2m03",
+     "it": "Che cosa facevi ieri sera alle otto?",
+     "es": "¿Qué hacías ayer a las ocho de la noche?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m03_2",
+     "module": "a2m03",
+     "it": "Che cosa hai fatto sabato scorso?",
+     "es": "¿Qué hiciste el sábado pasado?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m03_3",
+     "module": "a2m03",
+     "it": "Racconta un viaggio: com'era il tempo e che cosa è successo?",
+     "es": "Cuenta un viaje: ¿cómo estaba el tiempo y qué pasó?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m03_4",
+     "module": "a2m03",
+     "it": "Che cosa hai fatto prima di uscire di casa stamattina?",
+     "es": "¿Qué hiciste esta mañana antes de salir de casa?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m03_5",
+     "module": "a2m03",
+     "it": "Che cosa facevi di solito la domenica da bambino?",
+     "es": "¿Qué hacías normalmente los domingos cuando eras niño?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m03_6",
+     "module": "a2m03",
+     "it": "Che cosa facevi quando è squillato il telefono l'ultima volta?",
+     "es": "¿Qué hacías cuando sonó el teléfono la última vez?",
+     "authored": true
+    }
+   ],
+   "writing": {
+    "texto_es": "Escribe un relato de 40 a 60 palabras sobre una anécdota tuya (un viaje, una fiesta o un día raro). Debe tener al menos 3 verbos en passato prossimo para lo que pasó, al menos 3 en imperfetto para cómo era la situación, y al menos dos conectores entre mentre, quando, infatti, invece, anzi, allora, all'improvviso.",
+    "mensaje_es": "Escribe un mensaje de 25 a 50 palabras a un amigo para contarle por qué ayer no contestaste el teléfono: qué hacías cuando sonó (imperfetto) y qué pasó después (passato prossimo). Usa prima di + infinitivo o dopo + sustantivo al menos una vez."
+   },
+   "roleplays": [
+    {
+     "id": "rp_a2m03_a",
+     "title": "Contar una caída",
+     "function_es": "Contar qué te pasó",
+     "reading": "rd_a2m03_a",
+     "from": 0,
+     "to": 9,
+     "goal_es": "Llegas tarde y le cuentas a una amiga qué pasó: dónde estabas, qué hacías y qué ocurrió de repente."
+    },
+    {
+     "id": "rp_a2m03_b",
+     "title": "Una llamada sin respuesta",
+     "function_es": "Explicar qué hacías cuando pasó algo",
+     "reading": "rd_a2m03_b",
+     "from": 0,
+     "to": 9,
+     "goal_es": "Una amiga te llamó anoche y no contestaste: explica dónde estabas, qué hacías cuando sonó el teléfono y qué hiciste después."
+    }
+   ],
+   "task": {
+    "id": "ht_a2m03",
+    "title": "Raccontare un giorno strano",
+    "function_es": "Contar una anécdota",
+    "level": "A2",
+    "minutes": 2,
+    "intro_es": "Cuenta durante unos dos minutos una anécdota real o inventada, sin leer. Separa lo que pasó (passato prossimo) de cómo era la situación (imperfetto) y usa al menos dos conectores.",
+    "questions": [
+     {
+      "it": "Quando è successo e che giorno era?",
+      "es": "¿Cuándo pasó y qué día era?"
+     },
+     {
+      "it": "Dove eri e che cosa facevi?",
+      "es": "¿Dónde estabas y qué hacías?"
+     },
+     {
+      "it": "Che cosa è successo all'improvviso?",
+      "es": "¿Qué pasó de repente?"
+     },
+     {
+      "it": "Che cosa hai fatto dopo?",
+      "es": "¿Qué hiciste después?"
+     },
+     {
+      "it": "Come è finita la storia?",
+      "es": "¿Cómo terminó la historia?"
+     }
+    ]
+   },
+   "readings": [
+    "ls_a2m03",
+    "doc_a2m03_cronologia",
+    "rd_a2m03_a",
+    "rd_a2m03_b"
+   ]
+  },
+  "a2m04": {
+   "interview": [
+    {
+     "id": "iq_a2m04_1",
+     "module": "a2m04",
+     "it": "Dove compri la frutta? La compri al mercato?",
+     "es": "¿Dónde compras la fruta? ¿La compras en el mercado?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m04_2",
+     "module": "a2m04",
+     "it": "Hai un libro preferito? Quando l'hai letto?",
+     "es": "¿Tienes un libro favorito? ¿Cuándo lo leíste?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m04_3",
+     "module": "a2m04",
+     "it": "Hai visto un amico questa settimana? Dove l'hai visto?",
+     "es": "¿Viste a un amigo esta semana? ¿Dónde lo viste?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m04_4",
+     "module": "a2m04",
+     "it": "Scrivi spesso ai tuoi amici? Che cosa gli scrivi?",
+     "es": "¿Les escribes seguido a tus amigos? ¿Qué les escribes?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m04_5",
+     "module": "a2m04",
+     "it": "Quanta frutta mangi al giorno? Ne mangi molta?",
+     "es": "¿Cuánta fruta comes al día? ¿Comes mucha?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m04_6",
+     "module": "a2m04",
+     "it": "Le tue chiavi dove le tieni? Le trovi sempre?",
+     "es": "Tus llaves, ¿dónde las guardas? ¿Las encuentras siempre?",
+     "authored": true
+    }
+   ],
+   "writing": {
+    "texto_es": "Escribe una nota a un compañero de piso, de 40 a 60 palabras. Cuéntale qué compraste y dónde dejaste las cosas, y a quién escribiste o a quién viste. Usa al menos 3 pronombres de objeto directo (lo, la, li, le), 1 pronombre indirecto (gli o le), 1 pronombre pegado al infinitivo (como «farlo») y 1 «ne» de cantidad.",
+    "mensaje_es": "Escribe un mensaje de 25 a 50 palabras a una amiga: pregúntale si ha visto tu chaqueta o tus llaves y dile dónde ya las buscaste. Usa al menos 2 pronombres directos con passato prossimo (por ejemplo «l'hai vista?», «le ho cercate») y 1 pronombre indirecto."
+   },
+   "roleplays": [
+    {
+     "id": "rp_a2m04_a",
+     "title": "Cerco il mio libro",
+     "function_es": "Preguntar por un objeto perdido y decir dónde lo dejaste, usando lo/la/le.",
+     "reading": "rd_a2m04_a",
+     "from": 0,
+     "to": 6,
+     "goal_es": "Pregunta si han visto tu libro, di dónde lo dejaste y qué hiciste para buscarlo."
+    },
+    {
+     "id": "rp_a2m04_b",
+     "title": "Chi ha comprato il pane?",
+     "function_es": "Repartir las compras de la casa con lo/la/li/le, gli/le y ne.",
+     "reading": "rd_a2m04_b",
+     "from": 3,
+     "to": 9,
+     "goal_es": "Cuenta qué compraste y para quién, y avisa a los demás con gli/le."
+    }
+   ],
+   "task": {
+    "id": "ht_a2m04",
+    "title": "Le mie compere",
+    "function_es": "Contar qué compraste y qué hiciste con las cosas, usando pronombres.",
+    "level": "A2",
+    "minutes": 2,
+    "intro_es": "Cuenta en 2 minutos qué compraste esta semana, dónde lo guardaste y a quién se lo diste o escribiste. Responde en voz alta usando lo, la, li, le, gli o ne.",
+    "questions": [
+     {
+      "it": "Che cosa hai comprato questa settimana? Dove l'hai comprato?",
+      "es": "¿Qué compraste esta semana? ¿Dónde lo compraste?"
+     },
+     {
+      "it": "Hai comprato anche frutta o verdura? Ne hai comprata molta?",
+      "es": "¿Compraste también fruta o verdura? ¿Compraste mucha?"
+     },
+     {
+      "it": "Dove hai messo le cose? Le trovi facilmente?",
+      "es": "¿Dónde pusiste las cosas? ¿Las encuentras fácilmente?"
+     },
+     {
+      "it": "Hai visto un amico? Che cosa gli hai detto?",
+      "es": "¿Viste a un amigo? ¿Qué le dijiste?"
+     },
+     {
+      "it": "Hai scritto a qualcuno? Le hai scritto o gli hai telefonato?",
+      "es": "¿Le escribiste a alguien? ¿Le escribiste o la llamaste por teléfono?"
+     }
+    ]
+   },
+   "readings": [
+    "ls_a2m04",
+    "doc_a2m04_nota",
+    "rd_a2m04_a",
+    "rd_a2m04_b"
+   ]
+  },
+  "a2m05": {
+   "interview": [
+    {
+     "id": "iq_a2m05_1",
+     "module": "a2m05",
+     "it": "Qual è il negozio più bello della tua città? Perché?",
+     "es": "¿Cuál es la tienda más linda de tu ciudad? ¿Por qué?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m05_2",
+     "module": "a2m05",
+     "it": "In cucina usi più burro o più olio?",
+     "es": "En la cocina, ¿usas más mantequilla o más aceite?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m05_3",
+     "module": "a2m05",
+     "it": "Per l'insalata è meglio l'aceto o il limone?",
+     "es": "Para la ensalada, ¿es mejor el vinagre o el limón?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m05_4",
+     "module": "a2m05",
+     "it": "Dove fa più caldo in estate, nella tua città o a Roma?",
+     "es": "¿Dónde hace más calor en verano, en tu ciudad o en Roma?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m05_5",
+     "module": "a2m05",
+     "it": "Hai qualche vaso con fiori in casa? Ne hai molti?",
+     "es": "¿Tienes algún florero con flores en casa? ¿Tienes muchos?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m05_6",
+     "module": "a2m05",
+     "it": "Hai un costume da bagno? Di che colore è?",
+     "es": "¿Tienes un traje de baño? ¿De qué color es?",
+     "authored": true
+    }
+   ],
+   "writing": {
+    "texto_es": "Escribe de 40 a 60 palabras sobre un regalo o una compra que quieres hacer: compara dos cosas de una tienda y di cuál es mejor y por qué. Usa al menos 2 comparaciones con «più… di» o «più… che», «meglio» o «migliore», 1 superlativo en -issimo y «qualche» con singular o «nessun».",
+    "mensaje_es": "Escribe un mensaje de 25 a 50 palabras a un amigo: dile que quieres comprar algo para la casa (por ejemplo una tovaglia o un vaso) y pídele ayuda para elegir. Usa «qualcosa di» más un adjetivo, «quello che» y una comparación."
+   },
+   "roleplays": [
+    {
+     "id": "rp_a2m05_a",
+     "title": "Quale scegli?",
+     "function_es": "Elegir entre dos objetos comparándolos.",
+     "reading": "rd_a2m05_a",
+     "from": 0,
+     "to": 6,
+     "goal_es": "Compara dos mochilas por precio y comodidad y di cuál prefieres."
+    },
+    {
+     "id": "rp_a2m05_b",
+     "title": "Al negozio di scarpe",
+     "function_es": "Comprar zapatos en una tienda, con trato de Lei.",
+     "reading": "rd_a2m05_b",
+     "from": 1,
+     "to": 8,
+     "goal_es": "Pide zapatos cómodos, pregunta el precio y el número, y decide si los llevas."
+    }
+   ],
+   "task": {
+    "id": "ht_a2m05",
+    "title": "Che cosa vorrei comprare",
+    "function_es": "Describir algo que quieres comprar y compararlo con otra cosa.",
+    "level": "A2",
+    "minutes": 2,
+    "intro_es": "Habla 2 minutos de algo que quieres comprar: cuál es, cuánto cuesta y por qué es mejor que otra opción. Usa comparaciones, meglio o migliore y un superlativo en -issimo.",
+    "questions": [
+     {
+      "it": "Che cosa vorresti comprare? Dove lo vuoi comprare?",
+      "es": "¿Qué quisieras comprar? ¿Dónde lo quieres comprar?"
+     },
+     {
+      "it": "È più bello o più comodo di quello che hai già?",
+      "es": "¿Es más bonito o más cómodo que el que ya tienes?"
+     },
+     {
+      "it": "Quanto costa? C'è qualcosa di meno caro?",
+      "es": "¿Cuánto cuesta? ¿Hay algo menos caro?"
+     },
+     {
+      "it": "Perché è la scelta migliore? Ne hai bisogno subito?",
+      "es": "¿Por qué es la mejor elección? ¿Lo necesitas pronto?"
+     }
+    ]
+   },
+   "readings": [
+    "ls_a2m05",
+    "doc_a2m05_catalogo",
+    "rd_a2m05_a",
+    "rd_a2m05_b"
+   ]
+  },
+  "a2m06": {
+   "interview": [
+    {
+     "id": "iq_a2m06_1",
+     "module": "a2m06",
+     "it": "Dov'è la banca più vicina a casa tua?",
+     "es": "¿Dónde está el banco más cercano a tu casa?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m06_2",
+     "module": "a2m06",
+     "it": "Che cosa c'è di fronte a casa tua?",
+     "es": "¿Qué hay frente a tu casa?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m06_3",
+     "module": "a2m06",
+     "it": "Quando è il tuo compleanno?",
+     "es": "¿Cuándo es tu cumpleaños?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m06_4",
+     "module": "a2m06",
+     "it": "In che anno hai finito la scuola?",
+     "es": "¿En qué año terminaste el colegio?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m06_5",
+     "module": "a2m06",
+     "it": "Che cosa si può fare in un ufficio postale?",
+     "es": "¿Qué se puede hacer en una oficina de correos?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m06_6",
+     "module": "a2m06",
+     "it": "A che ora apre la banca nella tua città?",
+     "es": "¿A qué hora abre el banco en tu ciudad?",
+     "authored": true
+    }
+   ],
+   "writing": {
+    "texto_es": "Escribe en italiano un texto de 40–60 palabras sobre tu barrio: dónde están el banco y la oficina de correos. Usa al menos 3 expresiones de lugar (di fronte a, accanto a, in fondo a) y una frase con «si può».",
+    "mensaje_es": "Escribe en italiano un mensaje de 25–50 palabras a una oficina de correos: pregunta el horario del sábado y qué documento debes llevar para retirar un paquete. Usa «vorrei» y una hora con «dalle… alle…»."
+   },
+   "roleplays": [
+    {
+     "id": "rp_a2m06_a",
+     "title": "Depositar y retirar dinero en el banco",
+     "function_es": "Hablar en una ventanilla",
+     "reading": "rd_a2m06_a",
+     "from": 0,
+     "to": 10,
+     "goal_es": "Pedir un depósito, firmar y preguntar dónde está el cajero y a qué hora cierra el banco."
+    },
+    {
+     "id": "rp_a2m06_b",
+     "title": "Preguntar dónde está una oficina",
+     "function_es": "Pedir y dar indicaciones",
+     "reading": "rd_a2m06_b",
+     "from": 0,
+     "to": 10,
+     "goal_es": "Preguntar por una oficina, entender el camino y averiguar el piso."
+    }
+   ],
+   "task": {
+    "id": "ht_a2m06",
+    "title": "Trámites, casa y barrio",
+    "function_es": "Describir tu barrio y hablar de trámites",
+    "level": "A2",
+    "minutes": 2,
+    "intro_es": "Habla unos 2 minutos, sin leer. Responde con frases completas: usa expresiones de lugar (di fronte a, accanto a, in fondo a), fechas y años, y «si può» o «è vietato».",
+    "questions": [
+     {
+      "it": "Dove abiti e che cosa c'è di fronte a casa tua?",
+      "es": "¿Dónde vives y qué hay frente a tu casa?"
+     },
+     {
+      "it": "Che cosa c'è accanto alla banca o all'ufficio postale?",
+      "es": "¿Qué hay junto al banco o a la oficina de correos?"
+     },
+     {
+      "it": "Da che anno abiti in questa casa?",
+      "es": "¿Desde qué año vives en esta casa?"
+     },
+     {
+      "it": "Quando vai in banca o in posta, e a che ora?",
+      "es": "¿Cuándo vas al banco o al correo, y a qué hora?"
+     },
+     {
+      "it": "Che cosa non si può fare nel tuo edificio?",
+      "es": "¿Qué no se puede hacer en tu edificio?"
+     }
+    ]
+   },
+   "readings": [
+    "rd_a2m06_entrada",
+    "ls_a2m06",
+    "doc_a2m06_modulo",
+    "doc_a2m06_regolamento",
+    "doc_a2m06_orari",
+    "rd_a2m06_a",
+    "rd_a2m06_b"
+   ]
+  },
+  "a2m07": {
+   "interview": [
+    {
+     "id": "iq_a2m07_1",
+     "module": "a2m07",
+     "it": "Che cosa farai questo fine settimana?",
+     "es": "¿Qué harás este fin de semana?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m07_2",
+     "module": "a2m07",
+     "it": "Dove andrai nelle prossime vacanze?",
+     "es": "¿Adónde irás en las próximas vacaciones?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m07_3",
+     "module": "a2m07",
+     "it": "Se domani piove, che cosa fai?",
+     "es": "Si mañana llueve, ¿qué haces?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m07_4",
+     "module": "a2m07",
+     "it": "Chi verrà a casa tua questo mese?",
+     "es": "¿Quién vendrá a tu casa este mes?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m07_5",
+     "module": "a2m07",
+     "it": "Qual è l'ultimo film che hai visto?",
+     "es": "¿Cuál es la última película que viste?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m07_6",
+     "module": "a2m07",
+     "it": "A che cosa pensi la sera prima di dormire?",
+     "es": "¿En qué piensas por la noche antes de dormir?",
+     "authored": true
+    }
+   ],
+   "writing": {
+    "texto_es": "Escribe en italiano un texto de 40–60 palabras sobre tus planes para el próximo fin de semana. Usa al menos 3 verbos en futuro (uno irregular: verrò, andrò, sarò o avrò) y una frase con «se + presente» (por ejemplo, se piove, resto a casa).",
+    "mensaje_es": "Escribe en italiano un mensaje de 25–50 palabras para invitar a un amigo al cine o a cenar. Usa «vorrei», indica día y hora, y un verbo con preposición (smettere di, cercare di o pensare a)."
+   },
+   "roleplays": [
+    {
+     "id": "rp_a2m07_a",
+     "title": "Hacer planes según el tiempo",
+     "function_es": "Proponer un plan",
+     "reading": "rd_a2m07_a",
+     "from": 0,
+     "to": 10,
+     "goal_es": "Proponer un plan para el sábado, decir de qué depende y quedar en una hora y un lugar."
+    },
+    {
+     "id": "rp_a2m07_b",
+     "title": "Invitar a cenar con cortesía",
+     "function_es": "Invitar y aceptar",
+     "reading": "rd_a2m07_b",
+     "from": 0,
+     "to": 10,
+     "goal_es": "Invitar a un amigo a cenar, pedirle que lleve algo y confirmar hora y lugar."
+    }
+   ],
+   "task": {
+    "id": "ht_a2m07",
+    "title": "Planes, invitaciones e hipótesis",
+    "function_es": "Hablar de planes y de qué haces según el tiempo",
+    "level": "A2",
+    "minutes": 2,
+    "intro_es": "Habla unos 2 minutos, sin leer. Usa el futuro (verrò, andrò, sarò, avrò), frases con «se + presente» y verbos como smettere di, cercare di, pensare a.",
+    "questions": [
+     {
+      "it": "Che cosa farai sabato prossimo?",
+      "es": "¿Qué harás el próximo sábado?"
+     },
+     {
+      "it": "Se piove, che cosa fai? E se c'è il sole?",
+      "es": "Si llueve, ¿qué haces? ¿Y si hay sol?"
+     },
+     {
+      "it": "Chi vuoi invitare a cena e che cosa cucinerai?",
+      "es": "¿A quién quieres invitar a cenar y qué cocinarás?"
+     },
+     {
+      "it": "Che film o che serie ti piace? Quando la guardi?",
+      "es": "¿Qué película o serie te gusta? ¿Cuándo la ves?"
+     },
+     {
+      "it": "Da che cosa dipende il tuo fine settimana?",
+      "es": "¿De qué depende tu fin de semana?"
+     }
+    ]
+   },
+   "readings": [
+    "ls_a2m07",
+    "doc_a2m07_meteo",
+    "doc_a2m07_cinema",
+    "doc_a2m07_invito",
+    "rd_a2m07_a",
+    "rd_a2m07_b"
+   ]
+  },
+  "a2m08": {
+   "interview": [
+    {
+     "id": "iq_a2m08_1",
+     "module": "a2m08",
+     "it": "Che favore chiedi a un amico? Come lo chiedi?",
+     "es": "¿Qué favor le pides a un amigo? ¿Cómo lo pides?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m08_2",
+     "module": "a2m08",
+     "it": "Che consiglio dai a un amico che dorme poco?",
+     "es": "¿Qué consejo le das a un amigo que duerme poco?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m08_3",
+     "module": "a2m08",
+     "it": "Come si usa la macchina del caffè? Spiega i passi.",
+     "es": "¿Cómo se usa la cafetera? Explica los pasos.",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m08_4",
+     "module": "a2m08",
+     "it": "Che cosa dici a un impiegato per chiedere un'informazione?",
+     "es": "¿Qué le dices a un empleado para pedir una información?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m08_5",
+     "module": "a2m08",
+     "it": "Che cosa potresti fare per aiutare un vicino?",
+     "es": "¿Qué podrías hacer para ayudar a un vecino?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m08_6",
+     "module": "a2m08",
+     "it": "Che cosa dovresti fare per studiare meglio?",
+     "es": "¿Qué deberías hacer para estudiar mejor?",
+     "authored": true
+    }
+   ],
+   "writing": {
+    "texto_es": "Escribe un texto de 40 a 60 palabras: explica a un amigo, con instrucciones, cómo se usa un aparato de tu casa (la cafetera, la lavadora, el microondas). Usa al menos 4 imperativos tú, y al menos 2 con pronombre (ponlo, ábrela: mettilo, aprila).",
+    "mensaje_es": "Escribe un mensaje de 25 a 50 palabras a un amigo: pídele un favor para el fin de semana (cuidar tus plantas o a tu gato) y dale dos instrucciones con imperativo (dammi, dimmi, aspettami, chiamami)."
+   },
+   "roleplays": [
+    {
+     "id": "rp_a2m08_a",
+     "title": "Pedir ayuda en una biblioteca",
+     "function_es": "Pedir información con fórmulas de cortesía (Lei)",
+     "reading": "rd_a2m08_a",
+     "from": 0,
+     "to": 11,
+     "goal_es": "Pedir ayuda con «scusi», hacer el carnet siguiendo las instrucciones del bibliotecario y preguntar dónde están los libros y cuánto cuestan las fotocopias."
+    },
+    {
+     "id": "rp_a2m08_b",
+     "title": "Pedir y dar un consejo",
+     "function_es": "Pedir un consejo y reaccionar a las sugerencias",
+     "reading": "rd_a2m08_b",
+     "from": 0,
+     "to": 10,
+     "goal_es": "Contar un problema, escuchar los consejos de un amigo (dovresti, potresti, ti consiglio di) y quedar para el sábado."
+    }
+   ],
+   "task": {
+    "id": "ht_a2m08",
+    "title": "Favores, consejos, instrucciones",
+    "function_es": "Pedir un favor, dar instrucciones y aconsejar",
+    "level": "A2",
+    "minutes": 2,
+    "intro_es": "Habla unos 2 minutos, sin leer. Usa el imperativo con pronombres (dammi, dimmi, aspettami, mettilo) y consejos con dovresti, potresti o ti consiglio di.",
+    "questions": [
+     {
+      "it": "Che favore vuoi chiedere a un amico per il fine settimana?",
+      "es": "¿Qué favor quieres pedirle a un amigo para el fin de semana?"
+     },
+     {
+      "it": "Come spieghi a un amico l'uso di un apparecchio di casa?",
+      "es": "¿Cómo le explicas a un amigo el uso de un aparato de tu casa?"
+     },
+     {
+      "it": "Un amico è stanco. Che consiglio gli dai?",
+      "es": "Un amigo está cansado. ¿Qué consejo le das?"
+     },
+     {
+      "it": "Come chiedi un'informazione a una persona che non conosci?",
+      "es": "¿Cómo pides una información a una persona que no conoces?"
+     }
+    ]
+   },
+   "readings": [
+    "rd_a2m08_entrada",
+    "ls_a2m08",
+    "doc_a2m08_cartelli",
+    "doc_a2m08_istruzioni",
+    "rd_a2m08_a",
+    "rd_a2m08_b"
+   ]
+  },
+  "a2m09": {
+   "interview": [
+    {
+     "id": "iq_a2m09_1",
+     "module": "a2m09",
+     "it": "Come vai di solito in centro? Quanto tempo ci vuole?",
+     "es": "¿Cómo vas normalmente al centro? ¿Cuánto tiempo se demora?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m09_2",
+     "module": "a2m09",
+     "it": "Quanto tempo ci metti per andare all'università o al lavoro?",
+     "es": "¿Cuánto te demoras en ir a la universidad o al trabajo?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m09_3",
+     "module": "a2m09",
+     "it": "Sei già stato in un'altra città? Ci vuoi tornare?",
+     "es": "¿Has estado en otra ciudad? ¿Quieres volver?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m09_4",
+     "module": "a2m09",
+     "it": "Che cosa chiedi alla reception di un albergo?",
+     "es": "¿Qué le pides a la recepción de un hotel?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m09_5",
+     "module": "a2m09",
+     "it": "Che cosa fai se il treno è in ritardo?",
+     "es": "¿Qué haces si el tren viene atrasado?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m09_6",
+     "module": "a2m09",
+     "it": "Che cosa metti nella valigia quando parti per un viaggio?",
+     "es": "¿Qué pones en la maleta cuando te vas de viaje?",
+     "authored": true
+    }
+   ],
+   "writing": {
+    "texto_es": "Escribe un texto de 40 a 60 palabras sobre un viaje que hiciste o quieres hacer: cómo llegas, cuánto tiempo ci vuole o ci metti y dónde te alojas. Usa al menos 3 veces «ci» de lugar o de tiempo (ci vado, ci vuole, ci metto, ci sono stato).",
+    "mensaje_es": "Escribe un mensaje de 25 a 50 palabras a un hotel: reserva una camera para dos noches, pregunta si el desayuno está incluido y a qué hora puedes llegar. Usa un trato formal (Lei)."
+   },
+   "roleplays": [
+    {
+     "id": "rp_a2m09_a",
+     "title": "Llegar a un hotel",
+     "function_es": "Hacer el check-in y pedir información",
+     "reading": "rd_a2m09_a",
+     "from": 0,
+     "to": 10,
+     "goal_es": "Decir a nombre de quién está la reserva, preguntar por el desayuno y por cuánto se demora al aeropuerto, y pedir un taxi."
+    },
+    {
+     "id": "rp_a2m09_b",
+     "title": "Un tren con retraso",
+     "function_es": "Informarse en la estación cuando hay un retraso",
+     "reading": "rd_a2m09_b",
+     "from": 0,
+     "to": 11,
+     "goal_es": "Preguntar por el retraso, la combinación y el andén, y confirmar dónde esperar y si el tren se detiene."
+    },
+    {
+     "id": "rp_a2m09_c",
+     "title": "Comprar un boleto de tren",
+     "function_es": "Comprar un boleto y preguntar cuánto se demora",
+     "reading": "rd_a2m09_entrada",
+     "from": 0,
+     "to": 13,
+     "goal_es": "Pedir un boleto de ida y vuelta, preguntar cuánto tiempo ci vuole, la hora de salida, el andén y si hay que cambiar."
+    }
+   ],
+   "task": {
+    "id": "ht_a2m09",
+    "title": "Viajar y alojarse",
+    "function_es": "Hablar de un viaje y resolver situaciones en la estación y el hotel",
+    "level": "A2",
+    "minutes": 2,
+    "intro_es": "Habla unos 2 minutos, sin leer. Usa «ci» de lugar (ci vado, ci sono stato), ci vuole / ci metto, y vocabulario de viaje y alojamiento (camera, binario, coincidenza, ritardo).",
+    "questions": [
+     {
+      "it": "Dove vuoi andare per le vacanze? Come ci vai?",
+      "es": "¿Adónde quieres ir de vacaciones? ¿Cómo vas?"
+     },
+     {
+      "it": "Quanto tempo ci vuole per arrivarci?",
+      "es": "¿Cuánto tiempo se demora en llegar?"
+     },
+     {
+      "it": "Che cosa dici alla reception quando arrivi in albergo?",
+      "es": "¿Qué dices en la recepción cuando llegas al hotel?"
+     },
+     {
+      "it": "Che cosa fai se perdi una coincidenza?",
+      "es": "¿Qué haces si pierdes una combinación?"
+     },
+     {
+      "it": "Che cosa dici quando rispondi al telefono?",
+      "es": "¿Qué dices cuando contestas el teléfono?"
+     }
+    ]
+   },
+   "readings": [
+    "rd_a2m09_entrada",
+    "ls_a2m09",
+    "doc_a2m09_orario",
+    "doc_a2m09_biglietto",
+    "doc_a2m09_email",
+    "rd_a2m09_a",
+    "rd_a2m09_b"
+   ]
+  },
+  "a2m10": {
+   "interview": [
+    {
+     "id": "iq_a2m10_1",
+     "module": "a2m10",
+     "it": "Secondo te, la tua città è un buon posto per vivere? Perché?",
+     "es": "En tu opinión, ¿tu ciudad es un buen lugar para vivir? ¿Por qué?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m10_2",
+     "module": "a2m10",
+     "it": "Che cosa fai quando hai il raffreddore?",
+     "es": "¿Qué haces cuando estás resfriado?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m10_3",
+     "module": "a2m10",
+     "it": "Che cosa dici al medico se ti fa male la gola?",
+     "es": "¿Qué le dices al médico si te duele la garganta?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m10_4",
+     "module": "a2m10",
+     "it": "Sei d'accordo con chi dice che il caffè fa male?",
+     "es": "¿Estás de acuerdo con quien dice que el café hace mal?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m10_5",
+     "module": "a2m10",
+     "it": "Credi di parlare bene l'italiano? Perché?",
+     "es": "¿Crees que hablas bien italiano? ¿Por qué?",
+     "authored": true
+    },
+    {
+     "id": "iq_a2m10_6",
+     "module": "a2m10",
+     "it": "Perché studi l'italiano? Per viaggiare, per lavorare?",
+     "es": "¿Por qué estudias italiano? ¿Para viajar, para trabajar?",
+     "authored": true
+    }
+   ],
+   "writing": {
+    "texto_es": "Escribe un texto de 40 a 60 palabras: cuenta que no te sientes bien (dos síntomas: mi fa male..., ho la...), qué piensas hacer y por qué. Usa al menos 2 de estas fórmulas: secondo me, credo di, penso di sì/no, e un «perché» o un «per + infinitivo».",
+    "mensaje_es": "Escribe un mensaje de 25 a 50 palabras a un amigo: propón un plan para el fin de semana y pídele su opinión (che ne pensi?). Usa «secondo me» o «credo di», y di cuándo y para qué."
+   },
+   "roleplays": [
+    {
+     "id": "rp_a2m10_a",
+     "title": "En la consulta del médico",
+     "function_es": "Describir síntomas simples y recibir un consejo",
+     "reading": "rd_a2m10_a",
+     "from": 0,
+     "to": 10,
+     "goal_es": "Decir qué te duele, desde cuándo y si tienes fiebre, y preguntar qué debes hacer y si puedes ir al trabajo."
+    },
+    {
+     "id": "rp_a2m10_b",
+     "title": "Opinar sobre un plan",
+     "function_es": "Dar una opinión y ponerse de acuerdo",
+     "reading": "rd_a2m10_b",
+     "from": 0,
+     "to": 10,
+     "goal_es": "Dar tu opinión sobre el paseo al lago, estar o no de acuerdo y acordar el medio de transporte y los horarios."
+    }
+   ],
+   "task": {
+    "id": "ht_a2m10",
+    "title": "Salud, opiniones y planes",
+    "function_es": "Hablar de un malestar simple y dar una opinión",
+    "level": "A2",
+    "minutes": 2,
+    "intro_es": "Habla unos 2 minutos, sin leer. Usa síntomas simples (mi fa male la gola, ho la febbre), opiniones sin congiuntivo (secondo me, credo di, penso di sì, sono d'accordo) y perché / quando / per + infinitivo.",
+    "questions": [
+     {
+      "it": "Come stai oggi? Hai qualche problema di salute?",
+      "es": "¿Cómo estás hoy? ¿Tienes algún problema de salud?"
+     },
+     {
+      "it": "Che cosa dici in farmacia se hai il raffreddore?",
+      "es": "¿Qué dices en la farmacia si estás resfriado?"
+     },
+     {
+      "it": "Che ne pensi di fare una gita il fine settimana?",
+      "es": "¿Qué piensas de hacer un paseo el fin de semana?"
+     },
+     {
+      "it": "Con quale opinione sei d'accordo? Con quale no? Perché?",
+      "es": "¿Con qué opinión estás de acuerdo? ¿Con cuál no? ¿Por qué?"
+     }
+    ]
+   },
+   "readings": [
+    "ls_a2m10",
+    "doc_a2m10_annuncio",
+    "rd_a2m10_a",
+    "rd_a2m10_b"
+   ]
+  }
+ },
+ "hito": {
+  "tasks": [
+   {
+    "id": "ht_a2hito_01",
+    "title": "Il fine settimana",
+    "function_es": "Contar un fin de semana pasado y hablar de planes",
+    "level": "A2",
+    "minutes": 3,
+    "intro_es": "Conversación guiada de 2 a 3 minutos. Responde en voz alta a cada pregunta con frases simples: pasado con avere/essere, imperfetto para describir y futuro para los planes.",
+    "questions": [
+     {
+      "it": "Cosa hai fatto lo scorso fine settimana?",
+      "es": "¿Qué hiciste el fin de semana pasado?"
+     },
+     {
+      "it": "Dove sei andato/a e con chi?",
+      "es": "¿Adónde fuiste y con quién?"
+     },
+     {
+      "it": "Com'era il tempo? Cosa c'era di bello?",
+      "es": "¿Cómo estaba el tiempo? ¿Qué había de lindo?"
+     },
+     {
+      "it": "Ti è piaciuto? Perché?",
+      "es": "¿Te gustó? ¿Por qué?"
+     },
+     {
+      "it": "Cosa farai il prossimo fine settimana?",
+      "es": "¿Qué harás el próximo fin de semana?"
+     },
+     {
+      "it": "Vuoi invitare un amico? Come lo inviti?",
+      "es": "¿Quieres invitar a un amigo? ¿Cómo lo invitas?"
+     }
+    ]
+   },
+   {
+    "id": "ht_a2hito_02",
+    "title": "Ieri e oggi",
+    "function_es": "Describir una situación del pasado y hacer una comparación",
+    "level": "A2",
+    "minutes": 2,
+    "intro_es": "Monólogo de 2 minutos. Describe cómo era un lugar o tu vida cuando eras más joven y compáralo con hoy. Usa el imperfetto para describir, el passato prossimo para un hecho y «più… di» o «meno… di» para comparar.",
+    "questions": [
+     {
+      "it": "Dove abitavi da piccolo/a? Com'era la tua casa?",
+      "es": "¿Dónde vivías de pequeño/a? ¿Cómo era tu casa?"
+     },
+     {
+      "it": "Cosa facevi di solito dopo la scuola?",
+      "es": "¿Qué hacías normalmente después del colegio?"
+     },
+     {
+      "it": "Un giorno è successo qualcosa di speciale. Cosa è successo?",
+      "es": "Un día pasó algo especial. ¿Qué pasó?"
+     },
+     {
+      "it": "Com'è la tua vita oggi? È più facile o più difficile?",
+      "es": "¿Cómo es tu vida hoy? ¿Es más fácil o más difícil?"
+     },
+     {
+      "it": "Qual è meglio, secondo te: la città o il paese?",
+      "es": "¿Cuál es mejor, según tú: la ciudad o el pueblo?"
+     }
+    ]
+   }
+  ],
+  "readings": [
+   "rd_a2hito_relato",
+   "rd_a2hito_email",
+   "rd_a2hito_avviso",
+   "ls_a2hito_01",
+   "ls_a2hito_02"
+  ]
+ }
+}

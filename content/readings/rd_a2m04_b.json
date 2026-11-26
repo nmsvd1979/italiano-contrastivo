@@ -1,0 +1,125 @@
+{
+  "id": "rd_a2m04_b",
+  "title": "Chi ha comprato il pane?",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo breve escrito por la IA: dos compañeros ordenan las compras; ejemplifica lo/la/li/le con passato prossimo, gli/le y ne.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2m04_b_00",
+      "it": "Chi ha comprato il pane? Non lo trovo.",
+      "es": "¿Quién compró el pan? No lo encuentro.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_a2m04_b_01",
+      "it": "L'ho comprato io stamattina. È nella borsa.",
+      "es": "Lo compré yo esta mañana. Está en la bolsa.",
+      "speaker": "Davide"
+    },
+    {
+      "id": "rd_a2m04_b_02",
+      "it": "Non vedo la borsa. Dov'è?",
+      "es": "No veo la bolsa. ¿Dónde está?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_a2m04_b_03",
+      "it": "L'ho messa sul divano.",
+      "es": "La puse sobre el sofá.",
+      "speaker": "Davide"
+    },
+    {
+      "id": "rd_a2m04_b_04",
+      "it": "Ah, eccola! Hai comprato anche il formaggio? Vorrei mangiarlo con il pane.",
+      "es": "¡Ah, aquí está! ¿Compraste también el queso? Quisiera comerlo con el pan.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_a2m04_b_05",
+      "it": "Sì, l'ho comprato. Ne ho preso un pezzo grande.",
+      "es": "Sí, lo compré. Tomé un trozo grande.",
+      "speaker": "Davide"
+    },
+    {
+      "id": "rd_a2m04_b_06",
+      "it": "E i biscotti? Li hai presi?",
+      "es": "¿Y las galletas? ¿Las compraste?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_a2m04_b_07",
+      "it": "Sì, li ho presi. Li ho comprati per Luca.",
+      "es": "Sí, las compré. Las compré para Luca.",
+      "speaker": "Davide"
+    },
+    {
+      "id": "rd_a2m04_b_08",
+      "it": "Perfetto. Gli scrivo che la cena è pronta.",
+      "es": "Perfecto. Le escribo que la cena está lista.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_a2m04_b_09",
+      "it": "Bene. E Sara? Le hai scritto?",
+      "es": "Bien. ¿Y Sara? ¿Le has escrito?",
+      "speaker": "Davide"
+    },
+    {
+      "id": "rd_a2m04_b_10",
+      "it": "Sì, le ho scritto prima. Arriva alle otto.",
+      "es": "Sí, le escribí antes. Llega a las ocho.",
+      "speaker": "Elena"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Quién compró el pan?",
+      "options": [
+        "Elena",
+        "Davide",
+        "Luca"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Dónde está la bolsa?",
+      "options": [
+        "Sobre el sofá",
+        "En la cocina",
+        "En el auto"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Para quién compró las galletas?",
+      "options": [
+        "Para Sara",
+        "Para Elena",
+        "Para Luca"
+      ],
+      "answer": 2,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿A qué hora llega Sara?",
+      "options": [
+        "A las siete",
+        "A las ocho",
+        "A las nueve"
+      ],
+      "answer": 1,
+      "evidence": 10
+    }
+  ]
+}

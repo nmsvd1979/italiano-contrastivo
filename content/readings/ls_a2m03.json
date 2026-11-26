@@ -1,0 +1,160 @@
+{
+  "id": "ls_a2m03",
+  "title": "Una anécdota por teléfono",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Escucha original: una persona cuenta a otra una anécdota; se apoya en frases típicas de relato (a un tratto, all'improvviso, mentre, di solito).",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "questions": [
+    {
+      "prompt_es": "¿Por qué Marco perdió el tren?",
+      "options": [
+        "Había mucha gente en la estación.",
+        "Se despertó tarde.",
+        "Su colega llegó tarde."
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Qué le pasó mientras iba a la estación?",
+      "options": [
+        "Perdió el teléfono.",
+        "Se le cayó la bolsa.",
+        "Vio un accidente."
+      ],
+      "answer": 1,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿A quién vio Marco de repente?",
+      "options": [
+        "A un colega, Paolo.",
+        "A Anna.",
+        "A un taxista."
+      ],
+      "answer": 0,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿A qué hora llegó Marco a la oficina?",
+      "options": [
+        "A las ocho.",
+        "A las nueve y cuarto.",
+        "A las tres."
+      ],
+      "answer": 1,
+      "evidence": 12
+    },
+    {
+      "prompt_es": "¿Qué propone Marco al final?",
+      "options": [
+        "Ir a la oficina juntos.",
+        "Llamar a Paolo.",
+        "Encontrarse en el bar a las tres."
+      ],
+      "answer": 2,
+      "evidence": 14
+    }
+  ],
+  "listen": true,
+  "sentences": [
+    {
+      "id": "ls_a2m03_00",
+      "it": "Anna, ieri ho perso il treno!",
+      "es": "Anna, ayer perdí el tren.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m03_01",
+      "it": "Davvero? Raccontami tutto.",
+      "es": "¿De verdad? Cuéntamelo todo.",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_a2m03_02",
+      "it": "Di solito mi svegliavo alle sei. Ieri ho dormito fino alle sette.",
+      "es": "Normalmente me despertaba a las seis, pero ayer dormí hasta las siete.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m03_03",
+      "it": "Allora che cosa hai fatto?",
+      "es": "Entonces, ¿qué hiciste?",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_a2m03_04",
+      "it": "Mentre andavo alla stazione, a un tratto mi è caduta la borsa.",
+      "es": "Mientras iba a la estación, de pronto se me cayó la bolsa.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m03_05",
+      "it": "Oh no! C'era molta gente?",
+      "es": "¡Ay, no! ¿Había mucha gente?",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_a2m03_06",
+      "it": "Sì, c'era tanta gente e nessuno mi ha aiutato.",
+      "es": "Sí, había mucha gente y nadie me ayudó.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m03_07",
+      "it": "E poi? Hai preso un altro treno?",
+      "es": "¿Y después? ¿Tomaste otro tren?",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_a2m03_08",
+      "it": "All'improvviso ho visto Paolo. Aspettava un taxi.",
+      "es": "De repente vi a Paolo. Esperaba un taxi.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m03_09",
+      "it": "Paolo, il tuo collega?",
+      "es": "¿Paolo, tu colega?",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_a2m03_10",
+      "it": "Sì. Mi ha dato un passaggio in macchina.",
+      "es": "Sí. Me llevó en su auto.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m03_11",
+      "it": "Che fortuna! Sei arrivato in tempo?",
+      "es": "¡Qué suerte! ¿Llegaste a tiempo?",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_a2m03_12",
+      "it": "Quasi. Sono arrivato in ufficio alle nove e un quarto.",
+      "es": "Casi. Llegué a la oficina a las nueve y cuarto.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m03_13",
+      "it": "Dopo questa avventura meriti un caffè!",
+      "es": "¡Después de esta aventura te mereces un café!",
+      "speaker": "Anna"
+    },
+    {
+      "id": "ls_a2m03_14",
+      "it": "Infatti! Ti aspetto al bar alle tre.",
+      "es": "¡Claro que sí! Te espero en el bar a las tres.",
+      "speaker": "Marco"
+    }
+  ]
+}

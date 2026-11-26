@@ -1,0 +1,135 @@
+{
+  "id": "rd_a2m10_a",
+  "title": "Dal medico",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo propio en la consulta de un médico (trato formal): síntomas básicos y consejo, escrito por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2m10_a_00",
+      "it": "Buongiorno. Come sta?",
+      "es": "Buenos días. ¿Cómo está?",
+      "speaker": "Medico"
+    },
+    {
+      "id": "rd_a2m10_a_01",
+      "it": "Non molto bene. Mi fa male la gola.",
+      "es": "No muy bien. Me duele la garganta.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_a2m10_a_02",
+      "it": "Da quando ha questo problema?",
+      "es": "¿Desde cuándo tiene este problema?",
+      "speaker": "Medico"
+    },
+    {
+      "id": "rd_a2m10_a_03",
+      "it": "Da tre giorni. Ho la febbre e la tosse.",
+      "es": "Desde hace tres días. Tengo fiebre y tos.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_a2m10_a_04",
+      "it": "Quanti gradi ha?",
+      "es": "¿Cuántos grados tiene?",
+      "speaker": "Medico"
+    },
+    {
+      "id": "rd_a2m10_a_05",
+      "it": "Ieri sera avevo trentotto. Mi fa male anche la testa.",
+      "es": "Anoche tenía treinta y ocho. También me duele la cabeza.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_a2m10_a_06",
+      "it": "Non è niente di grave. Ha un forte raffreddore.",
+      "es": "No es nada grave. Tiene un resfriado fuerte.",
+      "speaker": "Medico"
+    },
+    {
+      "id": "rd_a2m10_a_07",
+      "it": "Che cosa devo fare, dottore?",
+      "es": "¿Qué tengo que hacer, doctor?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_a2m10_a_08",
+      "it": "Stia a casa, beva tanto tè caldo e riposi.",
+      "es": "Quédese en casa, beba mucho té caliente y descanse.",
+      "speaker": "Medico"
+    },
+    {
+      "id": "rd_a2m10_a_09",
+      "it": "Posso andare al lavoro domani?",
+      "es": "¿Puedo ir al trabajo mañana?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_a2m10_a_10",
+      "it": "Secondo me, no. Aspetti due giorni.",
+      "es": "En mi opinión, no. Espere dos días.",
+      "speaker": "Medico"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué le duele a Elena, además de la cabeza?",
+      "options": [
+        "El estómago",
+        "La garganta",
+        "La espalda"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Desde cuándo tiene el problema?",
+      "options": [
+        "Desde hace tres días",
+        "Desde ayer",
+        "Desde hace una semana"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Qué temperatura tenía anoche?",
+      "options": [
+        "37",
+        "38",
+        "39"
+      ],
+      "answer": 1,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Qué tiene Elena, según el médico?",
+      "options": [
+        "Un resfriado fuerte",
+        "Algo grave",
+        "Una alergia"
+      ],
+      "answer": 0,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Qué le aconseja el médico?",
+      "options": [
+        "Ir a trabajar",
+        "Quedarse en casa dos días",
+        "Tomar jarabe"
+      ],
+      "answer": 1,
+      "evidence": 10
+    }
+  ]
+}

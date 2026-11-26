@@ -1,0 +1,160 @@
+{
+  "id": "ls_a2m07",
+  "title": "Il tempo del fine settimana",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Conversación propia entre dos amigos que comentan el pronóstico del tiempo y planean el fin de semana, escrita por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "ls_a2m07_00",
+      "it": "Hai visto le previsioni per sabato?",
+      "es": "¿Viste el pronóstico para el sábado?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2m07_01",
+      "it": "Sì. Sabato pioverà tutto il giorno.",
+      "es": "Sí. El sábado lloverá todo el día.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "ls_a2m07_02",
+      "it": "Peccato. Domenica invece ci sarà il sole.",
+      "es": "Qué lástima. En cambio el domingo habrá sol.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2m07_03",
+      "it": "Allora andremo al lago domenica.",
+      "es": "Entonces iremos al lago el domingo.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "ls_a2m07_04",
+      "it": "Bene! Se piove sabato, resto a casa.",
+      "es": "¡Bien! Si llueve el sábado, me quedo en casa.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2m07_05",
+      "it": "Se resti a casa, vengo da te.",
+      "es": "Si te quedas en casa, voy a verte.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "ls_a2m07_06",
+      "it": "Certo! Cucinerò io. Verrai verso le sei?",
+      "es": "¡Claro! Cocinaré yo. ¿Vendrás hacia las seis?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2m07_07",
+      "it": "Sì, verrò alle sei con un film.",
+      "es": "Sí, iré a las seis con una película.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "ls_a2m07_08",
+      "it": "Perfetto. E domenica a che ora partiamo?",
+      "es": "Perfecto. ¿Y el domingo a qué hora salimos?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2m07_09",
+      "it": "Alle otto. Domenica mattina sarò puntuale, promesso!",
+      "es": "A las ocho. El domingo en la mañana seré puntual, ¡prometido!",
+      "speaker": "Luca"
+    },
+    {
+      "id": "ls_a2m07_10",
+      "it": "Quanti gradi ci saranno? Avrò freddo?",
+      "es": "¿Cuántos grados habrá? ¿Tendré frío?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2m07_11",
+      "it": "Dodici la mattina e diciotto nel pomeriggio.",
+      "es": "Doce en la mañana y dieciocho en la tarde.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "ls_a2m07_12",
+      "it": "Allora porterò una giacca.",
+      "es": "Entonces llevaré una chaqueta.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2m07_13",
+      "it": "Io porterò il pane e il formaggio.",
+      "es": "Yo llevaré el pan y el queso.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "ls_a2m07_14",
+      "it": "Ottimo, ci vediamo domenica!",
+      "es": "¡Excelente, nos vemos el domingo!",
+      "speaker": "Giulia"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué tiempo hará el sábado?",
+      "options": [
+        "Sol",
+        "Lluvia todo el día",
+        "Viento"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Adónde irán el domingo?",
+      "options": [
+        "Al cine",
+        "A la montaña",
+        "Al lago"
+      ],
+      "answer": 2,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Qué hará Luca el sábado?",
+      "options": [
+        "Irá a casa de Giulia a las seis",
+        "Cocinará en su casa",
+        "Irá al lago"
+      ],
+      "answer": 0,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿A qué hora saldrán el domingo?",
+      "options": [
+        "A las seis",
+        "A las ocho",
+        "A las doce"
+      ],
+      "answer": 1,
+      "evidence": 9
+    },
+    {
+      "prompt_es": "¿Qué temperatura habrá en la mañana?",
+      "options": [
+        "Dieciocho grados",
+        "Doce grados",
+        "Veinte grados"
+      ],
+      "answer": 1,
+      "evidence": 11
+    }
+  ],
+  "listen": true
+}

@@ -1,0 +1,119 @@
+{
+  "id": "doc_a2m08_istruzioni",
+  "title": "Come usare la macchina del caffè",
+  "level": "A2",
+  "kind": "lectura",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Instrucciones propias de uso de una cafetera de cápsulas (imperativo tu), escritas por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "doc_a2m08_istruzioni_00",
+      "it": "Prima di tutto, riempi il serbatoio con acqua fresca.",
+      "es": "Antes que nada, llena el depósito con agua fresca."
+    },
+    {
+      "id": "doc_a2m08_istruzioni_01",
+      "it": "Metti una capsula nel cassetto e chiudilo.",
+      "es": "Pon una cápsula en el cajón y ciérralo."
+    },
+    {
+      "id": "doc_a2m08_istruzioni_02",
+      "it": "Metti una tazza sotto l'erogatore.",
+      "es": "Pon una taza bajo el surtidor."
+    },
+    {
+      "id": "doc_a2m08_istruzioni_03",
+      "it": "Premi il tasto con il simbolo della tazza.",
+      "es": "Aprieta el botón con el símbolo de la taza."
+    },
+    {
+      "id": "doc_a2m08_istruzioni_04",
+      "it": "Aspetta trenta secondi e non toccare la macchina.",
+      "es": "Espera treinta segundos y no toques la máquina."
+    },
+    {
+      "id": "doc_a2m08_istruzioni_05",
+      "it": "Quando la luce diventa verde, il caffè è pronto.",
+      "es": "Cuando la luz se pone verde, el café está listo."
+    },
+    {
+      "id": "doc_a2m08_istruzioni_06",
+      "it": "Dopo l'uso, togli la capsula e buttala.",
+      "es": "Después de usarla, saca la cápsula y bótala."
+    },
+    {
+      "id": "doc_a2m08_istruzioni_07",
+      "it": "Non mettere acqua calda nel serbatoio.",
+      "es": "No pongas agua caliente en el depósito."
+    },
+    {
+      "id": "doc_a2m08_istruzioni_08",
+      "it": "Ogni settimana, pulisci l'erogatore con un panno.",
+      "es": "Cada semana, limpia el surtidor con un paño."
+    },
+    {
+      "id": "doc_a2m08_istruzioni_09",
+      "it": "Se la luce è rossa, spegni la macchina e riaccendila.",
+      "es": "Si la luz es roja, apaga la máquina y vuelve a encenderla."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Con qué hay que llenar el depósito?",
+      "options": [
+        "Con café",
+        "Con agua fresca",
+        "Con agua caliente"
+      ],
+      "answer": 1,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Dónde se pone la cápsula?",
+      "options": [
+        "En el cajón",
+        "Bajo la taza",
+        "En el depósito"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Cuándo está listo el café?",
+      "options": [
+        "Cuando suena una alarma",
+        "Cuando la luz se pone verde",
+        "A los diez minutos"
+      ],
+      "answer": 1,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Qué hay que hacer si la luz es roja?",
+      "options": [
+        "Seguir esperando",
+        "Apagar la máquina y encenderla otra vez",
+        "Llamar al técnico"
+      ],
+      "answer": 1,
+      "evidence": 9
+    },
+    {
+      "prompt_es": "¿Con qué se limpia el surtidor?",
+      "options": [
+        "Con un paño",
+        "Con una esponja",
+        "Con agua caliente"
+      ],
+      "answer": 0,
+      "evidence": 8
+    }
+  ]
+}

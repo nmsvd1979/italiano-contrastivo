@@ -1,0 +1,83 @@
+{
+  "id": "doc_a2m06_orari",
+  "title": "Orari dell'ufficio postale",
+  "level": "A2",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Cartel propio de horarios de una oficina de correos, escrito por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿Hasta qué hora está abierto de lunes a viernes?",
+      "options": [
+        "Hasta las 12.30",
+        "Hasta las 14.00",
+        "Hasta las 13.00"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Qué día está cerrado?",
+      "options": [
+        "El sábado",
+        "El viernes",
+        "El domingo"
+      ],
+      "answer": 2
+    },
+    {
+      "prompt_es": "¿Dónde se retiran los paquetes?",
+      "options": [
+        "Ventanilla 3, primer piso",
+        "Ventanilla 1, planta baja",
+        "Ventanilla 5"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Cuántas ventanillas atienden el sábado?",
+      "options": [
+        "Dos",
+        "Cinco",
+        "Una"
+      ],
+      "answer": 0
+    }
+  ],
+  "table": {
+    "head": [
+      "Giorno",
+      "Orario",
+      "Dove"
+    ],
+    "rows": [
+      [
+        "Lunedì – Venerdì",
+        "8.30 – 14.00",
+        "Sportelli 1–5"
+      ],
+      [
+        "Sabato",
+        "8.30 – 12.30",
+        "Solo sportelli 1 e 2"
+      ],
+      [
+        "Domenica",
+        "Chiuso",
+        "—"
+      ],
+      [
+        "Pacchi",
+        "8.30 – 13.00",
+        "Sportello 3, primo piano"
+      ]
+    ]
+  }
+}

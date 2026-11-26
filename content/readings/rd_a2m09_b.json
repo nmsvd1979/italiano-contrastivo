@@ -1,0 +1,141 @@
+{
+  "id": "rd_a2m09_b",
+  "title": "Un treno in ritardo",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo propio en una estación (trato formal): retraso, combinación y falsos amigos (aspettare/sperare, guardare), escrito por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2m09_b_00",
+      "it": "Scusi, il treno per Bologna è in ritardo?",
+      "es": "Disculpe, ¿el tren a Bolonia viene atrasado?",
+      "speaker": "Matteo"
+    },
+    {
+      "id": "rd_a2m09_b_01",
+      "it": "Sì, ha venti minuti di ritardo. Mi dispiace.",
+      "es": "Sí, tiene veinte minutos de atraso. Lo siento.",
+      "speaker": "Impiegata"
+    },
+    {
+      "id": "rd_a2m09_b_02",
+      "it": "Ho una coincidenza a Bologna alle undici. La perdo?",
+      "es": "Tengo una combinación en Bolonia a las once. ¿La pierdo?",
+      "speaker": "Matteo"
+    },
+    {
+      "id": "rd_a2m09_b_03",
+      "it": "Forse no. Il treno per Venezia parte alle undici e dieci.",
+      "es": "Quizá no. El tren a Venecia sale a las once y diez.",
+      "speaker": "Impiegata"
+    },
+    {
+      "id": "rd_a2m09_b_04",
+      "it": "Da quale binario parte?",
+      "es": "¿De qué andén sale?",
+      "speaker": "Matteo"
+    },
+    {
+      "id": "rd_a2m09_b_05",
+      "it": "Guardi il tabellone. Di solito parte dal binario cinque.",
+      "es": "Mire el tablero. Por lo general sale del andén cinco.",
+      "speaker": "Impiegata"
+    },
+    {
+      "id": "rd_a2m09_b_06",
+      "it": "Quanto tempo ci vuole dal binario due al cinque?",
+      "es": "¿Cuánto se demora del andén dos al cinco?",
+      "speaker": "Matteo"
+    },
+    {
+      "id": "rd_a2m09_b_07",
+      "it": "Ci vogliono cinque minuti.",
+      "es": "Se demora cinco minutos.",
+      "speaker": "Impiegata"
+    },
+    {
+      "id": "rd_a2m09_b_08",
+      "it": "Spero di arrivare in tempo. Aspetto qui?",
+      "es": "Espero llegar a tiempo. ¿Espero aquí?",
+      "speaker": "Matteo"
+    },
+    {
+      "id": "rd_a2m09_b_09",
+      "it": "Sì, aspetti vicino al binario due.",
+      "es": "Sí, espere cerca del andén dos.",
+      "speaker": "Impiegata"
+    },
+    {
+      "id": "rd_a2m09_b_10",
+      "it": "Il treno si ferma a Modena?",
+      "es": "¿El tren se detiene en Módena?",
+      "speaker": "Matteo"
+    },
+    {
+      "id": "rd_a2m09_b_11",
+      "it": "Sì, due minuti. Salga subito, il treno parte presto.",
+      "es": "Sí, dos minutos. Suba de inmediato, el tren sale pronto.",
+      "speaker": "Impiegata"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cuánto atraso tiene el tren a Bolonia?",
+      "options": [
+        "Diez minutos",
+        "Veinte minutos",
+        "Una hora"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿A qué hora sale el tren de la combinación?",
+      "options": [
+        "A las once",
+        "A las once y diez",
+        "A las doce"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Qué debe mirar Matteo para saber el andén?",
+      "options": [
+        "El tablero",
+        "El boleto",
+        "Su teléfono"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Cuánto se demora entre los andenes dos y cinco?",
+      "options": [
+        "Dos minutos",
+        "Cinco minutos",
+        "Diez minutos"
+      ],
+      "answer": 1,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Dónde debe esperar Matteo?",
+      "options": [
+        "Cerca del andén dos",
+        "En el bar",
+        "Frente a la boletería"
+      ],
+      "answer": 0,
+      "evidence": 9
+    }
+  ]
+}

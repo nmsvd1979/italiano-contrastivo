@@ -1,0 +1,111 @@
+{
+  "id": "doc_a2m10_annuncio",
+  "title": "Annuncio: appartamento in affitto",
+  "level": "A2",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Anuncio inmobiliario propio de un apartamento en arriendo, escrito por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿Cuánto cuesta el arriendo al mes?",
+      "options": [
+        "750 euros",
+        "570 euros",
+        "1.050 euros"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿En qué piso está el apartamento?",
+      "options": [
+        "En el tercero, con ascensor",
+        "En el primero, sin ascensor",
+        "En la planta baja"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Cuántos metros cuadrados tiene?",
+      "options": [
+        "56",
+        "65",
+        "75"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Se aceptan animales?",
+      "options": [
+        "Sí, solo gatos",
+        "Sí, todos",
+        "No"
+      ],
+      "answer": 2
+    },
+    {
+      "prompt_es": "¿Desde cuándo está disponible?",
+      "options": [
+        "Desde el 1 de marzo",
+        "Desde el 1 de mayo",
+        "Desde hoy"
+      ],
+      "answer": 0
+    }
+  ],
+  "table": {
+    "head": [
+      "Caratteristica",
+      "Dettaglio"
+    ],
+    "rows": [
+      [
+        "Tipo",
+        "Appartamento in affitto"
+      ],
+      [
+        "Zona",
+        "Centro, vicino alla stazione"
+      ],
+      [
+        "Metri quadri",
+        "65"
+      ],
+      [
+        "Locali",
+        "Due camere, cucina e bagno"
+      ],
+      [
+        "Piano",
+        "Terzo, con ascensore"
+      ],
+      [
+        "Prezzo",
+        "750 euro al mese"
+      ],
+      [
+        "Spese",
+        "Non incluse"
+      ],
+      [
+        "Disponibile",
+        "Dal primo marzo"
+      ],
+      [
+        "Animali",
+        "Non ammessi"
+      ],
+      [
+        "Contatto",
+        "Scrivere a casa.centro@example.it"
+      ]
+    ]
+  }
+}

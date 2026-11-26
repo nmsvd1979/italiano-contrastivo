@@ -1,0 +1,119 @@
+{
+  "id": "rd_a2m04_a",
+  "title": "Dov'è il mio libro? L'hai visto?",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo breve escrito por la IA: dos compañeros buscan un libro y unas llaves; ejemplifica lo/la/le directos y el pronombre pegado.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2m04_a_00",
+      "it": "Marco, dov'è il mio libro? L'hai visto?",
+      "es": "Marco, ¿dónde está mi libro? ¿Lo has visto?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_a2m04_a_01",
+      "it": "Il libro rosso?",
+      "es": "¿El libro rojo?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m04_a_02",
+      "it": "Sì, l'ho lasciato sul tavolo ieri.",
+      "es": "Sí, lo dejé sobre la mesa ayer.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_a2m04_a_03",
+      "it": "Non lo vedo. Hai guardato in camera?",
+      "es": "No lo veo. ¿Has mirado en el cuarto?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m04_a_04",
+      "it": "Sì, l'ho cercato ovunque. Non lo trovo.",
+      "es": "Sí, lo busqué por todas partes. No lo encuentro.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_a2m04_a_05",
+      "it": "Forse l'ha preso Anna. Puoi chiamarla?",
+      "es": "Quizás lo tomó Anna. ¿Puedes llamarla?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m04_a_06",
+      "it": "Sì, la chiamo subito.",
+      "es": "Sí, la llamo ahora mismo.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_a2m04_a_07",
+      "it": "Intanto cerco anche io. Hai visto le mie chiavi?",
+      "es": "Mientras tanto busco yo también. ¿Has visto mis llaves?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m04_a_08",
+      "it": "Sì, le ho viste in cucina.",
+      "es": "Sí, las vi en la cocina.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_a2m04_a_09",
+      "it": "Grazie! Le prendo e vado.",
+      "es": "¡Gracias! Las tomo y me voy.",
+      "speaker": "Marco"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué busca Giulia?",
+      "options": [
+        "Su libro",
+        "Sus llaves",
+        "Su teléfono"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Dónde dejó el libro?",
+      "options": [
+        "En la cocina",
+        "En el cuarto",
+        "Sobre la mesa"
+      ],
+      "answer": 2,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Quién pudo haberlo tomado?",
+      "options": [
+        "Elena",
+        "Anna",
+        "Luca"
+      ],
+      "answer": 1,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Dónde están las llaves de Marco?",
+      "options": [
+        "En el cuarto",
+        "En la mesa",
+        "En la cocina"
+      ],
+      "answer": 2,
+      "evidence": 8
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "rd_a2hito_avviso",
+  "title": "Regole della biblioteca",
+  "kind": "lectura",
+  "level": "A2",
+  "authored": true,
+  "exam": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Aviso con el reglamento de una biblioteca (tipo PLIDA A2), escrito por la IA; examen de hito.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2hito_avviso_00",
+      "it": "Benvenuti nella biblioteca comunale!",
+      "es": "¡Bienvenidos a la biblioteca municipal!"
+    },
+    {
+      "id": "rd_a2hito_avviso_01",
+      "it": "È aperta dal lunedì al sabato, dalle nove alle sei.",
+      "es": "Está abierta de lunes a sábado, de nueve a seis."
+    },
+    {
+      "id": "rd_a2hito_avviso_02",
+      "it": "La domenica è chiusa.",
+      "es": "Los domingos está cerrada."
+    },
+    {
+      "id": "rd_a2hito_avviso_03",
+      "it": "Puoi prendere in prestito tre libri per volta.",
+      "es": "Puedes llevarte prestados tres libros a la vez."
+    },
+    {
+      "id": "rd_a2hito_avviso_04",
+      "it": "Devi restituire i libri entro trenta giorni.",
+      "es": "Debes devolver los libros en un plazo de treinta días."
+    },
+    {
+      "id": "rd_a2hito_avviso_05",
+      "it": "Se sei in ritardo, devi pagare un euro al giorno.",
+      "es": "Si te atrasas, debes pagar un euro por día."
+    },
+    {
+      "id": "rd_a2hito_avviso_06",
+      "it": "Non parlare ad alta voce nella sala di lettura.",
+      "es": "No hables en voz alta en la sala de lectura."
+    },
+    {
+      "id": "rd_a2hito_avviso_07",
+      "it": "Non mangiare e non bere vicino ai libri.",
+      "es": "No comas ni bebas cerca de los libros."
+    },
+    {
+      "id": "rd_a2hito_avviso_08",
+      "it": "Il sabato mattina ci sono letture per i bambini.",
+      "es": "Los sábados en la mañana hay lecturas para niños."
+    },
+    {
+      "id": "rd_a2hito_avviso_09",
+      "it": "Per ogni domanda, chiedi in biblioteca.",
+      "es": "Para cualquier duda, pregunta en la biblioteca."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué día está cerrada la biblioteca?",
+      "options": [
+        "El sábado",
+        "El lunes",
+        "El domingo"
+      ],
+      "answer": 2,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Cuántos libros puedes llevarte?",
+      "options": [
+        "Tres",
+        "Cinco",
+        "Treinta"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta un día de atraso?",
+      "options": [
+        "Tres euros",
+        "Un euro",
+        "Treinta euros"
+      ],
+      "answer": 1,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Qué está prohibido en la sala de lectura?",
+      "options": [
+        "Leer",
+        "Hablar fuerte",
+        "Entrar con niños"
+      ],
+      "answer": 1,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Cuándo hay lecturas para niños?",
+      "options": [
+        "El sábado en la mañana",
+        "El domingo",
+        "El lunes en la tarde"
+      ],
+      "answer": 0,
+      "evidence": 8
+    }
+  ]
+}

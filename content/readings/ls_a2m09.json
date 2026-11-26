@@ -1,0 +1,155 @@
+{
+  "id": "ls_a2m09",
+  "title": "Un treno in ritardo, un albergo",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Escucha propia: un viajero llama al hotel desde la estación y cita el aviso del retraso, escrita por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "ls_a2m09_00",
+      "it": "Hotel Aurora, buongiorno.",
+      "es": "Hotel Aurora, buenos días.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m09_01",
+      "it": "Buongiorno, sono Davide Rossi. Ho una camera per stasera.",
+      "es": "Buenos días, soy Davide Rossi. Tengo una habitación para esta noche.",
+      "speaker": "Davide"
+    },
+    {
+      "id": "ls_a2m09_02",
+      "it": "Sì, una camera doppia. A che ora arriva?",
+      "es": "Sí, una habitación doble. ¿A qué hora llega?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m09_03",
+      "it": "Sono in stazione, ma il treno è in ritardo.",
+      "es": "Estoy en la estación, pero el tren viene atrasado.",
+      "speaker": "Davide"
+    },
+    {
+      "id": "ls_a2m09_04",
+      "it": "Quanto ritardo ha?",
+      "es": "¿Cuánto atraso tiene?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m09_05",
+      "it": "Un momento. L'annuncio dice venti minuti.",
+      "es": "Un momento. El aviso dice veinte minutos.",
+      "speaker": "Davide"
+    },
+    {
+      "id": "ls_a2m09_06",
+      "it": "Va bene. Come viene in albergo?",
+      "es": "Está bien. ¿Cómo viene al hotel?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m09_07",
+      "it": "Ci vengo a piedi. Quanto tempo ci vuole?",
+      "es": "Voy a pie. ¿Cuánto tiempo se demora?",
+      "speaker": "Davide"
+    },
+    {
+      "id": "ls_a2m09_08",
+      "it": "Ci vogliono dieci minuti. Esca e vada a destra.",
+      "es": "Se demora diez minutos. Salga y vaya a la derecha.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m09_09",
+      "it": "Perfetto. La camera è al piano terra?",
+      "es": "Perfecto. ¿La habitación está en la planta baja?",
+      "speaker": "Davide"
+    },
+    {
+      "id": "ls_a2m09_10",
+      "it": "No, è al secondo piano. C'è l'ascensore.",
+      "es": "No, está en el segundo piso. Hay ascensor.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m09_11",
+      "it": "Bene. C'è la colazione?",
+      "es": "Bien. ¿Hay desayuno?",
+      "speaker": "Davide"
+    },
+    {
+      "id": "ls_a2m09_12",
+      "it": "Sì, dalle sette alle dieci, accanto alla reception.",
+      "es": "Sí, de siete a diez, junto a la recepción.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m09_13",
+      "it": "Grazie. A stasera!",
+      "es": "Gracias. ¡Hasta esta noche!",
+      "speaker": "Davide"
+    },
+    {
+      "id": "ls_a2m09_14",
+      "it": "Buon viaggio, signor Rossi.",
+      "es": "Buen viaje, señor Rossi.",
+      "speaker": "Elena"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué tipo de habitación tiene reservada Davide?",
+      "options": [
+        "Individual",
+        "Doble",
+        "Familiar"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Cuánto atraso tiene el tren?",
+      "options": [
+        "Diez minutos",
+        "Veinte minutos",
+        "Una hora"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Cómo irá Davide al hotel?",
+      "options": [
+        "En taxi",
+        "En autobús",
+        "A pie"
+      ],
+      "answer": 2
+    },
+    {
+      "prompt_es": "¿En qué piso está la habitación?",
+      "options": [
+        "En el segundo",
+        "En el primero",
+        "En la planta baja"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Hasta qué hora hay desayuno?",
+      "options": [
+        "Hasta las nueve",
+        "Hasta las diez",
+        "Hasta las once"
+      ],
+      "answer": 1
+    }
+  ],
+  "listen": true
+}

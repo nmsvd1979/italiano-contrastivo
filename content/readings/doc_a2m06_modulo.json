@@ -1,0 +1,90 @@
+{
+  "id": "doc_a2m06_modulo",
+  "title": "Modulo per raccomandata",
+  "level": "A2",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Formulario propio de envío certificado, escrito por la IA como ejemplo de modelo típico.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿Qué se escribe en «Data»?",
+      "options": [
+        "La fecha, por ejemplo 3 maggio 2024",
+        "El precio",
+        "El número de ventanilla"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Dónde va la firma?",
+      "options": [
+        "Al final del formulario",
+        "Arriba, junto al nombre",
+        "En el sobre"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Con qué no hay que firmar?",
+      "options": [
+        "Con lápiz",
+        "Con tinta negra",
+        "Con tinta azul"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Qué se escribe en «Destinatario»?",
+      "options": [
+        "El nombre de quien recibe la carta",
+        "El nombre de quien envía",
+        "El nombre del empleado"
+      ],
+      "answer": 0
+    }
+  ],
+  "table": {
+    "head": [
+      "Campo",
+      "Da compilare"
+    ],
+    "rows": [
+      [
+        "Mittente",
+        "Nome e cognome. Esempio: Marco Rossi"
+      ],
+      [
+        "Indirizzo del mittente",
+        "Via e numero. Esempio: via Dante 12, Torino"
+      ],
+      [
+        "Destinatario",
+        "Nome della persona. Esempio: Giulia Bianchi"
+      ],
+      [
+        "Indirizzo del destinatario",
+        "Esempio: via Roma 5, Milano"
+      ],
+      [
+        "Data",
+        "Esempio: 3 maggio 2024"
+      ],
+      [
+        "Firma",
+        "In fondo al modulo. Non scrivere a matita."
+      ],
+      [
+        "Ricevuta",
+        "Segnare Sì o No"
+      ]
+    ]
+  }
+}

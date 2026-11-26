@@ -1,0 +1,135 @@
+{
+  "id": "rd_a2m08_b",
+  "title": "Un consiglio tra amici",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo propio entre dos amigos: consejos con dovresti, potresti, ti consiglio di e imperativos, escrito por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2m08_b_00",
+      "it": "Luca, mi serve un consiglio. Dormo poco.",
+      "es": "Luca, necesito un consejo. Duermo poco.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_a2m08_b_01",
+      "it": "Dovresti andare a letto prima.",
+      "es": "Deberías acostarte más temprano.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "rd_a2m08_b_02",
+      "it": "Lo so, ma uso il telefono fino a tardi.",
+      "es": "Lo sé, pero uso el teléfono hasta tarde.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_a2m08_b_03",
+      "it": "Ti consiglio di spegnerlo alle dieci.",
+      "es": "Te aconsejo apagarlo a las diez.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "rd_a2m08_b_04",
+      "it": "Hai ragione. Dammi un'altra idea.",
+      "es": "Tienes razón. Dame otra idea.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_a2m08_b_05",
+      "it": "Potresti bere una tisana la sera. Non bere il caffè dopo cena.",
+      "es": "Podrías tomar una infusión en la noche. No tomes café después de cenar.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "rd_a2m08_b_06",
+      "it": "Ottimo. Dimmi, vieni con noi sabato?",
+      "es": "Excelente. Dime, ¿vienes con nosotros el sábado?",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_a2m08_b_07",
+      "it": "Sì, ma aspettatemi davanti al cinema.",
+      "es": "Sí, pero espérenme frente al cine.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "rd_a2m08_b_08",
+      "it": "Va bene. Chiamami quando arrivi.",
+      "es": "Está bien. Llámame cuando llegues.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_a2m08_b_09",
+      "it": "D'accordo. Ti consiglio di prendere i biglietti prima.",
+      "es": "De acuerdo. Te aconsejo comprar las entradas antes.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "rd_a2m08_b_10",
+      "it": "Buona idea. Li compro io.",
+      "es": "Buena idea. Las compro yo.",
+      "speaker": "Sara"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué problema tiene Sara?",
+      "options": [
+        "Duerme poco",
+        "Come demasiado",
+        "Trabaja mucho"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Por qué se acuesta tarde?",
+      "options": [
+        "Mira televisión",
+        "Usa el teléfono",
+        "Estudia"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Qué le aconseja Luca tomar en la noche?",
+      "options": [
+        "Café",
+        "Una infusión",
+        "Leche fría"
+      ],
+      "answer": 1,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Dónde quedan para esperar a Sara el sábado?",
+      "options": [
+        "Frente al cine",
+        "En la estación",
+        "En su casa"
+      ],
+      "answer": 0,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Qué debe hacer antes, según Luca?",
+      "options": [
+        "Comprar las entradas",
+        "Llamar a Elena",
+        "Preparar la cena"
+      ],
+      "answer": 0,
+      "evidence": 9
+    }
+  ]
+}

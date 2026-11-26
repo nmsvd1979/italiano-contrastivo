@@ -1,0 +1,119 @@
+{
+  "id": "rd_a2m05_b",
+  "title": "Al negozio di scarpe",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo breve escrito por la IA: un cliente y una vendedora en una zapatería (trato de Lei); ejemplifica comparativos, -issimo, ne, qualcosa di y nessun.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2m05_b_00",
+      "it": "Buongiorno! Posso aiutarla?",
+      "es": "¡Buenos días! ¿Puedo ayudarlo?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_a2m05_b_01",
+      "it": "Buongiorno. Cerco un paio di scarpe comode.",
+      "es": "Buenos días. Busco un par de zapatos cómodos.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "rd_a2m05_b_02",
+      "it": "Ne abbiamo molte. Queste sono più leggere di quelle nere.",
+      "es": "Tenemos muchos. Estos son más livianos que los negros.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_a2m05_b_03",
+      "it": "Quanto costano? Vorrei qualcosa di non troppo caro.",
+      "es": "¿Cuánto cuestan? Quisiera algo no demasiado caro.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "rd_a2m05_b_04",
+      "it": "Queste costano settanta euro. Quelle costano di più.",
+      "es": "Estos cuestan setenta euros. Aquellos cuestan más.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_a2m05_b_05",
+      "it": "Sono carine. Ha un numero più grande?",
+      "es": "Son bonitos. ¿Tiene un número más grande?",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "rd_a2m05_b_06",
+      "it": "Mi dispiace, non ho nessun paio più grande.",
+      "es": "Lo siento, no tengo ningún par más grande.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_a2m05_b_07",
+      "it": "Peccato. Allora provo il quarantatré.",
+      "es": "Qué pena. Entonces pruebo el cuarenta y tres.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "rd_a2m05_b_08",
+      "it": "Come vanno? Sono comodissime, vero?",
+      "es": "¿Cómo le quedan? Son comodísimos, ¿verdad?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "rd_a2m05_b_09",
+      "it": "Sì, sono comodissime! Le prendo.",
+      "es": "¡Sí, son comodísimos! Me los llevo.",
+      "speaker": "Paolo"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué busca Paolo?",
+      "options": [
+        "Zapatos cómodos",
+        "Una chaqueta",
+        "Unas sandalias"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Cuánto cuestan los zapatos que le muestran?",
+      "options": [
+        "Ochenta euros",
+        "Sesenta euros",
+        "Setenta euros"
+      ],
+      "answer": 2,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Qué número prueba Paolo?",
+      "options": [
+        "El cuarenta y cuatro",
+        "El cuarenta y tres",
+        "El cuarenta y dos"
+      ],
+      "answer": 1,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Qué dice Paolo de los zapatos al final?",
+      "options": [
+        "Que son muy caros",
+        "Que son muy pequeños",
+        "Que son muy cómodos"
+      ],
+      "answer": 2,
+      "evidence": 9
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "ls_a2hito_01",
+  "title": "Un viaggio a Firenze",
+  "kind": "dialogo",
+  "level": "A2",
+  "authored": true,
+  "exam": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Llamada entre dos amigos para organizar un viaje, escrita por la IA; examen de hito.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "ls_a2hito_01_00",
+      "it": "Ciao Sara, sono Marco. Hai tempo per parlare un momento?",
+      "es": "Hola Sara, soy Marco. ¿Tienes tiempo para hablar un momento?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2hito_01_01",
+      "it": "Certo, ho dieci minuti. Dimmi pure!",
+      "es": "Claro, tengo diez minutos. ¡Dime!",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_a2hito_01_02",
+      "it": "Vorrei organizzare un viaggio a Firenze per il prossimo weekend.",
+      "es": "Quisiera organizar un viaje a Florencia para el próximo fin de semana.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2hito_01_03",
+      "it": "Che bella idea! Io ci sono stata l'anno scorso con Anna.",
+      "es": "¡Qué buena idea! Yo estuve allí el año pasado con Anna.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_a2hito_01_04",
+      "it": "Davvero? Com'era la città? Ti è piaciuta?",
+      "es": "¿De verdad? ¿Cómo era la ciudad? ¿Te gustó?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2hito_01_05",
+      "it": "Mi è piaciuta moltissimo. C'erano tanti musei e un mercato bellissimo.",
+      "es": "Me gustó muchísimo. Había muchos museos y un mercado precioso.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_a2hito_01_06",
+      "it": "Allora partiamo venerdì sera? Il treno parte alle sette e dieci.",
+      "es": "Entonces, ¿salimos el viernes en la noche? El tren sale a las siete y diez.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2hito_01_07",
+      "it": "Venerdì non posso, lavoro fino alle sei. Preferisco partire sabato mattina.",
+      "es": "El viernes no puedo, trabajo hasta las seis. Prefiero salir el sábado en la mañana.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_a2hito_01_08",
+      "it": "Va bene. Quello del sabato parte alle nove e costa trenta euro.",
+      "es": "Bien. El del sábado sale a las nueve y cuesta treinta euros.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2hito_01_09",
+      "it": "Costa meno di quello di venerdì, allora. Io prenoto l'albergo.",
+      "es": "Cuesta menos que el del viernes, entonces. Yo reservo el hotel.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_a2hito_01_10",
+      "it": "Perfetto. Prenota un albergo vicino alla stazione, se puoi.",
+      "es": "Perfecto. Reserva un hotel cerca de la estación, si puedes.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2hito_01_11",
+      "it": "Ne ho visto uno ieri. Costa ottanta euro per due notti.",
+      "es": "Vi uno ayer. Cuesta ochenta euros por dos noches.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_a2hito_01_12",
+      "it": "È un po' caro, ma è comodo. Lo prendiamo.",
+      "es": "Es un poco caro, pero es cómodo. Lo tomamos.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2hito_01_13",
+      "it": "Bene! Domani lo prenoto e ti mando la conferma.",
+      "es": "¡Bien! Mañana lo reservo y te mando la confirmación.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_a2hito_01_14",
+      "it": "Grazie! Ci vediamo sabato alle otto e mezza in stazione.",
+      "es": "¡Gracias! Nos vemos el sábado a las ocho y media en la estación.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2hito_01_15",
+      "it": "D'accordo. A sabato, Marco! Sarà un bel viaggio.",
+      "es": "De acuerdo. ¡Hasta el sábado, Marco! Será un lindo viaje.",
+      "speaker": "Sara"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Adónde quiere viajar Marco?",
+      "options": [
+        "A Roma",
+        "A Florencia",
+        "A Venecia"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Por qué Sara no puede salir el viernes?",
+      "options": [
+        "Está enferma",
+        "Trabaja hasta las seis",
+        "Ya fue a Florencia"
+      ],
+      "answer": 1,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Cuándo saldrá el tren elegido?",
+      "options": [
+        "El sábado a las nueve",
+        "El viernes a las siete y diez",
+        "El domingo a las ocho"
+      ],
+      "answer": 0,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta el hotel?",
+      "options": [
+        "Treinta euros",
+        "Ochenta euros por dos noches",
+        "Ochenta euros por noche"
+      ],
+      "answer": 1,
+      "evidence": 11
+    },
+    {
+      "prompt_es": "¿Dónde se encontrarán el sábado?",
+      "options": [
+        "En el hotel",
+        "En el museo",
+        "En la estación"
+      ],
+      "answer": 2,
+      "evidence": 14
+    }
+  ],
+  "listen": true
+}

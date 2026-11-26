@@ -1,0 +1,179 @@
+{
+  "id": "ls_a2hito_02",
+  "title": "Una giacca da cambiare",
+  "kind": "dialogo",
+  "level": "A2",
+  "authored": true,
+  "exam": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Conversación en una tienda de ropa (trato de Lei), escrita por la IA; examen de hito.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "ls_a2hito_02_00",
+      "it": "Buongiorno, posso aiutarla?",
+      "es": "Buenos días, ¿puedo ayudarla?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2hito_02_01",
+      "it": "Buongiorno. Ieri ho comprato questa giacca, ma è troppo piccola.",
+      "es": "Buenos días. Ayer compré esta chaqueta, pero es muy pequeña.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2hito_02_02",
+      "it": "Ha lo scontrino? Così posso cambiarla subito.",
+      "es": "¿Tiene la boleta? Así puedo cambiarla de inmediato.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2hito_02_03",
+      "it": "Sì, eccolo. Ho pagato quarantacinque euro con la carta.",
+      "es": "Sí, aquí está. Pagué cuarenta y cinco euros con tarjeta.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2hito_02_04",
+      "it": "Perfetto. Vuole la stessa giacca in una taglia più grande?",
+      "es": "Perfecto. ¿Quiere la misma chaqueta en una talla más grande?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2hito_02_05",
+      "it": "Sì, vorrei la taglia media, se c'è. Grazie.",
+      "es": "Sí, quisiera la talla media, si hay. Gracias.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2hito_02_06",
+      "it": "Mi dispiace, la media è finita. Ne abbiamo una nera.",
+      "es": "Lo siento, la media se agotó. Tenemos una negra.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2hito_02_07",
+      "it": "Nera? Io preferisco il blu. Il blu è più elegante, secondo me.",
+      "es": "¿Negra? Yo prefiero el azul. El azul es más elegante, creo yo.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2hito_02_08",
+      "it": "Allora posso ordinarla adesso. Arriva giovedì mattina.",
+      "es": "Entonces puedo pedirla ahora. Llega el jueves en la mañana.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2hito_02_09",
+      "it": "Va bene, ma giovedì lavoro. Può tenerla fino a venerdì?",
+      "es": "Bien, pero el jueves trabajo. ¿Puede guardármela hasta el viernes?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2hito_02_10",
+      "it": "Nessun problema. Il negozio è aperto fino alle otto di sera.",
+      "es": "Ningún problema. La tienda está abierta hasta las ocho de la noche.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2hito_02_11",
+      "it": "Perfetto. Allora passo venerdì dopo il lavoro, verso le sei.",
+      "es": "Perfecto. Entonces paso el viernes después del trabajo, hacia las seis.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2hito_02_12",
+      "it": "Può lasciarmi il suo nome e il numero di telefono?",
+      "es": "¿Puede dejarme su nombre y su número de teléfono?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2hito_02_13",
+      "it": "Mi chiamo Giulia Bianchi. Scrivo il numero sul foglio.",
+      "es": "Me llamo Giulia Bianchi. Escribo el número en la hoja.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2hito_02_14",
+      "it": "Grazie. La chiamo appena la giacca arriva.",
+      "es": "Gracias. La llamo apenas llegue la chaqueta.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2hito_02_15",
+      "it": "Se non rispondo, mi manda un messaggio?",
+      "es": "Si no contesto, ¿me manda un mensaje?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2hito_02_16",
+      "it": "Va bene, le scrivo un messaggio. Buona giornata!",
+      "es": "Muy bien, le escribo un mensaje. ¡Buen día!",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2hito_02_17",
+      "it": "Grazie, altrettanto. Arrivederci!",
+      "es": "Gracias, igualmente. ¡Hasta luego!",
+      "speaker": "Giulia"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cuándo compró Giulia la chaqueta?",
+      "options": [
+        "Ayer",
+        "Hoy",
+        "El mes pasado"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Por qué quiere cambiarla?",
+      "options": [
+        "Es muy cara",
+        "Es muy pequeña",
+        "No le gusta el color"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué color prefiere Giulia?",
+      "options": [
+        "Negro",
+        "Azul",
+        "Rojo"
+      ],
+      "answer": 1,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Hasta cuándo guardará la chaqueta la vendedora?",
+      "options": [
+        "Hasta el jueves",
+        "Hasta el viernes",
+        "Hasta el sábado"
+      ],
+      "answer": 1,
+      "evidence": 9
+    },
+    {
+      "prompt_es": "¿Qué hará la vendedora cuando llegue la chaqueta?",
+      "options": [
+        "La llamará",
+        "La mandará a su casa",
+        "Le escribirá un correo"
+      ],
+      "answer": 0,
+      "evidence": 14
+    }
+  ],
+  "listen": true
+}

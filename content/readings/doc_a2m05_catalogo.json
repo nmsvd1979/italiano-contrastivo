@@ -1,0 +1,112 @@
+{
+  "id": "doc_a2m05_catalogo",
+  "title": "Catálogo de ropa y accesorios",
+  "level": "A2",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Catálogo breve con precios escrito por la IA; sirve para comparar con più… di/che, meno, meglio y -issimo.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "table": {
+    "head": [
+      "Articolo",
+      "Descrizione",
+      "Prezzo"
+    ],
+    "rows": [
+      [
+        "Maglione di lana",
+        "Blu, caldo e morbido",
+        "49 €"
+      ],
+      [
+        "Maglione di cotone",
+        "Bianco e leggero",
+        "29 €"
+      ],
+      [
+        "Giacca",
+        "Nera, molto elegante",
+        "89 €"
+      ],
+      [
+        "Giubbotto",
+        "Verde, per la pioggia",
+        "69 €"
+      ],
+      [
+        "Scarpe da ginnastica",
+        "Comode, per correre",
+        "55 €"
+      ],
+      [
+        "Scarpe di pelle",
+        "Marroni, eleganti",
+        "95 €"
+      ],
+      [
+        "Zaino",
+        "Largo, con tre tasche",
+        "39 €"
+      ],
+      [
+        "Borsa",
+        "Piccola, di tessuto",
+        "25 €"
+      ]
+    ]
+  },
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿Cuál es el artículo más barato?",
+      "options": [
+        "Zaino",
+        "Borsa",
+        "Maglione di cotone"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Qué cuesta más, la giacca o el giubbotto?",
+      "options": [
+        "El giubbotto",
+        "La giacca",
+        "Cuestan lo mismo"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta el maglione di lana?",
+      "options": [
+        "29 €",
+        "39 €",
+        "49 €"
+      ],
+      "answer": 2
+    },
+    {
+      "prompt_es": "¿Cuál es el artículo más caro?",
+      "options": [
+        "Scarpe di pelle",
+        "Giacca",
+        "Scarpe da ginnastica"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Qué artículo es blanco y liviano?",
+      "options": [
+        "Maglione di cotone",
+        "Maglione di lana",
+        "Borsa"
+      ],
+      "answer": 0
+    }
+  ]
+}

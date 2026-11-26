@@ -1,0 +1,115 @@
+{
+  "id": "doc_a2m09_biglietto",
+  "title": "Il biglietto del treno",
+  "level": "A2",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Billete de tren propio con campos y valores, escrito por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿Cuánto cuesta el boleto?",
+      "options": [
+        "32,00 euros",
+        "23,00 euros",
+        "30,00 euros"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Qué número de vagón tiene?",
+      "options": [
+        "Vagón 3",
+        "Vagón 6",
+        "Vagón 23"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿En qué clase viaja el pasajero?",
+      "options": [
+        "Primera",
+        "Segunda",
+        "Ejecutiva"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Dónde está su asiento?",
+      "options": [
+        "Junto a la ventana",
+        "Junto al pasillo",
+        "Frente a la puerta"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿A qué hora llega a destino?",
+      "options": [
+        "A las 8:10",
+        "A las 10:10",
+        "A las 12:00"
+      ],
+      "answer": 1
+    }
+  ],
+  "table": {
+    "head": [
+      "Campo",
+      "Valore"
+    ],
+    "rows": [
+      [
+        "Passeggero",
+        "Marco Bianchi"
+      ],
+      [
+        "Da",
+        "Milano Centrale"
+      ],
+      [
+        "A",
+        "Firenze Santa Maria Novella"
+      ],
+      [
+        "Data",
+        "14 giugno"
+      ],
+      [
+        "Partenza",
+        "08:10"
+      ],
+      [
+        "Arrivo",
+        "10:10"
+      ],
+      [
+        "Treno",
+        "Intercity 592"
+      ],
+      [
+        "Carrozza",
+        "6"
+      ],
+      [
+        "Posto",
+        "23 (finestrino)"
+      ],
+      [
+        "Classe",
+        "Seconda"
+      ],
+      [
+        "Prezzo",
+        "32,00 €"
+      ]
+    ]
+  }
+}

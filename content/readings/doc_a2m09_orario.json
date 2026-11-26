@@ -1,0 +1,109 @@
+{
+  "id": "doc_a2m09_orario",
+  "title": "Orario dei treni: Milano - Firenze",
+  "level": "A2",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Horario propio de trenes de Milán a Florencia, escrito por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿De qué andén sale el tren de las 8:10?",
+      "options": [
+        "Del 2",
+        "Del 4",
+        "Del 7"
+      ],
+      "answer": 2
+    },
+    {
+      "prompt_es": "¿A qué hora llega el regional que sale a las 7:40?",
+      "options": [
+        "A las 11:10",
+        "A las 10:10",
+        "A las 9:20"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Qué tren llega a las 13:55?",
+      "options": [
+        "Intercity 598",
+        "Intercity 592",
+        "Regionale 2237"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Qué tren sale del andén 5?",
+      "options": [
+        "Regionale 2231",
+        "Frecciarossa 9614",
+        "Intercity 598"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Cuántos trenes regionales hay en el horario?",
+      "options": [
+        "Uno",
+        "Dos",
+        "Tres"
+      ],
+      "answer": 1
+    }
+  ],
+  "table": {
+    "head": [
+      "Treno",
+      "Partenza",
+      "Arrivo",
+      "Binario"
+    ],
+    "rows": [
+      [
+        "Frecciarossa 9610",
+        "07:15",
+        "09:20",
+        "4"
+      ],
+      [
+        "Regionale 2231",
+        "07:40",
+        "11:10",
+        "2"
+      ],
+      [
+        "Intercity 592",
+        "08:10",
+        "10:10",
+        "7"
+      ],
+      [
+        "Regionale 2237",
+        "09:30",
+        "13:00",
+        "3"
+      ],
+      [
+        "Frecciarossa 9614",
+        "10:15",
+        "12:25",
+        "5"
+      ],
+      [
+        "Intercity 598",
+        "11:45",
+        "13:55",
+        "6"
+      ]
+    ]
+  }
+}

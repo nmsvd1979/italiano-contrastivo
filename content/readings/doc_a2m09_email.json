@@ -1,0 +1,119 @@
+{
+  "id": "doc_a2m09_email",
+  "title": "E-mail di prenotazione",
+  "level": "A2",
+  "kind": "lectura",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "E-mail propio de confirmación de reserva de un hotel (trato formal), escrito por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "doc_a2m09_email_00",
+      "it": "Gentile signor Bianchi,",
+      "es": "Estimado señor Bianchi:"
+    },
+    {
+      "id": "doc_a2m09_email_01",
+      "it": "La ringraziamo per la prenotazione.",
+      "es": "Le agradecemos por la reserva."
+    },
+    {
+      "id": "doc_a2m09_email_02",
+      "it": "Abbiamo una camera doppia per due notti, dal 14 al 16 giugno.",
+      "es": "Tenemos una habitación doble para dos noches, del 14 al 16 de junio."
+    },
+    {
+      "id": "doc_a2m09_email_03",
+      "it": "Il prezzo è di novanta euro a notte, con la colazione.",
+      "es": "El precio es de noventa euros por noche, con desayuno."
+    },
+    {
+      "id": "doc_a2m09_email_04",
+      "it": "La reception è aperta tutti i giorni, dalle sette alle ventitré.",
+      "es": "La recepción está abierta todos los días, de siete a veintitrés."
+    },
+    {
+      "id": "doc_a2m09_email_05",
+      "it": "Dalla stazione ci vogliono dieci minuti a piedi.",
+      "es": "Desde la estación se demora diez minutos a pie."
+    },
+    {
+      "id": "doc_a2m09_email_06",
+      "it": "Può arrivare dopo le quindici: la camera è pronta.",
+      "es": "Puede llegar después de las quince: la habitación está lista."
+    },
+    {
+      "id": "doc_a2m09_email_07",
+      "it": "Se arriva tardi, ci avvisi con un messaggio.",
+      "es": "Si llega tarde, avísenos con un mensaje."
+    },
+    {
+      "id": "doc_a2m09_email_08",
+      "it": "Mi dispiace, ma il parcheggio è pieno.",
+      "es": "Lo siento, pero el estacionamiento está lleno."
+    },
+    {
+      "id": "doc_a2m09_email_09",
+      "it": "Aspettiamo la Sua conferma entro domani.",
+      "es": "Esperamos su confirmación a más tardar mañana."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cuántas noches ha reservado el señor Bianchi?",
+      "options": [
+        "Tres",
+        "Dos",
+        "Una"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Qué incluye el precio?",
+      "options": [
+        "El estacionamiento",
+        "El desayuno",
+        "La cena"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Cuánto se demora a pie desde la estación?",
+      "options": [
+        "Diez minutos",
+        "Veinte minutos",
+        "Cinco minutos"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Qué problema hay en el hotel?",
+      "options": [
+        "No hay ascensor",
+        "El estacionamiento está lleno",
+        "La habitación no está lista"
+      ],
+      "answer": 1,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿Qué esperan los del hotel?",
+      "options": [
+        "Una llamada",
+        "Su confirmación",
+        "Un pago"
+      ],
+      "answer": 1,
+      "evidence": 9
+    }
+  ]
+}

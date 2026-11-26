@@ -1,0 +1,119 @@
+{
+  "id": "rd_a2m02_a",
+  "title": "Quando eri piccolo…",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo escrito por la IA: dos amigos recuerdan cómo eran de niños (imperfetto).",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2m02_a_00",
+      "it": "Luca, com'eri da piccolo?",
+      "es": "Luca, ¿cómo eras de niño?",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_a2m02_a_01",
+      "it": "Ero molto timido e avevo paura del buio.",
+      "es": "Era muy tímido y le tenía miedo a la oscuridad.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "rd_a2m02_a_02",
+      "it": "Davvero? Io invece parlavo sempre con tutti.",
+      "es": "¿De verdad? Yo, en cambio, siempre hablaba con todos.",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_a2m02_a_03",
+      "it": "Che cosa ti piaceva fare?",
+      "es": "¿Qué te gustaba hacer?",
+      "speaker": "Luca"
+    },
+    {
+      "id": "rd_a2m02_a_04",
+      "it": "Giocavo a pallone e andavo in bici ogni giorno.",
+      "es": "Jugaba a la pelota y andaba en bici todos los días.",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_a2m02_a_05",
+      "it": "Io leggevo fumetti e guardavo i cartoni animati.",
+      "es": "Yo leía cómics y veía dibujos animados.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "rd_a2m02_a_06",
+      "it": "Dove abitavi?",
+      "es": "¿Dónde vivías?",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_a2m02_a_07",
+      "it": "Abitavo in una casa piccola, ma c'era un bel giardino.",
+      "es": "Vivía en una casa pequeña, pero había un lindo jardín.",
+      "speaker": "Luca"
+    },
+    {
+      "id": "rd_a2m02_a_08",
+      "it": "Eri felice?",
+      "es": "¿Eras feliz?",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_a2m02_a_09",
+      "it": "Sì, molto. Avevo pochi amici, ma buoni.",
+      "es": "Sí, mucho. Tenía pocos amigos, pero buenos.",
+      "speaker": "Luca"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cómo era Luca de niño?",
+      "options": [
+        "Muy simpático",
+        "Muy tímido",
+        "Muy celoso"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué hacía Laura todos los días?",
+      "options": [
+        "Leía cómics",
+        "Veía dibujos animados",
+        "Jugaba a la pelota y andaba en bici"
+      ],
+      "answer": 2,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Qué leía Luca?",
+      "options": [
+        "Cómics",
+        "Libros de cocina",
+        "El diario"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Cómo era la casa de Luca?",
+      "options": [
+        "Grande, con piscina",
+        "Pequeña, con un lindo jardín",
+        "Pequeña, sin jardín"
+      ],
+      "answer": 1,
+      "evidence": 7
+    }
+  ]
+}

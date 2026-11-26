@@ -1,0 +1,129 @@
+{
+  "id": "rd_a2m03_b",
+  "title": "Che cosa facevi quando ha squillato il telefono?",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo propio para juego de rol: se pregunta qué hacía alguien cuando ocurrió algo (imperfetto para la acción en curso, passato prossimo para el hecho).",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "questions": [
+    {
+      "prompt_es": "¿Dónde estaba Davide anoche?",
+      "options": [
+        "En casa.",
+        "En el trabajo.",
+        "En el cine."
+      ],
+      "answer": 2,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Por qué no contestó Davide?",
+      "options": [
+        "Había silencio en la sala.",
+        "No tenía batería.",
+        "No oyó nada."
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Qué hizo Davide al salir?",
+      "options": [
+        "Se fue a dormir.",
+        "Volvió a llamar a Sara.",
+        "Escribió un mensaje a Luca."
+      ],
+      "answer": 1,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Dónde estaba Sara cuando él llamó?",
+      "options": [
+        "En el auto.",
+        "En el cine.",
+        "En la oficina."
+      ],
+      "answer": 0,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿Qué deciden al final?",
+      "options": [
+        "Verse y hablar mañana.",
+        "Ir al cine juntos.",
+        "Llamarse esta noche."
+      ],
+      "answer": 0,
+      "evidence": 9
+    }
+  ],
+  "sentences": [
+    {
+      "id": "rd_a2m03_b_00",
+      "it": "Davide, ieri sera ti ho chiamato tre volte! Dov'eri?",
+      "es": "Davide, ¡anoche te llamé tres veces! ¿Dónde estabas?",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_a2m03_b_01",
+      "it": "Scusa! Ero al cinema con Luca.",
+      "es": "¡Perdona! Estaba en el cine con Luca.",
+      "speaker": "Davide"
+    },
+    {
+      "id": "rd_a2m03_b_02",
+      "it": "Che cosa facevi quando ha squillato il telefono?",
+      "es": "¿Qué hacías cuando sonó el teléfono?",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_a2m03_b_03",
+      "it": "Mentre guardavo il film, ho sentito una vibrazione. Era il tuo numero.",
+      "es": "Mientras miraba la película, sentí una vibración. Era tu número.",
+      "speaker": "Davide"
+    },
+    {
+      "id": "rd_a2m03_b_04",
+      "it": "E non hai risposto?",
+      "es": "¿Y no contestaste?",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_a2m03_b_05",
+      "it": "No, perché c'era silenzio in sala. Infatti tutti guardavano me!",
+      "es": "No, porque había silencio en la sala. ¡De hecho todos me miraban a mí!",
+      "speaker": "Davide"
+    },
+    {
+      "id": "rd_a2m03_b_06",
+      "it": "Ahah! Quando sei uscito, che cosa hai fatto?",
+      "es": "¡Jaja! Cuando saliste, ¿qué hiciste?",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_a2m03_b_07",
+      "it": "Ti ho richiamata subito, ma tu non rispondevi.",
+      "es": "Te devolví la llamada enseguida, pero tú no contestabas.",
+      "speaker": "Davide"
+    },
+    {
+      "id": "rd_a2m03_b_08",
+      "it": "Ero in macchina e non ho sentito il telefono. Allora siamo pari!",
+      "es": "Estaba en el auto y no oí el teléfono. ¡Entonces estamos a mano!",
+      "speaker": "Sara"
+    },
+    {
+      "id": "rd_a2m03_b_09",
+      "it": "Va bene! Domani ci vediamo e parliamo con calma.",
+      "es": "¡Está bien! Mañana nos vemos y hablamos con calma.",
+      "speaker": "Davide"
+    }
+  ]
+}

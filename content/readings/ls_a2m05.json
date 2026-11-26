@@ -1,0 +1,160 @@
+{
+  "id": "ls_a2m05",
+  "title": "En la tienda",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo de escucha escrito por la IA: dos amigos eligen un regalo y comparan; ejemplifica più… di/che, meglio/migliore, -issimo, qualche, nessun, quello che y qualcosa di.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "ls_a2m05_00",
+      "it": "Cerco un regalo per Chiara. Che cosa dici?",
+      "es": "Busco un regalo para Chiara. ¿Qué dices?",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_a2m05_01",
+      "it": "Hai visto questa borsa? È bellissima!",
+      "es": "¿Viste esta cartera? ¡Es hermosísima!",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m05_02",
+      "it": "Sì, ma costa più di quella grigia.",
+      "es": "Sí, pero cuesta más que la gris.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_a2m05_03",
+      "it": "È vero. Ma questa è più grande.",
+      "es": "Es verdad. Pero esta es más grande.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m05_04",
+      "it": "Chiara ha già qualche borsa. Non ha nessuna sciarpa.",
+      "es": "Chiara ya tiene alguna cartera. No tiene ninguna bufanda.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_a2m05_05",
+      "it": "Allora è meglio una sciarpa. Questa rossa com'è?",
+      "es": "Entonces es mejor una bufanda. ¿Cómo es esta roja?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m05_06",
+      "it": "È morbidissima! Costa solo venti euro.",
+      "es": "¡Es suavísima! Cuesta solo veinte euros.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_a2m05_07",
+      "it": "Il prezzo è migliore di quello della blu.",
+      "es": "El precio es mejor que el de la azul.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m05_08",
+      "it": "Sì, ma cerco qualcosa di bello e utile.",
+      "es": "Sí, pero busco algo bonito y útil.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_a2m05_09",
+      "it": "Compriamo anche qualcosa di buono: dei cioccolatini.",
+      "es": "Compremos también algo rico: unos bombones.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m05_10",
+      "it": "Ottima idea! Chiara mangia più dolci che frutta.",
+      "es": "¡Excelente idea! Chiara come más dulces que fruta.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_a2m05_11",
+      "it": "Allora prendiamo la sciarpa e i cioccolatini.",
+      "es": "Entonces llevamos la bufanda y los bombones.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m05_12",
+      "it": "Per me, quello che conta è il pensiero.",
+      "es": "Para mí, lo que cuenta es el detalle.",
+      "speaker": "Sara"
+    },
+    {
+      "id": "ls_a2m05_13",
+      "it": "Hai ragione. È la scelta migliore.",
+      "es": "Tienes razón. Es la mejor elección.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m05_14",
+      "it": "Bene. Andiamo alla cassa!",
+      "es": "Bien. ¡Vamos a la caja!",
+      "speaker": "Sara"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Para quién buscan el regalo?",
+      "options": [
+        "Para Marco",
+        "Para Chiara",
+        "Para Sara"
+      ],
+      "answer": 1,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta la bufanda roja?",
+      "options": [
+        "Diez euros",
+        "Treinta euros",
+        "Veinte euros"
+      ],
+      "answer": 2,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Qué no tiene Chiara?",
+      "options": [
+        "Una cartera",
+        "Una bufanda",
+        "Bombones"
+      ],
+      "answer": 1,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Qué come Chiara más que fruta?",
+      "options": [
+        "Dulces",
+        "Verdura",
+        "Pan"
+      ],
+      "answer": 0,
+      "evidence": 10
+    },
+    {
+      "prompt_es": "¿Qué compran al final?",
+      "options": [
+        "Solo la cartera",
+        "La bufanda y los bombones",
+        "Un par de zapatos"
+      ],
+      "answer": 1,
+      "evidence": 11
+    }
+  ],
+  "listen": true
+}

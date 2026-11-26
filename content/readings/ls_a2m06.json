@@ -1,0 +1,160 @@
+{
+  "id": "ls_a2m06",
+  "title": "Una telefonata all'ufficio postale",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Conversación telefónica propia entre una persona y una empleada de correos; pregunta horarios y documentos.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "ls_a2m06_00",
+      "it": "Ufficio postale di via Roma, buongiorno.",
+      "es": "Oficina de correos de via Roma, buenos días.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m06_01",
+      "it": "Buongiorno. Vorrei sapere gli orari dello sportello.",
+      "es": "Buenos días. Quisiera saber los horarios de la ventanilla.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m06_02",
+      "it": "Siamo aperti dalle otto e trenta alle due, dal lunedì al venerdì.",
+      "es": "Estamos abiertos de las ocho y media a las dos, de lunes a viernes.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m06_03",
+      "it": "E il sabato?",
+      "es": "¿Y los sábados?",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m06_04",
+      "it": "Il sabato chiudiamo alle dodici e trenta.",
+      "es": "Los sábados cerramos a las doce y media.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m06_05",
+      "it": "Devo ritirare un pacco. Cosa devo portare?",
+      "es": "Tengo que retirar un paquete. ¿Qué tengo que llevar?",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m06_06",
+      "it": "Serve un documento e l'avviso di giacenza.",
+      "es": "Se necesita un documento y el aviso de retiro.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m06_07",
+      "it": "La carta d'identità va bene?",
+      "es": "¿Sirve la cédula de identidad?",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m06_08",
+      "it": "Sì, va bene. Ma non serve la fotocopia.",
+      "es": "Sí, sirve. Pero no hace falta la fotocopia.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m06_09",
+      "it": "Perfetto. Dov'è l'ufficio, esattamente?",
+      "es": "Perfecto. ¿Dónde está la oficina, exactamente?",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m06_10",
+      "it": "Siamo di fronte alla farmacia, accanto al bar.",
+      "es": "Estamos frente a la farmacia, junto al bar.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m06_11",
+      "it": "Il pacco è allo sportello uno?",
+      "es": "¿El paquete está en la ventanilla uno?",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m06_12",
+      "it": "No, allo sportello tre, al primo piano.",
+      "es": "No, en la ventanilla tres, en el primer piso.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m06_13",
+      "it": "Grazie. Vengo domani mattina alle nove.",
+      "es": "Gracias. Voy mañana por la mañana a las nueve.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m06_14",
+      "it": "Benissimo, a domani.",
+      "es": "Muy bien, hasta mañana.",
+      "speaker": "Elena"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿A qué hora cierran los sábados?",
+      "options": [
+        "A las dos",
+        "A las doce y media",
+        "A las ocho y media"
+      ],
+      "answer": 1,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Qué documento hay que llevar?",
+      "options": [
+        "Un documento de identidad y el aviso",
+        "Solo una fotocopia",
+        "El contrato de arriendo"
+      ],
+      "answer": 0,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Dónde está la oficina?",
+      "options": [
+        "Junto a la estación",
+        "Frente a la farmacia, junto al bar",
+        "Al fondo de la plaza"
+      ],
+      "answer": 1,
+      "evidence": 10
+    },
+    {
+      "prompt_es": "¿En qué ventanilla está el paquete?",
+      "options": [
+        "La uno",
+        "La dos",
+        "La tres"
+      ],
+      "answer": 2,
+      "evidence": 12
+    },
+    {
+      "prompt_es": "¿A qué hora irá Paolo?",
+      "options": [
+        "A las nueve",
+        "A las dos",
+        "A las doce"
+      ],
+      "answer": 0,
+      "evidence": 13
+    }
+  ],
+  "listen": true
+}

@@ -1,0 +1,119 @@
+{
+  "id": "doc_a2m06_regolamento",
+  "title": "Regolamento del condominio",
+  "level": "A2",
+  "kind": "lectura",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Reglamento propio de un edificio de departamentos, escrito por la IA con fórmulas típicas de carteles.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "doc_a2m06_regolamento_00",
+      "it": "In questo condominio si vive bene se si rispettano le regole.",
+      "es": "En este edificio se vive bien si se respetan las reglas."
+    },
+    {
+      "id": "doc_a2m06_regolamento_01",
+      "it": "È vietato lasciare le biciclette davanti al portone.",
+      "es": "Está prohibido dejar las bicicletas frente al portón."
+    },
+    {
+      "id": "doc_a2m06_regolamento_02",
+      "it": "Si può usare la lavatrice dalle otto alle venti.",
+      "es": "Se puede usar la lavadora de las ocho a las veinte."
+    },
+    {
+      "id": "doc_a2m06_regolamento_03",
+      "it": "Non fare rumore dopo le dieci di sera.",
+      "es": "No hacer ruido después de las diez de la noche."
+    },
+    {
+      "id": "doc_a2m06_regolamento_04",
+      "it": "Si può stendere il bucato solo sul balcone.",
+      "es": "Se puede tender la ropa solo en el balcón."
+    },
+    {
+      "id": "doc_a2m06_regolamento_05",
+      "it": "È vietato fumare sulle scale e nell'ascensore.",
+      "es": "Está prohibido fumar en las escaleras y en el ascensor."
+    },
+    {
+      "id": "doc_a2m06_regolamento_06",
+      "it": "Si può parcheggiare nel cortile solo con il permesso.",
+      "es": "Se puede estacionar en el patio solo con permiso."
+    },
+    {
+      "id": "doc_a2m06_regolamento_07",
+      "it": "Non lasciare la spazzatura fuori dalla porta.",
+      "es": "No dejar la basura fuera de la puerta."
+    },
+    {
+      "id": "doc_a2m06_regolamento_08",
+      "it": "La riunione è il primo martedì del mese, alle sette.",
+      "es": "La reunión es el primer martes del mes, a las siete."
+    },
+    {
+      "id": "doc_a2m06_regolamento_09",
+      "it": "Per ogni problema, il portiere è all'ingresso, accanto all'ascensore.",
+      "es": "Para cualquier problema, el portero está en la entrada, junto al ascensor."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué está prohibido hacer delante del portón?",
+      "options": [
+        "Dejar las bicicletas",
+        "Hablar",
+        "Esperar a un amigo"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Hasta qué hora se puede usar la lavadora?",
+      "options": [
+        "Hasta las diez",
+        "Hasta las veinte",
+        "Hasta las siete"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Dónde se puede tender la ropa?",
+      "options": [
+        "En la escalera",
+        "En el patio",
+        "En el balcón"
+      ],
+      "answer": 2,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Cuándo es la reunión?",
+      "options": [
+        "El primer martes del mes",
+        "El último viernes",
+        "Cada lunes"
+      ],
+      "answer": 0,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿Dónde está el portero?",
+      "options": [
+        "En el patio",
+        "En la entrada, junto al ascensor",
+        "En el primer piso"
+      ],
+      "answer": 1,
+      "evidence": 9
+    }
+  ]
+}

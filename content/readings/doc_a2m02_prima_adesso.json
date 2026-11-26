@@ -1,0 +1,99 @@
+{
+  "id": "doc_a2m02_prima_adesso",
+  "title": "Prima e adesso: la mia città",
+  "level": "A2",
+  "kind": "documento",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Tabla «antes / ahora» escrita por la IA: imperfetto frente a presente al describir una ciudad.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [],
+  "questions": [
+    {
+      "prompt_es": "¿Cómo era el centro antes?",
+      "options": [
+        "Pequeño y tranquilo",
+        "Grande y lleno de gente",
+        "Silencioso y oscuro"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Cuántos cines había antes?",
+      "options": [
+        "Tres",
+        "Uno solo",
+        "Ninguno"
+      ],
+      "answer": 1
+    },
+    {
+      "prompt_es": "¿Cómo iba antes al mercado el abuelo?",
+      "options": [
+        "En auto",
+        "En autobús",
+        "En bicicleta"
+      ],
+      "answer": 2
+    },
+    {
+      "prompt_es": "¿Qué usan ahora los chicos?",
+      "options": [
+        "El teléfono",
+        "La pelota",
+        "La bicicleta"
+      ],
+      "answer": 0
+    },
+    {
+      "prompt_es": "¿Cómo son hoy las calles?",
+      "options": [
+        "Estrechas y sin autos",
+        "Anchas y con mucho tráfico",
+        "Pequeñas y silenciosas"
+      ],
+      "answer": 1
+    }
+  ],
+  "table": {
+    "head": [
+      "Prima",
+      "Adesso"
+    ],
+    "rows": [
+      [
+        "Il centro era piccolo e tranquillo.",
+        "Il centro è grande e pieno di gente."
+      ],
+      [
+        "C'era un solo cinema.",
+        "Ci sono tre cinema e un teatro."
+      ],
+      [
+        "Le strade erano strette e senza macchine.",
+        "Le strade sono larghe e c'è molto traffico."
+      ],
+      [
+        "Mio nonno andava al mercato in bicicletta.",
+        "Mia madre va al supermercato in macchina."
+      ],
+      [
+        "I ragazzi giocavano nella piazza.",
+        "I ragazzi usano il telefono."
+      ],
+      [
+        "C'erano molti negozi piccoli.",
+        "Ci sono pochi negozi piccoli e molti centri commerciali."
+      ],
+      [
+        "La sera la città era silenziosa.",
+        "La sera ci sono musica e luci."
+      ]
+    ]
+  }
+}

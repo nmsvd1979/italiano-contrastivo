@@ -1,0 +1,119 @@
+{
+  "id": "doc_a2m07_invito",
+  "title": "E-mail: non posso venire alla festa",
+  "level": "A2",
+  "kind": "lectura",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "E-mail propio que rechaza una invitación a una fiesta y da el motivo, escrito por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "doc_a2m07_invito_00",
+      "it": "Cara Chiara,",
+      "es": "Querida Chiara:"
+    },
+    {
+      "id": "doc_a2m07_invito_01",
+      "it": "grazie per l'invito alla tua festa di sabato!",
+      "es": "¡gracias por la invitación a tu fiesta del sábado!"
+    },
+    {
+      "id": "doc_a2m07_invito_02",
+      "it": "Vorrei tanto venire, ma purtroppo non posso.",
+      "es": "Me encantaría ir, pero lamentablemente no puedo."
+    },
+    {
+      "id": "doc_a2m07_invito_03",
+      "it": "Sabato sera sarò a Firenze da mia nonna.",
+      "es": "El sábado en la noche estaré en Florencia donde mi abuela."
+    },
+    {
+      "id": "doc_a2m07_invito_04",
+      "it": "Se torno presto, passo da te per un saluto.",
+      "es": "Si vuelvo temprano, paso por tu casa a saludar."
+    },
+    {
+      "id": "doc_a2m07_invito_05",
+      "it": "Smetto di lavorare alle sei e parto subito.",
+      "es": "Dejo de trabajar a las seis y salgo de inmediato."
+    },
+    {
+      "id": "doc_a2m07_invito_06",
+      "it": "Penserò a voi durante la festa!",
+      "es": "¡Pensaré en ustedes durante la fiesta!"
+    },
+    {
+      "id": "doc_a2m07_invito_07",
+      "it": "Posso invitarti a cena la settimana prossima?",
+      "es": "¿Puedo invitarte a cenar la próxima semana?"
+    },
+    {
+      "id": "doc_a2m07_invito_08",
+      "it": "Dipende da te: sono libera giovedì o venerdì.",
+      "es": "Depende de ti: estoy libre el jueves o el viernes."
+    },
+    {
+      "id": "doc_a2m07_invito_09",
+      "it": "Un abbraccio, Sara",
+      "es": "Un abrazo, Sara"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué responde Sara a la invitación?",
+      "options": [
+        "Que no puede ir",
+        "Que irá",
+        "Que llegará tarde"
+      ],
+      "answer": 0,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Dónde estará Sara el sábado en la noche?",
+      "options": [
+        "En Roma",
+        "En Florencia",
+        "En su casa"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Qué hará si vuelve temprano?",
+      "options": [
+        "Se quedará en casa",
+        "Llamará por teléfono",
+        "Pasará a saludar"
+      ],
+      "answer": 2,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Qué propone Sara?",
+      "options": [
+        "Una cena la próxima semana",
+        "Un viaje",
+        "Un cine el sábado"
+      ],
+      "answer": 0,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Qué días está libre?",
+      "options": [
+        "Martes o miércoles",
+        "Jueves o viernes",
+        "Sábado o domingo"
+      ],
+      "answer": 1,
+      "evidence": 8
+    }
+  ]
+}

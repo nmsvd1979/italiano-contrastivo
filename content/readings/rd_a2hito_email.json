@@ -1,0 +1,125 @@
+{
+  "id": "rd_a2hito_email",
+  "title": "Un'e-mail a un amico",
+  "kind": "lectura",
+  "level": "A2",
+  "authored": true,
+  "exam": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "E-mail breve a un amigo con planes y una invitación, escrita por la IA; examen de hito.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2hito_email_00",
+      "it": "Ciao Paolo, come stai?",
+      "es": "Hola Paolo, ¿cómo estás?"
+    },
+    {
+      "id": "rd_a2hito_email_01",
+      "it": "Sabato scorso ho visto Matteo e abbiamo parlato di te.",
+      "es": "El sábado pasado vi a Matteo y hablamos de ti."
+    },
+    {
+      "id": "rd_a2hito_email_02",
+      "it": "Dice che hai un nuovo lavoro: congratulazioni!",
+      "es": "Dice que tienes un trabajo nuevo: ¡felicitaciones!"
+    },
+    {
+      "id": "rd_a2hito_email_03",
+      "it": "Il prossimo fine settimana farò una gita in montagna.",
+      "es": "El próximo fin de semana haré una excursión a la montaña."
+    },
+    {
+      "id": "rd_a2hito_email_04",
+      "it": "Partiremo sabato alle otto e torneremo domenica sera.",
+      "es": "Saldremos el sábado a las ocho y volveremos el domingo en la noche."
+    },
+    {
+      "id": "rd_a2hito_email_05",
+      "it": "Ci sarà anche Chiara, la sorella di Matteo.",
+      "es": "También estará Chiara, la hermana de Matteo."
+    },
+    {
+      "id": "rd_a2hito_email_06",
+      "it": "Vuoi venire con noi?",
+      "es": "¿Quieres venir con nosotros?"
+    },
+    {
+      "id": "rd_a2hito_email_07",
+      "it": "Ci divertiremo molto, secondo me.",
+      "es": "Nos divertiremos mucho, creo yo."
+    },
+    {
+      "id": "rd_a2hito_email_08",
+      "it": "Se vuoi, ti passo a prendere alle sette e mezza.",
+      "es": "Si quieres, paso a buscarte a las siete y media."
+    },
+    {
+      "id": "rd_a2hito_email_09",
+      "it": "Fammi sapere presto!",
+      "es": "¡Avísame pronto!"
+    },
+    {
+      "id": "rd_a2hito_email_10",
+      "it": "Un abbraccio, Luca",
+      "es": "Un abrazo, Luca"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Con quién habló Luca el sábado pasado?",
+      "options": [
+        "Con Chiara",
+        "Con Paolo",
+        "Con Matteo"
+      ],
+      "answer": 2,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué novedad tiene Paolo?",
+      "options": [
+        "Un trabajo nuevo",
+        "Una casa nueva",
+        "Un viaje"
+      ],
+      "answer": 0,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Qué harán el próximo fin de semana?",
+      "options": [
+        "Una fiesta",
+        "Una excursión a la montaña",
+        "Una cena en casa"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Cuándo volverán?",
+      "options": [
+        "El sábado en la noche",
+        "El domingo en la noche",
+        "El lunes en la mañana"
+      ],
+      "answer": 1,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿A qué hora pasará Luca a buscar a Paolo?",
+      "options": [
+        "A las ocho",
+        "A las siete",
+        "A las siete y media"
+      ],
+      "answer": 2,
+      "evidence": 8
+    }
+  ]
+}

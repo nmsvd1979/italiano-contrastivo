@@ -1,0 +1,153 @@
+{
+  "id": "rd_a2m09_entrada",
+  "title": "In stazione",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo propio en la boletería de una estación (trato formal): ci de lugar, ci vuole/ci metto y falsos amigos (fermare, salire), escrito por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2m09_entrada_00",
+      "it": "Buongiorno. Vorrei un biglietto per Firenze.",
+      "es": "Buenos días. Quisiera un boleto para Florencia.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m09_entrada_01",
+      "it": "Andata e ritorno?",
+      "es": "¿Ida y vuelta?",
+      "speaker": "Impiegato"
+    },
+    {
+      "id": "rd_a2m09_entrada_02",
+      "it": "Sì, per domani mattina. Quanto tempo ci vuole?",
+      "es": "Sí, para mañana en la mañana. ¿Cuánto tiempo se demora?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m09_entrada_03",
+      "it": "Ci vogliono due ore con il treno veloce.",
+      "es": "Se demora dos horas con el tren rápido.",
+      "speaker": "Impiegato"
+    },
+    {
+      "id": "rd_a2m09_entrada_04",
+      "it": "E con il regionale? Ci metto di più?",
+      "es": "¿Y con el regional? ¿Me demoro más?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m09_entrada_05",
+      "it": "Sì, ci mette tre ore e mezza. Si ferma in ogni stazione.",
+      "es": "Sí, se demora tres horas y media. Se detiene en cada estación.",
+      "speaker": "Impiegato"
+    },
+    {
+      "id": "rd_a2m09_entrada_06",
+      "it": "Allora prendo il veloce. Parte presto?",
+      "es": "Entonces tomo el rápido. ¿Sale temprano?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m09_entrada_07",
+      "it": "Alle otto e dieci, dal binario sette.",
+      "es": "A las ocho y diez, desde el andén siete.",
+      "speaker": "Impiegato"
+    },
+    {
+      "id": "rd_a2m09_entrada_08",
+      "it": "Devo cambiare? Ci arrivo direttamente?",
+      "es": "¿Tengo que cambiar? ¿Llego directamente?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m09_entrada_09",
+      "it": "Sì, ci arriva senza cambiare.",
+      "es": "Sí, llega sin cambiar.",
+      "speaker": "Impiegato"
+    },
+    {
+      "id": "rd_a2m09_entrada_10",
+      "it": "Ottimo. Sono già stato a Firenze: ci vado spesso.",
+      "es": "Excelente. Ya he estado en Florencia: voy seguido.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m09_entrada_11",
+      "it": "Sono trentadue euro. Convalidi il biglietto prima di salire.",
+      "es": "Son treinta y dos euros. Valide el boleto antes de subir.",
+      "speaker": "Impiegato"
+    },
+    {
+      "id": "rd_a2m09_entrada_12",
+      "it": "Ecco. Grazie e buona giornata.",
+      "es": "Aquí tiene. Gracias y buen día.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m09_entrada_13",
+      "it": "Buon viaggio!",
+      "es": "¡Buen viaje!",
+      "speaker": "Impiegato"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Adónde quiere ir Marco?",
+      "options": [
+        "A Bolonia",
+        "A Florencia",
+        "A Roma"
+      ],
+      "answer": 1,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Cuánto se demora el tren rápido?",
+      "options": [
+        "Dos horas",
+        "Tres horas y media",
+        "Una hora"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Qué pasa con el tren regional?",
+      "options": [
+        "No hace paradas",
+        "Se detiene en cada estación",
+        "Sale de otro andén"
+      ],
+      "answer": 1,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿De qué andén sale el tren de Marco?",
+      "options": [
+        "Del cuatro",
+        "Del siete",
+        "Del diez"
+      ],
+      "answer": 1,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Qué debe hacer Marco antes de subir?",
+      "options": [
+        "Validar el boleto",
+        "Pagar de nuevo",
+        "Pedir un taxi"
+      ],
+      "answer": 0,
+      "evidence": 11
+    }
+  ]
+}

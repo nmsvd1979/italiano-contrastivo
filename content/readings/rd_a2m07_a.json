@@ -1,0 +1,135 @@
+{
+  "id": "rd_a2m07_a",
+  "title": "Cosa fai sabato?",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo propio entre dos amigos (tuteo) que hacen planes según el tiempo, escrito por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2m07_a_00",
+      "it": "Ciao Laura! Cosa fai sabato?",
+      "es": "¡Hola Laura! ¿Qué haces el sábado?",
+      "speaker": "Matteo"
+    },
+    {
+      "id": "rd_a2m07_a_01",
+      "it": "Non lo so ancora. Dipende dal tempo.",
+      "es": "Todavía no lo sé. Depende del tiempo.",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_a2m07_a_02",
+      "it": "Se fa bel tempo, andiamo in bicicletta?",
+      "es": "Si hace buen tiempo, ¿vamos en bicicleta?",
+      "speaker": "Matteo"
+    },
+    {
+      "id": "rd_a2m07_a_03",
+      "it": "Volentieri! Ma se piove, che cosa facciamo?",
+      "es": "¡Con gusto! Pero si llueve, ¿qué hacemos?",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_a2m07_a_04",
+      "it": "Vorrei prenotare due biglietti al cinema.",
+      "es": "Quisiera reservar dos entradas para el cine.",
+      "speaker": "Matteo"
+    },
+    {
+      "id": "rd_a2m07_a_05",
+      "it": "Buona idea. Smetto di lavorare alle cinque.",
+      "es": "Buena idea. Dejo de trabajar a las cinco.",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_a2m07_a_06",
+      "it": "Allora ci vediamo alle sei, davanti al cinema.",
+      "es": "Entonces nos vemos a las seis, frente al cine.",
+      "speaker": "Matteo"
+    },
+    {
+      "id": "rd_a2m07_a_07",
+      "it": "Va bene. Verrò in bici se c'è il sole.",
+      "es": "Bien. Iré en bici si hay sol.",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_a2m07_a_08",
+      "it": "Cerco di chiamare Paolo: verrà anche lui?",
+      "es": "Trato de llamar a Paolo: ¿vendrá él también?",
+      "speaker": "Matteo"
+    },
+    {
+      "id": "rd_a2m07_a_09",
+      "it": "Sì, e Sara? Sarà libera?",
+      "es": "Sí, ¿y Sara? ¿Estará libre?",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_a2m07_a_10",
+      "it": "Non lo so. Ti scrivo domani.",
+      "es": "No lo sé. Te escribo mañana.",
+      "speaker": "Matteo"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿De qué depende el plan de Laura?",
+      "options": [
+        "Del tiempo",
+        "Del dinero",
+        "De Paolo"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué harán si hace buen tiempo?",
+      "options": [
+        "Irán al cine",
+        "Irán en bicicleta",
+        "Se quedarán en casa"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿Qué propone Matteo si llueve?",
+      "options": [
+        "Cenar en casa",
+        "Ir al lago",
+        "Ir al cine"
+      ],
+      "answer": 2,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿A qué hora dejará de trabajar Laura?",
+      "options": [
+        "A las cinco",
+        "A las seis",
+        "A las siete"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿A quién intentará llamar Matteo?",
+      "options": [
+        "A Sara",
+        "A Paolo",
+        "A Luca"
+      ],
+      "answer": 1,
+      "evidence": 8
+    }
+  ]
+}

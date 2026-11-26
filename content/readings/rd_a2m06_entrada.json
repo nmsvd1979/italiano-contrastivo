@@ -1,0 +1,153 @@
+{
+  "id": "rd_a2m06_entrada",
+  "title": "In posta: una raccomandata",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo propio en una oficina de correos (trato formal), escrito por la IA con frases típicas de ventanilla.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2m06_entrada_00",
+      "it": "Buongiorno. Vorrei spedire una raccomandata.",
+      "es": "Buenos días. Quisiera enviar una carta certificada.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m06_entrada_01",
+      "it": "Buongiorno. Deve compilare il modulo che è sul bancone.",
+      "es": "Buenos días. Debe llenar el formulario que está sobre el mostrador.",
+      "speaker": "Impiegata"
+    },
+    {
+      "id": "rd_a2m06_entrada_02",
+      "it": "Non capisco quello che devo scrivere qui.",
+      "es": "No entiendo lo que tengo que escribir aquí.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m06_entrada_03",
+      "it": "Il suo nome e l'indirizzo. La firma va in fondo.",
+      "es": "Su nombre y la dirección. La firma va al final.",
+      "speaker": "Impiegata"
+    },
+    {
+      "id": "rd_a2m06_entrada_04",
+      "it": "Ecco fatto. Quanto costa la raccomandata?",
+      "es": "Listo. ¿Cuánto cuesta la carta certificada?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m06_entrada_05",
+      "it": "Sono cinque euro e venti. Vuole la ricevuta?",
+      "es": "Son cinco euros con veinte. ¿Quiere el comprobante?",
+      "speaker": "Impiegata"
+    },
+    {
+      "id": "rd_a2m06_entrada_06",
+      "it": "Sì, grazie. Posso pagare con il bancomat?",
+      "es": "Sí, gracias. ¿Puedo pagar con la tarjeta de débito?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m06_entrada_07",
+      "it": "Sì, ma si paga allo sportello due.",
+      "es": "Sí, pero se paga en la ventanilla dos.",
+      "speaker": "Impiegata"
+    },
+    {
+      "id": "rd_a2m06_entrada_08",
+      "it": "Dov'è lo sportello due?",
+      "es": "¿Dónde está la ventanilla dos?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m06_entrada_09",
+      "it": "In fondo, accanto alla porta.",
+      "es": "Al fondo, junto a la puerta.",
+      "speaker": "Impiegata"
+    },
+    {
+      "id": "rd_a2m06_entrada_10",
+      "it": "Quando arriva la lettera?",
+      "es": "¿Cuándo llega la carta?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m06_entrada_11",
+      "it": "Di solito in tre giorni. Si può seguire la lettera sul sito.",
+      "es": "Por lo general en tres días. Se puede seguir la carta en el sitio web.",
+      "speaker": "Impiegata"
+    },
+    {
+      "id": "rd_a2m06_entrada_12",
+      "it": "Perfetto. Grazie e buona giornata.",
+      "es": "Perfecto. Gracias y que tenga un buen día.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m06_entrada_13",
+      "it": "Buona giornata a Lei.",
+      "es": "Buen día para usted.",
+      "speaker": "Impiegata"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué quiere enviar Marco?",
+      "options": [
+        "Un paquete",
+        "Una carta certificada",
+        "Una postal"
+      ],
+      "answer": 1,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta el envío?",
+      "options": [
+        "5,20 euros",
+        "4 euros",
+        "12 euros"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Dónde se paga?",
+      "options": [
+        "En la ventanilla uno",
+        "En el bar",
+        "En la ventanilla dos"
+      ],
+      "answer": 2,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Cuánto tarda la carta, por lo general?",
+      "options": [
+        "Una semana",
+        "Tres días",
+        "Un día"
+      ],
+      "answer": 1,
+      "evidence": 11
+    },
+    {
+      "prompt_es": "¿Dónde está la ventanilla dos?",
+      "options": [
+        "Al fondo, junto a la puerta",
+        "Frente a la entrada",
+        "En el primer piso"
+      ],
+      "answer": 0,
+      "evidence": 9
+    }
+  ]
+}

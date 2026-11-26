@@ -1,0 +1,141 @@
+{
+  "id": "rd_a2m08_a",
+  "title": "In biblioteca",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo propio en una biblioteca (trato formal con Lei: scusi, senta, si accomodi, prenda), escrito por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2m08_a_00",
+      "it": "Scusi, può aiutarmi? Cerco un libro.",
+      "es": "Disculpe, ¿puede ayudarme? Busco un libro.",
+      "speaker": "Chiara"
+    },
+    {
+      "id": "rd_a2m08_a_01",
+      "it": "Certo. Senta, ha la tessera della biblioteca?",
+      "es": "Claro. Oiga, ¿tiene el carnet de la biblioteca?",
+      "speaker": "Bibliotecario"
+    },
+    {
+      "id": "rd_a2m08_a_02",
+      "it": "No, mi dispiace, non ho la tessera.",
+      "es": "No, lo siento, no tengo el carnet.",
+      "speaker": "Chiara"
+    },
+    {
+      "id": "rd_a2m08_a_03",
+      "it": "Allora si accomodi. Compili questo modulo, per favore.",
+      "es": "Entonces tome asiento. Llene este formulario, por favor.",
+      "speaker": "Bibliotecario"
+    },
+    {
+      "id": "rd_a2m08_a_04",
+      "it": "Ecco fatto. Scrivo anche il telefono?",
+      "es": "Listo. ¿Escribo también el teléfono?",
+      "speaker": "Chiara"
+    },
+    {
+      "id": "rd_a2m08_a_05",
+      "it": "Sì, scriva il numero qui. Poi prenda la tessera.",
+      "es": "Sí, escriba el número aquí. Después tome el carnet.",
+      "speaker": "Bibliotecario"
+    },
+    {
+      "id": "rd_a2m08_a_06",
+      "it": "Grazie. Dove trovo i libri di cucina?",
+      "es": "Gracias. ¿Dónde encuentro los libros de cocina?",
+      "speaker": "Chiara"
+    },
+    {
+      "id": "rd_a2m08_a_07",
+      "it": "Salga al primo piano e giri a destra.",
+      "es": "Suba al primer piso y doble a la derecha.",
+      "speaker": "Bibliotecario"
+    },
+    {
+      "id": "rd_a2m08_a_08",
+      "it": "Posso fotografare le pagine?",
+      "es": "¿Puedo fotografiar las páginas?",
+      "speaker": "Chiara"
+    },
+    {
+      "id": "rd_a2m08_a_09",
+      "it": "No, mi dispiace. Però può fare le fotocopie.",
+      "es": "No, lo siento. Pero puede sacar fotocopias.",
+      "speaker": "Bibliotecario"
+    },
+    {
+      "id": "rd_a2m08_a_10",
+      "it": "Va bene. Quanto costano?",
+      "es": "Está bien. ¿Cuánto cuestan?",
+      "speaker": "Chiara"
+    },
+    {
+      "id": "rd_a2m08_a_11",
+      "it": "Dieci centesimi. Ora vada pure, buona lettura.",
+      "es": "Diez céntimos. Ahora puede pasar, buena lectura.",
+      "speaker": "Bibliotecario"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué busca Chiara?",
+      "options": [
+        "Un libro",
+        "Un diario",
+        "Una revista"
+      ],
+      "answer": 0,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Qué debe llenar para tener el carnet?",
+      "options": [
+        "Un formulario",
+        "Una carta",
+        "Una encuesta"
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Adónde debe ir para los libros de cocina?",
+      "options": [
+        "Al segundo piso",
+        "Al primer piso",
+        "Al sótano"
+      ],
+      "answer": 1,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Qué no puede hacer Chiara con las páginas?",
+      "options": [
+        "Fotocopiarlas",
+        "Fotografiarlas",
+        "Leerlas"
+      ],
+      "answer": 1,
+      "evidence": 9
+    },
+    {
+      "prompt_es": "¿Cuánto cuesta cada fotocopia?",
+      "options": [
+        "Diez céntimos",
+        "Un euro",
+        "Cincuenta céntimos"
+      ],
+      "answer": 0,
+      "evidence": 11
+    }
+  ]
+}

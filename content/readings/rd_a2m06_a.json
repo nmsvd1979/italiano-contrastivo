@@ -1,0 +1,135 @@
+{
+  "id": "rd_a2m06_a",
+  "title": "Allo sportello della banca",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo propio en la ventanilla de un banco (trato formal), escrito por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2m06_a_00",
+      "it": "Buongiorno. Che cosa desidera?",
+      "es": "Buenos días. ¿Qué desea?",
+      "speaker": "Impiegata"
+    },
+    {
+      "id": "rd_a2m06_a_01",
+      "it": "Buongiorno. Vorrei versare duecento euro sul mio conto.",
+      "es": "Buenos días. Quisiera depositar doscientos euros en mi cuenta.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m06_a_02",
+      "it": "Ha il documento e il numero del conto?",
+      "es": "¿Tiene el documento y el número de la cuenta?",
+      "speaker": "Impiegata"
+    },
+    {
+      "id": "rd_a2m06_a_03",
+      "it": "Sì, ecco la carta d'identità.",
+      "es": "Sí, aquí está la cédula de identidad.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m06_a_04",
+      "it": "Grazie. Deve firmare qui, in fondo al modulo.",
+      "es": "Gracias. Debe firmar aquí, al final del formulario.",
+      "speaker": "Impiegata"
+    },
+    {
+      "id": "rd_a2m06_a_05",
+      "it": "Ecco fatto. Posso anche prelevare cinquanta euro?",
+      "es": "Listo. ¿Puedo retirar también cincuenta euros?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m06_a_06",
+      "it": "Certo. Ecco i soldi e la ricevuta.",
+      "es": "Claro. Aquí está el dinero y el comprobante.",
+      "speaker": "Impiegata"
+    },
+    {
+      "id": "rd_a2m06_a_07",
+      "it": "Grazie. Dov'è il bancomat più vicino?",
+      "es": "Gracias. ¿Dónde está el cajero automático más cercano?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m06_a_08",
+      "it": "Qui fuori, accanto alla porta, di fronte al bar.",
+      "es": "Aquí afuera, junto a la puerta, frente al bar.",
+      "speaker": "Impiegata"
+    },
+    {
+      "id": "rd_a2m06_a_09",
+      "it": "A che ora chiude la banca oggi?",
+      "es": "¿A qué hora cierra el banco hoy?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m06_a_10",
+      "it": "Oggi chiudiamo alle quattro. Buona giornata!",
+      "es": "Hoy cerramos a las cuatro. ¡Buen día!",
+      "speaker": "Impiegata"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué quiere hacer Marco primero?",
+      "options": [
+        "Retirar dinero",
+        "Depositar doscientos euros",
+        "Pedir un préstamo"
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Dónde debe firmar?",
+      "options": [
+        "Al final del formulario",
+        "En el sobre",
+        "En el recibo"
+      ],
+      "answer": 0,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Cuánto retira?",
+      "options": [
+        "Cien euros",
+        "Doscientos euros",
+        "Cincuenta euros"
+      ],
+      "answer": 2,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Dónde está el cajero automático?",
+      "options": [
+        "Junto a la puerta, frente al bar",
+        "Al fondo del pasillo",
+        "En el segundo piso"
+      ],
+      "answer": 0,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿A qué hora cierra el banco hoy?",
+      "options": [
+        "A las cuatro",
+        "A las doce",
+        "A las seis"
+      ],
+      "answer": 0,
+      "evidence": 10
+    }
+  ]
+}

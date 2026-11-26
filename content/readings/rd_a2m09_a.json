@@ -1,0 +1,135 @@
+{
+  "id": "rd_a2m09_a",
+  "title": "Alla reception",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo propio en la recepción de un hotel (trato formal), escrito por la IA.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2m09_a_00",
+      "it": "Buonasera. Posso aiutarla?",
+      "es": "Buenas tardes. ¿Puedo ayudarla?",
+      "speaker": "Receptionist"
+    },
+    {
+      "id": "rd_a2m09_a_01",
+      "it": "Buonasera. Ho una camera prenotata a nome Neri.",
+      "es": "Buenas tardes. Tengo una habitación reservada a nombre de Neri.",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_a2m09_a_02",
+      "it": "Un momento. Sì, una camera singola per tre notti.",
+      "es": "Un momento. Sí, una habitación individual por tres noches.",
+      "speaker": "Receptionist"
+    },
+    {
+      "id": "rd_a2m09_a_03",
+      "it": "Esatto. C'è la colazione?",
+      "es": "Exacto. ¿Hay desayuno?",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_a2m09_a_04",
+      "it": "Sì, dalle sette alle dieci. Ecco la chiave.",
+      "es": "Sí, de siete a diez. Aquí está la llave.",
+      "speaker": "Receptionist"
+    },
+    {
+      "id": "rd_a2m09_a_05",
+      "it": "Grazie. Dov'è la camera?",
+      "es": "Gracias. ¿Dónde está la habitación?",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_a2m09_a_06",
+      "it": "Al terzo piano. Salga con l'ascensore.",
+      "es": "En el tercer piso. Suba en el ascensor.",
+      "speaker": "Receptionist"
+    },
+    {
+      "id": "rd_a2m09_a_07",
+      "it": "Domani vado all'aeroporto. Quanto tempo ci vuole?",
+      "es": "Mañana voy al aeropuerto. ¿Cuánto se demora?",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_a2m09_a_08",
+      "it": "Ci vuole mezz'ora in taxi. Posso chiamare un taxi.",
+      "es": "Se demora media hora en taxi. Puedo llamar un taxi.",
+      "speaker": "Receptionist"
+    },
+    {
+      "id": "rd_a2m09_a_09",
+      "it": "Sì, grazie. Alle sette, per favore.",
+      "es": "Sí, gracias. A las siete, por favor.",
+      "speaker": "Laura"
+    },
+    {
+      "id": "rd_a2m09_a_10",
+      "it": "Va bene. Buona serata!",
+      "es": "Muy bien. ¡Buenas noches!",
+      "speaker": "Receptionist"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿A nombre de quién está la reserva?",
+      "options": [
+        "Neri",
+        "Rossi",
+        "Bianchi"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Por cuántas noches es la reserva?",
+      "options": [
+        "Una",
+        "Tres",
+        "Cinco"
+      ],
+      "answer": 1,
+      "evidence": 2
+    },
+    {
+      "prompt_es": "¿En qué piso está la habitación de Laura?",
+      "options": [
+        "En el tercero",
+        "En el segundo",
+        "En el primero"
+      ],
+      "answer": 0,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Cuánto se demora al aeropuerto en taxi?",
+      "options": [
+        "Media hora",
+        "Una hora",
+        "Diez minutos"
+      ],
+      "answer": 0,
+      "evidence": 8
+    },
+    {
+      "prompt_es": "¿A qué hora quiere el taxi Laura?",
+      "options": [
+        "A las seis",
+        "A las siete",
+        "A las ocho"
+      ],
+      "answer": 1,
+      "evidence": 9
+    }
+  ]
+}

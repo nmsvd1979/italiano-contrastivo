@@ -1,0 +1,154 @@
+{
+  "id": "ls_a2m01",
+  "title": "Due amici parlano di lunedì",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo breve escrito por la IA: dos amigos cuentan su lunes con passato prossimo; se apoya en frases cotidianas de A1/A2.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "ls_a2m01_00",
+      "it": "Ciao Giulia! Che cosa hai fatto lunedì?",
+      "es": "¡Hola, Giulia! ¿Qué hiciste el lunes?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m01_01",
+      "it": "Ho lavorato fino alle sei. Poi sono uscita con Anna.",
+      "es": "Trabajé hasta las seis. Después salí con Anna.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2m01_02",
+      "it": "Dove siete andate?",
+      "es": "¿Adónde fueron?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m01_03",
+      "it": "Siamo andate al cinema. Ho visto un film divertente.",
+      "es": "Fuimos al cine. Vi una película divertida.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2m01_04",
+      "it": "Avete mangiato qualcosa?",
+      "es": "¿Comieron algo?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m01_05",
+      "it": "Sì, abbiamo preso una pizza. Io ho scelto la margherita.",
+      "es": "Sí, pedimos una pizza. Yo elegí la margarita.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2m01_06",
+      "it": "Io invece mi sono alzato tardi e sono rimasto a casa.",
+      "es": "Yo, en cambio, me levanté tarde y me quedé en casa.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m01_07",
+      "it": "Hai studiato?",
+      "es": "¿Estudiaste?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2m01_08",
+      "it": "Ho letto un po', poi ho messo in ordine la camera.",
+      "es": "Leí un poco y después ordené la habitación.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m01_09",
+      "it": "Hai già finito il libro di Luca?",
+      "es": "¿Ya terminaste el libro de Luca?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2m01_10",
+      "it": "No, non l'ho ancora finito. Mi è piaciuto molto, però.",
+      "es": "No, todavía no lo terminé. Pero me gustó mucho.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m01_11",
+      "it": "Anch'io! Ho appena comprato lo stesso libro.",
+      "es": "¡Yo también! Acabo de comprar el mismo libro.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "ls_a2m01_12",
+      "it": "Bravissima! Non ho mai letto un libro così bello.",
+      "es": "¡Genial! Nunca leí un libro tan bonito.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "ls_a2m01_13",
+      "it": "Allora ci sentiamo domani. Ciao!",
+      "es": "Entonces hablamos mañana. ¡Chao!",
+      "speaker": "Giulia"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué hizo Giulia después del trabajo?",
+      "options": [
+        "Salió con Anna",
+        "Se quedó en casa",
+        "Estudió con Marco"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué comieron Giulia y Anna?",
+      "options": [
+        "Pasta",
+        "Un sándwich",
+        "Pizza"
+      ],
+      "answer": 2,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Qué hizo Marco el lunes?",
+      "options": [
+        "Fue al cine",
+        "Se quedó en casa",
+        "Salió con Luca"
+      ],
+      "answer": 1,
+      "evidence": 6
+    },
+    {
+      "prompt_es": "¿Marco terminó el libro?",
+      "options": [
+        "Sí, ayer",
+        "No, todavía no",
+        "No, lo dejó"
+      ],
+      "answer": 1,
+      "evidence": 10
+    },
+    {
+      "prompt_es": "¿Qué acaba de comprar Giulia?",
+      "options": [
+        "Una entrada de cine",
+        "Un libro nuevo para Marco",
+        "El mismo libro que lee Marco"
+      ],
+      "answer": 2,
+      "evidence": 11
+    }
+  ],
+  "listen": true
+}

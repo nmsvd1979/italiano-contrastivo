@@ -1,0 +1,154 @@
+{
+  "id": "ls_a2m02",
+  "title": "Nonno, com'era il quartiere?",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo escrito por la IA: una nieta y su abuelo hablan de cómo era antes el barrio (imperfetto, c'era/c'erano, fa/da).",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "ls_a2m02_00",
+      "it": "Nonno, com'era il quartiere quando eri giovane?",
+      "es": "Abuelo, ¿cómo era el barrio cuando eras joven?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m02_01",
+      "it": "Era molto più piccolo. C'erano poche case e molti campi.",
+      "es": "Era mucho más pequeño. Había pocas casas y muchos campos.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m02_02",
+      "it": "E dove giocavi?",
+      "es": "¿Y dónde jugabas?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m02_03",
+      "it": "Giocavo in strada con i miei amici. Non c'erano macchine.",
+      "es": "Jugaba en la calle con mis amigos. No había autos.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m02_04",
+      "it": "Non c'era un parco?",
+      "es": "¿No había un parque?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m02_05",
+      "it": "No, ma c'era una piazza con una fontana.",
+      "es": "No, pero había una plaza con una fuente.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m02_06",
+      "it": "E i negozi? C'erano come oggi?",
+      "es": "¿Y las tiendas? ¿Había como hoy?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m02_07",
+      "it": "C'era solo un negozio, e il padrone era molto simpatico.",
+      "es": "Había una sola tienda y el dueño era muy simpático.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m02_08",
+      "it": "Quando è arrivato il supermercato?",
+      "es": "¿Cuándo llegó el supermercado?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m02_09",
+      "it": "Il supermercato è arrivato venti anni fa.",
+      "es": "El supermercado llegó hace veinte años.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m02_10",
+      "it": "Ti piaceva di più il quartiere di prima?",
+      "es": "¿Te gustaba más el barrio de antes?",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m02_11",
+      "it": "Sì, c'era più tempo. Adesso tutti hanno fretta.",
+      "es": "Sí, había más tiempo. Ahora todos tienen prisa.",
+      "speaker": "Paolo"
+    },
+    {
+      "id": "ls_a2m02_12",
+      "it": "Io abito qui da due anni e mi piace molto.",
+      "es": "Yo vivo aquí hace dos años y me gusta mucho.",
+      "speaker": "Elena"
+    },
+    {
+      "id": "ls_a2m02_13",
+      "it": "Sono contento. Vengo a trovarti fra una settimana.",
+      "es": "Me alegro. Voy a visitarte en una semana.",
+      "speaker": "Paolo"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Qué no había en el barrio cuando el abuelo era joven?",
+      "options": [
+        "Campos",
+        "Autos",
+        "Una plaza"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Cómo era el dueño de la única tienda?",
+      "options": [
+        "Muy simpático",
+        "Muy tímido",
+        "Muy celoso"
+      ],
+      "answer": 0,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Cuándo llegó el supermercado?",
+      "options": [
+        "Hace dos años",
+        "Hace veinte años",
+        "Hace diez años"
+      ],
+      "answer": 1,
+      "evidence": 9
+    },
+    {
+      "prompt_es": "¿Por qué le gustaba más el barrio de antes?",
+      "options": [
+        "Había más tiendas",
+        "Había más tiempo",
+        "Había más parques"
+      ],
+      "answer": 1,
+      "evidence": 11
+    },
+    {
+      "prompt_es": "¿Cuánto tiempo hace que Elena vive en el barrio?",
+      "options": [
+        "Dos años",
+        "Veinte años",
+        "Una semana"
+      ],
+      "answer": 0,
+      "evidence": 12
+    }
+  ],
+  "listen": true
+}

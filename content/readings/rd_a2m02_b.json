@@ -1,0 +1,129 @@
+{
+  "id": "rd_a2m02_b",
+  "title": "Un vecchio amico",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo escrito por la IA: dos viejos amigos se encuentran y recuerdan a un ex novio (imperfetto, fa/da/fra).",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_a2m02_b_00",
+      "it": "Anna! Che sorpresa! Non ci vediamo da tre anni.",
+      "es": "¡Anna! ¡Qué sorpresa! Hace tres años que no nos vemos.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m02_b_01",
+      "it": "È vero! A scuola eravamo sempre insieme.",
+      "es": "¡Es verdad! En el colegio siempre estábamos juntos.",
+      "speaker": "Anna"
+    },
+    {
+      "id": "rd_a2m02_b_02",
+      "it": "Ti ricordi di Davide? Era il tuo fidanzato.",
+      "es": "¿Te acuerdas de Davide? Era tu novio.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m02_b_03",
+      "it": "Sì, era molto geloso, ma anche simpatico.",
+      "es": "Sí, era muy celoso, pero también simpático.",
+      "speaker": "Anna"
+    },
+    {
+      "id": "rd_a2m02_b_04",
+      "it": "Voi uscivate ogni sabato, vero?",
+      "es": "Ustedes salían todos los sábados, ¿verdad?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m02_b_05",
+      "it": "Sì. Poi lui è andato a Roma tre anni fa.",
+      "es": "Sí. Después él se fue a Roma hace tres años.",
+      "speaker": "Anna"
+    },
+    {
+      "id": "rd_a2m02_b_06",
+      "it": "E adesso hai un altro fidanzato?",
+      "es": "¿Y ahora tienes otro novio?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m02_b_07",
+      "it": "No, sono single e sono contenta.",
+      "es": "No, estoy soltera y estoy contenta.",
+      "speaker": "Anna"
+    },
+    {
+      "id": "rd_a2m02_b_08",
+      "it": "Allora vieni alla mia festa fra una settimana?",
+      "es": "Entonces, ¿vienes a mi fiesta en una semana?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m02_b_09",
+      "it": "Volentieri! Grazie dell'invito.",
+      "es": "¡Con gusto! Gracias por la invitación.",
+      "speaker": "Anna"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Cuánto tiempo hace que Marco y Anna no se ven?",
+      "options": [
+        "Un año",
+        "Tres años",
+        "Una semana"
+      ],
+      "answer": 1,
+      "evidence": 0
+    },
+    {
+      "prompt_es": "¿Cómo era Davide según Anna?",
+      "options": [
+        "Tímido y tranquilo",
+        "Celoso pero simpático",
+        "Antipático"
+      ],
+      "answer": 1,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Cuándo salían Anna y Davide?",
+      "options": [
+        "Todos los sábados",
+        "Todos los domingos",
+        "Todas las noches"
+      ],
+      "answer": 0,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Cuándo se fue Davide a Roma?",
+      "options": [
+        "Hace tres años",
+        "Hace una semana",
+        "Hace dos meses"
+      ],
+      "answer": 0,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Cuándo es la fiesta de Marco?",
+      "options": [
+        "Mañana",
+        "En una semana",
+        "El sábado pasado"
+      ],
+      "answer": 1,
+      "evidence": 8
+    }
+  ]
+}

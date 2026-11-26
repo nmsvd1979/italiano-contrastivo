@@ -1,0 +1,129 @@
+{
+  "id": "rd_a2m03_a",
+  "title": "Raccontami cosa è successo!",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo propio para juego de rol: se cuenta una caída con la trama en passato prossimo y el fondo en imperfetto.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "questions": [
+    {
+      "prompt_es": "¿Por qué llega tarde Marco?",
+      "options": [
+        "Perdió el autobús.",
+        "Se cayó de la bicicleta.",
+        "Se quedó dormido."
+      ],
+      "answer": 1,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué hacía Marco cuando se cayó?",
+      "options": [
+        "Miraba el teléfono.",
+        "Escuchaba música.",
+        "Hablaba con Giulia."
+      ],
+      "answer": 0,
+      "evidence": 3
+    },
+    {
+      "prompt_es": "¿Con qué tropezó?",
+      "options": [
+        "Con una piedra.",
+        "Con un perro.",
+        "Con un hoyo."
+      ],
+      "answer": 2,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Cómo está Marco?",
+      "options": [
+        "Muy mal.",
+        "Solo tiene un rasguño.",
+        "Fue al hospital."
+      ],
+      "answer": 1,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Qué propone Giulia?",
+      "options": [
+        "Ir al bar.",
+        "Volver a casa.",
+        "Llamar a un médico."
+      ],
+      "answer": 0,
+      "evidence": 8
+    }
+  ],
+  "sentences": [
+    {
+      "id": "rd_a2m03_a_00",
+      "it": "Marco, sei in ritardo! Che cosa è successo?",
+      "es": "Marco, ¡llegas tarde! ¿Qué pasó?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_a2m03_a_01",
+      "it": "Scusa! Sono caduto dalla bici.",
+      "es": "¡Perdona! Me caí de la bicicleta.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m03_a_02",
+      "it": "Oh no! Dov'eri quando sei caduto?",
+      "es": "¡Ay, no! ¿Dónde estabas cuando te caíste?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_a2m03_a_03",
+      "it": "Ero vicino al parco. Mentre pedalavo, guardavo il telefono.",
+      "es": "Estaba cerca del parque. Mientras pedaleaba, miraba el teléfono.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m03_a_04",
+      "it": "E poi?",
+      "es": "¿Y después?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_a2m03_a_05",
+      "it": "A un tratto ho visto una buca e sono caduto.",
+      "es": "De pronto vi un hoyo y me caí.",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m03_a_06",
+      "it": "Ti sei fatto male?",
+      "es": "¿Te hiciste daño?",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_a2m03_a_07",
+      "it": "No, infatti ho solo un piccolo graffio. Di solito faccio attenzione!",
+      "es": "No, de hecho solo tengo un pequeño rasguño. ¡Normalmente tengo cuidado!",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_a2m03_a_08",
+      "it": "Allora andiamo al bar. Offro io!",
+      "es": "Entonces vamos al bar. ¡Invito yo!",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_a2m03_a_09",
+      "it": "Grazie! Dopo la caduta ho proprio bisogno di un caffè.",
+      "es": "¡Gracias! Después de la caída de verdad necesito un café.",
+      "speaker": "Marco"
+    }
+  ]
+}
