@@ -623,6 +623,43 @@
         "doc_a2m05_catalogo",
         "vh_a2m05"
       ]
+    },
+    {
+      "id": "a2m06",
+      "level": "A2",
+      "title": "Trámites, casa y barrio",
+      "can_do_es": [
+        "Hacer un trámite en correos, en el banco, en una oficina pública o en una secretaría.",
+        "Situar algo con di fronte a, accanto a, in fondo a.",
+        "Decir fechas, años y horarios.",
+        "Entender un reglamento, un cartel y un mensaje de contestador."
+      ],
+      "units": [
+        "u93",
+        "u94",
+        "u95",
+        "u96"
+      ],
+      "entry_reading": "rd_a2m06_entrada",
+      "roleplays": [
+        "rp_a2m06_a",
+        "rp_a2m06_b"
+      ],
+      "tasks": [
+        "ht_a2m06"
+      ],
+      "phrase_groups": [],
+      "library": "integrazione-migranti",
+      "library_task_es": "Elige en el Portale Integrazione Migranti un recurso de nivel A2 sobre servicios y trámites y haz 10 minutos de sus ejercicios.",
+      "writing_es": "Escribe en italiano un texto de 40–60 palabras sobre tu barrio: dónde están el banco y la oficina de correos. Usa al menos 3 expresiones de lugar (di fronte a, accanto a, in fondo a) y una frase con «si può».",
+      "writing_short_es": "Escribe en italiano un mensaje de 25–50 palabras a una oficina de correos: pregunta el horario del sábado y qué documento debes llevar para retirar un paquete. Usa «vorrei» y una hora con «dalle… alle…».",
+      "extra_readings": [
+        "ls_a2m06",
+        "doc_a2m06_modulo",
+        "doc_a2m06_regolamento",
+        "doc_a2m06_orari",
+        "vh_a2m06"
+      ]
     }
   ],
   "units": [
@@ -18190,6 +18227,583 @@
           "start": 11,
           "end": 16,
           "wrong": "rubinetto"
+        }
+      ]
+    },
+    {
+      "id": "u93",
+      "level": "A2",
+      "title": "Situar: di fronte a, accanto a, in fondo a",
+      "goal_es": "Situar: di fronte a, accanto a, in fondo a",
+      "codes": [
+        "ERR_SPAZIO_PREP"
+      ],
+      "why_here": "Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles.",
+      "ficha_es": "Las locuciones de lugar llevan a: di fronte a, accanto a, in fondo a, davanti a (no *di fronte di, *accanto di).\n\nError típico: *di fronte di, *al lato di, *debajo di il → di fronte a, accanto a, sotto il; in fondo a\n\nQué practicas aquí: Preposiciones articuladas con di, a, da, su; Área temática PLIDA A2: Casa; Área temática PLIDA A2: Ciudad; Situar en el espacio (davanti a, dietro, vicino a, sotto, di fronte a).\n\nSituación del módulo: Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles.",
+      "status": "active",
+      "explanation_es": "Las locuciones de lugar llevan a: di fronte a, accanto a, in fondo a, davanti a (no *di fronte di, *accanto di).",
+      "parts": {
+        "descubre": [
+          "s_1246330",
+          "s_2458097",
+          "s_2458099",
+          "s_1246329"
+        ],
+        "practica": [
+          "s_1246330",
+          "s_2458097",
+          "s_2458099",
+          "s_1246329",
+          "s_8466609",
+          "s_3134245",
+          "s_624959",
+          "s_2402972",
+          "s_8466610",
+          "s_5770691",
+          "s_826519",
+          "s_633381",
+          "s_1238378",
+          "s_5775141",
+          "s_6923447",
+          "s_2402974",
+          "s_6875093",
+          "s_11228318",
+          "s_4573360",
+          "s_7909192",
+          "s_3255761",
+          "s_5733864",
+          "s_1114859",
+          "s_1726436",
+          "s_6556340",
+          "s_1339969",
+          "s_13421711",
+          "s_2853187",
+          "s_11944671",
+          "s_9712492",
+          "s_3650323",
+          "s_2268230",
+          "s_8425151"
+        ],
+        "escucha": [
+          "s_1246330",
+          "s_8466609",
+          "s_8466610",
+          "s_1238378",
+          "s_6875093",
+          "s_3255761",
+          "s_6556340",
+          "s_11944671"
+        ],
+        "prueba": [
+          "s_3268598",
+          "s_5770688",
+          "s_3134250",
+          "s_7122892",
+          "s_410182",
+          "s_6556338",
+          "s_5796047",
+          "s_4489654"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1246330",
+          "start": 13,
+          "end": 14,
+          "wrong": "di"
+        },
+        {
+          "id": "s_2458097",
+          "start": 14,
+          "end": 15,
+          "wrong": "di"
+        },
+        {
+          "id": "s_2458099",
+          "start": 16,
+          "end": 17,
+          "wrong": "di"
+        },
+        {
+          "id": "s_1246329",
+          "start": 19,
+          "end": 20,
+          "wrong": "di"
+        }
+      ]
+    },
+    {
+      "id": "u94",
+      "level": "A2",
+      "title": "Fechas, años y horarios",
+      "goal_es": "Fechas, años y horarios",
+      "codes": [
+        "ERR_DATE_ORARI"
+      ],
+      "why_here": "Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles.",
+      "ficha_es": "Con los pisos se usa al: al terzo piano (no *nel terzo piano). Con los años, nel: nel 2020 (no *in 2020). Con el día del mes va el número sin «de»: il 3 maggio; el primero es il primo maggio.\n\nError típico: *in 2020 → nel 2020; *il 3 di maggio → il 3 maggio; *a las 8 → alle 8; *de 9 a 5 → dalle 9 alle 5; *nel terzo piano → al terzo piano; ordinales hasta décimo (primo, secondo, terzo… ; il primo maggio)\n\nQué practicas aquí: Numerales cardinales (también años y precios); Numerales ordinales hasta décimo y fechas (il primo maggio, al terzo piano); Preposiciones articuladas con di, a, da, su; Decir la hora, las fechas y situar en el tiempo (la settimana prossima, fra due giorni).\n\nSituación del módulo: Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles.",
+      "status": "active",
+      "explanation_es": "Con los pisos se usa al: al terzo piano (no *nel terzo piano). Con los años, nel: nel 2020 (no *in 2020). Con el día del mes va el número sin «de»: il 3 maggio; el primero es il primo maggio.",
+      "parts": {
+        "descubre": [
+          "s_1708391",
+          "s_1630544",
+          "s_1708386",
+          "s_4180606"
+        ],
+        "practica": [
+          "s_1708391",
+          "s_1630544",
+          "s_1708386",
+          "s_4180606",
+          "s_777412",
+          "s_839358",
+          "s_612198",
+          "s_1523831",
+          "s_1428559",
+          "s_1851498",
+          "s_10237594",
+          "s_1523830",
+          "s_1708390",
+          "s_521379",
+          "s_1545913",
+          "s_1708389",
+          "s_3637831",
+          "s_5815089",
+          "s_7728990",
+          "s_9002877",
+          "s_1523832",
+          "s_1523835",
+          "s_5511413",
+          "s_1536202",
+          "s_3176331",
+          "s_5617623",
+          "s_656395",
+          "s_7804491",
+          "s_10214295",
+          "s_1506983",
+          "s_1523834",
+          "s_378136",
+          "s_4737518",
+          "s_632360",
+          "s_12015931",
+          "s_1300771",
+          "s_1708384",
+          "s_3176332",
+          "s_373832",
+          "s_5732476",
+          "s_351662",
+          "s_378129",
+          "s_6705206",
+          "s_694344",
+          "s_836247",
+          "s_5732477",
+          "s_945464",
+          "s_1271960",
+          "s_3362123",
+          "s_422370",
+          "s_4269159",
+          "s_606984",
+          "s_11032644",
+          "s_3003176",
+          "s_4511592",
+          "s_5873956",
+          "s_1147913",
+          "s_1283470",
+          "s_422372",
+          "s_12662431",
+          "s_2414781",
+          "s_2721020",
+          "s_1974645",
+          "s_694872",
+          "s_7633795",
+          "s_2721023"
+        ],
+        "escucha": [
+          "s_1708391",
+          "s_1428559",
+          "s_3637831",
+          "s_3176331",
+          "s_4737518",
+          "s_351662",
+          "s_3362123",
+          "s_1147913"
+        ],
+        "prueba": [
+          "s_1389527",
+          "s_3154286",
+          "s_13459169",
+          "s_378130",
+          "s_378139",
+          "s_1134499",
+          "s_3776823",
+          "s_5352875"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1708391",
+          "start": 6,
+          "end": 16,
+          "wrong": "a le dieci"
+        },
+        {
+          "id": "s_1630544",
+          "start": 8,
+          "end": 18,
+          "wrong": "a le dieci"
+        },
+        {
+          "id": "s_1708386",
+          "start": 6,
+          "end": 18,
+          "wrong": "a le quattro"
+        },
+        {
+          "id": "s_4180606",
+          "start": 2,
+          "end": 18,
+          "wrong": "nell'ottavo piano"
+        }
+      ]
+    },
+    {
+      "id": "u95",
+      "level": "A2",
+      "title": "«Si» impersonal y carteles",
+      "goal_es": "«Si» impersonal y carteles (solo reconocer)",
+      "codes": [
+        "ERR_SI_IMPERSONALE"
+      ],
+      "why_here": "Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles.",
+      "ficha_es": "El español dice «se habla»; el italiano, si parla, si può, si dice (con si, no *se). Es la misma construcción con otra palabra: si vendono case.\n\nError típico: *se dice, *se può → si dice, si può; vietato, permesso, obbligatorio, non + infinitivo en carteles. Válido y no es error: si è andati (impersonal en pasado)\n\nQué practicas aquí: «Si» impersonal (si può, si dice, si vendono).\n\nSituación del módulo: Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles.",
+      "productive": false,
+      "status": "active",
+      "explanation_es": "El español dice «se habla»; el italiano, si parla, si può, si dice (con si, no *se). Es la misma construcción con otra palabra: si vendono case.",
+      "parts": {
+        "descubre": [
+          "s_3398133",
+          "s_1803390",
+          "s_3371439",
+          "s_11249978"
+        ],
+        "practica": [
+          "s_3398133",
+          "s_1803390",
+          "s_3371439",
+          "s_11249978",
+          "s_6927038",
+          "s_1709939",
+          "s_2722129",
+          "s_3744757",
+          "s_1868941",
+          "s_3425271",
+          "s_3107109",
+          "s_3744758",
+          "s_1471250",
+          "s_2732199",
+          "s_4449",
+          "s_1490035",
+          "s_5725017",
+          "s_11896096",
+          "s_2157745",
+          "s_14090453",
+          "s_999824",
+          "s_11606816",
+          "s_11251884",
+          "s_1082637",
+          "s_2001363",
+          "s_2126199",
+          "s_2157716",
+          "s_6464047",
+          "s_2352902",
+          "s_11216096",
+          "s_12139455",
+          "s_1516070",
+          "s_6545824",
+          "s_940167",
+          "s_2477604",
+          "s_410130",
+          "s_2188967",
+          "s_3158064",
+          "s_1880966"
+        ],
+        "escucha": [
+          "s_3398133",
+          "s_6927038",
+          "s_1868941",
+          "s_1471250",
+          "s_5725017",
+          "s_999824",
+          "s_2001363",
+          "s_2352902"
+        ],
+        "prueba": [
+          "s_2190066",
+          "s_10708580",
+          "s_13976557",
+          "s_5836991",
+          "s_5709276",
+          "s_12822531",
+          "s_1332311",
+          "s_2855302"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_3398133",
+          "start": 4,
+          "end": 6,
+          "wrong": "se"
+        },
+        {
+          "id": "s_1803390",
+          "start": 5,
+          "end": 7,
+          "wrong": "se"
+        },
+        {
+          "id": "s_3371439",
+          "start": 0,
+          "end": 2,
+          "wrong": "Se"
+        },
+        {
+          "id": "s_11249978",
+          "start": 0,
+          "end": 2,
+          "wrong": "Se"
+        }
+      ]
+    },
+    {
+      "id": "u96",
+      "level": "A2",
+      "title": "Vocabulario: oficinas y banco (solo lo que no está en A1)",
+      "goal_es": "Vocabulario: oficinas y banco (solo lo que no está en A1)",
+      "codes": [
+        "ERR_VOC_UFFICI"
+      ],
+      "why_here": "Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles.",
+      "ficha_es": "Oficinas, banco y trámites: firma, fila (la cola), multa, tassa e tasse (impuestos), domanda (la solicitud; también «pregunta»), patente (el carné de conducir, no la patente), permesso (permiso), appuntamento (cita), certificato, contratto, assegno (cheque), pagamento, bancomat (cajero), comune (ayuntamiento), impiegato (empleado). Las palabras de A1 como sportello, modulo o pacco ya están vistas.\n\nError típico: firma, ricevuta, prelevare, versare, bancomat, codice fiscale, spedire (≠ «expedir»), raccomandata (sportello, modulo, pacco y bolletta ya están en u74/A1)\n\nQué practicas aquí: Área temática PLIDA A2: Instituciones y vida política; Área temática PLIDA A2: Oficinas públicas y servicios; Hacer un trámite en una oficina pública (comune, anagrafe, questura): pedir un documento.\n\nSituación del módulo: Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles.",
+      "words": [
+        {
+          "form": "bancomat",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el cajero automático",
+          "audio": "1ea20a259b8d",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "permesso",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el permiso",
+          "audio": "a30a007f3cf9",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "permiso→permesso: i→e, s doble"
+        },
+        {
+          "form": "impiegato",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el empleado",
+          "audio": "1235ff27c37f",
+          "art": "l'",
+          "sieve": "opaca"
+        },
+        {
+          "form": "appuntamento",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la cita",
+          "audio": "7a7a077801fc",
+          "art": "l'",
+          "sieve": "opaca"
+        },
+        {
+          "form": "certificato",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el certificado",
+          "audio": "e3fb59a46b04",
+          "art": "il",
+          "sieve": "transparente"
+        },
+        {
+          "form": "contratto",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el contrato",
+          "audio": "76e76c9be2d1",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "doble",
+          "note": "contrato→contratto: t doble"
+        },
+        {
+          "form": "assegno",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el cheque",
+          "audio": "debda2c71a99",
+          "art": "l'",
+          "sieve": "opaca"
+        },
+        {
+          "form": "pagamento",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el pago",
+          "audio": "70b940abd78a",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "pago→pagamento: -mento"
+        },
+        {
+          "form": "firma",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la firma",
+          "audio": "9841bfecf095",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "multa",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la multa",
+          "audio": "9e1e7ce9d0d6",
+          "art": "la",
+          "sieve": "transparente"
+        },
+        {
+          "form": "tassa",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el impuesto o la tasa",
+          "audio": "a01a77513c3f",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "doble",
+          "note": "tasa→tassa: s doble"
+        },
+        {
+          "form": "patente",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el carné de conducir",
+          "audio": "fd4a2013cc05",
+          "art": "la",
+          "sieve": "opaca",
+          "note": "Parece 'patente' pero es el carné de conducir",
+          "ff": true
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Oficinas, banco y trámites: firma, fila (la cola), multa, tassa e tasse (impuestos), domanda (la solicitud; también «pregunta»), patente (el carné de conducir, no la patente), permesso (permiso), appuntamento (cita), certificato, contratto, assegno (cheque), pagamento, bancomat (cajero), comune (ayuntamiento), impiegato (empleado). Las palabras de A1 como sportello, modulo o pacco ya están vistas.",
+      "parts": {
+        "descubre": [
+          "s_3482771",
+          "s_3482769",
+          "s_11939100",
+          "s_3482773"
+        ],
+        "practica": [
+          "s_3482771",
+          "s_3482769",
+          "s_11939100",
+          "s_3482773",
+          "s_13383810",
+          "s_13220814",
+          "s_2041848",
+          "s_5633515",
+          "s_7781714",
+          "s_1448589",
+          "s_14023458",
+          "s_1231956",
+          "s_1448590",
+          "s_3482777",
+          "s_3677996",
+          "s_13220853",
+          "s_7229260",
+          "s_13149227",
+          "s_2686152",
+          "s_3838655",
+          "s_1545934",
+          "s_4528554",
+          "s_11033641",
+          "s_13910919",
+          "s_2676740",
+          "s_1739644",
+          "s_499829",
+          "s_5715082",
+          "s_5715081",
+          "s_1168766",
+          "s_3838657",
+          "s_4733734",
+          "s_6572409",
+          "s_1545933",
+          "s_4143042",
+          "s_9706717",
+          "s_1760952",
+          "s_1760958",
+          "s_5617804",
+          "s_13220971",
+          "s_626443",
+          "s_2530949"
+        ],
+        "escucha": [
+          "s_3482771",
+          "s_13220814",
+          "s_14023458",
+          "s_13220853",
+          "s_1545934",
+          "s_1739644",
+          "s_3838657",
+          "s_9706717"
+        ],
+        "prueba": [
+          "s_1448591",
+          "s_1055182",
+          "s_3482775",
+          "s_3482780",
+          "s_2763728",
+          "s_13220946",
+          "s_5715083",
+          "s_3943362"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_3482771",
+          "start": 6,
+          "end": 13,
+          "wrong": "multa"
+        },
+        {
+          "id": "s_3482769",
+          "start": 7,
+          "end": 14,
+          "wrong": "firma"
+        },
+        {
+          "id": "s_11939100",
+          "start": 10,
+          "end": 15,
+          "wrong": "fila"
+        },
+        {
+          "id": "s_3482773",
+          "start": 9,
+          "end": 16,
+          "wrong": "fila"
         }
       ]
     },

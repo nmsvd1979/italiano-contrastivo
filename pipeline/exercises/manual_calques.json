@@ -1280,5 +1280,562 @@
    "kind": "l1_calque",
    "audit2": "ok"
   }
+ ],
+ "ERR_DATE_ORARI": [
+  {
+   "it": "Il museo apre alle nove.",
+   "correct": "alle nove",
+   "wrong": "a le nove",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Il treno parte alle nove.",
+   "correct": "alle nove",
+   "wrong": "a le nove",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Facciamo colazione alle sette.",
+   "correct": "alle sette",
+   "wrong": "a le sette",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Il supermercato apre alle dieci.",
+   "correct": "alle dieci",
+   "wrong": "a le dieci",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "È tornato alle sei.",
+   "correct": "alle sei",
+   "wrong": "a le sei",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Tornerò alle dieci.",
+   "correct": "alle dieci",
+   "wrong": "a le dieci",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Sarò lì alle cinque.",
+   "correct": "alle cinque",
+   "wrong": "a le cinque",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Faremo colazione alle otto.",
+   "correct": "alle otto",
+   "wrong": "a le otto",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Il lavoro sarà finito alle sei.",
+   "correct": "alle sei",
+   "wrong": "a le sei",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "La festa è terminata alle dieci.",
+   "correct": "alle dieci",
+   "wrong": "a le dieci",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ha promesso di venire alle quattro.",
+   "correct": "alle quattro",
+   "wrong": "a le quattro",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "La conferenza è finita alle cinque.",
+   "correct": "alle cinque",
+   "wrong": "a le cinque",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Sì, verrò alle quattro del pomeriggio.",
+   "correct": "alle quattro",
+   "wrong": "a le quattro",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Mi sono alzata alle cinque del mattino.",
+   "correct": "alle cinque",
+   "wrong": "a le cinque",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "È al lavoro ora, però tornerà alle sette.",
+   "correct": "alle sette",
+   "wrong": "a le sette",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Devo essere alla stazione alle tre in punto.",
+   "correct": "alle tre",
+   "wrong": "a le tre",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Lui è al lavoro adesso, però tornerà alle sette.",
+   "correct": "alle sette",
+   "wrong": "a le sette",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Parto alle dieci.",
+   "correct": "alle dieci",
+   "wrong": "a le dieci",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Parto alle quattro.",
+   "correct": "alle quattro",
+   "wrong": "a le quattro",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "È all'ottavo piano.",
+   "correct": "all'ottavo piano",
+   "wrong": "nell'ottavo piano",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Si alza alle sette.",
+   "correct": "alle sette",
+   "wrong": "a le sette",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Può venire alle nove?",
+   "correct": "alle nove",
+   "wrong": "a le nove",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Sono all'ottavo piano.",
+   "correct": "all'ottavo piano",
+   "wrong": "nell'ottavo piano",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Aspetta fino alle sei.",
+   "correct": "alle sei",
+   "wrong": "a le sei",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Posso venire alle tre.",
+   "correct": "alle tre",
+   "wrong": "a le tre",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Potete venire alle nove?",
+   "correct": "alle nove",
+   "wrong": "a le nove",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Stanno all'ottavo piano.",
+   "correct": "all'ottavo piano",
+   "wrong": "nell'ottavo piano",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Il treno parte alle sei.",
+   "correct": "alle sei",
+   "wrong": "a le sei",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Riesco a venire alle tre.",
+   "correct": "alle tre",
+   "wrong": "a le tre",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Aspettiamo fino alle sei.",
+   "correct": "alle sei",
+   "wrong": "a le sei",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Manca un quarto alle due.",
+   "correct": "alle due",
+   "wrong": "a le due",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Riesci a venire alle nove?",
+   "correct": "alle nove",
+   "wrong": "a le nove",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Riesce a venire alle nove?",
+   "correct": "alle nove",
+   "wrong": "a le nove",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Eravate a casa alle dieci?",
+   "correct": "alle dieci",
+   "wrong": "a le dieci",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Le banche aprono alle nove.",
+   "correct": "alle nove",
+   "wrong": "a le nove",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Vieni a casa mia alle otto.",
+   "correct": "alle otto",
+   "wrong": "a le otto",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "La scuola inizia alle nove.",
+   "correct": "alle nove",
+   "wrong": "a le nove",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Prendono il tè alle cinque.",
+   "correct": "alle cinque",
+   "wrong": "a le cinque",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Viene alle sei o alle sette?",
+   "correct": "alle sei",
+   "wrong": "a le sei",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "L'opera comincia alle sette.",
+   "correct": "alle sette",
+   "wrong": "a le sette",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Di solito mi alzo alle otto.",
+   "correct": "alle otto",
+   "wrong": "a le otto",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Riuscite a venire alle nove?",
+   "correct": "alle nove",
+   "wrong": "a le nove",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Faccio colazione alle sette.",
+   "correct": "alle sette",
+   "wrong": "a le sette",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Va sempre a letto alle nove.",
+   "correct": "alle nove",
+   "wrong": "a le nove",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Resta in casa fino alle sei.",
+   "correct": "alle sei",
+   "wrong": "a le sei",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Il pranzo inizia alle dodici.",
+   "correct": "alle dodici",
+   "wrong": "a le dodici",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ci vediamo domenica alle tre.",
+   "correct": "alle tre",
+   "wrong": "a le tre",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Il negozio chiude alle sette.",
+   "correct": "alle sette",
+   "wrong": "a le sette",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Questo treno parte alle nove.",
+   "correct": "alle nove",
+   "wrong": "a le nove",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "La lezione inizia alle dieci.",
+   "correct": "alle dieci",
+   "wrong": "a le dieci",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Solitamente mi alzo alle sei.",
+   "correct": "alle sei",
+   "wrong": "a le sei",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "La scuola comincia alle nove.",
+   "correct": "alle nove",
+   "wrong": "a le nove",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Metterò la sveglia alle sette.",
+   "correct": "alle sette",
+   "wrong": "a le sette",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Vieni qui alle sei, non prima.",
+   "correct": "alle sei",
+   "wrong": "a le sei",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Di solito mi sveglio alle sei.",
+   "correct": "alle sei",
+   "wrong": "a le sei",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Il negozio chiude alle undici.",
+   "correct": "alle undici",
+   "wrong": "a le undici",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "La lezione comincia alle dieci.",
+   "correct": "alle dieci",
+   "wrong": "a le dieci",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Suonano la campanella alle otto.",
+   "correct": "alle otto",
+   "wrong": "a le otto",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Il programma comincia alle nove.",
+   "correct": "alle nove",
+   "wrong": "a le nove",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  }
+ ],
+ "ERR_SI_IMPERSONALE": [
+  {
+   "it": "Non si può!",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Come si può?",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Cosa si può dire?",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ma davvero si può?",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Dove si può firmare?",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non si può avere tutto.",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non si vive solo d'aria.",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "In Egitto si parla arabo.",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "La felicità non si compra.",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "In Brasile si parla portoghese.",
+   "correct": "si parla",
+   "wrong": "se parla",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non si può comprare la felicità.",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "In Ungheria si parla l'ungherese.",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Dove si può giocare a calcio balilla?",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Si può cenare tra le nove e le dodici.",
+   "correct": "Si",
+   "wrong": "Se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "La vita comincia quando si pagano le tasse.",
+   "correct": "si pagano",
+   "wrong": "se pagano",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Come si può avere successo senza una buona istruzione?",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non si può dire \"no\".",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non si può vivere qui.",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Dove si può telefonare?",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Dove si usa il francese?",
+   "correct": "si",
+   "wrong": "se",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  }
  ]
 }

@@ -1,0 +1,1971 @@
+[
+ {
+  "id": "s_5775141",
+  "veredicto": "keep",
+  "espanol": "¿Puedo sentarme a su lado?",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_624959",
+  "veredicto": "keep",
+  "espanol": "Miré a mi alrededor.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_394287",
+  "veredicto": "reject",
+  "nota": "figurado, no espacial",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_2268230",
+  "veredicto": "keep",
+  "espanol": "El auto está estacionado frente a ese edificio.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_1265937",
+  "veredicto": "reject",
+  "nota": "uso figurado, léxico B1",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_1246330",
+  "veredicto": "keep",
+  "espanol": "Vive a mi lado.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_2458097",
+  "veredicto": "keep",
+  "espanol": "Vive junto a mí.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_2458099",
+  "veredicto": "keep",
+  "espanol": "Vive al lado mío.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_1246329",
+  "veredicto": "keep",
+  "espanol": "Él vive al lado mío.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_633381",
+  "veredicto": "keep",
+  "espanol": "¿Puedo sentarme a tu lado?",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_1238378",
+  "veredicto": "keep",
+  "espanol": "¿Puedo sentarme a su lado?",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_5733864",
+  "veredicto": "keep",
+  "espanol": "Miren hacia delante, por favor.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_3134245",
+  "veredicto": "keep",
+  "espanol": "Vivía junto a su tío.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_3268598",
+  "veredicto": "keep",
+  "espanol": "Se sentó a mi lado.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_2402972",
+  "veredicto": "keep",
+  "espanol": "Yo estaba sentado entre ellos.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_826519",
+  "veredicto": "keep",
+  "espanol": "Se sentó al lado mío.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_3134250",
+  "veredicto": "keep",
+  "espanol": "Él vivía junto a su tío.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_7122892",
+  "veredicto": "keep",
+  "espanol": "Tom lo hizo delante de todos.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_2402974",
+  "veredicto": "keep",
+  "espanol": "Me senté entre ellos.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_6875093",
+  "veredicto": "keep",
+  "espanol": "Tom se sentó junto a Mary.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_4573360",
+  "veredicto": "keep",
+  "espanol": "Tom estaba de pie delante de Mary.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_11228318",
+  "veredicto": "keep",
+  "espanol": "El parque está frente a mi casa.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_410182",
+  "veredicto": "keep",
+  "espanol": "Ella vive al lado de nuestra casa.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_3255761",
+  "veredicto": "keep",
+  "espanol": "Tom se sentó junto a Mary.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_6556340",
+  "veredicto": "keep",
+  "espanol": "Pasé corriendo delante de ellos.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_6556338",
+  "veredicto": "keep",
+  "espanol": "Pasé corriendo delante de ellos.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_1726436",
+  "veredicto": "keep",
+  "espanol": "Una chica apareció frente a mí.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_2853187",
+  "veredicto": "keep",
+  "espanol": "Hay un árbol alto delante de mi casa.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_2818240",
+  "veredicto": "keep",
+  "espanol": "Tom estaba sentado junto a Mary en el concierto.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_4573344",
+  "veredicto": "reject",
+  "nota": "uso figurado, no espacial",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_13421711",
+  "veredicto": "keep",
+  "espanol": "El bus se detiene delante de mi casa.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_5796047",
+  "veredicto": "keep",
+  "espanol": "El bus se detiene frente a mi casa.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_3525458",
+  "veredicto": "keep",
+  "espanol": "Tom puso el cenicero delante de Mary.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_13383142",
+  "veredicto": "reject",
+  "nota": "registro literario, nivel B1",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_11944671",
+  "veredicto": "keep",
+  "espanol": "El jardín alrededor de mi casa es hermosísimo.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_9712492",
+  "veredicto": "keep",
+  "espanol": "Alguien estacionó frente a mi casa.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_5947185",
+  "veredicto": "keep",
+  "espanol": "El escritorio de Tom está junto al de Mary.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_3650323",
+  "veredicto": "keep",
+  "espanol": "¿Quién es la chica guapa sentada al lado de Jack?",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_4489654",
+  "veredicto": "keep",
+  "espanol": "De repente apareció un oso delante de nosotros.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_5268839",
+  "veredicto": "reject",
+  "nota": "uso temporal/figurado",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_10829066",
+  "veredicto": "reject",
+  "nota": "antinatural: «davanti a una città»",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_8425151",
+  "veredicto": "keep",
+  "espanol": "Me pongo nervioso cuando hablo delante de mucha gente.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_4008404",
+  "veredicto": "reject",
+  "nota": "uso figurado",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_8466609",
+  "veredicto": "keep",
+  "espanol": "Estaba sentado a mi lado.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_8466610",
+  "veredicto": "keep",
+  "espanol": "Estaba sentado al lado mío.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_5770691",
+  "veredicto": "keep",
+  "espanol": "Yo estaba sentada al lado de ella.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_5770688",
+  "veredicto": "keep",
+  "espanol": "Yo estaba sentado al lado de ella.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_6923447",
+  "veredicto": "keep",
+  "espanol": "Tom estaba sentado junto a Mary.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_7909192",
+  "veredicto": "keep",
+  "espanol": "Tom estaba sentado al lado de Mary.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_1114859",
+  "veredicto": "keep",
+  "espanol": "Tom estaba sentado dos filas delante de mí.",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_1339969",
+  "veredicto": "keep",
+  "espanol": "¿Pero estaba sentado en el avión a tu lado?",
+  "nivel": "A2",
+  "codigo": "ERR_SPAZIO_PREP"
+ },
+ {
+  "id": "s_13220814",
+  "veredicto": "keep",
+  "espanol": "Firme el contrato.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_1168766",
+  "veredicto": "keep",
+  "espanol": "Quiero cobrar un cheque.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_626443",
+  "veredicto": "keep",
+  "espanol": "Ella se casó con un empleado bancario.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_3943362",
+  "veredicto": "keep",
+  "espanol": "Tom me dio permiso para ir.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_2530949",
+  "veredicto": "keep",
+  "espanol": "No necesito el permiso de nadie.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_6819785",
+  "veredicto": "reject",
+  "nota": "verbo permettersi, no el sustantivo permesso",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_897149",
+  "veredicto": "reject",
+  "nota": "error ortográfico «ilegale»; nombre raro",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_3935676",
+  "veredicto": "reject",
+  "nota": "delito: conducir sin licencia",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_13048668",
+  "veredicto": "reject",
+  "nota": "infracción, condicional, nivel B1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_3482771",
+  "veredicto": "keep",
+  "espanol": "¿Tiene licencia de conducir?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_3482769",
+  "veredicto": "keep",
+  "espanol": "¿Tienes licencia de conducir?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_11939100",
+  "veredicto": "keep",
+  "espanol": "¿Qué es un impuesto?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_3482773",
+  "veredicto": "keep",
+  "espanol": "¿Tienen licencia de conducir?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_13383810",
+  "veredicto": "keep",
+  "espanol": "¿Dónde hay un cajero automático?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_7781714",
+  "veredicto": "keep",
+  "espanol": "No es mi firma.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_5633515",
+  "veredicto": "keep",
+  "espanol": "Tom es un empleado.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_1448591",
+  "veredicto": "keep",
+  "espanol": "¿Tiene una cita?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_2041848",
+  "veredicto": "keep",
+  "espanol": "Tengo una cita.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_1448589",
+  "veredicto": "keep",
+  "espanol": "¿Tienes una cita?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_14023458",
+  "veredicto": "keep",
+  "espanol": "¿Esto es un cajero automático?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_1231956",
+  "veredicto": "keep",
+  "espanol": "Tom no tiene licencia de conducir.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_1055182",
+  "veredicto": "keep",
+  "espanol": "Ella no tiene licencia de conducir.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_1448590",
+  "veredicto": "keep",
+  "espanol": "¿Tienen una cita?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_9723792",
+  "veredicto": "doubt",
+  "nota": "«firma» imperativo, sin contexto de oficina",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_3677996",
+  "veredicto": "keep",
+  "espanol": "Va contra el contrato.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_3482777",
+  "veredicto": "keep",
+  "espanol": "¿Tiene licencia de conducir?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_9723791",
+  "veredicto": "doubt",
+  "nota": "«firma» imperativo, sin contexto de oficina",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_13220853",
+  "veredicto": "keep",
+  "espanol": "El contrato vence hoy.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_7229260",
+  "veredicto": "keep",
+  "espanol": "No está en mi contrato.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_3482775",
+  "veredicto": "keep",
+  "espanol": "¿Tienes licencia de conducir?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_3838655",
+  "veredicto": "keep",
+  "espanol": "Necesito la firma de Tom.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_2686152",
+  "veredicto": "keep",
+  "espanol": "Tenemos que pagar el impuesto.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_13149227",
+  "veredicto": "keep",
+  "espanol": "Es contrario al contrato.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_1545934",
+  "veredicto": "keep",
+  "espanol": "Necesito tu firma aquí.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_4528554",
+  "veredicto": "keep",
+  "espanol": "Tom es nuestro empleado.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_3482780",
+  "veredicto": "keep",
+  "espanol": "¿Tienen licencia de conducir?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_2676740",
+  "veredicto": "keep",
+  "espanol": "Firma abajo, por favor.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_11033641",
+  "veredicto": "keep",
+  "espanol": "Soy empleado de banco.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_13910919",
+  "veredicto": "keep",
+  "espanol": "Tengo que retirar dinero en el cajero automático.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_2763728",
+  "veredicto": "keep",
+  "espanol": "Tengo una licencia de conducir provisoria.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_499829",
+  "veredicto": "keep",
+  "espanol": "¿Tienes una cita con él?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_2676741",
+  "veredicto": "reject",
+  "nota": "sustituta «Tassa» imposible como verbo",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_1739644",
+  "veredicto": "keep",
+  "espanol": "¿Puedo ver su licencia de conducir?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_5715082",
+  "veredicto": "keep",
+  "espanol": "No tiene permiso para hacerlo.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_5715081",
+  "veredicto": "keep",
+  "espanol": "No tienes permiso para hacerlo.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_3838657",
+  "veredicto": "keep",
+  "espanol": "Necesito la firma de Tom.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_13220946",
+  "veredicto": "keep",
+  "espanol": "Estoy firmando mi contrato.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_6572409",
+  "veredicto": "keep",
+  "espanol": "Tengo una cita el viernes.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_4733734",
+  "veredicto": "keep",
+  "espanol": "Tengo una cita esta noche.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_1545933",
+  "veredicto": "keep",
+  "espanol": "Necesito tu firma aquí.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_5715083",
+  "veredicto": "keep",
+  "espanol": "No tienen permiso para hacerlo.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_4299924",
+  "veredicto": "reject",
+  "nota": "certificato es adjetivo, no trámite",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_9706717",
+  "veredicto": "keep",
+  "espanol": "Firmaré el contrato más tarde.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_12031561",
+  "veredicto": "reject",
+  "nota": "frase poco natural",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_4143042",
+  "veredicto": "keep",
+  "espanol": "¿Dónde puedo encontrar un cajero automático?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_1760952",
+  "veredicto": "keep",
+  "espanol": "No necesito su permiso.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_1760958",
+  "veredicto": "keep",
+  "espanol": "No necesito tu permiso.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_5617804",
+  "veredicto": "keep",
+  "espanol": "Tengo una cita con el dentista.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_14003374",
+  "veredicto": "reject",
+  "nota": "metáfora, no sentido de trámite",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_13220971",
+  "veredicto": "keep",
+  "espanol": "No puedo leer este contrato.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_UFFICI"
+ },
+ {
+  "id": "s_7728990",
+  "veredicto": "keep",
+  "espanol": "Estamos en el tercer piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_422372",
+  "veredicto": "keep",
+  "espanol": "Mi departamento está en el cuarto piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1283470",
+  "veredicto": "keep",
+  "espanol": "Nuestra biblioteca está en el tercer piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1506598",
+  "veredicto": "reject",
+  "nota": "Ordinal de curso, no piso ni hora",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_521379",
+  "veredicto": "keep",
+  "espanol": "El museo abre a las nueve.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1708389",
+  "veredicto": "keep",
+  "espanol": "El tren sale a las nueve.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_378129",
+  "veredicto": "keep",
+  "espanol": "Desayunamos a las siete.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1271960",
+  "veredicto": "keep",
+  "espanol": "El supermercado abre a las diez.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1016676",
+  "veredicto": "reject",
+  "nota": "Ordinal de día, no fecha clara",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_777412",
+  "veredicto": "keep",
+  "espanol": "Volvió a las seis.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1630544",
+  "veredicto": "keep",
+  "espanol": "Volveré a las diez.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_612198",
+  "veredicto": "keep",
+  "espanol": "Estaré allí a las cinco.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_656395",
+  "veredicto": "keep",
+  "espanol": "Desayunaremos a las ocho.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_5873954",
+  "veredicto": "reject",
+  "nota": "Passato remoto",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_945464",
+  "veredicto": "keep",
+  "espanol": "El trabajo estará terminado a las seis.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1134499",
+  "veredicto": "keep",
+  "espanol": "La fiesta terminó a las diez.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_5873956",
+  "veredicto": "keep",
+  "espanol": "Prometió venir a las cuatro.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_4511592",
+  "veredicto": "keep",
+  "espanol": "La conferencia se terminó a las cinco.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_3317659",
+  "veredicto": "reject",
+  "nota": "Año de estudios, no fecha",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1147913",
+  "veredicto": "keep",
+  "espanol": "Sí, vendré a las cuatro de la tarde.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_12662431",
+  "veredicto": "keep",
+  "espanol": "Me levanté a las cinco de la mañana.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_2721020",
+  "veredicto": "keep",
+  "espanol": "Ahora él está en el trabajo, pero volverá a las siete.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_694872",
+  "veredicto": "keep",
+  "espanol": "Tengo que estar en la estación a las tres en punto.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_977814",
+  "veredicto": "reject",
+  "nota": "Ordinal sin piso ni hora",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_2721023",
+  "veredicto": "keep",
+  "espanol": "Ahora él está en el trabajo, pero volverá a las siete.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_13541951",
+  "veredicto": "reject",
+  "nota": "Frase filosófica, no fecha",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_11815592",
+  "veredicto": "reject",
+  "nota": "Fila, no piso",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_9002877",
+  "veredicto": "keep",
+  "espanol": "Vivimos en el segundo piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_5815089",
+  "veredicto": "keep",
+  "espanol": "Vivo en el quinto piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_7804491",
+  "veredicto": "keep",
+  "espanol": "Mi casa está en el cuarto piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_4269159",
+  "veredicto": "keep",
+  "espanol": "La biblioteca está en el cuarto piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_11032644",
+  "veredicto": "keep",
+  "espanol": "La biblioteca está en el segundo piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_422370",
+  "veredicto": "keep",
+  "espanol": "Mi pieza está en el cuarto piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_3003176",
+  "veredicto": "keep",
+  "espanol": "Mi oficina está en el quinto piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_3776823",
+  "veredicto": "keep",
+  "espanol": "Está en el primer piso de ese edificio.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_2414781",
+  "veredicto": "keep",
+  "espanol": "La oficina del doctor está en el segundo piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_5352875",
+  "veredicto": "keep",
+  "espanol": "El ascensor se detuvo en el segundo piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_7633795",
+  "veredicto": "keep",
+  "espanol": "También hay oficinas en el segundo piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1974645",
+  "veredicto": "keep",
+  "espanol": "La oficina fue trasladada al sexto piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1708391",
+  "veredicto": "keep",
+  "espanol": "Salgo a las diez.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1708386",
+  "veredicto": "keep",
+  "espanol": "Salgo a las cuatro.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_4180606",
+  "veredicto": "keep",
+  "espanol": "Está en el octavo piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_839358",
+  "veredicto": "keep",
+  "espanol": "Se levanta a las siete.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1523831",
+  "veredicto": "keep",
+  "espanol": "¿Puede venir a las nueve?",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1851498",
+  "veredicto": "keep",
+  "espanol": "Estoy en el octavo piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1389527",
+  "veredicto": "keep",
+  "espanol": "Espera hasta las seis.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_6792022",
+  "veredicto": "reject",
+  "nota": "Año de estudios",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1428559",
+  "veredicto": "keep",
+  "espanol": "Puedo venir a las tres.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_6792024",
+  "veredicto": "reject",
+  "nota": "Año de estudios",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1523830",
+  "veredicto": "keep",
+  "espanol": "¿Pueden venir a las nueve?",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_10237594",
+  "veredicto": "keep",
+  "espanol": "Viven en el octavo piso.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_10012145",
+  "veredicto": "reject",
+  "nota": "Ordinal de hijo",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1708390",
+  "veredicto": "keep",
+  "espanol": "El tren sale a las seis.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_3154286",
+  "veredicto": "keep",
+  "espanol": "Logro venir a las tres.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_3637831",
+  "veredicto": "keep",
+  "espanol": "Esperamos hasta las seis.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1545913",
+  "veredicto": "keep",
+  "espanol": "Falta un cuarto para las dos.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1523832",
+  "veredicto": "keep",
+  "espanol": "¿Puedes venir a las nueve?",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1523835",
+  "veredicto": "keep",
+  "espanol": "¿Puede venir a las nueve?",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_5511413",
+  "veredicto": "keep",
+  "espanol": "¿Estaban en casa a las diez?",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_13282499",
+  "veredicto": "reject",
+  "nota": "Primera lección, sin hora",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_13459169",
+  "veredicto": "keep",
+  "espanol": "Los bancos abren a las nueve.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_5617623",
+  "veredicto": "keep",
+  "espanol": "Ven a mi casa a las ocho.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_3176331",
+  "veredicto": "keep",
+  "espanol": "La escuela empieza a las nueve.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1536202",
+  "veredicto": "keep",
+  "espanol": "Toman el té a las cinco.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1506983",
+  "veredicto": "keep",
+  "espanol": "¿Viene a las seis o a las siete?",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_378130",
+  "veredicto": "keep",
+  "espanol": "La ópera empieza a las siete.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_632360",
+  "veredicto": "keep",
+  "espanol": "Normalmente me levanto a las ocho.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1523834",
+  "veredicto": "keep",
+  "espanol": "¿Pueden venir a las nueve?",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_378136",
+  "veredicto": "keep",
+  "espanol": "Desayuno a las siete.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_10214295",
+  "veredicto": "keep",
+  "espanol": "Siempre se acuesta a las nueve.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_4737518",
+  "veredicto": "keep",
+  "espanol": "Se queda en casa hasta las seis.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_11547916",
+  "veredicto": "reject",
+  "nota": "Ordinal de día de semana",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_12015931",
+  "veredicto": "keep",
+  "espanol": "El almuerzo empieza a las doce.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_373832",
+  "veredicto": "keep",
+  "espanol": "Nos vemos el domingo a las tres.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_378139",
+  "veredicto": "keep",
+  "espanol": "La tienda cierra a las siete.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_6689954",
+  "veredicto": "reject",
+  "nota": "Primer día, sin fecha",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_5014357",
+  "veredicto": "reject",
+  "nota": "Ci si vede, impersonal ambiguo",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1708384",
+  "veredicto": "keep",
+  "espanol": "Este tren sale a las nueve.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_5732476",
+  "veredicto": "keep",
+  "espanol": "La clase empieza a las diez.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1300771",
+  "veredicto": "keep",
+  "espanol": "Normalmente me levanto a las seis.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_3176332",
+  "veredicto": "keep",
+  "espanol": "La escuela empieza a las nueve.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_836247",
+  "veredicto": "keep",
+  "espanol": "Pondré el despertador a las siete.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_694344",
+  "veredicto": "keep",
+  "espanol": "Ven aquí a las seis, no antes.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_351662",
+  "veredicto": "keep",
+  "espanol": "Normalmente me despierto a las seis.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_6705206",
+  "veredicto": "keep",
+  "espanol": "La tienda cierra a las once.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_5732477",
+  "veredicto": "keep",
+  "espanol": "La clase empieza a las diez.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_5346520",
+  "veredicto": "reject",
+  "nota": "Capítulo, no piso",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_1106816",
+  "veredicto": "reject",
+  "nota": "Calle, no piso ni hora",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_3362123",
+  "veredicto": "keep",
+  "espanol": "Tocan el timbre a las ocho.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_606984",
+  "veredicto": "keep",
+  "espanol": "El programa empieza a las nueve.",
+  "nivel": "A2",
+  "codigo": "ERR_DATE_ORARI"
+ },
+ {
+  "id": "s_2722129",
+  "veredicto": "keep",
+  "espanol": "¿Se puede fumar aquí?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3744757",
+  "veredicto": "keep",
+  "espanol": "¿Se puede hablar ahora?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3744758",
+  "veredicto": "keep",
+  "espanol": "¿Se puede hablar ahora?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_1490035",
+  "veredicto": "keep",
+  "espanol": "Allí se come muy bien.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_2157745",
+  "veredicto": "keep",
+  "espanol": "Siempre se puede mejorar.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_1516070",
+  "veredicto": "keep",
+  "espanol": "Se puede ver el Monte Fuji desde aquí.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3398133",
+  "veredicto": "keep",
+  "espanol": "¡No se puede!",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_1803390",
+  "veredicto": "keep",
+  "espanol": "¿Cómo se puede?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_1709939",
+  "veredicto": "keep",
+  "espanol": "¿Qué se puede decir?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_2190066",
+  "veredicto": "keep",
+  "espanol": "Pero, ¿de verdad se puede?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_2512110",
+  "veredicto": "reject",
+  "nota": "Reflexivo, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_1868941",
+  "veredicto": "keep",
+  "espanol": "¿Dónde se puede firmar?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_1471250",
+  "veredicto": "keep",
+  "espanol": "No se puede tener todo.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_13976557",
+  "veredicto": "keep",
+  "espanol": "No se vive solo de aire.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3290757",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_11896096",
+  "veredicto": "keep",
+  "espanol": "En Egipto se habla árabe.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_492352",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_999824",
+  "veredicto": "keep",
+  "espanol": "La felicidad no se compra.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_11090218",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_1082637",
+  "veredicto": "keep",
+  "espanol": "En Brasil se habla portugués.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_2001363",
+  "veredicto": "keep",
+  "espanol": "La felicidad no puede comprarse.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_2352902",
+  "veredicto": "keep",
+  "espanol": "En Hungría se habla húngaro.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_1285222",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3443222",
+  "veredicto": "reject",
+  "nota": "Si deve: ambiguo o reflexivo",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_511329",
+  "veredicto": "reject",
+  "nota": "Ambiguo, idiomático o poco natural",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_4578",
+  "veredicto": "reject",
+  "nota": "Ambiguo, idiomático o poco natural",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_12757816",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_2422715",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_1332311",
+  "veredicto": "keep",
+  "espanol": "¿Dónde se puede jugar al futbolín?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_940167",
+  "veredicto": "keep",
+  "espanol": "Se puede cenar entre las nueve y las doce.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_1303364",
+  "veredicto": "doubt",
+  "espanol": "No hay que empezar la casa por el tejado.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE",
+  "nota": "variante no confirmada: es cambia el sentido: \"no hay que\" no es \"non si può\"."
+ },
+ {
+  "id": "s_410130",
+  "veredicto": "keep",
+  "espanol": "La vida comienza cuando uno paga impuestos.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3529992",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3022713",
+  "veredicto": "doubt",
+  "espanol": "Es más peligroso de lo que parece.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE",
+  "nota": "variante no confirmada: es no traduce \"si può pensare\"."
+ },
+ {
+  "id": "s_6699631",
+  "veredicto": "reject",
+  "nota": "Si deve: ambiguo o reflexivo",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_977824",
+  "veredicto": "reject",
+  "nota": "Ambiguo, idiomático o poco natural",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_6699630",
+  "veredicto": "reject",
+  "nota": "Si deve: ambiguo o reflexivo",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_9061607",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_1100292",
+  "veredicto": "reject",
+  "nota": "Ambiguo, idiomático o poco natural",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_11704398",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_715691",
+  "veredicto": "reject",
+  "nota": "Si deve: ambiguo o reflexivo",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_527172",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_1880966",
+  "veredicto": "keep",
+  "espanol": "¿Cómo se puede ser exitoso sin una buena educación?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_883346",
+  "veredicto": "doubt",
+  "espanol": "No puede hacer una tortilla sin romper los huevos.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE",
+  "nota": "variante no confirmada: es agramatical y pierde el impersonal."
+ },
+ {
+  "id": "s_479749",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_1341731",
+  "veredicto": "reject",
+  "nota": "Si deve: ambiguo o reflexivo",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3101128",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3101084",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3006715",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3371439",
+  "veredicto": "keep",
+  "espanol": "Se puede hacer.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_6927038",
+  "veredicto": "keep",
+  "espanol": "Se puede romper.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_11249978",
+  "veredicto": "keep",
+  "espanol": "Se habla griego.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_2844687",
+  "veredicto": "reject",
+  "nota": "Ambiguo, idiomático o poco natural",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3425271",
+  "veredicto": "keep",
+  "espanol": "Se puede estudiar aquí.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_10701307",
+  "veredicto": "reject",
+  "nota": "Ambiguo, idiomático o poco natural",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_2732199",
+  "veredicto": "keep",
+  "espanol": "Se vive una sola vez.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_5836991",
+  "veredicto": "keep",
+  "espanol": "Aquí se habla francés.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_6450226",
+  "veredicto": "reject",
+  "nota": "Ambiguo, idiomático o poco natural",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_14090453",
+  "veredicto": "keep",
+  "espanol": "¿Se habla también alemán?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_11606816",
+  "veredicto": "keep",
+  "espanol": "¿Todavía se habla egipcio?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3254698",
+  "veredicto": "reject",
+  "nota": "Ambiguo, idiomático o poco natural",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_5411672",
+  "veredicto": "reject",
+  "nota": "Ambiguo, idiomático o poco natural",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3254697",
+  "veredicto": "reject",
+  "nota": "Ambiguo, idiomático o poco natural",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3009200",
+  "veredicto": "reject",
+  "nota": "Ambiguo, idiomático o poco natural",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_5709276",
+  "veredicto": "keep",
+  "espanol": "¿Se habla francés en Canadá?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_2126199",
+  "veredicto": "keep",
+  "espanol": "Se habla catalán en Andorra.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_2157716",
+  "veredicto": "keep",
+  "espanol": "Siempre se puede encontrar tiempo.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_12822531",
+  "veredicto": "keep",
+  "espanol": "¿Se vende también vino importado?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_12139455",
+  "veredicto": "keep",
+  "espanol": "Aquí se venden ropa y calzado.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_6545824",
+  "veredicto": "keep",
+  "espanol": "¿Se pueden comer ostras crudas?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_11251884",
+  "veredicto": "keep",
+  "espanol": "Se habla mucho pero se hace poco.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_6464047",
+  "veredicto": "keep",
+  "espanol": "Siempre se puede contar con nosotros.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_11216096",
+  "veredicto": "keep",
+  "espanol": "¿Se puede jugar ahora y estudiar después?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_2477604",
+  "veredicto": "keep",
+  "espanol": "¿Se pueden tener los huevos fuera del refrigerador?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_2855302",
+  "veredicto": "keep",
+  "espanol": "¡Se puede sentir el olor a chocolate desde afuera!",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_2188967",
+  "veredicto": "keep",
+  "espanol": "¿Se pueden sacar fotos en este edificio?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3158064",
+  "veredicto": "keep",
+  "espanol": "Se puede ver toda la ciudad desde esta colina.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_5690153",
+  "veredicto": "reject",
+  "nota": "Si deve: ambiguo o reflexivo",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3541353",
+  "veredicto": "reject",
+  "nota": "Si deve: ambiguo o reflexivo",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3544378",
+  "veredicto": "doubt",
+  "espanol": "Aquí se puede descansar.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE",
+  "nota": "variante no confirmada: \"ci si\" es impersonal reflexivo, no \"aquí\"."
+ },
+ {
+  "id": "s_8825594",
+  "veredicto": "reject",
+  "nota": "Si deve: ambiguo o reflexivo",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_4134546",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_2711253",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_3107109",
+  "veredicto": "keep",
+  "espanol": "No se puede decir \"no\".",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_9017078",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_10708580",
+  "veredicto": "keep",
+  "espanol": "No se puede vivir aquí.",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_4449",
+  "veredicto": "keep",
+  "espanol": "¿Dónde se puede llamar por teléfono?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_12758271",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_5725017",
+  "veredicto": "keep",
+  "espanol": "¿Dónde se usa el francés?",
+  "nivel": "A2",
+  "codigo": "ERR_SI_IMPERSONALE"
+ },
+ {
+  "id": "s_5492662",
+  "veredicto": "reject",
+  "nota": "Si trova: pasivo de ubicación, no impersonal",
+  "codigo": "ERR_SI_IMPERSONALE"
+ }
+]

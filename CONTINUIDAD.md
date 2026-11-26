@@ -2,6 +2,15 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-26 (40) — Fase 5: módulo a2m06 «Trámites, casa y barrio» construido
+**Pedido del usuario:** «Sigue con a2m06».
+**Hecho:** lista de cierre en rojo → verde (a2m01–a2m06). 291 candidatas auditadas por dos agentes → **212 frases** en cuatro unidades: situar (di fronte a, accanto a…) 41, fechas, años y horarios 74, «si» impersonal y carteles 47, vocabulario de oficinas y banco 50 (79 rechazadas o en duda; respaldo `content/audits/2026-11-26-a2m06-veredictos.json`). Variantes a mano de fechas (59) y «si» (20) confirmadas por una 2.ª pasada adversarial; 4 de «si» fallaron solo por el español y se corrigió. Entrada **propia** `rd_a2m06_entrada` (en correos); 4 unidades nuevas (u93–u96); Salida (2 juegos de rol, tarea oral, 6 preguntas por voz); 274 clips (+24 de segunda voz); voz humana (banco 467); **A1 intacto**. Precache 11,40 MB.
+**Decisiones mías:** el tope de audio sube a **48 MB (A1) + 30 MB (A2) = 78 MB** (se había alcanzado el de A1 solo: 49,2 MB); el detector deja pasar «casa mia alle otto» (posesivo pospuesto + preposición); quité 3 frases con «Tom/Mary» de u93 (tope del 20 %).
+**RIESGO de peso:** el audio total ya es ≈ 59 MB (A1 ≈ 32 MB + A2 ≈ 27 MB tras 6 módulos). Con los 4 módulos que faltan A2 llegará a ≈ 45 MB y pasará su tope de 30 MB: hay que decidir (subir el tope, bajar la tasa de bits del mp3, o dejar el audio de A2 como descarga aparte). El audio solo se baja al usarlo y GitHub Pages admite 1 GB, así que no es un bloqueo, pero conviene decidirlo antes de publicar.
+**Comprobado:** Python 1.522, web 1.537, tsc y build en verde.
+**No comprobado:** iPhone y pasos con una persona; audio sin escuchar; nada revisado por un nativo.
+**Siguiente:** a2m07 (planes, invitaciones e hipótesis: futuro, condicional de cortesía, se + presente, verbos con preposición, vocabulario de cultura y medios; los textos de a2m07 salieron sin potrei/dovresti: reforzar).
+
 ## 2026-11-26 (39) — Fase 5: módulo a2m05 «Comparar y comprar» construido
 **Pedido del usuario:** «Sigue con a2m05».
 **Hecho:** lista de cierre en rojo → verde (a2m01–a2m05). 275 candidatas auditadas por tres agentes → **224 frases** en cinco unidades: comparativos (reutiliza u11) 57, meglio/migliore/-issimo 45, qualche/qualcosa di/nessun 44, quello che / che relativo 46, falsos amigos de casa 50 (43 rechazadas/en duda; respaldo `content/audits/2026-11-26-a2m05-veredictos.json`). La entrada **reutiliza** `rd_negozio` (diálogo propio de A1 m09). 4 unidades nuevas (u89–u92); Salida (2 juegos de rol, tarea oral, 6 preguntas por voz); 268 clips (+17 de segunda voz); voz humana (banco 462); **A1 intacto**. Precache 10,94 MB.

@@ -172,6 +172,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1000159.mp3` — «I cani possono nuotare.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373498
 - `human/1001392.mp3` — «I miei occhi sono azzurri.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1003105
 - `human/1010043.mp3` — «I tuoi capelli sono troppo lunghi.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/425386
+- `human/1006380.mp3` — «Ieri era domenica.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374301
 - `human/1010025.mp3` — «Ieri faceva freddo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379778
 - `human/1004070.mp3` — «Il bambino sta piangendo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5605867
 - `human/1003960.mp3` — «Il braccio mi fa ancora male.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/585930
@@ -199,6 +200,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1004048.mp3` — «L'ho già detto a Tom.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3884912
 - `human/1004677.mp3` — «L'oceano era calmo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/377637
 - `human/1003226.mp3` — «L'orologio si è fermato.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378177
+- `human/1003919.mp3` — «L'orologio è sbagliato.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378178
 - `human/1006414.mp3` — «La casa sta bruciando.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/387541
 - `human/1000198.mp3` — «La cena è pronta!», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380183
 - `human/1000198.mp3` — «La cena è pronta.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380183
@@ -428,6 +430,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1003934.mp3` — «Sei un bravo ragazzo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/381431
 - `human/1003191.mp3` — «Sei uno studente?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373525
 - `human/1006378.mp3` — «Si lamentano sempre.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374190
+- `human/1004723.mp3` — «Si può fare affidamento su di lui.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1005811
 - `human/1003321.mp3` — «Siamo partiti in treno.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3353952
 - `human/1009982.mp3` — «Siamo tutti d'accordo con te.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350731
 - `human/1003916.mp3` — «Siamo vecchi amici.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/377187
@@ -436,6 +439,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/993410.mp3` — «Sono a casa.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378127
 - `human/1001461.mp3` — «Sono andati lì.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5121182
 - `human/1004744.mp3` — «Sono appena tornato.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1287482
+- `human/1004752.mp3` — «Sono arrivato a casa alle sette.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1794752
 - `human/1004711.mp3` — «Sono contro la guerra.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/741751
 - `human/1001318.mp3` — «Sono d'accordo con te.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375622
 - `human/1001317.mp3` — «Sono d'accordo con voi.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375621
@@ -492,6 +496,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1001353.mp3` — «Tom è un mio amico.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/384865
 - `human/1010159.mp3` — «Tom è uno psicologo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5551662
 - `human/1003190.mp3` — «Tom è uno studente.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373523
+- `human/1004644.mp3` — «Tornerò per le sei.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/351140
 - `human/1004662.mp3` — «Tu pensi troppo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374400
 - `human/1001422.mp3` — «Tu sei medico?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2133054
 - `human/1006373.mp3` — «Tutti amano la musica.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373751

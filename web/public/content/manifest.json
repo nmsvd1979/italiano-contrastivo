@@ -85,10 +85,14 @@
     "cap_err_prima_di",
     "cap_err_reflexive_aux",
     "cap_err_relativo_che",
+    "cap_err_si_impersonale",
     "cap_err_tempo_fa_da",
     "cap_err_participle_agreement",
+    "cap_err_date_orari",
     "cap_err_personal_a",
+    "cap_err_spazio_prep",
     "cap_err_voc_carattere",
+    "cap_err_voc_uffici",
     "cap_err_voc_falsi_casa",
     "cap_err_congiuntivo_opinion",
     "cap_err_participle_agreement_clitic",
@@ -176,9 +180,9 @@
       "usable": 82
     },
     "ERR_DATE_ORARI": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 74
     },
     "ERR_FUTURO_RADICE": {
       "capsule": false,
@@ -371,14 +375,14 @@
       "usable": 46
     },
     "ERR_SI_IMPERSONALE": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 47
     },
     "ERR_SPAZIO_PREP": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 41
     },
     "ERR_STARE_GERUNDIO": {
       "capsule": true,
@@ -611,9 +615,9 @@
       "usable": 35
     },
     "ERR_VOC_UFFICI": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 50
     },
     "ERR_VOC_VIAGGIO": {
       "capsule": false,
@@ -632,18 +636,18 @@
     "B1": "items_B1.json"
   },
   "levels": {
-    "A1": 3279,
-    "A2": 1318,
+    "A1": 3329,
+    "A2": 1480,
     "B1": 156,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 4734,
+    "llm-audit": 4946,
     "me": 26
   },
-  "sentences_used": 4083,
+  "sentences_used": 4295,
   "translation_kind": {
-    "direct": 2271,
-    "llm": 1812
+    "direct": 2321,
+    "llm": 1974
   }
 }

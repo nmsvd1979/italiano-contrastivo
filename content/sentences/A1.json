@@ -1798,6 +1798,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Ella no tiene licencia de conducir.",
+    "es_author": "IA (Claude)",
+    "id": "s_1055182",
+    "it": "Lei non ha la patente.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1055182",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Daga007",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -3587,6 +3610,29 @@
     "source_id": "11033275",
     "tag_rules": {
       "ERR_VOC_TEMPO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Soy empleado de banco.",
+    "es_author": "IA (Claude)",
+    "id": "s_11033641",
+    "it": "Sono un impiegato di banca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11033641",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -6035,6 +6081,28 @@
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Quiero cobrar un cheque.",
+    "es_author": "lukaszpp",
+    "es_source_id": "437036",
+    "id": "s_1168766",
+    "it": "Desidero incassare un assegno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1168766",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
     "error_codes": [],
     "es": "Soy un hombre libre.",
     "es_author": "Shishir",
@@ -6932,6 +7000,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "¿Qué es un impuesto?",
+    "es_author": "IA (Claude)",
+    "id": "s_11939100",
+    "it": "Cos'è una tassa?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11939100",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Rovo",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -7715,6 +7806,29 @@
       "ERR_VOC_ABITI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Tom no tiene licencia de conducir.",
+    "es_author": "IA (Claude)",
+    "id": "s_1231956",
+    "it": "Tom non ha la patente.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1231956",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -11125,6 +11239,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Es contrario al contrato.",
+    "es_author": "IA (Claude)",
+    "id": "s_13149227",
+    "it": "È contrario al contratto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13149227",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_POSSESSIVE_SPELLING"
     ],
     "es": "Es tu pan.",
@@ -11478,6 +11615,97 @@
       "ERR_C_G_PALATAL": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Firma el contrato.",
+    "es_author": "UccelloRosso",
+    "es_source_id": "13232498",
+    "id": "s_13220814",
+    "it": "Firmi il contratto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13220814",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "El contrato vence hoy.",
+    "es_author": "IA (Claude)",
+    "id": "s_13220853",
+    "it": "Il contratto scade oggi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13220853",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Estoy firmando mi contrato.",
+    "es_author": "IA (Claude)",
+    "id": "s_13220946",
+    "it": "Sto firmando il mio contratto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13220946",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "No puedo leer este contrato.",
+    "es_author": "IA (Claude)",
+    "id": "s_13220971",
+    "it": "Non posso leggere questo contratto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13220971",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -12734,6 +12962,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "¿Dónde hay un cajero automático?",
+    "es_author": "IA (Claude)",
+    "id": "s_13383810",
+    "it": "Dov'è un Bancomat?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13383810",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_IGIENE"
     ],
     "es": "¿Dónde está mi peine?",
@@ -13670,6 +13921,30 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Nuel",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Tengo que retirar dinero en el cajero automático.",
+    "es_author": "IA (Claude)",
+    "id": "s_13910919",
+    "it": "Devo prelevare al bancomat.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13910919",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -13977,6 +14252,30 @@
     "source_id": "14008532",
     "tag_rules": {
       "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "¿Esto es un cajero automático?",
+    "es_author": "IA (Claude)",
+    "id": "s_14023458",
+    "it": "Questo è un bancomat?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14023458",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -14497,6 +14796,78 @@
       "ERR_VOC_AGGETTIVI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "¿Tienes una cita?",
+    "es_author": "IA (Claude)",
+    "id": "s_1448589",
+    "it": "Hai un appuntamento?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1448589",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "¿Tienen una cita?",
+    "es_author": "IA (Claude)",
+    "id": "s_1448590",
+    "it": "Avete un appuntamento?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1448590",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "¿Tiene una cita?",
+    "es_author": "IA (Claude)",
+    "id": "s_1448591",
+    "it": "Ha un appuntamento?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1448591",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -16102,6 +16473,54 @@
       "ERR_VOC_QUANTITA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Necesito tu firma aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1545933",
+    "it": "Ho bisogno della tua firma qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1545933",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Necesito tu firma aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1545934",
+    "it": "Mi serve la tua firma qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1545934",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -18678,6 +19097,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "¿Puedo ver su licencia de conducir?",
+    "es_author": "IA (Claude)",
+    "id": "s_1739644",
+    "it": "Posso vedere la sua patente?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1739644",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_TEMPO"
     ],
     "es": "Practico deportes casi todos los días.",
@@ -18873,6 +19315,52 @@
     "source_id": "1752992",
     "tag_rules": {
       "ERR_PRESENT_ERE_IRE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "No necesito su permiso.",
+    "es_author": "IA (Claude)",
+    "id": "s_1760952",
+    "it": "Non ho bisogno del suo permesso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1760952",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "No necesito tu permiso.",
+    "es_author": "IA (Claude)",
+    "id": "s_1760958",
+    "it": "Non ho bisogno del tuo permesso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1760958",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -21304,6 +21792,29 @@
     "source_id": "2041814",
     "tag_rules": {
       "ERR_VOC_SERVIZI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Tengo una cita.",
+    "es_author": "IA (Claude)",
+    "id": "s_2041848",
+    "it": "Ho un appuntamento.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2041848",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -25324,6 +25835,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "No necesito el permiso de nadie.",
+    "es_author": "hayastan",
+    "es_source_id": "2375716",
+    "id": "s_2530949",
+    "it": "Non ho bisogno del permesso di nessuno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2530949",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A1",
     "error_codes": [
@@ -26668,6 +27201,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Firma abajo, por favor.",
+    "es_author": "IA (Claude)",
+    "id": "s_2676740",
+    "it": "Firma in basso, per favore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2676740",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_ERE_IRE"
     ],
     "es": "No entiendo inglés.",
@@ -26842,6 +27398,29 @@
       "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Tenemos que pagar el impuesto.",
+    "es_author": "IA (Claude)",
+    "id": "s_2686152",
+    "it": "Dobbiamo pagare la tassa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2686152",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -28250,6 +28829,29 @@
       "ERR_ARTICLE_ALLOMORPH": "articolo_lo_gli_l",
       "ERR_C_G_PALATAL": "c_g_palatale",
       "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Tengo una licencia de conducir provisoria.",
+    "es_author": "IA (Claude)",
+    "id": "s_2763728",
+    "it": "Ho una patente provvisoria.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2763728",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -35598,6 +36200,144 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "¿Tienes licencia de conducir?",
+    "es_author": "IA (Claude)",
+    "id": "s_3482769",
+    "it": "Hai la patente?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3482769",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "¿Tiene licencia de conducir?",
+    "es_author": "IA (Claude)",
+    "id": "s_3482771",
+    "it": "Ha la patente?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3482771",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "¿Tienen licencia de conducir?",
+    "es_author": "IA (Claude)",
+    "id": "s_3482773",
+    "it": "Avete la patente?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3482773",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "¿Tienes licencia de conducir?",
+    "es_author": "IA (Claude)",
+    "id": "s_3482775",
+    "it": "Hai la patente di guida?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3482775",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "¿Tiene licencia de conducir?",
+    "es_author": "IA (Claude)",
+    "id": "s_3482777",
+    "it": "Ha la patente di guida?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3482777",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "¿Tienen licencia de conducir?",
+    "es_author": "IA (Claude)",
+    "id": "s_3482780",
+    "it": "Avete la patente di guida?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3482780",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_MODAL"
     ],
     "es": "¡Quiero quedarme sola!",
@@ -38614,6 +39354,29 @@
     "source_id": "3676865",
     "tag_rules": {
       "ERR_VOC_CIBO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Va contra el contrato.",
+    "es_author": "IA (Claude)",
+    "id": "s_3677996",
+    "it": "Va contro il contratto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3677996",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -44887,6 +45650,52 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Necesito la firma de Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_3838655",
+    "it": "Mi serve la firma di Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3838655",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Necesito la firma de Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_3838657",
+    "it": "Ho bisogno della firma di Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3838657",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -46338,6 +47147,30 @@
     "source_id": "393847",
     "tag_rules": {
       "ERR_C_G_PALATAL": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Tom me dio permiso para ir.",
+    "es_author": "mervert1",
+    "es_source_id": "5354444",
+    "id": "s_3943362",
+    "it": "Tom mi ha dato il permesso di andare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3943362",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -47818,6 +48651,29 @@
     "source_id": "4140535",
     "tag_rules": {
       "ERR_VOC_CONNETTIVI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "¿Dónde puedo encontrar un cajero automático?",
+    "es_author": "IA (Claude)",
+    "id": "s_4143042",
+    "it": "Dove posso trovare un bancomat?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4143042",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -51652,6 +52508,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Tom es nuestro empleado.",
+    "es_author": "IA (Claude)",
+    "id": "s_4528554",
+    "it": "Tom è il nostro impiegato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4528554",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "ianna",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -53051,6 +53930,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Tengo una cita esta noche.",
+    "es_author": "IA (Claude)",
+    "id": "s_4733734",
+    "it": "Io ho un appuntamento stasera.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4733734",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_TEMPOLIBERO"
     ],
     "es": "No tengo guitarra.",
@@ -54096,6 +54998,30 @@
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "tiguliano",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "¿Tienes una cita con él?",
+    "es_author": "IA (Claude)",
+    "id": "s_499829",
+    "it": "Hai un appuntamento con lui?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "499829",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -58250,6 +59176,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Tengo una cita con el dentista.",
+    "es_author": "IA (Claude)",
+    "id": "s_5617804",
+    "it": "Ho un appuntamento dal dentista.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5617804",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_IGIENE"
     ],
     "es": "¿Tienes champú?",
@@ -58336,6 +59285,29 @@
     "source_id": "5633437",
     "tag_rules": {
       "ERR_PRESENT_ARE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Tom es un empleado.",
+    "es_author": "IA (Claude)",
+    "id": "s_5633515",
+    "it": "Tom è un impiegato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5633515",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -58908,6 +59880,75 @@
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "No tienes permiso para hacerlo.",
+    "es_author": "IA (Claude)",
+    "id": "s_5715081",
+    "it": "Non hai il permesso di farlo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5715081",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "No tiene permiso para hacerlo.",
+    "es_author": "IA (Claude)",
+    "id": "s_5715082",
+    "it": "Non ha il permesso di farlo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5715082",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "No tienen permiso para hacerlo.",
+    "es_author": "IA (Claude)",
+    "id": "s_5715083",
+    "it": "Non avete il permesso di farlo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5715083",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -61178,6 +62219,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Ella se casó con un empleado bancario.",
+    "es_author": "hayastan",
+    "es_source_id": "1072691",
+    "id": "s_626443",
+    "it": "Lei ha sposato un impiegato bancario.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "626443",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "rado",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -62480,6 +63545,29 @@
       "ERR_VOC_CIBO": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Tengo una cita el viernes.",
+    "es_author": "IA (Claude)",
+    "id": "s_6572409",
+    "it": "Io ho un appuntamento venerdì.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6572409",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "rado",
@@ -66108,6 +67196,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "No está en mi contrato.",
+    "es_author": "IA (Claude)",
+    "id": "s_7229260",
+    "it": "Non è nel mio contratto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7229260",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_ERE_IRE"
     ],
     "es": "Creo en Dios.",
@@ -67885,6 +68996,29 @@
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "No es mi firma.",
+    "es_author": "IA (Claude)",
+    "id": "s_7781714",
+    "it": "Non è la mia firma.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7781714",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Adelpa",
@@ -72883,6 +74017,29 @@
     "source_id": "9706447",
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "es": "Firmaré el contrato más tarde.",
+    "es_author": "IA (Claude)",
+    "id": "s_9706717",
+    "it": "Firmerò il contratto più tardi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9706717",
+    "tag_rules": {
+      "ERR_VOC_UFFICI": "capsule_calque"
     },
     "translation_kind": "llm"
   },

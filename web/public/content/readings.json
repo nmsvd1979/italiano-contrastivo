@@ -545,6 +545,305 @@
     "sentences": []
   },
   {
+    "id": "doc_a2m06_modulo",
+    "title": "Modulo per raccomandata",
+    "level": "A2",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué se escribe en «Data»?",
+        "options": [
+          "La fecha, por ejemplo 3 maggio 2024",
+          "El precio",
+          "El número de ventanilla"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Dónde va la firma?",
+        "options": [
+          "Al final del formulario",
+          "Arriba, junto al nombre",
+          "En el sobre"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Con qué no hay que firmar?",
+        "options": [
+          "Con lápiz",
+          "Con tinta negra",
+          "Con tinta azul"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Qué se escribe en «Destinatario»?",
+        "options": [
+          "El nombre de quien recibe la carta",
+          "El nombre de quien envía",
+          "El nombre del empleado"
+        ],
+        "answer": 0
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Campo",
+        "Da compilare"
+      ],
+      "rows": [
+        [
+          "Mittente",
+          "Nome e cognome. Esempio: Marco Rossi"
+        ],
+        [
+          "Indirizzo del mittente",
+          "Via e numero. Esempio: via Dante 12, Torino"
+        ],
+        [
+          "Destinatario",
+          "Nome della persona. Esempio: Giulia Bianchi"
+        ],
+        [
+          "Indirizzo del destinatario",
+          "Esempio: via Roma 5, Milano"
+        ],
+        [
+          "Data",
+          "Esempio: 3 maggio 2024"
+        ],
+        [
+          "Firma",
+          "In fondo al modulo. Non scrivere a matita."
+        ],
+        [
+          "Ricevuta",
+          "Segnare Sì o No"
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
+    "id": "doc_a2m06_orari",
+    "title": "Orari dell'ufficio postale",
+    "level": "A2",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Hasta qué hora está abierto de lunes a viernes?",
+        "options": [
+          "Hasta las 12.30",
+          "Hasta las 14.00",
+          "Hasta las 13.00"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Qué día está cerrado?",
+        "options": [
+          "El sábado",
+          "El viernes",
+          "El domingo"
+        ],
+        "answer": 2
+      },
+      {
+        "prompt_es": "¿Dónde se retiran los paquetes?",
+        "options": [
+          "Ventanilla 3, primer piso",
+          "Ventanilla 1, planta baja",
+          "Ventanilla 5"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Cuántas ventanillas atienden el sábado?",
+        "options": [
+          "Dos",
+          "Cinco",
+          "Una"
+        ],
+        "answer": 0
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Giorno",
+        "Orario",
+        "Dove"
+      ],
+      "rows": [
+        [
+          "Lunedì – Venerdì",
+          "8.30 – 14.00",
+          "Sportelli 1–5"
+        ],
+        [
+          "Sabato",
+          "8.30 – 12.30",
+          "Solo sportelli 1 e 2"
+        ],
+        [
+          "Domenica",
+          "Chiuso",
+          "—"
+        ],
+        [
+          "Pacchi",
+          "8.30 – 13.00",
+          "Sportello 3, primo piano"
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
+    "id": "doc_a2m06_regolamento",
+    "title": "Regolamento del condominio",
+    "level": "A2",
+    "kind": "lectura",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué está prohibido hacer delante del portón?",
+        "options": [
+          "Dejar las bicicletas",
+          "Hablar",
+          "Esperar a un amigo"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Hasta qué hora se puede usar la lavadora?",
+        "options": [
+          "Hasta las diez",
+          "Hasta las veinte",
+          "Hasta las siete"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Dónde se puede tender la ropa?",
+        "options": [
+          "En la escalera",
+          "En el patio",
+          "En el balcón"
+        ],
+        "answer": 2,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Cuándo es la reunión?",
+        "options": [
+          "El primer martes del mes",
+          "El último viernes",
+          "Cada lunes"
+        ],
+        "answer": 0,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿Dónde está el portero?",
+        "options": [
+          "En el patio",
+          "En la entrada, junto al ascensor",
+          "En el primer piso"
+        ],
+        "answer": 1,
+        "evidence": 9
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "doc_a2m06_regolamento_00",
+        "it": "In questo condominio si vive bene se si rispettano le regole.",
+        "es": "En este edificio se vive bien si se respetan las reglas.",
+        "audio": "699c13fe00dd"
+      },
+      {
+        "id": "doc_a2m06_regolamento_01",
+        "it": "È vietato lasciare le biciclette davanti al portone.",
+        "es": "Está prohibido dejar las bicicletas frente al portón.",
+        "audio": "5aa203d4691c"
+      },
+      {
+        "id": "doc_a2m06_regolamento_02",
+        "it": "Si può usare la lavatrice dalle otto alle venti.",
+        "es": "Se puede usar la lavadora de las ocho a las veinte.",
+        "audio": "7696dc870df4"
+      },
+      {
+        "id": "doc_a2m06_regolamento_03",
+        "it": "Non fare rumore dopo le dieci di sera.",
+        "es": "No hacer ruido después de las diez de la noche.",
+        "audio": "c9b137941d5b"
+      },
+      {
+        "id": "doc_a2m06_regolamento_04",
+        "it": "Si può stendere il bucato solo sul balcone.",
+        "es": "Se puede tender la ropa solo en el balcón.",
+        "audio": "358d778a48d9"
+      },
+      {
+        "id": "doc_a2m06_regolamento_05",
+        "it": "È vietato fumare sulle scale e nell'ascensore.",
+        "es": "Está prohibido fumar en las escaleras y en el ascensor.",
+        "audio": "a15e0df606e5"
+      },
+      {
+        "id": "doc_a2m06_regolamento_06",
+        "it": "Si può parcheggiare nel cortile solo con il permesso.",
+        "es": "Se puede estacionar en el patio solo con permiso.",
+        "audio": "22b15315a36b"
+      },
+      {
+        "id": "doc_a2m06_regolamento_07",
+        "it": "Non lasciare la spazzatura fuori dalla porta.",
+        "es": "No dejar la basura fuera de la puerta.",
+        "audio": "d1401b1fdf93"
+      },
+      {
+        "id": "doc_a2m06_regolamento_08",
+        "it": "La riunione è il primo martedì del mese, alle sette.",
+        "es": "La reunión es el primer martes del mes, a las siete.",
+        "audio": "042978765266"
+      },
+      {
+        "id": "doc_a2m06_regolamento_09",
+        "it": "Per ogni problema, il portiere è all'ingresso, accanto all'ascensore.",
+        "es": "Para cualquier problema, el portero está en la entrada, junto al ascensor.",
+        "audio": "5b5aa0b62ac0"
+      }
+    ]
+  },
+  {
     "id": "doc_annuncio",
     "title": "Affittasi stanza",
     "level": "A1",
@@ -2207,6 +2506,187 @@
         "es": "Bien. ¡Vamos a la caja!",
         "speaker": "Sara",
         "audio": "0c57d74a0c46"
+      }
+    ]
+  },
+  {
+    "id": "ls_a2m06",
+    "title": "Una telefonata all'ufficio postale",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿A qué hora cierran los sábados?",
+        "options": [
+          "A las dos",
+          "A las doce y media",
+          "A las ocho y media"
+        ],
+        "answer": 1,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Qué documento hay que llevar?",
+        "options": [
+          "Un documento de identidad y el aviso",
+          "Solo una fotocopia",
+          "El contrato de arriendo"
+        ],
+        "answer": 0,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Dónde está la oficina?",
+        "options": [
+          "Junto a la estación",
+          "Frente a la farmacia, junto al bar",
+          "Al fondo de la plaza"
+        ],
+        "answer": 1,
+        "evidence": 10
+      },
+      {
+        "prompt_es": "¿En qué ventanilla está el paquete?",
+        "options": [
+          "La uno",
+          "La dos",
+          "La tres"
+        ],
+        "answer": 2,
+        "evidence": 12
+      },
+      {
+        "prompt_es": "¿A qué hora irá Paolo?",
+        "options": [
+          "A las nueve",
+          "A las dos",
+          "A las doce"
+        ],
+        "answer": 0,
+        "evidence": 13
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_a2m06_00",
+        "it": "Ufficio postale di via Roma, buongiorno.",
+        "es": "Oficina de correos de via Roma, buenos días.",
+        "speaker": "Elena",
+        "audio": "124e5462b10a"
+      },
+      {
+        "id": "ls_a2m06_01",
+        "it": "Buongiorno. Vorrei sapere gli orari dello sportello.",
+        "es": "Buenos días. Quisiera saber los horarios de la ventanilla.",
+        "speaker": "Paolo",
+        "audio": "186565bc0bea",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m06_02",
+        "it": "Siamo aperti dalle otto e trenta alle due, dal lunedì al venerdì.",
+        "es": "Estamos abiertos de las ocho y media a las dos, de lunes a viernes.",
+        "speaker": "Elena",
+        "audio": "f4fc7d031aff"
+      },
+      {
+        "id": "ls_a2m06_03",
+        "it": "E il sabato?",
+        "es": "¿Y los sábados?",
+        "speaker": "Paolo",
+        "audio": "841b97108d7b",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m06_04",
+        "it": "Il sabato chiudiamo alle dodici e trenta.",
+        "es": "Los sábados cerramos a las doce y media.",
+        "speaker": "Elena",
+        "audio": "d67b3380617f"
+      },
+      {
+        "id": "ls_a2m06_05",
+        "it": "Devo ritirare un pacco. Cosa devo portare?",
+        "es": "Tengo que retirar un paquete. ¿Qué tengo que llevar?",
+        "speaker": "Paolo",
+        "audio": "122d14aa2207",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m06_06",
+        "it": "Serve un documento e l'avviso di giacenza.",
+        "es": "Se necesita un documento y el aviso de retiro.",
+        "speaker": "Elena",
+        "audio": "dee11780365c"
+      },
+      {
+        "id": "ls_a2m06_07",
+        "it": "La carta d'identità va bene?",
+        "es": "¿Sirve la cédula de identidad?",
+        "speaker": "Paolo",
+        "audio": "2adb5ce57b29",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m06_08",
+        "it": "Sì, va bene. Ma non serve la fotocopia.",
+        "es": "Sí, sirve. Pero no hace falta la fotocopia.",
+        "speaker": "Elena",
+        "audio": "3fb07a5d2c71"
+      },
+      {
+        "id": "ls_a2m06_09",
+        "it": "Perfetto. Dov'è l'ufficio, esattamente?",
+        "es": "Perfecto. ¿Dónde está la oficina, exactamente?",
+        "speaker": "Paolo",
+        "audio": "13304199e63d",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m06_10",
+        "it": "Siamo di fronte alla farmacia, accanto al bar.",
+        "es": "Estamos frente a la farmacia, junto al bar.",
+        "speaker": "Elena",
+        "audio": "25616b9d7cc2"
+      },
+      {
+        "id": "ls_a2m06_11",
+        "it": "Il pacco è allo sportello uno?",
+        "es": "¿El paquete está en la ventanilla uno?",
+        "speaker": "Paolo",
+        "audio": "35abbf1708ea",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m06_12",
+        "it": "No, allo sportello tre, al primo piano.",
+        "es": "No, en la ventanilla tres, en el primer piso.",
+        "speaker": "Elena",
+        "audio": "708b00b0da86"
+      },
+      {
+        "id": "ls_a2m06_13",
+        "it": "Grazie. Vengo domani mattina alle nove.",
+        "es": "Gracias. Voy mañana por la mañana a las nueve.",
+        "speaker": "Paolo",
+        "audio": "cc81ddf0c6b1",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m06_14",
+        "it": "Benissimo, a domani.",
+        "es": "Muy bien, hasta mañana.",
+        "speaker": "Elena",
+        "audio": "4407f6ba646d"
       }
     ]
   },
@@ -5030,6 +5510,479 @@
         "es": "¡Sí, son comodísimos! Me los llevo.",
         "speaker": "Paolo",
         "audio": "c11368782ae8",
+        "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m06_a",
+    "title": "Allo sportello della banca",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué quiere hacer Marco primero?",
+        "options": [
+          "Retirar dinero",
+          "Depositar doscientos euros",
+          "Pedir un préstamo"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Dónde debe firmar?",
+        "options": [
+          "Al final del formulario",
+          "En el sobre",
+          "En el recibo"
+        ],
+        "answer": 0,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Cuánto retira?",
+        "options": [
+          "Cien euros",
+          "Doscientos euros",
+          "Cincuenta euros"
+        ],
+        "answer": 2,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Dónde está el cajero automático?",
+        "options": [
+          "Junto a la puerta, frente al bar",
+          "Al fondo del pasillo",
+          "En el segundo piso"
+        ],
+        "answer": 0,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿A qué hora cierra el banco hoy?",
+        "options": [
+          "A las cuatro",
+          "A las doce",
+          "A las seis"
+        ],
+        "answer": 0,
+        "evidence": 10
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m06_a_00",
+        "it": "Buongiorno. Che cosa desidera?",
+        "es": "Buenos días. ¿Qué desea?",
+        "speaker": "Impiegata",
+        "audio": "64ba573b0b0d"
+      },
+      {
+        "id": "rd_a2m06_a_01",
+        "it": "Buongiorno. Vorrei versare duecento euro sul mio conto.",
+        "es": "Buenos días. Quisiera depositar doscientos euros en mi cuenta.",
+        "speaker": "Marco",
+        "audio": "88aae8ad4b16",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m06_a_02",
+        "it": "Ha il documento e il numero del conto?",
+        "es": "¿Tiene el documento y el número de la cuenta?",
+        "speaker": "Impiegata",
+        "audio": "f683c87d702a"
+      },
+      {
+        "id": "rd_a2m06_a_03",
+        "it": "Sì, ecco la carta d'identità.",
+        "es": "Sí, aquí está la cédula de identidad.",
+        "speaker": "Marco",
+        "audio": "e491e6dce053",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m06_a_04",
+        "it": "Grazie. Deve firmare qui, in fondo al modulo.",
+        "es": "Gracias. Debe firmar aquí, al final del formulario.",
+        "speaker": "Impiegata",
+        "audio": "336b03cec212"
+      },
+      {
+        "id": "rd_a2m06_a_05",
+        "it": "Ecco fatto. Posso anche prelevare cinquanta euro?",
+        "es": "Listo. ¿Puedo retirar también cincuenta euros?",
+        "speaker": "Marco",
+        "audio": "934d7127b163",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m06_a_06",
+        "it": "Certo. Ecco i soldi e la ricevuta.",
+        "es": "Claro. Aquí está el dinero y el comprobante.",
+        "speaker": "Impiegata",
+        "audio": "55c71bb1d555"
+      },
+      {
+        "id": "rd_a2m06_a_07",
+        "it": "Grazie. Dov'è il bancomat più vicino?",
+        "es": "Gracias. ¿Dónde está el cajero automático más cercano?",
+        "speaker": "Marco",
+        "audio": "f549d64fa3e9",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m06_a_08",
+        "it": "Qui fuori, accanto alla porta, di fronte al bar.",
+        "es": "Aquí afuera, junto a la puerta, frente al bar.",
+        "speaker": "Impiegata",
+        "audio": "6aaaf3245505"
+      },
+      {
+        "id": "rd_a2m06_a_09",
+        "it": "A che ora chiude la banca oggi?",
+        "es": "¿A qué hora cierra el banco hoy?",
+        "speaker": "Marco",
+        "audio": "9ddf4ca1c08f",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m06_a_10",
+        "it": "Oggi chiudiamo alle quattro. Buona giornata!",
+        "es": "Hoy cerramos a las cuatro. ¡Buen día!",
+        "speaker": "Impiegata",
+        "audio": "692e4ad747a8"
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m06_b",
+    "title": "Dov'è l'ufficio?",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué oficina busca Marco?",
+        "options": [
+          "La del Comune (municipalidad)",
+          "El correo",
+          "El banco"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Frente a qué está la oficina?",
+        "options": [
+          "Frente a la biblioteca",
+          "Frente al banco",
+          "Frente al semáforo"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Cuánto tarda a pie?",
+        "options": [
+          "Cinco minutos",
+          "Diez minutos",
+          "Veinte minutos"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué hay que hacer en el semáforo?",
+        "options": [
+          "Seguir derecho",
+          "Girar a la izquierda",
+          "Girar a la derecha"
+        ],
+        "answer": 2,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿En qué piso está la oficina?",
+        "options": [
+          "En el segundo",
+          "En el primero",
+          "En el tercero"
+        ],
+        "answer": 0,
+        "evidence": 9
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m06_b_00",
+        "it": "Scusi, dov'è l'ufficio del Comune?",
+        "es": "Disculpe, ¿dónde está la oficina de la municipalidad?",
+        "speaker": "Marco",
+        "audio": "bc1e55c19a26"
+      },
+      {
+        "id": "rd_a2m06_b_01",
+        "it": "È in piazza Verdi, di fronte alla biblioteca.",
+        "es": "Está en la plaza Verdi, frente a la biblioteca.",
+        "speaker": "Signora",
+        "audio": "f06f38e248dc",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m06_b_02",
+        "it": "È lontano da qui?",
+        "es": "¿Está lejos de aquí?",
+        "speaker": "Marco",
+        "audio": "f2ee79d52d98"
+      },
+      {
+        "id": "rd_a2m06_b_03",
+        "it": "No, a dieci minuti a piedi.",
+        "es": "No, a diez minutos a pie.",
+        "speaker": "Signora",
+        "audio": "3ea14fa6d289",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m06_b_04",
+        "it": "Come ci arrivo?",
+        "es": "¿Cómo llego?",
+        "speaker": "Marco",
+        "audio": "6b5fc4843165"
+      },
+      {
+        "id": "rd_a2m06_b_05",
+        "it": "Si va dritto fino al semaforo, poi a destra.",
+        "es": "Se va derecho hasta el semáforo, luego a la derecha.",
+        "speaker": "Signora",
+        "audio": "766a591efb77",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m06_b_06",
+        "it": "E dopo il semaforo?",
+        "es": "¿Y después del semáforo?",
+        "speaker": "Marco",
+        "audio": "3fea71c5850a"
+      },
+      {
+        "id": "rd_a2m06_b_07",
+        "it": "L'ufficio è in fondo alla strada, accanto alla banca.",
+        "es": "La oficina está al fondo de la calle, junto al banco.",
+        "speaker": "Signora",
+        "audio": "28e90b4c8b6f",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m06_b_08",
+        "it": "A che piano è l'ufficio?",
+        "es": "¿En qué piso está la oficina?",
+        "speaker": "Marco",
+        "audio": "5064c747d16a"
+      },
+      {
+        "id": "rd_a2m06_b_09",
+        "it": "Al secondo piano. Si può usare l'ascensore.",
+        "es": "En el segundo piso. Se puede usar el ascensor.",
+        "speaker": "Signora",
+        "audio": "3194eac66c38",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m06_b_10",
+        "it": "Grazie mille, è stata molto gentile.",
+        "es": "Muchas gracias, ha sido muy amable.",
+        "speaker": "Marco",
+        "audio": "c6a83bf2decf"
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m06_entrada",
+    "title": "In posta: una raccomandata",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué quiere enviar Marco?",
+        "options": [
+          "Un paquete",
+          "Una carta certificada",
+          "Una postal"
+        ],
+        "answer": 1,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta el envío?",
+        "options": [
+          "5,20 euros",
+          "4 euros",
+          "12 euros"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Dónde se paga?",
+        "options": [
+          "En la ventanilla uno",
+          "En el bar",
+          "En la ventanilla dos"
+        ],
+        "answer": 2,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Cuánto tarda la carta, por lo general?",
+        "options": [
+          "Una semana",
+          "Tres días",
+          "Un día"
+        ],
+        "answer": 1,
+        "evidence": 11
+      },
+      {
+        "prompt_es": "¿Dónde está la ventanilla dos?",
+        "options": [
+          "Al fondo, junto a la puerta",
+          "Frente a la entrada",
+          "En el primer piso"
+        ],
+        "answer": 0,
+        "evidence": 9
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m06_entrada_00",
+        "it": "Buongiorno. Vorrei spedire una raccomandata.",
+        "es": "Buenos días. Quisiera enviar una carta certificada.",
+        "speaker": "Marco",
+        "audio": "32bb69cd14dd"
+      },
+      {
+        "id": "rd_a2m06_entrada_01",
+        "it": "Buongiorno. Deve compilare il modulo che è sul bancone.",
+        "es": "Buenos días. Debe llenar el formulario que está sobre el mostrador.",
+        "speaker": "Impiegata",
+        "audio": "e53cc5975ac2",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m06_entrada_02",
+        "it": "Non capisco quello che devo scrivere qui.",
+        "es": "No entiendo lo que tengo que escribir aquí.",
+        "speaker": "Marco",
+        "audio": "ad74dbef3c25"
+      },
+      {
+        "id": "rd_a2m06_entrada_03",
+        "it": "Il suo nome e l'indirizzo. La firma va in fondo.",
+        "es": "Su nombre y la dirección. La firma va al final.",
+        "speaker": "Impiegata",
+        "audio": "30e1405ecb04",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m06_entrada_04",
+        "it": "Ecco fatto. Quanto costa la raccomandata?",
+        "es": "Listo. ¿Cuánto cuesta la carta certificada?",
+        "speaker": "Marco",
+        "audio": "463e0b3974bd"
+      },
+      {
+        "id": "rd_a2m06_entrada_05",
+        "it": "Sono cinque euro e venti. Vuole la ricevuta?",
+        "es": "Son cinco euros con veinte. ¿Quiere el comprobante?",
+        "speaker": "Impiegata",
+        "audio": "197d325ae0eb",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m06_entrada_06",
+        "it": "Sì, grazie. Posso pagare con il bancomat?",
+        "es": "Sí, gracias. ¿Puedo pagar con la tarjeta de débito?",
+        "speaker": "Marco",
+        "audio": "0d4b5ad4f137"
+      },
+      {
+        "id": "rd_a2m06_entrada_07",
+        "it": "Sì, ma si paga allo sportello due.",
+        "es": "Sí, pero se paga en la ventanilla dos.",
+        "speaker": "Impiegata",
+        "audio": "dd088ccd678e",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m06_entrada_08",
+        "it": "Dov'è lo sportello due?",
+        "es": "¿Dónde está la ventanilla dos?",
+        "speaker": "Marco",
+        "audio": "6e1db13ecadc"
+      },
+      {
+        "id": "rd_a2m06_entrada_09",
+        "it": "In fondo, accanto alla porta.",
+        "es": "Al fondo, junto a la puerta.",
+        "speaker": "Impiegata",
+        "audio": "8f63a014f07a",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m06_entrada_10",
+        "it": "Quando arriva la lettera?",
+        "es": "¿Cuándo llega la carta?",
+        "speaker": "Marco",
+        "audio": "990dc74d4eed"
+      },
+      {
+        "id": "rd_a2m06_entrada_11",
+        "it": "Di solito in tre giorni. Si può seguire la lettera sul sito.",
+        "es": "Por lo general en tres días. Se puede seguir la carta en el sitio web.",
+        "speaker": "Impiegata",
+        "audio": "84725145170b",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m06_entrada_12",
+        "it": "Perfetto. Grazie e buona giornata.",
+        "es": "Perfecto. Gracias y que tenga un buen día.",
+        "speaker": "Marco",
+        "audio": "303105571849"
+      },
+      {
+        "id": "rd_a2m06_entrada_13",
+        "it": "Buona giornata a Lei.",
+        "es": "Buen día para usted.",
+        "speaker": "Impiegata",
+        "audio": "cbf4a6d6833c",
         "voice": 2
       }
     ]

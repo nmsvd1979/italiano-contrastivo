@@ -13297,6 +13297,154 @@
     "cefr": "A2",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "El español dice «se habla»; el italiano, si parla, si può, si dice (con si, no *se). Es la misma construcción con otra palabra: si vendono case."
+    },
+    "id": "cap_err_si_impersonale",
+    "retrieval": [
+      {
+        "id": "it_choice_s_1803390_ERR_SI_IMPERSONALE",
+        "options": [
+          {
+            "correct": true,
+            "text": "Come si può?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_SI_IMPERSONALE",
+            "text": "Come se può?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1803390",
+        "target_error_codes": [
+          "ERR_SI_IMPERSONALE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Si"
+        ],
+        "hint_es": "Se puede hacer.",
+        "id": "it_cloze_s_3371439_ERR_SI_IMPERSONALE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3371439",
+        "target_error_codes": [
+          "ERR_SI_IMPERSONALE"
+        ],
+        "text": "___ può fare.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Si",
+          "parla",
+          "greco."
+        ],
+        "id": "it_reorder_s_11249978_ERR_SI_IMPERSONALE",
+        "prompt_es": "Ordena las palabras: «Se habla griego.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11249978",
+        "target_error_codes": [
+          "ERR_SI_IMPERSONALE"
+        ],
+        "tokens": [
+          "greco.",
+          "parla",
+          "Si"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_6927038_ERR_SI_IMPERSONALE",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_SI_IMPERSONALE",
+            "text": "Se può rompere."
+          },
+          {
+            "correct": true,
+            "text": "Si può rompere."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_6927038",
+        "target_error_codes": [
+          "ERR_SI_IMPERSONALE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "si"
+        ],
+        "hint_es": "¿Qué se puede decir?",
+        "id": "it_cloze_s_1709939_ERR_SI_IMPERSONALE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1709939",
+        "target_error_codes": [
+          "ERR_SI_IMPERSONALE"
+        ],
+        "text": "Cosa ___ può dire?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Ma",
+          "davvero",
+          "si",
+          "può?"
+        ],
+        "id": "it_reorder_s_2190066_ERR_SI_IMPERSONALE",
+        "prompt_es": "Ordena las palabras: «Pero, ¿de verdad se puede?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2190066",
+        "target_error_codes": [
+          "ERR_SI_IMPERSONALE"
+        ],
+        "tokens": [
+          "Ma",
+          "si",
+          "può?",
+          "davvero"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Non si può!"
+      ],
+      "id": "it_translate_s_3398133_ERR_SI_IMPERSONALE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3398133",
+      "source_es": "¡No se puede!",
+      "target_error_codes": [
+        "ERR_SI_IMPERSONALE"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "En italiano «fa» va después del tiempo (due anni fa); el español pone «hace» antes (hace dos años). Para lo que dura hasta ahora se usa da (studio italiano da due anni) y para un plazo futuro, fra o tra (fra due giorni), no *in due giorni."
     },
     "id": "cap_err_tempo_fa_da",
@@ -13603,6 +13751,154 @@
     "cefr": "A2",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Con los pisos se usa al: al terzo piano (no *nel terzo piano). Con los años, nel: nel 2020 (no *in 2020). Con el día del mes va el número sin «de»: il 3 maggio; el primero es il primo maggio."
+    },
+    "id": "cap_err_date_orari",
+    "retrieval": [
+      {
+        "id": "it_choice_s_1630544_ERR_DATE_ORARI",
+        "options": [
+          {
+            "correct": true,
+            "text": "Tornerò alle dieci."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_DATE_ORARI",
+            "text": "Tornerò a le dieci."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1630544",
+        "target_error_codes": [
+          "ERR_DATE_ORARI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "alle quattro"
+        ],
+        "hint_es": "Salgo a las cuatro.",
+        "id": "it_cloze_s_1708386_ERR_DATE_ORARI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1708386",
+        "target_error_codes": [
+          "ERR_DATE_ORARI"
+        ],
+        "text": "Parto ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "È",
+          "all'ottavo",
+          "piano."
+        ],
+        "id": "it_reorder_s_4180606_ERR_DATE_ORARI",
+        "prompt_es": "Ordena las palabras: «Está en el octavo piso.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4180606",
+        "target_error_codes": [
+          "ERR_DATE_ORARI"
+        ],
+        "tokens": [
+          "piano.",
+          "È",
+          "all'ottavo"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_777412_ERR_DATE_ORARI",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_DATE_ORARI",
+            "text": "È tornato a le sei."
+          },
+          {
+            "correct": true,
+            "text": "È tornato alle sei."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_777412",
+        "target_error_codes": [
+          "ERR_DATE_ORARI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "alle sette"
+        ],
+        "hint_es": "Se levanta a las siete.",
+        "id": "it_cloze_s_839358_ERR_DATE_ORARI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_839358",
+        "target_error_codes": [
+          "ERR_DATE_ORARI"
+        ],
+        "text": "Si alza ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Sarò",
+          "lì",
+          "alle",
+          "cinque."
+        ],
+        "id": "it_reorder_s_612198_ERR_DATE_ORARI",
+        "prompt_es": "Ordena las palabras: «Estaré allí a las cinco.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_612198",
+        "target_error_codes": [
+          "ERR_DATE_ORARI"
+        ],
+        "tokens": [
+          "cinque.",
+          "lì",
+          "alle",
+          "Sarò"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Parto alle dieci."
+      ],
+      "id": "it_translate_s_1708391_ERR_DATE_ORARI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1708391",
+      "source_es": "Salgo a las diez.",
+      "target_error_codes": [
+        "ERR_DATE_ORARI"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "El español marca el objeto directo animado con 'a'; el italiano no. Verbos típicos: cercare, chiamare, aspettare, vedere, aiutare."
     },
     "id": "cap_err_personal_a",
@@ -13773,6 +14069,164 @@
     "cefr": "A2",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Las locuciones de lugar llevan a: di fronte a, accanto a, in fondo a, davanti a (no *di fronte di, *accanto di)."
+    },
+    "id": "cap_err_spazio_prep",
+    "retrieval": [
+      {
+        "id": "it_choice_s_2458097_ERR_SPAZIO_PREP",
+        "options": [
+          {
+            "correct": true,
+            "text": "Abita accanto a me."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_SPAZIO_PREP",
+            "text": "Abita accanto di me."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2458097",
+        "target_error_codes": [
+          "ERR_SPAZIO_PREP"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "a"
+        ],
+        "hint_es": "Vive al lado mío.",
+        "id": "it_cloze_s_2458099_ERR_SPAZIO_PREP",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2458099",
+        "target_error_codes": [
+          "ERR_SPAZIO_PREP"
+        ],
+        "text": "Abita di fianco ___ me.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Lui",
+          "vive",
+          "di",
+          "fianco",
+          "a",
+          "me."
+        ],
+        "id": "it_reorder_s_1246329_ERR_SPAZIO_PREP",
+        "prompt_es": "Ordena las palabras: «Él vive al lado mío.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1246329",
+        "target_error_codes": [
+          "ERR_SPAZIO_PREP"
+        ],
+        "tokens": [
+          "me.",
+          "vive",
+          "di",
+          "Lui",
+          "fianco",
+          "a"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_8466609_ERR_SPAZIO_PREP",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_SPAZIO_PREP",
+            "text": "Era seduto accanto di me."
+          },
+          {
+            "correct": true,
+            "text": "Era seduto accanto a me."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_8466609",
+        "target_error_codes": [
+          "ERR_SPAZIO_PREP"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "a"
+        ],
+        "hint_es": "Vivía junto a su tío.",
+        "id": "it_cloze_s_3134245_ERR_SPAZIO_PREP",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3134245",
+        "target_error_codes": [
+          "ERR_SPAZIO_PREP"
+        ],
+        "text": "Viveva accanto ___ suo zio.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Si",
+          "è",
+          "seduta",
+          "accanto",
+          "a",
+          "me."
+        ],
+        "id": "it_reorder_s_3268598_ERR_SPAZIO_PREP",
+        "prompt_es": "Ordena las palabras: «Se sentó a mi lado.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3268598",
+        "target_error_codes": [
+          "ERR_SPAZIO_PREP"
+        ],
+        "tokens": [
+          "Si",
+          "me.",
+          "a",
+          "è",
+          "seduta",
+          "accanto"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Vive accanto a me."
+      ],
+      "id": "it_translate_s_1246330_ERR_SPAZIO_PREP",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1246330",
+      "source_es": "Vive a mi lado.",
+      "target_error_codes": [
+        "ERR_SPAZIO_PREP"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "Cómo es una persona y cómo te relacionas: timido, curioso, geloso (celoso), sincero, tranquillo, fidanzato/a (el novio o la novia con compromiso; el simple «novio» sin compromiso es ragazzo), straniero/a (extranjero), vicina (vecina). Los adjetivos concuerdan: timido, timida."
     },
     "id": "cap_err_voc_carattere",
@@ -13925,6 +14379,166 @@
       "source_es": "Tom es tímido.",
       "target_error_codes": [
         "ERR_VOC_CARATTERE"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Oficinas, banco y trámites: firma, fila (la cola), multa, tassa e tasse (impuestos), domanda (la solicitud; también «pregunta»), patente (el carné de conducir, no la patente), permesso (permiso), appuntamento (cita), certificato, contratto, assegno (cheque), pagamento, bancomat (cajero), comune (ayuntamiento), impiegato (empleado). Las palabras de A1 como sportello, modulo o pacco ya están vistas."
+    },
+    "id": "cap_err_voc_uffici",
+    "retrieval": [
+      {
+        "id": "it_choice_s_3482769_ERR_VOC_UFFICI",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Hai la patente?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_UFFICI",
+            "text": "Hai la fila?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_UFFICI",
+            "text": "Hai la firma?"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3482769",
+        "target_error_codes": [
+          "ERR_VOC_UFFICI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "tassa"
+        ],
+        "hint_es": "¿Qué es un impuesto?",
+        "id": "it_cloze_s_11939100_ERR_VOC_UFFICI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11939100",
+        "target_error_codes": [
+          "ERR_VOC_UFFICI"
+        ],
+        "text": "Cos'è una ___?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Avete",
+          "la",
+          "patente?"
+        ],
+        "id": "it_reorder_s_3482773_ERR_VOC_UFFICI",
+        "prompt_es": "Ordena las palabras: «¿Tienen licencia de conducir?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3482773",
+        "target_error_codes": [
+          "ERR_VOC_UFFICI"
+        ],
+        "tokens": [
+          "la",
+          "patente?",
+          "Avete"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_13383810_ERR_VOC_UFFICI",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_UFFICI",
+            "text": "Dov'è un Comune?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_UFFICI",
+            "text": "Dov'è un Certificato?"
+          },
+          {
+            "correct": true,
+            "text": "Dov'è un Bancomat?"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_13383810",
+        "target_error_codes": [
+          "ERR_VOC_UFFICI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "contratto"
+        ],
+        "hint_es": "Firma el contrato.",
+        "id": "it_cloze_s_13220814_ERR_VOC_UFFICI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_13220814",
+        "target_error_codes": [
+          "ERR_VOC_UFFICI"
+        ],
+        "text": "Firmi il ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Ha",
+          "un",
+          "appuntamento?"
+        ],
+        "id": "it_reorder_s_1448591_ERR_VOC_UFFICI",
+        "prompt_es": "Ordena las palabras: «¿Tiene una cita?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1448591",
+        "target_error_codes": [
+          "ERR_VOC_UFFICI"
+        ],
+        "tokens": [
+          "un",
+          "appuntamento?",
+          "Ha"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_UFFICI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Ha la patente?"
+      ],
+      "id": "it_translate_s_3482771_ERR_VOC_UFFICI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_3482771",
+      "source_es": "¿Tiene licencia de conducir?",
+      "target_error_codes": [
+        "ERR_VOC_UFFICI"
       ],
       "type": "translate_es_it"
     }

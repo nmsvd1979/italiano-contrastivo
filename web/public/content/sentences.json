@@ -885,6 +885,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "1d601a74ecdd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella no tiene licencia de conducir.",
+    "es_author": "IA (Claude)",
+    "id": "s_1055182",
+    "it": "Lei non ha la patente.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1055182",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "ed6fc76b664e",
     "author": "Daga007",
     "cefr_estimate": "A1",
@@ -1752,6 +1764,18 @@
     "it": "Lavoro in biblioteca da gennaio.",
     "license": "CC BY 2.0 FR",
     "source_id": "11033275",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b9b374ec1704",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Soy empleado de banco.",
+    "es_author": "IA (Claude)",
+    "id": "s_11033641",
+    "it": "Sono un impiegato di banca.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11033641",
     "translation_kind": "llm"
   },
   {
@@ -2930,6 +2954,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ae2178ef1c97",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "Quiero cobrar un cheque.",
+    "es_author": "lukaszpp",
+    "es_source_id": "437036",
+    "id": "s_1168766",
+    "it": "Desidero incassare un assegno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1168766",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "6edce28f0cc2",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3370,6 +3407,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "5ec02b1b6447",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "¿Qué es un impuesto?",
+    "es_author": "IA (Claude)",
+    "id": "s_11939100",
+    "it": "Cos'è una tassa?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11939100",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "7bdd905c29b8",
     "author": "Rovo",
     "cefr_estimate": "A1",
@@ -3745,6 +3794,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "12311936",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "12eb39e39c79",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom no tiene licencia de conducir.",
+    "es_author": "IA (Claude)",
+    "id": "s_1231956",
+    "it": "Tom non ha la patente.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1231956",
+    "translation_kind": "llm"
   },
   {
     "alt": [
@@ -5535,6 +5596,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "b74b153547eb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Es contrario al contrato.",
+    "es_author": "IA (Claude)",
+    "id": "s_13149227",
+    "it": "È contrario al contratto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13149227",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "efb2e68e64e7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -5722,6 +5795,55 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1321950",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "e6ddd60083f9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Firma el contrato.",
+    "es_author": "UccelloRosso",
+    "es_source_id": "13232498",
+    "id": "s_13220814",
+    "it": "Firmi il contratto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13220814",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "752a16571d0b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El contrato vence hoy.",
+    "es_author": "IA (Claude)",
+    "id": "s_13220853",
+    "it": "Il contratto scade oggi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13220853",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "58f2409ed726",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estoy firmando mi contrato.",
+    "es_author": "IA (Claude)",
+    "id": "s_13220946",
+    "it": "Sto firmando il mio contratto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13220946",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "cedd430e5748",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No puedo leer este contrato.",
+    "es_author": "IA (Claude)",
+    "id": "s_13220971",
+    "it": "Non posso leggere questo contratto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13220971",
+    "translation_kind": "llm"
   },
   {
     "audio": "61147703e0ed",
@@ -6390,6 +6512,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "7c4c6a73290d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde hay un cajero automático?",
+    "es_author": "IA (Claude)",
+    "id": "s_13383810",
+    "it": "Dov'è un Bancomat?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13383810",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "9fead3eedfee",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -6877,6 +7011,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "51e08b77ad67",
+    "author": "Nuel",
+    "cefr_estimate": "A1",
+    "es": "Tengo que retirar dinero en el cajero automático.",
+    "es_author": "IA (Claude)",
+    "id": "s_13910919",
+    "it": "Devo prelevare al bancomat.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13910919",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "65ce08a6d51a",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7037,6 +7183,18 @@
     "it": "Cos'hai nella borsa bianca ?",
     "license": "CC BY 2.0 FR",
     "source_id": "14008532",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "f138e56ea6ef",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Esto es un cajero automático?",
+    "es_author": "IA (Claude)",
+    "id": "s_14023458",
+    "it": "Questo è un bancomat?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14023458",
     "translation_kind": "llm"
   },
   {
@@ -7337,6 +7495,42 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1447156",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "303f182535a6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tienes una cita?",
+    "es_author": "IA (Claude)",
+    "id": "s_1448589",
+    "it": "Hai un appuntamento?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1448589",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "9f5544f30085",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tienen una cita?",
+    "es_author": "IA (Claude)",
+    "id": "s_1448590",
+    "it": "Avete un appuntamento?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1448590",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d1d3ac1f660a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tiene una cita?",
+    "es_author": "IA (Claude)",
+    "id": "s_1448591",
+    "it": "Ha un appuntamento?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1448591",
+    "translation_kind": "llm"
   },
   {
     "audio": "75f794b1b225",
@@ -8260,6 +8454,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1541307",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "d2f908efe397",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Necesito tu firma aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1545933",
+    "it": "Ho bisogno della tua firma qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1545933",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6e3875898111",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Necesito tu firma aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1545934",
+    "it": "Mi serve la tua firma qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1545934",
+    "translation_kind": "llm"
   },
   {
     "audio": "a5848c32a7ac",
@@ -9703,6 +9921,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "c1cb3472e475",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Puedo ver su licencia de conducir?",
+    "es_author": "IA (Claude)",
+    "id": "s_1739644",
+    "it": "Posso vedere la sua patente?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1739644",
+    "translation_kind": "llm"
+  },
+  {
     "alt": [
       "Io faccio sport quasi ogni giorno."
     ],
@@ -9819,6 +10049,30 @@
     "it": "Voi capite cosa intendo?",
     "license": "CC BY 2.0 FR",
     "source_id": "1752992",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "7ed22706392b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No necesito su permiso.",
+    "es_author": "IA (Claude)",
+    "id": "s_1760952",
+    "it": "Non ho bisogno del suo permesso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1760952",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a06354caa268",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No necesito tu permiso.",
+    "es_author": "IA (Claude)",
+    "id": "s_1760958",
+    "it": "Non ho bisogno del tuo permesso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1760958",
     "translation_kind": "llm"
   },
   {
@@ -11188,6 +11442,18 @@
     "it": "Non ricevo molta posta.",
     "license": "CC BY 2.0 FR",
     "source_id": "2041814",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "99a88f0a1caa",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tengo una cita.",
+    "es_author": "IA (Claude)",
+    "id": "s_2041848",
+    "it": "Ho un appuntamento.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2041848",
     "translation_kind": "llm"
   },
   {
@@ -13276,6 +13542,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "e696832ab025",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No necesito el permiso de nadie.",
+    "es_author": "hayastan",
+    "es_source_id": "2375716",
+    "id": "s_2530949",
+    "it": "Non ho bisogno del permesso di nessuno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2530949",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "6dcb8f5a1251",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13993,6 +14272,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "73f9a3543e4c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Firma abajo, por favor.",
+    "es_author": "IA (Claude)",
+    "id": "s_2676740",
+    "it": "Firma in basso, per favore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2676740",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "c5e2b54b141d",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -14046,6 +14337,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2684458",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "d3993e8d78af",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tenemos que pagar el impuesto.",
+    "es_author": "IA (Claude)",
+    "id": "s_2686152",
+    "it": "Dobbiamo pagare la tassa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2686152",
+    "translation_kind": "llm"
   },
   {
     "audio": "2891e879243a",
@@ -14822,6 +15125,18 @@
     "it": "L'uomo ha ragione.",
     "license": "CC BY 2.0 FR",
     "source_id": "2762874",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "724c181cbe9a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tengo una licencia de conducir provisoria.",
+    "es_author": "IA (Claude)",
+    "id": "s_2763728",
+    "it": "Ho una patente provvisoria.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2763728",
     "translation_kind": "llm"
   },
   {
@@ -18733,6 +19048,78 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "b73a517c90ed",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tienes licencia de conducir?",
+    "es_author": "IA (Claude)",
+    "id": "s_3482769",
+    "it": "Hai la patente?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3482769",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d3356f2fc4c0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tiene licencia de conducir?",
+    "es_author": "IA (Claude)",
+    "id": "s_3482771",
+    "it": "Ha la patente?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3482771",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "335b5e3cfc09",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tienen licencia de conducir?",
+    "es_author": "IA (Claude)",
+    "id": "s_3482773",
+    "it": "Avete la patente?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3482773",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "637241d028ba",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tienes licencia de conducir?",
+    "es_author": "IA (Claude)",
+    "id": "s_3482775",
+    "it": "Hai la patente di guida?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3482775",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a5fcd103332d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tiene licencia de conducir?",
+    "es_author": "IA (Claude)",
+    "id": "s_3482777",
+    "it": "Ha la patente di guida?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3482777",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "5b525e983cc9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tienen licencia de conducir?",
+    "es_author": "IA (Claude)",
+    "id": "s_3482780",
+    "it": "Avete la patente di guida?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3482780",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "9a0ed9251ada",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -20059,6 +20446,18 @@
     "it": "Lui vuole del burro di arachidi.",
     "license": "CC BY 2.0 FR",
     "source_id": "3676865",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "148016c2ea42",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Va contra el contrato.",
+    "es_author": "IA (Claude)",
+    "id": "s_3677996",
+    "it": "Va contro il contratto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3677996",
     "translation_kind": "llm"
   },
   {
@@ -22121,6 +22520,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "d2196e8c4971",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Necesito la firma de Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_3838655",
+    "it": "Mi serve la firma di Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3838655",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "db606b83474b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Necesito la firma de Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_3838657",
+    "it": "Ho bisogno della firma di Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3838657",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "8a315200da49",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -22859,6 +23282,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "6e7e5e446d67",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom me dio permiso para ir.",
+    "es_author": "mervert1",
+    "es_source_id": "5354444",
+    "id": "s_3943362",
+    "it": "Tom mi ha dato il permesso di andare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3943362",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3350b4f227a5",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -23503,6 +23939,18 @@
     "it": "È lento e noioso.",
     "license": "CC BY 2.0 FR",
     "source_id": "4140535",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "00f7e5cfcd97",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde puedo encontrar un cajero automático?",
+    "es_author": "IA (Claude)",
+    "id": "s_4143042",
+    "it": "Dove posso trovare un bancomat?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4143042",
     "translation_kind": "llm"
   },
   {
@@ -25365,6 +25813,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "3d962a215f46",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom es nuestro empleado.",
+    "es_author": "IA (Claude)",
+    "id": "s_4528554",
+    "it": "Tom è il nostro impiegato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4528554",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "dfcdfc459191",
     "author": "ianna",
     "cefr_estimate": "A1",
@@ -26106,6 +26566,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a9d9dfc6d5fb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tengo una cita esta noche.",
+    "es_author": "IA (Claude)",
+    "id": "s_4733734",
+    "it": "Io ho un appuntamento stasera.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4733734",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "35e500b51938",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -26674,6 +27146,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "499809",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "ff2853eb4cf6",
+    "author": "tiguliano",
+    "cefr_estimate": "A1",
+    "es": "¿Tienes una cita con él?",
+    "es_author": "IA (Claude)",
+    "id": "s_499829",
+    "it": "Hai un appuntamento con lui?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "499829",
+    "translation_kind": "llm"
   },
   {
     "audio": "aedbe3622ced",
@@ -28674,6 +29158,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b4a1087725d5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tengo una cita con el dentista.",
+    "es_author": "IA (Claude)",
+    "id": "s_5617804",
+    "it": "Ho un appuntamento dal dentista.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5617804",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "28e1babe028c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -28719,6 +29215,18 @@
     "it": "Voi cantate sempre.",
     "license": "CC BY 2.0 FR",
     "source_id": "5633437",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "ca7e9dfc883f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom es un empleado.",
+    "es_author": "IA (Claude)",
+    "id": "s_5633515",
+    "it": "Tom è un impiegato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5633515",
     "translation_kind": "llm"
   },
   {
@@ -29013,6 +29521,42 @@
     "license": "CC BY 2.0 FR",
     "source_id": "571371",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "22d4fac1d1cb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No tienes permiso para hacerlo.",
+    "es_author": "IA (Claude)",
+    "id": "s_5715081",
+    "it": "Non hai il permesso di farlo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5715081",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "347264597823",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No tiene permiso para hacerlo.",
+    "es_author": "IA (Claude)",
+    "id": "s_5715082",
+    "it": "Non ha il permesso di farlo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5715082",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1ff5b95ad306",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No tienen permiso para hacerlo.",
+    "es_author": "IA (Claude)",
+    "id": "s_5715083",
+    "it": "Non avete il permesso di farlo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5715083",
+    "translation_kind": "llm"
   },
   {
     "audio": "d63be55030aa",
@@ -30132,6 +30676,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e744ef01d5f1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella se casó con un empleado bancario.",
+    "es_author": "hayastan",
+    "es_source_id": "1072691",
+    "id": "s_626443",
+    "it": "Lei ha sposato un impiegato bancario.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "626443",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "2c7f4aa4c53c",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -30794,6 +31351,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "6571325",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "148996dcbb91",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tengo una cita el viernes.",
+    "es_author": "IA (Claude)",
+    "id": "s_6572409",
+    "it": "Io ho un appuntamento venerdì.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6572409",
+    "translation_kind": "llm"
   },
   {
     "audio": "57ad5d31545b",
@@ -32707,6 +33276,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "207ebc07fa2e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No está en mi contrato.",
+    "es_author": "IA (Claude)",
+    "id": "s_7229260",
+    "it": "Non è nel mio contratto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7229260",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "f80c26193e4b",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -33705,6 +34286,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "777326",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "f1c23b6cfaa4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No es mi firma.",
+    "es_author": "IA (Claude)",
+    "id": "s_7781714",
+    "it": "Non è la mia firma.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7781714",
+    "translation_kind": "llm"
   },
   {
     "audio": "f5d90ab4baf4",
@@ -36298,6 +36891,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "1124f5fa6f49",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Firmaré el contrato más tarde.",
+    "es_author": "IA (Claude)",
+    "id": "s_9706717",
+    "it": "Firmerò il contratto più tardi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9706717",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "36d0efd834fe",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -37606,6 +38211,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "54136526e9b9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Siempre se acuesta a las nueve.",
+    "es_author": "IA (Claude)",
+    "id": "s_10214295",
+    "it": "Va sempre a letto alle nove.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10214295",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "acaf3cbba9a0",
+    "author": "Nuel",
+    "cefr_estimate": "A2",
+    "es": "Viven en el octavo piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_10237594",
+    "it": "Stanno all'ottavo piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10237594",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "82044652eabf",
     "author": "Nuel",
     "cefr_estimate": "A2",
@@ -37774,6 +38403,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2914bc2706d0",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "No se puede vivir aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_10708580",
+    "it": "Non si può vivere qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10708580",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "6b270baf1122",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -37940,6 +38581,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "dbb1027b2a07",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "En Brasil se habla portugués.",
+    "es_author": "hayastan",
+    "es_source_id": "1082649",
+    "id": "s_1082637",
+    "it": "In Brasile si parla portoghese.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1082637",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "6b878212ab23",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38094,6 +38748,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "ad4ab4210d71",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La biblioteca está en el segundo piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_11032644",
+    "it": "La biblioteca è al secondo piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11032644",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "5802f9d27d4b",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38191,6 +38857,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "1afd3d238f6a",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "Tom estaba sentado dos filas delante de mí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1114859",
+    "it": "Tom era seduto due file davanti a me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1114859",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "a2fe5c5f13ee",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38216,6 +38894,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "55d64e7c3015",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "¿Se puede jugar ahora y estudiar después?",
+    "es_author": "IA (Claude)",
+    "id": "s_11216096",
+    "it": "Si può giocare ora e studiare dopo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11216096",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d7f6f546929f",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "El parque está frente a mi casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_11228318",
+    "it": "Il parco è di fronte a casa mia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11228318",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4edd2e139666",
     "author": "carlosalberto",
     "cefr_estimate": "A2",
@@ -38227,6 +38929,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "11229822",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "efbdef9e3b68",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Se habla griego.",
+    "es_author": "IA (Claude)",
+    "id": "s_11249978",
+    "it": "Si parla greco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11249978",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6e51eec81aa3",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Se habla mucho pero se hace poco.",
+    "es_author": "IA (Claude)",
+    "id": "s_11251884",
+    "it": "Si parla molto ma si fa poco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11251884",
+    "translation_kind": "llm"
   },
   {
     "audio": "6a58c3ca297b",
@@ -38356,6 +39082,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c179c732684a",
+    "author": "nancy",
+    "cefr_estimate": "A2",
+    "es": "La fiesta terminó a las diez.",
+    "es_author": "darinmex",
+    "es_source_id": "673419",
+    "id": "s_1134499",
+    "it": "La festa è terminata alle dieci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1134499",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "7b15838bccee",
     "author": "Nuel",
     "cefr_estimate": "A2",
@@ -38430,6 +39169,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "5bf72821daa4",
+    "author": "rado",
+    "cefr_estimate": "A2",
+    "es": "Sí, vendré a las cuatro de la tarde.",
+    "es_author": "Shishir",
+    "es_source_id": "1147915",
+    "id": "s_1147913",
+    "it": "Sì, verrò alle quattro del pomeriggio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1147913",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "bc33f8582f4e",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38502,6 +39254,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1159968",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "112080ac85dd",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "¿Todavía se habla egipcio?",
+    "es_author": "IA (Claude)",
+    "id": "s_11606816",
+    "it": "Si parla ancora l'egiziano?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11606816",
+    "translation_kind": "llm"
   },
   {
     "audio": "b6a57dc25894",
@@ -38717,6 +39481,31 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "389f0c65861e",
+    "author": "Adelpa",
+    "cefr_estimate": "A2",
+    "es": "En Egipto se habla árabe.",
+    "es_author": "Adelpa",
+    "es_source_id": "10981025",
+    "id": "s_11896096",
+    "it": "In Egitto si parla arabo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11896096",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "994a500292f3",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "El jardín alrededor de mi casa es hermosísimo.",
+    "es_author": "IA (Claude)",
+    "id": "s_11944671",
+    "it": "Il giardino intorno a casa mia è bellissimo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11944671",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4b9017bb12f1",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38752,6 +39541,18 @@
     "it": "Lui rideva mentre lei piangeva.",
     "license": "CC BY 2.0 FR",
     "source_id": "11977067",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "32826abcd4cb",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "El almuerzo empieza a las doce.",
+    "es_author": "IA (Claude)",
+    "id": "s_12015931",
+    "it": "Il pranzo inizia alle dodici.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12015931",
     "translation_kind": "llm"
   },
   {
@@ -38831,6 +39632,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "f128510480a8",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Aquí se venden ropa y calzado.",
+    "es_author": "IA (Claude)",
+    "id": "s_12139455",
+    "it": "Qui si vendono vestiti e calzature.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12139455",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "bab364004200",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38880,6 +39693,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "12311832",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "5d9c63a95bb1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Puedo sentarme a su lado?",
+    "es_author": "IA (Claude)",
+    "id": "s_1238378",
+    "it": "Posso sedermi di fianco a lei?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1238378",
+    "translation_kind": "llm"
   },
   {
     "audio": "92bb158169ce",
@@ -38932,6 +39757,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1242399",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "828c159875e4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Él vive al lado mío.",
+    "es_author": "IA (Claude)",
+    "id": "s_1246329",
+    "it": "Lui vive di fianco a me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1246329",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "26255a384f09",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Vive a mi lado.",
+    "es_author": "IA (Claude)",
+    "id": "s_1246330",
+    "it": "Vive accanto a me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1246330",
+    "translation_kind": "llm"
   },
   {
     "audio": "7a555c63d00a",
@@ -39097,6 +39946,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "7766f2957244",
+    "author": "glossboss",
+    "cefr_estimate": "A2",
+    "es": "Me levanté a las cinco de la mañana.",
+    "es_author": "hayastan",
+    "es_source_id": "1233241",
+    "id": "s_12662431",
+    "it": "Mi sono alzata alle cinque del mattino.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12662431",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "21c98f5615fd",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -39163,6 +40025,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "f0bf80f71d97",
+    "author": "ValentinaM",
+    "cefr_estimate": "A2",
+    "es": "El supermercado abre a las diez.",
+    "es_author": "Shishir",
+    "es_source_id": "2023093",
+    "id": "s_1271960",
+    "it": "Il supermercato apre alle dieci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1271960",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "703a6769492e",
     "author": "ValentinaM",
     "cefr_estimate": "A2",
@@ -39200,6 +40075,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "75f90569abae",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Se vende también vino importado?",
+    "es_author": "IA (Claude)",
+    "id": "s_12822531",
+    "it": "Si vende anche il vino importato?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12822531",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "cc59f89bf286",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -39234,6 +40121,19 @@
     "it": "Chiudi gli occhi prima!",
     "license": "CC BY 2.0 FR",
     "source_id": "12834656",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "550dc9632e22",
+    "author": "zhou24",
+    "cefr_estimate": "A2",
+    "es": "Nuestra biblioteca está en el tercer piso.",
+    "es_author": "Juankarlos",
+    "es_source_id": "1048511",
+    "id": "s_1283470",
+    "it": "La nostra biblioteca è al terzo piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1283470",
     "translation_kind": "direct"
   },
   {
@@ -39312,6 +40212,18 @@
     "it": "Non abita più qui.",
     "license": "CC BY 2.0 FR",
     "source_id": "1300643",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "75521e1d1caf",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Normalmente me levanto a las seis.",
+    "es_author": "IA (Claude)",
+    "id": "s_1300771",
+    "it": "Solitamente mi alzo alle sei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1300771",
     "translation_kind": "llm"
   },
   {
@@ -39581,6 +40493,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4f3db8d30ac7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Dónde se puede jugar al futbolín?",
+    "es_author": "Shishir",
+    "es_source_id": "1332308",
+    "id": "s_1332311",
+    "it": "Dove si può giocare a calcio balilla?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1332311",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "5a031e0f4b96",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -39656,6 +40581,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e48869156128",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Pero estaba sentado en el avión a tu lado?",
+    "es_author": "IA (Claude)",
+    "id": "s_1339969",
+    "it": "Ma era seduto in aereo di fianco a te?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1339969",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b6c08df44af8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El bus se detiene delante de mi casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_13421711",
+    "it": "L'autobus si ferma davanti a casa mia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13421711",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "2be2c7ee2dfe",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -39667,6 +40616,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1343700",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "e0cc7bbc5e73",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Los bancos abren a las nueve.",
+    "es_author": "IA (Claude)",
+    "id": "s_13459169",
+    "it": "Le banche aprono alle nove.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13459169",
+    "translation_kind": "llm"
   },
   {
     "audio": "afdfff3838cd",
@@ -39808,6 +40769,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "0bb96de24664",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Espera hasta las seis.",
+    "es_author": "IA (Claude)",
+    "id": "s_1389527",
+    "it": "Aspetta fino alle sei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1389527",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "afd30d00f57a",
     "author": "riccioberto",
     "cefr_estimate": "A2",
@@ -39870,6 +40843,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "13970896",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "f8fc01ce4e43",
+    "author": "unforgiven95",
+    "cefr_estimate": "A2",
+    "es": "No se vive solo de aire.",
+    "es_author": "Shishir",
+    "es_source_id": "2156105",
+    "id": "s_13976557",
+    "it": "Non si vive solo d'aria.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13976557",
+    "translation_kind": "direct"
   },
   {
     "audio": "6b96e9810721",
@@ -40154,6 +41140,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "9e4a96c80241",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Se habla también alemán?",
+    "es_author": "IA (Claude)",
+    "id": "s_14090453",
+    "it": "Si parla anche il tedesco?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14090453",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "198d67455787",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Puedo venir a las tres.",
+    "es_author": "IA (Claude)",
+    "id": "s_1428559",
+    "it": "Posso venire alle tre.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1428559",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4a8726985225",
     "author": "nancy",
     "cefr_estimate": "A2",
@@ -40217,6 +41227,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "17bae67df1d8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No se puede tener todo.",
+    "es_author": "nancy",
+    "es_source_id": "1588903",
+    "id": "s_1471250",
+    "it": "Non si può avere tutto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1471250",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ced2aad00f37",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -40227,6 +41250,19 @@
     "it": "La sua risposta era logica.",
     "license": "CC BY 2.0 FR",
     "source_id": "1482371",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "cd0bae187faf",
+    "author": "marco87",
+    "cefr_estimate": "A2",
+    "es": "Allí se come muy bien.",
+    "es_author": "marco87",
+    "es_source_id": "1490038",
+    "id": "s_1490035",
+    "it": "Lì si mangia molto bene.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1490035",
     "translation_kind": "direct"
   },
   {
@@ -40282,6 +41318,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "086ad7b33e79",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Viene a las seis o a las siete?",
+    "es_author": "IA (Claude)",
+    "id": "s_1506983",
+    "it": "Viene alle sei o alle sette?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1506983",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "eded73c08ecd",
     "author": "Shadd",
     "cefr_estimate": "A2",
@@ -40334,6 +41382,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4048c1003b56",
+    "author": "marco87",
+    "cefr_estimate": "A2",
+    "es": "Se puede ver el Monte Fuji desde aquí.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1515475",
+    "id": "s_1516070",
+    "it": "Si può vedere il monte Fuji da qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1516070",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "1558a27c9aa8",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -40369,6 +41430,66 @@
     "it": "Non ho più forze.",
     "license": "CC BY 2.0 FR",
     "source_id": "1518906",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "4253904ebde9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Pueden venir a las nueve?",
+    "es_author": "IA (Claude)",
+    "id": "s_1523830",
+    "it": "Potete venire alle nove?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1523830",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "90add14d2093",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Puede venir a las nueve?",
+    "es_author": "IA (Claude)",
+    "id": "s_1523831",
+    "it": "Può venire alle nove?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1523831",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "78365923ec1f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Puedes venir a las nueve?",
+    "es_author": "IA (Claude)",
+    "id": "s_1523832",
+    "it": "Riesci a venire alle nove?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1523832",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "05d05416c1ff",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Pueden venir a las nueve?",
+    "es_author": "IA (Claude)",
+    "id": "s_1523834",
+    "it": "Riuscite a venire alle nove?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1523834",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "dd374950306b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Puede venir a las nueve?",
+    "es_author": "IA (Claude)",
+    "id": "s_1523835",
+    "it": "Riesce a venire alle nove?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1523835",
     "translation_kind": "llm"
   },
   {
@@ -40410,6 +41531,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "fe6145310b6d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Toman el té a las cinco.",
+    "es_author": "IA (Claude)",
+    "id": "s_1536202",
+    "it": "Prendono il tè alle cinque.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1536202",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "45b7b948ef5f",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -40434,6 +41567,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1541548",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "dd28b7897278",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Falta un cuarto para las dos.",
+    "es_author": "IA (Claude)",
+    "id": "s_1545913",
+    "it": "Manca un quarto alle due.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1545913",
+    "translation_kind": "llm"
   },
   {
     "audio": "e478e281e96b",
@@ -40696,6 +41841,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "997bb0c13a67",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Volveré a las diez.",
+    "es_author": "tatoerique",
+    "es_source_id": "329772",
+    "id": "s_1630544",
+    "it": "Tornerò alle dieci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1630544",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "8355304febf6",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -40911,6 +42069,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b9c6e565409a",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A2",
+    "es": "Este tren sale a las nueve.",
+    "es_author": "IA (Claude)",
+    "id": "s_1708384",
+    "it": "Questo treno parte alle nove.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1708384",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "aa8bd6606609",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A2",
+    "es": "Salgo a las cuatro.",
+    "es_author": "IA (Claude)",
+    "id": "s_1708386",
+    "it": "Parto alle quattro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1708386",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "f4a3d2174c5e",
     "author": "alexmarcelo",
     "cefr_estimate": "A2",
@@ -40933,6 +42115,56 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1708388",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "f6a8529d6744",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A2",
+    "es": "El tren sale a las nueve.",
+    "es_author": "lukaszpp",
+    "es_source_id": "462973",
+    "id": "s_1708389",
+    "it": "Il treno parte alle nove.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1708389",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7565c92033a8",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A2",
+    "es": "El tren sale a las seis.",
+    "es_author": "IA (Claude)",
+    "id": "s_1708390",
+    "it": "Il treno parte alle sei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1708390",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "fbf0707d60ea",
+    "author": "alexmarcelo",
+    "cefr_estimate": "A2",
+    "es": "Salgo a las diez.",
+    "es_author": "IA (Claude)",
+    "id": "s_1708391",
+    "it": "Parto alle dieci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1708391",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "778a63ab82f6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Qué se puede decir?",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166078",
+    "id": "s_1709939",
+    "it": "Cosa si può dire?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1709939",
+    "translation_kind": "direct"
   },
   {
     "audio": "27b09ebbec1e",
@@ -41017,6 +42249,18 @@
     "it": "Dove siete state tutto questo tempo?",
     "license": "CC BY 2.0 FR",
     "source_id": "1724749",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "37b3ea8a1c14",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Una chica apareció frente a mí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1726436",
+    "it": "Una ragazza è apparsa di fronte a me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1726436",
     "translation_kind": "llm"
   },
   {
@@ -41123,6 +42367,19 @@
     "it": "La mia sorella maggiore ha i capelli che le cadono sulle spalle.",
     "license": "CC BY 2.0 FR",
     "source_id": "1802972",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "1c957577fdfe",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cómo se puede?",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166056",
+    "id": "s_1803390",
+    "it": "Come si può?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1803390",
     "translation_kind": "direct"
   },
   {
@@ -41234,6 +42491,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b812375905f2",
+    "author": "hitori37",
+    "cefr_estimate": "A2",
+    "es": "Estoy en el octavo piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_1851498",
+    "it": "Sono all'ottavo piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1851498",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "23cd23fa23b9",
     "author": "alexmarcelo",
     "cefr_estimate": "A2",
@@ -41281,6 +42550,32 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1860945",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "907ea277f07f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Dónde se puede firmar?",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166079",
+    "id": "s_1868941",
+    "it": "Dove si può firmare?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1868941",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2ee88d7743cb",
+    "author": "sixtynine",
+    "cefr_estimate": "A2",
+    "es": "¿Cómo se puede ser exitoso sin una buena educación?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1880084",
+    "id": "s_1880966",
+    "it": "Come si può avere successo senza una buona istruzione?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1880966",
+    "translation_kind": "direct"
   },
   {
     "audio": "6fb6c0b10300",
@@ -41331,6 +42626,18 @@
     "it": "Il mondo cambia moltissimo.",
     "license": "CC BY 2.0 FR",
     "source_id": "1972149",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "5046858e6a00",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La oficina fue trasladada al sexto piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_1974645",
+    "it": "L'ufficio è stato trasferito al sesto piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1974645",
     "translation_kind": "llm"
   },
   {
@@ -41393,6 +42700,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2001293",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "4a48fa005d9c",
+    "author": "hitori37",
+    "cefr_estimate": "A2",
+    "es": "La felicidad no puede comprarse.",
+    "es_author": "tatoerique",
+    "es_source_id": "345842",
+    "id": "s_2001363",
+    "it": "Non si può comprare la felicità.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2001363",
+    "translation_kind": "direct"
   },
   {
     "audio": "6c891d9617ef",
@@ -41791,6 +43111,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "f4a63bf6867b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Se habla catalán en Andorra.",
+    "es_author": "IA (Claude)",
+    "id": "s_2126199",
+    "it": "Si parla il catalano in Andorra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2126199",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "fa73bb1cf427",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -41842,6 +43174,31 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "813241e834d0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Siempre se puede encontrar tiempo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2157716",
+    "it": "Si può sempre trovare del tempo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2157716",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e530f23c29a7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Siempre se puede mejorar.",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166083",
+    "id": "s_2157745",
+    "it": "Si può sempre migliorare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2157745",
+    "translation_kind": "direct"
+  },
+  {
     "alt": [
       "Adesso che sei in Italia, devi vedere Napoli."
     ],
@@ -41868,6 +43225,31 @@
     "it": "Finché c'è un obiettivo, c'è speranza.",
     "license": "CC BY 2.0 FR",
     "source_id": "2180426",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "99f30354f250",
+    "author": "miccap",
+    "cefr_estimate": "A2",
+    "es": "¿Se pueden sacar fotos en este edificio?",
+    "es_author": "IA (Claude)",
+    "id": "s_2188967",
+    "it": "Si possono fare fotografie in questo edificio?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2188967",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a16bc625f9ac",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Pero, ¿de verdad se puede?",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166082",
+    "id": "s_2190066",
+    "it": "Ma davvero si può?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2190066",
     "translation_kind": "direct"
   },
   {
@@ -42085,6 +43467,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "7af20dbc7742",
+    "author": "hitori37",
+    "cefr_estimate": "A2",
+    "es": "El auto está parado enfrente de aquel edificio.",
+    "es_author": "cueyayotl",
+    "es_source_id": "2268027",
+    "id": "s_2268230",
+    "it": "La macchina è parcheggiata di fronte a quel palazzo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2268230",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "41e67152466a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -42154,6 +43549,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "450d57554b45",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "En Hungría se habla húngaro.",
+    "es_author": "termito2nd",
+    "es_source_id": "1667285",
+    "id": "s_2352902",
+    "it": "In Ungheria si parla l'ungherese.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2352902",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "8c5f619519c0",
     "author": "al_ex_an_der",
     "cefr_estimate": "A2",
@@ -42165,6 +43573,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2399430",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "4ae189bf39ba",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo estaba sentado entre ellos.",
+    "es_author": "IA (Claude)",
+    "id": "s_2402972",
+    "it": "Io sedevo in mezzo a loro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2402972",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "77ce1a125d45",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me senté entre ellos.",
+    "es_author": "IA (Claude)",
+    "id": "s_2402974",
+    "it": "Mi sono seduto in mezzo a loro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2402974",
+    "translation_kind": "llm"
   },
   {
     "audio": "a32d18cb2fdc",
@@ -42215,6 +43647,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2413881",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "8b0cfd387bae",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La oficina del doctor está en el segundo piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_2414781",
+    "it": "L'ufficio del dottore è al secondo piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2414781",
+    "translation_kind": "llm"
   },
   {
     "audio": "722aa095d6aa",
@@ -42400,6 +43844,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "2a589c055845",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Vive junto a mí.",
+    "es_author": "IA (Claude)",
+    "id": "s_2458097",
+    "it": "Abita accanto a me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2458097",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b2e836acc724",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Vive al lado mío.",
+    "es_author": "IA (Claude)",
+    "id": "s_2458099",
+    "it": "Abita di fianco a me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2458099",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "e9ecf742cf43",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -42450,6 +43918,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2470948",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "f29a53b03773",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Se pueden tener los huevos fuera del refrigerador?",
+    "es_author": "IA (Claude)",
+    "id": "s_2477604",
+    "it": "Si possono tenere le uova fuori dal frigo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2477604",
+    "translation_kind": "llm"
   },
   {
     "audio": "19abb9c0bd46",
@@ -42860,6 +44340,57 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1b9fae67f2ae",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ahora él está en el trabajo, pero volverá a las siete.",
+    "es_author": "tatoerique",
+    "es_source_id": "356712",
+    "id": "s_2721020",
+    "it": "È al lavoro ora, però tornerà alle sette.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2721020",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3e48d97dd7c4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ahora él está en el trabajo, pero volverá a las siete.",
+    "es_author": "tatoerique",
+    "es_source_id": "356712",
+    "id": "s_2721023",
+    "it": "Lui è al lavoro adesso, però tornerà alle sette.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2721023",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7270b6a7ff2f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Se puede fumar aquí?",
+    "es_author": "marcelostockle",
+    "es_source_id": "2266485",
+    "id": "s_2722129",
+    "it": "Si può fumare qui?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2722129",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7e5cc3139435",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Se vive una sola vez.",
+    "es_author": "IA (Claude)",
+    "id": "s_2732199",
+    "it": "Si vive una volta sola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2732199",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "9f32dd9b3d8c",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -43111,6 +44642,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "5e9b9ee166a9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Hay un árbol alto delante de mi casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_2853187",
+    "it": "C'è un albero alto davanti a casa mia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2853187",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "49381edb8682",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡Se puede sentir el olor a chocolate desde afuera!",
+    "es_author": "IA (Claude)",
+    "id": "s_2855302",
+    "it": "Si può sentire l'odore di cioccolata da fuori!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2855302",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "f0ddfff56b36",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -43302,6 +44857,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "084752aa990a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Mi oficina está en el quinto piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_3003176",
+    "it": "Il mio ufficio è al quinto piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3003176",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "0a79afe3b0bf",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -43415,6 +44982,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "729982aa065b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No se puede decir \"no\".",
+    "es_author": "IA (Claude)",
+    "id": "s_3107109",
+    "it": "Non si può dire \"no\".",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3107109",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "7d32dec9fe49",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -43503,6 +45082,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "37b4ac5557e1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Vivía junto a su tío.",
+    "es_author": "IA (Claude)",
+    "id": "s_3134245",
+    "it": "Viveva accanto a suo zio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3134245",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "cf453fced713",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -43514,6 +45105,42 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3134249",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "9045c08de4a5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Él vivía junto a su tío.",
+    "es_author": "IA (Claude)",
+    "id": "s_3134250",
+    "it": "Lui abitava accanto a suo zio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3134250",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6213bc15ef9f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Logro venir a las tres.",
+    "es_author": "IA (Claude)",
+    "id": "s_3154286",
+    "it": "Riesco a venire alle tre.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3154286",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "87090351d79c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Se puede ver toda la ciudad desde esta colina.",
+    "es_author": "IA (Claude)",
+    "id": "s_3158064",
+    "it": "Si può vedere l'intera città da questa collina.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3158064",
+    "translation_kind": "llm"
   },
   {
     "audio": "3b25915436e8",
@@ -43591,6 +45218,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3176285",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "8bd982d41dd5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La escuela empieza a las nueve.",
+    "es_author": "IA (Claude)",
+    "id": "s_3176331",
+    "it": "La scuola inizia alle nove.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3176331",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a00a7c1d91ba",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La escuela empieza a las nueve.",
+    "es_author": "IA (Claude)",
+    "id": "s_3176332",
+    "it": "La scuola comincia alle nove.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3176332",
+    "translation_kind": "llm"
   },
   {
     "audio": "5a32de1bbcb4",
@@ -43671,6 +45322,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "159c72d8860b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom se sentó junto a Mary.",
+    "es_author": "IA (Claude)",
+    "id": "s_3255761",
+    "it": "Tom ha preso posto accanto a Mary.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3255761",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "f0f51f6b8f1a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -43692,6 +45355,18 @@
     "it": "Vorrei un po' di vino.",
     "license": "CC BY 2.0 FR",
     "source_id": "3262493",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "bc974e10e2d3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Se sentó a mi lado.",
+    "es_author": "IA (Claude)",
+    "id": "s_3268598",
+    "it": "Si è seduta accanto a me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3268598",
     "translation_kind": "llm"
   },
   {
@@ -43793,6 +45468,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "61791c16b4de",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tocan el timbre a las ocho.",
+    "es_author": "IA (Claude)",
+    "id": "s_3362123",
+    "it": "Suonano la campanella alle otto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3362123",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "2f504ca1000d",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -43814,6 +45501,18 @@
     "it": "Tom abitava qui tre anni fa.",
     "license": "CC BY 2.0 FR",
     "source_id": "3368822",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "cda02eccd746",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Se puede hacer.",
+    "es_author": "IA (Claude)",
+    "id": "s_3371439",
+    "it": "Si può fare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3371439",
     "translation_kind": "llm"
   },
   {
@@ -43841,6 +45540,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "712b3832b7a9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡No se puede!",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166055",
+    "id": "s_3398133",
+    "it": "Non si può!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3398133",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "bcdf09cf9ef5",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -43865,6 +45577,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3423543",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "f03b9b47720d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Se puede estudiar aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_3425271",
+    "it": "Si può studiare qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3425271",
+    "translation_kind": "llm"
   },
   {
     "audio": "3993052d5843",
@@ -44223,6 +45947,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "57c0429524fb",
+    "author": "martin",
+    "cefr_estimate": "A2",
+    "es": "Normalmente me despierto a las seis.",
+    "es_author": "IA (Claude)",
+    "id": "s_351662",
+    "it": "Di solito mi sveglio alle sei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "351662",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "a833db3ffc36",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -44473,6 +46209,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "2c961982be6a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Esperamos hasta las seis.",
+    "es_author": "IA (Claude)",
+    "id": "s_3637831",
+    "it": "Aspettiamo fino alle sei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3637831",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "2ab144e13d2a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -44484,6 +46232,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3643771",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "50cf9ba04604",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Quién es la chica guapa sentada al lado de Jack?",
+    "es_author": "IA (Claude)",
+    "id": "s_3650323",
+    "it": "Chi è la bella ragazza seduta di fianco a Jack?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3650323",
+    "translation_kind": "llm"
   },
   {
     "audio": "eaf534b284c6",
@@ -44537,6 +46297,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "3f7faa535bca",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Nos vemos el domingo a las tres.",
+    "es_author": "IA (Claude)",
+    "id": "s_373832",
+    "it": "Ci vediamo domenica alle tre.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "373832",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b82fb0ab1ae6",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -44573,6 +46345,32 @@
     "it": "È nato a Osaka.",
     "license": "CC BY 2.0 FR",
     "source_id": "374453",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "8588c9510a96",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Se puede hablar ahora?",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166098",
+    "id": "s_3744757",
+    "it": "Si può parlare ora?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3744757",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "12aa5dac2eec",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Se puede hablar ahora?",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166098",
+    "id": "s_3744758",
+    "it": "Si può parlare adesso?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3744758",
     "translation_kind": "direct"
   },
   {
@@ -44806,6 +46604,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "f720dcd9cfc4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Está en el primer piso de ese edificio.",
+    "es_author": "IA (Claude)",
+    "id": "s_3776823",
+    "it": "È al primo piano di quell'edificio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3776823",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "58eab2e61ca2",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -44815,6 +46625,31 @@
     "it": "Ho incontrato Tom dopo il lavoro.",
     "license": "CC BY 2.0 FR",
     "source_id": "3779679",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "05ea7caa7f33",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Desayunamos a las siete.",
+    "es_author": "hundo",
+    "es_source_id": "976239",
+    "id": "s_378129",
+    "it": "Facciamo colazione alle sette.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "378129",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0bd386424648",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "La ópera empieza a las siete.",
+    "es_author": "IA (Claude)",
+    "id": "s_378130",
+    "it": "L'opera comincia alle sette.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "378130",
     "translation_kind": "llm"
   },
   {
@@ -44829,6 +46664,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "378135",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "704515ba05ce",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Desayuno a las siete.",
+    "es_author": "IA (Claude)",
+    "id": "s_378136",
+    "it": "Faccio colazione alle sette.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "378136",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "91796fb93279",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "La tienda cierra a las siete.",
+    "es_author": "IA (Claude)",
+    "id": "s_378139",
+    "it": "Il negozio chiude alle sette.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "378139",
+    "translation_kind": "llm"
   },
   {
     "audio": "533b8a61cd8c",
@@ -45752,6 +47611,31 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "70fc8c4e3a67",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "La vida comienza cuando uno paga impuestos.",
+    "es_author": "nancy",
+    "es_source_id": "1138849",
+    "id": "s_410130",
+    "it": "La vita comincia quando si pagano le tasse.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "410130",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "fde6ab532b06",
+    "author": "shoras",
+    "cefr_estimate": "A2",
+    "es": "Ella vive al lado de nuestra casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_410182",
+    "it": "Lei vive di fianco a casa nostra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "410182",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "15a0b53bb789",
     "author": "shoras",
     "cefr_estimate": "A2",
@@ -45841,6 +47725,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "5e32991e2eae",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Está en el octavo piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_4180606",
+    "it": "È all'ottavo piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4180606",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4bb31dd41350",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -45913,6 +47809,31 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4210287",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "d4482dd4b29a",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Mi pieza está en el cuarto piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_422370",
+    "it": "La mia camera è al quarto piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "422370",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "4c266fc1b54a",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Mi departamento está en el cuarto piso.",
+    "es_author": "darinmex",
+    "es_source_id": "545636",
+    "id": "s_422372",
+    "it": "Il mio appartamento è al quarto piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "422372",
+    "translation_kind": "direct"
   },
   {
     "audio": "a5e16c599a74",
@@ -46023,6 +47944,18 @@
     "it": "Voi siete rimaste.",
     "license": "CC BY 2.0 FR",
     "source_id": "4260531",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "12fd0c3084a9",
+    "author": "ocirne",
+    "cefr_estimate": "A2",
+    "es": "La biblioteca está en el cuarto piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_4269159",
+    "it": "La biblioteca è al quarto piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4269159",
     "translation_kind": "llm"
   },
   {
@@ -46199,6 +48132,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "d72155ac97e9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Dónde se puede llamar por teléfono?",
+    "es_author": "IA (Claude)",
+    "id": "s_4449",
+    "it": "Dove si può telefonare?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4449",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "c655ef8ffb51",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -46235,6 +48180,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4477",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "e1f4f9fdbb22",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "De repente apareció un oso delante de nosotros.",
+    "es_author": "IA (Claude)",
+    "id": "s_4489654",
+    "it": "All'improvviso un orso è apparso davanti a noi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4489654",
+    "translation_kind": "llm"
   },
   {
     "audio": "0a9b1c207f0f",
@@ -46284,6 +48241,19 @@
     "it": "Al momento non ho bisogno di soldi.",
     "license": "CC BY 2.0 FR",
     "source_id": "4509597",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c3374dc7d43e",
+    "author": "Sirio60",
+    "cefr_estimate": "A2",
+    "es": "La conferencia se terminó a las cinco.",
+    "es_author": "ventana",
+    "es_source_id": "721758",
+    "id": "s_4511592",
+    "it": "La conferenza è finita alle cinque.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4511592",
     "translation_kind": "direct"
   },
   {
@@ -46361,6 +48331,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4571433",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "8c70dd82c226",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom estaba de pie delante de Mary.",
+    "es_author": "IA (Claude)",
+    "id": "s_4573360",
+    "it": "Tom era in piedi davanti a Mary.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4573360",
+    "translation_kind": "llm"
   },
   {
     "audio": "d70665b32b77",
@@ -46661,6 +48643,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "472738",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "491e23d987cc",
+    "author": "mervert1",
+    "cefr_estimate": "A2",
+    "es": "Se queda en casa hasta las seis.",
+    "es_author": "IA (Claude)",
+    "id": "s_4737518",
+    "it": "Resta in casa fino alle sei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4737518",
+    "translation_kind": "llm"
   },
   {
     "audio": "b95a3fe74661",
@@ -47022,6 +49016,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4d3e9eade5a5",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "El museo abre a las nueve.",
+    "es_author": "Shishir",
+    "es_source_id": "1344438",
+    "id": "s_521379",
+    "it": "Il museo apre alle nove.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "521379",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "7bf087a39e8b",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -47309,6 +49316,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "238866af2852",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El ascensor se detuvo en el segundo piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_5352875",
+    "it": "L'ascensore si è fermato al secondo piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5352875",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "cf69827f93de",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -47485,6 +49504,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "c41aac49199f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Estaban en casa a las diez?",
+    "es_author": "IA (Claude)",
+    "id": "s_5511413",
+    "it": "Eravate a casa alle dieci?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5511413",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "681ceff7b256",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -47568,6 +49599,18 @@
     "it": "Tom è nato a ottobre.",
     "license": "CC BY 2.0 FR",
     "source_id": "5570671",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "65ce087db898",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ven a mi casa a las ocho.",
+    "es_author": "IA (Claude)",
+    "id": "s_5617623",
+    "it": "Vieni a casa mia alle otto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5617623",
     "translation_kind": "llm"
   },
   {
@@ -47708,6 +49751,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "e020cde3e008",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Se habla francés en Canadá?",
+    "es_author": "IA (Claude)",
+    "id": "s_5709276",
+    "it": "Si parla il francese in Canada?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5709276",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "e153f78eb51d",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -47804,6 +49859,54 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "42284dc5d865",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Dónde se usa el francés?",
+    "es_author": "IA (Claude)",
+    "id": "s_5725017",
+    "it": "Dove si usa il francese?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5725017",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "f67cb19c6c93",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La clase empieza a las diez.",
+    "es_author": "IA (Claude)",
+    "id": "s_5732476",
+    "it": "La lezione inizia alle dieci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5732476",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "3c385d0a5cf7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La clase empieza a las diez.",
+    "es_author": "IA (Claude)",
+    "id": "s_5732477",
+    "it": "La lezione comincia alle dieci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5732477",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "fa89467e96eb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Miren hacia delante, por favor.",
+    "es_author": "IA (Claude)",
+    "id": "s_5733864",
+    "it": "Guardate davanti a voi, per favore.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5733864",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "26426e1d7045",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -47813,6 +49916,67 @@
     "it": "A me non importa più.",
     "license": "CC BY 2.0 FR",
     "source_id": "5766105",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "8a3e3eaf0a12",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo estaba sentado al lado de ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_5770688",
+    "it": "Ero seduto di fianco a lei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5770688",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "935f3dc44f6c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo estaba sentada al lado de ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_5770691",
+    "it": "Ero seduta di fianco a lei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5770691",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "bf5eb977c164",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Puedo sentarme al lado de ella?",
+    "es_author": "DarkHollow",
+    "es_source_id": "4793884",
+    "id": "s_5775141",
+    "it": "Mi posso sedere accanto a lei?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5775141",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "96ed896665d9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El bus se detiene frente a mi casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_5796047",
+    "it": "L'autobus si ferma di fronte a casa mia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5796047",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b71d772862e0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Vivo en el quinto piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_5815089",
+    "it": "Io abito al quinto piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5815089",
     "translation_kind": "llm"
   },
   {
@@ -47840,6 +50004,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "6bd4006b8ecc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Aquí se habla francés.",
+    "es_author": "IA (Claude)",
+    "id": "s_5836991",
+    "it": "Si parla il francese qui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5836991",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "850a883df52d",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -47850,6 +50026,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "5869696",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "5d47aeea1f50",
+    "author": "WM3DAS",
+    "cefr_estimate": "A2",
+    "es": "Prometió venir a las cuatro.",
+    "es_author": "Shishir",
+    "es_source_id": "1870598",
+    "id": "s_5873956",
+    "it": "Ha promesso di venire alle quattro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5873956",
+    "translation_kind": "direct"
   },
   {
     "audio": "9c69466ab778",
@@ -47978,6 +50167,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "05905ebb47ed",
+    "author": "rado",
+    "cefr_estimate": "A2",
+    "es": "El programa empieza a las nueve.",
+    "es_author": "IA (Claude)",
+    "id": "s_606984",
+    "it": "Il programma comincia alle nove.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "606984",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b5aec1a9ce38",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -48053,6 +50254,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "612180",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "08d6ed54bd57",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estaré allí a las cinco.",
+    "es_author": "hayastan",
+    "es_source_id": "1075528",
+    "id": "s_612198",
+    "it": "Sarò lì alle cinque.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "612198",
+    "translation_kind": "direct"
   },
   {
     "audio": "61f4143f45a5",
@@ -48282,6 +50496,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1635170ad410",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "He mirado a mi alrededor.",
+    "es_author": "Shishir",
+    "es_source_id": "1388697",
+    "id": "s_624959",
+    "it": "Ho guardato intorno a me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "624959",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "7c1ad305be4f",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -48343,6 +50570,30 @@
     "it": "In agosto vado in Giappone con la mia ragazza.",
     "license": "CC BY 2.0 FR",
     "source_id": "632300",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "2633258e9594",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Normalmente me levanto a las ocho.",
+    "es_author": "IA (Claude)",
+    "id": "s_632360",
+    "it": "Di solito mi alzo alle otto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "632360",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d722e872808c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Puedo sentarme a tu lado?",
+    "es_author": "IA (Claude)",
+    "id": "s_633381",
+    "it": "Posso sedermi di fianco a te?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "633381",
     "translation_kind": "llm"
   },
   {
@@ -48463,6 +50714,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1fe03101fd24",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Siempre se puede contar con nosotros.",
+    "es_author": "IA (Claude)",
+    "id": "s_6464047",
+    "it": "Si può sempre contare su di noi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6464047",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "be54537c7969",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -48547,6 +50810,55 @@
     "it": "Abbiamo ordinato il pasto.",
     "license": "CC BY 2.0 FR",
     "source_id": "653850",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "8963a30a284d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Se pueden comer ostras crudas?",
+    "es_author": "IA (Claude)",
+    "id": "s_6545824",
+    "it": "Si possono mangiare le ostriche crude?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6545824",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a493c3fa191b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Pasé corriendo delante de ellos.",
+    "es_author": "IA (Claude)",
+    "id": "s_6556338",
+    "it": "Sono passato davanti a loro correndo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6556338",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "fe58c7eca61f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Pasé corriendo delante de ellos.",
+    "es_author": "IA (Claude)",
+    "id": "s_6556340",
+    "it": "Sono passata davanti a loro correndo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6556340",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "94394f99c8fa",
+    "author": "rado",
+    "cefr_estimate": "A2",
+    "es": "Desayunaremos a las ocho.",
+    "es_author": "MondCivitano",
+    "es_source_id": "656160",
+    "id": "s_656395",
+    "it": "Faremo colazione alle otto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "656395",
     "translation_kind": "direct"
   },
   {
@@ -48665,6 +50977,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a1106d7cceb0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La tienda cierra a las once.",
+    "es_author": "IA (Claude)",
+    "id": "s_6705206",
+    "it": "Il negozio chiude alle undici.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6705206",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "81aca6563658",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -48755,6 +51079,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "3c1e0dcf71ae",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom se sentó junto a Mary.",
+    "es_author": "IA (Claude)",
+    "id": "s_6875093",
+    "it": "Tom si è seduto accanto a Mary.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6875093",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "e7d337713267",
     "author": "dnnywld",
     "cefr_estimate": "A2",
@@ -48794,6 +51130,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "6fed47705b7e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom estaba sentado junto a Mary.",
+    "es_author": "IA (Claude)",
+    "id": "s_6923447",
+    "it": "Tom era seduto accanto a Mary.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6923447",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "9de0b6c677c3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Se puede romper.",
+    "es_author": "IA (Claude)",
+    "id": "s_6927038",
+    "it": "Si può rompere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6927038",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "65b5f117a700",
     "author": "jooliaan",
     "cefr_estimate": "A2",
@@ -48819,6 +51179,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "12908acf8dee",
+    "author": "Heracleum",
+    "cefr_estimate": "A2",
+    "es": "Ven aquí a las seis, no antes.",
+    "es_author": "IA (Claude)",
+    "id": "s_694344",
+    "it": "Vieni qui alle sei, non prima.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "694344",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "3b93e0d49de6",
     "author": "Heracleum",
     "cefr_estimate": "A2",
@@ -48829,6 +51201,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "694513",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "ddb297bb8134",
+    "author": "Heracleum",
+    "cefr_estimate": "A2",
+    "es": "Tengo que estar en la estación a las tres en punto.",
+    "es_author": "Shishir",
+    "es_source_id": "512416",
+    "id": "s_694872",
+    "it": "Devo essere alla stazione alle tre in punto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "694872",
+    "translation_kind": "direct"
   },
   {
     "audio": "060cf5ef6657",
@@ -48973,6 +51358,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "711452",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "8ce9f70832bb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom lo hizo delante de todos.",
+    "es_author": "IA (Claude)",
+    "id": "s_7122892",
+    "it": "Tom l'ha fatto davanti a tutti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7122892",
+    "translation_kind": "llm"
   },
   {
     "audio": "eadf54005284",
@@ -49501,6 +51898,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c990312353d0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "También hay oficinas en el segundo piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_7633795",
+    "it": "Ci sono anche degli uffici al secondo piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7633795",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "7422ab6b163e",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -49621,6 +52030,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e4ead96502c9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estamos en el tercer piso.",
+    "es_author": "arh",
+    "es_source_id": "7745768",
+    "id": "s_7728990",
+    "it": "Noi siamo al terzo piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7728990",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ef77cb38adbe",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -49672,6 +52094,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "b38b7bcf42cd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Volvió a las seis.",
+    "es_author": "chinopinyin",
+    "es_source_id": "759916",
+    "id": "s_777412",
+    "it": "È tornato alle sei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "777412",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "491604778ef1",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -49709,6 +52144,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "779767",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "bb69fa209664",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Mi casa está en el cuarto piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_7804491",
+    "it": "Casa mia è al quarto piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7804491",
+    "translation_kind": "llm"
   },
   {
     "audio": "8e81c702631d",
@@ -49828,6 +52275,18 @@
     "it": "L'ho conosciuta mentre andavo a scuola.",
     "license": "CC BY 2.0 FR",
     "source_id": "7904213",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e3f7d1ee545f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom estaba sentado al lado de Mary.",
+    "es_author": "IA (Claude)",
+    "id": "s_7909192",
+    "it": "Tom era seduto di fianco a Mary.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7909192",
     "translation_kind": "llm"
   },
   {
@@ -49958,6 +52417,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "74afd75e98e6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Se sentó al lado mío.",
+    "es_author": "IA (Claude)",
+    "id": "s_826519",
+    "it": "Si è seduta di fianco a me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "826519",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "a72fab925f3f",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -50009,6 +52480,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "d4bb68b4b1f0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Pondré el despertador a las siete.",
+    "es_author": "IA (Claude)",
+    "id": "s_836247",
+    "it": "Metterò la sveglia alle sette.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "836247",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "817b7469a513",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -50020,6 +52503,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "838753",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "b451bfbc570c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Se levanta a las siete.",
+    "es_author": "IA (Claude)",
+    "id": "s_839358",
+    "it": "Si alza alle sette.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "839358",
+    "translation_kind": "llm"
   },
   {
     "audio": "a49ea4c69208",
@@ -50048,6 +52543,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "dd12148aa5f9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me pongo nervioso cuando hablo delante de mucha gente.",
+    "es_author": "IA (Claude)",
+    "id": "s_8425151",
+    "it": "Divento nervoso quando parlo davanti a un pubblico numeroso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8425151",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "52f3bae2db3a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -50057,6 +52564,30 @@
     "it": "L'ho incontrata mentre tornavo a casa.",
     "license": "CC BY 2.0 FR",
     "source_id": "842576",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "89cf6e3b403b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estaba sentado a mi lado.",
+    "es_author": "IA (Claude)",
+    "id": "s_8466609",
+    "it": "Era seduto accanto a me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8466609",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "4354c1a14167",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estaba sentado al lado mío.",
+    "es_author": "IA (Claude)",
+    "id": "s_8466610",
+    "it": "Era seduto di fianco a me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8466610",
     "translation_kind": "llm"
   },
   {
@@ -50319,6 +52850,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "104299b17040",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Vivimos en el segundo piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_9002877",
+    "it": "Viviamo al secondo piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9002877",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "678110dd7dcb",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -50506,6 +53049,32 @@
     "it": "Ci siamo divertiti ieri sera.",
     "license": "CC BY 2.0 FR",
     "source_id": "934492",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2483f5bcafb5",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "Se puede cenar entre las nueve y las doce.",
+    "es_author": "lukaszpp",
+    "es_source_id": "462705",
+    "id": "s_940167",
+    "it": "Si può cenare tra le nove e le dodici.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "940167",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "9735679a7485",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El trabajo estará terminado a las seis.",
+    "es_author": "hayastan",
+    "es_source_id": "945467",
+    "id": "s_945464",
+    "it": "Il lavoro sarà finito alle sei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "945464",
     "translation_kind": "direct"
   },
   {
@@ -50711,6 +53280,18 @@
     "it": "Non bere troppo prima di andare a letto.",
     "license": "CC BY 2.0 FR",
     "source_id": "9712003",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "5d9f86ffcc37",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Alguien estacionó frente a mi casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_9712492",
+    "it": "Qualcuno ha parcheggiato di fronte a casa mia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9712492",
     "translation_kind": "llm"
   },
   {
@@ -50938,6 +53519,19 @@
     "it": "Sai chi ha inventato il telegrafo?",
     "license": "CC BY 2.0 FR",
     "source_id": "999181",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "21f3be66265e",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "La felicidad no se compra.",
+    "es_author": "Shishir",
+    "es_source_id": "454586",
+    "id": "s_999824",
+    "it": "La felicità non si compra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "999824",
     "translation_kind": "direct"
   },
   {

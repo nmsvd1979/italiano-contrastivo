@@ -2625,6 +2625,13 @@
   "tatoeba": "1003087"
  },
  {
+  "id": "s_374301",
+  "module": "a2m06",
+  "it": "Ieri era domenica.",
+  "es": "Ayer era domingo.",
+  "tatoeba": "374301"
+ },
+ {
   "id": "s_969310",
   "module": "a2m04",
   "it": "L'ho avuto gratis.",
@@ -2763,6 +2770,13 @@
   "it": "Tom ti ha chiamato.",
   "es": "Tom te llamó.",
   "tatoeba": "4261235"
+ },
+ {
+  "id": "s_351140",
+  "module": "a2m06",
+  "it": "Tornerò per le sei.",
+  "es": "Volveré para las seis.",
+  "tatoeba": "351140"
  },
  {
   "id": "s_3531983",
@@ -3010,6 +3024,13 @@
   "tatoeba": "1003133"
  },
  {
+  "id": "s_378178",
+  "module": "a2m06",
+  "it": "L'orologio è sbagliato.",
+  "es": "El reloj está mal.",
+  "tatoeba": "378178"
+ },
+ {
   "id": "s_2003388",
   "module": "a2m01",
   "it": "Le ragazze hanno vinto.",
@@ -3213,11 +3234,25 @@
   "tatoeba": "2078806"
  },
  {
+  "id": "s_1794752",
+  "module": "a2m06",
+  "it": "Sono arrivato a casa alle sette.",
+  "es": "Llegué a casa a las siete.",
+  "tatoeba": "1794752"
+ },
+ {
   "id": "s_375238",
   "module": "a2m01",
   "it": "Non mi è mai piaciuta la biologia.",
   "es": "Nunca me gustó la biología.",
   "tatoeba": "375238"
+ },
+ {
+  "id": "s_1005811",
+  "module": "a2m06",
+  "it": "Si può fare affidamento su di lui.",
+  "es": "Se puede contar con él.",
+  "tatoeba": "1005811"
  },
  {
   "id": "s_627118",

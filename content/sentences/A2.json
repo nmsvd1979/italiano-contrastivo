@@ -1458,6 +1458,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Siempre se acuesta a las nueve.",
+    "es_author": "IA (Claude)",
+    "id": "s_10214295",
+    "it": "Va sempre a letto alle nove.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10214295",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -1480,6 +1503,29 @@
       "ERR_PREP_FIXED_GOV": "preposizione_governo_fisso"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Nuel",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Viven en el octavo piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_10237594",
+    "it": "Stanno all'ottavo piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10237594",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Nuel",
@@ -1823,6 +1869,29 @@
       "ERR_GENERE_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "No se puede vivir aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_10708580",
+    "it": "Non si può vivere qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10708580",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "leonardo",
@@ -2186,6 +2255,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "En Brasil se habla portugués.",
+    "es_author": "hayastan",
+    "es_source_id": "1082649",
+    "id": "s_1082637",
+    "it": "In Brasile si parla portoghese.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1082637",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -2506,6 +2597,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "La biblioteca está en el segundo piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_11032644",
+    "it": "La biblioteca è al secondo piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11032644",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -2748,6 +2862,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Tom estaba sentado dos filas delante de mí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1114859",
+    "it": "Tom era seduto due file davanti a me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1114859",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -2793,6 +2930,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Se puede jugar ahora y estudiar después?",
+    "es_author": "IA (Claude)",
+    "id": "s_11216096",
+    "it": "Si può giocare ora e studiare dopo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11216096",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -2819,6 +2979,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "El parque está frente a mi casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_11228318",
+    "it": "Il parco è di fronte a casa mia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11228318",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_VOC_DIREZIONI"
     ],
     "es": "El aeropuerto está en el norte de la ciudad.",
@@ -2835,6 +3018,52 @@
       "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Se habla griego.",
+    "es_author": "IA (Claude)",
+    "id": "s_11249978",
+    "it": "Si parla greco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11249978",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Se habla mucho pero se hace poco.",
+    "es_author": "IA (Claude)",
+    "id": "s_11251884",
+    "it": "Si parla molto ma si fa poco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11251884",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "carlosalberto",
@@ -3135,6 +3364,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "nancy",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "La fiesta terminó a las diez.",
+    "es_author": "darinmex",
+    "es_source_id": "673419",
+    "id": "s_1134499",
+    "it": "La festa è terminata alle dieci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1134499",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Nuel",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -3270,6 +3521,28 @@
       "ERR_PRIMA_DI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Sí, vendré a las cuatro de la tarde.",
+    "es_author": "Shishir",
+    "es_source_id": "1147915",
+    "id": "s_1147913",
+    "it": "Sì, verrò alle quattro del pomeriggio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1147913",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -3412,6 +3685,30 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Todavía se habla egipcio?",
+    "es_author": "IA (Claude)",
+    "id": "s_11606816",
+    "it": "Si parla ancora l'egiziano?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11606816",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Adelpa",
@@ -3821,6 +4118,51 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Adelpa",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "En Egipto se habla árabe.",
+    "es_author": "Adelpa",
+    "es_source_id": "10981025",
+    "id": "s_11896096",
+    "it": "In Egitto si parla arabo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11896096",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "El jardín alrededor de mi casa es hermosísimo.",
+    "es_author": "IA (Claude)",
+    "id": "s_11944671",
+    "it": "Il giardino intorno a casa mia è bellissimo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11944671",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -3884,6 +4226,29 @@
     "source_id": "11977067",
     "tag_rules": {
       "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "El almuerzo empieza a las doce.",
+    "es_author": "IA (Claude)",
+    "id": "s_12015931",
+    "it": "Il pranzo inizia alle dodici.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12015931",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -4054,6 +4419,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Aquí se venden ropa y calzado.",
+    "es_author": "IA (Claude)",
+    "id": "s_12139455",
+    "it": "Qui si vendono vestiti e calzature.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12139455",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -4143,6 +4531,30 @@
       "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "¿Puedo sentarme a su lado?",
+    "es_author": "IA (Claude)",
+    "id": "s_1238378",
+    "it": "Posso sedermi di fianco a lei?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1238378",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -4250,6 +4662,52 @@
     "source": "tatoeba",
     "source_id": "1243680",
     "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Él vive al lado mío.",
+    "es_author": "IA (Claude)",
+    "id": "s_1246329",
+    "it": "Lui vive di fianco a me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1246329",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Vive a mi lado.",
+    "es_author": "IA (Claude)",
+    "id": "s_1246330",
+    "it": "Vive accanto a me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1246330",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
     "translation_kind": "llm"
   },
   {
@@ -4726,6 +5184,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "glossboss",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Me levanté a las cinco de la mañana.",
+    "es_author": "hayastan",
+    "es_source_id": "1233241",
+    "id": "s_12662431",
+    "it": "Mi sono alzata alle cinque del mattino.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12662431",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -4840,6 +5320,28 @@
       "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "ValentinaM",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "El supermercado abre a las diez.",
+    "es_author": "Shishir",
+    "es_source_id": "2023093",
+    "id": "s_1271960",
+    "it": "Il supermercato apre alle dieci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1271960",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "ValentinaM",
@@ -5003,6 +5505,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Se vende también vino importado?",
+    "es_author": "IA (Claude)",
+    "id": "s_12822531",
+    "it": "Si vende anche il vino importato?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12822531",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -5066,6 +5592,28 @@
     "source_id": "12834656",
     "tag_rules": {
       "ERR_IMPERATIVO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "zhou24",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Nuestra biblioteca está en el tercer piso.",
+    "es_author": "Juankarlos",
+    "es_source_id": "1048511",
+    "id": "s_1283470",
+    "it": "La nostra biblioteca è al terzo piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1283470",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5241,6 +5789,30 @@
     "source_id": "1300643",
     "tag_rules": {
       "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Normalmente me levanto a las seis.",
+    "es_author": "IA (Claude)",
+    "id": "s_1300771",
+    "it": "Solitamente mi alzo alle sei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1300771",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -5812,6 +6384,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Dónde se puede jugar al futbolín?",
+    "es_author": "Shishir",
+    "es_source_id": "1332308",
+    "id": "s_1332311",
+    "it": "Dove si può giocare a calcio balilla?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1332311",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_GLI_PALATAL",
       "ERR_PERSONAL_A",
       "ERR_POSSESSIVE_ARTICLE",
@@ -6039,6 +6635,52 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "¿Pero estaba sentado en el avión a tu lado?",
+    "es_author": "IA (Claude)",
+    "id": "s_1339969",
+    "it": "Ma era seduto in aereo di fianco a te?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1339969",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "El bus se detiene delante de mi casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_13421711",
+    "it": "L'autobus si ferma davanti a casa mia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13421711",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -6060,6 +6702,30 @@
       "ERR_CLITICO_POSIZIONE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Los bancos abren a las nueve.",
+    "es_author": "IA (Claude)",
+    "id": "s_13459169",
+    "it": "Le banche aprono alle nove.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13459169",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -6340,6 +7006,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Espera hasta las seis.",
+    "es_author": "IA (Claude)",
+    "id": "s_1389527",
+    "it": "Aspetta fino alle sei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1389527",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -6451,6 +7141,28 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "unforgiven95",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "No se vive solo de aire.",
+    "es_author": "Shishir",
+    "es_source_id": "2156105",
+    "id": "s_13976557",
+    "it": "Non si vive solo d'aria.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13976557",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "unforgiven95",
@@ -6946,6 +7658,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Se habla también alemán?",
+    "es_author": "IA (Claude)",
+    "id": "s_14090453",
+    "it": "Si parla anche il tedesco?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14090453",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -6966,6 +7701,29 @@
     "tag_rules": {
       "ERR_ACCENT_TRANSFER": "accento_finale",
       "ERR_MANCARE": "mancare"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Puedo venir a las tres.",
+    "es_author": "IA (Claude)",
+    "id": "s_1428559",
+    "it": "Posso venire alle tre.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1428559",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -7083,6 +7841,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "No se puede tener todo.",
+    "es_author": "nancy",
+    "es_source_id": "1588903",
+    "id": "s_1471250",
+    "it": "Non si può avere tutto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1471250",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -7100,6 +7880,28 @@
     "source_id": "1482371",
     "tag_rules": {
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "marco87",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Allí se come muy bien.",
+    "es_author": "marco87",
+    "es_source_id": "1490038",
+    "id": "s_1490035",
+    "it": "Lì si mangia molto bene.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1490035",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -7192,6 +7994,30 @@
       "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "¿Viene a las seis o a las siete?",
+    "es_author": "IA (Claude)",
+    "id": "s_1506983",
+    "it": "Viene alle sei o alle sette?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1506983",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Shadd",
@@ -7303,6 +8129,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "marco87",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Se puede ver el Monte Fuji desde aquí.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1515475",
+    "id": "s_1516070",
+    "it": "Si può vedere il monte Fuji da qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1516070",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -7373,6 +8221,121 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "¿Pueden venir a las nueve?",
+    "es_author": "IA (Claude)",
+    "id": "s_1523830",
+    "it": "Potete venire alle nove?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1523830",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "¿Puede venir a las nueve?",
+    "es_author": "IA (Claude)",
+    "id": "s_1523831",
+    "it": "Può venire alle nove?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1523831",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "¿Puedes venir a las nueve?",
+    "es_author": "IA (Claude)",
+    "id": "s_1523832",
+    "it": "Riesci a venire alle nove?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1523832",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "¿Pueden venir a las nueve?",
+    "es_author": "IA (Claude)",
+    "id": "s_1523834",
+    "it": "Riuscite a venire alle nove?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1523834",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "¿Puede venir a las nueve?",
+    "es_author": "IA (Claude)",
+    "id": "s_1523835",
+    "it": "Riesce a venire alle nove?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1523835",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -7437,6 +8400,29 @@
       "ERR_CLITIC_DIRECT_INDIRECT": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Toman el té a las cinco.",
+    "es_author": "IA (Claude)",
+    "id": "s_1536202",
+    "it": "Prendono il tè alle cinque.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1536202",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -7554,6 +8540,29 @@
     "source_id": "1545234",
     "tag_rules": {
       "ERR_PREP_PENSARE": "pensare_a"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Falta un cuarto para las dos.",
+    "es_author": "IA (Claude)",
+    "id": "s_1545913",
+    "it": "Manca un quarto alle due.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1545913",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -8046,6 +9055,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Volveré a las diez.",
+    "es_author": "tatoerique",
+    "es_source_id": "329772",
+    "id": "s_1630544",
+    "it": "Tornerò alle dieci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1630544",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -8443,6 +9474,52 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Este tren sale a las nueve.",
+    "es_author": "IA (Claude)",
+    "id": "s_1708384",
+    "it": "Questo treno parte alle nove.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1708384",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Salgo a las cuatro.",
+    "es_author": "IA (Claude)",
+    "id": "s_1708386",
+    "it": "Parto alle quattro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1708386",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_ORA_ES"
     ],
     "es": "Nuestro tren sale a las ocho y media.",
@@ -8484,6 +9561,96 @@
       "ERR_ORA_ES": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "El tren sale a las nueve.",
+    "es_author": "lukaszpp",
+    "es_source_id": "462973",
+    "id": "s_1708389",
+    "it": "Il treno parte alle nove.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1708389",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "El tren sale a las seis.",
+    "es_author": "IA (Claude)",
+    "id": "s_1708390",
+    "it": "Il treno parte alle sei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1708390",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "alexmarcelo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Salgo a las diez.",
+    "es_author": "IA (Claude)",
+    "id": "s_1708391",
+    "it": "Parto alle dieci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1708391",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Qué se puede decir?",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166078",
+    "id": "s_1709939",
+    "it": "Cosa si può dire?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1709939",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "alexmarcelo",
@@ -8646,6 +9813,29 @@
     "source_id": "1724749",
     "tag_rules": {
       "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Una chica apareció frente a mí.",
+    "es_author": "IA (Claude)",
+    "id": "s_1726436",
+    "it": "Una ragazza è apparsa di fronte a me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1726436",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -8913,6 +10103,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Cómo se puede?",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166056",
+    "id": "s_1803390",
+    "it": "Come si può?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1803390",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -9093,6 +10305,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "hitori37",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Estoy en el octavo piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_1851498",
+    "it": "Sono all'ottavo piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1851498",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "alexmarcelo",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -9243,6 +10479,50 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Dónde se puede firmar?",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166079",
+    "id": "s_1868941",
+    "it": "Dove si può firmare?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1868941",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "sixtynine",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Cómo se puede ser exitoso sin una buena educación?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1880084",
+    "id": "s_1880966",
+    "it": "Come si può avere successo senza una buona istruzione?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1880966",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "radu107",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -9350,6 +10630,29 @@
     "source_id": "1972149",
     "tag_rules": {
       "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "La oficina fue trasladada al sexto piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_1974645",
+    "it": "L'ufficio è stato trasferito al sesto piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1974645",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -9485,6 +10788,28 @@
       "ERR_CLITIC_DIRECT_INDIRECT": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "hitori37",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "La felicidad no puede comprarse.",
+    "es_author": "tatoerique",
+    "es_source_id": "345842",
+    "id": "s_2001363",
+    "it": "Non si può comprare la felicità.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2001363",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -10326,6 +11651,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Se habla catalán en Andorra.",
+    "es_author": "IA (Claude)",
+    "id": "s_2126199",
+    "it": "Si parla il catalano in Andorra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2126199",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Sirio60",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -10448,6 +11796,51 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Siempre se puede encontrar tiempo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2157716",
+    "it": "Si può sempre trovare del tempo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2157716",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Siempre se puede mejorar.",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166083",
+    "id": "s_2157745",
+    "it": "Si può sempre migliorare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2157745",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PREP_PLACE"
     ],
     "es": "Ahora que estás en Italia, debes ver Nápoles.",
@@ -10486,6 +11879,52 @@
     "source_id": "2180426",
     "tag_rules": {
       "ERR_CE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "miccap",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Se pueden sacar fotos en este edificio?",
+    "es_author": "IA (Claude)",
+    "id": "s_2188967",
+    "it": "Si possono fare fotografie in questo edificio?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2188967",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Pero, ¿de verdad se puede?",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166082",
+    "id": "s_2190066",
+    "it": "Ma davvero si può?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2190066",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -10913,6 +12352,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "hitori37",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "El auto está parado enfrente de aquel edificio.",
+    "es_author": "cueyayotl",
+    "es_source_id": "2268027",
+    "id": "s_2268230",
+    "it": "La macchina è parcheggiata di fronte a quel palazzo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2268230",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -11025,6 +12486,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "En Hungría se habla húngaro.",
+    "es_author": "termito2nd",
+    "es_source_id": "1667285",
+    "id": "s_2352902",
+    "it": "In Ungheria si parla l'ungherese.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2352902",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "al_ex_an_der",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -11045,6 +12528,52 @@
       "ERR_TENERE_AVERE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Yo estaba sentado entre ellos.",
+    "es_author": "IA (Claude)",
+    "id": "s_2402972",
+    "it": "Io sedevo in mezzo a loro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2402972",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Me senté entre ellos.",
+    "es_author": "IA (Claude)",
+    "id": "s_2402974",
+    "it": "Mi sono seduto in mezzo a loro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2402974",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -11135,6 +12664,30 @@
       "ERR_PP_AUSILIARE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "La oficina del doctor está en el segundo piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_2414781",
+    "it": "L'ufficio del dottore è al secondo piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2414781",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -11470,6 +13023,52 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Vive junto a mí.",
+    "es_author": "IA (Claude)",
+    "id": "s_2458097",
+    "it": "Abita accanto a me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2458097",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Vive al lado mío.",
+    "es_author": "IA (Claude)",
+    "id": "s_2458099",
+    "it": "Abita di fianco a me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2458099",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_DIRECT_INDIRECT"
     ],
     "es": "Le conozco desde hace más de diez años.",
@@ -11554,6 +13153,29 @@
       "ERR_PERSONAL_A": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Se pueden tener los huevos fuera del refrigerador?",
+    "es_author": "IA (Claude)",
+    "id": "s_2477604",
+    "it": "Si possono tenere le uova fuori dal frigo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2477604",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -12352,6 +13974,96 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Ahora él está en el trabajo, pero volverá a las siete.",
+    "es_author": "tatoerique",
+    "es_source_id": "356712",
+    "id": "s_2721020",
+    "it": "È al lavoro ora, però tornerà alle sette.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2721020",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Ahora él está en el trabajo, pero volverá a las siete.",
+    "es_author": "tatoerique",
+    "es_source_id": "356712",
+    "id": "s_2721023",
+    "it": "Lui è al lavoro adesso, però tornerà alle sette.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2721023",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Se puede fumar aquí?",
+    "es_author": "marcelostockle",
+    "es_source_id": "2266485",
+    "id": "s_2722129",
+    "it": "Si può fumare qui?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2722129",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Se vive una sola vez.",
+    "es_author": "IA (Claude)",
+    "id": "s_2732199",
+    "it": "Si vive una volta sola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2732199",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -12815,6 +14527,52 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Hay un árbol alto delante de mi casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_2853187",
+    "it": "C'è un albero alto davanti a casa mia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2853187",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¡Se puede sentir el olor a chocolate desde afuera!",
+    "es_author": "IA (Claude)",
+    "id": "s_2855302",
+    "it": "Si può sentire l'odore di cioccolata da fuori!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2855302",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -13229,6 +14987,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Mi oficina está en el quinto piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_3003176",
+    "it": "Il mio ufficio è al quinto piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3003176",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -13574,6 +15355,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "No se puede decir \"no\".",
+    "es_author": "IA (Claude)",
+    "id": "s_3107109",
+    "it": "Non si può dire \"no\".",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3107109",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_GENERE_ES"
     ],
     "es": "La leche me da dolor de estómago.",
@@ -13734,6 +15539,29 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Vivía junto a su tío.",
+    "es_author": "IA (Claude)",
+    "id": "s_3134245",
+    "it": "Viveva accanto a suo zio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3134245",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERFETTO_FORMA"
     ],
     "es": "Él vivía al lado de su tío.",
@@ -13750,6 +15578,75 @@
       "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Él vivía junto a su tío.",
+    "es_author": "IA (Claude)",
+    "id": "s_3134250",
+    "it": "Lui abitava accanto a suo zio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3134250",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Logro venir a las tres.",
+    "es_author": "IA (Claude)",
+    "id": "s_3154286",
+    "it": "Riesco a venire alle tre.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3154286",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Se puede ver toda la ciudad desde esta colina.",
+    "es_author": "IA (Claude)",
+    "id": "s_3158064",
+    "it": "Si può vedere l'intera città da questa collina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3158064",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -13888,6 +15785,54 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "La escuela empieza a las nueve.",
+    "es_author": "IA (Claude)",
+    "id": "s_3176331",
+    "it": "La scuola inizia alle nove.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3176331",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "La escuela empieza a las nueve.",
+    "es_author": "IA (Claude)",
+    "id": "s_3176332",
+    "it": "La scuola comincia alle nove.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3176332",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -14022,6 +15967,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Tom se sentó junto a Mary.",
+    "es_author": "IA (Claude)",
+    "id": "s_3255761",
+    "it": "Tom ha preso posto accanto a Mary.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3255761",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -14064,6 +16032,30 @@
     "source_id": "3262493",
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Se sentó a mi lado.",
+    "es_author": "IA (Claude)",
+    "id": "s_3268598",
+    "it": "Si è seduta accanto a me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3268598",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -14331,6 +16323,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Tocan el timbre a las ocho.",
+    "es_author": "IA (Claude)",
+    "id": "s_3362123",
+    "it": "Suonano la campanella alle otto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3362123",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -14372,6 +16387,30 @@
     "source_id": "3368822",
     "tag_rules": {
       "ERR_TEMPO_FA_DA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Se puede hacer.",
+    "es_author": "IA (Claude)",
+    "id": "s_3371439",
+    "it": "Si può fare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3371439",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -14423,6 +16462,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¡No se puede!",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166055",
+    "id": "s_3398133",
+    "it": "Non si può!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3398133",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -14464,6 +16525,30 @@
       "ERR_CLITIC_DIRECT_INDIRECT": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Se puede estudiar aquí.",
+    "es_author": "IA (Claude)",
+    "id": "s_3425271",
+    "it": "Si può studiare qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3425271",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -15328,6 +17413,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "martin",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Normalmente me despierto a las seis.",
+    "es_author": "IA (Claude)",
+    "id": "s_351662",
+    "it": "Di solito mi sveglio alle sei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "351662",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -15966,6 +18074,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Esperamos hasta las seis.",
+    "es_author": "IA (Claude)",
+    "id": "s_3637831",
+    "it": "Aspettiamo fino alle sei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3637831",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_RELATIVO_CHE"
     ],
     "es": "Es increíble lo que puede ocurrir.",
@@ -15982,6 +18113,29 @@
       "ERR_RELATIVO_CHE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "¿Quién es la chica guapa sentada al lado de Jack?",
+    "es_author": "IA (Claude)",
+    "id": "s_3650323",
+    "it": "Chi è la bella ragazza seduta di fianco a Jack?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3650323",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -16136,6 +18290,29 @@
       "ERR_CLITIC_DIRECT_INDIRECT": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Nos vemos el domingo a las tres.",
+    "es_author": "IA (Claude)",
+    "id": "s_373832",
+    "it": "Ci vediamo domenica alle tre.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "373832",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -16377,6 +18554,50 @@
     "source_id": "374453",
     "tag_rules": {
       "ERR_AUX_ESSERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Se puede hablar ahora?",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166098",
+    "id": "s_3744757",
+    "it": "Si può parlare ora?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3744757",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Se puede hablar ahora?",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166098",
+    "id": "s_3744758",
+    "it": "Si può parlare adesso?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3744758",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -17019,6 +19240,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Está en el primer piso de ese edificio.",
+    "es_author": "IA (Claude)",
+    "id": "s_3776823",
+    "it": "È al primo piano di quell'edificio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3776823",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -17043,6 +19287,51 @@
   },
   {
     "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Desayunamos a las siete.",
+    "es_author": "hundo",
+    "es_source_id": "976239",
+    "id": "s_378129",
+    "it": "Facciamo colazione alle sette.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378129",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "La ópera empieza a las siete.",
+    "es_author": "IA (Claude)",
+    "id": "s_378130",
+    "it": "L'opera comincia alle sette.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378130",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -17062,6 +19351,53 @@
       "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Desayuno a las siete.",
+    "es_author": "IA (Claude)",
+    "id": "s_378136",
+    "it": "Faccio colazione alle sette.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378136",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "La tienda cierra a las siete.",
+    "es_author": "IA (Claude)",
+    "id": "s_378139",
+    "it": "Il negozio chiude alle sette.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378139",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -19116,6 +21452,52 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "La vida comienza cuando uno paga impuestos.",
+    "es_author": "nancy",
+    "es_source_id": "1138849",
+    "id": "s_410130",
+    "it": "La vita comincia quando si pagano le tasse.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "410130",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "shoras",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Ella vive al lado de nuestra casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_410182",
+    "it": "Lei vive di fianco a casa nostra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "410182",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "shoras",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -19374,6 +21756,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Está en el octavo piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_4180606",
+    "it": "È all'ottavo piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4180606",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -19550,6 +21955,52 @@
     "source_id": "4217875",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Mi pieza está en el cuarto piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_422370",
+    "it": "La mia camera è al quarto piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "422370",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Mi departamento está en el cuarto piso.",
+    "es_author": "darinmex",
+    "es_source_id": "545636",
+    "id": "s_422372",
+    "it": "Il mio appartamento è al quarto piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "422372",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "BEASY8",
@@ -19793,6 +22244,29 @@
     "source": "tatoeba",
     "source_id": "4261235",
     "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "ocirne",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "La biblioteca está en el cuarto piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_4269159",
+    "it": "La biblioteca è al quarto piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4269159",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
     "translation_kind": "llm"
   },
   {
@@ -20233,6 +22707,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Dónde se puede llamar por teléfono?",
+    "es_author": "IA (Claude)",
+    "id": "s_4449",
+    "it": "Dove si può telefonare?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4449",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -20299,6 +22796,30 @@
       "ERR_IMPERATIVO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "De repente apareció un oso delante de nosotros.",
+    "es_author": "IA (Claude)",
+    "id": "s_4489654",
+    "it": "All'improvviso un orso è apparso davanti a noi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4489654",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -20387,6 +22908,28 @@
     "source_id": "4509597",
     "tag_rules": {
       "ERR_VOC_DENARO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Sirio60",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "La conferencia se terminó a las cinco.",
+    "es_author": "ventana",
+    "es_source_id": "721758",
+    "id": "s_4511592",
+    "it": "La conferenza è finita alle cinque.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4511592",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -20527,6 +23070,29 @@
       "ERR_GENERE_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Tom estaba de pie delante de Mary.",
+    "es_author": "IA (Claude)",
+    "id": "s_4573360",
+    "it": "Tom era in piedi davanti a Mary.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4573360",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -21152,6 +23718,29 @@
       "ERR_CLITIC_DIRECT_INDIRECT": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "mervert1",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Se queda en casa hasta las seis.",
+    "es_author": "IA (Claude)",
+    "id": "s_4737518",
+    "it": "Resta in casa fino alle sei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4737518",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -21808,6 +24397,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "El museo abre a las nueve.",
+    "es_author": "Shishir",
+    "es_source_id": "1344438",
+    "id": "s_521379",
+    "it": "Il museo apre alle nove.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "521379",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "BEASY8",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -22396,6 +25007,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "El ascensor se detuvo en el segundo piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_5352875",
+    "it": "L'ascensore si è fermato al secondo piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5352875",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -22769,6 +25403,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "¿Estaban en casa a las diez?",
+    "es_author": "IA (Claude)",
+    "id": "s_5511413",
+    "it": "Eravate a casa alle dieci?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5511413",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "dnnywld",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -22945,6 +25602,29 @@
     "source_id": "5570671",
     "tag_rules": {
       "ERR_VOC_TEMPO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Ven a mi casa a las ocho.",
+    "es_author": "IA (Claude)",
+    "id": "s_5617623",
+    "it": "Vieni a casa mia alle otto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5617623",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -23207,6 +25887,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Se habla francés en Canadá?",
+    "es_author": "IA (Claude)",
+    "id": "s_5709276",
+    "it": "Si parla il francese in Canada?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5709276",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PERSONAL_A"
     ],
     "es": "Sé que ella ama a Tom.",
@@ -23392,6 +26095,98 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Dónde se usa el francés?",
+    "es_author": "IA (Claude)",
+    "id": "s_5725017",
+    "it": "Dove si usa il francese?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5725017",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "La clase empieza a las diez.",
+    "es_author": "IA (Claude)",
+    "id": "s_5732476",
+    "it": "La lezione inizia alle dieci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5732476",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "La clase empieza a las diez.",
+    "es_author": "IA (Claude)",
+    "id": "s_5732477",
+    "it": "La lezione comincia alle dieci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5732477",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Miren hacia delante, por favor.",
+    "es_author": "IA (Claude)",
+    "id": "s_5733864",
+    "it": "Guardate davanti a voi, per favore.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5733864",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_AVVERBI_PASSATO"
     ],
     "es": "Ya no me importa.",
@@ -23407,6 +26202,121 @@
     "source_id": "5766105",
     "tag_rules": {
       "ERR_AVVERBI_PASSATO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Yo estaba sentado al lado de ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_5770688",
+    "it": "Ero seduto di fianco a lei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5770688",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Yo estaba sentada al lado de ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_5770691",
+    "it": "Ero seduta di fianco a lei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5770691",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "¿Puedo sentarme al lado de ella?",
+    "es_author": "DarkHollow",
+    "es_source_id": "4793884",
+    "id": "s_5775141",
+    "it": "Mi posso sedere accanto a lei?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5775141",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "El bus se detiene frente a mi casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_5796047",
+    "it": "L'autobus si ferma di fronte a casa mia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5796047",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Vivo en el quinto piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_5815089",
+    "it": "Io abito al quinto piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5815089",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -23477,6 +26387,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Aquí se habla francés.",
+    "es_author": "IA (Claude)",
+    "id": "s_5836991",
+    "it": "Si parla il francese qui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5836991",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -23497,6 +26430,28 @@
       "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "WM3DAS",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Prometió venir a las cuatro.",
+    "es_author": "Shishir",
+    "es_source_id": "1870598",
+    "id": "s_5873956",
+    "it": "Ha promesso di venire alle quattro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5873956",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "WM3DAS",
@@ -23752,6 +26707,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "rado",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "El programa empieza a las nueve.",
+    "es_author": "IA (Claude)",
+    "id": "s_606984",
+    "it": "Il programma comincia alle nove.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "606984",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -23905,6 +26883,30 @@
       "ERR_PP_VS_IMPERFETTO": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Estaré allí a las cinco.",
+    "es_author": "hayastan",
+    "es_source_id": "1075528",
+    "id": "s_612198",
+    "it": "Sarò lì alle cinque.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "612198",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "rado",
@@ -24344,6 +27346,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "He mirado a mi alrededor.",
+    "es_author": "Shishir",
+    "es_source_id": "1388697",
+    "id": "s_624959",
+    "it": "Ho guardato intorno a me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "624959",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -24540,6 +27566,53 @@
     "source_id": "632300",
     "tag_rules": {
       "ERR_VOC_TEMPO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Normalmente me levanto a las ocho.",
+    "es_author": "IA (Claude)",
+    "id": "s_632360",
+    "it": "Di solito mi alzo alle otto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "632360",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "¿Puedo sentarme a tu lado?",
+    "es_author": "IA (Claude)",
+    "id": "s_633381",
+    "it": "Posso sedermi di fianco a te?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "633381",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -24769,6 +27842,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Siempre se puede contar con nosotros.",
+    "es_author": "IA (Claude)",
+    "id": "s_6464047",
+    "it": "Si può sempre contare su di noi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6464047",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -24931,6 +28027,75 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "¿Se pueden comer ostras crudas?",
+    "es_author": "IA (Claude)",
+    "id": "s_6545824",
+    "it": "Si possono mangiare le ostriche crude?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6545824",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Pasé corriendo delante de ellos.",
+    "es_author": "IA (Claude)",
+    "id": "s_6556338",
+    "it": "Sono passato davanti a loro correndo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6556338",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Pasé corriendo delante de ellos.",
+    "es_author": "IA (Claude)",
+    "id": "s_6556340",
+    "it": "Sono passata davanti a loro correndo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6556340",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "rado",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -24948,6 +28113,30 @@
     "source_id": "656309",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Desayunaremos a las ocho.",
+    "es_author": "MondCivitano",
+    "es_source_id": "656160",
+    "id": "s_656395",
+    "it": "Faremo colazione alle otto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "656395",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -25148,6 +28337,29 @@
       "ERR_COMPARATIVO_IRREG": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "La tienda cierra a las once.",
+    "es_author": "IA (Claude)",
+    "id": "s_6705206",
+    "it": "Il negozio chiude alle undici.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6705206",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -25352,6 +28564,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Tom se sentó junto a Mary.",
+    "es_author": "IA (Claude)",
+    "id": "s_6875093",
+    "it": "Tom si è seduto accanto a Mary.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6875093",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "dnnywld",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -25435,6 +28670,53 @@
     "source": "tatoeba",
     "source_id": "691383",
     "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Tom estaba sentado junto a Mary.",
+    "es_author": "IA (Claude)",
+    "id": "s_6923447",
+    "it": "Tom era seduto accanto a Mary.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6923447",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Se puede romper.",
+    "es_author": "IA (Claude)",
+    "id": "s_6927038",
+    "it": "Si può rompere.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6927038",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
     "translation_kind": "llm"
   },
   {
@@ -25525,6 +28807,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Ven aquí a las seis, no antes.",
+    "es_author": "IA (Claude)",
+    "id": "s_694344",
+    "it": "Vieni qui alle sei, non prima.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "694344",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Heracleum",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_AVVERBI_PASSATO"
     ],
     "es": "Él ya no trabaja aquí.",
@@ -25543,6 +28849,28 @@
       "ERR_AVVERBI_PASSATO": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Heracleum",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Tengo que estar en la estación a las tres en punto.",
+    "es_author": "Shishir",
+    "es_source_id": "512416",
+    "id": "s_694872",
+    "it": "Devo essere alla stazione alle tre in punto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "694872",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -25841,6 +29169,29 @@
       "ERR_SC_PALATAL": "sc_palatale"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Tom lo hizo delante de todos.",
+    "es_author": "IA (Claude)",
+    "id": "s_7122892",
+    "it": "Tom l'ha fatto davanti a tutti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7122892",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -26845,6 +30196,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "También hay oficinas en el segundo piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_7633795",
+    "it": "Ci sono anche degli uffici al secondo piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7633795",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_GENERE_ES"
     ],
     "es": "Él usa un lápiz de punta fina.",
@@ -27048,6 +30422,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Estamos en el tercer piso.",
+    "es_author": "arh",
+    "es_source_id": "7745768",
+    "id": "s_7728990",
+    "it": "Noi siamo al terzo piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7728990",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_VOC_NATURA"
     ],
     "es": "Soy el hombre más feliz de la tierra.",
@@ -27134,6 +30532,28 @@
       "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Volvió a las seis.",
+    "es_author": "chinopinyin",
+    "es_source_id": "759916",
+    "id": "s_777412",
+    "it": "È tornato alle sei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "777412",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Pharamp",
@@ -27223,6 +30643,29 @@
       "ERR_VOC_DENARO": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Mi casa está en el cuarto piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_7804491",
+    "it": "Casa mia è al quarto piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7804491",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Cocorico",
@@ -27426,6 +30869,29 @@
     "source_id": "7904213",
     "tag_rules": {
       "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Tom estaba sentado al lado de Mary.",
+    "es_author": "IA (Claude)",
+    "id": "s_7909192",
+    "it": "Tom era seduto di fianco a Mary.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7909192",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -27702,6 +31168,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Se sentó al lado mío.",
+    "es_author": "IA (Claude)",
+    "id": "s_826519",
+    "it": "Si è seduta di fianco a me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "826519",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -27818,6 +31308,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Pondré el despertador a las siete.",
+    "es_author": "IA (Claude)",
+    "id": "s_836247",
+    "it": "Metterò la sveglia alle sette.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "836247",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -27859,6 +31372,30 @@
       "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Se levanta a las siete.",
+    "es_author": "IA (Claude)",
+    "id": "s_839358",
+    "it": "Si alza alle sette.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "839358",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Balamax",
@@ -27908,6 +31445,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Me pongo nervioso cuando hablo delante de mucha gente.",
+    "es_author": "IA (Claude)",
+    "id": "s_8425151",
+    "it": "Divento nervoso quando parlo davanti a un pubblico numeroso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8425151",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -27926,6 +31486,52 @@
     "source_id": "842576",
     "tag_rules": {
       "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Estaba sentado a mi lado.",
+    "es_author": "IA (Claude)",
+    "id": "s_8466609",
+    "it": "Era seduto accanto a me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8466609",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Estaba sentado al lado mío.",
+    "es_author": "IA (Claude)",
+    "id": "s_8466610",
+    "it": "Era seduto di fianco a me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8466610",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -28419,6 +32025,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "Vivimos en el segundo piso.",
+    "es_author": "IA (Claude)",
+    "id": "s_9002877",
+    "it": "Viviamo al secondo piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9002877",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -28816,6 +32446,50 @@
     "source_id": "940163",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "Se puede cenar entre las nueve y las doce.",
+    "es_author": "lukaszpp",
+    "es_source_id": "462705",
+    "id": "s_940167",
+    "it": "Si può cenare tra le nove e le dodici.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "940167",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_DATE_ORARI"
+    ],
+    "es": "El trabajo estará terminado a las seis.",
+    "es_author": "hayastan",
+    "es_source_id": "945467",
+    "id": "s_945464",
+    "it": "Il lavoro sarà finito alle sei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "945464",
+    "tag_rules": {
+      "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -29268,6 +32942,29 @@
     "source_id": "9712003",
     "tag_rules": {
       "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SPAZIO_PREP"
+    ],
+    "es": "Alguien estacionó frente a mi casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_9712492",
+    "it": "Qualcuno ha parcheggiato di fronte a casa mia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9712492",
+    "tag_rules": {
+      "ERR_SPAZIO_PREP": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -29808,6 +33505,28 @@
     "source_id": "999181",
     "tag_rules": {
       "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SI_IMPERSONALE"
+    ],
+    "es": "La felicidad no se compra.",
+    "es_author": "Shishir",
+    "es_source_id": "454586",
+    "id": "s_999824",
+    "it": "La felicità non si compra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "999824",
+    "tag_rules": {
+      "ERR_SI_IMPERSONALE": "capsule_calque"
     },
     "translation_kind": "direct"
   }

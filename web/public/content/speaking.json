@@ -461,6 +461,30 @@
         "u92"
       ],
       "goal_es": "Pide zapatos cómodos, pregunta el precio y el número, y decide si los llevas."
+    },
+    {
+      "id": "rp_a2m06_a",
+      "title": "Depositar y retirar dinero en el banco",
+      "function_es": "Hablar en una ventanilla",
+      "reading": "rd_a2m06_a",
+      "from": 0,
+      "to": 10,
+      "after": [
+        "u96"
+      ],
+      "goal_es": "Pedir un depósito, firmar y preguntar dónde está el cajero y a qué hora cierra el banco."
+    },
+    {
+      "id": "rp_a2m06_b",
+      "title": "Preguntar dónde está una oficina",
+      "function_es": "Pedir y dar indicaciones",
+      "reading": "rd_a2m06_b",
+      "from": 0,
+      "to": 10,
+      "after": [
+        "u96"
+      ],
+      "goal_es": "Preguntar por una oficina, entender el camino y averiguar el piso."
     }
   ],
   "tasks": [
@@ -1051,6 +1075,57 @@
         "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
         "No leí: hablé de corrido, aunque con pausas.",
         "Cuidé lo que enseña este módulo: Più… di / che; Meglio o migliore; -issimo; Qualche + singular, dei, qualcosa di.",
+        "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_a2m06",
+      "title": "Trámites, casa y barrio",
+      "function_es": "Describir tu barrio y hablar de trámites",
+      "level": "A2",
+      "minutes": 2,
+      "after": [
+        "u96"
+      ],
+      "source": {
+        "book": "Texto escrito por la IA (Claude) para esta app",
+        "authors": "Claude (IA), a pedido del usuario",
+        "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+        "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+      },
+      "intro_es": "Habla unos 2 minutos, sin leer. Responde con frases completas: usa expresiones de lugar (di fronte a, accanto a, in fondo a), fechas y años, y «si può» o «è vietato».",
+      "questions": [
+        {
+          "it": "Dove abiti e che cosa c'è di fronte a casa tua?",
+          "es": "¿Dónde vives y qué hay frente a tu casa?",
+          "audio": "0ac9fba19297"
+        },
+        {
+          "it": "Che cosa c'è accanto alla banca o all'ufficio postale?",
+          "es": "¿Qué hay junto al banco o a la oficina de correos?",
+          "audio": "87a922882e91"
+        },
+        {
+          "it": "Da che anno abiti in questa casa?",
+          "es": "¿Desde qué año vives en esta casa?",
+          "audio": "e5979c7551ce"
+        },
+        {
+          "it": "Quando vai in banca o in posta, e a che ora?",
+          "es": "¿Cuándo vas al banco o al correo, y a qué hora?",
+          "audio": "d68905bbe9ab"
+        },
+        {
+          "it": "Che cosa non si può fare nel tuo edificio?",
+          "es": "¿Qué no se puede hacer en tu edificio?",
+          "audio": "b9de41b9d3fa"
+        }
+      ],
+      "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que enseña este módulo: Situar: di fronte a, accanto a, in fondo a; Fechas, años y horarios; «Si» impersonal y carteles.",
         "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
       ]
     }
@@ -2426,6 +2501,86 @@
         "es": "¿Tienes un traje de baño? ¿De qué color es?",
         "authored": true,
         "audio": "b25c5d5a5820"
+      },
+      {
+        "id": "iq_ht_a2m06_1",
+        "module": "a2m06",
+        "it": "Dove abiti e che cosa c'è di fronte a casa tua?",
+        "es": "¿Dónde vives y qué hay frente a tu casa?",
+        "task": "ht_a2m06",
+        "audio": "0ac9fba19297"
+      },
+      {
+        "id": "iq_ht_a2m06_2",
+        "module": "a2m06",
+        "it": "Che cosa c'è accanto alla banca o all'ufficio postale?",
+        "es": "¿Qué hay junto al banco o a la oficina de correos?",
+        "task": "ht_a2m06",
+        "audio": "87a922882e91"
+      },
+      {
+        "id": "iq_ht_a2m06_3",
+        "module": "a2m06",
+        "it": "Da che anno abiti in questa casa?",
+        "es": "¿Desde qué año vives en esta casa?",
+        "task": "ht_a2m06",
+        "audio": "e5979c7551ce"
+      },
+      {
+        "id": "iq_ht_a2m06_4",
+        "module": "a2m06",
+        "it": "Quando vai in banca o in posta, e a che ora?",
+        "es": "¿Cuándo vas al banco o al correo, y a qué hora?",
+        "task": "ht_a2m06",
+        "audio": "d68905bbe9ab"
+      },
+      {
+        "id": "iq_ht_a2m06_5",
+        "module": "a2m06",
+        "it": "Che cosa non si può fare nel tuo edificio?",
+        "es": "¿Qué no se puede hacer en tu edificio?",
+        "task": "ht_a2m06",
+        "audio": "b9de41b9d3fa"
+      },
+      {
+        "id": "iq_a2m06_1",
+        "module": "a2m06",
+        "it": "Dov'è la banca più vicina a casa tua?",
+        "es": "¿Dónde está el banco más cercano a tu casa?",
+        "authored": true,
+        "audio": "40e5ee8d0593"
+      },
+      {
+        "id": "iq_a2m06_2",
+        "module": "a2m06",
+        "it": "Che cosa c'è di fronte a casa tua?",
+        "es": "¿Qué hay frente a tu casa?",
+        "authored": true,
+        "audio": "0709d50b4b96"
+      },
+      {
+        "id": "iq_a2m06_4",
+        "module": "a2m06",
+        "it": "In che anno hai finito la scuola?",
+        "es": "¿En qué año terminaste el colegio?",
+        "authored": true,
+        "audio": "ee96c7736042"
+      },
+      {
+        "id": "iq_a2m06_5",
+        "module": "a2m06",
+        "it": "Che cosa si può fare in un ufficio postale?",
+        "es": "¿Qué se puede hacer en una oficina de correos?",
+        "authored": true,
+        "audio": "9d91d16f6403"
+      },
+      {
+        "id": "iq_a2m06_6",
+        "module": "a2m06",
+        "it": "A che ora apre la banca nella tua città?",
+        "es": "¿A qué hora abre el banco en tu ciudad?",
+        "authored": true,
+        "audio": "25a3d2785564"
       }
     ]
   }

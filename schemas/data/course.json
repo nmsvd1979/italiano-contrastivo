@@ -624,6 +624,43 @@
         "doc_a2m05_catalogo",
         "vh_a2m05"
       ]
+    },
+    {
+      "id": "a2m06",
+      "level": "A2",
+      "title": "Trámites, casa y barrio",
+      "can_do_es": [
+        "Hacer un trámite en correos, en el banco, en una oficina pública o en una secretaría.",
+        "Situar algo con di fronte a, accanto a, in fondo a.",
+        "Decir fechas, años y horarios.",
+        "Entender un reglamento, un cartel y un mensaje de contestador."
+      ],
+      "units": [
+        "u93",
+        "u94",
+        "u95",
+        "u96"
+      ],
+      "entry_reading": "rd_a2m06_entrada",
+      "roleplays": [
+        "rp_a2m06_a",
+        "rp_a2m06_b"
+      ],
+      "tasks": [
+        "ht_a2m06"
+      ],
+      "phrase_groups": [],
+      "library": "integrazione-migranti",
+      "library_task_es": "Elige en el Portale Integrazione Migranti un recurso de nivel A2 sobre servicios y trámites y haz 10 minutos de sus ejercicios.",
+      "writing_es": "Escribe en italiano un texto de 40–60 palabras sobre tu barrio: dónde están el banco y la oficina de correos. Usa al menos 3 expresiones de lugar (di fronte a, accanto a, in fondo a) y una frase con «si può».",
+      "writing_short_es": "Escribe en italiano un mensaje de 25–50 palabras a una oficina de correos: pregunta el horario del sábado y qué documento debes llevar para retirar un paquete. Usa «vorrei» y una hora con «dalle… alle…».",
+      "extra_readings": [
+        "ls_a2m06",
+        "doc_a2m06_modulo",
+        "doc_a2m06_regolamento",
+        "doc_a2m06_orari",
+        "vh_a2m06"
+      ]
     }
   ],
   "units": [
@@ -2256,6 +2293,51 @@
       ],
       "why_here": "Elegir entre dos cosas en una tienda: ropa, precios, preferencias.",
       "ficha_es": "Palabras de la casa, la ropa y la comida que se parecen al español pero significan otra cosa: largo es «ancho» (lo largo es lungo), vaso es el florero o la maceta (el vaso de beber es bicchiere), morbido es «suave», minestra es «sopa», tasca es «bolsillo», calze son «medias», costume es la costumbre o el traje de baño, tenda es la tienda de campaña o la cortina.\n\nError típico: burro, aceto, caldo, largo, vaso, tovaglia, calze, negozio, tasca, morbido, salato, costume, gamba, topo (vaso = florero/maceta; tovaglia = mantel; calze = medias); también minestra, giaccone, sandali, cognato, parente (palabras A2 que A1 no trae)\n\nQué practicas aquí: Falsos amigos de nivel A2 (casa, comida, compras, ciudad y viaje); Área temática PLIDA A2: Comida y bebida; Área temática PLIDA A2: Compras y pagar; Área temática PLIDA A2: Ropa y accesorios.\n\nSituación del módulo: Elegir entre dos cosas en una tienda: ropa, precios, preferencias."
+    },
+    {
+      "id": "u93",
+      "level": "A2",
+      "title": "Situar: di fronte a, accanto a, in fondo a",
+      "goal_es": "Situar: di fronte a, accanto a, in fondo a",
+      "codes": [
+        "ERR_SPAZIO_PREP"
+      ],
+      "why_here": "Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles.",
+      "ficha_es": "Las locuciones de lugar llevan a: di fronte a, accanto a, in fondo a, davanti a (no *di fronte di, *accanto di).\n\nError típico: *di fronte di, *al lato di, *debajo di il → di fronte a, accanto a, sotto il; in fondo a\n\nQué practicas aquí: Preposiciones articuladas con di, a, da, su; Área temática PLIDA A2: Casa; Área temática PLIDA A2: Ciudad; Situar en el espacio (davanti a, dietro, vicino a, sotto, di fronte a).\n\nSituación del módulo: Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles."
+    },
+    {
+      "id": "u94",
+      "level": "A2",
+      "title": "Fechas, años y horarios",
+      "goal_es": "Fechas, años y horarios",
+      "codes": [
+        "ERR_DATE_ORARI"
+      ],
+      "why_here": "Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles.",
+      "ficha_es": "Con los pisos se usa al: al terzo piano (no *nel terzo piano). Con los años, nel: nel 2020 (no *in 2020). Con el día del mes va el número sin «de»: il 3 maggio; el primero es il primo maggio.\n\nError típico: *in 2020 → nel 2020; *il 3 di maggio → il 3 maggio; *a las 8 → alle 8; *de 9 a 5 → dalle 9 alle 5; *nel terzo piano → al terzo piano; ordinales hasta décimo (primo, secondo, terzo… ; il primo maggio)\n\nQué practicas aquí: Numerales cardinales (también años y precios); Numerales ordinales hasta décimo y fechas (il primo maggio, al terzo piano); Preposiciones articuladas con di, a, da, su; Decir la hora, las fechas y situar en el tiempo (la settimana prossima, fra due giorni).\n\nSituación del módulo: Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles."
+    },
+    {
+      "id": "u95",
+      "level": "A2",
+      "title": "«Si» impersonal y carteles",
+      "goal_es": "«Si» impersonal y carteles (solo reconocer)",
+      "codes": [
+        "ERR_SI_IMPERSONALE"
+      ],
+      "why_here": "Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles.",
+      "ficha_es": "El español dice «se habla»; el italiano, si parla, si può, si dice (con si, no *se). Es la misma construcción con otra palabra: si vendono case.\n\nError típico: *se dice, *se può → si dice, si può; vietato, permesso, obbligatorio, non + infinitivo en carteles. Válido y no es error: si è andati (impersonal en pasado)\n\nQué practicas aquí: «Si» impersonal (si può, si dice, si vendono).\n\nSituación del módulo: Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles.",
+      "productive": false
+    },
+    {
+      "id": "u96",
+      "level": "A2",
+      "title": "Vocabulario: oficinas y banco (solo lo que no está en A1)",
+      "goal_es": "Vocabulario: oficinas y banco (solo lo que no está en A1)",
+      "codes": [
+        "ERR_VOC_UFFICI"
+      ],
+      "why_here": "Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles.",
+      "ficha_es": "Oficinas, banco y trámites: firma, fila (la cola), multa, tassa e tasse (impuestos), domanda (la solicitud; también «pregunta»), patente (el carné de conducir, no la patente), permesso (permiso), appuntamento (cita), certificato, contratto, assegno (cheque), pagamento, bancomat (cajero), comune (ayuntamiento), impiegato (empleado). Las palabras de A1 como sportello, modulo o pacco ya están vistas.\n\nError típico: firma, ricevuta, prelevare, versare, bancomat, codice fiscale, spedire (≠ «expedir»), raccomandata (sportello, modulo, pacco y bolletta ya están en u74/A1)\n\nQué practicas aquí: Área temática PLIDA A2: Instituciones y vida política; Área temática PLIDA A2: Oficinas públicas y servicios; Hacer un trámite en una oficina pública (comune, anagrafe, questura): pedir un documento.\n\nSituación del módulo: Correos, banco, oficina pública y secretaría; el barrio y la casa; avisos, reglamentos y carteles."
     }
   ],
   "planned": [

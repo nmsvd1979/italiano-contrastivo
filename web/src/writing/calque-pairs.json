@@ -496,8 +496,18 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "È contrario al contratto.",
+    "wrong": "È contrario a il contratto."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Di solito vado al parco.",
     "wrong": "Di solito vado a il parco."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Sto firmando il mio contratto.",
+    "wrong": "Sto firmando mio contratto."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -598,6 +608,11 @@
     "code": "ERR_PREP_PLACE",
     "correct": "Sei andato in Italia.",
     "wrong": "Sei andato a Italia."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Devo prelevare al bancomat.",
+    "wrong": "Devo prelevare a il bancomat."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -703,6 +718,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Mi piace il suono del pianoforte.",
     "wrong": "Mi piace il suono di il pianoforte."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ho bisogno della tua firma qui.",
+    "wrong": "Ho bisogno di la tua firma qui."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Mi serve la tua firma qui.",
+    "wrong": "Mi serve tua firma qui."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -826,8 +851,23 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Posso vedere la sua patente?",
+    "wrong": "Posso vedere sua patente?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Sto cercando il mio orologio.",
     "wrong": "Sto cercando mio orologio."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Non ho bisogno del suo permesso.",
+    "wrong": "Non ho bisogno di il suo permesso."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Non ho bisogno del tuo permesso.",
+    "wrong": "Non ho bisogno di il tuo permesso."
   },
   {
     "code": "ERR_TENERE_AVERE",
@@ -1068,6 +1108,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "I suoi occhi sono azzurri.",
     "wrong": "Suoi occhi sono azzurri."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Non ho bisogno del permesso di nessuno.",
+    "wrong": "Non ho bisogno di il permesso di nessuno."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -1691,6 +1736,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ho bisogno della firma di Tom.",
+    "wrong": "Ho bisogno di la firma di Tom."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Voglio parlare del mio amore.",
     "wrong": "Voglio parlare di il mio amore."
   },
@@ -2061,6 +2111,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ho un appuntamento dal dentista.",
+    "wrong": "Ho un appuntamento da il dentista."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Hai dello shampoo?",
     "wrong": "Hai di lo shampoo?"
   },
@@ -2428,6 +2483,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Lei non abita vicino all'ufficio.",
     "wrong": "Lei non abita vicino a l'ufficio."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Non è nel mio contratto.",
+    "wrong": "Non è in il mio contratto."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2851,6 +2911,16 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Va sempre a letto alle nove.",
+    "wrong": "Va sempre a letto a le nove."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Stanno all'ottavo piano.",
+    "wrong": "Stanno a l'ottavo piano."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Siamo della stessa altezza: un metro e sessanta.",
     "wrong": "Siamo di la stessa altezza: un metro e sessanta."
   },
@@ -2935,6 +3005,11 @@
     "wrong": "Jack ha nato il dieci agosto."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La biblioteca è al secondo piano.",
+    "wrong": "La biblioteca è a il secondo piano."
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Ho incontrato Tom mentre andavo a scuola.",
     "wrong": "Ho incontrato a Tom mentre andavo a scuola."
@@ -2968,6 +3043,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Gli alberi non crescono fino al cielo.",
     "wrong": "Gli alberi non crescono fino a il cielo."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La festa è terminata alle dieci.",
+    "wrong": "La festa è terminata a le dieci."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -3013,6 +3093,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "La sua risposta è stata breve.",
     "wrong": "Sua risposta è stata breve."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il pranzo inizia alle dodici.",
+    "wrong": "Il pranzo inizia a le dodici."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -3066,8 +3151,28 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il supermercato apre alle dieci.",
+    "wrong": "Il supermercato apre a le dieci."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La nostra biblioteca è al terzo piano.",
+    "wrong": "Nostra biblioteca è al terzo piano."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La nostra biblioteca è al terzo piano.",
+    "wrong": "La nostra biblioteca è a il terzo piano."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Ieri abbiamo visto un grosso lupo nel bosco.",
     "wrong": "Ieri abbiamo visto un grosso lupo in il bosco."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Solitamente mi alzo alle sei.",
+    "wrong": "Solitamente mi alzo a le sei."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -3130,6 +3235,11 @@
     "wrong": "Vedrete che tengo ragione."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Le banche aprono alle nove.",
+    "wrong": "Le banche aprono a le nove."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il mio compleanno è il dieci novembre.",
     "wrong": "Mio compleanno è il dieci novembre."
@@ -3153,6 +3263,11 @@
     "code": "ERR_CE_AGREEMENT",
     "correct": "Dopo il sabato c'è la domenica.",
     "wrong": "Dopo il sabato ci sono la domenica."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Aspetta fino alle sei.",
+    "wrong": "Aspetta fino a le sei."
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -3210,6 +3325,11 @@
     "wrong": "Lui ha uscito."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Posso venire alle tre.",
+    "wrong": "Posso venire a le tre."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Quando siete andati?",
     "wrong": "Quando avete andati?"
@@ -3250,6 +3370,31 @@
     "wrong": "Ha andato a casa tre ore dopo."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Potete venire alle nove?",
+    "wrong": "Potete venire a le nove?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Può venire alle nove?",
+    "wrong": "Può venire a le nove?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Riesci a venire alle nove?",
+    "wrong": "Riesci a venire a le nove?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Riuscite a venire alle nove?",
+    "wrong": "Riuscite a venire a le nove?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Riesce a venire alle nove?",
+    "wrong": "Riesce a venire a le nove?"
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Vorrei parlare con il mio avvocato.",
     "wrong": "Vorrei parlare con mio avvocato."
@@ -3258,6 +3403,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "A volte lo vedo al club.",
     "wrong": "A volte lo vedo a il club."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Prendono il tè alle cinque.",
+    "wrong": "Prendono il tè a le cinque."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Manca un quarto alle due.",
+    "wrong": "Manca un quarto a le due."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -3288,6 +3443,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Tom è partito tre giorni fa.",
     "wrong": "Tom ha partito tre giorni fa."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Tornerò alle dieci.",
+    "wrong": "Tornerò a le dieci."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3335,6 +3495,16 @@
     "wrong": "Io conosco a Jim da quando ero bambina."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Questo treno parte alle nove.",
+    "wrong": "Questo treno parte a le nove."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Parto alle quattro.",
+    "wrong": "Parto a le quattro."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il nostro treno parte alle otto e mezza.",
     "wrong": "Nostro treno parte alle otto e mezza."
@@ -3343,6 +3513,21 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Il nostro treno parte alle otto e mezza.",
     "wrong": "Il nostro treno parte a le otto e mezza."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il treno parte alle nove.",
+    "wrong": "Il treno parte a le nove."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il treno parte alle sei.",
+    "wrong": "Il treno parte a le sei."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Parto alle dieci.",
+    "wrong": "Parto a le dieci."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3400,9 +3585,19 @@
     "wrong": "Anche i tedeschi hanno un senso di l'umorismo."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sono all'ottavo piano.",
+    "wrong": "Sono a l'ottavo piano."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "È venuto a Berlino come insegnante.",
     "wrong": "Ha venuto a Berlino come insegnante."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "L'ufficio è stato trasferito al sesto piano.",
+    "wrong": "L'ufficio è stato trasferito a il sesto piano."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3458,6 +3653,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Mi è piaciuta la tua idea e l'ho adottata.",
     "wrong": "Mi è piaciuta tua idea e l'ho adottata."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Si può sempre trovare del tempo.",
+    "wrong": "Si può sempre trovare di il tempo."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -3545,6 +3745,11 @@
     "wrong": "Io conosco a Tom da quand'ero un ragazzino."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Si possono tenere le uova fuori dal frigo?",
+    "wrong": "Si possono tenere le uova fuori da il frigo?"
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Tom è venuto.",
     "wrong": "Tom ha venuto."
@@ -3625,6 +3830,11 @@
     "wrong": "Si può dire che ha morto felice."
   },
   {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "C'è un albero alto davanti a casa mia.",
+    "wrong": "Ci sono un albero alto davanti a casa mia."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Lei è nata in Ohio.",
     "wrong": "Lei ha nata in Ohio."
@@ -3643,6 +3853,16 @@
     "code": "ERR_PERSONAL_A",
     "correct": "Tom ama Mary, però lei non ama lui.",
     "wrong": "Tom ama a Mary, però lei non ama lui."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio ufficio è al quinto piano.",
+    "wrong": "Mio ufficio è al quinto piano."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il mio ufficio è al quinto piano.",
+    "wrong": "Il mio ufficio è a il quinto piano."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -3695,6 +3915,11 @@
     "wrong": "Qual è il nome di la sua migliore amica?"
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Riesco a venire alle tre.",
+    "wrong": "Riesco a venire a le tre."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Non siamo andati a Torino.",
     "wrong": "Non abbiamo andati a Torino."
@@ -3708,6 +3933,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Vieni al campo a vedere il fenomeno questa sera.",
     "wrong": "Vieni a il campo a vedere il fenomeno questa sera."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La scuola inizia alle nove.",
+    "wrong": "La scuola inizia a le nove."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La scuola comincia alle nove.",
+    "wrong": "La scuola comincia a le nove."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -3738,6 +3973,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "C'erano molte persone nella camera.",
     "wrong": "C'erano molte persone in la camera."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Suonano la campanella alle otto.",
+    "wrong": "Suonano la campanella a le otto."
   },
   {
     "code": "ERR_PERSONAL_A",
@@ -3801,6 +4041,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Di solito mi sveglio alle sei.",
+    "wrong": "Di solito mi sveglio a le sei."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La popolazione dell'Uganda è in rapida crescita.",
     "wrong": "La popolazione di l'Uganda è in rapida crescita."
   },
@@ -3816,8 +4061,18 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Aspettiamo fino alle sei.",
+    "wrong": "Aspettiamo fino a le sei."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io ceno alle sette e un quarto.",
     "wrong": "Io ceno a le sette e un quarto."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ci vediamo domenica alle tre.",
+    "wrong": "Ci vediamo domenica a le tre."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -3850,9 +4105,34 @@
     "wrong": "Non potete andare a casa fino a le due e mezza."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "È al primo piano di quell'edificio.",
+    "wrong": "È a il primo piano di quell'edificio."
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Ho incontrato Tom dopo il lavoro.",
     "wrong": "Ho incontrato a Tom dopo il lavoro."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Facciamo colazione alle sette.",
+    "wrong": "Facciamo colazione a le sette."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "L'opera comincia alle sette.",
+    "wrong": "L'opera comincia a le sette."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Faccio colazione alle sette.",
+    "wrong": "Faccio colazione a le sette."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il negozio chiude alle sette.",
+    "wrong": "Il negozio chiude a le sette."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -4025,6 +4305,11 @@
     "wrong": "Mary ha messo alcuni fiori in il vaso."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "È all'ottavo piano.",
+    "wrong": "È a l'ottavo piano."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Siamo andati a Londra l'anno scorso.",
     "wrong": "Abbiamo andati a Londra l'anno scorso."
@@ -4055,9 +4340,34 @@
     "wrong": "C'erano dei piranha in il fiume."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La mia camera è al quarto piano.",
+    "wrong": "Mia camera è al quarto piano."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La mia camera è al quarto piano.",
+    "wrong": "La mia camera è a il quarto piano."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il mio appartamento è al quarto piano.",
+    "wrong": "Mio appartamento è al quarto piano."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il mio appartamento è al quarto piano.",
+    "wrong": "Il mio appartamento è a il quarto piano."
+  },
+  {
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Lui è più bravo di me a insegnare.",
     "wrong": "Lui è più bravo che me a insegnare."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La biblioteca è al quarto piano.",
+    "wrong": "La biblioteca è a il quarto piano."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -4095,6 +4405,11 @@
     "wrong": "Vorrei studiare in Parigi."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "All'improvviso un orso è apparso davanti a noi.",
+    "wrong": "A l'improvviso un orso è apparso davanti a noi."
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Mary non ama Tom.",
     "wrong": "Mary non ama a Tom."
@@ -4116,6 +4431,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La conferenza è finita alle cinque.",
+    "wrong": "La conferenza è finita a le cinque."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Tutti i fiori nel giardino sono gialli.",
     "wrong": "Tutti i fiori in il giardino sono gialli."
   },
@@ -4133,6 +4453,11 @@
     "code": "ERR_PERSONAL_A",
     "correct": "Ho conosciuto Fred per strada.",
     "wrong": "Ho conosciuto a Fred per strada."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Resta in casa fino alle sei.",
+    "wrong": "Resta in casa fino a le sei."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -4158,6 +4483,11 @@
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è una scuola vicino a casa mia.",
     "wrong": "Ci sono una scuola vicino a casa mia."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il museo apre alle nove.",
+    "wrong": "Il museo apre a le nove."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -4196,8 +4526,18 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "L'ascensore si è fermato al secondo piano.",
+    "wrong": "L'ascensore si è fermato a il secondo piano."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Posso dire tutto al mio migliore amico.",
     "wrong": "Posso dire tutto a il mio migliore amico."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Eravate a casa alle dieci?",
+    "wrong": "Eravate a casa a le dieci?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -4230,6 +4570,11 @@
     "wrong": "Tom ha nato a ottobre."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Vieni a casa mia alle otto.",
+    "wrong": "Vieni a casa mia a le otto."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Domani finalmente mia moglie viene in Italia!",
     "wrong": "Domani finalmente mia moglie viene a Italia!"
@@ -4240,6 +4585,21 @@
     "wrong": "So che ama a Tom."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La lezione inizia alle dieci.",
+    "wrong": "La lezione inizia a le dieci."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La lezione comincia alle dieci.",
+    "wrong": "La lezione comincia a le dieci."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Io abito al quinto piano.",
+    "wrong": "Io abito a il quinto piano."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "È partito dieci minuti fa.",
     "wrong": "Ha partito dieci minuti fa."
@@ -4248,6 +4608,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Se n'è andato dieci minuti fa.",
     "wrong": "Se n'ha andato dieci minuti fa."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ha promesso di venire alle quattro.",
+    "wrong": "Ha promesso di venire a le quattro."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -4261,6 +4626,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il programma comincia alle nove.",
+    "wrong": "Il programma comincia a le nove."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Vorrei vivere nel lusso.",
     "wrong": "Vorrei vivere in il lusso."
   },
@@ -4268,6 +4638,11 @@
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Suo fratello è più paziente di lui.",
     "wrong": "Suo fratello è più paziente che lui."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sarò lì alle cinque.",
+    "wrong": "Sarò lì a le cinque."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -4298,6 +4673,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "In agosto vado in Giappone con la mia ragazza.",
     "wrong": "In agosto vado in Giappone con mia ragazza."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Di solito mi alzo alle otto.",
+    "wrong": "Di solito mi alzo a le otto."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -4351,6 +4731,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Faremo colazione alle otto.",
+    "wrong": "Faremo colazione a le otto."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La partita inizia alle due e mezza.",
     "wrong": "La partita inizia a le due e mezza."
   },
@@ -4386,6 +4771,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il negozio chiude alle undici.",
+    "wrong": "Il negozio chiude a le undici."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Sono il secondo a destra nella fila superiore.",
     "wrong": "Sono il secondo a destra in la fila superiore."
   },
@@ -4393,6 +4783,11 @@
     "code": "ERR_TENERE_AVERE",
     "correct": "Lei ha paura che tu ti perda.",
     "wrong": "Lei tiene paura che tu ti perda."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Vieni qui alle sei, non prima.",
+    "wrong": "Vieni qui a le sei, non prima."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -4496,13 +4891,28 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Noi siamo al terzo piano.",
+    "wrong": "Noi siamo a il terzo piano."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Sono l'uomo più felice della terra.",
     "wrong": "Sono l'uomo più felice di la terra."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "È tornato alle sei.",
+    "wrong": "È tornato a le sei."
   },
   {
     "code": "ERR_PREP_PLACE",
     "correct": "Sono già stato a Londra.",
     "wrong": "Sono già stato in Londra."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Casa mia è al quarto piano.",
+    "wrong": "Casa mia è a il quarto piano."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -4546,6 +4956,16 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Metterò la sveglia alle sette.",
+    "wrong": "Metterò la sveglia a le sette."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Si alza alle sette.",
+    "wrong": "Si alza a le sette."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Lui arrivò prima del solito.",
     "wrong": "Lui arrivò prima di il solito."
   },
@@ -4563,6 +4983,11 @@
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è un cagnolino marrone sotto quel tavolo.",
     "wrong": "Ci sono un cagnolino marrone sotto quel tavolo."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Viviamo al secondo piano.",
+    "wrong": "Viviamo a il secondo piano."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -4598,6 +5023,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "È venuto qui dieci minuti fa.",
     "wrong": "Ha venuto qui dieci minuti fa."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il lavoro sarà finito alle sei.",
+    "wrong": "Il lavoro sarà finito a le sei."
   },
   {
     "code": "ERR_AUX_ESSERE",
