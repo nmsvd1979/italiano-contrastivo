@@ -302,6 +302,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Tradukero",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dime más.",
+    "es_author": "IA (Claude)",
+    "id": "s_1003669",
+    "it": "Dimmi di più.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1003669",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Shishir",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -1283,6 +1307,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame un sándwich.",
+    "es_author": "IA (Claude)",
+    "id": "s_10269492",
+    "it": "Dammi un sandwich.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10269492",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "rado",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -2186,6 +2233,29 @@
     "source_id": "1068397",
     "tag_rules": {
       "ERR_GN_Z_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame una galleta.",
+    "es_author": "IA (Claude)",
+    "id": "s_10692512",
+    "it": "Dammi un biscotto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10692512",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -4760,6 +4830,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "¿Por qué tienes miedo?",
+    "es_author": "Eldad",
+    "es_source_id": "1122223",
+    "id": "s_1122235",
+    "it": "Perché hai paura?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1122235",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_IGIENE"
     ],
     "es": "La ducha está ocupada.",
@@ -6209,6 +6303,29 @@
     "source_id": "11710396",
     "tag_rules": {
       "ERR_IMPERATIVO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame una cerveza.",
+    "es_author": "IA (Claude)",
+    "id": "s_11711668",
+    "it": "Dammi una birra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11711668",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -7793,6 +7910,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "No se puede negar.",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166073",
+    "id": "s_1226052",
+    "it": "Non si può negare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1226052",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_SERVIZI"
     ],
     "es": "Esto es un buzón.",
@@ -9118,6 +9257,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame una mano.",
+    "es_author": "IA (Claude)",
+    "id": "s_1260386",
+    "it": "Dammi una mano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1260386",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Adelpa",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -9725,6 +9888,74 @@
     "source_id": "1274721",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Adelpa",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame mil besos.",
+    "es_author": "Adelpa",
+    "es_source_id": "12748732",
+    "id": "s_12748724",
+    "it": "Dammi mille baci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12748724",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Adelpa",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame un beso.",
+    "es_author": "Shishir",
+    "es_source_id": "2351638",
+    "id": "s_12749059",
+    "it": "Dammi un bacio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12749059",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame dos besos.",
+    "es_author": "Adelpa",
+    "es_source_id": "12749339",
+    "id": "s_12749206",
+    "it": "Dammi due baci.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12749206",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -14528,6 +14759,28 @@
     "source_id": "14028839",
     "tag_rules": {
       "ERR_VOC_AGGETTIVI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dime qué pasa.",
+    "es_author": "Shishir",
+    "es_source_id": "1881190",
+    "id": "s_1402935",
+    "it": "Dimmi cosa succede.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1402935",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -21144,6 +21397,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Ella ya lo sabe.",
+    "es_author": "Seael",
+    "es_source_id": "10521942",
+    "id": "s_2001320",
+    "it": "Lo sa già.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2001320",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_ARE"
     ],
     "es": "Me encanta este trabajo.",
@@ -21388,6 +21663,30 @@
       "ERR_PRESENT_IRREGULAR": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Cuéntame de Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_2018428",
+    "it": "Dimmi di Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2018428",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -22573,6 +22872,53 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Me gusta tu ciudad.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2130858",
+    "id": "s_2131119",
+    "it": "Amo la tua città.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2131119",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame un minuto.",
+    "es_author": "IA (Claude)",
+    "id": "s_2131159",
+    "it": "Dammi un minuto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2131159",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Sirio60",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -22591,6 +22937,28 @@
     "source_id": "2133054",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Comemos más legumbres.",
+    "es_author": "saverius",
+    "es_source_id": "4390138",
+    "id": "s_2136114",
+    "it": "Mangiamo più legumi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2136114",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "sixtynine",
@@ -24155,6 +24523,28 @@
     "source_id": "2384302",
     "tag_rules": {
       "ERR_VOC_CLIMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame un segundo.",
+    "es_author": "hayastan",
+    "es_source_id": "1841849",
+    "id": "s_2385820",
+    "it": "Dammi un secondo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2385820",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -26154,6 +26544,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame una manzana.",
+    "es_author": "IA (Claude)",
+    "id": "s_2531171",
+    "it": "Dammi una mela.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2531171",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A1",
     "error_codes": [
@@ -27718,6 +28131,29 @@
       "ERR_VOC_DIREZIONI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame una razón.",
+    "es_author": "IA (Claude)",
+    "id": "s_2685167",
+    "it": "Dammi un motivo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2685167",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -30763,6 +31199,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Eres tan predecible.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1231105",
+    "id": "s_2874962",
+    "it": "Sei così prevedibile.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2874962",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "hitori37",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -31215,6 +31673,29 @@
     "source_id": "2920682",
     "tag_rules": {
       "ERR_VOC_DIREZIONI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame cien dólares.",
+    "es_author": "IA (Claude)",
+    "id": "s_2921667",
+    "it": "Dammi cento dollari.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2921667",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -32908,6 +33389,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Ya está gritando.",
+    "es_author": "saverius",
+    "es_source_id": "10108279",
+    "id": "s_3102894",
+    "it": "Sta già urlando.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3102894",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_ARE"
     ],
     "es": "Nosotros no vivimos aquí.",
@@ -33449,6 +33952,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "No se puede hacer.",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166086",
+    "id": "s_3165308",
+    "it": "Non si può fare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3165308",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_CLITICO_MI_TI"
     ],
     "es": "Millie me ama.",
@@ -33485,6 +34010,28 @@
     "source_id": "3173844",
     "tag_rules": {
       "ERR_PIACERE_ACCORDO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "No se puede decir.",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166087",
+    "id": "s_3174024",
+    "it": "Non si può dire.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3174024",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -34021,6 +34568,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame la mano.",
+    "es_author": "IA (Claude)",
+    "id": "s_3260739",
+    "it": "Dammi la mano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3260739",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_ACCORDO"
     ],
     "es": "Obviamente no es verdad.",
@@ -34060,6 +34630,30 @@
     "source_id": "3264294",
     "tag_rules": {
       "ERR_CHIAMARSI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dime tu nombre.",
+    "es_author": "IA (Claude)",
+    "id": "s_3264297",
+    "it": "Dimmi il tuo nome.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3264297",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -35665,6 +36259,29 @@
     "source": "tatoeba",
     "source_id": "3380248",
     "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame esa llave.",
+    "es_author": "IA (Claude)",
+    "id": "s_3381076",
+    "it": "Dammi quella chiave.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3381076",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
     "translation_kind": "llm"
   },
   {
@@ -38085,6 +38702,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame el micrófono.",
+    "es_author": "IA (Claude)",
+    "id": "s_3538859",
+    "it": "Dammi il microfono.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3538859",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_ARE"
     ],
     "es": "Ellos trabajan de noche.",
@@ -38100,6 +38740,29 @@
     "source_id": "3538936",
     "tag_rules": {
       "ERR_PRESENT_ARE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame esos guantes.",
+    "es_author": "IA (Claude)",
+    "id": "s_3539683",
+    "it": "Dammi quei guanti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3539683",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -38309,6 +38972,28 @@
       "ERR_VOC_IGIENE": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "No se puede hablar.",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166093",
+    "id": "s_3564550",
+    "it": "Non si può parlare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3564550",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -38767,6 +39452,29 @@
     "source_id": "3589968",
     "tag_rules": {
       "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dime qué hacer.",
+    "es_author": "IA (Claude)",
+    "id": "s_3590212",
+    "it": "Dimmi cosa fare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3590212",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -39719,6 +40427,52 @@
     "source_id": "3675477",
     "tag_rules": {
       "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame el mapa.",
+    "es_author": "IA (Claude)",
+    "id": "s_3676439",
+    "it": "Dammi la mappa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3676439",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame el plano.",
+    "es_author": "IA (Claude)",
+    "id": "s_3676444",
+    "it": "Dammi la piantina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3676444",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -45505,6 +46259,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Soy tan nerviosa.",
+    "es_author": "saverius",
+    "es_source_id": "10462150",
+    "id": "s_3812030",
+    "it": "Sono così nervosa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3812030",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "ver",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -46723,6 +47499,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame un trabajo.",
+    "es_author": "IA (Claude)",
+    "id": "s_3872475",
+    "it": "Dammi un lavoro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3872475",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -46897,6 +47696,28 @@
       "ERR_PLURAL_FORMA": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Ya no te quiero.",
+    "es_author": "Shishir",
+    "es_source_id": "2640",
+    "id": "s_388254",
+    "it": "Non ti amo più.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "388254",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -47585,6 +48406,30 @@
       "ERR_VOC_UFFICI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame mi bolso.",
+    "es_author": "IA (Claude)",
+    "id": "s_3951289",
+    "it": "Dammi la mia borsa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3951289",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -48336,6 +49181,29 @@
     "source_id": "4033960",
     "tag_rules": {
       "ERR_VOC_NATURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Pásame la pala.",
+    "es_author": "IA (Claude)",
+    "id": "s_4043130",
+    "it": "Dammi la pala.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4043130",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -50538,6 +51406,29 @@
     "source_id": "4272775",
     "tag_rules": {
       "ERR_VOC_PREPOSIZIONI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame un día.",
+    "es_author": "IA (Claude)",
+    "id": "s_4274492",
+    "it": "Dammi un giorno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4274492",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -53038,6 +53929,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame las llaves.",
+    "es_author": "IA (Claude)",
+    "id": "s_4538604",
+    "it": "Dammi le chiavi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4538604",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_CONSONANTE_DOPPIA"
     ],
     "es": "No es del todo exacto.",
@@ -53654,6 +54568,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "valealb",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame mi cerveza.",
+    "es_author": "IA (Claude)",
+    "id": "s_4633422",
+    "it": "Dammi la mia birra.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4633422",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "ianna",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -53948,6 +54885,30 @@
     "source_id": "4667408",
     "tag_rules": {
       "ERR_IMPERATIVO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Debes trabajar más.",
+    "es_author": "tatoerique",
+    "es_source_id": "338714",
+    "id": "s_4675",
+    "it": "Devi lavorare di più.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4675",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -56209,6 +57170,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame la linterna.",
+    "es_author": "IA (Claude)",
+    "id": "s_5125722",
+    "it": "Dammi la torcia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5125722",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_CONSONANTE_DOPPIA"
     ],
     "es": "Es orgulloso y arrogante.",
@@ -56693,6 +57677,30 @@
     "source_id": "521083",
     "tag_rules": {
       "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Ya no le quiero.",
+    "es_author": "Shishir",
+    "es_source_id": "459170",
+    "id": "s_521260",
+    "it": "Non lo amo più.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "521260",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -59164,6 +60172,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "No eres tan viejo.",
+    "es_author": "Shishir",
+    "es_source_id": "2783042",
+    "id": "s_5508657",
+    "it": "Non sei così vecchio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5508657",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -61381,6 +62413,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "¿Por qué tener miedo?",
+    "es_author": "saverius",
+    "es_source_id": "10803504",
+    "id": "s_5980771",
+    "it": "Perché avere paura?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5980771",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_AVVERBI"
     ],
     "es": "Debo hablar con ellos ahora.",
@@ -61642,6 +62696,30 @@
     "source_id": "602284",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Come más vegetales.",
+    "es_author": "darinmex",
+    "es_source_id": "602209",
+    "id": "s_602339",
+    "it": "Mangia più verdura.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "602339",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "dnnywld",
@@ -64074,6 +65152,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame la llave.",
+    "es_author": "IA (Claude)",
+    "id": "s_657016",
+    "it": "Dammi la chiave.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "657016",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -64184,6 +65286,29 @@
     "source_id": "6598255",
     "tag_rules": {
       "ERR_VOC_SALUTI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame un abrazo.",
+    "es_author": "IA (Claude)",
+    "id": "s_6603633",
+    "it": "Dammi un abbraccio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6603633",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -65032,6 +66157,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dime qué es esto.",
+    "es_author": "IA (Claude)",
+    "id": "s_6728387",
+    "it": "Dimmi cos'è questo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6728387",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PLURAL_FORMA"
     ],
     "es": "Odio a los gatos.",
@@ -65437,6 +66585,30 @@
       "ERR_PRESENT_ARE": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Habla más fuerte.",
+    "es_author": "hayastan",
+    "es_source_id": "941229",
+    "id": "s_683394",
+    "it": "Parlate più forte!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "683394",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "dnnywld",
@@ -66544,6 +67716,30 @@
     "author": "Heracleum",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dime cuál quieres.",
+    "es_author": "IA (Claude)",
+    "id": "s_704072",
+    "it": "Dimmi quale vuoi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "704072",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Heracleum",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
     "error_codes": [],
     "es": "Quiero esa bolsa.",
     "es_author": "IA (Claude)",
@@ -66599,6 +67795,30 @@
     "source": "tatoeba",
     "source_id": "704847",
     "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Cuéntame de él.",
+    "es_author": "IA (Claude)",
+    "id": "s_7049275",
+    "it": "Dimmi di lui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7049275",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
     "translation_kind": "llm"
   },
   {
@@ -66874,6 +68094,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame los detalles.",
+    "es_author": "IA (Claude)",
+    "id": "s_7079299",
+    "it": "Dammi i dettagli.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7079299",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -66989,6 +68232,29 @@
       "ERR_VOC_DIMOSTRATIVI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dime qué pensar.",
+    "es_author": "IA (Claude)",
+    "id": "s_7104123",
+    "it": "Dimmi cosa pensare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7104123",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -67808,6 +69074,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Ricardo14",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Ya sé dónde vive Tom.",
+    "es_author": "Ricardo14",
+    "es_source_id": "7209865",
+    "id": "s_7209875",
+    "it": "So già dove vive Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7209875",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -68074,6 +69362,28 @@
       "ERR_VOC_CULTURA": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Soy el más rico.",
+    "es_author": "arh",
+    "es_source_id": "7305889",
+    "id": "s_7326916",
+    "it": "Sono il più ricco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7326916",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "antilope",
@@ -68553,6 +69863,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Ya no me gustas.",
+    "es_author": "Shishir",
+    "es_source_id": "794537",
+    "id": "s_753310",
+    "it": "Non mi piaci più.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "753310",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_GN_Z_SPELLING"
     ],
     "es": "Necesito un mapa.",
@@ -68845,6 +70179,29 @@
       "ERR_CONSONANTE_DOPPIA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame el vino.",
+    "es_author": "IA (Claude)",
+    "id": "s_7588379",
+    "it": "Dammi il vino.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7588379",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -72313,6 +73670,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame un ejemplo.",
+    "es_author": "IA (Claude)",
+    "id": "s_876586",
+    "it": "Fammi un esempio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "876586",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -72690,6 +74071,28 @@
       "ERR_VOC_COMUNICAZIONE": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "No puede continuar.",
+    "es_author": "saverius",
+    "es_source_id": "10728305",
+    "id": "s_8857540",
+    "it": "Non può continuare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8857540",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "riccioberto",
@@ -74628,6 +76031,30 @@
     "source_id": "967950",
     "tag_rules": {
       "ERR_ARTICLE_ALLOMORPH": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Nuel",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Hazme una sonrisa.",
+    "es_author": "IA (Claude)",
+    "id": "s_9680556",
+    "it": "Fammi un sorriso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9680556",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
     },
     "translation_kind": "llm"
   },

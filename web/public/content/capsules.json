@@ -10908,86 +10908,23 @@
     "id": "cap_err_accent_transfer",
     "retrieval": [
       {
-        "id": "it_choice_s_3637742_ERR_ACCENT_TRANSFER",
+        "id": "it_choice_s_388254_ERR_ACCENT_TRANSFER",
         "options": [
           {
             "correct": true,
-            "text": "Mi manchi così tanto."
+            "text": "Non ti amo più."
           },
           {
             "correct": false,
             "distractor_kind": "morphological",
             "error_code": "ERR_ACCENT_TRANSFER",
-            "text": "Mi manchi cosi tanto."
+            "text": "Non ti amo piu."
           }
         ],
         "prompt_es": "¿Cuál es la frase correcta en italiano?",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_3637742",
-        "target_error_codes": [
-          "ERR_ACCENT_TRANSFER"
-        ],
-        "type": "choice_l1_distractor"
-      },
-      {
-        "answers": [
-          "così"
-        ],
-        "hint_es": "Los extraño tanto.",
-        "id": "it_cloze_s_3637746_ERR_ACCENT_TRANSFER",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_3637746",
-        "target_error_codes": [
-          "ERR_ACCENT_TRANSFER"
-        ],
-        "text": "Mi mancate ___ tanto.",
-        "type": "cloze"
-      },
-      {
-        "answer": [
-          "Sento",
-          "già",
-          "l'odore",
-          "salato",
-          "dell'oceano."
-        ],
-        "id": "it_reorder_s_14034621_ERR_ACCENT_TRANSFER",
-        "prompt_es": "Ordena las palabras: «Ya huelo el salado olor del océano.»",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_14034621",
-        "target_error_codes": [
-          "ERR_ACCENT_TRANSFER"
-        ],
-        "tokens": [
-          "salato",
-          "già",
-          "dell'oceano.",
-          "Sento",
-          "l'odore"
-        ],
-        "type": "reorder"
-      },
-      {
-        "id": "it_choice_s_381874_ERR_ACCENT_TRANSFER",
-        "options": [
-          {
-            "correct": false,
-            "distractor_kind": "morphological",
-            "error_code": "ERR_ACCENT_TRANSFER",
-            "text": "Il film era cosi triste che tutti hanno pianto."
-          },
-          {
-            "correct": true,
-            "text": "Il film era così triste che tutti hanno pianto."
-          }
-        ],
-        "prompt_es": "¿Cuál es la frase correcta en italiano?",
-        "requires_server": false,
-        "review_status": "validated",
-        "sentence_id": "s_381874",
+        "sentence_id": "s_388254",
         "target_error_codes": [
           "ERR_ACCENT_TRANSFER"
         ],
@@ -10997,37 +10934,94 @@
         "answers": [
           "più"
         ],
-        "hint_es": "¿Hay algo más estúpido y odioso que la burocracia universitaria?",
-        "id": "it_cloze_s_1072949_ERR_ACCENT_TRANSFER",
+        "hint_es": "Ya no le quiero.",
+        "id": "it_cloze_s_521260_ERR_ACCENT_TRANSFER",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_1072949",
+        "sentence_id": "s_521260",
         "target_error_codes": [
           "ERR_ACCENT_TRANSFER"
         ],
-        "text": "Esiste qualcosa di ___ stupido e odioso della burocrazia universitaria?",
+        "text": "Non lo amo ___.",
         "type": "cloze"
       },
       {
         "answer": [
-          "Magari",
-          "fosse",
-          "davvero",
-          "così!"
+          "Sta",
+          "già",
+          "urlando."
         ],
-        "id": "it_reorder_s_3165434_ERR_ACCENT_TRANSFER",
-        "prompt_es": "Ordena las palabras: «¡Ojalá fuera realmente así!»",
+        "id": "it_reorder_s_3102894_ERR_ACCENT_TRANSFER",
+        "prompt_es": "Ordena las palabras: «Ya está gritando.»",
         "requires_server": false,
         "review_status": "validated",
-        "sentence_id": "s_3165434",
+        "sentence_id": "s_3102894",
         "target_error_codes": [
           "ERR_ACCENT_TRANSFER"
         ],
         "tokens": [
-          "Magari",
-          "così!",
-          "davvero",
-          "fosse"
+          "già",
+          "Sta",
+          "urlando."
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_3165308_ERR_ACCENT_TRANSFER",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_ACCENT_TRANSFER",
+            "text": "Non si puo fare."
+          },
+          {
+            "correct": true,
+            "text": "Non si può fare."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3165308",
+        "target_error_codes": [
+          "ERR_ACCENT_TRANSFER"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "può"
+        ],
+        "hint_es": "No se puede decir.",
+        "id": "it_cloze_s_3174024_ERR_ACCENT_TRANSFER",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3174024",
+        "target_error_codes": [
+          "ERR_ACCENT_TRANSFER"
+        ],
+        "text": "Non si ___ dire.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Perché",
+          "hai",
+          "paura?"
+        ],
+        "id": "it_reorder_s_1122235_ERR_ACCENT_TRANSFER",
+        "prompt_es": "Ordena las palabras: «¿Por qué tienes miedo?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1122235",
+        "target_error_codes": [
+          "ERR_ACCENT_TRANSFER"
+        ],
+        "tokens": [
+          "Perché",
+          "paura?",
+          "hai"
         ],
         "type": "reorder"
       }
@@ -11038,13 +11032,13 @@
     ],
     "trigger": {
       "accepted_it": [
-        "Mi manca così tanto."
+        "Lo sa già."
       ],
-      "id": "it_translate_s_3637744_ERR_ACCENT_TRANSFER",
+      "id": "it_translate_s_2001320_ERR_ACCENT_TRANSFER",
       "requires_server": false,
       "review_status": "validated",
-      "sentence_id": "s_3637744",
-      "source_es": "Lo extraño tanto.",
+      "sentence_id": "s_2001320",
+      "source_es": "Ella ya lo sabe.",
       "target_error_codes": [
         "ERR_ACCENT_TRANSFER"
       ],
@@ -12235,6 +12229,308 @@
       "source_es": "Estaré en casa.",
       "target_error_codes": [
         "ERR_FUTURO_RADICE"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Con «lei» (trato formal) el imperativo usa la forma de lei: scusi, senta, prenda, venga, si accomodi, mi dica. Mezclar la forma de tu (scusa, senti, prendi) con un trato formal es un error de registro."
+    },
+    "id": "cap_err_imperativo_lei",
+    "retrieval": [
+      {
+        "id": "it_choice_a_cdae3676_ERR_IMPERATIVO_LEI",
+        "options": [
+          {
+            "correct": true,
+            "text": "Scusi, signore, che ore sono?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_IMPERATIVO_LEI",
+            "text": "Scusa, signore, che ore sono?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "a_cdae3676",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_LEI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Legga"
+        ],
+        "hint_es": "Lea, señora, este aviso. (usted)",
+        "id": "it_cloze_a_418091d2_ERR_IMPERATIVO_LEI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "a_418091d2",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_LEI"
+        ],
+        "text": "___, signora, questo avviso.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Prenda,",
+          "signora,",
+          "la",
+          "sua",
+          "borsa."
+        ],
+        "id": "it_reorder_a_8c73c3bf_ERR_IMPERATIVO_LEI",
+        "prompt_es": "Ordena las palabras: «Tome, señora, su bolso. (usted)»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "a_8c73c3bf",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_LEI"
+        ],
+        "tokens": [
+          "Prenda,",
+          "borsa.",
+          "signora,",
+          "sua",
+          "la"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_a_fb291adb_ERR_IMPERATIVO_LEI",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_IMPERATIVO_LEI",
+            "text": "Scusa, dottore, posso entrare?"
+          },
+          {
+            "correct": true,
+            "text": "Scusi, dottore, posso entrare?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "a_fb291adb",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_LEI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Si accomodi"
+        ],
+        "hint_es": "Pase, doctor, está listo. (usted)",
+        "id": "it_cloze_a_e2bea2fd_ERR_IMPERATIVO_LEI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "a_e2bea2fd",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_LEI"
+        ],
+        "text": "___, dottore, è pronto.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Guardi,",
+          "signore,",
+          "il",
+          "cielo",
+          "è",
+          "blu."
+        ],
+        "id": "it_reorder_a_144c4990_ERR_IMPERATIVO_LEI",
+        "prompt_es": "Ordena las palabras: «Mire, señor, el cielo está azul. (usted)»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "a_144c4990",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_LEI"
+        ],
+        "tokens": [
+          "signore,",
+          "cielo",
+          "il",
+          "Guardi,",
+          "è",
+          "blu."
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Si accomodi, signora, prego."
+      ],
+      "id": "it_translate_a_ca8f5abd_ERR_IMPERATIVO_LEI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "a_ca8f5abd",
+      "source_es": "Siéntese, señora, por favor. (usted)",
+      "target_error_codes": [
+        "ERR_IMPERATIVO_LEI"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Con el imperativo el pronombre se pega y la consonante se duplica: dammi, dimmi, fammi, dacci, dallo, fallo, dillo, vacci (no *dami, *dimi, *fami). Es la forma de tu de da', di', fa', va' más el pronombre."
+    },
+    "id": "cap_err_imperativo_pronomi",
+    "retrieval": [
+      {
+        "id": "it_choice_s_2018428_ERR_IMPERATIVO_PRONOMI",
+        "options": [
+          {
+            "correct": true,
+            "text": "Dimmi di Tom."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_IMPERATIVO_PRONOMI",
+            "text": "Dimi di Tom."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2018428",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_PRONOMI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Dimmi"
+        ],
+        "hint_es": "Cuéntame de él.",
+        "id": "it_cloze_s_7049275_ERR_IMPERATIVO_PRONOMI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_7049275",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_PRONOMI"
+        ],
+        "text": "___ di lui.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Dammi",
+          "la",
+          "mano."
+        ],
+        "id": "it_reorder_s_3260739_ERR_IMPERATIVO_PRONOMI",
+        "prompt_es": "Ordena las palabras: «Dame la mano.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3260739",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_PRONOMI"
+        ],
+        "tokens": [
+          "mano.",
+          "Dammi",
+          "la"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_4043130_ERR_IMPERATIVO_PRONOMI",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_IMPERATIVO_PRONOMI",
+            "text": "Dami la pala."
+          },
+          {
+            "correct": true,
+            "text": "Dammi la pala."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4043130",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_PRONOMI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Dammi"
+        ],
+        "hint_es": "Dame el vino.",
+        "id": "it_cloze_s_7588379_ERR_IMPERATIVO_PRONOMI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_7588379",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_PRONOMI"
+        ],
+        "text": "___ il vino.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Dammi",
+          "una",
+          "mano."
+        ],
+        "id": "it_reorder_s_1260386_ERR_IMPERATIVO_PRONOMI",
+        "prompt_es": "Ordena las palabras: «Dame una mano.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1260386",
+        "target_error_codes": [
+          "ERR_IMPERATIVO_PRONOMI"
+        ],
+        "tokens": [
+          "Dammi",
+          "mano.",
+          "una"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Dimmi di più."
+      ],
+      "id": "it_translate_s_1003669_ERR_IMPERATIVO_PRONOMI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1003669",
+      "source_es": "Dime más.",
+      "target_error_codes": [
+        "ERR_IMPERATIVO_PRONOMI"
       ],
       "type": "translate_es_it"
     }

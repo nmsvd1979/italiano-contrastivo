@@ -697,6 +697,40 @@
         "doc_a2m07_invito",
         "vh_a2m07"
       ]
+    },
+    {
+      "id": "a2m08",
+      "level": "A2",
+      "title": "Favores, sugerencias e instrucciones",
+      "can_do_es": [
+        "Pedir un favor y ofrecer ayuda.",
+        "Dar sugerencias e instrucciones simples con el imperativo.",
+        "Entender carteles de prohibición e instrucciones de uso."
+      ],
+      "units": [
+        "u100",
+        "u101",
+        "u102"
+      ],
+      "entry_reading": "rd_a2m08_entrada",
+      "roleplays": [
+        "rp_a2m08_a",
+        "rp_a2m08_b"
+      ],
+      "tasks": [
+        "ht_a2m08"
+      ],
+      "phrase_groups": [],
+      "library": "loescher-italiano",
+      "library_task_es": "Busca en Loescher la ficha de gramática del imperativo y haz sus ejercicios; compara con tu cápsula.",
+      "writing_es": "Escribe un texto de 40 a 60 palabras: explica a un amigo, con instrucciones, cómo se usa un aparato de tu casa (la cafetera, la lavadora, el microondas). Usa al menos 4 imperativos tú, y al menos 2 con pronombre (ponlo, ábrela: mettilo, aprila).",
+      "writing_short_es": "Escribe un mensaje de 25 a 50 palabras a un amigo: pídele un favor para el fin de semana (cuidar tus plantas o a tu gato) y dale dos instrucciones con imperativo (dammi, dimmi, aspettami, chiamami).",
+      "extra_readings": [
+        "ls_a2m08",
+        "doc_a2m08_cartelli",
+        "doc_a2m08_istruzioni",
+        "vh_a2m08"
+      ]
     }
   ],
   "units": [
@@ -2408,6 +2442,40 @@
       ],
       "why_here": "Qué harás el fin de semana, el pronóstico del tiempo, invitar y rechazar con un motivo, «si llueve, no voy».",
       "ficha_es": "Cultura, medios y tecnología: mostra (exposición), romanzo (novela), personaggio, copertina (portada), statua, album, video, programma, telegiornale (noticiero), pubblicità, password (contraseña), stampante (impresora), attore. Las que se parecen al español: programma, video, album; mostra no es «muestra» sino «exposición».\n\nError típico: mostra, spettacolo, concerto, telegiornale, notizia, puntata, scaricare, caricare, password (sin repetir u73)\n\nQué practicas aquí: Área temática PLIDA A2: Arte, cultura y tiempo libre; Área temática PLIDA A2: Comunicación y medios; Área temática PLIDA A2: Tecnología y ciencia.\n\nSituación del módulo: Qué harás el fin de semana, el pronóstico del tiempo, invitar y rechazar con un motivo, «si llueve, no voy»."
+    },
+    {
+      "id": "u100",
+      "level": "A2",
+      "title": "Imperativo tu/voi con pronombres: dammi, fallo, parlate",
+      "goal_es": "Imperativo tu/voi con pronombres: dammi, fallo, parlate",
+      "codes": [
+        "ERR_IMPERATIVO_PRONOMI"
+      ],
+      "why_here": "Pedir un favor, dar una sugerencia, carteles de prohibición, instrucciones de uso. (Aconsejar con detalle es B1.)",
+      "ficha_es": "Con el imperativo el pronombre se pega y la consonante se duplica: dammi, dimmi, fammi, dacci, dallo, fallo, dillo, vacci (no *dami, *dimi, *fami). Es la forma de tu de da', di', fa', va' más el pronombre.\n\nError típico: *dami, *dimi, *fami, *dalo → dammi, dimmi, fammi, dallo; vacci; parlate (voi); cierra g13 de A1. Válido y no es error: non farlo / non lo fare (las dos valen); dicci, dalle (formas válidas)\n\nQué practicas aquí: Imperativo de tu y voi, afirmativo (Vai subito! Non andare via!) y con pronombres pegados (dammi, fallo); Dar sugerencias, órdenes y permisos simples (Vai subito! Non andare via! Posso…?).\n\nSituación del módulo: Pedir un favor, dar una sugerencia, carteles de prohibición, instrucciones de uso. (Aconsejar con detalle es B1.)"
+    },
+    {
+      "id": "u101",
+      "level": "A2",
+      "title": "Fórmulas con Lei: scusi, senta, si accomodi",
+      "goal_es": "Fórmulas con Lei: scusi, senta, si accomodi (solo reconocer)",
+      "codes": [
+        "ERR_IMPERATIVO_LEI"
+      ],
+      "why_here": "Pedir un favor, dar una sugerencia, carteles de prohibición, instrucciones de uso. (Aconsejar con detalle es B1.)",
+      "ficha_es": "Con «lei» (trato formal) el imperativo usa la forma de lei: scusi, senta, prenda, venga, si accomodi, mi dica. Mezclar la forma de tu (scusa, senti, prendi) con un trato formal es un error de registro.\n\nError típico: *Scusa, signore → Scusi, signore; mezclar tu y Lei es un error de registro. Válido y no es error: Prenda, Senta, Mi dica (formas Lei correctas)\n\nQué practicas aquí: Fórmulas fijas de Lei en ventanilla y servicios (scusi, senta, mi dica, si accomodi); Paradigma completo del imperativo de Lei (prenda, venga, vada, entri).\n\nSituación del módulo: Pedir un favor, dar una sugerencia, carteles de prohibición, instrucciones de uso. (Aconsejar con detalle es B1.)",
+      "productive": false
+    },
+    {
+      "id": "u102",
+      "level": "A2",
+      "title": "Acentos y dobles de A2",
+      "goal_es": "Acentos y dobles de A2",
+      "codes": [
+        "ERR_ACCENT_TRANSFER"
+      ],
+      "why_here": "Pedir un favor, dar una sugerencia, carteles de prohibición, instrucciones de uso. (Aconsejar con detalle es B1.)",
+      "ficha_es": "Tildes puestas por analogía con el español: en italiano las palabras llanas no llevan tilde (perdere, no pérdere); solo se escribe acento en la vocal final de las agudas (parlerò, città).\n\nError típico: *perchè, *perche → perché; *pò → po'; *qual'è → qual è; è/e; più, già, può, città; dammi, dimmi, -issimo; vorremmo/vorremo\n\nQué practicas aquí: Acentos gráficos y dobles consonantes de A2 (perché, po', qual è, dammi, -issimo); Consonantes dobles y acentos gráficos en las formas nuevas de A2.\n\nSituación del módulo: Pedir un favor, dar una sugerencia, carteles de prohibición, instrucciones de uso. (Aconsejar con detalle es B1.)"
     }
   ],
   "planned": [

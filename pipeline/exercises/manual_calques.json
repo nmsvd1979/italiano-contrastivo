@@ -1837,5 +1837,322 @@
    "kind": "l1_calque",
    "audit2": "ok"
   }
+ ],
+ "ERR_IMPERATIVO_LEI": [
+  {
+   "it": "Scusi, signora, dov'è la stazione?",
+   "correct": "Scusi",
+   "wrong": "Scusa",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Scusi, signore, che ore sono?",
+   "correct": "Scusi",
+   "wrong": "Scusa",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Scusi, dottore, posso entrare?",
+   "correct": "Scusi",
+   "wrong": "Scusa",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Scusi, professore, ha un minuto?",
+   "correct": "Scusi",
+   "wrong": "Scusa",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Scusi, avvocato, è libero domani?",
+   "correct": "Scusi",
+   "wrong": "Scusa",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Senta, signora, quanto costa questo?",
+   "correct": "Senta",
+   "wrong": "Senti",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Senta, signore, c'è una farmacia qui vicino?",
+   "correct": "Senta",
+   "wrong": "Senti",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Senta, dottore, mi fa male la testa.",
+   "correct": "Senta",
+   "wrong": "Senti",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Senta, professore, non ho capito.",
+   "correct": "Senta",
+   "wrong": "Senti",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Senta, signora, il treno parte alle otto?",
+   "correct": "Senta",
+   "wrong": "Senti",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Si accomodi, signora, prego.",
+   "correct": "Si accomodi",
+   "wrong": "Accomodati",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Si accomodi, dottore, è pronto.",
+   "correct": "Si accomodi",
+   "wrong": "Accomodati",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Si accomodi, professore, il caffè è qui.",
+   "correct": "Si accomodi",
+   "wrong": "Accomodati",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Prenda, signore, questo è il suo biglietto.",
+   "correct": "Prenda",
+   "wrong": "Prendi",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Prenda, signora, la sua borsa.",
+   "correct": "Prenda",
+   "wrong": "Prendi",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Prenda pure, dottore, il libro è per Lei.",
+   "correct": "Prenda",
+   "wrong": "Prendi",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Venga, signora, il dottore La aspetta.",
+   "correct": "Venga",
+   "wrong": "Vieni",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Venga, signore, il tavolo è qui.",
+   "correct": "Venga",
+   "wrong": "Vieni",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Venga domani, professore, alle nove.",
+   "correct": "Venga",
+   "wrong": "Vieni",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Guardi, signora, questa borsa è bellissima.",
+   "correct": "Guardi",
+   "wrong": "Guarda",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Guardi, signore, il cielo è blu.",
+   "correct": "Guardi",
+   "wrong": "Guarda",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Guardi, dottore, questa foto è di ieri.",
+   "correct": "Guardi",
+   "wrong": "Guarda",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Aspetti, signora, arrivo subito.",
+   "correct": "Aspetti",
+   "wrong": "Aspetta",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Aspetti un attimo, signore, per favore.",
+   "correct": "Aspetti",
+   "wrong": "Aspetta",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Aspetti qui, dottore, torno presto.",
+   "correct": "Aspetti",
+   "wrong": "Aspetta",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Legga, signora, questo avviso.",
+   "correct": "Legga",
+   "wrong": "Leggi",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Legga qui, professore, la prego.",
+   "correct": "Legga",
+   "wrong": "Leggi",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Scriva, signore, il suo nome qui.",
+   "correct": "Scriva",
+   "wrong": "Scrivi",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Scriva, dottoressa, il numero di telefono.",
+   "correct": "Scriva",
+   "wrong": "Scrivi",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Apra, signora, la porta, per favore.",
+   "correct": "Apra",
+   "wrong": "Apri",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Apra la finestra, signore, fa caldo.",
+   "correct": "Apra",
+   "wrong": "Apri",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Chiuda, signora, la finestra, per favore.",
+   "correct": "Chiuda",
+   "wrong": "Chiudi",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Chiuda la porta, dottore, c'è vento.",
+   "correct": "Chiuda",
+   "wrong": "Chiudi",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ascolti, signora, questa musica.",
+   "correct": "Ascolti",
+   "wrong": "Ascolta",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ascolti, professore, la mia domanda.",
+   "correct": "Ascolti",
+   "wrong": "Ascolta",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Mi dica, signora, in che cosa posso aiutarLa?",
+   "correct": "Mi dica",
+   "wrong": "Dimmi",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Mi dica, signore, che cosa desidera.",
+   "correct": "Mi dica",
+   "wrong": "Dimmi",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Mi dica, dottore, quando posso tornare.",
+   "correct": "Mi dica",
+   "wrong": "Dimmi",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Si sieda, signora, la visita comincia ora.",
+   "correct": "Si sieda",
+   "wrong": "Siediti",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Si sieda qui, signore, c'è posto.",
+   "correct": "Si sieda",
+   "wrong": "Siediti",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Mi scusi, signora, sono in ritardo.",
+   "correct": "Mi scusi",
+   "wrong": "Scusami",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Mi scusi, professore, non ho il libro.",
+   "correct": "Mi scusi",
+   "wrong": "Scusami",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Passi, signora, la strada è libera.",
+   "correct": "Passi",
+   "wrong": "Passa",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Torni domani, signore, il dottore è occupato.",
+   "correct": "Torni",
+   "wrong": "Torna",
+   "kind": "different_word",
+   "audit2": "ok"
+  },
+  {
+   "it": "Chiami, signora, il numero verde.",
+   "correct": "Chiami",
+   "wrong": "Chiama",
+   "kind": "different_word",
+   "audit2": "ok"
+  }
  ]
 }

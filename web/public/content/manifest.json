@@ -78,6 +78,8 @@
     "cap_err_comparative_di",
     "cap_err_comparativo_irreg",
     "cap_err_futuro_radice",
+    "cap_err_imperativo_lei",
+    "cap_err_imperativo_pronomi",
     "cap_err_imperfetto_forma",
     "cap_err_indefiniti",
     "cap_err_pp_ausiliare",
@@ -105,7 +107,7 @@
     "ERR_ACCENT_TRANSFER": {
       "capsule": true,
       "reason": null,
-      "usable": 8
+      "usable": 42
     },
     "ERR_ARTICLE_ALLOMORPH": {
       "capsule": true,
@@ -213,9 +215,9 @@
       "usable": 34
     },
     "ERR_IMPERATIVO_LEI": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 45
     },
     "ERR_IMPERATIVO_NEG": {
       "capsule": true,
@@ -223,9 +225,9 @@
       "usable": 49
     },
     "ERR_IMPERATIVO_PRONOMI": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 48
     },
     "ERR_IMPERFETTO_FORMA": {
       "capsule": true,
@@ -639,18 +641,18 @@
     "B1": "items_B1.json"
   },
   "levels": {
-    "A1": 3364,
-    "A2": 1587,
+    "A1": 3426,
+    "A2": 1652,
     "B1": 156,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 5088,
+    "llm-audit": 5215,
     "me": 26
   },
-  "sentences_used": 4438,
+  "sentences_used": 4565,
   "translation_kind": {
-    "direct": 2423,
-    "llm": 2015
+    "direct": 2470,
+    "llm": 2095
   }
 }

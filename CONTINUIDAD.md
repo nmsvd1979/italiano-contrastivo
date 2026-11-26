@@ -4,6 +4,15 @@ Registro de avances. Lo más reciente arriba.
 
 **Decisión del usuario (2026-11-26, tras a2m06):** el tope de audio de A2 sube de 30 a **50 MB** (total 48 + 50 = 98 MB; `MAX_BYTES_A2` en `pipeline/tts/generate.py`) en vez de bajar el bitrate. Sigue valiendo: el audio solo se descarga al usarlo.
 
+## 2026-11-26 (42) — Fase 5: módulo a2m08 «Favores, sugerencias e instrucciones» construido
+**Pedido del usuario:** «Sigue con a2m08».
+**Hecho:** lista de cierre en rojo → verde (a2m01–a2m08). **127 frases** en tres unidades: imperativo con pronombres (dammi, dimmi, fallo…) 48, fórmulas con Lei 45 (solo reconocer), acentos y dobles 34 (42 con las ya existentes de A1/A2); 108 rechazadas y 20 en duda; respaldo `content/audits/2026-11-26-a2m08-veredictos.json`. **Las 45 frases de Lei son propias (escritas por la IA, `authored`)**: el corpus casi no trae marcador formal en la misma frase (de 90 candidatas solo 4 servían y la 2.ª pasada las descartó), así que cada frase lleva un vocativo formal (signora, dottore, professore…) para que la forma de «tú» sea un error de registro definitivo; las 45 variantes las confirmó una 2.ª pasada adversarial. Entrada propia `rd_a2m08_entrada`; 3 unidades (u100–u102); Salida (2 juegos de rol, tarea oral, 6 preguntas por voz); 174 clips (+25 de segunda voz); voz humana (banco 496); **A1 intacto**. Precache 12,01 MB.
+**Decisiones mías:** la frase «Scusi, signora, dov'è la stazione?» pasó a ser variante a mano, así que el caso de prueba del generador usa otra frase; las 18 en duda de Lei (3.ª persona o sin marcador) no entran.
+**Comprobado:** Python 1.532, web 1.591, tsc y build en verde.
+**No comprobado:** iPhone y pasos con una persona; audio sin escuchar; nada revisado por un nativo; que 45 frases escritas por IA sobre «scusi/senta…» sean todas naturales (las revisó una sola pasada adversarial).
+**Riesgo:** la unidad de acentos (u102) queda en 32 frases de práctica+prueba+descubre ≥ 30 (margen justo).
+**Siguiente:** a2m09 (viajar y alojarse: ci de lugar, ci vuole/ci metto, falsos amigos de ciudad y viaje, vocabulario de viaje y alojamiento).
+
 ## 2026-11-26 (41) — Fase 5: módulo a2m07 «Planes, invitaciones e hipótesis» construido
 **Pedido del usuario:** «sigue» (a2m07).
 **Hecho:** lista de cierre en rojo → verde (a2m01–a2m07). 180 candidatas auditadas por dos agentes → **142 frases** en tres unidades: futuro y condicional (la raíz; solo reconocer) 57, verbos con preposición 36, vocabulario de cultura y medios 49 (38 rechazadas; respaldo `content/audits/2026-11-26-a2m07-veredictos.json`). Texto de entrada **propio** `rd_programmi` (mensajes de planes) y **reforzado el condicional de cortesía** (potrei, potresti, dovresti) en `rd_a2m07_a`, `rd_a2m07_b` y `ls_a2m07` (se pidió editar lo mínimo, sin cambiar líneas ni respuestas). 3 unidades nuevas (u97–u99); Salida (2 juegos de rol, tarea oral, 6 preguntas por voz); 207 clips (+17 de segunda voz); voz humana (banco 483); **A1 intacto**. Precache 11,73 MB. 5 palabras nuevas clasificadas por mí.

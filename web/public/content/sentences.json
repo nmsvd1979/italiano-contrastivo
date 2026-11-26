@@ -131,6 +131,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "93e23ed405c1",
+    "author": "Tradukero",
+    "cefr_estimate": "A1",
+    "es": "Dime más.",
+    "es_author": "IA (Claude)",
+    "id": "s_1003669",
+    "it": "Dimmi di più.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1003669",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "eb18cfae5cc8",
     "author": "Shishir",
     "cefr_estimate": "A1",
@@ -618,6 +630,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "958ab2160d7b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame un sándwich.",
+    "es_author": "IA (Claude)",
+    "id": "s_10269492",
+    "it": "Dammi un sandwich.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10269492",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "cb33bc67ce67",
     "author": "rado",
     "cefr_estimate": "A1",
@@ -1081,6 +1105,18 @@
     "it": "Io non parlo spagnolo.",
     "license": "CC BY 2.0 FR",
     "source_id": "1068397",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "0aa41123e789",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "Dame una galleta.",
+    "es_author": "IA (Claude)",
+    "id": "s_10692512",
+    "it": "Dammi un biscotto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10692512",
     "translation_kind": "llm"
   },
   {
@@ -2244,6 +2280,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "6590c26dd621",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Por qué tienes miedo?",
+    "es_author": "Eldad",
+    "es_source_id": "1122223",
+    "id": "s_1122235",
+    "it": "Perché hai paura?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1122235",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "02f15ef6d4a7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3015,6 +3064,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "dcfe2ffcf0b1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame una cerveza.",
+    "es_author": "IA (Claude)",
+    "id": "s_11711668",
+    "it": "Dammi una birra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11711668",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "aa8dd8abfc3f",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -3782,6 +3843,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "bf3d2a7bae76",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No se puede negar.",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166073",
+    "id": "s_1226052",
+    "it": "Non si può negare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1226052",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "cd05f3c47160",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4501,6 +4575,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "da29477493c7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame una mano.",
+    "es_author": "IA (Claude)",
+    "id": "s_1260386",
+    "it": "Dammi una mano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1260386",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "2169d7ab67fc",
     "author": "Adelpa",
     "cefr_estimate": "A1",
@@ -4778,6 +4864,45 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1274677",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "13abbaa452ff",
+    "author": "Adelpa",
+    "cefr_estimate": "A1",
+    "es": "Dame mil besos.",
+    "es_author": "Adelpa",
+    "es_source_id": "12748732",
+    "id": "s_12748724",
+    "it": "Dammi mille baci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12748724",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "630ca0600149",
+    "author": "Adelpa",
+    "cefr_estimate": "A1",
+    "es": "Dame un beso.",
+    "es_author": "Shishir",
+    "es_source_id": "2351638",
+    "id": "s_12749059",
+    "it": "Dammi un bacio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12749059",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "43675b99083e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame dos besos.",
+    "es_author": "Adelpa",
+    "es_source_id": "12749339",
+    "id": "s_12749206",
+    "it": "Dammi due baci.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12749206",
+    "translation_kind": "direct"
   },
   {
     "audio": "36d37bfcb346",
@@ -7343,6 +7468,19 @@
     "it": "Qualsiasi posto è buono per dormire.",
     "license": "CC BY 2.0 FR",
     "source_id": "14028839",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0138059bd85c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dime qué pasa.",
+    "es_author": "Shishir",
+    "es_source_id": "1881190",
+    "id": "s_1402935",
+    "it": "Dimmi cosa succede.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1402935",
     "translation_kind": "direct"
   },
   {
@@ -11068,6 +11206,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1f458bb7c9a9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella ya lo sabe.",
+    "es_author": "Seael",
+    "es_source_id": "10521942",
+    "id": "s_2001320",
+    "it": "Lo sa già.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2001320",
+    "translation_kind": "direct"
+  },
+  {
     "alt": [
       "Amo questo lavoro."
     ],
@@ -11224,6 +11375,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2016164",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "846e8489395f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Cuéntame de Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_2018428",
+    "it": "Dimmi di Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2018428",
+    "translation_kind": "llm"
   },
   {
     "audio": "8eba131a1ebe",
@@ -11863,6 +12026,44 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2126412",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "954b442f9997",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Me gusta tu ciudad.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2130858",
+    "id": "s_2131119",
+    "it": "Amo la tua città.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2131119",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "6d12e7794db4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame un minuto.",
+    "es_author": "IA (Claude)",
+    "id": "s_2131159",
+    "it": "Dammi un minuto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2131159",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "68f716dfa17b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Comemos más legumbres.",
+    "es_author": "saverius",
+    "es_source_id": "4390138",
+    "id": "s_2136114",
+    "it": "Mangiamo più legumi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2136114",
+    "translation_kind": "direct"
   },
   {
     "alt": [
@@ -12648,6 +12849,19 @@
     "it": "Il cielo è azzurro.",
     "license": "CC BY 2.0 FR",
     "source_id": "2384302",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "fd414957bfed",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame un segundo.",
+    "es_author": "hayastan",
+    "es_source_id": "1841849",
+    "id": "s_2385820",
+    "it": "Dammi un secondo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2385820",
     "translation_kind": "direct"
   },
   {
@@ -13728,6 +13942,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "35dd411f3467",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame una manzana.",
+    "es_author": "IA (Claude)",
+    "id": "s_2531171",
+    "it": "Dammi una mela.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2531171",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "6dcb8f5a1251",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -14522,6 +14748,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2684458",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "e11893f3e129",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame una razón.",
+    "es_author": "IA (Claude)",
+    "id": "s_2685167",
+    "it": "Dammi un motivo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2685167",
+    "translation_kind": "llm"
   },
   {
     "audio": "d3993e8d78af",
@@ -16185,6 +16423,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4b3ba9901815",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Eres tan predecible.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1231105",
+    "id": "s_2874962",
+    "it": "Sei così prevedibile.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2874962",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "a45cf24c7094",
     "author": "hitori37",
     "cefr_estimate": "A1",
@@ -16434,6 +16685,18 @@
     "it": "È vicino a casa sua?",
     "license": "CC BY 2.0 FR",
     "source_id": "2920682",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d02a968cc260",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame cien dólares.",
+    "es_author": "IA (Claude)",
+    "id": "s_2921667",
+    "it": "Dammi cento dollari.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2921667",
     "translation_kind": "llm"
   },
   {
@@ -17314,6 +17577,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "1112124ab67d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ya está gritando.",
+    "es_author": "saverius",
+    "es_source_id": "10108279",
+    "id": "s_3102894",
+    "it": "Sta già urlando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3102894",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "895cf2b0a5af",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -17604,6 +17880,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "ac19693694da",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No se puede hacer.",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166086",
+    "id": "s_3165308",
+    "it": "Non si può fare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3165308",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "47f8118ae9d4",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -17627,6 +17916,19 @@
     "it": "Ti piace questa canzone?",
     "license": "CC BY 2.0 FR",
     "source_id": "3173844",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b497ff2a8935",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No se puede decir.",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166087",
+    "id": "s_3174024",
+    "it": "Non si può dire.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3174024",
     "translation_kind": "direct"
   },
   {
@@ -17918,6 +18220,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2473dbcb6d66",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame la mano.",
+    "es_author": "IA (Claude)",
+    "id": "s_3260739",
+    "it": "Dammi la mano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3260739",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "bdb470fa8382",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -17939,6 +18253,18 @@
     "it": "Dimmi come ti chiami.",
     "license": "CC BY 2.0 FR",
     "source_id": "3264294",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c1eedcad2b83",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dime tu nombre.",
+    "es_author": "IA (Claude)",
+    "id": "s_3264297",
+    "it": "Dimmi il tuo nome.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3264297",
     "translation_kind": "llm"
   },
   {
@@ -18779,6 +19105,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3378467",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "9f074eddd3c0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame esa llave.",
+    "es_author": "IA (Claude)",
+    "id": "s_3381076",
+    "it": "Dammi quella chiave.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3381076",
+    "translation_kind": "llm"
   },
   {
     "audio": "ee239be6daf5",
@@ -19808,6 +20146,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "5b041edc3b40",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame el micrófono.",
+    "es_author": "IA (Claude)",
+    "id": "s_3538859",
+    "it": "Dammi il microfono.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3538859",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "be130f7e3a84",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -19817,6 +20167,18 @@
     "it": "Loro lavorano di notte.",
     "license": "CC BY 2.0 FR",
     "source_id": "3538936",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "364af55d4b3d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame esos guantes.",
+    "es_author": "IA (Claude)",
+    "id": "s_3539683",
+    "it": "Dammi quei guanti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3539683",
     "translation_kind": "llm"
   },
   {
@@ -19928,6 +20290,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3563598",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "790b5b3edf09",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No se puede hablar.",
+    "es_author": "cueyayotl",
+    "es_source_id": "5166093",
+    "id": "s_3564550",
+    "it": "Non si può parlare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3564550",
+    "translation_kind": "direct"
   },
   {
     "audio": "3f943d3eb003",
@@ -20149,6 +20524,18 @@
     "it": "A che ora vi alzate?",
     "license": "CC BY 2.0 FR",
     "source_id": "3589968",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "8098510b1f1d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dime qué hacer.",
+    "es_author": "IA (Claude)",
+    "id": "s_3590212",
+    "it": "Dimmi cosa fare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3590212",
     "translation_kind": "llm"
   },
   {
@@ -20656,6 +21043,30 @@
     "it": "Ama gli animali.",
     "license": "CC BY 2.0 FR",
     "source_id": "3675477",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "0847565195a1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame el mapa.",
+    "es_author": "IA (Claude)",
+    "id": "s_3676439",
+    "it": "Dammi la mappa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3676439",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "cdce0280321d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame el plano.",
+    "es_author": "IA (Claude)",
+    "id": "s_3676444",
+    "it": "Dammi la piantina.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3676444",
     "translation_kind": "llm"
   },
   {
@@ -22472,6 +22883,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "5dd4927e33b0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Soy tan nerviosa.",
+    "es_author": "saverius",
+    "es_source_id": "10462150",
+    "id": "s_3812030",
+    "it": "Sono così nervosa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3812030",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "7a0228c14763",
     "author": "ver",
     "cefr_estimate": "A1",
@@ -23099,6 +23523,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "726525ae84ce",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame un trabajo.",
+    "es_author": "IA (Claude)",
+    "id": "s_3872475",
+    "it": "Dammi un lavoro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3872475",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "ed67a12f0b22",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -23172,6 +23608,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3878856",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "1ea0724cb723",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Ya no te quiero.",
+    "es_author": "Shishir",
+    "es_source_id": "2640",
+    "id": "s_388254",
+    "it": "Non ti amo più.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "388254",
+    "translation_kind": "direct"
   },
   {
     "alt": [
@@ -23528,6 +23977,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3943362",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "7775a51bf850",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame mi bolso.",
+    "es_author": "IA (Claude)",
+    "id": "s_3951289",
+    "it": "Dammi la mia borsa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3951289",
+    "translation_kind": "llm"
   },
   {
     "audio": "3350b4f227a5",
@@ -23909,6 +24370,18 @@
     "it": "La sabbia è calda.",
     "license": "CC BY 2.0 FR",
     "source_id": "4033960",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d79f064efc60",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Pásame la pala.",
+    "es_author": "IA (Claude)",
+    "id": "s_4043130",
+    "it": "Dammi la pala.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4043130",
     "translation_kind": "llm"
   },
   {
@@ -24902,6 +25375,18 @@
     "it": "È per me?",
     "license": "CC BY 2.0 FR",
     "source_id": "4272775",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "bce708eb69ec",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame un día.",
+    "es_author": "IA (Claude)",
+    "id": "s_4274492",
+    "it": "Dammi un giorno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4274492",
     "translation_kind": "llm"
   },
   {
@@ -26110,6 +26595,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "f7368f86888b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame las llaves.",
+    "es_author": "IA (Claude)",
+    "id": "s_4538604",
+    "it": "Dammi le chiavi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4538604",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "663c2815bc6f",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -26448,6 +26945,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "5cf33529aa1b",
+    "author": "valealb",
+    "cefr_estimate": "A1",
+    "es": "Dame mi cerveza.",
+    "es_author": "IA (Claude)",
+    "id": "s_4633422",
+    "it": "Dammi la mia birra.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4633422",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "ce8af79ac964",
     "author": "ianna",
     "cefr_estimate": "A1",
@@ -26597,6 +27106,19 @@
     "it": "Metti questo libro sopra agli altri.",
     "license": "CC BY 2.0 FR",
     "source_id": "4667408",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5a1d54270870",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Debes trabajar más.",
+    "es_author": "tatoerique",
+    "es_source_id": "338714",
+    "id": "s_4675",
+    "it": "Devi lavorare di più.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4675",
     "translation_kind": "direct"
   },
   {
@@ -27798,6 +28320,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "497dfc37e511",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame la linterna.",
+    "es_author": "IA (Claude)",
+    "id": "s_5125722",
+    "it": "Dammi la torcia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5125722",
+    "translation_kind": "llm"
+  },
+  {
     "alt": [
       "Lui è orgoglioso e arrogante."
     ],
@@ -28031,6 +28565,19 @@
     "it": "Mi sta bene questo vestito?",
     "license": "CC BY 2.0 FR",
     "source_id": "521083",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "035488c904ac",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Ya no le quiero.",
+    "es_author": "Shishir",
+    "es_source_id": "459170",
+    "id": "s_521260",
+    "it": "Non lo amo più.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "521260",
     "translation_kind": "direct"
   },
   {
@@ -29219,6 +29766,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2ce9803cafd2",
+    "author": "dnnywld",
+    "cefr_estimate": "A1",
+    "es": "No eres tan viejo.",
+    "es_author": "Shishir",
+    "es_source_id": "2783042",
+    "id": "s_5508657",
+    "it": "Non sei così vecchio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5508657",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "2ee8b8d37d77",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -30310,6 +30870,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "61147ddc9d53",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Por qué tener miedo?",
+    "es_author": "saverius",
+    "es_source_id": "10803504",
+    "id": "s_5980771",
+    "it": "Perché avere paura?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5980771",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "18a7f15e1967",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -30433,6 +31006,19 @@
     "it": "Quante dita ha la mano?",
     "license": "CC BY 2.0 FR",
     "source_id": "6021598",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "260f3bd9a0c8",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Come más vegetales.",
+    "es_author": "darinmex",
+    "es_source_id": "602209",
+    "id": "s_602339",
+    "it": "Mangia più verdura.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "602339",
     "translation_kind": "direct"
   },
   {
@@ -31648,6 +32234,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a61661a60b66",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Dame la llave.",
+    "es_author": "IA (Claude)",
+    "id": "s_657016",
+    "it": "Dammi la chiave.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "657016",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "018d406a46fb",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -31708,6 +32306,18 @@
     "it": "Ciao, John! Come stai?",
     "license": "CC BY 2.0 FR",
     "source_id": "6598255",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "3aa119d68cc5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame un abrazo.",
+    "es_author": "IA (Claude)",
+    "id": "s_6603633",
+    "it": "Dammi un abbraccio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6603633",
     "translation_kind": "llm"
   },
   {
@@ -32172,6 +32782,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "c875b6ef11ca",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dime qué es esto.",
+    "es_author": "IA (Claude)",
+    "id": "s_6728387",
+    "it": "Dimmi cos'è questo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6728387",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "aa6cedcd7183",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -32382,6 +33004,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "6831949",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "35ab8f9a6e7d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Habla más fuerte.",
+    "es_author": "hayastan",
+    "es_source_id": "941229",
+    "id": "s_683394",
+    "it": "Parlate più forte!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "683394",
+    "translation_kind": "direct"
   },
   {
     "audio": "890228467930",
@@ -32960,6 +33595,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "8806912139ee",
+    "author": "Heracleum",
+    "cefr_estimate": "A1",
+    "es": "Dime cuál quieres.",
+    "es_author": "IA (Claude)",
+    "id": "s_704072",
+    "it": "Dimmi quale vuoi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "704072",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "92d4697545f3",
     "author": "dnnywld",
     "cefr_estimate": "A1",
@@ -32971,6 +33618,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "7047758",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "882a7ff8bd6d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Cuéntame de él.",
+    "es_author": "IA (Claude)",
+    "id": "s_7049275",
+    "it": "Dimmi di lui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7049275",
+    "translation_kind": "llm"
   },
   {
     "audio": "d6cb9e7dce5e",
@@ -33111,6 +33770,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "77b3df31f11d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame los detalles.",
+    "es_author": "IA (Claude)",
+    "id": "s_7079299",
+    "it": "Dammi i dettagli.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7079299",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "51ddda9841c2",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -33172,6 +33843,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "710357",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "1039a7a8de57",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dime qué pensar.",
+    "es_author": "IA (Claude)",
+    "id": "s_7104123",
+    "it": "Dimmi cosa pensare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7104123",
+    "translation_kind": "llm"
   },
   {
     "audio": "315f3fb5e768",
@@ -33622,6 +34305,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "41787fe5bea1",
+    "author": "Ricardo14",
+    "cefr_estimate": "A1",
+    "es": "Ya sé dónde vive Tom.",
+    "es_author": "Ricardo14",
+    "es_source_id": "7209865",
+    "id": "s_7209875",
+    "it": "So già dove vive Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7209875",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "207ebc07fa2e",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -33767,6 +34463,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "7321320",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "e9d44af4cbbc",
+    "author": "dnnywld",
+    "cefr_estimate": "A1",
+    "es": "Soy el más rico.",
+    "es_author": "arh",
+    "es_source_id": "7305889",
+    "id": "s_7326916",
+    "it": "Sono il più ricco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7326916",
+    "translation_kind": "direct"
   },
   {
     "audio": "d4dace4435d8",
@@ -34022,6 +34731,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "6d831cb42055",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ya no me gustas.",
+    "es_author": "Shishir",
+    "es_source_id": "794537",
+    "id": "s_753310",
+    "it": "Non mi piaci più.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "753310",
+    "translation_kind": "direct"
+  },
+  {
     "alt": [
       "Ho bisogno di una cartina.",
       "Ho bisogno di una mappa."
@@ -34199,6 +34921,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "758824",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "548196e64012",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame el vino.",
+    "es_author": "IA (Claude)",
+    "id": "s_7588379",
+    "it": "Dammi il vino.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7588379",
+    "translation_kind": "llm"
   },
   {
     "audio": "59e0b63e8058",
@@ -36078,6 +36812,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c6fe62d66cf4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Dame un ejemplo.",
+    "es_author": "IA (Claude)",
+    "id": "s_876586",
+    "it": "Fammi un esempio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "876586",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "646bf07f9314",
     "author": "riccioberto",
     "cefr_estimate": "A1",
@@ -36263,6 +37009,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "8845864",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "6e4fa0bbba7c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No puede continuar.",
+    "es_author": "saverius",
+    "es_source_id": "10728305",
+    "id": "s_8857540",
+    "it": "Non può continuare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8857540",
+    "translation_kind": "direct"
   },
   {
     "audio": "95927b9e92b5",
@@ -37237,6 +37996,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "28c1c3428112",
+    "author": "Nuel",
+    "cefr_estimate": "A1",
+    "es": "Hazme una sonrisa.",
+    "es_author": "IA (Claude)",
+    "id": "s_9680556",
+    "it": "Fammi un sorriso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9680556",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "a98e58568da8",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -37921,6 +38692,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "a52dd69224ba",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Tome, señor, este es su boleto. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_06857c84",
+    "it": "Prenda, signore, questo è il suo biglietto.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "1f71f8b0a744",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -37957,6 +38740,54 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "00c014ff9824",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Perdóneme, profesor, no tengo el libro. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_0ddf30c3",
+    "it": "Mi scusi, professore, non ho il libro.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "28a4e8ed6fcb",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Mire, señor, el cielo está azul. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_144c4990",
+    "it": "Guardi, signore, il cielo è blu.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "bb834e9b69c1",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Vuelva mañana, señor, el doctor está ocupado. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_175bde4f",
+    "it": "Torni domani, signore, il dottore è occupato.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "97dda44dbd60",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Espere un momento, señor, por favor. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_1ae819e7",
+    "it": "Aspetti un attimo, signore, per favore.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "5e0b2965ed0b",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -37964,6 +38795,90 @@
     "es_author": "IA (Claude)",
     "id": "a_1cc14b85",
     "it": "Hai dubbi? Sì, ne ho molti.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "5c40ae6e622d",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Espere, señora, llego enseguida. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_1d6dd545",
+    "it": "Aspetti, signora, arrivo subito.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6bef64183cfd",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Oiga, señora, ¿el tren sale a las ocho? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_239f8954",
+    "it": "Senta, signora, il treno parte alle otto?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "879f4a1ac809",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Escuche, profesor, mi pregunta. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_23a15e91",
+    "it": "Ascolti, professore, la mia domanda.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d40b7594315f",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Mire, doctor, esta foto es de ayer. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_2882dc94",
+    "it": "Guardi, dottore, questa foto è di ieri.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "0be5ff993695",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Oiga, profesor, no entendí. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_2df26cfc",
+    "it": "Senta, professore, non ho capito.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "f2a0eb18c6d4",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Tome, doctor, el libro es para usted. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_2fe3605a",
+    "it": "Prenda pure, dottore, il libro è per Lei.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "09980f93a7c0",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Siéntese aquí, señor, hay lugar. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_317a3041",
+    "it": "Si sieda qui, signore, c'è posto.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -37993,6 +38908,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "f6ff70397a3d",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Oiga, doctor, me duele la cabeza. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_3b660a10",
+    "it": "Senta, dottore, mi fa male la testa.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "702a32db5476",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -38012,6 +38939,54 @@
     "es_author": "IA (Claude)",
     "id": "a_3d99faa2",
     "it": "Quante mele vuoi? Ne voglio quattro.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "f78f863f8b7d",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Espere aquí, doctor, vuelvo pronto. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_3e973c0a",
+    "it": "Aspetti qui, dottore, torno presto.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "73541eb477f9",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Oiga, señor, ¿hay una farmacia aquí cerca? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_40374b41",
+    "it": "Senta, signore, c'è una farmacia qui vicino?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6abea16e6dc5",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Mire, señora, este bolso es hermosísimo. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_412459b5",
+    "it": "Guardi, signora, questa borsa è bellissima.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a7222194638c",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Lea, señora, este aviso. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_418091d2",
+    "it": "Legga, signora, questo avviso.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -38041,6 +39016,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "21fbde15e8a1",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Venga, señora, el doctor la espera. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_4eb18e7a",
+    "it": "Venga, signora, il dottore La aspetta.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "2062372c4c80",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -38048,6 +39035,42 @@
     "es_author": "IA (Claude)",
     "id": "a_5518d253",
     "it": "Quanti cugini hai? Ne ho cinque.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "261f6d27017a",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Dígame, señora, ¿en qué puedo ayudarla? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_558098f9",
+    "it": "Mi dica, signora, in che cosa posso aiutarLa?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e77a76a45f48",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Lea aquí, profesor, se lo ruego. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_5670ee4f",
+    "it": "Legga qui, professore, la prego.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a2bc74ca6ace",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Escuche, señora, esta música. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_59a7eaf0",
+    "it": "Ascolti, signora, questa musica.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -38125,6 +39148,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "ea503b779d4d",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Cierre la puerta, doctor, hay viento. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_61751845",
+    "it": "Chiuda la porta, dottore, c'è vento.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "63a329d2e3c4",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -38173,6 +39208,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "da0f4343d940",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Siéntese, señora, la consulta empieza ahora. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_71488534",
+    "it": "Si sieda, signora, la visita comincia ora.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1c61ef86d297",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Dígame, señor, qué desea. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_72440b9c",
+    "it": "Mi dica, signore, che cosa desidera.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "d24dcfae6b56",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -38209,6 +39268,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "976e5bdcc8a6",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Disculpe, señora, ¿dónde está la estación? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_7f4fb39e",
+    "it": "Scusi, signora, dov'è la stazione?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6b7b63e6b3ae",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Dígame, doctor, cuándo puedo volver. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_8321e724",
+    "it": "Mi dica, dottore, quando posso tornare.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "5c54fc32a980",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -38216,6 +39299,30 @@
     "es_author": "IA (Claude)",
     "id": "a_8332c62f",
     "it": "Scrivi messaggi? Ne scrivo tanti.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "74b75222233b",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Oiga, señora, ¿cuánto cuesta esto? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_85c824c9",
+    "it": "Senta, signora, quanto costa questo?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "157014072117",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Tome, señora, su bolso. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_8c73c3bf",
+    "it": "Prenda, signora, la sua borsa.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -38240,6 +39347,18 @@
     "es_author": "IA (Claude)",
     "id": "a_962d556f",
     "it": "Hai delle mele? Sì, ne ho tre.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "50b41893c47e",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Escriba, doctora, el número de teléfono. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_966440e1",
+    "it": "Scriva, dottoressa, il numero di telefono.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -38305,6 +39424,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "6c341fa5b80b",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Disculpe, abogado, ¿está libre mañana? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_a7d8113b",
+    "it": "Scusi, avvocato, è libero domani?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "fd53e33261c7",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -38341,6 +39472,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "dc00fa97ffcd",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Pase, señora, la calle está libre. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_b6d304ad",
+    "it": "Passi, signora, la strada è libera.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a8e4d1cfd55e",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Venga, señor, la mesa está aquí. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_be3d0202",
+    "it": "Venga, signore, il tavolo è qui.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "ec615dd66cff",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -38348,6 +39503,42 @@
     "es_author": "IA (Claude)",
     "id": "a_ca36807e",
     "it": "Quanti figli ha Marco? Ne ha due.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "ad1cd916a251",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Siéntese, señora, por favor. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_ca8f5abd",
+    "it": "Si accomodi, signora, prego.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "f9a4549ac2f6",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Disculpe, señor, ¿qué hora es? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_cdae3676",
+    "it": "Scusi, signore, che ore sono?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "8502ffc2c7ab",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Escriba, señor, su nombre aquí. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_cf6af160",
+    "it": "Scriva, signore, il suo nome qui.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -38377,6 +39568,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "8e53a082ad42",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Abra, señora, la puerta, por favor. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_d39f01ad",
+    "it": "Apra, signora, la porta, per favore.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b9b65e3e0c3b",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -38401,6 +39604,102 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "55220b8e25d3",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Venga mañana, profesor, a las nueve. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_dc04281b",
+    "it": "Venga domani, professore, alle nove.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "5a9144253fa7",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Disculpe, profesor, ¿tiene un minuto? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_dc51b5c3",
+    "it": "Scusi, professore, ha un minuto?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "986917de3185",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Póngase cómodo, profesor, el café está aquí. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_e05f3162",
+    "it": "Si accomodi, professore, il caffè è qui.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d80568b136ad",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Pase, doctor, está listo. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_e2bea2fd",
+    "it": "Si accomodi, dottore, è pronto.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "3e97a395fd7e",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Abra la ventana, señor, hace calor. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_e39caebd",
+    "it": "Apra la finestra, signore, fa caldo.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "30d673df2579",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Perdóneme, señora, estoy atrasado. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_e63b95aa",
+    "it": "Mi scusi, signora, sono in ritardo.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "daa689817385",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Llame, señora, al número gratuito. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_ed277ce6",
+    "it": "Chiami, signora, il numero verde.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e7ba814a4be2",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Cierre, señora, la ventana, por favor. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_efc0cc9a",
+    "it": "Chiuda, signora, la finestra, per favore.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "44761cef2aec",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -38408,6 +39707,18 @@
     "es_author": "IA (Claude)",
     "id": "a_f30121cb",
     "it": "Hai figli? Sì, ne ho due.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "778f789dc5a1",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Disculpe, doctor, ¿puedo entrar? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_fb291adb",
+    "it": "Scusi, dottore, posso entrare?",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -38522,6 +39833,19 @@
     "it": "Lavora dalle nove alle cinque e mezza.",
     "license": "CC BY 2.0 FR",
     "source_id": "10150117",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2d3eaba35786",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡Pásame el cubo, rápido!",
+    "es_author": "Seael",
+    "es_source_id": "13521223",
+    "id": "s_10154242",
+    "it": "Dammi il secchio, rapido!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10154242",
     "translation_kind": "direct"
   },
   {
@@ -40694,6 +42018,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "5010e796832a",
+    "author": "Adelpa",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué se ríen las hienas?",
+    "es_author": "Adelpa",
+    "es_source_id": "12821893",
+    "id": "s_12821884",
+    "it": "Perché le iene ridono?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12821884",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "75f90569abae",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -40972,6 +42309,19 @@
     "it": "È sempre stato così.",
     "license": "CC BY 2.0 FR",
     "source_id": "1311008",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d2d079dc9e50",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Puede que esto te sea útil.",
+    "es_author": "opor",
+    "es_source_id": "855982",
+    "id": "s_1311039",
+    "it": "Questo ti può servire.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1311039",
     "translation_kind": "direct"
   },
   {
@@ -42001,6 +43351,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "52053e6ad4d7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Muéstrame la muñeca que compraste ayer.",
+    "es_author": "Zifre",
+    "es_source_id": "786382",
+    "id": "s_1470280",
+    "it": "Fammi vedere la bambola che hai comprato ieri.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1470280",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "17bae67df1d8",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -42179,6 +43542,19 @@
     "it": "Si può vedere il monte Fuji da qui.",
     "license": "CC BY 2.0 FR",
     "source_id": "1516070",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0d32b28b55bc",
+    "author": "marco87",
+    "cefr_estimate": "A2",
+    "es": "Dime el objetivo de tu plan.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1513940",
+    "id": "s_1516124",
+    "it": "Dimmi qual è l'obiettivo del tuo piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1516124",
     "translation_kind": "direct"
   },
   {
@@ -42749,6 +44125,19 @@
     "it": "Devi smettere di bere.",
     "license": "CC BY 2.0 FR",
     "source_id": "1661907",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ecb6cdeddb28",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Dame un besito en la mejilla.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1669583",
+    "id": "s_1669563",
+    "it": "Dammi un bacino sulla guancia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1669563",
     "translation_kind": "direct"
   },
   {
@@ -43911,6 +45300,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "8e71ee58de87",
+    "author": "Sirio60",
+    "cefr_estimate": "A2",
+    "es": "Dos más dos es cuatro.",
+    "es_author": "leoruilova",
+    "es_source_id": "671802",
+    "id": "s_2056123",
+    "it": "Due più due fa quattro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2056123",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3897974da0eb",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -44072,6 +45474,19 @@
     "it": "Mi è piaciuta la tua idea e l'ho adottata.",
     "license": "CC BY 2.0 FR",
     "source_id": "2143646",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "30e2f6cabddc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Cinco más tres es ocho.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2005822",
+    "id": "s_2147623",
+    "it": "Cinque più tre fa otto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2147623",
     "translation_kind": "direct"
   },
   {
@@ -45220,6 +46635,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "441866cbca0c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Dame una oportunidad.",
+    "es_author": "Shishir",
+    "es_source_id": "2115551",
+    "id": "s_2598763",
+    "it": "Dammi una possibilità.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2598763",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "2f0711f5d26d",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -45819,6 +47247,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2943978",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "ff263f5300c9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡Esto no puede ser!",
+    "es_author": "migueltoledo86",
+    "es_source_id": "858235",
+    "id": "s_2959611",
+    "it": "Questo non può essere!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2959611",
+    "translation_kind": "direct"
   },
   {
     "audio": "d418a8c603ab",
@@ -47510,6 +48951,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "994548e0c447",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "¿Ella trabaja en esta ciudad?",
+    "es_author": "arashi_29",
+    "es_source_id": "606081",
+    "id": "s_373674",
+    "it": "Lavora in questa città?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "373674",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "5dc0fabccf9b",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -47636,6 +49090,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "375031",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "3b7fc8d41134",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "No puedo vivir así.",
+    "es_author": "Shishir",
+    "es_source_id": "2521",
+    "id": "s_375237",
+    "it": "Non posso vivere così.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "375237",
+    "translation_kind": "direct"
   },
   {
     "audio": "79045d11cb30",
@@ -49426,6 +50893,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "d19a88dfae84",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Dáselo a alguien que lo necesite.",
+    "es_author": "hayastan",
+    "es_source_id": "994639",
+    "id": "s_433055",
+    "it": "Dallo a qualcuno che ne ha bisogno.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "433055",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "e470c94bbdd2",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -49773,6 +51253,19 @@
     "it": "Lui l'ha fatto per i soldi.",
     "license": "CC BY 2.0 FR",
     "source_id": "4585228",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ccffc73e5288",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ya lo estoy buscando.",
+    "es_author": "saverius",
+    "es_source_id": "10087039",
+    "id": "s_4623093",
+    "it": "Io lo sto già cercando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4623093",
     "translation_kind": "direct"
   },
   {
@@ -50125,6 +51618,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "484781",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "5505d12efd48",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué no me escuchas?",
+    "es_author": "Shishir",
+    "es_source_id": "709325",
+    "id": "s_484894",
+    "it": "Perché non mi ascolti?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "484894",
+    "translation_kind": "direct"
   },
   {
     "audio": "9778b06e2f41",
@@ -51011,6 +52517,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "778ea12e1a18",
+    "author": "dnnywld",
+    "cefr_estimate": "A2",
+    "es": "No son tan viejos ustedes.",
+    "es_author": "mramosch",
+    "es_source_id": "8859811",
+    "id": "s_5508653",
+    "it": "Non siete così vecchi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5508653",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "c41aac49199f",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -51889,6 +53408,19 @@
     "it": "Sarò lì alle cinque.",
     "license": "CC BY 2.0 FR",
     "source_id": "612198",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "219e3b57bcae",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Dime qué ha sucedido.",
+    "es_author": "cueyayotl",
+    "es_source_id": "5230964",
+    "id": "s_612680",
+    "it": "Dimmi cos'è successo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "612680",
     "translation_kind": "direct"
   },
   {
@@ -52888,6 +54420,19 @@
     "it": "Devo essere alla stazione alle tre in punto.",
     "license": "CC BY 2.0 FR",
     "source_id": "694872",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "9ece54de6a21",
+    "author": "dnnywld",
+    "cefr_estimate": "A2",
+    "es": "Estoy más sano que nunca.",
+    "es_author": "saverius",
+    "es_source_id": "11790798",
+    "id": "s_6963725",
+    "it": "Sono più sano che mai.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6963725",
     "translation_kind": "direct"
   },
   {
@@ -54936,6 +56481,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "eaaae729a10e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No soy tan ingenua.",
+    "es_author": "Adelpa",
+    "es_source_id": "12151575",
+    "id": "s_9474893",
+    "it": "Non sono così ingenua.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9474893",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "bede09d963d7",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -55185,6 +56743,19 @@
     "it": "Ho lavorato alla fattoria tutto il giorno.",
     "license": "CC BY 2.0 FR",
     "source_id": "978867",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "91480ab4bdb1",
+    "author": "hundo",
+    "cefr_estimate": "A2",
+    "es": "Dime claramente cuáles son tus intenciones.",
+    "es_author": "hundo",
+    "es_source_id": "981116",
+    "id": "s_980415",
+    "it": "Dimmi con chiarezza quali sono le tue intenzioni.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "980415",
     "translation_kind": "direct"
   },
   {

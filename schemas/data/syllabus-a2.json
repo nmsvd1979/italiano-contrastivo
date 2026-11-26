@@ -1177,7 +1177,7 @@
   },
   {
    "id": "a2m08",
-   "estado": "planificado",
+   "estado": "cerrado",
    "title_es": "Favores, sugerencias e instrucciones",
    "situacion_es": "Pedir un favor, dar una sugerencia, carteles de prohibición, instrucciones de uso. (Aconsejar con detalle es B1.)",
    "can_do_es": [
@@ -1230,8 +1230,8 @@
    ],
    "unidades_existentes": [],
    "entrada": {
-    "id": "rd_suggerimenti",
-    "fuente": "Texto propio anclado en Giornate italiane unidad 10 (imperativo) y los «lamentos» de la unidad 9",
+    "id": "rd_a2m08_entrada",
+    "fuente": "Texto propio: «Mi fai un favore?» (no hay fuente abierta adaptable)",
     "nota": "authored"
    },
    "libro_entrada_es": "G/9-una-giornata-allinsegna-di-benessere/ (4 «lamentos» para aconsejar), G/g-10-2-limperativo/ (única fuente con Lei), P/imperativo-e-pronomi/, G/g-11-0-il-condizionale/",

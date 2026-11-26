@@ -78,6 +78,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1003933.mp3` — «Credo che sia felice.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380758
 - `human/1004684.mp3` — «Credo che sia malata.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380817
 - `human/1004738.mp3` — «Di chi è questa bicicletta?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1202913
+- `human/1009974.mp3` — «Dimmi quello che è successo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4669
 - `human/1004693.mp3` — «Domani è domenica.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/409423
 - `human/1009983.mp3` — «Domani è festa.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350770
 - `human/1004718.mp3` — «Dov'è casa tua?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/950359
@@ -104,6 +105,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1006469.mp3` — «Eri con qualcuno?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1071813
 - `human/993497.mp3` — «Ero a casa.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1984575
 - `human/1010017.mp3` — «Ero un po' sorpreso.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378689
+- `human/1001410.mp3` — «Fai come ti ho detto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1317029
 - `human/1001311.mp3` — «Fai i compiti.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374392
 - `human/1009990.mp3` — «Fra poco è il mio compleanno.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374049
 - `human/1009996.mp3` — «Giocare a tennis è divertente.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374320
@@ -198,6 +200,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1001320.mp3` — «Il ragazzo è gentile.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375667
 - `human/1004714.mp3` — «Il tavolo è verde.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/791282
 - `human/1004066.mp3` — «Il tuo cane morde?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5582716
+- `human/1006365.mp3` — «Indovina dove sono stato.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350583
 - `human/994239.mp3` — «Io parlo molto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5873911
 - `human/1000211.mp3` — «Io studio all'estero.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/410816
 - `human/1003926.mp3` — «L'acqua è un liquido.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379648
@@ -314,15 +317,22 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1010005.mp3` — «Nessuno mi capisce.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375355
 - `human/1000224.mp3` — «Noi studiamo musica.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/568596
 - `human/1003202.mp3` — «Non abbiamo zucchero.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373855
+- `human/1006495.mp3` — «Non andare troppo lontano.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2105112
+- `human/1006463.mp3` — «Non avvicinarti al cane.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/989824
 - `human/1003199.mp3` — «Non c'è nessun problema!», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373783
 - `human/1003199.mp3` — «Non c'è nessun problema?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373783
 - `human/1006464.mp3` — «Non chiamarmi più.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/991812
 - `human/1004673.mp3` — «Non ci piace la pioggia.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/377100
+- `human/1004745.mp3` — «Non dire stupidaggini!», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1317507
 - `human/1010033.mp3` — «Non era mia intenzione.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/383776
 - `human/1000316.mp3` — «Non ero felice.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533086
+- `human/1006498.mp3` — «Non essere deluso.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2128726
 - `human/993418.mp3` — «Non essere triste.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379545
 - `human/1004700.mp3` — «Non faccio sport.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/602284
+- `human/1000304.mp3` — «Non fare ritardo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3351029
 - `human/1000247.mp3` — «Non fare tardi.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/984731
+- `human/1001294.mp3` — «Non giocare qua.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350931
+- `human/1000303.mp3` — «Non guardare la televisione.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3345462
 - `human/1000310.mp3` — «Non ha funzionato.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3505219
 - `human/1003300.mp3` — «Non hai detto nulla.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1867379
 - `human/1003911.mp3` — «Non hai sete?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375678
@@ -342,6 +352,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1004672.mp3` — «Non mi piace la primavera.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/376573
 - `human/1010002.mp3` — «Non mi è mai piaciuta la biologia.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375238
 - `human/1000185.mp3` — «Non ne ho idea.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/377563
+- `human/1003253.mp3` — «Non ridere di me.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/656309
 - `human/1003189.mp3` — «Non sono ancora pronto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/351263
 - `human/994235.mp3` — «Non sono brutto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533157
 - `human/1004668.mp3` — «Non sono d'accordo con te.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375625
@@ -352,6 +363,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1003932.mp3` — «Non sono un insegnante.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/380653
 - `human/1003991.mp3` — «Non temo la morte.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1111456
 - `human/1010039.mp3` — «Non ti dimenticherò mai.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/410260
+- `human/1006488.mp3` — «Non toccare il vetro.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1299433
 - `human/1009981.mp3` — «Non viziare tuo figlio.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350634
 - `human/1003970.mp3` — «Non è ancora arrivato.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/694337
 - `human/1004019.mp3` — «Non è bello?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2398383
@@ -478,6 +490,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/993401.mp3` — «Sono un uomo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374464
 - `human/1000160.mp3` — «Sono uno studente.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373526
 - `human/1003221.mp3` — «Sta guardando la TV.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/376588
+- `human/1006364.mp3` — «Stai zitto un momento.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350545
 - `human/1004696.mp3` — «Sto mangiando una mela.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/433542
 - `human/1004018.mp3` — «Sto scrivendo un libro.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2242234
 - `human/1006404.mp3` — «Sto scrivendo una lettera.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378681

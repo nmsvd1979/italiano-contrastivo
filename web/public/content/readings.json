@@ -1155,6 +1155,236 @@
     "sentences": []
   },
   {
+    "id": "doc_a2m08_cartelli",
+    "title": "Cartelli in un edificio pubblico",
+    "level": "A2",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué debes hacer si el ascensor está fuera de servicio?",
+        "options": [
+          "Esperar un rato",
+          "Usar las escaleras",
+          "Llamar al conserje"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Qué pide el cartel «Prendere il numero»?",
+        "options": [
+          "Pagar en la caja",
+          "Sacar un número y esperar el turno",
+          "Dar el número de teléfono"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Qué hay que hacer con una puerta con el cartel «Tirare»?",
+        "options": [
+          "Empujarla",
+          "Tirar de ella",
+          "Cerrarla con llave"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Qué cartel avisa que no se debe correr?",
+        "options": [
+          "Pavimento bagnato",
+          "Silenzio",
+          "Vietato fumare"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Qué piden en el cartel «Silenzio»?",
+        "options": [
+          "Que hablen bajo",
+          "Que salgan",
+          "Que apaguen la luz"
+        ],
+        "answer": 0
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Cartello",
+        "Significato"
+      ],
+      "rows": [
+        [
+          "Vietato fumare",
+          "Non fumare in questo edificio."
+        ],
+        [
+          "Spingere",
+          "Per aprire la porta, spingi."
+        ],
+        [
+          "Tirare",
+          "Per aprire la porta, tira."
+        ],
+        [
+          "Prendere il numero",
+          "Prendi il numero e aspetta il tuo turno."
+        ],
+        [
+          "Pavimento bagnato",
+          "Attenzione: non correre."
+        ],
+        [
+          "Ascensore fuori servizio",
+          "L'ascensore non funziona: usa le scale."
+        ],
+        [
+          "Silenzio",
+          "Parlate piano, per favore."
+        ],
+        [
+          "Spegnere il cellulare",
+          "Spegnete i cellulari prima di entrare."
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
+    "id": "doc_a2m08_istruzioni",
+    "title": "Come usare la macchina del caffè",
+    "level": "A2",
+    "kind": "lectura",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Con qué hay que llenar el depósito?",
+        "options": [
+          "Con café",
+          "Con agua fresca",
+          "Con agua caliente"
+        ],
+        "answer": 1,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Dónde se pone la cápsula?",
+        "options": [
+          "En el cajón",
+          "Bajo la taza",
+          "En el depósito"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Cuándo está listo el café?",
+        "options": [
+          "Cuando suena una alarma",
+          "Cuando la luz se pone verde",
+          "A los diez minutos"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué hay que hacer si la luz es roja?",
+        "options": [
+          "Seguir esperando",
+          "Apagar la máquina y encenderla otra vez",
+          "Llamar al técnico"
+        ],
+        "answer": 1,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Con qué se limpia el surtidor?",
+        "options": [
+          "Con un paño",
+          "Con una esponja",
+          "Con agua caliente"
+        ],
+        "answer": 0,
+        "evidence": 8
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "doc_a2m08_istruzioni_00",
+        "it": "Prima di tutto, riempi il serbatoio con acqua fresca.",
+        "es": "Antes que nada, llena el depósito con agua fresca.",
+        "audio": "bb59c9fc2619"
+      },
+      {
+        "id": "doc_a2m08_istruzioni_01",
+        "it": "Metti una capsula nel cassetto e chiudilo.",
+        "es": "Pon una cápsula en el cajón y ciérralo.",
+        "audio": "bda693198669"
+      },
+      {
+        "id": "doc_a2m08_istruzioni_02",
+        "it": "Metti una tazza sotto l'erogatore.",
+        "es": "Pon una taza bajo el surtidor.",
+        "audio": "c187663d706d"
+      },
+      {
+        "id": "doc_a2m08_istruzioni_03",
+        "it": "Premi il tasto con il simbolo della tazza.",
+        "es": "Aprieta el botón con el símbolo de la taza.",
+        "audio": "1c24091ee74a"
+      },
+      {
+        "id": "doc_a2m08_istruzioni_04",
+        "it": "Aspetta trenta secondi e non toccare la macchina.",
+        "es": "Espera treinta segundos y no toques la máquina.",
+        "audio": "378570d54bf6"
+      },
+      {
+        "id": "doc_a2m08_istruzioni_05",
+        "it": "Quando la luce diventa verde, il caffè è pronto.",
+        "es": "Cuando la luz se pone verde, el café está listo.",
+        "audio": "acba13c54d5f"
+      },
+      {
+        "id": "doc_a2m08_istruzioni_06",
+        "it": "Dopo l'uso, togli la capsula e buttala.",
+        "es": "Después de usarla, saca la cápsula y bótala.",
+        "audio": "15db529c3281"
+      },
+      {
+        "id": "doc_a2m08_istruzioni_07",
+        "it": "Non mettere acqua calda nel serbatoio.",
+        "es": "No pongas agua caliente en el depósito.",
+        "audio": "58d951ab31cc"
+      },
+      {
+        "id": "doc_a2m08_istruzioni_08",
+        "it": "Ogni settimana, pulisci l'erogatore con un panno.",
+        "es": "Cada semana, limpia el surtidor con un paño.",
+        "audio": "ef013115f1e9"
+      },
+      {
+        "id": "doc_a2m08_istruzioni_09",
+        "it": "Se la luce è rossa, spegni la macchina e riaccendila.",
+        "es": "Si la luz es roja, apaga la máquina y vuelve a encenderla.",
+        "audio": "b4d6afb611d4"
+      }
+    ]
+  },
+  {
     "id": "doc_annuncio",
     "title": "Affittasi stanza",
     "level": "A1",
@@ -3179,6 +3409,182 @@
         "es": "Bien, ¡nos vemos el domingo!",
         "speaker": "Giulia",
         "audio": "99bdb17cab1f"
+      }
+    ]
+  },
+  {
+    "id": "ls_a2m08",
+    "title": "Come funziona la lavastoviglie",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué hay que sacar de los platos antes de ponerlos?",
+        "options": [
+          "Los restos de comida",
+          "Las etiquetas",
+          "El agua"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Cómo se ponen los vasos?",
+        "options": [
+          "Boca arriba, abajo",
+          "Con la boca hacia abajo, arriba",
+          "De lado, en el centro"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Dónde se pone el detergente?",
+        "options": [
+          "En el cajón de la izquierda",
+          "En el cajón de la derecha",
+          "Sobre los platos"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Cuánto dura el programa eco?",
+        "options": [
+          "Una hora",
+          "Dos horas",
+          "Tres horas"
+        ],
+        "answer": 2
+      },
+      {
+        "prompt_es": "¿Qué botón hay que apretar?",
+        "options": [
+          "El rojo",
+          "El verde",
+          "El azul"
+        ],
+        "answer": 1
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_a2m08_00",
+        "it": "Paolo, come funziona questa lavastoviglie?",
+        "es": "Paolo, ¿cómo funciona este lavavajillas?",
+        "speaker": "Elena",
+        "audio": "4a88ce79d726"
+      },
+      {
+        "id": "ls_a2m08_01",
+        "it": "È facile. Prima apri lo sportello.",
+        "es": "Es fácil. Primero abre la puerta.",
+        "speaker": "Paolo",
+        "audio": "b45c6e24fe72",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m08_02",
+        "it": "Poi metto i piatti dentro?",
+        "es": "¿Después pongo los platos adentro?",
+        "speaker": "Elena",
+        "audio": "720c0b131adf"
+      },
+      {
+        "id": "ls_a2m08_03",
+        "it": "Sì, ma prima togli i resti di cibo.",
+        "es": "Sí, pero primero saca los restos de comida.",
+        "speaker": "Paolo",
+        "audio": "f3c1aef36504",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m08_04",
+        "it": "E i bicchieri dove li metto?",
+        "es": "¿Y los vasos dónde los pongo?",
+        "speaker": "Elena",
+        "audio": "b6289d124185"
+      },
+      {
+        "id": "ls_a2m08_05",
+        "it": "Mettili in alto, capovolti.",
+        "es": "Ponlos arriba, al revés.",
+        "speaker": "Paolo",
+        "audio": "e94b14796e03",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m08_06",
+        "it": "Ho il detersivo. Dove lo metto?",
+        "es": "Tengo el detergente. ¿Dónde lo pongo?",
+        "speaker": "Elena",
+        "audio": "bd125171b1d5"
+      },
+      {
+        "id": "ls_a2m08_07",
+        "it": "Mettilo nel cassetto a sinistra. Poi chiudi lo sportello.",
+        "es": "Ponlo en el cajón de la izquierda. Después cierra la puerta.",
+        "speaker": "Paolo",
+        "audio": "0b177b9066c1",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m08_08",
+        "it": "Che programma scelgo?",
+        "es": "¿Qué programa elijo?",
+        "speaker": "Elena",
+        "audio": "e10e277ee623"
+      },
+      {
+        "id": "ls_a2m08_09",
+        "it": "Scegli il programma eco. Dura tre ore.",
+        "es": "Elige el programa eco. Dura tres horas.",
+        "speaker": "Paolo",
+        "audio": "33738523c62f",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m08_10",
+        "it": "Tre ore? Va bene. Premo il tasto verde?",
+        "es": "¿Tres horas? Está bien. ¿Aprieto el botón verde?",
+        "speaker": "Elena",
+        "audio": "6517627a9c2d"
+      },
+      {
+        "id": "ls_a2m08_11",
+        "it": "Sì, premilo una volta. Non toccare altro.",
+        "es": "Sí, apriétalo una vez. No toques nada más.",
+        "speaker": "Paolo",
+        "audio": "7dced5157b26",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m08_12",
+        "it": "E quando ha finito, come l'apro?",
+        "es": "¿Y cuando termina, cómo lo abro?",
+        "speaker": "Elena",
+        "audio": "72d9fdb247c3"
+      },
+      {
+        "id": "ls_a2m08_13",
+        "it": "Aspetta la luce verde e aprila piano.",
+        "es": "Espera la luz verde y ábrelo despacio.",
+        "speaker": "Paolo",
+        "audio": "9873873fa8b3",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m08_14",
+        "it": "Grazie, sei un tesoro!",
+        "es": "¡Gracias, eres un tesoro!",
+        "speaker": "Elena",
+        "audio": "decfdea34510"
       }
     ]
   },
@@ -6776,6 +7182,487 @@
         "es": "¡Hasta el viernes! Será una linda velada.",
         "speaker": "Elena",
         "audio": "1b9e0dedd091"
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m08_a",
+    "title": "In biblioteca",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué busca Chiara?",
+        "options": [
+          "Un libro",
+          "Un diario",
+          "Una revista"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Qué debe llenar para tener el carnet?",
+        "options": [
+          "Un formulario",
+          "Una carta",
+          "Una encuesta"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Adónde debe ir para los libros de cocina?",
+        "options": [
+          "Al segundo piso",
+          "Al primer piso",
+          "Al sótano"
+        ],
+        "answer": 1,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Qué no puede hacer Chiara con las páginas?",
+        "options": [
+          "Fotocopiarlas",
+          "Fotografiarlas",
+          "Leerlas"
+        ],
+        "answer": 1,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta cada fotocopia?",
+        "options": [
+          "Diez céntimos",
+          "Un euro",
+          "Cincuenta céntimos"
+        ],
+        "answer": 0,
+        "evidence": 11
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m08_a_00",
+        "it": "Scusi, può aiutarmi? Cerco un libro.",
+        "es": "Disculpe, ¿puede ayudarme? Busco un libro.",
+        "speaker": "Chiara",
+        "audio": "cd70b7bb9877"
+      },
+      {
+        "id": "rd_a2m08_a_01",
+        "it": "Certo. Senta, ha la tessera della biblioteca?",
+        "es": "Claro. Oiga, ¿tiene el carnet de la biblioteca?",
+        "speaker": "Bibliotecario",
+        "audio": "81defe4e71b4",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m08_a_02",
+        "it": "No, mi dispiace, non ho la tessera.",
+        "es": "No, lo siento, no tengo el carnet.",
+        "speaker": "Chiara",
+        "audio": "25e6decbdcdb"
+      },
+      {
+        "id": "rd_a2m08_a_03",
+        "it": "Allora si accomodi. Compili questo modulo, per favore.",
+        "es": "Entonces tome asiento. Llene este formulario, por favor.",
+        "speaker": "Bibliotecario",
+        "audio": "127641e2b197",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m08_a_04",
+        "it": "Ecco fatto. Scrivo anche il telefono?",
+        "es": "Listo. ¿Escribo también el teléfono?",
+        "speaker": "Chiara",
+        "audio": "9e9287dddf74"
+      },
+      {
+        "id": "rd_a2m08_a_05",
+        "it": "Sì, scriva il numero qui. Poi prenda la tessera.",
+        "es": "Sí, escriba el número aquí. Después tome el carnet.",
+        "speaker": "Bibliotecario",
+        "audio": "c6937f8a1062",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m08_a_06",
+        "it": "Grazie. Dove trovo i libri di cucina?",
+        "es": "Gracias. ¿Dónde encuentro los libros de cocina?",
+        "speaker": "Chiara",
+        "audio": "0e2f8963400d"
+      },
+      {
+        "id": "rd_a2m08_a_07",
+        "it": "Salga al primo piano e giri a destra.",
+        "es": "Suba al primer piso y doble a la derecha.",
+        "speaker": "Bibliotecario",
+        "audio": "fc19e3d1ae63",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m08_a_08",
+        "it": "Posso fotografare le pagine?",
+        "es": "¿Puedo fotografiar las páginas?",
+        "speaker": "Chiara",
+        "audio": "ad866e857abf"
+      },
+      {
+        "id": "rd_a2m08_a_09",
+        "it": "No, mi dispiace. Però può fare le fotocopie.",
+        "es": "No, lo siento. Pero puede sacar fotocopias.",
+        "speaker": "Bibliotecario",
+        "audio": "fe10c842c892",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m08_a_10",
+        "it": "Va bene. Quanto costano?",
+        "es": "Está bien. ¿Cuánto cuestan?",
+        "speaker": "Chiara",
+        "audio": "6f8690f8ff33"
+      },
+      {
+        "id": "rd_a2m08_a_11",
+        "it": "Dieci centesimi. Ora vada pure, buona lettura.",
+        "es": "Diez céntimos. Ahora puede pasar, buena lectura.",
+        "speaker": "Bibliotecario",
+        "audio": "6c0f0b757dcc",
+        "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m08_b",
+    "title": "Un consiglio tra amici",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué problema tiene Sara?",
+        "options": [
+          "Duerme poco",
+          "Come demasiado",
+          "Trabaja mucho"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Por qué se acuesta tarde?",
+        "options": [
+          "Mira televisión",
+          "Usa el teléfono",
+          "Estudia"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Qué le aconseja Luca tomar en la noche?",
+        "options": [
+          "Café",
+          "Una infusión",
+          "Leche fría"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Dónde quedan para esperar a Sara el sábado?",
+        "options": [
+          "Frente al cine",
+          "En la estación",
+          "En su casa"
+        ],
+        "answer": 0,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Qué debe hacer antes, según Luca?",
+        "options": [
+          "Comprar las entradas",
+          "Llamar a Elena",
+          "Preparar la cena"
+        ],
+        "answer": 0,
+        "evidence": 9
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m08_b_00",
+        "it": "Luca, mi serve un consiglio. Dormo poco.",
+        "es": "Luca, necesito un consejo. Duermo poco.",
+        "speaker": "Sara",
+        "audio": "5e2472340c80"
+      },
+      {
+        "id": "rd_a2m08_b_01",
+        "it": "Dovresti andare a letto prima.",
+        "es": "Deberías acostarte más temprano.",
+        "speaker": "Luca",
+        "audio": "0d5457f5f39c",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m08_b_02",
+        "it": "Lo so, ma uso il telefono fino a tardi.",
+        "es": "Lo sé, pero uso el teléfono hasta tarde.",
+        "speaker": "Sara",
+        "audio": "01abd47b4866"
+      },
+      {
+        "id": "rd_a2m08_b_03",
+        "it": "Ti consiglio di spegnerlo alle dieci.",
+        "es": "Te aconsejo apagarlo a las diez.",
+        "speaker": "Luca",
+        "audio": "e8dea44151e0",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m08_b_04",
+        "it": "Hai ragione. Dammi un'altra idea.",
+        "es": "Tienes razón. Dame otra idea.",
+        "speaker": "Sara",
+        "audio": "eb681b0e07ad"
+      },
+      {
+        "id": "rd_a2m08_b_05",
+        "it": "Potresti bere una tisana la sera. Non bere il caffè dopo cena.",
+        "es": "Podrías tomar una infusión en la noche. No tomes café después de cenar.",
+        "speaker": "Luca",
+        "audio": "3dbcf6885dbf",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m08_b_06",
+        "it": "Ottimo. Dimmi, vieni con noi sabato?",
+        "es": "Excelente. Dime, ¿vienes con nosotros el sábado?",
+        "speaker": "Sara",
+        "audio": "f2953e83156b"
+      },
+      {
+        "id": "rd_a2m08_b_07",
+        "it": "Sì, ma aspettatemi davanti al cinema.",
+        "es": "Sí, pero espérenme frente al cine.",
+        "speaker": "Luca",
+        "audio": "5cf6d736436f",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m08_b_08",
+        "it": "Va bene. Chiamami quando arrivi.",
+        "es": "Está bien. Llámame cuando llegues.",
+        "speaker": "Sara",
+        "audio": "efdc623f2d56"
+      },
+      {
+        "id": "rd_a2m08_b_09",
+        "it": "D'accordo. Ti consiglio di prendere i biglietti prima.",
+        "es": "De acuerdo. Te aconsejo comprar las entradas antes.",
+        "speaker": "Luca",
+        "audio": "02a8a96b68ed",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m08_b_10",
+        "it": "Buona idea. Li compro io.",
+        "es": "Buena idea. Las compro yo.",
+        "speaker": "Sara",
+        "audio": "2848b25bf2fe"
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m08_entrada",
+    "title": "Mi fai un favore?",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué debe hacer Marco con las plantas?",
+        "options": [
+          "Regarlas",
+          "Venderlas",
+          "Cambiarlas de lugar"
+        ],
+        "answer": 0,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Cuándo debe pasar Marco?",
+        "options": [
+          "Mañana en la tarde",
+          "Hoy en la mañana",
+          "El lunes"
+        ],
+        "answer": 0,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Dónde debe poner Marco la correspondencia?",
+        "options": [
+          "En el balcón",
+          "Sobre la mesa",
+          "En el buzón"
+        ],
+        "answer": 1,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿Qué cuenta debe pagar Marco?",
+        "options": [
+          "La del agua",
+          "La del teléfono",
+          "La de la luz"
+        ],
+        "answer": 2,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Cuándo puede pagarla?",
+        "options": [
+          "El lunes",
+          "Hoy",
+          "El viernes"
+        ],
+        "answer": 0,
+        "evidence": 11
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m08_entrada_00",
+        "it": "Marco, mi fai un favore?",
+        "es": "Marco, ¿me haces un favor?",
+        "speaker": "Giulia",
+        "audio": "6f21dead791a"
+      },
+      {
+        "id": "rd_a2m08_entrada_01",
+        "it": "Certo, dimmi pure.",
+        "es": "Claro, dime.",
+        "speaker": "Marco",
+        "audio": "46ccb30a1dc5",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m08_entrada_02",
+        "it": "Domani parto presto. Puoi innaffiare le piante?",
+        "es": "Mañana parto temprano. ¿Puedes regar las plantas?",
+        "speaker": "Giulia",
+        "audio": "6e85fc3c0156"
+      },
+      {
+        "id": "rd_a2m08_entrada_03",
+        "it": "Va bene. Quando devo passare?",
+        "es": "Está bien. ¿Cuándo tengo que pasar?",
+        "speaker": "Marco",
+        "audio": "fc25c9dd1222",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m08_entrada_04",
+        "it": "Passa domani sera. Non dare troppa acqua!",
+        "es": "Pasa mañana en la tarde. ¡No les eches demasiada agua!",
+        "speaker": "Giulia",
+        "audio": "6341896326a6"
+      },
+      {
+        "id": "rd_a2m08_entrada_05",
+        "it": "Ok. Dammi le chiavi, allora.",
+        "es": "Ok. Dame las llaves, entonces.",
+        "speaker": "Marco",
+        "audio": "4da2e6ba3069",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m08_entrada_06",
+        "it": "Eccole. Aspettami, ti faccio vedere il balcone.",
+        "es": "Aquí están. Espérame, te muestro el balcón.",
+        "speaker": "Giulia",
+        "audio": "71f29fc8fcaa"
+      },
+      {
+        "id": "rd_a2m08_entrada_07",
+        "it": "C'è anche la posta da ritirare?",
+        "es": "¿Hay también correo que retirar?",
+        "speaker": "Marco",
+        "audio": "d234cb28febd",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m08_entrada_08",
+        "it": "Sì. Mettila sul tavolo e chiamami se c'è un problema.",
+        "es": "Sí. Ponla sobre la mesa y llámame si hay un problema.",
+        "speaker": "Giulia",
+        "audio": "c248c3bbbd8a"
+      },
+      {
+        "id": "rd_a2m08_entrada_09",
+        "it": "Va bene. E la bolletta della luce?",
+        "es": "Está bien. ¿Y la cuenta de la luz?",
+        "speaker": "Marco",
+        "audio": "72ebe389158d",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m08_entrada_10",
+        "it": "Pagala tu, poi ti do i soldi.",
+        "es": "Págala tú, después te doy el dinero.",
+        "speaker": "Giulia",
+        "audio": "ea11e9c9e3c6"
+      },
+      {
+        "id": "rd_a2m08_entrada_11",
+        "it": "Posso pagarla lunedì?",
+        "es": "¿Puedo pagarla el lunes?",
+        "speaker": "Marco",
+        "audio": "9df2a127df70",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m08_entrada_12",
+        "it": "Sì, ma fallo presto. Poi scrivimi un messaggio.",
+        "es": "Sí, pero hazlo pronto. Después escríbeme un mensaje.",
+        "speaker": "Giulia",
+        "audio": "a97591aaf2df"
+      },
+      {
+        "id": "rd_a2m08_entrada_13",
+        "it": "Stai tranquilla, ci penso io.",
+        "es": "Quédate tranquila, yo me encargo.",
+        "speaker": "Marco",
+        "audio": "9aba6c701886",
+        "voice": 2
       }
     ]
   },

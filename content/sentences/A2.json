@@ -47,6 +47,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Tome, señor, este es su boleto. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_06857c84",
+    "it": "Prenda, signore, questo è il suo biglietto.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Cuántos boletos tienes? Tengo dos.",
@@ -113,6 +135,94 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Perdóneme, profesor, no tengo el libro. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_0ddf30c3",
+    "it": "Mi scusi, professore, non ho il libro.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Mire, señor, el cielo está azul. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_144c4990",
+    "it": "Guardi, signore, il cielo è blu.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Vuelva mañana, señor, el doctor está ocupado. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_175bde4f",
+    "it": "Torni domani, signore, il dottore è occupato.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Espere un momento, señor, por favor. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_1ae819e7",
+    "it": "Aspetti un attimo, signore, per favore.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Tienes dudas? Sí, tengo muchas.",
@@ -128,6 +238,160 @@
     "source": "authored",
     "tag_rules": {
       "ERR_CLITIC_NE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Espere, señora, llego enseguida. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_1d6dd545",
+    "it": "Aspetti, signora, arrivo subito.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Oiga, señora, ¿el tren sale a las ocho? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_239f8954",
+    "it": "Senta, signora, il treno parte alle otto?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Escuche, profesor, mi pregunta. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_23a15e91",
+    "it": "Ascolti, professore, la mia domanda.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Mire, doctor, esta foto es de ayer. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_2882dc94",
+    "it": "Guardi, dottore, questa foto è di ieri.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Oiga, profesor, no entendí. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_2df26cfc",
+    "it": "Senta, professore, non ho capito.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Tome, doctor, el libro es para usted. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_2fe3605a",
+    "it": "Prenda pure, dottore, il libro è per Lei.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Siéntese aquí, señor, hay lugar. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_317a3041",
+    "it": "Si sieda qui, signore, c'è posto.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -179,6 +443,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Oiga, doctor, me duele la cabeza. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_3b660a10",
+    "it": "Senta, dottore, mi fa male la testa.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Cuántas tías tienes? Tengo tres.",
@@ -216,6 +502,94 @@
     "source": "authored",
     "tag_rules": {
       "ERR_CLITIC_NE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Espere aquí, doctor, vuelvo pronto. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_3e973c0a",
+    "it": "Aspetti qui, dottore, torno presto.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Oiga, señor, ¿hay una farmacia aquí cerca? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_40374b41",
+    "it": "Senta, signore, c'è una farmacia qui vicino?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Mire, señora, este bolso es hermosísimo. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_412459b5",
+    "it": "Guardi, signora, questa borsa è bellissima.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Lea, señora, este aviso. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_418091d2",
+    "it": "Legga, signora, questo avviso.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -267,6 +641,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Venga, señora, el doctor la espera. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_4eb18e7a",
+    "it": "Venga, signora, il dottore La aspetta.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Cuántos primos tienes? Tengo cinco.",
@@ -282,6 +678,72 @@
     "source": "authored",
     "tag_rules": {
       "ERR_CLITIC_NE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Dígame, señora, ¿en qué puedo ayudarla? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_558098f9",
+    "it": "Mi dica, signora, in che cosa posso aiutarLa?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Lea aquí, profesor, se lo ruego. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_5670ee4f",
+    "it": "Legga qui, professore, la prego.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Escuche, señora, esta música. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_59a7eaf0",
+    "it": "Ascolti, signora, questa musica.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -421,6 +883,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Cierre la puerta, doctor, hay viento. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_61751845",
+    "it": "Chiuda la porta, dottore, c'è vento.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Cuántos libros tienes? Tengo muchísimos.",
@@ -509,6 +993,50 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Siéntese, señora, la consulta empieza ahora. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_71488534",
+    "it": "Si sieda, signora, la visita comincia ora.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Dígame, señor, qué desea. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_72440b9c",
+    "it": "Mi dica, signore, che cosa desidera.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Tienes amigos italianos? Tengo pocos.",
@@ -575,6 +1103,50 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Disculpe, señora, ¿dónde está la estación? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_7f4fb39e",
+    "it": "Scusi, signora, dov'è la stazione?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Dígame, doctor, cuándo puedo volver. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_8321e724",
+    "it": "Mi dica, dottore, quando posso tornare.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Escribes mensajes? Escribo muchos.",
@@ -590,6 +1162,50 @@
     "source": "authored",
     "tag_rules": {
       "ERR_CLITIC_NE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Oiga, señora, ¿cuánto cuesta esto? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_85c824c9",
+    "it": "Senta, signora, quanto costa questo?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Tome, señora, su bolso. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_8c73c3bf",
+    "it": "Prenda, signora, la sua borsa.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -634,6 +1250,28 @@
     "source": "authored",
     "tag_rules": {
       "ERR_CLITIC_NE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Escriba, doctora, el número de teléfono. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_966440e1",
+    "it": "Scriva, dottoressa, il numero di telefono.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -751,6 +1389,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Disculpe, abogado, ¿está libre mañana? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_a7d8113b",
+    "it": "Scusi, avvocato, è libero domani?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Cuántos amigos invitas? Invito a seis.",
@@ -817,6 +1477,50 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Pase, señora, la calle está libre. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_b6d304ad",
+    "it": "Passi, signora, la strada è libera.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Venga, señor, la mesa está aquí. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_be3d0202",
+    "it": "Venga, signore, il tavolo è qui.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Cuántos hijos tiene Marco? Tiene dos.",
@@ -832,6 +1536,72 @@
     "source": "authored",
     "tag_rules": {
       "ERR_CLITIC_NE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Siéntese, señora, por favor. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_ca8f5abd",
+    "it": "Si accomodi, signora, prego.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Disculpe, señor, ¿qué hora es? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_cdae3676",
+    "it": "Scusi, signore, che ore sono?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Escriba, señor, su nombre aquí. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_cf6af160",
+    "it": "Scriva, signore, il suo nome qui.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -883,6 +1653,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Abra, señora, la puerta, por favor. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_d39f01ad",
+    "it": "Apra, signora, la porta, per favore.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Cuántos tíos tienes? Tengo cuatro.",
@@ -927,6 +1719,182 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Venga mañana, profesor, a las nueve. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_dc04281b",
+    "it": "Venga domani, professore, alle nove.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Disculpe, profesor, ¿tiene un minuto? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_dc51b5c3",
+    "it": "Scusi, professore, ha un minuto?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Póngase cómodo, profesor, el café está aquí. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_e05f3162",
+    "it": "Si accomodi, professore, il caffè è qui.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Pase, doctor, está listo. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_e2bea2fd",
+    "it": "Si accomodi, dottore, è pronto.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Abra la ventana, señor, hace calor. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_e39caebd",
+    "it": "Apra la finestra, signore, fa caldo.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Perdóneme, señora, estoy atrasado. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_e63b95aa",
+    "it": "Mi scusi, signora, sono in ritardo.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Llame, señora, al número gratuito. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_ed277ce6",
+    "it": "Chiami, signora, il numero verde.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Cierre, señora, la ventana, por favor. (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_efc0cc9a",
+    "it": "Chiuda, signora, la finestra, per favore.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Tienes hijos? Sí, tengo dos.",
@@ -942,6 +1910,28 @@
     "source": "authored",
     "tag_rules": {
       "ERR_CLITIC_NE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_LEI"
+    ],
+    "es": "Disculpe, doctor, ¿puedo entrar? (usted)",
+    "es_author": "IA (Claude)",
+    "id": "a_fb291adb",
+    "it": "Scusi, dottore, posso entrare?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_IMPERATIVO_LEI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -1227,6 +2217,30 @@
     "source_id": "10150117",
     "tag_rules": {
       "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "¡Pásame el cubo, rápido!",
+    "es_author": "Seael",
+    "es_source_id": "13521223",
+    "id": "s_10154242",
+    "it": "Dammi il secchio, rapido!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10154242",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5825,6 +6839,30 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Adelpa",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "¿Por qué se ríen las hienas?",
+    "es_author": "Adelpa",
+    "es_source_id": "12821893",
+    "id": "s_12821884",
+    "it": "Perché le iene ridono?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12821884",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -6380,6 +7418,28 @@
     "source_id": "1311008",
     "tag_rules": {
       "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Puede que esto te sea útil.",
+    "es_author": "opor",
+    "es_source_id": "855982",
+    "id": "s_1311039",
+    "it": "Questo ti può servire.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1311039",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -8429,6 +9489,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Muéstrame la muñeca que compraste ayer.",
+    "es_author": "Zifre",
+    "es_source_id": "786382",
+    "id": "s_1470280",
+    "it": "Fammi vedere la bambola che hai comprato ieri.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1470280",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -8757,6 +9839,28 @@
     "source_id": "1516070",
     "tag_rules": {
       "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "marco87",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dime el objetivo de tu plan.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1513940",
+    "id": "s_1516124",
+    "it": "Dimmi qual è l'obiettivo del tuo piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1516124",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -9896,6 +11000,28 @@
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame un besito en la mejilla.",
+    "es_author": "alexmarcelo",
+    "es_source_id": "1669583",
+    "id": "s_1669563",
+    "it": "Dammi un bacino sulla guancia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1669563",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -12249,6 +13375,30 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Sirio60",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Dos más dos es cuatro.",
+    "es_author": "leoruilova",
+    "es_source_id": "671802",
+    "id": "s_2056123",
+    "it": "Due più due fa quattro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2056123",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -12606,6 +13756,30 @@
       "ERR_PARTICIPLE_AGREEMENT": "participio_concuerda_con_essere",
       "ERR_PARTICIPLE_AGREEMENT_CLITIC": "participio_concuerda_con_clitico",
       "ERR_POSSESSIVE_ARTICLE": "possessivo_con_articolo"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Cinco más tres es ocho.",
+    "es_author": "marcelostockle",
+    "es_source_id": "2005822",
+    "id": "s_2147623",
+    "it": "Cinque più tre fa otto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2147623",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -14722,6 +15896,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dame una oportunidad.",
+    "es_author": "Shishir",
+    "es_source_id": "2115551",
+    "id": "s_2598763",
+    "it": "Dammi una possibilità.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2598763",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -15915,6 +17113,28 @@
       "ERR_CLITIC_DIRECT_INDIRECT": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "¡Esto no puede ser!",
+    "es_author": "migueltoledo86",
+    "es_source_id": "858235",
+    "id": "s_2959611",
+    "it": "Questo non può essere!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2959611",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -19633,6 +20853,28 @@
   },
   {
     "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "¿Ella trabaja en esta ciudad?",
+    "es_author": "arashi_29",
+    "es_source_id": "606081",
+    "id": "s_373674",
+    "it": "Lavora in questa città?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "373674",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [],
@@ -20069,6 +21311,28 @@
       "ERR_CE_IMPERFETTO": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "No puedo vivir así.",
+    "es_author": "Shishir",
+    "es_source_id": "2521",
+    "id": "s_375237",
+    "it": "Non posso vivere così.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "375237",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Pharamp",
@@ -24101,6 +25365,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dáselo a alguien que lo necesite.",
+    "es_author": "hayastan",
+    "es_source_id": "994639",
+    "id": "s_433055",
+    "it": "Dallo a qualcuno che ne ha bisogno.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "433055",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -24837,6 +26123,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Ya lo estoy buscando.",
+    "es_author": "saverius",
+    "es_source_id": "10087039",
+    "id": "s_4623093",
+    "it": "Io lo sto già cercando.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4623093",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -25550,6 +26858,28 @@
       "ERR_VOC_NUMERI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "¿Por qué no me escuchas?",
+    "es_author": "Shishir",
+    "es_source_id": "709325",
+    "id": "s_484894",
+    "it": "Perché non mi ascolti?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "484894",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -27288,6 +28618,30 @@
     "translation_kind": "llm"
   },
   {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "No son tan viejos ustedes.",
+    "es_author": "mramosch",
+    "es_source_id": "8859811",
+    "id": "s_5508653",
+    "it": "Non siete così vecchi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5508653",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -29010,6 +30364,30 @@
     "source_id": "612486",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dime qué ha sucedido.",
+    "es_author": "cueyayotl",
+    "es_source_id": "5230964",
+    "id": "s_612680",
+    "it": "Dimmi cos'è successo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "612680",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -31045,6 +32423,28 @@
     "source_id": "694872",
     "tag_rules": {
       "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "Estoy más sano que nunca.",
+    "es_author": "saverius",
+    "es_source_id": "11790798",
+    "id": "s_6963725",
+    "it": "Sono più sano che mai.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6963725",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -34988,6 +36388,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_ACCENT_TRANSFER"
+    ],
+    "es": "No soy tan ingenua.",
+    "es_author": "Adelpa",
+    "es_source_id": "12151575",
+    "id": "s_9474893",
+    "it": "Non sono così ingenua.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9474893",
+    "tag_rules": {
+      "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_DIRECT_INDIRECT"
     ],
     "es": "No lo veo.",
@@ -35541,6 +36965,28 @@
     "source_id": "978867",
     "tag_rules": {
       "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "hundo",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_IMPERATIVO_PRONOMI"
+    ],
+    "es": "Dime claramente cuáles son tus intenciones.",
+    "es_author": "hundo",
+    "es_source_id": "981116",
+    "id": "s_980415",
+    "it": "Dimmi con chiarezza quali sono le tue intenzioni.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "980415",
+    "tag_rules": {
+      "ERR_IMPERATIVO_PRONOMI": "capsule_calque"
     },
     "translation_kind": "direct"
   },

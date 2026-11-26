@@ -509,6 +509,30 @@
         "u99"
       ],
       "goal_es": "Invitar a un amigo a cenar, pedirle que lleve algo y confirmar hora y lugar."
+    },
+    {
+      "id": "rp_a2m08_a",
+      "title": "Pedir ayuda en una biblioteca",
+      "function_es": "Pedir información con fórmulas de cortesía (Lei)",
+      "reading": "rd_a2m08_a",
+      "from": 0,
+      "to": 11,
+      "after": [
+        "u102"
+      ],
+      "goal_es": "Pedir ayuda con «scusi», hacer el carnet siguiendo las instrucciones del bibliotecario y preguntar dónde están los libros y cuánto cuestan las fotocopias."
+    },
+    {
+      "id": "rp_a2m08_b",
+      "title": "Pedir y dar un consejo",
+      "function_es": "Pedir un consejo y reaccionar a las sugerencias",
+      "reading": "rd_a2m08_b",
+      "from": 0,
+      "to": 10,
+      "after": [
+        "u102"
+      ],
+      "goal_es": "Contar un problema, escuchar los consejos de un amigo (dovresti, potresti, ti consiglio di) y quedar para el sábado."
     }
   ],
   "tasks": [
@@ -1201,6 +1225,52 @@
         "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
         "No leí: hablé de corrido, aunque con pausas.",
         "Cuidé lo que enseña este módulo: Futuro y condicional: la raíz; Verbos con preposición: smettere di, cercare di, pensare a; Vocabulario: cultura, medios y tecnología.",
+        "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_a2m08",
+      "title": "Favores, consejos, instrucciones",
+      "function_es": "Pedir un favor, dar instrucciones y aconsejar",
+      "level": "A2",
+      "minutes": 2,
+      "after": [
+        "u102"
+      ],
+      "source": {
+        "book": "Texto escrito por la IA (Claude) para esta app",
+        "authors": "Claude (IA), a pedido del usuario",
+        "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+        "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+      },
+      "intro_es": "Habla unos 2 minutos, sin leer. Usa el imperativo con pronombres (dammi, dimmi, aspettami, mettilo) y consejos con dovresti, potresti o ti consiglio di.",
+      "questions": [
+        {
+          "it": "Che favore vuoi chiedere a un amico per il fine settimana?",
+          "es": "¿Qué favor quieres pedirle a un amigo para el fin de semana?",
+          "audio": "b380f46800d7"
+        },
+        {
+          "it": "Come spieghi a un amico l'uso di un apparecchio di casa?",
+          "es": "¿Cómo le explicas a un amigo el uso de un aparato de tu casa?",
+          "audio": "dbd9fb5427ae"
+        },
+        {
+          "it": "Un amico è stanco. Che consiglio gli dai?",
+          "es": "Un amigo está cansado. ¿Qué consejo le das?",
+          "audio": "47d36f40e80d"
+        },
+        {
+          "it": "Come chiedi un'informazione a una persona che non conosci?",
+          "es": "¿Cómo pides una información a una persona que no conoces?",
+          "audio": "d24a927b0224"
+        }
+      ],
+      "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que enseña este módulo: Imperativo tu/voi con pronombres: dammi, fallo, parlate; Fórmulas con Lei: scusi, senta, si accomodi; Acentos y dobles de A2.",
         "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
       ]
     }
@@ -2744,6 +2814,86 @@
         "es": "¿En qué piensas por la noche antes de dormir?",
         "authored": true,
         "audio": "4fe98d4bc781"
+      },
+      {
+        "id": "iq_ht_a2m08_1",
+        "module": "a2m08",
+        "it": "Che favore vuoi chiedere a un amico per il fine settimana?",
+        "es": "¿Qué favor quieres pedirle a un amigo para el fin de semana?",
+        "task": "ht_a2m08",
+        "audio": "b380f46800d7"
+      },
+      {
+        "id": "iq_ht_a2m08_2",
+        "module": "a2m08",
+        "it": "Come spieghi a un amico l'uso di un apparecchio di casa?",
+        "es": "¿Cómo le explicas a un amigo el uso de un aparato de tu casa?",
+        "task": "ht_a2m08",
+        "audio": "dbd9fb5427ae"
+      },
+      {
+        "id": "iq_ht_a2m08_3",
+        "module": "a2m08",
+        "it": "Un amico è stanco. Che consiglio gli dai?",
+        "es": "Un amigo está cansado. ¿Qué consejo le das?",
+        "task": "ht_a2m08",
+        "audio": "47d36f40e80d"
+      },
+      {
+        "id": "iq_ht_a2m08_4",
+        "module": "a2m08",
+        "it": "Come chiedi un'informazione a una persona che non conosci?",
+        "es": "¿Cómo pides una información a una persona que no conoces?",
+        "task": "ht_a2m08",
+        "audio": "d24a927b0224"
+      },
+      {
+        "id": "iq_a2m08_1",
+        "module": "a2m08",
+        "it": "Che favore chiedi a un amico? Come lo chiedi?",
+        "es": "¿Qué favor le pides a un amigo? ¿Cómo lo pides?",
+        "authored": true,
+        "audio": "a18b4180d26c"
+      },
+      {
+        "id": "iq_a2m08_2",
+        "module": "a2m08",
+        "it": "Che consiglio dai a un amico che dorme poco?",
+        "es": "¿Qué consejo le das a un amigo que duerme poco?",
+        "authored": true,
+        "audio": "109a1d8e9ecd"
+      },
+      {
+        "id": "iq_a2m08_3",
+        "module": "a2m08",
+        "it": "Come si usa la macchina del caffè? Spiega i passi.",
+        "es": "¿Cómo se usa la cafetera? Explica los pasos.",
+        "authored": true,
+        "audio": "be9cb68fe3a5"
+      },
+      {
+        "id": "iq_a2m08_4",
+        "module": "a2m08",
+        "it": "Che cosa dici a un impiegato per chiedere un'informazione?",
+        "es": "¿Qué le dices a un empleado para pedir una información?",
+        "authored": true,
+        "audio": "195b2c81b789"
+      },
+      {
+        "id": "iq_a2m08_5",
+        "module": "a2m08",
+        "it": "Che cosa potresti fare per aiutare un vicino?",
+        "es": "¿Qué podrías hacer para ayudar a un vecino?",
+        "authored": true,
+        "audio": "69d0bfd47b55"
+      },
+      {
+        "id": "iq_a2m08_6",
+        "module": "a2m08",
+        "it": "Che cosa dovresti fare per studiare meglio?",
+        "es": "¿Qué deberías hacer para estudiar mejor?",
+        "authored": true,
+        "audio": "8a70e84f963e"
       }
     ]
   }

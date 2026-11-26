@@ -62,7 +62,7 @@ POSITIVOS = [
     ("ERR_IMPERATIVO_PRONOMI", "Dammi il libro!", "Dammi", "Dami"),
     ("ERR_IMPERATIVO_PRONOMI", "Fallo subito.", "Fallo", "Falo"),
     ("ERR_IMPERATIVO_LEI", "Scusi, signore, dov'è la posta?", "Scusi", "Scusa"),
-    ("ERR_IMPERATIVO_LEI", "Scusi, signora, dov'è la stazione?", "Scusi", "Scusa"),
+    ("ERR_IMPERATIVO_LEI", "Aspetti, signora, il bus è in ritardo.", "Aspetti", "Aspetta"),   # (la frase «Scusi, signora, dov'è la stazione?» ahora es una variante a mano de a2m08)
     ("ERR_ACCENT_TRANSFER", "Non vengo perché sono stanco.", "perché", "perchè"),
     ("ERR_ACCENT_TRANSFER", "Questa città è bella.", "città", "citta"),
     ("ERR_OPINIONE", "Secondo me è giusto.", "Secondo me", "Secondo io"),

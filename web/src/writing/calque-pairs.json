@@ -250,6 +250,11 @@
     "wrong": "Mio figlio è più alto che me."
   },
   {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Perché hai paura?",
+    "wrong": "Perché tieni paura?"
+  },
+  {
     "code": "ERR_CE_AGREEMENT",
     "correct": "Ci sono molti topi sulla nave.",
     "wrong": "C'è molti topi sulla nave."
@@ -1015,6 +1020,11 @@
     "wrong": "Io non vedo a Tom da mesi."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Amo la tua città.",
+    "wrong": "Amo tua città."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Quant'è lontano dall'aeroporto?",
     "wrong": "Quant'è lontano da l'aeroporto?"
@@ -1471,6 +1481,11 @@
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Dimmi il tuo nome.",
+    "wrong": "Dimmi tuo nome."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Non ascolta i suoi genitori.",
     "wrong": "Non ascolta suoi genitori."
   },
@@ -1805,6 +1820,11 @@
     "wrong": "Forse tieni ragione."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Dammi la mia borsa.",
+    "wrong": "Dammi mia borsa."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Sono a Londra.",
     "wrong": "Sono in Londra."
@@ -2023,6 +2043,11 @@
     "code": "ERR_CE_AGREEMENT",
     "correct": "Ci sono molte persone qui.",
     "wrong": "C'è molte persone qui."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Dammi la mia birra.",
+    "wrong": "Dammi mia birra."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2896,6 +2921,21 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Senta, signora, il treno parte alle otto?",
+    "wrong": "Senta, signora, il treno parte a le otto?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Ascolti, professore, la mia domanda.",
+    "wrong": "Ascolti, professore, mia domanda."
+  },
+  {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "Senta, signore, c'è una farmacia qui vicino?",
+    "wrong": "Senta, signore, ci sono una farmacia qui vicino?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Quanti caffè bevi? Ne bevo due al giorno.",
     "wrong": "Quanti caffè bevi? Ne bevo due a il giorno."
   },
@@ -2908,6 +2948,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Quante mail ricevi? Ne ricevo dieci al giorno.",
     "wrong": "Quante mail ricevi? Ne ricevo dieci a il giorno."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Prenda, signora, la sua borsa.",
+    "wrong": "Prenda, signora, sua borsa."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2928,6 +2973,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Hai della frutta? Sì, ne ho tanta.",
     "wrong": "Hai di la frutta? Sì, ne ho tanta."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Scriva, signore, il suo nome qui.",
+    "wrong": "Scriva, signore, suo nome qui."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Venga domani, professore, alle nove.",
+    "wrong": "Venga domani, professore, a le nove."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -3415,6 +3470,11 @@
     "wrong": "Mia madre ha nata nel nord del Messico."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Dimmi qual è l'obiettivo del tuo piano.",
+    "wrong": "Dimmi qual è l'obiettivo di il tuo piano."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "È andato a casa tre ore dopo.",
     "wrong": "Ha andato a casa tre ore dopo."
@@ -3518,6 +3578,11 @@
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Lui non è più forte di me.",
     "wrong": "Lui non è più forte che me."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Dammi un bacino sulla guancia.",
+    "wrong": "Dammi un bacino su la guancia."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -4453,6 +4518,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "John suonava la chitarra e i suoi amici cantavano.",
     "wrong": "John suonava la chitarra e suoi amici cantavano."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Dallo a qualcuno che ne ha bisogno.",
+    "wrong": "Da lo a qualcuno che ne ha bisogno."
   },
   {
     "code": "ERR_AUX_ESSERE",

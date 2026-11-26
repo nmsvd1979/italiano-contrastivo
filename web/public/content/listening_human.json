@@ -2548,6 +2548,13 @@
   "tatoeba": "626095"
  },
  {
+  "id": "s_350931",
+  "module": "a2m08",
+  "it": "Non giocare qua.",
+  "es": "No juegues aquí.",
+  "tatoeba": "350931"
+ },
+ {
   "id": "s_1509964",
   "module": "a2m04",
   "it": "Ti ho svegliato.",
@@ -2602,6 +2609,20 @@
   "it": "Nessuno lo saprà.",
   "es": "Nadie lo sabrá.",
   "tatoeba": "382051"
+ },
+ {
+  "id": "s_3351029",
+  "module": "a2m08",
+  "it": "Non fare ritardo.",
+  "es": "No llegues tarde.",
+  "tatoeba": "3351029"
+ },
+ {
+  "id": "s_656309",
+  "module": "a2m08",
+  "it": "Non ridere di me.",
+  "es": "No te rías de mí.",
+  "tatoeba": "656309"
  },
  {
   "id": "s_928127",
@@ -2686,6 +2707,13 @@
   "it": "Non chiamarmi più.",
   "es": "No me llames más.",
   "tatoeba": "991812"
+ },
+ {
+  "id": "s_2128726",
+  "module": "a2m08",
+  "it": "Non essere deluso.",
+  "es": "No estés decepcionado.",
+  "tatoeba": "2128726"
  },
  {
   "id": "s_3505219",
@@ -2926,6 +2954,13 @@
   "tatoeba": "612486"
  },
  {
+  "id": "s_1317029",
+  "module": "a2m08",
+  "it": "Fai come ti ho detto.",
+  "es": "Haz como te dije.",
+  "tatoeba": "1317029"
+ },
+ {
   "id": "s_837951",
   "module": "a2m01",
   "it": "Hai finito il lavoro?",
@@ -2996,6 +3031,13 @@
   "tatoeba": "350350"
  },
  {
+  "id": "s_1299433",
+  "module": "a2m08",
+  "it": "Non toccare il vetro.",
+  "es": "No toques el vidrio.",
+  "tatoeba": "1299433"
+ },
+ {
   "id": "s_350990",
   "module": "a2m07",
   "it": "Quello non succederà.",
@@ -3052,6 +3094,13 @@
   "tatoeba": "899254"
  },
  {
+  "id": "s_1317507",
+  "module": "a2m08",
+  "it": "Non dire stupidaggini!",
+  "es": "No digas tonterías.",
+  "tatoeba": "1317507"
+ },
+ {
   "id": "s_694337",
   "module": "a2m01",
   "it": "Non è ancora arrivato.",
@@ -3064,6 +3113,13 @@
   "it": "Perché l'hai comprato?",
   "es": "¿Por qué lo compraste?",
   "tatoeba": "401787"
+ },
+ {
+  "id": "s_350545",
+  "module": "a2m08",
+  "it": "Stai zitto un momento.",
+  "es": "Cállate un momento.",
+  "tatoeba": "350545"
  },
  {
   "id": "s_410947",
@@ -3185,6 +3241,13 @@
   "tatoeba": "880149"
  },
  {
+  "id": "s_989824",
+  "module": "a2m08",
+  "it": "Non avvicinarti al cane.",
+  "es": "No te acerques al perro.",
+  "tatoeba": "989824"
+ },
+ {
   "id": "s_410260",
   "module": "a2m07",
   "it": "Non ti dimenticherò mai.",
@@ -3227,6 +3290,13 @@
   "tatoeba": "373999"
  },
  {
+  "id": "s_350583",
+  "module": "a2m08",
+  "it": "Indovina dove sono stato.",
+  "es": "Adivina dónde estuve.",
+  "tatoeba": "350583"
+ },
+ {
   "id": "s_377590",
   "module": "a2m07",
   "it": "Questa legna non brucerà.",
@@ -3253,6 +3323,13 @@
   "it": "Lei continuava a piangere.",
   "es": "Ella seguía llorando.",
   "tatoeba": "5827208"
+ },
+ {
+  "id": "s_2105112",
+  "module": "a2m08",
+  "it": "Non andare troppo lontano.",
+  "es": "No vayas demasiado lejos.",
+  "tatoeba": "2105112"
  },
  {
   "id": "s_1265834",
@@ -3290,6 +3367,13 @@
   "tatoeba": "5479775"
  },
  {
+  "id": "s_4669",
+  "module": "a2m08",
+  "it": "Dimmi quello che è successo.",
+  "es": "Dime lo que pasó.",
+  "tatoeba": "4669"
+ },
+ {
   "id": "s_429813",
   "module": "a2m01",
   "it": "Ha ottenuto il primo premio.",
@@ -3302,6 +3386,13 @@
   "it": "Ho dato da mangiare al cane.",
   "es": "Le di de comer al perro.",
   "tatoeba": "374212"
+ },
+ {
+  "id": "s_3345462",
+  "module": "a2m08",
+  "it": "Non guardare la televisione.",
+  "es": "No veas la televisión.",
+  "tatoeba": "3345462"
  },
  {
   "id": "s_2056118",

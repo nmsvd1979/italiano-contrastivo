@@ -1,0 +1,1659 @@
+[
+ {
+  "id": "s_12749206",
+  "veredicto": "keep",
+  "espanol": "Dame dos besos.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_12749059",
+  "veredicto": "keep",
+  "espanol": "Dame un beso.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_12748724",
+  "veredicto": "keep",
+  "espanol": "Dame mil besos.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_2385820",
+  "veredicto": "keep",
+  "espanol": "Dame un segundo.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_12749202",
+  "veredicto": "doubt",
+  "nota": "Redundante; muchos baci.",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_1402935",
+  "veredicto": "keep",
+  "espanol": "Dime qué pasa.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_8958030",
+  "veredicto": "reject",
+  "nota": "Cuchillo: violencia.",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_4770657",
+  "veredicto": "reject",
+  "nota": "Cigarrillo: tema inadecuado.",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_2598763",
+  "veredicto": "keep",
+  "espanol": "Dame una oportunidad.",
+  "nivel": "A2",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_1669563",
+  "veredicto": "keep",
+  "espanol": "Dame un besito en la mejilla.",
+  "nivel": "A2",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_8663305",
+  "veredicto": "reject",
+  "nota": "Descortés; voseo en la traducción.",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_612680",
+  "veredicto": "keep",
+  "espanol": "Dime qué ha pasado.",
+  "nivel": "A2",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_10154243",
+  "veredicto": "reject",
+  "nota": "Duplicado casi idéntico.",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_10154242",
+  "veredicto": "keep",
+  "espanol": "Pásame el balde, rápido.",
+  "nivel": "A2",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_1516124",
+  "veredicto": "keep",
+  "espanol": "Dime cuál es el objetivo de tu plan.",
+  "nivel": "A2",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_401664",
+  "veredicto": "reject",
+  "nota": "«una tal cosa» arcaico.",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_1470280",
+  "veredicto": "keep",
+  "espanol": "Muéstrame la muñeca que compraste ayer.",
+  "nivel": "A2",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_980415",
+  "veredicto": "keep",
+  "espanol": "Dime con claridad cuáles son tus intenciones.",
+  "nivel": "A2",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_433055",
+  "veredicto": "keep",
+  "espanol": "Dáselo a alguien que lo necesite.",
+  "nivel": "A2",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_1003669",
+  "veredicto": "keep",
+  "espanol": "Dime más.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_7049275",
+  "veredicto": "keep",
+  "espanol": "Cuéntame de él.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_2018428",
+  "veredicto": "keep",
+  "espanol": "Cuéntame de Tom.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_3260739",
+  "veredicto": "keep",
+  "espanol": "Dame la mano.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_4043130",
+  "veredicto": "keep",
+  "espanol": "Pásame la pala.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_7588379",
+  "veredicto": "keep",
+  "espanol": "Dame el vino.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_2531171",
+  "veredicto": "keep",
+  "espanol": "Dame una manzana.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_3676439",
+  "veredicto": "keep",
+  "espanol": "Dame el mapa.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_1260386",
+  "veredicto": "keep",
+  "espanol": "Dame una mano.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_13984292",
+  "veredicto": "reject",
+  "nota": "Espada: violencia.",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_657016",
+  "veredicto": "keep",
+  "espanol": "Dame la llave.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_4538604",
+  "veredicto": "keep",
+  "espanol": "Dame las llaves.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_3590212",
+  "veredicto": "keep",
+  "espanol": "Dime qué hacer.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_5125722",
+  "veredicto": "keep",
+  "espanol": "Dame la linterna.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_4274492",
+  "veredicto": "keep",
+  "espanol": "Dame un día.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_3872475",
+  "veredicto": "keep",
+  "espanol": "Dame un trabajo.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_2131159",
+  "veredicto": "keep",
+  "espanol": "Dame un minuto.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_2685167",
+  "veredicto": "keep",
+  "espanol": "Dame una razón.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_11711668",
+  "veredicto": "keep",
+  "espanol": "Dame una cerveza.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_7079299",
+  "veredicto": "keep",
+  "espanol": "Dame los detalles.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_9680556",
+  "veredicto": "keep",
+  "espanol": "Hazme una sonrisa.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_5682027",
+  "veredicto": "reject",
+  "nota": "Poco natural en A2.",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_704072",
+  "veredicto": "keep",
+  "espanol": "Dime cuál quieres.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_876586",
+  "veredicto": "keep",
+  "espanol": "Dame un ejemplo.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_8434894",
+  "veredicto": "reject",
+  "nota": "Arma: violencia.",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_3264297",
+  "veredicto": "keep",
+  "espanol": "Dime tu nombre.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_3981690",
+  "veredicto": "reject",
+  "nota": "Cuchillo: violencia.",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_3676444",
+  "veredicto": "keep",
+  "espanol": "Dame el plano.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_3539683",
+  "veredicto": "keep",
+  "espanol": "Dame esos guantes.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_10692512",
+  "veredicto": "keep",
+  "espanol": "Dame una galleta.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_2178007",
+  "veredicto": "reject",
+  "nota": "Poco útil; sin contexto.",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_10269492",
+  "veredicto": "keep",
+  "espanol": "Dame un sándwich.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_6728387",
+  "veredicto": "keep",
+  "espanol": "Dime qué es esto.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_7104123",
+  "veredicto": "keep",
+  "espanol": "Dime qué pensar.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_3538859",
+  "veredicto": "keep",
+  "espanol": "Dame el micrófono.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_6603633",
+  "veredicto": "keep",
+  "espanol": "Dame un abrazo.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_4274495",
+  "veredicto": "doubt",
+  "nota": "Poco natural.",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_4633422",
+  "veredicto": "keep",
+  "espanol": "Dame mi cerveza.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_3951289",
+  "veredicto": "keep",
+  "espanol": "Dame mi bolso.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_2921667",
+  "veredicto": "keep",
+  "espanol": "Dame cien dólares.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_3381076",
+  "veredicto": "keep",
+  "espanol": "Dame esa llave.",
+  "nivel": "A1",
+  "codigo": "ERR_IMPERATIVO_PRONOMI"
+ },
+ {
+  "id": "s_2001320",
+  "veredicto": "keep",
+  "espanol": "Ya lo sabe.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_3652530",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_373743",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_3652529",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_521260",
+  "veredicto": "keep",
+  "espanol": "Ya no lo amo.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_12653319",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_388254",
+  "veredicto": "keep",
+  "espanol": "Ya no te amo.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_3174024",
+  "veredicto": "keep",
+  "espanol": "No se puede decir.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_3165308",
+  "veredicto": "keep",
+  "espanol": "No se puede hacer.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_3102894",
+  "veredicto": "keep",
+  "espanol": "Ya está gritando.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_753310",
+  "veredicto": "keep",
+  "espanol": "Ya no me gustas.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_1122235",
+  "veredicto": "keep",
+  "espanol": "¿Por qué tienes miedo?",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_2131119",
+  "veredicto": "keep",
+  "espanol": "Amo tu ciudad.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_4621548",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_836296",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_781396",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_7326916",
+  "veredicto": "keep",
+  "espanol": "Soy el más rico.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_683394",
+  "veredicto": "keep",
+  "espanol": "Hablen más fuerte.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_1985441",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_1226052",
+  "veredicto": "keep",
+  "espanol": "No se puede negar.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_3812030",
+  "veredicto": "keep",
+  "espanol": "Estoy tan nerviosa.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_777321",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_3107330",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_3564550",
+  "veredicto": "keep",
+  "espanol": "No se puede hablar.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_5980771",
+  "veredicto": "keep",
+  "espanol": "¿Por qué tener miedo?",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_8857540",
+  "veredicto": "keep",
+  "espanol": "No puede continuar.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_2618723",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_1506488",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_602339",
+  "veredicto": "keep",
+  "espanol": "Come más verdura.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_7326914",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_350589",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_2136114",
+  "veredicto": "keep",
+  "espanol": "Comemos más legumbres.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_2874962",
+  "veredicto": "keep",
+  "espanol": "Eres tan predecible.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_5508657",
+  "veredicto": "keep",
+  "espanol": "No eres tan viejo.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_1704252",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_4675",
+  "veredicto": "keep",
+  "espanol": "Debes trabajar más.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_5627750",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_14038359",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_7209875",
+  "veredicto": "keep",
+  "espanol": "Ya sé dónde vive Tom.",
+  "nivel": "A1",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_2618724",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_5925246",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_1311039",
+  "veredicto": "keep",
+  "espanol": "Esto te puede servir.",
+  "nivel": "A2",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_2959611",
+  "veredicto": "keep",
+  "espanol": "¡Esto no puede ser!",
+  "nivel": "A2",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_5597812",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_9474893",
+  "veredicto": "keep",
+  "espanol": "No soy tan ingenua.",
+  "nivel": "A2",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_5597824",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_12821884",
+  "veredicto": "keep",
+  "espanol": "¿Por qué se ríen las hienas?",
+  "nivel": "A2",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_6963725",
+  "veredicto": "keep",
+  "espanol": "Estoy más sano que nunca.",
+  "nivel": "A2",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_484894",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no me escuchas?",
+  "nivel": "A2",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_5508653",
+  "veredicto": "keep",
+  "espanol": "No son tan viejos.",
+  "nivel": "A2",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_9474892",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_375237",
+  "veredicto": "keep",
+  "espanol": "No puedo vivir así.",
+  "nivel": "A2",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_373674",
+  "veredicto": "keep",
+  "espanol": "¿Trabaja en esta ciudad?",
+  "nivel": "A2",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_2147623",
+  "veredicto": "keep",
+  "espanol": "Cinco más tres son ocho.",
+  "nivel": "A2",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_4623093",
+  "veredicto": "keep",
+  "espanol": "Ya lo estoy buscando.",
+  "nivel": "A2",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_6162400",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_2056123",
+  "veredicto": "keep",
+  "espanol": "Dos más dos son cuatro.",
+  "nivel": "A2",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_13561560",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_10143431",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "s_7018658",
+  "veredicto": "reject",
+  "nota": "Varias palabras acentuadas o tema inadecuado.",
+  "codigo": "ERR_ACCENT_TRANSFER"
+ },
+ {
+  "id": "a_7f4fb39e",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Disculpe, señora, ¿dónde está la estación? (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_cdae3676",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Disculpe, señor, ¿qué hora es? (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_fb291adb",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Disculpe, doctor, ¿puedo entrar? (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_dc51b5c3",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Disculpe, profesor, ¿tiene un minuto? (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_a7d8113b",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Disculpe, abogado, ¿está libre mañana? (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_85c824c9",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Oiga, señora, ¿cuánto cuesta esto? (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_40374b41",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Oiga, señor, ¿hay una farmacia aquí cerca? (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_3b660a10",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Oiga, doctor, me duele la cabeza. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_2df26cfc",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Oiga, profesor, no entendí. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_239f8954",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Oiga, señora, ¿el tren sale a las ocho? (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_ca8f5abd",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Siéntese, señora, por favor. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_e2bea2fd",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Pase, doctor, está listo. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_e05f3162",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Póngase cómodo, profesor, el café está aquí. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_06857c84",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Tome, señor, este es su boleto. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_8c73c3bf",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Tome, señora, su bolso. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_2fe3605a",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Tome, doctor, el libro es para usted. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_4eb18e7a",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Venga, señora, el doctor la espera. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_be3d0202",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Venga, señor, la mesa está aquí. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_dc04281b",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Venga mañana, profesor, a las nueve. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_412459b5",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Mire, señora, este bolso es hermosísimo. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_144c4990",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Mire, señor, el cielo está azul. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_2882dc94",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Mire, doctor, esta foto es de ayer. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_1d6dd545",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Espere, señora, llego enseguida. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_1ae819e7",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Espere un momento, señor, por favor. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_3e973c0a",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Espere aquí, doctor, vuelvo pronto. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_418091d2",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Lea, señora, este aviso. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_5670ee4f",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Lea aquí, profesor, se lo ruego. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_cf6af160",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Escriba, señor, su nombre aquí. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_966440e1",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Escriba, doctora, el número de teléfono. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_d39f01ad",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Abra, señora, la puerta, por favor. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_e39caebd",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Abra la ventana, señor, hace calor. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_efc0cc9a",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Cierre, señora, la ventana, por favor. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_61751845",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Cierre la puerta, doctor, hay viento. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_59a7eaf0",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Escuche, señora, esta música. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_23a15e91",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Escuche, profesor, mi pregunta. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_558098f9",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Dígame, señora, ¿en qué puedo ayudarla? (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_72440b9c",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Dígame, señor, qué desea. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_8321e724",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Dígame, doctor, cuándo puedo volver. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_71488534",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Siéntese, señora, la consulta empieza ahora. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_317a3041",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Siéntese aquí, señor, hay lugar. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_e63b95aa",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Perdóneme, señora, estoy atrasado. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_0ddf30c3",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Perdóneme, profesor, no tengo el libro. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_b6d304ad",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Pase, señora, la calle está libre. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_175bde4f",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Vuelva mañana, señor, el doctor está ocupado. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_ed277ce6",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "veredicto": "keep",
+  "espanol": "Llame, señora, al número gratuito. (usted)",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2837417",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_1113879",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_13535956",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_6712955",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_1000938",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_999887",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_1541439",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_4208644",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_624971",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_12263158",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_3750944",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_2552965",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_5876838",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_8722253",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_2448695",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_7745342",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_3590214",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_4469819",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_1711120",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_3264298",
+  "veredicto": "doubt",
+  "nota": "Sin marcador formal inequívoco; suo/ha ambiguo con tercera persona.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_4416193",
+  "veredicto": "doubt",
+  "nota": "Sin marcador formal inequívoco; suo/ha ambiguo con tercera persona.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_7104125",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_6901807",
+  "veredicto": "doubt",
+  "nota": "Sin marcador formal inequívoco; suo/ha ambiguo con tercera persona.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_4530661",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_9919005",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_12853234",
+  "veredicto": "doubt",
+  "nota": "Sin marcador formal inequívoco; suo/ha ambiguo con tercera persona.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_3264295",
+  "veredicto": "doubt",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "nota": "sin marcador formal: tú también válido"
+ },
+ {
+  "id": "s_960750",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_2716293",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_9919006",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_950018",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_1711123",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_2392044",
+  "veredicto": "doubt",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "nota": "sin marcador formal: tú también válido"
+ },
+ {
+  "id": "s_4847762",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_3944000",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_4749701",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_5680457",
+  "veredicto": "doubt",
+  "nota": "Sin marcador formal inequívoco; suo/ha ambiguo con tercera persona.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_4749700",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_11913205",
+  "veredicto": "doubt",
+  "nota": "Sin marcador formal inequívoco; suo/ha ambiguo con tercera persona.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_2018430",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_7049277",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_3806326",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_6728388",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_1253935",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_3324788",
+  "veredicto": "doubt",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "nota": "sin marcador formal: tú también válido"
+ },
+ {
+  "id": "s_6977291",
+  "veredicto": "doubt",
+  "nota": "Sin marcador formal inequívoco; suo/ha ambiguo con tercera persona.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_8082691",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_4406376",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_939388",
+  "veredicto": "doubt",
+  "nota": "Sin marcador formal inequívoco; suo/ha ambiguo con tercera persona.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_947576",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_2564007",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_3122338",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_3254676",
+  "veredicto": "doubt",
+  "nota": "Sin marcador formal inequívoco; suo/ha ambiguo con tercera persona.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_5197838",
+  "veredicto": "doubt",
+  "nota": "Sin marcador formal inequívoco; suo/ha ambiguo con tercera persona.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_10826213",
+  "veredicto": "doubt",
+  "codigo": "ERR_IMPERATIVO_LEI",
+  "nota": "sin marcador formal: tú también válido"
+ },
+ {
+  "id": "s_1351115",
+  "veredicto": "doubt",
+  "nota": "Sin marcador formal inequívoco; suo/ha ambiguo con tercera persona.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_2706611",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_955578",
+  "veredicto": "doubt",
+  "nota": "Sin marcador formal inequívoco; suo/ha ambiguo con tercera persona.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_3541025",
+  "veredicto": "doubt",
+  "nota": "Sin marcador formal inequívoco; suo/ha ambiguo con tercera persona.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_2818698",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_1539399",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_1203204",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_11913206",
+  "veredicto": "doubt",
+  "nota": "Sin marcador formal inequívoco; suo/ha ambiguo con tercera persona.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_1539398",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_5700634",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_3835094",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_3352348",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_4567200",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_4567199",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_9708213",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_9708212",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_4507646",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_4236407",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_2194189",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_2194187",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_3758939",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_2255605",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_2552691",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_2551391",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_1996692",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_12766149",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_3056359",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_5285453",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_2551394",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_9708218",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_2551189",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_14040781",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_9708219",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_2834722",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ },
+ {
+  "id": "s_4592030",
+  "veredicto": "reject",
+  "nota": "Sin marcador formal; forma de tu también válida.",
+  "codigo": "ERR_IMPERATIVO_LEI"
+ }
+]
