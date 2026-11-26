@@ -157,7 +157,9 @@
    "required": [
     "regex",
     "min",
-    "in"
+    "in",
+    "si",
+    "no"
    ],
    "properties": {
     "regex": {
@@ -170,6 +172,22 @@
     },
     "in": {
      "const": "sentences"
+    },
+    "si": {
+     "type": "array",
+     "minItems": 2,
+     "items": {
+      "type": "string"
+     },
+     "description": "Frases que la expresión debe detectar."
+    },
+    "no": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "string"
+     },
+     "description": "Frases que la expresión NO debe detectar."
     }
    }
   },
@@ -285,6 +303,12 @@
     },
     "note_es": {
      "type": "string"
+    },
+    "origen": {
+     "enum": [
+      "oficial",
+      "proyecto"
+     ]
     }
    }
   },

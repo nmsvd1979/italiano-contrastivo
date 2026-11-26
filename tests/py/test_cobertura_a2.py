@@ -53,12 +53,14 @@ def test_cada_requisito_tiene_fuente_area_alcance_y_estado_validos():
         seen.add(q["id"])
         assert q["area"] in AREAS, q["id"]
         assert q["status"] in STATUS, q["id"]
-        assert q["scope"] in {"O", "A"}, q["id"]
+        assert q["scope"] in {"O", "A"} and q["origen"] in {"oficial", "proyecto"}, q["id"]
         assert q["source"].strip() and q["text_es"].strip(), q["id"]
-        if q["module"] is None:
-            assert q["status"] == "prior", f"{q['id']} no está en ningún módulo y no es de A1"
+        if q["module"] is None:   # sin módulo: ya cubierto en A1 o un hueco declarado que A2 no cierra
+            assert q["status"] in ("prior", "deferred"), f"{q['id']} no está en ningún módulo y no es de A1 ni un hueco declarado"
         else:
             assert q["module"] in mods, q["id"]
+        if q["source"].startswith("Ampliado"):
+            assert q["origen"] == "proyecto", q["id"]
 
 
 def test_las_referencias_a_lo_existente_son_reales_y_lo_declarado_trae_su_hueco():
@@ -77,14 +79,31 @@ def test_las_referencias_a_lo_existente_son_reales_y_lo_declarado_trae_su_hueco(
             assert q.get("gap_es") and q.get("how_es"), q["id"]
 
 
-def test_la_evidencia_es_una_expresion_valida_y_el_minimo_es_razonable():
+def test_la_evidencia_detecta_lo_que_dice_y_no_lo_que_no_dice():
+    """Cada expresión se aplica sin distinguir mayúsculas (como lo hará la lista de cierre) y debe acertar con sus propios ejemplos:
+    así se evita que cuente presentes como imperfetto, cualquier «che» como relativo o cualquier palabra con mayúscula como nombre propio."""
+    n = 0
     for q in DOC["requisitos"]:
         ev = q.get("evidence")
         if not ev:
             continue
-        re.compile(ev["regex"])
+        n += 1
+        rx = re.compile(ev["regex"], re.IGNORECASE)
         assert ev["in"] == "sentences" and 5 <= ev["min"] <= 60, q["id"]
         assert q["area"] == "gramatica", f"{q['id']}: la evidencia en frases es para gramática"
+        for frase in ev["si"]:
+            assert rx.search(frase), f"{q['id']}: debería detectar «{frase}»"
+        for frase in ev["no"]:
+            assert not rx.search(frase), f"{q['id']}: no debería detectar «{frase}»"
+    assert n >= 30   # casi todo el programa gramatical se puede comprobar en frases
+
+
+def test_ningun_requisito_pide_nada_que_plida_clasifique_como_b1():
+    """PLIDA B1 (p. 24–25 y 28): CV, anuncios de empleo, entrevista de trabajo, reclamar, aconsejar y promociones no son A2."""
+    texto = json.dumps(DOC["requisitos"], ensure_ascii=False).lower() + json.dumps([m["planned"] for m in DOC["modulos_planificados"]]).lower()
+    for prohibido in ("doc_cv", "annuncio_lavoro", "colloquio", "rp_reclamo", "doc_consigli"):
+        assert prohibido not in texto, prohibido
+    assert "rp_albergo2" in texto   # el alojamiento sí, sin reclamo detallado
 
 
 def test_hay_36_capsulas_bien_formadas_y_sus_codigos_no_se_pisan():
