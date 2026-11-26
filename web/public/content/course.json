@@ -552,6 +552,42 @@
         "doc_a2m03_cronologia",
         "vh_a2m03"
       ]
+    },
+    {
+      "id": "a2m04",
+      "level": "A2",
+      "title": "Pronombres que ahorran palabras",
+      "can_do_es": [
+        "Reemplazar objetos conocidos por lo, la, li, le.",
+        "Elegir entre lo/la y gli/le según el verbo.",
+        "Colocar el pronombre antes del verbo o pegado al infinitivo.",
+        "Concordar el participio con el pronombre (l'ho vista)."
+      ],
+      "units": [
+        "u85",
+        "u10",
+        "u86",
+        "u87",
+        "u88"
+      ],
+      "entry_reading": "rd_ristorante",
+      "roleplays": [
+        "rp_a2m04_a",
+        "rp_a2m04_b"
+      ],
+      "tasks": [
+        "ht_a2m04"
+      ],
+      "phrase_groups": [],
+      "library": "reverso-context",
+      "library_task_es": "En Reverso Context busca «lo prendo», «gli telefono» y «ne ho»; lee 5 ejemplos de cada uno y fíjate dónde va el pronombre.",
+      "writing_es": "Escribe una nota a un compañero de piso, de 40 a 60 palabras. Cuéntale qué compraste y dónde dejaste las cosas, y a quién escribiste o a quién viste. Usa al menos 3 pronombres de objeto directo (lo, la, li, le), 1 pronombre indirecto (gli o le), 1 pronombre pegado al infinitivo (como «farlo») y 1 «ne» de cantidad.",
+      "writing_short_es": "Escribe un mensaje de 25 a 50 palabras a una amiga: pregúntale si ha visto tu chaqueta o tus llaves y dile dónde ya las buscaste. Usa al menos 2 pronombres directos con passato prossimo (por ejemplo «l'hai vista?», «le ho cercate») y 1 pronombre indirecto.",
+      "extra_readings": [
+        "ls_a2m04",
+        "doc_a2m04_nota",
+        "vh_a2m04"
+      ]
     }
   ],
   "units": [
@@ -15692,7 +15728,7 @@
         "ERR_PP_PARTICIPI_IRREG"
       ],
       "why_here": "El fin de semana, ayer, un viaje: contar lo que hiciste y preguntar a otros.",
-      "ficha_es": "Algunos participios italianos son irregulares aunque el verbo se parezca al español: prendere → preso (no *prenduto), mettere → messo, chiudere → chiuso, leggere → letto, decidere → deciso, chiedere → chiesto, scegliere → scelto, rispondere → risposto, spendere → speso. Hay que aprenderlos como formas propias.\n\nError típico: *prenduto, *chiudito, *leggiuto, *metuto → preso, chiuso, letto, messo; también *vendito/*ricevito → venduto/ricevuto. Válido y no es error: veduto y perduto (válidos); fatto, detto, scritto, aperto (no son errores típicos: el español también es irregular)",
+      "ficha_es": "Algunos participios italianos son irregulares aunque el verbo se parezca al español: prendere → preso (no *prenduto), mettere → messo, chiudere → chiuso, leggere → letto, decidere → deciso, chiedere → chiesto, scegliere → scelto, rispondere → risposto, spendere → speso. Hay que aprenderlos como formas propias.\n\nError típico: *prenduto, *chiudito, *leggiuto, *metuto → preso, chiuso, letto, messo; también *vendito/*ricevito → venduto/ricevuto. Válido y no es error: veduto y perduto (válidos); fatto, detto, scritto, aperto (no son errores típicos: el español también es irregular)\n\nQué practicas aquí: Passato prossimo con avere y participios irregulares; Verbos andare, bere, dare, dire, fare, stare, venire en passato prossimo e imperfetto (dato, bevuto, detto, fatto, stato, venuto; davo, stavo, bevevo).\n\nSituación del módulo: El fin de semana, ayer, un viaje: contar lo que hiciste y preguntar a otros.",
       "status": "active",
       "explanation_es": "Algunos participios italianos son irregulares aunque el verbo se parezca al español: prendere → preso (no *prenduto), mettere → messo, chiudere → chiuso, leggere → letto, decidere → deciso, chiedere → chiesto, scegliere → scelto, rispondere → risposto, spendere → speso. Hay que aprenderlos como formas propias.",
       "parts": {
@@ -15784,7 +15820,7 @@
         "ERR_PP_AUSILIARE"
       ],
       "why_here": "El fin de semana, ayer, un viaje: contar lo que hiciste y preguntar a otros.",
-      "ficha_es": "El español usa siempre «haber» (he estado, me ha gustado, se ha quedado). En italiano estos verbos piden essere: sono stato, mi è piaciuto, sono rimasto, sono diventato, sono riuscito. Al revés, verbos como camminare, viaggiare, dormire o nuotare piden avere: ho camminato (no *sono camminato).\n\nError típico: *ha piaciuto, *ha costato, *ho stato, *ha rimasto → è piaciuto, è costato, sono stato, è rimasto; y en sentido contrario *sono camminato, *sono viaggiato → ho camminato, ho viaggiato. Válido y no es error: ha successo (= tener éxito); sono corso a casa / ho corso; ho/sono salito, ho/sono cambiato, ho/è finito, ha/è piovuto (doble auxiliar); ho dovuto andare / sono dovuto andare",
+      "ficha_es": "El español usa siempre «haber» (he estado, me ha gustado, se ha quedado). En italiano estos verbos piden essere: sono stato, mi è piaciuto, sono rimasto, sono diventato, sono riuscito. Al revés, verbos como camminare, viaggiare, dormire o nuotare piden avere: ho camminato (no *sono camminato).\n\nError típico: *ha piaciuto, *ha costato, *ho stato, *ha rimasto → è piaciuto, è costato, sono stato, è rimasto; y en sentido contrario *sono camminato, *sono viaggiato → ho camminato, ho viaggiato. Válido y no es error: ha successo (= tener éxito); sono corso a casa / ho corso; ho/sono salito, ho/sono cambiato, ho/è finito, ha/è piovuto (doble auxiliar); ho dovuto andare / sono dovuto andare\n\nQué practicas aquí: Elegir avere o essere (verbos de estado y de movimiento sin meta); Modales en passato prossimo e imperfetto (ho dovuto / sono dovuto andare; dovevo, potevo, volevo).\n\nSituación del módulo: El fin de semana, ayer, un viaje: contar lo que hiciste y preguntar a otros.",
       "status": "active",
       "explanation_es": "El español usa siempre «haber» (he estado, me ha gustado, se ha quedado). En italiano estos verbos piden essere: sono stato, mi è piaciuto, sono rimasto, sono diventato, sono riuscito. Al revés, verbos como camminare, viaggiare, dormire o nuotare piden avere: ho camminato (no *sono camminato).",
       "parts": {
@@ -15880,7 +15916,7 @@
         "ERR_REFLEXIVE_AUX"
       ],
       "why_here": "El fin de semana, ayer, un viaje: contar lo que hiciste y preguntar a otros.",
-      "ficha_es": "Los reflexivos forman los tiempos compuestos con essere (mi sono sentito); el español usa siempre haber (me he sentido).\n\nError típico: *mi ho alzato, *si ha svegliato → mi sono alzato/a, si è svegliato/a. Válido y no es error: mi sono dovuto alzare / ho dovuto alzarmi (las dos valen)",
+      "ficha_es": "Los reflexivos forman los tiempos compuestos con essere (mi sono sentito); el español usa siempre haber (me he sentido).\n\nError típico: *mi ho alzato, *si ha svegliato → mi sono alzato/a, si è svegliato/a. Válido y no es error: mi sono dovuto alzare / ho dovuto alzarmi (las dos valen)\n\nQué practicas aquí: Verbos reflexivos en passato prossimo.\n\nSituación del módulo: El fin de semana, ayer, un viaje: contar lo que hiciste y preguntar a otros.",
       "status": "active",
       "explanation_es": "Los reflexivos forman los tiempos compuestos con essere (mi sono sentito); el español usa siempre haber (me he sentido).",
       "parts": {
@@ -16109,7 +16145,7 @@
         "ERR_AVVERBI_PASSATO"
       ],
       "why_here": "El fin de semana, ayer, un viaje: contar lo que hiciste y preguntar a otros.",
-      "ficha_es": "Con el passato prossimo, già, appena, ancora, mai y sempre van entre el auxiliar y el participio (ho già mangiato, sono appena arrivato, non ho ancora deciso). «Ya no» es non… più (non abito più), no *già non; «acabo de» es appena (sono appena arrivato), no *finisco di.\n\nError típico: *già non abito → non abito più; *finisco di arrivare → sono appena arrivato; *non ho mai (ya) visto/ancora non ho mangiato (coloquial). Válido y no es error: ancora non ho mangiato (válido, menos frecuente)",
+      "ficha_es": "Con el passato prossimo, già, appena, ancora, mai y sempre van entre el auxiliar y el participio (ho già mangiato, sono appena arrivato, non ho ancora deciso). «Ya no» es non… più (non abito più), no *già non; «acabo de» es appena (sono appena arrivato), no *finisco di.\n\nError típico: *già non abito → non abito più; *finisco di arrivare → sono appena arrivato; *non ho mai (ya) visto/ancora non ho mangiato (coloquial). Válido y no es error: ancora non ho mangiato (válido, menos frecuente)\n\nQué practicas aquí: Adverbios con el pasado: già, non… ancora, appena, non… più, mai.\n\nSituación del módulo: El fin de semana, ayer, un viaje: contar lo que hiciste y preguntar a otros.",
       "status": "active",
       "explanation_es": "Con el passato prossimo, già, appena, ancora, mai y sempre van entre el auxiliar y el participio (ho già mangiato, sono appena arrivato, non ho ancora deciso). «Ya no» es non… più (non abito più), no *già non; «acabo de» es appena (sono appena arrivato), no *finisco di.",
       "parts": {
@@ -16201,7 +16237,7 @@
         "ERR_IMPERFETTO_FORMA"
       ],
       "why_here": "La infancia, un lugar antes y ahora, costumbres de antes.",
-      "ficha_es": "En español la 1.ª y la 3.ª persona del imperfecto son iguales (yo hablaba, él hablaba). En italiano no: io parlavo, lui parlava; io ero, lui era. Además se escribe con v: parlavo, no *parlabo.\n\nError típico: *io parlava, *io era… (en español 1.ª y 3.ª coinciden); b/v: *parlaba → parlavo; ero, facevo, dicevo, bevevo. Válido y no es error: diceva, faceva (3.ª persona válidas); bevo (es presente, no error de forma)",
+      "ficha_es": "En español la 1.ª y la 3.ª persona del imperfecto son iguales (yo hablaba, él hablaba). En italiano no: io parlavo, lui parlava; io ero, lui era. Además se escribe con v: parlavo, no *parlabo.\n\nError típico: *io parlava, *io era… (en español 1.ª y 3.ª coinciden); b/v: *parlaba → parlavo; ero, facevo, dicevo, bevevo. Válido y no es error: diceva, faceva (3.ª persona válidas); bevo (es presente, no error de forma)\n\nQué practicas aquí: Imperfetto regular e irregular (ero, facevo, dicevo, bevevo); Verbos andare, bere, dare, dire, fare, stare, venire en passato prossimo e imperfetto (dato, bevuto, detto, fatto, stato, venuto; davo, stavo, bevevo).\n\nSituación del módulo: La infancia, un lugar antes y ahora, costumbres de antes.",
       "status": "active",
       "explanation_es": "En español la 1.ª y la 3.ª persona del imperfecto son iguales (yo hablaba, él hablaba). En italiano no: io parlavo, lui parlava; io ero, lui era. Además se escribe con v: parlavo, no *parlabo.",
       "parts": {
@@ -16306,7 +16342,7 @@
         "ERR_CE_IMPERFETTO"
       ],
       "why_here": "La infancia, un lugar antes y ahora, costumbres de antes.",
-      "ficha_es": "El imperfecto de «c'è / ci sono» concuerda con lo que había: c'era una casa, c'erano molte persone. El español dice «había» para el singular y para el plural, y por eso se tiende a decir *c'era molte persone.\n\nError típico: *c'era molte persone, *c'erano una casa → c'erano molte persone, c'era una casa. Válido y no es error: ci sono stati / c'è stato (existencial)",
+      "ficha_es": "El imperfecto de «c'è / ci sono» concuerda con lo que había: c'era una casa, c'erano molte persone. El español dice «había» para el singular y para el plural, y por eso se tiende a decir *c'era molte persone.\n\nError típico: *c'era molte persone, *c'erano una casa → c'erano molte persone, c'era una casa. Válido y no es error: ci sono stati / c'è stato (existencial)\n\nQué practicas aquí: C'era, c'erano, c'è stato.\n\nSituación del módulo: La infancia, un lugar antes y ahora, costumbres de antes.",
       "status": "active",
       "explanation_es": "El imperfecto de «c'è / ci sono» concuerda con lo que había: c'era una casa, c'erano molte persone. El español dice «había» para el singular y para el plural, y por eso se tiende a decir *c'era molte persone.",
       "parts": {
@@ -16415,7 +16451,7 @@
         "ERR_TEMPO_FA_DA"
       ],
       "why_here": "La infancia, un lugar antes y ahora, costumbres de antes.",
-      "ficha_es": "En italiano «fa» va después del tiempo (due anni fa); el español pone «hace» antes (hace dos años). Para lo que dura hasta ahora se usa da (studio italiano da due anni) y para un plazo futuro, fra o tra (fra due giorni), no *in due giorni.\n\nError típico: *fa due anni → due anni fa; *in due giorni → fra due giorni; *studio per due anni (con presente) → studio da due anni; sono due anni che studio. Válido y no es error: ho studiato per due anni (pasado cerrado: válido); la settimana passata (válida)",
+      "ficha_es": "En italiano «fa» va después del tiempo (due anni fa); el español pone «hace» antes (hace dos años). Para lo que dura hasta ahora se usa da (studio italiano da due anni) y para un plazo futuro, fra o tra (fra due giorni), no *in due giorni.\n\nError típico: *fa due anni → due anni fa; *in due giorni → fra due giorni; *studio per due anni (con presente) → studio da due anni; sono due anni che studio. Válido y no es error: ho studiato per due anni (pasado cerrado: válido); la settimana passata (válida)\n\nQué practicas aquí: Expresiones de tiempo: fa, da, per, fra/tra, scorso, prossimo; Decir la hora, las fechas y situar en el tiempo (la settimana prossima, fra due giorni).\n\nSituación del módulo: La infancia, un lugar antes y ahora, costumbres de antes.",
       "status": "active",
       "explanation_es": "En italiano «fa» va después del tiempo (due anni fa); el español pone «hace» antes (hace dos años). Para lo que dura hasta ahora se usa da (studio italiano da due anni) y para un plazo futuro, fra o tra (fra due giorni), no *in due giorni.",
       "parts": {
@@ -16523,7 +16559,7 @@
         "ERR_VOC_CARATTERE"
       ],
       "why_here": "La infancia, un lugar antes y ahora, costumbres de antes.",
-      "ficha_es": "Cómo es una persona y cómo te relacionas: timido, curioso, geloso (celoso), sincero, tranquillo, fidanzato/a (el novio o la novia con compromiso; el simple «novio» sin compromiso es ragazzo), straniero/a (extranjero), vicina (vecina). Los adjetivos concuerdan: timido, timida.\n\nError típico: gentile, simpatico, timido, collega, vicino, conoscente, fidanzato, cognato, parente (gentile ≠ «gentil»); y la concordancia nombre–adjetivo que CILS A2 pide producir: *gente simpatici, *case grande → gente simpatica, case grandi; -co/-ca → -chi/-che (amici simpatici)",
+      "ficha_es": "Cómo es una persona y cómo te relacionas: timido, curioso, geloso (celoso), sincero, tranquillo, fidanzato/a (el novio o la novia con compromiso; el simple «novio» sin compromiso es ragazzo), straniero/a (extranjero), vicina (vecina). Los adjetivos concuerdan: timido, timida.\n\nError típico: gentile, simpatico, timido, collega, vicino, conoscente, fidanzato, cognato, parente (gentile ≠ «gentil»); y la concordancia nombre–adjetivo que CILS A2 pide producir: *gente simpatici, *case grande → gente simpatica, case grandi; -co/-ca → -chi/-che (amici simpatici)\n\nQué practicas aquí: Concordancia entre nombre y adjetivo (-e, -co/-ca → -chi/-che, grupos mixtos); Área temática PLIDA A2: Familia; Área temática PLIDA A2: Cualidades personales; Área temática PLIDA A2: Relaciones sociales.\n\nSituación del módulo: La infancia, un lugar antes y ahora, costumbres de antes.",
       "words": [
         {
           "form": "timido",
@@ -16706,7 +16742,7 @@
         "ERR_PP_VS_IMPERFETTO"
       ],
       "why_here": "Algo que te pasó, contado con trama y fondo (dónde, cuándo, con quién, cómo fue).",
-      "ficha_es": "El passato prossimo cuenta lo que pasó (una acción terminada); el imperfetto describe el fondo, la costumbre o lo que estaba pasando: Mentre dormivo, è suonato il telefono. Se elige por la función de la frase, no por la palabra que la acompaña: «Quando ero piccolo giocavo…» lleva imperfetto aunque haya «quando».\n\nError típico: elegir por función (acción puntual y terminada vs fondo, estado o hábito), nunca por la palabra conectora: «Quando ero piccolo…» lleva imperfetto. Válido y no es error: ieri alle 8 facevo / ho fatto colazione según el sentido; dovevo partire / sono dovuto partire (cambia el sentido)",
+      "ficha_es": "El passato prossimo cuenta lo que pasó (una acción terminada); el imperfetto describe el fondo, la costumbre o lo que estaba pasando: Mentre dormivo, è suonato il telefono. Se elige por la función de la frase, no por la palabra que la acompaña: «Quando ero piccolo giocavo…» lleva imperfetto aunque haya «quando».\n\nError típico: elegir por función (acción puntual y terminada vs fondo, estado o hábito), nunca por la palabra conectora: «Quando ero piccolo…» lleva imperfetto. Válido y no es error: ieri alle 8 facevo / ho fatto colazione según el sentido; dovevo partire / sono dovuto partire (cambia el sentido)\n\nQué practicas aquí: Passato prossimo e imperfetto en un mismo relato (contar un evento pasado: dónde, cuándo, quién, cómo fue; mentre, quindi).\n\nSituación del módulo: Algo que te pasó, contado con trama y fondo (dónde, cuándo, con quién, cómo fue).",
       "status": "active",
       "explanation_es": "El passato prossimo cuenta lo que pasó (una acción terminada); el imperfetto describe el fondo, la costumbre o lo que estaba pasando: Mentre dormivo, è suonato il telefono. Se elige por la función de la frase, no por la palabra que la acompaña: «Quando ero piccolo giocavo…» lleva imperfetto aunque haya «quando».",
       "parts": {
@@ -16799,7 +16835,7 @@
         "ERR_PRIMA_DI"
       ],
       "why_here": "Algo que te pasó, contado con trama y fondo (dónde, cuándo, con quién, cómo fue).",
-      "ficha_es": "Antes de un infinitivo se usa prima di (prima di uscire), no *prima uscire ni *prima de. Con un sustantivo, dopo + sustantivo (dopo cena); dopo aver + participio es la forma completa.\n\nError típico: *prima uscire / *prima de uscire → prima di uscire; *dopo di mangiare → dopo mangiato (coloquial) / dopo aver mangiato. Válido y no es error: dopo mangiato (coloquial válido)",
+      "ficha_es": "Antes de un infinitivo se usa prima di (prima di uscire), no *prima uscire ni *prima de. Con un sustantivo, dopo + sustantivo (dopo cena); dopo aver + participio es la forma completa.\n\nError típico: *prima uscire / *prima de uscire → prima di uscire; *dopo di mangiare → dopo mangiato (coloquial) / dopo aver mangiato. Válido y no es error: dopo mangiato (coloquial válido)\n\nQué practicas aquí: Temporales implícitas con «prima di» (+ dopo + sustantivo); Secuenciar eventos (prima… poi, dopo, alla fine).\n\nSituación del módulo: Algo que te pasó, contado con trama y fondo (dónde, cuándo, con quién, cómo fue).",
       "productive": false,
       "status": "active",
       "explanation_es": "Antes de un infinitivo se usa prima di (prima di uscire), no *prima uscire ni *prima de. Con un sustantivo, dopo + sustantivo (dopo cena); dopo aver + participio es la forma completa.",
@@ -16924,6 +16960,117 @@
       ]
     },
     {
+      "id": "u85",
+      "level": "A2",
+      "title": "Lo/la/li/le o gli/le: el verbo decide",
+      "goal_es": "Lo/la/li/le o gli/le: el verbo decide",
+      "codes": [
+        "ERR_CLITIC_DIRECT_INDIRECT"
+      ],
+      "why_here": "En la tienda y en el restaurante: «lo prendo», «gli telefono», «l'ho visto».",
+      "ficha_es": "Los pronombres de objeto directo (lo, la) y los de objeto indirecto (gli, le) no se intercambian.\n\nError típico: *gli vedo, *li dico, *le telefono a Marco → lo vedo, gli dico, gli telefono; lo ringrazio, la aiuto (directos), gli telefono, gli rispondo (indirectos). Válido y no es error: gli ho detto a Marco (coloquial); a me mi piace (coloquial: se explica como «evitar al escribir»); Il libro l'ho letto (con objeto antepuesto el pronombre es obligatorio)\n\nQué practicas aquí: Pronombres átonos directos lo, la, li, le; Pronombres átonos indirectos gli, le, ci, vi (y mi, ti).\n\nSituación del módulo: En la tienda y en el restaurante: «lo prendo», «gli telefono», «l'ho visto».",
+      "status": "active",
+      "explanation_es": "Los pronombres de objeto directo (lo, la) y los de objeto indirecto (gli, le) no se intercambian.",
+      "parts": {
+        "descubre": [
+          "s_5276996",
+          "s_947814",
+          "s_1297524",
+          "s_2001293"
+        ],
+        "practica": [
+          "s_5276996",
+          "s_947814",
+          "s_1297524",
+          "s_2001293",
+          "s_3112133",
+          "s_1019247",
+          "s_2943978",
+          "s_5276999",
+          "s_1008590",
+          "s_1098236",
+          "s_3322075",
+          "s_3758616",
+          "s_4549",
+          "s_4648295",
+          "s_5991532",
+          "s_969555",
+          "s_383006",
+          "s_3608373",
+          "s_472738",
+          "s_1082281",
+          "s_424374",
+          "s_1308626",
+          "s_1535149",
+          "s_353209",
+          "s_383495",
+          "s_1622633",
+          "s_8272134",
+          "s_1510822",
+          "s_374609",
+          "s_2851744",
+          "s_373811",
+          "s_1010025",
+          "s_13983320",
+          "s_3423543",
+          "s_3937917",
+          "s_967672",
+          "s_2459067",
+          "s_1616436",
+          "s_1261611",
+          "s_13646401",
+          "s_14009498",
+          "s_521344"
+        ],
+        "escucha": [
+          "s_5276996",
+          "s_1019247",
+          "s_3322075",
+          "s_969555",
+          "s_424374",
+          "s_1622633",
+          "s_373811",
+          "s_967672"
+        ],
+        "prueba": [
+          "s_1553650",
+          "s_3758615",
+          "s_3358367",
+          "s_1299368",
+          "s_374438",
+          "s_5402329",
+          "s_7915414",
+          "s_2959807"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_5276996",
+          "start": 3,
+          "end": 5,
+          "wrong": "la"
+        },
+        {
+          "id": "s_947814",
+          "start": 4,
+          "end": 6,
+          "wrong": "gli"
+        },
+        {
+          "id": "s_1297524",
+          "start": 4,
+          "end": 6,
+          "wrong": "gli"
+        },
+        {
+          "id": "s_2001293",
+          "start": 0,
+          "end": 2,
+          "wrong": "La"
+        }
+      ]
+    },
+    {
       "id": "u10",
       "level": "A2",
       "title": "Sin «a» personal",
@@ -16948,34 +17095,77 @@
           "s_2023151",
           "s_6476779",
           "s_2084399",
+          "s_7129294",
           "s_2041876",
           "s_3322046",
           "s_3322047",
+          "s_1469188",
           "s_2455002",
+          "s_11039020",
           "s_1217325",
+          "s_2792293",
+          "s_1255767",
+          "s_13297471",
+          "s_2559861",
+          "s_2560817",
+          "s_4582937",
+          "s_5281441",
+          "s_2565449",
+          "s_13297510",
+          "s_2001274",
+          "s_2412034",
+          "s_2551050",
+          "s_5534421",
+          "s_2001278",
+          "s_2022835",
+          "s_2022836",
+          "s_4506452",
+          "s_6472006",
+          "s_2001880",
+          "s_13970895",
+          "s_2084398",
+          "s_3257923",
+          "s_7579474",
+          "s_995743",
+          "s_2023155",
+          "s_6476778",
+          "s_6476782",
+          "s_742135",
+          "s_2580208",
+          "s_3322087",
+          "s_9246781",
+          "s_2455003",
+          "s_3382143",
+          "s_4711088",
+          "s_1224886",
+          "s_3471001",
+          "s_3810643",
           "s_2512360",
           "s_1689790",
+          "s_2470948",
           "s_3800021",
           "s_3175523",
           "s_3547954"
         ],
         "escucha": [
           "s_2560818",
-          "s_3580504",
-          "s_2023151",
-          "s_6476779",
-          "s_2084399",
-          "s_2041876",
           "s_3322046",
-          "s_3322047"
+          "s_1255767",
+          "s_13297510",
+          "s_2022836",
+          "s_7579474",
+          "s_3322087",
+          "s_3810643"
         ],
         "prueba": [
-          "s_7129294",
           "s_3322085",
-          "s_1469188",
-          "s_11039020",
-          "s_2929153",
-          "s_2470948"
+          "s_2001387",
+          "s_2001411",
+          "s_5709368",
+          "s_4202320",
+          "s_375616",
+          "s_5544909",
+          "s_2929153"
         ]
       },
       "divergences": [
@@ -17002,6 +17192,322 @@
           "start": 19,
           "end": 22,
           "wrong": "a Tom"
+        }
+      ]
+    },
+    {
+      "id": "u86",
+      "level": "A2",
+      "title": "El pronombre pegado: farlo, vederla",
+      "goal_es": "El pronombre pegado: farlo, vederla",
+      "codes": [
+        "ERR_CLITICO_POSIZIONE"
+      ],
+      "why_here": "En la tienda y en el restaurante: «lo prendo», «gli telefono», «l'ho visto».",
+      "ficha_es": "Con el infinitivo el pronombre se pega al final y el infinitivo pierde la -e: fare + lo = farlo, vedere + la = vederla. No se dice *farelo ni *fare lo. Con un verbo modal también puede ir antes (lo posso fare); las dos formas son correctas.\n\nError típico: *farelo, *fare lo, *vederela → farlo, vederla (se quita la -e); *lo cerco di fare → cercare di farlo (no sube con estos verbos). Válido y no es error: lo posso fare / posso farlo; lo vado a prendere (con andare a, venire a y modales sí sube); non lo fare / non farlo\n\nQué practicas aquí: Posición del pronombre con infinitivo y verbos modales (farlo, lo posso fare).\n\nSituación del módulo: En la tienda y en el restaurante: «lo prendo», «gli telefono», «l'ho visto».",
+      "status": "active",
+      "explanation_es": "Con el infinitivo el pronombre se pega al final y el infinitivo pierde la -e: fare + lo = farlo, vedere + la = vederla. No se dice *farelo ni *fare lo. Con un verbo modal también puede ir antes (lo posso fare); las dos formas son correctas.",
+      "parts": {
+        "descubre": [
+          "s_14000523",
+          "s_1084204",
+          "s_4049878",
+          "s_1999878"
+        ],
+        "practica": [
+          "s_14000523",
+          "s_1084204",
+          "s_4049878",
+          "s_1999878",
+          "s_1343700",
+          "s_14032604",
+          "s_5468165",
+          "s_5705966",
+          "s_7817331",
+          "s_2196565",
+          "s_2423091",
+          "s_731163",
+          "s_890943",
+          "s_4711097",
+          "s_8394690",
+          "s_1691780",
+          "s_2466109",
+          "s_1268075",
+          "s_2987087",
+          "s_749855",
+          "s_991605",
+          "s_14029956",
+          "s_3164518",
+          "s_3652667",
+          "s_4656914",
+          "s_911061",
+          "s_2797631",
+          "s_4258137",
+          "s_382920",
+          "s_708374",
+          "s_4313781",
+          "s_3591304",
+          "s_4346837",
+          "s_13970884",
+          "s_7792085",
+          "s_625118",
+          "s_2021763",
+          "s_2860260",
+          "s_3690389",
+          "s_1578258"
+        ],
+        "escucha": [
+          "s_14000523",
+          "s_14032604",
+          "s_2423091",
+          "s_1691780",
+          "s_991605",
+          "s_911061",
+          "s_4313781",
+          "s_625118"
+        ],
+        "prueba": [
+          "s_2990757",
+          "s_662739",
+          "s_10763517",
+          "s_8014725",
+          "s_4656911",
+          "s_5994527",
+          "s_1179773",
+          "s_625117"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_14000523",
+          "start": 5,
+          "end": 12,
+          "wrong": "aprirelo"
+        },
+        {
+          "id": "s_1084204",
+          "start": 10,
+          "end": 15,
+          "wrong": "direlo"
+        },
+        {
+          "id": "s_4049878",
+          "start": 10,
+          "end": 15,
+          "wrong": "farela"
+        },
+        {
+          "id": "s_1999878",
+          "start": 8,
+          "end": 16,
+          "wrong": "aiutareci"
+        }
+      ]
+    },
+    {
+      "id": "u87",
+      "level": "A2",
+      "title": "L'ho vista, li ho comprati",
+      "goal_es": "L'ho vista, li ho comprati",
+      "codes": [
+        "ERR_PARTICIPLE_AGREEMENT_CLITIC"
+      ],
+      "why_here": "En la tienda y en el restaurante: «lo prendo», «gli telefono», «l'ho visto».",
+      "ficha_es": "Con avere, el participio concuerda con el clítico de objeto directo de 3.ª persona (le ho viste); el español nunca concuerda.\n\nError típico: *le ho comprato (las camisetas), *l'ho visto (hablando de una mujer) → le ho comprate, l'ho vista (concuerda con lo/la/li/le; con mi/ti/ci/vi es opcional). Válido y no es error: mi ha visto / mi ha vista (opcional)\n\nQué practicas aquí: Concordancia del participio con lo, la, li, le (l'ho vista, li ho comprati).\n\nSituación del módulo: En la tienda y en el restaurante: «lo prendo», «gli telefono», «l'ho visto».",
+      "status": "active",
+      "explanation_es": "Con avere, el participio concuerda con el clítico de objeto directo de 3.ª persona (le ho viste); el español nunca concuerda.",
+      "parts": {
+        "descubre": [
+          "s_4721616",
+          "s_4721619",
+          "s_712868",
+          "s_712869"
+        ],
+        "practica": [
+          "s_4721616",
+          "s_4721619",
+          "s_712868",
+          "s_712869",
+          "s_5085972",
+          "s_5085973",
+          "s_5267994",
+          "s_5716888",
+          "s_5720342",
+          "s_5267988",
+          "s_5267992",
+          "s_5709059",
+          "s_5709060",
+          "s_5720343",
+          "s_712870",
+          "s_712871",
+          "s_2237831",
+          "s_5709063",
+          "s_5709064",
+          "s_2534775",
+          "s_3437111",
+          "s_3437112",
+          "s_3961880",
+          "s_3961881",
+          "s_5267995",
+          "s_5720347",
+          "s_3437109",
+          "s_5373652",
+          "s_3892600",
+          "s_3892604",
+          "s_5991501",
+          "s_2788431",
+          "s_1213071"
+        ],
+        "escucha": [
+          "s_4721616",
+          "s_5085972",
+          "s_5720342",
+          "s_5709060",
+          "s_2237831",
+          "s_3437111",
+          "s_5267995",
+          "s_3892600"
+        ],
+        "prueba": [
+          "s_5267990",
+          "s_5720345",
+          "s_5720340",
+          "s_2237832",
+          "s_2534778",
+          "s_5267991",
+          "s_3437113",
+          "s_1539492"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_4721616",
+          "start": 6,
+          "end": 11,
+          "wrong": "visto"
+        },
+        {
+          "id": "s_4721619",
+          "start": 6,
+          "end": 11,
+          "wrong": "visto"
+        },
+        {
+          "id": "s_712868",
+          "start": 7,
+          "end": 12,
+          "wrong": "visto"
+        },
+        {
+          "id": "s_712869",
+          "start": 7,
+          "end": 12,
+          "wrong": "visto"
+        }
+      ]
+    },
+    {
+      "id": "u88",
+      "level": "A2",
+      "title": "Ne de cantidad",
+      "goal_es": "Ne de cantidad (solo reconocer)",
+      "codes": [
+        "ERR_CLITIC_NE"
+      ],
+      "why_here": "En la tienda y en el restaurante: «lo prendo», «gli telefono», «l'ho visto».",
+      "ficha_es": "Ne partitivo: obliga a repetir la cantidad y el participio concuerda con el objeto.\n\nError típico: *Ho due → Ne ho due; *Quanti fratelli hai? Ho due. → Ne ho due\n\nQué practicas aquí: Ne de cantidad (Ne ho due).\n\nSituación del módulo: En la tienda y en el restaurante: «lo prendo», «gli telefono», «l'ho visto».",
+      "productive": false,
+      "status": "active",
+      "explanation_es": "Ne partitivo: obliga a repetir la cantidad y el participio concuerda con el objeto.",
+      "parts": {
+        "descubre": [
+          "a_dbb942e5",
+          "a_94578c1d",
+          "a_f30121cb",
+          "a_38a79fc2"
+        ],
+        "practica": [
+          "a_dbb942e5",
+          "a_94578c1d",
+          "a_f30121cb",
+          "a_38a79fc2",
+          "a_3ca33d4e",
+          "a_0b3936f8",
+          "a_0bdac384",
+          "a_5cb5167f",
+          "a_7ca955d6",
+          "a_d172c70a",
+          "a_b24bbaca",
+          "a_48501500",
+          "a_5a02cda9",
+          "a_5da790f8",
+          "a_962d556f",
+          "a_d52a9539",
+          "a_69f95378",
+          "a_9f1ebc2f",
+          "a_04270e5f",
+          "a_079e969e",
+          "a_5518d253",
+          "a_5cc245be",
+          "a_8332c62f",
+          "a_ca36807e",
+          "a_9e27ea33",
+          "a_6444c6af",
+          "a_abaa3f3f",
+          "a_025355a9",
+          "a_3d99faa2",
+          "a_6c979274",
+          "a_981bcffc",
+          "a_5ad8332c",
+          "a_971a6ebc",
+          "a_5ee23142",
+          "a_987ec311"
+        ],
+        "escucha": [
+          "a_dbb942e5",
+          "a_3ca33d4e",
+          "a_7ca955d6",
+          "a_5a02cda9",
+          "a_69f95378",
+          "a_5518d253",
+          "a_9e27ea33",
+          "a_3d99faa2"
+        ],
+        "prueba": [
+          "a_1cc14b85",
+          "a_6ed039d6",
+          "a_7e71d5f7",
+          "a_b2f3ee3c",
+          "a_7baa40ca",
+          "a_d2d07333",
+          "a_4e164aad",
+          "a_3abca53d"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "a_dbb942e5",
+          "start": 11,
+          "end": 16,
+          "wrong": "Ho"
+        },
+        {
+          "id": "a_94578c1d",
+          "start": 15,
+          "end": 20,
+          "wrong": "ho"
+        },
+        {
+          "id": "a_f30121cb",
+          "start": 15,
+          "end": 20,
+          "wrong": "ho"
+        },
+        {
+          "id": "a_38a79fc2",
+          "start": 16,
+          "end": 21,
+          "wrong": "ho"
         }
       ]
     },

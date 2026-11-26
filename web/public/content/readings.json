@@ -306,6 +306,134 @@
     "sentences": []
   },
   {
+    "id": "doc_a2m04_nota",
+    "title": "Nota a un compañero de piso",
+    "level": "A2",
+    "kind": "lectura",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Dónde está el pan?",
+        "options": [
+          "En el refrigerador",
+          "Sobre la mesa",
+          "En la bolsa"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿A qué hora viene Marco?",
+        "options": [
+          "A las siete",
+          "A las nueve",
+          "A las ocho"
+        ],
+        "answer": 2,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Quién tiene el libro de Anna?",
+        "options": [
+          "Quien escribe la nota",
+          "Marco",
+          "Luca"
+        ],
+        "answer": 0,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿Qué no puede hacer hoy quien escribe?",
+        "options": [
+          "Preparar la cena",
+          "Lavar la ropa sucia",
+          "Comprar el pan"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué cosa no encuentra quien escribe?",
+        "options": [
+          "Las llaves",
+          "El pan",
+          "Las manzanas"
+        ],
+        "answer": 0,
+        "evidence": 7
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "doc_a2m04_nota_00",
+        "it": "Ciao Luca, esco presto stamattina.",
+        "es": "Hola Luca, hoy salgo temprano en la mañana.",
+        "audio": "f1ce304daabd"
+      },
+      {
+        "id": "doc_a2m04_nota_01",
+        "it": "Ho comprato il pane e lo trovi sul tavolo.",
+        "es": "Compré el pan y lo encuentras sobre la mesa.",
+        "audio": "8ae7011b7887"
+      },
+      {
+        "id": "doc_a2m04_nota_02",
+        "it": "Di mele ne ho comprate cinque: le trovi in frigo.",
+        "es": "Compré cinco manzanas: las encuentras en el refrigerador.",
+        "audio": "d85c42708f9d"
+      },
+      {
+        "id": "doc_a2m04_nota_03",
+        "it": "Il bucato non posso farlo oggi: puoi farlo tu?",
+        "es": "La ropa sucia no puedo lavarla hoy: ¿puedes hacerlo tú?",
+        "audio": "a2bcd3ba874f"
+      },
+      {
+        "id": "doc_a2m04_nota_04",
+        "it": "Ho visto Marco e gli ho parlato della cena.",
+        "es": "Vi a Marco y le hablé de la cena.",
+        "audio": "61f161819b7c"
+      },
+      {
+        "id": "doc_a2m04_nota_05",
+        "it": "Viene alle otto.",
+        "es": "Viene a las ocho.",
+        "audio": "21c19434529b"
+      },
+      {
+        "id": "doc_a2m04_nota_06",
+        "it": "Giulia viene anche: le ho scritto ieri sera.",
+        "es": "Giulia también viene: le escribí anoche.",
+        "audio": "9dbecc8fcd45"
+      },
+      {
+        "id": "doc_a2m04_nota_07",
+        "it": "Le mie chiavi non le trovo. Le hai viste tu?",
+        "es": "No encuentro mis llaves. ¿Las has visto tú?",
+        "audio": "f0bde825a6a7"
+      },
+      {
+        "id": "doc_a2m04_nota_08",
+        "it": "Il libro di Anna l'ho preso io: lo restituisco domani.",
+        "es": "El libro de Anna lo tomé yo: lo devuelvo mañana.",
+        "audio": "1540c2eb95a0"
+      },
+      {
+        "id": "doc_a2m04_nota_09",
+        "it": "A stasera! Sara",
+        "es": "¡Nos vemos esta noche! Sara",
+        "audio": "a0f2116cf1cf"
+      }
+    ]
+  },
+  {
     "id": "doc_annuncio",
     "title": "Affittasi stanza",
     "level": "A1",
@@ -1598,6 +1726,195 @@
         "es": "¡Claro que sí! Te espero en el bar a las tres.",
         "speaker": "Marco",
         "audio": "006c0e590377"
+      }
+    ]
+  },
+  {
+    "id": "ls_a2m04",
+    "title": "En el mercado",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cuánto compra Anna de tomates?",
+        "options": [
+          "Medio kilo",
+          "Un kilo",
+          "Dos kilos"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Cuánto compra Anna de calabacines?",
+        "options": [
+          "Dos kilos",
+          "Un kilo",
+          "Medio kilo"
+        ],
+        "answer": 2,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta la lechuga?",
+        "options": [
+          "Dos euros",
+          "Diez euros",
+          "Un euro"
+        ],
+        "answer": 0,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿Qué le ofrece el vendedor para probar?",
+        "options": [
+          "Los tomates",
+          "Las fresas",
+          "La albahaca"
+        ],
+        "answer": 1,
+        "evidence": 10
+      },
+      {
+        "prompt_es": "¿Cuánto paga Anna en total?",
+        "options": [
+          "Dos euros",
+          "Quince euros",
+          "Diez euros"
+        ],
+        "answer": 2,
+        "evidence": 14
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_a2m04_00",
+        "it": "Buongiorno! Che cosa desidera?",
+        "es": "¡Buenos días! ¿Qué desea?",
+        "speaker": "Paolo",
+        "audio": "fc8ad1932b7a"
+      },
+      {
+        "id": "ls_a2m04_01",
+        "it": "Buongiorno. Vorrei un chilo di pomodori.",
+        "es": "Buenos días. Quisiera un kilo de tomates.",
+        "speaker": "Anna",
+        "audio": "e271c52c641c",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m04_02",
+        "it": "Li ho presi stamattina. Sono ottimi.",
+        "es": "Los traje esta mañana. Son excelentes.",
+        "speaker": "Paolo",
+        "audio": "18a92c68365f"
+      },
+      {
+        "id": "ls_a2m04_03",
+        "it": "Le zucchine sono fresche?",
+        "es": "¿Los calabacines están frescos?",
+        "speaker": "Anna",
+        "audio": "e59be6d3ebd2",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m04_04",
+        "it": "Sì, le ho raccolte ieri. Ne vuole un chilo?",
+        "es": "Sí, los recogí ayer. ¿Quiere un kilo?",
+        "speaker": "Paolo",
+        "audio": "698d16555865"
+      },
+      {
+        "id": "ls_a2m04_05",
+        "it": "No, ne prendo mezzo chilo.",
+        "es": "No, llevo medio kilo.",
+        "speaker": "Anna",
+        "audio": "9bf3edb07dac",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m04_06",
+        "it": "Va bene. Ecco i pomodori e le zucchine.",
+        "es": "Bien. Aquí están los tomates y los calabacines.",
+        "speaker": "Paolo",
+        "audio": "4908b4a5012c"
+      },
+      {
+        "id": "ls_a2m04_07",
+        "it": "Quanto costa l'insalata?",
+        "es": "¿Cuánto cuesta la lechuga?",
+        "speaker": "Anna",
+        "audio": "b112bb11e015",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m04_08",
+        "it": "La vendo a due euro. È molto buona.",
+        "es": "La vendo a dos euros. Es muy buena.",
+        "speaker": "Paolo",
+        "audio": "7f46525512ab"
+      },
+      {
+        "id": "ls_a2m04_09",
+        "it": "Bene, la prendo. Ha anche le fragole?",
+        "es": "Bien, la llevo. ¿Tiene también fresas?",
+        "speaker": "Anna",
+        "audio": "81d0bbd61953",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m04_10",
+        "it": "Sì, sono qui. Le vuole assaggiare?",
+        "es": "Sí, están aquí. ¿Las quiere probar?",
+        "speaker": "Paolo",
+        "audio": "e81f0a4f57af"
+      },
+      {
+        "id": "ls_a2m04_11",
+        "it": "Sì, grazie. Sono dolci! Ne prendo un chilo.",
+        "es": "Sí, gracias. ¡Son dulces! Llevo un kilo.",
+        "speaker": "Anna",
+        "audio": "a34560a726cc",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m04_12",
+        "it": "Allora un chilo di fragole. Altro?",
+        "es": "Entonces un kilo de fresas. ¿Algo más?",
+        "speaker": "Paolo",
+        "audio": "b150690ee4d1"
+      },
+      {
+        "id": "ls_a2m04_13",
+        "it": "Sì, prendo anche il basilico.",
+        "es": "Sí, también llevo albahaca.",
+        "speaker": "Anna",
+        "audio": "1a257fe037a9",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m04_14",
+        "it": "Certo. Sono dieci euro in tutto.",
+        "es": "Claro. Son diez euros en total.",
+        "speaker": "Paolo",
+        "audio": "72be28d03df2"
+      },
+      {
+        "id": "ls_a2m04_15",
+        "it": "Ecco a Lei. Arrivederci!",
+        "es": "Aquí tiene. ¡Hasta luego!",
+        "speaker": "Anna",
+        "audio": "7344a72af812",
+        "voice": 2
       }
     ]
   },
@@ -3883,6 +4200,279 @@
         "speaker": "Davide",
         "audio": "7699d89894a1",
         "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m04_a",
+    "title": "Dov'è il mio libro? L'hai visto?",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué busca Giulia?",
+        "options": [
+          "Su libro",
+          "Sus llaves",
+          "Su teléfono"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Dónde dejó el libro?",
+        "options": [
+          "En la cocina",
+          "En el cuarto",
+          "Sobre la mesa"
+        ],
+        "answer": 2,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Quién pudo haberlo tomado?",
+        "options": [
+          "Elena",
+          "Anna",
+          "Luca"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Dónde están las llaves de Marco?",
+        "options": [
+          "En el cuarto",
+          "En la mesa",
+          "En la cocina"
+        ],
+        "answer": 2,
+        "evidence": 8
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m04_a_00",
+        "it": "Marco, dov'è il mio libro? L'hai visto?",
+        "es": "Marco, ¿dónde está mi libro? ¿Lo has visto?",
+        "speaker": "Giulia",
+        "audio": "dd62e01d5e0c"
+      },
+      {
+        "id": "rd_a2m04_a_01",
+        "it": "Il libro rosso?",
+        "es": "¿El libro rojo?",
+        "speaker": "Marco",
+        "audio": "71e40ed1c887",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m04_a_02",
+        "it": "Sì, l'ho lasciato sul tavolo ieri.",
+        "es": "Sí, lo dejé sobre la mesa ayer.",
+        "speaker": "Giulia",
+        "audio": "2754c18f2270"
+      },
+      {
+        "id": "rd_a2m04_a_03",
+        "it": "Non lo vedo. Hai guardato in camera?",
+        "es": "No lo veo. ¿Has mirado en el cuarto?",
+        "speaker": "Marco",
+        "audio": "2a07eeb0b344",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m04_a_04",
+        "it": "Sì, l'ho cercato ovunque. Non lo trovo.",
+        "es": "Sí, lo busqué por todas partes. No lo encuentro.",
+        "speaker": "Giulia",
+        "audio": "a09e2725f7a8"
+      },
+      {
+        "id": "rd_a2m04_a_05",
+        "it": "Forse l'ha preso Anna. Puoi chiamarla?",
+        "es": "Quizás lo tomó Anna. ¿Puedes llamarla?",
+        "speaker": "Marco",
+        "audio": "3d99bec8ff01",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m04_a_06",
+        "it": "Sì, la chiamo subito.",
+        "es": "Sí, la llamo ahora mismo.",
+        "speaker": "Giulia",
+        "audio": "06878753ea20"
+      },
+      {
+        "id": "rd_a2m04_a_07",
+        "it": "Intanto cerco anche io. Hai visto le mie chiavi?",
+        "es": "Mientras tanto busco yo también. ¿Has visto mis llaves?",
+        "speaker": "Marco",
+        "audio": "380766505ad8",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m04_a_08",
+        "it": "Sì, le ho viste in cucina.",
+        "es": "Sí, las vi en la cocina.",
+        "speaker": "Giulia",
+        "audio": "b54be01295f1"
+      },
+      {
+        "id": "rd_a2m04_a_09",
+        "it": "Grazie! Le prendo e vado.",
+        "es": "¡Gracias! Las tomo y me voy.",
+        "speaker": "Marco",
+        "audio": "6e600d58b2d0",
+        "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m04_b",
+    "title": "Chi ha comprato il pane?",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Quién compró el pan?",
+        "options": [
+          "Elena",
+          "Davide",
+          "Luca"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Dónde está la bolsa?",
+        "options": [
+          "Sobre el sofá",
+          "En la cocina",
+          "En el auto"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Para quién compró las galletas?",
+        "options": [
+          "Para Sara",
+          "Para Elena",
+          "Para Luca"
+        ],
+        "answer": 2,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿A qué hora llega Sara?",
+        "options": [
+          "A las siete",
+          "A las ocho",
+          "A las nueve"
+        ],
+        "answer": 1,
+        "evidence": 10
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m04_b_00",
+        "it": "Chi ha comprato il pane? Non lo trovo.",
+        "es": "¿Quién compró el pan? No lo encuentro.",
+        "speaker": "Elena",
+        "audio": "1f8d9996bc8a"
+      },
+      {
+        "id": "rd_a2m04_b_01",
+        "it": "L'ho comprato io stamattina. È nella borsa.",
+        "es": "Lo compré yo esta mañana. Está en la bolsa.",
+        "speaker": "Davide",
+        "audio": "02f8d381f697",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m04_b_02",
+        "it": "Non vedo la borsa. Dov'è?",
+        "es": "No veo la bolsa. ¿Dónde está?",
+        "speaker": "Elena",
+        "audio": "7edb8e93fdcd"
+      },
+      {
+        "id": "rd_a2m04_b_03",
+        "it": "L'ho messa sul divano.",
+        "es": "La puse sobre el sofá.",
+        "speaker": "Davide",
+        "audio": "c718ed4e170e",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m04_b_04",
+        "it": "Ah, eccola! Hai comprato anche il formaggio? Vorrei mangiarlo con il pane.",
+        "es": "¡Ah, aquí está! ¿Compraste también el queso? Quisiera comerlo con el pan.",
+        "speaker": "Elena",
+        "audio": "e99ce3529d27"
+      },
+      {
+        "id": "rd_a2m04_b_05",
+        "it": "Sì, l'ho comprato. Ne ho preso un pezzo grande.",
+        "es": "Sí, lo compré. Tomé un trozo grande.",
+        "speaker": "Davide",
+        "audio": "039ad375c724",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m04_b_06",
+        "it": "E i biscotti? Li hai presi?",
+        "es": "¿Y las galletas? ¿Las compraste?",
+        "speaker": "Elena",
+        "audio": "2ef00a79fece"
+      },
+      {
+        "id": "rd_a2m04_b_07",
+        "it": "Sì, li ho presi. Li ho comprati per Luca.",
+        "es": "Sí, las compré. Las compré para Luca.",
+        "speaker": "Davide",
+        "audio": "7ba9c282cb47",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m04_b_08",
+        "it": "Perfetto. Gli scrivo che la cena è pronta.",
+        "es": "Perfecto. Le escribo que la cena está lista.",
+        "speaker": "Elena",
+        "audio": "516a18f8b670"
+      },
+      {
+        "id": "rd_a2m04_b_09",
+        "it": "Bene. E Sara? Le hai scritto?",
+        "es": "Bien. ¿Y Sara? ¿Le has escrito?",
+        "speaker": "Davide",
+        "audio": "7cc63227a836",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m04_b_10",
+        "it": "Sì, le ho scritto prima. Arriva alle otto.",
+        "es": "Sí, le escribí antes. Llega a las ocho.",
+        "speaker": "Elena",
+        "audio": "dc9389e14f34"
       }
     ]
   },

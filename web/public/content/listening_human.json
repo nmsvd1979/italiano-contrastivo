@@ -2492,6 +2492,13 @@
   "tatoeba": "380622"
  },
  {
+  "id": "s_987797",
+  "module": "a2m04",
+  "it": "Mi hai sentito?",
+  "es": "¿Me has oído?",
+  "tatoeba": "987797"
+ },
+ {
   "id": "s_381446",
   "module": "a2m01",
   "it": "Mi sei mancato.",
@@ -2506,6 +2513,13 @@
   "tatoeba": "3533086"
  },
  {
+  "id": "s_377563",
+  "module": "a2m04",
+  "it": "Non ne ho idea.",
+  "es": "No tengo idea.",
+  "tatoeba": "377563"
+ },
+ {
   "id": "s_5121182",
   "module": "a2m01",
   "it": "Sono andati lì.",
@@ -2513,11 +2527,32 @@
   "tatoeba": "5121182"
  },
  {
+  "id": "s_1090893",
+  "module": "a2m04",
+  "it": "Chi lo ha fatto?",
+  "es": "¿Quién lo hizo?",
+  "tatoeba": "1090893"
+ },
+ {
   "id": "s_626095",
   "module": "a2m02",
   "it": "Mi sentivo solo.",
   "es": "Me sentía solo.",
   "tatoeba": "626095"
+ },
+ {
+  "id": "s_1509964",
+  "module": "a2m04",
+  "it": "Ti ho svegliato.",
+  "es": "Te desperté.",
+  "tatoeba": "1509964"
+ },
+ {
+  "id": "s_396597",
+  "module": "a2m04",
+  "it": "Dove l'hai preso?",
+  "es": "¿Dónde lo conseguiste?",
+  "tatoeba": "396597"
  },
  {
   "id": "s_1071813",
@@ -2541,6 +2576,13 @@
   "tatoeba": "940163"
  },
  {
+  "id": "s_699598",
+  "module": "a2m04",
+  "it": "Ho visto il cane.",
+  "es": "Vi al perro.",
+  "tatoeba": "699598"
+ },
+ {
   "id": "s_1257653",
   "module": "nivel",
   "it": "Il caso è chiuso.",
@@ -2553,6 +2595,13 @@
   "it": "Sono un tennista.",
   "es": "Soy tenista.",
   "tatoeba": "928127"
+ },
+ {
+  "id": "s_2615774",
+  "module": "a2m04",
+  "it": "Tom troverà Mary.",
+  "es": "Tom encontrará a Mary.",
+  "tatoeba": "2615774"
  },
  {
   "id": "s_1248113",
@@ -2576,11 +2625,25 @@
   "tatoeba": "1003087"
  },
  {
+  "id": "s_969310",
+  "module": "a2m04",
+  "it": "L'ho avuto gratis.",
+  "es": "Lo conseguí gratis.",
+  "tatoeba": "969310"
+ },
+ {
   "id": "s_3349538",
   "module": "a2m01",
   "it": "Lei dove è andata?",
   "es": "¿Adónde fue ella?",
   "tatoeba": "3349538"
+ },
+ {
+  "id": "s_977544",
+  "module": "a2m04",
+  "it": "Lei gli obbedisce.",
+  "es": "Ella le obedece.",
+  "tatoeba": "977544"
  },
  {
   "id": "s_1272420",
@@ -2618,6 +2681,13 @@
   "tatoeba": "5496786"
  },
  {
+  "id": "s_4680",
+  "module": "a2m04",
+  "it": "Ce l'abbiamo fatta!",
+  "es": "¡Lo logramos!",
+  "tatoeba": "4680"
+ },
+ {
   "id": "s_388816",
   "module": "a2m01",
   "it": "Che cos'è successo?",
@@ -2653,11 +2723,25 @@
   "tatoeba": "373872"
  },
  {
+  "id": "s_820620",
+  "module": "a2m04",
+  "it": "Ho visto tuo padre.",
+  "es": "Vi a tu padre.",
+  "tatoeba": "820620"
+ },
+ {
   "id": "s_379778",
   "module": "a2m02",
   "it": "Ieri faceva freddo.",
   "es": "Ayer hacía frío.",
   "tatoeba": "379778"
+ },
+ {
+  "id": "s_701196",
+  "module": "a2m04",
+  "it": "L'hai visto uscire?",
+  "es": "¿Lo viste salir?",
+  "tatoeba": "701196"
  },
  {
   "id": "s_377637",
@@ -2672,6 +2756,13 @@
   "it": "Oggi sono occupato.",
   "es": "Hoy estoy ocupado.",
   "tatoeba": "374477"
+ },
+ {
+  "id": "s_4261235",
+  "module": "a2m04",
+  "it": "Tom ti ha chiamato.",
+  "es": "Tom te llamó.",
+  "tatoeba": "4261235"
  },
  {
   "id": "s_949664",
@@ -2707,6 +2798,13 @@
   "it": "Mi è venuta un'idea.",
   "es": "Se me ocurrió una idea.",
   "tatoeba": "377566"
+ },
+ {
+  "id": "s_950242",
+  "module": "a2m04",
+  "it": "Non l'ho incontrato.",
+  "es": "No lo encontré.",
+  "tatoeba": "950242"
  },
  {
   "id": "s_1287482",
@@ -2800,6 +2898,13 @@
   "tatoeba": "377272"
  },
  {
+  "id": "s_3532873",
+  "module": "a2m04",
+  "it": "Lo hai fatto di nuovo.",
+  "es": "Lo hiciste otra vez.",
+  "tatoeba": "3532873"
+ },
+ {
   "id": "s_949486",
   "module": "a2m01",
   "it": "Mi sono appena alzato.",
@@ -2814,11 +2919,32 @@
   "tatoeba": "1073688"
  },
  {
+  "id": "s_5887928",
+  "module": "a2m04",
+  "it": "Ne abbiamo abbastanza.",
+  "es": "Ya tenemos suficiente.",
+  "tatoeba": "5887928"
+ },
+ {
+  "id": "s_899254",
+  "module": "a2m04",
+  "it": "Ne comprerò uno nuovo.",
+  "es": "Compraré uno nuevo.",
+  "tatoeba": "899254"
+ },
+ {
   "id": "s_694337",
   "module": "a2m01",
   "it": "Non è ancora arrivato.",
   "es": "Todavía no ha llegado.",
   "tatoeba": "694337"
+ },
+ {
+  "id": "s_401787",
+  "module": "a2m04",
+  "it": "Perché l'hai comprato?",
+  "es": "¿Por qué lo compraste?",
+  "tatoeba": "401787"
  },
  {
   "id": "s_410947",
@@ -2891,6 +3017,20 @@
   "tatoeba": "376568"
  },
  {
+  "id": "s_880149",
+  "module": "a2m04",
+  "it": "Ne vale davvero la pena?",
+  "es": "¿De verdad vale la pena?",
+  "tatoeba": "880149"
+ },
+ {
+  "id": "s_378887",
+  "module": "a2m04",
+  "it": "Gli ho trovato un lavoro.",
+  "es": "Le encontré un trabajo.",
+  "tatoeba": "378887"
+ },
+ {
   "id": "s_378160",
   "module": "a2m01",
   "it": "Ho fatto una passeggiata.",
@@ -2903,6 +3043,13 @@
   "it": "Il ghiaccio si è sciolto.",
   "es": "El hielo se derritió.",
   "tatoeba": "373999"
+ },
+ {
+  "id": "s_350916",
+  "module": "a2m04",
+  "it": "Tom mi ha dato una penna.",
+  "es": "Tom me dio un bolígrafo.",
+  "tatoeba": "350916"
  },
  {
   "id": "s_3533063",
@@ -2933,6 +3080,20 @@
   "tatoeba": "5273123"
  },
  {
+  "id": "s_5273152",
+  "module": "a2m04",
+  "it": "Ho comprato un libro a Tom.",
+  "es": "Le compré un libro a Tom.",
+  "tatoeba": "5273152"
+ },
+ {
+  "id": "s_671602",
+  "module": "a2m04",
+  "it": "Ti ho comprato un aquilone.",
+  "es": "Te compré una cometa.",
+  "tatoeba": "671602"
+ },
+ {
   "id": "s_5479775",
   "module": "a2m01",
   "it": "Tom ha mangiato un'arancia.",
@@ -2952,6 +3113,13 @@
   "it": "Ho dato da mangiare al cane.",
   "es": "Le di de comer al perro.",
   "tatoeba": "374212"
+ },
+ {
+  "id": "s_2056118",
+  "module": "a2m04",
+  "it": "Questo non gli farà piacere.",
+  "es": "Esto no le va a gustar.",
+  "tatoeba": "2056118"
  },
  {
   "id": "s_3532901",
@@ -2994,5 +3162,12 @@
   "it": "Sono restato a casa tutto il giorno.",
   "es": "Me quedé en casa todo el día.",
   "tatoeba": "627118"
+ },
+ {
+  "id": "s_374258",
+  "module": "a2m04",
+  "it": "Hai visto la mia macchina fotografica?",
+  "es": "¿Has visto mi cámara?",
+  "tatoeba": "374258"
  }
 ]

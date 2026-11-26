@@ -11505,6 +11505,298 @@
     "cefr": "A2",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Con el infinitivo el pronombre se pega al final y el infinitivo pierde la -e: fare + lo = farlo, vedere + la = vederla. No se dice *farelo ni *fare lo. Con un verbo modal también puede ir antes (lo posso fare); las dos formas son correctas."
+    },
+    "id": "cap_err_clitico_posizione",
+    "retrieval": [
+      {
+        "id": "it_choice_s_1084204_ERR_CLITICO_POSIZIONE",
+        "options": [
+          {
+            "correct": true,
+            "text": "Non posso dirlo."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_CLITICO_POSIZIONE",
+            "text": "Non posso direlo."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1084204",
+        "target_error_codes": [
+          "ERR_CLITICO_POSIZIONE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "farla"
+        ],
+        "hint_es": "Tom quiere hacerla.",
+        "id": "it_cloze_s_4049878_ERR_CLITICO_POSIZIONE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4049878",
+        "target_error_codes": [
+          "ERR_CLITICO_POSIZIONE"
+        ],
+        "text": "Tom vuole ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Tom",
+          "può",
+          "aiutarci?"
+        ],
+        "id": "it_reorder_s_1999878_ERR_CLITICO_POSIZIONE",
+        "prompt_es": "Ordena las palabras: «¿Tom puede ayudarnos?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1999878",
+        "target_error_codes": [
+          "ERR_CLITICO_POSIZIONE"
+        ],
+        "tokens": [
+          "aiutarci?",
+          "Tom",
+          "può"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_1343700_ERR_CLITICO_POSIZIONE",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_CLITICO_POSIZIONE",
+            "text": "Puoi direlo ancora?"
+          },
+          {
+            "correct": true,
+            "text": "Puoi dirlo ancora?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1343700",
+        "target_error_codes": [
+          "ERR_CLITICO_POSIZIONE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "sedermi"
+        ],
+        "hint_es": "¿Puedo sentarme ahí?",
+        "id": "it_cloze_s_14032604_ERR_CLITICO_POSIZIONE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_14032604",
+        "target_error_codes": [
+          "ERR_CLITICO_POSIZIONE"
+        ],
+        "text": "Posso ___ lì ?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Non",
+          "posso",
+          "vederlo."
+        ],
+        "id": "it_reorder_s_2990757_ERR_CLITICO_POSIZIONE",
+        "prompt_es": "Ordena las palabras: «No lo puedo ver.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2990757",
+        "target_error_codes": [
+          "ERR_CLITICO_POSIZIONE"
+        ],
+        "tokens": [
+          "posso",
+          "vederlo.",
+          "Non"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_CLITICO_POSIZIONE"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Puoi aprirlo ?"
+      ],
+      "id": "it_translate_s_14000523_ERR_CLITICO_POSIZIONE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_14000523",
+      "source_es": "¿Puedes abrirlo?",
+      "target_error_codes": [
+        "ERR_CLITICO_POSIZIONE"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Los pronombres de objeto directo (lo, la) y los de objeto indirecto (gli, le) no se intercambian."
+    },
+    "id": "cap_err_clitic_direct_indirect",
+    "retrieval": [
+      {
+        "id": "it_choice_s_947814_ERR_CLITIC_DIRECT_INDIRECT",
+        "options": [
+          {
+            "correct": true,
+            "text": "Non lo vedo."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_CLITIC_DIRECT_INDIRECT",
+            "text": "Non gli vedo."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_947814",
+        "target_error_codes": [
+          "ERR_CLITIC_DIRECT_INDIRECT"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "lo"
+        ],
+        "hint_es": "Ella lo ayuda.",
+        "id": "it_cloze_s_1297524_ERR_CLITIC_DIRECT_INDIRECT",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1297524",
+        "target_error_codes": [
+          "ERR_CLITIC_DIRECT_INDIRECT"
+        ],
+        "text": "Lei ___ aiuta.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Le",
+          "piace",
+          "Tom?"
+        ],
+        "id": "it_reorder_s_2001293_ERR_CLITIC_DIRECT_INDIRECT",
+        "prompt_es": "Ordena las palabras: «¿Le gusta Tom?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2001293",
+        "target_error_codes": [
+          "ERR_CLITIC_DIRECT_INDIRECT"
+        ],
+        "tokens": [
+          "Le",
+          "Tom?",
+          "piace"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_3112133_ERR_CLITIC_DIRECT_INDIRECT",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_CLITIC_DIRECT_INDIRECT",
+            "text": "Non la piace."
+          },
+          {
+            "correct": true,
+            "text": "Non le piace."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3112133",
+        "target_error_codes": [
+          "ERR_CLITIC_DIRECT_INDIRECT"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "le"
+        ],
+        "hint_es": "¿Qué le gusta?",
+        "id": "it_cloze_s_1019247_ERR_CLITIC_DIRECT_INDIRECT",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1019247",
+        "target_error_codes": [
+          "ERR_CLITIC_DIRECT_INDIRECT"
+        ],
+        "text": "Cosa ___ piace?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Io",
+          "lo",
+          "conosco?"
+        ],
+        "id": "it_reorder_s_1553650_ERR_CLITIC_DIRECT_INDIRECT",
+        "prompt_es": "Ordena las palabras: «¿Yo lo conozco?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1553650",
+        "target_error_codes": [
+          "ERR_CLITIC_DIRECT_INDIRECT"
+        ],
+        "tokens": [
+          "Io",
+          "conosco?",
+          "lo"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_CLITIC_DIRECT_INDIRECT"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Ma le piace!"
+      ],
+      "id": "it_translate_s_5276996_ERR_CLITIC_DIRECT_INDIRECT",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_5276996",
+      "source_es": "¡Pero le gusta!",
+      "target_error_codes": [
+        "ERR_CLITIC_DIRECT_INDIRECT"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "En el segundo término de una comparación entre nombres o pronombres el italiano usa di; el español usa 'que'."
     },
     "id": "cap_err_comparative_di",
@@ -13339,6 +13631,310 @@
       "source_es": "Creo que lo mejor es no ser maleducado.",
       "target_error_codes": [
         "ERR_CONGIUNTIVO_OPINION"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "B1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Con avere, el participio concuerda con el clítico de objeto directo de 3.ª persona (le ho viste); el español nunca concuerda."
+    },
+    "id": "cap_err_participle_agreement_clitic",
+    "retrieval": [
+      {
+        "id": "it_choice_s_4721619_ERR_PARTICIPLE_AGREEMENT_CLITIC",
+        "options": [
+          {
+            "correct": true,
+            "text": "Le ho viste."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+            "text": "Le ho visto."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4721619",
+        "target_error_codes": [
+          "ERR_PARTICIPLE_AGREEMENT_CLITIC"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "visti"
+        ],
+        "hint_es": "¿Los viste?",
+        "id": "it_cloze_s_712868_ERR_PARTICIPLE_AGREEMENT_CLITIC",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_712868",
+        "target_error_codes": [
+          "ERR_PARTICIPLE_AGREEMENT_CLITIC"
+        ],
+        "text": "Li hai ___?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Le",
+          "hai",
+          "viste?"
+        ],
+        "id": "it_reorder_s_712869_ERR_PARTICIPLE_AGREEMENT_CLITIC",
+        "prompt_es": "Ordena las palabras: «¿Las viste?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_712869",
+        "target_error_codes": [
+          "ERR_PARTICIPLE_AGREEMENT_CLITIC"
+        ],
+        "tokens": [
+          "hai",
+          "Le",
+          "viste?"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_5085972_ERR_PARTICIPLE_AGREEMENT_CLITIC",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "morphological",
+            "error_code": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+            "text": "Li ho trovato."
+          },
+          {
+            "correct": true,
+            "text": "Li ho trovati."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5085972",
+        "target_error_codes": [
+          "ERR_PARTICIPLE_AGREEMENT_CLITIC"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "trovate"
+        ],
+        "hint_es": "Las encontré.",
+        "id": "it_cloze_s_5085973_ERR_PARTICIPLE_AGREEMENT_CLITIC",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5085973",
+        "target_error_codes": [
+          "ERR_PARTICIPLE_AGREEMENT_CLITIC"
+        ],
+        "text": "Le ho ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Li",
+          "ha",
+          "trovati?"
+        ],
+        "id": "it_reorder_s_5267990_ERR_PARTICIPLE_AGREEMENT_CLITIC",
+        "prompt_es": "Ordena las palabras: «¿Los encontró?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5267990",
+        "target_error_codes": [
+          "ERR_PARTICIPLE_AGREEMENT_CLITIC"
+        ],
+        "tokens": [
+          "trovati?",
+          "ha",
+          "Li"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_PARTICIPLE_AGREEMENT_CLITIC"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Li ho visti."
+      ],
+      "id": "it_translate_s_4721616_ERR_PARTICIPLE_AGREEMENT_CLITIC",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4721616",
+      "source_es": "Los vi.",
+      "target_error_codes": [
+        "ERR_PARTICIPLE_AGREEMENT_CLITIC"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "B2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Ne partitivo: obliga a repetir la cantidad y el participio concuerda con el objeto."
+    },
+    "id": "cap_err_clitic_ne",
+    "retrieval": [
+      {
+        "id": "it_choice_a_94578c1d_ERR_CLITIC_NE",
+        "options": [
+          {
+            "correct": true,
+            "text": "Hai gatti? Sì, ne ho due."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "omission",
+            "error_code": "ERR_CLITIC_NE",
+            "text": "Hai gatti? Sì, ho due."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "a_94578c1d",
+        "target_error_codes": [
+          "ERR_CLITIC_NE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "ne ho"
+        ],
+        "hint_es": "¿Tienes hijos? Sí, tengo dos.",
+        "id": "it_cloze_a_f30121cb_ERR_CLITIC_NE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "a_f30121cb",
+        "target_error_codes": [
+          "ERR_CLITIC_NE"
+        ],
+        "text": "Hai figli? Sì, ___ due.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Hai",
+          "matite?",
+          "Sì,",
+          "ne",
+          "ho",
+          "sei."
+        ],
+        "id": "it_reorder_a_38a79fc2_ERR_CLITIC_NE",
+        "prompt_es": "Ordena las palabras: «¿Tienes lápices? Sí, tengo seis.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "a_38a79fc2",
+        "target_error_codes": [
+          "ERR_CLITIC_NE"
+        ],
+        "tokens": [
+          "Sì,",
+          "matite?",
+          "ne",
+          "Hai",
+          "ho",
+          "sei."
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_a_3ca33d4e_ERR_CLITIC_NE",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "omission",
+            "error_code": "ERR_CLITIC_NE",
+            "text": "Quante zie hai? Ho tre."
+          },
+          {
+            "correct": true,
+            "text": "Quante zie hai? Ne ho tre."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "a_3ca33d4e",
+        "target_error_codes": [
+          "ERR_CLITIC_NE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Ne ho"
+        ],
+        "hint_es": "¿Tienes boletos? Tengo pocos.",
+        "id": "it_cloze_a_0b3936f8_ERR_CLITIC_NE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "a_0b3936f8",
+        "target_error_codes": [
+          "ERR_CLITIC_NE"
+        ],
+        "text": "Hai biglietti? ___ pochi.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Hai",
+          "dubbi?",
+          "Sì,",
+          "ne",
+          "ho",
+          "molti."
+        ],
+        "id": "it_reorder_a_1cc14b85_ERR_CLITIC_NE",
+        "prompt_es": "Ordena las palabras: «¿Tienes dudas? Sí, tengo muchas.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "a_1cc14b85",
+        "target_error_codes": [
+          "ERR_CLITIC_NE"
+        ],
+        "tokens": [
+          "molti.",
+          "Hai",
+          "ne",
+          "Sì,",
+          "dubbi?",
+          "ho"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_CLITIC_NE"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Hai soldi? Ne ho pochi."
+      ],
+      "id": "it_translate_a_dbb942e5_ERR_CLITIC_NE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "a_dbb942e5",
+      "source_es": "¿Tienes dinero? Tengo poco.",
+      "target_error_codes": [
+        "ERR_CLITIC_NE"
       ],
       "type": "translate_es_it"
     }

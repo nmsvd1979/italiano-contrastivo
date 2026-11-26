@@ -392,6 +392,30 @@
     "u84"
    ],
    "goal_es": "Una amiga te llamó anoche y no contestaste: explica dónde estabas, qué hacías cuando sonó el teléfono y qué hiciste después."
+  },
+  {
+   "id": "rp_a2m04_a",
+   "title": "Cerco il mio libro",
+   "function_es": "Preguntar por un objeto perdido y decir dónde lo dejaste, usando lo/la/le.",
+   "reading": "rd_a2m04_a",
+   "from": 0,
+   "to": 6,
+   "after": [
+    "u88"
+   ],
+   "goal_es": "Pregunta si han visto tu libro, di dónde lo dejaste y qué hiciste para buscarlo."
+  },
+  {
+   "id": "rp_a2m04_b",
+   "title": "Chi ha comprato il pane?",
+   "function_es": "Repartir las compras de la casa con lo/la/li/le, gli/le y ne.",
+   "reading": "rd_a2m04_b",
+   "from": 3,
+   "to": 9,
+   "after": [
+    "u88"
+   ],
+   "goal_es": "Cuenta qué compraste y para quién, y avisa a los demás con gli/le."
   }
  ],
  "tasks": [
@@ -841,6 +865,52 @@
     "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
     "No leí: hablé de corrido, aunque con pausas.",
     "Cuidé lo que enseña este módulo: Trama y fondo: passato prossimo o imperfetto; Prima di + infinitivo, dopo + sustantivo.",
+    "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
+   ]
+  },
+  {
+   "id": "ht_a2m04",
+   "title": "Le mie compere",
+   "function_es": "Contar qué compraste y qué hiciste con las cosas, usando pronombres.",
+   "level": "A2",
+   "minutes": 2,
+   "after": [
+    "u88"
+   ],
+   "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+   },
+   "intro_es": "Cuenta en 2 minutos qué compraste esta semana, dónde lo guardaste y a quién se lo diste o escribiste. Responde en voz alta usando lo, la, li, le, gli o ne.",
+   "questions": [
+    {
+     "it": "Che cosa hai comprato questa settimana? Dove l'hai comprato?",
+     "es": "¿Qué compraste esta semana? ¿Dónde lo compraste?"
+    },
+    {
+     "it": "Hai comprato anche frutta o verdura? Ne hai comprata molta?",
+     "es": "¿Compraste también fruta o verdura? ¿Compraste mucha?"
+    },
+    {
+     "it": "Dove hai messo le cose? Le trovi facilmente?",
+     "es": "¿Dónde pusiste las cosas? ¿Las encuentras fácilmente?"
+    },
+    {
+     "it": "Hai visto un amico? Che cosa gli hai detto?",
+     "es": "¿Viste a un amigo? ¿Qué le dijiste?"
+    },
+    {
+     "it": "Hai scritto a qualcuno? Le hai scritto o gli hai telefonato?",
+     "es": "¿Le escribiste a alguien? ¿Le escribiste o la llamaste por teléfono?"
+    }
+   ],
+   "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
+   "checklist_es": [
+    "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+    "No leí: hablé de corrido, aunque con pausas.",
+    "Cuidé lo que enseña este módulo: Lo/la/li/le o gli/le: el verbo decide; Sin «a» personal; El pronombre pegado: farlo, vederla.",
     "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
    ]
   }
@@ -1604,6 +1674,48 @@
     "module": "a2m03",
     "it": "Che cosa facevi quando è squillato il telefono l'ultima volta?",
     "es": "¿Qué hacías cuando sonó el teléfono la última vez?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m04_1",
+    "module": "a2m04",
+    "it": "Dove compri la frutta? La compri al mercato?",
+    "es": "¿Dónde compras la fruta? ¿La compras en el mercado?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m04_2",
+    "module": "a2m04",
+    "it": "Hai un libro preferito? Quando l'hai letto?",
+    "es": "¿Tienes un libro favorito? ¿Cuándo lo leíste?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m04_3",
+    "module": "a2m04",
+    "it": "Hai visto un amico questa settimana? Dove l'hai visto?",
+    "es": "¿Viste a un amigo esta semana? ¿Dónde lo viste?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m04_4",
+    "module": "a2m04",
+    "it": "Scrivi spesso ai tuoi amici? Che cosa gli scrivi?",
+    "es": "¿Les escribes seguido a tus amigos? ¿Qué les escribes?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m04_5",
+    "module": "a2m04",
+    "it": "Quanta frutta mangi al giorno? Ne mangi molta?",
+    "es": "¿Cuánta fruta comes al día? ¿Comes mucha?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m04_6",
+    "module": "a2m04",
+    "it": "Le tue chiavi dove le tieni? Le trovi sempre?",
+    "es": "Tus llaves, ¿dónde las guardas? ¿Las encuentras siempre?",
     "authored": true
    }
   ]

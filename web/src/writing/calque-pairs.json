@@ -2540,6 +2540,46 @@
     "wrong": "Mio migliore amico è marocchino."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Hai delle foto? Sì, ne ho molte.",
+    "wrong": "Hai di le foto? Sì, ne ho molte."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Quanti caffè bevi? Ne bevo due al giorno.",
+    "wrong": "Quanti caffè bevi? Ne bevo due a il giorno."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Hai amiche a Roma? Sì, ne ho due.",
+    "wrong": "Hai amiche in Roma? Sì, ne ho due."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Quante mail ricevi? Ne ricevo dieci al giorno.",
+    "wrong": "Quante mail ricevi? Ne ricevo dieci a il giorno."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Hai delle mele? Sì, ne ho tre.",
+    "wrong": "Hai di le mele? Sì, ne ho tre."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Quanti libri leggi? Ne leggo uno al mese.",
+    "wrong": "Quanti libri leggi? Ne leggo uno a il mese."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Quante lezioni hai? Ne ho cinque alla settimana.",
+    "wrong": "Quante lezioni hai? Ne ho cinque a la settimana."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Hai della frutta? Sì, ne ho tanta.",
+    "wrong": "Hai di la frutta? Sì, ne ho tanta."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il suo negozio è sempre pieno di clienti.",
     "wrong": "Suo negozio è sempre pieno di clienti."
@@ -2725,6 +2765,16 @@
     "wrong": "Prendi tuo tempo prima di rispondere."
   },
   {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Ho conosciuto Mattias in Spagna.",
+    "wrong": "Ho conosciuto Mattias a Spagna."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Ho conosciuto Mattias in Spagna.",
+    "wrong": "Ho conosciuto a Mattias in Spagna."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Hai preso della pizza?",
     "wrong": "Hai preso di la pizza?"
@@ -2733,6 +2783,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Lei è uscita.",
     "wrong": "Lei ha uscita."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Lei ama Tom.",
+    "wrong": "Lei ama a Tom."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -2783,6 +2838,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Si è perso mentre camminava nei boschi.",
     "wrong": "Si è perso mentre camminava in i boschi."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Io amo Alex.",
+    "wrong": "Io amo a Alex."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Io amo Natasha.",
+    "wrong": "Io amo a Natasha."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -2838,6 +2903,16 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Ho capito il mio errore.",
     "wrong": "Ho capito mio errore."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Devi concentrarti sul futuro.",
+    "wrong": "Devi concentrarti su il futuro."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Ieri ho visto Mary.",
+    "wrong": "Ieri ho visto a Mary."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2918,6 +2993,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Vorrei parlare con il mio avvocato.",
     "wrong": "Vorrei parlare con mio avvocato."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "A volte lo vedo al club.",
+    "wrong": "A volte lo vedo a il club."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -3065,6 +3145,51 @@
     "wrong": "Lui vive completamente da solo in i boschi."
   },
   {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Tu conosci Tom?",
+    "wrong": "Tu conosci a Tom?"
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Lei conosce Tom?",
+    "wrong": "Lei conosce a Tom?"
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Tu ami Tom?",
+    "wrong": "Tu ami a Tom?"
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Hai visto Tom?",
+    "wrong": "Hai visto a Tom?"
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Ho visto Tom oggi.",
+    "wrong": "Ho visto a Tom oggi."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Come conosci Tom?",
+    "wrong": "Come conosci a Tom?"
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Come conosce Tom?",
+    "wrong": "Come conosce a Tom?"
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Io vedo Tom ogni giorno.",
+    "wrong": "Io vedo a Tom ogni giorno."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Non vedo Tom da mesi.",
+    "wrong": "Non vedo a Tom da mesi."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Mi è piaciuta la tua idea e l'ho adottata.",
     "wrong": "Mi è piaciuta tua idea e l'ho adottata."
@@ -3130,6 +3255,11 @@
     "wrong": "Tiene paura di perdere influenza e attenzione."
   },
   {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Peter ama Jane.",
+    "wrong": "Peter ama a Jane."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Ha mostrato i suoi talenti.",
     "wrong": "Ha mostrato suoi talenti."
@@ -3138,6 +3268,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Lei ha mostrato i suoi talenti.",
     "wrong": "Lei ha mostrato suoi talenti."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Da quanto tempo conosce Judy?",
+    "wrong": "Da quanto tempo conosce a Judy?"
   },
   {
     "code": "ERR_PERSONAL_A",
@@ -3170,6 +3305,31 @@
     "wrong": "Non andare in la mia stanza."
   },
   {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Io conosco Tom.",
+    "wrong": "Io conosco a Tom."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Io vedo Tom.",
+    "wrong": "Io vedo a Tom."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Non amo Tom.",
+    "wrong": "Non amo a Tom."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Io amo Hitomi.",
+    "wrong": "Io amo a Hitomi."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Io conosco Tom molto bene.",
+    "wrong": "Io conosco a Tom molto bene."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Tom è arrivato otto giorni fa.",
     "wrong": "Tom ha arrivato otto giorni fa."
@@ -3183,6 +3343,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Lei ha distrutto i suoi nemici.",
     "wrong": "Lei ha distrutto suoi nemici."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Io amo Tom.",
+    "wrong": "Io amo a Tom."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -3275,6 +3440,16 @@
     "wrong": "Si adatta perfettamente a tutte tue esigenze?"
   },
   {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Tom non conosce Mary.",
+    "wrong": "Tom non conosce a Mary."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Lei conosce Tom di persona?",
+    "wrong": "Lei conosce a Tom di persona?"
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Vorrei viaggiare intorno al mondo.",
     "wrong": "Vorrei viaggiare intorno a il mondo."
@@ -3290,6 +3465,11 @@
     "wrong": "C'erano molte persone in la camera."
   },
   {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Io conosco Tom da molto tempo.",
+    "wrong": "Io conosco a Tom da molto tempo."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Ho incontrato i miei amici al bar.",
     "wrong": "Ho incontrato miei amici al bar."
@@ -3298,6 +3478,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Ho incontrato i miei amici al bar.",
     "wrong": "Ho incontrato i miei amici a il bar."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Tom conosce Mary abbastanza bene.",
+    "wrong": "Tom conosce a Mary abbastanza bene."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3370,6 +3555,11 @@
     "wrong": "Ha nato a Osaka."
   },
   {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Ho visto Bob stamattina.",
+    "wrong": "Ho visto a Bob stamattina."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Taro è morto due anni fa.",
     "wrong": "Taro ha morto due anni fa."
@@ -3435,6 +3625,11 @@
     "wrong": "Oh, miei pantaloni bianchi! Erano nuovi."
   },
   {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Io vedo Marika quasi ogni giorno.",
+    "wrong": "Io vedo a Marika quasi ogni giorno."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Sul tavolo c'era un gatto.",
     "wrong": "Su il tavolo c'era un gatto."
@@ -3463,6 +3658,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Il mio appuntamento è alle due e mezza.",
     "wrong": "Il mio appuntamento è a le due e mezza."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Il suo lavoro gli piace.",
+    "wrong": "Suo lavoro gli piace."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -3565,6 +3765,11 @@
     "wrong": "C'è un giardino davanti a la casa."
   },
   {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Lucy conosce Mary.",
+    "wrong": "Lucy conosce a Mary."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "C'erano dei piranha nel fiume.",
     "wrong": "C'erano dei piranha in il fiume."
@@ -3610,6 +3815,11 @@
     "wrong": "Vorrei studiare in Parigi."
   },
   {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Mary non ama Tom.",
+    "wrong": "Mary non ama a Tom."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La registrazione inizia alle due e mezza.",
     "wrong": "La registrazione inizia a le due e mezza."
@@ -3630,9 +3840,19 @@
     "wrong": "Tutti i fiori in il giardino sono gialli."
   },
   {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Io vedo Dana.",
+    "wrong": "Io vedo a Dana."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Noi siamo andate troppo lontano.",
     "wrong": "Noi abbiamo andate troppo lontano."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Ho conosciuto Fred per strada.",
+    "wrong": "Ho conosciuto a Fred per strada."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3665,6 +3885,11 @@
     "wrong": "Vorrei di le scarpe per una mia amica."
   },
   {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Tom ama Mary.",
+    "wrong": "Tom ama a Mary."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "In che anno siete nate?",
     "wrong": "In che anno avete nate?"
@@ -3695,6 +3920,21 @@
     "wrong": "Lei ha fino a le due e mezza."
   },
   {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Jean ama Maria.",
+    "wrong": "Jean ama a Maria."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Dan conosce Linda dall'asilo.",
+    "wrong": "Dan conosce a Linda dall'asilo."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Dan conosce Linda dall'asilo.",
+    "wrong": "Dan conosce Linda da l'asilo."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Cosa succede qui alle due e mezza?",
     "wrong": "Cosa succede qui a le due e mezza?"
@@ -3708,6 +3948,11 @@
     "code": "ERR_PREP_PLACE",
     "correct": "Domani finalmente mia moglie viene in Italia!",
     "wrong": "Domani finalmente mia moglie viene a Italia!"
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "So che ama Tom.",
+    "wrong": "So che ama a Tom."
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -3800,6 +4045,21 @@
     "wrong": "Qualcuno ha rubato mio orologio."
   },
   {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Tom conosce Mary.",
+    "wrong": "Tom conosce a Mary."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Per piacere, chiama Tom.",
+    "wrong": "Per piacere, chiama a Tom."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Per piacere, chiami Tom.",
+    "wrong": "Per piacere, chiami a Tom."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "All'improvviso mi ha visto.",
     "wrong": "A l'improvviso mi ha visto."
@@ -3875,6 +4135,11 @@
     "wrong": "A l'improvviso il cielo è diventato scuro."
   },
   {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Ho visto Liz stamattina.",
+    "wrong": "Ho visto a Liz stamattina."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "L'ho sentito alla radio.",
     "wrong": "L'ho sentito a la radio."
@@ -3888,6 +4153,11 @@
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è una penna tra la mela e il libro.",
     "wrong": "Ci sono una penna tra la mela e il libro."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Lei ama Tom più di me.",
+    "wrong": "Lei ama a Tom più di me."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -4015,6 +4285,11 @@
     "wrong": "Sono stato a l'estero."
   },
   {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Hai visto Tom in Australia?",
+    "wrong": "Hai visto a Tom in Australia?"
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "È venuto qui dieci minuti fa.",
     "wrong": "Ha venuto qui dieci minuti fa."
@@ -4063,6 +4338,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Non usare la mia penna.",
     "wrong": "Non usare mia penna."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Ho conosciuto Ken ieri.",
+    "wrong": "Ho conosciuto a Ken ieri."
   },
   {
     "code": "ERR_PREP_PLACE",

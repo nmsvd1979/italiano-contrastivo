@@ -39,7 +39,9 @@ for c in m["capsulas"]:
     if uid in REUSE.values():
         continue
     e = catalog[c["code"]]
-    ficha = e["explanation_es"] + "\n\nError típico: " + c["calco_es"] + (". Válido y no es error: " + "; ".join(c["formas_validas_es"]) if c.get("formas_validas_es") else "")
+    prog = [q["text_es"] for q in syl["requisitos"] if c["id"] in q.get("capsulas", [])]   # lo que pide el programa oficial para esta cápsula
+    ficha = (e["explanation_es"] + "\n\nError típico: " + c["calco_es"] + (". Válido y no es error: " + "; ".join(c["formas_validas_es"]) if c.get("formas_validas_es") else "")
+             + ("\n\nQué practicas aquí: " + "; ".join(prog) + "." if prog else "") + "\n\nSituación del módulo: " + m["situacion_es"])
     u = {"id": uid, "level": "A2", "title": c["title_es"], "goal_es": c["title_es"] + (" (solo reconocer)" if c.get("productive") is False else ""),
          "codes": [c["code"]], "why_here": m["situacion_es"], "ficha_es": ficha}
     if c.get("productive") is False:

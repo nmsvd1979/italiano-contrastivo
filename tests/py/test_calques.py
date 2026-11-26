@@ -132,7 +132,7 @@ NEW_CODES = set(calques_a2.GENERATORS) | {"ERR_ARTICLE_ALLOMORPH", "ERR_POSSESSI
 # Error de REGISTRO, no de forma: «scusa» es válido con «tu»; solo es error junto a un vocativo formal («Scusa, signore»). El generador exige ese vocativo.
 # La forma sin concordar de un participio («è uscito») es válida con otro sujeto: en la consigna el español fija el género (decisión 2026-11-26, a2m01).
 # Idem el cambio de tiempo (passato prossimo ↔ imperfetto) y non… più/ancora: ambos son italiano válido; los fija el español de la consigna.
-REGISTRO = {"ERR_IMPERATIVO_LEI", "ERR_PARTICIPLE_AGREEMENT", "ERR_PARTICIPLE_AGREEMENT_CLITIC", "ERR_PP_VS_IMPERFETTO", "ERR_AVVERBI_PASSATO"}
+REGISTRO = {"ERR_IMPERATIVO_LEI", "ERR_PARTICIPLE_AGREEMENT", "ERR_PARTICIPLE_AGREEMENT_CLITIC", "ERR_PP_VS_IMPERFETTO", "ERR_AVVERBI_PASSATO", "ERR_CLITIC_NE"}   # «ho molti.» sin «ne» es válido si el nombre está dicho antes
 
 
 def test_ningun_calco_aparece_en_el_corpus_validado():

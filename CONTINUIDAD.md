@@ -2,6 +2,14 @@
 
 Registro de avances. Lo más reciente arriba.
 
+## 2026-11-26 (38) — Fase 5: módulo a2m04 «Pronombres que ahorran palabras» construido
+**Pedido del usuario:** «Sigue con a2m04».
+**Hecho:** lista de cierre en rojo → verde. 265 candidatas auditadas por tres agentes → **234 frases** en cinco cápsulas: lo/la/li/le y gli/le (a2c12) 49, «a» personal (a2c13, reutiliza u10) 43 nuevas (u10 pasa de 15 a 56 frases de práctica), pronombre pegado farlo/vederla 48, l'ho vista/li ho comprati 41, «ne» de cantidad 43 (las 46 variantes ya confirmadas en la Fase 2); 41 rechazadas; respaldo `content/audits/2026-11-26-a2m04-veredictos.json`. Entrada **reutiliza** `rd_ristorante` (Piacere!, sigue en u22 y u65 de A1: no se movió). 4 unidades nuevas (u85, u86, u87, u88) + u10; Salida (2 juegos de rol, tarea oral, 6 preguntas por voz); paquete, 266 clips (+18 de segunda voz) y voz humana (banco 453); **A1 intacto** (solo cambió u10, que es de A2). Las fichas de las unidades de A2 ahora añaden «Qué practicas aquí» (lo que pide el programa) y la situación del módulo.
+**Decisiones mías:** la prueba de cierre exime a la «a» personal del tope de nombres propios (sus frases llevan nombres por naturaleza); «ho molti.» sin «ne» es válido si el nombre se dijo antes (exento en la prueba de calcos); un auditor devolvió códigos de cápsula en vez de códigos de error en dos tandas y lo corregí antes de aplicar.
+**Comprobado:** Python 1.512, web 1.456, tsc y build en verde; lista de cierre de a2m01–a2m04.
+**No comprobado:** iPhone y pasos con una persona; audio sin escuchar; nada revisado por un nativo.
+**Siguiente:** a2m05 (comparar y comprar: più…di/che, meglio, qualche, falsos amigos de casa; reutiliza u11 y u47).
+
 ## 2026-11-26 (37) — Fase 5: módulo a2m03 «Contar una anécdota» y ejercicio de relato conectado
 **Pedido del usuario:** «Sigue con a2m03».
 **Hecho:** (1) **Relatos conectados:** `reading_items.json` lleva los 7 relatos (`cloze_text`) bajo la clave `u83:relatos` (solo si el módulo está construido); no entran a `itemsByCode`, así que **no pasan por el repaso espaciado ni por puntos débiles**; la práctica los intercala (uno cada ≈12 ejercicios desde el 8.º) y el Cierre del módulo incluye uno que cambia en cada reintento (`practiceItems` y `moduleTestItems`). Prueba nueva `web/src/state/relatosModulo.test.ts` (en rojo → verde). (2) **Frases:** c10 trama y fondo 32 y c11 «prima di»/«dopo» 71 aprobadas = **103** (180 candidatas auditadas por dos agentes; las dos cápsulas llevan variante a mano confirmada por una 2.ª pasada adversarial: c10 32 de 42, c11 71 de 73; respaldo `content/audits/2026-11-26-a2m03-veredictos.json`). (3) Texto de entrada nuevo `rd_eurochocolate` (diálogo de 16 líneas), 15 palabras nuevas, 2 unidades (u83, u84), Salida (2 juegos de rol, tarea oral, 6 preguntas por voz), paquete, 139 clips (+25 de segunda voz) y voz humana; **A1 intacto**. Precache 10,03 MB.

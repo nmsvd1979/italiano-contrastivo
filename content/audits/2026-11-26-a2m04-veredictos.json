@@ -1,0 +1,1816 @@
+[
+ {
+  "id": "s_947814",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "No lo veo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4549",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "No lo conozco.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_969555",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Le gusta correr.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3358367",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "¿Le gusta Nueva York?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_383006",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "No lo conocemos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3608373",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "¿Quién no los conoce?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_472738",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Ellos lo llaman Jim.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_424374",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Todos lo llaman Mac.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1082281",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Lo conozco desde hace un año.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1299368",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "No le gusta el café.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_353209",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Lo conozco solo de nombre.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_383495",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Le gusta su trabajo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1535149",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "A veces lo veo en el club.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1308626",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "No le gusta el tenis.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_374438",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Le gusta vivir en Tokio.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1622633",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Su padre lo llama «Tom».",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_395552",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "reject",
+  "nota": "Dislocazione a destra, registro marcato."
+ },
+ {
+  "id": "s_8272134",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Le gusta leer libros.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1510822",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Le gusta el pan con mantequilla.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_374609",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Le gusta escuchar la radio.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5402329",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Le gusta la ensalada de papas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_373811",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Le gustan los juegos de palabras.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3423543",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "¡Pero ustedes ni siquiera lo conocían!",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3937917",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Lo llamo cuando vuelvo a la oficina.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2851744",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Hace mucho tiempo que no lo veo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1010025",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Hace más de un año que no lo veo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7915414",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Le gustan la lluvia y la nieve.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13983320",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Tom dice que no le gusta Boston.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2459067",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Lo conozco desde hace más de diez años.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1806137",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "reject",
+  "nota": "Congiuntivo."
+ },
+ {
+  "id": "s_1616436",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Le gusta cocinar para su familia.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1261611",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Le gustan la geografía y la historia.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_763211",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "reject",
+  "nota": "Tema de culpa/víctima, no neutro."
+ },
+ {
+  "id": "s_13646401",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "No le gusta ser el centro de atención.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2959807",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Él es mi vecino, pero no lo conozco bien.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_14009498",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Tom dijo que no le gusta el aire acondicionado.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_521344",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "He oído hablar de él, pero no lo conozco personalmente.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4833446",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "reject",
+  "nota": "Congiuntivo."
+ },
+ {
+  "id": "s_5276996",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "¡Pero le gusta!",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2001293",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "¿Le gusta Tom?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1297524",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "Ella lo ayuda.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3802490",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "reject",
+  "nota": "Ambigua: «Lei le piace» es dislocación rara."
+ },
+ {
+  "id": "s_3112133",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "No le gusta.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1019247",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "¿Qué le gusta?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2943978",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "¡Ella le gusta a él!",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1553650",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "¿Yo lo conozco?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5276999",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "¡Pero le gusta!",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5071053",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "reject",
+  "nota": "«Bere» puede sugerir alcohol; ambigua."
+ },
+ {
+  "id": "s_1098236",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "¿Le gusta el té?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4648295",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "¿Cuál le gusta?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3758615",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "¿Lo ves seguido?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3758616",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "¿Lo ve seguido?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1008590",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "¿Le gusta Moscú?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5991532",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "No los conoces.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3322075",
+  "codigo": "ERR_CLITIC_DIRECT_INDIRECT",
+  "veredicto": "keep",
+  "espanol": "¿Lo conoce Tom?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1255767",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Ella ama a Tom.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2551050",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Conozco a Tom.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5534421",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Jean ama a María.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2001411",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "¿Viste a Tom?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2001880",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Hoy vi a Tom.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13970895",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Ayer vi a Mary.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_995743",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Ayer conocí a Ken.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_375616",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Esta mañana vi a Bob.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_742135",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Esta mañana vi a Liz.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_9246781",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "¿Has visto a Tom en Australia?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_375615",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "reject",
+  "nota": "Duplicado de s_375616."
+ },
+ {
+  "id": "s_4711088",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Conocí a Fred en la calle.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1224886",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Conocí a Mattias en España.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2001387",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "¿Amas a Tom?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2792293",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Yo amo a Tom.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2559861",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Yo veo a Tom.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13297471",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Yo amo a Alex.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2560817",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "No amo a Tom.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5281441",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Tom ama a Mary.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4582937",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Yo veo a Dana.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2565449",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Yo amo a Hitomi.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2436684",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "reject",
+  "nota": "Boston no es persona."
+ },
+ {
+  "id": "s_13297510",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Yo amo a Natasha.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13297915",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "reject",
+  "nota": "Harvard no es persona."
+ },
+ {
+  "id": "s_2001274",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "¿Conoces a Tom?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5709368",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Sé que ella ama a Tom.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2969527",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "reject",
+  "nota": "Tatoeba no es persona."
+ },
+ {
+  "id": "s_2412034",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Peter ama a Jane.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2001278",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "¿Conoce usted a Tom?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1739909",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "reject",
+  "nota": "Tatoeba no es persona."
+ },
+ {
+  "id": "s_6472006",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Tom conoce a Mary.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2022835",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "¿Cómo conoces a Tom?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2022836",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "¿Cómo conoce usted a Tom?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4506452",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Mary no ama a Tom.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4202320",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Lucy conoce a Mary.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5467184",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "reject",
+  "nota": "Boston no es persona."
+ },
+ {
+  "id": "s_2084398",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "No veo a Tom desde hace meses.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3257923",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Tom no conoce a Mary.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7579474",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Ella ama a Tom más que a mí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2023155",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Yo veo a Tom todos los días.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6476778",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Por favor, llama a Tom.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6476782",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Por favor, llame a Tom.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3322048",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "reject",
+  "nota": "Indicativo tras «sicuro che»: dudoso/innatural."
+ },
+ {
+  "id": "s_3322049",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "reject",
+  "nota": "Indicativo tras «sicura che»: dudoso/innatural."
+ },
+ {
+  "id": "s_2580208",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Conozco a Tom muy bien.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13240949",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "reject",
+  "nota": "Nombre truncado; errado artificial."
+ },
+ {
+  "id": "s_3322087",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "¿Conoce usted a Tom en persona?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2455003",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "¿Desde hace cuánto tiempo conoce a Judy?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5544909",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Dan conoce a Linda desde el jardín infantil.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3382143",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Conozco a Tom desde hace mucho tiempo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4212258",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "reject",
+  "nota": "«sin dall'asilo» calco del español."
+ },
+ {
+  "id": "s_1699845",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "reject",
+  "nota": "Charlotte es sujeto, no objeto."
+ },
+ {
+  "id": "s_3471001",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Tom conoce a Mary bastante bien.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3810643",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "keep",
+  "espanol": "Veo a Marika casi todos los días.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3471004",
+  "codigo": "ERR_PERSONAL_A",
+  "veredicto": "reject",
+  "nota": "Duplicado de s_3471001."
+ },
+ {
+  "id": "s_14000523",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedes abrirlo?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1084204",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "No puedo decirlo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4049878",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "Tom quiere hacerla.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1999878",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Tom puede ayudarnos?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2990757",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "No puedo verlo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7817331",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "No quieres perderlo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5705966",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "No puedo negarlo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5468165",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "No puedo pagarlo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1343700",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedes decirlo otra vez?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_14032604",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedo sentarme ahí?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2423091",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "No puedo detenerlo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_662739",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "Puedes tenerlo gratis.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_731163",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "No puedo ayudarte.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_890943",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "No puedo mentirte.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2196565",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "Cualquiera puede hacerlo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2025175",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "reject",
+  "nota": "acusar, tema legal"
+ },
+ {
+  "id": "s_8394690",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "Puedo hacerlo yo solo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4711097",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "No pueden verla.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_14027140",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "reject",
+  "nota": "referente poco claro"
+ },
+ {
+  "id": "s_10763517",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedes decirme dónde estoy?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1691780",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Dónde puedo comprarla?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2466109",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "Quiero gustarte, Tom.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1268075",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedo hablar contigo ahora?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_991605",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¡Debbie! ¿Puedes oírme?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2987087",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedes darnos un ejemplo?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_749855",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "No puedo soportarlo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_8014725",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no quieres hacerlo?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3652667",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "Quiero hacerla feliz.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3164518",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedo contarte un secreto?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_14029956",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedo sentarme con él?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2908635",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "reject",
+  "nota": "riavere B1"
+ },
+ {
+  "id": "s_911061",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedo hacerte una pregunta?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4835145",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "reject",
+  "nota": "abbandonare B1"
+ },
+ {
+  "id": "s_3792819",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "reject",
+  "nota": "vulgar"
+ },
+ {
+  "id": "s_4656911",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedo traerle un café?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4656914",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedo traerte un café?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_10325111",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "reject",
+  "nota": "sexual"
+ },
+ {
+  "id": "s_4258137",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no pueden hacerla?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2797631",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedes pagarme por adelantado?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_382920",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "No puedo decirte la verdad.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5994527",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "No podemos ayudarlo ahora.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_708374",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedo pedirte un favor?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4313781",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "No quiero venderte nada.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3591304",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "Puedo mostrarte los documentos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4346837",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "No puedo culparte.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13970884",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "Debes concentrarte en el futuro.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7792085",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedo esconderme aquí dentro?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1179773",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "No quiero ensuciarme las manos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_625118",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puede decirme qué está pasando?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_625117",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedes decirme qué está pasando?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2860260",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedo ayudarte en algo?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2021763",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puede el abogado verme el viernes?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3690389",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Cómo puedo ayudarlos exactamente?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1578258",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "keep",
+  "espanol": "¿Puedo hacerle una pregunta indiscreta?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_10803861",
+  "codigo": "ERR_CLITICO_POSIZIONE",
+  "veredicto": "reject",
+  "nota": "frase forzada"
+ },
+ {
+  "id": "s_5991501",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Por qué los dejaste ir?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1539492",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "Los vi jugar béisbol.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2788431",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "No se preocupe, no los compré.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1213071",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Cuándo los vio por primera vez?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5709064",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "Las avisé.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3437111",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Dónde los leyó?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3893010",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "reject",
+  "nota": "referente poco natural"
+ },
+ {
+  "id": "s_3437109",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Dónde los leíste?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3893008",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "reject",
+  "nota": "referente poco natural"
+ },
+ {
+  "id": "s_5373652",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "Las ayudé ayer.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3437113",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Dónde los leyeron?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3964284",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "reject",
+  "nota": "verbo B1, referente oscuro"
+ },
+ {
+  "id": "s_3892600",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Dónde las escondiste?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3893012",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "reject",
+  "nota": "referente poco natural"
+ },
+ {
+  "id": "s_3964282",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "reject",
+  "nota": "verbo B1"
+ },
+ {
+  "id": "s_3894403",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "reject",
+  "nota": "violencia"
+ },
+ {
+  "id": "s_3964505",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "reject",
+  "nota": "verbo B1"
+ },
+ {
+  "id": "s_3894401",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "reject",
+  "nota": "violencia"
+ },
+ {
+  "id": "s_3964287",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "reject",
+  "nota": "verbo B1"
+ },
+ {
+  "id": "s_3892604",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Dónde las escondieron?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3893020",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "reject",
+  "nota": "verbo frasale, referente oscuro"
+ },
+ {
+  "id": "s_3894405",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "reject",
+  "nota": "violencia"
+ },
+ {
+  "id": "s_3964289",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "reject",
+  "nota": "verbo B1"
+ },
+ {
+  "id": "s_3962095",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "reject",
+  "nota": "verbo B1"
+ },
+ {
+  "id": "s_3964293",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "reject",
+  "nota": "verbo B1"
+ },
+ {
+  "id": "s_4721619",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "Las vi.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4721616",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "Los vi.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_712869",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Las viste?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_712868",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Los viste?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5267990",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Los encontró?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5085973",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "Las encontré.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5720345",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Los detuvo?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5716888",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "Los ayudé.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5720342",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Las detuvo?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5267994",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Las encontró?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5085972",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "Los encontré.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5267992",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Las encontraste?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5709059",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "Los avisé.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5720340",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Los detuviste?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5267988",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Los encontraste?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5709060",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "Las avisé.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5720343",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Las detuviste?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_712870",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Los vieron?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_712871",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Las vieron?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2237832",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "Tom las vio.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5709063",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "Los avisé.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2237831",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "Tom los vio.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2534778",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "Las vimos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5267995",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Las encontraron?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3961881",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Dónde las puso?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2534775",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "Los vimos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5720347",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Las detuvieron?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3437112",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Dónde las leyó?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5267991",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Los encontraron?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3961880",
+  "codigo": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+  "veredicto": "keep",
+  "espanol": "¿Dónde los puso?",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_dbb942e5",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Tienes dinero? Tengo poco.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_f30121cb",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Tienes hijos? Sí, tengo dos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_94578c1d",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Tienes gatos? Sí, tengo dos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_3ca33d4e",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántas tías tienes? Tengo tres.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_38a79fc2",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Tienes lápices? Sí, tengo seis.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_1cc14b85",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Tienes dudas? Sí, tengo muchas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_0b3936f8",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Tienes entradas? Tengo pocas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_0bdac384",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Tienes hermanos? Sí, tengo tres.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_7ca955d6",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Tienes primos? Tengo muchos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_d172c70a",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántos bolsos tienes? Tengo dos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_5cb5167f",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Tienes hermanos? Sí, tengo uno.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_b24bbaca",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántas primas tienes? Tengo tres.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_6ed039d6",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántas habitaciones tienes? Tengo tres.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_962d556f",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Tienes manzanas? Sí, tengo tres.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_5a02cda9",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántos bolígrafos tienes? Tengo diez.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_7e71d5f7",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántas hermanas tienes? Tengo una.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_48501500",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Tienes cuadernos? Sí, tengo muchos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_5da790f8",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántos amigos tienes? Tengo muchos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_d52a9539",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántos tíos tienes? Tengo cuatro.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_9f1ebc2f",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántos hermanos tienes? Tengo dos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_69f95378",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántas amigas tienes? Tengo muchas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_b2f3ee3c",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántas manzanas tienes? Tengo cuatro.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_04270e5f",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Tienes fotos? Sí, tengo muchas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_7baa40ca",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Tienes amigos italianos? Tengo pocos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_079e969e",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántas entradas tienes? Tengo dos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_5518d253",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántos primos tienes? Tengo cinco.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_ca36807e",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántos hijos tiene Marco? Tiene dos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_8332c62f",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Escribes mensajes? Escribo muchos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_5cc245be",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Tienes amigas en Roma? Sí, tengo dos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_9e27ea33",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Tienes fruta? Sí, tengo mucha.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_d2d07333",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántos sándwiches quieres? Quiero uno.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_6444c6af",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántos libros tienes? Tengo muchísimos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_abaa3f3f",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿A cuántos amigos invitas? Invito a seis.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_3d99faa2",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántas manzanas quieres? Quiero cuatro.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_025355a9",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Tienes libros en italiano? Sí, tengo muchos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_4e164aad",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántas galletas comes? Como tres.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_6c979274",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántos libros compras? Compro cuatro.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_981bcffc",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántas pizzas comen? Comemos dos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_5ad8332c",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántos cafés bebes? Bebo dos al día.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_971a6ebc",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántos libros lees? Leo uno al mes.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_3abca53d",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántas películas ves? Veo una a la semana.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_5ee23142",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántos correos recibes? Recibo diez al día.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_987ec311",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "keep",
+  "espanol": "¿Cuántas clases tienes? Tengo cinco a la semana.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2433238",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "reject",
+  "nota": "Sin contexto: «ne» no tiene antecedente; «Ho una» también es válido."
+ },
+ {
+  "id": "s_2433236",
+  "codigo": "ERR_CLITIC_NE",
+  "veredicto": "reject",
+  "nota": "Sin contexto: «ne» no tiene antecedente; «Ho una» también es válido."
+ }
+]

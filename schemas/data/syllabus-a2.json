@@ -743,7 +743,7 @@
   },
   {
    "id": "a2m04",
-   "estado": "planificado",
+   "estado": "cerrado",
    "title_es": "Pronombres que ahorran palabras",
    "situacion_es": "En la tienda y en el restaurante: «lo prendo», «gli telefono», «l'ho visto».",
    "can_do_es": [
@@ -827,9 +827,9 @@
     "u10"
    ],
    "entrada": {
-    "id": "rd_alristorante",
-    "fuente": "Piacere! «Lettura: Al ristorante» (diálogo de 11 turnos)",
-    "nota": "adaptación fiel con correcciones de erratas"
+    "id": "rd_ristorante",
+    "fuente": "Piacere! «Lettura: Al ristorante» (ya en el repositorio: lectura de u22 y u65 de A1; se reutiliza, no se mueve)",
+    "nota": "reutilizada"
    },
    "libro_entrada_es": "P/lettura-al-ristorante/",
    "libros_preguntas_es": "P/i-pronomi-di-oggetto-diretto/, P/accordo-del-participio-passato/, P/624/, T/capitolo-9 §9.7 (posición con modales), P/737/ (ne), G/g-7-4-…",
