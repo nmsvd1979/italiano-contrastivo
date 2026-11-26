@@ -183,3 +183,21 @@ describe("card + ts-fsrs real", async () => {
     expect(cal.neutral).toEqual({ delta_d: 0, gamma_s: 1 });
   });
 });
+
+// Esquemas de la ruta y de los programas (schemas/data): los mismos archivos que valida pytest, ahora con el validador que usa la web (Ajv).
+import Ajv2020 from "ajv/dist/2020.js";
+describe("esquemas de datos (ruta y programas)", () => {
+  const load = (p) => JSON.parse(readFileSync(new URL(`../${p}`, import.meta.url), "utf8"));
+  const ajv = new Ajv2020({ strict: false, allErrors: true });
+  const run = (schema, file) => {
+    const validate = ajv.getSchema(`https://italiano-contrastivo/schemas/data/${schema}.schema.json`) ?? ajv.compile(load(`schemas/data/${schema}.schema.json`));
+    const ok = validate(load(file));
+    expect(ok, JSON.stringify(validate.errors?.slice(0, 3))).toBe(true);
+  };
+  it("la ruta publicada cumple course.schema.json", () => run("course", "web/public/content/course.json"));
+  it("la ruta de autoría cumple course-source.schema.json", () => run("course-source", "schemas/data/course.json"));
+  it("los programas de A1 y A2 cumplen syllabus.schema.json", () => {
+    run("syllabus", "schemas/data/syllabus-a1.json");
+    run("syllabus", "schemas/data/syllabus-a2.json");
+  });
+});

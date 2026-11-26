@@ -1,291 +1,1493 @@
 {
- "version": 1,
+ "version": 2,
  "nivel": "A2",
  "cierre": false,
- "fuentes": "Sillabo CILS A2 y PLIDA A2 (funciones, gramática y áreas); los requisitos se redactaron a partir de los programas oficiales y de la hoja de ruta, sin revisión de un nativo. Confirmar cada requisito contra los PDF antes de cerrar el nivel (por verificar).",
- "nota": "Archivo escrito ANTES de construir A2 (lección de A1: descubrir los huecos al final obligó a una segunda pasada). Cada requisito pertenece a un módulo planificado de `modulos_planificados`. «cierre»: false = A2 sin construir; al cerrar el nivel debe pasar a true y la prueba exige el 80 % cubierto.",
+ "fuentes": [
+  {
+   "id": "cils-a2",
+   "uso": "Programa oficial: morfosintaxis productiva y receptiva, pragmática y formato del examen",
+   "url": "https://iicbuenosaires.esteri.it/wp-content/uploads/2025/05/Contenuti-Livello-A2.pdf",
+   "leido": "completo (3 páginas), 2026-11-26"
+  },
+  {
+   "id": "plida-sillabo",
+   "uso": "Competencias comunicativas, dominios, temas, textos y formato del examen",
+   "url": "https://cms.plida.dante.global/wp-content/uploads/2022/11/Sillabo_della_certificazione_PLIDA-1.pdf",
+   "leido": "A2 (p. 12–19) y B1 (p. 24–25) para delimitar, 2026-11-26"
+  },
+  {
+   "id": "sillabo-enti-a2",
+   "uso": "Funciones, formas y léxico A2 (Tab. 9 y 14)",
+   "url": "https://www.regione.calabria.it/wp-content/uploads/2020/11/all.%20h%20-%20sillabo_-_a2.pdf",
+   "leido": "resumen en docs/referencias/a2.md"
+  },
+  {
+   "id": "nuovo-espresso-2",
+   "uso": "Índice del manual (orden y nivel de los contenidos, para las cápsulas ampliadas)",
+   "url": "https://shop.hueber.de/media/hueber_dateien/Internet_Inhaltsverz/Red3/9783192254390_Inhalt.pdf",
+   "leido": "solo el índice"
+  },
+  {
+   "id": "notebooklm",
+   "uso": "Errores contrastivos con cita (cuaderno «App para aprender italiano», 99 fuentes)",
+   "url": "https://notebook.google.com/notebook/231c3dc2-c7c3-44dd-b591-9515c2de2829",
+   "leido": "consultas acotadas a ≤5 fuentes"
+  },
+  {
+   "id": "libros-abiertos",
+   "uso": "Entradas, preguntas de conversación y diálogos (Piacere!, Tutt* a tavola! 2, Giornate italiane, Leggiamo)",
+   "url": "docs/referencias/a2-programas-y-libros.md",
+   "leido": "102 páginas inventariadas en el navegador integrado"
+  }
+ ],
+ "alcance": {
+  "O": "Oficial: lo exige CILS/PLIDA/Sillabo A2 al producir, o es un calco frecuente que el proyecto decide producir. Entra a la prueba, al Cierre y al hito con escritura.",
+  "A": "Ampliado: lo traen los manuales de A2 pero el programa solo pide reconocerlo. La cápsula lleva productive:false (prueba, Cierre y hito con elección).",
+  "estados": {
+   "covered": "Cubierto por contenido de A2 ya construido y obligatorio en la ruta",
+   "partial": "A1 cubre una parte y A2 completa el resto",
+   "prior": "Cubierto en A1 (no se vuelve a exigir en A2)",
+   "gap": "Sin cubrir todavía: el módulo y las cápsulas planificadas lo cierran",
+   "deferred": "Hueco declarado que A2 no cierra"
+  }
+ },
+ "nota": "Reescrito el 2026-11-26 (Fase 1 del plan docs/specs/2026-11-26-plan-a2.md), antes de construir A2: cada requisito trae fuente exacta, alcance O/A, módulo, cápsulas y evidencia comprobable en frases. Los requisitos están redactados a partir de los programas oficiales leídos, no copiados.",
+ "areas": [
+  "gramatica",
+  "lexico",
+  "funcion",
+  "texto",
+  "fonologia"
+ ],
+ "no_es_a2": [
+  "Congiuntivo (u12 se queda en B1, bloqueada): no figura en CILS A2 ni en PLIDA A2; en A2 se opina con «secondo me» y «penso di».",
+  "Pronombres combinados (glielo), trapassato, condicional pasado, periodo ipotetico irreal.",
+  "Reclamar con detalle, describir síntomas con detalle, dar una receta, grados de certeza sobre el futuro (PLIDA B1, p. 24–25)."
+ ],
+ "reglas_de_cierre": "Un módulo pasa a estado «cerrado» solo con la lista de cierre de plan §7 (tests/py/test_cierre_a2.py y web/src/state/cierreA2.test.ts). `levels[A2].milestone` solo puede ser true con los 10 módulos cerrados.",
+ "correspondencias": [
+  {
+   "antes": "g01",
+   "ahora": [
+    "g10"
+   ],
+   "motivo": "Passato prossimo con avere: ahora con participios irregulares"
+  },
+  {
+   "antes": "g02",
+   "ahora": [
+    "g11",
+    "g12"
+   ],
+   "motivo": "Se divide en elegir el auxiliar y concordar el participio"
+  },
+  {
+   "antes": "g03",
+   "ahora": [
+    "g10"
+   ],
+   "motivo": "Participios irregulares: dentro de g10 (a2c01)"
+  },
+  {
+   "antes": "g04",
+   "ahora": [
+    "g19"
+   ],
+   "motivo": "Reflexivos en pasado"
+  },
+  {
+   "antes": "g05",
+   "ahora": [
+    "g14"
+   ],
+   "motivo": "Imperfetto (formas regulares e irregulares en una cápsula)"
+  },
+  {
+   "antes": "g06",
+   "ahora": [
+    "g16"
+   ],
+   "motivo": "Pasado vs imperfetto en un relato"
+  },
+  {
+   "antes": "g07",
+   "ahora": [
+    "g03"
+   ],
+   "motivo": "lo, la, li, le"
+  },
+  {
+   "antes": "g08",
+   "ahora": [
+    "g04"
+   ],
+   "motivo": "Indirectos: solo reconocer (CILS los pide en recepción)"
+  },
+  {
+   "antes": "g09",
+   "ahora": [
+    "g36",
+    "g37"
+   ],
+   "motivo": "ci y ne: solo reconocer, separados porque son de cápsulas distintas"
+  },
+  {
+   "antes": "g10",
+   "ahora": [
+    "g05"
+   ],
+   "motivo": "Posición del pronombre"
+  },
+  {
+   "antes": "g11",
+   "ahora": [
+    "g20"
+   ],
+   "motivo": "Comparativos"
+  },
+  {
+   "antes": "g12",
+   "ahora": [
+    "g21"
+   ],
+   "motivo": "Superlativo, junto con meglio/migliore"
+  },
+  {
+   "antes": "g13",
+   "ahora": [
+    "g30"
+   ],
+   "motivo": "Futuro: solo reconocer (CILS no lo exige en A2)"
+  },
+  {
+   "antes": "g14",
+   "ahora": [
+    "g31"
+   ],
+   "motivo": "Condicional de cortesía: se reconoce y se produce en juegos de rol"
+  },
+  {
+   "antes": "g15",
+   "ahora": [
+    "g32",
+    "g33"
+   ],
+   "motivo": "Imperativo: tu/voi con pronombres (O) y Lei (A)"
+  },
+  {
+   "antes": "g16",
+   "ahora": [
+    "g35"
+   ],
+   "motivo": "«a» personal: pasa de a2m08 a a2m04 (es de pronombres, no de viajes)"
+  },
+  {
+   "antes": "g17",
+   "ahora": [],
+   "motivo": "BAJA a B1: el congiuntivo no figura en CILS A2 ni en PLIDA A2; su lugar lo ocupa opinar sin congiuntivo (g40). u12 queda B1 y bloqueada"
+  },
+  {
+   "antes": "g18",
+   "ahora": [
+    "g08"
+   ],
+   "motivo": "Preposiciones articuladas: A1 ya las cubre (u06, u05, u70) y se repasan en a2c21 y a2c22"
+  },
+  {
+   "antes": "g19",
+   "ahora": [
+    "g17"
+   ],
+   "motivo": "da/fa/per, ahora con fra/tra y scorso/prossimo"
+  },
+  {
+   "antes": "g20",
+   "ahora": [
+    "g28",
+    "g38"
+   ],
+   "motivo": "Conectores: coordinadas (g28) y subordinadas (g38)"
+  },
+  {
+   "antes": "f01",
+   "ahora": [
+    "f03",
+    "t05"
+   ],
+   "motivo": "Contar experiencias pasadas"
+  },
+  {
+   "antes": "f02",
+   "ahora": [
+    "g14",
+    "t05"
+   ],
+   "motivo": "Describir hábitos y lugares del pasado: imperfetto y relatos"
+  },
+  {
+   "antes": "f03",
+   "ahora": [
+    "g16",
+    "t05",
+    "t18"
+   ],
+   "motivo": "Contar una anécdota"
+  },
+  {
+   "antes": "f04",
+   "ahora": [
+    "f02"
+   ],
+   "motivo": "Planes e intenciones"
+  },
+  {
+   "antes": "f05",
+   "ahora": [
+    "f20"
+   ],
+   "motivo": "Consejos, permisos y órdenes (los permisos y las prohibiciones elaboradas son B1)"
+  },
+  {
+   "antes": "f06",
+   "ahora": [
+    "f05"
+   ],
+   "motivo": "Comparar y expresar preferencias"
+  },
+  {
+   "antes": "f07",
+   "ahora": [
+    "f06",
+    "f11"
+   ],
+   "motivo": "Opinar y estar de acuerdo o no"
+  },
+  {
+   "antes": "f08",
+   "ahora": [
+    "f13"
+   ],
+   "motivo": "Reservar y comprar billetes. BAJA a B1: reclamar con detalle (PLIDA B1, p. 25)"
+  },
+  {
+   "antes": "f09",
+   "ahora": [
+    "f13",
+    "g03"
+   ],
+   "motivo": "Pedir en el restaurante con pronombres"
+  },
+  {
+   "antes": "f10",
+   "ahora": [
+    "f04"
+   ],
+   "motivo": "Hablar de trabajo y estudios"
+  },
+  {
+   "antes": "f11",
+   "ahora": [
+    "l16"
+   ],
+   "motivo": "Síntomas: solo simples, dentro del área «Salud y cuerpo humano». BAJA a B1: describir síntomas con detalle (PLIDA B1, p. 25)"
+  },
+  {
+   "antes": "f12",
+   "ahora": [
+    "f08",
+    "f17"
+   ],
+   "motivo": "Direcciones y situar en el espacio"
+  },
+  {
+   "antes": "f13",
+   "ahora": [
+    "f09",
+    "f20"
+   ],
+   "motivo": "Pedir un favor y dar permiso: invitar/pedir un favor (f09) y órdenes, consejos y permisos simples (f20)"
+  },
+  {
+   "antes": "f14",
+   "ahora": [
+    "f06",
+    "g38"
+   ],
+   "motivo": "Argumentar una preferencia con «perché»"
+  },
+  {
+   "antes": "l01",
+   "ahora": [
+    "l21"
+   ],
+   "motivo": "Viajes y turismo"
+  },
+  {
+   "antes": "l02",
+   "ahora": [
+    "l21"
+   ],
+   "motivo": "Alojamiento: dentro de la cápsula de viaje y alojamiento"
+  },
+  {
+   "antes": "l03",
+   "ahora": [],
+   "motivo": "BAJA a B1: problemas y reclamos con detalle (PLIDA B1, p. 25); en A2 solo «un problema simple» en rp_problema"
+  },
+  {
+   "antes": "l04",
+   "ahora": [
+    "l12"
+   ],
+   "motivo": "Trabajo y CV"
+  },
+  {
+   "antes": "l05",
+   "ahora": [
+    "l16"
+   ],
+   "motivo": "Salud y bienestar"
+  },
+  {
+   "antes": "l06",
+   "ahora": [
+    "l03"
+   ],
+   "motivo": "Casa y barrio"
+  },
+  {
+   "antes": "l07",
+   "ahora": [
+    "l02"
+   ],
+   "motivo": "Cine, música y lectura"
+  },
+  {
+   "antes": "l08",
+   "ahora": [
+    "l06",
+    "l17"
+   ],
+   "motivo": "Medios y tecnología"
+  },
+  {
+   "antes": "t01",
+   "ahora": [
+    "t03"
+   ],
+   "motivo": "Mensajes y correos breves"
+  },
+  {
+   "antes": "t02",
+   "ahora": [
+    "t04"
+   ],
+   "motivo": "Anuncios de empleo y alquiler"
+  },
+  {
+   "antes": "t03",
+   "ahora": [
+    "t05"
+   ],
+   "motivo": "Relatos cortos en pasado"
+  },
+  {
+   "antes": "t04",
+   "ahora": [
+    "t09"
+   ],
+   "motivo": "Avisos y anuncios con más datos"
+  },
+  {
+   "antes": "t05",
+   "ahora": [
+    "t16"
+   ],
+   "motivo": "Escribir un mensaje de 25–50 palabras"
+  },
+  {
+   "antes": "t06",
+   "ahora": [
+    "t15"
+   ],
+   "motivo": "Escribir sobre el pasado"
+  },
+  {
+   "antes": "p01",
+   "ahora": [
+    "p01"
+   ],
+   "motivo": "Entonación: se mantiene como hueco declarado"
+  }
+ ],
  "modulos_planificados": [
   {
    "id": "a2m01",
-   "title_es": "Contar el pasado (con avere y essere)",
+   "estado": "planificado",
+   "title_es": "Contar lo que hiciste",
+   "situacion_es": "El fin de semana, ayer, un viaje: contar lo que hiciste y preguntar a otros.",
    "can_do_es": [
-    "Contar qué hiciste ayer o el fin de semana con passato prossimo",
-    "Elegir avere o essere y concordar el participio",
-    "Preguntar a otros qué hicieron"
+    "Contar qué hiciste ayer o el fin de semana con passato prossimo.",
+    "Elegir avere o essere y concordar el participio.",
+    "Preguntar a otros qué hicieron y cuándo."
+   ],
+   "capsulas": [
+    {
+     "id": "a2c01",
+     "code": "ERR_PP_PARTICIPI_IRREG",
+     "title_es": "Participios que el español no anticipa",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador (tabla cerrada)",
+     "calco_es": "*prenduto, *chiudito, *leggiuto, *metuto → preso, chiuso, letto, messo; también *vendito/*ricevito → venduto/ricevuto",
+     "formas_validas_es": [
+      "veduto y perduto (válidos)",
+      "fatto, detto, scritto, aperto (no son errores típicos: el español también es irregular)"
+     ]
+    },
+    {
+     "id": "a2c02",
+     "code": "ERR_PP_AUSILIARE",
+     "title_es": "¿Avere o essere?",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador (listas disjuntas de u08)",
+     "calco_es": "*ha piaciuto, *ha costato, *ho stato, *ha rimasto → è piaciuto, è costato, sono stato, è rimasto; y en sentido contrario *sono camminato, *sono viaggiato → ho camminato, ho viaggiato",
+     "formas_validas_es": [
+      "ha successo (= tener éxito)",
+      "sono corso a casa / ho corso",
+      "ho/sono salito, ho/sono cambiato, ho/è finito, ha/è piovuto (doble auxiliar)",
+      "ho dovuto andare / sono dovuto andare"
+     ],
+     "nota_es": "Verbos de doble auxiliar fuera del generador: correre, salire, scendere, passare, cambiare, finire, cominciare, crescere, aumentare, vivere, piovere, nevicare. Absorbe ERR_AUX_OVERGENERALIZATION (que no se usa como unidad aparte)."
+    },
+    {
+     "id": "a2c03",
+     "code": "ERR_REFLEXIVE_AUX",
+     "title_es": "Reflexivos en pasado",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador (concordancia con sujeto cerrado)",
+     "calco_es": "*mi ho alzato, *si ha svegliato → mi sono alzato/a, si è svegliato/a",
+     "formas_validas_es": [
+      "mi sono dovuto alzare / ho dovuto alzarmi (las dos valen)"
+     ],
+     "existe": "error-codes.json (sin generador)"
+    },
+    {
+     "id": "a2c04",
+     "code": "ERR_PARTICIPLE_AGREEMENT",
+     "title_es": "Concordancia con essere, y piacere en pasado",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador ampliado (sujeto cerrado) + frases",
+     "calco_es": "*Maria è andato, *siamo andato, *mi è piaciuti i film → andata, andati, mi sono piaciuti",
+     "formas_validas_es": [
+      "si è andati (impersonal)"
+     ],
+     "existe": "u09 (A2 hoy sin módulo): se amplía a ≥30 frases"
+    },
+    {
+     "id": "a2c05",
+     "code": "ERR_AVVERBI_PASSATO",
+     "title_es": "Già, non… ancora, appena, non… più, mai",
+     "scope": "O",
+     "productive": true,
+     "metodo": "variante a mano (auditada dos veces)",
+     "calco_es": "*già non abito → non abito più; *finisco di arrivare → sono appena arrivato; *non ho mai (ya) visto/ancora non ho mangiato (coloquial)",
+     "formas_validas_es": [
+      "ancora non ho mangiato (válido, menos frecuente)"
+     ]
+    }
    ],
    "codes": [
-    "ERR_PP_AUSILIARE",
     "ERR_PP_PARTICIPI_IRREG",
-    "ERR_PP_RIFLESSIVI",
-    "u09 (ya existe: ERR_PARTICIPLE_AGREEMENT)"
+    "ERR_PP_AUSILIARE",
+    "ERR_REFLEXIVE_AUX",
+    "ERR_PARTICIPLE_AGREEMENT",
+    "ERR_AVVERBI_PASSATO"
    ],
-   "work_es": "generadores: participio irregular (preso, fatto, visto…), elección de ausiliare por verbo; reflexivos en pasado (mi sono alzato/a)",
-   "sources_es": "Piacere! cap. de passato prossimo (avere/essere, concordancia); Giornate italiane u. 6; Tatoeba",
-   "authored_texts": "rd_weekend (diálogo, 10 líneas), doc_diario (tabla/agenda)",
-   "speaking": "rp_weekend, ht_ieri",
-   "note_es": "rd_viaggio ya existe como texto de A1; sirve de lectura extra"
+   "unidades_existentes": [
+    "u09"
+   ],
+   "entrada": {
+    "id": "rd_giornatabrutta",
+    "fuente": "Piacere! «Lettura: Una brutta giornata» (ya en el repositorio, hoy lectura de u08)",
+    "nota": "se mueve de u08 a este módulo para no repetirla"
+   },
+   "libro_entrada_es": "P/lettura-una-brutta-giornata/ y P/lettura-il-mio-viaggio/",
+   "libros_preguntas_es": "P/il-passato-prossimo-ripasso/, L/4-3-che-cosa-e-successo/, P/conversazione-un-salto-nel-passato/ (9 preguntas), G/unita-6 («Che cosa hai fatto ieri?»), G/g6-1 a g6-4 (bancos de frases)",
+   "planned": {
+    "roleplays": [
+     "rp_weekend",
+     "rp_viaggio_fatto"
+    ],
+    "tasks": [
+     "ht_ieri"
+    ],
+    "extra_readings": [
+     "ls_a2m01",
+     "doc_agenda"
+    ],
+    "phrase_groups": []
+   },
+   "autorales_es": [
+    "ls_a2m01: dos amigos el lunes",
+    "doc_agenda: agenda de la semana",
+    "rp_weekend",
+    "rp_viaggio_fatto"
+   ],
+   "library": "piacere",
+   "library_task_es": "Lee la «Lettura» y haz la «Conversazione» del capítulo de passato prossimo de Piacere!; después cuéntale en voz alta a alguien lo que hiciste ayer.",
+   "writing_es": "Escribe tu diario de ayer (40–60 palabras): al menos 3 verbos con essere o un reflexivo, 2 participios irregulares y un «già» o un «appena».",
+   "writing_short_es": "Responde a un amigo que te pregunta qué hiciste el sábado (25–50 palabras).",
+   "interview_min": 5
   },
   {
    "id": "a2m02",
-   "title_es": "Describir cómo eran las cosas (imperfetto)",
+   "estado": "planificado",
+   "title_es": "Cómo eran las cosas",
+   "situacion_es": "La infancia, un lugar antes y ahora, costumbres de antes.",
    "can_do_es": [
-    "Describir cómo era tu vida de niño o un lugar antes",
-    "Hablar de hábitos pasados",
-    "Decir desde cuándo y hace cuánto"
+    "Describir cómo era tu vida de niño o un lugar antes.",
+    "Hablar de hábitos pasados.",
+    "Decir hace cuánto y desde cuándo."
+   ],
+   "capsulas": [
+    {
+     "id": "a2c06",
+     "code": "ERR_IMPERFETTO_FORMA",
+     "title_es": "Imperfetto: formas y personas",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador (tabla cerrada)",
+     "calco_es": "*io parlava, *io era… (en español 1.ª y 3.ª coinciden); b/v: *parlaba → parlavo; ero, facevo, dicevo, bevevo",
+     "formas_validas_es": [
+      "diceva, faceva (3.ª persona válidas)",
+      "bevo (es presente, no error de forma)"
+     ],
+     "nota_es": "Un solo código para regulares e irregulares: el único irregular difícil es ero."
+    },
+    {
+     "id": "a2c07",
+     "code": "ERR_CE_IMPERFETTO",
+     "title_es": "C'era, c'erano, c'è stato",
+     "scope": "O",
+     "productive": true,
+     "metodo": "variante a mano + generador de concordancia",
+     "calco_es": "*c'era molte persone, *c'erano una casa → c'erano molte persone, c'era una casa",
+     "formas_validas_es": [
+      "ci sono stati / c'è stato (existencial)"
+     ],
+     "nota_es": "Código nuevo: u03 (ERR_CE_AGREEMENT) es del presente y no se toca."
+    },
+    {
+     "id": "a2c08",
+     "code": "ERR_TEMPO_FA_DA",
+     "title_es": "Hace…, desde…, en…: fa, da, per, fra, scorso",
+     "scope": "O",
+     "productive": true,
+     "metodo": "mixto: generador («N anni fa») + variante a mano",
+     "calco_es": "*fa due anni → due anni fa; *in due giorni → fra due giorni; *studio per due anni (con presente) → studio da due anni; sono due anni che studio",
+     "formas_validas_es": [
+      "ho studiato per due anni (pasado cerrado: válido)",
+      "la settimana passata (válida)"
+     ]
+    },
+    {
+     "id": "a2c09",
+     "code": "ERR_VOC_CARATTERE",
+     "title_es": "Vocabulario: carácter y relaciones",
+     "scope": "O",
+     "productive": true,
+     "metodo": "vocabulario (palabras de una sola palabra; sin formas de A1)",
+     "calco_es": "gentile, simpatico, timido, collega, vicino, conoscente, fidanzato (falsos amigos: gentile ≠ «gentil»)"
+    }
    ],
    "codes": [
     "ERR_IMPERFETTO_FORMA",
-    "ERR_IMPERFETTO_IRREG",
-    "ERR_DA_QUANTO_TEMPO"
+    "ERR_CE_IMPERFETTO",
+    "ERR_TEMPO_FA_DA",
+    "ERR_VOC_CARATTERE"
    ],
-   "work_es": "generador de imperfetto regular (-avo/-evo/-ivo) e irregulares (ero, facevo, dicevo, bevevo); «da/fa» + tiempo",
-   "sources_es": "Piacere! «L'imperfetto»; Tutt* a tavola! vol. 2 cap. 7–8; Tatoeba",
-   "authored_texts": "rd_infanzia (texto), rd_nonni (diálogo)",
-   "speaking": "ht_infanzia",
-   "note_es": ""
+   "unidades_existentes": [],
+   "entrada": {
+    "id": "rd_infanzia",
+    "fuente": "Texto propio anclado en Piacere! «L'imperfetto» y Tutt* a tavola! 2 cap. 7 §7.6",
+    "nota": "authored"
+   },
+   "libro_entrada_es": "P/limperfetto/ (diálogo), T/chapter-7 §7.6",
+   "libros_preguntas_es": "T/chapter-7 §7.5–7.6 (13 preguntas), G/7-una-giornata-nel-passato/ (~20 preguntas), P/da-quanto-tempo/",
+   "planned": {
+    "roleplays": [
+     "rp_nonni",
+     "rp_scuola"
+    ],
+    "tasks": [
+     "ht_infanzia"
+    ],
+    "extra_readings": [
+     "ls_a2m02",
+     "doc_paese"
+    ],
+    "phrase_groups": []
+   },
+   "autorales_es": [
+    "rd_infanzia (entrada)",
+    "ls_a2m02: nieta y abuelo",
+    "doc_paese: un pueblo antes y ahora",
+    "rp_nonni",
+    "rp_scuola"
+   ],
+   "library": "easy-italian",
+   "library_task_es": "Mira un video corto de Easy Italian sin pausar; después cuéntalo en pasado con «ero», «avevo» y «c'era».",
+   "writing_es": "Describe cómo era tu vida a los diez años (40–60 palabras): 4 imperfetti (uno irregular), un «c'era/c'erano» y «da piccolo».",
+   "writing_short_es": "Escríbele a un familiar mayor preguntándole cómo era su pueblo antes (25–50 palabras).",
+   "interview_min": 5
   },
   {
    "id": "a2m03",
-   "title_es": "Contar y describir a la vez (passato prossimo vs imperfetto)",
+   "estado": "planificado",
+   "title_es": "Contar una anécdota",
+   "situacion_es": "Algo que te pasó; un día que salió mal; contar con trama y fondo.",
    "can_do_es": [
-    "Contar una anécdota con trama y fondo",
-    "Elegir pasado vs imperfecto según la función",
-    "Entender un relato corto"
+    "Contar una anécdota con trama y fondo.",
+    "Elegir passato prossimo o imperfetto según la función.",
+    "Entender un relato corto y contar lo que alguien dijo."
+   ],
+   "capsulas": [
+    {
+     "id": "a2c10",
+     "code": "ERR_PP_VS_IMPERFETTO",
+     "title_es": "Trama y fondo: passato prossimo o imperfetto",
+     "scope": "O",
+     "productive": true,
+     "metodo": "ejercicio de relato (cloze_text) + frases con disparador inequívoco",
+     "calco_es": "elegir por función (acción puntual y terminada vs fondo, estado o hábito), nunca por la palabra conectora: «Quando ero piccolo…» lleva imperfetto",
+     "formas_validas_es": [
+      "ieri alle 8 facevo / ho fatto colazione según el sentido",
+      "dovevo partire / sono dovuto partire (cambia el sentido)"
+     ],
+     "nota_es": "Peso real: «comí» → ho mangiato (no remoto); «fue precioso» → è stato bellissimo; cambio de sentido de sapere/conoscere/volere. Los huecos del relato siguen las reglas de plan §5.3."
+    },
+    {
+     "id": "a2c11",
+     "code": "ERR_PRIMA_DI",
+     "title_es": "Prima di + infinitivo, dopo + sustantivo",
+     "scope": "A",
+     "productive": false,
+     "metodo": "variante a mano (dopo aver: solo reconocer)",
+     "calco_es": "*prima uscire / *prima de uscire → prima di uscire; *dopo di mangiare → dopo mangiato (coloquial) / dopo aver mangiato",
+     "formas_validas_es": [
+      "dopo mangiato (coloquial válido)"
+     ]
+    }
    ],
    "codes": [
     "ERR_PP_VS_IMPERFETTO",
-    "ERR_MENTRE_QUANDO"
+    "ERR_PRIMA_DI"
    ],
-   "work_es": "no hay generador mecánico fiable (decisión semántica): usar oraciones auditadas con marca de contexto (mentre/quando/ogni giorno/ieri) y ejercicios de elegir; ver «planned» en course.json",
-   "sources_es": "Tutt* a tavola! vol. 2 cap. 8 (verificado); Giornate u. 7; Tatoeba por palabras clave",
-   "authored_texts": "rd_incidente (relato), rd_vacanze (relato)",
-   "speaking": "ht_aneddoto",
-   "note_es": "módulo difícil: puede partirse en dos cápsulas por función"
+   "unidades_existentes": [],
+   "entrada": {
+    "id": "rd_eurochocolate",
+    "fuente": "Tutt* a tavola! vol. 2, cap. 8 §8.3 (diálogo telefónico de 2 hablantes, ~230 palabras)",
+    "nota": "adaptación breve; CC BY-NC"
+   },
+   "libro_entrada_es": "T/capitolo-8/ §8.3 Eurochocolate",
+   "libros_preguntas_es": "T/capitolo-8/ §8.3 Ferragosto, P/tempi-passati-imperfetto-vs-passato-prossimo/ (14 frases), P/conversazione-la-storia-infinita/ (7 preguntas), G/g-7-3-limperfetto-e-il-passato-prossimo/",
+   "planned": {
+    "roleplays": [
+     "rp_cosa_e_successo"
+    ],
+    "tasks": [
+     "ht_aneddoto"
+    ],
+    "extra_readings": [
+     "ls_a2m03"
+    ],
+    "phrase_groups": [],
+    "relatos": [
+     "relato_a2m03_1",
+     "relato_a2m03_2",
+     "relato_a2m03_3",
+     "relato_a2m03_4",
+     "relato_a2m03_5",
+     "relato_a2m03_6",
+     "relato_a2m03_7"
+    ]
+   },
+   "autorales_es": [
+    "relato_a2m03_1…7 (7 relatos de 60–90 palabras)",
+    "ls_a2m03: anécdota por teléfono",
+    "rp_cosa_e_successo"
+   ],
+   "library": "podcast-italiano",
+   "library_task_es": "Escucha 5 minutos de un episodio de Podcast Italiano y cuenta en voz alta, con passato prossimo e imperfetto, lo que entendiste.",
+   "writing_es": "Cuenta una anécdota (50–60 palabras): primero el fondo (imperfetto: dónde estabas, qué hacías) y después lo que pasó (passato prossimo); incluye una frase de discurso directo («Mi ha detto: …»).",
+   "writing_short_es": "Cuéntale a un amigo por mensaje qué te pasó esta mañana (25–50 palabras).",
+   "interview_min": 5,
+   "fichas_es": "Los conectores (infatti, invece, anzi, allora, quindi, poi, alla fine) y la exclamación (Che fortuna! Che peccato!) se enseñan en la ficha de a2c10 y en los textos; el corpus no da ≥30 frases (infatti 3, invece adversativo ~2)."
   },
   {
    "id": "a2m04",
-   "title_es": "Pronombres que ahorran palabras (lo, la, li, le; mi, ti, gli; ci y ne)",
+   "estado": "planificado",
+   "title_es": "Pronombres que ahorran palabras",
+   "situacion_es": "En la tienda y en el restaurante: «lo prendo», «gli telefono», «l'ho visto».",
    "can_do_es": [
-    "Reemplazar objetos conocidos por pronombres átonos",
-    "Usar ci y ne en frases comunes",
-    "Colocar el pronombre antes del verbo o pegado al infinitivo"
+    "Reemplazar objetos conocidos por lo, la, li, le.",
+    "Elegir entre lo/la y gli/le según el verbo.",
+    "Colocar el pronombre antes del verbo o pegado al infinitivo.",
+    "Concordar el participio con el pronombre (l'ho vista)."
+   ],
+   "capsulas": [
+    {
+     "id": "a2c12",
+     "code": "ERR_CLITIC_DIRECT_INDIRECT",
+     "title_es": "Lo/la/li/le o gli/le: el verbo decide",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador restringido + variante a mano (gli/le por contexto)",
+     "calco_es": "*gli vedo, *li dico, *le telefono a Marco → lo vedo, gli dico, gli telefono; lo ringrazio, la aiuto (directos), gli telefono, gli rispondo (indirectos)",
+     "formas_validas_es": [
+      "gli ho detto a Marco (coloquial)",
+      "a me mi piace (coloquial: se explica como «evitar al escribir»)",
+      "Il libro l'ho letto (con objeto antepuesto el pronombre es obligatorio)"
+     ],
+     "existe": "error-codes.json (sin generador)"
+    },
+    {
+     "id": "a2c13",
+     "code": "ERR_PERSONAL_A",
+     "title_es": "Sin «a» personal",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador ampliado al pasado + frases",
+     "calco_es": "*vedo a Maria, *ho visto a Marco → vedo Maria, ho visto Marco",
+     "existe": "u10 (A2 hoy sin módulo): se amplía a ≥30 frases"
+    },
+    {
+     "id": "a2c14",
+     "code": "ERR_CLITICO_POSIZIONE",
+     "title_es": "El pronombre pegado: farlo, vederla",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador",
+     "calco_es": "*farelo, *fare lo, *vederela → farlo, vederla (se quita la -e); *lo cerco di fare → cercare di farlo (no sube con estos verbos)",
+     "formas_validas_es": [
+      "lo posso fare / posso farlo",
+      "lo vado a prendere (con andare a, venire a y modales sí sube)",
+      "non lo fare / non farlo"
+     ]
+    },
+    {
+     "id": "a2c15",
+     "code": "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+     "title_es": "L'ho vista, li ho comprati",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador (solo li, le seguras)",
+     "calco_es": "*le ho comprato, *l'ho vista → le ho comprate, l'ho vista (concuerda con lo/la/li/le; con mi/ti/ci/vi es opcional)",
+     "formas_validas_es": [
+      "mi ha visto / mi ha vista (opcional)"
+     ],
+     "existe": "error-codes.json (nivel B1 hoy: se reclasifica a A2)"
+    },
+    {
+     "id": "a2c16",
+     "code": "ERR_CLITIC_NE",
+     "title_es": "Ne de cantidad",
+     "scope": "A",
+     "productive": false,
+     "metodo": "variante a mano + generador (solo con cuantificador final)",
+     "calco_es": "*Ho due → Ne ho due; *Quanti fratelli hai? Ho due. → Ne ho due",
+     "existe": "error-codes.json (nivel B2 hoy: se reclasifica a A2, solo reconocer)"
+    }
    ],
    "codes": [
-    "ERR_CLITICO_DIRETTO",
-    "ERR_CLITICO_INDIRETTO",
+    "ERR_CLITIC_DIRECT_INDIRECT",
+    "ERR_PERSONAL_A",
     "ERR_CLITICO_POSIZIONE",
-    "ERR_CI_NE",
-    "u71 (ya existe: mi/ti)"
+    "ERR_PARTICIPLE_AGREEMENT_CLITIC",
+    "ERR_CLITIC_NE"
    ],
-   "work_es": "generadores de clíticos directos (mangio la mela → la mangio) e indirectos; ci/ne exige oraciones auditadas a mano",
-   "sources_es": "Piacere! «Pronomi di oggetto diretto/indiretto»; Tatoeba",
-   "authored_texts": "rd_ristorante2 (diálogo con lo/la/ne)",
-   "speaking": "rp_lo_prendo",
-   "note_es": "los clíticos combinados (glielo) quedan para B1"
+   "unidades_existentes": [
+    "u10"
+   ],
+   "entrada": {
+    "id": "rd_alristorante",
+    "fuente": "Piacere! «Lettura: Al ristorante» (diálogo de 11 turnos)",
+    "nota": "adaptación fiel con correcciones de erratas"
+   },
+   "libro_entrada_es": "P/lettura-al-ristorante/",
+   "libros_preguntas_es": "P/i-pronomi-di-oggetto-diretto/, P/accordo-del-participio-passato/, P/624/, T/capitolo-9 §9.7 (posición con modales), P/737/ (ne), G/g-7-4-…",
+   "planned": {
+    "roleplays": [
+     "rp_lo_prendo",
+     "rp_regalo"
+    ],
+    "tasks": [
+     "ht_regalo"
+    ],
+    "extra_readings": [
+     "ls_a2m04",
+     "doc_nota_coinquilino"
+    ],
+    "phrase_groups": []
+   },
+   "autorales_es": [
+    "ls_a2m04: en el mercado",
+    "doc_nota_coinquilino: nota al compañero de piso",
+    "rp_lo_prendo",
+    "rp_regalo"
+   ],
+   "library": "reverso-context",
+   "library_task_es": "En Reverso Context busca «lo prendo», «gli telefono» y «ne ho»; lee 5 ejemplos de cada uno y fíjate dónde va el pronombre.",
+   "writing_es": "Cuéntale a un amigo qué le compraste a alguien para su cumpleaños y cómo reaccionó (40–60 palabras): usa lo/la/li/le y gli/le, y al menos un pronombre con un participio («l'ho comprata»).",
+   "writing_short_es": "Deja una nota a tu compañero de piso pidiéndole que haga algo en casa (25–50 palabras).",
+   "interview_min": 5
   },
   {
    "id": "a2m05",
-   "title_es": "Comparar y elegir",
+   "estado": "planificado",
+   "title_es": "Comparar y comprar",
+   "situacion_es": "Elegir entre dos cosas en una tienda: ropa, precios, preferencias.",
    "can_do_es": [
-    "Comparar dos cosas o personas",
+    "Comparar dos cosas o personas.",
     "Decir cuál es el mejor o el más…",
-    "Pedir y dar una opinión sobre lo que prefieres"
+    "Pedir en una tienda y expresar lo que prefieres."
+   ],
+   "capsulas": [
+    {
+     "id": "a2c17",
+     "code": "ERR_COMPARATIVE_DI",
+     "title_es": "Più… di / che",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador ampliado + frases",
+     "calco_es": "*più alto che Marco → più alto di Marco; che entre dos adjetivos o ante preposición/infinitivo; così… come, tanto… quanto",
+     "formas_validas_es": [
+      "più grande, più buono (válidos)"
+     ],
+     "existe": "u11 (A2 hoy sin módulo): se amplía a ≥30 frases"
+    },
+    {
+     "id": "a2c18",
+     "code": "ERR_COMPARATIVO_IRREG",
+     "title_es": "Meglio o migliore; -issimo",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador (listas cerradas)",
+     "calco_es": "*più bene, *più male, *parla migliore, *è meglio amico → meglio/peggio (adverbios), migliore/peggiore (adjetivos); *bellisimo → bellissimo",
+     "formas_validas_es": [
+      "più buono, più cattivo (válidos)"
+     ]
+    },
+    {
+     "id": "a2c19",
+     "code": "ERR_INDEFINITI",
+     "title_es": "Qualche + singular, dei, qualcosa di",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador",
+     "calco_es": "*qualche libri, *uni ragazzi, *qualcosa buono, *nessuno libro → qualche libro, dei ragazzi, qualcosa di buono, nessun libro",
+     "formas_validas_es": [
+      "ogni giorno (singular)",
+      "ogni tanto"
+     ],
+     "nota_es": "CILS lo pide solo en recepción; se exige por ser calco frecuente (decisión del proyecto)."
+    },
+    {
+     "id": "a2c20",
+     "code": "ERR_VOC_FALSI_CASA",
+     "title_es": "Falsos amigos I: casa, comida y compras",
+     "scope": "O",
+     "productive": true,
+     "metodo": "vocabulario (una palabra por frase)",
+     "calco_es": "burro, aceto, caldo, largo, vaso, tovaglia, calze, negozio, tasca, morbido, salato, costume, gamba, topo (vaso = florero/maceta; tovaglia = mantel; calze = medias)",
+     "nota_es": "Absorbe u47 (ERR_VOC_NEGOZI, hoy fuera de módulo)."
+    }
    ],
    "codes": [
-    "u11 (ya existe: ERR_COMPARATIVE_DI)",
-    "ERR_SUPERLATIVO",
-    "ERR_COMPARATIVO_IRREG"
+    "ERR_COMPARATIVE_DI",
+    "ERR_COMPARATIVO_IRREG",
+    "ERR_INDEFINITI",
+    "ERR_VOC_FALSI_CASA"
    ],
-   "work_es": "generador de superlativo (il più alto di), irregulares (migliore, peggiore, meglio)",
-   "sources_es": "Piacere! «Comparativi e superlativi»; Tatoeba",
-   "authored_texts": "rd_confronto (diálogo en tienda)",
-   "speaking": "ht_preferenze",
-   "note_es": ""
+   "unidades_existentes": [
+    "u11",
+    "u47"
+   ],
+   "entrada": {
+    "id": "rd_confronto",
+    "fuente": "Tutt* a tavola! vol. 2, cap. 9 §9.4 (tienda, 5 turnos) y Leggiamo 4.4 (compra de ropa)",
+    "nota": "adaptación breve"
+   },
+   "libro_entrada_es": "T/capitolo-9/ §9.4 y L/4-4-epilogo/",
+   "libros_preguntas_es": "P/i-comparativi/, P/i-superlativi/, P/i-comparativi-e-superlativi-irregolari/, G/g-10-1-i-comparativi/, P/aggettivi-indefiniti/",
+   "planned": {
+    "roleplays": [
+     "rp_confronto",
+     "rp_camerino"
+    ],
+    "tasks": [
+     "ht_preferenze"
+    ],
+    "extra_readings": [
+     "ls_a2m05",
+     "doc_catalogo",
+     "doc_volantino"
+    ],
+    "phrase_groups": []
+   },
+   "autorales_es": [
+    "ls_a2m05: en la tienda de ropa (con un anuncio publicitario simple)",
+    "doc_catalogo: catálogo con precios",
+    "doc_volantino: volante de oferta",
+    "rp_confronto",
+    "rp_camerino"
+   ],
+   "library": "linguee",
+   "library_task_es": "Cuando dudes cómo se dice «el mejor» o «tan… como», búscalo completo en Linguee y compara 3 ejemplos antes de elegir.",
+   "writing_es": "Recomienda a un amigo entre dos móviles o dos pisos (40–60 palabras): un comparativo con «di», uno con «che», «meglio» o «migliore» y un superlativo.",
+   "writing_short_es": "Escribe un mensaje pidiendo a una tienda que te reserve una prenda de tu talla (25–50 palabras).",
+   "interview_min": 5
   },
   {
    "id": "a2m06",
-   "title_es": "Planes y decisiones (futuro y condicional de cortesía)",
+   "estado": "planificado",
+   "title_es": "Trámites, casa y barrio",
+   "situacion_es": "Correos, banco, secretaría, oficina; el barrio y la casa; avisos, reglamentos y carteles.",
    "can_do_es": [
-    "Hablar de planes e intenciones con futuro",
-    "Pedir cosas con cortesía (vorrei, potrebbe)",
-    "Hacer hipótesis simples"
+    "Hacer un trámite en correos, en el banco o en una secretaría.",
+    "Situar algo con di fronte a, accanto a, in fondo a.",
+    "Decir fechas, años y horarios.",
+    "Entender un reglamento, un cartel y un mensaje de contestador."
+   ],
+   "capsulas": [
+    {
+     "id": "a2c21",
+     "code": "ERR_SPAZIO_PREP",
+     "title_es": "Situar: di fronte a, accanto a, in fondo a",
+     "scope": "O",
+     "productive": true,
+     "metodo": "variante a mano",
+     "calco_es": "*di fronte di, *al lato di, *debajo di il → di fronte a, accanto a, sotto il; in fondo a"
+    },
+    {
+     "id": "a2c22",
+     "code": "ERR_DATE_ORARI",
+     "title_es": "Fechas, años y horarios",
+     "scope": "O",
+     "productive": true,
+     "metodo": "frases propias (el corpus tiene 0–22 frases)",
+     "calco_es": "*in 2020 → nel 2020; *il 3 di maggio → il 3 maggio; *a las 8 → alle 8; *de 9 a 5 → dalle 9 alle 5; *nel terzo piano → al terzo piano; ordinales hasta décimo (primo, secondo, terzo… ; il primo maggio)",
+     "nota_es": "Frases escritas por la IA marcadas authored, auditadas por un segundo agente (cupo previsto en el plan §5.4)."
+    },
+    {
+     "id": "a2c23",
+     "code": "ERR_RELATIVO_CHE",
+     "title_es": "Quello che y el relativo «che»",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador parcial + frases",
+     "calco_es": "*lo che → quello che / ciò che; *la persona chi → la persona che",
+     "formas_validas_es": [
+      "con cui (solo reconocer)"
+     ]
+    },
+    {
+     "id": "a2c24",
+     "code": "ERR_SI_IMPERSONALE",
+     "title_es": "«Si» impersonal y carteles",
+     "scope": "A",
+     "productive": false,
+     "metodo": "generador con guardas",
+     "calco_es": "*se dice, *se può → si dice, si può; vietato, permesso, obbligatorio, non + infinitivo en carteles",
+     "formas_validas_es": [
+      "si è andati (impersonal en pasado)"
+     ]
+    },
+    {
+     "id": "a2c25",
+     "code": "ERR_VOC_UFFICI",
+     "title_es": "Vocabulario: oficinas y banco (solo lo que no está en A1)",
+     "scope": "O",
+     "productive": true,
+     "metodo": "vocabulario (sin formas de A1)",
+     "calco_es": "firma, ricevuta, prelevare, versare, bancomat, codice fiscale, spedire (≠ «expedir»), raccomandata (sportello, modulo, pacco y bolletta ya están en u74/A1)"
+    }
    ],
    "codes": [
-    "ERR_FUTURO_FORMA",
-    "ERR_FUTURO_IRREG",
-    "ERR_CONDIZIONALE_CORTESIA"
+    "ERR_SPAZIO_PREP",
+    "ERR_DATE_ORARI",
+    "ERR_RELATIVO_CHE",
+    "ERR_SI_IMPERSONALE",
+    "ERR_VOC_UFFICI"
    ],
-   "work_es": "generador de futuro regular e irregular (sarò, avrò, andrò); condicional de dovere/potere/volere",
-   "sources_es": "Piacere! «Il futuro», «Il condizionale»; Giornate u. 8 y 11",
-   "authored_texts": "rd_programmi (texto), rd_prenotare (diálogo)",
-   "speaking": "ht_programmi",
-   "note_es": "futuro: reconocer en A2, producir en B1 (decisión de la hoja de ruta)"
+   "unidades_existentes": [],
+   "entrada": {
+    "id": "rd_ufficio",
+    "fuente": "Texto propio: en la oficina de correos o en una secretaría (no hay fuente abierta)",
+    "nota": "authored"
+   },
+   "libro_entrada_es": "(texto propio) con apoyo de P/i-pronomi-relativi/, G/v8-1a-numeri-ordinali/, G/v-8-2 (banco), G/g-9-2-il-si-impersonale/",
+   "libros_preguntas_es": "P/lettura-cercare-casa/ (diálogo de 14 turnos para juego de rol), G/g-9-2-il-si-impersonale/, G/v8-1a-numeri-ordinali/, G/v-8-2",
+   "planned": {
+    "roleplays": [
+     "rp_banca",
+     "rp_iscrizione",
+     "rp_segreteria"
+    ],
+    "tasks": [
+     "ht_pratica"
+    ],
+    "extra_readings": [
+     "ls_a2m06",
+     "ls_segreteria",
+     "doc_modulo2",
+     "doc_regolamento",
+     "doc_orari2"
+    ],
+    "phrase_groups": []
+   },
+   "autorales_es": [
+    "rd_ufficio (entrada)",
+    "ls_a2m06: contestador + secretaría",
+    "ls_segreteria",
+    "doc_modulo2: formulario",
+    "doc_regolamento: reglamento de condominio",
+    "doc_orari2: cartel de horarios",
+    "rp_banca",
+    "rp_iscrizione",
+    "rp_segreteria (dejar un mensaje en el contestador)"
+   ],
+   "library": "integrazione-migranti",
+   "library_task_es": "Elige en el Portale Integrazione Migranti un recurso de nivel A2 sobre servicios y trámites y haz 10 minutos de sus ejercicios.",
+   "writing_es": "Pide por escrito información sobre un curso o un trámite (40–60 palabras): saludo formal, 2 preguntas, una fecha o un horario con «dalle… alle…» y «il primo…».",
+   "writing_short_es": "Deja un mensaje de contestador escrito para cambiar una cita (25–50 palabras).",
+   "interview_min": 5
   },
   {
    "id": "a2m07",
-   "title_es": "Dar y pedir instrucciones, consejos y permisos",
+   "estado": "planificado",
+   "title_es": "Planes, invitaciones e hipótesis",
+   "situacion_es": "Qué harás el fin de semana, el pronóstico del tiempo, invitar y rechazar con un motivo, «si llueve, no voy».",
    "can_do_es": [
-    "Dar instrucciones y consejos con imperativo (tu, Lei, noi, voi)",
-    "Pedir y dar permiso",
-    "Usar el imperativo con pronombres"
+    "Hablar de planes con futuro (reconocer) y con presente.",
+    "Invitar, aceptar y rechazar con un motivo.",
+    "Hacer hipótesis simples con «se» + presente.",
+    "Entender un pronóstico del tiempo y un programa de cine."
+   ],
+   "capsulas": [
+    {
+     "id": "a2c26",
+     "code": "ERR_FUTURO_RADICE",
+     "title_es": "Futuro y condicional: la raíz",
+     "scope": "A",
+     "productive": false,
+     "metodo": "generador (tablas cerradas)",
+     "calco_es": "*parlarò/*parlaría → parlerò/parlerei; *vendrò → verrò; *anderò, *poterò → andrò, potrò; vorremmo ≠ vorremo; «voy a llover» → *va a piovere → pioverà (sto per = a punto de)",
+     "formas_validas_es": [
+      "quando arrivi ti chiamo (presente de «tu»: válido)",
+      "se pioverà / se piove (ambas válidas)",
+      "volerò (de volare, válido)",
+      "vado a mangiare (con movimiento)",
+      "vorrei (volerei es válido)"
+     ],
+     "nota_es": "La cápsula es solo reconocer (A). Lo que sí se exige producir (vorrei, potrei, dovresti; «se/quando + presente») se practica en rp_favore, rp_invito y en la escritura del módulo (g26, g32)."
+    },
+    {
+     "id": "a2c27",
+     "code": "ERR_PREP_FIXED_GOV",
+     "title_es": "Verbos con preposición: smettere di, cercare di, pensare a",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador restringido",
+     "calco_es": "*lasciare di, *trattare di → smettere di, cercare di; *pensare in te → pensare a te; dipendere da; sognare di",
+     "formas_validas_es": [
+      "penso a questo (válido; el error real es no usar ci)"
+     ],
+     "existe": "error-codes.json; absorbe ERR_PREP_PENSARE"
+    },
+    {
+     "id": "a2c28",
+     "code": "ERR_VOC_CULTURA",
+     "title_es": "Vocabulario: cultura, medios y tecnología",
+     "scope": "O",
+     "productive": true,
+     "metodo": "vocabulario (sin formas de A1)",
+     "calco_es": "mostra, spettacolo, concerto, telegiornale, notizia, puntata, scaricare, caricare, password (sin repetir u73)"
+    }
    ],
    "codes": [
-    "ERR_IMPERATIVO_LEI",
-    "ERR_IMPERATIVO_PRONOMI",
-    "ERR_POTERE_PERMESSO"
+    "ERR_FUTURO_RADICE",
+    "ERR_PREP_FIXED_GOV",
+    "ERR_VOC_CULTURA"
    ],
-   "work_es": "extender los generadores de imperativo (u62/u67) a Lei y a pronombres pegados (dammelo, aspettami)",
-   "sources_es": "Piacere! «L'imperativo»; Wikivoyage phrasebook",
-   "authored_texts": "rd_ricetta (receta/instrucciones)",
-   "speaking": "rp_consigli",
-   "note_es": ""
+   "unidades_existentes": [],
+   "entrada": {
+    "id": "rd_programmi",
+    "fuente": "Tutt* a tavola! vol. 2, cap. 10 §10.3 (SMS de planes, ~90 palabras) o Piacere! «La mia storia e il mio futuro»",
+    "nota": "adaptación breve"
+   },
+   "libro_entrada_es": "T/capitolo-10/ §10.3 o P/lettura-la-mia-storia-e-il-mio-futuro/",
+   "libros_preguntas_es": "P/il-futuro/, P/conversazione-il-mio-futuro/ (15 preguntas), P/il-condizionale-di-dovere-potere-e-volere/, P/costruzioni-con-linfinito/, T/capitolo-10 §10.5 (se + futuro)",
+   "planned": {
+    "roleplays": [
+     "rp_programmi",
+     "rp_invito"
+    ],
+    "tasks": [
+     "ht_programmi"
+    ],
+    "extra_readings": [
+     "ls_a2m07",
+     "doc_meteo",
+     "doc_cinema"
+    ],
+    "phrase_groups": []
+   },
+   "autorales_es": [
+    "ls_a2m07: pronóstico del tiempo (radio)",
+    "doc_meteo: previsioni meteo",
+    "doc_cinema: programa de cine",
+    "rp_programmi",
+    "rp_invito (invitar, aceptar y rechazar con motivo)"
+   ],
+   "library": "leggiamo",
+   "library_task_es": "Lee en Leggiamo un texto de la unidad que coincide con tu tema y resume en una frase en italiano qué planea el protagonista.",
+   "writing_es": "Propón un plan a un amigo para el fin de semana (40–60 palabras): una invitación, una hipótesis con «se» + presente y un motivo para cambiar el plan.",
+   "writing_short_es": "Responde a una invitación rechazándola con un motivo y proponiendo otra fecha (25–50 palabras).",
+   "interview_min": 5
   },
   {
    "id": "a2m08",
-   "title_es": "Viajar y resolver problemas",
+   "estado": "planificado",
+   "title_es": "Favores, consejos e instrucciones",
+   "situacion_es": "Pedir un favor, dar un consejo, carteles de prohibición, instrucciones de uso.",
    "can_do_es": [
-    "Comprar billetes y preguntar horarios y andenes",
-    "Reservar y reclamar en un alojamiento",
-    "Explicar un problema simple y pedir ayuda"
+    "Pedir un favor y ofrecer ayuda.",
+    "Dar consejos e instrucciones con el imperativo.",
+    "Entender carteles de prohibición e instrucciones de uso."
+   ],
+   "capsulas": [
+    {
+     "id": "a2c29",
+     "code": "ERR_IMPERATIVO_PRONOMI",
+     "title_es": "Imperativo tu/voi con pronombres: dammi, fallo, parlate",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador (tabla, inicio de frase)",
+     "calco_es": "*dami, *dimi, *fami, *dalo → dammi, dimmi, fammi, dallo; vacci; parlate (voi); cierra g13 de A1",
+     "formas_validas_es": [
+      "non farlo / non lo fare (las dos valen)",
+      "dicci, dalle (formas válidas)"
+     ]
+    },
+    {
+     "id": "a2c30",
+     "code": "ERR_IMPERATIVO_LEI",
+     "title_es": "Fórmulas con Lei: scusi, senta, si accomodi",
+     "scope": "A",
+     "productive": false,
+     "metodo": "generador con vocativo formal",
+     "calco_es": "*Scusa, signore → Scusi, signore; mezclar tu y Lei es un error de registro",
+     "formas_validas_es": [
+      "Prenda, Senta, Mi dica (formas Lei correctas)"
+     ],
+     "nota_es": "Solo reconocer fórmulas; error de registro, no morfológico."
+    },
+    {
+     "id": "a2c31",
+     "code": "ERR_ACCENT_TRANSFER",
+     "title_es": "Acentos y dobles de A2",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador ortográfico",
+     "calco_es": "*perchè, *perche → perché; *pò → po'; *qual'è → qual è; è/e; più, già, può, città; dammi, dimmi, -issimo; vorremmo/vorremo",
+     "existe": "error-codes.json (A2, sin generador)"
+    }
    ],
    "codes": [
-    "u10 (ya existe: ERR_PERSONAL_A)",
-    "ERR_VOC_VIAGGIO",
-    "ERR_VOC_ALLOGGIO",
-    "ERR_VOC_PROBLEMI"
+    "ERR_IMPERATIVO_PRONOMI",
+    "ERR_IMPERATIVO_LEI",
+    "ERR_ACCENT_TRANSFER"
    ],
-   "work_es": "tres temas de vocabulario (viaje, alojamiento, problemas) con el mismo flujo de u73/u74",
-   "sources_es": "Giornate u. 9; Wikivoyage phrasebook; Tatoeba",
-   "authored_texts": "rd_stazione2, rd_albergo2, doc_prenotazione, rd_reclamo",
-   "speaking": "rp_biglietto, rp_problema",
-   "note_es": "cubre el requisito PLIDA «viajes»"
+   "unidades_existentes": [],
+   "entrada": {
+    "id": "rd_consigli",
+    "fuente": "Texto propio anclado en Giornate italiane unidad 10 (imperativo) y los «lamentos» de la unidad 9",
+    "nota": "authored"
+   },
+   "libro_entrada_es": "G/9-una-giornata-allinsegna-di-benessere/ (4 «lamentos» para aconsejar), G/g-10-2-limperativo/ (única fuente con Lei), P/imperativo-e-pronomi/, G/g-11-0-il-condizionale/",
+   "libros_preguntas_es": "G/g-10-2-limperativo/, G/g-10-3-limperativo-con-pronomi/, P/imperativo-tu-noi-voi/, P/imperativo-e-pronomi/",
+   "planned": {
+    "roleplays": [
+     "rp_consigli",
+     "rp_favore"
+    ],
+    "tasks": [
+     "ht_consigli"
+    ],
+    "extra_readings": [
+     "ls_a2m08",
+     "doc_divieti",
+     "doc_istruzioni"
+    ],
+    "phrase_groups": []
+   },
+   "autorales_es": [
+    "rd_consigli (entrada)",
+    "ls_a2m08: instrucciones de un aparato",
+    "doc_divieti: carteles de prohibición",
+    "doc_istruzioni: instrucciones de uso",
+    "rp_consigli",
+    "rp_favore"
+   ],
+   "library": "loescher-italiano",
+   "library_task_es": "Busca en Loescher la ficha de gramática del imperativo y haz sus ejercicios; compara con tu cápsula.",
+   "writing_es": "Da consejos a un amigo que visita tu ciudad por primera vez (40–60 palabras): 3 imperativos (uno con pronombre) y un «potresti…».",
+   "writing_short_es": "Escribe una nota pidiendo un favor a un vecino y ofreciendo algo a cambio (25–50 palabras).",
+   "interview_min": 5
   },
   {
    "id": "a2m09",
-   "title_es": "Trabajo, estudios y vida diaria",
+   "estado": "planificado",
+   "title_es": "Viajar y alojarse",
+   "situacion_es": "La estación, los billetes, el hotel, un problema simple y cuánto se tarda.",
    "can_do_es": [
-    "Hablar de tu trabajo o estudios actuales y pasados",
-    "Entender un anuncio de empleo y un CV simple",
-    "Hablar de la casa, la salud y las compras con más detalle"
+    "Comprar un billete y preguntar horarios y andenes.",
+    "Reservar y pedir algo en un alojamiento.",
+    "Decir cuánto se tarda (ci vuole, ci metto).",
+    "Explicar un problema simple y pedir ayuda."
+   ],
+   "capsulas": [
+    {
+     "id": "a2c32",
+     "code": "ERR_CLITIC_CI",
+     "title_es": "Ci de lugar, ci vuole, ci metto",
+     "scope": "A",
+     "productive": false,
+     "metodo": "variante a mano",
+     "calco_es": "*vado lì (válido, menos natural) → ci vado; *tardo due ore → ci metto due ore; *se tarda dos horas → ci vogliono due ore; *mi vado → me ne vado",
+     "formas_validas_es": [
+      "vado lì (válido)",
+      "penso a questo (válido; el error real es no usar ci)"
+     ],
+     "existe": "error-codes.json (B1 hoy: se reclasifica a A2, solo reconocer)",
+     "nota_es": "Corpus escaso (ci locativo ~30 tras limpiar): cupo de frases propias."
+    },
+    {
+     "id": "a2c33",
+     "code": "ERR_VOC_FALSI_CITTA",
+     "title_es": "Falsos amigos II: ciudad, viaje y acciones",
+     "scope": "O",
+     "productive": true,
+     "metodo": "vocabulario (una palabra por frase)",
+     "calco_es": "salire/uscire, scendere, guardare, fermare/firmare, guidare, camera, coincidenza, affittare, pronto/presto/subito, aspettare/sperare, imbarazzata, cascare, carta/lettera, mi dispiace (no *lo sento)"
+    },
+    {
+     "id": "a2c34",
+     "code": "ERR_VOC_VIAGGIO",
+     "title_es": "Vocabulario: viaje y alojamiento",
+     "scope": "O",
+     "productive": true,
+     "metodo": "vocabulario (sin formas de A1)",
+     "calco_es": "ritardo, volo, orario, sciopero, coincidenza, prenotare, ostello, guasto, reception (binario, biglietto, valigia y camera ya están en A1)"
+    }
    ],
    "codes": [
-    "ERR_VOC_CV",
-    "ERR_VOC_SALUTE2",
-    "ERR_VOC_CASA2"
+    "ERR_CLITIC_CI",
+    "ERR_VOC_FALSI_CITTA",
+    "ERR_VOC_VIAGGIO"
    ],
-   "work_es": "vocabulario de trabajo ampliado (rd_lavoro ya existe), salud y casa a nivel A2",
-   "sources_es": "Piacere! «Cercare lavoro»; Leggiamo; Tatoeba",
-   "authored_texts": "doc_annuncio_lavoro, doc_cv, rd_dottore",
-   "speaking": "ht_curriculum",
-   "note_es": ""
+   "unidades_existentes": [],
+   "entrada": {
+    "id": "rd_stazione2",
+    "fuente": "Texto propio: en la estación (ningún libro abierto trae un diálogo de estación u hotel)",
+    "nota": "authored; apoyado en Piacere! «Il mio viaggio»"
+   },
+   "libro_entrada_es": "(texto propio) con apoyo de P/lettura-il-mio-viaggio/, G/8-una-giornata-per-le-ferie/ (itinerario de Verona y 7 preguntas), G/g-8-3-ci-e-ne/, G/v-9-2, Wikivoyage Italian phrasebook",
+   "libros_preguntas_es": "G/8-una-giornata-per-le-ferie/ (7 preguntas), G/g-8-3-ci-e-ne/, P/conversazione-un-salto-nel-passato/",
+   "planned": {
+    "roleplays": [
+     "rp_biglietto",
+     "rp_albergo2",
+     "rp_problema"
+    ],
+    "tasks": [
+     "ht_viaggio"
+    ],
+    "extra_readings": [
+     "ls_a2m09",
+     "doc_orario_treni",
+     "doc_biglietto2",
+     "doc_depliant",
+     "doc_prenotazione"
+    ],
+    "phrase_groups": []
+   },
+   "autorales_es": [
+    "rd_stazione2 (entrada)",
+    "ls_a2m09: avisos de estación + recepción del hotel",
+    "doc_orario_treni",
+    "doc_biglietto2",
+    "doc_depliant: dépliant del hotel (referir su información)",
+    "doc_prenotazione: e-mail de reserva",
+    "rp_biglietto",
+    "rp_albergo2",
+    "rp_problema (un problema simple; reclamar con detalle es B1)"
+   ],
+   "library": "wordreference",
+   "library_task_es": "Busca en WordReference 3 palabras del viaje que parezcan españolas y comprueba si son falsos amigos; escribe una frase tuya con cada una.",
+   "writing_es": "Escribe un e-mail para reservar una habitación (40–60 palabras): fechas, tipo de habitación, una pregunta sobre el desayuno y una frase con «ci vuole».",
+   "writing_short_es": "Cuéntale a un amigo por mensaje que tu tren llega con retraso y propón otro plan (25–50 palabras).",
+   "interview_min": 5
   },
   {
    "id": "a2m10",
-   "title_es": "Opinar y reconocer el congiuntivo",
+   "estado": "planificado",
+   "title_es": "Trabajo, salud y opinar",
+   "situacion_es": "Hablar de tu trabajo y estudios, la farmacia, la casa; decir qué piensas y por qué.",
    "can_do_es": [
-    "Dar tu opinión con «penso che», «credo che»",
-    "Reconocer el congiuntivo presente en textos",
-    "Estar de acuerdo o no con cortesía"
+    "Hablar de tu trabajo o estudios actuales y pasados.",
+    "Entender un anuncio de empleo, un CV simple y un anuncio inmobiliario.",
+    "Describir un síntoma simple en una farmacia.",
+    "Dar tu opinión y estar de acuerdo o no con cortesía."
+   ],
+   "capsulas": [
+    {
+     "id": "a2c35",
+     "code": "ERR_OPINIONE",
+     "title_es": "Opinar sin congiuntivo: secondo me, penso di sì",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador",
+     "calco_es": "*secondo io → secondo me; *sto d'accordo, *di accordo → sono d'accordo; *credo che ho ragione (mismo sujeto) → credo di avere ragione; *creo que sí → penso di sì",
+     "formas_validas_es": [
+      "penso che è (coloquial: «evitar en formal», no se marca como error)"
+     ],
+     "nota_es": "Sin «ragione» en el generador: ya es de u04 (ERR_TENERE_AVERE)."
+    },
+    {
+     "id": "a2c36",
+     "code": "ERR_SUBORDINATE",
+     "title_es": "Perché, quando, per + infinitivo",
+     "scope": "O",
+     "productive": true,
+     "metodo": "generador parcial",
+     "calco_es": "*perchè/*perche → perché; *per che → perché; *para studiare → per studiare; a + infinitivo tras verbo de movimiento (vado a studiare); cierra g16 de A1",
+     "formas_validas_es": [
+      "per questo (válido)"
+     ]
+    }
    ],
    "codes": [
-    "u12 (ya existe: ERR_CONGIUNTIVO_OPINION, hoy B1)",
-    "ERR_ACCORDO_OPINIONE"
+    "ERR_OPINIONE",
+    "ERR_SUBORDINATE"
    ],
-   "work_es": "solo reconocer: oraciones auditadas con «che + congiuntivo»; producir queda para B1",
-   "sources_es": "Piacere! «Il congiuntivo presente»; Tatoeba",
-   "authored_texts": "rd_opinioni (diálogo)",
-   "speaking": "ht_opinione",
-   "note_es": "decidir si u12 pasa de B1 a A2 al terminar a2m09"
+   "unidades_existentes": [],
+   "entrada": {
+    "id": "rd_miastoria",
+    "fuente": "Piacere! «Lettura: La mia storia e il mio futuro» (~230 palabras) o «Cercare lavoro»",
+    "nota": "adaptación fiel con erratas corregidas; rd_lavoro (A2, hoy lectura de u29) se mantiene en A1"
+   },
+   "libro_entrada_es": "P/lettura-la-mia-storia-e-il-mio-futuro/, P/lettura-cercare-lavoro/",
+   "libros_preguntas_es": "P/conversazione-il-lavoro/ (13 preguntas), G/7-una-giornata-per-il-futuro/ (feria de empleo), P/913/ (penso di), T/capitolo-10 §10.2",
+   "planned": {
+    "roleplays": [
+     "rp_colloquio",
+     "rp_farmacia",
+     "rp_opinioni"
+    ],
+    "tasks": [
+     "ht_lavoro2",
+     "ht_opinione"
+    ],
+    "extra_readings": [
+     "ls_a2m10",
+     "doc_annuncio_lavoro",
+     "doc_cv",
+     "doc_annuncio_casa"
+    ],
+    "phrase_groups": []
+   },
+   "autorales_es": [
+    "ls_a2m10: en la farmacia (síntomas simples)",
+    "doc_annuncio_lavoro",
+    "doc_cv: CV simple",
+    "doc_annuncio_casa: anuncio inmobiliario",
+    "rp_colloquio",
+    "rp_farmacia",
+    "rp_opinioni"
+   ],
+   "library": "vikidia-it",
+   "library_task_es": "Lee en Vikidia un artículo corto de un tema que te guste y escribe en italiano tu opinión en dos frases con «secondo me».",
+   "writing_es": "Escribe un e-mail a un amigo con tus novedades de trabajo o estudios (40–60 palabras): un pasado, un plan, una opinión con «secondo me» o «penso di…» y un motivo con «perché».",
+   "writing_short_es": "Responde a un anuncio de empleo o de alquiler pidiendo más información (25–50 palabras).",
+   "interview_min": 5,
+   "fichas_es": "Trabajo/CV y síntomas simples («mi fa male la gola», «ho la febbre») van en textos y juegos de rol, sin cápsula propia: el vocabulario de A1 (u29, u27, u43) ya lo cubre."
   }
  ],
  "requisitos": [
   {
    "id": "g01",
    "area": "gramatica",
-   "source": "CILS A2",
-   "text_es": "Passato prossimo con avere",
-   "status": "gap",
-   "module": "a2m01",
-   "refs": {},
-   "gap_es": "No hay unidad de passato prossimo con avere en A2 (u58 solo introduce el uso en A1).",
-   "how_es": "Cápsulas a2m01: ERR_PP_PARTICIPI_IRREG y ERR_PP_AUSILIARE."
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Concordancia entre nombre y adjetivo",
+   "scope": "O",
+   "status": "prior",
+   "module": null,
+   "refs": {
+    "units": [
+     "u54",
+     "u66",
+     "u41"
+    ]
+   },
+   "note_es": "Cubierto en A1 (g01 de syllabus-a1)."
   },
   {
    "id": "g02",
    "area": "gramatica",
-   "source": "CILS A2",
-   "text_es": "Passato prossimo con essere y concordancia del participio",
-   "status": "partial",
-   "module": "a2m01",
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Pronombres personales tónicos (con me, per te)",
+   "scope": "O",
+   "status": "prior",
+   "module": null,
    "refs": {
     "units": [
-     "u09",
-     "u58"
+     "u61"
     ]
-   },
-   "gap_es": "u09 existe pero no está en un módulo ni tiene generadores de ausiliare.",
-   "how_es": "Integrar u09 en a2m01 y añadir ERR_PP_AUSILIARE."
+   }
   },
   {
    "id": "g03",
    "area": "gramatica",
-   "source": "CILS A2",
-   "text_es": "Participios irregulares frecuentes",
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Pronombres átonos directos lo, la, li, le",
+   "scope": "O",
    "status": "gap",
-   "module": "a2m01",
+   "module": "a2m04",
    "refs": {},
-   "gap_es": "Sin generador.",
-   "how_es": "Generador de participios irregulares (fatto, preso, visto, aperto…)."
+   "capsulas": [
+    "a2c12",
+    "a2c15"
+   ],
+   "evidence": {
+    "regex": "\\b(lo|la|li|le|l') ?(ho|hai|ha|abbiamo|avete|hanno|vedo|vedi|vede|prendo|prendi|prende|compro|compri|compra|conosco|conosci|conosce|mangio|bevo)\\b",
+    "min": 40,
+    "in": "sentences"
+   },
+   "gap_es": "No hay unidad; solo u71 (mi/ti).",
+   "how_es": "Cápsulas a2c12 (el verbo decide) y a2c15 (concordancia en pasado); entrada rd_alristorante."
   },
   {
    "id": "g04",
    "area": "gramatica",
-   "source": "CILS A2",
-   "text_es": "Verbos reflexivos en passato prossimo",
-   "status": "gap",
-   "module": "a2m01",
-   "refs": {},
-   "gap_es": "Sin unidad.",
-   "how_es": "ERR_PP_RIFLESSIVI con oraciones de Tatoeba auditadas."
-  },
-  {
-   "id": "g05",
-   "area": "gramatica",
-   "source": "CILS A2",
-   "text_es": "Imperfetto regular e irregular",
-   "status": "gap",
-   "module": "a2m02",
-   "refs": {},
-   "gap_es": "Sin unidad.",
-   "how_es": "Generador ERR_IMPERFETTO_FORMA / ERR_IMPERFETTO_IRREG."
-  },
-  {
-   "id": "g06",
-   "area": "gramatica",
-   "source": "PLIDA A2",
-   "text_es": "Passato prossimo e imperfetto en un mismo relato",
-   "status": "gap",
-   "module": "a2m03",
-   "refs": {},
-   "gap_es": "Decisión semántica; no hay generador mecánico.",
-   "how_es": "Cápsulas de elegir con oraciones auditadas y marca de contexto (mentre, quando, ogni giorno)."
-  },
-  {
-   "id": "g07",
-   "area": "gramatica",
-   "source": "CILS A2",
-   "text_es": "Pronombres directos lo, la, li, le",
-   "status": "gap",
-   "module": "a2m04",
-   "refs": {},
-   "gap_es": "Sin unidad.",
-   "how_es": "Generador ERR_CLITICO_DIRETTO."
-  },
-  {
-   "id": "g08",
-   "area": "gramatica",
-   "source": "CILS A2",
-   "text_es": "Pronombres indirectos mi, ti, gli, le, ci, vi",
+   "source": "CILS A2 · morfosintaxis receptiva",
+   "text_es": "Pronombres átonos indirectos gli, le, ci, vi (y mi, ti)",
+   "scope": "A",
    "status": "partial",
    "module": "a2m04",
    "refs": {
@@ -293,36 +1495,327 @@
      "u71"
     ]
    },
-   "gap_es": "u71 cubre solo mi/ti.",
-   "how_es": "ERR_CLITICO_INDIRETTO para gli, le, ci, vi."
+   "capsulas": [
+    "a2c12"
+   ],
+   "evidence": {
+    "regex": "\\b(gli|le) (telefono|telefoni|telefona|dico|dici|dice|do|dai|dà|scrivo|scrivi|scrive|rispondo|rispondi|risponde|piace|piacciono|ho (detto|dato|scritto|telefonato))\\b",
+    "min": 20,
+    "in": "sentences"
+   },
+   "gap_es": "u71 solo cubre mi/ti.",
+   "how_es": "a2c12; en el Cierre y el hito solo se reconoce (CILS lo pide en recepción)."
+  },
+  {
+   "id": "g05",
+   "area": "gramatica",
+   "source": "Ampliado: errores contrastivos (NotebookLM) y Nuovo Espresso 2 (índice)",
+   "text_es": "Posición del pronombre con infinitivo y verbos modales (farlo, lo posso fare)",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m04",
+   "refs": {},
+   "capsulas": [
+    "a2c14"
+   ],
+   "evidence": {
+    "regex": "\\b\\w+(arlo|arla|arli|arle|erlo|erla|erli|erle|irlo|irla|irli|irle|armi|arti|arci|ermi|erti|irmi|irti)\\b",
+    "min": 25,
+    "in": "sentences"
+   },
+   "gap_es": "Sin unidad.",
+   "how_es": "a2c14 con listas negras (lo posso fare y posso farlo son ambas válidas)."
+  },
+  {
+   "id": "g06",
+   "area": "gramatica",
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Numerales cardinales",
+   "scope": "O",
+   "status": "prior",
+   "module": null,
+   "refs": {
+    "units": [
+     "u26"
+    ]
+   }
+  },
+  {
+   "id": "g07",
+   "area": "gramatica",
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Numerales ordinales (primo, secondo, terzo… hasta décimo) y fechas",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m06",
+   "refs": {},
+   "capsulas": [
+    "a2c22"
+   ],
+   "evidence": {
+    "regex": "\\b(primo|prima|secondo|seconda|terzo|terza|quarto|quinto|sesto|settimo|ottavo|nono|decimo)\\b",
+    "min": 10,
+    "in": "sentences"
+   },
+   "gap_es": "No hay unidad de ordinales ni de fechas (el corpus tiene 0–22 frases).",
+   "how_es": "a2c22 con frases propias auditadas."
+  },
+  {
+   "id": "g08",
+   "area": "gramatica",
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Preposiciones articuladas con di, a, da, su",
+   "scope": "O",
+   "status": "prior",
+   "module": null,
+   "refs": {
+    "units": [
+     "u06",
+     "u05",
+     "u70"
+    ]
+   },
+   "note_es": "Cubierto en A1; se repasa en a2c21 y a2c22 (al terzo piano, nel 2020)."
   },
   {
    "id": "g09",
    "area": "gramatica",
-   "source": "PLIDA A2",
-   "text_es": "Ci y ne (lugar, cantidad, partitivo)",
-   "status": "gap",
-   "module": "a2m04",
-   "refs": {},
-   "gap_es": "Sin generador fiable.",
-   "how_es": "Oraciones auditadas a mano; ver course.json → planned."
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Verbos modales e irregulares andare, bere, dare, dire, fare, stare, venire en presente",
+   "scope": "O",
+   "status": "prior",
+   "module": null,
+   "refs": {
+    "units": [
+     "u16",
+     "u17",
+     "u14",
+     "u15"
+    ]
+   }
   },
   {
    "id": "g10",
    "area": "gramatica",
-   "source": "CILS A2",
-   "text_es": "Posición de los pronombres con infinitivo y modales",
-   "status": "gap",
-   "module": "a2m04",
-   "refs": {},
-   "gap_es": "Sin unidad.",
-   "how_es": "ERR_CLITICO_POSIZIONE."
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Passato prossimo con avere y participios irregulares",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m01",
+   "refs": {
+    "units": [
+     "u58"
+    ]
+   },
+   "capsulas": [
+    "a2c01"
+   ],
+   "evidence": {
+    "regex": "\\b(ho|hai|ha|abbiamo|avete|hanno) (preso|messo|chiuso|letto|deciso|chiesto|scelto|scritto|fatto|visto|aperto|detto|bevuto|vissuto|perso|risposto|corso)\\b",
+    "min": 25,
+    "in": "sentences"
+   },
+   "gap_es": "u58 solo introduce el passato prossimo con avere (A1).",
+   "how_es": "a2c01 (participios que el español no anticipa)."
   },
   {
    "id": "g11",
    "area": "gramatica",
-   "source": "CILS A2",
-   "text_es": "Comparativos de mayoría, minoría e igualdad",
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Elegir avere o essere (verbos de estado y de movimiento sin meta)",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m01",
+   "refs": {
+    "units": [
+     "u08"
+    ]
+   },
+   "capsulas": [
+    "a2c02"
+   ],
+   "evidence": {
+    "regex": "\\b(è|sono|siamo|ho|ha|abbiamo) (stato|stata|stati|piaciut\\w+|costat\\w+|rimast\\w+|diventat\\w+|camminato|viaggiato|nuotato|dormito)\\b",
+    "min": 30,
+    "in": "sentences"
+   },
+   "gap_es": "u08 trata solo el movimiento con meta.",
+   "how_es": "a2c02, con frontera explícita con u08 y sin verbos de doble auxiliar."
+  },
+  {
+   "id": "g12",
+   "area": "gramatica",
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Concordancia del participio con el sujeto (essere) y mi è piaciuta / mi sono piaciuti",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m01",
+   "refs": {
+    "units": [
+     "u09"
+    ]
+   },
+   "capsulas": [
+    "a2c04"
+   ],
+   "evidence": {
+    "regex": "\\b(è|sono|siamo|siete) \\w+(ata|ate|ati|ita|ite|iti|uta|ute|uti)\\b",
+    "min": 30,
+    "in": "sentences"
+   },
+   "gap_es": "u09 existe pero no está en un módulo y no concuerda con piacere.",
+   "how_es": "Integrar u09 en a2m01 y ampliarla a ≥30 frases (a2c04)."
+  },
+  {
+   "id": "g13",
+   "area": "gramatica",
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Concordancia del participio con lo, la, li, le (l'ho vista, li ho comprati)",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m04",
+   "refs": {},
+   "capsulas": [
+    "a2c15"
+   ],
+   "evidence": {
+    "regex": "\\b(l'|li |le |la |lo )(ho|hai|ha|abbiamo|avete|hanno) \\w+(ato|ata|ati|ate|uto|uta|uti|ute|ito|ita|iti|ite|so|sa|si|se|to|ta|ti|te)\\b",
+    "min": 25,
+    "in": "sentences"
+   },
+   "gap_es": "Sin unidad.",
+   "how_es": "a2c15 (solo li y le seguras; con mi/ti/ci/vi la concordancia es opcional)."
+  },
+  {
+   "id": "g14",
+   "area": "gramatica",
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Imperfetto regular e irregular (ero, facevo, dicevo, bevevo)",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m02",
+   "refs": {},
+   "capsulas": [
+    "a2c06"
+   ],
+   "evidence": {
+    "regex": "\\b\\w+(avo|avi|ava|avamo|avate|avano|evo|evi|eva|evamo|evate|evano|ivo|ivi|iva|ivamo|ivate|ivano)\\b|\\b(ero|eri|era|eravamo|eravate|erano)\\b",
+    "min": 35,
+    "in": "sentences"
+   },
+   "gap_es": "Sin unidad.",
+   "how_es": "a2c06: el error contrastivo es io parlava (1.ª y 3.ª coinciden en español) y la b/v."
+  },
+  {
+   "id": "g15",
+   "area": "gramatica",
+   "source": "Ampliado: errores contrastivos (NotebookLM) y Nuovo Espresso 2 (índice)",
+   "text_es": "C'era, c'erano, c'è stato",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m02",
+   "refs": {},
+   "capsulas": [
+    "a2c07"
+   ],
+   "evidence": {
+    "regex": "\\b[Cc]'(era|erano)\\b|\\bc'è stat[oa]\\b",
+    "min": 20,
+    "in": "sentences"
+   },
+   "gap_es": "u03 es solo el presente.",
+   "how_es": "a2c07 con código propio ERR_CE_IMPERFETTO."
+  },
+  {
+   "id": "g16",
+   "area": "gramatica",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Passato prossimo e imperfetto en un mismo relato (contar un evento pasado: dónde, cuándo, quién, cómo fue)",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m03",
+   "refs": {},
+   "capsulas": [
+    "a2c10"
+   ],
+   "evidence": {
+    "regex": "\\b[Mm]entre\\b|\\b(all'improvviso|a un tratto|da piccol[oa]|di solito|ogni (giorno|estate|sera|domenica))\\b",
+    "min": 20,
+    "in": "sentences"
+   },
+   "gap_es": "Es una decisión semántica: no hay generador mecánico.",
+   "how_es": "Ejercicio de relato (cloze_text) y frases con disparador inequívoco; reglas de plan §5.3."
+  },
+  {
+   "id": "g17",
+   "area": "gramatica",
+   "source": "Sillabo A2 de los enti certificatori · Tab. 9",
+   "text_es": "Expresiones de tiempo: fa, da, per, fra/tra, scorso, prossimo",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m02",
+   "refs": {},
+   "capsulas": [
+    "a2c08"
+   ],
+   "evidence": {
+    "regex": "\\b(\\w+ fa|da (un|una|due|tre|quattro|cinque|sei|dieci|molto|tanto|poco) \\w+|(fra|tra) (un|una|due|tre|quattro|cinque|dieci) \\w+|scors[oa]|prossim[oa])\\b",
+    "min": 25,
+    "in": "sentences"
+   },
+   "gap_es": "Sin unidad.",
+   "how_es": "a2c08; «per» + pasado cerrado es válido y no se marca como error."
+  },
+  {
+   "id": "g18",
+   "area": "gramatica",
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Adverbios de tiempo con el pasado: già, non… ancora, appena, non… più, mai",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m01",
+   "refs": {},
+   "capsulas": [
+    "a2c05"
+   ],
+   "evidence": {
+    "regex": "\\b(ho|hai|ha|abbiamo|avete|hanno|sono|sei|è|siamo|siete) (già|ancora|appena|mai|sempre)\\b|\\bnon \\w+ (più|ancora)\\b",
+    "min": 25,
+    "in": "sentences"
+   },
+   "gap_es": "Sin unidad (u40 solo trata ieri, oggi, domani, sempre, mai).",
+   "how_es": "a2c05 (variante a mano)."
+  },
+  {
+   "id": "g19",
+   "area": "gramatica",
+   "source": "Sillabo A2 de los enti certificatori · Tab. 9",
+   "text_es": "Verbos reflexivos en passato prossimo",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m01",
+   "refs": {
+    "units": [
+     "u56"
+    ]
+   },
+   "capsulas": [
+    "a2c03"
+   ],
+   "evidence": {
+    "regex": "\\b(mi sono|ti sei|si è|ci siamo|vi siete|si sono) \\w+(ato|ata|ati|ate|ito|ita|iti|ite|so|sa|si|se|to|ta|ti|te)\\b",
+    "min": 25,
+    "in": "sentences"
+   },
+   "gap_es": "u56 solo trata los reflexivos en presente.",
+   "how_es": "a2c03."
+  },
+  {
+   "id": "g20",
+   "area": "gramatica",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Comparar dos cosas para elegir (più… di/che, così… come, tanto… quanto)",
+   "scope": "O",
    "status": "partial",
    "module": "a2m05",
    "refs": {
@@ -330,414 +1823,1424 @@
      "u11"
     ]
    },
-   "gap_es": "u11 cubre «più… di»; falta «come/quanto» y «che».",
-   "how_es": "Ampliar u11 y añadir ERR_COMPARATIVO_IRREG."
+   "capsulas": [
+    "a2c17"
+   ],
+   "evidence": {
+    "regex": "\\b(più|meno) \\w+ (di|del|della|dei|delle|dello|che)\\b|\\b(così|tanto) \\w+ (come|quanto)\\b",
+    "min": 30,
+    "in": "sentences"
+   },
+   "gap_es": "u11 existe pero no está en un módulo y cubre solo «più… di».",
+   "how_es": "Ampliar u11 con «che», «come/quanto» y la frontera di/che (a2c17)."
   },
   {
-   "id": "g12",
+   "id": "g21",
    "area": "gramatica",
-   "source": "CILS A2",
-   "text_es": "Superlativo relativo y absoluto",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Meglio/migliore, peggio/peggiore y el superlativo (il più…, -issimo)",
+   "scope": "O",
    "status": "gap",
    "module": "a2m05",
    "refs": {},
+   "capsulas": [
+    "a2c18"
+   ],
+   "evidence": {
+    "regex": "\\b(meglio|peggio|miglior\\w*|peggior\\w*)\\b|\\b\\w+issim[oaie]\\b|\\b(il|la|i|le) più \\w+",
+    "min": 30,
+    "in": "sentences"
+   },
    "gap_es": "Sin unidad.",
-   "how_es": "Generador ERR_SUPERLATIVO."
+   "how_es": "a2c18."
   },
   {
-   "id": "g13",
+   "id": "g22",
    "area": "gramatica",
-   "source": "CILS A2",
-   "text_es": "Futuro simple regular e irregular",
+   "source": "CILS A2 · morfosintaxis receptiva",
+   "text_es": "Indefinidos y cuantificadores: qualche, alcuni, ogni, nessuno, qualcosa di",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m05",
+   "refs": {
+    "units": [
+     "u39"
+    ]
+   },
+   "capsulas": [
+    "a2c19"
+   ],
+   "evidence": {
+    "regex": "\\b(qualche|alcuni|alcune|ogni|nessun\\w*|qualcosa di|niente di|dei|degli|delle) \\w+",
+    "min": 40,
+    "in": "sentences"
+   },
+   "gap_es": "u39 solo trata molto, poco, troppo, tanto.",
+   "how_es": "a2c19. CILS lo pide solo en recepción; se exige producir por ser calco frecuente (decisión del proyecto)."
+  },
+  {
+   "id": "g23",
+   "area": "gramatica",
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Relativas con «che» (la persona che…, quello che…)",
+   "scope": "O",
    "status": "gap",
    "module": "a2m06",
    "refs": {},
+   "capsulas": [
+    "a2c23"
+   ],
+   "evidence": {
+    "regex": "\\b(che|quello che|ciò che) \\w+",
+    "min": 40,
+    "in": "sentences"
+   },
    "gap_es": "Sin unidad.",
-   "how_es": "Generador ERR_FUTURO_FORMA / ERR_FUTURO_IRREG."
+   "how_es": "a2c23."
   },
   {
-   "id": "g14",
+   "id": "g24",
    "area": "gramatica",
-   "source": "PLIDA A2",
-   "text_es": "Condicional de cortesía (vorrei, potrebbe, dovrebbe)",
-   "status": "partial",
+   "source": "CILS A2 · morfosintaxis receptiva",
+   "text_es": "«Si» impersonal (si può, si dice, si vendono)",
+   "scope": "A",
+   "status": "gap",
    "module": "a2m06",
+   "refs": {},
+   "capsulas": [
+    "a2c24"
+   ],
+   "evidence": {
+    "regex": "\\bsi (può|possono|dice|dicono|deve|devono|vende|vendono|mangia|parla|parlano|trova|trovano|vive|usa|usano)\\b",
+    "min": 25,
+    "in": "sentences"
+   },
+   "gap_es": "Sin unidad.",
+   "how_es": "a2c24 (solo reconocer)."
+  },
+  {
+   "id": "g25",
+   "area": "gramatica",
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Hipótesis simples con «se» + presente (se piove non vengo)",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m07",
+   "refs": {},
+   "capsulas": [
+    "a2c26"
+   ],
+   "evidence": {
+    "regex": "^[Ss]e \\w+ [^,]*,",
+    "min": 15,
+    "in": "sentences"
+   },
+   "planned": {
+    "roleplays": [
+     "rp_invito"
+    ]
+   },
+   "gap_es": "No hay cápsula propia: se practica en rp_invito y en la escritura.",
+   "how_es": "Ficha de a2c26 y juegos de rol; el corpus tiene ~180 frases útiles."
+  },
+  {
+   "id": "g26",
+   "area": "gramatica",
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Subordinadas objetivas con «che» (dice che…, penso che…)",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m10",
+   "refs": {},
+   "capsulas": [
+    "a2c35"
+   ],
+   "evidence": {
+    "regex": "\\b(dice|dicono|penso|credo|so|sai|pensa|sembra) che\\b",
+    "min": 20,
+    "in": "sentences"
+   },
+   "gap_es": "Sin unidad.",
+   "how_es": "a2c35; sin congiuntivo (u12 se queda en B1)."
+  },
+  {
+   "id": "g27",
+   "area": "gramatica",
+   "source": "CILS A2 · morfosintaxis receptiva",
+   "text_es": "Temporales implícitas con «prima di» (+ dopo + sustantivo)",
+   "scope": "A",
+   "status": "gap",
+   "module": "a2m03",
+   "refs": {},
+   "capsulas": [
+    "a2c11"
+   ],
+   "evidence": {
+    "regex": "\\bprima di \\w+(are|ere|ire|arsi|ersi|irsi)\\b",
+    "min": 30,
+    "in": "sentences"
+   },
+   "gap_es": "Sin unidad.",
+   "how_es": "a2c11 (dopo aver… solo reconocer)."
+  },
+  {
+   "id": "g28",
+   "area": "gramatica",
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Coordinadas: o, invece, allora, infatti, non solo… ma anche",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m03",
+   "refs": {},
+   "planned": {
+    "extra_readings": [
+     "ls_a2m03"
+    ],
+    "relatos": [
+     "relato_a2m03_1"
+    ]
+   },
+   "gap_es": "El corpus no alcanza para una cápsula (infatti 3, invece adversativo ~2, non solo… ma anche 3).",
+   "how_es": "Se enseñan en la ficha de a2c10, en la entrada rd_eurochocolate y en los relatos del módulo."
+  },
+  {
+   "id": "g29",
+   "area": "gramatica",
+   "source": "CILS A2 · morfosintaxis productiva",
+   "text_es": "Frase exclamativa (Che bello! Che peccato! Che fortuna!)",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m03",
+   "refs": {},
+   "planned": {
+    "roleplays": [
+     "rp_cosa_e_successo"
+    ]
+   },
+   "gap_es": "Sin unidad.",
+   "how_es": "Juego de rol rp_cosa_e_successo y ficha de a2c10."
+  },
+  {
+   "id": "g30",
+   "area": "gramatica",
+   "source": "Ampliado: errores contrastivos (NotebookLM) y Nuovo Espresso 2 (índice)",
+   "text_es": "Futuro simple regular e irregular (reconocer)",
+   "scope": "A",
+   "status": "gap",
+   "module": "a2m07",
+   "refs": {},
+   "capsulas": [
+    "a2c26"
+   ],
+   "evidence": {
+    "regex": "\\b\\w+(erò|erai|erà|eremo|erete|eranno|irò|irai|irà|iremo|irete|iranno)\\b|\\b(sarò|sarai|sarà|avrò|avrai|avrà|andrò|andrai|andrà|verrò|verrai|verrà|potrò|potrai|potrà|vorrò|farò|farai|farà|dirò|vedrò)\\b",
+    "min": 25,
+    "in": "sentences"
+   },
+   "gap_es": "Sin unidad.",
+   "how_es": "a2c26 (raíz común con el condicional)."
+  },
+  {
+   "id": "g31",
+   "area": "gramatica",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Condicional de cortesía: vorrei, potrei, dovresti, mi piacerebbe",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m07",
    "refs": {
     "units": [
      "u65"
     ]
    },
+   "capsulas": [
+    "a2c26"
+   ],
+   "evidence": {
+    "regex": "\\b(potrei|potresti|potrebbe|dovrei|dovresti|dovrebbe|vorrei|vorresti|vorrebbe|mi piacerebbe|ti piacerebbe)\\b",
+    "min": 25,
+    "in": "sentences"
+   },
+   "planned": {
+    "roleplays": [
+     "rp_favore",
+     "rp_invito"
+    ]
+   },
    "gap_es": "u65 solo cubre «vorrei».",
-   "how_es": "ERR_CONDIZIONALE_CORTESIA."
+   "how_es": "Se reconoce en a2c26 y se produce en rp_favore, rp_invito y la escritura de a2m07/a2m08."
   },
   {
-   "id": "g15",
+   "id": "g32",
    "area": "gramatica",
-   "source": "CILS A2",
-   "text_es": "Imperativo formal (Lei) y con pronombres",
+   "source": "Sillabo A2 de los enti certificatori · Tab. 9",
+   "text_es": "Imperativo de tu y voi, afirmativo y con pronombres (dammi, fallo, parlate)",
+   "scope": "O",
    "status": "partial",
-   "module": "a2m07",
+   "module": "a2m08",
    "refs": {
     "units": [
      "u62",
      "u67"
     ]
    },
-   "gap_es": "A1 cubre tu y negativo.",
-   "how_es": "ERR_IMPERATIVO_LEI y ERR_IMPERATIVO_PRONOMI."
+   "capsulas": [
+    "a2c29"
+   ],
+   "evidence": {
+    "regex": "\\b(dammi|dimmi|fammi|dallo|fallo|dillo|vacci|aspettami|chiamami|parlate|ascoltate|guardate|venite|andate|fate)\\b",
+    "min": 30,
+    "in": "sentences"
+   },
+   "gap_es": "u62 y u67 cubren tu y el negativo; faltan voi y los pronombres pegados.",
+   "how_es": "a2c29; cierra g13 de syllabus-a1."
   },
   {
-   "id": "g16",
+   "id": "g33",
    "area": "gramatica",
-   "source": "PLIDA A2",
-   "text_es": "«a» personal: no se usa en italiano",
-   "status": "partial",
+   "source": "Ampliado: errores contrastivos (NotebookLM) y Nuovo Espresso 2 (índice)",
+   "text_es": "Imperativo de Lei (scusi, senta, prenda, si accomodi): fórmulas",
+   "scope": "A",
+   "status": "gap",
    "module": "a2m08",
+   "refs": {},
+   "capsulas": [
+    "a2c30"
+   ],
+   "evidence": {
+    "regex": "\\b(scusi|senta|prenda|venga|vada|entri|aspetti|mi dica|dica|si accomodi|guardi|giri|continui)\\b",
+    "min": 20,
+    "in": "sentences"
+   },
+   "gap_es": "Sin unidad.",
+   "how_es": "a2c30 (solo reconocer fórmulas)."
+  },
+  {
+   "id": "g34",
+   "area": "gramatica",
+   "source": "Ampliado: errores contrastivos (NotebookLM) y Nuovo Espresso 2 (índice)",
+   "text_es": "Verbos con preposición (smettere di, cercare di, pensare a, dipendere da)",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m07",
+   "refs": {},
+   "capsulas": [
+    "a2c27"
+   ],
+   "evidence": {
+    "regex": "\\b(smett\\w+ di|cerc\\w+ di|prov\\w+ a|riesc\\w+ a|cominci\\w+ a|pens\\w+ a|dipend\\w+ da|sogn\\w+ di|decid\\w+ di|dimentic\\w+ di)\\b",
+    "min": 30,
+    "in": "sentences"
+   },
+   "gap_es": "Sin unidad.",
+   "how_es": "a2c27 (absorbe ERR_PREP_PENSARE)."
+  },
+  {
+   "id": "g35",
+   "area": "gramatica",
+   "source": "Ampliado: errores contrastivos (NotebookLM) y Nuovo Espresso 2 (índice)",
+   "text_es": "Ausencia de «a» personal (vedo Maria)",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m04",
    "refs": {
     "units": [
      "u10"
     ]
    },
-   "gap_es": "u10 existe, sin módulo.",
-   "how_es": "Integrar u10 en a2m08."
+   "capsulas": [
+    "a2c13"
+   ],
+   "evidence": {
+    "regex": "\\b(vedo|vedi|vede|ho visto|ho conosciuto|conosco|aspetto|chiamo|ho chiamato|cerco) [A-Z]\\w+",
+    "min": 25,
+    "in": "sentences"
+   },
+   "gap_es": "u10 existe pero no está en un módulo y no cubre el pasado.",
+   "how_es": "Integrar u10 en a2m04 y ampliarla a ≥30 frases (a2c13)."
   },
   {
-   "id": "g17",
+   "id": "g36",
    "area": "gramatica",
-   "source": "PLIDA A2",
-   "text_es": "Reconocer el congiuntivo presente tras creder/pensare",
+   "source": "Ampliado: errores contrastivos (NotebookLM) y Nuovo Espresso 2 (índice)",
+   "text_es": "Ci de lugar, ci vuole y ci metto",
+   "scope": "A",
+   "status": "gap",
+   "module": "a2m09",
+   "refs": {},
+   "capsulas": [
+    "a2c32"
+   ],
+   "evidence": {
+    "regex": "\\b[Cc]i (vado|vai|va|andiamo|andate|vanno|sono (andat\\w+|stat\\w+)|vuole|vogliono|metto|mette|mettiamo|vorrà)\\b",
+    "min": 25,
+    "in": "sentences"
+   },
+   "gap_es": "Sin unidad.",
+   "how_es": "a2c32 (solo reconocer; cupo de frases propias)."
+  },
+  {
+   "id": "g37",
+   "area": "gramatica",
+   "source": "Ampliado: errores contrastivos (NotebookLM) y Nuovo Espresso 2 (índice)",
+   "text_es": "Ne de cantidad (Ne ho due)",
+   "scope": "A",
+   "status": "gap",
+   "module": "a2m04",
+   "refs": {},
+   "capsulas": [
+    "a2c16"
+   ],
+   "evidence": {
+    "regex": "\\b[Nn]e (ho|hai|ha|abbiamo|avete|hanno|voglio|vuoi|prendo|prendi|compro|vorrei) ",
+    "min": 20,
+    "in": "sentences"
+   },
+   "gap_es": "Sin unidad.",
+   "how_es": "a2c16 (solo reconocer, presente)."
+  },
+  {
+   "id": "g38",
+   "area": "gramatica",
+   "source": "Sillabo A2 de los enti certificatori · Tab. 9",
+   "text_es": "Subordinadas causales, temporales y finales (perché, quando, per + infinitivo)",
+   "scope": "O",
    "status": "partial",
    "module": "a2m10",
-   "refs": {
-    "units": [
-     "u12"
-    ]
-   },
-   "gap_es": "u12 está marcada B1.",
-   "how_es": "Decidir nivel; ERR_ACCORDO_OPINIONE."
-  },
-  {
-   "id": "g18",
-   "area": "gramatica",
-   "source": "CILS A2",
-   "text_es": "Preposiciones articuladas y de lugar con más detalle",
-   "status": "partial",
-   "module": "a2m08",
-   "refs": {
-    "units": [
-     "u70",
-     "u05",
-     "u06"
-    ]
-   },
-   "gap_es": "A1 las introduce.",
-   "how_es": "Cápsulas de repaso en a2m08 (sin unidad nueva)."
-  },
-  {
-   "id": "g19",
-   "area": "gramatica",
-   "source": "CILS A2",
-   "text_es": "Da / fa / per con expresiones de tiempo",
-   "status": "gap",
-   "module": "a2m02",
-   "refs": {},
-   "gap_es": "Sin unidad.",
-   "how_es": "ERR_DA_QUANTO_TEMPO."
-  },
-  {
-   "id": "g20",
-   "area": "gramatica",
-   "source": "CILS A2",
-   "text_es": "Conectores de causa y consecuencia (perché, quindi, mentre, quando)",
-   "status": "partial",
-   "module": "a2m03",
    "refs": {
     "units": [
      "u68"
     ]
    },
-   "gap_es": "u68 cubre conectores simples.",
-   "how_es": "ERR_MENTRE_QUANTO en a2m03."
+   "capsulas": [
+    "a2c36"
+   ],
+   "evidence": {
+    "regex": "\\bperché\\b|\\b[Qq]uando \\w+|\\bper \\w+(are|ere|ire)\\b",
+    "min": 40,
+    "in": "sentences"
+   },
+   "gap_es": "u68 solo cubre conectores simples (g16 de syllabus-a1 quedó parcial).",
+   "how_es": "a2c36."
   },
   {
-   "id": "f01",
-   "area": "funciones",
-   "source": "CILS A2",
-   "text_es": "Contar experiencias pasadas",
-   "status": "gap",
-   "module": "a2m01",
-   "refs": {},
-   "gap_es": "Sin módulo.",
-   "how_es": "a2m01."
-  },
-  {
-   "id": "f02",
-   "area": "funciones",
-   "source": "CILS A2",
-   "text_es": "Describir hábitos y lugares del pasado",
-   "status": "gap",
-   "module": "a2m02",
-   "refs": {},
-   "gap_es": "Sin módulo.",
-   "how_es": "a2m02."
-  },
-  {
-   "id": "f03",
-   "area": "funciones",
-   "source": "CILS A2",
-   "text_es": "Contar una anécdota",
+   "id": "g39",
+   "area": "gramatica",
+   "source": "Sillabo A2 de los enti certificatori · Tab. 9",
+   "text_es": "Discurso directo (Mi ha detto: «…»)",
+   "scope": "O",
    "status": "gap",
    "module": "a2m03",
    "refs": {},
-   "gap_es": "Sin módulo.",
-   "how_es": "a2m03."
+   "planned": {
+    "tasks": [
+     "ht_aneddoto"
+    ],
+    "relatos": [
+     "relato_a2m03_1"
+    ]
+   },
+   "gap_es": "Sin tarea ni texto.",
+   "how_es": "ht_aneddoto («cuenta lo que te dijo») y los relatos de a2m03."
   },
   {
-   "id": "f04",
-   "area": "funciones",
-   "source": "CILS A2",
-   "text_es": "Expresar planes e intenciones",
-   "status": "gap",
-   "module": "a2m06",
-   "refs": {},
-   "gap_es": "Sin módulo.",
-   "how_es": "a2m06."
-  },
-  {
-   "id": "f05",
-   "area": "funciones",
-   "source": "CILS A2",
-   "text_es": "Pedir y dar consejos, permisos y órdenes",
-   "status": "gap",
-   "module": "a2m07",
-   "refs": {},
-   "gap_es": "Sin módulo.",
-   "how_es": "a2m07."
-  },
-  {
-   "id": "f06",
-   "area": "funciones",
-   "source": "CILS A2",
-   "text_es": "Comparar y expresar preferencias",
-   "status": "gap",
-   "module": "a2m05",
-   "refs": {},
-   "gap_es": "Sin módulo.",
-   "how_es": "a2m05."
-  },
-  {
-   "id": "f07",
-   "area": "funciones",
-   "source": "CILS A2",
-   "text_es": "Opinar y mostrar acuerdo o desacuerdo",
+   "id": "g40",
+   "area": "gramatica",
+   "source": "Ampliado: errores contrastivos (NotebookLM) y Nuovo Espresso 2 (índice)",
+   "text_es": "Opinar sin congiuntivo (secondo me, penso di sì, credo di + infinitivo)",
+   "scope": "O",
    "status": "gap",
    "module": "a2m10",
    "refs": {},
-   "gap_es": "Sin módulo.",
-   "how_es": "a2m10."
-  },
-  {
-   "id": "f08",
-   "area": "funciones",
-   "source": "PLIDA A2",
-   "text_es": "Reservar, comprar billetes y reclamar",
-   "status": "gap",
-   "module": "a2m08",
-   "refs": {},
-   "gap_es": "Sin módulo.",
-   "how_es": "a2m08."
-  },
-  {
-   "id": "f09",
-   "area": "funciones",
-   "source": "PLIDA A2",
-   "text_es": "Pedir en restaurante y comprar con más detalle",
-   "status": "partial",
-   "module": "a2m04",
-   "refs": {
-    "modules": [
-     "m08"
-    ],
-    "roleplays": [
-     "rp_trattoria"
-    ]
+   "capsulas": [
+    "a2c35"
+   ],
+   "evidence": {
+    "regex": "\\b(secondo me|per me|penso di|credo di|sono d'accordo|non sono d'accordo)\\b",
+    "min": 20,
+    "in": "sentences"
    },
-   "gap_es": "A1 cubre pedir; falta usar pronombres («lo prendo»).",
-   "how_es": "rd_ristorante2 en a2m04."
+   "gap_es": "Sin unidad (u69 solo da certo, forse, d'accordo).",
+   "how_es": "a2c35."
   },
   {
-   "id": "f10",
-   "area": "funciones",
-   "source": "CILS A2",
-   "text_es": "Hablar de trabajo y estudios",
-   "status": "partial",
-   "module": "a2m09",
-   "refs": {
-    "modules": [
-     "m10"
-    ],
-    "tasks": [
-     "ht_lavoro"
-    ]
-   },
-   "gap_es": "A1 cubre lo básico.",
-   "how_es": "a2m09."
-  },
-  {
-   "id": "f11",
-   "area": "funciones",
-   "source": "CILS A2",
-   "text_es": "Describir síntomas y pedir ayuda médica",
-   "status": "gap",
-   "module": "a2m09",
-   "refs": {},
-   "gap_es": "A1 solo tiene vocabulario del cuerpo.",
-   "how_es": "ERR_VOC_SALUTE2 y rd_dottore."
-  },
-  {
-   "id": "f12",
-   "area": "funciones",
-   "source": "PLIDA A2",
-   "text_es": "Dar y entender direcciones más complejas",
-   "status": "partial",
-   "module": "a2m08",
+   "id": "g41",
+   "area": "gramatica",
+   "source": "Sillabo A2 de los enti certificatori · Tab. 9",
+   "text_es": "Estar + gerundio (sto mangiando)",
+   "scope": "O",
+   "status": "prior",
+   "module": null,
    "refs": {
     "units": [
-     "u57"
+     "u72"
     ]
+   }
+  },
+  {
+   "id": "g42",
+   "area": "gramatica",
+   "source": "Ampliado: errores contrastivos (NotebookLM) y Nuovo Espresso 2 (índice)",
+   "text_es": "Falsos amigos de nivel A2 (casa, comida, compras, ciudad y viaje)",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m05",
+   "refs": {},
+   "capsulas": [
+    "a2c20",
+    "a2c33"
+   ],
+   "gap_es": "Los falsos amigos no se enseñan en A1 (ERR_FALSE_FRIEND no tiene unidad).",
+   "how_es": "a2c20 (a2m05) y a2c33 (a2m09)."
+  },
+  {
+   "id": "g43",
+   "area": "gramatica",
+   "source": "Ampliado: errores contrastivos (NotebookLM) y Nuovo Espresso 2 (índice)",
+   "text_es": "Acentos gráficos y dobles consonantes de A2 (perché, po', qual è, dammi, -issimo)",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m08",
+   "refs": {},
+   "capsulas": [
+    "a2c31"
+   ],
+   "gap_es": "Sin unidad.",
+   "how_es": "a2c31."
+  },
+  {
+   "id": "g44",
+   "area": "gramatica",
+   "source": "Ampliado: errores contrastivos (NotebookLM) y Nuovo Espresso 2 (índice)",
+   "text_es": "Participios de los verbos de uso diario con ho/sono + avverbio (modales en pasado: ho dovuto / sono dovuto)",
+   "scope": "A",
+   "status": "gap",
+   "module": "a2m01",
+   "refs": {},
+   "planned": {
+    "phrase_groups": []
    },
-   "gap_es": "A1 cubre lo básico.",
-   "how_es": "rd_stazione2."
+   "gap_es": "Sin unidad.",
+   "how_es": "Nota en la ficha de a2c02 (las dos formas valen)."
   },
   {
    "id": "l01",
-   "area": "lessico",
-   "source": "PLIDA A2",
-   "text_es": "Viajes y turismo",
-   "status": "gap",
-   "module": "a2m08",
-   "refs": {},
-   "gap_es": "Sin tema.",
-   "how_es": "ERR_VOC_VIAGGIO."
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Ambiente y tiempo atmosférico",
+   "scope": "O",
+   "status": "prior",
+   "module": null,
+   "refs": {
+    "units": [
+     "u33",
+     "u51"
+    ],
+    "phrase_groups": [
+     "ph_tempo"
+    ],
+    "roleplays": [
+     "rp_meteo"
+    ]
+   },
+   "planned": {
+    "readings": [
+     "doc_meteo"
+    ]
+   }
   },
   {
    "id": "l02",
-   "area": "lessico",
-   "source": "PLIDA A2",
-   "text_es": "Alojamiento",
-   "status": "gap",
-   "module": "a2m08",
-   "refs": {},
-   "gap_es": "Sin tema.",
-   "how_es": "ERR_VOC_ALLOGGIO."
-  },
-  {
-   "id": "l03",
-   "area": "lessico",
-   "source": "PLIDA A2",
-   "text_es": "Problemas y reclamos",
-   "status": "gap",
-   "module": "a2m08",
-   "refs": {},
-   "gap_es": "Sin tema.",
-   "how_es": "ERR_VOC_PROBLEMI."
-  },
-  {
-   "id": "l04",
-   "area": "lessico",
-   "source": "PLIDA A2",
-   "text_es": "Trabajo y CV",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Arte, cultura y tiempo libre",
+   "scope": "O",
    "status": "partial",
-   "module": "a2m09",
-   "refs": {
-    "units": [
-     "u29"
-    ]
-   },
-   "gap_es": "A1 solo tiene profesiones.",
-   "how_es": "ERR_VOC_CV."
-  },
-  {
-   "id": "l05",
-   "area": "lessico",
-   "source": "PLIDA A2",
-   "text_es": "Salud y bienestar",
-   "status": "partial",
-   "module": "a2m09",
-   "refs": {
-    "units": [
-     "u27"
-    ]
-   },
-   "gap_es": "A1 solo tiene el cuerpo.",
-   "how_es": "ERR_VOC_SALUTE2."
-  },
-  {
-   "id": "l06",
-   "area": "lessico",
-   "source": "PLIDA A2",
-   "text_es": "Casa, barrio y servicios domésticos",
-   "status": "partial",
-   "module": "a2m09",
-   "refs": {
-    "units": [
-     "u23"
-    ]
-   },
-   "gap_es": "A1 tiene vocabulario básico.",
-   "how_es": "ERR_VOC_CASA2."
-  },
-  {
-   "id": "l07",
-   "area": "lessico",
-   "source": "PLIDA A2",
-   "text_es": "Cine, música y lectura (tiempo libre ampliado)",
-   "status": "partial",
-   "module": "a2m05",
+   "module": "a2m07",
    "refs": {
     "units": [
      "u36"
     ]
    },
-   "gap_es": "A1 tiene lo básico.",
-   "how_es": "Ampliar ERR_VOC_TEMPOLIBERO."
+   "capsulas": [
+    "a2c28"
+   ],
+   "gap_es": "A1 tiene lo básico (u36).",
+   "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
-   "id": "l08",
-   "area": "lessico",
-   "source": "PLIDA A2",
-   "text_es": "Medios y tecnología",
+   "id": "l03",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Casa",
+   "scope": "O",
    "status": "partial",
-   "module": "a2m09",
+   "module": "a2m06",
+   "refs": {
+    "units": [
+     "u23"
+    ]
+   },
+   "gap_es": "A1 tiene el vocabulario básico; el barrio y la situación en el espacio van en a2c21.",
+   "how_es": "Ver las cápsulas y los textos del módulo."
+  },
+  {
+   "id": "l04",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Comida y bebida",
+   "scope": "O",
+   "status": "prior",
+   "module": null,
+   "refs": {
+    "units": [
+     "u22",
+     "u46",
+     "u52",
+     "u35"
+    ]
+   }
+  },
+  {
+   "id": "l05",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Ciudad",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m06",
+   "refs": {
+    "units": [
+     "u24",
+     "u57",
+     "u34"
+    ]
+   },
+   "capsulas": [
+    "a2c21"
+   ],
+   "gap_es": "A1 tiene la ciudad y las direcciones; falta situar con di fronte a, accanto a, in fondo a.",
+   "how_es": "Ver las cápsulas y los textos del módulo."
+  },
+  {
+   "id": "l06",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Comunicación y medios",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m07",
    "refs": {
     "units": [
      "u73"
     ]
    },
-   "gap_es": "A1 tiene lo básico.",
-   "how_es": "Cápsula de repaso."
+   "capsulas": [
+    "a2c28"
+   ],
+   "gap_es": "A1 trata el teléfono y los mensajes (u73); faltan telegiornale, notizia, puntata.",
+   "how_es": "Ver las cápsulas y los textos del módulo."
+  },
+  {
+   "id": "l07",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Educación",
+   "scope": "O",
+   "status": "prior",
+   "module": null,
+   "refs": {
+    "units": [
+     "u53",
+     "u29"
+    ],
+    "roleplays": [
+     "rp_studi",
+     "rp_chiarire"
+    ]
+   }
+  },
+  {
+   "id": "l08",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Emociones y sentimientos",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m03",
+   "refs": {
+    "units": [
+     "u50"
+    ]
+   },
+   "planned": {
+    "roleplays": [
+     "rp_cosa_e_successo"
+    ]
+   },
+   "gap_es": "u50 cubre ideas y sentimientos; faltan las reacciones (Che bello! Che peccato!).",
+   "how_es": "Ver las cápsulas y los textos del módulo."
+  },
+  {
+   "id": "l09",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Familia",
+   "scope": "O",
+   "status": "prior",
+   "module": null,
+   "refs": {
+    "units": [
+     "u21"
+    ],
+    "tasks": [
+     "ht_famiglia"
+    ]
+   }
+  },
+  {
+   "id": "l10",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Compras y pagar",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m05",
+   "refs": {
+    "units": [
+     "u31",
+     "u42",
+     "u39",
+     "u61"
+    ],
+    "roleplays": [
+     "rp_negozio"
+    ]
+   },
+   "capsulas": [
+    "a2c20"
+   ],
+   "gap_es": "A1 cubre comprar ropa; falta comparar y los falsos amigos de las compras.",
+   "how_es": "Ver las cápsulas y los textos del módulo."
+  },
+  {
+   "id": "l11",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Instituciones y vida política",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m06",
+   "refs": {},
+   "capsulas": [
+    "a2c25"
+   ],
+   "gap_es": "Solo de pasada (oficinas, trámites); la vida política no se enseña en A2.",
+   "how_es": "Ver las cápsulas y los textos del módulo."
+  },
+  {
+   "id": "l12",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Trabajo",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m10",
+   "refs": {
+    "units": [
+     "u29"
+    ],
+    "tasks": [
+     "ht_lavoro"
+    ]
+   },
+   "planned": {
+    "readings": [
+     "doc_annuncio_lavoro",
+     "doc_cv"
+    ]
+   },
+   "gap_es": "A1 solo tiene profesiones y lo básico.",
+   "how_es": "Ver las cápsulas y los textos del módulo."
+  },
+  {
+   "id": "l13",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Cualidades personales",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m02",
+   "refs": {},
+   "capsulas": [
+    "a2c09"
+   ],
+   "gap_es": "Sin tema.",
+   "how_es": "Ver las cápsulas y los textos del módulo."
+  },
+  {
+   "id": "l14",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Relaciones sociales",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m02",
+   "refs": {},
+   "capsulas": [
+    "a2c09"
+   ],
+   "gap_es": "Sin tema.",
+   "how_es": "Ver las cápsulas y los textos del módulo."
+  },
+  {
+   "id": "l15",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Rutina personal diaria",
+   "scope": "O",
+   "status": "prior",
+   "module": null,
+   "refs": {
+    "units": [
+     "u15",
+     "u59",
+     "u56",
+     "u48"
+    ],
+    "tasks": [
+     "ht_settimana"
+    ]
+   }
+  },
+  {
+   "id": "l16",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Salud y cuerpo humano",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m10",
+   "refs": {
+    "units": [
+     "u27",
+     "u43"
+    ]
+   },
+   "planned": {
+    "roleplays": [
+     "rp_farmacia"
+    ]
+   },
+   "gap_es": "A1 trata el cuerpo y la salud; faltan los síntomas simples en una farmacia.",
+   "how_es": "Ver las cápsulas y los textos del módulo."
+  },
+  {
+   "id": "l17",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Tecnología y ciencia",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m07",
+   "refs": {
+    "units": [
+     "u73"
+    ]
+   },
+   "capsulas": [
+    "a2c28"
+   ],
+   "gap_es": "A1 tiene lo básico (u73).",
+   "how_es": "Ver las cápsulas y los textos del módulo."
+  },
+  {
+   "id": "l18",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Transportes",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m09",
+   "refs": {
+    "units": [
+     "u34"
+    ]
+   },
+   "capsulas": [
+    "a2c34"
+   ],
+   "gap_es": "A1 tiene los transportes; falta la estación (retraso, huelga, coincidencia).",
+   "how_es": "Ver las cápsulas y los textos del módulo."
+  },
+  {
+   "id": "l19",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Oficinas públicas y servicios",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m06",
+   "refs": {
+    "units": [
+     "u74"
+    ],
+    "roleplays": [
+     "rp_posta"
+    ]
+   },
+   "capsulas": [
+    "a2c25"
+   ],
+   "gap_es": "A1 cubre correos y trámites básicos; falta el banco.",
+   "how_es": "Ver las cápsulas y los textos del módulo."
+  },
+  {
+   "id": "l20",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Ropa y accesorios",
+   "scope": "O",
+   "status": "prior",
+   "module": null,
+   "refs": {
+    "units": [
+     "u31"
+    ],
+    "roleplays": [
+     "rp_moda"
+    ]
+   }
+  },
+  {
+   "id": "l21",
+   "area": "lexico",
+   "source": "PLIDA A2 · temas y áreas semánticas (p. 17–18)",
+   "text_es": "Área temática PLIDA A2: Viajes y turismo",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m09",
+   "refs": {},
+   "capsulas": [
+    "a2c34"
+   ],
+   "gap_es": "Sin tema (u34 solo trata los transportes).",
+   "how_es": "Ver las cápsulas y los textos del módulo."
+  },
+  {
+   "id": "f01",
+   "area": "funcion",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Describir y preguntar sobre personas, hábitos, trabajo y tiempo libre",
+   "scope": "O",
+   "status": "prior",
+   "module": null,
+   "refs": {
+    "tasks": [
+     "ht_descrizioni",
+     "ht_settimana",
+     "ht_lavoro"
+    ]
+   }
+  },
+  {
+   "id": "f02",
+   "area": "funcion",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Hablar de proyectos y acuerdos (qué piensas hacer el fin de semana)",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m07",
+   "refs": {},
+   "planned": {
+    "tasks": [
+     "ht_programmi"
+    ],
+    "roleplays": [
+     "rp_programmi"
+    ]
+   },
+   "gap_es": "Sin tarea de producción propia en A2.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f03",
+   "area": "funcion",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Dar y pedir información sobre un evento pasado (dónde, cuándo, quién, cómo fue)",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m01",
+   "refs": {
+    "tasks": [
+     "ht_passato"
+    ]
+   },
+   "planned": {
+    "tasks": [
+     "ht_ieri"
+    ],
+    "roleplays": [
+     "rp_weekend"
+    ]
+   },
+   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f04",
+   "area": "funcion",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Hablar de experiencias de estudio y de trabajo",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m10",
+   "refs": {
+    "tasks": [
+     "ht_lavoro"
+    ]
+   },
+   "planned": {
+    "tasks": [
+     "ht_lavoro2"
+    ],
+    "roleplays": [
+     "rp_colloquio"
+    ]
+   },
+   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f05",
+   "area": "funcion",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Describir objetos y comparar para elegir cuál comprar",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m05",
+   "refs": {},
+   "planned": {
+    "tasks": [
+     "ht_preferenze"
+    ],
+    "roleplays": [
+     "rp_confronto"
+    ]
+   },
+   "gap_es": "Sin tarea de producción propia en A2.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f06",
+   "area": "funcion",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Decir qué piensas de una persona o situación y por qué te gusta o no",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m10",
+   "refs": {},
+   "planned": {
+    "tasks": [
+     "ht_opinione"
+    ],
+    "roleplays": [
+     "rp_opinioni"
+    ]
+   },
+   "gap_es": "Sin tarea de producción propia en A2.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f07",
+   "area": "funcion",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Pedir información para inscribirse a un curso (secretaría)",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m06",
+   "refs": {},
+   "planned": {
+    "roleplays": [
+     "rp_iscrizione"
+    ]
+   },
+   "gap_es": "Sin tarea de producción propia en A2.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f08",
+   "area": "funcion",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Dar y entender direcciones con un mapa o un navegador",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m06",
+   "refs": {
+    "units": [
+     "u57"
+    ],
+    "roleplays": [
+     "rp_poste"
+    ]
+   },
+   "planned": {
+    "roleplays": [
+     "rp_iscrizione"
+    ]
+   },
+   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f09",
+   "area": "funcion",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Invitar, sugerir, disculparse, pedir un favor, ofrecerse y responder (aceptar o rechazar con un motivo)",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m07",
+   "refs": {},
+   "planned": {
+    "roleplays": [
+     "rp_invito",
+     "rp_favore"
+    ]
+   },
+   "gap_es": "Sin tarea de producción propia en A2.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f10",
+   "area": "funcion",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Expresar gustos, preferencias y estados de ánimo; decir qué buscas en una tienda",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m05",
+   "refs": {
+    "roleplays": [
+     "rp_negozio"
+    ]
+   },
+   "planned": {
+    "roleplays": [
+     "rp_camerino"
+    ]
+   },
+   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f11",
+   "area": "funcion",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Expresar acuerdo y desacuerdo (va bene, d'accordo, sono d'accordo, non credo)",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m10",
+   "refs": {
+    "units": [
+     "u69"
+    ]
+   },
+   "planned": {
+    "roleplays": [
+     "rp_opinioni"
+    ]
+   },
+   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f12",
+   "area": "funcion",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Hacer transacciones en tiendas, correos y bancos",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m06",
+   "refs": {
+    "roleplays": [
+     "rp_posta",
+     "rp_negozio"
+    ]
+   },
+   "planned": {
+    "roleplays": [
+     "rp_banca"
+    ]
+   },
+   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f13",
+   "area": "funcion",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Reservar y pedir un servicio (mesa, plato, habitación) y preguntar cómo es un plato",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m09",
+   "refs": {
+    "roleplays": [
+     "rp_trattoria",
+     "rp_albergo"
+    ]
+   },
+   "planned": {
+    "roleplays": [
+     "rp_albergo2",
+     "rp_biglietto"
+    ]
+   },
+   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f14",
+   "area": "funcion",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Escribir notas y mensajes breves sobre necesidades inmediatas",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m04",
+   "refs": {
+    "roleplays": [
+     "rp_sms"
+    ]
+   },
+   "planned": {
+    "readings": [
+     "doc_nota_coinquilino"
+    ]
+   },
+   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f15",
+   "area": "funcion",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Escribir un e-mail a un amigo con novedades de trabajo, estudio o vida personal",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m10",
+   "refs": {},
+   "planned": {
+    "tasks": [
+     "ht_lavoro2"
+    ]
+   },
+   "gap_es": "Sin tarea de producción propia en A2.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f16",
+   "area": "funcion",
+   "source": "PLIDA A2 · competencias comunicativas (p. 15–16)",
+   "text_es": "Referir información de un volante, un sitio o un chat",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m09",
+   "refs": {},
+   "planned": {
+    "readings": [
+     "doc_depliant"
+    ]
+   },
+   "gap_es": "Sin tarea de producción propia en A2.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f17",
+   "area": "funcion",
+   "source": "Sillabo A2 de los enti certificatori · Tab. 9",
+   "text_es": "Situar en el espacio (davanti a, dietro, vicino a, sotto, di fronte a)",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m06",
+   "refs": {
+    "units": [
+     "u57",
+     "u70"
+    ]
+   },
+   "capsulas": [
+    "a2c21"
+   ],
+   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f18",
+   "area": "funcion",
+   "source": "Sillabo A2 de los enti certificatori · Tab. 9",
+   "text_es": "Secuenciar eventos (prima… poi, dopo, alla fine)",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m03",
+   "refs": {},
+   "capsulas": [
+    "a2c11"
+   ],
+   "planned": {
+    "relatos": [
+     "relato_a2m03_1"
+    ]
+   },
+   "gap_es": "Sin tarea de producción propia en A2.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f19",
+   "area": "funcion",
+   "source": "Sillabo A2 de los enti certificatori · Tab. 9",
+   "text_es": "Decir la hora, las fechas y situar en el tiempo (la settimana prossima, fra due giorni)",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m06",
+   "refs": {
+    "units": [
+     "u59",
+     "u25"
+    ]
+   },
+   "capsulas": [
+    "a2c22",
+    "a2c08"
+   ],
+   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f20",
+   "area": "funcion",
+   "source": "Sillabo A2 de los enti certificatori · Tab. 9",
+   "text_es": "Dar órdenes, consejos y permisos simples (Vai subito! Non andare via! Posso…?)",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m08",
+   "refs": {
+    "units": [
+     "u62",
+     "u67",
+     "u17"
+    ]
+   },
+   "capsulas": [
+    "a2c29"
+   ],
+   "planned": {
+    "roleplays": [
+     "rp_consigli"
+    ],
+    "tasks": [
+     "ht_consigli"
+    ]
+   },
+   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+  },
+  {
+   "id": "f21",
+   "area": "funcion",
+   "source": "PLIDA A2 · tipos de texto (p. 19)",
+   "text_es": "Dejar un mensaje en el contestador",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m06",
+   "refs": {
+    "roleplays": [
+     "rp_telefono"
+    ]
+   },
+   "planned": {
+    "roleplays": [
+     "rp_segreteria"
+    ]
+   },
+   "gap_es": "Sin tarea de producción propia en A2.",
+   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
    "id": "t01",
-   "area": "testi",
-   "source": "CILS A2",
-   "text_es": "Leer mensajes y correos breves",
+   "area": "texto",
+   "source": "PLIDA A2 · tipos de texto (p. 19)",
+   "text_es": "Leer avisos, carteles, reglamentos e insegne",
+   "scope": "O",
    "status": "partial",
    "module": "a2m06",
    "refs": {
     "readings": [
-     "rd_sms",
-     "rd_posta"
+     "doc_cartelli",
+     "rd_avvisi"
     ]
    },
-   "gap_es": "A1 tiene SMS; falta correo.",
-   "how_es": "rd_prenotare."
+   "planned": {
+    "readings": [
+     "doc_regolamento",
+     "doc_divieti"
+    ]
+   },
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
   },
   {
    "id": "t02",
-   "area": "testi",
-   "source": "CILS A2",
-   "text_es": "Leer anuncios de empleo y alquiler",
+   "area": "texto",
+   "source": "PLIDA A2 · tipos de texto (p. 19)",
+   "text_es": "Leer agendas, notas de rutina, listas de la compra, etiquetas, billetes, menús y horarios",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m01",
+   "refs": {
+    "readings": [
+     "doc_orari",
+     "doc_lista",
+     "doc_etichetta",
+     "doc_biglietto",
+     "doc_menu"
+    ]
+   },
+   "planned": {
+    "readings": [
+     "doc_agenda",
+     "doc_biglietto2",
+     "doc_orari2"
+    ]
+   },
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
+  },
+  {
+   "id": "t03",
+   "area": "texto",
+   "source": "PLIDA A2 · tipos de texto (p. 19)",
+   "text_es": "Leer chats, SMS, e-mails y cartas informales sobre temas personales",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m10",
+   "refs": {
+    "readings": [
+     "rd_sms",
+     "rd_sms_esame"
+    ]
+   },
+   "planned": {
+    "readings": [
+     "doc_prenotazione"
+    ]
+   },
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
+  },
+  {
+   "id": "t04",
+   "area": "texto",
+   "source": "PLIDA A2 · tipos de texto (p. 19)",
+   "text_es": "Leer dépliants, descripciones de lugares turísticos y anuncios inmobiliarios y de empleo",
+   "scope": "O",
    "status": "partial",
    "module": "a2m09",
    "refs": {
@@ -745,102 +3248,349 @@
      "doc_annuncio"
     ]
    },
-   "gap_es": "Falta empleo.",
-   "how_es": "doc_annuncio_lavoro."
+   "planned": {
+    "readings": [
+     "doc_depliant",
+     "doc_annuncio_casa",
+     "doc_annuncio_lavoro"
+    ]
+   },
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
   },
   {
-   "id": "t03",
-   "area": "testi",
-   "source": "CILS A2",
-   "text_es": "Entender relatos cortos en pasado",
+   "id": "t05",
+   "area": "texto",
+   "source": "PLIDA A2 · tipos de texto (p. 19)",
+   "text_es": "Leer descripciones y relatos de lo vivido (gustos, casa, familia, escuela, experiencias pasadas, recuerdos)",
+   "scope": "O",
    "status": "gap",
    "module": "a2m03",
    "refs": {},
-   "gap_es": "Sin textos.",
-   "how_es": "rd_incidente, rd_vacanze."
+   "planned": {
+    "readings": [
+     "rd_infanzia",
+     "rd_eurochocolate"
+    ],
+    "relatos": [
+     "relato_a2m03_1"
+    ]
+   },
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
   },
   {
-   "id": "t04",
-   "area": "testi",
-   "source": "PLIDA A2",
-   "text_es": "Escuchar anuncios y avisos con más datos",
+   "id": "t06",
+   "area": "texto",
+   "source": "PLIDA A2 · tipos de texto (p. 19)",
+   "text_es": "Leer formularios, moduli y documentos con datos personales",
+   "scope": "O",
    "status": "partial",
+   "module": "a2m06",
+   "refs": {
+    "readings": [
+     "doc_modulo"
+    ]
+   },
+   "planned": {
+    "readings": [
+     "doc_modulo2",
+     "doc_cv"
+    ]
+   },
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
+  },
+  {
+   "id": "t07",
+   "area": "texto",
+   "source": "PLIDA A2 · tipos de texto (p. 19)",
+   "text_es": "Leer previsiones del tiempo y programas (TV, cine, teatro)",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m07",
+   "refs": {},
+   "planned": {
+    "readings": [
+     "doc_meteo",
+     "doc_cinema"
+    ]
+   },
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
+  },
+  {
+   "id": "t08",
+   "area": "texto",
+   "source": "PLIDA A2 · tipos de texto (p. 19)",
+   "text_es": "Leer instrucciones de uso y de acciones cotidianas",
+   "scope": "O",
+   "status": "gap",
    "module": "a2m08",
+   "refs": {},
+   "planned": {
+    "readings": [
+     "doc_istruzioni"
+    ]
+   },
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
+  },
+  {
+   "id": "t09",
+   "area": "texto",
+   "source": "PLIDA A2 · tipos de texto (p. 19)",
+   "text_es": "Escuchar avisos y anuncios públicos de rutina (estación, aeropuerto, supermercado)",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m09",
    "refs": {
     "readings": [
      "rd_avvisi",
      "rd_stazione"
     ]
    },
-   "gap_es": "A1 tiene lo básico.",
-   "how_es": "rd_stazione2."
-  },
-  {
-   "id": "t05",
-   "area": "testi",
-   "source": "CILS A2",
-   "text_es": "Escribir un mensaje o correo de unas 40 palabras",
-   "status": "partial",
-   "module": "a2m06",
-   "refs": {
-    "modules": [
-     "m12"
+   "planned": {
+    "readings": [
+     "ls_a2m09"
     ]
    },
-   "gap_es": "Cada módulo de A1 propone un mensaje.",
-   "how_es": "writing_es en cada módulo A2."
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
   },
   {
-   "id": "t06",
-   "area": "testi",
-   "source": "CILS A2",
-   "text_es": "Escribir sobre el pasado (diario, anécdota)",
-   "status": "gap",
-   "module": "a2m01",
-   "refs": {},
-   "gap_es": "Sin tarea escrita.",
-   "how_es": "writing_es de a2m01 y a2m03."
-  },
-  {
-   "id": "p01",
-   "area": "pronuncia",
-   "source": "CILS A2",
-   "text_es": "Entonación de preguntas y pausas",
+   "id": "t10",
+   "area": "texto",
+   "source": "PLIDA A2 · tipos de texto (p. 19)",
+   "text_es": "Escuchar mensajes de contestador",
+   "scope": "O",
    "status": "gap",
    "module": "a2m06",
    "refs": {},
-   "gap_es": "Necesita audio nativo.",
-   "how_es": "Mantener declarado como hueco hasta tener audio nativo verificado."
-  },
-  {
-   "id": "f13",
-   "area": "funciones",
-   "source": "PLIDA A2",
-   "text_es": "Pedir y dar permiso («posso…?», «puoi…?»)",
-   "status": "partial",
-   "module": "a2m07",
-   "refs": {
-    "units": [
-     "u17"
+   "planned": {
+    "readings": [
+     "ls_a2m06",
+     "ls_segreteria"
     ]
    },
-   "gap_es": "A1 cubre los modales, no la función de permiso.",
-   "how_es": "ERR_POTERE_PERMESSO y rp_consigli."
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
   },
   {
-   "id": "f14",
-   "area": "funciones",
-   "source": "CILS A2",
-   "text_es": "Argumentar una preferencia con «perché» y dar una razón simple",
+   "id": "t11",
+   "area": "texto",
+   "source": "PLIDA A2 · tipos de texto (p. 19)",
+   "text_es": "Escuchar conversaciones cara a cara o por teléfono sobre temas personales",
+   "scope": "O",
+   "status": "partial",
+   "module": "a2m02",
+   "refs": {
+    "readings": [
+     "ls_m06",
+     "ls_m11"
+    ]
+   },
+   "planned": {
+    "readings": [
+     "ls_a2m01",
+     "ls_a2m02",
+     "ls_a2m03"
+    ]
+   },
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
+  },
+  {
+   "id": "t12",
+   "area": "texto",
+   "source": "PLIDA A2 · tipos de texto (p. 19)",
+   "text_es": "Escuchar interacciones de servicio (restaurante, tienda, farmacia, banco, correos)",
+   "scope": "O",
    "status": "partial",
    "module": "a2m10",
    "refs": {
-    "units": [
-     "u68"
+    "readings": [
+     "ls_m08",
+     "ls_m09",
+     "ls_m10"
     ]
    },
-   "gap_es": "A1 tiene conectores, no la función de argumentar.",
-   "how_es": "rd_opinioni y ht_opinione."
+   "planned": {
+    "readings": [
+     "ls_a2m05",
+     "ls_a2m10"
+    ]
+   },
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
+  },
+  {
+   "id": "t13",
+   "area": "texto",
+   "source": "PLIDA A2 · tipos de texto (p. 19)",
+   "text_es": "Escuchar anuncios publicitarios simples",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m05",
+   "refs": {},
+   "planned": {
+    "readings": [
+     "ls_a2m05",
+     "doc_volantino"
+    ]
+   },
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
+  },
+  {
+   "id": "t14",
+   "area": "texto",
+   "source": "PLIDA A2 · tipos de texto (p. 19)",
+   "text_es": "Escuchar instrucciones sobre acciones cotidianas o el uso de un aparato",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m08",
+   "refs": {},
+   "planned": {
+    "readings": [
+     "ls_a2m08"
+    ]
+   },
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
+  },
+  {
+   "id": "t15",
+   "area": "texto",
+   "source": "CILS A2 · examen (producción)",
+   "text_es": "Escribir una descripción o un diario de 30–60 palabras",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m01",
+   "refs": {},
+   "planned": {
+    "writing": [
+     "a2m01",
+     "a2m02",
+     "a2m03",
+     "a2m04",
+     "a2m05",
+     "a2m06",
+     "a2m07",
+     "a2m08",
+     "a2m09",
+     "a2m10"
+    ]
+   },
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
+  },
+  {
+   "id": "t16",
+   "area": "texto",
+   "source": "CILS A2 · examen (producción)",
+   "text_es": "Escribir un mensaje, una petición de información o una carta informal de 25–50 palabras",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m04",
+   "refs": {},
+   "planned": {
+    "writing": [
+     "a2m01",
+     "a2m02",
+     "a2m03",
+     "a2m04",
+     "a2m05",
+     "a2m06",
+     "a2m07",
+     "a2m08",
+     "a2m09",
+     "a2m10"
+    ]
+   },
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
+  },
+  {
+   "id": "t17",
+   "area": "texto",
+   "source": "CILS A2 · examen (producción)",
+   "text_es": "Hablar en un diálogo con el examinador de 2–3 minutos (juego de rol y ronda de preguntas)",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m10",
+   "refs": {},
+   "planned": {
+    "tasks": [
+     "ht_ieri",
+     "ht_infanzia",
+     "ht_aneddoto",
+     "ht_regalo",
+     "ht_preferenze",
+     "ht_pratica",
+     "ht_programmi",
+     "ht_consigli",
+     "ht_viaggio",
+     "ht_lavoro2",
+     "ht_opinione"
+    ]
+   },
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
+  },
+  {
+   "id": "t18",
+   "area": "texto",
+   "source": "CILS A2 · examen (producción)",
+   "text_es": "Hablar en un monólogo de unos 2 minutos sobre experiencias, hábitos o condiciones de vida",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m03",
+   "refs": {},
+   "planned": {
+    "tasks": [
+     "ht_ieri",
+     "ht_infanzia",
+     "ht_aneddoto",
+     "ht_regalo",
+     "ht_preferenze",
+     "ht_pratica",
+     "ht_programmi",
+     "ht_consigli",
+     "ht_viaggio",
+     "ht_lavoro2",
+     "ht_opinione"
+    ]
+   },
+   "gap_es": "Falta el texto o la tarea de A2.",
+   "how_es": "Texto o tarea planificados en el módulo (ver `planned` y la sección de textos del plan)."
+  },
+  {
+   "id": "p01",
+   "area": "fonologia",
+   "source": "CILS A2 · examen (producción)",
+   "text_es": "Entonación de preguntas y pausas",
+   "scope": "O",
+   "status": "deferred",
+   "module": "a2m06",
+   "refs": {},
+   "gap_es": "La voz sintética falla la entonación de pregunta (7 de 10 en la medición) y no hay audio nativo abierto de diálogos.",
+   "how_es": "Se mantiene declarado como hueco hasta tener audio nativo verificado."
+  },
+  {
+   "id": "p02",
+   "area": "fonologia",
+   "source": "Ampliado: errores contrastivos (NotebookLM) y Nuovo Espresso 2 (índice)",
+   "text_es": "Consonantes dobles y acentos gráficos en las formas nuevas de A2",
+   "scope": "O",
+   "status": "gap",
+   "module": "a2m08",
+   "refs": {},
+   "capsulas": [
+    "a2c31"
+   ],
+   "gap_es": "Sin unidad de A2 (u64 solo trata las dobles de A1).",
+   "how_es": "a2c31."
   }
  ]
 }

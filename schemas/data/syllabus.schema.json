@@ -1,0 +1,478 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://italiano-contrastivo/schemas/data/syllabus.schema.json",
+ "title": "Syllabus",
+ "type": "object",
+ "additionalProperties": false,
+ "description": "Programa de un nivel (schemas/data/syllabus-a1.json, syllabus-a2.json…): cada requisito de CILS/PLIDA con su estado y lo que lo cubre.",
+ "required": [
+  "version",
+  "nivel",
+  "fuentes",
+  "nota",
+  "requisitos"
+ ],
+ "properties": {
+  "version": {
+   "type": "integer",
+   "minimum": 1
+  },
+  "nivel": {
+   "type": "string",
+   "pattern": "^(A|B|C)[12]$"
+  },
+  "fuentes": {
+   "oneOf": [
+    {
+     "type": "string",
+     "minLength": 1
+    },
+    {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "$ref": "#/$defs/Fuente"
+     }
+    }
+   ]
+  },
+  "nota": {
+   "type": "string"
+  },
+  "cierre": {
+   "type": "boolean"
+  },
+  "alcance": {
+   "type": "object"
+  },
+  "areas": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/Area"
+   }
+  },
+  "no_es_a2": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "reglas_de_cierre": {
+   "type": "string"
+  },
+  "correspondencias": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/Correspondencia"
+   }
+  },
+  "modulos_planificados": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/ModuloPlanificado"
+   }
+  },
+  "requisitos": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "$ref": "#/$defs/Requisito"
+   }
+  }
+ },
+ "$defs": {
+  "Area": {
+   "enum": [
+    "gramatica",
+    "lexico",
+    "funcion",
+    "texto",
+    "fonologia"
+   ]
+  },
+  "Estado": {
+   "enum": [
+    "covered",
+    "partial",
+    "prior",
+    "gap",
+    "deferred"
+   ]
+  },
+  "Fuente": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "uso",
+    "url",
+    "leido"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "minLength": 1
+    },
+    "uso": {
+     "type": "string",
+     "minLength": 1
+    },
+    "url": {
+     "type": "string",
+     "minLength": 1
+    },
+    "leido": {
+     "type": "string",
+     "minLength": 1
+    }
+   }
+  },
+  "Correspondencia": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "antes",
+    "ahora",
+    "motivo"
+   ],
+   "properties": {
+    "antes": {
+     "type": "string"
+    },
+    "ahora": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "motivo": {
+     "type": "string",
+     "minLength": 1
+    }
+   }
+  },
+  "Evidencia": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "regex",
+    "min",
+    "in"
+   ],
+   "properties": {
+    "regex": {
+     "type": "string",
+     "minLength": 1
+    },
+    "min": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "in": {
+     "const": "sentences"
+    }
+   }
+  },
+  "Requisito": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "area",
+    "source",
+    "text_es",
+    "status",
+    "refs"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^[gflstp]\\d{2}$"
+    },
+    "area": {
+     "$ref": "#/$defs/Area"
+    },
+    "source": {
+     "type": "string",
+     "minLength": 1
+    },
+    "text_es": {
+     "type": "string",
+     "minLength": 1
+    },
+    "status": {
+     "$ref": "#/$defs/Estado"
+    },
+    "refs": {
+     "type": "object",
+     "additionalProperties": false,
+     "properties": {
+      "units": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "modules": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "readings": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "roleplays": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "tasks": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "phrase_groups": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "scope": {
+     "enum": [
+      "O",
+      "A"
+     ]
+    },
+    "module": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^a2m\\d{2}$"
+    },
+    "capsulas": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "pattern": "^a2c\\d{2}$"
+     }
+    },
+    "evidence": {
+     "$ref": "#/$defs/Evidencia"
+    },
+    "planned": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "gap_es": {
+     "type": "string"
+    },
+    "how_es": {
+     "type": "string"
+    },
+    "note_es": {
+     "type": "string"
+    }
+   }
+  },
+  "Capsula": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "code",
+    "title_es",
+    "scope",
+    "productive",
+    "metodo",
+    "calco_es"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^a2c\\d{2}$"
+    },
+    "code": {
+     "type": "string",
+     "pattern": "^ERR_[A-Z0-9_]+$"
+    },
+    "title_es": {
+     "type": "string",
+     "minLength": 1
+    },
+    "scope": {
+     "enum": [
+      "O",
+      "A"
+     ]
+    },
+    "productive": {
+     "type": "boolean"
+    },
+    "metodo": {
+     "type": "string",
+     "minLength": 1
+    },
+    "calco_es": {
+     "type": "string",
+     "minLength": 1
+    },
+    "formas_validas_es": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "existe": {
+     "type": "string"
+    },
+    "nota_es": {
+     "type": "string"
+    }
+   }
+  },
+  "ModuloPlanificado": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "estado",
+    "title_es",
+    "situacion_es",
+    "can_do_es",
+    "capsulas",
+    "codes",
+    "unidades_existentes",
+    "entrada",
+    "libro_entrada_es",
+    "libros_preguntas_es",
+    "planned",
+    "autorales_es",
+    "library",
+    "library_task_es",
+    "writing_es",
+    "writing_short_es",
+    "interview_min"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^a2m\\d{2}$"
+    },
+    "estado": {
+     "enum": [
+      "planificado",
+      "en_construccion",
+      "cerrado"
+     ]
+    },
+    "title_es": {
+     "type": "string"
+    },
+    "situacion_es": {
+     "type": "string"
+    },
+    "can_do_es": {
+     "type": "array",
+     "minItems": 3,
+     "maxItems": 5,
+     "items": {
+      "type": "string"
+     }
+    },
+    "capsulas": {
+     "type": "array",
+     "minItems": 2,
+     "items": {
+      "$ref": "#/$defs/Capsula"
+     }
+    },
+    "codes": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "unidades_existentes": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "entrada": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "id",
+      "fuente",
+      "nota"
+     ],
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "fuente": {
+       "type": "string"
+      },
+      "nota": {
+       "type": "string"
+      }
+     }
+    },
+    "libro_entrada_es": {
+     "type": "string"
+    },
+    "libros_preguntas_es": {
+     "type": "string"
+    },
+    "autorales_es": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "planned": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "library": {
+     "type": "string"
+    },
+    "library_task_es": {
+     "type": "string"
+    },
+    "writing_es": {
+     "type": "string"
+    },
+    "writing_short_es": {
+     "type": "string"
+    },
+    "interview_min": {
+     "type": "integer",
+     "minimum": 5
+    },
+    "fichas_es": {
+     "type": "string"
+    }
+   }
+  }
+ }
+}
