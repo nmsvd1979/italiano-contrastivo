@@ -1,0 +1,1209 @@
+[
+ {
+  "id": "s_529260",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "doubt",
+  "nota": "Solo 'quando ero giovane'; pp también plausible"
+ },
+ {
+  "id": "s_2689370",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "doubt",
+  "espanol": "Esto pasaba cada verano.",
+  "nivel": "A2",
+  "nota": "variante no confirmada: Con ese disparador habitual el passato prossimo también es traducción aceptable."
+ },
+ {
+  "id": "s_2615881",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Me corté mientras me afeitaba.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4600967",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Original en pp con 'ogni giorno': conflicto"
+ },
+ {
+  "id": "s_1343989",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_713946",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_2028812",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_3266272",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_626417",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_644971",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_503588",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_11706849",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_13314241",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "doubt",
+  "espanol": "Nadaba aquí todos los días.",
+  "nivel": "A1",
+  "nota": "variante no confirmada: Con ese disparador habitual el passato prossimo también es traducción aceptable."
+ },
+ {
+  "id": "s_13314239",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Duplicado de s_13314241"
+ },
+ {
+  "id": "s_10082500",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Siempre contaba los pasos mientras subía.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_12887091",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_5098774",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_5098772",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_612180",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Hablaba mientras caminaba.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_653807",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "De repente me vio.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_716387",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "La oí mientras cantaba.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5444245",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Tom cantaba mientras trabajaba.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2791747",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Comí mientras estudiaba.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_5170219",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "De repente se enfermó.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4320498",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_1544138",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_4240779",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_3120528",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_4240782",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_4240780",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_4240783",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_1740765",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "doubt",
+  "espanol": "Me llamaba casi todos los días.",
+  "nivel": "A2",
+  "nota": "variante no confirmada: Con ese disparador habitual el passato prossimo también es traducción aceptable."
+ },
+ {
+  "id": "s_3337614",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Lo interrumpió mientras hablaba.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11977067",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Él reía mientras ella lloraba.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13745505",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "pp con 'ogni giorno': conflicto de disparador"
+ },
+ {
+  "id": "s_620978",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "doubt",
+  "nota": "Disparador débil 'quando era bambina'"
+ },
+ {
+  "id": "s_6742737",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "doubt",
+  "espanol": "Leía el diario cada mañana.",
+  "nivel": "A2",
+  "nota": "variante no confirmada: Con ese disparador habitual el passato prossimo también es traducción aceptable."
+ },
+ {
+  "id": "s_11458303",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Soñaba y reía mientras dormía.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1574235",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_616997",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "De repente oí un grito.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_833595",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_11235496",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "doubt",
+  "nota": "'mentre ero lì': imperfetto también plausible"
+ },
+ {
+  "id": "s_2776467",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Leí un libro mientras comía.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1739663",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_11725281",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Leía un libro mientras caminaba.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7904216",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_11725278",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Casi duplicado de s_11725281"
+ },
+ {
+  "id": "s_883309",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "doubt",
+  "espanol": "Ella jugaba al tenis todos los domingos.",
+  "nivel": "A2",
+  "nota": "variante no confirmada: Con ese disparador habitual el passato prossimo también es traducción aceptable."
+ },
+ {
+  "id": "s_914253",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Lloraba mientras leía la carta.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6631430",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "El tiempo cambió de repente.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_706132",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_2681101",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_706131",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_1499638",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_3512161",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "El edificio se derrumbó de repente.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_10269582",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "doubt",
+  "espanol": "Antes se detenía en nuestra casa todos los días.",
+  "nivel": "A2",
+  "nota": "variante no confirmada: Con ese disparador habitual el passato prossimo también es traducción aceptable."
+ },
+ {
+  "id": "s_8244370",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "doubt",
+  "espanol": "Leía chistes casi todos los días.",
+  "nivel": "A2",
+  "nota": "variante no confirmada: Con ese disparador habitual el passato prossimo también es traducción aceptable."
+ },
+ {
+  "id": "s_842576",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "La encontré mientras volvía a casa.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3589620",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Lo encontré mientras volvía a casa.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1574233",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "La conocí mientras volvía a casa.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3337615",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_13331586",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_5072040",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_2409009",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Normalmente el teatro abría a esta hora.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7904212",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "La encontré mientras iba a la escuela.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2829450",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_874416",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_1316609",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Se perdió mientras caminaba por el bosque.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1499634",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_12786957",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "doubt",
+  "espanol": "Comía sushi todos los días en Tokio.",
+  "nivel": "A2",
+  "nota": "variante no confirmada: Con ese disparador habitual el passato prossimo también es traducción aceptable."
+ },
+ {
+  "id": "s_7904213",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "La conocí mientras iba a la escuela.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2457609",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Me torcí el cuello mientras dormía.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2617550",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Mientras jugaba al rugby se lesionó.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1535111",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_714001",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "De repente me volví afortunado.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2776469",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_8880437",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "doubt",
+  "nota": "Solo 'quando ero giovane'; pp también plausible"
+ },
+ {
+  "id": "s_1552053",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Lo pilló mientras fumaba un cigarrillo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4795328",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "La vi mientras cruzaba la calle.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_794966",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "De repente oímos un disparo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1109755",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "Me encontré con Tom mientras iba a la escuela.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13331588",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_714560",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "keep",
+  "espanol": "De repente el cielo se oscureció.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_7800344",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "doubt",
+  "espanol": "Nos visitaba a menudo cuando yo era niña.",
+  "nivel": "A2",
+  "nota": "variante no confirmada: Con ese disparador habitual el passato prossimo también es traducción aceptable."
+ },
+ {
+  "id": "s_5707676",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_7904205",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_860713",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "doubt",
+  "espanol": "Jugaba a menudo al tenis cuando era joven.",
+  "nivel": "A2",
+  "nota": "variante no confirmada: Con ese disparador habitual el passato prossimo también es traducción aceptable."
+ },
+ {
+  "id": "s_6066031",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_3542277",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "reject",
+  "nota": "Sin disparador válido, estado, remoto u otro defecto"
+ },
+ {
+  "id": "s_627318",
+  "codigo": "ERR_PP_VS_IMPERFETTO",
+  "veredicto": "doubt",
+  "nota": "Solo 'quando ero giovane'; auxiliar essere, ambiguo"
+ },
+ {
+  "id": "s_373890",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Piensa antes de hablar.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_374410",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Lávate las manos antes de comer.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_4400",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Frase telegráfica, poco natural."
+ },
+ {
+  "id": "s_1912813",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Lávense las manos antes de comer.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_630480",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Dopo + hora; no sustantivo claro."
+ },
+ {
+  "id": "s_8691595",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Lávate la boca antes de hablar de mí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_997832",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Después del trabajo voy directo a casa.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4961522",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Juego al tenis a menudo después de la escuela.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_350405",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Dopo + hora, uso distinto."
+ },
+ {
+  "id": "s_2512727",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Orden de aprendizaje, ambiguo."
+ },
+ {
+  "id": "s_609553",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "No olviden cerrar el gas antes de salir.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1750832",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "¡Piensa antes de actuar!",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_8819564",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Lee antes de dormir.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1750833",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "¡Piensen antes de actuar!",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2579898",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Forma de cortesía en congiuntivo."
+ },
+ {
+  "id": "s_2579896",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Golpea antes de entrar.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_11036022",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "¿Estás libre después de la escuela?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_11036023",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "¿Estás libre después de la escuela?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_764081",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Transitivo sin objeto, antinatural."
+ },
+ {
+  "id": "s_2579900",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Golpeen antes de entrar.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_712888",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "¿Qué hacen después de la escuela?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5142812",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Comamos antes de ir.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3884572",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Ella lee después del almuerzo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_969524",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Hablemos antes de pelear.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_11036021",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "¿Están libres después de la escuela?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3757872",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Lávate los dientes después de las comidas.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_11036020",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "¿Están libres después de la escuela?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_969525",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Hablemos antes de pelear.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_664306",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "El café viene después de la comida.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3757873",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Lávense los dientes después de las comidas.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1125787",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Tengo que afeitarme antes de partir.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_664308",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "El café llega después de la comida.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_6800730",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Duplicado de otra frase; «Che» coloquial."
+ },
+ {
+  "id": "s_6800728",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "¿Qué hacen todos después de la escuela?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_946161",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Proverbio, no uso temporal simple."
+ },
+ {
+  "id": "s_5142817",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Cierra la puerta antes de irte.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_13742520",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Proverbio."
+ },
+ {
+  "id": "s_5142970",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "doubt",
+  "espanol": "Termínenlo antes de irse a la cama.",
+  "nivel": "A1",
+  "nota": "variante no confirmada: es no concuerda con la (Finitela): falta género."
+ },
+ {
+  "id": "s_12757878",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Jugaré al fútbol después de la escuela.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_12899550",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "El domingo viene después del sábado.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5142965",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Termínenlo antes de irse a la cama.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_13742519",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Proverbio."
+ },
+ {
+  "id": "s_5427161",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Jugamos al básquetbol después de la escuela.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1137643",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Jugamos al tenis después de la escuela.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_9708708",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Tengo matemáticas después del recreo.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5142966",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Termínala antes de irte a la cama.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5142819",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Cierren la puerta antes de irse.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5142963",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Termínalo antes de irte a la cama.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_13302376",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "¿Jugarán al tenis después de la escuela?",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_11726365",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "No la dejen salir después de la puesta de sol.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5142951",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Péinate antes de salir.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2513751",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Aprendes a caminar antes de correr.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_2513749",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Aprende a caminar antes de correr.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1107151",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Toma este medicamento después de las comidas.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_12006514",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "doubt",
+  "espanol": "Come antes de cepillarte los dientes.",
+  "nivel": "A2",
+  "nota": "variante no confirmada: Con imperativo tú corresponde spazzolarti, no spazzolarsi."
+ },
+ {
+  "id": "s_2513750",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Aprendan a caminar antes de correr.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_5142952",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Péinense antes de salir.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_3111257",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Mira televisión antes de estudiar.",
+  "nivel": "A1"
+ },
+ {
+  "id": "s_1547634",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Deberían comer algo antes de irse.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2414913",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Prima o dopo = tarde o temprano."
+ },
+ {
+  "id": "s_10774510",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Hablaremos después de la clase.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4717830",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Volvió después de la puesta de sol.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_12090400",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Dopo espacial, no temporal."
+ },
+ {
+  "id": "s_6166210",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Dudó antes de responder.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13684125",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Después del sábado viene el domingo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_13302375",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "¿Jugará al tenis después de la escuela?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3779679",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Me encontré con Tom después del trabajo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_726460",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Me lavo las manos antes de almorzar.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11036006",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Jugaba al béisbol después de la escuela.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11726364",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "No la dejes salir después de la puesta de sol.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1828184",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Me lavo los dientes después del desayuno.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3960949",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Después de la comida pedí la cuenta.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2055859",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Jugaremos al fútbol después de la escuela.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11035998",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Jugué al tenis después de la escuela.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_2055860",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Jugaremos a la pelota después de la escuela.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1710419",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Contenido filosófico y poco natural."
+ },
+ {
+  "id": "s_12017554",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "El aire está más limpio después de la lluvia.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_3509697",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Después del trabajo, Tom siempre está cansado.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11036007",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Jugó al béisbol después de la escuela.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4106067",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "¿Te lavas las manos antes de comer?",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_6988910",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Hago mis tareas después de la escuela.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_10289179",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Nunca como antes de hacer jogging.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_1528388",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Dopo + hora; no sustantivo claro."
+ },
+ {
+  "id": "s_5898318",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Jugarán al béisbol después de la escuela.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11726366",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Imperativo formal en congiuntivo."
+ },
+ {
+  "id": "s_2168494",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Imperativo formal en congiuntivo."
+ },
+ {
+  "id": "s_384576",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "A veces duda antes de responder.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_9712003",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "No bebas demasiado antes de irte a la cama.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_11458511",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "keep",
+  "espanol": "Hoy jugamos al béisbol después del trabajo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "s_4531414",
+  "codigo": "ERR_PRIMA_DI",
+  "veredicto": "reject",
+  "nota": "Congiuntivo y estructura compleja."
+ }
+]

@@ -31,6 +31,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1000171.mp3` — «C'è un gatto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374218
 - `human/1003279.mp3` — «Cantiamo una canzone.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1049256
 - `human/1004013.mp3` — «Casa tua è grande.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/2137752
+- `human/1006421.mp3` — «Che cos'hai fatto dopo?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/410947
 - `human/1000207.mp3` — «Che cos'è successo?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/388816
 - `human/1001366.mp3` — «Che cosa fa?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/611012
 - `human/1004725.mp3` — «Che cosa fai ora?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1035838

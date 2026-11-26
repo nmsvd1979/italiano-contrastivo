@@ -165,5 +165,8 @@ export function moduleTestItems(view: ModuleView, pack: ContentPack, attempt = 0
   for (let round = 0; round < perUnit && out.length < MODULE_TEST_MAX; round++) {
     for (const pool of pools) if (pool[round] && out.length < MODULE_TEST_MAX) out.push(pool[round]);
   }
+  // El Cierre de un módulo con relatos incluye uno (cambia en cada reintento): mide el contraste passato prossimo / imperfetto en un texto.
+  const relatos = view.units.flatMap((v) => pack.readingItems?.[`${v.unit.id}:relatos`] ?? []);
+  if (relatos.length) out.push(relatos[attempt % relatos.length]);
   return out;
 }

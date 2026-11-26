@@ -205,6 +205,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "61639b371e61",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "Siempre contaba los pasos mientras subía.",
+    "es_author": "IA (Claude)",
+    "id": "s_10082500",
+    "it": "Contavo sempre i passi mentre salivo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10082500",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "649038098e14",
     "author": "riccioberto",
     "cefr_estimate": "A1",
@@ -1731,6 +1743,54 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "758ee4003a47",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Están libres después de la escuela?",
+    "es_author": "IA (Claude)",
+    "id": "s_11036020",
+    "it": "Siete liberi dopo la scuola?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11036020",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a1d9b8eab4f6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Están libres después de la escuela?",
+    "es_author": "IA (Claude)",
+    "id": "s_11036021",
+    "it": "Siete libere dopo la scuola?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11036021",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "adfd51af1a3f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Estás libre después de la escuela?",
+    "es_author": "IA (Claude)",
+    "id": "s_11036022",
+    "it": "È libero dopo la scuola?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11036022",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "9b4dbf2b5ac2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Estás libre después de la escuela?",
+    "es_author": "IA (Claude)",
+    "id": "s_11036023",
+    "it": "È libera dopo la scuola?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11036023",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "e271621aff05",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -1792,6 +1852,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1105352",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "efc1e116e2fc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Toma este medicamento después de las comidas.",
+    "es_author": "IA (Claude)",
+    "id": "s_1107151",
+    "it": "Prendi questa medicina dopo i pasti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1107151",
+    "translation_kind": "llm"
   },
   {
     "alt": [
@@ -2172,6 +2244,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "e61f16ed676a",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "Tengo que afeitarme antes de partir.",
+    "es_author": "IA (Claude)",
+    "id": "s_1125787",
+    "it": "Devo radermi prima di partire.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1125787",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "e9453a85795b",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2410,6 +2494,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1137563",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "70a2fd77ae67",
+    "author": "riccioberto",
+    "cefr_estimate": "A1",
+    "es": "Jugamos al tenis después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_1137643",
+    "it": "Giochiamo a tennis dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1137643",
+    "translation_kind": "llm"
   },
   {
     "audio": "77437a91ff1c",
@@ -2782,6 +2878,18 @@
     "it": "Chiama un taxi.",
     "license": "CC BY 2.0 FR",
     "source_id": "11722159",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1662a29a6a3a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No la dejen salir después de la puesta de sol.",
+    "es_author": "IA (Claude)",
+    "id": "s_11726365",
+    "it": "Non fatela uscire dopo il tramonto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11726365",
     "translation_kind": "llm"
   },
   {
@@ -4368,6 +4476,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e12c76e6b496",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Jugaré al fútbol después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_12757878",
+    "it": "Giocherò a calcio dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12757878",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "033f6d2255ab",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -4618,6 +4738,18 @@
     "it": "È luglio adesso.",
     "license": "CC BY 2.0 FR",
     "source_id": "12883970",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a9c3a18d3e1c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El domingo viene después del sábado.",
+    "es_author": "IA (Claude)",
+    "id": "s_12899550",
+    "it": "La domenica viene dopo il sabato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12899550",
     "translation_kind": "llm"
   },
   {
@@ -5774,6 +5906,18 @@
     "it": "La donna ha ragione.",
     "license": "CC BY 2.0 FR",
     "source_id": "13300838",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "967e85483861",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Jugarán al tenis después de la escuela?",
+    "es_author": "IA (Claude)",
+    "id": "s_13302376",
+    "it": "Giocherete a tennis dopo la scuola?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13302376",
     "translation_kind": "llm"
   },
   {
@@ -9314,6 +9458,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e254f3d836c7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡Piensa antes de actuar!",
+    "es_author": "IA (Claude)",
+    "id": "s_1750832",
+    "it": "Pensa prima di agire!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1750832",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c56cfb03ca3a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¡Piensen antes de actuar!",
+    "es_author": "IA (Claude)",
+    "id": "s_1750833",
+    "it": "Pensate prima di agire!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1750833",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b77b05fe4777",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -9771,6 +9939,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1905334",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "d9e7172bbcb3",
+    "author": "Shadd",
+    "cefr_estimate": "A1",
+    "es": "Lávense las manos antes de comer.",
+    "es_author": "Shishir",
+    "es_source_id": "1009853",
+    "id": "s_1912813",
+    "it": "Lavatevi le mani, prima di mangiare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1912813",
+    "translation_kind": "direct"
   },
   {
     "alt": [
@@ -12359,6 +12540,42 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "1db9bd03f45b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Aprende a caminar antes de correr.",
+    "es_author": "IA (Claude)",
+    "id": "s_2513749",
+    "it": "Impara a camminare prima di correre.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2513749",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6416bdeaf3df",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Aprendan a caminar antes de correr.",
+    "es_author": "IA (Claude)",
+    "id": "s_2513750",
+    "it": "Imparate a camminare prima di correre.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2513750",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "dd0fb1423ed9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Aprendes a caminar antes de correr.",
+    "es_author": "IA (Claude)",
+    "id": "s_2513751",
+    "it": "Impari a camminare prima di correre.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2513751",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "5f58712bedf8",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -13029,6 +13246,30 @@
     "it": "Io mi chiamo Sara.",
     "license": "CC BY 2.0 FR",
     "source_id": "2579471",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "bb6dc8dd7dc0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Golpea antes de entrar.",
+    "es_author": "IA (Claude)",
+    "id": "s_2579896",
+    "it": "Bussa prima di entrare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2579896",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6f8b750079f2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Golpeen antes de entrar.",
+    "es_author": "IA (Claude)",
+    "id": "s_2579900",
+    "it": "Bussate prima di entrare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2579900",
     "translation_kind": "llm"
   },
   {
@@ -16025,6 +16266,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3110248",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "61710874f91f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Mira televisión antes de estudiar.",
+    "es_author": "IA (Claude)",
+    "id": "s_3111257",
+    "it": "Guarda la televisione prima di studiare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3111257",
+    "translation_kind": "llm"
   },
   {
     "audio": "b261bcf12d32",
@@ -19467,6 +19720,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "94b8ff2cd817",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Piensa antes de hablar.",
+    "es_author": "tatoerique",
+    "es_source_id": "346411",
+    "id": "s_373890",
+    "it": "Pensa prima di parlare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "373890",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "46a9ab1eb579",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -19659,6 +19925,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "374400",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "e084160dee3a",
+    "author": "Pharamp",
+    "cefr_estimate": "A1",
+    "es": "Lávate las manos antes de comer.",
+    "es_author": "darinmex",
+    "es_source_id": "507166",
+    "id": "s_374410",
+    "it": "Lavati le mani prima di mangiare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "374410",
+    "translation_kind": "direct"
   },
   {
     "alt": [
@@ -20026,6 +20305,30 @@
     "it": "I capelli lunghi sono fuori moda.",
     "license": "CC BY 2.0 FR",
     "source_id": "375783",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "f07fb09f98ed",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Lávate los dientes después de las comidas.",
+    "es_author": "IA (Claude)",
+    "id": "s_3757872",
+    "it": "Lavati i denti dopo i pasti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3757872",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "922441f41a62",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Lávense los dientes después de las comidas.",
+    "es_author": "IA (Claude)",
+    "id": "s_3757873",
+    "it": "Lavatevi i denti dopo i pasti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3757873",
     "translation_kind": "llm"
   },
   {
@@ -21455,6 +21758,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3883769",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "8578ac189687",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ella lee después del almuerzo.",
+    "es_author": "IA (Claude)",
+    "id": "s_3884572",
+    "it": "Lei legge dopo il pranzo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3884572",
+    "translation_kind": "llm"
   },
   {
     "audio": "1eca8631e35e",
@@ -25802,6 +26117,102 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "f9961d97ad06",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Comamos antes de ir.",
+    "es_author": "IA (Claude)",
+    "id": "s_5142812",
+    "it": "Mangiamo prima di andare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5142812",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "fb91e13a8280",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Cierra la puerta antes de irte.",
+    "es_author": "IA (Claude)",
+    "id": "s_5142817",
+    "it": "Chiudi la porta prima di andare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5142817",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "04bbb551f2e2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Cierren la puerta antes de irse.",
+    "es_author": "IA (Claude)",
+    "id": "s_5142819",
+    "it": "Chiudete la porta prima di andare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5142819",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c760f088ffc4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Péinate antes de salir.",
+    "es_author": "IA (Claude)",
+    "id": "s_5142951",
+    "it": "Pettinati i capelli prima di uscire.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5142951",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "2776406f6eef",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Péinense antes de salir.",
+    "es_author": "IA (Claude)",
+    "id": "s_5142952",
+    "it": "Pettinatevi i capelli prima di uscire.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5142952",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "ae221e527a15",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Termínalo antes de irte a la cama.",
+    "es_author": "IA (Claude)",
+    "id": "s_5142963",
+    "it": "Finiscilo prima di andare a letto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5142963",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "984c21f9b474",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Termínenlo antes de irse a la cama.",
+    "es_author": "IA (Claude)",
+    "id": "s_5142965",
+    "it": "Finitelo prima di andare a letto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5142965",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1be2a63aedf9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Termínala antes de irte a la cama.",
+    "es_author": "IA (Claude)",
+    "id": "s_5142966",
+    "it": "Finiscila prima di andare a letto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5142966",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "5bcfd20aaea4",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -26844,6 +27255,18 @@
     "it": "Ha i biglietti?",
     "license": "CC BY 2.0 FR",
     "source_id": "5423556",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "9da48ed2a08a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Jugamos al básquetbol después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_5427161",
+    "it": "Giochiamo a basket dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5427161",
     "translation_kind": "llm"
   },
   {
@@ -29543,6 +29966,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "750a86c009a6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El café viene después de la comida.",
+    "es_author": "IA (Claude)",
+    "id": "s_664306",
+    "it": "Il caffè viene dopo il pasto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "664306",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "816410b149b7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El café llega después de la comida.",
+    "es_author": "IA (Claude)",
+    "id": "s_664308",
+    "it": "Il caffè arriva dopo il pasto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "664308",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "8250911883cc",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -29862,6 +30309,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "677748",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "fa71dd5dcc29",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Qué hacen todos después de la escuela?",
+    "es_author": "IA (Claude)",
+    "id": "s_6800728",
+    "it": "Cosa fanno tutti dopo la scuola?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6800728",
+    "translation_kind": "llm"
   },
   {
     "audio": "5a5227d77f27",
@@ -30666,6 +31125,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "712887",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "7b9cd7b6b36a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Qué hacen después de la escuela?",
+    "es_author": "IA (Claude)",
+    "id": "s_712888",
+    "it": "Cosa fate dopo la scuola?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "712888",
+    "translation_kind": "llm"
   },
   {
     "audio": "3c296afaa06c",
@@ -33524,6 +33995,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "24fd6da57592",
+    "author": "carlosalberto",
+    "cefr_estimate": "A1",
+    "es": "Lee antes de dormir.",
+    "es_author": "IA (Claude)",
+    "id": "s_8819564",
+    "it": "Legge prima di dormire.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8819564",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "7f51a6cfcbb7",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -34413,6 +34896,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "eb7faf5a5fec",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Hablemos antes de pelear.",
+    "es_author": "IA (Claude)",
+    "id": "s_969524",
+    "it": "Parliamo prima di lottare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "969524",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "04db8022f26c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Hablemos antes de pelear.",
+    "es_author": "IA (Claude)",
+    "id": "s_969525",
+    "it": "Parliamo prima di combattere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "969525",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "92be16d91d64",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -34509,6 +35016,18 @@
     "it": "Adesso, voi cantate.",
     "license": "CC BY 2.0 FR",
     "source_id": "9708161",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "0593c907d529",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tengo matemáticas después del recreo.",
+    "es_author": "IA (Claude)",
+    "id": "s_9708708",
+    "it": "Ho matematica dopo la ricreazione.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9708708",
     "translation_kind": "llm"
   },
   {
@@ -35219,6 +35738,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "37366a3d885e",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Nunca como antes de hacer jogging.",
+    "es_author": "IA (Claude)",
+    "id": "s_10289179",
+    "it": "Non mangio mai prima di fare jogging.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10289179",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "680e9cc21ff2",
     "author": "riccioberto",
     "cefr_estimate": "A2",
@@ -35348,6 +35879,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "10771719",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "71fa6e2f991e",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Hablaremos después de la clase.",
+    "es_author": "IA (Claude)",
+    "id": "s_10774510",
+    "it": "Parleremo dopo la lezione.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10774510",
+    "translation_kind": "llm"
   },
   {
     "audio": "b1a3762ca885",
@@ -35530,6 +36073,42 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "5802f9d27d4b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Jugué al tenis después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_11035998",
+    "it": "Ho giocato a tennis dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11035998",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "2ed0ba1bc606",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Jugaba al béisbol después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_11036006",
+    "it": "Giocava a baseball dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11036006",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "081d36095f08",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Jugó al béisbol después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_11036007",
+    "it": "Ha giocato a baseball dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11036007",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4b39e8a931e8",
     "author": "riccioberto",
     "cefr_estimate": "A2",
@@ -35552,6 +36131,18 @@
     "it": "Vorrei un'altra birra.",
     "license": "CC BY 2.0 FR",
     "source_id": "1107994",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "4312dd633a1c",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "Me encontré con Tom mientras iba a la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_1109755",
+    "it": "Ho incontrato Tom mentre andavo a scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1109755",
     "translation_kind": "llm"
   },
   {
@@ -35781,6 +36372,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "bf5eb737dd3c",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Soñaba y reía mientras dormía.",
+    "es_author": "IA (Claude)",
+    "id": "s_11458303",
+    "it": "Sognavo e ridevo, mentre dormivo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11458303",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "3d888be3e7a4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Hoy jugamos al béisbol después del trabajo.",
+    "es_author": "IA (Claude)",
+    "id": "s_11458511",
+    "it": "Giochiamo a baseball dopo il lavoro oggi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11458511",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "d3e318251fa8",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -35904,6 +36519,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "8324132a82ee",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Leía un libro mientras caminaba.",
+    "es_author": "IA (Claude)",
+    "id": "s_11725281",
+    "it": "Leggevo un libro mentre camminavo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11725281",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6469c8d66679",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No la dejes salir después de la puesta de sol.",
+    "es_author": "IA (Claude)",
+    "id": "s_11726364",
+    "it": "Non farla uscire dopo il tramonto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11726364",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "1d507b02be2e",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -36017,6 +36656,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "11969550",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "efd4f4998042",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Él reía mientras ella lloraba.",
+    "es_author": "IA (Claude)",
+    "id": "s_11977067",
+    "it": "Lui rideva mentre lei piangeva.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11977067",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "257694477c98",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "El aire está más limpio después de la lluvia.",
+    "es_author": "IA (Claude)",
+    "id": "s_12017554",
+    "it": "L'aria è più pulita dopo la pioggia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12017554",
+    "translation_kind": "llm"
   },
   {
     "audio": "b11d342d6629",
@@ -36555,6 +37218,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "ba59eddb93b9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Se perdió mientras caminaba por el bosque.",
+    "es_author": "IA (Claude)",
+    "id": "s_1316609",
+    "it": "Si è perso mentre camminava nei boschi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1316609",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "f83b508f4470",
     "author": "Rovo",
     "cefr_estimate": "A2",
@@ -36590,6 +37265,18 @@
     "it": "Giocavo a tennis.",
     "license": "CC BY 2.0 FR",
     "source_id": "13302247",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a8cb85a14ae7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Jugará al tenis después de la escuela?",
+    "es_author": "IA (Claude)",
+    "id": "s_13302375",
+    "it": "Giocherà a tennis dopo la scuola?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13302375",
     "translation_kind": "llm"
   },
   {
@@ -36780,6 +37467,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1367022",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "d127fd390f29",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Después del sábado viene el domingo.",
+    "es_author": "IA (Claude)",
+    "id": "s_13684125",
+    "it": "Dopo il sabato c'è la domenica.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13684125",
+    "translation_kind": "llm"
   },
   {
     "audio": "83d565eb34fb",
@@ -37264,6 +37963,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "b02ed75d38a4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Deberían comer algo antes de irse.",
+    "es_author": "IA (Claude)",
+    "id": "s_1547634",
+    "it": "Dovreste mangiare qualcosa prima di andare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1547634",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "25a16bc439c7",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -37288,6 +37999,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1548597",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "89b49b1c31de",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Lo pilló mientras fumaba un cigarrillo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1552053",
+    "it": "L'ha beccato mentre fumava una sigaretta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1552053",
+    "translation_kind": "llm"
   },
   {
     "audio": "88c923b25d7a",
@@ -37326,6 +38049,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1574231",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "a9f9524d14e2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La conocí mientras volvía a casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_1574233",
+    "it": "L'ho conosciuta mentre tornavo a casa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1574233",
+    "translation_kind": "llm"
   },
   {
     "audio": "493f36431174",
@@ -37779,6 +38514,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "699ef916b616",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me lavo los dientes después del desayuno.",
+    "es_author": "IA (Claude)",
+    "id": "s_1828184",
+    "it": "Mi lavo i denti dopo la colazione.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1828184",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "a1d1062e4a91",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38104,6 +38851,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2041917",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "ac22e3bbcc61",
+    "author": "Sirio60",
+    "cefr_estimate": "A2",
+    "es": "Jugaremos al fútbol después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_2055859",
+    "it": "Giocheremo a calcio dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2055859",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "524986df6fc8",
+    "author": "Sirio60",
+    "cefr_estimate": "A2",
+    "es": "Jugaremos a la pelota después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_2055860",
+    "it": "Giocheremo a pallone dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2055860",
+    "translation_kind": "llm"
   },
   {
     "audio": "3897974da0eb",
@@ -38495,6 +39266,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a32d18cb2fdc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Normalmente el teatro abría a esta hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_2409009",
+    "it": "Di solito il teatro apriva a quest'ora.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2409009",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "02f90aa3661d",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -38639,6 +39422,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2454976",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "f2dae5d39f5f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me torcí el cuello mientras dormía.",
+    "es_author": "IA (Claude)",
+    "id": "s_2457609",
+    "it": "Mi sono slogata il collo mentre dormivo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2457609",
+    "translation_kind": "llm"
   },
   {
     "audio": "7156dfd3ca03",
@@ -38891,6 +39686,31 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9cb41dd12dc7",
+    "author": "julius26",
+    "cefr_estimate": "A2",
+    "es": "Me corté mientras me afeitaba.",
+    "es_author": "nancy",
+    "es_source_id": "2617150",
+    "id": "s_2615881",
+    "it": "Mi sono tagliato mentre mi rasavo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2615881",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "50df25dc19f5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Mientras jugaba al rugby se lesionó.",
+    "es_author": "IA (Claude)",
+    "id": "s_2617550",
+    "it": "Mentre giocava a rugby si è infortunato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2617550",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "fc8369cf8c56",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -39001,6 +39821,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "19fb559d5470",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Leí un libro mientras comía.",
+    "es_author": "IA (Claude)",
+    "id": "s_2776467",
+    "it": "Ho letto un libro mentre mangiavo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2776467",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "f92f192b27ee",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -39010,6 +39842,18 @@
     "it": "In strada c'erano molte persone.",
     "license": "CC BY 2.0 FR",
     "source_id": "2779245",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "da0390cdbef2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Comí mientras estudiaba.",
+    "es_author": "IA (Claude)",
+    "id": "s_2791747",
+    "it": "Ho mangiato mentre studiavo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2791747",
     "translation_kind": "llm"
   },
   {
@@ -39485,6 +40329,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "92626207d01e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Lo interrumpió mientras hablaba.",
+    "es_author": "IA (Claude)",
+    "id": "s_3337614",
+    "it": "L'ha interrotto mentre parlava.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3337614",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "9d03b0479410",
     "author": "bailujia",
     "cefr_estimate": "A2",
@@ -39765,6 +40621,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "9648964d201b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Después del trabajo, Tom siempre está cansado.",
+    "es_author": "IA (Claude)",
+    "id": "s_3509697",
+    "it": "Dopo il lavoro, Tom è sempre stanco.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3509697",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "3e7769faa16d",
     "author": "martin",
     "cefr_estimate": "A2",
@@ -39774,6 +40642,18 @@
     "it": "Non lavora più qua.",
     "license": "CC BY 2.0 FR",
     "source_id": "351137",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "f6eedf204413",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El edificio se derrumbó de repente.",
+    "es_author": "IA (Claude)",
+    "id": "s_3512161",
+    "it": "Il palazzo è crollato all'improvviso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3512161",
     "translation_kind": "llm"
   },
   {
@@ -39887,6 +40767,18 @@
     "it": "Vorrei una mela.",
     "license": "CC BY 2.0 FR",
     "source_id": "3569833",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e0615548ad2d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Lo encontré mientras volvía a casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_3589620",
+    "it": "L'ho incontrato mentre tornavo a casa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3589620",
     "translation_kind": "llm"
   },
   {
@@ -40153,6 +41045,18 @@
     "it": "Non aprire la finestra.",
     "license": "CC BY 2.0 FR",
     "source_id": "377300",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "58eab2e61ca2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me encontré con Tom después del trabajo.",
+    "es_author": "IA (Claude)",
+    "id": "s_3779679",
+    "it": "Ho incontrato Tom dopo il lavoro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3779679",
     "translation_kind": "llm"
   },
   {
@@ -40491,6 +41395,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "507650130ba7",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "A veces duda antes de responder.",
+    "es_author": "IA (Claude)",
+    "id": "s_384576",
+    "it": "A volte è esitante prima di rispondere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "384576",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "5a1aada62105",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -40695,6 +41611,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "395540",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "68987f50dd1c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Después de la comida pedí la cuenta.",
+    "es_author": "IA (Claude)",
+    "id": "s_3960949",
+    "it": "Dopo il pasto ho chiesto il conto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3960949",
+    "translation_kind": "llm"
   },
   {
     "audio": "37cabd0f2d1e",
@@ -40925,6 +41853,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4106066",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "fadb4a36e9ee",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Te lavas las manos antes de comer?",
+    "es_author": "IA (Claude)",
+    "id": "s_4106067",
+    "it": "Tu ti lavi le mani prima di mangiare?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4106067",
+    "translation_kind": "llm"
   },
   {
     "audio": "51cfa9aa9899",
@@ -41462,6 +42402,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e2b70ec179b5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Volvió después de la puesta de sol.",
+    "es_author": "IA (Claude)",
+    "id": "s_4717830",
+    "it": "È tornato dopo il tramonto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4717830",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b89fd4849e39",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -41488,6 +42440,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "61b01ad00274",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La vi mientras cruzaba la calle.",
+    "es_author": "IA (Claude)",
+    "id": "s_4795328",
+    "it": "L'ho vista mentre attraversava la strada.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4795328",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "fbe9d7bf64f8",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -41511,6 +42475,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "484781",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "88bee9b6e290",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "A menudo juego al tenis después de la escuela.",
+    "es_author": "saverius",
+    "es_source_id": "10082355",
+    "id": "s_4961522",
+    "it": "Io gioco spesso a tennis dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4961522",
+    "translation_kind": "direct"
   },
   {
     "audio": "ebe744d1e0be",
@@ -41615,6 +42592,18 @@
     "it": "Lui ha comprato molti libri in libreria.",
     "license": "CC BY 2.0 FR",
     "source_id": "5162305",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "204a373bdd08",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "De repente se enfermó.",
+    "es_author": "IA (Claude)",
+    "id": "s_5170219",
+    "it": "All'improvviso si è ammalato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5170219",
     "translation_kind": "llm"
   },
   {
@@ -41911,6 +42900,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "8946ac5bf350",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom cantaba mientras trabajaba.",
+    "es_author": "IA (Claude)",
+    "id": "s_5444245",
+    "it": "Tom cantava mentre lavorava.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5444245",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "defbf5c61d7f",
     "author": "dnnywld",
     "cefr_estimate": "A2",
@@ -42096,6 +43097,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "9c69466ab778",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Jugarán al béisbol después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_5898318",
+    "it": "Giocheranno a baseball dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5898318",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "8e14c9b72150",
     "author": "ver",
     "cefr_estimate": "A2",
@@ -42172,6 +43185,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "91fff2e17e6d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No se olviden de cortar el gas antes de salir.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1982793",
+    "id": "s_609553",
+    "it": "Non dimenticate di chiudere il gas prima di uscire.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "609553",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ef4973cb29a0",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -42209,6 +43235,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "611971",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "c5e00cdda5cc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Hablaba mientras caminaba.",
+    "es_author": "IA (Claude)",
+    "id": "s_612180",
+    "it": "Parlava mentre camminava.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "612180",
+    "translation_kind": "llm"
   },
   {
     "audio": "61f4143f45a5",
@@ -42286,6 +43324,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "616067",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "0afd7e8fd3dc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Dudó antes de responder.",
+    "es_author": "IA (Claude)",
+    "id": "s_6166210",
+    "it": "Ha esitato prima di rispondere.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6166210",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "da78df0b90eb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "De repente oí un grito.",
+    "es_author": "IA (Claude)",
+    "id": "s_616997",
+    "it": "All'improvviso ho sentito un urlo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "616997",
+    "translation_kind": "llm"
   },
   {
     "audio": "007a2aaa274b",
@@ -42557,6 +43619,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "022185e93c2a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "De repente me vio.",
+    "es_author": "IA (Claude)",
+    "id": "s_653807",
+    "it": "All'improvviso mi ha visto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "653807",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "80cef126d123",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -42606,6 +43680,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "662388",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "47177fffb3dc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El tiempo cambió de repente.",
+    "es_author": "IA (Claude)",
+    "id": "s_6631430",
+    "it": "Il tempo è cambiato all'improvviso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6631430",
+    "translation_kind": "llm"
   },
   {
     "audio": "81aca6563658",
@@ -42734,6 +43820,18 @@
     "it": "Lui non lavora più qui.",
     "license": "CC BY 2.0 FR",
     "source_id": "694513",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "060cf5ef6657",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Hago mis tareas después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_6988910",
+    "it": "Faccio i miei compiti dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6988910",
     "translation_kind": "llm"
   },
   {
@@ -42869,6 +43967,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b7ee333461df",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "De repente me volví afortunado.",
+    "es_author": "IA (Claude)",
+    "id": "s_714001",
+    "it": "All'improvviso sono diventato fortunato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "714001",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "01767fc618fa",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "De repente el cielo se oscureció.",
+    "es_author": "IA (Claude)",
+    "id": "s_714560",
+    "it": "All'improvviso il cielo è diventato scuro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "714560",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "beae49ccb8e3",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -42892,6 +44014,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "715180",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "c32bf01517d0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La oí mientras cantaba.",
+    "es_author": "IA (Claude)",
+    "id": "s_716387",
+    "it": "L'ho sentita mentre cantava.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "716387",
+    "translation_kind": "llm"
   },
   {
     "audio": "a9c83b6c93bf",
@@ -42918,6 +44052,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "7223868",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "b7ebccbbc645",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me lavo las manos antes de almorzar.",
+    "es_author": "IA (Claude)",
+    "id": "s_726460",
+    "it": "Mi lavo le mani prima di pranzare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "726460",
+    "translation_kind": "llm"
   },
   {
     "audio": "74d1765d2db4",
@@ -43373,6 +44519,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9c9ed76c180d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La encontré mientras iba a la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_7904212",
+    "it": "L'ho incontrata mentre andavo a scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7904212",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "68c866c8f22d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La conocí mientras iba a la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_7904213",
+    "it": "L'ho conosciuta mentre andavo a scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7904213",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "1cc09ed30243",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -43397,6 +44567,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "794354",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "3e2369ad4c3d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "De repente oímos un disparo.",
+    "es_author": "IA (Claude)",
+    "id": "s_794966",
+    "it": "All'improvviso abbiamo sentito uno sparo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "794966",
+    "translation_kind": "llm"
   },
   {
     "audio": "e531b365de55",
@@ -43488,6 +44670,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "52f3bae2db3a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La encontré mientras volvía a casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_842576",
+    "it": "L'ho incontrata mentre tornavo a casa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "842576",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "9036b5788d9e",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -43536,6 +44730,19 @@
     "it": "Mia madre non si alza mai presto.",
     "license": "CC BY 2.0 FR",
     "source_id": "867346",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5a4fe42d7735",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Lavate la boca antes de hablar de mí.",
+    "es_author": "hayastan",
+    "es_source_id": "9814210",
+    "id": "s_8691595",
+    "it": "Lavati la bocca prima di parlare di me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8691595",
     "translation_kind": "direct"
   },
   {
@@ -43757,6 +44964,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "3d5512498544",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "Lloraba mientras leía la carta.",
+    "es_author": "IA (Claude)",
+    "id": "s_914253",
+    "it": "Piangeva mentre leggeva la lettera.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "914253",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "64f3d11fc01c",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -43937,6 +45156,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "711c47d2d94f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No bebas demasiado antes de irte a la cama.",
+    "es_author": "IA (Claude)",
+    "id": "s_9712003",
+    "it": "Non bere troppo prima di andare a letto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9712003",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "475cb51bd70a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -44083,6 +45314,19 @@
     "it": "Non chiudere gli occhi.",
     "license": "CC BY 2.0 FR",
     "source_id": "995804",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5baac8a6feb0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Voy directo a casa después del trabajo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1713886",
+    "id": "s_997832",
+    "it": "Dopo il lavoro vado direttamente a casa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "997832",
     "translation_kind": "direct"
   },
   {

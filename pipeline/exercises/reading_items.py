@@ -52,5 +52,15 @@ def build_pack(pack_dir: Path, course_file: Path) -> dict[str, list[dict]]:
     by_id = {r["id"]: r for r in readings}
     # Clave «unidad:lectura»: una misma lectura puede asignarse a dos unidades y el hueco cae en el punto de divergencia de cada una.
     result = {f"{u['id']}:{rid}": items_for_reading(by_id[rid], u["codes"][0]) for u in course["units"] for rid in u.get("readings", []) if rid in by_id}
+    # Relatos (cloze_text) de passato prossimo/imperfetto: viajan con la unidad de ese código, solo si su módulo ya está en el curso; no entran a `itemsByCode`
+    # (así quedan fuera del repaso espaciado y del estudio de puntos débiles: no son una frase con un calco).
+    relatos_file = Path(__file__).resolve().parents[2] / "content" / "relatos" / "a2.json"
+    if relatos_file.exists():
+        from pipeline.exercises.relatos import relato_item
+
+        rels = [r for r in json.loads(relatos_file.read_text(encoding="utf8"))["relatos"] if not r.get("exam")]
+        for u in course["units"]:
+            if u["codes"][0] == "ERR_PP_VS_IMPERFETTO" and any(u["id"] in m["units"] for m in course["modules"]):
+                result[f"{u['id']}:relatos"] = [relato_item(r, r["id"], u["codes"][0]) for r in rels]
     (pack_dir / "reading_items.json").write_text(json.dumps(result, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf8")
     return result

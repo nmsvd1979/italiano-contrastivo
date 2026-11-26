@@ -53,6 +53,9 @@ export function practiceItems(unit: Unit, pack: ContentPack, samples: Samples = 
   const fromReading = [...(rid ? pack.readingItems?.[`${unit.id}:${rid}`] ?? [] : [])].sort((a, b) => (ORDER[a.type ?? ""] ?? 9) - (ORDER[b.type ?? ""] ?? 9));
   const mixed = fromReading.filter((_, i) => i % 3 === 0).concat(fromReading.filter((_, i) => i % 3 !== 0));
   for (const it of mixed) if (!seq.includes(it)) seq.push(it);
+  // Relatos con huecos (passato prossimo o imperfetto): ejercicio propio de la unidad; no pasan por el repaso espaciado.
+  // Se intercalan (uno cada ≈12 ejercicios, desde el 8.º) para que salgan en las tandas y no queden al final de la secuencia.
+  (pack.readingItems?.[`${unit.id}:relatos`] ?? []).forEach((it, k) => { if (!seq.includes(it)) seq.splice(Math.min(seq.length, 8 + k * 12), 0, it); });
   // La tanda 1 toma ítems hasta el tiempo objetivo; la tanda 2 sigue donde terminó la 1 (otras frases u otros tipos).
   const take = (from: number): Item[] => {
     const out: Item[] = [];

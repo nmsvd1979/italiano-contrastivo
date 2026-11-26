@@ -45,5 +45,7 @@ def test_hay_items_para_todas_las_lecturas_del_paquete():
     course = json.loads((pack / "course.json").read_text(encoding="utf8"))
     by = {r["id"]: r for r in rd}
     claves = {f"{u['id']}:{rid}" for u in course["units"] for rid in u.get("readings", [])}
-    assert set(ri) == claves
-    assert all(len(v) >= len(by[k.split(":")[1]]["sentences"]) for k, v in ri.items())  # al menos un ejercicio por oración
+    relatos = {k for k in ri if k.endswith(":relatos")}   # relatos (cloze_text) de a2m03: no son de una lectura
+    assert set(ri) - relatos == claves
+    assert all(v and all(i["type"] == "cloze_text" for i in v) for k, v in ri.items() if k in relatos)
+    assert all(len(v) >= len(by[k.split(":")[1]]["sentences"]) for k, v in ri.items() if k not in relatos)  # al menos un ejercicio por oración

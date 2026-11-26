@@ -91,11 +91,13 @@ describe("módulos: salida y prueba de cierre", () => {
   it("la prueba mezcla frases de todas las cápsulas del módulo, sin repetir, escritas desde el español", () => {
     for (const m of pack.course.modules!) {
       const view = moduleViews(pack.course, [], true).modules.find((x) => x.module.id === m.id)!;
-      const items = moduleTestItems(view, pack);
+      const all = moduleTestItems(view, pack);
+      const items = all.filter((i) => i.type !== "cloze_text");   // el relato del Cierre (si el módulo lo tiene) se prueba en relatosModulo.test.ts
       expect(items.length, m.id).toBeGreaterThan(5);
       expect(items.length, m.id).toBeLessThanOrEqual(MODULE_TEST_MAX);
-      expect(new Set(items.map((i) => i.id)).size, m.id).toBe(items.length);
-      expect(items.every((i) => i.type === "translate_es_it"), m.id).toBe(true);
+      expect(new Set(all.map((i) => i.id)).size, m.id).toBe(all.length);
+      const recognition = m.units.some((u) => pack.course.units.find((x) => x.id === u)?.productive === false);   // las cápsulas [A] se prueban eligiendo
+      expect(items.every((i) => i.type === "translate_es_it" || (recognition && (i.type === "choice_l1_distractor" || i.type === "cloze"))), m.id).toBe(true);
     }
   });
   it("M2 tiene verbos en -are (parlo, abito) para poder hablar de tus datos", () => {

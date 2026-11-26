@@ -196,6 +196,116 @@
     "sentences": []
   },
   {
+    "id": "doc_a2m03_cronologia",
+    "title": "Una gita a Genova: cronologia",
+    "level": "A2",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿A qué hora salieron de casa?",
+        "options": [
+          "A las siete en punto.",
+          "A las nueve.",
+          "A las diez."
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Qué comieron a mediodía?",
+        "options": [
+          "Pizza.",
+          "Pasta.",
+          "Focaccia."
+        ],
+        "answer": 2
+      },
+      {
+        "prompt_es": "¿Qué pasó a las tres?",
+        "options": [
+          "Llegaron al mar.",
+          "Empezó a llover.",
+          "Visitaron el acuario."
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Cómo estaba el tren a la vuelta?",
+        "options": [
+          "Vacío.",
+          "Lleno.",
+          "Con retraso."
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Qué hacían ellas en el tren?",
+        "options": [
+          "Dormían.",
+          "Leían.",
+          "Comían."
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Quiénes había en el acuario?",
+        "options": [
+          "Pocos turistas.",
+          "Muchos niños.",
+          "Nadie."
+        ],
+        "answer": 1
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Quando",
+        "Che cosa è successo",
+        "Com'era la situazione"
+      ],
+      "rows": [
+        [
+          "Alle sette in punto",
+          "Siamo partite da casa",
+          "Faceva freddo e c'era poca gente."
+        ],
+        [
+          "Alle nove",
+          "Siamo arrivate a Genova",
+          "Il sole splendeva e il mare era calmo."
+        ],
+        [
+          "Alle dieci",
+          "Abbiamo visitato l'acquario",
+          "C'erano molti bambini e tutti sorridevano."
+        ],
+        [
+          "A mezzogiorno",
+          "Abbiamo mangiato la focaccia",
+          "Eravamo stanche, ma contente."
+        ],
+        [
+          "Alle tre",
+          "Ha cominciato a piovere",
+          "Non avevamo l'ombrello."
+        ],
+        [
+          "Alle sei",
+          "Siamo tornate a casa in treno",
+          "Il treno era pieno e noi dormivamo."
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
     "id": "doc_annuncio",
     "title": "Affittasi stanza",
     "level": "A1",
@@ -1307,6 +1417,187 @@
         "speaker": "Paolo",
         "audio": "2d8a78190218",
         "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "ls_a2m03",
+    "title": "Una anécdota por teléfono",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Por qué Marco perdió el tren?",
+        "options": [
+          "Había mucha gente en la estación.",
+          "Se despertó tarde.",
+          "Su colega llegó tarde."
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Qué le pasó mientras iba a la estación?",
+        "options": [
+          "Perdió el teléfono.",
+          "Se le cayó la bolsa.",
+          "Vio un accidente."
+        ],
+        "answer": 1,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿A quién vio Marco de repente?",
+        "options": [
+          "A un colega, Paolo.",
+          "A Anna.",
+          "A un taxista."
+        ],
+        "answer": 0,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿A qué hora llegó Marco a la oficina?",
+        "options": [
+          "A las ocho.",
+          "A las nueve y cuarto.",
+          "A las tres."
+        ],
+        "answer": 1,
+        "evidence": 12
+      },
+      {
+        "prompt_es": "¿Qué propone Marco al final?",
+        "options": [
+          "Ir a la oficina juntos.",
+          "Llamar a Paolo.",
+          "Encontrarse en el bar a las tres."
+        ],
+        "answer": 2,
+        "evidence": 14
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_a2m03_00",
+        "it": "Anna, ieri ho perso il treno!",
+        "es": "Anna, ayer perdí el tren.",
+        "speaker": "Marco",
+        "audio": "0373d896cfc0"
+      },
+      {
+        "id": "ls_a2m03_01",
+        "it": "Davvero? Raccontami tutto.",
+        "es": "¿De verdad? Cuéntamelo todo.",
+        "speaker": "Anna",
+        "audio": "27311e6612f3",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m03_02",
+        "it": "Di solito mi svegliavo alle sei. Ieri ho dormito fino alle sette.",
+        "es": "Normalmente me despertaba a las seis, pero ayer dormí hasta las siete.",
+        "speaker": "Marco",
+        "audio": "e66bfd713e9b"
+      },
+      {
+        "id": "ls_a2m03_03",
+        "it": "Allora che cosa hai fatto?",
+        "es": "Entonces, ¿qué hiciste?",
+        "speaker": "Anna",
+        "audio": "02d17bb0d3b0",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m03_04",
+        "it": "Mentre andavo alla stazione, a un tratto mi è caduta la borsa.",
+        "es": "Mientras iba a la estación, de pronto se me cayó la bolsa.",
+        "speaker": "Marco",
+        "audio": "a844f077fe32"
+      },
+      {
+        "id": "ls_a2m03_05",
+        "it": "Oh no! C'era molta gente?",
+        "es": "¡Ay, no! ¿Había mucha gente?",
+        "speaker": "Anna",
+        "audio": "93853f09d2a6",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m03_06",
+        "it": "Sì, c'era tanta gente e nessuno mi ha aiutato.",
+        "es": "Sí, había mucha gente y nadie me ayudó.",
+        "speaker": "Marco",
+        "audio": "57d6919a5f14"
+      },
+      {
+        "id": "ls_a2m03_07",
+        "it": "E poi? Hai preso un altro treno?",
+        "es": "¿Y después? ¿Tomaste otro tren?",
+        "speaker": "Anna",
+        "audio": "1dc652896285",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m03_08",
+        "it": "All'improvviso ho visto Paolo. Aspettava un taxi.",
+        "es": "De repente vi a Paolo. Esperaba un taxi.",
+        "speaker": "Marco",
+        "audio": "5bda4e3cb347"
+      },
+      {
+        "id": "ls_a2m03_09",
+        "it": "Paolo, il tuo collega?",
+        "es": "¿Paolo, tu colega?",
+        "speaker": "Anna",
+        "audio": "3607482c248c",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m03_10",
+        "it": "Sì. Mi ha dato un passaggio in macchina.",
+        "es": "Sí. Me llevó en su auto.",
+        "speaker": "Marco",
+        "audio": "75abca45be80"
+      },
+      {
+        "id": "ls_a2m03_11",
+        "it": "Che fortuna! Sei arrivato in tempo?",
+        "es": "¡Qué suerte! ¿Llegaste a tiempo?",
+        "speaker": "Anna",
+        "audio": "201fff29ddf4",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m03_12",
+        "it": "Quasi. Sono arrivato in ufficio alle nove e un quarto.",
+        "es": "Casi. Llegué a la oficina a las nueve y cuarto.",
+        "speaker": "Marco",
+        "audio": "f47dddc1f56d"
+      },
+      {
+        "id": "ls_a2m03_13",
+        "it": "Dopo questa avventura meriti un caffè!",
+        "es": "¡Después de esta aventura te mereces un café!",
+        "speaker": "Anna",
+        "audio": "9da1e8b5af75",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m03_14",
+        "it": "Infatti! Ti aspetto al bar alle tre.",
+        "es": "¡Claro que sí! Te espero en el bar a las tres.",
+        "speaker": "Marco",
+        "audio": "006c0e590377"
       }
     ]
   },
@@ -3305,6 +3596,292 @@
         "es": "¡Con gusto! Gracias por la invitación.",
         "speaker": "Anna",
         "audio": "334b17b03b97",
+        "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m03_a",
+    "title": "Raccontami cosa è successo!",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Por qué llega tarde Marco?",
+        "options": [
+          "Perdió el autobús.",
+          "Se cayó de la bicicleta.",
+          "Se quedó dormido."
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Qué hacía Marco cuando se cayó?",
+        "options": [
+          "Miraba el teléfono.",
+          "Escuchaba música.",
+          "Hablaba con Giulia."
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Con qué tropezó?",
+        "options": [
+          "Con una piedra.",
+          "Con un perro.",
+          "Con un hoyo."
+        ],
+        "answer": 2,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Cómo está Marco?",
+        "options": [
+          "Muy mal.",
+          "Solo tiene un rasguño.",
+          "Fue al hospital."
+        ],
+        "answer": 1,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Qué propone Giulia?",
+        "options": [
+          "Ir al bar.",
+          "Volver a casa.",
+          "Llamar a un médico."
+        ],
+        "answer": 0,
+        "evidence": 8
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m03_a_00",
+        "it": "Marco, sei in ritardo! Che cosa è successo?",
+        "es": "Marco, ¡llegas tarde! ¿Qué pasó?",
+        "speaker": "Giulia",
+        "audio": "d7019c80e2b7"
+      },
+      {
+        "id": "rd_a2m03_a_01",
+        "it": "Scusa! Sono caduto dalla bici.",
+        "es": "¡Perdona! Me caí de la bicicleta.",
+        "speaker": "Marco",
+        "audio": "033cd7d9b9d9",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m03_a_02",
+        "it": "Oh no! Dov'eri quando sei caduto?",
+        "es": "¡Ay, no! ¿Dónde estabas cuando te caíste?",
+        "speaker": "Giulia",
+        "audio": "9a79e3774676"
+      },
+      {
+        "id": "rd_a2m03_a_03",
+        "it": "Ero vicino al parco. Mentre pedalavo, guardavo il telefono.",
+        "es": "Estaba cerca del parque. Mientras pedaleaba, miraba el teléfono.",
+        "speaker": "Marco",
+        "audio": "d3214c18253f",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m03_a_04",
+        "it": "E poi?",
+        "es": "¿Y después?",
+        "speaker": "Giulia",
+        "audio": "8df7ec640641"
+      },
+      {
+        "id": "rd_a2m03_a_05",
+        "it": "A un tratto ho visto una buca e sono caduto.",
+        "es": "De pronto vi un hoyo y me caí.",
+        "speaker": "Marco",
+        "audio": "6ffcaadf212b",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m03_a_06",
+        "it": "Ti sei fatto male?",
+        "es": "¿Te hiciste daño?",
+        "speaker": "Giulia",
+        "audio": "0d54485435f8"
+      },
+      {
+        "id": "rd_a2m03_a_07",
+        "it": "No, infatti ho solo un piccolo graffio. Di solito faccio attenzione!",
+        "es": "No, de hecho solo tengo un pequeño rasguño. ¡Normalmente tengo cuidado!",
+        "speaker": "Marco",
+        "audio": "a6454dbbc170",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m03_a_08",
+        "it": "Allora andiamo al bar. Offro io!",
+        "es": "Entonces vamos al bar. ¡Invito yo!",
+        "speaker": "Giulia",
+        "audio": "847ff3f5964f"
+      },
+      {
+        "id": "rd_a2m03_a_09",
+        "it": "Grazie! Dopo la caduta ho proprio bisogno di un caffè.",
+        "es": "¡Gracias! Después de la caída de verdad necesito un café.",
+        "speaker": "Marco",
+        "audio": "ffca01dbb887",
+        "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m03_b",
+    "title": "Che cosa facevi quando ha squillato il telefono?",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Dónde estaba Davide anoche?",
+        "options": [
+          "En casa.",
+          "En el trabajo.",
+          "En el cine."
+        ],
+        "answer": 2,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Por qué no contestó Davide?",
+        "options": [
+          "Había silencio en la sala.",
+          "No tenía batería.",
+          "No oyó nada."
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué hizo Davide al salir?",
+        "options": [
+          "Se fue a dormir.",
+          "Volvió a llamar a Sara.",
+          "Escribió un mensaje a Luca."
+        ],
+        "answer": 1,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Dónde estaba Sara cuando él llamó?",
+        "options": [
+          "En el auto.",
+          "En el cine.",
+          "En la oficina."
+        ],
+        "answer": 0,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿Qué deciden al final?",
+        "options": [
+          "Verse y hablar mañana.",
+          "Ir al cine juntos.",
+          "Llamarse esta noche."
+        ],
+        "answer": 0,
+        "evidence": 9
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m03_b_00",
+        "it": "Davide, ieri sera ti ho chiamato tre volte! Dov'eri?",
+        "es": "Davide, ¡anoche te llamé tres veces! ¿Dónde estabas?",
+        "speaker": "Sara",
+        "audio": "b3c87d03afcb"
+      },
+      {
+        "id": "rd_a2m03_b_01",
+        "it": "Scusa! Ero al cinema con Luca.",
+        "es": "¡Perdona! Estaba en el cine con Luca.",
+        "speaker": "Davide",
+        "audio": "7335a51d889d",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m03_b_02",
+        "it": "Che cosa facevi quando ha squillato il telefono?",
+        "es": "¿Qué hacías cuando sonó el teléfono?",
+        "speaker": "Sara",
+        "audio": "70b693194831"
+      },
+      {
+        "id": "rd_a2m03_b_03",
+        "it": "Mentre guardavo il film, ho sentito una vibrazione. Era il tuo numero.",
+        "es": "Mientras miraba la película, sentí una vibración. Era tu número.",
+        "speaker": "Davide",
+        "audio": "8aa85821656d",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m03_b_04",
+        "it": "E non hai risposto?",
+        "es": "¿Y no contestaste?",
+        "speaker": "Sara",
+        "audio": "babc8ad61988"
+      },
+      {
+        "id": "rd_a2m03_b_05",
+        "it": "No, perché c'era silenzio in sala. Infatti tutti guardavano me!",
+        "es": "No, porque había silencio en la sala. ¡De hecho todos me miraban a mí!",
+        "speaker": "Davide",
+        "audio": "f3ff3eb22cad",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m03_b_06",
+        "it": "Ahah! Quando sei uscito, che cosa hai fatto?",
+        "es": "¡Jaja! Cuando saliste, ¿qué hiciste?",
+        "speaker": "Sara",
+        "audio": "5acb1ad768e9"
+      },
+      {
+        "id": "rd_a2m03_b_07",
+        "it": "Ti ho richiamata subito, ma tu non rispondevi.",
+        "es": "Te devolví la llamada enseguida, pero tú no contestabas.",
+        "speaker": "Davide",
+        "audio": "7122b83e85c6",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m03_b_08",
+        "it": "Ero in macchina e non ho sentito il telefono. Allora siamo pari!",
+        "es": "Estaba en el auto y no oí el teléfono. ¡Entonces estamos a mano!",
+        "speaker": "Sara",
+        "audio": "b69d4b6dbe5f"
+      },
+      {
+        "id": "rd_a2m03_b_09",
+        "it": "Va bene! Domani ci vediamo e parliamo con calma.",
+        "es": "¡Está bien! Mañana nos vemos y hablamos con calma.",
+        "speaker": "Davide",
+        "audio": "7699d89894a1",
         "voice": 2
       }
     ]
@@ -5349,6 +5926,204 @@
         "es": "Vivo cerca del museo de la Academia, en la calle Ricasoli 6, 50122 Florencia.",
         "speaker": "Michelangelo",
         "audio": "f128d85960e9"
+      }
+    ]
+  },
+  {
+    "id": "rd_eurochocolate",
+    "title": "Che cosa è successo a Perugia?",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Con quién fue Giulia al festival?",
+        "options": [
+          "Con su hermana",
+          "Con Marco",
+          "Con una amiga"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Qué hacía Giulia mientras los demás miraban los stands?",
+        "options": [
+          "Sacaba fotos",
+          "Probaba un chocolate caliente",
+          "Compraba bombones"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Cómo estaba el tiempo?",
+        "options": [
+          "Llovía",
+          "Había niebla",
+          "Había un lindo sol"
+        ],
+        "answer": 2,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Qué pasó de repente?",
+        "options": [
+          "Se cayó una torre de chocolate",
+          "Se apagó la luz",
+          "Se perdió su hermana"
+        ],
+        "answer": 0,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Cómo reaccionó Giulia?",
+        "options": [
+          "Gritó",
+          "Se rio",
+          "Se fue"
+        ],
+        "answer": 1,
+        "evidence": 11
+      },
+      {
+        "prompt_es": "¿Qué hizo el pastelero después?",
+        "options": [
+          "Cerró el stand",
+          "Pidió disculpas",
+          "Regaló bombones"
+        ],
+        "answer": 2,
+        "evidence": 13
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_eurochocolate_00",
+        "it": "Ciao Giulia! Allora, com'era il weekend a Perugia?",
+        "es": "¡Hola Giulia! Entonces, ¿cómo fue el fin de semana en Perugia?",
+        "speaker": "Marco",
+        "audio": "914539d1018b"
+      },
+      {
+        "id": "rd_eurochocolate_01",
+        "it": "Bellissimo! Sono andata a Eurochocolate con mia sorella.",
+        "es": "¡Hermoso! Fui a Eurochocolate con mi hermana.",
+        "speaker": "Giulia",
+        "audio": "dbe78c716999",
+        "voice": 2
+      },
+      {
+        "id": "rd_eurochocolate_02",
+        "it": "Eurochocolate? Che cos'era di preciso?",
+        "es": "¿Eurochocolate? ¿Qué era exactamente?",
+        "speaker": "Marco",
+        "audio": "b2a5c0498852"
+      },
+      {
+        "id": "rd_eurochocolate_03",
+        "it": "Era un festival del cioccolato. C'era tanta gente in centro.",
+        "es": "Era un festival del chocolate. Había mucha gente en el centro.",
+        "speaker": "Giulia",
+        "audio": "0512ebb5d0c0",
+        "voice": 2
+      },
+      {
+        "id": "rd_eurochocolate_04",
+        "it": "Che bello! Cosa facevi mentre gli altri guardavano gli stand?",
+        "es": "¡Qué lindo! ¿Qué hacías mientras los demás miraban los stands?",
+        "speaker": "Marco",
+        "audio": "4981bc9f2875"
+      },
+      {
+        "id": "rd_eurochocolate_05",
+        "it": "Io assaggiavo un cioccolato caldo e mia sorella faceva foto.",
+        "es": "Yo probaba un chocolate caliente y mi hermana sacaba fotos.",
+        "speaker": "Giulia",
+        "audio": "952c57cdcbb1",
+        "voice": 2
+      },
+      {
+        "id": "rd_eurochocolate_06",
+        "it": "Perfetto! E il tempo? Pioveva?",
+        "es": "¡Perfecto! ¿Y el tiempo? ¿Llovía?",
+        "speaker": "Marco",
+        "audio": "20f19d1a97f4"
+      },
+      {
+        "id": "rd_eurochocolate_07",
+        "it": "No, non pioveva. Infatti c'era un bel sole.",
+        "es": "No, no llovía. De hecho había un lindo sol.",
+        "speaker": "Giulia",
+        "audio": "1ae0894eee74",
+        "voice": 2
+      },
+      {
+        "id": "rd_eurochocolate_08",
+        "it": "E poi? È successo qualcosa?",
+        "es": "¿Y luego? ¿Pasó algo?",
+        "speaker": "Marco",
+        "audio": "e57106dd6100"
+      },
+      {
+        "id": "rd_eurochocolate_09",
+        "it": "Sì! All'improvviso ho sentito un rumore: una torre è caduta.",
+        "es": "¡Sí! De repente sentí un ruido: una torre se cayó.",
+        "speaker": "Giulia",
+        "audio": "e6e758a30744",
+        "voice": 2
+      },
+      {
+        "id": "rd_eurochocolate_10",
+        "it": "Davvero? Hai avuto paura?",
+        "es": "¿De verdad? ¿Tuviste miedo?",
+        "speaker": "Marco",
+        "audio": "b1f0df5c08d3"
+      },
+      {
+        "id": "rd_eurochocolate_11",
+        "it": "No, io ho riso. Invece la gente ha urlato!",
+        "es": "No, yo me reí. ¡En cambio la gente gritó!",
+        "speaker": "Giulia",
+        "audio": "18bd7733cced",
+        "voice": 2
+      },
+      {
+        "id": "rd_eurochocolate_12",
+        "it": "Allora il cioccolato è finito a terra?",
+        "es": "¿Entonces el chocolate terminó en el suelo?",
+        "speaker": "Marco",
+        "audio": "c9af3efcf75d"
+      },
+      {
+        "id": "rd_eurochocolate_13",
+        "it": "Sì, ma dopo la torre il pasticcere ha regalato cioccolatini.",
+        "es": "Sí, pero después de la torre el pastelero regaló bombones.",
+        "speaker": "Giulia",
+        "audio": "af2f0cfed337",
+        "voice": 2
+      },
+      {
+        "id": "rd_eurochocolate_14",
+        "it": "Che fortuna! Prima di partire hai comprato qualcosa?",
+        "es": "¡Qué suerte! ¿Compraste algo antes de partir?",
+        "speaker": "Marco",
+        "audio": "557b414cd73e"
+      },
+      {
+        "id": "rd_eurochocolate_15",
+        "it": "Sì, ho comprato una scatola per te!",
+        "es": "¡Sí, compré una caja para ti!",
+        "speaker": "Giulia",
+        "audio": "986999ea7a5a",
+        "voice": 2
       }
     ]
   },

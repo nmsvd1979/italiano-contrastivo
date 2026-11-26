@@ -85,7 +85,7 @@ def validate_relato(r: dict) -> list[str]:
     return errs
 
 
-def relato_item(r: dict, item_id: str) -> dict:
+def relato_item(r: dict, item_id: str, code: str | None = None) -> dict:
     """Ítem `cloze_text` (schemas/item.schema.json) a partir de un relato válido."""
     errs = validate_relato(r)
     if errs:
@@ -95,4 +95,6 @@ def relato_item(r: dict, item_id: str) -> dict:
             "translation_es": r["translation_es"], "authored": True}
     if r.get("exam"):
         item["exam"] = True
+    if code:
+        item["target_error_codes"] = [code]
     return item

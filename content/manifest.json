@@ -16,7 +16,7 @@
     "Eldad": 3,
     "Emmanuel_Maldini": 1,
     "Gloria7": 2,
-    "Guybrush88": 2619,
+    "Guybrush88": 2704,
     "Hachiko": 1,
     "Heracleum": 35,
     "IdiomHunter": 4,
@@ -31,14 +31,14 @@
     "Nox": 1,
     "Nuel": 12,
     "PazEr": 1,
-    "Pharamp": 524,
+    "Pharamp": 527,
     "Ricardo14": 7,
     "Roverandom789133": 1,
     "Rovo": 5,
     "Safari": 2,
-    "Shadd": 14,
+    "Shadd": 15,
     "Shishir": 5,
-    "Sirio60": 17,
+    "Sirio60": 19,
     "Sofia1789": 6,
     "Solalwliet": 1,
     "Tamy": 1,
@@ -68,7 +68,7 @@
     "bjoky": 1,
     "bruno_b": 11,
     "capiceddhra": 2,
-    "carlosalberto": 68,
+    "carlosalberto": 75,
     "chinro": 2,
     "ciampix": 3,
     "davzog": 1,
@@ -95,7 +95,7 @@
     "iltrex": 1,
     "jackhayes": 1,
     "jacopofar": 2,
-    "julius26": 1,
+    "julius26": 2,
     "leonardo": 18,
     "madriot": 2,
     "manu": 1,
@@ -118,7 +118,7 @@
     "rado": 71,
     "radu107": 1,
     "remod": 6,
-    "riccioberto": 157,
+    "riccioberto": 161,
     "rul": 3,
     "samir_t": 1,
     "saverius": 2,
@@ -191,6 +191,7 @@
     "ERR_POSSESSIVE_SPELLING": 48,
     "ERR_PP_AUSILIARE": 35,
     "ERR_PP_PARTICIPI_IRREG": 31,
+    "ERR_PP_VS_IMPERFETTO": 32,
     "ERR_PREP_ARTICLE_CONTRACTION": 39,
     "ERR_PREP_FIXED_GOV": 8,
     "ERR_PREP_PENSARE": 13,
@@ -200,6 +201,7 @@
     "ERR_PRESENT_ESSERE_AVERE": 78,
     "ERR_PRESENT_IRREGULAR": 75,
     "ERR_PRESENT_MODAL": 78,
+    "ERR_PRIMA_DI": 71,
     "ERR_PRONOME_TONICO": 30,
     "ERR_PRONOMINAL_VERB": 18,
     "ERR_REFLEXIVE_AUX": 35,
@@ -316,17 +318,17 @@
     "s_9981034"
   ],
   "levels": {
-    "A1": 3124,
-    "A2": 922,
+    "A1": 3167,
+    "A2": 982,
     "B1": 156,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 4183,
+    "llm-audit": 4286,
     "me": 26
   },
   "translation_kind": {
-    "direct": 2237,
-    "llm": 1972
+    "direct": 2245,
+    "llm": 2067
   }
 }

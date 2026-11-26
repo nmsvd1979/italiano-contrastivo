@@ -12109,6 +12109,308 @@
     "cefr": "A2",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "El passato prossimo cuenta lo que pasó (una acción terminada); el imperfetto describe el fondo, la costumbre o lo que estaba pasando: Mentre dormivo, è suonato il telefono. Se elige por la función de la frase, no por la palabra que la acompaña: «Quando ero piccolo giocavo…» lleva imperfetto aunque haya «quando»."
+    },
+    "id": "cap_err_pp_vs_imperfetto",
+    "retrieval": [
+      {
+        "id": "it_choice_s_612180_ERR_PP_VS_IMPERFETTO",
+        "options": [
+          {
+            "correct": true,
+            "text": "Parlava mentre camminava."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "tense_mismatch",
+            "error_code": "ERR_PP_VS_IMPERFETTO",
+            "text": "Parlava mentre ha camminato."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_612180",
+        "target_error_codes": [
+          "ERR_PP_VS_IMPERFETTO"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "ha visto"
+        ],
+        "hint_es": "De repente me vio.",
+        "id": "it_cloze_s_653807_ERR_PP_VS_IMPERFETTO",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_653807",
+        "target_error_codes": [
+          "ERR_PP_VS_IMPERFETTO"
+        ],
+        "text": "All'improvviso mi ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Ho",
+          "mangiato",
+          "mentre",
+          "studiavo."
+        ],
+        "id": "it_reorder_s_2791747_ERR_PP_VS_IMPERFETTO",
+        "prompt_es": "Ordena las palabras: «Comí mientras estudiaba.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2791747",
+        "target_error_codes": [
+          "ERR_PP_VS_IMPERFETTO"
+        ],
+        "tokens": [
+          "Ho",
+          "studiavo.",
+          "mangiato",
+          "mentre"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_5444245_ERR_PP_VS_IMPERFETTO",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "tense_mismatch",
+            "error_code": "ERR_PP_VS_IMPERFETTO",
+            "text": "Tom cantava mentre ha lavorato."
+          },
+          {
+            "correct": true,
+            "text": "Tom cantava mentre lavorava."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5444245",
+        "target_error_codes": [
+          "ERR_PP_VS_IMPERFETTO"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "cantava"
+        ],
+        "hint_es": "La oí mientras cantaba.",
+        "id": "it_cloze_s_716387_ERR_PP_VS_IMPERFETTO",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_716387",
+        "target_error_codes": [
+          "ERR_PP_VS_IMPERFETTO"
+        ],
+        "text": "L'ho sentita mentre ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "All'improvviso",
+          "si",
+          "è",
+          "ammalato."
+        ],
+        "id": "it_reorder_s_5170219_ERR_PP_VS_IMPERFETTO",
+        "prompt_es": "Ordena las palabras: «De repente se enfermó.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5170219",
+        "target_error_codes": [
+          "ERR_PP_VS_IMPERFETTO"
+        ],
+        "tokens": [
+          "All'improvviso",
+          "ammalato.",
+          "è",
+          "si"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Contavo sempre i passi mentre salivo."
+      ],
+      "id": "it_translate_s_10082500_ERR_PP_VS_IMPERFETTO",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_10082500",
+      "source_es": "Siempre contaba los pasos mientras subía.",
+      "target_error_codes": [
+        "ERR_PP_VS_IMPERFETTO"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Antes de un infinitivo se usa prima di (prima di uscire), no *prima uscire ni *prima de. Con un sustantivo, dopo + sustantivo (dopo cena); dopo aver + participio es la forma completa."
+    },
+    "id": "cap_err_prima_di",
+    "retrieval": [
+      {
+        "id": "it_choice_s_1750833_ERR_PRIMA_DI",
+        "options": [
+          {
+            "correct": true,
+            "text": "Pensate prima di agire!"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_PRIMA_DI",
+            "text": "Pensate prima de agire!"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1750833",
+        "target_error_codes": [
+          "ERR_PRIMA_DI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "prima di entrare"
+        ],
+        "hint_es": "Golpea antes de entrar.",
+        "id": "it_cloze_s_2579896_ERR_PRIMA_DI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2579896",
+        "target_error_codes": [
+          "ERR_PRIMA_DI"
+        ],
+        "text": "Bussa ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Pensa",
+          "prima",
+          "di",
+          "parlare."
+        ],
+        "id": "it_reorder_s_373890_ERR_PRIMA_DI",
+        "prompt_es": "Ordena las palabras: «Piensa antes de hablar.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_373890",
+        "target_error_codes": [
+          "ERR_PRIMA_DI"
+        ],
+        "tokens": [
+          "di",
+          "Pensa",
+          "prima",
+          "parlare."
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_8819564_ERR_PRIMA_DI",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_PRIMA_DI",
+            "text": "Legge prima de dormire."
+          },
+          {
+            "correct": true,
+            "text": "Legge prima di dormire."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_8819564",
+        "target_error_codes": [
+          "ERR_PRIMA_DI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "dopo la scuola"
+        ],
+        "hint_es": "¿Estás libre después de la escuela?",
+        "id": "it_cloze_s_11036022_ERR_PRIMA_DI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11036022",
+        "target_error_codes": [
+          "ERR_PRIMA_DI"
+        ],
+        "text": "È libero ___?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "È",
+          "libera",
+          "dopo",
+          "la",
+          "scuola?"
+        ],
+        "id": "it_reorder_s_11036023_ERR_PRIMA_DI",
+        "prompt_es": "Ordena las palabras: «¿Estás libre después de la escuela?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11036023",
+        "target_error_codes": [
+          "ERR_PRIMA_DI"
+        ],
+        "tokens": [
+          "È",
+          "scuola?",
+          "la",
+          "dopo",
+          "libera"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Pensa prima di agire!"
+      ],
+      "id": "it_translate_s_1750832_ERR_PRIMA_DI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1750832",
+      "source_es": "¡Piensa antes de actuar!",
+      "target_error_codes": [
+        "ERR_PRIMA_DI"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "Los reflexivos forman los tiempos compuestos con essere (mi sono sentito); el español usa siempre haber (me he sentido)."
     },
     "id": "cap_err_reflexive_aux",

@@ -2640,6 +2640,11 @@
     "wrong": "Jack ha nato il dieci agosto."
   },
   {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Ho incontrato Tom mentre andavo a scuola.",
+    "wrong": "Ho incontrato a Tom mentre andavo a scuola."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "L'aeroporto si trova a nord della città.",
     "wrong": "L'aeroporto si trova a nord di la città."
@@ -2775,6 +2780,11 @@
     "wrong": "La scuola comincia a le otto e mezza."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Si è perso mentre camminava nei boschi.",
+    "wrong": "Si è perso mentre camminava in i boschi."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Quanto si dà di mancia in Spagna?",
     "wrong": "Quanto si dà di mancia a Spagna?"
@@ -2813,6 +2823,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Quel neo che hai, tesoro mio, vicino alla bocca, non darlo a nessuno, tesoro mio, perché tocca a me.",
     "wrong": "Quel neo che hai, tesoro mio, vicino a la bocca, non darlo a nessuno, tesoro mio, perché tocca a me."
+  },
+  {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "Dopo il sabato c'è la domenica.",
+    "wrong": "Dopo il sabato ci sono la domenica."
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -3321,6 +3336,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il palazzo è crollato all'improvviso.",
+    "wrong": "Il palazzo è crollato a l'improvviso."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La popolazione dell'Uganda è in rapida crescita.",
     "wrong": "La popolazione di l'Uganda è in rapida crescita."
   },
@@ -3363,6 +3383,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Non potete andare a casa fino alle due e mezza.",
     "wrong": "Non potete andare a casa fino a le due e mezza."
+  },
+  {
+    "code": "ERR_PERSONAL_A",
+    "correct": "Ho incontrato Tom dopo il lavoro.",
+    "wrong": "Ho incontrato a Tom dopo il lavoro."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -3616,6 +3641,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "All'improvviso si è ammalato.",
+    "wrong": "A l'improvviso si è ammalato."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Io sono abituato al dolore adesso.",
     "wrong": "Io sono abituato a il dolore adesso."
   },
@@ -3715,6 +3745,11 @@
     "wrong": "Mi piacerebbe andare a Francia."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "All'improvviso ho sentito un urlo.",
+    "wrong": "A l'improvviso ho sentito un urlo."
+  },
+  {
     "code": "ERR_COMPARATIVE_DI",
     "correct": "Ho visto delfini più intelligenti di te.",
     "wrong": "Ho visto delfini più intelligenti che te."
@@ -3766,6 +3801,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "All'improvviso mi ha visto.",
+    "wrong": "A l'improvviso mi ha visto."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La partita inizia alle due e mezza.",
     "wrong": "La partita inizia a le due e mezza."
   },
@@ -3776,6 +3816,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Il tempo è cambiato all'improvviso.",
+    "wrong": "Il tempo è cambiato a l'improvviso."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Sono il secondo a destra nella fila superiore.",
     "wrong": "Sono il secondo a destra in la fila superiore."
   },
@@ -3783,6 +3828,11 @@
     "code": "ERR_TENERE_AVERE",
     "correct": "Lei ha paura che tu ti perda.",
     "wrong": "Lei tiene paura che tu ti perda."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Faccio i miei compiti dopo la scuola.",
+    "wrong": "Faccio miei compiti dopo la scuola."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3813,6 +3863,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Mi sono alzato presto come al solito.",
     "wrong": "Mi sono alzato presto come a il solito."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "All'improvviso sono diventato fortunato.",
+    "wrong": "A l'improvviso sono diventato fortunato."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "All'improvviso il cielo è diventato scuro.",
+    "wrong": "A l'improvviso il cielo è diventato scuro."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3903,6 +3963,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "L'ho letto sul giornale.",
     "wrong": "L'ho letto su il giornale."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "All'improvviso abbiamo sentito uno sparo.",
+    "wrong": "A l'improvviso abbiamo sentito uno sparo."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",

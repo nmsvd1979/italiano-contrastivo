@@ -1,0 +1,175 @@
+{
+  "id": "rd_eurochocolate",
+  "title": "Che cosa è successo a Perugia?",
+  "level": "A2",
+  "kind": "dialogo",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Diálogo propio: Giulia cuenta una visita a un festival del chocolate; contrasta passato prossimo (trama) e imperfetto (fondo).",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_eurochocolate_00",
+      "it": "Ciao Giulia! Allora, com'era il weekend a Perugia?",
+      "es": "¡Hola Giulia! Entonces, ¿cómo fue el fin de semana en Perugia?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_eurochocolate_01",
+      "it": "Bellissimo! Sono andata a Eurochocolate con mia sorella.",
+      "es": "¡Hermoso! Fui a Eurochocolate con mi hermana.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_eurochocolate_02",
+      "it": "Eurochocolate? Che cos'era di preciso?",
+      "es": "¿Eurochocolate? ¿Qué era exactamente?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_eurochocolate_03",
+      "it": "Era un festival del cioccolato. C'era tanta gente in centro.",
+      "es": "Era un festival del chocolate. Había mucha gente en el centro.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_eurochocolate_04",
+      "it": "Che bello! Cosa facevi mentre gli altri guardavano gli stand?",
+      "es": "¡Qué lindo! ¿Qué hacías mientras los demás miraban los stands?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_eurochocolate_05",
+      "it": "Io assaggiavo un cioccolato caldo e mia sorella faceva foto.",
+      "es": "Yo probaba un chocolate caliente y mi hermana sacaba fotos.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_eurochocolate_06",
+      "it": "Perfetto! E il tempo? Pioveva?",
+      "es": "¡Perfecto! ¿Y el tiempo? ¿Llovía?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_eurochocolate_07",
+      "it": "No, non pioveva. Infatti c'era un bel sole.",
+      "es": "No, no llovía. De hecho había un lindo sol.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_eurochocolate_08",
+      "it": "E poi? È successo qualcosa?",
+      "es": "¿Y luego? ¿Pasó algo?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_eurochocolate_09",
+      "it": "Sì! All'improvviso ho sentito un rumore: una torre è caduta.",
+      "es": "¡Sí! De repente sentí un ruido: una torre se cayó.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_eurochocolate_10",
+      "it": "Davvero? Hai avuto paura?",
+      "es": "¿De verdad? ¿Tuviste miedo?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_eurochocolate_11",
+      "it": "No, io ho riso. Invece la gente ha urlato!",
+      "es": "No, yo me reí. ¡En cambio la gente gritó!",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_eurochocolate_12",
+      "it": "Allora il cioccolato è finito a terra?",
+      "es": "¿Entonces el chocolate terminó en el suelo?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_eurochocolate_13",
+      "it": "Sì, ma dopo la torre il pasticcere ha regalato cioccolatini.",
+      "es": "Sí, pero después de la torre el pastelero regaló bombones.",
+      "speaker": "Giulia"
+    },
+    {
+      "id": "rd_eurochocolate_14",
+      "it": "Che fortuna! Prima di partire hai comprato qualcosa?",
+      "es": "¡Qué suerte! ¿Compraste algo antes de partir?",
+      "speaker": "Marco"
+    },
+    {
+      "id": "rd_eurochocolate_15",
+      "it": "Sì, ho comprato una scatola per te!",
+      "es": "¡Sí, compré una caja para ti!",
+      "speaker": "Giulia"
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Con quién fue Giulia al festival?",
+      "options": [
+        "Con su hermana",
+        "Con Marco",
+        "Con una amiga"
+      ],
+      "answer": 0,
+      "evidence": 1
+    },
+    {
+      "prompt_es": "¿Qué hacía Giulia mientras los demás miraban los stands?",
+      "options": [
+        "Sacaba fotos",
+        "Probaba un chocolate caliente",
+        "Compraba bombones"
+      ],
+      "answer": 1,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Cómo estaba el tiempo?",
+      "options": [
+        "Llovía",
+        "Había niebla",
+        "Había un lindo sol"
+      ],
+      "answer": 2,
+      "evidence": 7
+    },
+    {
+      "prompt_es": "¿Qué pasó de repente?",
+      "options": [
+        "Se cayó una torre de chocolate",
+        "Se apagó la luz",
+        "Se perdió su hermana"
+      ],
+      "answer": 0,
+      "evidence": 9
+    },
+    {
+      "prompt_es": "¿Cómo reaccionó Giulia?",
+      "options": [
+        "Gritó",
+        "Se rio",
+        "Se fue"
+      ],
+      "answer": 1,
+      "evidence": 11
+    },
+    {
+      "prompt_es": "¿Qué hizo el pastelero después?",
+      "options": [
+        "Cerró el stand",
+        "Pidió disculpas",
+        "Regaló bombones"
+      ],
+      "answer": 2,
+      "evidence": 13
+    }
+  ]
+}

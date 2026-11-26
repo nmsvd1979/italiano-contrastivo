@@ -22,7 +22,7 @@ describe.each(pack.course.units.map((u) => [u.id, u] as const))("unidad %s con e
     expect(secs(a)).toBeLessThanOrEqual(11.5 * 60);
     expect(a.some((i) => b.some((j) => j.id === i.id))).toBe(false);
     expect(secs(b)).toBeLessThanOrEqual(11.5 * 60); // la tanda 2 es lo que queda: con ≈25 oraciones por unidad no da para 10 min (lo muestra el auditor)
-    expect([...a, ...b].every((i) => unit.parts.practica.includes(sid(i)))).toBe(true);
+    expect([...a, ...b].every((i) => i.type === "cloze_text" || unit.parts.practica.includes(sid(i)))).toBe(true);   // los relatos no son una frase de la unidad
   });
   it("el bloque de lectura (Descubre + reconstrucción) llena ≈7 min y reconstruye solo con huecos primero", () => {
     const s = stepSeconds(unit, "descubre", pack);
@@ -50,6 +50,11 @@ describe.each(pack.course.units.map((u) => [u.id, u] as const))("unidad %s con e
   });
   it("la prueba es escribir en italiano cada oración reservada (sin opciones), y ninguna aparece en la práctica", () => {
     const test = testItems(unit, pack);
+    if (unit.productive === false) {   // las cápsulas que solo se reconocen (A2 [A]) se prueban eligiendo, con hasta 10 ítems
+      expect(test.length).toBeGreaterThan(5);
+      expect(test.every((i) => i.type === "choice_l1_distractor" || i.type === "cloze")).toBe(true);
+      return;
+    }
     expect(test.length).toBe(unit.parts.prueba.length);
     expect(test.every((i) => i.type === "translate_es_it")).toBe(true);
     expect(test.every((i) => unit.parts.prueba.includes(sid(i)))).toBe(true);
@@ -57,7 +62,7 @@ describe.each(pack.course.units.map((u) => [u.id, u] as const))("unidad %s con e
     expect(test.some((i) => practiceSentences.has(sid(i)))).toBe(false);
   });
   it("todo ítem de la práctica tiene pantalla (elección, hueco, orden o escribir)", () => {
-    const known = new Set(["choice_l1_distractor", "cloze", "reorder", "translate_es_it"]);
+    const known = new Set(["choice_l1_distractor", "cloze", "reorder", "translate_es_it", "cloze_text"]);
     for (const part of [1, 2] as const) expect(practiceItems(unit, pack, {}, undefined, part).every((i) => known.has(i.type ?? ""))).toBe(true);
   });
   it("cada paso dura entre 2 y 9 minutos con los tiempos a priori", () => {

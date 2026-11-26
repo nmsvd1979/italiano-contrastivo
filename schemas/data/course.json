@@ -521,6 +521,38 @@
         "doc_a2m02_prima_adesso",
         "vh_a2m02"
       ]
+    },
+    {
+      "id": "a2m03",
+      "level": "A2",
+      "title": "Contar una anécdota",
+      "can_do_es": [
+        "Contar una anécdota con trama y fondo.",
+        "Elegir passato prossimo o imperfetto según la función.",
+        "Entender un relato corto y contar lo que alguien dijo."
+      ],
+      "units": [
+        "u83",
+        "u84"
+      ],
+      "entry_reading": "rd_eurochocolate",
+      "roleplays": [
+        "rp_a2m03_a",
+        "rp_a2m03_b"
+      ],
+      "tasks": [
+        "ht_a2m03"
+      ],
+      "phrase_groups": [],
+      "library": "podcast-italiano",
+      "library_task_es": "Escucha 5 minutos de un episodio de Podcast Italiano y cuenta en voz alta, con passato prossimo e imperfetto, lo que entendiste.",
+      "writing_es": "Escribe un relato de 40 a 60 palabras sobre una anécdota tuya (un viaje, una fiesta o un día raro). Debe tener al menos 3 verbos en passato prossimo para lo que pasó, al menos 3 en imperfetto para cómo era la situación, y al menos dos conectores entre mentre, quando, infatti, invece, anzi, allora, all'improvviso.",
+      "writing_short_es": "Escribe un mensaje de 25 a 50 palabras a un amigo para contarle por qué ayer no contestaste el teléfono: qué hacías cuando sonó (imperfetto) y qué pasó después (passato prossimo). Usa prima di + infinitivo o dopo + sustantivo al menos una vez.",
+      "extra_readings": [
+        "ls_a2m03",
+        "doc_a2m03_cronologia",
+        "vh_a2m03"
+      ]
     }
   ],
   "units": [
@@ -2041,6 +2073,29 @@
       ],
       "why_here": "La infancia, un lugar antes y ahora, costumbres de antes.",
       "ficha_es": "Cómo es una persona y cómo te relacionas: timido, curioso, geloso (celoso), sincero, tranquillo, fidanzato/a (el novio o la novia con compromiso; el simple «novio» sin compromiso es ragazzo), straniero/a (extranjero), vicina (vecina). Los adjetivos concuerdan: timido, timida.\n\nError típico: gentile, simpatico, timido, collega, vicino, conoscente, fidanzato, cognato, parente (gentile ≠ «gentil»); y la concordancia nombre–adjetivo que CILS A2 pide producir: *gente simpatici, *case grande → gente simpatica, case grandi; -co/-ca → -chi/-che (amici simpatici)"
+    },
+    {
+      "id": "u83",
+      "level": "A2",
+      "title": "Trama y fondo: passato prossimo o imperfetto",
+      "goal_es": "Trama y fondo: passato prossimo o imperfetto",
+      "codes": [
+        "ERR_PP_VS_IMPERFETTO"
+      ],
+      "why_here": "Algo que te pasó, contado con trama y fondo (dónde, cuándo, con quién, cómo fue).",
+      "ficha_es": "El passato prossimo cuenta lo que pasó (una acción terminada); el imperfetto describe el fondo, la costumbre o lo que estaba pasando: Mentre dormivo, è suonato il telefono. Se elige por la función de la frase, no por la palabra que la acompaña: «Quando ero piccolo giocavo…» lleva imperfetto aunque haya «quando».\n\nError típico: elegir por función (acción puntual y terminada vs fondo, estado o hábito), nunca por la palabra conectora: «Quando ero piccolo…» lleva imperfetto. Válido y no es error: ieri alle 8 facevo / ho fatto colazione según el sentido; dovevo partire / sono dovuto partire (cambia el sentido)"
+    },
+    {
+      "id": "u84",
+      "level": "A2",
+      "title": "Prima di + infinitivo, dopo + sustantivo",
+      "goal_es": "Prima di + infinitivo, dopo + sustantivo (solo reconocer)",
+      "codes": [
+        "ERR_PRIMA_DI"
+      ],
+      "why_here": "Algo que te pasó, contado con trama y fondo (dónde, cuándo, con quién, cómo fue).",
+      "ficha_es": "Antes de un infinitivo se usa prima di (prima di uscire), no *prima uscire ni *prima de. Con un sustantivo, dopo + sustantivo (dopo cena); dopo aver + participio es la forma completa.\n\nError típico: *prima uscire / *prima de uscire → prima di uscire; *dopo di mangiare → dopo mangiato (coloquial) / dopo aver mangiato. Válido y no es error: dopo mangiato (coloquial válido)",
+      "productive": false
     }
   ],
   "planned": [

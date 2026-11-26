@@ -389,6 +389,30 @@
         "u82"
       ],
       "goal_es": "Responde como Anna: recuerda a Davide, di hace cuánto tiempo pasó y acepta la invitación."
+    },
+    {
+      "id": "rp_a2m03_a",
+      "title": "Contar una caída",
+      "function_es": "Contar qué te pasó",
+      "reading": "rd_a2m03_a",
+      "from": 0,
+      "to": 9,
+      "after": [
+        "u84"
+      ],
+      "goal_es": "Llegas tarde y le cuentas a una amiga qué pasó: dónde estabas, qué hacías y qué ocurrió de repente."
+    },
+    {
+      "id": "rp_a2m03_b",
+      "title": "Una llamada sin respuesta",
+      "function_es": "Explicar qué hacías cuando pasó algo",
+      "reading": "rd_a2m03_b",
+      "from": 0,
+      "to": 9,
+      "after": [
+        "u84"
+      ],
+      "goal_es": "Una amiga te llamó anoche y no contestaste: explica dónde estabas, qué hacías cuando sonó el teléfono y qué hiciste después."
     }
   ],
   "tasks": [
@@ -831,6 +855,57 @@
         "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
         "No leí: hablé de corrido, aunque con pausas.",
         "Cuidé lo que enseña este módulo: Imperfetto: formas y personas; C'era, c'erano, c'è stato; Hace…, desde…, en…: fa, da, per, fra, scorso.",
+        "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_a2m03",
+      "title": "Raccontare un giorno strano",
+      "function_es": "Contar una anécdota",
+      "level": "A2",
+      "minutes": 2,
+      "after": [
+        "u84"
+      ],
+      "source": {
+        "book": "Texto escrito por la IA (Claude) para esta app",
+        "authors": "Claude (IA), a pedido del usuario",
+        "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+        "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+      },
+      "intro_es": "Cuenta durante unos dos minutos una anécdota real o inventada, sin leer. Separa lo que pasó (passato prossimo) de cómo era la situación (imperfetto) y usa al menos dos conectores.",
+      "questions": [
+        {
+          "it": "Quando è successo e che giorno era?",
+          "es": "¿Cuándo pasó y qué día era?",
+          "audio": "16f2e2232a7c"
+        },
+        {
+          "it": "Dove eri e che cosa facevi?",
+          "es": "¿Dónde estabas y qué hacías?",
+          "audio": "85aef27cd52c"
+        },
+        {
+          "it": "Che cosa è successo all'improvviso?",
+          "es": "¿Qué pasó de repente?",
+          "audio": "64f9fbcfa17c"
+        },
+        {
+          "it": "Che cosa hai fatto dopo?",
+          "es": "¿Qué hiciste después?",
+          "audio": "bdf739d51964"
+        },
+        {
+          "it": "Come è finita la storia?",
+          "es": "¿Cómo terminó la historia?",
+          "audio": "a7e140fa5609"
+        }
+      ],
+      "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que enseña este módulo: Trama y fondo: passato prossimo o imperfetto; Prima di + infinitivo, dopo + sustantivo.",
         "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
       ]
     }
@@ -1950,6 +2025,94 @@
         "es": "¿Cómo es tu mejor amigo?",
         "authored": true,
         "audio": "63f31997680b"
+      },
+      {
+        "id": "iq_ht_a2m03_1",
+        "module": "a2m03",
+        "it": "Quando è successo e che giorno era?",
+        "es": "¿Cuándo pasó y qué día era?",
+        "task": "ht_a2m03",
+        "audio": "16f2e2232a7c"
+      },
+      {
+        "id": "iq_ht_a2m03_2",
+        "module": "a2m03",
+        "it": "Dove eri e che cosa facevi?",
+        "es": "¿Dónde estabas y qué hacías?",
+        "task": "ht_a2m03",
+        "audio": "85aef27cd52c"
+      },
+      {
+        "id": "iq_ht_a2m03_3",
+        "module": "a2m03",
+        "it": "Che cosa è successo all'improvviso?",
+        "es": "¿Qué pasó de repente?",
+        "task": "ht_a2m03",
+        "audio": "64f9fbcfa17c"
+      },
+      {
+        "id": "iq_ht_a2m03_4",
+        "module": "a2m03",
+        "it": "Che cosa hai fatto dopo?",
+        "es": "¿Qué hiciste después?",
+        "task": "ht_a2m03",
+        "audio": "bdf739d51964"
+      },
+      {
+        "id": "iq_ht_a2m03_5",
+        "module": "a2m03",
+        "it": "Come è finita la storia?",
+        "es": "¿Cómo terminó la historia?",
+        "task": "ht_a2m03",
+        "audio": "a7e140fa5609"
+      },
+      {
+        "id": "iq_a2m03_1",
+        "module": "a2m03",
+        "it": "Che cosa facevi ieri sera alle otto?",
+        "es": "¿Qué hacías ayer a las ocho de la noche?",
+        "authored": true,
+        "audio": "b683e3bae80d"
+      },
+      {
+        "id": "iq_a2m03_2",
+        "module": "a2m03",
+        "it": "Che cosa hai fatto sabato scorso?",
+        "es": "¿Qué hiciste el sábado pasado?",
+        "authored": true,
+        "audio": "ac23181d4247"
+      },
+      {
+        "id": "iq_a2m03_3",
+        "module": "a2m03",
+        "it": "Racconta un viaggio: com'era il tempo e che cosa è successo?",
+        "es": "Cuenta un viaje: ¿cómo estaba el tiempo y qué pasó?",
+        "authored": true,
+        "audio": "4ecbe8a3bfac"
+      },
+      {
+        "id": "iq_a2m03_4",
+        "module": "a2m03",
+        "it": "Che cosa hai fatto prima di uscire di casa stamattina?",
+        "es": "¿Qué hiciste esta mañana antes de salir de casa?",
+        "authored": true,
+        "audio": "d2bb4ce1e84b"
+      },
+      {
+        "id": "iq_a2m03_5",
+        "module": "a2m03",
+        "it": "Che cosa facevi di solito la domenica da bambino?",
+        "es": "¿Qué hacías normalmente los domingos cuando eras niño?",
+        "authored": true,
+        "audio": "e23e8773a971"
+      },
+      {
+        "id": "iq_a2m03_6",
+        "module": "a2m03",
+        "it": "Che cosa facevi quando è squillato il telefono l'ultima volta?",
+        "es": "¿Qué hacías cuando sonó el teléfono la última vez?",
+        "authored": true,
+        "audio": "3cc32ed132ab"
       }
     ]
   }

@@ -599,6 +599,10 @@
 "g": "probar (comida)",
 "k": "opaca"
 },
+"assaggiavo": {
+"g": "probaba",
+"k": "opaca"
+},
 "attento": {
 "g": "atento",
 "k": "transparente"
@@ -1508,6 +1512,10 @@
 "g": "bombones",
 "k": "opaca"
 },
+"cioccolato": {
+"g": "chocolate",
+"k": "opaca"
+},
 "circa": {
 "g": "aproximadamente",
 "k": "transparente"
@@ -1815,6 +1823,10 @@
 },
 "cortile": {
 "g": "patio",
+"k": "opaca"
+},
+"cos": {
+"g": "qué (cos'è)",
 "k": "opaca"
 },
 "cosa": {
@@ -2473,6 +2485,10 @@
 "g": "euro",
 "k": "transparente"
 },
+"eurochocolate": {
+"g": "nombre propio",
+"k": "transparente"
+},
 "evento": {
 "g": "evento",
 "k": "transparente"
@@ -2638,6 +2654,10 @@
 "g": "fiesta",
 "k": "regular",
 "r": "ie-e"
+},
+"festival": {
+"g": "festival",
+"k": "transparente"
 },
 "fetta": {
 "g": "rebanada",
@@ -4705,6 +4725,10 @@
 "g": "comidas",
 "k": "opaca"
 },
+"pasticcere": {
+"g": "pastelero",
+"k": "opaca"
+},
 "pasticceria": {
 "g": "pastelería",
 "k": "regular",
@@ -4809,6 +4833,10 @@
 },
 "persona": {
 "g": "persona",
+"k": "transparente"
+},
+"perugia": {
+"g": "nombre propio",
 "k": "transparente"
 },
 "però": {
@@ -4946,6 +4974,10 @@
 "g": "lloverá",
 "k": "regular",
 "r": "ll-pi"
+},
+"pioveva": {
+"g": "llovía",
+"k": "opaca"
 },
 "pittore": {
 "g": "pintor",
@@ -5111,6 +5143,10 @@
 },
 "praticare": {
 "g": "practicar",
+"k": "transparente"
+},
+"preciso": {
+"g": "preciso",
 "k": "transparente"
 },
 "preferiamo": {
@@ -5642,6 +5678,10 @@
 "g": "recepción",
 "k": "transparente"
 },
+"regalato": {
+"g": "regalado",
+"k": "transparente"
+},
 "regalo": {
 "g": "regalo",
 "k": "transparente"
@@ -5776,6 +5816,10 @@
 },
 "risale": {
 "g": "se remonta",
+"k": "opaca"
+},
+"riso": {
+"g": "risa",
 "k": "opaca"
 },
 "rispettano": {
@@ -5958,6 +6002,10 @@
 },
 "scarpe": {
 "g": "zapatos",
+"k": "opaca"
+},
+"scatola": {
+"g": "caja",
 "k": "opaca"
 },
 "scegli": {
@@ -6496,6 +6544,10 @@
 "g": "cansado",
 "k": "opaca"
 },
+"stand": {
+"g": "stand",
+"k": "transparente"
+},
 "stanza": {
 "g": "habitación",
 "k": "opaca"
@@ -6894,6 +6946,10 @@
 "g": "vuelvo",
 "k": "opaca"
 },
+"torre": {
+"g": "torre",
+"k": "transparente"
+},
 "torta": {
 "g": "pastel",
 "k": "opaca"
@@ -7111,6 +7167,10 @@
 },
 "uova": {
 "g": "huevos",
+"k": "opaca"
+},
+"urlato": {
+"g": "gritado",
 "k": "opaca"
 },
 "usare": {

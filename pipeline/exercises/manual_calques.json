@@ -555,5 +555,730 @@
    "kind": "aspect_mismatch",
    "audit2": "ok"
   }
+ ],
+ "ERR_PP_VS_IMPERFETTO": [
+  {
+   "it": "Mi sono tagliato mentre mi rasavo.",
+   "correct": "rasavo",
+   "wrong": "mi sono rasato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Contavo sempre i passi mentre salivo.",
+   "correct": "Contavo",
+   "wrong": "Ho contato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Parlava mentre camminava.",
+   "correct": "camminava",
+   "wrong": "ha camminato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "All'improvviso mi ha visto.",
+   "correct": "ha visto",
+   "wrong": "vedeva",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "L'ho sentita mentre cantava.",
+   "correct": "cantava",
+   "wrong": "ha cantato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Tom cantava mentre lavorava.",
+   "correct": "lavorava",
+   "wrong": "ha lavorato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ho mangiato mentre studiavo.",
+   "correct": "studiavo",
+   "wrong": "ho studiato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "All'improvviso si è ammalato.",
+   "correct": "si è ammalato",
+   "wrong": "si ammalava",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "L'ha interrotto mentre parlava.",
+   "correct": "parlava",
+   "wrong": "ha parlato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Lui rideva mentre lei piangeva.",
+   "correct": "piangeva",
+   "wrong": "ha pianto",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Sognavo e ridevo, mentre dormivo.",
+   "correct": "dormivo",
+   "wrong": "ho dormito",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "All'improvviso ho sentito un urlo.",
+   "correct": "ho sentito",
+   "wrong": "sentivo",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ho letto un libro mentre mangiavo.",
+   "correct": "mangiavo",
+   "wrong": "ho mangiato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Leggevo un libro mentre camminavo.",
+   "correct": "camminavo",
+   "wrong": "ho camminato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Piangeva mentre leggeva la lettera.",
+   "correct": "leggeva",
+   "wrong": "ha letto",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Il tempo è cambiato all'improvviso.",
+   "correct": "è cambiato",
+   "wrong": "cambiava",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Il palazzo è crollato all'improvviso.",
+   "correct": "è crollato",
+   "wrong": "crollava",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "L'ho incontrata mentre tornavo a casa.",
+   "correct": "tornavo",
+   "wrong": "sono tornato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "L'ho incontrato mentre tornavo a casa.",
+   "correct": "tornavo",
+   "wrong": "sono tornato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "L'ho conosciuta mentre tornavo a casa.",
+   "correct": "tornavo",
+   "wrong": "sono tornato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Di solito il teatro apriva a quest'ora.",
+   "correct": "apriva",
+   "wrong": "ha aperto",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "L'ho incontrata mentre andavo a scuola.",
+   "correct": "andavo",
+   "wrong": "sono andato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Si è perso mentre camminava nei boschi.",
+   "correct": "camminava",
+   "wrong": "ha camminato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "L'ho conosciuta mentre andavo a scuola.",
+   "correct": "andavo",
+   "wrong": "sono andato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Mi sono slogata il collo mentre dormivo.",
+   "correct": "dormivo",
+   "wrong": "ho dormito",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Mentre giocava a rugby si è infortunato.",
+   "correct": "giocava",
+   "wrong": "ha giocato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "All'improvviso sono diventato fortunato.",
+   "correct": "sono diventato",
+   "wrong": "diventavo",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "L'ha beccato mentre fumava una sigaretta.",
+   "correct": "fumava",
+   "wrong": "ha fumato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "L'ho vista mentre attraversava la strada.",
+   "correct": "attraversava",
+   "wrong": "ha attraversato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "All'improvviso abbiamo sentito uno sparo.",
+   "correct": "abbiamo sentito",
+   "wrong": "sentivamo",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ho incontrato Tom mentre andavo a scuola.",
+   "correct": "andavo",
+   "wrong": "sono andato",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "All'improvviso il cielo è diventato scuro.",
+   "correct": "è diventato",
+   "wrong": "diventava",
+   "kind": "tense_mismatch",
+   "audit2": "ok"
+  }
+ ],
+ "ERR_PRIMA_DI": [
+  {
+   "it": "Pensa prima di parlare.",
+   "correct": "prima di parlare",
+   "wrong": "prima parlare",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Lavati le mani prima di mangiare.",
+   "correct": "prima di mangiare",
+   "wrong": "prima de mangiare",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Lavatevi le mani, prima di mangiare.",
+   "correct": "prima di mangiare",
+   "wrong": "prima mangiare",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Lavati la bocca prima di parlare di me.",
+   "correct": "prima di parlare",
+   "wrong": "prima de parlare",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Dopo il lavoro vado direttamente a casa.",
+   "correct": "Dopo il lavoro",
+   "wrong": "Dopo de il lavoro",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Io gioco spesso a tennis dopo la scuola.",
+   "correct": "dopo la scuola",
+   "wrong": "dopo di la scuola",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non dimenticate di chiudere il gas prima di uscire.",
+   "correct": "prima di uscire",
+   "wrong": "prima uscire",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Pensa prima di agire!",
+   "correct": "prima di agire",
+   "wrong": "prima agire",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Legge prima di dormire.",
+   "correct": "prima di dormire",
+   "wrong": "prima de dormire",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Pensate prima di agire!",
+   "correct": "prima di agire",
+   "wrong": "prima de agire",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Bussa prima di entrare.",
+   "correct": "prima di entrare",
+   "wrong": "prima entrare",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "È libero dopo la scuola?",
+   "correct": "dopo la scuola",
+   "wrong": "dopo de la scuola",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "È libera dopo la scuola?",
+   "correct": "dopo la scuola",
+   "wrong": "dopo di la scuola",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Bussate prima di entrare.",
+   "correct": "prima di entrare",
+   "wrong": "prima de entrare",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Cosa fate dopo la scuola?",
+   "correct": "dopo la scuola",
+   "wrong": "dopo de la scuola",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Mangiamo prima di andare.",
+   "correct": "prima di andare",
+   "wrong": "prima andare",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Lei legge dopo il pranzo.",
+   "correct": "dopo il pranzo",
+   "wrong": "dopo de il pranzo",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Parliamo prima di lottare.",
+   "correct": "prima di lottare",
+   "wrong": "prima lottare",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Siete libere dopo la scuola?",
+   "correct": "dopo la scuola",
+   "wrong": "dopo di la scuola",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Lavati i denti dopo i pasti.",
+   "correct": "dopo i pasti",
+   "wrong": "dopo de i pasti",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Siete liberi dopo la scuola?",
+   "correct": "dopo la scuola",
+   "wrong": "dopo de la scuola",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Parliamo prima di combattere.",
+   "correct": "prima di combattere",
+   "wrong": "prima de combattere",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Il caffè viene dopo il pasto.",
+   "correct": "dopo il pasto",
+   "wrong": "dopo de il pasto",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Lavatevi i denti dopo i pasti.",
+   "correct": "dopo i pasti",
+   "wrong": "dopo di i pasti",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Devo radermi prima di partire.",
+   "correct": "prima di partire",
+   "wrong": "prima partire",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Il caffè arriva dopo il pasto.",
+   "correct": "dopo il pasto",
+   "wrong": "dopo di il pasto",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Cosa fanno tutti dopo la scuola?",
+   "correct": "dopo la scuola",
+   "wrong": "dopo de la scuola",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Chiudi la porta prima di andare.",
+   "correct": "prima di andare",
+   "wrong": "prima de andare",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Giocherò a calcio dopo la scuola.",
+   "correct": "dopo la scuola",
+   "wrong": "dopo di la scuola",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "La domenica viene dopo il sabato.",
+   "correct": "dopo il sabato",
+   "wrong": "dopo de il sabato",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Finitelo prima di andare a letto.",
+   "correct": "prima di andare a letto",
+   "wrong": "prima de andare a letto",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Giochiamo a basket dopo la scuola.",
+   "correct": "dopo la scuola",
+   "wrong": "dopo di la scuola",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Giochiamo a tennis dopo la scuola.",
+   "correct": "dopo la scuola",
+   "wrong": "dopo de la scuola",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ho matematica dopo la ricreazione.",
+   "correct": "dopo la ricreazione",
+   "wrong": "dopo de la ricreazione",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Finiscila prima di andare a letto.",
+   "correct": "prima di andare a letto",
+   "wrong": "prima andare a letto",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Chiudete la porta prima di andare.",
+   "correct": "prima di andare",
+   "wrong": "prima de andare",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Finiscilo prima di andare a letto.",
+   "correct": "prima di andare a letto",
+   "wrong": "prima de andare a letto",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Giocherete a tennis dopo la scuola?",
+   "correct": "dopo la scuola",
+   "wrong": "dopo di la scuola",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non fatela uscire dopo il tramonto.",
+   "correct": "dopo il tramonto",
+   "wrong": "dopo de il tramonto",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Pettinati i capelli prima di uscire.",
+   "correct": "prima di uscire",
+   "wrong": "prima uscire",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Impari a camminare prima di correre.",
+   "correct": "prima di correre",
+   "wrong": "prima de correre",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Impara a camminare prima di correre.",
+   "correct": "prima di correre",
+   "wrong": "prima correre",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Prendi questa medicina dopo i pasti.",
+   "correct": "dopo i pasti",
+   "wrong": "dopo de i pasti",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Imparate a camminare prima di correre.",
+   "correct": "prima di correre",
+   "wrong": "prima de correre",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Pettinatevi i capelli prima di uscire.",
+   "correct": "prima di uscire",
+   "wrong": "prima de uscire",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Guarda la televisione prima di studiare.",
+   "correct": "prima di studiare",
+   "wrong": "prima studiare",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Dovreste mangiare qualcosa prima di andare.",
+   "correct": "prima di andare",
+   "wrong": "prima de andare",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Parleremo dopo la lezione.",
+   "correct": "dopo la lezione",
+   "wrong": "dopo de la lezione",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "È tornato dopo il tramonto.",
+   "correct": "dopo il tramonto",
+   "wrong": "dopo di il tramonto",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ha esitato prima di rispondere.",
+   "correct": "prima di rispondere",
+   "wrong": "prima rispondere",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Dopo il sabato c'è la domenica.",
+   "correct": "Dopo il sabato",
+   "wrong": "Dopo de il sabato",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Giocherà a tennis dopo la scuola?",
+   "correct": "dopo la scuola",
+   "wrong": "dopo de la scuola",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ho incontrato Tom dopo il lavoro.",
+   "correct": "dopo il lavoro",
+   "wrong": "dopo di il lavoro",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Mi lavo le mani prima di pranzare.",
+   "correct": "prima di pranzare",
+   "wrong": "prima pranzare",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Giocava a baseball dopo la scuola.",
+   "correct": "dopo la scuola",
+   "wrong": "dopo di la scuola",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non farla uscire dopo il tramonto.",
+   "correct": "dopo il tramonto",
+   "wrong": "dopo de il tramonto",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Mi lavo i denti dopo la colazione.",
+   "correct": "dopo la colazione",
+   "wrong": "dopo de la colazione",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Dopo il pasto ho chiesto il conto.",
+   "correct": "Dopo il pasto",
+   "wrong": "Dopo di il pasto",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Giocheremo a calcio dopo la scuola.",
+   "correct": "dopo la scuola",
+   "wrong": "dopo di la scuola",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ho giocato a tennis dopo la scuola.",
+   "correct": "dopo la scuola",
+   "wrong": "dopo de la scuola",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Giocheremo a pallone dopo la scuola.",
+   "correct": "dopo la scuola",
+   "wrong": "dopo di la scuola",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "L'aria è più pulita dopo la pioggia.",
+   "correct": "dopo la pioggia",
+   "wrong": "dopo de la pioggia",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Dopo il lavoro, Tom è sempre stanco.",
+   "correct": "Dopo il lavoro",
+   "wrong": "Dopo de il lavoro",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ha giocato a baseball dopo la scuola.",
+   "correct": "dopo la scuola",
+   "wrong": "dopo di la scuola",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "Tu ti lavi le mani prima di mangiare?",
+   "correct": "prima di mangiare",
+   "wrong": "prima mangiare",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Faccio i miei compiti dopo la scuola.",
+   "correct": "dopo la scuola",
+   "wrong": "dopo de la scuola",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non mangio mai prima di fare jogging.",
+   "correct": "prima di fare",
+   "wrong": "prima de fare",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Giocheranno a baseball dopo la scuola.",
+   "correct": "dopo la scuola",
+   "wrong": "dopo di la scuola",
+   "kind": "morphological",
+   "audit2": "ok"
+  },
+  {
+   "it": "A volte è esitante prima di rispondere.",
+   "correct": "prima di rispondere",
+   "wrong": "prima de rispondere",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non bere troppo prima di andare a letto.",
+   "correct": "prima di andare a letto",
+   "wrong": "prima andare a letto",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Giochiamo a baseball dopo il lavoro oggi.",
+   "correct": "dopo il lavoro",
+   "wrong": "dopo de il lavoro",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  }
  ]
 }

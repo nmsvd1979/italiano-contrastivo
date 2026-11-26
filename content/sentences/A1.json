@@ -477,6 +477,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Siempre contaba los pasos mientras subía.",
+    "es_author": "IA (Claude)",
+    "id": "s_10082500",
+    "it": "Contavo sempre i passi mentre salivo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10082500",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -3568,6 +3591,102 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "¿Están libres después de la escuela?",
+    "es_author": "IA (Claude)",
+    "id": "s_11036020",
+    "it": "Siete liberi dopo la scuola?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11036020",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "¿Están libres después de la escuela?",
+    "es_author": "IA (Claude)",
+    "id": "s_11036021",
+    "it": "Siete libere dopo la scuola?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11036021",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "¿Estás libre después de la escuela?",
+    "es_author": "IA (Claude)",
+    "id": "s_11036022",
+    "it": "È libero dopo la scuola?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11036022",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "¿Estás libre después de la escuela?",
+    "es_author": "IA (Claude)",
+    "id": "s_11036023",
+    "it": "È libera dopo la scuola?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11036023",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PERSONAL_A"
     ],
     "es": "Sami conoce a Layla desde la secundaria.",
@@ -3677,6 +3796,29 @@
       "ERR_VOC_BAR": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Toma este medicamento después de las comidas.",
+    "es_author": "IA (Claude)",
+    "id": "s_1107151",
+    "it": "Prendi questa medicina dopo i pasti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1107151",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -4659,6 +4801,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Tengo que afeitarme antes de partir.",
+    "es_author": "IA (Claude)",
+    "id": "s_1125787",
+    "it": "Devo radermi prima di partire.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1125787",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -5065,6 +5230,29 @@
       "ERR_VOC_TEMPOLIBERO": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Jugamos al tenis después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_1137643",
+    "it": "Giochiamo a tennis dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1137643",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -5765,6 +5953,29 @@
     "source_id": "11722159",
     "tag_rules": {
       "ERR_VOC_TRASPORTI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "No la dejen salir después de la puesta de sol.",
+    "es_author": "IA (Claude)",
+    "id": "s_11726365",
+    "it": "Non fatela uscire dopo il tramonto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11726365",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -8965,6 +9176,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Jugaré al fútbol después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_12757878",
+    "it": "Giocherò a calcio dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12757878",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_ANIMALI"
     ],
     "es": "Todos los gatos son bellos.",
@@ -9431,6 +9665,29 @@
     "source_id": "12883970",
     "tag_rules": {
       "ERR_VOC_TEMPO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "El domingo viene después del sábado.",
+    "es_author": "IA (Claude)",
+    "id": "s_12899550",
+    "it": "La domenica viene dopo il sabato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12899550",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -11568,6 +11825,29 @@
       "ERR_GEMINATE_NASAL_CONFUSION": "nasale_geminata_o_palatale",
       "ERR_GEMINATE_SPELLING": "geminata_ortografia",
       "ERR_TENERE_AVERE": "tener_ragione"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "¿Jugarán al tenis después de la escuela?",
+    "es_author": "IA (Claude)",
+    "id": "s_13302376",
+    "it": "Giocherete a tennis dopo la scuola?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13302376",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -17908,6 +18188,52 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "¡Piensa antes de actuar!",
+    "es_author": "IA (Claude)",
+    "id": "s_1750832",
+    "it": "Pensa prima di agire!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1750832",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "¡Piensen antes de actuar!",
+    "es_author": "IA (Claude)",
+    "id": "s_1750833",
+    "it": "Pensate prima di agire!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1750833",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_PRESENT_ERE_IRE"
     ],
     "es": "¿Ustedes entienden lo que quiero decir?",
@@ -18759,6 +19085,28 @@
       "ERR_VOC_ANIMALI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Shadd",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Lávense las manos antes de comer.",
+    "es_author": "Shishir",
+    "es_source_id": "1009853",
+    "id": "s_1912813",
+    "it": "Lavatevi le mani, prima di mangiare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1912813",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Shadd",
@@ -23594,6 +23942,75 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Aprende a caminar antes de correr.",
+    "es_author": "IA (Claude)",
+    "id": "s_2513749",
+    "it": "Impara a camminare prima di correre.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2513749",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Aprendan a caminar antes de correr.",
+    "es_author": "IA (Claude)",
+    "id": "s_2513750",
+    "it": "Imparate a camminare prima di correre.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2513750",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Aprendes a caminar antes de correr.",
+    "es_author": "IA (Claude)",
+    "id": "s_2513751",
+    "it": "Impari a camminare prima di correre.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2513751",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_GN_Z_SPELLING"
     ],
     "es": "Sus ojos son azules.",
@@ -24811,6 +25228,52 @@
     "source_id": "2579471",
     "tag_rules": {
       "ERR_CHIAMARSI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Golpea antes de entrar.",
+    "es_author": "IA (Claude)",
+    "id": "s_2579896",
+    "it": "Bussa prima di entrare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2579896",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Golpeen antes de entrar.",
+    "es_author": "IA (Claude)",
+    "id": "s_2579900",
+    "it": "Bussate prima di entrare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2579900",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -30475,6 +30938,29 @@
       "ERR_IMPERATIVO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Mira televisión antes de estudiar.",
+    "es_author": "IA (Claude)",
+    "id": "s_3111257",
+    "it": "Guarda la televisione prima di studiare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3111257",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -38013,6 +38499,28 @@
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Piensa antes de hablar.",
+    "es_author": "tatoerique",
+    "es_source_id": "346411",
+    "id": "s_373890",
+    "it": "Pensa prima di parlare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "373890",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
     "error_codes": [],
     "es": "¿Dónde está el libro?",
     "es_author": "Shishir",
@@ -38806,6 +39314,30 @@
       "ERR_PRESENT_ARE": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Lávate las manos antes de comer.",
+    "es_author": "darinmex",
+    "es_source_id": "507166",
+    "id": "s_374410",
+    "it": "Lavati le mani prima di mangiare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "374410",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Pharamp",
@@ -40083,6 +40615,54 @@
     "source_id": "375783",
     "tag_rules": {
       "ERR_VOC_CORPO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Lávate los dientes después de las comidas.",
+    "es_author": "IA (Claude)",
+    "id": "s_3757872",
+    "it": "Lavati i denti dopo i pasti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3757872",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Lávense los dientes después de las comidas.",
+    "es_author": "IA (Claude)",
+    "id": "s_3757873",
+    "it": "Lavatevi i denti dopo i pasti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3757873",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -43637,6 +44217,29 @@
       "ERR_VOC_ASTRATTI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Ella lee después del almuerzo.",
+    "es_author": "IA (Claude)",
+    "id": "s_3884572",
+    "it": "Lei legge dopo il pranzo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3884572",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -52415,6 +53018,192 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Comamos antes de ir.",
+    "es_author": "IA (Claude)",
+    "id": "s_5142812",
+    "it": "Mangiamo prima di andare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5142812",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Cierra la puerta antes de irte.",
+    "es_author": "IA (Claude)",
+    "id": "s_5142817",
+    "it": "Chiudi la porta prima di andare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5142817",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Cierren la puerta antes de irse.",
+    "es_author": "IA (Claude)",
+    "id": "s_5142819",
+    "it": "Chiudete la porta prima di andare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5142819",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Péinate antes de salir.",
+    "es_author": "IA (Claude)",
+    "id": "s_5142951",
+    "it": "Pettinati i capelli prima di uscire.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5142951",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Péinense antes de salir.",
+    "es_author": "IA (Claude)",
+    "id": "s_5142952",
+    "it": "Pettinatevi i capelli prima di uscire.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5142952",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Termínalo antes de irte a la cama.",
+    "es_author": "IA (Claude)",
+    "id": "s_5142963",
+    "it": "Finiscilo prima di andare a letto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5142963",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Termínenlo antes de irse a la cama.",
+    "es_author": "IA (Claude)",
+    "id": "s_5142965",
+    "it": "Finitelo prima di andare a letto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5142965",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Termínala antes de irte a la cama.",
+    "es_author": "IA (Claude)",
+    "id": "s_5142966",
+    "it": "Finiscila prima di andare a letto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5142966",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_CUCINA"
     ],
     "es": "El refrigerador está sucio.",
@@ -54503,6 +55292,29 @@
     "source_id": "5423556",
     "tag_rules": {
       "ERR_GLI_PALATAL": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Jugamos al básquetbol después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_5427161",
+    "it": "Giochiamo a basket dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5427161",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -60062,6 +60874,52 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "El café viene después de la comida.",
+    "es_author": "IA (Claude)",
+    "id": "s_664306",
+    "it": "Il caffè viene dopo il pasto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "664306",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "El café llega después de la comida.",
+    "es_author": "IA (Claude)",
+    "id": "s_664308",
+    "it": "Il caffè arriva dopo il pasto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "664308",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_ASTRATTI"
     ],
     "es": "Él tiene muchos libros de historia.",
@@ -60631,6 +61489,29 @@
       "ERR_VOC_COLORI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "¿Qué hacen todos después de la escuela?",
+    "es_author": "IA (Claude)",
+    "id": "s_6800728",
+    "it": "Cosa fanno tutti dopo la scuola?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6800728",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -62265,6 +63146,29 @@
       "ERR_VOC_CITTA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "¿Qué hacen después de la escuela?",
+    "es_author": "IA (Claude)",
+    "id": "s_712888",
+    "it": "Cosa fate dopo la scuola?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "712888",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -67457,6 +68361,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Lee antes de dormir.",
+    "es_author": "IA (Claude)",
+    "id": "s_8819564",
+    "it": "Legge prima di dormire.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8819564",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Roverandom789133",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -69275,6 +70202,54 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Hablemos antes de pelear.",
+    "es_author": "IA (Claude)",
+    "id": "s_969524",
+    "it": "Parliamo prima di lottare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "969524",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Hablemos antes de pelear.",
+    "es_author": "IA (Claude)",
+    "id": "s_969525",
+    "it": "Parliamo prima di combattere.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "969525",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_DIMOSTRATIVI"
     ],
     "es": "No puedo aprobar este proyecto.",
@@ -69448,6 +70423,29 @@
     "source_id": "9708161",
     "tag_rules": {
       "ERR_PRESENT_ARE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Tengo matemáticas después del recreo.",
+    "es_author": "IA (Claude)",
+    "id": "s_9708708",
+    "it": "Ho matematica dopo la ricreazione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9708708",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
     },
     "translation_kind": "llm"
   },

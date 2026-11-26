@@ -563,6 +563,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Nunca como antes de hacer jogging.",
+    "es_author": "IA (Claude)",
+    "id": "s_10289179",
+    "it": "Non mangio mai prima di fare jogging.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10289179",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -846,6 +869,30 @@
       "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Hablaremos después de la clase.",
+    "es_author": "IA (Claude)",
+    "id": "s_10774510",
+    "it": "Parleremo dopo la lezione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10774510",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -1237,6 +1284,75 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Jugué al tenis después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_11035998",
+    "it": "Ho giocato a tennis dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11035998",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Jugaba al béisbol después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_11036006",
+    "it": "Giocava a baseball dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11036006",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Jugó al béisbol después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_11036007",
+    "it": "Ha giocato a baseball dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11036007",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -1281,6 +1397,29 @@
     "source_id": "1107994",
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Me encontré con Tom mientras iba a la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_1109755",
+    "it": "Ho incontrato Tom mentre andavo a scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1109755",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -1844,6 +1983,52 @@
     "translation_kind": "direct"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Soñaba y reía mientras dormía.",
+    "es_author": "IA (Claude)",
+    "id": "s_11458303",
+    "it": "Sognavo e ridevo, mentre dormivo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11458303",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Hoy jugamos al béisbol después del trabajo.",
+    "es_author": "IA (Claude)",
+    "id": "s_11458511",
+    "it": "Giochiamo a baseball dopo il lavoro oggi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11458511",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -2077,6 +2262,52 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Leía un libro mientras caminaba.",
+    "es_author": "IA (Claude)",
+    "id": "s_11725281",
+    "it": "Leggevo un libro mentre camminavo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11725281",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "No la dejes salir después de la puesta de sol.",
+    "es_author": "IA (Claude)",
+    "id": "s_11726364",
+    "it": "Non farla uscire dopo il tramonto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11726364",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -2298,6 +2529,52 @@
       "ERR_PP_AUSILIARE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Él reía mientras ella lloraba.",
+    "es_author": "IA (Claude)",
+    "id": "s_11977067",
+    "it": "Lui rideva mentre lei piangeva.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11977067",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "El aire está más limpio después de la lluvia.",
+    "es_author": "IA (Claude)",
+    "id": "s_12017554",
+    "it": "L'aria è più pulita dopo la pioggia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12017554",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Adelpa",
@@ -3630,6 +3907,30 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Se perdió mientras caminaba por el bosque.",
+    "es_author": "IA (Claude)",
+    "id": "s_1316609",
+    "it": "Si è perso mentre camminava nei boschi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1316609",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "giullina",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -3735,6 +4036,29 @@
     "source_id": "13302247",
     "tag_rules": {
       "ERR_IMPERFETTO_FORMA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "¿Jugará al tenis después de la escuela?",
+    "es_author": "IA (Claude)",
+    "id": "s_13302375",
+    "it": "Giocherà a tennis dopo la scuola?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13302375",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -4224,6 +4548,29 @@
       "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Después del sábado viene el domingo.",
+    "es_author": "IA (Claude)",
+    "id": "s_13684125",
+    "it": "Dopo il sabato c'è la domenica.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13684125",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "felix63",
@@ -5205,6 +5552,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Deberían comer algo antes de irse.",
+    "es_author": "IA (Claude)",
+    "id": "s_1547634",
+    "it": "Dovreste mangiare qualcosa prima di andare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1547634",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -5250,6 +5620,29 @@
       "ERR_REFLEXIVE_AUX": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Lo pilló mientras fumaba un cigarrillo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1552053",
+    "it": "L'ha beccato mentre fumava una sigaretta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1552053",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -5317,6 +5710,29 @@
       "ERR_CE_IMPERFETTO": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "La conocí mientras volvía a casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_1574233",
+    "it": "L'ho conosciuta mentre tornavo a casa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1574233",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "matsuteo",
@@ -6242,6 +6658,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Me lavo los dientes después del desayuno.",
+    "es_author": "IA (Claude)",
+    "id": "s_1828184",
+    "it": "Mi lavo i denti dopo la colazione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1828184",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_VOC_IGIENE"
     ],
     "es": "Me lavo los dientes con un cepillo.",
@@ -6979,6 +7418,52 @@
     "source": "tatoeba",
     "source_id": "2051488",
     "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Sirio60",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Jugaremos al fútbol después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_2055859",
+    "it": "Giocheremo a calcio dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2055859",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Sirio60",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Jugaremos a la pelota después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_2055860",
+    "it": "Giocheremo a pallone dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2055860",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
     "translation_kind": "llm"
   },
   {
@@ -7787,6 +8272,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Normalmente el teatro abría a esta hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_2409009",
+    "it": "Di solito il teatro apriva a quest'ora.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2409009",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -8045,6 +8553,29 @@
       "ERR_PARTICIPLE_AGREEMENT": "participio_concuerda_con_essere"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Me torcí el cuello mientras dormía.",
+    "es_author": "IA (Claude)",
+    "id": "s_2457609",
+    "it": "Mi sono slogata il collo mentre dormivo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2457609",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -8537,6 +9068,51 @@
     "translation_kind": "llm"
   },
   {
+    "author": "julius26",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Me corté mientras me afeitaba.",
+    "es_author": "nancy",
+    "es_source_id": "2617150",
+    "id": "s_2615881",
+    "it": "Mi sono tagliato mentre mi rasavo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2615881",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Mientras jugaba al rugby se lesionó.",
+    "es_author": "IA (Claude)",
+    "id": "s_2617550",
+    "it": "Mentre giocava a rugby si è infortunato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2617550",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -8761,6 +9337,29 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Leí un libro mientras comía.",
+    "es_author": "IA (Claude)",
+    "id": "s_2776467",
+    "it": "Ho letto un libro mentre mangiavo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2776467",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CE_IMPERFETTO"
     ],
     "es": "En la calle había mucha gente.",
@@ -8776,6 +9375,29 @@
     "source_id": "2779245",
     "tag_rules": {
       "ERR_CE_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Comí mientras estudiaba.",
+    "es_author": "IA (Claude)",
+    "id": "s_2791747",
+    "it": "Ho mangiato mentre studiavo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2791747",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -9830,6 +10452,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Lo interrumpió mientras hablaba.",
+    "es_author": "IA (Claude)",
+    "id": "s_3337614",
+    "it": "L'ha interrotto mentre parlava.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3337614",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "bailujia",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -10555,6 +11200,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Después del trabajo, Tom siempre está cansado.",
+    "es_author": "IA (Claude)",
+    "id": "s_3509697",
+    "it": "Dopo il lavoro, Tom è sempre stanco.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3509697",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "martin",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -10655,6 +11323,29 @@
     "source": "tatoeba",
     "source_id": "351140",
     "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "El edificio se derrumbó de repente.",
+    "es_author": "IA (Claude)",
+    "id": "s_3512161",
+    "it": "Il palazzo è crollato all'improvviso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3512161",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
     "translation_kind": "llm"
   },
   {
@@ -11031,6 +11722,29 @@
     "source_id": "3569833",
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Lo encontré mientras volvía a casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_3589620",
+    "it": "L'ho incontrato mentre tornavo a casa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3589620",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -11989,6 +12703,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Me encontré con Tom después del trabajo.",
+    "es_author": "IA (Claude)",
+    "id": "s_3779679",
+    "it": "Ho incontrato Tom dopo il lavoro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3779679",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -12823,6 +13561,29 @@
   },
   {
     "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "A veces duda antes de responder.",
+    "es_author": "IA (Claude)",
+    "id": "s_384576",
+    "it": "A volte è esitante prima di rispondere.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "384576",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -13284,6 +14045,29 @@
       "ERR_VOC_ABITI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Después de la comida pedí la cuenta.",
+    "es_author": "IA (Claude)",
+    "id": "s_3960949",
+    "it": "Dopo il pasto ho chiesto il conto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3960949",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -13787,6 +14571,30 @@
       "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "¿Te lavas las manos antes de comer?",
+    "es_author": "IA (Claude)",
+    "id": "s_4106067",
+    "it": "Tu ti lavi le mani prima di mangiare?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4106067",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "tiramisu",
@@ -15120,6 +15928,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Volvió después de la puesta de sol.",
+    "es_author": "IA (Claude)",
+    "id": "s_4717830",
+    "it": "È tornato dopo il tramonto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4717830",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -15167,6 +15998,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "La vi mientras cruzaba la calle.",
+    "es_author": "IA (Claude)",
+    "id": "s_4795328",
+    "it": "L'ho vista mentre attraversava la strada.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4795328",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -15209,6 +16063,28 @@
       "ERR_VOC_NUMERI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "A menudo juego al tenis después de la escuela.",
+    "es_author": "saverius",
+    "es_source_id": "10082355",
+    "id": "s_4961522",
+    "it": "Io gioco spesso a tennis dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4961522",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "ianna",
@@ -15411,6 +16287,29 @@
     "source_id": "5162305",
     "tag_rules": {
       "ERR_VOC_NEGOZI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "De repente se enfermó.",
+    "es_author": "IA (Claude)",
+    "id": "s_5170219",
+    "it": "All'improvviso si è ammalato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5170219",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -15997,6 +16896,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Tom cantaba mientras trabajaba.",
+    "es_author": "IA (Claude)",
+    "id": "s_5444245",
+    "it": "Tom cantava mentre lavorava.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5444245",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Sofia1789",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -16458,6 +17380,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Jugarán al béisbol después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_5898318",
+    "it": "Giocheranno a baseball dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5898318",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "ver",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -16616,6 +17561,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "No se olviden de cortar el gas antes de salir.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1982793",
+    "id": "s_609553",
+    "it": "Non dimenticate di chiudere il gas prima di uscire.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "609553",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -16679,6 +17648,30 @@
       "ERR_REFLEXIVE_AUX": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Hablaba mientras caminaba.",
+    "es_author": "IA (Claude)",
+    "id": "s_612180",
+    "it": "Parlava mentre camminava.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "612180",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "rado",
@@ -16835,6 +17828,52 @@
       "ERR_PREP_PLACE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Dudó antes de responder.",
+    "es_author": "IA (Claude)",
+    "id": "s_6166210",
+    "it": "Ha esitato prima di rispondere.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6166210",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "De repente oí un grito.",
+    "es_author": "IA (Claude)",
+    "id": "s_616997",
+    "it": "All'improvviso ho sentito un urlo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "616997",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -17430,6 +18469,29 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "De repente me vio.",
+    "es_author": "IA (Claude)",
+    "id": "s_653807",
+    "it": "All'improvviso mi ha visto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "653807",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PARTICIPIO_ES"
     ],
     "es": "Hemos pedido la comida.",
@@ -17532,6 +18594,29 @@
       "ERR_VOC_IGIENE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "El tiempo cambió de repente.",
+    "es_author": "IA (Claude)",
+    "id": "s_6631430",
+    "it": "Il tempo è cambiato all'improvviso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6631430",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -17861,6 +18946,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Hago mis tareas después de la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_6988910",
+    "it": "Faccio i miei compiti dopo la scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6988910",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Heracleum",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -18136,6 +19244,52 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "De repente me volví afortunado.",
+    "es_author": "IA (Claude)",
+    "id": "s_714001",
+    "it": "All'improvviso sono diventato fortunato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "714001",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "De repente el cielo se oscureció.",
+    "es_author": "IA (Claude)",
+    "id": "s_714560",
+    "it": "All'improvviso il cielo è diventato scuro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "714560",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_VOC_VORREI"
     ],
     "es": "Quisiera cenar contigo.",
@@ -18175,6 +19329,30 @@
       "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "La oí mientras cantaba.",
+    "es_author": "IA (Claude)",
+    "id": "s_716387",
+    "it": "L'ho sentita mentre cantava.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "716387",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -18241,6 +19419,29 @@
       "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Me lavo las manos antes de almorzar.",
+    "es_author": "IA (Claude)",
+    "id": "s_726460",
+    "it": "Mi lavo le mani prima di pranzare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "726460",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -19074,6 +20275,54 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "La encontré mientras iba a la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_7904212",
+    "it": "L'ho incontrata mentre andavo a scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7904212",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "La conocí mientras iba a la escuela.",
+    "es_author": "IA (Claude)",
+    "id": "s_7904213",
+    "it": "L'ho conosciuta mentre andavo a scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7904213",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -19120,6 +20369,29 @@
       "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "De repente oímos un disparo.",
+    "es_author": "IA (Claude)",
+    "id": "s_794966",
+    "it": "All'improvviso abbiamo sentito uno sparo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "794966",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "rado",
@@ -19369,6 +20641,29 @@
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "La encontré mientras volvía a casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_842576",
+    "it": "L'ho incontrata mentre tornavo a casa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "842576",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PP_PARTICIPI_IRREG"
     ],
     "es": "Leyó el poema en voz alta.",
@@ -19452,6 +20747,28 @@
     "source_id": "867346",
     "tag_rules": {
       "ERR_RIFLESSIVO_PRONOME": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Lavate la boca antes de hablar de mí.",
+    "es_author": "hayastan",
+    "es_source_id": "9814210",
+    "id": "s_8691595",
+    "it": "Lavati la bocca prima di parlare di me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8691595",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -19875,6 +21192,30 @@
       "ERR_IMPERFETTO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PP_VS_IMPERFETTO"
+    ],
+    "es": "Lloraba mientras leía la carta.",
+    "es_author": "IA (Claude)",
+    "id": "s_914253",
+    "it": "Piangeva mentre leggeva la lettera.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "914253",
+    "tag_rules": {
+      "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -20364,6 +21705,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "No bebas demasiado antes de irte a la cama.",
+    "es_author": "IA (Claude)",
+    "id": "s_9712003",
+    "it": "Non bere troppo prima di andare a letto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9712003",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -20761,6 +22126,28 @@
     "source_id": "995804",
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_PRIMA_DI"
+    ],
+    "es": "Voy directo a casa después del trabajo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1713886",
+    "id": "s_997832",
+    "it": "Dopo il lavoro vado direttamente a casa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "997832",
+    "tag_rules": {
+      "ERR_PRIMA_DI": "capsule_calque"
     },
     "translation_kind": "direct"
   },
