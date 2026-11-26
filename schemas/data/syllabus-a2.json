@@ -881,7 +881,7 @@
      "formas_validas_es": [
       "più grande, più buono (válidos)"
      ],
-     "existe": "u11 (A2 hoy sin módulo): se amplía a ≥30 frases"
+     "existe": "u11 (A2): hoy «planificada» (17 de 18 frases con el filtro A2); se amplía a ≥30 frases"
     },
     {
      "id": "a2c18",
@@ -2001,13 +2001,9 @@
    "text_es": "Comparar dos cosas para elegir (più… di/che, così… come, tanto… quanto)",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "gap",
    "module": "a2m05",
-   "refs": {
-    "units": [
-     "u11"
-    ]
-   },
+   "refs": {},
    "capsulas": [
     "a2c17"
    ],
@@ -2025,8 +2021,8 @@
      "Che bello!"
     ]
    },
-   "gap_es": "u11 (A2) existe pero no está en un módulo y cubre solo «più… di».",
-   "how_es": "Integrar u11 en a2m05 y ampliarla con «che», «come/quanto» y la frontera di/che (a2c17)."
+   "gap_es": "u11 (A2, comparativos) quedó planificada: con el filtro de A2 tiene 17 de las 18 frases mínimas; no hay cobertura mientras no se complete.",
+   "how_es": "Completar u11 con frases de «che», «come/quanto» y la frontera di/che (a2c17) y llevarla a a2m05."
   },
   {
    "id": "g21",

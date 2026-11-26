@@ -28,6 +28,14 @@ _REMOTO_OK |= {w for w in ("lunedì", "martedì", "mercoledì", "giovedì", "ven
 _IMPERFETTO = re.compile(r"\b(ero|eri|era|eravamo|eravate|erano|avevo|avevi|aveva|avevamo|avevate|avevano|stavo|stavi|stava|stavamo|stavano|facevo|facevi|faceva|facevano|dicevo|diceva|dicevano|andavo|andavi|andava|andavano|venivo|veniva|venivano|potevo|poteva|potevano|volevo|voleva|volevano|dovevo|doveva|dovevano|sapevo|sapeva|vedevo|vedeva|c'era|c'erano)\b", re.I)
 _IMPERATIVO_FORMALE = re.compile(r"^(?:\s*(?:Per favore|Mi scusi),?\s*)?(?:apra|chiuda|guardi|ascolti|prenda|venga|vada|faccia|dica|aspetti|entri|si sieda|legga|scriva)\b", re.I)
 
+# --- italiano: lo que A2 todavía no enseña (B1), temas poco útiles y lo que Tatoeba trae demasiado (muertes) ------------------------------------
+_PART_IRREG = r"preso|messo|chiuso|perso|letto|scritto|fatto|detto|aperto|visto|rotto|risposto|scelto|deciso|corso|speso|bevuto|vissuto"
+_PART_MOV = r"stato|stata|stati|state|andato|andata|andati|andate|venuto|venuta|venuti|venute|arrivato|arrivata|arrivati|arrivate|partito|partita|partiti|partite|uscito|uscita|usciti|uscite|tornato|tornata|tornati|tornate|nato|nata|nati|nate|morto|morta|morti|morte|caduto|caduta|entrato|entrata"
+_TRAPASSATO = re.compile(r"\b(?:avevo|avevi|aveva|avevamo|avevate|avevano) (?:\w+(?:ato|uto|ito)|" + _PART_IRREG + r")\b|\b(?:ero|eri|era|eravamo|eravate|erano) (?:" + _PART_MOV + r")\b", re.I)
+_COMBINATI = re.compile(r"\bglie(?:lo|la|li|le|ne)\b|\b(?:me|te|ce|ve) (?:lo|la|li|le|ne)\b", re.I)
+_MORBIDO_A2 = re.compile(r"\b(mort[oaie]|morire|muor\w+|muoio|muoi|morì|suicid\w+|impicc\w+|uccid\w+|uccis\w+|sparat\w+|pistola|sangue|cancro|tumore)\b", re.I)
+MAX_WORDS = {"A1": 14, "A2": 12}
+
 _META = re.compile(r"(?:\bCome si (?:dice|scrive)\b|\b(?:in|si dice) (?:giapponese|inglese|francese|tedesco|russo|cinese|arabo|ceco|greco|albanese|esperanto|spagnolo|italiano)\b.*[\"«“]|[\"«“][^\"»”]{2,}[\"»”].*\b(?:significa|vuol dire|si chiama)\b|\b(?:significa|vuol dire)\b.*[\"«“])", re.I)
 
 _NOMI_OK = {"Tom", "Mary", "Maria", "Marco", "Luca", "John", "Ken", "Mike", "Bob", "Paul", "Jane", "Anna", "Luisa", "Roberto", "Andrea", "Luis", "Jack", "Ana", "Michele", "Giovanni",
@@ -57,7 +65,8 @@ def spanish_issue(es: str | None) -> str | None:
     return None
 
 
-def italian_issue(it: str, level: str = "A1") -> str | None:
+def italian_issue(it: str, level: str = "A1", allow: frozenset[str] | set[str] = frozenset()) -> str | None:
+    """`allow` deja pasar, para una cápsula concreta, lo que el filtro rechaza siempre: «condizionale», «imperativo_formale», «combinati»."""
     it = _strip(it)
     if _OBSCENO.search(it):
         return "tema inadecuado o vulgar"
@@ -67,7 +76,7 @@ def italian_issue(it: str, level: str = "A1") -> str | None:
         return "tema mórbido, poco útil para practicar"
     if _CONGIUNTIVO_IMP.search(it):
         return "congiuntivo (fuera de A1)"
-    if _CONDIZIONALE.search(it):
+    if _CONDIZIONALE.search(it) and "condizionale" not in allow:
         return "condicional (fuera de A1)"
     if level == "A1":
         if _FUTURO.search(it):
@@ -77,12 +86,23 @@ def italian_issue(it: str, level: str = "A1") -> str | None:
         for m in _REMOTO.finditer(it):
             if m.group(0).lower() not in _REMOTO_OK and m.group(0).lower().rstrip("'") not in _REMOTO_OK:
                 return "passato remoto (fuera de A1)"
-    if _IMPERATIVO_FORMALE.search(it):
+    if level == "A2":
+        for m in _REMOTO.finditer(it):
+            w = m.group(0).lower()
+            if w not in _REMOTO_OK and w.rstrip("'") not in _REMOTO_OK and not _FUTURO.search(w):   # el futuro (parlerò, andrò) termina igual y sí es de A2
+                return "passato remoto (fuera de A2)"
+        if _TRAPASSATO.search(it):
+            return "trapassato (fuera de A2)"
+        if _COMBINATI.search(it) and "combinati" not in allow:
+            return "pronombres combinados (fuera de A2)"
+        if _MORBIDO_A2.search(it):
+            return "tema mórbido (muerte), poco útil para practicar"
+    if _IMPERATIVO_FORMALE.search(it) and "imperativo_formale" not in allow:
         return "imperativo formal (fuera de A1)"
     if _META.search(it):
         return "metalingüística o con palabra citada (poco útil)"
-    if _words(it) > 14:
-        return "demasiado larga para A1"
+    if _words(it) > MAX_WORDS.get(level, 14):
+        return f"demasiado larga para {level if level in MAX_WORDS else 'A1'}"
     return None
 
 
@@ -103,7 +123,7 @@ def length_issue(it: str, es: str | None) -> str | None:
     return "traducción desproporcionada" if not 0.5 <= ratio <= 2.0 else None
 
 
-def prefilter(items: list[dict], level: str = "A1") -> list[str | None]:
+def prefilter(items: list[dict], level: str = "A1", allow: frozenset[str] | set[str] = frozenset()) -> list[str | None]:
     """Un motivo de rechazo (o None) por candidata. Cada item: {italiano, espanol_tatoeba|None, directa}."""
     nlp = get_nlp()
     docs = list(nlp.pipe([i["italiano"] for i in items], batch_size=64))
@@ -112,7 +132,7 @@ def prefilter(items: list[dict], level: str = "A1") -> list[str | None]:
     seen: list[str] = []
     for i, it in enumerate(items):
         es = it.get("espanol_tatoeba") if it.get("directa", True) else None
-        reason = italian_issue(it["italiano"], level) or spanish_issue(es) or length_issue(it["italiano"], es) or names[i]
+        reason = italian_issue(it["italiano"], level, allow) or spanish_issue(es) or length_issue(it["italiano"], es) or names[i]
         key = re.sub(r"\W+", "", it["italiano"].lower())
         if not reason and any(k.startswith(key[:18]) or key.startswith(k[:18]) for k in seen if min(len(k), len(key)) >= 15):
             reason = "casi duplicada de otra candidata"

@@ -23,6 +23,13 @@ def load_course() -> dict:
 
 
 A1_LEVELS = ("A1", "A1+")
+A2_B1_MAX_WORDS = 10   # una frase que el estimador marca B1 solo entra a una unidad A2 si es corta (el estimador marca B1 el `ne` y las frases largas)
+# Lo que el filtro rechaza siempre (condicional, imperativo formal, combinados) pero que una cápsula concreta de A2 sí enseña.
+ALLOW_BY_CODE = {
+    "ERR_FUTURO_RADICE": {"condizionale"},
+    "ERR_IMPERATIVO_LEI": {"imperativo_formale"},
+    "ERR_CLITIC_CI": {"combinati"},
+}
 
 
 SOUND_CODES = {"ERR_C_G_PALATAL", "ERR_SC_PALATAL", "ERR_GLI_PALATAL", "ERR_GN_Z_SPELLING", "ERR_CONSONANTE_DOPPIA"}
@@ -34,6 +41,12 @@ _AUX_ESSERE_PP = re.compile(r"\b(?:sono|sei|è|siamo|siete)\s+(?:stat[oiae]|anda
 def fit_for_level(s: dict, level: str, code: str | None = None) -> bool:
     """En unidades A1 solo entran oraciones que pasan el prefiltro de auditoría (sin tiempos de A2+, demasiado largas, temas
     inadecuados). Antes la prueba tomaba las oraciones más largas y difíciles, y a A1 llegaban imperfetto, congiuntivo y frases de 20 palabras."""
+    if level == "A2":
+        if s.get("cefr_estimate") in ("B2", "C1", "C2"):
+            return False
+        if s.get("cefr_estimate") == "B1" and len(s["it"].split()) > A2_B1_MAX_WORDS:
+            return False
+        return not (italian_issue(s["it"], "A2", ALLOW_BY_CODE.get(code or "", set())) or spanish_issue(s.get("es")) or length_issue(s["it"], s.get("es")))
     if level not in A1_LEVELS:
         return True
     if _ENCLITIC.search(s["it"]) or (_AUX_ESSERE_PP.search(s["it"]) and code != "ERR_AUX_ESSERE") or (code in SOUND_CODES and len(s["it"].split()) > SOUND_MAX_WORDS):  # «pensarci», «farcela»: pronombres enclíticos y ci/ne son de A2+
@@ -45,6 +58,9 @@ def test_rank(s: dict, level: str) -> int | None:
     """Aptitud de una frase para la PRUEBA de una unidad A1: 0 = A1 (preferida), 1 = A2 (solo para completar, p. ej. en u58, donde el estimador
     marca A2 el propio passato prossimo), None = B1 o más (nunca). La práctica admite algo de A2 como entrada, pero la prueba mide lo que la
     unidad enseñó (auditoría 2026-11-25: 65 frases A2/B1 en las pruebas A1, como «Io ne ho visti tantissimi di concerti»)."""
+    if level == "A2":   # en A2 la prueba prefiere frases A1/A2; B1 corto solo para completar; nunca B2
+        est = s.get("cefr_estimate", "A1")
+        return 0 if est in ("A1", "A2") else 1 if est == "B1" and len(s["it"].split()) <= A2_B1_MAX_WORDS else None
     if level not in A1_LEVELS:
         return 0
     return {"A1": 0, "A2": 1}.get(s.get("cefr_estimate", "A1"))

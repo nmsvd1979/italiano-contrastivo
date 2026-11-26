@@ -136,3 +136,31 @@ def test_pruebas_a1_del_paquete_sin_b1():
             if "A2" in levels:   # A2 solo para completar: la unidad no tenía frases A1 suficientes fuera de «Descubre»
                 pool = [i for i in u["parts"]["practica"] + u["parts"]["prueba"] if i not in u["parts"]["descubre"]]
                 assert sum(lv[i] == "A1" for i in pool) < len(u["parts"]["prueba"]), u["id"]
+
+
+# ── unidades de nivel A2 ──────────────────────────────────────────────────────────────────────────────────────────────────
+def _s(it, cefr="A2", es="Esto es una frase."):
+    return {"id": "s_1", "it": it, "es": es, "cefr_estimate": cefr}
+
+
+def test_fit_for_level_a2_no_deja_pasar_b2_ni_b1_largo_pero_si_b1_corto():
+    assert C.fit_for_level(_s("Ho già mangiato oggi."), "A2")
+    assert not C.fit_for_level(_s("Ho già mangiato oggi.", "B2"), "A2")
+    assert not C.fit_for_level(_s("Ne ho comprati molti per tutti i miei amici di Roma.", "B1"), "A2")      # B1 de más de 10 palabras
+    assert C.fit_for_level(_s("Ne ho comprati due ieri.", "B1", "Compré dos ayer."), "A2")                    # B1 corto: el estimador marca B1 el `ne`
+    assert not C.fit_for_level(_s("Lui parlò con Maria ieri."), "A2")                                          # remoto
+
+
+def test_fit_for_level_a2_permite_el_condicional_solo_en_su_capsula():
+    s = _s("Potrei venire domani.")
+    assert not C.fit_for_level(s, "A2", "ERR_PP_AUSILIARE")
+    assert C.fit_for_level(s, "A2", "ERR_FUTURO_RADICE")
+
+
+def test_test_rank_a2_prefiere_a1_y_a2_completa_con_b1_corto_y_nunca_b2():
+    assert C.test_rank(_s("Ho già mangiato.", "A1"), "A2") == 0
+    assert C.test_rank(_s("Ho già mangiato.", "A2"), "A2") == 0
+    assert C.test_rank(_s("Ne ho due.", "B1"), "A2") == 1
+    assert C.test_rank(_s("Ne ho comprati molti per tutti i miei amici di Roma.", "B1"), "A2") is None
+    assert C.test_rank(_s("Ho già mangiato.", "B2"), "A2") is None
+    assert C.test_rank(_s("Ho già mangiato.", "B1"), "A1") is None           # A1 no cambia
