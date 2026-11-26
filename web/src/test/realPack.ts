@@ -3,9 +3,15 @@ import type { ContentPack } from "../content/load";
 
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
 
+/** Los ejercicios de todos los niveles, unidos (el paquete los publica en un archivo por nivel). */
+export function readItems(): ContentPack["itemsByCode"] {
+  const files: Record<string, string> = read("manifest.json").item_files ?? { all: "items_by_code.json" };
+  return Object.assign({}, ...Object.values(files).map((f) => read(f)));
+}
+
 /** El paquete real publicado (lo que lee la app). Las pruebas que necesitan contenido de verdad parten de aquí. */
 export function readPack(): ContentPack {
-  return { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
+  return { capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
 }
 
 /**

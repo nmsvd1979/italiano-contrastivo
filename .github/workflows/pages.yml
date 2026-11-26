@@ -25,6 +25,7 @@ jobs:
       - run: npm ci
       - run: npm --prefix web ci
       - run: npx vitest run
+      - run: npm run typecheck
       - run: npm --prefix web test
       - run: npm --prefix web run build
       - uses: actions/upload-pages-artifact@v3

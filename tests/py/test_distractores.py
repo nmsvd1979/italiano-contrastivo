@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 
 from pipeline.exercises.calques import find_calque
+from pipeline.exercises.capsules import load_items
 from pipeline.exercises.items import build_choice, extra_wrong_text
 
 PACK = Path(__file__).resolve().parents[2] / "web/public/content"
@@ -30,7 +31,7 @@ def test_codigos_sin_generador_de_segundo_error_siguen_con_dos_opciones():
 
 
 def test_la_mayoria_de_las_elecciones_del_paquete_tienen_tres_opciones_sin_repetidas_ni_dos_correctas():
-    items = [i for v in json.loads((PACK / "items_by_code.json").read_text(encoding="utf8")).values() for i in v if i.get("type") == "choice_l1_distractor"]
+    items = [i for v in load_items(PACK).values() for i in v if i.get("type") == "choice_l1_distractor"]
     three = [i for i in items if len(i["options"]) == 3]
     assert len(three) / len(items) > 0.6, "con dos opciones se acierta por azar la mitad de las veces"
     for i in items:

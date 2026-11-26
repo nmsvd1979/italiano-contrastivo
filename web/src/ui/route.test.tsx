@@ -16,9 +16,10 @@ import { RouteScreen } from "./RouteScreen";
 import { StepScreen } from "./StepScreen";
 import { UnitScreen } from "./UnitScreen";
 
+import { readItems } from "../test/realPack";
 afterEach(cleanup);
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
-const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"),
+const pack = { capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"), sentences: read("sentences.json"),
   manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
 const NOW = new Date("2026-11-17T12:00:00.000Z");
 const U1 = pack.course.units[0].id; // el orden lo da course.json: no se fija «u01»

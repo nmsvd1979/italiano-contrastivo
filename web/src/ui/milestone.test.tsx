@@ -8,10 +8,11 @@ import { setPreview } from "../state/preview";
 import { memoryStore } from "../state/store";
 import { MilestoneScreen } from "./MilestoneScreen";
 
+import { readItems } from "../test/realPack";
 afterEach(() => { cleanup(); localStorage.clear(); });
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
 const speaking = read("speaking.json");
-const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
+const pack = { capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
 const NOW = new Date("2026-11-18T12:00:00.000Z");
 /** Responde bien todo el examen: elección, escribir y dictados (sale el mismo armado que usa la pantalla). */
 async function answerAll(p: ContentPack) {

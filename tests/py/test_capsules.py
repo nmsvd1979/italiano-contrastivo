@@ -66,8 +66,9 @@ def pack(tmp_path_factory):
 
 def test_pack_escribe_los_archivos_y_excluye_pivote(pack):
     out, manifest = pack
-    for f in ("capsules.json", "items_by_code.json", "lexemes.json", "sentences.json", "manifest.json", "ATTRIBUZIONI-tatoeba.md"):
+    for f in ("capsules.json", "lexemes.json", "sentences.json", "manifest.json", "ATTRIBUZIONI-tatoeba.md", *manifest["item_files"].values()):
         assert (out / f).exists(), f
+    assert not (out / "items_by_code.json").exists()   # los ejercicios van en un archivo por nivel
     sents = json.loads((out / "sentences.json").read_text(encoding="utf8"))
     assert all(s["translation_kind"] != "pivot" for s in sents)
     assert all(s.get("author") and s.get("license") for s in sents)
@@ -128,3 +129,13 @@ def test_el_paquete_lleva_el_id_de_audio_de_cada_texto(pack):
     for name, field in (("sentences.json", "it"), ("lexemes.json", "form")):
         rows = json.loads((out / name).read_text(encoding="utf8"))
         assert rows and all(r["audio"] == clip_id(r[field]) for r in rows), name
+
+
+def test_los_ejercicios_se_reparten_por_nivel_de_la_unidad_o_del_codigo():
+    from pipeline.exercises.capsules import split_items_by_level
+    course = {"units": [{"codes": ["ERR_A"], "level": "A1"}, {"codes": ["ERR_B"], "level": "A1+"}, {"codes": ["ERR_C"], "level": "A2"}]}
+    catalog = {c: {"cefr_min": m} for c, m in (("ERR_A", "A1"), ("ERR_B", "A1"), ("ERR_C", "A2"), ("ERR_D", "B1"), ("ERR_E", "C1"))}
+    items = {"ERR_A": [1], "ERR_B": [2], "ERR_C": [3], "ERR_D": [4], "ERR_E": [5]}   # D no está en ninguna unidad: manda su cefr_min; E tiene un nivel desconocido
+    out = split_items_by_level(items, course, catalog)
+    assert out == {"A1": {"ERR_A": [1], "ERR_B": [2], "ERR_E": [5]}, "A2": {"ERR_C": [3]}, "B1": {"ERR_D": [4]}}
+    assert sum(len(v) for v in out.values()) == len(items)   # ningún código se pierde ni se repite

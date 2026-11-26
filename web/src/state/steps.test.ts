@@ -5,9 +5,10 @@ import type { Item } from "../generated/item";
 import { dictationSentences, kindOf, meaningQuestions, noticeCards, practiceItems, reconstructionItems, shadowSentences, stepSeconds, testItems, unitSentences, voiceItems } from "./steps";
 import { estimateSeconds } from "./timing";
 
+import { readItems } from "../test/realPack";
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
 const pack = {
-  capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"),
+  capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"),
   sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json"),
 } as ContentPack;
 const sid = (i: Item) => (i as Item & { sentence_id: string }).sentence_id;

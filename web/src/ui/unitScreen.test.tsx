@@ -5,9 +5,10 @@ import type { ContentPack } from "../content/load";
 import { STEPS, unitViews } from "../state/course";
 import { UnitScreen } from "./UnitScreen";
 
+import { readItems } from "../test/realPack";
 afterEach(cleanup);
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
-const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"),
+const pack = { capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"), sentences: read("sentences.json"),
   manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
 const first = () => unitViews(pack.course, [], false)[0];
 const iso = "2026-11-24T10:00:00.000Z";

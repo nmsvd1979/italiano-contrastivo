@@ -6,10 +6,11 @@ import { KIND_LABEL, pick } from "../state/library";
 import { localDate, memoryStore } from "../state/store";
 import { LibraryScreen } from "./LibraryScreen";
 
+import { readItems } from "../test/realPack";
 afterEach(cleanup);
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
 const library: Resource[] = read("library.json");
-const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json"), library } as ContentPack;
+const pack = { capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json"), library } as ContentPack;
 
 describe("datos de la Biblioteca", () => {
   it("cada recurso está completo: https, nivel, tarea, fecha de verificación y advertencia honesta", () => {

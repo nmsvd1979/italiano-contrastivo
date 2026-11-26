@@ -6,8 +6,9 @@ import { milestoneItems, milestoneWriteItems } from "./milestone";
 import { weakItems } from "./weak";
 import { rotate, withoutReserve, reserveChoiceItems, reserveItems, practiceItems } from "./steps";
 
+import { readItems } from "../test/realPack";
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
-const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"),
+const pack = { capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"),
   course: read("course.json"), readings: read("readings.json"), readingItems: read("reading_items.json") } as ContentPack;
 reserveParts(pack.course, pack.sentences);
 const a1 = pack.course.units.filter((u) => u.level === "A1");

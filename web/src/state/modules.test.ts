@@ -5,8 +5,9 @@ import { currentView, emptyProgress } from "./course";
 import { applyModuleTest, currentModule, moduleProgressId, moduleTestItems, moduleViews, MODULE_TEST_MAX, salidaKey, salidaMissing } from "./modules";
 import type { UnitProgress } from "./store";
 
+import { readItems } from "../test/realPack";
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
-const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
+const pack = { capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
 const [M1, M2] = pack.course.modules!;
 const NOW = new Date("2026-11-24T12:00:00.000Z");
 const completed = (id: string, mastery: "prueba" | "ubicacion" = "prueba"): UnitProgress => ({ ...emptyProgress(id), completed: true, testBest: 1, mastery });

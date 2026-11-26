@@ -4,6 +4,7 @@ from pathlib import Path
 import pytest
 
 from pipeline.exercises import course as C
+from pipeline.exercises.capsules import load_items
 
 ROOT = Path(__file__).resolve().parents[2]
 PACK = ROOT / "web/public/content"
@@ -68,7 +69,7 @@ def test_curso_real_es_consistente():
     levels = [l["id"] for l in course["levels"]]
     core = [u for u in course["units"] if not u["level"].endswith("+")]  # el vocabulario opcional («A1+») va aparte, al final
     assert [levels.index(u["level"]) for u in core] == sorted(levels.index(u["level"]) for u in core)
-    items = json.loads((PACK / "items_by_code.json").read_text(encoding="utf8"))
+    items = load_items(PACK)
     for u in course["units"]:
         code = u["codes"][0]
         for part, sids in u["parts"].items():

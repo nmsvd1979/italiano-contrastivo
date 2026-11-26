@@ -7,10 +7,11 @@ import { stepSeconds } from "../state/steps";
 import type { ContentPack } from "../content/load";
 import { WordsStep } from "./WordsStep";
 
+import { readItems } from "../test/realPack";
 afterEach(cleanup);
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
 const course: Course = read("course.json");
-const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course } as ContentPack;
+const pack = { capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course } as ContentPack;
 const vocab = course.units.find((u) => u.words?.length)!;
 
 describe("paso «Palabras»", () => {

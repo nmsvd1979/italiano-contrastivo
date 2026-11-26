@@ -4,6 +4,7 @@ from pathlib import Path
 import pytest
 
 from pipeline import config
+from pipeline.exercises.capsules import load_items
 from pipeline.tts import generate as gen
 from pipeline.tts.ids import LICENSE, VOICE, clip_id, normalize
 
@@ -31,7 +32,7 @@ def test_textos_solo_de_oraciones_y_lexemas_y_nunca_un_distractor():
     from pipeline.exercises import speaking  # preguntas de las tareas orales, nombres de letras y frases de supervivencia (del libro)
     spoken = set(speaking.texts(json.loads((PACK / "speaking.json").read_text(encoding="utf8"))))
     assert set(texts) == sentences | forms | reading | course_words | spoken
-    wrong = {o["text"] for items in json.loads((PACK / "items_by_code.json").read_text(encoding="utf8")).values()
+    wrong = {o["text"] for items in load_items(PACK).values()
              for it in items for o in it.get("options", [])
              if not o["correct"] and o.get("distractor_kind") != "different_word"}  # en vocabulario la «otra palabra» es italiano válido (otra oración del paquete): el audio la distingue y la UI solo reproduce la correcta
     assert wrong and not (set(texts) & wrong)

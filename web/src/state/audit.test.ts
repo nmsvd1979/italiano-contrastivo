@@ -5,8 +5,9 @@ import { STEPS, stepsFor } from "./course";
 import { stepSeconds } from "./steps";
 import { A1_TARGET_HOURS, MIN_SENTENCES_TARGET, TARGET_MINUTES, UNIT_TARGET_MINUTES } from "./targets";
 
+import { readItems } from "../test/realPack";
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
-const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json"), readings: read("readings.json"), readingItems: read("reading_items.json") } as ContentPack;
+const pack = { capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json"), readings: read("readings.json"), readingItems: read("reading_items.json") } as ContentPack;
 
 type Row = { id: string; level: string; title: string; sentences: number; items: number; minutes: Record<string, number>; total: number; hasReading: boolean; target: number };
 const rows = (): Row[] => pack.course.units.map((u) => {

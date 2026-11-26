@@ -5,9 +5,10 @@ import type { ContentPack } from "../content/load";
 import { buildDictationItems } from "../state/dictationTest";
 import { DictationTestScreen } from "./DictationTestScreen";
 
+import { readItems } from "../test/realPack";
 afterEach(() => { cleanup(); delete (window as unknown as Record<string, unknown>).webkitSpeechRecognition; });
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
-const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
+const pack = { capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
 const items = buildDictationItems(pack);
 
 describe("pantalla de la prueba de dictado", () => {

@@ -8,9 +8,10 @@ import { writeItemOf } from "../state/write";
 import { ReviewScreen } from "./ReviewScreen";
 import { WriteScreen } from "./WriteScreen";
 
+import { readItems } from "../test/realPack";
 afterEach(cleanup);
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
-const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json"), readings: read("readings.json") } as ContentPack;
+const pack = { capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json"), readings: read("readings.json") } as ContentPack;
 
 describe("Reconstruir un texto", () => {
   it("leer → taparlo → escribir → ver qué recuperaste, en orden", () => {

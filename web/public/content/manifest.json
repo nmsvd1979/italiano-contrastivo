@@ -447,6 +447,11 @@
       "usable": 66
     }
   },
+  "item_files": {
+    "A1": "items_A1.json",
+    "A2": "items_A2.json",
+    "B1": "items_B1.json"
+  },
   "levels": {
     "A1": 3070,
     "A2": 477,

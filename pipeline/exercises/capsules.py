@@ -63,9 +63,35 @@ def build_capsule(code: dict, sentences: list[dict]) -> dict | None:
 
 
 def _dump(path: Path, obj) -> None:
-    # items_by_code es el archivo más grande del precache: compacto (sin sangrías) para no pasar el límite de 2 MiB de workbox
-    compact = path.name == "items_by_code.json"
+    # los archivos de ejercicios son los más grandes del precache: compactos (sin sangrías) para no pasar el tope por archivo del service worker
+    compact = path.name.startswith("items_")
     path.write_text(json.dumps(obj, ensure_ascii=False, sort_keys=True, **({"separators": (",", ":")} if compact else {"indent": 2})) + "\n", encoding="utf8")
+
+
+ITEM_LEVELS = ("A1", "A2", "B1", "B2")
+
+
+def split_items_by_level(items_by_code: dict, course: dict, catalog: dict[str, dict]) -> dict[str, dict]:
+    """Reparte los ejercicios por nivel: el de la unidad que usa el código (A1+ cuenta como A1) o, si ninguna lo usa, el `cefr_min` del código.
+    Cada nivel va en su propio archivo (`items_A1.json`, `items_A2.json`…): el de A1 no cambia al construir A2 y ninguno pasa el tope por archivo del precache."""
+    owner = {}
+    for u in course["units"]:
+        owner.setdefault(u["codes"][0], u["level"].rstrip("+"))
+    out: dict[str, dict] = {}
+    for code, items in items_by_code.items():
+        level = owner.get(code) or catalog[code].get("cefr_min", "A1")
+        out.setdefault(level if level in ITEM_LEVELS else "A1", {})[code] = items
+    return out
+
+
+def load_items(pack_dir: Path) -> dict[str, list]:
+    """Los ejercicios de todos los niveles, unidos, tal como los publica el paquete (un archivo por nivel según `manifest.item_files`)."""
+    pack_dir = Path(pack_dir)
+    files = json.loads((pack_dir / "manifest.json").read_text(encoding="utf8")).get("item_files") or {"all": "items_by_code.json"}
+    out: dict[str, list] = {}
+    for name in files.values():
+        out.update(json.loads((pack_dir / name).read_text(encoding="utf8")))
+    return out
 
 
 def _catalog() -> list[dict]:
@@ -114,14 +140,19 @@ def build_pack(content_dir: Path, out_dir: Path) -> dict:
                        **({"alt": [a["it"] for a in alts[s["id"]]]} if s["id"] in alts else {})} for s in sentences if s["id"] in used]
 
     from pipeline.exercises.course import write_course  # import local: course.py usa usable_sentences de este módulo
-    write_course(out_dir, sentences, catalog)
+    course = write_course(out_dir, sentences, catalog)
     _dump(out_dir / "capsules.json", ordered)
-    _dump(out_dir / "items_by_code.json", items_by_code)
+    for stale in out_dir.glob("items_*.json"):
+        stale.unlink()   # ni el archivo único de antes ni niveles que ya no tienen ejercicios
+    item_files = {}
+    for level, part in split_items_by_level(items_by_code, course, catalog).items():
+        item_files[level] = f"items_{level}.json"
+        _dump(out_dir / item_files[level], part)
     _dump(out_dir / "lexemes.json", lexemes)
     _dump(out_dir / "sentences.json", used_sentences)
     (out_dir / "ATTRIBUZIONI-tatoeba.md").write_text((content_dir / "ATTRIBUZIONI-tatoeba.md").read_text(encoding="utf8").rstrip("\n") + "\n"
                                                     + alternatives.attribution(alts, used), encoding="utf8")
-    manifest = {"capsules": [c["id"] for c in ordered], "codes": codes_info, "levels": export_manifest["levels"],
+    manifest = {"capsules": [c["id"] for c in ordered], "item_files": item_files, "codes": codes_info, "levels": export_manifest["levels"],
                 "reviewers": export_manifest["reviewers"], "sentences_used": len(used_sentences),
                 "translation_kind": {k: sum(1 for s in used_sentences if s.get("translation_kind") == k)
                                      for k in ("direct", "llm") if any(s.get("translation_kind") == k for s in used_sentences)}}

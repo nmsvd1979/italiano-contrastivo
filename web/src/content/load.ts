@@ -12,6 +12,8 @@ export type PackSentence = {
 export type Manifest = {
   capsules: string[];
   codes: Record<string, { usable: number; capsule: boolean; reason: string | null }>;
+  /** Archivos de ejercicios por nivel (`items_A1.json`…); si falta, el paquete antiguo trae uno solo (`items_by_code.json`). */
+  item_files?: Record<string, string>;
   levels: Record<string, number>;
   reviewers: Record<string, number>;
   sentences_used: number;
@@ -157,12 +159,13 @@ async function getJson<T>(fetcher: Fetcher, base: string, file: string): Promise
 }
 
 export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: string = import.meta.env.BASE_URL ?? "/"): Promise<ContentPack> {
-  const [capsules, itemsByCode, lexemes, sentences, manifest, course, readings, readingItems, readingWords, library, speaking, listeningHuman] = await Promise.all([
+  const manifest = await getJson<Manifest>(fetcher, base, "manifest.json");
+  const itemFiles = manifest.item_files ? Object.values(manifest.item_files) : ["items_by_code.json"];
+  const [capsules, itemParts, lexemes, sentences, course, readings, readingItems, readingWords, library, speaking, listeningHuman] = await Promise.all([
     getJson<Capsule[]>(fetcher, base, "capsules.json"),
-    getJson<Record<string, Item[]>>(fetcher, base, "items_by_code.json"),
+    Promise.all(itemFiles.map((f) => getJson<Record<string, Item[]>>(fetcher, base, f))),   // un archivo por nivel: ninguno pasa el tope por archivo del precache
     getJson<Lexeme[]>(fetcher, base, "lexemes.json"),
     getJson<PackSentence[]>(fetcher, base, "sentences.json"),
-    getJson<Manifest>(fetcher, base, "manifest.json"),
     getJson<Course>(fetcher, base, "course.json"),
     getJson<Reading[]>(fetcher, base, "readings.json").catch((): Reading[] => []), // aún no hay lecturas publicadas: no es un error
     getJson<Record<string, Item[]>>(fetcher, base, "reading_items.json").catch((): Record<string, Item[]> => ({})),
@@ -171,6 +174,7 @@ export async function loadContent(fetcher: Fetcher = (u) => fetch(u), base: stri
     getJson<Speaking | null>(fetcher, base, "speaking.json").catch((): Speaking | null => null),
     getJson<HumanSentence[]>(fetcher, base, "listening_human.json").catch((): HumanSentence[] => []),
   ]);
+  const itemsByCode: Record<string, Item[]> = Object.assign({}, ...itemParts);
   const vCapsule = schemaValidator("capsule");
   const vItem = schemaValidator("item");
   for (const c of capsules) {

@@ -8,8 +8,9 @@ import { finishModuleStep, finishModuleTest, finishModuleText, finishSalidaPart,
 import { planToday } from "./session";
 import { localDate, memoryStore } from "./store";
 
+import { readItems } from "../test/realPack";
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
-const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
+const pack = { capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
 const NOW = new Date("2026-11-24T12:00:00");
 
 /** Sigue «el siguiente» de Hoy sin elegir nada: la ruta sola debe bastar para completar A1. */

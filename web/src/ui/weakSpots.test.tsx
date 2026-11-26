@@ -9,9 +9,10 @@ import { ProgressScreen } from "./ProgressScreen";
 import { WeakScreen } from "./WeakScreen";
 import { isFocusRoute } from "./kit/TabBar";
 
+import { readItems } from "../test/realPack";
 afterEach(cleanup);
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
-const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
+const pack = { capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
 const spot = (over: Partial<WeakSpot> = {}): WeakSpot => ({ code: "ERR_A", unitId: "u1", title: "Essere y avere", ok: 4, n: 20, accuracy: 0.2, ...over });
 const review = { due: 0, newAvailable: 0, doneToday: 0, cap: 30, seconds: 0, filler: 0 };
 const progress = (weak: { spots: WeakSpot[]; attempts: number; evaluated: number }) => render(<ProgressScreen week={{}} days={[]} today="2026-11-24" modules={[]} weak={weak} />);

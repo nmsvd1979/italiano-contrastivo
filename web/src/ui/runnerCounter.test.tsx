@@ -8,6 +8,7 @@ import { memoryStore } from "../state/store";
 import { fromItems, ItemRunner } from "./ItemRunner";
 import { StepScreen } from "./StepScreen";
 
+import { readItems } from "../test/realPack";
 afterEach(() => { cleanup(); localStorage.clear(); });
 beforeEach(() => localStorage.clear());
 
@@ -57,7 +58,7 @@ describe("«Ver ficha» desde el ejercicio", () => {
   });
   it("la práctica de una unidad apunta a la ficha de esa unidad", async () => {
     const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
-    const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
+    const pack = { capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"), course: read("course.json") } as ContentPack;
     setPreview(true);   // modo de prueba: todos los pasos abiertos
     const U1 = pack.course.units[0].id;
     render(<StepScreen unitId={U1} step="practica" pack={pack} store={memoryStore()} />);

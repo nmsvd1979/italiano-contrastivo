@@ -34,11 +34,28 @@ describe("loadContent", () => {
     expect(err.message).toContain(caps[0].id);
   });
 
+  it("los ejercicios viajan en un archivo por nivel, todos bajo el tope del precache, y se unen al cargar", async () => {
+    const manifest = JSON.parse(read("manifest.json"));
+    expect(Object.keys(manifest.item_files)).toContain("A1");
+    for (const f of Object.values<string>(manifest.item_files)) expect(readFileSync(join(dir, f)).length, f).toBeLessThan(6 * 1024 * 1024 * 0.85);
+    const pack = await loadContent(serve(), "/");
+    const merged = Object.assign({}, ...Object.values<string>(manifest.item_files).map((f) => JSON.parse(read(f))));
+    expect(Object.keys(pack.itemsByCode).sort()).toEqual(Object.keys(merged).sort());
+  });
+
+  it("sin `item_files` en el manifiesto lee el archivo único de antes", async () => {
+    const manifest = JSON.parse(read("manifest.json"));
+    const merged = Object.assign({}, ...Object.values<string>(manifest.item_files).map((f) => JSON.parse(read(f))));
+    delete manifest.item_files;
+    const pack = await loadContent(serve({ "manifest.json": manifest, "items_by_code.json": merged }), "/");
+    expect(Object.keys(pack.itemsByCode)).toHaveLength(Object.keys(merged).length);
+  });
+
   it("lanza ContentError si un ítem de repaso no valida", async () => {
-    const items = JSON.parse(read("items_by_code.json"));
+    const items = JSON.parse(read("items_A1.json"));
     const code = Object.keys(items)[0];
     items[code][0].options = [];
-    await expect(loadContent(serve({ "items_by_code.json": items }), "/")).rejects.toBeInstanceOf(ContentError);
+    await expect(loadContent(serve({ "items_A1.json": items }), "/")).rejects.toBeInstanceOf(ContentError);
   });
 
   it("lanza ContentError si un archivo no se puede descargar", async () => {

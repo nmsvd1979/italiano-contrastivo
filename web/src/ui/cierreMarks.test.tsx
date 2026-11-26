@@ -8,10 +8,11 @@ import { setPreview } from "../state/preview";
 import { memoryStore } from "../state/store";
 import { ModuleStepScreen } from "./ModuleStepScreen";
 
+import { readItems } from "../test/realPack";
 afterEach(() => { cleanup(); localStorage.clear(); });
 beforeEach(() => { localStorage.clear(); setPreview(true); });   // modo de prueba: el Cierre está abierto
 const read = (f: string) => JSON.parse(readFileSync(`public/content/${f}`, "utf8"));
-const pack = { capsules: read("capsules.json"), itemsByCode: read("items_by_code.json"), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"),
+const pack = { capsules: read("capsules.json"), itemsByCode: readItems(), lexemes: read("lexemes.json"), sentences: read("sentences.json"), manifest: read("manifest.json"),
   course: read("course.json"), readings: read("readings.json"), readingWords: read("reading_words.json"), speaking: read("speaking.json"), library: read("library.json") } as ContentPack;
 const m = pack.course.modules![0];
 const text = m.can_do_es[0];
