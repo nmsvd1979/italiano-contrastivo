@@ -167,28 +167,329 @@
    "wrong": "Leggo",
    "kind": "omission",
    "audit2": "ok"
+  },
+  {
+   "it": "Quanti cugini hai? Ne ho cinque.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quante cugine hai? Ne ho tre.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Hai libri italiani? Sì, ne ho molti.",
+   "correct": "ne ho",
+   "wrong": "ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Hai amiche a Roma? Sì, ne ho due.",
+   "correct": "ne ho",
+   "wrong": "ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Hai quaderni? Sì, ne ho tanti.",
+   "correct": "ne ho",
+   "wrong": "ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanti zii hai? Ne ho quattro.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Hai biglietti? Ne ho pochi.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Hai matite? Sì, ne ho sei.",
+   "correct": "ne ho",
+   "wrong": "ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quante borse hai? Ne ho due.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanti amici hai? Ne ho molti.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quante penne hai? Ne ho dieci.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quante mele hai? Ne ho quattro.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Hai fratelli? Sì, ne ho tre.",
+   "correct": "ne ho",
+   "wrong": "ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Hai dei cugini? Ne ho tanti.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanti biglietti hai? Ne ho due.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quante zie hai? Ne ho tre.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Hai figli? Sì, ne ho due.",
+   "correct": "ne ho",
+   "wrong": "ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Hai amici italiani? Ne ho pochi.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quante camere hai? Ne ho tre.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanti libri hai? Ne ho tantissimi.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ne ho una.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ne ho uno.",
+   "correct": "Ne ho",
+   "wrong": "Ho",
+   "kind": "omission",
+   "audit2": "ok"
   }
  ],
  "ERR_AVVERBI_PASSATO": [
   {
+   "it": "Io non voglio più tornare a casa!",
+   "correct": "non voglio più",
+   "wrong": "non voglio ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Da quando Marco è a dieta non mangia più dolci.",
+   "correct": "non mangia più",
+   "wrong": "non mangia ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Io non bevo più.",
+   "correct": "non bevo più",
+   "wrong": "non bevo ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non ho più forze.",
+   "correct": "Non ho più",
+   "wrong": "Non ho ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non vive più qui.",
+   "correct": "Non vive più",
+   "wrong": "Non vive ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non abita più qui.",
+   "correct": "Non abita più",
+   "wrong": "Non abita ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Tom non lavora più.",
+   "correct": "non lavora più",
+   "wrong": "non lavora ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non lavora più qua.",
+   "correct": "Non lavora più",
+   "wrong": "Non lavora ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non hanno più vino.",
+   "correct": "Non hanno più",
+   "wrong": "Non hanno ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non lavoro più qua.",
+   "correct": "Non lavoro più",
+   "wrong": "Non lavoro ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non lavoro più qui.",
+   "correct": "Non lavoro più",
+   "wrong": "Non lavoro ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non bevo più birra.",
+   "correct": "Non bevo più",
+   "wrong": "Non bevo ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "A me non importa più.",
+   "correct": "non importa più",
+   "wrong": "non importa ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non vado più in moto.",
+   "correct": "Non vado più",
+   "wrong": "Non vado ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non può più camminare.",
+   "correct": "Non può più",
+   "wrong": "Non può ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non abito più con lei.",
+   "correct": "Non abito più",
+   "wrong": "Non abito ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non posso più lavorare.",
+   "correct": "Non posso più",
+   "wrong": "Non posso ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Lui non lavora più qui.",
+   "correct": "non lavora più",
+   "wrong": "non lavora ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non voglio più giocare.",
+   "correct": "Non voglio più",
+   "wrong": "Non voglio ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non voglio più parlare.",
+   "correct": "Non voglio più",
+   "wrong": "Non voglio ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
    "it": "Non beve più.",
    "correct": "Non beve più",
-   "wrong": "Già non beve",
-   "kind": "l1_calque",
+   "wrong": "Non beve ancora",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non piove più.",
+   "correct": "Non piove più",
+   "wrong": "Non piove ancora",
+   "kind": "aspect_mismatch",
    "audit2": "ok"
   },
   {
    "it": "Non torno più.",
    "correct": "Non torno più",
-   "wrong": "Già non torno",
-   "kind": "l1_calque",
+   "wrong": "Non torno ancora",
+   "kind": "aspect_mismatch",
    "audit2": "ok"
   },
   {
    "it": "Non sei più mio amico.",
    "correct": "Non sei più mio amico",
-   "wrong": "Già non sei mio amico",
-   "kind": "l1_calque",
+   "wrong": "Non sei ancora mio amico",
+   "kind": "aspect_mismatch",
    "audit2": "ok"
   },
   {
@@ -201,29 +502,43 @@
   {
    "it": "Non sei più un bambino.",
    "correct": "Non sei più un bambino",
-   "wrong": "Già non sei un bambino",
-   "kind": "l1_calque",
+   "wrong": "Non sei ancora un bambino",
+   "kind": "aspect_mismatch",
    "audit2": "ok"
   },
   {
    "it": "Non sei più una bambina.",
    "correct": "Non sei più una bambina",
-   "wrong": "Già non sei una bambina",
-   "kind": "l1_calque",
+   "wrong": "Non sei ancora una bambina",
+   "kind": "aspect_mismatch",
    "audit2": "ok"
   },
   {
    "it": "Non sono più vegetariano.",
    "correct": "Non sono più vegetariano",
-   "wrong": "Già non sono vegetariano",
-   "kind": "l1_calque",
+   "wrong": "Non sono ancora vegetariano",
+   "kind": "aspect_mismatch",
    "audit2": "ok"
   },
   {
    "it": "Tom non vive più a Boston.",
    "correct": "non vive più a Boston",
-   "wrong": "già non vive a Boston",
-   "kind": "l1_calque",
+   "wrong": "non vive ancora a Boston",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non ho più tempo per nulla.",
+   "correct": "Non ho più tempo",
+   "wrong": "Non ho ancora tempo",
+   "kind": "aspect_mismatch",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non ricordo più il suo nome.",
+   "correct": "Non ricordo più",
+   "wrong": "Non ricordo ancora",
+   "kind": "aspect_mismatch",
    "audit2": "ok"
   },
   {
@@ -236,8 +551,8 @@
   {
    "it": "Noi non lavoriamo più per Tom.",
    "correct": "non lavoriamo più",
-   "wrong": "già non lavoriamo",
-   "kind": "l1_calque",
+   "wrong": "non lavoriamo ancora",
+   "kind": "aspect_mismatch",
    "audit2": "ok"
   }
  ]
