@@ -29,13 +29,13 @@ export function ProgressScreen({ week, days, today, modules, weak }: { week: Sec
           <p className="figure"><b aria-hidden="true">{can.known}</b><span aria-hidden="true">de {can.total}</span><span className="sr">{can.known} de {can.total}</span></p>
           <progress max={can.total} value={can.known} aria-label="«Sé hacer» conseguidos" />
           <ul className="sealgrid" aria-label="Sellos de los módulos">
-            {modules.map((m) => <li key={m.module.id}><Stamp index={m.index} earned={m.state === "completed"} size="sm" /><small>{m.index + 1}</small></li>)}
+            {modules.map((m) => <li key={m.module.id}><Stamp index={m.index} number={m.number} earned={m.state === "completed"} size="sm" /><small>{m.module.level === "A1" ? m.number : `${m.module.level}·${m.number}`}</small></li>)}
           </ul>
           {can.groups.map((g) => {
             const known = g.items.filter((i) => i.state !== "pendiente").length;
             return (
               <details key={g.moduleId} className="cando-group" open={g.state === "current"}>
-                <summary><span>{g.index + 1}. {g.title}</span><small>{known} de {g.items.length}</small></summary>
+                <summary><span>{g.level === "A1" ? g.number : `${g.level} · ${g.number}`}. {g.title}</span><small>{known} de {g.items.length}</small></summary>
                 <ul className="cando">
                   {g.items.map((i) => (
                     <li key={i.text} data-state={i.state}>

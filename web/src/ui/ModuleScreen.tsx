@@ -35,7 +35,7 @@ export function ModuleScreen({ view, pack }: { view: ModuleView; pack: ContentPa
       <p><a className="tap" href="#/ruta" style={{ textDecoration: "none" }}>‹ Ruta</a></p>
       <header className="mhead">
         <ModuleMotif index={view.index} className="motif motif-bg" />
-        <small>{module.level} · Módulo {view.index + 1}</small>
+        <small>{module.level} · Módulo {view.number}</small>
         <h1>{module.title}</h1>
         <p>{view.state === "completed" ? "Módulo completado" : `${view.steps.filter((s) => s.done).length} de ${view.steps.length} etapas hechas`}</p>
       </header>

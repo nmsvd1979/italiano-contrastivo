@@ -20,4 +20,4 @@ export function TabBar({ hash }: { hash: string }) {
 }
 
 /** Pantallas de trabajo: sin menú ni distracciones. */
-export const isFocusRoute = (hash: string) => /^#\/(unidad\/u\d+\/\w+|modulo\/m\d+\/(?:entrada|cierre|texto\/\w+)|repaso|debiles|capsula\/|ubicacion|hito\/)/.test(hash);
+export const isFocusRoute = (hash: string) => /^#\/(unidad\/u\d+\/\w+|modulo\/(?:[ab][12]m|m)\d+\/(?:entrada|cierre|texto\/\w+)|repaso|debiles|capsula\/|ubicacion|hito\/)/.test(hash);

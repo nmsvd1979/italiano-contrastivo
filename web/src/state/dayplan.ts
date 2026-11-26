@@ -56,7 +56,7 @@ export function planSession(input: { plan: TodayPlan; day: DayProgress; pack: Co
   const unit = plan.unit?.view.unit;
   if (!unit && plan.module) {   // la sesión del día es un paso propio del módulo (Entrada, Salida, Fluidez o Cierre)
     const { view, step, seconds } = plan.module;
-    blocks.push({ key: BLOCK_OF_MODULE_STEP[step], strand: STRAND_OF_MODULE_STEP[step], label: MODULE_STEP_LABEL[step], title: BLOCKS[BLOCK_OF_MODULE_STEP[step]].title, subtitle: `Módulo ${view.index + 1} · ${MODULE_STEP_LABEL[step]}`, seconds, href: `#/modulo/${view.module.id}/${step}`, done: false });
+    blocks.push({ key: BLOCK_OF_MODULE_STEP[step], strand: STRAND_OF_MODULE_STEP[step], label: MODULE_STEP_LABEL[step], title: BLOCKS[BLOCK_OF_MODULE_STEP[step]].title, subtitle: `Módulo ${view.number} · ${MODULE_STEP_LABEL[step]}`, seconds, href: `#/modulo/${view.module.id}/${step}`, done: false });
     return blocks;
   }
   if (!unit && plan.milestone && !plan.milestone.passed) {   // todos los módulos hechos: el siguiente tramo del camino es el examen de hito

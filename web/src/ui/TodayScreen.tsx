@@ -87,7 +87,7 @@ export function TodayScreen({ plan, day, storeError, firstTime, streak, blocks, 
           </>
         ) : plan.module ? (
           <>
-            <div className="eyebrow">{plan.module.view.module.level} · Módulo {plan.module.view.index + 1}{plan.place ? ` de ${plan.place.modules}` : ""}</div>
+            <div className="eyebrow">{plan.module.view.module.level} · Módulo {plan.module.view.number}{plan.place ? ` de ${plan.place.modules}` : ""}</div>
             <div className="title">{plan.module.view.module.title}</div>
             <p><small>Ahora: {MODULE_STEP_LABEL[plan.module.step]}</small></p>
           </>

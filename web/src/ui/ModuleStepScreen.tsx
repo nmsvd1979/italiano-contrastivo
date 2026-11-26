@@ -193,7 +193,7 @@ function Cierre({ view, pack, store, exit, onDone }: { view: ModuleView; pack: C
   return (
     <main className="center fin" data-tone={toneOf(view.index)}>
       {res && !res.passed && <ScoreRing correct={res.correct} total={res.total} />}
-      {res?.passed && <div className="award"><Stamp index={view.index} earned size="lg" fresh label={`Sello del módulo ${view.index + 1}, ganado`} /></div>}
+      {res?.passed && <div className="award"><Stamp index={view.index} earned size="lg" fresh label={`Sello del módulo ${view.number}${view.module.level === "A1" ? "" : ` de ${view.module.level}`}, ganado`} /></div>}
       <h1>{res?.passed ? "¡Módulo completado!" : "Casi"}</h1>
       <p>Acertaste {res?.correct} de {res?.total} ({pct} %). {res?.passed ? "Se abrió el módulo siguiente." : "Hacen falta 80 % o más. Repasa las cápsulas que más te costaron y reintenta cuando quieras."}</p>
       {res?.passed && (

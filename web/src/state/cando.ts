@@ -16,7 +16,7 @@ export function setCanDo(p: UnitProgress, text: string, on: boolean, now: Date):
 }
 
 export type CanDoItem = { text: string; state: "completado" | "saltado" | "marcado" | "pendiente" };
-export type CanDoGroup = { moduleId: string; title: string; index: number; state: ModuleView["state"]; items: CanDoItem[] };
+export type CanDoGroup = { moduleId: string; title: string; index: number; /** Posición dentro de su nivel. */ number: number; level: string; state: ModuleView["state"]; items: CanDoItem[] };
 
 /**
  * Lo que ya sabes hacer. «Completado»: el módulo se completó con la prueba de cierre (hasta 12 frases escritas, ≥ 80 %); no evalúa cada punto
@@ -33,7 +33,7 @@ export function canDoSummary(modules: ModuleView[]): { known: number; total: num
     }));
     known += items.filter((i) => i.state !== "pendiente").length;
     total += items.length;
-    groups.push({ moduleId: m.module.id, title: m.module.title, index: m.index, state: m.state, items });
+    groups.push({ moduleId: m.module.id, title: m.module.title, index: m.index, number: m.number, level: m.module.level, state: m.state, items });
   }
   return { known, total, groups };
 }

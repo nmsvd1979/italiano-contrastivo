@@ -9,7 +9,7 @@ import { normalizeDay, planToday } from "./state/session";
 import { type DayProgress, localDate, memoryStore, openStore, type StepId, type Store, StoreUnavailableError, type UnitProgress } from "./state/store";
 import { loadSamples } from "./state/timing";
 import { buildInfo } from "./pwa";
-import { moduleViews, type ModuleStepId } from "./state/modules";
+import { MODULE_ID, moduleViews, type ModuleStepId } from "./state/modules";
 import { UpdateBanner } from "./ui/UpdateBanner";
 import { AttemptsProvider } from "./ui/kit/AttemptsContext";
 import { AboutScreen } from "./ui/AboutScreen";
@@ -114,9 +114,10 @@ function Routes({ ready, hash }: { ready: Ready; hash: string }) {
   const [hito, setHito] = useState<Record<string, { completed: boolean; best: number | null }>>({});
   useEffect(() => { ready.store.allUnits().then((u) => setHito(Object.fromEntries(u.filter((x) => x.unitId.startsWith("hito:")).map((x) => [x.unitId, { completed: x.completed, best: x.testBest }])))); }, [ready, hash]);
   const m = hash.match(/^#\/unidad\/(u\d+)(?:\/(\w+))?$/);
-  const mod = hash.match(/^#\/modulo\/(m\d+)(?:\/(\w+))?$/);
-  const txt = hash.match(/^#\/modulo\/(m\d+)\/texto\/(\w+)$/);
-  if (hash === "#/hito/A1") return <MilestoneScreen pack={ready.pack} store={ready.store} level="A1" />;
+  const mod = hash.match(new RegExp(`^#/modulo/(${MODULE_ID})(?:/(\\w+))?$`));
+  const txt = hash.match(new RegExp(`^#/modulo/(${MODULE_ID})/texto/(\\w+)$`));
+  const examen = hash.match(/^#\/hito\/([AB][12])$/);
+  if (examen) return <MilestoneScreen pack={ready.pack} store={ready.store} level={examen[1]} />;
   if (hash === "#/ubicacion") return <PlacementScreen pack={ready.pack} store={ready.store} units={ready.pack.course.units} />;
   if (!views) return <Loading />;
   if (hash === "#/ruta") return <RouteScreen views={views.units} modules={views.modules} pack={ready.pack} hito={hito} />;
@@ -170,7 +171,7 @@ export function App() {
         : hash === "#/escribir" ? <WriteScreen pack={ready.pack} store={ready.store} />
         : hash === "#/ajustes" ? <SettingsScreen store={ready.store} memoryOnly={ready.storeError !== null} />
         : hash === "#/acerca" ? <AboutScreen manifest={ready.pack.manifest} sentences={ready.pack.sentences} readings={ready.pack.readings} />
-        : hash === "#/ruta" || hash === "#/ubicacion" || hash === "#/hito/A1" || hash.startsWith("#/unidad/") || hash.startsWith("#/modulo/") ? <Routes ready={ready} hash={hash} />
+        : hash === "#/ruta" || hash === "#/ubicacion" || hash.startsWith("#/hito/") || hash.startsWith("#/unidad/") || hash.startsWith("#/modulo/") ? <Routes ready={ready} hash={hash} />
         : capsule ? <CapsuleScreen key={capsule.id} capsule={capsule} store={ready.store} />
         : <Today {...ready} />}
     {!isFocusRoute(hash) && <footer className="version"><small>Versión {buildInfo().id}</small></footer>}

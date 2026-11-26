@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { ContentPack } from "../content/load";
-import { HITO, hitoId, milestoneItems, milestoneListening, milestoneListenSentences, milestoneOpen, milestoneOralTask, milestoneReadings, milestoneProgress, milestoneWriteItems, oralPassed, type Part, scoreMilestone } from "../state/milestone";
+import { hitoId, hitoOf, milestoneItems, milestoneListening, milestoneListenSentences, milestoneOpen, milestoneOralTask, milestoneReadings, milestoneProgress, milestoneWriteItems, oralPassed, type Part, scoreMilestone } from "../state/milestone";
 import { isPreview } from "../state/preview";
 import { moduleViews } from "../state/modules";
 import type { Store } from "../state/store";
@@ -77,7 +77,7 @@ export function MilestoneScreen({ pack, store, level = "A1" }: { pack: ContentPa
     return (
       <main>
         <h1>Examen de hito {level}</h1>
-        <p>{exam.recognition} preguntas de reconocimiento ({Math.round(HITO.A1.lex * 100)} % léxico y {100 - Math.round(HITO.A1.lex * 100)} % gramática y sonidos), {exam.write} frases para <strong>escribir en italiano desde el español</strong> y {exam.listen} dictados{readings.length ? `, ${readings.length} textos que no has visto (uno solo para escuchar, sin ver el texto; los demás para leer, sin traducción)` : ""} ({formatDuration(secs)} sin contar la lectura){task ? ", y al final una tarea oral que te autoevalúas con una rúbrica" : ""}.</p>
+        <p>{exam.recognition} preguntas de reconocimiento ({Math.round(hitoOf(level).lex * 100)} % léxico y {100 - Math.round(hitoOf(level).lex * 100)} % gramática y sonidos), {exam.write} frases para <strong>escribir en italiano desde el español</strong> y {exam.listen} dictados{readings.length ? `, ${readings.length} textos que no has visto (uno solo para escuchar, sin ver el texto; los demás para leer, sin traducción)` : ""} ({formatDuration(secs)} sin contar la lectura){task ? ", y al final una tarea oral que te autoevalúas con una rúbrica" : ""}.</p>
         <p>Se aprueba con 65 % o más en total y 50 % o más en cada parte{task ? "; en la parte oral, cumpliendo la mitad de la rúbrica" : ""}. No hay pistas, ni repetición de lo fallado, ni «mi versión también es correcta».</p>
         <div className="actions-bottom"><button type="button" className="primary block" onClick={() => setPhase("run")}>Empezar</button></div>
       </main>
@@ -90,7 +90,7 @@ export function MilestoneScreen({ pack, store, level = "A1" }: { pack: ContentPa
           readAcc.current = [];
           setRunDone({ parts: exam.parts, answers: r.answers });
           if (readings.length) { setReadIdx(0); setPhase("read"); return; }
-          const s = scoreMilestone(exam.parts, r.answers);
+          const s = scoreMilestone(exam.parts, r.answers, level);
           if (task) { setPartial(s); setPhase("oral"); } else await save(s, null);
         }} />
       </main>
@@ -103,7 +103,7 @@ export function MilestoneScreen({ pack, store, level = "A1" }: { pack: ContentPa
           readAcc.current.push(...Array.from({ length: total }, (_, i) => ({ part: readings[readIdx].part, ok: i < correct })));
           if (readIdx + 1 < readings.length) { setReadIdx(readIdx + 1); return; }
           const parts = [...runDone.parts, ...readAcc.current.map((x) => x.part)];
-          const s = scoreMilestone(parts, [...runDone.answers, ...readAcc.current.map((x) => x.ok)]);
+          const s = scoreMilestone(parts, [...runDone.answers, ...readAcc.current.map((x) => x.ok)], level);
           if (task) { setPartial(s); setPhase("oral"); } else await save(s, null);
         }} />
       </main>

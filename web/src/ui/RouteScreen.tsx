@@ -2,7 +2,7 @@ import type { ContentPack } from "../content/load";
 import { isOptional, STEP_LABEL, stepsFor, summary, type UnitView } from "../state/course";
 import { stepSeconds } from "../state/steps";
 import { formatDuration, loadSamples } from "../state/timing";
-import { hitoId, milestoneOpen } from "../state/milestone";
+import { hitoId, hitoOf, milestoneOpen } from "../state/milestone";
 import { isPreview } from "../state/preview";
 import { MODULE_STEP_LABEL, moduleSummary, type ModuleView } from "../state/modules";
 import { ModuleMotif, toneOf } from "./kit/ModuleMotif";
@@ -17,23 +17,23 @@ export function RouteScreen({ views, pack, hito, modules = [] }: { views: UnitVi
   const samples = loadSamples();
   const byModules = modules.length > 0;
   const hitoRow = (levelId: string) => {
-    const doneIds = new Set(views.filter((v) => v.state === "completed").map((v) => v.unit.id));
-    const open = byModules ? modules.every((m) => m.state === "completed") || isPreview() : milestoneOpen(pack, doneIds, "A1", isPreview());
-    const h = hito?.[hitoId("A1")];
+    const mine = modules.filter((m) => m.module.level === levelId);
+    const open = byModules ? (mine.length > 0 && mine.every((m) => m.state === "completed")) || isPreview() : milestoneOpen(pack, new Set(views.filter((v) => v.state === "completed").map((v) => v.unit.id)), levelId, isPreview());
+    const h = hito?.[hitoId(levelId)];
     const state = h?.completed ? "completed" : open ? "current" : "locked";
     return (
       <li key={`hito-${levelId}`} className="mod-row" data-state={state}>
         <span className="n" aria-hidden="true">★</span>
         <span className="label">
-          {open ? <a href="#/hito/A1"><strong>Examen de hito A1</strong></a> : <strong>Examen de hito A1</strong>}
-          <small>{h?.completed ? `Aprobado${h.best !== null ? ` (${Math.round(h.best * 100)} %)` : ""}` : open ? "Listo: 40 preguntas de todo A1" : "Se abre al completar todos los módulos de A1"}</small>
+          {open ? <a href={`#/hito/${levelId}`}><strong>Examen de hito {levelId}</strong></a> : <strong>Examen de hito {levelId}</strong>}
+          <small>{h?.completed ? `Aprobado${h.best !== null ? ` (${Math.round(h.best * 100)} %)` : ""}` : open ? `Listo: ${hitoOf(levelId).total} preguntas de todo ${levelId}` : `Se abre al completar todos los módulos de ${levelId}`}</small>
         </span>
       </li>
     );
   };
   const moduleRow = (m: ModuleView) => {
     if (m.state === "current") {
-      const title = `${m.index + 1}. ${m.module.title}`;
+      const title = `${m.number}. ${m.module.title}`;
       return (
         <li key={m.module.id} className="mod-card" data-state="current" data-tone={toneOf(m.index)}>
           <ModuleMotif index={m.index} className="motif motif-bg" />
@@ -95,12 +95,13 @@ export function RouteScreen({ views, pack, hito, modules = [] }: { views: UnitVi
           </li>
         ));
         if (byModules) {
+          const mine = modules.filter((m) => m.module.level === level.id);
           return (
             <section key={level.id} className="route-level">
               <h2>{level.title}</h2>
               <ul className="mod-list">
-                {level.id === "A1" ? modules.map(moduleRow) : units.map(unitRow)}
-                {level.id === "A1" && units.length > 0 && hitoRow(level.id)}
+                {mine.length > 0 ? mine.map(moduleRow) : units.map(unitRow)}
+                {mine.length > 0 && level.milestone === true && hitoRow(level.id)}
                 {plannedRows}
               </ul>
             </section>
