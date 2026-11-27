@@ -77,7 +77,7 @@ export function MilestoneScreen({ pack, store, level = "A1" }: { pack: ContentPa
     return (
       <main>
         <h1>Examen de hito {level}</h1>
-        <p>{exam.recognition} preguntas de reconocimiento ({Math.round(hitoOf(level).lex * 100)} % léxico y {100 - Math.round(hitoOf(level).lex * 100)} % gramática y sonidos), {exam.write} frases para <strong>escribir en italiano desde el español</strong> y {exam.listen} dictados{readings.length ? `, ${readings.length} textos que no has visto (uno solo para escuchar, sin ver el texto; los demás para leer, sin traducción)` : ""} ({formatDuration(secs)} sin contar la lectura){task ? ", y al final una tarea oral que te autoevalúas con una rúbrica" : ""}.</p>
+        <p>{exam.recognition} preguntas de reconocimiento ({Math.round(hitoOf(level).lex * 100)} % léxico y {100 - Math.round(hitoOf(level).lex * 100)} % gramática y sonidos), {exam.write} frases para <strong>escribir en italiano desde el español</strong> y {exam.listen} dictados{readings.length ? `, ${readings.length} textos que no has visto (${readings.filter((x) => x.listenOnly).length} para escuchar, sin ver el texto; ${readings.filter((x) => !x.listenOnly).length} para leer, sin traducción)` : ""} ({formatDuration(secs)} sin contar la lectura){task ? ", y al final una tarea oral que te autoevalúas con una rúbrica" : ""}.</p>
         <p>Se aprueba con 65 % o más en total y 50 % o más en cada parte{task ? "; en la parte oral, cumpliendo la mitad de la rúbrica" : ""}. No hay pistas, ni repetición de lo fallado, ni «mi versión también es correcta».</p>
         <div className="actions-bottom"><button type="button" className="primary block" onClick={() => setPhase("run")}>Empezar</button></div>
       </main>
