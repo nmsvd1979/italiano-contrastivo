@@ -62,5 +62,12 @@ def build_pack(pack_dir: Path, course_file: Path) -> dict[str, list[dict]]:
         for u in course["units"]:
             if u["codes"][0] == "ERR_PP_VS_IMPERFETTO" and any(u["id"] in m["units"] for m in course["modules"]):
                 result[f"{u['id']}:relatos"] = [relato_item(r, r["id"], u["codes"][0]) for r in rels]
+    # Relatos de examen (`exam: true`) del hito del nivel: viajan con la clave «hito:<nivel>:relatos» solo cuando el hito está abierto.
+    if relatos_file.exists() and any(l["id"] == "A2" and l.get("milestone") for l in course.get("levels", [])):
+        from pipeline.exercises.relatos import relato_item
+
+        exam = [r for r in json.loads(relatos_file.read_text(encoding="utf8"))["relatos"] if r.get("exam")]
+        if exam:
+            result["hito:A2:relatos"] = [relato_item(r, r["id"]) for r in exam]
     (pack_dir / "reading_items.json").write_text(json.dumps(result, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf8")
     return result

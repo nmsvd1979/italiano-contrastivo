@@ -1,7 +1,7 @@
 {
  "version": 2,
  "nivel": "A2",
- "cierre": false,
+ "cierre": true,
  "fuentes": [
   {
    "id": "cils-a2",
@@ -1456,15 +1456,13 @@
    "module": "a2m02",
    "refs": {
     "units": [
-     "u54",
-     "u66",
-     "u41"
+     "u82"
     ]
    },
    "capsulas": [
     "a2c09"
    ],
-   "gap_es": "A1 no exige la concordancia nombre–adjetivo (g03 de syllabus-a1: «se reconoce»); CILS A2 la pide producir.",
+   "gap_es": "Solo aparece dentro del vocabulario de carácter; falta una unidad que practique producir plurales -co/-chi, -ca/-che y grupos mixtos.",
    "how_es": "Frases con concordancia dentro de a2c09 (gente simpatica, case grandi, amici simpatici)."
   },
   {
@@ -1489,9 +1487,17 @@
    "text_es": "Pronombres átonos directos lo, la, li, le",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m04",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u75",
+     "u81",
+     "u83",
+     "u85",
+     "u87"
+    ]
+   },
    "capsulas": [
     "a2c12"
    ],
@@ -1510,7 +1516,6 @@
      "Le ragazze sono qui."
     ]
    },
-   "gap_es": "No hay unidad; solo u71 (mi/ti).",
    "how_es": "Cápsulas a2c12 (el verbo decide) y a2c15 (concordancia en pasado); entrada rd_alristorante."
   },
   {
@@ -1520,11 +1525,12 @@
    "text_es": "Pronombres átonos indirectos gli, le, ci, vi (y mi, ti)",
    "scope": "A",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m04",
    "refs": {
     "units": [
-     "u71"
+     "u85",
+     "u91"
     ]
    },
    "capsulas": [
@@ -1544,7 +1550,6 @@
      "Telefono a Marco."
     ]
    },
-   "gap_es": "u71 solo cubre mi/ti.",
    "how_es": "a2c12; en el Cierre y el hito solo se reconoce (CILS lo pide en recepción)."
   },
   {
@@ -1554,9 +1559,15 @@
    "text_es": "Posición del pronombre con infinitivo y verbos modales (farlo, lo posso fare)",
    "scope": "O",
    "origen": "proyecto",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m04",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u86",
+     "u93",
+     "u103"
+    ]
+   },
    "capsulas": [
     "a2c14"
    ],
@@ -1574,7 +1585,6 @@
      "Carlo mangia."
     ]
    },
-   "gap_es": "Sin unidad.",
    "how_es": "a2c14 con listas negras (lo posso fare y posso farlo son ambas válidas)."
   },
   {
@@ -1584,18 +1594,35 @@
    "text_es": "Numerales cardinales (también años y precios)",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m06",
    "refs": {
     "units": [
-     "u26"
+     "u94"
+    ],
+    "readings": [
+     "doc_a2m05_catalogo",
+     "doc_a2m10_annuncio",
+     "doc_a2m09_orario"
     ]
    },
    "capsulas": [
     "a2c22"
    ],
-   "gap_es": "u26 llega a 100, mille y duemila; los años (nel 2020) y las fechas van en a2c22.",
-   "how_es": "a2c22 con frases propias."
+   "how_es": "a2c22 con frases propias.",
+   "evidence": {
+    "regex": "\\b(\\d+|due|tre|quattro|cinque|sette|otto|nove|dieci|undici|dodici|tredici|quindici|venti|trenta|quaranta|cinquanta|sessanta|cento|mille|duemila|primo|terzo|quarto|quinto)\\b",
+    "min": 20,
+    "in": "sentences",
+    "si": [
+     "Costa venti euro.",
+     "Sono nato nel 1990."
+    ],
+    "no": [
+     "Mi piace il caffè.",
+     "Sono a casa."
+    ]
+   }
   },
   {
    "id": "g07",
@@ -1604,9 +1631,14 @@
    "text_es": "Numerales ordinales hasta décimo y fechas (il primo maggio, al terzo piano)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m06",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u94",
+     "u101"
+    ]
+   },
    "capsulas": [
     "a2c22"
    ],
@@ -1627,7 +1659,6 @@
      "È la prima volta."
     ]
    },
-   "gap_es": "No hay unidad de ordinales ni de fechas (el corpus tiene 0–22 frases).",
    "how_es": "a2c22 con frases propias auditadas."
   },
   {
@@ -1637,21 +1668,35 @@
    "text_es": "Preposiciones articuladas con di, a, da, su",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m06",
    "refs": {
     "units": [
-     "u06",
-     "u05",
-     "u70"
+     "u93",
+     "u94"
+    ],
+    "roleplays": [
+     "rp_a2m06_b"
     ]
    },
    "capsulas": [
     "a2c21",
     "a2c22"
    ],
-   "gap_es": "A1 las reconoce (g18 de syllabus-a1) y u06 trata nel, sul, dal; CILS A2 pide producir también di y a.",
-   "how_es": "Frases de a2c21 (davanti al…, in fondo alla…) y a2c22 (al terzo piano, nel 2020)."
+   "how_es": "Frases de a2c21 (davanti al…, in fondo alla…) y a2c22 (al terzo piano, nel 2020).",
+   "evidence": {
+    "regex": "\\b(del|dello|della|dei|degli|delle|nel|nello|nella|nei|negli|nelle|al|allo|alla|ai|agli|alle|dal|dallo|dalla|dai|dagli|dalle|sul|sullo|sulla|sui|sugli|sulle)\\b",
+    "min": 40,
+    "in": "sentences",
+    "si": [
+     "Vado al cinema.",
+     "Il libro è sul tavolo."
+    ],
+    "no": [
+     "Vado a casa.",
+     "Mangio una mela."
+    ]
+   }
   },
   {
    "id": "g09",
@@ -1679,11 +1724,19 @@
    "text_es": "Passato prossimo con avere y participios irregulares",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m01",
    "refs": {
     "units": [
-     "u58"
+     "u75",
+     "u81",
+     "u83",
+     "u10",
+     "u91",
+     "u93",
+     "u99",
+     "u104",
+     "u107"
     ]
    },
    "capsulas": [
@@ -1703,7 +1756,6 @@
      "Ha un libro."
     ]
    },
-   "gap_es": "u58 solo introduce el passato prossimo con avere (A1).",
    "how_es": "a2c01 (participios que el español no anticipa)."
   },
   {
@@ -1713,11 +1765,14 @@
    "text_es": "Elegir avere o essere (verbos de estado y de movimiento sin meta)",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m01",
    "refs": {
     "units": [
-     "u08"
+     "u76",
+     "u09",
+     "u83",
+     "u89"
     ]
    },
    "capsulas": [
@@ -1738,7 +1793,6 @@
      "Sono felice."
     ]
    },
-   "gap_es": "u08 trata solo el movimiento con meta.",
    "how_es": "a2c02, con frontera explícita con u08 y sin verbos de doble auxiliar."
   },
   {
@@ -1748,11 +1802,18 @@
    "text_es": "Concordancia del participio con el sujeto (essere) y mi è piaciuta / mi sono piaciuti",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m01",
    "refs": {
     "units": [
-     "u09"
+     "u76",
+     "u77",
+     "u09",
+     "u81",
+     "u93",
+     "u94",
+     "u104",
+     "u107"
     ]
    },
    "capsulas": [
@@ -1772,7 +1833,6 @@
      "Sono contenta."
     ]
    },
-   "gap_es": "u09 es una unidad A2 que aún no está en un módulo y no concuerda con piacere.",
    "how_es": "Integrar u09 en a2m01 y ampliarla a ≥30 frases (a2c04)."
   },
   {
@@ -1782,9 +1842,15 @@
    "text_es": "Concordancia del participio con lo, la, li, le (l'ho vista, li ho comprati)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m04",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u81",
+     "u83",
+     "u87"
+    ]
+   },
    "capsulas": [
     "a2c15"
    ],
@@ -1802,7 +1868,6 @@
      "Le ragazze sono qui."
     ]
    },
-   "gap_es": "Sin unidad.",
    "how_es": "a2c15 (solo li y le seguras; con mi/ti/ci/vi la concordancia es opcional)."
   },
   {
@@ -1812,9 +1877,23 @@
    "text_es": "Imperfetto regular e irregular (ero, facevo, dicevo, bevevo)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m02",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u79",
+     "u80",
+     "u81",
+     "u82",
+     "u83",
+     "u10",
+     "u89",
+     "u91",
+     "u93",
+     "u104",
+     "u105"
+    ]
+   },
    "capsulas": [
     "a2c06"
    ],
@@ -1835,7 +1914,6 @@
      "Bravo!"
     ]
    },
-   "gap_es": "Sin unidad.",
    "how_es": "a2c06: el error contrastivo es io parlava (1.ª y 3.ª coinciden en español) y la b/v."
   },
   {
@@ -1845,9 +1923,13 @@
    "text_es": "C'era, c'erano, c'è stato",
    "scope": "O",
    "origen": "proyecto",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m02",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u80"
+    ]
+   },
    "capsulas": [
     "a2c07"
    ],
@@ -1865,7 +1947,6 @@
      "C'è un libro."
     ]
    },
-   "gap_es": "u03 es solo el presente.",
    "how_es": "a2c07 con código propio ERR_CE_IMPERFETTO."
   },
   {
@@ -1875,9 +1956,14 @@
    "text_es": "Passato prossimo e imperfetto en un mismo relato (contar un evento pasado: dónde, cuándo, quién, cómo fue; mentre, quindi)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m03",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u79",
+     "u83"
+    ]
+   },
    "capsulas": [
     "a2c10"
    ],
@@ -1898,7 +1984,6 @@
      "Quando arrivi?"
     ]
    },
-   "gap_es": "Es una decisión semántica: no hay generador mecánico.",
    "how_es": "Ejercicio de relato (cloze_text) y frases con disparador inequívoco; reglas de plan §5.3; «quindi» y «mentre» van en la ficha."
   },
   {
@@ -1908,9 +1993,15 @@
    "text_es": "Expresiones de tiempo: fa, da, per, fra/tra, scorso, prossimo",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m02",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u81",
+     "u85",
+     "u10"
+    ]
+   },
    "capsulas": [
     "a2c08"
    ],
@@ -1930,7 +2021,6 @@
      "Vengo da un amico."
     ]
    },
-   "gap_es": "Sin unidad.",
    "how_es": "a2c08; «per» + pasado cerrado es válido y no se marca como error."
   },
   {
@@ -1940,9 +2030,16 @@
    "text_es": "Adverbios con el pasado: già, non… ancora, appena, non… più, mai",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m01",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u76",
+     "u78",
+     "u92",
+     "u105"
+    ]
+   },
    "capsulas": [
     "a2c05"
    ],
@@ -1961,7 +2058,6 @@
      "Mangio sempre qui."
     ]
    },
-   "gap_es": "Sin unidad (u40 solo trata ieri, oggi, domani, sempre, mai).",
    "how_es": "a2c05 (variante a mano)."
   },
   {
@@ -1971,11 +2067,15 @@
    "text_es": "Verbos reflexivos en passato prossimo",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m01",
    "refs": {
     "units": [
-     "u56"
+     "u77",
+     "u81",
+     "u83",
+     "u93",
+     "u94"
     ]
    },
    "capsulas": [
@@ -1995,7 +2095,6 @@
      "Si veste in fretta."
     ]
    },
-   "gap_es": "u56 solo trata los reflexivos en presente.",
    "how_es": "a2c03."
   },
   {
@@ -2005,9 +2104,13 @@
    "text_es": "Comparar dos cosas para elegir (più… di/che, così… come, tanto… quanto)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m05",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u11"
+    ]
+   },
    "capsulas": [
     "a2c17"
    ],
@@ -2025,7 +2128,6 @@
      "Che bello!"
     ]
    },
-   "gap_es": "u11 (A2, comparativos) quedó planificada: con el filtro de A2 tiene 17 de las 18 frases mínimas; no hay cobertura mientras no se complete.",
    "how_es": "Completar u11 con frases de «che», «come/quanto» y la frontera di/che (a2c17) y llevarla a a2m05."
   },
   {
@@ -2035,9 +2137,13 @@
    "text_es": "Meglio/migliore, peggio/peggiore y el superlativo (il più…, -issimo)",
    "scope": "O",
    "origen": "proyecto",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m05",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u89"
+    ]
+   },
    "capsulas": [
     "a2c18"
    ],
@@ -2055,7 +2161,6 @@
      "Il piatto è buono."
     ]
    },
-   "gap_es": "Sin unidad.",
    "how_es": "a2c18.",
    "note_es": "PLIDA solo pide «fare confronti»; meglio/migliore es lo que se exige. El superlativo comparte cápsula y no se mide por escrito más allá de la grafía -issimo."
   },
@@ -2066,11 +2171,11 @@
    "text_es": "Cuantificadores: tutto, niente, nessuno, un po', abbastanza",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m05",
    "refs": {
     "units": [
-     "u39"
+     "u90"
     ]
    },
    "capsulas": [
@@ -2093,7 +2198,6 @@
      "Nessuno parla."
     ]
    },
-   "gap_es": "u39 solo trata molto, poco, troppo, tanto.",
    "how_es": "a2c19."
   },
   {
@@ -2103,9 +2207,13 @@
    "text_es": "Relativas con «che» centradas en el sujeto (la persona che…, il libro che…)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m05",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u91"
+    ]
+   },
    "capsulas": [
     "a2c23"
    ],
@@ -2124,7 +2232,6 @@
      "Penso che sia vero."
     ]
    },
-   "gap_es": "Sin unidad.",
    "how_es": "a2c23.",
    "note_es": "«Quello che / ciò che» (y *lo che) se añade por ser calco frecuente: decisión del proyecto."
   },
@@ -2135,9 +2242,14 @@
    "text_es": "«Si» impersonal (si può, si dice, si vendono)",
    "scope": "A",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m06",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u95",
+     "u102"
+    ]
+   },
    "capsulas": [
     "a2c24"
    ],
@@ -2155,7 +2267,6 @@
      "Lui si lava."
     ]
    },
-   "gap_es": "Sin unidad.",
    "how_es": "a2c24 (solo reconocer)."
   },
   {
@@ -2165,9 +2276,13 @@
    "text_es": "Hipótesis simples con «se» + presente (se piove non vengo)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "partial",
    "module": "a2m07",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u97"
+    ]
+   },
    "evidence": {
     "regex": "\\bse (piove|nevica|vuoi|vuole|puoi|può|hai|ha|ho|sei|è|siamo|c'è|fa|andiamo|vai|va|vieni|viene|torni|arrivi|mangi|bevi|esci|studi|parli|sono|vengo|vado|posso|devo)\\b|\\b\\w+ se (piove|vuoi|puoi|hai|ho)\\b",
     "min": 15,
@@ -2190,7 +2305,7 @@
      "ht_programmi"
     ]
    },
-   "gap_es": "No hay cápsula propia: no hay calco contrastivo (el español dice «si llueve»); se produce en rp_invito, ht_programmi y la escritura del módulo.",
+   "gap_es": "Evidencia 1 de 15 frases en las unidades de A2: se ejercita poco.",
    "how_es": "Ficha de a2c26 y juegos de rol; el corpus tiene ~180 frases útiles."
   },
   {
@@ -2200,9 +2315,18 @@
    "text_es": "Subordinadas objetivas con «che» + indicativo (dice che…, so che…, vedo che…)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "partial",
    "module": "a2m10",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u09",
+     "u85",
+     "u10",
+     "u91",
+     "u97",
+     "u107"
+    ]
+   },
    "capsulas": [
     "a2c35"
    ],
@@ -2221,7 +2345,7 @@
     ],
     "acopio": false
    },
-   "gap_es": "Sin unidad.",
+   "gap_es": "Evidencia 9 de 20 frases en las unidades de A2: se ejercita poco.",
    "how_es": "a2c35 y los relatos; las opiniones (penso che + congiuntivo) son B1: en A2 se opina con g40."
   },
   {
@@ -2231,9 +2355,13 @@
    "text_es": "Temporales implícitas con «prima di» (+ dopo + sustantivo)",
    "scope": "A",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m03",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u84"
+    ]
+   },
    "capsulas": [
     "a2c11"
    ],
@@ -2251,7 +2379,6 @@
      "Il giorno prima di Natale."
     ]
    },
-   "gap_es": "Sin unidad.",
    "how_es": "a2c11 (dopo aver… solo reconocer)."
   },
   {
@@ -2261,9 +2388,24 @@
    "text_es": "Coordinadas: o, invece, allora, infatti, non solo… ma anche (y quindi)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "partial",
    "module": "a2m03",
-   "refs": {},
+   "refs": {
+    "readings": [
+     "rd_eurochocolate",
+     "ls_a2m03"
+    ],
+    "roleplays": [
+     "rp_a2m03_a",
+     "rp_a2m03_b"
+    ],
+    "tasks": [
+     "ht_a2m03"
+    ],
+    "modules": [
+     "a2m03"
+    ]
+   },
    "planned": {
     "extra_readings": [
      "ls_a2m03"
@@ -2272,8 +2414,8 @@
      "relato_a2m03_1"
     ]
    },
-   "gap_es": "El corpus no alcanza para una cápsula (infatti 3, invece adversativo ~2, non solo… ma anche 3).",
-   "how_es": "Se enseñan en la ficha de a2c10, en la entrada rd_eurochocolate y en los relatos del módulo."
+   "how_es": "Se practican al hablar y escribir (juegos de rol y relato del módulo a2m03); una cápsula propia queda para B1 si el uso real lo pide.",
+   "gap_es": "Las coordinadas (infatti, invece, allora, non solo… ma anche) se enseñan en la ficha y se leen en los textos del módulo, pero ninguna frase de práctica las usa: no hay ejercicio que las pida."
   },
   {
    "id": "g29",
@@ -2282,15 +2424,20 @@
    "text_es": "Frase exclamativa (Che bello! Che peccato! Che fortuna!)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "partial",
    "module": "a2m03",
-   "refs": {},
+   "refs": {
+    "readings": [
+     "rd_eurochocolate",
+     "ls_a2m03"
+    ]
+   },
    "planned": {
     "roleplays": [
      "rp_cosa_e_successo"
     ]
    },
-   "gap_es": "Sin unidad.",
+   "gap_es": "Las exclamativas aparecen en pocos textos; ningún juego ni tarea obliga a producir «Che bello! Che peccato!».",
    "how_es": "Juego de rol rp_cosa_e_successo y ficha de a2c10."
   },
   {
@@ -2300,9 +2447,19 @@
    "text_es": "Futuro simple regular e irregular (reconocer)",
    "scope": "A",
    "origen": "proyecto",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m07",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u84",
+     "u91",
+     "u94",
+     "u97",
+     "u98",
+     "u103",
+     "u105"
+    ]
+   },
    "capsulas": [
     "a2c26"
    ],
@@ -2320,7 +2477,6 @@
      "Girò a destra."
     ]
    },
-   "gap_es": "Sin unidad.",
    "how_es": "a2c26 (raíz común con el condicional)."
   },
   {
@@ -2334,7 +2490,7 @@
    "module": "a2m07",
    "refs": {
     "units": [
-     "u65"
+     "u97"
     ]
    },
    "capsulas": [
@@ -2359,7 +2515,7 @@
      "rp_invito"
     ]
    },
-   "gap_es": "u65 solo cubre «vorrei».",
+   "gap_es": "Evidencia 14 de 25 frases en las unidades de A2: se ejercita poco.",
    "how_es": "Se reconoce en a2c26 y se produce en rp_favore, rp_invito y la escritura de a2m07/a2m08.",
    "note_es": "El enti pide el condicional «en fórmulas (vorrei)»; consigliare con dovresti es B1 (PLIDA p. 25)."
   },
@@ -2370,12 +2526,11 @@
    "text_es": "Imperativo de tu y voi, afirmativo (Vai subito! Non andare via!) y con pronombres pegados (dammi, fallo)",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m08",
    "refs": {
     "units": [
-     "u62",
-     "u67"
+     "u100"
     ]
    },
    "capsulas": [
@@ -2396,7 +2551,6 @@
      "Venite stasera?"
     ]
    },
-   "gap_es": "u62 y u67 cubren tu y el negativo; faltan voi y los pronombres pegados.",
    "how_es": "a2c29; cierra g13 de syllabus-a1.",
    "note_es": "Los pronombres pegados (dammi, fallo) son decisión del proyecto: ninguna fuente oficial los pide."
   },
@@ -2407,9 +2561,13 @@
    "text_es": "Fórmulas fijas de Lei en ventanilla y servicios (scusi, senta, mi dica, si accomodi)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "partial",
    "module": "a2m08",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u101"
+    ]
+   },
    "capsulas": [
     "a2c30"
    ],
@@ -2435,7 +2593,7 @@
      "rp_comune"
     ]
    },
-   "gap_es": "Sin unidad.",
+   "gap_es": "Evidencia 18 de 20 frases en las unidades de A2: se ejercita poco.",
    "how_es": "a2c30 las reconoce y se producen en rp_banca y rp_comune (PLIDA: «interazioni formali per usufruire di servizi»)."
   },
   {
@@ -2445,13 +2603,17 @@
    "text_es": "Paradigma completo del imperativo de Lei (prenda, venga, vada, entri)",
    "scope": "A",
    "origen": "proyecto",
-   "status": "gap",
+   "status": "partial",
    "module": "a2m08",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u101"
+    ]
+   },
    "capsulas": [
     "a2c30"
    ],
-   "gap_es": "Sin unidad.",
+   "gap_es": "u101 solo reconoce fórmulas (scusi, senta, si accomodi); no se practica el paradigma completo del imperativo de Lei (prenda, venga, vada, entri).",
    "how_es": "a2c30 (solo reconocer)."
   },
   {
@@ -2461,9 +2623,16 @@
    "text_es": "Verbos con preposición (smettere di, cercare di, pensare a, dipendere da)",
    "scope": "O",
    "origen": "proyecto",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m07",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u76",
+     "u81",
+     "u94",
+     "u98"
+    ]
+   },
    "capsulas": [
     "a2c27"
    ],
@@ -2482,7 +2651,6 @@
      "Parlo di calcio."
     ]
    },
-   "gap_es": "Sin unidad.",
    "how_es": "a2c27 (absorbe ERR_PREP_PENSARE)."
   },
   {
@@ -2496,6 +2664,9 @@
    "module": "a2m04",
    "refs": {
     "units": [
+     "u79",
+     "u83",
+     "u84",
      "u10"
     ]
    },
@@ -2517,7 +2688,7 @@
      "Cerco lavoro."
     ]
    },
-   "gap_es": "u10 (A2) existe pero no está en un módulo y no cubre el pasado.",
+   "gap_es": "Evidencia 4 de 25 frases en las unidades de A2: se ejercita poco.",
    "how_es": "Integrar u10 en a2m04 y ampliarla a ≥30 frases (a2c13)."
   },
   {
@@ -2527,9 +2698,13 @@
    "text_es": "Ci de lugar, ci vuole y ci metto",
    "scope": "A",
    "origen": "proyecto",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m09",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u103"
+    ]
+   },
    "capsulas": [
     "a2c32"
    ],
@@ -2547,7 +2722,6 @@
      "Ci vediamo domani."
     ]
    },
-   "gap_es": "Sin unidad.",
    "how_es": "a2c32 (solo reconocer; cupo de frases propias)."
   },
   {
@@ -2557,9 +2731,13 @@
    "text_es": "Ne de cantidad (Ne ho due)",
    "scope": "A",
    "origen": "proyecto",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m04",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u88"
+    ]
+   },
    "capsulas": [
     "a2c16"
    ],
@@ -2577,7 +2755,6 @@
      "Ho due fratelli."
     ]
    },
-   "gap_es": "Sin unidad.",
    "how_es": "a2c16 (solo reconocer, presente)."
   },
   {
@@ -2587,11 +2764,20 @@
    "text_es": "Subordinadas causales, temporales y finales (perché, quando, per + infinitivo)",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m10",
    "refs": {
     "units": [
-     "u68"
+     "u09",
+     "u79",
+     "u85",
+     "u10",
+     "u86",
+     "u87",
+     "u97",
+     "u102",
+     "u103",
+     "u107"
     ]
    },
    "capsulas": [
@@ -2611,7 +2797,6 @@
      "Dove vai?"
     ]
    },
-   "gap_es": "u68 solo cubre conectores simples (g16 de syllabus-a1 quedó parcial).",
    "how_es": "a2c36."
   },
   {
@@ -2621,9 +2806,13 @@
    "text_es": "Discurso directo (Mi ha detto: «…»)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "partial",
    "module": "a2m03",
-   "refs": {},
+   "refs": {
+    "modules": [
+     "a2m03"
+    ]
+   },
    "planned": {
     "tasks": [
      "ht_aneddoto"
@@ -2632,7 +2821,7 @@
      "relato_a2m03_1"
     ]
    },
-   "gap_es": "Sin tarea ni texto.",
+   "gap_es": "Contar lo que alguien dijo es solo meta del módulo; no hay unidad ni tarea que ejercite el discurso directo («mi ha detto: …»).",
    "how_es": "ht_aneddoto («cuenta lo que te dijo») y los relatos de a2m03."
   },
   {
@@ -2642,9 +2831,13 @@
    "text_es": "Opinar sin congiuntivo (secondo me, penso di sì, credo di + infinitivo, sono d'accordo)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m10",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u106"
+    ]
+   },
    "capsulas": [
     "a2c35"
    ],
@@ -2662,7 +2855,6 @@
      "Parlo con me stesso."
     ]
    },
-   "gap_es": "Sin unidad (u69 solo da certo, forse, d'accordo).",
    "how_es": "a2c35."
   },
   {
@@ -2687,15 +2879,32 @@
    "text_es": "Falsos amigos de nivel A2 (casa, comida, compras, ciudad y viaje)",
    "scope": "O",
    "origen": "proyecto",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m05",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u92",
+     "u104"
+    ]
+   },
    "capsulas": [
     "a2c20",
     "a2c33"
    ],
-   "gap_es": "Los falsos amigos no se enseñan en A1 (ERR_FALSE_FRIEND no tiene unidad).",
-   "how_es": "a2c20 (a2m05) y a2c33 (a2m09)."
+   "how_es": "a2c20 (a2m05) y a2c33 (a2m09).",
+   "evidence": {
+    "regex": "\\b(burro|aceto|caldo|largo|vaso|tovaglia|calze|negozio|salire|guardare|fermare|firmare|camera|coincidenza|presto|subito|aspettare|sperare|dispiace)\\b",
+    "min": 15,
+    "in": "sentences",
+    "si": [
+     "Mi dispiace molto.",
+     "Devo salire sul treno."
+    ],
+    "no": [
+     "Mi piace il gelato.",
+     "Abito a Roma."
+    ]
+   }
   },
   {
    "id": "g43",
@@ -2704,14 +2913,30 @@
    "text_es": "Acentos gráficos y dobles consonantes de A2 (perché, po', qual è, dammi, -issimo)",
    "scope": "O",
    "origen": "proyecto",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m08",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u102"
+    ]
+   },
    "capsulas": [
     "a2c31"
    ],
-   "gap_es": "Sin unidad.",
-   "how_es": "a2c31."
+   "how_es": "a2c31.",
+   "evidence": {
+    "regex": "\\b(perch[eé]|po'|qual è|dammi|dimmi|\\w+issim[oaie])\\b",
+    "min": 30,
+    "in": "sentences",
+    "si": [
+     "Dammi il libro.",
+     "È bellissima."
+    ],
+    "no": [
+     "Vado a casa.",
+     "Mangio una mela."
+    ]
+   }
   },
   {
    "id": "g44",
@@ -2720,9 +2945,14 @@
    "text_es": "Modales en passato prossimo e imperfetto (ho dovuto / sono dovuto andare; dovevo, potevo, volevo)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "partial",
    "module": "a2m01",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u79",
+     "u91"
+    ]
+   },
    "capsulas": [
     "a2c02"
    ],
@@ -2740,7 +2970,7 @@
      "Posso venire."
     ]
    },
-   "gap_es": "Sin unidad.",
+   "gap_es": "Evidencia 6 de 15 frases en las unidades de A2: se ejercita poco.",
    "how_es": "Frases de a2c02 con las dos formas válidas (ho dovuto / sono dovuto) y el contraste con el imperfetto."
   },
   {
@@ -2750,9 +2980,14 @@
    "text_es": "Adverbios cualificativos y de afirmación y negación (-mente, bene/male, certo, neanche, nemmeno)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m03",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u91",
+     "u103"
+    ]
+   },
    "evidence": {
     "regex": "\\b\\w{3,}mente\\b",
     "min": 10,
@@ -2773,7 +3008,6 @@
      "ls_a2m03"
     ]
    },
-   "gap_es": "Sin unidad (u40 trata ieri, oggi, domani, sempre, mai).",
    "how_es": "Ficha de a2c10 y relatos (improvvisamente, fortunatamente, finalmente, ovviamente)."
   },
   {
@@ -2783,11 +3017,17 @@
    "text_es": "Verbos andare, bere, dare, dire, fare, stare, venire en passato prossimo e imperfetto (dato, bevuto, detto, fatto, stato, venuto; davo, stavo, bevevo)",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m01",
    "refs": {
     "units": [
-     "u16"
+     "u76",
+     "u09",
+     "u79",
+     "u83",
+     "u89",
+     "u91",
+     "u107"
     ]
    },
    "capsulas": [
@@ -2809,7 +3049,6 @@
      "Vado a casa."
     ]
    },
-   "gap_es": "u16 solo trata el presente de andare, fare, stare, venire.",
    "how_es": "a2c01 (participios) y a2c06 (imperfetto: ero, facevo, dicevo, bevevo)."
   },
   {
@@ -2841,11 +3080,15 @@
    "text_es": "Área temática PLIDA A2: Arte, cultura y tiempo libre",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m07",
    "refs": {
     "units": [
-     "u36"
+     "u99"
+    ],
+    "readings": [
+     "doc_a2m07_cinema",
+     "rd_programmi"
     ]
    },
    "capsulas": [
@@ -2856,7 +3099,6 @@
      "doc_svago"
     ]
    },
-   "gap_es": "A1 tiene lo básico (u36); faltan mostra, spettacolo, concerto y el programa de ocio.",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -2866,11 +3108,16 @@
    "text_es": "Área temática PLIDA A2: Casa",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m06",
    "refs": {
     "units": [
-     "u23"
+     "u92"
+    ],
+    "readings": [
+     "doc_a2m10_annuncio",
+     "doc_a2m06_regolamento",
+     "doc_a2m02_prima_adesso"
     ]
    },
    "capsulas": [
@@ -2881,7 +3128,6 @@
      "doc_annuncio_casa"
     ]
    },
-   "gap_es": "A1 tiene el vocabulario básico; el barrio y situar en el espacio van en a2c21.",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -2891,20 +3137,23 @@
    "text_es": "Área temática PLIDA A2: Comida y bebida",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m05",
    "refs": {
     "units": [
-     "u22",
-     "u46",
-     "u52",
-     "u35"
+     "u92"
+    ],
+    "readings": [
+     "rd_ristorante",
+     "ls_a2m04"
+    ],
+    "roleplays": [
+     "rp_a2m04_b"
     ]
    },
    "capsulas": [
     "a2c20"
    ],
-   "gap_es": "A1 cubre lo básico; palabras A2 como minestra faltan (van en a2c20).",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -2914,19 +3163,24 @@
    "text_es": "Área temática PLIDA A2: Ciudad",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m06",
    "refs": {
     "units": [
-     "u24",
-     "u57",
-     "u34"
+     "u93",
+     "u104",
+     "u96"
+    ],
+    "readings": [
+     "doc_a2m02_prima_adesso"
+    ],
+    "roleplays": [
+     "rp_a2m06_b"
     ]
    },
    "capsulas": [
     "a2c21"
    ],
-   "gap_es": "A1 tiene la ciudad y las direcciones; falta situar con di fronte a, accanto a, in fondo a.",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -2936,11 +3190,11 @@
    "text_es": "Área temática PLIDA A2: Comunicación y medios",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m07",
    "refs": {
     "units": [
-     "u73"
+     "u99"
     ]
    },
    "capsulas": [
@@ -2951,7 +3205,6 @@
      "doc_notizia"
     ]
    },
-   "gap_es": "A1 trata el teléfono y los mensajes (u73); faltan telegiornale, notizia, puntata.",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -2985,7 +3238,11 @@
    "module": "a2m03",
    "refs": {
     "units": [
-     "u50"
+     "u82"
+    ],
+    "readings": [
+     "rd_giornatabrutta",
+     "rd_eurochocolate"
     ]
    },
    "planned": {
@@ -2993,7 +3250,7 @@
      "rp_cosa_e_successo"
     ]
    },
-   "gap_es": "u50 cubre ideas y sentimientos; faltan las reacciones (Che bello! Che peccato!).",
+   "gap_es": "Las emociones solo aparecen en pocos textos y en carácter; falta vocabulario sistemático de emociones y sentimientos.",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -3007,16 +3264,17 @@
    "module": "a2m02",
    "refs": {
     "units": [
-     "u21"
+     "u82"
     ],
-    "tasks": [
-     "ht_famiglia"
+    "readings": [
+     "ls_a2m02",
+     "rd_infanzia"
     ]
    },
    "capsulas": [
     "a2c09"
    ],
-   "gap_es": "A1 cubre la familia básica; faltan cognato y parente.",
+   "gap_es": "Familia se apoya en A1 y en relaciones de a2m02; no hay vocabulario nuevo de familia propio de A2.",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -3026,23 +3284,24 @@
    "text_es": "Área temática PLIDA A2: Compras y pagar",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m05",
    "refs": {
     "units": [
-     "u31",
-     "u42",
-     "u39",
-     "u61"
+     "u92"
+    ],
+    "readings": [
+     "rd_negozio",
+     "doc_a2m05_catalogo",
+     "ls_a2m05"
     ],
     "roleplays": [
-     "rp_negozio"
+     "rp_a2m05_b"
     ]
    },
    "capsulas": [
     "a2c20"
    ],
-   "gap_es": "A1 cubre comprar ropa; falta comparar y los falsos amigos de las compras.",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -3052,9 +3311,16 @@
    "text_es": "Área temática PLIDA A2: Instituciones y vida política",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "partial",
    "module": "a2m06",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u96"
+    ],
+    "readings": [
+     "doc_a2m06_modulo"
+    ]
+   },
    "capsulas": [
     "a2c25"
    ],
@@ -3063,7 +3329,7 @@
      "rp_comune"
     ]
    },
-   "gap_es": "Solo de pasada (oficinas y trámites); la vida política no se enseña en A2.",
+   "gap_es": "Cubre oficinas e instituciones cotidianas; falta vida política (elecciones, gobierno, partidos).",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -3076,11 +3342,8 @@
    "status": "partial",
    "module": "a2m10",
    "refs": {
-    "units": [
-     "u29"
-    ],
-    "tasks": [
-     "ht_lavoro"
+    "readings": [
+     "rd_miastoria"
     ]
    },
    "planned": {
@@ -3091,7 +3354,7 @@
      "ht_lavoro2"
     ]
    },
-   "gap_es": "A1 solo tiene profesiones y lo básico; el lugar de trabajo y las ferie faltan. El CV, los anuncios de empleo y la entrevista son B1 (PLIDA p. 28).",
+   "gap_es": "Sin unidad de vocabulario de trabajo; solo aparece en la entrada de a2m10 y en pocos textos.",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -3101,17 +3364,19 @@
    "text_es": "Área temática PLIDA A2: Cualidades personales",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m02",
    "refs": {
     "units": [
-     "u41"
+     "u82"
+    ],
+    "tasks": [
+     "ht_a2m02"
     ]
    },
    "capsulas": [
     "a2c09"
    ],
-   "gap_es": "A1 tiene adjetivos básicos (u41); faltan gentile, simpatico, timido…",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -3121,18 +3386,19 @@
    "text_es": "Área temática PLIDA A2: Relaciones sociales",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m02",
    "refs": {
     "units": [
-     "u37",
-     "u60"
+     "u82"
+    ],
+    "roleplays": [
+     "rp_a2m02_b"
     ]
    },
    "capsulas": [
     "a2c09"
    ],
-   "gap_es": "A1 trata saludar y presentarse; faltan collega, vicino, conoscente, fidanzato.",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -3163,12 +3429,20 @@
    "text_es": "Área temática PLIDA A2: Salud y cuerpo humano",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m10",
    "refs": {
-    "units": [
-     "u27",
-     "u43"
+    "readings": [
+     "ls_a2m10"
+    ],
+    "roleplays": [
+     "rp_a2m10_a"
+    ],
+    "tasks": [
+     "ht_a2m10"
+    ],
+    "modules": [
+     "a2m10"
     ]
    },
    "planned": {
@@ -3176,7 +3450,6 @@
      "rp_medico"
     ]
    },
-   "gap_es": "A1 trata el cuerpo y la salud; faltan gola, ginocchio y los síntomas simples en el médico y la farmacia.",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -3190,13 +3463,13 @@
    "module": "a2m07",
    "refs": {
     "units": [
-     "u73"
+     "u99"
     ]
    },
    "capsulas": [
     "a2c28"
    ],
-   "gap_es": "A1 tiene lo básico (u73).",
+   "gap_es": "u99 cubre tecnología de uso diario; falta vocabulario de ciencia y de aparatos más allá de lo doméstico.",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -3206,11 +3479,18 @@
    "text_es": "Área temática PLIDA A2: Transportes",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m09",
    "refs": {
     "units": [
-     "u34"
+     "u105"
+    ],
+    "readings": [
+     "doc_a2m09_orario"
+    ],
+    "roleplays": [
+     "rp_a2m09_b",
+     "rp_a2m09_c"
     ]
    },
    "capsulas": [
@@ -3221,7 +3501,6 @@
      "rp_biglietto"
     ]
    },
-   "gap_es": "A1 tiene los transportes; falta la estación, el autobús y el taxi (retraso, huelga, coincidencia).",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -3231,14 +3510,19 @@
    "text_es": "Área temática PLIDA A2: Oficinas públicas y servicios",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m06",
    "refs": {
     "units": [
-     "u74"
+     "u96"
+    ],
+    "readings": [
+     "doc_a2m06_modulo",
+     "rd_a2m06_entrada"
     ],
     "roleplays": [
-     "rp_posta"
+     "rp_a2m06_a",
+     "rp_a2m06_b"
     ]
    },
    "capsulas": [
@@ -3250,7 +3534,6 @@
      "rp_comune"
     ]
    },
-   "gap_es": "A1 cubre correos y trámites básicos; falta el banco y la oficina pública.",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -3260,20 +3543,20 @@
    "text_es": "Área temática PLIDA A2: Ropa y accesorios",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m05",
    "refs": {
-    "units": [
-     "u31"
+    "readings": [
+     "rd_negozio",
+     "doc_a2m05_catalogo"
     ],
     "roleplays": [
-     "rp_moda"
+     "rp_a2m05_b"
     ]
    },
    "capsulas": [
     "a2c20"
    ],
-   "gap_es": "A1 cubre la ropa básica; faltan giaccone, sandali y calze (≠ «calzas»).",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -3283,18 +3566,23 @@
    "text_es": "Área temática PLIDA A2: Viajes y turismo",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m09",
    "refs": {
     "units": [
-     "u34",
-     "u57"
+     "u105"
+    ],
+    "readings": [
+     "doc_a2m09_email",
+     "doc_a2m09_orario"
+    ],
+    "roleplays": [
+     "rp_a2m09_a"
     ]
    },
    "capsulas": [
     "a2c34"
    ],
-   "gap_es": "A1 trata los transportes y las direcciones; falta el vocabulario del viaje y del alojamiento.",
    "how_es": "Ver las cápsulas y los textos del módulo."
   },
   {
@@ -3321,9 +3609,19 @@
    "text_es": "Hablar de proyectos y acuerdos (qué piensas hacer el fin de semana)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m07",
-   "refs": {},
+   "refs": {
+    "roleplays": [
+     "rp_a2m07_a"
+    ],
+    "tasks": [
+     "ht_a2m07"
+    ],
+    "modules": [
+     "a2m07"
+    ]
+   },
    "planned": {
     "tasks": [
      "ht_programmi"
@@ -3332,7 +3630,6 @@
      "rp_programmi"
     ]
    },
-   "gap_es": "Sin tarea de producción propia en A2.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3342,11 +3639,17 @@
    "text_es": "Dar y pedir información sobre un evento pasado (dónde, cuándo, quién, cómo fue)",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m01",
    "refs": {
+    "roleplays": [
+     "rp_a2m01_a",
+     "rp_a2m01_b",
+     "rp_a2m03_a"
+    ],
     "tasks": [
-     "ht_passato"
+     "ht_a2m01",
+     "ht_a2m03"
     ]
    },
    "planned": {
@@ -3357,7 +3660,6 @@
      "rp_weekend"
     ]
    },
-   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3370,8 +3672,8 @@
    "status": "partial",
    "module": "a2m10",
    "refs": {
-    "tasks": [
-     "ht_lavoro"
+    "readings": [
+     "rd_miastoria"
     ]
    },
    "planned": {
@@ -3379,7 +3681,7 @@
      "ht_lavoro2"
     ]
    },
-   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
+   "gap_es": "Solo se lee en la entrada de a2m10; ningún juego de rol ni tarea obliga a hablar de estudios o experiencia laboral.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3389,9 +3691,20 @@
    "text_es": "Describir objetos y comparar para elegir cuál comprar",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m05",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u11",
+     "u89"
+    ],
+    "roleplays": [
+     "rp_a2m05_a"
+    ],
+    "tasks": [
+     "ht_a2m05"
+    ]
+   },
    "planned": {
     "tasks": [
      "ht_preferenze"
@@ -3400,7 +3713,6 @@
      "rp_confronto"
     ]
    },
-   "gap_es": "Sin tarea de producción propia en A2.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3410,9 +3722,20 @@
    "text_es": "Decir qué piensas de una persona o situación y por qué te gusta o no",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m10",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u106",
+     "u107"
+    ],
+    "roleplays": [
+     "rp_a2m10_b"
+    ],
+    "tasks": [
+     "ht_a2m10"
+    ]
+   },
    "planned": {
     "tasks": [
      "ht_opinione"
@@ -3421,7 +3744,6 @@
      "rp_opinioni"
     ]
    },
-   "gap_es": "Sin tarea de producción propia en A2.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3431,16 +3753,21 @@
    "text_es": "Pedir información para inscribirse a un curso (secretaría)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m06",
-   "refs": {},
+   "refs": {
+    "roleplays": [
+     "rp_a2m06_c"
+    ],
+    "readings": [
+     "rd_a2m06_c"
+    ]
+   },
    "planned": {
     "roleplays": [
      "rp_iscrizione"
     ]
-   },
-   "gap_es": "Sin tarea de producción propia en A2.",
-   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+   }
   },
   {
    "id": "f08",
@@ -3449,14 +3776,14 @@
    "text_es": "Dar y entender direcciones con un mapa o un navegador",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m06",
    "refs": {
     "units": [
-     "u57"
+     "u93"
     ],
     "roleplays": [
-     "rp_poste"
+     "rp_a2m06_b"
     ]
    },
    "planned": {
@@ -3464,7 +3791,6 @@
      "rp_iscrizione"
     ]
    },
-   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3474,15 +3800,25 @@
    "text_es": "Invitar, sugerir un plan, aceptar o rechazar con un motivo",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m07",
-   "refs": {},
+   "refs": {
+    "readings": [
+     "doc_a2m07_invito"
+    ],
+    "roleplays": [
+     "rp_a2m07_b",
+     "rp_a2m07_a"
+    ],
+    "modules": [
+     "a2m07"
+    ]
+   },
    "planned": {
     "roleplays": [
      "rp_invito"
     ]
    },
-   "gap_es": "Sin tarea de producción propia en A2.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3492,11 +3828,15 @@
    "text_es": "Expresar gustos, preferencias y estados de ánimo; decir qué buscas en una tienda",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m05",
    "refs": {
     "roleplays": [
-     "rp_negozio"
+     "rp_a2m05_a",
+     "rp_a2m05_b"
+    ],
+    "tasks": [
+     "ht_a2m05"
     ]
    },
    "planned": {
@@ -3504,7 +3844,6 @@
      "rp_camerino"
     ]
    },
-   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3514,11 +3853,17 @@
    "text_es": "Expresar acuerdo y desacuerdo (va bene, d'accordo, sono d'accordo, non credo)",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m10",
    "refs": {
     "units": [
-     "u69"
+     "u106"
+    ],
+    "roleplays": [
+     "rp_a2m10_b"
+    ],
+    "tasks": [
+     "ht_a2m10"
     ]
    },
    "planned": {
@@ -3526,7 +3871,6 @@
      "rp_opinioni"
     ]
    },
-   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3536,12 +3880,15 @@
    "text_es": "Hacer transacciones en tiendas, correos y bancos",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m06",
    "refs": {
+    "readings": [
+     "ls_a2m06"
+    ],
     "roleplays": [
-     "rp_posta",
-     "rp_negozio"
+     "rp_a2m05_b",
+     "rp_a2m06_a"
     ]
    },
    "planned": {
@@ -3549,7 +3896,6 @@
      "rp_banca"
     ]
    },
-   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3562,10 +3908,9 @@
    "status": "partial",
    "module": "a2m04",
    "refs": {
-    "roleplays": [
-     "rp_trattoria",
-     "rp_bere",
-     "rp_bar"
+    "readings": [
+     "rd_ristorante",
+     "ls_a2m04"
     ]
    },
    "planned": {
@@ -3573,7 +3918,7 @@
      "rp_lo_prendo"
     ]
    },
-   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
+   "gap_es": "La mesa y el plato solo se leen y escuchan; ningún juego de rol ni tarea obliga a reservar o pedir en un restaurante.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3583,11 +3928,15 @@
    "text_es": "Escribir notas y mensajes breves sobre necesidades inmediatas",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m04",
    "refs": {
-    "roleplays": [
-     "rp_sms"
+    "readings": [
+     "doc_a2m04_nota"
+    ],
+    "modules": [
+     "a2m04",
+     "a2m06"
     ]
    },
    "planned": {
@@ -3595,7 +3944,6 @@
      "doc_nota_coinquilino"
     ]
    },
-   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3605,15 +3953,22 @@
    "text_es": "Escribir un e-mail a un amigo con novedades de trabajo, estudio o vida personal",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m10",
-   "refs": {},
+   "refs": {
+    "readings": [
+     "doc_a2m07_invito"
+    ],
+    "modules": [
+     "a2m01",
+     "a2m02"
+    ]
+   },
    "planned": {
     "tasks": [
      "ht_lavoro2"
     ]
    },
-   "gap_es": "Sin tarea de producción propia en A2.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3623,16 +3978,22 @@
    "text_es": "Referir información de un volante, de un sitio web (p. ej. un hotel) o de un chat",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m09",
-   "refs": {},
+   "refs": {
+    "tasks": [
+     "ht_a2m05_volantino"
+    ],
+    "readings": [
+     "doc_a2m05_volantino",
+     "doc_a2m09_depliant"
+    ]
+   },
    "planned": {
     "readings": [
      "doc_depliant"
     ]
-   },
-   "gap_es": "Sin tarea de producción propia en A2.",
-   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+   }
   },
   {
    "id": "f17",
@@ -3641,18 +4002,19 @@
    "text_es": "Situar en el espacio (davanti a, dietro, vicino a, sotto, di fronte a)",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m06",
    "refs": {
     "units": [
-     "u57",
-     "u70"
+     "u93"
+    ],
+    "roleplays": [
+     "rp_a2m06_b"
     ]
    },
    "capsulas": [
     "a2c21"
    ],
-   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3662,9 +4024,19 @@
    "text_es": "Secuenciar eventos (prima… poi, dopo, alla fine)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m03",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u84"
+    ],
+    "readings": [
+     "doc_a2m03_cronologia"
+    ],
+    "tasks": [
+     "ht_a2m03"
+    ]
+   },
    "capsulas": [
     "a2c11"
    ],
@@ -3673,7 +4045,6 @@
      "relato_a2m03_1"
     ]
    },
-   "gap_es": "Sin tarea de producción propia en A2.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3683,19 +4054,21 @@
    "text_es": "Decir la hora, las fechas y situar en el tiempo (la settimana prossima, fra due giorni)",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m06",
    "refs": {
     "units": [
-     "u59",
-     "u25"
+     "u94",
+     "u81"
+    ],
+    "readings": [
+     "doc_a2m06_orari"
     ]
    },
    "capsulas": [
     "a2c22",
     "a2c08"
    ],
-   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3705,13 +4078,18 @@
    "text_es": "Dar sugerencias, órdenes y permisos simples (Vai subito! Non andare via! Posso…?)",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m08",
    "refs": {
     "units": [
-     "u62",
-     "u67",
-     "u17"
+     "u100",
+     "u101"
+    ],
+    "roleplays": [
+     "rp_a2m08_b"
+    ],
+    "tasks": [
+     "ht_a2m08"
     ]
    },
    "capsulas": [
@@ -3725,7 +4103,6 @@
      "ht_suggerimenti"
     ]
    },
-   "gap_es": "A1 cubre lo básico; A2 añade lo planificado en el módulo.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo.",
    "note_es": "Los permisos y las prohibiciones elaborados son B1 (PLIDA p. 25); aquí solo «posso…?» y órdenes simples."
   },
@@ -3738,17 +4115,13 @@
    "origen": "oficial",
    "status": "gap",
    "module": "a2m06",
-   "refs": {
-    "roleplays": [
-     "rp_telefono"
-    ]
-   },
+   "refs": {},
    "planned": {
     "tasks": [
      "ht_pratica"
     ]
    },
-   "gap_es": "Sin tarea de producción propia en A2.",
+   "gap_es": "No hay mensaje de contestador ni ejercicio de dejar un mensaje en una contestadora.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3758,16 +4131,21 @@
    "text_es": "Hablar de lo que sabes hacer (so nuotare, riesco a…) y de tus habilidades",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m10",
-   "refs": {},
+   "refs": {
+    "roleplays": [
+     "rp_a2m07_c"
+    ],
+    "readings": [
+     "rd_a2m07_c"
+    ]
+   },
    "planned": {
     "tasks": [
      "ht_lavoro2"
     ]
-   },
-   "gap_es": "Sin tarea de producción propia en A2.",
-   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+   }
   },
   {
    "id": "f23",
@@ -3776,9 +4154,16 @@
    "text_es": "Hacer un trámite en una oficina pública (comune, anagrafe, questura): pedir un documento",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "partial",
    "module": "a2m06",
-   "refs": {},
+   "refs": {
+    "readings": [
+     "doc_a2m06_modulo"
+    ],
+    "roleplays": [
+     "rp_a2m06_b"
+    ]
+   },
    "capsulas": [
     "a2c25"
    ],
@@ -3787,7 +4172,7 @@
      "rp_comune"
     ]
    },
-   "gap_es": "Sin tarea de producción propia en A2.",
+   "gap_es": "Solo hay oficina de correos y ventanilla; faltan trámites de comune, anagrafe o questura y pedir un documento.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3797,15 +4182,24 @@
    "text_es": "Hablar con el médico o en el hospital: pedir una cita y describir un síntoma simple",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m10",
-   "refs": {},
+   "refs": {
+    "readings": [
+     "ls_a2m10"
+    ],
+    "roleplays": [
+     "rp_a2m10_a"
+    ],
+    "tasks": [
+     "ht_a2m10"
+    ]
+   },
    "planned": {
     "roleplays": [
      "rp_medico"
     ]
    },
-   "gap_es": "Sin tarea de producción propia en A2.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3815,9 +4209,17 @@
    "text_es": "Moverse en autobús y en taxi (billete, parada, pedir que te lleven)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m09",
-   "refs": {},
+   "refs": {
+    "roleplays": [
+     "rp_a2m09_a",
+     "rp_a2m09_d"
+    ],
+    "readings": [
+     "rd_a2m09_d"
+    ]
+   },
    "capsulas": [
     "a2c34"
    ],
@@ -3825,9 +4227,7 @@
     "roleplays": [
      "rp_biglietto"
     ]
-   },
-   "gap_es": "Sin tarea de producción propia en A2.",
-   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+   }
   },
   {
    "id": "f26",
@@ -3836,16 +4236,21 @@
    "text_es": "Interacción simple en el lugar de trabajo (horarios, pedir algo a un colega)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m10",
-   "refs": {},
+   "refs": {
+    "roleplays": [
+     "rp_a2m10_c"
+    ],
+    "readings": [
+     "rd_a2m10_c"
+    ]
+   },
    "planned": {
     "roleplays": [
      "rp_lavoro"
     ]
-   },
-   "gap_es": "Sin tarea de producción propia en A2.",
-   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+   }
   },
   {
    "id": "f27",
@@ -3854,16 +4259,23 @@
    "text_es": "Explicar un problema simple y pedir ayuda (sin reclamo detallado, que es B1)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m09",
-   "refs": {},
+   "refs": {
+    "roleplays": [
+     "rp_a2m09_b",
+     "rp_a2m10_a",
+     "rp_a2m10_c"
+    ],
+    "readings": [
+     "rd_a2m10_c"
+    ]
+   },
    "planned": {
     "roleplays": [
      "rp_problema"
     ]
-   },
-   "gap_es": "Sin tarea de producción propia en A2.",
-   "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
+   }
   },
   {
    "id": "f28",
@@ -3872,11 +4284,19 @@
    "text_es": "Reservar un alojamiento o un billete",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m09",
    "refs": {
+    "readings": [
+     "doc_a2m09_email",
+     "doc_a2m09_biglietto"
+    ],
     "roleplays": [
-     "rp_albergo"
+     "rp_a2m09_a",
+     "rp_a2m09_c"
+    ],
+    "modules": [
+     "a2m09"
     ]
    },
    "capsulas": [
@@ -3888,7 +4308,6 @@
      "rp_biglietto"
     ]
    },
-   "gap_es": "Sin tarea de producción propia en A2.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3898,15 +4317,27 @@
    "text_es": "Pedir un favor, ofrecerse a ayudar y disculparse",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m08",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u101"
+    ],
+    "readings": [
+     "rd_a2m08_entrada"
+    ],
+    "roleplays": [
+     "rp_a2m08_a"
+    ],
+    "tasks": [
+     "ht_a2m08"
+    ]
+   },
    "planned": {
     "roleplays": [
      "rp_favore"
     ]
    },
-   "gap_es": "Sin tarea de producción propia en A2.",
    "how_es": "Se produce en los juegos de rol y tareas planificados del módulo."
   },
   {
@@ -3916,12 +4347,15 @@
    "text_es": "Leer avisos, carteles, reglamentos e insegne",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m06",
    "refs": {
+    "units": [
+     "u95"
+    ],
     "readings": [
-     "doc_cartelli",
-     "rd_avvisi"
+     "doc_a2m06_regolamento",
+     "doc_a2m08_cartelli"
     ]
    },
    "planned": {
@@ -3930,7 +4364,6 @@
      "doc_divieti"
     ]
    },
-   "gap_es": "Falta el texto o la tarea de A2.",
    "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
   },
   {
@@ -3940,15 +4373,14 @@
    "text_es": "Leer agendas, notas de rutina, listas de la compra, etiquetas, billetes, menús y horarios",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m01",
    "refs": {
     "readings": [
-     "doc_orari",
-     "doc_lista",
-     "doc_etichetta",
-     "doc_biglietto",
-     "doc_menu"
+     "doc_a2m01_agenda",
+     "doc_a2m06_orari",
+     "doc_a2m09_orario",
+     "doc_a2m09_biglietto"
     ]
    },
    "planned": {
@@ -3958,7 +4390,6 @@
      "doc_orari2"
     ]
    },
-   "gap_es": "Falta el texto o la tarea de A2.",
    "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
   },
   {
@@ -3968,12 +4399,13 @@
    "text_es": "Leer chats, SMS, e-mails y cartas informales sobre temas personales",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m10",
    "refs": {
     "readings": [
-     "rd_sms",
-     "rd_sms_esame"
+     "doc_a2m07_invito",
+     "doc_a2m09_email",
+     "doc_a2m04_nota"
     ]
    },
    "planned": {
@@ -3981,7 +4413,6 @@
      "doc_prenotazione"
     ]
    },
-   "gap_es": "Falta el texto o la tarea de A2.",
    "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
   },
   {
@@ -3991,11 +4422,12 @@
    "text_es": "Leer dépliants, descripciones de lugares turísticos y anuncios inmobiliarios",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m09",
    "refs": {
     "readings": [
-     "doc_annuncio"
+     "doc_a2m10_annuncio",
+     "doc_a2m09_depliant"
     ]
    },
    "planned": {
@@ -4003,9 +4435,7 @@
      "doc_depliant",
      "doc_annuncio_casa"
     ]
-   },
-   "gap_es": "Falta el texto o la tarea de A2.",
-   "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
+   }
   },
   {
    "id": "t05",
@@ -4014,9 +4444,17 @@
    "text_es": "Leer descripciones y relatos de lo vivido (gustos, casa, familia, escuela, experiencias pasadas, recuerdos)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m03",
-   "refs": {},
+   "refs": {
+    "readings": [
+     "rd_giornatabrutta",
+     "rd_infanzia",
+     "rd_eurochocolate",
+     "doc_a2m02_prima_adesso",
+     "rd_miastoria"
+    ]
+   },
    "planned": {
     "readings": [
      "rd_infanzia",
@@ -4026,7 +4464,6 @@
      "relato_a2m03_1"
     ]
    },
-   "gap_es": "Falta el texto o la tarea de A2.",
    "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
   },
   {
@@ -4036,11 +4473,11 @@
    "text_es": "Leer formularios, moduli y documentos con datos personales",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m06",
    "refs": {
     "readings": [
-     "doc_modulo"
+     "doc_a2m06_modulo"
     ]
    },
    "planned": {
@@ -4048,7 +4485,6 @@
      "doc_modulo2"
     ]
    },
-   "gap_es": "Falta el texto o la tarea de A2.",
    "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
   },
   {
@@ -4058,16 +4494,21 @@
    "text_es": "Leer previsiones del tiempo y programas (TV, cine, teatro, gimnasio)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m07",
-   "refs": {},
+   "refs": {
+    "readings": [
+     "doc_a2m07_meteo",
+     "doc_a2m07_cinema",
+     "ls_a2m07"
+    ]
+   },
    "planned": {
     "readings": [
      "doc_meteo",
      "doc_svago"
     ]
    },
-   "gap_es": "Falta el texto o la tarea de A2.",
    "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
   },
   {
@@ -4077,15 +4518,18 @@
    "text_es": "Leer instrucciones de uso y de acciones cotidianas",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m08",
-   "refs": {},
+   "refs": {
+    "readings": [
+     "doc_a2m08_istruzioni"
+    ]
+   },
    "planned": {
     "readings": [
      "doc_istruzioni"
     ]
    },
-   "gap_es": "Falta el texto o la tarea de A2.",
    "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
   },
   {
@@ -4095,20 +4539,19 @@
    "text_es": "Escuchar avisos y anuncios públicos de rutina (estación, aeropuerto, supermercado)",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m09",
    "refs": {
     "readings": [
-     "rd_stazione"
+     "ls_a2m09",
+     "ls_a2m09_avvisi"
     ]
    },
    "planned": {
     "readings": [
      "ls_a2m09"
     ]
-   },
-   "gap_es": "Falta el texto o la tarea de A2.",
-   "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
+   }
   },
   {
    "id": "t10",
@@ -4117,11 +4560,11 @@
    "text_es": "Escuchar mensajes de contestador, mensajes de voz e instrucciones grabadas",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m06",
    "refs": {
     "readings": [
-     "rd_avvisi"
+     "ls_a2m06_segreteria"
     ]
    },
    "planned": {
@@ -4129,9 +4572,7 @@
      "ls_a2m06",
      "ls_segreteria"
     ]
-   },
-   "gap_es": "Falta el texto o la tarea de A2.",
-   "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
+   }
   },
   {
    "id": "t11",
@@ -4140,12 +4581,13 @@
    "text_es": "Escuchar conversaciones cara a cara o por teléfono sobre temas personales",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m02",
    "refs": {
     "readings": [
-     "ls_m06",
-     "ls_m11"
+     "ls_a2m01",
+     "ls_a2m02",
+     "ls_a2m03"
     ]
    },
    "planned": {
@@ -4155,7 +4597,6 @@
      "ls_a2m03"
     ]
    },
-   "gap_es": "Falta el texto o la tarea de A2.",
    "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
   },
   {
@@ -4165,13 +4606,14 @@
    "text_es": "Escuchar interacciones de servicio (restaurante, tienda, farmacia, médico, banco, correos)",
    "scope": "O",
    "origen": "oficial",
-   "status": "partial",
+   "status": "covered",
    "module": "a2m10",
    "refs": {
     "readings": [
-     "ls_m08",
-     "ls_m09",
-     "ls_m10"
+     "ls_a2m04",
+     "ls_a2m05",
+     "ls_a2m06",
+     "ls_a2m10"
     ]
    },
    "planned": {
@@ -4180,7 +4622,6 @@
      "ls_a2m10"
     ]
    },
-   "gap_es": "Falta el texto o la tarea de A2.",
    "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
   },
   {
@@ -4190,17 +4631,19 @@
    "text_es": "Escuchar anuncios publicitarios simples",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m05",
-   "refs": {},
+   "refs": {
+    "readings": [
+     "ls_a2m05_pubblicita"
+    ]
+   },
    "planned": {
     "readings": [
      "ls_a2m05",
      "doc_volantino"
     ]
-   },
-   "gap_es": "Falta el texto o la tarea de A2.",
-   "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
+   }
   },
   {
    "id": "t14",
@@ -4209,15 +4652,18 @@
    "text_es": "Escuchar instrucciones sobre acciones cotidianas o el uso de un aparato",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m08",
-   "refs": {},
+   "refs": {
+    "readings": [
+     "ls_a2m08"
+    ]
+   },
    "planned": {
     "readings": [
      "ls_a2m08"
     ]
    },
-   "gap_es": "Falta el texto o la tarea de A2.",
    "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
   },
   {
@@ -4227,9 +4673,15 @@
    "text_es": "Escribir un texto de 40–60 palabras (descripción, diario o relato: prueba 1 y 2 de CILS según el módulo)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m01",
-   "refs": {},
+   "refs": {
+    "modules": [
+     "a2m01",
+     "a2m02",
+     "a2m03"
+    ]
+   },
    "planned": {
     "writing": [
      "a2m01",
@@ -4244,7 +4696,6 @@
      "a2m10"
     ]
    },
-   "gap_es": "Falta el texto o la tarea de A2.",
    "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
   },
   {
@@ -4254,9 +4705,15 @@
    "text_es": "Escribir un mensaje, una petición de información o una carta informal de 25–50 palabras",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m04",
-   "refs": {},
+   "refs": {
+    "modules": [
+     "a2m01",
+     "a2m04",
+     "a2m07"
+    ]
+   },
    "planned": {
     "writing": [
      "a2m01",
@@ -4271,7 +4728,6 @@
      "a2m10"
     ]
    },
-   "gap_es": "Falta el texto o la tarea de A2.",
    "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
   },
   {
@@ -4281,9 +4737,16 @@
    "text_es": "Hablar en un diálogo con el examinador de 2–3 minutos (juego de rol y ronda de preguntas)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m10",
-   "refs": {},
+   "refs": {
+    "roleplays": [
+     "rp_a2m01_a",
+     "rp_a2m06_a",
+     "rp_a2m10_a",
+     "rp_a2m10_b"
+    ]
+   },
    "planned": {
     "roleplays": [
      "rp_weekend",
@@ -4310,7 +4773,6 @@
      "rp_opinioni"
     ]
    },
-   "gap_es": "Falta el texto o la tarea de A2.",
    "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
   },
   {
@@ -4320,9 +4782,15 @@
    "text_es": "Hablar en un monólogo de unos 2 minutos sobre experiencias, hábitos, condiciones de vida o una imagen",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m03",
-   "refs": {},
+   "refs": {
+    "tasks": [
+     "ht_a2m01",
+     "ht_a2m02",
+     "ht_a2m03"
+    ]
+   },
    "planned": {
     "tasks": [
      "ht_ieri",
@@ -4338,7 +4806,6 @@
      "ht_opinione"
     ]
    },
-   "gap_es": "Falta el texto o la tarea de A2.",
    "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
   },
   {
@@ -4348,16 +4815,18 @@
    "text_es": "Leer artículos breves de periódico que describen cosas, personas o hechos",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m07",
-   "refs": {},
+   "refs": {
+    "readings": [
+     "doc_a2m07_notizia"
+    ]
+   },
    "planned": {
     "readings": [
      "doc_notizia"
     ]
-   },
-   "gap_es": "Falta el texto o la tarea de A2.",
-   "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
+   }
   },
   {
    "id": "t20",
@@ -4366,16 +4835,18 @@
    "text_es": "Leer manifiestos publicitarios y dépliants",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m05",
-   "refs": {},
+   "refs": {
+    "readings": [
+     "doc_a2m05_volantino"
+    ]
+   },
    "planned": {
     "readings": [
      "doc_volantino"
     ]
-   },
-   "gap_es": "Falta el texto o la tarea de A2.",
-   "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
+   }
   },
   {
    "id": "t21",
@@ -4397,16 +4868,18 @@
    "text_es": "Escuchar transmisiones breves de radio (pronóstico, aviso)",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m07",
-   "refs": {},
+   "refs": {
+    "readings": [
+     "ls_a2m07_radio"
+    ]
+   },
    "planned": {
     "readings": [
      "ls_a2m07"
     ]
-   },
-   "gap_es": "Falta el texto o la tarea de A2.",
-   "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
+   }
   },
   {
    "id": "t23",
@@ -4423,7 +4896,7 @@
      "ht_infanzia"
     ]
    },
-   "gap_es": "Falta el texto o la tarea de A2.",
+   "gap_es": "No hay juego de rol ni tarea de describir una foto o imagen (personas, lugares, qué hacían).",
    "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
   },
   {
@@ -4433,16 +4906,18 @@
    "text_es": "Leer tarjetas de visita",
    "scope": "O",
    "origen": "oficial",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m10",
-   "refs": {},
+   "refs": {
+    "readings": [
+     "doc_a2m10_bigliettovisita"
+    ]
+   },
    "planned": {
     "readings": [
      "doc_biglietto_visita"
     ]
-   },
-   "gap_es": "Falta el texto o la tarea de A2.",
-   "how_es": "Texto o tarea planificados en el módulo (ver `planned`)."
+   }
   },
   {
    "id": "p01",
@@ -4464,13 +4939,16 @@
    "text_es": "Consonantes dobles y acentos gráficos en las formas nuevas de A2",
    "scope": "O",
    "origen": "proyecto",
-   "status": "gap",
+   "status": "covered",
    "module": "a2m08",
-   "refs": {},
+   "refs": {
+    "units": [
+     "u102"
+    ]
+   },
    "capsulas": [
     "a2c31"
    ],
-   "gap_es": "Sin unidad de A2 (u64 solo trata las dobles de A1).",
    "how_es": "a2c31."
   }
  ]

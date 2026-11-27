@@ -1,0 +1,90 @@
+{
+ "id": "doc_a2m10_bigliettovisita",
+ "title": "Biglietto da visita",
+ "level": "A2",
+ "kind": "documento",
+ "authored": true,
+ "source": {
+  "book": "Texto escrito por la IA (Claude) para esta app",
+  "authors": "Claude (IA), a pedido del usuario",
+  "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+  "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+ },
+ "adaptation": "Tarjeta de visita de una profesional, escrita por la IA.",
+ "translation": "IA (Claude), sin revisar por un hablante nativo",
+ "sentences": [],
+ "questions": [
+  {
+   "prompt_es": "¿Cuál es la profesión de la persona?",
+   "options": [
+    "Architetta",
+    "Insegnante",
+    "Medica"
+   ],
+   "answer": 0
+  },
+  {
+   "prompt_es": "¿En qué calle está el estudio?",
+   "options": [
+    "Via Verdi",
+    "Via Roma",
+    "Via Dante"
+   ],
+   "answer": 0
+  },
+  {
+   "prompt_es": "¿A qué hora cierra por la tarde?",
+   "options": [
+    "A las 17",
+    "A las 19",
+    "A las 13"
+   ],
+   "answer": 0
+  },
+  {
+   "prompt_es": "¿Qué día está cerrado?",
+   "options": [
+    "Sábado",
+    "Lunes",
+    "Martes"
+   ],
+   "answer": 0
+  }
+ ],
+ "table": {
+  "head": [
+   "Campo",
+   "Dato"
+  ],
+  "rows": [
+   [
+    "Nome",
+    "Giulia Rossi"
+   ],
+   [
+    "Professione",
+    "Architetta"
+   ],
+   [
+    "Azienda",
+    "Studio Rossi e Bianchi"
+   ],
+   [
+    "Indirizzo",
+    "Via Verdi 12, Torino"
+   ],
+   [
+    "Telefono",
+    "011 456 7890"
+   ],
+   [
+    "E-mail",
+    "giulia.rossi@studiorb.it"
+   ],
+   [
+    "Orari",
+    "Lun-ven 9:00-17:00; sabato chiuso"
+   ]
+  ]
+ }
+}

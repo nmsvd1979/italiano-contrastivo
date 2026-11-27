@@ -1,0 +1,135 @@
+{
+ "id": "rd_a2m09_d",
+ "title": "In autobus o in taxi?",
+ "level": "A2",
+ "kind": "dialogo",
+ "authored": true,
+ "source": {
+  "book": "Texto escrito por la IA (Claude) para esta app",
+  "authors": "Claude (IA), a pedido del usuario",
+  "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+  "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+ },
+ "adaptation": "Diálogo propio de A2: preguntar por la parada, el boleto y pedir un taxi.",
+ "translation": "IA (Claude), sin revisar por un hablante nativo",
+ "sentences": [
+  {
+   "id": "rd_a2m09_d_00",
+   "it": "Scusi, dov'è la fermata dell'autobus?",
+   "es": "Disculpe, ¿dónde está la parada del autobús?",
+   "speaker": "Marco"
+  },
+  {
+   "id": "rd_a2m09_d_01",
+   "it": "È là, davanti al bar.",
+   "es": "Está allá, frente al bar.",
+   "speaker": "Paolo"
+  },
+  {
+   "id": "rd_a2m09_d_02",
+   "it": "Dove posso comprare un biglietto?",
+   "es": "¿Dónde puedo comprar un boleto?",
+   "speaker": "Marco"
+  },
+  {
+   "id": "rd_a2m09_d_03",
+   "it": "Al bar o dal tabaccaio. Costa due euro.",
+   "es": "En el bar o en el estanco. Cuesta dos euros.",
+   "speaker": "Paolo"
+  },
+  {
+   "id": "rd_a2m09_d_04",
+   "it": "Quanto ci vuole per andare in stazione?",
+   "es": "¿Cuánto se demora en llegar a la estación?",
+   "speaker": "Marco"
+  },
+  {
+   "id": "rd_a2m09_d_05",
+   "it": "In autobus ci vogliono venti minuti.",
+   "es": "En autobús se demora veinte minutos.",
+   "speaker": "Paolo"
+  },
+  {
+   "id": "rd_a2m09_d_06",
+   "it": "Sono troppi. Mi porta in stazione, per favore?",
+   "es": "Es demasiado. ¿Me lleva a la estación, por favor?",
+   "speaker": "Marco"
+  },
+  {
+   "id": "rd_a2m09_d_07",
+   "it": "Certo, io sono tassista. Salga!",
+   "es": "Claro, yo soy taxista. ¡Suba!",
+   "speaker": "Paolo"
+  },
+  {
+   "id": "rd_a2m09_d_08",
+   "it": "Quanto ci vuole in taxi?",
+   "es": "¿Cuánto se demora en taxi?",
+   "speaker": "Marco"
+  },
+  {
+   "id": "rd_a2m09_d_09",
+   "it": "Ci vogliono dieci minuti. Costa circa dodici euro.",
+   "es": "Se demora diez minutos. Cuesta unos doce euros.",
+   "speaker": "Paolo"
+  },
+  {
+   "id": "rd_a2m09_d_10",
+   "it": "Va bene. Grazie mille!",
+   "es": "Está bien. ¡Muchas gracias!",
+   "speaker": "Marco"
+  }
+ ],
+ "questions": [
+  {
+   "prompt_es": "¿Dónde está la parada del autobús?",
+   "options": [
+    "Frente al bar",
+    "Frente a la estación",
+    "Al lado del banco"
+   ],
+   "answer": 0,
+   "evidence": 1
+  },
+  {
+   "prompt_es": "¿Cuánto cuesta el boleto de autobús?",
+   "options": [
+    "Dos euros",
+    "Cinco euros",
+    "Doce euros"
+   ],
+   "answer": 0,
+   "evidence": 3
+  },
+  {
+   "prompt_es": "¿Cuánto se demora en autobús a la estación?",
+   "options": [
+    "Veinte minutos",
+    "Diez minutos",
+    "Una hora"
+   ],
+   "answer": 0,
+   "evidence": 5
+  },
+  {
+   "prompt_es": "¿Qué le pide Marco a Paolo?",
+   "options": [
+    "Que lo lleve a la estación",
+    "Que le venda un boleto",
+    "Que le diga la hora"
+   ],
+   "answer": 0,
+   "evidence": 6
+  },
+  {
+   "prompt_es": "¿Cuánto cuesta aproximadamente el taxi?",
+   "options": [
+    "Doce euros",
+    "Dos euros",
+    "Veinte euros"
+   ],
+   "answer": 0,
+   "evidence": 9
+  }
+ ]
+}

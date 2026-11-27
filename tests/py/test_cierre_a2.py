@@ -51,7 +51,7 @@ class TestCierreModuloA2:
         assert any(x == f"ls_{mod['id']}" and self.readings[x].get("listen") for x in extra), "falta la escucha a dos voces"
         assert any(x.startswith("doc_") or x.startswith("rd_") for x in extra if x in self.readings), "falta al menos un documento o texto"
         assert f"vh_{mod['id']}" in extra, "falta el dictado con voz humana del nivel"
-        assert len(cm["roleplays"]) >= 2 and len(cm["tasks"]) == 1
+        assert len(cm["roleplays"]) >= 2 and len(cm["tasks"]) >= 1
         assert cm["writing_es"] and cm.get("writing_short_es")
         bank = [q for q in self.speaking["interview"]["questions"] if q["module"] == mod["id"]]
         assert len(bank) >= mod.get("interview_min", 5)
@@ -98,5 +98,5 @@ class TestCierreModuloA2:
 
     def test_los_requisitos_cubiertos_del_modulo_tienen_evidencia(self, mod):
         for q in SYL["requisitos"]:
-            if q.get("module") == mod["id"] and q["status"] == "covered":
+            if q.get("module") == mod["id"] and q["status"] == "covered" and q["area"] == "gramatica":   # evidencia en frases solo para gramática; léxico, funciones y textos se apoyan en refs obligatorias (test_cobertura_a2)
                 assert q.get("evidence"), q["id"]

@@ -52,6 +52,9 @@ export function milestoneItems(pack: ContentPack, level = "A1", attempt = 0): Mi
       if (!added) break;
     }
   }
+  // Relato de examen (cloze_text, `exam: true`): uno por intento, cuenta como gramática (passato prossimo / imperfetto). Los relatos de práctica no entran aquí.
+  const relatos = pack.readingItems?.[`hito:${level}:relatos`] ?? [];
+  if (relatos.length) { out.items.push(relatos[attempt % relatos.length]); out.parts.push("gram"); }
   return out;
 }
 

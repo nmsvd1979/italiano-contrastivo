@@ -367,30 +367,6 @@
       "goal_es": "Responde como Matteo y cuenta tu fin de semana, incluido lo que te gustó o no."
     },
     {
-      "id": "rp_a2m02_a",
-      "title": "Recordar la infancia",
-      "function_es": "Describir cómo eras de niño/a",
-      "reading": "rd_a2m02_a",
-      "from": 0,
-      "to": 9,
-      "after": [
-        "u82"
-      ],
-      "goal_es": "Responde como Luca: cuenta cómo eras, dónde vivías y qué hacías de niño."
-    },
-    {
-      "id": "rp_a2m02_b",
-      "title": "Reencuentro con un amigo",
-      "function_es": "Hablar de una relación pasada y describir el carácter de alguien",
-      "reading": "rd_a2m02_b",
-      "from": 0,
-      "to": 9,
-      "after": [
-        "u82"
-      ],
-      "goal_es": "Responde como Anna: recuerda a Davide, di hace cuánto tiempo pasó y acepta la invitación."
-    },
-    {
       "id": "rp_a2m03_a",
       "title": "Contar una caída",
       "function_es": "Contar qué te pasó",
@@ -437,6 +413,54 @@
         "u88"
       ],
       "goal_es": "Cuenta qué compraste y para quién, y avisa a los demás con gli/le."
+    },
+    {
+      "id": "rp_a2m08_a",
+      "title": "Pedir ayuda en una biblioteca",
+      "function_es": "Pedir información con fórmulas de cortesía (Lei)",
+      "reading": "rd_a2m08_a",
+      "from": 0,
+      "to": 11,
+      "after": [
+        "u102"
+      ],
+      "goal_es": "Pedir ayuda con «scusi», hacer el carnet siguiendo las instrucciones del bibliotecario y preguntar dónde están los libros y cuánto cuestan las fotocopias."
+    },
+    {
+      "id": "rp_a2m08_b",
+      "title": "Pedir y dar un consejo",
+      "function_es": "Pedir un consejo y reaccionar a las sugerencias",
+      "reading": "rd_a2m08_b",
+      "from": 0,
+      "to": 10,
+      "after": [
+        "u102"
+      ],
+      "goal_es": "Contar un problema, escuchar los consejos de un amigo (dovresti, potresti, ti consiglio di) y quedar para el sábado."
+    },
+    {
+      "id": "rp_a2m02_a",
+      "title": "Recordar la infancia",
+      "function_es": "Describir cómo eras de niño/a",
+      "reading": "rd_a2m02_a",
+      "from": 0,
+      "to": 9,
+      "after": [
+        "u82"
+      ],
+      "goal_es": "Responde como Luca: cuenta cómo eras, dónde vivías y qué hacías de niño."
+    },
+    {
+      "id": "rp_a2m02_b",
+      "title": "Reencuentro con un amigo",
+      "function_es": "Hablar de una relación pasada y describir el carácter de alguien",
+      "reading": "rd_a2m02_b",
+      "from": 0,
+      "to": 9,
+      "after": [
+        "u82"
+      ],
+      "goal_es": "Responde como Anna: recuerda a Davide, di hace cuánto tiempo pasó y acepta la invitación."
     },
     {
       "id": "rp_a2m05_a",
@@ -487,6 +511,18 @@
       "goal_es": "Preguntar por una oficina, entender el camino y averiguar el piso."
     },
     {
+      "id": "rp_a2m06_c",
+      "title": "Inscribirte a un curso",
+      "function_es": "Pedir información para inscribirte a un curso",
+      "reading": "rd_a2m06_c",
+      "from": 0,
+      "to": 10,
+      "after": [
+        "u96"
+      ],
+      "goal_es": "Preguntar en la secretaría la fecha de inicio, el precio, los documentos y el horario del curso, y preguntar si puedes pagar."
+    },
+    {
       "id": "rp_a2m07_a",
       "title": "Hacer planes según el tiempo",
       "function_es": "Proponer un plan",
@@ -511,28 +547,52 @@
       "goal_es": "Invitar a un amigo a cenar, pedirle que lleve algo y confirmar hora y lugar."
     },
     {
-      "id": "rp_a2m08_a",
-      "title": "Pedir ayuda en una biblioteca",
-      "function_es": "Pedir información con fórmulas de cortesía (Lei)",
-      "reading": "rd_a2m08_a",
-      "from": 0,
-      "to": 11,
-      "after": [
-        "u102"
-      ],
-      "goal_es": "Pedir ayuda con «scusi», hacer el carnet siguiendo las instrucciones del bibliotecario y preguntar dónde están los libros y cuánto cuestan las fotocopias."
-    },
-    {
-      "id": "rp_a2m08_b",
-      "title": "Pedir y dar un consejo",
-      "function_es": "Pedir un consejo y reaccionar a las sugerencias",
-      "reading": "rd_a2m08_b",
+      "id": "rp_a2m07_c",
+      "title": "Qué sabes hacer",
+      "function_es": "Decir lo que sabes hacer y lo que logras hacer",
+      "reading": "rd_a2m07_c",
       "from": 0,
       "to": 10,
       "after": [
-        "u102"
+        "u99"
       ],
-      "goal_es": "Contar un problema, escuchar los consejos de un amigo (dovresti, potresti, ti consiglio di) y quedar para el sábado."
+      "goal_es": "Contar lo que sabes hacer (nadar, cocinar, cantar, conducir) y lo que logras o no logras hacer para entrar a un grupo."
+    },
+    {
+      "id": "rp_a2m10_a",
+      "title": "En la consulta del médico",
+      "function_es": "Describir síntomas simples y recibir un consejo",
+      "reading": "rd_a2m10_a",
+      "from": 0,
+      "to": 10,
+      "after": [
+        "u107"
+      ],
+      "goal_es": "Decir qué te duele, desde cuándo y si tienes fiebre, y preguntar qué debes hacer y si puedes ir al trabajo."
+    },
+    {
+      "id": "rp_a2m10_b",
+      "title": "Opinar sobre un plan",
+      "function_es": "Dar una opinión y ponerse de acuerdo",
+      "reading": "rd_a2m10_b",
+      "from": 0,
+      "to": 10,
+      "after": [
+        "u107"
+      ],
+      "goal_es": "Dar tu opinión sobre el paseo al lago, estar o no de acuerdo y acordar el medio de transporte y los horarios."
+    },
+    {
+      "id": "rp_a2m10_c",
+      "title": "Con una colega",
+      "function_es": "Hablar de horarios y pedir ayuda en el trabajo",
+      "reading": "rd_a2m10_c",
+      "from": 0,
+      "to": 10,
+      "after": [
+        "u107"
+      ],
+      "goal_es": "Preguntar a una colega a qué hora termina, contar un problema con el computador, aceptar su ayuda y preguntar por la impresora."
     },
     {
       "id": "rp_a2m09_a",
@@ -571,28 +631,16 @@
       "goal_es": "Pedir un boleto de ida y vuelta, preguntar cuánto tiempo ci vuole, la hora de salida, el andén y si hay que cambiar."
     },
     {
-      "id": "rp_a2m10_a",
-      "title": "En la consulta del médico",
-      "function_es": "Describir síntomas simples y recibir un consejo",
-      "reading": "rd_a2m10_a",
+      "id": "rp_a2m09_d",
+      "title": "Autobús y taxi",
+      "function_es": "Preguntar por la parada, el boleto y pedir un taxi",
+      "reading": "rd_a2m09_d",
       "from": 0,
       "to": 10,
       "after": [
-        "u107"
+        "u105"
       ],
-      "goal_es": "Decir qué te duele, desde cuándo y si tienes fiebre, y preguntar qué debes hacer y si puedes ir al trabajo."
-    },
-    {
-      "id": "rp_a2m10_b",
-      "title": "Opinar sobre un plan",
-      "function_es": "Dar una opinión y ponerse de acuerdo",
-      "reading": "rd_a2m10_b",
-      "from": 0,
-      "to": 10,
-      "after": [
-        "u107"
-      ],
-      "goal_es": "Dar tu opinión sobre el paseo al lago, estar o no de acuerdo y acordar el medio de transporte y los horarios."
+      "goal_es": "Preguntar dónde está la parada, dónde comprar un boleto, cuánto se demora y pedir que te lleven a la estación en taxi."
     }
   ],
   "tasks": [
@@ -988,57 +1036,6 @@
       ]
     },
     {
-      "id": "ht_a2m02",
-      "title": "Cuenta cómo era tu infancia",
-      "function_es": "Describir cómo eran las cosas antes con imperfetto",
-      "level": "A2",
-      "minutes": 2,
-      "after": [
-        "u82"
-      ],
-      "source": {
-        "book": "Texto escrito por la IA (Claude) para esta app",
-        "authors": "Claude (IA), a pedido del usuario",
-        "url": "https://github.com/nmsvd1979/italiano-contrastivo",
-        "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
-      },
-      "intro_es": "Habla en italiano durante 2 minutos de cómo era tu vida cuando eras niño/a. Usa imperfetto y, si puedes, c'era / c'erano.",
-      "questions": [
-        {
-          "it": "Com'eri da piccolo?",
-          "es": "¿Cómo eras de niño?",
-          "audio": "cdd428c34046"
-        },
-        {
-          "it": "Dove abitavi e com'era la tua casa?",
-          "es": "¿Dónde vivías y cómo era tu casa?",
-          "audio": "2b559e4a4e6a"
-        },
-        {
-          "it": "Che cosa facevi con i tuoi amici?",
-          "es": "¿Qué hacías con tus amigos?",
-          "audio": "b25ecf91b3ff"
-        },
-        {
-          "it": "Com'era il tuo quartiere?",
-          "es": "¿Cómo era tu barrio?",
-          "audio": "65375a6b9d90"
-        },
-        {
-          "it": "Che cosa è cambiato da allora?",
-          "es": "¿Qué cambió desde entonces?",
-          "audio": "1e5faac47000"
-        }
-      ],
-      "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
-      "checklist_es": [
-        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
-        "No leí: hablé de corrido, aunque con pausas.",
-        "Cuidé lo que enseña este módulo: Imperfetto: formas y personas; C'era, c'erano, c'è stato; Hace…, desde…, en…: fa, da, per, fra, scorso.",
-        "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
-      ]
-    },
-    {
       "id": "ht_a2m03",
       "title": "Raccontare un giorno strano",
       "function_es": "Contar una anécdota",
@@ -1141,6 +1138,261 @@
       ]
     },
     {
+      "id": "ht_a2m08",
+      "title": "Favores, consejos, instrucciones",
+      "function_es": "Pedir un favor, dar instrucciones y aconsejar",
+      "level": "A2",
+      "minutes": 2,
+      "after": [
+        "u102"
+      ],
+      "source": {
+        "book": "Texto escrito por la IA (Claude) para esta app",
+        "authors": "Claude (IA), a pedido del usuario",
+        "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+        "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+      },
+      "intro_es": "Habla unos 2 minutos, sin leer. Usa el imperativo con pronombres (dammi, dimmi, aspettami, mettilo) y consejos con dovresti, potresti o ti consiglio di.",
+      "questions": [
+        {
+          "it": "Che favore vuoi chiedere a un amico per il fine settimana?",
+          "es": "¿Qué favor quieres pedirle a un amigo para el fin de semana?",
+          "audio": "b380f46800d7"
+        },
+        {
+          "it": "Come spieghi a un amico l'uso di un apparecchio di casa?",
+          "es": "¿Cómo le explicas a un amigo el uso de un aparato de tu casa?",
+          "audio": "dbd9fb5427ae"
+        },
+        {
+          "it": "Un amico è stanco. Che consiglio gli dai?",
+          "es": "Un amigo está cansado. ¿Qué consejo le das?",
+          "audio": "47d36f40e80d"
+        },
+        {
+          "it": "Come chiedi un'informazione a una persona che non conosci?",
+          "es": "¿Cómo pides una información a una persona que no conoces?",
+          "audio": "d24a927b0224"
+        }
+      ],
+      "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que enseña este módulo: Imperativo tu/voi con pronombres: dammi, fallo, parlate; Fórmulas con Lei: scusi, senta, si accomodi; Acentos y dobles de A2.",
+        "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_a2hito_01",
+      "title": "Il fine settimana",
+      "function_es": "Contar un fin de semana pasado y hablar de planes",
+      "level": "A2",
+      "minutes": 3,
+      "after": [
+        "u107"
+      ],
+      "source": {
+        "book": "Texto escrito por la IA (Claude) para esta app",
+        "authors": "Claude (IA), a pedido del usuario",
+        "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+        "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+      },
+      "intro_es": "Conversación guiada de 2 a 3 minutos. Responde en voz alta a cada pregunta con frases simples: pasado con avere/essere, imperfetto para describir y futuro para los planes.",
+      "questions": [
+        {
+          "it": "Cosa hai fatto lo scorso fine settimana?",
+          "es": "¿Qué hiciste el fin de semana pasado?",
+          "audio": "865aedd37e63"
+        },
+        {
+          "it": "Dove sei andato/a e con chi?",
+          "es": "¿Adónde fuiste y con quién?",
+          "audio": "e66ce3c0dacc"
+        },
+        {
+          "it": "Com'era il tempo? Cosa c'era di bello?",
+          "es": "¿Cómo estaba el tiempo? ¿Qué había de lindo?",
+          "audio": "c3f80e58b936"
+        },
+        {
+          "it": "Ti è piaciuto? Perché?",
+          "es": "¿Te gustó? ¿Por qué?",
+          "audio": "4dbbbfd4a79b"
+        },
+        {
+          "it": "Cosa farai il prossimo fine settimana?",
+          "es": "¿Qué harás el próximo fin de semana?",
+          "audio": "9d61f8c56225"
+        },
+        {
+          "it": "Vuoi invitare un amico? Come lo inviti?",
+          "es": "¿Quieres invitar a un amigo? ¿Cómo lo invitas?",
+          "audio": "8dd92df67bc4"
+        }
+      ],
+      "adaptation": "Tarea del examen de hito de A2 escrita por la IA; sin revisión de un nativo.",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con frases completas.",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Usé pasado (avere/essere e imperfetto) y futuro simple donde correspondía.",
+        "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_a2hito_02",
+      "title": "Ieri e oggi",
+      "function_es": "Describir una situación del pasado y hacer una comparación",
+      "level": "A2",
+      "minutes": 2,
+      "after": [
+        "u107"
+      ],
+      "source": {
+        "book": "Texto escrito por la IA (Claude) para esta app",
+        "authors": "Claude (IA), a pedido del usuario",
+        "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+        "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+      },
+      "intro_es": "Monólogo de 2 minutos. Describe cómo era un lugar o tu vida cuando eras más joven y compáralo con hoy. Usa el imperfetto para describir, el passato prossimo para un hecho y «più… di» o «meno… di» para comparar.",
+      "questions": [
+        {
+          "it": "Dove abitavi da piccolo/a? Com'era la tua casa?",
+          "es": "¿Dónde vivías de pequeño/a? ¿Cómo era tu casa?",
+          "audio": "6920a3e0271d"
+        },
+        {
+          "it": "Cosa facevi di solito dopo la scuola?",
+          "es": "¿Qué hacías normalmente después del colegio?",
+          "audio": "3e4fbdc3d7c4"
+        },
+        {
+          "it": "Un giorno è successo qualcosa di speciale. Cosa è successo?",
+          "es": "Un día pasó algo especial. ¿Qué pasó?",
+          "audio": "4186926d5d9c"
+        },
+        {
+          "it": "Com'è la tua vita oggi? È più facile o più difficile?",
+          "es": "¿Cómo es tu vida hoy? ¿Es más fácil o más difícil?",
+          "audio": "8eda30ac08e6"
+        },
+        {
+          "it": "Qual è meglio, secondo te: la città o il paese?",
+          "es": "¿Cuál es mejor, según tú: la ciudad o el pueblo?",
+          "audio": "f0bc6a11bba2"
+        }
+      ],
+      "adaptation": "Tarea del examen de hito de A2 escrita por la IA; sin revisión de un nativo.",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con frases completas.",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Usé pasado (avere/essere e imperfetto) y futuro simple donde correspondía.",
+        "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_a2m02",
+      "title": "Cuenta cómo era tu infancia",
+      "function_es": "Describir cómo eran las cosas antes con imperfetto",
+      "level": "A2",
+      "minutes": 2,
+      "after": [
+        "u82"
+      ],
+      "source": {
+        "book": "Texto escrito por la IA (Claude) para esta app",
+        "authors": "Claude (IA), a pedido del usuario",
+        "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+        "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+      },
+      "intro_es": "Habla en italiano durante 2 minutos de cómo era tu vida cuando eras niño/a. Usa imperfetto y, si puedes, c'era / c'erano.",
+      "questions": [
+        {
+          "it": "Com'eri da piccolo?",
+          "es": "¿Cómo eras de niño?",
+          "audio": "cdd428c34046"
+        },
+        {
+          "it": "Dove abitavi e com'era la tua casa?",
+          "es": "¿Dónde vivías y cómo era tu casa?",
+          "audio": "2b559e4a4e6a"
+        },
+        {
+          "it": "Che cosa facevi con i tuoi amici?",
+          "es": "¿Qué hacías con tus amigos?",
+          "audio": "b25ecf91b3ff"
+        },
+        {
+          "it": "Com'era il tuo quartiere?",
+          "es": "¿Cómo era tu barrio?",
+          "audio": "65375a6b9d90"
+        },
+        {
+          "it": "Che cosa è cambiato da allora?",
+          "es": "¿Qué cambió desde entonces?",
+          "audio": "1e5faac47000"
+        }
+      ],
+      "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que enseña este módulo: Imperfetto: formas y personas; C'era, c'erano, c'è stato; Hace…, desde…, en…: fa, da, per, fra, scorso.",
+        "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_a2m02_foto",
+      "title": "Una foto della mia infanzia",
+      "function_es": "Describir una foto de tu infancia (personas, lugar, cómo era todo)",
+      "level": "A2",
+      "minutes": 2,
+      "after": [
+        "u82"
+      ],
+      "source": {
+        "book": "Texto escrito por la IA (Claude) para esta app",
+        "authors": "Claude (IA), a pedido del usuario",
+        "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+        "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+      },
+      "intro_es": "Monólogo de 2 minutos. Imagina una foto de cuando eras pequeño/a y descríbela: quién está, dónde están y cómo era todo. Usa el imperfetto para describir («era», «avevo», «giocavo»).",
+      "questions": [
+        {
+          "it": "Chi c'è nella foto?",
+          "es": "¿Quién está en la foto?",
+          "audio": "8dcfd0858fea"
+        },
+        {
+          "it": "Dove siete? Com'era il posto?",
+          "es": "¿Dónde están? ¿Cómo era el lugar?",
+          "audio": "ec1eaa4008b9"
+        },
+        {
+          "it": "Quanti anni avevi?",
+          "es": "¿Cuántos años tenías?",
+          "audio": "942b827d8515"
+        },
+        {
+          "it": "Come eri da piccolo/a? Cosa ti piaceva fare?",
+          "es": "¿Cómo eras de pequeño/a? ¿Qué te gustaba hacer?",
+          "audio": "48c87248c6ca"
+        },
+        {
+          "it": "Cosa facevate di solito in quel posto?",
+          "es": "¿Qué hacían normalmente en ese lugar?",
+          "audio": "3b99012e1398"
+        }
+      ],
+      "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que enseña este módulo: Imperfetto: formas y personas; C'era, c'erano, c'è stato; Hace…, desde…, en…: fa, da, per, fra, scorso.",
+        "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
+      ]
+    },
+    {
       "id": "ht_a2m05",
       "title": "Che cosa vorrei comprare",
       "function_es": "Describir algo que quieres comprar y compararlo con otra cosa.",
@@ -1176,6 +1428,57 @@
           "it": "Perché è la scelta migliore? Ne hai bisogno subito?",
           "es": "¿Por qué es la mejor elección? ¿Lo necesitas pronto?",
           "audio": "9fefde50edfa"
+        }
+      ],
+      "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que enseña este módulo: Più… di / che; Meglio o migliore; -issimo; Qualche + singular, dei, qualcosa di.",
+        "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_a2m05_volantino",
+      "title": "Il volantino del supermercato",
+      "function_es": "Referir la información de un volante de ofertas (productos, precios, descuentos)",
+      "level": "A2",
+      "minutes": 2,
+      "after": [
+        "u92"
+      ],
+      "source": {
+        "book": "Texto escrito por la IA (Claude) para esta app",
+        "authors": "Claude (IA), a pedido del usuario",
+        "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+        "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+      },
+      "intro_es": "Monólogo de 2 minutos. Imagina un volante de ofertas de un supermercado y cuenta qué hay: productos, precios y descuentos. Usa «c'è», «ci sono», «costa», «costano» y «sconto».",
+      "questions": [
+        {
+          "it": "Cosa c'è nel volantino?",
+          "es": "¿Qué hay en el volante?",
+          "audio": "23d33797bfa9"
+        },
+        {
+          "it": "Quali prodotti ci sono in offerta?",
+          "es": "¿Qué productos están en oferta?",
+          "audio": "3d79c9539213"
+        },
+        {
+          "it": "Quanto costano? Dimmi due prezzi.",
+          "es": "¿Cuánto cuestan? Dime dos precios.",
+          "audio": "24ca8bdac1c2"
+        },
+        {
+          "it": "Quanto è lo sconto?",
+          "es": "¿Cuánto es el descuento?",
+          "audio": "b2bc2e37313d"
+        },
+        {
+          "it": "Cosa compri tu? Perché?",
+          "es": "¿Qué compras tú? ¿Por qué?",
+          "audio": "41f9cd040cd4"
         }
       ],
       "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
@@ -1289,13 +1592,13 @@
       ]
     },
     {
-      "id": "ht_a2m08",
-      "title": "Favores, consejos, instrucciones",
-      "function_es": "Pedir un favor, dar instrucciones y aconsejar",
+      "id": "ht_a2m10",
+      "title": "Salud, opiniones y planes",
+      "function_es": "Hablar de un malestar simple y dar una opinión",
       "level": "A2",
       "minutes": 2,
       "after": [
-        "u102"
+        "u107"
       ],
       "source": {
         "book": "Texto escrito por la IA (Claude) para esta app",
@@ -1303,34 +1606,34 @@
         "url": "https://github.com/nmsvd1979/italiano-contrastivo",
         "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
       },
-      "intro_es": "Habla unos 2 minutos, sin leer. Usa el imperativo con pronombres (dammi, dimmi, aspettami, mettilo) y consejos con dovresti, potresti o ti consiglio di.",
+      "intro_es": "Habla unos 2 minutos, sin leer. Usa síntomas simples (mi fa male la gola, ho la febbre), opiniones sin congiuntivo (secondo me, credo di, penso di sì, sono d'accordo) y perché / quando / per + infinitivo.",
       "questions": [
         {
-          "it": "Che favore vuoi chiedere a un amico per il fine settimana?",
-          "es": "¿Qué favor quieres pedirle a un amigo para el fin de semana?",
-          "audio": "b380f46800d7"
+          "it": "Come stai oggi? Hai qualche problema di salute?",
+          "es": "¿Cómo estás hoy? ¿Tienes algún problema de salud?",
+          "audio": "e1dc3c24707d"
         },
         {
-          "it": "Come spieghi a un amico l'uso di un apparecchio di casa?",
-          "es": "¿Cómo le explicas a un amigo el uso de un aparato de tu casa?",
-          "audio": "dbd9fb5427ae"
+          "it": "Che cosa dici in farmacia se hai il raffreddore?",
+          "es": "¿Qué dices en la farmacia si estás resfriado?",
+          "audio": "65144b4d1c8f"
         },
         {
-          "it": "Un amico è stanco. Che consiglio gli dai?",
-          "es": "Un amigo está cansado. ¿Qué consejo le das?",
-          "audio": "47d36f40e80d"
+          "it": "Che ne pensi di fare una gita il fine settimana?",
+          "es": "¿Qué piensas de hacer un paseo el fin de semana?",
+          "audio": "9e079e7caff0"
         },
         {
-          "it": "Come chiedi un'informazione a una persona che non conosci?",
-          "es": "¿Cómo pides una información a una persona que no conoces?",
-          "audio": "d24a927b0224"
+          "it": "Con quale opinione sei d'accordo? Con quale no? Perché?",
+          "es": "¿Con qué opinión estás de acuerdo? ¿Con cuál no? ¿Por qué?",
+          "audio": "cd1df19f8d0a"
         }
       ],
       "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
       "checklist_es": [
         "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
         "No leí: hablé de corrido, aunque con pausas.",
-        "Cuidé lo que enseña este módulo: Imperativo tu/voi con pronombres: dammi, fallo, parlate; Fórmulas con Lei: scusi, senta, si accomodi; Acentos y dobles de A2.",
+        "Cuidé lo que enseña este módulo: Opinar sin congiuntivo: secondo me, penso di sì; Perché, quando, per + infinitivo.",
         "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
       ]
     },
@@ -1382,52 +1685,6 @@
         "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
         "No leí: hablé de corrido, aunque con pausas.",
         "Cuidé lo que enseña este módulo: Ci de lugar, ci vuole, ci metto; Falsos amigos II: ciudad, viaje y acciones; Vocabulario: viaje y alojamiento.",
-        "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
-      ]
-    },
-    {
-      "id": "ht_a2m10",
-      "title": "Salud, opiniones y planes",
-      "function_es": "Hablar de un malestar simple y dar una opinión",
-      "level": "A2",
-      "minutes": 2,
-      "after": [
-        "u107"
-      ],
-      "source": {
-        "book": "Texto escrito por la IA (Claude) para esta app",
-        "authors": "Claude (IA), a pedido del usuario",
-        "url": "https://github.com/nmsvd1979/italiano-contrastivo",
-        "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
-      },
-      "intro_es": "Habla unos 2 minutos, sin leer. Usa síntomas simples (mi fa male la gola, ho la febbre), opiniones sin congiuntivo (secondo me, credo di, penso di sì, sono d'accordo) y perché / quando / per + infinitivo.",
-      "questions": [
-        {
-          "it": "Come stai oggi? Hai qualche problema di salute?",
-          "es": "¿Cómo estás hoy? ¿Tienes algún problema de salud?",
-          "audio": "e1dc3c24707d"
-        },
-        {
-          "it": "Che cosa dici in farmacia se hai il raffreddore?",
-          "es": "¿Qué dices en la farmacia si estás resfriado?",
-          "audio": "65144b4d1c8f"
-        },
-        {
-          "it": "Che ne pensi di fare una gita il fine settimana?",
-          "es": "¿Qué piensas de hacer un paseo el fin de semana?",
-          "audio": "9e079e7caff0"
-        },
-        {
-          "it": "Con quale opinione sei d'accordo? Con quale no? Perché?",
-          "es": "¿Con qué opinión estás de acuerdo? ¿Con cuál no? ¿Por qué?",
-          "audio": "cd1df19f8d0a"
-        }
-      ],
-      "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
-      "checklist_es": [
-        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
-        "No leí: hablé de corrido, aunque con pausas.",
-        "Cuidé lo que enseña este módulo: Opinar sin congiuntivo: secondo me, penso di sì; Perché, quando, per + infinitivo.",
         "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
       ]
     }
@@ -2509,6 +2766,46 @@
         "audio": "1e5faac47000"
       },
       {
+        "id": "iq_ht_a2m02_foto_1",
+        "module": "a2m02",
+        "it": "Chi c'è nella foto?",
+        "es": "¿Quién está en la foto?",
+        "task": "ht_a2m02_foto",
+        "audio": "8dcfd0858fea"
+      },
+      {
+        "id": "iq_ht_a2m02_foto_2",
+        "module": "a2m02",
+        "it": "Dove siete? Com'era il posto?",
+        "es": "¿Dónde están? ¿Cómo era el lugar?",
+        "task": "ht_a2m02_foto",
+        "audio": "ec1eaa4008b9"
+      },
+      {
+        "id": "iq_ht_a2m02_foto_3",
+        "module": "a2m02",
+        "it": "Quanti anni avevi?",
+        "es": "¿Cuántos años tenías?",
+        "task": "ht_a2m02_foto",
+        "audio": "942b827d8515"
+      },
+      {
+        "id": "iq_ht_a2m02_foto_4",
+        "module": "a2m02",
+        "it": "Come eri da piccolo/a? Cosa ti piaceva fare?",
+        "es": "¿Cómo eras de pequeño/a? ¿Qué te gustaba hacer?",
+        "task": "ht_a2m02_foto",
+        "audio": "48c87248c6ca"
+      },
+      {
+        "id": "iq_ht_a2m02_foto_5",
+        "module": "a2m02",
+        "it": "Cosa facevate di solito in quel posto?",
+        "es": "¿Qué hacían normalmente en ese lugar?",
+        "task": "ht_a2m02_foto",
+        "audio": "3b99012e1398"
+      },
+      {
         "id": "iq_a2m02_2",
         "module": "a2m02",
         "it": "Dove abitavi da bambino?",
@@ -2755,6 +3052,46 @@
         "es": "¿Por qué es la mejor elección? ¿Lo necesitas pronto?",
         "task": "ht_a2m05",
         "audio": "9fefde50edfa"
+      },
+      {
+        "id": "iq_ht_a2m05_volantino_1",
+        "module": "a2m05",
+        "it": "Cosa c'è nel volantino?",
+        "es": "¿Qué hay en el volante?",
+        "task": "ht_a2m05_volantino",
+        "audio": "23d33797bfa9"
+      },
+      {
+        "id": "iq_ht_a2m05_volantino_2",
+        "module": "a2m05",
+        "it": "Quali prodotti ci sono in offerta?",
+        "es": "¿Qué productos están en oferta?",
+        "task": "ht_a2m05_volantino",
+        "audio": "3d79c9539213"
+      },
+      {
+        "id": "iq_ht_a2m05_volantino_3",
+        "module": "a2m05",
+        "it": "Quanto costano? Dimmi due prezzi.",
+        "es": "¿Cuánto cuestan? Dime dos precios.",
+        "task": "ht_a2m05_volantino",
+        "audio": "24ca8bdac1c2"
+      },
+      {
+        "id": "iq_ht_a2m05_volantino_4",
+        "module": "a2m05",
+        "it": "Quanto è lo sconto?",
+        "es": "¿Cuánto es el descuento?",
+        "task": "ht_a2m05_volantino",
+        "audio": "b2bc2e37313d"
+      },
+      {
+        "id": "iq_ht_a2m05_volantino_5",
+        "module": "a2m05",
+        "it": "Cosa compri tu? Perché?",
+        "es": "¿Qué compras tú? ¿Por qué?",
+        "task": "ht_a2m05_volantino",
+        "audio": "41f9cd040cd4"
       },
       {
         "id": "iq_a2m05_1",

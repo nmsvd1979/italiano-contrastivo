@@ -1,0 +1,140 @@
+{
+ "readings": {
+  "a2m06": [
+   "ls_a2m06_segreteria"
+  ],
+  "a2m05": [
+   "ls_a2m05_pubblicita",
+   "doc_a2m05_volantino"
+  ],
+  "a2m07": [
+   "ls_a2m07_radio",
+   "doc_a2m07_notizia"
+  ],
+  "a2m09": [
+   "ls_a2m09_avvisi",
+   "doc_a2m09_depliant"
+  ],
+  "a2m10": [
+   "doc_a2m10_bigliettovisita"
+  ]
+ },
+ "roleplays": [
+  {
+   "id": "rp_a2m06_c",
+   "title": "Inscribirte a un curso",
+   "function_es": "Pedir información para inscribirte a un curso",
+   "reading": "rd_a2m06_c",
+   "from": 0,
+   "to": 10,
+   "goal_es": "Preguntar en la secretaría la fecha de inicio, el precio, los documentos y el horario del curso, y preguntar si puedes pagar.",
+   "module": "a2m06"
+  },
+  {
+   "id": "rp_a2m07_c",
+   "title": "Qué sabes hacer",
+   "function_es": "Decir lo que sabes hacer y lo que logras hacer",
+   "reading": "rd_a2m07_c",
+   "from": 0,
+   "to": 10,
+   "goal_es": "Contar lo que sabes hacer (nadar, cocinar, cantar, conducir) y lo que logras o no logras hacer para entrar a un grupo.",
+   "module": "a2m07"
+  },
+  {
+   "id": "rp_a2m09_d",
+   "title": "Autobús y taxi",
+   "function_es": "Preguntar por la parada, el boleto y pedir un taxi",
+   "reading": "rd_a2m09_d",
+   "from": 0,
+   "to": 10,
+   "goal_es": "Preguntar dónde está la parada, dónde comprar un boleto, cuánto se demora y pedir que te lleven a la estación en taxi.",
+   "module": "a2m09"
+  },
+  {
+   "id": "rp_a2m10_c",
+   "title": "Con una colega",
+   "function_es": "Hablar de horarios y pedir ayuda en el trabajo",
+   "reading": "rd_a2m10_c",
+   "from": 0,
+   "to": 10,
+   "goal_es": "Preguntar a una colega a qué hora termina, contar un problema con el computador, aceptar su ayuda y preguntar por la impresora.",
+   "module": "a2m10"
+  }
+ ],
+ "tasks": [
+  {
+   "id": "ht_a2m02_foto",
+   "title": "Una foto della mia infanzia",
+   "function_es": "Describir una foto de tu infancia (personas, lugar, cómo era todo)",
+   "level": "A2",
+   "minutes": 2,
+   "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+   },
+   "intro_es": "Monólogo de 2 minutos. Imagina una foto de cuando eras pequeño/a y descríbela: quién está, dónde están y cómo era todo. Usa el imperfetto para describir («era», «avevo», «giocavo»).",
+   "questions": [
+    {
+     "it": "Chi c'è nella foto?",
+     "es": "¿Quién está en la foto?"
+    },
+    {
+     "it": "Dove siete? Com'era il posto?",
+     "es": "¿Dónde están? ¿Cómo era el lugar?"
+    },
+    {
+     "it": "Quanti anni avevi?",
+     "es": "¿Cuántos años tenías?"
+    },
+    {
+     "it": "Come eri da piccolo/a? Cosa ti piaceva fare?",
+     "es": "¿Cómo eras de pequeño/a? ¿Qué te gustaba hacer?"
+    },
+    {
+     "it": "Cosa facevate di solito in quel posto?",
+     "es": "¿Qué hacían normalmente en ese lugar?"
+    }
+   ],
+   "module": "a2m02"
+  },
+  {
+   "id": "ht_a2m05_volantino",
+   "title": "Il volantino del supermercato",
+   "function_es": "Referir la información de un volante de ofertas (productos, precios, descuentos)",
+   "level": "A2",
+   "minutes": 2,
+   "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+   },
+   "intro_es": "Monólogo de 2 minutos. Imagina un volante de ofertas de un supermercado y cuenta qué hay: productos, precios y descuentos. Usa «c'è», «ci sono», «costa», «costano» y «sconto».",
+   "questions": [
+    {
+     "it": "Cosa c'è nel volantino?",
+     "es": "¿Qué hay en el volante?"
+    },
+    {
+     "it": "Quali prodotti ci sono in offerta?",
+     "es": "¿Qué productos están en oferta?"
+    },
+    {
+     "it": "Quanto costano? Dimmi due prezzi.",
+     "es": "¿Cuánto cuestan? Dime dos precios."
+    },
+    {
+     "it": "Quanto è lo sconto?",
+     "es": "¿Cuánto es el descuento?"
+    },
+    {
+     "it": "Cosa compri tu? Perché?",
+     "es": "¿Qué compras tú? ¿Por qué?"
+    }
+   ],
+   "module": "a2m05"
+  }
+ ]
+}

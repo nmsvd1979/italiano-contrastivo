@@ -1,0 +1,135 @@
+{
+ "id": "rd_a2m07_c",
+ "title": "Cosa sai fare?",
+ "level": "A2",
+ "kind": "dialogo",
+ "authored": true,
+ "source": {
+  "book": "Texto escrito por la IA (Claude) para esta app",
+  "authors": "Claude (IA), a pedido del usuario",
+  "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+  "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+ },
+ "adaptation": "Diálogo propio de A2: entrevista informal para entrar en un grupo (saper fare / riuscire a).",
+ "translation": "IA (Claude), sin revisar por un hablante nativo",
+ "sentences": [
+  {
+   "id": "rd_a2m07_c_00",
+   "it": "Ciao Luca! Cosa sai fare?",
+   "es": "¡Hola, Luca! ¿Qué sabes hacer?",
+   "speaker": "Sara"
+  },
+  {
+   "id": "rd_a2m07_c_01",
+   "it": "So nuotare e so cucinare bene.",
+   "es": "Sé nadar y sé cocinar bien.",
+   "speaker": "Luca"
+  },
+  {
+   "id": "rd_a2m07_c_02",
+   "it": "Ottimo! Sai suonare uno strumento?",
+   "es": "¡Excelente! ¿Sabes tocar un instrumento?",
+   "speaker": "Sara"
+  },
+  {
+   "id": "rd_a2m07_c_03",
+   "it": "No, ma so cantare un po'.",
+   "es": "No, pero sé cantar un poco.",
+   "speaker": "Luca"
+  },
+  {
+   "id": "rd_a2m07_c_04",
+   "it": "Sai parlare inglese?",
+   "es": "¿Sabes hablar inglés?",
+   "speaker": "Sara"
+  },
+  {
+   "id": "rd_a2m07_c_05",
+   "it": "Sì, ma non riesco a parlare in fretta.",
+   "es": "Sí, pero no logro hablar rápido.",
+   "speaker": "Luca"
+  },
+  {
+   "id": "rd_a2m07_c_06",
+   "it": "Non è un problema. Riesci a venire il sabato?",
+   "es": "No es un problema. ¿Puedes venir los sábados?",
+   "speaker": "Sara"
+  },
+  {
+   "id": "rd_a2m07_c_07",
+   "it": "Sì, riesco a venire ogni sabato mattina.",
+   "es": "Sí, puedo venir todos los sábados en la mañana.",
+   "speaker": "Luca"
+  },
+  {
+   "id": "rd_a2m07_c_08",
+   "it": "Perfetto! Sai guidare?",
+   "es": "¡Perfecto! ¿Sabes conducir?",
+   "speaker": "Sara"
+  },
+  {
+   "id": "rd_a2m07_c_09",
+   "it": "Sì, so guidare, ma non ho la macchina.",
+   "es": "Sí, sé conducir, pero no tengo auto.",
+   "speaker": "Luca"
+  },
+  {
+   "id": "rd_a2m07_c_10",
+   "it": "Va bene. Benvenuto nel gruppo!",
+   "es": "Está bien. ¡Bienvenido al grupo!",
+   "speaker": "Sara"
+  }
+ ],
+ "questions": [
+  {
+   "prompt_es": "¿Qué sabe hacer Luca?",
+   "options": [
+    "Nadar y cocinar",
+    "Bailar y pintar",
+    "Correr y dibujar"
+   ],
+   "answer": 0,
+   "evidence": 1
+  },
+  {
+   "prompt_es": "¿Qué instrumento toca Luca?",
+   "options": [
+    "Ninguno, pero canta un poco",
+    "La guitarra",
+    "El piano"
+   ],
+   "answer": 0,
+   "evidence": 3
+  },
+  {
+   "prompt_es": "¿Qué no logra hacer Luca en inglés?",
+   "options": [
+    "Hablar rápido",
+    "Escribir",
+    "Leer"
+   ],
+   "answer": 0,
+   "evidence": 5
+  },
+  {
+   "prompt_es": "¿Cuándo puede venir Luca?",
+   "options": [
+    "Los sábados en la mañana",
+    "Los domingos",
+    "Todas las tardes"
+   ],
+   "answer": 0,
+   "evidence": 7
+  },
+  {
+   "prompt_es": "¿Qué problema tiene Luca para conducir?",
+   "options": [
+    "No tiene auto",
+    "No sabe conducir",
+    "No tiene licencia"
+   ],
+   "answer": 0,
+   "evidence": 9
+  }
+ ]
+}

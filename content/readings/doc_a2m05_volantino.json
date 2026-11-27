@@ -1,0 +1,107 @@
+{
+ "id": "doc_a2m05_volantino",
+ "title": "Volantino: Supermercato Il Sole",
+ "level": "A2",
+ "kind": "documento",
+ "authored": true,
+ "source": {
+  "book": "Texto escrito por la IA (Claude) para esta app",
+  "authors": "Claude (IA), a pedido del usuario",
+  "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+  "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+ },
+ "adaptation": "Volante de ofertas de un supermercado, escrito por la IA.",
+ "translation": "IA (Claude), sin revisar por un hablante nativo",
+ "sentences": [],
+ "questions": [
+  {
+   "prompt_es": "¿Cuánto cuesta un litro de latte?",
+   "options": [
+    "1,10 €",
+    "1,99 €",
+    "0,89 €"
+   ],
+   "answer": 0
+  },
+  {
+   "prompt_es": "¿Qué producto tiene una oferta solo por hoy?",
+   "options": [
+    "Le mele",
+    "Il pane",
+    "Il latte"
+   ],
+   "answer": 0
+  },
+  {
+   "prompt_es": "¿Cuántos paquetes de pasta compras por 1,50 €?",
+   "options": [
+    "Uno",
+    "Dos",
+    "Tres"
+   ],
+   "answer": 1
+  },
+  {
+   "prompt_es": "¿Qué producto es el más barato de la tabla?",
+   "options": [
+    "La pasta",
+    "Il formaggio",
+    "Il caffè"
+   ],
+   "answer": 0
+  },
+  {
+   "prompt_es": "¿Qué descuento tiene el latte?",
+   "options": [
+    "10 %",
+    "20 %",
+    "50 %"
+   ],
+   "answer": 1
+  }
+ ],
+ "table": {
+  "head": [
+   "Prodotto",
+   "Prezzo",
+   "Offerta"
+  ],
+  "rows": [
+   [
+    "Pasta, 500 g",
+    "0,89 €",
+    "Due per 1,50 €"
+   ],
+   [
+    "Latte, 1 litro",
+    "1,10 €",
+    "Meno 20 %"
+   ],
+   [
+    "Mele, 1 kg",
+    "1,99 €",
+    "Solo oggi"
+   ],
+   [
+    "Pane fresco, 1 kg",
+    "2,50 €",
+    "Meno 10 %"
+   ],
+   [
+    "Formaggio, 200 g",
+    "2,90 €",
+    "Tre per 7,00 €"
+   ],
+   [
+    "Caffè, 250 g",
+    "3,20 €",
+    "Nessuna offerta"
+   ],
+   [
+    "Acqua, 6 bottiglie",
+    "1,80 €",
+    "Meno 30 %"
+   ]
+  ]
+ }
+}

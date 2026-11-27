@@ -82,6 +82,11 @@
 "g": "pase / póngase cómodo (usted)",
 "k": "opaca"
 },
+"accompagno": {
+"g": "acompaño",
+"k": "regular",
+"r": "n-gn"
+},
 "accordo": {
 "g": "acuerdo (d'accordo)",
 "k": "transparente"
@@ -93,8 +98,8 @@
 "acqua": {
 "g": "agua",
 "k": "regular",
-"r": "otro",
-"n": "agua → acqua"
+"n": "agua → acqua",
+"r": "otro"
 },
 "ad": {
 "g": "a (ante vocal)",
@@ -237,14 +242,14 @@
 "altra": {
 "g": "otra",
 "k": "regular",
-"r": "otro",
-"n": "al- → o-"
+"n": "al- → o-",
+"r": "otro"
 },
 "altre": {
 "g": "otras",
 "k": "regular",
-"r": "otro",
-"n": "al- → o- (altro → otro)"
+"n": "al- → o- (altro → otro)",
+"r": "otro"
 },
 "altrettanto": {
 "g": "igualmente",
@@ -253,14 +258,18 @@
 "altri": {
 "g": "otros",
 "k": "regular",
-"r": "otro",
-"n": "al- → o- (altro → otro)"
+"n": "al- → o- (altro → otro)",
+"r": "otro"
 },
 "altro": {
 "g": "otro",
 "k": "regular",
-"r": "otro",
-"n": "al- → o- (altro → otro)"
+"n": "al- → o- (altro → otro)",
+"r": "otro"
+},
+"altrove": {
+"g": "en otra parte",
+"k": "opaca"
 },
 "alza": {
 "g": "se levanta",
@@ -398,14 +407,14 @@
 "anni": {
 "g": "años",
 "k": "regular",
-"r": "otro",
-"n": "ñ → nn (año → anno)"
+"n": "ñ → nn (año → anno)",
+"r": "otro"
 },
 "anno": {
 "g": "año",
 "k": "regular",
-"r": "otro",
-"n": "ñ → nn (año → anno)"
+"n": "ñ → nn (año → anno)",
+"r": "otro"
 },
 "annoiato": {
 "g": "aburrido",
@@ -461,6 +470,10 @@
 "g": "recién",
 "k": "transparente"
 },
+"appuntamento": {
+"g": "cita",
+"k": "opaca"
+},
 "appunti": {
 "g": "apuntes",
 "k": "opaca"
@@ -472,6 +485,18 @@
 "aprila": {
 "g": "ábrela",
 "k": "opaca"
+},
+"aprilo": {
+"g": "ábrelo",
+"k": "regular",
+"n": "abrir → aprire",
+"r": "otro"
+},
+"aprire": {
+"g": "abrir",
+"k": "regular",
+"n": "abrir → aprire",
+"r": "otro"
 },
 "aprite": {
 "g": "abran",
@@ -490,9 +515,9 @@
 "k": "transparente"
 },
 "aria": {
+"ff": true,
 "g": "aire",
 "k": "opaca",
-"ff": true,
 "n": "Parece «aria» (pieza de ópera) pero significa aire"
 },
 "arriva": {
@@ -624,6 +649,10 @@
 "attraversano": {
 "g": "cruzan",
 "k": "opaca"
+},
+"attraversare": {
+"g": "atravesar",
+"k": "transparente"
 },
 "aurora": {
 "g": "nombre propio",
@@ -905,6 +934,10 @@
 "g": "entrada / boleto",
 "k": "opaca"
 },
+"binari": {
+"g": "andenes / vías",
+"k": "opaca"
+},
 "binario": {
 "g": "andén",
 "k": "opaca"
@@ -969,8 +1002,8 @@
 "bottiglia": {
 "g": "botella",
 "k": "regular",
-"r": "otro",
-"n": "ll → gli (botella → bottiglia)"
+"n": "ll → gli (botella → bottiglia)",
+"r": "otro"
 },
 "bravissima": {
 "g": "buenísima / muy hábil",
@@ -1048,9 +1081,9 @@
 "k": "transparente"
 },
 "burro": {
+"ff": true,
 "g": "mantequilla",
 "k": "opaca",
-"ff": true,
 "n": "Parece «burro» (animal) pero significa mantequilla"
 },
 "buttala": {
@@ -1074,9 +1107,9 @@
 "k": "transparente"
 },
 "calcio": {
+"ff": true,
 "g": "fútbol",
 "k": "opaca",
-"ff": true,
 "n": "Parece «calcio» (el mineral) pero aquí significa fútbol"
 },
 "calda": {
@@ -1084,9 +1117,9 @@
 "k": "transparente"
 },
 "caldo": {
+"ff": true,
 "g": "calor / caliente",
 "k": "opaca",
-"ff": true,
 "n": "Parece «caldo» (de comida) pero significa caliente o calor"
 },
 "calimala": {
@@ -1106,15 +1139,15 @@
 "k": "transparente"
 },
 "camera": {
+"ff": true,
 "g": "habitación",
 "k": "opaca",
-"ff": true,
 "n": "Parece «cámara» pero significa habitación"
 },
 "camere": {
+"ff": true,
 "g": "habitaciones",
 "k": "opaca",
-"ff": true,
 "n": "Parece «cámaras» pero significa habitaciones"
 },
 "cameriere": {
@@ -1159,10 +1192,14 @@
 "g": "perro",
 "k": "opaca"
 },
+"cantare": {
+"g": "cantar",
+"k": "transparente"
+},
 "cantina": {
+"ff": true,
 "g": "bodega",
 "k": "opaca",
-"ff": true,
 "n": "Parece «cantina» (bar) pero significa bodega o sótano"
 },
 "capelli": {
@@ -1305,9 +1342,9 @@
 "k": "transparente"
 },
 "cerca": {
+"ff": true,
 "g": "busca",
 "k": "opaca",
-"ff": true,
 "n": "Parece 'cerca' (cercano) pero significa busca"
 },
 "cercano": {
@@ -1324,9 +1361,9 @@
 "n": "falso amigo: cercare es buscar, no «cercar»"
 },
 "cerco": {
+"ff": true,
 "g": "busco",
 "k": "opaca",
-"ff": true,
 "n": "Parece 'cerco' (asedio/cerca) pero significa busco"
 },
 "certo": {
@@ -1384,14 +1421,14 @@
 "chiara": {
 "g": "clara",
 "k": "regular",
-"r": "otro",
-"n": "chi- → cl-"
+"n": "chi- → cl-",
+"r": "otro"
 },
 "chiaro": {
 "g": "claro",
 "k": "regular",
-"r": "otro",
-"n": "cl-→chi-: claro→chiaro"
+"n": "cl-→chi-: claro→chiaro",
+"r": "otro"
 },
 "chiavaioli": {
 "g": "fabricantes de llaves",
@@ -1476,6 +1513,10 @@
 "g": "cerrada",
 "k": "opaca"
 },
+"chiusi": {
+"g": "cerrados",
+"k": "opaca"
+},
 "ci": {
 "g": "nos / allí",
 "k": "opaca"
@@ -1499,8 +1540,8 @@
 "cileno": {
 "g": "chileno",
 "k": "regular",
-"r": "otro",
-"n": "ch → c"
+"n": "ch → c",
+"r": "otro"
 },
 "cinema": {
 "g": "cine",
@@ -1588,16 +1629,28 @@
 "k": "opaca"
 },
 "come": {
+"ff": true,
 "g": "cómo / como",
 "k": "transparente",
-"ff": true,
 "n": "Parece 'come' (del verbo comer) pero significa como/cómo"
+},
+"comincerà": {
+"g": "comenzará",
+"k": "transparente"
+},
+"comincia": {
+"g": "comienza",
+"k": "transparente"
+},
+"cominciata": {
+"g": "comenzada",
+"k": "transparente"
 },
 "cominciato": {
 "g": "comenzado",
 "k": "regular",
-"r": "otro",
-"n": "cominciare ~ comenzar"
+"n": "cominciare ~ comenzar",
+"r": "otro"
 },
 "commedia": {
 "g": "comedia",
@@ -1658,6 +1711,10 @@
 "g": "cumpleaños",
 "k": "opaca"
 },
+"compra": {
+"g": "compra",
+"k": "transparente"
+},
 "comprare": {
 "g": "comprar",
 "k": "regular",
@@ -1680,12 +1737,20 @@
 "g": "comprado",
 "k": "transparente"
 },
+"compri": {
+"g": "compras",
+"k": "transparente"
+},
 "compriamo": {
 "g": "compramos",
 "k": "transparente"
 },
 "compro": {
 "g": "compro",
+"k": "transparente"
+},
+"computer": {
+"g": "computador",
 "k": "transparente"
 },
 "comunale": {
@@ -1720,8 +1785,8 @@
 "congratulazioni": {
 "g": "felicitaciones",
 "k": "regular",
-"r": "cion-zione",
-"n": "congratulazioni → congratulaciones"
+"n": "congratulazioni → congratulaciones",
+"r": "cion-zione"
 },
 "conosci": {
 "g": "conoces",
@@ -1730,8 +1795,8 @@
 "conosciuta": {
 "g": "conocida",
 "k": "regular",
-"r": "otro",
-"n": "conosciuta ~ conocida"
+"n": "conosciuta ~ conocida",
+"r": "otro"
 },
 "considerata": {
 "g": "considerada",
@@ -1754,8 +1819,8 @@
 "contatto": {
 "g": "contacto",
 "k": "regular",
-"r": "otro",
-"n": "ct→tt: contacto→contatto"
+"n": "ct→tt: contacto→contatto",
+"r": "otro"
 },
 "contenta": {
 "g": "contenta",
@@ -1778,9 +1843,9 @@
 "k": "opaca"
 },
 "contorno": {
+"ff": true,
 "g": "guarnición",
 "k": "transparente",
-"ff": true,
 "n": "Parece 'contorno' pero significa guarnición (acompañamiento)"
 },
 "controllare": {
@@ -1817,8 +1882,12 @@
 "corretto": {
 "g": "correcto",
 "k": "regular",
-"r": "otro",
-"n": "ct→tt: correcto→corretto"
+"n": "ct→tt: correcto→corretto",
+"r": "otro"
+},
+"corridoio": {
+"g": "pasillo",
+"k": "opaca"
 },
 "corsi": {
 "g": "cursos",
@@ -1850,9 +1919,9 @@
 "k": "transparente"
 },
 "costa": {
+"ff": true,
 "g": "cuesta",
 "k": "transparente",
-"ff": true,
 "n": "Parece 'costa' (litoral) pero significa cuesta"
 },
 "costano": {
@@ -1896,20 +1965,20 @@
 "cucina": {
 "g": "cocina",
 "k": "regular",
-"r": "otro",
-"n": "o→u: cocina→cucina"
+"n": "o→u: cocina→cucina",
+"r": "otro"
 },
 "cucinano": {
 "g": "cocinan",
 "k": "regular",
-"r": "otro",
-"n": "o→u: cocinar→cucinare"
+"n": "o→u: cocinar→cucinare",
+"r": "otro"
 },
 "cucinare": {
 "g": "cocinar",
 "k": "regular",
-"r": "otro",
-"n": "o→u: cocinar→cucinare"
+"n": "o→u: cocinar→cucinare",
+"r": "otro"
 },
 "cucinato": {
 "g": "cocinado",
@@ -2124,8 +2193,8 @@
 "dichiarato": {
 "g": "declarado",
 "k": "regular",
-"r": "otro",
-"n": "dichiarare ~ declarar"
+"n": "dichiarare ~ declarar",
+"r": "otro"
 },
 "dici": {
 "g": "dices",
@@ -2218,6 +2287,10 @@
 "g": "ducha",
 "k": "opaca"
 },
+"documenti": {
+"g": "documentos",
+"k": "transparente"
+},
 "documento": {
 "g": "documento",
 "k": "transparente"
@@ -2264,8 +2337,8 @@
 "doppia": {
 "g": "doble",
 "k": "regular",
-"r": "otro",
-"n": "pp → b"
+"n": "pp → b",
+"r": "otro"
 },
 "dormire": {
 "g": "dormir",
@@ -2361,6 +2434,10 @@
 },
 "economia": {
 "g": "economía",
+"k": "transparente"
+},
+"economiche": {
+"g": "económicas / baratas",
 "k": "transparente"
 },
 "ed": {
@@ -2465,20 +2542,20 @@
 "esempio": {
 "g": "ejemplo",
 "k": "regular",
-"r": "otro",
-"n": "ej-→es-: ejemplo→esempio"
+"n": "ej-→es-: ejemplo→esempio",
+"r": "otro"
 },
 "esercizi": {
 "g": "ejercicios",
 "k": "regular",
-"r": "otro",
-"n": "-cicio → -cizio"
+"n": "-cicio → -cizio",
+"r": "otro"
 },
 "esercizio": {
 "g": "ejercicio",
 "k": "regular",
-"r": "otro",
-"n": "ej-→es-: ejercicio→esercizio"
+"n": "ej-→es-: ejercicio→esercizio",
+"r": "otro"
 },
 "esse": {
 "g": "ese (letra S)",
@@ -2499,6 +2576,10 @@
 },
 "eurochocolate": {
 "g": "nombre propio",
+"k": "transparente"
+},
+"eventi": {
+"g": "eventos",
 "k": "transparente"
 },
 "evento": {
@@ -2565,6 +2646,10 @@
 },
 "famiglia": {
 "g": "familia",
+"k": "transparente"
+},
+"famiglie": {
+"g": "familias",
 "k": "transparente"
 },
 "fammi": {
@@ -2634,8 +2719,8 @@
 "febbre": {
 "g": "fiebre",
 "k": "regular",
-"r": "ie-e",
-"n": "y b → bb"
+"n": "y b → bb",
+"r": "ie-e"
 },
 "felice": {
 "g": "feliz",
@@ -2688,6 +2773,10 @@
 "k": "regular",
 "r": "h-f"
 },
+"file": {
+"g": "fila",
+"k": "transparente"
+},
 "filippo": {
 "g": "nombre propio",
 "k": "transparente"
@@ -2700,11 +2789,15 @@
 "g": "fin / final",
 "k": "transparente"
 },
+"finisci": {
+"g": "terminas",
+"k": "transparente"
+},
 "finisco": {
 "g": "termino",
 "k": "regular",
-"r": "otro",
-"n": "finir: -isc- en el presente"
+"n": "finir: -isc- en el presente",
+"r": "otro"
 },
 "finita": {
 "g": "terminada",
@@ -2827,6 +2920,10 @@
 "g": "hermano",
 "k": "opaca"
 },
+"frecciarossa": {
+"g": "Frecciarossa (tren de alta velocidad)",
+"k": "opaca"
+},
 "freddo": {
 "g": "frío",
 "k": "opaca"
@@ -2887,8 +2984,8 @@
 "funziona": {
 "g": "funciona",
 "k": "regular",
-"r": "cion-zione",
-"n": "funziona → funciona"
+"n": "funziona → funciona",
+"r": "cion-zione"
 },
 "fuori": {
 "g": "fuera",
@@ -2930,6 +3027,10 @@
 "g": "amable",
 "k": "transparente"
 },
+"gentili": {
+"g": "amables",
+"k": "transparente"
+},
 "ghiberti": {
 "g": "nombre propio",
 "k": "transparente"
@@ -2940,6 +3041,10 @@
 },
 "giacca": {
 "g": "chaqueta",
+"k": "opaca"
+},
+"giacche": {
+"g": "chaquetas",
 "k": "opaca"
 },
 "giacenza": {
@@ -2957,11 +3062,15 @@
 "giardino": {
 "g": "jardín",
 "k": "regular",
-"r": "otro",
-"n": "gi- → j-"
+"n": "gi- → j-",
+"r": "otro"
 },
 "giocare": {
 "g": "jugar",
+"k": "opaca"
+},
+"giocato": {
+"g": "jugado",
 "k": "opaca"
 },
 "giocavamo": {
@@ -3102,6 +3211,10 @@
 "g": "grande",
 "k": "transparente"
 },
+"grandi": {
+"g": "grandes",
+"k": "transparente"
+},
 "gratis": {
 "g": "gratis",
 "k": "transparente"
@@ -3113,8 +3226,8 @@
 "grazie": {
 "g": "gracias",
 "k": "regular",
-"r": "otro",
-"n": "gracias→grazie (c→z)"
+"n": "gracias→grazie (c→z)",
+"r": "otro"
 },
 "grigia": {
 "g": "gris",
@@ -3124,26 +3237,30 @@
 "g": "gris",
 "k": "opaca"
 },
+"gruppo": {
+"g": "grupo",
+"k": "transparente"
+},
 "guadagnare": {
 "g": "ganar (dinero)",
 "k": "opaca"
 },
 "guarda": {
+"ff": true,
 "g": "mira",
 "k": "opaca",
-"ff": true,
 "n": "Parece 'guardar' pero significa mirar"
 },
 "guardano": {
+"ff": true,
 "g": "miran",
 "k": "opaca",
-"ff": true,
 "n": "Parece 'guardar' pero significa mirar"
 },
 "guardare": {
+"ff": true,
 "g": "mirar",
 "k": "opaca",
-"ff": true,
 "n": "Parece 'guardar' pero significa mirar"
 },
 "guardato": {
@@ -3167,9 +3284,9 @@
 "n": "falso amigo: guardare es mirar, no «guardar»"
 },
 "guardo": {
+"ff": true,
 "g": "miro / me miro",
 "k": "opaca",
-"ff": true,
 "n": "Parece 'guardar' pero significa mirar"
 },
 "guarire": {
@@ -3178,6 +3295,10 @@
 },
 "guida": {
 "g": "guía",
+"k": "transparente"
+},
+"guidare": {
+"g": "conducir / guiar",
 "k": "transparente"
 },
 "guido": {
@@ -3229,6 +3350,10 @@
 "g": "el",
 "k": "opaca"
 },
+"imbarco": {
+"g": "embarque",
+"k": "transparente"
+},
 "importante": {
 "g": "importante",
 "k": "transparente"
@@ -3244,38 +3369,38 @@
 "incontra": {
 "g": "encuentra / se reúne con",
 "k": "regular",
-"r": "otro",
-"n": "encontrar→incontrare (en-→in-)"
+"n": "encontrar→incontrare (en-→in-)",
+"r": "otro"
 },
 "incontrarci": {
 "g": "encontrarnos",
 "k": "regular",
-"r": "otro",
-"n": "encontrar→incontrare"
+"n": "encontrar→incontrare",
+"r": "otro"
 },
 "incontrare": {
 "g": "encontrarse con",
 "k": "regular",
-"r": "otro",
-"n": "encontrar→incontrare"
+"n": "encontrar→incontrare",
+"r": "otro"
 },
 "incontrato": {
 "g": "encontró / ha encontrado",
 "k": "regular",
-"r": "otro",
-"n": "encontrar→incontrare"
+"n": "encontrar→incontrare",
+"r": "otro"
 },
 "incontriamo": {
 "g": "nos encontramos",
 "k": "regular",
-"r": "otro",
-"n": "encontrar→incontrare"
+"n": "encontrar→incontrare",
+"r": "otro"
 },
 "incontro": {
 "g": "encuentro / me reúno con",
 "k": "regular",
-"r": "otro",
-"n": "encontrar→incontrare"
+"n": "encontrar→incontrare",
+"r": "otro"
 },
 "indirizzo": {
 "g": "dirección",
@@ -3288,17 +3413,22 @@
 "infermieristica": {
 "g": "enfermería",
 "k": "regular",
-"r": "otro",
-"n": "enfermería→infermieristica"
+"n": "enfermería→infermieristica",
+"r": "otro"
 },
 "influenza": {
 "g": "gripe / influenza",
 "k": "regular",
-"r": "otro",
-"n": "-encia → -enza"
+"n": "-encia → -enza",
+"r": "otro"
 },
 "informazione": {
 "g": "información",
+"k": "regular",
+"r": "cion-zione"
+},
+"informazioni": {
+"g": "informaciones",
 "k": "regular",
 "r": "cion-zione"
 },
@@ -3321,8 +3451,8 @@
 "insalata": {
 "g": "ensalada",
 "k": "regular",
-"r": "otro",
-"n": "en-→in-"
+"n": "en-→in-",
+"r": "otro"
 },
 "insegnante": {
 "g": "profesor / profesora",
@@ -3391,8 +3521,8 @@
 "isole": {
 "g": "islas",
 "k": "regular",
-"r": "otro",
-"n": "isla→isola"
+"n": "isla→isola",
+"r": "otro"
 },
 "italia": {
 "g": "nombre propio",
@@ -3412,6 +3542,10 @@
 },
 "italiano": {
 "g": "italiano",
+"k": "transparente"
+},
+"jeans": {
+"g": "jeans",
 "k": "transparente"
 },
 "jo": {
@@ -3438,6 +3572,10 @@
 "g": "ancho",
 "k": "opaca",
 "n": "falso amigo: largo es ancho, no «largo»"
+},
+"lasci": {
+"g": "dejas",
+"k": "opaca"
 },
 "lasciare": {
 "g": "dejar",
@@ -3613,8 +3751,8 @@
 "lingua": {
 "g": "lengua / idioma",
 "k": "regular",
-"r": "otro",
-"n": "lengua → lingua"
+"n": "lengua → lingua",
+"r": "otro"
 },
 "lingue": {
 "g": "lenguas / idiomas",
@@ -3657,9 +3795,9 @@
 "k": "transparente"
 },
 "loro": {
+"ff": true,
 "g": "ellos / ellas",
 "k": "opaca",
-"ff": true,
 "n": "Parece 'loro' (el ave) pero significa ellos/ellas"
 },
 "luca": {
@@ -3677,8 +3815,8 @@
 "luglio": {
 "g": "julio",
 "k": "regular",
-"r": "otro",
-"n": "julio→luglio (j→gl)"
+"n": "julio→luglio (j→gl)",
+"r": "otro"
 },
 "lui": {
 "g": "él",
@@ -3687,8 +3825,8 @@
 "lunedì": {
 "g": "lunes",
 "k": "regular",
-"r": "otro",
-"n": "lunes→lunedì"
+"n": "lunes→lunedì",
+"r": "otro"
 },
 "lunghi": {
 "g": "largos",
@@ -3717,14 +3855,14 @@
 "macchina": {
 "g": "auto",
 "k": "regular",
-"r": "otro",
-"n": "máquina→macchina"
+"n": "máquina→macchina",
+"r": "otro"
 },
 "macchine": {
 "g": "máquinas / autos",
 "k": "regular",
-"r": "otro",
-"n": "cch → qu"
+"n": "cch → qu",
+"r": "otro"
 },
 "macroeconomia": {
 "g": "macroeconomía",
@@ -3732,6 +3870,10 @@
 },
 "madre": {
 "g": "madre",
+"k": "transparente"
+},
+"madrid": {
+"g": "Madrid",
 "k": "transparente"
 },
 "maestra": {
@@ -3744,6 +3886,10 @@
 },
 "maglietta": {
 "g": "camiseta",
+"k": "opaca"
+},
+"magliette": {
+"g": "camisetas",
 "k": "opaca"
 },
 "magra": {
@@ -3784,9 +3930,9 @@
 "k": "transparente"
 },
 "mando": {
+"ff": true,
 "g": "envío",
 "k": "opaca",
-"ff": true,
 "n": "Parece 'mando' pero significa envío"
 },
 "mangia": {
@@ -3813,6 +3959,10 @@
 "g": "como (comer)",
 "k": "opaca"
 },
+"mano": {
+"g": "mano",
+"k": "transparente"
+},
 "marco": {
 "g": "nombre propio",
 "k": "transparente"
@@ -3828,8 +3978,8 @@
 "marito": {
 "g": "marido",
 "k": "regular",
-"r": "otro",
-"n": "d→t"
+"n": "d→t",
+"r": "otro"
 },
 "marta": {
 "g": "nombre propio",
@@ -3875,6 +4025,10 @@
 "g": "mañana (del día)",
 "k": "opaca"
 },
+"mattino": {
+"g": "mañana (parte del día)",
+"k": "opaca"
+},
 "me": {
 "g": "mí",
 "k": "opaca"
@@ -3918,8 +4072,8 @@
 "meravigliosa": {
 "g": "maravillosa",
 "k": "regular",
-"r": "otro",
-"n": "ll→gli"
+"n": "ll→gli",
+"r": "otro"
 },
 "mercanti": {
 "g": "mercaderes",
@@ -3950,6 +4104,10 @@
 "g": "mes",
 "k": "transparente"
 },
+"mesi": {
+"g": "meses",
+"k": "transparente"
+},
 "messa": {
 "g": "puesta",
 "k": "opaca"
@@ -3957,8 +4115,8 @@
 "messaggio": {
 "g": "mensaje",
 "k": "regular",
-"r": "otro",
-"n": "j→gg"
+"n": "j→gg",
+"r": "otro"
 },
 "messo": {
 "g": "puesto (de poner)",
@@ -4042,6 +4200,10 @@
 },
 "migliore": {
 "g": "mejor",
+"k": "opaca"
+},
+"migliori": {
+"g": "mejores",
 "k": "opaca"
 },
 "milano": {
@@ -4209,26 +4371,26 @@
 "nera": {
 "g": "negra",
 "k": "regular",
-"r": "otro",
-"n": "se pierde la g (negra→nera)"
+"n": "se pierde la g (negra→nera)",
+"r": "otro"
 },
 "nere": {
 "g": "negras",
 "k": "regular",
-"r": "otro",
-"n": "se pierde la g (negras→nere)"
+"n": "se pierde la g (negras→nere)",
+"r": "otro"
 },
 "neri": {
 "g": "negros",
 "k": "regular",
-"r": "otro",
-"n": "se pierde la g (negros→neri)"
+"n": "se pierde la g (negros→neri)",
+"r": "otro"
 },
 "nero": {
 "g": "negro",
 "k": "regular",
-"r": "otro",
-"n": "se pierde la g (negro→nero)"
+"n": "se pierde la g (negro→nero)",
+"r": "otro"
 },
 "nessun": {
 "g": "ningún",
@@ -4329,6 +4491,10 @@
 "g": "número",
 "k": "transparente"
 },
+"nuotare": {
+"g": "nadar",
+"k": "opaca"
+},
 "nuotato": {
 "g": "nadado",
 "k": "opaca"
@@ -4346,6 +4512,10 @@
 "g": "nuevo",
 "k": "regular",
 "r": "ue-uo"
+},
+"nuvole": {
+"g": "nubes",
+"k": "opaca"
 },
 "né": {
 "g": "ni",
@@ -4374,6 +4544,10 @@
 },
 "offerta": {
 "g": "oferta",
+"k": "transparente"
+},
+"offerte": {
+"g": "ofertas",
 "k": "transparente"
 },
 "offerto": {
@@ -4408,8 +4582,8 @@
 "oltretomba": {
 "g": "ultratumba",
 "k": "regular",
-"r": "otro",
-"n": "ultra→oltre, tumba→tomba"
+"n": "ultra→oltre, tumba→tomba",
+"r": "otro"
 },
 "online": {
 "g": "en línea",
@@ -4426,14 +4600,14 @@
 "ora": {
 "g": "hora",
 "k": "regular",
-"r": "otro",
-"n": "h inicial muda"
+"n": "h inicial muda",
+"r": "otro"
 },
 "orari": {
 "g": "horarios",
 "k": "regular",
-"r": "otro",
-"n": "h inicial muda"
+"n": "h inicial muda",
+"r": "otro"
 },
 "ordinano": {
 "g": "piden (en un local)",
@@ -4455,8 +4629,8 @@
 "ore": {
 "g": "horas",
 "k": "regular",
-"r": "otro",
-"n": "h inicial muda"
+"n": "h inicial muda",
+"r": "otro"
 },
 "organizzare": {
 "g": "organizar",
@@ -4477,8 +4651,8 @@
 "ostello": {
 "g": "albergue juvenil",
 "k": "regular",
-"r": "otro",
-"n": "hostal→ostello, h muda"
+"n": "hostal→ostello, h muda",
+"r": "otro"
 },
 "ottanta": {
 "g": "ochenta",
@@ -4500,6 +4674,12 @@
 "otto": {
 "g": "ocho",
 "k": "regular",
+"r": "otro"
+},
+"ottobre": {
+"g": "octubre",
+"k": "regular",
+"n": "octubre → ottobre",
 "r": "otro"
 },
 "ovunque": {
@@ -4558,14 +4738,14 @@
 "palazzo": {
 "g": "palacio / edificio",
 "k": "regular",
-"r": "otro",
-"n": "c→zz (palacio→palazzo)"
+"n": "c→zz (palacio→palazzo)",
+"r": "otro"
 },
 "palazzone": {
 "g": "edificio grande",
 "k": "regular",
-"r": "otro",
-"n": "c→zz (palacio→palazzo)"
+"n": "c→zz (palacio→palazzo)",
+"r": "otro"
 },
 "palestra": {
 "g": "gimnasio",
@@ -4615,8 +4795,8 @@
 "paragrafo": {
 "g": "párrafo",
 "k": "regular",
-"r": "otro",
-"n": "acento y g→gr (párrafo→paragrafo)"
+"n": "acento y g→gr (párrafo→paragrafo)",
+"r": "otro"
 },
 "parcheggiare": {
 "g": "estacionar",
@@ -4692,6 +4872,10 @@
 "g": "parte",
 "k": "transparente"
 },
+"partenza": {
+"g": "salida / partida",
+"k": "transparente"
+},
 "partiamo": {
 "g": "salimos",
 "k": "opaca",
@@ -4723,6 +4907,10 @@
 "g": "pasan",
 "k": "transparente"
 },
+"passaporto": {
+"g": "pasaporte",
+"k": "transparente"
+},
 "passare": {
 "g": "pasar",
 "k": "transparente"
@@ -4735,17 +4923,21 @@
 "g": "pasado",
 "k": "transparente"
 },
+"passeggeri": {
+"g": "pasajeros",
+"k": "transparente"
+},
 "passeggiata": {
 "g": "paseo",
 "k": "regular",
-"r": "otro",
-"n": "paseo→passeggiata"
+"n": "paseo→passeggiata",
+"r": "otro"
 },
 "passeggiate": {
 "g": "paseos",
 "k": "regular",
-"r": "otro",
-"n": "paseo→passeggiata"
+"n": "paseo→passeggiata",
+"r": "otro"
 },
 "passo": {
 "g": "paso / paso (aspiradora)",
@@ -4770,8 +4962,8 @@
 "pasticceria": {
 "g": "pastelería",
 "k": "regular",
-"r": "otro",
-"n": "pastel→pasticc-"
+"n": "pastel→pasticc-",
+"r": "otro"
 },
 "pastiglie": {
 "g": "pastillas",
@@ -4851,8 +5043,8 @@
 "perfetto": {
 "g": "perfecto",
 "k": "regular",
-"r": "otro",
-"n": "ct→tt"
+"n": "ct→tt",
+"r": "otro"
 },
 "permesso": {
 "g": "permiso",
@@ -4866,8 +5058,8 @@
 "perso": {
 "g": "perdido",
 "k": "regular",
-"r": "otro",
-"n": "perdido→perso"
+"n": "perdido→perso",
+"r": "otro"
 },
 "persona": {
 "g": "persona",
@@ -4888,14 +5080,14 @@
 "pesce": {
 "g": "pescado / pez",
 "k": "regular",
-"r": "otro",
-"n": "sc → sc"
+"n": "sc → sc",
+"r": "otro"
 },
 "pesi": {
 "g": "pesas",
 "k": "regular",
-"r": "otro",
-"n": "peso→pesi plural"
+"n": "peso→pesi plural",
+"r": "otro"
 },
 "peso": {
 "g": "peso",
@@ -4942,9 +5134,9 @@
 "k": "opaca"
 },
 "piano": {
+"ff": true,
 "g": "piso",
 "k": "opaca",
-"ff": true,
 "n": "Parece «piano» (instrumento) pero aquí significa piso o planta"
 },
 "piante": {
@@ -5020,8 +5212,8 @@
 "pittore": {
 "g": "pintor",
 "k": "regular",
-"r": "otro",
-"n": "n→tt (pintor→pittore)"
+"n": "n→tt (pintor→pittore)",
+"r": "otro"
 },
 "pizza": {
 "g": "pizza",
@@ -5141,6 +5333,11 @@
 "g": "puedo",
 "k": "opaca"
 },
+"possono": {
+"g": "pueden",
+"k": "regular",
+"r": "ue-o"
+},
 "posta": {
 "g": "correo",
 "k": "opaca",
@@ -5151,9 +5348,9 @@
 "k": "transparente"
 },
 "poste": {
+"ff": true,
 "g": "correos",
 "k": "opaca",
-"ff": true,
 "n": "Parece «poste» (palo) pero significa correos"
 },
 "posti": {
@@ -5170,6 +5367,10 @@
 "g": "pueden (ustedes)",
 "k": "regular",
 "r": "ue-o"
+},
+"potranno": {
+"g": "podrán",
+"k": "transparente"
 },
 "potrei": {
 "g": "podría",
@@ -5312,6 +5513,10 @@
 "g": "preparando",
 "k": "transparente"
 },
+"preparate": {
+"g": "preparad",
+"k": "transparente"
+},
 "preparato": {
 "g": "preparado",
 "k": "transparente"
@@ -5343,14 +5548,14 @@
 "prezzi": {
 "g": "precios",
 "k": "regular",
-"r": "otro",
-"n": "-cio → -zzo"
+"n": "-cio → -zzo",
+"r": "otro"
 },
 "prezzo": {
 "g": "precio",
 "k": "regular",
-"r": "otro",
-"n": "zz → c"
+"n": "zz → c",
+"r": "otro"
 },
 "prima": {
 "g": "primera",
@@ -5414,9 +5619,9 @@
 "k": "opaca"
 },
 "pronto": {
+"ff": true,
 "g": "aló / listo",
 "k": "opaca",
-"ff": true,
 "n": "Parece 'pronto' (rápido, pronto) pero significa listo; al teléfono, aló"
 },
 "proprio": {
@@ -5501,8 +5706,8 @@
 "quaderni": {
 "g": "cuadernos",
 "k": "regular",
-"r": "otro",
-"n": "cu- → qu-"
+"n": "cu- → qu-",
+"r": "otro"
 },
 "quaderno": {
 "g": "cuaderno",
@@ -5580,20 +5785,20 @@
 "quattro": {
 "g": "cuatro",
 "k": "regular",
-"r": "otro",
-"n": "cu- → qu-, t → tt"
+"n": "cu- → qu-, t → tt",
+"r": "otro"
 },
 "quel": {
 "g": "aquel",
 "k": "regular",
-"r": "otro",
-"n": "quel- = aquel-"
+"n": "quel- = aquel-",
+"r": "otro"
 },
 "quella": {
 "g": "aquella",
 "k": "regular",
-"r": "otro",
-"n": "quel- = aquel-"
+"n": "quel- = aquel-",
+"r": "otro"
 },
 "quelle": {
 "g": "aquellas",
@@ -5602,44 +5807,44 @@
 "quelli": {
 "g": "aquellos",
 "k": "regular",
-"r": "otro",
-"n": "quel- = aquel-"
+"n": "quel- = aquel-",
+"r": "otro"
 },
 "quello": {
 "g": "aquel",
 "k": "regular",
-"r": "otro",
-"n": "quel- = aquel-"
+"n": "quel- = aquel-",
+"r": "otro"
 },
 "quest": {
 "g": "este/esta (se une a la palabra siguiente)",
 "k": "regular",
-"r": "otro",
-"n": "quest- = est-"
+"n": "quest- = est-",
+"r": "otro"
 },
 "questa": {
 "g": "esta",
 "k": "regular",
-"r": "otro",
-"n": "quest- = est-"
+"n": "quest- = est-",
+"r": "otro"
 },
 "queste": {
 "g": "estas",
 "k": "regular",
-"r": "otro",
-"n": "quest- = est-"
+"n": "quest- = est-",
+"r": "otro"
 },
 "questi": {
 "g": "estos",
 "k": "regular",
-"r": "otro",
-"n": "quest- = est-"
+"n": "quest- = est-",
+"r": "otro"
 },
 "questo": {
 "g": "este",
 "k": "regular",
-"r": "otro",
-"n": "quest- = est-"
+"n": "quest- = est-",
+"r": "otro"
 },
 "qui": {
 "g": "aquí",
@@ -5679,6 +5884,10 @@
 "radi": {
 "g": "te afeitas",
 "k": "opaca"
+},
+"radio": {
+"g": "radio",
+"k": "transparente"
 },
 "rado": {
 "g": "me afeito",
@@ -5818,6 +6027,18 @@
 },
 "riempi": {
 "g": "llena",
+"k": "opaca"
+},
+"riesci": {
+"g": "logras / consigues",
+"k": "opaca"
+},
+"riesco": {
+"g": "logro / consigo",
+"k": "opaca"
+},
+"rifare": {
+"g": "rehacer",
 "k": "opaca"
 },
 "rilassate": {
@@ -5965,20 +6186,24 @@
 "g": "sábado",
 "k": "transparente"
 },
+"sai": {
+"g": "sabes",
+"k": "opaca"
+},
 "sala": {
 "g": "sala",
 "k": "transparente"
 },
 "saldi": {
+"ff": true,
 "g": "rebajas",
 "k": "opaca",
-"ff": true,
 "n": "Parece 'saldos' pero significa rebajas, liquidación"
 },
 "saldo": {
+"ff": true,
 "g": "rebaja (in saldo: en oferta)",
 "k": "opaca",
-"ff": true,
 "n": "Parece 'saldo' (balance) pero significa rebaja, oferta"
 },
 "sale": {
@@ -6192,6 +6417,10 @@
 "k": "regular",
 "r": "otro"
 },
+"segreteria": {
+"g": "secretaría",
+"k": "transparente"
+},
 "seguire": {
 "g": "seguir",
 "k": "transparente"
@@ -6257,6 +6486,10 @@
 "g": "se necesita / sirve",
 "k": "opaca"
 },
+"servono": {
+"g": "hacen falta / sirven",
+"k": "opaca"
+},
 "settanta": {
 "g": "setenta",
 "k": "regular",
@@ -6270,8 +6503,8 @@
 "settimana": {
 "g": "semana",
 "k": "regular",
-"r": "otro",
-"n": "sett- = sema- (semana)"
+"n": "sett- = sema- (semana)",
+"r": "otro"
 },
 "sfilata": {
 "g": "desfile",
@@ -6432,8 +6665,8 @@
 "sonno": {
 "g": "sueño (ganas de dormir)",
 "k": "regular",
-"r": "ue-o",
-"n": "y ñ → nn"
+"n": "y ñ → nn",
+"r": "ue-o"
 },
 "sono": {
 "g": "soy / son",
@@ -6500,8 +6733,8 @@
 "speciali": {
 "g": "especiales",
 "k": "regular",
-"r": "otro",
-"n": "e- protética (st-/sp- → est-/esp-)"
+"n": "e- protética (st-/sp- → est-/esp-)",
+"r": "otro"
 },
 "spedire": {
 "g": "enviar",
@@ -6518,8 +6751,8 @@
 "spero": {
 "g": "espero",
 "k": "regular",
-"r": "otro",
-"n": "s+consonante → es-"
+"n": "s+consonante → es-",
+"r": "otro"
 },
 "spesa": {
 "g": "compras, mercado",
@@ -6582,6 +6815,14 @@
 "g": "esta mañana",
 "k": "opaca"
 },
+"stampante": {
+"g": "impresora",
+"k": "opaca"
+},
+"stampare": {
+"g": "imprimir",
+"k": "opaca"
+},
 "stampo": {
 "g": "imprimo (yo)",
 "k": "opaca"
@@ -6613,8 +6854,8 @@
 "stare": {
 "g": "estar",
 "k": "regular",
-"r": "otro",
-"n": "e- protética (st-/sp- → est-/esp-)"
+"n": "e- protética (st-/sp- → est-/esp-)",
+"r": "otro"
 },
 "stasera": {
 "g": "esta noche",
@@ -6627,20 +6868,20 @@
 "stato": {
 "g": "estado",
 "k": "regular",
-"r": "otro",
-"n": "st- → est-"
+"n": "st- → est-",
+"r": "otro"
 },
 "statua": {
 "g": "estatua",
 "k": "regular",
-"r": "otro",
-"n": "e- protética (st-/sp- → est-/esp-)"
+"n": "e- protética (st-/sp- → est-/esp-)",
+"r": "otro"
 },
 "statue": {
 "g": "estatuas",
 "k": "regular",
-"r": "otro",
-"n": "e- protética (st-/sp- → est-/esp-)"
+"n": "e- protética (st-/sp- → est-/esp-)",
+"r": "otro"
 },
 "stazione": {
 "g": "estación",
@@ -6699,8 +6940,8 @@
 "storia": {
 "g": "historia",
 "k": "regular",
-"r": "otro",
-"n": "pierde la h inicial; ie → o"
+"n": "pierde la h inicial; ie → o",
+"r": "otro"
 },
 "strada": {
 "g": "calle, camino",
@@ -6714,53 +6955,57 @@
 "g": "extranjeras",
 "k": "opaca"
 },
+"strumento": {
+"g": "instrumento",
+"k": "transparente"
+},
 "studente": {
 "g": "estudiante",
 "k": "regular",
-"r": "otro",
-"n": "e- protética (st-/sp- → est-/esp-)"
+"n": "e- protética (st-/sp- → est-/esp-)",
+"r": "otro"
 },
 "studentessa": {
 "g": "estudiante (mujer)",
 "k": "regular",
-"r": "otro",
-"n": "e- protética (st-/sp- → est-/esp-)"
+"n": "e- protética (st-/sp- → est-/esp-)",
+"r": "otro"
 },
 "studenti": {
 "g": "estudiantes",
 "k": "regular",
-"r": "otro",
-"n": "e- protética (st-/sp- → est-/esp-)"
+"n": "e- protética (st-/sp- → est-/esp-)",
+"r": "otro"
 },
 "studi": {
 "g": "estudios",
 "k": "regular",
-"r": "otro",
-"n": "e- protética (st-/sp- → est-/esp-)"
+"n": "e- protética (st-/sp- → est-/esp-)",
+"r": "otro"
 },
 "studia": {
 "g": "estudia",
 "k": "regular",
-"r": "otro",
-"n": "e- protética (st-/sp- → est-/esp-)"
+"n": "e- protética (st-/sp- → est-/esp-)",
+"r": "otro"
 },
 "studiare": {
 "g": "estudiar",
 "k": "regular",
-"r": "otro",
-"n": "e- protética (st-/sp- → est-/esp-)"
+"n": "e- protética (st-/sp- → est-/esp-)",
+"r": "otro"
 },
 "studiato": {
 "g": "estudiado / estudiamos",
 "k": "regular",
-"r": "otro",
-"n": "e- protética (st-/sp- → est-/esp-)"
+"n": "e- protética (st-/sp- → est-/esp-)",
+"r": "otro"
 },
 "studio": {
 "g": "estudio / estudio (yo)",
 "k": "regular",
-"r": "otro",
-"n": "e- protética (st-/sp- → est-/esp-)"
+"n": "e- protética (st-/sp- → est-/esp-)",
+"r": "otro"
 },
 "su": {
 "g": "sobre, en, por",
@@ -6802,6 +7047,16 @@
 "g": "sus",
 "k": "opaca"
 },
+"suonare": {
+"g": "tocar / sonar",
+"k": "regular",
+"r": "ue-uo"
+},
+"suonato": {
+"g": "tocado / sonado",
+"k": "regular",
+"r": "ue-uo"
+},
 "supermercato": {
 "g": "supermercado",
 "k": "transparente"
@@ -6829,6 +7084,10 @@
 "sì": {
 "g": "sí",
 "k": "transparente"
+},
+"tabaccaio": {
+"g": "estanquero / tabaquería",
+"k": "opaca"
 },
 "tabellone": {
 "g": "panel de horarios",
@@ -6859,6 +7118,10 @@
 "k": "opaca",
 "n": "falso amigo: no es «tasca»"
 },
+"tassista": {
+"g": "taxista",
+"k": "transparente"
+},
 "tasto": {
 "g": "tecla",
 "k": "opaca"
@@ -6874,8 +7137,8 @@
 "tazza": {
 "g": "taza",
 "k": "regular",
-"r": "otro",
-"n": "zz → z"
+"n": "zz → z",
+"r": "otro"
 },
 "te": {
 "g": "ti",
@@ -6893,8 +7156,16 @@
 "g": "llamado por teléfono",
 "k": "transparente"
 },
+"telefoniamo": {
+"g": "telefoneamos",
+"k": "transparente"
+},
 "telefono": {
 "g": "teléfono",
+"k": "transparente"
+},
+"temperatura": {
+"g": "temperatura",
 "k": "transparente"
 },
 "tempo": {
@@ -6919,6 +7190,10 @@
 "g": "terraza",
 "k": "regular",
 "r": "doble"
+},
+"terza": {
+"g": "tercera",
+"k": "transparente"
 },
 "terzo": {
 "g": "tercero",
@@ -7008,6 +7283,10 @@
 "g": "pastel",
 "k": "opaca"
 },
+"torte": {
+"g": "tartas",
+"k": "opaca"
+},
 "toscana": {
 "g": "Toscana",
 "k": "transparente"
@@ -7076,14 +7355,14 @@
 "trentadue": {
 "g": "treinta y dos",
 "k": "regular",
-"r": "otro",
-"n": "tren- → trein-"
+"n": "tren- → trein-",
+"r": "otro"
 },
 "trentasette": {
 "g": "treinta y siete",
 "k": "regular",
-"r": "otro",
-"n": "tren- → trein-"
+"n": "tren- → trein-",
+"r": "otro"
 },
 "trentotto": {
 "g": "treinta y ocho",
@@ -7096,6 +7375,10 @@
 },
 "troppa": {
 "g": "demasiada",
+"k": "opaca"
+},
+"troppi": {
+"g": "demasiados",
 "k": "opaca"
 },
 "troppo": {
@@ -7127,9 +7410,9 @@
 "k": "opaca"
 },
 "trucco": {
+"ff": true,
 "g": "maquillo (yo: mi trucco)",
 "k": "opaca",
-"ff": true,
 "n": "Parece 'truco' (artimaña) pero significa maquillaje / me maquillo"
 },
 "tu": {
@@ -7336,8 +7619,8 @@
 "venditori": {
 "g": "vendedores",
 "k": "regular",
-"r": "otro",
-"n": "-tori → -dores (t-d)"
+"n": "-tori → -dores (t-d)",
+"r": "otro"
 },
 "vendo": {
 "g": "vendo",
@@ -7363,14 +7646,14 @@
 "vent": {
 "g": "veinte (vent'anni)",
 "k": "regular",
-"r": "ie-e",
-"n": "veinte → venti"
+"n": "veinte → venti",
+"r": "ie-e"
 },
 "venti": {
 "g": "veinte",
 "k": "regular",
-"r": "otro",
-"n": "ei-e"
+"n": "ei-e",
+"r": "otro"
 },
 "venticinque": {
 "g": "veinticinco",
@@ -7380,8 +7663,8 @@
 "ventitré": {
 "g": "veintitrés",
 "k": "regular",
-"r": "otro",
-"n": "ei-e"
+"n": "ei-e",
+"r": "otro"
 },
 "vento": {
 "g": "viento",
@@ -7391,14 +7674,18 @@
 "ventotto": {
 "g": "veintiocho",
 "k": "regular",
-"r": "ch-tt",
-"n": "ei-e también"
+"n": "ei-e también",
+"r": "ch-tt"
 },
 "ventuno": {
 "g": "veintiuno",
 "k": "regular",
-"r": "otro",
-"n": "ei-e"
+"n": "ei-e",
+"r": "otro"
+},
+"venute": {
+"g": "venidas",
+"k": "transparente"
 },
 "verde": {
 "g": "verde",
@@ -7566,6 +7853,11 @@
 "g": "con gusto",
 "k": "opaca"
 },
+"volo": {
+"g": "vuelo",
+"k": "regular",
+"r": "ue-o"
+},
 "volta": {
 "g": "vez",
 "k": "opaca"
@@ -7621,8 +7913,8 @@
 "zero": {
 "g": "cero",
 "k": "regular",
-"r": "otro",
-"n": "c → z"
+"n": "c → z",
+"r": "otro"
 },
 "zia": {
 "g": "tía",

@@ -17,7 +17,7 @@
       "id": "A2",
       "title": "A2 · Pasado, preposiciones y comparaciones",
       "guided_hours": "90–100 h acumuladas",
-      "milestone": false
+      "milestone": true
     },
     {
       "id": "B1",
@@ -509,7 +509,8 @@
         "rp_a2m02_b"
       ],
       "tasks": [
-        "ht_a2m02"
+        "ht_a2m02",
+        "ht_a2m02_foto"
       ],
       "phrase_groups": [],
       "library": "easy-italian",
@@ -612,7 +613,8 @@
         "rp_a2m05_b"
       ],
       "tasks": [
-        "ht_a2m05"
+        "ht_a2m05",
+        "ht_a2m05_volantino"
       ],
       "phrase_groups": [],
       "library": "linguee",
@@ -622,6 +624,8 @@
       "extra_readings": [
         "ls_a2m05",
         "doc_a2m05_catalogo",
+        "ls_a2m05_pubblicita",
+        "doc_a2m05_volantino",
         "vh_a2m05"
       ]
     },
@@ -644,7 +648,8 @@
       "entry_reading": "rd_a2m06_entrada",
       "roleplays": [
         "rp_a2m06_a",
-        "rp_a2m06_b"
+        "rp_a2m06_b",
+        "rp_a2m06_c"
       ],
       "tasks": [
         "ht_a2m06"
@@ -659,6 +664,7 @@
         "doc_a2m06_modulo",
         "doc_a2m06_regolamento",
         "doc_a2m06_orari",
+        "ls_a2m06_segreteria",
         "vh_a2m06"
       ]
     },
@@ -680,7 +686,8 @@
       "entry_reading": "rd_programmi",
       "roleplays": [
         "rp_a2m07_a",
-        "rp_a2m07_b"
+        "rp_a2m07_b",
+        "rp_a2m07_c"
       ],
       "tasks": [
         "ht_a2m07"
@@ -695,6 +702,8 @@
         "doc_a2m07_meteo",
         "doc_a2m07_cinema",
         "doc_a2m07_invito",
+        "ls_a2m07_radio",
+        "doc_a2m07_notizia",
         "vh_a2m07"
       ]
     },
@@ -751,7 +760,8 @@
       "roleplays": [
         "rp_a2m09_a",
         "rp_a2m09_b",
-        "rp_a2m09_c"
+        "rp_a2m09_c",
+        "rp_a2m09_d"
       ],
       "tasks": [
         "ht_a2m09"
@@ -766,6 +776,8 @@
         "doc_a2m09_orario",
         "doc_a2m09_biglietto",
         "doc_a2m09_email",
+        "ls_a2m09_avvisi",
+        "doc_a2m09_depliant",
         "vh_a2m09"
       ]
     },
@@ -786,7 +798,8 @@
       "entry_reading": "rd_miastoria",
       "roleplays": [
         "rp_a2m10_a",
-        "rp_a2m10_b"
+        "rp_a2m10_b",
+        "rp_a2m10_c"
       ],
       "tasks": [
         "ht_a2m10"
@@ -799,6 +812,7 @@
       "extra_readings": [
         "ls_a2m10",
         "doc_a2m10_annuncio",
+        "doc_a2m10_bigliettovisita",
         "vh_a2m10"
       ]
     }

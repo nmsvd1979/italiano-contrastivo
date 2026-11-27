@@ -331,6 +331,118 @@
     }
    ],
    "translation_es": "El lunes llegué a la oficina a las ocho en punto. Ese día había mucho trabajo y todos estaban cansados. Normalmente tomaba un café con los colegas, pero esa vez me puse a trabajar enseguida. Mientras escribía un correo, de pronto entró el jefe a la oficina. De repente se apagó el computador. Antes de salir llamé a Paolo. En cambio, Laura, mi colega favorita, tomó un café."
+  },
+  {
+   "id": "rl_a2hito_01",
+   "exam": true,
+   "text": "Il mio viaggio a Napoli è stato strano. Ogni estate {1} il treno per andare dai nonni, ma quest'anno ho cambiato abitudine. Alle otto in punto {2} il biglietto alla stazione. Mentre io {3} un libro sul treno, all'improvviso un signore {4} il mio zaino per sbaglio. Da piccola {5} sempre con mia madre, e quel giorno mi è mancata. Quella volta {6} un panino a una signora anziana, e lei mi ha sorriso tutto il viaggio.",
+   "gaps": [
+    {
+     "options": [
+      "prendevo",
+      "ho preso"
+     ],
+     "answer": 0,
+     "why_es": "«Ogni estate» marca una acción habitual o en curso: imperfetto."
+    },
+    {
+     "options": [
+      "ho comprato",
+      "compravo"
+     ],
+     "answer": 0,
+     "why_es": "«Alle otto in punto» marca un hecho puntual: passato prossimo."
+    },
+    {
+     "options": [
+      "leggevo",
+      "ho letto"
+     ],
+     "answer": 0,
+     "why_es": "«Mentre» marca una acción habitual o en curso: imperfetto."
+    },
+    {
+     "options": [
+      "ha urtato",
+      "urtava"
+     ],
+     "answer": 0,
+     "why_es": "«All'improvviso» marca un hecho puntual: passato prossimo."
+    },
+    {
+     "options": [
+      "viaggiavo",
+      "ho viaggiato"
+     ],
+     "answer": 0,
+     "why_es": "«Da piccola» marca una acción habitual o en curso: imperfetto."
+    },
+    {
+     "options": [
+      "ho offerto",
+      "offrivo"
+     ],
+     "answer": 0,
+     "why_es": "«Quella volta» marca un hecho puntual: passato prossimo."
+    }
+   ],
+   "translation_es": "Mi viaje a Nápoles fue extraño. Cada verano tomaba el tren para ir donde mis abuelos, pero este año cambié de costumbre. A las ocho en punto compré el boleto en la estación. Mientras leía un libro en el tren, de pronto un señor chocó mi mochila por error. De pequeña viajaba siempre con mi mamá, y ese día la eché de menos. Esa vez le ofrecí un sándwich a una señora mayor, y ella me sonrió todo el viaje."
+  },
+  {
+   "id": "rl_a2hito_02",
+   "exam": true,
+   "text": "Ogni estate {1} al mare con i miei cugini, e questa è la storia di un giorno speciale. Mentre mio padre {2} l'ombrellone, io giocavo con la sabbia. A un tratto mio fratello {3} un granchio piccolissimo. Di solito {4} un gelato dopo pranzo, ma quel giorno abbiamo preferito nuotare. Quella volta {5} il mio cappello nel mare. All'improvviso {6} un delfino vicino alla barca, e tutti abbiamo gridato di gioia.",
+   "gaps": [
+    {
+     "options": [
+      "andavamo",
+      "siamo andati"
+     ],
+     "answer": 0,
+     "why_es": "«Ogni estate» marca una acción habitual o en curso: imperfetto."
+    },
+    {
+     "options": [
+      "montava",
+      "ha montato"
+     ],
+     "answer": 0,
+     "why_es": "«Mentre» marca una acción habitual o en curso: imperfetto."
+    },
+    {
+     "options": [
+      "ha trovato",
+      "trovava"
+     ],
+     "answer": 0,
+     "why_es": "«A un tratto» marca un hecho puntual: passato prossimo."
+    },
+    {
+     "options": [
+      "mangiavamo",
+      "abbiamo mangiato"
+     ],
+     "answer": 0,
+     "why_es": "«Di solito» marca una acción habitual o en curso: imperfetto."
+    },
+    {
+     "options": [
+      "ho perso",
+      "perdevo"
+     ],
+     "answer": 0,
+     "why_es": "«Quella volta» marca un hecho puntual: passato prossimo."
+    },
+    {
+     "options": [
+      "ho visto",
+      "vedevo"
+     ],
+     "answer": 0,
+     "why_es": "«All'improvviso» marca un hecho puntual: passato prossimo."
+    }
+   ],
+   "translation_es": "Todos los veranos íbamos al mar con mis primos, y esta es la historia de un día especial. Mientras mi papá montaba la sombrilla, yo jugaba con la arena. De pronto mi hermano encontró un cangrejo pequeñísimo. Normalmente comíamos un helado después del almuerzo, pero ese día preferimos nadar. Esa vez perdí mi sombrero en el mar. De repente vi un delfín cerca del bote, y todos gritamos de alegría."
   }
  ]
 }

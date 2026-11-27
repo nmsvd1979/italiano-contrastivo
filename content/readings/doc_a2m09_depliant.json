@@ -1,0 +1,119 @@
+{
+ "id": "doc_a2m09_depliant",
+ "title": "Benvenuti a Siena",
+ "level": "A2",
+ "kind": "lectura",
+ "authored": true,
+ "source": {
+  "book": "Texto escrito por la IA (Claude) para esta app",
+  "authors": "Claude (IA), a pedido del usuario",
+  "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+  "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+ },
+ "adaptation": "Dépliant turístico de una ciudad, escrito por la IA.",
+ "translation": "IA (Claude), sin revisar por un hablante nativo",
+ "sentences": [
+  {
+   "id": "doc_a2m09_depliant_00",
+   "it": "Benvenuti a Siena, una città piccola e molto bella.",
+   "es": "Bienvenidos a Siena, una ciudad pequeña y muy bonita."
+  },
+  {
+   "id": "doc_a2m09_depliant_01",
+   "it": "La piazza principale si chiama Piazza del Campo.",
+   "es": "La plaza principal se llama Piazza del Campo."
+  },
+  {
+   "id": "doc_a2m09_depliant_02",
+   "it": "È sempre aperta e l'ingresso è gratis.",
+   "es": "Siempre está abierta y la entrada es gratis."
+  },
+  {
+   "id": "doc_a2m09_depliant_03",
+   "it": "Il museo della città è aperto dalle nove alle diciotto.",
+   "es": "El museo de la ciudad está abierto de nueve a dieciocho horas."
+  },
+  {
+   "id": "doc_a2m09_depliant_04",
+   "it": "Il biglietto costa otto euro.",
+   "es": "La entrada cuesta ocho euros."
+  },
+  {
+   "id": "doc_a2m09_depliant_05",
+   "it": "I bambini sotto i dieci anni entrano gratis.",
+   "es": "Los niños menores de diez años entran gratis."
+  },
+  {
+   "id": "doc_a2m09_depliant_06",
+   "it": "La torre è aperta dalle dieci alle sedici.",
+   "es": "La torre está abierta de diez a dieciséis horas."
+  },
+  {
+   "id": "doc_a2m09_depliant_07",
+   "it": "Il biglietto per la torre costa dieci euro.",
+   "es": "La entrada a la torre cuesta diez euros."
+  },
+  {
+   "id": "doc_a2m09_depliant_08",
+   "it": "Dalla torre vedi tutta la città.",
+   "es": "Desde la torre ves toda la ciudad."
+  },
+  {
+   "id": "doc_a2m09_depliant_09",
+   "it": "Vicino alla piazza trovi tanti ristoranti e negozi.",
+   "es": "Cerca de la plaza encuentras muchos restaurantes y tiendas."
+  }
+ ],
+ "questions": [
+  {
+   "prompt_es": "¿Cuánto cuesta la entrada a la Piazza del Campo?",
+   "options": [
+    "Es gratis",
+    "Cuesta ocho euros",
+    "Cuesta diez euros"
+   ],
+   "answer": 0,
+   "evidence": 2
+  },
+  {
+   "prompt_es": "¿Hasta qué hora está abierto el museo?",
+   "options": [
+    "Hasta las 16",
+    "Hasta las 18",
+    "Hasta las 9"
+   ],
+   "answer": 1,
+   "evidence": 3
+  },
+  {
+   "prompt_es": "¿Cuánto cuesta entrar a la torre?",
+   "options": [
+    "Ocho euros",
+    "Diez euros",
+    "Es gratis"
+   ],
+   "answer": 1,
+   "evidence": 7
+  },
+  {
+   "prompt_es": "¿Quién entra gratis al museo?",
+   "options": [
+    "Los niños menores de diez años",
+    "Todos los domingos",
+    "Los turistas"
+   ],
+   "answer": 0,
+   "evidence": 5
+  },
+  {
+   "prompt_es": "¿Qué hay cerca de la plaza?",
+   "options": [
+    "Restaurantes y tiendas",
+    "Un aeropuerto",
+    "Un parque grande"
+   ],
+   "answer": 0,
+   "evidence": 9
+  }
+ ]
+}

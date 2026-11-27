@@ -67,7 +67,9 @@ describe("sesión de hoy", () => {
     const mods = pack.course.modules!.map((m) => ({ ...emptyProgress(`mod:${m.id}`), completed: true }));   // y todos los módulos cerrados
     const b = sessionFor([...all, ...mods]);   // sin hito aprobado, el siguiente tramo del camino es el examen de hito
     expect(b.map((x) => x.href)).toEqual(["#/repaso", "#/hito/A1"]);
-    const passed = sessionFor([...all, ...mods, { ...emptyProgress("hito:A1"), completed: true }]);   // con el hito aprobado solo queda el repaso: no se ofrece ninguna unidad de otro nivel
+    const h1 = { ...emptyProgress("hito:A1"), completed: true };
+    expect(sessionFor([...all, ...mods, h1]).map((x) => x.href)).toEqual(["#/repaso", "#/hito/A2"]);   // con el hito A1 aprobado y A2 abierto, el siguiente tramo es el hito A2
+    const passed = sessionFor([...all, ...mods, h1, { ...emptyProgress("hito:A2"), completed: true }]);   // con los dos hitos aprobados solo queda el repaso: no se ofrece ninguna unidad de otro nivel
     expect(passed.map((x) => x.key)).toEqual(["repaso"]);
   });
   it("al empezar (sin Entrada hecha) la sesión propone la Entrada del primer módulo", () => {

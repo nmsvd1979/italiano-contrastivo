@@ -1,0 +1,142 @@
+{
+ "id": "ls_a2m06_segreteria",
+ "title": "Messaggio della segreteria",
+ "level": "A2",
+ "kind": "dialogo",
+ "authored": true,
+ "source": {
+  "book": "Texto escrito por la IA (Claude) para esta app",
+  "authors": "Claude (IA), a pedido del usuario",
+  "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+  "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+ },
+ "adaptation": "Mensaje de contestador de una secretaria, escrito por la IA; usa la forma Lei.",
+ "translation": "IA (Claude), sin revisar por un hablante nativo",
+ "sentences": [
+  {
+   "id": "ls_a2m06_segreteria_00",
+   "it": "Buongiorno, questa è la segreteria dello studio Bianchi.",
+   "es": "Buenos días, esta es la secretaría del estudio Bianchi.",
+   "speaker": "Segretaria"
+  },
+  {
+   "id": "ls_a2m06_segreteria_01",
+   "it": "Siamo aperti dal lunedì al venerdì.",
+   "es": "Estamos abiertos de lunes a viernes.",
+   "speaker": "Segretaria"
+  },
+  {
+   "id": "ls_a2m06_segreteria_02",
+   "it": "La mattina siamo aperti dalle nove alle tredici.",
+   "es": "Por la mañana estamos abiertos de nueve a trece horas.",
+   "speaker": "Segretaria"
+  },
+  {
+   "id": "ls_a2m06_segreteria_03",
+   "it": "Il pomeriggio siamo aperti dalle quindici alle diciotto.",
+   "es": "Por la tarde estamos abiertos de quince a dieciocho horas.",
+   "speaker": "Segretaria"
+  },
+  {
+   "id": "ls_a2m06_segreteria_04",
+   "it": "Il sabato e la domenica siamo chiusi.",
+   "es": "Los sábados y domingos estamos cerrados.",
+   "speaker": "Segretaria"
+  },
+  {
+   "id": "ls_a2m06_segreteria_05",
+   "it": "Ora non c'è nessuno in ufficio.",
+   "es": "Ahora no hay nadie en la oficina.",
+   "speaker": "Segretaria"
+  },
+  {
+   "id": "ls_a2m06_segreteria_06",
+   "it": "Per un appuntamento, chiami lo zero due, tre quattro cinque.",
+   "es": "Para una cita, llame al cero dos, tres cuatro cinco.",
+   "speaker": "Segretaria"
+  },
+  {
+   "id": "ls_a2m06_segreteria_07",
+   "it": "Per favore, lasci un messaggio dopo il segnale.",
+   "es": "Por favor, deje un mensaje después de la señal.",
+   "speaker": "Segretaria"
+  },
+  {
+   "id": "ls_a2m06_segreteria_08",
+   "it": "Dica il suo nome e il suo numero di telefono.",
+   "es": "Diga su nombre y su número de teléfono.",
+   "speaker": "Segretaria"
+  },
+  {
+   "id": "ls_a2m06_segreteria_09",
+   "it": "Può anche scrivere una e-mail.",
+   "es": "También puede escribir un correo electrónico.",
+   "speaker": "Segretaria"
+  },
+  {
+   "id": "ls_a2m06_segreteria_10",
+   "it": "Le telefoniamo domani mattina.",
+   "es": "Le llamamos mañana por la mañana.",
+   "speaker": "Segretaria"
+  },
+  {
+   "id": "ls_a2m06_segreteria_11",
+   "it": "Grazie e buona giornata.",
+   "es": "Gracias y que tenga un buen día.",
+   "speaker": "Segretaria"
+  }
+ ],
+ "questions": [
+  {
+   "prompt_es": "¿Qué días está abierto el estudio?",
+   "options": [
+    "De lunes a viernes",
+    "De lunes a sábado",
+    "Todos los días"
+   ],
+   "answer": 0,
+   "evidence": 1
+  },
+  {
+   "prompt_es": "¿Hasta qué hora está abierto por la tarde?",
+   "options": [
+    "Hasta las 13",
+    "Hasta las 15",
+    "Hasta las 18"
+   ],
+   "answer": 2,
+   "evidence": 3
+  },
+  {
+   "prompt_es": "¿Qué debe hacer la persona después de la señal?",
+   "options": [
+    "Dejar un mensaje",
+    "Llamar mañana",
+    "Ir a la oficina"
+   ],
+   "answer": 0,
+   "evidence": 7
+  },
+  {
+   "prompt_es": "¿Qué día llamará el estudio a la persona?",
+   "options": [
+    "Hoy por la tarde",
+    "Mañana por la mañana",
+    "El sábado"
+   ],
+   "answer": 1,
+   "evidence": 10
+  },
+  {
+   "prompt_es": "¿Qué más puede hacer la persona?",
+   "options": [
+    "Escribir un correo",
+    "Ir el domingo",
+    "Pagar por teléfono"
+   ],
+   "answer": 0,
+   "evidence": 9
+  }
+ ],
+ "listen": true
+}

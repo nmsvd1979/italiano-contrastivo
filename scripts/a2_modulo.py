@@ -18,6 +18,11 @@ REUSE = {"a2c04": "u09", "a2c13": "u10", "a2c17": "u11"}
 
 syl = json.loads((ROOT / "schemas/data/syllabus-a2.json").read_text(encoding="utf8"))
 sp2 = json.loads((ROOT / "schemas/data/speaking-a2.json").read_text(encoding="utf8"))["modules"][mod_id]
+EXTRA_FILE = ROOT / "schemas/data/speaking-a2-extra.json"   # juegos de rol, tareas y textos añadidos al cerrar la cobertura de A2 (Fase 6)
+extra = json.loads(EXTRA_FILE.read_text(encoding="utf8")) if EXTRA_FILE.exists() else {}
+sp2 = {**sp2, "roleplays": sp2["roleplays"] + [r for r in extra.get("roleplays", []) if r["module"] == mod_id],
+       "readings": sp2["readings"] + extra.get("readings", {}).get(mod_id, [])}
+extra_tasks = [t for t in extra.get("tasks", []) if t["module"] == mod_id]
 course = json.loads(COURSE.read_text(encoding="utf8"))
 speak = json.loads(SPEAK.read_text(encoding="utf8"))
 m = next(x for x in syl["modulos_planificados"] if x["id"] == mod_id)
@@ -54,20 +59,21 @@ rps = []
 for rp in sp2["roleplays"]:
     rps.append({"id": rp["id"], "title": rp["title"], "function_es": rp["function_es"], "reading": rp["reading"], "from": rp["from"], "to": rp["to"], "after": [unit_ids[-1]], "goal_es": rp["goal_es"]})
 speak["roleplays"] = [r for r in speak["roleplays"] if r["id"] not in {x["id"] for x in rps}] + rps
-t = sp2["task"]
-task = {"id": t["id"], "title": t["title"], "function_es": t["function_es"], "level": "A2", "minutes": t["minutes"], "after": [unit_ids[-1]], "source": SRC,
-        "intro_es": t["intro_es"], "questions": t["questions"], "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
-        "checklist_es": ["Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).", "No leí: hablé de corrido, aunque con pausas.",
-                         "Cuidé lo que enseña este módulo: " + "; ".join(c["title_es"] for c in m["capsulas"][:3]) + ".", "Me escuché: la pronunciación y las dobles sonaron como en el modelo."]}
-speak["tasks"] = [x for x in speak["tasks"] if x["id"] != task["id"]] + [task]
+def make_task(t):
+    return {"id": t["id"], "title": t["title"], "function_es": t["function_es"], "level": "A2", "minutes": t["minutes"], "after": [unit_ids[-1]], "source": SRC,
+            "intro_es": t["intro_es"], "questions": t["questions"], "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
+            "checklist_es": ["Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).", "No leí: hablé de corrido, aunque con pausas.",
+                             "Cuidé lo que enseña este módulo: " + "; ".join(c["title_es"] for c in m["capsulas"][:3]) + ".", "Me escuché: la pronunciación y las dobles sonaron como en el modelo."]}
+tasks = [make_task(sp2["task"])] + [make_task(t) for t in extra_tasks]
+speak["tasks"] = [x for x in speak["tasks"] if x["id"] not in {t["id"] for t in tasks}] + tasks
 iv = speak.setdefault("interview", {}).setdefault("questions", [])
 speak["interview"]["questions"] = [q for q in iv if q.get("module") != mod_id] + sp2["interview"]
 
 mod = {"id": mod_id, "level": "A2", "title": m["title_es"], "can_do_es": m["can_do_es"], "units": unit_ids, "entry_reading": m["entrada"]["id"], "roleplays": [r["id"] for r in rps],
-       "tasks": [task["id"]], "phrase_groups": [], "library": m["library"], "library_task_es": m["library_task_es"], "writing_es": sp2["writing"]["texto_es"],
+       "tasks": [t["id"] for t in tasks], "phrase_groups": [], "library": m["library"], "library_task_es": m["library_task_es"], "writing_es": sp2["writing"]["texto_es"],
        "writing_short_es": sp2["writing"]["mensaje_es"],
        "extra_readings": [r for r in sp2["readings"] if r.startswith(("ls_", "doc_"))] + [f"vh_{mod_id}"]}
-course["modules"] = [x for x in course["modules"] if x["id"] != mod_id] + [mod]
+course["modules"] = sorted([x for x in course["modules"] if x["id"] != mod_id] + [mod], key=lambda x: (x["level"] == "A2", x["id"] if x["level"] == "A2" else ""))   # orden estable: A1 intacto, A2 por id
 COURSE.write_text(json.dumps(course, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
 SPEAK.write_text(json.dumps(speak, ensure_ascii=False, indent=1) + "\n", encoding="utf8")   # speaking.json usa sangría de 1 espacio
 print(mod_id, "unidades:", unit_ids, "| módulo número", n_mod)

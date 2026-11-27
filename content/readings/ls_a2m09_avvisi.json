@@ -1,0 +1,130 @@
+{
+ "id": "ls_a2m09_avvisi",
+ "title": "Avvisi in stazione e in aeroporto",
+ "level": "A2",
+ "kind": "lectura",
+ "authored": true,
+ "source": {
+  "book": "Texto escrito por la IA (Claude) para esta app",
+  "authors": "Claude (IA), a pedido del usuario",
+  "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+  "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+ },
+ "adaptation": "Avisos públicos de estación y aeropuerto, escritos por la IA.",
+ "translation": "IA (Claude), sin revisar por un hablante nativo",
+ "sentences": [
+  {
+   "id": "ls_a2m09_avvisi_00",
+   "it": "Attenzione! Il treno regionale per Firenze è in ritardo.",
+   "es": "¡Atención! El tren regional a Florencia viene atrasado.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m09_avvisi_01",
+   "it": "Il ritardo è di venti minuti.",
+   "es": "El retraso es de veinte minutos.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m09_avvisi_02",
+   "it": "Il treno parte dal binario quattro.",
+   "es": "El tren sale del andén cuatro.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m09_avvisi_03",
+   "it": "Attenzione: non attraversare i binari.",
+   "es": "Atención: no cruce las vías.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m09_avvisi_04",
+   "it": "Il treno Frecciarossa per Roma è in partenza dal binario sette.",
+   "es": "El tren Frecciarossa a Roma está por salir del andén siete.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m09_avvisi_05",
+   "it": "I passeggeri possono salire.",
+   "es": "Los pasajeros pueden subir.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m09_avvisi_06",
+   "it": "Gentili passeggeri del volo per Madrid, l'imbarco è alla porta dodici.",
+   "es": "Estimados pasajeros del vuelo a Madrid, el embarque es en la puerta doce.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m09_avvisi_07",
+   "it": "L'imbarco comincia alle quindici e trenta.",
+   "es": "El embarque empieza a las quince treinta.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m09_avvisi_08",
+   "it": "Preparate la carta d'imbarco e il passaporto.",
+   "es": "Preparen la tarjeta de embarque y el pasaporte.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m09_avvisi_09",
+   "it": "Grazie e buon viaggio a tutti.",
+   "es": "Gracias y buen viaje a todos.",
+   "speaker": "Speaker"
+  }
+ ],
+ "questions": [
+  {
+   "prompt_es": "¿Cuánto se retrasa el tren a Florencia?",
+   "options": [
+    "Diez minutos",
+    "Veinte minutos",
+    "Cuarenta minutos"
+   ],
+   "answer": 1,
+   "evidence": 1
+  },
+  {
+   "prompt_es": "¿De qué andén sale el tren regional?",
+   "options": [
+    "Del cuatro",
+    "Del siete",
+    "Del doce"
+   ],
+   "answer": 0,
+   "evidence": 2
+  },
+  {
+   "prompt_es": "¿Adónde va el tren Frecciarossa?",
+   "options": [
+    "A Roma",
+    "A Florencia",
+    "A Madrid"
+   ],
+   "answer": 0,
+   "evidence": 4
+  },
+  {
+   "prompt_es": "¿En qué puerta es el embarque?",
+   "options": [
+    "En la siete",
+    "En la doce",
+    "En la cuatro"
+   ],
+   "answer": 1,
+   "evidence": 6
+  },
+  {
+   "prompt_es": "¿Qué deben preparar los pasajeros del vuelo?",
+   "options": [
+    "Tarjeta de embarque y pasaporte",
+    "El billete de tren",
+    "Solo el pasaporte"
+   ],
+   "answer": 0,
+   "evidence": 8
+  }
+ ],
+ "listen": true
+}

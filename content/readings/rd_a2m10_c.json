@@ -1,0 +1,135 @@
+{
+ "id": "rd_a2m10_c",
+ "title": "Una mano con il computer",
+ "level": "A2",
+ "kind": "dialogo",
+ "authored": true,
+ "source": {
+  "book": "Texto escrito por la IA (Claude) para esta app",
+  "authors": "Claude (IA), a pedido del usuario",
+  "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+  "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+ },
+ "adaptation": "Diálogo propio de A2: entre colegas, horarios y ayuda con el computador.",
+ "translation": "IA (Claude), sin revisar por un hablante nativo",
+ "sentences": [
+  {
+   "id": "rd_a2m10_c_00",
+   "it": "Ciao Elena. A che ora finisci oggi?",
+   "es": "Hola, Elena. ¿A qué hora terminas hoy?",
+   "speaker": "Luca"
+  },
+  {
+   "id": "rd_a2m10_c_01",
+   "it": "Finisco alle cinque. E tu?",
+   "es": "Termino a las cinco. ¿Y tú?",
+   "speaker": "Elena"
+  },
+  {
+   "id": "rd_a2m10_c_02",
+   "it": "Io finisco alle sei. Il mio computer non funziona.",
+   "es": "Yo termino a las seis. Mi computador no funciona.",
+   "speaker": "Luca"
+  },
+  {
+   "id": "rd_a2m10_c_03",
+   "it": "Vuoi una mano? Posso guardare io.",
+   "es": "¿Quieres una mano? Puedo mirar yo.",
+   "speaker": "Elena"
+  },
+  {
+   "id": "rd_a2m10_c_04",
+   "it": "Sì, grazie. Non riesco ad aprire il file.",
+   "es": "Sí, gracias. No logro abrir el archivo.",
+   "speaker": "Luca"
+  },
+  {
+   "id": "rd_a2m10_c_05",
+   "it": "Chiudi il programma. Poi aprilo di nuovo.",
+   "es": "Cierra el programa. Luego ábrelo de nuevo.",
+   "speaker": "Elena"
+  },
+  {
+   "id": "rd_a2m10_c_06",
+   "it": "Ecco, adesso funziona! Grazie mille.",
+   "es": "¡Ya está, ahora funciona! Muchas gracias.",
+   "speaker": "Luca"
+  },
+  {
+   "id": "rd_a2m10_c_07",
+   "it": "Di niente. Hai bisogno d'altro?",
+   "es": "De nada. ¿Necesitas algo más?",
+   "speaker": "Elena"
+  },
+  {
+   "id": "rd_a2m10_c_08",
+   "it": "Sì, devo stampare un documento. Dov'è la stampante?",
+   "es": "Sí, debo imprimir un documento. ¿Dónde está la impresora?",
+   "speaker": "Luca"
+  },
+  {
+   "id": "rd_a2m10_c_09",
+   "it": "È in fondo al corridoio. Ti accompagno io.",
+   "es": "Está al fondo del pasillo. Te acompaño yo.",
+   "speaker": "Elena"
+  },
+  {
+   "id": "rd_a2m10_c_10",
+   "it": "Sei molto gentile. Grazie!",
+   "es": "Eres muy amable. ¡Gracias!",
+   "speaker": "Luca"
+  }
+ ],
+ "questions": [
+  {
+   "prompt_es": "¿A qué hora termina Elena?",
+   "options": [
+    "A las cinco",
+    "A las seis",
+    "A las siete"
+   ],
+   "answer": 0,
+   "evidence": 1
+  },
+  {
+   "prompt_es": "¿A qué hora termina Luca?",
+   "options": [
+    "A las seis",
+    "A las cinco",
+    "A las cuatro"
+   ],
+   "answer": 0,
+   "evidence": 2
+  },
+  {
+   "prompt_es": "¿Qué problema tiene Luca con el computador?",
+   "options": [
+    "No logra abrir un archivo",
+    "No se enciende",
+    "Está muy lento"
+   ],
+   "answer": 0,
+   "evidence": 4
+  },
+  {
+   "prompt_es": "¿Cómo lo soluciona?",
+   "options": [
+    "Cerrando y abriendo el programa",
+    "Llamando a un técnico",
+    "Reiniciando el computador"
+   ],
+   "answer": 0,
+   "evidence": 5
+  },
+  {
+   "prompt_es": "¿Dónde está la impresora?",
+   "options": [
+    "Al fondo del pasillo",
+    "En la oficina de Marco",
+    "En el piso de arriba"
+   ],
+   "answer": 0,
+   "evidence": 9
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "id": "ls_a2m07_radio",
+ "title": "Radio Città: tempo ed eventi",
+ "level": "A2",
+ "kind": "lectura",
+ "authored": true,
+ "source": {
+  "book": "Texto escrito por la IA (Claude) para esta app",
+  "authors": "Claude (IA), a pedido del usuario",
+  "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+  "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+ },
+ "adaptation": "Transmisión breve de radio con el tiempo y eventos del fin de semana, escrita por la IA; usa el futuro simple.",
+ "translation": "IA (Claude), sin revisar por un hablante nativo",
+ "sentences": [
+  {
+   "id": "ls_a2m07_radio_00",
+   "it": "Buongiorno da Radio Città! Ecco il tempo per il fine settimana.",
+   "es": "¡Buenos días desde Radio Città! Este es el tiempo para el fin de semana.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m07_radio_01",
+   "it": "Sabato farà bel tempo e ci sarà il sole.",
+   "es": "El sábado hará buen tiempo y habrá sol.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m07_radio_02",
+   "it": "La temperatura sarà di venti gradi.",
+   "es": "La temperatura será de veinte grados.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m07_radio_03",
+   "it": "Domenica pioverà al mattino.",
+   "es": "El domingo lloverá por la mañana.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m07_radio_04",
+   "it": "Nel pomeriggio ci saranno nuvole, ma non farà freddo.",
+   "es": "Por la tarde habrá nubes, pero no hará frío.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m07_radio_05",
+   "it": "Ora gli eventi del fine settimana.",
+   "es": "Ahora los eventos del fin de semana.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m07_radio_06",
+   "it": "Sabato sera ci sarà un concerto in piazza.",
+   "es": "El sábado por la noche habrá un concierto en la plaza.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m07_radio_07",
+   "it": "Il concerto comincerà alle otto e sarà gratis.",
+   "es": "El concierto empezará a las ocho y será gratis.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m07_radio_08",
+   "it": "Domenica ci sarà un mercato in via Verdi.",
+   "es": "El domingo habrá un mercado en la calle Verdi.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m07_radio_09",
+   "it": "I bambini potranno giocare nel parco.",
+   "es": "Los niños podrán jugar en el parque.",
+   "speaker": "Speaker"
+  },
+  {
+   "id": "ls_a2m07_radio_10",
+   "it": "Buon fine settimana a tutti!",
+   "es": "¡Feliz fin de semana a todos!",
+   "speaker": "Speaker"
+  }
+ ],
+ "questions": [
+  {
+   "prompt_es": "¿Qué tiempo hará el sábado?",
+   "options": [
+    "Habrá sol",
+    "Lloverá",
+    "Hará frío"
+   ],
+   "answer": 0,
+   "evidence": 1
+  },
+  {
+   "prompt_es": "¿Cuándo lloverá?",
+   "options": [
+    "El sábado por la noche",
+    "El domingo por la mañana",
+    "El domingo por la tarde"
+   ],
+   "answer": 1,
+   "evidence": 3
+  },
+  {
+   "prompt_es": "¿Cómo será el concierto?",
+   "options": [
+    "Será gratis",
+    "Costará ocho euros",
+    "Será en el parque"
+   ],
+   "answer": 0,
+   "evidence": 7
+  },
+  {
+   "prompt_es": "¿Dónde habrá un mercado el domingo?",
+   "options": [
+    "En la calle Verdi",
+    "En la plaza",
+    "En el parque"
+   ],
+   "answer": 0,
+   "evidence": 8
+  },
+  {
+   "prompt_es": "¿A qué hora empezará el concierto?",
+   "options": [
+    "A las seis",
+    "A las ocho",
+    "A las diez"
+   ],
+   "answer": 1,
+   "evidence": 7
+  }
+ ],
+ "listen": true
+}

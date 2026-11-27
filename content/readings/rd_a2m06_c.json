@@ -1,0 +1,135 @@
+{
+ "id": "rd_a2m06_c",
+ "title": "In segreteria: iscrizione al corso",
+ "level": "A2",
+ "kind": "dialogo",
+ "authored": true,
+ "source": {
+  "book": "Texto escrito por la IA (Claude) para esta app",
+  "authors": "Claude (IA), a pedido del usuario",
+  "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+  "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+ },
+ "adaptation": "Diálogo propio de A2 en la secretaría de una escuela (tratamiento de Lei).",
+ "translation": "IA (Claude), sin revisar por un hablante nativo",
+ "sentences": [
+  {
+   "id": "rd_a2m06_c_00",
+   "it": "Buongiorno, vorrei informazioni sul corso di inglese.",
+   "es": "Buenos días, quisiera información sobre el curso de inglés.",
+   "speaker": "Marco"
+  },
+  {
+   "id": "rd_a2m06_c_01",
+   "it": "Buongiorno. Il corso comincia il 5 ottobre.",
+   "es": "Buenos días. El curso comienza el 5 de octubre.",
+   "speaker": "Elena"
+  },
+  {
+   "id": "rd_a2m06_c_02",
+   "it": "Quanto costa il corso?",
+   "es": "¿Cuánto cuesta el curso?",
+   "speaker": "Marco"
+  },
+  {
+   "id": "rd_a2m06_c_03",
+   "it": "Costa 200 euro per tre mesi.",
+   "es": "Cuesta 200 euros por tres meses.",
+   "speaker": "Elena"
+  },
+  {
+   "id": "rd_a2m06_c_04",
+   "it": "Che documenti servono?",
+   "es": "¿Qué documentos se necesitan?",
+   "speaker": "Marco"
+  },
+  {
+   "id": "rd_a2m06_c_05",
+   "it": "Servono un documento e due foto.",
+   "es": "Se necesitan un documento y dos fotos.",
+   "speaker": "Elena"
+  },
+  {
+   "id": "rd_a2m06_c_06",
+   "it": "A che ora sono le lezioni?",
+   "es": "¿A qué hora son las clases?",
+   "speaker": "Marco"
+  },
+  {
+   "id": "rd_a2m06_c_07",
+   "it": "Sono dalle sei alle otto di sera.",
+   "es": "Son desde las seis hasta las ocho de la tarde.",
+   "speaker": "Elena"
+  },
+  {
+   "id": "rd_a2m06_c_08",
+   "it": "Va bene. Posso pagare adesso?",
+   "es": "Está bien. ¿Puedo pagar ahora?",
+   "speaker": "Marco"
+  },
+  {
+   "id": "rd_a2m06_c_09",
+   "it": "Sì, può pagare qui con la carta.",
+   "es": "Sí, puede pagar aquí con tarjeta.",
+   "speaker": "Elena"
+  },
+  {
+   "id": "rd_a2m06_c_10",
+   "it": "Grazie mille. Arrivederci!",
+   "es": "Muchas gracias. ¡Hasta luego!",
+   "speaker": "Marco"
+  }
+ ],
+ "questions": [
+  {
+   "prompt_es": "¿Qué curso le interesa a Marco?",
+   "options": [
+    "Inglés",
+    "Italiano",
+    "Español"
+   ],
+   "answer": 0,
+   "evidence": 0
+  },
+  {
+   "prompt_es": "¿Cuándo comienza el curso?",
+   "options": [
+    "El 5 de octubre",
+    "El 15 de octubre",
+    "El 5 de noviembre"
+   ],
+   "answer": 0,
+   "evidence": 1
+  },
+  {
+   "prompt_es": "¿Cuánto cuesta el curso?",
+   "options": [
+    "100 euros",
+    "200 euros",
+    "300 euros"
+   ],
+   "answer": 1,
+   "evidence": 3
+  },
+  {
+   "prompt_es": "¿Qué documentos se necesitan?",
+   "options": [
+    "Un documento y dos fotos",
+    "Solo una foto",
+    "Un certificado médico"
+   ],
+   "answer": 0,
+   "evidence": 5
+  },
+  {
+   "prompt_es": "¿En qué horario son las clases?",
+   "options": [
+    "De 6 a 8 de la tarde",
+    "De 8 a 10 de la mañana",
+    "De 2 a 4 de la tarde"
+   ],
+   "answer": 0,
+   "evidence": 7
+  }
+ ]
+}
