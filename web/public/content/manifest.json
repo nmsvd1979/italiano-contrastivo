@@ -82,6 +82,7 @@
     "cap_err_imperativo_pronomi",
     "cap_err_imperfetto_forma",
     "cap_err_indefiniti",
+    "cap_err_opinione",
     "cap_err_pp_ausiliare",
     "cap_err_pp_participi_irreg",
     "cap_err_pp_vs_imperfetto",
@@ -89,6 +90,7 @@
     "cap_err_reflexive_aux",
     "cap_err_relativo_che",
     "cap_err_si_impersonale",
+    "cap_err_subordinate",
     "cap_err_tempo_fa_da",
     "cap_err_participle_agreement",
     "cap_err_date_orari",
@@ -253,9 +255,9 @@
       "usable": 44
     },
     "ERR_OPINIONE": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 64
     },
     "ERR_ORA_ES": {
       "capsule": true,
@@ -403,9 +405,9 @@
       "usable": 39
     },
     "ERR_SUBORDINATE": {
-      "capsule": false,
-      "reason": "menos de 3 oraciones utilizables",
-      "usable": 0
+      "capsule": true,
+      "reason": null,
+      "usable": 53
     },
     "ERR_TEMPO_FA_DA": {
       "capsule": true,
@@ -650,17 +652,17 @@
   },
   "levels": {
     "A1": 3441,
-    "A2": 1793,
+    "A2": 1910,
     "B1": 156,
     "B2": 7
   },
   "reviewers": {
-    "llm-audit": 5371,
+    "llm-audit": 5488,
     "me": 26
   },
-  "sentences_used": 4721,
+  "sentences_used": 4838,
   "translation_kind": {
-    "direct": 2504,
-    "llm": 2217
+    "direct": 2562,
+    "llm": 2276
   }
 }

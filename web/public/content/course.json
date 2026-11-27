@@ -767,6 +767,39 @@
         "doc_a2m09_email",
         "vh_a2m09"
       ]
+    },
+    {
+      "id": "a2m10",
+      "level": "A2",
+      "title": "Trabajo, salud y opinar",
+      "can_do_es": [
+        "Hablar de tu trabajo o estudios y de lo que sabes hacer.",
+        "Hablar con un colega en el lugar de trabajo.",
+        "Describir un síntoma simple al médico o en la farmacia.",
+        "Dar tu opinión y estar de acuerdo o no con cortesía."
+      ],
+      "units": [
+        "u106",
+        "u107"
+      ],
+      "entry_reading": "rd_miastoria",
+      "roleplays": [
+        "rp_a2m10_a",
+        "rp_a2m10_b"
+      ],
+      "tasks": [
+        "ht_a2m10"
+      ],
+      "phrase_groups": [],
+      "library": "vikidia-it",
+      "library_task_es": "Lee en Vikidia un artículo corto de un tema que te guste y escribe en italiano tu opinión en dos frases con «secondo me».",
+      "writing_es": "Escribe un texto de 40 a 60 palabras: cuenta que no te sientes bien (dos síntomas: mi fa male..., ho la...), qué piensas hacer y por qué. Usa al menos 2 de estas fórmulas: secondo me, credo di, penso di sì/no, e un «perché» o un «per + infinitivo».",
+      "writing_short_es": "Escribe un mensaje de 25 a 50 palabras a un amigo: propón un plan para el fin de semana y pídele su opinión (che ne pensi?). Usa «secondo me» o «credo di», y di cuándo y para qué.",
+      "extra_readings": [
+        "ls_a2m10",
+        "doc_a2m10_annuncio",
+        "vh_a2m10"
+      ]
     }
   ],
   "units": [
@@ -20221,6 +20254,243 @@
           "start": 9,
           "end": 15,
           "wrong": "atterraggio"
+        }
+      ]
+    },
+    {
+      "id": "u106",
+      "level": "A2",
+      "title": "Opinar sin congiuntivo: secondo me, penso di sì",
+      "goal_es": "Opinar sin congiuntivo: secondo me, penso di sì",
+      "codes": [
+        "ERR_OPINIONE"
+      ],
+      "why_here": "El día a día adulto: tu trabajo o estudios y un colega, el médico o la farmacia, un anuncio de casa; y decir qué piensas y por qué.",
+      "ficha_es": "Para opinar se dice secondo me (no *secondo io) y para estar de acuerdo, sono d'accordo (no *sto d'accordo ni *di accordo). Con el mismo sujeto el italiano usa di + infinitivo: credo di avere ragione, penso di sì.\n\nError típico: *secondo io → secondo me; *sto d'accordo, *di accordo → sono d'accordo; *credo che ho ragione (mismo sujeto) → credo di avere ragione; *creo que sí → penso di sì. Válido y no es error: penso che è (coloquial: «evitar en formal», no se marca como error)\n\nQué practicas aquí: Subordinadas objetivas con «che» + indicativo (dice che…, so che…, vedo che…); Opinar sin congiuntivo (secondo me, penso di sì, credo di + infinitivo, sono d'accordo).\n\nSituación del módulo: El día a día adulto: tu trabajo o estudios y un colega, el médico o la farmacia, un anuncio de casa; y decir qué piensas y por qué.",
+      "status": "active",
+      "explanation_es": "Para opinar se dice secondo me (no *secondo io) y para estar de acuerdo, sono d'accordo (no *sto d'accordo ni *di accordo). Con el mismo sujeto el italiano usa di + infinitivo: credo di avere ragione, penso di sì.",
+      "parts": {
+        "descubre": [
+          "s_4438",
+          "s_13038523",
+          "a_207847c9",
+          "s_621056"
+        ],
+        "practica": [
+          "s_4438",
+          "s_13038523",
+          "a_207847c9",
+          "s_621056",
+          "s_1075940",
+          "s_3641072",
+          "a_c056a31f",
+          "s_828702",
+          "s_1124270",
+          "s_3406909",
+          "s_3641074",
+          "a_6ea8da6d",
+          "a_ab86a1d1",
+          "a_e3e4f760",
+          "s_2262458",
+          "a_131e0c72",
+          "s_4682",
+          "a_f6103a54",
+          "s_11255668",
+          "s_1492575",
+          "a_d5f3ff53",
+          "a_f71a0b12",
+          "s_1358919",
+          "s_1492576",
+          "a_371f0a51",
+          "a_6710b0f8",
+          "a_11640ca5",
+          "a_35ceb564",
+          "a_49128235",
+          "s_1314389",
+          "s_409358",
+          "s_448307",
+          "s_12255253",
+          "s_3855583",
+          "s_4054104",
+          "s_4513634",
+          "s_6832229",
+          "a_f56526ab",
+          "a_b43d8649",
+          "a_ca291696",
+          "s_1539441",
+          "s_1539442",
+          "s_4054106",
+          "s_876838",
+          "s_11608116",
+          "s_6701657",
+          "a_f290a0a4",
+          "s_1539443",
+          "s_945451",
+          "s_1541414",
+          "s_3946435",
+          "s_3425995",
+          "a_853f2d07",
+          "s_13884130"
+        ],
+        "escucha": [
+          "s_4438",
+          "a_c056a31f",
+          "a_ab86a1d1",
+          "s_11255668",
+          "a_371f0a51",
+          "s_409358",
+          "s_6832229",
+          "s_4054106"
+        ],
+        "prueba": [
+          "s_3641077",
+          "a_0f039643",
+          "a_a794a1bb",
+          "a_eb1242ca",
+          "a_23cf8a5d",
+          "a_49cb1742",
+          "a_375bf60e",
+          "s_10832104"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_4438",
+          "start": 8,
+          "end": 17,
+          "wrong": "di accordo"
+        },
+        {
+          "id": "s_13038523",
+          "start": 9,
+          "end": 18,
+          "wrong": "di accordo"
+        },
+        {
+          "id": "a_207847c9",
+          "start": 0,
+          "end": 8,
+          "wrong": "Penso"
+        },
+        {
+          "id": "s_621056",
+          "start": 0,
+          "end": 10,
+          "wrong": "Secondo io"
+        }
+      ]
+    },
+    {
+      "id": "u107",
+      "level": "A2",
+      "title": "Perché, quando, per + infinitivo",
+      "goal_es": "Perché, quando, per + infinitivo",
+      "codes": [
+        "ERR_SUBORDINATE"
+      ],
+      "why_here": "El día a día adulto: tu trabajo o estudios y un colega, el médico o la farmacia, un anuncio de casa; y decir qué piensas y por qué.",
+      "ficha_es": "«Porque» y «por qué» se escriben perché: una sola palabra y con acento agudo (no *per che ni *perchè). Con un verbo, «para + infinitivo» es per + infinitivo (per studiare).\n\nError típico: *perchè/*perche → perché; *per che → perché; *para studiare → per studiare; a + infinitivo tras verbo de movimiento (vado a studiare); cierra g16 de A1. Válido y no es error: per questo (válido)\n\nQué practicas aquí: Subordinadas causales, temporales y finales (perché, quando, per + infinitivo).\n\nSituación del módulo: El día a día adulto: tu trabajo o estudios y un colega, el médico o la farmacia, un anuncio de casa; y decir qué piensas y por qué.",
+      "status": "active",
+      "explanation_es": "«Porque» y «por qué» se escriben perché: una sola palabra y con acento agudo (no *per che ni *perchè). Con un verbo, «para + infinitivo» es per + infinitivo (per studiare).",
+      "parts": {
+        "descubre": [
+          "s_1082001",
+          "s_3572393",
+          "s_2458197",
+          "s_5030936"
+        ],
+        "practica": [
+          "s_1082001",
+          "s_3572393",
+          "s_2458197",
+          "s_5030936",
+          "s_8011656",
+          "s_1814093",
+          "s_3784104",
+          "s_2681664",
+          "s_10254366",
+          "s_1143904",
+          "s_1293706",
+          "s_2399609",
+          "s_8012134",
+          "s_9609394",
+          "s_13954806",
+          "s_1506612",
+          "s_1541546",
+          "s_4650",
+          "s_669345",
+          "s_756686",
+          "s_10745801",
+          "s_3112004",
+          "s_8678363",
+          "s_1005829",
+          "s_1183012",
+          "s_8033337",
+          "s_12612503",
+          "s_8011975",
+          "s_10744681",
+          "s_3602057",
+          "s_8493251",
+          "s_995515",
+          "s_7321604",
+          "s_2900404",
+          "s_794977",
+          "s_1197765",
+          "s_10461722",
+          "s_1743342",
+          "s_2436288",
+          "s_6987464",
+          "s_1316530",
+          "s_8013139",
+          "s_524198",
+          "s_850517",
+          "s_3509993"
+        ],
+        "escucha": [
+          "s_1082001",
+          "s_1814093",
+          "s_1293706",
+          "s_1506612",
+          "s_10745801",
+          "s_8033337",
+          "s_8493251",
+          "s_1197765"
+        ],
+        "prueba": [
+          "s_5352633",
+          "s_8011719",
+          "s_4463",
+          "s_7946837",
+          "s_14000521",
+          "s_6735926",
+          "s_1687207",
+          "s_386848"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_1082001",
+          "start": 0,
+          "end": 6,
+          "wrong": "Per che"
+        },
+        {
+          "id": "s_3572393",
+          "start": 0,
+          "end": 6,
+          "wrong": "Per che"
+        },
+        {
+          "id": "s_2458197",
+          "start": 0,
+          "end": 6,
+          "wrong": "Per che"
+        },
+        {
+          "id": "s_5030936",
+          "start": 0,
+          "end": 6,
+          "wrong": "Per che"
         }
       ]
     },

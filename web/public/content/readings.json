@@ -1735,6 +1735,116 @@
     "sentences": []
   },
   {
+    "id": "doc_a2m10_annuncio",
+    "title": "Annuncio: appartamento in affitto",
+    "level": "A2",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cuánto cuesta el arriendo al mes?",
+        "options": [
+          "750 euros",
+          "570 euros",
+          "1.050 euros"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿En qué piso está el apartamento?",
+        "options": [
+          "En el tercero, con ascensor",
+          "En el primero, sin ascensor",
+          "En la planta baja"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Cuántos metros cuadrados tiene?",
+        "options": [
+          "56",
+          "65",
+          "75"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Se aceptan animales?",
+        "options": [
+          "Sí, solo gatos",
+          "Sí, todos",
+          "No"
+        ],
+        "answer": 2
+      },
+      {
+        "prompt_es": "¿Desde cuándo está disponible?",
+        "options": [
+          "Desde el 1 de marzo",
+          "Desde el 1 de mayo",
+          "Desde hoy"
+        ],
+        "answer": 0
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Caratteristica",
+        "Dettaglio"
+      ],
+      "rows": [
+        [
+          "Tipo",
+          "Appartamento in affitto"
+        ],
+        [
+          "Zona",
+          "Centro, vicino alla stazione"
+        ],
+        [
+          "Metri quadri",
+          "65"
+        ],
+        [
+          "Locali",
+          "Due camere, cucina e bagno"
+        ],
+        [
+          "Piano",
+          "Terzo, con ascensore"
+        ],
+        [
+          "Prezzo",
+          "750 euro al mese"
+        ],
+        [
+          "Spese",
+          "Non incluse"
+        ],
+        [
+          "Disponibile",
+          "Dal primo marzo"
+        ],
+        [
+          "Animali",
+          "Non ammessi"
+        ],
+        [
+          "Contatto",
+          "Scrivere a casa.centro@example.it"
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
     "id": "doc_annuncio",
     "title": "Affittasi stanza",
     "level": "A1",
@@ -4111,6 +4221,182 @@
         "es": "Buen viaje, señor Rossi.",
         "speaker": "Elena",
         "audio": "658e75e71321"
+      }
+    ]
+  },
+  {
+    "id": "ls_a2m10",
+    "title": "In farmacia",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué problemas tiene Paolo?",
+        "options": [
+          "Resfriado y dolor de garganta",
+          "Dolor de cabeza y de estómago",
+          "Solo tos"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Cuándo tose más Paolo?",
+        "options": [
+          "En la mañana",
+          "En la noche",
+          "Todo el día"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Cuándo debe tomar las pastillas?",
+        "options": [
+          "Antes de comer",
+          "Después de las comidas",
+          "Solo al acostarse"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Cuándo debe ir al médico?",
+        "options": [
+          "Si la fiebre sube",
+          "Mañana mismo",
+          "Nunca"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Cuánto cuesta todo?",
+        "options": [
+          "7,50 euros",
+          "5,70 euros",
+          "17,50 euros"
+        ],
+        "answer": 0
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_a2m10_00",
+        "it": "Buongiorno. Mi dica.",
+        "es": "Buenos días. Dígame.",
+        "speaker": "Farmacista",
+        "audio": "97a6d992da26"
+      },
+      {
+        "id": "ls_a2m10_01",
+        "it": "Buongiorno. Ho il raffreddore e mi fa male la gola.",
+        "es": "Buenos días. Estoy resfriado y me duele la garganta.",
+        "speaker": "Paolo",
+        "audio": "067fe5a085c4",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m10_02",
+        "it": "Ha anche la febbre?",
+        "es": "¿Tiene también fiebre?",
+        "speaker": "Farmacista",
+        "audio": "03480886812c"
+      },
+      {
+        "id": "ls_a2m10_03",
+        "it": "Un po'. Ieri sera avevo trentasette e otto.",
+        "es": "Un poco. Anoche tenía treinta y siete con ocho.",
+        "speaker": "Paolo",
+        "audio": "daf942cad42e",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m10_04",
+        "it": "Ha la tosse?",
+        "es": "¿Tiene tos?",
+        "speaker": "Farmacista",
+        "audio": "56b377aa19d6"
+      },
+      {
+        "id": "ls_a2m10_05",
+        "it": "Sì, un po' di tosse, soprattutto la sera.",
+        "es": "Sí, un poco de tos, sobre todo en la noche.",
+        "speaker": "Paolo",
+        "audio": "d4eb640d24d4",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m10_06",
+        "it": "Le consiglio queste pastiglie. Ne prenda due al giorno.",
+        "es": "Le aconsejo estas pastillas. Tome dos al día.",
+        "speaker": "Farmacista",
+        "audio": "5ca5be15b74f"
+      },
+      {
+        "id": "ls_a2m10_07",
+        "it": "Posso prenderle prima di mangiare?",
+        "es": "¿Puedo tomarlas antes de comer?",
+        "speaker": "Paolo",
+        "audio": "d10c37da400e",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m10_08",
+        "it": "Meglio dopo i pasti. Beva molta acqua e riposi.",
+        "es": "Mejor después de las comidas. Beba mucha agua y descanse.",
+        "speaker": "Farmacista",
+        "audio": "8b69e52c7020"
+      },
+      {
+        "id": "ls_a2m10_09",
+        "it": "Credo di avere bisogno anche di uno sciroppo.",
+        "es": "Creo que también necesito un jarabe.",
+        "speaker": "Paolo",
+        "audio": "43049726f6df",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m10_10",
+        "it": "Secondo me, per ora bastano le pastiglie.",
+        "es": "En mi opinión, por ahora bastan las pastillas.",
+        "speaker": "Farmacista",
+        "audio": "ced7112e792e"
+      },
+      {
+        "id": "ls_a2m10_11",
+        "it": "Se la febbre sale, vada dal medico.",
+        "es": "Si la fiebre sube, vaya al médico.",
+        "speaker": "Farmacista",
+        "audio": "fcb7f7bdd19d"
+      },
+      {
+        "id": "ls_a2m10_12",
+        "it": "Sono d'accordo. Quanto costano?",
+        "es": "Estoy de acuerdo. ¿Cuánto cuestan?",
+        "speaker": "Paolo",
+        "audio": "b41d446a62cf",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m10_13",
+        "it": "Sette euro e cinquanta in tutto.",
+        "es": "Siete euros con cincuenta en total.",
+        "speaker": "Farmacista",
+        "audio": "202c614c63d1"
+      },
+      {
+        "id": "ls_a2m10_14",
+        "it": "Ecco. Grazie, arrivederci.",
+        "es": "Aquí tiene. Gracias, hasta luego.",
+        "speaker": "Paolo",
+        "audio": "88991ceea826",
+        "voice": 2
       }
     ]
   },
@@ -8674,6 +8960,306 @@
     ]
   },
   {
+    "id": "rd_a2m10_a",
+    "title": "Dal medico",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué le duele a Elena, además de la cabeza?",
+        "options": [
+          "El estómago",
+          "La garganta",
+          "La espalda"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Desde cuándo tiene el problema?",
+        "options": [
+          "Desde hace tres días",
+          "Desde ayer",
+          "Desde hace una semana"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué temperatura tenía anoche?",
+        "options": [
+          "37",
+          "38",
+          "39"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué tiene Elena, según el médico?",
+        "options": [
+          "Un resfriado fuerte",
+          "Algo grave",
+          "Una alergia"
+        ],
+        "answer": 0,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Qué le aconseja el médico?",
+        "options": [
+          "Ir a trabajar",
+          "Quedarse en casa dos días",
+          "Tomar jarabe"
+        ],
+        "answer": 1,
+        "evidence": 10
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m10_a_00",
+        "it": "Buongiorno. Come sta?",
+        "es": "Buenos días. ¿Cómo está?",
+        "speaker": "Medico",
+        "audio": "5ac709973e28"
+      },
+      {
+        "id": "rd_a2m10_a_01",
+        "it": "Non molto bene. Mi fa male la gola.",
+        "es": "No muy bien. Me duele la garganta.",
+        "speaker": "Elena",
+        "audio": "60ea98f900be",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m10_a_02",
+        "it": "Da quando ha questo problema?",
+        "es": "¿Desde cuándo tiene este problema?",
+        "speaker": "Medico",
+        "audio": "949ef8ffab58"
+      },
+      {
+        "id": "rd_a2m10_a_03",
+        "it": "Da tre giorni. Ho la febbre e la tosse.",
+        "es": "Desde hace tres días. Tengo fiebre y tos.",
+        "speaker": "Elena",
+        "audio": "52251c3af9d3",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m10_a_04",
+        "it": "Quanti gradi ha?",
+        "es": "¿Cuántos grados tiene?",
+        "speaker": "Medico",
+        "audio": "8e3a37f27d0e"
+      },
+      {
+        "id": "rd_a2m10_a_05",
+        "it": "Ieri sera avevo trentotto. Mi fa male anche la testa.",
+        "es": "Anoche tenía treinta y ocho. También me duele la cabeza.",
+        "speaker": "Elena",
+        "audio": "e20bdfdbe6d5",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m10_a_06",
+        "it": "Non è niente di grave. Ha un forte raffreddore.",
+        "es": "No es nada grave. Tiene un resfriado fuerte.",
+        "speaker": "Medico",
+        "audio": "9f6fb0de0351"
+      },
+      {
+        "id": "rd_a2m10_a_07",
+        "it": "Che cosa devo fare, dottore?",
+        "es": "¿Qué tengo que hacer, doctor?",
+        "speaker": "Elena",
+        "audio": "b519863af18f",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m10_a_08",
+        "it": "Stia a casa, beva tanto tè caldo e riposi.",
+        "es": "Quédese en casa, beba mucho té caliente y descanse.",
+        "speaker": "Medico",
+        "audio": "e33257dbee67"
+      },
+      {
+        "id": "rd_a2m10_a_09",
+        "it": "Posso andare al lavoro domani?",
+        "es": "¿Puedo ir al trabajo mañana?",
+        "speaker": "Elena",
+        "audio": "fe4ebe9b4515",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m10_a_10",
+        "it": "Secondo me, no. Aspetti due giorni.",
+        "es": "En mi opinión, no. Espere dos días.",
+        "speaker": "Medico",
+        "audio": "1e96fe0e8bad"
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m10_b",
+    "title": "Che ne pensi?",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué plan propone Marco?",
+        "options": [
+          "Un paseo al lago",
+          "Una cena",
+          "Un viaje a Roma"
+        ],
+        "answer": 0,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Por qué cree Marco que no hará frío?",
+        "options": [
+          "Dicen que habrá sol",
+          "Ya hace calor",
+          "Irán al sur"
+        ],
+        "answer": 0,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Qué medio de transporte prefiere finalmente?",
+        "options": [
+          "El auto",
+          "El tren",
+          "La bicicleta"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿A qué hora salen?",
+        "options": [
+          "A las nueve",
+          "A las ocho",
+          "A las diez"
+        ],
+        "answer": 0,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿A qué hora vuelven?",
+        "options": [
+          "A las cinco",
+          "A las seis",
+          "A las siete"
+        ],
+        "answer": 1,
+        "evidence": 9
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m10_b_00",
+        "it": "Anna, che ne pensi di una gita al lago sabato?",
+        "es": "Anna, ¿qué piensas de un paseo al lago el sábado?",
+        "speaker": "Marco",
+        "audio": "648384775899"
+      },
+      {
+        "id": "rd_a2m10_b_01",
+        "it": "Secondo me, è una bella idea. Farà freddo?",
+        "es": "En mi opinión, es una buena idea. ¿Hará frío?",
+        "speaker": "Anna",
+        "audio": "a520dc891bd9",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m10_b_02",
+        "it": "Credo di no. Dicono che ci sarà il sole.",
+        "es": "Creo que no. Dicen que habrá sol.",
+        "speaker": "Marco",
+        "audio": "ca45a129477b"
+      },
+      {
+        "id": "rd_a2m10_b_03",
+        "it": "Allora sono d'accordo. Andiamo in treno?",
+        "es": "Entonces estoy de acuerdo. ¿Vamos en tren?",
+        "speaker": "Anna",
+        "audio": "a03250472c78",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m10_b_04",
+        "it": "Secondo me, è meglio la macchina, perché costa meno.",
+        "es": "En mi opinión, es mejor el auto, porque cuesta menos.",
+        "speaker": "Marco",
+        "audio": "b7c1e89534cf"
+      },
+      {
+        "id": "rd_a2m10_b_05",
+        "it": "Non sono d'accordo. Il treno è più comodo.",
+        "es": "No estoy de acuerdo. El tren es más cómodo.",
+        "speaker": "Anna",
+        "audio": "c165a7a4da8e",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m10_b_06",
+        "it": "Hai ragione. Cerco gli orari.",
+        "es": "Tienes razón. Busco los horarios.",
+        "speaker": "Marco",
+        "audio": "4709c7c2b1cc"
+      },
+      {
+        "id": "rd_a2m10_b_07",
+        "it": "Partiamo alle nove, per arrivare prima di pranzo?",
+        "es": "¿Salimos a las nueve, para llegar antes del almuerzo?",
+        "speaker": "Anna",
+        "audio": "1109f7f3ae71",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m10_b_08",
+        "it": "Penso di sì. Quando torniamo?",
+        "es": "Creo que sí. ¿Cuándo volvemos?",
+        "speaker": "Marco",
+        "audio": "adcb0ae11408"
+      },
+      {
+        "id": "rd_a2m10_b_09",
+        "it": "Alle sei, quando fa più fresco.",
+        "es": "A las seis, cuando hace más fresco.",
+        "speaker": "Anna",
+        "audio": "e02dc554940a",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m10_b_10",
+        "it": "Perfetto. Sono d'accordo su tutto!",
+        "es": "Perfecto. ¡Estoy de acuerdo en todo!",
+        "speaker": "Marco",
+        "audio": "b7321f8fcfd6"
+      }
+    ]
+  },
+  {
     "id": "rd_albergo",
     "title": "All'albergo e a fare la spesa",
     "level": "A1",
@@ -12785,6 +13371,168 @@
         "speaker": "Luca",
         "audio": "c2feaea439b6",
         "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_miastoria",
+    "title": "La mia storia e il mio futuro",
+    "level": "A2",
+    "kind": "lectura",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Por qué estudia economía?",
+        "options": [
+          "Porque le gustan los números",
+          "Porque trabaja en un banco",
+          "Porque le gusta el inglés"
+        ],
+        "answer": 0,
+        "evidence": 4
+      },
+      {
+        "prompt_es": "¿Qué piensa hacer en el futuro?",
+        "options": [
+          "Estudiar medicina",
+          "Trabajar en un banco",
+          "Abrir una librería"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué opina Marco del inglés?",
+        "options": [
+          "Que es más útil que el italiano",
+          "Que es una lengua difícil",
+          "Que es inútil"
+        ],
+        "answer": 0,
+        "evidence": 9
+      },
+      {
+        "prompt_es": "¿Qué le pasa hoy?",
+        "options": [
+          "Le duele la cabeza",
+          "Le duele el estómago",
+          "Le duele la garganta y tiene fiebre"
+        ],
+        "answer": 2,
+        "evidence": 10
+      },
+      {
+        "prompt_es": "¿Para qué bebe un té caliente?",
+        "options": [
+          "Para sanar pronto",
+          "Para trabajar",
+          "Para estudiar"
+        ],
+        "answer": 0,
+        "evidence": 12
+      },
+      {
+        "prompt_es": "¿Dónde trabaja los sábados?",
+        "options": [
+          "En un banco",
+          "En una librería",
+          "En la universidad"
+        ],
+        "answer": 1,
+        "evidence": 2
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_miastoria_00",
+        "it": "Mi chiamo Chiara e ho venticinque anni.",
+        "es": "Me llamo Chiara y tengo veinticinco años.",
+        "audio": "a57edf18773c"
+      },
+      {
+        "id": "rd_miastoria_01",
+        "it": "Studio economia all'università.",
+        "es": "Estudio economía en la universidad.",
+        "audio": "eda8c87dad6b"
+      },
+      {
+        "id": "rd_miastoria_02",
+        "it": "Il sabato lavoro in un negozio di libri.",
+        "es": "Los sábados trabajo en una librería.",
+        "audio": "e57f22675b47"
+      },
+      {
+        "id": "rd_miastoria_03",
+        "it": "Lavoro per guadagnare un po' di soldi.",
+        "es": "Trabajo para ganar un poco de dinero.",
+        "audio": "0a63fa54a573"
+      },
+      {
+        "id": "rd_miastoria_04",
+        "it": "Studio economia perché mi piacciono i numeri.",
+        "es": "Estudio economía porque me gustan los números.",
+        "audio": "20015fedf12d"
+      },
+      {
+        "id": "rd_miastoria_05",
+        "it": "In futuro penso di lavorare in una banca.",
+        "es": "En el futuro pienso trabajar en un banco.",
+        "audio": "fa34c3662b29"
+      },
+      {
+        "id": "rd_miastoria_06",
+        "it": "Credo di essere pronta, ma devo studiare ancora molto.",
+        "es": "Creo que estoy lista, pero todavía debo estudiar mucho.",
+        "audio": "cc3bae5a0332"
+      },
+      {
+        "id": "rd_miastoria_07",
+        "it": "Voglio anche parlare bene l'italiano.",
+        "es": "También quiero hablar bien italiano.",
+        "audio": "b2f8d61805c8"
+      },
+      {
+        "id": "rd_miastoria_08",
+        "it": "Secondo me, l'italiano è una lingua bella e utile.",
+        "es": "Según yo, el italiano es una lengua bonita y útil.",
+        "audio": "3898f0812085"
+      },
+      {
+        "id": "rd_miastoria_09",
+        "it": "Per Marco l'inglese è più utile, ma non sono d'accordo.",
+        "es": "Para Marco el inglés es más útil, pero no estoy de acuerdo.",
+        "audio": "e4fc834e3013"
+      },
+      {
+        "id": "rd_miastoria_10",
+        "it": "Oggi mi fa male la gola e ho la febbre.",
+        "es": "Hoy me duele la garganta y tengo fiebre.",
+        "audio": "323e10837639"
+      },
+      {
+        "id": "rd_miastoria_11",
+        "it": "Resto a casa per riposare.",
+        "es": "Me quedo en casa para descansar.",
+        "audio": "7d1632c65dcf"
+      },
+      {
+        "id": "rd_miastoria_12",
+        "it": "Bevo un tè caldo per guarire presto.",
+        "es": "Tomo un té caliente para sanar pronto.",
+        "audio": "0569a36bea6b"
+      },
+      {
+        "id": "rd_miastoria_13",
+        "it": "Quando sto meglio, torno al lavoro.",
+        "es": "Cuando esté mejor, vuelvo al trabajo.",
+        "audio": "149722a26f8a"
       }
     ]
   },

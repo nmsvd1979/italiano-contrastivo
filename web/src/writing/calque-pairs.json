@@ -2930,6 +2930,16 @@
     "wrong": "Ci mettono tre ore per arrivare in Firenze."
   },
   {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Secondo me il medico ha ragione.",
+    "wrong": "Secondo me il medico tiene ragione."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Siamo d'accordo sul prezzo.",
+    "wrong": "Siamo d'accordo su il prezzo."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Quanto ci vuole per arrivare al mare?",
     "wrong": "Quanto ci vuole per arrivare a il mare?"
@@ -2953,6 +2963,11 @@
     "code": "ERR_CE_AGREEMENT",
     "correct": "Senta, signore, c'è una farmacia qui vicino?",
     "wrong": "Senta, signore, ci sono una farmacia qui vicino?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Non siamo d'accordo sull'orario.",
+    "wrong": "Non siamo d'accordo su l'orario."
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -2980,6 +2995,11 @@
     "wrong": "Da Roma in Napoli ci vogliono due ore."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Penso di andare al mare domani.",
+    "wrong": "Penso di andare a il mare domani."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Per andare a Milano ci metto un'ora e mezza.",
     "wrong": "Per andare in Milano ci metto un'ora e mezza."
@@ -2988,6 +3008,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Quanto ci vuole da qui alla stazione?",
     "wrong": "Quanto ci vuole da qui a la stazione?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Secondo me il treno è più comodo dell'aereo.",
+    "wrong": "Secondo me il treno è più comodo di l'aereo."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -3026,6 +3051,16 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Penso di arrivare alle otto.",
+    "wrong": "Penso di arrivare a le otto."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sono d'accordo sul programma.",
+    "wrong": "Sono d'accordo su il programma."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Camminate sul marciapiede.",
     "wrong": "Camminate su il marciapiede."
   },
@@ -3033,6 +3068,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il suo negozio è sempre pieno di clienti.",
     "wrong": "Suo negozio è sempre pieno di clienti."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Perché sei venuto in Giappone?",
+    "wrong": "Perché hai venuto in Giappone?"
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -3183,6 +3223,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La festa è terminata alle dieci.",
     "wrong": "La festa è terminata a le dieci."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Perché non sei venuto ieri?",
+    "wrong": "Perché non hai venuto ieri?"
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -3358,6 +3403,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Il topo ha mangiato il mio formaggio.",
     "wrong": "Il topo ha mangiato mio formaggio."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Sono d'accordo con il suo piano.",
+    "wrong": "Sono d'accordo con suo piano."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3595,9 +3645,29 @@
     "wrong": "Prendono il tè a le cinque."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Sono d'accordo con la tua proposta.",
+    "wrong": "Sono d'accordo con tua proposta."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Sono d'accordo con la sua proposta.",
+    "wrong": "Sono d'accordo con sua proposta."
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "Sono d'accordo con la vostra proposta.",
+    "wrong": "Sono d'accordo con vostra proposta."
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Quanto ci vuole per andare a Madrid?",
     "wrong": "Quanto ci vuole per andare in Madrid?"
+  },
+  {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La tua teoria secondo me non è corretta.",
+    "wrong": "Tua teoria secondo me non è corretta."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3748,6 +3818,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Non è neppure sulla mappa.",
     "wrong": "Non è neppure su la mappa."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Perché non viene alla festa con noi?",
+    "wrong": "Perché non viene a la festa con noi?"
   },
   {
     "code": "ERR_COMPARATIVE_DI",
@@ -4711,6 +4786,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Sono d'accordo al cento percento.",
+    "wrong": "Sono d'accordo a il cento percento."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Tutti i fiori nel giardino sono gialli.",
     "wrong": "Tutti i fiori in il giardino sono gialli."
   },
@@ -4753,6 +4833,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Ti piace dormire con il rumore della pioggia?",
     "wrong": "Ti piace dormire con il rumore di la pioggia?"
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Perché sei andato via?",
+    "wrong": "Perché hai andato via?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -5278,6 +5363,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "All'improvviso abbiamo sentito uno sparo.",
     "wrong": "A l'improvviso abbiamo sentito uno sparo."
+  },
+  {
+    "code": "ERR_AUX_ESSERE",
+    "correct": "Perché non sei venuta ieri?",
+    "wrong": "Perché non hai venuta ieri?"
+  },
+  {
+    "code": "ERR_TENERE_AVERE",
+    "correct": "Secondo me ha ragione.",
+    "wrong": "Secondo me tiene ragione."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",

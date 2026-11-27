@@ -843,6 +843,10 @@
 "g": "bebe / se toma",
 "k": "opaca"
 },
+"bevo": {
+"g": "bebo",
+"k": "opaca"
+},
 "bevuto": {
 "g": "bebido",
 "k": "opaca"
@@ -2481,6 +2485,10 @@
 "k": "regular",
 "r": "doble"
 },
+"essere": {
+"g": "ser / estar",
+"k": "opaca"
+},
 "estate": {
 "g": "verano",
 "k": "opaca"
@@ -2886,6 +2894,10 @@
 "g": "fuera",
 "k": "opaca"
 },
+"futuro": {
+"g": "futuro",
+"k": "transparente"
+},
 "ganci": {
 "g": "ganchos",
 "k": "opaca"
@@ -3112,6 +3124,10 @@
 "g": "gris",
 "k": "opaca"
 },
+"guadagnare": {
+"g": "ganar (dinero)",
+"k": "opaca"
+},
 "guarda": {
 "g": "mira",
 "k": "opaca",
@@ -3155,6 +3171,10 @@
 "k": "opaca",
 "ff": true,
 "n": "Parece 'guardar' pero significa mirar"
+},
+"guarire": {
+"g": "sanar",
+"k": "opaca"
 },
 "guida": {
 "g": "guía",
@@ -3589,6 +3609,12 @@
 "limoncello": {
 "g": "limoncello (licor de limón)",
 "k": "transparente"
+},
+"lingua": {
+"g": "lengua / idioma",
+"k": "regular",
+"r": "otro",
+"n": "lengua → lingua"
 },
 "lingue": {
 "g": "lenguas / idiomas",
@@ -4294,6 +4320,10 @@
 "g": "nueve",
 "k": "regular",
 "r": "otro"
+},
+"numeri": {
+"g": "números",
+"k": "transparente"
 },
 "numero": {
 "g": "número",
@@ -5817,6 +5847,10 @@
 "ripetere": {
 "g": "repetir",
 "k": "transparente"
+},
+"riposare": {
+"g": "descansar",
+"k": "opaca"
 },
 "riposato": {
 "g": "descansado",

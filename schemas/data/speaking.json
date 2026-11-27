@@ -548,6 +548,30 @@
     "u105"
    ],
    "goal_es": "Pedir un boleto de ida y vuelta, preguntar cuánto tiempo ci vuole, la hora de salida, el andén y si hay que cambiar."
+  },
+  {
+   "id": "rp_a2m10_a",
+   "title": "En la consulta del médico",
+   "function_es": "Describir síntomas simples y recibir un consejo",
+   "reading": "rd_a2m10_a",
+   "from": 0,
+   "to": 10,
+   "after": [
+    "u107"
+   ],
+   "goal_es": "Decir qué te duele, desde cuándo y si tienes fiebre, y preguntar qué debes hacer y si puedes ir al trabajo."
+  },
+  {
+   "id": "rp_a2m10_b",
+   "title": "Opinar sobre un plan",
+   "function_es": "Dar una opinión y ponerse de acuerdo",
+   "reading": "rd_a2m10_b",
+   "from": 0,
+   "to": 10,
+   "after": [
+    "u107"
+   ],
+   "goal_es": "Dar tu opinión sobre el paseo al lago, estar o no de acuerdo y acordar el medio de transporte y los horarios."
   }
  ],
  "tasks": [
@@ -1265,6 +1289,48 @@
     "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
     "No leí: hablé de corrido, aunque con pausas.",
     "Cuidé lo que enseña este módulo: Ci de lugar, ci vuole, ci metto; Falsos amigos II: ciudad, viaje y acciones; Vocabulario: viaje y alojamiento.",
+    "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
+   ]
+  },
+  {
+   "id": "ht_a2m10",
+   "title": "Salud, opiniones y planes",
+   "function_es": "Hablar de un malestar simple y dar una opinión",
+   "level": "A2",
+   "minutes": 2,
+   "after": [
+    "u107"
+   ],
+   "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+   },
+   "intro_es": "Habla unos 2 minutos, sin leer. Usa síntomas simples (mi fa male la gola, ho la febbre), opiniones sin congiuntivo (secondo me, credo di, penso di sì, sono d'accordo) y perché / quando / per + infinitivo.",
+   "questions": [
+    {
+     "it": "Come stai oggi? Hai qualche problema di salute?",
+     "es": "¿Cómo estás hoy? ¿Tienes algún problema de salud?"
+    },
+    {
+     "it": "Che cosa dici in farmacia se hai il raffreddore?",
+     "es": "¿Qué dices en la farmacia si estás resfriado?"
+    },
+    {
+     "it": "Che ne pensi di fare una gita il fine settimana?",
+     "es": "¿Qué piensas de hacer un paseo el fin de semana?"
+    },
+    {
+     "it": "Con quale opinione sei d'accordo? Con quale no? Perché?",
+     "es": "¿Con qué opinión estás de acuerdo? ¿Con cuál no? ¿Por qué?"
+    }
+   ],
+   "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
+   "checklist_es": [
+    "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+    "No leí: hablé de corrido, aunque con pausas.",
+    "Cuidé lo que enseña este módulo: Opinar sin congiuntivo: secondo me, penso di sì; Perché, quando, per + infinitivo.",
     "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
    ]
   }
@@ -2280,6 +2346,48 @@
     "module": "a2m09",
     "it": "Che cosa metti nella valigia quando parti per un viaggio?",
     "es": "¿Qué pones en la maleta cuando te vas de viaje?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m10_1",
+    "module": "a2m10",
+    "it": "Secondo te, la tua città è un buon posto per vivere? Perché?",
+    "es": "En tu opinión, ¿tu ciudad es un buen lugar para vivir? ¿Por qué?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m10_2",
+    "module": "a2m10",
+    "it": "Che cosa fai quando hai il raffreddore?",
+    "es": "¿Qué haces cuando estás resfriado?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m10_3",
+    "module": "a2m10",
+    "it": "Che cosa dici al medico se ti fa male la gola?",
+    "es": "¿Qué le dices al médico si te duele la garganta?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m10_4",
+    "module": "a2m10",
+    "it": "Sei d'accordo con chi dice che il caffè fa male?",
+    "es": "¿Estás de acuerdo con quien dice que el café hace mal?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m10_5",
+    "module": "a2m10",
+    "it": "Credi di parlare bene l'italiano? Perché?",
+    "es": "¿Crees que hablas bien italiano? ¿Por qué?",
+    "authored": true
+   },
+   {
+    "id": "iq_a2m10_6",
+    "module": "a2m10",
+    "it": "Perché studi l'italiano? Per viaggiare, per lavorare?",
+    "es": "¿Por qué estudias italiano? ¿Para viajar, para trabajar?",
     "authored": true
    }
   ]

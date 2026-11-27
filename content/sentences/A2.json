@@ -223,6 +223,72 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Marco está de acuerdo conmigo.",
+    "es_author": "IA (Claude)",
+    "id": "a_0f039643",
+    "it": "Marco è d'accordo con me.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, el médico tiene razón.",
+    "es_author": "IA (Claude)",
+    "id": "a_11640ca5",
+    "it": "Secondo me il medico ha ragione.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estamos de acuerdo en el precio.",
+    "es_author": "IA (Claude)",
+    "id": "a_131e0c72",
+    "it": "Siamo d'accordo sul prezzo.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_LEI"
     ],
     "es": "Mire, señor, el cielo está azul. (usted)",
@@ -377,6 +443,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Creo que tengo hambre.",
+    "es_author": "IA (Claude)",
+    "id": "a_207847c9",
+    "it": "Penso di avere fame.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_LEI"
     ],
     "es": "Oiga, señora, ¿el tren sale a las ocho? (usted)",
@@ -414,6 +502,28 @@
     "source": "authored",
     "tag_rules": {
       "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, esta pizza es excelente.",
+    "es_author": "IA (Claude)",
+    "id": "a_23cf8a5d",
+    "it": "Secondo me questa pizza è ottima.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -568,6 +678,72 @@
     "source": "authored",
     "tag_rules": {
       "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, el café es bueno aquí.",
+    "es_author": "IA (Claude)",
+    "id": "a_35ceb564",
+    "it": "Secondo me il caffè è buono qui.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Ella también está de acuerdo con nosotros.",
+    "es_author": "IA (Claude)",
+    "id": "a_371f0a51",
+    "it": "Anche lei è d'accordo con noi.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, este bolso cuesta demasiado.",
+    "es_author": "IA (Claude)",
+    "id": "a_375bf60e",
+    "it": "Secondo me questa borsa costa troppo.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -795,6 +971,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, el examen es fácil.",
+    "es_author": "IA (Claude)",
+    "id": "a_481ae50c",
+    "it": "Secondo me l'esame è facile.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Tienes cuadernos? Sí, tengo muchos.",
@@ -810,6 +1008,50 @@
     "source": "authored",
     "tag_rules": {
       "ERR_CLITIC_NE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "No estamos de acuerdo con el horario.",
+    "es_author": "IA (Claude)",
+    "id": "a_49128235",
+    "it": "Non siamo d'accordo sull'orario.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estoy de acuerdo, la clase es útil.",
+    "es_author": "IA (Claude)",
+    "id": "a_49cb1742",
+    "it": "Sono d'accordo, la lezione è utile.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -1213,6 +1455,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Pienso ir a la playa mañana.",
+    "es_author": "IA (Claude)",
+    "id": "a_6710b0f8",
+    "it": "Penso di andare al mare domani.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Cuántas amigas tienes? Tengo muchas.",
@@ -1294,6 +1558,28 @@
     "source": "authored",
     "tag_rules": {
       "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "No está de acuerdo con nosotros.",
+    "es_author": "IA (Claude)",
+    "id": "a_6ea8da6d",
+    "it": "Non è d'accordo con noi.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -1543,6 +1829,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, el tren es más cómodo que el avión.",
+    "es_author": "IA (Claude)",
+    "id": "a_853f2d07",
+    "it": "Secondo me il treno è più comodo dell'aereo.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_LEI"
     ],
     "es": "Oiga, señora, ¿cuánto cuesta esto? (usted)",
@@ -1785,6 +2093,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "¿Están de acuerdo con el plan?",
+    "es_author": "IA (Claude)",
+    "id": "a_a794a1bb",
+    "it": "Siete d'accordo con il piano?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_LEI"
     ],
     "es": "Disculpe, abogado, ¿está libre mañana? (usted)",
@@ -1800,6 +2130,28 @@
     "source": "authored",
     "tag_rules": {
       "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Pienso quedarme en casa.",
+    "es_author": "IA (Claude)",
+    "id": "a_ab86a1d1",
+    "it": "Penso di restare a casa.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -1895,6 +2247,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "No estoy de acuerdo con esta idea.",
+    "es_author": "IA (Claude)",
+    "id": "a_b43d8649",
+    "it": "Non sono d'accordo con questa idea.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_CI"
     ],
     "es": "En auto se necesitan cinco horas.",
@@ -1976,6 +2350,50 @@
     "source": "authored",
     "tag_rules": {
       "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estoy de acuerdo contigo.",
+    "es_author": "IA (Claude)",
+    "id": "a_c056a31f",
+    "it": "Sono d'accordo con te.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, es mejor partir mañana.",
+    "es_author": "IA (Claude)",
+    "id": "a_ca291696",
+    "it": "Secondo me è meglio partire domani.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -2159,6 +2577,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estoy de acuerdo con el médico.",
+    "es_author": "IA (Claude)",
+    "id": "a_d5f3ff53",
+    "it": "Sono d'accordo con il medico.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Tienes dinero? Tengo poco.",
@@ -2313,6 +2753,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Pienso estudiar más.",
+    "es_author": "IA (Claude)",
+    "id": "a_e3e4f760",
+    "it": "Penso di studiare di più.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_LEI"
     ],
     "es": "Perdóneme, señora, estoy atrasado. (usted)",
@@ -2328,6 +2790,50 @@
     "source": "authored",
     "tag_rules": {
       "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, la ciudad es demasiado ruidosa.",
+    "es_author": "IA (Claude)",
+    "id": "a_eb033d23",
+    "it": "Secondo me la città è troppo rumorosa.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "No estoy de acuerdo con el jefe.",
+    "es_author": "IA (Claude)",
+    "id": "a_eb1242ca",
+    "it": "Non sono d'accordo con il capo.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -2379,6 +2885,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, este libro es muy bueno.",
+    "es_author": "IA (Claude)",
+    "id": "a_f290a0a4",
+    "it": "Secondo me questo libro è molto bello.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Tienes hijos? Sí, tengo dos.",
@@ -2394,6 +2922,72 @@
     "source": "authored",
     "tag_rules": {
       "ERR_CLITIC_NE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, la película es demasiado larga.",
+    "es_author": "IA (Claude)",
+    "id": "a_f56526ab",
+    "it": "Secondo me il film è troppo lungo.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Pienso llegar a las ocho.",
+    "es_author": "IA (Claude)",
+    "id": "a_f6103a54",
+    "it": "Penso di arrivare alle otto.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estoy de acuerdo con el programa.",
+    "es_author": "IA (Claude)",
+    "id": "a_f71a0b12",
+    "it": "Sono d'accordo sul programma.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -2635,6 +3229,30 @@
     "source_id": "1005811",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué viniste a Japón?",
+    "es_author": "kylecito",
+    "es_source_id": "336559",
+    "id": "s_1005829",
+    "it": "Perché sei venuto in Giappone?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1005829",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -3205,6 +3823,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué no sale a jugar?",
+    "es_author": "saverius",
+    "es_source_id": "10255872",
+    "id": "s_10254366",
+    "it": "Perché non esce a giocare?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10254366",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "carlosalberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -3367,6 +4007,28 @@
     "source_id": "1038810",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué las simias no saben hablar?",
+    "es_author": "saverius",
+    "es_source_id": "10462192",
+    "id": "s_10461722",
+    "it": "Perché le scimmie non sanno parlare?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10461722",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -3659,6 +4321,74 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "Lo hago porque me gusta hacerlo.",
+    "es_author": "DJ_Saidez",
+    "es_source_id": "10744665",
+    "id": "s_10744681",
+    "it": "Lo faccio perché mi piace farlo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10744681",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "Tom está en casa porque está enfermo.",
+    "es_author": "carlosalberto",
+    "es_source_id": "10745800",
+    "id": "s_10745801",
+    "it": "Tom è a casa perché è malato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10745801",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Todos están de acuerdo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1075940",
+    "it": "Tutti sono d'accordo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1075940",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "carlosalberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -3844,6 +4574,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué está enfadada?",
+    "es_author": "Shishir",
+    "es_source_id": "796878",
+    "id": "s_1082001",
+    "it": "Perché è arrabbiata?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1082001",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -4008,6 +4762,29 @@
       "ERR_Z_AFFRICATE": "z_africata"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, tienes una familia maravillosa.",
+    "es_author": "IA (Claude)",
+    "id": "s_10832104",
+    "it": "Secondo me, hai una famiglia meravigliosa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10832104",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -4744,6 +5521,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "¡En mi opinión, es culpa tuya!",
+    "es_author": "IA (Claude)",
+    "id": "s_1124270",
+    "it": "Secondo me è colpa tua!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1124270",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "carlosalberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -4856,6 +5656,29 @@
     "source_id": "11254137",
     "tag_rules": {
       "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, hace buen tiempo.",
+    "es_author": "IA (Claude)",
+    "id": "s_11255668",
+    "it": "Secondo me il tempo è bello.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11255668",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -5201,6 +6024,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "rado",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué no viniste ayer?",
+    "es_author": "danilo",
+    "es_source_id": "333164",
+    "id": "s_1143904",
+    "it": "Perché non sei venuto ieri?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1143904",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -5498,6 +6343,29 @@
     "source_id": "11606816",
     "tag_rules": {
       "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "No estoy de acuerdo contigo en esto.",
+    "es_author": "IA (Claude)",
+    "id": "s_11608116",
+    "it": "Non sono d'accordo con te su questo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11608116",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -6047,6 +6915,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué estás enfadada con él?",
+    "es_author": "Shishir",
+    "es_source_id": "1157832",
+    "id": "s_1183012",
+    "it": "Perché sei arrabbiata con lui?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1183012",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -6202,6 +7094,28 @@
       "ERR_PP_VS_IMPERFETTO": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "rado",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué te comportas como un niño?",
+    "es_author": "nancy",
+    "es_source_id": "1197937",
+    "id": "s_1197765",
+    "it": "Perché ti comporti come un bambino?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1197765",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -6530,6 +7444,29 @@
       "ERR_PERSONAL_A": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Es un edificio feo, en mi opinión.",
+    "es_author": "IA (Claude)",
+    "id": "s_12255253",
+    "it": "È un brutto edificio, secondo me.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12255253",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -7134,6 +8071,28 @@
     "source_id": "1257883",
     "tag_rules": {
       "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Adelpa",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué los flamencos son rosas?",
+    "es_author": "Adelpa",
+    "es_source_id": "6034861",
+    "id": "s_12612503",
+    "it": "Perché i fenicotteri sono rosa?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12612503",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -7915,6 +8874,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué dices que es un verbo?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1294029",
+    "id": "s_1293706",
+    "it": "Perché dici che è un verbo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1293706",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_VOC_FALSI_CITTA"
     ],
     "es": "Esta es la acera.",
@@ -8091,6 +9072,28 @@
       "ERR_MANCARE": "mancare"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Adelpa",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Bueno, estoy de acuerdo.",
+    "es_author": "cueyayotl",
+    "es_source_id": "2849560",
+    "id": "s_13038523",
+    "it": "OK, sono d'accordo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13038523",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Kvantumo",
@@ -8454,6 +9457,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estoy de acuerdo con su plan.",
+    "es_author": "IA (Claude)",
+    "id": "s_1314389",
+    "it": "Sono d'accordo con il suo piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1314389",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_ORA_ES"
     ],
     "es": "La escuela empieza a las ocho y media.",
@@ -8514,6 +9540,28 @@
     "source_id": "1316291",
     "tag_rules": {
       "ERR_FUTURO_RADICE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "Eso explica por qué la puerta está abierta.",
+    "es_author": "Goso321",
+    "es_source_id": "1037815",
+    "id": "s_1316530",
+    "it": "Quello spiega perché la porta è aperta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1316530",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -9391,6 +10439,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estoy de acuerdo con su plan.",
+    "es_author": "IA (Claude)",
+    "id": "s_1358919",
+    "it": "Sono d'accordo col suo piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1358919",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "carlosalberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -9531,6 +10602,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Nuel",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estoy de acuerdo contigo hasta cierto punto.",
+    "es_author": "IA (Claude)",
+    "id": "s_13884130",
+    "it": "Sono d'accordo con te fino a un certo punto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13884130",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -9575,6 +10670,28 @@
     "source_id": "1394655",
     "tag_rules": {
       "ERR_COMPARATIVE_DI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Adelpa",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué las plantas son verdes?",
+    "es_author": "Adelpa",
+    "es_source_id": "13954811",
+    "id": "s_13954806",
+    "it": "Perché le piante sono verdi?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13954806",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -9755,6 +10872,28 @@
       "ERR_VOC_NEGOZI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "unforgiven95",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "Dile a Tom por qué quieres irte.",
+    "es_author": "mervert1",
+    "es_source_id": "13688872",
+    "id": "s_14000521",
+    "it": "Dì a Tom perché vuoi andartene.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14000521",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "unforgiven95",
@@ -10795,6 +11934,54 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Todos están de acuerdo contigo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1492575",
+    "it": "Tutti sono d'accordo con te.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1492575",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Todos están de acuerdo con ustedes.",
+    "es_author": "IA (Claude)",
+    "id": "s_1492576",
+    "it": "Tutti sono d'accordo con voi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1492576",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Eldad",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -10835,6 +12022,28 @@
     "source_id": "1501957",
     "tag_rules": {
       "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué darse tanto problema?",
+    "es_author": "marco87",
+    "es_source_id": "1506650",
+    "id": "s_1506612",
+    "it": "Perché farsi tanti problemi?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1506612",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -11315,6 +12524,75 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estoy de acuerdo con tu propuesta.",
+    "es_author": "IA (Claude)",
+    "id": "s_1539441",
+    "it": "Sono d'accordo con la tua proposta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1539441",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estoy de acuerdo con su propuesta.",
+    "es_author": "IA (Claude)",
+    "id": "s_1539442",
+    "it": "Sono d'accordo con la sua proposta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1539442",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estoy de acuerdo con la propuesta de ustedes.",
+    "es_author": "IA (Claude)",
+    "id": "s_1539443",
+    "it": "Sono d'accordo con la vostra proposta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1539443",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -11385,6 +12663,51 @@
       "ERR_Z_AFFRICATE": "z_africata"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, tu teoría no es correcta.",
+    "es_author": "IA (Claude)",
+    "id": "s_1541414",
+    "it": "La tua teoria secondo me non è corretta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1541414",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué no dijiste nada?",
+    "es_author": "hayastan",
+    "es_source_id": "1630440",
+    "id": "s_1541546",
+    "it": "Perché non hai detto niente?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1541546",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -12385,6 +13708,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¡Estoy gritando porque vi un ratón!",
+    "es_author": "marcelostockle",
+    "es_source_id": "1687309",
+    "id": "s_1687207",
+    "it": "Sto urlando perché ho visto un topo!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1687207",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -12988,6 +14333,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué no vienes a la fiesta con nosotros?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1743450",
+    "id": "s_1743342",
+    "it": "Perché non viene alla festa con noi?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1743342",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_COMPARATIVE_DI"
     ],
     "es": "Él es dos años menor que yo.",
@@ -13265,6 +14632,28 @@
       "ERR_PREP_FIXED_GOV": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué no piensa en mí más?",
+    "es_author": "saverius",
+    "es_source_id": "10802761",
+    "id": "s_1814093",
+    "it": "Perché non mi pensa più?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1814093",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -15916,6 +17305,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Tom y Mary están de acuerdo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2262458",
+    "it": "Tom e Mary sono d'accordo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2262458",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "hitori37",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_SPAZIO_PREP"
     ],
     "es": "El auto está parado enfrente de aquel edificio.",
@@ -16086,6 +17498,28 @@
     "source_id": "2399430",
     "tag_rules": {
       "ERR_TENERE_AVERE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué no nos dejas ir?",
+    "es_author": "cueyayotl",
+    "es_source_id": "3885743",
+    "id": "s_2399609",
+    "it": "Perché non ci lasci andare?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2399609",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -16388,6 +17822,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "al_ex_an_der",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "Se por qué está haciendo eso Tom.",
+    "es_author": "Shishir",
+    "es_source_id": "2486103",
+    "id": "s_2436288",
+    "it": "Io so perché Tom sta facendo questo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2436288",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -16669,6 +18125,28 @@
       "ERR_SPAZIO_PREP": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué él no puede venir?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1777008",
+    "id": "s_2458197",
+    "it": "Perché non può venire?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2458197",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -17785,6 +19263,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué no ayuda nadie a Tom?",
+    "es_author": "Shishir",
+    "es_source_id": "2679794",
+    "id": "s_2681664",
+    "it": "Perché nessuno aiuta Tom?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2681664",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -18847,6 +20347,28 @@
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué no quisiste ir a Boston?",
+    "es_author": "hayastan",
+    "es_source_id": "2177410",
+    "id": "s_2900404",
+    "it": "Perché non volevi andare a Boston?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2900404",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PARTICIPLE_AGREEMENT"
     ],
     "es": "Ella nació en Ohio.",
@@ -19733,6 +21255,28 @@
     "source_id": "3110654",
     "tag_rules": {
       "ERR_GENERE_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué querías hablar conmigo?",
+    "es_author": "hayastan",
+    "es_source_id": "2185235",
+    "id": "s_3112004",
+    "it": "Perché volevi parlare con me?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3112004",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -20937,6 +22481,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estoy de acuerdo con Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_3406909",
+    "it": "Sono d'accordo con Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3406909",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -21000,6 +22568,29 @@
     "source_id": "3425271",
     "tag_rules": {
       "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, Twitter es una pérdida de tiempo.",
+    "es_author": "IA (Claude)",
+    "id": "s_3425995",
+    "it": "Secondo me Twitter è una perdita di tempo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3425995",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -21760,6 +23351,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "Los niños lloran porque quieren comer.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1493440",
+    "id": "s_3509993",
+    "it": "I bambini piangono perché vogliono mangiare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3509993",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "martin",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -22429,6 +24042,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué volvió Tom?",
+    "es_author": "ficion",
+    "es_source_id": "3610792",
+    "id": "s_3572393",
+    "it": "Perché Tom è tornato?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3572393",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -22516,6 +24153,30 @@
       "ERR_VOC_TEMPO": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué debo hacer esto sola?",
+    "es_author": "saverius",
+    "es_source_id": "10262269",
+    "id": "s_3602057",
+    "it": "Perché devo fare questo da sola?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3602057",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -22700,6 +24361,75 @@
     "source_id": "3637831",
     "tag_rules": {
       "ERR_DATE_ORARI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, te equivocas.",
+    "es_author": "IA (Claude)",
+    "id": "s_3641072",
+    "it": "Secondo me hai torto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3641072",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, ustedes se equivocan.",
+    "es_author": "IA (Claude)",
+    "id": "s_3641074",
+    "it": "Secondo me avete torto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3641074",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, se equivoca.",
+    "es_author": "IA (Claude)",
+    "id": "s_3641077",
+    "it": "Secondo me si sbaglia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3641077",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -24296,6 +26026,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "valealb",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué estoy tan cansada?",
+    "es_author": "Adelpa",
+    "es_source_id": "8118954",
+    "id": "s_3784104",
+    "it": "Perché sono così stanca?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3784104",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -25230,6 +26984,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En realidad, estoy de acuerdo con Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_3855583",
+    "it": "In realtà sono d'accordo con Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3855583",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -25324,6 +27101,30 @@
     "source_id": "386837",
     "tag_rules": {
       "ERR_POSSESSIVE_ARTICLE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué pintaste la banca de rojo?",
+    "es_author": "kylecito",
+    "es_source_id": "336370",
+    "id": "s_386848",
+    "it": "Perché hai dipinto la panchina di rosso?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "386848",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -25805,6 +27606,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "farinello",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estoy de acuerdo contigo dentro de ciertos límites.",
+    "es_author": "IA (Claude)",
+    "id": "s_3946435",
+    "it": "Sono d'accordo con te entro certi limiti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3946435",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -26253,6 +28077,52 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Por lo general estoy de acuerdo con ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_4054104",
+    "it": "Di solito sono d'accordo con lei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4054104",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Normalmente estoy de acuerdo con ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_4054106",
+    "it": "Solitamente sono d'accordo con lei.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4054106",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -26339,6 +28209,29 @@
     "source_id": "4086548",
     "tag_rules": {
       "ERR_VOC_CULTURA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "shoras",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estoy de acuerdo con este plan.",
+    "es_author": "IA (Claude)",
+    "id": "s_409358",
+    "it": "Sono d'accordo con questo piano.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "409358",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -27930,6 +29823,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Yo estoy de acuerdo.",
+    "es_author": "Zifre",
+    "es_source_id": "2842",
+    "id": "s_4438",
+    "it": "Io sono d'accordo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4438",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_SI_IMPERSONALE"
     ],
     "es": "¿Dónde se puede llamar por teléfono?",
@@ -27967,6 +29884,30 @@
     "source_id": "4461",
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué no comes verdura?",
+    "es_author": "Shishir",
+    "es_source_id": "2908",
+    "id": "s_4463",
+    "it": "Perché non mangi la verdura?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4463",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -28040,6 +29981,29 @@
       "ERR_IMPERATIVO_FORMA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, no es una buena idea.",
+    "es_author": "IA (Claude)",
+    "id": "s_448307",
+    "it": "Secondo me non è una buona idea.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "448307",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -28176,6 +30140,29 @@
       "ERR_DATE_ORARI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estoy de acuerdo al cien por ciento.",
+    "es_author": "IA (Claude)",
+    "id": "s_4513634",
+    "it": "Sono d'accordo al cento percento.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4513634",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "ianna",
@@ -28611,6 +30598,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "Ni siquiera saben por qué.",
+    "es_author": "hayastan",
+    "es_source_id": "1068602",
+    "id": "s_4650",
+    "it": "Non sanno nemmeno il perché.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4650",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -28757,6 +30766,30 @@
     "source_id": "4680",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "No estoy de acuerdo con él.",
+    "es_author": "darinmex",
+    "es_source_id": "569116",
+    "id": "s_4682",
+    "it": "Non sono d'accordo con lui.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4682",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -29560,6 +31593,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "ianna",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué te fuiste?",
+    "es_author": "ianna",
+    "es_source_id": "5050036",
+    "id": "s_5030936",
+    "it": "Perché sei andato via?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5030936",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -30078,6 +32133,28 @@
     "source_id": "5223860",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "Sacate la chaqueta porque hace mucho calor.",
+    "es_author": "hayastan",
+    "es_source_id": "523796",
+    "id": "s_524198",
+    "it": "Togliti la giacca perché fa molto caldo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "524198",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Pharamp",
@@ -30717,6 +32794,28 @@
       "ERR_VOC_SERVIZI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué nadie me ayuda?",
+    "es_author": "don_ramon",
+    "es_source_id": "5117383",
+    "id": "s_5352633",
+    "it": "Perché nessuno mi aiuta?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5352633",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -33487,6 +35586,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, él se equivoca.",
+    "es_author": "IA (Claude)",
+    "id": "s_621056",
+    "it": "Secondo me ha torto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "621056",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -34711,6 +36834,51 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué no me creíste?",
+    "es_author": "hayastan",
+    "es_source_id": "1070545",
+    "id": "s_669345",
+    "it": "Perché non mi avete creduto?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "669345",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estoy de acuerdo con los comentarios de Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_6701657",
+    "it": "Sono d'accordo con i commenti di Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6701657",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -34822,6 +36990,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "Sé por qué Tom ha dejado Boston.",
+    "es_author": "saverius",
+    "es_source_id": "10262311",
+    "id": "s_6735926",
+    "it": "So perché Tom ha lasciato Boston.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6735926",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "dnnywld",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -34862,6 +37052,28 @@
     "source_id": "682810",
     "tag_rules": {
       "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En cierto sentido, estoy de acuerdo.",
+    "es_author": "arh",
+    "es_source_id": "6862150",
+    "id": "s_6832229",
+    "it": "In un certo senso sono d'accordo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6832229",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -35309,6 +37521,28 @@
     "source_id": "6963725",
     "tag_rules": {
       "ERR_ACCENT_TRANSFER": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué no quiere ir a Japón?",
+    "es_author": "Seael",
+    "es_source_id": "7932409",
+    "id": "s_6987464",
+    "it": "Perché non vuole andare in Giappone?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6987464",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -36181,6 +38415,28 @@
   },
   {
     "author": "Valdast",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué no me avisaste antes?",
+    "es_author": "arh",
+    "es_source_id": "7320832",
+    "id": "s_7321604",
+    "it": "Perché non mi hai avvisato prima?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7321604",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Valdast",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -36557,6 +38813,28 @@
     "source_id": "7558833",
     "tag_rules": {
       "ERR_VOC_ABITI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "Porque sé hablar chino.",
+    "es_author": "Shishir",
+    "es_source_id": "554889",
+    "id": "s_756686",
+    "it": "Perché so parlare in cinese.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "756686",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -37564,6 +39842,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué nadie está comiendo?",
+    "es_author": "cueyayotl",
+    "es_source_id": "8618680",
+    "id": "s_7946837",
+    "it": "Perché nessuno sta mangiando?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7946837",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -37630,6 +39932,30 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué quieres comprar este libro?",
+    "es_author": "Shishir",
+    "es_source_id": "1281776",
+    "id": "s_794977",
+    "it": "Perché vuoi comprare questo libro?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "794977",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "rado",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -37672,6 +39998,116 @@
     "source_id": "798836",
     "tag_rules": {
       "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué eres tan fuerte?",
+    "es_author": "pcarolina",
+    "es_source_id": "8637058",
+    "id": "s_8011656",
+    "it": "Perché sei così forte?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8011656",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué se está parando ahora?",
+    "es_author": "saverius",
+    "es_source_id": "10802980",
+    "id": "s_8011719",
+    "it": "Perché si sta fermando ora?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8011719",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué esto es tan difícil?",
+    "es_author": "Viqui",
+    "es_source_id": "12024532",
+    "id": "s_8011975",
+    "it": "Perché questo è così difficile?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8011975",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué no viniste ayer?",
+    "es_author": "danilo",
+    "es_source_id": "333164",
+    "id": "s_8012134",
+    "it": "Perché non sei venuta ieri?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8012134",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué no quieres aprender francés?",
+    "es_author": "pcarolina",
+    "es_source_id": "8637176",
+    "id": "s_8013139",
+    "it": "Perché non volete imparare il francese?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8013139",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -37767,6 +40203,28 @@
       "ERR_COMPARATIVO_IRREG": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué no lo podemos volver a hacer?",
+    "es_author": "saverius",
+    "es_source_id": "10805668",
+    "id": "s_8033337",
+    "it": "Perché non lo possiamo rifare?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8033337",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "shoras",
@@ -37972,6 +40430,29 @@
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión, tiene razón.",
+    "es_author": "IA (Claude)",
+    "id": "s_828702",
+    "it": "Secondo me ha ragione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "828702",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -38315,6 +40796,50 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Ricardo14",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué es esto tan importante para ti?",
+    "es_author": "Ricardo14",
+    "es_source_id": "8493258",
+    "id": "s_8493251",
+    "it": "Perché è così importante per te?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8493251",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "No te puedo ayudar porque estoy ocupado.",
+    "es_author": "darinmex",
+    "es_source_id": "531141",
+    "id": "s_850517",
+    "it": "Non posso aiutarti perché sono occupato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "850517",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -38433,6 +40958,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué comes esa basura?",
+    "es_author": "saverius",
+    "es_source_id": "10799228",
+    "id": "s_8678363",
+    "it": "Perché mangi quella robaccia?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8678363",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PRIMA_DI"
     ],
     "es": "Lavate la boca antes de hablar de mí.",
@@ -38493,6 +41042,29 @@
       "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "Estoy de acuerdo en ese asunto.",
+    "es_author": "IA (Claude)",
+    "id": "s_876838",
+    "it": "Sono d'accordo su quella questione.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "876838",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -39386,6 +41958,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "es": "En mi opinión el fútbol es un gran deporte.",
+    "es_author": "hayastan",
+    "es_source_id": "945460",
+    "id": "s_945451",
+    "it": "Secondo me il calcio è un grande sport.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "945451",
+    "tag_rules": {
+      "ERR_OPINIONE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -39713,6 +42307,28 @@
     "source_id": "950274",
     "tag_rules": {
       "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "¿Por qué lo estamos estudiando?",
+    "es_author": "carlosalberto",
+    "es_source_id": "9609382",
+    "id": "s_9609394",
+    "it": "Perché lo stiamo studiando?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9609394",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -40443,6 +43059,28 @@
       "ERR_VOC_SALUTI": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "es": "El mundo es bello porque es diverso.",
+    "es_author": "carlosalberto",
+    "es_source_id": "11064210",
+    "id": "s_995515",
+    "it": "Il mondo è bello perché è vario.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "995515",
+    "tag_rules": {
+      "ERR_SUBORDINATE": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",

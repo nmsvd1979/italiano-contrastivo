@@ -1,0 +1,1007 @@
+[
+ {
+  "id": "s_4438",
+  "veredicto": "keep",
+  "espanol": "Yo estoy de acuerdo.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_13038523",
+  "veredicto": "keep",
+  "espanol": "Bueno, estoy de acuerdo.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_4682",
+  "veredicto": "keep",
+  "espanol": "No estoy de acuerdo con él.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_6832229",
+  "veredicto": "keep",
+  "espanol": "En cierto sentido, estoy de acuerdo.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_945451",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, el fútbol es un gran deporte.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_4637382",
+  "veredicto": "reject",
+  "nota": "Concordancia plural dudosa; frase larga.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_1506311",
+  "veredicto": "reject",
+  "nota": "Construcción larga y poco natural.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_4384509",
+  "veredicto": "reject",
+  "nota": "«per me»/ajeno al foco de la cápsula.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_5797233",
+  "veredicto": "reject",
+  "nota": "Salud mental; tema inadecuado.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_1330817",
+  "veredicto": "reject",
+  "nota": "«per me»/ajeno al foco de la cápsula.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_2068384",
+  "veredicto": "reject",
+  "nota": "«per me»/ajeno al foco de la cápsula.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_14001442",
+  "veredicto": "doubt",
+  "espanol": "Creo que me siento un poco cansado.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE",
+  "nota": "sin variante: el generador no encuentra el patrón"
+ },
+ {
+  "id": "s_3190771",
+  "veredicto": "reject",
+  "nota": "«per me», no trabaja la forma objetivo.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_1607351",
+  "veredicto": "reject",
+  "nota": "«per me»/ajeno al foco de la cápsula.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_382195",
+  "veredicto": "reject",
+  "nota": "«per me»/ajeno al foco de la cápsula.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_1614082",
+  "veredicto": "reject",
+  "nota": "«per me»/ajeno al foco de la cápsula.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_777427",
+  "veredicto": "doubt",
+  "espanol": "Creo que me he resfriado.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE",
+  "nota": "sin variante: el generador no encuentra el patrón"
+ },
+ {
+  "id": "s_996726",
+  "veredicto": "reject",
+  "nota": "«per me»/ajeno al foco de la cápsula.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_2477571",
+  "veredicto": "doubt",
+  "espanol": "Creo que cometí un gran error.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE",
+  "nota": "sin variante: el generador no encuentra el patrón"
+ },
+ {
+  "id": "s_387208",
+  "veredicto": "reject",
+  "nota": "«per me»/ajeno al foco de la cápsula.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_900693",
+  "veredicto": "reject",
+  "nota": "«per me»/ajeno al foco de la cápsula.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_3608912",
+  "veredicto": "reject",
+  "nota": "«per me»/ajeno al foco de la cápsula.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_4412847",
+  "veredicto": "reject",
+  "nota": "«per me»/ajeno al foco de la cápsula.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_957906",
+  "veredicto": "reject",
+  "nota": "«per me»/ajeno al foco de la cápsula.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_521076",
+  "veredicto": "reject",
+  "nota": "«per me»/ajeno al foco de la cápsula.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_612752",
+  "veredicto": "reject",
+  "nota": "Alcohol; tema poco adecuado.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_950783",
+  "veredicto": "reject",
+  "nota": "Ambigua con «No,» inicial.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_621056",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, él se equivoca.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_1075940",
+  "veredicto": "keep",
+  "espanol": "Todos están de acuerdo.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_3641072",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, te equivocas.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_3641077",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, se equivoca.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_828702",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, tiene razón.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_1124270",
+  "veredicto": "keep",
+  "espanol": "¡En mi opinión, es culpa tuya!",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_3406909",
+  "veredicto": "keep",
+  "espanol": "Estoy de acuerdo con Tom.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_3940623",
+  "veredicto": "reject",
+  "nota": "Tema de culpabilidad penal.",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_3641074",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, ustedes se equivocan.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_2262458",
+  "veredicto": "keep",
+  "espanol": "Tom y Mary están de acuerdo.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_1492575",
+  "veredicto": "keep",
+  "espanol": "Todos están de acuerdo contigo.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_11255668",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, hace buen tiempo.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_1492576",
+  "veredicto": "keep",
+  "espanol": "Todos están de acuerdo con ustedes.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_1358919",
+  "veredicto": "keep",
+  "espanol": "Estoy de acuerdo con su plan.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_409358",
+  "veredicto": "keep",
+  "espanol": "Estoy de acuerdo con este plan.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_4513634",
+  "veredicto": "keep",
+  "espanol": "Estoy de acuerdo al cien por ciento.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_12255253",
+  "veredicto": "keep",
+  "espanol": "Es un edificio feo, en mi opinión.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_876838",
+  "veredicto": "keep",
+  "espanol": "Estoy de acuerdo en ese asunto.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_4054106",
+  "veredicto": "keep",
+  "espanol": "Normalmente estoy de acuerdo con ella.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_10832104",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, tienes una familia maravillosa.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_448307",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, no es una buena idea.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_1314389",
+  "veredicto": "keep",
+  "espanol": "Estoy de acuerdo con su plan.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_3855583",
+  "veredicto": "keep",
+  "espanol": "En realidad, estoy de acuerdo con Tom.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_4054104",
+  "veredicto": "keep",
+  "espanol": "Por lo general estoy de acuerdo con ella.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_1539442",
+  "veredicto": "keep",
+  "espanol": "Estoy de acuerdo con su propuesta.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_1539441",
+  "veredicto": "keep",
+  "espanol": "Estoy de acuerdo con tu propuesta.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_11608116",
+  "veredicto": "keep",
+  "espanol": "No estoy de acuerdo contigo en esto.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_6701657",
+  "veredicto": "keep",
+  "espanol": "Estoy de acuerdo con los comentarios de Tom.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_1539443",
+  "veredicto": "keep",
+  "espanol": "Estoy de acuerdo con la propuesta de ustedes.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_1541414",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, tu teoría no es correcta.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_3946435",
+  "veredicto": "keep",
+  "espanol": "Estoy de acuerdo contigo dentro de ciertos límites.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_3425995",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, Twitter es una pérdida de tiempo.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_13884130",
+  "veredicto": "keep",
+  "espanol": "Estoy de acuerdo contigo hasta cierto punto.",
+  "nivel": "A2",
+  "codigo": "ERR_OPINIONE"
+ },
+ {
+  "id": "s_8011656",
+  "veredicto": "keep",
+  "espanol": "¿Por qué eres tan fuerte?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_2458197",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no puede venir?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_6162401",
+  "veredicto": "reject",
+  "nota": "Tema de odio.",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_5352633",
+  "veredicto": "keep",
+  "espanol": "¿Por qué nadie me ayuda?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_1814093",
+  "veredicto": "keep",
+  "espanol": "¿Por qué ya no piensa en mí?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_3784104",
+  "veredicto": "keep",
+  "espanol": "¿Por qué estoy tan cansada?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_2681664",
+  "veredicto": "keep",
+  "espanol": "¿Por qué nadie ayuda a Tom?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_380348",
+  "veredicto": "reject",
+  "nota": "Matiz sexista; contexto ambiguo.",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_10254366",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no sale a jugar?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_8011719",
+  "veredicto": "keep",
+  "espanol": "¿Por qué se está deteniendo ahora?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_1293706",
+  "veredicto": "keep",
+  "espanol": "¿Por qué dices que es un verbo?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_2399609",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no nos dejas ir?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_9609394",
+  "veredicto": "keep",
+  "espanol": "¿Por qué lo estamos estudiando?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_4650",
+  "veredicto": "keep",
+  "espanol": "Ni siquiera saben el porqué.",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_13954806",
+  "veredicto": "keep",
+  "espanol": "¿Por qué las plantas son verdes?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_756686",
+  "veredicto": "keep",
+  "espanol": "Porque sé hablar chino.",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_4463",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no comes la verdura?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_5994734",
+  "veredicto": "reject",
+  "nota": "Tema de odio.",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_1506612",
+  "veredicto": "keep",
+  "espanol": "¿Por qué preocuparse tanto?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_8678363",
+  "veredicto": "keep",
+  "espanol": "¿Por qué comes esa porquería?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_7946837",
+  "veredicto": "keep",
+  "espanol": "¿Por qué nadie está comiendo?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_8033337",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no podemos volver a hacerlo?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_8011975",
+  "veredicto": "keep",
+  "espanol": "¿Por qué esto es tan difícil?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_12612503",
+  "veredicto": "keep",
+  "espanol": "¿Por qué los flamencos son rosados?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_10744681",
+  "veredicto": "keep",
+  "espanol": "Lo hago porque me gusta hacerlo.",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_8493251",
+  "veredicto": "keep",
+  "espanol": "¿Por qué es tan importante para ti?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_3602057",
+  "veredicto": "keep",
+  "espanol": "¿Por qué tengo que hacer esto sola?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_794977",
+  "veredicto": "keep",
+  "espanol": "¿Por qué quieres comprar este libro?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_1197765",
+  "veredicto": "keep",
+  "espanol": "¿Por qué te comportas como un niño?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_6987464",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no quiere ir a Japón?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_10461722",
+  "veredicto": "keep",
+  "espanol": "¿Por qué los monos no saben hablar?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_8013139",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no quieren aprender francés?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_3509993",
+  "veredicto": "keep",
+  "espanol": "Los niños lloran porque quieren comer.",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_1082001",
+  "veredicto": "keep",
+  "espanol": "¿Por qué está enojada?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_3572393",
+  "veredicto": "keep",
+  "espanol": "¿Por qué volvió Tom?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_5030936",
+  "veredicto": "keep",
+  "espanol": "¿Por qué te fuiste?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_13976556",
+  "veredicto": "reject",
+  "nota": "Espacio erróneo antes de «?»; contexto oscuro.",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_1143904",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no viniste ayer?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_8012134",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no viniste ayer?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_5980346",
+  "veredicto": "reject",
+  "nota": "Ambigua; sugiere congiuntivo.",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_669345",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no me creyeron?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_1541546",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no dijiste nada?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_10745801",
+  "veredicto": "keep",
+  "espanol": "Tom está en casa porque está enfermo.",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_3112004",
+  "veredicto": "keep",
+  "espanol": "¿Por qué querías hablar conmigo?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_1183012",
+  "veredicto": "keep",
+  "espanol": "¿Por qué estás enojada con él?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_1005829",
+  "veredicto": "keep",
+  "espanol": "¿Por qué viniste a Japón?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_14000521",
+  "veredicto": "keep",
+  "espanol": "Dile a Tom por qué quieres irte.",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_995515",
+  "veredicto": "keep",
+  "espanol": "El mundo es bello porque es variado.",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_7321604",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no me avisaste antes?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_6735926",
+  "veredicto": "keep",
+  "espanol": "Sé por qué Tom dejó Boston.",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_2900404",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no querías ir a Boston?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_1168625",
+  "veredicto": "reject",
+  "nota": "Tema de salud y tabaco.",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_1743342",
+  "veredicto": "keep",
+  "espanol": "¿Por qué no viene a la fiesta con nosotros?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_1687207",
+  "veredicto": "keep",
+  "espanol": "¡Estoy gritando porque vi un ratón!",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_2436288",
+  "veredicto": "keep",
+  "espanol": "Yo sé por qué Tom está haciendo esto.",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_3217693",
+  "veredicto": "reject",
+  "nota": "Tema político (partido).",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_1316530",
+  "veredicto": "keep",
+  "espanol": "Eso explica por qué la puerta está abierta.",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_386848",
+  "veredicto": "keep",
+  "espanol": "¿Por qué pintaste la banca de rojo?",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_850517",
+  "veredicto": "keep",
+  "espanol": "No puedo ayudarte porque estoy ocupado.",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "s_524198",
+  "veredicto": "keep",
+  "espanol": "Quítate la chaqueta porque hace mucho calor.",
+  "nivel": "A2",
+  "codigo": "ERR_SUBORDINATE"
+ },
+ {
+  "id": "a_f290a0a4",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, este libro es muy bueno.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_853f2d07",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, el tren es más cómodo que el avión.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_23cf8a5d",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, esta pizza es excelente.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_eb033d23",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, la ciudad es demasiado ruidosa.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_f56526ab",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, la película es demasiado larga.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_ca291696",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, es mejor partir mañana.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_375bf60e",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, este bolso cuesta demasiado.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_11640ca5",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, el médico tiene razón.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_481ae50c",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, el examen es fácil.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_35ceb564",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "En mi opinión, el café es bueno aquí.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_c056a31f",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "Estoy de acuerdo contigo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_d5f3ff53",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "Estoy de acuerdo con el médico.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_131e0c72",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "Estamos de acuerdo en el precio.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_49cb1742",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "Estoy de acuerdo, la clase es útil.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_371f0a51",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "Ella también está de acuerdo con nosotros.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_a794a1bb",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "¿Están de acuerdo con el plan?",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_0f039643",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "Marco está de acuerdo conmigo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_f71a0b12",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "Estoy de acuerdo con el programa.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_b43d8649",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "No estoy de acuerdo con esta idea.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_eb1242ca",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "No estoy de acuerdo con el jefe.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_49128235",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "No estamos de acuerdo con el horario.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_6ea8da6d",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "No está de acuerdo con nosotros.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_6710b0f8",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "Pienso ir a la playa mañana.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_207847c9",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "Creo que tengo hambre.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_f6103a54",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "Pienso llegar a las ocho.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_ab86a1d1",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "Pienso quedarme en casa.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_e3e4f760",
+  "codigo": "ERR_OPINIONE",
+  "veredicto": "keep",
+  "espanol": "Pienso estudiar más.",
+  "nivel": "A2"
+ }
+]

@@ -1,0 +1,149 @@
+{
+  "id": "rd_miastoria",
+  "title": "La mia storia e il mio futuro",
+  "kind": "lectura",
+  "level": "A2",
+  "authored": true,
+  "source": {
+    "book": "Texto escrito por la IA (Claude) para esta app",
+    "authors": "Claude (IA), a pedido del usuario",
+    "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+    "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+  },
+  "adaptation": "Texto en primera persona sobre estudios, trabajo, planes, opinión y un malestar simple; escrito por IA con italiano básico de A2.",
+  "translation": "IA (Claude), sin revisar por un hablante nativo",
+  "sentences": [
+    {
+      "id": "rd_miastoria_00",
+      "it": "Mi chiamo Chiara e ho venticinque anni.",
+      "es": "Me llamo Chiara y tengo veinticinco años."
+    },
+    {
+      "id": "rd_miastoria_01",
+      "it": "Studio economia all'università.",
+      "es": "Estudio economía en la universidad."
+    },
+    {
+      "id": "rd_miastoria_02",
+      "it": "Il sabato lavoro in un negozio di libri.",
+      "es": "Los sábados trabajo en una librería."
+    },
+    {
+      "id": "rd_miastoria_03",
+      "it": "Lavoro per guadagnare un po' di soldi.",
+      "es": "Trabajo para ganar un poco de dinero."
+    },
+    {
+      "id": "rd_miastoria_04",
+      "it": "Studio economia perché mi piacciono i numeri.",
+      "es": "Estudio economía porque me gustan los números."
+    },
+    {
+      "id": "rd_miastoria_05",
+      "it": "In futuro penso di lavorare in una banca.",
+      "es": "En el futuro pienso trabajar en un banco."
+    },
+    {
+      "id": "rd_miastoria_06",
+      "it": "Credo di essere pronta, ma devo studiare ancora molto.",
+      "es": "Creo que estoy lista, pero todavía debo estudiar mucho."
+    },
+    {
+      "id": "rd_miastoria_07",
+      "it": "Voglio anche parlare bene l'italiano.",
+      "es": "También quiero hablar bien italiano."
+    },
+    {
+      "id": "rd_miastoria_08",
+      "it": "Secondo me, l'italiano è una lingua bella e utile.",
+      "es": "Según yo, el italiano es una lengua bonita y útil."
+    },
+    {
+      "id": "rd_miastoria_09",
+      "it": "Per Marco l'inglese è più utile, ma non sono d'accordo.",
+      "es": "Para Marco el inglés es más útil, pero no estoy de acuerdo."
+    },
+    {
+      "id": "rd_miastoria_10",
+      "it": "Oggi mi fa male la gola e ho la febbre.",
+      "es": "Hoy me duele la garganta y tengo fiebre."
+    },
+    {
+      "id": "rd_miastoria_11",
+      "it": "Resto a casa per riposare.",
+      "es": "Me quedo en casa para descansar."
+    },
+    {
+      "id": "rd_miastoria_12",
+      "it": "Bevo un tè caldo per guarire presto.",
+      "es": "Tomo un té caliente para sanar pronto."
+    },
+    {
+      "id": "rd_miastoria_13",
+      "it": "Quando sto meglio, torno al lavoro.",
+      "es": "Cuando esté mejor, vuelvo al trabajo."
+    }
+  ],
+  "questions": [
+    {
+      "prompt_es": "¿Por qué estudia economía?",
+      "options": [
+        "Porque le gustan los números",
+        "Porque trabaja en un banco",
+        "Porque le gusta el inglés"
+      ],
+      "answer": 0,
+      "evidence": 4
+    },
+    {
+      "prompt_es": "¿Qué piensa hacer en el futuro?",
+      "options": [
+        "Estudiar medicina",
+        "Trabajar en un banco",
+        "Abrir una librería"
+      ],
+      "answer": 1,
+      "evidence": 5
+    },
+    {
+      "prompt_es": "¿Qué opina Marco del inglés?",
+      "options": [
+        "Que es más útil que el italiano",
+        "Que es una lengua difícil",
+        "Que es inútil"
+      ],
+      "answer": 0,
+      "evidence": 9
+    },
+    {
+      "prompt_es": "¿Qué le pasa hoy?",
+      "options": [
+        "Le duele la cabeza",
+        "Le duele el estómago",
+        "Le duele la garganta y tiene fiebre"
+      ],
+      "answer": 2,
+      "evidence": 10
+    },
+    {
+      "prompt_es": "¿Para qué bebe un té caliente?",
+      "options": [
+        "Para sanar pronto",
+        "Para trabajar",
+        "Para estudiar"
+      ],
+      "answer": 0,
+      "evidence": 12
+    },
+    {
+      "prompt_es": "¿Dónde trabaja los sábados?",
+      "options": [
+        "En un banco",
+        "En una librería",
+        "En la universidad"
+      ],
+      "answer": 1,
+      "evidence": 2
+    }
+  ]
+}

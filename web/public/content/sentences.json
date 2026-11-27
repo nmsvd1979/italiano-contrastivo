@@ -38974,6 +38974,42 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "b063cb502ea4",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Marco está de acuerdo conmigo.",
+    "es_author": "IA (Claude)",
+    "id": "a_0f039643",
+    "it": "Marco è d'accordo con me.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "35b6b4fdc600",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, el médico tiene razón.",
+    "es_author": "IA (Claude)",
+    "id": "a_11640ca5",
+    "it": "Secondo me il medico ha ragione.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "4224f0f1c89b",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Estamos de acuerdo en el precio.",
+    "es_author": "IA (Claude)",
+    "id": "a_131e0c72",
+    "it": "Siamo d'accordo sul prezzo.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "28a4e8ed6fcb",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -39058,6 +39094,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "3c0d81bc4d91",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Creo que tengo hambre.",
+    "es_author": "IA (Claude)",
+    "id": "a_207847c9",
+    "it": "Penso di avere fame.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "6bef64183cfd",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -39077,6 +39125,18 @@
     "es_author": "IA (Claude)",
     "id": "a_23a15e91",
     "it": "Ascolti, professore, la mia domanda.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b228b7bc4907",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, esta pizza es excelente.",
+    "es_author": "IA (Claude)",
+    "id": "a_23cf8a5d",
+    "it": "Secondo me questa pizza è ottima.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -39161,6 +39221,42 @@
     "es_author": "IA (Claude)",
     "id": "a_317a3041",
     "it": "Si sieda qui, signore, c'è posto.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "47dc954cbc3b",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, el café es bueno aquí.",
+    "es_author": "IA (Claude)",
+    "id": "a_35ceb564",
+    "it": "Secondo me il caffè è buono qui.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6d0109bd2593",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Ella también está de acuerdo con nosotros.",
+    "es_author": "IA (Claude)",
+    "id": "a_371f0a51",
+    "it": "Anche lei è d'accordo con noi.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "50f5b462d8d4",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, este bolso cuesta demasiado.",
+    "es_author": "IA (Claude)",
+    "id": "a_375bf60e",
+    "it": "Secondo me questa borsa costa troppo.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -39286,6 +39382,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "e77e60387ab2",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, el examen es fácil.",
+    "es_author": "IA (Claude)",
+    "id": "a_481ae50c",
+    "it": "Secondo me l'esame è facile.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "72c4860266a2",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -39293,6 +39401,30 @@
     "es_author": "IA (Claude)",
     "id": "a_48501500",
     "it": "Hai quaderni? Sì, ne ho tanti.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b74eb52a38ef",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "No estamos de acuerdo con el horario.",
+    "es_author": "IA (Claude)",
+    "id": "a_49128235",
+    "it": "Non siamo d'accordo sull'orario.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "4aa792f5ebf6",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Estoy de acuerdo, la clase es útil.",
+    "es_author": "IA (Claude)",
+    "id": "a_49cb1742",
+    "it": "Sono d'accordo, la lezione è utile.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -39514,6 +39646,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "064bbf2b739d",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Pienso ir a la playa mañana.",
+    "es_author": "IA (Claude)",
+    "id": "a_6710b0f8",
+    "it": "Penso di andare al mare domani.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "eca3d32a65a1",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -39557,6 +39701,18 @@
     "es_author": "IA (Claude)",
     "id": "a_6e31e091",
     "it": "Per andare a Milano ci metto un'ora e mezza.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "7536f2cbbc9d",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "No está de acuerdo con nosotros.",
+    "es_author": "IA (Claude)",
+    "id": "a_6ea8da6d",
+    "it": "Non è d'accordo con noi.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -39694,6 +39850,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "6241f4cae32e",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, el tren es más cómodo que el avión.",
+    "es_author": "IA (Claude)",
+    "id": "a_853f2d07",
+    "it": "Secondo me il treno è più comodo dell'aereo.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "74b75222233b",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -39826,6 +39994,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "cfc5378d9186",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "¿Están de acuerdo con el plan?",
+    "es_author": "IA (Claude)",
+    "id": "a_a794a1bb",
+    "it": "Siete d'accordo con il piano?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "6c341fa5b80b",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -39833,6 +40013,18 @@
     "es_author": "IA (Claude)",
     "id": "a_a7d8113b",
     "it": "Scusi, avvocato, è libero domani?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "0ad524feb3bc",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Pienso quedarme en casa.",
+    "es_author": "IA (Claude)",
+    "id": "a_ab86a1d1",
+    "it": "Penso di restare a casa.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -39886,6 +40078,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "b11b0518963c",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "No estoy de acuerdo con esta idea.",
+    "es_author": "IA (Claude)",
+    "id": "a_b43d8649",
+    "it": "Non sono d'accordo con questa idea.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "08a6353ef9bd",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -39929,6 +40133,30 @@
     "es_author": "IA (Claude)",
     "id": "a_be3d0202",
     "it": "Venga, signore, il tavolo è qui.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "5486acbd1ed8",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Estoy de acuerdo contigo.",
+    "es_author": "IA (Claude)",
+    "id": "a_c056a31f",
+    "it": "Sono d'accordo con te.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d488f1566f3d",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, es mejor partir mañana.",
+    "es_author": "IA (Claude)",
+    "id": "a_ca291696",
+    "it": "Secondo me è meglio partire domani.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -40030,6 +40258,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "69a9e9b1f87b",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Estoy de acuerdo con el médico.",
+    "es_author": "IA (Claude)",
+    "id": "a_d5f3ff53",
+    "it": "Sono d'accordo con il medico.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4e8ecd900f66",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -40114,6 +40354,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "5f3e1137a1f8",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Pienso estudiar más.",
+    "es_author": "IA (Claude)",
+    "id": "a_e3e4f760",
+    "it": "Penso di studiare di più.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "30d673df2579",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -40121,6 +40373,30 @@
     "es_author": "IA (Claude)",
     "id": "a_e63b95aa",
     "it": "Mi scusi, signora, sono in ritardo.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "97a733005539",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, la ciudad es demasiado ruidosa.",
+    "es_author": "IA (Claude)",
+    "id": "a_eb033d23",
+    "it": "Secondo me la città è troppo rumorosa.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "bae506bde6f4",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "No estoy de acuerdo con el jefe.",
+    "es_author": "IA (Claude)",
+    "id": "a_eb1242ca",
+    "it": "Non sono d'accordo con il capo.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -40150,6 +40426,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "8a221651dc00",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, este libro es muy bueno.",
+    "es_author": "IA (Claude)",
+    "id": "a_f290a0a4",
+    "it": "Secondo me questo libro è molto bello.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "44761cef2aec",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -40157,6 +40445,42 @@
     "es_author": "IA (Claude)",
     "id": "a_f30121cb",
     "it": "Hai figli? Sì, ne ho due.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6d1dc5b82d0a",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, la película es demasiado larga.",
+    "es_author": "IA (Claude)",
+    "id": "a_f56526ab",
+    "it": "Secondo me il film è troppo lungo.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "beabc63dda24",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Pienso llegar a las ocho.",
+    "es_author": "IA (Claude)",
+    "id": "a_f6103a54",
+    "it": "Penso di arrivare alle otto.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "3d7e93c5eb3a",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Estoy de acuerdo con el programa.",
+    "es_author": "IA (Claude)",
+    "id": "a_f71a0b12",
+    "it": "Sono d'accordo sul programma.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -40245,6 +40569,19 @@
     "it": "Il suo negozio è sempre pieno di clienti.",
     "license": "CC BY 2.0 FR",
     "source_id": "1005627",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "f2a78f4a69fa",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué viniste a Japón?",
+    "es_author": "kylecito",
+    "es_source_id": "336559",
+    "id": "s_1005829",
+    "it": "Perché sei venuto in Giappone?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1005829",
     "translation_kind": "direct"
   },
   {
@@ -40555,6 +40892,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e8d2d3b2aaee",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué no sale a jugar?",
+    "es_author": "saverius",
+    "es_source_id": "10255872",
+    "id": "s_10254366",
+    "it": "Perché non esce a giocare?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10254366",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "9ea02df0a48f",
     "author": "carlosalberto",
     "cefr_estimate": "A2",
@@ -40614,6 +40964,19 @@
     "it": "Fa tutto ciò che le dico di fare.",
     "license": "CC BY 2.0 FR",
     "source_id": "10367776",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e4f23ee4e3b7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué las simias no saben hablar?",
+    "es_author": "saverius",
+    "es_source_id": "10462192",
+    "id": "s_10461722",
+    "it": "Perché le scimmie non sanno parlare?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10461722",
     "translation_kind": "direct"
   },
   {
@@ -40759,6 +41122,44 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "122ad253907a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Lo hago porque me gusta hacerlo.",
+    "es_author": "DJ_Saidez",
+    "es_source_id": "10744665",
+    "id": "s_10744681",
+    "it": "Lo faccio perché mi piace farlo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10744681",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b9e78428edc8",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Tom está en casa porque está enfermo.",
+    "es_author": "carlosalberto",
+    "es_source_id": "10745800",
+    "id": "s_10745801",
+    "it": "Tom è a casa perché è malato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10745801",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "241ac68ac0b2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Todos están de acuerdo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1075940",
+    "it": "Tutti sono d'accordo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1075940",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "bdf9173a4f7d",
     "author": "carlosalberto",
     "cefr_estimate": "A2",
@@ -40845,6 +41246,19 @@
     "it": "Voi vi siete sbagliati.",
     "license": "CC BY 2.0 FR",
     "source_id": "1081894",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "1cc1419dfc4b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué está enfadada?",
+    "es_author": "Shishir",
+    "es_source_id": "796878",
+    "id": "s_1082001",
+    "it": "Perché è arrabbiata?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1082001",
     "translation_kind": "direct"
   },
   {
@@ -40936,6 +41350,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1082726",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "c2d50f195358",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, tienes una familia maravillosa.",
+    "es_author": "IA (Claude)",
+    "id": "s_10832104",
+    "it": "Secondo me, hai una famiglia meravigliosa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10832104",
+    "translation_kind": "llm"
   },
   {
     "audio": "f82e6be5c3c4",
@@ -41275,6 +41701,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "fa2137776a0f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡En mi opinión, es culpa tuya!",
+    "es_author": "IA (Claude)",
+    "id": "s_1124270",
+    "it": "Secondo me è colpa tua!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1124270",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "efbdef9e3b68",
     "author": "carlosalberto",
     "cefr_estimate": "A2",
@@ -41332,6 +41770,18 @@
     "it": "Perché siete usciti?",
     "license": "CC BY 2.0 FR",
     "source_id": "11254137",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "3eb791ba6bb1",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, hace buen tiempo.",
+    "es_author": "IA (Claude)",
+    "id": "s_11255668",
+    "it": "Secondo me il tempo è bello.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11255668",
     "translation_kind": "llm"
   },
   {
@@ -41486,6 +41936,19 @@
     "it": "Oggi non è il mio giorno fortunato!",
     "license": "CC BY 2.0 FR",
     "source_id": "1141626",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ae2be5be43a9",
+    "author": "rado",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué no viniste ayer?",
+    "es_author": "danilo",
+    "es_source_id": "333164",
+    "id": "s_1143904",
+    "it": "Perché non sei venuto ieri?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1143904",
     "translation_kind": "direct"
   },
   {
@@ -41647,6 +42110,18 @@
     "it": "Si parla ancora l'egiziano?",
     "license": "CC BY 2.0 FR",
     "source_id": "11606816",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "06f9833eb53a",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "No estoy de acuerdo contigo en esto.",
+    "es_author": "IA (Claude)",
+    "id": "s_11608116",
+    "it": "Non sono d'accordo con te su questo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11608116",
     "translation_kind": "llm"
   },
   {
@@ -41935,6 +42410,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "8e49b729bb89",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué estás enfadada con él?",
+    "es_author": "Shishir",
+    "es_source_id": "1157832",
+    "id": "s_1183012",
+    "it": "Perché sei arrabbiata con lui?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1183012",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "3da19eea8e2e",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -42021,6 +42509,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "11977067",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "50510d505e1e",
+    "author": "rado",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué te comportas como un niño?",
+    "es_author": "nancy",
+    "es_source_id": "1197937",
+    "id": "s_1197765",
+    "it": "Perché ti comporti come un bambino?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1197765",
+    "translation_kind": "direct"
   },
   {
     "audio": "da09bfaefa50",
@@ -42184,6 +42685,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1224886",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "e243fb721312",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Es un edificio feo, en mi opinión.",
+    "es_author": "IA (Claude)",
+    "id": "s_12255253",
+    "it": "È un brutto edificio, secondo me.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12255253",
+    "translation_kind": "llm"
   },
   {
     "audio": "89a849ae8a16",
@@ -42484,6 +42997,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "0060059ec717",
+    "author": "Adelpa",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué los flamencos son rosas?",
+    "es_author": "Adelpa",
+    "es_source_id": "6034861",
+    "id": "s_12612503",
+    "it": "Perché i fenicotteri sono rosa?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12612503",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "82757ce673fe",
     "author": "riccioberto",
     "cefr_estimate": "A2",
@@ -42781,6 +43307,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "aea25659a99f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué dices que es un verbo?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1294029",
+    "id": "s_1293706",
+    "it": "Perché dici che è un verbo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1293706",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "55d1c1a18d69",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -42852,6 +43391,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1300771",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "dcdf9c3a5a44",
+    "author": "Adelpa",
+    "cefr_estimate": "A2",
+    "es": "Bueno, estoy de acuerdo.",
+    "es_author": "cueyayotl",
+    "es_source_id": "2849560",
+    "id": "s_13038523",
+    "it": "OK, sono d'accordo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13038523",
+    "translation_kind": "direct"
   },
   {
     "audio": "4cb4086cad7a",
@@ -43061,6 +43613,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9d352cde2f4c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estoy de acuerdo con su plan.",
+    "es_author": "IA (Claude)",
+    "id": "s_1314389",
+    "it": "Sono d'accordo con il suo piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1314389",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "f5a3d91bf59a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -43095,6 +43659,19 @@
     "it": "Io non avrò paura.",
     "license": "CC BY 2.0 FR",
     "source_id": "1316291",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7b99429ca4f1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Eso explica por qué la puerta está abierta.",
+    "es_author": "Goso321",
+    "es_source_id": "1037815",
+    "id": "s_1316530",
+    "it": "Quello spiega perché la porta è aperta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1316530",
     "translation_kind": "direct"
   },
   {
@@ -43485,6 +44062,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7140932efeb0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estoy de acuerdo con su plan.",
+    "es_author": "IA (Claude)",
+    "id": "s_1358919",
+    "it": "Sono d'accordo col suo piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1358919",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "899bb2c0e7bb",
     "author": "carlosalberto",
     "cefr_estimate": "A2",
@@ -43549,6 +44138,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b26c21a895b5",
+    "author": "Nuel",
+    "cefr_estimate": "A2",
+    "es": "Estoy de acuerdo contigo hasta cierto punto.",
+    "es_author": "IA (Claude)",
+    "id": "s_13884130",
+    "it": "Sono d'accordo con te fino a un certo punto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13884130",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "0bb96de24664",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -43571,6 +44172,19 @@
     "it": "Sono un po' più alto di te.",
     "license": "CC BY 2.0 FR",
     "source_id": "1394655",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "e69b80ba2dd0",
+    "author": "Adelpa",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué las plantas son verdes?",
+    "es_author": "Adelpa",
+    "es_source_id": "13954811",
+    "id": "s_13954806",
+    "it": "Perché le piante sono verdi?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13954806",
     "translation_kind": "direct"
   },
   {
@@ -43674,6 +44288,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "13995632",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "3195780aeee3",
+    "author": "unforgiven95",
+    "cefr_estimate": "A2",
+    "es": "Dile a Tom por qué quieres irte.",
+    "es_author": "mervert1",
+    "es_source_id": "13688872",
+    "id": "s_14000521",
+    "it": "Dì a Tom perché vuoi andartene.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14000521",
+    "translation_kind": "direct"
   },
   {
     "audio": "cd153ef13eb8",
@@ -44248,6 +44875,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "9ae0396035a1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Todos están de acuerdo contigo.",
+    "es_author": "IA (Claude)",
+    "id": "s_1492575",
+    "it": "Tutti sono d'accordo con te.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1492575",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6bbc00bb2303",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Todos están de acuerdo con ustedes.",
+    "es_author": "IA (Claude)",
+    "id": "s_1492576",
+    "it": "Tutti sono d'accordo con voi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1492576",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "e05a09c9584f",
     "author": "Eldad",
     "cefr_estimate": "A2",
@@ -44271,6 +44922,19 @@
     "it": "Le nubi minacciose si stavano avvicinando, così siamo entrati.",
     "license": "CC BY 2.0 FR",
     "source_id": "1501957",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "d48b80e2cba1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué darse tanto problema?",
+    "es_author": "marco87",
+    "es_source_id": "1506650",
+    "id": "s_1506612",
+    "it": "Perché farsi tanti problemi?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1506612",
     "translation_kind": "direct"
   },
   {
@@ -44524,6 +45188,42 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "8736f116c908",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estoy de acuerdo con tu propuesta.",
+    "es_author": "IA (Claude)",
+    "id": "s_1539441",
+    "it": "Sono d'accordo con la tua proposta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1539441",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "fe5cbc4ed9ad",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estoy de acuerdo con su propuesta.",
+    "es_author": "IA (Claude)",
+    "id": "s_1539442",
+    "it": "Sono d'accordo con la sua proposta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1539442",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d772ea8c8a0d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estoy de acuerdo con la propuesta de ustedes.",
+    "es_author": "IA (Claude)",
+    "id": "s_1539443",
+    "it": "Sono d'accordo con la vostra proposta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1539443",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "45b7b948ef5f",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -44547,6 +45247,31 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1540001",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "77cbcc305c23",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, tu teoría no es correcta.",
+    "es_author": "IA (Claude)",
+    "id": "s_1541414",
+    "it": "La tua teoria secondo me non è corretta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1541414",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "466bd12f21dd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué no dijiste nada?",
+    "es_author": "hayastan",
+    "es_source_id": "1630440",
+    "id": "s_1541546",
+    "it": "Perché non hai detto niente?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1541546",
+    "translation_kind": "direct"
   },
   {
     "audio": "6a6706e17261",
@@ -45058,6 +45783,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "7414f26b5563",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¡Estoy gritando porque vi un ratón!",
+    "es_author": "marcelostockle",
+    "es_source_id": "1687309",
+    "id": "s_1687207",
+    "it": "Sto urlando perché ho visto un topo!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1687207",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "65037ba1574f",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -45372,6 +46110,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "8b1650fbde67",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué no vienes a la fiesta con nosotros?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1743450",
+    "id": "s_1743342",
+    "it": "Perché non viene alla festa con noi?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1743342",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "b6ffbb277c63",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -45500,6 +46251,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1811431",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "761e2ff35038",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué no piensa en mí más?",
+    "es_author": "saverius",
+    "es_source_id": "10802761",
+    "id": "s_1814093",
+    "it": "Perché non mi pensa più?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1814093",
+    "translation_kind": "direct"
   },
   {
     "audio": "a70258611fbd",
@@ -46808,6 +47572,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "bcf57c8f8d35",
+    "author": "hitori37",
+    "cefr_estimate": "A2",
+    "es": "Tom y Mary están de acuerdo.",
+    "es_author": "IA (Claude)",
+    "id": "s_2262458",
+    "it": "Tom e Mary sono d'accordo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2262458",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "7af20dbc7742",
     "author": "hitori37",
     "cefr_estimate": "A2",
@@ -46913,6 +47689,19 @@
     "it": "Ha paura di perdere influenza e attenzione.",
     "license": "CC BY 2.0 FR",
     "source_id": "2399430",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "4b796e9d0caf",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué no nos dejas ir?",
+    "es_author": "cueyayotl",
+    "es_source_id": "3885743",
+    "id": "s_2399609",
+    "it": "Perché non ci lasci andare?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2399609",
     "translation_kind": "direct"
   },
   {
@@ -47078,6 +47867,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b093d2de65bb",
+    "author": "al_ex_an_der",
+    "cefr_estimate": "A2",
+    "es": "Se por qué está haciendo eso Tom.",
+    "es_author": "Shishir",
+    "es_source_id": "2486103",
+    "id": "s_2436288",
+    "it": "Io so perché Tom sta facendo questo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2436288",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "240bff77f4fd",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -47233,6 +48035,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2458099",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "f07bbd23a7e0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué él no puede venir?",
+    "es_author": "marcelostockle",
+    "es_source_id": "1777008",
+    "id": "s_2458197",
+    "it": "Perché non può venire?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2458197",
+    "translation_kind": "direct"
   },
   {
     "audio": "e9ecf742cf43",
@@ -47819,6 +48634,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "3f60ce95783c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué no ayuda nadie a Tom?",
+    "es_author": "Shishir",
+    "es_source_id": "2679794",
+    "id": "s_2681664",
+    "it": "Perché nessuno aiuta Tom?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2681664",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "434c27358013",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -48395,6 +49223,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "ba821f799d76",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué no quisiste ir a Boston?",
+    "es_author": "hayastan",
+    "es_source_id": "2177410",
+    "id": "s_2900404",
+    "it": "Perché non volevi andare a Boston?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2900404",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "64316acb3367",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -48770,6 +49611,19 @@
     "it": "Il latte mi fa venire il mal di stomaco.",
     "license": "CC BY 2.0 FR",
     "source_id": "3110654",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5c34f5d080e3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué querías hablar conmigo?",
+    "es_author": "hayastan",
+    "es_source_id": "2185235",
+    "id": "s_3112004",
+    "it": "Perché volevi parlare con me?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3112004",
     "translation_kind": "direct"
   },
   {
@@ -49383,6 +50237,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c9774494d8d5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estoy de acuerdo con Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_3406909",
+    "it": "Sono d'accordo con Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3406909",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "bcdf09cf9ef5",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -49418,6 +50284,18 @@
     "it": "Si può studiare qui.",
     "license": "CC BY 2.0 FR",
     "source_id": "3425271",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "795d1abf2c65",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, Twitter es una pérdida de tiempo.",
+    "es_author": "IA (Claude)",
+    "id": "s_3425995",
+    "it": "Secondo me Twitter è una perdita di tempo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3425995",
     "translation_kind": "llm"
   },
   {
@@ -49753,6 +50631,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "8676019104c4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Los niños lloran porque quieren comer.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1493440",
+    "id": "s_3509993",
+    "it": "I bambini piangono perché vogliono mangiare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3509993",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "07abf035fa8d",
     "author": "martin",
     "cefr_estimate": "A2",
@@ -49992,6 +50883,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "bdf234be8492",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué volvió Tom?",
+    "es_author": "ficion",
+    "es_source_id": "3610792",
+    "id": "s_3572393",
+    "it": "Perché Tom è tornato?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3572393",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "e0615548ad2d",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -50040,6 +50944,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3592339",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "34d3d9173d2a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué debo hacer esto sola?",
+    "es_author": "saverius",
+    "es_source_id": "10262269",
+    "id": "s_3602057",
+    "it": "Perché devo fare questo da sola?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3602057",
+    "translation_kind": "direct"
   },
   {
     "audio": "0eb9424a3c61",
@@ -50139,6 +51056,42 @@
     "it": "Aspettiamo fino alle sei.",
     "license": "CC BY 2.0 FR",
     "source_id": "3637831",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e54b6879f4de",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, te equivocas.",
+    "es_author": "IA (Claude)",
+    "id": "s_3641072",
+    "it": "Secondo me hai torto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3641072",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "08eee0d04a95",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, ustedes se equivocan.",
+    "es_author": "IA (Claude)",
+    "id": "s_3641074",
+    "it": "Secondo me avete torto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3641074",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "416d3838021e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, se equivoca.",
+    "es_author": "IA (Claude)",
+    "id": "s_3641077",
+    "it": "Secondo me si sbaglia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3641077",
     "translation_kind": "llm"
   },
   {
@@ -50739,6 +51692,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4159cbd60ad3",
+    "author": "valealb",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué estoy tan cansada?",
+    "es_author": "Adelpa",
+    "es_source_id": "8118954",
+    "id": "s_3784104",
+    "it": "Perché sono così stanca?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3784104",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f1723b4dc62f",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -51163,6 +52129,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "bcb84f85b901",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "En realidad, estoy de acuerdo con Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_3855583",
+    "it": "In realtà sono d'accordo con Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3855583",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "6b7482ff62df",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -51198,6 +52176,19 @@
     "it": "La nostra squadra portava delle magliette rosse.",
     "license": "CC BY 2.0 FR",
     "source_id": "386837",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "741670c93b4a",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué pintaste la banca de rojo?",
+    "es_author": "kylecito",
+    "es_source_id": "336370",
+    "id": "s_386848",
+    "it": "Perché hai dipinto la panchina di rosso?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "386848",
     "translation_kind": "direct"
   },
   {
@@ -51431,6 +52422,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "6077e6770e04",
+    "author": "farinello",
+    "cefr_estimate": "A2",
+    "es": "Estoy de acuerdo contigo dentro de ciertos límites.",
+    "es_author": "IA (Claude)",
+    "id": "s_3946435",
+    "it": "Sono d'accordo con te entro certi limiti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3946435",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "687e4865a544",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -51659,6 +52662,30 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "696a7e75b290",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Por lo general estoy de acuerdo con ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_4054104",
+    "it": "Di solito sono d'accordo con lei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4054104",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a6da0d0c59e5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Normalmente estoy de acuerdo con ella.",
+    "es_author": "IA (Claude)",
+    "id": "s_4054106",
+    "it": "Solitamente sono d'accordo con lei.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4054106",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "09f511d40f18",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -51707,6 +52734,18 @@
     "it": "James Bond non è un attore.",
     "license": "CC BY 2.0 FR",
     "source_id": "4086548",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c3eabf08b467",
+    "author": "shoras",
+    "cefr_estimate": "A2",
+    "es": "Estoy de acuerdo con este plan.",
+    "es_author": "IA (Claude)",
+    "id": "s_409358",
+    "it": "Sono d'accordo con questo piano.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "409358",
     "translation_kind": "llm"
   },
   {
@@ -52396,6 +53435,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "df61884f5066",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo estoy de acuerdo.",
+    "es_author": "Zifre",
+    "es_source_id": "2842",
+    "id": "s_4438",
+    "it": "Io sono d'accordo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4438",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d72155ac97e9",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -52418,6 +53470,19 @@
     "it": "Vorrei studiare a Parigi.",
     "license": "CC BY 2.0 FR",
     "source_id": "4461",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5e75fb4d6cad",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué no comes verdura?",
+    "es_author": "Shishir",
+    "es_source_id": "2908",
+    "id": "s_4463",
+    "it": "Perché non mangi la verdura?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4463",
     "translation_kind": "direct"
   },
   {
@@ -52457,6 +53522,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4477",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "9b6af55945f1",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, no es una buena idea.",
+    "es_author": "IA (Claude)",
+    "id": "s_448307",
+    "it": "Secondo me non è una buona idea.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "448307",
+    "translation_kind": "llm"
   },
   {
     "audio": "e1f4f9fdbb22",
@@ -52532,6 +53609,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4511592",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "17178f69cffd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estoy de acuerdo al cien por ciento.",
+    "es_author": "IA (Claude)",
+    "id": "s_4513634",
+    "it": "Sono d'accordo al cento percento.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4513634",
+    "translation_kind": "llm"
   },
   {
     "audio": "40bae85a399d",
@@ -52759,6 +53848,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "31ba98b3438d",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Ni siquiera saben por qué.",
+    "es_author": "hayastan",
+    "es_source_id": "1068602",
+    "id": "s_4650",
+    "it": "Non sanno nemmeno il perché.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4650",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "7a1d4d260642",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -52808,6 +53910,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4668061",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "1be6febc4aa5",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "No estoy de acuerdo con él.",
+    "es_author": "darinmex",
+    "es_source_id": "569116",
+    "id": "s_4682",
+    "it": "Non sono d'accordo con lui.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4682",
+    "translation_kind": "direct"
   },
   {
     "audio": "c3f39602879a",
@@ -53249,6 +54364,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a89beaef822d",
+    "author": "ianna",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué te fuiste?",
+    "es_author": "ianna",
+    "es_source_id": "5050036",
+    "id": "s_5030936",
+    "it": "Perché sei andato via?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5030936",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "06411c5d8d9e",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -53511,6 +54639,19 @@
     "it": "Il museo apre alle nove.",
     "license": "CC BY 2.0 FR",
     "source_id": "521379",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "bdc12676ba56",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Sacate la chaqueta porque hace mucho calor.",
+    "es_author": "hayastan",
+    "es_source_id": "523796",
+    "id": "s_524198",
+    "it": "Togliti la giacca perché fa molto caldo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "524198",
     "translation_kind": "direct"
   },
   {
@@ -53837,6 +54978,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "5351837",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "fb8235eba4cf",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué nadie me ayuda?",
+    "es_author": "don_ramon",
+    "es_source_id": "5117383",
+    "id": "s_5352633",
+    "it": "Perché nessuno mi aiuta?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5352633",
+    "translation_kind": "direct"
   },
   {
     "audio": "238866af2852",
@@ -55261,6 +56415,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "0ac512bee277",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, él se equivoca.",
+    "es_author": "IA (Claude)",
+    "id": "s_621056",
+    "it": "Secondo me ha torto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "621056",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "9cbd71c4b49e",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -55868,6 +57034,31 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "237cc518ac72",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué no me creíste?",
+    "es_author": "hayastan",
+    "es_source_id": "1070545",
+    "id": "s_669345",
+    "it": "Perché non mi avete creduto?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "669345",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "58d94008e42f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estoy de acuerdo con los comentarios de Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_6701657",
+    "it": "Sono d'accordo con i commenti di Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6701657",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "a1106d7cceb0",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -55918,6 +57109,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "b826ce40bcd0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Sé por qué Tom ha dejado Boston.",
+    "es_author": "saverius",
+    "es_source_id": "10262311",
+    "id": "s_6735926",
+    "it": "So perché Tom ha lasciato Boston.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6735926",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "43fa4ae6637e",
     "author": "dnnywld",
     "cefr_estimate": "A2",
@@ -55941,6 +57145,19 @@
     "it": "Hai letto il libro che ti ho regalato?",
     "license": "CC BY 2.0 FR",
     "source_id": "682810",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "f87e356802d5",
+    "author": "dnnywld",
+    "cefr_estimate": "A2",
+    "es": "En cierto sentido, estoy de acuerdo.",
+    "es_author": "arh",
+    "es_source_id": "6862150",
+    "id": "s_6832229",
+    "it": "In un certo senso sono d'accordo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6832229",
     "translation_kind": "direct"
   },
   {
@@ -56142,6 +57359,19 @@
     "it": "Sono più sano che mai.",
     "license": "CC BY 2.0 FR",
     "source_id": "6963725",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "b05d99c7b911",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué no quiere ir a Japón?",
+    "es_author": "Seael",
+    "es_source_id": "7932409",
+    "id": "s_6987464",
+    "it": "Perché non vuole andare in Giappone?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6987464",
     "translation_kind": "direct"
   },
   {
@@ -56591,6 +57821,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "4ee034feff3d",
+    "author": "Valdast",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué no me avisaste antes?",
+    "es_author": "arh",
+    "es_source_id": "7320832",
+    "id": "s_7321604",
+    "it": "Perché non mi hai avvisato prima?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7321604",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "c4af5280ad72",
     "author": "Valdast",
     "cefr_estimate": "A2",
@@ -56778,6 +58021,19 @@
     "it": "Lui vuole un orologio come il tuo.",
     "license": "CC BY 2.0 FR",
     "source_id": "7558833",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "77464132c5ac",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Porque sé hablar chino.",
+    "es_author": "Shishir",
+    "es_source_id": "554889",
+    "id": "s_756686",
+    "it": "Perché so parlare in cinese.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "756686",
     "translation_kind": "direct"
   },
   {
@@ -57348,6 +58604,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "aac4e62b47df",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué nadie está comiendo?",
+    "es_author": "cueyayotl",
+    "es_source_id": "8618680",
+    "id": "s_7946837",
+    "it": "Perché nessuno sta mangiando?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7946837",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "cb65ad3b4d23",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -57386,6 +58655,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "1a8b5b332ebe",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué quieres comprar este libro?",
+    "es_author": "Shishir",
+    "es_source_id": "1281776",
+    "id": "s_794977",
+    "it": "Perché vuoi comprare questo libro?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "794977",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "e531b365de55",
     "author": "rado",
     "cefr_estimate": "A2",
@@ -57409,6 +58691,71 @@
     "it": "Questo è quello che dice la legge.",
     "license": "CC BY 2.0 FR",
     "source_id": "798836",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "af9127e37e07",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué eres tan fuerte?",
+    "es_author": "pcarolina",
+    "es_source_id": "8637058",
+    "id": "s_8011656",
+    "it": "Perché sei così forte?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8011656",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "06e2c35b667f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué se está parando ahora?",
+    "es_author": "saverius",
+    "es_source_id": "10802980",
+    "id": "s_8011719",
+    "it": "Perché si sta fermando ora?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8011719",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "818af0ba086b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué esto es tan difícil?",
+    "es_author": "Viqui",
+    "es_source_id": "12024532",
+    "id": "s_8011975",
+    "it": "Perché questo è così difficile?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8011975",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0441f82bde40",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué no viniste ayer?",
+    "es_author": "danilo",
+    "es_source_id": "333164",
+    "id": "s_8012134",
+    "it": "Perché non sei venuta ieri?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8012134",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2731a920aec5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué no quieres aprender francés?",
+    "es_author": "pcarolina",
+    "es_source_id": "8637176",
+    "id": "s_8013139",
+    "it": "Perché non volete imparare il francese?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8013139",
     "translation_kind": "direct"
   },
   {
@@ -57459,6 +58806,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "8021246",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "93fbebc9d24f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué no lo podemos volver a hacer?",
+    "es_author": "saverius",
+    "es_source_id": "10805668",
+    "id": "s_8033337",
+    "it": "Perché non lo possiamo rifare?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8033337",
+    "translation_kind": "direct"
   },
   {
     "audio": "4b97fbe41363",
@@ -57535,6 +58895,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "8272134",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "0ae93e2c7716",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión, tiene razón.",
+    "es_author": "IA (Claude)",
+    "id": "s_828702",
+    "it": "Secondo me ha ragione.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "828702",
+    "translation_kind": "llm"
   },
   {
     "audio": "460cfbd3b097",
@@ -57710,6 +59082,32 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "d08585bf2077",
+    "author": "Ricardo14",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué es esto tan importante para ti?",
+    "es_author": "Ricardo14",
+    "es_source_id": "8493258",
+    "id": "s_8493251",
+    "it": "Perché è così importante per te?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8493251",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "a106cf04be91",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "No te puedo ayudar porque estoy ocupado.",
+    "es_author": "darinmex",
+    "es_source_id": "531141",
+    "id": "s_850517",
+    "it": "Non posso aiutarti perché sono occupato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "850517",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "9036b5788d9e",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -57773,6 +59171,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "829a7449488d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué comes esa basura?",
+    "es_author": "saverius",
+    "es_source_id": "10799228",
+    "id": "s_8678363",
+    "it": "Perché mangi quella robaccia?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8678363",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "5a4fe42d7735",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -57814,6 +59225,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "874428",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "9afa5a51b3a0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estoy de acuerdo en ese asunto.",
+    "es_author": "IA (Claude)",
+    "id": "s_876838",
+    "it": "Sono d'accordo su quella questione.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "876838",
+    "translation_kind": "llm"
   },
   {
     "audio": "55a885aeccd3",
@@ -58258,6 +59681,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "906475462743",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "En mi opinión el fútbol es un gran deporte.",
+    "es_author": "hayastan",
+    "es_source_id": "945460",
+    "id": "s_945451",
+    "it": "Secondo me il calcio è un grande sport.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "945451",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "9735679a7485",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -58411,6 +59847,19 @@
     "it": "Attraverso la città scorre un largo fiume.",
     "license": "CC BY 2.0 FR",
     "source_id": "950274",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "9316ec999686",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué lo estamos estudiando?",
+    "es_author": "carlosalberto",
+    "es_source_id": "9609382",
+    "id": "s_9609394",
+    "it": "Perché lo stiamo studiando?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9609394",
     "translation_kind": "direct"
   },
   {
@@ -58725,6 +60174,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "993082",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "7653767bbd3d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El mundo es bello porque es diverso.",
+    "es_author": "carlosalberto",
+    "es_source_id": "11064210",
+    "id": "s_995515",
+    "it": "Il mondo è bello perché è vario.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "995515",
+    "translation_kind": "direct"
   },
   {
     "audio": "de319efe6ecd",

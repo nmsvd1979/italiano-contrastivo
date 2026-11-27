@@ -12833,6 +12833,156 @@
     "cefr": "A2",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Para opinar se dice secondo me (no *secondo io) y para estar de acuerdo, sono d'accordo (no *sto d'accordo ni *di accordo). Con el mismo sujeto el italiano usa di + infinitivo: credo di avere ragione, penso di sì."
+    },
+    "id": "cap_err_opinione",
+    "retrieval": [
+      {
+        "id": "it_choice_s_13038523_ERR_OPINIONE",
+        "options": [
+          {
+            "correct": true,
+            "text": "OK, sono d'accordo."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_OPINIONE",
+            "text": "OK, sono di accordo."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_13038523",
+        "target_error_codes": [
+          "ERR_OPINIONE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Penso di"
+        ],
+        "hint_es": "Creo que tengo hambre.",
+        "id": "it_cloze_a_207847c9_ERR_OPINIONE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "a_207847c9",
+        "target_error_codes": [
+          "ERR_OPINIONE"
+        ],
+        "text": "___ avere fame.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Secondo",
+          "me",
+          "ha",
+          "torto."
+        ],
+        "id": "it_reorder_s_621056_ERR_OPINIONE",
+        "prompt_es": "Ordena las palabras: «En mi opinión, él se equivoca.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_621056",
+        "target_error_codes": [
+          "ERR_OPINIONE"
+        ],
+        "tokens": [
+          "me",
+          "ha",
+          "torto.",
+          "Secondo"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_1075940_ERR_OPINIONE",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_OPINIONE",
+            "text": "Tutti sono di accordo."
+          },
+          {
+            "correct": true,
+            "text": "Tutti sono d'accordo."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1075940",
+        "target_error_codes": [
+          "ERR_OPINIONE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Secondo me"
+        ],
+        "hint_es": "En mi opinión, te equivocas.",
+        "id": "it_cloze_s_3641072_ERR_OPINIONE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3641072",
+        "target_error_codes": [
+          "ERR_OPINIONE"
+        ],
+        "text": "___ hai torto.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Sono",
+          "d'accordo",
+          "con",
+          "te."
+        ],
+        "id": "it_reorder_a_c056a31f_ERR_OPINIONE",
+        "prompt_es": "Ordena las palabras: «Estoy de acuerdo contigo.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "a_c056a31f",
+        "target_error_codes": [
+          "ERR_OPINIONE"
+        ],
+        "tokens": [
+          "con",
+          "d'accordo",
+          "Sono",
+          "te."
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_OPINIONE"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Io sono d'accordo."
+      ],
+      "id": "it_translate_s_4438_ERR_OPINIONE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_4438",
+      "source_es": "Yo estoy de acuerdo.",
+      "target_error_codes": [
+        "ERR_OPINIONE"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "El español usa siempre «haber» (he estado, me ha gustado, se ha quedado). En italiano estos verbos piden essere: sono stato, mi è piaciuto, sono rimasto, sono diventato, sono riuscito. Al revés, verbos como camminare, viaggiare, dormire o nuotare piden avere: ho camminato (no *sono camminato)."
     },
     "id": "cap_err_pp_ausiliare",
@@ -13879,6 +14029,156 @@
       "source_es": "¡No se puede!",
       "target_error_codes": [
         "ERR_SI_IMPERSONALE"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "«Porque» y «por qué» se escriben perché: una sola palabra y con acento agudo (no *per che ni *perchè). Con un verbo, «para + infinitivo» es per + infinitivo (per studiare)."
+    },
+    "id": "cap_err_subordinate",
+    "retrieval": [
+      {
+        "id": "it_choice_s_3572393_ERR_SUBORDINATE",
+        "options": [
+          {
+            "correct": true,
+            "text": "Perché Tom è tornato?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_SUBORDINATE",
+            "text": "Per che Tom è tornato?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3572393",
+        "target_error_codes": [
+          "ERR_SUBORDINATE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Perché"
+        ],
+        "hint_es": "¿Por qué él no puede venir?",
+        "id": "it_cloze_s_2458197_ERR_SUBORDINATE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2458197",
+        "target_error_codes": [
+          "ERR_SUBORDINATE"
+        ],
+        "text": "___ non può venire?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Perché",
+          "sei",
+          "andato",
+          "via?"
+        ],
+        "id": "it_reorder_s_5030936_ERR_SUBORDINATE",
+        "prompt_es": "Ordena las palabras: «¿Por qué te fuiste?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5030936",
+        "target_error_codes": [
+          "ERR_SUBORDINATE"
+        ],
+        "tokens": [
+          "andato",
+          "via?",
+          "Perché",
+          "sei"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_8011656_ERR_SUBORDINATE",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "l1_calque",
+            "error_code": "ERR_SUBORDINATE",
+            "text": "Per che sei così forte?"
+          },
+          {
+            "correct": true,
+            "text": "Perché sei così forte?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_8011656",
+        "target_error_codes": [
+          "ERR_SUBORDINATE"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "Perché"
+        ],
+        "hint_es": "¿Por qué no piensa en mí más?",
+        "id": "it_cloze_s_1814093_ERR_SUBORDINATE",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1814093",
+        "target_error_codes": [
+          "ERR_SUBORDINATE"
+        ],
+        "text": "___ non mi pensa più?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Perché",
+          "sono",
+          "così",
+          "stanca?"
+        ],
+        "id": "it_reorder_s_3784104_ERR_SUBORDINATE",
+        "prompt_es": "Ordena las palabras: «¿Por qué estoy tan cansada?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_3784104",
+        "target_error_codes": [
+          "ERR_SUBORDINATE"
+        ],
+        "tokens": [
+          "così",
+          "sono",
+          "Perché",
+          "stanca?"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_SUBORDINATE"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Perché è arrabbiata?"
+      ],
+      "id": "it_translate_s_1082001_ERR_SUBORDINATE",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_1082001",
+      "source_es": "¿Por qué está enfadada?",
+      "target_error_codes": [
+        "ERR_SUBORDINATE"
       ],
       "type": "translate_es_it"
     }

@@ -1361,7 +1361,7 @@
   },
   {
    "id": "a2m10",
-   "estado": "planificado",
+   "estado": "cerrado",
    "title_es": "Trabajo, salud y opinar",
    "situacion_es": "El día a día adulto: tu trabajo o estudios y un colega, el médico o la farmacia, un anuncio de casa; y decir qué piensas y por qué.",
    "can_do_es": [
@@ -1404,8 +1404,8 @@
    "unidades_existentes": [],
    "entrada": {
     "id": "rd_miastoria",
-    "fuente": "Piacere! «Lettura: La mia storia e il mio futuro» (~230 palabras)",
-    "nota": "adaptación fiel con erratas corregidas; «Cercare lavoro» (anuncios, CV) es B1 según PLIDA p. 28 y no se usa"
+    "fuente": "Texto propio «La mia storia e il mio futuro» (la lectura de Piacere! no está copiada como texto; se escribe una propia, sin CV ni empleo, que son B1)",
+    "nota": "authored"
    },
    "libro_entrada_es": "P/lettura-la-mia-storia-e-il-mio-futuro/",
    "libros_preguntas_es": "P/conversazione-il-lavoro/ (13 preguntas), P/913/ (penso di), T/capitolo-10 §10.2 (profesiones). G/7-una-giornata-per-il-futuro/ (feria de empleo) es B1 y no se usa.",

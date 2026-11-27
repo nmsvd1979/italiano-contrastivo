@@ -2723,6 +2723,13 @@
   "tatoeba": "3505219"
  },
  {
+  "id": "s_5449890",
+  "module": "a2m10",
+  "it": "Pensi in francese?",
+  "es": "¿Piensas en francés?",
+  "tatoeba": "5449890"
+ },
+ {
   "id": "s_365719",
   "module": "a2m07",
   "it": "Pioverà di sicuro.",
@@ -2770,6 +2777,13 @@
   "it": "Era molto occupata.",
   "es": "Estaba muy ocupada.",
   "tatoeba": "1100240"
+ },
+ {
+  "id": "s_417031",
+  "module": "a2m10",
+  "it": "Ha perso il lavoro.",
+  "es": "Perdió su trabajo.",
+  "tatoeba": "417031"
  },
  {
   "id": "s_5512094",
@@ -2840,6 +2854,13 @@
   "it": "Tornerò per le sei.",
   "es": "Volveré para las seis.",
   "tatoeba": "351140"
+ },
+ {
+  "id": "s_3532962",
+  "module": "a2m10",
+  "it": "Troverai un lavoro.",
+  "es": "Encontrarás un trabajo.",
+  "tatoeba": "3532962"
  },
  {
   "id": "s_3531983",
@@ -3080,6 +3101,13 @@
   "tatoeba": "377272"
  },
  {
+  "id": "s_414478",
+  "module": "a2m10",
+  "it": "Ho avuto un incidente.",
+  "es": "Tuve un accidente.",
+  "tatoeba": "414478"
+ },
+ {
   "id": "s_3532873",
   "module": "a2m04",
   "it": "Lo hai fatto di nuovo.",
@@ -3290,6 +3318,13 @@
   "tatoeba": "410260"
  },
  {
+  "id": "s_3532879",
+  "module": "a2m10",
+  "it": "Ti sei rotto il braccio.",
+  "es": "Te rompiste el brazo.",
+  "tatoeba": "3532879"
+ },
+ {
   "id": "s_378887",
   "module": "a2m04",
   "it": "Gli ho trovato un lavoro.",
@@ -3451,6 +3486,13 @@
   "tatoeba": "3532901"
  },
  {
+  "id": "s_409489",
+  "module": "a2m10",
+  "it": "Quel bambino si è fatto male.",
+  "es": "Ese niño se hizo daño.",
+  "tatoeba": "409489"
+ },
+ {
   "id": "s_373683",
   "module": "a2m09",
   "it": "Vorrei una mappa della città.",
@@ -3505,6 +3547,13 @@
   "it": "Si può fare affidamento su di lui.",
   "es": "Se puede contar con él.",
   "tatoeba": "1005811"
+ },
+ {
+  "id": "s_4217875",
+  "module": "a2m10",
+  "it": "Lui si è preso una giornata libera.",
+  "es": "Se tomó un día libre.",
+  "tatoeba": "4217875"
  },
  {
   "id": "s_627118",

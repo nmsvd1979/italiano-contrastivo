@@ -66,7 +66,7 @@ POSITIVOS = [
     ("ERR_ACCENT_TRANSFER", "Non vengo perché sono stanco.", "perché", "perchè"),
     ("ERR_ACCENT_TRANSFER", "Questa città è bella.", "città", "citta"),
     ("ERR_OPINIONE", "Secondo me è giusto.", "Secondo me", "Secondo io"),
-    ("ERR_OPINIONE", "Sono d'accordo con te.", "d'accordo", "di accordo"),
+    ("ERR_OPINIONE", "Sono d'accordo con voi.", "d'accordo", "di accordo"),
     ("ERR_SUBORDINATE", "Studio perché voglio imparare.", "perché", "per che"),
     ("ERR_SPAZIO_PREP", "La banca è di fronte a la stazione.", "a", "di"),
     ("ERR_SPAZIO_PREP", "Abito accanto a mia sorella.", "a", "di"),

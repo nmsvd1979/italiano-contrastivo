@@ -2485,5 +2485,196 @@
    "kind": "omission",
    "audit2": "ok"
   }
+ ],
+ "ERR_OPINIONE": [
+  {
+   "it": "Secondo me questo libro è molto bello.",
+   "correct": "Secondo me",
+   "wrong": "Secondo io",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Secondo me il treno è più comodo dell'aereo.",
+   "correct": "Secondo me",
+   "wrong": "Secondo io",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Secondo me questa pizza è ottima.",
+   "correct": "Secondo me",
+   "wrong": "Secondo io",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Secondo me la città è troppo rumorosa.",
+   "correct": "Secondo me",
+   "wrong": "Secondo io",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Secondo me il film è troppo lungo.",
+   "correct": "Secondo me",
+   "wrong": "Secondo io",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Secondo me è meglio partire domani.",
+   "correct": "Secondo me",
+   "wrong": "Secondo io",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Secondo me questa borsa costa troppo.",
+   "correct": "Secondo me",
+   "wrong": "Secondo io",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Secondo me il medico ha ragione.",
+   "correct": "Secondo me",
+   "wrong": "Secondo io",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Secondo me l'esame è facile.",
+   "correct": "Secondo me",
+   "wrong": "Secondo io",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Secondo me il caffè è buono qui.",
+   "correct": "Secondo me",
+   "wrong": "Secondo io",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Sono d'accordo con te.",
+   "correct": "Sono d'accordo",
+   "wrong": "Sto d'accordo",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Sono d'accordo con il medico.",
+   "correct": "Sono d'accordo",
+   "wrong": "Sono di accordo",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Siamo d'accordo sul prezzo.",
+   "correct": "Siamo d'accordo",
+   "wrong": "Stiamo d'accordo",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Sono d'accordo, la lezione è utile.",
+   "correct": "Sono d'accordo",
+   "wrong": "Sono di accordo",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Anche lei è d'accordo con noi.",
+   "correct": "è d'accordo",
+   "wrong": "sta d'accordo",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Siete d'accordo con il piano?",
+   "correct": "Siete d'accordo",
+   "wrong": "State d'accordo",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Marco è d'accordo con me.",
+   "correct": "è d'accordo",
+   "wrong": "è di accordo",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Sono d'accordo sul programma.",
+   "correct": "Sono d'accordo",
+   "wrong": "Sto d'accordo",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non sono d'accordo con questa idea.",
+   "correct": "sono d'accordo",
+   "wrong": "sto d'accordo",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non sono d'accordo con il capo.",
+   "correct": "sono d'accordo",
+   "wrong": "sono di accordo",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non siamo d'accordo sull'orario.",
+   "correct": "siamo d'accordo",
+   "wrong": "stiamo d'accordo",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non è d'accordo con noi.",
+   "correct": "è d'accordo",
+   "wrong": "è di accordo",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Penso di andare al mare domani.",
+   "correct": "Penso di",
+   "wrong": "Penso",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Penso di avere fame.",
+   "correct": "Penso di",
+   "wrong": "Penso",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Penso di arrivare alle otto.",
+   "correct": "Penso di",
+   "wrong": "Penso",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Penso di restare a casa.",
+   "correct": "Penso di",
+   "wrong": "Penso",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  },
+  {
+   "it": "Penso di studiare di più.",
+   "correct": "Penso di",
+   "wrong": "Penso",
+   "kind": "l1_calque",
+   "audit2": "ok"
+  }
  ]
 }
