@@ -1287,6 +1287,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "¿Tenemos un mapa?",
+    "es_author": "IA (Claude)",
+    "id": "s_10248840",
+    "it": "Abbiamo una mappa?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10248840",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_GEMINATE_SPELLING",
       "ERR_PREP_FIXED_GOV"
     ],
@@ -5946,6 +5969,29 @@
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Estamos a la hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_1152782",
+    "it": "Siamo in orario.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1152782",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -13397,6 +13443,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "¿Dónde está el mapa?",
+    "es_author": "IA (Claude)",
+    "id": "s_13383845",
+    "it": "Dov'è la mappa?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13383845",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "glossboss",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -15334,6 +15403,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Estoy casi listo.",
+    "es_author": "Shishir",
+    "es_source_id": "2957",
+    "id": "s_1448780",
+    "it": "Sono quasi pronto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1448780",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_ARTICLE_ALLOMORPH"
     ],
     "es": "¿Tienes pesadillas?",
@@ -15483,6 +15576,30 @@
     "source_id": "1459263",
     "tag_rules": {
       "ERR_PREP_ARTICLE_CONTRACTION": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "¿Está todo listo?",
+    "es_author": "hundo",
+    "es_source_id": "962218",
+    "id": "s_1461853",
+    "it": "Tutto è pronto?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1461853",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -16591,6 +16708,28 @@
     "source_id": "1520685",
     "tag_rules": {
       "ERR_GN_Z_SPELLING": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "El café está listo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1841228",
+    "id": "s_1521882",
+    "it": "Il caffè è pronto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1521882",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -21483,6 +21622,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Ahora está listo.",
+    "es_author": "Shishir",
+    "es_source_id": "2006310",
+    "id": "s_2005157",
+    "it": "È pronto adesso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2005157",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A1",
     "error_codes": [
@@ -23833,6 +23994,52 @@
       "ERR_VOC_ASTRATTI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Están a la hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_2218526",
+    "it": "Siete in orario.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2218526",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Está a la hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_2218528",
+    "it": "È in orario.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2218528",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -26479,6 +26686,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
     "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Tom está listo.",
+    "es_author": "hayastan",
+    "es_source_id": "2569602",
+    "id": "s_2524677",
+    "it": "Tom è pronto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2524677",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
       "ERR_VOC_QUANTITA"
     ],
     "es": "Tengo muchas ideas.",
@@ -26746,6 +26977,29 @@
     "source_id": "2555694",
     "tag_rules": {
       "ERR_STARE_GERUNDIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Tengo el mapa.",
+    "es_author": "IA (Claude)",
+    "id": "s_2556068",
+    "it": "Ho la mappa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2556068",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -30896,6 +31150,29 @@
     "source_id": "2856760",
     "tag_rules": {
       "ERR_VOC_SALUTI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Tom tiene un mapa.",
+    "es_author": "IA (Claude)",
+    "id": "s_2858171",
+    "it": "Tom ha una mappa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2858171",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -55254,6 +55531,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto se tarda en auto?",
+    "es_author": "IA (Claude)",
+    "id": "s_4727159",
+    "it": "Quanto ci vuole in macchina?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4727159",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A1",
@@ -59240,6 +59540,28 @@
       "ERR_VOC_BAR": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "No hay nada listo.",
+    "es_author": "Shishir",
+    "es_source_id": "1151751",
+    "id": "s_5393630",
+    "it": "Niente è pronto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5393630",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -76175,6 +76497,30 @@
       "ERR_VOC_DIMOSTRATIVI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A1",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto tiempo se necesita?",
+    "es_author": "IA (Claude)",
+    "id": "s_969841",
+    "it": "Quanto ci vuole?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "969841",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",

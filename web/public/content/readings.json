@@ -1385,6 +1385,356 @@
     ]
   },
   {
+    "id": "doc_a2m09_biglietto",
+    "title": "Il biglietto del treno",
+    "level": "A2",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cuánto cuesta el boleto?",
+        "options": [
+          "32,00 euros",
+          "23,00 euros",
+          "30,00 euros"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Qué número de vagón tiene?",
+        "options": [
+          "Vagón 3",
+          "Vagón 6",
+          "Vagón 23"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿En qué clase viaja el pasajero?",
+        "options": [
+          "Primera",
+          "Segunda",
+          "Ejecutiva"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Dónde está su asiento?",
+        "options": [
+          "Junto a la ventana",
+          "Junto al pasillo",
+          "Frente a la puerta"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿A qué hora llega a destino?",
+        "options": [
+          "A las 8:10",
+          "A las 10:10",
+          "A las 12:00"
+        ],
+        "answer": 1
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Campo",
+        "Valore"
+      ],
+      "rows": [
+        [
+          "Passeggero",
+          "Marco Bianchi"
+        ],
+        [
+          "Da",
+          "Milano Centrale"
+        ],
+        [
+          "A",
+          "Firenze Santa Maria Novella"
+        ],
+        [
+          "Data",
+          "14 giugno"
+        ],
+        [
+          "Partenza",
+          "08:10"
+        ],
+        [
+          "Arrivo",
+          "10:10"
+        ],
+        [
+          "Treno",
+          "Intercity 592"
+        ],
+        [
+          "Carrozza",
+          "6"
+        ],
+        [
+          "Posto",
+          "23 (finestrino)"
+        ],
+        [
+          "Classe",
+          "Seconda"
+        ],
+        [
+          "Prezzo",
+          "32,00 €"
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
+    "id": "doc_a2m09_email",
+    "title": "E-mail di prenotazione",
+    "level": "A2",
+    "kind": "lectura",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cuántas noches ha reservado el señor Bianchi?",
+        "options": [
+          "Tres",
+          "Dos",
+          "Una"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿Qué incluye el precio?",
+        "options": [
+          "El estacionamiento",
+          "El desayuno",
+          "La cena"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Cuánto se demora a pie desde la estación?",
+        "options": [
+          "Diez minutos",
+          "Veinte minutos",
+          "Cinco minutos"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Qué problema hay en el hotel?",
+        "options": [
+          "No hay ascensor",
+          "El estacionamiento está lleno",
+          "La habitación no está lista"
+        ],
+        "answer": 1,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿Qué esperan los del hotel?",
+        "options": [
+          "Una llamada",
+          "Su confirmación",
+          "Un pago"
+        ],
+        "answer": 1,
+        "evidence": 9
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "doc_a2m09_email_00",
+        "it": "Gentile signor Bianchi,",
+        "es": "Estimado señor Bianchi:",
+        "audio": "0cd595cf58fe"
+      },
+      {
+        "id": "doc_a2m09_email_01",
+        "it": "La ringraziamo per la prenotazione.",
+        "es": "Le agradecemos por la reserva.",
+        "audio": "40409a3d20c5"
+      },
+      {
+        "id": "doc_a2m09_email_02",
+        "it": "Abbiamo una camera doppia per due notti, dal 14 al 16 giugno.",
+        "es": "Tenemos una habitación doble para dos noches, del 14 al 16 de junio.",
+        "audio": "79188cc86809"
+      },
+      {
+        "id": "doc_a2m09_email_03",
+        "it": "Il prezzo è di novanta euro a notte, con la colazione.",
+        "es": "El precio es de noventa euros por noche, con desayuno.",
+        "audio": "6e34435d5790"
+      },
+      {
+        "id": "doc_a2m09_email_04",
+        "it": "La reception è aperta tutti i giorni, dalle sette alle ventitré.",
+        "es": "La recepción está abierta todos los días, de siete a veintitrés.",
+        "audio": "733cb9f968d1"
+      },
+      {
+        "id": "doc_a2m09_email_05",
+        "it": "Dalla stazione ci vogliono dieci minuti a piedi.",
+        "es": "Desde la estación se demora diez minutos a pie.",
+        "audio": "f4a2e4e0c510"
+      },
+      {
+        "id": "doc_a2m09_email_06",
+        "it": "Può arrivare dopo le quindici: la camera è pronta.",
+        "es": "Puede llegar después de las quince: la habitación está lista.",
+        "audio": "be80d09c4ae0"
+      },
+      {
+        "id": "doc_a2m09_email_07",
+        "it": "Se arriva tardi, ci avvisi con un messaggio.",
+        "es": "Si llega tarde, avísenos con un mensaje.",
+        "audio": "5424be4d10ee"
+      },
+      {
+        "id": "doc_a2m09_email_08",
+        "it": "Mi dispiace, ma il parcheggio è pieno.",
+        "es": "Lo siento, pero el estacionamiento está lleno.",
+        "audio": "4af6ad4836d3"
+      },
+      {
+        "id": "doc_a2m09_email_09",
+        "it": "Aspettiamo la Sua conferma entro domani.",
+        "es": "Esperamos su confirmación a más tardar mañana.",
+        "audio": "9bc8ad1d595f"
+      }
+    ]
+  },
+  {
+    "id": "doc_a2m09_orario",
+    "title": "Orario dei treni: Milano - Firenze",
+    "level": "A2",
+    "kind": "documento",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿De qué andén sale el tren de las 8:10?",
+        "options": [
+          "Del 2",
+          "Del 4",
+          "Del 7"
+        ],
+        "answer": 2
+      },
+      {
+        "prompt_es": "¿A qué hora llega el regional que sale a las 7:40?",
+        "options": [
+          "A las 11:10",
+          "A las 10:10",
+          "A las 9:20"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Qué tren llega a las 13:55?",
+        "options": [
+          "Intercity 598",
+          "Intercity 592",
+          "Regionale 2237"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Qué tren sale del andén 5?",
+        "options": [
+          "Regionale 2231",
+          "Frecciarossa 9614",
+          "Intercity 598"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Cuántos trenes regionales hay en el horario?",
+        "options": [
+          "Uno",
+          "Dos",
+          "Tres"
+        ],
+        "answer": 1
+      }
+    ],
+    "authored": true,
+    "table": {
+      "head": [
+        "Treno",
+        "Partenza",
+        "Arrivo",
+        "Binario"
+      ],
+      "rows": [
+        [
+          "Frecciarossa 9610",
+          "07:15",
+          "09:20",
+          "4"
+        ],
+        [
+          "Regionale 2231",
+          "07:40",
+          "11:10",
+          "2"
+        ],
+        [
+          "Intercity 592",
+          "08:10",
+          "10:10",
+          "7"
+        ],
+        [
+          "Regionale 2237",
+          "09:30",
+          "13:00",
+          "3"
+        ],
+        [
+          "Frecciarossa 9614",
+          "10:15",
+          "12:25",
+          "5"
+        ],
+        [
+          "Intercity 598",
+          "11:45",
+          "13:55",
+          "6"
+        ]
+      ]
+    },
+    "sentences": []
+  },
+  {
     "id": "doc_annuncio",
     "title": "Affittasi stanza",
     "level": "A1",
@@ -3585,6 +3935,182 @@
         "es": "¡Gracias, eres un tesoro!",
         "speaker": "Elena",
         "audio": "decfdea34510"
+      }
+    ]
+  },
+  {
+    "id": "ls_a2m09",
+    "title": "Un treno in ritardo, un albergo",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Qué tipo de habitación tiene reservada Davide?",
+        "options": [
+          "Individual",
+          "Doble",
+          "Familiar"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Cuánto atraso tiene el tren?",
+        "options": [
+          "Diez minutos",
+          "Veinte minutos",
+          "Una hora"
+        ],
+        "answer": 1
+      },
+      {
+        "prompt_es": "¿Cómo irá Davide al hotel?",
+        "options": [
+          "En taxi",
+          "En autobús",
+          "A pie"
+        ],
+        "answer": 2
+      },
+      {
+        "prompt_es": "¿En qué piso está la habitación?",
+        "options": [
+          "En el segundo",
+          "En el primero",
+          "En la planta baja"
+        ],
+        "answer": 0
+      },
+      {
+        "prompt_es": "¿Hasta qué hora hay desayuno?",
+        "options": [
+          "Hasta las nueve",
+          "Hasta las diez",
+          "Hasta las once"
+        ],
+        "answer": 1
+      }
+    ],
+    "listen": true,
+    "authored": true,
+    "sentences": [
+      {
+        "id": "ls_a2m09_00",
+        "it": "Hotel Aurora, buongiorno.",
+        "es": "Hotel Aurora, buenos días.",
+        "speaker": "Elena",
+        "audio": "00dd84cc964d"
+      },
+      {
+        "id": "ls_a2m09_01",
+        "it": "Buongiorno, sono Davide Rossi. Ho una camera per stasera.",
+        "es": "Buenos días, soy Davide Rossi. Tengo una habitación para esta noche.",
+        "speaker": "Davide",
+        "audio": "447dcc334613",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m09_02",
+        "it": "Sì, una camera doppia. A che ora arriva?",
+        "es": "Sí, una habitación doble. ¿A qué hora llega?",
+        "speaker": "Elena",
+        "audio": "5602f96c180c"
+      },
+      {
+        "id": "ls_a2m09_03",
+        "it": "Sono in stazione, ma il treno è in ritardo.",
+        "es": "Estoy en la estación, pero el tren viene atrasado.",
+        "speaker": "Davide",
+        "audio": "5bdd91642615",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m09_04",
+        "it": "Quanto ritardo ha?",
+        "es": "¿Cuánto atraso tiene?",
+        "speaker": "Elena",
+        "audio": "bc90b437dcc6"
+      },
+      {
+        "id": "ls_a2m09_05",
+        "it": "Un momento. L'annuncio dice venti minuti.",
+        "es": "Un momento. El aviso dice veinte minutos.",
+        "speaker": "Davide",
+        "audio": "19885ef28e82",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m09_06",
+        "it": "Va bene. Come viene in albergo?",
+        "es": "Está bien. ¿Cómo viene al hotel?",
+        "speaker": "Elena",
+        "audio": "909d56a48dcb"
+      },
+      {
+        "id": "ls_a2m09_07",
+        "it": "Ci vengo a piedi. Quanto tempo ci vuole?",
+        "es": "Voy a pie. ¿Cuánto tiempo se demora?",
+        "speaker": "Davide",
+        "audio": "68106696aab2",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m09_08",
+        "it": "Ci vogliono dieci minuti. Esca e vada a destra.",
+        "es": "Se demora diez minutos. Salga y vaya a la derecha.",
+        "speaker": "Elena",
+        "audio": "3a488fb746b9"
+      },
+      {
+        "id": "ls_a2m09_09",
+        "it": "Perfetto. La camera è al piano terra?",
+        "es": "Perfecto. ¿La habitación está en la planta baja?",
+        "speaker": "Davide",
+        "audio": "a22e3ae1407f",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m09_10",
+        "it": "No, è al secondo piano. C'è l'ascensore.",
+        "es": "No, está en el segundo piso. Hay ascensor.",
+        "speaker": "Elena",
+        "audio": "03189abb561f"
+      },
+      {
+        "id": "ls_a2m09_11",
+        "it": "Bene. C'è la colazione?",
+        "es": "Bien. ¿Hay desayuno?",
+        "speaker": "Davide",
+        "audio": "5c7f53fe249e",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m09_12",
+        "it": "Sì, dalle sette alle dieci, accanto alla reception.",
+        "es": "Sí, de siete a diez, junto a la recepción.",
+        "speaker": "Elena",
+        "audio": "692d05c2995f"
+      },
+      {
+        "id": "ls_a2m09_13",
+        "it": "Grazie. A stasera!",
+        "es": "Gracias. ¡Hasta esta noche!",
+        "speaker": "Davide",
+        "audio": "34c5770926f9",
+        "voice": 2
+      },
+      {
+        "id": "ls_a2m09_14",
+        "it": "Buon viaggio, signor Rossi.",
+        "es": "Buen viaje, señor Rossi.",
+        "speaker": "Elena",
+        "audio": "658e75e71321"
       }
     ]
   },
@@ -7662,6 +8188,487 @@
         "es": "Quédate tranquila, yo me encargo.",
         "speaker": "Marco",
         "audio": "9aba6c701886",
+        "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m09_a",
+    "title": "Alla reception",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿A nombre de quién está la reserva?",
+        "options": [
+          "Neri",
+          "Rossi",
+          "Bianchi"
+        ],
+        "answer": 0,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿Por cuántas noches es la reserva?",
+        "options": [
+          "Una",
+          "Tres",
+          "Cinco"
+        ],
+        "answer": 1,
+        "evidence": 2
+      },
+      {
+        "prompt_es": "¿En qué piso está la habitación de Laura?",
+        "options": [
+          "En el tercero",
+          "En el segundo",
+          "En el primero"
+        ],
+        "answer": 0,
+        "evidence": 6
+      },
+      {
+        "prompt_es": "¿Cuánto se demora al aeropuerto en taxi?",
+        "options": [
+          "Media hora",
+          "Una hora",
+          "Diez minutos"
+        ],
+        "answer": 0,
+        "evidence": 8
+      },
+      {
+        "prompt_es": "¿A qué hora quiere el taxi Laura?",
+        "options": [
+          "A las seis",
+          "A las siete",
+          "A las ocho"
+        ],
+        "answer": 1,
+        "evidence": 9
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m09_a_00",
+        "it": "Buonasera. Posso aiutarla?",
+        "es": "Buenas tardes. ¿Puedo ayudarla?",
+        "speaker": "Receptionist",
+        "audio": "90c0c873f424"
+      },
+      {
+        "id": "rd_a2m09_a_01",
+        "it": "Buonasera. Ho una camera prenotata a nome Neri.",
+        "es": "Buenas tardes. Tengo una habitación reservada a nombre de Neri.",
+        "speaker": "Laura",
+        "audio": "e151d8ea1c8c",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m09_a_02",
+        "it": "Un momento. Sì, una camera singola per tre notti.",
+        "es": "Un momento. Sí, una habitación individual por tres noches.",
+        "speaker": "Receptionist",
+        "audio": "f069017231f8"
+      },
+      {
+        "id": "rd_a2m09_a_03",
+        "it": "Esatto. C'è la colazione?",
+        "es": "Exacto. ¿Hay desayuno?",
+        "speaker": "Laura",
+        "audio": "7705dbc7931a",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m09_a_04",
+        "it": "Sì, dalle sette alle dieci. Ecco la chiave.",
+        "es": "Sí, de siete a diez. Aquí está la llave.",
+        "speaker": "Receptionist",
+        "audio": "d40d98169a75"
+      },
+      {
+        "id": "rd_a2m09_a_05",
+        "it": "Grazie. Dov'è la camera?",
+        "es": "Gracias. ¿Dónde está la habitación?",
+        "speaker": "Laura",
+        "audio": "07f29c7700b3",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m09_a_06",
+        "it": "Al terzo piano. Salga con l'ascensore.",
+        "es": "En el tercer piso. Suba en el ascensor.",
+        "speaker": "Receptionist",
+        "audio": "d07a228d1541"
+      },
+      {
+        "id": "rd_a2m09_a_07",
+        "it": "Domani vado all'aeroporto. Quanto tempo ci vuole?",
+        "es": "Mañana voy al aeropuerto. ¿Cuánto se demora?",
+        "speaker": "Laura",
+        "audio": "abc7e0d65831",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m09_a_08",
+        "it": "Ci vuole mezz'ora in taxi. Posso chiamare un taxi.",
+        "es": "Se demora media hora en taxi. Puedo llamar un taxi.",
+        "speaker": "Receptionist",
+        "audio": "18118fbabc8a"
+      },
+      {
+        "id": "rd_a2m09_a_09",
+        "it": "Sì, grazie. Alle sette, per favore.",
+        "es": "Sí, gracias. A las siete, por favor.",
+        "speaker": "Laura",
+        "audio": "66f71604a3e5",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m09_a_10",
+        "it": "Va bene. Buona serata!",
+        "es": "Muy bien. ¡Buenas noches!",
+        "speaker": "Receptionist",
+        "audio": "d0cc392ecf5a"
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m09_b",
+    "title": "Un treno in ritardo",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Cuánto atraso tiene el tren a Bolonia?",
+        "options": [
+          "Diez minutos",
+          "Veinte minutos",
+          "Una hora"
+        ],
+        "answer": 1,
+        "evidence": 1
+      },
+      {
+        "prompt_es": "¿A qué hora sale el tren de la combinación?",
+        "options": [
+          "A las once",
+          "A las once y diez",
+          "A las doce"
+        ],
+        "answer": 1,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué debe mirar Matteo para saber el andén?",
+        "options": [
+          "El tablero",
+          "El boleto",
+          "Su teléfono"
+        ],
+        "answer": 0,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿Cuánto se demora entre los andenes dos y cinco?",
+        "options": [
+          "Dos minutos",
+          "Cinco minutos",
+          "Diez minutos"
+        ],
+        "answer": 1,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Dónde debe esperar Matteo?",
+        "options": [
+          "Cerca del andén dos",
+          "En el bar",
+          "Frente a la boletería"
+        ],
+        "answer": 0,
+        "evidence": 9
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m09_b_00",
+        "it": "Scusi, il treno per Bologna è in ritardo?",
+        "es": "Disculpe, ¿el tren a Bolonia viene atrasado?",
+        "speaker": "Matteo",
+        "audio": "109aab0cb95f"
+      },
+      {
+        "id": "rd_a2m09_b_01",
+        "it": "Sì, ha venti minuti di ritardo. Mi dispiace.",
+        "es": "Sí, tiene veinte minutos de atraso. Lo siento.",
+        "speaker": "Impiegata",
+        "audio": "ffa088fbc037",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m09_b_02",
+        "it": "Ho una coincidenza a Bologna alle undici. La perdo?",
+        "es": "Tengo una combinación en Bolonia a las once. ¿La pierdo?",
+        "speaker": "Matteo",
+        "audio": "34f5a226a376"
+      },
+      {
+        "id": "rd_a2m09_b_03",
+        "it": "Forse no. Il treno per Venezia parte alle undici e dieci.",
+        "es": "Quizá no. El tren a Venecia sale a las once y diez.",
+        "speaker": "Impiegata",
+        "audio": "23ff955a9738",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m09_b_04",
+        "it": "Da quale binario parte?",
+        "es": "¿De qué andén sale?",
+        "speaker": "Matteo",
+        "audio": "05f6beb5c187"
+      },
+      {
+        "id": "rd_a2m09_b_05",
+        "it": "Guardi il tabellone. Di solito parte dal binario cinque.",
+        "es": "Mire el tablero. Por lo general sale del andén cinco.",
+        "speaker": "Impiegata",
+        "audio": "d79aa0603224",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m09_b_06",
+        "it": "Quanto tempo ci vuole dal binario due al cinque?",
+        "es": "¿Cuánto se demora del andén dos al cinco?",
+        "speaker": "Matteo",
+        "audio": "c1896ce76b0e"
+      },
+      {
+        "id": "rd_a2m09_b_07",
+        "it": "Ci vogliono cinque minuti.",
+        "es": "Se demora cinco minutos.",
+        "speaker": "Impiegata",
+        "audio": "cafcf68e96cb",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m09_b_08",
+        "it": "Spero di arrivare in tempo. Aspetto qui?",
+        "es": "Espero llegar a tiempo. ¿Espero aquí?",
+        "speaker": "Matteo",
+        "audio": "e1bc343f552f"
+      },
+      {
+        "id": "rd_a2m09_b_09",
+        "it": "Sì, aspetti vicino al binario due.",
+        "es": "Sí, espere cerca del andén dos.",
+        "speaker": "Impiegata",
+        "audio": "36836803ce95",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m09_b_10",
+        "it": "Il treno si ferma a Modena?",
+        "es": "¿El tren se detiene en Módena?",
+        "speaker": "Matteo",
+        "audio": "a4852d890155"
+      },
+      {
+        "id": "rd_a2m09_b_11",
+        "it": "Sì, due minuti. Salga subito, il treno parte presto.",
+        "es": "Sí, dos minutos. Suba de inmediato, el tren sale pronto.",
+        "speaker": "Impiegata",
+        "audio": "4581f90f4255",
+        "voice": 2
+      }
+    ]
+  },
+  {
+    "id": "rd_a2m09_entrada",
+    "title": "In stazione",
+    "level": "A2",
+    "kind": "dialogo",
+    "source": {
+      "book": "Texto escrito por la IA (Claude) para esta app",
+      "authors": "Claude (IA), a pedido del usuario",
+      "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+      "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+    },
+    "translation": "IA (Claude), sin revisar por un hablante nativo",
+    "questions": [
+      {
+        "prompt_es": "¿Adónde quiere ir Marco?",
+        "options": [
+          "A Bolonia",
+          "A Florencia",
+          "A Roma"
+        ],
+        "answer": 1,
+        "evidence": 0
+      },
+      {
+        "prompt_es": "¿Cuánto se demora el tren rápido?",
+        "options": [
+          "Dos horas",
+          "Tres horas y media",
+          "Una hora"
+        ],
+        "answer": 0,
+        "evidence": 3
+      },
+      {
+        "prompt_es": "¿Qué pasa con el tren regional?",
+        "options": [
+          "No hace paradas",
+          "Se detiene en cada estación",
+          "Sale de otro andén"
+        ],
+        "answer": 1,
+        "evidence": 5
+      },
+      {
+        "prompt_es": "¿De qué andén sale el tren de Marco?",
+        "options": [
+          "Del cuatro",
+          "Del siete",
+          "Del diez"
+        ],
+        "answer": 1,
+        "evidence": 7
+      },
+      {
+        "prompt_es": "¿Qué debe hacer Marco antes de subir?",
+        "options": [
+          "Validar el boleto",
+          "Pagar de nuevo",
+          "Pedir un taxi"
+        ],
+        "answer": 0,
+        "evidence": 11
+      }
+    ],
+    "authored": true,
+    "sentences": [
+      {
+        "id": "rd_a2m09_entrada_00",
+        "it": "Buongiorno. Vorrei un biglietto per Firenze.",
+        "es": "Buenos días. Quisiera un boleto para Florencia.",
+        "speaker": "Marco",
+        "audio": "273ecb1600ce"
+      },
+      {
+        "id": "rd_a2m09_entrada_01",
+        "it": "Andata e ritorno?",
+        "es": "¿Ida y vuelta?",
+        "speaker": "Impiegato",
+        "audio": "9fc3b034ffe3",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m09_entrada_02",
+        "it": "Sì, per domani mattina. Quanto tempo ci vuole?",
+        "es": "Sí, para mañana en la mañana. ¿Cuánto tiempo se demora?",
+        "speaker": "Marco",
+        "audio": "55e7200dbd78"
+      },
+      {
+        "id": "rd_a2m09_entrada_03",
+        "it": "Ci vogliono due ore con il treno veloce.",
+        "es": "Se demora dos horas con el tren rápido.",
+        "speaker": "Impiegato",
+        "audio": "7c584a002e68",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m09_entrada_04",
+        "it": "E con il regionale? Ci metto di più?",
+        "es": "¿Y con el regional? ¿Me demoro más?",
+        "speaker": "Marco",
+        "audio": "3b28fe8ee133"
+      },
+      {
+        "id": "rd_a2m09_entrada_05",
+        "it": "Sì, ci mette tre ore e mezza. Si ferma in ogni stazione.",
+        "es": "Sí, se demora tres horas y media. Se detiene en cada estación.",
+        "speaker": "Impiegato",
+        "audio": "228000dcf422",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m09_entrada_06",
+        "it": "Allora prendo il veloce. Parte presto?",
+        "es": "Entonces tomo el rápido. ¿Sale temprano?",
+        "speaker": "Marco",
+        "audio": "8230f0b7ac36"
+      },
+      {
+        "id": "rd_a2m09_entrada_07",
+        "it": "Alle otto e dieci, dal binario sette.",
+        "es": "A las ocho y diez, desde el andén siete.",
+        "speaker": "Impiegato",
+        "audio": "3aaf80138da8",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m09_entrada_08",
+        "it": "Devo cambiare? Ci arrivo direttamente?",
+        "es": "¿Tengo que cambiar? ¿Llego directamente?",
+        "speaker": "Marco",
+        "audio": "48b9ec3deb41"
+      },
+      {
+        "id": "rd_a2m09_entrada_09",
+        "it": "Sì, ci arriva senza cambiare.",
+        "es": "Sí, llega sin cambiar.",
+        "speaker": "Impiegato",
+        "audio": "a7a0ef63fd16",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m09_entrada_10",
+        "it": "Ottimo. Sono già stato a Firenze: ci vado spesso.",
+        "es": "Excelente. Ya he estado en Florencia: voy seguido.",
+        "speaker": "Marco",
+        "audio": "57236caf70e4"
+      },
+      {
+        "id": "rd_a2m09_entrada_11",
+        "it": "Sono trentadue euro. Convalidi il biglietto prima di salire.",
+        "es": "Son treinta y dos euros. Valide el boleto antes de subir.",
+        "speaker": "Impiegato",
+        "audio": "c870aff2266f",
+        "voice": 2
+      },
+      {
+        "id": "rd_a2m09_entrada_12",
+        "it": "Ecco. Grazie e buona giornata.",
+        "es": "Aquí tiene. Gracias y buen día.",
+        "speaker": "Marco",
+        "audio": "b0b0b0c0d0fe"
+      },
+      {
+        "id": "rd_a2m09_entrada_13",
+        "it": "Buon viaggio!",
+        "es": "¡Buen viaje!",
+        "speaker": "Impiegato",
+        "audio": "d98a1eefe81a",
         "voice": 2
       }
     ]

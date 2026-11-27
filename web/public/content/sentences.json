@@ -630,6 +630,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "e954ce9e05a8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Tenemos un mapa?",
+    "es_author": "IA (Claude)",
+    "id": "s_10248840",
+    "it": "Abbiamo una mappa?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10248840",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "958ab2160d7b",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -2876,6 +2888,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "11527002",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "a4744ab29eab",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estamos a la hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_1152782",
+    "it": "Siamo in orario.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1152782",
+    "translation_kind": "llm"
   },
   {
     "audio": "e264d29187fe",
@@ -6759,6 +6783,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "7a3729306909",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Dónde está el mapa?",
+    "es_author": "IA (Claude)",
+    "id": "s_13383845",
+    "it": "Dov'è la mappa?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13383845",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "2772d3c57cbd",
     "author": "glossboss",
     "cefr_estimate": "A1",
@@ -7794,6 +7830,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "d6fba150dcee",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Estoy casi listo.",
+    "es_author": "Shishir",
+    "es_source_id": "2957",
+    "id": "s_1448780",
+    "it": "Sono quasi pronto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1448780",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "75f794b1b225",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -7884,6 +7933,19 @@
     "it": "La colpa è del governo.",
     "license": "CC BY 2.0 FR",
     "source_id": "1459263",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "0698a271beef",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Está todo listo?",
+    "es_author": "hundo",
+    "es_source_id": "962218",
+    "id": "s_1461853",
+    "it": "Tutto è pronto?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1461853",
     "translation_kind": "direct"
   },
   {
@@ -8514,6 +8576,19 @@
     "it": "È l'unica spiegazione.",
     "license": "CC BY 2.0 FR",
     "source_id": "1520685",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "4ba9dc135c63",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "El café está listo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1841228",
+    "id": "s_1521882",
+    "it": "Il caffè è pronto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1521882",
     "translation_kind": "direct"
   },
   {
@@ -11263,6 +11338,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "5ca98f125a92",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Ahora está listo.",
+    "es_author": "Shishir",
+    "es_source_id": "2006310",
+    "id": "s_2005157",
+    "it": "È pronto adesso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2005157",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f779b457da79",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -12511,6 +12599,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2217351",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "be7cd93cf18c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Están a la hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_2218526",
+    "it": "Siete in orario.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2218526",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "3d66dfa966bc",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Está a la hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_2218528",
+    "it": "È in orario.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2218528",
+    "translation_kind": "llm"
   },
   {
     "audio": "b5d52fd58b42",
@@ -13905,6 +14017,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "661b0c57d595",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom está listo.",
+    "es_author": "hayastan",
+    "es_source_id": "2569602",
+    "id": "s_2524677",
+    "it": "Tom è pronto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2524677",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "4096629c3e48",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -14049,6 +14174,18 @@
     "it": "Sto andando ora.",
     "license": "CC BY 2.0 FR",
     "source_id": "2555694",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "2f5d884e4849",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tengo el mapa.",
+    "es_author": "IA (Claude)",
+    "id": "s_2556068",
+    "it": "Ho la mappa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2556068",
     "translation_kind": "llm"
   },
   {
@@ -16256,6 +16393,18 @@
     "it": "Buongiorno. Come state oggi?",
     "license": "CC BY 2.0 FR",
     "source_id": "2856760",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "8b00a5112e21",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "Tom tiene un mapa.",
+    "es_author": "IA (Claude)",
+    "id": "s_2858171",
+    "it": "Tom ha una mappa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2858171",
     "translation_kind": "llm"
   },
   {
@@ -27309,6 +27458,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "270441de4ded",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Cuánto se tarda en auto?",
+    "es_author": "IA (Claude)",
+    "id": "s_4727159",
+    "it": "Quanto ci vuole in macchina?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4727159",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "72ab4206590a",
     "author": "Pharamp",
     "cefr_estimate": "A1",
@@ -29349,6 +29510,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "5393608",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "55015f0ae6c5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "No hay nada listo.",
+    "es_author": "Shishir",
+    "es_source_id": "1151751",
+    "id": "s_5393630",
+    "it": "Niente è pronto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5393630",
+    "translation_kind": "direct"
   },
   {
     "audio": "6a25ae8461f6",
@@ -38070,6 +38244,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "73770e376939",
+    "author": "Guybrush88",
+    "cefr_estimate": "A1",
+    "es": "¿Cuánto tiempo se necesita?",
+    "es_author": "IA (Claude)",
+    "id": "s_969841",
+    "it": "Quanto ci vuole?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "969841",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "22e21c9840a4",
     "author": "Guybrush88",
     "cefr_estimate": "A1",
@@ -38680,6 +38866,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "03662d50ff08",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Se necesita una hora y media para llegar al lago.",
+    "es_author": "IA (Claude)",
+    "id": "a_02559005",
+    "it": "Ci vuole un'ora e mezza per arrivare al lago.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "1e364cc0c69e",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto tardas en llegar a la oficina?",
+    "es_author": "IA (Claude)",
+    "id": "a_03fe6945",
+    "it": "Quanto ci metti per arrivare in ufficio?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "f5a0d4032eb0",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -38728,6 +38938,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "c20c6b5fe9d5",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Tardan tres horas en llegar a Florencia.",
+    "es_author": "IA (Claude)",
+    "id": "a_0bb8344d",
+    "it": "Ci mettono tre ore per arrivare a Firenze.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "82179f43db4b",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -38764,6 +38986,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "09ba7f9bcf89",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto se tarda en llegar al mar?",
+    "es_author": "IA (Claude)",
+    "id": "a_15accc35",
+    "it": "Quanto ci vuole per arrivare al mare?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "bb834e9b69c1",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -38771,6 +39005,18 @@
     "es_author": "IA (Claude)",
     "id": "a_175bde4f",
     "it": "Torni domani, signore, il dottore è occupato.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "31d4f469bef4",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Tardo media hora en llegar al trabajo.",
+    "es_author": "IA (Claude)",
+    "id": "a_17f627a8",
+    "it": "Ci metto mezz'ora per andare al lavoro.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -38836,6 +39082,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "e19ac1e77d9a",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Se necesitará una hora para llegar al centro.",
+    "es_author": "IA (Claude)",
+    "id": "a_252346d4",
+    "it": "Ci vorrà un'ora per arrivare in centro.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "186c46f4a17e",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Se necesitan tres días para terminar el trabajo.",
+    "es_author": "IA (Claude)",
+    "id": "a_2874559f",
+    "it": "Ci vogliono tre giorni per finire il lavoro.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "d40b7594315f",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -38867,6 +39137,18 @@
     "es_author": "IA (Claude)",
     "id": "a_2fe3605a",
     "it": "Prenda pure, dottore, il libro è per Lei.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "c426335c462b",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "En tren tardamos dos horas.",
+    "es_author": "IA (Claude)",
+    "id": "a_3164d0aa",
+    "it": "In treno ci mettiamo due ore.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -38968,6 +39250,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "9ec71a9d42ea",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Se necesitarán dos horas con el tráfico.",
+    "es_author": "IA (Claude)",
+    "id": "a_40e5409f",
+    "it": "Ci vorranno due ore con il traffico.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "6abea16e6dc5",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -39004,6 +39298,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "0200b9466d89",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Se necesitan diez minutos a pie.",
+    "es_author": "IA (Claude)",
+    "id": "a_4e065b68",
+    "it": "Ci vogliono dieci minuti a piedi.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4a9350207c7f",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -39023,6 +39329,18 @@
     "es_author": "IA (Claude)",
     "id": "a_4eb18e7a",
     "it": "Venga, signora, il dottore La aspetta.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "020daee3410e",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto tardan en bus?",
+    "es_author": "IA (Claude)",
+    "id": "a_53e3fb59",
+    "it": "Quanto ci mettete in autobus?",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -39059,6 +39377,18 @@
     "es_author": "IA (Claude)",
     "id": "a_5670ee4f",
     "it": "Legga qui, professore, la prego.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "2d3ae972046a",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "De Roma a Venecia se necesitan cuatro horas.",
+    "es_author": "IA (Claude)",
+    "id": "a_58d193f7",
+    "it": "Ci vogliono quattro ore da Roma a Venezia.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -39148,6 +39478,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "7503e088223b",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "De Roma a Nápoles se necesitan dos horas.",
+    "es_author": "IA (Claude)",
+    "id": "a_5f836863",
+    "it": "Da Roma a Napoli ci vogliono due ore.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "ea503b779d4d",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -39196,6 +39538,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "43ffe4130898",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto tiempo se necesita para la visita?",
+    "es_author": "IA (Claude)",
+    "id": "a_6d61819a",
+    "it": "Quanto tempo ci vuole per la visita?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d2356331d6d7",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Para ir a Milán tardo una hora y media.",
+    "es_author": "IA (Claude)",
+    "id": "a_6e31e091",
+    "it": "Per andare a Milano ci metto un'ora e mezza.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "7971f08d6eb4",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -39220,6 +39586,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "b71e826eb9a7",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Para llegar al aeropuerto se necesitan veinte minutos.",
+    "es_author": "IA (Claude)",
+    "id": "a_71c17e89",
+    "it": "Per arrivare in aeroporto ci vogliono venti minuti.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "1c61ef86d297",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -39227,6 +39605,18 @@
     "es_author": "IA (Claude)",
     "id": "a_72440b9c",
     "it": "Mi dica, signore, che cosa desidera.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "2e2bba76198c",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto se tarda de aquí a la estación?",
+    "es_author": "IA (Claude)",
+    "id": "a_7268b603",
+    "it": "Quanto ci vuole da qui alla stazione?",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -39376,6 +39766,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "4e4ee2ab088f",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Tardo una hora en llegar a casa.",
+    "es_author": "IA (Claude)",
+    "id": "a_97609acd",
+    "it": "Ci metto un'ora per arrivare a casa.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "aeb0c86b130d",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -39448,6 +39850,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "c5f65228cf1c",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "En bici tardamos media hora.",
+    "es_author": "IA (Claude)",
+    "id": "a_ad553696",
+    "it": "Con la bici ci mettiamo mezz'ora.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "3de1eb0521de",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -39467,6 +39881,30 @@
     "es_author": "IA (Claude)",
     "id": "a_b2f3ee3c",
     "it": "Quante mele hai? Ne ho quattro.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "08a6353ef9bd",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "En auto se necesitan cinco horas.",
+    "es_author": "IA (Claude)",
+    "id": "a_b47b5d86",
+    "it": "In macchina ci vogliono cinque ore.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "39f59772edec",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Para preparar la maleta se necesitan veinte minutos.",
+    "es_author": "IA (Claude)",
+    "id": "a_b5354e38",
+    "it": "Per preparare la valigia ci vogliono venti minuti.",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
     "translation_kind": "llm"
@@ -39640,6 +40078,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "6fffefd4607d",
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "es": "Tardo cinco minutos en tomar el bus.",
+    "es_author": "IA (Claude)",
+    "id": "a_e232c15b",
+    "it": "Ci metto cinque minuti a prendere l'autobus.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "d80568b136ad",
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
@@ -39721,6 +40171,18 @@
     "it": "Scusi, dottore, posso entrare?",
     "license": "texto propio de la app, escrito por IA (uso personal)",
     "source": "authored",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "8611290c2d05",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Caminen por la acera.",
+    "es_author": "IA (Claude)",
+    "id": "s_10015003",
+    "it": "Camminate sul marciapiede.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10015003",
     "translation_kind": "llm"
   },
   {
@@ -39821,6 +40283,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1010025",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "588d591c3708",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Voy de camping con Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_10145565",
+    "it": "Vado in campeggio con Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10145565",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e428b449db23",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Iré de camping con Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_10145566",
+    "it": "Andrò in campeggio con Tom.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10145566",
+    "translation_kind": "llm"
   },
   {
     "audio": "9561f71fa1b5",
@@ -40030,6 +40516,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "46aa6caee487",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No siempre llego tarde.",
+    "es_author": "Seael",
+    "es_source_id": "10247816",
+    "id": "s_10247854",
+    "it": "Non sono sempre in ritardo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10247854",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "82044652eabf",
     "author": "Nuel",
     "cefr_estimate": "A2",
@@ -40182,6 +40681,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b9a3c0dd7b9f",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Estoy estacionando en el estacionamiento del cine.",
+    "es_author": "IA (Claude)",
+    "id": "s_10652146",
+    "it": "Sto parcheggiando nel parcheggio del cinema.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10652146",
+    "translation_kind": "llm"
+  },
+  {
     "alt": [
       "Non posso respirare dal naso."
     ],
@@ -40248,6 +40759,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "bdf9173a4f7d",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Ya voy en el vuelo de regreso a casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_10763287",
+    "it": "Sono già in volo verso casa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10763287",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "d31a54d9e980",
     "author": "Bethanielle",
     "cefr_estimate": "A2",
@@ -40258,6 +40781,19 @@
     "it": "Puoi dirmi dove sono?",
     "license": "CC BY 2.0 FR",
     "source_id": "10763517",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "8ed349054bd8",
+    "author": "dnnywld",
+    "cefr_estimate": "A2",
+    "es": "¿Ya han anunciado el aterrizaje?",
+    "es_author": "saverius",
+    "es_source_id": "10770994",
+    "id": "s_10766216",
+    "it": "Hanno già annunciato l'atterraggio?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "10766216",
     "translation_kind": "direct"
   },
   {
@@ -40674,6 +41210,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1115434",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "a7e8b9c7bc50",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "Toda su familia trabaja en una estancia.",
+    "es_author": "hayastan",
+    "es_source_id": "1116643",
+    "id": "s_1115649",
+    "it": "Tutta la sua famiglia lavora in una fattoria.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1115649",
+    "translation_kind": "direct"
   },
   {
     "audio": "7e3fd6c54cb6",
@@ -41284,6 +41833,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "da25d989a02a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Compro los huevos directamente de la granja.",
+    "es_author": "IA (Claude)",
+    "id": "s_11760354",
+    "it": "Compro le uova direttamente dalla fattoria.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11760354",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "c8425897ea80",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -41358,6 +41919,19 @@
     "it": "Ha bevuto dieci bottiglie di birra.",
     "license": "CC BY 2.0 FR",
     "source_id": "11799949",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "2064d83b816d",
+    "author": "Nuel",
+    "cefr_estimate": "A2",
+    "es": "¡He dicho quieto!",
+    "es_author": "saverius",
+    "es_source_id": "11816483",
+    "id": "s_11815941",
+    "it": "Ho detto fermo!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "11815941",
     "translation_kind": "direct"
   },
   {
@@ -41498,6 +42072,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "b7999387b46d",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "La partida es ahora.",
+    "es_author": "IA (Claude)",
+    "id": "s_12019645",
+    "it": "La partenza è adesso.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12019645",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b11d342d6629",
     "author": "Adelpa",
     "cefr_estimate": "A2",
@@ -41509,6 +42095,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "12076988",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "b37fa53946ed",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "¿Ves el camino en el mapa?",
+    "es_author": "IA (Claude)",
+    "id": "s_12080815",
+    "it": "Vedi la strada sulla mappa?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12080815",
+    "translation_kind": "llm"
   },
   {
     "audio": "b9fba08b0368",
@@ -41588,6 +42186,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "89a849ae8a16",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Mary es auxiliar de vuelo.",
+    "es_author": "IA (Claude)",
+    "id": "s_12285797",
+    "it": "Mary è un'assistente di volo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12285797",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b4b281d4ae61",
     "author": "carlosalberto",
     "cefr_estimate": "A2",
@@ -41649,6 +42259,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1239606",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "d3f868bd2699",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto tiempo se tarda en ir de aquí al Hotel Hilton?",
+    "es_author": "IA (Claude)",
+    "id": "s_12399537",
+    "it": "Quanto tempo ci vuole per andare da qua all'Hilton Hotel?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12399537",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "0de6249dfb23",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto se tarda en ir de aquí al Hotel Hilton?",
+    "es_author": "IA (Claude)",
+    "id": "s_12399538",
+    "it": "Quanto ci vuole per andare da qui all'Hilton Hotel?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12399538",
+    "translation_kind": "llm"
   },
   {
     "audio": "74711ac334ed",
@@ -41801,6 +42435,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "60d89842a441",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El mapa está en la pared.",
+    "es_author": "IA (Claude)",
+    "id": "s_12569777",
+    "it": "La mappa è sulla parete.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12569777",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "761851b4e702",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -41915,6 +42561,19 @@
     "it": "Sono le nove e un quarto del mattino.",
     "license": "CC BY 2.0 FR",
     "source_id": "12676650",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "a1abcd553b37",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom está listo para todo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1203883",
+    "id": "s_1267780",
+    "it": "Tom è pronto per qualunque cosa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1267780",
     "translation_kind": "direct"
   },
   {
@@ -42122,6 +42781,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "55d1c1a18d69",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Esta es la acera.",
+    "es_author": "IA (Claude)",
+    "id": "s_12939117",
+    "it": "Questo è il marciapiede.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "12939117",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "08d5aac12215",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -42286,6 +42957,45 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "544320a16d0c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Vivimos cerca de la frontera.",
+    "es_author": "Shishir",
+    "es_source_id": "1308721",
+    "id": "s_1308705",
+    "it": "Abitiamo vicino alla frontiera.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1308705",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "3c9de716fc53",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "Me disculpo por el retraso.",
+    "es_author": "Kiraness",
+    "es_source_id": "1310107",
+    "id": "s_1310111",
+    "it": "Mi scuso per il ritardo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1310111",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "edd079458c24",
+    "author": "Bibi81",
+    "cefr_estimate": "A2",
+    "es": "Aparentemente, el autobús está retrasado.",
+    "es_author": "arashi_29",
+    "es_source_id": "1084797",
+    "id": "s_1310153",
+    "it": "A quanto pare, l'autobus è in ritardo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1310153",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "b6271844e3b6",
     "author": "Bibi81",
     "cefr_estimate": "A2",
@@ -42447,6 +43157,18 @@
     "it": "Io amo Natasha.",
     "license": "CC BY 2.0 FR",
     "source_id": "13297510",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a64e555bc22b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estamos por partir.",
+    "es_author": "IA (Claude)",
+    "id": "s_1330085",
+    "it": "Siamo in partenza.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1330085",
     "translation_kind": "llm"
   },
   {
@@ -42711,6 +43433,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1351844",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "5c05784ed153",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ese tren va a la hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_13529355",
+    "it": "Quel treno è in orario.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "13529355",
+    "translation_kind": "llm"
   },
   {
     "audio": "12a87fc7c3cf",
@@ -43250,6 +43984,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "c7277202e3cb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Juan trabaja para una empresa alemana.",
+    "es_author": "IA (Claude)",
+    "id": "s_14090538",
+    "it": "Juan lavora per un'azienda tedesca.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14090538",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "9279ff4de3e6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "John trabaja para una empresa alemana.",
+    "es_author": "IA (Claude)",
+    "id": "s_14090539",
+    "it": "John lavora per un'azienda tedesca.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "14090539",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "198d67455787",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -43349,6 +44107,54 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1461885",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "b1d1e08b19c2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿No estás avergonzado?",
+    "es_author": "IA (Claude)",
+    "id": "s_1461912",
+    "it": "Non sei imbarazzato?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1461912",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "3faf5dfe1cb5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿No estás avergonzada?",
+    "es_author": "IA (Claude)",
+    "id": "s_1461913",
+    "it": "Non sei imbarazzata?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1461913",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "5aeac201dfb6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿No está avergonzado?",
+    "es_author": "IA (Claude)",
+    "id": "s_1461916",
+    "it": "Non è imbarazzato?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1461916",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6dfdae2f5ea0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿No estás avergonzada?",
+    "es_author": "IA (Claude)",
+    "id": "s_1461917",
+    "it": "Non è imbarazzata?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1461917",
+    "translation_kind": "llm"
   },
   {
     "audio": "52053e6ad4d7",
@@ -43731,6 +44537,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ebaf2d3b69fb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto se tarda en ir a Madrid?",
+    "es_author": "IA (Claude)",
+    "id": "s_1540001",
+    "it": "Quanto ci vuole per andare a Madrid?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1540001",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "6a6706e17261",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -43742,6 +44560,31 @@
     "license": "CC BY 2.0 FR",
     "source_id": "1541548",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "4de8869f7457",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No puedo decirte exactamente cuanto tardará.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1305519",
+    "id": "s_1543091",
+    "it": "Non posso dirti esattamente quanto ci vorrà.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1543091",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "5fb6dff21cd9",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No puedo decirle exactamente cuánto tiempo tomará.",
+    "es_author": "IA (Claude)",
+    "id": "s_1543092",
+    "it": "Non posso dirle esattamente quanto tempo ci vorrà.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1543092",
+    "translation_kind": "llm"
   },
   {
     "audio": "dd28b7897278",
@@ -44128,6 +44971,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "8c6f61513d50",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Hoy rompí un pedazo de vereda con el martillo.",
+    "es_author": "hayastan",
+    "es_source_id": "1666141",
+    "id": "s_1664673",
+    "it": "Oggi ho rotto col martello un pezzo di marciapiede.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1664673",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "ecb6cdeddb28",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -44504,6 +45360,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "74c271ba957b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ni siquiera está en el mapa.",
+    "es_author": "IA (Claude)",
+    "id": "s_1742236",
+    "it": "Non è neppure sulla mappa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1742236",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "b6ffbb277c63",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -44842,6 +45710,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "8021d7aac7f0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cree que se tardará mucho en autobús?",
+    "es_author": "IA (Claude)",
+    "id": "s_1903756",
+    "it": "Pensa che ci vorrà molto in autobus?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1903756",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "bc0e079e68ba",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -44852,6 +45732,19 @@
     "it": "Io ero in montagna.",
     "license": "CC BY 2.0 FR",
     "source_id": "1923128",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "ca83c749838b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Es de mañana aquí en mi huso horario.",
+    "es_author": "cueyayotl",
+    "es_source_id": "1205441",
+    "id": "s_1946463",
+    "it": "È mattina qui nel mio fuso orario.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1946463",
     "translation_kind": "direct"
   },
   {
@@ -44877,6 +45770,18 @@
     "it": "Il mondo cambia moltissimo.",
     "license": "CC BY 2.0 FR",
     "source_id": "1972149",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "b8f006440111",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Hay muchos turistas en Armenia?",
+    "es_author": "IA (Claude)",
+    "id": "s_1973991",
+    "it": "Ci sono molti turisti in Armenia?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "1973991",
     "translation_kind": "llm"
   },
   {
@@ -45136,6 +46041,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "2b7841665ce5",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estoy muy avergonzado.",
+    "es_author": "IA (Claude)",
+    "id": "s_2020796",
+    "it": "Sono così imbarazzato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2020796",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "4e72e6e821ad",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estoy muy avergonzada.",
+    "es_author": "IA (Claude)",
+    "id": "s_2020799",
+    "it": "Sono così imbarazzata.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2020799",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "8ee4f3977f6f",
     "author": "AYDYL84",
     "cefr_estimate": "A2",
@@ -45208,6 +46137,18 @@
     "it": "Io vedo Tom ogni giorno.",
     "license": "CC BY 2.0 FR",
     "source_id": "2023155",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "6e296f725499",
+    "author": "Sirio60",
+    "cefr_estimate": "A2",
+    "es": "¿Puedo reservar un vuelo a Chicago?",
+    "es_author": "IA (Claude)",
+    "id": "s_2028577",
+    "it": "Posso prenotare un volo per Chicago?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2028577",
     "translation_kind": "llm"
   },
   {
@@ -45426,6 +46367,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "fa4378c52a45",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Finlandia está en el mapa.",
+    "es_author": "IA (Claude)",
+    "id": "s_2131467",
+    "it": "La Finlandia è sulla mappa.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2131467",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "fa73bb1cf427",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -45515,6 +46468,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "c8f603bd3ba2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto cree que se tardará en ir al aeropuerto?",
+    "es_author": "IA (Claude)",
+    "id": "s_2157854",
+    "it": "Quanto pensa che ci vorrà ad andare all'aeroporto?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2157854",
+    "translation_kind": "llm"
+  },
+  {
     "alt": [
       "Adesso che sei in Italia, devi vedere Napoli."
     ],
@@ -45531,6 +46496,42 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "69efc9147877",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Nápoles atrae a muchos turistas.",
+    "es_author": "IA (Claude)",
+    "id": "s_2159522",
+    "it": "Napoli attira molti turisti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2159522",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "8ff061410324",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Nápoles atrae a numerosos turistas.",
+    "es_author": "IA (Claude)",
+    "id": "s_2159523",
+    "it": "Napoli attira numerosi turisti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2159523",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "d0269ec4d511",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto se tarda en ir a Okinawa en avión?",
+    "es_author": "IA (Claude)",
+    "id": "s_2178194",
+    "it": "Quanto ci vuole ad andare a Okinawa in aereo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2178194",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "8dac826f83d8",
     "author": "riccioberto",
     "cefr_estimate": "A2",
@@ -45544,6 +46545,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "fbe28a56cb17",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto se tardará en terminar el trabajo?",
+    "es_author": "IA (Claude)",
+    "id": "s_2180740",
+    "it": "Quanto ci vorrà per finire il lavoro?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2180740",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "99f30354f250",
     "author": "miccap",
     "cefr_estimate": "A2",
@@ -45553,6 +46566,18 @@
     "it": "Si possono fare fotografie in questo edificio?",
     "license": "CC BY 2.0 FR",
     "source_id": "2188967",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "161b51a0304e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto se tarda en llegar a Chicago desde aquí?",
+    "es_author": "IA (Claude)",
+    "id": "s_2189399",
+    "it": "Quanto ci vuole ad arrivare a Chicago da qui?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2189399",
     "translation_kind": "llm"
   },
   {
@@ -46323,6 +47348,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "206249e75eec",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Dónde puedo conseguir un mapa?",
+    "es_author": "IA (Claude)",
+    "id": "s_2512517",
+    "it": "Dove posso prendere una mappa?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2512517",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "3fe3f9d0a6e7",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -46401,6 +47438,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "2b10f4f1d22c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me pregunto cuánto tiempo tomará.",
+    "es_author": "IA (Claude)",
+    "id": "s_2536469",
+    "it": "Mi chiedo quanto ci vorrà.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2536469",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "0bbf74aafb70",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -46423,6 +47472,18 @@
     "it": "Non andare dentro.",
     "license": "CC BY 2.0 FR",
     "source_id": "2551350",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "4213ad347b1a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Yo estoy avergonzada.",
+    "es_author": "IA (Claude)",
+    "id": "s_2552431",
+    "it": "Io sono imbarazzata.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2552431",
     "translation_kind": "llm"
   },
   {
@@ -46573,6 +47634,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "009fd9a8a627",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tengo un horario flexible.",
+    "es_author": "IA (Claude)",
+    "id": "s_2562974",
+    "it": "Ho un orario flessibile.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2562974",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "19f65c39cc66",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -46609,6 +47682,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2575086",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "3c1948c5bdb0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No estés avergonzado.",
+    "es_author": "IA (Claude)",
+    "id": "s_2579650",
+    "it": "Non essere imbarazzato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2579650",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "7478252c966c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No estés avergonzada.",
+    "es_author": "IA (Claude)",
+    "id": "s_2579651",
+    "it": "Non essere imbarazzata.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2579651",
+    "translation_kind": "llm"
   },
   {
     "audio": "46af3c6a7129",
@@ -46659,6 +47756,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2607886",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "f43d797becf2",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto se tarda en ir a Viena a pie?",
+    "es_author": "IA (Claude)",
+    "id": "s_2611856",
+    "it": "Quanto ci vuole ad andare a Vienna a piedi?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2611856",
+    "translation_kind": "llm"
   },
   {
     "audio": "98b737e52b90",
@@ -46722,6 +47831,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "c5a47ab068ef",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Este avión va a la hora?",
+    "es_author": "IA (Claude)",
+    "id": "s_2685233",
+    "it": "Questo aereo è in orario?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2685233",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "f6962e397c81",
     "author": "Emmanuel_Maldini",
     "cefr_estimate": "A2",
@@ -46770,6 +47891,18 @@
     "it": "Tom non vuole andarci.",
     "license": "CC BY 2.0 FR",
     "source_id": "2702417",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "8eecd97dc90e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom va de camping cada verano.",
+    "es_author": "IA (Claude)",
+    "id": "s_2704712",
+    "it": "Tom va in campeggio ogni estate.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2704712",
     "translation_kind": "llm"
   },
   {
@@ -46886,6 +48019,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "fe089e5d10c7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto se tarda en llegar a la estación?",
+    "es_author": "IA (Claude)",
+    "id": "s_2736413",
+    "it": "Quanto ci vuole ad arrivare alla stazione?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2736413",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "a1b72f08243f",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -46895,6 +48040,18 @@
     "it": "Non avere paura.",
     "license": "CC BY 2.0 FR",
     "source_id": "2743583",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "9e4df71954eb",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto tiempo tomará llegar allá?",
+    "es_author": "IA (Claude)",
+    "id": "s_2746673",
+    "it": "Quanto ci vorrà per arrivare lì?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2746673",
     "translation_kind": "llm"
   },
   {
@@ -47022,6 +48179,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "080b76ae6f7e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Están todas listas para la excursión?",
+    "es_author": "IA (Claude)",
+    "id": "s_2818227",
+    "it": "Siete tutte pronte per la gita?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2818227",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "87674f0f0e6a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -47048,6 +48217,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "b0ed8532387b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Esa es la razón de su demora.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1295034",
+    "id": "s_2830634",
+    "it": "È la ragione per cui lei è in ritardo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2830634",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "7711f60ef507",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -47059,6 +48241,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "2841533",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "b3400a9317ff",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "«¿Cuánto tomará?» «Unas dos semanas.»",
+    "es_author": "IA (Claude)",
+    "id": "s_2842838",
+    "it": "\"Quanto ci vorrà?\" \"Circa due settimane.\"",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2842838",
+    "translation_kind": "llm"
   },
   {
     "audio": "4eb25e4aeda9",
@@ -47189,6 +48383,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "f49ad27f2d9f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto se tarda en ir a pie a la estación?",
+    "es_author": "IA (Claude)",
+    "id": "s_2870003",
+    "it": "Quanto ci vuole ad andare a piedi alla stazione?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2870003",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "64316acb3367",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -47234,6 +48440,18 @@
     "it": "Tom ama Mary, però lei non ama lui.",
     "license": "CC BY 2.0 FR",
     "source_id": "2929153",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "e41793e062d6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tiene una gran granja en Colorado.",
+    "es_author": "IA (Claude)",
+    "id": "s_2941639",
+    "it": "Ha una grande fattoria in Colorado.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "2941639",
     "translation_kind": "llm"
   },
   {
@@ -47417,6 +48635,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "3e4587ea3161",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom parece realmente avergonzado.",
+    "es_author": "IA (Claude)",
+    "id": "s_3024723",
+    "it": "Tom sembra davvero imbarazzato.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3024723",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "645b5dbaffe0",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -47491,6 +48721,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3066301",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "05516359736a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Él siempre llega a la hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_3075000",
+    "it": "Lui è sempre in orario.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3075000",
+    "translation_kind": "llm"
   },
   {
     "audio": "78c4df905268",
@@ -47844,6 +49086,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3248954",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "33c0ea644444",
+    "author": "carlosalberto",
+    "cefr_estimate": "A2",
+    "es": "Debemos adelantar la partida.",
+    "es_author": "IA (Claude)",
+    "id": "s_3254584",
+    "it": "Dobbiamo anticipare la partenza.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3254584",
+    "translation_kind": "llm"
   },
   {
     "audio": "159c72d8860b",
@@ -48524,6 +49778,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "2c671dca8424",
+    "author": "martin",
+    "cefr_estimate": "A2",
+    "es": "El tren saldrá con retraso.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1519135",
+    "id": "s_351142",
+    "it": "Il treno partirà in ritardo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "351142",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "f6eedf204413",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -48925,6 +50192,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "bce87dee9b07",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "En nuestra empresa utilizamos internet.",
+    "es_author": "Seael",
+    "es_source_id": "3664366",
+    "id": "s_3664421",
+    "it": "Nella nostra azienda utilizziamo Internet.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3664421",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "5eb11ad74f5b",
     "author": "ema_rega",
     "cefr_estimate": "A2",
@@ -49051,6 +50331,19 @@
     "it": "Si può parlare adesso?",
     "license": "CC BY 2.0 FR",
     "source_id": "3744758",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "7308c2c4d8e7",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Esta mañana llegué tarde a la escuela.",
+    "es_author": "tatoerique",
+    "es_source_id": "356100",
+    "id": "s_374492",
+    "it": "Stamattina sono arrivato in ritardo a scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "374492",
     "translation_kind": "direct"
   },
   {
@@ -49235,6 +50528,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a801dda6f3f8",
+    "author": "martin",
+    "cefr_estimate": "A2",
+    "es": "¿Cuántos días se necesitan normalmente para llegar allá?",
+    "es_author": "IA (Claude)",
+    "id": "s_376197",
+    "it": "Quanti giorni ci vogliono di solito per arrivarci?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "376197",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "2752a3efffca",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -49406,6 +50711,18 @@
     "it": "Il negozio chiude alle sette.",
     "license": "CC BY 2.0 FR",
     "source_id": "378139",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "721a6bc98400",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Camina por la acera.",
+    "es_author": "IA (Claude)",
+    "id": "s_378167",
+    "it": "Cammina sul marciapiede.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "378167",
     "translation_kind": "llm"
   },
   {
@@ -49591,6 +50908,19 @@
     "license": "CC BY 2.0 FR",
     "source_id": "3810643",
     "translation_kind": "llm"
+  },
+  {
+    "audio": "fef7e32ef027",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Todos llegaron a clase a tiempo.",
+    "es_author": "darinmex",
+    "es_source_id": "658727",
+    "id": "s_381803",
+    "it": "Tutti sono arrivati in classe in orario.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "381803",
+    "translation_kind": "direct"
   },
   {
     "audio": "02854bbe8fc1",
@@ -49962,6 +51292,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a8b0e91a7956",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "Llegué tarde a la escuela.",
+    "es_author": "Shishir",
+    "es_source_id": "503046",
+    "id": "s_388799",
+    "it": "Ero in ritardo a scuola.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "388799",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "40b88f272fd2",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -50025,6 +51368,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "4550ed99d7a8",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El estacionamiento está vacío.",
+    "es_author": "IA (Claude)",
+    "id": "s_3896472",
+    "it": "Il parcheggio è vuoto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3896472",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "02a746906a44",
     "author": "Pharamp",
     "cefr_estimate": "A2",
@@ -50036,6 +51391,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "390650",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "201e4f03dc95",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La matemática es un tema interesante.",
+    "es_author": "IA (Claude)",
+    "id": "s_3930520",
+    "it": "La matematica è un argomento interessante.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "3930520",
+    "translation_kind": "llm"
   },
   {
     "audio": "299045547d1b",
@@ -50469,6 +51836,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "4dc78148d8e9",
+    "author": "Nox",
+    "cefr_estimate": "A2",
+    "es": "¿Están todos listos para la excursión?",
+    "es_author": "IA (Claude)",
+    "id": "s_411054",
+    "it": "Siete tutti pronti per la gita?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "411054",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "51cfa9aa9899",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -50618,6 +51997,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4215500",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "f48a71241a35",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "A Ken le gusta ir de camping.",
+    "es_author": "IA (Claude)",
+    "id": "s_4217501",
+    "it": "A Ken piace andare in campeggio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4217501",
+    "translation_kind": "llm"
   },
   {
     "audio": "a2e690c4c221",
@@ -50906,6 +52297,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2cf78292b5db",
+    "author": "Pharamp",
+    "cefr_estimate": "A2",
+    "es": "George trabaja en una granja grande.",
+    "es_author": "IA (Claude)",
+    "id": "s_434026",
+    "it": "George lavora in una grande fattoria.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "434026",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "e470c94bbdd2",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -51015,6 +52418,19 @@
     "it": "Vorrei studiare a Parigi.",
     "license": "CC BY 2.0 FR",
     "source_id": "4461",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "fdfd97d0880d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me disgusta mucho llegar tarde.",
+    "es_author": "Seael",
+    "es_source_id": "10173042",
+    "id": "s_4465341",
+    "it": "Mi dispiace molto di essere in ritardo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4465341",
     "translation_kind": "direct"
   },
   {
@@ -51482,6 +52898,30 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "21deb26d32d1",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿En qué vuelo ibas?",
+    "es_author": "IA (Claude)",
+    "id": "s_4721597",
+    "it": "Su quale volo eri?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4721597",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "9638900e4cfd",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿En qué vuelo iban?",
+    "es_author": "IA (Claude)",
+    "id": "s_4721600",
+    "it": "Su quale volo eravate?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4721600",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4bb0483bbf7a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -51583,6 +53023,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "3d37da640676",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No cambien de tema.",
+    "es_author": "IA (Claude)",
+    "id": "s_4777640",
+    "it": "Non cambiate argomento.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4777640",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "61b01ad00274",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -51668,6 +53120,42 @@
     "license": "CC BY 2.0 FR",
     "source_id": "4865172",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "559f91c85ec3",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Qué cultivas en tu granja?",
+    "es_author": "IA (Claude)",
+    "id": "s_4868241",
+    "it": "Cosa coltivi nella tua fattoria?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4868241",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "41b80d02ed88",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Qué cultivan en su granja?",
+    "es_author": "IA (Claude)",
+    "id": "s_4868245",
+    "it": "Cosa coltivate nella vostra fattoria?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4868245",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "5018498417e0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Qué cultiva en su granja?",
+    "es_author": "IA (Claude)",
+    "id": "s_4868249",
+    "it": "Che cosa coltiva nella sua fattoria?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "4868249",
+    "translation_kind": "llm"
   },
   {
     "audio": "eff0999c6e57",
@@ -51865,6 +53353,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "3046688953d0",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No pongan en peligro a la empresa.",
+    "es_author": "IA (Claude)",
+    "id": "s_5119410",
+    "it": "Non mettete l'azienda in pericolo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5119410",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4600bc51ebb0",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -51877,6 +53377,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "914ff3906bd7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Amo esta empresa.",
+    "es_author": "IA (Claude)",
+    "id": "s_5166615",
+    "it": "Amo questa azienda.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5166615",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "204a373bdd08",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -51886,6 +53398,18 @@
     "it": "All'improvviso si è ammalato.",
     "license": "CC BY 2.0 FR",
     "source_id": "5170219",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "a7a7583bfb2c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Dónde puedo comprar un mapa?",
+    "es_author": "IA (Claude)",
+    "id": "s_5170599",
+    "it": "Dove posso comprare una mappa?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5170599",
     "translation_kind": "llm"
   },
   {
@@ -52013,6 +53537,19 @@
     "it": "Vorrei delle scarpe per una mia amica.",
     "license": "CC BY 2.0 FR",
     "source_id": "524265",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "c22806d6e29c",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Él habitualmente llega tarde al trabajo.",
+    "es_author": "gianich73",
+    "es_source_id": "5257445",
+    "id": "s_5257252",
+    "it": "Lui è spesso in ritardo al lavoro.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5257252",
     "translation_kind": "direct"
   },
   {
@@ -52264,6 +53801,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "5345812",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "ff4fca82030b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No quiero perder el vuelo.",
+    "es_author": "IA (Claude)",
+    "id": "s_5347463",
+    "it": "Non voglio perdere il volo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5347463",
+    "translation_kind": "llm"
   },
   {
     "audio": "1f924d9c814b",
@@ -52567,6 +54116,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "2e713e0d4093",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No tomará mucho tiempo.",
+    "es_author": "IA (Claude)",
+    "id": "s_5529094",
+    "it": "Non ci vorrà molto.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5529094",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "dbc7582de60d",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -52641,6 +54202,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "32dfad4f079b",
+    "author": "Bethanielle",
+    "cefr_estimate": "A2",
+    "es": "¿A qué hora es el vuelo?",
+    "es_author": "IA (Claude)",
+    "id": "s_5590577",
+    "it": "A che ora è il volo?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5590577",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "7c1d50b5f308",
     "author": "dnnywld",
     "cefr_estimate": "A2",
@@ -52687,6 +54260,18 @@
     "it": "È il suo migliore amico.",
     "license": "CC BY 2.0 FR",
     "source_id": "5641968",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "9c486260edfe",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom no tiene idea de cuánto tiempo tomará.",
+    "es_author": "IA (Claude)",
+    "id": "s_5651467",
+    "it": "Tom non ha idea di quanto ci vorrà.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5651467",
     "translation_kind": "llm"
   },
   {
@@ -53094,6 +54679,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "a7198ad3adf7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Quién es el presidente de la empresa?",
+    "es_author": "IA (Claude)",
+    "id": "s_5833379",
+    "it": "Chi è il presidente dell'azienda?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5833379",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "6bd4006b8ecc",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -53169,6 +54766,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "60be6879211f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Estoy preparado para votar.",
+    "es_author": "Shishir",
+    "es_source_id": "7740760",
+    "id": "s_5923402",
+    "it": "Sono pronto per votare.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5923402",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "a309a111355c",
     "author": "dnnywld",
     "cefr_estimate": "A2",
@@ -53194,6 +54804,31 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1c080583a718",
+    "author": "Valdast",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto tiempo toma de aquí a Boston?",
+    "es_author": "baudelaire",
+    "es_source_id": "5930917",
+    "id": "s_5932218",
+    "it": "Quanto tempo ci vuole da qui a Boston?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5932218",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "1c7a33bfb146",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Aquí está el mapa que busca.",
+    "es_author": "IA (Claude)",
+    "id": "s_5946802",
+    "it": "Ecco la mappa che sta cercando.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5946802",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "0b02dc3d6ca4",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -53204,6 +54839,19 @@
     "it": "Andremo a vederle.",
     "license": "CC BY 2.0 FR",
     "source_id": "5955453",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "80a8f38520ad",
+    "author": "Valdast",
+    "cefr_estimate": "A2",
+    "es": "Los vuelos nocturnos son más baratos.",
+    "es_author": "Adelpa",
+    "es_source_id": "5962194",
+    "id": "s_5962416",
+    "it": "I voli notturni sono più economici.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "5962416",
     "translation_kind": "direct"
   },
   {
@@ -53371,6 +55019,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "610182",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "d56f592f5d35",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Cuánto tiempo tomará?",
+    "es_author": "IA (Claude)",
+    "id": "s_611855",
+    "it": "Quanto tempo ci vorrà?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "611855",
+    "translation_kind": "llm"
   },
   {
     "audio": "9314d1939929",
@@ -53982,6 +55642,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "3cc4835057b7",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Hay demasiados turistas.",
+    "es_author": "IA (Claude)",
+    "id": "s_6488848",
+    "it": "Ci sono troppi turisti.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6488848",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "022185e93c2a",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -54004,6 +55676,19 @@
     "it": "Abbiamo ordinato il pasto.",
     "license": "CC BY 2.0 FR",
     "source_id": "653850",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "12748495c34a",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Ella prometió no volver a llegar tarde.",
+    "es_author": "Shishir",
+    "es_source_id": "649860",
+    "id": "s_654537",
+    "it": "Ha promesso di non essere di nuovo in ritardo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "654537",
     "translation_kind": "direct"
   },
   {
@@ -54054,6 +55739,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "656395",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "08feb95bbf65",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Es el dueño de la empresa.",
+    "es_author": "IA (Claude)",
+    "id": "s_6582462",
+    "it": "È il proprietario dell'azienda.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "6582462",
+    "translation_kind": "llm"
   },
   {
     "audio": "3b06c06d9cdf",
@@ -54423,6 +56120,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "69c8eb398c86",
+    "author": "Heracleum",
+    "cefr_estimate": "A2",
+    "es": "Lo siento, este vuelo está completo.",
+    "es_author": "IA (Claude)",
+    "id": "s_695723",
+    "it": "Spiacente, questo volo è al completo.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "695723",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "9ece54de6a21",
     "author": "dnnywld",
     "cefr_estimate": "A2",
@@ -54510,6 +56219,19 @@
     "it": "Sei mai stato in Asia?",
     "license": "CC BY 2.0 FR",
     "source_id": "7045755",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "00c7b25b478d",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Tom está listo para irse, ¿no?",
+    "es_author": "pcarolina",
+    "es_source_id": "8716797",
+    "id": "s_7049728",
+    "it": "Tom è pronto a partire, vero?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7049728",
     "translation_kind": "direct"
   },
   {
@@ -54789,6 +56511,19 @@
     "it": "Non mi avete dato ciò che ho chiesto.",
     "license": "CC BY 2.0 FR",
     "source_id": "717786",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "a51d11b5e12b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Hay muchos turistas en Venecia.",
+    "es_author": "adaycito",
+    "es_source_id": "8564657",
+    "id": "s_7188714",
+    "it": "Ci sono molti turisti a Venezia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7188714",
     "translation_kind": "direct"
   },
   {
@@ -55526,6 +57261,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "1d8f0730ac34",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "La empresa está en quiebra.",
+    "es_author": "IA (Claude)",
+    "id": "s_7893399",
+    "it": "L'azienda è in bancarotta.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "7893399",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "9c9ed76c180d",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -55678,6 +57425,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "a974788c1702",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Por qué demora tanto en comer?",
+    "es_author": "IA (Claude)",
+    "id": "s_8015040",
+    "it": "Perché ci mette così tanto a mangiare?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8015040",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "0e0cc1cf8a21",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -55713,6 +57472,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "819244",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "912cd426c531",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "No es mi tema favorito.",
+    "es_author": "IA (Claude)",
+    "id": "s_8198426",
+    "it": "Non è il mio argomento preferito.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8198426",
+    "translation_kind": "llm"
   },
   {
     "audio": "74afd75e98e6",
@@ -55778,6 +57549,19 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "2852ffd3a730",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "Nuestra empresa tiene una larga historia.",
+    "es_author": "Shishir",
+    "es_source_id": "2476385",
+    "id": "s_835535",
+    "it": "La nostra azienda ha una lunga, lunga storia.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "835535",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "51b68987e8af",
     "author": "riccioberto",
     "cefr_estimate": "A2",
@@ -55800,6 +57584,18 @@
     "it": "Metterò la sveglia alle sette.",
     "license": "CC BY 2.0 FR",
     "source_id": "836247",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "30a29ee73831",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Odia a los turistas, ¿verdad?",
+    "es_author": "IA (Claude)",
+    "id": "s_8380155",
+    "it": "Odia i turisti, vero?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8380155",
     "translation_kind": "llm"
   },
   {
@@ -55878,6 +57674,18 @@
     "translation_kind": "llm"
   },
   {
+    "audio": "edb28441f490",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Hay un vuelo por la tarde?",
+    "es_author": "IA (Claude)",
+    "id": "s_8457075",
+    "it": "C'è un volo nel pomeriggio?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8457075",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "89cf6e3b403b",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -55926,6 +57734,18 @@
     "license": "CC BY 2.0 FR",
     "source_id": "861872",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "4823b5176019",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Siempre demora horas en prepararse.",
+    "es_author": "IA (Claude)",
+    "id": "s_8668373",
+    "it": "Ci mette sempre delle ore per prepararsi.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "8668373",
+    "translation_kind": "llm"
   },
   {
     "audio": "2ef8089e5d4f",
@@ -56235,6 +58055,18 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "ed5cdecc8cd6",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Mi abuelo tiene un taller.",
+    "es_author": "IA (Claude)",
+    "id": "s_9058943",
+    "it": "Mio nonno possiede un'officina.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9058943",
+    "translation_kind": "llm"
+  },
+  {
     "audio": "4e3a269270bc",
     "author": "Guybrush88",
     "cefr_estimate": "A2",
@@ -56374,6 +58206,30 @@
     "license": "CC BY 2.0 FR",
     "source_id": "934492",
     "translation_kind": "direct"
+  },
+  {
+    "audio": "90a9ffa3be7e",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "¿Ha elegido un tema?",
+    "es_author": "IA (Claude)",
+    "id": "s_934961",
+    "it": "Ha scelto un argomento?",
+    "license": "CC BY 2.0 FR",
+    "source_id": "934961",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "74224ccae78f",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "El tren siempre va a la hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_934996",
+    "it": "Il treno è sempre in orario.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "934996",
+    "translation_kind": "llm"
   },
   {
     "audio": "9d604ed4cc87",
@@ -56558,6 +58414,19 @@
     "translation_kind": "direct"
   },
   {
+    "audio": "184a2243de7d",
+    "author": "Cero",
+    "cefr_estimate": "A2",
+    "es": "Jacob Coxey estaba listo para lo peor.",
+    "es_author": "jayefes65",
+    "es_source_id": "1030525",
+    "id": "s_962396",
+    "it": "Jacob Coxey era pronto al peggio.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "962396",
+    "translation_kind": "direct"
+  },
+  {
     "audio": "d09d1e4684d6",
     "author": "riccioberto",
     "cefr_estimate": "A2",
@@ -56631,6 +58500,30 @@
     "it": "Togliti le calze.",
     "license": "CC BY 2.0 FR",
     "source_id": "9696510",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "40bbcff5b1b4",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "Me gusta la empresa.",
+    "es_author": "IA (Claude)",
+    "id": "s_9709995",
+    "it": "Mi piace l'azienda.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9709995",
+    "translation_kind": "llm"
+  },
+  {
+    "audio": "99f9f03ca81b",
+    "author": "Guybrush88",
+    "cefr_estimate": "A2",
+    "es": "A mí me gusta la empresa.",
+    "es_author": "IA (Claude)",
+    "id": "s_9709996",
+    "it": "A me piace l'azienda.",
+    "license": "CC BY 2.0 FR",
+    "source_id": "9709996",
     "translation_kind": "llm"
   },
   {
@@ -56895,6 +58788,19 @@
     "it": "La polizia lo seguì a Parigi.",
     "license": "CC BY 2.0 FR",
     "source_id": "998145",
+    "translation_kind": "direct"
+  },
+  {
+    "audio": "4dbfcdb8d257",
+    "author": "riccioberto",
+    "cefr_estimate": "A2",
+    "es": "¡Que tengas un buen vuelo!",
+    "es_author": "Shishir",
+    "es_source_id": "854311",
+    "id": "s_998148",
+    "it": "Fai buon volo!",
+    "license": "CC BY 2.0 FR",
+    "source_id": "998148",
     "translation_kind": "direct"
   },
   {

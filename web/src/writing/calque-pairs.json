@@ -2916,8 +2916,28 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ci vuole un'ora e mezza per arrivare al lago.",
+    "wrong": "Ci vuole un'ora e mezza per arrivare a il lago."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Hai delle foto? Sì, ne ho molte.",
     "wrong": "Hai di le foto? Sì, ne ho molte."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Ci mettono tre ore per arrivare a Firenze.",
+    "wrong": "Ci mettono tre ore per arrivare in Firenze."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Quanto ci vuole per arrivare al mare?",
+    "wrong": "Quanto ci vuole per arrivare a il mare?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ci metto mezz'ora per andare al lavoro.",
+    "wrong": "Ci metto mezz'ora per andare a il lavoro."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -2935,6 +2955,11 @@
     "wrong": "Senta, signore, ci sono una farmacia qui vicino?"
   },
   {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Ci vogliono quattro ore da Roma a Venezia.",
+    "wrong": "Ci vogliono quattro ore da Roma in Venezia."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Quanti caffè bevi? Ne bevo due al giorno.",
     "wrong": "Quanti caffè bevi? Ne bevo due a il giorno."
@@ -2948,6 +2973,21 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Quante mail ricevi? Ne ricevo dieci al giorno.",
     "wrong": "Quante mail ricevi? Ne ricevo dieci a il giorno."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Da Roma a Napoli ci vogliono due ore.",
+    "wrong": "Da Roma in Napoli ci vogliono due ore."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Per andare a Milano ci metto un'ora e mezza.",
+    "wrong": "Per andare in Milano ci metto un'ora e mezza."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Quanto ci vuole da qui alla stazione?",
+    "wrong": "Quanto ci vuole da qui a la stazione?"
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -2983,6 +3023,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Venga domani, professore, alle nove.",
     "wrong": "Venga domani, professore, a le nove."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Camminate sul marciapiede.",
+    "wrong": "Camminate su il marciapiede."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -3165,6 +3210,11 @@
     "wrong": "Hai di le mani bellissime."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Compro le uova direttamente dalla fattoria.",
+    "wrong": "Compro le uova direttamente da la fattoria."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Hai ascoltato il suo messaggio?",
     "wrong": "Hai ascoltato suo messaggio?"
@@ -3195,6 +3245,11 @@
     "wrong": "Il pranzo inizia a le dodici."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Vedi la strada sulla mappa?",
+    "wrong": "Vedi la strada su la mappa?"
+  },
+  {
     "code": "ERR_PREP_PLACE",
     "correct": "Siamo stati a Londra per due settimane.",
     "wrong": "Siamo stati in Londra per due settimane."
@@ -3220,6 +3275,16 @@
     "wrong": "Hai preso di la pizza?"
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Quanto tempo ci vuole per andare da qua all'Hilton Hotel?",
+    "wrong": "Quanto tempo ci vuole per andare da qua a l'Hilton Hotel?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Quanto ci vuole per andare da qui all'Hilton Hotel?",
+    "wrong": "Quanto ci vuole per andare da qui a l'Hilton Hotel?"
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "Lei è uscita.",
     "wrong": "Lei ha uscita."
@@ -3233,6 +3298,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Noi siamo arrivati.",
     "wrong": "Noi abbiamo arrivati."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La mappa è sulla parete.",
+    "wrong": "La mappa è su la parete."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3273,6 +3343,11 @@
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "La sua assistenza è indispensabile per noi.",
     "wrong": "Sua assistenza è indispensabile per noi."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Abitiamo vicino alla frontiera.",
+    "wrong": "Abitiamo vicino a la frontiera."
   },
   {
     "code": "ERR_CE_AGREEMENT",
@@ -3520,6 +3595,11 @@
     "wrong": "Prendono il tè a le cinque."
   },
   {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Quanto ci vuole per andare a Madrid?",
+    "wrong": "Quanto ci vuole per andare in Madrid?"
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Manca un quarto alle due.",
     "wrong": "Manca un quarto a le due."
@@ -3665,6 +3745,11 @@
     "wrong": "Dove avete andati?"
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Non è neppure sulla mappa.",
+    "wrong": "Non è neppure su la mappa."
+  },
+  {
     "code": "ERR_COMPARATIVE_DI",
     "correct": "È due anni più giovane di me.",
     "wrong": "È due anni più giovane che me."
@@ -3705,9 +3790,19 @@
     "wrong": "Sono a l'ottavo piano."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "È mattina qui nel mio fuso orario.",
+    "wrong": "È mattina qui in il mio fuso orario."
+  },
+  {
     "code": "ERR_AUX_ESSERE",
     "correct": "È venuto a Berlino come insegnante.",
     "wrong": "Ha venuto a Berlino come insegnante."
+  },
+  {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "Ci sono molti turisti in Armenia?",
+    "wrong": "C'è molti turisti in Armenia?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -3765,6 +3860,11 @@
     "wrong": "Non vedo a Tom da mesi."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "La Finlandia è sulla mappa.",
+    "wrong": "La Finlandia è su la mappa."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Mi è piaciuta la tua idea e l'ho adottata.",
     "wrong": "Mi è piaciuta tua idea e l'ho adottata."
@@ -3773,6 +3873,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Si può sempre trovare del tempo.",
     "wrong": "Si può sempre trovare di il tempo."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Quanto pensa che ci vorrà ad andare all'aeroporto?",
+    "wrong": "Quanto pensa che ci vorrà ad andare a l'aeroporto?"
   },
   {
     "code": "ERR_PREP_PLACE",
@@ -3955,6 +4060,11 @@
     "wrong": "Lei ha distrutto suoi nemici."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Quanto ci vuole ad arrivare alla stazione?",
+    "wrong": "Quanto ci vuole ad arrivare a la stazione?"
+  },
+  {
     "code": "ERR_PERSONAL_A",
     "correct": "Io amo Tom.",
     "wrong": "Io amo a Tom."
@@ -3973,6 +4083,11 @@
     "code": "ERR_CE_AGREEMENT",
     "correct": "C'è un albero alto davanti a casa mia.",
     "wrong": "Ci sono un albero alto davanti a casa mia."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Quanto ci vuole ad andare a piedi alla stazione?",
+    "wrong": "Quanto ci vuole ad andare a piedi a la stazione?"
   },
   {
     "code": "ERR_AUX_ESSERE",
@@ -4211,6 +4326,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Nella nostra azienda utilizziamo Internet.",
+    "wrong": "In la nostra azienda utilizziamo Internet."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Ci vediamo domenica alle tre.",
     "wrong": "Ci vediamo domenica a le tre."
   },
@@ -4273,6 +4393,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Il negozio chiude alle sette.",
     "wrong": "Il negozio chiude a le sette."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Cammina sul marciapiede.",
+    "wrong": "Cammina su il marciapiede."
   },
   {
     "code": "ERR_POSSESSIVE_ARTICLE",
@@ -4611,6 +4736,21 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Cosa coltivi nella tua fattoria?",
+    "wrong": "Cosa coltivi in la tua fattoria?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Cosa coltivate nella vostra fattoria?",
+    "wrong": "Cosa coltivate in la vostra fattoria?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Che cosa coltiva nella sua fattoria?",
+    "wrong": "Che cosa coltiva in la sua fattoria?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Ti piace dormire con il rumore della pioggia?",
     "wrong": "Ti piace dormire con il rumore di la pioggia?"
   },
@@ -4643,6 +4783,11 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Vorrei delle scarpe per una mia amica.",
     "wrong": "Vorrei di le scarpe per una mia amica."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Lui è spesso in ritardo al lavoro.",
+    "wrong": "Lui è spesso in ritardo a il lavoro."
   },
   {
     "code": "ERR_PERSONAL_A",
@@ -4763,6 +4908,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Se n'è andato dieci minuti fa.",
     "wrong": "Se n'ha andato dieci minuti fa."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Chi è il presidente dell'azienda?",
+    "wrong": "Chi è il presidente di l'azienda?"
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -4891,6 +5041,11 @@
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "È il proprietario dell'azienda.",
+    "wrong": "È il proprietario di l'azienda."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "La partita inizia alle due e mezza.",
     "wrong": "La partita inizia a le due e mezza."
   },
@@ -4945,6 +5100,11 @@
     "wrong": "Vieni qui a le sei, non prima."
   },
   {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Spiacente, questo volo è al completo.",
+    "wrong": "Spiacente, questo volo è a il completo."
+  },
+  {
     "code": "ERR_POSSESSIVE_ARTICLE",
     "correct": "Faccio i miei compiti dopo la scuola.",
     "wrong": "Faccio miei compiti dopo la scuola."
@@ -4988,6 +5148,16 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "All'improvviso il cielo è diventato scuro.",
     "wrong": "A l'improvviso il cielo è diventato scuro."
+  },
+  {
+    "code": "ERR_PREP_PLACE",
+    "correct": "Ci sono molti turisti a Venezia.",
+    "wrong": "Ci sono molti turisti in Venezia."
+  },
+  {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "Ci sono molti turisti a Venezia.",
+    "wrong": "C'è molti turisti a Venezia."
   },
   {
     "code": "ERR_PERSONAL_A",
@@ -5110,6 +5280,11 @@
     "wrong": "A l'improvviso abbiamo sentito uno sparo."
   },
   {
+    "code": "ERR_POSSESSIVE_ARTICLE",
+    "correct": "La nostra azienda ha una lunga, lunga storia.",
+    "wrong": "Nostra azienda ha una lunga, lunga storia."
+  },
+  {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Metterò la sveglia alle sette.",
     "wrong": "Metterò la sveglia a le sette."
@@ -5118,6 +5293,21 @@
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
     "correct": "Si alza alle sette.",
     "wrong": "Si alza a le sette."
+  },
+  {
+    "code": "ERR_CE_AGREEMENT",
+    "correct": "C'è un volo nel pomeriggio?",
+    "wrong": "Ci sono un volo nel pomeriggio?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "C'è un volo nel pomeriggio?",
+    "wrong": "C'è un volo in il pomeriggio?"
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Ci mette sempre delle ore per prepararsi.",
+    "wrong": "Ci mette sempre di le ore per prepararsi."
   },
   {
     "code": "ERR_PREP_ARTICLE_CONTRACTION",
@@ -5188,6 +5378,11 @@
     "code": "ERR_AUX_ESSERE",
     "correct": "Siete venuti troppo tardi.",
     "wrong": "Avete venuti troppo tardi."
+  },
+  {
+    "code": "ERR_PREP_ARTICLE_CONTRACTION",
+    "correct": "Jacob Coxey era pronto al peggio.",
+    "wrong": "Jacob Coxey era pronto a il peggio."
   },
   {
     "code": "ERR_AUX_ESSERE",

@@ -2968,6 +2968,13 @@
   "tatoeba": "837951"
  },
  {
+  "id": "s_374054",
+  "module": "a2m09",
+  "it": "Hanno perso il treno.",
+  "es": "Perdieron el tren.",
+  "tatoeba": "374054"
+ },
+ {
   "id": "s_2051488",
   "module": "a2m01",
   "it": "Ho bruciato la torta.",
@@ -2987,6 +2994,13 @@
   "it": "Ho parlato di musica.",
   "es": "Hablé de música.",
   "tatoeba": "778303"
+ },
+ {
+  "id": "s_351079",
+  "module": "a2m09",
+  "it": "Ho viaggiato da solo.",
+  "es": "Viajé solo.",
+  "tatoeba": "351079"
  },
  {
   "id": "s_632233",
@@ -3043,6 +3057,13 @@
   "it": "Quello non succederà.",
   "es": "Eso no pasará.",
   "tatoeba": "350990"
+ },
+ {
+  "id": "s_374055",
+  "module": "a2m09",
+  "it": "Sono sceso dal treno.",
+  "es": "Me bajé del tren.",
+  "tatoeba": "374055"
  },
  {
   "id": "s_1109809",
@@ -3143,6 +3164,13 @@
   "tatoeba": "3533000"
  },
  {
+  "id": "s_4645",
+  "module": "a2m09",
+  "it": "Hai lasciato la mancia?",
+  "es": "¿Dejaste propina?",
+  "tatoeba": "4645"
+ },
+ {
   "id": "s_409382",
   "module": "a2m07",
   "it": "Hai sentito le notizie?",
@@ -3155,6 +3183,13 @@
   "it": "Ho comprato quell'auto.",
   "es": "Compré ese coche.",
   "tatoeba": "1003133"
+ },
+ {
+  "id": "s_374052",
+  "module": "a2m09",
+  "it": "Il treno era affollato.",
+  "es": "El tren estaba lleno.",
+  "tatoeba": "374052"
  },
  {
   "id": "s_378178",
@@ -3353,6 +3388,13 @@
   "tatoeba": "5273152"
  },
  {
+  "id": "s_607359",
+  "module": "a2m09",
+  "it": "Lei è arrivata in macchina.",
+  "es": "Ella llegó en coche.",
+  "tatoeba": "607359"
+ },
+ {
   "id": "s_671602",
   "module": "a2m04",
   "it": "Ti ho comprato un aquilone.",
@@ -3407,6 +3449,13 @@
   "it": "Hai avuto una lunga giornata.",
   "es": "Tuviste un día largo.",
   "tatoeba": "3532901"
+ },
+ {
+  "id": "s_373683",
+  "module": "a2m09",
+  "it": "Vorrei una mappa della città.",
+  "es": "Quisiera un mapa de la ciudad.",
+  "tatoeba": "373683"
  },
  {
   "id": "s_375467",

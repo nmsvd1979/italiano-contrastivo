@@ -2154,5 +2154,336 @@
    "kind": "different_word",
    "audit2": "ok"
   }
+ ],
+ "ERR_CLITIC_CI": [
+  {
+   "it": "Quanto tempo ci vuole da qui a Boston?",
+   "correct": "ci vuole",
+   "wrong": "vuole",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non posso dirti esattamente quanto ci vorrà.",
+   "correct": "ci vorrà",
+   "wrong": "vorrà",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto ci vuole?",
+   "correct": "ci vuole",
+   "wrong": "vuole",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto ci vuole in macchina?",
+   "correct": "ci vuole",
+   "wrong": "vuole",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non ci vorrà molto.",
+   "correct": "ci vorrà",
+   "wrong": "vorrà",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto tempo ci vorrà?",
+   "correct": "ci vorrà",
+   "wrong": "vorrà",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Mi chiedo quanto ci vorrà.",
+   "correct": "ci vorrà",
+   "wrong": "vorrà",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto ci vorrà per arrivare lì?",
+   "correct": "ci vorrà",
+   "wrong": "vorrà",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Tom non ha idea di quanto ci vorrà.",
+   "correct": "ci vorrà",
+   "wrong": "vorrà",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Pensa che ci vorrà molto in autobus?",
+   "correct": "ci vorrà",
+   "wrong": "vorrà",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto ci vuole per andare a Madrid?",
+   "correct": "ci vuole",
+   "wrong": "vuole",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto ci vorrà per finire il lavoro?",
+   "correct": "ci vorrà",
+   "wrong": "vorrà",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Perché ci mette così tanto a mangiare?",
+   "correct": "ci mette",
+   "wrong": "mette",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ci mette sempre delle ore per prepararsi.",
+   "correct": "Ci mette",
+   "wrong": "mette",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "\"Quanto ci vorrà?\" \"Circa due settimane.\"",
+   "correct": "ci vorrà",
+   "wrong": "vorrà",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto ci vuole ad arrivare alla stazione?",
+   "correct": "ci vuole",
+   "wrong": "vuole",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto ci vuole ad andare a Vienna a piedi?",
+   "correct": "ci vuole",
+   "wrong": "vuole",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto ci vuole ad andare a Okinawa in aereo?",
+   "correct": "ci vuole",
+   "wrong": "vuole",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto ci vuole ad arrivare a Chicago da qui?",
+   "correct": "ci vuole",
+   "wrong": "vuole",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto ci vuole ad andare a piedi alla stazione?",
+   "correct": "ci vuole",
+   "wrong": "vuole",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Non posso dirle esattamente quanto tempo ci vorrà.",
+   "correct": "ci vorrà",
+   "wrong": "vorrà",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto pensa che ci vorrà ad andare all'aeroporto?",
+   "correct": "ci vorrà",
+   "wrong": "vorrà",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanti giorni ci vogliono di solito per arrivarci?",
+   "correct": "ci vogliono",
+   "wrong": "vogliono",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto ci vuole per andare da qui all'Hilton Hotel?",
+   "correct": "ci vuole",
+   "wrong": "vuole",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto tempo ci vuole per andare da qua all'Hilton Hotel?",
+   "correct": "ci vuole",
+   "wrong": "vuole",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Da Roma a Napoli ci vogliono due ore.",
+   "correct": "ci vogliono",
+   "wrong": "vogliono",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Per arrivare in aeroporto ci vogliono venti minuti.",
+   "correct": "ci vogliono",
+   "wrong": "vogliono",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ci vogliono tre giorni per finire il lavoro.",
+   "correct": "Ci vogliono",
+   "wrong": "Vogliono",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "In macchina ci vogliono cinque ore.",
+   "correct": "ci vogliono",
+   "wrong": "vogliono",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "In treno ci mettiamo due ore.",
+   "correct": "ci mettiamo",
+   "wrong": "mettiamo",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ci metto mezz'ora per andare al lavoro.",
+   "correct": "Ci metto",
+   "wrong": "Metto",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ci metto un'ora per arrivare a casa.",
+   "correct": "Ci metto",
+   "wrong": "Metto",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto ci metti per arrivare in ufficio?",
+   "correct": "ci metti",
+   "wrong": "metti",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto ci mettete in autobus?",
+   "correct": "ci mettete",
+   "wrong": "mettete",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto ci vuole da qui alla stazione?",
+   "correct": "ci vuole",
+   "wrong": "vuole",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ci vogliono dieci minuti a piedi.",
+   "correct": "Ci vogliono",
+   "wrong": "Vogliono",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto ci vuole per arrivare al mare?",
+   "correct": "ci vuole",
+   "wrong": "vuole",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ci vorrà un'ora per arrivare in centro.",
+   "correct": "Ci vorrà",
+   "wrong": "Vorrà",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ci vorranno due ore con il traffico.",
+   "correct": "Ci vorranno",
+   "wrong": "Vorranno",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ci mettono tre ore per arrivare a Firenze.",
+   "correct": "Ci mettono",
+   "wrong": "Mettono",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Per preparare la valigia ci vogliono venti minuti.",
+   "correct": "ci vogliono",
+   "wrong": "vogliono",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ci metto cinque minuti a prendere l'autobus.",
+   "correct": "Ci metto",
+   "wrong": "Metto",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Per andare a Milano ci metto un'ora e mezza.",
+   "correct": "ci metto",
+   "wrong": "metto",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ci vogliono quattro ore da Roma a Venezia.",
+   "correct": "Ci vogliono",
+   "wrong": "Vogliono",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Quanto tempo ci vuole per la visita?",
+   "correct": "ci vuole",
+   "wrong": "vuole",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Con la bici ci mettiamo mezz'ora.",
+   "correct": "ci mettiamo",
+   "wrong": "mettiamo",
+   "kind": "omission",
+   "audit2": "ok"
+  },
+  {
+   "it": "Ci vuole un'ora e mezza per arrivare al lago.",
+   "correct": "Ci vuole",
+   "wrong": "Vuole",
+   "kind": "omission",
+   "audit2": "ok"
+  }
  ]
 }

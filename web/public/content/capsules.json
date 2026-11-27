@@ -15291,6 +15291,166 @@
     "cefr": "A2",
     "estimated_seconds": 225,
     "explanation": {
+      "text_es": "Viajar: ritardo (retraso), volo, orario (horario), arrivo, partenza (salida), passaggio, atterraggio (aterrizaje), campeggio (camping), frontiera, mappa, guida, gita (excursión corta), turisti, voli. Con el tren y el hotel de A1 (binario, biglietto, camera) forman el vocabulario del viaje."
+    },
+    "id": "cap_err_voc_viaggio",
+    "retrieval": [
+      {
+        "id": "it_choice_s_2556068_ERR_VOC_VIAGGIO",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Ho la mappa."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_VIAGGIO",
+            "text": "Ho la frontiera."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_VIAGGIO",
+            "text": "Ho la gita."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2556068",
+        "target_error_codes": [
+          "ERR_VOC_VIAGGIO"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "mappa"
+        ],
+        "hint_es": "¿Dónde está el mapa?",
+        "id": "it_cloze_s_13383845_ERR_VOC_VIAGGIO",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_13383845",
+        "target_error_codes": [
+          "ERR_VOC_VIAGGIO"
+        ],
+        "text": "Dov'è la ___?",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Siamo",
+          "in",
+          "orario."
+        ],
+        "id": "it_reorder_s_1152782_ERR_VOC_VIAGGIO",
+        "prompt_es": "Ordena las palabras: «Estamos a la hora.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1152782",
+        "target_error_codes": [
+          "ERR_VOC_VIAGGIO"
+        ],
+        "tokens": [
+          "Siamo",
+          "orario.",
+          "in"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_2218526_ERR_VOC_VIAGGIO",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_VIAGGIO",
+            "text": "Siete in arrivo."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_VIAGGIO",
+            "text": "Siete in atterraggio."
+          },
+          {
+            "correct": true,
+            "text": "Siete in orario."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2218526",
+        "target_error_codes": [
+          "ERR_VOC_VIAGGIO"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "mappa"
+        ],
+        "hint_es": "Tom tiene un mapa.",
+        "id": "it_cloze_s_2858171_ERR_VOC_VIAGGIO",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2858171",
+        "target_error_codes": [
+          "ERR_VOC_VIAGGIO"
+        ],
+        "text": "Tom ha una ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Abbiamo",
+          "una",
+          "mappa?"
+        ],
+        "id": "it_reorder_s_10248840_ERR_VOC_VIAGGIO",
+        "prompt_es": "Ordena las palabras: «¿Tenemos un mapa?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_10248840",
+        "target_error_codes": [
+          "ERR_VOC_VIAGGIO"
+        ],
+        "tokens": [
+          "una",
+          "Abbiamo",
+          "mappa?"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "È in orario."
+      ],
+      "id": "it_translate_s_2218528_ERR_VOC_VIAGGIO",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2218528",
+      "source_es": "Está a la hora.",
+      "target_error_codes": [
+        "ERR_VOC_VIAGGIO"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
       "text_es": "Palabras de la casa, la ropa y la comida que se parecen al español pero significan otra cosa: largo es «ancho» (lo largo es lungo), vaso es el florero o la maceta (el vaso de beber es bicchiere), morbido es «suave», minestra es «sopa», tasca es «bolsillo», calze son «medias», costume es la costumbre o el traje de baño, tenda es la tienda de campaña o la cortina."
     },
     "id": "cap_err_voc_falsi_casa",
@@ -15447,6 +15607,318 @@
       "source_es": "Me encanta la sopa.",
       "target_error_codes": [
         "ERR_VOC_FALSI_CASA"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "A2",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Palabras de la ciudad, el viaje y las acciones que engañan: pronto es «listo» (lo pronto es presto), imbarazzato/a es «avergonzado» (embarazada es incinta), officina es «taller» (oficina es ufficio), argomento es «tema», fattoria es «granja», coincidenza es el enlace entre trenes, azienda es «empresa», marciapiede es «acera», parcheggio es «estacionamiento»."
+    },
+    "id": "cap_err_voc_falsi_citta",
+    "retrieval": [
+      {
+        "id": "it_choice_s_1461853_ERR_VOC_FALSI_CITTA",
+        "listen": true,
+        "options": [
+          {
+            "correct": true,
+            "text": "Tutto è pronto?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_FALSI_CITTA",
+            "text": "Tutto è marciapiede?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_FALSI_CITTA",
+            "text": "Tutto è parcheggio?"
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1461853",
+        "target_error_codes": [
+          "ERR_VOC_FALSI_CITTA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "pronto"
+        ],
+        "hint_es": "Ahora está listo.",
+        "id": "it_cloze_s_2005157_ERR_VOC_FALSI_CITTA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2005157",
+        "target_error_codes": [
+          "ERR_VOC_FALSI_CITTA"
+        ],
+        "text": "È ___ adesso.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Niente",
+          "è",
+          "pronto."
+        ],
+        "id": "it_reorder_s_5393630_ERR_VOC_FALSI_CITTA",
+        "prompt_es": "Ordena las palabras: «No hay nada listo.»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5393630",
+        "target_error_codes": [
+          "ERR_VOC_FALSI_CITTA"
+        ],
+        "tokens": [
+          "pronto.",
+          "Niente",
+          "è"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_1448780_ERR_VOC_FALSI_CITTA",
+        "listen": true,
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_FALSI_CITTA",
+            "text": "Sono quasi marciapiede."
+          },
+          {
+            "correct": false,
+            "distractor_kind": "different_word",
+            "error_code": "ERR_VOC_FALSI_CITTA",
+            "text": "Sono quasi parcheggio."
+          },
+          {
+            "correct": true,
+            "text": "Sono quasi pronto."
+          }
+        ],
+        "prompt_es": "Escucha la frase y elige cómo se escribe.",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1448780",
+        "target_error_codes": [
+          "ERR_VOC_FALSI_CITTA"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "pronto"
+        ],
+        "hint_es": "El café está listo.",
+        "id": "it_cloze_s_1521882_ERR_VOC_FALSI_CITTA",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_1521882",
+        "target_error_codes": [
+          "ERR_VOC_FALSI_CITTA"
+        ],
+        "text": "Il caffè è ___.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Ho",
+          "detto",
+          "fermo!"
+        ],
+        "id": "it_reorder_s_11815941_ERR_VOC_FALSI_CITTA",
+        "prompt_es": "Ordena las palabras: «¡He dicho quieto!»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_11815941",
+        "target_error_codes": [
+          "ERR_VOC_FALSI_CITTA"
+        ],
+        "tokens": [
+          "detto",
+          "fermo!",
+          "Ho"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Tom è pronto."
+      ],
+      "id": "it_translate_s_2524677_ERR_VOC_FALSI_CITTA",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_2524677",
+      "source_es": "Tom está listo.",
+      "target_error_codes": [
+        "ERR_VOC_FALSI_CITTA"
+      ],
+      "type": "translate_es_it"
+    }
+  },
+  {
+    "cefr": "B1",
+    "estimated_seconds": 225,
+    "explanation": {
+      "text_es": "Ci sustituye complementos de lugar con a/in/su y de 'pensare a'; el español no tiene un clítico equivalente."
+    },
+    "id": "cap_err_clitic_ci",
+    "retrieval": [
+      {
+        "id": "it_choice_s_4727159_ERR_CLITIC_CI",
+        "options": [
+          {
+            "correct": true,
+            "text": "Quanto ci vuole in macchina?"
+          },
+          {
+            "correct": false,
+            "distractor_kind": "omission",
+            "error_code": "ERR_CLITIC_CI",
+            "text": "Quanto vuole in macchina?"
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_4727159",
+        "target_error_codes": [
+          "ERR_CLITIC_CI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "ci vorrà"
+        ],
+        "hint_es": "No tomará mucho tiempo.",
+        "id": "it_cloze_s_5529094_ERR_CLITIC_CI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_5529094",
+        "target_error_codes": [
+          "ERR_CLITIC_CI"
+        ],
+        "text": "Non ___ molto.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Quanto",
+          "tempo",
+          "ci",
+          "vorrà?"
+        ],
+        "id": "it_reorder_s_611855_ERR_CLITIC_CI",
+        "prompt_es": "Ordena las palabras: «¿Cuánto tiempo tomará?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_611855",
+        "target_error_codes": [
+          "ERR_CLITIC_CI"
+        ],
+        "tokens": [
+          "Quanto",
+          "ci",
+          "vorrà?",
+          "tempo"
+        ],
+        "type": "reorder"
+      },
+      {
+        "id": "it_choice_s_2536469_ERR_CLITIC_CI",
+        "options": [
+          {
+            "correct": false,
+            "distractor_kind": "omission",
+            "error_code": "ERR_CLITIC_CI",
+            "text": "Mi chiedo quanto vorrà."
+          },
+          {
+            "correct": true,
+            "text": "Mi chiedo quanto ci vorrà."
+          }
+        ],
+        "prompt_es": "¿Cuál es la frase correcta en italiano?",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "s_2536469",
+        "target_error_codes": [
+          "ERR_CLITIC_CI"
+        ],
+        "type": "choice_l1_distractor"
+      },
+      {
+        "answers": [
+          "ci mettiamo"
+        ],
+        "hint_es": "En tren tardamos dos horas.",
+        "id": "it_cloze_a_3164d0aa_ERR_CLITIC_CI",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "a_3164d0aa",
+        "target_error_codes": [
+          "ERR_CLITIC_CI"
+        ],
+        "text": "In treno ___ due ore.",
+        "type": "cloze"
+      },
+      {
+        "answer": [
+          "Quanto",
+          "ci",
+          "mettete",
+          "in",
+          "autobus?"
+        ],
+        "id": "it_reorder_a_53e3fb59_ERR_CLITIC_CI",
+        "prompt_es": "Ordena las palabras: «¿Cuánto tardan en bus?»",
+        "requires_server": false,
+        "review_status": "validated",
+        "sentence_id": "a_53e3fb59",
+        "target_error_codes": [
+          "ERR_CLITIC_CI"
+        ],
+        "tokens": [
+          "Quanto",
+          "in",
+          "mettete",
+          "ci",
+          "autobus?"
+        ],
+        "type": "reorder"
+      }
+    ],
+    "review_status": "validated",
+    "target_error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "trigger": {
+      "accepted_it": [
+        "Quanto ci vuole?"
+      ],
+      "id": "it_translate_s_969841_ERR_CLITIC_CI",
+      "requires_server": false,
+      "review_status": "validated",
+      "sentence_id": "s_969841",
+      "source_es": "¿Cuánto tiempo se necesita?",
+      "target_error_codes": [
+        "ERR_CLITIC_CI"
       ],
       "type": "translate_es_it"
     }

@@ -130,9 +130,11 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1000195.mp3` — «Hai fame?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379692
 - `human/1004030.mp3` — «Hai fatto la tua parte.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3533000
 - `human/1010073.mp3` — «Hai finito il lavoro?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/837951
+- `human/1004637.mp3` — «Hai lasciato la mancia?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/4645
 - `human/1006418.mp3` — «Hai sentito le notizie?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/409382
 - `human/1006472.mp3` — «Hai un sito web?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1082386
 - `human/1006379.mp3` — «Hai visto la mia macchina fotografica?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374258
+- `human/1009992.mp3` — «Hanno perso il treno.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374054
 - `human/1006450.mp3` — «Hanno smesso di parlare.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/720432
 - `human/1003285.mp3` — «Ho ancora sete.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1103537
 - `human/993460.mp3` — «Ho avuto fortuna.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/940163
@@ -177,6 +179,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1004671.mp3` — «Ho una bicicletta nuova.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375693
 - `human/1001316.mp3` — «Ho una famiglia.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375297
 - `human/994220.mp3` — «Ho una macchina.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378850
+- `human/1006367.mp3` — «Ho viaggiato da solo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/351079
 - `human/1000233.mp3` — «Ho visto il cane.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/699598
 - `human/1003261.mp3` — «Ho visto tuo padre.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/820620
 - `human/1000159.mp3` — «I cani possono nuotare.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373498
@@ -199,6 +202,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1010082.mp3` — «Il mio lavoro mi piace davvero.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/989686
 - `human/1001320.mp3` — «Il ragazzo è gentile.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/375667
 - `human/1004714.mp3` — «Il tavolo è verde.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/791282
+- `human/1009991.mp3` — «Il treno era affollato.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374052
 - `human/1004066.mp3` — «Il tuo cane morde?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5582716
 - `human/1006365.mp3` — «Indovina dove sono stato.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350583
 - `human/994239.mp3` — «Io parlo molto.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/5873911
@@ -247,6 +251,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1000245.mp3` — «Lei scrive bene.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/963498
 - `human/1000256.mp3` — «Lei sembra felice.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1086091
 - `human/1003892.mp3` — «Lei va a scuola.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373720
+- `human/1006436.mp3` — «Lei è arrivata in macchina.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/607359
 - `human/1006430.mp3` — «Lei è la mia migliore amica.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/520882
 - `human/1003325.mp3` — «Lo hai fatto di nuovo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3532873
 - `human/1000307.mp3` — «Loro sono qui.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3365754
@@ -477,6 +482,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1000189.mp3` — «Sono molto occupato.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/378656
 - `human/1000266.mp3` — «Sono nella macchina.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1269471
 - `human/1010052.mp3` — «Sono restato a casa tutto il giorno.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/627118
+- `human/1004659.mp3` — «Sono sceso dal treno.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/374055
 - `human/1001450.mp3` — «Sono sicuro di questo.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3846961
 - `human/1000302.mp3` — «Sono troppo basso.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/3052709
 - `human/1003946.mp3` — «Sono troppo occupato per andare.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/433298
@@ -551,6 +557,7 @@ Grabaciones de frases de [Tatoeba](https://tatoeba.org) hechas por personas, con
 - `human/1004729.mp3` — «Voglio un'altra birra.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1107340
 - `human/1001292.mp3` — «Voglio una chitarra.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/350764
 - `human/1003967.mp3` — «Vorrei essere ricco.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/691383
+- `human/1004651.mp3` — «Vorrei una mappa della città.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373683
 - `human/1004681.mp3` — «Vuoi del ghiaccio?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/379731
 - `human/1003201.mp3` — «Vuoi dello zucchero?», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/373852
 - `human/1004740.mp3` — «È andato al negozio.», voz de NM1 (CC BY 4.0) — https://tatoeba.org/en/sentences/show/1243680

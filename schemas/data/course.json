@@ -731,6 +731,43 @@
         "doc_a2m08_istruzioni",
         "vh_a2m08"
       ]
+    },
+    {
+      "id": "a2m09",
+      "level": "A2",
+      "title": "Viajar y alojarse",
+      "can_do_es": [
+        "Comprar un billete y preguntar horarios y andenes.",
+        "Reservar y pedir algo en un alojamiento.",
+        "Decir cuánto se tarda (ci vuole, ci metto).",
+        "Explicar un problema simple y pedir ayuda."
+      ],
+      "units": [
+        "u103",
+        "u104",
+        "u105"
+      ],
+      "entry_reading": "rd_a2m09_entrada",
+      "roleplays": [
+        "rp_a2m09_a",
+        "rp_a2m09_b",
+        "rp_a2m09_c"
+      ],
+      "tasks": [
+        "ht_a2m09"
+      ],
+      "phrase_groups": [],
+      "library": "wordreference",
+      "library_task_es": "Busca en WordReference 3 palabras del viaje que parezcan españolas y comprueba si son falsos amigos; escribe una frase tuya con cada una.",
+      "writing_es": "Escribe un texto de 40 a 60 palabras sobre un viaje que hiciste o quieres hacer: cómo llegas, cuánto tiempo ci vuole o ci metti y dónde te alojas. Usa al menos 3 veces «ci» de lugar o de tiempo (ci vado, ci vuole, ci metto, ci sono stato).",
+      "writing_short_es": "Escribe un mensaje de 25 a 50 palabras a un hotel: reserva una camera para dos noches, pregunta si el desayuno está incluido y a qué hora puedes llegar. Usa un trato formal (Lei).",
+      "extra_readings": [
+        "ls_a2m09",
+        "doc_a2m09_orario",
+        "doc_a2m09_biglietto",
+        "doc_a2m09_email",
+        "vh_a2m09"
+      ]
     }
   ],
   "units": [
@@ -2476,6 +2513,40 @@
       ],
       "why_here": "Pedir un favor, dar una sugerencia, carteles de prohibición, instrucciones de uso. (Aconsejar con detalle es B1.)",
       "ficha_es": "Tildes puestas por analogía con el español: en italiano las palabras llanas no llevan tilde (perdere, no pérdere); solo se escribe acento en la vocal final de las agudas (parlerò, città).\n\nError típico: *perchè, *perche → perché; *pò → po'; *qual'è → qual è; è/e; più, già, può, città; dammi, dimmi, -issimo; vorremmo/vorremo\n\nQué practicas aquí: Acentos gráficos y dobles consonantes de A2 (perché, po', qual è, dammi, -issimo); Consonantes dobles y acentos gráficos en las formas nuevas de A2.\n\nSituación del módulo: Pedir un favor, dar una sugerencia, carteles de prohibición, instrucciones de uso. (Aconsejar con detalle es B1.)"
+    },
+    {
+      "id": "u103",
+      "level": "A2",
+      "title": "Ci de lugar, ci vuole, ci metto",
+      "goal_es": "Ci de lugar, ci vuole, ci metto (solo reconocer)",
+      "codes": [
+        "ERR_CLITIC_CI"
+      ],
+      "why_here": "La estación, los billetes, el hotel, un problema simple y cuánto se tarda.",
+      "ficha_es": "Ci sustituye complementos de lugar con a/in/su y de 'pensare a'; el español no tiene un clítico equivalente.\n\nError típico: *vado lì (válido, menos natural) → ci vado; *tardo due ore → ci metto due ore; *se tarda dos horas → ci vogliono due ore; *mi vado → me ne vado. Válido y no es error: vado lì (válido); penso a questo (válido; el error real es no usar ci)\n\nQué practicas aquí: Ci de lugar, ci vuole y ci metto.\n\nSituación del módulo: La estación, los billetes, el hotel, un problema simple y cuánto se tarda.",
+      "productive": false
+    },
+    {
+      "id": "u104",
+      "level": "A2",
+      "title": "Falsos amigos II: ciudad, viaje y acciones",
+      "goal_es": "Falsos amigos II: ciudad, viaje y acciones",
+      "codes": [
+        "ERR_VOC_FALSI_CITTA"
+      ],
+      "why_here": "La estación, los billetes, el hotel, un problema simple y cuánto se tarda.",
+      "ficha_es": "Palabras de la ciudad, el viaje y las acciones que engañan: pronto es «listo» (lo pronto es presto), imbarazzato/a es «avergonzado» (embarazada es incinta), officina es «taller» (oficina es ufficio), argomento es «tema», fattoria es «granja», coincidenza es el enlace entre trenes, azienda es «empresa», marciapiede es «acera», parcheggio es «estacionamiento».\n\nError típico: salire/uscire, scendere, guardare, fermare/firmare, guidare, camera, coincidenza, affittare, pronto/presto/subito, aspettare/sperare, imbarazzata, cascare, carta/lettera, mi dispiace (no *lo sento)\n\nQué practicas aquí: Falsos amigos de nivel A2 (casa, comida, compras, ciudad y viaje).\n\nSituación del módulo: La estación, los billetes, el hotel, un problema simple y cuánto se tarda."
+    },
+    {
+      "id": "u105",
+      "level": "A2",
+      "title": "Vocabulario: viaje y alojamiento",
+      "goal_es": "Vocabulario: viaje y alojamiento",
+      "codes": [
+        "ERR_VOC_VIAGGIO"
+      ],
+      "why_here": "La estación, los billetes, el hotel, un problema simple y cuánto se tarda.",
+      "ficha_es": "Viajar: ritardo (retraso), volo, orario (horario), arrivo, partenza (salida), passaggio, atterraggio (aterrizaje), campeggio (camping), frontiera, mappa, guida, gita (excursión corta), turisti, voli. Con el tren y el hotel de A1 (binario, biglietto, camera) forman el vocabulario del viaje.\n\nError típico: ritardo, volo, orario, sciopero, coincidenza, prenotare, ostello, guasto, reception (binario, biglietto, valigia y camera ya están en A1)\n\nQué practicas aquí: Área temática PLIDA A2: Transportes; Área temática PLIDA A2: Viajes y turismo; Moverse en autobús y en taxi (billete, parada, pedir que te lleven); Reservar un alojamiento o un billete.\n\nSituación del módulo: La estación, los billetes, el hotel, un problema simple y cuánto se tarda."
     }
   ],
   "planned": [

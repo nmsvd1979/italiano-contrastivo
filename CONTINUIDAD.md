@@ -4,6 +4,14 @@ Registro de avances. Lo más reciente arriba.
 
 **Decisión del usuario (2026-11-26, tras a2m06):** el tope de audio de A2 sube de 30 a **50 MB** (total 48 + 50 = 98 MB; `MAX_BYTES_A2` en `pipeline/tts/generate.py`) en vez de bajar el bitrate. Sigue valiendo: el audio solo se descarga al usarlo.
 
+## 2026-11-26 (43) — Fase 5: módulo a2m09 «Viajar y alojarse» construido
+**Pedido del usuario:** «Sigue con a2m09».
+**Hecho:** lista de cierre en rojo → verde (a2m01–a2m09). **156 frases** en tres unidades: falsos amigos de ciudad y viaje 50, vocabulario de viaje y alojamiento 59, «ci» de lugar y ci vuole/ci metto 47 (solo reconocer); 70 rechazadas o en duda; respaldo `content/audits/2026-11-26-a2m09-veredictos.json`. **«ci»: 24 de las 47 son frases propias (escritas por la IA)**: de 40 variantes del corpus la 2.ª pasada solo confirmó 25 (sin «ci», «vuole coraggio» o «come ci va a scuola» son válidas), así que escribí 24 centradas en «ci vogliono / ci metto / quanto ci vuole» y 22 pasaron la 2.ª pasada (2 descartadas: «vogliono molti soldi» y «ci vuole meno tempo»). Entrada propia `rd_a2m09_entrada` (en la estación); 3 unidades (u103–u105); Salida (3 juegos de rol, tarea oral, 6 preguntas por voz); 221 clips (+24 de segunda voz); voz humana (banco 503); **A1 intacto**. Precache 12,43 MB.
+**Decisiones mías:** omitir «ci» puede ser válido con otro contexto, así que ERR_CLITIC_CI queda exento de la prueba de calcos del corpus (como «ne»); las variantes dudosas («come ci va a scuola», «ci vuole coraggio») no entran.
+**Comprobado:** Python 1.538, web 1.618, tsc y build en verde.
+**No comprobado:** iPhone y pasos con una persona; audio sin escuchar; nada revisado por un nativo; la naturalidad de las 24 frases propias (una sola pasada adversarial).
+**Siguiente:** a2m10 (trabajo, salud y opinar: secondo me, penso di sì, perché/quando/per + infinitivo; sin CV ni ofertas de empleo, que son B1).
+
 ## 2026-11-26 (42) — Fase 5: módulo a2m08 «Favores, sugerencias e instrucciones» construido
 **Pedido del usuario:** «Sigue con a2m08».
 **Hecho:** lista de cierre en rojo → verde (a2m01–a2m08). **127 frases** en tres unidades: imperativo con pronombres (dammi, dimmi, fallo…) 48, fórmulas con Lei 45 (solo reconocer), acentos y dobles 34 (42 con las ya existentes de A1/A2); 108 rechazadas y 20 en duda; respaldo `content/audits/2026-11-26-a2m08-veredictos.json`. **Las 45 frases de Lei son propias (escritas por la IA, `authored`)**: el corpus casi no trae marcador formal en la misma frase (de 90 candidatas solo 4 servían y la 2.ª pasada las descartó), así que cada frase lleva un vocativo formal (signora, dottore, professore…) para que la forma de «tú» sea un error de registro definitivo; las 45 variantes las confirmó una 2.ª pasada adversarial. Entrada propia `rd_a2m08_entrada`; 3 unidades (u100–u102); Salida (2 juegos de rol, tarea oral, 6 preguntas por voz); 174 clips (+25 de segunda voz); voz humana (banco 496); **A1 intacto**. Precache 12,01 MB.

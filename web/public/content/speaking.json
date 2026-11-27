@@ -533,6 +533,42 @@
         "u102"
       ],
       "goal_es": "Contar un problema, escuchar los consejos de un amigo (dovresti, potresti, ti consiglio di) y quedar para el sábado."
+    },
+    {
+      "id": "rp_a2m09_a",
+      "title": "Llegar a un hotel",
+      "function_es": "Hacer el check-in y pedir información",
+      "reading": "rd_a2m09_a",
+      "from": 0,
+      "to": 10,
+      "after": [
+        "u105"
+      ],
+      "goal_es": "Decir a nombre de quién está la reserva, preguntar por el desayuno y por cuánto se demora al aeropuerto, y pedir un taxi."
+    },
+    {
+      "id": "rp_a2m09_b",
+      "title": "Un tren con retraso",
+      "function_es": "Informarse en la estación cuando hay un retraso",
+      "reading": "rd_a2m09_b",
+      "from": 0,
+      "to": 11,
+      "after": [
+        "u105"
+      ],
+      "goal_es": "Preguntar por el retraso, la combinación y el andén, y confirmar dónde esperar y si el tren se detiene."
+    },
+    {
+      "id": "rp_a2m09_c",
+      "title": "Comprar un boleto de tren",
+      "function_es": "Comprar un boleto y preguntar cuánto se demora",
+      "reading": "rd_a2m09_entrada",
+      "from": 0,
+      "to": 13,
+      "after": [
+        "u105"
+      ],
+      "goal_es": "Pedir un boleto de ida y vuelta, preguntar cuánto tiempo ci vuole, la hora de salida, el andén y si hay que cambiar."
     }
   ],
   "tasks": [
@@ -1271,6 +1307,57 @@
         "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
         "No leí: hablé de corrido, aunque con pausas.",
         "Cuidé lo que enseña este módulo: Imperativo tu/voi con pronombres: dammi, fallo, parlate; Fórmulas con Lei: scusi, senta, si accomodi; Acentos y dobles de A2.",
+        "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
+      ]
+    },
+    {
+      "id": "ht_a2m09",
+      "title": "Viajar y alojarse",
+      "function_es": "Hablar de un viaje y resolver situaciones en la estación y el hotel",
+      "level": "A2",
+      "minutes": 2,
+      "after": [
+        "u105"
+      ],
+      "source": {
+        "book": "Texto escrito por la IA (Claude) para esta app",
+        "authors": "Claude (IA), a pedido del usuario",
+        "url": "https://github.com/nmsvd1979/italiano-contrastivo",
+        "license": "Texto propio del proyecto, sin revisión de un hablante nativo"
+      },
+      "intro_es": "Habla unos 2 minutos, sin leer. Usa «ci» de lugar (ci vado, ci sono stato), ci vuole / ci metto, y vocabulario de viaje y alojamiento (camera, binario, coincidenza, ritardo).",
+      "questions": [
+        {
+          "it": "Dove vuoi andare per le vacanze? Come ci vai?",
+          "es": "¿Adónde quieres ir de vacaciones? ¿Cómo vas?",
+          "audio": "f2f56ed12265"
+        },
+        {
+          "it": "Quanto tempo ci vuole per arrivarci?",
+          "es": "¿Cuánto tiempo se demora en llegar?",
+          "audio": "98b7e2d77abf"
+        },
+        {
+          "it": "Che cosa dici alla reception quando arrivi in albergo?",
+          "es": "¿Qué dices en la recepción cuando llegas al hotel?",
+          "audio": "703418526a03"
+        },
+        {
+          "it": "Che cosa fai se perdi una coincidenza?",
+          "es": "¿Qué haces si pierdes una combinación?",
+          "audio": "54c7bc91f76c"
+        },
+        {
+          "it": "Che cosa dici quando rispondi al telefono?",
+          "es": "¿Qué dices cuando contestas el teléfono?",
+          "audio": "a85411b6073f"
+        }
+      ],
+      "adaptation": "Tarea escrita por la IA para este módulo, apoyada en las estructuras del programa CILS/PLIDA A2; sin revisión de un nativo.",
+      "checklist_es": [
+        "Respondí todas las preguntas, cada una con una frase completa (sujeto + verbo).",
+        "No leí: hablé de corrido, aunque con pausas.",
+        "Cuidé lo que enseña este módulo: Ci de lugar, ci vuole, ci metto; Falsos amigos II: ciudad, viaje y acciones; Vocabulario: viaje y alojamiento.",
         "Me escuché: la pronunciación y las dobles sonaron como en el modelo."
       ]
     }
@@ -2894,6 +2981,94 @@
         "es": "¿Qué deberías hacer para estudiar mejor?",
         "authored": true,
         "audio": "8a70e84f963e"
+      },
+      {
+        "id": "iq_ht_a2m09_1",
+        "module": "a2m09",
+        "it": "Dove vuoi andare per le vacanze? Come ci vai?",
+        "es": "¿Adónde quieres ir de vacaciones? ¿Cómo vas?",
+        "task": "ht_a2m09",
+        "audio": "f2f56ed12265"
+      },
+      {
+        "id": "iq_ht_a2m09_2",
+        "module": "a2m09",
+        "it": "Quanto tempo ci vuole per arrivarci?",
+        "es": "¿Cuánto tiempo se demora en llegar?",
+        "task": "ht_a2m09",
+        "audio": "98b7e2d77abf"
+      },
+      {
+        "id": "iq_ht_a2m09_3",
+        "module": "a2m09",
+        "it": "Che cosa dici alla reception quando arrivi in albergo?",
+        "es": "¿Qué dices en la recepción cuando llegas al hotel?",
+        "task": "ht_a2m09",
+        "audio": "703418526a03"
+      },
+      {
+        "id": "iq_ht_a2m09_4",
+        "module": "a2m09",
+        "it": "Che cosa fai se perdi una coincidenza?",
+        "es": "¿Qué haces si pierdes una combinación?",
+        "task": "ht_a2m09",
+        "audio": "54c7bc91f76c"
+      },
+      {
+        "id": "iq_ht_a2m09_5",
+        "module": "a2m09",
+        "it": "Che cosa dici quando rispondi al telefono?",
+        "es": "¿Qué dices cuando contestas el teléfono?",
+        "task": "ht_a2m09",
+        "audio": "a85411b6073f"
+      },
+      {
+        "id": "iq_a2m09_1",
+        "module": "a2m09",
+        "it": "Come vai di solito in centro? Quanto tempo ci vuole?",
+        "es": "¿Cómo vas normalmente al centro? ¿Cuánto tiempo se demora?",
+        "authored": true,
+        "audio": "1b7f0c4d8b11"
+      },
+      {
+        "id": "iq_a2m09_2",
+        "module": "a2m09",
+        "it": "Quanto tempo ci metti per andare all'università o al lavoro?",
+        "es": "¿Cuánto te demoras en ir a la universidad o al trabajo?",
+        "authored": true,
+        "audio": "3b399d098a68"
+      },
+      {
+        "id": "iq_a2m09_3",
+        "module": "a2m09",
+        "it": "Sei già stato in un'altra città? Ci vuoi tornare?",
+        "es": "¿Has estado en otra ciudad? ¿Quieres volver?",
+        "authored": true,
+        "audio": "4c81f463cab5"
+      },
+      {
+        "id": "iq_a2m09_4",
+        "module": "a2m09",
+        "it": "Che cosa chiedi alla reception di un albergo?",
+        "es": "¿Qué le pides a la recepción de un hotel?",
+        "authored": true,
+        "audio": "deaa8217af92"
+      },
+      {
+        "id": "iq_a2m09_5",
+        "module": "a2m09",
+        "it": "Che cosa fai se il treno è in ritardo?",
+        "es": "¿Qué haces si el tren viene atrasado?",
+        "authored": true,
+        "audio": "4cdce8d70df8"
+      },
+      {
+        "id": "iq_a2m09_6",
+        "module": "a2m09",
+        "it": "Che cosa metti nella valigia quando parti per un viaggio?",
+        "es": "¿Qué pones en la maleta cuando te vas de viaje?",
+        "authored": true,
+        "audio": "eb820cdf31af"
       }
     ]
   }

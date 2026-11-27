@@ -730,6 +730,43 @@
         "doc_a2m08_istruzioni",
         "vh_a2m08"
       ]
+    },
+    {
+      "id": "a2m09",
+      "level": "A2",
+      "title": "Viajar y alojarse",
+      "can_do_es": [
+        "Comprar un billete y preguntar horarios y andenes.",
+        "Reservar y pedir algo en un alojamiento.",
+        "Decir cuánto se tarda (ci vuole, ci metto).",
+        "Explicar un problema simple y pedir ayuda."
+      ],
+      "units": [
+        "u103",
+        "u104",
+        "u105"
+      ],
+      "entry_reading": "rd_a2m09_entrada",
+      "roleplays": [
+        "rp_a2m09_a",
+        "rp_a2m09_b",
+        "rp_a2m09_c"
+      ],
+      "tasks": [
+        "ht_a2m09"
+      ],
+      "phrase_groups": [],
+      "library": "wordreference",
+      "library_task_es": "Busca en WordReference 3 palabras del viaje que parezcan españolas y comprueba si son falsos amigos; escribe una frase tuya con cada una.",
+      "writing_es": "Escribe un texto de 40 a 60 palabras sobre un viaje que hiciste o quieres hacer: cómo llegas, cuánto tiempo ci vuole o ci metti y dónde te alojas. Usa al menos 3 veces «ci» de lugar o de tiempo (ci vado, ci vuole, ci metto, ci sono stato).",
+      "writing_short_es": "Escribe un mensaje de 25 a 50 palabras a un hotel: reserva una camera para dos noches, pregunta si el desayuno está incluido y a qué hora puedes llegar. Usa un trato formal (Lei).",
+      "extra_readings": [
+        "ls_a2m09",
+        "doc_a2m09_orario",
+        "doc_a2m09_biglietto",
+        "doc_a2m09_email",
+        "vh_a2m09"
+      ]
     }
   ],
   "units": [
@@ -19625,6 +19662,565 @@
           "start": 4,
           "end": 7,
           "wrong": "gia"
+        }
+      ]
+    },
+    {
+      "id": "u103",
+      "level": "A2",
+      "title": "Ci de lugar, ci vuole, ci metto",
+      "goal_es": "Ci de lugar, ci vuole, ci metto (solo reconocer)",
+      "codes": [
+        "ERR_CLITIC_CI"
+      ],
+      "why_here": "La estación, los billetes, el hotel, un problema simple y cuánto se tarda.",
+      "ficha_es": "Ci sustituye complementos de lugar con a/in/su y de 'pensare a'; el español no tiene un clítico equivalente.\n\nError típico: *vado lì (válido, menos natural) → ci vado; *tardo due ore → ci metto due ore; *se tarda dos horas → ci vogliono due ore; *mi vado → me ne vado. Válido y no es error: vado lì (válido); penso a questo (válido; el error real es no usar ci)\n\nQué practicas aquí: Ci de lugar, ci vuole y ci metto.\n\nSituación del módulo: La estación, los billetes, el hotel, un problema simple y cuánto se tarda.",
+      "productive": false,
+      "status": "active",
+      "explanation_es": "Ci sustituye complementos de lugar con a/in/su y de 'pensare a'; el español no tiene un clítico equivalente.",
+      "parts": {
+        "descubre": [
+          "s_969841",
+          "s_4727159",
+          "s_5529094",
+          "s_611855"
+        ],
+        "practica": [
+          "s_969841",
+          "s_4727159",
+          "s_5529094",
+          "s_611855",
+          "s_2536469",
+          "a_3164d0aa",
+          "s_2746673",
+          "a_4e065b68",
+          "a_ad553696",
+          "a_b47b5d86",
+          "s_5651467",
+          "a_6d61819a",
+          "a_97609acd",
+          "s_1540001",
+          "s_1903756",
+          "a_5f836863",
+          "a_7268b603",
+          "s_2180740",
+          "s_5932218",
+          "a_17f627a8",
+          "a_252346d4",
+          "a_03fe6945",
+          "s_2842838",
+          "s_8668373",
+          "a_58d193f7",
+          "s_2736413",
+          "s_2611856",
+          "a_2874559f",
+          "a_e232c15b",
+          "s_1543091",
+          "a_02559005",
+          "s_2178194",
+          "s_2870003",
+          "a_b5354e38",
+          "s_1543092",
+          "s_2157854",
+          "s_376197",
+          "s_12399538",
+          "s_12399537"
+        ],
+        "escucha": [
+          "s_969841",
+          "s_2536469",
+          "a_ad553696",
+          "a_97609acd",
+          "a_7268b603",
+          "a_252346d4",
+          "a_58d193f7",
+          "a_e232c15b"
+        ],
+        "prueba": [
+          "a_53e3fb59",
+          "a_40e5409f",
+          "a_15accc35",
+          "s_8015040",
+          "a_0bb8344d",
+          "a_6e31e091",
+          "s_2189399",
+          "a_71c17e89"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_969841",
+          "start": 7,
+          "end": 15,
+          "wrong": "vuole"
+        },
+        {
+          "id": "s_4727159",
+          "start": 7,
+          "end": 15,
+          "wrong": "vuole"
+        },
+        {
+          "id": "s_5529094",
+          "start": 4,
+          "end": 12,
+          "wrong": "vorrà"
+        },
+        {
+          "id": "s_611855",
+          "start": 13,
+          "end": 21,
+          "wrong": "vorrà"
+        }
+      ]
+    },
+    {
+      "id": "u104",
+      "level": "A2",
+      "title": "Falsos amigos II: ciudad, viaje y acciones",
+      "goal_es": "Falsos amigos II: ciudad, viaje y acciones",
+      "codes": [
+        "ERR_VOC_FALSI_CITTA"
+      ],
+      "why_here": "La estación, los billetes, el hotel, un problema simple y cuánto se tarda.",
+      "ficha_es": "Palabras de la ciudad, el viaje y las acciones que engañan: pronto es «listo» (lo pronto es presto), imbarazzato/a es «avergonzado» (embarazada es incinta), officina es «taller» (oficina es ufficio), argomento es «tema», fattoria es «granja», coincidenza es el enlace entre trenes, azienda es «empresa», marciapiede es «acera», parcheggio es «estacionamiento».\n\nError típico: salire/uscire, scendere, guardare, fermare/firmare, guidare, camera, coincidenza, affittare, pronto/presto/subito, aspettare/sperare, imbarazzata, cascare, carta/lettera, mi dispiace (no *lo sento)\n\nQué practicas aquí: Falsos amigos de nivel A2 (casa, comida, compras, ciudad y viaje).\n\nSituación del módulo: La estación, los billetes, el hotel, un problema simple y cuánto se tarda.",
+      "words": [
+        {
+          "form": "pronto",
+          "gender": "m",
+          "num": "s",
+          "gloss": "listo (no es «pronto»: eso es presto)",
+          "audio": "2726bab396d8",
+          "sieve": "opaca",
+          "note": "Parece 'pronto' (rápido) pero significa listo; rápido, pronto = presto",
+          "ff": true
+        },
+        {
+          "form": "fermo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "quieto, parado",
+          "audio": "992ae60e39c2",
+          "sieve": "opaca"
+        },
+        {
+          "form": "imbarazzato",
+          "gender": "m",
+          "num": "s",
+          "gloss": "avergonzado (no es «embarazado»)",
+          "audio": "66fd2228eddc",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "embarazado→imbarazzato: em→im, z doble",
+          "ff": true
+        },
+        {
+          "form": "argomento",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el tema (no es «argumento»)",
+          "audio": "34f8a4dabcfe",
+          "art": "l'",
+          "sieve": "regular",
+          "rule": "u-o",
+          "note": "argumento→argomento: u→o",
+          "ff": true
+        },
+        {
+          "form": "marciapiede",
+          "gender": "m",
+          "num": "s",
+          "gloss": "la acera",
+          "audio": "80b0f9afc8a1",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "parcheggio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el estacionamiento",
+          "audio": "253e8487ea18",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "officina",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el taller (no es «oficina»: eso es ufficio)",
+          "audio": "7c0b65540b99",
+          "art": "l'",
+          "sieve": "regular",
+          "rule": "doble",
+          "note": "oficina→officina: f doble",
+          "ff": true
+        },
+        {
+          "form": "fattoria",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la granja",
+          "audio": "267aff235a4e",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "factoría→fattoria: ct→tt",
+          "ff": true
+        },
+        {
+          "form": "imbarazzata",
+          "gender": "f",
+          "num": "s",
+          "gloss": "avergonzada (no es «embarazada»)",
+          "audio": "a9ceb969a547",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "embarazada→imbarazzata: em→im, z doble",
+          "ff": true
+        },
+        {
+          "form": "azienda",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la empresa",
+          "audio": "c48d1d3589b4",
+          "art": "l'",
+          "sieve": "opaca"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Palabras de la ciudad, el viaje y las acciones que engañan: pronto es «listo» (lo pronto es presto), imbarazzato/a es «avergonzado» (embarazada es incinta), officina es «taller» (oficina es ufficio), argomento es «tema», fattoria es «granja», coincidenza es el enlace entre trenes, azienda es «empresa», marciapiede es «acera», parcheggio es «estacionamiento».",
+      "parts": {
+        "descubre": [
+          "s_2524677",
+          "s_1461853",
+          "s_2005157",
+          "s_5393630"
+        ],
+        "practica": [
+          "s_2524677",
+          "s_1461853",
+          "s_2005157",
+          "s_5393630",
+          "s_1448780",
+          "s_1521882",
+          "s_1461916",
+          "s_1461917",
+          "s_5166615",
+          "s_9709995",
+          "s_1461912",
+          "s_2552431",
+          "s_9709996",
+          "s_2020796",
+          "s_2020799",
+          "s_3896472",
+          "s_2579651",
+          "s_4777640",
+          "s_5923402",
+          "s_934961",
+          "s_12939117",
+          "s_10015003",
+          "s_7893399",
+          "s_7049728",
+          "s_3024723",
+          "s_9058943",
+          "s_1267780",
+          "s_4868241",
+          "s_5833379",
+          "s_8198426",
+          "s_5119410",
+          "s_14090538",
+          "s_14090539",
+          "s_2941639",
+          "s_4868249",
+          "s_4868245",
+          "s_3664421",
+          "s_3930520",
+          "s_11760354",
+          "s_10652146",
+          "s_835535",
+          "s_1664673"
+        ],
+        "escucha": [
+          "s_2524677",
+          "s_1521882",
+          "s_1461912",
+          "s_3896472",
+          "s_12939117",
+          "s_9058943",
+          "s_5119410",
+          "s_4868245"
+        ],
+        "prueba": [
+          "s_11815941",
+          "s_1461913",
+          "s_2579650",
+          "s_378167",
+          "s_6582462",
+          "s_962396",
+          "s_434026",
+          "s_1115649"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2524677",
+          "start": 6,
+          "end": 12,
+          "wrong": "parcheggio"
+        },
+        {
+          "id": "s_1461853",
+          "start": 8,
+          "end": 14,
+          "wrong": "parcheggio"
+        },
+        {
+          "id": "s_2005157",
+          "start": 2,
+          "end": 8,
+          "wrong": "fermo"
+        },
+        {
+          "id": "s_5393630",
+          "start": 9,
+          "end": 15,
+          "wrong": "parcheggio"
+        }
+      ]
+    },
+    {
+      "id": "u105",
+      "level": "A2",
+      "title": "Vocabulario: viaje y alojamiento",
+      "goal_es": "Vocabulario: viaje y alojamiento",
+      "codes": [
+        "ERR_VOC_VIAGGIO"
+      ],
+      "why_here": "La estación, los billetes, el hotel, un problema simple y cuánto se tarda.",
+      "ficha_es": "Viajar: ritardo (retraso), volo, orario (horario), arrivo, partenza (salida), passaggio, atterraggio (aterrizaje), campeggio (camping), frontiera, mappa, guida, gita (excursión corta), turisti, voli. Con el tren y el hotel de A1 (binario, biglietto, camera) forman el vocabulario del viaje.\n\nError típico: ritardo, volo, orario, sciopero, coincidenza, prenotare, ostello, guasto, reception (binario, biglietto, valigia y camera ya están en A1)\n\nQué practicas aquí: Área temática PLIDA A2: Transportes; Área temática PLIDA A2: Viajes y turismo; Moverse en autobús y en taxi (billete, parada, pedir que te lleven); Reservar un alojamiento o un billete.\n\nSituación del módulo: La estación, los billetes, el hotel, un problema simple y cuánto se tarda.",
+      "words": [
+        {
+          "form": "ritardo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el retraso",
+          "audio": "fb8c685d2c2d",
+          "art": "il",
+          "sieve": "opaca"
+        },
+        {
+          "form": "volo",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el vuelo",
+          "audio": "dad2f3287cac",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "ue-o",
+          "note": "vuelo→volo: ue→o"
+        },
+        {
+          "form": "orario",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el horario",
+          "audio": "b0d2ece6dc9b",
+          "art": "l'",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "horario→orario: pierde la h"
+        },
+        {
+          "form": "atterraggio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el aterrizaje",
+          "audio": "f8dc205207ad",
+          "art": "l'",
+          "sieve": "opaca"
+        },
+        {
+          "form": "campeggio",
+          "gender": "m",
+          "num": "s",
+          "gloss": "el camping",
+          "audio": "33577d7b4c02",
+          "art": "il",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "camping→campeggio"
+        },
+        {
+          "form": "partenza",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la salida",
+          "audio": "00d32b14757f",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "frontiera",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la frontera",
+          "audio": "c3744509f1cd",
+          "art": "la",
+          "sieve": "regular",
+          "rule": "otro",
+          "note": "frontera→frontiera: o→ie"
+        },
+        {
+          "form": "mappa",
+          "gender": "f",
+          "num": "s",
+          "gloss": "el mapa",
+          "audio": "e000b49648cf",
+          "art": "la",
+          "gdiv": true,
+          "sieve": "regular",
+          "rule": "doble",
+          "note": "mapa→mappa: p doble"
+        },
+        {
+          "form": "gita",
+          "gender": "f",
+          "num": "s",
+          "gloss": "la excursión corta",
+          "audio": "588d78a98401",
+          "art": "la",
+          "sieve": "opaca"
+        },
+        {
+          "form": "turisti",
+          "gender": "m",
+          "num": "p",
+          "gloss": "los turistas",
+          "audio": "885e026287ef",
+          "art": "i",
+          "sieve": "transparente"
+        },
+        {
+          "form": "voli",
+          "gender": "m",
+          "num": "p",
+          "gloss": "los vuelos",
+          "audio": "752759ad9620",
+          "art": "i",
+          "sieve": "regular",
+          "rule": "ue-o",
+          "note": "vuelos→voli: ue→o"
+        }
+      ],
+      "status": "active",
+      "explanation_es": "Viajar: ritardo (retraso), volo, orario (horario), arrivo, partenza (salida), passaggio, atterraggio (aterrizaje), campeggio (camping), frontiera, mappa, guida, gita (excursión corta), turisti, voli. Con el tren y el hotel de A1 (binario, biglietto, camera) forman el vocabulario del viaje.",
+      "parts": {
+        "descubre": [
+          "s_2218528",
+          "s_2556068",
+          "s_13383845",
+          "s_1152782"
+        ],
+        "practica": [
+          "s_2218528",
+          "s_2556068",
+          "s_13383845",
+          "s_1152782",
+          "s_2218526",
+          "s_2858171",
+          "s_10248840",
+          "s_1330085",
+          "s_4721597",
+          "s_5590577",
+          "s_12019645",
+          "s_8380155",
+          "s_4721600",
+          "s_3075000",
+          "s_6488848",
+          "s_12569777",
+          "s_1310111",
+          "s_2562974",
+          "s_388799",
+          "s_10145565",
+          "s_1742236",
+          "s_10145566",
+          "s_10247854",
+          "s_12080815",
+          "s_2131467",
+          "s_8457075",
+          "s_10763287",
+          "s_2159522",
+          "s_351142",
+          "s_934996",
+          "s_2512517",
+          "s_5170599",
+          "s_1308705",
+          "s_2159523",
+          "s_2818227",
+          "s_411054",
+          "s_2704712",
+          "s_3254584",
+          "s_4217501",
+          "s_7188714",
+          "s_1973991",
+          "s_1946463",
+          "s_10766216",
+          "s_5962416",
+          "s_2028577",
+          "s_695723",
+          "s_1310153",
+          "s_2830634",
+          "s_381803",
+          "s_374492",
+          "s_654537"
+        ],
+        "escucha": [
+          "s_2218528",
+          "s_10248840",
+          "s_4721600",
+          "s_388799",
+          "s_2131467",
+          "s_2512517",
+          "s_2704712",
+          "s_10766216"
+        ],
+        "prueba": [
+          "s_998148",
+          "s_13529355",
+          "s_2685233",
+          "s_5347463",
+          "s_12285797",
+          "s_5946802",
+          "s_5257252",
+          "s_4465341"
+        ]
+      },
+      "divergences": [
+        {
+          "id": "s_2218528",
+          "start": 5,
+          "end": 11,
+          "wrong": "atterraggio"
+        },
+        {
+          "id": "s_2556068",
+          "start": 6,
+          "end": 11,
+          "wrong": "gita"
+        },
+        {
+          "id": "s_13383845",
+          "start": 9,
+          "end": 14,
+          "wrong": "guida"
+        },
+        {
+          "id": "s_1152782",
+          "start": 9,
+          "end": 15,
+          "wrong": "atterraggio"
         }
       ]
     },

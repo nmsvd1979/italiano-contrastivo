@@ -25,6 +25,50 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "Se necesita una hora y media para llegar al lago.",
+    "es_author": "IA (Claude)",
+    "id": "a_02559005",
+    "it": "Ci vuole un'ora e mezza per arrivare al lago.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto tardas en llegar a la oficina?",
+    "es_author": "IA (Claude)",
+    "id": "a_03fe6945",
+    "it": "Quanto ci metti per arrivare in ufficio?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Tienes fotos? Sí, tengo muchas.",
@@ -113,6 +157,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "Tardan tres horas en llegar a Florencia.",
+    "es_author": "IA (Claude)",
+    "id": "a_0bb8344d",
+    "it": "Ci mettono tre ore per arrivare a Firenze.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Tienes hermanos? Sí, tengo tres.",
@@ -179,6 +245,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto se tarda en llegar al mar?",
+    "es_author": "IA (Claude)",
+    "id": "a_15accc35",
+    "it": "Quanto ci vuole per arrivare al mare?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_LEI"
     ],
     "es": "Vuelva mañana, señor, el doctor está ocupado. (usted)",
@@ -194,6 +282,28 @@
     "source": "authored",
     "tag_rules": {
       "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "Tardo media hora en llegar al trabajo.",
+    "es_author": "IA (Claude)",
+    "id": "a_17f627a8",
+    "it": "Ci metto mezz'ora per andare al lavoro.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -311,6 +421,50 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "Se necesitará una hora para llegar al centro.",
+    "es_author": "IA (Claude)",
+    "id": "a_252346d4",
+    "it": "Ci vorrà un'ora per arrivare in centro.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "Se necesitan tres días para terminar el trabajo.",
+    "es_author": "IA (Claude)",
+    "id": "a_2874559f",
+    "it": "Ci vogliono tre giorni per finire il lavoro.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_LEI"
     ],
     "es": "Mire, doctor, esta foto es de ayer. (usted)",
@@ -370,6 +524,28 @@
     "source": "authored",
     "tag_rules": {
       "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "En tren tardamos dos horas.",
+    "es_author": "IA (Claude)",
+    "id": "a_3164d0aa",
+    "it": "In treno ci mettiamo due ore.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -553,6 +729,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "Se necesitarán dos horas con el tráfico.",
+    "es_author": "IA (Claude)",
+    "id": "a_40e5409f",
+    "it": "Ci vorranno due ore con il traffico.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_LEI"
     ],
     "es": "Mire, señora, este bolso es hermosísimo. (usted)",
@@ -619,6 +817,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "Se necesitan diez minutos a pie.",
+    "es_author": "IA (Claude)",
+    "id": "a_4e065b68",
+    "it": "Ci vogliono dieci minuti a piedi.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Cuántas galletas comes? Como tres.",
@@ -656,6 +876,28 @@
     "source": "authored",
     "tag_rules": {
       "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto tardan en bus?",
+    "es_author": "IA (Claude)",
+    "id": "a_53e3fb59",
+    "it": "Quanto ci mettete in autobus?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -722,6 +964,28 @@
     "source": "authored",
     "tag_rules": {
       "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "De Roma a Venecia se necesitan cuatro horas.",
+    "es_author": "IA (Claude)",
+    "id": "a_58d193f7",
+    "it": "Ci vogliono quattro ore da Roma a Venezia.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -883,6 +1147,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "De Roma a Nápoles se necesitan dos horas.",
+    "es_author": "IA (Claude)",
+    "id": "a_5f836863",
+    "it": "Da Roma a Napoli ci vogliono due ore.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_LEI"
     ],
     "es": "Cierre la puerta, doctor, hay viento. (usted)",
@@ -971,6 +1257,50 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto tiempo se necesita para la visita?",
+    "es_author": "IA (Claude)",
+    "id": "a_6d61819a",
+    "it": "Quanto tempo ci vuole per la visita?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "Para ir a Milán tardo una hora y media.",
+    "es_author": "IA (Claude)",
+    "id": "a_6e31e091",
+    "it": "Per andare a Milano ci metto un'ora e mezza.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Cuántas habitaciones tienes? Tengo tres.",
@@ -1015,6 +1345,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "Para llegar al aeropuerto se necesitan veinte minutos.",
+    "es_author": "IA (Claude)",
+    "id": "a_71c17e89",
+    "it": "Per arrivare in aeroporto ci vogliono venti minuti.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_LEI"
     ],
     "es": "Dígame, señor, qué desea. (usted)",
@@ -1030,6 +1382,28 @@
     "source": "authored",
     "tag_rules": {
       "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto se tarda de aquí a la estación?",
+    "es_author": "IA (Claude)",
+    "id": "a_7268b603",
+    "it": "Quanto ci vuole da qui alla stazione?",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -1301,6 +1675,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "Tardo una hora en llegar a casa.",
+    "es_author": "IA (Claude)",
+    "id": "a_97609acd",
+    "it": "Ci metto un'ora per arrivare a casa.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Cuántas pizzas comen? Comemos dos.",
@@ -1433,6 +1829,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "En bici tardamos media hora.",
+    "es_author": "IA (Claude)",
+    "id": "a_ad553696",
+    "it": "Con la bici ci mettiamo mezz'ora.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_NE"
     ],
     "es": "¿Cuántas primas tienes? Tengo tres.",
@@ -1470,6 +1888,50 @@
     "source": "authored",
     "tag_rules": {
       "ERR_CLITIC_NE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "En auto se necesitan cinco horas.",
+    "es_author": "IA (Claude)",
+    "id": "a_b47b5d86",
+    "it": "In macchina ci vogliono cinque ore.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "Para preparar la maleta se necesitan veinte minutos.",
+    "es_author": "IA (Claude)",
+    "id": "a_b5354e38",
+    "it": "Per preparare la valigia ci vogliono venti minuti.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -1785,6 +2247,28 @@
     "author": "IA (Claude)",
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "Tardo cinco minutos en tomar el bus.",
+    "es_author": "IA (Claude)",
+    "id": "a_e232c15b",
+    "it": "Ci metto cinque minuti a prendere l'autobus.",
+    "license": "texto propio de la app, escrito por IA (uso personal)",
+    "qa_flags": [
+      "llm",
+      "authored"
+    ],
+    "review_status": "validated",
+    "source": "authored",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "IA (Claude)",
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_IMPERATIVO_LEI"
     ],
     "es": "Pase, doctor, está listo. (usted)",
@@ -1932,6 +2416,29 @@
     "source": "authored",
     "tag_rules": {
       "ERR_IMPERATIVO_LEI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Caminen por la acera.",
+    "es_author": "IA (Claude)",
+    "id": "s_10015003",
+    "it": "Camminate sul marciapiede.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10015003",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -2197,6 +2704,52 @@
       "ERR_CLITIC_DIRECT_INDIRECT": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Voy de camping con Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_10145565",
+    "it": "Vado in campeggio con Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10145565",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Iré de camping con Tom.",
+    "es_author": "IA (Claude)",
+    "id": "s_10145566",
+    "it": "Andrò in campeggio con Tom.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10145566",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -2586,6 +3139,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "No siempre llego tarde.",
+    "es_author": "Seael",
+    "es_source_id": "10247816",
+    "id": "s_10247854",
+    "it": "Non sono sempre in ritardo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10247854",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Nuel",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -2907,6 +3482,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Estoy estacionando en el estacionamiento del cine.",
+    "es_author": "IA (Claude)",
+    "id": "s_10652146",
+    "it": "Sto parcheggiando nel parcheggio del cinema.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10652146",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -3061,6 +3659,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Ya voy en el vuelo de regreso a casa.",
+    "es_author": "IA (Claude)",
+    "id": "s_10763287",
+    "it": "Sono già in volo verso casa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10763287",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Bethanielle",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -3079,6 +3701,28 @@
     "source_id": "10763517",
     "tag_rules": {
       "ERR_CLITICO_POSIZIONE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "dnnywld",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "¿Ya han anunciado el aterrizaje?",
+    "es_author": "saverius",
+    "es_source_id": "10770994",
+    "id": "s_10766216",
+    "it": "Hanno già annunciato l'atterraggio?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "10766216",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -3964,6 +4608,28 @@
       "ERR_IMPERATIVO_NEG": "capsule_calque"
     },
     "translation_kind": "llm"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Toda su familia trabaja en una estancia.",
+    "es_author": "hayastan",
+    "es_source_id": "1116643",
+    "id": "s_1115649",
+    "it": "Tutta la sua famiglia lavora in una fattoria.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1115649",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -5202,6 +5868,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Compro los huevos directamente de la granja.",
+    "es_author": "IA (Claude)",
+    "id": "s_11760354",
+    "it": "Compro le uova direttamente dalla fattoria.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11760354",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -5332,6 +6021,28 @@
     "source_id": "11799949",
     "tag_rules": {
       "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Nuel",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "¡He dicho quieto!",
+    "es_author": "saverius",
+    "es_source_id": "11816483",
+    "id": "s_11815941",
+    "it": "Ho detto fermo!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "11815941",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -5586,6 +6297,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "La partida es ahora.",
+    "es_author": "IA (Claude)",
+    "id": "s_12019645",
+    "it": "La partenza è adesso.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12019645",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Adelpa",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -5606,6 +6340,29 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "¿Ves el camino en el mapa?",
+    "es_author": "IA (Claude)",
+    "id": "s_12080815",
+    "it": "Vedi la strada sulla mappa?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12080815",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -5775,6 +6532,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Mary es auxiliar de vuelo.",
+    "es_author": "IA (Claude)",
+    "id": "s_12285797",
+    "it": "Mary è un'assistente di volo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12285797",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "carlosalberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -5886,6 +6666,52 @@
       "ERR_RELATIVO_CHE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto tiempo se tarda en ir de aquí al Hotel Hilton?",
+    "es_author": "IA (Claude)",
+    "id": "s_12399537",
+    "it": "Quanto tempo ci vuole per andare da qua all'Hilton Hotel?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12399537",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto se tarda en ir de aquí al Hotel Hilton?",
+    "es_author": "IA (Claude)",
+    "id": "s_12399538",
+    "it": "Quanto ci vuole per andare da qui all'Hilton Hotel?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12399538",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -6198,6 +7024,29 @@
     "source_id": "1255846",
     "tag_rules": {
       "ERR_PARTICIPLE_AGREEMENT": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "El mapa está en la pared.",
+    "es_author": "IA (Claude)",
+    "id": "s_12569777",
+    "it": "La mappa è sulla parete.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12569777",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -6559,6 +7408,28 @@
     "source_id": "12676650",
     "tag_rules": {
       "ERR_ORA_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Tom está listo para todo.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1203883",
+    "id": "s_1267780",
+    "it": "Tom è pronto per qualunque cosa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1267780",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -7044,6 +7915,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Esta es la acera.",
+    "es_author": "IA (Claude)",
+    "id": "s_12939117",
+    "it": "Questo è il marciapiede.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "12939117",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_CLITIC_DIRECT_INDIRECT"
     ],
     "es": "Ella lo ayuda.",
@@ -7372,6 +8266,74 @@
     "source_id": "1308626",
     "tag_rules": {
       "ERR_CLITIC_DIRECT_INDIRECT": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Vivimos cerca de la frontera.",
+    "es_author": "Shishir",
+    "es_source_id": "1308721",
+    "id": "s_1308705",
+    "it": "Abitiamo vicino alla frontiera.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1308705",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Me disculpo por el retraso.",
+    "es_author": "Kiraness",
+    "es_source_id": "1310107",
+    "id": "s_1310111",
+    "it": "Mi scuso per il ritardo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1310111",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Bibi81",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Aparentemente, el autobús está retrasado.",
+    "es_author": "arashi_29",
+    "es_source_id": "1084797",
+    "id": "s_1310153",
+    "it": "A quanto pare, l'autobus è in ritardo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1310153",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -7707,6 +8669,30 @@
     "source_id": "13297510",
     "tag_rules": {
       "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Estamos por partir.",
+    "es_author": "IA (Claude)",
+    "id": "s_1330085",
+    "it": "Siamo in partenza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1330085",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -8311,6 +9297,29 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Ese tren va a la hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_13529355",
+    "it": "Quel treno è in orario.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "13529355",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -9285,6 +10294,52 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Juan trabaja para una empresa alemana.",
+    "es_author": "IA (Claude)",
+    "id": "s_14090538",
+    "it": "Juan lavora per un'azienda tedesca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14090538",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "John trabaja para una empresa alemana.",
+    "es_author": "IA (Claude)",
+    "id": "s_14090539",
+    "it": "John lavora per un'azienda tedesca.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "14090539",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -9486,6 +10541,102 @@
       "ERR_FUTURO_RADICE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "¿No estás avergonzado?",
+    "es_author": "IA (Claude)",
+    "id": "s_1461912",
+    "it": "Non sei imbarazzato?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1461912",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "¿No estás avergonzada?",
+    "es_author": "IA (Claude)",
+    "id": "s_1461913",
+    "it": "Non sei imbarazzata?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1461913",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "¿No está avergonzado?",
+    "es_author": "IA (Claude)",
+    "id": "s_1461916",
+    "it": "Non è imbarazzato?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1461916",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "¿No estás avergonzada?",
+    "es_author": "IA (Claude)",
+    "id": "s_1461917",
+    "it": "Non è imbarazzata?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1461917",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -10186,6 +11337,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto se tarda en ir a Madrid?",
+    "es_author": "IA (Claude)",
+    "id": "s_1540001",
+    "it": "Quanto ci vuole per andare a Madrid?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1540001",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -10232,6 +11407,51 @@
       "ERR_PARTICIPIO_ES": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "No puedo decirte exactamente cuanto tardará.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1305519",
+    "id": "s_1543091",
+    "it": "Non posso dirti esattamente quanto ci vorrà.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1543091",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "No puedo decirle exactamente cuánto tiempo tomará.",
+    "es_author": "IA (Claude)",
+    "id": "s_1543092",
+    "it": "Non posso dirle esattamente quanto tempo ci vorrà.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1543092",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -11003,6 +12223,28 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Hoy rompí un pedazo de vereda con el martillo.",
+    "es_author": "hayastan",
+    "es_source_id": "1666141",
+    "id": "s_1664673",
+    "it": "Oggi ho rotto col martello un pezzo di marciapiede.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1664673",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -11723,6 +12965,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Ni siquiera está en el mapa.",
+    "es_author": "IA (Claude)",
+    "id": "s_1742236",
+    "it": "Non è neppure sulla mappa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1742236",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_COMPARATIVE_DI"
     ],
     "es": "Él es dos años menor que yo.",
@@ -12424,6 +13689,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cree que se tardará mucho en autobús?",
+    "es_author": "IA (Claude)",
+    "id": "s_1903756",
+    "it": "Pensa che ci vorrà molto in autobus?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1903756",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -12463,6 +13752,28 @@
     "source_id": "1926248",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Es de mañana aquí en mi huso horario.",
+    "es_author": "cueyayotl",
+    "es_source_id": "1205441",
+    "id": "s_1946463",
+    "it": "È mattina qui nel mio fuso orario.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1946463",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Guybrush88",
@@ -12508,6 +13819,29 @@
     "source_id": "1972149",
     "tag_rules": {
       "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "¿Hay muchos turistas en Armenia?",
+    "es_author": "IA (Claude)",
+    "id": "s_1973991",
+    "it": "Ci sono molti turisti in Armenia?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "1973991",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -13033,6 +14367,54 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Estoy muy avergonzado.",
+    "es_author": "IA (Claude)",
+    "id": "s_2020796",
+    "it": "Sono così imbarazzato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2020796",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Estoy muy avergonzada.",
+    "es_author": "IA (Claude)",
+    "id": "s_2020799",
+    "it": "Sono così imbarazzata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2020799",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "AYDYL84",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -13174,6 +14556,29 @@
     "source_id": "2023155",
     "tag_rules": {
       "ERR_PERSONAL_A": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Sirio60",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "¿Puedo reservar un vuelo a Chicago?",
+    "es_author": "IA (Claude)",
+    "id": "s_2028577",
+    "it": "Posso prenotare un volo per Chicago?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2028577",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -13665,6 +15070,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Finlandia está en el mapa.",
+    "es_author": "IA (Claude)",
+    "id": "s_2131467",
+    "it": "La Finlandia è sulla mappa.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2131467",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_VOC_ABITI"
     ],
     "es": "Un hombre como yo necesita un sombrero.",
@@ -13830,6 +15258,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto cree que se tardará en ir al aeropuerto?",
+    "es_author": "IA (Claude)",
+    "id": "s_2157854",
+    "it": "Quanto pensa che ci vorrà ad andare all'aeroporto?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2157854",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -13851,6 +15303,75 @@
       "ERR_PREP_PLACE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Nápoles atrae a muchos turistas.",
+    "es_author": "IA (Claude)",
+    "id": "s_2159522",
+    "it": "Napoli attira molti turisti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2159522",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Nápoles atrae a numerosos turistas.",
+    "es_author": "IA (Claude)",
+    "id": "s_2159523",
+    "it": "Napoli attira numerosi turisti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2159523",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto se tarda en ir a Okinawa en avión?",
+    "es_author": "IA (Claude)",
+    "id": "s_2178194",
+    "it": "Quanto ci vuole ad andare a Okinawa in aereo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2178194",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "riccioberto",
@@ -13875,6 +15396,30 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto se tardará en terminar el trabajo?",
+    "es_author": "IA (Claude)",
+    "id": "s_2180740",
+    "it": "Quanto ci vorrà per finire il lavoro?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2180740",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "miccap",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -13895,6 +15440,29 @@
     "source_id": "2188967",
     "tag_rules": {
       "ERR_SI_IMPERSONALE": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto se tarda en llegar a Chicago desde aquí?",
+    "es_author": "IA (Claude)",
+    "id": "s_2189399",
+    "it": "Quanto ci vuole ad arrivare a Chicago da qui?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2189399",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -15308,6 +16876,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "¿Dónde puedo conseguir un mapa?",
+    "es_author": "IA (Claude)",
+    "id": "s_2512517",
+    "it": "Dove posso prendere una mappa?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2512517",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -15453,6 +17044,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "Me pregunto cuánto tiempo tomará.",
+    "es_author": "IA (Claude)",
+    "id": "s_2536469",
+    "it": "Mi chiedo quanto ci vorrà.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2536469",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -15494,6 +17109,29 @@
     "source_id": "2551350",
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Yo estoy avergonzada.",
+    "es_author": "IA (Claude)",
+    "id": "s_2552431",
+    "it": "Io sono imbarazzata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2552431",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -15781,6 +17419,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Tengo un horario flexible.",
+    "es_author": "IA (Claude)",
+    "id": "s_2562974",
+    "it": "Ho un orario flessibile.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2562974",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -15847,6 +17508,54 @@
       "ERR_FUTURO_RADICE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "No estés avergonzado.",
+    "es_author": "IA (Claude)",
+    "id": "s_2579650",
+    "it": "Non essere imbarazzato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2579650",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "No estés avergonzada.",
+    "es_author": "IA (Claude)",
+    "id": "s_2579651",
+    "it": "Non essere imbarazzata.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2579651",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -15939,6 +17648,29 @@
       "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto se tarda en ir a Viena a pie?",
+    "es_author": "IA (Claude)",
+    "id": "s_2611856",
+    "it": "Quanto ci vuole ad andare a Vienna a piedi?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2611856",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -16080,6 +17812,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "¿Este avión va a la hora?",
+    "es_author": "IA (Claude)",
+    "id": "s_2685233",
+    "it": "Questo aereo è in orario?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2685233",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Emmanuel_Maldini",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
@@ -16167,6 +17922,29 @@
     "tag_rules": {
       "ERR_CLITIC_CI": "ci_locativo",
       "ERR_C_G_PALATAL": "c_g_palatale"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Tom va de camping cada verano.",
+    "es_author": "IA (Claude)",
+    "id": "s_2704712",
+    "it": "Tom va in campeggio ogni estate.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2704712",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -16381,6 +18159,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto se tarda en llegar a la estación?",
+    "es_author": "IA (Claude)",
+    "id": "s_2736413",
+    "it": "Quanto ci vuole ad arrivare alla stazione?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2736413",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -16400,6 +18201,30 @@
     "source_id": "2743583",
     "tag_rules": {
       "ERR_IMPERATIVO_NEG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto tiempo tomará llegar allá?",
+    "es_author": "IA (Claude)",
+    "id": "s_2746673",
+    "it": "Quanto ci vorrà per arrivare lì?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2746673",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -16635,6 +18460,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "¿Están todas listas para la excursión?",
+    "es_author": "IA (Claude)",
+    "id": "s_2818227",
+    "it": "Siete tutte pronte per la gita?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2818227",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_AVVERBI_PASSATO"
     ],
     "es": "¡No quiero más volver a casa!",
@@ -16679,6 +18528,28 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Esa es la razón de su demora.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1295034",
+    "id": "s_2830634",
+    "it": "È la ragione per cui lei è in ritardo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2830634",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_POSSESSIVE_SPELLING"
     ],
     "es": "Ese restaurante es famoso por sus especialidades.",
@@ -16695,6 +18566,29 @@
       "ERR_POSSESSIVE_SPELLING": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "«¿Cuánto tomará?» «Unas dos semanas.»",
+    "es_author": "IA (Claude)",
+    "id": "s_2842838",
+    "it": "\"Quanto ci vorrà?\" \"Circa due settimane.\"",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2842838",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -16926,6 +18820,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto se tarda en ir a pie a la estación?",
+    "es_author": "IA (Claude)",
+    "id": "s_2870003",
+    "it": "Quanto ci vuole ad andare a piedi alla stazione?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2870003",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -17088,6 +19006,29 @@
     "tag_rules": {
       "ERR_CONGIUNTIVO_OVERUSE_RELATIVE": "relativa_libera_indicativo",
       "ERR_GEMINATE_SPELLING": "geminata_ortografia"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Tiene una gran granja en Colorado.",
+    "es_author": "IA (Claude)",
+    "id": "s_2941639",
+    "it": "Ha una grande fattoria in Colorado.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "2941639",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -17495,6 +19436,30 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Tom parece realmente avergonzado.",
+    "es_author": "IA (Claude)",
+    "id": "s_3024723",
+    "it": "Tom sembra davvero imbarazzato.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3024723",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_PP_AUSILIARE"
     ],
     "es": "¡Has estado fatal!",
@@ -17633,6 +19598,29 @@
       "ERR_PP_PARTICIPI_IRREG": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Él siempre llega a la hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_3075000",
+    "it": "Lui è sempre in orario.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3075000",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -18316,6 +20304,29 @@
       "ERR_INDEFINITI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "carlosalberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Debemos adelantar la partida.",
+    "es_author": "IA (Claude)",
+    "id": "s_3254584",
+    "it": "Dobbiamo anticipare la partenza.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3254584",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -19854,6 +21865,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "martin",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "El tren saldrá con retraso.",
+    "es_author": "marcelostockle",
+    "es_source_id": "1519135",
+    "id": "s_351142",
+    "it": "Il treno partirà in ritardo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "351142",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -20781,6 +22814,28 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "En nuestra empresa utilizamos internet.",
+    "es_author": "Seael",
+    "es_source_id": "3664366",
+    "id": "s_3664421",
+    "it": "Nella nostra azienda utilizziamo Internet.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3664421",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "ema_rega",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -21250,6 +23305,28 @@
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Esta mañana llegué tarde a la escuela.",
+    "es_author": "tatoerique",
+    "es_source_id": "356100",
+    "id": "s_374492",
+    "it": "Stamattina sono arrivato in ritardo a scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "374492",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_RELATIVO_CHE"
     ],
     "es": "Es más fácil de lo que pensé.",
@@ -21625,6 +23702,29 @@
       "ERR_VOC_VORREI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "martin",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuántos días se necesitan normalmente para llegar allá?",
+    "es_author": "IA (Claude)",
+    "id": "s_376197",
+    "it": "Quanti giorni ci vogliono di solito per arrivarci?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "376197",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Pharamp",
@@ -22113,6 +24213,29 @@
   },
   {
     "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Camina por la acera.",
+    "es_author": "IA (Claude)",
+    "id": "s_378167",
+    "it": "Cammina sul marciapiede.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "378167",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [],
@@ -22589,6 +24712,28 @@
     "source_id": "381446",
     "tag_rules": {},
     "translation_kind": "llm"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Todos llegaron a clase a tiempo.",
+    "es_author": "darinmex",
+    "es_source_id": "658727",
+    "id": "s_381803",
+    "it": "Tutti sono arrivati in classe in orario.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "381803",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "direct"
   },
   {
     "author": "Pharamp",
@@ -23393,6 +25538,28 @@
     "author": "Pharamp",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Llegué tarde a la escuela.",
+    "es_author": "Shishir",
+    "es_source_id": "503046",
+    "id": "s_388799",
+    "it": "Ero in ritardo a scuola.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "388799",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Pharamp",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
     "error_codes": [],
     "es": "¿Qué ocurrió?",
     "es_author": "IA (Claude)",
@@ -23524,6 +25691,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "El estacionamiento está vacío.",
+    "es_author": "IA (Claude)",
+    "id": "s_3896472",
+    "it": "Il parcheggio è vuoto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3896472",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Pharamp",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -23546,6 +25736,29 @@
       "ERR_PP_AUSILIARE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "La matemática es un tema interesante.",
+    "es_author": "IA (Claude)",
+    "id": "s_3930520",
+    "it": "La matematica è un argomento interessante.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "3930520",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "valealb",
@@ -24456,6 +26669,30 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Nox",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "¿Están todos listos para la excursión?",
+    "es_author": "IA (Claude)",
+    "id": "s_411054",
+    "it": "Siete tutti pronti per la gita?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "411054",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -24785,6 +27022,29 @@
       "ERR_FUTURO_RADICE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "A Ken le gusta ir de camping.",
+    "es_author": "IA (Claude)",
+    "id": "s_4217501",
+    "it": "A Ken piace andare in campeggio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4217501",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "BEASY8",
@@ -25387,6 +27647,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Pharamp",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "George trabaja en una granja grande.",
+    "es_author": "IA (Claude)",
+    "id": "s_434026",
+    "it": "George lavora in una grande fattoria.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "434026",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -25684,6 +27967,30 @@
     "source_id": "4461",
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Me disgusta mucho llegar tarde.",
+    "es_author": "Seael",
+    "es_source_id": "10173042",
+    "id": "s_4465341",
+    "it": "Mi dispiace molto di essere in ritardo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4465341",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -26610,6 +28917,54 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "¿En qué vuelo ibas?",
+    "es_author": "IA (Claude)",
+    "id": "s_4721597",
+    "it": "Su quale volo eri?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4721597",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "¿En qué vuelo iban?",
+    "es_author": "IA (Claude)",
+    "id": "s_4721600",
+    "it": "Su quale volo eravate?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4721600",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -26793,6 +29148,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "No cambien de tema.",
+    "es_author": "IA (Claude)",
+    "id": "s_4777640",
+    "it": "Non cambiate argomento.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4777640",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -26952,6 +29330,78 @@
       "ERR_PREP_FIXED_GOV": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "¿Qué cultivas en tu granja?",
+    "es_author": "IA (Claude)",
+    "id": "s_4868241",
+    "it": "Cosa coltivi nella tua fattoria?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4868241",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "¿Qué cultivan en su granja?",
+    "es_author": "IA (Claude)",
+    "id": "s_4868245",
+    "it": "Cosa coltivate nella vostra fattoria?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4868245",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "¿Qué cultiva en su granja?",
+    "es_author": "IA (Claude)",
+    "id": "s_4868249",
+    "it": "Che cosa coltiva nella sua fattoria?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "4868249",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -27294,6 +29744,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "No pongan en peligro a la empresa.",
+    "es_author": "IA (Claude)",
+    "id": "s_5119410",
+    "it": "Non mettete l'azienda in pericolo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5119410",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "WM3DAS",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -27337,6 +29810,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Amo esta empresa.",
+    "es_author": "IA (Claude)",
+    "id": "s_5166615",
+    "it": "Amo questa azienda.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5166615",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -27355,6 +29851,29 @@
     "source_id": "5170219",
     "tag_rules": {
       "ERR_PP_VS_IMPERFETTO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "¿Dónde puedo comprar un mapa?",
+    "es_author": "IA (Claude)",
+    "id": "s_5170599",
+    "it": "Dove posso comprare una mappa?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5170599",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -27603,6 +30122,30 @@
     "source_id": "524265",
     "tag_rules": {
       "ERR_VOC_VORREI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Él habitualmente llega tarde al trabajo.",
+    "es_author": "gianich73",
+    "es_source_id": "5257445",
+    "id": "s_5257252",
+    "it": "Lui è spesso in ritardo al lavoro.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5257252",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -28105,6 +30648,29 @@
       "ERR_REFLEXIVE_AUX": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "No quiero perder el vuelo.",
+    "es_author": "IA (Claude)",
+    "id": "s_5347463",
+    "it": "Non voglio perdere il volo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5347463",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -28730,6 +31296,30 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "No tomará mucho tiempo.",
+    "es_author": "IA (Claude)",
+    "id": "s_5529094",
+    "it": "Non ci vorrà molto.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5529094",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -28867,6 +31457,29 @@
     "translation_kind": "llm"
   },
   {
+    "author": "Bethanielle",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "¿A qué hora es el vuelo?",
+    "es_author": "IA (Claude)",
+    "id": "s_5590577",
+    "it": "A che ora è il volo?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5590577",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "dnnywld",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -28954,6 +31567,29 @@
     "source_id": "5641968",
     "tag_rules": {
       "ERR_COMPARATIVO_IRREG": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "Tom no tiene idea de cuánto tiempo tomará.",
+    "es_author": "IA (Claude)",
+    "id": "s_5651467",
+    "it": "Tom non ha idea di quanto ci vorrà.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5651467",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -29740,6 +32376,29 @@
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
     "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "¿Quién es el presidente de la empresa?",
+    "es_author": "IA (Claude)",
+    "id": "s_5833379",
+    "it": "Chi è il presidente dell'azienda?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5833379",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
       "ERR_SI_IMPERSONALE"
     ],
     "es": "Aquí se habla francés.",
@@ -29893,6 +32552,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Estoy preparado para votar.",
+    "es_author": "Shishir",
+    "es_source_id": "7740760",
+    "id": "s_5923402",
+    "it": "Sono pronto per votare.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5923402",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "dnnywld",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -29938,6 +32619,51 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Valdast",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto tiempo toma de aquí a Boston?",
+    "es_author": "baudelaire",
+    "es_source_id": "5930917",
+    "id": "s_5932218",
+    "it": "Quanto tempo ci vuole da qui a Boston?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5932218",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Aquí está el mapa que busca.",
+    "es_author": "IA (Claude)",
+    "id": "s_5946802",
+    "it": "Ecco la mappa che sta cercando.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5946802",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
@@ -29956,6 +32682,28 @@
     "source_id": "5955453",
     "tag_rules": {
       "ERR_FUTURO_RADICE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Valdast",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Los vuelos nocturnos son más baratos.",
+    "es_author": "Adelpa",
+    "es_source_id": "5962194",
+    "id": "s_5962416",
+    "it": "I voli notturni sono più economici.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "5962416",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -30275,6 +33023,29 @@
       "ERR_COMPARATIVE_DI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Cuánto tiempo tomará?",
+    "es_author": "IA (Claude)",
+    "id": "s_611855",
+    "it": "Quanto tempo ci vorrà?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "611855",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -31513,6 +34284,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Hay demasiados turistas.",
+    "es_author": "IA (Claude)",
+    "id": "s_6488848",
+    "it": "Ci sono troppi turisti.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6488848",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -31553,6 +34347,30 @@
     "source_id": "653850",
     "tag_rules": {
       "ERR_PARTICIPIO_ES": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.9,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Ella prometió no volver a llegar tarde.",
+    "es_author": "Shishir",
+    "es_source_id": "649860",
+    "id": "s_654537",
+    "it": "Ha promesso di non essere di nuovo in ritardo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "654537",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -31667,6 +34485,29 @@
       "ERR_DATE_ORARI": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Es el dueño de la empresa.",
+    "es_author": "IA (Claude)",
+    "id": "s_6582462",
+    "it": "È il proprietario dell'azienda.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "6582462",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -32427,6 +35268,29 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Heracleum",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Lo siento, este vuelo está completo.",
+    "es_author": "IA (Claude)",
+    "id": "s_695723",
+    "it": "Spiacente, questo volo è al completo.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "695723",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
     "author": "dnnywld",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -32618,6 +35482,28 @@
     "source_id": "7045755",
     "tag_rules": {
       "ERR_PP_AUSILIARE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Tom está listo para irse, ¿no?",
+    "es_author": "pcarolina",
+    "es_source_id": "8716797",
+    "id": "s_7049728",
+    "it": "Tom è pronto a partire, vero?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7049728",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -33131,6 +36017,28 @@
     "source_id": "717786",
     "tag_rules": {
       "ERR_RELATIVO_CHE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Hay muchos turistas en Venecia.",
+    "es_author": "adaycito",
+    "es_source_id": "8564657",
+    "id": "s_7188714",
+    "it": "Ci sono molti turisti a Venezia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7188714",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
     },
     "translation_kind": "direct"
   },
@@ -34490,6 +37398,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "La empresa está en quiebra.",
+    "es_author": "IA (Claude)",
+    "id": "s_7893399",
+    "it": "L'azienda è in bancarotta.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "7893399",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -34770,6 +37701,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "¿Por qué demora tanto en comer?",
+    "es_author": "IA (Claude)",
+    "id": "s_8015040",
+    "it": "Perché ci mette così tanto a mangiare?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8015040",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.9,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -34856,6 +37810,29 @@
       "ERR_FUTURO_RADICE": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "No es mi tema favorito.",
+    "es_author": "IA (Claude)",
+    "id": "s_8198426",
+    "it": "Non è il mio argomento preferito.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8198426",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "rado",
@@ -35021,6 +37998,28 @@
   },
   {
     "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Nuestra empresa tiene una larga historia.",
+    "es_author": "Shishir",
+    "es_source_id": "2476385",
+    "id": "s_835535",
+    "it": "La nostra azienda ha una lunga, lunga storia.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "835535",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -35081,6 +38080,29 @@
     "source": "tatoeba",
     "source_id": "837951",
     "tag_rules": {},
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "Odia a los turistas, ¿verdad?",
+    "es_author": "IA (Claude)",
+    "id": "s_8380155",
+    "it": "Odia i turisti, vero?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8380155",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
     "translation_kind": "llm"
   },
   {
@@ -35225,6 +38247,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "¿Hay un vuelo por la tarde?",
+    "es_author": "IA (Claude)",
+    "id": "s_8457075",
+    "it": "C'è un volo nel pomeriggio?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8457075",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -35314,6 +38359,29 @@
       "ERR_TEMPO_FA_DA": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_CLITIC_CI"
+    ],
+    "es": "Siempre demora horas en prepararse.",
+    "es_author": "IA (Claude)",
+    "id": "s_8668373",
+    "it": "Ci mette sempre delle ore per prepararsi.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "8668373",
+    "tag_rules": {
+      "ERR_CLITIC_CI": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "Guybrush88",
@@ -35897,6 +38965,29 @@
   },
   {
     "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Mi abuelo tiene un taller.",
+    "es_author": "IA (Claude)",
+    "id": "s_9058943",
+    "it": "Mio nonno possiede un'officina.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9058943",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
     "cefr_confidence": 0.6,
     "cefr_estimate": "A2",
     "error_codes": [
@@ -36183,6 +39274,52 @@
       "ERR_REFLEXIVE_AUX": "capsule_calque"
     },
     "translation_kind": "direct"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "¿Ha elegido un tema?",
+    "es_author": "IA (Claude)",
+    "id": "s_934961",
+    "it": "Ha scelto un argomento?",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "934961",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "El tren siempre va a la hora.",
+    "es_author": "IA (Claude)",
+    "id": "s_934996",
+    "it": "Il treno è sempre in orario.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "934996",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
+    },
+    "translation_kind": "llm"
   },
   {
     "author": "riccioberto",
@@ -36580,6 +39717,28 @@
     "translation_kind": "direct"
   },
   {
+    "author": "Cero",
+    "cefr_confidence": 0.6,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Jacob Coxey estaba listo para lo peor.",
+    "es_author": "jayefes65",
+    "es_source_id": "1030525",
+    "id": "s_962396",
+    "it": "Jacob Coxey era pronto al peggio.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "962396",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
     "author": "riccioberto",
     "cefr_confidence": 0.3,
     "cefr_estimate": "A2",
@@ -36742,6 +39901,54 @@
     "source_id": "9696510",
     "tag_rules": {
       "ERR_VOC_FALSI_CASA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "Me gusta la empresa.",
+    "es_author": "IA (Claude)",
+    "id": "s_9709995",
+    "it": "Mi piace l'azienda.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9709995",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
+    },
+    "translation_kind": "llm"
+  },
+  {
+    "author": "Guybrush88",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_FALSI_CITTA"
+    ],
+    "es": "A mí me gusta la empresa.",
+    "es_author": "IA (Claude)",
+    "id": "s_9709996",
+    "it": "A me piace l'azienda.",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [
+      "multi_translation",
+      "llm"
+    ],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "9709996",
+    "tag_rules": {
+      "ERR_VOC_FALSI_CITTA": "capsule_calque"
     },
     "translation_kind": "llm"
   },
@@ -37349,6 +40556,28 @@
     "source_id": "998145",
     "tag_rules": {
       "ERR_PREP_PLACE": "capsule_calque"
+    },
+    "translation_kind": "direct"
+  },
+  {
+    "author": "riccioberto",
+    "cefr_confidence": 0.3,
+    "cefr_estimate": "A2",
+    "error_codes": [
+      "ERR_VOC_VIAGGIO"
+    ],
+    "es": "¡Que tengas un buen vuelo!",
+    "es_author": "Shishir",
+    "es_source_id": "854311",
+    "id": "s_998148",
+    "it": "Fai buon volo!",
+    "license": "CC BY 2.0 FR",
+    "qa_flags": [],
+    "review_status": "validated",
+    "source": "tatoeba",
+    "source_id": "998148",
+    "tag_rules": {
+      "ERR_VOC_VIAGGIO": "capsule_calque"
     },
     "translation_kind": "direct"
   },

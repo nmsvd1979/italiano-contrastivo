@@ -1,0 +1,1544 @@
+[
+ {
+  "id": "s_2524677",
+  "veredicto": "keep",
+  "espanol": "Tom está listo.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_4582888",
+  "veredicto": "doubt",
+  "nota": "«Tutto è fermo» ambiguo; traducción dudosa.",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_1461853",
+  "veredicto": "keep",
+  "espanol": "¿Está todo listo?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_2005157",
+  "veredicto": "keep",
+  "espanol": "Ahora está listo.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_5393630",
+  "veredicto": "keep",
+  "espanol": "No hay nada listo.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_1448780",
+  "veredicto": "keep",
+  "espanol": "Estoy casi listo.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_1521882",
+  "veredicto": "keep",
+  "espanol": "El café está listo.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_5923402",
+  "veredicto": "keep",
+  "espanol": "Estoy listo para votar.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_7049728",
+  "veredicto": "keep",
+  "espanol": "Tom está listo para irse, ¿verdad?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_1267780",
+  "veredicto": "keep",
+  "espanol": "Tom está listo para cualquier cosa.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_3664421",
+  "veredicto": "keep",
+  "espanol": "En nuestra empresa usamos internet.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_11815941",
+  "veredicto": "keep",
+  "espanol": "¡He dicho quieto!",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_2610290",
+  "veredicto": "reject",
+  "nota": "Realizzare como «darse cuenta» es calco del inglés.",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_962396",
+  "veredicto": "keep",
+  "espanol": "Jacob Coxey estaba preparado para lo peor.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_1115649",
+  "veredicto": "keep",
+  "espanol": "Toda su familia trabaja en una granja.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_835535",
+  "veredicto": "keep",
+  "espanol": "Nuestra empresa tiene una historia larguísima.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_1664673",
+  "veredicto": "keep",
+  "espanol": "Hoy rompí con un martillo un pedazo de acera.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_3646015",
+  "veredicto": "reject",
+  "nota": "B1 y «argomento» aquí significa argumento lógico.",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_1461917",
+  "veredicto": "keep",
+  "espanol": "¿No estás avergonzada?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_9709995",
+  "veredicto": "keep",
+  "espanol": "Me gusta la empresa.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_5166615",
+  "veredicto": "keep",
+  "espanol": "Amo esta empresa.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_4777641",
+  "veredicto": "doubt",
+  "nota": "Imperativo formal Lei (congiuntivo), no A2.",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_1461913",
+  "veredicto": "keep",
+  "espanol": "¿No estás avergonzada?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_9709996",
+  "veredicto": "keep",
+  "espanol": "A mí me gusta la empresa.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_2020796",
+  "veredicto": "keep",
+  "espanol": "Estoy muy avergonzado.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_2020799",
+  "veredicto": "keep",
+  "espanol": "Estoy muy avergonzada.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_3896472",
+  "veredicto": "keep",
+  "espanol": "El estacionamiento está vacío.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_2579651",
+  "veredicto": "keep",
+  "espanol": "No estés avergonzada.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_4777640",
+  "veredicto": "keep",
+  "espanol": "No cambien de tema.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_12939117",
+  "veredicto": "keep",
+  "espanol": "Esta es la acera.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_378167",
+  "veredicto": "keep",
+  "espanol": "Camina por la acera.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_10015003",
+  "veredicto": "keep",
+  "espanol": "Caminen por la acera.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_7893399",
+  "veredicto": "keep",
+  "espanol": "La empresa está en quiebra.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_9156485",
+  "veredicto": "reject",
+  "nota": "«fermo» es verbo (mi fermo), no el adjetivo.",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_9156481",
+  "veredicto": "reject",
+  "nota": "«fermo» es verbo (mi fermo), no el adjetivo.",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_3024723",
+  "veredicto": "keep",
+  "espanol": "Tom parece realmente avergonzado.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_6582462",
+  "veredicto": "keep",
+  "espanol": "Es el dueño de la empresa.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_9058943",
+  "veredicto": "keep",
+  "espanol": "Mi abuelo tiene un taller.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_4868243",
+  "veredicto": "reject",
+  "nota": "Mezcla tú (coltivi) con Lei (sua).",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_4868241",
+  "veredicto": "keep",
+  "espanol": "¿Qué cultivas en tu granja?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_8198426",
+  "veredicto": "keep",
+  "espanol": "No es mi tema favorito.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_5833379",
+  "veredicto": "keep",
+  "espanol": "¿Quién es el presidente de la empresa?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_5119410",
+  "veredicto": "keep",
+  "espanol": "No pongan en peligro a la empresa.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_2941639",
+  "veredicto": "keep",
+  "espanol": "Tiene una gran granja en Colorado.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_14090539",
+  "veredicto": "keep",
+  "espanol": "John trabaja para una empresa alemana.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_14090538",
+  "veredicto": "keep",
+  "espanol": "Juan trabaja para una empresa alemana.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_4868249",
+  "veredicto": "keep",
+  "espanol": "¿Qué cultiva en su granja?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_434026",
+  "veredicto": "keep",
+  "espanol": "George trabaja en una granja grande.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_12465908",
+  "veredicto": "reject",
+  "nota": "Registro B1, «accattivante».",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_4868245",
+  "veredicto": "keep",
+  "espanol": "¿Qué cultivan en su granja?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_3930520",
+  "veredicto": "keep",
+  "espanol": "La matemática es un tema interesante.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_11760354",
+  "veredicto": "keep",
+  "espanol": "Compro los huevos directamente de la granja.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_10652146",
+  "veredicto": "keep",
+  "espanol": "Estoy estacionando en el estacionamiento del cine.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_2997037",
+  "veredicto": "reject",
+  "nota": "Dos oraciones, imperativo con pronombre; poco A2.",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_1461916",
+  "veredicto": "keep",
+  "espanol": "¿No está avergonzado?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_5638126",
+  "veredicto": "reject",
+  "nota": "Contexto de disparar, violencia.",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_2552431",
+  "veredicto": "keep",
+  "espanol": "Yo estoy avergonzada.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_1461912",
+  "veredicto": "keep",
+  "espanol": "¿No estás avergonzado?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_934961",
+  "veredicto": "keep",
+  "espanol": "¿Ha elegido un tema?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_2579650",
+  "veredicto": "keep",
+  "espanol": "No estés avergonzado.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_FALSI_CITTA"
+ },
+ {
+  "id": "s_998148",
+  "veredicto": "keep",
+  "espanol": "¡Que tengas buen vuelo!",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_1310111",
+  "veredicto": "keep",
+  "espanol": "Me disculpo por el retraso.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_10247854",
+  "veredicto": "keep",
+  "espanol": "No siempre llego con retraso.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_1308705",
+  "veredicto": "keep",
+  "espanol": "Vivimos cerca de la frontera.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_7188714",
+  "veredicto": "keep",
+  "espanol": "Hay muchos turistas en Venecia.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_5962416",
+  "veredicto": "keep",
+  "espanol": "Los vuelos nocturnos son más baratos.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_388799",
+  "veredicto": "keep",
+  "espanol": "Llegué con retraso a la escuela.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_351142",
+  "veredicto": "keep",
+  "espanol": "El tren saldrá con retraso.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_5257252",
+  "veredicto": "keep",
+  "espanol": "Él suele llegar con retraso al trabajo.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_1946463",
+  "veredicto": "keep",
+  "espanol": "Aquí, en mi huso horario, es de mañana.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_10766216",
+  "veredicto": "keep",
+  "espanol": "¿Ya anunciaron el aterrizaje?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_1310153",
+  "veredicto": "keep",
+  "espanol": "Al parecer, el bus va con retraso.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_2830634",
+  "veredicto": "keep",
+  "espanol": "Es la razón por la que ella llega con retraso.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_4465341",
+  "veredicto": "keep",
+  "espanol": "Lamento mucho llegar con retraso.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_381803",
+  "veredicto": "keep",
+  "espanol": "Todos llegaron a clase a la hora.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_374492",
+  "veredicto": "keep",
+  "espanol": "Esta mañana llegué con retraso a la escuela.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_654537",
+  "veredicto": "keep",
+  "espanol": "Prometió no volver a llegar con retraso.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_2556068",
+  "veredicto": "keep",
+  "espanol": "Tengo el mapa.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_2218528",
+  "veredicto": "keep",
+  "espanol": "Está a la hora.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_13383845",
+  "veredicto": "keep",
+  "espanol": "¿Dónde está el mapa?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_1152782",
+  "veredicto": "keep",
+  "espanol": "Estamos a la hora.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_2218526",
+  "veredicto": "keep",
+  "espanol": "Están a la hora.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_2858171",
+  "veredicto": "keep",
+  "espanol": "Tom tiene un mapa.",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_4721597",
+  "veredicto": "keep",
+  "espanol": "¿En qué vuelo ibas?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_10248840",
+  "veredicto": "keep",
+  "espanol": "¿Tenemos un mapa?",
+  "nivel": "A1",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_1330085",
+  "veredicto": "keep",
+  "espanol": "Estamos por partir.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_5590577",
+  "veredicto": "keep",
+  "espanol": "¿A qué hora es el vuelo?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_12019645",
+  "veredicto": "keep",
+  "espanol": "La partida es ahora.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_8380155",
+  "veredicto": "keep",
+  "espanol": "Odia a los turistas, ¿verdad?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_4721600",
+  "veredicto": "keep",
+  "espanol": "¿En qué vuelo iban?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_3075000",
+  "veredicto": "keep",
+  "espanol": "Él siempre llega a la hora.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_6488848",
+  "veredicto": "keep",
+  "espanol": "Hay demasiados turistas.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_13529355",
+  "veredicto": "keep",
+  "espanol": "Ese tren va a la hora.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_2562974",
+  "veredicto": "keep",
+  "espanol": "Tengo un horario flexible.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_12569777",
+  "veredicto": "keep",
+  "espanol": "El mapa está en la pared.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_2685233",
+  "veredicto": "keep",
+  "espanol": "¿Este avión va a la hora?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_1742236",
+  "veredicto": "keep",
+  "espanol": "Ni siquiera está en el mapa.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_10145565",
+  "veredicto": "keep",
+  "espanol": "Voy de camping con Tom.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_12080815",
+  "veredicto": "keep",
+  "espanol": "¿Ves el camino en el mapa?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_10145566",
+  "veredicto": "keep",
+  "espanol": "Iré de camping con Tom.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_8457075",
+  "veredicto": "keep",
+  "espanol": "¿Hay un vuelo por la tarde?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_2131467",
+  "veredicto": "keep",
+  "espanol": "Finlandia está en el mapa.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_5347463",
+  "veredicto": "keep",
+  "espanol": "No quiero perder el vuelo.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_10763287",
+  "veredicto": "keep",
+  "espanol": "Ya voy en el vuelo de regreso a casa.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_2159522",
+  "veredicto": "keep",
+  "espanol": "Nápoles atrae a muchos turistas.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_934996",
+  "veredicto": "keep",
+  "espanol": "El tren siempre va a la hora.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_3353831",
+  "veredicto": "reject",
+  "nota": "Poco natural.",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_12285797",
+  "veredicto": "keep",
+  "espanol": "Mary es auxiliar de vuelo.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_2512517",
+  "veredicto": "keep",
+  "espanol": "¿Dónde puedo conseguir un mapa?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_5170599",
+  "veredicto": "keep",
+  "espanol": "¿Dónde puedo comprar un mapa?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_5946802",
+  "veredicto": "keep",
+  "espanol": "Aquí está el mapa que busca.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_411054",
+  "veredicto": "keep",
+  "espanol": "¿Están todos listos para la excursión?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_2818227",
+  "veredicto": "keep",
+  "espanol": "¿Están todas listas para la excursión?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_2159523",
+  "veredicto": "keep",
+  "espanol": "Nápoles atrae a numerosos turistas.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_2704712",
+  "veredicto": "keep",
+  "espanol": "Tom va de camping cada verano.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_4217501",
+  "veredicto": "keep",
+  "espanol": "A Ken le gusta ir de camping.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_3254584",
+  "veredicto": "keep",
+  "espanol": "Debemos adelantar la partida.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_1973991",
+  "veredicto": "keep",
+  "espanol": "¿Hay muchos turistas en Armenia?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_2028577",
+  "veredicto": "keep",
+  "espanol": "¿Puedo reservar un vuelo a Chicago?",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_695723",
+  "veredicto": "keep",
+  "espanol": "Lo siento, este vuelo está completo.",
+  "nivel": "A2",
+  "codigo": "ERR_VOC_VIAGGIO"
+ },
+ {
+  "id": "s_2915635",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_5932218",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto tiempo se tarda de aquí a Boston?",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_1543091",
+  "veredicto": "keep",
+  "espanol": "No puedo decirte exactamente cuánto tiempo tomará.",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_1912825",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_5605406",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_963501",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_1134836",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2934129",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2934128",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_1134837",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_969841",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto tiempo se necesita?",
+  "nivel": "A1",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2934130",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_4504941",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_5573774",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_1583077",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_1142897",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_12717709",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2352534",
+  "veredicto": "doubt",
+  "espanol": "¿Cómo va a la escuela?",
+  "nivel": "A1",
+  "codigo": "ERR_CLITIC_CI",
+  "nota": "variante no confirmada: Senza ci, «Come va a scuola?» es válida: cómo le va en la escuela."
+ },
+ {
+  "id": "s_2352533",
+  "veredicto": "doubt",
+  "espanol": "¿Cómo vas a la escuela?",
+  "nivel": "A1",
+  "codigo": "ERR_CLITIC_CI",
+  "nota": "variante no confirmada: Senza ci, «Come vai a scuola?» es válida y natural; ci es redundante."
+ },
+ {
+  "id": "s_1583076",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_425755",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_3210711",
+  "veredicto": "doubt",
+  "espanol": "Se necesita conciencia.",
+  "nivel": "A1",
+  "codigo": "ERR_CLITIC_CI",
+  "nota": "variante no confirmada: «Vuole consapevolezza» es posible en registro literario (richiede)."
+ },
+ {
+  "id": "s_5989714",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2352536",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_5570377",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_5991572",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_4727159",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto se tarda en auto?",
+  "nivel": "A1",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_3594634",
+  "veredicto": "doubt",
+  "espanol": "Solo se necesitan unos minutos.",
+  "nivel": "A1",
+  "codigo": "ERR_CLITIC_CI",
+  "nota": "variante no confirmada: «Vuole solo qualche minuto» es válida; ci no definitivo."
+ },
+ {
+  "id": "s_3876593",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_3876592",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_1522555",
+  "veredicto": "doubt",
+  "espanol": "Se necesita un rato para relajarse.",
+  "nivel": "A1",
+  "codigo": "ERR_CLITIC_CI",
+  "nota": "variante no confirmada: «Vuole un po'» puede leerse como requerir."
+ },
+ {
+  "id": "s_3594635",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_3594637",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_5529094",
+  "veredicto": "keep",
+  "espanol": "No tomará mucho tiempo.",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_756508",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_611855",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto tiempo tomará?",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_1250951",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_1604614",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_1604615",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_11350385",
+  "veredicto": "doubt",
+  "espanol": "Solo tomará un minuto.",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI",
+  "nota": "variante no confirmada: «Vorrà solo un minuto» es válida (querrá/requerirá)."
+ },
+ {
+  "id": "s_1250950",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_946766",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2536469",
+  "veredicto": "keep",
+  "espanol": "Me pregunto cuánto tiempo tomará.",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_3860450",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_1115620",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2884736",
+  "veredicto": "doubt",
+  "espanol": "Se necesitará una vida entera para esto.",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI",
+  "nota": "variante no confirmada: «Vorrà una vita» posible en uso literario."
+ },
+ {
+  "id": "s_2074866",
+  "veredicto": "doubt",
+  "espanol": "Tomará una hora llegar allá.",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI",
+  "nota": "variante no confirmada: «Vorrà un'ora» es posible; además es redundante con arrivarci."
+ },
+ {
+  "id": "s_3635569",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_7534405",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_3635567",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2074868",
+  "veredicto": "doubt",
+  "espanol": "Tomará una hora llegar allá.",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI",
+  "nota": "variante no confirmada: «Vorrà un'ora» es posible; además es redundante con lì."
+ },
+ {
+  "id": "s_3414499",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2746673",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto tiempo tomará llegar allá?",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_5651467",
+  "veredicto": "keep",
+  "espanol": "Tom no tiene idea de cuánto tiempo tomará.",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_1903756",
+  "veredicto": "keep",
+  "espanol": "¿Cree que se tardará mucho en autobús?",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_1540001",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto se tarda en ir a Madrid?",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2180740",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto se tardará en terminar el trabajo?",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_14013881",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_8015040",
+  "veredicto": "keep",
+  "espanol": "¿Por qué demora tanto en comer?",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_3778675",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_8668373",
+  "veredicto": "keep",
+  "espanol": "Siempre demora horas en prepararse.",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2842838",
+  "veredicto": "keep",
+  "espanol": "«¿Cuánto tomará?» «Unas dos semanas.»",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2689427",
+  "veredicto": "doubt",
+  "espanol": "Se necesita un poco de tiempo para enamorarse.",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI",
+  "nota": "variante no confirmada: «Vuole un po' di tempo» válida en registro literario."
+ },
+ {
+  "id": "s_2736413",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto se tarda en llegar a la estación?",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2611856",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto se tarda en ir a Viena a pie?",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_3434836",
+  "veredicto": "doubt",
+  "espanol": "Se necesitan dos horas para leer este libro.",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI",
+  "nota": "variante no confirmada: «Vogliono due ore» es válida (requieren)."
+ },
+ {
+  "id": "s_383568",
+  "veredicto": "doubt",
+  "espanol": "Se necesita valentía para cambiar un hábito.",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI",
+  "nota": "variante no confirmada: «Vuole coraggio» válida en registro literario."
+ },
+ {
+  "id": "s_4257386",
+  "veredicto": "doubt",
+  "espanol": "Se necesita tiempo para aprender finés.",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI",
+  "nota": "variante no confirmada: «Vuole del tempo» válida en registro literario."
+ },
+ {
+  "id": "s_2178194",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto se tarda en ir a Okinawa en avión?",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_1851490",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2189399",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto se tarda en llegar a Chicago desde aquí?",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2819136",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_3095151",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2870003",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto se tarda en ir a pie a la estación?",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_633145",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_1543092",
+  "veredicto": "keep",
+  "espanol": "No puedo decirle exactamente cuánto tiempo tomará.",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2157854",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto cree que se tardará en ir al aeropuerto?",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_376197",
+  "veredicto": "keep",
+  "espanol": "¿Cuántos días se necesitan normalmente para llegar allá?",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_12399538",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto se tarda en ir de aquí al Hotel Hilton?",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_6055815",
+  "veredicto": "doubt",
+  "espanol": "Se necesitará al menos un año para terminar este proyecto.",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI",
+  "nota": "variante no confirmada: «Vorrà almeno un anno» es válida (requerirá)."
+ },
+ {
+  "id": "s_9268433",
+  "veredicto": "doubt",
+  "espanol": "Para hablar bien una lengua extranjera se necesita tiempo.",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI",
+  "nota": "variante no confirmada: «vuole tempo» válida en registro literario."
+ },
+ {
+  "id": "s_5351886",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_12399537",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto tiempo se tarda en ir de aquí al Hotel Hilton?",
+  "nivel": "A2",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "s_2157480",
+  "veredicto": "reject",
+  "nota": "Omitir «ci» deja frase válida, o ci no locativo/no apto",
+  "codigo": "ERR_CLITIC_CI"
+ },
+ {
+  "id": "a_5f836863",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "De Roma a Nápoles se necesitan dos horas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_71c17e89",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "Para llegar al aeropuerto se necesitan veinte minutos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_2874559f",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "Se necesitan tres días para terminar el trabajo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_b47b5d86",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "En auto se necesitan cinco horas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_3164d0aa",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "En tren tardamos dos horas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_17f627a8",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "Tardo media hora en llegar al trabajo.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_97609acd",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "Tardo una hora en llegar a casa.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_03fe6945",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto tardas en llegar a la oficina?",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_53e3fb59",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto tardan en bus?",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_7268b603",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto se tarda de aquí a la estación?",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_4e065b68",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "Se necesitan diez minutos a pie.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_15accc35",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto se tarda en llegar al mar?",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_252346d4",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "Se necesitará una hora para llegar al centro.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_40e5409f",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "Se necesitarán dos horas con el tráfico.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_0bb8344d",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "Tardan tres horas en llegar a Florencia.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_b5354e38",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "Para preparar la maleta se necesitan veinte minutos.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_e232c15b",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "Tardo cinco minutos en tomar el bus.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_6e31e091",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "Para ir a Milán tardo una hora y media.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_58d193f7",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "De Roma a Venecia se necesitan cuatro horas.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_6d61819a",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "¿Cuánto tiempo se necesita para la visita?",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_ad553696",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "En bici tardamos media hora.",
+  "nivel": "A2"
+ },
+ {
+  "id": "a_02559005",
+  "codigo": "ERR_CLITIC_CI",
+  "veredicto": "keep",
+  "espanol": "Se necesita una hora y media para llegar al lago.",
+  "nivel": "A2"
+ }
+]

@@ -1267,7 +1267,7 @@
   },
   {
    "id": "a2m09",
-   "estado": "planificado",
+   "estado": "cerrado",
    "title_es": "Viajar y alojarse",
    "situacion_es": "La estación, los billetes, el hotel, un problema simple y cuánto se tarda.",
    "can_do_es": [
@@ -1318,9 +1318,9 @@
    ],
    "unidades_existentes": [],
    "entrada": {
-    "id": "rd_stazione2",
-    "fuente": "Texto propio: en la estación (ningún libro abierto trae un diálogo de estación u hotel)",
-    "nota": "authored; apoyado en Piacere! «Il mio viaggio»"
+    "id": "rd_a2m09_entrada",
+    "fuente": "Texto propio: «In stazione» (no hay diálogo abierto)",
+    "nota": "authored"
    },
    "libro_entrada_es": "(texto propio) con apoyo de P/lettura-il-mio-viaggio/, G/8-una-giornata-per-le-ferie/ (itinerario de Verona y 7 preguntas), G/g-8-3-ci-e-ne/, G/v-9-2, Wikivoyage Italian phrasebook",
    "libros_preguntas_es": "G/8-una-giornata-per-le-ferie/ (7 preguntas), G/g-8-3-ci-e-ne/, P/conversazione-un-salto-nel-passato/",
